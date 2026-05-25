@@ -48,8 +48,11 @@ A few to try next:
 - **Marketing:** [What's my true CAC and ROAS by channel?](../prompts/marketing-roas.md)
 - **Multi-source:** [Draft a board update for last quarter](../prompts/multi-source.md)
 
-## Done
+## Next step
 
-That's the whole onboarding. You're set up. Browse, ask, get answers.
+Ready to unlock the real power of CorpusIQ? Move to
+[6. Your first cross-source query](06-first-cross-source-query.md) — connect a second tool and ask questions that span both.
 
-Powered by CorpusIQ.
+---
+
+**Powered by CorpusIQ**

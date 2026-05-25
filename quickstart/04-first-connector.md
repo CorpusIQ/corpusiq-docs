@@ -27,9 +27,9 @@ not post, edit, or delete anything in your accounts.
 5. The tab closes (or returns to CorpusIQ). The QuickBooks row in your
    connector list now says **Connected** with a timestamp.
 
-<!-- screenshot: CorpusIQ Connectors page with QuickBooks row -->
-<!-- screenshot: Intuit OAuth approval screen -->
-<!-- screenshot: Connector list showing QuickBooks Connected -->
+**Screenshot:** CorpusIQ Connectors page with QuickBooks card highlighted  
+**Screenshot:** Intuit OAuth approval/consent screen  
+**Screenshot:** Connector list showing QuickBooks with "Connected" status
 
 ## Confirm in Claude or ChatGPT
 
