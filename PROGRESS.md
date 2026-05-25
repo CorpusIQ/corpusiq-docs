@@ -166,3 +166,26 @@ Total: 11 screenshot slots.
    - `changelog/` — when the connector list or skills catalog moves.
    - `glossary.md` — OAuth, MCP, skill, connector, tool, runbook —
      defined in one place.
+
+---
+
+## Final state — 2026-05-25 (post-completion)
+
+All four rounds shipped. Repo state:
+
+- **59 markdown files**, **3,599 lines** of user-facing documentation
+- **31 per-connector pages** — full coverage of the registry
+- **7 DOC-GAP markers** (connectors without internal SETUP docs in `multi-source-mcp/Documentation/`): amazon_seller, gohighlevel, google_workspace, gunbroker, mongodb, postgres, postscript. Vendor click-paths for these were inferred from registry + vendor public docs and should be verified before publish.
+- **10 prompt-library files** covering 9 categories + index, with skill-runbook attribution on every prompt where one applies.
+- **5 quickstart files** + **5 how-it-works files** + **5 troubleshooting files**.
+
+### Ready-to-consume
+
+This documentation tree is suitable for Marin to convert into website pages or for direct hosting via MkDocs / Docusaurus / similar.
+
+### Suggested next steps (for whoever picks this up)
+
+1. Fill the `<!-- screenshot: ... -->` placeholders across `quickstart/` and `connectors/` once a real instance of the dashboard exists.
+2. Verify the 7 DOC-GAP connector pages against the actual vendor UIs before publish.
+3. Decide hosting: MkDocs Material → `docs.corpusiq.io` is the obvious answer.
+4. Add a CHANGELOG section once content stabilizes, so users can see what shipped per release.
