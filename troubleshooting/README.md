@@ -1,7 +1,10 @@
 # Troubleshooting
 
-Four pages for the four most common things that go sideways.
+Five pages for the most common things that go sideways.
 
+- [error-codes-reference.md](error-codes-reference.md) — Error codes,
+  messages, and fixes organized by type (auth, rate limit, timeout, vendor).
+  Start here if you see an error.
 - [connector-auth-failed.md](connector-auth-failed.md) — "I tried to
   connect Shopify and it failed."
 - [connector-shows-no-data.md](connector-shows-no-data.md) — "It says
@@ -11,5 +14,6 @@ Four pages for the four most common things that go sideways.
 - [chatgpt-cant-see-corpusiq.md](chatgpt-cant-see-corpusiq.md) — "I added
   CorpusIQ to a custom GPT and nothing happens."
 
-If your issue isn't on this list, email support with: which connector,
+If your issue isn't on this list, see the "escalate to support" section at the
+bottom of the error codes reference, or email support with: which connector,
 what you asked, what Claude or ChatGPT showed you.
