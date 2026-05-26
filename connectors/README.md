@@ -1,6 +1,6 @@
 # Connectors
 
-CorpusIQ integrates with 28 third-party data sources plus 3 internal
+CorpusIQ integrates with 29 third-party data sources plus 3 internal
 connectors (databases, cross-source analytics, canonical layer). Each
 external connector requires a one-time authentication — you click Connect,
 approve the permission screen, and CorpusIQ stores a read-only token
@@ -17,6 +17,7 @@ we'll say so on its page and explain why.
 ### Money
 
 - [QuickBooks](quickbooks.md)
+- [Stripe](stripe.md)
 
 ### Ecommerce + marketplaces
 
