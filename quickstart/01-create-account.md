@@ -12,8 +12,8 @@ Sign up at corpusiq.io, verify your email, land on the dashboard.
 3. Verify the email from the message we send you.
 4. You'll land on the CorpusIQ dashboard. Bookmark it.
 
-<!-- screenshot: corpusiq.io signup page -->
-<!-- screenshot: dashboard landing view after first login -->
+**Screenshot:** CorpusIQ signup page (https://corpusiq.io/signup)  
+**Screenshot:** Dashboard landing view after first login
 
 ## What you get
 
