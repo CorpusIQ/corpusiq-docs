@@ -45,3 +45,7 @@ allergic to slogans. The docs are written for him. If you see a step that
 reads like marketing copy, file a bug.
 
 Powered by CorpusIQ.
+
+## Topics
+
+`mcp` `model-context-protocol` `ai-connectors` `business-intelligence` `claude` `chatgpt` `shopify` `quickbooks` `google-analytics` `hubspot` `stripe` `ai-agents` `llm-tools` `operator-tools` `saas`
