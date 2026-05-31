@@ -1,0 +1,64 @@
+# Changelog
+
+What's shipped to production, newest first. Customer-facing changes only —
+internal refactors and infrastructure work live in the engineering tracker, not
+here. Dates are when the change went live on production.
+
+This is a curated log. For the full commit-level history, see the
+[multi-source-mcp repo](https://github.com/CorpusIQ/multi-source-mcp).
+
+---
+
+## May 2026
+
+### New connectors
+
+- **Close** — Close CRM. Leads, opportunities, and sales-pipeline questions.
+- **Notion** — your workspace wiki and databases as a queryable source.
+- **Stripe** — payment intelligence: charges, payouts, reconciliation, customer
+  revenue. Reconciliation tooling expanded over several releases.
+- **LinkedIn Ads** — B2B ad performance alongside your other ad accounts.
+- **PostHog** — product analytics: funnels, events, retention.
+- **Ahrefs** and **Semrush** — SEO: backlinks, keyword positions, competitor
+  visibility.
+- **GunBroker** and **eBay** — marketplace seller accounts: listings, orders,
+  sell-through.
+
+### Reliability & correctness
+
+- **Multi-replica OAuth state** — reworked how login and connector-auth state is
+  stored so it's shared across server instances. Fixes intermittent "invalid
+  state" and spurious sign-out errors under load. (A large multi-phase effort
+  across the month.)
+- **Device-login fix** — resolved an outage on the Claude/ChatGPT device-login
+  path and added guardrails so that class of bug can't recur silently.
+- **Google account-mismatch fix** — connecting a Google source now correctly
+  binds to the account you actually authorized, even if you're signed into
+  several.
+- **Per-connector error surfacing** — when a vendor returns an error (rate
+  limit, expired token, no data), CorpusIQ now tells you what happened instead
+  of returning an empty result. No more silent blanks.
+
+### Platform
+
+- **Usage stats** — see what you've asked, which connectors you lean on, and an
+  estimate of the tokens CorpusIQ saved your assistant by fetching data
+  directly. Ask: *"show me my CorpusIQ usage."*
+- **Canonical Layer** — declare authoritative business facts (your real MRR
+  definition, your fiscal calendar, your pricing) so answers stay consistent
+  across sources.
+
+---
+
+## A note on this log
+
+We started keeping a public changelog in May 2026. Connectors and fixes that
+predate it aren't all listed individually — the [Connectors index](../connectors/)
+is the source of truth for everything currently live. Going forward, every
+customer-facing change lands here.
+
+Want to know when something specific ships? Watch the
+[Roadmap](../roadmap/) or subscribe to the **Announcements** category in
+[Discussions](https://github.com/CorpusIQ/corpusiq-docs/discussions).
+
+Powered by CorpusIQ.

@@ -2,7 +2,7 @@
 
 CorpusIQ is the live-data brain you plug into Claude or ChatGPT. Connect the
 tools you already pay for — QuickBooks, Shopify, Klaviyo, Google Ads, GA4,
-HubSpot, Slack, Gmail, and 20+ more — then ask plain-English questions and get
+HubSpot, Slack, Gmail, and 35+ more — then ask plain-English questions and get
 real answers grounded in your own data.
 
 This is the working documentation. Not a sales pitch. If you're trying to get
@@ -27,6 +27,9 @@ CorpusIQ is read-only. We never write to your systems.
 - **Something's broken?** Try [Troubleshooting](troubleshooting/).
 - **Curious how the magic works?** [How it works](how-it-works/) explains the
   connectors and skills engine in plain English.
+- **Want to see what's coming?** Check the [Roadmap](roadmap/) and the
+  [Changelog](changelog/).
+- **Got an idea or a question?** Join the [Community](community/).
 
 ## What's in here
 
@@ -37,6 +40,9 @@ CorpusIQ is read-only. We never write to your systems.
 | [connectors/](connectors/) | One page per connector: what it unlocks, how to authenticate, what data it sees |
 | [how-it-works/](how-it-works/) | The substrate — connectors, skills engine, privacy posture |
 | [troubleshooting/](troubleshooting/) | Common failure modes and fixes |
+| [roadmap/](roadmap/) | What we're building, what's planned, what's parked |
+| [changelog/](changelog/) | What shipped, in plain language |
+| [community/](community/) | Request connectors, ask questions, follow releases |
 
 ## A note on voice
 
