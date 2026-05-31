@@ -11,6 +11,17 @@ This is the working documentation. Not a sales pitch. If you're trying to get
 set up, run a useful prompt, or fix a broken connector, you're in the right
 place.
 
+
+## See It In Action
+
+**MCP device login — 45 seconds, production server:**
+
+https://github.com/CorpusIQ/corpusiq-docs/assets/mcp-device-login-demo.mp4
+
+Connect your AI agent to 25+ business data sources via a live MCP endpoint.  
+Five steps. Any MCP client. OAuth 2.1 PKCE.
+
+
 ## 30-second pitch
 
 You connect your business data sources once. From then on, when you ask Claude
