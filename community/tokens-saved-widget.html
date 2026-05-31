@@ -1,0 +1,46 @@
+<!--
+  CorpusIQ public tokens-saved widget — drop-in.
+
+  Live data source: https://mcp2.corpusiq.io/api/v1/usage/public-counter
+    - Unauthenticated, CORS-open (Access-Control-Allow-Origin: *)
+    - PII-free (no per-user / per-tool / per-connector breakdowns)
+    - Cached server-side for 5 minutes
+
+  Two ways to embed:
+
+  1) Static badge (works on GitHub READMEs — no JS allowed there):
+
+     ![tokens saved (est.)](https://img.shields.io/endpoint?url=https%3A%2F%2Fmcp2.corpusiq.io%2Fapi%2Fv1%2Fusage%2Fpublic-counter%3Fformat%3Dshields)
+
+  2) Live JS widget (for the marketing site, blogs, anywhere JS runs):
+     copy the <span> + <script> below into your page.
+-->
+
+<span id="cqiq-tokens-saved" data-precision="1">
+  <a href="https://www.corpusiq.io" rel="noopener">
+    <strong>—</strong> tokens saved (est.)
+  </a>
+</span>
+
+<script>
+(function () {
+  var el = document.getElementById("cqiq-tokens-saved");
+  if (!el) return;
+  function fmt(n) {
+    if (n >= 1e9) return (n / 1e9).toFixed(1) + "B";
+    if (n >= 1e6) return (n / 1e6).toFixed(1) + "M";
+    if (n >= 1e3) return (n / 1e3).toFixed(1) + "K";
+    return String(n);
+  }
+  fetch("https://mcp2.corpusiq.io/api/v1/usage/public-counter")
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (data) {
+      if (!data || typeof data.tokens_saved_estimate !== "number") return;
+      var strong = el.querySelector("strong");
+      if (strong) strong.textContent = fmt(data.tokens_saved_estimate);
+      el.title = "Lifetime estimate across all CorpusIQ users · updated " +
+        (data.last_updated || "");
+    })
+    .catch(function () { /* leave the em-dash fallback */ });
+})();
+</script>

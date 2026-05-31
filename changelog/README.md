@@ -41,6 +41,10 @@ This is a curated log. For the full commit-level history, see the
 
 ### Platform
 
+- **Public tokens-saved counter** — the running estimate of tokens CorpusIQ has
+  saved across all users is now exposed as a public, PII-free endpoint
+  (`/api/v1/usage/public-counter`). The badge at the top of this docs site is
+  live data, refreshed every 5 minutes. (Phase B of the docs/community surface.)
 - **Usage stats** — see what you've asked, which connectors you lean on, and an
   estimate of the tokens CorpusIQ saved your assistant by fetching data
   directly. Ask: *"show me my CorpusIQ usage."*

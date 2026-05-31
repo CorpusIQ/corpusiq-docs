@@ -1,5 +1,7 @@
 # CorpusIQ Documentation
 
+![tokens saved (est.)](https://img.shields.io/endpoint?url=https%3A%2F%2Fmcp2.corpusiq.io%2Fapi%2Fv1%2Fusage%2Fpublic-counter%3Fformat%3Dshields&style=flat-square&logo=anthropic&logoColor=white)
+
 CorpusIQ is the live-data brain you plug into Claude or ChatGPT. Connect the
 tools you already pay for — QuickBooks, Shopify, Klaviyo, Google Ads, GA4,
 HubSpot, Slack, Gmail, and 35+ more — then ask plain-English questions and get
