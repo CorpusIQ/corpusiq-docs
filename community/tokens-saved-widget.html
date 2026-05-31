@@ -27,10 +27,9 @@
   var el = document.getElementById("cqiq-tokens-saved");
   if (!el) return;
   function fmt(n) {
-    if (n >= 1e9) return (n / 1e9).toFixed(1) + "B";
-    if (n >= 1e6) return (n / 1e6).toFixed(1) + "M";
-    if (n >= 1e3) return (n / 1e3).toFixed(1) + "K";
-    return String(n);
+    // Full number with thousands separators, e.g. 18,200,000
+    try { return Math.round(n).toLocaleString("en-US"); }
+    catch (e) { return String(Math.round(n)); }
   }
   fetch("https://mcp2.corpusiq.io/api/v1/usage/public-counter")
     .then(function (r) { return r.ok ? r.json() : null; })
