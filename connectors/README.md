@@ -38,6 +38,7 @@ we'll say so on its page and explain why.
 - [Google Search Console](search-console.md)
 - [Semrush](semrush.md)
 - [YouTube](youtube.md)
+- [IndexNow](indexnow.md)
 
 ### Email and SMS marketing
 
