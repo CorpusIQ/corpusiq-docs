@@ -18,8 +18,8 @@ place.
 
 https://github.com/CorpusIQ/corpusiq-docs/assets/mcp-device-login-demo.mp4
 
-Connect your AI agent to 25+ business data sources via a live MCP endpoint.  
-Five steps. Any MCP client. OAuth 2.1 PKCE.
+Connect your AI agent to 36+ business data sources via a live MCP endpoint.  
+Five steps. Any MCP client. OAuth 2.0 device flow — no browser required.
 
 
 ## 30-second pitch
@@ -37,12 +37,49 @@ CorpusIQ is read-only. We never write to your systems.
 - **Want to see what it can do?** Browse the [Prompts library](prompts/) —
   60+ copy-paste prompts ranked by business impact.
 - **Need to connect a specific tool?** Jump to the [Connectors index](connectors/).
+- **Building an agent or CLI tool?** See [Direct MCP Connection](https://www.corpusiq.io/mcp/direct-connection) — device login, no browser required, works with LangChain, AutoGen, llama.cpp, any MCP client.
 - **Something's broken?** Try [Troubleshooting](troubleshooting/).
 - **Curious how the magic works?** [How it works](how-it-works/) explains the
   connectors and skills engine in plain English.
 - **Want to see what's coming?** Check the [Roadmap](roadmap/) and the
   [Changelog](changelog/).
 - **Got an idea or a question?** Join the [Community](community/).
+
+## Direct connection (CLI / agents / CI)
+
+If your tool can't open a browser, use **OAuth 2.0 Device Authorization Grant**:
+
+```bash
+# 1. Get a device code
+curl -s -X POST https://mcp2.corpusiq.io/oauth/device/authorize
+
+# 2. Open the verification_uri, enter the user_code (once)
+
+# 3. Poll for the token
+curl -s -X POST https://mcp2.corpusiq.io/oauth/token \
+  -d "grant_type=urn:ietf:params:oauth:grant-type:device_code&device_code=<device_code>"
+
+# 4. Use the token
+curl https://mcp2.corpusiq.io/mcp \
+  -H "Authorization: Bearer <access_token>"
+```
+
+MCP config block (paste into any MCP client):
+
+```json
+{
+  "mcpServers": {
+    "corpusiq": {
+      "url": "https://mcp2.corpusiq.io/mcp",
+      "authorizationUrl": "https://www.corpusiq.io/mcp-auth"
+    }
+  }
+}
+```
+
+Python device login helper (zero deps beyond `requests`): [corpusiq.io/mcp/direct-connection](https://www.corpusiq.io/mcp/direct-connection)
+
+**Two prerequisites:** a CorpusIQ account + connectors authorized in the dashboard. The token only reaches connectors already linked.
 
 ## What's in here
 
