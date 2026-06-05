@@ -9,6 +9,30 @@ This is a curated log. For the full commit-level history, see the
 
 ---
 
+## June 2026
+
+### New features
+
+- **Metric Spec Registry** — declare a business number once (MRR, AOV,
+  active customers, whatever), with the recipe written in a small DSL
+  that resolves live against your connector data. Every AI client gets
+  the same answer, every time, with a one-line provenance footer and
+  optional cross-source drift checks against a peer metric. No
+  warehouse, no caching — just a definition the system honors
+  consistently. Read the onboarding guide:
+  [how-it-works/metric-specs.md](../how-it-works/metric-specs.md).
+- **Drift report tool** — `metric_spec_drift_report` walks every spec
+  with a `cross_source_checks` peer set and surfaces only the pairs
+  currently outside their tolerance. Useful when Stripe and QuickBooks
+  disagree about recurring revenue and you want to know before the
+  board call.
+- **Soft eval gate with surfaced warnings** — specs whose golden-value
+  eval doesn't match get saved anyway, but the warnings ride along on
+  every answer derived from that spec. Silent acceptance defeats the
+  purpose; loud warnings beat hidden ones.
+
+---
+
 ## May 2026
 
 ### New connectors
