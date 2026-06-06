@@ -33,6 +33,16 @@ CorpusIQ is read-only. We never write to your systems.
 
 ## Start here
 
+**Choose your path:**
+
+| I want to... | Go here |
+|---|---|
+| Chat with AI about my business data | [AI Chat Users](docs/ai-chat-users.md) — demo.corpusiq.io |
+| Connect my AI agent via MCP | [AI Agent Users](docs/ai-agent-users.md) — direct MCP connection |
+| See which agents work | [Supported AI Agents](docs/supported-agents.md) — Hermes, Claude, Cursor, more |
+
+**Quick links:**
+
 - **New?** Walk the [Quickstart](quickstart/) — five short pages, ~10 minutes.
 - **Want to see what it can do?** Browse the [Prompts library](prompts/) —
   60+ copy-paste prompts ranked by business impact.
