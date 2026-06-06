@@ -102,6 +102,12 @@ Python device login helper (zero deps beyond `requests`): [corpusiq.io/mcp/direc
 | [troubleshooting/](troubleshooting/) | Common failure modes and fixes |
 | [roadmap/](roadmap/) | What we're building, what's planned, what's parked |
 | [changelog/](changelog/) | What shipped, in plain language |
+| [docs/onboarding/](docs/onboarding/) | Step-by-step setup guides for AI chat and AI agent users |
+| [docs/architecture/](docs/architecture/) | System architecture, MCP endpoint, connector layer |
+| [docs/security/](docs/security/) | Authentication, encryption, audit, best practices |
+| [docs/search/](docs/search/) | Search capabilities and cross-source queries |
+| [docs/reporting/](docs/reporting/) | Reporting workflows and data export |
+| [docs/governance/](docs/governance/) | MSR source of truth, validation, reconciliation |
 | [community/](community/) | Request connectors, ask questions, follow releases |
 
 ## A note on voice
