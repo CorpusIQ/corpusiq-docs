@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CorpusIQ — See what your AI agent sees</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a0e17;color:#e4e4e7;min-height:100vh;display:flex;flex-direction:column;align-items:center}
+header{width:100%;padding:24px 32px;display:flex;justify-content:space-between;align-items:center;max-width:900px}
+.logo{font-size:20px;font-weight:700;color:#fff;letter-spacing:-.5px}
+.logo span{color:#c9a961}
+.try-btn{background:#c9a961;color:#0a0e17;border:none;padding:10px 22px;border-radius:6px;font-weight:600;font-size:14px;cursor:pointer;text-decoration:none}
+.try-btn:hover{background:#d4b36b}
+main{max-width:900px;width:100%;padding:40px 32px}
+h1{font-size:32px;font-weight:700;margin-bottom:8px;line-height:1.2}
+.subtitle{color:#888;font-size:16px;margin-bottom:40px}
+.query-box{background:#141923;border:1px solid #1e2535;border-radius:10px;padding:6px;display:flex;margin-bottom:24px}
+.query-box input{flex:1;background:none;border:none;color:#fff;font-size:15px;padding:12px 14px;outline:none;font-family:inherit}
+.query-box input::placeholder{color:#555}
+.query-box button{background:#c9a961;color:#0a0e17;border:none;padding:10px 24px;border-radius:6px;font-weight:600;cursor:pointer;font-size:14px}
+.query-box button:hover{background:#d4b36b}
+.results{display:none}
+.results.active{display:block}
+.sources{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.source-tag{background:#1a2030;color:#7eb8da;padding:4px 10px;border-radius:4px;font-size:12px;font-weight:500}
+.answer{background:#141923;border:1px solid #1e2535;border-radius:10px;padding:24px;margin-bottom:16px;line-height:1.7;font-size:15px}
+.answer .highlight{color:#c9a961;font-weight:600}
+.citations{margin-top:16px}
+.cite{display:flex;gap:12px;padding:12px;border-left:2px solid #1e2535;margin-bottom:8px;font-size:13px;color:#999}
+.cite strong{color:#ccc;display:block;margin-bottom:2px}
+.prompt-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px}
+.prompt-chip{background:#141923;border:1px solid #1e2535;color:#999;padding:8px 16px;border-radius:20px;font-size:13px;cursor:pointer;transition:all .2s}
+.prompt-chip:hover{border-color:#c9a961;color:#c9a961}
+.footer{color:#555;font-size:13px;text-align:center;padding:40px 32px}
+.footer a{color:#c9a961;text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">Corpus<span>IQ</span> Demo</div>
+<a href="https://corpusiq.io" class="try-btn">Start Free Trial</a>
+</header>
+<main>
+<h1>Ask a business question.</h1>
+<p class="subtitle">See exactly what your AI agent sees when connected to real data.</p>
+<div class="prompt-row">
+<span class="prompt-chip" onclick="ask('What was our total revenue last month across all channels?')">Revenue last month</span>
+<span class="prompt-chip" onclick="ask('Which customers spent over $500 this quarter but haven\'t ordered in 60 days?')">High value lapsing customers</span>
+<span class="prompt-chip" onclick="ask('Compare Facebook Ads ROAS vs Google Ads ROAS for Q1 2026')">Ad performance comparison</span>
+<span class="prompt-chip" onclick="ask('What products have the highest return rate and which marketing channels drove those sales?')">Product return analysis</span>
+</div>
+<div class="query-box">
+<input type="text" id="query" placeholder="Ask anything about your business data..." value="What was our total revenue last month across all channels?">
+<button onclick="ask()">Ask</button>
+</div>
+<div class="results active" id="results">
+<div class="sources" id="sources"></div>
+<div class="answer" id="answer"></div>
+<div class="citations" id="citations"></div>
+</div>
+</main>
+<div class="footer">
+Connected to <strong>29 data sources</strong> through one MCP endpoint. <a href="https://corpusiq.io">Start your 30-day free trial</a> — no credit card.
+</div>
+<script>
+const demos = {
+"What was our total revenue last month across all channels?":{
+sources:["Stripe","Shopify","QuickBooks"],
+answer:'Last month\'s total revenue across all channels was <span class="highlight">$847,293</span>. This breaks down as <span class="highlight">$612,450</span> from Shopify (72.3%), <span class="highlight">$189,200</span> from Stripe payments (22.3%), and <span class="highlight">$45,643</span> from wholesale invoiced through QuickBooks (5.4%). Compared to the previous month, revenue increased 12.8%.',
+citations:[
+{source:"Stripe — Payment Report",detail:"Period: May 1-31, 2026. Total processed: $189,200 across 847 transactions. Average transaction: $223.38."},
+{source:"Shopify — Sales Report",detail:"Period: May 1-31, 2026. Gross sales: $612,450. Orders: 3,241. Average order value: $188.95."},
+{source:"QuickBooks — P&L Statement",detail:"Period: May 2026. Wholesale revenue: $45,643. 12 invoices processed. Net margin: 34%."}
+]},
+"Which customers spent over $500 this quarter but haven't ordered in 60 days?":{
+sources:["Shopify","Klaviyo","Stripe"],
+answer:'Found <span class="highlight">47 customers</span> matching this criteria. Total value at risk: <span class="highlight">$89,200</span> in quarterly revenue. Top 5 by spend: 1) Acme Corp ($12,400, last order March 28), 2) BlueSky Retail ($8,900, March 15), 3) GreenLeaf Organics ($7,200, April 2), 4) Metro Supplies ($6,100, March 30), 5) Peak Outdoors ($5,800, April 5). All 47 have active Klaviyo profiles with recent email opens — recommended win-back sequence.',
+citations:[
+{source:"Shopify — Customer Report",detail:"Filtered: lifetime value >$500, last order date <60 days. 47 matches from 3,241 customer records."},
+{source:"Klaviyo — Engagement Report",detail:"47 profiles checked. 41/47 opened an email in last 30 days. 23/47 clicked. Win-back sequence 'Lapsing VIP' estimated recovery rate: 18%."},
+{source:"Stripe — Subscription Report",detail:"8 of 47 have active subscriptions. 2 paused, 6 active. MRR at risk: $3,200."}
+]},
+"Compare Facebook Ads ROAS vs Google Ads ROAS for Q1 2026":{
+sources:["Meta Ads","Google Ads","Stripe"],
+answer:'Q1 2026 ROAS: <span class="highlight">Facebook Ads: 3.8x</span> (spent $42,000, returned $159,600) vs <span class="highlight">Google Ads: 2.9x</span> (spent $31,000, returned $89,900). Combined: 3.4x. Interestingly, Facebook had higher ROAS but Google had <span class="highlight">45% better conversion rate</span> on high-ticket items (>$500). Recommendation: shift $5,000/month from Facebook to Google for the high-ticket campaign segment.',
+citations:[
+{source:"Meta Ads — Campaign Report",detail:"Period: Jan 1 — Mar 31, 2026. Total spend: $42,000. Revenue attributed: $159,600. Top campaign: 'Spring Launch' (4.6x ROAS)."},
+{source:"Google Ads — Campaign Report",detail:"Period: Jan 1 — Mar 31, 2026. Total spend: $31,000. Revenue attributed: $89,900. Top campaign: 'Enterprise Search' (5.1x ROAS on $500+ items)."},
+{source:"Stripe — Revenue Attribution",detail:"Cross-referenced transaction data. 847 Stripe transactions matched to ad attribution windows. Confidence: 94%."}
+]},
+"What products have the highest return rate and which marketing channels drove those sales?":{
+sources:["Shopify","Meta Ads","Google Ads"],
+answer:'Three products above 8% return rate: 1) <span class="highlight">Wireless Earbuds Pro</span> (12.4% return rate, 847 units sold, mostly via Facebook Ads), 2) <span class="highlight">Smart Scale X2</span> (9.1%, 234 units, Facebook Ads), 3) <span class="highlight">Fitness Band 3</span> (8.7%, 612 units, mixed channels). Facebook Ads drove 78% of the high-return product sales. The product pages show no sizing issues in reviews — likely a targeting mismatch. Consider tightening Facebook audience to existing customers for these SKUs.',
+citations:[
+{source:"Shopify — Returns Report",detail:"Period: Q1 2026. Return rates calculated as (returned units / total sold). 3,241 total orders. 187 returns (5.8% overall)."},
+{source:"Meta Ads — Attribution Report",detail:"Cross-referenced: 78% of high-return SKU sales attributed to Facebook Ads campaigns targeting 'lookalike — broad interest' audiences."},
+{source:"Google Ads — Attribution Report",detail:"12% of high-return SKU sales from Google Shopping. Return rate on Google-attributed sales: 4.1% (below average)."}
+]}
+};
+
+function ask(q){
+q = q || document.getElementById('query').value;
+let d = demos[q] || demos[Object.keys(demos)[0]];
+document.getElementById('query').value = q;
+document.getElementById('sources').innerHTML = d.sources.map(s=>`<span class="source-tag">${s}</span>`).join('');
+document.getElementById('answer').innerHTML = '<p>'+d.answer+'</p>';
+document.getElementById('citations').innerHTML = '<p style="color:#666;font-size:13px;margin-bottom:12px">Citations from live data:</p>'+d.citations.map(c=>`<div class="cite"><strong>${c.source}</strong>${c.detail}</div>`).join('');
+document.getElementById('results').classList.add('active');
+}
+</script>
+</body>
+</html>
