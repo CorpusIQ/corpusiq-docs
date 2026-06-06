@@ -16,7 +16,7 @@ place.
 
 **MCP device login — 45 seconds, production server:**
 
-https://github.com/CorpusIQ/corpusiq-docs/assets/mcp-device-login-demo.mp4
+https://github.com/CorpusIQ/corpusiq-docs/blob/main/assets/mcp-device-login-demo.mp4
 
 Connect your AI agent to 36+ business data sources via a live MCP endpoint.  
 Five steps. Any MCP client. OAuth 2.0 device flow — no browser required.
