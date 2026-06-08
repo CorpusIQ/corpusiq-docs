@@ -17,9 +17,16 @@ means your post gets seen by the right person faster.
 
 ### 💡 Ideas — "I wish CorpusIQ could…"
 
-This is the one to use for **feature and connector requests.** Want us to add a
-connector for a tool you use? Want a new metric, a new prompt, a different
-behavior? Open an Idea.
+This is the one to use for early **feature and connector ideas.** Want us to add
+a connector for a tool you use? Want a new metric, a new prompt, a different
+behavior? Start with an Idea when you want discussion, upvotes, or feedback
+before the team scopes the work.
+
+If you already have a specific connector enhancement with a clear use case,
+current workaround, and business impact, open a tracked
+[Connector Enhancement Request](https://github.com/CorpusIQ/corpusiq-docs/issues/new/choose)
+instead. That keeps concrete requests aligned with the issue workflow in
+[CONTRIBUTING.md](../CONTRIBUTING.md).
 
 Ideas support **upvotes.** If you see an existing Idea that matches what you
 want, upvote it instead of opening a duplicate — that's the single most useful
@@ -68,7 +75,8 @@ information.
 
 | You want to…                          | Go to            |
 | ------------------------------------- | ---------------- |
-| Request a connector or feature        | **Ideas** 💡     |
+| Discuss an early connector or feature idea | **Ideas** 💡 |
+| Submit a specific connector enhancement | [Connector Enhancement Request](https://github.com/CorpusIQ/corpusiq-docs/issues/new/choose) |
 | Upvote something you also want        | **Ideas** 💡     |
 | Ask how to do something / report a bug| **Q&A** 🙋       |
 | Find out when something ships         | **Announcements** 📣 (subscribe) |
