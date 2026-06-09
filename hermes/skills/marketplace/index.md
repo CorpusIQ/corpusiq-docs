@@ -1,6 +1,6 @@
 ---
 title: Skills.sh Marketplace — CorpusIQ Selection
-description: Curated skills from skills.sh for Hermes agents. 85+ skills across marketing, infrastructure, development, content, and operations.
+description: Curated skills from skills.sh for Hermes agents. 111 skills across 15 categories: marketing, infrastructure, communication, orchestration, DevOps, integrations, and more.
 ---
 
 # Skills.sh Marketplace
@@ -138,6 +138,69 @@ Skills are reusable AI agent capabilities from [skills.sh](https://skills.sh). I
 
 ---
 
-**Total: 85 curated skills across 10 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+## 🆕 Hermes Agent Variants — 5 skills (June 2026)
+
+Additional variants of `nousresearch/hermes-agent`. Install with `npx skills add nousresearch/hermes-agent@<variant>`.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| [nousresearch/hermes-agent@dogfood](https://skills.sh/nousresearch/hermes-agent) | 3.6K | Dogfood/edge build — latest Hermes features |
+| [nousresearch/hermes-agent@yuanbao](https://skills.sh/nousresearch/hermes-agent) | 443 | Hermes + Yuanbao (Tencent AI) integration |
+| [nousresearch/hermes-agent@popular-web-designs](https://skills.sh/nousresearch/hermes-agent) | 169 | Web design generation via Hermes |
+| [nousresearch/hermes-agent@llm-wiki](https://skills.sh/nousresearch/hermes-agent) | 156 | LLM knowledge base / wiki integration |
+| [nousresearch/hermes-agent@powerpoint](https://skills.sh/nousresearch/hermes-agent) | 153 | PowerPoint/presentation generation |
+
+## 🆕 Communication Platform Bots — 4 skills (June 2026)
+
+Turn Hermes agents into interactive bots on major messaging platforms.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| [claude-office-skills/skills@telegram-bot](https://skills.sh/claude-office-skills/skills) | 3.1K | Telegram bot with full messaging API |
+| [claude-office-skills/skills@whatsapp-automation](https://skills.sh/claude-office-skills/skills) | 3.4K | WhatsApp messaging and workflow automation |
+| [claude-office-skills/skills@slack-workflows](https://skills.sh/claude-office-skills/skills) | 2.8K | Slack app: messaging, channels, reactions |
+| [claude-office-skills/skills@discord-bot](https://skills.sh/claude-office-skills/skills) | 2.8K | Discord bot: channels, messaging, moderation |
+
+## 🆕 Agent Orchestration & RAG — 6 skills (June 2026)
+
+Production patterns for multi-agent orchestration and retrieval-augmented generation.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| [wshobson/agents@rag-implementation](https://skills.sh/wshobson/agents) | 9.5K | Production RAG: chunking, embedding, retrieval |
+| [langchain-ai/langchain-skills@langchain-rag](https://skills.sh/langchain-ai/langchain-skills) | 8.6K | LangChain-native RAG with vectorstores |
+| [wshobson/agents@workflow-orchestration-patterns](https://skills.sh/wshobson/agents) | 8.2K | Agent workflow patterns: fan-out, pipeline, DAG |
+| [wshobson/agents@saga-orchestration](https://skills.sh/wshobson/agents) | 7.1K | Saga pattern for distributed agent transactions |
+| [qodex-ai/ai-agent-skills@multi-agent-orchestration](https://skills.sh/qodex-ai/ai-agent-skills) | 1.7K | Multi-agent coordination and task delegation |
+| [sickn33/antigravity-awesome-skills@ai-agents-architect](https://skills.sh/sickn33/antigravity-awesome-skills) | 1.1K | AI agent system architecture design |
+
+## 🆕 Infrastructure & DevOps — 5 skills (June 2026)
+
+Production infrastructure for deploying, scaling, and monitoring agent systems.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| [neondatabase/agent-skills@neon-postgres](https://skills.sh/neondatabase/agent-skills) | 40.3K | Serverless Postgres — ideal for agent state |
+| [sickn33/antigravity-awesome-skills@docker-expert](https://skills.sh/sickn33/antigravity-awesome-skills) | 18.9K | Docker containerization for agent services |
+| [jeffallan/claude-skills@kubernetes-specialist](https://skills.sh/jeffallan/claude-skills) | 10.2K | K8s deployment patterns for agent clusters |
+| [jeffallan/claude-skills@monitoring-expert](https://skills.sh/jeffallan/claude-skills) | 3K | Monitoring and observability for production agents |
+
+## 🆕 Platform Integrations — 6 skills (June 2026)
+
+Direct integrations with platforms CorpusIQ agents interact with daily.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| [intellectronica/agent-skills@notion-api](https://skills.sh/intellectronica/agent-skills) | 42.1K | Full Notion API: pages, databases, blocks |
+| [resend/resend-skills@agent-email-inbox](https://skills.sh/resend/resend-skills) | 3.3K | Email inbox for AI agents via Resend |
+| [claude-office-skills/skills@notion-automation](https://skills.sh/claude-office-skills/skills) | 2.7K | Automated Notion workflows for agents |
+| [alirezarezvani/claude-skills@social-media-analyzer](https://skills.sh/alirezarezvani/claude-skills) | 1.2K | Programmatic social media content analysis |
+| [heygen-com/skills@create-video](https://skills.sh/heygen-com/skills) | 946 | HeyGen video creation for AI agents |
+
+---
+
+**Total: 111 curated skills across 15 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+
+*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Discovery Report](/hermes/skills/marketplace/new-june-2026/) →*
 
 *Powered by CorpusIQ*

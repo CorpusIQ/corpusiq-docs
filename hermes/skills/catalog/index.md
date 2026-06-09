@@ -1,6 +1,6 @@
 ---
 title: Skills Catalog
-description: Every skill available to Hermes agents — 73+ native CorpusIQ skills, 85+ marketplace skills from skills.sh. Single source of truth.
+description: Every skill available to Hermes agents — 73+ native CorpusIQ skills, 111+ marketplace skills from skills.sh. Single source of truth.
 ---
 
 # Skills Catalog
@@ -9,7 +9,7 @@ Complete index of all skills available to CorpusIQ Hermes agents. Updated as ski
 
 Skills are reusable agent capabilities — step-by-step workflows with tools, triggers, and verification. Not static prompts. Not text files. Executable runbooks that agents read and follow.
 
-**158 total**: 73 native + 85 marketplace.
+**184 total**: 73 native + 111 marketplace.
 
 ---
 
@@ -168,7 +168,7 @@ Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically wh
 
 ---
 
-## Marketplace Skills (85)
+## Marketplace Skills (111)
 
 Installed from [skills.sh](https://skills.sh) with `npx skills add <owner/repo@skill>`.
 
@@ -266,6 +266,65 @@ From [vercel-labs/agent-browser](https://skills.sh/vercel-labs/agent-browser), [
 | `blogwatcher` | corpusiq-docs | Monitor blogs and RSS/Atom feeds |
 | `social-media` | corpusiq-docs | Cross-platform social media workflows |
 
+### 🆕 Hermes Agent Variants — 5 skills (June 2026)
+
+Additional variants of `nousresearch/hermes-agent`. Install with `npx skills add nousresearch/hermes-agent@<variant>`.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| `hermes-agent@dogfood` | 3.6K | Dogfood/edge build — latest Hermes features |
+| `hermes-agent@yuanbao` | 443 | Hermes + Yuanbao (Tencent AI) integration |
+| `hermes-agent@popular-web-designs` | 169 | Web design generation via Hermes |
+| `hermes-agent@llm-wiki` | 156 | LLM knowledge base / wiki integration |
+| `hermes-agent@powerpoint` | 153 | PowerPoint/presentation generation |
+
+### 🆕 Communication Platform Bots — 4 skills (June 2026)
+
+Turn Hermes agents into interactive bots on major messaging platforms.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| `telegram-bot` | 3.1K | Telegram bot with full messaging API |
+| `whatsapp-automation` | 3.4K | WhatsApp messaging and workflow automation |
+| `slack-workflows` | 2.8K | Slack app: messaging, channels, reactions |
+| `discord-bot` | 2.8K | Discord bot: channels, messaging, moderation |
+
+### 🆕 Agent Orchestration & RAG — 6 skills (June 2026)
+
+Production patterns for multi-agent orchestration and retrieval-augmented generation.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| `rag-implementation` | 9.5K | Production RAG: chunking, embedding, retrieval |
+| `langchain-rag` | 8.6K | LangChain-native RAG with vectorstores |
+| `workflow-orchestration-patterns` | 8.2K | Agent workflow patterns: fan-out, pipeline, DAG |
+| `saga-orchestration` | 7.1K | Saga pattern for distributed agent transactions |
+| `multi-agent-orchestration` | 1.7K | Multi-agent coordination and task delegation |
+| `ai-agents-architect` | 1.1K | AI agent system architecture design |
+
+### 🆕 Infrastructure & DevOps — 4 skills (June 2026)
+
+Production infrastructure for deploying, scaling, and monitoring agent systems.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| `neon-postgres` | 40.3K | Serverless Postgres — ideal for agent state storage |
+| `docker-expert` | 18.9K | Docker containerization for agent services |
+| `kubernetes-specialist` | 10.2K | K8s deployment patterns for agent clusters |
+| `monitoring-expert` | 3K | Monitoring and observability for production agents |
+
+### 🆕 Platform Integrations — 5 skills (June 2026)
+
+Direct integrations with platforms CorpusIQ agents interact with daily.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| `notion-api` | 42.1K | Full Notion API: pages, databases, blocks |
+| `agent-email-inbox` | 3.3K | Email inbox for AI agents via Resend |
+| `notion-automation` | 2.7K | Automated Notion workflows for agents |
+| `social-media-analyzer` | 1.2K | Programmatic social media content analysis |
+| `create-video` | 946 | HeyGen video creation for AI agents |
+
 ---
 
 ## Summary
@@ -293,8 +352,13 @@ From [vercel-labs/agent-browser](https://skills.sh/vercel-labs/agent-browser), [
 | Creative & Media (marketplace) | 3 |
 | Agent Infrastructure (marketplace) | 8 |
 | Content Distribution (marketplace) | 3 |
-| **Marketplace subtotal** | **69** |
-| **Total** | **142** |
+| Hermes Variants (marketplace) 🆕 | 5 |
+| Communication Bots (marketplace) 🆕 | 4 |
+| Orchestration & RAG (marketplace) 🆕 | 6 |
+| Infrastructure & DevOps (marketplace) 🆕 | 4 |
+| Platform Integrations (marketplace) 🆕 | 5 |
+| **Marketplace subtotal** | **111** |
+| **Total** | **184** |
 
 ## Using Skills
 
