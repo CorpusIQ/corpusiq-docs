@@ -1,92 +1,66 @@
 ---
-title: MCP Server Integration
-description: Complete MCP server integration guides for Hermes — 53+ servers, FastMCP patterns, CorpusIQ tools
+title: MCP Integration
+description: Model Context Protocol guide for CorpusIQ Hermes agents. 30+ connectors, authentication, tool discovery, server management.
 ---
 
-# MCP Server Integration
+# MCP Integration
 
-Model Context Protocol (MCP) servers extend Hermes with structured tool access. This guide covers the 53+ MCP servers available through CorpusIQ plus integration patterns for any MCP-compatible server.
+Model Context Protocol connects Hermes agents to 30+ SaaS tools, databases, and platforms through the CorpusIQ MCP server — the intelligence layer between Hermes and business systems.
 
-## CorpusIQ MCP
+## Community Hub
 
-CorpusIQ provides 53 operational MCP tools directly to the Hermes agent environment:
+This is part of the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — the largest collection of Hermes resources on GitHub. 33 pages, 100+ tools, 158 skills.
 
-| Connector | Tools | Use Case |
-|-----------|-------|----------|
-| Stripe | 12 | Payments, charges, customers, payouts |
-| QuickBooks | 18 | Accounting, invoices, P&L, balance sheet |
-| Shopify | 10 | Orders, products, inventory |
-| Google Ads | 11 | Campaigns, keywords, performance |
-| Meta Ads | 14 | Facebook/Instagram ad management |
-| GA4 | 4 | Web analytics, traffic, conversions |
-| Klaviyo | 18 | Email/SMS campaigns, flows, segments |
-| Mailchimp | 20 | Email marketing, lists, subscribers |
-| HubSpot | 5 | CRM, contacts, deals |
-| Close CRM | 4 | Sales pipeline, leads |
-| Stripe, Semrush, Ahrefs, TikTok, YouTube, Slack, Notion, Monday, Airtable, Calendly... | | |
+## CorpusIQ + Hermes
 
-53 tools total across marketing, finance, CRM, analytics, and operations.
+CorpusIQ acts as the MCP connectivity layer for Hermes agents:
 
-## FastMCP + Pydantic
+| Capability | What It Enables |
+|-----------|----------------|
+| **30+ MCP Connectors** | GA4, Stripe, Shopify, QuickBooks, HubSpot, Klaviyo, Google Ads, Meta Ads, Ahrefs, Semrush, Gmail, Slack, Notion, and more |
+| **Enterprise Knowledge** | Search company docs, access structured business data |
+| **Multi-source Queries** | Cross-source analysis across email, ads, analytics, CRM |
+| **Business Workflows** | Execute operational workflows through connectors |
+| **Long-term Context** | Persistent memory via GBrain, GraphRAG, Honcho |
+| **Production Scale** | Built for 24 autonomous agents, dual-machine deployment |
 
-CorpusIQ MCP servers use FastMCP with Pydantic validation:
+[Explore CorpusIQ →](https://corpusiq.io)
 
-```python
-from fastmcp import FastMCP
-from pydantic import BaseModel, Field
-
-mcp = FastMCP("corpusiq-connector")
-
-class StripeQuery(BaseModel):
-    customer_id: str = Field(..., description="Stripe customer ID")
-
-@mcp.tool()
-async def get_customer_subscriptions(query: StripeQuery):
-    """Get active subscriptions for a Stripe customer."""
-    ...
-```
-
-Type safety, schema enforcement, and reliable tool invocation.
-
-## Integration Pattern
-
-### Registering a New MCP Server
-
-```yaml
-# hermes config
-mcp_servers:
-  my-server:
-    url: https://my-mcp.example.com
-    auth: oauth
-    tools: ["search", "create", "update"]
-```
-
-### Tool Discovery
-
-```bash
-# List all available MCP tools
-hermes tools --source mcp
-
-# Filter by server
-hermes tools --source mcp --server corpusiq
-```
-
-## Common Patterns
-
-### Cross-Source Queries
-
-CorpusIQ MCP supports cross-source analysis — correlate Google Ads spend with GA4 traffic, Klaviyo revenue with Shopify orders, or Stripe charges with QuickBooks invoices:
+## How It Works
 
 ```
-"Compare our Google Ads spend to GA4 conversions this month"
-"Show Klaviyo email revenue vs Shopify revenue by day"
-"Reconcile Stripe payouts with QuickBooks deposits"
+Hermes Agent → CorpusIQ MCP Server → 30+ Business Systems
+     ↑                                        ↓
+     └──────── Authenticated Data ────────────┘
 ```
 
-### Agent-Initiated Workflows
+The CorpusIQ MCP server handles authentication, rate limiting, data transformation, and cross-source correlation so agents get clean, structured data from every connected system.
 
-MCP tools are callable directly by agents through terminal execution. No human intervention required for routine operations.
+## Available Connectors
+
+| Category | Connectors |
+|----------|-----------|
+| **Analytics** | GA4, PostHog, Google Search Console |
+| **SEO** | Ahrefs, Semrush |
+| **Ads** | Google Ads, Meta Ads, LinkedIn Ads |
+| **Ecommerce** | Shopify, Stripe, Amazon Seller, eBay |
+| **Email** | Gmail, Outlook, Klaviyo, Mailchimp, ConstantContact, ActiveCampaign |
+| **CRM** | HubSpot, Close, LeadConnector |
+| **Finance** | QuickBooks, Odoo |
+| **Social** | TikTok, YouTube, Facebook, Instagram |
+| **Workspace** | Slack, Notion, Airtable, Monday, Calendly |
+| **Storage** | Google Drive, OneDrive, Dropbox |
+| **Database** | PostgreSQL, MSSQL, MongoDB, Cosmos DB |
+
+## Authentication
+
+Connectors use OAuth 2.0 for secure, token-based access. Each connector manages its own token lifecycle with automatic refresh. [Full auth guide →](/hermes/infrastructure/auth/)
+
+## Custom MCP Servers
+
+Build your own MCP servers with [FastMCP](https://github.com/jlowin/fastmcp) and [Pydantic](https://docs.pydantic.dev). [See skills.sh](https://skills.sh) for MCP builder skills.
 
 ---
 
-*Next: [Architecture Overview](/architecture/) · [Skills Marketplace](/skills/)*
+*← [Skills](/hermes/skills/) | [Infrastructure](/hermes/infrastructure/) →*
+*↑ [Home](/hermes/)*
