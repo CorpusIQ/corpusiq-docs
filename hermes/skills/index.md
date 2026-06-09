@@ -1,108 +1,45 @@
 ---
-title: Hermes Skills Marketplace
-description: 73+ executable skills for Hermes agents — marketing, operations, development, and custom workflows
+title: Hermes Skills
+description: 73+ executable skills and 85+ skills.sh marketplace skills for Hermes agents
 ---
 
-# Skills Marketplace
+# Skills
 
-73 active skills. 45 marketing workflows. 65 integrated CLI tools. These are executable workflows — not prompts.
+## CorpusIQ Native Skills (73+)
 
-## Marketing Skills (45)
+Skills built and maintained for the CorpusIQ Hermes deployment.
 
-### Growth & Acquisition
-- Programmatic SEO — scaled content generation
-- CRO — conversion rate optimization
-- A/B Testing — experimental frameworks
-- Pricing Optimization — dynamic pricing strategies
-- Community Growth — organic community building
-- Competitive Analysis — automated competitor tracking
-- Copywriting — AI-assisted marketing copy
-- Churn Prevention — retention workflows
-- Directory Submission — startup/marketplace listings
-- Content Strategy — pillar and cluster planning
+### Marketing (45 skills)
+[Full Marketing Catalog](/hermes/skills/marketing/)
+SEO, CRO, ads, content strategy, community growth, competitor analysis, pricing, copywriting, cold email, and more. Production-tested across CorpusIQ growth operations.
 
-### Paid & Performance
-- Ads — campaign management across platforms
-- Ad Creative — automated creative iteration
-- Analytics — cross-platform data analysis
-- ASO — App Store optimization
-- SEO Audit — technical SEO diagnostics
+### Development (12 skills)
+[Full Development Catalog](/hermes/skills/development/)
+GitHub PR workflow, code review, issues, codebase inspection, auth management, and CI/CD patterns from daily Hermes agent development.
 
-### Engagement
-- Social Media — cross-platform publishing
-- Community Marketing — forum/community engagement
-- Cold Email — B2B sequences
-- Email Sequences — automated nurture
-- Lead Magnets — conversion assets
+### Operations (16 skills)
+[Full Operations Catalog](/hermes/skills/operations/)
+Email monitoring, cron management, system audits, lead capture, job applications, communication priority, video generation, social deployment, browser automation, and lead nurturing.
 
-### Research & Intelligence
-- Customer Research — voice-of-customer analysis
-- Competitor Profiling — competitive intelligence
-- Prospect Research — pre-outreach intelligence
-- Market Research — TAM, positioning analysis
+## Skills.sh Marketplace (85+ curated)
 
-*Full catalog: 45 marketing skills with executable workflows*
+[Full Marketplace](/hermes/skills/marketplace/) — Curated from 619K+ skills on [skills.sh](https://skills.sh)
 
-## Operations Skills (15)
+### Top Picks for Hermes Agents
 
-| Skill | Function |
-|-------|----------|
-| Email Operations | Inbox monitoring, routing, response |
-| Session Management | Context persistence, state management |
-| Video Production | HeyGen UGC pipeline |
-| Cron Management | 38 scheduled processes |
-| System Registry | Component tracking, dedup |
-| Auth Management | Token lifecycle, refresh, alerts |
-| Browser Automation | Playwright stealth, persistent contexts |
-| Job Applications | Resume parsing, cover letters, tracking |
-| Lead Capture | Inbound identification, qualification |
-| Dual Email Control | Multi-account monitoring |
-| System Audit | Six-category degradation detection |
-| Model Routing | Multi-model cost optimization |
-| Daily Reporting | 6 PM automated HTML reports |
-| Content Analysis | Video transcript extraction |
-| GitHub Growth | PR-based developer marketing |
+| Skill | Installs | Why |
+|-------|----------|-----|
+| [mcp-builder](https://skills.sh/anthropics/skills) | 71K | Build MCP servers (Core infrastructure) |
+| [agent-browser](https://skills.sh/vercel-labs/agent-browser) | 432K | Browser automation via Playwright |
+| [webapp-testing](https://skills.sh/anthropics/skills) | 92K | Automated browser testing |
+| [code-review](https://skills.sh/obra/superpowers) | 121K | Review standards from the best |
+| [github-actions-docs](https://skills.sh/xixu-me/skills) | 206K | Actions reference |
+| [seo-audit](https://skills.sh/coreyhaines31/marketingskills) | 132K | Full SEO audits |
+| [copywriting](https://skills.sh/coreyhaines31/marketingskills) | 122K | Production marketing copy |
+| [ai-video-generation](https://skills.sh/doany-ai/skills) | 118K | AI video creation |
 
-## Development Skills (13)
-
-- GitHub PR workflow — branch, commit, CI, merge
-- GitHub issues — create, triage, label
-- GitHub code review — diffs, inline comments
-- Codebase inspection — pygount metrics
-- Simplify code — parallel 3-agent cleanup
-- Codex delegation — OpenAI Codex CLI integration
-
-## Custom CorpusIQ Skills (5)
-
-Proprietary skills developed for production autonomous operations:
-
-1. **Autonomous Growth** — Full growth engine: social, leads, content, engagement
-2. **Email Operations** — Dual-account monitoring, lead qualification, routing
-3. **Session Management** — Context persistence, state recovery
-4. **Video Production** — End-to-end UGC pipeline
-5. **Governance Management** — System registry, cron monitoring, auth lifecycle
-
-## Skills.sh Integration
-
-Curated skills from the Skills.sh ecosystem that extend Hermes capabilities:
-
-*Coming soon — categorized library of compatible skills with setup guides*
-
-## Writing Custom Skills
-
-Skills are stored in `~/.hermes/profiles/{profile}/skills/`. Structure:
-
-```markdown
----
-name: my-skill
-description: What this skill does
----
-
-# Skill Title
-
-Step-by-step workflow with tool calls, pitfalls, and verification.
-```
+Install any: `npx skills add <owner/repo@skill>`
 
 ---
 
-*Next: [MCP Integration](/mcp/) · [Setup Guide](/setup/)*
+*Powered by CorpusIQ — skills compound faster with agents*
