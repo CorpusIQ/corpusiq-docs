@@ -88,6 +88,16 @@ Direct database queries, table listing, schema inspection. Use for custom data a
 
 CorpusIQ's cross-source connectors correlate data across platforms: Google Ads spend vs GA4 sessions, Klaviyo email vs Shopify revenue, multi-channel attribution summaries. This is the unique capability that turns individual data sources into unified business intelligence.
 
+## External MCP Servers
+
+Beyond CorpusIQ's built-in connectors, the MCP ecosystem has 22,000+ third-party servers. See our curated catalog of the most relevant external MCP servers for business operators — finance, analytics, document intelligence, security, and more.
+
+→ **[External MCP Server Catalog](/hermes/mcp/servers/external/)** — Third-party servers from mcp.so & mcpservers.org
+
 ---
+
+*← [MCP Overview](/hermes/mcp/) | [External Server Catalog](/hermes/mcp/servers/external/) →*
+
+*↑ [MCP Documentation](/hermes/mcp/)*
 
 *Powered by CorpusIQ — 30+ MCP connectors, unified business intelligence*

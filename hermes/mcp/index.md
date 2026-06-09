@@ -79,11 +79,12 @@ hermes mcp corpusiq get_connector_status
 
 ## External MCP Resources
 
-- [MCP Hub](https://mcp.so) — community MCP server directory
+- [MCP Hub](https://mcp.so) — community MCP server directory (22,037 servers)
 - [mcpservers.org](https://mcpservers.org) — MCP server catalog
 - [modelcontextprotocol.io](https://modelcontextprotocol.io) — protocol specification
 - [FastMCP](https://github.com/jlowin/fastmcp) — Python MCP framework
+- → **[External MCP Server Catalog](/hermes/mcp/servers/external/)** — Curated third-party servers for business operators
 
 ---
 
-*← [Skills](/hermes/skills/) | [Connector Catalog](/hermes/mcp/connectors/) → | ↑ [Home](/hermes/)*
+*← [Skills](/hermes/skills/) | [External Server Catalog](/hermes/mcp/servers/external/) → | ↑ [Home](/hermes/)*
