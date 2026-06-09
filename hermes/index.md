@@ -5,21 +5,7 @@ description: Complete reference for autonomous Hermes agents. Architecture, infr
 
 # Hermes Agent Knowledge Repository
 
-Everything you need to build and operate autonomous agents with [Hermes Agent](https://hermes-agent.nousresearch.com). Production-tested on a dual-machine deployment (DGX Spark + Mac Mini M4) running 24 agents across 24 cron jobs.
-
-## Get Started
-
-```bash
-# Install Hermes Agent
-curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
-
-# Install skills from the marketplace
-npx skills add vercel-labs/agent-browser
-npx skills add anthropics/skills@mcp-builder
-npx skills add coreyhaines31/marketingskills@seo-audit
-```
-
----
+Everything you need to build and operate autonomous agents. Production-tested on a dual-machine deployment (DGX Spark + Mac Mini M4) running 24 agents across 24 cron jobs.
 
 ## Contents
 
@@ -173,13 +159,6 @@ Autonomous content creation and publishing.
 | Machines | 2 (DGX + Mac Mini) |
 
 ---
-
-## External Resources
-
-- [Hermes Agent Docs](https://hermes-agent.nousresearch.com/docs) — official documentation
-- [Nous Research](https://nousresearch.com) — creators of Hermes
-- [skills.sh](https://skills.sh) — agent skills marketplace
-- [MCP Hub](https://mcp.so) — MCP server directory
 
 ---
 
