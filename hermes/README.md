@@ -2,29 +2,27 @@
 
 ### Build Better Hermes Agents Faster
 
-The largest collection of Hermes resources, agent templates, MCP integrations, deployment guides, architecture patterns, and production-ready workflows. 33 pages, 2,900+ lines, 140+ indexed tools.
+The largest collection of Hermes resources, agent templates, MCP integrations, deployment guides, architecture patterns, and production-ready workflows. 36 pages, 3,500+ lines, 140+ tools, 142 skills, 54 MCP connectors.
 
 Whether you're building your first autonomous agent or scaling a multi-agent architecture, this community hub helps you move from experimentation to production.
 
----
-
 ## What's Inside
 
-| Section | Pages | What You Get |
-|---------|-------|-------------|
-| [Architecture](/hermes/architecture) | 1 | Six-layer production agent architecture |
-| [Setup](/hermes/setup/) | 1 | Linux, macOS, API configuration guides |
-| [Orchestration](/hermes/orchestration/) | 4 | Hermes, CrewAI, LangGraph, Reflexion |
+| Section | Pages | Highlights |
+|---------|-------|------------|
+| [Architecture](/hermes/architecture/) | 1 | Six-layer production agent architecture |
+| [Setup](/hermes/setup/) | 1 | DGX Spark + Mac Mini M4 setup |
+| [Orchestration](/hermes/orchestration/) | 5 | Hermes, CrewAI, LangGraph, Reflexion |
 | [Knowledge](/hermes/knowledge/) | 1 | GBrain, GraphRAG, Dream Cycle, Honcho |
-| [Skills](/hermes/skills/) | 5 | 73 native skills + 85 marketplace skills |
-| [MCP Integration](/hermes/mcp/) | 2 | 30+ MCP server guides |
-| [Infrastructure](/hermes/infrastructure/) | 6 | DGX + Mac Mini, browser, auth, routing |
-| [Governance](/hermes/governance/) | 5 | Rules, email, scheduling, monitoring |
-| [Content Ops](/hermes/content-ops/) | 4 | HeyGen video, Postiz social, engagement |
-| [Outputs](/hermes/outputs/) | 1 | SEO, GitHub PRs, marketplace presence |
-| [Tools & Software](/hermes/tools/) | 1 | 100+ tools with links to repos/docs |
-
-[Full Table of Contents →](/hermes/)
+| [Skills](/hermes/skills/) | 5 | 142 skills: catalog, marketplace, marketing, dev, ops |
+| [MCP](/hermes/mcp/) | 3 | All 54 CorpusIQ connectors |
+| [Infrastructure](/hermes/infrastructure/) | 6 | DGX, Mac Mini, browser, auth, routing |
+| [Governance](/hermes/governance/) | 5 | Rules, registry, email, cron, monitoring |
+| [Content Ops](/hermes/content-ops/) | 4 | Video, social, community engagement |
+| [Outputs](/hermes/outputs/) | 1 | Growth channels and metrics |
+| [Tools](/hermes/tools/) | 1 | 140+ tools across 20 categories |
+| [Troubleshooting](/hermes/troubleshooting/) | 1 | Common issues and fixes |
+| [Changelog](/hermes/changelog/) | 2 | Version history |
 
 ---
 
@@ -34,14 +32,14 @@ Power your Hermes agents with enterprise knowledge, MCP connectivity, and operat
 
 CorpusIQ acts as the intelligence layer between Hermes and your business systems, enabling agents to:
 
-- Search enterprise knowledge
-- Access company documentation
-- Connect to MCP servers
-- Execute business workflows
-- Retrieve structured business data
-- Maintain long-term context
-- Coordinate across multiple systems
-- Scale from prototype to production
+* Search enterprise knowledge
+* Access company documentation
+* Connect to MCP servers
+* Execute business workflows
+* Retrieve structured business data
+* Maintain long-term context
+* Coordinate across multiple systems
+* Scale from prototype to production
 
 Most AI agents fail because they lack access to the information, tools, and workflows needed to perform real work.
 
@@ -49,96 +47,119 @@ CorpusIQ solves that problem by providing a unified layer between Hermes and the
 
 Instead of building and maintaining dozens of separate integrations, connect Hermes to CorpusIQ and give your agents access to the knowledge and workflows they need to operate effectively.
 
-**Why Hermes Builders Use CorpusIQ:**
-- Enterprise knowledge retrieval
-- MCP server connectivity (30+ connectors)
-- Multi-agent orchestration
-- Workflow automation
-- Long-term memory patterns
-- Production deployment architecture
-- Business process integration
+### Why Hermes Builders Use CorpusIQ
 
-[Explore CorpusIQ →](https://corpusiq.io)
+* Enterprise knowledge retrieval
+* MCP server connectivity
+* Multi-agent orchestration
+* Workflow automation
+* Long-term memory patterns
+* Production deployment architecture
+* Business process integration
+
+Learn how Hermes and CorpusIQ work together to build production-grade autonomous systems.
+
+**Explore CorpusIQ → https://corpusiq.io**
 
 ---
 
-## Ready-to-Deploy Agent Templates
+## Ready-to-Deploy Hermes Agent Templates
 
 Launch faster with proven examples and implementation patterns.
 
-| Agent Type | Documentation |
-|-----------|--------------|
-| **Sales Agent** | Lead qualification, prospect research, CRM updates, outreach workflows, pipeline management |
-| **Research Agent** | [Competitive intelligence](/hermes/outputs/), market analysis, industry monitoring, automated reporting |
-| **Operations Agent** | [Task coordination](/hermes/orchestration/), workflow execution, process monitoring, operational reporting |
-| **Content Agent** | [Content creation](/hermes/content-ops/), video production, social publishing, community engagement |
-| **Knowledge Agent** | [Knowledge retrieval](/hermes/knowledge/), GBrain, GraphRAG, persistent memory, context management |
-| **Infrastructure Agent** | [Infrastructure management](/hermes/infrastructure/), deployment, cron scheduling, monitoring |
+### Sales Agent
 
-All templates backed by real production deployment patterns. Browse the full configuration reference in each section.
+Lead qualification, prospect research, CRM updates, outreach workflows, and pipeline management.
+
+### Research Agent
+
+Competitive intelligence, market analysis, industry monitoring, and automated reporting.
+
+### Customer Support Agent
+
+Knowledge retrieval, ticket triage, response generation, and support automation.
+
+### Operations Agent
+
+Task coordination, workflow execution, process monitoring, and operational reporting.
+
+### Compliance Agent
+
+Document review, policy validation, audit preparation, and risk identification.
+
+### Executive Assistant Agent
+
+Meeting preparation, reporting, prioritization, scheduling, and task management.
+
+Browse production-ready configurations, prompts, and architecture examples.
 
 ---
 
-## Popular Resources
+## Popular Hermes Resources
 
 ### Getting Started
-- [Hermes Quick Start Guide](/hermes/setup/) — installation and configuration
-- First Agent Tutorial — coming soon
-- Common Setup Issues — [infrastructure docs](/hermes/infrastructure/)
-- Production Readiness Checklist — [governance section](/hermes/governance/)
+
+* Hermes Quick Start Guide
+* First Agent Tutorial
+* Installation Walkthrough
+* Common Setup Issues
+* Production Readiness Checklist
 
 ### MCP Integrations
 
-Connect Hermes to the tools, knowledge, and workflows your business already uses. 30+ documented MCP server integrations including:
+Connect Hermes to the tools, knowledge, and workflows your business already uses.
 
-- **CorpusIQ** — enterprise knowledge and MCP connectivity
-- GitHub — repository and workflow automation
-- Slack — workspace data and messaging
-- Notion — knowledge base and documents
-- GA4 — web analytics
-- Stripe — payments
-- Shopify — ecommerce
-- QuickBooks — financial data
-- HubSpot — CRM
-- Klaviyo/Mailchimp — email marketing
-- Custom MCP Servers — build your own
+Featured integrations include:
 
-[Browse all MCP integrations →](/hermes/mcp/)
+* CorpusIQ
+* GitHub
+* Slack
+* Notion
+* Custom MCP Servers
+* Internal Knowledge Bases
+* Enterprise Document Repositories
+* Business Workflows
+* Custom APIs
 
 Through CorpusIQ, Hermes agents can securely access business systems, enterprise knowledge, and operational workflows without requiring custom integrations for every deployment.
 
 ### Production Deployment
-- [Dual-machine deployment](/hermes/infrastructure/) — DGX Spark + Mac Mini M4
-- [Browser automation](/hermes/infrastructure/browser/) — Playwright, stealth, OAuth
-- [Security & Governance](/hermes/governance/) — seven rules, monitoring, drift detection
-- [Cron scheduling](/hermes/governance/scheduling/) — 24-production-cron reference
-- [Email operations](/hermes/governance/email/) — dual-account, send checklist, response standards
-- Scaling Strategies — [model routing](/hermes/infrastructure/routing/) for cost optimization
+
+* Docker Deployment
+* Cloud Hosting
+* Security Hardening
+* Monitoring and Observability
+* Logging and Diagnostics
+* Scaling Strategies
+* Production Best Practices
 
 ### Architecture Guides
-- [Multi-Agent Orchestration](/hermes/orchestration/) — Hermes, CrewAI, LangGraph, Reflexion
-- [Agent Memory Patterns](/hermes/knowledge/) — GBrain, GraphRAG, Dream Cycle
-- Human Approval Workflows — [governance](/hermes/governance/)
-- Long Running Tasks — [cron scheduling](/hermes/governance/scheduling/)
-- Agent Orchestration Strategies — [orchestration section](/hermes/orchestration/)
-- Autonomous Operations Design — [full architecture](/hermes/architecture)
+
+* Multi-Agent Systems — [full architecture](/hermes/architecture/)
+* Agent Memory Patterns — [knowledge architecture](/hermes/knowledge/)
+* Human Approval Workflows
+* Long Running Tasks
+* Agent Orchestration Strategies — [orchestration overview](/hermes/orchestration/)
+* Autonomous Operations Design — [full architecture](/hermes/architecture/)
 
 ---
 
-## Free Resources
+## Free Hermes Starter Pack
 
-Everything in this repository is free and open-source:
+Get instant access to:
 
-- 33 documentation pages
-- 100+ indexed tools with links
-- 158 cataloged skills
-- 30+ MCP integration guides
-- Architecture blueprints
-- Deployment patterns
-- Workflow examples
-- Production patterns
+* 10 Production Agent Templates
+* MCP Integration Examples
+* Deployment Checklist
+* Architecture Blueprints
+* Security Best Practices
+* Workflow Examples
+* Prompt Libraries
+* Production Patterns
 
-Clone, fork, contribute. Designed to help Hermes users deploy faster and avoid common implementation mistakes.
+Designed to help Hermes users deploy faster and avoid common implementation mistakes.
+
+Download the free starter pack and accelerate your next build.
 
 ---
 
@@ -152,17 +173,39 @@ The challenge is deploying agents that create real business value.
 
 Most builders spend weeks solving the same implementation challenges:
 
-- How should memory be structured?
-- Which MCP servers should I use?
-- How do I move from prototype to production?
-- How should agents interact with business systems?
-- What architecture patterns actually work?
+* How should memory be structured?
+* Which MCP servers should I use?
+* How do I move from prototype to production?
+* How should agents interact with business systems?
+* What architecture patterns actually work?
 
-This knowledge repository exists to answer those questions. Built from real-world experience running 24 autonomous agents in production.
+This community exists to answer those questions.
 
 Our goal is simple:
 
-**Help every Hermes user move from prototype to production faster.**
+Help every Hermes user move from prototype to production faster.
+
+---
+
+## Join the Community
+
+Get new templates, MCP integrations, deployment guides, architecture patterns, and production workflows delivered directly to your inbox.
+
+Stay current with the latest Hermes ecosystem developments and learn how leading builders are deploying autonomous agents in production.
+
+Join the growing community of Hermes builders creating the next generation of AI systems.
+
+### What You'll Receive
+
+* New Agent Templates
+* MCP Server Discoveries
+* Deployment Guides
+* Architecture Patterns
+* Workflow Blueprints
+* Production Lessons Learned
+* Hermes Ecosystem Updates
+
+Start building better Hermes agents today.
 
 ---
 
@@ -170,28 +213,25 @@ Our goal is simple:
 
 Have a template, integration, workflow, or deployment pattern that helped you?
 
-Open a pull request on [corpusiq-docs](https://github.com/CorpusIQ/corpusiq-docs) and help the Hermes community grow.
-
-This repo auto-updates via 3 monitoring crons that check for new Hermes releases, MCP servers, and skills.
+Open a pull request and help the Hermes community grow.
 
 Together we can build the definitive resource library for Hermes users.
 
 ---
 
-## Stats
+## Repo Stats
 
 | Metric | Value |
 |--------|-------|
-| Pages | 33 |
-| Total lines | 2,900+ |
-| Categories | 11 |
+| Pages | 36 |
+| Total lines | 3,500+ |
+| Categories | 13 |
 | Tools indexed | 140+ |
-| Skills cataloged | 158 |
+| Skills cataloged | 142 |
+| MCP connectors | 54 |
 | Active production crons | 24 |
 | Machines | 2 (DGX + Mac Mini) |
-| MCP servers documented | 30+ |
-| Monitoring crons | 3 (auto-updating) |
 
 ---
 
-*Powered by CorpusIQ — the operating system for business agents*
+*Powered by CorpusIQ — agents that compound*

@@ -24,28 +24,30 @@ npx skills add coreyhaines31/marketingskills@seo-audit
 ## Contents
 
 ### 1. Architecture
-**[Production Agent Architecture](/hermes/architecture)** (103 lines)
+**[Production Agent Architecture](/hermes/architecture/)** 
 
 Six-layer autonomous agent architecture: orchestration, knowledge, skills, infrastructure, content ops, governance.
 
-[Read architecture →](/hermes/architecture)
+[Read architecture →](/hermes/architecture/)
 
 ### 2. Setup
-**[Installation & Configuration](/hermes/setup/)** (106 lines)
+**[Installation & Configuration](/hermes/setup/)**
 
 Linux setup (DGX Spark), macOS setup (Mac Mini M4), API configuration, provider setup, environment variables.
 
 [Read setup →](/hermes/setup/)
 
 ### 3. Orchestration
+**[Agent Orchestration Overview](/hermes/orchestration/)**
+
 How agents are structured, coordinated, and improved.
 
-| Page | Content |
-|------|---------|
-| [Hermes Agent](/hermes/orchestration/hermes/) | Execution kernel, tool loop, skills loading, session management |
-| [CrewAI](/hermes/orchestration/crewai/) | Multi-agent coordination, task delegation, tool assignment |
-| [LangGraph](/hermes/orchestration/langgraph/) | Stateful graph-based workflows, checkpoints, conditional routing |
-| [Reflexion](/hermes/orchestration/reflexion/) | Self-improving agent loops, evaluation, reflection, memory |
+| Framework | What It Does | Doc |
+|-----------|-------------|-----|
+| **Hermes Agent** | Execution kernel — tool loop, skills, sessions | [Read →](/hermes/orchestration/hermes/) |
+| **CrewAI** | Multi-agent coordination, delegation, parallel work | [Read →](/hermes/orchestration/crewai/) |
+| **LangGraph** | Stateful workflows, checkpoints, conditional routing | [Read →](/hermes/orchestration/langgraph/) |
+| **Reflexion** | Self-improving loops, evaluation, reflection | [Read →](/hermes/orchestration/reflexion/) |
 
 [Browse orchestration →](/hermes/orchestration/)
 
@@ -55,24 +57,25 @@ How agents are structured, coordinated, and improved.
 [Read knowledge →](/hermes/knowledge/)
 
 ### 5. Skills
-73+ native skills + 85+ marketplace skills.
+**[Skills Catalog](/hermes/skills/catalog/)** — 142 skills, single source of truth
 
 | Page | Content |
 |------|---------|
-| [Skills Index](/hermes/skills/) | Overview of all skills with install commands |
-| [Marketplace](/hermes/skills/marketplace/) | 85 curated skills from skills.sh across 10 categories |
-| [Marketing](/hermes/skills/marketing/) | 45 SEO, CRO, copy, ads, content, growth skills |
+| [Catalog](/hermes/skills/catalog/) | Every skill: 73 native + 69 marketplace, categorized |
+| [Marketplace](/hermes/skills/marketplace/) | 85 curated skills from skills.sh with install counts |
+| [Marketing](/hermes/skills/marketing/) | 45 SEO, CRO, ads, content, growth skills |
 | [Development](/hermes/skills/development/) | GitHub, code review, issues, CI/CD skills |
 | [Operations](/hermes/skills/operations/) | Email, cron, audit, lead capture, video skills |
 
 [Browse skills →](/hermes/skills/)
 
 ### 6. MCP Integration
-Model Context Protocol — connecting agents to 30+ data sources.
+**[MCP Overview](/hermes/mcp/)** — Model Context Protocol for connecting agents to data
 
 | Page | Content |
 |------|---------|
 | [MCP Overview](/hermes/mcp/) | Protocol architecture, server types, tool discovery |
+| [Connector Catalog](/hermes/mcp/connectors/) | All 54 CorpusIQ connectors across 11 categories |
 | [Server Guides](/hermes/mcp/servers/) | GA4, Stripe, Shopify, QuickBooks, HubSpot, and more |
 
 [Browse MCP →](/hermes/mcp/)
@@ -122,11 +125,19 @@ Autonomous content creation and publishing.
 [Read outputs →](/hermes/outputs/)
 
 ### 11. Tools & Software Index
-**[Complete Tool Reference](/hermes/tools/)** — 140+ tools with links
-
-Every tool, library, service, and platform referenced in the knowledge repository in one page. 20 categories: Orchestration, Knowledge, MCP, Infrastructure, OS & Shell, Browser, Content, Messaging, LLM, Local AI Runtimes, Analytics, Email, Commerce, Dev Tools, CLI Utilities, Editors, Platforms, Protocols. All linked to repos/docs/homepages.
+**[Complete Tool Reference](/hermes/tools/)** — 140+ tools across 20 categories. All linked to repos/docs.
 
 [Browse tools →](/hermes/tools/)
+
+### 12. Troubleshooting
+**[Common Issues & Fixes](/hermes/troubleshooting/)** — Browser, OAuth, cron, model routing, Playwright, SSH.
+
+[Read troubleshooting →](/hermes/troubleshooting/)
+
+### 13. Changelog
+**[Version History](/hermes/changelog/)** — What changed and when.
+
+[Read changelog →](/hermes/changelog/)
 
 ---
 
@@ -136,24 +147,15 @@ Every tool, library, service, and platform referenced in the knowledge repositor
 |------|-------|
 | How do agents execute tasks? | [Hermes Agent](/hermes/orchestration/hermes/) |
 | How does persistent memory work? | [Knowledge Architecture](/hermes/knowledge/) |
-| What skills can agents use? | [Skills Marketplace](/hermes/skills/marketplace/) |
+| What skills can agents use? | [Skills Catalog](/hermes/skills/catalog/) |
 | What tools and software does this use? | [Tools & Software Index](/hermes/tools/) |
 | How do agents connect to SaaS tools? | [MCP Integration](/hermes/mcp/) |
 | What hardware runs this? | [Infrastructure](/hermes/infrastructure/) |
 | How is safety enforced? | [Governance](/hermes/governance/) |
 | How do agents create content? | [Content Ops](/hermes/content-ops/) |
-| Where is the architecture documented? | [Architecture](/hermes/architecture) |
-| How do I set up my own agent? | [Setup Guide](/hermes/setup/) |
+| Where is the architecture documented? | [Architecture](/hermes/architecture/) |
+| How do I fix common problems? | [Troubleshooting](/hermes/troubleshooting/) |
 | What growth outputs do agents produce? | [Growth Outputs](/hermes/outputs/) |
-
----
-
-## External Resources
-
-- [Hermes Agent Docs](https://hermes-agent.nousresearch.com/docs) — official documentation
-- [Nous Research](https://nousresearch.com) — creators of Hermes
-- [skills.sh](https://skills.sh) — agent skills marketplace (619K+ skills)
-- [MCP Hub](https://mcp.so) — MCP server directory
 
 ---
 
@@ -161,14 +163,23 @@ Every tool, library, service, and platform referenced in the knowledge repositor
 
 | Metric | Value |
 |--------|-------|
-| Pages | 33 |
-| Total lines | 2,900+ |
-| Categories | 11 |
+| Pages | 36 |
+| Total lines | 3,500+ |
+| Categories | 13 |
 | Tools indexed | 140+ |
-| Skills cataloged | 158 |
+| Skills cataloged | 142 |
+| MCP connectors | 54 |
 | Active crons | 24 |
 | Machines | 2 (DGX + Mac Mini) |
-| Connected MCP servers | 30+ |
+
+---
+
+## External Resources
+
+- [Hermes Agent Docs](https://hermes-agent.nousresearch.com/docs) — official documentation
+- [Nous Research](https://nousresearch.com) — creators of Hermes
+- [skills.sh](https://skills.sh) — agent skills marketplace
+- [MCP Hub](https://mcp.so) — MCP server directory
 
 ---
 

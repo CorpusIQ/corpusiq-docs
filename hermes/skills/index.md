@@ -1,45 +1,68 @@
 ---
 title: Hermes Skills
-description: 73+ executable skills and 85+ skills.sh marketplace skills for Hermes agents
+description: 142 skills for Hermes agents — 73 native CorpusIQ skills, 69 marketplace skills from skills.sh
 ---
 
 # Skills
 
-## CorpusIQ Native Skills (73+)
+**See the [Skills Catalog](/hermes/skills/catalog/) for the complete index of all 142 skills.**
 
-Skills built and maintained for the CorpusIQ Hermes deployment.
+Skills are reusable agent capabilities — step-by-step workflows with tools, triggers, and verification. Not static prompts. Executable runbooks.
 
-### Marketing (45 skills)
-[Full Marketing Catalog](/hermes/skills/marketing/)
-SEO, CRO, ads, content strategy, community growth, competitor analysis, pricing, copywriting, cold email, and more. Production-tested across CorpusIQ growth operations.
+## Quick Links
 
-### Development (12 skills)
-[Full Development Catalog](/hermes/skills/development/)
-GitHub PR workflow, code review, issues, codebase inspection, auth management, and CI/CD patterns from daily Hermes agent development.
+| Page | Content |
+|------|---------|
+| **[Skills Catalog](/hermes/skills/catalog/)** | Every skill, categorized, single source of truth |
+| [Marketplace](/hermes/skills/marketplace/) | 85 curated skills from skills.sh with install counts |
+| [Marketing](/hermes/skills/marketing/) | 45 SEO, CRO, ads, content, growth skills |
+| [Development](/hermes/skills/development/) | GitHub, code review, issues, CI/CD skills |
+| [Operations](/hermes/skills/operations/) | Email, cron, audit, lead capture, video skills |
 
-### Operations (16 skills)
-[Full Operations Catalog](/hermes/skills/operations/)
-Email monitoring, cron management, system audits, lead capture, job applications, communication priority, video generation, social deployment, browser automation, and lead nurturing.
+## CorpusIQ Native Skills (73)
 
-## Skills.sh Marketplace (85+ curated)
+Built and maintained for the CorpusIQ Hermes deployment. Load automatically when the agent profile matches.
 
-[Full Marketplace](/hermes/skills/marketplace/) — Curated from 619K+ skills on [skills.sh](https://skills.sh)
+### Growth & Engagement (12)
+`help-first-community-engagement`, `cross-platform-commenting-engine`, `github-growth-contributions`, `corpusiq-mcp-directory-maintenance`, `playwright-social-media-automation`, `postiz-cli-social-deployment`, `daily-rotating-content-automation`, `corpusiq-daily-ugc-video-series`, `corpusiq-go-to-market-strategy`, `corpusiq-content-analysis-rules`, `corpusiq-video-knowledge-extraction`, `corpusiq-video-transcript-analysis`
 
-### Top Picks for Hermes Agents
+### Research & Intelligence (6)
+`corpusiq-research-intelligence-framework`, `corpusiq-autonomous-growth-intelligence`, `corpusiq-autonomous-improvement-recommendations`, `prospect-research-personalization`, `multi-tier-partnership-qualification`, `inbound-lead-analysis-domain-first`
 
-| Skill | Installs | Why |
-|-------|----------|-----|
-| [mcp-builder](https://skills.sh/anthropics/skills) | 71K | Build MCP servers (Core infrastructure) |
-| [agent-browser](https://skills.sh/vercel-labs/agent-browser) | 432K | Browser automation via Playwright |
-| [webapp-testing](https://skills.sh/anthropics/skills) | 92K | Automated browser testing |
-| [code-review](https://skills.sh/obra/superpowers) | 121K | Review standards from the best |
-| [github-actions-docs](https://skills.sh/xixu-me/skills) | 206K | Actions reference |
-| [seo-audit](https://skills.sh/coreyhaines31/marketingskills) | 132K | Full SEO audits |
-| [copywriting](https://skills.sh/coreyhaines31/marketingskills) | 122K | Production marketing copy |
-| [ai-video-generation](https://skills.sh/doany-ai/skills) | 118K | AI video creation |
+### Lead Response & Nurture (8)
+`corpusiq-inbound-lead-response-system`, `corpusiq-autonomous-lead-capture`, `corpusiq-lead-nurture-sequences`, `lead-response-execution`, `inbound-response-personalization`, `professional-custom-email-templates`, `corpusiq-email-response-standards`, `corpusiq-email-phone-number-hard-rule`
 
-Install any: `npx skills add <owner/repo@skill>`
+### Email Operations (7)
+`corpusiq-dual-email-account-control`, `corpusiq-dual-account-oauth-automation`, `corpusiq-email-account-setup`, `corpusiq-email-operating-rules`, `corpusiq-email-send-checklist`, `dual-email-account-management`, `headless-oauth-automation`
+
+### Video Production (6)
+`corpusiq-heygen-video-automation`, `corpusiq-heygen-video-generation-workflow`, `corpusiq-heygen-video-pipeline`, `corpusiq-video-production`, `heygen-skills-install`, `video-voiceover-production`
+
+### System Governance (8)
+`corpusiq-system-governance`, `corpusiq-system-audit`, `corpusiq-cron-delivery-audit`, `corpusiq-session-db-optimization`, `corpusiq-tool-exclusivity-doctrine`, `autonomous-system-discovery-audit`, `system-audit-before-automation`, `openclaw-system-inspection`
+
+### Infrastructure (5)
+`corpusiq-mac-mini-worker`, `corpusiq-local-ai-infrastructure`, `corpusiq-llm-cost-and-model-routing`, `corpusiq-llm-routing-and-model-selection`, `corpusiq-model-router`
+
+**[Full catalog →](/hermes/skills/catalog/)**
 
 ---
 
-*Powered by CorpusIQ — skills compound faster with agents*
+## Installing Marketplace Skills
+
+```bash
+# Install a single skill
+npx skills add coreyhaines31/marketingskills@seo-audit
+
+# Install the full marketing pack
+npx skills add coreyhaines31/marketingskills
+
+# List installed skills
+hermes skills list
+```
+
+**[Browse marketplace →](/hermes/skills/marketplace/)**
+
+---
+
+*← [Knowledge](/hermes/knowledge/) | [Skills Catalog](/hermes/skills/catalog/) → | ↑ [Home](/hermes/)*
