@@ -37,40 +37,14 @@ Every tool, library, service, and platform used in the CorpusIQ Hermes deploymen
 
 | Tool | Purpose | Link |
 |------|---------|------|
-| **CorpusIQ MCP** | 53 operational tools for Hermes | [corpusiq.io](https://corpusiq.io) |
+| **CorpusIQ MCP** | 54 connectors for Hermes agents | [corpusiq.io](https://corpusiq.io) |
+| **CorpusIQ Connector Catalog** | Full list of all 54 connectors | [Connectors →](/hermes/mcp/connectors/) |
 | **FastMCP** | Python MCP server framework | [github.com/jlowin/fastmcp](https://github.com/jlowin/fastmcp) |
 | **Pydantic** | Data validation for MCP | [docs.pydantic.dev](https://docs.pydantic.dev) |
 | **MCP Hub** | MCP server directory | [mcp.so](https://mcp.so) |
 | **mcpservers.org** | MCP server catalog | [mcpservers.org](https://mcpservers.org) |
-| **GA4 MCP** | Google Analytics | Via CorpusIQ MCP |
-| **Stripe MCP** | Payments | Via CorpusIQ MCP |
-| **Shopify MCP** | Ecommerce | Via CorpusIQ MCP |
-| **QuickBooks MCP** | Financial data | Via CorpusIQ MCP |
-| **HubSpot MCP** | CRM | Via CorpusIQ MCP |
-| **Klaviyo MCP** | Email marketing | Via CorpusIQ MCP |
-| **Mailchimp MCP** | Email campaigns | Via CorpusIQ MCP |
-| **Google Ads MCP** | Ads performance | Via CorpusIQ MCP |
-| **Meta Ads MCP** | Facebook/Instagram ads | Via CorpusIQ MCP |
-| **LinkedIn Ads MCP** | B2B ad analytics | Via CorpusIQ MCP |
-| **Ahrefs MCP** | SEO backlinks and keywords | Via CorpusIQ MCP |
-| **Semrush MCP** | SEO competitive analysis | Via CorpusIQ MCP |
-| **Search Console MCP** | Google indexing data | Via CorpusIQ MCP |
-| **PostHog MCP** | Product analytics | Via CorpusIQ MCP |
-| **Slack MCP** | Workspace data | Via CorpusIQ MCP |
-| **Notion MCP** | Pages and databases | Via CorpusIQ MCP |
-| **Airtable MCP** | Structured data | Via CorpusIQ MCP |
-| **Monday MCP** | Project management | Via CorpusIQ MCP |
-| **Calendly MCP** | Scheduling | Via CorpusIQ MCP |
-| **ActiveCampaign MCP** | Email marketing + CRM | Via CorpusIQ MCP |
-| **ConstantContact MCP** | Email campaigns | Via CorpusIQ MCP |
-| **Close MCP** | CRM pipeline | Via CorpusIQ MCP |
-| **PostScript MCP** | SMS marketing | Via CorpusIQ MCP |
-| **Odoo MCP** | ERP/CRM/inventory | Via CorpusIQ MCP |
-| **eBay MCP** | Marketplace data | Via CorpusIQ MCP |
-| **GunBroker MCP** | Firearms marketplace | Via CorpusIQ MCP |
-| **TikTok MCP** | Social video analytics | Via CorpusIQ MCP |
-| **YouTube MCP** | Video analytics | Via CorpusIQ MCP |
-| **LeadConnector MCP** | CRM + conversations | Via CorpusIQ MCP |
+
+See the [Connector Catalog](/hermes/mcp/connectors/) for all 54 CorpusIQ connectors across Marketing, CRM, Commerce, Email, Calendar, Files, Social, Databases, and Platform Management.
 
 ## Infrastructure & Hardware
 
