@@ -1,22 +1,43 @@
 ---
 title: Content Operations
-description: Automated content production with Hermes — HeyGen video, Postiz publishing, engagement engines
+description: Automated content production with Hermes — HeyGen video, Postiz publishing, social automation, community engagement
 ---
 
 # Content Operations
 
-## Video Generation
+Autonomous content creation, publishing, and community engagement across all platforms.
 
-HeyGen powers automated UGC: professional narration, avatar presentation, caption generation. Distribution: TikTok, Instagram Reels, YouTube Shorts.
+| Page | What You'll Learn |
+|------|-------------------|
+| [Video Production](/hermes/content-ops/video/) | HeyGen video generation, UGC series, TikTok/Instagram automation |
+| [Social Automation](/hermes/content-ops/social/) | X, Reddit, Discord, LinkedIn, cross-platform posting via Postiz |
+| [Community Engagement](/hermes/content-ops/engagement/) | Help-first strategy, autonomous comment engines, community building |
 
-## Social Publishing
+## Content Pipeline
 
-Postiz centralized publishing: LinkedIn, X, Reddit, Facebook, Instagram, TikTok, YouTube. No manual intervention.
+```
+Research → Draft → Review → Schedule → Post → Monitor → Engage
+   ↑                                                   ↓
+   └────────────────── Feedback Loop ──────────────────┘
+```
 
-## Engagement Systems
+## Platforms
 
-YouTube engagement campaigns, Product Hunt participation, community interaction. TikTok and Instagram engines in development.
+| Platform | Tool | Content Type |
+|----------|------|-------------|
+| TikTok | HeyGen video agent | UGC-style AI videos |
+| Instagram | Postiz CLI | Video + image posts |
+| X/Twitter | xurl CLI | Technical threads |
+| Reddit | PRAW | Helpful comments + posts |
+| Discord | Native API | Community engagement |
+| LinkedIn | API + Playwright | Professional content |
+| HN | Playwright | Technical discussion |
+
+## Rotation Schedule
+
+5 rotating content avatars daily across all platforms. Each avatar targets a specific audience segment with tailored messaging.
 
 ---
 
-*Next: [Skills Marketplace](/skills/) · [Architecture Overview](/architecture/)*
+*← [Governance](/hermes/governance/) | [Skills](/hermes/skills/) →*
+*↑ [Home](/hermes/)*
