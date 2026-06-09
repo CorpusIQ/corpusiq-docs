@@ -2,7 +2,7 @@
 
 ### Build Better Hermes Agents Faster
 
-The largest collection of Hermes resources, agent templates, MCP integrations, deployment guides, architecture patterns, and production-ready workflows. 33 pages, 2,851 lines, 100+ indexed tools.
+The largest collection of Hermes resources, agent templates, MCP integrations, deployment guides, architecture patterns, and production-ready workflows. 33 pages, 2,900+ lines, 140+ indexed tools.
 
 Whether you're building your first autonomous agent or scaling a multi-agent architecture, this community hub helps you move from experimentation to production.
 
@@ -183,9 +183,9 @@ Together we can build the definitive resource library for Hermes users.
 | Metric | Value |
 |--------|-------|
 | Pages | 33 |
-| Total lines | 2,851 |
+| Total lines | 2,900+ |
 | Categories | 11 |
-| Tools indexed | 100+ |
+| Tools indexed | 140+ |
 | Skills cataloged | 158 |
 | Active production crons | 24 |
 | Machines | 2 (DGX + Mac Mini) |

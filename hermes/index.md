@@ -122,9 +122,9 @@ Autonomous content creation and publishing.
 [Read outputs →](/hermes/outputs/)
 
 ### 11. Tools & Software Index
-**[Complete Tool Reference](/hermes/tools/)** — 100+ tools with links
+**[Complete Tool Reference](/hermes/tools/)** — 140+ tools with links
 
-Every tool, library, service, and platform referenced in the knowledge repository in one page. Categories: Orchestration, Knowledge, MCP, Infrastructure, Browser, Content, LLM, Analytics, Email, Commerce, Dev Tools, Platforms, Protocols. All linked to repos/docs/homepages.
+Every tool, library, service, and platform referenced in the knowledge repository in one page. 20 categories: Orchestration, Knowledge, MCP, Infrastructure, OS & Shell, Browser, Content, Messaging, LLM, Local AI Runtimes, Analytics, Email, Commerce, Dev Tools, CLI Utilities, Editors, Platforms, Protocols. All linked to repos/docs/homepages.
 
 [Browse tools →](/hermes/tools/)
 
@@ -162,9 +162,9 @@ Every tool, library, service, and platform referenced in the knowledge repositor
 | Metric | Value |
 |--------|-------|
 | Pages | 33 |
-| Total lines | 2,700+ |
+| Total lines | 2,900+ |
 | Categories | 11 |
-| Tools indexed | 100+ |
+| Tools indexed | 140+ |
 | Skills cataloged | 158 |
 | Active crons | 24 |
 | Machines | 2 (DGX + Mac Mini) |
