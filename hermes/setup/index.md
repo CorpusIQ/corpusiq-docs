@@ -103,4 +103,4 @@ hermes skills list     # Loaded skills
 
 ---
 
-*Next: [Architecture Overview](/architecture/) · [MCP Integration](/mcp/)*
+*Next: [Architecture Overview](/hermes/architecture/) · [MCP Integration](/hermes/mcp/)*

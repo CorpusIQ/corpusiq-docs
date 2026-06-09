@@ -100,4 +100,4 @@ System Registry validates before creation. Email operations monitor media@ + inf
 
 ---
 
-*Next: [Setup Guide](/setup/) · [Skills Marketplace](/skills/) · [MCP Integration](/mcp/)*
+*Next: [Setup Guide](/hermes/setup/) · [Skills Marketplace](/hermes/skills/) · [MCP Integration](/hermes/mcp/)*
