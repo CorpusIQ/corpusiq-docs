@@ -7,9 +7,11 @@ Contributions come in three forms: enhancement requests, recipes, and examples.
 Each has a defined path. Follow it and your contribution ships faster.
 
 If you are still shaping an early connector or feature idea, start in
-[Community Discussions](community/README.md) so the team and other users can
-ask questions and upvote the direction. Use this guide when you have a concrete
-request, bug report, recipe, or tested example ready to track.
+[Community Discussions](https://github.com/CorpusIQ/corpusiq-docs/discussions)
+so the team and other users can ask questions and upvote the direction. Use the
+[Community guide](community/README.md) to pick the right category. Use this guide
+when you have a concrete request, bug report, recipe, or tested example ready to
+track.
 
 ---
 
