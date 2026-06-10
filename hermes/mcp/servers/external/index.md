@@ -85,6 +85,9 @@ Official Firecrawl MCP Server — powerful web scraping and search for LLM clien
 ### Exa MCP ★ Official
 AI-native search engine by Exa. Search the web with semantic understanding. Official MCP server. `npx -y @exalabs/exa-mcp-server`
 
+### Zhipu Web Search ★ New
+LLM-optimized search integrating four search engines with intent recognition. Returns structured results (title, URL, summary, site name, icon) designed for AI consumption. By BigModel.
+
 ---
 
 ## Development & Infrastructure
@@ -122,6 +125,18 @@ High-performance Python web scraping via Playwright. Proxy support, captcha solv
 ### MCPg — Production PostgreSQL MCP ★ New
 Safe-by-default PostgreSQL Model Context Protocol server for AI agents. Production-grade with guardrails. `https://github.com/devopam/MCPg`
 
+### Next.js DevTools MCP ★ Official (Vercel)
+Next.js development tools and utilities for AI coding assistants (Claude, Cursor). Debug, inspect, and optimize Next.js apps via MCP. Official Vercel tool.
+
+### Proxyman MCP ★ Official
+HTTP traffic inspection and debugging for AI agents. Create debugging rules, inspect network requests, and control Proxyman through natural language. Essential for API debugging.
+
+### E2B ★ Official
+Run code in secure cloud sandboxes hosted by E2B. Execute untrusted code safely, perfect for AI agents that need runtime environments. `npx -y @e2b/mcp-server`
+
+### Serper MCP Server ★ New
+Google Search API via Serper for AI agents. Fast, reliable web search with structured results — rankings, knowledge graph, and rich snippets. `npx -y @garymengcom/serper-mcp-server`
+
 ---
 
 ## Productivity
@@ -134,6 +149,12 @@ Build, deploy, and monetize AI agents — "What Shopify did for ecommerce, Chipp
 
 ### Karea ★ New
 Extensive MCP tools so Claude Code, Cursor, and other MCP clients can create, edit, close, recap, and link dev tasks while coding. Jira linking, productivity recap. `npx -y karea-mcp`
+
+### MindMeister MCP ★ Official ★ New
+Create, edit, and organize mind maps from any AI assistant. Remote hosted MCP at `mcp.mindmeister.com/mcp`. Visual brainstorming and knowledge mapping via MCP. Streamable HTTP transport.
+
+### MeisterTask MCP ★ Official ★ New
+Create and manage projects, tasks, and notes from AI assistants. Remote hosted at `mcp.meistertask.com/mcp`. Full project management — from the creators of MindMeister. Streamable HTTP transport.
 
 ### HomeLab Monitor ★ New
 Read-only MCP server for self-hosted homelab dashboards — explore hosts, Docker containers, GPU/VRAM, systemd services, AI models, alerts, and disk. `https://github.com/SikamikanikoBG/homelab-monitor`
@@ -185,6 +206,13 @@ Persistent memory for AI agents across sessions.
 | MCPg | Database | Production-grade PostgreSQL MCP with safety guardrails |
 | Karea | Productivity | Dev task management with Jira linking, per-task context |
 | HomeLab Monitor | Infrastructure | Self-hosted homelab monitoring: Docker, GPU, services |
+| MindMeister MCP | Productivity | Mind mapping via MCP — remote hosted (Official) |
+| MeisterTask MCP | Productivity | Project/task management via MCP — remote hosted (Official) |
+| Next.js DevTools | Dev Tools | Official Vercel MCP for Next.js debugging and optimization |
+| Proxyman MCP | Dev Tools | Official HTTP traffic inspection and API debugging |
+| E2B | Dev Tools | Official sandboxed code execution for AI agents |
+| Serper MCP | Content/Research | Google Search API with structured AI-ready results |
+| Zhipu Web Search | Content/Research | LLM-optimized multi-engine search by BigModel |
 
 ---
 
@@ -194,7 +222,7 @@ Persistent memory for AI agents across sessions.
 - **Official servers:** 30+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 20+ (Finance, Analytics, CRM, Commerce, Dev, etc.)
-- **New this cycle:** 14 newly catalogued servers for business operators
+- **New this cycle:** 21 newly catalogued servers for business operators (14 from first pass + 7 from second sweep)
 
 ---
 
