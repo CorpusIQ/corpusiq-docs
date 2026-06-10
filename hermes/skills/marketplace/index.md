@@ -1,6 +1,6 @@
 ---
 title: Skills.sh Marketplace — CorpusIQ Selection
-description: Curated skills from skills.sh for Hermes agents. 111 skills across 15 categories: marketing, infrastructure, communication, orchestration, DevOps, integrations, and more.
+description: Curated skills from skills.sh for Hermes agents. 153 skills across 18 categories: marketing, web scraping, MCP dev, testing, Stripe, Shopify, LangGraph, infrastructure, communication, orchestration, DevOps, integrations, and more.
 ---
 
 # Skills.sh Marketplace
@@ -197,9 +197,18 @@ Direct integrations with platforms CorpusIQ agents interact with daily.
 | [alirezarezvani/claude-skills@social-media-analyzer](https://skills.sh/alirezarezvani/claude-skills) | 1.2K | Programmatic social media content analysis |
 | [heygen-com/skills@create-video](https://skills.sh/heygen-com/skills) | 946 | HeyGen video creation for AI agents |
 
+
+## 🆕 June 9, 2026 Additions — 42 new skills across 10 categories
+
+The latest batch discovery sweep found 42 new marketplace skills for Hermes agents:
+
+Web scraping (Firecrawl), MCP server development, web app testing, Stripe integration, Shopify development, LangGraph extensions, Supabase, Excel automation, Hermes ecosystem, and TTS.
+
+→ **[June 9, 2026 Additions — Full catalog with install commands](/hermes/skills/marketplace/new-june9-2026/)**
+
 ---
 
-**Total: 111 curated skills across 15 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 153 curated skills across 18 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Discovery Report](/hermes/skills/marketplace/new-june-2026/) →*
 

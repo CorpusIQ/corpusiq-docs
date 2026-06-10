@@ -63,6 +63,8 @@ hermes skills list
 
 **[Browse marketplace →](/hermes/skills/marketplace/)**
 
+**[🆕 June 9, 2026 — 42 new marketplace skills →](/hermes/skills/marketplace/new-june9-2026/)**
+
 ---
 
 *← [Knowledge](/hermes/knowledge/) | [Skills Catalog](/hermes/skills/catalog/) → | ↑ [Home](/hermes/)*
