@@ -363,27 +363,17 @@ Highlights: Firecrawl web scraping (6 skills, 70K+ installs), MCP builder (71.6K
 | Communication Bots (marketplace) 🆕 | 4 |
 | Orchestration & RAG (marketplace) 🆕 | 6 |
 | Infrastructure & DevOps (marketplace) 🆕 | 4 |
-| Web Scraping (marketplace) 🆕 | 6 |
-| MCP Development (marketplace) 🆕 | 4 |
-| Testing & QA (marketplace) 🆕 | 5 |
-| Stripe Integration (marketplace) 🆕 | 3 |
-| Shopify Development (marketplace) 🆕 | 6 |
-| LangGraph Extensions (marketplace) 🆕 | 3 |
-| Database & Infra (marketplace) 🆕 | 4 |
-| Productivity (marketplace) 🆕 | 4 |
-| Hermes Ecosystem (marketplace) 🆕 | 4 |
-| TTS & Audio (marketplace) 🆕 | 3 |
-| Web Scraping (marketplace) 🆕 | 6 |
-| MCP Development (marketplace) 🆕 | 4 |
-| Testing & QA (marketplace) 🆕 | 5 |
-| Stripe Integration (marketplace) 🆕 | 3 |
-| Shopify Development (marketplace) 🆕 | 6 |
-| LangGraph Extensions (marketplace) 🆕 | 3 |
-| Database & Infra (marketplace) 🆕 | 4 |
-| Productivity (marketplace) 🆕 | 4 |
-| Hermes Ecosystem (marketplace) 🆕 | 4 |
-| TTS & Audio (marketplace) 🆕 | 3 |
 | Platform Integrations (marketplace) 🆕 | 5 |
+| Web Scraping (marketplace) 🆕 | 6 |
+| MCP Development (marketplace) 🆕 | 4 |
+| Testing & QA (marketplace) 🆕 | 5 |
+| Stripe Integration (marketplace) 🆕 | 3 |
+| Shopify Development (marketplace) 🆕 | 6 |
+| LangGraph Extensions (marketplace) 🆕 | 3 |
+| Database & Infra (marketplace) 🆕 | 4 |
+| Productivity (marketplace) 🆕 | 4 |
+| Hermes Ecosystem (marketplace) 🆕 | 4 |
+| TTS & Audio (marketplace) 🆕 | 3 |
 | **Marketplace subtotal** | **153** |
 | **Total** | **226** |
 
