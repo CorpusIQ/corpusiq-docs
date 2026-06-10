@@ -392,11 +392,25 @@ Direct integrations with platforms CorpusIQ agents interact with daily.
 ---
 
 
-### 🆕 Web Scraping, MCP, Testing, Stripe, Shopify & More — 42 skills (June 9, 2026)
+### 🆕 Web Scraping, MCP, Testing, Stripe, Shopify & More — 52 skills (June 10, 2026)
 
-Latest discovery batch: 68 new skills across 17 repos. See the [June 10, 2026 Additions](/hermes/skills/marketplace/new-june10-2026/) page for full details with install commands.
+Full SKILL.md files for every skill. See individual files for setup, triggers, and capabilities.
 
-Highlights: Firecrawl web scraping (6 skills, 70K+ installs), MCP builder (71.6K), webapp testing (92K), Stripe integration (42K+), Shopify toolkit (6 skills), LangGraph persistence, Supabase (220K+), Excel automation, and more.
+| Category | Skills |
+|----------|--------|
+| Google Workspace | [gws-gmail](google-workspace/gws-gmail) · [gws-drive](google-workspace/gws-drive) · [gws-docs](google-workspace/gws-docs) · [gws-calendar](google-workspace/gws-calendar) · [gws-workflow-email-to-task](google-workspace/gws-workflow-email-to-task) · [gws-recipe-save-attachments](google-workspace/gws-recipe-save-email-attachments) · [gws-persona-content-creator](google-workspace/gws-persona-content-creator) · [gws-draft-email-from-doc](google-workspace/gws-draft-email-from-doc) |
+| Firecrawl | [firecrawl](firecrawl/firecrawl) · [firecrawl-scrape](firecrawl/firecrawl-scrape) · [firecrawl-search](firecrawl/firecrawl-search) · [firecrawl-agent](firecrawl/firecrawl-agent) |
+| Stripe | [stripe-best-practices](stripe/stripe-best-practices) · [upgrade-stripe](stripe/upgrade-stripe) · [stripe-projects](stripe/stripe-projects) |
+| Firebase | [firebase-basics](firebase/firebase-basics) · [firebase-auth-basics](firebase/firebase-auth-basics) · [firebase-hosting-basics](firebase/firebase-hosting-basics) · [firebase-security-rules-auditor](firebase/firebase-security-rules-auditor) · [firestore-security-rules-auditor](firebase/firestore-security-rules-auditor) |
+| Supabase | [supabase-postgres-best-practices](supabase/supabase-postgres-best-practices) · [supabase](supabase/supabase) |
+| Shopify | [shopify-admin](shopify/shopify-admin) · [shopify-dev](shopify/shopify-dev) · [shopify-liquid](shopify/shopify-liquid) · [shopify-storefront-graphql](shopify/shopify-storefront-graphql) · [shopify-hydrogen](shopify/shopify-hydrogen) · [shopify-functions](shopify/shopify-functions) |
+| Prisma | [prisma-database-setup](prisma/prisma-database-setup) · [prisma-client-api](prisma/prisma-client-api) · [prisma-cli](prisma/prisma-cli) |
+| LangGraph | [langgraph-persistence](langgraph/langgraph-persistence) · [langgraph-human-in-the-loop](langgraph/langgraph-human-in-the-loop) · [deep-agents-memory](langgraph/deep-agents-memory) |
+| ElevenLabs | [text-to-speech](elevenlabs/text-to-speech) · [speech-to-text](elevenlabs/speech-to-text) |
+| Claude Office | [excel-automation](claude-office/excel-automation) · [pdf-extraction](claude-office/pdf-extraction) · [crm-automation](claude-office/crm-automation) · [airtable-automation](claude-office/airtable-automation) |
+| Communication | [whatsapp-automation](communication/whatsapp-automation) · [telegram-bot](communication/telegram-bot) · [linkedin-automation](communication/linkedin-automation) · [discord-bot](communication/discord-bot) |
+| Infrastructure | [playwright-cli](infrastructure/playwright-cli) · [playwright-best-practices](infrastructure/playwright-best-practices) · [neon-postgres](infrastructure/neon-postgres) · [kubernetes-specialist](infrastructure/kubernetes-specialist) · [devops-engineer](infrastructure/devops-engineer) · [monitoring-expert](infrastructure/monitoring-expert) |
+| Platform | [notion-api](platform/notion-api) · [expo-deployment](platform/expo-deployment) · [seo-geo](platform/seo-geo) |
 
 ## Summary
 
