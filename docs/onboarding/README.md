@@ -106,7 +106,13 @@ Your agent now has access to 36 business data sources. Use it for:
 
 ## What's Next?
 
-- Browse the [prompts library](../prompts/) for 60+ copy-paste queries
-- Check [connector documentation](../connectors/) for specific setup guides
-- Review [troubleshooting](../troubleshooting/) if you hit issues
-- Join the [community](../community/) to request features or connectors
+- Browse the [prompts library](/prompts/) for 60+ copy-paste queries
+- Check [connector documentation](/connectors/) for specific setup guides
+- Review [troubleshooting](/troubleshooting/) if you hit issues
+- Join the [community](/community/) for questions, early connector ideas, and
+  upvotes
+- Open a [Connector Enhancement Request](https://github.com/CorpusIQ/corpusiq-docs/issues/new/choose)
+  when you have a specific connector need with a clear use case, workaround, and
+  business impact
+- Read [Contributing](/CONTRIBUTING.md) before submitting recipes, examples,
+  bug reports, or concrete enhancement requests

@@ -129,8 +129,8 @@ Common issues and fixes for CorpusIQ users.
 
 | Page | Content |
 |------|---------|
-| [Contributing](/CONTRIBUTING.md) | How to contribute to the docs |
-| [Community](/community/) | Community guidelines and resources |
+| [Contributing](/CONTRIBUTING.md) | Specific enhancement requests, recipes, examples, and bug reports |
+| [Community](/community/) | Questions, early ideas, upvotes, and discussion paths |
 | [Progress](/PROGRESS.md) | Documentation completion tracker |
 | [Changelog](/changelog/) | What changed and when |
 | [Roadmap](/roadmap/) | Upcoming features and docs |
@@ -148,6 +148,7 @@ Common issues and fixes for CorpusIQ users.
 | Can my autonomous agent use this? | [Hermes Community Hub →](/hermes/) |
 | Something's broken. Help? | [Troubleshooting →](/troubleshooting/) |
 | I want to contribute. | [Contributing →](/CONTRIBUTING.md) |
+| I have a connector idea. | [Community →](/community/) |
 
 ---
 
