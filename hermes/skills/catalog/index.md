@@ -1,6 +1,6 @@
 ---
 title: Skills Catalog
-description: Every skill available to Hermes agents — 73+ native CorpusIQ skills, 111+ marketplace skills from skills.sh. Single source of truth.
+description: Every skill available to Hermes agents — 73+ native CorpusIQ skills, 179+ marketplace skills from skills.sh. Single source of truth.
 ---
 
 # Skills Catalog
@@ -9,7 +9,7 @@ Complete index of all skills available to CorpusIQ Hermes agents. Updated as ski
 
 Skills are reusable agent capabilities — step-by-step workflows with tools, triggers, and verification. Not static prompts. Not text files. Executable runbooks that agents read and follow.
 
-**226 total**: 73 native + 153 marketplace.
+**252 total**: 73 native + 179 marketplace.
 
 ---
 
@@ -330,7 +330,7 @@ Direct integrations with platforms CorpusIQ agents interact with daily.
 
 ### 🆕 Web Scraping, MCP, Testing, Stripe, Shopify & More — 42 skills (June 9, 2026)
 
-Latest discovery batch: 42 new skills across 10 categories. See the [June 9, 2026 Additions](/hermes/skills/marketplace/new-june9-2026/) page for full details with install commands.
+Latest discovery batch: 68 new skills across 17 repos. See the [June 10, 2026 Additions](/hermes/skills/marketplace/new-june10-2026/) page for full details with install commands.
 
 Highlights: Firecrawl web scraping (6 skills, 70K+ installs), MCP builder (71.6K), webapp testing (92K), Stripe integration (42K+), Shopify toolkit (6 skills), LangGraph persistence, Supabase (220K+), Excel automation, and more.
 
