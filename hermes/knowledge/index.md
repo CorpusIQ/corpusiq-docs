@@ -66,6 +66,10 @@ Agent Context (next conversation)
 
 Knowledge flows from conversation to long-term memory and back. Each cycle enriches the agent's understanding without requiring manual updates.
 
+## Session Handoff — Anti-Amnesia
+
+The session handoff pattern ensures agents remember what they were doing across restarts. Two-part system: save structured state before shutdown, auto-recover on startup. Read the full writeup: [Session Handoff Pattern](session-handoff.md).
+
 ---
 
 *Powered by CorpusIQ — knowledge architecture for autonomous agents*
