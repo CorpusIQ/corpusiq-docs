@@ -6,6 +6,13 @@ Reference: github.com/CorpusIQ/corpusiq-docs
 Contributions come in three forms: enhancement requests, recipes, and examples.
 Each has a defined path. Follow it and your contribution ships faster.
 
+If you are still shaping an early connector or feature idea, start in
+[Community Discussions](https://github.com/CorpusIQ/corpusiq-docs/discussions)
+so the team and other users can ask questions and upvote the direction. Use the
+[Community guide](community/README.md) to pick the right category. Use this guide
+when you have a concrete request, bug report, recipe, or tested example ready to
+track.
+
 ---
 
 ## Enhancement Requests
@@ -82,3 +89,6 @@ Use the issue tracker.
 
 Use GitHub Discussions, not issues:
 https://github.com/CorpusIQ/corpusiq-docs/discussions
+
+The [Community guide](community/README.md) explains which Discussion category to
+use for Q&A, early ideas, announcements, and show-and-tell posts.
