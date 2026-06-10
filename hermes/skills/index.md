@@ -17,9 +17,10 @@ Skills are reusable agent capabilities — step-by-step workflows with tools, tr
 | [Marketplace](/hermes/skills/marketplace/) | 85 curated skills from skills.sh with install counts |
 | [Marketing](/hermes/skills/marketing/) | 45 SEO, CRO, ads, content, growth skills |
 | [Development](/hermes/skills/development/) | GitHub, code review, issues, CI/CD skills |
+| [Engineering](/hermes/skills/engineering/) | Platform construction: MCP server, connector audit, multi-repo coordination |
 | [Operations](/hermes/skills/operations/) | Email, cron, audit, lead capture, video skills |
 
-## CorpusIQ Native Skills (73)
+## CorpusIQ Native Skills (80)
 
 Built and maintained for the CorpusIQ Hermes deployment. Load automatically when the agent profile matches.
 
