@@ -9,11 +9,11 @@ Complete index of all skills available to CorpusIQ Hermes agents. Updated as ski
 
 Skills are reusable agent capabilities — step-by-step workflows with tools, triggers, and verification. Not static prompts. Not text files. Executable runbooks that agents read and follow.
 
-**290 total**: 73 native + 217 marketplace.
+**297 total**: 80 native + 217 marketplace.
 
 ---
 
-## Native CorpusIQ Skills (73)
+## Native CorpusIQ Skills (80)
 
 Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically when the agent profile matches.
 
@@ -165,6 +165,18 @@ Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically wh
 | Skill | What It Does |
 |-------|-------------|
 | `corpusiq-gbrain-operations` | Operate GBrain — Garry Tan's agent brain layer |
+
+### Engineering (7) — Platform Construction
+
+| Skill | What It Does |
+|-------|-------------|
+| [`consultant-connector-audit`](/hermes/skills/engineering/consultant-connector-audit/) | 13-section audit pass before shipping any non-core-authored connector. Catches Mailchimp-style silent-failure clusters before they ship to customers |
+| [`mcp-architecture`](/hermes/skills/engineering/mcp-architecture/) | Operating-scale field guide for a 50k+ LOC MCP server: file map, per-connector triplet, dual-render-path trap, bulk-regex migration |
+| [`metric-spec-registry`](/hermes/skills/engineering/metric-spec-registry/) | Canonical-layer metric subsystem — declared KPI definitions, live resolution, drift detection between sources, never cached |
+| [`api-development`](/hermes/skills/engineering/api-development/) | Cloud Run + FastAPI patterns: test-fixture traps, self-destructing admin migrations, JWT JWKS contract with consumers |
+| [`frontend-development`](/hermes/skills/engineering/frontend-development/) | Next.js + Vercel patterns for marketing + dashboard in one repo: canonical-constant rule, deploy verification, cross-repo boundary |
+| [`scheduled-jobs`](/hermes/skills/engineering/scheduled-jobs/) | Hermes cron operating manual: server-local time, profile vs default split, no-agent watchdog pattern, in-prompt-curl trap |
+| [`honcho-memory-usage`](/hermes/skills/engineering/honcho-memory-usage/) | Server-side semantic memory via Honcho MCP — when it complements MEMORY.md/USER.md, when to read vs write, cost discipline |
 
 ---
 
@@ -431,7 +443,8 @@ Full SKILL.md files for every skill. See individual files for setup, triggers, a
 | Job Applications | 2 |
 | Core Knowledge | 3 |
 | GBrain | 1 |
-| **Native subtotal** | **73** |
+| Engineering | 7 |
+| **Native subtotal** | **80** |
 | Marketing & Growth (marketplace) | 45 |
 | Development (marketplace) | 10 |
 | Creative & Media (marketplace) | 3 |
