@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 9, 2026 · **Sources:** mcp.so (22,054 servers), mcpservers.org
+> **Last updated:** June 10, 2026 · **Sources:** mcp.so (22,054+ servers), mcpservers.org
 
 ---
 
@@ -40,6 +40,9 @@ Realtime & historical stock, ETF, options, forex, crypto, commodities, fundament
 ### Tokenbel Financial Data
 Read-only access to Belarusian securities: tokens, shares, bonds, companies, ticker search. Niche but notable for Eastern European markets.
 
+### Infrawise ★ New
+Azure FinOps infrastructure cost optimization. Helps operators manage cloud spend with AI-assisted cost analysis. `npx -y @infrawise/mcp-server`
+
 ---
 
 ## Document Intelligence
@@ -54,6 +57,12 @@ Extracts structured, typed records from documents (PDFs, scans, contracts, invoi
 ### Clamp Analytics MCP
 Analyze and manage traffic, funnels, cohorts, revenue, errors. Web/app analytics via MCP. Complementary to GA4 for product analytics use cases.
 
+### Playwright MCP ★ Official (Microsoft)
+Official Microsoft MCP server for browser automation, page inspection, screenshots, and web interaction. 78 tools for AI agents. `npx @playwright/mcp@latest`
+
+### Browserbase ★ Official
+Automate browser interactions in the cloud — web navigation, data extraction, form filling. Cloud-hosted, no local browser needed. `npx @browserbasehq/stagehand-mcp`
+
 ---
 
 ## Content & Research
@@ -63,6 +72,18 @@ Extract timestamped YouTube transcripts, video search, metadata, and related-vid
 
 ### Hacker News MCP ★ by NeCL
 Access Hacker News data for AI agents: top stories, story details, comments thread, full-text search via Algolia. No API key required — public HN API. Built for content research, trend monitoring, and prompt enrichment. By Neural Engineering & Cognitive Logic (neclco.com).
+
+### NotebookLM MCP ★ New
+Let CLI agents (Claude, Cursor, Codex) chat directly with NotebookLM for zero-hallucination answers based on your own notebooks. Ground-truth research from Google's NotebookLM. `npx -y @pleaseprompto/notebooklm-mcp`
+
+### OpenSERP ★ New
+Multi-engine SERP extraction: Google, Yandex, Baidu, Bing, DuckDuckGo, Ecosia. Search results and URL data extraction. npm: `@openserp/mcp`
+
+### Firecrawl MCP ★ Official ★ New
+Official Firecrawl MCP Server — powerful web scraping and search for LLM clients. 3,300+ GitHub stars. `npx -y firecrawl-mcp`
+
+### Exa MCP ★ Official
+AI-native search engine by Exa. Search the web with semantic understanding. Official MCP server. `npx -y @exalabs/exa-mcp-server`
 
 ---
 
@@ -86,8 +107,20 @@ Remote, no-auth MCP server providing AI-powered codebase context and answers.
 ### Context7 MCP ★ Official
 Up-to-date, version-specific library documentation and code examples injected into AI coding prompts.
 
+### GitHub MCP ★ Official ★ New
+Official GitHub MCP server for repository search, issues, pull requests, code context, and GitHub workflows. `npx -y @github/mcp-server`
+
+### Google MCP Servers ★ Official ★ New
+Collection of Google's official MCP servers. Centralized repository of Google's MCP integrations. `https://github.com/google/mcp`
+
+### Supabase MCP ★ Official
+Official Supabase MCP server for managing projects, databases, auth, storage, edge functions, and SQL workflows from AI agents. `npx -y @supabase-community/supabase-mcp`
+
 ### Scrapling MCP
 High-performance Python web scraping via Playwright. Proxy support, captcha solving, intelligent navigation. Speed-optimized alternative to Playwright/Puppeteer.
+
+### MCPg — Production PostgreSQL MCP ★ New
+Safe-by-default PostgreSQL Model Context Protocol server for AI agents. Production-grade with guardrails. `https://github.com/devopam/MCPg`
 
 ---
 
@@ -98,6 +131,12 @@ Connect AI clients to Cal.com scheduling. Hosted endpoint at `mcp.cal.com` or lo
 
 ### Chipp MCP ★ Official
 Build, deploy, and monetize AI agents — "What Shopify did for ecommerce, Chipp does for AI agents."
+
+### Karea ★ New
+Extensive MCP tools so Claude Code, Cursor, and other MCP clients can create, edit, close, recap, and link dev tasks while coding. Jira linking, productivity recap. `npx -y karea-mcp`
+
+### HomeLab Monitor ★ New
+Read-only MCP server for self-hosted homelab dashboards — explore hosts, Docker containers, GPU/VRAM, systemd services, AI models, alerts, and disk. `https://github.com/SikamikanikoBG/homelab-monitor`
 
 ---
 
@@ -111,6 +150,13 @@ Task and project management via MCP. Connect AI agents to your Superlist workspa
 
 ---
 
+## Marketing
+
+### Zernio MCP ★ Official ★ New
+Social media scheduling platform — manage and publish content across all major platforms from a single API. MCP-native. `https://docs.zernio.com/mcp`
+
+---
+
 ## Memory & Knowledge
 
 ### Anki MCP ★ Official
@@ -121,37 +167,34 @@ Persistent memory for AI agents across sessions.
 
 ---
 
-## New This Week (June 9, 2026 — mcp.so Latest)
+## New This Week (June 10, 2026 — mcp.so + mcpservers.org)
 
 | Server | Category | Description |
 |--------|----------|-------------|
-| Hacker News MCP | Content | Hacker News API: stories, comments, search (by NeCL) |
-| Bright Data | Dev Tools | Enterprise web scraping and data extraction (Sponsor) |
-| Scrapling MCP | Dev Tools | High-performance web scraping via Playwright |
-| Onlinecybertools MCP | Dev Tools | 280+ free dev/security tools, no auth required |
-| Scribefy | Content | YouTube transcripts, video search, metadata |
-| Secure Calendar MCP | Data Firewall | AI-safe Google Calendar & Outlook access |
-| Secure Email MCP | Data Firewall | AI-safe Gmail & Outlook access |
-| Secure Google Drive | Data Firewall | AI-safe Google Drive access |
-| Secure Google Docs | Data Firewall | AI-safe Google Docs editing |
-| Secure Google Sheets MCP | Data Firewall | AI-safe Google Sheets operations |
-| Sifter | Document AI | Structured record extraction from documents |
-| Tokenbel Financial Data | Finance | Belarusian securities data |
-| Voyei | Travel | Collaborative travel planning, 78 tools |
-| Deepsite.site | Dev Tools | AI code agent powered by DeepSeek |
-| ShipAny | Dev Tools | AI SaaS startup boilerplate |
-| CopyWeb | Dev Tools | Screenshot/URL to code components |
-| ThinkAny | Search | New Era AI search engine |
-| HeyBeauty | AI | AI-powered virtual try-on |
+| NotebookLM MCP | Content/Research | Chat with NotebookLM for zero-hallucination answers (by PleasePrompto) |
+| Playwright MCP | Analytics/Dev | Official Microsoft browser automation, 78 tools |
+| GitHub MCP | Dev Tools | Official GitHub MCP: repos, issues, PRs, code context |
+| Firecrawl MCP | Content/Dev | Official web scraping, 3.3k stars, widely adopted |
+| Supabase MCP | Database | Official Supabase: projects, DB, auth, storage, edge functions |
+| Google MCP Servers | Dev Tools | Collection of Google's official MCP integrations |
+| Exa MCP | Content/Research | AI-native search engine, semantic web search |
+| Zernio MCP | Marketing | Social media scheduling across all platforms via MCP |
+| Infrawise | Finance | Azure FinOps cost optimization for cloud operators |
+| Browserbase | Dev Tools | Cloud browser automation — no local browser needed |
+| OpenSERP | Content/Research | Multi-engine SERP (Google, Bing, Yandex, Baidu, DuckDuckGo) |
+| MCPg | Database | Production-grade PostgreSQL MCP with safety guardrails |
+| Karea | Productivity | Dev task management with Jira linking, per-task context |
+| HomeLab Monitor | Infrastructure | Self-hosted homelab monitoring: Docker, GPU, services |
 
 ---
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,037+ (mcp.so)
-- **Official servers:** 30+ (from Google, GitHub, Cloudflare, Anthropic, etc.)
+- **Total MCP servers tracked:** 22,054+ (mcp.so)
+- **Official servers:** 30+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 20+ (Finance, Analytics, CRM, Commerce, Dev, etc.)
+- **New this cycle:** 14 newly catalogued servers for business operators
 
 ---
 
@@ -166,9 +209,16 @@ Most MCP clients (Claude Desktop, Cursor, Windsurf, Hermes) support multiple MCP
       "url": "https://mcp2.corpusiq.io/mcp",
       "transport": "streamable-http"
     },
-    "alphavantage": {
+    "firecrawl": {
       "command": "npx",
-      "args": ["-y", "@alphavantage/mcp-server"]
+      "args": ["-y", "firecrawl-mcp"],
+      "env": {
+        "FIRECRAWL_API_KEY": "fc-YOUR_KEY"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
     }
   }
 }
