@@ -5,7 +5,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 # External MCP Server Catalog
 
-Beyond CorpusIQ's 54 built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
+Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
 > **Last updated:** June 9, 2026 · **Sources:** mcp.so (22,054 servers), mcpservers.org
 
@@ -150,7 +150,7 @@ Persistent memory for AI agents across sessions.
 
 - **Total MCP servers tracked:** 22,037+ (mcp.so)
 - **Official servers:** 30+ (from Google, GitHub, Cloudflare, Anthropic, etc.)
-- **CorpusIQ connectors:** 54 (the most comprehensive business data MCP server)
+- **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 20+ (Finance, Analytics, CRM, Commerce, Dev, etc.)
 
 ---

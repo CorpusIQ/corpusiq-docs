@@ -19,7 +19,7 @@ Everything needed to go from zero to first answer.
 | [What is CorpusIQ?](/how-it-works/what-is-corpusiq/) | Product overview and value proposition |
 
 ### Connectors
-**54 live-data connectors** across 11 categories. Each with setup guides, auth walkthroughs, and example prompts.
+**37+ live-data connectors** across 11 categories. Each with setup guides, auth walkthroughs, and example prompts.
 
 | Category | Connectors |
 |----------|-----------|
@@ -32,7 +32,7 @@ Everything needed to go from zero to first answer.
 | Files | Google Drive, OneDrive, Dropbox, Airtable |
 | Databases | PostgreSQL, MSSQL, Cosmos DB, MongoDB |
 
-[Browse all 54 connectors →](/connectors/)
+[Browse all 37+ connectors →](/connectors/)
 
 ### Prompt Library
 **Battle-tested prompts** for business operators. Copy, paste, get answers.
@@ -94,20 +94,20 @@ Platform reference for developers and operators.
 [Browse docs →](/docs/)
 
 ### Hermes Community Hub
-**The largest collection of Hermes resources on GitHub.** 39 pages covering architecture, MCP integration, deployment, skills catalog, governance, and production operations. Built from live experience running 24 autonomous agents across 54 MCP connectors.
+**The largest collection of Hermes resources on GitHub.** 39 pages covering architecture, MCP integration, deployment, skills catalog, governance, and production operations. Built from live experience running 24 autonomous agents across 37+ MCP connectors.
 
 | Section | Content |
 |---------|---------|
 | [Architecture](/hermes/architecture/) | Six-layer autonomous agent design |
 | [Setup](/hermes/setup/) | DGX Spark + Mac Mini deployment |
 | [Orchestration](/hermes/orchestration/) | Hermes, CrewAI, LangGraph, Reflexion |
-| [Skills Catalog](/hermes/skills/catalog/) | 142 skills, single source of truth |
-| [MCP Integration](/hermes/mcp/) | 54 CorpusIQ connectors for agents |
+| [Skills Catalog](/hermes/skills/catalog/) | 133+ skills, single source of truth |
+| [MCP Integration](/hermes/mcp/) | 37+ CorpusIQ connectors for agents |
 | [Knowledge](/hermes/knowledge/) | GBrain, GraphRAG, Dream Cycle, Honcho |
 | [Infrastructure](/hermes/infrastructure/) | DGX, Mac Mini, browser, auth, routing |
 | [Governance](/hermes/governance/) | Rules, crons, monitoring, email ops |
 | [Content Ops](/hermes/content-ops/) | Video, social, engagement automation |
-| [Tools Index](/hermes/tools/) | 140+ tools with repo links |
+| [Tools Index](/hermes/tools/) | 233+ tools with repo links |
 | [Troubleshooting](/hermes/troubleshooting/) | Browser, OAuth, cron, model routing |
 
 [Browse the Hermes Community Hub →](/hermes/)
@@ -142,7 +142,7 @@ Common issues and fixes for CorpusIQ users.
 | Question | Answer |
 |----------|--------|
 | How do I get started? | [Quickstart →](/quickstart/) |
-| What connectors are available? | [All 54 connectors →](/connectors/) |
+| What connectors are available? | [All 37+ connectors →](/connectors/) |
 | How do I write a good prompt? | [Prompt library →](/prompts/) |
 | How does it work under the hood? | [How It Works →](/how-it-works/) |
 | Can my autonomous agent use this? | [Hermes Community Hub →](/hermes/) |
@@ -156,7 +156,7 @@ Common issues and fixes for CorpusIQ users.
 | Metric | Value |
 |--------|-------|
 | Total pages | 130+ |
-| Connector docs | 54 |
+| Connector docs | 37+ |
 | Prompt templates | 10 |
 | Recipes | 5 |
 | Troubleshooting guides | 6 |

@@ -2,7 +2,7 @@
 
 ### Build Better Hermes Agents Faster
 
-The largest collection of Hermes resources, agent templates, MCP integrations, deployment guides, architecture patterns, and production-ready workflows. 36 pages, 3,500+ lines, 140+ tools, 142 skills, 54 MCP connectors.
+The largest collection of Hermes resources, agent templates, MCP integrations, deployment guides, architecture patterns, and production-ready workflows. 36 pages, 3,500+ lines, 233+ tools, 133+ skills, 37+ MCP connectors.
 
 Whether you're building your first autonomous agent or scaling a multi-agent architecture, this community hub helps you move from experimentation to production.
 
@@ -14,13 +14,13 @@ Whether you're building your first autonomous agent or scaling a multi-agent arc
 | [Setup](/hermes/setup/) | 1 | DGX Spark + Mac Mini M4 setup |
 | [Orchestration](/hermes/orchestration/) | 5 | Hermes, CrewAI, LangGraph, Reflexion |
 | [Knowledge](/hermes/knowledge/) | 1 | GBrain, GraphRAG, Dream Cycle, Honcho |
-| [Skills](/hermes/skills/) | 5 | 142 skills: catalog, marketplace, marketing, dev, ops |
-| [MCP](/hermes/mcp/) | 3 | All 54 CorpusIQ connectors |
+| [Skills](/hermes/skills/) | 5 | 133+ skills: catalog, marketplace, marketing, dev, ops |
+| [MCP](/hermes/mcp/) | 3 | All 37+ CorpusIQ connectors |
 | [Infrastructure](/hermes/infrastructure/) | 6 | DGX, Mac Mini, browser, auth, routing |
 | [Governance](/hermes/governance/) | 5 | Rules, registry, email, cron, monitoring |
 | [Content Ops](/hermes/content-ops/) | 4 | Video, social, community engagement |
 | [Outputs](/hermes/outputs/) | 1 | Growth channels and metrics |
-| [Tools](/hermes/tools/) | 1 | 140+ tools across 20 categories |
+| [Tools](/hermes/tools/) | 1 | 233+ tools across 20 categories |
 | [Troubleshooting](/hermes/troubleshooting/) | 1 | Common issues and fixes |
 | [Changelog](/hermes/changelog/) | 2 | Version history |
 
@@ -228,7 +228,7 @@ Together we can build the definitive resource library for Hermes users.
 | Categories | 13 |
 | Tools indexed | 140+ |
 | Skills cataloged | 142 |
-| MCP connectors | 54 |
+| MCP connectors | 37+ |
 | Active production crons | 24 |
 | Machines | 2 (DGX + Mac Mini) |
 

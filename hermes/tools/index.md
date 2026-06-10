@@ -37,14 +37,14 @@ Every tool, library, service, and platform used in the CorpusIQ Hermes deploymen
 
 | Tool | Purpose | Link |
 |------|---------|------|
-| **CorpusIQ MCP** | 54 connectors for Hermes agents | [corpusiq.io](https://corpusiq.io) |
-| **CorpusIQ Connector Catalog** | Full list of all 54 connectors | [Connectors →](/hermes/mcp/connectors/) |
+| **CorpusIQ MCP** | 37+ connectors for Hermes agents | [corpusiq.io](https://corpusiq.io) |
+| **CorpusIQ Connector Catalog** | Full list of all 37+ connectors | [Connectors →](/hermes/mcp/connectors/) |
 | **FastMCP** | Python MCP server framework | [github.com/jlowin/fastmcp](https://github.com/jlowin/fastmcp) |
 | **Pydantic** | Data validation for MCP | [docs.pydantic.dev](https://docs.pydantic.dev) |
 | **MCP Hub** | MCP server directory | [mcp.so](https://mcp.so) |
 | **mcpservers.org** | MCP server catalog | [mcpservers.org](https://mcpservers.org) |
 
-See the [Connector Catalog](/hermes/mcp/connectors/) for all 54 CorpusIQ connectors across Marketing, CRM, Commerce, Email, Calendar, Files, Social, Databases, and Platform Management.
+See the [Connector Catalog](/hermes/mcp/connectors/) for all 37+ CorpusIQ connectors across Marketing, CRM, Commerce, Email, Calendar, Files, Social, Databases, and Platform Management.
 
 ## Infrastructure & Hardware
 

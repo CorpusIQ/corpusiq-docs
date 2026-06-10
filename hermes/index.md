@@ -43,7 +43,7 @@ How agents are structured, coordinated, and improved.
 [Read knowledge →](/hermes/knowledge/)
 
 ### 5. Skills
-**[Skills Catalog](/hermes/skills/catalog/)** — 142 skills, single source of truth
+**[Skills Catalog](/hermes/skills/catalog/)** — 133+ skills, single source of truth
 
 | Page | Content |
 |------|---------|
@@ -61,7 +61,7 @@ How agents are structured, coordinated, and improved.
 | Page | Content |
 |------|---------|
 | [MCP Overview](/hermes/mcp/) | Protocol architecture, server types, tool discovery |
-| [Connector Catalog](/hermes/mcp/connectors/) | All 54 CorpusIQ connectors across 11 categories |
+| [Connector Catalog](/hermes/mcp/connectors/) | All 37+ CorpusIQ connectors across 11 categories |
 | [Server Guides](/hermes/mcp/servers/) | GA4, Stripe, Shopify, QuickBooks, HubSpot, and more |
 
 [Browse MCP →](/hermes/mcp/)
@@ -111,7 +111,7 @@ Autonomous content creation and publishing.
 [Read outputs →](/hermes/outputs/)
 
 ### 11. Tools & Software Index
-**[Complete Tool Reference](/hermes/tools/)** — 140+ tools across 20 categories. All linked to repos/docs.
+**[Complete Tool Reference](/hermes/tools/)** — 233+ tools across 20 categories. All linked to repos/docs.
 
 [Browse tools →](/hermes/tools/)
 
@@ -154,7 +154,7 @@ Autonomous content creation and publishing.
 | Categories | 13 |
 | Tools indexed | 140+ |
 | Skills cataloged | 142 |
-| MCP connectors | 54 |
+| MCP connectors | 37+ |
 | Active crons | 24 |
 | Machines | 2 (DGX + Mac Mini) |
 

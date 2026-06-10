@@ -4,7 +4,7 @@ Looking for an Adzviser alternative? Here is how CorpusIQ compares for connectin
 
 ## What Adzviser does
 
-Adzviser syncs marketing and ad platform data to ChatGPT and Claude via MCP. It covers channels like Google Ads, Meta Ads, LinkedIn Ads, and Shopify sales data. Built for marketing teams and agencies that want to ask questions about campaign performance.
+Adzviser syncs marketing and ad platform data to ChatGPT, Claude, and Perplexity via MCP. It covers channels like Google Ads, Meta Ads, LinkedIn Ads, and Shopify sales data. Built for marketing teams and agencies that want to ask questions about campaign performance.
 
 ## What CorpusIQ does differently
 

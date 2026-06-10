@@ -1,15 +1,15 @@
 ---
 title: MCP Integration
-description: Model Context Protocol guide for CorpusIQ Hermes agents. 54 connectors, authentication, tool discovery, server management.
+description: Model Context Protocol guide for CorpusIQ Hermes agents. 37+ connectors, authentication, tool discovery, server management.
 ---
 
 # MCP Integration
 
-Model Context Protocol connects Hermes agents to 54 SaaS tools, databases, and platforms through the CorpusIQ MCP server — the intelligence layer between Hermes and business systems.
+Model Context Protocol connects Hermes agents to 37+ SaaS tools, databases, and platforms through the CorpusIQ MCP server — the intelligence layer between Hermes and business systems.
 
 ## Community Hub
 
-This is part of the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — the largest collection of Hermes resources on GitHub. 33 pages, 140+ tools, 158 skills.
+This is part of the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — the largest collection of Hermes resources on GitHub. 33 pages, 233+ tools, 133+ skills.
 
 ## CorpusIQ + Hermes
 
@@ -17,15 +17,15 @@ CorpusIQ acts as the MCP connectivity layer for Hermes agents:
 
 | Capability | What It Enables |
 |-----------|----------------|
-| **54 MCP Connectors** | GA4, Stripe, Shopify, QuickBooks, HubSpot, Klaviyo, Google Ads, Meta Ads, Ahrefs, Semrush, Gmail, Slack, Notion, and 40+ more |
-| **Full Connector Catalog** | [Browse all 54 connectors →](/hermes/mcp/connectors/) |
+| **37+ MCP Connectors** | GA4, Stripe, Shopify, QuickBooks, HubSpot, Klaviyo, Google Ads, Meta Ads, Ahrefs, Semrush, Gmail, Slack, Notion, and 40+ more |
+| **Full Connector Catalog** | [Browse all 37+ connectors →](/hermes/mcp/connectors/) |
 
 ## MCP Architecture
 
 ```text
 Hermes Agent → MCP Client → CorpusIQ MCP Server → OAuth → SaaS APIs
                                      ↓
-                            Tool Discovery (54 tools)
+                            Tool Discovery (37+ tools)
                                      ↓
                             Data Retrieval + Analysis
 ```
@@ -49,7 +49,7 @@ For broad business questions, the `select_runbook` action auto-classifies the in
 
 ## Available Connectors
 
-54 connectors across 11 categories. See the **[Connector Catalog](/hermes/mcp/connectors/)** for full details.
+37+ connectors across 11 categories. See the **[Connector Catalog](/hermes/mcp/connectors/)** for full details.
 
 | Category | Count |
 |----------|:----:|
