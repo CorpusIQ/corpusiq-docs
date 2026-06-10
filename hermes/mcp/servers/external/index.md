@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 54 built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 9, 2026 · **Sources:** mcp.so (22,037 servers), mcpservers.org
+> **Last updated:** June 9, 2026 · **Sources:** mcp.so (22,054 servers), mcpservers.org
 
 ---
 
@@ -61,9 +61,15 @@ Analyze and manage traffic, funnels, cohorts, revenue, errors. Web/app analytics
 ### Scribefy
 Extract timestamped YouTube transcripts, video search, metadata, and related-video tools. Works with Claude, Cursor, Windsurf, and any MCP client.
 
+### Hacker News MCP ★ by NeCL
+Access Hacker News data for AI agents: top stories, story details, comments thread, full-text search via Algolia. No API key required — public HN API. Built for content research, trend monitoring, and prompt enrichment. By Neural Engineering & Cognitive Logic (neclco.com).
+
 ---
 
 ## Development & Infrastructure
+
+### Bright Data ★ Sponsor
+Discover, extract, and interact with the web — one unified interface powering automated access across the public internet. Enterprise-grade web scraping and data extraction.
 
 ### Onlinecybertools MCP (280+ Tools)
 280+ free dev/security tools in one MCP server: Base64/URL/JWT encoders, MD5/SHA/HMAC/bcrypt/argon2 hashes, JSON/YAML/XML formatters, regex tester, network diagnostics (ping/traceroute/dig/whois/SSL/SPF/DMARC), OSINT lookups. No auth, no API key.
@@ -79,6 +85,9 @@ Remote, no-auth MCP server providing AI-powered codebase context and answers.
 
 ### Context7 MCP ★ Official
 Up-to-date, version-specific library documentation and code examples injected into AI coding prompts.
+
+### Scrapling MCP
+High-performance Python web scraping via Playwright. Proxy support, captcha solving, intelligent navigation. Speed-optimized alternative to Playwright/Puppeteer.
 
 ---
 
@@ -116,6 +125,9 @@ Persistent memory for AI agents across sessions.
 
 | Server | Category | Description |
 |--------|----------|-------------|
+| Hacker News MCP | Content | Hacker News API: stories, comments, search (by NeCL) |
+| Bright Data | Dev Tools | Enterprise web scraping and data extraction (Sponsor) |
+| Scrapling MCP | Dev Tools | High-performance web scraping via Playwright |
 | Onlinecybertools MCP | Dev Tools | 280+ free dev/security tools, no auth required |
 | Scribefy | Content | YouTube transcripts, video search, metadata |
 | Secure Calendar MCP | Data Firewall | AI-safe Google Calendar & Outlook access |
