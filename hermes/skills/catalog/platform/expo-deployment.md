@@ -1,0 +1,31 @@
+---
+name: expo-deployment
+description: React Native deployment via Expo. Build and deploy mobile apps with Expo. 33.6K installs.
+triggers:
+  - "expo deployment"
+source: skills.sh marketplace
+category: platform
+setup: npx skills add expo/skills
+---
+
+# Expo Deployment
+
+React Native deployment via Expo.
+
+## Setup
+
+```bash
+npx skills add expo/skills@expo-deployment
+```
+
+## Capabilities
+
+Build configuration, app store deployment, OTA updates, environment management.
+
+## Hermes Integration
+
+Install with `npx skills add` or via the Hermes skills manager. The skill auto-registers tools and workflows for the agent.
+
+## Source
+
+Discovered via skills.sh marketplace scan, June 2026.
