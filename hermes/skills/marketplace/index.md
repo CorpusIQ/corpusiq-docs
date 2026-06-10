@@ -1,6 +1,6 @@
 ---
 title: Skills.sh Marketplace — CorpusIQ Selection
-description: Curated skills from skills.sh for Hermes agents. 153 skills across 18 categories: marketing, web scraping, MCP dev, testing, Stripe, Shopify, LangGraph, infrastructure, communication, orchestration, DevOps, integrations, and more.
+description: Curated skills from skills.sh for Hermes agents. 217 skills across 22 categories: marketing, web scraping, MCP dev, testing, Stripe, Shopify, LangGraph, infrastructure, communication, orchestration, DevOps, integrations, and more.
 ---
 
 # Skills.sh Marketplace
@@ -209,6 +209,8 @@ Web scraping (Firecrawl), MCP server development, web app testing, Stripe integr
 ---
 
 **Total: 153 curated skills across 18 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+
+→ **[June 11, 2026 Additions — Hermes ecosystem, platform bots, community skills](/hermes/skills/marketplace/new-june11-2026/)**
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Discovery Report](/hermes/skills/marketplace/new-june-2026/) →*
 

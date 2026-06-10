@@ -9,7 +9,7 @@ Complete index of all skills available to CorpusIQ Hermes agents. Updated as ski
 
 Skills are reusable agent capabilities — step-by-step workflows with tools, triggers, and verification. Not static prompts. Not text files. Executable runbooks that agents read and follow.
 
-**252 total**: 73 native + 179 marketplace.
+**290 total**: 73 native + 217 marketplace.
 
 ---
 
@@ -266,7 +266,7 @@ From [vercel-labs/agent-browser](https://skills.sh/vercel-labs/agent-browser), [
 | `blogwatcher` | corpusiq-docs | Monitor blogs and RSS/Atom feeds |
 | `social-media` | corpusiq-docs | Cross-platform social media workflows |
 
-### 🆕 Hermes Agent Variants — 5 skills (June 2026)
+### 🆕 Hermes Agent Variants — 7 skills (June 2026)
 
 Additional variants of `nousresearch/hermes-agent`. Install with `npx skills add nousresearch/hermes-agent@<variant>`.
 
@@ -276,7 +276,9 @@ Additional variants of `nousresearch/hermes-agent`. Install with `npx skills add
 | `hermes-agent@yuanbao` | 443 | Hermes + Yuanbao (Tencent AI) integration |
 | `hermes-agent@popular-web-designs` | 169 | Web design generation via Hermes |
 | `hermes-agent@llm-wiki` | 156 | LLM knowledge base / wiki integration |
-| `hermes-agent@powerpoint` | 153 | PowerPoint/presentation generation |
+| `hermes-agent@powerpoint` | 165 | PowerPoint/presentation generation |
+| `hermes-agent@arxiv` | 152 | ArXiv paper discovery and research via Hermes |
+| `hermes-agent@claude-code` | 131 | Claude Code integration for Hermes coding |
 
 ### 🆕 Communication Platform Bots — 4 skills (June 2026)
 
@@ -288,6 +290,68 @@ Turn Hermes agents into interactive bots on major messaging platforms.
 | `whatsapp-automation` | 3.4K | WhatsApp messaging and workflow automation |
 | `slack-workflows` | 2.8K | Slack app: messaging, channels, reactions |
 | `discord-bot` | 2.8K | Discord bot: channels, messaging, moderation |
+
+### 🆕 Hermes Agent Ecosystem — 20 skills (June 11, 2026)
+
+Full Hermes agent skill suite from `aradotso/hermes-skills`. UI frameworks, desktop companions, mission control, self-evolution, and multi-agent orchestration.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| `hermes-webui-agent` | 193 | Web-based UI for Hermes agent interaction |
+| `hermes-agent-self-evolution` | 186 | Self-improvement loops for Hermes agents |
+| `hermes-agent-framework` | 164 | Base framework for building Hermes agents |
+| `awesome-hermes-agent-ecosystem` | 160 | Curated ecosystem map of Hermes tools/skills |
+| `hermes-workspace-ai-agent-ui` | 155 | Workspace UI for AI agent management |
+| `hermes-desktop-companion` | 152 | Desktop companion app for Hermes |
+| `hermes-web-ui-dashboard` | 150 | Dashboard UI for Hermes monitoring |
+| `hermes-atlas-ecosystem-map` | 138 | Ecosystem visualization and mapping |
+| `hermes-desktop-os1-native-macos-client` | 137 | Native macOS client for Hermes |
+| `hermes-agent-mission-control` | 137 | Central mission control for agent coordination |
+| `oh-my-hermes-workflow` | 134 | Opinionated Hermes workflow presets |
+| `hermes-hudui-consciousness-monitor` | 132 | Agent consciousness/state monitoring |
+| `minions-hermes-mission-control` | 129 | Minions workers + Hermes coordination |
+| `runbookhermes-aiops-agent` | 128 | AIOps runbook automation for Hermes |
+| `hermes-paperclip-adapter` | 109 | Paperclip plugin adapter for Hermes |
+| `hermesclaw-wechat-multi-agent` | 106 | WeChat multi-agent via OpenClaw + Hermes |
+| `hermes-agent-control-room` | 100 | Agent control room / operations center |
+| `hermes-swift-mac-app` | 95 | Native Swift macOS app for Hermes |
+| `hermes-agent-optimization` | 93 | Agent performance optimization toolkit |
+| `hermes-labyrinth-observability` | 101 | Labyrinth observability framework |
+
+**Install:** `npx skills add aradotso/hermes-skills@<skill-name>`. See the [June 11 Discoveries](/hermes/skills/marketplace/new-june11-2026/) page for full setup guides.
+
+### 🆕 Platform Integration Bots — 10 skills (June 11, 2026)
+
+Turn Hermes agents into interactive bots across enterprise platforms. From `membranedev/application-skills`.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| `google-drive` | 2.2K | Google Drive file operations from Hermes |
+| `confluence` | 1.4K | Atlassian Confluence wiki integration |
+| `microsoft-sharepoint` | 1.3K | SharePoint document management |
+| `salesforce` | 1.3K | Salesforce CRM from Hermes |
+| `box` | 1.2K | Box cloud storage operations |
+| `dropbox` | 1.2K | Dropbox file management |
+| `shopify` | 204 | Shopify store operations |
+| `airtable` | 217 | Airtable database operations |
+| `telegram` | 153 | Telegram bot integration |
+| `discord` | 132 | Discord bot integration |
+
+**Install:** `npx skills add membranedev/application-skills@<skill-name>`. Requires platform OAuth after install.
+
+### 🆕 Community Standalone — 5 skills (June 11, 2026)
+
+Independent community contributions with Hermes integration.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| `hermes-imports` | 1.9K | Claude Code → Hermes skill importer |
+| `hermes-history-ingest` | 1.6K | Obsidian wiki history → Hermes ingest |
+| `hermes` | 51 | General Hermes skill wrapper (D&DA Company) |
+| `hermes-ops` | 46 | Hermes operations and DevOps toolkit |
+| `hermes-agent` | 27 | ByteDance/Volces Hermes agent integration |
+
+**Install:** `npx skills add dandacompany/hermes-skill@hermes`, etc. See the [June 11 Discoveries](/hermes/skills/marketplace/new-june11-2026/) page for full details.
 
 ### 🆕 Agent Orchestration & RAG — 6 skills (June 2026)
 
@@ -372,10 +436,13 @@ Highlights: Firecrawl web scraping (6 skills, 70K+ installs), MCP builder (71.6K
 | LangGraph Extensions (marketplace) 🆕 | 3 |
 | Database & Infra (marketplace) 🆕 | 4 |
 | Productivity (marketplace) 🆕 | 4 |
+| Hermes Agent Ecosystem (marketplace) 🆕 | 20 |
+| Platform Integration Bots (marketplace) 🆕 | 10 |
+| Community Standalone (marketplace) 🆕 | 5 |
 | Hermes Ecosystem (marketplace) 🆕 | 4 |
 | TTS & Audio (marketplace) 🆕 | 3 |
-| **Marketplace subtotal** | **153** |
-| **Total** | **226** |
+| **Marketplace subtotal** | **217** |
+| **Total** | **290** |
 
 ## Using Skills
 
