@@ -9,7 +9,7 @@ Complete index of all skills available to CorpusIQ Hermes agents. Updated as ski
 
 Skills are reusable agent capabilities — step-by-step workflows with tools, triggers, and verification. Not static prompts. Not text files. Executable runbooks that agents read and follow.
 
-**297 total**: 80 native + 217 marketplace.
+**306 total**: 89 native + 217 marketplace.
 
 ---
 
@@ -17,7 +17,7 @@ Skills are reusable agent capabilities — step-by-step workflows with tools, tr
 
 Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically when the agent profile matches.
 
-### Growth & Engagement (12)
+### Growth & Engagement (13)
 
 | Skill | What It Does |
 |-------|-------------|
@@ -33,6 +33,7 @@ Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically wh
 | `corpusiq-content-analysis-rules` | Rules for TikTok/YouTube video content analysis |
 | `corpusiq-video-knowledge-extraction` | Extract insights from TikTok/YouTube AI videos |
 | `corpusiq-video-transcript-analysis` | Synthesize learnings from video transcripts |
+| `corpusiq-docs-management` | Manage docs repo, write/update/publish, skills.sh marketplace |
 
 ### Research & Intelligence (6)
 
@@ -45,7 +46,7 @@ Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically wh
 | `multi-tier-partnership-qualification` | Evaluate multiple partnership opportunities simultaneously |
 | `inbound-lead-analysis-domain-first` | Analyze inbound leads by email domain (business domain = priority) |
 
-### Lead Response & Nurture (8)
+### Lead Response & Nurture (11)
 
 | Skill | What It Does |
 |-------|-------------|
@@ -57,6 +58,9 @@ Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically wh
 | `professional-custom-email-templates` | Professional HTML email templates for inbound responses |
 | `corpusiq-email-response-standards` | Professional email standards for all outbound communication |
 | `corpusiq-email-phone-number-hard-rule` | Enforce phone number handling in ALL communications |
+| `corpusiq-inbound-communication-monitoring` | Monitor + respond to inbound across email/messaging channels |
+| `company-name-verification-hardcoded` | MANDATORY company name verification before outbound |
+| `autonomous-communication-priority` | Channel monitoring SLA hierarchy (WhatsApp > Telegram > Email) |
 
 ### Email Operations (7)
 
@@ -81,13 +85,14 @@ Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically wh
 | `heygen-skills-install` | First-time HeyGen setup for Hermes agents |
 | `video-voiceover-production` | Voiceover narration and captions for screen recordings |
 
-### Social Media Automation (3)
+### Social Media Automation (4)
 
 | Skill | What It Does |
 |-------|-------------|
 | `instagram-tiktok-heygen-video-automation` | Automated video generation + posting to Instagram/TikTok |
 | `instagram-tiktok-video-posting-automation` | Instagram + TikTok video posting via Postiz CLI |
 | `rate-limit-pivot-execution` | Detect API rate limits, pivot to alternative platforms |
+| `corpusiq-social-cadence-engine` | ALL-PLATFORM posting schedule: X, Reddit, TikTok, IG, YT, Discord, GH, HN, LinkedIn |
 
 ### LinkedIn Integration (3)
 
@@ -104,7 +109,7 @@ Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically wh
 | `reddit-oauth-praw-automation` | End-to-end Reddit API automation via OAuth credentials |
 | `reddit-praw-automation` | Reddit automation via PRAW (Python Reddit API Wrapper) |
 
-### Session & Execution (5)
+### Session & Execution (6)
 
 | Skill | What It Does |
 |-------|-------------|
@@ -113,6 +118,7 @@ Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically wh
 | `corpusiq-done-only-reporting` | Never report scheduled/queued/planned — report ONLY completed work |
 | `execution-first-communication` | Minimize explanation, maximize action |
 | `corpusiq-execution-discipline` | Hard rules to prevent analysis inflation |
+| `corpusiq-session-handoff` | Write session context to GBrain for anti-amnesia recovery |
 
 ### System Governance (8)
 
@@ -145,20 +151,22 @@ Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically wh
 | `mac-mini-worker` | Mac Mini as worker node — SSH, Hermes, OpenClaw, FFmpeg |
 | `corpusiq-mcp-oauth-auth` | Authenticate Hermes agents to the CorpusIQ MCP server |
 
-### Job Applications (2) — Confidential
+### Job Applications (3) — Confidential
 
 | Skill | What It Does |
 |-------|-------------|
 | `corpusiq-job-application-automation` | Confidential job application engine |
 | `corpusiq-job-application-engine` | Job application engine: search, tailor, apply |
+| `autonomous-job-application-engine` | E2E autonomous job search, apply, track, bounce monitor, 50+/session |
 
-### Core Knowledge (3)
+### Core Knowledge (4)
 
 | Skill | What It Does |
 |-------|-------------|
 | `corpusiq-fundamentals` | Complete CorpusIQ product knowledge, core thesis, positioning |
 | `corpusiq-guardrails` | Hard guardrails enforced before any external action |
 | `corpusiq-daily-html-reporting` | Automated daily HTML report (6 PM Arizona, every day) |
+| `benoit-email-report-format` | HTML assessment reports with navy gradient header + gold tag |
 
 ### GBrain Operations (1)
 
@@ -166,7 +174,7 @@ Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically wh
 |-------|-------------|
 | `corpusiq-gbrain-operations` | Operate GBrain — Garry Tan's agent brain layer |
 
-### Engineering (7) — Platform Construction
+### Engineering (8) — Platform Construction
 
 | Skill | What It Does |
 |-------|-------------|
@@ -177,6 +185,7 @@ Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically wh
 | [`frontend-development`](/hermes/skills/engineering/frontend-development/) | Next.js + Vercel patterns for marketing + dashboard in one repo: canonical-constant rule, deploy verification, cross-repo boundary |
 | [`scheduled-jobs`](/hermes/skills/engineering/scheduled-jobs/) | Hermes cron operating manual: server-local time, profile vs default split, no-agent watchdog pattern, in-prompt-curl trap |
 | [`honcho-memory-usage`](/hermes/skills/engineering/honcho-memory-usage/) | Server-side semantic memory via Honcho MCP — when it complements MEMORY.md/USER.md, when to read vs write, cost discipline |
+| `subagent-resilience` | Checkpoint-based resilience for subagents: save partial results, survive interruptions |
 
 ---
 
@@ -428,23 +437,23 @@ Full SKILL.md files for every skill. See individual files for setup, triggers, a
 
 | Category | Count |
 |----------|:----:|
-| Growth & Engagement | 12 |
+| Growth & Engagement | 13 |
 | Research & Intelligence | 6 |
-| Lead Response & Nurture | 8 |
+| Lead Response & Nurture | 11 |
 | Email Operations | 7 |
 | Video Production | 6 |
-| Social Media Automation | 3 |
+| Social Media Automation | 4 |
 | LinkedIn Integration | 3 |
 | Reddit Automation | 2 |
-| Session & Execution | 5 |
+| Session & Execution | 6 |
 | System Governance | 8 |
 | Infrastructure | 5 |
 | Browser & Web | 3 |
-| Job Applications | 2 |
-| Core Knowledge | 3 |
+| Job Applications | 3 |
+| Core Knowledge | 4 |
 | GBrain | 1 |
-| Engineering | 7 |
-| **Native subtotal** | **80** |
+| Engineering | 8 |
+| **Native subtotal** | **89** |
 | Marketing & Growth (marketplace) | 45 |
 | Development (marketplace) | 10 |
 | Creative & Media (marketplace) | 3 |
@@ -469,7 +478,7 @@ Full SKILL.md files for every skill. See individual files for setup, triggers, a
 | Hermes Ecosystem (marketplace) 🆕 | 4 |
 | TTS & Audio (marketplace) 🆕 | 3 |
 | **Marketplace subtotal** | **217** |
-| **Total** | **290** |
+| **Total** | **299** |
 
 ## Using Skills
 
