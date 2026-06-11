@@ -29,6 +29,6 @@ ChatGPT supports MCP servers — live data connections that let it query your ac
 - "What is our true ROAS across Google and Meta after Shopify returns?"
 - "Show me all invoices overdue more than 30 days."
 
-25+ connectors. 133+ pre-built reasoning chains. Read-only. 5-minute setup.
+37+ connectors. 133+ pre-built reasoning chains. Read-only. 5-minute setup.
 
 [Connect ChatGPT to your business data free](https://www.corpusiq.io)

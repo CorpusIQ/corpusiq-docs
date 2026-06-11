@@ -1,11 +1,11 @@
 ---
 title: MCP Server Guides
-description: Integration guides for 30+ MCP servers connected to CorpusIQ — GA4, Stripe, Shopify, QuickBooks, and more
+description: Integration guides for 37+ MCP servers connected to CorpusIQ — GA4, Stripe, Shopify, QuickBooks, and more
 ---
 
 # MCP Server Integration Guides
 
-CorpusIQ connects to 30+ MCP servers providing data access across analytics, payments, CRM, marketing, and operations. Each server has a dedicated integration guide covering setup, tools, common queries, and best practices.
+CorpusIQ connects to 37+ MCP servers providing data access across analytics, payments, CRM, marketing, and operations. Each server has a dedicated integration guide covering setup, tools, common queries, and best practices.
 
 ## Analytics and SEO
 

@@ -38,7 +38,7 @@ claude mcp add corpusiq --url https://mcp2.corpusiq.io/mcp --header "Authorizati
 
 ## What You Get
 
-64+ tools across 29 data sources. Your AI agent can query:
+64+ tools across 37+ data sources. Your AI agent can query:
 - **Ecommerce**: Shopify, Amazon Seller, eBay, WooCommerce
 - **Marketing**: Google Ads, Meta Ads, Mailchimp, Klaviyo, SEMrush
 - **CRM**: HubSpot, GoHighLevel, ActiveCampaign, Monday

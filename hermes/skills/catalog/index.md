@@ -1,6 +1,6 @@
 ---
 title: Skills Catalog
-description: Every skill available to Hermes agents — 73+ native CorpusIQ skills, 179+ marketplace skills from skills.sh. Single source of truth.
+description: Every skill available to Hermes agents — 89+ native CorpusIQ skills, 217+ marketplace skills from skills.sh. Single source of truth.
 ---
 
 # Skills Catalog

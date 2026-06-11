@@ -16,7 +16,7 @@ you, say so in the Idea thread and we'll tell you straight where it sits.
 
 ## ✅ Live now
 
-35+ connectors are connected and answering questions in production today. The
+37+ connectors are connected and answering questions in production today. The
 full list with setup guides is in the [Connectors index](../connectors/). The
 highlights:
 

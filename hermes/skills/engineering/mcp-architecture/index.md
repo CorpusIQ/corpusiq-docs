@@ -5,7 +5,7 @@ description: Field guide for operating a 50k+ LOC MCP server with multi-connecto
 
 # MCP Architecture — operating-scale orientation
 
-A skill for the team building and maintaining an MCP (Model Context Protocol) server with 30+ connectors, multiple client paths (stdio, raw HTTP, ChatGPT mega-tool), and the operational discipline that comes with serving real customer traffic through it.
+A skill for the team building and maintaining an MCP (Model Context Protocol) server with 37+ connectors, multiple client paths (stdio, raw HTTP, ChatGPT mega-tool), and the operational discipline that comes with serving real customer traffic through it.
 
 This is not "how MCP works" — that's covered by Anthropic's MCP docs. This is "how to keep a customer-facing MCP server from rotting in 50,000+ lines."
 

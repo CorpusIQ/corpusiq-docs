@@ -14,13 +14,13 @@ MCP is an open standard that lets AI assistants connect to external data sources
 - Fast setup: OAuth in minutes
 - Pre-built skills: reasoning chains so you do not have to prompt-engineer everything
 
-## CorpusIQ: 25+ connectors, one MCP endpoint
+## CorpusIQ: 37+ connectors, one MCP endpoint
 
 CorpusIQ is a live MCP server with 25+ business data connectors built and maintained. Connect once, ask questions across all your tools simultaneously.
 
 MCP endpoint: https://mcp2.corpusiq.io/mcp
 Auth: OAuth 2.1 PKCE device flow
-Tools: 53 live tools across 25+ connectors
+Tools: 53 live tools across 37+ connectors
 
 ## Questions you can ask immediately after connecting
 

@@ -49,7 +49,7 @@ How agents are structured, coordinated, and improved.
 
 | Page | Content |
 |------|---------|
-| [Catalog](/hermes/skills/catalog/) | Every skill: 80 native + 217 marketplace, categorized |
+| [Catalog](/hermes/skills/catalog/) | Every skill: 89 native + 217 marketplace, categorized |
 | [Marketplace](/hermes/skills/marketplace/) | 85 curated skills from skills.sh with install counts |
 | [Marketing](/hermes/skills/marketing/) | 45 SEO, CRO, ads, content, growth skills |
 | [Development](/hermes/skills/development/) | GitHub, code review, issues, CI/CD skills |
