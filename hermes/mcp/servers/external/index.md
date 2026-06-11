@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 10, 2026 (sweep 2) · **Sources:** mcp.so (22,054+ servers), mcpservers.org
+> **Last updated:** June 11, 2026 · **Sources:** mcp.so (22,135+ servers), mcpservers.org
 
 ---
 
@@ -63,6 +63,9 @@ Official Microsoft MCP server for browser automation, page inspection, screensho
 ### Browserbase ★ Official
 Automate browser interactions in the cloud — web navigation, data extraction, form filling. Cloud-hosted, no local browser needed. `npx @browserbasehq/stagehand-mcp`
 
+### Doorprofit ★ New
+US location intelligence: crime safety scores, recent incidents, neighborhood demographics, rent data, and registered-offender search by address. Free tier available. Useful for site selection, real estate due diligence, and location-based business decisions.
+
 ---
 
 ## Content & Research
@@ -102,6 +105,9 @@ Unified search API aggregating results from Google, Bing, and other search engin
 
 ### Reddit MCP Server ★ New
 Access Reddit data for social listening, market research, and community monitoring. Search subreddits, fetch posts and comments, track trending topics. Requires Reddit API credentials. `pip install reddit-mcp`
+
+### Baidu Map MCP ★ New
+Baidu Maps API via MCP — China's largest mapping platform. Location search, geocoding, directions, POI data, and route planning. First major map service fully MCP-compatible. Essential for China-market operators.
 
 ---
 
@@ -164,6 +170,24 @@ Discover and install the right MCP servers for your needs. Acts as a meta-layer 
 ### NLP Toolkit ★ New
 Natural language processing tools for business text analysis — sentiment analysis, entity extraction, summarization, keyword extraction. Process documents, customer feedback, and market reports via MCP.
 
+### EdgeOne Pages MCP ★ New
+Deploy HTML content to EdgeOne Pages CDN and obtain accessible public URLs. Simple deployment for static sites, landing pages, and single-page apps via MCP. By Tencent Cloud.
+
+### Redirhub MCP Server ★ New
+AI-powered URL redirect management and link shortener via MCP. Create, update, test, and monitor redirects. Alternative to Bitly with custom domains and team collaboration features.
+
+### StillOnline MCP ★ New
+Uptime monitoring and status pages via MCP. Manage monitoring projects, HTTP/SSL health checks, and incidents from any AI client. Requires Pro/Ultimate API key.
+
+### Unterm MCP ★ New
+Cross-platform desktop terminal (macOS/Linux/Windows, MIT) with built-in MCP server. Spawn tabs/panes, run commands with structured output, read screens, take scrolling screenshots, record sessions with secret redaction. Auto-registers with Claude Code/Codex/Gemini CLI.
+
+### Contorium ★ New
+Runtime Cognitive Cortex for AI coding workflows. Provides workspace awareness, project memory, runtime monitoring, and MCP context synchronization without taking control away from developers.
+
+### Neo MCP ★ Sponsor ★ New
+NEO MCP lets Claude Code, Cursor, and VS Code hand off complex AI engineering tasks — model evaluations, agent optimization, and more — to NEO's specialized infrastructure. Built for engineering teams scaling AI workflows.
+
 ---
 
 ## Productivity
@@ -192,6 +216,9 @@ Knowledge management and wiki tools via MCP. Create, edit, and query structured 
 ### Flomo MCP Server ★ New
 Connect AI agents to Flomo notes for knowledge management. Capture ideas, meeting notes, and research directly into your Flomo workspace from any MCP client. `npx -y mcp-server-flomo`
 
+### Capafy ★ Sponsor ★ New
+Marketplace for monetizing agent skills as products. On Capafy, your Skill runs online 24/7 as an agent product, and you get paid every time someone uses it. The "App Store for agent skills" — build once, earn continuously.
+
 ---
 
 ## Communication
@@ -215,12 +242,18 @@ AI-powered content creation platform for video and image generation. Create mark
 ### Scenext ★ New
 AI educational video generation platform. Generate high-quality explainer and tutorial videos from question-answer pairs. MCP-native for automated video content pipelines.
 
+### MiniMax MCP ★ Official ★ New
+Official MiniMax MCP server for powerful TTS (Text-to-Speech), image generation, and video generation APIs. Create voiceovers, marketing visuals, and video content directly from AI agents. `npx -y @minimax/mcp`
+
 ---
 
 ## Marketing
 
 ### Zernio MCP ★ Official ★ New
 Social media scheduling platform — manage and publish content across all major platforms from a single API. MCP-native. `https://docs.zernio.com/mcp`
+
+### FeedSquad ★ New
+Content calendar and social publishing for Claude and ChatGPT agents. Create posts and campaigns, schedule with cadence guardrails, and publish to LinkedIn, X, and Threads. OAuth 2.1 authentication. Anti-slop pattern registry checks all drafts before scheduling. Approval-first workflow — nothing goes live without explicit approval.
 
 ---
 
@@ -234,31 +267,26 @@ Persistent memory for AI agents across sessions.
 
 ---
 
-## New This Week (June 10, 2026 — mcp.so + mcpservers.org)
+## New This Week (June 11, 2026 — mcp.so + mcpservers.org)
 
 | Server | Category | Description |
 |--------|----------|-------------|
-| NotebookLM MCP | Content/Research | Chat with NotebookLM for zero-hallucination answers (by PleasePrompto) |
-| Playwright MCP | Analytics/Dev | Official Microsoft browser automation, 78 tools |
-| GitHub MCP | Dev Tools | Official GitHub MCP: repos, issues, PRs, code context |
-| Firecrawl MCP | Content/Dev | Official web scraping, 3.3k stars, widely adopted |
-| Supabase MCP | Database | Official Supabase: projects, DB, auth, storage, edge functions |
-| Google MCP Servers | Dev Tools | Collection of Google's official MCP integrations |
-| Exa MCP | Content/Research | AI-native search engine, semantic web search |
-| Zernio MCP | Marketing | Social media scheduling across all platforms via MCP |
-| Infrawise | Finance | Azure FinOps cost optimization for cloud operators |
-| Browserbase | Dev Tools | Cloud browser automation — no local browser needed |
-| OpenSERP | Content/Research | Multi-engine SERP (Google, Bing, Yandex, Baidu, DuckDuckGo) |
-| MCPg | Database | Production-grade PostgreSQL MCP with safety guardrails |
-| Karea | Productivity | Dev task management with Jira linking, per-task context |
-| HomeLab Monitor | Infrastructure | Self-hosted homelab monitoring: Docker, GPU, services |
-| MindMeister MCP | Productivity | Mind mapping via MCP — remote hosted (Official) |
-| MeisterTask MCP | Productivity | Project/task management via MCP — remote hosted (Official) |
-| Next.js DevTools | Dev Tools | Official Vercel MCP for Next.js debugging and optimization |
-| Proxyman MCP | Dev Tools | Official HTTP traffic inspection and API debugging |
-| E2B | Dev Tools | Official sandboxed code execution for AI agents |
-| Serper MCP | Content/Research | Google Search API with structured AI-ready results |
-| Zhipu Web Search | Content/Research | LLM-optimized multi-engine search by BigModel |
+| MiniMax MCP | Content Creation | Official TTS, image gen, video gen APIs via MCP |
+| FeedSquad | Marketing | Content calendar + social publishing (LinkedIn, X, Threads), anti-slop registry |
+| EdgeOne Pages MCP | Dev/Infra | Deploy HTML to CDN, static sites via MCP (Tencent Cloud) |
+| Baidu Map MCP | Content/Research | China's largest mapping platform via MCP |
+| Redirhub MCP | Dev/Infra | URL redirect management, link shortener (Bitly alternative) |
+| StillOnline MCP | Dev/Infra | Uptime monitoring & status pages via MCP |
+| Unterm MCP | Dev/Infra | Cross-platform terminal (MIT) with built-in MCP server |
+| Contorium | Dev/Infra | Runtime Cognitive Cortex for AI coding workflows |
+| Neo MCP | Dev/Infra | AI engineering task delegation (model evals, agent optimization) |
+| Capafy | Productivity | Monetize agent skills — "App Store for agent products" |
+| Doorprofit | Analytics/Data | US crime, safety, demographic, and rent data by address |
+
+## Previous Additions (June 10, 2026 — sweep 2)
+
+| Server | Category | Description |
+|--------|----------|-------------|
 | Perplexity Ask MCP | Content/Research | AI-powered research via Perplexity (by Perplexity) |
 | AgentQL MCP | Content/Research | Structured web data extraction with query language |
 | Jina AI MCP Tools | Content/Research | AI search, embeddings, and content processing |
@@ -274,15 +302,18 @@ Persistent memory for AI agents across sessions.
 | Wikimint | Productivity | Knowledge management and wiki tools |
 | Flomo MCP Server | Productivity | Flomo notes integration for knowledge management |
 
+## June 10, 2026 (sweep 1)
+
 ---
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,054+ (mcp.so)
-- **Official servers:** 30+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, etc.)
+- **Total MCP servers tracked:** 22,135+ (mcp.so)
+- **Official servers:** 33+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
-- **Categories represented:** 20+ (Finance, Analytics, CRM, Commerce, Dev, etc.)
-- **New this cycle:** 36 newly catalogued servers for business operators (21 initial + 15 new June 10 sweep)
+- **Categories represented:** 22+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Media, etc.)
+- **New this cycle (June 11):** 11 newly catalogued servers for business operators
+- **Cumulative since June 9:** 47 MCP servers catalogued across 3 sweeps
 
 ---
 
