@@ -30,6 +30,9 @@ Search, read, create, copy, rename, precisely edit documents (insert, append, re
 ### Secure Google Sheets
 Create/copy spreadsheets, read tabs/ranges, write/append values, manage tabs. Protects sensitive values, audits every write.
 
+### Secure Google Sheets MCP Server ★ New
+Dedicated MCP server for PortEden's Google Sheets data firewall. Read, write, and manage spreadsheet data with permission gating and audit logging. Separate from the Drive-level Secure Google Drive server.
+
 ---
 
 ## Financial Data
@@ -42,6 +45,15 @@ Read-only access to Belarusian securities: tokens, shares, bonds, companies, tic
 
 ### Infrawise ★ New
 Azure FinOps infrastructure cost optimization. Helps operators manage cloud spend with AI-assisted cost analysis. `npx -y @infrawise/mcp-server`
+
+### agents.hellobooks.ai ★ New
+AI agents that automate bookkeeping and financial close for SMBs. Streamable HTTP transport. Hands-free bookkeeping via MCP — ideal for small business operators who want AI to handle financial close.
+
+### infaton-1c-mcp ★ New
+MCP server for 1C:Enterprise (ERP, Accounting) — 51 tools for metadata, documents, registers, reports. Essential for Eastern European and Russian-market operators running on 1C.
+
+### IRONCLAW BTC Node ★ New
+Bitcoin blockchain data server for AI agents — 17 tools (fees, mempool, transactions, address portfolio, trace, whales, SEC insider trades, web scraping, AI summarization, capital flows, Reddit). x402 USDC micropayments on Base. No API keys needed.
 
 ---
 
@@ -65,6 +77,12 @@ Automate browser interactions in the cloud — web navigation, data extraction, 
 
 ### Doorprofit ★ New
 US location intelligence: crime safety scores, recent incidents, neighborhood demographics, rent data, and registered-offender search by address. Free tier available. Useful for site selection, real estate due diligence, and location-based business decisions.
+
+### HTAG Property Intelligence MCP ★ Official ★ New
+Australian property intelligence, H3 spatial intelligence, and capability discovery — 70+ read-only tools over Streamable HTTP. Public connectors for real estate operators, investors, and property analysts. Official HTAG integration.
+
+### Remote Jobs MCP ★ New (Jobicy)
+Autonomous remote job search — AI tools can search, filter, and retrieve the latest remote job listings in real-time via public Jobicy MCP server. Useful for recruitment agents and talent operations.
 
 ---
 
@@ -108,6 +126,9 @@ Access Reddit data for social listening, market research, and community monitori
 
 ### Baidu Map MCP ★ New
 Baidu Maps API via MCP — China's largest mapping platform. Location search, geocoding, directions, POI data, and route planning. First major map service fully MCP-compatible. Essential for China-market operators.
+
+### Geekflare ★ New
+Web scraping, search, screenshots, and network tools for Claude, Cursor, ChatGPT, and other MCP clients. All-in-one web intelligence toolkit for operators who need to extract and monitor web data at scale. `npx -y @geekflare/mcp`
 
 ---
 
@@ -201,6 +222,12 @@ Build, deploy, and monetize AI agents — "What Shopify did for ecommerce, Chipp
 ### Karea ★ New
 Extensive MCP tools so Claude Code, Cursor, and other MCP clients can create, edit, close, recap, and link dev tasks while coding. Jira linking, productivity recap. `npx -y karea-mcp`
 
+### Unclick ★ New
+Universal remote for AI: one MCP install gives any compatible agent 450+ callable endpoints across 60+ integrations, plus persistent cross-session memory. Like Zapier for AI agents. Ideal for operators who want a single MCP that covers hundreds of APIs. `npx -y unclick-mcp`
+
+### FileToPDF ★ Official ★ New
+Convert files (DOCX, XLSX, PPTX, images), HTML, and Markdown to pixel-perfect PDFs. npx stdio or hosted Streamable HTTP. Free API key in one click. Essential for operators generating reports, invoices, and documents programmatically. `npx -y @filetopdf/mcp`
+
 ### MindMeister MCP ★ Official ★ New
 Create, edit, and organize mind maps from any AI assistant. Remote hosted MCP at `mcp.mindmeister.com/mcp`. Visual brainstorming and knowledge mapping via MCP. Streamable HTTP transport.
 
@@ -245,6 +272,9 @@ AI educational video generation platform. Generate high-quality explainer and tu
 ### MiniMax MCP ★ Official ★ New
 Official MiniMax MCP server for powerful TTS (Text-to-Speech), image generation, and video generation APIs. Create voiceovers, marketing visuals, and video content directly from AI agents. `npx -y @minimax/mcp`
 
+### Vidoly AI ★ New
+AI image & video generation for social media, branding, ecommerce, and digital content. Use Vidoly AI to generate images, create videos, and streamline visual production from any MCP client. Streamable HTTP.
+
 ---
 
 ## Marketing
@@ -265,6 +295,9 @@ Enable AI assistants to interact with Anki spaced-repetition flashcards.
 ### XMemo
 Persistent memory for AI agents across sessions.
 
+### Vault Cortex ★ New
+MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-protected. Connect AI agents to your Obsidian knowledge base. Ideal for operators who use Obsidian as their second brain.
+
 ---
 
 ## New This Week (June 11, 2026 — mcp.so + mcpservers.org)
@@ -282,6 +315,22 @@ Persistent memory for AI agents across sessions.
 | Neo MCP | Dev/Infra | AI engineering task delegation (model evals, agent optimization) |
 | Capafy | Productivity | Monetize agent skills — "App Store for agent products" |
 | Doorprofit | Analytics/Data | US crime, safety, demographic, and rent data by address |
+
+### Evening sweep — 11 new servers from mcp.so Latest + mcpservers.org All
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| HTAG Property Intelligence MCP ★ | Data/Intelligence | Australian property intelligence, 70+ read-only tools over Streamable HTTP |
+| agents.hellobooks.ai | Finance/Accounting | AI agents that automate bookkeeping and financial close for SMBs |
+| infaton-1c-mcp | Finance/Accounting | 1C:Enterprise ERP — 51 tools for metadata, documents, registers, reports |
+| Unclick | Productivity | 450+ callable endpoints across 60+ integrations + persistent cross-session memory |
+| Secure Google Sheets MCP | Data Firewall | PortEden data firewall for Google Sheets — permission-gated, audit-logged |
+| FileToPDF ★ official | Productivity | Convert DOCX, XLSX, PPTX, images, HTML, MD to PDF — free API key |
+| Vault Cortex | Memory/Knowledge | Obsidian vaults MCP — search, memory, link graph, 23 tools, OAuth-protected |
+| Geekflare | Content/Research | Scraping, web search, screenshots, network tools for AI agents |
+| Remote Jobs MCP | Data/Intelligence | Jobicy MCP — autonomous remote job search and filtering in real-time |
+| Vidoly AI | Content Creation | AI image & video generation for social media, branding, ecommerce |
+| IRONCLAW BTC Node | Finance | Bitcoin blockchain data — 17 tools, x402 USDC micropayments, no API keys |
 
 ## Previous Additions (June 10, 2026 — sweep 2)
 
@@ -308,12 +357,12 @@ Persistent memory for AI agents across sessions.
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,135+ (mcp.so)
-- **Official servers:** 33+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
+- **Total MCP servers tracked:** 22,166+ (mcp.so), 8,959 (mcpservers.org)
+- **Official servers:** 36+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 22+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Media, etc.)
-- **New this cycle (June 11):** 11 newly catalogued servers for business operators
-- **Cumulative since June 9:** 47 MCP servers catalogued across 3 sweeps
+- **New this cycle (June 11 evening):** 11 newly catalogued servers for business operators
+- **Cumulative since June 9:** 58 MCP servers catalogued across 4 sweeps
 
 ---
 
