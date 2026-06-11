@@ -1,5 +1,7 @@
 # Hermes Community Hub
 
+> **Built on [Hermes Agent](https://github.com/NousResearch/hermes-agent)** by [Nous Research](https://nousresearch.com/) — the open source autonomous agent framework. [Star the official repo →](https://github.com/NousResearch/hermes-agent)
+
 ### Build Better Hermes Agents Faster
 
 The largest collection of Hermes resources, agent templates, MCP integrations, deployment guides, architecture patterns, and production-ready workflows. 36 pages, 3,500+ lines, 233+ tools, 133+ skills, 37+ MCP connectors.
