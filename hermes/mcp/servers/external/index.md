@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 10, 2026 · **Sources:** mcp.so (22,054+ servers), mcpservers.org
+> **Last updated:** June 10, 2026 (sweep 2) · **Sources:** mcp.so (22,054+ servers), mcpservers.org
 
 ---
 
@@ -88,6 +88,21 @@ AI-native search engine by Exa. Search the web with semantic understanding. Offi
 ### Zhipu Web Search ★ New
 LLM-optimized search integrating four search engines with intent recognition. Returns structured results (title, URL, summary, site name, icon) designed for AI consumption. By BigModel.
 
+### Perplexity Ask MCP Server ★ New
+AI-powered research and Q&A through Perplexity's search engine. Get cited, up-to-date answers for market research, competitive analysis, and business intelligence. Ideal for operators who need fact-checked research without leaving their MCP client. `npx -y @perplexity-ask/mcp-server`
+
+### AgentQL MCP Server ★ New
+Structured web data extraction with AgentQL's query language. Transform any website into clean, typed data for business intelligence, lead enrichment, and competitive monitoring. Semantic, not brittle CSS selectors.
+
+### Jina AI MCP Tools ★ New
+AI-powered search, embeddings, and content processing via Jina AI. Reader API for web content extraction, embeddings for semantic search, and deep search capabilities. `npx -y @jina-ai/mcp-tools`
+
+### Search1API ★ New
+Unified search API aggregating results from Google, Bing, and other search engines. Single interface for multi-engine web search with structured results optimized for AI consumption. `npx -y search1api-mcp`
+
+### Reddit MCP Server ★ New
+Access Reddit data for social listening, market research, and community monitoring. Search subreddits, fetch posts and comments, track trending topics. Requires Reddit API credentials. `pip install reddit-mcp`
+
 ---
 
 ## Development & Infrastructure
@@ -137,6 +152,18 @@ Run code in secure cloud sandboxes hosted by E2B. Execute untrusted code safely,
 ### Serper MCP Server ★ New
 Google Search API via Serper for AI agents. Fast, reliable web search with structured results — rankings, knowledge graph, and rich snippets. `npx -y @garymengcom/serper-mcp-server`
 
+### Giteasy ★ New
+Simplified Git operations through MCP — clone, commit, push, branch management without leaving your AI client. Streamlines developer workflows. `npx -y giteasy-mcp`
+
+### Fastdomaincheck ★ New
+Blazing-fast domain name availability checks via MCP. Check domain availability across TLDs for brand research, naming projects, and competitive intelligence. `uvx fastdomaincheck-mcp-server`
+
+### MCP Advisor ★ New
+Discover and install the right MCP servers for your needs. Acts as a meta-layer — search across mcp.so's 22,000+ servers and get installation recommendations from your AI client. `npx -y @xiaohui-wang/mcpadvisor`
+
+### NLP Toolkit ★ New
+Natural language processing tools for business text analysis — sentiment analysis, entity extraction, summarization, keyword extraction. Process documents, customer feedback, and market reports via MCP.
+
 ---
 
 ## Productivity
@@ -159,6 +186,12 @@ Create and manage projects, tasks, and notes from AI assistants. Remote hosted a
 ### HomeLab Monitor ★ New
 Read-only MCP server for self-hosted homelab dashboards — explore hosts, Docker containers, GPU/VRAM, systemd services, AI models, alerts, and disk. `https://github.com/SikamikanikoBG/homelab-monitor`
 
+### Wikimint ★ New
+Knowledge management and wiki tools via MCP. Create, edit, and query structured knowledge bases from AI clients. Ideal for operators building internal knowledge repositories.
+
+### Flomo MCP Server ★ New
+Connect AI agents to Flomo notes for knowledge management. Capture ideas, meeting notes, and research directly into your Flomo workspace from any MCP client. `npx -y mcp-server-flomo`
+
 ---
 
 ## Communication
@@ -168,6 +201,19 @@ AI-powered meeting notes and summaries. Connect your meeting data to AI agents.
 
 ### Superlist MCP Server ★ Official
 Task and project management via MCP. Connect AI agents to your Superlist workspace.
+
+---
+
+## Content Creation & Creative
+
+### EverArt ★ New
+AI image generation via MCP. Generate marketing visuals, social media assets, product mockups, and creative content from any MCP client. Official integration with EverArt's FLUX and SD models. `docker exec -i mcp-node bash -c "EVERART_API_KEY=*** npx -y @modelcontextprotocol/server-everart"`
+
+### SuperMaker AI ★ New
+AI-powered content creation platform for video and image generation. Create marketing assets, product demos, and social content programmatically through MCP. Ideal for operators scaling content production.
+
+### Scenext ★ New
+AI educational video generation platform. Generate high-quality explainer and tutorial videos from question-answer pairs. MCP-native for automated video content pipelines.
 
 ---
 
@@ -213,6 +259,20 @@ Persistent memory for AI agents across sessions.
 | E2B | Dev Tools | Official sandboxed code execution for AI agents |
 | Serper MCP | Content/Research | Google Search API with structured AI-ready results |
 | Zhipu Web Search | Content/Research | LLM-optimized multi-engine search by BigModel |
+| Perplexity Ask MCP | Content/Research | AI-powered research via Perplexity (by Perplexity) |
+| AgentQL MCP | Content/Research | Structured web data extraction with query language |
+| Jina AI MCP Tools | Content/Research | AI search, embeddings, and content processing |
+| Search1API | Content/Research | Unified multi-engine search API |
+| Reddit MCP Server | Content/Research | Reddit data for social listening and market research |
+| Giteasy | Dev Tools | Simplified Git operations via MCP |
+| Fastdomaincheck | Dev Tools | Domain availability checks for brand research |
+| MCP Advisor | Dev Tools | MCP server discovery and installation recommendations |
+| NLP Toolkit | Dev Tools | NLP text analysis for business documents |
+| EverArt | Content Creation | AI image generation for marketing assets |
+| SuperMaker AI | Content Creation | AI video and image content creation |
+| Scenext | Content Creation | AI educational video generation |
+| Wikimint | Productivity | Knowledge management and wiki tools |
+| Flomo MCP Server | Productivity | Flomo notes integration for knowledge management |
 
 ---
 
@@ -222,7 +282,7 @@ Persistent memory for AI agents across sessions.
 - **Official servers:** 30+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 20+ (Finance, Analytics, CRM, Commerce, Dev, etc.)
-- **New this cycle:** 21 newly catalogued servers for business operators (14 from first pass + 7 from second sweep)
+- **New this cycle:** 36 newly catalogued servers for business operators (21 initial + 15 new June 10 sweep)
 
 ---
 
