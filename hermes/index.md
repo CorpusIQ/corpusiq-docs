@@ -5,7 +5,9 @@ description: Complete reference for autonomous Hermes agents. Architecture, infr
 
 # Hermes Agent Knowledge Repository
 
-Everything you need to build and operate autonomous agents. Production-tested on a dual-machine deployment (DGX Spark + Mac Mini M4) running 24 agents across 24 cron jobs.
+Everything you need to build and operate autonomous agents. Production-tested on a dual-machine deployment (DGX Spark + Mac Mini M4) running 24 agents across 34 cron jobs.
+
+> **Built on [Hermes Agent](https://github.com/NousResearch/hermes-agent)** by [Nous Research](https://nousresearch.com/). Hermes Agent is the open source autonomous agent framework — persistent memory, self-improving skills, multi-platform gateway, provider-agnostic. This knowledge repository documents our production deployment, skills, and patterns. [Star the official repo →](https://github.com/NousResearch/hermes-agent)
 
 ## Contents
 
