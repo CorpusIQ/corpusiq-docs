@@ -9,7 +9,7 @@ Complete index of all skills available to CorpusIQ Hermes agents. Updated as ski
 
 Skills are reusable agent capabilities — step-by-step workflows with tools, triggers, and verification. Not static prompts. Not text files. Executable runbooks that agents read and follow.
 
-**306 total**: 89 native + 217 marketplace.
+**334 total**: 89 native + 245 marketplace.
 
 ---
 
@@ -341,6 +341,20 @@ Full Hermes agent skill suite from `aradotso/hermes-skills`. UI frameworks, desk
 
 **Install:** `npx skills add aradotso/hermes-skills@<skill-name>`. See the [June 11 Discoveries](/hermes/skills/marketplace/new-june11-2026/) page for full setup guides.
 
+### 🆕 OpenClaw Ecosystem — 23 skills (June 11, 2026 Evening)
+
+Deployment, control centers, Chinese platform integrations, security, and community resources from `aradotso/hermes-skills`. All OpenClaw skills require OpenClaw installed (`pip install openclaw`).
+
+| Subcategory | Skills |
+|-------------|--------|
+| Control & Operations (7) | `openclaw-control-center` (137) · `openclaw-mission-control` (127) · `openclaw-studio-dashboard` (104) · `openclaw-admin-vue` (95) · `openclaw-bot-review-dashboard` (107) · `openclaw-zero-token` (135) · `openclaw-rl-training` (137) |
+| China Platforms (6) | `openclaw-chinese-ai-assistant` (126) · `openclaw-china-integration` (122) · `openclaw-wechat-integration` (122) · `dingtalk-openclaw-connector` (106) · `openclaw-lark-integration` (117) · `openclaw-china-docker` (119) |
+| Deployment (3) | `openclaw-installer-deployment` (116) · `openclaw-deployment-installer` (114) · `openclaw-security-practice-guide` (122) |
+| Community (7) | `awesome-openclaw-agents-templates` (118) · `awesome-openclaw-tutorial` (131) · `awesome-openclaw-skills-zh` (124) · `awesome-openclaw-usecases-zh` (138) · `openclaw101-resource-platform` (111) · `openclaw-awd-arena` (111) · `openclaw-master-skills` (109) |
+
+**Install:** `npx skills add aradotso/hermes-skills@<skill-name>`. See the [June 11 Evening Update](/hermes/skills/marketplace/new-june11-2026-update2/) page for full setup guides.
+
+
 ### 🆕 Platform Integration Bots — 10 skills (June 11, 2026)
 
 Turn Hermes agents into interactive bots across enterprise platforms. From `membranedev/application-skills`.
@@ -371,6 +385,11 @@ Independent community contributions with Hermes integration.
 | `hermes` | 51 | General Hermes skill wrapper (D&DA Company) |
 | `hermes-ops` | 46 | Hermes operations and DevOps toolkit |
 | `hermes-agent` | 27 | ByteDance/Volces Hermes agent integration |
+| `wihy/hermes-agent-skill@hermes-agent` | 489 | Alternative Hermes agent wrapper (wihy) |
+| `aradotso/marketing-skills@hermes-marketing-dashboard` | 383 | Marketing analytics dashboard for Hermes |
+| `hermess/ppt-director@ppt-director` | 82 | PowerPoint generation from Hermes |
+| `chujianyun/skills@hermes-qq` | 51 | QQ (Tencent) bot integration |
+| `skills.volces.com@hermes-install` | 17 | ByteDance/Volces Hermes installer
 
 **Install:** `npx skills add dandacompany/hermes-skill@hermes`, etc. See the [June 11 Discoveries](/hermes/skills/marketplace/new-june11-2026/) page for full details.
 
@@ -474,11 +493,12 @@ Full SKILL.md files for every skill. See individual files for setup, triggers, a
 | Productivity (marketplace) 🆕 | 4 |
 | Hermes Agent Ecosystem (marketplace) 🆕 | 20 |
 | Platform Integration Bots (marketplace) 🆕 | 10 |
-| Community Standalone (marketplace) 🆕 | 5 |
+| Community Standalone (marketplace) 🆕 | 9 |
+| OpenClaw Ecosystem (marketplace) 🆕 | 23 |
 | Hermes Ecosystem (marketplace) 🆕 | 4 |
 | TTS & Audio (marketplace) 🆕 | 3 |
-| **Marketplace subtotal** | **217** |
-| **Total** | **299** |
+| **Marketplace subtotal** | **245** |
+| **Total** | **334** |
 
 ## Using Skills
 
