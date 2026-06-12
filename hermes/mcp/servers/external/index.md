@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 12, 2026 (morning sweep) · **Sources:** mcp.so (22,194+ servers), mcpservers.org (8,961)
+> **Last updated:** June 12, 2026 (afternoon sweep) · **Sources:** mcp.so (22,212 servers), mcpservers.org (8,964)
 
 ---
 
@@ -57,6 +57,13 @@ Bitcoin blockchain data server for AI agents — 17 tools (fees, mempool, transa
 
 ### Shikamaru ★ New
 Provably correct day-count and accrued-interest calculations. Small, dependency-light TypeScript library and MCP server for precise financial math. AI agents can get the exact number instead of guessing — essential for bond markets, fixed income, and financial operations.
+
+---
+
+## Ecommerce & Marketplace Intelligence
+
+### Webotee AI Connect — Amazon Seller Intelligence ★ New
+Brand, seller, ASIN info, and under-competed niches from your AI assistant. Essential for Amazon operators and ecommerce businesses who need marketplace intelligence without manual research.
 
 ---
 
@@ -282,6 +289,12 @@ AI-powered job matching and application tracker. Analyze job listings against yo
 ### Capafy ★ Sponsor ★ New
 Marketplace for monetizing agent skills as products. On Capafy, your Skill runs online 24/7 as an agent product, and you get paid every time someone uses it. The "App Store for agent skills" — build once, earn continuously.
 
+### Toolforest MCP ★ Official ★ New
+Hosted remote MCP server with managed OAuth for a growing list of 15+ toolkits, including Google Workspace, Last.fm, MusicBrainz, Fitbit, Oura, Kalshi, and Polymarket. Single endpoint, managed auth — ideal for operators who want multiple integrations without managing individual API keys.
+
+### Matchbox ★ New
+Describe a real-world problem in plain language and Matchbox finds products built to solve it — with reasoning, honest caveats, what each product won't cover, and a frank "no strong match" when nothing fits. Useful for operators evaluating tools and vendors.
+
 ---
 
 ## Communication
@@ -335,6 +348,9 @@ Full marketing platform via MCP — email campaigns, CRM, chatbots, SMTP, and on
 
 ### Solnk MCP ★ New
 Social media management for 9 networks — Instagram, TikTok, YouTube, X, LinkedIn, Pinterest, Facebook, Threads, Bluesky. Draft-first safety model with team approval workflow, content calendar, and analytics. MCP server for AI agents to draft and publish posts from a single interface. `https://solnk.com`
+
+### Socialclaw ★ New
+Social media scheduling MCP for AI agents across 11 platforms — X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, and Pinterest. Broader platform coverage than most social MCPs, including Discord and Telegram for community operators.
 
 ---
 
@@ -414,6 +430,23 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 | Blog2Video | Content Creation | Convert blog URLs to video in under 3 minutes via MCP |
 | chain-signer | Security/Finance | Pre-signature security suite for EVM agents — wallet drain and phishing protection |
 
+## New This Week (June 12, 2026 — afternoon sweep)
+
+### 8 new servers from mcp.so Latest + mcpservers.org All
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Webotee AI Connect | Ecommerce/Data | Amazon seller intelligence — brand, seller, ASIN info, under-competed niches via MCP |
+| Toolforest MCP ★ Official | Productivity | Hosted remote MCP with managed OAuth for 15+ toolkits (Google Workspace, Last.fm, Fitbit, Oura, Kalshi, Polymarket) |
+| Socialclaw | Marketing | Social media scheduling across 11 platforms — X, LinkedIn, Instagram, Facebook, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, Pinterest |
+| Matchbox | Productivity | Plain-language problem → product matching with reasoning, honest caveats, and "no strong match" when nothing fits |
+| Mnemom | Trust/Security | Trust ratings for AI agents and websites — reputation scores, signed scorecards, zero-auth reads |
+| signer-mcp | Finance/Crypto | Keyless CEX/DEX signing for AI agents — exchange API keys inside AWS Nitro Enclave (Binance, OKX, Bybit, KuCoin, Hyperliquid, Asterdex) |
+| Gas Fee Predictor | Finance/Crypto | Live ETH + Layer-2 gas fee data — cheapest L2, best time to transact, per-action cost estimates |
+| ActivitySmith MCP ★ Official | Productivity | Send push notifications and Live Activities to paired iOS devices via MCP |
+
+---
+
 ## Previous Additions (June 10, 2026 — sweep 2)
 
 | Server | Category | Description |
@@ -439,12 +472,12 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,194+ (mcp.so), 8,961 (mcpservers.org)
+- **Total MCP servers tracked:** 22,212 (mcp.so), 8,964 (mcpservers.org)
 - **Official servers:** 36+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 24+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, etc.)
-- **New this cycle (June 12 morning):** 7 newly catalogued servers for business operators
-- **Cumulative since June 9:** 75 MCP servers catalogued across 6 sweeps
+- **New this cycle (June 12 afternoon):** 8 newly catalogued servers for business operators
+- **Cumulative since June 9:** 83 MCP servers catalogued across 7 sweeps
 
 ---
 
