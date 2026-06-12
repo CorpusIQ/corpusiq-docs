@@ -1,11 +1,11 @@
 ---
 title: Hermes Skills
-description: 133+ skills for Hermes agents — 83 native CorpusIQ skills, 50+ marketplace skills from skills.sh
+description: 360+ skills for Hermes agents — 89 native CorpusIQ skills, 271+ marketplace skills from skills.sh
 ---
 
 # Skills
 
-**See the [Skills Catalog](/hermes/skills/catalog/) for the complete index of all 133+ skills.**
+**See the [Skills Catalog](/hermes/skills/catalog/) for the complete index of all 360+ skills.**
 
 Skills are reusable agent capabilities — step-by-step workflows with tools, triggers, and verification. Not static prompts. Executable runbooks.
 

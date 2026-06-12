@@ -1,6 +1,6 @@
 ---
 title: Skills Catalog
-description: Every skill available to Hermes agents — 89+ native CorpusIQ skills, 217+ marketplace skills from skills.sh. Single source of truth.
+description: Every skill available to Hermes agents — 89+ native CorpusIQ skills, 271+ marketplace skills from skills.sh. Single source of truth.
 ---
 
 # Skills Catalog
@@ -9,7 +9,7 @@ Complete index of all skills available to CorpusIQ Hermes agents. Updated as ski
 
 Skills are reusable agent capabilities — step-by-step workflows with tools, triggers, and verification. Not static prompts. Not text files. Executable runbooks that agents read and follow.
 
-**334 total**: 89 native + 245 marketplace.
+**360 total**: 89 native + 271 marketplace.
 
 ---
 
@@ -486,6 +486,25 @@ Complete security suite from `useai-pro/openclaw-skills-security` (UseClawPro/Us
 
 **Install:** `npx skills add useai-pro/openclaw-skills-security --skill <name> -a hermes-agent -y`. ⭐ = recommended primary auditors. See the [June 12 Update (Afternoon)](/hermes/skills/marketplace/new-june12-2026-update/) page for full setup guides.
 
+### 🆕 Hermes Agent Ecosystem Expansion — 10 skills (June 13, 2026)
+
+Additional Hermes agent ecosystem skills from `aradotso/hermes-skills` and `nousresearch/hermes-agent`: skill authoring, UI dashboards, IDE integration, Obsidian bridge, education.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| `hermes-agent-skill-authoring` | 124 | Create/test/publish skills from within Hermes sessions |
+| `hermes-control-interface-dashboard` | 121 | Operator dashboard for agent monitoring and control |
+| `hermes-war-room-ui` | 104 | Multi-agent operations center / war room UI |
+| `hermes-agent-architecture` | 103 | Agent topology, communication, state, deployment patterns |
+| `hermes-lcm-context-management` | 102 | Lifecycle context management for long-running sessions |
+| `hermes-agent-guide` | 100 | Getting-started guide: install, configure, skills, patterns |
+| `hermes-kanban-obsidian-integration` | 93 | Sync agent tasks to Obsidian kanban boards |
+| `hermes-skins-customization` | 89 | Theme/skin customization for Hermes dashboards |
+| `hermes-edu-skills` | 88 | Tutorials, exercises, example projects for learning Hermes |
+| `hermes-ide-terminal` | 86 | IDE/terminal integration: VS Code, Cursor, Zed |
+
+**Install:** `npx skills add aradotso/hermes-skills@<skill-name>` (9 skills) or `npx skills add nousresearch/hermes-agent --skill hermes-agent-skill-authoring` (1 skill). See the [June 13 Update](/hermes/skills/marketplace/new-june13-2026/) page for full setup guides.
+
 
 ## Summary
 
@@ -526,15 +545,16 @@ Complete security suite from `useai-pro/openclaw-skills-security` (UseClawPro/Us
 | LangGraph Extensions (marketplace) 🆕 | 3 |
 | Database & Infra (marketplace) 🆕 | 4 |
 | Productivity (marketplace) 🆕 | 4 |
-| Hermes Agent Ecosystem (marketplace) 🆕 | 20 |
+| Hermes Agent Ecosystem (marketplace) 🆕 | 30 |
 | Platform Integration Bots (marketplace) 🆕 | 10 |
 | Community Standalone (marketplace) 🆕 | 9 |
 | OpenClaw Ecosystem (marketplace) 🆕 | 23 |
 | Hermes Ecosystem (marketplace) 🆕 | 4 |
 | TTS & Audio (marketplace) 🆕 | 3 |
 | Hermes Security & UI (marketplace) 🆕 | 3 |
-| **Marketplace subtotal** | **261** |
-| **Total** | **350** |
+| Hermes Ecosystem Expansion (marketplace) 🆕 | 10 |
+| **Marketplace subtotal** | **271** |
+| **Total** | **360** |
 
 ## Using Skills
 
