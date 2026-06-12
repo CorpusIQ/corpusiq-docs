@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 11, 2026 · **Sources:** mcp.so (22,135+ servers), mcpservers.org
+> **Last updated:** June 11, 2026 (afternoon sweep) · **Sources:** mcp.so (22,183+ servers), mcpservers.org (8,959)
 
 ---
 
@@ -130,6 +130,15 @@ Baidu Maps API via MCP — China's largest mapping platform. Location search, ge
 ### Geekflare ★ New
 Web scraping, search, screenshots, and network tools for Claude, Cursor, ChatGPT, and other MCP clients. All-in-one web intelligence toolkit for operators who need to extract and monitor web data at scale. `npx -y @geekflare/mcp`
 
+### Auditspark ★ New
+AI-powered website audit for any URL across 10+ categories — SEO, performance, accessibility, UX, and content quality. Scored report in under 2 minutes. Free tier included. Ideal for operators auditing their web presence.
+
+### OpenSEO ★ New
+SEO research tools for AI agents: keyword research and metrics, SERP and local SERP results, domain and backlink analysis, rank tracking, and Google Search Console performance. `npx openseo-mcp`
+
+### Amap Maps (高德地图) ★ New
+AutoNavi Maps MCP — China's second-largest mapping platform. Location search, geocoding, directions, and POI data. Essential for China-market operators alongside Baidu Maps. Official 高德 integration.
+
 ---
 
 ## Development & Infrastructure
@@ -209,6 +218,15 @@ Runtime Cognitive Cortex for AI coding workflows. Provides workspace awareness, 
 ### Neo MCP ★ Sponsor ★ New
 NEO MCP lets Claude Code, Cursor, and VS Code hand off complex AI engineering tasks — model evaluations, agent optimization, and more — to NEO's specialized infrastructure. Built for engineering teams scaling AI workflows.
 
+### NWO Robotics ★ New
+Multi-domain MCP server exposing 201 tools across 30 categories behind one endpoint. On-chain identity verification on Base Mainnet. Autonomous-agent infrastructure, hardware control, and crypto operations in one package.
+
+### Primerfp Scout ★ New
+Government contracting intelligence MCP for US federal + SLED contracting: semantic opportunity search, USASpending awards, recompete pipeline, congressional policy intel, GAO protests, and capture/teaming. 32 read-only tools via Streamable HTTP. `https://mcp.primerfp.com/mcp`
+
+### QA Skills ★ New
+43 QA and test-automation skills for Claude Code, Codex, Cursor, and any Agent Skills Standard runtime. Full test-automation toolkit for operators who ship software.
+
 ---
 
 ## Productivity
@@ -242,6 +260,9 @@ Knowledge management and wiki tools via MCP. Create, edit, and query structured 
 
 ### Flomo MCP Server ★ New
 Connect AI agents to Flomo notes for knowledge management. Capture ideas, meeting notes, and research directly into your Flomo workspace from any MCP client. `npx -y mcp-server-flomo`
+
+### Smart Match ★ New
+AI-powered job matching and application tracker. Analyze job listings against your resume, get a match score (0-100), identify skill gaps, generate cover letters, and track your application pipeline. Ideal for recruitment operators and job seekers.
 
 ### Capafy ★ Sponsor ★ New
 Marketplace for monetizing agent skills as products. On Capafy, your Skill runs online 24/7 as an agent product, and you get paid every time someone uses it. The "App Store for agent skills" — build once, earn continuously.
@@ -285,6 +306,15 @@ Social media scheduling platform — manage and publish content across all major
 ### FeedSquad ★ New
 Content calendar and social publishing for Claude and ChatGPT agents. Create posts and campaigns, schedule with cadence guardrails, and publish to LinkedIn, X, and Threads. OAuth 2.1 authentication. Anti-slop pattern registry checks all drafts before scheduling. Approval-first workflow — nothing goes live without explicit approval.
 
+### Convika - LP ops ★ New
+Landing page ops platform built for MCP clients. Create, preview, and publish landing pages with forms, analytics, custom domains, and version history. OAuth 2.1. `https://mcp.convika.com`
+
+### Versium Reach ★ New
+Lead enrichment and audience building for AI agents. Describe what you need and Versium REACH builds and sizes B2B/B2C audiences, fills in contact and company data, and verifies emails. All through natural language.
+
+### Sendpulse MCP ★ New
+Full marketing platform via MCP — email campaigns, CRM, chatbots, SMTP, and online courses. 134 methods across 5 categories. `npx sendpulse-mcp`
+
 ---
 
 ## Memory & Knowledge
@@ -301,6 +331,23 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 ---
 
 ## New This Week (June 11, 2026 — mcp.so + mcpservers.org)
+
+### Afternoon sweep — 10 new servers from mcp.so Latest + mcpservers.org All
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Convika - LP ops | Marketing | Landing page ops platform via MCP, OAuth 2.1 |
+| Versium Reach | Marketing | Lead enrichment, B2B/B2C audience building, email verification |
+| Sendpulse MCP | Marketing | Full marketing platform — email, CRM, chatbots, SMTP (134 methods) |
+| Auditspark | Content/Research | AI website audit across SEO, performance, accessibility, UX — free tier |
+| OpenSEO | Content/Research | SEO research: keywords, SERP, domain analysis, rank tracking |
+| Amap Maps (高德地图) | Content/Research | China's second-largest mapping platform — AutoNavi MCP |
+| NWO Robotics | Dev/Infra | 201 tools across 30 categories, on-chain identity on Base |
+| Primerfp Scout | Gov/Intelligence | US federal + SLED contracting — 32 tools, Streamable HTTP |
+| QA Skills | Dev/Infra | 43 QA and test-automation skills for AI agents |
+| Smart Match | Productivity | AI job matching, resume scoring, cover letter generation |
+
+### Morning sweep — 11 servers
 
 | Server | Category | Description |
 |--------|----------|-------------|
@@ -357,12 +404,12 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,166+ (mcp.so), 8,959 (mcpservers.org)
+- **Total MCP servers tracked:** 22,183+ (mcp.so), 8,959 (mcpservers.org)
 - **Official servers:** 36+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
-- **Categories represented:** 22+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Media, etc.)
-- **New this cycle (June 11 evening):** 11 newly catalogued servers for business operators
-- **Cumulative since June 9:** 58 MCP servers catalogued across 4 sweeps
+- **Categories represented:** 24+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, etc.)
+- **New this cycle (June 11 afternoon):** 10 newly catalogued servers for business operators
+- **Cumulative since June 9:** 68 MCP servers catalogued across 5 sweeps
 
 ---
 
