@@ -464,6 +464,28 @@ Runtime security attestation, traffic monitoring, and Hermes-themed UI from `pro
 
 **Install:** `npx skills add prompt-security/clawsec --skill <name> -a hermes-agent -y`. ClawSec skills use signed release verification. See the [June 12 Update](/hermes/skills/marketplace/new-june12-2026/) page for full setup guides.
 
+### 🛡️ OpenClaw Security Suite — 13 skills (June 12, 2026 Update)
+
+Complete security suite from `useai-pro/openclaw-skills-security` (UseClawPro/UseAI.pro). All are instruction modules that load into Hermes/OpenClaw/Claude Code.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| `skill-vetter` | 19,340 | Legacy manual-first skill vetting checklist |
+| `skill-auditor` ⭐ | 590 | Six-step security review with severity verdicts |
+| `skill-guard` | 489 | Runtime behavior monitoring and permission enforcement |
+| `prompt-guard` | 453 | Prompt injection detection and neutralization |
+| `credential-scanner` | 433 | Pre-flight workspace scan for exposed secrets |
+| `dependency-auditor` | 423 | npm/pip/Go dependency supply-chain audit |
+| `permission-auditor` | 396 | Permission analysis with least-privilege guidance |
+| `output-sanitizer` | 392 | Post-processing output redaction (PII, secrets, paths) |
+| `sandbox-guard` | 390 | Docker sandbox config gen for untrusted skills |
+| `config-hardener` | 387 | AGENTS.md, gateway, sandbox, and permission hardening |
+| `setup-auditor` ⭐ | 384 | Wizard-style four-step environment security audit |
+| `network-watcher` | 376 | Outbound connection audit and exfiltration detection |
+| `incident-responder` | 374 | Containment, investigation, rotation, recovery playbook |
+
+**Install:** `npx skills add useai-pro/openclaw-skills-security --skill <name> -a hermes-agent -y`. ⭐ = recommended primary auditors. See the [June 12 Update (Afternoon)](/hermes/skills/marketplace/new-june12-2026-update/) page for full setup guides.
+
 
 ## Summary
 
@@ -511,8 +533,8 @@ Runtime security attestation, traffic monitoring, and Hermes-themed UI from `pro
 | Hermes Ecosystem (marketplace) 🆕 | 4 |
 | TTS & Audio (marketplace) 🆕 | 3 |
 | Hermes Security & UI (marketplace) 🆕 | 3 |
-| **Marketplace subtotal** | **248** |
-| **Total** | **337** |
+| **Marketplace subtotal** | **261** |
+| **Total** | **350** |
 
 ## Using Skills
 

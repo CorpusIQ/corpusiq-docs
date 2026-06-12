@@ -216,6 +216,8 @@ Web scraping (Firecrawl), MCP server development, web app testing, Stripe integr
 
 → **[June 12, 2026 — Hermes security attestation, traffic monitoring, cyber UI (3 skills)](/hermes/skills/marketplace/new-june12-2026/)**
 
+→ **[June 12, 2026 Update — OpenClaw Security Suite, skill-vetter, 13 skills](/hermes/skills/marketplace/new-june12-2026-update/)**
+
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Discovery Report](/hermes/skills/marketplace/new-june-2026/) →*
 
 *Powered by CorpusIQ*
