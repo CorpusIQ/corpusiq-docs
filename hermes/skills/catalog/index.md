@@ -452,6 +452,19 @@ Full SKILL.md files for every skill. See individual files for setup, triggers, a
 | Infrastructure | [playwright-cli](infrastructure/playwright-cli) · [playwright-best-practices](infrastructure/playwright-best-practices) · [neon-postgres](infrastructure/neon-postgres) · [kubernetes-specialist](infrastructure/kubernetes-specialist) · [devops-engineer](infrastructure/devops-engineer) · [monitoring-expert](infrastructure/monitoring-expert) |
 | Platform | [notion-api](platform/notion-api) · [expo-deployment](platform/expo-deployment) · [seo-geo](platform/seo-geo) |
 
+### 🆕 Hermes Security & UI — 3 skills (June 12, 2026)
+
+Runtime security attestation, traffic monitoring, and Hermes-themed UI from `prompt-security/clawsec` and `nexu-io/html-anything`.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| `hermes-attestation-guardian` | 54 | Runtime security attestation and drift detection for Hermes |
+| `hermes-traffic-guardian` | 24 | Opt-in proxy inspection and egress detection baseline |
+| `deck-hermes-cyber` | 29 | Hermes-themed cyber UI deck |
+
+**Install:** `npx skills add prompt-security/clawsec --skill <name> -a hermes-agent -y`. ClawSec skills use signed release verification. See the [June 12 Update](/hermes/skills/marketplace/new-june12-2026/) page for full setup guides.
+
+
 ## Summary
 
 | Category | Count |
@@ -497,8 +510,9 @@ Full SKILL.md files for every skill. See individual files for setup, triggers, a
 | OpenClaw Ecosystem (marketplace) 🆕 | 23 |
 | Hermes Ecosystem (marketplace) 🆕 | 4 |
 | TTS & Audio (marketplace) 🆕 | 3 |
-| **Marketplace subtotal** | **245** |
-| **Total** | **334** |
+| Hermes Security & UI (marketplace) 🆕 | 3 |
+| **Marketplace subtotal** | **248** |
+| **Total** | **337** |
 
 ## Using Skills
 
