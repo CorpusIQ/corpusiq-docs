@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 11, 2026 (afternoon sweep) · **Sources:** mcp.so (22,183+ servers), mcpservers.org (8,959)
+> **Last updated:** June 12, 2026 (morning sweep) · **Sources:** mcp.so (22,194+ servers), mcpservers.org (8,961)
 
 ---
 
@@ -54,6 +54,9 @@ MCP server for 1C:Enterprise (ERP, Accounting) — 51 tools for metadata, docume
 
 ### IRONCLAW BTC Node ★ New
 Bitcoin blockchain data server for AI agents — 17 tools (fees, mempool, transactions, address portfolio, trace, whales, SEC insider trades, web scraping, AI summarization, capital flows, Reddit). x402 USDC micropayments on Base. No API keys needed.
+
+### Shikamaru ★ New
+Provably correct day-count and accrued-interest calculations. Small, dependency-light TypeScript library and MCP server for precise financial math. AI agents can get the exact number instead of guessing — essential for bond markets, fixed income, and financial operations.
 
 ---
 
@@ -224,8 +227,20 @@ Multi-domain MCP server exposing 201 tools across 30 categories behind one endpo
 ### Primerfp Scout ★ New
 Government contracting intelligence MCP for US federal + SLED contracting: semantic opportunity search, USASpending awards, recompete pipeline, congressional policy intel, GAO protests, and capture/teaming. 32 read-only tools via Streamable HTTP. `https://mcp.primerfp.com/mcp`
 
+### chain-signer ★ New
+Pre-signature security suite for AI agents operating on EVM chains. Flags wallet drains, permit-phishing, and risky actions before signing. Non-custodial protection layer for crypto-aware operators and DeFi automation.
+
 ### QA Skills ★ New
 43 QA and test-automation skills for Claude Code, Codex, Cursor, and any Agent Skills Standard runtime. Full test-automation toolkit for operators who ship software.
+
+### Tani ★ New
+Agent-native hub (tani.ai) — AI agents discover capabilities in a trust-scored registry, exchange verified answers, and find each other. 12 MCP tools for capability resolution, agent registration, surface submission, and verified answer contribution. Registry ranked by computed invocation trust — success rate, dependents, and schema stability.
+
+### SeedBase ★ New
+Synthetic test data generation for databases. Generate realistic, FK-consistent test data from AI agents. List projects, get schema DDL, generate datasets as SQL. Ideal for operators who need test data without production exposure.
+
+### BUILDY ★ New
+Build real web apps on demand from ChatGPT, Claude, or any coding agent. Cross-agent compatible — build once and use the same app/data across different AI clients. `https://buildy.ai`
 
 ---
 
@@ -296,6 +311,9 @@ Official MiniMax MCP server for powerful TTS (Text-to-Speech), image generation,
 ### Vidoly AI ★ New
 AI image & video generation for social media, branding, ecommerce, and digital content. Use Vidoly AI to generate images, create videos, and streamline visual production from any MCP client. Streamable HTTP.
 
+### Blog2Video ★ New
+Convert blog URLs to video in under 3 minutes via MCP. Turn written content into video assets for social media and marketing pipelines without leaving your AI client.
+
 ---
 
 ## Marketing
@@ -314,6 +332,9 @@ Lead enrichment and audience building for AI agents. Describe what you need and 
 
 ### Sendpulse MCP ★ New
 Full marketing platform via MCP — email campaigns, CRM, chatbots, SMTP, and online courses. 134 methods across 5 categories. `npx sendpulse-mcp`
+
+### Solnk MCP ★ New
+Social media management for 9 networks — Instagram, TikTok, YouTube, X, LinkedIn, Pinterest, Facebook, Threads, Bluesky. Draft-first safety model with team approval workflow, content calendar, and analytics. MCP server for AI agents to draft and publish posts from a single interface. `https://solnk.com`
 
 ---
 
@@ -379,6 +400,20 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 | Vidoly AI | Content Creation | AI image & video generation for social media, branding, ecommerce |
 | IRONCLAW BTC Node | Finance | Bitcoin blockchain data — 17 tools, x402 USDC micropayments, no API keys |
 
+## New This Week (June 12, 2026 — morning sweep)
+
+### 7 new servers from mcp.so Latest + mcpservers.org All
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Solnk MCP | Marketing | Social media management for 9 networks — draft-first, team approval, content calendar |
+| Shikamaru | Finance | Day-count and accrued interest calculations — provably correct financial math |
+| Tani | Dev/Infra | Agent-native hub with trust-scored capability registry, 12 MCP tools |
+| SeedBase | Dev/Infra | Synthetic test data generation — FK-consistent SQL datasets for databases |
+| BUILDY | Dev/Infra | Cross-agent web app builder — build once, use from any AI client |
+| Blog2Video | Content Creation | Convert blog URLs to video in under 3 minutes via MCP |
+| chain-signer | Security/Finance | Pre-signature security suite for EVM agents — wallet drain and phishing protection |
+
 ## Previous Additions (June 10, 2026 — sweep 2)
 
 | Server | Category | Description |
@@ -404,12 +439,12 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,183+ (mcp.so), 8,959 (mcpservers.org)
+- **Total MCP servers tracked:** 22,194+ (mcp.so), 8,961 (mcpservers.org)
 - **Official servers:** 36+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 24+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, etc.)
-- **New this cycle (June 11 afternoon):** 10 newly catalogued servers for business operators
-- **Cumulative since June 9:** 68 MCP servers catalogued across 5 sweeps
+- **New this cycle (June 12 morning):** 7 newly catalogued servers for business operators
+- **Cumulative since June 9:** 75 MCP servers catalogued across 6 sweeps
 
 ---
 
