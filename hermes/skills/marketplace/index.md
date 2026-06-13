@@ -208,7 +208,7 @@ Web scraping (Firecrawl), MCP server development, web app testing, Stripe integr
 
 ---
 
-**Total: 166 curated skills across 20 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 437 curated skills across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 → **[June 11, 2026 Additions — Hermes ecosystem, platform bots, community skills (38 skills)](/hermes/skills/marketplace/new-june11-2026/)**
 
@@ -219,6 +219,8 @@ Web scraping (Firecrawl), MCP server development, web app testing, Stripe integr
 → **[June 12, 2026 Update — OpenClaw Security Suite, skill-vetter, 13 skills](/hermes/skills/marketplace/new-june12-2026-update/)**
 
 → **[June 13, 2026 — Hermes Agent Ecosystem Expansion, 10 new skills](/hermes/skills/marketplace/new-june13-2026/)**
+
+→ **[June 13, 2026 Update 2 — nousresearch/hermes-agent Massive Expansion, 77 new skills](/hermes/skills/marketplace/new-june13-2026-update2/)**
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Discovery Report](/hermes/skills/marketplace/new-june-2026/) →*
 
