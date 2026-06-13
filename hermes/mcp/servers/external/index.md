@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 13, 2026 (morning sweep) · **Sources:** mcp.so (22,236 servers), mcpservers.org (8,964)
+> **Last updated:** June 13, 2026 (evening sweep) · **Sources:** mcp.so (22,250 servers), mcpservers.org (8,964)
 
 ---
 
@@ -64,6 +64,21 @@ Multifamily real estate deal analysis via MCP. Analyze deals, score properties, 
 ### Kaginet Bitcoin Escrow ★ New
 Trustless Bitcoin escrow for AI agent-to-agent payments — 29 MCP tools. Create conditional escrow instruments (hash-match, human approval, optimistic with dispute bonds), fund with Bitcoin, settle automatically. All keys generated and deleted inside Intel TDX hardware enclaves with cryptographic attestation. No custodian, no stablecoin dependency. Streamable HTTP at `https://mcp.kaginet.com/sse` (requires API key from cloud.kaginet.com)
 
+### Conta Azul MCP ★ New
+Brazilian ERP for AI agents via MCP — 35 tools (read + write) covering sales, customers, products, payables/receivables, and NF-e invoices. OAuth 2.0 authentication. First Brazilian ERP MCP server — essential for SMBs operating in Brazil's NF-e invoice ecosystem. Streamable HTTP transport.
+
+### Plinth FX MCP ★ New
+Production-grade exchange rates from ECB data via Frankfurter. Latest rates, currency conversion, historical, and time-series endpoints. SRE-grade rate limiting, backoff, and structured logging. Free, no API key required. Essential for any business operator dealing with multi-currency operations.
+
+### finra-mcp-server ★ New
+FINRA Query API exposed as MCP tools. Access regulatory filings, broker/dealer data, and financial services compliance information directly from AI assistants. Essential for financial services operators who need FINRA data in their workflow.
+
+### Longbridge ★ New
+13 consolidated agent skills for Longbridge Securities — market data, fundamentals, portfolio analytics, and quantitative tools for HK, US, A-share (China), and Singapore markets. Multi-market coverage for operators running cross-border investment strategies.
+
+### TradeInsight ★ New
+US stock market data server — OHLCV price history, top movers ranked by volume/moving-average/price-change, and company ticker search. Free tier available. Quick market intelligence without Bloomberg terminal costs.
+
 ---
 
 ## Ecommerce & Marketplace Intelligence
@@ -84,6 +99,20 @@ Extracts structured, typed records from documents (PDFs, scans, contracts, invoi
 
 ### Truee Ai ★ New
 AI-ready business profiles — a trusted business data layer for the AI-first internet. Businesses create structured profiles so AI systems, search engines, and agents can discover them accurately. Instead of AI guessing from outdated public data, Truee lets businesses control their own structured identity: services, location, contact details, announcements, and offers. For operators: ensure your business is discoverable and correctly represented when AI agents search for businesses to recommend.
+
+---
+
+## Compliance & Regulatory
+
+### Disclos — EU AI Act ★ New
+Remote MCP server for EU AI Act compliance (Regulation 2024/1689). Add one URL to Claude, Cursor, or Windsurf — no install — and your AI classifies any AI system against the regulation, returns the three-wave timeline, explains risk tiers (minimal/limited/high/unacceptable), and crosswalks to ISO standards. Essential for any business operator deploying AI in the EU market. Streamable HTTP, no API key.
+
+---
+
+## Business Operations
+
+### Trainzilla Coach MCP ★ New
+AI assistant for fitness coaches on Trainzilla. Manage clients, create workout and diet plans, schedule sessions, track habit compliance, review check-ins, and query billing — all via one-click OAuth 2.0. No token paste required. First dedicated fitness business operations MCP server.
 
 ---
 
@@ -201,6 +230,9 @@ High-performance Python web scraping via Playwright. Proxy support, captcha solv
 
 ### MCPg — Production PostgreSQL MCP ★ New
 Safe-by-default PostgreSQL Model Context Protocol server for AI agents. Production-grade with guardrails. `https://github.com/devopam/MCPg`
+
+### Schemabrain ★ New
+Read-only trust + intelligence layer between AI agents and your database. The agent never writes SQL — Schemabrain translates natural language to safe queries, refuses PII before the query runs, and logs every call in a tamper-evident audit trail. Postgres today. Essential for operators who want AI agents to query production data without direct database access. `https://mcp.so/server/schemabrain/Arun-kc`
 
 ### Next.js DevTools MCP ★ Official (Vercel)
 Next.js development tools and utilities for AI coding assistants (Claude, Cursor). Debug, inspect, and optimize Next.js apps via MCP. Official Vercel tool.
@@ -495,6 +527,23 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ---
 
+## New This Week (June 13, 2026 — evening sweep)
+
+### 8 new servers from mcp.so Latest + mcpservers.org Finance/All
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Schemabrain | Security/Database | Read-only trust + intelligence layer between AI agents and Postgres — PII refused before query runs, tamper-evident audit log |
+| Disclos — EU AI Act | Compliance/Legal | Remote MCP for EU AI Act compliance (Regulation 2024/1689) — classify AI systems, risk tiers, ISO crosswalks. No install. |
+| Conta Azul MCP | Finance/ERP | Brazilian ERP for AI agents — sales, customers, products, payables/receivables, NF-e invoices. 35 tools (read + write), OAuth 2.0. |
+| Plinth FX MCP | Finance | Exchange rates from ECB via Frankfurter — latest, convert, historical, time-series. SRE-grade rate limiting. |
+| finra-mcp-server | Finance/Compliance | FINRA Query API as MCP tools — regulatory data for financial services operators |
+| Longbridge | Finance | 13 agent skills for Longbridge Securities — market data, fundamentals, portfolio, quant for HK/US/A-share/SG markets |
+| TradeInsight | Finance | US stock market data — OHLCV price history, top movers by volume/moving-average/price-change, ticker search |
+| Trainzilla Coach MCP | Business Ops | AI assistant for fitness coaches — manage clients, workouts, diet plans, scheduling, habit tracking, billing via OAuth 2.0 |
+
+---
+
 ## Previous Additions (June 10, 2026 — sweep 2)
 
 | Server | Category | Description |
@@ -520,12 +569,12 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,236 (mcp.so), 8,964 (mcpservers.org)
+- **Total MCP servers tracked:** 22,250 (mcp.so), 8,964 (mcpservers.org)
 - **Official servers:** 36+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
-- **Categories represented:** 25+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Business Identity, etc.)
-- **New this cycle (June 13 morning):** 5 newly catalogued servers for business operators
-- **Cumulative since June 9:** 90 MCP servers catalogued across 9 sweeps
+- **Categories represented:** 27+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Business Identity, Compliance, Business Ops, etc.)
+- **New this cycle (June 13 evening):** 8 newly catalogued servers for business operators
+- **Cumulative since June 9:** 98 MCP servers catalogued across 10 sweeps
 
 ---
 
