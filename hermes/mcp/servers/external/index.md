@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 12, 2026 (afternoon sweep) · **Sources:** mcp.so (22,212 servers), mcpservers.org (8,964)
+> **Last updated:** June 12, 2026 (evening sweep) · **Sources:** mcp.so (22,229 servers), mcpservers.org (8,964)
 
 ---
 
@@ -56,7 +56,13 @@ MCP server for 1C:Enterprise (ERP, Accounting) — 51 tools for metadata, docume
 Bitcoin blockchain data server for AI agents — 17 tools (fees, mempool, transactions, address portfolio, trace, whales, SEC insider trades, web scraping, AI summarization, capital flows, Reddit). x402 USDC micropayments on Base. No API keys needed.
 
 ### Shikamaru ★ New
-Provably correct day-count and accrued-interest calculations. Small, dependency-light TypeScript library and MCP server for precise financial math. AI agents can get the exact number instead of guessing — essential for bond markets, fixed income, and financial operations.
+Provably correct day-count and accrued-interest calculations. Small, dependency-light TypeScript library and MCP server for precise financial math. AI agents can get the exact number instead of guessing — essential for bond markets, fixed income, and financial operations. `npx -y @shikamaru/mcp-server`
+
+### Dealflowpro ★ New
+Multifamily real estate deal analysis via MCP. Analyze deals, score properties, calculate max offer prices, and look up market data from AI assistants. Essential for real estate investors and operators underwriting multifamily acquisitions. `npx -y dealflowpro-mcp` (requires `DFP_API_KEY`)
+
+### Kaginet Bitcoin Escrow ★ New
+Trustless Bitcoin escrow for AI agent-to-agent payments — 29 MCP tools. Create conditional escrow instruments (hash-match, human approval, optimistic with dispute bonds), fund with Bitcoin, settle automatically. All keys generated and deleted inside Intel TDX hardware enclaves with cryptographic attestation. No custodian, no stablecoin dependency. Streamable HTTP at `https://mcp.kaginet.com/sse` (requires API key from cloud.kaginet.com)
 
 ---
 
@@ -445,6 +451,15 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 | Gas Fee Predictor | Finance/Crypto | Live ETH + Layer-2 gas fee data — cheapest L2, best time to transact, per-action cost estimates |
 | ActivitySmith MCP ★ Official | Productivity | Send push notifications and Live Activities to paired iOS devices via MCP |
 
+## New This Week (June 12, 2026 — evening sweep)
+
+### 2 new servers from mcp.so Latest + mcpservers.org All
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Dealflowpro | Finance/Real Estate | Multifamily real estate deal analysis — scoring, max offer prices, market data via MCP |
+| Kaginet Bitcoin Escrow | Finance/Crypto | Trustless Bitcoin escrow for AI agent-to-agent payments — 29 tools, Intel TDX enclaves |
+
 ---
 
 ## Previous Additions (June 10, 2026 — sweep 2)
@@ -472,12 +487,12 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,212 (mcp.so), 8,964 (mcpservers.org)
+- **Total MCP servers tracked:** 22,229 (mcp.so), 8,964 (mcpservers.org)
 - **Official servers:** 36+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 24+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, etc.)
-- **New this cycle (June 12 afternoon):** 8 newly catalogued servers for business operators
-- **Cumulative since June 9:** 83 MCP servers catalogued across 7 sweeps
+- **New this cycle (June 12 evening):** 2 newly catalogued servers for business operators
+- **Cumulative since June 9:** 85 MCP servers catalogued across 8 sweeps
 
 ---
 
