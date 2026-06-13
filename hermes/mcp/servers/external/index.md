@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 12, 2026 (evening sweep) · **Sources:** mcp.so (22,229 servers), mcpservers.org (8,964)
+> **Last updated:** June 13, 2026 (morning sweep) · **Sources:** mcp.so (22,236 servers), mcpservers.org (8,964)
 
 ---
 
@@ -80,6 +80,13 @@ Extracts structured, typed records from documents (PDFs, scans, contracts, invoi
 
 ---
 
+## Business Identity & AI Discoverability
+
+### Truee Ai ★ New
+AI-ready business profiles — a trusted business data layer for the AI-first internet. Businesses create structured profiles so AI systems, search engines, and agents can discover them accurately. Instead of AI guessing from outdated public data, Truee lets businesses control their own structured identity: services, location, contact details, announcements, and offers. For operators: ensure your business is discoverable and correctly represented when AI agents search for businesses to recommend.
+
+---
+
 ## Analytics & Business Intelligence
 
 ### Clamp Analytics MCP
@@ -93,6 +100,9 @@ Automate browser interactions in the cloud — web navigation, data extraction, 
 
 ### Doorprofit ★ New
 US location intelligence: crime safety scores, recent incidents, neighborhood demographics, rent data, and registered-offender search by address. Free tier available. Useful for site selection, real estate due diligence, and location-based business decisions.
+
+### cityparity ★ New
+Cost-of-living and quality-of-life comparison across 165 cities, 69 countries. Point it at two cities for take-home pay analysis, full cost breakdown (housing, healthcare, childcare, food, transit, travel, property tax), equivalent salary needed, and non-cash deltas (vacation days, parental leave, universal healthcare). City quality rankings and inbound-worker tax regimes (Italy, Portugal, and others). Free, no API key, hosted Streamable HTTP. Essential for HR operators, relocation planning, and global workforce strategy.
 
 ### HTAG Property Intelligence MCP ★ Official ★ New
 Australian property intelligence, H3 spatial intelligence, and capability discovery — 70+ read-only tools over Streamable HTTP. Public connectors for real estate operators, investors, and property analysts. Official HTAG integration.
@@ -210,8 +220,14 @@ Simplified Git operations through MCP — clone, commit, push, branch management
 ### Fastdomaincheck ★ New
 Blazing-fast domain name availability checks via MCP. Check domain availability across TLDs for brand research, naming projects, and competitive intelligence. `uvx fastdomaincheck-mcp-server`
 
+### Name Brewery Domain Checker ★ New
+Bulk domain checking for AI agents: availability, aftermarket prices, archive.org history, social handle links, and buy links across 6 TLDs. Handles up to 50 names per call. 20 free credits to start. Useful for brand naming and domain acquisition research. `https://namebrewery.com/mcp`
+
 ### MCP Advisor ★ New
 Discover and install the right MCP servers for your needs. Acts as a meta-layer — search across mcp.so's 22,000+ servers and get installation recommendations from your AI client. `npx -y @xiaohui-wang/mcpadvisor`
+
+### Acopio ★ New
+Curated developer tool catalog for AI agents. Save tools once — repos, CLIs, API docs — then let Claude, Cursor, and any MCP client search and recommend from your own curated catalog instead of generic model knowledge. Remote MCP over Streamable HTTP with OAuth 2.0 + DCR.
 
 ### NLP Toolkit ★ New
 Natural language processing tools for business text analysis — sentiment analysis, entity extraction, summarization, keyword extraction. Process documents, customer feedback, and market reports via MCP.
@@ -346,6 +362,9 @@ Content calendar and social publishing for Claude and ChatGPT agents. Create pos
 ### Convika - LP ops ★ New
 Landing page ops platform built for MCP clients. Create, preview, and publish landing pages with forms, analytics, custom domains, and version history. OAuth 2.1. `https://mcp.convika.com`
 
+### Adology AI ★ New
+Perplexity for social: ask what competitors are running across social and get answers grounded in real ad and creative data, not guesses. Competitor ad intelligence for marketing operators — discover creative strategies, ad formats, and media mix from any MCP client.
+
 ### Versium Reach ★ New
 Lead enrichment and audience building for AI agents. Describe what you need and Versium REACH builds and sizes B2B/B2C audiences, fills in contact and company data, and verifies emails. All through natural language.
 
@@ -462,6 +481,20 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ---
 
+## New This Week (June 13, 2026 — morning sweep)
+
+### 5 new servers from mcp.so Latest + mcpservers.org All
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Adology AI | Marketing | Perplexity for social — competitor ad intelligence across social media, grounded in real ad data |
+| Truee Ai | Business Identity | AI-ready business profiles — structured business data layer for AI agent discoverability |
+| cityparity | Analytics/Data | Cost-of-living comparison across 165 cities, 69 countries — salary parity, tax regimes, quality scores |
+| Name Brewery Domain Checker | Dev/Infra | Bulk domain checking with aftermarket prices, archive.org history, social handle links |
+| Acopio | Dev/Infra | Curated developer tool catalog — save tools once, let MCP clients search and recommend |
+
+---
+
 ## Previous Additions (June 10, 2026 — sweep 2)
 
 | Server | Category | Description |
@@ -487,12 +520,12 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,229 (mcp.so), 8,964 (mcpservers.org)
+- **Total MCP servers tracked:** 22,236 (mcp.so), 8,964 (mcpservers.org)
 - **Official servers:** 36+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
-- **Categories represented:** 24+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, etc.)
-- **New this cycle (June 12 evening):** 2 newly catalogued servers for business operators
-- **Cumulative since June 9:** 85 MCP servers catalogued across 8 sweeps
+- **Categories represented:** 25+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Business Identity, etc.)
+- **New this cycle (June 13 morning):** 5 newly catalogued servers for business operators
+- **Cumulative since June 9:** 90 MCP servers catalogued across 9 sweeps
 
 ---
 
