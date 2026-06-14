@@ -514,7 +514,7 @@ X/Twitter automation with native Hermes Agent plugin and cross-agent usage/cost 
 | `x-twitter-scraper` | 146 | Full X/Twitter automation: tweet search, posting, DMs, follower export, MCP, Hermes Tweet plugin |
 | `agent-usage` | 32 | Cross-agent usage/cost tracking: spending, tokens, sessions — supports Hermes, Claude Code, Codex |
 
-**Install:** `npx skills add sickn33/antigravity-awesome-skills --skill x-twitter-scraper` (requires Xquik API key) or `npx skills add briqt/agent-usage`. See the [June 14 Discoveries](/hermes/skills/marketplace/new-june14-2026/) page for full setup guides.
+**Install:** `npx skills add sickn33/antigravity-awesome-skills --skill x-twitter-scraper` (requires Xquik API key) or `npx skills add briqt/agent-usage`. See the [x-twitter-scraper setup guide](/hermes/skills/catalog/x-twitter-scraper-setup/) and [agent-usage setup guide](/hermes/skills/catalog/agent-usage-setup/) for full configuration instructions.
 
 
 ## Summary
