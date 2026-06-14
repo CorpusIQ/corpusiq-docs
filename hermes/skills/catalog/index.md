@@ -505,6 +505,17 @@ Additional Hermes agent ecosystem skills from `aradotso/hermes-skills` and `nous
 
 **Install:** `npx skills add aradotso/hermes-skills@<skill-name>` (9 skills) or `npx skills add nousresearch/hermes-agent --skill hermes-agent-skill-authoring` (1 skill). See the [June 13 Update](/hermes/skills/marketplace/new-june13-2026/) page for full setup guides.
 
+### 🆕 Hermes Ecosystem — Data & Monitoring — 2 skills (June 14, 2026)
+
+X/Twitter automation with native Hermes Agent plugin and cross-agent usage/cost tracking with Hermes support.
+
+| Skill | Installs | Use Case |
+|-------|----------|----------|
+| `x-twitter-scraper` | 146 | Full X/Twitter automation: tweet search, posting, DMs, follower export, MCP, Hermes Tweet plugin |
+| `agent-usage` | 32 | Cross-agent usage/cost tracking: spending, tokens, sessions — supports Hermes, Claude Code, Codex |
+
+**Install:** `npx skills add sickn33/antigravity-awesome-skills --skill x-twitter-scraper` (requires Xquik API key) or `npx skills add briqt/agent-usage`. See the [June 14 Discoveries](/hermes/skills/marketplace/new-june14-2026/) page for full setup guides.
+
 
 ## Summary
 
@@ -553,8 +564,9 @@ Additional Hermes agent ecosystem skills from `aradotso/hermes-skills` and `nous
 | TTS & Audio (marketplace) 🆕 | 3 |
 | Hermes Security & UI (marketplace) 🆕 | 3 |
 | Hermes Ecosystem Expansion (marketplace) 🆕 | 10 |
-| **Marketplace subtotal** | **271** |
-| **Total** | **360** |
+| Hermes Ecosystem — Data & Monitoring (marketplace) 🆕 | 2 |
+| **Marketplace subtotal** | **351** |
+| **Total** | **440** |
 
 ## Using Skills
 
