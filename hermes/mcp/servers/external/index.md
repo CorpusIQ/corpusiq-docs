@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 13, 2026 (late night sweep) · **Sources:** mcp.so (22,259 servers), mcpservers.org (8,964)
+> **Last updated:** June 14, 2026 (morning sweep) · **Sources:** mcp.so (22,272 servers), mcpservers.org (9,000+)
 
 ---
 
@@ -88,6 +88,21 @@ Unofficial local MCP server for Interactive Brokers market data, account positio
 ### MCP for Indexa Capital ★ New
 Access Indexa Capital robo-advisor portfolios (European markets) through Indexa's official API from any MCP client. View portfolio composition, performance, and allocation data. Essential for European financial operators using Indexa.
 
+### AlphaAI News ★ New
+Real-time, AI-enriched financial news for AI agents and trading bots. Full-text and ticker search, trending and "actionable-now" feeds, SEC Form 4 insider transactions, and two-ticker read-across. Essential for financial operators who need AI-curated market intelligence without noise.
+
+### Rockmoon Financial Data ★ New
+Cross-market (US/JP/KR) financial data over MCP — financials, segments, ownership, valuation metrics and prices. Every value traceable to its source filing. 18 tools; one API key works for both REST and MCP transport. For operators running multi-market analysis.
+
+### TradeOS AI ★ New
+Use TradeOS MCP Server to bring trading data, indicators, strategy logic, and agent workflows into MCP-compatible AI tools. Copy server URL, add to GPT or Claude, and work directly with trading intelligence. For operators who want AI-assisted trading workflows.
+
+### Hive Intelligence MCP ★ New
+Managed crypto intelligence MCP for AI agents across market data, DeFi, wallets, security, DEX, NFTs, Solana, infrastructure, and prediction markets. Broad coverage for crypto-aware operators.
+
+### PineForge Codegen ★ Official ★ New
+Local MCP server: AI writes PineScript v6, bundled engine transpiles to C++ and backtests against Binance data — no API key, fully local. Essential for TradingView operators who want AI-written, locally-backtested strategies.
+
 ---
 
 ## Ecommerce & Marketplace Intelligence
@@ -115,6 +130,28 @@ AI-ready business profiles — a trusted business data layer for the AI-first in
 
 ### Disclos — EU AI Act ★ New
 Remote MCP server for EU AI Act compliance (Regulation 2024/1689). Add one URL to Claude, Cursor, or Windsurf — no install — and your AI classifies any AI system against the regulation, returns the three-wave timeline, explains risk tiers (minimal/limited/high/unacceptable), and crosswalks to ISO standards. Essential for any business operator deploying AI in the EU market. Streamable HTTP, no API key.
+
+### audit-ledger-mcp ★ New
+Tamper-evident audit logging for AI decisions. Three tools (record_decision, verify_decision, list_decisions) write to a regulator-grade ledger built on AWS S3 Object Lock with 7-year retention. Designed for EU AI Act Article 12 and FCA SS1/23 evidence requirements. Try zero-config: `npx audit-ledger-mcp` boots in sandbox mode against a public hosted tenant. Essential for operators who need regulator-grade audit trails for AI-assisted decisions.
+
+---
+
+## GTM & Sales Intelligence
+
+### IndustryLens ★ New
+Browse cited competitive-intelligence reports and head-to-head competitor comparisons from any MCP-aware AI agent. Live B2B SaaS data with sources included. For operators who need real competitive intelligence — not guesses — when evaluating market moves.
+
+### Mamba Labs GTM Suite ★ New
+Six go-to-market signal tools in a single MCP server, from hiring detection to ICP scoring, all returning flat Clay-ready data. Includes ICP Fit Scorer and GTM Signals Aggregator. Essential for GTM operators who want enriched account data ready for outreach workflows.
+
+### ICP Fit Scorer ★ New
+Qualifies accounts against your ideal customer profile and returns a score, tier, and per-signal reasoning. Part of the Mamba Labs signal toolkit. For sales operators who want AI to qualify accounts against ICP in real time.
+
+### GTM Signals Aggregator ★ New
+Rolls hiring and tech-stack signals into a single go-to-market fit score for fast account prioritization. Part of the Mamba Labs signal toolkit. For operators who need quick account scoring to prioritize outreach.
+
+### OpenWeb Ninja MCP ★ Official ★ New
+Official MCP server connecting any AI agent to 40+ web data APIs for web search, e-commerce, local business, jobs, real estate, and finance data. Broadest coverage API aggregation MCP for operators who need diverse web data through a single endpoint.
 
 ---
 
@@ -194,6 +231,9 @@ Baidu Maps API via MCP — China's largest mapping platform. Location search, ge
 ### Geekflare ★ New
 Web scraping, search, screenshots, and network tools for Claude, Cursor, ChatGPT, and other MCP clients. All-in-one web intelligence toolkit for operators who need to extract and monitor web data at scale. `npx -y @geekflare/mcp`
 
+### Fonteum MCP ★ New
+Source-provenanced US federal healthcare provider data over MCP. Resolve any NPI or CCN across NPPES, OIG LEIE, SAM.gov, state Medicaid exclusions, CMS PECOS, Care Compare, and Open Payments — every field carries a 14-field provenance contract, and an "excluded or compromised anywhere" check runs on every lookup. Essential for healthcare operators and compliance teams needing verifiable provider data.
+
 ### Auditspark ★ New
 AI-powered website audit for any URL across 10+ categories — SEO, performance, accessibility, UX, and content quality. Scored report in under 2 minutes. Free tier included. Ideal for operators auditing their web presence.
 
@@ -202,6 +242,31 @@ SEO research tools for AI agents: keyword research and metrics, SERP and local S
 
 ### Amap Maps (高德地图) ★ New
 AutoNavi Maps MCP — China's second-largest mapping platform. Location search, geocoding, directions, and POI data. Essential for China-market operators alongside Baidu Maps. Official 高德 integration.
+
+---
+
+## SEO & AI Visibility
+
+### GSC Wizard MCP ★ New
+Your AI assistant can query Google Search Console analytics directly. Performance data, query analysis, page-level metrics — all through natural language. For operators who want AI-assisted Search Console analysis without dashboard toggling.
+
+### Ranki.io SEO/AEO Consultant ★ Official ★ New
+Free SEO and AEO MCP server that turns Claude/Cursor/ChatGPT into a senior SEO + AEO consultant. Audits any URL, generates sitemap.xml / llms.txt / robots.txt, finds keyword gaps, and tells your AI exactly what to fix — using your own AI credits. Essential for operators shipping content that needs to rank in both traditional search AND AI engines.
+
+### Local AI Visibility ★ New
+Free, no-signup MCP that checks whether AI assistants name a local business when prospects ask "who's the best in town?" Returns a Share-of-Model score, the competitors named instead, a GEO/AEO checklist, and a buying-intent prompt generator. Essential for local business operators tracking AI-discoverability.
+
+### auto-geo ★ Official ★ New
+GEO-optimized content publishing engine for AI visibility. Ensures your content is structured for discovery by AI search engines and assistants. For operators who want their content surfaced when AI agents answer questions in their domain.
+
+### Nightwatch SEO MCP ★ Official ★ New
+Official Nightwatch SEO MCP server — query live rank tracking, AI visibility, keyword research, site audits, and reports from Claude, Cursor, or ChatGPT. For operators running professional SEO programs who want AI-native access to rank data.
+
+### SEO Performance MCP ★ New
+Post-publish SEO performance MCP that scores every URL across Google Search Console, GA4, Matomo, Clarity, and AI citations — emitting a refresh/expand/merge/kill verdict per post. For content operators who need AI to tell them which posts to keep, improve, or retire."
+
+### Glippy MCP ★ New
+GEO analysis tools for MCP clients. Analyze and optimize content for generative engine optimization across AI search platforms.
 
 ---
 
@@ -311,6 +376,9 @@ Synthetic test data generation for databases. Generate realistic, FK-consistent 
 
 ### BUILDY ★ New
 Build real web apps on demand from ChatGPT, Claude, or any coding agent. Cross-agent compatible — build once and use the same app/data across different AI clients. `https://buildy.ai`
+
+### Rami Code Review ★ New
+Rami reviews every pull request for the bugs, logic errors, and risky patterns that AI coding agents commonly leave behind. When it flags something, your agent — Claude Code, Cursor, or Codex — fetches the review and fixes it. For engineering operators who want an AI safety net on AI-generated code.
 
 ---
 
@@ -438,6 +506,21 @@ Ask Claude what SaaS ideas are worth building — revenue data, growth signals, 
 
 ### Enrich MCP Server ★ New
 Free company intelligence from domain or company name — company name, country, contacts, and social profiles. No API key required. Quick company lookup for lead enrichment and competitive research from any MCP client. `npx -y enrich-mcp-server`
+
+### mailtani ★ New
+Manage email marketing from Claude, Cursor, or any MCP-compatible AI agent — contacts, lists, campaigns, segments, and event tracking. For operators who want AI-assisted email marketing without switching between dashboards.
+
+### Maqui Analytics ★ New
+All-in-one marketing analytics MCP — Instagram, ads, web traffic, SEO and reviews for local businesses and the agencies that manage them. Consolidates multiple data sources into one MCP endpoint for marketing operators.
+
+### HYPD.AI ★ New
+Enable AI agents such as Claude, Copilot, Codex to create, manage, and optimize advertising campaigns on ChatGPT. For operators running ad campaigns who want AI-native campaign management.
+
+### Orcool Studio MCP ★ New
+AI video ad production for GTM engineers and growth teams — 107 tools for UGC concepts, AI avatars, Veo 3 video rendering, and performance feedback. For growth operators scaling video ad production with AI.
+
+### Spresh ★ New
+Spy on competitor Facebook ads. Decode their marketing strategy and copy their winning ad formats. For performance marketers and growth operators running competitive ad intelligence.
 
 ---
 
@@ -593,6 +676,38 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ---
 
+## New This Week (June 14, 2026 — morning sweep)
+
+### 22 new servers from mcp.so Latest + mcpservers.org Finance/Marketing/All
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| AlphaAI News | Finance | Real-time AI-enriched financial news — full-text/ticker search, insider transactions, read-across |
+| Rockmoon Financial Data | Finance | Cross-market (US/JP/KR) financials, segments, ownership, valuation — 18 tools, source-traceable |
+| TradeOS AI | Finance | Trading data, indicators, strategy logic, and agent workflows via MCP |
+| Hive Intelligence MCP | Finance | Managed crypto intelligence — market data, DeFi, wallets, DEX, NFTs, prediction markets |
+| PineForge Codegen ★ Official | Finance | AI writes PineScript v6, transpiles to C++, backtests on Binance data — fully local |
+| IndustryLens | GTM/Sales | Cited competitive-intelligence reports and head-to-head competitor comparisons — live B2B SaaS data |
+| Mamba Labs GTM Suite | GTM/Sales | Six GTM signal tools — hiring detection, ICP scoring, Clay-ready data |
+| ICP Fit Scorer | GTM/Sales | Qualifies accounts against ICP with score, tier, and per-signal reasoning |
+| GTM Signals Aggregator | GTM/Sales | Hiring + tech-stack signals into GTM fit score for account prioritization |
+| OpenWeb Ninja MCP ★ Official | Data/API | 40+ web data APIs — search, e-commerce, local business, jobs, real estate, finance |
+| audit-ledger-mcp | Compliance | Tamper-evident audit logging for AI decisions — AWS S3 Object Lock, 7-year retention, EU AI Act ready |
+| GSC Wizard MCP | SEO/AI Visibility | Query Google Search Console analytics from AI agents — natural-language performance data |
+| Ranki.io SEO/AEO ★ Official | SEO/AI Visibility | Free SEO + AEO consultant — audits URLs, generates sitemaps, llms.txt, robots.txt, finds keyword gaps |
+| Local AI Visibility | SEO/AI Visibility | Share-of-Model score for local businesses — checks if AI names your business when asked |
+| auto-geo ★ Official | SEO/AI Visibility | GEO-optimized content publishing engine for AI visibility and discoverability |
+| Nightwatch SEO MCP ★ Official | SEO/AI Visibility | Live rank tracking, AI visibility, keyword research, site audits from Claude/Cursor/ChatGPT |
+| SEO Performance MCP | SEO/AI Visibility | Post-publish SEO scoring across GSC, GA4, Matomo, Clarity, AI citations — per-post verdict |
+| Glippy MCP | SEO/AI Visibility | GEO analysis tools for generative engine optimization across AI search platforms |
+| mailtani | Marketing | Email marketing from MCP clients — contacts, lists, campaigns, segments, event tracking |
+| Maqui Analytics | Marketing | All-in-one marketing analytics — Instagram, ads, web traffic, SEO, reviews |
+| HYPD.AI | Marketing | AI agents create, manage, optimize advertising campaigns on ChatGPT |
+| Orcool Studio MCP | Marketing | AI video ad production — 107 tools for UGC concepts, AI avatars, Veo 3 rendering |
+| Spresh | Marketing | Competitor Facebook ads spy — decode strategy and copy winning ad formats |
+
+---
+
 ## Previous Additions (June 10, 2026 — sweep 2)
 
 | Server | Category | Description |
@@ -618,12 +733,12 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,259 (mcp.so), 8,964 (mcpservers.org)
-- **Official servers:** 36+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
+- **Total MCP servers tracked:** 22,272 (mcp.so), 9,000+ (mcpservers.org)
+- **Official servers:** 40+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, PineForge, auto-geo, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
-- **Categories represented:** 27+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Business Identity, Compliance, Business Ops, etc.)
-- **New this cycle (June 13 late night):** 10 newly catalogued servers — Interactive Brokers, Indexa Capital, AdWhispr, Blend MCP, Zevari, LinkedIn MCP, Signaliz, FounderSignal, Enrich MCP
-- **Cumulative since June 9:** 108 MCP servers catalogued across 11 sweeps
+- **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Business Identity, Compliance, Business Ops, GTM/Sales Intelligence, SEO & AI Visibility, etc.)
+- **New this cycle (June 14 morning):** 23 newly catalogued servers — AlphaAI News, Rockmoon Financial Data, TradeOS AI, Hive Intelligence, PineForge Codegen, IndustryLens, Mamba Labs GTM Suite, ICP Fit Scorer, GTM Signals Aggregator, OpenWeb Ninja MCP, audit-ledger-mcp, GSC Wizard, Ranki.io, Local AI Visibility, auto-geo, Nightwatch SEO, SEO Performance MCP, Glippy MCP, mailtani, Maqui Analytics, HYPD.AI, Orcool Studio MCP, Spresh
+- **Cumulative since June 9:** 131 MCP servers catalogued across 12 sweeps
 
 ---
 
