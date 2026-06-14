@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 14, 2026 (morning sweep) · **Sources:** mcp.so (22,272 servers), mcpservers.org (9,000+)
+> **Last updated:** June 14, 2026 (afternoon sweep) · **Sources:** mcp.so (22,282 servers), mcpservers.org (9,000+)
 
 ---
 
@@ -159,6 +159,9 @@ Official MCP server connecting any AI agent to 40+ web data APIs for web search,
 
 ### Trainzilla Coach MCP ★ New
 AI assistant for fitness coaches on Trainzilla. Manage clients, create workout and diet plans, schedule sessions, track habit compliance, review check-ins, and query billing — all via one-click OAuth 2.0. No token paste required. First dedicated fitness business operations MCP server.
+
+### Pollbolt ★ New
+AI-native survey & form builder. Let AI agents create and manage surveys directly — build surveys, manage responses, pull analytics, and configure webhooks. Secured with OAuth 2.1. Hosted Streamable HTTP at `https://api.pollbolt.com/mcp`. Essential for operators who want AI-assisted customer feedback, NPS tracking, and survey campaigns. `npx -y mcp-remote https://api.pollbolt.com/mcp`
 
 ---
 
@@ -458,6 +461,9 @@ AI image & video generation for social media, branding, ecommerce, and digital c
 ### Blog2Video ★ New
 Convert blog URLs to video in under 3 minutes via MCP. Turn written content into video assets for social media and marketing pipelines without leaving your AI client.
 
+### Video Overlay Kit ★ New
+AI-driven animated b-roll overlay renderer for short-form video. Paste your script into any AI coding tool (Claude Code, Cursor, Codex), the MCP server writes the scene spec and renders an mp4. Eight track kinds (flow, compare, list-reveal, hub-spin, cadence-pop, node-draw, side-slide, orbit) with Remotion + Tabler icons + LottieFiles stack. Portrait 1080×1920 for social (LinkedIn, IG Reels, TikTok, YouTube Shorts) and landscape 1920×1080 for YouTube. Free, MIT, fully local — no accounts, no per-render cost. Essential for growth operators scaling short-form video production with AI. `npx -y @alichherawalla/video-overlay-kit` · [GitHub](https://github.com/alichherawalla/video-overlay-kit)
+
 ---
 
 ## Marketing
@@ -708,6 +714,17 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ---
 
+## New This Week (June 14, 2026 — afternoon sweep)
+
+### 2 new servers from mcp.so Latest
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Pollbolt | Business Ops | AI-native survey & form builder — surveys, responses, analytics, webhooks via MCP. OAuth 2.1, hosted Streamable HTTP |
+| Video Overlay Kit | Content Creation | AI-driven animated b-roll overlay renderer for short-form video — 8 track kinds, Remotion + Tabler stack. Free, MIT, local |
+
+---
+
 ## Previous Additions (June 10, 2026 — sweep 2)
 
 | Server | Category | Description |
@@ -733,12 +750,13 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,272 (mcp.so), 9,000+ (mcpservers.org)
+- **Total MCP servers tracked:** 22,282 (mcp.so), 9,000+ (mcpservers.org)
 - **Official servers:** 40+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, PineForge, auto-geo, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Business Identity, Compliance, Business Ops, GTM/Sales Intelligence, SEO & AI Visibility, etc.)
 - **New this cycle (June 14 morning):** 23 newly catalogued servers — AlphaAI News, Rockmoon Financial Data, TradeOS AI, Hive Intelligence, PineForge Codegen, IndustryLens, Mamba Labs GTM Suite, ICP Fit Scorer, GTM Signals Aggregator, OpenWeb Ninja MCP, audit-ledger-mcp, GSC Wizard, Ranki.io, Local AI Visibility, auto-geo, Nightwatch SEO, SEO Performance MCP, Glippy MCP, mailtani, Maqui Analytics, HYPD.AI, Orcool Studio MCP, Spresh
-- **Cumulative since June 9:** 131 MCP servers catalogued across 12 sweeps
+- **New this cycle (June 14 afternoon):** 2 newly catalogued servers — Pollbolt, Video Overlay Kit
+- **Cumulative since June 9:** 133 MCP servers catalogued across 13 sweeps
 
 ---
 
