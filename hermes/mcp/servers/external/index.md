@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 13, 2026 (evening sweep) · **Sources:** mcp.so (22,250 servers), mcpservers.org (8,964)
+> **Last updated:** June 13, 2026 (late night sweep) · **Sources:** mcp.so (22,259 servers), mcpservers.org (8,964)
 
 ---
 
@@ -78,6 +78,15 @@ FINRA Query API exposed as MCP tools. Access regulatory filings, broker/dealer d
 
 ### TradeInsight ★ New
 US stock market data server — OHLCV price history, top movers ranked by volume/moving-average/price-change, and company ticker search. Free tier available. Quick market intelligence without Bloomberg terminal costs.
+
+### IBKR Portfolio Builder ★ New
+Top-down portfolio research for Interactive Brokers — 468 typed screeners tagged by strategy intent (value, growth, momentum, etc.). Read-only MCP server. Essential for financial operators running IBKR who want AI-assisted portfolio construction. `npx -y @ibkr/portfolio-builder-mcp`
+
+### IBKR MCP ★ New
+Unofficial local MCP server for Interactive Brokers market data, account positions, and trading workflows. Use paper trading and review permissions before connecting live accounts. Full Trading Workstation access from any MCP client.
+
+### MCP for Indexa Capital ★ New
+Access Indexa Capital robo-advisor portfolios (European markets) through Indexa's official API from any MCP client. View portfolio composition, performance, and allocation data. Essential for European financial operators using Indexa.
 
 ---
 
@@ -409,6 +418,27 @@ Social media management for 9 networks — Instagram, TikTok, YouTube, X, Linked
 ### Socialclaw ★ New
 Social media scheduling MCP for AI agents across 11 platforms — X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, and Pinterest. Broader platform coverage than most social MCPs, including Discord and Telegram for community operators.
 
+### AdWhispr ★ New
+Chat with any brand's Meta (Facebook/Instagram) ads inside Claude — research a competitor's ad library, surface their longest-running winners, extract hooks/formats, and clone winning ads for your own brand. Essential for performance marketers and growth operators who want AI-assisted creative intelligence.
+
+### Blend MCP — Cross-Channel Marketing ★ Official ★ New
+Google Ads, Meta Ads, TikTok Ads, Microsoft Ads, Pinterest Ads, Amazon Ads, LinkedIn Ads, and Reddit Ads — all from one MCP server. Safe, robust, built for agencies. Manage cross-channel campaigns without switching dashboards. `npx -y blend-mcp`
+
+### Zevari ★ New
+Remote MCP server for LinkedIn sales workflows: research prospects, draft outreach, classify LinkedIn inbox replies, prepare campaigns, and stage sensitive LinkedIn actions behind review gates. Built for B2B sales operators who want AI-assisted LinkedIn prospecting without automation risk.
+
+### LinkedIn MCP ★ New
+Connect Claude or ChatGPT to your LinkedIn account to see who engaged on your posts, track performance and profile viewers, spot warm outreach signals, and publish content. Built for B2B marketers and creators who live on LinkedIn.
+
+### Signaliz ★ New
+B2B lead generation, email verification, company enrichment, and governed GTM Ops. Full-stack outbound intelligence for operators running sales pipelines — identify targets, verify contact data, enrich company profiles, and manage GTM operations from any MCP client.
+
+### FounderSignal ★ New
+Ask Claude what SaaS ideas are worth building — revenue data, growth signals, and pain points from 10+ sources. Market validation for operators evaluating new product ideas or competitive threats.
+
+### Enrich MCP Server ★ New
+Free company intelligence from domain or company name — company name, country, contacts, and social profiles. No API key required. Quick company lookup for lead enrichment and competitive research from any MCP client. `npx -y enrich-mcp-server`
+
 ---
 
 ## Memory & Knowledge
@@ -544,6 +574,25 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ---
 
+## New This Week (June 13, 2026 — late night sweep)
+
+### 10 new servers from mcpservers.org Finance + Marketing tabs
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| IBKR Portfolio Builder | Finance | Top-down portfolio research for Interactive Brokers — 468 typed screeners tagged by strategy intent. Read-only. |
+| IBKR MCP | Finance | Unofficial local MCP for Interactive Brokers market data, account positions, and trading workflows |
+| AdWhispr | Marketing | Chat with any brand's Meta ads inside Claude — competitor ad library research, winning ad detection, hook extraction |
+| Blend MCP ★ Official | Marketing | Cross-channel marketing: Google, Meta, TikTok, Microsoft, Pinterest, Amazon, LinkedIn, Reddit ads from one MCP |
+| Signaliz | Marketing | B2B lead gen, email verification, company enrichment, and governed GTM Ops |
+| Zevari | Marketing | LinkedIn sales workflows — research prospects, draft outreach, classify inbox replies, stage sensitive actions behind review gates |
+| LinkedIn MCP | Marketing | Connect Claude/ChatGPT to LinkedIn — track post engagement, profile viewers, warm outreach signals, publish content |
+| FounderSignal | Marketing | Ask Claude what SaaS ideas are worth building — revenue data, growth signals and pain points from 10+ sources |
+| Enrich MCP Server | Marketing/Data | Free company intelligence from domain/company name — name, country, contacts, social profiles. No API key. |
+| MCP for Indexa Capital | Finance | Access Indexa robo-advisor portfolio (European markets) through official API from any MCP client |
+
+---
+
 ## Previous Additions (June 10, 2026 — sweep 2)
 
 | Server | Category | Description |
@@ -569,12 +618,12 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,250 (mcp.so), 8,964 (mcpservers.org)
+- **Total MCP servers tracked:** 22,259 (mcp.so), 8,964 (mcpservers.org)
 - **Official servers:** 36+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 27+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Business Identity, Compliance, Business Ops, etc.)
-- **New this cycle (June 13 evening):** 8 newly catalogued servers for business operators
-- **Cumulative since June 9:** 98 MCP servers catalogued across 10 sweeps
+- **New this cycle (June 13 late night):** 10 newly catalogued servers — Interactive Brokers, Indexa Capital, AdWhispr, Blend MCP, Zevari, LinkedIn MCP, Signaliz, FounderSignal, Enrich MCP
+- **Cumulative since June 9:** 108 MCP servers catalogued across 11 sweeps
 
 ---
 
