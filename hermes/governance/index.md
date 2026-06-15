@@ -23,6 +23,7 @@ Safety rails, monitoring, and operational rules for autonomous agents. Seven gov
 5. **Done-only reporting** — never report scheduled/queued/planned work
 6. **Execution discipline** — action first, reporting second
 7. **Session governance** — session DB, token optimization, compaction
+8. **Content ontology** — pre-execution gate for all public content. Six dimensions: Public vs Internal, Human vs AI, Audience, Naming, Help-First, Freshness. Load before every external action.
 
 ## Monitoring Stack
 

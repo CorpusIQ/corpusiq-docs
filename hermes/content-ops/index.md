@@ -16,8 +16,29 @@ Autonomous content creation, publishing, and community engagement across all pla
 ## Content Pipeline
 
 ```
-Research → Draft → Review → Schedule → Post → Monitor → Engage
-   ↑                                                   ↓
+Belief Bridge → Draft → Ontology Gate → Review → Schedule → Post → Monitor → Engage → Track
+   ↑                                                                                   ↓
+   └────────────────────────── Content tracker feedback loop ───────────────────────────┘
+```
+
+### Content Strategy: Belief Bridge Framework
+
+Content is not product promotion. Content is belief transition. Every piece follows this sequence:
+
+1. **Current belief** — what the audience currently holds
+2. **Hidden problem** — what's wrong with that belief
+3. **Consequence** — what it costs them
+4. **New insight** — the reframe
+5. **New category** — the solution space
+6. **CorpusIQ** — the logical answer, earned not pitched
+
+**Content Mix:** 40% Problem Awareness | 30% Problem Reframing | 20% Category Creation | 10% Product
+
+**Key belief shifts:**
+- "We have data" → "We lack intelligence"
+- "Search works" → "Retrieval is broken"  
+- "AI needs documents" → "AI needs governed knowledge"
+- "More AI tools" → "Better knowledge infrastructure"
    └────────────────── Feedback Loop ──────────────────┘
 ```
 
