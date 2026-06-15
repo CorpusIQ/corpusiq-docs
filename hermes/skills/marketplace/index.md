@@ -1,6 +1,6 @@
 ---
 title: Skills.sh Marketplace — CorpusIQ Selection
-description: Curated skills from skills.sh for Hermes agents. 351 skills across 26 categories: marketing, web scraping, MCP dev, testing, Stripe, Shopify, LangGraph, infrastructure, communication, orchestration, DevOps, integrations, social automation, and more.
+description: Curated skills from skills.sh for Hermes agents. 217 skills across 22 categories: marketing, web scraping, MCP dev, testing, Stripe, Shopify, LangGraph, infrastructure, communication, orchestration, DevOps, integrations, and more.
 ---
 
 # Skills.sh Marketplace
@@ -208,7 +208,7 @@ Web scraping (Firecrawl), MCP server development, web app testing, Stripe integr
 
 ---
 
-**Total: 440 curated skills across 26 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 156 curated skills across 19 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 → **[June 11, 2026 Additions — Hermes ecosystem, platform bots, community skills (38 skills)](/hermes/skills/marketplace/new-june11-2026/)**
 
@@ -218,13 +218,8 @@ Web scraping (Firecrawl), MCP server development, web app testing, Stripe integr
 
 → **[June 12, 2026 Update — OpenClaw Security Suite, skill-vetter, 13 skills](/hermes/skills/marketplace/new-june12-2026-update/)**
 
-→ **[June 13, 2026 — Hermes Agent Ecosystem Expansion, 10 new skills](/hermes/skills/marketplace/new-june13-2026/)**
 
-→ **[June 13, 2026 Update 2 — nousresearch/hermes-agent Massive Expansion, 77 new skills](/hermes/skills/marketplace/new-june13-2026-update2/)**
-
-→ **[June 13, 2026 Update 3 — Nexu-io Cyber Terminal Deck, 1 skill](/hermes/skills/marketplace/new-june13-2026-update3/)**
-
-→ **[June 14, 2026 — X/Twitter Scraper + Agent Usage Monitoring, 2 new skills](/hermes/skills/marketplace/new-june14-2026/)**
+→ [**June 15, 2026 — Nous Research Expansion (23 skills)**](/hermes/skills/marketplace/new-june15-2026/)
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Discovery Report](/hermes/skills/marketplace/new-june-2026/) →*
 

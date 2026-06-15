@@ -1,6 +1,6 @@
 ---
 title: Skills Catalog
-description: Every skill available to Hermes agents — 89+ native CorpusIQ skills, 271+ marketplace skills from skills.sh. Single source of truth.
+description: Every skill available to Hermes agents — 89+ native CorpusIQ skills, 217+ marketplace skills from skills.sh. Single source of truth.
 ---
 
 # Skills Catalog
@@ -9,7 +9,7 @@ Complete index of all skills available to CorpusIQ Hermes agents. Updated as ski
 
 Skills are reusable agent capabilities — step-by-step workflows with tools, triggers, and verification. Not static prompts. Not text files. Executable runbooks that agents read and follow.
 
-**360 total**: 89 native + 271 marketplace.
+**334 total**: 89 native + 245 marketplace.
 
 ---
 
@@ -287,7 +287,7 @@ From [vercel-labs/agent-browser](https://skills.sh/vercel-labs/agent-browser), [
 | `blogwatcher` | corpusiq-docs | Monitor blogs and RSS/Atom feeds |
 | `social-media` | corpusiq-docs | Cross-platform social media workflows |
 
-### 🆕 Hermes Agent Variants — 7 skills (June 2026)
+### 🆕 Hermes Agent Variants — 30 skills (June 2026)
 
 Additional variants of `nousresearch/hermes-agent`. Install with `npx skills add nousresearch/hermes-agent@<variant>`.
 
@@ -296,10 +296,35 @@ Additional variants of `nousresearch/hermes-agent`. Install with `npx skills add
 | `hermes-agent@dogfood` | 3.6K | Dogfood/edge build — latest Hermes features |
 | `hermes-agent@yuanbao` | 443 | Hermes + Yuanbao (Tencent AI) integration |
 | `hermes-agent@popular-web-designs` | 169 | Web design generation via Hermes |
-| `hermes-agent@llm-wiki` | 156 | LLM knowledge base / wiki integration |
 | `hermes-agent@powerpoint` | 165 | PowerPoint/presentation generation |
-| `hermes-agent@arxiv` | 152 | ArXiv paper discovery and research via Hermes |
+| `hermes-agent@design-md` | 158 | Google DESIGN.md token spec authoring |
+| `hermes-agent@ascii-art` | 157 | ASCII art: pyfiglet, cowsay, image-to-ascii |
+| `hermes-agent@sketch` | 157 | Throwaway HTML mockups for design comparison |
+| `hermes-agent@llm-wiki` | 156 | LLM knowledge base / wiki integration |
+| `hermes-agent@ocr-and-documents` | 155 | Extract text from PDFs/scans |
+| `hermes-agent@arxiv` | 152 | ArXiv paper discovery and research |
+| `hermes-agent@manim-video` | 151 | Manim CE math/algo animations |
+| `hermes-agent@ascii-video` | 149 | Convert video to colored ASCII MP4/GIF |
+| `hermes-agent@songwriting-and-ai-music` | 148 | Songwriting craft + Suno AI music prompts |
+| `hermes-agent@p5js` | 146 | p5.js sketches: gen art, shaders, 3D |
+| `hermes-agent@opencode` | 142 | Delegate coding to OpenCode CLI |
+| `hermes-agent@touchdesigner-mcp` | 140 | Control TouchDesigner via twozero MCP |
+| `hermes-agent@polymarket` | 139 | Query Polymarket: markets, prices, orderbooks |
+| `hermes-agent@comfyui` | 137 | Generate images/video/audio with ComfyUI |
+| `hermes-agent@huggingface-hub` | 136 | HF CLI: search/download/upload models |
+| `hermes-agent@pretext` | 136 | DOM-free text layout browser demos |
+| `hermes-agent@nano-pdf` | 136 | Edit PDF text via nano-pdf CLI |
+| `hermes-agent@spike` | 135 | Throwaway experiments before building |
+| `hermes-agent@test-driven-development` | 134 | TDD: RED-GREEN-REFACTOR enforcement |
+| `hermes-agent@apple-notes` | 133 | Manage Apple Notes via memo CLI |
+| `hermes-agent@kanban-orchestrator` | 133 | Decomposition playbook for orchestrators |
+| `hermes-agent@imessage` | 133 | Send/receive iMessages via imsg CLI |
+| `hermes-agent@gif-search` | 132 | Search/download GIFs from Tenor |
+| `hermes-agent@maps` | 131 | Geocode, POIs, routes via OpenStreetMap |
 | `hermes-agent@claude-code` | 131 | Claude Code integration for Hermes coding |
+| `hermes-agent@findmy` | 131 | Track Apple devices/AirTags via FindMy |
+
+→ [June 15, 2026 — Full discovery with install commands](/hermes/skills/marketplace/new-june15-2026/)
 
 ### 🆕 Communication Platform Bots — 4 skills (June 2026)
 
@@ -486,36 +511,6 @@ Complete security suite from `useai-pro/openclaw-skills-security` (UseClawPro/Us
 
 **Install:** `npx skills add useai-pro/openclaw-skills-security --skill <name> -a hermes-agent -y`. ⭐ = recommended primary auditors. See the [June 12 Update (Afternoon)](/hermes/skills/marketplace/new-june12-2026-update/) page for full setup guides.
 
-### 🆕 Hermes Agent Ecosystem Expansion — 10 skills (June 13, 2026)
-
-Additional Hermes agent ecosystem skills from `aradotso/hermes-skills` and `nousresearch/hermes-agent`: skill authoring, UI dashboards, IDE integration, Obsidian bridge, education.
-
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| `hermes-agent-skill-authoring` | 124 | Create/test/publish skills from within Hermes sessions |
-| `hermes-control-interface-dashboard` | 121 | Operator dashboard for agent monitoring and control |
-| `hermes-war-room-ui` | 104 | Multi-agent operations center / war room UI |
-| `hermes-agent-architecture` | 103 | Agent topology, communication, state, deployment patterns |
-| `hermes-lcm-context-management` | 102 | Lifecycle context management for long-running sessions |
-| `hermes-agent-guide` | 100 | Getting-started guide: install, configure, skills, patterns |
-| `hermes-kanban-obsidian-integration` | 93 | Sync agent tasks to Obsidian kanban boards |
-| `hermes-skins-customization` | 89 | Theme/skin customization for Hermes dashboards |
-| `hermes-edu-skills` | 88 | Tutorials, exercises, example projects for learning Hermes |
-| `hermes-ide-terminal` | 86 | IDE/terminal integration: VS Code, Cursor, Zed |
-
-**Install:** `npx skills add aradotso/hermes-skills@<skill-name>` (9 skills) or `npx skills add nousresearch/hermes-agent --skill hermes-agent-skill-authoring` (1 skill). See the [June 13 Update](/hermes/skills/marketplace/new-june13-2026/) page for full setup guides.
-
-### 🆕 Hermes Ecosystem — Data & Monitoring — 2 skills (June 14, 2026)
-
-X/Twitter automation with native Hermes Agent plugin and cross-agent usage/cost tracking with Hermes support.
-
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| `x-twitter-scraper` | 146 | Full X/Twitter automation: tweet search, posting, DMs, follower export, MCP, Hermes Tweet plugin |
-| `agent-usage` | 32 | Cross-agent usage/cost tracking: spending, tokens, sessions — supports Hermes, Claude Code, Codex |
-
-**Install:** `npx skills add sickn33/antigravity-awesome-skills --skill x-twitter-scraper` (requires Xquik API key) or `npx skills add briqt/agent-usage`. See the [x-twitter-scraper setup guide](/hermes/skills/catalog/x-twitter-scraper-setup/) and [agent-usage setup guide](/hermes/skills/catalog/agent-usage-setup/) for full configuration instructions.
-
 
 ## Summary
 
@@ -556,17 +551,15 @@ X/Twitter automation with native Hermes Agent plugin and cross-agent usage/cost 
 | LangGraph Extensions (marketplace) 🆕 | 3 |
 | Database & Infra (marketplace) 🆕 | 4 |
 | Productivity (marketplace) 🆕 | 4 |
-| Hermes Agent Ecosystem (marketplace) 🆕 | 30 |
+| Hermes Agent Ecosystem (marketplace) 🆕 | 20 |
 | Platform Integration Bots (marketplace) 🆕 | 10 |
 | Community Standalone (marketplace) 🆕 | 9 |
 | OpenClaw Ecosystem (marketplace) 🆕 | 23 |
 | Hermes Ecosystem (marketplace) 🆕 | 4 |
 | TTS & Audio (marketplace) 🆕 | 3 |
 | Hermes Security & UI (marketplace) 🆕 | 3 |
-| Hermes Ecosystem Expansion (marketplace) 🆕 | 10 |
-| Hermes Ecosystem — Data & Monitoring (marketplace) 🆕 | 2 |
-| **Marketplace subtotal** | **351** |
-| **Total** | **440** |
+| **Marketplace subtotal** | **284** |
+| **Total** | **373** |
 
 ## Using Skills
 
