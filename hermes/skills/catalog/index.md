@@ -415,8 +415,9 @@ Independent community contributions with Hermes integration.
 | `hermess/ppt-director@ppt-director` | 82 | PowerPoint generation from Hermes |
 | `chujianyun/skills@hermes-qq` | 51 | QQ (Tencent) bot integration |
 | `skills.volces.com@hermes-install` | 17 | ByteDance/Volces Hermes installer
+| `soul-grader` | 25⭐ | SOUL.md identity grader — research-backed rubric for Hermes agent identity files | [Setup Guide](/hermes/skills/catalog/soul-grader-setup/) |
 
-**Install:** `npx skills add dandacompany/hermes-skill@hermes`, etc. See the [June 11 Discoveries](/hermes/skills/marketplace/new-june11-2026/) page for full details.
+**Install:** `npx skills add cobibean/soul-grader-skill` (for soul-grader), `npx skills add dandacompany/hermes-skill@hermes`, etc. See the [June 11 Discoveries](/hermes/skills/marketplace/new-june11-2026/) page for full details.
 
 ### 🆕 Agent Orchestration & RAG — 6 skills (June 2026)
 
@@ -553,13 +554,13 @@ Complete security suite from `useai-pro/openclaw-skills-security` (UseClawPro/Us
 | Productivity (marketplace) 🆕 | 4 |
 | Hermes Agent Ecosystem (marketplace) 🆕 | 20 |
 | Platform Integration Bots (marketplace) 🆕 | 10 |
-| Community Standalone (marketplace) 🆕 | 9 |
+| Community Standalone (marketplace) 🆕 | 10 |
 | OpenClaw Ecosystem (marketplace) 🆕 | 23 |
 | Hermes Ecosystem (marketplace) 🆕 | 4 |
 | TTS & Audio (marketplace) 🆕 | 3 |
 | Hermes Security & UI (marketplace) 🆕 | 3 |
-| **Marketplace subtotal** | **284** |
-| **Total** | **373** |
+| **Marketplace subtotal** | **285** |
+| **Total** | **374** |
 
 ## Using Skills
 
