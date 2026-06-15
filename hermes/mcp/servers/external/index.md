@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 15, 2026 (morning sweep) · **Sources:** mcp.so (22,309 servers), mcpservers.org (9,000+)
+> **Last updated:** June 15, 2026 (afternoon sweep) · **Sources:** mcp.so (22,329 servers), mcpservers.org (9,000+)
 
 ---
 
@@ -108,6 +108,21 @@ Real-time gold, forex, crypto, and stock market data with ultra-low latency. Des
 
 ### FinData MCP ★ New
 Financial data MCP server via x402 micropayments: stock quotes, company fundamentals, economic indicators, SEC filings, and crypto prices. Pay-per-call model — operators pay only for what they use, no monthly subscription. `npx -y findata-mcp`
+
+### Lonestaroracle MCP Server ★ New
+38 tools for live data access: crypto token analysis, DeFi risk, equities, energy markets, weather forecasts, real estate metrics, and on-chain intelligence. Comprehensive financial data aggregation for operators who need multi-asset intelligence.
+
+### hourledger-mcp ★ New
+Work hours, overtime, and gross pay calculation with tested rulesets for US federal, California, Alaska, Colorado, and Nevada law. Payroll automation MCP for operators managing compliance across multiple US jurisdictions.
+
+### Kontomierz-MCP ★ New
+MCP server for Kontomierz.pl — Polish personal finance platform. Read and manage bank accounts, transactions, budgets, and scheduled payments. Built in Python, runs locally or in Docker. For operators in the Polish/Eastern European market.
+
+### Sivut SEC Crypto Filing Radar ★ New
+x402-paid SEC crypto filing radar with CSV/markdown data endpoints for agents. Regulatory intelligence for compliance operators tracking SEC crypto filings and enforcement actions.
+
+### SynapseNetwork MCP Server ★ New
+Remote MCP for paid API discovery, API invocation, USDC agent payments, and receipts. Agent-commerce marketplace — AI agents can discover, pay for, and invoke APIs with cryptocurrency micropayments.
 
 ---
 
@@ -404,6 +419,9 @@ Reverse proxy that adds Stripe billing and x402 crypto payments to any MCP serve
 ### Zerno Lite Mcp Server ★ New
 Connect AI agents to your product backlog over a secure remote MCP endpoint. Read project briefs, list and open tasks, retrieve compiled project memory, patch task status, submit triage proposals. OAuth 2.1 (PKCE), per-project authorization, 8 tools. For product operators who want AI-assisted backlog management.
 
+### AppHandoff ★ New
+Hosted MCP server and coordination layer for AI coding agents — live API contracts, database schema, frontend/backend mismatch detection, and shared handoff tickets for Claude Code, Cursor, Codex, and Lovable. For engineering operators coordinating multiple AI coding agents across a shared codebase.
+
 ---
 
 ## Productivity
@@ -459,6 +477,21 @@ Publish Markdown or HTML to a clean, shareable link straight from your AI assist
 ### Feedback Synthesis MCP ★ New
 Synthesize customer feedback from GitHub Issues, Hacker News, and App Store — extract pain points, sentiment trends, and search feedback via x402 micropayments. For product operators who want AI to aggregate and analyze customer signals across platforms.
 
+### Gantt Chart Maker ★ New
+Free, no-signup Gantt chart maker with real-time collaboration and built-in MCP server. AI agents can list, create, and edit project timelines by chatting. Works offline, no accounts needed. For operators who want AI-assisted project planning without SaaS overhead.
+
+### Docsie ★ New
+Create, edit, and publish documentation directly from AI agents. Convert videos into structured documentation instantly, run compliance checks, and publish to help centers — all without leaving Claude. For operators managing product documentation, knowledge bases, and compliance docs.
+
+### DeckExtract ★ New
+Download DocSend and Papermark decks as PDF/PPTX and data rooms as ZIPs — including email-gated and protected links. Essential for competitive research, investor due diligence, and business intelligence operators who need to capture and analyze gated content.
+
+### Conformi EU Legal Search ★ New
+EU legal research for AI agents: semantic + full-text search over ~48,000 EUR-Lex acts including consolidated versions, daily drift monitoring, answers with verifiable CELEX citations. German, English, French. Free tier at `https://conformi.eu/api/mcp`. For compliance operators who need EU regulatory intelligence integrated into their AI workflow.
+
+### Dbconvert Streams MCP ★ New
+Read-only MCP server for databases — inspect schemas, preview data, run read-only SQL, and join across PostgreSQL, MySQL, CSV/JSONL/Parquet files, and S3. 26 read-only tools. For operators who need AI agents to analyze data across multiple sources without write risk.
+
 ---
 
 ## Communication
@@ -468,6 +501,9 @@ AI-powered meeting notes and summaries. Connect your meeting data to AI agents.
 
 ### Superlist MCP Server ★ Official
 Task and project management via MCP. Connect AI agents to your Superlist workspace.
+
+### aX Platform ★ New
+Agent-native collaboration network: orchestrate long-running agents from any MCP client, with persistent identity, real-time messaging with @mentions and threads, task handoffs, shared workspace context, semantic search, and replayable MCP App widgets. For operators running multi-agent workflows that need persistent team collaboration infrastructure.
 
 ---
 
@@ -573,6 +609,12 @@ Editorial intelligence for creators and their agents — discover the stories wo
 ### EverAlice AI MCP ★ New
 Remote MCP server for Etsy listing copy, mockups, delivery packs, social campaigns, and brand kits from EverAlice AI. For ecommerce operators on Etsy who want AI-assisted listing creation and brand asset generation.
 
+### Assay Truth Graph MCP ★ New
+Remote MCP server that grounds GTM agents in governed, cited company truth. Prevents AI hallucination in sales and marketing workflows by anchoring agent outputs in verifiable company data. For enterprise operators who need AI-generated GTM content backed by authoritative sources.
+
+### SocialDataX Kuaishou MCP ★ New
+Hosted MCP for Kuaishou (快手) — hot list, search, details, comments, replies, and creator research. For operators targeting the Chinese short-video market who need Kuaishou data integrated into their AI workflow.
+
 ---
 
 ## Memory & Knowledge
@@ -591,6 +633,12 @@ Open-source MCP server that gives AI agents persistent memory across sessions. A
 
 ### SynaMCPs ★ New
 Universal gateway for corporate AI tools — provides knowledge storage, access control, and proxying of external AI sources through a single MCP endpoint. For enterprise operators who need governed AI access across their organization's knowledge repositories.
+
+### Memxus ★ New
+Cross-platform memory for AI agents — works across Claude, ChatGPT, Cursor, and Slack, plus any app your team uses (Notion, Linear/Jira, Gmail, Salesforce/HubSpot, Intercom, Zendesk, Google Drive, Confluence, GitHub). No extension, no local setup, no repeated context. Save once, remember everywhere. For operators who need AI memory that persists across all their business tools.
+
+### sessionmem ★ New
+Local-first MCP server that gives AI coding assistants persistent session memory with 85.6% token reduction. No cloud dependency, all local. For operators who want efficient, private session persistence without cloud costs.
 
 ---
 
@@ -812,8 +860,30 @@ Universal gateway for corporate AI tools — provides knowledge storage, access 
 ### Detailed Entries
 
 
-## Previous Additions (June 10, 2026 — sweep 2)
+## New This Week (June 15, 2026 — afternoon sweep)
 
+### 15 new servers from mcp.so Latest + mcpservers.org All/Finance/Marketing
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Memxus | Memory/Knowledge | Cross-platform memory for AI agents — works across Claude, ChatGPT, Slack, Notion, Linear, Gmail, Salesforce, HubSpot, Zendesk, GitHub. No extension, no local setup. |
+| Dbconvert Streams MCP | Analytics/Data | Read-only database MCP for PostgreSQL, MySQL, CSV/JSONL/Parquet files, and S3 — 26 tools for schema inspection, data preview, and cross-source SQL joins. |
+| Lonestaroracle MCP Server | Finance | 38 tools for live data: crypto token analysis, DeFi risk, equities, energy markets, weather forecasts, real estate metrics, and on-chain intelligence. |
+| DeckExtract | Content/Research | Download DocSend and Papermark decks as PDF/PPTX and data rooms as ZIPs — including email-gated and protected links. Essential for competitive research. |
+| Docsie | Content/Docs | Create, edit, and publish documentation from AI agents. Convert videos into structured docs, run compliance checks, publish to help centers — all without leaving Claude. |
+| hourledger-mcp | Finance/HR | Work hours, overtime, and gross pay calculation with tested rulesets for US federal, California, Alaska, Colorado, and Nevada law. Payroll automation for operators. |
+| Conformi EU Legal Search | Legal/Compliance | EU legal research for AI agents: semantic + full-text search over ~48,000 EUR-Lex acts with verifiable CELEX citations. Free tier, German/English/French. |
+| aX Platform | Communication | Agent-native collaboration network: orchestrate long-running agents with persistent identity, real-time messaging with @mentions, task handoffs, shared workspace context, and semantic search. |
+| Assay Truth Graph MCP | Marketing/GTM | Remote MCP server that grounds GTM agents in governed, cited company truth — prevents AI hallucination in sales and marketing workflows. |
+| sessionmem | Memory/Knowledge | Local-first MCP server for persistent session memory with 85.6% token reduction. No cloud dependency. |
+| Gantt Chart Maker | Productivity | Free, no-signup Gantt chart maker with real-time collaboration and built-in MCP server. AI agents can list, create, and edit project timelines via chat. |
+| AppHandoff | Development | Hosted MCP coordination layer for AI coding agents — live API contracts, database schema, frontend/backend mismatch detection, shared handoff tickets for Claude Code, Cursor, Codex, Lovable. |
+| Kontomierz-MCP | Finance | MCP server for Kontomierz.pl — Polish personal finance platform. AI assistants can read and manage bank accounts, transactions, budgets, and scheduled payments. |
+| Sivut SEC Crypto Filing Radar | Finance/Compliance | x402-paid SEC crypto filing radar with CSV/markdown data endpoints for agents. Regulatory intelligence for compliance operators. |
+| MCP Toplist | Meta/Discovery | Search 59,000+ MCP servers ranked by adoption and activity. Useful for discovering new tools in any domain. |
+
+
+## Previous Additions (June 10, 2026 — sweep 2)
 | Server | Category | Description |
 |--------|----------|-------------|
 | Perplexity Ask MCP | Content/Research | AI-powered research via Perplexity (by Perplexity) |
