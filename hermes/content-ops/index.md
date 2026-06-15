@@ -1,6 +1,6 @@
 ---
 title: Content Operations
-description: Automated content production with Hermes — HeyGen video, Postiz publishing, social automation, community engagement
+description: Automated content production with Hermes — HeyGen video, Postiz publishing, social automation, community engagement, creator outreach
 ---
 
 # Content Operations
@@ -9,6 +9,9 @@ Autonomous content creation, publishing, and community engagement across all pla
 
 | Page | What You'll Learn |
 |------|-------------------|
+| [Content Strategy](/hermes/content-ops/content-strategy/) | Belief bridge framework, content mix, belief shift library |
+| [Creator Outreach](/hermes/content-ops/creator-outreach/) | 50-creator campaign, outreach templates, rev share program |
+| [Comment Monitoring](/hermes/content-ops/comment-monitoring/) | Cross-platform 5x daily monitoring, response rules |
 | [Video Production](/hermes/content-ops/video/) | HeyGen video generation, UGC series, TikTok/Instagram automation |
 | [Social Automation](/hermes/content-ops/social/) | X, Reddit, Discord, LinkedIn, cross-platform posting via Postiz |
 | [Community Engagement](/hermes/content-ops/engagement/) | Help-first strategy, autonomous comment engines, community building |
@@ -39,8 +42,6 @@ Content is not product promotion. Content is belief transition. Every piece foll
 - "Search works" → "Retrieval is broken"  
 - "AI needs documents" → "AI needs governed knowledge"
 - "More AI tools" → "Better knowledge infrastructure"
-   └────────────────── Feedback Loop ──────────────────┘
-```
 
 ## Platforms
 
@@ -48,15 +49,10 @@ Content is not product promotion. Content is belief transition. Every piece foll
 |----------|------|-------------|
 | TikTok | HeyGen video agent | UGC-style AI videos |
 | Instagram | Postiz CLI | Video + image posts |
-| X/Twitter | xurl CLI | Technical threads |
-| Reddit | PRAW | Helpful comments + posts |
-| Discord | Native API | Community engagement |
-| LinkedIn | API + Playwright | Professional content |
-| HN | Playwright | Technical discussion |
-
-## Rotation Schedule
-
-5 rotating content avatars daily across all platforms. Each avatar targets a specific audience segment with tailored messaging.
+| X/Twitter | Postiz CLI | Belief-bridge threads |
+| LinkedIn Page | Postiz CLI | Professional content |
+| YouTube Shorts | Postiz CLI | Short-form video |
+| GitHub | API | Help-first comments |
 
 ---
 
