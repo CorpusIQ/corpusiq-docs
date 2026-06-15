@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 14, 2026 (evening sweep) · **Sources:** mcp.so (22,293 servers), mcpservers.org (9,000+)
+> **Last updated:** June 15, 2026 (morning sweep) · **Sources:** mcp.so (22,309 servers), mcpservers.org (9,000+)
 
 ---
 
@@ -103,12 +103,21 @@ Managed crypto intelligence MCP for AI agents across market data, DeFi, wallets,
 ### PineForge Codegen ★ Official ★ New
 Local MCP server: AI writes PineScript v6, bundled engine transpiles to C++ and backtests against Binance data — no API key, fully local. Essential for TradingView operators who want AI-written, locally-backtested strategies.
 
+### RealMarketAPI MCP Server ★ New
+Real-time gold, forex, crypto, and stock market data with ultra-low latency. Designed for trading platforms, fintech apps, and analytics systems. For operators who need production-grade market data feeds via MCP.
+
+### FinData MCP ★ New
+Financial data MCP server via x402 micropayments: stock quotes, company fundamentals, economic indicators, SEC filings, and crypto prices. Pay-per-call model — operators pay only for what they use, no monthly subscription. `npx -y findata-mcp`
+
 ---
 
 ## Ecommerce & Marketplace Intelligence
 
 ### Webotee AI Connect — Amazon Seller Intelligence ★ New
 Brand, seller, ASIN info, and under-competed niches from your AI assistant. Essential for Amazon operators and ecommerce businesses who need marketplace intelligence without manual research.
+
+### Assetlog.ai ★ New
+Connect once and your AI assistant can search and post classified listings — vehicles, real estate, jobs, and CVs — on your behalf. For marketplace operators and classifieds platforms who want AI-powered listing management via MCP.
 
 ---
 
@@ -162,6 +171,9 @@ AI assistant for fitness coaches on Trainzilla. Manage clients, create workout a
 
 ### Pollbolt ★ New
 AI-native survey & form builder. Let AI agents create and manage surveys directly — build surveys, manage responses, pull analytics, and configure webhooks. Secured with OAuth 2.1. Hosted Streamable HTTP at `https://api.pollbolt.com/mcp`. Essential for operators who want AI-assisted customer feedback, NPS tracking, and survey campaigns. `npx -y mcp-remote https://api.pollbolt.com/mcp`
+
+### Demiton ★ New
+Connect Claude to your operational data across ERP, payroll, asset management, and procurement systems. Query, report, and propose governed write-backs — identity-bound and audited. For operators who want AI to work directly with enterprise operational data without exposing raw systems.
 
 ---
 
@@ -383,6 +395,15 @@ Build real web apps on demand from ChatGPT, Claude, or any coding agent. Cross-a
 ### Rami Code Review ★ New
 Rami reviews every pull request for the bugs, logic errors, and risky patterns that AI coding agents commonly leave behind. When it flags something, your agent — Claude Code, Cursor, or Codex — fetches the review and fixes it. For engineering operators who want an AI safety net on AI-generated code.
 
+### Stackql ★ New
+Open source SQL-native query and provisioning engine for cloud and SaaS infrastructure. Ships as a single signed binary with MCP tools for provider discovery, schema exploration, queries, and lifecycle operations across 7+ cloud providers. For DevOps operators who want SQL-based cloud management from AI agents.
+
+### MCP Billing Gateway ★ New
+Reverse proxy that adds Stripe billing and x402 crypto payments to any MCP server. For MCP server operators who want to monetize their tools — drop-in billing layer, no server code changes required.
+
+### Zerno Lite Mcp Server ★ New
+Connect AI agents to your product backlog over a secure remote MCP endpoint. Read project briefs, list and open tasks, retrieve compiled project memory, patch task status, submit triage proposals. OAuth 2.1 (PKCE), per-project authorization, 8 tools. For product operators who want AI-assisted backlog management.
+
 ---
 
 ## Productivity
@@ -428,6 +449,15 @@ Hosted remote MCP server with managed OAuth for a growing list of 15+ toolkits, 
 
 ### Matchbox ★ New
 Describe a real-world problem in plain language and Matchbox finds products built to solve it — with reasoning, honest caveats, what each product won't cover, and a frank "no strong match" when nothing fits. Useful for operators evaluating tools and vendors.
+
+### Kailo Sheets ★ New
+Hosted MCP for Google Sheets. Read and write spreadsheet data from any MCP client without managing API keys. For operators who want AI agents to work directly with their spreadsheets in a governed way.
+
+### dochost ★ New
+Publish Markdown or HTML to a clean, shareable link straight from your AI assistant. OAuth-secured, no API keys required. For operators who need quick document publishing and sharing directly from AI workflows.
+
+### Feedback Synthesis MCP ★ New
+Synthesize customer feedback from GitHub Issues, Hacker News, and App Store — extract pain points, sentiment trends, and search feedback via x402 micropayments. For product operators who want AI to aggregate and analyze customer signals across platforms.
 
 ---
 
@@ -534,6 +564,15 @@ All-in-one social media MCP server for 13+ networks — TikTok, Instagram, YouTu
 ### FinCore Agentic Commerce ★ New
 Agentic commerce with 58 MCP tools for product search, cart management, checkout, and analytics. Enable AI agents to handle the full commerce pipeline — from product discovery through purchase. For ecommerce operators who want AI agents to manage product catalogs and transactions.
 
+### Toksta MCP Server ★ New
+B2B creator intelligence MCP — search, enrich, and score LinkedIn and YouTube creators for campaigns. For marketing operators who need to identify, evaluate, and engage influencers and creators directly from their AI workflow.
+
+### Niche ★ New
+Editorial intelligence for creators and their agents — discover the stories worth writing about, rank the strongest angle, and draft grounded, platform-native posts. For content operators who want AI to help them find and frame the right stories.
+
+### EverAlice AI MCP ★ New
+Remote MCP server for Etsy listing copy, mockups, delivery packs, social campaigns, and brand kits from EverAlice AI. For ecommerce operators on Etsy who want AI-assisted listing creation and brand asset generation.
+
 ---
 
 ## Memory & Knowledge
@@ -549,6 +588,9 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ### Geniuz ★ New
 Open-source MCP server that gives AI agents persistent memory across sessions. Agents keep standards, decisions, and reasoning, recalled by meaning not keywords. Runs fully local: on-device semantic search, no cloud, no API keys. macOS, Windows, Linux, MIT license. For operators who want their AI agents to remember context without cloud dependency.
+
+### SynaMCPs ★ New
+Universal gateway for corporate AI tools — provides knowledge storage, access control, and proxying of external AI sources through a single MCP endpoint. For enterprise operators who need governed AI access across their organization's knowledge repositories.
 
 ---
 
@@ -746,6 +788,30 @@ Open-source MCP server that gives AI agents persistent memory across sessions. A
 
 ---
 
+## New This Week (June 15, 2026 — morning sweep)
+
+### 14 new servers from mcp.so Latest + mcpservers.org All/Finance/Marketing
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Stackql | Dev/Infra | SQL-native query engine for cloud & SaaS — provider discovery, schema exploration, queries, lifecycle ops. Single binary, 7+ providers |
+| Kailo Sheets | Productivity | Hosted MCP for Google Sheets — read/write spreadsheet data from any MCP client |
+| RealMarketAPI MCP Server | Finance | Real-time gold, forex, crypto, and stock market data with ultra-low latency |
+| Toksta MCP Server | Marketing | B2B creator intelligence — search, enrich & score LinkedIn/YouTube creators for campaigns |
+| FinData MCP | Finance | Financial data via x402: stock quotes, company fundamentals, economic indicators, SEC filings, crypto |
+| Feedback Synthesis MCP | Productivity | Synthesize customer feedback from GitHub Issues, HN, App Store — pain points, sentiment trends |
+| MCP Billing Gateway | Dev/Infra | Reverse proxy adding Stripe billing + x402 crypto payments to any MCP server |
+| Demiton | Business Ops | Connect Claude to operational data: ERP, payroll, asset management, procurement. Identity-bound, audited |
+| dochost | Productivity | Publish Markdown/HTML to clean shareable links — OAuth, no API keys |
+| Zerno Lite Mcp Server | Dev/Infra | Product backlog MCP — read project briefs, list/open tasks, patch status, triage. OAuth 2.1 PKCE |
+| Niche | Marketing | Editorial intelligence for creators — discover stories, rank angles, draft platform-native posts |
+| Assetlog.ai | Commerce | AI-powered classified listings search — vehicles, real estate, jobs, CVs via MCP |
+| SynaMCPs | Memory/Knowledge | Universal gateway for corporate AI tools — knowledge storage, access control, external AI proxying |
+| EverAlice AI MCP | Marketing | Etsy listing copy, mockups, delivery packs, social campaigns, brand kits via remote MCP |
+
+### Detailed Entries
+
+
 ## Previous Additions (June 10, 2026 — sweep 2)
 
 | Server | Category | Description |
@@ -771,12 +837,12 @@ Open-source MCP server that gives AI agents persistent memory across sessions. A
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,293 (mcp.so), 9,000+ (mcpservers.org)
+- **Total MCP servers tracked:** 22,309 (mcp.so), 9,000+ (mcpservers.org)
 - **Official servers:** 40+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, PineForge, auto-geo, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Business Identity, Compliance, Business Ops, GTM/Sales Intelligence, SEO & AI Visibility, etc.)
-- **New this cycle (June 14 evening):** 3 newly catalogued servers — Upload Post, FinCore Agentic Commerce, Geniuz
-- **Cumulative since June 9:** 136 MCP servers catalogued across 14 sweeps
+- **New this cycle (June 15 morning):** 14 newly catalogued servers — Stackql, Kailo Sheets, RealMarketAPI, Toksta, FinData, Feedback Synthesis, MCP Billing Gateway, Demiton, dochost, Zerno Lite, Niche, Assetlog.ai, SynaMCPs, EverAlice AI
+- **Cumulative since June 9:** 150 MCP servers catalogued across 15 sweeps
 
 ---
 
