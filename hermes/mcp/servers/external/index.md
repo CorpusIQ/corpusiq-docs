@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 14, 2026 (afternoon sweep) · **Sources:** mcp.so (22,282 servers), mcpservers.org (9,000+)
+> **Last updated:** June 14, 2026 (evening sweep) · **Sources:** mcp.so (22,293 servers), mcpservers.org (9,000+)
 
 ---
 
@@ -528,6 +528,12 @@ AI video ad production for GTM engineers and growth teams — 107 tools for UGC 
 ### Spresh ★ New
 Spy on competitor Facebook ads. Decode their marketing strategy and copy their winning ad formats. For performance marketers and growth operators running competitive ad intelligence.
 
+### Upload Post ★ New
+All-in-one social media MCP server for 13+ networks — TikTok, Instagram, YouTube, LinkedIn, Facebook, X, Threads, Pinterest, Reddit, Bluesky, Google Business, Discord, Telegram. 45 tools covering video/photo/text uploads, scheduling queues, performance analytics, comment management, DMs, and GPU FFmpeg video encoding. Remote hosted (streamable-HTTP + OAuth). Listed on the official MCP Registry. Essential for marketing operators who want AI-native cross-platform publishing. `npx -y @upload-post/mcp`
+
+### FinCore Agentic Commerce ★ New
+Agentic commerce with 58 MCP tools for product search, cart management, checkout, and analytics. Enable AI agents to handle the full commerce pipeline — from product discovery through purchase. For ecommerce operators who want AI agents to manage product catalogs and transactions.
+
 ---
 
 ## Memory & Knowledge
@@ -540,6 +546,9 @@ Persistent memory for AI agents across sessions.
 
 ### Vault Cortex ★ New
 MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-protected. Connect AI agents to your Obsidian knowledge base. Ideal for operators who use Obsidian as their second brain.
+
+### Geniuz ★ New
+Open-source MCP server that gives AI agents persistent memory across sessions. Agents keep standards, decisions, and reasoning, recalled by meaning not keywords. Runs fully local: on-device semantic search, no cloud, no API keys. macOS, Windows, Linux, MIT license. For operators who want their AI agents to remember context without cloud dependency.
 
 ---
 
@@ -725,6 +734,18 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ---
 
+## New This Week (June 14, 2026 — evening sweep)
+
+### 3 new servers from mcp.so Latest + mcpservers.org Marketing
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Upload Post | Marketing | All-in-one social media MCP for 13+ networks — 45 tools, remote hosted, streamable-HTTP + OAuth |
+| FinCore Agentic Commerce | Marketing/Ecommerce | Agentic commerce with 58 MCP tools — product search, cart, checkout, analytics |
+| Geniuz | Memory/Knowledge | Open-source persistent agent memory — local, on-device semantic search, MIT license |
+
+---
+
 ## Previous Additions (June 10, 2026 — sweep 2)
 
 | Server | Category | Description |
@@ -750,13 +771,12 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,282 (mcp.so), 9,000+ (mcpservers.org)
+- **Total MCP servers tracked:** 22,293 (mcp.so), 9,000+ (mcpservers.org)
 - **Official servers:** 40+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, PineForge, auto-geo, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Business Identity, Compliance, Business Ops, GTM/Sales Intelligence, SEO & AI Visibility, etc.)
-- **New this cycle (June 14 morning):** 23 newly catalogued servers — AlphaAI News, Rockmoon Financial Data, TradeOS AI, Hive Intelligence, PineForge Codegen, IndustryLens, Mamba Labs GTM Suite, ICP Fit Scorer, GTM Signals Aggregator, OpenWeb Ninja MCP, audit-ledger-mcp, GSC Wizard, Ranki.io, Local AI Visibility, auto-geo, Nightwatch SEO, SEO Performance MCP, Glippy MCP, mailtani, Maqui Analytics, HYPD.AI, Orcool Studio MCP, Spresh
-- **New this cycle (June 14 afternoon):** 2 newly catalogued servers — Pollbolt, Video Overlay Kit
-- **Cumulative since June 9:** 133 MCP servers catalogued across 13 sweeps
+- **New this cycle (June 14 evening):** 3 newly catalogued servers — Upload Post, FinCore Agentic Commerce, Geniuz
+- **Cumulative since June 9:** 136 MCP servers catalogued across 14 sweeps
 
 ---
 
