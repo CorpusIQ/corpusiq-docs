@@ -1,0 +1,5 @@
+# MkDocs build dependencies for the CorpusIQ Docs site.
+# Pinned to the major versions verified to build this repo's mkdocs.yml
+# (material theme + awesome-pages plugin; pymdownx ships with mkdocs-material).
+mkdocs-material>=9.5,<10
+mkdocs-awesome-pages-plugin>=2.9,<3
