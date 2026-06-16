@@ -1,33 +1,19 @@
-name: Deploy docs to GitHub Pages
-
-# Builds the MkDocs Material site and publishes it to GitHub Pages.
-# The production URL is https://www.corpusiq.io/docs/ — corpusiq-frontend
-# rewrites /docs and /docs/:path* to this Pages site
-# (https://corpusiq.github.io/corpusiq-docs/). mkdocs.yml site_url is set to
-# the proxied production path so internal asset/links resolve correctly there.
-#
-# NOTE: GitHub Pages must be enabled once (owner action) under
-# Settings -> Pages -> Build and deployment -> Source: GitHub Actions.
+name: Deploy MkDocs to GitHub Pages
 
 on:
   push:
     branches: [main]
     paths:
-      - 'mkdocs.yml'
-      - 'requirements.txt'
       - 'docs/**'
-      - '**/*.md'
-      - 'assets/**'
+      - 'mkdocs.yml'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
-# Allow the workflow to deploy to Pages.
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Serialize Pages deploys; cancel nothing in flight so a running deploy finishes.
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -36,33 +22,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0   # awesome-pages + git-based edit_uri benefit from full history
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: pip
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install mkdocs-material mkdocs-awesome-pages-plugin
 
       - name: Build site
-        # Non-strict: the docs content currently has a handful of cross-file
-        # relative links that MkDocs flags as warnings. Strict mode aborts on
-        # those, which would block every deploy. Keep builds shipping; the link
-        # warnings are tracked separately as content cleanup.
-        run: mkdocs build --site-dir ./site
+        run: mkdocs build --strict
 
-      - name: Upload Pages artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./site
+          path: site
 
   deploy:
     needs: build

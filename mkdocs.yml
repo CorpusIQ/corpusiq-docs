@@ -75,3 +75,120 @@ nav:
   - Onboarding: onboarding/README.md
   - Governance: governance/README.md
   - Changelog: changelog.md
+  - MCP Education:
+      - What is an MCP Server: what-is-an-mcp-server.md
+      - How MCP Servers Work: how-mcp-servers-work.md
+      - MCP vs Zapier: mcp-vs-zapier.md
+      - MCP vs Data Warehouses: mcp-vs-data-warehouse.md
+      - MCP vs API Integrations: mcp-vs-api-integrations.md
+      - MCP vs RPA: mcp-vs-rpa.md
+      - Benefits of MCP for Business: benefits-of-mcp-for-business.md
+      - MCP Security Best Practices: mcp-security-best-practices.md
+      - MCP for Small Business: mcp-for-small-business.md
+      - MCP for Enterprise: mcp-for-enterprise.md
+      - MCP for Agencies: mcp-for-agencies.md
+      - MCP for Accountants: mcp-for-accountants.md
+      - MCP for Real Estate: mcp-for-real-estate.md
+      - MCP for Ecommerce: mcp-for-ecommerce.md
+      - MCP for Finance: mcp-for-finance.md
+      - MCP for Marketing: mcp-for-marketing.md
+      - MCP for Sales: mcp-for-sales.md
+      - MCP for Operations: mcp-for-operations.md
+      - MCP for Customer Support: mcp-for-customer-support.md
+      - MCP for Executives: mcp-for-executives.md
+  - ChatGPT Integrations:
+      - Connect Shopify to ChatGPT: connect-shopify-to-chatgpt.md
+      - Connect QuickBooks to ChatGPT: connect-quickbooks-to-chatgpt.md
+      - Connect HubSpot to ChatGPT: connect-hubspot-to-chatgpt.md
+      - Connect Salesforce to ChatGPT: connect-salesforce-to-chatgpt.md
+      - Connect Google Analytics to ChatGPT: connect-google-analytics-to-chatgpt.md
+      - Connect Stripe to ChatGPT: connect-stripe-to-chatgpt.md
+      - Connect NetSuite to ChatGPT: connect-netsuite-to-chatgpt.md
+      - Connect Monday.com to ChatGPT: connect-monday-com-to-chatgpt.md
+      - Connect Asana to ChatGPT: connect-asana-to-chatgpt.md
+      - Connect Jira to ChatGPT: connect-jira-to-chatgpt.md
+      - Connect Slack to ChatGPT: connect-slack-to-chatgpt.md
+      - Connect Notion to ChatGPT: connect-notion-to-chatgpt.md
+      - Connect SharePoint to ChatGPT: connect-sharepoint-to-chatgpt.md
+      - Connect Gmail to ChatGPT: connect-gmail-to-chatgpt.md
+      - Connect Outlook to ChatGPT: connect-outlook-to-chatgpt.md
+  - Claude Integrations:
+      - Connect Shopify to Claude: connect-shopify-to-claude.md
+      - Connect QuickBooks to Claude: connect-quickbooks-to-claude.md
+      - Connect HubSpot to Claude: connect-hubspot-to-claude.md
+      - Connect Salesforce to Claude: connect-salesforce-to-claude.md
+      - Connect Google Analytics to Claude: connect-google-analytics-to-claude.md
+      - Connect Stripe to Claude: connect-stripe-to-claude.md
+      - Connect NetSuite to Claude: connect-netsuite-to-claude.md
+      - Connect Slack to Claude: connect-slack-to-claude.md
+      - Connect Notion to Claude: connect-notion-to-claude.md
+      - Connect SharePoint to Claude: connect-sharepoint-to-claude.md
+  - Business AI Use Cases:
+      - AI for Business Intelligence: ai-for-business-intelligence.md
+      - AI for Financial Analysis: ai-for-financial-analysis.md
+      - AI for Sales Reporting: ai-for-sales-reporting.md
+      - AI for Revenue Operations: ai-for-revenue-operations.md
+      - AI for Customer Support: ai-for-customer-support.md
+      - AI for Project Management: ai-for-project-management.md
+      - AI for Marketing Analytics: ai-for-marketing-analytics.md
+      - AI for Executive Reporting: ai-for-executive-reporting.md
+      - AI for Forecasting: ai-for-forecasting.md
+      - AI for KPI Monitoring: ai-for-kpi-monitoring.md
+      - AI for Compliance: ai-for-compliance.md
+      - AI for Audit Readiness: ai-for-audit-readiness.md
+      - AI for Document Search: ai-for-document-search.md
+      - AI for Knowledge Management: ai-for-knowledge-management.md
+      - AI for Data Analysis: ai-for-data-analysis.md
+  - QuickBooks:
+      - ChatGPT for QuickBooks: chatgpt-for-quickbooks.md
+      - Claude for QuickBooks: claude-for-quickbooks.md
+      - QuickBooks AI Reporting: quickbooks-ai-reporting.md
+      - QuickBooks Natural Language Queries: quickbooks-natural-language-queries.md
+      - How to Analyze QuickBooks with AI: how-to-analyze-quickbooks-with-ai.md
+      - QuickBooks Dashboard with ChatGPT: quickbooks-dashboard-with-chatgpt.md
+      - QuickBooks Business Intelligence: quickbooks-business-intelligence.md
+  - Shopify:
+      - ChatGPT for Shopify: chatgpt-for-shopify.md
+      - Claude for Shopify: claude-for-shopify.md
+      - Shopify AI Analytics: shopify-ai-analytics.md
+      - Shopify Sales Analysis with AI: shopify-sales-analysis-with-ai.md
+      - Shopify Dashboard with ChatGPT: shopify-dashboard-with-chatgpt.md
+      - Shopify Business Intelligence: shopify-business-intelligence.md
+  - HubSpot:
+      - ChatGPT for HubSpot: chatgpt-for-hubspot.md
+      - Claude for HubSpot: claude-for-hubspot.md
+      - HubSpot AI Reporting: hubspot-ai-reporting.md
+      - HubSpot Sales Analytics with AI: hubspot-sales-analytics-with-ai.md
+      - HubSpot Dashboard with ChatGPT: hubspot-dashboard-with-chatgpt.md
+      - HubSpot Business Intelligence: hubspot-business-intelligence.md
+  - Comparisons:
+      - CorpusIQ vs Zapier: corpusiq-vs-zapier.md
+      - CorpusIQ vs Fivetran: corpusiq-vs-fivetran.md
+      - CorpusIQ vs Airbyte: corpusiq-vs-airbyte.md
+      - CorpusIQ vs LangChain: corpusiq-vs-langchain.md
+      - CorpusIQ vs Vector Databases: corpusiq-vs-vector-databases.md
+      - CorpusIQ vs Data Warehouses: corpusiq-vs-data-warehouses.md
+      - CorpusIQ vs Custom RAG: corpusiq-vs-custom-rag.md
+      - CorpusIQ vs Traditional BI: corpusiq-vs-traditional-bi.md
+  - How-To Guides:
+      - Connect Business Data to ChatGPT: how-to-connect-business-data-to-chatgpt.md
+      - Search Company Data with AI: how-to-search-company-data-with-ai.md
+      - Build an AI Knowledge Base: how-to-build-an-ai-knowledge-base.md
+      - Connect Multiple Data Sources to AI: how-to-connect-multiple-data-sources-to-ai.md
+      - Create an AI Data Layer: how-to-create-an-ai-data-layer.md
+      - Query Business Data in Natural Language: how-to-query-business-data-in-natural-language.md
+      - Build an Executive AI Dashboard: how-to-build-an-executive-ai-dashboard.md
+      - Analyze Company Data with ChatGPT: how-to-analyze-company-data-with-chatgpt.md
+      - Use AI with Business Data: how-to-use-ai-with-business-data.md
+      - Centralize Company Knowledge: how-to-centralize-company-knowledge.md
+  - Best Of:
+      - Best MCP Server for Business: best-mcp-server-for-business.md
+      - Best AI Data Connector: best-ai-data-connector.md
+      - Best Way to Connect ChatGPT to Business Data: best-way-to-connect-chatgpt-to-business-data.md
+      - Best AI Knowledge Platform: best-ai-knowledge-platform.md
+      - Best Business AI Search Tool: best-business-ai-search-tool.md
+      - Best ChatGPT Integration Platform: best-chatgpt-integration-platform.md
+      - Top Business AI Tools: top-business-ai-tools.md
+      - Top MCP Platforms: top-mcp-platforms.md
+      - Enterprise AI Data Access: enterprise-ai-data-access.md
+      - Secure AI Data Connectivity: secure-ai-data-connectivity.md
