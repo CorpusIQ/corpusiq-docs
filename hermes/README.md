@@ -84,7 +84,7 @@ hermes cron create --prompt "Check email every 15 minutes, classify leads, respo
 # 6. Go deeper with the content guides below
 ```
 
-**Next steps:** [Full Setup Guide](/hermes/content/setup/) · [Infrastructure](/hermes/content/infrastructure/) · [Governance](/hermes/content/governance/)
+**Next steps:** [Full Setup Guide](/hermes/setup/) · [Infrastructure](/hermes/infrastructure/) · [Governance](/hermes/governance/)
 
 ---
 
@@ -116,7 +116,7 @@ Most Hermes setups are single-machine, human-driven chat loops. Production requi
 └─────────────────────────────────────────────────────────────┘
 ```
 
-**Read the full architecture:** [content/architecture.md](/hermes/content/architecture.md)
+**Read the full architecture:** [content/architecture.md](/hermes/architecture/)
 
 ### Multi-Machine Deployment
 
@@ -127,7 +127,7 @@ Most Hermes setups are single-machine, human-driven chat loops. Production requi
 
 **Why two machines?** Browser automation is noisy, GPU-hungry, and crash-prone. Offloading it to a dedicated worker keeps the primary agent stable. SSH orchestration between nodes is zero-config with Hermes profiles.
 
-[Full deployment guide →](/hermes/content/infrastructure/)
+[Full deployment guide →](/hermes/infrastructure/)
 
 ---
 
@@ -169,7 +169,7 @@ Session End (or every 30 min)
     └── Session DB: Auto-logged by Hermes
 ```
 
-**Read the full memory guide →** [content/knowledge/](/hermes/content/knowledge/)
+**Read the full memory guide →** [content/knowledge/](/hermes/knowledge/)
 
 ### Memory: Why Not Just Vector DB?
 
@@ -222,7 +222,7 @@ Hermes Agent ships with a built-in skill system. Skills are reusable, self-conta
 | **[tlehman/litprog-skill](https://github.com/tlehman/litprog-skill)** | 75+ stars | Literate programming support |
 | **This repo** | `/content/skills/` | Production-tested, CorpusIQ-optimized |
 
-[Full skills catalog →](/hermes/content/skills/)
+[Full skills catalog →](/hermes/skills/)
 
 ---
 
@@ -264,7 +264,7 @@ hermes mcp add corpusiq -- url https://mcp2.corpusiq.io/mcp
 | **[hermes-studio](https://github.com/EKKOLearnAI/hermes-studio)** | Web dashboard | `hermes mcp add hermes-studio` |
 | **[EverOS](https://github.com/EverMind-AI/EverOS)** | Self-evolving memory | Standalone service |
 
-[Full MCP guide →](/hermes/content/mcp/)
+[Full MCP guide →](/hermes/mcp/)
 
 ### MCP Directory Submissions
 
@@ -328,7 +328,7 @@ We maintain CorpusIQ listings across MCP directories:
 23:00 ██ Daily self-improvement
 ```
 
-**Every line is a cron you can copy.** [Full cron reference →](/hermes/content/governance/scheduling/)
+**Every line is a cron you can copy.** [Full cron reference →](/hermes/governance/scheduling/)
 
 ---
 
@@ -383,7 +383,7 @@ Not every task needs Claude Opus. Our cost-optimized routing saves ~65% vs premi
 | Research, content, coding | DeepSeek V4 | ~$0.01 |
 | Strategy, architecture, contracts | Claude Opus | ~$0.05 |
 
-[Full deployment documentation →](/hermes/content/infrastructure/)
+[Full deployment documentation →](/hermes/infrastructure/)
 
 ---
 
@@ -419,7 +419,7 @@ SCP to Mac Mini → Postiz Upload → TikTok + Instagram + YouTube Shorts
 
 Morning (6 AM), Midday (9 AM), Afternoon (3 PM). X + LinkedIn Page via Postiz. All posts are help-first — solve operator problems before mentioning product.
 
-[Full content operations guide →](/hermes/content/content-ops/)
+[Full content operations guide →](/hermes/content-ops/)
 
 ---
 
@@ -449,7 +449,7 @@ Every 15 minutes:
 
 Reviews the day's mistakes from IMPROVEMENT_LOG.md, patches affected skills, updates memory with learned corrections. The system gets better every night.
 
-[Full governance documentation →](/hermes/content/governance/)
+[Full governance documentation →](/hermes/governance/)
 
 ---
 

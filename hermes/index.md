@@ -123,9 +123,9 @@ Autonomous content creation and publishing.
 [Read troubleshooting →](/hermes/troubleshooting/)
 
 ### 13. Ecosystem
-**[Hermes Ecosystem](/hermes/ecosystem/)** — Tools, libraries, research, dashboards, and community resources. Everything that extends Hermes.
+**[Hermes Ecosystem](/hermes/ecosystem.md)** — Tools, libraries, research, dashboards, and community resources. Everything that extends Hermes.
 
-[Browse ecosystem →](/hermes/ecosystem/)
+[Browse ecosystem →](/hermes/ecosystem.md)
 
 ### 14. Changelog
 **[Version History](/hermes/changelog/)** — What changed and when.

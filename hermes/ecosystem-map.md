@@ -156,7 +156,7 @@ xychart-beta
 | 9 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | 28,359 | Orchestration |
 | 10 | [garrytan/gbrain](https://github.com/garrytan/gbrain) | 22,991 | Memory |
 
-[Full 121+ repo directory →](/hermes/ecosystem/)
+[Full 121+ repo directory →](/hermes/ecosystem.md)
 
 ## Data Flow
 
@@ -196,4 +196,4 @@ graph LR
 
 ---
 
-*Last updated: June 16, 2026 · [View full ecosystem →](/hermes/ecosystem/) · [Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)*
+*Last updated: June 16, 2026 · [View full ecosystem →](/hermes/ecosystem.md) · [Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)*

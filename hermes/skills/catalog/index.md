@@ -384,7 +384,7 @@ ClawPilot bridges PocketClaw (iOS mobile app) to Hermes Agent, OpenClaw, and cc-
 | `clawpilot-config` | 21 | Validate and fix host configuration for pairing, auth, and host-side operations |
 | `clawpilot-doctor` | 20 | Diagnose and repair ClawPilot host issues — status, logs, restart, update, self-repair |
 
-→ [📖 Full Setup Guide: ClawPilot Ecosystem](/hermes/skills/catalog/clawpilot-ecosystem-setup/)  
+→ [📖 Full Setup Guide: ClawPilot Ecosystem](/hermes/skills/catalog/clawpilot-ecosystem-setup.md)  
 → [🔍 June 16 Discovery Page](/hermes/skills/marketplace/new-june16-2026/)
 
 ### 🆕 OpenClaw Ecosystem — 23 skills (June 11, 2026 Evening)
@@ -436,7 +436,7 @@ Independent community contributions with Hermes integration.
 | `hermess/ppt-director@ppt-director` | 82 | PowerPoint generation from Hermes |
 | `chujianyun/skills@hermes-qq` | 51 | QQ (Tencent) bot integration |
 | `skills.volces.com@hermes-install` | 17 | ByteDance/Volces Hermes installer
-| `soul-grader` | 25⭐ | SOUL.md identity grader — research-backed rubric for Hermes agent identity files | [Setup Guide](/hermes/skills/catalog/soul-grader-setup/) |
+| `soul-grader` | 25⭐ | SOUL.md identity grader — research-backed rubric for Hermes agent identity files | [Setup Guide](/hermes/skills/catalog/soul-grader-setup.md) |
 
 **Install:** `npx skills add cobibean/soul-grader-skill` (for soul-grader), `npx skills add dandacompany/hermes-skill@hermes`, etc. See the [June 11 Discoveries](/hermes/skills/marketplace/new-june11-2026/) page for full details.
 
@@ -485,19 +485,19 @@ Full SKILL.md files for every skill. See individual files for setup, triggers, a
 
 | Category | Skills |
 |----------|--------|
-| Google Workspace | [gws-gmail](google-workspace/gws-gmail) · [gws-drive](google-workspace/gws-drive) · [gws-docs](google-workspace/gws-docs) · [gws-calendar](google-workspace/gws-calendar) · [gws-workflow-email-to-task](google-workspace/gws-workflow-email-to-task) · [gws-recipe-save-attachments](google-workspace/gws-recipe-save-email-attachments) · [gws-persona-content-creator](google-workspace/gws-persona-content-creator) · [gws-draft-email-from-doc](google-workspace/gws-draft-email-from-doc) |
-| Firecrawl | [firecrawl](firecrawl/firecrawl) · [firecrawl-scrape](firecrawl/firecrawl-scrape) · [firecrawl-search](firecrawl/firecrawl-search) · [firecrawl-agent](firecrawl/firecrawl-agent) |
-| Stripe | [stripe-best-practices](stripe/stripe-best-practices) · [upgrade-stripe](stripe/upgrade-stripe) · [stripe-projects](stripe/stripe-projects) |
-| Firebase | [firebase-basics](firebase/firebase-basics) · [firebase-auth-basics](firebase/firebase-auth-basics) · [firebase-hosting-basics](firebase/firebase-hosting-basics) · [firebase-security-rules-auditor](firebase/firebase-security-rules-auditor) · [firestore-security-rules-auditor](firebase/firestore-security-rules-auditor) |
-| Supabase | [supabase-postgres-best-practices](supabase/supabase-postgres-best-practices) · [supabase](supabase/supabase) |
-| Shopify | [shopify-admin](shopify/shopify-admin) · [shopify-dev](shopify/shopify-dev) · [shopify-liquid](shopify/shopify-liquid) · [shopify-storefront-graphql](shopify/shopify-storefront-graphql) · [shopify-hydrogen](shopify/shopify-hydrogen) · [shopify-functions](shopify/shopify-functions) |
-| Prisma | [prisma-database-setup](prisma/prisma-database-setup) · [prisma-client-api](prisma/prisma-client-api) · [prisma-cli](prisma/prisma-cli) |
-| LangGraph | [langgraph-persistence](langgraph/langgraph-persistence) · [langgraph-human-in-the-loop](langgraph/langgraph-human-in-the-loop) · [deep-agents-memory](langgraph/deep-agents-memory) |
-| ElevenLabs | [text-to-speech](elevenlabs/text-to-speech) · [speech-to-text](elevenlabs/speech-to-text) |
-| Claude Office | [excel-automation](claude-office/excel-automation) · [pdf-extraction](claude-office/pdf-extraction) · [crm-automation](claude-office/crm-automation) · [airtable-automation](claude-office/airtable-automation) |
-| Communication | [whatsapp-automation](communication/whatsapp-automation) · [telegram-bot](communication/telegram-bot) · [linkedin-automation](communication/linkedin-automation) · [discord-bot](communication/discord-bot) |
-| Infrastructure | [playwright-cli](infrastructure/playwright-cli) · [playwright-best-practices](infrastructure/playwright-best-practices) · [neon-postgres](infrastructure/neon-postgres) · [kubernetes-specialist](infrastructure/kubernetes-specialist) · [devops-engineer](infrastructure/devops-engineer) · [monitoring-expert](infrastructure/monitoring-expert) |
-| Platform | [notion-api](platform/notion-api) · [expo-deployment](platform/expo-deployment) · [seo-geo](platform/seo-geo) |
+| Google Workspace | [gws-gmail](google-workspace/gws-gmail.md) · [gws-drive](google-workspace/gws-drive.md) · [gws-docs](google-workspace/gws-docs.md) · [gws-calendar](google-workspace/gws-calendar.md) · [gws-workflow-email-to-task](google-workspace/gws-workflow-email-to-task.md) · [gws-recipe-save-attachments](google-workspace/gws-recipe-save-email-attachments.md) · [gws-persona-content-creator](google-workspace/gws-persona-content-creator.md) · [gws-draft-email-from-doc](google-workspace/gws-draft-email-from-doc.md) |
+| Firecrawl | [firecrawl](firecrawl/firecrawl.md) · [firecrawl-scrape](firecrawl/firecrawl-scrape.md) · [firecrawl-search](firecrawl/firecrawl-search.md) · [firecrawl-agent](firecrawl/firecrawl-agent.md) |
+| Stripe | [stripe-best-practices](stripe/stripe-best-practices.md) · [upgrade-stripe](stripe/upgrade-stripe.md) · [stripe-projects](stripe/stripe-projects.md) |
+| Firebase | [firebase-basics](firebase/firebase-basics.md) · [firebase-auth-basics](firebase/firebase-auth-basics.md) · [firebase-hosting-basics](firebase/firebase-hosting-basics.md) · [firebase-security-rules-auditor](firebase/firebase-security-rules-auditor.md) · [firestore-security-rules-auditor](firebase/firestore-security-rules-auditor.md) |
+| Supabase | [supabase-postgres-best-practices](supabase/supabase-postgres-best-practices.md) · [supabase](supabase/supabase.md) |
+| Shopify | [shopify-admin](shopify/shopify-admin.md) · [shopify-dev](shopify/shopify-dev.md) · [shopify-liquid](shopify/shopify-liquid.md) · [shopify-storefront-graphql](shopify/shopify-storefront-graphql.md) · [shopify-hydrogen](shopify/shopify-hydrogen.md) · [shopify-functions](shopify/shopify-functions.md) |
+| Prisma | [prisma-database-setup](prisma/prisma-database-setup.md) · [prisma-client-api](prisma/prisma-client-api.md) · [prisma-cli](prisma/prisma-cli.md) |
+| LangGraph | [langgraph-persistence](langgraph/langgraph-persistence.md) · [langgraph-human-in-the-loop](langgraph/langgraph-human-in-the-loop.md) · [deep-agents-memory](langgraph/deep-agents-memory.md) |
+| ElevenLabs | [text-to-speech](elevenlabs/text-to-speech.md) · [speech-to-text](elevenlabs/speech-to-text.md) |
+| Claude Office | [excel-automation](claude-office/excel-automation.md) · [pdf-extraction](claude-office/pdf-extraction.md) · [crm-automation](claude-office/crm-automation.md) · [airtable-automation](claude-office/airtable-automation.md) |
+| Communication | [whatsapp-automation](communication/whatsapp-automation.md) · [telegram-bot](communication/telegram-bot.md) · [linkedin-automation](communication/linkedin-automation.md) · [discord-bot](communication/discord-bot.md) |
+| Infrastructure | [playwright-cli](infrastructure/playwright-cli.md) · [playwright-best-practices](infrastructure/playwright-best-practices.md) · [neon-postgres](infrastructure/neon-postgres.md) · [kubernetes-specialist](infrastructure/kubernetes-specialist.md) · [devops-engineer](infrastructure/devops-engineer.md) · [monitoring-expert](infrastructure/monitoring-expert.md) |
+| Platform | [notion-api](platform/notion-api.md) · [expo-deployment](platform/expo-deployment.md) · [seo-geo](platform/seo-geo.md) |
 
 ### 🆕 Hermes Security & UI — 3 skills (June 12, 2026)
 
