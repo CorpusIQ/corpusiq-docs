@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 15, 2026 (evening sweep) · **Sources:** mcp.so (22,342 servers), mcpservers.org (9,127+)
+> **Last updated:** June 16, 2026 (early morning sweep) · **Sources:** mcp.so (22,357+ servers), mcpservers.org (9,130+)
 
 ---
 
@@ -246,6 +246,9 @@ AI video ad production MCP — 107 tools for UGC concepts, AI avatars, Veo 3 vid
 
 ### Blog2Video ★ New
 URL-to-video conversion MCP — turn any blog post or article into video in under 3 minutes. For content operators who need rapid video repurposing for social channels.
+
+### CYBERDYNE ★ New
+Engagement marketplace on Base, native to the Bankr ecosystem: AI agents and communities fund quests (follows, reposts, replies, quotes, original posts) and verified-X humans complete them, paid per approved action from a non-custodial escrow in USDC or Bankr-launched tokens. For marketing operators running engagement campaigns with AI-managed budgets and verified outcomes.
 
 ---
 
@@ -524,6 +527,18 @@ Universal remote for AI: one MCP install gives any compatible agent 450+ callabl
 ### FileToPDF ★ Official ★ New
 Convert files (DOCX, XLSX, PPTX, images), HTML, and Markdown to pixel-perfect PDFs. npx stdio or hosted Streamable HTTP. Free API key in one click. Essential for operators generating reports, invoices, and documents programmatically. `npx -y @filetopdf/mcp`
 
+### PDFGate ★ New
+Generate documents, process PDFs, and manage e-signature workflows via MCP. Full document lifecycle from AI agents — create, convert, sign, and distribute. Essential for operators managing contracts, proposals, and legal documents from their AI workflow.
+
+### ProposalCraft ★ New
+MCP server that drafts winning client proposals in the operator's own voice — no API key required, runs locally. For consultants, agencies, and service providers who want AI to draft proposals from their MCP client.
+
+### ProductNow ★ New
+Turn prototype feedback into traceable product decisions. Connect user feedback loops directly to product roadmaps from any MCP client. For product operators who want AI-assisted feedback-to-decision workflows.
+
+### Collaboard MCP Server ★ New
+Create, search, analyze, and transform whiteboards into visual, collaborative workspaces from AI assistants. For operators running remote workshops, brainstorming sessions, and visual planning from MCP clients.
+
 ### MindMeister MCP ★ Official ★ New
 Create, edit, and organize mind maps from any AI assistant. Remote hosted MCP at `mcp.mindmeister.com/mcp`. Visual brainstorming and knowledge mapping via MCP. Streamable HTTP transport.
 
@@ -541,6 +556,9 @@ Connect AI agents to Flomo notes for knowledge management. Capture ideas, meetin
 
 ### Smart Match ★ New
 AI-powered job matching and application tracker. Analyze job listings against your resume, get a match score (0-100), identify skill gaps, generate cover letters, and track your application pipeline. Ideal for recruitment operators and job seekers.
+
+### DevMatch ★ New
+AI recruiting for mission-aligned engineers — verified across GitHub, X, YouTube, Medium, and more. For operators who want AI to screen candidates against actual engineering output, not just resumes.
 
 ### Capafy ★ Sponsor ★ New
 Marketplace for monetizing agent skills as products. On Capafy, your Skill runs online 24/7 as an agent product, and you get paid every time someone uses it. The "App Store for agent skills" — build once, earn continuously.
@@ -1000,6 +1018,20 @@ Local-first MCP server that gives AI coding assistants persistent session memory
 | Zentric Protocol | Security/Compliance | Prompt injection detection (22 signatures, 7 languages) + PII screening with signed audit records. GDPR Art. 30. |
 
 
+## New This Week (June 16, 2026 — early morning sweep)
+
+### 6 new servers from mcp.so Latest + mcpservers.org Finance/Marketing/Productivity
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| PDFGate | Productivity/Legal | Generate documents, process PDFs, and manage e-signature workflows via MCP. Full document lifecycle from AI agents. |
+| ProposalCraft | Productivity | MCP server that drafts winning client proposals in the operator's own voice — no API key, runs locally. |
+| ProductNow | Productivity | Turn prototype feedback into traceable product decisions. Connect user feedback loops to product roadmaps. |
+| Collaboard MCP Server | Productivity | Create, search, and transform whiteboards into visual collaborative workspaces from AI assistants. |
+| DevMatch | Productivity/HR | AI recruiting for mission-aligned engineers — verified across GitHub, X, YouTube, Medium. |
+| CYBERDYNE | Marketing/Engagement | Engagement marketplace on Base — AI agents fund quests, verified humans complete them, paid per action in USDC/tokens. |
+
+
 ## Previous Additions (June 10, 2026 — sweep 2)
 | Server | Category | Description |
 |--------|----------|-------------|
@@ -1030,7 +1062,8 @@ Local-first MCP server that gives AI coding assistants persistent session memory
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Business Identity, Compliance, Business Ops, GTM/Sales Intelligence, SEO & AI Visibility, Marketing & Social Ops, etc.)
 - **New this cycle (June 15 morning):** 14 newly catalogued servers — Stackql, Kailo Sheets, RealMarketAPI, Toksta, FinData, Feedback Synthesis, MCP Billing Gateway, Demiton, dochost, Zerno Lite, Niche, Assetlog.ai, SynaMCPs, EverAlice AI
 - **New this cycle (June 15 evening):** 25 newly catalogued servers — GoldLegal, Lovie, FiatDock, signer-mcp, invinoveritas, Personal Finance MCP, ACCRUE, Periodix Actions, Forward, Etymolt, Eclincher, SendPulse MCP, Feedoptimise, Adology AI, Convika, HYPD.AI, Orcool Studio, Blog2Video, FoundersOS, Historis, Localecheck, ADP, SEOcrawl AI, Semust, ShopBot AI, Zentric Protocol
-- **Cumulative since June 9:** 175 MCP servers catalogued across 16 sweeps
+- **New this cycle (June 16 early morning):** 6 newly catalogued servers — PDFGate, ProposalCraft, ProductNow, Collaboard, DevMatch, CYBERDYNE
+- **Cumulative since June 9:** 181 MCP servers catalogued across 17 sweeps
 
 ---
 
