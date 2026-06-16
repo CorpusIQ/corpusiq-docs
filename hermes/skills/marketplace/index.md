@@ -1,226 +1,174 @@
 ---
-title: Skills.sh Marketplace — CorpusIQ Selection
-description: Curated skills from skills.sh for Hermes agents. 217 skills across 22 categories: marketing, web scraping, MCP dev, testing, Stripe, Shopify, LangGraph, infrastructure, communication, orchestration, DevOps, integrations, and more.
+title: Skills Marketplace
+description: Discover and install community skills from skills.sh — 290+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 ---
 
-# Skills.sh Marketplace
+# Skills Marketplace
 
-Skills are reusable AI agent capabilities from [skills.sh](https://skills.sh). Install with `npx skills add <owner/repo@skill>`.
+The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh) — install with a single command and use immediately.
 
-## Marketing & Growth — 43 skills from marketingskills
+**290+ curated skills across 22 categories.** Updated weekly as new skills are published.
 
-[coreyhaines31/marketingskills](https://skills.sh/coreyhaines31/marketingskills) is the top marketing skill pack with 1.8M+ total installs. Every skill is production-ready.
+## How to Discover Skills
 
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| seo-audit | 132K | Full SEO audit: crawl issues, rankings, content gaps |
-| copywriting | 122K | Marketing copy: landing pages, ads, emails |
-| marketing-psychology | 90K | Persuasion patterns and cognitive biases |
-| content-strategy | 86K | Multi-channel content planning |
-| programmatic-seo | 83K | SEO pages at scale via data-driven templates |
-| marketing-ideas | 80K | Creative campaigns and growth experiments |
-| copy-editing | 76K | Polish and improve existing copy |
-| ai-seo | 70K | AI-powered search optimization |
-| social-content | 67K | Social media posts: X, LinkedIn, Instagram |
-| ad-creative | 63K | Ad creative for Meta, Google, LinkedIn |
-| cold-email | 63K | B2B cold email sequences |
-| product-marketing-context | 62K | Positioning and messaging |
-| pricing-strategy | 62K | Value-based pricing frameworks |
-| site-architecture | 60K | Information architecture and internal linking |
-| churn-prevention | 60K | Retention analysis and intervention plans |
-| sales-enablement | 59K | Sales collateral: decks, one-pagers, battlecards |
-| analytics-tracking | 58K | GA4, Mixpanel, PostHog event taxonomies |
-| page-cro | 58K | Landing page conversion optimization |
-| revops | 57K | Revenue operations and pipeline analysis |
-| launch-strategy | 56K | Product launch planning |
-| schema-markup | 56K | Structured data for rich results |
-| email-sequence | 55K | Automated email nurture sequences |
-| paid-ads | 55K | Paid campaign strategy and management |
-| competitor-alternatives | 54K | Competitive analysis and positioning |
-| onboarding-cro | 54K | Post-signup flow optimization |
-| form-cro | 53K | Form design for conversion |
-| free-tool-strategy | 53K | Free tool lead generation |
-| referral-program | 53K | Viral referral mechanics |
-| ab-test-setup | 52K | A/B testing frameworks |
-| lead-magnets | 52K | Resource-based lead capture |
-| signup-flow-cro | 52K | Sign-up conversion optimization |
-| paywall-upgrade-cro | 52K | Pricing page and upgrade conversion |
-| popup-cro | 51K | Modal optimization |
-| customer-research | 46K | User interviews, surveys, analysis |
-| competitor-profiling | 29K | Deep competitor research |
-| community-marketing | 28K | Community building strategy |
-| directory-submissions | 27K | Startup directory listing |
-| image | 27K | Marketing image creation |
-| video | 26K | Marketing video production |
-| co-marketing | 20K | Partnership marketing |
-| aso-audit | 18K | App Store optimization |
-| prospecting | 16K | Lead sourcing and qualification |
-| product-marketing | 17K | Full product marketing strategy |
+### Browse by Category
 
-## Agent Infrastructure — 6 skills
+The marketplace organizes skills into functional categories. Click any category to jump to the detailed listing:
 
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| [vercel-labs/agent-browser](https://skills.sh/vercel-labs/agent-browser) | 432K | Browser automation via Playwright (used by CorpusIQ) |
-| [vercel-labs/agent-skills@web-design-guidelines](https://skills.sh/vercel-labs/agent-skills) | 377K | Web UI best practices |
-| [vercel-labs/agent-skills@vercel-react-best-practices](https://skills.sh/vercel-labs/agent-skills) | 462K | React patterns and conventions |
-| [vercel-labs/agent-skills@vercel-composition-patterns](https://skills.sh/vercel-labs/agent-skills) | 205K | Vercel composition architecture |
-| [xixu-me/skills@use-my-browser](https://skills.sh/xixu-me/skills) | 200K | Browser session reuse |
-| [browser-use/skills@browser-act](https://skills.sh/browser-act/skills) | 29K | Browser-act automation |
+| Category | Skills | Top Picks |
+|----------|:------:|-----------|
+| [Marketing & Growth](#marketing--growth) | 45 | `seo-audit` (132K), `copywriting` (122K), `content-strategy` (86K) |
+| [Development & GitHub](#development--github) | 10 | `requesting-code-review` (121K), `github-actions-docs` (206K) |
+| [Agent Infrastructure](#agent-infrastructure) | 8 | `agent-browser` (432K), `web-design-guidelines` (377K) |
+| [MCP & API Integration](#mcp--api-integration) | 5 | `mcp-builder` (71K), `claude-api` (37K) |
+| [Code Quality & Review](#code-quality--review) | 4 | `code-review-excellence` (22K), `python-testing-patterns` (24K) |
+| [Testing & QA](#testing--qa) | 4 | `webapp-testing` (92K), `e2e-testing-patterns` (18K) |
+| [Content & Social](#content--social) | 5 | `persona-content-creator` (17K), `social-publisher` (3K) |
+| [AI Media](#ai-media) | 5 | `frontend-design` (521K), `video-edit` (217K) |
+| [Operations & Productivity](#operations--productivity) | 5 | `email-to-task` (18K), `changelog-automation` (9K) |
+| [Orchestration & RAG](#orchestration--rag) | 6 | `rag-implementation` (9.5K), `langchain-rag` (8.6K) |
+| [Infrastructure & DevOps](#infrastructure--devops) | 5 | `neon-postgres` (40.3K), `docker-expert` (18.9K) |
+| [Platform Integrations](#platform-integrations) | 11 | `notion-api` (42.1K), `agent-email-inbox` (3.3K) |
+| [Communication Bots](#communication-bots) | 4 | `whatsapp-automation` (3.4K), `telegram-bot` (3.1K) |
+| [Hermes Agent Variants](#hermes-agent-variants) | 30 | `dogfood` (3.6K), `claude-code` (131) |
+| [Hermes Ecosystem](#hermes-ecosystem) | 20 | `hermes-webui-agent` (193), `hermes-desktop-companion` (152) |
+| [Security Suite](#security-suite) | 16 | `skill-auditor` (590), `setup-auditor` (384) |
 
-## MCP & API Integration — 5 skills
+### Check Trending Skills
 
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| [anthropics/skills@mcp-builder](https://skills.sh/anthropics/skills) | 71K | Build MCP servers (used by CorpusIQ) |
-| [mcp-use/mcp-use@mcp-apps-builder](https://skills.sh/mcp-use/mcp-use) | 15K | MCP application prototyping |
-| [github/awesome-copilot@mcp-cli](https://skills.sh/github/awesome-copilot) | 9K | MCP CLI tooling |
-| [anthropics/skills@claude-api](https://skills.sh/anthropics/skills) | 37K | Claude API patterns |
-| [apify/agent-skills@apify-ultimate-scraper](https://skills.sh/apify/agent-skills) | 12K | Web scraping at scale |
+Install count is the best signal of a skill's usefulness. Here are the top marketplace skills by installs:
 
-## Code Quality & Review — 4 skills
+| Skill | Installs | What It Does |
+|-------|----------|-------------|
+| `frontend-design` | 521K | Design and UI generation |
+| `vercel-react-best-practices` | 462K | React patterns and conventions |
+| `agent-browser` | 432K | Browser automation via Playwright |
+| `web-design-guidelines` | 377K | Web UI best practices |
+| `video-edit` | 217K | AI video editing |
+| `vercel-composition-patterns` | 205K | Vercel composition architecture |
+| `github-actions-docs` | 206K | GitHub Actions reference |
+| `use-my-browser` | 200K | Browser session reuse |
+| `seo-audit` | 132K | Full SEO audit |
+| `copywriting` | 122K | Marketing copy generation |
 
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| [obra/superpowers@requesting-code-review](https://skills.sh/obra/superpowers) | 121K | How to request effective code review |
-| [obra/superpowers@receiving-code-review](https://skills.sh/obra/superpowers) | 98K | How to give and receive review |
-| [wshobson/agents@code-review-excellence](https://skills.sh/wshobson/agents) | 22K | Review standards and patterns |
-| [wshobson/agents@python-testing-patterns](https://skills.sh/wshobson/agents) | 24K | Python test patterns |
+New skills take time to accumulate installs. Don't dismiss a 500-install skill — it might be the best tool for a specific problem. Check the skill's README and `SKILL.md` for quality signals: clear trigger conditions, specific tools required, concrete outputs.
 
-## Testing & QA — 4 skills
+### Search by Use Case
 
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| [anthropics/skills@webapp-testing](https://skills.sh/anthropics/skills) | 92K | Browser-based app testing |
-| [wshobson/agents@e2e-testing-patterns](https://skills.sh/wshobson/agents) | 18K | End-to-end test design |
-| [wshobson/agents@javascript-testing-patterns](https://skills.sh/wshobson/agents) | 15K | JS testing patterns |
-| [github/awesome-copilot@webapp-testing](https://skills.sh/github/awesome-copilot) | 11K | Copilot-driven testing |
+Looking for something specific? The marketplace is searchable by keyword:
 
-## GitHub Workflow — 5 skills
+```bash
+# Search skills.sh API directly
+curl -s "https://skills.sh/api/skills?q=email" | jq '.'
 
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| [xixu-me/skills@github-actions-docs](https://skills.sh/xixu-me/skills) | 206K | GitHub Actions reference |
-| [github/awesome-copilot@git-commit](https://skills.sh/github/awesome-copilot) | 35K | Smart commit messages |
-| [github/awesome-copilot@gh-cli](https://skills.sh/github/awesome-copilot) | 22K | GitHub CLI mastery |
-| [github/awesome-copilot@documentation-writer](https://skills.sh/github/awesome-copilot) | 20K | Auto-documentation |
-| [github/awesome-copilot@prd](https://skills.sh/github/awesome-copilot) | 19K | PRD generation |
+# Or browse the catalog pages
+# → [Email operations →](/hermes/skills/catalog/#email-operations)
+# → [SEO skills →](/hermes/skills/catalog/#marketing--growth)
+```
 
-## Content & Social — 5 skills
+## Installing Skills
 
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| [googleworkspace/cli@persona-content-creator](https://skills.sh/googleworkspace/cli) | 17K | Branded content creation |
-| [composiohq/awesome-claude-skills@content-research-writer](https://skills.sh/composiohq/awesome-claude-skills) | 5K | Research-backed writing |
-| [apify/agent-skills@apify-content-analytics](https://skills.sh/apify/agent-skills) | 3K | Content performance analytics |
-| [claude-office-skills/skills@social-publisher](https://skills.sh/claude-office-skills/skills) | 3K | Social media publishing |
-| [langchain-ai/deepagents@social-media](https://skills.sh/langchain-ai/deepagents) | 2K | LLM-driven social |
+Every marketplace skill installs with a single command:
 
-## AI Media — 5 skills
+```bash
+# Install a skill (the @ syntax specifies which skill from the repo)
+npx skills add coreyhaines31/marketingskills@seo-audit
 
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| [doany-ai/skills@ai-avatar-video](https://skills.sh/doany-ai/skills) | 118K | AI avatar generation (like HeyGen) |
-| [doany-ai/skills@ai-video-generation](https://skills.sh/doany-ai/skills) | 118K | Text-to-video generation |
-| [doany-ai/skills@ai-image-generation](https://skills.sh/doany-ai/skills) | 118K | Text-to-image generation |
-| [agentspace-so/runcomfy-agent-skills@video-edit](https://skills.sh/agentspace-so/runcomfy-agent-skills) | 217K | AI video editing |
-| [anthropics/skills@frontend-design](https://skills.sh/anthropics/skills) | 521K | Design and UI generation |
+# Install all skills from a repo (the full pack)
+npx skills add coreyhaines31/marketingskills
 
-## Operations & Productivity — 5 skills
+# Install with automatic agent assignment
+npx skills add coreyhaines31/marketingskills@seo-audit -a hermes-agent -y
 
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| [googleworkspace/cli@gws-workflow-email-to-task](https://skills.sh/googleworkspace/cli) | 18K | Email-to-task automation |
-| [googleworkspace/cli@recipe-save-email-attachments](https://skills.sh/googleworkspace/cli) | 17K | Attachment management |
-| [wshobson/agents@changelog-automation](https://skills.sh/wshobson/agents) | 9K | Auto-changelog from commits |
-| [wshobson/agents@deployment-pipeline-design](https://skills.sh/wshobson/agents) | 9K | CI/CD pipeline design |
-| [claude-office-skills/skills@crm-automation](https://skills.sh/claude-office-skills/skills) | 3K | CRM task automation |
+# List installed marketplace skills
+hermes skills list --marketplace
 
+# Check a skill's metadata
+hermes skills inspect seo-audit
+```
+
+After installation, the skill is available in any Hermes session. Invoke it by mentioning trigger keywords or calling it directly:
+
+```
+"Run a full SEO audit on example.com"
+```
+
+## Community Submissions
+
+The marketplace grows through community contributions. To submit a skill:
+
+### 1. Publish on skills.sh
+
+Create a repository on GitHub with a `SKILL.md` file at the root. The file must follow the skills.sh format:
+
+```markdown
+---
+name: my-skill
+description: What the skill does, in one sentence
+triggers:
+  - keyword that activates it
+  - another trigger
+tools:
+  - terminal
+  - web_extract
 ---
 
-## 🆕 Hermes Agent Variants — 5 skills (June 2026)
+# Skill Name
 
-Additional variants of `nousresearch/hermes-agent`. Install with `npx skills add nousresearch/hermes-agent@<variant>`.
+## Step 1: First action
+Instructions the agent follows...
 
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| [nousresearch/hermes-agent@dogfood](https://skills.sh/nousresearch/hermes-agent) | 3.6K | Dogfood/edge build — latest Hermes features |
-| [nousresearch/hermes-agent@yuanbao](https://skills.sh/nousresearch/hermes-agent) | 443 | Hermes + Yuanbao (Tencent AI) integration |
-| [nousresearch/hermes-agent@popular-web-designs](https://skills.sh/nousresearch/hermes-agent) | 169 | Web design generation via Hermes |
-| [nousresearch/hermes-agent@llm-wiki](https://skills.sh/nousresearch/hermes-agent) | 156 | LLM knowledge base / wiki integration |
-| [nousresearch/hermes-agent@powerpoint](https://skills.sh/nousresearch/hermes-agent) | 153 | PowerPoint/presentation generation |
+## Verification
+What to check to confirm success...
+```
 
-## 🆕 Communication Platform Bots — 4 skills (June 2026)
+Publish to npm via skills.sh:
 
-Turn Hermes agents into interactive bots on major messaging platforms.
+```bash
+npx skills publish ./my-skill-repo
+```
 
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| [claude-office-skills/skills@telegram-bot](https://skills.sh/claude-office-skills/skills) | 3.1K | Telegram bot with full messaging API |
-| [claude-office-skills/skills@whatsapp-automation](https://skills.sh/claude-office-skills/skills) | 3.4K | WhatsApp messaging and workflow automation |
-| [claude-office-skills/skills@slack-workflows](https://skills.sh/claude-office-skills/skills) | 2.8K | Slack app: messaging, channels, reactions |
-| [claude-office-skills/skills@discord-bot](https://skills.sh/claude-office-skills/skills) | 2.8K | Discord bot: channels, messaging, moderation |
+### 2. Submit for Curation
 
-## 🆕 Agent Orchestration & RAG — 6 skills (June 2026)
+Once published on skills.sh, your skill can be added to the Hermes community hub marketplace. The curation criteria:
 
-Production patterns for multi-agent orchestration and retrieval-augmented generation.
+- **Production readiness** — Has the skill been tested with real agent invocations? (Not required, but strongly preferred)
+- **Clear value proposition** — Is it obvious what problem the skill solves?
+- **Complete trigger conditions** — Does the skill activate under well-defined circumstances?
+- **Verification steps** — Does the skill include checks that confirm success?
+- **No duplication** — Is this distinct from existing marketplace skills?
 
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| [wshobson/agents@rag-implementation](https://skills.sh/wshobson/agents) | 9.5K | Production RAG: chunking, embedding, retrieval |
-| [langchain-ai/langchain-skills@langchain-rag](https://skills.sh/langchain-ai/langchain-skills) | 8.6K | LangChain-native RAG with vectorstores |
-| [wshobson/agents@workflow-orchestration-patterns](https://skills.sh/wshobson/agents) | 8.2K | Agent workflow patterns: fan-out, pipeline, DAG |
-| [wshobson/agents@saga-orchestration](https://skills.sh/wshobson/agents) | 7.1K | Saga pattern for distributed agent transactions |
-| [qodex-ai/ai-agent-skills@multi-agent-orchestration](https://skills.sh/qodex-ai/ai-agent-skills) | 1.7K | Multi-agent coordination and task delegation |
-| [sickn33/antigravity-awesome-skills@ai-agents-architect](https://skills.sh/sickn33/antigravity-awesome-skills) | 1.1K | AI agent system architecture design |
+Submit via the [Hermes community GitHub repository](https://github.com/nousresearch/hermes-agent) — create an issue with the `skill-submission` label, linking to your skills.sh page.
 
-## 🆕 Infrastructure & DevOps — 5 skills (June 2026)
+### 3. What Happens Next
 
-Production infrastructure for deploying, scaling, and monitoring agent systems.
+Submitted skills go through automated discovery sweeps that run weekly. The curation process checks:
 
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| [neondatabase/agent-skills@neon-postgres](https://skills.sh/neondatabase/agent-skills) | 40.3K | Serverless Postgres — ideal for agent state |
-| [sickn33/antigravity-awesome-skills@docker-expert](https://skills.sh/sickn33/antigravity-awesome-skills) | 18.9K | Docker containerization for agent services |
-| [jeffallan/claude-skills@kubernetes-specialist](https://skills.sh/jeffallan/claude-skills) | 10.2K | K8s deployment patterns for agent clusters |
-| [jeffallan/claude-skills@monitoring-expert](https://skills.sh/jeffallan/claude-skills) | 3K | Monitoring and observability for production agents |
+1. The skill installs without errors (`npx skills add <repo>@<skill>`)
+2. The SKILL.md is well-formed and parseable
+3. The skill category matches the existing marketplace taxonomy
+4. The install count is reported accurately
 
-## 🆕 Platform Integrations — 6 skills (June 2026)
+Approved skills appear on the next marketplace update page with install commands and category placement.
 
-Direct integrations with platforms CorpusIQ agents interact with daily.
+## Marketplace Updates
 
-| Skill | Installs | Use Case |
-|-------|----------|----------|
-| [intellectronica/agent-skills@notion-api](https://skills.sh/intellectronica/agent-skills) | 42.1K | Full Notion API: pages, databases, blocks |
-| [resend/resend-skills@agent-email-inbox](https://skills.sh/resend/resend-skills) | 3.3K | Email inbox for AI agents via Resend |
-| [claude-office-skills/skills@notion-automation](https://skills.sh/claude-office-skills/skills) | 2.7K | Automated Notion workflows for agents |
-| [alirezarezvani/claude-skills@social-media-analyzer](https://skills.sh/alirezarezvani/claude-skills) | 1.2K | Programmatic social media content analysis |
-| [heygen-com/skills@create-video](https://skills.sh/heygen-com/skills) | 946 | HeyGen video creation for AI agents |
+New skills are discovered weekly through automated sweeps of skills.sh. Each discovery gets a dedicated update page:
 
-
-## 🆕 June 9, 2026 Additions — 42 new skills across 10 categories
-
-The latest batch discovery sweep found 42 new marketplace skills for Hermes agents:
-
-Web scraping (Firecrawl), MCP server development, web app testing, Stripe integration, Shopify development, LangGraph extensions, Supabase, Excel automation, Hermes ecosystem, and TTS.
-
-→ **[June 9, 2026 Additions — Full catalog with install commands](/hermes/skills/marketplace/new-june9-2026/)**
+- [🆕 June 16, 2026 — ClawPilot ecosystem (5 skills)](/hermes/skills/marketplace/new-june16-2026/)
+- [June 15, 2026 — Nous Research Expansion (23 skills)](/hermes/skills/marketplace/new-june15-2026/)
+- [June 12, 2026 Update — OpenClaw Security Suite (13 skills)](/hermes/skills/marketplace/new-june12-2026-update/)
+- [June 12, 2026 — Hermes Security Attestation (3 skills)](/hermes/skills/marketplace/new-june12-2026/)
+- [June 11, 2026 Update 2 — OpenClaw Ecosystem (23 skills)](/hermes/skills/marketplace/new-june11-2026-update2/)
+- [June 11, 2026 Update — Agent Architecture (19 skills)](/hermes/skills/marketplace/new-june11-2026-update/)
+- [June 11, 2026 — Hermes Ecosystem (38 skills)](/hermes/skills/marketplace/new-june11-2026/)
+- [June 10, 2026 — Web Scraping, MCP, Testing, Stripe (42 skills)](/hermes/skills/marketplace/new-june10-2026/)
+- [June 9, 2026 — Initial Marketplace Discovery (42 skills)](/hermes/skills/marketplace/new-june9-2026/)
 
 ---
 
-**Total: 156 curated skills across 19 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 290+ curated skills across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
-→ **[June 11, 2026 Additions — Hermes ecosystem, platform bots, community skills (38 skills)](/hermes/skills/marketplace/new-june11-2026/)**
-
-→ **[June 11, 2026 Update — Agent architecture, UI dashboards, Nous variants (19 skills)](/hermes/skills/marketplace/new-june11-2026-update/)**
-
-→ **[June 12, 2026 — Hermes security attestation, traffic monitoring, cyber UI (3 skills)](/hermes/skills/marketplace/new-june12-2026/)**
-
-→ **[June 12, 2026 Update — OpenClaw Security Suite, skill-vetter, 13 skills](/hermes/skills/marketplace/new-june12-2026-update/)**
-
-
-→ [**June 15, 2026 — Nous Research Expansion (23 skills)**](/hermes/skills/marketplace/new-june15-2026/)
-
-*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Discovery Report](/hermes/skills/marketplace/new-june-2026/) →*
+*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june16-2026/)*
 
 *Powered by CorpusIQ*
