@@ -680,12 +680,12 @@ Full Mistral AI MCP integration: chat, vision, OCR, audio. Complete Mistral plat
 ---
 
 ### PipRail
-⭐ **community** · [PipRail](https://github.com/PipRail)
+⭐ **community** · `TypeScript` · [github.com/piprail/piprail](https://github.com/piprail/piprail)
 
-x402 payment wallet supporting 10 blockchain chains. Universal payment infrastructure for agents.
+Open, self-custody x402 payment rail for AI agents — an SDK plus an MCP server that hands any MCP client a budget-bound wallet. 29 chains across 10 families (EVM, Solana, TON, Tron, NEAR, Sui, Aptos, Algorand, Stellar, XRPL). No backend, no custody, no protocol fee.
 
 **Status:** Production  
-**Key capabilities:** x402 payments, 10 chains, agent wallet
+**Key capabilities:** x402 payments, 29 chains, MCP server, budget-bound agent wallet, self-custody, no fee
 
 ---
 
