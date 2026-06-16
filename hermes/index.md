@@ -122,7 +122,12 @@ Autonomous content creation and publishing.
 
 [Read troubleshooting →](/hermes/troubleshooting/)
 
-### 13. Changelog
+### 13. Ecosystem
+**[Hermes Ecosystem](/hermes/ecosystem/)** — Tools, libraries, research, dashboards, and community resources. Everything that extends Hermes.
+
+[Browse ecosystem →](/hermes/ecosystem/)
+
+### 14. Changelog
 **[Version History](/hermes/changelog/)** — What changed and when.
 
 [Read changelog →](/hermes/changelog/)
@@ -151,9 +156,9 @@ Autonomous content creation and publishing.
 
 | Metric | Value |
 |--------|-------|
-| Pages | 36 |
-| Total lines | 3,500+ |
-| Categories | 13 |
+| Pages | 37 |
+| Total lines | 3,800+ |
+| Categories | 14 |
 | Tools indexed | 140+ |
 | Skills cataloged | 142 |
 | MCP connectors | 37+ |

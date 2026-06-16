@@ -24,6 +24,7 @@ Whether you're building your first autonomous agent or scaling a multi-agent arc
 | [Outputs](/hermes/outputs/) | 1 | Growth channels and metrics |
 | [Tools](/hermes/tools/) | 1 | 233+ tools across 20 categories |
 | [Troubleshooting](/hermes/troubleshooting/) | 1 | Common issues and fixes |
+| [Ecosystem](/hermes/ecosystem/) | 1 | Research extensions, dashboards, community tools |
 | [Changelog](/hermes/changelog/) | 2 | Version history |
 
 ---
