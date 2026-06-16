@@ -1,176 +1,100 @@
----
-title: Production Outputs & Case Studies
-description: What autonomous agents can achieve in production — measurable results, benchmarks, and case studies from real deployments
----
+# Hermes Agent Outputs & Implementation Guide
 
-# Production Outputs & Case Studies
+Welcome to the Hermes Agent field manual. This section shows you what Hermes can do in practice — not through feature lists or marketing claims, but through concrete, copy-paste-ready implementations organized by industry, company size, and workflow pattern. Every guide here includes real cron schedules, real skill patterns, and real integration examples you can adapt and deploy.
 
-This page documents what autonomous agent systems can achieve in production — not theoretical capabilities, but measured outputs from systems running 24/7 with real tools and real audiences.
+## What You'll Find Here
 
-All examples are generalized and anonymized. The numbers are representative of what properly configured systems produce. Your results will vary based on your domain, audience, and configuration.
+This isn't documentation about Hermes. It's documentation for *using* Hermes — patterns that work, automations that pay for themselves in the first week, and architectures that scale from solo founder to enterprise.
 
-## Content Production Throughput
+### By Industry (Case Studies)
 
-A fully autonomous content pipeline (research → draft → review → format → publish) operating on a weekly cycle:
+Each industry case study covers the specific workflows, compliance requirements, and tool integrations that matter in that domain. They include exact cron schedules, skill descriptions, and data source configurations.
 
-| Content Type | Weekly Volume | Avg. Time per Piece | Human Touch Required |
-|---|---|---|---|
-| LinkedIn posts | 5 | 8 minutes | Review headlines only |
-| Twitter/X threads | 3 | 12 minutes | Review for tone |
-| Short-form video scripts | 4 | 15 minutes | Review key claims |
-| Long-form articles | 2 | 45 minutes | Full review |
-| Email newsletters | 1 | 30 minutes | Full review |
-| YouTube video scripts | 2 | 25 minutes | Review structure |
-| Social media replies | 50+ | 45 seconds | Spot-check 5% |
+| Case Study | What You'll Learn |
+|------------|-------------------|
+| [Compliance & Audit](case-studies/compliance-audit.md) | SOC 2 evidence collection, HIPAA audit trails, GDPR compliance checks, change management monitoring, and continuous reporting for audit readiness |
+| [Healthcare](case-studies/healthcare.md) | Patient record management, appointment scheduling, insurance verification, lab result notification, and HIPAA-compliant agent workflows with privacy-first patterns |
+| [Financial Services](case-studies/financial-services.md) | Portfolio monitoring and drift detection, daily transaction reconciliation, fraud pattern detection, regulatory filing automation, and market data integration |
+| [Manufacturing](case-studies/manufacturing.md) | Supply chain monitoring, inventory reorder automation, quality control with SPC rules, equipment maintenance scheduling, and IoT sensor integration patterns |
+| [Real Estate](case-studies/real-estate.md) | Multi-platform listing syndication, lead qualification and routing, market analysis automation, showing coordination, and transaction milestone tracking |
+| [Professional Services](case-studies/professional-services.md) | Client onboarding orchestration, calendar-to-timesheet automation, project budget burn monitoring, invoice generation, and weekly client status reporting |
+| [Customer Support](case-studies/customer-support.md) | Multi-channel ticket triage, knowledge base search integration, real-time SLA monitoring with escalation, intelligent routing, and customer health signal detection |
+| [Revenue Operations](case-studies/revenue-operations.md) | Pipeline hygiene enforcement, weighted forecasting, commission calculation, cross-source revenue reconciliation, and marketing-to-sales handoff tracking |
 
-**Total output:** ~17 original content pieces per week, ~50+ community interactions. Total agent time: roughly 5 hours of compute. Human review time: roughly 2-3 hours per week (down from 30+ without automation).
+### By Company Size
 
-### Quality Benchmarks
+The same Hermes Agent adapts to vastly different environments. These guides cover the patterns, infrastructure, and governance appropriate to your stage.
 
-Content quality is measured against human-produced baselines:
+| Guide | For Teams Of | Focus |
+|-------|-------------|-------|
+| [Startup](by-company-size/startup.md) | 1-50 employees | Solo founder patterns, essential crons, scrappy setup with free tiers, doing more with less, scaling automation with your company |
+| [Mid-Market](by-company-size/mid-market.md) | 50-500 employees | Multi-team orchestration, departmental profiles, approval workflows, shared infrastructure, governance without bureaucracy |
+| [Enterprise](by-company-size/enterprise.md) | 500+ employees | Security compliance, multi-region deployment, segregation of duties, change management integration, audit-grade logging, framework-specific compliance (SOC 2, HIPAA, GDPR, SOX) |
 
-| Metric | Human Baseline | Agent Output | Notes |
-|---|---|---|---|
-| Grammar/typo rate | 0.5 errors per 1,000 words | 0.2 errors per 1,000 words | Agent rarely makes typos |
-| Factual accuracy | 95% (with research) | 92% (with Reflexion) | Reflexion catches most errors |
-| Engagement rate (LinkedIn) | 2.1% | 1.9% | Slightly below human, improving |
-| Engagement rate (Twitter) | 1.4% | 1.6% | Threads perform slightly better |
-| Readability (Flesch) | 55-65 | 58-62 | Consistent within target range |
-| Brand voice consistency | Varies by author | 95% consistent | Templates enforce voice |
+### Workflow Templates
 
-Key insight: Agent content is more consistent but slightly less engaging than top human creators. The gap narrows as the knowledge base grows and the system learns what resonates.
+Ready-to-deploy cron + skill templates for the most common automation needs.
 
-## Community Engagement Metrics
+[**Copy-Paste Cron Templates**](workflows/templates.md) — A field guide of YAML cron configurations you can drop into `~/.hermes/cron/` today. Covers:
 
-Automated community engagement over a 30-day period:
+- **Email monitoring:** Support inbox triage, vendor invoice detection, lead alert monitoring
+- **Report generation:** Daily executive summary, weekly business review, monthly close package
+- **Data sync:** CRM-to-billing reconciliation, database-to-analytics validation, multi-platform listing sync
+- **Alerting:** Metric anomaly detection, SLA breach warnings, system health checks
+- **Integration-specific:** Stripe revenue monitoring, GA4 traffic anomaly detection, CRM pipeline health
 
-| Platform | Inbound Messages | Auto-Responded | Escalated to Human | Avg Response Time |
-|---|---|---|---|---|
-| LinkedIn | 142 | 89 (63%) | 18 (13%) | 2.3 hours |
-| Twitter/X | 310 | 195 (63%) | 22 (7%) | 1.1 hours |
-| Reddit | 47 | 28 (60%) | 8 (17%) | 4.2 hours |
-| YouTube | 83 | 55 (66%) | 5 (6%) | 5.7 hours |
-| Product forums | 28 | 14 (50%) | 14 (50%) | 3.1 hours |
+Each template includes the cron schedule, skill description, data sources, and output destination. Replace the placeholder values with your own and deploy.
 
-**Total:** 610 interactions/month, 62% auto-resolved, 11% escalated to human, 27% didn't require response (spam, pure praise, etc.)
+## How to Use These Guides
 
-### Response Quality
+### If You're New to Hermes Agent
 
-Spot-checking 100 auto-responses for quality:
+1. **Start with the Startup guide** regardless of your company size — it covers the fundamentals of building your first automations.
+2. **Read the Workflow Templates next** — pick one template that solves your most painful manual task and deploy it today.
+3. **Then explore the case study for your industry** — it'll show you patterns specific to your domain.
 
-- **Helpful/Appropriate:** 87%
-- **Adequate but could improve:** 8%
-- **Missed the mark:** 4%
-- **Should not have responded:** 1%
+### If You're Scaling Your Usage
 
-The 4% miss rate is mostly technical support questions where the knowledge base lacked information. Each miss feeds back into the knowledge base for improvement.
+1. **Read the company-size guide that matches your current stage** — the patterns change meaningfully between startup, mid-market, and enterprise.
+2. **Browse case studies outside your industry** — patterns from manufacturing apply to supply chain in any business; patterns from financial services apply to any reconciliation problem.
+3. **Use the templates as a starting point** — they're designed to be adapted, not adopted wholesale.
 
-## Multi-Agent Workflow Efficiency
+### If You're Evaluating Hermes for Your Team
 
-Comparing single-agent vs. multi-agent (CrewAI) workflows on complex tasks:
+1. **Find your industry case study** — map the documented automations to your team's current manual processes.
+2. **Read the company-size guide for your stage** — understand the operational overhead and governance patterns.
+3. **Estimate time recovery** — each documented automation typically replaces 2-10 hours/week of manual work.
 
-### Competitive Analysis Report
+## What Hermes Agent Automates
 
-| Approach | Time | Cost | Quality Score | Notes |
-|---|---|---|---|---|
-| Single agent (Hermes) | 18 minutes | $0.42 | 7.2/10 | Good but missed some competitors |
-| CrewAI (3 agents) | 9 minutes | $0.38 | 8.5/10 | Parallel research, better coverage |
-| Human analyst | ~4 hours | $200+ | 9.0/10 | Better strategic insight |
+Across all these guides, certain patterns recur. Hermes Agent consistently automates:
 
-**Takeaway:** Multi-agent workflows are faster AND cheaper than single-agent for research tasks with parallelizable sub-tasks. Human still leads on strategic insight, but the gap is narrowing.
+**Cross-system reconciliation.** Matching data between tools that should agree but don't — CRM vs. billing, database vs. analytics, purchase orders vs. shipments. This is the single highest-value automation category for most organizations.
 
-### Content Strategy Planning (Weekly)
+**Monitoring and alerting.** Continuous checking of metrics, statuses, and deadlines with intelligent escalation. Hermes doesn't just detect problems — it provides the context needed to resolve them.
 
-| Approach | Time | Cost | Output |
-|---|---|---|---|
-| Single agent | 25 minutes | $0.31 | 5 content ideas with briefs |
-| CrewAI (4 agents) | 12 minutes | $0.47 | 12 content ideas, data-backed, with full briefs |
-| Human strategist | ~3 hours | $300+ | 10-15 ideas with strategic framing |
+**Report generation.** Compiling data from multiple sources into structured, scheduled reports. Morning summaries, weekly reviews, monthly close packages — Hermes produces them on schedule without anyone remembering to run them.
 
-**Takeaway:** The multi-agent workflow produces more ideas faster. Cost is slightly higher but volume and data-backing justify it.
+**Workflow orchestration.** Moving data through multi-step processes: onboarding sequences, approval chains, escalation paths. Hermes connects the systems so people don't have to.
 
-## Model Routing Cost Savings
+**Compliance evidence.** Continuous collection of configuration snapshots, access logs, and control evidence. Audit readiness as a byproduct of operations rather than a quarterly fire drill.
 
-Multi-model routing versus premium-model-only routing over a typical week:
+## The Architecture Behind These Patterns
 
-| Task Category | Volume | Premium-Only Cost | Routed Cost | Savings |
-|---|---|---|---|---|
-| Classification/routing | 500+ | $2.50 | $0.15 | 94% |
-| Content generation | 40 | $3.20 | $1.80 | 44% |
-| Data analysis | 20 | $2.40 | $1.10 | 54% |
-| Strategic reasoning | 10 | $2.00 | $1.80 | 10% |
-| Community responses | 200+ | $4.00 | $1.20 | 70% |
-| Code generation | 15 | $1.50 | $0.60 | 60% |
+Every guide in this section leverages the same Hermes Agent primitives:
 
-**Weekly total:** Premium-only: ~$15.60. Routed: ~$6.65. **Savings: ~57%.**
+- **Cron schedules:** Standard cron expressions drive all scheduled automations. From every-5-minute triage to monthly close reports.
+- **Skills:** Reusable automation routines that query data sources, apply logic, and produce output. Skills are plain files in `~/.hermes/skills/`.
+- **MCP Connectors:** Hermes connects to your existing tools through the Model Context Protocol. Database connectors (PostgreSQL, MSSQL, MongoDB), SaaS connectors (HubSpot, Stripe, GA4, Slack, Gmail, and dozens more), and file connectors (Google Drive, OneDrive, Dropbox) — all available without custom integration work.
+- **Profiles:** Isolated environments for different teams, departments, or compliance boundaries. Each profile has its own skills, crons, and connector configurations.
+- **Alert routing:** Skills deliver output to Slack channels, email addresses, Google Drive folders, or ticketing systems — wherever your team works.
 
-The biggest savings come from routing high-volume, low-complexity tasks (classification, simple responses) to lightweight models instead of premium models.
+## Contributing Your Patterns
 
-## Knowledge Accumulation
+These guides represent patterns that work across industries and company sizes. If you've built a Hermes automation that solved a real problem, consider sharing the pattern. The community grows stronger with every documented use case.
 
-The knowledge base grows and compounds over time:
+## Next Steps
 
-| Month | Indexed Documents | Unique Entities | Relationship Edges | Retrieval Accuracy |
-|---|---|---|---|---|
-| Month 1 | 200 | 3,500 | 12,000 | 72% |
-| Month 2 | 450 | 7,200 | 28,000 | 78% |
-| Month 3 | 730 | 12,100 | 52,000 | 84% |
-| Month 6 | 1,800 | 28,000 | 140,000 | 89% |
-| Month 12 | 4,200 | 58,000 | 340,000 | 93% |
+Pick one guide that matches your situation and build your first automation in the next hour. Start with monitoring (Hermes tells you something needs attention), graduate to suggestions (Hermes proposes an action), and eventually reach autonomous execution for well-proven patterns.
 
-**Key insight:** The system gets smarter over time. Retrieval accuracy improves 21 percentage points from month 1 to month 12. The knowledge graph becomes richer — more entities, more relationships, better context for every query.
-
-## Browser Automation Throughput
-
-Dedicated browser automation on a worker node:
-
-| Task | Daily Volume | Success Rate | Avg Duration | Notes |
-|---|---|---|---|---|
-| Web research (search + extract) | 25 | 94% | 45 seconds | Failures mostly from CAPTCHAs |
-| Social media posting | 8 | 98% | 30 seconds | Platform APIs where available |
-| Form filling | 3 | 88% | 2 minutes | Dynamic forms sometimes confuse |
-| Data extraction from sites | 15 | 91% | 1.5 minutes | Anti-bot detection occasional issue |
-| Content scheduling checks | 12 | 99% | 15 seconds | Simple status checks |
-
-**Total:** ~63 browser tasks daily, ~92% success rate. Failures retry automatically. Persistent failures (3+ retries) trigger human review.
-
-## Cron Reliability
-
-38+ scheduled processes running autonomously:
-
-| Cron Type | Count | Weekly Success Rate | Common Failure Modes |
-|---|---|---|---|
-| Content publishing | 12 | 97.2% | Platform API changes |
-| Data sync / ETL | 8 | 98.5% | Rate limiting |
-| Knowledge consolidation | 3 | 99.1% | Memory pressure on large batches |
-| Monitoring / health checks | 6 | 99.8% | Network timeouts |
-| Browser automation | 5 | 94.3% | CAPTCHA / anti-bot |
-| Email / notifications | 4 | 99.5% | SMTP rate limits |
-
-**Overall reliability:** 97.4% across all scheduled processes.
-
-## What This Means for You
-
-These numbers represent a system that has been running, learning, and improving. When you deploy your own autonomous agent platform:
-
-**Month 1 expectations:** Content quality will be inconsistent. The knowledge base is sparse. You'll need more human review. Expect 40-50% of output to need significant editing. Focus on building the knowledge base and tuning prompts.
-
-**Month 3 expectations:** Knowledge base is filling in. Agents understand your voice. Auto-response quality improves. Human review drops to 20-30%. Start expanding to new content types.
-
-**Month 6 expectations:** The system largely runs itself. Knowledge base is rich. Response quality is high. Human involvement is strategic (what to create) rather than tactical (fixing drafts). Cost savings from model routing are significant.
-
-**Month 12 expectations:** Knowledge compounds. The system knows your audience, your voice, your domain. Output quality approaches human-level for defined formats. The main human role is strategy, creative direction, and handling edge cases.
-
-## Limitations to Understand
-
-These systems are powerful but not magic:
-
-- **They optimize, they don't originate:** Agents excel at executing known patterns. Truly novel creative direction still requires human insight.
-- **They're consistent, not brilliant:** Agent output rarely has the spark of your best human creator. But it also never has the inconsistency of your worst day.
-- **They compound, but need feeding:** The knowledge base only improves if you feed it quality information. Garbage in, garbage out applies.
-- **They need guardrails:** Without governance, agents can go off-script. Monitoring and escalation paths are not optional.
-- **Platforms change:** APIs deprecate, formats evolve, rate limits shift. Your pipeline needs maintenance.
-
----
-
-*Next: [Architecture](/hermes/architecture/) · [Troubleshooting](/hermes/troubleshooting/) · [Community Engagement](/hermes/content-ops/engagement/)*
+The distance between reading about automation and having automation running is one cron job. Start there.

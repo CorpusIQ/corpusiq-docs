@@ -107,10 +107,23 @@ Autonomous content creation and publishing.
 
 [Browse content ops →](/hermes/content-ops/)
 
-### 10. Growth Outputs
-**[Growth Channels & Metrics](/hermes/outputs/)** — SEO, Product Hunt, GitHub PRs, marketplace presence.
+### 10. Case Studies & Examples
+Real-world patterns across industries and company sizes.
 
-[Read outputs →](/hermes/outputs/)
+| Page | Content |
+|------|---------|
+| [Outputs Overview](/hermes/outputs/) | Community-wide examples hub |
+| [Workflow Templates](/hermes/outputs/workflows/templates.md) | 12 ready-to-deploy cron templates |
+
+**By Industry:**
+| [Compliance & Audit](/hermes/outputs/case-studies/compliance-audit.md) | [Healthcare](/hermes/outputs/case-studies/healthcare.md) | [Financial Services](/hermes/outputs/case-studies/financial-services.md) |
+| [Manufacturing](/hermes/outputs/case-studies/manufacturing.md) | [Real Estate](/hermes/outputs/case-studies/real-estate.md) | [Professional Services](/hermes/outputs/case-studies/professional-services.md) |
+| [Customer Support](/hermes/outputs/case-studies/customer-support.md) | [Revenue Operations](/hermes/outputs/case-studies/revenue-operations.md) |
+
+**By Company Size:**
+| [Startups](/hermes/outputs/by-company-size/startup.md) | [Mid-Market](/hermes/outputs/by-company-size/mid-market.md) | [Enterprise](/hermes/outputs/by-company-size/enterprise.md) |
+
+[Browse all examples →](/hermes/outputs/)
 
 ### 11. Tools & Software Index
 **[Complete Tool Reference](/hermes/tools/)** — 233+ tools across 20 categories. All linked to repos/docs.
