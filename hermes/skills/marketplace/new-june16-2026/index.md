@@ -73,7 +73,7 @@ Inclusion criteria: the skill must be compatible with Nous Research's Hermes Age
 
 ## How New Skills Are Discovered
 
-The weekly discovery sweep queries the skills.sh REST API for new skill publications. The process:
+The weekly discovery process queries the skills.sh REST API for new skill publications. The process:
 
 1. **API sweep** — Query skills.sh for skills published since the last sweep date
 2. **Compatibility check** — Filter out skills for incompatible agent runtimes (Meta Hermes JS engine, non-Hermes platforms)
