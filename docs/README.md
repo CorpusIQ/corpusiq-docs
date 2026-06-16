@@ -10,7 +10,7 @@ CorpusIQ acts as a read-only bridge between your SaaS applications and AI assist
 - **MCP-native** — Designed for AI assistants that speak the Model Context Protocol
 - **Read-only by design** — OAuth scopes are restricted to read access; no write permissions are ever requested
 - **Zero data retention** — Embeddings are computed per session and deleted immediately after
-- **SOC 2 Type II** — Compliance program in progress with encryption at rest and in transit
+- **SOC 2 Ready & CASA Tier 2 Certified** — DEKRA-assessed, GDPR aligned, OWASP Top 10 verified
 
 ## Quick Links
 
