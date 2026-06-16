@@ -1,403 +1,160 @@
----
-title: Skills Catalog
-description: Complete index of all 380+ skills available to Hermes agents — 90 native CorpusIQ skills and 290+ marketplace skills from skills.sh. Single source of truth, updated continuously.
----
-
 # Skills Catalog
 
-Complete index of every skill available to CorpusIQ Hermes agents. **380+ total: 90 native + 290+ marketplace.** Updated as skills are added and discovered.
-
-Skills are reusable agent capabilities — step-by-step workflows with tools, triggers, and verification. Not static prompts. Not text files. Executable runbooks that agents read and execute. When you run an SEO audit, the agent follows the `seo-audit` skill's instructions, step by step, verifying each result before proceeding.
-
-## How to Use This Catalog
-
-1. **Find a skill** — Browse by category below, or use your browser's find (Ctrl+F / Cmd+F) to search by keyword.
-2. **Check the category description** — Each category explains what that group of skills covers and how they relate.
-3. **Install marketplace skills** — Native skills load automatically. Marketplace skills need `npx skills add <owner/repo@skill>`.
-4. **Invoke** — Mention the trigger keywords in your Hermes session, or call the skill explicitly.
-
----
-
-## Native CorpusIQ Skills (90)
-
-Built and maintained for the CorpusIQ Hermes deployment. These load automatically when your agent profile matches — no installation required. Organized by functional domain.
-
-### Growth & Engagement (13)
-
-Community growth, social media automation, and content distribution. These skills handle the public-facing presence of your Hermes agents across platforms.
+Welcome to the Hermes Skills Catalog — your directory of community-contributed, validated skills that extend what Hermes can do. Skills encode repeatable expertise into shareable packages that anyone in the Hermes community can install and use.
 
-| Skill | What It Does |
-|-------|-------------|
-| `help-first-community-engagement` | Answer real questions on Reddit, HN, Discord before mentioning your product |
-| `cross-platform-commenting-engine` | Deploy autonomous comment engines across YouTube, Reddit, X |
-| `github-growth-contributions` | Submit meaningful PRs to high-star repos for visibility |
-| `corpusiq-mcp-directory-maintenance` | Maintain listings across MCP server directories |
-| `playwright-social-media-automation` | Automate social media posting and comment monitoring |
-| `postiz-cli-social-deployment` | Deploy content across X, Reddit, Instagram, LinkedIn via Postiz CLI |
-| `daily-rotating-content-automation` | Multi-avatar, multi-connector daily content rotation |
-| `corpusiq-daily-ugc-video-series` | 5 rotating video formats (technical, operator, growth, tool, comparison) |
-| `corpusiq-go-to-market-strategy` | Complete GTM planning and execution |
-| `corpusiq-content-analysis-rules` | Rules for TikTok/YouTube video content analysis |
-| `corpusiq-video-knowledge-extraction` | Extract insights from TikTok/YouTube AI videos |
-| `corpusiq-video-transcript-analysis` | Synthesize learnings from video transcripts |
-| `corpusiq-docs-management` | Manage docs repo, write/update/publish, skills.sh marketplace |
-
-### Research & Intelligence (6)
-
-Market research, competitive analysis, and autonomous intelligence gathering. These skills feed the decision-making pipeline with structured research outputs.
+## Skill Quality Tiers
 
-| Skill | What It Does |
-|-------|-------------|
-| `corpusiq-research-intelligence-framework` | Shared framework for all research intelligence collection |
-| `corpusiq-autonomous-growth-intelligence` | Proactive gap-spotting, architectural decisions, improvement detection |
-| `corpusiq-autonomous-improvement-recommendations` | Pattern for identifying system gaps and proposing fixes |
-| `prospect-research-personalization` | Research prospect's business before crafting response |
-| `multi-tier-partnership-qualification` | Evaluate multiple partnership opportunities simultaneously |
-| `inbound-lead-analysis-domain-first` | Analyze inbound leads by email domain — business domain determines priority |
-
-### Lead Response & Nurture (11)
-
-End-to-end lead management: capture, classify, research, personalize, respond, and nurture. The conversion pipeline for inbound interest.
-
-| Skill | What It Does |
-|-------|-------------|
-| `corpusiq-inbound-lead-response-system` | Complete pipeline: capture → qualify → respond |
-| `corpusiq-autonomous-lead-capture` | Recurring email monitoring to identify and track leads |
-| `corpusiq-lead-nurture-sequences` | Automated nurture sequences for qualified leads |
-| `lead-response-execution` | Execute immediate responses to inbound customer inquiries |
-| `inbound-response-personalization` | Deep business research + personalized response per lead |
-| `professional-custom-email-templates` | Professional HTML email templates for inbound responses |
-| `corpusiq-email-response-standards` | Professional email standards for all outbound communication |
-| `corpusiq-email-phone-number-hard-rule` | Enforce phone number handling in ALL communications |
-| `corpusiq-inbound-communication-monitoring` | Monitor + respond to inbound across email/messaging channels |
-| `company-name-verification-hardcoded` | Mandatory company name verification before outbound |
-| `autonomous-communication-priority` | Channel monitoring SLA hierarchy (WhatsApp > Telegram > Email) |
-
-### Email Operations (7)
-
-Production email infrastructure: multi-account monitoring, OAuth management, template enforcement, and delivery verification.
-
-| Skill | What It Does |
-|-------|-------------|
-| `corpusiq-dual-email-account-control` | Unified master monitor for multiple email inboxes |
-| `corpusiq-dual-account-oauth-automation` | Persistent OAuth token management for multiple Gmail accounts |
-| `corpusiq-email-account-setup` | Gmail account configuration and management |
-| `corpusiq-email-operating-rules` | Authoritative email operating policy |
-| `corpusiq-email-send-checklist` | Hard pre-send gate for every outbound email |
-| `dual-email-account-management` | Consolidated system for two email accounts |
-| `headless-oauth-automation` | Localhost callback servers for Google OAuth |
-
-### Video Production (6)
-
-AI-powered video generation and distribution. These skills handle the full pipeline from script to published video across platforms.
-
-| Skill | What It Does |
-|-------|-------------|
-| `corpusiq-heygen-video-automation` | End-to-end HeyGen video generation + multi-platform posting |
-| `corpusiq-heygen-video-generation-workflow` | HeyGen video generation for UGC series |
-| `corpusiq-heygen-video-pipeline` | End-to-end UGC video pipeline using HeyGen video-agent |
-| `corpusiq-video-production` | End-to-end UGC video production via HeyGen |
-| `heygen-skills-install` | First-time HeyGen setup for Hermes agents |
-| `video-voiceover-production` | Voiceover narration and captions for screen recordings |
-
-### Social Media Automation (4)
-
-Cross-platform social media management at scale.
-
-| Skill | What It Does |
-|-------|-------------|
-| `instagram-tiktok-heygen-video-automation` | Automated video generation + posting to Instagram/TikTok |
-| `instagram-tiktok-video-posting-automation` | Instagram + TikTok video posting via Postiz CLI |
-| `rate-limit-pivot-execution` | Detect API rate limits, pivot to alternative platforms |
-| `corpusiq-social-cadence-engine` | All-platform posting schedule: X, Reddit, TikTok, IG, YT, Discord, GH, HN, LinkedIn |
-
-### LinkedIn Integration (3)
+Not all skills are created equal. We use three quality tiers to help you understand what you're installing:
 
-LinkedIn API for market intelligence and content distribution.
+### Production Tier 🟢
 
-| Skill | What It Does |
-|-------|-------------|
-| `linkedin-api-integration` | LinkedIn API for reading posts, analyzing market signals |
-| `linkedin-api-token-and-feed-integration` | Authentication, token lifecycle, feed reading |
-| `linkedin-api-authentication-troubleshooting` | Auth patterns, token validation, error resolution |
+Production-tier skills meet all of these criteria:
 
-### Reddit Automation (2)
+- Tested by at least three independent community members
+- Includes comprehensive error handling for all known failure modes
+- Documentation covers setup, invocation, expected output, and troubleshooting
+- Confirmation gates on all write/destructive operations
+- Maintained actively (updated within 30 days of reported issues)
+- Pinned dependencies and explicit version requirements
+- Audit trail for all data access
 
-Reddit API automation for community engagement.
+These skills are safe for production use. You can rely on them as components of your automated workflows. Look for the 🟢 indicator in the catalog.
 
-| Skill | What It Does |
-|-------|-------------|
-| `reddit-oauth-praw-automation` | End-to-end Reddit API automation via OAuth credentials |
-| `reddit-praw-automation` | Reddit automation via PRAW (Python Reddit API Wrapper) |
+### Beta Tier 🟡
 
-### Session & Execution (6)
+Beta-tier skills are functional and well-tested by their authors but haven't completed community validation:
 
-Agent session management and execution discipline. These skills govern how the agent operates, not what it does.
+- Tested by the author and at least one other person
+- Handles common error cases but may have gaps in edge-case handling
+- Documentation covers basic usage but may lack troubleshooting depth
+- May lack comprehensive confirmation gates
+- Updated within 90 days
 
-| Skill | What It Does |
-|-------|-------------|
-| `corpusiq-session-start` | Mandatory session start ritual — check email before anything |
-| `corpusiq-autonomous-growth-agent` | Constraints, preferences, and autonomous execution workflows |
-| `corpusiq-done-only-reporting` | Never report scheduled/queued/planned — only completed work |
-| `execution-first-communication` | Minimize explanation, maximize action |
-| `corpusiq-execution-discipline` | Hard rules to prevent analysis inflation |
-| `corpusiq-session-handoff` | Write session context for cross-session continuity |
+These skills are suitable for supervised use. They'll save you time but keep an eye on them — especially in the first few runs. Look for the 🟡 indicator.
 
-### System Governance (8)
+### Community Tier 🔵
 
-Rules, audits, and enforcement mechanisms that keep the agent ecosystem healthy.
+Community-tier skills are shared in good faith but haven't completed formal validation:
 
-| Skill | What It Does |
-|-------|-------------|
-| `corpusiq-system-governance` | Governance baseline: seven rules, session, email, cron, monitoring |
-| `corpusiq-system-audit` | Six-category audit to find and fix degradation before it breaks |
-| `corpusiq-cron-delivery-audit` | Audit all crons — verify user-facing ones actually deliver |
-| `corpusiq-session-db-optimization` | Three-phase session DB optimization to slash context window |
-| `corpusiq-tool-exclusivity-doctrine` | Enforce "use X only" exclusive tool policies |
-| `autonomous-system-discovery-audit` | Comprehensive environment audit for installed tools |
-| `system-audit-before-automation` | System inspection and config discovery before automation |
-| `openclaw-system-inspection` | Discover what's actually configured on OpenClaw |
+- Published by a community member
+- May have been tested only on the author's setup
+- Documentation may be minimal
+- Error handling may be incomplete
+- Best suited for learning, inspiration, and adaptation — not production reliance
 
-### Infrastructure (5)
+These skills are valuable for the community but require due diligence before relying on them. Look for the 🔵 indicator.
 
-Hardware, model routing, and deployment infrastructure.
+## How to Evaluate a Skill Before Installing
 
-| Skill | What It Does |
-|-------|-------------|
-| `corpusiq-mac-mini-worker` | Worker node setup: SSH, crontab, Playwright, Hermes |
-| `corpusiq-local-ai-infrastructure` | Architecture, model selection, setup for local AI |
-| `corpusiq-llm-cost-and-model-routing` | Cost analysis, benchmarking, multi-model routing |
-| `corpusiq-llm-routing-and-model-selection` | Model selection strategy |
-| `corpusiq-model-router` | Qwen-first routing with DeepSeek escalation |
+Before you trust a skill with your data and credentials, do this five-minute review:
 
-### Browser & Web (3)
+### 1. Read the Skill Description
+Does it clearly state what it does, what connectors it needs, and what output it produces? A skill that can't explain itself in three sentences is a red flag.
 
-Browser automation and web extraction infrastructure.
+### 2. Check the Required Permissions
+What connectors and tools does the skill call? Does "Generate weekly report" really need write access to your CRM? If the permission scope exceeds the stated purpose, investigate before installing.
 
-| Skill | What It Does |
-|-------|-------------|
-| `browser-web-extraction-setup` | Configure Hermes browser and web extraction backends |
-| `mac-mini-worker` | Worker node — SSH, Hermes, OpenClaw, FFmpeg |
-| `corpusiq-mcp-oauth-auth` | Authenticate Hermes agents to the CorpusIQ MCP server |
+### 3. Review the Error Handling
+Open the skill file and look for error handling blocks. Does it handle timeouts? Rate limits? Missing data? A skill with no error handling will fail silently or confusingly.
 
-### Core Knowledge (4)
+### 4. Look for Confirmation Gates
+If the skill can modify data, does it require confirmation before doing so? Any skill that writes without explicit user approval is a production risk.
 
-Foundational knowledge every agent must have.
+### 5. Check Recency and Maintenance
+When was the skill last updated? A skill that hasn't been touched in 12 months may have broken dependencies or incompatible API versions. Check the changelog.
 
-| Skill | What It Does |
-|-------|-------------|
-| `corpusiq-fundamentals` | Complete product knowledge, core thesis, positioning |
-| `corpusiq-guardrails` | Hard guardrails enforced before any external action |
-| `corpusiq-daily-html-reporting` | Automated daily HTML report |
-| `automated-email-report-format` | HTML assessment reports with standardized formatting |
+### 6. Read Community Feedback
+Look for comments, issues, or reviews from other community members. "Works great on my setup" from one person is positive. "Breaks when the dataset exceeds 100 records" is actionable.
 
-### Engineering (8) — Platform Construction
+### 7. Test in a Safe Environment
+Run the skill first in a read-only mode or with limited data. Before you let it loose on your production CRM, test it on your sandbox.
 
-Skills for building and maintaining the platform itself. See the [Engineering Skills page](/hermes/skills/engineering/) for detailed descriptions.
+## Curated Starter Pack
 
-| Skill | What It Does |
-|-------|-------------|
-| `consultant-connector-audit` | 13-section audit pass for non-core-authored connectors |
-| `mcp-architecture` | Field guide for 50k+ LOC MCP server |
-| `metric-spec-registry` | Canonical KPI definitions, live resolution, drift detection |
-| `api-development` | Cloud Run + FastAPI patterns from production audits |
-| `frontend-development` | Next.js + Vercel patterns for marketing + dashboard |
-| `scheduled-jobs` | Hermes cron operating manual |
-| `honcho-memory-usage` | Server-side semantic memory via Honcho MCP |
-| `subagent-resilience` | Checkpoint-based resilience for subagents |
+New to Hermes? These 10 skills are the most commonly recommended starting points. They cover essential workflows and are all Production-tier verified.
 
-### DevOps & Kanban (1)
+### 1. Daily Briefing
+**What it does:** Your morning dashboard — calendar, priority emails, task list, and key metrics from connected services. One invocation replaces five separate checks.  
+**Needs:** Calendar, email, and optionally CRM or project management connectors.  
+**Why start here:** Replaces your morning routine with a single command. Immediate time savings.
 
-| Skill | What It Does |
-|-------|-------------|
-| `kanban-worker` | Pitfalls, examples, edge cases for Hermes Kanban workers |
+### 2. Email Digest
+**What it does:** Summarizes unread emails from a configurable time window, groups by thread, flags urgent items, and drafts suggested replies for routine messages.  
+**Needs:** Email connector (Gmail or Outlook).  
+**Why start here:** The average knowledge worker spends 2+ hours on email daily. This cuts it substantially.
 
-### GBrain Operations (1)
+### 3. Meeting Prep
+**What it does:** Before a meeting, gathers relevant emails, documents, previous meeting notes, and action items related to the attendees and topic. Produces a one-page briefing.  
+**Needs:** Calendar, email, and optionally drive or project management connectors.  
+**Why start here:** Never walk into a meeting underprepared again.
 
-| Skill | What It Does |
-|-------|-------------|
-| `corpusiq-gbrain-operations` | Operate GBrain — agent brain layer |
+### 4. Weekly Report Generator
+**What it does:** Aggregates activity from your connected services into a structured weekly summary — tasks completed, meetings attended, key communications, metrics trends.  
+**Needs:** Project management, calendar, email (configurable).  
+**Why start here:** Automates the Friday afternoon ritual. Customize the template to match your team's format.
 
----
+### 5. CRM Health Check
+**What it does:** Pipeline analysis, stale deals, overdue follow-ups, and contact engagement scoring. Flags accounts that need attention.  
+**Needs:** CRM connector (HubSpot, Salesforce, or similar).  
+**Why start here:** Your CRM has data but Hermes turns it into action items.
 
-## Marketplace Skills (290+)
-
-Community-contributed skills from [skills.sh](https://skills.sh). Install with `npx skills add <owner/repo@skill>`. See the [Marketplace page](/hermes/skills/marketplace/) for detailed descriptions, install counts, and trending skills.
-
-### Marketing & Growth — 45 skills
-
-From [coreyhaines31/marketingskills](https://skills.sh/coreyhaines31/marketingskills) (1.8M+ total installs). The top marketing skill pack — every skill is production-tested. Covers SEO, CRO, copywriting, ads, content strategy, competitive analysis, community growth, and cold outreach. See the [Marketing Skills page](/hermes/skills/marketing/) for category breakdowns and workflow patterns.
-
-Top skills: `seo-audit` (132K), `copywriting` (122K), `marketing-psychology` (90K), `content-strategy` (86K), `programmatic-seo` (83K).
-
-### Development & GitHub — 10 skills
-
-GitHub workflows, code review, CI/CD, and codebase analysis. From `obra/superpowers`, `wshobson/agents`, and `corpusiq-docs`. See the [Development Skills page](/hermes/skills/development/) for detailed workflows.
-
-Top skills: `github-actions-docs` (206K), `requesting-code-review` (121K), `receiving-code-review` (98K).
-
-### Agent Infrastructure — 8 skills
-
-Browser automation, web design, and agent orchestration. Core infrastructure for Hermes operations.
-
-Top skills: `agent-browser` (432K, Playwright), `vercel-react-best-practices` (462K), `web-design-guidelines` (377K).
-
-### MCP & API Integration — 5 skills
-
-MCP server development, API patterns, and web scraping at scale.
-
-Top skills: `mcp-builder` (71K), `claude-api` (37K), `apify-ultimate-scraper` (12K).
-
-### Code Quality & Review — 4 skills
-
-Code review standards, testing patterns, and quality enforcement.
-
-Top skills: `requesting-code-review` (121K), `receiving-code-review` (98K), `python-testing-patterns` (24K).
-
-### Testing & QA — 4 skills
-
-Browser testing, E2E patterns, and test automation.
-
-Top skills: `webapp-testing` (92K), `e2e-testing-patterns` (18K).
-
-### Content & Social — 5 skills
-
-Content creation, research-backed writing, and social publishing.
-
-Top skills: `persona-content-creator` (17K), `content-research-writer` (5K).
-
-### AI Media — 5 skills
-
-AI avatar generation, video editing, image generation, and UI design.
-
-Top skills: `frontend-design` (521K), `video-edit` (217K), `ai-avatar-video` (118K).
-
-### Operations & Productivity — 5 skills
-
-Email-to-task automation, changelog generation, CI/CD pipeline design, and CRM automation.
-
-### Orchestration & RAG — 6 skills
-
-Multi-agent orchestration, RAG implementation, and workflow patterns.
-
-Top skills: `rag-implementation` (9.5K), `langchain-rag` (8.6K), `workflow-orchestration-patterns` (8.2K).
-
-### Infrastructure & DevOps — 5 skills
-
-Docker, Kubernetes, serverless Postgres, and monitoring for agent services.
-
-Top skills: `neon-postgres` (40.3K), `docker-expert` (18.9K), `kubernetes-specialist` (10.2K).
-
-### Platform Integrations — 11 skills
-
-Notion, Resend, Airtable, Salesforce, SharePoint, Dropbox, Box, and more.
-
-Top skills: `notion-api` (42.1K), `agent-email-inbox` (3.3K), `notion-automation` (2.7K).
-
-### Communication Bots — 4 skills
-
-Telegram, WhatsApp, Slack, and Discord bot integrations for Hermes agents.
-
-Top skills: `whatsapp-automation` (3.4K), `telegram-bot` (3.1K).
-
-### Hermes Agent Variants — 30 skills
-
-Alternative agent configurations from `nousresearch/hermes-agent`. Includes UI frameworks, creative tools, development integrations, and platform connectors. Install with `npx skills add nousresearch/hermes-agent@<variant>`.
-
-Top variants: `dogfood` (3.6K), `yuanbao` (443), `popular-web-designs` (169).
-
-### Hermes Ecosystem — 20 skills
-
-Full Hermes agent skill suite from `aradotso/hermes-skills`. Web UIs, desktop companions, mission control, self-evolution, and multi-agent orchestration.
-
-Top skills: `hermes-webui-agent` (193), `hermes-agent-self-evolution` (186).
-
-### OpenClaw Ecosystem — 23 skills
-
-Deployment, control centers, Chinese platform integrations, security, and community resources.
-
-### Security Suite — 16 skills
-
-Runtime security attestation, skill vetting, prompt injection detection, credential scanning, dependency auditing, and incident response. From `prompt-security/clawsec` and `useai-pro/openclaw-skills-security`.
-
-Top skills: `skill-auditor` (590), `setup-auditor` (384), `skill-guard` (489).
-
-### ClawPilot Ecosystem — 5 skills (June 16, 2026)
-
-Mobile-to-agent bridge: pair PocketClaw (iOS) with Hermes/OpenClaw/cc-connect hosts. See the [June 16 Discovery page](/hermes/skills/marketplace/new-june16-2026/).
-
-### Community Standalone — 10 skills
-
-Independent community contributions: Hermes importers, alternative wrappers, platform integrations, and tools.
-
----
-
-## Category Summary
-
-| Category | Count |
-|----------|:----:|
-| Growth & Engagement | 13 |
-| Research & Intelligence | 6 |
-| Lead Response & Nurture | 11 |
-| Email Operations | 7 |
-| Video Production | 6 |
-| Social Media Automation | 4 |
-| LinkedIn Integration | 3 |
-| Reddit Automation | 2 |
-| Session & Execution | 6 |
-| System Governance | 8 |
-| Infrastructure | 5 |
-| Browser & Web | 3 |
-| Core Knowledge | 4 |
-| Engineering | 8 |
-| DevOps & Kanban | 1 |
-| GBrain | 1 |
-| **Native subtotal** | **90** |
-| Marketing & Growth (marketplace) | 45 |
-| Development (marketplace) | 10 |
-| Agent Infrastructure (marketplace) | 8 |
-| MCP & API (marketplace) | 5 |
-| Code Quality (marketplace) | 4 |
-| Testing & QA (marketplace) | 4 |
-| Content & Social (marketplace) | 5 |
-| AI Media (marketplace) | 5 |
-| Operations & Productivity (marketplace) | 5 |
-| Orchestration & RAG (marketplace) | 6 |
-| Infrastructure & DevOps (marketplace) | 5 |
-| Platform Integrations (marketplace) | 11 |
-| Communication Bots (marketplace) | 4 |
-| Hermes Variants (marketplace) | 30 |
-| Hermes Ecosystem (marketplace) | 20 |
-| OpenClaw Ecosystem (marketplace) | 23 |
-| Security Suite (marketplace) | 16 |
-| ClawPilot (marketplace) | 5 |
-| Community Standalone (marketplace) | 10 |
-| **Marketplace subtotal** | **290+** |
-| **Grand Total** | **380+** |
-
----
-
-## Quick Install
+### 6. Data to Chart
+**What it does:** Takes a dataset (from any connector or upload) and generates appropriate visualizations — time series, distribution, comparison, correlation.  
+**Needs:** Any data source (accepts structured data from other skills).  
+**Why start here:** Visual insight without spreadsheet wrestling.
+
+### 7. Content Drafting Assistant
+**What it does:** Drafts blog posts, social media updates, newsletters, and other content following your brand voice. Includes tone calibration and audience targeting.  
+**Needs:** No specific connectors (optionally integrates with CMS or social platforms).  
+**Why start here:** Beat the blank page. All output is draft — you remain the editor.
+
+### 8. Code Review Companion
+**What it does:** Reviews code changes for bugs, security issues, style consistency, and documentation completeness. Provides actionable, specific feedback.  
+**Needs:** File access or repository connector.  
+**Why start here:** A second pair of eyes on every PR, catching issues before humans spend time reviewing.
+
+### 9. Travel Planner
+**What it does:** Given destination and dates, gathers flight options, hotel availability, weather forecasts, and local information. Organizes into a comparison view.  
+**Needs:** Calendar (for availability context).  
+**Why start here:** Research acceleration — you still book, but Hermes does the hunting.
+
+### 10. Knowledge Base Q&A
+**What it does:** Searches your organization's documentation, wikis, and shared drives to answer questions. "What's our vacation policy?" "How do I set up the VPN?"  
+**Needs:** Drive, wiki, or documentation connectors.  
+**Why start here:** Reduces the "just ask Bob" tax on your organization's experts.
+
+## Installing a Skill
+
+Skills from the catalog install with a single command. From the catalog page, copy the install command and run it in your Hermes terminal. The skill and its dependencies are installed to your profile.
 
 ```bash
-# Top marketing skill
-npx skills add coreyhaines31/marketingskills@seo-audit
-
-# Top development skill
-npx skills add obra/superpowers@requesting-code-review
-
-# Top infrastructure skill
-npx skills add vercel-labs/agent-browser
-
-# Install a full pack
-npx skills add coreyhaines31/marketingskills
-
-# List installed skills
-hermes skills list
+hermes skills install skill-id
 ```
 
----
+After installation, configure any required connectors. Most skills include a setup guide that walks through connector authentication. Test with a dry run before relying on the skill in production workflows.
 
-*← [Skills Overview](/hermes/skills/) | [Marketplace](/hermes/skills/marketplace/) → | ↑ [Home](/hermes/)*
+## Contributing to the Catalog
 
-*Powered by CorpusIQ*
+The skills catalog thrives on community contributions. If you've built something useful:
+
+1. Follow the [skill development best practices](../best-practices/skill-development.md)
+2. Test thoroughly in your environment
+3. Document setup, invocation, and expected output
+4. Remove environment-specific values (use placeholders)
+5. Submit through the catalog contribution process
+
+Skills are reviewed by community maintainers before publication. The review checks for documentation completeness, error handling, security considerations, and community value — not whether every edge case is handled (that's what quality tiers communicate).
+
+## Finding More Skills
+
+The catalog here represents community-validated skills. Additional skills are discoverable through:
+
+- **[skills.sh](https://skills.sh)** — Large open marketplace
+- **[agentskills.io](https://agentskills.io)** — Curated premium and community skills
+- **[hermeshub](https://hermeshub.nousresearch.com)** — Official Hermes skill registry
+- **[skilldock.io](https://skilldock.io)** — Enterprise-focused skill marketplace
+- **GitHub** — Search for "hermes-skill" or "hermes-skill-" prefixed repositories
+
+See [Skill Marketplaces](../skills/skill-marketplaces.md) for detailed guidance on each marketplace.
+
+The catalog is a living resource. Skills are added weekly. Check back often, and consider contributing what you build.
