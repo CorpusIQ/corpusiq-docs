@@ -3,6 +3,7 @@ site_url: https://www.corpusiq.io/docs/
 repo_url: https://github.com/CorpusIQ/corpusiq-docs
 repo_name: CorpusIQ/corpusiq-docs
 edit_uri: edit/main/docs/
+use_directory_urls: false
 
 theme:
   name: material
