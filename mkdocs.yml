@@ -1,0 +1,77 @@
+site_name: CorpusIQ Docs
+site_url: https://www.corpusiq.io/docs/
+repo_url: https://github.com/CorpusIQ/corpusiq-docs
+repo_name: CorpusIQ/corpusiq-docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Anchor link to this section
+
+plugins:
+  - search
+  - awesome-pages
+
+nav:
+  - Home: index.md
+  - Quick Start: quick-start.md
+  - API:
+      - Overview: api/overview.md
+      - Authentication: api/authentication.md
+      - Endpoints: api/endpoints.md
+      - Schemas: api/schemas.md
+      - Webhooks: api/webhooks.md
+      - Rate Limits: api/rate-limits.md
+      - Errors: api/errors.md
+      - OpenAPI: api/openapi.md
+  - Connectors: connectors.md
+  - Architecture:
+      - Overview: architecture/README.md
+  - Security:
+      - Overview: security/README.md
+      - Compliance: security.md
+  - AI Integration:
+      - ChatGPT: chatgpt-integration.md
+      - AI Agent Users: ai-agent-users.md
+      - AI Chat Users: ai-chat-users.md
+      - Supported Agents: supported-agents.md
+  - Search: search/README.md
+  - Reporting: reporting/README.md
+  - Onboarding: onboarding/README.md
+  - Governance: governance/README.md
+  - Changelog: changelog.md
