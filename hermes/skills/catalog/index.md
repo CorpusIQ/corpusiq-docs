@@ -133,6 +133,12 @@ Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically wh
 | `system-audit-before-automation` | System inspection and config discovery before automation |
 | `openclaw-system-inspection` | Discover what's actually configured on OpenClaw |
 
+### DevOps & Kanban (1)
+
+| Skill | What It Does |
+|-------|-------------|
+| `kanban-worker` | Pitfalls, examples, and edge cases for Hermes Kanban workers — deeper detail beyond auto-injected guidance |
+
 ### Infrastructure (5)
 
 | Skill | What It Does |
@@ -366,6 +372,21 @@ Full Hermes agent skill suite from `aradotso/hermes-skills`. UI frameworks, desk
 
 **Install:** `npx skills add aradotso/hermes-skills@<skill-name>`. See the [June 11 Discoveries](/hermes/skills/marketplace/new-june11-2026/) page for full setup guides.
 
+### 🆕 Mobile Agent Interface — 5 skills (June 16, 2026)
+
+ClawPilot bridges PocketClaw (iOS mobile app) to Hermes Agent, OpenClaw, and cc-connect host runtimes. Pair your phone, send files, diagnose issues, and manage agents from mobile.
+
+| Skill | Installs | What It Does |
+|-------|----------|-------------|
+| `clawpilot` | 241 | Main skill — OpenClaw expert with security audit, config inspection, session scanning |
+| `clawpilot-pair` | 29 | Generate pairing codes to connect PocketClaw to Hermes/OpenClaw/cc-connect hosts |
+| `clawpilot-send` | 22 | Send local/generated files from host back to PocketClaw mobile |
+| `clawpilot-config` | 21 | Validate and fix host configuration for pairing, auth, and host-side operations |
+| `clawpilot-doctor` | 20 | Diagnose and repair ClawPilot host issues — status, logs, restart, update, self-repair |
+
+→ [📖 Full Setup Guide: ClawPilot Ecosystem](/hermes/skills/catalog/clawpilot-ecosystem-setup/)  
+→ [🔍 June 16 Discovery Page](/hermes/skills/marketplace/new-june16-2026/)
+
 ### 🆕 OpenClaw Ecosystem — 23 skills (June 11, 2026 Evening)
 
 Deployment, control centers, Chinese platform integrations, security, and community resources from `aradotso/hermes-skills`. All OpenClaw skills require OpenClaw installed (`pip install openclaw`).
@@ -533,7 +554,7 @@ Complete security suite from `useai-pro/openclaw-skills-security` (UseClawPro/Us
 | Core Knowledge | 4 |
 | GBrain | 1 |
 | Engineering | 8 |
-| **Native subtotal** | **89** |
+| **Native subtotal** | **90** |
 | Marketing & Growth (marketplace) | 45 |
 | Development (marketplace) | 10 |
 | Creative & Media (marketplace) | 3 |
@@ -559,8 +580,8 @@ Complete security suite from `useai-pro/openclaw-skills-security` (UseClawPro/Us
 | Hermes Ecosystem (marketplace) 🆕 | 4 |
 | TTS & Audio (marketplace) 🆕 | 3 |
 | Hermes Security & UI (marketplace) 🆕 | 3 |
-| **Marketplace subtotal** | **285** |
-| **Total** | **374** |
+| **Marketplace subtotal** | **290** |
+| **Total** | **380** |
 
 ## Using Skills
 
