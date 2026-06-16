@@ -5,7 +5,7 @@ description: Daily sweep found 23 unlisted nousresearch/hermes-agent skills with
 
 # June 15, 2026 — Nous Research Hermes Agent Expansion
 
-Recently discovered **23 unlisted skills** from the official `nousresearch/hermes-agent` repository — all with **131-158 installs** each. These skills were present in the June 13 massive expansion (72 skills catalogued) but were missed previously. This fills the gap.
+Daily sweep surfaced **23 unlisted skills** from the official `nousresearch/hermes-agent` repository — all with **131-158 installs** each. These skills were present in the June 13 massive expansion (72 skills catalogued) but were missed during that sweep. This fills the gap.
 
 The skills span 7 categories: Creative & Media (11), Development & Testing (4), macOS Automation (3), Data & ML (2), Productivity (2), and Smart Home (1).
 

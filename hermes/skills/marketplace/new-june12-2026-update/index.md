@@ -5,7 +5,7 @@ description: Afternoon sweep: 13-skill OpenClaw security suite discovered from u
 
 # June 12, 2026 (Update) — OpenClaw Security Suite
 
-Recently discovered the **`useai-pro/openclaw-skills-security`** repository from **UseClawPro** (UseAI.pro): a complete 13-skill security suite for the OpenClaw ecosystem. The flagship `skill-vetter` has **19,340 installs** — one of the highest-install Hermes/OpenClaw skills discovered to date.
+Afternoon sweep surfaced the **`useai-pro/openclaw-skills-security`** repository from **UseClawPro** (UseAI.pro): a complete 13-skill security suite for the OpenClaw ecosystem. The flagship `skill-vetter` has **19,340 installs** — one of the highest-install Hermes/OpenClaw skills discovered to date.
 
 All 13 skills are instruction modules (`SKILL.md`) — they don't run on their own. Load them into a host agent (Hermes Agent / Claude Code / Codex CLI / OpenClaw) or paste into any LLM chat. Trust scores range from 93–98. All skills audited Feb–Mar 2026. AGPL-3.0-or-later licensed.
 

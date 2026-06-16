@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 12, 2026   · **Sources:** mcp.so (22,194+ servers), mcpservers.org (8,961)
+> **Last updated:** June 16, 2026 (morning sweep) · **Sources:** mcp.so (22,380 servers), mcpservers.org (9,000+)
 
 ---
 
@@ -458,7 +458,7 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ## New This Week (June 11, 2026 — mcp.so + mcpservers.org)
 
-### Recently discovered servers
+### Afternoon sweep — 10 new servers from mcp.so Latest + mcpservers.org All
 
 | Server | Category | Description |
 |--------|----------|-------------|
@@ -473,7 +473,7 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 | QA Skills | Dev/Infra | 43 QA and test-automation skills for AI agents |
 | Smart Match | Productivity | AI job matching, resume scoring, cover letter generation |
 
-### Recently discovered servers
+### Morning sweep — 11 servers
 
 | Server | Category | Description |
 |--------|----------|-------------|
@@ -489,7 +489,7 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 | Capafy | Productivity | Monetize agent skills — "App Store for agent products" |
 | Doorprofit | Analytics/Data | US crime, safety, demographic, and rent data by address |
 
-### Recently discovered servers
+### Evening sweep — 11 new servers from mcp.so Latest + mcpservers.org All
 
 | Server | Category | Description |
 |--------|----------|-------------|
@@ -505,7 +505,58 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 | Vidoly AI | Content Creation | AI image & video generation for social media, branding, ecommerce |
 | IRONCLAW BTC Node | Finance | Bitcoin blockchain data — 17 tools, x402 USDC micropayments, no API keys |
 
-## New This Week
+## New This Week (June 16, 2026 — morning mega-sweep)
+
+### 46 new servers from mcp.so Latest + mcpservers.org Finance + Marketing + Productivity
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Savvly MCP Server | Finance | Retirement projections, SEC-registered longevity fund, milestone payouts ages 80-95 |
+| AusEcon MCP | Finance | Australian economic data — ABS, RBA, APRA statistics |
+| Lovie — Company Formation MCP | Finance | Company formation, banking, cards, invoices, payments via AI agents |
+| GoldLegal Legal Compliance API | Finance/Legal | AI legal compliance — contract review, EU AI Act, China AI reg, risk scoring |
+| Personal Finance MCP Server | Finance | Compound interest, loan amortization, retirement planning, tax estimation |
+| hourledger-mcp | Finance/HR | Work hours, overtime, gross pay — US federal, CA, AK, CO, NV law |
+| LoneStarOracle MCP Server | Finance | 38 tools — crypto, DeFi, equities, energy, weather, real estate, on-chain |
+| RealMarketAPI MCP Server | Finance | Real-time gold, forex, crypto, stock data — ultra-low latency |
+| FinData MCP | Finance | Stock quotes, fundamentals, SEC filings, crypto via x402 micropayments |
+| ACCRUE | Finance/DeFi | Non-custodial stablecoin yield — SYX + 12 USDC vault APYs |
+| ERABI | Finance/DeFi | Open intent exchange — cryptographic agent identity, reputation-ranked discovery |
+| signer-mcp | Finance/Security | Keyless CEX/DEX signing — API keys in AWS Nitro Enclave |
+| Periodix Actions | Marketing/Sales | LinkedIn & Sales Navigator search — 4.9/5 on G2 |
+| SEOcrawl AI | Marketing/SEO | SEO + GEO MCP — 21 tools, live GSC data, keyword analysis, site audits |
+| Feedoptimise AI Feed Agent | Marketing/Ecom | Product feed auditing — Google Shopping, Meta, Amazon, TikTok |
+| Assay Truth Graph MCP | Marketing/Sales | GTM agent grounding in governed, cited company truth |
+| Toksta MCP Server | Marketing | B2B creator intelligence — LinkedIn/YouTube creator search, enrich, score |
+| Adology AI | Marketing | Competitive social ad intelligence — "Perplexity for social ads" |
+| IndustryLens | Marketing/Sales | Competitive intelligence reports — live B2B SaaS data, sources cited |
+| GSC Wizard MCP | Marketing/SEO | Google Search Console analytics for AI agents |
+| auto-geo ★ Official | Marketing/SEO | GEO-optimized content publishing engine for AI visibility |
+| Orcool Studio MCP | Marketing/Creative | 107 tools — UGC concepts, AI avatars, Veo 3 video ad production |
+| Local AI Visibility | Marketing/SEO | Share-of-Model score — AI visibility check for local businesses |
+| Forward | Marketing/Sales | Pay-per-verified-result customer acquisition — $25 free credits |
+| HYPD.AI | Marketing | Ad campaign creation/management/optimization on ChatGPT |
+| Etymolt | Marketing/Legal | Trademark, domain, cultural, sound-symbolism brand verdicts |
+| Progi | Productivity | MCP-native workflow engine — teach your agent your processes |
+| PDFGate | Productivity | Document generation, PDFs, e-signature workflows |
+| ProposalCraft | Productivity | Client proposal drafting in your own voice — local, no API key |
+| Collaboard MCP Server | Productivity | Whiteboard creation, search, analysis for visual collaboration |
+| DevMatch | Productivity/HR | AI recruiting for mission-aligned engineers across GitHub, X, YouTube |
+| Feedback Synthesis MCP | Productivity/Research | Customer feedback synthesis — GitHub Issues, HN, App Store via x402 |
+| Docsie | Productivity | Documentation management, video-to-docs, compliance analysis |
+| Historis | Productivity | Shared timeline — team context, what happened, what needs handling |
+| Numbers Online — Phone Intel | Communication | AI voice agent phone intelligence — caller ID, risk, DNC, signed receipts |
+| Semust | Marketing/SEO | SEO Tools MCP |
+| SendPulse MCP | Marketing | 134 methods across email campaigns, CRM, chatbots, SMTP |
+| Prompty.tools | Productivity | Prompt optimization tools |
+| Noogat | Productivity | Voice-first note-taking with MCP integration |
+| Kangram MCP | Productivity | Telegram-native task management for AI agents and distributed teams |
+| Pinako AI Bridge | Productivity | Browser tabs, bookmarks, notes connected to AI clients |
+| IndoTender | Productivity/Regional | Indonesia LPSE tenders, company profiles, procurement data |
+| Codepic | Design | Editable hand-drawn diagrams — create, update, export PNG/JSON |
+| VoidMob MCP | Dev/Infra | Mobile proxies, SMS verification, eSIM data plans — 25 tools |
+
+## New This Week (June 12, 2026 — morning sweep)
 
 ### 7 new servers from mcp.so Latest + mcpservers.org All
 
@@ -519,7 +570,7 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 | Blog2Video | Content Creation | Convert blog URLs to video in under 3 minutes via MCP |
 | chain-signer | Security/Finance | Pre-signature security suite for EVM agents — wallet drain and phishing protection |
 
-## Previous Additions
+## Previous Additions (June 10, 2026 — sweep 2)
 
 | Server | Category | Description |
 |--------|----------|-------------|
@@ -538,7 +589,7 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 | Wikimint | Productivity | Knowledge management and wiki tools |
 | Flomo MCP Server | Productivity | Flomo notes integration for knowledge management |
 
-## June 10, 2026
+## June 10, 2026 (sweep 1)
 
 ---
 

@@ -142,7 +142,7 @@ Submit via the [Hermes community GitHub repository](https://github.com/nousresea
 
 ### 3. What Happens Next
 
-Submitted skills go through automated discovery that runs weekly. The curation process checks:
+Submitted skills go through automated discovery sweeps that run weekly. The curation process checks:
 
 1. The skill installs without errors (`npx skills add <repo>@<skill>`)
 2. The SKILL.md is well-formed and parseable

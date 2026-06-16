@@ -272,6 +272,17 @@ hermes mcp add corpusiq -- url https://mcp2.corpusiq.io/mcp
 
 [Full MCP guide →](/hermes/mcp/)
 
+### MCP Directory Submissions
+
+We maintain CorpusIQ listings across MCP directories:
+
+| Directory | Status | URL |
+|-----------|--------|-----|
+| **Smithery** | ✅ Live | [smithery.ai](https://smithery.ai) |
+| **mcp.so** | ✅ Live | [mcp.so](https://mcp.so) |
+| **mcpservers.org** | ✅ Live | [mcpservers.org](https://mcpservers.org) |
+| **glama.ai** | ⏳ Pending | Manual browser OAuth required |
+
 ---
 
 ## ⏰ Production Crons

@@ -1,13 +1,13 @@
 ---
 title: June 11, 2026 — Update (19 New Skills)
-description: 19 additional Hermes-relevant skills discovered. Agent architecture, UI dashboards, Nous variants, and OpenClaw ecosystem.
+description: 19 additional Hermes-relevant skills discovered in afternoon sweep. Agent architecture, UI dashboards, Nous variants, and OpenClaw ecosystem.
 ---
 
 # June 11, 2026 — Update: 19 New Skills
 
 Afternoon sweep of [skills.sh](https://skills.sh) found **19 additional skills** not in the morning discovery. Covers new Hermes agent architecture patterns, UI dashboards, Nous Research official variants, and OpenClaw ecosystem tools.
 
-*Previously cataloged: aradotso/hermes-skills (20), membranedev/application-skills (10), nousresearch/hermes-agent (2), community standalone (5), aradotso/trending-skills (1).*
+*Previously cataloged in morning sweep: aradotso/hermes-skills (20), membranedev/application-skills (10), nousresearch/hermes-agent (2), community standalone (5), aradotso/trending-skills (1).*
 
 ---
 
