@@ -120,20 +120,20 @@ brew install ffmpeg
 ```bash
 # On DGX Spark
 ssh-keygen -t ed25519 -f ~/.ssh/mac-mini
-ssh-copy-id -i ~/.ssh/mac-mini.pub media@medias-mac-mini.local
+ssh-copy-id -i ~/.ssh/mac-mini.pub user@worker-node.local
 
 # Test
-ssh media@medias-mac-mini.local "echo connected"
+ssh user@worker-node.local "echo connected"
 ```
 
 ### 3. Worker Scripts
 
 ```bash
 # Deploy video pipeline workers
-scp ~/hermes-worker/videos/* media@medias-mac-mini.local:~/worker/videos/
+scp ~/worker/videos/* user@worker-node.local:~/worker/videos/
 
 # Deploy Postiz scripts
-scp ~/hermes-worker/social/* media@medias-mac-mini.local:~/worker/social/
+scp ~/worker/social/* user@worker-node.local:~/worker/social/
 ```
 
 ---
@@ -145,23 +145,23 @@ scp ~/hermes-worker/social/* media@medias-mac-mini.local:~/worker/social/
 ```bash
 # On DGX Spark:
 # 1. Generate video with HeyGen API
-python3 spark-heygen-direct.py
+python3 heygen-video-generator.py
 
 # 2. Post-produce with FFmpeg
 ffmpeg -i input.mp4 -vf "zoompan=..." -c:a copy output.mp4
 
 # 3. Transfer to Mac Mini
-scp output.mp4 media@medias-mac-mini.local:~/worker/videos/
+scp output.mp4 user@worker-node.local:~/worker/videos/
 
 # 4. Publish via Postiz (on Mac Mini)
-ssh media@medias-mac-mini.local "postiz upload ~/worker/videos/output.mp4 && postiz posts:create --platform tiktok --video output.mp4"
+ssh user@worker-node.local "postiz upload ~/worker/videos/output.mp4 && postiz posts:create --platform tiktok --video output.mp4"
 ```
 
 ### Pattern 2: Social Publishing
 
 ```bash
 # On DGX Spark (or via cron):
-ssh media@medias-mac-mini.local "postiz posts:create \
+ssh user@worker-node.local "postiz posts:create \
   --platform x \
   --connector cmpoar9y201icl70y7iof708s \
   --content 'Your post text here'"
@@ -171,7 +171,7 @@ ssh media@medias-mac-mini.local "postiz posts:create \
 
 ```bash
 # On Mac Mini (via SSH from DGX):
-ssh media@medias-mac-mini.local "python3 ~/worker/browser/task.py"
+ssh user@worker-node.local "python3 ~/worker/browser/task.py"
 ```
 
 ---
@@ -212,8 +212,8 @@ hermes mcp test corpusiq
 hermes mcp test honcho
 
 # On Mac Mini
-ssh media@medias-mac-mini.local "postiz list"
-ssh media@medias-mac-mini.local "pgrep -f playwright"
+ssh user@worker-node.local "postiz list"
+ssh user@worker-node.local "pgrep -f playwright"
 ```
 
 ### Disk & Memory
@@ -246,7 +246,7 @@ journalctl --user -u hermes-gateway -n 100
 
 ```bash
 # Ping test
-ping medias-mac-mini.local
+ping worker-node.local
 
 # If down: Postiz and browser automation will queue
 # Crons will skip with error → retry on next tick

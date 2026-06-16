@@ -42,8 +42,8 @@ description: Common issues and fixes for Hermes agent deployment. Browser, OAuth
 | Symptom | Cause | Fix |
 |---------|-------|-----|
 | `Connection refused` | SSH not running or firewall | `sudo systemctl enable ssh --now` on Mac Mini |
-| `Permission denied` | Key not in authorized_keys | `ssh-copy-id media@medias-mac-mini.local` |
-| `Host key verification failed` | Machine reimaged | `ssh-keygen -R medias-mac-mini.local` |
+| `Permission denied` | Key not in authorized_keys | `ssh-copy-id user@worker-node.local` |
+| `Host key verification failed` | Machine reimaged | `ssh-keygen -R worker-node.local` |
 
 ## Playwright
 

@@ -786,7 +786,7 @@ Nightly integrity checks: registry consistency, skill/cron alignment, token heal
 ### CorpusIQ Email Operations
 [Email Ops →](/hermes/governance/email/)
 
-Autonomous inbox management: 4-tier classification, SLA-based response, Gmail API integration. media@ + info@ monitored every 15 minutes.
+Autonomous inbox management: 4-tier classification, SLA-based response, Gmail API integration. team@ + info@ monitored every 15 minutes.
 
 ---
 

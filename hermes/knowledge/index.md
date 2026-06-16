@@ -31,12 +31,12 @@ hermes mcp add honcho -- npx mcp-remote https://mcp.honcho.dev \
 **What it stores:**
 
 ```
-Peer: benoit
-├── Preferences: short, blunt, truth-only, no fluff
-├── Platform bans: Reddit (perm), HN (shadow), LinkedIn (bot detect)
-├── Rules: "Corpus IQ" two words, no em dashes, post today not tomorrow
-├── Decisions: Jun 12 - paused all YT crons, Jun 15 - mass cron restart
-└── Context: cofounder, not assistant. Full autonomy expected.
+Peer: user
+├── Preferences: stored and retrieved across sessions
+├── Platform bans: tracked per platform
+├── Rules: business rules and communication preferences
+├── Decisions: dated decision log
+└── Context: role, autonomy level, communication style
 
 Peer: corpusiq-agent
 ├── Self-conclusions: What I learned, what I fixed
@@ -57,7 +57,7 @@ mcp_honcho_schedule_dream      — Queue memory consolidation
 
 ```python
 # Before EVERY external action, check Honcho
-peer = honcho_get_peer_context(target_peer_id="benoit")
+peer = honcho_get_peer_context(target_peer_id="user")
 # Check: Is this platform banned?
 # Check: Any rules about this action?
 # Check: Was this already done?
@@ -85,7 +85,7 @@ Organization: CorpusIQ
 ├── Files: 729 indexed (code, docs, configs, scripts)
 ├── Embeddings: nomic-embed-text, 768-dimension
 ├── Categories: infrastructure, video, governance, email, social
-└── Relationships: "spark-heygen-direct.py" → depends on → "heygen.json"
+└── Relationships: "heygen-video-generator.py" → depends on → "heygen.json"
 ```
 
 **Query pattern:**

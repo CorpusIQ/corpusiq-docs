@@ -39,14 +39,14 @@ description: Autonomous email monitoring, routing, and response for production a
 
 # Email Operations
 
-The platform autonomously monitors two inboxes (`media@` and `info@`) handling lead qualification, internal routing, research, draft generation, and escalation.
+The platform autonomously monitors two inboxes (`team@` and `info@`) handling lead qualification, internal routing, research, draft generation, and escalation.
 
 ## Inbox Architecture
 
 | Inbox | Purpose | Agent |
 |-------|---------|-------|
-| media@corpusiq.io | Business operations, growth, partnerships | Growth Agent |
-| info@corpusiq.io | Inquiries, support routing | General Agent |
+| team@example.com | Business operations, growth, partnerships | Growth Agent |
+| info@example.com | Inquiries, support routing | General Agent |
 
 ## Monitoring Pipeline
 
@@ -60,7 +60,7 @@ Emails classified by: lead quality (business domain scoring), urgency, required 
 ### Routing
 - **Sales/partnership** → Growth Agent with research context
 - **Technical/support** → Dev team
-- **Job applications** → benoitpecqueur@me.com (forwarded)
+- **Job applications** → personal inbox (forwarded)
 - **Unknown** → Manual review queue
 
 ## Email Standards

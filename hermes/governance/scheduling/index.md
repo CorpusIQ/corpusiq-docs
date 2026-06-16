@@ -26,12 +26,12 @@
 
 ```
 eef64b6eed8e  */15 * * * *     email-monitor           no_agent    Telegram T2
-              └─ Check media@ + info@ every 15 min
+              └─ Check team@ + info@ every 15 min
               └─ 4-tier classification: HIGH_VALUE, QUALIFIED, INTERESTED, SPAM
               └─ HIGH_VALUE → instant Telegram alert → 30min SLA
 
 577abcb19c93  */15 * * * *     forward-handler         no_agent    local
-              └─ Forward job replies: media@ → benoitpecqueur@me.com
+              └─ Forward job replies: team@ → personal inbox
 
 d6c65b56ba64  */30 * * * *     email-responder         AI agent    local
               └─ AI-powered HTML responses to qualified leads
@@ -149,7 +149,7 @@ c63dd7058200  0 7 * * *         daily-growth-geo        AI agent    Telegram T2
 ### Job Search
 
 ```
-06f4f056ade8  0 7 * * *         benoit-job-search       AI agent    Telegram T2
+06f4f056ade8  0 7 * * *         executive-job-search       AI agent    Telegram T2
               └─ 7 AM: Search for executive roles, generate resumes
               └─ CONFIDENTIAL — never mention CorpusIQ
 ```
@@ -261,7 +261,7 @@ The 10 PM system health monitor checks:
 ```python
 # What it verifies nightly:
 check_1 = cronjob_list()                    # All crons running?
-check_2 = gmail_token_valid()              # media@ + info@ tokens
+check_2 = gmail_token_valid()              # team@ + info@ tokens
 check_3 = github_token_valid()             # Classic PAT
 check_4 = heygen_token_valid()             # Video pipeline
 check_5 = postiz_integrations_alive()      # X + LinkedIn + TikTok + Instagram

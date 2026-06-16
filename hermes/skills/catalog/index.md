@@ -66,7 +66,7 @@ Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically wh
 
 | Skill | What It Does |
 |-------|-------------|
-| `corpusiq-dual-email-account-control` | Unified master monitor for media@ + info@ CorpusIQ inboxes |
+| `corpusiq-dual-email-account-control` | Unified master monitor for team@ + info@ CorpusIQ inboxes |
 | `corpusiq-dual-account-oauth-automation` | Persistent OAuth token management for dual Gmail accounts |
 | `corpusiq-email-account-setup` | Gmail account configuration and management |
 | `corpusiq-email-operating-rules` | Authoritative email operating policy |
@@ -172,7 +172,7 @@ Built and maintained for the CorpusIQ Hermes deployment. Loaded automatically wh
 | `corpusiq-fundamentals` | Complete CorpusIQ product knowledge, core thesis, positioning |
 | `corpusiq-guardrails` | Hard guardrails enforced before any external action |
 | `corpusiq-daily-html-reporting` | Automated daily HTML report (6 PM Arizona, every day) |
-| `benoit-email-report-format` | HTML assessment reports with navy gradient header + gold tag |
+| `automated-email-report-format` | HTML assessment reports with navy gradient header + gold tag |
 
 ### GBrain Operations (1)
 

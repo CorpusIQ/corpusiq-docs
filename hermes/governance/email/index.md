@@ -10,18 +10,18 @@ CorpusIQ agents manage multiple email accounts autonomously — monitoring, resp
 ## Dual Account Architecture
 
 ```
-media@corpusiq.io (primary)
+team@example.com (primary)
   ├─ Growth operations
   ├─ Inbound lead responses
   ├─ Outbound cold email
   └─ Daily reports
 
-info@corpusiq.io (secondary)
+info@example.com (secondary)
   ├─ General inquiries
   ├─ Partnership requests
-  └─ Forwarded to media@ for processing
+  └─ Forwarded to team@ for processing
 
-benoitpecqueur@me.com (personal)
+personal@example.com (personal)
   ├─ Job applications (confidential)
   └─ Never in daily reports
 ```
@@ -32,7 +32,7 @@ A master monitor checks both accounts every 30 minutes:
 
 ```python
 # Dual-account monitor
-accounts = ["media@corpusiq.io", "info@corpusiq.io"]
+accounts = ["team@example.com", "info@example.com"]
 for account in accounts:
     new_messages = check_inbox(account, since=last_check)
     for msg in new_messages:
@@ -42,7 +42,7 @@ for account in accounts:
 ## Send Checklist (HARD GATE)
 
 Before ANY outbound email, verify:
-1. ✅ Correct from address (media@ for business, benoitpecqueur@ for personal)
+1. ✅ Correct from address (team@ for business, personal@ for personal)
 2. ✅ Correct signature and phone number policy
 3. ✅ HTML formatting validates
 4. ✅ No emdashes (—) — use hyphens only
@@ -72,9 +72,9 @@ All outbound email uses professional HTML templates:
 ## Forwarding Rules
 
 ```
-info@corpusiq.io → forwards unclear replies to media@
-media@corpusiq.io → agent processes directly
-benoitpecqueur@me.com → NEVER forwarded, confidential
+info@example.com → forwards unclear replies to team@
+team@example.com → agent processes directly
+personal@example.com → NEVER forwarded, confidential
 ```
 
 ## Common Operations

@@ -31,4 +31,4 @@ Coordinates with HeyGen API for UGC video generation. Scripts and review workflo
 - Playwright for browser automation
 
 ## Connection
-Accessible from DGX Spark via SSH: `ssh media@medias-mac-mini.local`
+Accessible from DGX Spark via SSH: `ssh user@worker-node.local`

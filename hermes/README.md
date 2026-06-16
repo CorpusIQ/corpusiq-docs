@@ -393,31 +393,17 @@ Autonomous content production running daily:
 
 ### Video Pipeline (6 AM Daily)
 
-```
-UGC Scenario Library (10 scenarios)
-    │
-    ▼
-Avatar Rotation (6 avatars, gender-balanced)
-    │
-    ▼
-Script Generation (Hook→Problem→Discovery→Result→CTA)
-    │
-    ▼
-HeyGen v2 API (video generation)
-    │
-    ▼
-FFmpeg Post-Production (Ken Burns + Gradient)
-    │
-    ▼
-Email to Benoit for review
-    │
-    ▼ (APPROVED)
-SCP to Mac Mini → Postiz Upload → TikTok + Instagram + YouTube Shorts
-```
+Fully automated UGC video production:
+- Scenario library with rotation to prevent repeats
+- Avatar rotation with gender-balanced casting
+- AI-powered script generation
+### Video Pipeline (6 AM Daily)
+
+Fully automated UGC video production: scenario rotation library, avatar casting, AI script generation, HeyGen v2 API rendering, FFmpeg post-production, and multi-platform distribution to TikTok, Instagram, and YouTube Shorts.
 
 ### Social Publishing (3x Daily)
 
-Morning (6 AM), Midday (9 AM), Afternoon (3 PM). X + LinkedIn Page via Postiz. All posts are help-first — solve operator problems before mentioning product.
+Scheduled posting across X and LinkedIn. Help-first content strategy — solve operator problems before mentioning product.
 
 [Full content operations guide →](/hermes/content-ops/)
 
@@ -436,14 +422,7 @@ Every component is registered before creation. No duplicates. No orphaned code. 
 
 ### Email Operations
 
-```
-Every 15 minutes:
-  ├── Check media@corpusiq.io + info@corpusiq.io
-  ├── 4-tier classification (HIGH_VALUE, QUALIFIED, INTERESTED, SPAM)
-  ├── HIGH_VALUE → Instant Telegram alert → 30min response SLA
-  ├── QUALIFIED → JSON log → 2hr response SLA
-  └── Job replies → Forward to benoitpecqueur@me.com
-```
+Autonomous inbox management with tiered classification and SLA-based response routing.
 
 ### Nightly Self-Improvement (11 PM)
 
@@ -529,7 +508,7 @@ From a real deployment running 24/7:
 | **Memory systems** | 6 (Honcho, GBrain, memcore-cloud, GraphRAG, Dream Cycle, Session DB) |
 | **Business connectors** | 37+ (via CorpusIQ MCP) |
 | **Platforms published to** | 5 (X, LinkedIn, TikTok, Instagram, YouTube) |
-| **Email inboxes monitored** | 2 (media@ + info@) |
+| **Email inboxes monitored** | 2 (team@ + info@) |
 | **Cost optimization** | ~65% savings via multi-model routing |
 | **Uptime** | 24/7 since June 12, 2026 |
 

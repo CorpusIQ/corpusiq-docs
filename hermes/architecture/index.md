@@ -96,7 +96,7 @@ HeyGen UGC production (narration, avatars, captions). Postiz multi-platform publ
 
 ## Governance
 
-System Registry validates before creation. Email operations monitor media@ + info@. 38 active scheduled processes monitored and verified. Token lifecycle management with refresh automation, expiration monitoring, and alerting.
+System Registry validates before creation. Email operations monitor team@ + info@. 38 active scheduled processes monitored and verified. Token lifecycle management with refresh automation, expiration monitoring, and alerting.
 
 ---
 

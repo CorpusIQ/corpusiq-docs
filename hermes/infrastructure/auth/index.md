@@ -11,7 +11,7 @@ Autonomous agents require persistent, reliable authentication across multiple se
 
 | Service | Auth Type | Management |
 |---------|-----------|------------|
-| Gmail (media@, info@) | OAuth 2.0 | Token refresh automation |
+| Gmail (team@, info@) | OAuth 2.0 | Token refresh automation |
 | YouTube | OAuth 2.0 | Brand account support |
 | HeyGen | API Key | Rotation monitoring |
 | Postiz | API Key | Multi-platform publishing |
