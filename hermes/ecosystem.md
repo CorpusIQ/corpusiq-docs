@@ -364,7 +364,7 @@ Persistent context across sessions for every agent. Captures everything your age
 ### garrytan/gbrain
 ⭐ **22,991** · `Python` · [github.com/garrytan/gbrain](https://github.com/garrytan/gbrain)
 
-Garry's Opinionated OpenClaw/Hermes Agent Brain. Persistent organizational memory with file indexing, semantic search, and knowledge consolidation. 729+ indexed files in our deployment.
+Garry's Opinionated OpenClaw/Hermes Agent Brain. Persistent organizational memory with file indexing, semantic search, and knowledge consolidation. used in production Hermes deployments.
 
 **Maintainer:** Garry Tan (Y Combinator)  
 **Key capabilities:** File indexing, semantic search, pglite database, 768d embeddings, Dream Cycle consolidation  

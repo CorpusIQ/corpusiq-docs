@@ -253,7 +253,7 @@ SESSION END (or every 30 min)
 
 ## Production Numbers
 
-From our deployment (as of June 16, 2026):
+From production Hermes deployments:
 
 | System | Data Volume | Query Speed |
 |--------|------------|-------------|
