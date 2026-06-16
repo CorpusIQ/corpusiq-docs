@@ -1,13 +1,13 @@
 ---
 title: Hermes Ecosystem — Complete Resource Directory
-description: The definitive directory of Hermes Agent resources — 121+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
+description: The definitive directory of Hermes Agent resources — 220+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
 ---
 
 # Hermes Ecosystem — Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 121+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 220+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 16, 2026 · **Repos indexed:** 121+ · **Categories:** 14
+> **Last updated:** June 16, 2026 · **Repos indexed:** 220+ · **Categories:** 18
 >
 > Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -18,19 +18,23 @@ The most comprehensive directory of Hermes Agent resources in existence. 121+ re
 | Category | Count | Jump |
 |----------|-------|------|
 | [Core & Official](#-core--official) | 5 | [↓](#-core--official) |
-| [Documentation & Learning](#-documentation--learning) | 8 | [↓](#-documentation--learning) |
+| [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
 | [Community & Awesome Lists](#-community--awesome-lists) | 12 | [↓](#-community--awesome-lists) |
-| [UI & Dashboards](#-ui--dashboards) | 8 | [↓](#-ui--dashboards) |
-| [Memory & Knowledge](#-memory--knowledge) | 12 | [↓](#-memory--knowledge) |
-| [MCP & Integrations](#-mcp--integrations) | 8 | [↓](#-mcp--integrations) |
-| [Skills & Plugins](#-skills--plugins) | 15 | [↓](#-skills--plugins) |
-| [Orchestration & Multi-Agent](#-orchestration--multi-agent) | 8 | [↓](#-orchestration--multi-agent) |
-| [Deployment & Infrastructure](#-deployment--infrastructure) | 10 | [↓](#-deployment--infrastructure) |
+| [UI & Dashboards](#-ui--dashboards) | 10 | [↓](#-ui--dashboards) |
+| [Memory & Knowledge](#-memory--knowledge) | 14 | [↓](#-memory--knowledge) |
+| [MCP & Integrations](#-mcp--integrations) | 18 | [↓](#-mcp--integrations) |
+| [Skills & Plugins](#-skills--plugins) | 32 | [↓](#-skills--plugins) |
+| [Tools & Utilities](#-tools--utilities) | 16 | [↓](#-tools--utilities) |
+| [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
+| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 12 | [↓](#-orchestration-multi-agent--swarms) |
+| [Deployment & Infrastructure](#-deployment--infrastructure) | 14 | [↓](#-deployment--infrastructure) |
 | [Security & Governance](#-security--governance) | 5 | [↓](#-security--governance) |
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
 | [Content & Media](#-content--media) | 6 | [↓](#-content--media) |
 | [Platform-Specific](#-platform-specific) | 10 | [↓](#-platform-specific) |
-| [Specialized Applications](#-specialized-applications) | 8 | [↓](#-specialized-applications) |
+| [Domain Applications](#-domain-applications) | 15 | [↓](#-domain-applications) |
+| [Forks & Derivatives](#-forks--derivatives) | 4 | [↓](#-forks--derivatives) |
+| [Guides](#-guides) | 2 | [↓](#-guides) |
 
 ---
 
@@ -257,7 +261,7 @@ Curated resources for OpenClaw (Hermes predecessor) with native Hermes migration
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 36+ pages, 121+ repos indexed, 133+ skills cataloged, 37+ MCP connectors, 38-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 36+ pages, 220+ repos indexed, 133+ skills cataloged, 37+ MCP connectors, 38-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture/) · [Knowledge →](/hermes/knowledge/) · [Crons →](/hermes/governance/scheduling/) · [MCP →](/hermes/mcp/)
 
@@ -515,6 +519,186 @@ Hermes Agent ported to Claude Code Channel — 46 native skills, no OAuth requir
 
 ---
 
+### raulvidis/hermes-android
+⭐ **community** · `Python` · [github.com/raulvidis/hermes-android](https://github.com/raulvidis/hermes-android)
+
+Android device bridge for Hermes. Control and interact with Android devices from your agent.
+
+**Status:** Beta  
+**Key capabilities:** Android integration, device control, mobile bridge
+
+---
+
+### teknium1/hermes-miniverse
+⭐ **community** · `Python` · [github.com/teknium1/hermes-miniverse](https://github.com/teknium1/hermes-miniverse)
+
+Miniverse pixel worlds bridge for Hermes. Connect agents to interactive pixel art worlds.
+
+**Status:** Beta  
+**Key capabilities:** Miniverse worlds, pixel art, interactive environments
+
+---
+
+### vectorize-io/hindsight
+⭐ **community** · `Python` · [github.com/vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
+
+Long-term memory: retain, recall, reflect. Persistent agent memory with reflection cycles.
+
+**Status:** Production  
+**Key capabilities:** Long-term memory, retention, recall, reflection
+
+---
+
+### elkimek/honcho-self-hosted
+⭐ **community** · `Python` · [github.com/elkimek/honcho-self-hosted](https://github.com/elkimek/honcho-self-hosted)
+
+Self-hosted Honcho memory integration. Run your own Honcho instance for agent memory.
+
+**Status:** Beta  
+**Key capabilities:** Self-hosted Honcho, memory platform, privacy
+
+---
+
+### marlandoj/zouroboros-swarm-executors
+⭐ **community** · `Python` · [github.com/marlandoj/zouroboros-swarm-executors](https://github.com/marlandoj/zouroboros-swarm-executors)
+
+Claude Code + Hermes executor bridge. Swarm execution across multiple agent frameworks.
+
+**Status:** Experimental  
+**Key capabilities:** Swarm execution, Claude Code bridge, multi-framework
+
+---
+
+### Crustocean/reina
+⭐ **community** · `Python` · [github.com/Crustocean/reina](https://github.com/Crustocean/reina)
+
+Autonomous agent for the Crustocean platform. Hermes-powered autonomous operations.
+
+**Status:** Beta  
+**Key capabilities:** Crustocean platform, autonomous agent, operations
+
+---
+
+### Rainhoole/hermes-agent-acp-skill
+⭐ **community** · `Python` · [github.com/Rainhoole/hermes-agent-acp-skill](https://github.com/Rainhoole/hermes-agent-acp-skill)
+
+Multi-agent delegation via ACP (Hermes/Codex/Claude Code). Agent Communication Protocol skill for cross-agent tasks.
+
+**Status:** Beta  
+**Key capabilities:** ACP delegation, multi-agent, cross-framework communication
+
+---
+
+### gizdusum/hermes-blockchain-oracle
+⭐ **community** · `Python` · [github.com/gizdusum/hermes-blockchain-oracle](https://github.com/gizdusum/hermes-blockchain-oracle)
+
+Solana blockchain MCP server for Hermes. Real-time blockchain data and transaction capabilities.
+
+**Status:** Experimental  
+**Key capabilities:** Solana blockchain, MCP server, on-chain data
+
+---
+
+### Ridwannurudeen/hermes-council
+⭐ **community** · `Python` · [github.com/Ridwannurudeen/hermes-council](https://github.com/Ridwannurudeen/hermes-council)
+
+Adversarial multi-perspective council for Hermes. Multiple agents debate and critique for better decisions.
+
+**Status:** Experimental  
+**Key capabilities:** Adversarial council, multi-perspective, debate framework
+
+---
+
+### unitedideas/nothumansearch-mcp
+⭐ **community** · `Python` · [github.com/unitedideas/nothumansearch-mcp](https://github.com/unitedideas/nothumansearch-mcp)
+
+MCP server discovery across 8,600+ sites. Find and connect to MCP servers at scale.
+
+**Status:** Production  
+**Key capabilities:** MCP discovery, 8,600+ sites, server search
+
+---
+
+### Hmbown/NemoHermes
+⭐ **community** · `Python` · [github.com/Hmbown/NemoHermes](https://github.com/Hmbown/NemoHermes)
+
+NVIDIA capability registry and routing for Hermes. Hardware-accelerated agent capabilities via NVIDIA.
+
+**Status:** Experimental  
+**Key capabilities:** NVIDIA integration, capability registry, hardware routing
+
+---
+
+### Andrew-Girgis/microsoft-workspace-skill
+⭐ **community** · `Python` · [github.com/Andrew-Girgis/microsoft-workspace-skill](https://github.com/Andrew-Girgis/microsoft-workspace-skill)
+
+Outlook and Microsoft 365 Graph API integration. Office productivity tools from Hermes.
+
+**Status:** Beta  
+**Key capabilities:** Outlook integration, Microsoft 365, Graph API
+
+---
+
+### aivanelabs/agent-android
+⭐ **community** · `Python` · [github.com/aivanelabs/agent-android](https://github.com/aivanelabs/agent-android)
+
+LAN-first Android control without USB/ADB. Wireless Android device management for Hermes.
+
+**Status:** Beta  
+**Key capabilities:** Android control, LAN-first, wireless, no ADB
+
+---
+
+### mrpeter2025/clawsocial-hermes-plugin
+⭐ **community** · `Python` · [github.com/mrpeter2025/clawsocial-hermes-plugin](https://github.com/mrpeter2025/clawsocial-hermes-plugin)
+
+Social discovery and WebSocket messaging plugin. Agent-to-agent social networking.
+
+**Status:** Beta  
+**Key capabilities:** Social discovery, WebSocket messaging, agent networking
+
+---
+
+### Swih/mistral-mcp
+⭐ **community** · `Python` · [github.com/Swih/mistral-mcp](https://github.com/Swih/mistral-mcp)
+
+Full Mistral AI MCP integration: chat, vision, OCR, audio. Complete Mistral platform access.
+
+**Status:** Beta  
+**Key capabilities:** Mistral AI, chat, vision, OCR, audio
+
+---
+
+### jau123/MeiGen-AI-Design-MCP
+⭐ **1,000+** · `Python` · [github.com/jau123/MeiGen-AI-Design-MCP](https://github.com/jau123/MeiGen-AI-Design-MCP)
+
+9 AI image/video generation models via MCP. Multi-model creative content generation.
+
+**Status:** Production  
+**Key capabilities:** Image generation, video generation, 9 AI models, MCP
+
+---
+
+### PipRail
+⭐ **community** · [PipRail](https://github.com/PipRail)
+
+x402 payment wallet supporting 10 blockchain chains. Universal payment infrastructure for agents.
+
+**Status:** Production  
+**Key capabilities:** x402 payments, 10 chains, agent wallet
+
+---
+
+### thebrierfox/the-stall
+⭐ **community** · `Python` · [github.com/thebrierfox/the-stall](https://github.com/thebrierfox/the-stall)
+
+209 pay-per-call data capabilities via x402 MCP. Monetized data access for autonomous agents.
+
+**Status:** Production  
+**Key capabilities:** Pay-per-call, 209 capabilities, x402 MCP, data monetization
+
+---
+
 ## 🛠 Skills & Plugins
 
 Extend Hermes with community-built skills and plugins.
@@ -626,7 +810,695 @@ Our production-tested skill catalog: 45 marketing skills, 12 development skills,
 
 ---
 
-## 🎯 Orchestration & Multi-Agent
+### Community Skills
+
+### 42-evey/hermes-plugins
+⭐ **community** · `Python` · [github.com/42-evey/hermes-plugins](https://github.com/42-evey/hermes-plugins)
+
+Goal management, inter-agent bridge, model selection, and cost control. Modular plugin architecture for extending Hermes capabilities.
+
+**Status:** Beta  
+**Key capabilities:** Goal management, inter-agent bridge, model selection, cost control
+
+---
+
+### Romanescu11/hermes-skill-factory
+⭐ **381** · `Python` · [github.com/Romanescu11/hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory)
+
+A meta-skill plugin for Hermes AI agent that watches your workflow and auto-creates skills from repeated patterns.
+
+**Status:** Beta  
+**Key capabilities:** Auto-skill generation, workflow pattern detection, meta-skill architecture
+
+---
+
+### Hmbown/Wizards-of-the-Ghosts
+⭐ **community** · `Python` · [github.com/Hmbown/Wizards-of-the-Ghosts](https://github.com/Hmbown/Wizards-of-the-Ghosts)
+
+Fantasy spell-themed skill pack wrapping dev operations. Cast spells to deploy, monitor, and manage infrastructure.
+
+**Status:** Experimental  
+**Key capabilities:** DevOps operations, spell-themed interface, infrastructure management
+
+---
+
+### Cranot/super-hermes
+⭐ **community** · `Python` · [github.com/Cranot/super-hermes](https://github.com/Cranot/super-hermes)
+
+Teaches Hermes to write better analytical prompts. Improves reasoning depth and analytical quality through prompt engineering.
+
+**Status:** Experimental  
+**Key capabilities:** Analytical prompt optimization, reasoning improvement, prompt engineering
+
+---
+
+### Lethe044/hermes-life-os
+⭐ **community** · `Python` · [github.com/Lethe044/hermes-life-os](https://github.com/Lethe044/hermes-life-os)
+
+Personal OS agent detecting daily patterns. Learns routines and proactively manages personal productivity.
+
+**Status:** Experimental  
+**Key capabilities:** Pattern detection, personal productivity, routine learning
+
+---
+
+### Yonkoo11/hermes-dojo
+⭐ **community** · `Python` · [github.com/Yonkoo11/hermes-dojo](https://github.com/Yonkoo11/hermes-dojo)
+
+Self-improvement monitoring agent performance. Tracks and optimizes Hermes agent behavior over time.
+
+**Status:** Beta  
+**Key capabilities:** Performance monitoring, self-improvement tracking, agent optimization
+
+---
+
+### Alexeyisme/hermes-spotify-skill
+⭐ **community** · `Python` · [github.com/Alexeyisme/hermes-spotify-skill](https://github.com/Alexeyisme/hermes-spotify-skill)
+
+Spotify control for headless Linux. Control music playback from Hermes on servers without desktop environments.
+
+**Status:** Beta  
+**Key capabilities:** Spotify API, headless Linux, music control
+
+---
+
+### Lethe044/hermes-skill-marketplace
+⭐ **community** · `Python` · [github.com/Lethe044/hermes-skill-marketplace](https://github.com/Lethe044/hermes-skill-marketplace)
+
+An agent that writes, tests, and publishes skills autonomously. Self-sustaining skill ecosystem generator.
+
+**Key capabilities:** Autonomous skill creation, testing, publishing, marketplace ecosystem
+
+---
+
+### beiyuii/personal-api-skill
+⭐ **community** · `Python` · [github.com/beiyuii/personal-api-skill](https://github.com/beiyuii/personal-api-skill)
+
+Turns Obsidian vault into an identity layer for agents. Personal knowledge graph as agent context.
+
+**Key capabilities:** Obsidian integration, identity layer, personal knowledge graph
+
+---
+
+### markoblogo/abvx-agent-skills
+⭐ **community** · `Python` · [github.com/markoblogo/abvx-agent-skills](https://github.com/markoblogo/abvx-agent-skills)
+
+Auditable cross-platform coding-agent skillpack. Production-grade coding skills with full audit trails.
+
+**Status:** Production  
+**Key capabilities:** Cross-platform coding, audit trails, production-grade
+
+---
+
+### adnw-vinc/hermes-nextcloud
+⭐ **community** · `Python` · [github.com/adnw-vinc/hermes-nextcloud](https://github.com/adnw-vinc/hermes-nextcloud)
+
+Self-hosted Nextcloud bridge for Hermes. Access files, calendars, and contacts from your own cloud.
+
+**Status:** Beta  
+**Key capabilities:** Nextcloud integration, self-hosted, file/calendar/contact access
+
+---
+
+### witt3rd/oh-my-hermes
+⭐ **community** · `Python` · [github.com/witt3rd/oh-my-hermes](https://github.com/witt3rd/oh-my-hermes)
+
+Multi-agent orchestration skills for Hermes. Coordinate multiple agents working together on complex tasks.
+
+**Status:** Beta  
+**Key capabilities:** Multi-agent orchestration, task coordination, team workflows
+
+---
+
+### Infrasity-Labs/dev-gtm-claude-skills
+⭐ **community** · `Python` · [github.com/Infrasity-Labs/dev-gtm-claude-skills](https://github.com/Infrasity-Labs/dev-gtm-claude-skills)
+
+SEO, GEO, and AI discoverability skills. Optimize content for AI-powered search and generative engines.
+
+**Status:** Production  
+**Key capabilities:** SEO optimization, GEO strategy, AI discoverability
+
+---
+
+### voidborne-d/master-skill
+⭐ **community** · `Python` · [github.com/voidborne-d/master-skill](https://github.com/voidborne-d/master-skill)
+
+Distills entire industries into portable skill folders. Domain expertise packaged as installable Hermes skills.
+
+**Status:** Beta  
+**Key capabilities:** Industry distillation, portable skills, domain expertise
+
+---
+
+### Sequenzy/sequenzy-email-marketing
+⭐ **community** · `Python` · [github.com/Sequenzy/sequenzy-email-marketing](https://github.com/Sequenzy/sequenzy-email-marketing)
+
+Lifecycle email marketing skill for Hermes. Automated email sequences for customer journeys.
+
+**Status:** Beta  
+**Key capabilities:** Email marketing, lifecycle automation, customer journeys
+
+---
+
+### longbridge/skills
+⭐ **community** · `Python` · [github.com/longbridge/skills](https://github.com/longbridge/skills)
+
+13 securities trading skills for HK, US, and A-share markets. Financial market data and trading workflows.
+
+**Status:** Production  
+**Key capabilities:** Securities trading, HK/US/A-share markets, financial data
+
+---
+
+### remoet-labs/agent-skills
+⭐ **community** · `Python` · [github.com/remoet-labs/agent-skills](https://github.com/remoet-labs/agent-skills)
+
+Job-search and career-discovery skill. Automated job hunting, resume optimization, and career pathfinding.
+
+**Status:** Production  
+**Key capabilities:** Job search, career discovery, resume optimization
+
+---
+
+### svenmedina07-ship-it/acca-tracker
+⭐ **community** · `Python` · [github.com/svenmedina07-ship-it/acca-tracker](https://github.com/svenmedina07-ship-it/acca-tracker)
+
+Multi-sport accumulator bet tracker. Track and analyze accumulator bets across multiple sports.
+
+**Status:** Beta  
+**Key capabilities:** Sports betting, accumulator tracking, multi-sport
+
+---
+
+### Agentskills.io Ecosystem
+
+### ZeroPointRepo/youtube-skills
+⭐ **community** · `Python` · [github.com/ZeroPointRepo/youtube-skills](https://github.com/ZeroPointRepo/youtube-skills)
+
+YouTube search, channel lookup, and transcript retrieval via TranscriptAPI. Production-ready YouTube integration.
+
+**Status:** Production  
+**Key capabilities:** YouTube search, channel lookup, transcript retrieval
+
+---
+
+### mukul975/Anthropic-Cybersecurity-Skills
+⭐ **4,000+** · `Python` · [github.com/mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
+
+753+ cybersecurity skills mapped to MITRE ATT&CK framework. Comprehensive security testing and analysis toolkit.
+
+**Status:** Production  
+**Key capabilities:** Cybersecurity testing, MITRE ATT&CK, 753+ skills, security analysis
+
+---
+
+### smartcontractkit/chainlink-agent-skills
+⭐ **community** · `Python` · [github.com/smartcontractkit/chainlink-agent-skills](https://github.com/smartcontractkit/chainlink-agent-skills)
+
+Official Chainlink oracle skills for agents. Blockchain data feeds and smart contract interaction.
+
+**Status:** Production  
+**Key capabilities:** Chainlink oracles, blockchain data, smart contracts
+
+---
+
+### black-forest-labs/skills
+⭐ **community** · `Python` · [github.com/black-forest-labs/skills](https://github.com/black-forest-labs/skills)
+
+Official FLUX image generation skills. State-of-the-art image generation directly from Hermes.
+
+**Status:** Production  
+**Key capabilities:** FLUX image generation, AI art, visual content creation
+
+---
+
+### DougTrajano/pydantic-ai-skills
+⭐ **community** · `Python` · [github.com/DougTrajano/pydantic-ai-skills](https://github.com/DougTrajano/pydantic-ai-skills)
+
+Pydantic AI integration with type-safe schema validation. Structured, validated agent outputs.
+
+**Status:** Production  
+**Key capabilities:** Type-safe AI, schema validation, Pydantic integration
+
+---
+
+### Yarmoluk/cognify-skills
+⭐ **community** · `Python` · [github.com/Yarmoluk/cognify-skills](https://github.com/Yarmoluk/cognify-skills)
+
+19 business ops skills: CRM, invoicing, project management. Turnkey business operations toolkit.
+
+**Status:** Beta  
+**Key capabilities:** Business operations, CRM, invoicing, project management
+
+---
+
+### tiann/execplan-skill
+⭐ **community** · `Python` · [github.com/tiann/execplan-skill](https://github.com/tiann/execplan-skill)
+
+Long-running task lifecycle management. Plan, track, and manage tasks that span hours or days.
+
+**Status:** Beta  
+**Key capabilities:** Task lifecycle, long-running execution, plan management
+
+---
+
+### ReinaMacCredy/maestro
+⭐ **community** · `Python` · [github.com/ReinaMacCredy/maestro](https://github.com/ReinaMacCredy/maestro)
+
+Skill orchestration with Conductor planning. Compose multiple skills into complex workflows.
+
+**Status:** Beta  
+**Key capabilities:** Skill orchestration, Conductor planning, workflow composition
+
+---
+
+### armelhbobdad/bmad-module-skill-forge
+⭐ **community** · `Python` · [github.com/armelhbobdad/bmad-module-skill-forge](https://github.com/armelhbobdad/bmad-module-skill-forge)
+
+Converts entire repositories into installable Hermes skills. Automated skill packaging from existing codebases.
+
+**Status:** Beta  
+**Key capabilities:** Repo-to-skill conversion, automated packaging, skill forge
+
+---
+
+### cablate/Agentic-MCP-Skill
+⭐ **community** · `Python` · [github.com/cablate/Agentic-MCP-Skill](https://github.com/cablate/Agentic-MCP-Skill)
+
+MCP client with agentskills.io validation. Validated, secure MCP integration for Hermes.
+
+**Status:** Beta  
+**Key capabilities:** MCP client, skill validation, agentskills.io integration
+
+---
+
+### KYC-rip/ripley-xmr-gateway
+⭐ **community** · `Python` · [github.com/KYC-rip/ripley-xmr-gateway](https://github.com/KYC-rip/ripley-xmr-gateway)
+
+Monero blockchain gateway for agents. Privacy-preserving cryptocurrency operations.
+
+**Status:** Experimental  
+**Key capabilities:** Monero gateway, privacy, cryptocurrency
+
+---
+
+### PederHP/skillsdotnet
+⭐ **community** · `C#` · [github.com/PederHP/skillsdotnet](https://github.com/PederHP/skillsdotnet)
+
+C# agentskills.io with MCP integration. .NET ecosystem skill development for Hermes.
+
+**Status:** Beta  
+**Key capabilities:** C# skills, .NET integration, MCP support
+
+---
+
+### TheColonyCC/colony-skill
+⭐ **community** · `Python` · [github.com/TheColonyCC/colony-skill](https://github.com/TheColonyCC/colony-skill)
+
+Collaborative intelligence platform skill. Multi-user agent collaboration and knowledge sharing.
+
+**Status:** Beta  
+**Key capabilities:** Collaborative intelligence, multi-user, knowledge sharing
+
+---
+
+### Merit-Systems/agentcash-skills
+⭐ **community** · `Python` · [github.com/Merit-Systems/agentcash-skills](https://github.com/Merit-Systems/agentcash-skills)
+
+300+ premium APIs via a single skill. Unified API gateway for Hermes with extensive coverage.
+
+**Status:** Beta  
+**Key capabilities:** 300+ APIs, unified gateway, premium API access
+
+---
+
+### Xquik-dev/x-twitter-scraper
+⭐ **community** · `Python` · [github.com/Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper)
+
+Typed X/Twitter access with 43 SKILL.md folders. Structured Twitter data extraction and analysis.
+
+**Status:** Beta  
+**Key capabilities:** Twitter/X data, typed access, 43 skill folders
+
+---
+
+### Agents365-ai/drawio-skill
+⭐ **1,100+** · `Python` · [github.com/Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill)
+
+Generates draw.io diagrams from natural language. Visual documentation and diagramming from descriptions.
+
+**Status:** Production  
+**Key capabilities:** draw.io diagrams, natural language to diagram, visual documentation
+
+---
+
+### Community Plugins
+
+### plur-ai/plur
+⭐ **community** · `Python` · [github.com/plur-ai/plur](https://github.com/plur-ai/plur)
+
+Shared memory layer with open engram format (YAML). Cross-agent memory compatibility standard.
+
+**Status:** Beta  
+**Key capabilities:** Shared memory, engram format, YAML, cross-agent memory
+
+---
+
+### nativ3ai/hermes-payguard
+⭐ **community** · `Python` · [github.com/nativ3ai/hermes-payguard](https://github.com/nativ3ai/hermes-payguard)
+
+Safe USDC/x402 payment plugin for Hermes. Secure micropayment handling for agent transactions.
+
+**Status:** Experimental  
+**Key capabilities:** USDC payments, x402 protocol, payment security
+
+---
+
+### robbyczgw-cla/hermes-web-search-plus
+⭐ **community** · `Python` · [github.com/robbyczgw-cla/hermes-web-search-plus](https://github.com/robbyczgw-cla/hermes-web-search-plus)
+
+Multi-provider web search routing. Intelligently routes search queries across multiple search engines.
+
+**Status:** Beta  
+**Key capabilities:** Multi-provider search, intelligent routing, web search
+
+---
+
+### FahrenheitResearch/hermes-weather-plugin
+⭐ **community** · `Python` · [github.com/FahrenheitResearch/hermes-weather-plugin](https://github.com/FahrenheitResearch/hermes-weather-plugin)
+
+Professional NWS/NEXRAD weather data plugin. Real-time weather radar and forecasts for Hermes.
+
+**Status:** Beta  
+**Key capabilities:** NWS weather, NEXRAD radar, professional forecasting
+
+---
+
+### FahrenheitResearch/hermes-wxtrain-plugin
+⭐ **community** · `Python` · [github.com/FahrenheitResearch/hermes-wxtrain-plugin](https://github.com/FahrenheitResearch/hermes-wxtrain-plugin)
+
+ML weather training datasets. Training data pipeline for meteorological machine learning models.
+
+**Status:** Experimental  
+**Key capabilities:** Weather ML, training datasets, meteorological data
+
+---
+
+### anpicasso/hermes-plugin-chrome-profiles
+⭐ **community** · `Python` · [github.com/anpicasso/hermes-plugin-chrome-profiles](https://github.com/anpicasso/hermes-plugin-chrome-profiles)
+
+Switch Chrome profiles via Chrome DevTools Protocol. Manage multiple browser identities from Hermes.
+
+**Status:** Experimental  
+**Key capabilities:** Chrome profiles, CDP, browser identity management
+
+---
+
+### raulvidis/hermes-cloudflare
+⭐ **community** · `Python` · [github.com/raulvidis/hermes-cloudflare](https://github.com/raulvidis/hermes-cloudflare)
+
+Cloudflare browser rendering for Hermes. Headless browsing via Cloudflare's network.
+
+**Status:** Experimental  
+**Key capabilities:** Cloudflare rendering, headless browsing, network browsing
+
+---
+
+### 42-evey/evey-bridge-plugin
+⭐ **community** · `Python` · [github.com/42-evey/evey-bridge-plugin](https://github.com/42-evey/evey-bridge-plugin)
+
+Claude Code ↔ Hermes bidirectional bridge. Seamless handoff between Claude Code and Hermes workflows.
+
+**Status:** Beta  
+**Key capabilities:** Claude Code bridge, bidirectional, workflow handoff
+
+---
+
+### Agent-Analytics/agent-analytics-hermes-plugin
+⭐ **community** · `Python` · [github.com/Agent-Analytics/agent-analytics-hermes-plugin](https://github.com/Agent-Analytics/agent-analytics-hermes-plugin)
+
+Signals dashboard tab for Hermes. Real-time analytics and performance metrics visualization.
+
+**Status:** Beta  
+**Key capabilities:** Analytics dashboard, signals visualization, performance metrics
+
+---
+
+### Xquik-dev/hermes-tweet
+⭐ **community** · `Python` · [github.com/Xquik-dev/hermes-tweet](https://github.com/Xquik-dev/hermes-tweet)
+
+Native X/Twitter plugin for Hermes. Post, read, and interact with Twitter directly from Hermes.
+
+**Status:** Beta  
+**Key capabilities:** Twitter integration, native X client, social posting
+
+---
+
+### pingchesu/hermes-curator-evolver
+⭐ **community** · `Python` · [github.com/pingchesu/hermes-curator-evolver](https://github.com/pingchesu/hermes-curator-evolver)
+
+Evidence-driven Curator companion for Hermes. Evolves curation strategies based on engagement data.
+
+**Status:** Beta  
+**Key capabilities:** Content curation, evidence-driven, engagement optimization
+
+---
+
+### lingjiuu/hermes-dynamic-workflows
+⭐ **community** · `Python` · [github.com/lingjiuu/hermes-dynamic-workflows](https://github.com/lingjiuu/hermes-dynamic-workflows)
+
+Dynamic workflows with up to 1,000 subagents. Massively parallel agent execution framework.
+
+**Status:** Beta  
+**Key capabilities:** Dynamic workflows, 1000 subagents, parallel execution
+
+---
+
+### ogallotti/rtk-hermes
+⭐ **community** · `Python` · [github.com/ogallotti/rtk-hermes](https://github.com/ogallotti/rtk-hermes)
+
+Compresses terminal output by 60-90% token reduction. Dramatically reduces token consumption for terminal operations.
+
+**Status:** Beta  
+**Key capabilities:** Terminal compression, token reduction, 60-90% savings
+
+---
+
+### redoracle/hermes-ops-kit
+⭐ **community** · `Python` · [github.com/redoracle/hermes-ops-kit](https://github.com/redoracle/hermes-ops-kit)
+
+Operations and security toolkit: routing, secrets management, auditing, cost governance.
+
+**Status:** Beta  
+**Key capabilities:** Ops security, secret management, auditing, cost governance
+
+---
+
+### scross01/hermes-custom-dangerous-patterns
+⭐ **community** · `Python` · [github.com/scross01/hermes-custom-dangerous-patterns](https://github.com/scross01/hermes-custom-dangerous-patterns)
+
+Custom terminal command approval patterns. Fine-grained control over dangerous command execution.
+
+**Status:** Beta  
+**Key capabilities:** Terminal safety, custom patterns, command approval
+
+---
+
+### eleion-ai/mnemo-hermes
+⭐ **community** · `Python` · [github.com/eleion-ai/mnemo-hermes](https://github.com/eleion-ai/mnemo-hermes)
+
+pgvector semantic memory plugin for Hermes. PostgreSQL-backed vector memory for persistent agent knowledge.
+
+**Status:** Beta  
+**Key capabilities:** pgvector memory, semantic search, PostgreSQL backend
+
+---
+
+## 🛠 Tools & Utilities
+
+Development tools, utilities, and platforms for the Hermes ecosystem.
+
+### dodo-reach/hermes-desktop
+⭐ **community** · `Swift` · [github.com/dodo-reach/hermes-desktop](https://github.com/dodo-reach/hermes-desktop)
+
+Native macOS workspace for Hermes with SSH-based connectivity. Desktop-native agent interaction.
+
+**Status:** Beta  
+**Key capabilities:** macOS native, SSH connectivity, desktop workspace
+
+---
+
+### Tranquil-Flow/hermes-neurovision
+⭐ **community** · `Python` · [github.com/Tranquil-Flow/hermes-neurovision](https://github.com/Tranquil-Flow/hermes-neurovision)
+
+Terminal neurovisualizer with 42 themes. Visualize agent thought processes in the terminal.
+
+**Status:** Experimental  
+**Key capabilities:** Neurovisualization, 42 themes, terminal visualization
+
+---
+
+### roli-lpci/lintlang
+⭐ **community** · `Python` · [github.com/roli-lpci/lintlang](https://github.com/roli-lpci/lintlang)
+
+Static linter for agent configs and prompts. Validate agent configurations before deployment.
+
+**Status:** Beta  
+**Key capabilities:** Config linting, prompt validation, static analysis
+
+---
+
+### 0xrsydn/nix-hermes-agent
+⭐ **community** · `Nix` · [github.com/0xrsydn/nix-hermes-agent](https://github.com/0xrsydn/nix-hermes-agent)
+
+Nix package and NixOS module for Hermes. Reproducible, declarative Hermes deployment.
+
+**Status:** Beta  
+**Key capabilities:** Nix packaging, NixOS module, reproducible builds
+
+---
+
+### 0xNyk/openclaw-to-hermes
+⭐ **community** · `Python` · [github.com/0xNyk/openclaw-to-hermes](https://github.com/0xNyk/openclaw-to-hermes)
+
+OpenClaw to Hermes migration tool. Automated migration from OpenClaw to Hermes Agent.
+
+**Status:** Beta  
+**Key capabilities:** OpenClaw migration, automated conversion, transition tool
+
+---
+
+### unmodeled-tyler/vessel-browser
+⭐ **community** · `Python` · [github.com/unmodeled-tyler/vessel-browser](https://github.com/unmodeled-tyler/vessel-browser)
+
+AI-native Linux browser with MCP support. Browser built for agent interaction.
+
+**Status:** Experimental  
+**Key capabilities:** AI-native browser, Linux, MCP integration
+
+---
+
+### jo-inc/camofox-browser
+⭐ **4,000+** · `Python` · [github.com/jo-inc/camofox-browser](https://github.com/jo-inc/camofox-browser)
+
+Stealth headless browser for agents. Undetectable browsing with fingerprint randomization.
+
+**Status:** Production  
+**Key capabilities:** Stealth browsing, headless, fingerprint randomization
+
+---
+
+### rookiemann/portable-hermes-agent
+⭐ **community** · `C#` · [github.com/rookiemann/portable-hermes-agent](https://github.com/rookiemann/portable-hermes-agent)
+
+Windows desktop app with 100+ integrated tools. All-in-one portable Hermes for Windows.
+
+**Status:** Beta  
+**Key capabilities:** Windows desktop, 100+ tools, portable
+
+---
+
+### pyrate-llama/hermes-ui
+⭐ **community** · `TypeScript` · [github.com/pyrate-llama/hermes-ui](https://github.com/pyrate-llama/hermes-ui)
+
+Glassmorphic web UI with SSE streaming. Modern, beautiful web interface for Hermes.
+
+**Status:** Beta  
+**Key capabilities:** Glassmorphic UI, SSE streaming, web interface
+
+---
+
+### sanchomuzax/hermes-webui
+⭐ **community** · `TypeScript` · [github.com/sanchomuzax/hermes-webui](https://github.com/sanchomuzax/hermes-webui)
+
+Lightweight monitoring dashboard for Hermes. Minimal resource usage, maximum visibility.
+
+**Status:** Beta  
+**Key capabilities:** Monitoring dashboard, lightweight, web interface
+
+---
+
+### AMAP-ML/SkillClaw
+⭐ **705** · `Python` · [github.com/AMAP-ML/SkillClaw](https://github.com/AMAP-ML/SkillClaw)
+
+Auto-evolves skill library from session data. Skills that improve automatically through usage.
+
+**Status:** Production  
+**Key capabilities:** Auto-evolution, skill library, session-driven learning
+
+---
+
+### clarvia-project/scanner
+⭐ **community** · `Python` · [github.com/clarvia-project/scanner](https://github.com/clarvia-project/scanner)
+
+AEO scoring for MCP tools across 15,400+ servers. Agent Engine Optimization scoring.
+
+**Status:** Production  
+**Key capabilities:** AEO scoring, MCP analysis, 15,400+ servers
+
+---
+
+### luoyuctl/agenttrace
+⭐ **community** · `Python` · [github.com/luoyuctl/agenttrace](https://github.com/luoyuctl/agenttrace)
+
+Local TUI/CLI session auditor for Hermes. Trace and audit agent sessions from the terminal.
+
+**Status:** Beta  
+**Key capabilities:** Session auditing, TUI/CLI, agent tracing
+
+---
+
+### amanning3390/hermeshub
+⭐ **community** · `Python` · [github.com/amanning3390/hermeshub](https://github.com/amanning3390/hermeshub)
+
+Community skill hub for Hermes Agent. Discover, share, and install community skills.
+
+**Status:** Beta  
+**Key capabilities:** Skill hub, community sharing, skill discovery
+
+---
+
+### chigwell/skilldock.io
+⭐ **community** · `TypeScript` · [github.com/chigwell/skilldock.io](https://github.com/chigwell/skilldock.io)
+
+Cross-platform skills marketplace. Buy, sell, and share agent skills across frameworks.
+
+**Status:** Production  
+**Key capabilities:** Skills marketplace, cross-platform, skill economy
+
+---
+
+### pumanitro/Global Chat
+⭐ **community** · `Python` · [github.com/pumanitro/Global-Chat](https://github.com/pumanitro/Global-Chat)
+
+Cross-protocol agent discovery across 18K+ servers. Universal agent discovery network.
+
+**Status:** Production  
+**Key capabilities:** Agent discovery, 18K+ servers, cross-protocol
+
+---
+
+### amanning3390/flowstate-qmd
+⭐ **community** · `Python` · [github.com/amanning3390/flowstate-qmd](https://github.com/amanning3390/flowstate-qmd)
+
+Anticipatory memory with RAG. Predicts what the agent will need before it asks.
+
+**Status:** Beta  
+**Key capabilities:** Anticipatory memory, RAG, predictive retrieval
+
+---
+
+### AxDSan/Mnemosyne
+⭐ **1,150** · `Python` · [github.com/AxDSan/Mnemosyne](https://github.com/AxDSan/Mnemosyne)
+
+Local sub-millisecond memory system with sqlite-vec hybrid. Ultra-fast local vector memory.
+
+**Status:** Beta  
+**Key capabilities:** Sub-ms retrieval, sqlite-vec, hybrid memory, local-first
+
+---
+
+## 🎯 Orchestration, Multi-Agent & Swarms
 
 Frameworks and patterns for coordinating multiple agents.
 
@@ -683,6 +1555,46 @@ Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code
 ⭐ **3** · `Python` · [github.com/koozyapno1/alex-ai-empire](https://github.com/koozyapno1/alex-ai-empire)
 
 AI Empire Builder — 6-Brain Autonomous Agent Architecture. OpenClaw + Hermes multi-brain system.
+
+---
+
+### Abruptive/Ankh.md
+⭐ **community** · `Python` · [github.com/Abruptive/Ankh.md](https://github.com/Abruptive/Ankh.md)
+
+TAW Agent x Hermes swarm framework. Cross-framework swarm orchestration for complex tasks.
+
+**Status:** Experimental  
+**Key capabilities:** Swarm framework, TAW integration, cross-framework
+
+---
+
+### runtim-enoteslabs/gladiator
+⭐ **community** · `Python` · [github.com/runtim-enoteslabs/gladiator](https://github.com/runtim-enoteslabs/gladiator)
+
+AI companies compete for stars. Competitive multi-agent arena for testing agent capabilities.
+
+**Status:** Experimental  
+**Key capabilities:** Agent competition, multi-agent arena, capability testing
+
+---
+
+### supermodeltools/bigiron
+⭐ **community** · `Python` · [github.com/supermodeltools/bigiron](https://github.com/supermodeltools/bigiron)
+
+AI-native SDLC with code graph. Full software development lifecycle powered by agents.
+
+**Status:** Beta  
+**Key capabilities:** AI-native SDLC, code graph, agent-driven development
+
+---
+
+### 1ilkhamov/opencode-hermes-multiagent
+⭐ **community** · `Python` · [github.com/1ilkhamov/opencode-hermes-multiagent](https://github.com/1ilkhamov/opencode-hermes-multiagent)
+
+17 specialized agents for Hermes. Pre-configured multi-agent team for diverse tasks.
+
+**Status:** Beta  
+**Key capabilities:** 17 agents, specialized roles, multi-agent coordination
 
 ---
 
@@ -758,6 +1670,46 @@ Production-grade platform for building agentic IM bots. Multi-platform intellige
 
 ---
 
+### xmbshwll/hermes-agent-docker
+⭐ **community** · `Dockerfile` · [github.com/xmbshwll/hermes-agent-docker](https://github.com/xmbshwll/hermes-agent-docker)
+
+Minimal Docker sandbox for Hermes Agent. Quick-start containerized deployment.
+
+**Status:** Beta  
+**Key capabilities:** Docker sandbox, minimal setup, containerized
+
+---
+
+### Crustocean/hermes-agent-template
+⭐ **community** · `Dockerfile` · [github.com/Crustocean/hermes-agent-template](https://github.com/Crustocean/hermes-agent-template)
+
+Production Docker template for cloud deployment. Battle-tested container configuration.
+
+**Status:** Beta  
+**Key capabilities:** Production Docker, cloud deployment, container template
+
+---
+
+### ellickjohnson/portainer-stack-hermes
+⭐ **community** · `Dockerfile` · [github.com/ellickjohnson/portainer-stack-hermes](https://github.com/ellickjohnson/portainer-stack-hermes)
+
+Docker Compose + Portainer stack for Hermes. One-click deployment with management UI.
+
+**Status:** Experimental  
+**Key capabilities:** Docker Compose, Portainer, one-click deployment
+
+---
+
+### metantonio/hermes-wsl-ubuntu
+⭐ **community** · `Shell` · [github.com/metantonio/hermes-wsl-ubuntu](https://github.com/metantonio/hermes-wsl-ubuntu)
+
+WSL2 Ubuntu setup guide for Hermes on Windows. Production deployment walkthrough for Windows users.
+
+**Status:** Production  
+**Key capabilities:** WSL2 setup, Ubuntu, Windows deployment, production guide
+
+---
+
 ## 🔒 Security & Governance
 
 Security tools, governance frameworks, and safety systems.
@@ -794,6 +1746,20 @@ Autonomous inbox management: 4-tier classification, SLA-based response, Gmail AP
 [Auth Guide →](/hermes/infrastructure/auth/)
 
 OAuth lifecycle management with refresh automation, expiration monitoring, and alerting. Gmail, GitHub, HeyGen, Postiz tokens.
+
+---
+
+## 🔍 Detection & Media Forensics
+
+Deepfake detection and media verification for autonomous agents.
+
+### resemble-ai/detect-skill
+⭐ **community** · `Python` · [github.com/resemble-ai/detect-skill](https://github.com/resemble-ai/detect-skill)
+
+Deepfake detection for agents. Verify media authenticity before agents act on content.
+
+**Status:** Beta  
+**Key capabilities:** Deepfake detection, media forensics, content verification
 
 ---
 
@@ -960,7 +1926,7 @@ Chinese, Japanese, Korean, and other language-specific Hermes resources.
 
 ---
 
-## 🎯 Specialized Applications
+## 🌐 Domain Applications
 
 Domain-specific Hermes Agent applications and integrations.
 
@@ -1020,21 +1986,203 @@ Hermes agent configuration reference — OpenWrt + Hermes integration patterns.
 
 ---
 
+### bryercowan/hermes-embodied
+⭐ **community** · `Python` · [github.com/bryercowan/hermes-embodied](https://github.com/bryercowan/hermes-embodied)
+
+Self-improving robotics via VLA (Vision-Language-Action). Hermes controlling physical robots.
+
+**Status:** Experimental  
+**Key capabilities:** Robotics, VLA, embodied AI, self-improving
+
+---
+
+### bigph00t/hermescraft
+⭐ **community** · `Python` · [github.com/bigph00t/hermescraft](https://github.com/bigph00t/hermescraft)
+
+Minecraft AI companion with persistent memory. Hermes as a Minecraft agent with long-term memory.
+
+**Status:** Beta  
+**Key capabilities:** Minecraft integration, AI companion, persistent memory
+
+---
+
+### Snehal707/Hermes-mars-rover
+⭐ **community** · `Python` · [github.com/Snehal707/Hermes-mars-rover](https://github.com/Snehal707/Hermes-mars-rover)
+
+Mars rover simulator with ROS2 and Gazebo. Autonomous rover control via Hermes.
+
+**Status:** Experimental  
+**Key capabilities:** Mars rover, ROS2, Gazebo, space robotics
+
+---
+
+### rodmarkun/anihermes
+⭐ **community** · `Python` · [github.com/rodmarkun/anihermes](https://github.com/rodmarkun/anihermes)
+
+Local anime server and tracker. Self-hosted anime management with Hermes integration.
+
+**Status:** Beta  
+**Key capabilities:** Anime server, local tracker, media management
+
+---
+
+### Christabel337/job-scout-agent
+⭐ **community** · `Python` · [github.com/Christabel337/job-scout-agent](https://github.com/Christabel337/job-scout-agent)
+
+Autonomous job hunting agent. Automated job search, application tracking, and interview prep.
+
+**Status:** Beta  
+**Key capabilities:** Job hunting, automated applications, career management
+
+---
+
+### JackTheGit/hermes-ai-infrastructure-monitoring-toolkit
+⭐ **community** · `Python` · [github.com/JackTheGit/hermes-ai-infrastructure-monitoring-toolkit](https://github.com/JackTheGit/hermes-ai-infrastructure-monitoring-toolkit)
+
+Infrastructure monitoring with Telegram alerts. Proactive infrastructure health monitoring via Hermes.
+
+**Status:** Beta  
+**Key capabilities:** Infrastructure monitoring, Telegram alerts, health checks
+
+---
+
+### Ridwannurudeen/hermes-genesis
+⭐ **community** · `Python` · [github.com/Ridwannurudeen/hermes-genesis](https://github.com/Ridwannurudeen/hermes-genesis)
+
+Autonomous living world engine. Self-evolving simulated worlds powered by Hermes agents.
+
+**Status:** Experimental  
+**Key capabilities:** Living world, simulation, autonomous evolution
+
+---
+
+### Lethe044/hermes-legal
+⭐ **community** · `Python` · [github.com/Lethe044/hermes-legal](https://github.com/Lethe044/hermes-legal)
+
+Contract risk analysis in English and Turkish. Legal document review and risk assessment.
+
+**Status:** Experimental  
+**Key capabilities:** Legal analysis, contract review, EN/TR, risk assessment
+
+---
+
+### dlkakbs/hermes-startup-architect
+⭐ **community** · `Python` · [github.com/dlkakbs/hermes-startup-architect](https://github.com/dlkakbs/hermes-startup-architect)
+
+Investor-ready startup kits. Business plan generation, financial modeling, pitch deck creation.
+
+**Status:** Beta  
+**Key capabilities:** Startup kits, investor-ready, business planning
+
+---
+
+### hxsteric/mercury
+⭐ **community** · `Python` · [github.com/hxsteric/mercury](https://github.com/hxsteric/mercury)
+
+Multi-chain blockchain cash flow analyzer. Cross-chain financial analysis and tracking.
+
+**Status:** Beta  
+**Key capabilities:** Multi-chain, blockchain analysis, cash flow, DeFi
+
+---
+
+### Aum08Desai/hermes-research-agent
+⭐ **community** · `Python` · [github.com/Aum08Desai/hermes-research-agent](https://github.com/Aum08Desai/hermes-research-agent)
+
+Autonomous LLM research agent. Self-directed research with literature review and synthesis.
+
+**Status:** Experimental  
+**Key capabilities:** Autonomous research, LLM analysis, literature synthesis
+
+---
+
+## 🔀 Forks & Derivatives
+
+Notable forks and derivative projects building on Hermes Agent.
+
+### nativ3ai/hermes-agent-camel
+⭐ **community** · `Python` · [github.com/nativ3ai/hermes-agent-camel](https://github.com/nativ3ai/hermes-agent-camel)
+
+CaMeL trust boundaries for Hermes. Enhanced security and trust isolation for autonomous agents.
+
+**Status:** Beta  
+**Key capabilities:** Trust boundaries, CaMeL, security isolation
+
+---
+
+### jasperan/orahermes-agent
+⭐ **community** · `Python` · [github.com/jasperan/orahermes-agent](https://github.com/jasperan/orahermes-agent)
+
+Oracle OCI GenAI integration for Hermes. Enterprise cloud AI with Oracle infrastructure.
+
+**Status:** Experimental  
+**Key capabilities:** Oracle OCI, GenAI, enterprise cloud
+
+---
+
+### kaminocorp/hermes-alpha
+⭐ **community** · `Python` · [github.com/kaminocorp/hermes-alpha](https://github.com/kaminocorp/hermes-alpha)
+
+Cloud-deployed Hermes with infrastructure templates. Turnkey cloud deployment with pre-built templates.
+
+**Status:** Beta  
+**Key capabilities:** Cloud deployment, infra templates, turnkey setup
+
+---
+
+### beardthelion/hermes-skill-distillation
+⭐ **community** · `Python` · [github.com/beardthelion/hermes-skill-distillation](https://github.com/beardthelion/hermes-skill-distillation)
+
+Agentic training trajectories from Hermes sessions. Distill agent behavior into training data.
+
+**Status:** Experimental  
+**Key capabilities:** Skill distillation, training trajectories, agentic learning
+
+---
+
+## 📖 Guides
+
+Community-maintained guides, wikis, and deployment references.
+
+### metantonio/hermes-wsl-ubuntu
+⭐ **community** · `Shell` · [github.com/metantonio/hermes-wsl-ubuntu](https://github.com/metantonio/hermes-wsl-ubuntu)
+
+WSL2 Ubuntu setup guide for Hermes on Windows. Complete production walkthrough for Windows users.
+
+**Status:** Production  
+**Key capabilities:** WSL2 setup, Windows deployment, production guide
+
+---
+
+### martymcenroe/HermesWiki
+⭐ **community** · `Markdown` · [github.com/martymcenroe/HermesWiki](https://github.com/martymcenroe/HermesWiki)
+
+Community wiki with deployment patterns and configuration recipes. Crowd-sourced Hermes knowledge base.
+
+**Status:** Beta  
+**Key capabilities:** Community wiki, deployment patterns, configuration recipes
+
+---
+
 ## 📊 Ecosystem Stats
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 121+ |
-| Categories | 14 |
+| Total repos indexed | 220+ |
+| Categories | 18 |
 | Official Nous Research repos | 4 |
 | Community awesome lists | 12 |
-| UI/Dashboard projects | 8 |
-| Memory systems | 12 |
-| MCP integrations | 8 |
-| Skill collections | 15+ |
+| UI/Dashboard projects | 10 |
+| Memory systems | 14 |
+| MCP integrations | 18 |
+| Skill collections & plugins | 32 |
+| Tools & utilities | 16 |
 | Research/benchmark projects | 12 |
+| Deployment & infra projects | 14 |
+| Domain applications | 15 |
+| Forks & derivatives | 4 |
 | Language-specific resources | 12 (10 CN, 1 JP, 1 EN) |
-| Total community stars | 600K+ across all indexed repos |
+| Total community stars | 1M+ across all indexed repos |
 
 ---
 
@@ -1050,6 +2198,32 @@ Hermes agent configuration reference — OpenWrt + Hermes integration patterns.
 | **Production** | [Deployment](/hermes/infrastructure/) · [Crons](/hermes/governance/scheduling/) · [K8s Operator](https://github.com/paperclipinc/hermes-operator) · [Autonomous Server](https://github.com/JackTheGit/hermes-autonomous-server) |
 | **Research** | [Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution) · [PawBench](https://github.com/agentscope-ai/PawBench) · [HermesBench](https://github.com/verkyyi/hermesbench) |
 | **Security** | [Shellward](https://github.com/jnMetaCode/shellward) · [Skillguard](https://github.com/buzzicra/skillguard) · [NemoClaw](https://github.com/NVIDIA/NemoClaw) |
+
+---
+
+## 🎯 Operational Playbooks
+
+Proven operational patterns for running Hermes in production.
+
+- **Nightly self-evolution + guardrail verification** — Run self-evolution cycles during off-peak hours with automated regression testing to catch drift before it reaches production.
+- **Memory pressure management with Honcho/Hindsight** — Monitor memory utilization, set retention policies, and archive stale context to prevent memory bloat and performance degradation.
+- **Tune session timeout/expiry early** — Configure session timeouts appropriate to your workflow cadence. Too short breaks long-running tasks; too long wastes resources.
+- **OpenClaw side-by-side migration strategy** — Run Hermes and OpenClaw in parallel during transition. Validate behavior parity before cutting over completely.
+- **Treat USER.md and MEMORY.md as infrastructure** — Version control your agent personality and memory configuration. These files are as critical as production configs.
+
+---
+
+## 📈 Level-Up Blueprints
+
+Progressive capability blueprints for advancing your Hermes deployment.
+
+- **Memory stack that compounds (Hermes → Honcho → Hindsight → Plur)** — Layer memory systems progressively: start with Hermes built-in, add Honcho for peer modeling, Hindsight for long-term retention, and Plur for cross-agent shared memory.
+- **Self-improvement without drift (evolution + linting + regression checks)** — Combine self-evolution with lintlang validation and benchmark regression tests to ensure improvements don't degrade reliability.
+- **Operator cockpit (workspace + mission-control + webui)** — Build a unified operator interface combining Hermes Workspace for interaction, Mission Control for fleet management, and WebUI for monitoring.
+- **Multi-agent execution layer (ACP + swarm + bigiron)** — Scale from single-agent to multi-agent with ACP delegation, swarm frameworks for parallel execution, and bigiron for AI-native SDLC.
+- **Migration + deployment hardening (Nix + Docker + evey-setup)** — Productionize your deployment with Nix for reproducible builds, Docker for isolation, and evey-setup for automated environment provisioning.
+
+---
 
 ---
 
@@ -1074,3 +2248,5 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 ---
 
 *Last updated: June 16, 2026 · [Star this repo →](https://github.com/CorpusIQ/corpusiq-docs) · Powered by CorpusIQ*
+
+> **📊 Ecosystem Stats:** 220+ repos · 18 categories · 1M+ community stars · 32 skill collections · 18 MCP integrations · 15 domain applications
