@@ -1,0 +1,74 @@
+name: 🔗 Submit Hermes Repository
+description: Submit a GitHub repository to be included in the Hermes Ecosystem Directory
+title: "[SUBMIT] Repository Name"
+labels: ["submission", "pending-review"]
+body:
+  - type: input
+    id: repo_url
+    attributes:
+      label: Repository URL
+      description: Full GitHub URL (e.g., https://github.com/owner/repo)
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What type of Hermes resource is this?
+      options:
+        - Core / Official
+        - Documentation & Learning
+        - Community & Awesome Lists
+        - UI & Dashboards
+        - Memory & Knowledge
+        - MCP & Integrations
+        - Skills & Plugins
+        - Orchestration & Multi-Agent
+        - Deployment & Infrastructure
+        - Security & Governance
+        - Research & Benchmarks
+        - Content & Media
+        - Platform-Specific
+        - Specialized Applications
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What does this repo do? How does it relate to Hermes Agent?
+      placeholder: Brief description and Hermes relevance...
+    validations:
+      required: true
+  - type: textarea
+    id: capabilities
+    attributes:
+      label: Key Capabilities
+      description: What are the main features/capabilities? (bullet points)
+      placeholder: |
+        - Feature 1
+        - Feature 2
+        - Feature 3
+    validations:
+      required: false
+  - type: input
+    id: maintainer
+    attributes:
+      label: Maintainer / Organization
+      description: Who maintains this repository?
+      placeholder: e.g., Nous Research, Garry Tan, individual developer
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation
+      options:
+        - label: This repository is related to Hermes Agent, OpenClaw, or the Hermes ecosystem
+          required: true
+        - label: This repository is not already listed in the [Hermes Ecosystem Directory](https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/ecosystem.md)
+          required: true
+        - label: I am the maintainer OR I have used this repository and believe it belongs in the directory
+          required: true
