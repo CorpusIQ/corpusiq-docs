@@ -79,6 +79,7 @@ See the [Connector Catalog](/hermes/mcp/connectors/) for all 37+ CorpusIQ connec
 | Tool | Purpose | Link |
 |------|---------|------|
 | **Playwright** | Browser automation | [playwright.dev](https://playwright.dev) |
+| **patchright** | Cloudflare-undetected Playwright fork | [github.com/kaliiiiiiiiii/...](https://github.com/kaliiiiiiiiii/patchright) |
 | **Chromium** | Open-source browser engine | [chromium.org](https://chromium.org) |
 | **Chrome** | Google browser | [google.com/chrome](https://www.google.com/chrome) |
 | **Firecrawl** | Web extraction (Nous subscription) | [firecrawl.dev](https://firecrawl.dev) |
@@ -99,6 +100,7 @@ See the [Connector Catalog](/hermes/mcp/connectors/) for all 37+ CorpusIQ connec
 | **ElevenLabs** | Text-to-speech (alt provider) | [elevenlabs.io](https://elevenlabs.io) |
 | **TikTok API** | TikTok content publishing | [developers.tiktok.com](https://developers.tiktok.com) |
 | **Instagram Graph API** | Instagram business accounts | [developers.facebook.com](https://developers.facebook.com/docs/instagram-api) |
+| **instagrapi** | Instagram private API (DM outreach, no browser) | [github.com/subzeroid/instagrapi](https://github.com/subzeroid/instagrapi) |
 | **LinkedIn API** | Professional platform | [learn.microsoft.com/linkedin](https://learn.microsoft.com/en-us/linkedin/) |
 | **YouTube Data API** | Video management | [developers.google.com/youtube](https://developers.google.com/youtube) |
 | **Discord API** | Community platform | [discord.com/developers](https://discord.com/developers) |
