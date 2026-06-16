@@ -10,6 +10,12 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml"><img src="https://img.shields.io/badge/📤_Submit_a_Repo-Add_your_Hermes_resource-brightgreen" alt="Submit a Repo"></a>
+  <a href="https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/ecosystem.md"><img src="https://img.shields.io/badge/📚_Ecosystem-234_repos-blue" alt="Ecosystem"></a>
+  <a href="https://github.com/CorpusIQ/corpusiq-docs"><img src="https://img.shields.io/badge/⭐_Star_us-Make_this_the_#1_Hermes_resource-gold" alt="Star"></a>
+</p>
+
+<p align="center">
   <a href="#-quick-start"><b>Quick Start</b></a> ·
   <a href="#-architecture"><b>Architecture</b></a> ·
   <a href="#-memory--knowledge"><b>Memory</b></a> ·
@@ -584,7 +590,19 @@ If you're building production AI agents with Hermes, this is your field manual. 
 - **Beyond the docs** — The official docs tell you *what*. This tells you *how*.
 - **Actively maintained** — Updated as the ecosystem evolves.
 
-**[Star this repo](https://github.com/Ben-Home/hermes-knowledge-repo)** if you want the definitive Hermes resource to exist.
+**[Star this repo](https://github.com/CorpusIQ/corpusiq-docs)** if you want the definitive Hermes resource to exist.
+
+---
+
+## 📤 Submit Your Hermes Resource
+
+Have a Hermes-related repo, tool, skill, or integration? 
+
+👉 **[Submit it here — takes 60 seconds](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)**
+
+Every submission reviewed within 48 hours. Accepted repos added to the [ecosystem directory](https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/ecosystem.md) with full submitter credit.
+
+**We accept:** Hermes skills, MCP servers, plugins, tools, UI/dashboards, deployment guides, tutorials, benchmarks, research, and anything extending the Hermes ecosystem.
 
 ---
 

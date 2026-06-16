@@ -5,11 +5,11 @@ description: The definitive directory of Hermes Agent resources — 220+ repos, 
 
 # Hermes Ecosystem — Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 220+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 234 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 16, 2026 · **Repos indexed:** 220+ · **Categories:** 18
+> **Last updated:** June 16, 2026 · **Repos indexed:** 234 · **Categories:** 18
 >
-> Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
+> 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
 ---
 
