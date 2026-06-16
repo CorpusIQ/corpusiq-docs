@@ -4,6 +4,8 @@
 
 CorpusIQ is the live-data brain you plug into Claude or ChatGPT. Connect the tools you already pay for — QuickBooks, Shopify, Klaviyo, Google Ads, GA4, HubSpot, Slack, Gmail, and 35+ more — then ask plain-English questions and get real answers grounded in your own data.
 
+📚 **[CorpusIQ Documentation](/docs/)** — API reference, connectors, security, quick start
+
 ---
 
 ## Contents
