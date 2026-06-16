@@ -92,6 +92,11 @@ Platform reference for developers and operators.
 | [AI Chat Users](/docs/ai-chat-users/) | Using CorpusIQ from Claude/ChatGPT |
 | [ChatGPT Integration](/docs/chatgpt-integration/) | ChatGPT-specific setup |
 | [Supported Agents](/docs/supported-agents/) | Compatible AI platforms |
+| [API Reference](/docs/api/overview.md) | REST API: query, deep search, delete |
+| [API Endpoints](/docs/api/endpoints.md) | Full request/response schemas + code examples |
+| [Connectors](/docs/connectors.md) | All 37+ business platform integrations |
+| [Quick Start](/docs/quick-start.md) | 4-step guide: signup → first query |
+| [OpenAPI Spec](/docs/api/openapi.md) | Full 3.0.3 spec for Postman/Insomnia |
 
 [Browse docs →](/docs/)
 
