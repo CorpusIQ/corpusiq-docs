@@ -460,7 +460,7 @@ Peer memory and identity platform. Conversation continuity, semantic search, pee
 Model Context Protocol servers and integration bridges for Hermes.
 
 ### CorpusIQ MCP Server
-[mcp2.corpusiq.io/mcp](https://mcp2.corpusiq.io/mcp)
+[CorpusIQ](https://corpusiq.io)
 
 One OAuth flow. 53 tools. 37+ business platforms. Connect Hermes to Gmail, GA4, Stripe, HubSpot, QuickBooks, Meta Ads, Google Ads, Shopify, Klaviyo, and more through a single MCP server.
 
@@ -2192,7 +2192,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 |-------|-----------|
 | **Getting Started** | [Setup Guide](/hermes/setup/) · [Official Docs](https://hermes-agent.nousresearch.com/docs/) · [Orange Book](https://github.com/alchaincyf/hermes-agent-orange-book) · [27-Chapter Tutorial](https://github.com/longyunfeigu/learn-hermes-agent) |
 | **Memory** | [Knowledge Architecture](/hermes/knowledge/) · [GBrain](https://github.com/garrytan/gbrain) · [EverOS](https://github.com/EverMind-AI/EverOS) · [claude-mem](https://github.com/thedotmack/claude-mem) · [mnemosyne](https://github.com/AxDSan/mnemosyne) |
-| **MCP** | [MCP Guide](/hermes/mcp/) · [CorpusIQ MCP](https://mcp2.corpusiq.io/mcp) · [Kindly Search](https://github.com/Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server) · [Kagi MCP](https://github.com/KSroido/Kagi-Session2API-MCP) |
+| **MCP** | [MCP Guide](/hermes/mcp/) · [CorpusIQ](https://corpusiq.io) · [Kindly Search](https://github.com/Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server) · [Kagi MCP](https://github.com/KSroido/Kagi-Session2API-MCP) |
 | **Skills** | [Skills Catalog](/hermes/skills/catalog/) · [Marketing Skills](https://github.com/Ben-Home/marketingskills) · [Skill Factory](https://github.com/Romanescu11/hermes-skill-factory) · [372 Skills](https://github.com/BBridgeers/hermes-skills) |
 | **UI** | [Hermes WebUI](https://github.com/nesquena/hermes-webui) · [Desktop](https://github.com/fathah/hermes-desktop) · [Studio](https://github.com/EKKOLearnAI/hermes-studio) · [Workspace](https://github.com/outsourc-e/hermes-workspace) · [Scarf](https://github.com/awizemann/scarf) |
 | **Production** | [Deployment](/hermes/infrastructure/) · [Crons](/hermes/governance/scheduling/) · [K8s Operator](https://github.com/paperclipinc/hermes-operator) · [Autonomous Server](https://github.com/JackTheGit/hermes-autonomous-server) |

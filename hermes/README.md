@@ -238,7 +238,7 @@ Model Context Protocol (MCP) servers extend Hermes with structured tools. Here's
 
 ### CorpusIQ MCP — 53 Business Tools
 
-The [CorpusIQ MCP server](https://mcp2.corpusiq.io/mcp) connects Hermes to 37+ business platforms through a single OAuth flow:
+The [CorpusIQ MCP server](https://corpusiq.io) connects Hermes to 37+ business platforms through a single OAuth flow:
 
 | Category | Connectors |
 |----------|-----------|

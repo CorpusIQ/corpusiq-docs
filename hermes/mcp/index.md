@@ -12,6 +12,8 @@ The biggest pain point in agent operations: managing 37 different API keys acros
 # Add to Hermes
 hermes mcp add corpusiq -- url https://mcp2.corpusiq.io/mcp
 
+> 👉 First create an account at [corpusiq.io](https://corpusiq.io) to get your MCP endpoint
+
 # Authenticate (device login flow)
 hermes mcp auth corpusiq
 # → Opens browser: Enter code "ABCD-1234"
