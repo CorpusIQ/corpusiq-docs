@@ -24,7 +24,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 234 rep
 | [Memory & Knowledge](#-memory--knowledge) | 14 | [↓](#-memory--knowledge) |
 | [MCP & Integrations](#-mcp--integrations) | 18 | [↓](#-mcp--integrations) |
 | [Skills & Plugins](#-skills--plugins) | 32 | [↓](#-skills--plugins) |
-| [Tools & Utilities](#-tools--utilities) | 16 | [↓](#-tools--utilities) |
+| [Tools & Utilities](#-tools--utilities) | 17 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
 | [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 12 | [↓](#-orchestration-multi-agent--swarms) |
 | [Deployment & Infrastructure](#-deployment--infrastructure) | 14 | [↓](#-deployment--infrastructure) |
@@ -1495,6 +1495,16 @@ Local sub-millisecond memory system with sqlite-vec hybrid. Ultra-fast local vec
 
 **Status:** Beta  
 **Key capabilities:** Sub-ms retrieval, sqlite-vec, hybrid memory, local-first
+
+---
+
+### zzet/gortex
+⭐ **344** · `Go` · [github.com/zzet/gortex](https://github.com/zzet/gortex)
+
+Code graph and intelligence engine that cuts AI coding agent token usage up to 50×. Indexes 257 languages across multiple repos, exposes via CLI, MCP server, and web UI. Native Hermes integration with 20 built-in skills. Sub-millisecond impact analysis, cross-repo call chains, zero external dependencies — single Go binary.
+
+**Status:** Production  
+**Key capabilities:** Token optimization (50×), 257 languages, MCP server, Hermes native, cross-repo graph
 
 ---
 
