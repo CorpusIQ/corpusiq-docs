@@ -125,7 +125,48 @@ Real-world patterns across industries and company sizes.
 
 [Browse all examples →](/hermes/outputs/)
 
-### 11. Tools & Software Index
+### 11. Agent Library
+Role-specific agent configurations ready to deploy.
+
+| [Sales Agent](/hermes/agents/sales-agent.md) | [Marketing](/hermes/agents/marketing-agent.md) | [DevOps](/hermes/agents/devops-agent.md) |
+| [Support](/hermes/agents/support-agent.md) | [Finance](/hermes/agents/finance-agent.md) | [HR](/hermes/agents/hr-agent.md) |
+| [Research](/hermes/agents/research-agent.md) | [Legal](/hermes/agents/legal-agent.md) | [Executive](/hermes/agents/executive-agent.md) |
+
+[Browse all agents →](/hermes/agents/)
+
+### 12. Prompt Collections
+Effective prompts for common Hermes tasks.
+
+| [Code Generation](/hermes/prompts/code-generation.md) | [Content Creation](/hermes/prompts/content-creation.md) | [Data Analysis](/hermes/prompts/data-analysis.md) |
+| [Business Ops](/hermes/prompts/business-operations.md) | [Research](/hermes/prompts/research.md) | [Creative](/hermes/prompts/creative.md) |
+
+[Browse all prompts →](/hermes/prompts/)
+
+### 13. Automation Blueprints
+End-to-end workflow patterns with full cron schedules.
+
+| [Daily Operations](/hermes/blueprints/daily-ops.md) | [Customer Lifecycle](/hermes/blueprints/customer-lifecycle.md) | [Content Pipeline](/hermes/blueprints/content-pipeline.md) |
+| [Financial Close](/hermes/blueprints/financial-close.md) | [Incident Response](/hermes/blueprints/incident-response.md) |
+
+[Browse blueprints →](/hermes/blueprints/)
+
+### 14. Integration Examples
+Connecting Hermes to your existing stack.
+
+| [Slack + GitHub](/hermes/integrations/slack-github.md) | [Email + Calendar](/hermes/integrations/email-calendar.md) |
+| [CRM + Analytics](/hermes/integrations/crm-analytics.md) | [Database + Reporting](/hermes/integrations/database-reporting.md) |
+
+[Browse integrations →](/hermes/integrations/)
+
+### 15. Best Practices
+Operational wisdom from production deployments.
+
+| [Cron Design](/hermes/best-practices/cron-design.md) | [Model Selection](/hermes/best-practices/model-selection.md) | [Memory](/hermes/best-practices/memory-management.md) |
+| [Security](/hermes/best-practices/security.md) | [Skill Dev](/hermes/best-practices/skill-development.md) | [MCP Design](/hermes/best-practices/mcp-design.md) |
+
+[Browse best practices →](/hermes/best-practices/)
+
+### 16. Tools & Software Index
 **[Complete Tool Reference](/hermes/tools/)** — 233+ tools across 20 categories. All linked to repos/docs.
 
 [Browse tools →](/hermes/tools/)
