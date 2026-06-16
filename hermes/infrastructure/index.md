@@ -1,42 +1,278 @@
----
-title: Agent Infrastructure
-description: Production infrastructure for Hermes agents — DGX Spark, Mac Mini worker, browser automation, model routing
----
+# Multi-Machine Deployment — DGX Spark + Mac Mini Worker
 
-# Agent Infrastructure
+Production agents need dedicated hardware. Here's the architecture we run.
 
-Production infrastructure for Hermes agents running 24/7 on a dual-machine deployment.
+## Why Two Machines?
 
-| Page | What You'll Learn |
-|------|-------------------|
-| [DGX Spark](/hermes/infrastructure/dgx/) | NVIDIA DGX hardware, GPU compute config, 21 cron jobs, model hosting |
-| [Mac Mini M4](/hermes/infrastructure/mac-mini/) | macOS worker node, Playwright, browser automation, SSH management |
-| [Browser Automation](/hermes/infrastructure/browser/) | Playwright setup, agent-browser, stealth mode, cookie persistence |
-| [Authentication](/hermes/infrastructure/auth/) | OAuth token lifecycle, headless refresh, dual Gmail accounts |
-| [Model Routing](/hermes/infrastructure/routing/) | Qwen-first routing, cost optimization, model selection strategy |
+| Problem | Single Machine | Two Machines |
+|---------|---------------|--------------|
+| Browser automation crashes | Takes down your agent | Isolated on worker — agent stays up |
+| Video rendering pegs CPU | Blocks all other tasks | Offloaded to worker with FFmpeg |
+| Social publishing failures | Can't post anywhere | Mac Mini runs Postiz independently |
+| Memory pressure | LLM + browser + video = OOM | LLM on DGX, everything else on Mac Mini |
 
-## Dual-Machine Architecture
+## Architecture
 
 ```
-DGX Spark (primary — 21 cron jobs)
-├─ LLM hosting (DeepSeek, Qwen, Llama)
-├─ Core agent operations
-├─ Email monitoring & response
-├─ Social media automation
-└─ Daily reporting
-
-Mac Mini M4 (worker — 4 cron jobs)
-├─ Playwright browser automation
-├─ HeyGen video generation
-├─ Postiz social deployment
-└─ GitHub contribution monitoring
+┌─────────────────────────────────────────────────────────────────┐
+│                    DGX SPARK (Primary)                           │
+│  OS: Linux (ARM64) · RAM: 128GB · GPU: NVIDIA                    │
+│                                                                  │
+│  Services:                                                       │
+│  ├── Hermes Gateway (PID 35253 — running since Jun 12)           │
+│  ├── 38 production crons                                         │
+│  ├── Honcho MCP (peer memory)                                    │
+│  ├── CorpusIQ MCP (53 business tools)                            │
+│  ├── GBrain (729 indexed files, pglite, 768d vectors)            │
+│  ├── memcore-cloud (cross-session context)                       │
+│  ├── Ollama (local embeddings, lightweight inference)            │
+│  └── DeepSeek V4 Pro (primary LLM via OpenRouter)                │
+│                                                                  │
+│  Model Routing:                                                  │
+│  ├── Qwen: Lightweight ops ($0.001/task)                        │
+│  ├── Ollama: Local embeddings (free)                             │
+│  ├── DeepSeek V4: Research, content, coding ($0.01/task)        │
+│  └── Claude Opus: Strategy, contracts ($0.05/task)              │
+│                                                                  │
+└───────────────────────────┬──────────────────────────────────────┘
+                            │
+                    SSH (key-based auth)
+                            │
+┌───────────────────────────┴──────────────────────────────────────┐
+│                  MAC MINI M4 (Worker)                             │
+│  OS: macOS (ARM64) · RAM: 16GB                                   │
+│                                                                  │
+│  Services:                                                       │
+│  ├── Postiz CLI (social publishing — X, LinkedIn, TikTok, IG)    │
+│  ├── Playwright (browser automation, stealth)                    │
+│  ├── FFmpeg (video post-production)                              │
+│  ├── patchright (Cloudflare bypass)                              │
+│  └── Instagram DM outreach (instagrapi)                          │
+│                                                                  │
+└──────────────────────────────────────────────────────────────────┘
 ```
-
-## Why Dual-Machine?
-
-The DGX handles compute-heavy LLM inference and core operations. The Mac Mini handles browser-based tasks that need a real GUI — Playwright, video rendering, social media posting tools that require Chromium. SSH bridge connects them.
 
 ---
 
-*← [Setup](/hermes/setup/) | [Governance](/hermes/governance/) →*
-*↑ [Home](/hermes/)*
+## DGX Spark Setup
+
+### 1. Base Installation
+
+```bash
+# Hermes Agent
+pip install hermes-agent
+
+# Memory stack
+pip install memcore-cloud
+git clone https://github.com/garrytan/gbrain && cd gbrain && ./setup.sh
+
+# MCP servers
+hermes mcp add corpusiq -- url https://mcp2.corpusiq.io/mcp
+hermes mcp add honcho -- npx mcp-remote https://mcp.honcho.dev
+
+# Local inference (optional, for embeddings and lightweight tasks)
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull nomic-embed-text
+```
+
+### 2. Profile Setup
+
+```bash
+hermes profile create corpusiq
+hermes config set model.default deepseek/deepseek-v4-pro
+hermes config set model.fallback "openrouter/qwen/qwen3-235b-a22b:free,anthropic/claude-opus-4"
+```
+
+### 3. Gateway
+
+```bash
+# Start the gateway (background, auto-restart on crash)
+hermes gateway run --replace
+
+# Verify
+hermes gateway status
+```
+
+---
+
+## Mac Mini Worker Setup
+
+### 1. Base
+
+```bash
+# Hermes Agent (same version)
+pip install hermes-agent
+
+# Postiz (social publishing)
+npm install -g postiz-cli
+postiz auth
+
+# Playwright (browser automation)
+pip install playwright
+playwright install chromium
+
+# FFmpeg (video)
+brew install ffmpeg
+```
+
+### 2. SSH Key Setup
+
+```bash
+# On DGX Spark
+ssh-keygen -t ed25519 -f ~/.ssh/mac-mini
+ssh-copy-id -i ~/.ssh/mac-mini.pub media@medias-mac-mini.local
+
+# Test
+ssh media@medias-mac-mini.local "echo connected"
+```
+
+### 3. Worker Scripts
+
+```bash
+# Deploy video pipeline workers
+scp ~/hermes-worker/videos/* media@medias-mac-mini.local:~/worker/videos/
+
+# Deploy Postiz scripts
+scp ~/hermes-worker/social/* media@medias-mac-mini.local:~/worker/social/
+```
+
+---
+
+## Orchestration Patterns
+
+### Pattern 1: Video Pipeline
+
+```bash
+# On DGX Spark:
+# 1. Generate video with HeyGen API
+python3 spark-heygen-direct.py
+
+# 2. Post-produce with FFmpeg
+ffmpeg -i input.mp4 -vf "zoompan=..." -c:a copy output.mp4
+
+# 3. Transfer to Mac Mini
+scp output.mp4 media@medias-mac-mini.local:~/worker/videos/
+
+# 4. Publish via Postiz (on Mac Mini)
+ssh media@medias-mac-mini.local "postiz upload ~/worker/videos/output.mp4 && postiz posts:create --platform tiktok --video output.mp4"
+```
+
+### Pattern 2: Social Publishing
+
+```bash
+# On DGX Spark (or via cron):
+ssh media@medias-mac-mini.local "postiz posts:create \
+  --platform x \
+  --connector cmpoar9y201icl70y7iof708s \
+  --content 'Your post text here'"
+```
+
+### Pattern 3: Browser Automation
+
+```bash
+# On Mac Mini (via SSH from DGX):
+ssh media@medias-mac-mini.local "python3 ~/worker/browser/task.py"
+```
+
+---
+
+## Model Routing Strategy
+
+Not every task needs Claude Opus. Here's how we route:
+
+```python
+# Intelligent model switching based on task complexity
+
+def route_model(task):
+    if task.type == "lightweight":
+        return "openrouter/qwen/qwen3-235b-a22b:free"  # ~$0.001
+    
+    if task.type == "embedding":
+        return "ollama/nomic-embed-text"  # Free, local
+    
+    if task.type in ("research", "content", "coding", "social"):
+        return "deepseek/deepseek-v4-pro"  # ~$0.01/task
+    
+    if task.type in ("strategy", "architecture", "contracts"):
+        return "anthropic/claude-opus-4"  # ~$0.05/task
+```
+
+**Cost savings:** ~65% vs running everything on Claude Opus.
+
+---
+
+## Monitoring
+
+### Health Check (10 PM daily)
+
+```bash
+# On DGX Spark
+hermes cron list | grep -c "active"
+hermes mcp test corpusiq
+hermes mcp test honcho
+
+# On Mac Mini
+ssh media@medias-mac-mini.local "postiz list"
+ssh media@medias-mac-mini.local "pgrep -f playwright"
+```
+
+### Disk & Memory
+
+```bash
+# On both nodes
+df -h /
+free -h  # Linux
+vm_stat  # macOS
+```
+
+---
+
+## Recovery Procedures
+
+### Gateway Crash
+
+```bash
+# Check if running
+hermes gateway status
+
+# Restart
+hermes gateway run --replace
+
+# Check logs
+journalctl --user -u hermes-gateway -n 100
+```
+
+### Mac Mini Unreachable
+
+```bash
+# Ping test
+ping medias-mac-mini.local
+
+# If down: Postiz and browser automation will queue
+# Crons will skip with error → retry on next tick
+```
+
+### OAuth Token Expired
+
+```bash
+# Gmail
+python3 refresh_gmail_token.py
+
+# GitHub (classic PAT — never expires)
+# Verify: curl -H "Authorization: token $(cat secrets/github.token)" https://api.github.com/user
+```
+
+---
+
+## Lessons Learned
+
+1. **Browser automation is fragile** — offload it. Playwright crashes shouldn't take down your agent.
+2. **Key-based SSH is mandatory** — password auth fails silently in cron environments.
+3. **Postiz on Mac Mini is stable** — better than running social publishing directly from the agent.
+4. **Model routing saves real money** — ~65% savings compounds at 24/7 operation.
+5. **Monitor both machines** — the health check must verify the worker node too.
+6. **Keep Hermes versions synced** — DGX and Mac Mini must run the same version.
+
+---
+
+*Next: [Memory Architecture](/hermes/knowledge/) · [Production Crons](/hermes/governance/scheduling/) · [Skills Marketplace](/hermes/skills/)*

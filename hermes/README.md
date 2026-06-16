@@ -1,240 +1,615 @@
-# Hermes Community Hub
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/banner.png" alt="Hermes Agent" width="600">
+</p>
 
-> **Built on [Hermes Agent](https://github.com/NousResearch/hermes-agent)** by [Nous Research](https://nousresearch.com/) — the open source autonomous agent framework. [Star the official repo →](https://github.com/NousResearch/hermes-agent)
+<h1 align="center">Hermes Agent — The Production Knowledge Repository</h1>
 
-### Build Better Hermes Agents Faster
+<p align="center">
+  <b>Everything the <a href="https://hermes-agent.nousresearch.com/docs/">official docs</a> don't cover.<br>
+  Drawn from 1,200+ hours of production autonomous agent operations.</b>
+</p>
 
-The largest collection of Hermes resources, agent templates, MCP integrations, deployment guides, architecture patterns, and production-ready workflows. 36 pages, 3,500+ lines, 233+ tools, 133+ skills, 37+ MCP connectors.
+<p align="center">
+  <a href="#-quick-start"><b>Quick Start</b></a> ·
+  <a href="#-architecture"><b>Architecture</b></a> ·
+  <a href="#-memory--knowledge"><b>Memory</b></a> ·
+  <a href="#-skills-marketplace"><b>Skills</b></a> ·
+  <a href="#-mcp-ecosystem"><b>MCP</b></a> ·
+  <a href="#-production-crons"><b>Crons</b></a> ·
+  <a href="#-deployment"><b>Deployment</b></a> ·
+  <a href="#-ecosystem"><b>Ecosystem</b></a>
+</p>
 
-Whether you're building your first autonomous agent or scaling a multi-agent architecture, this community hub helps you move from experimentation to production.
+<br>
 
-## What's Inside
+## Why This Exists
 
-| Section | Pages | Highlights |
-|---------|-------|------------|
-| [Architecture](/hermes/architecture/) | 1 | Six-layer production agent architecture |
-| [Setup](/hermes/setup/) | 1 | DGX Spark + Mac Mini M4 setup |
-| [Orchestration](/hermes/orchestration/) | 5 | Hermes, CrewAI, LangGraph, Reflexion |
-| [Knowledge](/hermes/knowledge/) | 1 | GBrain, GraphRAG, Dream Cycle, Honcho |
-| [Skills](/hermes/skills/) | 5 | 133+ skills: catalog, marketplace, marketing, dev, ops |
-| [MCP](/hermes/mcp/) | 3 | All 37+ CorpusIQ connectors |
-| [Infrastructure](/hermes/infrastructure/) | 6 | DGX, Mac Mini, browser, auth, routing |
-| [Governance](/hermes/governance/) | 5 | Rules, registry, email, cron, monitoring |
-| [Content Ops](/hermes/content-ops/) | 4 | Video, social, community engagement |
-| [Outputs](/hermes/outputs/) | 1 | Growth channels and metrics |
-| [Tools](/hermes/tools/) | 1 | 233+ tools across 20 categories |
-| [Troubleshooting](/hermes/troubleshooting/) | 1 | Common issues and fixes |
-| [Ecosystem](/hermes/ecosystem/) | 1 | Research extensions, dashboards, community tools |
-| [Changelog](/hermes/changelog/) | 2 | Version history |
+The [official Hermes docs](https://hermes-agent.nousresearch.com/docs/) tell you what each feature does. They don't tell you how to run a production autonomous agent that operates a business.
 
----
+This repository fills that gap. Every pattern here is drawn from a real production deployment running on:
+- **NVIDIA DGX Spark** — primary compute, inference, 96+ skills
+- **Apple Mac Mini M4** — worker node, browser automation, content ops
+- **38 production crons** — email, social, video, research, governance, monitoring
+- **73+ executable skills** — marketing, development, operations, content
+- **6 memory systems** — Honcho, GBrain, memcore-cloud, GraphRAG, Dream Cycle, Session DB
+- **195K+ stars** on the core [Hermes Agent repo](https://github.com/NousResearch/hermes-agent)
 
-## Featured Integration: CorpusIQ
-
-Power your Hermes agents with enterprise knowledge, MCP connectivity, and operational workflows.
-
-CorpusIQ acts as the intelligence layer between Hermes and your business systems, enabling agents to:
-
-* Search enterprise knowledge
-* Access company documentation
-* Connect to MCP servers
-* Execute business workflows
-* Retrieve structured business data
-* Maintain long-term context
-* Coordinate across multiple systems
-* Scale from prototype to production
-
-Most AI agents fail because they lack access to the information, tools, and workflows needed to perform real work.
-
-CorpusIQ solves that problem by providing a unified layer between Hermes and the systems your business relies on every day.
-
-Instead of building and maintaining dozens of separate integrations, connect Hermes to CorpusIQ and give your agents access to the knowledge and workflows they need to operate effectively.
-
-### Why Hermes Builders Use CorpusIQ
-
-* Enterprise knowledge retrieval
-* MCP server connectivity
-* Multi-agent orchestration
-* Workflow automation
-* Long-term memory patterns
-* Production deployment architecture
-* Business process integration
-
-Learn how Hermes and CorpusIQ work together to build production-grade autonomous systems.
-
-**Explore CorpusIQ → https://corpusiq.io**
+**This is the repo you wish existed when you started building production agents.**
 
 ---
 
-## Ready-to-Deploy Hermes Agent Templates
+## 📖 Table of Contents
 
-Launch faster with proven examples and implementation patterns.
-
-### Sales Agent
-
-Lead qualification, prospect research, CRM updates, outreach workflows, and pipeline management.
-
-### Research Agent
-
-Competitive intelligence, market analysis, industry monitoring, and automated reporting.
-
-### Customer Support Agent
-
-Knowledge retrieval, ticket triage, response generation, and support automation.
-
-### Operations Agent
-
-Task coordination, workflow execution, process monitoring, and operational reporting.
-
-### Compliance Agent
-
-Document review, policy validation, audit preparation, and risk identification.
-
-### Executive Assistant Agent
-
-Meeting preparation, reporting, prioritization, scheduling, and task management.
-
-Browse production-ready configurations, prompts, and architecture examples.
+- [Quick Start — Production in 15 Minutes](#-quick-start)
+- [Architecture — The 6-Layer Model](#-architecture)
+- [Memory & Knowledge](#-memory--knowledge)
+- [Skills Marketplace](#-skills-marketplace)
+- [MCP Ecosystem](#-mcp-ecosystem)
+- [Production Cron Reference](#-production-crons)
+- [Deployment Patterns](#-deployment)
+- [Content Operations at Scale](#-content-operations)
+- [Governance & Operations](#-governance--operations)
+- [Community Ecosystem](#-ecosystem)
+- [Contributing](#-contributing)
 
 ---
 
-## Popular Hermes Resources
+## 🚀 Quick Start
 
-### Getting Started
+### Production deployment in 15 minutes
 
-* Hermes Quick Start Guide
-* First Agent Tutorial
-* Installation Walkthrough
-* Common Setup Issues
-* Production Readiness Checklist
+```bash
+# 1. Install Hermes Agent
+pip install hermes-agent
 
-### MCP Integrations
+# 2. Initialize with a profile
+hermes profile create my-agent
 
-Connect Hermes to the tools, knowledge, and workflows your business already uses.
+# 3. Set up persistent memory (choose your stack)
+# Option A: Honcho (peer memory + semantic search)
+hermes mcp add honcho -- npx mcp-remote https://mcp.honcho.dev
 
-Featured integrations include:
+# Option B: GBrain (organizational knowledge base)
+git clone https://github.com/garrytan/gbrain && cd gbrain && ./setup.sh
 
-* CorpusIQ
-* GitHub
-* Slack
-* Notion
-* Custom MCP Servers
-* Internal Knowledge Bases
-* Enterprise Document Repositories
-* Business Workflows
-* Custom APIs
+# Option C: memcore-cloud (self-evolving memory)
+pip install memcore-cloud && memcore-cloud init
 
-Through CorpusIQ, Hermes agents can securely access business systems, enterprise knowledge, and operational workflows without requiring custom integrations for every deployment.
+# 4. Add your first MCP server for business tools
+hermes mcp add corpusiq -- url https://mcp2.corpusiq.io/mcp
 
-### Production Deployment
+# 5. Deploy your first autonomous cron
+hermes cron create --prompt "Check email every 15 minutes, classify leads, respond to urgent" --schedule "*/15 * * * *"
 
-* Docker Deployment
-* Cloud Hosting
-* Security Hardening
-* Monitoring and Observability
-* Logging and Diagnostics
-* Scaling Strategies
-* Production Best Practices
+# 6. Go deeper with the content guides below
+```
 
-### Architecture Guides
-
-* Multi-Agent Systems — [full architecture](/hermes/architecture/)
-* Agent Memory Patterns — [knowledge architecture](/hermes/knowledge/)
-* Human Approval Workflows
-* Long Running Tasks
-* Agent Orchestration Strategies — [orchestration overview](/hermes/orchestration/)
-* Autonomous Operations Design — [full architecture](/hermes/architecture/)
+**Next steps:** [Full Setup Guide](/hermes/content/setup/) · [Infrastructure](/hermes/content/infrastructure/) · [Governance](/hermes/content/governance/)
 
 ---
 
-## Free Hermes Starter Pack
+## 🏗 Architecture
 
-Get instant access to:
+### The 6-Layer Production Model
 
-* 10 Production Agent Templates
-* MCP Integration Examples
-* Deployment Checklist
-* Architecture Blueprints
-* Security Best Practices
-* Workflow Examples
-* Prompt Libraries
-* Production Patterns
+Most Hermes setups are single-machine, human-driven chat loops. Production requires six distinct layers:
 
-Designed to help Hermes users deploy faster and avoid common implementation mistakes.
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    GOVERNANCE LAYER                          │
+│  System Registry · Email Ops · 38 Crons · Token Lifecycle   │
+├─────────────────────────────────────────────────────────────┤
+│                  CONTENT OPERATIONS                          │
+│  Video Pipeline · Social Publishing · Engagement Engines     │
+├─────────────────────────────────────────────────────────────┤
+│                 KNOWLEDGE & MEMORY                           │
+│  GBrain · Honcho · memcore-cloud · GraphRAG · Dream Cycle   │
+├─────────────────────────────────────────────────────────────┤
+│                   SKILLS & TOOLS                             │
+│  73+ Skills · 65 CLI Tools · MCP Infrastructure              │
+├─────────────────────────────────────────────────────────────┤
+│                   INFRASTRUCTURE                             │
+│  DGX Spark · Mac Mini M4 · Browser Auto · Auth · Routing    │
+├─────────────────────────────────────────────────────────────┤
+│                 AGENT ORCHESTRATION                          │
+│  Hermes v0.16+ · CrewAI · LangGraph · Reflexion             │
+└─────────────────────────────────────────────────────────────┘
+```
 
-Download the free starter pack and accelerate your next build.
+**Read the full architecture:** [content/architecture.md](/hermes/content/architecture.md)
 
----
+### Multi-Machine Deployment
 
-## Why This Project Exists
+| Node | Role | Hardware | Primary Workload |
+|------|------|----------|------------------|
+| **DGX Spark** | Primary | NVIDIA ARM64 | Inference, orchestration, 96+ skills, LLM routing |
+| **Mac Mini M4** | Worker | Apple Silicon 16GB | Browser automation, Postiz publishing, FFmpeg video |
 
-Hermes is a powerful framework for autonomous agents.
+**Why two machines?** Browser automation is noisy, GPU-hungry, and crash-prone. Offloading it to a dedicated worker keeps the primary agent stable. SSH orchestration between nodes is zero-config with Hermes profiles.
 
-The challenge is not building agents.
-
-The challenge is deploying agents that create real business value.
-
-Most builders spend weeks solving the same implementation challenges:
-
-* How should memory be structured?
-* Which MCP servers should I use?
-* How do I move from prototype to production?
-* How should agents interact with business systems?
-* What architecture patterns actually work?
-
-This community exists to answer those questions.
-
-Our goal is simple:
-
-Help every Hermes user move from prototype to production faster.
-
----
-
-## Join the Community
-
-Get new templates, MCP integrations, deployment guides, architecture patterns, and production workflows delivered directly to your inbox.
-
-Stay current with the latest Hermes ecosystem developments and learn how leading builders are deploying autonomous agents in production.
-
-Join the growing community of Hermes builders creating the next generation of AI systems.
-
-### What You'll Receive
-
-* New Agent Templates
-* MCP Server Discoveries
-* Deployment Guides
-* Architecture Patterns
-* Workflow Blueprints
-* Production Lessons Learned
-* Hermes Ecosystem Updates
-
-Start building better Hermes agents today.
+[Full deployment guide →](/hermes/content/infrastructure/)
 
 ---
 
-## Contribute
+## 🧠 Memory & Knowledge
 
-Have a template, integration, workflow, or deployment pattern that helped you?
+The single biggest gap between a chat agent and an autonomous operator is **persistent knowledge**. Without memory, every session starts from zero. Here's the stack we run:
 
-Open a pull request and help the Hermes community grow.
+### Memory Stack Comparison
 
-Together we can build the definitive resource library for Hermes users.
+| System | Type | What It Solves | Setup Time |
+|--------|------|----------------|------------|
+| **[Honcho](https://mcp.honcho.dev)** | Peer memory | Who are you, what platforms are banned, what decisions were made | 2 min |
+| **[GBrain](https://github.com/garrytan/gbrain)** | Organizational knowledge | What files exist, what code does what, what was built when | 10 min |
+| **[memcore-cloud](https://github.com/memcore-cloud)** | Self-evolving memory | Cross-session context injection, raw source tracking, FTS5 recall | 5 min |
+| **GraphRAG** | Relationship memory | How entities and concepts connect — not just what documents say | 30 min |
+| **Dream Cycle** | Consolidation | Nightly job at 3 AM that merges, deduplicates, and strengthens memories | Cron |
+| **Session DB** | SQLite + FTS5 | Full conversation history, searchable across sessions | Built-in |
+
+### The Honcho + GBrain + memcore-cloud Pattern
+
+This is the production-tested triple stack:
+
+```
+Session Start
+    │
+    ├── Honcho: Load peer context (bans, tokens, rules, preferences)
+    ├── GBrain: Query organizational knowledge (files, code, architecture)
+    ├── memcore-cloud: Inject cross-session context (what happened last time)
+    │
+    ▼
+Agent operates with full context
+    │
+    ▼
+Session End (or every 30 min)
+    │
+    ├── Honcho: Write new observations, update peer models
+    ├── GBrain: Index new files, update embeddings
+    ├── Dream Cycle: Queue consolidation for 3 AM
+    └── Session DB: Auto-logged by Hermes
+```
+
+**Read the full memory guide →** [content/knowledge/](/hermes/content/knowledge/)
+
+### Memory: Why Not Just Vector DB?
+
+| Approach | Good For | Bad For |
+|----------|----------|---------|
+| **Simple Vector DB** | Semantic search over documents | No peer identity, no conversation history, no consolidation |
+| **Honcho** | Peer identity, conversation memory, decision tracking | Raw document search |
+| **GBrain** | Organizational knowledge, code understanding, file indexing | Conversation history |
+| **memcore-cloud** | Cross-session context injection, raw source tracking | Peer modeling |
+| **All three together** | Complete agent memory architecture | Slightly more setup (15 min) |
+
+**Key insight:** These aren't competitors — they solve different problems. Run all three.
 
 ---
 
-## Repo Stats
+## 🛠 Skills Marketplace
+
+Hermes Agent ships with a built-in skill system. Skills are reusable, self-contained workflows that the agent loads on demand. Here's what we've built and tested in production:
+
+### By Category
+
+| Category | Count | Highlights |
+|----------|-------|------------|
+| **Marketing** | 45 | SEO comparison pages, CRO optimization, ad analytics, content strategy, community engagement |
+| **Development** | 12 | GitHub PR workflows, code review, CI/CD, repo management, codebase inspection |
+| **Operations** | 8 | Email automation, cron management, system audits, lead capture |
+| **Content** | 5 | Video generation (HeyGen), social publishing (Postiz), engagement engines |
+| **Governance** | 3 | System registry, drift prevention, session handoff |
+
+### Top 10 Most-Used Skills
+
+1. **corpusiq-social-cadence-engine** — 6x daily social posting across X, LinkedIn, TikTok, Instagram, YouTube
+2. **corpusiq-email-operating-rules** — Autonomous inbox management with 4-tier classification
+3. **help-first-community-engagement** — Find operators asking questions, answer without selling
+4. **corpusiq-heygen-video-pipeline** — Daily UGC video generation with 10-scenario rotation
+5. **corpusiq-daily-html-reporting** — 6 PM daily report with 6 locked sections
+6. **corpusiq-execution-discipline** — No-permission-gates, framework-first, data-driven execution
+7. **corpusiq-organic-discovery** — Find organic promotion opportunities across platforms
+8. **corpusiq-autonomous-growth-intelligence** — Proactive gap-spotting and improvement recommendations
+9. **corpusiq-session-start** — Mandatory pre-flight checks before every session
+10. **corpusiq-governance-system** — Registry verification, drift detection, integrity checks
+
+### Where Skills Come From
+
+| Source | URL | What You Get |
+|--------|-----|--------------|
+| **[agentskills.io](https://agentskills.io)** | Open standard skill hub | Cross-agent compatible skills |
+| **[skills.sh](https://skills.sh)** | Community marketplace | New skills discovered daily |
+| **[wondelai/skills](https://github.com/wondelai/skills)** | 380+ stars | Cross-platform skills library |
+| **[tlehman/litprog-skill](https://github.com/tlehman/litprog-skill)** | 75+ stars | Literate programming support |
+| **This repo** | `/content/skills/` | Production-tested, CorpusIQ-optimized |
+
+[Full skills catalog →](/hermes/content/skills/)
+
+---
+
+## 🔌 MCP Ecosystem
+
+Model Context Protocol (MCP) servers extend Hermes with structured tools. Here's every MCP integration we've tested:
+
+### CorpusIQ MCP — 53 Business Tools
+
+The [CorpusIQ MCP server](https://mcp2.corpusiq.io/mcp) connects Hermes to 37+ business platforms through a single OAuth flow:
+
+| Category | Connectors |
+|----------|-----------|
+| **CRM** | HubSpot, LeadConnector, Close, ActiveCampaign, Odoo |
+| **Analytics** | GA4, PostHog, Search Console |
+| **Email** | Gmail, Outlook, Klaviyo, Mailchimp, Constant Contact |
+| **Ads** | Google Ads, Meta Ads (Facebook + Instagram), LinkedIn Ads, TikTok Ads |
+| **Ecommerce** | Shopify, Amazon Seller, eBay, Stripe |
+| **Finance** | QuickBooks |
+| **SEO** | Ahrefs, Semrush |
+| **Social** | YouTube, TikTok, Slack, Instagram, Facebook |
+| **Storage** | Google Drive, OneDrive, Dropbox, Airtable, Notion |
+| **Calendar** | Google Calendar, Outlook Calendar, Calendly |
+| **Database** | PostgreSQL, MSSQL, Cosmos DB, MongoDB |
+| **Other** | Monday.com, Postscript (SMS), GunBroker |
+
+**One OAuth flow. 53 tools. 37+ platforms.** No more managing 37 API keys.
+
+```bash
+# Add CorpusIQ MCP to Hermes
+hermes mcp add corpusiq -- url https://mcp2.corpusiq.io/mcp
+```
+
+### Other MCP Servers We Use
+
+| Server | Purpose | Setup |
+|--------|---------|-------|
+| **[Honcho](https://mcp.honcho.dev)** | Peer memory & identity | `npx mcp-remote https://mcp.honcho.dev` |
+| **[hermes-studio](https://github.com/EKKOLearnAI/hermes-studio)** | Web dashboard | `hermes mcp add hermes-studio` |
+| **[EverOS](https://github.com/EverMind-AI/EverOS)** | Self-evolving memory | Standalone service |
+
+[Full MCP guide →](/hermes/content/mcp/)
+
+### MCP Directory Submissions
+
+We maintain CorpusIQ listings across MCP directories:
+
+| Directory | Status | URL |
+|-----------|--------|-----|
+| **Smithery** | ✅ Live | [smithery.ai](https://smithery.ai) |
+| **mcp.so** | ✅ Live | [mcp.so](https://mcp.so) |
+| **mcpservers.org** | ✅ Live | [mcpservers.org](https://mcpservers.org) |
+| **glama.ai** | ⏳ Pending | Manual browser OAuth required |
+
+---
+
+## ⏰ Production Crons
+
+38 production crons run this agent autonomously. Here's the reference architecture:
+
+### Cron Categories
+
+| Category | Count | Examples |
+|----------|-------|----------|
+| **Email Operations** | 4 | Monitor (every 15m), Responder (every 30m), Forward handler, Job reply forwarder |
+| **Social Publishing** | 3 | Social posting (3x daily), Daily rotation, GitHub promotion |
+| **Content Operations** | 2 | Video pipeline (6 AM daily), Content cross-posting |
+| **Community Engagement** | 5 | Help-first commenting (6x daily), GitHub issues (4x), Channel scan, IG monitoring |
+| **Research & Discovery** | 5 | Tech research (every 6h), MCP server monitor, Skills monitor, GitHub discovery, PH RSS |
+| **Governance** | 6 | Health monitor (10 PM), Self-improvement (11 PM), Drift prevention (1 AM), Auth check, MCP directory check, Docs monitor |
+| **Memory** | 1 | GBrain dream cycle (3 AM) |
+| **Growth** | 2 | Organic discovery, Daily growth geo tools |
+| **Job Search** | 1 | Daily job search + resume generation (7 AM) |
+| **GitHub** | 2 | Issue poller (every minute), Auto-ack issues (every 6h) |
+| **Hermes Release** | 1 | Release monitor (3x daily) |
+
+### Cron Schedule Map (Arizona Time)
+
+```
+00:00 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+01:00 ██ Drift prevention
+02:00 ██ Hermes release check
+03:00 ██ GBrain dream cycle · MCP server monitor
+04:00 ██ Skills monitor
+05:00 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+06:00 ████████ Video pipeline · Social posting · Help-first commenting
+07:00 ████████████ Job search · Auth health · Daily rotation · Growth tools · Organic discovery
+08:00 ██████ GitHub promotion · Help-first · Channel scan · Cross-platform monitor
+09:00 ██████ Social posting · GitHub discovery
+10:00 ████████████ Help-first · IG monitor · MCP directory · GitHub issues · Hermes release
+11:00 ██ MCP server monitor
+12:00 ████ Help-first · Skills monitor
+13:00 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+14:00 ██ Daily rotation
+15:00 ████ Social posting · Help-first · IG monitor
+16:00 ██ GitHub promotion
+17:00 ████ Help-first · GitHub issues
+18:00 ██████ Daily report (6 PM) · Hermes release
+19:00 ██ MCP server monitor · Organic discovery
+20:00 ████ Skills monitor · Cross-platform monitor
+21:00 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+22:00 ██ System health monitor
+23:00 ██ Daily self-improvement
+```
+
+**Every line is a cron you can copy.** [Full cron reference →](/hermes/content/governance/scheduling/)
+
+---
+
+## 🖥 Deployment
+
+### Multi-Machine Architecture
+
+```
+┌────────────────────────────────────────────────────────────┐
+│                      DGX SPARK (Primary)                    │
+│                                                            │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  │
+│  │ Hermes   │  │  CrewAI  │  │ LangGraph│  │ Reflexion│  │
+│  │ v0.16.0  │  │Orchestra-│  │Workflows │  │  Self-   │  │
+│  │          │  │   tion   │  │          │  │Improve   │  │
+│  └──────────┘  └──────────┘  └──────────┘  └──────────┘  │
+│                                                            │
+│  ┌──────────────────────────────────────────────────────┐  │
+│  │  Memory Layer                                        │  │
+│  │  Honcho · GBrain · memcore-cloud · GraphRAG         │  │
+│  └──────────────────────────────────────────────────────┘  │
+│                                                            │
+│  ┌──────────────────────────────────────────────────────┐  │
+│  │  MCP Gateway                                         │  │
+│  │  CorpusIQ (53 tools) · Honcho · hermes-studio        │  │
+│  └──────────────────────────────────────────────────────┘  │
+│                                                            │
+│                    SSH Orchestration                        │
+└────────────────────────┬───────────────────────────────────┘
+                         │
+                         ▼
+┌────────────────────────────────────────────────────────────┐
+│                  MAC MINI M4 (Worker)                       │
+│                                                            │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  │
+│  │ Browser  │  │ Postiz   │  │  FFmpeg  │  │ Playwright│  │
+│  │  Use     │  │  Social  │  │  Video   │  │  Browser  │  │
+│  │          │  │Publisher │  │  Proc.   │  │  Agents   │  │
+│  └──────────┘  └──────────┘  └──────────┘  └──────────┘  │
+│                                                            │
+└────────────────────────────────────────────────────────────┘
+```
+
+### Model Routing Strategy
+
+Not every task needs Claude Opus. Our cost-optimized routing saves ~65% vs premium-only:
+
+| Task Type | Model | Cost/Task |
+|-----------|-------|-----------|
+| Lightweight ops, simple queries | Qwen | ~$0.001 |
+| Local inference, embeddings | Ollama | Free |
+| Research, content, coding | DeepSeek V4 | ~$0.01 |
+| Strategy, architecture, contracts | Claude Opus | ~$0.05 |
+
+[Full deployment documentation →](/hermes/content/infrastructure/)
+
+---
+
+## 🎬 Content Operations
+
+Autonomous content production running daily:
+
+### Video Pipeline (6 AM Daily)
+
+```
+UGC Scenario Library (10 scenarios)
+    │
+    ▼
+Avatar Rotation (6 avatars, gender-balanced)
+    │
+    ▼
+Script Generation (Hook→Problem→Discovery→Result→CTA)
+    │
+    ▼
+HeyGen v2 API (video generation)
+    │
+    ▼
+FFmpeg Post-Production (Ken Burns + Gradient)
+    │
+    ▼
+Email to Benoit for review
+    │
+    ▼ (APPROVED)
+SCP to Mac Mini → Postiz Upload → TikTok + Instagram + YouTube Shorts
+```
+
+### Social Publishing (3x Daily)
+
+Morning (6 AM), Midday (9 AM), Afternoon (3 PM). X + LinkedIn Page via Postiz. All posts are help-first — solve operator problems before mentioning product.
+
+[Full content operations guide →](/hermes/content/content-ops/)
+
+---
+
+## 🏛 Governance & Operations
+
+### System Registry
+
+Every component is registered before creation. No duplicates. No orphaned code. 11 governance files track:
+- Skills inventory (73+)
+- Cron registry (38 jobs)
+- Token lifecycle (Gmail, GitHub, HeyGen, Postiz)
+- Platform status (X, LinkedIn, TikTok, Instagram, YouTube)
+- Memory systems (Honcho, GBrain, memcore-cloud)
+
+### Email Operations
+
+```
+Every 15 minutes:
+  ├── Check media@corpusiq.io + info@corpusiq.io
+  ├── 4-tier classification (HIGH_VALUE, QUALIFIED, INTERESTED, SPAM)
+  ├── HIGH_VALUE → Instant Telegram alert → 30min response SLA
+  ├── QUALIFIED → JSON log → 2hr response SLA
+  └── Job replies → Forward to benoitpecqueur@me.com
+```
+
+### Nightly Self-Improvement (11 PM)
+
+Reviews the day's mistakes from IMPROVEMENT_LOG.md, patches affected skills, updates memory with learned corrections. The system gets better every night.
+
+[Full governance documentation →](/hermes/content/governance/)
+
+---
+
+## 🌐 Ecosystem
+
+### Official Resources
+
+| Resource | Stars | Description |
+|----------|-------|-------------|
+| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | 195K+ | Core project |
+| [Official Docs](https://hermes-agent.nousresearch.com/docs/) | — | Installation, CLI, gateway, tools, skills |
+| [Release Notes](https://github.com/NousResearch/hermes-agent/releases) | — | Changelog per version |
+| [Discord](https://discord.gg/NousResearch) | — | Community support |
+| [autonovel](https://github.com/NousResearch/autonovel) | — | Autonomous long-form writing |
+| [hermes-paperclip-adapter](https://github.com/NousResearch/hermes-paperclip-adapter) | — | Paperclip integration |
+| [tinker-atropos](https://github.com/NousResearch/tinker-atropos) | — | RL training for tool-calling |
+
+### Memory & Knowledge
+
+| Project | Stars | What It Does |
+|---------|-------|-------------|
+| [garrytan/gbrain](https://github.com/garrytan/gbrain) | 23K+ | Opinionated agent brain layer |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 82K+ | Persistent context across sessions |
+| [EverMind-AI/EverOS](https://github.com/EverMind-AI/EverOS) | 7.5K+ | Self-evolving memory across agents |
+
+### User Interfaces
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [hermes-webui](https://github.com/nesquena/hermes-webui) | 14.5K+ | Web interface for Hermes |
+| [hermes-desktop](https://github.com/fathah/hermes-desktop) | 12K+ | Desktop companion |
+| [hermes-studio](https://github.com/EKKOLearnAI/hermes-studio) | 8K+ | Web dashboard |
+| [hermes-workspace](https://github.com/outsourc-e/hermes-workspace) | 500+ | Chat + terminal + skills manager |
+
+### Orchestration & Multi-Agent
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [mission-control](https://github.com/builderz-labs/mission-control) | 3.7K+ | Multi-agent fleet management |
+| [PraisonAI](https://github.com/MervinPraison/PraisonAI) | 8K+ | 24/7 AI workforce |
+| [manifest](https://github.com/mnfst/manifest) | 7K+ | Connect agents with any provider |
+
+### Skills & Tools
+
+| Resource | Description |
+|----------|-------------|
+| [agentskills.io](https://agentskills.io) | Open standard skill hub |
+| [skills.sh](https://skills.sh) | Community skill marketplace |
+| [wondelai/skills](https://github.com/wondelai/skills) | Cross-platform skills library (380+ ★) |
+| [tlehman/litprog-skill](https://github.com/tlehman/litprog-skill) | Literate programming skills (75+ ★) |
+
+### Deployment & Infrastructure
+
+| Project | Description |
+|---------|-------------|
+| [1Panel](https://github.com/1Panel-dev/1Panel) | VPS control panel with native AI agent support (35K+ ★) |
+| [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw) | Secure agent execution with managed infrastructure (21K+ ★) |
+
+### Related Awesome Lists
+
+| List | Focus |
+|------|-------|
+| [awesome-openclaw](https://github.com/SamurAIGPT/awesome-openclaw) | OpenClaw ecosystem (Hermes predecessor) |
+| [awesome-ai-agents-2026](https://github.com/Ben-Home/awesome-ai-agents-2026) | 300+ AI agents and frameworks |
+
+---
+
+## 📊 Production Metrics
+
+From a real deployment running 24/7:
 
 | Metric | Value |
 |--------|-------|
-| Pages | 36 |
-| Total lines | 3,500+ |
-| Categories | 13 |
-| Tools indexed | 140+ |
-| Skills cataloged | 142 |
-| MCP connectors | 37+ |
-| Active production crons | 24 |
-| Machines | 2 (DGX + Mac Mini) |
+| **Active crons** | 28 active, 8 paused |
+| **Skills deployed** | 73+ |
+| **MCP servers** | 2 (CorpusIQ: 53 tools, Honcho: peer memory) |
+| **Memory systems** | 6 (Honcho, GBrain, memcore-cloud, GraphRAG, Dream Cycle, Session DB) |
+| **Business connectors** | 37+ (via CorpusIQ MCP) |
+| **Platforms published to** | 5 (X, LinkedIn, TikTok, Instagram, YouTube) |
+| **Email inboxes monitored** | 2 (media@ + info@) |
+| **Cost optimization** | ~65% savings via multi-model routing |
+| **Uptime** | 24/7 since June 12, 2026 |
 
 ---
 
-*Powered by CorpusIQ — agents that compound*
+## 🗺 Repository Structure
+
+```
+/
+├── README.md                          ← You are here
+├── content/
+│   ├── index.md                       ← Content hub
+│   ├── architecture.md                ← Full 6-layer architecture
+│   ├── setup/                         ← Installation & configuration
+│   ├── orchestration/                 ← Hermes, CrewAI, LangGraph, Reflexion
+│   │   ├── hermes/
+│   │   ├── crewai/
+│   │   ├── langgraph/
+│   │   └── reflexion/
+│   ├── knowledge/                     ← Memory & knowledge architecture
+│   ├── skills/                        ← Skills marketplace & development
+│   │   ├── marketing/
+│   │   ├── development/
+│   │   └── operations/
+│   ├── mcp/                           ← MCP server guides
+│   │   └── servers/
+│   ├── infrastructure/                ← Deployment & infrastructure
+│   │   ├── dgx/
+│   │   ├── mac-mini/
+│   │   ├── browser/
+│   │   ├── auth/
+│   │   └── routing/
+│   ├── content-ops/                   ← Content production
+│   │   ├── video/
+│   │   ├── social/
+│   │   └── engagement/
+│   ├── governance/                    ← Operations & control
+│   │   ├── registry/
+│   │   ├── email/
+│   │   ├── scheduling/
+│   │   └── monitoring/
+│   └── outputs/                       ← Production case studies
+└── LICENSE
+```
+
+---
+
+## 🤝 Contributing
+
+This is a living repository maintained by **CorpusIQ** — the operating system for business agents. Content is generated and updated by monitoring crons that detect new Hermes releases, MCP servers, skills, and community resources.
+
+**To contribute:**
+1. Fork the repo
+2. Add your production-tested setup, skill, or pattern
+3. Submit a PR with details of what you built and how it works in production
+
+We especially welcome:
+- Production deployment architectures
+- Memory/knowledge stack setups
+- Multi-agent orchestration patterns
+- MCP server integration guides
+- Autonomous cron workflows
+- Governance and monitoring approaches
+
+---
+
+## ⭐ Why Star This Repo?
+
+If you're building production AI agents with Hermes, this is your field manual. Everything here is:
+
+- **Production-tested** — Not hypothetical. Runs 24/7.
+- **Community-curated** — Pulled from the full Hermes ecosystem.
+- **Beyond the docs** — The official docs tell you *what*. This tells you *how*.
+- **Actively maintained** — Updated as the ecosystem evolves.
+
+**[Star this repo](https://github.com/Ben-Home/hermes-knowledge-repo)** if you want the definitive Hermes resource to exist.
+
+---
+
+<p align="center">
+  <b>Powered by <a href="https://corpusiq.io">CorpusIQ</a> — the operating system for business agents.</b><br>
+  <sub>One connector. 37+ tools. Your business data, finally answering your questions.</sub>
+</p>
