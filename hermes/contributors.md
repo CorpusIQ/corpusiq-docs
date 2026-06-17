@@ -8,7 +8,7 @@ tags:
   - open-source
   - submit-repo
   - ecosystem
-last_updated: 2026-06-16
+last_updated: 2026-06-17
 ---
 
 # Hermes Community Contributors — Help Build the Largest Hermes Resource Directory
@@ -21,7 +21,7 @@ The **Hermes Ecosystem Directory** is the most comprehensive collection of Herme
 
 | Metric | Value |
 |--------|-------|
-| **Total submissions** | 121+ |
+| **Total submissions** | 176+ |
 | **Approval rate** | 100% |
 | **Review time** | <48 hours |
 | **Repos indexed** | 234+ |
@@ -54,7 +54,7 @@ Check the [Pending Review Queue](https://github.com/CorpusIQ/corpusiq-docs/issue
 
 | Contributor | Submissions | Approved | Role |
 |-------------|------------|----------|------|
-| [@CorpusIQ](https://github.com/CorpusIQ) | 121 | 121 | Maintainer |
+| [@CorpusIQ](https://github.com/CorpusIQ) | 176 | 121 | Maintainer |
 
 ## Inclusion Criteria
 
