@@ -172,6 +172,72 @@ A: The same CorpusIQ MCP server works with ChatGPT, Claude, and custom MCP clien
 **Q: What about data privacy regulations?**  
 A: Data never leaves its source system. CorpusIQ doesn't store data. This simplifies GDPR, CCPA, and SOC 2 compliance compared to warehouse-based approaches.
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How is this different from a data warehouse?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A data warehouse stores copies of data for analytics. An AI data layer provides live, read-only access for AI queries \u2014 no copies, no ETL."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I still need a data warehouse?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For formal BI reporting, historical analysis, and ML \u2014 yes. For AI-powered business queries \u2014 the AI data layer may be sufficient."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I add custom data sources?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ supports custom database connections (PostgreSQL, MSSQL, MongoDB). For unsupported APIs, request a new connector or use the database connector as a bridge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I handle data that changes frequently?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The AI data layer queries live sources, so changes are reflected immediately. No sync lag, no stale data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this a replacement for API integrations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For AI access to data \u2014 yes. For application-to-application integration \u2014 no. Zapier or custom APIs are still needed for automated workflows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does this work with multiple AI assistants?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The same CorpusIQ MCP server works with ChatGPT, Claude, and custom MCP clients simultaneously. One data layer, many AI consumers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about data privacy regulations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Data never leaves its source system. CorpusIQ doesn't store data. This simplifies GDPR, CCPA, and SOC 2 compliance compared to warehouse-based approaches."
+      }
+    }
+  ]
+}
+</script>
+
 ## Internal Links
 
 - [How to Connect Multiple Data Sources to AI](/docs/how-to-connect-multiple-data-sources-to-ai/)

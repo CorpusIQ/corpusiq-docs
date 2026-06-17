@@ -1,16 +1,14 @@
 ---
-title: "Connect Stripe to Claude via MCP — AI-Powered Payment Intelligence"
-meta_title: "Connect Stripe to Claude | CorpusIQ MCP Integration for Payments"
-meta_description: "Connect Stripe to Claude using CorpusIQ's MCP platform. Query charges, customers, subscriptions, payouts, refunds, and disputes in natural language. Read-only API key, enterprise-grade security."
-url: "/docs/connect-stripe-to-claude/"
-h1: "Connect Stripe to Claude: Payment Data in AI Conversations"
-category: "Claude Integrations"
-last_updated: "2025-06-16"
-author: "CorpusIQ"
-canonical: "https://corpusiq.com/docs/connect-stripe-to-claude/"
+title: "Connect Stripe to Claude via MCP — Live Data, No Code | CorpusIQ"
+description: "Connect your Stripe account to Claude through CorpusIQ MCP. Ask natural language questions about your stripe data and get real-time, source-cited answers — no exports, no coding required."
+category: Claude Integrations
+tags: ["connect Stripe to Claude", "Stripe Claude integration", "MCP Stripe connector", "Stripe data to Claude", "AI for Stripe", "CorpusIQ MCP"]
+last_updated: 2026-06-16
+canonical: https://www.corpusiq.io/docs/connect-stripe-to-claude
+robots: index,follow
 ---
 
-## Connect Stripe to Claude: Payment Data in AI Conversations
+# How to Connect Stripe to Claude with CorpusIQ MCP
 
 Stripe processes billions of dollars in payments, but the financial data it captures — charges, subscriptions, refunds, disputes, payouts — is often siloed in the Stripe Dashboard, inaccessible to team members who need it for reconciliation, customer support, and financial analysis. Connecting Stripe to Claude via CorpusIQ's MCP platform changes that.
 
@@ -93,33 +91,101 @@ Every query is a live API call. Data is never cached or stored by CorpusIQ.
 | Subscription metrics | Automatic MRR, churn calculations | Must build aggregation logic |
 | Non-technical access | Anyone can query | Developers only |
 
-### FAQ
+### FAQ: Common Questions
 
-**Q: Can Claude create charges or modify subscriptions?**
-A: No. The integration is strictly read-only. Use a restricted API key with only read permissions.
+<details>
+<summary><strong>Can Claude create charges or modify subscriptions?</strong></summary>
 
-**Q: Does this work with Stripe Connect platforms?**
-A: The integration works with standard Stripe accounts. Connect platform support is on the roadmap.
+No. The integration is strictly read-only. Use a restricted API key with only read permissions.
+</details>
 
-**Q: How current is the data?**
-A: Real-time. Every Claude query triggers a fresh Stripe API call.
+<details>
+<summary><strong>Does this work with Stripe Connect platforms?</strong></summary>
 
-**Q: What Stripe API scopes should I enable?**
-A: We recommend read-only access to: Charges, Customers, Subscriptions, Payouts, Balance, Refunds, and Disputes. Only enable what you need.
+The integration works with standard Stripe accounts. Connect platform support is on the roadmap.
+</details>
 
-**Q: Can I view invoice data through this integration?**
-A: Stripe Invoices are accessible through the API. Include the Invoices scope when creating your restricted key.
+<details>
+<summary><strong>How current is the data?</strong></summary>
 
-### Internal Links
+Real-time. Every Claude query triggers a fresh Stripe API call.
+</details>
 
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/) — Financial data in Claude.
-- [Connect Shopify to Claude](/docs/connect-shopify-to-claude/) — E-commerce data in Claude.
-- [Connect Google Analytics to Claude](/docs/connect-google-analytics-to-claude/) — Web analytics in Claude.
-- [AI for Financial Analysis](/docs/ai-for-financial-analysis/) — AI-powered financial workflows.
-- [AI for Revenue Operations](/docs/ai-for-revenue-operations/) — RevOps with AI.
-- [AI for Forecasting](/docs/ai-for-forecasting/) — Predictive financial analytics.
-- [What is MCP?](/docs/what-is-mcp/) — Understanding the Model Context Protocol.
+<details>
+<summary><strong>What Stripe API scopes should I enable?</strong></summary>
+
+We recommend read-only access to: Charges, Customers, Subscriptions, Payouts, Balance, Refunds, and Disputes. Only enable what you need.
+</details>
+
+<details>
+<summary><strong>Can I view invoice data through this integration?</strong></summary>
+
+Stripe Invoices are accessible through the API. Include the Invoices scope when creating your restricted key.
+</details>
+
 
 ---
 
 **Next steps:** [Connect Stripe to Claude now →](https://app.corpusiq.com/connect/stripe)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "headline": "",
+  "author": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "datePublished": "2026-06-16",
+  "dateModified": "2026-06-16",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can Claude create charges or modify subscriptions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The integration is strictly read-only. Use a restricted API key with only read permissions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this work with Stripe Connect platforms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The integration works with standard Stripe accounts. Connect platform support is on the roadmap."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How current is the data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Real-time. Every Claude query triggers a fresh Stripe API call."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Stripe API scopes should I enable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We recommend read-only access to: Charges, Customers, Subscriptions, Payouts, Balance, Refunds, and Disputes. Only enable what you need."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I view invoice data through this integration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stripe Invoices are accessible through the API. Include the Invoices scope when creating your restricted key."
+      }
+    }
+  ]
+}
+</script>

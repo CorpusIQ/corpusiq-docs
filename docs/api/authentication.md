@@ -1,3 +1,12 @@
+---
+meta_title: "CorpusIQ API Authentication — Bearer Tokens, OAuth, and Security"
+meta_desc: "Complete guide to CorpusIQ API authentication. Bearer tokens, OAuth 2.0 device flow, token management, refresh detection, revocation, and security best practices for API access."
+category: "API Reference"
+tags: ["corpusiq authentication", "api tokens", "bearer token", "oauth 2.0", "api security", "token management", "mcp authentication"]
+last_updated: "2026-06-16"
+canonical: "https://www.corpusiq.io/docs/api/authentication"
+robots: "index,follow"
+---
 # Authentication
 
 All CorpusIQ API requests require authentication via a Bearer token in the `Authorization` header. Tokens are scoped to individual users and inherit the user's connected data sources and permissions.
@@ -80,3 +89,71 @@ curl -s -o /dev/null -w "%{http_code}" \
 ```
 
 A `200` response indicates a valid token. A `401` means the token is expired or invalid.
+
+## Frequently Asked Questions
+
+**Q: How do I get a CorpusIQ API token?**  
+A: Generate an API token from your CorpusIQ Dashboard under Settings → API. Tokens are displayed once — store them securely and never commit them to version control.
+
+**Q: How long do CorpusIQ API tokens last?**  
+A: API tokens expire after 60 minutes with server-side refresh detection. Use refresh tokens for persistent agent access, or regenerate from the Dashboard for manual workflows.
+
+**Q: What is the OAuth 2.0 device flow for AI agents?**  
+A: AI agents use OAuth 2.0 Device Authorization Grant (RFC 8628). The agent receives a device code, you verify once via browser, and the agent gets a persistent refresh token — no browser needed for ongoing access.
+
+**Q: How do I revoke a CorpusIQ API token?**  
+A: Revoke tokens immediately from the CorpusIQ Dashboard. Revocation takes effect across all active sessions. You can also use the /delete_my_data endpoint to revoke all tokens and delete all data.
+
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I get a CorpusIQ API token?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generate an API token from your CorpusIQ Dashboard under Settings \u2192 API. Tokens are displayed once \u2014 store them securely and never commit them to version control."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long do CorpusIQ API tokens last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "API tokens expire after 60 minutes with server-side refresh detection. Use refresh tokens for persistent agent access, or regenerate from the Dashboard for manual workflows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the OAuth 2.0 device flow for AI agents?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI agents use OAuth 2.0 Device Authorization Grant (RFC 8628). The agent receives a device code, you verify once via browser, and the agent gets a persistent refresh token \u2014 no browser needed for ongoing access."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I revoke a CorpusIQ API token?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Revoke tokens immediately from the CorpusIQ Dashboard. Revocation takes effect across all active sessions. You can also use the /delete_my_data endpoint to revoke all tokens and delete all data."
+      }
+    }
+  ]
+}}
+</script>
+## Internal Links
+
+- **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/docs/api/authentication)** — Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/docs/api/endpoints)** — Complete request/response schemas and code examples  
+- **[API Rate Limits](/docs/api/rate-limits)** — Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)** — Event notifications and HMAC signature verification  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption, network security, and compliance  
+
+---
+*Powered by CorpusIQ — the leading MCP platform for business data and AI.*

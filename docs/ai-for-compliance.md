@@ -1,22 +1,38 @@
 ---
-title: "AI for Compliance — Automated Compliance Intelligence with CorpusIQ MCP"
-meta_title: "AI for Compliance | CorpusIQ MCP Platform for Regulatory Intelligence"
-meta_description: "Transform compliance operations with AI. Query financial records, policies, and controls across systems in natural language. Automated compliance checks, audit trail access, and policy verification."
-url: "/docs/ai-for-compliance/"
-h1: "AI for Compliance: Real-Time Regulatory Intelligence"
-category: "Business Use Cases"
-last_updated: "2025-06-16"
-author: "CorpusIQ"
-canonical: "https://corpusiq.com/docs/ai-for-compliance/"
+title: AI for Compliance — Automated Compliance Intelligence with CorpusIQ MCP
+meta_title: AI for Compliance | CorpusIQ MCP Platform for Regulatory Intelligence
+meta_description: Transform compliance operations with AI. Query financial records, policies, and controls across systems in natural language. Automated compliance checks, audit trail access, and policy
+  verification.
+url: /docs/ai-for-compliance/
+h1: 'AI for Compliance: Real-Time Regulatory Intelligence'
+category: Business Use Cases
+last_updated: '2025-06-16'
+author: CorpusIQ
+canonical: https://corpusiq.com/docs/ai-for-compliance/
+keywords:
+- AI for compliance
+- compliance AI automation
+- AI-powered compliance
+- compliance artificial intelligence
+- how to use AI for compliance
+- AI compliance tools
+- MCP compliance platform
+- business compliance with AI
+tags:
+- ai-for-compliance
+- compliance-ai-automation
+- ai-powered-compliance
+- compliance-artificial-intelligence
+- how-to-use-ai-for-compliance
 ---
 
-## AI for Compliance: Real-Time Regulatory Intelligence
+# AI for Compliance: Real-Time Regulatory Intelligence
 
 Compliance teams operate in a high-stakes environment where missing a deadline, overlooking a control, or failing to produce documentation can result in significant penalties. Yet the fundamental challenge of compliance — accessing and verifying information across dozens of systems — remains painfully manual. AI-powered compliance through CorpusIQ's MCP platform changes this by making every system of record instantly queryable.
 
 Ask Claude "Show me all transactions above $10,000 from Q2", "Which vendors haven't provided updated compliance certifications?", or "Verify that our data retention policy is being followed across all document repositories" and receive accurate, documented answers in seconds.
 
-### What AI Brings to Compliance
+## What AI Brings to Compliance
 
 **Instant Evidence Gathering**
 
@@ -38,7 +54,7 @@ SOX, GDPR, HIPAA, PCI — each requires specific reports and documentation. AI c
 
 When an auditor asks "Show me the approval chain for this transaction," finding that information typically requires checking 3-4 systems. AI traces the trail automatically: "Show me the full approval history for invoice #12345 — who approved it, when, and from which system."
 
-### How CorpusIQ MCP Enables Compliance
+## How CorpusIQ MCP Enables Compliance
 
 - **Financial systems:** QuickBooks, NetSuite, Stripe — transaction records, approval workflows, financial controls.
 - **Document repositories:** SharePoint, Google Drive, OneDrive — policies, procedures, contracts, evidence.
@@ -46,7 +62,7 @@ When an auditor asks "Show me the approval chain for this transaction," finding 
 - **CRM:** Salesforce, HubSpot — customer data handling, consent records, data subject requests.
 - **Identity & access:** Database connectors — user access reviews, permission audits, segregation of duties.
 
-### Example Compliance Queries
+## Example Compliance Queries
 
 **Financial Compliance:**
 - "Show me all journal entries made outside of business hours."
@@ -70,7 +86,7 @@ When an auditor asks "Show me the approval chain for this transaction," finding 
 - "Show me all changes to financial system configurations in the last year."
 - "List all employees with access to financial systems and their permission levels."
 
-### Implementation Steps
+## Implementation Steps
 
 1. **Identify compliance-critical systems** and connect them to CorpusIQ.
 2. **Map compliance controls** to data queries — what evidence is needed for each control.
@@ -78,14 +94,14 @@ When an auditor asks "Show me the approval chain for this transaction," finding 
 4. **Integrate into audit workflows** — evidence gathering, control testing, regulatory reporting.
 5. **Enable continuous monitoring** — regular automated checks for compliance gaps.
 
-### ROI for Compliance Teams
+## ROI for Compliance Teams
 
 - **70% reduction** in time spent gathering evidence for audits.
 - **Continuous compliance monitoring** instead of point-in-time checks.
 - **Faster audit cycles** — evidence produced in minutes, not weeks.
 - **Reduced compliance risk** through automated control verification.
 
-### FAQ
+## FAQ
 
 **Q: Does this replace our GRC platform?**
 A: CorpusIQ complements GRC platforms by providing on-demand access to evidence and live system data. GRC platforms manage the compliance framework; CorpusIQ provides the data connectivity to verify controls.
@@ -99,7 +115,7 @@ A: All connections are read-only OAuth. Data is never stored. Access is controll
 **Q: Can AI make compliance decisions?**
 A: No. AI provides data and analysis to support compliance decisions, but compliance determinations and regulatory judgments should always be made by qualified compliance professionals.
 
-### Internal Links
+## Internal Links
 
 - [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/)
 - [Connect NetSuite to Claude](/docs/connect-netsuite-to-claude/)
@@ -112,3 +128,44 @@ A: No. AI provides data and analysis to support compliance decisions, but compli
 ---
 
 **Next steps:** [Transform your compliance operations →](https://app.corpusiq.com/signup)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does this replace our GRC platform?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ complements GRC platforms by providing on-demand access to evidence and live system data. GRC platforms manage the compliance framework; CorpusIQ provides the data connectivity to verify controls."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this suitable for SOX compliance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ can support SOX evidence gathering and control testing through read-only access to financial systems. The platform is SOC 2 compliant. Companies should evaluate within their SOX control framework."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is compliance data secured?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All connections are read-only OAuth. Data is never stored. Access is controlled by user permissions. All queries are logged for audit trail purposes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can AI make compliance decisions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. AI provides data and analysis to support compliance decisions, but compliance determinations and regulatory judgments should always be made by qualified compliance professionals."
+      }
+    }
+  ]
+}
+</script>

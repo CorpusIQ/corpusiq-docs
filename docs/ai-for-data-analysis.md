@@ -1,22 +1,37 @@
 ---
-title: "AI for Data Analysis — Transform Analytics with CorpusIQ MCP"
-meta_title: "AI for Data Analysis | CorpusIQ MCP Platform for Analytics"
-meta_description: "Transform data analysis with AI. Query databases, spreadsheets, and business tools in natural language. Instant SQL-free analysis, cross-source correlation, and automated insight generation."
-url: "/docs/ai-for-data-analysis/"
-h1: "AI for Data Analysis: From SQL Queries to Natural Conversations"
-category: "Business Use Cases"
-last_updated: "2025-06-16"
-author: "CorpusIQ"
-canonical: "https://corpusiq.com/docs/ai-for-data-analysis/"
+title: AI for Data Analysis — Transform Analytics with CorpusIQ MCP
+meta_title: AI for Data Analysis | CorpusIQ MCP Platform for Analytics
+meta_description: Transform data analysis with AI. Query databases, spreadsheets, and business tools in natural language. Instant SQL-free analysis, cross-source correlation, and automated insight generation.
+url: /docs/ai-for-data-analysis/
+h1: 'AI for Data Analysis: From SQL Queries to Natural Conversations'
+category: Business Use Cases
+last_updated: '2025-06-16'
+author: CorpusIQ
+canonical: https://corpusiq.com/docs/ai-for-data-analysis/
+keywords:
+- AI for data analysis
+- data analysis AI automation
+- AI-powered data analysis
+- data analysis artificial intelligence
+- how to use AI for data analysis
+- AI data analysis tools
+- MCP data analysis platform
+- business data analysis with AI
+tags:
+- ai-for-data-analysis
+- data-analysis-ai-automation
+- ai-powered-data-analysis
+- data-analysis-artificial-intelligence
+- how-to-use-ai-for-data-analysis
 ---
 
-## AI for Data Analysis: From SQL Queries to Natural Conversations
+# AI for Data Analysis: From SQL Queries to Natural Conversations
 
 Data analysis is the most bottlenecked function in most organizations. Business questions are simple — "Which customers are most likely to churn?", "What's driving our cost increase?" — but answering them requires SQL skills, database access, and hours of querying and formatting. The result is that most data questions are never asked, and most business decisions are made without analytical rigor. AI-powered data analysis through CorpusIQ's MCP platform transforms this by making every database, spreadsheet, and business system queryable in natural language.
 
 Ask Claude "Analyze customer churn by cohort and identify the top 3 predictors", "What's the correlation between marketing spend and revenue by channel?", or "Run a cohort analysis of our user retention" and receive data-backed analysis drawn from your databases, data warehouses, and business tools — no SQL required.
 
-### What AI Brings to Data Analysis
+## What AI Brings to Data Analysis
 
 **SQL-Free Database Access**
 
@@ -38,7 +53,7 @@ In traditional analytics, ad-hoc questions require filing a ticket and waiting d
 
 "Explain what's happening with our conversion rate and what we should do about it." AI provides not just numbers but narrative — what the data means, why it matters, and what actions it suggests.
 
-### How CorpusIQ MCP Enables AI Data Analysis
+## How CorpusIQ MCP Enables AI Data Analysis
 
 - **Database connectors:** PostgreSQL, MSSQL, MongoDB, Azure Cosmos DB — direct query access.
 - **Spreadsheets:** Google Sheets, Excel files in Drive/OneDrive/SharePoint — structured data access.
@@ -46,7 +61,7 @@ In traditional analytics, ad-hoc questions require filing a ticket and waiting d
 - **Cross-source analysis:** Query multiple systems in a single natural language request.
 - **Read-only security:** All database connections are read-only. No risk of data modification.
 
-### Example Data Analysis Queries
+## Example Data Analysis Queries
 
 **Business Analytics:**
 - "Analyze our customer churn — what cohorts churn most and what are the predictors?"
@@ -78,7 +93,7 @@ In traditional analytics, ad-hoc questions require filing a ticket and waiting d
 - "Run a regression analysis on factors affecting customer LTV."
 - "What's the confidence interval around our churn rate estimate?"
 
-### Implementation Steps
+## Implementation Steps
 
 1. **Connect databases** — PostgreSQL, MSSQL, MongoDB, or data warehouse.
 2. **Connect business systems** — CRM, billing, analytics for cross-source analysis.
@@ -86,14 +101,14 @@ In traditional analytics, ad-hoc questions require filing a ticket and waiting d
 4. **Start with high-impact questions** — the analyses your team has been wanting to do but couldn't.
 5. **Build an analysis culture** — encourage data-informed decisions by making analysis accessible.
 
-### ROI
+## ROI
 
 - **90% reduction** in time from question to answer for data analysis.
 - **5-10x more analyses** performed — removing the SQL barrier unlocks demand.
 - **Faster decisions** — analysis that took days now takes minutes.
 - **Democratized analytics** — every team member can analyze data, not just analysts.
 
-### FAQ
+## FAQ
 
 **Q: Can AI handle complex statistical analysis?**
 A: Claude can perform regression analysis, correlation analysis, cohort analysis, significance testing, trend decomposition, and distribution analysis. For advanced statistical modeling, supplement with specialized tools like R or Python.
@@ -110,7 +125,7 @@ A: No. All database connections are read-only. Claude can query and analyze data
 **Q: Does this replace my data team?**
 A: No — it amplifies them. AI handles routine and ad-hoc analysis, freeing data professionals for advanced modeling, data engineering, and strategic analytics.
 
-### Internal Links
+## Internal Links
 
 - [Connect Your Database to Claude](/docs/connect-database-to-claude/)
 - [Connect Shopify to Claude](/docs/connect-shopify-to-claude/)
@@ -123,3 +138,52 @@ A: No — it amplifies them. AI handles routine and ad-hoc analysis, freeing dat
 ---
 
 **Next steps:** [Start AI-powered data analysis →](https://app.corpusiq.com/signup)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can AI handle complex statistical analysis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Claude can perform regression analysis, correlation analysis, cohort analysis, significance testing, trend decomposition, and distribution analysis. For advanced statistical modeling, supplement with specialized tools like R or Python."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does this work with large datasets (millions of rows)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ queries databases directly using SQL. Claude designs efficient queries. For very large datasets, database-level aggregation and sampling ensure reasonable performance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What databases are supported?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "PostgreSQL, Microsoft SQL Server, MongoDB, and Azure Cosmos DB natively. Other databases accessible via standardized connection strings may work through the PostgreSQL connector."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can AI modify data in my databases?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. All database connections are read-only. Claude can query and analyze data but can never insert, update, or delete records."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this replace my data team?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No \u2014 it amplifies them. AI handles routine and ad-hoc analysis, freeing data professionals for advanced modeling, data engineering, and strategic analytics."
+      }
+    }
+  ]
+}
+</script>

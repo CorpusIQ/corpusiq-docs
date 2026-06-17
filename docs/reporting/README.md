@@ -1,3 +1,12 @@
+---
+meta_title: "CorpusIQ Reporting — Instant Reports, Comparisons, and Trend Analysis"
+meta_desc: "CorpusIQ reporting capabilities: instant reports, comparative analysis, trend tracking across 36 data sources. Generate P&L summaries, revenue comparisons, and growth trends with natural language queries."
+category: "Documentation"
+tags: ["corpusiq reporting", "business reports", "revenue reporting", "trend analysis", "comparative reports", "financial reporting", "kpi tracking"]
+last_updated: "2026-06-16"
+canonical: "https://www.corpusiq.io/docs/reporting"
+robots: "index,follow"
+---
 # Reporting
 
 CorpusIQ provides reporting capabilities through natural language queries. Generate summaries, comparisons, and trend analyses across all connected data sources.
@@ -46,3 +55,59 @@ For official financial reporting, see [MSR Governance](governance/README.md). Co
 - Cross-reference with MSR for financial reports
 - Save frequently used queries
 - Export important findings for record keeping
+
+## Frequently Asked Questions
+
+**Q: What types of reports can I generate with CorpusIQ?**  
+A: Instant reports (ask and get answers immediately), comparative reports (Q1 vs Q2, Stripe vs Shopify), and trend reports (MRR over 6 months, customer acquisition by channel). No configuration needed — just ask in natural language.
+
+**Q: Can I export CorpusIQ reports?**  
+A: Yes. Copy results to clipboard, export as CSV, share via link, or save frequent queries. Scheduled recurring reports delivered to email or Slack are coming soon.
+
+**Q: What is MSR governance and how does it relate to reporting?**  
+A: MSR (Management System of Record) is the authoritative source for official financial metrics and board reporting. CorpusIQ surfaces operational data for exploration and analysis; MSR validates and governs data for official reporting.
+
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of reports can I generate with CorpusIQ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Instant reports (ask and get answers immediately), comparative reports (Q1 vs Q2, Stripe vs Shopify), and trend reports (MRR over 6 months, customer acquisition by channel). No configuration needed \u2014 just ask in natural language."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I export CorpusIQ reports?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Copy results to clipboard, export as CSV, share via link, or save frequent queries. Scheduled recurring reports delivered to email or Slack are coming soon."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is MSR governance and how does it relate to reporting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MSR (Management System of Record) is the authoritative source for official financial metrics and board reporting. CorpusIQ surfaces operational data for exploration and analysis; MSR validates and governs data for official reporting."
+      }
+    }
+  ]
+}}
+</script>
+## Internal Links
+
+- **[CorpusIQ Architecture](/docs/architecture/README)** — MCP endpoint and connector layer design  
+- **[CorpusIQ Security Overview](/docs/security/README)** — Authentication and encryption  
+- **[CorpusIQ Search Capabilities](/docs/search/README)** — Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/docs/reporting/README)** — Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/docs/onboarding/README)** — AI chat and agent setup in 10 minutes  
+- **[MSR Governance Framework](/docs/governance/README)** — Source of truth and audit controls  
+
+---
+*Powered by CorpusIQ — the leading MCP platform for business data and AI.*

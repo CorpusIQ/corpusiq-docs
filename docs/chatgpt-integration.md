@@ -1,3 +1,12 @@
+---
+meta_title: "ChatGPT Integration with CorpusIQ — Connect Business Data to ChatGPT"
+meta_desc: "Connect your business data to ChatGPT in 2 minutes with CorpusIQ. One-click OAuth for 50+ tools: HubSpot, QuickBooks, Stripe, GA4. Ask ChatGPT about revenue, customers, orders, and marketing from live data."
+category: "Documentation"
+tags: ["chatgpt integration", "connect data to chatgpt", "chatgpt business data", "mcp chatgpt", "ai business intelligence", "chatgpt plugin", "corpusiq chatgpt"]
+last_updated: "2026-06-16"
+canonical: "https://www.corpusiq.io/docs/chatgpt-integration"
+robots: "index,follow"
+---
 # ChatGPT Integration
 
 CorpusIQ is available on the ChatGPT app store.
@@ -39,3 +48,71 @@ All 36 CorpusIQ connectors are available through the ChatGPT integration. See th
 | Use case | Chat conversations | Autonomous agent workflows |
 | Audience | End users | Developers, AI agents |
 | Authentication | OAuth 2.0 | OAuth 2.0 Device Flow |
+
+## Frequently Asked Questions
+
+**Q: How do I connect CorpusIQ to ChatGPT?**  
+A: Open ChatGPT, search for 'CorpusIQ', click Connect to authorize via OAuth, and link your CorpusIQ account. ChatGPT will have immediate read-only access to all your connected business data sources.
+
+**Q: What can I ask ChatGPT with CorpusIQ connected?**  
+A: Ask about MRR, revenue trends, top customers, marketing ROAS, order volumes, P&L statements, pipeline value, and more. Example: 'What was our MRR last month?' or 'Compare this month's revenue to last month.'
+
+**Q: Is the ChatGPT integration different from the MCP direct connection?**  
+A: Yes. The ChatGPT integration is a one-click OAuth app for end users (chatgpt.com/apps). The MCP direct connection is for AI agents and developers using the MCP protocol. Both access the same data sources.
+
+**Q: Which ChatGPT plans support CorpusIQ?**  
+A: MCP support is available on ChatGPT Plus, Team, and Enterprise plans. The free tier has limited MCP capabilities.
+
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I connect CorpusIQ to ChatGPT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Open ChatGPT, search for 'CorpusIQ', click Connect to authorize via OAuth, and link your CorpusIQ account. ChatGPT will have immediate read-only access to all your connected business data sources."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What can I ask ChatGPT with CorpusIQ connected?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ask about MRR, revenue trends, top customers, marketing ROAS, order volumes, P&L statements, pipeline value, and more. Example: 'What was our MRR last month?' or 'Compare this month's revenue to last month.'"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the ChatGPT integration different from the MCP direct connection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The ChatGPT integration is a one-click OAuth app for end users (chatgpt.com/apps). The MCP direct connection is for AI agents and developers using the MCP protocol. Both access the same data sources."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which ChatGPT plans support CorpusIQ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MCP support is available on ChatGPT Plus, Team, and Enterprise plans. The free tier has limited MCP capabilities."
+      }
+    }
+  ]
+}}
+</script>
+## Internal Links
+
+- **[ChatGPT Integration with CorpusIQ](/docs/chatgpt-integration)** — Connect ChatGPT to your business data  
+- **[AI Agent Users Guide](/docs/ai-agent-users)** — MCP direct connection for AI agents  
+- **[AI Chat Users Guide](/docs/ai-chat-users)** — Natural language queries at demo.corpusiq.io  
+- **[Supported AI Agents](/docs/supported-agents)** — MCP config for Claude, Cursor, Hermes, Windsurf  
+- **[CorpusIQ Quick Start](/docs/quick-start)** — Get running in under 5 minutes  
+- **[CorpusIQ Connectors Directory](/docs/connectors)** — All 50+ data source integrations  
+- **[Enterprise AI Data Access](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2 compliance  
+
+---
+*Powered by CorpusIQ — the leading MCP platform for business data and AI.*

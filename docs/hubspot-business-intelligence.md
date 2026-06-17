@@ -1,13 +1,27 @@
 ---
-meta_title: "HubSpot Business Intelligence with CorpusIQ MCP — AI-Powered CRM Analytics"
-meta_desc: "Connect HubSpot to any AI assistant in seconds with CorpusIQ's MCP platform. Real-time CRM analytics, pipeline intelligence, and natural-language business queries without data movement."
-h1: "HubSpot Business Intelligence — Connect Your CRM to AI"
-url: "/docs/hubspot-business-intelligence/"
-author: "CorpusIQ"
-date: "2026-06-16"
-category: "Platform"
-tags: ["hubspot", "business-intelligence", "crm-analytics", "ai-crm", "mcp-platform"]
-featured_image: "/img/hubspot-ai-dashboard.png"
+meta_title: HubSpot Business Intelligence with CorpusIQ MCP — AI-Powered CRM Analytics
+meta_desc: Connect HubSpot to any AI assistant in seconds with CorpusIQ's MCP platform. Real-time CRM analytics, pipeline intelligence, and natural-language business queries without data movement.
+h1: HubSpot Business Intelligence — Connect Your CRM to AI
+url: /docs/hubspot-business-intelligence/
+author: CorpusIQ
+date: '2026-06-16'
+category: Platform
+tags:
+- hubspot
+- business-intelligence
+- crm-analytics
+- ai-crm
+- mcp-platform
+featured_image: /img/hubspot-ai-dashboard.png
+keywords:
+- HubSpot AI analytics
+- HubSpot MCP integration
+- AI CRM HubSpot
+- HubSpot business intelligence
+- HubSpot sales analytics AI
+- HubSpot AI dashboard
+- HubSpot AI reporting
+- HubSpot conversational CRM
 ---
 
 # HubSpot Business Intelligence — Connect Your CRM to AI
@@ -132,6 +146,19 @@ A: HubSpot's reporting is excellent for predefined dashboards and standard metri
 
 No configuration. No ETL pipelines. No data engineering required.
 
+
+## Get Started with HubSpot Business Intelligence — Connect Your CRM to AI
+
+Ready to put AI to work on your hubspot business intelligence — connect your crm to ai data? 
+
+1. **Sign up** for a [CorpusIQ account](https://app.corpusiq.com/signup) — free plan available.
+2. **Connect your data** — OAuth 2.0 authentication takes under 60 seconds.
+3. **Start asking questions** — use ChatGPT, Claude, or any MCP-compatible AI assistant.
+4. **Scale your usage** — add team members, connect more sources, and automate recurring reports.
+
+**[Get started now →](https://app.corpusiq.com/signup)**
+
+
 ## Internal Links
 
 - [CorpusIQ vs Zapier — MCP Real-Time AI vs Workflow Automation](/docs/corpusiq-vs-zapier/)
@@ -146,3 +173,92 @@ No configuration. No ETL pipelines. No data engineering required.
 ---
 
 *Powered by CorpusIQ — the leading MCP platform for connecting business data to AI.*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is my HubSpot data secure with CorpusIQ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CorpusIQ uses OAuth 2.0 for authentication and never stores your CRM data. Every query runs against the live HubSpot API with read-only access. You can revoke access at any time from your HubSpot account."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this work with the free version of HubSpot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CorpusIQ's HubSpot connector works with all HubSpot plans \u2014 free, starter, professional, and enterprise. The available data depends on your plan's API access, not CorpusIQ."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I write data back to HubSpot through CorpusIQ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, CorpusIQ's HubSpot connector is read-only. This ensures your CRM data can't be accidentally modified through AI queries. Write capabilities are on the roadmap."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast are the queries?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Query speed depends on your HubSpot API tier and the complexity of the request. Most queries return within 1-3 seconds. CorpusIQ optimizes for efficiency, only fetching the fields needed to answer your question."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I combine HubSpot with other data sources?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Absolutely. CorpusIQ's multi-source architecture lets you ask questions that span HubSpot, QuickBooks, Stripe, Google Analytics, Slack, and 50+ other connectors simultaneously. For example: \"Show me deals that closed this quarter alongside their Stripe payment status.\""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to know HubSpot's API?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. You ask questions in natural language. Your AI assistant handles the MCP tool selection and HubSpot API interaction through CorpusIQ."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What HubSpot objects are supported?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Contacts, companies, and deals are fully supported. Additional objects (tickets, products, line items) are being added based on user demand."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a limit on how many records I can query?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ respects HubSpot's API rate limits and pagination. For very large datasets, the AI assistant will automatically paginate through results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can multiple team members use the same HubSpot connection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each team member authenticates individually through their own HubSpot account, inheriting their personal permissions. CorpusIQ supports team plans for shared access management."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does this compare to HubSpot's built-in reporting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HubSpot's reporting is excellent for predefined dashboards and standard metrics. CorpusIQ complements it by enabling ad-hoc, free-form questions that don't fit into pre-built reports \u2014 plus cross-source analysis across all your business tools."
+      }
+    }
+  ]
+}
+</script>

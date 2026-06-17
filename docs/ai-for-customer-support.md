@@ -1,22 +1,37 @@
 ---
-title: "AI for Customer Support — Intelligent Support Operations with CorpusIQ MCP"
-meta_title: "AI for Customer Support | CorpusIQ MCP Platform for Support Teams"
-meta_description: "Transform customer support with AI. Query tickets, CRM, billing, and product data in natural language. Faster resolution, proactive support, and cross-source customer intelligence."
-url: "/docs/ai-for-customer-support/"
-h1: "AI for Customer Support: Smarter, Faster Customer Intelligence"
-category: "Business Use Cases"
-last_updated: "2025-06-16"
-author: "CorpusIQ"
-canonical: "https://corpusiq.com/docs/ai-for-customer-support/"
+title: AI for Customer Support — Intelligent Support Operations with CorpusIQ MCP
+meta_title: AI for Customer Support | CorpusIQ MCP Platform for Support Teams
+meta_description: Transform customer support with AI. Query tickets, CRM, billing, and product data in natural language. Faster resolution, proactive support, and cross-source customer intelligence.
+url: /docs/ai-for-customer-support/
+h1: 'AI for Customer Support: Smarter, Faster Customer Intelligence'
+category: Business Use Cases
+last_updated: '2025-06-16'
+author: CorpusIQ
+canonical: https://corpusiq.com/docs/ai-for-customer-support/
+keywords:
+- AI for customer support
+- customer support AI automation
+- AI-powered customer support
+- customer support artificial intelligence
+- how to use AI for customer support
+- AI customer support tools
+- MCP customer support platform
+- business customer support with AI
+tags:
+- ai-for-customer-support
+- customer-support-ai-automation
+- ai-powered-customer-support
+- customer-support-artificial-intelligence
+- how-to-use-ai-for-customer-support
 ---
 
-## AI for Customer Support: Smarter, Faster Customer Intelligence
+# AI for Customer Support: Smarter, Faster Customer Intelligence
 
 Customer support teams face a critical information challenge: every support interaction requires context from multiple systems. Who is this customer? What's their subscription plan? Have they had previous issues? What's their order history? Are there open invoices? The best support agents can answer these questions, but only by navigating 5-7 different tools per interaction — a process that adds minutes to every ticket and frustrates both agents and customers.
 
 AI-powered customer support through CorpusIQ's MCP platform eliminates this context-switching. Before responding to a ticket, an agent (or an AI copilot) can ask Claude "Give me the full context for [customer]" and receive a complete profile synthesized from CRM, billing, product analytics, and order history — in seconds.
 
-### What AI Brings to Customer Support
+## What AI Brings to Customer Support
 
 **Unified Customer Context**
 
@@ -38,7 +53,7 @@ Beyond individual tickets, AI enables powerful support analytics: "What are our 
 
 When tickets escalate, AI provides instant triage context: "Summarize this customer's entire interaction history — all tickets, conversations, and account changes."
 
-### How CorpusIQ MCP Enables AI-Powered Support
+## How CorpusIQ MCP Enables AI-Powered Support
 
 CorpusIQ connects AI to every system support teams need:
 
@@ -49,7 +64,7 @@ CorpusIQ connects AI to every system support teams need:
 - **Communication:** Slack, Gmail, Outlook — conversation history across channels.
 - **Knowledge Base:** Notion, SharePoint, Google Drive — documentation and support articles.
 
-### Example Support Queries
+## Example Support Queries
 
 **Customer Context:**
 - "Give me the full profile for [customer email] — plan, usage, tickets, and billing status."
@@ -76,7 +91,7 @@ CorpusIQ connects AI to every system support teams need:
 - "Show me customers who filed support tickets AND have open sales opportunities."
 - "Correlate NPS scores with support ticket volume."
 
-### Implementation Steps
+## Implementation Steps
 
 1. **Connect support-critical systems** to CorpusIQ — CRM, billing, and product analytics first.
 2. **Create customer context queries** — templates for "full customer profile" that agents use before each interaction.
@@ -84,14 +99,14 @@ CorpusIQ connects AI to every system support teams need:
 4. **Build proactive monitoring** — scheduled queries that flag at-risk accounts.
 5. **Enable support analytics** — leadership uses AI for trend analysis and resource planning.
 
-### ROI for Support Teams
+## ROI for Support Teams
 
 - **30-50% reduction** in time spent gathering context per ticket.
 - **20-40% faster resolution times** through instant information access.
 - **Reduced escalations** — agents have complete information to resolve issues at tier 1.
 - **Higher customer satisfaction** — faster, more informed support interactions.
 
-### FAQ
+## FAQ
 
 **Q: Does this integrate with our ticketing system (Zendesk, Intercom, etc.)?**
 A: CorpusIQ supports ticketing data through database connectors and API integrations. Direct Zendesk and Intercom connectors are on the roadmap.
@@ -105,7 +120,7 @@ A: All connections are read-only OAuth. Customer data is never stored by CorpusI
 **Q: Can we restrict which support agents can query which data?**
 A: Yes. Team-level access controls determine which connectors each user can query.
 
-### Internal Links
+## Internal Links
 
 - [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude/)
 - [Connect HubSpot to Claude](/docs/connect-hubspot-to-claude/)
@@ -119,3 +134,44 @@ A: Yes. Team-level access controls determine which connectors each user can quer
 ---
 
 **Next steps:** [Transform your support operations →](https://app.corpusiq.com/signup)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does this integrate with our ticketing system (Zendesk, Intercom, etc.)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ supports ticketing data through database connectors and API integrations. Direct Zendesk and Intercom connectors are on the roadmap."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can AI respond to customers directly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ is an analysis and intelligence tool, not a customer-facing chatbot. It provides agents with information to support their responses."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does this handle PII and sensitive customer data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All connections are read-only OAuth. Customer data is never stored by CorpusIQ. Access is controlled by the permissions of the authenticated user."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can we restrict which support agents can query which data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Team-level access controls determine which connectors each user can query."
+      }
+    }
+  ]
+}
+</script>

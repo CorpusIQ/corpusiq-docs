@@ -192,6 +192,72 @@ A: As detailed as your data allows. If your CRM tracks deal-level activities, Ch
 **Q: Can I save analyses for future reference?**  
 A: Copy ChatGPT's responses to a document or note. Each query runs fresh against live data.
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can ChatGPT really analyze data as well as a human analyst?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most business analysis tasks \u2014 trends, comparisons, segmentation, anomaly detection \u2014 yes. For highly specialized statistical modeling, a human analyst may still be needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know the analysis is accurate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ChatGPT queries live data through CorpusIQ \u2014 the numbers are exact. The interpretation (identifying problems, suggesting actions) is AI-generated and should be reviewed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can it handle sensitive financial data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CorpusIQ queries are read-only and never store data. ChatGPT processes the data in-memory during your session."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between this and uploading a CSV to ChatGPT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CSV uploads are static \u2014 the data is already old. CorpusIQ provides live data that reflects your current business state. No exports, no uploads."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I analyze data from multiple companies or subsidiaries?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Connect multiple instances of the same tool (e.g., two HubSpot accounts) to analyze across entities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How detailed can the analysis get?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As detailed as your data allows. If your CRM tracks deal-level activities, ChatGPT can analyze activity patterns. If it only tracks stages, analysis is limited to stage-level insights."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I save analyses for future reference?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Copy ChatGPT's responses to a document or note. Each query runs fresh against live data."
+      }
+    }
+  ]
+}
+</script>
+
 ## Internal Links
 
 - [How to Connect Business Data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt/)

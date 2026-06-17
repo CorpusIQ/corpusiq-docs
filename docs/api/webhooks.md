@@ -1,3 +1,12 @@
+---
+meta_title: "CorpusIQ Webhooks — Event Notifications and HMAC Signature Verification"
+meta_desc: "Complete CorpusIQ webhooks guide: event types (user.deleted), HMAC-SHA256 signature verification, retry with exponential backoff, payload format, and setup instructions."
+category: "API Reference"
+tags: ["corpusiq webhooks", "event notifications", "hmac signature", "webhook security", "user deleted event", "webhook setup", "api events"]
+last_updated: "2026-06-16"
+canonical: "https://www.corpusiq.io/docs/api/webhooks"
+robots: "index,follow"
+---
 # Webhooks
 
 CorpusIQ webhooks notify your application when specific events occur, such as user data deletion. Webhooks are delivered as HTTP POST requests to a URL you configure in the CorpusIQ Dashboard.
@@ -137,3 +146,60 @@ Additional events will be documented here as they become available. Subscribe to
 - Use HTTPS for your webhook endpoint — CorpusIQ will not deliver to HTTP URLs
 - Process webhooks idempotently using the `event_id` field to handle retries
 - Respond with `200` before performing long-running processing to avoid timeouts
+
+## Frequently Asked Questions
+
+**Q: What events do CorpusIQ webhooks support?**  
+A: Currently, CorpusIQ webhooks fire the user.deleted event when a user's data is permanently deleted via the /delete_my_data endpoint. Additional event types are on the roadmap.
+
+**Q: How are webhook payloads secured?**  
+A: All webhook deliveries are signed with HMAC-SHA256 using a per-endpoint signing secret. The signature is included in the CorpusIQ-Signature header for verification.
+
+**Q: What happens when a webhook delivery fails?**  
+A: Failed deliveries are retried with exponential backoff: 60s → 5min → 15min → 1hr. Configure your endpoint to handle duplicate deliveries by checking the event ID.
+
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What events do CorpusIQ webhooks support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, CorpusIQ webhooks fire the user.deleted event when a user's data is permanently deleted via the /delete_my_data endpoint. Additional event types are on the roadmap."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are webhook payloads secured?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All webhook deliveries are signed with HMAC-SHA256 using a per-endpoint signing secret. The signature is included in the CorpusIQ-Signature header for verification."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens when a webhook delivery fails?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Failed deliveries are retried with exponential backoff: 60s \u2192 5min \u2192 15min \u2192 1hr. Configure your endpoint to handle duplicate deliveries by checking the event ID."
+      }
+    }
+  ]
+}}
+</script>
+## Internal Links
+
+- **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/docs/api/authentication)** — Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/docs/api/endpoints)** — Complete request/response schemas and code examples  
+- **[API Rate Limits](/docs/api/rate-limits)** — Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)** — Event notifications and HMAC signature verification  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption, network security, and compliance  
+
+---
+*Powered by CorpusIQ — the leading MCP platform for business data and AI.*

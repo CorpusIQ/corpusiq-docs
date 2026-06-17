@@ -1,62 +1,83 @@
 ---
-title: "Connect SharePoint to ChatGPT — Live Intranet Data, MCP-Powered | CorpusIQ"
-description: "Connect SharePoint Online to ChatGPT via CorpusIQ MCP. Ask about documents, lists, sites, and files in plain English. Enterprise-grade, read-only, live access."
+title: "Connect SharePoint to ChatGPT via MCP — Live Data, No Code | CorpusIQ"
+description: "Connect your SharePoint account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your sharepoint data and get real-time, source-cited answers — no exports, no coding required."
 category: ChatGPT Integrations
-tags: [SharePoint ChatGPT, Connect SharePoint to ChatGPT, SharePoint AI, ChatGPT Intranet, MCP SharePoint, CorpusIQ SharePoint, Microsoft 365 AI, Enterprise Knowledge AI]
+tags: ["connect SharePoint to ChatGPT", "SharePoint ChatGPT integration", "MCP SharePoint connector", "SharePoint data to ChatGPT", "AI for SharePoint", "CorpusIQ MCP"]
 last_updated: 2026-06-16
 canonical: https://www.corpusiq.io/docs/connect-sharepoint-to-chatgpt
 robots: index,follow
 ---
 
-# Connect SharePoint to ChatGPT: Enterprise Knowledge in Plain English
+# How to Connect SharePoint to ChatGPT with CorpusIQ MCP
 
-SharePoint is the intranet and document management backbone for enterprises worldwide — hosting documents, lists, sites, and team collaboration spaces across the Microsoft 365 ecosystem. But finding information in SharePoint means navigating site hierarchies, using limited search, and often knowing exactly which site or document library holds what you need. Connecting SharePoint to ChatGPT through CorpusIQ MCP transforms enterprise knowledge access.
+Your **SharePoint** account holds critical business data — but accessing insights usually means logging in, navigating dashboards, and running manual reports. **Connecting SharePoint to ChatGPT through CorpusIQ MCP** eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live SharePoint data directly — you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.
 
 Once connected, ChatGPT can query your live SharePoint Online environment — sites, document libraries, lists, files, and content. You ask questions in plain English and get cited answers from your SharePoint content in real time. Your enterprise intranet becomes a conversational knowledge platform.
 
 This page covers the connection architecture, what you can ask, enterprise knowledge management use cases, security, and how MCP compares to SharePoint's native search and Microsoft Graph API.
 
-## FAQ
+## FAQ: Common Questions
 
-### What SharePoint data can ChatGPT access?
+<details>
+<summary><strong>What SharePoint data can ChatGPT access?</strong></summary>
 
 Sites and subsites with metadata. Document libraries with file listings and metadata. List items with column values. File content for supported formats (Word, Excel, PowerPoint, PDF, text). Site-level permissions and sharing information. All accessed through Microsoft Graph API with read-only permissions — ChatGPT reads content, never modifies it.
+</details>
 
-### What questions can I ask ChatGPT about SharePoint?
+<details>
+<summary><strong>What questions can I ask ChatGPT about SharePoint?</strong></summary>
 
 Document questions: "Find the latest Q3 financial report in SharePoint", "Show me all policy documents updated this month", "What does the product spec say about the API version?" List questions: "Show me all items in the Vendor Contacts list", "What's in the IT Asset Inventory?", "List all open items in the Facilities Request list." Site questions: "What SharePoint sites do I have access to?", "Show me recent activity on the Marketing team site." Cross-site questions: "Find all documents across SharePoint that mention the rebranding project", "Summarize what our SharePoint documentation says about the security compliance process."
+</details>
 
-### How does the connection work?
+<details>
+<summary><strong>How does the connection work?</strong></summary>
 
 CorpusIQ connects to SharePoint Online via Microsoft Graph API using OAuth 2.0 with read-only delegated permissions. You authenticate with your Microsoft 365 account, authorize the requested scopes, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers tools for searching SharePoint content, listing sites, reading document content, and querying lists. The MCP server handles Microsoft Graph API pagination, throttling, and content extraction.
+</details>
 
-### Is the connection read-only?
+<details>
+<summary><strong>Is the connection read-only?</strong></summary>
 
 Yes. CorpusIQ requests read-only delegated permissions from Microsoft Graph: Sites.Read.All, Files.Read.All, User.Read. ChatGPT can discover sites, search documents, read file content, and query lists. It cannot upload files, modify documents, create sites, change permissions, or perform any write operation in SharePoint. The read-only guarantee is enforced by the Microsoft Graph permission scopes.
+</details>
 
-### What types of SharePoint content can ChatGPT read?
+<details>
+<summary><strong>What types of SharePoint content can ChatGPT read?</strong></summary>
 
 Document content from Word documents, Excel spreadsheets, PowerPoint presentations, PDFs, and text files stored in SharePoint document libraries. List data from SharePoint lists with their column values and metadata. Site pages and their content. File metadata including author, modification date, and sharing status. Note: content access depends on file format support — complex formatting may be simplified for text extraction.
+</details>
 
-### Can ChatGPT search across multiple SharePoint sites?
+<details>
+<summary><strong>Can ChatGPT search across multiple SharePoint sites?</strong></summary>
 
 Yes. "Search all SharePoint sites for documents about the compliance audit" searches across every site the authenticated user has access to. "Find all Q3 budget documents across the Finance and Operations sites" narrows search to specific sites while spanning them. This cross-site search capability is more powerful than SharePoint's native search, which requires navigating to each site individually.
+</details>
 
-### How is this different from SharePoint's built-in search?
+<details>
+<summary><strong>How is this different from SharePoint's built-in search?</strong></summary>
 
 SharePoint's built-in search returns document titles and snippets with relevance ranking. It doesn't synthesize answers from document content. With ChatGPT connected via MCP, you can ask "What does our vacation policy say about carryover days?" and get the answer extracted from the actual policy document content — not just a link to the document. ChatGPT reads the document, finds the relevant section, and presents the answer directly.
+</details>
 
-### Does this work with on-premises SharePoint?
+<details>
+<summary><strong>Does this work with on-premises SharePoint?</strong></summary>
 
 CorpusIQ connects to SharePoint Online through Microsoft Graph API. On-premises SharePoint (SharePoint Server) is not directly supported unless it's configured with a hybrid connection to Microsoft 365. For organizations in transition, the SharePoint Online integration provides a path to conversational knowledge access as content migrates to the cloud.
+</details>
 
-### Can ChatGPT respect SharePoint's permission model?
+<details>
+<summary><strong>Can ChatGPT respect SharePoint's permission model?</strong></summary>
 
 Yes. Microsoft Graph delegated permissions mean ChatGPT can only access sites, documents, and lists that the authenticated user has permission to view in SharePoint. If a document is restricted to a specific group and the user isn't in that group, ChatGPT can't access it. The SharePoint permission model is fully respected — the MCP connection doesn't expand anyone's access.
+</details>
 
-### How does this handle large SharePoint environments with thousands of sites?
+<details>
+<summary><strong>How does this handle large SharePoint environments with thousands of sites?</strong></summary>
 
 ChatGPT can discover sites and narrow searches. "Show me the SharePoint sites I frequently access." "Search the Finance department site for budget documents." "Find the most recently modified documents across all sites." Targeted queries reduce the scope to relevant content. For extremely large environments, specifying the site or document library in your question improves precision.
+</details>
+
 
 ## How It Works
 
@@ -152,3 +173,89 @@ Setup takes under 5 minutes. No SharePoint admin configuration required.
 - [MCP for Enterprise](../docs/mcp-for-enterprise.md) — enterprise deployment
 - [MCP for Operations](../docs/mcp-for-operations.md) — MCP for ops teams
 - [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md) — detailed comparison
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "headline": "How to Connect SharePoint to ChatGPT with CorpusIQ MCP",
+  "author": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "datePublished": "2026-06-16",
+  "dateModified": "2026-06-16",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What SharePoint data can ChatGPT access?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sites and subsites with metadata. Document libraries with file listings and metadata. List items with column values. File content for supported formats (Word, Excel, PowerPoint, PDF, text). Site-level permissions and sharing information. All accessed through Microsoft Graph API with read-only permis"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What questions can I ask ChatGPT about SharePoint?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Document questions: \"Find the latest Q3 financial report in SharePoint\", \"Show me all policy documents updated this month\", \"What does the product spec say about the API version?\" List questions: \"Show me all items in the Vendor Contacts list\", \"What's in the IT Asset Inventory?\", \"List all open ite"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the connection work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ connects to SharePoint Online via Microsoft Graph API using OAuth 2.0 with read-only delegated permissions. You authenticate with your Microsoft 365 account, authorize the requested scopes, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers tools for searching SharePoint con"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the connection read-only?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CorpusIQ requests read-only delegated permissions from Microsoft Graph: Sites.Read.All, Files.Read.All, User.Read. ChatGPT can discover sites, search documents, read file content, and query lists. It cannot upload files, modify documents, create sites, change permissions, or perform any write o"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of SharePoint content can ChatGPT read?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Document content from Word documents, Excel spreadsheets, PowerPoint presentations, PDFs, and text files stored in SharePoint document libraries. List data from SharePoint lists with their column values and metadata. Site pages and their content. File metadata including author, modification date, an"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can ChatGPT search across multiple SharePoint sites?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. \"Search all SharePoint sites for documents about the compliance audit\" searches across every site the authenticated user has access to. \"Find all Q3 budget documents across the Finance and Operations sites\" narrows search to specific sites while spanning them. This cross-site search capability "
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is this different from SharePoint's built-in search?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SharePoint's built-in search returns document titles and snippets with relevance ranking. It doesn't synthesize answers from document content. With ChatGPT connected via MCP, you can ask \"What does our vacation policy say about carryover days?\" and get the answer extracted from the actual policy doc"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this work with on-premises SharePoint?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ connects to SharePoint Online through Microsoft Graph API. On-premises SharePoint (SharePoint Server) is not directly supported unless it's configured with a hybrid connection to Microsoft 365. For organizations in transition, the SharePoint Online integration provides a path to conversatio"
+      }
+    }
+  ]
+}
+</script>

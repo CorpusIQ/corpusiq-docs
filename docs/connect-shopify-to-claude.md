@@ -1,16 +1,14 @@
 ---
-title: "Connect Shopify to Claude via MCP — Real-Time Commerce Data in AI Conversations"
-meta_title: "Connect Shopify to Claude | CorpusIQ MCP Integration for E-Commerce"
-meta_description: "Connect Shopify to Claude using CorpusIQ's MCP platform. Query orders, customers, inventory, and revenue in natural language. Read-only OAuth, no-code setup, enterprise-grade security."
-url: "/docs/connect-shopify-to-claude/"
-h1: "Connect Shopify to Claude: AI-Powered E-Commerce Intelligence"
-category: "Claude Integrations"
-last_updated: "2025-06-16"
-author: "CorpusIQ"
-canonical: "https://corpusiq.com/docs/connect-shopify-to-claude/"
+title: "Connect Shopify to Claude via MCP — Live Data, No Code | CorpusIQ"
+description: "Connect your Shopify account to Claude through CorpusIQ MCP. Ask natural language questions about your shopify data and get real-time, source-cited answers — no exports, no coding required."
+category: Claude Integrations
+tags: ["connect Shopify to Claude", "Shopify Claude integration", "MCP Shopify connector", "Shopify data to Claude", "AI for Shopify", "CorpusIQ MCP"]
+last_updated: 2026-06-16
+canonical: https://www.corpusiq.io/docs/connect-shopify-to-claude
+robots: index,follow
 ---
 
-## Connect Shopify to Claude: AI-Powered E-Commerce Intelligence
+# How to Connect Shopify to Claude with CorpusIQ MCP
 
 Connecting Shopify to Claude transforms how e-commerce teams interact with their store data. Instead of logging into the Shopify admin, running reports, exporting CSVs, and manually cross-referencing numbers, teams can ask Claude direct questions — "What were our top-selling products last month?", "Show me orders that haven't shipped yet", "Compare revenue this quarter to last quarter" — and receive accurate, real-time answers backed by live Shopify data.
 
@@ -109,42 +107,143 @@ The real power of connecting Shopify through CorpusIQ's MCP platform is cross-so
 - **Shopify + QuickBooks:** Reconcile revenue recorded in Shopify with accounting records in QuickBooks.
 - **Shopify + Stripe:** Compare payment processor data with order data for reconciliation.
 
-### FAQ
+### FAQ: Common Questions
 
-**Q: Does this require a developer to set up?**
-A: No. The OAuth flow is point-and-click. Anyone with Shopify admin access can connect their store to Claude in under five minutes.
+<details>
+<summary><strong>Does this require a developer to set up?</strong></summary>
 
-**Q: Can Claude modify my Shopify store — create products, update orders, or change prices?**
-A: No. The integration is strictly read-only. Claude can query your data but cannot make any changes to your Shopify store.
+No. The OAuth flow is point-and-click. Anyone with Shopify admin access can connect their store to Claude in under five minutes.
+</details>
 
-**Q: How current is the data Claude sees?**
-A: Real-time. Every question you ask triggers a fresh API call to Shopify. Claude always works with live data, not cached snapshots.
+<details>
+<summary><strong>Can Claude modify my Shopify store — create products, update orders, or change prices?</strong></summary>
 
-**Q: Which Shopify plan do I need?**
-A: The integration works with any Shopify plan that includes API access. Most plans, including Basic Shopify, support the required API scopes.
+No. The integration is strictly read-only. Claude can query your data but cannot make any changes to your Shopify store.
+</details>
 
-**Q: Can I limit which data Claude can access?**
-A: Yes. The OAuth scope is read-only across orders, products, customers, and analytics. You can further restrict access by only granting specific scopes during authorization.
+<details>
+<summary><strong>How current is the data Claude sees?</strong></summary>
 
-**Q: Is my data stored or used for training?**
-A: No. CorpusIQ never stores your Shopify data. Claude (Anthropic) does not train on customer data submitted through the API. Your business data remains private.
+Real-time. Every question you ask triggers a fresh API call to Shopify. Claude always works with live data, not cached snapshots.
+</details>
 
-**Q: Can I disconnect Shopify at any time?**
-A: Yes. Revoke access from Shopify's admin panel or remove the connection from CorpusIQ's connector management dashboard with one click.
+<details>
+<summary><strong>Which Shopify plan do I need?</strong></summary>
 
-**Q: What if I have multiple Shopify stores?**
-A: You can connect multiple stores through CorpusIQ and specify which store Claude should query. Each store maintains its own OAuth connection and permissions.
+The integration works with any Shopify plan that includes API access. Most plans, including Basic Shopify, support the required API scopes.
+</details>
 
-### Internal Links
+<details>
+<summary><strong>Can I limit which data Claude can access?</strong></summary>
 
-- [Connect ChatGPT to Shopify via MCP](/docs/connect-shopify-to-chatgpt/) — The same Shopify integration for ChatGPT users.
-- [What is MCP? Understanding the Model Context Protocol](/docs/what-is-mcp/) — Learn how MCP enables AI-to-tool connections.
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/) — Financial data in Claude.
-- [Connect Google Analytics to Claude](/docs/connect-google-analytics-to-claude/) — Web analytics in Claude.
-- [AI for Revenue Operations](/docs/ai-for-revenue-operations/) — How AI transforms RevOps.
-- [AI for E-Commerce Business Intelligence](/docs/ai-for-business-intelligence/) — Broader BI use cases.
-- [CorpusIQ Security Overview](/docs/security/) — How we protect your data.
+Yes. The OAuth scope is read-only across orders, products, customers, and analytics. You can further restrict access by only granting specific scopes during authorization.
+</details>
+
+<details>
+<summary><strong>Is my data stored or used for training?</strong></summary>
+
+No. CorpusIQ never stores your Shopify data. Claude (Anthropic) does not train on customer data submitted through the API. Your business data remains private.
+</details>
+
+<details>
+<summary><strong>Can I disconnect Shopify at any time?</strong></summary>
+
+Yes. Revoke access from Shopify's admin panel or remove the connection from CorpusIQ's connector management dashboard with one click.
+</details>
+
+<details>
+<summary><strong>What if I have multiple Shopify stores?</strong></summary>
+
+You can connect multiple stores through CorpusIQ and specify which store Claude should query. Each store maintains its own OAuth connection and permissions.
+</details>
+
 
 ---
 
 **Next steps:** [Connect Shopify to Claude now →](https://app.corpusiq.com/connect/shopify) or [learn more about CorpusIQ's MCP platform](/docs/what-is-corpusiq/).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "headline": "",
+  "author": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "datePublished": "2026-06-16",
+  "dateModified": "2026-06-16",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does this require a developer to set up?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The OAuth flow is point-and-click. Anyone with Shopify admin access can connect their store to Claude in under five minutes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Claude modify my Shopify store \u2014 create products, update orders, or change prices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The integration is strictly read-only. Claude can query your data but cannot make any changes to your Shopify store."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How current is the data Claude sees?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Real-time. Every question you ask triggers a fresh API call to Shopify. Claude always works with live data, not cached snapshots."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Shopify plan do I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The integration works with any Shopify plan that includes API access. Most plans, including Basic Shopify, support the required API scopes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I limit which data Claude can access?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The OAuth scope is read-only across orders, products, customers, and analytics. You can further restrict access by only granting specific scopes during authorization."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my data stored or used for training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. CorpusIQ never stores your Shopify data. Claude (Anthropic) does not train on customer data submitted through the API. Your business data remains private."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I disconnect Shopify at any time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Revoke access from Shopify's admin panel or remove the connection from CorpusIQ's connector management dashboard with one click."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if I have multiple Shopify stores?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can connect multiple stores through CorpusIQ and specify which store Claude should query. Each store maintains its own OAuth connection and permissions."
+      }
+    }
+  ]
+}
+</script>

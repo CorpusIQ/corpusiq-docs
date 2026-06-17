@@ -1,16 +1,14 @@
 ---
-title: "Connect HubSpot to Claude via MCP — AI-Powered CRM Intelligence"
-meta_title: "Connect HubSpot to Claude | CorpusIQ MCP Integration for CRM"
-meta_description: "Connect HubSpot to Claude using CorpusIQ's MCP platform. Query contacts, deals, companies, and pipeline metrics in natural language. Read-only OAuth, no-code, enterprise CRM in AI conversations."
-url: "/docs/connect-hubspot-to-claude/"
-h1: "Connect HubSpot to Claude: Your CRM in Natural Language"
-category: "Claude Integrations"
-last_updated: "2025-06-16"
-author: "CorpusIQ"
-canonical: "https://corpusiq.com/docs/connect-hubspot-to-claude/"
+title: "Connect HubSpot to Claude via MCP — Live Data, No Code | CorpusIQ"
+description: "Connect your HubSpot account to Claude through CorpusIQ MCP. Ask natural language questions about your hubspot data and get real-time, source-cited answers — no exports, no coding required."
+category: Claude Integrations
+tags: ["connect HubSpot to Claude", "HubSpot Claude integration", "MCP HubSpot connector", "HubSpot data to Claude", "AI for HubSpot", "CorpusIQ MCP"]
+last_updated: 2026-06-16
+canonical: https://www.corpusiq.io/docs/connect-hubspot-to-claude
+robots: index,follow
 ---
 
-## Connect HubSpot to Claude: Your CRM in Natural Language
+# How to Connect HubSpot to Claude with CorpusIQ MCP
 
 Sales teams spend more time updating and navigating HubSpot than they do selling. Connecting HubSpot to Claude via CorpusIQ's MCP platform flips that dynamic — Claude becomes a natural language interface to your entire CRM. Ask "What deals are closing this month?", "Show me contacts who haven't been contacted in 30 days", or "What's our pipeline by stage and rep?" and get instant, accurate answers drawn from your live HubSpot data.
 
@@ -87,34 +85,101 @@ All communication is encrypted. CorpusIQ never stores your CRM data — every qu
 | Cross-source | Built-in multi-tool correlation | Custom development |
 | Cost | Included in CorpusIQ | Developer time + maintenance |
 
-### FAQ
+### FAQ: Common Questions
 
-**Q: Can Claude create or update HubSpot records?**
-A: No. The integration is read-only. Claude can analyze and report on CRM data but cannot modify it.
+<details>
+<summary><strong>Can Claude create or update HubSpot records?</strong></summary>
 
-**Q: Which HubSpot hubs does this support?**
-A: The integration supports contacts, companies, and deals across all HubSpot tiers. Marketing Hub and Service Hub objects may require additional scope configuration.
+No. The integration is read-only. Claude can analyze and report on CRM data but cannot modify it.
+</details>
 
-**Q: How many HubSpot accounts can I connect?**
-A: You can connect multiple HubSpot accounts through CorpusIQ, each with independent permissions.
+<details>
+<summary><strong>Which HubSpot hubs does this support?</strong></summary>
 
-**Q: Is the data real-time?**
-A: Yes. Every Claude query triggers a fresh API call to HubSpot.
+The integration supports contacts, companies, and deals across all HubSpot tiers. Marketing Hub and Service Hub objects may require additional scope configuration.
+</details>
 
-**Q: Can I restrict which properties Claude can see?**
-A: OAuth scopes control access at the object level. For property-level restrictions, use HubSpot's permission sets to limit what the OAuth app can access.
+<details>
+<summary><strong>How many HubSpot accounts can I connect?</strong></summary>
 
-### Internal Links
+You can connect multiple HubSpot accounts through CorpusIQ, each with independent permissions.
+</details>
 
-- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude/) — Salesforce CRM in Claude.
-- [Connect Slack to Claude](/docs/connect-slack-to-claude/) — Team communication data in Claude.
-- [Connect Notion to Claude](/docs/connect-notion-to-claude/) — Knowledge management in Claude.
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/) — Financial data in Claude.
-- [AI for Sales Reporting](/docs/ai-for-sales-reporting/) — AI-powered sales analytics.
-- [AI for Revenue Operations](/docs/ai-for-revenue-operations/) — RevOps transformation.
-- [AI for Customer Support](/docs/ai-for-customer-support/) — Support intelligence.
-- [What is MCP?](/docs/what-is-mcp/) — Understanding the Model Context Protocol.
+<details>
+<summary><strong>Is the data real-time?</strong></summary>
+
+Yes. Every Claude query triggers a fresh API call to HubSpot.
+</details>
+
+<details>
+<summary><strong>Can I restrict which properties Claude can see?</strong></summary>
+
+OAuth scopes control access at the object level. For property-level restrictions, use HubSpot's permission sets to limit what the OAuth app can access.
+</details>
+
 
 ---
 
 **Next steps:** [Connect HubSpot to Claude now →](https://app.corpusiq.com/connect/hubspot)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "headline": "",
+  "author": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "datePublished": "2026-06-16",
+  "dateModified": "2026-06-16",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can Claude create or update HubSpot records?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The integration is read-only. Claude can analyze and report on CRM data but cannot modify it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which HubSpot hubs does this support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The integration supports contacts, companies, and deals across all HubSpot tiers. Marketing Hub and Service Hub objects may require additional scope configuration."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many HubSpot accounts can I connect?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can connect multiple HubSpot accounts through CorpusIQ, each with independent permissions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the data real-time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every Claude query triggers a fresh API call to HubSpot."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I restrict which properties Claude can see?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OAuth scopes control access at the object level. For property-level restrictions, use HubSpot's permission sets to limit what the OAuth app can access."
+      }
+    }
+  ]
+}
+</script>

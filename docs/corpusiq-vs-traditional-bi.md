@@ -132,6 +132,80 @@ A: For ad-hoc questions, dramatically — seconds vs hours/days. For recurring d
 **Q: Can I export CorpusIQ results to Excel or PDF?**  
 A: Results are delivered through your AI assistant, which can format them as tables. Export capabilities depend on the AI client.
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can CorpusIQ replace Tableau?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For ad-hoc business questions and AI-powered analysis, yes. For visual dashboards, scheduled reporting, and formal BI \u2014 no. They complement each other."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does CorpusIQ create charts and visualizations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ's AI assistant can describe data and suggest visualization approaches, but native chart rendering depends on the AI client. Some MCP-compatible assistants can generate charts from structured data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I still need a BI team if I use CorpusIQ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You may need fewer analysts for ad-hoc query requests, but you'll still want data professionals for governance, metric definitions, and strategic analysis."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does accuracy compare?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditional BI has governed metrics \u2014 \"revenue\" means the same thing everywhere. CorpusIQ queries source data directly, which may have different definitions across systems. Both are accurate; they just reflect different definitions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can non-technical users really use CorpusIQ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. If you can type a question in plain English, you can use CorpusIQ. No SQL, no dashboard design, no data modeling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about data security?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ inherits permissions from source systems. BI tools have centralized governance. Both are enterprise-grade; the security model differs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is CorpusIQ faster than BI tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For ad-hoc questions, dramatically \u2014 seconds vs hours/days. For recurring dashboard views, BI tools are instantaneous after initial setup."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I export CorpusIQ results to Excel or PDF?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Results are delivered through your AI assistant, which can format them as tables. Export capabilities depend on the AI client."
+      }
+    }
+  ]
+}
+</script>
+
 ## Internal Links
 
 - [CorpusIQ vs Data Warehouses — Live Query vs Stored Data](/docs/corpusiq-vs-data-warehouses/)

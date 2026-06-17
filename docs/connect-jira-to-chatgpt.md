@@ -1,62 +1,83 @@
 ---
-title: "Connect Jira to ChatGPT — Live Issue Tracking, MCP-Powered | CorpusIQ"
-description: "Connect Jira to ChatGPT via CorpusIQ MCP. Ask about issues, sprints, epics, assignees, and project velocity in plain English. Live, read-only, no exports."
+title: "Connect Jira to ChatGPT via MCP — Live Data, No Code | CorpusIQ"
+description: "Connect your Jira account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your jira data and get real-time, source-cited answers — no exports, no coding required."
 category: ChatGPT Integrations
-tags: [Jira ChatGPT, Connect Jira to ChatGPT, Jira AI, ChatGPT Issue Tracking, MCP Jira, CorpusIQ Jira, Agile AI, Sprint Management AI, Dev Tools AI]
+tags: ["connect Jira to ChatGPT", "Jira ChatGPT integration", "MCP Jira connector", "Jira data to ChatGPT", "AI for Jira", "CorpusIQ MCP"]
 last_updated: 2026-06-16
 canonical: https://www.corpusiq.io/docs/connect-jira-to-chatgpt
 robots: index,follow
 ---
 
-# Connect Jira to ChatGPT: Issue Tracking in Plain English
+# How to Connect Jira to ChatGPT with CorpusIQ MCP
 
-Jira is the system of record for software teams — tracking issues, sprints, epics, and releases across development projects. But getting answers from Jira means navigating complex project views, writing JQL queries, and switching between boards. Connecting Jira to ChatGPT through CorpusIQ MCP gives your entire organization conversational access to development data.
+Your **Jira** account holds critical business data — but accessing insights usually means logging in, navigating dashboards, and running manual reports. **Connecting Jira to ChatGPT through CorpusIQ MCP** eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Jira data directly — you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.
 
 Once connected, ChatGPT can query your live Jira data — issues, sprints, epics, assignees, status transitions, and project velocity. You ask questions in plain English and get cited answers from your Jira instance — no JQL required.
 
 This page covers the connection architecture, what you can ask, agile workflow use cases, security, and how MCP compares to JQL queries and direct Jira API integration.
 
-## FAQ
+## FAQ: Common Questions
 
-### What development questions can I ask ChatGPT about Jira?
+<details>
+<summary><strong>What development questions can I ask ChatGPT about Jira?</strong></summary>
 
 Issue questions: "Show me all open bugs in the current sprint", "What issues are assigned to me?", "Which issues have been in 'In Progress' for more than 5 days?" Sprint questions: "What's the status of Sprint 42?", "How many story points have we completed this sprint?", "What's our velocity over the last 5 sprints?" Epic questions: "What's the status of the Authentication Epic?", "Show me all unresolved issues in Epic X." Release questions: "What issues are targeted for the next release?", "How many bugs are open for the current release?" Team questions: "Who has the most open issues?", "Show me issue distribution by assignee this sprint."
+</details>
 
-### How does the connection work?
+<details>
+<summary><strong>How does the connection work?</strong></summary>
 
 CorpusIQ connects to your Jira instance (Cloud or Data Center) via OAuth 2.0 or personal access token. You authorize read-only access, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Jira tools — issue search, sprint reporting, project listing, and issue retrieval — and calls them when you ask a question. The MCP server handles JQL construction, pagination, and field mapping behind the scenes.
+</details>
 
-### Is the connection read-only?
+<details>
+<summary><strong>Is the connection read-only?</strong></summary>
 
 Yes. CorpusIQ requests read-only permissions from Jira. ChatGPT can see issues, projects, sprints, and reports. It cannot create issues, transition statuses, assign work, comment on issues, or modify anything in your Jira instance. The read-only guarantee is enforced at the Jira permission and MCP tool levels.
+</details>
 
-### What Jira data can ChatGPT access?
+<details>
+<summary><strong>What Jira data can ChatGPT access?</strong></summary>
 
 Projects and their metadata. Issues with summary, description, status, assignee, priority, labels, components, and custom fields. Sprints with start/end dates, goal, and completion status. Epics with linked issues and progress. All standard and custom fields are accessible — just reference them by name.
+</details>
 
-### Can ChatGPT write JQL for me?
+<details>
+<summary><strong>Can ChatGPT write JQL for me?</strong></summary>
 
 ChatGPT doesn't just write JQL — it eliminates the need for JQL entirely. Instead of writing `project = "PLATFORM" AND status = "In Progress" AND assignee = currentUser() ORDER BY priority DESC`, you ask "Show me my in-progress issues in the Platform project, sorted by priority." ChatGPT translates your natural language into the appropriate JQL, executes it, and returns the results. You get JQL-level precision without learning JQL syntax.
+</details>
 
-### Can ChatGPT combine Jira data with other development tools?
+<details>
+<summary><strong>Can ChatGPT combine Jira data with other development tools?</strong></summary>
 
 Yes. "Show me Jira issues linked to recent GitHub pull requests" or "Which Jira bugs correspond to production incidents in our monitoring dashboard?" Cross-source development visibility connects your issue tracker with your code repository, CI/CD pipeline, and monitoring tools.
+</details>
 
-### Can ChatGPT combine Jira with business tools?
+<details>
+<summary><strong>Can ChatGPT combine Jira with business tools?</strong></summary>
 
 This is where MCP truly differentiates from Jira-native reporting. "Which Jira epics are associated with HubSpot deals closing this quarter?" "Show me open customer-reported bugs and their corresponding Salesforce cases." "Which features being built this sprint map to the highest-value Shopify products?" Connecting development data to business data provides context that isolated Jira reports cannot.
+</details>
 
-### How is this different from Jira's built-in dashboards?
+<details>
+<summary><strong>How is this different from Jira's built-in dashboards?</strong></summary>
 
 Jira dashboards are excellent for recurring team-level metrics — burndown charts, velocity, issue distributions. But they answer the questions you anticipate, not the questions you discover. "Show me all issues that were reopened more than twice in the last 30 days" is a JQL query and chart you'd need to build specifically — or a ChatGPT question that takes seconds. MCP complements Jira dashboards with ad-hoc analytical capability.
+</details>
 
-### Does this work with Jira Cloud and Jira Data Center?
+<details>
+<summary><strong>Does this work with Jira Cloud and Jira Data Center?</strong></summary>
 
 Yes. CorpusIQ supports both Jira Cloud (via OAuth 2.0) and Jira Data Center (via personal access tokens). Connection setup differs slightly (OAuth for Cloud, PAT for Data Center), but the ChatGPT experience is identical.
+</details>
 
-### Can I query across multiple Jira projects and boards?
+<details>
+<summary><strong>Can I query across multiple Jira projects and boards?</strong></summary>
 
 Yes. "Show me all open issues across the Frontend, Backend, and DevOps projects." "What's the combined velocity across all engineering teams this quarter?" "Which projects have the most unresolved bugs?" Multi-project queries work naturally — no need to run separate JQL queries and combine results manually.
+</details>
+
 
 ## How It Works
 
@@ -157,3 +178,89 @@ Under 5 minutes from signup to Jira answers in ChatGPT. No JQL required.
 - [MCP for Operations](../docs/mcp-for-operations.md) — MCP for ops and dev teams
 - [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md) — detailed comparison
 - [CorpusIQ Security Architecture](../docs/security/README.md) — how data stays safe
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "headline": "How to Connect Jira to ChatGPT with CorpusIQ MCP",
+  "author": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "datePublished": "2026-06-16",
+  "dateModified": "2026-06-16",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What development questions can I ask ChatGPT about Jira?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Issue questions: \"Show me all open bugs in the current sprint\", \"What issues are assigned to me?\", \"Which issues have been in 'In Progress' for more than 5 days?\" Sprint questions: \"What's the status of Sprint 42?\", \"How many story points have we completed this sprint?\", \"What's our velocity over th"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the connection work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ connects to your Jira instance (Cloud or Data Center) via OAuth 2.0 or personal access token. You authorize read-only access, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Jira tools \u2014 issue search, sprint reporting, project listing, and issue retrieval \u2014 "
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the connection read-only?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CorpusIQ requests read-only permissions from Jira. ChatGPT can see issues, projects, sprints, and reports. It cannot create issues, transition statuses, assign work, comment on issues, or modify anything in your Jira instance. The read-only guarantee is enforced at the Jira permission and MCP t"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Jira data can ChatGPT access?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Projects and their metadata. Issues with summary, description, status, assignee, priority, labels, components, and custom fields. Sprints with start/end dates, goal, and completion status. Epics with linked issues and progress. All standard and custom fields are accessible \u2014 just reference them by n"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can ChatGPT write JQL for me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ChatGPT doesn't just write JQL \u2014 it eliminates the need for JQL entirely. Instead of writing `project = \"PLATFORM\" AND status = \"In Progress\" AND assignee = currentUser() ORDER BY priority DESC`, you ask \"Show me my in-progress issues in the Platform project, sorted by priority.\" ChatGPT translates "
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can ChatGPT combine Jira data with other development tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. \"Show me Jira issues linked to recent GitHub pull requests\" or \"Which Jira bugs correspond to production incidents in our monitoring dashboard?\" Cross-source development visibility connects your issue tracker with your code repository, CI/CD pipeline, and monitoring tools."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can ChatGPT combine Jira with business tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This is where MCP truly differentiates from Jira-native reporting. \"Which Jira epics are associated with HubSpot deals closing this quarter?\" \"Show me open customer-reported bugs and their corresponding Salesforce cases.\" \"Which features being built this sprint map to the highest-value Shopify produ"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is this different from Jira's built-in dashboards?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Jira dashboards are excellent for recurring team-level metrics \u2014 burndown charts, velocity, issue distributions. But they answer the questions you anticipate, not the questions you discover. \"Show me all issues that were reopened more than twice in the last 30 days\" is a JQL query and chart you'd ne"
+      }
+    }
+  ]
+}
+</script>

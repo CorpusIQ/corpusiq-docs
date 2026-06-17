@@ -145,6 +145,64 @@ A: Accuracy depends on source data freshness. CorpusIQ queries live sources — 
 **Q: Can I use multiple knowledge platforms?**  
 A: Yes. Some teams use Notion AI for documentation and CorpusIQ for live business data.
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What's the difference between a knowledge platform and a wiki?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A wiki is a static repository you browse. An AI knowledge platform lets you ask questions and get answers \u2014 from documents, data, and communications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to migrate my existing knowledge base?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not with CorpusIQ. It connects to your existing tools and queries them live. No migration."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can AI knowledge platforms handle confidential data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if they respect source permissions. CorpusIQ inherits permissions from each connected system."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can I deploy an AI knowledge platform?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ: 30 minutes to connect 5-10 sources. Glean: days to weeks. Notion AI: immediate for existing Notion users. Custom RAG: months."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about accuracy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accuracy depends on source data freshness. CorpusIQ queries live sources \u2014 always accurate. Indexed platforms are only as accurate as their last index."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use multiple knowledge platforms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Some teams use Notion AI for documentation and CorpusIQ for live business data."
+      }
+    }
+  ]
+}
+</script>
+
 ## Internal Links
 
 - [How to Build an AI Knowledge Base — Step-by-Step](/docs/how-to-build-an-ai-knowledge-base/)

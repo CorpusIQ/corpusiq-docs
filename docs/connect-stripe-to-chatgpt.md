@@ -1,62 +1,83 @@
 ---
-title: "Connect Stripe to ChatGPT — Live Payment Data, MCP-Powered | CorpusIQ"
-description: "Connect Stripe to ChatGPT via CorpusIQ MCP. Ask about charges, customers, payouts, refunds, disputes, and balance in plain English. Live, read-only, no exports."
+title: "Connect Stripe to ChatGPT via MCP — Live Data, No Code | CorpusIQ"
+description: "Connect your Stripe account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your stripe data and get real-time, source-cited answers — no exports, no coding required."
 category: ChatGPT Integrations
-tags: [Stripe ChatGPT, Connect Stripe to ChatGPT, Stripe AI, ChatGPT Payments, MCP Stripe, CorpusIQ Stripe, Payment Data AI, Financial Data AI]
+tags: ["connect Stripe to ChatGPT", "Stripe ChatGPT integration", "MCP Stripe connector", "Stripe data to ChatGPT", "AI for Stripe", "CorpusIQ MCP"]
 last_updated: 2026-06-16
 canonical: https://www.corpusiq.io/docs/connect-stripe-to-chatgpt
 robots: index,follow
 ---
 
-# Connect Stripe to ChatGPT: Payment Data, Plain English Answers
+# How to Connect Stripe to ChatGPT with CorpusIQ MCP
 
-Your Stripe account processes every payment, manages every customer, handles every refund, and settles every payout. But getting answers from Stripe typically means logging into the Stripe Dashboard, navigating between sections, and manually pulling data. Connecting Stripe to ChatGPT through CorpusIQ MCP gives you conversational access to your entire payment operations.
+Your **Stripe** account holds critical business data — but accessing insights usually means logging in, navigating dashboards, and running manual reports. **Connecting Stripe to ChatGPT through CorpusIQ MCP** eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Stripe data directly — you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.
 
 Once connected, ChatGPT can query your live Stripe data — charges, customers, payouts, balance transactions, refunds, and disputes. You ask questions in plain English and get cited answers from your Stripe account in real time.
 
 This page covers the connection architecture, what you can ask, reconciliation use cases, security, and how MCP compares to direct Stripe API integration.
 
-## FAQ
+## FAQ: Common Questions
 
-### What payment questions can I ask ChatGPT about Stripe?
+<details>
+<summary><strong>What payment questions can I ask ChatGPT about Stripe?</strong></summary>
 
 Revenue questions: "What was our Stripe revenue this month?", "Show me revenue by day for the last 30 days." Customer questions: "Who are our top 10 customers by total charges?", "Show me all customers who churned this quarter." Payout questions: "What payouts did we receive last week?", "Which payout included charge X?" Refund questions: "What's our refund rate this month?", "Show me all refunds over $100." Dispute questions: "Do we have any open disputes?", "What's our dispute win rate?" Balance questions: "What's our current Stripe balance?", "How much is available vs. pending?"
+</details>
 
-### How does the connection work?
+<details>
+<summary><strong>How does the connection work?</strong></summary>
 
 CorpusIQ connects to your Stripe account via a restricted API key with read-only permissions. You create the key in your Stripe Dashboard, paste it into CorpusIQ, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Stripe tools and calls them when you ask a payment question. The connection is direct, secure, and real-time.
+</details>
 
-### Is the connection read-only?
+<details>
+<summary><strong>Is the connection read-only?</strong></summary>
 
 Yes. You create a Stripe restricted API key with only read permissions — specifically, read access to charges, customers, payouts, balance, refunds, and disputes. ChatGPT can query your payment data but cannot create charges, issue refunds, modify customers, or change anything in your Stripe account. The read-only guarantee is enforced by the Stripe API key permissions themselves.
+</details>
 
-### What Stripe data can ChatGPT access?
+<details>
+<summary><strong>What Stripe data can ChatGPT access?</strong></summary>
 
 Charges with amounts, status, customer, and metadata. Customers with email, name, description, and charge history. Payouts with amounts, status, arrival date, and destination bank details. Balance transactions with types, amounts, and fees. Refunds with amounts, reasons, and associated charges. Disputes with amounts, reasons, status, and evidence deadlines. Current balance with available and pending amounts.
+</details>
 
-### Can ChatGPT reconcile Stripe data with accounting systems?
+<details>
+<summary><strong>Can ChatGPT reconcile Stripe data with accounting systems?</strong></summary>
 
 Yes — reconciliation is one of the strongest use cases. "Does this Stripe payout match what QuickBooks shows?" "Show me Stripe charges that don't have corresponding QuickBooks invoices." "What fees did Stripe deduct from our last payout?" These cross-source reconciliation questions combine Stripe data with QuickBooks data in one ChatGPT response. See our [Stripe connector reference](../connectors/stripe.md) for reconciliation-specific tooling.
+</details>
 
-### How is this different from the Stripe Dashboard?
+<details>
+<summary><strong>How is this different from the Stripe Dashboard?</strong></summary>
 
 The Stripe Dashboard is purpose-built for payment operations — processing charges, managing disputes, configuring payment methods. It's essential for those tasks. But for analytics and Q&A, the Dashboard requires navigating multiple views. With ChatGPT, you ask one question and get an answer that may span charges, customers, payouts, and disputes — data that would require switching between four different Dashboard sections.
+</details>
 
-### Can I query Stripe data alongside other payment processors?
+<details>
+<summary><strong>Can I query Stripe data alongside other payment processors?</strong></summary>
 
 Yes. If you also use Shopify Payments, PayPal, or other processors, you can connect those to CorpusIQ and ask questions that span payment systems. "Compare Stripe revenue with Shopify Payments revenue this month" is a single question across multiple platforms — something no single payment processor's dashboard can do.
+</details>
 
-### What about PCI compliance?
+<details>
+<summary><strong>What about PCI compliance?</strong></summary>
 
 Stripe handles all PCI compliance at the payment processing level. CorpusIQ only accesses non-PCI data — charge amounts, customer metadata, payout information. No card numbers, no CVV codes, no sensitive payment credentials. The restricted API key you create cannot access PCI-scoped data. Your compliance posture is unchanged by connecting Stripe to ChatGPT.
+</details>
 
-### How does this handle multi-currency Stripe accounts?
+<details>
+<summary><strong>How does this handle multi-currency Stripe accounts?</strong></summary>
 
 Stripe supports multiple currencies. CorpusIQ retrieves charge data in the currency of each transaction, with the presentment amount and currency. ChatGPT can present amounts in their original currencies and calculate conversions if needed. If your Stripe account has a default settlement currency, that's reflected in payout data.
+</details>
 
-### Can I analyze Stripe fees?
+<details>
+<summary><strong>Can I analyze Stripe fees?</strong></summary>
 
 Yes. Balance transactions include Stripe fees on each charge. "What were our total Stripe fees this month?" "Show me fees as a percentage of revenue." "Which payment methods have the highest fee rates?" Fee analysis that would require exporting CSV data becomes a natural language question.
+</details>
+
 
 ## How It Works
 
@@ -160,3 +181,89 @@ Setup takes under 5 minutes. No code. No data exports.
 - [MCP for Finance](../docs/mcp-for-finance.md) — MCP for finance teams
 - [Stripe Connector Reference](../connectors/stripe.md) — technical details
 - [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md) — detailed comparison
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "headline": "How to Connect Stripe to ChatGPT with CorpusIQ MCP",
+  "author": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "datePublished": "2026-06-16",
+  "dateModified": "2026-06-16",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What payment questions can I ask ChatGPT about Stripe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Revenue questions: \"What was our Stripe revenue this month?\", \"Show me revenue by day for the last 30 days.\" Customer questions: \"Who are our top 10 customers by total charges?\", \"Show me all customers who churned this quarter.\" Payout questions: \"What payouts did we receive last week?\", \"Which payo"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the connection work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ connects to your Stripe account via a restricted API key with read-only permissions. You create the key in your Stripe Dashboard, paste it into CorpusIQ, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Stripe tools and calls them when you ask a payment quest"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the connection read-only?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You create a Stripe restricted API key with only read permissions \u2014 specifically, read access to charges, customers, payouts, balance, refunds, and disputes. ChatGPT can query your payment data but cannot create charges, issue refunds, modify customers, or change anything in your Stripe account"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Stripe data can ChatGPT access?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Charges with amounts, status, customer, and metadata. Customers with email, name, description, and charge history. Payouts with amounts, status, arrival date, and destination bank details. Balance transactions with types, amounts, and fees. Refunds with amounts, reasons, and associated charges. Disp"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can ChatGPT reconcile Stripe data with accounting systems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes \u2014 reconciliation is one of the strongest use cases. \"Does this Stripe payout match what QuickBooks shows?\" \"Show me Stripe charges that don't have corresponding QuickBooks invoices.\" \"What fees did Stripe deduct from our last payout?\" These cross-source reconciliation questions combine Stripe da"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is this different from the Stripe Dashboard?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Stripe Dashboard is purpose-built for payment operations \u2014 processing charges, managing disputes, configuring payment methods. It's essential for those tasks. But for analytics and Q&A, the Dashboard requires navigating multiple views. With ChatGPT, you ask one question and get an answer that ma"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I query Stripe data alongside other payment processors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. If you also use Shopify Payments, PayPal, or other processors, you can connect those to CorpusIQ and ask questions that span payment systems. \"Compare Stripe revenue with Shopify Payments revenue this month\" is a single question across multiple platforms \u2014 something no single payment processor'"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about PCI compliance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stripe handles all PCI compliance at the payment processing level. CorpusIQ only accesses non-PCI data \u2014 charge amounts, customer metadata, payout information. No card numbers, no CVV codes, no sensitive payment credentials. The restricted API key you create cannot access PCI-scoped data. Your compl"
+      }
+    }
+  ]
+}
+</script>

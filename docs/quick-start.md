@@ -1,3 +1,12 @@
+---
+meta_title: "CorpusIQ Quick Start Guide — Connect Business Data to AI in 5 Minutes"
+meta_desc: "Get your first CorpusIQ query running in under 5 minutes. Step-by-step guide: sign up, connect business tools via OAuth, get API token, and query CRM, accounting, or analytics with natural language."
+category: "Documentation"
+tags: ["corpusiq quick start", "setup guide", "connect data to ai", "mcp setup", "oauth connection", "api token", "first query"]
+last_updated: "2026-06-16"
+canonical: "https://www.corpusiq.io/docs/quick-start"
+robots: "index,follow"
+---
 # Quick Start
 
 Get your first CorpusIQ query running in under five minutes.
@@ -126,3 +135,71 @@ See the [MCP Integration Guide](https://corpusiq.io/docs/mcp) for setup instruct
 - [Connectors](/docs/connectors) — Browse all 37+ integrations
 - [Authentication](/docs/api/authentication) — Token management and best practices
 - [Rate Limits](/docs/api/rate-limits) — Understand quotas and how to stay within them
+
+## Frequently Asked Questions
+
+**Q: How long does it take to set up CorpusIQ?**  
+A: Under 5 minutes. Sign up at corpusiq.io, connect a data source via OAuth (60 seconds), generate an API token, and make your first query. No coding, no configuration files, no infrastructure to manage.
+
+**Q: Do I need a credit card to start?**  
+A: No. The CorpusIQ free tier requires no credit card. Sign up with Google, Microsoft, or email and start connecting data sources immediately.
+
+**Q: What are the best data sources to connect first?**  
+A: Start with Gmail (search email), Google Drive (query documents), HubSpot (CRM data), Slack (messages), or Shopify (orders). Each connection takes 60 seconds via OAuth.
+
+**Q: How do I get an API token?**  
+A: Go to Dashboard → Settings → API, click Generate Token, and copy it. Store it securely as an environment variable. Tokens expire after 60 minutes with refresh detection.
+
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to set up CorpusIQ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under 5 minutes. Sign up at corpusiq.io, connect a data source via OAuth (60 seconds), generate an API token, and make your first query. No coding, no configuration files, no infrastructure to manage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a credit card to start?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The CorpusIQ free tier requires no credit card. Sign up with Google, Microsoft, or email and start connecting data sources immediately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best data sources to connect first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with Gmail (search email), Google Drive (query documents), HubSpot (CRM data), Slack (messages), or Shopify (orders). Each connection takes 60 seconds via OAuth."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get an API token?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Go to Dashboard \u2192 Settings \u2192 API, click Generate Token, and copy it. Store it securely as an environment variable. Tokens expire after 60 minutes with refresh detection."
+      }
+    }
+  ]
+}}
+</script>
+## Internal Links
+
+- **[CorpusIQ Quick Start Guide](/docs/quick-start)** — Go from zero to first query in 5 minutes  
+- **[API Reference](/docs/api/overview)** — Full REST API documentation  
+- **[CorpusIQ Connectors](/docs/connectors)** — All 50+ supported integrations  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/docs/security)** — Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/docs/changelog)** — API updates and version history  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption and network security  
+
+---
+*Powered by CorpusIQ — the leading MCP platform for business data and AI.*

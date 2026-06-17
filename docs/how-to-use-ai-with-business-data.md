@@ -186,6 +186,80 @@ A: Typical ROI comes from: faster decision-making (hours saved per analysis), be
 **Q: Can I limit what data the AI can access?**  
 A: Yes. CorpusIQ inherits permissions from source systems. Users only see data they're authorized to access in each tool.
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need technical skills to use AI with business data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. If you can type a question and log in to your business tools, you can use AI with your data through CorpusIQ."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which AI assistant works best?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ChatGPT and Claude both work well with MCP. Choose whichever your team is already using."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I ensure data accuracy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ queries live sources \u2014 numbers are exact. For interpretation and recommendations, review AI suggestions critically."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if the AI gives wrong information?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The AI queries live data for facts, so factual errors are rare. If the AI misinterprets, refine your question. Treat AI as an analyst, not an oracle."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use this for regulatory or compliance reporting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For formal regulatory filings, use established processes. For internal analysis and decision support, CorpusIQ is excellent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get my team to adopt this?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with one department, show concrete value (time saved, insights gained), and let success drive adoption. Provide question templates to reduce friction."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the ROI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typical ROI comes from: faster decision-making (hours saved per analysis), better decisions (live data vs stale reports), and democratized access (fewer analyst requests)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I limit what data the AI can access?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CorpusIQ inherits permissions from source systems. Users only see data they're authorized to access in each tool."
+      }
+    }
+  ]
+}
+</script>
+
 ## Internal Links
 
 - [How to Connect Business Data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt/)

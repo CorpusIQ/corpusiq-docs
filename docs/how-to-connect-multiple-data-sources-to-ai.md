@@ -175,6 +175,80 @@ A: MCP tools are self-describing. Each connector advertises what it can do, and 
 **Q: Can I save multi-source query templates?**  
 A: Save the question text in a document or note. The AI will run it fresh each time with live data.
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many sources can I connect simultaneously?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All 50+ CorpusIQ connectors can be active at once. Your AI assistant can query any combination of them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does querying multiple sources slow down responses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Minimally. CorpusIQ executes queries in parallel. A 5-source query typically completes in 3-8 seconds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if one source is down?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The AI will report that the source is unavailable and deliver results from the remaining sources. Partial answers are better than no answers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I control which sources the AI queries?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes \u2014 specify in your question. \"Using only HubSpot and QuickBooks, show me...\""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a limit on cross-source query complexity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The limit is practical, not technical. Questions spanning 5-7 sources work well. Beyond that, results become harder to present coherently."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a data warehouse for cross-source queries?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. That's the key advantage. CorpusIQ queries live APIs \u2014 no warehouse, no ETL, no data duplication."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the AI know which source has which data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MCP tools are self-describing. Each connector advertises what it can do, and the AI maps your question to the right tools automatically."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I save multi-source query templates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Save the question text in a document or note. The AI will run it fresh each time with live data."
+      }
+    }
+  ]
+}
+</script>
+
 ## Internal Links
 
 - [How to Connect Business Data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt/)

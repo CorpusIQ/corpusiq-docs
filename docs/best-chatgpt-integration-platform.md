@@ -143,6 +143,64 @@ A: Yes. CorpusIQ inherits permissions from source systems. Connect only the sour
 **Q: What's the cost comparison?**  
 A: CorpusIQ: $50-200/seat/month. Custom MCP: $100K-300K/year. Zapier: per-task pricing. Choose based on your needs.
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What's the difference between integration and a plugin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Plugins are deprecated by OpenAI in favor of MCP. MCP integration is the forward-looking approach. CorpusIQ uses MCP \u2014 the current and future standard."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use multiple integration platforms with ChatGPT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. ChatGPT can connect to multiple MCP servers. Use CorpusIQ for business data, Zapier for workflow triggers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need ChatGPT Enterprise for these integrations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ChatGPT Plus, Team, and Enterprise support MCP. The free tier has limited MCP support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How secure is my data when integrated with ChatGPT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ uses read-only OAuth access and never stores data. Data passes through CorpusIQ's server to ChatGPT in-memory during your session."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I control what data ChatGPT can access?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CorpusIQ inherits permissions from source systems. Connect only the sources you want ChatGPT to access."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the cost comparison?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ: $50-200/seat/month. Custom MCP: $100K-300K/year. Zapier: per-task pricing. Choose based on your needs."
+      }
+    }
+  ]
+}
+</script>
+
 ## Internal Links
 
 - [Best Way to Connect ChatGPT to Business Data](/docs/best-way-to-connect-chatgpt-to-business-data/)

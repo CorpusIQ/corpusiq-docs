@@ -1,23 +1,25 @@
 ---
-title: "HubSpot AI Reporting: Automated CRM Reports & Sales Analytics | CorpusIQ"
-description: "Generate automated HubSpot reports using AI. Pipeline reports, rep performance dashboards, deal analytics, contact segmentation, and campaign attribution — all through natural language with CorpusIQ MCP."
-url: "/docs/hubspot-ai-reporting"
-h1: "HubSpot AI Reporting: Automated CRM Intelligence at Conversation Speed"
-meta_title: "HubSpot AI Reporting — Automated CRM Reports & Analytics | CorpusIQ"
-meta_description: "Automate HubSpot reporting with AI. Generate pipeline reports, rep dashboards, deal analytics, contact segments, and campaign attribution reports through natural language — no report builder required."
+title: 'HubSpot AI Reporting: Automated CRM Reports & Sales Analytics | CorpusIQ'
+description: Generate automated HubSpot reports using AI. Pipeline reports, rep performance dashboards, deal analytics, contact segmentation, and campaign attribution — all through natural language with
+  CorpusIQ MCP.
+url: /docs/hubspot-ai-reporting
+h1: 'HubSpot AI Reporting: Automated CRM Intelligence at Conversation Speed'
+meta_title: HubSpot AI Reporting — Automated CRM Reports & Analytics | CorpusIQ
+meta_description: Automate HubSpot reporting with AI. Generate pipeline reports, rep dashboards, deal analytics, contact segments, and campaign attribution reports through natural language — no report builder
+  required.
 keywords:
-  - HubSpot AI reporting
-  - automated CRM reports
-  - AI sales reporting
-  - HubSpot report automation
-  - pipeline reporting AI
-  - MCP HubSpot reporting
-  - automated deal analytics
-  - AI CRM dashboards
-last_updated: "2026-06-16"
-category: "HubSpot"
+- HubSpot AI reporting
+- automated CRM reports
+- AI sales reporting
+- HubSpot report automation
+- pipeline reporting AI
+- MCP HubSpot reporting
+- automated deal analytics
+- AI CRM dashboards
+last_updated: '2026-06-16'
+category: HubSpot
 cluster: 7
-canonical_url: "https://corpusiq.com/docs/hubspot-ai-reporting"
+canonical_url: https://corpusiq.com/docs/hubspot-ai-reporting
 ---
 
 # HubSpot AI Reporting: Automated CRM Intelligence at Conversation Speed
@@ -115,6 +117,19 @@ Through CorpusIQ, define a report template, set a schedule (daily, weekly, month
 ### What about report permissions and data access?
 CorpusIQ respects your HubSpot permissions. Users see only the data they have access to in HubSpot. Role-based report templates can be configured so each team member sees the appropriate level of detail.
 
+
+## Get Started with HubSpot AI Reporting
+
+Ready to put AI to work on your hubspot ai reporting data? 
+
+1. **Sign up** for a [CorpusIQ account](https://app.corpusiq.com/signup) — free plan available.
+2. **Connect your data** — OAuth 2.0 authentication takes under 60 seconds.
+3. **Start asking questions** — use ChatGPT, Claude, or any MCP-compatible AI assistant.
+4. **Scale your usage** — add team members, connect more sources, and automate recurring reports.
+
+**[Get started now →](https://app.corpusiq.com/signup)**
+
+
 ## Internal Links
 
 - [ChatGPT for HubSpot: Conversational CRM AI](/docs/chatgpt-for-hubspot)
@@ -129,3 +144,92 @@ CorpusIQ respects your HubSpot permissions. Users see only the data they have ac
 CorpusIQ's AI Reporting for HubSpot transforms CRM reporting from a technical task into a conversational capability. Your team spends less time building reports and more time acting on the intelligence they contain.
 
 **[Start generating AI-powered HubSpot reports](/get-started) — connect your CRM in 60 seconds.**
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of HubSpot reports can AI generate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI can generate any report based on HubSpot CRM data: pipeline reports, rep performance reports, deal analytics, contact and company segmentation, activity and engagement reports, funnel conversion reports, and custom analyses combining multiple objects. With multi-source capabilities, it can also g"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is AI reporting as accurate as HubSpot's native reports?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI reporting pulls data from the same HubSpot APIs that power native reports. The data is identical. The AI adds computed metrics (conversion rates, trends, forecasts) that HubSpot may not calculate automatically — these are clearly labeled as computations with methodology transparent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I customize report formats?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Describe your preferred format: \"Show as a table with columns for...\" or \"Include a summary section at the top with...\" or \"Format as bullet-point findings.\" The AI adapts its output to your specifications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can reports be exported?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reports are delivered as formatted markdown with tables that copy cleanly into Excel, Google Sheets, or documents. CorpusIQ's Pro and Enterprise plans include direct export to CSV, PDF, or scheduled delivery to email, Slack, and file storage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I save report templates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Save frequently used report definitions in CorpusIQ. Name them (\"Weekly Pipeline Report,\" \"Monthly Board Package\") and regenerate with a single command. Templates can be shared across your team."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does multi-object reporting work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can ask the AI to combine deal, contact, and company data in a single report: \"For each company with an open deal, show the primary contact's last activity date and any associated tickets.\" The AI orchestrates multiple HubSpot API calls and joins the data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can AI reports include custom HubSpot properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The AI discovers your custom properties automatically and can include them in reports. If you have custom deal stages, contact fields, or company properties, the AI treats them the same as standard properties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does reporting work with multiple HubSpot pipelines?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Specify which pipeline(s) to include. The AI can report on individual pipelines or provide consolidated views across all pipelines."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does report scheduling work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Through CorpusIQ, define a report template, set a schedule (daily, weekly, monthly, or custom cron), choose delivery method (email, Slack, file storage), and specify recipients. Reports run automatically on schedule."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about report permissions and data access?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ respects your HubSpot permissions. Users see only the data they have access to in HubSpot. Role-based report templates can be configured so each team member sees the appropriate level of detail."
+      }
+    }
+  ]
+}
+</script>

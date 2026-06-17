@@ -1,23 +1,23 @@
 ---
-title: "Shopify Business Intelligence: AI-Powered Ecommerce BI Platform | CorpusIQ"
-description: "Transform Shopify into a business intelligence platform with CorpusIQ MCP. Unify sales, marketing, inventory, and financial data for AI-powered ecommerce intelligence across your entire business."
-url: "/docs/shopify-business-intelligence"
-h1: "Shopify Business Intelligence: Turn Your Store Data into Strategic Advantage"
-meta_title: "Shopify Business Intelligence — AI-Powered Ecommerce BI | CorpusIQ"
-meta_description: "Upgrade Shopify to an enterprise BI platform with CorpusIQ MCP. Unify ecommerce, marketing, financial, and customer data for AI-powered business intelligence and cross-source analytics."
+title: 'Shopify Business Intelligence: AI-Powered Ecommerce BI Platform | CorpusIQ'
+description: Transform Shopify into a business intelligence platform with CorpusIQ MCP. Unify sales, marketing, inventory, and financial data for AI-powered ecommerce intelligence across your entire business.
+url: /docs/shopify-business-intelligence
+h1: 'Shopify Business Intelligence: Turn Your Store Data into Strategic Advantage'
+meta_title: Shopify Business Intelligence — AI-Powered Ecommerce BI | CorpusIQ
+meta_description: Upgrade Shopify to an enterprise BI platform with CorpusIQ MCP. Unify ecommerce, marketing, financial, and customer data for AI-powered business intelligence and cross-source analytics.
 keywords:
-  - Shopify business intelligence
-  - ecommerce BI platform
-  - Shopify analytics platform
-  - AI ecommerce intelligence
-  - multi-source ecommerce analytics
-  - MCP Shopify BI
-  - Shopify data warehouse alternative
-  - ecommerce decision intelligence
-last_updated: "2026-06-16"
-category: "Shopify"
+- Shopify business intelligence
+- ecommerce BI platform
+- Shopify analytics platform
+- AI ecommerce intelligence
+- multi-source ecommerce analytics
+- MCP Shopify BI
+- Shopify data warehouse alternative
+- ecommerce decision intelligence
+last_updated: '2026-06-16'
+category: Shopify
 cluster: 6
-canonical_url: "https://corpusiq.com/docs/shopify-business-intelligence"
+canonical_url: https://corpusiq.com/docs/shopify-business-intelligence
 ---
 
 # Shopify Business Intelligence: Turn Your Store Data into Strategic Advantage
@@ -120,6 +120,19 @@ Yes. Insights can be exported, shared via Slack, delivered by email, or saved to
 ### What's the onboarding process?
 Connect your platforms (typically 10-30 minutes per source), define your key metrics (30 minutes), and start asking questions. Most businesses achieve initial value within the first hour. Full stack integration and team onboarding typically takes 1-2 weeks for mid-market ecommerce businesses.
 
+
+## Get Started with Shopify Business Intelligence
+
+Ready to put AI to work on your shopify business intelligence data? 
+
+1. **Sign up** for a [CorpusIQ account](https://app.corpusiq.com/signup) — free plan available.
+2. **Connect your data** — OAuth 2.0 authentication takes under 60 seconds.
+3. **Start asking questions** — use ChatGPT, Claude, or any MCP-compatible AI assistant.
+4. **Scale your usage** — add team members, connect more sources, and automate recurring reports.
+
+**[Get started now →](https://app.corpusiq.com/signup)**
+
+
 ## Internal Links
 
 - [ChatGPT for Shopify: Conversational Ecommerce AI](/docs/chatgpt-for-shopify)
@@ -135,3 +148,92 @@ Connect your platforms (typically 10-30 minutes per source), define your key met
 Building a business intelligence capability used to require data warehouses, ETL pipelines, BI tools, and data teams — a six-figure, multi-month investment. CorpusIQ collapses this into a single MCP platform that connects your stack, queries your data, and delivers intelligence conversationally.
 
 **[Start your ecommerce intelligence journey](/get-started). Connect Shopify and your marketing stack in under 30 minutes.**
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How is this different from Shopify's Plus analytics or third-party analytics apps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shopify Plus analytics and apps like Triple Whale or Northbeam focus on a subset of data — primarily marketing attribution. CorpusIQ BI connects your entire business stack: ecommerce, marketing, financial, CRM, and operations. It's a general-purpose business intelligence layer, not a single-use anal"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a data warehouse?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. CorpusIQ queries your data in-place through direct API connections. No data migration, no warehouse costs, no ETL pipelines, no data engineering team. Your data stays in its source systems and is queried on demand."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if my business uses platforms not listed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ supports 30+ platforms and is continuously adding more. Custom API integrations are available on the Enterprise plan for proprietary or niche platforms. Contact our sales team to discuss your specific stack."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does cross-source data accuracy work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ's data accuracy contract ensures every number is traceable to its source. When comparing Shopify to Stripe, the AI explains that Shopify reports gross sales while Stripe reports net (after fees) — and performs the explicit reconciliation. You always know where each number came from and how "
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I define custom business metrics?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, through CorpusIQ's metric spec system. Define metrics like \"True CAC\" (total marketing spend / new customers), \"Contribution Margin\" (revenue - COGS - shipping - payment fees), or \"Net Revenue Retention\" with exact formulas. Once defined, the AI computes them consistently every time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this suitable for enterprise ecommerce?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CorpusIQ BI is designed for businesses processing millions in revenue across complex tech stacks. Enterprise features include: role-based access controls, audit logging, custom metric definitions, scheduled report delivery, multi-store analytics, and dedicated support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does it compare to hiring a data analyst or BI team?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A BI hire costs $80K-150K/year plus tooling costs, and takes months to become productive. CorpusIQ BI provides immediate, conversational access to cross-source intelligence at a fraction of the cost. Many businesses use both: AI for day-to-day intelligence and analysts for custom modeling and strate"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about data privacy and security?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each connected platform authenticates independently through OAuth 2.0 or API keys with scoped permissions. CorpusIQ enforces per-user, per-source access controls. Data is transmitted over TLS 1.3 and never stored on CorpusIQ servers beyond the duration of the query. Enterprise customers can configur"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I share insights with my team who don't use CorpusIQ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Insights can be exported, shared via Slack, delivered by email, or saved to Google Drive/OneDrive/Dropbox. Scheduled reports can go to distribution lists including non-CorpusIQ users."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the onboarding process?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Connect your platforms (typically 10-30 minutes per source), define your key metrics (30 minutes), and start asking questions. Most businesses achieve initial value within the first hour. Full stack integration and team onboarding typically takes 1-2 weeks for mid-market ecommerce businesses."
+      }
+    }
+  ]
+}
+</script>

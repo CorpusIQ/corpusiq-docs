@@ -1,16 +1,14 @@
 ---
-title: "Connect QuickBooks to Claude via MCP — AI-Powered Financial Intelligence"
-meta_title: "Connect QuickBooks to Claude | CorpusIQ MCP Integration for Finance"
-meta_description: "Connect QuickBooks to Claude using CorpusIQ's MCP platform. Query P&L, balance sheets, invoices, AR/AP aging, and financial reports in natural language. Read-only OAuth, no-code setup."
-url: "/docs/connect-quickbooks-to-claude/"
-h1: "Connect QuickBooks to Claude: Real-Time Financial Data in AI"
-category: "Claude Integrations"
-last_updated: "2025-06-16"
-author: "CorpusIQ"
-canonical: "https://corpusiq.com/docs/connect-quickbooks-to-claude/"
+title: "Connect QuickBooks to Claude via MCP — Live Data, No Code | CorpusIQ"
+description: "Connect your QuickBooks account to Claude through CorpusIQ MCP. Ask natural language questions about your quickbooks data and get real-time, source-cited answers — no exports, no coding required."
+category: Claude Integrations
+tags: ["connect QuickBooks to Claude", "QuickBooks Claude integration", "MCP QuickBooks connector", "QuickBooks data to Claude", "AI for QuickBooks", "CorpusIQ MCP"]
+last_updated: 2026-06-16
+canonical: https://www.corpusiq.io/docs/connect-quickbooks-to-claude
+robots: index,follow
 ---
 
-## Connect QuickBooks to Claude: Real-Time Financial Data in AI
+# How to Connect QuickBooks to Claude with CorpusIQ MCP
 
 Finance teams spend countless hours pulling reports from QuickBooks, reformatting them in Excel, and building presentations to answer questions that executives ask in seconds. Connecting QuickBooks to Claude via CorpusIQ's MCP platform eliminates that manual work. Ask Claude "What was our gross margin last quarter?", "Show me our top 5 overdue invoices", or "What's our cash position?" and receive accurate, real-time answers backed by your live QuickBooks data.
 
@@ -124,40 +122,129 @@ Financial data is among the most sensitive information in any organization. Corp
 - Expense analysis: "What are our fastest-growing expense categories?"
 - Budget tracking: "Compare actual spend to budget by category."
 
-### FAQ
+### FAQ: Common Questions
 
-**Q: Does CorpusIQ support QuickBooks Online, QuickBooks Desktop, or both?**
-A: The integration supports QuickBooks Online. QuickBooks Desktop is not currently supported due to API access limitations.
+<details>
+<summary><strong>Does CorpusIQ support QuickBooks Online, QuickBooks Desktop, or both?</strong></summary>
 
-**Q: Can Claude create invoices or journal entries?**
-A: No. The integration is strictly read-only. Claude can analyze and report on financial data but cannot create, modify, or delete anything in QuickBooks.
+The integration supports QuickBooks Online. QuickBooks Desktop is not currently supported due to API access limitations.
+</details>
 
-**Q: How current is the data?**
-A: Real-time. Every Claude query triggers a live API call to QuickBooks. You see the most current data available in your QuickBooks company file.
+<details>
+<summary><strong>Can Claude create invoices or journal entries?</strong></summary>
 
-**Q: Does this work with multi-currency QuickBooks accounts?**
-A: Yes. QuickBooks API returns data in the currency it was recorded in. Claude can present multi-currency data and note exchange rate considerations.
+No. The integration is strictly read-only. Claude can analyze and report on financial data but cannot create, modify, or delete anything in QuickBooks.
+</details>
 
-**Q: Can I restrict which parts of QuickBooks Claude can access?**
-A: OAuth scopes are configured during connection. You can choose to grant only specific data access during authorization.
+<details>
+<summary><strong>How current is the data?</strong></summary>
 
-**Q: Is this suitable for publicly traded companies with SOX requirements?**
-A: CorpusIQ is SOC 2 compliant, and the read-only architecture means no transactions can be modified. However, companies with specific SOX controls should evaluate the integration within their compliance framework.
+Real-time. Every Claude query triggers a live API call to QuickBooks. You see the most current data available in your QuickBooks company file.
+</details>
 
-**Q: Can I connect multiple QuickBooks companies?**
-A: Yes. CorpusIQ supports multiple QuickBooks company connections, each with independent OAuth tokens and permissions.
+<details>
+<summary><strong>Does this work with multi-currency QuickBooks accounts?</strong></summary>
 
-### Internal Links
+Yes. QuickBooks API returns data in the currency it was recorded in. Claude can present multi-currency data and note exchange rate considerations.
+</details>
 
-- [Connect Shopify to Claude](/docs/connect-shopify-to-claude/) — E-commerce data in Claude.
-- [Connect Stripe to Claude](/docs/connect-stripe-to-claude/) — Payment processing data in Claude.
-- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude/) — CRM data in Claude.
-- [AI for Financial Analysis](/docs/ai-for-financial-analysis/) — How AI transforms financial workflows.
-- [AI for Executive Reporting](/docs/ai-for-executive-reporting/) — AI-powered board and investor reporting.
-- [AI for Compliance](/docs/ai-for-compliance/) — Financial compliance use cases.
-- [What is MCP?](/docs/what-is-mcp/) — Understanding the Model Context Protocol.
-- [CorpusIQ Security](/docs/security/) — Enterprise security architecture.
+<details>
+<summary><strong>Can I restrict which parts of QuickBooks Claude can access?</strong></summary>
+
+OAuth scopes are configured during connection. You can choose to grant only specific data access during authorization.
+</details>
+
+<details>
+<summary><strong>Is this suitable for publicly traded companies with SOX requirements?</strong></summary>
+
+CorpusIQ is SOC 2 compliant, and the read-only architecture means no transactions can be modified. However, companies with specific SOX controls should evaluate the integration within their compliance framework.
+</details>
+
+<details>
+<summary><strong>Can I connect multiple QuickBooks companies?</strong></summary>
+
+Yes. CorpusIQ supports multiple QuickBooks company connections, each with independent OAuth tokens and permissions.
+</details>
+
 
 ---
 
 **Next steps:** [Connect QuickBooks to Claude now →](https://app.corpusiq.com/connect/quickbooks) or [view all integrations](/integrations/).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "headline": "",
+  "author": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "datePublished": "2026-06-16",
+  "dateModified": "2026-06-16",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does CorpusIQ support QuickBooks Online, QuickBooks Desktop, or both?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The integration supports QuickBooks Online. QuickBooks Desktop is not currently supported due to API access limitations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Claude create invoices or journal entries?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The integration is strictly read-only. Claude can analyze and report on financial data but cannot create, modify, or delete anything in QuickBooks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How current is the data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Real-time. Every Claude query triggers a live API call to QuickBooks. You see the most current data available in your QuickBooks company file."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this work with multi-currency QuickBooks accounts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. QuickBooks API returns data in the currency it was recorded in. Claude can present multi-currency data and note exchange rate considerations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I restrict which parts of QuickBooks Claude can access?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "OAuth scopes are configured during connection. You can choose to grant only specific data access during authorization."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this suitable for publicly traded companies with SOX requirements?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ is SOC 2 compliant, and the read-only architecture means no transactions can be modified. However, companies with specific SOX controls should evaluate the integration within their compliance framework."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I connect multiple QuickBooks companies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CorpusIQ supports multiple QuickBooks company connections, each with independent OAuth tokens and permissions."
+      }
+    }
+  ]
+}
+</script>

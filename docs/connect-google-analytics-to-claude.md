@@ -1,16 +1,14 @@
 ---
-title: "Connect Google Analytics to Claude via MCP — Real-Time Web Analytics in AI"
-meta_title: "Connect Google Analytics to Claude | CorpusIQ MCP for GA4 Integration"
-meta_description: "Connect Google Analytics (GA4) to Claude using CorpusIQ's MCP platform. Query traffic, conversions, user behavior, and e-commerce metrics in natural language. Read-only OAuth, no-code setup."
-url: "/docs/connect-google-analytics-to-claude/"
-h1: "Connect Google Analytics to Claude: Web Data in Natural Language"
-category: "Claude Integrations"
-last_updated: "2025-06-16"
-author: "CorpusIQ"
-canonical: "https://corpusiq.com/docs/connect-google-analytics-to-claude/"
+title: "Connect Google Analytics to Claude via MCP — Live Data, No Code | CorpusIQ"
+description: "Connect your Google Analytics account to Claude through CorpusIQ MCP. Ask natural language questions about your google analytics data and get real-time, source-cited answers — no exports, no coding required."
+category: Claude Integrations
+tags: ["connect Google Analytics to Claude", "Google Analytics Claude integration", "MCP Google Analytics connector", "Google Analytics data to Claude", "AI for Google Analytics", "CorpusIQ MCP"]
+last_updated: 2026-06-16
+canonical: https://www.corpusiq.io/docs/connect-google-analytics-to-claude
+robots: index,follow
 ---
 
-## Connect Google Analytics to Claude: Web Data in Natural Language
+# How to Connect Google Analytics to Claude with CorpusIQ MCP
 
 Google Analytics is the most widely used web analytics platform in the world — but most organizations only scratch the surface of what their GA4 data can tell them. Reports are complex, exploration tools require training, and the gap between "I have a question about our traffic" and "I have the answer" is often measured in hours or days. Connecting Google Analytics to Claude via CorpusIQ's MCP platform closes that gap to seconds.
 
@@ -91,33 +89,101 @@ The integration supports all standard GA4 dimensions and metrics: traffic source
 | Dimensional queries | Automatic — CorpusIQ selects dimensions | Manual dimension/metric selection |
 | Non-technical access | Anyone can query | Requires API or Looker Studio skills |
 
-### FAQ
+### FAQ: Common Questions
 
-**Q: Does this work with Universal Analytics (UA) or only GA4?**
-A: The integration supports Google Analytics 4 (GA4). Universal Analytics is deprecated by Google and not supported.
+<details>
+<summary><strong>Does this work with Universal Analytics (UA) or only GA4?</strong></summary>
 
-**Q: How many GA4 properties can I connect?**
-A: You can connect all GA4 properties accessible to your Google account.
+The integration supports Google Analytics 4 (GA4). Universal Analytics is deprecated by Google and not supported.
+</details>
 
-**Q: Is there any data sampling?**
-A: CorpusIQ uses the GA4 Data API which returns unsampled data for standard queries. Very large date ranges or complex queries may trigger Google's API sampling thresholds.
+<details>
+<summary><strong>How many GA4 properties can I connect?</strong></summary>
 
-**Q: Can Claude see real-time data?**
-A: Yes. CorpusIQ supports GA4's real-time reporting API for current active user counts.
+You can connect all GA4 properties accessible to your Google account.
+</details>
 
-**Q: Does this respect GA4 data filters?**
-A: Yes. The API returns data based on the property's configured reporting identity and data filters.
+<details>
+<summary><strong>Is there any data sampling?</strong></summary>
 
-### Internal Links
+CorpusIQ uses the GA4 Data API which returns unsampled data for standard queries. Very large date ranges or complex queries may trigger Google's API sampling thresholds.
+</details>
 
-- [Connect Google Ads to Claude](/docs/connect-google-ads-to-claude/) — PPC data in Claude.
-- [Connect Shopify to Claude](/docs/connect-shopify-to-claude/) — E-commerce data in Claude.
-- [Connect Stripe to Claude](/docs/connect-stripe-to-claude/) — Payments data in Claude.
-- [AI for Marketing Analytics](/docs/ai-for-marketing-analytics/) — AI-powered marketing intelligence.
-- [AI for Business Intelligence](/docs/ai-for-business-intelligence/) — BI transformation with AI.
-- [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring/) — Real-time KPI tracking.
-- [What is MCP?](/docs/what-is-mcp/) — Understanding the Model Context Protocol.
+<details>
+<summary><strong>Can Claude see real-time data?</strong></summary>
+
+Yes. CorpusIQ supports GA4's real-time reporting API for current active user counts.
+</details>
+
+<details>
+<summary><strong>Does this respect GA4 data filters?</strong></summary>
+
+Yes. The API returns data based on the property's configured reporting identity and data filters.
+</details>
+
 
 ---
 
 **Next steps:** [Connect Google Analytics to Claude now →](https://app.corpusiq.com/connect/ga4)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "headline": "",
+  "author": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "datePublished": "2026-06-16",
+  "dateModified": "2026-06-16",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does this work with Universal Analytics (UA) or only GA4?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The integration supports Google Analytics 4 (GA4). Universal Analytics is deprecated by Google and not supported."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many GA4 properties can I connect?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can connect all GA4 properties accessible to your Google account."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there any data sampling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ uses the GA4 Data API which returns unsampled data for standard queries. Very large date ranges or complex queries may trigger Google's API sampling thresholds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Claude see real-time data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CorpusIQ supports GA4's real-time reporting API for current active user counts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this respect GA4 data filters?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The API returns data based on the property's configured reporting identity and data filters."
+      }
+    }
+  ]
+}
+</script>

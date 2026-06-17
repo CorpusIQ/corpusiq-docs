@@ -1,3 +1,12 @@
+---
+meta_title: "CorpusIQ Changelog — API Updates, New Features, and Version History"
+meta_desc: "Complete CorpusIQ changelog and version history. Track API updates, new endpoints, connector additions, security improvements, and breaking changes. Follows Semantic Versioning."
+category: "Documentation"
+tags: ["corpusiq changelog", "api updates", "version history", "release notes", "new features", "breaking changes", "semantic versioning"]
+last_updated: "2026-06-16"
+canonical: "https://www.corpusiq.io/docs/changelog"
+robots: "index,follow"
+---
 # Changelog
 
 All notable changes to the CorpusIQ API are documented here. This project follows [Semantic Versioning](https://semver.org/).
@@ -75,3 +84,60 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 | **Patch (1.0.X)** | Bug fixes, performance improvements, documentation updates |
 
 CorpusIQ will provide at least 90 days' notice before deprecating any API version. Deprecated versions continue to function during the notice period with a `Deprecation` header on responses.
+
+## Frequently Asked Questions
+
+**Q: What versioning scheme does CorpusIQ use?**  
+A: CorpusIQ follows Semantic Versioning (SemVer). Major versions (X.0) indicate breaking changes, minor versions (1.X) add new features, and patch versions (1.0.X) are bug fixes and improvements.
+
+**Q: How much notice is given before API deprecation?**  
+A: CorpusIQ provides at least 90 days' notice before deprecating any API version. Deprecated versions continue to function with a Deprecation header on responses during the notice period.
+
+**Q: How many connectors does CorpusIQ currently support?**  
+A: As of the v1.0 release (March 2026), CorpusIQ supports 37+ native connectors across email, calendar, file storage, analytics, CRM, ecommerce, marketing, financial, social media, and databases.
+
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What versioning scheme does CorpusIQ use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ follows Semantic Versioning (SemVer). Major versions (X.0) indicate breaking changes, minor versions (1.X) add new features, and patch versions (1.0.X) are bug fixes and improvements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much notice is given before API deprecation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ provides at least 90 days' notice before deprecating any API version. Deprecated versions continue to function with a Deprecation header on responses during the notice period."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many connectors does CorpusIQ currently support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As of the v1.0 release (March 2026), CorpusIQ supports 37+ native connectors across email, calendar, file storage, analytics, CRM, ecommerce, marketing, financial, social media, and databases."
+      }
+    }
+  ]
+}}
+</script>
+## Internal Links
+
+- **[CorpusIQ Quick Start Guide](/docs/quick-start)** — Go from zero to first query in 5 minutes  
+- **[API Reference](/docs/api/overview)** — Full REST API documentation  
+- **[CorpusIQ Connectors](/docs/connectors)** — All 50+ supported integrations  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/docs/security)** — Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/docs/changelog)** — API updates and version history  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption and network security  
+
+---
+*Powered by CorpusIQ — the leading MCP platform for business data and AI.*

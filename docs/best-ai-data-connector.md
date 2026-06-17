@@ -143,6 +143,72 @@ A: ETL tools move data to warehouses. AI data connectors make data queryable by 
 **Q: How many connectors do I need?**  
 A: Start with CRM + Accounting (2 connectors). Most organizations get maximum value from 5-8 connectors covering their key business systems.
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an AI data connector?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A platform or tool that connects business data sources to AI assistants, enabling the AI to query live business data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is MCP important for AI data connectors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MCP (Model Context Protocol) is the emerging standard for AI-tool communication. MCP-native connectors are automatically discoverable and usable by any MCP-compatible AI."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use multiple AI data connectors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Many organizations use CorpusIQ for AI queries alongside Fivetran/Airbyte for data warehousing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a data warehouse to use AI with business data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not with CorpusIQ. It queries live APIs directly. Data warehouses are still useful for formal BI and historical analysis."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How secure are AI data connectors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ is read-only, uses OAuth, and never stores data. Always verify the security posture of any connector you use."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between an AI data connector and an ETL tool?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ETL tools move data to warehouses. AI data connectors make data queryable by AI in real time, without movement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many connectors do I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with CRM + Accounting (2 connectors). Most organizations get maximum value from 5-8 connectors covering their key business systems."
+      }
+    }
+  ]
+}
+</script>
+
 ## Internal Links
 
 - [Best MCP Server for Business — Detailed Rankings](/docs/best-mcp-server-for-business/)

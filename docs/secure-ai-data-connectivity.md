@@ -115,6 +115,71 @@ Marketing agencies connect client accounts (Google Analytics, Meta Ads, HubSpot)
 
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is secure AI data connectivity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Secure AI data connectivity is the architectural practice of connecting AI models to business data sources through encrypted, authenticated, and audited channels. It ensures AI assistants can query data without ever storing it, training on it, or exposing it to unauthorized parties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does CorpusIQ keep my data secure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ uses TLS 1.3 for all data in transit, AES-256 encryption at rest, read-only OAuth scopes on every connector, per-session ephemeral embeddings deleted immediately after each query, and HMAC-SHA256 signed webhooks. CASA Tier 2 certified by DEKRA and OWASP Top 10 verified."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the AI model see my raw data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. CorpusIQ sits between your tools and the AI assistant. It fetches data via read-only API calls, generates temporary embeddings for semantic ranking, and returns cited results. The AI model only sees the final answer with source citations — never raw data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can CorpusIQ modify my data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Every connector uses read-only OAuth scopes exclusively. CorpusIQ cannot create, modify, or delete records in any connected system. You can verify the exact scopes on the OAuth authorization screen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What encryption standards does CorpusIQ use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "TLS 1.3 with forward secrecy for all data in transit. AES-256-GCM with managed keys and 90-day key rotation for data at rest. Per-user encryption keys for the deep search archive. HMAC-SHA256 signatures verified on every webhook delivery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens to my data after a query?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Embeddings are generated in-memory for semantic ranking and deleted immediately when the session completes. No query results, derived data, or intermediate representations are persisted on CorpusIQ servers. The encrypted archive stores only vector fingerprints — not raw data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does token security work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "API tokens expire after 60 minutes with server-side refresh detection. Tokens are never embedded in client-side code. Revocation takes effect immediately across all active sessions. OAuth tokens are encrypted at rest with per-tenant keys."
+      }
+    }
+  ]
+}
+</script>
+
 ## Schema Suggestion
 
 ```json

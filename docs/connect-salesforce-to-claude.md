@@ -1,16 +1,14 @@
 ---
-title: "Connect Salesforce to Claude via MCP — Enterprise CRM Intelligence in AI"
-meta_title: "Connect Salesforce to Claude | CorpusIQ MCP Integration"
-meta_description: "Connect Salesforce to Claude using CorpusIQ's MCP platform. Query accounts, opportunities, leads, and pipeline in natural language. Read-only OAuth, enterprise-grade security, no-code setup."
-url: "/docs/connect-salesforce-to-claude/"
-h1: "Connect Salesforce to Claude: Enterprise CRM Meets AI"
-category: "Claude Integrations"
-last_updated: "2025-06-16"
-author: "CorpusIQ"
-canonical: "https://corpusiq.com/docs/connect-salesforce-to-claude/"
+title: "Connect Salesforce to Claude via MCP — Live Data, No Code | CorpusIQ"
+description: "Connect your Salesforce account to Claude through CorpusIQ MCP. Ask natural language questions about your salesforce data and get real-time, source-cited answers — no exports, no coding required."
+category: Claude Integrations
+tags: ["connect Salesforce to Claude", "Salesforce Claude integration", "MCP Salesforce connector", "Salesforce data to Claude", "AI for Salesforce", "CorpusIQ MCP"]
+last_updated: 2026-06-16
+canonical: https://www.corpusiq.io/docs/connect-salesforce-to-claude
+robots: index,follow
 ---
 
-## Connect Salesforce to Claude: Enterprise CRM Meets AI
+# How to Connect Salesforce to Claude with CorpusIQ MCP
 
 Salesforce is the backbone of enterprise sales, service, and marketing operations — but extracting insights from it often requires dedicated Salesforce admins, complex reports, or expensive BI tools. Connecting Salesforce to Claude via CorpusIQ's MCP platform democratizes access to your CRM data. Any team member can ask Claude "What's our Q3 pipeline by region?", "Show me accounts at risk of churn", or "Which opportunities have been stuck for 60+ days?" and receive accurate, real-time answers.
 
@@ -86,33 +84,101 @@ All queries are live. CorpusIQ never caches or stores your Salesforce data.
 | Cross-source | Built-in | Custom data warehouse |
 | Cost | Included in CorpusIQ | Developer + maintenance |
 
-### FAQ
+### FAQ: Common Questions
 
-**Q: Does this work with custom Salesforce objects?**
-A: CorpusIQ queries standard Salesforce REST API endpoints. Custom objects accessible via the REST API are queryable through Claude.
+<details>
+<summary><strong>Does this work with custom Salesforce objects?</strong></summary>
 
-**Q: Can Claude modify Salesforce records?**
-A: No. The integration is strictly read-only.
+CorpusIQ queries standard Salesforce REST API endpoints. Custom objects accessible via the REST API are queryable through Claude.
+</details>
 
-**Q: Does this respect Salesforce sharing rules?**
-A: Yes. The OAuth token inherits the authenticated user's permissions. Users only see records their Salesforce profile allows.
+<details>
+<summary><strong>Can Claude modify Salesforce records?</strong></summary>
 
-**Q: Can I connect multiple Salesforce orgs?**
-A: Yes — sandbox and production orgs can be connected separately.
+No. The integration is strictly read-only.
+</details>
 
-**Q: Is this suitable for regulated industries (finance, healthcare)?**
-A: CorpusIQ is SOC 2 compliant. The read-only architecture means no data can be modified. Evaluate within your specific regulatory framework.
+<details>
+<summary><strong>Does this respect Salesforce sharing rules?</strong></summary>
 
-### Internal Links
+Yes. The OAuth token inherits the authenticated user's permissions. Users only see records their Salesforce profile allows.
+</details>
 
-- [Connect HubSpot to Claude](/docs/connect-hubspot-to-claude/) — HubSpot CRM in Claude.
-- [Connect NetSuite to Claude](/docs/connect-netsuite-to-claude/) — ERP data in Claude.
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/) — Financial data in Claude.
-- [AI for Sales Reporting](/docs/ai-for-sales-reporting/) — AI-powered sales analytics.
-- [AI for Forecasting](/docs/ai-for-forecasting/) — Predictive analytics with AI.
-- [AI for Revenue Operations](/docs/ai-for-revenue-operations/) — RevOps transformation.
-- [What is MCP?](/docs/what-is-mcp/) — Understanding the Model Context Protocol.
+<details>
+<summary><strong>Can I connect multiple Salesforce orgs?</strong></summary>
+
+Yes — sandbox and production orgs can be connected separately.
+</details>
+
+<details>
+<summary><strong>Is this suitable for regulated industries (finance, healthcare)?</strong></summary>
+
+CorpusIQ is SOC 2 compliant. The read-only architecture means no data can be modified. Evaluate within your specific regulatory framework.
+</details>
+
 
 ---
 
 **Next steps:** [Connect Salesforce to Claude now →](https://app.corpusiq.com/connect/salesforce)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "headline": "",
+  "author": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "datePublished": "2026-06-16",
+  "dateModified": "2026-06-16",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does this work with custom Salesforce objects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ queries standard Salesforce REST API endpoints. Custom objects accessible via the REST API are queryable through Claude."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Claude modify Salesforce records?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The integration is strictly read-only."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this respect Salesforce sharing rules?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The OAuth token inherits the authenticated user's permissions. Users only see records their Salesforce profile allows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I connect multiple Salesforce orgs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes \u2014 sandbox and production orgs can be connected separately."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this suitable for regulated industries (finance, healthcare)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ is SOC 2 compliant. The read-only architecture means no data can be modified. Evaluate within your specific regulatory framework."
+      }
+    }
+  ]
+}
+</script>

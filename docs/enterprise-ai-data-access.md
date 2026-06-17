@@ -189,6 +189,96 @@ A: A departmental pilot can be operational in days — SSO configuration takes 1
 **Q: Can we build custom connectors for proprietary internal systems?**
 A: Yes. CorpusIQ's enterprise offering includes support for custom MCP connector development. Your internal ERP, proprietary databases, and homegrown applications can be exposed as MCP tools alongside the standard connector library.
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does CorpusIQ integrate with our existing SSO provider?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ supports SAML 2.0 and OpenID Connect, integrating with Okta, Azure AD (Entra ID), Ping Identity, OneLogin, Google Workspace, and any standards-compliant identity provider. Configuration typically takes 1\u20132 hours and maps your existing directory groups to CorpusIQ roles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does CorpusIQ store our business data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. CorpusIQ queries your data sources on demand and returns results to the AI model. Query results are held in memory and discarded immediately. There is no persistent copy of your business data \u2014 no data warehouse, no embedding store, no cache."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What compliance certifications does CorpusIQ hold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ maintains SOC 2 Type II certification and CASA Tier 2 assessment. Enterprise customers receive access to the latest audit report. Custom compliance configurations are available for organizations with specific regulatory requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you enforce that users can only access data they're authorized to see?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Through role-based access control (RBAC) mapped to your existing directory groups. Each role has specific data source permissions. OAuth connections are per-user, so each user authenticates individually and inherits their own permissions from the source platform."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can CorpusIQ write data to our business systems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ is read-only by default \u2014 enforced at the protocol, OAuth scope, connector, and AI model levels. Write operations require explicit enablement by an administrator and are only available for specific use cases (e.g., creating draft invoices in QuickBooks). Accidental data modification is a..."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is CorpusIQ infrastructure located, and can we control data residency?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ deploys in multiple geographic regions. Enterprise customers can specify which regions their query processing infrastructure runs in, ensuring data sovereignty compliance. Queries against source platforms in a specific region are processed by infrastructure in that region."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long are audit logs retained?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Audit log retention is configurable by the enterprise customer. Default retention is 12 months. Extended retention periods, real-time SIEM streaming, and custom log export schedules are available for enterprise deployments."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is this different from giving employees direct API access to our systems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Direct API access requires granting credentials that can potentially read, write, or modify data \u2014 and those credentials can be leaked, misused, or forgotten. CorpusIQ provides a read-only abstraction layer with per-user authentication, granular RBAC, full audit trails, and no persistent credenti..."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the deployment timeline for an enterprise rollout?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A departmental pilot can be operational in days \u2014 SSO configuration takes 1\u20132 hours, and data source connections take minutes each. Full enterprise deployment with governance policies, role mappings, and multi-department rollout typically takes 2\u20134 weeks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can we build custom connectors for proprietary internal systems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CorpusIQ's enterprise offering includes support for custom MCP connector development. Your internal ERP, proprietary databases, and homegrown applications can be exposed as MCP tools alongside the standard connector library."
+      }
+    }
+  ]
+}
+</script>
+
 ## Internal Links
 
 - [MCP for Enterprise: Scale, Compliance, and Multi-Department Deployment](/docs/mcp-for-enterprise)
@@ -211,13 +301,3 @@ A: Yes. CorpusIQ's enterprise offering includes support for custom MCP connector
   "datePublished": "2026-06-16"
 }
 ```
-
----
-
-**Suggested URL:** `https://www.corpusiq.io/docs/enterprise-ai-data-access`
-
-**Meta Title:** Enterprise AI Data Access: SSO, SOC 2, Audit Trails | CorpusIQ
-
-**Meta Description:** How enterprises secure AI data access: SSO/SAML, SOC 2 Type II, CASA Tier 2, data residency, read-only OAuth, immutable audit trails, zero data storage. Build vs buy comparison.
-
-**H1:** Enterprise AI Data Access: Security, Compliance, and Architecture

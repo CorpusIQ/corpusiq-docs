@@ -1,22 +1,37 @@
 ---
-title: "AI for Marketing Analytics — Real-Time Campaign Intelligence with CorpusIQ MCP"
-meta_title: "AI for Marketing Analytics | CorpusIQ MCP Platform for Marketing Teams"
-meta_description: "Transform marketing analytics with AI. Query Google Ads, Facebook Ads, GA4, Klaviyo, and more in natural language. Instant ROAS, attribution, and campaign performance analysis."
-url: "/docs/ai-for-marketing-analytics/"
-h1: "AI for Marketing Analytics: Campaign Intelligence in Real Time"
-category: "Business Use Cases"
-last_updated: "2025-06-16"
-author: "CorpusIQ"
-canonical: "https://corpusiq.com/docs/ai-for-marketing-analytics/"
+title: AI for Marketing Analytics — Real-Time Campaign Intelligence with CorpusIQ MCP
+meta_title: AI for Marketing Analytics | CorpusIQ MCP Platform for Marketing Teams
+meta_description: Transform marketing analytics with AI. Query Google Ads, Facebook Ads, GA4, Klaviyo, and more in natural language. Instant ROAS, attribution, and campaign performance analysis.
+url: /docs/ai-for-marketing-analytics/
+h1: 'AI for Marketing Analytics: Campaign Intelligence in Real Time'
+category: Business Use Cases
+last_updated: '2025-06-16'
+author: CorpusIQ
+canonical: https://corpusiq.com/docs/ai-for-marketing-analytics/
+keywords:
+- AI for marketing analytics
+- marketing analytics AI automation
+- AI-powered marketing analytics
+- marketing analytics artificial intelligence
+- how to use AI for marketing analytics
+- AI marketing analytics tools
+- MCP marketing analytics platform
+- business marketing analytics with AI
+tags:
+- ai-for-marketing-analytics
+- marketing-analytics-ai-automation
+- ai-powered-marketing-analytics
+- marketing-analytics-artificial-intelligence
+- how-to-use-ai-for-marketing-analytics
 ---
 
-## AI for Marketing Analytics: Campaign Intelligence in Real Time
+# AI for Marketing Analytics: Campaign Intelligence in Real Time
 
 Marketing teams operate in a data-rich environment — Google Ads, Facebook Ads, Google Analytics, email platforms, CRM, and more — but data richness doesn't equal data accessibility. Most marketing analysts spend 80% of their time gathering and formatting data and only 20% analyzing it. AI-powered marketing analytics through CorpusIQ's MCP platform inverts that ratio by making every marketing tool conversational.
 
 Ask Claude "What's our blended ROAS across all paid channels?", "Which ad creative is driving the highest conversion rate?", or "Show me the full customer journey from ad click to purchase" and receive answers synthesized from multiple marketing platforms — in seconds, not hours.
 
-### What AI Brings to Marketing Analytics
+## What AI Brings to Marketing Analytics
 
 **Unified Channel Performance**
 
@@ -42,7 +57,7 @@ Stop building weekly and monthly marketing reports in spreadsheets. Ask Claude "
 
 "Which audience segments are performing best across channels?", "What's our customer acquisition cost by demographic?" — AI analyzes audience-level performance data from multiple platforms.
 
-### How CorpusIQ MCP Enables AI-Powered Marketing
+## How CorpusIQ MCP Enables AI-Powered Marketing
 
 - **Ad platforms:** Google Ads, Facebook Ads, LinkedIn Ads — spend, impressions, clicks, conversions.
 - **Analytics:** GA4 — traffic, sessions, conversions, e-commerce data, user behavior.
@@ -51,7 +66,7 @@ Stop building weekly and monthly marketing reports in spreadsheets. Ask Claude "
 - **CRM:** Salesforce, HubSpot — lead tracking, pipeline attribution, revenue data.
 - **Cross-source:** True multi-channel attribution connecting spend → traffic → leads → revenue.
 
-### Example Marketing Queries
+## Example Marketing Queries
 
 **Channel Performance:**
 - "Compare ROAS across Google Ads, Facebook, and LinkedIn this quarter."
@@ -78,7 +93,7 @@ Stop building weekly and monthly marketing reports in spreadsheets. Ask Claude "
 - "What's the demographic breakdown of our converting customers?"
 - "Show me our top-performing content by traffic and conversions."
 
-### Implementation Steps
+## Implementation Steps
 
 1. **Connect marketing platforms** — ad platforms, analytics, and email first.
 2. **Connect revenue systems** — CRM and billing for true attribution.
@@ -86,14 +101,14 @@ Stop building weekly and monthly marketing reports in spreadsheets. Ask Claude "
 4. **Build report templates** — weekly and monthly marketing summaries.
 5. **Enable self-service** — campaign managers query their own performance.
 
-### ROI for Marketing Teams
+## ROI for Marketing Teams
 
 - **70-80% reduction** in time spent on recurring marketing reports.
 - **True cross-channel attribution** without a data warehouse.
 - **Faster optimization** — identify underperforming campaigns in seconds.
 - **Democratized analytics** — every marketer can query their own data.
 
-### FAQ
+## FAQ
 
 **Q: Can this replace our marketing analytics platform?**
 A: CorpusIQ complements analytics platforms by providing on-demand, cross-channel answers. For dashboards and scheduled reports, continue using your analytics platform. For ad-hoc questions and cross-channel analysis, use CorpusIQ.
@@ -104,7 +119,7 @@ A: CorpusIQ provides raw data from each platform. Claude can help you understand
 **Q: Can I analyze organic and paid search together?**
 A: Yes. Connect Google Analytics (organic data) and Google Ads (paid data) and Claude can present a unified search performance view.
 
-### Internal Links
+## Internal Links
 
 - [Connect Google Ads to Claude](/docs/connect-google-ads-to-claude/)
 - [Connect Facebook Ads to Claude](/docs/connect-facebook-ads-to-claude/)
@@ -117,3 +132,36 @@ A: Yes. Connect Google Analytics (organic data) and Google Ads (paid data) and C
 ---
 
 **Next steps:** [Transform your marketing analytics →](https://app.corpusiq.com/signup)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can this replace our marketing analytics platform?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ complements analytics platforms by providing on-demand, cross-channel answers. For dashboards and scheduled reports, continue using your analytics platform. For ad-hoc questions and cross-channel analysis, use CorpusIQ."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does attribution work across different platforms with different attribution models?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ provides raw data from each platform. Claude can help you understand the differences between platform-reported conversions and can correlate spend data with CRM pipeline and revenue data for a more unified view."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I analyze organic and paid search together?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Connect Google Analytics (organic data) and Google Ads (paid data) and Claude can present a unified search performance view."
+      }
+    }
+  ]
+}
+</script>

@@ -1,22 +1,38 @@
 ---
-title: "Connect SharePoint to Claude via MCP — Enterprise Document Intelligence in AI"
-meta_title: "Connect SharePoint to Claude | CorpusIQ MCP Integration for Microsoft 365"
-meta_description: "Connect SharePoint to Claude using CorpusIQ's MCP platform. Search documents, libraries, and enterprise content in natural language. Read-only OAuth, Microsoft 365 integration, enterprise-grade security."
-url: "/docs/connect-sharepoint-to-claude/"
-h1: "Connect SharePoint to Claude: Enterprise Documents Meet AI Intelligence"
-category: "Claude Integrations"
-last_updated: "2025-06-16"
-author: "CorpusIQ"
-canonical: "https://corpusiq.com/docs/connect-sharepoint-to-claude/"
+title: Connect SharePoint to Claude via MCP — Enterprise Document Intelligence in AI
+meta_title: Connect SharePoint to Claude | CorpusIQ MCP Integration for Microsoft 365
+meta_description: Connect SharePoint to Claude using CorpusIQ's MCP platform. Search documents, libraries, and enterprise content in natural language. Read-only OAuth, Microsoft 365 integration, enterprise-grade
+  security.
+url: /docs/connect-sharepoint-to-claude/
+h1: 'Connect SharePoint to Claude: Enterprise Documents Meet AI Intelligence'
+category: Claude Integrations
+last_updated: '2025-06-16'
+author: CorpusIQ
+canonical: https://corpusiq.com/docs/connect-sharepoint-to-claude/
+keywords:
+- connect sharepoint to Claude
+- sharepoint Claude integration
+- Claude sharepoint MCP
+- Claude AI sharepoint connector
+- how to connect sharepoint to Claude AI
+- MCP sharepoint Claude setup
+- sharepoint AI assistant integration
+- Claude business data sharepoint
+tags:
+- connect-sharepoint-to-claude
+- sharepoint-claude-integration
+- claude-sharepoint-mcp
+- claude-ai-sharepoint-connector
+- how-to-connect-sharepoint-to-claude-ai
 ---
 
-## Connect SharePoint to Claude: Enterprise Documents Meet AI Intelligence
+# Connect SharePoint to Claude: Enterprise Documents Meet AI Intelligence
 
 Microsoft SharePoint is the document management backbone for most Fortune 500 companies — hosting millions of documents, policies, reports, and presentations. But finding the right document often means navigating complex folder structures, remembering exact file names, or relying on SharePoint's limited search capabilities. Connecting SharePoint to Claude via CorpusIQ's MCP platform transforms your enterprise document library into an AI-queryable knowledge repository.
 
 Ask Claude "Find the Q3 financial close presentation", "What does our data retention policy say about customer PII?", or "Show me all documents related to the [Project Name] initiative" and Claude will search your SharePoint libraries, read relevant documents, and synthesize answers — all in seconds.
 
-### Why Connect SharePoint to Claude?
+## Why Connect SharePoint to Claude?
 
 SharePoint stores your organization's most important documents, but accessing the knowledge inside those documents is hard. Claude reads the content, not just the file names, and delivers answers rather than search results.
 
@@ -29,7 +45,7 @@ SharePoint stores your organization's most important documents, but accessing th
 - **Meeting preparation.** Before a client meeting, ask Claude to find and summarize all relevant documents stored in SharePoint.
 - **Read-only Microsoft Graph integration.** Claude can search and read but can never modify, delete, or upload documents.
 
-### How It Works
+## How It Works
 
 1. **Connect Microsoft 365** via OAuth 2.0. CorpusIQ requests read-only access to SharePoint sites and files via Microsoft Graph.
 2. **Ask Claude** any question about your enterprise documents.
@@ -38,7 +54,7 @@ SharePoint stores your organization's most important documents, but accessing th
 
 Claude accesses documents that the authenticated user has permission to view. SharePoint permissions are fully respected.
 
-### Setup Steps
+## Setup Steps
 
 1. Navigate to **Connectors** in CorpusIQ.
 2. Select **SharePoint** (under Microsoft 365 integrations).
@@ -48,7 +64,7 @@ Claude accesses documents that the authenticated user has permission to view. Sh
 
 For organizations with Conditional Access policies, CorpusIQ supports Microsoft Entra ID (Azure AD) administrative consent workflows.
 
-### Example Claude Queries
+## Example Claude Queries
 
 **Document Finding:**
 - "Find the latest version of our employee handbook."
@@ -77,7 +93,7 @@ For organizations with Conditional Access policies, CorpusIQ supports Microsoft 
 - "What training materials do we have for new sales hires?"
 - "Show me all proposals sent to [client name]."
 
-### Enterprise Security
+## Enterprise Security
 
 SharePoint contains some of your organization's most sensitive documents. CorpusIQ's integration is built with enterprise security requirements:
 
@@ -87,7 +103,7 @@ SharePoint contains some of your organization's most sensitive documents. Corpus
 - **No document storage.** File contents are never persisted on CorpusIQ servers. Every query streams content directly from SharePoint.
 - **Audit logging.** All queries are logged in CorpusIQ for compliance visibility.
 
-### Enterprise Deployment Considerations
+## Enterprise Deployment Considerations
 
 For large organizations deploying SharePoint integration across teams:
 
@@ -96,7 +112,7 @@ For large organizations deploying SharePoint integration across teams:
 - **Sensitivity label awareness.** Documents with Microsoft Information Protection sensitivity labels retain their classification metadata.
 - **Compliance with data residency.** All data processing respects your Microsoft 365 data residency configuration.
 
-### Comparison: MCP vs. SharePoint API Direct
+## Comparison: MCP vs. SharePoint API Direct
 
 | Aspect | CorpusIQ MCP | SharePoint API Direct |
 |---|---|---|
@@ -107,7 +123,7 @@ For large organizations deploying SharePoint integration across teams:
 | Non-technical access | Any employee | Developers and SharePoint admins |
 | Permission model | Inherits user's SharePoint permissions | Must build custom auth layer |
 
-### FAQ
+## FAQ
 
 **Q: What file types can Claude read from SharePoint?**
 A: Claude can read Word documents (docx), PowerPoint (pptx), Excel (xlsx), PDFs, and text files stored in SharePoint document libraries.
@@ -127,7 +143,7 @@ A: Yes. Files shared in Microsoft Teams channels are stored in SharePoint and ar
 **Q: What about documents protected by Azure Information Protection?**
 A: Documents with sensitivity labels are accessible, and label metadata is preserved. Claude cannot bypass encryption or rights management protections.
 
-### Internal Links
+## Internal Links
 
 - [Connect Notion to Claude](/docs/connect-notion-to-claude/) — Knowledge management in Claude.
 - [Connect Slack to Claude](/docs/connect-slack-to-claude/) — Team communication in Claude.
@@ -140,3 +156,60 @@ A: Documents with sensitivity labels are accessible, and label metadata is prese
 ---
 
 **Next steps:** [Connect SharePoint to Claude now →](https://app.corpusiq.com/connect/sharepoint)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What file types can Claude read from SharePoint?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Claude can read Word documents (docx), PowerPoint (pptx), Excel (xlsx), PDFs, and text files stored in SharePoint document libraries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Claude access SharePoint Online and on-premises SharePoint?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The integration supports SharePoint Online through Microsoft Graph. On-premises SharePoint is not currently supported."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does this work with large document libraries (millions of files)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ uses Microsoft Graph search APIs to efficiently find relevant documents. Claude processes only the most relevant results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I restrict which SharePoint sites Claude can access?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Configure site collection scope during OAuth authorization or through Microsoft Entra admin consent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this work with Teams-shared files?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Files shared in Microsoft Teams channels are stored in SharePoint and are accessible through the same integration."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about documents protected by Azure Information Protection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Documents with sensitivity labels are accessible, and label metadata is preserved. Claude cannot bypass encryption or rights management protections."
+      }
+    }
+  ]
+}
+</script>

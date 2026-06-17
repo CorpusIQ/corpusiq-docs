@@ -145,6 +145,96 @@ A: Most queries return in 1-5 seconds. Cross-source queries may take slightly lo
 **Q: Is there a limit on how many questions I can ask?**  
 A: CorpusIQ pricing is per-seat, not per-query. Ask as many questions as you need.
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is my data secure when connecting to ChatGPT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ never stores your data. Queries run against live APIs with read-only access. You control which data sources are connected and can revoke access at any time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need ChatGPT Plus or Enterprise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MCP support is available on ChatGPT Plus, Team, and Enterprise plans. The free tier of ChatGPT has limited MCP capabilities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if ChatGPT misunderstands my question?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can refine your question \u2014 just like any conversation. Be specific about what data you want and which source to query."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many data sources can I connect?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ supports 50+ connectors, and you can connect as many as you need. Multi-source queries work seamlessly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can other team members use the same connection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each team member should create their own CorpusIQ account and connect their own data sources. This ensures proper permission inheritance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this work with custom databases?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CorpusIQ supports PostgreSQL, MSSQL, MongoDB, and Azure Cosmos DB connections."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if my data source isn't supported?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ adds new connectors regularly. You can request new connectors through the dashboard."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I write data back to my sources through ChatGPT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, CorpusIQ connectors are read-only. Write capabilities are on the roadmap for select sources."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How fast are the responses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most queries return in 1-5 seconds. Cross-source queries may take slightly longer depending on the number of API calls required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a limit on how many questions I can ask?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ pricing is per-seat, not per-query. Ask as many questions as you need."
+      }
+    }
+  ]
+}
+</script>
+
 ## Internal Links
 
 - [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai/)

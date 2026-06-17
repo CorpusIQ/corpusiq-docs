@@ -1,22 +1,38 @@
 ---
-title: "AI for Document Search — Intelligent Enterprise Search with CorpusIQ MCP"
-meta_title: "AI for Document Search | CorpusIQ MCP Platform for Enterprise Search"
-meta_description: "Transform document search with AI. Find information across SharePoint, Google Drive, OneDrive, and Notion in natural language. Read document contents, not just file names. Enterprise-grade security."
-url: "/docs/ai-for-document-search/"
-h1: "AI for Document Search: Find Answers, Not Just Files"
-category: "Business Use Cases"
-last_updated: "2025-06-16"
-author: "CorpusIQ"
-canonical: "https://corpusiq.com/docs/ai-for-document-search/"
+title: AI for Document Search — Intelligent Enterprise Search with CorpusIQ MCP
+meta_title: AI for Document Search | CorpusIQ MCP Platform for Enterprise Search
+meta_description: Transform document search with AI. Find information across SharePoint, Google Drive, OneDrive, and Notion in natural language. Read document contents, not just file names. Enterprise-grade
+  security.
+url: /docs/ai-for-document-search/
+h1: 'AI for Document Search: Find Answers, Not Just Files'
+category: Business Use Cases
+last_updated: '2025-06-16'
+author: CorpusIQ
+canonical: https://corpusiq.com/docs/ai-for-document-search/
+keywords:
+- AI for document search
+- document search AI automation
+- AI-powered document search
+- document search artificial intelligence
+- how to use AI for document search
+- AI document search tools
+- MCP document search platform
+- business document search with AI
+tags:
+- ai-for-document-search
+- document-search-ai-automation
+- ai-powered-document-search
+- document-search-artificial-intelligence
+- how-to-use-ai-for-document-search
 ---
 
-## AI for Document Search: Find Answers, Not Just Files
+# AI for Document Search: Find Answers, Not Just Files
 
 Enterprise document search is broken. Employees spend an estimated 20% of their time searching for information — navigating folder structures in SharePoint, guessing file names in Google Drive, scrolling through Notion pages. When they do find a document, they still have to read it to extract the answer they actually need. AI-powered document search through CorpusIQ's MCP platform changes the paradigm: instead of searching for files, employees search for answers.
 
 Ask Claude "What's our remote work policy for international employees?", "Find the Q3 financial forecast and summarize the key assumptions", or "Show me all documents related to the [Project Name] initiative" and Claude will search across your document repositories, read the relevant files, and deliver the answer — not just a list of filenames.
 
-### What AI Brings to Document Search
+## What AI Brings to Document Search
 
 **Content-Level Search, Not Metadata**
 
@@ -38,7 +54,7 @@ The killer feature is answer extraction. Instead of "Here are 14 documents that 
 
 "What's our expense reimbursement policy for international travel?" Instead of searching through a 40-page policy document, AI reads the document and extracts the specific answer. This is transformative for HR, legal, compliance, and operations teams.
 
-### How CorpusIQ MCP Enables AI Document Search
+## How CorpusIQ MCP Enables AI Document Search
 
 - **SharePoint:** Enterprise document libraries — read document contents, not just metadata.
 - **Google Drive:** Documents, spreadsheets, presentations, PDFs — full content search.
@@ -46,7 +62,7 @@ The killer feature is answer extraction. Instead of "Here are 14 documents that 
 - **Dropbox:** Cloud storage with full document content reading.
 - **Notion:** Pages and databases with semantic search capabilities.
 
-### Example Document Search Queries
+## Example Document Search Queries
 
 **Policy & Procedure:**
 - "What's our PTO policy for new hires?"
@@ -77,7 +93,7 @@ The killer feature is answer extraction. Instead of "Here are 14 documents that 
 - "Find all market research reports from the last year."
 - "What trends did our customer survey reveal?"
 
-### Implementation Steps
+## Implementation Steps
 
 1. **Connect document repositories** to CorpusIQ — SharePoint, Google Drive, OneDrive, Notion, Dropbox.
 2. **Grant appropriate read permissions** — CorpusIQ respects existing access controls.
@@ -85,14 +101,14 @@ The killer feature is answer extraction. Instead of "Here are 14 documents that 
 4. **Build query templates** for common document search needs by department.
 5. **Integrate into workflows** — HR policy lookups, legal contract search, project document retrieval.
 
-### ROI
+## ROI
 
 - **50-70% reduction** in time spent searching for documents.
 - **Higher information accuracy** — AI reads the actual content, reducing misinterpretation.
 - **Faster employee onboarding** — new hires self-serve policy and process questions.
 - **Reduced internal support tickets** — employees find their own answers.
 
-### FAQ
+## FAQ
 
 **Q: Does AI respect document permissions?**
 A: Yes. AI can only access documents that the authenticated user has permission to view. SharePoint, Google Drive, and OneDrive permissions are fully respected.
@@ -109,7 +125,7 @@ A: AI can search OCR'd text in PDFs. Purely image-based content without embedded
 **Q: Is document content stored by CorpusIQ?**
 A: No. Document content is streamed directly from the source system for each query and never persisted.
 
-### Internal Links
+## Internal Links
 
 - [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude/)
 - [Connect Notion to Claude](/docs/connect-notion-to-claude/)
@@ -122,3 +138,52 @@ A: No. Document content is streamed directly from the source system for each que
 ---
 
 **Next steps:** [Start AI-powered document search →](https://app.corpusiq.com/signup)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does AI respect document permissions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. AI can only access documents that the authenticated user has permission to view. SharePoint, Google Drive, and OneDrive permissions are fully respected."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What file types can AI read?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Word (docx), PowerPoint (pptx), Excel (xlsx), PDF, Google Docs/Sheets/Slides, plain text, and Notion pages. Some advanced formatting may be simplified in the extracted text."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does this handle large document libraries?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ uses native search APIs (Microsoft Graph, Google Drive API) for efficient retrieval. AI processes only the most relevant documents for each query."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can AI search scanned documents or images?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI can search OCR'd text in PDFs. Purely image-based content without embedded text is not searchable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is document content stored by CorpusIQ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Document content is streamed directly from the source system for each query and never persisted."
+      }
+    }
+  ]
+}
+</script>

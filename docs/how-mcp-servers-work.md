@@ -1,16 +1,16 @@
 ---
-title: "How MCP Servers Work: Technical Deep Dive into Transport, Tools, and Authentication | CorpusIQ"
-description: "A technical deep dive into how MCP servers operate: transport layers, tool discovery, resource management, prompt templates, authentication flows, and the JSON-RPC protocol that powers AI-to-data connections."
+title: "How MCP Servers Work: Technical Deep Dive into Transport, Tools & Auth | CorpusIQ"
+description: "Technical deep dive into how MCP servers operate: transport layers (stdio vs HTTP), JSON-RPC protocol, tool discovery, resource management, and OAuth authentication flows for AI-to-business-data connections."
 category: MCP Education
-tags: [MCP Server, Model Context Protocol, JSON-RPC, Transport Layer, AI Architecture, Tool Discovery]
+tags: ["how MCP servers work", "MCP server architecture", "JSON-RPC AI protocol", "MCP tool discovery", "MCP transport layer", "AI data connector architecture"]
 last_updated: 2026-06-16
 canonical: https://www.corpusiq.io/docs/how-mcp-servers-work
 robots: index,follow
 ---
 
-# How MCP Servers Work: A Technical Deep Dive
+# How Do MCP Servers Work? Technical Architecture & Protocol Deep Dive
 
-Understanding the internals of an MCP server reveals why this architecture represents such a significant leap over traditional API integrations. This guide walks through every layer of the MCP stack — from the transport mechanism that moves bytes between client and server, to the tool discovery system that lets AI models navigate data sources they've never seen before, to the authentication model that keeps business data secure.
+MCP servers work through a layered architecture that separates transport, messaging, tool discovery, and application logic — each layer solving a specific piece of the AI-to-data puzzle. This technical guide walks through every component of an **MCP server**: from the stdio and HTTP transport mechanisms that move bytes between client and server, to the JSON-RPC 2.0 message format, to the tool discovery system that lets AI models navigate data sources they have never seen before.
 
 ## The MCP Protocol Stack
 
@@ -239,69 +239,149 @@ CorpusIQ's performance optimizations:
 
 **Intelligent caching of metadata.** API schemas, tool definitions, and other metadata that changes infrequently are cached to avoid redundant API calls.
 
-## Frequently Asked Questions
+## FAQ: Common Questions
 
-**Q: Can I build my own MCP server?**
-A: Yes. MCP is an open protocol with SDKs available in Python, TypeScript, and other languages. The protocol specification is publicly documented. Building a custom MCP server lets you expose proprietary systems to any MCP-compatible AI client.
+<details>
+<summary><strong>Can I build my own MCP server?</strong></summary>
 
-**Q: How does MCP handle errors?**
-A: MCP uses standard JSON-RPC error codes. Tool execution errors return structured error objects with machine-readable codes and human-readable messages. The AI model can interpret these errors and adjust its approach — for example, retrying with different parameters or asking the user for clarification.
+Yes. MCP is an open protocol with SDKs available in Python, TypeScript, and other languages. The protocol specification is publicly documented. Building a custom MCP server lets you expose proprietary systems to any MCP-compatible AI client.
+</details>
 
-**Q: What happens if a data source is unavailable?**
-A: The MCP server returns an error to the client, which the AI model can communicate to the user in natural language. CorpusIQ includes timeout handling and retry logic for transient failures.
+<details>
+<summary><strong>How does MCP handle errors?</strong></summary>
 
-**Q: How are rate limits handled?**
-A: CorpusIQ's MCP server tracks rate limits for each connected platform and implements backpressure. If a query would exceed rate limits, the server throttles requests and communicates the delay to the client.
+MCP uses standard JSON-RPC error codes. Tool execution errors return structured error objects with machine-readable codes and human-readable messages. The AI model can interpret these errors and adjust its approach — for example, retrying with different parameters or asking the user for clarification.
+</details>
 
-**Q: Can MCP servers stream partial results?**
-A: Yes. Through the HTTP+SSE transport, servers can stream partial results as they become available. This is particularly useful for large reports or long-running queries.
+<details>
+<summary><strong>What happens if a data source is unavailable?</strong></summary>
 
-**Q: Is MCP suitable for real-time applications?**
-A: MCP queries execute against live data and typically return in seconds. While not suitable for sub-second latency requirements (like trading systems), it's more than fast enough for business intelligence, reporting, and operational queries.
+The MCP server returns an error to the client, which the AI model can communicate to the user in natural language. CorpusIQ includes timeout handling and retry logic for transient failures.
+</details>
 
-**Q: How does MCP compare to GraphQL?**
-A: GraphQL is a query language for APIs — you write queries to request specific fields. MCP is a protocol for AI agents to discover and use tools. They solve different problems. MCP could use GraphQL as the underlying transport for some data sources.
+<details>
+<summary><strong>How are rate limits handled?</strong></summary>
 
-**Q: Does MCP support webhooks or event-driven patterns?**
-A: The base MCP protocol is request-response oriented. However, the HTTP+SSE transport supports server-initiated notifications, which could be used for event-driven patterns. This area of the protocol is actively evolving.
+CorpusIQ's MCP server tracks rate limits for each connected platform and implements backpressure. If a query would exceed rate limits, the server throttles requests and communicates the delay to the client.
+</details>
+
+<details>
+<summary><strong>Can MCP servers stream partial results?</strong></summary>
+
+Yes. Through the HTTP+SSE transport, servers can stream partial results as they become available. This is particularly useful for large reports or long-running queries.
+</details>
+
+<details>
+<summary><strong>Is MCP suitable for real-time applications?</strong></summary>
+
+MCP queries execute against live data and typically return in seconds. While not suitable for sub-second latency requirements (like trading systems), it's more than fast enough for business intelligence, reporting, and operational queries.
+</details>
+
+<details>
+<summary><strong>How does MCP compare to GraphQL?</strong></summary>
+
+GraphQL is a query language for APIs — you write queries to request specific fields. MCP is a protocol for AI agents to discover and use tools. They solve different problems. MCP could use GraphQL as the underlying transport for some data sources.
+</details>
+
+<details>
+<summary><strong>Does MCP support webhooks or event-driven patterns?</strong></summary>
+
+The base MCP protocol is request-response oriented. However, the HTTP+SSE transport supports server-initiated notifications, which could be used for event-driven patterns. This area of the protocol is actively evolving.
+</details>
+
 
 ## Internal Links
 
-- [What Is an MCP Server? Complete Introduction](/docs/what-is-an-mcp-server)
-- [MCP vs Zapier: Real-Time vs Polling](/docs/mcp-vs-zapier)
-- [MCP vs API Integrations: AI-Native Interface](/docs/mcp-vs-api-integrations)
-- [MCP Security Best Practices](/docs/mcp-security-best-practices)
-- [Benefits of MCP for Business](/docs/benefits-of-mcp-for-business)
-- [MCP for Enterprise: Scale and Compliance](/docs/mcp-for-enterprise)
-- [MCP for Operations: Workflow Automation](/docs/mcp-for-operations)
+- [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
+- [Compare MCP vs Zapier for real-time business automation](/docs/mcp-vs-zapier)
+- [Compare MCP vs custom API integrations](/docs/mcp-vs-api-integrations)
+- [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
+- [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
+- [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
+- [Explore MCP for business operations automation](/docs/mcp-for-operations)
 
-## Schema Markup Suggestions
-
-```json
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "headline": "How MCP Servers Work: Technical Deep Dive into Transport, Tools, and Authentication",
-  "description": "A technical deep dive into how MCP servers operate: transport layers, tool discovery, resource management, prompt templates, and authentication flows.",
+  "@type": "FAQPage",
+  "headline": "How Do MCP Servers Work? Technical Architecture & Protocol Deep Dive",
   "author": {
     "@type": "Organization",
-    "name": "CorpusIQ"
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CorpusIQ",
+    "url": "https://www.corpusiq.io"
   },
   "datePublished": "2026-06-16",
-  "proficiencyLevel": "Intermediate",
-  "about": {
-    "@type": "Thing",
-    "name": "Model Context Protocol"
-  }
+  "dateModified": "2026-06-16",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I build my own MCP server?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. MCP is an open protocol with SDKs available in Python, TypeScript, and other languages. The protocol specification is publicly documented. Building a custom MCP server lets you expose proprietary systems to any MCP-compatible AI client."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does MCP handle errors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MCP uses standard JSON-RPC error codes. Tool execution errors return structured error objects with machine-readable codes and human-readable messages. The AI model can interpret these errors and adjust its approach \u2014 for example, retrying with different parameters or asking the user for clarificatio"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if a data source is unavailable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The MCP server returns an error to the client, which the AI model can communicate to the user in natural language. CorpusIQ includes timeout handling and retry logic for transient failures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are rate limits handled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ's MCP server tracks rate limits for each connected platform and implements backpressure. If a query would exceed rate limits, the server throttles requests and communicates the delay to the client."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can MCP servers stream partial results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Through the HTTP+SSE transport, servers can stream partial results as they become available. This is particularly useful for large reports or long-running queries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is MCP suitable for real-time applications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MCP queries execute against live data and typically return in seconds. While not suitable for sub-second latency requirements (like trading systems), it's more than fast enough for business intelligence, reporting, and operational queries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does MCP compare to GraphQL?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GraphQL is a query language for APIs \u2014 you write queries to request specific fields. MCP is a protocol for AI agents to discover and use tools. They solve different problems. MCP could use GraphQL as the underlying transport for some data sources."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does MCP support webhooks or event-driven patterns?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The base MCP protocol is request-response oriented. However, the HTTP+SSE transport supports server-initiated notifications, which could be used for event-driven patterns. This area of the protocol is actively evolving."
+      }
+    }
+  ]
 }
-```
-
----
-
-**Suggested URL:** `https://www.corpusiq.io/docs/how-mcp-servers-work`
-
-**Meta Title:** How MCP Servers Work: Technical Deep Dive | CorpusIQ
-
-**Meta Description:** Technical deep dive into MCP server architecture: transport layers, JSON-RPC protocol, tool discovery, resource management, prompt templates, and authentication.
-
-**H1:** How MCP Servers Work: A Technical Deep Dive
+</script>

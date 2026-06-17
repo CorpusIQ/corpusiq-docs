@@ -1,23 +1,24 @@
 ---
-title: "QuickBooks Natural Language Queries: Ask Your Books Anything | CorpusIQ"
-description: "Query QuickBooks using natural language — no SQL, no report builder. Ask 'What's our gross margin by product line?' and get instant answers through CorpusIQ's AI-powered MCP platform."
-url: "/docs/quickbooks-natural-language-queries"
-h1: "QuickBooks Natural Language Queries: Ask Your Financial Data Anything"
-meta_title: "QuickBooks Natural Language Queries — Ask Your Books in Plain English | CorpusIQ"
-meta_description: "Query QuickBooks in plain English with CorpusIQ MCP. Ask questions like 'Which customers are past due?' or 'What drove our expense increase?' and get instant, accurate answers from your live data."
+title: 'QuickBooks Natural Language Queries: Ask Your Books Anything | CorpusIQ'
+description: Query QuickBooks using natural language — no SQL, no report builder. Ask 'What's our gross margin by product line?' and get instant answers through CorpusIQ's AI-powered MCP platform.
+url: /docs/quickbooks-natural-language-queries
+h1: 'QuickBooks Natural Language Queries: Ask Your Financial Data Anything'
+meta_title: QuickBooks Natural Language Queries — Ask Your Books in Plain English | CorpusIQ
+meta_description: Query QuickBooks in plain English with CorpusIQ MCP. Ask questions like 'Which customers are past due?' or 'What drove our expense increase?' and get instant, accurate answers from your
+  live data.
 keywords:
-  - QuickBooks natural language queries
-  - ask QuickBooks questions
-  - natural language accounting
-  - QuickBooks conversational queries
-  - plain English financial queries
-  - MCP QuickBooks natural language
-  - AI QuickBooks questions
-  - financial data querying
-last_updated: "2026-06-16"
-category: "QuickBooks"
+- QuickBooks natural language queries
+- ask QuickBooks questions
+- natural language accounting
+- QuickBooks conversational queries
+- plain English financial queries
+- MCP QuickBooks natural language
+- AI QuickBooks questions
+- financial data querying
+last_updated: '2026-06-16'
+category: QuickBooks
 cluster: 5
-canonical_url: "https://corpusiq.com/docs/quickbooks-natural-language-queries"
+canonical_url: https://corpusiq.com/docs/quickbooks-natural-language-queries
 ---
 
 # QuickBooks Natural Language Queries: Ask Your Financial Data Anything
@@ -137,6 +138,19 @@ The AI discovers your chart of accounts and custom fields dynamically. It doesn'
 ### How secure are my queries? Does the AI store my financial data?
 Queries are processed in real time. CorpusIQ does not store your QuickBooks data or query history on its servers beyond the duration of the API call. ChatGPT and Claude's data usage policies apply to the conversation itself. Enterprise customers can configure additional data retention controls.
 
+
+## Get Started with QuickBooks Natural Language Queries
+
+Ready to put AI to work on your quickbooks natural language queries data? 
+
+1. **Sign up** for a [CorpusIQ account](https://app.corpusiq.com/signup) — free plan available.
+2. **Connect your data** — OAuth 2.0 authentication takes under 60 seconds.
+3. **Start asking questions** — use ChatGPT, Claude, or any MCP-compatible AI assistant.
+4. **Scale your usage** — add team members, connect more sources, and automate recurring reports.
+
+**[Get started now →](https://app.corpusiq.com/signup)**
+
+
 ## Internal Links
 
 - [ChatGPT for QuickBooks: AI-Powered Accounting](/docs/chatgpt-for-quickbooks)
@@ -151,3 +165,92 @@ Queries are processed in real time. CorpusIQ does not store your QuickBooks data
 Natural language querying democratizes financial data. When anyone in your organization can ask questions of your QuickBooks data — not just the people who know how to run reports — financial transparency increases, decisions accelerate, and your accounting team can focus on analysis rather than data retrieval.
 
 **[Start asking your QuickBooks data questions in plain English](/get-started). Connect in 60 seconds.**
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does natural language querying differ from QuickBooks' search bar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "QuickBooks' built-in search finds transactions by name, amount, or date — it's a keyword search, not a query engine. Natural language queries interpret meaning: \"customers who spend more this year than last\" requires computation and comparison that keyword search cannot perform."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens if my question is ambiguous?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The AI will ask for clarification rather than guessing. For example, if you ask \"Show me revenue by region\" and your QuickBooks uses both \"Location\" and \"Class\" tracking, the AI will ask which dimension you mean. This prevents misinterpretation of your financial data."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I save or bookmark common queries?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Through CorpusIQ, you can save frequently used queries as templates. \"Show me the weekly sales flash report\" can be saved and re-run with a single click or scheduled for automated delivery. Templates are available on Pro and higher plans."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the most complex query the AI can handle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The AI can handle multi-step queries involving 5-10 QuickBooks tool calls. Examples include: full financial health analysis (P&L + balance sheet + cash flow + AR/AP aging + key ratios), cross-entity consolidation queries, and cohort analyses. Claude's 200K context window is especially suited for the"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use natural language queries on mobile?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. If you access ChatGPT or Claude through their mobile apps, you can query QuickBooks from your phone. \"What's today's cash balance?\" or \"Did Acme Corp's payment come in?\" — financial answers wherever you are."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the AI handle date references like \"last quarter\" or \"YTD\"?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The AI interprets relative date references using the current date as context. \"Last quarter\" resolves to the previous fiscal quarter. \"Year to date\" resolves to the current fiscal year. You can also use specific dates: \"between January 1 and March 31, 2026.\""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a limit to how many questions I can ask?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your CorpusIQ plan determines the monthly tool call allowance. Each question typically uses 1-5 tool calls depending on complexity. Most plans accommodate hundreds of queries per month. Enterprise plans have no hard limits."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I query across multiple QuickBooks companies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, on the Enterprise plan. You can ask questions like \"Compare Q2 revenue across all three of our subsidiaries\" and the AI will pull data from each company file and produce a consolidated comparison."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if my QuickBooks has custom fields or unusual account structures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The AI discovers your chart of accounts and custom fields dynamically. It doesn't rely on a predefined schema — it reads what's actually in your QuickBooks. Custom fields are exposed as filterable dimensions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How secure are my queries? Does the AI store my financial data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Queries are processed in real time. CorpusIQ does not store your QuickBooks data or query history on its servers beyond the duration of the API call. ChatGPT and Claude's data usage policies apply to the conversation itself. Enterprise customers can configure additional data retention controls."
+      }
+    }
+  ]
+}
+</script>

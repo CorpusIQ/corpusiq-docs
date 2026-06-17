@@ -172,6 +172,64 @@ A: Managed platforms like CorpusIQ provide enterprise security (OAuth, read-only
 **Q: What's the cost of MCP platforms?**  
 A: CorpusIQ: from $50/seat/month. Composio: usage-based. Community servers: free (infrastructure only). Smithery: freemium.
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is MCP and why does it matter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Model Context Protocol is the emerging standard for AI-tool communication. It lets AI assistants discover and use tools/data from any MCP-compatible server."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use multiple MCP platforms together?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Most MCP clients support multiple servers. Use CorpusIQ for business data, Mintlify for docs, and community servers for specialized tools."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is MCP replacing APIs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "MCP doesn't replace APIs \u2014 it standardizes how AI assistants discover and use them. MCP servers wrap APIs to make them AI-consumable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know which MCP platform has the connectors I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check each platform's connector directory. CorpusIQ focuses on business tools. Smithery's registry has the broadest community collection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are MCP platforms secure?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Managed platforms like CorpusIQ provide enterprise security (OAuth, read-only, SOC 2). Self-hosted and community servers have variable security postures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the cost of MCP platforms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ: from $50/seat/month. Composio: usage-based. Community servers: free (infrastructure only). Smithery: freemium."
+      }
+    }
+  ]
+}
+</script>
+
 ## Internal Links
 
 - [Best MCP Server for Business — Detailed Rankings](/docs/best-mcp-server-for-business/)

@@ -184,6 +184,64 @@ A: CorpusIQ — ROI is immediate (minutes to first business answer) vs weeks/mon
 **Q: Can small businesses use these tools?**  
 A: Yes. CorpusIQ and ChatGPT have free/low-cost tiers that work for small teams with common business tools.
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I just use ChatGPT without any other tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For general tasks \u2014 yes. For questions about YOUR business data \u2014 no. ChatGPT needs a data connection platform like CorpusIQ to access your CRM, accounting, and analytics."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the minimum set of tools a business needs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An AI assistant (ChatGPT or Claude) + a data connection platform (CorpusIQ). This covers 90% of business AI use cases."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are these tools replacing traditional BI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Partially. For ad-hoc questions, yes. For formal reporting and dashboards, traditional BI still has a role. The tools are complementary."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much should a business budget for AI tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A typical mid-market team: CorpusIQ ($50-200/seat), ChatGPT ($20-30/seat), optional BI tool ($15-70/seat). Total: $85-300/user/month."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which tool has the fastest ROI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ \u2014 ROI is immediate (minutes to first business answer) vs weeks/months for warehouse-based approaches."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can small businesses use these tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CorpusIQ and ChatGPT have free/low-cost tiers that work for small teams with common business tools."
+      }
+    }
+  ]
+}
+</script>
+
 ## Internal Links
 
 - [Best MCP Server for Business](/docs/best-mcp-server-for-business/)

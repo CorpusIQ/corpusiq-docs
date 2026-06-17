@@ -150,6 +150,64 @@ A: CorpusIQ: per-seat SaaS pricing. Glean: enterprise pricing (typically $50K+/y
 **Q: Can I try before committing?**  
 A: CorpusIQ offers a free tier. Most enterprise solutions offer trials or POCs.
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How is AI search different from regular search?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Regular search matches keywords and returns links. AI search understands natural language questions and returns answers \u2014 summarizing, comparing, and analyzing across sources."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to index all my data for AI search?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not with CorpusIQ \u2014 it queries live APIs. Indexed solutions (Glean, Elastic) require data ingestion pipelines."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can AI search handle confidential data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ inherits permissions from each source. Users only search data they're authorized to access."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many sources can AI search handle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ: 50+ sources, searched simultaneously. Indexed solutions are limited by what's been ingested."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is AI search expensive?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ: per-seat SaaS pricing. Glean: enterprise pricing (typically $50K+/year). Elastic: infrastructure costs + engineering. Pricing varies dramatically."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I try before committing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ offers a free tier. Most enterprise solutions offer trials or POCs."
+      }
+    }
+  ]
+}
+</script>
+
 ## Internal Links
 
 - [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai/)

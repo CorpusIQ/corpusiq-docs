@@ -174,6 +174,80 @@ A: For question-answering — yes. For browseable, curated content — you may s
 **Q: How long until this is useful?**  
 A: Connect your first 3-5 sources (30 minutes). Start asking questions immediately. Value increases with each additional source connected.
 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How is this different from a company wiki?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A wiki requires manual content creation and maintenance. CorpusIQ queries your existing tools \u2014 no migration, no extra work to keep things updated."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to move all my documents to one place?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. That's the key advantage. Connect your existing tools \u2014 Google Drive, Notion, HubSpot, Slack \u2014 and the AI queries them all."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if information conflicts across sources?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The AI will present information from multiple sources and note discrepancies. Establish a single source of truth for critical information."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I control who can access what knowledge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CorpusIQ inherits permissions from each connected source. HR documents in a restricted Drive folder won't be accessible to unauthorized users."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What about verbal/tribal knowledge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The AI can search Slack conversations and email threads where tribal knowledge is discussed. But truly undocumented knowledge still needs to be captured somewhere."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I handle sensitive company information?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ is read-only and never stores data. Sensitive information remains in its source system with existing access controls."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can this replace our intranet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For question-answering \u2014 yes. For browseable, curated content \u2014 you may still want a lightweight intranet. They serve different consumption modes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long until this is useful?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Connect your first 3-5 sources (30 minutes). Start asking questions immediately. Value increases with each additional source connected."
+      }
+    }
+  ]
+}
+</script>
+
 ## Internal Links
 
 - [How to Build an AI Knowledge Base](/docs/how-to-build-an-ai-knowledge-base/)
