@@ -187,3 +187,11 @@ A: No. Document content is streamed directly from the source system for each que
   ]
 }
 </script>
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

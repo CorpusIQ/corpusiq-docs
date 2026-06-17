@@ -85,3 +85,11 @@ Honcho is not free. Each `chat` call invokes a model inside Honcho's substrate, 
 ## Related
 
 - [scheduled-jobs](../scheduled-jobs/) — cron jobs that need cross-session memory often want Honcho rather than ad-hoc state files
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

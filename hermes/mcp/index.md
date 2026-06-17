@@ -354,3 +354,11 @@ MCP servers run as subprocesses managed by Hermes. Each server:
 ---
 
 *Next: [Production Cron Reference](/hermes/governance/scheduling/) · [Skills Marketplace](/hermes/skills/) · [Memory Architecture](/hermes/knowledge/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

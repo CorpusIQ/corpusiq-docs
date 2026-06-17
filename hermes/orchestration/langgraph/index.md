@@ -412,3 +412,11 @@ workflow = graph.compile(debug=True)  # Prints every state transition
 ---
 
 *Next: [Reflexion Patterns](/hermes/orchestration/reflexion/) · [CrewAI Integration](/hermes/orchestration/crewai/) · [Architecture](/hermes/architecture/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -103,3 +103,11 @@ activity.
 **Connectors used:** HubSpot, Email, Calendar.
 **Behind the scenes:** Pipeline + engagement join.
 **Sample answer shape:** Contact list ranked by touchpoint count.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

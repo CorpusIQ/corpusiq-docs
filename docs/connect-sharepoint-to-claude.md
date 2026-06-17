@@ -213,3 +213,11 @@ A: Documents with sensitivity labels are accessible, and label metadata is prese
   ]
 }
 </script>
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

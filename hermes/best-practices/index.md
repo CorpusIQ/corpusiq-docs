@@ -168,3 +168,11 @@ Start where you are, automate what hurts most, and share what you learn. The res
   ]
 }
 </script>
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

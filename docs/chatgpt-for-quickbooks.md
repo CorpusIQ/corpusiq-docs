@@ -226,3 +226,11 @@ CorpusIQ is the only MCP platform purpose-built for business data integration. U
   ]
 }
 </script>
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

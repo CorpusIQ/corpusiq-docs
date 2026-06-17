@@ -188,3 +188,11 @@ Yes. The **literature review skill** sweeps academic databases (arXiv, Semantic 
 - [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
 - [Ahrefs Connector — SEO & Backlink Data](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

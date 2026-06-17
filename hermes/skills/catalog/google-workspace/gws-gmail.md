@@ -41,3 +41,11 @@ Auto-registers as agent tools. Use in prompts: "Check my inbox for unread messag
 - OAuth tokens expire after 1 hour. Use refresh token flow for persistent access.
 - Large attachments require base64 decoding.
 - Gmail API quotas: 250 quota units per user per second for reads.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

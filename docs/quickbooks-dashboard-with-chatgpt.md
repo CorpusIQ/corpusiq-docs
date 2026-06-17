@@ -287,3 +287,11 @@ A ChatGPT-powered QuickBooks dashboard is the fastest path to financial visibili
   ]
 }
 </script>
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -103,3 +103,11 @@ If you can do GCP-console work but not Supabase-admin work, the boundary matters
 
 - [consultant-connector-audit §14](../consultant-connector-audit/) — when a consultant pushes auth/billing/security code, the same audit discipline applies even though "connector" is in the name
 - [mcp-architecture](../mcp-architecture/) — the consumer side of the JWT contract this API issues
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

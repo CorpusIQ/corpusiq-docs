@@ -217,3 +217,11 @@ Hermes can monitor showing requests from calendar systems, email, and showing se
 - [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md) — Pipeline management and deal tracking
 - [Hermes Agent for Professional Services](../case-studies/professional-services.md) — Client onboarding and status reporting
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

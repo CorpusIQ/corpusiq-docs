@@ -163,3 +163,11 @@ The substantive pitfalls from the source skill — each one earned the hard way 
 - Customer reports a tool returns the wrong shape — but your tests are green
 
 If you're just running existing tools, you don't need this skill loaded.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

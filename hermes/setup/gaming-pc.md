@@ -193,3 +193,11 @@ Any RTX 30-series or newer works well. The RTX 4090 (24GB VRAM) is ideal for run
   ]
 }
 </script>
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

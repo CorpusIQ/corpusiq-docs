@@ -188,3 +188,11 @@ Every Friday, the agent scans for **idle load balancers, oversized instances, un
 - [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
 - [Database Connectors — PostgreSQL, MSSQL, MongoDB](/hermes/mcp/servers/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

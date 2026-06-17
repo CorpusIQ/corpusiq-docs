@@ -134,3 +134,11 @@ You don't want it when:
 
 - [consultant-connector-audit §9.6](../consultant-connector-audit/#96-parallel-code-path-trap-refactor-missed-sibling) — the dual-render-path trap the registry's renderer is vulnerable to
 - [mcp-architecture](../mcp-architecture/) — the substrate the registry assumes you have
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

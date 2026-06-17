@@ -114,3 +114,11 @@ what was actually charged.
 **Behind the scenes:** P&L pulled across the window.
 **Sample answer shape:** Monthly revenue figures with trend
 characterization.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

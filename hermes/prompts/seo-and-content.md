@@ -109,3 +109,11 @@ subscribers, watch time, top videos.
 **Behind the scenes:** `inspect_search_console_url`.
 **Sample answer shape:** Index status, coverage state, mobile usability,
 last-crawl info.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

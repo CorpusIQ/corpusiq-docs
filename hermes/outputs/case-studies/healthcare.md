@@ -215,3 +215,11 @@ Hermes can draft patient communications for staff review but should not send dir
 - [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security architecture and HIPAA compliance at scale
 - [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Patient inquiry triage and SLA management
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

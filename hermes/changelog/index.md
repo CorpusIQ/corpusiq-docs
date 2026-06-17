@@ -27,3 +27,11 @@ When a new release is detected, a changelog page is drafted, committed to `Corpu
 ---
 
 *← [Home](/hermes/) | [Architecture](/hermes/architecture/) →*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

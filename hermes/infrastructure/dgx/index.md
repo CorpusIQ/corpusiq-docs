@@ -37,3 +37,11 @@ Persistent knowledge layer: 729 indexed files, pglite database, nomic-embed-text
 - Data privacy — sensitive operations never leave the machine
 - Sub-100ms latency for local models
 - Silent 24/7 operation in workspace environment
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -205,3 +205,11 @@ The dashboard is now a complete browser-based administration surface:
 **Full Changelog:** [v2026.5.29.2...v2026.6.5](https://github.com/NousResearch/hermes-agent/compare/v2026.5.29.2...v2026.6.5)
 
 *← [Changelog Index](/hermes/changelog/) | [Home](/hermes/) →*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

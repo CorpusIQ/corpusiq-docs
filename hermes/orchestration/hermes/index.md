@@ -161,3 +161,11 @@ Reflexion wraps existing execution paths. Any agent task can be reflexion-enable
 ## Daily Cycle
 
 At 23:00, the daily self-improvement cycle analyzes the day's reflexion logs, identifies patterns, and patches skills to prevent recurrence of common errors. This is cumulative: the platform improves daily.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

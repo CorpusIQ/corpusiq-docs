@@ -174,3 +174,11 @@ For each finding, categorize as Critical/High/Medium/Low with remediation code.
 - **Iterate.** Start broad, then refine with follow-up prompts targeting specific functions.
 - **Use system role.** Set the model's system prompt to define its persona (e.g., "You are a Rust expert").
 - **Chain prompts.** Use code generation → code review → test generation as a pipeline for higher quality output.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -223,3 +223,11 @@ Skills need maintenance. Plan to:
 - **Deprecate gracefully:** If you stop maintaining a skill, mark it deprecated with a notice and migration suggestion.
 
 A well-maintained skill compounds in value. Every fix benefits every user.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

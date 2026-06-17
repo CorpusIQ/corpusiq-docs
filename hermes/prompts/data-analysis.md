@@ -177,3 +177,11 @@ For each anomaly found:
 
 Provide code to run this detection on an ongoing schedule.
 ```
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

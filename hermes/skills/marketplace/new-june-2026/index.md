@@ -116,3 +116,11 @@ All skills installable via `npx skills add <owner/repo>@<skill>`. No additional 
 *← [Skills.sh Marketplace](/hermes/skills/marketplace/) | [Skills Catalog](/hermes/skills/catalog/) →*
 
 *↑ [Skills Home](/hermes/skills/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -185,3 +185,11 @@ Hermes connects to 20 messaging platforms:
 ---
 
 *All tools listed are tested with Hermes Agent. [Suggest additions →](https://github.com/CorpusIQ/corpusiq-docs)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -256,3 +256,11 @@ Each interface is versioned. Breaking changes require a migration period where b
 ---
 
 *Next: [Setup Guide](/hermes/setup/) · [Orchestration](/hermes/orchestration/) · [MCP Integration](/hermes/mcp/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

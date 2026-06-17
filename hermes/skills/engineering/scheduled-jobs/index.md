@@ -100,3 +100,11 @@ A failing assertion exits non-zero, the cron watchdog surfaces it, you get a rea
 
 - [api-development](../api-development/) — when your cron job hits a Cloud Run API, the deploy-verification patterns apply
 - [honcho-memory-usage](../honcho-memory-usage/) — for cron jobs that need cross-session memory
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

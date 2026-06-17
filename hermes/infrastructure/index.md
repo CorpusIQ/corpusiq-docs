@@ -276,3 +276,11 @@ python3 refresh_gmail_token.py
 ---
 
 *Next: [Memory Architecture](/hermes/knowledge/) · [Production Crons](/hermes/governance/scheduling/) · [Skills Marketplace](/hermes/skills/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

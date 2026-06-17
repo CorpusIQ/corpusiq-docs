@@ -143,3 +143,11 @@ npx skills add nexu-io/html-anything --skill deck-hermes-cyber
 
 *← [June 11 Evening Update](/hermes/skills/marketplace/new-june11-2026-update2/) | [Skills Catalog](/hermes/skills/catalog/) →*
 *↑ [Marketplace Home](/hermes/skills/marketplace/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

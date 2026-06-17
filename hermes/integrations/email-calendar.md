@@ -134,3 +134,11 @@ Start with a "dry run" mode that logs proposed actions without executing them. A
 
 ### Extending
 Add CRM integration to log meetings against contacts. Connect Slack to post daily schedule summaries to your direct-message channel. Wire up task management (Notion, Monday, Linear) to create prep tasks for meetings automatically.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

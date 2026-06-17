@@ -96,3 +96,11 @@ cron: drift-report (daily at 6 AM)
 
 *← [Scheduling](/hermes/governance/scheduling/) | [Email Ops](/hermes/governance/email/) →*
 *↑ [Governance](/hermes/governance/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

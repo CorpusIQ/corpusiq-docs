@@ -301,3 +301,11 @@ A: Yes. CorpusIQ's enterprise offering includes support for custom MCP connector
   "datePublished": "2026-06-16"
 }
 ```
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

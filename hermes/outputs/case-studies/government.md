@@ -171,3 +171,11 @@ Hermes connects to document management systems, email archives, permit databases
 - [Hermes Agent for Education](../case-studies/education.md) — Public education administrative workflows
 - [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security architecture and compliance at scale
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

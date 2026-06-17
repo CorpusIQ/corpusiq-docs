@@ -10,3 +10,11 @@ Compact:
 ```markdown
 [![Listed in Hermes Hub](https://img.shields.io/badge/listed_in-Hermes_Hub-blue)](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)
 ```
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

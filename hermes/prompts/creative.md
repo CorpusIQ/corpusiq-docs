@@ -229,3 +229,11 @@ Include a 90-day editorial calendar layout and KPIs for measuring content effect
 - **Use constraints as creative fuel.** The tightest briefs often produce the most interesting work.
 - **Ask for rationale.** Understanding why an idea works is as valuable as the idea itself.
 - **Iterate with "more like X."** Once you see a direction you like, steer toward it explicitly.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

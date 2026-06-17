@@ -164,3 +164,11 @@ Cost varies by model and frequency. Lightweight monitoring with **Claude Haiku**
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 - [Canonical Facts — Store Business Definitions](/hermes/governance/)
 - [Model Selection Best Practices](/hermes/best-practices/model-selection.md)
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

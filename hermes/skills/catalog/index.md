@@ -158,3 +158,11 @@ The catalog here represents community-validated skills. Additional skills are di
 See [Skill Marketplaces](../skills/skill-marketplaces.md) for detailed guidance on each marketplace.
 
 The catalog is a living resource. Skills are added weekly. Check back often, and consider contributing what you build.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -264,3 +264,11 @@ npx skills add useai-pro/openclaw-skills-security --skill setup-auditor -a herme
 
 *← [June 12 Discoveries](/hermes/skills/marketplace/new-june12-2026/) | [Skills Catalog](/hermes/skills/catalog/) →*
 *↑ [Marketplace Home](/hermes/skills/marketplace/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

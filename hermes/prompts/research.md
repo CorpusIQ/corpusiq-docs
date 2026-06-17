@@ -213,3 +213,11 @@ Then provide a TOWS cross-analysis:
 - How do we fix weaknesses to pursue opportunities?
 - How do we fix weaknesses to survive threats?
 ```
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -154,3 +154,11 @@ To request a connector, contact CorpusIQ: [corpusiq.io](https://corpusiq.io)
 ---
 
 *← [MCP Overview](/hermes/mcp/) | ↑ [Home](/hermes/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

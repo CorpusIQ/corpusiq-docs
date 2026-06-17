@@ -104,3 +104,11 @@ The rest is re-discoverable.
 ---
 
 *Built with CorpusIQ — autonomous agents that remember what they're doing*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

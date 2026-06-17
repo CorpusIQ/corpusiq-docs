@@ -292,3 +292,11 @@ This is essential for audit readiness and debugging why a number changed between
 - Add **multi-entity consolidation** for organizations with subsidiaries
 - Integrate **tax compliance** checks — estimated tax payment adequacy, sales tax collection gaps
 - Connect to **investor reporting templates** for automatic investor update generation
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

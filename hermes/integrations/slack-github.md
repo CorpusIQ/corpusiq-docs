@@ -145,3 +145,11 @@ Webhooks eliminate polling latency but require your Hermes instance to be reacha
 - **Rate yourself.** Track how many notifications you send per day. If it exceeds ~20 in a single channel, aggregate more aggressively.
 - **Respect working hours.** Route urgent issues (security, production incidents) 24/7. Route everything else only during working hours.
 - **Test in a sandbox channel first.** Set up a #bot-testing channel and direct all notifications there until you've tuned the signal-to-noise ratio.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

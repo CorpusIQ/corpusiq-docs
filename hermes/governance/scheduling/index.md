@@ -315,3 +315,11 @@ hermes cron create \
 ---
 
 *Next: [Memory Architecture](/hermes/knowledge/) · [MCP Integration](/hermes/mcp/) · [Deployment Patterns](/hermes/infrastructure/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

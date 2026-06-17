@@ -37,3 +37,11 @@ Every prompt lists:
   it has 6 sources to triangulate from than when it has 2.
 - **If the answer is wrong**, ask CorpusIQ to show its work: "What sources
   did you use? Show me the raw numbers." It will.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -162,3 +162,11 @@ The Hermes community hub includes a curated [Skills Marketplace](/hermes/skills/
 ---
 
 *← [Knowledge](/hermes/knowledge/) | [Skills Catalog](/hermes/skills/catalog/) → | ↑ [Home](/hermes/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

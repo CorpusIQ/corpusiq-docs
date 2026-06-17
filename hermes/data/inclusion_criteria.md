@@ -58,3 +58,11 @@ Every submission is scored 0-100 across six dimensions:
 - **SPAM**: Promotional content, not a genuine resource
 - **MALICIOUS**: Contains harmful code or misleading information
 - **OUT_OF_SCOPE**: Not a developer tool, SDK, integration, or resource
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -108,3 +108,11 @@ rate.
 **Connectors used:** Klaviyo.
 **Behind the scenes:** `get_klaviyo_top_performing_forms`.
 **Sample answer shape:** Form list with views, submits, and submit rate.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

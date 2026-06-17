@@ -12,3 +12,11 @@
 │  Built by heavy users · Updated nightly              │
 └─────────────────────────────────────────────────────┘
 ```
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

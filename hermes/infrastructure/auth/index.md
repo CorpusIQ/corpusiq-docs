@@ -38,3 +38,11 @@ OAuth tokens auto-refresh before expiry. Failures trigger P1 alerts. API keys mo
 - File permissions restricted (600 for token files)
 - Separate tokens per service — no shared credentials
 - Regular rotation schedule enforced
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

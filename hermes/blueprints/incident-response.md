@@ -380,3 +380,11 @@ Schedule regular incident response drills:
 - Integrate with **feature flags** to automatically disable problematic features
 - Connect to **customer communication** tools (Intercom, Zendesk) to notify affected customers proactively
 - Add **cost tracking** to incidents — compute the estimated cost of each incident for prioritization
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -447,3 +447,11 @@ def track_video_performance(video_id: str, platforms: list[str]):
 ---
 
 *Next: [Social Publishing](/hermes/content-ops/social/) · [Engagement](/hermes/content-ops/engagement/) · [Outputs & Results](/hermes/outputs/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

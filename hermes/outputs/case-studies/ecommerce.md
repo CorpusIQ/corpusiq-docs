@@ -185,3 +185,11 @@ Hermes skills can be configured with currency conversion logic and region-specif
 - [Hermes Agent for Real Estate](../case-studies/real-estate.md) — Multi-platform listing management
 - [Hermes Agent for Startups](../by-company-size/startup.md) — Lean ecommerce automation for early-stage
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

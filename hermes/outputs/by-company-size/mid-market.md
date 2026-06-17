@@ -259,3 +259,11 @@ A dedicated operations profile monitors all other profiles' cron executions, ale
 - [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md) — Pipeline management and forecasting
 - [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Multi-channel ticket triage and SLA management
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

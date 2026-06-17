@@ -122,3 +122,11 @@ These four integrations are examples of a generalizable pattern. You can apply t
 - **HR + Calendar:** Connect HR systems to calendar for automated onboarding scheduling
 
 The pattern is always: **read from sources → compute/enrich/detect → write to destinations → alert on anomalies → log everything.**
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

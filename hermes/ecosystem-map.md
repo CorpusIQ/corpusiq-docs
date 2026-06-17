@@ -197,3 +197,11 @@ graph LR
 ---
 
 *Last updated: June 16, 2026 · [View full ecosystem →](/hermes/ecosystem.md) · [Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

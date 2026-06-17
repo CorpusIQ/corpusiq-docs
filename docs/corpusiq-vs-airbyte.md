@@ -16,3 +16,11 @@ tags: ["corpusiq vs airbyte", "airbyte alternative", "mcp data connector", "ai b
 | **Setup** | 5 minutes, one OAuth | Days to weeks |
 
 [30-day free trial — no credit card →](https://www.corpusiq.io)
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

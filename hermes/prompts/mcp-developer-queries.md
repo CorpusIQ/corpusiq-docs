@@ -267,3 +267,11 @@ most recent email thread.
 2. CorpusIQ pulls live Semrush + GSC data, compares to prior run
    (stored in canonical facts), and returns a diff report.
 3. CI job posts the report to Slack or opens a GitHub issue on regressions.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

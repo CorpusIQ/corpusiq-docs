@@ -271,3 +271,11 @@ From our deployment (as of June 16, 2026):
 ---
 
 *Next: [MCP Integration Guide](/hermes/mcp/) · [Skills Marketplace](/hermes/skills/) · [Production Crons](/hermes/governance/scheduling/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

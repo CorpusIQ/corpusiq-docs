@@ -252,3 +252,11 @@ Lifecycle automation is only as good as the data feeding it. Weekly reconciliati
 - Connect to **Slack** for real-time critical churn alerts
 - Integrate with **product analytics** (PostHog, Mixpanel) for deeper behavioral signals
 - Add **NPS surveys** at key lifecycle transitions (end of onboarding, 6-month mark, renewal)
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

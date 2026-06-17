@@ -141,3 +141,11 @@ Accepted repos are added to the [Hermes Ecosystem Directory](/hermes/ecosystem.m
 - [Hermes Knowledge Hub — Production Reference](/hermes/)
 - [Skills Catalog — 133+ Skills](/hermes/skills/catalog/)
 - [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

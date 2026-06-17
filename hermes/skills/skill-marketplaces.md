@@ -193,3 +193,11 @@ The skill ecosystem is evolving toward:
 The marketplaces are complementary, not competitive. A skill published on skills.sh might later graduate to hermeshub's verified catalog. A premium skill on agentskills.io might have its source on GitHub. Navigate them based on your needs, not marketplace loyalty.
 
 One skill ecosystem, many entry points. Find what works, build what's missing, and share what you create.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

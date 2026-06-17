@@ -182,3 +182,11 @@ The [Sales Agent](/hermes/agents/sales-agent.md) focuses on **pipeline managemen
 - [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 - [Canonical Facts — Store Business Definitions](/hermes/governance/)
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

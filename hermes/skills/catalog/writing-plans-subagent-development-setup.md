@@ -91,3 +91,11 @@ npx skills list | grep -E "writing-plans|subagent-driven-development"
 # In a Hermes session: "Write a plan for adding a hello-world endpoint"
 # Should produce: numbered tasks with file paths and dependencies
 ```
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

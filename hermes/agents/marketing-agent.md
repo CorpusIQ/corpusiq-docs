@@ -187,3 +187,11 @@ The agent integrates with **GA4, Google Search Console, Ahrefs, Semrush, Klaviyo
 - [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 - [Content Operations Guide](/hermes/content-ops/)
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -719,3 +719,11 @@ Every submission reviewed within 48 hours. Accepted repos added to the [ecosyste
   <b>Powered by <a href="https://corpusiq.io">CorpusIQ</a> — the operating system for business agents.</b><br>
   <sub>One connector. 37+ tools. Your business data, finally answering your questions.</sub>
 </p>
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

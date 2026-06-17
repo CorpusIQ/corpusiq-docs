@@ -136,3 +136,11 @@ So we built a validation layer. Before any AI sees your data, CorpusIQ verifies 
 - Slack installs
 - Any press/posts
 - Next week targets
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

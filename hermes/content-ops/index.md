@@ -41,3 +41,11 @@ Research → Draft → Review → Schedule → Post → Monitor → Engage
 
 *← [Governance](/hermes/governance/) | [Skills](/hermes/skills/) →*
 *↑ [Home](/hermes/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

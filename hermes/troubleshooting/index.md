@@ -561,3 +561,11 @@ hermes queue retry --failed-only --since "1 hour ago"
 ---
 
 *↑ [Architecture](/hermes/architecture/) · [Setup Guide](/hermes/setup/) · [Home](/hermes/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

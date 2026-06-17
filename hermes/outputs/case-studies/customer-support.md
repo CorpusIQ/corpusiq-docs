@@ -258,3 +258,11 @@ No. Hermes automates classification, routing, knowledge retrieval, and monitorin
 - [Hermes Agent for Professional Services](../case-studies/professional-services.md) — Client onboarding and status reporting
 - [Hermes Agent for Mid-Market](../by-company-size/mid-market.md) — Multi-team support orchestration
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

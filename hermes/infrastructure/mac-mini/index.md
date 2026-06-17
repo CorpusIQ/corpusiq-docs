@@ -32,3 +32,11 @@ Coordinates with HeyGen API for UGC video generation. Scripts and review workflo
 
 ## Connection
 Accessible from DGX Spark via SSH: `ssh user@worker-node.local`
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -98,3 +98,11 @@ personal@example.com → NEVER forwarded, confidential
 
 *← [Monitoring](/hermes/governance/monitoring/) | [Registry](/hermes/governance/registry/) →*
 *↑ [Governance](/hermes/governance/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

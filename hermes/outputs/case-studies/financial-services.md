@@ -232,3 +232,11 @@ Yes. Hermes skills can compute time-weighted returns, risk metrics, attribution 
 - [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — SOX compliance and financial controls at scale
 - [Hermes Agent for Professional Services](../case-studies/professional-services.md) — Invoice generation and billing automation
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

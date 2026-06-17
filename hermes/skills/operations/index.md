@@ -91,3 +91,11 @@ All operations skills follow three hard rules:
 ---
 
 *← [Marketing Skills](/hermes/skills/marketing/) | [Engineering Skills](/hermes/skills/engineering/) → | ↑ [Home](/hermes/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

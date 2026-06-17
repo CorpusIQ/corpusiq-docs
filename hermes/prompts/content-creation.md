@@ -165,3 +165,11 @@ Include:
 
 The brief should be complete enough to hand to a writer unfamiliar with the topic.
 ```
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

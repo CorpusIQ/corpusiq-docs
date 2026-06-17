@@ -186,3 +186,11 @@ Yes. Weekly scans check for **expiring certifications, visas, contract end dates
 - [Legal Agent — Compliance & Contract Review](/hermes/agents/legal-agent.md)
 - [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

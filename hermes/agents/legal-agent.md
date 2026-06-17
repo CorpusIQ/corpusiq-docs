@@ -187,3 +187,11 @@ Each morning the agent scans regulatory agency feeds, filters updates by your co
 - [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
 - [Governance & Compliance Overview](/hermes/governance/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

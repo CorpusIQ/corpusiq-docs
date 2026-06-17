@@ -233,3 +233,11 @@ If your MES has SQL database access (PostgreSQL or MSSQL), Hermes connects direc
 - [Hermes Agent for Mid-Market](../by-company-size/mid-market.md) — Multi-department orchestration
 - [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security and governance at scale
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

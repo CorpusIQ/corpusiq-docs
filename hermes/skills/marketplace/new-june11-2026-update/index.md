@@ -130,3 +130,11 @@ All skills installable via `npx skills add <owner/repo>@<skill>`. No additional 
 
 *← [June 11 Morning Discovery](/hermes/skills/marketplace/new-june11-2026/) | [Skills Catalog](/hermes/skills/catalog/) →*
 *↑ [Marketplace Home](/hermes/skills/marketplace/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

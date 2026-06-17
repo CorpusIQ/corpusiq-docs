@@ -242,3 +242,11 @@ Hermes scales linearly. The same architecture (profiles, crons, skills) works fr
 - [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md) — Pipeline and forecasting for startups
 - [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Ticket triage for lean teams
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

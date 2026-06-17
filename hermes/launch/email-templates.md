@@ -45,3 +45,11 @@ Want to ask ChatGPT "how was my business last month" and get a real, verified an
 No obligation. No credit card.
 
 → corpusiq.io/demo
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

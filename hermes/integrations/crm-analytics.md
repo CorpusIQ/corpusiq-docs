@@ -166,3 +166,11 @@ Start with non-critical reports (attribution, pipeline visibility). After 4 week
 - Add email marketing (Klaviyo, Mailchimp) to the attribution model for email-driven pipeline tracking.
 - Connect Slack for real-time scoring alerts when high-value leads are detected.
 - Wire in calendar data to track meeting-to-opportunity conversion rates.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

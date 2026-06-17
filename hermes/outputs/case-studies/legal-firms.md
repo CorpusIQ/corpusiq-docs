@@ -205,3 +205,11 @@ Hermes connects to time tracking and billing systems through database connectors
 - [Hermes Agent for Professional Services](../case-studies/professional-services.md) — Time tracking and invoicing automation
 - [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security, segregation of duties, and audit logging
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

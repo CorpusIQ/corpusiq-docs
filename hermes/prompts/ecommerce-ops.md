@@ -118,3 +118,11 @@ plus revenue total.
 **Sample answer shape:** Recent order list and revenue total. Note:
 Amazon's API exposes a smaller surface than Shopify or eBay — this is a
 high-level view, not a deep dive.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

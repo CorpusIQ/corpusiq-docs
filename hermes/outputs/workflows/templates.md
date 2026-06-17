@@ -275,3 +275,11 @@ Edit the YAML `schedule` field with standard cron expressions, and adjust thresh
 - [Agent Library — 9 Role Configurations](/hermes/agents/)
 - [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
 - [Architecture — 6-Layer Production Model](/hermes/architecture/)
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

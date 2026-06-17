@@ -353,3 +353,11 @@ If you can't verify end-to-end (no test account, vendor portal blocks dev), the 
 Run this checklist BEFORE clicking merge on any contributor PR introducing or touching a connector. The audit on a fresh contribution catches the same bugs but BEFORE the customer hits them. The 30 minutes you spend on the checklist is the cheapest insurance available.
 
 If the contributor pushes back ("this is overkill for a small change"), the right answer is the Mailchimp inventory above. Nine round-trips and a damaged customer relationship is what the alternative costs.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

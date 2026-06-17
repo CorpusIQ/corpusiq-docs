@@ -231,3 +231,11 @@ Yes. Hermes compares hours delivered against retainer commitments weekly, flags 
 - [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Client inquiry and SLA management
 - [Hermes Agent for Startups](../by-company-size/startup.md) — Lean services automation for small teams
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

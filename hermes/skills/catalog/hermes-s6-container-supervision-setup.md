@@ -110,3 +110,11 @@ ENTRYPOINT ["/usr/bin/s6-svscan", "/etc/s6/service"]
 ---
 
 *← [June 17 Discovery](/hermes/skills/marketplace/new-june17-2026/) | [Skills Marketplace](/hermes/skills/marketplace/) →*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -185,3 +185,11 @@ The agent clusters tickets with **similar keywords or error messages**. When 3+ 
 - [DevOps Agent — Infrastructure & Incident Management](/hermes/agents/devops-agent.md)
 - [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

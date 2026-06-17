@@ -490,3 +490,11 @@ Before deploying your social publishing pipeline:
 ---
 
 *Next: [Community Engagement](/hermes/content-ops/engagement/) · [Video Production](/hermes/content-ops/video/) · [Outputs & Results](/hermes/outputs/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

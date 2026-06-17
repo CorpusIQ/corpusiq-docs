@@ -297,3 +297,11 @@ Yes. Enterprise deployments use primary/standby instances with heartbeat monitor
 - [Hermes Agent for Government](../case-studies/government.md) — FedRAMP and public sector compliance
 - [Hermes Agent for Financial Services](../case-studies/financial-services.md) — SOX controls and regulatory filing
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -155,3 +155,11 @@ npx skills add ar9av/obsidian-wiki@hermes-history-ingest
 
 *← [June 10 Discoveries](/hermes/skills/marketplace/new-june10-2026/) | [Skills Catalog](/hermes/skills/catalog/) →*
 *↑ [Marketplace Home](/hermes/skills/marketplace/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

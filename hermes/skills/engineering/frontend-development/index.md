@@ -71,3 +71,11 @@ When in doubt, grep the deployed page for a unique string and see which repo's g
 
 - [mcp-architecture](../mcp-architecture/#marketing-site-is-a-separate-repo-verification-trap) — the MCP-server-side view of the same cross-repo boundary
 - [api-development](../api-development/) — the BFF layer's backend dependency
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

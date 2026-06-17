@@ -82,3 +82,11 @@ npx skills list | grep macos-computer-use
 # "Take a screenshot of my desktop"
 # Should return a screenshot image — confirms permissions are working
 ```
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

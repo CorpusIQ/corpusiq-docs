@@ -201,3 +201,11 @@ Hermes pulls data from program databases, survey tools, and financial systems to
 - [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md) — Pipeline management and reporting
 - [Hermes Agent for Startups](../by-company-size/startup.md) — Lean automation for small teams
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

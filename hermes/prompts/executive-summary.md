@@ -109,3 +109,11 @@ team capacity, supplier issues, bottlenecks. For COOs and ops leads.
 **Behind the scenes:** `weekly-ops-review` skill.
 **Sample answer shape:** Section per ops domain with status indicator
 and one drill-down bullet each.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

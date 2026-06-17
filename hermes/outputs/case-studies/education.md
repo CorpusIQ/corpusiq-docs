@@ -185,3 +185,11 @@ Yes. Hermes skills extract required statistics from institutional data systems, 
 - [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md) — Evidence collection and regulatory compliance
 - [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security and data residency for large institutions
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

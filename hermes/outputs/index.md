@@ -160,3 +160,11 @@ The community grows stronger with every documented use case. If you've built a H
 - [Architecture — 6-Layer Production Model](/hermes/architecture/)
 - [Cron Scheduling Guide — 38 Production Crons](/hermes/governance/scheduling/)
 - [Contributor Guide — Share Your Patterns](/hermes/contributors.md)
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

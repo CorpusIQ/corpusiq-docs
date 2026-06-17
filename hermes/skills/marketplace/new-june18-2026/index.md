@@ -183,3 +183,11 @@ npx skills add nousresearch/hermes-agent --skill heartmula
 | `stable-diffusion-image-generation` | Media | Text-to-image generation |
 | `minecraft-modpack-server` | Gaming | Host modded Minecraft servers |
 | `pokemon-player` | Gaming | Headless Pokemon emulator |
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

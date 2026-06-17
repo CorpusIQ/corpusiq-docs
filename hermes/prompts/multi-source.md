@@ -124,3 +124,11 @@ revenue match?"
 **Behind the scenes:** `data-discrepancy-detector` skill.
 **Sample answer shape:** Side-by-side metric comparison with the gaps
 explained (refunds, fees, sync lag, etc.).
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

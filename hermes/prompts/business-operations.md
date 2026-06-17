@@ -221,3 +221,11 @@ The update should take under 30 seconds to speak aloud. Be specific about what s
 - **Give the model your brand voice examples.** Paste 2-3 emails you've written that you like as style references.
 - **For sensitive communications, always review.** AI drafts are starting points — add your human judgment.
 - **Chain operations prompts.** Use "task breakdown → sprint plan → standup update" as a connected workflow.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -39,3 +39,11 @@ When a primary model fails or times out, the chain escalates to the next availab
 | Multi-model | ~$50 | 50-300ms |
 
 Local-first routing saves $200-400/month for a production deployment while improving latency on routine tasks.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

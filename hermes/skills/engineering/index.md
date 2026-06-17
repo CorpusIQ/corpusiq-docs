@@ -114,3 +114,11 @@ Read these skills when you're about to do the thing they describe. Patch them im
 ---
 
 *← [Operations Skills](/hermes/skills/operations/) | [Development Skills](/hermes/skills/development/) → | ↑ [Home](/hermes/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -116,3 +116,11 @@ sorted by sessions and conversions.
 **Behind the scenes:** `run_ga4_report`.
 **Sample answer shape:** Source/medium table with sessions, users,
 engagement, conversions.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

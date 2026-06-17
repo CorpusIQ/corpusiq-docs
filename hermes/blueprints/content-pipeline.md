@@ -305,3 +305,11 @@ Build this into the promote stage so it's systematic, not ad-hoc.
 - Integrate **Ahrefs/Semrush** for automated keyword position tracking
 - Add **social listening** to detect when your content is discussed but not linked
 - Connect **GA4** for conversion attribution by content piece
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

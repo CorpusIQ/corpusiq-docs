@@ -208,3 +208,11 @@ Marketing agencies connect client accounts (Google Analytics, Meta Ads, HubSpot)
 *H1: Secure AI Data Connectivity*
 
 *Suggested URL: /docs/secure-ai-data-connectivity*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

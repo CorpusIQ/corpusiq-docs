@@ -121,3 +121,11 @@ Use different system prompts for different stages:
 ## Contributing
 
 These prompts are starting points. As you discover effective variations, adapt them to your workflow. The best prompt is the one that consistently produces useful output for your specific context — invest in refining it over time.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

@@ -40,3 +40,11 @@ Layer 3: Quality — outputs meeting thresholds, correct channels
 
 *← [Infrastructure](/hermes/infrastructure/) | [Content Ops](/hermes/content-ops/) →*
 *↑ [Home](/hermes/)*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*

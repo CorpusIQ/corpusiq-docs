@@ -108,3 +108,11 @@ activity.
 **Behind the scenes:** `search_slack_messages`.
 **Sample answer shape:** Matching messages with channel, user, and
 timestamp.
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+
+
+---
+*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
