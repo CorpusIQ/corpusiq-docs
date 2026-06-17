@@ -4,8 +4,8 @@ description: Connect Claude to HubSpot through CorpusIQ MCP. Leverage Claude's 2
   optimization.
 url: /docs/claude-for-hubspot
 h1: 'Claude for HubSpot: Deep CRM Intelligence with Anthropic''s AI'
-meta_title: Claude for HubSpot — Advanced CRM Intelligence & Sales Analytics | CorpusIQ
-meta_description: Use Anthropic's Claude with HubSpot via CorpusIQ MCP. Extended context enables comprehensive pipeline analysis, multi-quarter forecasting, territory optimization, and deep win-loss intelligence.
+title: Claude for HubSpot — Advanced CRM Intelligence & Sales Analytics | CorpusIQ
+description: Use Anthropic's Claude with HubSpot via CorpusIQ MCP. Extended context enables comprehensive pipeline analysis, multi-quarter forecasting, territory optimization, and deep win-loss intelligence.
 keywords:
 - Claude for HubSpot
 - Anthropic Claude CRM

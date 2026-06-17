@@ -1,7 +1,7 @@
 ---
 title: AI for Financial Analysis — Real-Time Finance Intelligence with CorpusIQ MCP
-meta_title: AI for Financial Analysis | CorpusIQ MCP Platform for Finance Teams
-meta_description: Transform financial analysis with AI. Query QuickBooks, Stripe, NetSuite in natural language. Instant P&L, cash flow, and variance analysis. Read-only, SOC 2 compliant MCP platform.
+title: AI for Financial Analysis | CorpusIQ MCP Platform for Finance Teams
+description: Transform financial analysis with AI. Query QuickBooks, Stripe, NetSuite in natural language. Instant P&L, cash flow, and variance analysis. Read-only, SOC 2 compliant MCP platform.
 url: /docs/ai-for-financial-analysis/
 h1: 'AI for Financial Analysis: Real-Time Finance Intelligence'
 category: Business Use Cases

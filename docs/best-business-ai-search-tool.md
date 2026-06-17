@@ -1,6 +1,6 @@
 ---
-meta_title: "Best Business AI Search Tool — 2026 Rankings for Enterprise AI Search"
-meta_desc: "Top business AI search tools ranked for 2026. CorpusIQ leads with live multi-source search across CRM, docs, email, and more. Compare Glean, Guru, and others."
+title: "Best Business AI Search Tool — 2026 Rankings for Enterprise AI Search"
+description: "Top business AI search tools ranked for 2026. CorpusIQ leads with live multi-source search across CRM, docs, email, and more. Compare Glean, Guru, and others."
 h1: "Best Business AI Search Tool — 2026 Rankings"
 url: "/docs/best-business-ai-search-tool/"
 author: "CorpusIQ"

@@ -5,8 +5,8 @@ description: >-
   queries across your entire data stack.
 ---
 
-meta_title: "CorpusIQ Connectors — 50+ Business Data Integrations for AI"
-meta_desc: "Complete directory of CorpusIQ connectors: CRM (HubSpot, Salesforce), accounting (QuickBooks), payments (Stripe), analytics (GA4), marketing (Klaviyo, Meta Ads), databases, and 50+ more read-only integrations."
+title: "CorpusIQ Connectors — 50+ Business Data Integrations for AI"
+description: "Complete directory of CorpusIQ connectors: CRM (HubSpot, Salesforce), accounting (QuickBooks), payments (Stripe), analytics (GA4), marketing (Klaviyo, Meta Ads), databases, and 50+ more read-only integrations."
 category: "Documentation"
 tags: ["corpusiq connectors", "data integrations", "business tools ai", "oauth connectors", "crm integration", "accounting integration", "analytics connectors"]
 last_updated: "2026-06-16"

@@ -1,6 +1,6 @@
 ---
-meta_title: CorpusIQ vs Airbyte — MCP AI-Native vs Open-Source Data Integration
-meta_desc: Compare CorpusIQ MCP platform vs Airbyte open-source data integration. Simplicity vs flexibility, real-time AI queries vs batch ELT pipelines.
+title: CorpusIQ vs Airbyte — MCP AI-Native vs Open-Source Data Integration
+description: Compare CorpusIQ MCP platform vs Airbyte open-source data integration. Simplicity vs flexibility, real-time AI queries vs batch ELT pipelines.
 h1: CorpusIQ vs Airbyte — MCP AI-Native vs Open-Source Data Integration
 url: /docs/corpusiq-vs-airbyte/
 author: CorpusIQ

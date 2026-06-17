@@ -1,6 +1,6 @@
 ---
-meta_title: "AI Agent Users — Connect MCP Agents to Business Data via CorpusIQ"
-meta_desc: "Connect AI agents (Claude, Cursor, Hermes, Windsurf) to 36 business data sources via CorpusIQ MCP. OAuth 2.0 device flow, tools/list, tools/call, security considerations, and troubleshooting."
+title: "AI Agent Users — Connect MCP Agents to Business Data via CorpusIQ"
+description: "Connect AI agents (Claude, Cursor, Hermes, Windsurf) to 36 business data sources via CorpusIQ MCP. OAuth 2.0 device flow, tools/list, tools/call, security considerations, and troubleshooting."
 category: "Documentation"
 tags: ["ai agent mcp", "connect agent to business data", "mcp endpoint", "oauth device flow", "claude agent", "cursor mcp", "hermes agent"]
 last_updated: "2026-06-16"

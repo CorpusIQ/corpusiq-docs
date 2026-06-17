@@ -1,6 +1,6 @@
 ---
-meta_title: CorpusIQ vs LangChain — MCP as Protocol vs LangChain as AI Framework
-meta_desc: CorpusIQ MCP platform vs LangChain framework. MCP as open protocol for AI-data connection vs LangChain as AI application framework. Complementary or competitive?
+title: CorpusIQ vs LangChain — MCP as Protocol vs LangChain as AI Framework
+description: CorpusIQ MCP platform vs LangChain framework. MCP as open protocol for AI-data connection vs LangChain as AI application framework. Complementary or competitive?
 h1: CorpusIQ vs LangChain — MCP as Protocol vs LangChain as AI Framework
 url: /docs/corpusiq-vs-langchain/
 author: CorpusIQ

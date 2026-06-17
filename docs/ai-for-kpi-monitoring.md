@@ -1,7 +1,7 @@
 ---
 title: AI for KPI Monitoring — Real-Time Metric Intelligence with CorpusIQ MCP
-meta_title: AI for KPI Monitoring | CorpusIQ MCP Platform for Metric Tracking
-meta_description: Transform KPI monitoring with AI. Track key performance indicators across all business systems in real time. Automated alerts, trend detection, and cross-source metric validation.
+title: AI for KPI Monitoring | CorpusIQ MCP Platform for Metric Tracking
+description: Transform KPI monitoring with AI. Track key performance indicators across all business systems in real time. Automated alerts, trend detection, and cross-source metric validation.
 url: /docs/ai-for-kpi-monitoring/
 h1: 'AI for KPI Monitoring: Real-Time Metrics at Your Fingertips'
 category: Business Use Cases

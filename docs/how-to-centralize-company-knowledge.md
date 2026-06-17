@@ -1,6 +1,6 @@
 ---
-meta_title: "How to Centralize Company Knowledge — AI-Powered Knowledge Platform Guide"
-meta_desc: "Centralize all company knowledge with CorpusIQ MCP. Connect documents, CRM, email, and more into one AI-queryable knowledge base. No migration required."
+title: "How to Centralize Company Knowledge — AI-Powered Knowledge Platform Guide"
+description: "Centralize all company knowledge with CorpusIQ MCP. Connect documents, CRM, email, and more into one AI-queryable knowledge base. No migration required."
 h1: "How to Centralize Company Knowledge"
 url: "/docs/how-to-centralize-company-knowledge/"
 author: "CorpusIQ"

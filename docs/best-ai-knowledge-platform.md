@@ -1,6 +1,6 @@
 ---
-meta_title: "Best AI Knowledge Platform — 2026 Top Solutions for Business Knowledge Management"
-meta_desc: "Comparing the best AI knowledge platforms of 2026. CorpusIQ leads with MCP-powered live data knowledge access. Rankings vs Notion AI, Glean, Guru, and more."
+title: "Best AI Knowledge Platform — 2026 Top Solutions for Business Knowledge Management"
+description: "Comparing the best AI knowledge platforms of 2026. CorpusIQ leads with MCP-powered live data knowledge access. Rankings vs Notion AI, Glean, Guru, and more."
 h1: "Best AI Knowledge Platform — 2026 Rankings & Comparison"
 url: "/docs/best-ai-knowledge-platform/"
 author: "CorpusIQ"

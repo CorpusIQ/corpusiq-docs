@@ -1,6 +1,6 @@
 ---
-meta_title: "CorpusIQ Security — SOC 2, CASA Tier 2, Encryption, and Data Privacy"
-meta_desc: "Complete CorpusIQ security documentation: SOC 2 Type II, CASA Tier 2 certified by DEKRA, AES-256 encryption, TLS 1.3, read-only OAuth, zero data storage, GDPR compliance, and incident response."
+title: "CorpusIQ Security — SOC 2, CASA Tier 2, Encryption, and Data Privacy"
+description: "Complete CorpusIQ security documentation: SOC 2 Type II, CASA Tier 2 certified by DEKRA, AES-256 encryption, TLS 1.3, read-only OAuth, zero data storage, GDPR compliance, and incident response."
 category: "Documentation"
 tags: ["corpusiq security", "soc 2", "casa tier 2", "data privacy", "encryption", "oauth security", "gdpr compliance", "ai security"]
 last_updated: "2026-06-16"

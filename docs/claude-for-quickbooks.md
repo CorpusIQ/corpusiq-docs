@@ -3,8 +3,8 @@ title: 'Claude for QuickBooks: AI Financial Analysis with Anthropic''s Claude | 
 description: Connect Claude to QuickBooks via CorpusIQ MCP. Use Claude's extended context window for deep financial analysis, multi-period trend detection, and comprehensive accounting workflows.
 url: /docs/claude-for-quickbooks
 h1: 'Claude for QuickBooks: Advanced AI Financial Analysis with Anthropic''s Claude'
-meta_title: Claude for QuickBooks — Deep Financial Analysis with AI | CorpusIQ
-meta_description: Connect Anthropic's Claude to QuickBooks through CorpusIQ. Leverage Claude's 200K context window for comprehensive financial analysis, multi-period reporting, and accounting automation.
+title: Claude for QuickBooks — Deep Financial Analysis with AI | CorpusIQ
+description: Connect Anthropic's Claude to QuickBooks through CorpusIQ. Leverage Claude's 200K context window for comprehensive financial analysis, multi-period reporting, and accounting automation.
 keywords:
 - Claude for QuickBooks
 - Anthropic Claude accounting

@@ -1,6 +1,6 @@
 ---
-meta_title: "How to Query Business Data in Natural Language — AI-Powered Analytics Guide"
-meta_desc: "Query your business data using plain English with CorpusIQ MCP. No SQL required. Connect CRM, accounting, and analytics to AI for natural language queries."
+title: "How to Query Business Data in Natural Language — AI-Powered Analytics Guide"
+description: "Query your business data using plain English with CorpusIQ MCP. No SQL required. Connect CRM, accounting, and analytics to AI for natural language queries."
 h1: "How to Query Business Data in Natural Language"
 url: "/docs/how-to-query-business-data-in-natural-language/"
 author: "CorpusIQ"

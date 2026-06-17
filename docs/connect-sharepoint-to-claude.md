@@ -1,7 +1,7 @@
 ---
 title: Connect SharePoint to Claude via MCP — Enterprise Document Intelligence in AI
-meta_title: Connect SharePoint to Claude | CorpusIQ MCP Integration for Microsoft 365
-meta_description: Connect SharePoint to Claude using CorpusIQ's MCP platform. Search documents, libraries, and enterprise content in natural language. Read-only OAuth, Microsoft 365 integration, enterprise-grade
+title: Connect SharePoint to Claude | CorpusIQ MCP Integration for Microsoft 365
+description: Connect SharePoint to Claude using CorpusIQ's MCP platform. Search documents, libraries, and enterprise content in natural language. Read-only OAuth, Microsoft 365 integration, enterprise-grade
   security.
 url: /docs/connect-sharepoint-to-claude/
 h1: 'Connect SharePoint to Claude: Enterprise Documents Meet AI Intelligence'

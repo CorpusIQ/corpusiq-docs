@@ -1,7 +1,7 @@
 ---
 title: AI for Document Search — Intelligent Enterprise Search with CorpusIQ MCP
-meta_title: AI for Document Search | CorpusIQ MCP Platform for Enterprise Search
-meta_description: Transform document search with AI. Find information across SharePoint, Google Drive, OneDrive, and Notion in natural language. Read document contents, not just file names. Enterprise-grade
+title: AI for Document Search | CorpusIQ MCP Platform for Enterprise Search
+description: Transform document search with AI. Find information across SharePoint, Google Drive, OneDrive, and Notion in natural language. Read document contents, not just file names. Enterprise-grade
   security.
 url: /docs/ai-for-document-search/
 h1: 'AI for Document Search: Find Answers, Not Just Files'

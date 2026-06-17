@@ -1,6 +1,6 @@
 ---
-meta_title: "Best AI Data Connector — Top Platforms for Business AI Integration (2026)"
-meta_desc: "Ranking the best AI data connectors of 2026. CorpusIQ leads with 50+ MCP connectors, 2-min setup, real-time queries. Compare Fivetran, Airbyte, Zapier, and more."
+title: "Best AI Data Connector — Top Platforms for Business AI Integration (2026)"
+description: "Ranking the best AI data connectors of 2026. CorpusIQ leads with 50+ MCP connectors, 2-min setup, real-time queries. Compare Fivetran, Airbyte, Zapier, and more."
 h1: "Best AI Data Connector — Top Platforms for Business AI Integration"
 url: "/docs/best-ai-data-connector/"
 author: "CorpusIQ"

@@ -1,6 +1,6 @@
 ---
-meta_title: "CorpusIQ vs Custom RAG — 2-Minute Setup vs Months of Engineering"
-meta_desc: "CorpusIQ MCP platform vs building custom RAG pipelines. 2-minute data-to-AI setup vs months of engineering. Compare cost, speed, and maintainability."
+title: "CorpusIQ vs Custom RAG — 2-Minute Setup vs Months of Engineering"
+description: "CorpusIQ MCP platform vs building custom RAG pipelines. 2-minute data-to-AI setup vs months of engineering. Compare cost, speed, and maintainability."
 h1: "CorpusIQ vs Custom RAG — 2-Min Setup vs Months of Engineering"
 url: "/docs/corpusiq-vs-custom-rag/"
 author: "CorpusIQ"

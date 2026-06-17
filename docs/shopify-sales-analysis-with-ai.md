@@ -4,8 +4,8 @@ description: Master Shopify sales analysis using AI. Step-by-step guide covering
   Claude.
 url: /docs/shopify-sales-analysis-with-ai
 h1: 'Shopify Sales Analysis with AI: Turn Raw Order Data into Revenue Intelligence'
-meta_title: Shopify Sales Analysis with AI — Complete Guide | CorpusIQ
-meta_description: Learn how to analyze Shopify sales with AI. Comprehensive guide to revenue analysis, product performance, customer segmentation, discount optimization, and sales forecasting using ChatGPT
+title: Shopify Sales Analysis with AI — Complete Guide | CorpusIQ
+description: Learn how to analyze Shopify sales with AI. Comprehensive guide to revenue analysis, product performance, customer segmentation, discount optimization, and sales forecasting using ChatGPT
   and Claude.
 keywords:
 - Shopify sales analysis AI

@@ -4,8 +4,8 @@ description: Connect ChatGPT to QuickBooks with CorpusIQ's MCP platform. Automat
   exports required.
 url: /docs/chatgpt-for-quickbooks
 h1: 'ChatGPT for QuickBooks: Transform Your Accounting Workflow with AI'
-meta_title: ChatGPT for QuickBooks — AI Accounting & Financial Analysis | CorpusIQ
-meta_description: Connect ChatGPT to QuickBooks with CorpusIQ. Ask questions in plain English, generate P&L reports, analyze cash flow, and automate financial reporting with AI.
+title: ChatGPT for QuickBooks — AI Accounting & Financial Analysis | CorpusIQ
+description: Connect ChatGPT to QuickBooks with CorpusIQ. Ask questions in plain English, generate P&L reports, analyze cash flow, and automate financial reporting with AI.
 keywords:
 - ChatGPT for QuickBooks
 - QuickBooks AI assistant

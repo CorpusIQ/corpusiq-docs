@@ -1,6 +1,6 @@
 ---
-meta_title: "How to Create an AI Data Layer — MCP Architecture Guide"
-meta_desc: "Create an AI-accessible data layer with CorpusIQ MCP. Connect all business data sources to AI without ETL, warehouses, or custom code. Architecture guide."
+title: "How to Create an AI Data Layer — MCP Architecture Guide"
+description: "Create an AI-accessible data layer with CorpusIQ MCP. Connect all business data sources to AI without ETL, warehouses, or custom code. Architecture guide."
 h1: "How to Create an AI Data Layer"
 url: "/docs/how-to-create-an-ai-data-layer/"
 author: "CorpusIQ"

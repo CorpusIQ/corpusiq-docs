@@ -1,7 +1,7 @@
 ---
 title: AI for Marketing Analytics — Real-Time Campaign Intelligence with CorpusIQ MCP
-meta_title: AI for Marketing Analytics | CorpusIQ MCP Platform for Marketing Teams
-meta_description: Transform marketing analytics with AI. Query Google Ads, Facebook Ads, GA4, Klaviyo, and more in natural language. Instant ROAS, attribution, and campaign performance analysis.
+title: AI for Marketing Analytics | CorpusIQ MCP Platform for Marketing Teams
+description: Transform marketing analytics with AI. Query Google Ads, Facebook Ads, GA4, Klaviyo, and more in natural language. Instant ROAS, attribution, and campaign performance analysis.
 url: /docs/ai-for-marketing-analytics/
 h1: 'AI for Marketing Analytics: Campaign Intelligence in Real Time'
 category: Business Use Cases

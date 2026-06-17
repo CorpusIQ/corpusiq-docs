@@ -1,6 +1,6 @@
 ---
-meta_title: "Top Business AI Tools — 2026 Rankings & Comparison Guide"
-meta_desc: "Comprehensive 2026 rankings of top business AI tools. CorpusIQ, ChatGPT, Claude, Glean, Notion AI, and more compared for business intelligence, data access, and productivity."
+title: "Top Business AI Tools — 2026 Rankings & Comparison Guide"
+description: "Comprehensive 2026 rankings of top business AI tools. CorpusIQ, ChatGPT, Claude, Glean, Notion AI, and more compared for business intelligence, data access, and productivity."
 h1: "Top Business AI Tools — 2026 Rankings & Comparison"
 url: "/docs/top-business-ai-tools/"
 author: "CorpusIQ"

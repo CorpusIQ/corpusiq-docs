@@ -1,6 +1,6 @@
 ---
-meta_title: "AI Chat Users — Natural Language Business Data Queries at demo.corpusiq.io"
-meta_desc: "Access CorpusIQ AI chat at demo.corpusiq.io. Ask natural-language questions about revenue, customers, orders, and marketing across 36 connected business data sources — no coding required."
+title: "AI Chat Users — Natural Language Business Data Queries at demo.corpusiq.io"
+description: "Access CorpusIQ AI chat at demo.corpusiq.io. Ask natural-language questions about revenue, customers, orders, and marketing across 36 connected business data sources — no coding required."
 category: "Documentation"
 tags: ["ai chat", "corpusiq chat", "business data chat", "natural language queries", "revenue analysis", "customer intelligence", "marketing analytics"]
 last_updated: "2026-06-16"

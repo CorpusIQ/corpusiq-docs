@@ -4,8 +4,8 @@ description: Generate automated QuickBooks financial reports using AI. Turn hour
   MCP.
 url: /docs/quickbooks-ai-reporting
 h1: 'QuickBooks AI Reporting: Automated Financial Intelligence at Conversation Speed'
-meta_title: QuickBooks AI Reporting — Automated Financial Reports | CorpusIQ
-meta_description: Automate QuickBooks financial reporting with AI. Generate P&L statements, balance sheets, cash flow reports, and custom financial analyses through natural language — no report builder
+title: QuickBooks AI Reporting — Automated Financial Reports | CorpusIQ
+description: Automate QuickBooks financial reporting with AI. Generate P&L statements, balance sheets, cash flow reports, and custom financial analyses through natural language — no report builder
   required.
 keywords:
 - QuickBooks AI reporting

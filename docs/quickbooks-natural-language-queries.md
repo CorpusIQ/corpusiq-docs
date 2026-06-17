@@ -3,8 +3,8 @@ title: 'QuickBooks Natural Language Queries: Ask Your Books Anything | CorpusIQ'
 description: Query QuickBooks using natural language — no SQL, no report builder. Ask 'What's our gross margin by product line?' and get instant answers through CorpusIQ's AI-powered MCP platform.
 url: /docs/quickbooks-natural-language-queries
 h1: 'QuickBooks Natural Language Queries: Ask Your Financial Data Anything'
-meta_title: QuickBooks Natural Language Queries — Ask Your Books in Plain English | CorpusIQ
-meta_description: Query QuickBooks in plain English with CorpusIQ MCP. Ask questions like 'Which customers are past due?' or 'What drove our expense increase?' and get instant, accurate answers from your
+title: QuickBooks Natural Language Queries — Ask Your Books in Plain English | CorpusIQ
+description: Query QuickBooks in plain English with CorpusIQ MCP. Ask questions like 'Which customers are past due?' or 'What drove our expense increase?' and get instant, accurate answers from your
   live data.
 keywords:
 - QuickBooks natural language queries

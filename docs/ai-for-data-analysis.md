@@ -1,7 +1,7 @@
 ---
 title: AI for Data Analysis — Transform Analytics with CorpusIQ MCP
-meta_title: AI for Data Analysis | CorpusIQ MCP Platform for Analytics
-meta_description: Transform data analysis with AI. Query databases, spreadsheets, and business tools in natural language. Instant SQL-free analysis, cross-source correlation, and automated insight generation.
+title: AI for Data Analysis | CorpusIQ MCP Platform for Analytics
+description: Transform data analysis with AI. Query databases, spreadsheets, and business tools in natural language. Instant SQL-free analysis, cross-source correlation, and automated insight generation.
 url: /docs/ai-for-data-analysis/
 h1: 'AI for Data Analysis: From SQL Queries to Natural Conversations'
 category: Business Use Cases

@@ -1,7 +1,7 @@
 ---
 title: AI for Sales Reporting — Real-Time Pipeline & Revenue Intelligence
-meta_title: AI for Sales Reporting | CorpusIQ MCP Platform for Sales Analytics
-meta_description: Transform sales reporting with AI. Query Salesforce, HubSpot, Close CRM in natural language. Instant pipeline analysis, rep performance, and forecasting. Read-only MCP integration.
+title: AI for Sales Reporting | CorpusIQ MCP Platform for Sales Analytics
+description: Transform sales reporting with AI. Query Salesforce, HubSpot, Close CRM in natural language. Instant pipeline analysis, rep performance, and forecasting. Read-only MCP integration.
 url: /docs/ai-for-sales-reporting/
 h1: 'AI for Sales Reporting: Pipeline Intelligence in Real Time'
 category: Business Use Cases

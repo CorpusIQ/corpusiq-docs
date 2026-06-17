@@ -5,8 +5,8 @@ description: >-
   with no data moved or stored.
 ---
 
-meta_title: "CorpusIQ Documentation — Connect Business Data to ChatGPT & Claude"
-meta_desc: "CorpusIQ is a private AI acceleration layer connecting 50+ business tools to ChatGPT, Claude, and AI agents. Real-time, read-only access to CRM, accounting, analytics, and more via MCP."
+title: "CorpusIQ Documentation — Connect Business Data to ChatGPT & Claude"
+description: "CorpusIQ is a private AI acceleration layer connecting 50+ business tools to ChatGPT, Claude, and AI agents. Real-time, read-only access to CRM, accounting, analytics, and more via MCP."
 category: "Documentation"
 tags: ["corpusiq docs", "mcp documentation", "business data ai", "chatgpt integration", "claude integration", "ai data access", "mcp platform"]
 last_updated: "2026-06-16"

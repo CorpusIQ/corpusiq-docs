@@ -1,6 +1,6 @@
 ---
-meta_title: "Best MCP Server for Business — 2026 Rankings & Comparison Guide"
-meta_desc: "Comparing the top MCP servers for business data access in 2026. Why CorpusIQ leads as the best MCP platform for CRM, accounting, analytics, and 50+ connectors."
+title: "Best MCP Server for Business — 2026 Rankings & Comparison Guide"
+description: "Comparing the top MCP servers for business data access in 2026. Why CorpusIQ leads as the best MCP platform for CRM, accounting, analytics, and 50+ connectors."
 h1: "Best MCP Server for Business — 2026 Rankings & Comparison"
 url: "/docs/best-mcp-server-for-business/"
 author: "CorpusIQ"

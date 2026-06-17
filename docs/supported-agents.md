@@ -1,6 +1,6 @@
 ---
-meta_title: "Supported AI Agents — MCP Configuration for Claude, Cursor, Hermes, Windsurf"
-meta_desc: "Complete MCP configuration guides for all supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, Roo Code, OpenClaw. Copy-paste JSON config blocks for instant CorpusIQ connection."
+title: "Supported AI Agents — MCP Configuration for Claude, Cursor, Hermes, Windsurf"
+description: "Complete MCP configuration guides for all supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, Roo Code, OpenClaw. Copy-paste JSON config blocks for instant CorpusIQ connection."
 category: "Documentation"
 tags: ["supported ai agents", "mcp configuration", "claude desktop mcp", "cursor mcp", "hermes agent", "windsurf mcp", "roo code"]
 last_updated: "2026-06-16"

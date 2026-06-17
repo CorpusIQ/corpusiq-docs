@@ -1,7 +1,7 @@
 ---
 title: AI for Customer Support — Intelligent Support Operations with CorpusIQ MCP
-meta_title: AI for Customer Support | CorpusIQ MCP Platform for Support Teams
-meta_description: Transform customer support with AI. Query tickets, CRM, billing, and product data in natural language. Faster resolution, proactive support, and cross-source customer intelligence.
+title: AI for Customer Support | CorpusIQ MCP Platform for Support Teams
+description: Transform customer support with AI. Query tickets, CRM, billing, and product data in natural language. Faster resolution, proactive support, and cross-source customer intelligence.
 url: /docs/ai-for-customer-support/
 h1: 'AI for Customer Support: Smarter, Faster Customer Intelligence'
 category: Business Use Cases

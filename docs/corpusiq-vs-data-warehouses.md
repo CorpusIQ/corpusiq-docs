@@ -1,6 +1,6 @@
 ---
-meta_title: CorpusIQ vs Data Warehouses — MCP Live Query vs Snowflake & BigQuery
-meta_desc: CorpusIQ MCP real-time query vs data warehouses like Snowflake, BigQuery, Redshift. Live query vs stored data for AI-powered business intelligence.
+title: CorpusIQ vs Data Warehouses — MCP Live Query vs Snowflake & BigQuery
+description: CorpusIQ MCP real-time query vs data warehouses like Snowflake, BigQuery, Redshift. Live query vs stored data for AI-powered business intelligence.
 h1: CorpusIQ vs Data Warehouses — MCP Live Query vs Stored Data
 url: /docs/corpusiq-vs-data-warehouses/
 author: CorpusIQ

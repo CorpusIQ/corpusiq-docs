@@ -4,8 +4,8 @@ description: Generate automated HubSpot reports using AI. Pipeline reports, rep 
   CorpusIQ MCP.
 url: /docs/hubspot-ai-reporting
 h1: 'HubSpot AI Reporting: Automated CRM Intelligence at Conversation Speed'
-meta_title: HubSpot AI Reporting — Automated CRM Reports & Analytics | CorpusIQ
-meta_description: Automate HubSpot reporting with AI. Generate pipeline reports, rep dashboards, deal analytics, contact segments, and campaign attribution reports through natural language — no report builder
+title: HubSpot AI Reporting — Automated CRM Reports & Analytics | CorpusIQ
+description: Automate HubSpot reporting with AI. Generate pipeline reports, rep dashboards, deal analytics, contact segments, and campaign attribution reports through natural language — no report builder
   required.
 keywords:
 - HubSpot AI reporting

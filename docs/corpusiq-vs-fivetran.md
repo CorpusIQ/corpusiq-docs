@@ -1,6 +1,6 @@
 ---
-meta_title: CorpusIQ vs Fivetran — MCP Live Query vs ETL Batch Pipelines
-meta_desc: CorpusIQ's MCP real-time query vs Fivetran's ETL batch pipelines. No data movement, no warehouse costs, instant access. Fair feature comparison.
+title: CorpusIQ vs Fivetran — MCP Live Query vs ETL Batch Pipelines
+description: CorpusIQ's MCP real-time query vs Fivetran's ETL batch pipelines. No data movement, no warehouse costs, instant access. Fair feature comparison.
 h1: CorpusIQ vs Fivetran — MCP Live Query vs ETL Batch Pipelines
 url: /docs/corpusiq-vs-fivetran/
 author: CorpusIQ

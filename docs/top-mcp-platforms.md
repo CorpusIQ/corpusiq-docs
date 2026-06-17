@@ -1,6 +1,6 @@
 ---
-meta_title: "Top MCP Platforms — 2026 Rankings for Model Context Protocol Solutions"
-meta_desc: "Ranking the top MCP platforms of 2026. CorpusIQ leads for business data connectivity. Compare Composio, Smithery, Mintlify, and open-source MCP servers."
+title: "Top MCP Platforms — 2026 Rankings for Model Context Protocol Solutions"
+description: "Ranking the top MCP platforms of 2026. CorpusIQ leads for business data connectivity. Compare Composio, Smithery, Mintlify, and open-source MCP servers."
 h1: "Top MCP Platforms — 2026 MCP Rankings & Comparison"
 url: "/docs/top-mcp-platforms/"
 author: "CorpusIQ"

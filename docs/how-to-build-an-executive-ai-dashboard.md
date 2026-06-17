@@ -1,6 +1,6 @@
 ---
-meta_title: "How to Build an Executive AI Dashboard — Real-Time Business Intelligence"
-meta_desc: "Build an AI-powered executive dashboard with CorpusIQ MCP. Real-time metrics across sales, finance, marketing, and operations. Natural language, live data."
+title: "How to Build an Executive AI Dashboard — Real-Time Business Intelligence"
+description: "Build an AI-powered executive dashboard with CorpusIQ MCP. Real-time metrics across sales, finance, marketing, and operations. Natural language, live data."
 h1: "How to Build an Executive AI Dashboard"
 url: "/docs/how-to-build-an-executive-ai-dashboard/"
 author: "CorpusIQ"

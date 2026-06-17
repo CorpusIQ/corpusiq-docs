@@ -1,6 +1,6 @@
 ---
-meta_title: "How to Connect Business Data to ChatGPT — Step-by-Step Guide with CorpusIQ"
-meta_desc: "Connect your business data to ChatGPT in under 2 minutes with CorpusIQ MCP. Step-by-step guide for HubSpot, QuickBooks, Stripe, GA4, and 50+ sources."
+title: "How to Connect Business Data to ChatGPT — Step-by-Step Guide with CorpusIQ"
+description: "Connect your business data to ChatGPT in under 2 minutes with CorpusIQ MCP. Step-by-step guide for HubSpot, QuickBooks, Stripe, GA4, and 50+ sources."
 h1: "How to Connect Business Data to ChatGPT"
 url: "/docs/how-to-connect-business-data-to-chatgpt/"
 author: "CorpusIQ"
