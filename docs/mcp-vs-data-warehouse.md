@@ -196,8 +196,8 @@ MCP queries return data in the source system's native format, and the AI model i
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*Compare MCP vs Data Warehouse: Live Query vs Batch ETL for Busine... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*Compare MCP vs Data Warehouse: Live Query vs Batch ETL for Busine... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*

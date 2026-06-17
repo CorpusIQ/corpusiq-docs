@@ -19,8 +19,8 @@ tags: ["corpusiq vs airbyte", "airbyte alternative", "mcp data connector", "ai b
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*Compare CorpusIQ vs Airbyte — MCP-Native vs Traditional Data Pipe... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*Compare CorpusIQ vs Airbyte — MCP-Native vs Traditional Data Pipe... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*

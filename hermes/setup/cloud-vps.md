@@ -226,8 +226,8 @@ The systemd service with `Restart=always` ensures Hermes Agent restarts automati
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*From the [Hermes Setup Guides](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/setup) — deploy Hermes Agent on any hardware. Built by [CorpusIQ](https://www.corpusiq.io).*
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*From the [Hermes Setup Guides](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/setup) — deploy Hermes Agent on any hardware. Built by [CorpusIQ](https://www.corpusiq.io).*

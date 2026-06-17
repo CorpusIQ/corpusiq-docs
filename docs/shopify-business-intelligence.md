@@ -240,8 +240,8 @@ Building a business intelligence capability used to require data warehouses, ETL
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*AI-powered Shopify Business Intelligence — AI-Powered Ecommerce BI |... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*AI-powered Shopify Business Intelligence — AI-Powered Ecommerce BI |... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*

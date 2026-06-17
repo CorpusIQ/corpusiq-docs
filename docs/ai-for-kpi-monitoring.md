@@ -183,8 +183,8 @@ A: CorpusIQ provides on-demand monitoring. For automated alerts, complement with
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*AI-powered AI for KPI Monitoring | CorpusIQ MCP Platform for Metric ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*AI-powered AI for KPI Monitoring | CorpusIQ MCP Platform for Metric ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*

@@ -190,8 +190,8 @@ Yes. The API returns data based on the property's configured reporting identity 
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*Connect Connect Google Analytics to Claude via MCP — Live Data, N... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*Connect Connect Google Analytics to Claude via MCP — Live Data, N... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*

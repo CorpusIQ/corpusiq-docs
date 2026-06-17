@@ -267,8 +267,8 @@ Under 5 minutes from signup to Jira answers in ChatGPT. No JQL required.
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*Connect Connect Jira to ChatGPT via MCP — Live Data, No Code | Co... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*Connect Connect Jira to ChatGPT via MCP — Live Data, No Code | Co... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*

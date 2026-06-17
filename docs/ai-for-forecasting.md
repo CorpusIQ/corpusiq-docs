@@ -164,8 +164,8 @@ A: With AI, continuous forecasting becomes practical. Many organizations benefit
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*AI-powered AI for Forecasting | CorpusIQ MCP Platform for Predictive... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*AI-powered AI for Forecasting | CorpusIQ MCP Platform for Predictive... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*

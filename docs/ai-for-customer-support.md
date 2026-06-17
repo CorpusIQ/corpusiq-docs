@@ -178,8 +178,8 @@ A: Yes. Team-level access controls determine which connectors each user can quer
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*AI-powered AI for Customer Support | CorpusIQ MCP Platform for Suppo... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*AI-powered AI for Customer Support | CorpusIQ MCP Platform for Suppo... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*

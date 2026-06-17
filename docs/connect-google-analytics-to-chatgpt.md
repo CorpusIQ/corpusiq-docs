@@ -271,8 +271,8 @@ The GA4 Data API is powerful but requires significant engineering to make conver
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*Connect Connect Google Analytics to ChatGPT via MCP — Live Data, ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*Connect Connect Google Analytics to ChatGPT via MCP — Live Data, ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*

@@ -279,8 +279,8 @@ NetSuite setup takes 5-10 minutes of admin time, one time only. After that, any 
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*Connect Connect NetSuite to ChatGPT via MCP — Live Data, No Code ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
 ---
-*Powered by [CorpusIQ](https://www.corpusiq.io) — Accelerate your business. All your tools in one place.*
+*Connect Connect NetSuite to ChatGPT via MCP — Live Data, No Code ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
