@@ -1,13 +1,13 @@
 ---
 title: Hermes Ecosystem — Complete Resource Directory
-description: The definitive directory of Hermes Agent resources — 296+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
+description: The definitive directory of Hermes Agent resources — 302+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
 ---
 
 # Hermes Ecosystem — Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 296 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 302 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 16, 2026 · **Repos indexed:** 296 · **Categories:** 18
+> **Last updated:** June 16, 2026 · **Repos indexed:** 302 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -19,14 +19,14 @@ The most comprehensive directory of Hermes Agent resources in existence. 296 rep
 |----------|-------|------|
 | [Core & Official](#-core--official) | 5 | [↓](#-core--official) |
 | [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
-| [Community & Awesome Lists](#-community--awesome-lists) | 24 | [↓](#-community--awesome-lists) |
+| [Community & Awesome Lists](#-community--awesome-lists) | 26 | [↓](#-community--awesome-lists) |
 | [UI & Dashboards](#-ui--dashboards) | 10 | [↓](#-ui--dashboards) |
 | [Memory & Knowledge](#-memory--knowledge) | 18 | [↓](#-memory--knowledge) |
-| [MCP & Integrations](#-mcp--integrations) | 20 | [↓](#-mcp--integrations) |
+| [MCP & Integrations](#-mcp--integrations) | 21 | [↓](#-mcp--integrations) |
 | [Skills & Plugins](#-skills--plugins) | 55 | [↓](#-skills--plugins) |
-| [Tools & Utilities](#-tools--utilities) | 34 | [↓](#-tools--utilities) |
+| [Tools & Utilities](#-tools--utilities) | 35 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 14 | [↓](#-orchestration-multi-agent--swarms) |
+| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 16 | [↓](#-orchestration-multi-agent--swarms) |
 | [Deployment & Infrastructure](#-deployment--infrastructure) | 14 | [↓](#-deployment--infrastructure) |
 | [Security & Governance](#-security--governance) | 5 | [↓](#-security--governance) |
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
@@ -341,7 +341,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 36+ pages, 286+ repos indexed, 133+ skills cataloged, 37+ MCP connectors, 38-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 36+ pages, 302+ repos indexed, 133+ skills cataloged, 37+ MCP connectors, 38-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture/) · [Knowledge →](/hermes/knowledge/) · [Crons →](/hermes/governance/scheduling/) · [MCP →](/hermes/mcp/)
 
@@ -364,6 +364,27 @@ Open-source marketplace with 425 plugins, 2,810 skills, and 200 agents — the l
 
 **Key capabilities:** 425 plugins, 2,810 skills, 200 agents, open marketplace, Hermes-compatible, largest unified repository
 **Related:** [Skills Catalog →](/hermes/skills/catalog/) · [Plugins →](/hermes/plugins/)
+
+---
+
+### anthropics/claude-code
+⭐ **132,851** · [github.com/anthropics/claude-code](https://github.com/anthropics/claude-code)
+
+Official Anthropic Claude Code repository. Agentic coding tool that lives in your terminal with full codebase understanding. Reference implementation for agent-based development workflows applicable to Hermes deployments.
+
+**Maintainer:** Anthropic
+**Key capabilities:** Agentic coding, terminal-native, full codebase understanding, reference implementation, Hermes-compatible patterns
+**Related:** [Architecture →](/hermes/architecture/)
+
+---
+
+### shareAI-lab/learn-claude-code
+⭐ **67,001** · [github.com/shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)
+
+Nano Claude Code-like agent harness built from scratch. Educational resource for understanding agent architecture patterns applicable to Hermes. Learn how agentic coding harnesses work by studying a minimal implementation.
+
+**Key capabilities:** Educational resource, agent architecture, minimal implementation, Hermes-applicable patterns, nano agent harness
+**Related:** [Architecture →](/hermes/architecture/)
 
 ---
 
@@ -876,6 +897,17 @@ Specification and documentation for the Agent Skills protocol — the standard r
 
 **Key capabilities:** Skill protocol specification, cross-platform interoperability, skill manifest standard, lifecycle definition, authoring best practices, Hermes-compatible standard
 **Related:** [Skills Catalog →](/hermes/skills/catalog/) · [MCP Guide →](/hermes/mcp/)
+
+---
+
+### ComposioHQ/composio
+⭐ **28,809** · [github.com/ComposioHQ/composio](https://github.com/ComposioHQ/composio)
+
+1,000+ toolkits, tool search, context management, authentication, and sandboxed workbench for building AI agents. Comprehensive MCP integration platform with enterprise-grade tool management for Hermes Agent deployments.
+
+**Maintainer:** Composio
+**Key capabilities:** 1,000+ toolkits, tool search, context management, authentication, sandboxed workbench, MCP-native, Hermes-compatible
+**Related:** [MCP Guide →](/hermes/mcp/)
 
 ---
 
@@ -2090,6 +2122,16 @@ Context window optimization for AI coding agents — sandboxes tool output with 
 
 ---
 
+### chopratejas/headroom
+⭐ **30,163** · [github.com/chopratejas/headroom](https://github.com/chopratejas/headroom)
+
+Compress tool outputs, logs, files, and RAG chunks before reaching the LLM. 60-95% fewer tokens, same answers. Essential cost optimization for Hermes agent deployments — dramatically reduces API costs while preserving output fidelity.
+
+**Key capabilities:** Output compression, 60-95% token reduction, tool output optimization, log compression, RAG chunk optimization, cost reduction, Hermes-compatible
+**Related:** [Infrastructure →](/hermes/infrastructure/)
+
+---
+
 ## 🎯 Orchestration, Multi-Agent & Swarms
 
 Frameworks and patterns for coordinating multiple agents.
@@ -2207,6 +2249,27 @@ Telegram-first multi-agent operating system for Hermes Agent — role-based bots
 
 **Status:** Beta  
 **Key capabilities:** Multi-agent OS, Telegram-native, role bots, topic routing, skill integration, safety guardrails, profile management
+
+---
+
+### bytedance/deer-flow
+⭐ **71,354** · `Python` · [github.com/bytedance/deer-flow](https://github.com/bytedance/deer-flow)
+
+ByteDance's open-source long-horizon SuperAgent harness. Researches, codes, and creates with sandboxes, memories, and multi-agent coordination. Architecture patterns directly applicable to Hermes deployments — long-running autonomous workflows with persistent state and multi-agent orchestration.
+
+**Maintainer:** ByteDance
+**Key capabilities:** SuperAgent harness, long-horizon execution, sandboxed research/coding, memory persistence, multi-agent coordination, Hermes-applicable patterns
+**Related:** [Architecture →](/hermes/architecture/)
+
+---
+
+### ruvnet/ruflo
+⭐ **59,849** · [github.com/ruvnet/ruflo](https://github.com/ruvnet/ruflo)
+
+Leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows with skill-based execution. Patterns transferable to Hermes agent orchestration — swarm coordination, skill delegation, and workflow automation.
+
+**Key capabilities:** Agent meta-harness, multi-agent swarms, autonomous workflow coordination, skill-based execution, Claude-native, Hermes-applicable patterns
+**Related:** [Architecture →](/hermes/architecture/)
 
 ---
 
