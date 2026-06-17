@@ -1,6 +1,6 @@
 ---
 title: June 12, 2026 — New Hermes Security & UI Skills
-description: Overnight sweep: 3 new Hermes-specific skills discovered — security attestation, traffic monitoring, and a Hermes-themed UI deck. From ClawSec and nexu-io.
+description: "Overnight sweep: 3 new Hermes-specific skills discovered — security attestation, traffic monitoring, and a Hermes-themed UI deck. From ClawSec and nexu-io."
 ---
 
 # June 12, 2026 — New Hermes Security & UI Skills

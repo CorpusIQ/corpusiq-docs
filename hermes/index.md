@@ -1,6 +1,6 @@
 ---
 title: Hermes Agent Knowledge Repository — Production Autonomous Agent Reference
-description: Complete production reference for autonomous Hermes agents: 6-layer architecture, 133+ skills, 38 crons, 6 memory systems, and 37+ MCP business connectors. Real deployment on DGX Spark + Mac Mini M4.
+description: "Complete production reference for autonomous Hermes agents: 6-layer architecture, 133+ skills, 38 crons, 6 memory systems, and 37+ MCP business connectors. Real deployment on DGX Spark + Mac Mini M4."
 category: Documentation
 tags:
   - hermes-agent
