@@ -5,9 +5,9 @@ description: The definitive directory of Hermes Agent resources — 262+ repos, 
 
 # Hermes Ecosystem — Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 262 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 268 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 16, 2026 · **Repos indexed:** 262 · **Categories:** 18
+> **Last updated:** June 16, 2026 · **Repos indexed:** 268 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -19,12 +19,12 @@ The most comprehensive directory of Hermes Agent resources in existence. 262 rep
 |----------|-------|------|
 | [Core & Official](#-core--official) | 5 | [↓](#-core--official) |
 | [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
-| [Community & Awesome Lists](#-community--awesome-lists) | 13 | [↓](#-community--awesome-lists) |
+| [Community & Awesome Lists](#-community--awesome-lists) | 16 | [↓](#-community--awesome-lists) |
 | [UI & Dashboards](#-ui--dashboards) | 10 | [↓](#-ui--dashboards) |
-| [Memory & Knowledge](#-memory--knowledge) | 16 | [↓](#-memory--knowledge) |
+| [Memory & Knowledge](#-memory--knowledge) | 17 | [↓](#-memory--knowledge) |
 | [MCP & Integrations](#-mcp--integrations) | 20 | [↓](#-mcp--integrations) |
 | [Skills & Plugins](#-skills--plugins) | 43 | [↓](#-skills--plugins) |
-| [Tools & Utilities](#-tools--utilities) | 26 | [↓](#-tools--utilities) |
+| [Tools & Utilities](#-tools--utilities) | 28 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
 | [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 13 | [↓](#-orchestration-multi-agent--swarms) |
 | [Deployment & Infrastructure](#-deployment--infrastructure) | 14 | [↓](#-deployment--infrastructure) |
@@ -268,10 +268,40 @@ Hermes Atlas — community map of every tool, skill, and integration for Hermes 
 
 ---
 
+### VoltAgent/awesome-agent-skills
+⭐ **25,574** · [github.com/VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
+
+1,000+ agent skills from official dev teams and community — the most comprehensive cross-platform agent skills directory. Curated collection of production-grade skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Hermes Agent, and other AI coding agents. Official team-verified skills alongside community contributions with quality ratings and compatibility matrices. Essential resource for discovering battle-tested skills that work across the agent ecosystem.
+
+**Key capabilities:** 1,000+ skills, official dev teams, cross-platform, community-vetted, quality ratings, compatibility matrix
+**Related:** [Skills Catalog →](/hermes/skills/catalog/)
+
+---
+
+### sickn33/antigravity-awesome-skills
+⭐ **40,916** · [github.com/sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)
+
+1,500+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, and Hermes Agent — the largest independently curated skill collection in the agent ecosystem. Massive library spanning development, content creation, automation, data analysis, and business operations. Regularly updated with new skills from the broader AI coding community. A go-to resource for Hermes users seeking proven, cross-compatible agent capabilities.
+
+**Key capabilities:** 1,500+ skills, multi-platform, Claude Code/Cursor/Codex/Gemini/Hermes, largest curated collection, continuously updated
+**Related:** [Skills Catalog →](/hermes/skills/catalog/)
+
+---
+
+### hesreallyhim/awesome-claude-code
+⭐ **46,655** · [github.com/hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)
+
+Curated skills, hooks, slash-commands, agent orchestrators, and plugins for AI coding agents — the definitive resource for extending Claude Code and Hermes Agent with community-built extensions. Covers skill development patterns, hook systems, multi-agent orchestration, and IDE integration workflows. Essential reference for anyone building on Claude Code-compatible agent frameworks including Hermes Agent, with cross-compatible skill formats and shared ecosystem patterns.
+
+**Key capabilities:** Skills catalog, hooks system, slash-commands, agent orchestrators, plugins, Claude Code + Hermes compatible, community extensions
+**Related:** [Skills Catalog →](/hermes/skills/catalog/) · [Architecture →](/hermes/architecture/)
+
+---
+
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 36+ pages, 262+ repos indexed, 133+ skills cataloged, 37+ MCP connectors, 38-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 36+ pages, 268+ repos indexed, 133+ skills cataloged, 37+ MCP connectors, 38-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture/) · [Knowledge →](/hermes/knowledge/) · [Crons →](/hermes/governance/scheduling/) · [MCP →](/hermes/mcp/)
 
@@ -482,6 +512,16 @@ Self-evolving memory operating system for LLM and AI agents — hybrid retrieval
 
 **Key capabilities:** Self-evolving memory, hybrid retrieval, cross-task persistence, automatic learning, agent-native memory OS  
 **Related:** [Memory Stack →](/hermes/knowledge/)
+
+---
+
+### stephenschoettler/hermes-lcm
+⭐ **741** · `Python` · [github.com/stephenschoettler/hermes-lcm](https://github.com/stephenschoettler/hermes-lcm)
+
+Lossless Context Management: DAG-based context engine that never loses a message — production-grade memory for Hermes Agent. Built on directed acyclic graph architecture that preserves every conversation turn with full provenance tracking, context branching, and deterministic replay. Eliminates context window truncation artifacts and enables infinite conversation depth through intelligent context graph traversal, making it the definitive solution for long-running Hermes Agent sessions requiring perfect message retention.
+
+**Key capabilities:** DAG-based context, lossless message retention, production-grade memory, context branching, deterministic replay, infinite conversation depth, Hermes-native
+**Related:** [Knowledge Architecture →](/hermes/knowledge/) · [Memory Stack →](/hermes/knowledge/)
 
 ---
 
@@ -1754,6 +1794,28 @@ Running and evaluating Hermes Agent in Telegram topic-based lanes — experiment
 Token telemetry dashboard for autonomous AI agents — track token consumption, session costs, and tool call patterns across providers in real-time. Monitor Hermes Agent spend with per-session breakdowns, provider-level analytics, and usage trend visualization. Essential cost observability for production agent deployments running 24/7.
 
 **Key capabilities:** Token tracking, cost monitoring, session analytics, multi-provider telemetry, tool call metrics, usage dashboards
+**Related:** [Infrastructure →](/hermes/infrastructure/)
+
+---
+
+### OthmanAdi/planning-with-files
+⭐ **23,451** · `Markdown` · [github.com/OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)
+
+Persistent file-based planning for AI coding agents with crash-proof markdown state — the definitive planning pattern for Hermes Agent, Claude Code, Codex, and Cursor. Maintains structured task plans across sessions using filesystem-backed state that survives crashes, context loss, and session restarts. Enables long-running multi-session agent projects with full progress tracking, task decomposition, and plan continuity across agent restarts.
+
+**Status:** Production
+**Key capabilities:** File-based planning, crash-proof state, multi-session continuity, task decomposition, progress tracking, markdown-native, cross-agent compatible
+**Related:** [Governance →](/hermes/governance/)
+
+---
+
+### stainlu/hermes-labyrinth
+⭐ **286** · `Python` · [github.com/stainlu/hermes-labyrinth](https://github.com/stainlu/hermes-labyrinth)
+
+Read-only observability plugin for Hermes Agent — journeys, crossings, guideposts, and reports. Zero-intrusion monitoring that tracks agent decision paths through conversation space without modifying agent behavior. Maps agent reasoning trails as navigable journeys with annotated crossing points, milestone guideposts, and comprehensive session reports for auditing, debugging, and performance optimization of autonomous agent workflows in production.
+
+**Status:** Beta
+**Key capabilities:** Read-only observability, agent journey tracking, decision path mapping, session reports, zero-intrusion monitoring, auditing, performance debugging, Hermes-native plugin
 **Related:** [Infrastructure →](/hermes/infrastructure/)
 
 ---
