@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 16, 2026 (morning sweep) · **Sources:** mcp.so (22,380 servers), mcpservers.org (9,000+)
+> **Last updated:** June 16, 2026 (afternoon sweep) · **Sources:** mcp.so (22,396 servers), mcpservers.org (9,000+)
 
 ---
 
@@ -456,6 +456,23 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ---
 
+## New This Week (June 16, 2026 — afternoon sweep)
+
+### 8 new servers from mcp.so Latest + mcpservers.org
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| WoopSocial | Marketing | Post to social media with AI Agent via MCP — social publishing for AI agents |
+| GuruPDF | Productivity | 126 tools — convert, compress, merge and OCR PDFs and 100+ file formats from any AI agent |
+| SERPHouse MCP | Content/Research | Real-time high-volume SERP data via MCP for competitive research and SEO |
+| engram | Dev/Infra | Local code-knowledge graph + bi-temporal mistakes memory for AI coding agents — Apache 2.0 |
+| WSP WordPress MCP | Dev/Infra | Free WordPress MCP — connect AI coding agents to WordPress for content ops |
+| Zhiji Signal Engine | Finance | Landau-Ginzburg market phase transition signals — HS300/BTC classification via x402 |
+| AppStore MCP Server | Dev/Infra | Apple App Store Connect API via MCP (Rust) — apps, IAP, subscriptions, TestFlight, provisioning |
+| Brain OS | Memory/Knowledge | Operational memory for AI agents that persists across sessions and tools |
+
+---
+
 ## New This Week (June 11, 2026 — mcp.so + mcpservers.org)
 
 ### Afternoon sweep — 10 new servers from mcp.so Latest + mcpservers.org All
@@ -595,12 +612,12 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,380 (mcp.so), 9,000+ (mcpservers.org)
+- **Total MCP servers tracked:** 22,396 (mcp.so), 9,000+ (mcpservers.org)
 - **Official servers:** 40+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, etc.)
-- **New this cycle (June 16 morning):** 46 newly catalogued servers for business operators
-- **Cumulative since June 9:** 121 MCP servers catalogued across 7 sweeps
+- **New this cycle (June 16 afternoon):** 8 newly catalogued servers for business operators
+- **Cumulative since June 9:** 129 MCP servers catalogued across 8 sweeps
 
 ---
 
