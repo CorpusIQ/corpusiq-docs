@@ -1,0 +1,31 @@
+/* CorpusIQ brand colors for MkDocs Material theme */
+:root {
+  --md-primary-fg-color: #0a2540;
+  --md-primary-fg-color--light: #1e3a5f;
+  --md-primary-fg-color--dark: #061829;
+  --md-accent-fg-color: #c9a961;
+  --md-accent-fg-color--transparent: rgba(201, 169, 97, 0.1);
+}
+
+/* Gold accent for links and interactive elements */
+.md-typeset a {
+  color: #c9a961;
+}
+
+.md-typeset a:hover {
+  color: #b8942f;
+}
+
+/* Header gradient approximation */
+.md-header {
+  background: linear-gradient(135deg, #0a2540 0%, #1e3a5f 100%);
+}
+
+/* Code block styling */
+.md-typeset code {
+  border-radius: 4px;
+}
+
+.md-typeset pre > code {
+  border-radius: 6px;
+}
