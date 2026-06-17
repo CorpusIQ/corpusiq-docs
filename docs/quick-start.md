@@ -1,3 +1,10 @@
+---
+description: >-
+  Get your first CorpusIQ query running in under five minutes — sign up,
+  connect a business tool, and ask a natural-language question with cited
+  answers.
+---
+
 # Quick Start
 
 Get your first CorpusIQ query running in under five minutes.

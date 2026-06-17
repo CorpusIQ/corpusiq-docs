@@ -1,3 +1,10 @@
+---
+description: >-
+  CorpusIQ security: read-only access to every connected tool, AES-256
+  encryption, ephemeral by design, and source citations on every answer.
+  We never write to your systems.
+---
+
 # Security
 
 CorpusIQ is designed with security as a foundational requirement. All access is read-only. We never write to your systems.

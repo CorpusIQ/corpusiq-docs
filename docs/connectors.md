@@ -1,3 +1,10 @@
+---
+description: >-
+  CorpusIQ integrates with 37+ business tools through read-only OAuth —
+  email, CRM, e-commerce, analytics, and databases — for natural-language
+  queries across your entire data stack.
+---
+
 # Connectors
 
 CorpusIQ integrates with 37+ business tools through read-only OAuth connections. Each connector maps to a specific SaaS application or database, enabling natural-language queries across your entire data stack.

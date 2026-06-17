@@ -1,3 +1,10 @@
+---
+description: >-
+  Use CorpusIQ inside ChatGPT — available on the ChatGPT app store. Ask
+  natural-language questions across your connected business tools and get
+  cited answers without leaving the chat.
+---
+
 # ChatGPT Integration
 
 CorpusIQ is available on the ChatGPT app store.

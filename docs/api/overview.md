@@ -1,3 +1,10 @@
+---
+description: >-
+  CorpusIQ REST API reference — query connected business tools, search
+  encrypted archives, and manage user data over a Bearer-authenticated
+  JSON API at https://api.corpusiq.io/v1.
+---
+
 # API Overview
 
 CorpusIQ exposes a REST API at `https://api.corpusiq.io/v1` that allows AI assistants and client applications to query connected business tools, search encrypted archives, and manage user data. All requests are authenticated via Bearer tokens and respond with JSON.

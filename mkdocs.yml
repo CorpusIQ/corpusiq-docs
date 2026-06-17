@@ -1,5 +1,9 @@
 site_name: CorpusIQ Docs
 site_url: https://www.corpusiq.io/docs/
+site_description: >-
+  CorpusIQ is a private AI acceleration layer that connects 37+ business tools
+  to ChatGPT, Claude, and Perplexity via the Model Context Protocol (MCP).
+  Read-only, cited answers across your entire data stack — no data moved or stored.
 repo_url: https://github.com/CorpusIQ/corpusiq-docs
 repo_name: CorpusIQ/corpusiq-docs
 edit_uri: edit/main/docs/
