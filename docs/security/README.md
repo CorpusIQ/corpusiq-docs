@@ -1,4 +1,10 @@
 ---
+description: >-
+  CorpusIQ security: read-only access to every connected tool, AES-256
+  encryption, ephemeral by design, and source citations on every answer.
+  We never write to your systems.
+---
+
 meta_title: "CorpusIQ Security Overview — Authentication, Encryption, and Read-Only Access"
 meta_desc: "CorpusIQ security overview: OAuth 2.0 authentication for agents and chat users, TLS 1.3 encryption, read-only data access policy, audit logging, data handling, and security best practices."
 category: "Documentation"

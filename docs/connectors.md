@@ -1,4 +1,10 @@
 ---
+description: >-
+  CorpusIQ integrates with 37+ business tools through read-only OAuth —
+  email, CRM, e-commerce, analytics, and databases — for natural-language
+  queries across your entire data stack.
+---
+
 meta_title: "CorpusIQ Connectors — 50+ Business Data Integrations for AI"
 meta_desc: "Complete directory of CorpusIQ connectors: CRM (HubSpot, Salesforce), accounting (QuickBooks), payments (Stripe), analytics (GA4), marketing (Klaviyo, Meta Ads), databases, and 50+ more read-only integrations."
 category: "Documentation"

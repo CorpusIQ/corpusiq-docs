@@ -1,4 +1,10 @@
 ---
+description: >-
+  CorpusIQ connects 37+ business tools to ChatGPT, Claude, and Perplexity via
+  MCP. Ask one question, get cited answers from all your tools — read-only,
+  with no data moved or stored.
+---
+
 meta_title: "CorpusIQ Documentation — Connect Business Data to ChatGPT & Claude"
 meta_desc: "CorpusIQ is a private AI acceleration layer connecting 50+ business tools to ChatGPT, Claude, and AI agents. Real-time, read-only access to CRM, accounting, analytics, and more via MCP."
 category: "Documentation"

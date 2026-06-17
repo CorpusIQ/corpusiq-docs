@@ -1,4 +1,10 @@
 ---
+description: >-
+  Get your first CorpusIQ query running in under five minutes — sign up,
+  connect a business tool, and ask a natural-language question with cited
+  answers.
+---
+
 meta_title: "CorpusIQ Quick Start Guide — Connect Business Data to AI in 5 Minutes"
 meta_desc: "Get your first CorpusIQ query running in under 5 minutes. Step-by-step guide: sign up, connect business tools via OAuth, get API token, and query CRM, accounting, or analytics with natural language."
 category: "Documentation"
