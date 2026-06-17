@@ -276,3 +276,7 @@ The GA4 Data API is powerful but requires significant engineering to make conver
 
 ---
 *Connect Connect Google Analytics to ChatGPT via MCP — Live Data, ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

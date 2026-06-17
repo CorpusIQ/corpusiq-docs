@@ -36,3 +36,7 @@ CorpusIQ never uploads, edits, deletes, or moves files.
 - **"Token expired"** — Disconnect and reconnect from Settings → Connectors.
 - **Can't find a file** — Search uses Dropbox's index, which can lag for very recent uploads. Wait a few minutes and try again.
 - **PDF reads blank** — Image-only PDFs need OCR; CorpusIQ only reads embedded text.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

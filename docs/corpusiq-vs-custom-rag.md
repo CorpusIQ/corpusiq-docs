@@ -220,3 +220,7 @@ A: CorpusIQ is a managed platform. For custom logic, you can combine CorpusIQ (f
 ---
 
 *Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -274,3 +274,7 @@ Setup takes under 5 minutes. No code. No CSV exports. No data warehouse configur
 
 ---
 *Connect Connect QuickBooks to ChatGPT via MCP — Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

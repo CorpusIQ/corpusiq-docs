@@ -104,3 +104,7 @@ Pull the plug on any connector at any time and it stops reading that
 tool immediately. No retention. No "but we already have a copy."
 
 That's the deal.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

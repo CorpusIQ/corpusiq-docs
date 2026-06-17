@@ -38,3 +38,7 @@ Read-only. CorpusIQ never modifies your GA4 property.
 "Google Ads drove 4,200 clicks last week. How many turned into purchases in GA4, and what was the revenue?" — one question, answered across both platforms in 30 seconds.
 
 [Start free — connect GA4 to Claude](https://www.corpusiq.io)
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

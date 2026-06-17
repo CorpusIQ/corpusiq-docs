@@ -38,3 +38,7 @@ CorpusIQ never creates listings, edits inventory, or refunds orders.
 - **Inventory empty** — If you don't use FBA, inventory will be empty by design. Use orders to track sell-through instead.
 
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + vendor public docs. Verify before publish. -->
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

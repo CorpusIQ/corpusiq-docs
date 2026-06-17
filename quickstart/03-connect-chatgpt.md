@@ -46,3 +46,7 @@ you authenticate them — that's the next step.
 ## Trouble?
 
 See [ChatGPT can't see CorpusIQ](../troubleshooting/chatgpt-cant-see-corpusiq.md).
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -266,3 +266,7 @@ QuickBooks is where your financial truth lives. CorpusIQ Business Intelligence m
 
 ---
 *AI-powered QuickBooks Business Intelligence — AI-Powered BI Platform... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

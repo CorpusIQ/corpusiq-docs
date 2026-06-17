@@ -84,3 +84,7 @@ The flow is the same for every connector:
 
 Connector-specific notes — required plans, admin roles, choosing the right
 account out of several — are on each individual page.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

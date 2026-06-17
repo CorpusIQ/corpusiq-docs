@@ -36,3 +36,7 @@ CorpusIQ never sends mail, deletes messages, or marks anything read.
 - **"Authentication failed"** — Most providers (Fastmail, iCloud, Yahoo, Gmail) require an *app password*, not your main account password. Generate one in your provider's security settings.
 - **TLS errors** — Use port 993 with SSL, not 143 plain. If your provider uses STARTTLS on 143, switch to 993.
 - **Folder list looks short** — Some providers hide certain folders (Trash, Spam) unless subscribed. Subscribe to them in your mail client first.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

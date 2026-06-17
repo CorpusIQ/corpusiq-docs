@@ -119,3 +119,7 @@ Next step: check Search Console impressions for these URLs in 48 hours.
 - **Deleted page handling:** Submit deleted URLs too — IndexNow notifies engines to deindex.
 - **Semrush pair:** After submission, pull Semrush ranking snapshots weekly to measure
   position improvement tied to the IndexNow push.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

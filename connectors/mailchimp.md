@@ -36,3 +36,7 @@ Read-only. CorpusIQ never sends mail, edits campaigns, or changes your lists.
 - "Authorization failed" — your Mailchimp session expired. Log into Mailchimp in another tab, then retry Connect.
 - No campaigns appear — confirm the campaigns are in Sent status, not Draft.
 - Wrong audience showing — Mailchimp accounts can have multiple audiences. Specify the audience name in your question.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

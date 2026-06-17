@@ -206,3 +206,7 @@ CorpusIQ maintains the MCP connectors, so API changes are handled on the platfor
 
 ---
 *Compare MCP vs Zapier: Real-Time AI Queries vs Polling Workflows ... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

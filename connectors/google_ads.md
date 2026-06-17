@@ -41,3 +41,7 @@ CorpusIQ never creates campaigns, changes bids, or pauses ads.
 - **"No accounts found"** — The Google user you signed in with doesn't have access to any Ads account. Add yourself in Google Ads → Tools → Access and Security.
 - **MCC errors** — If you manage accounts through an MCC, you'll need to pass the manager customer ID as `login_customer_id` when querying client accounts.
 - **Conversion counts seem low** — Google Ads only counts conversions configured in the Ads conversion settings. If you rely on GA4 imported conversions, check that the import is active.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

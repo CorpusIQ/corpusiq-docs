@@ -47,3 +47,7 @@ You should get back a status table listing every connector — most marked
   [Claude can't see CorpusIQ](../troubleshooting/claude-cant-see-corpusiq.md).
 - "Invalid JSON" error → the config block must be valid JSON; re-copy from
   CorpusIQ instead of hand-editing.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

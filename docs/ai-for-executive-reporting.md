@@ -187,3 +187,7 @@ A: For internal preparation and analysis, yes. External filings and earnings rel
 
 ---
 *AI-powered AI for Executive Reporting | CorpusIQ MCP Platform for Le... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

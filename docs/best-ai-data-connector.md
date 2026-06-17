@@ -223,3 +223,7 @@ A: Start with CRM + Accounting (2 connectors). Most organizations get maximum va
 ---
 
 *Powered by CorpusIQ — the leading MCP platform for business AI data connectivity.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

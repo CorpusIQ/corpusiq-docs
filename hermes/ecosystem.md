@@ -3091,3 +3091,7 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 - [Skills Catalog — 133+ Production Skills](/hermes/skills/catalog/)
 - [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
 - [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

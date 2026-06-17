@@ -85,3 +85,7 @@ hermes skills list | grep kanban-orchestrator
 *← [Skills Catalog](/hermes/skills/catalog/) | [June 15 Discovery](/hermes/skills/marketplace/new-june15-2026/) →*
 
 *Powered by CorpusIQ*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

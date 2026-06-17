@@ -32,3 +32,7 @@ Read-only. CorpusIQ never initiates charges or modifies your Stripe account.
 "Do our Stripe payouts match what QuickBooks shows as income this month?" — CorpusIQ pulls both and flags any gap. The question most finance teams spend hours on, answered in 30 seconds.
 
 [Connect Stripe to Claude free](https://www.corpusiq.io)
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

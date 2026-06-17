@@ -83,3 +83,7 @@ Send support:
 - Your operating system (Mac or Windows, version).
 - The contents of `claude_desktop_config.json` (redact any tokens).
 - A screenshot of Claude's MCP/connector panel.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

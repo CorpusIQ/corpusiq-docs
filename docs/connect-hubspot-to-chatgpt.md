@@ -265,3 +265,7 @@ Under 5 minutes from signup to your first CRM query in ChatGPT.
 
 ---
 *Connect Connect HubSpot to ChatGPT via MCP — Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

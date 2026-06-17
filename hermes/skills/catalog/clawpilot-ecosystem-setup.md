@@ -121,3 +121,7 @@ hermes --skills clawpilot-config "Check if this host is ready for PocketClaw pai
 *← [Skills Catalog](/hermes/skills/catalog/) | [Discovery Page](/hermes/skills/marketplace/new-june16-2026/) →*
 
 *Powered by CorpusIQ*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -40,3 +40,7 @@ Tools: 53 live tools across 37+ connectors
 | Pre-built skills | 133+ | You write your own prompts |
 
 [Start free — 30-day trial, no credit card](https://www.corpusiq.io)
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

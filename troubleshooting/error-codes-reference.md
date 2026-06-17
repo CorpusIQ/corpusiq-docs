@@ -122,3 +122,7 @@ If your error isn't on this page, gather this info and email support:
 ---
 
 ## Powered by CorpusIQ
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

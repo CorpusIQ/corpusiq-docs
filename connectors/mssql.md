@@ -38,3 +38,7 @@ CorpusIQ runs SELECT queries only. No INSERT, UPDATE, DELETE, or DDL.
 - "Login failed" — check that SQL Authentication is enabled on the server (not just Windows Auth) and the credentials are correct.
 - "Cannot open server" — firewall is blocking CorpusIQ. Allowlist the outbound IP from your dashboard.
 - "Encryption error" — toggle "Trust server certificate" if your server uses a self-signed cert.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

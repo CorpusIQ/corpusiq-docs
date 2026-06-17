@@ -30,3 +30,7 @@ Windsor.ai answers marketing questions. CorpusIQ answers business questions — 
 "What is our true profit after ad spend, fees, returns, and COGS?" — that needs QuickBooks plus Shopify plus Google Ads plus Meta. CorpusIQ answers it in one question.
 
 [Try CorpusIQ free — 30-day trial, no credit card](https://www.corpusiq.io)
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

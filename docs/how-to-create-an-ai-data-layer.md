@@ -252,3 +252,7 @@ A: Data never leaves its source system. CorpusIQ doesn't store data. This simpli
 ---
 
 *Powered by CorpusIQ — the leading MCP platform for AI data infrastructure.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

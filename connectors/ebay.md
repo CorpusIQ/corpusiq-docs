@@ -39,3 +39,7 @@ CorpusIQ never lists items, edits listings, refunds buyers, or moves funds.
 - **"Missing finances scope"** — Disconnect and reconnect; the funds summary requires the `sell.finances` scope which is requested during OAuth.
 - **Traffic report empty** — eBay's traffic data has a 24–48 hour lag. Check yesterday's date, not today's.
 - **Standards profile blank** — New sellers don't have a standards profile yet; eBay requires a minimum order volume.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -21,3 +21,7 @@ After: "What is our churn rate vs industry average and which customer segment is
 4. Ask questions that combine your data with world knowledge
 
 [Connect Perplexity to your business data free](https://www.corpusiq.io)
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

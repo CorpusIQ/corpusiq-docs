@@ -44,3 +44,7 @@ CorpusIQ never creates pages, edits content, or modifies databases.
 - **"Page not found"** — Same issue: the integration needs explicit access to each page. You must invite it via the Connections menu on every page or database individually.
 - **"Integration token invalid"** — The token may have been regenerated. Create a new integration at notion.so/my-integrations and update the token in CorpusIQ.
 - **Block content looks incomplete** — Notion paginates block children. Large pages will return content in pages; CorpusIQ handles pagination automatically, but very large documents may need multiple calls.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

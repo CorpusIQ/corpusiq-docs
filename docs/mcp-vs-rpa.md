@@ -179,3 +179,7 @@ MCP's API-first approach provides better security characteristics than RPA. MCP 
 
 ---
 *Compare MCP vs RPA: Intelligent API Data Access vs Scripted UI Au... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

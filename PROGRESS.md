@@ -189,3 +189,7 @@ This documentation tree is suitable for Marin to convert into website pages or f
 2. Verify the 7 DOC-GAP connector pages against the actual vendor UIs before publish.
 3. Decide hosting: MkDocs Material → `docs.corpusiq.io` is the obvious answer.
 4. Add a CHANGELOG section once content stabilizes, so users can see what shipped per release.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

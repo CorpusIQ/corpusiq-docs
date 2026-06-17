@@ -233,3 +233,7 @@ Claude for Shopify through CorpusIQ brings enterprise-grade analytical depth to 
 
 ---
 *Connect Claude for Shopify — Advanced Ecommerce AI Analysis | Cor... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

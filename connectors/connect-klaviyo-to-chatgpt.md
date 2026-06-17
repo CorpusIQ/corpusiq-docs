@@ -26,3 +26,7 @@ Klaviyo shows email metrics. CorpusIQ shows what your email did to your business
 "Did our last campaign drive more Shopify revenue than our best Google Ads campaign this month?" — one question, answered across both platforms.
 
 [Connect Klaviyo to ChatGPT free](https://www.corpusiq.io)
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

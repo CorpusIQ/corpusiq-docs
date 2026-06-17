@@ -17,3 +17,7 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for submission instructions.
 
 Examples must be tested. Include prerequisites, full working code or config,
 and expected output. Do not submit placeholder or hypothetical examples.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

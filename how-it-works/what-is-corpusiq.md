@@ -69,3 +69,7 @@ five spreadsheets and one tool, you don't need CorpusIQ yet.
 - [privacy-and-security.md](privacy-and-security.md) — what CorpusIQ
   does and doesn't do with your data.
 - [../quickstart/](../quickstart/) — get connected in 10 minutes.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

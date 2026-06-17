@@ -201,18 +201,4 @@ Marketing agencies connect client accounts (Google Analytics, Meta Ads, HubSpot)
 
 ---
 
-*Meta Title: Secure AI Data Connectivity — Zero-Trust Business AI Access | CorpusIQ*
-
-*Meta Description: The most secure way to connect AI to business data. TLS 1.3, AES-256, read-only OAuth, HMAC signatures, zero data retention, CASA Tier 2 certified.*
-
-*H1: Secure AI Data Connectivity*
-
-*Suggested URL: /docs/secure-ai-data-connectivity*
-
-
----
-*[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
-
-
----
-*[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

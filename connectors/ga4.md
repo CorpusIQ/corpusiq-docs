@@ -72,3 +72,7 @@ Did the email campaign I sent Tuesday cause a traffic spike? Compare Klaviyo sen
 ---
 
 *CorpusIQ is read-only. We never write to or modify your Google Analytics data.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -481,3 +481,7 @@ authorization expired, QuickBooks rate-limits you), that's usually a
 connector problem rather than a spec problem — but `support@` is still
 the right starting point. Include the spec key and the exact question
 you asked Claude, and we can usually find the dispatch in the logs.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -274,3 +274,7 @@ A: Yes. CorpusIQ inherits permissions from source systems. Users only see data t
 ---
 
 *Powered by CorpusIQ — the leading MCP platform for AI-powered business operations.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -263,3 +263,7 @@ A: Save the question text in a document or note. The AI will run it fresh each t
 ---
 
 *Powered by CorpusIQ — the leading MCP platform for multi-source business intelligence.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

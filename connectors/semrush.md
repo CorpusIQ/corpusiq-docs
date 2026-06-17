@@ -40,3 +40,7 @@ Read-only. CorpusIQ never spends Semrush units beyond the queries you ask for.
 - "API key invalid" — confirm your Semrush plan includes API access (Business or higher) and that you have remaining API units.
 - "No data for domain" — Semrush data lags reality; very new domains may not be indexed yet.
 - High API unit consumption — each query costs units. Ask narrower questions to control spend.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

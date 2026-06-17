@@ -116,3 +116,7 @@ You control access. To remove CorpusIQ's access to Stripe, go to **Developers â†
 - **Stripe Sigma / custom Reports API** â€” likely out of scope; ask if you need it.
 
 If you need any of the above sooner, ask CorpusIQ support.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

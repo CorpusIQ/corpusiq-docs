@@ -39,3 +39,7 @@ Read-only. CorpusIQ never creates orders, edits products, refunds anything, or c
 - "Store not found" — make sure you typed the full myshopify.com domain, not your custom domain.
 - "Install rejected" — your account doesn't have app install permission. Ask the store owner to connect, or grant your staff account "manage apps" rights.
 - Numbers seem low — check the date range. Shopify timezone is the store's timezone, not yours.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

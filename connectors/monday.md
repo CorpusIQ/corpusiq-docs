@@ -35,3 +35,7 @@ Read-only. CorpusIQ never changes statuses, assigns items, or edits boards.
 - Board not showing up — confirm your Monday user has at least View access on that board.
 - "No items returned" on a large board — narrow the question to a specific group or status.
 - Auth fails — reset the Monday connector in your dashboard and reconnect.
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

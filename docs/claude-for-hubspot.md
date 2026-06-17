@@ -232,3 +232,7 @@ Claude for HubSpot through CorpusIQ brings enterprise-grade sales analytics to o
 
 ---
 *Connect Claude for HubSpot — Advanced CRM Intelligence & Sales An... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

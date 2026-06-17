@@ -272,3 +272,7 @@ A: Copy ChatGPT's responses to a document or note. Each query runs fresh against
 ---
 
 *Powered by CorpusIQ — the leading MCP platform for ChatGPT-powered business analytics.*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
