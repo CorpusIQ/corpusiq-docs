@@ -459,5 +459,54 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-17T06:01:46.266870+00:00"
+  },
+  {
+    "repo": "lenardhuebner88-rgb/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-17T08:01:46.828511+00:00"
+  },
+  {
+    "repo": "jarvisxyz/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-17T08:01:46.828525+00:00"
+  },
+  {
+    "repo": "brandon-d-logan/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-17T08:01:46.828527+00:00"
+  },
+  {
+    "repo": "hunterhcl/hermes-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-17T08:01:46.828529+00:00"
+  },
+  {
+    "repo": "rager306/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-17T08:01:46.828531+00:00"
+  },
+  {
+    "repo": "Semmoo/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-17T08:01:46.828533+00:00"
+  },
+  {
+    "repo": "susomejias/rembric",
+    "score": 43,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-17T08:01:46.828535+00:00"
   }
 ]
