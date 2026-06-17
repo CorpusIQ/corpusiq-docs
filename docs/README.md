@@ -47,3 +47,4 @@ CorpusIQ never stores your data. It translates AI assistant queries into read-on
 - **Status Page**: status.corpusiq.io
 
 For integration partners and enterprise deployments, contact sales@corpusiq.io.
+# sitemap rebuild trigger
