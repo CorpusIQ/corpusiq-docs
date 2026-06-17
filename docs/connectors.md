@@ -5,6 +5,14 @@ description: >-
   queries across your entire data stack.
 ---
 
+meta_title: "CorpusIQ Connectors — 50+ Business Data Integrations for AI"
+meta_desc: "Complete directory of CorpusIQ connectors: CRM (HubSpot, Salesforce), accounting (QuickBooks), payments (Stripe), analytics (GA4), marketing (Klaviyo, Meta Ads), databases, and 50+ more read-only integrations."
+category: "Documentation"
+tags: ["corpusiq connectors", "data integrations", "business tools ai", "oauth connectors", "crm integration", "accounting integration", "analytics connectors"]
+last_updated: "2026-06-16"
+canonical: "https://www.corpusiq.io/docs/connectors"
+robots: "index,follow"
+---
 # Connectors
 
 CorpusIQ integrates with 37+ business tools through read-only OAuth connections. Each connector maps to a specific SaaS application or database, enabling natural-language queries across your entire data stack.
@@ -126,3 +134,93 @@ CorpusIQ never requests write permissions. You can verify the exact OAuth scopes
 To check which connectors are active, paused, or need re-authentication, visit the Dashboard or use the connector status tool available in the CorpusIQ MCP server.
 
 For the latest connector count and status, visit [corpusiq.io/connectors](https://corpusiq.io/connectors).
+
+## Frequently Asked Questions
+
+**Q: How many connectors does CorpusIQ support?**  
+A: CorpusIQ supports 50+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. All connectors are read-only via OAuth.
+
+**Q: How do I connect a new data source?**  
+A: Log into the CorpusIQ Dashboard, navigate to Connections, click the service you want to connect, and complete the OAuth authorization flow. Each connection takes under 60 seconds.
+
+**Q: Are CorpusIQ connectors read-only?**  
+A: Yes. All connectors use read-only OAuth scopes. CorpusIQ never requests write permissions. You can verify the exact scopes on the OAuth authorization screen during connection setup.
+
+**Q: Does CorpusIQ support database connections?**  
+A: Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), MySQL, Azure Cosmos DB, and MongoDB — all with read-only SQL/query access.
+
+**Q: What if I need a connector that isn't listed?**  
+A: CorpusIQ adds new connectors regularly. You can request new connectors through the Dashboard or connect custom databases via the database bridge. For proprietary APIs, contact CorpusIQ about custom MCP connector development.
+
+**Q: How do I check which connectors are active?**  
+A: Visit the CorpusIQ Dashboard to see connector status (active, paused, needs re-auth). Each connector shows real-time status indicators.
+
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many connectors does CorpusIQ support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ supports 50+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. All connectors are read-only via OAuth."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I connect a new data source?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Log into the CorpusIQ Dashboard, navigate to Connections, click the service you want to connect, and complete the OAuth authorization flow. Each connection takes under 60 seconds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are CorpusIQ connectors read-only?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All connectors use read-only OAuth scopes. CorpusIQ never requests write permissions. You can verify the exact scopes on the OAuth authorization screen during connection setup."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does CorpusIQ support database connections?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), MySQL, Azure Cosmos DB, and MongoDB \u2014 all with read-only SQL/query access."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if I need a connector that isn't listed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ adds new connectors regularly. You can request new connectors through the Dashboard or connect custom databases via the database bridge. For proprietary APIs, contact CorpusIQ about custom MCP connector development."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I check which connectors are active?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Visit the CorpusIQ Dashboard to see connector status (active, paused, needs re-auth). Each connector shows real-time status indicators."
+      }
+    }
+  ]
+}}
+</script>
+## Internal Links
+
+- **[CorpusIQ Quick Start Guide](/docs/quick-start)** — Go from zero to first query in 5 minutes  
+- **[API Reference](/docs/api/overview)** — Full REST API documentation  
+- **[CorpusIQ Connectors](/docs/connectors)** — All 50+ supported integrations  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/docs/security)** — Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/docs/changelog)** — API updates and version history  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption and network security  
+
+---
+*Powered by CorpusIQ — the leading MCP platform for business data and AI.*

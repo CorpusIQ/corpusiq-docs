@@ -1,14 +1,31 @@
-# Healthcare: HIPAA-Compliant Agent Workflows
+---
+title: "Hermes Agent Healthcare Automation | HIPAA-Compliant AI Workflows for Medical Practices"
+description: "Automate patient record management, appointment scheduling, insurance verification, and lab notifications with HIPAA-compliant Hermes Agent AI workflows for healthcare."
+category: "Case Study"
+tags:
+  - healthcare
+  - HIPAA
+  - patient management
+  - insurance verification
+  - appointment scheduling
+  - AI agent
+  - medical automation
+last_updated: "2026-06-16"
+---
 
-Healthcare operations involve a dense web of scheduling, verification, record management, and privacy compliance. Hermes Agent can automate large portions of this workflow while maintaining the security boundaries HIPAA demands.
+# Hermes Agent Healthcare Automation
 
-## The Healthcare Automation Landscape
+Hermes Agent provides HIPAA-compliant AI workflows that automate patient record management, appointment scheduling, insurance verification, and lab result notifications for medical practices. Built with minimum-necessary access controls and immutable audit trails, it reduces administrative burden while maintaining full regulatory compliance.
 
-A typical medical practice or healthcare provider juggles: patient intake and registration, appointment scheduling and reminders, insurance eligibility verification, prior authorization tracking, lab result notification, and referral management. Each involves checking multiple systems — EHR, practice management software, insurance portals, lab interfaces — and each failure mode means delayed care or denied claims.
+## Overview
+
+Healthcare operations involve a dense web of scheduling, verification, record management, and privacy compliance. A typical medical practice or healthcare provider juggles: patient intake and registration, appointment scheduling and reminders, insurance eligibility verification, prior authorization tracking, lab result notification, and referral management. Each involves checking multiple systems — EHR, practice management software, insurance portals, lab interfaces — and each failure mode means delayed care or denied claims.
 
 Hermes Agent sits between these systems, coordinating data flows that currently require human staff to copy-paste between screens.
 
-## Patient Record Management
+## How It Works
+
+### Patient Record Management
 
 The most sensitive domain. Hermes can query EHR systems through database connectors (PostgreSQL, MSSQL) or API-based MCP connectors to:
 
@@ -28,7 +45,7 @@ The most sensitive domain. Hermes can query EHR systems through database connect
 
 This skill queries the schedule for the next business day, pulls each patient's chart, and checks: insurance active, recent labs received, referrals attached, demographics current. It produces a per-provider checklist of gaps, delivered to a privacy-compliant Slack channel or secure email.
 
-## Appointment Scheduling Automation
+### Appointment Scheduling Automation
 
 Hermes integrates with calendar systems (Google Calendar, Outlook, Calendly) and can:
 
@@ -46,7 +63,7 @@ Hermes integrates with calendar systems (Google Calendar, Outlook, Calendly) and
 
 The backfill skill queries recent cancellations, matches available slots against a waitlist sorted by urgency and wait time, and proposes fills. With appropriate authorization, it can automatically book standard follow-ups and flag complex cases for staff review.
 
-## Insurance Verification
+### Insurance Verification
 
 Insurance eligibility verification is the highest-volume repetitive task in most practices. Hermes can:
 
@@ -64,7 +81,7 @@ Insurance eligibility verification is the highest-volume repetitive task in most
 
 The skill produces an exception report: patients who need updated insurance information, whose coverage is terminated, or whose plan requires prior authorization for the scheduled procedure. This report routes to the billing team through their existing workflow tool.
 
-## HIPAA Compliance Patterns
+### HIPAA Compliance Patterns
 
 Every automation touching PHI must respect HIPAA's Security Rule and Privacy Rule. Key patterns:
 
@@ -90,9 +107,9 @@ Every Hermes action that accesses or processes PHI should log to an immutable au
 **Breach Detection**
 Monitor for patterns that indicate compromise: unusual query volumes, off-hours PHI access, bulk data exports. Hermes can compare current access patterns against historical baselines and alert on statistical deviations.
 
-## Lab Results Notification
+### Lab Results Notification
 
-```yarn
+```yaml
 - name: lab-result-notifier
   schedule: "0 8,12,16,20 * * *"  # Four times daily
   skill: lab-result-routing
@@ -100,6 +117,15 @@ Monitor for patterns that indicate compromise: unusual query volumes, off-hours 
 ```
 
 This skill queries the lab interface for new results, parses abnormal flags, and either delivers routine results to the patient portal or escalates critical results through on-call notification channels.
+
+## Benefits
+
+- **Reduced administrative burden** — staff reclaim hours spent on manual verification and data entry
+- **Faster patient throughput** — automated chart reviews catch gaps before appointments begin
+- **Improved revenue cycle** — insurance verification catches coverage issues before claims are submitted
+- **HIPAA compliance by design** — minimum necessary access, audit trails, and encrypted storage
+- **Better patient outcomes** — critical lab results routed immediately to providers
+- **Scalable practice operations** — same automations work for solo practice or multi-location group
 
 ## Getting Started in Healthcare
 
@@ -110,3 +136,82 @@ This skill queries the lab interface for new results, parses abnormal flags, and
 5. **Test with synthetic data first.** Before connecting to production EHR databases, validate all skills against synthetic patient records.
 
 The outcome: staff spend less time on administrative verification and more time on patient care, while compliance documentation becomes continuous rather than reactive.
+
+## FAQ
+
+### Is Hermes Agent HIPAA compliant?
+
+Hermes Agent supports HIPAA compliance through profile isolation, minimum necessary access controls, encrypted storage, immutable audit trails, and the ability to sign Business Associate Agreements (BAAs) with cloud infrastructure providers. Healthcare organizations must configure these controls appropriately for their environment.
+
+### What EHR systems can Hermes connect to?
+
+Hermes connects to any EHR with SQL database access (PostgreSQL, MSSQL) or API-based integration. Common systems include Epic, Cerner, Meditech, and Athenahealth through their respective database or API interfaces.
+
+### Can Hermes automate prior authorization?
+
+Yes. Hermes skills can query pending procedures requiring prior authorization, check payer requirements, and compile submission packets. However, final submission should always involve human review of clinical necessity documentation.
+
+### How does Hermes protect patient data?
+
+Hermes enforces column-level access controls on database queries, pseudonymizes patient identifiers in model context, runs on encrypted infrastructure, and maintains detailed access logs for every PHI interaction.
+
+### Can Hermes send automated patient communications?
+
+Hermes can draft patient communications for staff review but should not send directly without approval. Automated appointment reminders are an exception — these can be configured for direct delivery through approved communication channels.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Hermes Agent HIPAA compliant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes Agent supports HIPAA compliance through profile isolation, minimum necessary access controls, encrypted storage, immutable audit trails, and the ability to sign Business Associate Agreements (BAAs) with cloud infrastructure providers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What EHR systems can Hermes connect to?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes connects to any EHR with SQL database access (PostgreSQL, MSSQL) or API-based integration. Common systems include Epic, Cerner, Meditech, and Athenahealth through their respective database or API interfaces."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Hermes automate prior authorization?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Hermes skills can query pending procedures requiring prior authorization, check payer requirements, and compile submission packets. Final submission should always involve human review of clinical necessity documentation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Hermes protect patient data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes enforces column-level access controls on database queries, pseudonymizes patient identifiers in model context, runs on encrypted infrastructure, and maintains detailed access logs for every PHI interaction."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Hermes send automated patient communications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes can draft patient communications for staff review but should not send directly without approval. Automated appointment reminders are an exception and can be configured for direct delivery through approved communication channels."
+      }
+    }
+  ]
+}
+</script>
+
+## Related Pages
+
+- [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md) — Continuous SOC 2, HIPAA, and GDPR evidence collection
+- [Hermes Agent for Financial Services](../case-studies/financial-services.md) — Portfolio monitoring and regulatory filing
+- [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security architecture and HIPAA compliance at scale
+- [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Patient inquiry triage and SLA management
+- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem

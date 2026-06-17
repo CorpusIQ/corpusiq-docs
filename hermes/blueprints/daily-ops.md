@@ -1,6 +1,12 @@
-# Daily Operations Blueprint
+---
+title: Daily Operations Blueprint for Hermes Agent — Automate Your Business Day
+description: End-to-end Hermes Agent daily operations blueprint. Morning briefing, task triage, midday pulse check, execution monitoring, and evening wrap-up. 12 cron jobs orchestrate a complete business day with human decision gates.
+category: blueprints
+tags: [hermes-agent, blueprint, daily-operations, morning-briefing, task-triage, cron, workflow-automation]
+last_updated: 2026-06-16
+---
 
-An end-to-end automation blueprint for running daily business operations — from morning briefing through evening wrap-up. This blueprint orchestrates data gathering, task triage, execution monitoring, and end-of-day synthesis using cron-driven workflows.
+# Daily Operations Blueprint — Automate Your Business Day with Hermes Agent
 
 ## Overview
 
@@ -201,3 +207,46 @@ daily_metrics:
 - Add a **weekly review** on Friday afternoons that aggregates the week's daily reports
 - Connect to Slack for a "good morning" DM with the briefing instead of email
 - Integrate a **commute briefing** — a voice-readable summary for the drive/walk to work
+
+## FAQ
+
+### How does the Daily Operations blueprint handle data source failures?
+If a data source is unavailable (API down, credential expired), the briefing still generates with "N/A" for that source and a clear warning. One failed data pull never blocks the entire briefing — resilience is built into every stage.
+
+### Can I customize the Daily Operations blueprint schedule?
+Yes. Adjust all cron times to match your working hours and timezone. The blueprint is designed to be customized — change the morning briefing time from 7:00 AM to whenever your day starts, add or remove check-ins, and tune notification channels.
+
+### How do I extend the Daily Operations blueprint?
+Add a weekly review on Friday afternoons that aggregates the week's reports, connect to Slack for DM briefings instead of email, or integrate a commute briefing for voice-readable summaries. The pattern of data-collection → computation → action extends naturally.
+
+## Related Pages
+
+- [Automation Blueprints Overview](/hermes/blueprints/) — All workflow templates
+- [Customer Lifecycle Blueprint](customer-lifecycle.md) — Feeds customer health into morning briefings
+- [Cron Design Best Practices](/hermes/best-practices/cron-design.md) — Reliable scheduling patterns
+- [Integration Examples](/hermes/integrations/) — Connect the tools this blueprint needs
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does the Daily Operations blueprint handle data source failures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If a data source is unavailable, the briefing still generates with N/A for that source and a clear warning. One failed data pull never blocks the entire briefing — resilience is built into every Hermes Agent blueprint stage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I customize the Daily Operations blueprint schedule?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Adjust all cron times to match your working hours and timezone. Change the morning briefing from 7:00 AM to whenever your day starts, add or remove check-ins, and tune notification channels to your preferred platforms."
+      }
+    }
+  ]
+}
+</script>

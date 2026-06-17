@@ -1,12 +1,31 @@
-# Case Study: Government and Public Sector
+---
+title: "Hermes Agent Government Automation | FOIA Processing & Public Records AI"
+description: "Automate FOIA request processing, document management, constituent services, and compliance reporting with Hermes Agent AI workflows for government agencies."
+category: "Case Study"
+tags:
+  - government
+  - FOIA
+  - public records
+  - constituent services
+  - compliance reporting
+  - AI agent
+  - public sector
+last_updated: "2026-06-16"
+---
 
-Government agencies operate under unique constraints: statutory deadlines, public records requirements, procurement rules, and intense public scrutiny. Hermes automation helps public servants deliver services faster while maintaining the transparency and accountability citizens deserve.
+# Hermes Agent Government Automation
 
-## FOIA and Public Records Processing
+Hermes Agent automates FOIA processing, document management, constituent services, and compliance reporting for government agencies. Built with transparency-by-default principles and human-in-the-loop controls, it helps public servants deliver services faster while maintaining democratic accountability.
+
+## Overview
+
+Government agencies operate under unique constraints: statutory deadlines, public records requirements, procurement rules, and intense public scrutiny. Hermes automation helps public servants deliver services faster while maintaining the transparency and accountability citizens deserve. Every automated decision must be explainable to a citizen, a journalist, or an auditor.
+
+## How It Works
+
+### FOIA and Public Records Processing
 
 Freedom of Information Act (FOIA) requests are a legal obligation with strict timelines. Backlogs are common, and the manual process of searching, reviewing, and redacting is labor-intensive.
-
-**The Hermes approach to FOIA processing:**
 
 **Intake and triage.** A skill classifies incoming requests by complexity (simple lookup, multi-department search, complex review) and routes to the appropriate workflow. It checks for duplicate or substantially similar requests and identifies the likely document custodians based on the request description.
 
@@ -23,7 +42,7 @@ Flagged content is highlighted for human review. The skill never auto-redacts �
 
 **Response package assembly.** When review is complete, a skill assembles the response package: cover letter with statutory citations, responsive documents with redactions applied, fee calculation and invoice, and appeal rights notification. The package is reviewed, signed, and released.
 
-## Document Management
+### Document Management
 
 Government agencies generate enormous document volumes — policies, procedures, meeting minutes, contracts, correspondence. Finding the right document at the right time is a persistent challenge.
 
@@ -33,7 +52,7 @@ Government agencies generate enormous document volumes — policies, procedures,
 
 **Records retention automation.** Government records have mandated retention schedules. A cron reviews document metadata against the retention schedule and identifies records eligible for disposition. It generates a disposition log for the records officer's approval — never auto-deleting, always queuing for human decision.
 
-## Constituent Services
+### Constituent Services
 
 Citizens interact with government for permits, licenses, benefits, and information. Responsive constituent service builds public trust.
 
@@ -43,7 +62,7 @@ Citizens interact with government for permits, licenses, benefits, and informati
 
 **Benefits eligibility screening.** A skill helps constituents determine which benefits programs they may qualify for by asking a structured set of questions (income, household size, age, veteran status) and cross-referencing against program eligibility criteria. It provides application links and required documentation checklists — never makes eligibility determinations, just screens and informs.
 
-## Compliance Reporting
+### Compliance Reporting
 
 Government agencies report to oversight bodies, legislative committees, and federal grant managers. Missing a reporting deadline can jeopardize funding.
 
@@ -53,24 +72,102 @@ Government agencies report to oversight bodies, legislative committees, and fede
 
 **Audit preparation.** A skill that pre-assembles audit evidence packages: financial reconciliations, procurement documentation, performance metrics with source data, and policy attestations with version history. When auditors arrive, the documentation is organized and traceable.
 
+## Benefits
+
+- **Faster FOIA response** — document retrieval and redaction assistance cuts processing time significantly
+- **Reduced backlogs** — automated triage and routing prevents requests from stalling
+- **Better constituent experience** — permit status lookups and 311 triage provide immediate answers
+- **Compliant by design** — every decision documented with statutory basis and human approval
+- **Audit-ready documentation** — evidence packages pre-assembled with full provenance
+- **Accessible public services** — output formats meet Section 508/WCAG standards
+
 ## Key Principles for Government Deployments
 
-**Transparency by default.** Every automated decision should be explainable to a citizen, a journalist, or an auditor. Logs should show what data was accessed, what analysis was performed, and what recommendations were made. The "black box" is not acceptable in government.
+**Transparency by default.** Every automated decision should be explainable to a citizen, a journalist, or an auditor. Logs should show what data was accessed, what analysis was performed, and what recommendations were made.
 
 **Human decision authority.** Hermes recommends, drafts, and analyzes — but never makes final determinations on benefits eligibility, permit approval, FOIA exemptions, or any decision affecting individual rights. The human-in-the-loop is not optional; it's the law.
 
-**Security and privacy.** Government data includes PII, law enforcement sensitive information, and critical infrastructure details. Data handling must comply with FISMA, state privacy laws, and agency-specific security requirements. Never store sensitive data in model context longer than necessary.
+**Security and privacy.** Government data includes PII, law enforcement sensitive information, and critical infrastructure details. Data handling must comply with FISMA, state privacy laws, and agency-specific security requirements.
 
 **Accessibility.** Public-facing services must meet Section 508/WCAG accessibility standards. Output formats, notifications, and interfaces should be accessible to citizens with disabilities.
 
 **Procurement compliance.** Government IT procurement has specific rules. MCP servers and Hermes deployments must comply with FedRAMP, StateRAMP, or equivalent authorization frameworks where applicable.
 
-## Anti-Patterns Specific to Government
+## FAQ
 
-- Auto-redacting without human review (creates legal liability for improper withholding)
-- Storing constituent PII in model training data or persistent logs
-- Using Hermes to make eligibility determinations without documented, auditable criteria
-- Automating public communications without public information officer review
-- Connecting to law enforcement databases without explicit legal authorization for each access pattern
+### Is Hermes Agent FedRAMP authorized?
 
-Government automation succeeds when it makes public servants more effective without removing the human judgment that democratic accountability demands.
+Hermes Agent deployments in government must comply with FedRAMP, StateRAMP, or equivalent authorization frameworks depending on the agency and data classification. Hermes supports the security controls needed for authorization but agencies must complete their own ATO process.
+
+### Can Hermes automatically redact FOIA documents?
+
+No. Hermes flags potential exemption material and cites the statutory basis, but all redaction decisions must be made by a human reviewing officer. Auto-redaction without human review creates legal liability for improper withholding.
+
+### How does Hermes handle constituent PII?
+
+Hermes enforces minimum necessary access, pseudonymizes identifiers where possible, and never retains PII in persistent logs or model context. All data handling must comply with FISMA and agency-specific privacy requirements.
+
+### Can Hermes make benefits eligibility determinations?
+
+No. Hermes screens constituents against published eligibility criteria and provides application guidance, but it never makes eligibility determinations. Final decisions affecting individual rights must be made by authorized human personnel.
+
+### What government systems does Hermes connect to?
+
+Hermes connects to document management systems, email archives, permit databases, 311/CRM systems, grant management platforms, and financial systems through database connectors (PostgreSQL, MSSQL) and API-based MCP integrations.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Hermes Agent FedRAMP authorized?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes Agent deployments must comply with FedRAMP, StateRAMP, or equivalent authorization frameworks. Hermes supports the security controls needed for authorization but agencies must complete their own ATO process."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Hermes automatically redact FOIA documents?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Hermes flags potential exemption material and cites the statutory basis, but all redaction decisions must be made by a human reviewing officer. Auto-redaction without human review creates legal liability for improper withholding."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Hermes handle constituent PII?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes enforces minimum necessary access, pseudonymizes identifiers where possible, and never retains PII in persistent logs or model context. All data handling must comply with FISMA and agency-specific privacy requirements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Hermes make benefits eligibility determinations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Hermes screens constituents against published eligibility criteria and provides application guidance, but it never makes eligibility determinations. Final decisions must be made by authorized human personnel."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What government systems does Hermes connect to?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes connects to document management systems, email archives, permit databases, 311/CRM systems, grant management platforms, and financial systems through database connectors and API-based MCP integrations."
+      }
+    }
+  ]
+}
+</script>
+
+## Related Pages
+
+- [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md) — SOC 2, HIPAA, and GDPR evidence collection
+- [Hermes Agent for Legal Firms](../case-studies/legal-firms.md) — Document review and deadline tracking
+- [Hermes Agent for Education](../case-studies/education.md) — Public education administrative workflows
+- [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security architecture and compliance at scale
+- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem

@@ -1,100 +1,162 @@
-# Hermes Agent Outputs & Implementation Guide
+---
+title: Hermes Agent Outputs — Real-World Implementation Guides & Case Studies
+description: Field manual of Hermes Agent implementations: industry case studies, company-size guides, and copy-paste cron templates. Real automations for compliance, healthcare, finance, manufacturing, and more.
+category: Outputs
+tags:
+  - case-studies
+  - implementation-guides
+  - automation-templates
+  - industry-examples
+  - hermes-outputs
+last_updated: 2026-06-16
+---
 
-Welcome to the Hermes Agent field manual. This section shows you what Hermes can do in practice — not through feature lists or marketing claims, but through concrete, copy-paste-ready implementations organized by industry, company size, and workflow pattern. Every guide here includes real cron schedules, real skill patterns, and real integration examples you can adapt and deploy.
+# Hermes Agent Outputs & Implementation Guide — Real-World Patterns That Work
 
-## What You'll Find Here
+Welcome to the **Hermes Agent field manual**. This section shows what Hermes can do in practice — not through feature lists, but through **concrete, copy-paste-ready implementations** organized by industry, company size, and workflow pattern. Every guide includes real cron schedules, real skill patterns, and real integration examples you can adapt and deploy today.
 
-This isn't documentation about Hermes. It's documentation for *using* Hermes — patterns that work, automations that pay for themselves in the first week, and architectures that scale from solo founder to enterprise.
+## Overview
 
-### By Industry (Case Studies)
+**This isn't documentation about Hermes. It's documentation for *using* Hermes** — patterns that work, automations that pay for themselves in the first week, and architectures that scale from solo founder to enterprise. Each guide is built from production-tested deployments running on [real infrastructure](/hermes/infrastructure/).
 
-Each industry case study covers the specific workflows, compliance requirements, and tool integrations that matter in that domain. They include exact cron schedules, skill descriptions, and data source configurations.
-
-| Case Study | What You'll Learn |
-|------------|-------------------|
-| [Compliance & Audit](case-studies/compliance-audit.md) | SOC 2 evidence collection, HIPAA audit trails, GDPR compliance checks, change management monitoring, and continuous reporting for audit readiness |
-| [Healthcare](case-studies/healthcare.md) | Patient record management, appointment scheduling, insurance verification, lab result notification, and HIPAA-compliant agent workflows with privacy-first patterns |
-| [Financial Services](case-studies/financial-services.md) | Portfolio monitoring and drift detection, daily transaction reconciliation, fraud pattern detection, regulatory filing automation, and market data integration |
-| [Manufacturing](case-studies/manufacturing.md) | Supply chain monitoring, inventory reorder automation, quality control with SPC rules, equipment maintenance scheduling, and IoT sensor integration patterns |
-| [Real Estate](case-studies/real-estate.md) | Multi-platform listing syndication, lead qualification and routing, market analysis automation, showing coordination, and transaction milestone tracking |
-| [Professional Services](case-studies/professional-services.md) | Client onboarding orchestration, calendar-to-timesheet automation, project budget burn monitoring, invoice generation, and weekly client status reporting |
-| [Customer Support](case-studies/customer-support.md) | Multi-channel ticket triage, knowledge base search integration, real-time SLA monitoring with escalation, intelligent routing, and customer health signal detection |
-| [Revenue Operations](case-studies/revenue-operations.md) | Pipeline hygiene enforcement, weighted forecasting, commission calculation, cross-source revenue reconciliation, and marketing-to-sales handoff tracking |
-
-### By Company Size
-
-The same Hermes Agent adapts to vastly different environments. These guides cover the patterns, infrastructure, and governance appropriate to your stage.
-
-| Guide | For Teams Of | Focus |
-|-------|-------------|-------|
-| [Startup](by-company-size/startup.md) | 1-50 employees | Solo founder patterns, essential crons, scrappy setup with free tiers, doing more with less, scaling automation with your company |
-| [Mid-Market](by-company-size/mid-market.md) | 50-500 employees | Multi-team orchestration, departmental profiles, approval workflows, shared infrastructure, governance without bureaucracy |
-| [Enterprise](by-company-size/enterprise.md) | 500+ employees | Security compliance, multi-region deployment, segregation of duties, change management integration, audit-grade logging, framework-specific compliance (SOC 2, HIPAA, GDPR, SOX) |
-
-### Workflow Templates
-
-Ready-to-deploy cron + skill templates for the most common automation needs.
-
-[**Copy-Paste Cron Templates**](workflows/templates.md) — A field guide of YAML cron configurations you can drop into `~/.hermes/cron/` today. Covers:
-
-- **Email monitoring:** Support inbox triage, vendor invoice detection, lead alert monitoring
-- **Report generation:** Daily executive summary, weekly business review, monthly close package
-- **Data sync:** CRM-to-billing reconciliation, database-to-analytics validation, multi-platform listing sync
-- **Alerting:** Metric anomaly detection, SLA breach warnings, system health checks
-- **Integration-specific:** Stripe revenue monitoring, GA4 traffic anomaly detection, CRM pipeline health
-
-Each template includes the cron schedule, skill description, data sources, and output destination. Replace the placeholder values with your own and deploy.
-
-## How to Use These Guides
+## How It Works
 
 ### If You're New to Hermes Agent
 
-1. **Start with the Startup guide** regardless of your company size — it covers the fundamentals of building your first automations.
-2. **Read the Workflow Templates next** — pick one template that solves your most painful manual task and deploy it today.
-3. **Then explore the case study for your industry** — it'll show you patterns specific to your domain.
+1. **Start with the [Startup guide](by-company-size/startup.md)** — covers fundamentals of building your first automations
+2. **Read the [Workflow Templates](workflows/templates.md) next** — pick one template that solves your most painful manual task
+3. **Then explore your [industry case study](#by-industry-case-studies)** — patterns specific to your domain
 
 ### If You're Scaling Your Usage
 
-1. **Read the company-size guide that matches your current stage** — the patterns change meaningfully between startup, mid-market, and enterprise.
-2. **Browse case studies outside your industry** — patterns from manufacturing apply to supply chain in any business; patterns from financial services apply to any reconciliation problem.
-3. **Use the templates as a starting point** — they're designed to be adapted, not adopted wholesale.
+1. **Read the company-size guide matching your stage** — patterns change meaningfully between stages
+2. **Browse case studies outside your industry** — manufacturing patterns apply to any supply chain
+3. **Use the [templates](workflows/templates.md) as a starting point** — designed to be adapted, not adopted wholesale
 
-### If You're Evaluating Hermes for Your Team
+### If You're Evaluating Hermes
 
-1. **Find your industry case study** — map the documented automations to your team's current manual processes.
-2. **Read the company-size guide for your stage** — understand the operational overhead and governance patterns.
-3. **Estimate time recovery** — each documented automation typically replaces 2-10 hours/week of manual work.
+1. **Find your industry case study** — map documented automations to your current manual processes
+2. **Read the company-size guide** — understand operational overhead and governance patterns
+3. **Estimate time recovery** — each documented automation typically replaces **2-10 hours/week** of manual work
+
+## By Industry (Case Studies)
+
+Each case study covers specific workflows, compliance requirements, and tool integrations for that domain:
+
+| Case Study | What You'll Learn |
+|------------|-------------------|
+| [Compliance & Audit](case-studies/compliance-audit.md) | SOC 2 evidence collection, HIPAA audit trails, GDPR checks, change management monitoring |
+| [Healthcare](case-studies/healthcare.md) | Patient record management, appointment scheduling, insurance verification, HIPAA-compliant workflows |
+| [Financial Services](case-studies/financial-services.md) | Portfolio monitoring, transaction reconciliation, fraud detection, regulatory filing automation |
+| [Manufacturing](case-studies/manufacturing.md) | Supply chain monitoring, inventory reorder, quality control with SPC rules, IoT sensor integration |
+| [Real Estate](case-studies/real-estate.md) | Multi-platform listing syndication, lead qualification, market analysis, transaction tracking |
+| [Professional Services](case-studies/professional-services.md) | Client onboarding, calendar-to-timesheet automation, project budget burn, invoice generation |
+| [Customer Support](case-studies/customer-support.md) | Multi-channel ticket triage, KB search, SLA monitoring with escalation, customer health signals |
+| [Revenue Operations](case-studies/revenue-operations.md) | Pipeline hygiene, weighted forecasting, commission calculation, cross-source revenue reconciliation |
+
+## By Company Size
+
+| Guide | For Teams Of | Focus |
+|-------|-------------|-------|
+| [Startup](by-company-size/startup.md) | 1-50 employees | Solo founder patterns, essential crons, scrappy setup with free tiers |
+| [Mid-Market](by-company-size/mid-market.md) | 50-500 employees | Multi-team orchestration, departmental profiles, approval workflows |
+| [Enterprise](by-company-size/enterprise.md) | 500+ employees | Security compliance, multi-region deployment, audit-grade logging, SOC 2/HIPAA/GDPR |
+
+## Workflow Templates
+
+Ready-to-deploy cron + skill templates in the [**Copy-Paste Cron Templates**](workflows/templates.md) guide:
+
+- **Email monitoring:** Support inbox triage, vendor invoice detection, lead alert monitoring
+- **Report generation:** Daily executive summary, weekly business review, monthly close package
+- **Data sync:** CRM-to-billing reconciliation, database-to-analytics validation, listing sync
+- **Alerting:** Metric anomaly detection, SLA breach warnings, system health checks
+- **Integration-specific:** Stripe revenue monitoring, GA4 traffic anomaly, CRM pipeline health
 
 ## What Hermes Agent Automates
 
-Across all these guides, certain patterns recur. Hermes Agent consistently automates:
+Across all guides, certain patterns recur:
 
-**Cross-system reconciliation.** Matching data between tools that should agree but don't — CRM vs. billing, database vs. analytics, purchase orders vs. shipments. This is the single highest-value automation category for most organizations.
+- **Cross-system reconciliation** — Matching data between tools that should agree but don't. The single highest-value automation category.
+- **Monitoring and alerting** — Continuous metric, status, and deadline checking with intelligent escalation and context.
+- **Report generation** — Multi-source data compiled into structured, scheduled reports without anyone remembering to run them.
+- **Workflow orchestration** — Multi-step processes: onboarding sequences, approval chains, escalation paths.
+- **Compliance evidence** — Continuous collection of configuration snapshots, access logs, and control evidence.
 
-**Monitoring and alerting.** Continuous checking of metrics, statuses, and deadlines with intelligent escalation. Hermes doesn't just detect problems — it provides the context needed to resolve them.
+## FAQ
 
-**Report generation.** Compiling data from multiple sources into structured, scheduled reports. Morning summaries, weekly reviews, monthly close packages — Hermes produces them on schedule without anyone remembering to run them.
+### What are Hermes Agent outputs and implementation guides?
 
-**Workflow orchestration.** Moving data through multi-step processes: onboarding sequences, approval chains, escalation paths. Hermes connects the systems so people don't have to.
+The outputs section provides **real-world, production-tested implementation patterns** — industry-specific case studies, company-size deployment guides, and copy-paste cron templates. Unlike API documentation, these guides show exactly how to automate specific business processes with cron schedules, skills, and connectors.
 
-**Compliance evidence.** Continuous collection of configuration snapshots, access logs, and control evidence. Audit readiness as a byproduct of operations rather than a quarterly fire drill.
+### How do I find the right implementation guide for my industry?
 
-## The Architecture Behind These Patterns
+Navigate to [By Industry](#by-industry-case-studies) above and find your sector. Each case study includes the specific workflows, compliance requirements, and tool integrations relevant to that domain. If your industry isn't listed, cross-domain patterns (e.g., manufacturing supply chain patterns apply to any logistics operation).
 
-Every guide in this section leverages the same Hermes Agent primitives:
+### How long does it take to implement the workflow templates?
 
-- **Cron schedules:** Standard cron expressions drive all scheduled automations. From every-5-minute triage to monthly close reports.
-- **Skills:** Reusable automation routines that query data sources, apply logic, and produce output. Skills are plain files in `~/.hermes/skills/`.
-- **MCP Connectors:** Hermes connects to your existing tools through the Model Context Protocol. Database connectors (PostgreSQL, MSSQL, MongoDB), SaaS connectors (HubSpot, Stripe, GA4, Slack, Gmail, and dozens more), and file connectors (Google Drive, OneDrive, Dropbox) — all available without custom integration work.
-- **Profiles:** Isolated environments for different teams, departments, or compliance boundaries. Each profile has its own skills, crons, and connector configurations.
-- **Alert routing:** Skills deliver output to Slack channels, email addresses, Google Drive folders, or ticketing systems — wherever your team works.
+The [Copy-Paste Cron Templates](workflows/templates.md) are designed for **deployment in under an hour**. Copy the YAML into `~/.hermes/cron/`, create the corresponding skill file, adjust thresholds, and test with a single manual run before enabling the cron.
 
-## Contributing Your Patterns
+### What's the difference between case studies and workflow templates?
 
-These guides represent patterns that work across industries and company sizes. If you've built a Hermes automation that solved a real problem, consider sharing the pattern. The community grows stronger with every documented use case.
+**Case studies** are comprehensive industry guides covering multiple workflows, compliance, and tool integrations specific to a sector. **Workflow templates** are individual, ready-to-deploy cron + skill combinations (e.g., "Daily Executive Summary" or "Stripe Revenue Monitor"). Templates are the building blocks; case studies show how to assemble them.
 
-## Next Steps
+### How do I contribute my own implementation patterns?
 
-Pick one guide that matches your situation and build your first automation in the next hour. Start with monitoring (Hermes tells you something needs attention), graduate to suggestions (Hermes proposes an action), and eventually reach autonomous execution for well-proven patterns.
+The community grows stronger with every documented use case. If you've built a Hermes automation that solved a real problem, consider [submitting it as a contribution](/hermes/contributors.md). Include your cron schedule, skill description, data sources, and the business problem it solves.
 
-The distance between reading about automation and having automation running is one cron job. Start there.
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are Hermes Agent outputs and implementation guides?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The outputs section provides real-world, production-tested implementation patterns: industry case studies, company-size deployment guides, and copy-paste cron templates with exact schedules, skills, and connectors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find the right implementation guide for my industry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Navigate to the By Industry section and find your sector. Each case study includes specific workflows, compliance requirements, and tool integrations. Cross-domain patterns also apply."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to implement the workflow templates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Copy-Paste Cron Templates are designed for deployment in under an hour. Copy the YAML, create the skill file, adjust thresholds, and test before enabling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between case studies and workflow templates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Case studies are comprehensive industry guides covering multiple workflows. Workflow templates are individual, ready-to-deploy cron+skill combinations that serve as building blocks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I contribute my own implementation patterns?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Submit your Hermes automation as a contribution with cron schedule, skill description, data sources, and the business problem it solves."
+      }
+    }
+  ]
+}
+</script>
+
+## Related Pages
+
+- [Copy-Paste Cron Templates — Deploy in Minutes](workflows/templates.md)
+- [Agent Library — 9 Role Configurations](/hermes/agents/)
+- [Architecture — 6-Layer Production Model](/hermes/architecture/)
+- [Cron Scheduling Guide — 38 Production Crons](/hermes/governance/scheduling/)
+- [Contributor Guide — Share Your Patterns](/hermes/contributors.md)

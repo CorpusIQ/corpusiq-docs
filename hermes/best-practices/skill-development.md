@@ -1,75 +1,134 @@
-# Skill Development Guide
+---
+title: Skill Development Guide for Hermes Agent — Build Reusable AI Skills
+description: Complete Hermes Agent skill development guide. SKILL.md anatomy, trigger patterns, verification steps, error recovery, testing methodology, lifecycle management, and publishing. Create production-ready reusable AI agent skills.
+category: best-practices
+tags: [hermes-agent, skill-development, skills, reusable-workflows, testing, triggers, error-handling, publishing]
+last_updated: 2026-06-16
+---
 
-Skills are Hermes's superpower — they encode repeatable expertise into reusable, shareable packages. A well-written skill transforms "I need to do X" into a single invocation that handles tool orchestration, error recovery, and output formatting.
+# Skill Development Guide — Build Reusable AI Agent Skills
 
-## When to Create a Skill
+Skills are Hermes Agent's superpower — they encode repeatable expertise into reusable, shareable packages. A well-written skill transforms "I need to do X" into a single invocation that handles tool orchestration, error recovery, and output formatting. This skill development guide covers everything from your first SKILL.md to publishing.
 
-Not every task deserves a skill. Create a skill when:
+## Overview
 
-**You've done it three times manually.** The first time, you figure it out. The second time, you refine it. The third time, it's a pattern — encode it as a skill. The "rule of three" prevents premature abstraction.
+Custom skills capture repeatable workflows — tool calls, validations, and output formatting — into a package you, your team, or the community can reuse. Following [best practices](/hermes/best-practices/) for skill development ensures your skills are testable, maintainable, and production-ready.
 
-**Someone else needs to do it.** If a teammate asks "how do I check our marketing performance?" more than once, the answer should be a skill, not a verbal explanation. Skills transfer institutional knowledge without requiring everyone to become prompt engineers.
+## How It Works
 
-**It involves multiple tool calls in sequence.** A skill that chains "fetch data from X, transform it, enrich it from Y, format as a report" saves significant context and reduces error rates compared to manual multi-step prompting.
+### The Rule of Three
 
-**It needs guardrails.** When a task requires specific validation, approval gates, or error handling, encoding those in a skill ensures they're applied consistently. Manual prompting inevitably skips steps when you're in a hurry.
+Before creating a skill, perform the task manually at least three times:
+1. **First time:** Learn what's needed
+2. **Second time:** Refine your approach
+3. **Third time:** Encode the pattern as a skill
 
-## Skill Structure
+### SKILL.md Anatomy
 
-A well-structured skill has these components:
+```yaml
+---
+name: my-skill-name
+description: One-sentence purpose
+version: 1.0.0
+author: your-handle
+tags: [tag1, tag2]
+required_connectors: [connector-a]
+quality_tier: beta
+---
+```
 
-**Metadata block.** Name, description, version, author, tags. This is how people discover your skill. Write the description for someone who has never used it: what problem does it solve and what does it need to work?
+Followed by: What This Skill Does, When to Use, Required Setup, Step-by-Step Workflow (with error handling per step), Example Output, Troubleshooting, Changelog.
 
-**Trigger patterns.** Define the natural-language patterns that should activate this skill. Be specific enough to avoid false positives but broad enough to catch real user intent. "Check marketing performance" and "How are our ads doing" should both trigger the marketing health skill.
+### Trigger Patterns
 
-**Required tools and permissions.** Declare what connectors and tools the skill needs upfront. This lets Hermes verify availability before starting execution and gives users a clear understanding of what access they're granting.
+Write 5-10 trigger patterns covering different ways users might ask. **Good:** "Check our marketing performance this week" — specific enough to avoid false positives but broad enough to catch real intent. **Bad:** "marketing" (too broad) or overly specific variations.
 
-**Step-by-step workflow.** Each step should be a discrete action: call a tool, transform data, validate output, present to user. Steps should be idempotent where possible. Use clear names so the execution trace is readable.
+### Verification Between Steps
 
-**Error handling per step.** For each tool call, define what to do on common failures. Timeout → retry once. Rate limit → back off and retry. Auth error → prompt user to re-authenticate. Data not found → present partial results with caveat.
+- **Schema verification:** Does response have expected shape?
+- **Completeness verification:** Did you get everything?
+- **Freshness verification:** Is data current?
+- **Business rule verification:** Are values in expected ranges?
 
-**Output format specification.** Define the final presentation: table, chart, bullet list, executive summary. Include example output so users know what to expect.
+### Error Recovery Patterns
 
-## Testing Your Skill
+- **Transient errors:** Retry with exponential backoff (max 3 attempts, include jitter)
+- **Auth errors:** Don't retry — return clear re-auth message
+- **Data errors:** Return partial results with clear caveats
+- **Partial failures:** Return successes + failure summary
 
-**Unit test each step in isolation.** Can you run step 3 without steps 1 and 2 by providing mock data? If not, refactor until you can. Isolated steps are debuggable steps.
+## Testing Methodology
 
-**Integration test the full workflow.** Run the skill end-to-end with real (or realistic test) data. Time it. Check the output format. Verify error handling by deliberately breaking one connector.
-
-**Regression test after changes.** When you update a skill, re-run the full test suite. Skills that depend on external APIs can break silently when those APIs change. Schedule a weekly smoke test for production skills.
-
-**Edge case testing.** Test with empty data, maximum data, malformed data, missing permissions. The skill should degrade gracefully in every case — partial results with clear caveats are better than cryptic errors.
-
-## Documentation Patterns
-
-**Every skill gets a README section.** What it does, what it needs, how to invoke it, what to expect. Include a screenshot or example output. This is what users read before installing.
-
-**Inline comments in complex steps.** If a step has non-obvious logic (a regex that extracts a specific field, a calculation with domain-specific assumptions), document the "why" in a comment. The next maintainer will thank you.
-
-**Changelog discipline.** When you update a skill, record what changed and why. Skills that silently change behavior break user trust. A changelog also helps users decide whether to update.
+| Test Type | What to Test |
+|---|---|
+| **Unit** | Each step in isolation with mock inputs |
+| **Happy path** | Full end-to-end with known-good data |
+| **Edge cases** | Empty data, maximum data, missing fields, special characters, date boundaries |
+| **Error injection** | Disconnect connector, malformed data, rate limits, invalid params |
+| **Regression** | Re-run full suite after any change; weekly smoke test for production skills |
 
 ## Skill Lifecycle
 
-**Draft.** The skill exists but hasn't been reviewed. It works for the author but may have rough edges. Label it clearly as draft.
+**Draft** → **Beta** (tested by author + 1 other) → **Production** (2+ weeks stable) → **Deprecated** (replacement exists, 30-90 day migration) → **Archived**
 
-**Beta.** The skill has been tested by the author and at least one other person. It handles common error cases. Ready for wider team use but may still evolve.
+## Benefits
 
-**Production.** The skill has been used for at least two weeks without modification. Error rates are known and acceptable. Documentation is complete. It's safe to rely on.
+- **Knowledge transfer**: Skills encode institutional knowledge without requiring prompt engineering
+- **Error reduction**: Consistent validation and error handling applied every time
+- **Team scaling**: One well-tested skill serves the entire team
+- **Community contribution**: Share what you build; benefit from others' work
 
-**Deprecated.** The skill still works but a better alternative exists. Add a deprecation notice pointing to the replacement. Remove after a migration window (typically 30-90 days).
+## FAQ
 
-**Archived.** The skill is no longer maintained or available. Remove from the active catalog but keep the source for reference.
+### When should I create a Hermes Agent skill vs using a prompt?
+Create a skill when you've done the task 3+ times manually, it involves multiple tool calls, it needs guardrails (validation, approval gates), or someone else needs to do it. Use prompts for one-off or exploratory tasks.
 
-## Community Contribution Guidelines
+### How do I test a Hermes Agent skill before publishing?
+Test each step in isolation with mock data, run the full workflow end-to-end, test edge cases (empty/maximum/malformed data), deliberately inject errors, and re-run the full suite after any change. Schedule weekly smoke tests for production skills.
 
-When publishing a skill for the Hermes community:
+### What makes a good trigger pattern for skills?
+Good triggers are specific enough to avoid false positives but broad enough to catch natural variations. Write 5-10 patterns covering different formality levels, time windows, and specificity. Avoid single-word triggers and overly specific patterns.
 
-- Test it against the documented trigger patterns before publishing
-- Remove all hardcoded values specific to your environment
-- Provide a setup guide: what credentials, connectors, or configuration the user needs
-- Include a sample invocation with expected output
-- Use example.com domains and placeholder values — never publish real data
-- Tag accurately: don't tag a skill as "production" if it's only been tested on one setup
-- Respond to issues and update the skill when underlying APIs change
+## Related Pages
 
-The best skills become community infrastructure. Treat skill authorship as a responsibility, not just a contribution.
+- [Best Practices Overview](/hermes/best-practices/) — All guides
+- [Creating Custom Skills](/hermes/skills/creating-skills.md) — Full walkthrough with example
+- [Skill Marketplaces](/hermes/skills/skill-marketplaces.md) — Where to publish
+- [MCP Server Design](mcp-design.md) — Build tools your skills call
+
+---
+
+*The best skills become community infrastructure. Treat authorship as a responsibility.*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I create a Hermes Agent skill vs using a prompt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Create a skill when you've done the task 3+ times manually, it involves multiple tool calls in sequence, it needs guardrails like validation or approval gates, or someone else on your team needs to do it. Use prompts for one-off or exploratory tasks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I test a Hermes Agent skill before publishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Test each step in isolation with mock data, run the full workflow end-to-end, test edge cases (empty data, maximum data, missing fields, date boundaries), deliberately inject errors to verify recovery, and re-run the full test suite after any change."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes a good trigger pattern for Hermes Agent skills?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Good triggers are specific enough to avoid false positives but broad enough to catch natural language variations. Write 5-10 patterns covering different formality levels, time windows, and specificity. Avoid single-word triggers and overly specific patterns."
+      }
+    }
+  ]
+}
+</script>

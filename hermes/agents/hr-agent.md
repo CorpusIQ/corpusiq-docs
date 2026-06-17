@@ -1,36 +1,67 @@
-# HR Agent Configuration
+---
+title: Hermes HR Agent — Recruiting & People Operations Automation
+description: Deploy an AI HR agent for resume screening, interview scheduling, onboarding coordination, policy Q&A, and compliance tracking. Complete Hermes configuration blueprint.
+category: Agents
+tags:
+  - hr-agent
+  - recruiting-automation
+  - people-operations
+  - resume-screening
+  - ai-hr-assistant
+last_updated: 2026-06-16
+---
 
-## Role Description
+# Hermes HR Agent — Autonomous Recruiting & People Operations
 
-The HR Agent automates recruiting and people operations workflows — resume screening, interview scheduling, onboarding coordination, policy Q&A, and employee data management. It connects to your ATS (Applicant Tracking System), calendar, HRIS, communication tools, and document storage to reduce the administrative burden on your people team. The agent handles the high-volume, repetitive tasks that consume HR bandwidth so your team can focus on culture, employee experience, and strategic workforce planning.
+The **Hermes HR Agent** automates **recruiting and people operations workflows** — resume screening, interview scheduling, onboarding coordination, policy Q&A, and employee data management. It connects to your ATS, calendar, HRIS, and document storage through [CorpusIQ MCP connectors](/hermes/mcp/connectors/) to reduce administrative burden on your people team.
 
-The agent screens inbound resumes against job requirements, drafts candidate summaries, coordinates interview panels across calendars, sends onboarding checklists to new hires, and fields common policy questions from employees. It maintains strict confidentiality — all employee data handling follows access controls defined in your Hermes profile.
+The agent handles high-volume, repetitive HR tasks so your team can focus on culture, employee experience, and strategic workforce planning. All employee data handling follows access controls configured in your Hermes profile.
+
+## Overview
+
+**The HR Agent eliminates manual recruiting busywork.** Instead of reading every resume, coordinating interview panels across calendars, and tracking onboarding checklists manually, your HR team receives ranked candidate summaries, auto-scheduled interviews, and automated onboarding progress checks.
+
+| Capability | What It Does |
+|-----------|-------------|
+| **Resume screening** | Parses resumes, scores against job requirements, flags top candidates |
+| **Interview scheduling** | Coordinates panel availability, sends invites with context briefs |
+| **Onboarding coordination** | New hire checklist tracking, document collection, provisioning status |
+| **Policy Q&A** | Answers employee questions by searching handbooks, policies, and precedent |
+| **Compliance tracking** | Certification expiry, training completion, document renewal alerts |
+
+> **See also:** [Agent Library Overview](/hermes/agents/) · [Executive Agent](/hermes/agents/executive-agent.md) · [Calendar Connector](/hermes/mcp/connectors/)
+
+## How It Works
+
+1. **Connect your HR stack** — Calendly, Google/Outlook Calendar, Gmail, Notion, Drive
+2. **Store job descriptions and rubrics** — In canonical facts or a Notion database
+3. **Load the skills** — Resume screening, interview scheduling, onboarding, policy QA, compliance
+4. **Schedule the crons** — Hourly resume screening, daily onboarding checks, weekly compliance
+5. **Receive in Slack/Email** — Candidate summaries, onboarding status, compliance alerts
+
+## Key Features
+
+- **Hourly resume screening** — ranks new applicants against job requirements with scored summaries
+- **Panel coordination** — checks availability across interviewer calendars and sends invites
+- **Onboarding progress tracking** — flags outstanding documents, incomplete setup tasks
+- **Compliance monitoring** — weekly scans for expiring certifications, visas, and contract end dates
+- **Employee lifecycle tracking** — anniversaries, probation periods, contract renewals
+- **Policy Q&A** — semantic search across handbooks and policies for employee self-service
 
 ## Recommended Model
 
-**Claude Sonnet 4** or **GPT-4o** — resume evaluation requires nuanced understanding of experience, skills, and role fit. Both models handle structured candidate comparison well and can draft professional, warm communications. For policy Q&A and simple scheduling, **Claude Haiku** or **GPT-4o Mini** are cost-effective and fast.
-
-## Key Skills to Load
-
-- `resume-screening` — Parse resumes, score against job requirements, flag top candidates, identify skill gaps
-- `interview-scheduling` — Coordinate panel availability across calendars, send invites with context briefs
-- `onboarding-coordinator` — New hire checklist tracking, document collection, equipment provisioning status
-- `policy-qa` — Answer employee questions by searching your handbook, policies, and past precedent
-- `compliance-tracking` — Certification expiry monitoring, training completion tracking, document renewal alerts
-- `employee-lifecycle` — Track anniversaries, probation periods, contract renewals; generate reminders
+**Claude Sonnet 4** or **GPT-4o** — nuanced resume evaluation and professional communication drafting. Use **Claude Haiku** or **GPT-4o Mini** for policy Q&A and simple scheduling.
 
 ## MCP Connectors Needed
 
 | Connector | Purpose |
 |-----------|---------|
-| **Calendly / Google Calendar / Outlook** | Interview scheduling, onboarding session booking |
-| **Email (Gmail/Outlook)** | Candidate communications, offer letters, policy responses |
-| **Slack** | HR channel alerts, onboarding notifications, approval requests |
-| **Notion / Airtable** | Employee handbooks, policy docs, onboarding checklists, job descriptions |
-| **Google Drive / OneDrive / Dropbox** | Resume storage, offer letter templates, signed documents |
-| **HubSpot / Close CRM** | If recruiting pipeline is managed in CRM |
-
-> **Note:** HRIS platforms (BambooHR, Workday, Rippling, Gusto) and ATS systems (Greenhouse, Lever, Ashby) are accessed via API integrations. Configure API keys in your Hermes profile `tools` configuration. Build a connector skill for your specific HR stack.
+| **Calendly / Google Calendar / Outlook** | Interview scheduling, onboarding sessions |
+| **Gmail / Outlook** | Candidate communications, offer letters, policy responses |
+| **Slack** | HR channel alerts, onboarding notifications |
+| **Notion / Airtable** | Handbooks, policies, checklists, job descriptions |
+| **Google Drive / OneDrive / Dropbox** | Resume storage, templates, signed documents |
+| **HubSpot / Close CRM** | If recruiting pipeline managed in CRM |
 
 ## Sample Cron Schedule
 
@@ -62,14 +93,96 @@ hermes agent create hr \
   --description "Recruiting and people operations automation agent"
 ```
 
-## Daily Workflow
-
-Throughout the day, the agent screens new applications against active job descriptions, ranking candidates and surfacing top matches to the recruiting team with summaries. For candidates advancing to interview stage, it coordinates panel availability and sends calendar invites with interviewer briefs. Every morning it checks onboarding progress for new hires — which documents are outstanding, which setup tasks are incomplete — and nudges responsible parties. On Mondays it scans for expiring certifications, visas, and contract end dates and alerts the appropriate stakeholders.
-
 ## Configuration Notes
 
-Store job descriptions, evaluation rubrics, and scoring criteria in canonical facts or a designated Notion database. Define your interview panel configurations (who must attend for each role type). Configure your policy document locations so the Q&A skill can search them. Set data retention policies — the agent should not retain candidate PII beyond your legal retention window. All resume data handling must respect GDPR/CCPA requirements configured in your profile.
+- Store **job descriptions, evaluation rubrics, and scoring criteria** in canonical facts
+- Define **interview panel configurations** — who must attend per role type
+- Configure **policy document locations** for Q&A skill searching
+- Set **data retention policies** — agent respects GDPR/CCPA requirements
+- All resume data handling follows **access controls** configured in your profile
 
 ## Extending
 
-Add `offer-letter-generation` that drafts offer letters with compensation bands from your canonical facts. Integrate with DocuSign or HelloSign for document execution tracking. Add `culture-survey-analysis` for periodic engagement survey processing. Build a `headcount-planner` that tracks open roles, time-to-fill, and hiring velocity against budget.
+- Add `offer-letter-generation` drafting offers with compensation bands
+- Integrate with **DocuSign or HelloSign** for document execution tracking
+- Add `culture-survey-analysis` for engagement survey processing
+- Build a `headcount-planner` tracking open roles, time-to-fill, and hiring velocity
+
+## FAQ
+
+### What does the Hermes HR Agent do?
+
+The **Hermes HR Agent** automates recruiting and people operations: it screens resumes against job requirements, coordinates interview scheduling across panels, tracks onboarding progress, answers policy questions from employees, and monitors compliance deadlines — all on scheduled crons.
+
+### How does resume screening work?
+
+The agent **parses incoming resumes**, scores candidates against your job requirements using configurable rubrics, and ranks applicants. **Top matches are surfaced to the recruiting team** with scored summaries highlighting relevant experience, skills, and any identified gaps.
+
+### Can the agent schedule interviews automatically?
+
+Yes. For candidates advancing to interview stage, the agent **checks panel availability across connected calendars** (Google Calendar, Outlook, Calendly), finds open slots, and sends calendar invites with interviewer briefs and candidate context.
+
+### How does the HR agent handle employee data privacy?
+
+The agent **respects all access controls** configured in your Hermes profile. Resume data handling follows GDPR/CCPA requirements. Policy Q&A responses are scoped to the requesting employee's access level. Data retention policies are configurable.
+
+### Can the HR agent track compliance and certifications?
+
+Yes. Weekly scans check for **expiring certifications, visas, contract end dates, and training completions**. Alerts are sent to appropriate stakeholders with 30, 14, and 7-day advance warnings.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does the Hermes HR Agent do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Hermes HR Agent automates recruiting and people operations: resume screening, interview scheduling, onboarding tracking, policy Q&A, and compliance monitoring on scheduled crons."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does resume screening work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The agent parses resumes, scores candidates against job requirements using configurable rubrics, ranks applicants, and surfaces top matches to the recruiting team with scored summaries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can the agent schedule interviews automatically?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The agent checks panel availability across connected calendars, finds open slots, and sends calendar invites with interviewer briefs and candidate context."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the HR agent handle employee data privacy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The agent respects all access controls configured in your Hermes profile. Resume data handling follows GDPR/CCPA requirements with configurable data retention policies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can the HR agent track compliance and certifications?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Weekly scans check for expiring certifications, visas, contract end dates, and training completions with 30/14/7-day advance warnings."
+      }
+    }
+  ]
+}
+</script>
+
+## Related Pages
+
+- [Agent Library — All 9 Role Configurations](/hermes/agents/)
+- [Executive Agent — Calendar & Inbox Management](/hermes/agents/executive-agent.md)
+- [Legal Agent — Compliance & Contract Review](/hermes/agents/legal-agent.md)
+- [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
+- [Cron Scheduling Guide](/hermes/governance/scheduling/)

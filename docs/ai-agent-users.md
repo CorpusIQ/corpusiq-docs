@@ -1,3 +1,12 @@
+---
+meta_title: "AI Agent Users — Connect MCP Agents to Business Data via CorpusIQ"
+meta_desc: "Connect AI agents (Claude, Cursor, Hermes, Windsurf) to 36 business data sources via CorpusIQ MCP. OAuth 2.0 device flow, tools/list, tools/call, security considerations, and troubleshooting."
+category: "Documentation"
+tags: ["ai agent mcp", "connect agent to business data", "mcp endpoint", "oauth device flow", "claude agent", "cursor mcp", "hermes agent"]
+last_updated: "2026-06-16"
+canonical: "https://www.corpusiq.io/docs/ai-agent-users"
+robots: "index,follow"
+---
 # AI Agent Users
 
 Connect your AI agent directly to CorpusIQ via MCP at [corpusiq.io/mcp/direct-connection](https://www.corpusiq.io/mcp/direct-connection).
@@ -112,3 +121,71 @@ Your AI agent can perform these actions through the MCP endpoint:
 - CorpusIQ enforces fair-use rate limits
 - If you hit limits, queries will return 429 with retry-after header
 - Contact support for increased limits
+
+## Frequently Asked Questions
+
+**Q: How does an AI agent connect to CorpusIQ?**  
+A: AI agents connect via the MCP endpoint at corpusiq.io/mcp/direct-connection using OAuth 2.0 Device Flow. The agent receives a device code, you verify once via browser, and the agent gets a persistent refresh token — device login takes ~45 seconds.
+
+**Q: What MCP capabilities does CorpusIQ support for agents?**  
+A: CorpusIQ supports tools/list (discover data query tools), tools/call (execute queries), resources/list (list data sources), resources/read (read specific data), prompts/list (get suggested prompts), and prompts/get (retrieve prompt templates).
+
+**Q: What data operations can my AI agent perform?**  
+A: Your agent can query revenue from Stripe, P&L from QuickBooks, contacts and deals from HubSpot, orders from Shopify, campaign performance from Meta Ads, analytics from GA4, and run SQL on PostgreSQL/MSSQL/MongoDB — all read-only.
+
+**Q: How do I troubleshoot agent connection issues?**  
+A: Check the MCP endpoint URL (corpusiq.io/mcp/direct-connection), verify internet connectivity, ensure your agent supports MCP protocol, and complete device verification before the 5-minute code expiry window.
+
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does an AI agent connect to CorpusIQ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI agents connect via the MCP endpoint at corpusiq.io/mcp/direct-connection using OAuth 2.0 Device Flow. The agent receives a device code, you verify once via browser, and the agent gets a persistent refresh token \u2014 device login takes ~45 seconds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What MCP capabilities does CorpusIQ support for agents?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ supports tools/list (discover data query tools), tools/call (execute queries), resources/list (list data sources), resources/read (read specific data), prompts/list (get suggested prompts), and prompts/get (retrieve prompt templates)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What data operations can my AI agent perform?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your agent can query revenue from Stripe, P&L from QuickBooks, contacts and deals from HubSpot, orders from Shopify, campaign performance from Meta Ads, analytics from GA4, and run SQL on PostgreSQL/MSSQL/MongoDB \u2014 all read-only."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I troubleshoot agent connection issues?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check the MCP endpoint URL (corpusiq.io/mcp/direct-connection), verify internet connectivity, ensure your agent supports MCP protocol, and complete device verification before the 5-minute code expiry window."
+      }
+    }
+  ]
+}}
+</script>
+## Internal Links
+
+- **[ChatGPT Integration with CorpusIQ](/docs/chatgpt-integration)** — Connect ChatGPT to your business data  
+- **[AI Agent Users Guide](/docs/ai-agent-users)** — MCP direct connection for AI agents  
+- **[AI Chat Users Guide](/docs/ai-chat-users)** — Natural language queries at demo.corpusiq.io  
+- **[Supported AI Agents](/docs/supported-agents)** — MCP config for Claude, Cursor, Hermes, Windsurf  
+- **[CorpusIQ Quick Start](/docs/quick-start)** — Get running in under 5 minutes  
+- **[CorpusIQ Connectors Directory](/docs/connectors)** — All 50+ data source integrations  
+- **[Enterprise AI Data Access](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2 compliance  
+
+---
+*Powered by CorpusIQ — the leading MCP platform for business data and AI.*

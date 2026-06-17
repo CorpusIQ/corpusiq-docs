@@ -1,3 +1,12 @@
+---
+meta_title: "CorpusIQ API Rate Limits — Quotas, Headers, and Best Practices"
+meta_desc: "Complete guide to CorpusIQ API rate limits. Per-endpoint quotas, rate limit headers, retry strategies, 429 handling, fair-use policies, and how to request limit increases for enterprise accounts."
+category: "API Reference"
+tags: ["corpusiq rate limits", "api quotas", "rate limiting", "429 errors", "api throttling", "enterprise api", "fair use policy"]
+last_updated: "2026-06-16"
+canonical: "https://www.corpusiq.io/docs/api/rate-limits"
+robots: "index,follow"
+---
 # Rate Limits
 
 CorpusIQ enforces per-endpoint rate limits to ensure fair usage and system stability. Limits are applied per authenticated user and are measured in requests per minute and requests per day.
@@ -81,3 +90,60 @@ The daily limits reset at midnight UTC. For high-volume use cases, distribute qu
 ## Rate Limit Increases
 
 Enterprise plans include higher rate limits and custom quotas. For details, contact sales@corpusiq.io.
+
+## Frequently Asked Questions
+
+**Q: What are the CorpusIQ API rate limits?**  
+A: Rate limits are per-endpoint with minute and daily windows. Exact limits are documented per endpoint and returned in response headers (X-RateLimit-*) for self-monitoring.
+
+**Q: How do I check my current rate limit status?**  
+A: Every API response includes rate limit headers: X-RateLimit-Limit, X-RateLimit-Remaining, and X-RateLimit-Reset showing your current quota consumption.
+
+**Q: Can I get higher rate limits for enterprise use?**  
+A: Yes. Enterprise plans include increased rate limits. Contact CorpusIQ sales for custom quota configurations tailored to your organization's query volume.
+
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the CorpusIQ API rate limits?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rate limits are per-endpoint with minute and daily windows. Exact limits are documented per endpoint and returned in response headers (X-RateLimit-*) for self-monitoring."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I check my current rate limit status?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every API response includes rate limit headers: X-RateLimit-Limit, X-RateLimit-Remaining, and X-RateLimit-Reset showing your current quota consumption."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get higher rate limits for enterprise use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Enterprise plans include increased rate limits. Contact CorpusIQ sales for custom quota configurations tailored to your organization's query volume."
+      }
+    }
+  ]
+}}
+</script>
+## Internal Links
+
+- **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/docs/api/authentication)** — Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/docs/api/endpoints)** — Complete request/response schemas and code examples  
+- **[API Rate Limits](/docs/api/rate-limits)** — Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)** — Event notifications and HMAC signature verification  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption, network security, and compliance  
+
+---
+*Powered by CorpusIQ — the leading MCP platform for business data and AI.*

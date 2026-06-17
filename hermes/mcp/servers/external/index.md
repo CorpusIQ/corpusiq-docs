@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 16, 2026 (morning sweep) · **Sources:** mcp.so (22,380 servers), mcpservers.org (9,000+)
+> **Last updated:** June 17, 2026 · **Sources:** mcp.so (22,396 servers), mcpservers.org (9,158)
 
 ---
 
@@ -39,6 +39,9 @@ Dedicated MCP server for PortEden's Google Sheets data firewall. Read, write, an
 
 ### Alpha Vantage MCP Server ★ Sponsor
 Realtime & historical stock, ETF, options, forex, crypto, commodities, fundamentals, technical indicators. Official MCP server from Alpha Vantage.
+
+### AlphaAI ★ New
+Hosted MCP server for AI-enriched financial news — full-text and ticker-scoped news search, trending stories, and SEC Form 4 insider activity, each story scored 1–10 for relevance. OAuth 2.1, free tier 100 calls/hour. Essential for operators who need curated, AI-scored financial intelligence.
 
 ### Tokenbel Financial Data
 Read-only access to Belarusian securities: tokens, shares, bonds, companies, ticker search. Niche but notable for Eastern European markets.
@@ -282,6 +285,9 @@ Build real web apps on demand from ChatGPT, Claude, or any coding agent. Cross-a
 
 ## Productivity
 
+### Niche ★ New
+Editorial intelligence for creators and their agents — discover the stories worth writing about, rank the strongest angle, and draft grounded, platform-native posts. Content strategy MCP for operators running content marketing and thought leadership programs.
+
 ### Cal.com MCP ★ Official
 Connect AI clients to Cal.com scheduling. Hosted endpoint at `mcp.cal.com` or local instance.
 
@@ -349,6 +355,9 @@ Hosted, read-only MCP server for AI voice agent phone intelligence — caller id
 
 ## Communication
 
+### PostAgent ★ Official ★ New
+Print and send physical mail and postcards to US addresses (USPS), paid per call in USDC on Base via x402 or credit card. Official MCP server for physical mail automation — essential for operators who need to trigger postal mail from AI workflows.
+
 ### Granola MCP ★ Official
 AI-powered meeting notes and summaries. Connect your meeting data to AI agents.
 
@@ -380,6 +389,18 @@ Convert blog URLs to video in under 3 minutes via MCP. Turn written content into
 ---
 
 ## Marketing
+
+### Eclincher ★ New
+Publish, schedule, moderate your social inbox, and pull analytics across every major network directly from any AI assistant. Full social media management MCP — competes with Zernio and Solnk for AI-driven social operations.
+
+### MentionsAPI ★ New
+Check whether AI recommends your brand — mentions, ranks & citations across ChatGPT, Claude, Gemini, Perplexity, AI Overviews, AI Mode & Bing Copilot. Essential GEO/AI visibility monitoring for operators investing in AI-engine discoverability.
+
+### Webotee Amazon MCP ★ Sponsor ★ New
+Amazon brand, seller & niche intelligence in your own Claude or ChatGPT — buy-box history, competing sellers, and under-competed niches. Research built for sellers. Essential for ecommerce operators on Amazon.
+
+### NameSniper MCP ★ New
+Check brand name, domain, and social handle availability — then snipe the taken ones the moment they drop. Brand identity MCP for operators launching new products, rebranding, or securing digital presence.
 
 ### Zernio MCP ★ Official ★ New
 Social media scheduling platform — manage and publish content across all major platforms from a single API. MCP-native. `https://docs.zernio.com/mcp`
@@ -453,6 +474,60 @@ Persistent memory for AI agents across sessions.
 
 ### Vault Cortex ★ New
 MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-protected. Connect AI agents to your Obsidian knowledge base. Ideal for operators who use Obsidian as their second brain.
+
+---
+
+## New This Week (June 17, 2026)
+
+### 30 new servers from mcpservers.org All + Finance + Marketing + Productivity
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| PostAgent ★ Official | Communication | Print and send physical mail/postcards USPS, paid per call in USDC via x402 |
+| Eclincher | Marketing | Full social media management — publish, schedule, inbox moderation, analytics |
+| MentionsAPI | Marketing | AI brand mention tracking across ChatGPT, Claude, Gemini, Perplexity, AI Overviews |
+| Webotee Amazon MCP ★ Sponsor | Marketing | Amazon brand, seller & niche intelligence — buy-box history, competing sellers |
+| NameSniper MCP | Marketing | Brand name, domain, social handle availability + sniping taken ones |
+| AlphaAI | Finance | AI-enriched financial news, SEC Form 4 insider activity, OAuth 2.1, free tier |
+| Niche | Productivity | Editorial intelligence — discover stories, rank angles, draft platform-native posts |
+| SwapWizard MCP | Finance | Non-custodial DeFi execution — swap quotes, LP positions, routing across 5 EVM chains |
+| invinoveritas | Finance | Independent verification for autonomous agents — pre-trade review, signed proofs |
+| FiatDock | Finance | Non-custodial USDC ↔ bank for AI agents, EU/EEA, $0.05/session via x402 |
+| CYBERDYNE | Finance | Engagement marketplace on Base — AI agents fund quests, verified humans complete them |
+| RugCheck AI | Finance | On-chain Solana token safety — rug pulls, honeypots, mint/freeze authority traps |
+| Sivut SEC Crypto Filing Radar | Finance | SEC crypto filing radar, CSV/markdown endpoints via x402 micropayments |
+| Lightning Wallet | Finance | Bitcoin Lightning wallet MCP — invoices, budgets, L402 payments |
+| Longbridge | Finance | 13 skills for Longbridge Securities — HK/US/A-share/SG markets |
+| SynapseNetwork MCP | Finance | Paid API discovery, invocation, USDC agent payments, receipts |
+| Kontomierz-MCP | Finance | Polish personal finance platform — bank accounts, transactions, budgets |
+| EverAlice AI MCP | Marketing | Etsy listing copy, mockups, delivery packs, social campaigns, brand kits |
+| SocialDataX Kuaishou MCP | Marketing | Kuaishou (快手) hot list, search, details, comments, creator research |
+| Site-Shot | Web Scraping | Official screenshot API — real Chromium, full-page capture, country proxies |
+| Xpenser | Finance | Open-source personal expense/income tracking, multi-currency, invoice parsing |
+| imem | Memory | Private AI memory vault — set up in about a minute, no card required |
+| RAGSync | Search | Index docs/files/websites into vector store with auto-syncs on changes |
+| Jivilo (OmniX) | Web Scraping | Fast, affordable X/Twitter API — full read & write, no official dev account needed |
+| docs-mcp | Productivity | Work with DOCX files — copy format from templates |
+| Kailo Sheets | Productivity | Hosted MCP for Google Sheets |
+| dochost | Productivity | Publish Markdown/HTML to clean shareable links via OAuth |
+| tutamcp | Productivity | Tuta mail, calendar, contacts, drive — E2E verified, trusted sender filtering |
+| Plate | Productivity | Lightweight project management via MCP |
+| opn-mcp | Productivity | Link shortener with click analytics — hosted or self-hosted |
+
+## New This Week (June 16, 2026 — afternoon sweep)
+
+### 8 new servers from mcp.so Latest + mcpservers.org
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| WoopSocial | Marketing | Post to social media with AI Agent via MCP — social publishing for AI agents |
+| GuruPDF | Productivity | 126 tools — convert, compress, merge and OCR PDFs and 100+ file formats from any AI agent |
+| SERPHouse MCP | Content/Research | Real-time high-volume SERP data via MCP for competitive research and SEO |
+| engram | Dev/Infra | Local code-knowledge graph + bi-temporal mistakes memory for AI coding agents — Apache 2.0 |
+| WSP WordPress MCP | Dev/Infra | Free WordPress MCP — connect AI coding agents to WordPress for content ops |
+| Zhiji Signal Engine | Finance | Landau-Ginzburg market phase transition signals — HS300/BTC classification via x402 |
+| AppStore MCP Server | Dev/Infra | Apple App Store Connect API via MCP (Rust) — apps, IAP, subscriptions, TestFlight, provisioning |
+| Brain OS | Memory/Knowledge | Operational memory for AI agents that persists across sessions and tools |
 
 ---
 
@@ -595,12 +670,12 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,380 (mcp.so), 9,000+ (mcpservers.org)
+- **Total MCP servers tracked:** 22,396 (mcp.so), 9,158 (mcpservers.org)
 - **Official servers:** 40+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, etc.)
-- **New this cycle (June 16 morning):** 46 newly catalogued servers for business operators
-- **Cumulative since June 9:** 121 MCP servers catalogued across 7 sweeps
+- **New this cycle (June 17):** 30 newly catalogued servers for business operators
+- **Cumulative since June 9:** 159 MCP servers catalogued across 9 sweeps
 
 ---
 

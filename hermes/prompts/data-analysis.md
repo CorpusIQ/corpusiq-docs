@@ -1,6 +1,12 @@
-# Data Analysis Prompts
+---
+title: Data Analysis Prompts for Hermes Agent — SQL, Reporting & Visualization
+description: Hermes Agent data analysis prompts for SQL query generation, reporting, visualization guidance, and metric computation. Prompt templates with placeholders for your database schema, analytics tools, and business questions.
+category: prompts
+tags: [hermes-agent, prompts, data-analysis, sql, reporting, visualization, metrics, business-intelligence]
+last_updated: 2026-06-16
+---
 
-Prompt templates for extracting insights from data — reporting, SQL generation, visualization guidance, and metric computation. Replace `[brackets]` with your schema, tools, and questions.
+# Data Analysis Prompts — SQL, Reporting & Visualization
 
 ---
 

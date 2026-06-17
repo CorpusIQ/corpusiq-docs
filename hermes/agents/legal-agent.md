@@ -1,35 +1,66 @@
-# Legal & Compliance Agent Configuration
+---
+title: Hermes Legal Agent — Contract Review & Compliance Automation
+description: Deploy an AI legal operations agent for contract review, regulatory monitoring, policy enforcement, audit preparation, and document management. Complete Hermes configuration blueprint.
+category: Agents
+tags:
+  - legal-agent
+  - contract-review
+  - compliance-monitoring
+  - regulatory-tracking
+  - ai-legal-assistant
+last_updated: 2026-06-16
+---
 
-## Role Description
+# Hermes Legal Agent — Autonomous Contract Review & Compliance Monitoring
 
-The Legal Agent assists with contract review, regulatory monitoring, policy enforcement, and audit preparation. It works as a first-pass legal operations assistant — flagging contract risks, tracking regulatory changes, monitoring policy compliance, and organizing documentation for audits and due diligence. This agent does not provide legal advice or replace qualified counsel; it accelerates legal workflows by handling the structured, repeatable parts of legal operations so your legal team (or external counsel) can focus on judgment-intensive work.
+The **Hermes Legal Agent** assists with **contract review, regulatory monitoring, policy enforcement, and audit preparation**. It works as a first-pass legal operations assistant — flagging contract risks, tracking regulatory changes, monitoring policy compliance, and organizing documentation for audits and due diligence.
 
-The agent can review contracts for standard clauses, flag deviations from your playbook, track obligations and renewal dates, monitor regulatory feeds for relevant changes, and answer internal policy questions by searching your compliance documentation. All findings are framed as "flags for attorney review" with source references, never as definitive legal conclusions.
+This agent does **not provide legal advice** or replace qualified counsel. It accelerates legal workflows by handling the structured, repeatable parts of legal operations so your legal team can focus on judgment-intensive work. **All findings are framed as "flags for attorney review"** with source references.
+
+## Overview
+
+**The Legal Agent eliminates manual document review and regulatory scanning.** Instead of reading every contract for standard clauses, manually checking regulatory feeds, and scrambling to gather audit evidence, your legal team receives flagged contract deviations, filtered regulatory digests, and audit-ready evidence collections on schedule.
+
+| Capability | What It Does |
+|-----------|-------------|
+| **Contract review** | First-pass analysis: clause identification, playbook deviation flagging, obligation extraction |
+| **Regulatory monitoring** | Tracks agency updates, proposed rules, enforcement actions by jurisdiction |
+| **Policy enforcement** | Monitors internal systems for policy violations, flags non-compliant configurations |
+| **Audit preparation** | Organizes evidence collection, tracks control testing, generates readiness reports |
+| **Document management** | Contract repository organization, version tracking, expiry and renewal calendar |
+
+> **See also:** [Agent Library Overview](/hermes/agents/) · [Finance Agent](/hermes/agents/finance-agent.md) · [Research Agent](/hermes/agents/research-agent.md)
+
+## How It Works
+
+1. **Connect your legal stack** — Google Drive, OneDrive, Dropbox for contracts; Notion/Airtable for databases
+2. **Store your contract playbook** — Acceptable clauses, flagged clauses, fallback positions in canonical facts
+3. **Load the skills** — Contract review, regulatory monitor, policy enforcement, audit prep, document management
+4. **Schedule the crons** — Weekly renewal checks, daily regulatory digests, monthly audit readiness
+5. **Attorney reviews all flags** — The agent flags, humans decide
+
+## Key Features
+
+- **Weekly contract renewal checks** — flags obligations expiring within 90 days
+- **Daily regulatory digest** — jurisdiction-filtered updates from agency feeds, no noise
+- **Compliance scans** — weekly checks against internal policies (data access, security, vendor compliance)
+- **Monthly audit readiness reports** organized by control framework (SOC 2, ISO 27001, HIPAA, GDPR)
+- **Document expiry tracking** — certificates, agreements, licenses with 30-day advance warnings
+- **Contract playbook deviation flagging** — identifies clauses that deviate from your standard positions
 
 ## Recommended Model
 
-**Claude Sonnet 4** or **GPT-4o** — contract review requires careful reading, pattern matching against clause libraries, and the ability to identify deviations from standard language. Both models handle document-length context well. For ongoing monitoring and simple policy Q&A, **Claude Haiku** is sufficient. Always pair with human legal review for any contract or compliance action.
-
-## Key Skills to Load
-
-- `contract-review` — First-pass contract analysis: clause identification, playbook deviation flagging, obligation extraction, renewal tracking
-- `regulatory-monitor` — Track regulatory agency updates, proposed rules, enforcement actions by jurisdiction and topic
-- `policy-enforcement` — Monitor internal systems for policy violations, flag non-compliant configurations, track remediation
-- `audit-prep` — Organize evidence collection, track control testing schedules, generate audit readiness reports
-- `document-management` — Contract repository organization, version tracking, expiry and renewal calendar
-- `legal-qa` — Search contracts, policies, and regulatory guidance to answer internal legal questions
+**Claude Sonnet 4** or **GPT-4o** — careful reading, pattern matching against clause libraries, and identifying deviations from standard language. Use **Claude Haiku** for ongoing monitoring and simple policy Q&A. **Always pair with human legal review.**
 
 ## MCP Connectors Needed
 
 | Connector | Purpose |
 |-----------|---------|
-| **Google Drive / OneDrive / Dropbox** | Contract repositories, policy documents, evidence collection |
+| **Google Drive / OneDrive / Dropbox** | Contract repositories, policy documents, evidence |
 | **Notion / Airtable** | Contract databases, compliance trackers, audit checklists |
-| **Slack** | Compliance alerts, approval notifications, legal team coordination |
+| **Slack** | Compliance alerts, approval notifications, team coordination |
 | **Email** | Contract review requests, regulatory digest distribution |
 | **Monday.com** | Legal project tracking, matter management |
-
-> **Note:** E-signature platforms (DocuSign, HelloSign), CLM systems (Ironclad, LinkSquares), regulatory monitoring APIs, and GRC platforms are accessed via custom skills and API integrations. Configure your legal tech stack in your Hermes profile's `tools` section.
 
 ## Sample Cron Schedule
 
@@ -61,14 +92,98 @@ hermes agent create legal \
   --description "Legal operations and compliance monitoring agent"
 ```
 
-## Daily Workflow
-
-Each morning the agent scans regulatory feeds for changes relevant to your jurisdictions and industries, delivering a filtered digest of only what matters — no noise. On Mondays it checks all contracts for upcoming renewals and obligations, flagging anything expiring within 90 days and extracting key terms for review. Weekly it runs compliance scans against your internal policies (data access, security configurations, vendor compliance) and flags deviations. On the 1st of each month, it prepares an audit readiness report organized by control framework (SOC 2, ISO 27001, HIPAA, GDPR as applicable).
-
 ## Configuration Notes
 
-Store your contract playbook (acceptable vs. flagged clauses, fallback positions, approval thresholds) in canonical facts. Define your regulatory jurisdictions and topics of interest. Configure your compliance frameworks and control mappings. Set document retention policies. All contract data should be access-controlled — the agent respects the permissions on your connected drives and databases. **Important:** The agent's contract review output must always include a disclaimer that it is not legal advice and requires attorney review.
+- Store your **contract playbook** (acceptable vs. flagged clauses, fallbacks, approval thresholds) in canonical facts
+- Define **regulatory jurisdictions and topics** of interest
+- Configure **compliance frameworks and control mappings** (SOC 2, ISO 27001, HIPAA, GDPR)
+- Set **document retention policies** and access controls
+- **Important:** All contract review output must include disclaimer: "Not legal advice — requires attorney review"
 
 ## Extending
 
-Add `nda-triage` for automated NDA review against standard mutual/one-way templates. Integrate with your CLM for end-to-end contract lifecycle management. Add `litigation-hold` for automated legal hold notifications when relevant triggers fire. Build a `vendor-due-diligence` skill that reviews vendor security documentation against your requirements. Add `ip-portfolio` for patent and trademark deadline tracking.
+- Add `nda-triage` for automated NDA review against standard mutual/one-way templates
+- Integrate with your **CLM** (Ironclad, LinkSquares) for end-to-end contract lifecycle management
+- Add `litigation-hold` for automated legal hold notifications
+- Build a `vendor-due-diligence` skill reviewing vendor security documentation
+- Add `ip-portfolio` for patent and trademark deadline tracking
+
+## FAQ
+
+### What does the Hermes Legal Agent do?
+
+The **Hermes Legal Agent** performs first-pass contract review (flagging clause deviations from your playbook), monitors regulatory changes across jurisdictions, enforces internal policy compliance, organizes audit evidence, and manages document expiry calendars — with all findings flagged for attorney review.
+
+### Does the legal agent provide legal advice?
+
+**No.** The agent's contract review and compliance outputs are always framed as **"flags for attorney review"** with source references. The agent accelerates legal workflows by handling structured, repeatable tasks — it does not replace qualified legal counsel or render legal opinions.
+
+### How does contract review work?
+
+The agent reviews contracts for **standard clauses**, flags deviations from your playbook (stored in canonical facts), extracts **obligations and renewal dates**, and tracks contract expirations. All flagged items are presented for attorney review with the specific language and deviation identified.
+
+### What compliance frameworks does the agent support?
+
+The agent supports **SOC 2, ISO 27001, HIPAA, GDPR, and custom frameworks**. Configure your control mappings in canonical facts and the monthly audit readiness report will organize evidence by control framework.
+
+### How does regulatory monitoring work?
+
+Each morning the agent scans regulatory agency feeds, filters updates by your configured **jurisdictions and topics of interest**, and delivers a **curated digest** of only relevant changes — no noise, no irrelevant notices.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does the Hermes Legal Agent do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Hermes Legal Agent performs first-pass contract review, monitors regulatory changes, enforces policy compliance, organizes audit evidence, and manages document expiry calendars — with all findings flagged for attorney review."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the legal agent provide legal advice?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The agent's outputs are always framed as flags for attorney review with source references. It accelerates legal workflows but does not replace qualified counsel or render legal opinions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does contract review work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The agent reviews contracts for standard clauses, flags deviations from your playbook, extracts obligations and renewal dates, and tracks expirations — all presented for attorney review."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What compliance frameworks does the agent support?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The agent supports SOC 2, ISO 27001, HIPAA, GDPR, and custom frameworks. Control mappings are configured in canonical facts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does regulatory monitoring work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each morning the agent scans regulatory feeds, filters by your jurisdictions and topics, and delivers a curated digest of only relevant changes."
+      }
+    }
+  ]
+}
+</script>
+
+## Related Pages
+
+- [Agent Library — All 9 Role Configurations](/hermes/agents/)
+- [Finance Agent — Reconciliation & Financial Controls](/hermes/agents/finance-agent.md)
+- [Research Agent — Competitive & Market Intelligence](/hermes/agents/research-agent.md)
+- [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
+- [Governance & Compliance Overview](/hermes/governance/)
+- [Cron Scheduling Guide](/hermes/governance/scheduling/)

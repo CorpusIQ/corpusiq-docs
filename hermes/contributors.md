@@ -1,50 +1,143 @@
 ---
-title: Community Contributors
-description: Contributors who have helped build the Hermes Ecosystem Directory — submitted repos, approved additions, and review stats.
+title: Hermes Contributors — How to Submit to the Hermes Ecosystem Directory
+description: Learn how to contribute to the largest Hermes Agent resource directory. Submit repos, review pending additions, and join the community of contributors. 121+ repos indexed.
+category: Community
+tags:
+  - contributors
+  - community
+  - open-source
+  - submit-repo
+  - ecosystem
+last_updated: 2026-06-17T23:01Z
 ---
 
-# Community Contributors
+# Hermes Community Contributors — Help Build the Largest Hermes Resource Directory
 
-Thank you to everyone who has submitted repositories, reviewed additions, and helped build the largest Hermes Agent resource directory.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources — tools, skills, MCP servers, dashboards, and deployment guides. Every contribution helps the community discover what's possible with **autonomous AI agents**. Submit a repo, review additions, or open a PR to improve the directory.
+
+## Overview
+
+**This is a community-built resource.** The directory grows through submissions from developers, operators, and researchers who've built something useful on Hermes. Submissions are reviewed within 48 hours and accepted repos appear in the [ecosystem directory](/hermes/ecosystem.md) with full submitter credit.
+
+| Metric | Value |
+|--------|-------|
+| **Total submissions** | 186+ |
+| **Approval rate** | 100% |
+| **Review time** | <48 hours |
+| **Repos indexed** | 234+ |
+| **Categories** | 18 |
 
 ## How to Contribute
 
-1. **[Submit a Repository →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** — Use the submission form
-2. **Review pending submissions** — Check the [Pending Review Queue](https://github.com/CorpusIQ/corpusiq-docs/issues?q=label%3Apending-review)
-3. **Suggest improvements** — Open a PR with additions or corrections
+### 1. Submit a Repository
+
+**[Use the submission form →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** — Takes 60 seconds. Include the repo URL, a short description, and the category it belongs to.
+
+**What we're looking for:**
+- **Hermes Agent tools, SDKs, and integrations** — Anything that extends Hermes
+- **MCP servers** compatible with Hermes Agent
+- **Skills and plugins** — Production-ready or experimental
+- **Deployment guides and infrastructure** — How you run Hermes in production
+- **Research papers and benchmarks** — Performance data and academic work
+- **Tutorials and educational content** — Guides for the community
+- **Community projects and examples** — What you've built
+
+### 2. Review Pending Submissions
+
+Check the [Pending Review Queue](https://github.com/CorpusIQ/corpusiq-docs/issues?q=label%3Apending-review) — help validate submissions by verifying repo activity, checking for duplicates, and confirming category fit.
+
+### 3. Suggest Improvements
+
+[Open a PR](https://github.com/CorpusIQ/corpusiq-docs) with additions, corrections, or category reorganizations. Every improvement makes the directory more useful for the community.
 
 ## Top Contributors
 
 | Contributor | Submissions | Approved | Role |
 |-------------|------------|----------|------|
-| [@CorpusIQ](https://github.com/CorpusIQ) | 121 | 121 | Maintainer |
+| [@CorpusIQ](https://github.com/CorpusIQ) | 186 | 121 | Maintainer |
 
-## Contribution Stats
+## Inclusion Criteria
 
-| Metric | Value |
-|--------|-------|
-| Total contributors | 1 |
-| Total submissions | 121 |
-| Approved | 121 (100%) |
-| Rejected | 0 |
-| Pending review | 0 |
-| Repos in directory | 121+ |
+Every submission must meet our [inclusion criteria](https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/data/inclusion_criteria.md):
+- Must be related to Hermes Agent or compatible tools
+- Repository must be publicly accessible
+- Must have a clear README or documentation
+- No spam, scams, or malicious content
 
-## Become a Contributor
+## FAQ
 
-Every submission that meets the [inclusion criteria](https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/data/inclusion_criteria.md) gets added to the directory with your GitHub handle credited.
+### How do I submit a Hermes repository to the ecosystem directory?
 
-**What we're looking for:**
-- Hermes Agent tools, SDKs, integrations
-- MCP servers compatible with Hermes
-- Skills and plugins
-- Deployment guides and infrastructure
-- Research papers and benchmarks
-- Tutorials and educational content
-- Community projects and examples
+Use the [submission form](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml). Include the repo URL, a description, and a category. Submissions are reviewed within 48 hours and accepted repos appear in the [ecosystem directory](/hermes/ecosystem.md) with your GitHub handle credited.
 
-[Submit your first repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)
+### What types of repositories are accepted?
 
----
+We accept **Hermes skills, MCP servers, plugins, tools, UI/dashboards, deployment guides, tutorials, benchmarks, research papers, and anything extending the Hermes ecosystem**. The repo must be publicly accessible with a clear README.
 
-*Updated automatically by the discovery engine. Last refresh: nightly 10 PM - 2 AM Arizona time.*
+### How long does review take?
+
+Submissions are reviewed within **48 hours**. The discovery engine also runs nightly (10 PM - 2 AM Arizona time) to detect new community repos automatically.
+
+### Can I contribute without submitting a repo?
+
+Yes. You can **review pending submissions**, open PRs with category improvements or corrections, or help validate new community discoveries. Every contribution type is valued.
+
+### Where do accepted submissions appear?
+
+Accepted repos are added to the [Hermes Ecosystem Directory](/hermes/ecosystem.md) — categorized by type (core, UI, memory, MCP, skills, deployment, research, etc.) with star counts, descriptions, and your GitHub handle as the submitter.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I submit a Hermes repository to the ecosystem directory?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use the submission form with repo URL, description, and category. Submissions are reviewed within 48 hours and appear in the ecosystem directory with your GitHub handle credited."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of repositories are accepted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes skills, MCP servers, plugins, tools, UI/dashboards, deployment guides, tutorials, benchmarks, research papers, and anything extending the Hermes ecosystem."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does review take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Submissions are reviewed within 48 hours. The discovery engine also runs nightly to detect new community repos automatically."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I contribute without submitting a repo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You can review pending submissions, open PRs with improvements, or help validate new community discoveries."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where do accepted submissions appear?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Accepted repos appear in the Hermes Ecosystem Directory, categorized by type with star counts, descriptions, and your GitHub handle as submitter."
+      }
+    }
+  ]
+}
+</script>
+
+## Related Pages
+
+- [Hermes Ecosystem Directory — 234+ Repos](/hermes/ecosystem.md)
+- [Hermes Knowledge Hub — Production Reference](/hermes/)
+- [Skills Catalog — 133+ Skills](/hermes/skills/catalog/)
+- [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)

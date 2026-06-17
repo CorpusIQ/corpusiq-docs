@@ -1,72 +1,119 @@
-# Security Best Practices for Hermes
+---
+title: Security Best Practices for Hermes Agent — Credentials, Approval Gates & Audit
+description: Hermes Agent security best practices. Token and credential management, least-privilege access, tiered approval gates, audit logging, secrets management, plugin verification, and operational security checklist.
+category: best-practices
+tags: [hermes-agent, security, credentials, approval-gates, audit-logging, least-privilege, token-management, secrets]
+last_updated: 2026-06-16
+---
 
-Hermes connects to your data, executes code, and runs scheduled tasks — all capabilities that require thoughtful security design. This guide covers the non-negotiable practices and the patterns that prevent the most common security failures.
+# Security Best Practices — Protect Your Hermes Agent Deployment
 
-## Token and Credential Management
+Hermes Agent connects to your data, executes code, and runs scheduled tasks — all capabilities that require thoughtful security design. These security best practices cover credential management, approval gates, audit logging, and the patterns that prevent the most common security failures in production AI agent deployments.
 
-**Never hardcode credentials in skills, crons, or prompt templates.** Credentials belong in the secrets manager or environment variables, never in version-controlled text. A skill that reads `api_key = "sk-abc123"` is a breach waiting to happen the first time someone shares their skill config.
+## Overview
 
-**Use the principle of least privilege for every connector.** When you authenticate a service (email, CRM, database, cloud provider), grant only the permissions Hermes actually needs. If Hermes only needs to read emails from one label, don't grant full Gmail access. If it only needs `SELECT` on one database table, don't grant write access to the entire database. Create scoped API keys, service accounts, or database roles with explicit permission boundaries.
+Security with Hermes Agent follows the [least-privilege principle](/hermes/best-practices/): start read-only, add write capabilities only with explicit approval gates, and log everything. Each connector to external services (email, CRM, databases) is a potential attack surface — managing tokens and permissions correctly is non-negotiable.
 
-**Rotate credentials on a schedule.** API keys and tokens should have planned rotation cycles. Quarterly rotation is reasonable for most integrations. Document the rotation procedure for each connector so it's a 5-minute task, not a panic-inducing fire drill when a key expires.
+## How It Works
 
-**Never share personal API keys across team members.** Each team member using Hermes should have their own credentials to shared services. This provides audit trails and allows individual revocation without disrupting the team.
+### Credential Management
 
-## Approval Gates and Human-in-the-Loop
+**Never hardcode credentials** in skills, crons, or prompt templates. Use environment variables or a secrets manager. A skill reading `api_key = "sk-abc123"` is a breach waiting to happen.
 
-**Write operations require explicit confirmation.** Reading data and generating reports can be automated. Writing data — sending emails, updating CRM records, modifying databases, executing financial transactions — should require human approval. Configure confirmation gates before any destructive or externally-visible action.
+**Least privilege for every connector.** Grant only the permissions Hermes Agent actually needs. Read-only Gmail scope, SELECT-only database role, scoped API keys with explicit boundaries.
 
-**Tier your approval levels:**
+**Rotate credentials quarterly.** Document rotation procedures so it's a 5-minute task, not a fire drill.
 
-- **Tier 0 (read-only):** No approval needed. Data queries, report generation, analysis.
-- **Tier 1 (internal write):** One-click confirm. Updating internal notes, creating draft documents, scheduling tasks.
-- **Tier 2 (external write):** Explicit confirmation with preview. Sending emails, posting messages, updating customer-facing data.
-- **Tier 3 (high-impact):** Multi-step confirmation with reason capture. Financial transactions, bulk data changes, security-sensitive operations.
+**No shared API keys.** Each team member needs their own credentials for audit trails and individual revocation.
 
-**Approval gates should show what will happen before it happens.** "Send email to 42 recipients with subject 'Monthly Update'" is a useful confirmation. "Execute command" is not. Show the payload, the targets, and the expected impact.
+### Tiered Approval Gates
 
-## Audit Logging
+| Tier | Type | Approval Required | Examples |
+|---|---|---|---|
+| Tier 0 | Read-only | None | Queries, reports, analysis |
+| Tier 1 | Internal write | One-click confirm | Draft docs, internal notes |
+| Tier 2 | External write | Explicit confirmation + preview | Sending emails, posting messages |
+| Tier 3 | High-impact | Multi-step with reason capture | Financial transactions, bulk changes |
 
-**Log every significant action.** What was done, by whom (which Hermes instance or user), when, with what inputs, and what the result was. This is non-negotiable for production deployments.
+### Audit Logging
 
-**Structured logging beats free-text.** A log entry like `{"action": "email_sent", "recipient_count": 42, "campaign_id": "abc123", "timestamp": "..."}` is queryable and analyzable. "Sent the campaign email" is not.
+Log every significant action: what was done, by whom, when, with what inputs, and the result. Use structured logging (JSON), not free-text. Store logs in append-only storage for 30-90 days minimum. Schedule weekly log reviews or set up automated anomaly detection.
 
-**Retain logs commensurate with risk.** For financial operations, retain logs for the same period as your financial records. For general operations, 30-90 days is a reasonable starting point. Consider log immutability — append-only stores prevent tampering.
+### Secrets and Sensitive Data
 
-**Review logs periodically.** Unreviewed logs provide no security value. Schedule a weekly 15-minute log review or set up automated anomaly detection that flags unusual patterns (off-hours activity, unexpected data volumes, new tool combinations).
-
-## Secrets and Sensitive Data
-
-**What to never store in Hermes memory, skills, or conversation context:**
-
-- API keys, passwords, or access tokens
-- Credit card numbers or financial account details
-- Personal identifiable information (PII) unless explicitly required and approved
-- Authentication cookies or session tokens
-- Private keys or certificates
-
-**Data minimization in context.** When Hermes retrieves data to answer a question, it often brings back more than needed. Strip sensitive fields before the data enters the model's context window. If you're querying a user database for email statistics, you don't need to include home addresses in the context.
-
-**Redact sensitive data in logs.** Accidentally logging a customer's email address or phone number happens more often than anyone admits. Implement log redaction patterns — mask emails, truncate IDs, hash identifiers where full values aren't needed.
-
-## Plugin and Skill Security
-
-**Validate skill provenance.** Before installing a skill from a community marketplace, understand what it does. Read the SKILL.md. Check what tools it calls. Look for network requests to unexpected destinations. Community skills are valuable but they run with your credentials.
-
-**Isolate untrusted code.** If a skill runs custom code (scripts, commands), sandbox it. Run it with minimal filesystem access, network restrictions, and resource limits. A skill that claims to format JSON shouldn't need filesystem write access.
-
-**Version pinning.** Always pin skill and plugin versions in production. Auto-updating dependencies is convenient but introduces supply-chain risk — a compromised update to a popular skill could cascade across many deployments.
+**Never store in memory/context:** API keys, passwords, credit card numbers, PII, auth tokens, private keys. Strip sensitive fields before data enters model context. Redact PII in logs.
 
 ## Operational Security Checklist
 
-- [ ] All credentials stored in secrets manager, never in version control
+- [ ] All credentials in secrets manager, never in version control
 - [ ] Each connector uses scoped, least-privilege credentials
 - [ ] Write operations require confirmation gates
-- [ ] Audit logging is enabled and logs are reviewed
-- [ ] Sensitive data is stripped before entering model context
-- [ ] Community skills are reviewed before installation
-- [ ] Credentials rotate on a documented schedule
-- [ ] Logs are stored in append-only, immutable storage
-- [ ] Off-hours or anomalous activity triggers alerts
+- [ ] Audit logging enabled and reviewed weekly
+- [ ] Sensitive data stripped before model context
+- [ ] Community skills reviewed before installation
+- [ ] Credentials rotate on documented schedule
+- [ ] Logs stored append-only and immutable
+- [ ] Anomalous activity triggers alerts
 
-Security is not a one-time setup. It's a practice. Revisit this checklist monthly.
+## Benefits
+
+- **Breach prevention**: Hardened credential management eliminates the #1 attack vector
+- **Compliance ready**: Audit logging satisfies SOC 2, HIPAA, and internal review requirements
+- **Safe automation**: Approval gates let you automate writes without losing control
+- **Revocable access**: Individual credentials mean you can cut off one user without disrupting the team
+
+## FAQ
+
+### How do I manage API keys securely with Hermes Agent?
+Never hardcode keys in skills or prompts. Use environment variables, a secrets manager, or the built-in credential store. Each connector should use scoped keys with only the permissions Hermes Agent needs — prefer read-only where possible.
+
+### What actions require human approval in Hermes Agent?
+Any write operation that affects external systems: sending emails, updating CRM records, modifying databases, posting to Slack, executing financial transactions. Configure [tiered approval gates](security.md#tiered-approval-gates) appropriate to the risk level.
+
+### How often should I rotate Hermes Agent credentials?
+Rotate API keys and tokens quarterly at minimum. Document the rotation procedure for each connector so it's a quick task. Set calendar reminders — expired tokens are the #1 cause of silent automation failures.
+
+## Related Pages
+
+- [Best Practices Overview](/hermes/best-practices/) — All guides
+- [Cron Design](cron-design.md) — Secure scheduled automation
+- [Memory Management](memory-management.md) — Don't store secrets in memory
+- [MCP Integration Guide](/hermes/mcp/) — Connector authentication
+- [Troubleshooting](/hermes/troubleshooting/) — Fix OAuth token expiry
+
+---
+
+*Security is not a one-time setup. It's a practice. Revisit this monthly.*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I manage API keys securely with Hermes Agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Never hardcode keys in skills or prompts. Use environment variables, a secrets manager, or the built-in credential store. Each connector should use scoped keys with only the permissions Hermes Agent actually needs — prefer read-only where possible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What Hermes Agent actions require human approval?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Any write operation affecting external systems: sending emails, updating CRM records, modifying databases, posting to Slack, executing financial transactions. Configure tiered approval gates (Tier 0-3) appropriate to each action's risk level."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should I rotate Hermes Agent API credentials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rotate API keys and tokens quarterly at minimum. Document the rotation procedure for each connector. Set calendar reminders — expired tokens are the #1 cause of silent automation failures in Hermes Agent deployments."
+      }
+    }
+  ]
+}
+</script>

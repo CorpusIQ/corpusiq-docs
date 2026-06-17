@@ -1,14 +1,29 @@
-# Revenue Operations: Pipeline, Forecasting & Reconciliation
+---
+title: "Hermes Agent Revenue Operations Automation | Pipeline Forecasting & Reconciliation"
+description: "Automate pipeline hygiene, sales forecasting, commission calculation, and cross-source revenue reconciliation with Hermes Agent AI for RevOps teams."
+category: "Case Study"
+tags:
+  - revenue operations
+  - RevOps
+  - pipeline management
+  - forecasting
+  - commission
+  - revenue reconciliation
+  - AI agent
+last_updated: "2026-06-16"
+---
 
-Revenue operations (RevOps) sits at the intersection of sales, marketing, finance, and customer success. The RevOps mandate is to make the revenue engine predictable, measurable, and scalable — but the data needed to do that lives in separate systems that rarely agree. Hermes Agent automates the cross-system reconciliation, reporting, and alerting that turns fragmented data into operational intelligence.
+# Hermes Agent Revenue Operations Automation
 
-## The RevOps Data Problem
+Hermes Agent automates pipeline hygiene, sales forecasting, commission calculation, and cross-source revenue reconciliation for RevOps teams. Replace month-end spreadsheet reconciliation with continuous cross-system validation that gives finance, sales, and leadership a single source of truth for revenue numbers.
 
-A typical revenue stack includes: CRM (HubSpot, Salesforce, Close), marketing automation (Klaviyo, Mailchimp, ActiveCampaign), billing (Stripe, QuickBooks, Chargebee), analytics (GA4, PostHog), and spreadsheets (the unofficial system of record). Each system has its own definition of "customer," "revenue," and "pipeline." Reconciling them manually means exporting CSVs and VLOOKUP-ing until your eyes cross.
+## Overview
 
-Hermes automates that reconciliation and makes it continuous rather than month-end.
+Revenue operations (RevOps) sits at the intersection of sales, marketing, finance, and customer success. The RevOps mandate is to make the revenue engine predictable, measurable, and scalable — but the data needed to do that lives in separate systems that rarely agree. A typical revenue stack includes CRM (HubSpot, Salesforce, Close), marketing automation (Klaviyo, Mailchimp, ActiveCampaign), billing (Stripe, QuickBooks, Chargebee), analytics (GA4, PostHog), and spreadsheets (the unofficial system of record). Each system has its own definition of "customer," "revenue," and "pipeline." Hermes automates that reconciliation and makes it continuous rather than month-end.
 
-## Pipeline Management & Hygiene
+## How It Works
+
+### Pipeline Management & Hygiene
 
 CRM pipelines degrade. Deals sit in stages too long, close dates drift without updates, and stale opportunities inflate forecasts. Hermes can enforce pipeline discipline automatically.
 
@@ -41,7 +56,7 @@ Each flag includes a severity score and a suggested action. The output routes to
 
 The skill maintains expected stage durations (configurable by deal size and type). When a deal exceeds the expected time in a stage, it alerts the rep and manager. Over time, the skill builds actual velocity data that feeds more accurate forecasting.
 
-## Forecasting Automation
+### Forecasting Automation
 
 Sales forecasting typically involves each rep submitting a commit, which the manager adjusts, which then rolls up through layers of spreadsheet math. Hermes can build data-driven forecasts that complement human judgment.
 
@@ -71,9 +86,9 @@ The skill:
   description: Compares prior month forecasts to actual results
 ```
 
-This retrospective compares what was forecasted (at weekly intervals) against what actually closed, calculating forecast accuracy by rep, by team, and by deal stage. It identifies systematic biases (who consistently over-forecasts, which deal stages are least predictive) so managers can calibrate.
+This retrospective compares what was forecasted (at weekly intervals) against what actually closed, calculating forecast accuracy by rep, by team, and by deal stage. It identifies systematic biases — who consistently over-forecasts, which deal stages are least predictive — so managers can calibrate.
 
-## Commission Calculation
+### Commission Calculation
 
 Commission calculations are error-prone, time-consuming, and the fastest way to damage rep trust. Hermes can automate the calculation while maintaining the transparency reps need.
 
@@ -103,7 +118,7 @@ The skill:
 
 The audit skill looks for: deals missing from commission calculation, unusual rate applications, reps below minimum with closed revenue, and significant month-over-month changes in any rep's payout.
 
-## Revenue Reconciliation
+### Revenue Reconciliation
 
 Different systems report different revenue numbers, and they should agree (or at least be reconcilable). Hermes can continuously validate these numbers against each other.
 
@@ -132,9 +147,9 @@ The skill:
   description: Builds MRR waterfall showing new, expansion, contraction, and churn
 ```
 
-This skill builds the standard SaaS revenue waterfall: starting MRR + new business + expansion - contraction - churn = ending MRR. Each component is sourced from the billing system with CRM enrichment for segmentation (by plan, by cohort, by sales rep).
+This skill builds the standard SaaS revenue waterfall: starting MRR + new business + expansion - contraction - churn = ending MRR. Each component is sourced from the billing system with CRM enrichment for segmentation.
 
-## Marketing-to-Sales Handoff
+### Marketing-to-Sales Handoff
 
 The gap between marketing qualified leads and sales accepted opportunities is where pipeline leaks.
 
@@ -145,7 +160,14 @@ The gap between marketing qualified leads and sales accepted opportunities is wh
   description: Tracks MQL to SQL conversion and identifies leakage points
 ```
 
-The skill tracks leads from marketing systems (Klaviyo, Mailchimp, HubSpot forms) through to CRM opportunities, measuring conversion rates at each stage and flagging: MQLs that weren't contacted, leads that were disqualified without clear reason, and conversion rate changes that warrant investigation.
+## Benefits
+
+- **Cleaner pipeline data** — stale deals, missing fields, and inconsistencies flagged daily
+- **More accurate forecasts** — data-driven weighted pipeline with historical accuracy tracking
+- **Faster commission cycles** — automated calculations with transparent audit trails
+- **Trusted revenue numbers** — daily cross-source reconciliation catches gaps immediately
+- **Better marketing-sales alignment** — MQL-to-SQL conversion tracked and leakage identified
+- **Single source of truth** — finance, sales, and leadership all work from the same numbers
 
 ## Getting Started in RevOps
 
@@ -156,3 +178,82 @@ The skill tracks leads from marketing systems (Klaviyo, Mailchimp, HubSpot forms
 5. **Use database connectors for custom metrics.** Most revenue teams have custom SQL queries they run regularly. Turn those into Hermes skills that run on schedule.
 
 The outcome: cleaner pipeline data, more accurate forecasts, faster commission cycles, and a single source of truth for revenue numbers that finance, sales, and leadership all trust.
+
+## FAQ
+
+### What CRM and billing systems does Hermes connect to for RevOps?
+
+Hermes connects to HubSpot, Close CRM, LeadConnector for pipeline data, and Stripe, QuickBooks, and Chargebee for billing and revenue data. Custom systems with SQL or API access are also supported.
+
+### How does Hermes improve forecast accuracy?
+
+Hermes builds data-driven forecasts using stage-based probability weights and historical conversion data, then retrospectively compares forecasts to actuals to identify systematic biases by rep, team, and deal stage.
+
+### Can Hermes calculate sales commissions?
+
+Yes. Hermes applies commission plan rules including base rates, accelerators, splits, clawbacks, draws, and guarantees. It produces per-rep statements with full audit trails and cross-checks for anomalies.
+
+### How does Hermes reconcile revenue across systems?
+
+Hermes pulls revenue figures daily from CRM, billing, and accounting systems, then identifies gaps: deals without invoices, invoices without deals, and amount discrepancies. A reconciliation report with specific investigation items is produced.
+
+### Does Hermes track MRR/ARR for SaaS businesses?
+
+Yes. Hermes builds standard SaaS revenue waterfalls showing new business, expansion, contraction, and churn components, sourced from the billing system with CRM enrichment for segmentation by plan, cohort, and rep.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What CRM and billing systems does Hermes connect to for RevOps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes connects to HubSpot, Close CRM, LeadConnector for pipeline data, and Stripe, QuickBooks, and Chargebee for billing and revenue data. Custom systems with SQL or API access are also supported."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Hermes improve forecast accuracy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes builds data-driven forecasts using stage-based probability weights and historical conversion data, then retrospectively compares forecasts to actuals to identify systematic biases by rep, team, and deal stage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Hermes calculate sales commissions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Hermes applies commission plan rules including base rates, accelerators, splits, clawbacks, draws, and guarantees. It produces per-rep statements with full audit trails and cross-checks for anomalies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Hermes reconcile revenue across systems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes pulls revenue figures daily from CRM, billing, and accounting systems, then identifies gaps: deals without invoices, invoices without deals, and amount discrepancies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Hermes track MRR/ARR for SaaS businesses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Hermes builds standard SaaS revenue waterfalls showing new business, expansion, contraction, and churn components, sourced from the billing system with CRM enrichment for segmentation."
+      }
+    }
+  ]
+}
+</script>
+
+## Related Pages
+
+- [Hermes Agent for Financial Services](../case-studies/financial-services.md) — Transaction reconciliation and portfolio monitoring
+- [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Customer health monitoring and churn signals
+- [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce.md) — Order processing and revenue tracking
+- [Hermes Agent for Mid-Market](../by-company-size/mid-market.md) — Multi-department RevOps orchestration
+- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem

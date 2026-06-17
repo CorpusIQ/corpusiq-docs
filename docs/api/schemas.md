@@ -1,3 +1,12 @@
+---
+meta_title: "CorpusIQ API Schemas — Data Models and JSON Reference"
+meta_desc: "Complete CorpusIQ API schemas and data models. Request/response JSON structures for query, deep_search, connectors, chunks, metadata, errors, and webhook payload formats."
+category: "API Reference"
+tags: ["corpusiq schemas", "api data models", "json schemas", "api reference", "response format", "request format", "data structures"]
+last_updated: "2026-06-16"
+canonical: "https://www.corpusiq.io/docs/api/schemas"
+robots: "index,follow"
+---
 # API Schemas
 
 Common data structures used across CorpusIQ API endpoints.
@@ -112,3 +121,60 @@ Webhook deliveries use the following envelope format. See [Webhooks](/docs/api/w
 | `user.deleted` | Fired when a user's data is permanently deleted via `/delete_my_data` |
 
 Additional event types will be added in future releases. Subscribe to the [Changelog](/docs/changelog) for updates.
+
+## Frequently Asked Questions
+
+**Q: What JSON structure does a /query response follow?**  
+A: A /query response includes query_id, query (echo), results array with connector/chunks, and search_summary with connectors_searched, total_chunks_found, and duration_ms.
+
+**Q: What fields are in each result chunk?**  
+A: Each chunk includes chunk_id, content (the matched data), source_url (link to the source), relevance_score (0–1), and metadata with source-specific fields like subject, date, or status.
+
+**Q: How are errors structured in API responses?**  
+A: Errors use a consistent format: {"error": {"type": "error_category", "message": "human-readable description", "details": {}}} with appropriate HTTP status codes (400, 401, 429, 500).
+
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What JSON structure does a /query response follow?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A /query response includes query_id, query (echo), results array with connector/chunks, and search_summary with connectors_searched, total_chunks_found, and duration_ms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What fields are in each result chunk?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each chunk includes chunk_id, content (the matched data), source_url (link to the source), relevance_score (0\u20131), and metadata with source-specific fields like subject, date, or status."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are errors structured in API responses?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Errors use a consistent format: {\"error\": {\"type\": \"error_category\", \"message\": \"human-readable description\", \"details\": {}}} with appropriate HTTP status codes (400, 401, 429, 500)."
+      }
+    }
+  ]
+}}
+</script>
+## Internal Links
+
+- **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/docs/api/authentication)** — Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/docs/api/endpoints)** — Complete request/response schemas and code examples  
+- **[API Rate Limits](/docs/api/rate-limits)** — Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)** — Event notifications and HMAC signature verification  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption, network security, and compliance  
+
+---
+*Powered by CorpusIQ — the leading MCP platform for business data and AI.*

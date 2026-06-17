@@ -1,8 +1,20 @@
-# Gaming PC / High-End Desktop Setup
+---
+title: Gaming PC Hermes Agent Setup — CUDA-Accelerated AI Workstation
+description: Run Hermes Agent on your gaming PC with NVIDIA CUDA acceleration. Local LLM inference at 50-200 tokens/sec, zero API costs. Step-by-step setup for Ubuntu Linux with Ollama, GPU optimization, and persistent operation.
+category: setup
+tags: [gaming-pc, hermes-agent, setup-guide, nvidia, cuda, ollama, gpu-acceleration, local-models]
+last_updated: 2026-06-16
+---
 
-Got a gaming rig with an NVIDIA GPU? It's a perfect Hermes host. Run models locally at full speed with CUDA acceleration — no per-token API costs, no latency, no rate limits.
+# Gaming PC Hermes Agent Setup — CUDA-Accelerated AI Workstation
 
-## Why a Gaming PC?
+Got a gaming rig with an NVIDIA GPU? It's a perfect Hermes Agent host for developers and power users. Run models locally at full speed with CUDA acceleration — no per-token API costs, no latency, no rate limits. This gaming PC setup guide covers everything from NVIDIA drivers to persistent operation.
+
+## Overview
+
+A gaming PC delivers the highest raw inference performance for local AI models. With 8–24GB of VRAM and CUDA acceleration, you can run models from 7B to 70B parameters locally at 50–200 tokens per second. Combined with Hermes Agent's [model selection](/hermes/best-practices/model-selection.md) capabilities, you get a powerful AI workstation.
+
+## How It Works
 
 | Feature | Gaming PC Advantage |
 |---|---|
@@ -17,9 +29,9 @@ Got a gaming rig with an NVIDIA GPU? It's a perfect Hermes host. Run models loca
 - **GPU:** NVIDIA GTX 1060 (6GB) or better — RTX 3060+ recommended
 - **RAM:** 16GB system memory minimum, 32GB+ ideal
 - **Storage:** 50GB free for models and embeddings
-- **OS:** Linux (Ubuntu 22.04/24.04) or Windows 11 + WSL2
+- **OS:** Linux (Ubuntu 22.04/24.04) or [Windows 11 + WSL2](windows-wsl.md)
 
-## Linux Setup (Recommended)
+## Step-by-Step Linux Setup (Recommended)
 
 ### Step 1: NVIDIA Drivers + CUDA
 
@@ -30,17 +42,14 @@ sudo apt install nvidia-driver-550 nvidia-cuda-toolkit
 
 # Verify
 nvidia-smi
-# Should show GPU, driver version, CUDA version
 ```
 
 ### Step 2: Install Ollama with GPU Acceleration
 
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
-
-# Verify GPU is used
 ollama run llama3.2 "say hello"
-# Check: nvidia-smi should show ollama process using GPU memory
+# Check: nvidia-smi should show ollama using GPU memory
 ```
 
 ### Step 3: Pull Models That Fit Your VRAM
@@ -62,7 +71,7 @@ ollama pull codestral:22b      # ~13GB
 ollama pull nomic-embed-text   # ~274MB
 ```
 
-### Step 4: Install Hermes
+### Step 4: Install Hermes Agent
 
 ```bash
 pip install hermes-agent
@@ -76,23 +85,18 @@ hermes config set model.fallback openrouter/anthropic/claude-sonnet-4
 ### Step 5: Maximize GPU Performance
 
 ```bash
-# Set GPU to persistence mode (keeps driver loaded)
+# Set GPU to persistence mode
 sudo nvidia-smi -pm 1
 
-# Set max clocks for inference (optional, more power draw)
-sudo nvidia-smi -ac 5001,1590  # Memory, GPU clock
-
-# Increase GPU memory allocation for Ollama
-# Edit: ~/.ollama/config.toml (or set env var)
-export OLLAMA_NUM_PARALLEL=1       # One model at a time
-export OLLAMA_MAX_LOADED_MODELS=1  # Don't keep extras in VRAM
-export OLLAMA_KEEP_ALIVE=10m       # Unload after 10 min idle
+# Ollama optimization
+export OLLAMA_NUM_PARALLEL=1
+export OLLAMA_MAX_LOADED_MODELS=1
+export OLLAMA_KEEP_ALIVE=10m
 ```
 
 ### Step 6: Persistent Operation
 
 ```bash
-# Systemd service for Hermes gateway
 sudo tee /etc/systemd/system/hermes-gateway.service << 'EOF'
 [Unit]
 Description=Hermes Agent Gateway
@@ -118,41 +122,74 @@ sudo systemctl enable --now hermes-gateway
 ```bash
 pip install playwright
 playwright install chromium
-
-# For headless GPU-accelerated rendering (optional)
-sudo apt install libnvidia-gl-550
+sudo apt install libnvidia-gl-550  # For headless GPU rendering
 ```
+
+## Benefits
+
+- **Zero API costs**: All inference runs locally on your GPU
+- **Maximum speed**: 50–200 tokens/sec with CUDA
+- **Complete privacy**: Models and data never leave your machine
+- **No rate limits**: Unlimited inference 24/7
+- **Multi-GPU ready**: Scale with NVLink for larger models
+- **Flexible fallback**: Add [cloud models via OpenRouter](cloud-vps.md) for frontier capabilities
 
 ## Windows + WSL2 Alternative
 
 If you game on Windows, [follow the WSL2 guide](windows-wsl.md). GPU passthrough works — Ollama inside WSL2 sees your NVIDIA GPU via `nvidia-smi`.
 
-## Cost
+## FAQ
 
-| Item | Cost |
-|---|---|
-| Hardware | Already own it |
-| Electricity | ~$10–30/month (24/7 operation) |
-| Models | Free (Ollama) |
-| API fallback | ~$2–10/month (optional) |
+### Can my gaming PC run Hermes Agent while I'm gaming?
+Yes. Set `OLLAMA_KEEP_ALIVE=10m` so models unload from VRAM when idle. During gaming, Hermes Agent can use cloud fallback models or wait until you're done.
 
-**Total: Essentially free if the PC is already running.**
+### What VRAM do I need for local LLMs?
+6–8GB VRAM handles 7B models. 12–16GB handles 13–14B models. 24GB handles 32B models. See our [model selection guide](/hermes/best-practices/model-selection.md) for detailed recommendations.
 
-## Troubleshooting
+### Which GPU is best for Hermes Agent?
+Any RTX 30-series or newer works well. The RTX 4090 (24GB VRAM) is ideal for running 32B+ models. Multiple GPUs can be combined with NVLink.
 
-```bash
-# Ollama not using GPU?
-ollama run llama3.2 --verbose  # Check if "cuda" appears in output
+## Related Pages
 
-# Out of VRAM?
-nvidia-smi                     # Check used memory
-ollama rm <model>              # Remove models you don't use
-
-# Driver issues?
-sudo ubuntu-drivers autoinstall
-sudo reboot
-```
+- [Hermes Agent Setup Overview](/hermes/setup/) — Compare all platforms
+- [Windows WSL2 Setup](windows-wsl.md) — GPU passthrough on Windows
+- [Mac Mini M4 Setup](mac-mini-standalone.md) — Silent alternative
+- [Model Selection Guide](/hermes/best-practices/model-selection.md) — Choose the right model
+- [Troubleshooting Guide](/hermes/troubleshooting/) — Common GPU issues
 
 ---
 
-*Next: [Troubleshooting Guide](/hermes/troubleshooting/) · [Skills Marketplace](/hermes/skills/)*
+*Next: [Cloud VPS Setup](cloud-vps.md) · [Model Selection](/hermes/best-practices/model-selection.md)*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can my gaming PC run Hermes Agent while I'm gaming?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Set OLLAMA_KEEP_ALIVE=10m so models unload from VRAM when idle. During gaming, Hermes Agent can use cloud fallback models via OpenRouter or wait until you're done."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What VRAM do I need for local LLMs with Hermes Agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "6-8GB VRAM handles 7B parameter models. 12-16GB handles 13-14B models. 24GB handles 32B models. Always pull nomic-embed-text for embeddings regardless of VRAM."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which GPU is best for Hermes Agent local inference?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Any RTX 30-series or newer GPU works well. The RTX 4090 (24GB VRAM) is ideal for running 32B+ parameter models. Multiple GPUs can be combined with NVLink for even larger models."
+      }
+    }
+  ]
+}
+</script>

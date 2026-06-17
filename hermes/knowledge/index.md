@@ -1,6 +1,12 @@
-# Memory Architecture — The Triple Stack
+---
+title: Memory Architecture Guide for Hermes Agent — Triple-Stack Persistent AI Memory
+description: Hermes Agent memory architecture guide covering the triple stack: Honcho peer memory, GBrain organizational knowledge, memcore-cloud cross-session recall, GraphRAG, and Session DB. Production-tested persistent AI agent memory.
+category: knowledge
+tags: [hermes-agent, memory, honcho, gbrain, memcore-cloud, graphrag, persistent-memory, knowledge-management]
+last_updated: 2026-06-16
+---
 
-The single biggest gap between a chat agent and an autonomous operator is **persistent knowledge**. Without memory, every session starts from zero. Here's the production-tested triple stack.
+# Hermes Agent Memory Architecture — The Triple Stack for Persistent AI Memory
 
 ## Why Three Systems?
 

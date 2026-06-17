@@ -1,3 +1,12 @@
+---
+meta_title: "CorpusIQ Onboarding Guide — AI Chat and AI Agent Setup in 10 Minutes"
+meta_desc: "Complete CorpusIQ onboarding guide for new users. Step-by-step AI chat setup (5 min) and AI agent MCP configuration (10 min). Connect Stripe, Shopify, QuickBooks, and HubSpot to your AI."
+category: "Documentation"
+tags: ["corpusiq onboarding", "setup guide", "ai chat setup", "ai agent setup", "mcp configuration", "first query", "getting started"]
+last_updated: "2026-06-16"
+canonical: "https://www.corpusiq.io/docs/onboarding"
+robots: "index,follow"
+---
 # Onboarding Guide
 
 First time using CorpusIQ? This guide walks you through everything you need to get started.
@@ -116,3 +125,59 @@ Your agent now has access to 36 business data sources. Use it for:
   business impact
 - Read [Contributing](/CONTRIBUTING.md) before submitting recipes, examples,
   bug reports, or concrete enhancement requests
+
+## Frequently Asked Questions
+
+**Q: How do I choose between AI Chat and AI Agent onboarding?**  
+A: Choose AI Chat if you want to chat with AI about your business data at demo.corpusiq.io (5-minute setup). Choose AI Agent if you want to connect an MCP-compatible AI agent like Claude or Cursor (10-minute setup).
+
+**Q: What data source should I connect first?**  
+A: Start with Stripe (revenue), Shopify (orders), or QuickBooks (financials). These give immediate value. Then add HubSpot (CRM), GA4 (analytics), and Klaviyo (marketing) for cross-source insights.
+
+**Q: How long does the device login take for AI agents?**  
+A: Device login takes approximately 45 seconds from start to finish. Your agent receives a device code, you verify once via browser or mobile, and the agent gets a persistent refresh token for ongoing access.
+
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose between AI Chat and AI Agent onboarding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choose AI Chat if you want to chat with AI about your business data at demo.corpusiq.io (5-minute setup). Choose AI Agent if you want to connect an MCP-compatible AI agent like Claude or Cursor (10-minute setup)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What data source should I connect first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with Stripe (revenue), Shopify (orders), or QuickBooks (financials). These give immediate value. Then add HubSpot (CRM), GA4 (analytics), and Klaviyo (marketing) for cross-source insights."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does the device login take for AI agents?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Device login takes approximately 45 seconds from start to finish. Your agent receives a device code, you verify once via browser or mobile, and the agent gets a persistent refresh token for ongoing access."
+      }
+    }
+  ]
+}}
+</script>
+## Internal Links
+
+- **[CorpusIQ Architecture](/docs/architecture/README)** — MCP endpoint and connector layer design  
+- **[CorpusIQ Security Overview](/docs/security/README)** — Authentication and encryption  
+- **[CorpusIQ Search Capabilities](/docs/search/README)** — Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/docs/reporting/README)** — Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/docs/onboarding/README)** — AI chat and agent setup in 10 minutes  
+- **[MSR Governance Framework](/docs/governance/README)** — Source of truth and audit controls  
+
+---
+*Powered by CorpusIQ — the leading MCP platform for business data and AI.*

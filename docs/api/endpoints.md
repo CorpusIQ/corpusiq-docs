@@ -1,3 +1,12 @@
+---
+meta_title: "CorpusIQ API Endpoints Reference — Full Request/Response Schemas"
+meta_desc: "Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search, DELETE /delete_my_data documentation."
+category: "API Reference"
+tags: ["corpusiq endpoints", "api reference", "query api", "deep search", "rest api", "api schemas", "api examples"]
+last_updated: "2026-06-16"
+canonical: "https://www.corpusiq.io/docs/api/endpoints"
+robots: "index,follow"
+---
 # API Endpoints Reference
 
 Complete reference for all CorpusIQ API endpoints with full request/response schemas and code examples.
@@ -298,3 +307,71 @@ response = requests.delete(
 )
 print(response.json()["message"])
 ```
+
+## Frequently Asked Questions
+
+**Q: What is the POST /query endpoint used for?**  
+A: POST /query searches across all your connected business data sources with natural-language queries. It supports connector scoping, idempotency keys, and returns semantically ranked, cited results.
+
+**Q: What does POST /deep_search do?**  
+A: POST /deep_search searches the encrypted archive of previously executed queries and their results. It does NOT make live API calls — it searches only your query history for pattern discovery and auditing.
+
+**Q: What happens when I call DELETE /delete_my_data?**  
+A: This endpoint permanently deletes all user data: OAuth tokens, query history, archive entries, webhook registrations, and user profile. The action is irreversible and triggers a user.deleted webhook event.
+
+**Q: How do I scope queries to specific connectors?**  
+A: Pass a 'connectors' array in your /query request body specifying which data sources to search. Example: {"query": "revenue this month", "connectors": ["stripe", "quickbooks"]}.
+
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the POST /query endpoint used for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "POST /query searches across all your connected business data sources with natural-language queries. It supports connector scoping, idempotency keys, and returns semantically ranked, cited results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does POST /deep_search do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "POST /deep_search searches the encrypted archive of previously executed queries and their results. It does NOT make live API calls \u2014 it searches only your query history for pattern discovery and auditing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens when I call DELETE /delete_my_data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This endpoint permanently deletes all user data: OAuth tokens, query history, archive entries, webhook registrations, and user profile. The action is irreversible and triggers a user.deleted webhook event."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I scope queries to specific connectors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pass a 'connectors' array in your /query request body specifying which data sources to search. Example: {\"query\": \"revenue this month\", \"connectors\": [\"stripe\", \"quickbooks\"]}."
+      }
+    }
+  ]
+}}
+</script>
+## Internal Links
+
+- **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/docs/api/authentication)** — Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/docs/api/endpoints)** — Complete request/response schemas and code examples  
+- **[API Rate Limits](/docs/api/rate-limits)** — Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)** — Event notifications and HMAC signature verification  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption, network security, and compliance  
+
+---
+*Powered by CorpusIQ — the leading MCP platform for business data and AI.*

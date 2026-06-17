@@ -1,3 +1,12 @@
+---
+meta_title: "CorpusIQ Security — SOC 2, CASA Tier 2, Encryption, and Data Privacy"
+meta_desc: "Complete CorpusIQ security documentation: SOC 2 Type II, CASA Tier 2 certified by DEKRA, AES-256 encryption, TLS 1.3, read-only OAuth, zero data storage, GDPR compliance, and incident response."
+category: "Documentation"
+tags: ["corpusiq security", "soc 2", "casa tier 2", "data privacy", "encryption", "oauth security", "gdpr compliance", "ai security"]
+last_updated: "2026-06-16"
+canonical: "https://www.corpusiq.io/docs/security"
+robots: "index,follow"
+---
 # Security
 
 CorpusIQ is designed with data privacy as a foundational principle. This page documents the technical and organizational measures applied to protect user data. CorpusIQ LLC, Scottsdale, Arizona. Last updated: March 24, 2026.
@@ -113,3 +122,82 @@ Users can:
 ## 11. Reporting Vulnerabilities
 
 If you discover a security vulnerability, report to security@corpusiq.io. We follow a coordinated disclosure process and aim to acknowledge reports within 24 hours. Please do not publicly disclose before we have had an opportunity to address them.
+
+## Frequently Asked Questions
+
+**Q: What security certifications does CorpusIQ hold?**  
+A: CorpusIQ is CASA Tier 2 certified by DEKRA (OWASP Top 10 verified) and maintains SOC 2 Type II compliance. The platform uses AES-256 encryption at rest, TLS 1.3 in transit, and read-only OAuth for all data source connections.
+
+**Q: Does CorpusIQ store my business data?**  
+A: No. CorpusIQ queries your data sources on demand and discards results after returning them to the AI model. There is no persistent copy of your business data — no data warehouse, no embedding store, no cache.
+
+**Q: How does CorpusIQ handle data deletion?**  
+A: The /delete_my_data endpoint permanently removes all OAuth tokens, query history, archive entries, webhook registrations, and profile data. Connector revocation removes all associated data immediately. Audit receipts are retained for 24 months.
+
+**Q: Where is CorpusIQ infrastructure hosted?**  
+A: Infrastructure runs on Microsoft Azure (US-based). Enterprise customers can request data residency options for specific geographic regions. Contact sales@corpusiq.io for details.
+
+**Q: How do I report a security vulnerability?**  
+A: Report to security@corpusiq.io. CorpusIQ follows coordinated disclosure and aims to acknowledge reports within 24 hours. Do not publicly disclose before the team has addressed the issue.
+
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What security certifications does CorpusIQ hold?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CorpusIQ is CASA Tier 2 certified by DEKRA (OWASP Top 10 verified) and maintains SOC 2 Type II compliance. The platform uses AES-256 encryption at rest, TLS 1.3 in transit, and read-only OAuth for all data source connections."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does CorpusIQ store my business data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. CorpusIQ queries your data sources on demand and discards results after returning them to the AI model. There is no persistent copy of your business data \u2014 no data warehouse, no embedding store, no cache."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does CorpusIQ handle data deletion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The /delete_my_data endpoint permanently removes all OAuth tokens, query history, archive entries, webhook registrations, and profile data. Connector revocation removes all associated data immediately. Audit receipts are retained for 24 months."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is CorpusIQ infrastructure hosted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Infrastructure runs on Microsoft Azure (US-based). Enterprise customers can request data residency options for specific geographic regions. Contact sales@corpusiq.io for details."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I report a security vulnerability?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Report to security@corpusiq.io. CorpusIQ follows coordinated disclosure and aims to acknowledge reports within 24 hours. Do not publicly disclose before the team has addressed the issue."
+      }
+    }
+  ]
+}}
+</script>
+## Internal Links
+
+- **[CorpusIQ Quick Start Guide](/docs/quick-start)** — Go from zero to first query in 5 minutes  
+- **[API Reference](/docs/api/overview)** — Full REST API documentation  
+- **[CorpusIQ Connectors](/docs/connectors)** — All 50+ supported integrations  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/docs/security)** — Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/docs/changelog)** — API updates and version history  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption and network security  
+
+---
+*Powered by CorpusIQ — the leading MCP platform for business data and AI.*

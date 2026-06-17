@@ -1,12 +1,23 @@
-# Hermes Agent Library
+---
+title: Hermes Agent Library — 9 Production-Ready AI Agent Blueprints
+description: Complete library of 9 role-specific Hermes agent configurations: sales, marketing, devops, support, finance, HR, research, legal, and executive. Deploy in minutes with cron schedules and MCP connectors.
+category: Agents
+tags:
+  - agent-library
+  - ai-agent-blueprints
+  - hermes-agents
+  - role-configurations
+  - production-agents
+last_updated: 2026-06-16
+---
+
+# Hermes Agent Library — 9 Production-Ready AI Agent Blueprints
+
+The **Hermes Agent Library** is a curated collection of **production-ready agent configurations** for common business roles. Each agent is a complete configuration blueprint — not a demo or stub — that you can deploy in minutes and customize for your specific stack, workflows, and tools. Every agent includes role description, recommended model, skills to load, MCP connectors, cron schedule, and quick-start command.
+
+Agents in this library run on the [Hermes Agent framework](/hermes/) by Nous Research. They combine **LLM reasoning with persistent memory, scheduled execution, and deep integration with your business tools** through [CorpusIQ MCP connectors](/hermes/mcp/connectors/). An agent isn't just a prompt — it's an **always-on teammate** that monitors, analyzes, drafts, alerts, and reports on a schedule you define.
 
 ## Overview
-
-The Hermes Agent Library is a curated collection of production-ready agent configurations for common business roles. Each agent is a complete configuration blueprint — not a demo or stub — that you can deploy in minutes and customize for your specific stack, workflows, and tools. Every agent includes the role description, recommended model, skills to load, MCP connectors to connect, a cron schedule for autonomous operation, and a quick-start command.
-
-Agents in this library run on the Hermes Agent framework by Nous Research. They combine large language model reasoning with persistent memory, scheduled execution, and deep integration with your business tools through CorpusIQ connectors. An agent isn't just a prompt — it's an always-on teammate that monitors, analyzes, drafts, alerts, and reports on a schedule you define.
-
-## Available Agents
 
 | # | Agent | Primary Use Case | Recommended Model | Connector Footprint |
 |---|-------|-----------------|-------------------|---------------------|
@@ -20,11 +31,11 @@ Agents in this library run on the Hermes Agent framework by Nous Research. They 
 | 8 | [Legal Agent](./legal-agent.md) | Contract review, regulatory monitoring, audit prep | Claude Sonnet 4 / GPT-4o | Drive, OneDrive, Notion, Slack, Email |
 | 9 | [Executive Agent](./executive-agent.md) | Calendar management, inbox triage, daily briefings | Claude Sonnet 4 / GPT-4o | Calendar, Calendly, Email, Slack, Notion |
 
-## How to Use This Library
+## How It Works
 
 ### 1. Pick Your Agent
 
-Each agent file is a self-contained configuration. Read the role description to confirm it matches your needs, then follow the Quick-Start command at the bottom. The command creates the agent in your Hermes installation with the specified profile, skills, and connectors.
+Each agent file is a **self-contained configuration**. Read the role description to confirm it matches your needs, then follow the Quick-Start command at the bottom. The command creates the agent in your Hermes installation with the specified profile, skills, and connectors.
 
 ### 2. Connect Your Tools
 
@@ -38,11 +49,9 @@ The sample cron schedules are sensible defaults but should be tuned to your time
 hermes config edit --profile sales
 ```
 
-Adjust report timing, alert frequencies, and which channels receive notifications.
-
 ### 4. Add Your Business Context
 
-Agents work best when they understand your business. Use canonical facts to store your key definitions:
+Agents work best when they understand your business. Use [canonical facts](/hermes/governance/) to store key definitions:
 
 ```bash
 hermes canonical set --profile sales \
@@ -50,48 +59,108 @@ hermes canonical set --profile sales \
   --value "B2B SaaS, 50-500 employees, US/Canada, marketing or sales tech stack"
 ```
 
-Store your competitor lists, SLA targets, expense policies, contract playbooks, and other domain-specific knowledge so agents can reference them during operation.
-
 ### 5. Test and Iterate
 
-Start with one agent. Run it manually for a few days:
-
-```bash
-hermes agent run sales --skill pipeline-health
-```
-
-Review the output, refine thresholds, add missing context, then enable the cron schedule. Once you're confident, deploy the next agent.
+Start with **one agent**. Run it manually for a few days, review the output, refine thresholds, then enable the cron schedule. Once confident, deploy the next agent.
 
 ## Model Selection Guide
 
 | Model | Best For | Trade-offs |
 |-------|----------|------------|
-| **Claude Sonnet 4** | General-purpose agent work; strong at nuance, contracts, multi-source synthesis | Higher cost per token; slightly slower than smaller models |
-| **DeepSeek V3 / V4 Pro** | Structured analysis, financial data, research synthesis | May need more explicit formatting instructions |
-| **GPT-4o** | Natural language generation, creative briefs, customer-facing drafts | Cost comparable to Claude; strong all-rounder |
-| **Claude Haiku** | Always-on monitoring, alert classification, simple Q&A | Less capable at multi-step reasoning; use for high-frequency, low-complexity tasks |
-| **GPT-4o Mini** | Cost-sensitive deployments, high-volume ticket classification | Less nuanced than full-size models; pair with escalation to larger model |
+| **Claude Sonnet 4** | General-purpose agent work; nuance, contracts, multi-source synthesis | Higher cost per token |
+| **DeepSeek V3 / V4 Pro** | Structured analysis, financial data, research synthesis | May need more explicit formatting |
+| **GPT-4o** | Natural language generation, creative briefs, customer-facing drafts | Cost comparable to Claude |
+| **Claude Haiku** | Always-on monitoring, alert classification, simple Q&A | Less capable at multi-step reasoning |
+| **GPT-4o Mini** | Cost-sensitive deployments, high-volume classification | Less nuanced; pair with larger model |
 
-**Recommendation:** Use Claude Sonnet 4 or GPT-4o for agents that draft communications or analyze complex multi-source data. Use DeepSeek V3/V4 for structured data analysis. Use Haiku or GPT-4o Mini for always-on monitoring skills that run frequently.
+**Recommendation:** Use Claude Sonnet 4 or GPT-4o for agents that draft communications or analyze complex multi-source data. Use DeepSeek V3/V4 for structured data analysis. Use Haiku or GPT-4o Mini for always-on monitoring skills.
 
 ## Extending Agents
 
-Every agent in this library is a starting point, not a ceiling. Common extensions:
+Every agent in this library is a starting point. Common extensions:
 
-- **Add a custom skill:** Write a new skill file in your profile's skills directory and load it with the agent
+- **Add a custom skill:** Write a new skill file in your profile's skills directory
 - **Chain agents:** Have the Sales Agent's pipeline report feed into the Executive Agent's daily briefing
-- **Add web search:** Enable browser automation or web search tools for agents that need real-time external data
-- **Custom connectors:** Build MCP connectors for your proprietary tools or industry-specific platforms
-- **Multi-model routing:** Use Haiku for classification and Sonnet for drafting within the same agent to optimize cost and speed
+- **Add web search:** Enable browser automation or web search tools for real-time external data
+- **Custom connectors:** Build MCP connectors for your proprietary tools
+- **Multi-model routing:** Use Haiku for classification and Sonnet for drafting — same agent, optimized cost
 
-## Community Contributions
+## FAQ
 
-This library is open-source and community-driven. If you've built an agent configuration that works well for your role or industry, consider contributing it back. Submit a pull request to the Hermes Agent Library repository with your agent file following the same template: role description, recommended model, skills, connectors, cron schedule, and quick-start command.
+### What is the Hermes Agent Library?
 
-## Framework Compatibility
+The **Hermes Agent Library** provides 9 production-ready, role-specific agent configurations for common business roles. Each includes skills, MCP connectors, cron schedules, model recommendations, and quick-start commands — ready to deploy in minutes on the Hermes Agent framework.
 
-These agents are built for Hermes Agent by Nous Research. The configuration format is specific to Hermes Agent's profile and skill system. For the latest framework documentation, including skill authoring, cron configuration, and connector setup, visit [hermes-agent.nousresearch.com/docs](https://hermes-agent.nousresearch.com/docs).
+### How do I deploy a Hermes agent from this library?
 
----
+1. Pick the agent matching your role from the table above 2. Run the Quick-Start command from the agent's page 3. Authenticate the required connectors with `hermes setup connectors` 4. Customize the cron schedule for your timezone 5. Test manually, then enable the cron.
 
-*The Hermes Agent Library is maintained by the community. All agent configurations are provided as starting points — customize them for your specific tools, workflows, and operational requirements.*
+### Which agent should I deploy first?
+
+Start with the agent that solves your **most painful manual process**. For most businesses, that's the [Sales Agent](/hermes/agents/sales-agent.md) (pipeline management), [Marketing Agent](/hermes/agents/marketing-agent.md) (SEO monitoring), or [Executive Agent](/hermes/agents/executive-agent.md) (daily briefings).
+
+### Can I run multiple agents simultaneously?
+
+Yes. Deploy as many agents as you need. They run as separate Hermes profiles with isolated skills, crons, and configurations. Chain agents together for cross-role workflows (e.g., Sales Agent reports feed into Executive Agent briefings).
+
+### How much does running these agents cost?
+
+Cost varies by model and frequency. Lightweight monitoring with **Claude Haiku** costs pennies per day. Full-featured agents with **Claude Sonnet 4** may cost $1-5/day depending on frequency. See the [Model Selection Best Practices](/hermes/best-practices/model-selection.md) for optimization tips.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Hermes Agent Library?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Hermes Agent Library provides 9 production-ready, role-specific agent configurations with skills, MCP connectors, cron schedules, and model recommendations — ready to deploy in minutes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I deploy a Hermes agent from this library?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pick the agent matching your role, run the Quick-Start command, authenticate connectors, customize the cron schedule, test manually, then enable the cron."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which agent should I deploy first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with the agent that solves your most painful manual process — typically Sales Agent, Marketing Agent, or Executive Agent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I run multiple agents simultaneously?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Agents run as separate Hermes profiles with isolated skills, crons, and configurations. Chain them for cross-role workflows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does running these agents cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cost varies by model and frequency. Lightweight monitoring costs pennies per day. Full-featured agents may cost $1-5/day."
+      }
+    }
+  ]
+}
+</script>
+
+## Related Pages
+
+- [Hermes Knowledge Hub — Architecture & Deployment](/hermes/)
+- [Skills Catalog — 133+ Production Skills](/hermes/skills/catalog/)
+- [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
+- [Cron Scheduling Guide](/hermes/governance/scheduling/)
+- [Canonical Facts — Store Business Definitions](/hermes/governance/)
+- [Model Selection Best Practices](/hermes/best-practices/model-selection.md)

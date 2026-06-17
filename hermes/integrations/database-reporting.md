@@ -1,6 +1,12 @@
-# Database + Reporting Integration
+---
+title: Database + Reporting Integration for Hermes Agent — Automated Queries & Dashboards
+description: Connect databases (PostgreSQL, MySQL, SQL Server, MongoDB) to Hermes Agent for automated reporting. Scheduled queries, dashboard generation, anomaly detection, and report distribution with MCP setup and cron patterns.
+category: integrations
+tags: [hermes-agent, integration, database, reporting, postgresql, mysql, mongodb, dashboards, anomaly-detection, cron]
+last_updated: 2026-06-16
+---
 
-A blueprint for connecting databases (PostgreSQL, MySQL, SQL Server, MongoDB) to reporting systems — automated query execution, dashboard generation, anomaly detection, and scheduled report distribution. Covers MCP setup, query management, and cron patterns.
+# Database + Reporting Integration — Automated Queries & Dashboards
 
 ## Architecture Overview
 

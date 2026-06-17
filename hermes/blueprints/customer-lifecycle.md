@@ -1,6 +1,12 @@
-# Customer Lifecycle Automation Blueprint
+---
+title: Customer Lifecycle Automation Blueprint — Onboarding to Win-Back with Hermes Agent
+description: Multi-stage Hermes Agent customer lifecycle blueprint. Automate onboarding, engagement monitoring, churn detection, retention campaigns, and win-back. CRM, email marketing, and analytics orchestrated through cron-driven workflows.
+category: blueprints
+tags: [hermes-agent, blueprint, customer-lifecycle, onboarding, retention, churn-prevention, crm-automation]
+last_updated: 2026-06-16
+---
 
-A multi-stage automation pipeline that manages the complete customer journey — from onboarding through engagement, retention, and win-back. This blueprint orchestrates CRM, email marketing, analytics, and task management across the entire lifecycle using cron-driven workflows.
+# Customer Lifecycle Automation Blueprint — Onboarding to Win-Back
 
 ## Lifecycle Stages
 

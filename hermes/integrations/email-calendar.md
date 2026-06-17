@@ -1,6 +1,12 @@
-# Email + Calendar Integration
+---
+title: Email + Calendar Integration for Hermes Agent — Automated Scheduling & Follow-ups
+description: Connect Gmail, Outlook, Google Calendar, and Outlook Calendar to Hermes Agent. Automate meeting scheduling, follow-up workflows, availability management with MCP servers and cron-driven automation patterns.
+category: integrations
+tags: [hermes-agent, integration, email, calendar, gmail, outlook, meeting-scheduling, follow-up-automation, mcp]
+last_updated: 2026-06-16
+---
 
-Automate meeting scheduling, follow-up workflows, and availability management by connecting email and calendar systems. This blueprint covers Gmail/Outlook with Google Calendar/Outlook Calendar using MCP servers and cron-driven automation.
+# Email + Calendar Integration — Automated Scheduling & Follow-ups
 
 ## Architecture Overview
 

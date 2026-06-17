@@ -7,75 +7,267 @@ site_description: >-
 repo_url: https://github.com/CorpusIQ/corpusiq-docs
 repo_name: CorpusIQ/corpusiq-docs
 edit_uri: edit/main/docs/
-
+use_directory_urls: false
 theme:
   name: material
   features:
-    - navigation.sections
-    - navigation.expand
-    - navigation.indexes
-    - search.suggest
-    - search.highlight
-    - content.code.copy
+  - navigation.sections
+  - navigation.expand
+  - navigation.indexes
+  - search.suggest
+  - search.highlight
+  - content.code.copy
   palette:
-    - scheme: default
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-
+  - scheme: default
+    primary: custom
+    accent: custom
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - scheme: slate
+    primary: custom
+    accent: custom
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
 extra_css:
-  - stylesheets/extra.css
-
+- stylesheets/extra.css
 markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight
-  - pymdownx.inlinehilite
-  - pymdownx.tabbed:
-      alternate_style: true
-  - tables
-  - toc:
-      permalink: true
-      permalink_title: Anchor link to this section
-
+- admonition
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.highlight
+- pymdownx.inlinehilite
+- pymdownx.tabbed:
+    alternate_style: true
+- tables
+- toc:
+    permalink: true
+    permalink_title: Anchor link to this section
 plugins:
-  - search
-  - awesome-pages
-
+- search
 nav:
-  - Home: index.md
-  - Quick Start: quick-start.md
-  - API:
-      - Overview: api/overview.md
-      - Authentication: api/authentication.md
-      - Endpoints: api/endpoints.md
-      - Schemas: api/schemas.md
-      - Webhooks: api/webhooks.md
-      - Rate Limits: api/rate-limits.md
-      - Errors: api/errors.md
-      - OpenAPI: api/openapi.md
-  - Connectors: connectors.md
-  - Architecture:
-      - Overview: architecture/README.md
-  - Security:
-      - Overview: security/README.md
-      - Compliance: security.md
-  - AI Integration:
-      - ChatGPT: chatgpt-integration.md
-      - AI Agent Users: ai-agent-users.md
-      - AI Chat Users: ai-chat-users.md
-      - Supported Agents: supported-agents.md
-  - Search: search/README.md
-  - Reporting: reporting/README.md
-  - Onboarding: onboarding/README.md
-  - Governance: governance/README.md
-  - Changelog: changelog.md
+- Home: index.md
+- Quick Start: quick-start.md
+- API:
+  - Overview: api/overview.md
+  - Authentication: api/authentication.md
+  - Endpoints: api/endpoints.md
+  - Schemas: api/schemas.md
+  - Webhooks: api/webhooks.md
+  - Rate Limits: api/rate-limits.md
+  - Errors: api/errors.md
+  - OpenAPI: api/openapi.md
+- Connectors: connectors.md
+- Architecture:
+  - Overview: architecture/README.md
+- Security:
+  - Overview: security/README.md
+  - Compliance: security.md
+- AI Integration:
+  - ChatGPT: chatgpt-integration.md
+  - AI Agent Users: ai-agent-users.md
+  - AI Chat Users: ai-chat-users.md
+  - Supported Agents: supported-agents.md
+- Search: search/README.md
+- Reporting: reporting/README.md
+- Onboarding: onboarding/README.md
+- Governance: governance/README.md
+- Changelog: changelog.md
+- MCP Education:
+  - What is an MCP Server: what-is-an-mcp-server.md
+  - How MCP Servers Work: how-mcp-servers-work.md
+  - MCP vs Zapier: mcp-vs-zapier.md
+  - MCP vs Data Warehouses: mcp-vs-data-warehouse.md
+  - MCP vs API Integrations: mcp-vs-api-integrations.md
+  - MCP vs RPA: mcp-vs-rpa.md
+  - Benefits of MCP for Business: benefits-of-mcp-for-business.md
+  - MCP Security Best Practices: mcp-security-best-practices.md
+  - MCP for Small Business: mcp-for-small-business.md
+  - MCP for Enterprise: mcp-for-enterprise.md
+  - MCP for Agencies: mcp-for-agencies.md
+  - MCP for Accountants: mcp-for-accountants.md
+  - MCP for Real Estate: mcp-for-real-estate.md
+  - MCP for Ecommerce: mcp-for-ecommerce.md
+  - MCP for Finance: mcp-for-finance.md
+  - MCP for Marketing: mcp-for-marketing.md
+  - MCP for Sales: mcp-for-sales.md
+  - MCP for Operations: mcp-for-operations.md
+  - MCP for Customer Support: mcp-for-customer-support.md
+  - MCP for Executives: mcp-for-executives.md
+- ChatGPT Integrations:
+  - Connect Shopify to ChatGPT: connect-shopify-to-chatgpt.md
+  - Connect QuickBooks to ChatGPT: connect-quickbooks-to-chatgpt.md
+  - Connect HubSpot to ChatGPT: connect-hubspot-to-chatgpt.md
+  - Connect Salesforce to ChatGPT: connect-salesforce-to-chatgpt.md
+  - Connect Google Analytics to ChatGPT: connect-google-analytics-to-chatgpt.md
+  - Connect Stripe to ChatGPT: connect-stripe-to-chatgpt.md
+  - Connect NetSuite to ChatGPT: connect-netsuite-to-chatgpt.md
+  - Connect Monday.com to ChatGPT: connect-monday-com-to-chatgpt.md
+  - Connect Asana to ChatGPT: connect-asana-to-chatgpt.md
+  - Connect Jira to ChatGPT: connect-jira-to-chatgpt.md
+  - Connect Slack to ChatGPT: connect-slack-to-chatgpt.md
+  - Connect Notion to ChatGPT: connect-notion-to-chatgpt.md
+  - Connect SharePoint to ChatGPT: connect-sharepoint-to-chatgpt.md
+  - Connect Gmail to ChatGPT: connect-gmail-to-chatgpt.md
+  - Connect Outlook to ChatGPT: connect-outlook-to-chatgpt.md
+- Claude Integrations:
+  - Connect Shopify to Claude: connect-shopify-to-claude.md
+  - Connect QuickBooks to Claude: connect-quickbooks-to-claude.md
+  - Connect HubSpot to Claude: connect-hubspot-to-claude.md
+  - Connect Salesforce to Claude: connect-salesforce-to-claude.md
+  - Connect Google Analytics to Claude: connect-google-analytics-to-claude.md
+  - Connect Stripe to Claude: connect-stripe-to-claude.md
+  - Connect NetSuite to Claude: connect-netsuite-to-claude.md
+  - Connect Slack to Claude: connect-slack-to-claude.md
+  - Connect Notion to Claude: connect-notion-to-claude.md
+  - Connect SharePoint to Claude: connect-sharepoint-to-claude.md
+- Business AI Use Cases:
+  - AI for Business Intelligence: ai-for-business-intelligence.md
+  - AI for Financial Analysis: ai-for-financial-analysis.md
+  - AI for Sales Reporting: ai-for-sales-reporting.md
+  - AI for Revenue Operations: ai-for-revenue-operations.md
+  - AI for Customer Support: ai-for-customer-support.md
+  - AI for Project Management: ai-for-project-management.md
+  - AI for Marketing Analytics: ai-for-marketing-analytics.md
+  - AI for Executive Reporting: ai-for-executive-reporting.md
+  - AI for Forecasting: ai-for-forecasting.md
+  - AI for KPI Monitoring: ai-for-kpi-monitoring.md
+  - AI for Compliance: ai-for-compliance.md
+  - AI for Audit Readiness: ai-for-audit-readiness.md
+  - AI for Document Search: ai-for-document-search.md
+  - AI for Knowledge Management: ai-for-knowledge-management.md
+  - AI for Data Analysis: ai-for-data-analysis.md
+- QuickBooks:
+  - ChatGPT for QuickBooks: chatgpt-for-quickbooks.md
+  - Claude for QuickBooks: claude-for-quickbooks.md
+  - QuickBooks AI Reporting: quickbooks-ai-reporting.md
+  - QuickBooks Natural Language Queries: quickbooks-natural-language-queries.md
+  - How to Analyze QuickBooks with AI: how-to-analyze-quickbooks-with-ai.md
+  - QuickBooks Dashboard with ChatGPT: quickbooks-dashboard-with-chatgpt.md
+  - QuickBooks Business Intelligence: quickbooks-business-intelligence.md
+- Shopify:
+  - ChatGPT for Shopify: chatgpt-for-shopify.md
+  - Claude for Shopify: claude-for-shopify.md
+  - Shopify AI Analytics: shopify-ai-analytics.md
+  - Shopify Sales Analysis with AI: shopify-sales-analysis-with-ai.md
+  - Shopify Dashboard with ChatGPT: shopify-dashboard-with-chatgpt.md
+  - Shopify Business Intelligence: shopify-business-intelligence.md
+- HubSpot:
+  - ChatGPT for HubSpot: chatgpt-for-hubspot.md
+  - Claude for HubSpot: claude-for-hubspot.md
+  - HubSpot AI Reporting: hubspot-ai-reporting.md
+  - HubSpot Sales Analytics with AI: hubspot-sales-analytics-with-ai.md
+  - HubSpot Dashboard with ChatGPT: hubspot-dashboard-with-chatgpt.md
+  - HubSpot Business Intelligence: hubspot-business-intelligence.md
+- Comparisons:
+  - CorpusIQ vs Zapier: corpusiq-vs-zapier.md
+  - CorpusIQ vs Fivetran: corpusiq-vs-fivetran.md
+  - CorpusIQ vs Airbyte: corpusiq-vs-airbyte.md
+  - CorpusIQ vs LangChain: corpusiq-vs-langchain.md
+  - CorpusIQ vs Vector Databases: corpusiq-vs-vector-databases.md
+  - CorpusIQ vs Data Warehouses: corpusiq-vs-data-warehouses.md
+  - CorpusIQ vs Custom RAG: corpusiq-vs-custom-rag.md
+  - CorpusIQ vs Traditional BI: corpusiq-vs-traditional-bi.md
+- How-To Guides:
+  - Connect Business Data to ChatGPT: how-to-connect-business-data-to-chatgpt.md
+  - Search Company Data with AI: how-to-search-company-data-with-ai.md
+  - Build an AI Knowledge Base: how-to-build-an-ai-knowledge-base.md
+  - Connect Multiple Data Sources to AI: how-to-connect-multiple-data-sources-to-ai.md
+  - Create an AI Data Layer: how-to-create-an-ai-data-layer.md
+  - Query Business Data in Natural Language: how-to-query-business-data-in-natural-language.md
+  - Build an Executive AI Dashboard: how-to-build-an-executive-ai-dashboard.md
+  - Analyze Company Data with ChatGPT: how-to-analyze-company-data-with-chatgpt.md
+  - Use AI with Business Data: how-to-use-ai-with-business-data.md
+  - Centralize Company Knowledge: how-to-centralize-company-knowledge.md
+- Best Of:
+  - Best MCP Server for Business: best-mcp-server-for-business.md
+  - Best AI Data Connector: best-ai-data-connector.md
+  - Best Way to Connect ChatGPT to Business Data: best-way-to-connect-chatgpt-to-business-data.md
+  - Best AI Knowledge Platform: best-ai-knowledge-platform.md
+  - Best Business AI Search Tool: best-business-ai-search-tool.md
+  - Best ChatGPT Integration Platform: best-chatgpt-integration-platform.md
+  - Top Business AI Tools: top-business-ai-tools.md
+  - Top MCP Platforms: top-mcp-platforms.md
+  - Enterprise AI Data Access: enterprise-ai-data-access.md
+  - Secure AI Data Connectivity: secure-ai-data-connectivity.md
+- Hermes Community Hub:
+  - Overview: hermes/README.md
+  - Ecosystem: hermes/ecosystem.md
+  - Agent Library:
+    - Overview: hermes/agents/index.md
+    - Sales: hermes/agents/sales-agent.md
+    - Marketing: hermes/agents/marketing-agent.md
+    - DevOps: hermes/agents/devops-agent.md
+    - Support: hermes/agents/support-agent.md
+    - Finance: hermes/agents/finance-agent.md
+    - Executive: hermes/agents/executive-agent.md
+    - Research: hermes/agents/research-agent.md
+    - Legal: hermes/agents/legal-agent.md
+    - HR: hermes/agents/hr-agent.md
+  - Case Studies:
+    - Overview: hermes/outputs/index.md
+    - Compliance: hermes/outputs/case-studies/compliance-audit.md
+    - Healthcare: hermes/outputs/case-studies/healthcare.md
+    - Financial: hermes/outputs/case-studies/financial-services.md
+    - Manufacturing: hermes/outputs/case-studies/manufacturing.md
+    - Real Estate: hermes/outputs/case-studies/real-estate.md
+    - Ecommerce: hermes/outputs/case-studies/ecommerce.md
+    - Education: hermes/outputs/case-studies/education.md
+    - Nonprofit: hermes/outputs/case-studies/nonprofit.md
+    - Government: hermes/outputs/case-studies/government.md
+    - Legal: hermes/outputs/case-studies/legal-firms.md
+    - Customer Support: hermes/outputs/case-studies/customer-support.md
+    - Revenue Ops: hermes/outputs/case-studies/revenue-operations.md
+    - Professional Services: hermes/outputs/case-studies/professional-services.md
+    - Startups: hermes/outputs/by-company-size/startup.md
+    - Mid-Market: hermes/outputs/by-company-size/mid-market.md
+    - Enterprise: hermes/outputs/by-company-size/enterprise.md
+    - Templates: hermes/outputs/workflows/templates.md
+  - Setup Guides:
+    - Overview: hermes/setup/index.md
+    - Mac Mini: hermes/setup/mac-mini-standalone.md
+    - Gaming PC: hermes/setup/gaming-pc.md
+    - Cloud VPS: hermes/setup/cloud-vps.md
+    - Raspberry Pi: hermes/setup/raspberry-pi.md
+    - Docker: hermes/setup/docker.md
+    - Windows WSL: hermes/setup/windows-wsl.md
+  - Best Practices:
+    - Overview: hermes/best-practices/index.md
+    - Cron Design: hermes/best-practices/cron-design.md
+    - Model Selection: hermes/best-practices/model-selection.md
+    - Memory: hermes/best-practices/memory-management.md
+    - Security: hermes/best-practices/security.md
+    - Skill Dev: hermes/best-practices/skill-development.md
+    - MCP Design: hermes/best-practices/mcp-design.md
+  - Blueprints:
+    - Overview: hermes/blueprints/index.md
+    - Daily Ops: hermes/blueprints/daily-ops.md
+    - Customer Lifecycle: hermes/blueprints/customer-lifecycle.md
+    - Content Pipeline: hermes/blueprints/content-pipeline.md
+    - Financial Close: hermes/blueprints/financial-close.md
+    - Incident Response: hermes/blueprints/incident-response.md
+  - Integrations:
+    - Overview: hermes/integrations/index.md
+    - Slack+GitHub: hermes/integrations/slack-github.md
+    - Email+Calendar: hermes/integrations/email-calendar.md
+    - CRM+Analytics: hermes/integrations/crm-analytics.md
+    - Database+Reporting: hermes/integrations/database-reporting.md
+  - Prompts:
+    - Overview: hermes/prompts/index.md
+    - Code Generation: hermes/prompts/code-generation.md
+    - Content Creation: hermes/prompts/content-creation.md
+    - Data Analysis: hermes/prompts/data-analysis.md
+    - Business Ops: hermes/prompts/business-operations.md
+    - Research: hermes/prompts/research.md
+    - Creative: hermes/prompts/creative.md
+  - Skills:
+    - Catalog: hermes/skills/catalog/index.md
+    - Creating Skills: hermes/skills/creating-skills.md
+    - Marketplaces: hermes/skills/skill-marketplaces.md
+  - More:
+    - MCP Guide: hermes/mcp/index.md
+    - Knowledge: hermes/knowledge/index.md
+    - Troubleshooting: hermes/troubleshooting/index.md
+    - Contributors: hermes/contributors.md
+    - Changelog: hermes/changelog/index.md

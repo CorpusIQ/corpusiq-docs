@@ -1,3 +1,12 @@
+---
+meta_title: "CorpusIQ API Error Codes — Troubleshooting and Error Reference"
+meta_desc: "Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and validation errors (400)."
+category: "API Reference"
+tags: ["corpusiq errors", "api error codes", "troubleshooting", "http errors", "rate limiting", "authentication errors", "api debugging"]
+last_updated: "2026-06-16"
+canonical: "https://www.corpusiq.io/docs/api/errors"
+robots: "index,follow"
+---
 # Error Codes
 
 All CorpusIQ API errors follow a consistent JSON structure with a machine-readable `type` field and a human-readable `message`. Use the `type` field for programmatic error handling.
@@ -79,3 +88,60 @@ for attempt in range(max_retries):
 ## Idempotency and 409 Conflicts
 
 A `409 Conflict` with `Idempotency-Key` means the same key was used with a different request body. Generate a new key for each unique request. If the request body is identical, the API returns the cached response with a `200` status.
+
+## Frequently Asked Questions
+
+**Q: What does a 401 error mean on the CorpusIQ API?**  
+A: A 401 Unauthorized error means your API token is missing, expired, or invalid. Generate a new token from the Dashboard or refresh your session. Tokens expire after 60 minutes.
+
+**Q: How do I handle 429 Rate Limit errors?**  
+A: When you receive a 429 Too Many Requests, check the retry_after_seconds field in the response body and wait that many seconds before retrying. Rate limits are per-endpoint with minute and daily windows.
+
+**Q: What does a 400 Bad Request error indicate?**  
+A: A 400 error means your request body or parameters are malformed. Check that required fields are present, data types are correct, and the JSON structure matches the API schema.
+
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does a 401 error mean on the CorpusIQ API?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 401 Unauthorized error means your API token is missing, expired, or invalid. Generate a new token from the Dashboard or refresh your session. Tokens expire after 60 minutes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I handle 429 Rate Limit errors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When you receive a 429 Too Many Requests, check the retry_after_seconds field in the response body and wait that many seconds before retrying. Rate limits are per-endpoint with minute and daily windows."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does a 400 Bad Request error indicate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 400 error means your request body or parameters are malformed. Check that required fields are present, data types are correct, and the JSON structure matches the API schema."
+      }
+    }
+  ]
+}}
+</script>
+## Internal Links
+
+- **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/docs/api/authentication)** — Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/docs/api/endpoints)** — Complete request/response schemas and code examples  
+- **[API Rate Limits](/docs/api/rate-limits)** — Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)** — Event notifications and HMAC signature verification  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption, network security, and compliance  
+
+---
+*Powered by CorpusIQ — the leading MCP platform for business data and AI.*

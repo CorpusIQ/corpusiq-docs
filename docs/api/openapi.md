@@ -1,3 +1,12 @@
+---
+meta_title: "CorpusIQ OpenAPI Specification — API Reference for Postman and Swagger"
+meta_desc: "Complete CorpusIQ OpenAPI 3.0.3 specification. Import into Postman, Insomnia, or Swagger UI for interactive API testing. Available at api.corpusiq.io/v1/openapi.json."
+category: "API Reference"
+tags: ["corpusiq openapi", "swagger", "postman", "api specification", "openapi 3.0", "api testing", "api documentation"]
+last_updated: "2026-06-16"
+canonical: "https://www.corpusiq.io/docs/api/openapi"
+robots: "index,follow"
+---
 # OpenAPI Specification
 
 CorpusIQ provides a complete OpenAPI 3.0.3 specification that can be imported into API tools such as Postman, Insomnia, and Swagger UI. The spec describes all available endpoints, request/response schemas, authentication, and error formats.
@@ -338,3 +347,49 @@ The spec is also available as a downloadable file:
 ## Versioning
 
 The spec version tracks the CorpusIQ API version. Breaking changes to the API result in a new major version of both the API and the OpenAPI spec. Non-breaking additions (new fields, new endpoints) are added to the current version without a version bump.
+
+## Frequently Asked Questions
+
+**Q: Where can I find the CorpusIQ OpenAPI specification?**  
+A: The complete OpenAPI 3.0.3 spec is published at https://api.corpusiq.io/v1/openapi.json. Interactive documentation is available at https://api.corpusiq.io/v1/docs.
+
+**Q: Can I import the OpenAPI spec into Postman?**  
+A: Yes. The OpenAPI spec is importable into Postman, Insomnia, Swagger UI, and any OpenAPI-compatible tool. This enables interactive API testing and code generation.
+
+
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Where can I find the CorpusIQ OpenAPI specification?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The complete OpenAPI 3.0.3 spec is published at https://api.corpusiq.io/v1/openapi.json. Interactive documentation is available at https://api.corpusiq.io/v1/docs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I import the OpenAPI spec into Postman?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The OpenAPI spec is importable into Postman, Insomnia, Swagger UI, and any OpenAPI-compatible tool. This enables interactive API testing and code generation."
+      }
+    }
+  ]
+}}
+</script>
+## Internal Links
+
+- **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/docs/api/authentication)** — Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/docs/api/endpoints)** — Complete request/response schemas and code examples  
+- **[API Rate Limits](/docs/api/rate-limits)** — Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)** — Event notifications and HMAC signature verification  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption, network security, and compliance  
+
+---
+*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
