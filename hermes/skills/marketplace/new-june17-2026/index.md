@@ -1,129 +1,94 @@
 ---
-title: New Hermes Skills — June 17, 2026
-description: Late-discovery sweep of nousresearch/hermes-agent — 39 additional skills not catalogued in previous sweeps. Official Hermes Agent repo now at 100% coverage.
+title: New Skills — June 17, 2026 (nousresearch/hermes-agent expansion)
+description: 6 new Hermes Agent skills discovered June 17, 2026 from nousresearch/hermes-agent — native MCP client, office document generation, DuckDuckGo search, meme generation, vLLM serving, and Excel authoring.
 ---
 
 # New Skills — June 17, 2026
 
-**Discovery sweep:** June 17, 2026 at 04:00 MST
-**Source:** skills.sh REST API (`q=nousresearch/hermes-agent`, limit=96)
-**Total new:** 39 skills from `nousresearch/hermes-agent`
-**Previously catalogued from this repo:** 57 skills
-**Now catalogued:** 96/96 — complete coverage of the official Hermes Agent skill repo
+**Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) via [skills.sh](https://skills.sh/nousresearch/hermes-agent)
+**Date:** June 17, 2026
+**Total new:** 6 skills
 
-## Discovery Summary
+## Skills Discovered
 
-Previous sweeps (June 13-15) catalogued 57 skills from the official `nousresearch/hermes-agent` repository but missed 39. This late-discovery sweep fills the gap, bringing coverage to 100%. The new skills span 8 categories.
+| # | Skill | Installs | Description |
+|---|-------|----------|-------------|
+| 1 | `native-mcp` | 79 | MCP client: connect servers, register tools (stdio/HTTP) |
+| 2 | `pptx-author` | 14 | Build PowerPoint decks headless with python-pptx — for pitch decks |
+| 3 | `duckduckgo-search` | 14 | Free web search via DuckDuckGo — text, news, images, videos. No API key needed |
+| 4 | `meme-generation` | 13 | Generate meme images by picking templates and overlaying text with Pillow |
+| 5 | `serving-llms-vllm` | 13 | vLLM: high-throughput LLM serving with OpenAI API compatibility |
+| 6 | `excel-author` | 13 | Build Excel workbooks headless with openpyxl — formulas, named ranges, audits |
 
-## New Skills
+## Detailed Skill Descriptions
 
-### Creative & Experimental — 6 skills
+### 1. native-mcp (79 installs) — MCP Client ⭐ TOP PICK
+Connects to MCP servers over stdio and HTTP transports, registers tools, and manages server lifecycle. Core infrastructure skill — enables Hermes agents to connect to any MCP-compatible server. This is the foundational skill that underpins the entire MCP ecosystem integration within Hermes Agent.
 
-| Skill | Installs | Description |
-|-------|----------|-------------|
-| `godmode` | 129 | Elevated agent capabilities — unrestricted tool access, power-user mode |
-| `pixel-art` | 88 | Pixel art generation and editing |
-| `stable-diffusion-image-generation` | 12 | Stable Diffusion image generation via agent |
-| `audiocraft-audio-generation` | 13 | Meta Audiocraft — AI music and audio generation |
-| `blender-mcp` | 14 | Blender 3D scene creation via MCP |
-| `qmd` | 13 | Quantum molecular dynamics simulation |
+**Install:**
+```bash
+npx skills add nousresearch/hermes-agent --skill native-mcp
+```
 
-### Development & Debugging — 5 skills
+**Key capabilities:**
+- Connect to MCP servers over stdio (subprocess) and HTTP
+- Auto-discover tools from connected servers
+- Manage server lifecycle (start, stop, reconnect)
+- Register tools from multiple servers simultaneously
+- Handle server disconnects and reconnection gracefully
 
-| Skill | Installs | Description |
-|-------|----------|-------------|
-| `node-inspect-debugger` | 135 | Node.js debugging via Chrome DevTools Protocol |
-| `python-debugpy` | 132 | Python debugging — breakpoints, step-through, variable inspection |
-| `debugging-hermes-tui-commands` | 76 | Debug Hermes TUI commands — trace, diagnose, fix shell issues |
-| `simplify-code` | 29 | Code simplification and refactoring assistance |
-| `kanban-codex-lane` | 72 | Codex-integrated Kanban lane for task tracking |
+### 2. pptx-author (14 installs) — PowerPoint Generation
+Build PowerPoint decks programmatically with python-pptx. Works with excel-author for data-backed presentations where every number traces to a workbook cell.
 
-### Infrastructure & DevOps — 5 skills
+**Install:**
+```bash
+npx skills add nousresearch/hermes-agent --skill pptx-author
+```
 
-| Skill | Installs | Description |
-|-------|----------|-------------|
-| `hermes-s6-container-supervision` | 76 | S6 supervision for Hermes containers — health checks, restarts, logging |
-| `teams-meeting-pipeline` | 132 | Microsoft Teams meeting recording and transcription pipeline |
-| `docker-management` | 13 | Docker container and image lifecycle management |
-| `webhook-subscriptions` | 80 | Webhook subscription management and event handling |
-| `openclaw-migration` | 12 | Migration path from OpenClaw to Hermes Agent |
+**Use cases:** Pitch decks, quarterly reports, training materials, data presentations.
 
-### ML & AI Research — 9 skills
+### 3. duckduckgo-search (14 installs) — Free Web Search
+Privacy-focused web search via DuckDuckGo — text, news, images, videos. No API key or billing required. Falls back to the `ddgs` CLI when installed; uses the Python DDGS library otherwise.
 
-| Skill | Installs | Description |
-|-------|----------|-------------|
-| `dspy` | 15 | DSPy framework — declarative language model programming |
-| `weights-and-biases` | 14 | W&B experiment tracking and model visualization |
-| `llama-cpp` | 13 | llama.cpp — local LLM inference with quantization |
-| `evaluating-llms-harness` | 13 | LM Evaluation Harness — standardized LLM benchmarking |
-| `segment-anything-model` | 12 | Meta SAM — image segmentation |
-| `clip` | 12 | OpenAI CLIP — zero-shot image classification |
-| `whisper` | 12 | OpenAI Whisper — speech-to-text transcription |
-| `guidance` | 12 | Guidance — constrained text generation with LLMs |
-| `fastmcp` | 12 | FastMCP — rapid MCP server development framework |
+**Install:**
+```bash
+npx skills add nousresearch/hermes-agent --skill duckduckgo-search
+```
 
-### macOS Automation — 1 skill
+**Use cases:** Backup search provider, privacy-sensitive research, zero-cost search.
 
-| Skill | Installs | Description |
-|-------|----------|-------------|
-| `macos-computer-use` | 133 | macOS screen/mouse/keyboard automation, window management |
+### 4. meme-generation (13 installs) — Meme Image Creation
+Generate meme images by selecting templates and overlaying text with Pillow. Produces actual .png meme files suitable for social media posting.
 
-### Productivity & Planning — 5 skills
+**Install:**
+```bash
+npx skills add nousresearch/hermes-agent --skill meme-generation
+```
 
-| Skill | Installs | Description |
-|-------|----------|-------------|
-| `ideation` | 105 | Structured brainstorming and idea development frameworks |
-| `writing-plans` | 87 | Writing plan generation — outlines, drafts, revision plans |
-| `subagent-driven-development` | 84 | Delegate subtasks to worker agents in structured workflows |
-| `one-three-one-rule` | 13 | 1-3-1 rule: define problem, 3 solutions, 1 recommendation |
-| `linear` | 80 | Linear.app integration — issues, projects, cycles |
+**Use cases:** Social media engagement, community interaction, visual content.
 
-### Entertainment & Lifestyle — 4 skills
+### 5. serving-llms-vllm (13 installs) — vLLM Serving
+High-throughput LLM serving with vLLM. OpenAI API-compatible interface with support for AWQ/GPTQ quantization. For serving local models with production-grade throughput.
 
-| Skill | Installs | Description |
-|-------|----------|-------------|
-| `minecraft-modpack-server` | 82 | Minecraft modpack server setup and management |
-| `pokemon-player` | 79 | Play Pokemon games via agent — emulator control, strategy |
-| `spotify` | 75 | Spotify music control — play, search, playlists |
-| `heartmula` | 135 | Heart rate formula calculations and health metrics |
+**Install:**
+```bash
+npx skills add nousresearch/hermes-agent --skill serving-llms-vllm
+```
 
-### Utilities & Infrastructure — 4 skills
+**Use cases:** Self-hosted model serving, cost optimization, high-throughput inference.
 
-| Skill | Installs | Description |
-|-------|----------|-------------|
-| `openhue` | 134 | Philips Hue smart lighting control |
-| `modal-serverless-gpu` | 12 | Modal serverless GPU — deploy functions to cloud GPUs |
-| `chroma` | 12 | Chroma vector database — embeddings storage and retrieval |
-| `1password` | 12 | 1Password secrets management and retrieval |
-| `mcporter` | 12 | Minecraft server porting and configuration |
-| `obliteratus` | 12 | Secure file/data obliteration and deletion |
+### 6. excel-author (13 installs) — Excel Workbook Generation
+Build auditable Excel workbooks with openpyxl — blue/black/green cell conventions, formulas instead of hardcoded values, named ranges, balance checks, and sensitivity tables.
 
-## Skill Count Update
+**Install:**
+```bash
+npx skills add nousresearch/hermes-agent --skill excel-author
+```
 
-| Category | Skills |
-|----------|--------|
-| Creative & Experimental | 6 |
-| Development & Debugging | 5 |
-| Infrastructure & DevOps | 5 |
-| ML & AI Research | 9 |
-| macOS Automation | 1 |
-| Productivity & Planning | 5 |
-| Entertainment & Lifestyle | 4 |
-| Utilities | 4 |
-| **Total new** | **39** |
-
-## Why This Matters for CorpusIQ
-
-**Infrastructure:** `hermes-s6-container-supervision` enables production-grade agent container management — directly applicable to DGX Spark deployment.
-
-**Development workflow:** `subagent-driven-development` provides structured multi-agent delegation patterns. `debugging-hermes-tui-commands` helps diagnose agent shell issues.
-
-**Productivity:** `ideation`, `writing-plans`, and `one-three-one-rule` provide structured thinking frameworks for market research and strategic planning.
-
-**macOS ecosystem:** `macos-computer-use` enables GUI automation on Mac Mini worker nodes.
-
-**ML integration:** `dspy`, `whisper`, `clip`, and others enable advanced AI pipelines directly from Hermes agents.
+**Use cases:** Financial models, data exports, audit-ready spreadsheets.
 
 ---
 
-*← [June 16, 2026](/hermes/skills/marketplace/new-june16-2026/) | [Skills Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+*↑ [New June 2026](/hermes/skills/marketplace/new-june-2026/) | [June 13 Update 3](/hermes/skills/marketplace/new-june13-2026-update3/) →*
+*Powered by CorpusIQ*
