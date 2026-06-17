@@ -1,6 +1,6 @@
 ---
 name: supabase
-description: Full Supabase platform: auth, storage, edge functions. Complete Supabase integration for AI agents. 114.1K installs.
+description: "Full Supabase platform: auth, storage, edge functions. Complete Supabase integration for AI agents. 114.1K installs."
 triggers:
   - "supabase"
 source: skills.sh marketplace

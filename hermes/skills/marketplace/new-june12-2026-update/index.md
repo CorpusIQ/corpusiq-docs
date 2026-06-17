@@ -1,6 +1,6 @@
 ---
 title: June 12, 2026 (Update) — OpenClaw Security Suite
-description: Afternoon sweep: 13-skill OpenClaw security suite discovered from useai-pro (UseClawPro). Flagship skill-vetter at 19,340 installs.
+description: "Afternoon sweep: 13-skill OpenClaw security suite discovered from useai-pro (UseClawPro). Flagship skill-vetter at 19,340 installs."
 ---
 
 # June 12, 2026 (Update) — OpenClaw Security Suite

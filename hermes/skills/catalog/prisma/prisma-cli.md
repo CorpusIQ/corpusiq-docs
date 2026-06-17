@@ -1,6 +1,6 @@
 ---
 name: prisma-cli
-description: Prisma CLI workflows: migrate, generate, studio. Command-line tools for database management. 9.6K installs.
+description: "Prisma CLI workflows: migrate, generate, studio. Command-line tools for database management. 9.6K installs."
 triggers:
   - "prisma cli"
 source: skills.sh marketplace

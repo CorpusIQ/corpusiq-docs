@@ -1,6 +1,6 @@
 ---
 title: Hermes Agent Production Knowledge Repository — Deploy Autonomous AI Agents
-description: Everything the official Hermes docs don't cover. Production-tested patterns from 1,200+ hours of autonomous operations: 6-layer architecture, 133+ skills, 38 crons, 6 memory systems, 37+ MCP connectors.
+description: "Everything the official Hermes docs don't cover. Production-tested patterns from 1,200+ hours of autonomous operations: 6-layer architecture, 133+ skills, 38 crons, 6 memory systems, 37+ MCP connectors."
 category: Documentation
 tags:
   - hermes-agent

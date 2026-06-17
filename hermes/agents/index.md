@@ -1,6 +1,6 @@
 ---
 title: Hermes Agent Library — 9 Production-Ready AI Agent Blueprints
-description: Complete library of 9 role-specific Hermes agent configurations: sales, marketing, devops, support, finance, HR, research, legal, and executive. Deploy in minutes with cron schedules and MCP connectors.
+description: "Complete library of 9 role-specific Hermes agent configurations: sales, marketing, devops, support, finance, HR, research, legal, and executive. Deploy in minutes with cron schedules and MCP connectors."
 category: Agents
 tags:
   - agent-library

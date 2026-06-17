@@ -1,6 +1,6 @@
 ---
 title: Hermes Cron Templates — 12 Copy-Paste Workflows for Autonomous Agents
-description: Ready-to-deploy cron templates for Hermes Agent: email triage, report generation, data sync, anomaly detection, SLA monitoring, and more. Copy, adapt, deploy in minutes.
+description: "Ready-to-deploy cron templates for Hermes Agent: email triage, report generation, data sync, anomaly detection, SLA monitoring, and more. Copy, adapt, deploy in minutes."
 category: Outputs
 tags:
   - cron-templates
