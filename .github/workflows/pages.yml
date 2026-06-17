@@ -52,6 +52,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Validate frontmatter
+        # Hard gate before the (non-strict) build. mkdocs won't fail on broken
+        # YAML frontmatter — it silently drops it, losing meta descriptions and
+        # rendering a parse banner on GitHub. This step refuses to deploy that.
+        run: python scripts/validate_frontmatter.py
+
       - name: Build site
         # Non-strict: the docs content currently has a handful of cross-file
         # relative links that MkDocs flags as warnings. Strict mode aborts on
