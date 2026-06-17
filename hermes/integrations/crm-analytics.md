@@ -1,6 +1,12 @@
-# CRM + Analytics Integration
+---
+title: CRM + Analytics Integration for Hermes Agent — Lead Scoring & Pipeline Forecasting
+description: Connect CRM (HubSpot, Salesforce, Close) with analytics (GA4, PostHog) in Hermes Agent. Automated lead scoring, pipeline forecasting, marketing attribution with MCP server setup and cron-driven reporting patterns.
+category: integrations
+tags: [hermes-agent, integration, crm, analytics, hubspot, ga4, lead-scoring, pipeline-forecasting, attribution]
+last_updated: 2026-06-16
+---
 
-Connect your CRM (HubSpot, Salesforce, Close, LeadConnector) with analytics platforms (GA4, PostHog, Mixpanel) to build automated lead scoring, pipeline forecasting, and marketing attribution. This guide covers MCP setup, data flow patterns, and cron-driven reporting.
+# CRM + Analytics Integration — Lead Scoring & Pipeline Forecasting
 
 ## Architecture Overview
 

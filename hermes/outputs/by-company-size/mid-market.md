@@ -1,23 +1,33 @@
-# Hermes Agent for Mid-Market: Multi-Team Orchestration
+---
+title: "Hermes Agent for Mid-Market | Multi-Team AI Automation & Orchestration"
+description: "Deploy cross-department AI automation for mid-market companies (50-500 employees). Marketing, sales, finance, and CS profiles with approval workflows and shared infrastructure."
+category: "Company Size"
+tags:
+  - mid-market
+  - multi-team
+  - departmental
+  - orchestration
+  - approval workflows
+  - AI agent
+  - operations
+last_updated: "2026-06-16"
+---
 
-Mid-market companies (50-500 employees) face a distinct automation challenge: they have the team size to specialize by function, but not the headcount to build dedicated internal tools for every department. Marketing, sales, customer success, finance, and operations each have their own tools and data — and those tools don't talk to each other. Hermes Agent provides the cross-department orchestration layer without requiring an engineering team to build and maintain custom integrations.
+# Hermes Agent for Mid-Market
 
-## The Mid-Market Automation Landscape
+Hermes Agent provides cross-department orchestration for mid-market companies with 50-500 employees — connecting marketing, sales, finance, and customer success tools without a dedicated engineering team. Profile-based isolation, approval workflows, and departmental autonomy give each team startup-like efficiency with enterprise coordination.
 
-Unlike startups (where one person does everything) or enterprises (where dedicated platforms and teams exist for each function), mid-market companies need automation that:
+## Overview
 
-- Works across departments without requiring a central data engineering team
-- Respects existing tool choices (no rip-and-replace)
-- Scales from 50 to 500 employees without architectural rewrites
-- Supports approval workflows for sensitive operations
+Mid-market companies face a distinct automation challenge: they have the team size to specialize by function, but not the headcount to build dedicated internal tools for every department. Marketing, sales, customer success, finance, and operations each have their own tools and data — and those tools don't talk to each other. Unlike startups (where one person does everything) or enterprises (where dedicated platforms and teams exist for each function), mid-market companies need automation that works across departments, respects existing tool choices, scales without architectural rewrites, and supports approval workflows for sensitive operations.
 
-Hermes meets these needs with profile-based isolation, MCP connectors for every major SaaS tool, and cron-driven skills that can be owned by departmental power users.
+## How It Works
 
-## Departmental Agent Patterns
+### Departmental Agent Patterns
 
 Each department gets its own Hermes profile with dedicated skills, cron schedules, and alerting channels. Operations or IT can manage the profiles centrally while department leads configure their own skills.
 
-### Marketing Operations
+**Marketing Operations**
 
 ```yaml
 # Marketing profile: ~/.hermes/profiles/marketing/cron/campaign-monitor.yaml
@@ -42,9 +52,9 @@ Each department gets its own Hermes profile with dedicated skills, cron schedule
   description: Channel performance, CAC trends, and campaign ROI for leadership
 ```
 
-The marketing profile connects to Google Ads, Meta Ads, LinkedIn Ads, Klaviyo/Mailchimp, GA4, and the CRM. It monitors spend against budget, flags anomaly patterns (a campaign suddenly spending 3x normal without corresponding conversion lift), and tracks the lead-to-opportunity handoff to ensure marketing-sourced leads aren't being dropped.
+The marketing profile connects to Google Ads, Meta Ads, LinkedIn Ads, Klaviyo/Mailchimp, GA4, and the CRM. It monitors spend against budget, flags anomaly patterns, and tracks the lead-to-opportunity handoff.
 
-### Sales Operations
+**Sales Operations**
 
 ```yaml
 # Sales profile: ~/.hermes/profiles/sales/cron/pipeline-monitor.yaml
@@ -69,9 +79,9 @@ The marketing profile connects to Google Ads, Meta Ads, LinkedIn Ads, Klaviyo/Ma
   description: Provides estimated commissions for current month-to-date
 ```
 
-The sales profile connects to the CRM (HubSpot, Close, LeadConnector), calendar systems for activity tracking, and email for communication monitoring. Deal risk detection looks at multiple signals: no logged activity in 7+ days, deal aging past average cycle time for its stage, contact going dark (no email responses), or decision-maker changes detected through LinkedIn.
+The sales profile connects to the CRM (HubSpot, Close, LeadConnector), calendar systems for activity tracking, and email for communication monitoring. Deal risk detection looks at multiple signals: no logged activity, deal aging past average cycle time, contact going dark, or decision-maker changes.
 
-### Finance Operations
+**Finance Operations**
 
 ```yaml
 # Finance profile: ~/.hermes/profiles/finance/cron/reconciliation.yaml
@@ -91,7 +101,7 @@ The sales profile connects to the CRM (HubSpot, Close, LeadConnector), calendar 
   description: Verifies all revenue entries, accruals, and reconciliations for month-end
 ```
 
-### Customer Success Operations
+**Customer Success Operations**
 
 ```yaml
 # CS profile: ~/.hermes/profiles/cs/cron/health-monitor.yaml
@@ -111,7 +121,7 @@ The sales profile connects to the CRM (HubSpot, Close, LeadConnector), calendar 
   description: Compiles account summaries for upcoming quarterly business reviews
 ```
 
-## Approval Workflows for Sensitive Operations
+### Approval Workflows for Sensitive Operations
 
 Mid-market companies need controls. Not every automation should act autonomously — some should propose and wait for approval.
 
@@ -129,7 +139,7 @@ Key workflows that benefit from approval gates:
 - Access permission changes
 - Commission adjustments
 
-## Shared Infrastructure Patterns
+### Shared Infrastructure Patterns
 
 While departments own their profiles, certain infrastructure should be centralized:
 
@@ -141,7 +151,7 @@ While departments own their profiles, certain infrastructure should be centraliz
 
 **Shared data sources:** The company database, CRM, and billing system are connected across multiple profiles. Use read-only credentials scoped to each profile's needs.
 
-## Scaling from 50 to 500 Employees
+### Scaling from 50 to 500 Employees
 
 Your Hermes deployment evolves with your company:
 
@@ -152,15 +162,14 @@ Your Hermes deployment evolves with your company:
 | 200 employees | 5-7 profiles | 40-60 crons | RevOps/Data team owns Hermes configuration |
 | 500+ employees | Per-team profiles | 80+ crons | Enterprise patterns begin to apply |
 
-## Governance Without Bureaucracy
+## Benefits
 
-The key to mid-market success with Hermes: enable departmental autonomy while maintaining visibility. Let marketing build their own campaign monitors, but ensure IT can see all running crons. Let sales build their own pipeline alerts, but ensure finance can verify revenue reconciliation independently.
-
-A weekly Hermes governance review — 30 minutes — covers:
-- New skills deployed this week
-- Skill failure rate and resolution
-- Data quality issues surfaced
-- Upcoming connector or API changes that might affect crons
+- **Departmental autonomy** — each team owns its automation without waiting for engineering
+- **Cross-functional visibility** — marketing-to-sales handoff, sales-to-finance reconciliation automated
+- **Approval controls** — sensitive operations require human sign-off before execution
+- **No rip-and-replace** — Hermes layers on top of existing tools, not replacing them
+- **Linear scaling** — same architecture scales from 50 to 500 employees
+- **Central governance** — operations team monitors all profiles while departments self-serve
 
 ## Getting Started
 
@@ -171,3 +180,82 @@ A weekly Hermes governance review — 30 minutes — covers:
 5. **Add approval gates before automated actions.** Build trust with monitoring before enabling autonomous action.
 
 The outcome: each department operates with startup-like efficiency while maintaining the coordination and controls a multi-team organization requires.
+
+## FAQ
+
+### How many Hermes profiles does a mid-market company need?
+
+Start with 2-3 profiles (marketing, sales, operations monitoring) at 50 employees, growing to 5-7 profiles at 200 employees. Each department gets its own isolated profile with dedicated credentials and cron schedules.
+
+### Can different departments share data sources?
+
+Yes. The CRM, billing system, and company database are connected across multiple profiles. Use read-only credentials scoped to each profile's specific needs — marketing doesn't need access to commission data.
+
+### How do approval workflows work in Hermes?
+
+Skills produce recommendations that route to Slack with approve/deny options. Approved actions execute in follow-up skill runs, and all approvals are logged for audit trails. This pattern works for refunds, pricing changes, and access modifications.
+
+### Does Hermes replace our existing tools?
+
+No. Hermes layers intelligence on top of your existing CRM, marketing automation, billing, and analytics tools. It connects them rather than replacing them. Your teams keep using the tools they know.
+
+### How do we monitor that Hermes is running correctly?
+
+A dedicated operations profile monitors all other profiles' cron executions, alerts on skill failures, and provides a central dashboard of automation health. This profile is typically managed by IT or RevOps.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many Hermes profiles does a mid-market company need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with 2-3 profiles (marketing, sales, operations monitoring) at 50 employees, growing to 5-7 profiles at 200 employees. Each department gets its own isolated profile with dedicated credentials and cron schedules."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can different departments share data sources?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The CRM, billing system, and company database are connected across multiple profiles. Use read-only credentials scoped to each profile's specific needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do approval workflows work in Hermes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Skills produce recommendations that route to Slack with approve/deny options. Approved actions execute in follow-up skill runs, and all approvals are logged for audit trails."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Hermes replace our existing tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Hermes layers intelligence on top of your existing CRM, marketing automation, billing, and analytics tools. It connects them rather than replacing them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do we monitor that Hermes is running correctly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A dedicated operations profile monitors all other profiles' cron executions, alerts on skill failures, and provides a central dashboard of automation health."
+      }
+    }
+  ]
+}
+</script>
+
+## Related Pages
+
+- [Hermes Agent for Startups](../by-company-size/startup.md) — Lean automation for early-stage companies
+- [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security, compliance, and governance at scale
+- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md) — Pipeline management and forecasting
+- [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Multi-channel ticket triage and SLA management
+- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem

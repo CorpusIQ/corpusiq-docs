@@ -1,6 +1,14 @@
 ---
-title: Hermes Agent Knowledge Repository
-description: Complete reference for autonomous Hermes agents. Architecture, infrastructure, skills, MCP, governance, content ops, tools, and operations.
+title: Hermes Agent Knowledge Repository — Production Autonomous Agent Reference
+description: Complete production reference for autonomous Hermes agents: 6-layer architecture, 133+ skills, 38 crons, 6 memory systems, and 37+ MCP business connectors. Real deployment on DGX Spark + Mac Mini M4.
+category: Documentation
+tags:
+  - hermes-agent
+  - autonomous-agents
+  - production-reference
+  - knowledge-repository
+  - ai-infrastructure
+last_updated: 2026-06-16
 ---
 
 # Hermes Agent Knowledge Repository
@@ -220,6 +228,87 @@ Operational wisdom from production deployments.
 | Machines | 2 (DGX + Mac Mini) |
 
 ---
+
+## FAQ
+
+### What is the Hermes Agent Knowledge Repository?
+
+The **Hermes Agent Knowledge Repository** is the most comprehensive production reference for autonomous Hermes agents. It documents a real 24/7 deployment running on DGX Spark + Mac Mini M4 with 38 crons, 133+ skills, 6 memory systems, and 37+ MCP connectors — everything the official docs don't cover.
+
+### How do I get started with Hermes Agent?
+
+Begin with the [Quick Start Guide](/hermes/setup/) for installation and configuration, then explore the [Architecture section](/hermes/architecture/) to understand the 6-layer production model. Deploy your first agent from the [Agent Library](/hermes/agents/) and browse the [Cron Scheduling Guide](/hermes/governance/scheduling/) for automation patterns.
+
+### What hardware do I need to run Hermes Agent?
+
+The documented production deployment runs on **NVIDIA DGX Spark** (primary compute, inference, 96+ skills) and **Apple Mac Mini M4** (worker node, browser automation). For lighter setups, a single machine with 16GB+ RAM and a modern GPU or cloud API access is sufficient. See the [Infrastructure guide](/hermes/infrastructure/) for full hardware specs.
+
+### How does Hermes Agent handle memory and knowledge?
+
+Hermes uses a **6-system memory stack**: Honcho (peer memory), GBrain (organizational knowledge), memcore-cloud (cross-session context), GraphRAG (relationship memory), Dream Cycle (nightly consolidation), and Session DB (conversation history). The [Knowledge Architecture guide](/hermes/knowledge/) covers the triple-stack pattern in depth.
+
+### What tools and platforms does Hermes integrate with?
+
+Through [CorpusIQ MCP connectors](/hermes/mcp/connectors/), Hermes connects to **37+ business platforms** including CRM (HubSpot, Close), analytics (GA4, PostHog), email (Gmail, Outlook), ads (Meta, Google, LinkedIn), ecommerce (Shopify, Stripe), finance (QuickBooks), SEO (Ahrefs, Semrush), and more — all through a single OAuth flow.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Hermes Agent Knowledge Repository?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most comprehensive production reference for autonomous Hermes agents, documenting a real 24/7 deployment with 38 crons, 133+ skills, 6 memory systems, and 37+ MCP connectors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get started with Hermes Agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Begin with the Quick Start Guide for installation, explore Architecture for the 6-layer model, deploy your first agent from the Agent Library, and browse Cron Scheduling for automation patterns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What hardware do I need to run Hermes Agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Production runs on NVIDIA DGX Spark and Apple Mac Mini M4. For lighter setups, a single machine with 16GB+ RAM and GPU/cloud API access is sufficient."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Hermes Agent handle memory and knowledge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes uses a 6-system memory stack: Honcho, GBrain, memcore-cloud, GraphRAG, Dream Cycle, and Session DB. The Knowledge Architecture guide covers the triple-stack pattern."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What tools and platforms does Hermes integrate with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Through CorpusIQ MCP connectors, Hermes connects to 37+ platforms including CRM, analytics, email, ads, ecommerce, finance, SEO, and more via a single OAuth flow."
+      }
+    }
+  ]
+}
+</script>
+
+## Related Pages
+
+- [Hermes Knowledge Hub — Production Deployment](/hermes/)
+- [Architecture — 6-Layer Production Model](/hermes/architecture/)
+- [Agent Library — 9 Role Configurations](/hermes/agents/)
+- [Ecosystem Directory — 234+ Community Resources](/hermes/ecosystem.md)
+- [Cron Scheduling — 38 Production Crons](/hermes/governance/scheduling/)
+- [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
+- [Best Practices — Production Operations](/hermes/best-practices/)
 
 ---
 

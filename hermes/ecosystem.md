@@ -2260,3 +2260,86 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 *Last updated: June 16, 2026 · [Star this repo →](https://github.com/CorpusIQ/corpusiq-docs) · Powered by CorpusIQ*
 
 > **📊 Ecosystem Stats:** 220+ repos · 18 categories · 1M+ community stars · 32 skill collections · 18 MCP integrations · 15 domain applications
+
+---
+
+## FAQ
+
+### What is the Hermes Ecosystem Directory?
+
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence — **234+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+
+### How do I find tools and resources for Hermes Agent?
+
+Browse the [Quick Navigation](#-quick-navigation) table above to jump to any of 18 categories: Core & Official, Documentation, UIs, Memory, MCP, Skills, Tools, Orchestration, Deployment, Security, Research, Content, Platform-Specific, Domain Applications, and more. Each entry includes star counts, maintainers, descriptions, and key capabilities.
+
+### How do I submit my Hermes project to the ecosystem?
+
+**[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** — takes 60 seconds. Include the repo URL, description, and suggested category. Submissions are reviewed within 48 hours and accepted repos appear in this directory with your GitHub handle credited. See the [Contributors page](/hermes/contributors.md) for full guidelines.
+
+### What are the most popular Hermes Agent tools?
+
+Based on community stars: **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (195K+), **[claude-mem](https://github.com/thedotmack/claude-mem)** (82K+), **[open-design](https://github.com/nexu-io/open-design)** (65K+), **[gbrain](https://github.com/garrytan/gbrain)** (23K+), **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** (21K+), **[screenpipe](https://github.com/screenpipe/screenpipe)** (19K+), and **[hermes-webui](https://github.com/nesquena/hermes-webui)** (14.5K+).
+
+### How does the ecosystem directory stay updated?
+
+The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitoring crons that scan GitHub, MCP directories, and community channels for new Hermes Agent resources. Community submissions are reviewed within 48 hours. The discovery engine runs nightly (10 PM - 2 AM Arizona time) to detect new entries.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Hermes Ecosystem Directory?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most comprehensive collection of Hermes Agent resources — 234+ repositories across 18 categories including tools, UIs, memory, MCP, skills, deployment, research, and domain applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find tools and resources for Hermes Agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Browse 18 categories via Quick Navigation: Core, Documentation, UIs, Memory, MCP, Skills, Tools, Orchestration, Deployment, Security, Research, and more. Each entry includes stars, maintainers, and capabilities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I submit my Hermes project to the ecosystem?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Submit a repo in 60 seconds via the submission form. Include repo URL, description, and category. Reviewed within 48 hours with your GitHub handle credited."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the most popular Hermes Agent tools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes Agent (195K+ stars), claude-mem (82K+), open-design (65K+), gbrain (23K+), NemoClaw (21K+), screenpipe (19K+), and hermes-webui (14.5K+) are the most starred projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the ecosystem directory stay updated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maintained by CorpusIQ with monitoring crons scanning GitHub and community channels. Community submissions reviewed within 48 hours. Nightly discovery engine detects new entries."
+      }
+    }
+  ]
+}
+</script>
+
+## Related Pages
+
+- [Hermes Knowledge Hub — Production Deployment](/hermes/)
+- [Documentation Index — Complete Reference](/hermes/index.md)
+- [Agent Library — 9 Role Configurations](/hermes/agents/)
+- [Community Contributors — Join the Directory](/hermes/contributors.md)
+- [Skills Catalog — 133+ Production Skills](/hermes/skills/catalog/)
+- [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
+- [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)

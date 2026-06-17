@@ -1,6 +1,12 @@
-# Research Prompts
+---
+title: Research Prompts for Hermes Agent — Competitive Analysis & Market Intelligence
+description: Hermes Agent research prompts for competitive analysis, market sizing, technology evaluation, trend reports, and structured investigation. Replace bracketed text with your research parameters and data sources.
+category: prompts
+tags: [hermes-agent, prompts, research, competitive-analysis, market-sizing, technology-evaluation, trend-reports]
+last_updated: 2026-06-16
+---
 
-A collection of prompts for competitive analysis, market sizing, technology evaluation, trend reports, and other structured research tasks. Replace `[bracketed text]` with your investigation parameters.
+# Research Prompts — Competitive Analysis & Market Intelligence
 
 ---
 

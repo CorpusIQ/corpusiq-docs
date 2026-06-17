@@ -1,8 +1,20 @@
-# Windows 11 + WSL2 — Native Linux Experience
+---
+title: Windows 11 WSL2 Hermes Agent Setup — Linux AI Agent on Windows
+description: Run Hermes Agent on Windows 11 with full Linux compatibility via WSL2. GPU passthrough for NVIDIA CUDA, native Ollama models, systemd persistence, and browser automation. Free if you already own a Windows PC.
+category: setup
+tags: [windows, wsl2, hermes-agent, setup-guide, nvidia, gpu-passthrough, ollama, linux-on-windows]
+last_updated: 2026-06-16
+---
 
-Run Hermes on Windows 11 with full Linux compatibility via WSL2. Get GPU acceleration for local models, native filesystem performance, and all the Linux tooling — without dual-booting.
+# Windows 11 WSL2 Hermes Agent Setup — Linux AI Agent on Windows
 
-## Why WSL2?
+Run Hermes Agent on Windows 11 with full Linux compatibility via WSL2 — no dual-booting required. Get NVIDIA GPU acceleration for local models through CUDA passthrough, native Linux filesystem performance, and all Hermes Agent features. This Windows WSL2 setup guide covers everything from installation to persistent 24/7 operation.
+
+## Overview
+
+WSL2 provides a real Linux kernel inside Windows, enabling Hermes Agent to run exactly as it would on a native Linux machine. GPU passthrough means your NVIDIA card accelerates Ollama models at full CUDA speed. The setup is free if you already own a Windows PC, making it the easiest entry point for Windows users who want the full [Hermes Agent setup](/hermes/setup/) experience.
+
+## How It Works
 
 | Feature | WSL2 Benefit |
 |---|---|
@@ -10,131 +22,93 @@ Run Hermes on Windows 11 with full Linux compatibility via WSL2. Get GPU acceler
 | GPU passthrough | NVIDIA CUDA works inside WSL2 |
 | Filesystem | ext4 inside, accessible from Windows via `\\wsl$` |
 | Networking | Shared with Windows — no VM networking hassle |
-| Systemd | Supported — run Hermes as a service |
+| Systemd | Supported — run Hermes Agent as a service |
 
-## Step 1: Install WSL2
+## Step-by-Step Installation
+
+### Step 1: Install WSL2
 
 Open **PowerShell as Administrator**:
 
 ```powershell
-# Install WSL2 with Ubuntu 24.04
 wsl --install -d Ubuntu-24.04
-
-# Restart if prompted, then set up Linux username/password
-```
-
-Verify:
-
-```powershell
+# Set up Linux username/password after reboot
 wsl --list --verbose
-# Should show: Ubuntu-24.04  Running  2
 ```
 
-## Step 2: Configure WSL2 Resources
+### Step 2: Configure WSL2 Resources
 
 Create `%USERPROFILE%\.wslconfig`:
 
 ```ini
 [wsl2]
-memory=8GB          # Adjust based on your RAM
-processors=4        # Adjust based on your CPU cores
+memory=8GB
+processors=4
 swap=4GB
 networkingMode=mirrored
 ```
 
-Apply with `wsl --shutdown` in PowerShell, then reopen WSL.
+Apply: `wsl --shutdown` in PowerShell, then reopen WSL.
 
-## Step 3: GPU Passthrough (NVIDIA)
+### Step 3: GPU Passthrough (NVIDIA)
 
 ```powershell
-# In PowerShell (Windows side):
-# Install NVIDIA driver for WSL2 — NOT the standard Windows driver
-# Download from: https://developer.nvidia.com/cuda/wsl
-# Or winget:
+# In PowerShell — install NVIDIA WSL2 driver
 winget install --id=Nvidia.CUDA -e
 ```
 
 Inside WSL:
 
 ```bash
-# Verify GPU is visible
-nvidia-smi
-# Should show your GPU with driver version and CUDA version
-
-# If nvidia-smi not found:
-sudo apt update
-sudo apt install nvidia-utils-550
+nvidia-smi  # Should show your GPU
+sudo apt install nvidia-utils-550  # If not found
 ```
 
-## Step 4: Install Dependencies (Inside WSL)
+### Step 4: Install Dependencies
 
 ```bash
 sudo apt update
 sudo apt install -y python3 python3-pip python3-venv nodejs npm git curl ffmpeg
-
-# Node 20+ for MCP servers
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
-## Step 5: Install Hermes
+### Step 5: Install Hermes Agent
 
 ```bash
 pip install hermes-agent
-
 hermes profile create wsl-agent
 hermes profile use wsl-agent
-
-# Configure models
-hermes config set providers.openrouter.api_key "your-key"
+hermes config set providers.openrouter.api_key ***
 hermes config set model.default openrouter/anthropic/claude-sonnet-4
 ```
 
-## Step 6: Local Models with Ollama (Optional)
-
-With GPU passthrough, Ollama runs at full CUDA speed inside WSL2:
+### Step 6: Local Models with Ollama
 
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
-
-# Pull models — they run on your NVIDIA GPU
 ollama pull llama3.2
 ollama pull nomic-embed-text
-ollama pull qwen2.5:14b        # If you have 12GB+ VRAM
-
-# Verify GPU acceleration
-ollama run llama3.2 --verbose | grep -i cuda
+ollama pull qwen2.5:14b  # If 12GB+ VRAM
+ollama run llama3.2 --verbose | grep -i cuda  # Verify GPU
 ```
 
-## Step 7: Filesystem Strategy
-
-WSL2 filesystem performance matters:
+### Step 7: Filesystem Strategy
 
 | Location | Speed | Best For |
 |---|---|---|
 | `/home/` (Linux ext4) | Fast | Hermes config, skills, crons |
 | `/mnt/c/` (Windows NTFS) | Slower | Shared files, backups |
 
-**Rule:** Keep Hermes data in `/home/` for speed. If you need to access files from Windows, use `\\wsl$\Ubuntu-24.04\home\` in File Explorer.
+**Rule:** Keep active Hermes data in `/home/` for performance. For [model selection](/hermes/best-practices/model-selection.md) and memory, WSL2's ext4 filesystem is significantly faster than NTFS.
 
-```bash
-# Recommended: all Hermes data in Linux filesystem
-export HERMES_HOME=~/.hermes
-
-# Avoid: mounting Windows folders for active Hermes data
-# /mnt/c/Users/... is slow for frequent read/write operations
-```
-
-## Step 8: Systemd Service
-
-WSL2 supports systemd (enabled by default in Ubuntu 24.04):
+### Step 8: Systemd Service
 
 ```bash
 sudo tee /etc/systemd/system/hermes-gateway.service << 'EOF'
 [Unit]
 Description=Hermes Agent Gateway
 After=network-online.target
-Wants=network-online.target
 
 [Service]
 Type=simple
@@ -152,59 +126,85 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now hermes-gateway
 ```
 
-## Step 9: Keep WSL2 Running
+### Step 9: Keep WSL2 Running
 
-WSL2 shuts down when no processes are active. Prevent this:
+WSL2 shuts down when idle. Prevent this:
 
 ```powershell
-# In PowerShell — keep WSL alive between reboots
-# Create a scheduled task:
 # Task Scheduler → Create Task → Trigger: At startup
-# Action: Start a program → Program: wsl.exe → Arguments: -d Ubuntu-24.04 -e sleep infinity
+# Action: wsl.exe -d Ubuntu-24.04 -e sleep infinity
 ```
 
-Or inside WSL, ensure the systemd service has `Restart=always` and runs a long-lived process.
-
-## Step 10: Browser Automation
+### Step 10: Browser Automation
 
 ```bash
-# Playwright inside WSL2
 pip install playwright
 playwright install chromium
 playwright install-deps chromium
-
-# Test
-python3 -c "from playwright.sync_api import sync_playwright; print('OK')"
 ```
 
-Browser automation works inside WSL2 but is headless by default. For headed browsing, install a Windows X server (like VcXsrv) and set `export DISPLAY=:0`.
+For headed browsing, install a Windows X server like VcXsrv and `export DISPLAY=:0`.
 
-## Troubleshooting
+## Benefits
 
-```bash
-# WSL2 can't reach internet?
-# PowerShell: wsl --shutdown, then restart
+- **Free**: No additional hardware needed beyond your Windows PC
+- **Full GPU acceleration**: NVIDIA CUDA works natively inside WSL2
+- **No dual-boot**: Run Linux Hermes Agent alongside Windows apps
+- **Local models**: Ollama at full speed via GPU passthrough
+- **Persistent**: Systemd service with auto-restart keeps Hermes alive
 
-# nvidia-smi not working?
-# Ensure you installed NVIDIA WSL2 driver, not standard Windows driver
-# Re-run: winget install --id=Nvidia.CUDA -e
+## FAQ
 
-# Performance issues?
-# Move data from /mnt/c/ to /home/
-# Check .wslconfig memory/processor limits
-```
+### Does Ollama GPU acceleration work in WSL2?
+Yes. NVIDIA's WSL2 driver enables full CUDA passthrough. Ollama detects the GPU automatically and uses it for inference — same speed as native Linux.
 
-## Cost
+### Why not just use Windows native Hermes Agent?
+WSL2 provides a real Linux environment with systemd, ext4 filesystem, and native package management. Many MCP servers and developer tools expect Linux. WSL2 delivers this without dual-booting.
 
-| Item | Cost |
-|---|---|
-| Windows 11 license | Already own it |
-| WSL2 | Free |
-| Ollama models | Free |
-| API fallback | ~$5–15/month (optional) |
+### How do I prevent WSL2 from shutting down?
+Create a Windows Task Scheduler task that runs `wsl.exe -d Ubuntu-24.04 -e sleep infinity` at startup, or ensure the Hermes systemd service has `Restart=always`.
 
-**Total: Free if you already have a Windows PC.**
+## Related Pages
+
+- [Hermes Agent Setup Overview](/hermes/setup/) — All platform options
+- [Gaming PC Setup](gaming-pc.md) — Native Linux for max GPU performance
+- [Docker Setup](docker.md) — Alternative Windows deployment
+- [Model Selection Guide](/hermes/best-practices/model-selection.md) — GPU model sizing
+- [Troubleshooting Guide](/hermes/troubleshooting/) — WSL2-specific issues
 
 ---
 
 *Next: [Gaming PC Setup](gaming-pc.md) · [Docker Setup](docker.md) · [Troubleshooting](/hermes/troubleshooting/)*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Ollama GPU acceleration work in WSL2 for Hermes Agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. NVIDIA's WSL2 driver enables full CUDA passthrough. Ollama detects the GPU automatically and uses it for inference at the same speed as native Linux — you just need the NVIDIA WSL2 driver installed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why use WSL2 instead of running Hermes Agent natively on Windows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "WSL2 provides a real Linux environment with systemd, ext4 filesystem, and native package management. Many MCP servers and developer tools expect Linux. WSL2 delivers this seamlessly without dual-booting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I prevent WSL2 from shutting down and stopping Hermes Agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Create a Windows Task Scheduler task that runs 'wsl.exe -d Ubuntu-24.04 -e sleep infinity' at system startup, or ensure the Hermes Agent systemd service has 'Restart=always' configured."
+      }
+    }
+  ]
+}
+</script>

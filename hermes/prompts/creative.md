@@ -1,4 +1,12 @@
-# Creative Prompts
+---
+title: Creative Prompts for Hermes Agent — Brainstorming, Naming & Design Strategy
+description: Hermes Agent creative prompts for brainstorming, naming, design briefs, creative strategy, and ideation. Replace bracketed text with your brand context, creative brief, and style preferences. Temperature optimization tips included.
+category: prompts
+tags: [hermes-agent, prompts, creative, brainstorming, naming, design, ideation, creative-strategy]
+last_updated: 2026-06-16
+---
+
+# Creative Prompts — Brainstorming, Naming & Design Strategy
 
 Prompts for brainstorming, ideation, naming, design briefs, creative strategy, and other generative thinking tasks. Replace `[bracketed text]` with your creative brief details.
 

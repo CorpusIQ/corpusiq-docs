@@ -1,23 +1,56 @@
-# Finance Agent Configuration
+---
+title: Hermes Finance Agent — Automated Accounting & Reconciliation
+description: Deploy an AI finance agent for invoice processing, expense tracking, bank reconciliation, AR aging, and financial reporting. Complete Hermes blueprint with QuickBooks and Stripe.
+category: Agents
+tags:
+  - finance-agent
+  - accounting-automation
+  - invoice-processing
+  - reconciliation
+  - ai-finance-assistant
+last_updated: 2026-06-16
+---
 
-## Role Description
+# Hermes Finance Agent — Autonomous Accounting & Financial Reconciliation
 
-The Finance Agent automates financial operations — invoice processing, expense tracking, account reconciliation, and financial reporting. It connects to your accounting platform, payment processor, banking data, and expense management tools to provide a real-time financial picture without manual data entry or spreadsheet wrangling. The agent answers questions like "what's our cash position this month?" or "show me all unpaid invoices over 30 days" and runs scheduled reconciliations and reports.
+The **Hermes Finance Agent** automates **financial operations** — invoice processing, expense tracking, account reconciliation, and financial reporting. It connects to your accounting platform, payment processor, and expense tools through [CorpusIQ MCP connectors](/hermes/mcp/connectors/) to provide a **real-time financial picture** without manual data entry or spreadsheet wrangling.
 
-This agent is built for finance teams, fractional CFOs, and business owners who need accurate, timely financial data without living inside QuickBooks. It surfaces anomalies (duplicate invoices, unexpected fee spikes, reconciliation gaps), tracks AR aging, and prepares month-end close summaries. It does not replace your accountant — it makes their job faster and your financial visibility better.
+This agent is built for finance teams, fractional CFOs, and business owners who need accurate, timely financial data without living inside QuickBooks. It surfaces anomalies, tracks AR aging, and prepares month-end close summaries.
+
+## Overview
+
+**The Finance Agent replaces manual reconciliation and reporting.** Instead of matching Stripe payouts to bank deposits by hand, checking invoice statuses across systems, and building P&L reports in spreadsheets, your team receives automated reconciliation summaries, overdue alerts, and financial reports delivered on schedule.
+
+| Capability | What It Does |
+|-----------|-------------|
+| **Invoice processing** | Monitors new invoices, flags duplicates, categorizes by GL code, tracks payment |
+| **Expense tracking** | Categorizes expenses, flags uncategorized items, detects policy violations |
+| **Bank reconciliation** | Matches Stripe payouts to bank deposits, identifies unmatched transactions |
+| **AR aging** | Receivables aging report, overdue alerts, customer payment trend analysis |
+| **Financial reporting** | Monthly P&L, balance sheet snapshot, cash flow summary, budget vs. actual |
+
+> **See also:** [Agent Library Overview](/hermes/agents/) · [DevOps Agent](/hermes/agents/devops-agent.md) · [QuickBooks Connector](/hermes/mcp/connectors/)
+
+## How It Works
+
+1. **Connect your financial stack** — QuickBooks, Stripe, bank feeds via [CorpusIQ connectors](/hermes/mcp/connectors/)
+2. **Define your chart of accounts** — Store GL codes and expense policies in canonical facts
+3. **Load the skills** — Invoice processing, expense tracking, reconciliation, AR aging, financial reporting
+4. **Schedule the crons** — Daily reconciliation, overdue alerts, weekly cash flow, monthly close
+5. **Receive in Slack/Email** — Reconciliation summaries, overdue invoice alerts, P&L snapshots
+
+## Key Features
+
+- **Daily bank reconciliation** matching Stripe payouts to deposits with gap flagging
+- **Overdue invoice alerts** every weekday with customer context and aging buckets
+- **Auto-categorization of expenses** using historical patterns and GL mappings
+- **Weekly cash flow snapshots** delivered Monday mornings
+- **Month-end close checklist** on the 1st — reconciles all accounts, generates P&L and balance sheet
+- **Duplicate invoice detection** to prevent double payments
 
 ## Recommended Model
 
-**Claude Sonnet 4** or **DeepSeek V3** — financial analysis demands precision with numbers and the ability to spot patterns across accounts. Both models handle structured financial data reliably. For scheduled reporting and simple queries, **Claude Haiku** works well. Avoid models known to hallucinate numerical details for financial use cases.
-
-## Key Skills to Load
-
-- `invoice-processing` — Monitor new invoices, flag duplicates, categorize by GL code, track payment status
-- `expense-tracking` — Categorize expenses, flag uncategorized items, detect policy violations
-- `reconciliation` — Match Stripe payouts to bank deposits, identify unmatched transactions, flag gaps
-- `ar-aging` — Accounts receivable aging report, overdue invoice alerts, customer payment trend analysis
-- `financial-reporting` — Monthly P&L, balance sheet snapshot, cash flow summary, budget vs. actual
-- `tax-prep` — Categorize transactions by tax category, estimate quarterly liabilities, flag missing vendor W-9s
+**Claude Sonnet 4** or **DeepSeek V3** — precise numerical reasoning essential for financial data. Avoid models known to hallucinate numbers. Use **Claude Haiku** for scheduled reporting and simple queries.
 
 ## MCP Connectors Needed
 
@@ -61,14 +94,95 @@ hermes agent create finance \
   --description "Financial operations and accounting automation agent"
 ```
 
-## Daily Workflow
-
-Every morning the agent checks Stripe payouts against bank deposits, flags any unmatched transactions, and posts a reconciliation summary. It monitors AR aging and alerts on invoices approaching or past due dates with customer context. Throughout the day it categorizes uncategorized expenses using historical patterns and GL mappings. On Mondays it delivers a cash flow snapshot. On the 1st of each month, it runs the month-end close checklist — reconciling all accounts, generating P&L and balance sheet reports, and flagging any anomalies for human review before close.
-
 ## Configuration Notes
 
-Define your chart of accounts mapping and GL codes in canonical facts so the agent categorizes transactions correctly. Set your expense policy thresholds (auto-approve under $X, flag above $Y). Store your fiscal calendar. Configure which financial reports go to which stakeholders and channels. For tax prep, define your tax categories and jurisdiction rules.
+- Define **chart of accounts mapping and GL codes** in canonical facts for auto-categorization
+- Set **expense policy thresholds** (auto-approve under $X, flag above $Y)
+- Store your **fiscal calendar** for accurate period reporting
+- Configure **report destinations** — which stakeholders receive which reports
 
 ## Extending
 
-Add `budget-variance` that compares actuals against budget with narrative explanations for material variances. Integrate with Ramp, Brex, or Bill.com for corporate card and bill pay automation. Add `revenue-recognition` for SaaS companies that need to track deferred revenue. Build a `financial-forecast` skill using historical trends and pipeline data.
+- Add `budget-variance` comparing actuals against budget with narrative explanations
+- Integrate with **Ramp, Brex, or Bill.com** for corporate card and bill pay automation
+- Add `revenue-recognition` for SaaS companies tracking deferred revenue
+- Build a `financial-forecast` skill using historical trends and pipeline data
+
+## FAQ
+
+### What does the Hermes Finance Agent do?
+
+The **Hermes Finance Agent** automates invoice processing, expense categorization, bank reconciliation (matching Stripe payouts to deposits), AR aging tracking, and financial reporting including P&L, balance sheet, and cash flow — all on scheduled crons.
+
+### How does bank reconciliation work with the finance agent?
+
+Every morning the agent **matches Stripe payouts to QuickBooks bank deposits**, identifies unmatched transactions, flags reconciliation gaps, and posts a summary to Slack with specific items needing human review.
+
+### Can the agent detect duplicate invoices?
+
+Yes. The **invoice processing skill** monitors new invoices and flags duplicates by checking vendor, amount, and invoice number against existing records before payment.
+
+### How does AR aging tracking work?
+
+The agent generates **accounts receivable aging reports** categorizing invoices by days overdue (0-30, 31-60, 61-90, 90+). Daily alerts flag approaching and past-due invoices with customer context and payment history.
+
+### What financial reports does the agent generate?
+
+The agent generates **P&L statements, balance sheet snapshots, cash flow summaries, budget vs. actual comparisons, and month-end close packages** — all compiled from QuickBooks, Stripe, and connected data sources.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does the Hermes Finance Agent do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Hermes Finance Agent automates invoice processing, expense categorization, bank reconciliation, AR aging tracking, and financial reporting including P&L, balance sheet, and cash flow on scheduled crons."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does bank reconciliation work with the finance agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every morning the agent matches Stripe payouts to QuickBooks bank deposits, identifies unmatched transactions, flags reconciliation gaps, and posts a summary to Slack."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can the agent detect duplicate invoices?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The invoice processing skill monitors new invoices and flags duplicates by checking vendor, amount, and invoice number against existing records before payment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does AR aging tracking work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The agent generates accounts receivable aging reports categorizing invoices by days overdue. Daily alerts flag approaching and past-due invoices with customer context."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What financial reports does the agent generate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The agent generates P&L statements, balance sheet snapshots, cash flow summaries, budget vs. actual comparisons, and month-end close packages compiled from QuickBooks, Stripe, and connected data sources."
+      }
+    }
+  ]
+}
+</script>
+
+## Related Pages
+
+- [Agent Library — All 9 Role Configurations](/hermes/agents/)
+- [DevOps Agent — Infrastructure & Cost Optimization](/hermes/agents/devops-agent.md)
+- [Executive Agent — Daily Briefings & Metrics](/hermes/agents/executive-agent.md)
+- [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
+- [Cron Scheduling Guide](/hermes/governance/scheduling/)

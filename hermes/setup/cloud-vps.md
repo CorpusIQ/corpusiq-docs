@@ -1,6 +1,28 @@
-# Cloud VPS — Always-On Budget Deployment
+---
+title: Cloud VPS Hermes Agent Setup — 24/7 AI Agent for $5-20/month
+description: Deploy Hermes Agent on a cloud VPS for always-on AI automation. Step-by-step setup for Hetzner, DigitalOcean, AWS, Vultr. API-based models, systemd persistence, security hardening. $5/month budget deployment.
+category: setup
+tags: [cloud-vps, hermes-agent, setup-guide, hetzner, digitalocean, openrouter, systemd, 24/7-automation]
+last_updated: 2026-06-16
+---
 
-Run Hermes 24/7 on a $5–20/month cloud VPS. No hardware to maintain, no electricity bill to worry about, and it stays online even when your laptop is off. Perfect for email monitoring, cron jobs, and lightweight autonomous agents.
+# Cloud VPS Hermes Agent Setup — 24/7 AI Agent for $5–20/Month
+
+Run Hermes Agent 24/7 on a cloud VPS for always-on AI automation at minimal cost. No hardware to maintain, no electricity bill, and your agent stays online even when your laptop is off. This cloud VPS setup guide covers provisioning, model configuration, cron persistence, and security hardening.
+
+## Overview
+
+A cloud VPS is the best budget option for always-on Hermes Agent operation. For $5–20/month you get a Linux server that runs 24/7 with built-in uptime guarantees. Use API-based models (OpenRouter for 200+ models including free-tier options) since VPS instances don't have GPUs.
+
+## How It Works
+
+| Component | How It Runs on Cloud VPS |
+|---|---|
+| **Models** | OpenRouter API (200+ models) or direct provider APIs |
+| **Persistence** | systemd service with `Restart=always` |
+| **Crons** | [Hermes cron scheduler](/hermes/best-practices/cron-design.md) — 24/7 execution |
+| **Memory** | [Honcho](/hermes/knowledge/) + GBrain + memcore-cloud |
+| **Security** | UFW firewall, SSH key-only auth, unattended upgrades |
 
 ## Provider Comparison
 
@@ -12,71 +34,58 @@ Run Hermes 24/7 on a $5–20/month cloud VPS. No hardware to maintain, no electr
 | **Vultr** | $6/mo | 1GB | 1 vCPU | Many regions, hourly billing |
 | **Linode** | $5/mo | 1GB | 1 vCPU | Simple, reliable |
 
-**Recommendation:** Hetzner CX22 (4GB RAM, €4.51/mo) gives you enough memory for Hermes + memory stack without swapping. For lightweight cron-only usage, a 1GB droplet works.
+**Recommendation:** Hetzner CX22 (4GB RAM, €4.51/mo) gives enough memory for Hermes Agent + memory stack. For lightweight cron-only usage, a 1GB droplet works.
 
-## Step 1: Provision the VPS
+## Step-by-Step Installation
 
-All commands assume Ubuntu 24.04 LTS.
+### Step 1: Provision the VPS
 
 ```bash
-# After creating your VPS, SSH in
+# SSH into your VPS
 ssh root@your-server-ip
 
-# Create a non-root user
+# Create non-root user
 adduser hermes
 usermod -aG sudo hermes
 su - hermes
 ```
 
-## Step 2: Install Dependencies
+### Step 2: Install Dependencies
 
 ```bash
 sudo apt update
 sudo apt install -y python3 python3-pip python3-venv nodejs npm git curl
-
-# Node 20+ (for MCP servers)
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
-
-node --version  # Should be 20+
 ```
 
-## Step 3: Install Hermes
+### Step 3: Install Hermes Agent
 
 ```bash
 pip install hermes-agent
-
 hermes profile create cloud-agent
 hermes profile use cloud-agent
 ```
 
-## Step 4: Configure Cloud Models
-
-VPS instances don't have GPUs. Use API-based models exclusively.
+### Step 4: Configure Cloud Models
 
 ```bash
-# OpenRouter — access to 200+ models
+# OpenRouter — free tier models available
 hermes config set providers.openrouter.api_key "your-key"
-
-# Set primary model (cost-effective)
 hermes config set model.default openrouter/qwen/qwen3-235b-a22b:free
-
-# Set fallback for harder tasks
 hermes config set model.fallback openrouter/anthropic/claude-sonnet-4
 ```
 
-**Note:** `qwen/qwen3-235b-a22b:free` on OpenRouter costs $0.000/token — effectively free for light usage. Claude via OpenRouter runs ~$3/million input tokens.
+See our [model selection guide](/hermes/best-practices/model-selection.md) for tiered routing strategies.
 
-## Step 5: Docker Option (Alternative)
+### Step 5: Docker Option
 
-For a fully containerized VPS deployment:
+For containerized deployment:
 
 ```bash
-# Install Docker
 curl -fsSL https://get.docker.com | sh
 sudo usermod -aG docker hermes
 
-# Run Hermes in Docker
 docker run -d --name hermes-agent \
   -v ~/.hermes:/home/hermes/.hermes \
   -e OPENROUTER_API_KEY="your-key" \
@@ -84,11 +93,9 @@ docker run -d --name hermes-agent \
   nousresearch/hermes-agent:latest
 ```
 
-For a full Docker setup with compose, [see the Docker guide](docker.md).
+Full setup in the [Docker guide](docker.md).
 
-## Step 6: Systemd Service
-
-Make Hermes survive reboots:
+### Step 6: Systemd Service
 
 ```bash
 sudo tee /etc/systemd/system/hermes-gateway.service << 'EOF'
@@ -111,52 +118,43 @@ EOF
 
 sudo systemctl daemon-reload
 sudo systemctl enable --now hermes-gateway
-sudo systemctl status hermes-gateway
 ```
 
-## Step 7: Cron Persistence
-
-Your VPS is always on — make it work 24/7:
+### Step 7: Cron Persistence
 
 ```bash
 # Email monitoring
 hermes cron create \
   --name "email-watch" \
-  --prompt "Check inbox for unread messages. Summarize. Silent if empty." \
+  --prompt "Check inbox for unread. Summarize. Silent if empty." \
   --schedule "*/15 * * * *"
 
 # Daily health check
 hermes cron create \
   --name "health-check" \
-  --prompt "Verify all services are running. Check disk space. Report issues." \
+  --prompt "Verify services running. Check disk space. Report issues." \
   --schedule "0 8 * * *"
-
-# Nightly cleanup
-hermes cron create \
-  --name "nightly-cleanup" \
-  --prompt "Archive old logs. Clean temp files. Report disk usage." \
-  --schedule "0 2 * * *"
 ```
 
-## Step 8: Security Hardening
+### Step 8: Security Hardening
 
 ```bash
-# Firewall — only allow SSH
 sudo ufw allow 22/tcp
 sudo ufw enable
-
-# SSH key-only auth
-# On your local machine:
 ssh-copy-id hermes@your-server-ip
-
-# Then on the VPS, disable password auth:
 sudo sed -i 's/#PasswordAuthentication yes/PasswordAuthentication no/' /etc/ssh/sshd_config
 sudo systemctl restart sshd
-
-# Enable unattended security updates
 sudo apt install unattended-upgrades
-sudo dpkg-reconfigure unattended-upgrades
 ```
+
+## Benefits
+
+- **Always-on**: 24/7 operation with cloud provider uptime guarantees
+- **Budget-friendly**: $5–20/month total including models
+- **Zero hardware maintenance**: No physical machine to manage
+- **Instant scaling**: Upgrade RAM/CPU with a few clicks
+- **Global regions**: Deploy close to your data sources
+- **Free-tier models**: OpenRouter offers free models for light usage
 
 ## Cost Breakdown
 
@@ -167,22 +165,61 @@ sudo dpkg-reconfigure unattended-upgrades
 | Honcho (free tier) | $0 |
 | **Total** | **~$5/month** |
 
-For heavier usage with Claude-level models: ~$15–25/month total.
+For heavier usage with Claude-level models: ~$15–25/month.
 
-## Monitoring
+## FAQ
 
-```bash
-# Check Hermes status
-hermes gateway status
+### Can I run local models on a cloud VPS?
+No — cloud VPS instances don't have GPUs. Use API-based models via OpenRouter or direct provider APIs. For local model inference, use a [gaming PC](gaming-pc.md) or [Mac Mini M4](mac-mini-standalone.md).
 
-# Check resource usage
-htop
-df -h
+### Which cloud VPS provider is best for Hermes Agent?
+Hetzner CX22 offers the best value at €4.51/month with 4GB RAM — enough for Hermes Agent + memory stack. DigitalOcean and Linode are good alternatives with simpler interfaces.
 
-# View logs
-journalctl -u hermes-gateway -f
-```
+### How do I keep Hermes Agent running after reboot?
+The systemd service with `Restart=always` ensures Hermes Agent restarts automatically. Combine with `WantedBy=multi-user.target` so it starts on boot.
+
+## Related Pages
+
+- [Hermes Agent Setup Overview](/hermes/setup/) — All platform options
+- [Docker Setup](docker.md) — Containerized cloud deployment
+- [Raspberry Pi Setup](raspberry-pi.md) — Alternative low-cost 24/7 option
+- [Model Selection Guide](/hermes/best-practices/model-selection.md) — API model tiering
+- [Cron Design Best Practices](/hermes/best-practices/cron-design.md) — 24/7 automation
+- [Troubleshooting Guide](/hermes/troubleshooting/) — VPS-specific issues
 
 ---
 
-*Next: [Docker Setup](docker.md) · [Production Cron Reference](/hermes/governance/scheduling/)*
+*Next: [Docker Setup](docker.md) · [Cron Scheduler](/hermes/governance/scheduling/)*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I run local AI models on a cloud VPS with Hermes Agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — cloud VPS instances typically don't have GPUs. Use API-based models via OpenRouter or direct provider APIs. For local model inference, use a gaming PC with NVIDIA GPU or Mac Mini M4."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which cloud VPS provider is best for running Hermes Agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hetzner CX22 offers the best value at €4.51/month with 4GB RAM — enough for Hermes Agent plus the memory stack. DigitalOcean and Linode are good alternatives with simpler interfaces."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I keep Hermes Agent running 24/7 on a cloud VPS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Configure Hermes Agent as a systemd service with Restart=always and WantedBy=multi-user.target. This ensures automatic restart on boot and after crashes. The cloud provider handles hardware uptime."
+      }
+    }
+  ]
+}
+</script>

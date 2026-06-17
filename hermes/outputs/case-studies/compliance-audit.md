@@ -1,14 +1,33 @@
-# Compliance & Audit Automation with Hermes Agent
+---
+title: "Hermes Agent Compliance & Audit Automation | Continuous SOC 2 HIPAA GDPR Monitoring"
+description: "Automate SOC 2, HIPAA, and GDPR compliance with Hermes Agent. Continuous evidence collection, audit trails, and regulatory reporting using cron-driven AI skills."
+category: "Case Study"
+tags:
+  - compliance
+  - audit
+  - SOC 2
+  - HIPAA
+  - GDPR
+  - automation
+  - AI agent
+last_updated: "2026-06-16"
+---
+
+# Hermes Agent Compliance & Audit Automation
+
+Hermes Agent automates continuous compliance monitoring and audit evidence collection across SOC 2, HIPAA, and GDPR frameworks. Replace quarterly fire drills with always-on evidence gathering, automated control validation, and auditor-ready reporting — all powered by cron-driven AI skills.
+
+## Overview
 
 Compliance monitoring is one of the highest-value use cases for agent-based automation. Regulatory frameworks like SOC 2, HIPAA, GDPR, and PCI-DSS demand continuous evidence collection, audit trail maintenance, and timely reporting — exactly the kind of repetitive, cross-system work Hermes Agent excels at.
-
-## The Compliance Challenge
 
 Most organizations handle compliance through periodic manual reviews. A team member logs into cloud consoles, screenshots configurations, exports logs, and compiles evidence into a spreadsheet or document. This approach has three fatal flaws: it's labor-intensive, it captures a single point in time (missing drift that happens between reviews), and it's inconsistent — different team members document things differently.
 
 Hermes Agent transforms this into continuous, automated compliance monitoring that runs daily or hourly.
 
-## Automated Evidence Collection
+## How It Works
+
+### Automated Evidence Collection
 
 The core pattern: cron-driven skills that query your infrastructure, compare against policy, and produce timestamped evidence artifacts.
 
@@ -32,7 +51,7 @@ A typical run produces:
 
 Each run appends to a structured evidence log, giving auditors a complete timeline rather than a single snapshot.
 
-## HIPAA Audit Trail Automation
+### HIPAA Audit Trail Automation
 
 For healthcare organizations, HIPAA requires detailed access logs, minimum-necessary access controls, and breach notification readiness. Hermes can monitor electronic health record (EHR) systems through MCP or database connectors, watching for:
 
@@ -51,7 +70,7 @@ For healthcare organizations, HIPAA requires detailed access logs, minimum-neces
 
 The skill queries audit logs via database connectors, applies pattern-matching rules, and submits findings to a designated Slack channel or email. For any finding that crosses a severity threshold, Hermes can create a ticket in your ticketing system (Jira, Linear, Monday.com).
 
-## GDPR Compliance Checks
+### GDPR Compliance Checks
 
 GDPR requires data minimization, right-to-access, right-to-erasure, and data processing records. Hermes can automate:
 
@@ -70,7 +89,7 @@ When a DSAR arrives (via email, form, or support ticket), a cron-triggered skill
 
 This skill queries databases for records exceeding configured retention periods. It produces a deletion candidate report, and with appropriate approvals configured, can initiate automated purging.
 
-## Change Management Evidence
+### Change Management Evidence
 
 Every compliance framework requires evidence that changes go through approval. Hermes can monitor your Git repositories, CI/CD pipelines, and infrastructure-as-code platforms:
 
@@ -83,7 +102,7 @@ Every compliance framework requires evidence that changes go through approval. H
 
 The skill pulls recent deployments (from GitHub/GitLab MCP), matches them against change requests (from Jira/ServiceNow), and flags any deployment without corresponding approval. This single automation closes a major audit finding category.
 
-## Reporting Aggregation
+### Reporting Aggregation
 
 Beyond collection, Hermes compiles compliance reports on schedule. A monthly executive summary skill can pull findings from all the above monitors, calculate compliance scores per control domain, and produce a dashboard-ready Markdown report delivered to stakeholders.
 
@@ -94,6 +113,15 @@ Beyond collection, Hermes compiles compliance reports on schedule. A monthly exe
   description: Aggregates all compliance monitors into executive summary
 ```
 
+## Benefits
+
+- **Continuous compliance** — evidence collected daily instead of quarterly fire drills
+- **Auditor-ready documentation** — timestamped evidence logs with complete change history
+- **Reduced manual effort** — security teams reclaim hours of screenshot-and-spreadsheet work
+- **Faster breach detection** — anomalous access patterns flagged in near real-time
+- **Framework flexibility** — same infrastructure supports SOC 2, HIPAA, GDPR, PCI-DSS, and ISO 27001
+- **Immutable evidence storage** — write evidence to versioned, WORM-compliant storage systems
+
 ## Getting Started
 
 1. **Map your controls first.** List every compliance requirement and the system it touches.
@@ -103,3 +131,82 @@ Beyond collection, Hermes compiles compliance reports on schedule. A monthly exe
 5. **Store evidence in versioned storage.** Write evidence to Google Drive, OneDrive, or a Git repository so auditors have a complete, immutable history.
 
 The result: audit readiness becomes a byproduct of operations rather than a quarterly fire drill.
+
+## FAQ
+
+### What compliance frameworks can Hermes Agent automate?
+
+Hermes Agent supports SOC 2, HIPAA, GDPR, PCI-DSS, ISO 27001, and custom compliance frameworks. Skills can be configured for any standard that requires evidence collection, access monitoring, and control validation across cloud and SaaS systems.
+
+### How does Hermes Agent collect compliance evidence?
+
+Hermes uses cron-driven skills with MCP connectors to query cloud providers (AWS, GCP, Azure), databases, and SaaS tools. Each run produces timestamped evidence artifacts stored in version-controlled repositories or immutable storage.
+
+### Can Hermes Agent automatically remediate compliance issues?
+
+Hermes can be configured for report-only mode (recommended for initial deployment) or automated remediation with approval gates. Critical actions like data purging or access revocation can require human approval before execution.
+
+### Is Hermes Agent suitable for SOC 2 Type II audits?
+
+Yes. Hermes provides continuous evidence collection, audit trail maintenance, and change management documentation — exactly what SOC 2 Type II auditors require. Skills can map to specific Trust Services Criteria controls.
+
+### How does Hermes handle PHI for HIPAA compliance?
+
+Hermes enforces minimum necessary access at the connector level, logs all PHI access with attribution, and supports encrypted storage and credential isolation through dedicated compliance profiles.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What compliance frameworks can Hermes Agent automate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes Agent supports SOC 2, HIPAA, GDPR, PCI-DSS, ISO 27001, and custom compliance frameworks. Skills can be configured for any standard that requires evidence collection, access monitoring, and control validation across cloud and SaaS systems."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Hermes Agent collect compliance evidence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes uses cron-driven skills with MCP connectors to query cloud providers (AWS, GCP, Azure), databases, and SaaS tools. Each run produces timestamped evidence artifacts stored in version-controlled repositories or immutable storage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can Hermes Agent automatically remediate compliance issues?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes can be configured for report-only mode or automated remediation with approval gates. Critical actions like data purging or access revocation can require human approval before execution."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Hermes Agent suitable for SOC 2 Type II audits?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Hermes provides continuous evidence collection, audit trail maintenance, and change management documentation — exactly what SOC 2 Type II auditors require. Skills can map to specific Trust Services Criteria controls."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Hermes handle PHI for HIPAA compliance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hermes enforces minimum necessary access at the connector level, logs all PHI access with attribution, and supports encrypted storage and credential isolation through dedicated compliance profiles."
+      }
+    }
+  ]
+}
+</script>
+
+## Related Pages
+
+- [Hermes Agent for Healthcare](../case-studies/healthcare.md) — HIPAA-compliant workflows for medical practices
+- [Hermes Agent for Financial Services](../case-studies/financial-services.md) — Regulatory filing automation and fraud detection
+- [Hermes Agent for Government](../case-studies/government.md) — FOIA processing and public records compliance
+- [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — SOC 2, segregation of duties, and audit-grade logging
+- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem

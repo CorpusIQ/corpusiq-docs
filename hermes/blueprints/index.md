@@ -1,6 +1,14 @@
-# Automation Blueprints — Overview
+---
+title: Hermes Agent Automation Blueprints — End-to-End AI Workflow Templates
+description: Production-ready Hermes Agent automation blueprints for daily operations, customer lifecycle, content pipeline, financial close, and incident response. Cron-anchored workflows with human decision gates.
+category: blueprints
+tags: [hermes-agent, blueprints, automation, workflows, cron, daily-operations, customer-lifecycle, content-pipeline, financial-close, incident-response]
+last_updated: 2026-06-16
+---
 
-This directory contains end-to-end automation blueprints for recurring business processes. Each blueprint is a complete, cron-anchored workflow that orchestrates multiple tools and human decision gates to run a specific business function.
+# Hermes Agent Automation Blueprints — End-to-End AI Workflows
+
+Hermes Agent automation blueprints provide complete, cron-anchored workflows for recurring business processes. Each blueprint orchestrates multiple tools and human decision gates to run a specific business function reliably and autonomously.
 
 ## What's Inside
 
@@ -166,3 +174,60 @@ Track time saved, errors caught, and process speed for each blueprint. Use those
 ## Contributing
 
 These blueprints represent generalized patterns. As you adapt them to your organization's tools and processes, you'll discover improvements — different cron cadences, additional data sources, smarter scoring models. Document what works for your context and share the patterns back with the community.
+
+## FAQ
+
+### What are Hermes Agent automation blueprints?
+Automation blueprints are complete, cron-anchored workflow templates for recurring business processes. Each blueprint defines the schedule, data sources, processing logic, human decision gates, and output format for a specific function like daily operations, customer lifecycle, content production, financial close, or incident response.
+
+### How do I customize a blueprint for my organization?
+Adjust cron times to match your team's working hours, replace tool references with your actual systems (Slack vs Teams, Jira vs Linear, HubSpot vs Close), and calibrate thresholds to your reality (1% vs 5% revenue variance). Start with the lowest-risk automation and enable one at a time with 48-hour observation periods.
+
+### Which blueprint should I implement first?
+Start with the blueprint that addresses your most painful manual process. If morning context switching is the problem, start with [Daily Operations](daily-ops.md). For reactive account management, use [Customer Lifecycle](customer-lifecycle.md). For inconsistent publishing, use [Content Pipeline](content-pipeline.md).
+
+### How do blueprints handle errors and failures?
+Every blueprint follows a predictable escalation pattern: automated retry (transient failures), notification (persistent failures alert a human), escalation (unresolved after timeout escalates to next level), and fallback (degrade gracefully — partial report is better than no report).
+
+## Related Pages
+
+- [Daily Operations Blueprint](daily-ops.md) — Morning briefing through evening wrap-up
+- [Customer Lifecycle Blueprint](customer-lifecycle.md) — Onboarding, engagement, retention, win-back
+- [Content Pipeline Blueprint](content-pipeline.md) — Research, draft, review, publish, promote
+- [Financial Close Blueprint](financial-close.md) — Monthly reconciliation and reporting
+- [Incident Response Blueprint](incident-response.md) — Detection, triage, remediation, postmortem
+- [Cron Design Best Practices](/hermes/best-practices/cron-design.md) — Reliable scheduled automation
+- [Integration Examples](/hermes/integrations/) — Tool connection patterns for blueprints
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are Hermes Agent automation blueprints?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Automation blueprints are complete, cron-anchored workflow templates for recurring business processes. Each defines the schedule, data sources, processing logic, human decision gates, and output format for functions like daily operations, customer lifecycle, content production, financial close, or incident response."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I customize a Hermes Agent blueprint for my organization?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Adjust cron times to match your team's working hours, replace tool references with your actual systems, and calibrate thresholds to your reality. Start with the lowest-risk automation and enable one at a time with 48-hour observation periods between each."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which Hermes Agent blueprint should I implement first?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with the blueprint addressing your most painful manual process. If morning context switching, use Daily Operations. For reactive account management, use Customer Lifecycle. For inconsistent publishing, use Content Pipeline."
+      }
+    }
+  ]
+}
+</script>

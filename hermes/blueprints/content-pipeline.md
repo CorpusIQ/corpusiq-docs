@@ -1,6 +1,12 @@
-# Content Production Pipeline Blueprint
+---
+title: Content Pipeline Blueprint for Hermes Agent — Automated Content Production
+description: End-to-end Hermes Agent content pipeline blueprint. Research, ideation, drafting, review, publication, and promotion — all orchestrated with cron-driven workflows, SEO analysis, and human editorial gates.
+category: blueprints
+tags: [hermes-agent, blueprint, content-pipeline, content-production, seo, editorial-workflow, publishing]
+last_updated: 2026-06-16
+---
 
-An end-to-end automation blueprint for content production — from research and ideation through drafting, review, publication, and promotion. This stage-gated workflow orchestrates multiple tools and review checkpoints to produce consistent, high-quality content on a predictable schedule.
+# Content Pipeline Blueprint — Automated Content Production
 
 ## Pipeline Stages
 

@@ -1,8 +1,20 @@
-# Raspberry Pi 5 — Ultra-Low-Cost Always-On Agent
+---
+title: Raspberry Pi 5 Hermes Agent Setup — Ultra-Low-Cost 24/7 AI Agent
+description: Run Hermes Agent on Raspberry Pi 5 for under $80 hardware and $5/month ongoing. Always-on email monitoring, cron jobs, and lightweight AI automation. Step-by-step Pi setup with cloud models and external storage.
+category: setup
+tags: [raspberry-pi, hermes-agent, setup-guide, low-cost, always-on, arm64, cron-automation, budget-ai]
+last_updated: 2026-06-16
+---
 
-Run Hermes 24/7 on a Raspberry Pi 5 for less than $80 in hardware and pennies a month in electricity. Perfect for email monitoring, lightweight cron jobs, and home automation agents.
+# Raspberry Pi 5 Hermes Agent Setup — Ultra-Low-Cost 24/7 AI Agent
 
-## Why a Raspberry Pi?
+Run Hermes Agent 24/7 on a Raspberry Pi 5 for less than $80 in hardware and pennies a month in electricity. This Raspberry Pi setup guide is perfect for email monitoring, lightweight cron jobs, and home automation agents that run silently and cost almost nothing.
+
+## Overview
+
+The Raspberry Pi 5 is the most cost-effective always-on Hermes Agent platform. At $50–80, it draws ~5W idle and costs ~$5/year in electricity. It pairs with cloud API models for AI capabilities and is ideal for lightweight, persistent automation tasks that don't require GPU acceleration.
+
+## How It Works
 
 | Feature | Raspberry Pi 5 |
 |---|---|
@@ -15,106 +27,75 @@ Run Hermes 24/7 on a Raspberry Pi 5 for less than $80 in hardware and pennies a 
 
 ## Limitations
 
-- **No GPU acceleration** for local LLMs — use API-based models or very small quantized models
+- **No GPU acceleration** for local LLMs — use [API-based cloud models](cloud-vps.md) or very small quantized models
 - **8GB RAM max** — can't run large models locally
 - **ARM64 architecture** — some packages may need workarounds
 
-## Step 1: OS Setup
+## Step-by-Step Installation
 
-Use Raspberry Pi OS Lite (64-bit, no desktop) for minimal overhead.
+### Step 1: OS Setup
 
 ```bash
-# Flash with Raspberry Pi Imager:
-#   Choose: Raspberry Pi OS Lite (64-bit)
-#   Enable SSH, set username/password, configure WiFi
+# Flash Raspberry Pi OS Lite (64-bit) with Pi Imager
+# Enable SSH, set username/password, configure WiFi
 
-# After first boot, SSH in:
+# SSH in after first boot:
 ssh pi@raspberrypi.local
-
-# Update
 sudo apt update && sudo apt upgrade -y
 ```
 
-## Step 2: Install Dependencies
+### Step 2: Install Dependencies
 
 ```bash
 sudo apt install -y python3 python3-pip python3-venv nodejs npm git curl
-
-# Node 20+ (ARM64 build)
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
-## Step 3: Install Hermes
+### Step 3: Install Hermes Agent
 
 ```bash
 pip install hermes-agent
-
 hermes profile create pi-agent
 hermes profile use pi-agent
 ```
 
-## Step 4: Model Strategy
+### Step 4: Model Strategy
 
-### Primary: Cloud Models (Recommended)
-
-The Pi doesn't have the VRAM or CPU power for meaningful local inference. Use API-based models.
+**Primary: Cloud Models (Recommended)**
 
 ```bash
-# OpenRouter — free tier models available
 hermes config set providers.openrouter.api_key "your-key"
 hermes config set model.default openrouter/qwen/qwen3-235b-a22b:free
 ```
 
-### Optional: Tiny Local Models (Ollama)
-
-For offline operation or tasks where latency doesn't matter:
+**Optional: Tiny Local Models**
 
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
-
-# Pull the smallest usable models
 ollama pull tinyllama       # ~637MB, runs on 4GB Pi
-ollama pull nomic-embed-text # Embeddings for GBrain
-
-# Expect 2–5 tokens/sec on Pi 5 (slow but functional)
-ollama run tinyllama "Hello"
+ollama pull nomic-embed-text # Embeddings
+# Expect 2–5 tokens/sec — slow but functional
 ```
 
-Only pull tinyllama or similarly small models — anything above 1–2B parameters will overwhelm the Pi's CPU.
-
-## Step 5: External Storage (Recommended)
-
-microSD cards wear out under constant writes. Use NVMe or USB SSD.
+### Step 5: External Storage (Recommended)
 
 ```bash
-# NVMe via HAT (best performance)
-# Attach NVMe HAT, install NVMe SSD, then:
-sudo mkdir -p /mnt/nvme
-sudo mount /dev/nvme0n1p1 /mnt/nvme
-
-# Or USB SSD (simpler)
+# NVMe via HAT or USB SSD
 sudo mkdir -p /mnt/ssd
 sudo mount /dev/sda1 /mnt/ssd
-
-# Move Hermes data to external storage
 mkdir -p /mnt/ssd/hermes-data
 export HERMES_HOME=/mnt/ssd/hermes-data
-
-# Add to ~/.bashrc for persistence
 echo 'export HERMES_HOME=/mnt/ssd/hermes-data' >> ~/.bashrc
 ```
 
-## Step 6: Headless Operation
-
-The Pi runs headless. Set up systemd and proper shutdown handling.
+### Step 6: Headless Operation
 
 ```bash
 sudo tee /etc/systemd/system/hermes-gateway.service << 'EOF'
 [Unit]
 Description=Hermes Agent Gateway
 After=network-online.target
-Wants=network-online.target
 
 [Service]
 Type=simple
@@ -133,36 +114,35 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now hermes-gateway
 ```
 
-## Step 7: Lightweight Crons
-
-Design crons for the Pi's constraints: use cloud models, keep prompts short, avoid heavy file operations.
+### Step 7: Lightweight Crons
 
 ```bash
 # Email check — uses cloud model, no local compute
-hermes cron create \
-  --name "email-watch" \
-  --prompt "Check for new emails. Summarize in one sentence. Silent if empty." \
+hermes cron create --name "email-watch" \
+  --prompt "Check for new emails. Summarize in one sentence." \
   --schedule "*/30 * * * *"
 
 # System health — light, local-only
-hermes cron create \
-  --name "pi-health" \
-  --prompt "Check temperature, disk usage, and memory. Report if anything exceeds 80%." \
+hermes cron create --name "pi-health" \
+  --prompt "Check temperature, disk, memory. Report if >80%." \
   --schedule "0 * * * *"
 ```
 
-## Step 8: Cooling and Power
+### Step 8: Cooling and Power
 
 ```bash
-# Monitor temperature
 vcgencmd measure_temp
-
-# If exceeding 70°C regularly, add a small heatsink or fan
-# The official Pi 5 active cooler is $5
-
-# Use a quality power supply — 5V 5A recommended for Pi 5
-# Undervoltage causes random crashes
+# If exceeding 70°C, add active cooler (~$5)
+# Use 5V 5A power supply — undervoltage causes crashes
 ```
+
+## Benefits
+
+- **Lowest cost**: Under $100 hardware, ~$5/month ongoing
+- **Silent 24/7**: No fan needed, ~5W power draw
+- **Perfect for monitoring**: Email, cron jobs, system health checks
+- **Zero maintenance**: Headless operation with systemd auto-restart
+- **Privacy**: Runs entirely on your local network
 
 ## Cost Summary
 
@@ -173,20 +153,70 @@ vcgencmd measure_temp
 | microSD (32GB) | $8 |
 | NVMe SSD (optional) | $25 |
 | **Total hardware** | **~$75–100** |
-| | |
 | Electricity (annual) | ~$6 |
 | OpenRouter API | $0–5/month |
-| **Total ongoing** | **~$5/month** |
 
 ## When Not to Use a Pi
 
-- Heavy browser automation (Playwright will struggle)
-- Running models larger than 1–2B parameters
+- Heavy browser automation (Playwright struggles)
+- Running models larger than 1–2B parameters locally
 - Video processing or encoding
 - Multi-agent fleets
 
 For those workloads, use a [cloud VPS](cloud-vps.md) or [gaming PC](gaming-pc.md).
 
+## FAQ
+
+### Can a Raspberry Pi run local AI models?
+Only very small models like TinyLlama (~1B parameters). Expect 2–5 tokens/second. For practical AI, use cloud API models via OpenRouter — free tier models cost $0/token.
+
+### Why use external storage with Raspberry Pi?
+microSD cards wear out under constant write operations from logs and memory systems. An NVMe SSD via HAT or USB SSD provides faster, more durable storage.
+
+### What tasks is a Raspberry Pi best for with Hermes Agent?
+Email monitoring, system health checks, lightweight cron jobs, IoT automation, and notification routing. Not suitable for browser automation, video processing, or heavy inference.
+
+## Related Pages
+
+- [Hermes Agent Setup Overview](/hermes/setup/) — Compare all platforms
+- [Cloud VPS Setup](cloud-vps.md) — Alternative always-on option
+- [Docker Setup](docker.md) — Containerized ARM deployment
+- [Cron Design Best Practices](/hermes/best-practices/cron-design.md) — Lightweight automation
+- [Troubleshooting Guide](/hermes/troubleshooting/) — Pi-specific issues
+
 ---
 
 *Next: [Cloud VPS Setup](cloud-vps.md) · [Docker Setup](docker.md)*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can a Raspberry Pi 5 run local AI models with Hermes Agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Only very small models like TinyLlama (~1B parameters) at 2-5 tokens/second. For practical AI assistance, use cloud API models via OpenRouter — free tier models cost $0/token and provide full model capabilities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why use external storage with Raspberry Pi for Hermes Agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "microSD cards wear out under constant write operations from logs, memory systems, and session data. An NVMe SSD via HAT or USB SSD provides faster, more durable storage for 24/7 operation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What tasks is a Raspberry Pi 5 best for with Hermes Agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Email monitoring, system health checks, lightweight cron jobs, IoT automation, and notification routing. It's not suitable for browser automation, video processing, or heavy local model inference."
+      }
+    }
+  ]
+}
+</script>

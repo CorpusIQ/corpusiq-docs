@@ -1,23 +1,36 @@
-# Docker — Reproducible Deployment
+---
+title: Docker Hermes Agent Setup — Reproducible Container Deployment Guide
+description: Deploy Hermes Agent as a Docker container for reproducible AI automation. Docker Compose setup with persistent volumes, MCP server integration, cron persistence, and production checklist. Works on any host.
+category: setup
+tags: [docker, hermes-agent, setup-guide, container, docker-compose, reproducible, cicd, deployment]
+last_updated: 2026-06-16
+---
 
-Deploy Hermes Agent as a container. Identical behavior on your laptop, a cloud VPS, or a CI/CD pipeline. No Python version conflicts, no dependency hell.
+# Docker Hermes Agent Setup — Reproducible Container Deployment
 
-## Prerequisites
+Deploy Hermes Agent as a Docker container for identical behavior on your laptop, a cloud VPS, or a CI/CD pipeline. No Python version conflicts, no dependency hell — just consistent, reproducible AI agent deployment. This Docker setup guide covers Compose configuration, volume management, MCP integration, and production hardening.
 
-```bash
-# Docker Engine 24+
-docker --version
+## Overview
 
-# Docker Compose (v2)
-docker compose version
-```
+Docker deployment is the most portable way to run Hermes Agent. The official `nousresearch/hermes-agent:latest` image ships with all dependencies pre-installed. Mount your config as a volume for persistence, set API keys as environment variables, and you're running in under 2 minutes.
+
+## How It Works
+
+| Component | Docker Approach |
+|---|---|
+| **Hermes binary** | Pre-installed in container image |
+| **Configuration** | Persistent named volume (`hermes_data`) |
+| **API keys** | Environment variables in `.env` file |
+| **Skills** | Mount local `./skills` directory (read-only) |
+| **Crons** | Stored in volume, survive restarts |
+| **MCP servers** | Run inside container, added via `docker compose exec` |
 
 ## Quick Start
 
 ```bash
 docker run -d --name hermes-agent \
   -v ~/.hermes:/home/hermes/.hermes \
-  -e OPENROUTER_API_KEY="your-key" \
+  -e OPENROUTER_API_KEY=*** \
   --restart unless-stopped \
   nousresearch/hermes-agent:latest
 ```
@@ -34,30 +47,18 @@ services:
     restart: unless-stopped
 
     volumes:
-      # Persistent config, profiles, skills, crons
       - hermes_data:/home/hermes/.hermes
-      # Optional: mount local skills for development
       - ./skills:/home/hermes/skills:ro
 
     environment:
-      # Model providers (use at least one)
       - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
       - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
       - DEEPSEEK_API_KEY=${DEEPSEEK_API_KEY:-}
       - OPENAI_API_KEY=${OPENAI_API_KEY:-}
-
-      # Profile and model
       - HERMES_PROFILE=${HERMES_PROFILE:-docker}
       - HERMES_DEFAULT_MODEL=${HERMES_DEFAULT_MODEL:-openrouter/anthropic/claude-sonnet-4}
-
-      # Optional: Telegram messaging
-      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN:-}
-      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID:-}
-
-      # Timezone
       - TZ=${TZ:-UTC}
 
-    # Expose if using web dashboard
     ports:
       - "127.0.0.1:8080:8080"
 
@@ -73,85 +74,40 @@ volumes:
     driver: local
 ```
 
-## .env File
-
-```bash
-# providers.env
-OPENROUTER_API_KEY=sk-or-v1-your-key-here
-ANTHROPIC_API_KEY=sk-ant-your-key-here
-HERMES_PROFILE=docker
-TZ=America/New_York
-```
-
 ## Launch
 
 ```bash
-# Create .env from template
-cp providers.env.example .env
-# Edit .env with your API keys
-
-# Start
+cp providers.env.example .env  # Edit with your API keys
 docker compose up -d
-
-# Check logs
 docker compose logs -f hermes
-
-# Verify
 docker compose exec hermes hermes doctor
 ```
 
-## Volume Mounts Explained
-
-| Mount | Purpose | Persistent? |
-|---|---|---|
-| `hermes_data:/home/hermes/.hermes` | Profiles, config, skills, crons | Yes |
-| `./skills:/home/hermes/skills:ro` | Custom skills (read-only) | Source of truth on host |
-
-Always mount `hermes_data` as a named volume or bind mount. Without it, all your profiles and crons vanish on container restart.
-
 ## Adding MCP Servers
 
-MCP servers run inside the container. Add them via `docker compose exec`:
-
 ```bash
-# Add CorpusIQ MCP
 docker compose exec hermes hermes mcp add corpusiq -- url https://mcp2.corpusiq.io/mcp
-
-# Add Honcho memory
 docker compose exec hermes hermes mcp add honcho -- npx mcp-remote https://mcp.honcho.dev \
-  --header "Authorization: Bearer your-token" \
-  --header "X-Honcho-Workspace-ID: your-workspace"
+  --header "Authorization: Bearer ***"
 ```
 
-## Crons and Persistence
+See the [MCP Integration Guide](/hermes/mcp/) for all available servers.
 
-Crons persist because `hermes_data` volume stores them:
+## Crons and Persistence
 
 ```bash
 docker compose exec hermes hermes cron create \
   --name "email-watch" \
-  --prompt "Check inbox. Summarize unread. Silent if empty." \
+  --prompt "Check inbox. Summarize unread." \
   --schedule "*/15 * * * *"
 ```
 
-Crons survive container restarts and image updates.
-
-## Docker on Different Hosts
-
-| Host | Notes |
-|---|---|
-| **Local laptop** | Good for development and testing |
-| **Cloud VPS** | Add `--restart unless-stopped` for 24/7 uptime |
-| **NAS / home server** | Mount large volumes for GBrain embeddings |
-| **CI/CD** | Ephemeral volumes; use for automated testing |
+Crons survive container restarts and image updates because they're stored in the `hermes_data` volume. Follow [cron design best practices](/hermes/best-practices/cron-design.md) for production-grade scheduling.
 
 ## Production Checklist
 
 ```bash
-# 1. Set restart policy
-docker compose up -d --restart unless-stopped
-
-# 2. Limit resource usage
+# 1. Resource limits
 # Add to docker-compose.yml:
 #   deploy:
 #     resources:
@@ -159,27 +115,87 @@ docker compose up -d --restart unless-stopped
 #         memory: 2G
 #         cpus: "2"
 
-# 3. Set up log rotation
-# Add to docker-compose.yml:
+# 2. Log rotation
 #   logging:
 #     driver: "json-file"
 #     options:
 #       max-size: "10m"
 #       max-file: "3"
 
-# 4. Monitor health
+# 3. Monitor health
 docker compose ps
 docker compose exec hermes hermes gateway status
 ```
 
-## Upgrading
+## Docker on Different Hosts
 
-```bash
-docker compose pull        # Get latest image
-docker compose up -d       # Recreate container
-docker compose exec hermes hermes --version  # Verify
-```
+| Host | Notes |
+|---|---|
+| **Local laptop** | Development and testing |
+| **Cloud VPS** | Add `--restart unless-stopped` for 24/7 |
+| **NAS / home server** | Mount large volumes for GBrain embeddings |
+| **CI/CD** | Ephemeral volumes for automated testing |
+
+## Benefits
+
+- **Reproducible**: Identical behavior everywhere
+- **No dependency conflicts**: Everything bundled in container
+- **Portable**: Same Compose file works on laptop, VPS, or CI/CD
+- **Persistent**: Named volumes survive updates and restarts
+- **Production-ready**: Health checks, restart policies, log rotation built in
+
+## FAQ
+
+### Do I need to rebuild the Docker image for updates?
+No — `docker compose pull` fetches the latest image from Docker Hub. Your config, skills, and crons persist in the mounted volume.
+
+### Can I run GPU-accelerated models in Docker?
+Yes, if the host has an NVIDIA GPU and the NVIDIA Container Toolkit installed. Pass `--gpus all` to `docker run` or add `deploy.resources.reservations.devices` in Compose.
+
+### How do I add custom skills to Docker Hermes?
+Mount your skills directory: `- ./skills:/home/hermes/skills:ro`. New skills are immediately available. See the [custom skills guide](/hermes/skills/creating-skills.md).
+
+## Related Pages
+
+- [Hermes Agent Setup Overview](/hermes/setup/) — All platform options
+- [Cloud VPS Setup](cloud-vps.md) — Docker on cloud
+- [Gaming PC Setup](gaming-pc.md) — Docker with GPU passthrough
+- [MCP Integration Guide](/hermes/mcp/) — Connect tools inside containers
+- [Creating Custom Skills](/hermes/skills/creating-skills.md) — Mount skills in Docker
 
 ---
 
 *Next: [Cloud VPS Setup](cloud-vps.md) · [Infrastructure Overview](/hermes/infrastructure/)*
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need to rebuild the Docker image for Hermes Agent updates?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — 'docker compose pull' fetches the latest image from Docker Hub. Your config, skills, and crons persist in the mounted named volume, surviving container recreation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I run GPU-accelerated models with Docker Hermes Agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if the Docker host has an NVIDIA GPU and NVIDIA Container Toolkit installed. Pass '--gpus all' to docker run or add deploy.resources.reservations.devices in docker-compose.yml."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I add custom skills to Docker Hermes Agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mount your skills directory as a read-only volume: './skills:/home/hermes/skills:ro'. New skills are immediately available to the running container."
+      }
+    }
+  ]
+}
+</script>

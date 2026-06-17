@@ -1,37 +1,68 @@
-# Research Agent Configuration
+---
+title: Hermes Research Agent — Market Intelligence & Competitive Analysis
+description: Deploy an AI research agent for competitor monitoring, market intelligence, academic literature reviews, patent tracking, and news aggregation. Complete Hermes configuration blueprint.
+category: Agents
+tags:
+  - research-agent
+  - market-intelligence
+  - competitive-analysis
+  - literature-review
+  - ai-research-assistant
+last_updated: 2026-06-16
+---
 
-## Role Description
+# Hermes Research Agent — Autonomous Market Intelligence & Competitive Research
 
-The Research Agent is your autonomous market intelligence and competitive analysis engine. It monitors competitors, industry trends, academic literature, patent filings, news sources, and market data to deliver actionable insights — not just raw data dumps. Use it for competitive landscaping, market sizing, technology trend tracking, literature reviews, and strategic intelligence gathering. The agent synthesizes findings into structured briefs with cited sources, confidence levels, and recommended actions.
+The **Hermes Research Agent** is your **autonomous market intelligence engine**. It monitors competitors, industry trends, academic literature, patent filings, and news sources to deliver **actionable insights** — not raw data dumps. Use it for competitive landscaping, market sizing, technology trend tracking, literature reviews, and strategic intelligence gathering.
 
-Unlike a one-off web search, the Research Agent maintains persistent monitoring threads. It watches competitor domains for SEO changes, product launches, pricing updates, and hiring signals. It tracks keywords and topics across news, academic databases, and patent offices. It builds knowledge graphs connecting companies, technologies, and market trends so insights compound over time.
+Unlike one-off web searches, the Research Agent maintains **persistent monitoring threads** that build knowledge graphs connecting companies, technologies, and market trends so insights compound over time.
+
+## Overview
+
+**The Research Agent replaces manual competitive research.** Instead of periodically checking competitor websites, scanning news feeds, and manually compiling briefs, your team receives scheduled digests and alerts — competitor changes detected within hours, weekly market intelligence briefs with cited sources, and literature reviews with confidence ratings.
+
+| Capability | What It Does |
+|-----------|-------------|
+| **Competitive intel** | Competitor domain monitoring (SEO, traffic, backlinks), product change detection |
+| **Market intelligence** | Industry trend analysis, market sizing, TAM/SAM/SOM, funding and M&A tracking |
+| **Literature review** | Academic paper discovery, summarization, citation graphing, research gap identification |
+| **News monitoring** | Topic-based news aggregation, sentiment analysis, emerging narrative detection |
+| **Patent tracking** | Patent filing alerts by company or technology area, IP landscape mapping |
+
+> **See also:** [Agent Library Overview](/hermes/agents/) · [Marketing Agent](/hermes/agents/marketing-agent.md) · [Legal Agent](/hermes/agents/legal-agent.md)
+
+## How It Works
+
+1. **Connect research tools** — Ahrefs, Semrush, GA4, YouTube, Notion via [CorpusIQ connectors](/hermes/mcp/connectors/)
+2. **Define competitors and topics** — Store competitor list, tracked keywords, and research areas in canonical facts
+3. **Load the skills** — Competitive intel, market intelligence, literature review, news monitor, patent tracking
+4. **Schedule the crons** — 12-hour competitor checks, 4-hour news scans, weekly briefs, monthly patent sweeps
+5. **Receive synthesized briefs** — Structured reports with cited sources, confidence levels, and recommended actions
+
+## Key Features
+
+- **Competitor monitoring every 12 hours** — detects website changes, pricing updates, hiring signals
+- **Industry news aggregation** every 4 hours with sentiment analysis and relevance filtering
+- **Weekly market intelligence briefs** — market moves, competitor activity, emerging trends
+- **Monthly patent landscape updates** tracking filings by company and technology area
+- **Mid-week literature reviews** sweeping academic databases for new papers in your research areas
+- **Persistent knowledge graphs** connecting companies, technologies, and market trends
 
 ## Recommended Model
 
-**Claude Sonnet 4** or **DeepSeek V3** (with web search) — research demands strong synthesis capabilities and the ability to distinguish signal from noise across diverse sources. Claude's long context window is particularly valuable for literature reviews and multi-source synthesis. For ongoing monitoring and alert classification, **Claude Haiku** is sufficient.
-
-## Key Skills to Load
-
-- `competitive-intel` — Competitor domain monitoring (SEO, traffic, backlinks), product change detection, pricing tracking
-- `market-intelligence` — Industry trend analysis, market sizing estimates, TAM/SAM/SOM calculations, funding and M&A tracking
-- `literature-review` — Academic and technical paper discovery, summarization, citation graphing, research gap identification
-- `news-monitor` — Topic-based news aggregation, sentiment analysis, emerging narrative detection
-- `patent-tracking` — Patent filing alerts by company or technology area, IP landscape mapping
-- `brief-generator` — Synthesis of multi-source research into structured executive briefs with citations
+**Claude Sonnet 4** or **DeepSeek V3** (with web search) — strong synthesis across diverse sources. Claude's long context window is particularly valuable for literature reviews. Use **Claude Haiku** for ongoing monitoring and alert classification.
 
 ## MCP Connectors Needed
 
 | Connector | Purpose |
 |-----------|---------|
-| **Ahrefs / Semrush** | Competitor SEO, traffic, backlink, and keyword monitoring |
-| **Google Search Console** | Own-site SEO performance for competitive context |
+| **Ahrefs / Semrush** | Competitor SEO, traffic, backlink, keyword monitoring |
+| **Google Search Console** | Own-site SEO for competitive context |
 | **GA4** | Own-site traffic for market share context |
 | **YouTube** | Competitor video content, product demos, conference talks |
 | **Notion / Airtable** | Research repository, competitive matrices, brief archives |
 | **Slack** | Research alerts, brief distribution |
 | **Email** | Newsletter monitoring, alert digests |
-
-> **Note:** Web search, news APIs (NewsAPI, GDELT), academic databases (arXiv, Semantic Scholar, PubMed), patent databases (USPTO, WIPO, Google Patents), and financial data (Crunchbase, PitchBook) are accessed via custom skills and API integrations. Configure your API keys and search parameters in your Hermes profile.
 
 ## Sample Cron Schedule
 
@@ -63,14 +94,97 @@ hermes agent create research \
   --description "Market intelligence and competitive research agent"
 ```
 
-## Daily Workflow
-
-The agent starts each day by checking competitor websites for changes — new pages, pricing updates, job postings that signal strategic moves — and posts a digest to the `#research` Slack channel. Throughout the day it monitors news sources for your tracked topics and companies, filtering noise and flagging only relevant developments. On Monday mornings it delivers a comprehensive weekly brief covering market moves, competitor activity, and emerging trends with cited sources and confidence ratings. Mid-week it sweeps academic databases for new papers in your research areas, summarizing key findings and methodology.
-
 ## Configuration Notes
 
-Define your competitor list, tracked topics, and research areas in canonical facts. The agent builds persistent monitoring threads — the longer it runs, the better its change detection becomes. Configure which sources to prioritize and which to deprioritize. Set your brief format preferences (executive summary first, detailed analysis, source appendix). Define citation standards.
+- Define **competitor list, tracked topics, and research areas** in canonical facts
+- The agent builds **persistent monitoring threads** — the longer it runs, the better its detection
+- Configure **source prioritization** — which sources matter most for your industry
+- Set **brief format preferences**: executive summary first, detailed analysis, source appendix
+- Define **citation standards** for all research outputs
 
 ## Extending
 
-Add `sentiment-tracking` that monitors brand and competitor sentiment across social media and news. Integrate with LinkedIn Sales Navigator for B2B intelligence. Add `technology-radar` for tracking emerging tech trends. Build a `due-diligence` skill for company and market research supporting investment or partnership decisions.
+- Add `sentiment-tracking` monitoring brand and competitor sentiment across social and news
+- Integrate with **LinkedIn Sales Navigator** for B2B intelligence
+- Add `technology-radar` tracking emerging tech trends
+- Build a `due-diligence` skill for company and market research supporting investment decisions
+
+## FAQ
+
+### What does the Hermes Research Agent do?
+
+The **Hermes Research Agent** autonomously monitors competitors, tracks industry trends, aggregates news, reviews academic literature, and tracks patent filings — synthesizing findings into structured briefs with cited sources, confidence levels, and recommended actions.
+
+### How does competitor monitoring work?
+
+The agent checks competitor websites **every 12 hours** for changes — new pages, pricing updates, job postings signaling strategic moves, SEO changes, and content additions. Changes are posted as a digest with context about what changed and why it matters.
+
+### How is the research agent different from a web search?
+
+Unlike a one-off web search, the Research Agent maintains **persistent monitoring threads**. It builds knowledge graphs connecting companies, technologies, and market trends over time. Changes are detected and contextualized against historical patterns — not just surfaced as raw results.
+
+### What types of research briefs does the agent produce?
+
+The agent produces **competitive intelligence briefs, market intelligence summaries, literature reviews, patent landscape maps, and news digests** — all with cited sources, confidence levels, and recommended actions formatted for executive consumption.
+
+### Can the agent track academic research?
+
+Yes. The **literature review skill** sweeps academic databases (arXiv, Semantic Scholar, PubMed) for new papers in your research areas, summarizes key findings and methodology, graphs citations to identify influential work, and flags research gaps for exploration.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does the Hermes Research Agent do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Hermes Research Agent autonomously monitors competitors, tracks industry trends, reviews academic literature, and tracks patents — synthesizing findings into structured briefs with cited sources and confidence levels."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does competitor monitoring work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The agent checks competitor websites every 12 hours for changes — new pages, pricing updates, hiring signals, SEO changes — and posts a digest with context."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the research agent different from a web search?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unlike one-off searches, the Research Agent maintains persistent monitoring threads, builds knowledge graphs connecting companies and trends, and contextualizes changes against historical patterns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What types of research briefs does the agent produce?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The agent produces competitive intelligence briefs, market intelligence summaries, literature reviews, patent landscape maps, and news digests — all with cited sources and recommended actions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can the agent track academic research?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The literature review skill sweeps academic databases for new papers in your research areas, summarizes findings, graphs citations, and flags research gaps."
+      }
+    }
+  ]
+}
+</script>
+
+## Related Pages
+
+- [Agent Library — All 9 Role Configurations](/hermes/agents/)
+- [Marketing Agent — SEO & Competitive Analysis](/hermes/agents/marketing-agent.md)
+- [Legal Agent — Regulatory & Compliance Research](/hermes/agents/legal-agent.md)
+- [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
+- [Ahrefs Connector — SEO & Backlink Data](/hermes/mcp/connectors/)
+- [Cron Scheduling Guide](/hermes/governance/scheduling/)

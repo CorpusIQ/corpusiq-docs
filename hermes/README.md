@@ -1,3 +1,16 @@
+---
+title: Hermes Agent Production Knowledge Repository — Deploy Autonomous AI Agents
+description: Everything the official Hermes docs don't cover. Production-tested patterns from 1,200+ hours of autonomous operations: 6-layer architecture, 133+ skills, 38 crons, 6 memory systems, 37+ MCP connectors.
+category: Documentation
+tags:
+  - hermes-agent
+  - autonomous-agents
+  - production-deployment
+  - ai-agent-architecture
+  - mcp-ecosystem
+last_updated: 2026-06-16
+---
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/banner.png" alt="Hermes Agent" width="600">
 </p>
@@ -591,6 +604,102 @@ If you're building production AI agents with Hermes, this is your field manual. 
 - **Actively maintained** — Updated as the ecosystem evolves.
 
 **[Star this repo](https://github.com/CorpusIQ/corpusiq-docs)** if you want the definitive Hermes resource to exist.
+
+---
+
+## FAQ
+
+### What is the Hermes Agent Production Knowledge Repository?
+
+The **Hermes Agent Production Knowledge Repository** is the definitive field manual for running autonomous AI agents in production. Drawn from 1,200+ hours of real 24/7 deployment on DGX Spark + Mac Mini M4, it covers architecture, memory systems, skills, MCP integrations, cron scheduling, and deployment patterns — everything the [official Hermes docs](https://hermes-agent.nousresearch.com/docs/) don't cover.
+
+### How do I deploy Hermes Agent in production?
+
+Follow the [Quick Start guide](#-quick-start) for a 15-minute production setup: install Hermes, initialize a profile, set up persistent memory (Honcho/GBrain/memcore-cloud), add MCP connectors via [CorpusIQ](/hermes/mcp/connectors/), and deploy your first autonomous cron. See the [Architecture section](#-architecture) for the full 6-layer model.
+
+### What hardware and infrastructure does this deployment use?
+
+The documented production deployment runs on **NVIDIA DGX Spark** (primary compute, inference, 96+ skills, 21 cron jobs) and **Apple Mac Mini M4** (worker node, browser automation, social publishing). Multi-machine SSH orchestration is zero-config with Hermes profiles. See [deployment patterns](#-deployment) for the full architecture.
+
+### How many crons and skills does the production deployment run?
+
+The deployment runs **38 production crons** across 11 categories (email ops, social publishing, content ops, community engagement, research, governance, memory, growth, job search, GitHub, release monitoring) and **73+ executable skills** across marketing, development, operations, content, and governance.
+
+### How do I contribute or submit a resource to the ecosystem?
+
+**[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** — takes 60 seconds. We accept Hermes skills, MCP servers, plugins, tools, UI/dashboards, deployment guides, tutorials, benchmarks, and research. Every submission reviewed within 48 hours and added to the [ecosystem directory](/hermes/ecosystem.md) with full submitter credit.
+
+### What's the difference between this repository and the official Hermes docs?
+
+The [official docs](https://hermes-agent.nousresearch.com/docs/) tell you **what** each feature does. This repository tells you **how** to run a production autonomous agent — covering memory stack architecture, cron scheduling patterns, multi-machine deployment, skill marketplace integration, content operations at scale, and governance systems. Official docs = reference. This repo = field manual.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Hermes Agent Production Knowledge Repository?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The definitive field manual for running autonomous AI agents in production, drawn from 1,200+ hours of real 24/7 deployment covering architecture, memory, skills, MCP, cron scheduling, and deployment patterns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I deploy Hermes Agent in production?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Follow the Quick Start guide: install Hermes, initialize a profile, set up persistent memory, add MCP connectors via CorpusIQ, and deploy your first autonomous cron. See Architecture for the full 6-layer model."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What hardware and infrastructure does this deployment use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The production deployment runs on NVIDIA DGX Spark (primary compute, 96+ skills) and Apple Mac Mini M4 (worker, browser automation). Multi-machine SSH orchestration is zero-config with Hermes profiles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many crons and skills does the production deployment run?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The deployment runs 38 production crons across 11 categories and 73+ executable skills across marketing, development, operations, content, and governance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I contribute or submit a resource to the ecosystem?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Submit a repo in 60 seconds via the submission form. Accepted repos are added to the ecosystem directory with full submitter credit within 48 hours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between this repository and the official Hermes docs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Official docs tell you what each feature does. This repo tells you how to run a production autonomous agent: memory architecture, cron patterns, multi-machine deployment, content ops at scale, and governance."
+      }
+    }
+  ]
+}
+</script>
+
+## Related Pages
+
+- [Hermes Documentation Index — Complete Reference](/hermes/index.md)
+- [Ecosystem Directory — 234+ Community Resources](/hermes/ecosystem.md)
+- [Agent Library — 9 Production Agent Blueprints](/hermes/agents/)
+- [Skills Catalog — 133+ Production Skills](/hermes/skills/catalog/)
+- [Cron Scheduling — 38 Production Cron Reference](/hermes/governance/scheduling/)
+- [Architecture — 6-Layer Production Model](/hermes/architecture/)
+- [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
+- [Community Contributors — Join the Directory](/hermes/contributors.md)
 
 ---
 
