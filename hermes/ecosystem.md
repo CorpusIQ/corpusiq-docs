@@ -1,13 +1,13 @@
 ---
 title: Hermes Ecosystem — Complete Resource Directory
-description: The definitive directory of Hermes Agent resources — 220+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
+description: The definitive directory of Hermes Agent resources — 254+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
 ---
 
 # Hermes Ecosystem — Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 234 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 254 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 16, 2026 · **Repos indexed:** 234 · **Categories:** 18
+> **Last updated:** June 16, 2026 · **Repos indexed:** 254 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -21,16 +21,16 @@ The most comprehensive directory of Hermes Agent resources in existence. 234 rep
 | [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
 | [Community & Awesome Lists](#-community--awesome-lists) | 12 | [↓](#-community--awesome-lists) |
 | [UI & Dashboards](#-ui--dashboards) | 10 | [↓](#-ui--dashboards) |
-| [Memory & Knowledge](#-memory--knowledge) | 14 | [↓](#-memory--knowledge) |
+| [Memory & Knowledge](#-memory--knowledge) | 15 | [↓](#-memory--knowledge) |
 | [MCP & Integrations](#-mcp--integrations) | 18 | [↓](#-mcp--integrations) |
-| [Skills & Plugins](#-skills--plugins) | 32 | [↓](#-skills--plugins) |
-| [Tools & Utilities](#-tools--utilities) | 17 | [↓](#-tools--utilities) |
+| [Skills & Plugins](#-skills--plugins) | 40 | [↓](#-skills--plugins) |
+| [Tools & Utilities](#-tools--utilities) | 25 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 12 | [↓](#-orchestration-multi-agent--swarms) |
+| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 13 | [↓](#-orchestration-multi-agent--swarms) |
 | [Deployment & Infrastructure](#-deployment--infrastructure) | 14 | [↓](#-deployment--infrastructure) |
 | [Security & Governance](#-security--governance) | 5 | [↓](#-security--governance) |
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
-| [Content & Media](#-content--media) | 6 | [↓](#-content--media) |
+| [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
 | [Platform-Specific](#-platform-specific) | 10 | [↓](#-platform-specific) |
 | [Domain Applications](#-domain-applications) | 15 | [↓](#-domain-applications) |
 | [Forks & Derivatives](#-forks--derivatives) | 4 | [↓](#-forks--derivatives) |
@@ -261,7 +261,7 @@ Curated resources for OpenClaw (Hermes predecessor) with native Hermes migration
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 36+ pages, 220+ repos indexed, 133+ skills cataloged, 37+ MCP connectors, 38-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 36+ pages, 254+ repos indexed, 133+ skills cataloged, 37+ MCP connectors, 38-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture/) · [Knowledge →](/hermes/knowledge/) · [Crons →](/hermes/governance/scheduling/) · [MCP →](/hermes/mcp/)
 
@@ -452,6 +452,16 @@ Self-evolving memory with cross-session context injection. Auto-injects relevant
 Peer memory and identity platform. Conversation continuity, semantic search, peer modeling. MCP-native integration with Hermes.
 
 **Related:** [Knowledge Architecture →](/hermes/knowledge/) · [MCP Integration →](/hermes/mcp/)
+
+---
+
+### cheats1314/cc-memory-arch
+⭐ **1** · [github.com/cheats1314/cc-memory-arch](https://github.com/cheats1314/cc-memory-arch)
+
+Three-tier memory architecture inspired by Hermes Agent — global memory → topic-level memory → project-level memory with hierarchical knowledge organization. Scalable memory design pattern for AI agents handling complex, multi-domain workflows with clear context boundaries and progressive knowledge refinement.
+
+**Status:** Experimental  
+**Key capabilities:** Three-tier memory, hierarchical architecture, global-topic-project model, context boundaries, memory design patterns
 
 ---
 
@@ -1314,6 +1324,86 @@ pgvector semantic memory plugin for Hermes. PostgreSQL-backed vector memory for 
 
 ---
 
+### ewkeee/hermes-social-skills
+⭐ **0** · `Python` · [github.com/ewkeee/hermes-social-skills](https://github.com/ewkeee/hermes-social-skills)
+
+Chinese social media content automation skillpack for Hermes Agent — voice modeling, AI-powered ideation, automated writing, and cross-platform social posting. Streamline your Xiaohongshu, Weibo, and Douyin content workflow with agent-driven content creation.
+
+**Status:** Beta  
+**Key capabilities:** Social media automation, Chinese platforms, voice cloning, AI content writing, multi-platform posting
+
+---
+
+### baipai012-lang/xhs-hot-topic-to-post
+⭐ **0** · `Python` · [github.com/baipai012-lang/xhs-hot-topic-to-post](https://github.com/baipai012-lang/xhs-hot-topic-to-post)
+
+End-to-end Xiaohongshu (RED) hot topic content pipeline — tracks trending topics on Xiaohongshu in real-time, generates AI-powered content drafts, and publishes directly to the platform. Closing the loop from trend discovery to content publishing for Hermes-powered social media automation.
+
+**Status:** Beta  
+**Key capabilities:** Xiaohongshu trending, hot topic tracking, AI content generation, social publishing pipeline, RED platform
+
+---
+
+### charlieaiworker/telegram-topic-setup-skill
+⭐ **0** · `Python` · [github.com/charlieaiworker/telegram-topic-setup-skill](https://github.com/charlieaiworker/telegram-topic-setup-skill)
+
+Telegram forum topic bootstrap skill for Hermes Agent — automatically initializes workspace memory files and project folder structures when a new Telegram forum topic is created. Keeps agent context organized per-topic with zero manual setup, ideal for topic-based agent workspaces.
+
+**Status:** Beta  
+**Key capabilities:** Telegram topics, workspace initialization, memory bootstrapping, project scaffolding, topic organization
+
+---
+
+### lijeuki/Hermes-Lark-Topic-Manager
+⭐ **0** · `Python` · [github.com/lijeuki/Hermes-Lark-Topic-Manager](https://github.com/lijeuki/Hermes-Lark-Topic-Manager)
+
+Feishu/Lark group chat management skill for Hermes Agent — threaded discussion tracking, message organization, and group chat management. Bring Hermes-powered AI intelligence to your Feishu team collaboration spaces with automated topic threading.
+
+**Status:** Beta  
+**Key capabilities:** Feishu integration, Lark platform, group chat management, threaded discussions, team collaboration
+
+---
+
+### huxiaoqiao/flint-hot-topic-tracker-skill
+⭐ **0** · `Python` · [github.com/huxiaoqiao/flint-hot-topic-tracker-skill](https://github.com/huxiaoqiao/flint-hot-topic-tracker-skill)
+
+Weibo trending and Toutiao headline tracker skill for Hermes Agent — monitors Weibo hot search rankings, Toutiao top stories, and Baidu index rising topics in real-time. Social media trend intelligence for content creators, marketers, and brand strategists.
+
+**Status:** Beta  
+**Key capabilities:** Weibo trending, Toutiao headlines, Baidu index, hot topic monitoring, Chinese social trends
+
+---
+
+### huxiaoqiao/dusk-hot-topic-tracker-skill
+⭐ **0** · `Python` · [github.com/huxiaoqiao/dusk-hot-topic-tracker-skill](https://github.com/huxiaoqiao/dusk-hot-topic-tracker-skill)
+
+Multi-platform hot topic tracker skill for Hermes Agent — aggregates trending content from multiple Chinese social platforms into a unified trend dashboard. Discover what's hot across platforms before it peaks, enabling timely content creation.
+
+**Status:** Beta  
+**Key capabilities:** Multi-platform tracking, hot topic aggregation, trend discovery, cross-platform monitoring, content timing
+
+---
+
+### huxiaoqiao/cove-hot-topic-tracker-skill
+⭐ **0** · `Python` · [github.com/huxiaoqiao/cove-hot-topic-tracker-skill](https://github.com/huxiaoqiao/cove-hot-topic-tracker-skill)
+
+Multi-platform hot topic tracking and content intelligence skill for Hermes Agent — continuous monitoring of trending topics across social media platforms with AI-powered trend analysis and content opportunity scoring. Stay ahead of viral trends across multiple Chinese platforms.
+
+**Status:** Beta  
+**Key capabilities:** Hot topic tracking, trend intelligence, content opportunity scoring, multi-platform monitoring, viral trend detection
+
+---
+
+### Atemndobs/hermes-plugins-hub
+⭐ **1** · [github.com/Atemndobs/hermes-plugins-hub](https://github.com/Atemndobs/hermes-plugins-hub)
+
+Community directory for Hermes Agent plugins — auto-indexed from GitHub topic tags for seamless plugin discovery. Search, browse, and discover community-built Hermes Agent extensions, skills, and integrations in one centralized, searchable hub.
+
+**Status:** Beta  
+**Key capabilities:** Plugin discovery, community directory, GitHub-indexed, plugin search, extension catalog
+
+---
+
 ## 🛠 Tools & Utilities
 
 Development tools, utilities, and platforms for the Hermes ecosystem.
@@ -1508,6 +1598,86 @@ Code graph and intelligence engine that cuts AI coding agent token usage up to 5
 
 ---
 
+### ivan-szz/hermes-newsletter-script
+⭐ **1** · `Rust` · [github.com/ivan-szz/hermes-newsletter-script](https://github.com/ivan-szz/hermes-newsletter-script)
+
+Zero-config Rust CLI for aggregating tech news from 11 sources with intelligent topic filtering — Hacker News, Reddit, Dev.to, Lobsters, and more. Compiles AI-curated newsletters with topic-aware article selection and formatting, ready for Hermes Agent integration into daily content workflows.
+
+**Status:** Beta  
+**Key capabilities:** Tech news aggregation, 11 sources, Rust CLI, topic filtering, AI newsletter generation
+
+---
+
+### thiswind/hermes-cursor-compressor
+⭐ **1** · `Python` · [github.com/thiswind/hermes-cursor-compressor](https://github.com/thiswind/hermes-cursor-compressor)
+
+Cursor-style context compression for Hermes Agent — fixes topic drift with minimal summarization that preserves semantic coherence. Intelligently compresses conversation context to reduce token consumption while maintaining task-relevant focus across long-running agent sessions and multi-topic conversations.
+
+**Status:** Beta  
+**Key capabilities:** Context compression, topic drift prevention, token optimization, semantic summarization, Cursor-style compression
+
+---
+
+### srmdn/hermes-agent-kit
+⭐ **0** · `Python` · [github.com/srmdn/hermes-agent-kit](https://github.com/srmdn/hermes-agent-kit)
+
+Production hardening pack for Hermes Agent — per-topic model routing, intelligent fallback chains, rate limiting, cost control, and operational guardrails. Essential toolkit for running Hermes reliably in production environments at scale with built-in reliability patterns.
+
+**Status:** Beta  
+**Key capabilities:** Production hardening, model routing, fallback chains, rate limiting, cost control, per-topic routing
+
+---
+
+### 0xNekr/hermes-topic-router
+⭐ **0** · `Python` · [github.com/0xNekr/hermes-topic-router](https://github.com/0xNekr/hermes-topic-router)
+
+Auto-route LLM models per chat topic for Hermes Agent — one bot, multiple models, zero manual switching. Intelligently selects the optimal language model based on conversation topic classification, balancing cost efficiency and capability automatically across all your agent conversations.
+
+**Status:** Beta  
+**Key capabilities:** Topic-based routing, model selection, automatic switching, multi-model orchestration, cost optimization
+
+---
+
+### robbyczgw-cla/hermes-topic-monitor
+⭐ **2** · `Python` · [github.com/robbyczgw-cla/hermes-topic-monitor](https://github.com/robbyczgw-cla/hermes-topic-monitor)
+
+Proactive topic monitoring with AI importance scoring on a schedule — continuously scans conversation topics and surfaces high-priority items before they're missed. Scheduled intelligence that keeps your Hermes Agent focused on what matters most across all active discussions.
+
+**Status:** Beta  
+**Key capabilities:** Topic monitoring, AI importance scoring, scheduled intelligence, proactive alerts, priority surfacing
+
+---
+
+### jiyangnan/weixi-hermes-autonomous-loop
+⭐ **0** · `Python` · [github.com/jiyangnan/weixi-hermes-autonomous-loop](https://github.com/jiyangnan/weixi-hermes-autonomous-loop)
+
+Autonomous agent loop system with episodic memory, FAISS vector store, and topic drift detection for Hermes Agent. Self-correcting agent execution that notices when conversations veer off-topic and re-anchors to core objectives using vector-based semantic similarity detection.
+
+**Status:** Beta  
+**Key capabilities:** Autonomous loop, episodic memory, FAISS vector store, topic drift detection, self-correction
+
+---
+
+### mz-club/agent-sessions-classify
+⭐ **0** · `Python` · [github.com/mz-club/agent-sessions-classify](https://github.com/mz-club/agent-sessions-classify)
+
+Classify, rename, and tidy Hermes Agent session titles into coherent topic groups — automated session organization that turns messy chat histories into a well-structured, searchable knowledge base. Perfect for agents handling dozens of concurrent conversations across multiple topics.
+
+**Status:** Beta  
+**Key capabilities:** Session classification, topic grouping, auto-renaming, session organization, knowledge structuring
+
+---
+
+### lecharles/hermes-framework-lab
+⭐ **0** · `Python` · [github.com/lecharles/hermes-framework-lab](https://github.com/lecharles/hermes-framework-lab)
+
+Running and evaluating Hermes Agent in Telegram topic-based lanes — experimentation framework for testing agent performance across isolated discussion threads. Benchmark agent behavior in structured topic environments for production tuning and capability evaluation.
+
+**Status:** Beta  
+**Key capabilities:** Telegram topic lanes, agent evaluation, performance benchmarking, experimental framework, topic isolation
+
+---
+
 ## 🎯 Orchestration, Multi-Agent & Swarms
 
 Frameworks and patterns for coordinating multiple agents.
@@ -1605,6 +1775,16 @@ AI-native SDLC with code graph. Full software development lifecycle powered by a
 
 **Status:** Beta  
 **Key capabilities:** 17 agents, specialized roles, multi-agent coordination
+
+---
+
+### krutyshkin/telegram-agent-os
+⭐ **2** · `Python` · [github.com/krutyshkin/telegram-agent-os](https://github.com/krutyshkin/telegram-agent-os)
+
+Telegram-first multi-agent operating system for Hermes Agent — role-based bots, topic routing, skill integration, profile management, and built-in safety guardrails. A complete agent OS that turns Telegram into a multi-agent command center with production-grade safety, modular architecture, and scalable multi-bot coordination.
+
+**Status:** Beta  
+**Key capabilities:** Multi-agent OS, Telegram-native, role bots, topic routing, skill integration, safety guardrails, profile management
 
 ---
 
@@ -1907,6 +2087,26 @@ Help-first community engagement: 6x daily commenting, cross-platform monitoring,
 
 ---
 
+### locomoki/tomorrows-front-page
+⭐ **1** · `Python` · [github.com/locomoki/tomorrows-front-page](https://github.com/locomoki/tomorrows-front-page)
+
+Turn any topic into tomorrow's front page with MiroFish simulation — AI-powered front page generation that transforms trending topics into newspaper-style editorial layouts. Creative content generation skill for Hermes Agent that visualizes what matters as professional front pages with automated layout and typography.
+
+**Status:** Beta  
+**Key capabilities:** Front page generation, MiroFish simulation, topic visualization, newspaper layout, content creation
+
+---
+
+### Delibread0601/askaipods
+⭐ **2** · `TypeScript` · [github.com/Delibread0601/askaipods](https://github.com/Delibread0601/askaipods)
+
+Search AI podcast quotes by topic across Lex Fridman, Dwarkesh Patel, No Priors, Latent Space, and more — semantic search engine for AI podcast knowledge discovery. Discover expert insights by topic across the top AI and tech podcast ecosystem, Hermes-compatible for research workflows and content curation.
+
+**Status:** Beta  
+**Key capabilities:** AI podcast search, quote discovery, topic search, semantic podcast engine, Lex Fridman, Dwarkesh Patel
+
+---
+
 ## 🌏 Platform-Specific
 
 Chinese, Japanese, Korean, and other language-specific Hermes resources.
@@ -2178,15 +2378,15 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 220+ |
+| Total repos indexed | 254 |
 | Categories | 18 |
 | Official Nous Research repos | 4 |
 | Community awesome lists | 12 |
 | UI/Dashboard projects | 10 |
-| Memory systems | 14 |
+| Memory systems | 15 |
 | MCP integrations | 18 |
-| Skill collections & plugins | 32 |
-| Tools & utilities | 16 |
+| Skill collections & plugins | 40 |
+| Tools & utilities | 24 |
 | Research/benchmark projects | 12 |
 | Deployment & infra projects | 14 |
 | Domain applications | 15 |
@@ -2259,7 +2459,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 *Last updated: June 16, 2026 · [Star this repo →](https://github.com/CorpusIQ/corpusiq-docs) · Powered by CorpusIQ*
 
-> **📊 Ecosystem Stats:** 220+ repos · 18 categories · 1M+ community stars · 32 skill collections · 18 MCP integrations · 15 domain applications
+> **📊 Ecosystem Stats:** 254 repos · 18 categories · 1M+ community stars · 40 skill collections · 18 MCP integrations · 15 domain applications
 
 ---
 
@@ -2267,7 +2467,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence — **234+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence — **254+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 
@@ -2295,7 +2495,7 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
       "name": "What is the Hermes Ecosystem Directory?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The most comprehensive collection of Hermes Agent resources — 234+ repositories across 18 categories including tools, UIs, memory, MCP, skills, deployment, research, and domain applications."
+        "text": "The most comprehensive collection of Hermes Agent resources — 254+ repositories across 18 categories including tools, UIs, memory, MCP, skills, deployment, research, and domain applications."
       }
     },
     {
