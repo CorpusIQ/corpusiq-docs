@@ -1,3 +1,4 @@
 # Python bytecode cache (the validator script in scripts/ generates these)
 __pycache__/
 *.py[cod]
+site/
