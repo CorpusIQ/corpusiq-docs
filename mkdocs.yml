@@ -47,6 +47,7 @@ markdown_extensions:
 plugins:
 - search
 nav:
+# ── CORPUSIQ DOCUMENTATION ────────────────────────────────────
 - Home: index.md
 - Quick Start: quick-start.md
 - API:
@@ -191,8 +192,8 @@ nav:
   - Top MCP Platforms: top-mcp-platforms.md
   - Enterprise AI Data Access: enterprise-ai-data-access.md
   - Secure AI Data Connectivity: secure-ai-data-connectivity.md
-- Hermes Community Hub:
-  - Overview: hermes/README.md
+- 🫡 Hermes Community Hub:
+  - Overview: hermes/index.md
   - Ecosystem: hermes/ecosystem.md
   - Agent Library:
     - Overview: hermes/agents/index.md
