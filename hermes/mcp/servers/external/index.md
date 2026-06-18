@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 18, 2026 (cron sweep) · **Sources:** mcp.so (22,460 servers), mcpservers.org (9,181)
+> **Last updated:** June 18, 2026 (afternoon sweep) · **Sources:** mcp.so (22,460+ servers), mcpservers.org (9,181+ servers)
 
 ---
 
@@ -136,11 +136,17 @@ Autonomous remote job search — AI tools can search, filter, and retrieve the l
 ### Scribefy
 Extract timestamped YouTube transcripts, video search, metadata, and related-video tools. Works with Claude, Cursor, Windsurf, and any MCP client.
 
+### The Agent Times MCP ★ New ★ Featured
+#1 Agent News MCP on ClawHub & Smithery — real-time agent economy news, 6 tools, ed25519-signed articles, Bitcoin rewards for agent contributions. Streamable HTTP + JSON-RPC 2.0 at `theagenttimes.com/mcp`. Firehose, RSS, llms.txt feeds for agents. Essential for operators tracking the AI agent ecosystem in real time.
+
 ### Hacker News MCP ★ by NeCL
 Access Hacker News data for AI agents: top stories, story details, comments thread, full-text search via Algolia. No API key required — public HN API. Built for content research, trend monitoring, and prompt enrichment. By Neural Engineering & Cognitive Logic (neclco.com).
 
 ### NotebookLM MCP ★ New
 Let CLI agents (Claude, Cursor, Codex) chat directly with NotebookLM for zero-hallucination answers based on your own notebooks. Ground-truth research from Google's NotebookLM. `npx -y @pleaseprompto/notebooklm-mcp`
+
+### Paper Search MCP ★ 1.9k GitHub ★ New
+20+ academic sources for AI agents — arXiv, PubMed, Semantic Scholar, bioRxiv, medRxiv, Google Scholar, Crossref, OpenAlex, CORE, PMC, Europe PMC, dblp, OpenAIRE, HAL, SSRN, Unpaywall + optional Sci-Hub. OA-first fallback chain, MIT license, Python 3.10+. Free-first design — no API keys required. `pip install paper-search-mcp`. Essential for research-heavy operators and academic market intelligence.
 
 ### OpenSERP ★ New
 Multi-engine SERP extraction: Google, Yandex, Baidu, Bing, DuckDuckGo, Ecosia. Search results and URL data extraction. npm: `@openserp/mcp`
@@ -183,6 +189,26 @@ SEO research tools for AI agents: keyword research and metrics, SERP and local S
 
 ### Amap Maps (高德地图) ★ New
 AutoNavi Maps MCP — China's second-largest mapping platform. Location search, geocoding, directions, and POI data. Essential for China-market operators alongside Baidu Maps. Official 高德 integration.
+
+---
+
+## Commerce & E-Commerce
+
+### BuyWhere MCP ★ New
+First SEA e-commerce MCP server — real-time product search across 11M+ products in Singapore, SEA, and US markets. 6 tools: search_products, compare_prices, get_price, get_affiliate_link, get_catalog, get_product. Compatible with LangChain, LlamaIndex, CrewAI, Mastra + any MCP client. Free API key at buywhere.ai. `npx -y @buywhere/mcp-server`
+
+### Portkey Admin MCP ★ New
+150 tools across 18 domains for the Portkey AI Gateway — prompts, analytics, guardrails, API keys, virtual keys, users, workspaces, rate/usage limits. MIT license. ⚠ Maintenance mode post Palo Alto Networks acquisition (May 2026). Works end-to-end as of June 2026. `npx -y portkey-admin-mcp`
+
+---
+
+## Compliance & Regulatory
+
+### AIR Blackbox MCP Server ★ New
+EU AI Act compliance checker — checks 6 articles, HMAC-SHA256 tamper-evident audit trails, auto-remediation with working code fixes. August 2026 deadline ready. Essential for EU operators deploying AI systems. `pip install air-blackbox-mcp`
+
+### FeedOracle DORA OS ★ New
+EU DORA compliance evidence infrastructure — 50 MCP tools across 11 servers, ES256K-signed, blockchain-anchored evidence. July 2026 DORA deadline. For EU financial operators needing compliance-grade evidence automation.
 
 ---
 
@@ -290,6 +316,15 @@ Multi-agent task coordination MCP: shared task spine, decision log, and dead-end
 ### Nahook ★ New
 Manage and debug webhooks from your AI assistant. Test, inspect, and troubleshoot webhook endpoints without leaving your MCP client. Essential for operators building webhook-driven integrations and automation pipelines.
 
+### Human Browser ★ New
+Stealth cloud Chromium for AI agents — Patchright + Camoufox stealth engine, residential proxies, captcha solving behind one A2A endpoint. MCP server + stdio + remote HTTP. $1 free trial, pay-as-you-go. `npx -y humanbrowser`. Ideal for operators who need undetectable browser automation at scale.
+
+### MCPApp MCP Server ★ New
+Google Apps Script-based MCP network for Google Workspace — Gmail, Calendar, Sheets, Drive. MIT license, 49 GitHub stars, integrated with GASADK agent dev kit. Self-hosted on Google Apps Script. For operators who need lightweight, serverless MCP for Google Workspace without PortEden's enterprise firewall.
+
+### Atlassian Rovo MCP Server ★ New
+Atlassian remote MCP for Jira, Confluence — Streamable HTTP at `mcp.atlassian.com`. ⚠ SSE endpoint (`/v1/sse`) deprecates June 30, 2026 — migrate to new endpoint. For operators running Jira/Confluence who want AI agents integrated with their Atlassian stack.
+
 ---
 
 ## Productivity
@@ -308,6 +343,9 @@ Connect AI clients to Cal.com scheduling. Hosted endpoint at `mcp.cal.com` or lo
 
 ### Chipp MCP ★ Official
 Build, deploy, and monetize AI agents — "What Shopify did for ecommerce, Chipp does for AI agents."
+
+### Plane MCP Server ★ New
+Open-source project management (Plane.so) via MCP — 6 tools for listing projects, creating and updating issues, managing assignees. Self-hosted, requires Plane.so API key. Smithery auto-install available. `npx -y @kelvin6365/plane-mcp-server`. Ideal for operators using Plane.so for project management.
 
 ### Karea ★ New
 Extensive MCP tools so Claude Code, Cursor, and other MCP clients can create, edit, close, recap, and link dev tasks while coding. Jira linking, productivity recap. `npx -y karea-mcp`
@@ -499,6 +537,9 @@ MCP server exposing 70 tools spanning cognitive memory, working memory, sessions
 ### Agent Magnet ★ New
 Self-learning memory for AI tools — remembers user preferences and context across Claude, Cursor, and Codex with multi-parameter forgetting and cross-tool identity. Keeps your AI agents consistent across sessions and platforms. Ideal for operators who work across multiple MCP clients and want persistent, self-improving agent context.
 
+### Linksee Memory MCP ★ New
+Memory with drift detection for AI agents — detects context staleness and signals when agent memory needs refresh. For operators running multi-session agent workflows where context accuracy is critical. `npx -y linksee-memory`
+
 ---
 
 ## New This Week (June 18, 2026 — cron sweep)
@@ -515,6 +556,26 @@ Self-learning memory for AI tools — remembers user preferences and context acr
 | DesignForYou | Content Creation | On-brand design generation — logos, social posts, screenshots from 119 templates |
 | Frinus | Memory/Knowledge | 70 tools for cognitive memory, knowledge hierarchy, orchestration, training pipelines |
 | Agent Magnet | Memory/Knowledge | Self-learning cross-tool memory with multi-parameter forgetting |
+
+---
+
+## New This Week (June 18, 2026 — afternoon sweep)
+
+### 11 new servers from mcpservers.org All + mcp.so Latest
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| The Agent Times MCP ★ Featured | Content/Research | #1 Agent News MCP on ClawHub & Smithery — real-time agent economy news, 6 tools, ed25519-signed articles, Bitcoin rewards for agent contributions. Streamable HTTP + JSON-RPC 2.0 |
+| BuyWhere MCP | Commerce | First SEA e-commerce MCP — real-time product search across 11M+ products in Singapore, SEA, US. 6 tools: search, compare prices, affiliate links. Free API key. `npx -y @buywhere/mcp-server` |
+| Paper Search MCP ★ 1.9k GitHub | Content/Research | 20+ academic sources (arXiv, PubMed, Semantic Scholar, bioRxiv, etc.), OA-first fallback chain, MIT license. Free-first design. `pip install paper-search-mcp` |
+| Human Browser | Web Scraping | Stealth cloud Chromium for AI agents — Patchright + Camoufox stealth engine, residential proxies, captcha solving behind one A2A endpoint. $1 free trial. `npx -y humanbrowser` |
+| MCPApp MCP Server | Dev/Infra | Google Apps Script-based MCP network for Google Workspace (Gmail, Calendar). MIT license, 49 GitHub stars. Integrated with GASADK agent dev kit |
+| Plane MCP Server | Productivity | Open-source project management (Plane.so) via MCP — 6 tools: list projects, create issues, update issues, assignees. Self-hosted. `npx -y @kelvin6365/plane-mcp-server` |
+| Portkey Admin MCP | Dev/Infra | 150 tools across 18 domains for Portkey AI Gateway — prompts, analytics, guardrails, API keys, virtual keys. MIT license. ⚠ Maintenance mode post Palo Alto Networks acquisition |
+| AIR Blackbox MCP Server | Compliance | EU AI Act compliance checker — checks 6 articles, HMAC-SHA256 audit trails, auto-remediation. August 2026 deadline ready. `pip install air-blackbox-mcp` |
+| FeedOracle DORA OS | Compliance | EU DORA compliance evidence infrastructure — 50 MCP tools, 11 servers, ES256K-signed, blockchain-anchored. July 2026 deadline |
+| Atlassian Rovo MCP Server | Dev/Infra | Atlassian remote MCP for Jira/Confluence — Streamable HTTP. ⚠ SSE endpoint deprecating June 30, 2026 — migrate to new endpoint |
+| Linksee Memory MCP | Memory/Knowledge | Memory with drift detection for AI agents — detects context staleness and signals when agent memory needs refresh. For operators running multi-session agent workflows |
 
 ---
 
@@ -744,8 +805,8 @@ Self-learning memory for AI tools — remembers user preferences and context acr
 - **Official servers:** 40+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, etc.)
-- **New this cycle (June 18):** 8 new MCP servers from mcp.so Latest tab
-- **Cumulative since June 9:** 187 MCP servers catalogued across 11 sweeps
+- **New this cycle (June 18 afternoon):** 11 new MCP servers from mcpservers.org + mcp.so
+- **Cumulative since June 9:** 198 MCP servers catalogued across 12 sweeps
 
 ---
 
