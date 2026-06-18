@@ -1,13 +1,13 @@
 ---
 title: Hermes Ecosystem — Complete Resource Directory
-description: The definitive directory of Hermes Agent resources — 326+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
+description: The definitive directory of Hermes Agent resources — 344+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
 ---
 
 # Hermes Ecosystem — Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 326 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 344 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 18, 2026 · **Repos indexed:** 327 · **Categories:** 18
+> **Last updated:** June 18, 2026 · **Repos indexed:** 345 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -19,20 +19,20 @@ The most comprehensive directory of Hermes Agent resources in existence. 326 rep
 |----------|-------|------|
 | [Core & Official](#-core--official) | 5 | [↓](#-core--official) |
 | [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
-| [Community & Awesome Lists](#-community--awesome-lists) | 31 | [↓](#-community--awesome-lists) |
+| [Community & Awesome Lists](#-community--awesome-lists) | 33 | [↓](#-community--awesome-lists) |
 | [UI & Dashboards](#-ui--dashboards) | 11 | [↓](#-ui--dashboards) |
 | [Memory & Knowledge](#-memory--knowledge) | 18 | [↓](#-memory--knowledge) |
 | [MCP & Integrations](#-mcp--integrations) | 24 | [↓](#-mcp--integrations) |
-| [Skills & Plugins](#-skills--plugins) | 58 | [↓](#-skills--plugins) |
-| [Tools & Utilities](#-tools--utilities) | 42 | [↓](#-tools--utilities) |
+| [Skills & Plugins](#-skills--plugins) | 59 | [↓](#-skills--plugins) |
+| [Tools & Utilities](#-tools--utilities) | 50 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 19 | [↓](#-orchestration-multi-agent--swarms) |
-| [Deployment & Infrastructure](#-deployment--infrastructure) | 14 | [↓](#-deployment--infrastructure) |
+| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 22 | [↓](#-orchestration-multi-agent--swarms) |
+| [Deployment & Infrastructure](#-deployment--infrastructure) | 16 | [↓](#-deployment--infrastructure) |
 | [Security & Governance](#-security--governance) | 5 | [↓](#-security--governance) |
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
 | [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
 | [Platform-Specific](#-platform-specific) | 10 | [↓](#-platform-specific) |
-| [Domain Applications](#-domain-applications) | 16 | [↓](#-domain-applications) |
+| [Domain Applications](#-domain-applications) | 18 | [↓](#-domain-applications) |
 | [Forks & Derivatives](#-forks--derivatives) | 4 | [↓](#-forks--derivatives) |
 | [Guides](#-guides) | 2 | [↓](#-guides) |
 
@@ -435,6 +435,26 @@ Comprehensive Claude Code toolkit: 135 agents, 35 curated skills, 42 commands, 1
 
 **Key capabilities:** 135 agents, 35 skills, 42 commands, 176+ plugins, cross-compatible discovery, curated toolkit, Hermes-compatible
 **Related:** [Skills Catalog →](/hermes/skills/catalog/) · [Plugins →](/hermes/plugins/)
+
+---
+
+### multica-ai/andrej-karpathy-skills
+⭐ **178,262** · [github.com/multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
+
+Andrej Karpathy AI skills collection — a comprehensive curated set of AI development skills, patterns, and methodologies from the legendary AI educator, researcher, and former Tesla Autopilot/OpenAI leader. Covers deep learning architecture design, neural network training methodology, practical AI engineering patterns, data curation strategies, and production ML deployment best practices refined through years of leading-edge AI research and education. Drop-in compatible with Hermes Agent for expert-level AI development capabilities backed by Karpathy's battle-tested approaches to building intelligent systems that work in the real world.
+
+**Key capabilities:** Andrej Karpathy skills, deep learning patterns, neural network design, training methodology, AI engineering, production ML, Hermes-compatible
+**Related:** [Skills Catalog →](/hermes/skills/catalog/)
+
+---
+
+### heilcheng/awesome-agent-skills
+⭐ **5,670** · [github.com/heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills)
+
+Awesome Agent Skills — a curated collection of agent skills and capabilities for AI coding agents across Claude Code, Cursor, Codex, Hermes Agent, and other platforms. Community-driven resource cataloging production-grade skills with compatibility ratings, installation guides, and real-world usage examples. An essential discovery hub for finding battle-tested agent skills that extend autonomous agent capabilities across development, operations, content creation, and domain-specific workflows.
+
+**Key capabilities:** Curated agent skills, multi-platform, community-driven, compatibility ratings, skill discovery, Hermes-compatible
+**Related:** [Skills Catalog →](/hermes/skills/catalog/)
 
 ---
 
@@ -1879,6 +1899,16 @@ Community-driven Claude Code skills — a growing collection of practical, peer-
 
 ---
 
+### nextlevelbuilder/ui-ux-pro-max-skill
+⭐ **93,501** · [github.com/nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
+
+UI/UX Pro Max skill for AI agents — a comprehensive design and prototyping toolkit that transforms autonomous agents into full-stack design partners. Covers design systems architecture, component library generation, accessibility pattern enforcement, responsive layout design, user research synthesis, design token management, and Figma-to-code workflows. Drop-in compatible with Hermes Agent for professional-grade UI/UX design capabilities including automated design audits, accessibility compliance checking, and production-ready component code generation across React, Vue, and Svelte frameworks.
+
+**Key capabilities:** UI/UX design skill, design systems, accessibility patterns, component architecture, Figma integration, responsive design, Hermes-compatible
+**Related:** [Skills Catalog →](/hermes/skills/catalog/)
+
+---
+
 ## 🛠 Tools & Utilities
 
 Development tools, utilities, and platforms for the Hermes ecosystem.
@@ -2326,6 +2356,86 @@ AI-powered coding assistant and code generation tool — intelligent code comple
 
 ---
 
+### safishamsi/graphify
+⭐ **69,067** · [github.com/safishamsi/graphify](https://github.com/safishamsi/graphify)
+
+Graphify — advanced graph visualization and analysis platform for AI agent ecosystems. Create interactive knowledge graphs, dependency visualizations, network topology maps, and relational data diagrams that illuminate agent workflows, code architectures, and data relationships. Generates publication-quality interactive visualizations with D3.js and WebGL rendering. Essential for Hermes Agent users building complex systems — map agent decision trees, skill dependency chains, MCP connection graphs, and multi-agent communication topologies in real-time with drag-and-drop exploration, zoom/pan navigation, and export to PNG, SVG, and interactive HTML.
+
+**Key capabilities:** Graph visualization, knowledge graphs, dependency mapping, network topology, D3.js rendering, interactive exploration, Hermes-compatible
+**Related:** [Architecture →](/hermes/architecture/)
+
+---
+
+### vercel-labs/agent-browser
+⭐ **36,372** · [github.com/vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)
+
+Agent Browser by Vercel — production-grade browser automation agent for autonomous web interaction. Headless browser agent built on Playwright capable of navigating complex websites, filling multi-step forms, extracting structured data from dynamic pages, authenticating with login flows, handling JavaScript-rendered content, and executing multi-page web workflows. First-class integration with Hermes Agent for automated web scraping, form submission, e2e testing, and any browser-based task. Powers agent-driven web research, data collection, competitive analysis, and UI testing pipelines with enterprise reliability from Vercel's infrastructure team.
+
+**Key capabilities:** Browser automation, Vercel, web interaction, Playwright, form automation, data extraction, Hermes-compatible
+**Related:** [Tools & Utilities →](#-tools--utilities)
+
+---
+
+### Panniantong/Agent-Reach
+⭐ **34,227** · [github.com/Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)
+
+Agent Reach — multi-platform agent communication and reach platform that extends autonomous agent capabilities across messaging platforms, web interfaces, and API endpoints. Provides a unified communication layer enabling Hermes Agent to interact through Discord, Telegram, Slack, WhatsApp, webhooks, REST APIs, and custom channels with consistent message formatting, attachment handling, and response routing. Built for production agent deployments requiring omnichannel presence — one agent, every platform, unified response handling with delivery guarantees and retry logic.
+
+**Key capabilities:** Multi-platform agent reach, messaging gateway, Discord/Telegram/Slack/WhatsApp, webhook integration, unified communication, Hermes-compatible
+**Related:** [Messaging Gateway →](/hermes/messaging/)
+
+---
+
+### simstudioai/sim
+⭐ **28,812** · [github.com/simstudioai/sim](https://github.com/simstudioai/sim)
+
+Sim — AI agent simulation and testing platform for creating controlled environments to test, train, and evaluate autonomous agents. Build realistic scenario simulations with configurable environments, synthetic users, and measurable outcomes. Run Hermes Agent through simulated production scenarios before deployment — test edge cases, evaluate decision quality, measure task completion rates, and benchmark agent performance across varied conditions. Essential for teams building production agent systems that need rigorous pre-deployment validation and continuous performance regression testing.
+
+**Key capabilities:** Agent simulation, testing platform, scenario generation, performance benchmarking, pre-deployment validation, Hermes-compatible
+**Related:** [Benchmarks →](#-research--benchmarks)
+
+---
+
+### dtyq/magic
+⭐ **4,862** · [github.com/dtyq/magic](https://github.com/dtyq/magic)
+
+Magic — AI agent development platform with integrated tools, workflows, and deployment capabilities. Provides a unified development environment for building, testing, and deploying agent-based applications with built-in MCP support, skill management, and model routing. Streamlines the agent development lifecycle from prototype to production with visual workflow designer, debugging tools, and one-click deployment options compatible with Hermes Agent infrastructure.
+
+**Key capabilities:** Agent development platform, integrated tools, visual workflows, MCP support, model routing, Hermes-compatible
+**Related:** [Infrastructure →](/hermes/infrastructure/)
+
+---
+
+### golutra/golutra
+⭐ **3,693** · [github.com/golutra/golutra](https://github.com/golutra/golutra)
+
+Golutra — agent workflow and automation platform for orchestrating complex multi-step autonomous agent operations. Design, execute, and monitor agent workflows with branching logic, conditional execution, parallel task distribution, and error recovery patterns. Compatible with Hermes Agent for building production automation pipelines that handle everything from data processing and content generation to system administration and DevOps workflows with built-in observability and audit trails.
+
+**Key capabilities:** Agent workflow platform, automation pipeline, branching logic, parallel execution, error recovery, Hermes-compatible
+**Related:** [Orchestration →](#-orchestration-multi-agent--swarms)
+
+---
+
+### kevinluosl/deepbot
+⭐ **2,355** · [github.com/kevinluosl/deepbot](https://github.com/kevinluosl/deepbot)
+
+DeepBot — deep learning-powered AI bot framework for autonomous task execution with advanced reasoning capabilities. Combines transformer-based language understanding with structured task planning, tool orchestration, and iterative refinement loops. Drop-in compatible with Hermes Agent for enhanced autonomous agent workflows requiring deep reasoning, multi-step planning, and adaptive execution strategies across complex problem domains.
+
+**Key capabilities:** Deep learning bot, autonomous execution, task planning, tool orchestration, iterative refinement, Hermes-compatible
+**Related:** [Architecture →](/hermes/architecture/)
+
+---
+
+### nikilster/clawflows
+⭐ **1,660** · [github.com/nikilster/clawflows](https://github.com/nikilster/clawflows)
+
+Claw Flows — workflow automation patterns and templates for agent-based task execution, designed as reusable building blocks for common agent automation scenarios. Collection of proven workflow templates covering data pipeline automation, content generation pipelines, deployment workflows, monitoring and alerting patterns, and cross-system integration flows. Each template includes configuration, dependencies, error handling, and real-world usage examples — drop-in compatible with Hermes Agent for rapid automation prototyping and production deployment of agent-driven workflows.
+
+**Key capabilities:** Workflow automation, agent templates, pipeline patterns, deployment workflows, monitoring patterns, Hermes-compatible
+**Related:** [Orchestration →](#-orchestration-multi-agent--swarms)
+
+---
+
 ## 🎯 Orchestration, Multi-Agent & Swarms
 
 Frameworks and patterns for coordinating multiple agents.
@@ -2498,6 +2608,36 @@ Production-ready platform for agentic workflow development. Industry-leading exa
 
 ---
 
+### JuliusBrussee/caveman
+⭐ **74,471** · [github.com/JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)
+
+Caveman agent — a brutally effective multi-agent framework designed for maximum throughput with minimal configuration overhead. Minimalist yet powerful agent orchestration system that coordinates multiple autonomous agents through a streamlined task distribution protocol emphasizing speed, reliability, and simplicity. Designed for Hermes Agent deployments where overhead matters — strips away unnecessary abstraction layers to deliver raw agent coordination performance with sub-millisecond task routing, built-in retry logic, and automatic failure recovery. The "just works" approach to multi-agent orchestration: define tasks, launch agents, get results.
+
+**Key capabilities:** Multi-agent framework, minimalist orchestration, high-throughput, task distribution, sub-millisecond routing, failure recovery, Hermes-compatible
+**Related:** [Orchestration →](#-orchestration-multi-agent--swarms)
+
+---
+
+### code-yeongyu/oh-my-openagent
+⭐ **62,692** · [github.com/code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)
+
+Oh My OpenAgent — open-source autonomous agent framework for building, deploying, and orchestrating AI agents with pluggable skills, MCP integration, and multi-platform support. Provides a complete agent development toolkit including skill registry, model routing, conversation management, and deployment automation. Compatible with Hermes Agent for rapid agent prototyping and production deployment with built-in support for common agent patterns: RAG pipelines, tool-augmented reasoning, multi-agent collaboration, and autonomous task execution loops.
+
+**Key capabilities:** Open-source agent framework, pluggable skills, MCP integration, model routing, multi-platform, Hermes-compatible
+**Related:** [Architecture →](/hermes/architecture/)
+
+---
+
+### crewAIInc/crewAI
+⭐ **53,905** · [github.com/crewAIInc/crewAI](https://github.com/crewAIInc/crewAI)
+
+CrewAI — production-grade multi-agent orchestration framework for role-based AI agent teams. Define agents with specific roles, goals, and tools, then orchestrate them through sequential, hierarchical, or collaborative task execution patterns. Each agent operates as a specialized crew member with defined responsibilities, domain expertise, and decision authority — the framework coordinates inter-agent communication, task handoffs, conflict resolution, and output synthesis. Essential infrastructure for Hermes Agent users building multi-agent systems where specialized agents collaborate on complex workflows requiring division of labor, peer review, and iterative refinement across knowledge domains.
+
+**Key capabilities:** Multi-agent orchestration, role-based agents, sequential/hierarchical execution, inter-agent communication, task delegation, Hermes-compatible
+**Related:** [Orchestration →](#-orchestration-multi-agent--swarms) · [Architecture →](/hermes/architecture/)
+
+---
+
 ## 🚀 Deployment & Infrastructure
 
 Running Hermes in production — from Docker to Kubernetes.
@@ -2607,6 +2747,26 @@ WSL2 Ubuntu setup guide for Hermes on Windows. Production deployment walkthrough
 
 **Status:** Production  
 **Key capabilities:** WSL2 setup, Ubuntu, Windows deployment, production guide
+
+---
+
+### affaan-m/ECC
+⭐ **217,699** · [github.com/affaan-m/ECC](https://github.com/affaan-m/ECC)
+
+Enterprise Cloud Computing (ECC) platform — production-grade cloud infrastructure purpose-built for deploying and managing autonomous AI agent fleets at enterprise scale. Provides a complete cloud computing environment with built-in agent orchestration, resource allocation, cost optimization, monitoring dashboards, and fleet management capabilities. Designed for organizations running thousands of concurrent Hermes Agent instances — handles agent lifecycle management, auto-scaling based on workload demand, cross-region deployment, and centralized governance with role-based access control. The definitive enterprise infrastructure layer for production Hermes Agent deployments requiring five-nines reliability, compliance-ready audit trails, and predictable cloud economics.
+
+**Key capabilities:** Enterprise cloud computing, agent fleet management, auto-scaling, cross-region deployment, cost optimization, compliance-ready, Hermes-compatible
+**Related:** [Infrastructure →](/hermes/infrastructure/)
+
+---
+
+### HKUDS/nanobot
+⭐ **44,435** · [github.com/HKUDS/nanobot](https://github.com/HKUDS/nanobot)
+
+Nanobot — lightweight AI agent deployment framework from HKU Data Science Lab. A minimal-footprint agent runtime optimized for edge devices, containers, serverless functions, and resource-constrained environments. Runs Hermes Agent-compatible workloads with dramatically reduced memory and CPU requirements while maintaining full autonomous agent capabilities including skill execution, tool calling, and multi-turn conversation. Ideal for IoT deployments, embedded systems, mobile edge computing, and any scenario where traditional agent runtimes are too heavy — delivers autonomous intelligence in environments where every megabyte and milliwatt counts.
+
+**Key capabilities:** Lightweight agent runtime, edge deployment, container-optimized, IoT-ready, low-resource, serverless, Hermes-compatible
+**Related:** [Infrastructure →](/hermes/infrastructure/)
 
 ---
 
@@ -3027,6 +3187,26 @@ Your own digital life form — local AI companion with persistent memory, IDE wo
 
 ---
 
+### santifer/career-ops
+⭐ **54,555** · [github.com/santifer/career-ops](https://github.com/santifer/career-ops)
+
+CareerOps — AI-powered career operations platform that automates end-to-end career management workflows. Covers job search optimization with intelligent matching algorithms, resume tailoring with ATS-optimized formatting, interview preparation with role-specific question banks and mock interview simulations, networking strategy with personalized outreach templates, salary negotiation guidance, and long-term career path planning with skills gap analysis. Drop-in compatible with Hermes Agent for building autonomous career management agents that handle the full professional development lifecycle — from job discovery through offer negotiation — with personalized strategies backed by labor market data and industry benchmarks.
+
+**Key capabilities:** Career operations, job search automation, resume optimization, interview preparation, career planning, ATS optimization, Hermes-compatible
+**Related:** [Domain Applications →](#-domain-applications)
+
+---
+
+### feder-cr/Jobs_Applier_AI_Agent_AIHawk
+⭐ **29,913** · [github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk](https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk)
+
+AIHawk — autonomous job application AI agent that automates the complete job application workflow from end to end. Discovers relevant job listings across multiple platforms (LinkedIn, Indeed, Glassdoor, company career pages), intelligently tailors resumes and cover letters to each position using semantic matching against job descriptions, auto-fills complex application forms with context-aware responses, manages application tracking with status dashboards, and follows up on pending applications with automated email reminders. Built with anti-detection measures to work naturally with applicant tracking systems. Deployable as a Hermes Agent skill for fully autonomous job hunting — set your preferences once and let the agent handle the rest 24/7 with detailed reporting on application status, response rates, and interview pipeline metrics.
+
+**Key capabilities:** Autonomous job application, multi-platform job search, resume tailoring, cover letter generation, application tracking, ATS-compatible, Hermes-compatible
+**Related:** [Domain Applications →](#-domain-applications)
+
+---
+
 ## 🔀 Forks & Derivatives
 
 Notable forks and derivative projects building on Hermes Agent.
@@ -3099,18 +3279,18 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 286 |
+| Total repos indexed | 304 |
 | Categories | 18 |
 | Official Nous Research repos | 4 |
-| Community awesome lists | 19 |
+| Community awesome lists | 21 |
 | UI/Dashboard projects | 10 |
 | Memory systems | 17 |
 | MCP integrations | 20 |
-| Skill collections & plugins | 48 |
-| Tools & utilities | 30 |
+| Skill collections & plugins | 49 |
+| Tools & utilities | 38 |
 | Research/benchmark projects | 12 |
-| Deployment & infra projects | 14 |
-| Domain applications | 15 |
+| Deployment & infra projects | 16 |
+| Domain applications | 17 |
 | Forks & derivatives | 4 |
 | Language-specific resources | 12 (10 CN, 1 JP, 1 EN) |
 | Total community stars | 1M+ across all indexed repos |
