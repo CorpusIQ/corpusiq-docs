@@ -8196,10 +8196,32 @@ Then provide a TOWS cross-analysis:
       <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
+  
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="../../javascripts/hermes-nav.js?v=2"></script>
       
     
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var links = document.querySelectorAll('.md-nav__link');
+      for (var i = 0; i < links.length; i++) {
+        if (links[i].textContent.trim() === 'Hermes Community Hub') {
+          var section = links[i].closest('.md-nav__item--section');
+          if (section) {
+            section.style.marginTop = '20px';
+            section.style.paddingTop = '16px';
+            section.style.borderTop = '3px solid #c9a961';
+          }
+          links[i].style.fontWeight = '800';
+          links[i].style.fontSize = '1.2em';
+          links[i].style.textTransform = 'uppercase';
+          links[i].style.letterSpacing = '0.5px';
+          links[i].style.color = '#0a2540';
+        }
+      }
+    });
+  </script>
+
   </body>
 </html>
