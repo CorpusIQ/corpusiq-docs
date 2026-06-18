@@ -2840,5 +2840,120 @@
     ],
     "discovered_at": "2026-06-18T05:01:30.715452+00:00",
     "status": "pending"
+  },
+  {
+    "name": "interfluve-wav/auto-captcha-solver",
+    "url": "https://github.com/interfluve-wav/auto-captcha-solver",
+    "description": "Universal captcha solver for AI Agents using Playwright \u2014 hCaptcha + reCAPTCHA v2 via NopeCHA API. Python lib, CLI, MCP server, Hermes skill.",
+    "stars": 3,
+    "forks": 2,
+    "language": "Python",
+    "topics": [
+      "browser-automation",
+      "captcha",
+      "captcha-solver",
+      "claude-code",
+      "claude-skills",
+      "cli",
+      "hcaptcha",
+      "hermes-agent",
+      "mcp-server",
+      "nopecha",
+      "openclaw",
+      "openclaw-skills",
+      "pip-package",
+      "playwright",
+      "python",
+      "recaptcha",
+      "recaptcha2",
+      "web-scraping"
+    ],
+    "updated_at": "2026-06-18T06:03:04Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/shellward",
+      "ruvnet/agent-harness-generator"
+    ],
+    "discovered_at": "2026-06-18T06:03:24.278029+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "bkuri/hermes-atlas-mcp",
+    "url": "https://github.com/bkuri/hermes-atlas-mcp",
+    "description": "MCP server for the Hermes Atlas ecosystem \u2014 instant tool/skill/plugin discovery for AI agents",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-06-18T05:54:36Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/shellward",
+      "ruvnet/agent-harness-generator",
+      "ksimback/hermes-atlas-mcp"
+    ],
+    "discovered_at": "2026-06-18T06:03:26.653722+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rdnot/hermes-agent-medical-research",
+    "url": "https://github.com/rdnot/hermes-agent-medical-research",
+    "description": "The agent that grows with you ---[Medical research fork: local web fetch via curl_cffi + scrapling]",
+    "stars": 4,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-18T06:02:31Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent"
+    ],
+    "discovered_at": "2026-06-18T06:03:30.009434+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "andersonamaral2/gbrain",
+    "url": "https://github.com/andersonamaral2/gbrain",
+    "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-18T06:01:52Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "garrytan/gbrain"
+    ],
+    "discovered_at": "2026-06-18T06:03:31.512309+00:00",
+    "status": "pending"
   }
 ]
