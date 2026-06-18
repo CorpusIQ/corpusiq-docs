@@ -2955,5 +2955,220 @@
     ],
     "discovered_at": "2026-06-18T06:03:31.512309+00:00",
     "status": "pending"
+  },
+  {
+    "name": "PTSDviaPrinters/hermes-backup",
+    "url": "https://github.com/PTSDviaPrinters/hermes-backup",
+    "description": "Hermes Agent configuration, skills, and memory backup",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-18T07:04:53Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T07:05:23.273420+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "maomao2266/research-reports",
+    "url": "https://github.com/maomao2266/research-reports",
+    "description": "Maobolin \u7814\u7a76\u5831\u544a \u2014 powered by Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-06-18T07:04:19Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T07:05:24.775422+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "baimocn/cc-hms",
+    "url": "https://github.com/baimocn/cc-hms",
+    "description": "Hermes Memory System \u2014 \u8ba9 Claude Code \u62e5\u6709\u771f\u6b63\u7684\u957f\u671f\u8bb0\u5fc6 (8 phases, 117 tests, 12 MCP tools)",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-memory",
+      "claude-code",
+      "mcp-server",
+      "memory-system",
+      "sqlite"
+    ],
+    "updated_at": "2026-06-18T06:27:34Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T07:05:27.308721+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jjmatos/AionUi",
+    "url": "https://github.com/jjmatos/AionUi",
+    "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-18T07:05:03Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "screenpipe/screenpipe",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "Romanescu11/hermes-skill-factory",
+      "ruvnet/agent-harness-generator",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc"
+    ],
+    "discovered_at": "2026-06-18T07:05:30.665752+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "leoncanales23/hermes-agent",
+    "url": "https://github.com/leoncanales23/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-18T07:04:13Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness"
+    ],
+    "discovered_at": "2026-06-18T07:05:32.168423+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "moshkou2000/hermes-agent",
+    "url": "https://github.com/moshkou2000/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-06-18T07:03:50Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness"
+    ],
+    "discovered_at": "2026-06-18T07:05:33.671104+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "huxinweidev-cloud/agency-agents-zh",
+    "url": "https://github.com/huxinweidev-cloud/agency-agents-zh",
+    "description": "\ud83c\udfad 211 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 16 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 18 \u4e2a\u90e8\u95e8\u3002\u542b 46 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489\u7b49\uff09",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-06-18T07:03:29Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/agency-agents-zh"
+    ],
+    "discovered_at": "2026-06-18T07:05:35.173964+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "zerobaxin/x-days-shader",
+    "url": "https://github.com/zerobaxin/x-days-shader",
+    "description": "shader",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "hermes-agent",
+      "shaders",
+      "skills"
+    ],
+    "updated_at": "2026-06-18T07:03:59Z",
+    "category": "forks",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T07:05:36.676610+00:00",
+    "status": "pending"
   }
 ]

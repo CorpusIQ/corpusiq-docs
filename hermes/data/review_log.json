@@ -718,5 +718,61 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-06-18T06:03:44.277672+00:00"
+  },
+  {
+    "repo": "PTSDviaPrinters/hermes-backup",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T07:05:50.200841+00:00"
+  },
+  {
+    "repo": "maomao2266/research-reports",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T07:05:50.200856+00:00"
+  },
+  {
+    "repo": "baimocn/cc-hms",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T07:05:50.200858+00:00"
+  },
+  {
+    "repo": "jjmatos/AionUi",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T07:05:50.200860+00:00"
+  },
+  {
+    "repo": "leoncanales23/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T07:05:50.200862+00:00"
+  },
+  {
+    "repo": "moshkou2000/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T07:05:50.200864+00:00"
+  },
+  {
+    "repo": "huxinweidev-cloud/agency-agents-zh",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T07:05:50.200866+00:00"
+  },
+  {
+    "repo": "zerobaxin/x-days-shader",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T07:05:50.200868+00:00"
   }
 ]
