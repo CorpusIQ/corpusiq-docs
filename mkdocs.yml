@@ -46,6 +46,8 @@ markdown_extensions:
     permalink_title: Anchor link to this section
 plugins:
 - search
+extra_javascript:
+  - javascripts/hermes-nav.js
 nav:
 # ── CORPUSIQ DOCUMENTATION ────────────────────────────────────
 - Home: index.md
