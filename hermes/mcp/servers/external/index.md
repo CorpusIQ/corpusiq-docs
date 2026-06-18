@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 17, 2026 · **Sources:** mcp.so (22,396 servers), mcpservers.org (9,158)
+> **Last updated:** June 17, 2026 (evening) · **Sources:** mcp.so (22,396 servers), mcpservers.org (9,181)
 
 ---
 
@@ -477,7 +477,36 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 
 ---
 
-## New This Week (June 17, 2026)
+## New This Week (June 17, 2026 — evening sweep)
+
+### 20 new servers from mcpservers.org All + Finance + Marketing
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Mentionkit MCP | Marketing | AI-first social listening with MCP support — brand monitoring for operators |
+| UnusualWhales API | Finance | 100+ endpoints: options flow, dark pool, congressional trading, Greeks, volatility |
+| Vee3 | Marketing/SEO | Live agent tools for domains, X, Google Trends, SEO, YouTube, TikTok |
+| Factori MCP | Data/Intelligence | Query the real world — people, places, movement, markets in plain English |
+| Rock.so MCP | Communication | AI workspace search, messaging, tasks, notes across all your spaces |
+| Mamba Labs GTM Suite | Marketing | Six GTM signals: hiring detection, ICP scoring, flat Clay-ready data |
+| ICP Fit Scorer | Marketing | ICP qualification with score, tier, and per-signal reasoning |
+| Clearance Agent Income | Finance | x402 monetization services for APIs, MCP servers, agent workflows |
+| Ophis | Finance | Intent-based DEX aggregator — gasless, MEV-protected swap orders across 11 chains |
+| Bluesky MCP | Search | Remote MCP server for Bluesky — social media data and monitoring |
+| Gainium | Finance | Crypto trading bots, deals, backtests from AI assistant |
+| Universal Context Pipeline | File System | Local-first indexer for folders, PDFs, code, AI conversations — offline |
+| Myco Brain | Memory | Self-hosted memory graph for AI agents — Postgres 16 + pgvector, Apache 2.0 |
+| Cron Scheduler MCP | Development | 7 tools for AI agent cron jobs — SQLite persistence, retry logic, MIT license |
+| Sparda | Development | Turn any codebase into an MCP server — Express & FastAPI in 3 minutes |
+| Codex Control Plane MCP | Development | Durable MCP control plane for long-running Codex Desktop tasks |
+| Async Parallel Antigravity | Development | Parallel, resumable CLI sessions from Codex, Claude Code, any MCP harness |
+| Talordata MCP Server | Web Scraping | Structured search results from Google, Bing, Yandex, DuckDuckGo |
+| Druid MCP server | Database | Access and administer Apache Druid databases via MCP |
+| Zhiji Signal Station | Finance | Market phase transition signals (Phi/Chi) for HS300 and BTC — free sensing tier |
+
+---
+
+## New This Week (June 17, 2026 — morning sweep)
 
 ### 30 new servers from mcpservers.org All + Finance + Marketing + Productivity
 
@@ -674,8 +703,8 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 - **Official servers:** 40+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, etc.)
-- **New this cycle (June 17):** 30 newly catalogued servers for business operators
-- **Cumulative since June 9:** 159 MCP servers catalogued across 9 sweeps
+- **New this cycle (June 17):** 50 newly catalogued servers for business operators (30 morning + 20 evening)
+- **Cumulative since June 9:** 179 MCP servers catalogued across 10 sweeps
 
 ---
 
