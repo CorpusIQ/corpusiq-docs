@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 17, 2026 (evening) · **Sources:** mcp.so (22,396 servers), mcpservers.org (9,181)
+> **Last updated:** June 18, 2026 (cron sweep) · **Sources:** mcp.so (22,460 servers), mcpservers.org (9,181)
 
 ---
 
@@ -78,6 +78,9 @@ Personal finance calculations in the Claude ecosystem. Guide users through compo
 
 ### hourledger-mcp ★ New
 Work hours, overtime, and gross pay calculation with tested rulesets for US federal, California, Alaska, Colorado, and Nevada law. MCP-native payroll intelligence for operators managing distributed teams.
+
+### Openswissdata ★ New
+9 MCP tools for Swiss federal data: TARES tariffs, FINMA registry, NOGA classifications. BAZG-authorized. Essential for operators doing business in Switzerland or needing verified Swiss regulatory data.
 
 ### LoneStarOracle MCP Server ★ New
 38 tools for live data: crypto token analysis, DeFi risk, equities, energy, weather, real estate, and on-chain intelligence. Comprehensive market data MCP for multi-asset operators.
@@ -281,12 +284,24 @@ Synthetic test data generation for databases. Generate realistic, FK-consistent 
 ### BUILDY ★ New
 Build real web apps on demand from ChatGPT, Claude, or any coding agent. Cross-agent compatible — build once and use the same app/data across different AI clients. `https://buildy.ai`
 
+### Shinobi ★ New
+Multi-agent task coordination MCP: shared task spine, decision log, and dead-ends ledger for every AI coding agent on your machine. Every failed approach is logged and semantically checked before an agent proposes a similar one — agents stop repeating mistakes across sessions. Mobile approvals, autonomous dispatch/swarm with N parallel agents in isolated git worktrees. Local-first SQLite over stdio or self-hosted streamable-HTTP. 39 tools, plugin system, MIT license. Works with Claude Code, Claude Desktop, Cursor, Cline, Continue.dev, Zed. Essential for operators running multi-agent coding workflows.
+
+### Nahook ★ New
+Manage and debug webhooks from your AI assistant. Test, inspect, and troubleshoot webhook endpoints without leaving your MCP client. Essential for operators building webhook-driven integrations and automation pipelines.
+
 ---
 
 ## Productivity
 
 ### Niche ★ New
 Editorial intelligence for creators and their agents — discover the stories worth writing about, rank the strongest angle, and draft grounded, platform-native posts. Content strategy MCP for operators running content marketing and thought leadership programs.
+
+### Hirenimbus Mcp ★ New
+Home Services MCP by HireNimbus — AI agents find, compare, and book verified local pros for handyman, renovation, HVAC, plumbing, electrical, and landscaping jobs in supported US metro markets. Essential for property managers, facility operators, and home service businesses.
+
+### Obsidian Regulatory Mcp ★ New
+Verified, tier-0 regulatory data for AI agents: connect Claude, ChatGPT, or Cursor to 850+ official sources across 50+ jurisdictions. Compliance-grade data for regulatory research, legal operations, and governance. Essential for operators in regulated industries (finance, healthcare, legal).
 
 ### Cal.com MCP ★ Official
 Connect AI clients to Cal.com scheduling. Hosted endpoint at `mcp.cal.com` or local instance.
@@ -386,6 +401,9 @@ AI image & video generation for social media, branding, ecommerce, and digital c
 ### Blog2Video ★ New
 Convert blog URLs to video in under 3 minutes via MCP. Turn written content into video assets for social media and marketing pipelines without leaving your AI client.
 
+### DesignForYou ★ New
+Generate finished, on-brand designs — logos, social posts, app-store screenshots, comic panels, and visual-novel assets — from a prompt. Remote MCP server backed by 119 templates: free browse/recommend tools, metered generation, OAuth sign-in. Works in Claude Code, Cursor, and ChatGPT. Essential for operators who need design assets without a design team.
+
 ---
 
 ## Marketing
@@ -474,6 +492,29 @@ Persistent memory for AI agents across sessions.
 
 ### Vault Cortex ★ New
 MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-protected. Connect AI agents to your Obsidian knowledge base. Ideal for operators who use Obsidian as their second brain.
+
+### Frinus ★ New
+MCP server exposing 70 tools spanning cognitive memory, working memory, sessions, agents, the L0–L3 knowledge hierarchy, orchestration tasks, and training pipelines. Speaks stdio, consumed by Claude Desktop, Claude Code, OpenCodex, and any MCP-aware client. Enterprise-grade AI memory infrastructure for operators building knowledge-intensive agent systems.
+
+### Agent Magnet ★ New
+Self-learning memory for AI tools — remembers user preferences and context across Claude, Cursor, and Codex with multi-parameter forgetting and cross-tool identity. Keeps your AI agents consistent across sessions and platforms. Ideal for operators who work across multiple MCP clients and want persistent, self-improving agent context.
+
+---
+
+## New This Week (June 18, 2026 — cron sweep)
+
+### 8 new servers from mcp.so Latest
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Openswissdata | Financial Data | Swiss federal data: TARES tariffs, FINMA registry, NOGA classifications — BAZG-authorized |
+| Shinobi | Dev/Infra | Multi-agent task coordination — shared spine, decision log, dead-ends ledger, mobile approvals |
+| Nahook | Dev/Infra | Webhook management and debugging from AI assistant |
+| Hirenimbus Mcp | Productivity | Home services — AI agents find, compare, and book verified local pros in US metro markets |
+| Obsidian Regulatory Mcp | Productivity | Verified regulatory data from 850+ official sources across 50+ jurisdictions |
+| DesignForYou | Content Creation | On-brand design generation — logos, social posts, screenshots from 119 templates |
+| Frinus | Memory/Knowledge | 70 tools for cognitive memory, knowledge hierarchy, orchestration, training pipelines |
+| Agent Magnet | Memory/Knowledge | Self-learning cross-tool memory with multi-parameter forgetting |
 
 ---
 
@@ -703,8 +744,8 @@ MCP server for Obsidian vaults — search, memory, link graph, 23 tools, OAuth-p
 - **Official servers:** 40+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, etc.)
-- **New this cycle (June 17):** 50 newly catalogued servers for business operators (30 morning + 20 evening)
-- **Cumulative since June 9:** 179 MCP servers catalogued across 10 sweeps
+- **New this cycle (June 18):** 8 new MCP servers from mcp.so Latest tab
+- **Cumulative since June 9:** 187 MCP servers catalogued across 11 sweeps
 
 ---
 
