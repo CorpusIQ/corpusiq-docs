@@ -774,5 +774,131 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-06-18T07:05:50.200868+00:00"
+  },
+  {
+    "repo": "kusesad-1122/hermes-agent-android",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809706+00:00"
+  },
+  {
+    "repo": "KleirRampage45/hermdeck",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809710+00:00"
+  },
+  {
+    "repo": "appleoppa/PGG-Archon-AGI",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809712+00:00"
+  },
+  {
+    "repo": "justinsensei/bes-backup",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809714+00:00"
+  },
+  {
+    "repo": "Mengbooo/fengzikai-illustration",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809715+00:00"
+  },
+  {
+    "repo": "tolkonepiu/hl-cluster",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809717+00:00"
+  },
+  {
+    "repo": "eggyrooch-blip/hermes-multitenancy",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809719+00:00"
+  },
+  {
+    "repo": "LuoJiangYong/muse-video-skill",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809721+00:00"
+  },
+  {
+    "repo": "christophedanhier-hash/dashboard-leo",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809723+00:00"
+  },
+  {
+    "repo": "Lzh-xbccz/hermes-finance",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809725+00:00"
+  },
+  {
+    "repo": "Bo1202/Aivy-OS",
+    "score": 70,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-06-18T08:01:31.809726+00:00"
+  },
+  {
+    "repo": "junerver/hermes-sync",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809728+00:00"
+  },
+  {
+    "repo": "joeshirey/HermesCoderAgent",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809730+00:00"
+  },
+  {
+    "repo": "ato-zen/hermes-agent-ro",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809732+00:00"
+  },
+  {
+    "repo": "onaries/hermes-web-ui",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809733+00:00"
+  },
+  {
+    "repo": "showhwa/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809735+00:00"
+  },
+  {
+    "repo": "michaelversluis/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809737+00:00"
+  },
+  {
+    "repo": "SpartanLabsXyz/simmer-sdk",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-18T08:01:31.809739+00:00"
   }
 ]

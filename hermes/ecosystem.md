@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources — 326+ repos, 
 
 The most comprehensive directory of Hermes Agent resources in existence. 326 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 17, 2026 · **Repos indexed:** 326 · **Categories:** 18
+> **Last updated:** June 18, 2026 · **Repos indexed:** 327 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -32,7 +32,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 326 rep
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
 | [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
 | [Platform-Specific](#-platform-specific) | 10 | [↓](#-platform-specific) |
-| [Domain Applications](#-domain-applications) | 15 | [↓](#-domain-applications) |
+| [Domain Applications](#-domain-applications) | 16 | [↓](#-domain-applications) |
 | [Forks & Derivatives](#-forks--derivatives) | 4 | [↓](#-forks--derivatives) |
 | [Guides](#-guides) | 2 | [↓](#-guides) |
 
@@ -3013,6 +3013,17 @@ Autonomous LLM research agent. Self-directed research with literature review and
 
 **Status:** Experimental  
 **Key capabilities:** Autonomous research, LLM analysis, literature synthesis
+
+---
+
+### Bo1202/Aivy-OS
+⭐ **21** · `Python` · [github.com/Bo1202/Aivy-OS](https://github.com/Bo1202/Aivy-OS)
+
+Your own digital life form — local AI companion with persistent memory, IDE workspace, MCP support, and 30+ tools. Companion-first alternative to Hermes Agent, OpenClaw, and Claude Code with desktop/browser automation and local LLM support.
+
+**Status:** Active  
+**Key capabilities:** AI companion, persistent memory, IDE workspace, MCP integration, desktop automation, browser automation, local LLM (Ollama), 30+ tools, Electron UI  
+**Related:** [Hermes Agent →](https://github.com/NousResearch/hermes-agent)
 
 ---
 

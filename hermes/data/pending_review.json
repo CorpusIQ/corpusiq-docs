@@ -3170,5 +3170,416 @@
     "near_duplicates": [],
     "discovered_at": "2026-06-18T07:05:36.676610+00:00",
     "status": "pending"
+  },
+  {
+    "name": "kusesad-1122/hermes-agent-android",
+    "url": "https://github.com/kusesad-1122/hermes-agent-android",
+    "description": "Hermes Agent - Android native Agent APP (Chaquopy + Jetpack Compose)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-18T08:00:43Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T08:00:49.876146+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "KleirRampage45/hermdeck",
+    "url": "https://github.com/KleirRampage45/hermdeck",
+    "description": "\ud83c\udfae One command to install Hermes Agent on Steam Deck \u2014 curl -fsSL https://raw.githubusercontent.com/KleirRampage45/hermdeck/main/scripts/bootstrap.sh | sh",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-18T07:57:54Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T08:00:51.378323+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "appleoppa/PGG-Archon-AGI",
+    "url": "https://github.com/appleoppa/PGG-Archon-AGI",
+    "description": "Private APEX PGG RuntimeOS integration based on Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-18T07:57:49Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T08:00:52.880521+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "justinsensei/bes-backup",
+    "url": "https://github.com/justinsensei/bes-backup",
+    "description": "Personal assistant Hermes Agent persona",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-18T07:57:32Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T08:00:54.382614+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Mengbooo/fengzikai-illustration",
+    "url": "https://github.com/Mengbooo/fengzikai-illustration",
+    "description": "\u4e30\u5b50\u607a\u6c34\u58a8\u98ce\u683c\u63d2\u56fe\u751f\u6210 Skill \u2014 \u517c\u5bb9 Claude Code / Codex / Hermes\u3002Feng Zikai ink-wash illustration generator for AI agents.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-06-18T07:57:21Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "syncable-dev/memtrace-public"
+    ],
+    "discovered_at": "2026-06-18T08:00:55.884846+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "tolkonepiu/hl-cluster",
+    "url": "https://github.com/tolkonepiu/hl-cluster",
+    "description": "My HomeLab Cluster managed with Flux, Renovate, Hermes Agent, and GitHub Actions.",
+    "stars": 2,
+    "forks": 1,
+    "language": "YAML",
+    "topics": [
+      "ansible",
+      "devenv",
+      "flux",
+      "gitops",
+      "hermes-agent",
+      "k3s",
+      "kubernetes",
+      "renovate",
+      "selfhosted",
+      "taskfile"
+    ],
+    "updated_at": "2026-06-18T07:56:24Z",
+    "category": "core",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T08:00:57.386945+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "eggyrooch-blip/hermes-multitenancy",
+    "url": "https://github.com/eggyrooch-blip/hermes-multitenancy",
+    "description": "One Feishu bot, N users, N profiles. A hermes-agent plugin for multi-tenant routing.",
+    "stars": 10,
+    "forks": 2,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-18T07:56:20Z",
+    "category": "core",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T08:00:58.889043+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "LuoJiangYong/muse-video-skill",
+    "url": "https://github.com/LuoJiangYong/muse-video-skill",
+    "description": "\u5929\u9a6c\u884c\u7a7a\u89c6\u9891\u521b\u4f5c Skill \u2014 AI-driven video pre-production engine for Hermes Agent",
+    "stars": 3,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-18T07:55:42Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T08:01:00.391215+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "christophedanhier-hash/dashboard-leo",
+    "url": "https://github.com/christophedanhier-hash/dashboard-leo",
+    "description": "Dashboard LEO - Monitoring Hermes Agent KPI",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-06-18T07:54:09Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T08:01:01.893266+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Lzh-xbccz/hermes-finance",
+    "url": "https://github.com/Lzh-xbccz/hermes-finance",
+    "description": "\u9762\u5411 AI Agent \u7684\u516b\u7ef4\u91d1\u878d\u5206\u6790\u6846\u67b6\uff1aMCP + Skills \u53cc\u5165\u53e3\uff0c\u8986\u76d6\u52a0\u5bc6\u8d27\u5e01\u3001\u671f\u8d27\u3001\u5916\u6c47\u3001A\u80a1\u3001\u7f8e\u80a1\uff0c\u5e76\u96c6\u6210 CZSC \u7f20\u8bba\u786e\u8ba4",
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "chanlun",
+      "cryptocurrency",
+      "czsc",
+      "finance",
+      "forex",
+      "futures",
+      "mcp",
+      "skills",
+      "stocks"
+    ],
+    "updated_at": "2026-06-18T07:48:14Z",
+    "category": "mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T08:01:04.278320+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "junerver/hermes-sync",
+    "url": "https://github.com/junerver/hermes-sync",
+    "description": "CLI tool to backup & restore Hermes Agent configuration across machines. Supports skills, memories, plugins, cron jobs with path security validation.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-18T07:09:58Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T08:01:08.231153+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "joeshirey/HermesCoderAgent",
+    "url": "https://github.com/joeshirey/HermesCoderAgent",
+    "description": "A Hermes coding agent",
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-18T08:01:00Z",
+    "category": "forks",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T08:01:10.593015+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ato-zen/hermes-agent-ro",
+    "url": "https://github.com/ato-zen/hermes-agent-ro",
+    "description": "Fork for /ro read-only mode feature",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-18T08:00:52Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T08:01:12.095815+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "onaries/hermes-web-ui",
+    "url": "https://github.com/onaries/hermes-web-ui",
+    "description": "Web dashboard for Hermes Agent \u2014 multi-platform AI chat, session management, scheduled jobs, usage analytics ",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-18T08:00:30Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "EKKOLearnAI/hermes-studio",
+      "outsourc-e/hermes-workspace",
+      "awizemann/scarf",
+      "longyunfeigu/learn-hermes-agent",
+      "chrisryugj/hermes-dashboard",
+      "kkllxy/hermes-web-ui"
+    ],
+    "discovered_at": "2026-06-18T08:01:13.598925+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "showhwa/hermes-agent",
+    "url": "https://github.com/showhwa/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-18T08:00:01Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness"
+    ],
+    "discovered_at": "2026-06-18T08:01:15.101612+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "michaelversluis/hermes-agent",
+    "url": "https://github.com/michaelversluis/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-18T07:58:54Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness"
+    ],
+    "discovered_at": "2026-06-18T08:01:16.604281+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SpartanLabsXyz/simmer-sdk",
+    "url": "https://github.com/SpartanLabsXyz/simmer-sdk",
+    "description": "Python SDK for Agentic Prediction Market trading",
+    "stars": 46,
+    "forks": 14,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "hermes-agent",
+      "kalshi",
+      "openclaw",
+      "polymarket",
+      "prediction-markets"
+    ],
+    "updated_at": "2026-06-18T07:58:08Z",
+    "category": "forks",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "some_stars_10+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-18T08:01:18.107036+00:00",
+    "status": "pending"
   }
 ]
