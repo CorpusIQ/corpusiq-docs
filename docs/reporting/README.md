@@ -47,7 +47,7 @@ Coming soon: Schedule recurring reports delivered to email or Slack.
 
 ## MSR Governance
 
-For official financial reporting, see [MSR Governance](governance/README.md). CorpusIQ surfaces operational data. MSR is the authoritative source for financial metrics and board reporting.
+For official financial reporting, see [MSR Governance](../governance/index.html). CorpusIQ surfaces operational data. MSR is the authoritative source for financial metrics and board reporting.
 
 ## Best Practices
 

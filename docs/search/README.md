@@ -59,7 +59,7 @@ Cross-source queries correlate data from multiple sources:
 - Use natural language, not SQL
 - Cross-source queries give deeper insights
 - Narrow queries return faster results
-- Check [connector docs](../connectors/) for source-specific query examples
+- Check [connector docs](../connectors.html) for source-specific query examples
 
 ## Frequently Asked Questions
 
