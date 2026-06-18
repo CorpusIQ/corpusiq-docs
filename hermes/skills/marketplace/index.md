@@ -155,7 +155,8 @@ Approved skills appear on the next marketplace update page with install commands
 
 New skills are discovered weekly through automated sweeps of skills.sh. Each discovery gets a dedicated update page:
 
-- [🆕 June 18, 2026 — nousresearch/hermes-agent (32 skills)](/hermes/skills/marketplace/new-june18-2026/)
+- [🆕 June 18, 2026 (Batch 2) — Full Catalog Sweep (107 skills)](/hermes/skills/marketplace/new-june18-2026-batch2/)
+- [🆕 June 18, 2026 (Batch 1) — nousresearch/hermes-agent (32 skills)](/hermes/skills/marketplace/new-june18-2026/)
 - [🆕 June 17, 2026 — nousresearch/hermes-agent (6 skills)](/hermes/skills/marketplace/new-june17-2026/)
 - [🆕 June 16, 2026 — ClawPilot ecosystem (5 skills)](/hermes/skills/marketplace/new-june16-2026/)
 - [June 15, 2026 — Nous Research Expansion (23 skills)](/hermes/skills/marketplace/new-june15-2026/)

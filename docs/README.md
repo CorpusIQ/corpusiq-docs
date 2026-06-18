@@ -1,3 +1,7 @@
+---
+meta_desc: "CorpusIQ Documentation. CorpusIQ is a private AI acceleration layer that connects 37+ business tools to ChatGPT, Claude, and Perplexity via the Model Context..."
+---
+
 # CorpusIQ Documentation
 
 CorpusIQ is a private AI acceleration layer that connects 37+ business tools to ChatGPT, Claude, and Perplexity via the Model Context Protocol (MCP). One question. Cited answers from all your tools.
