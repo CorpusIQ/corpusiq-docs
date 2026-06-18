@@ -47,7 +47,7 @@ markdown_extensions:
 plugins:
 - search
 extra_javascript:
-  - javascripts/hermes-nav.js
+  - javascripts/hermes-nav.js?v=2
 nav:
 # ── CORPUSIQ DOCUMENTATION ────────────────────────────────────
 - Home: index.md
