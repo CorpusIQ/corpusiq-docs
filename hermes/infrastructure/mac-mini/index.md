@@ -34,12 +34,13 @@ Coordinates with HeyGen API for UGC video generation. Scripts and review workflo
 Accessible from DGX Spark via SSH: `ssh user@worker-node.local`
 
 
----
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

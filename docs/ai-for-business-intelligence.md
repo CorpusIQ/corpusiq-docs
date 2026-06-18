@@ -216,12 +216,13 @@ A: Yes. CorpusIQ's metric specs let you define canonical calculations (MRR, CAC,
 </script>
 
 
----
 *AI-powered AI for Business Intelligence | CorpusIQ MCP Platform for ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 
----
 *AI-powered AI for Business Intelligence | CorpusIQ MCP Platform for ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+---
+
+*
 
 ---
 

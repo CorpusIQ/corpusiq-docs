@@ -38,6 +38,9 @@ CorpusIQ never submits sitemaps, requests indexing, or modifies properties.
 - **"Property not available"** — The property may be a Domain property rather than a URL-prefix property. Both are supported; confirm the exact URL in Search Console.
 - **Performance data returns zero** — Google Search Console data can lag by 2–3 days. Try a slightly older date range.
 - **Inspect URL says "URL is not on property"** — The URL must belong to the property you're querying. Double-check the site URL and the inspection URL match.
+---
+
+*
 
 ---
 

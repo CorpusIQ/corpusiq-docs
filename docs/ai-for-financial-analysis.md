@@ -188,12 +188,13 @@ A: Upload spreadsheets and financial models to Google Drive, OneDrive, or ShareP
 </script>
 
 
----
 *AI-powered AI for Financial Analysis | CorpusIQ MCP Platform for Fin... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 
----
 *AI-powered AI for Financial Analysis | CorpusIQ MCP Platform for Fin... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+---
+
+*
 
 ---
 

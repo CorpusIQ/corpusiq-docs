@@ -266,6 +266,9 @@ QuickBooks is where your financial truth lives. CorpusIQ Business Intelligence m
 
 ---
 *AI-powered QuickBooks Business Intelligence — AI-Powered BI Platform... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+---
+
+*
 
 ---
 

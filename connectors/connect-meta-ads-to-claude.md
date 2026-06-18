@@ -32,6 +32,9 @@ Read-only. CorpusIQ never modifies your campaigns or budgets.
 "I spent $12,000 on Meta this month. How much Shopify revenue did it actually drive after returns and fees?" — that requires Meta plus Shopify plus Stripe. CorpusIQ answers it in one question.
 
 [Connect Meta Ads to Claude free](https://www.corpusiq.io)
+---
+
+*
 
 ---
 

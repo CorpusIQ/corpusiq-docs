@@ -119,6 +119,9 @@ Next step: check Search Console impressions for these URLs in 48 hours.
 - **Deleted page handling:** Submit deleted URLs too — IndexNow notifies engines to deindex.
 - **Semrush pair:** After submission, pull Semrush ranking snapshots weekly to measure
   position improvement tied to the IndexNow push.
+---
+
+*
 
 ---
 

@@ -90,6 +90,9 @@ Want to know when something specific ships? Watch the
 [Discussions](https://github.com/CorpusIQ/corpusiq-docs/discussions).
 
 Powered by CorpusIQ.
+---
+
+*
 
 ---
 

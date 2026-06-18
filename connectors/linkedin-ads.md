@@ -41,6 +41,9 @@ CorpusIQ never creates campaigns, changes budgets, or modifies ads.
 - **"Insufficient permissions"** — Your role on the ad account may be too restrictive. You need at least Viewer access.
 - **Campaign analytics return zero** — Check the date range. LinkedIn Ads reporting may lag by 24–48 hours.
 - **Auth fails** — Reset the LinkedIn Ads connector in your dashboard and reconnect with the correct LinkedIn account.
+---
+
+*
 
 ---
 

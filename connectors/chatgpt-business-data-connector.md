@@ -32,6 +32,9 @@ ChatGPT supports MCP servers — live data connections that let it query your ac
 37+ connectors. 133+ pre-built reasoning chains. Read-only. 5-minute setup.
 
 [Connect ChatGPT to your business data free](https://www.corpusiq.io)
+---
+
+*
 
 ---
 

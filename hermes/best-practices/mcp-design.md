@@ -77,6 +77,9 @@ Validate schema compliance with the MCP validator. Unit test each tool with vali
 - [Skill Development](skill-development.md) — Skills that call MCP tools
 - [Security](security.md) — Secure MCP server auth patterns
 - [Creating Custom Skills](/hermes/skills/creating-skills.md) — When skills are better than MCP servers
+---
+
+*
 
 ---
 

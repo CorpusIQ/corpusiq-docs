@@ -261,12 +261,13 @@ Under 5 minutes from signup to Slack answers in ChatGPT.
 </script>
 
 
----
 *Connect Connect Slack to ChatGPT via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect Slack to ChatGPT via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

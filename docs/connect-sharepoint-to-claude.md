@@ -215,12 +215,13 @@ A: Documents with sensitivity labels are accessible, and label metadata is prese
 </script>
 
 
----
 *Connect Connect SharePoint to Claude | CorpusIQ MCP Integration f... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect SharePoint to Claude | CorpusIQ MCP Integration f... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

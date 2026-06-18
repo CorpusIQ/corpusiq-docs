@@ -408,6 +408,9 @@ workflow = graph.compile(debug=True)  # Prints every state transition
 | Parallel execution branches | LangGraph Send API |
 | Cross-session persistence | LangGraph with SQLite/Postgres checkpointer |
 | Complex state machines | LangGraph with typed state |
+---
+
+*
 
 ---
 

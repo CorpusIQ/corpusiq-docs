@@ -27,6 +27,9 @@ Read-only. CorpusIQ never posts messages or modifies your workspace.
 3. Ask your first question
 
 [Connect Slack to Claude free](https://www.corpusiq.io)
+---
+
+*
 
 ---
 

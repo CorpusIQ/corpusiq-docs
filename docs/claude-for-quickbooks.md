@@ -226,12 +226,13 @@ CorpusIQ is the only MCP platform that provides production-ready QuickBooks tool
 </script>
 
 
----
 *Connect Claude for QuickBooks — Deep Financial Analysis with AI |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Claude for QuickBooks — Deep Financial Analysis with AI |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

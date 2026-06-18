@@ -183,6 +183,9 @@ Email monitoring, system health checks, lightweight cron jobs, IoT automation, a
 - [Docker Setup](docker.md) — Containerized ARM deployment
 - [Cron Design Best Practices](/hermes/best-practices/cron-design.md) — Lightweight automation
 - [Troubleshooting Guide](/hermes/troubleshooting/) — Pi-specific issues
+---
+
+*
 
 ---
 

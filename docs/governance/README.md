@@ -131,8 +131,10 @@ A: MSR is always authoritative for financial metrics. Connected source data via 
 - **[CorpusIQ Onboarding Guide](/docs/onboarding/README)** — AI chat and agent setup in 10 minutes  
 - **[MSR Governance Framework](/docs/governance/README)** — Source of truth and audit controls  
 
----
 *Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+---
+
+*
 
 ---
 

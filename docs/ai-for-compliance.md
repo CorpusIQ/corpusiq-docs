@@ -171,12 +171,13 @@ A: No. AI provides data and analysis to support compliance decisions, but compli
 </script>
 
 
----
 *AI-powered AI for Compliance | CorpusIQ MCP Platform for Regulatory ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 
----
 *AI-powered AI for Compliance | CorpusIQ MCP Platform for Regulatory ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+---
+
+*
 
 ---
 

@@ -199,8 +199,10 @@ A: Report to security@corpusiq.io. CorpusIQ follows coordinated disclosure and a
 - **[CorpusIQ Changelog](/docs/changelog)** — API updates and version history  
 - **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption and network security  
 
----
 *Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+---
+
+*
 
 ---
 

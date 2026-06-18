@@ -262,12 +262,13 @@ Notion's built-in search is excellent for navigating a known workspace. MCP with
 </script>
 
 
----
 *Connect Connect Notion to ChatGPT via MCP — Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect Notion to ChatGPT via MCP — Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

@@ -187,8 +187,10 @@ A: Check the MCP endpoint URL (corpusiq.io/mcp/direct-connection), verify intern
 - **[CorpusIQ Connectors Directory](/docs/connectors)** — All 50+ data source integrations  
 - **[Enterprise AI Data Access](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2 compliance  
 
----
 *Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+---
+
+*
 
 ---
 

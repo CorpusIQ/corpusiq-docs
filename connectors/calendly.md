@@ -38,6 +38,9 @@ CorpusIQ never books, cancels, or modifies events.
 - **No events appear** — Check that you connected the right Calendly account; some users have one personal and one work account.
 - **Invitee answers missing** — Calendly only exposes intake answers for event types where you enabled custom questions.
 - **"Token expired"** — Disconnect and reconnect Calendly from Settings → Connectors.
+---
+
+*
 
 ---
 

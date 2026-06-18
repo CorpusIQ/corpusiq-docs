@@ -37,6 +37,9 @@ Read-only. CorpusIQ never posts, replies, joins channels, or DMs anyone.
 - "App not approved" — your Slack admin has restricted third-party apps. Send them the install link from your dashboard for approval.
 - Private channels missing — CorpusIQ only sees channels the connecting user is a member of. Add yourself to the channel and reconnect.
 - "Couldn't find that message" — Slack search is limited to messages newer than the workspace's retention window.
+---
+
+*
 
 ---
 

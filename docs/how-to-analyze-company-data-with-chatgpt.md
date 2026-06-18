@@ -268,10 +268,9 @@ A: Copy ChatGPT's responses to a document or note. Each query runs fresh against
 - [Best Way to Connect ChatGPT to Business Data](/docs/best-way-to-connect-chatgpt-to-business-data/)
 - [Top Business AI Tools — Rankings](/docs/top-business-ai-tools/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for ChatGPT-powered business analytics.*
+*
 
 ---
 

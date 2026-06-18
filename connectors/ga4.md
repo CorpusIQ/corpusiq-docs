@@ -68,10 +68,9 @@ Which acquisition channel has the lowest CAC when I combine GA4 conversion data 
 ```
 Did the email campaign I sent Tuesday cause a traffic spike? Compare Klaviyo send time to GA4 sessions.
 ```
-
 ---
 
-*CorpusIQ is read-only. We never write to or modify your Google Analytics data.*
+*
 
 ---
 

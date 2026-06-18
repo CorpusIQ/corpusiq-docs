@@ -486,6 +486,9 @@ Before deploying your social publishing pipeline:
 - [ ] Weekly automated performance reports
 - [ ] A/B testing framework for post formats and times
 - [ ] Backup publishing method (manual) documented
+---
+
+*
 
 ---
 

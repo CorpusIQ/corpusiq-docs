@@ -159,10 +159,6 @@ Ready to put AI to work on your corpusiq vs zapier — mcp real-time ai-native v
 - [HubSpot Business Intelligence with CorpusIQ](/docs/hubspot-business-intelligence/)
 - [Enterprise AI Data Access — Secure Connectivity](/docs/enterprise-ai-data-access/)
 
----
-
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -235,6 +231,9 @@ Ready to put AI to work on your corpusiq vs zapier — mcp real-time ai-native v
   ]
 }
 </script>
+---
+
+*
 
 ---
 

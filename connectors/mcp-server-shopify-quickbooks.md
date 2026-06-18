@@ -25,6 +25,9 @@ CorpusIQ pulls Shopify orders, QuickBooks income entries, reconciles them, and f
 30-day free trial. No credit card. Both connectors included in all plans starting at $29.95/mo.
 
 [Start reconciling Shopify and QuickBooks with AI](https://www.corpusiq.io)
+---
+
+*
 
 ---
 

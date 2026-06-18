@@ -23,6 +23,9 @@ Three crons monitor Hermes Agent releases:
 | `hermes-release-monitor` | 02:00, 10:00, 18:00 UTC | Check GitHub releases for new versions |
 
 When a new release is detected, a changelog page is drafted, committed to `CorpusIQ/corpusiq-docs`, and reported via Telegram.
+---
+
+*
 
 ---
 

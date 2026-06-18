@@ -228,12 +228,13 @@ CorpusIQ is the only MCP platform purpose-built for business data integration. U
 </script>
 
 
----
 *Connect ChatGPT for QuickBooks — AI Accounting & Financial Analys... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect ChatGPT for QuickBooks — AI Accounting & Financial Analys... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

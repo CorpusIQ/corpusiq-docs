@@ -240,12 +240,13 @@ CorpusIQ's AI Analytics for Shopify democratizes ecommerce intelligence. You don
 </script>
 
 
----
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
 
 
----
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
+---
+
+*
 
 ---
 

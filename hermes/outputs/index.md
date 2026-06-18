@@ -162,12 +162,13 @@ The community grows stronger with every documented use case. If you've built a H
 - [Contributor Guide — Share Your Patterns](/hermes/contributors.md)
 
 
----
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

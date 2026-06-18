@@ -17,6 +17,9 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for submission instructions.
 
 Examples must be tested. Include prerequisites, full working code or config,
 and expected output. Do not submit placeholder or hypothetical examples.
+---
+
+*
 
 ---
 

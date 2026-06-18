@@ -171,6 +171,9 @@ Create a Windows Task Scheduler task that runs `wsl.exe -d Ubuntu-24.04 -e sleep
 - [Docker Setup](docker.md) — Alternative Windows deployment
 - [Model Selection Guide](/hermes/best-practices/model-selection.md) — GPU model sizing
 - [Troubleshooting Guide](/hermes/troubleshooting/) — WSL2-specific issues
+---
+
+*
 
 ---
 

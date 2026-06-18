@@ -36,6 +36,9 @@ Research → Draft → Review → Schedule → Post → Monitor → Engage
 ## Rotation Schedule
 
 5 rotating content avatars daily across all platforms. Each avatar targets a specific audience segment with tailored messaging.
+---
+
+*
 
 ---
 

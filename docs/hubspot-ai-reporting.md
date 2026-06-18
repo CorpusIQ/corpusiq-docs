@@ -235,12 +235,13 @@ CorpusIQ's AI Reporting for HubSpot transforms CRM reporting from a technical ta
 </script>
 
 
----
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
 
 
----
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
+---
+
+*
 
 ---
 

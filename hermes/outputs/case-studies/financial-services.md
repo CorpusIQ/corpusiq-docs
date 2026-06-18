@@ -234,12 +234,13 @@ Yes. Hermes skills can compute time-weighted returns, risk metrics, attribution 
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
 
----
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

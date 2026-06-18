@@ -271,10 +271,9 @@ A: Copy the AI's structured response into your presentation tool. Direct export 
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 - [Top Business AI Tools — Rankings](/docs/top-business-ai-tools/)
 - [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for executive business intelligence.*
+*
 
 ---
 

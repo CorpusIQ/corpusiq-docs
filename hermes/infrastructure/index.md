@@ -272,6 +272,9 @@ python3 refresh_gmail_token.py
 4. **Model routing saves real money** — ~65% savings compounds at 24/7 operation.
 5. **Monitor both machines** — the health check must verify the worker node too.
 6. **Keep Hermes versions synced** — DGX and Mac Mini must run the same version.
+---
+
+*
 
 ---
 

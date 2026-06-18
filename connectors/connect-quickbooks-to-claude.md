@@ -42,6 +42,9 @@ QuickBooks alone tells you what happened. CorpusIQ tells you *why*.
 "Revenue is down 18% — is it fewer orders, lower AOV, or more refunds?" connects QuickBooks + Shopify + Stripe in one answer.
 
 [Start free — connect QuickBooks to Claude](https://www.corpusiq.io)
+---
+
+*
 
 ---
 

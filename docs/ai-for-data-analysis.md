@@ -189,12 +189,13 @@ A: No — it amplifies them. AI handles routine and ad-hoc analysis, freeing dat
 </script>
 
 
----
 *AI-powered AI for Data Analysis | CorpusIQ MCP Platform for Analytics — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 
----
 *AI-powered AI for Data Analysis | CorpusIQ MCP Platform for Analytics — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+---
+
+*
 
 ---
 

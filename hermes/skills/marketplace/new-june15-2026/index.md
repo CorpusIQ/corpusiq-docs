@@ -150,6 +150,9 @@ The June 13, 2026 PM sweep documented 72 skills from `nousresearch/hermes-agent`
 *↑ [Skills Home](/hermes/skills/)*
 
 *Powered by CorpusIQ*
+---
+
+*
 
 ---
 

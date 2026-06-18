@@ -105,12 +105,13 @@ If you can do GCP-console work but not Supabase-admin work, the boundary matters
 - [mcp-architecture](../mcp-architecture/) — the consumer side of the JWT contract this API issues
 
 
----
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

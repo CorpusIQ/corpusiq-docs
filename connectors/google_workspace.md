@@ -39,6 +39,9 @@ CorpusIQ never sends mail, creates events, edits files, or shares anything.
 - **Sheet read returns empty** — Confirm the spreadsheet ID and the range string (e.g. `Sheet1!A1:C10`). The ID is the long token in the sheet URL.
 
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + vendor public docs. Verify before publish. -->
+---
+
+*
 
 ---
 

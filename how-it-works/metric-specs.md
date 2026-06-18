@@ -481,6 +481,9 @@ authorization expired, QuickBooks rate-limits you), that's usually a
 connector problem rather than a spec problem — but `support@` is still
 the right starting point. Include the spec key and the exact question
 you asked Claude, and we can usually find the dispatch in the logs.
+---
+
+*
 
 ---
 

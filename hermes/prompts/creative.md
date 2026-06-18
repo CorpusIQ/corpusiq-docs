@@ -231,12 +231,13 @@ Include a 90-day editorial calendar layout and KPIs for measuring content effect
 - **Iterate with "more like X."** Once you see a direction you like, steer toward it explicitly.
 
 
----
 *From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

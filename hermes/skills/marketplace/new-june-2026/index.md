@@ -118,12 +118,13 @@ All skills installable via `npx skills add <owner/repo>@<skill>`. No additional 
 *↑ [Skills Home](/hermes/skills/)*
 
 
----
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

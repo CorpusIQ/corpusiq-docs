@@ -92,6 +92,9 @@ https://github.com/CorpusIQ/corpusiq-docs/discussions
 
 The [Community guide](community/README.md) explains which Discussion category to
 use for Q&A, early ideas, announcements, and show-and-tell posts.
+---
+
+*
 
 ---
 

@@ -40,6 +40,9 @@ CorpusIQ runs read queries only. It never inserts, updates, or drops anything.
 - No collections listed — confirm the user has read access to the database you selected.
 
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + standard MongoDB driver conventions. Verify before publish. -->
+---
+
+*
 
 ---
 

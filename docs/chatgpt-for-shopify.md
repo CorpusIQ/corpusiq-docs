@@ -227,12 +227,13 @@ ChatGPT for Shopify through CorpusIQ transforms how you interact with your ecomm
 </script>
 
 
----
 *Connect ChatGPT for Shopify — AI Ecommerce Analytics & Management... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect ChatGPT for Shopify — AI Ecommerce Analytics & Management... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

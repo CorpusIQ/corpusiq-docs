@@ -91,6 +91,9 @@ UNMATCHED (3 records)
 - **By sales channel:** Add "break down by Shopify sales channel" to separate
   online store, POS, and wholesale
 - **High-value threshold:** Add "flag any unmatched order over $500" for priority alerting
+---
+
+*
 
 ---
 

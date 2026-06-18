@@ -179,12 +179,13 @@ A: Standard REST APIs are used, so custom CRM objects/fields accessible via API 
 </script>
 
 
----
 *AI-powered AI for Revenue Operations | CorpusIQ MCP Platform for RevOps — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 
----
 *AI-powered AI for Revenue Operations | CorpusIQ MCP Platform for RevOps — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+---
+
+*
 
 ---
 

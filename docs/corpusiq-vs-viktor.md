@@ -62,12 +62,13 @@ CorpusIQ owns the entire pipeline:
 [Try CorpusIQ free →](https://www.corpusiq.io)
 
 
----
 *Compare CorpusIQ vs Viktor AI — Validated Intelligence vs Outsour... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
 
 
----
 *Compare CorpusIQ vs Viktor AI — Validated Intelligence vs Outsour... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
+---
+
+*
 
 ---
 

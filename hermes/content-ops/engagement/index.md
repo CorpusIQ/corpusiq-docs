@@ -480,6 +480,9 @@ def review_response_quality():
     # Update response templates based on findings
     update_response_templates(analysis)
 ```
+---
+
+*
 
 ---
 

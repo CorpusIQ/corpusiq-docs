@@ -240,10 +240,9 @@ A: Minimal. The main skill is learning to be specific in your questions. Most us
 - [Best Business AI Search Tool](/docs/best-business-ai-search-tool/)
 - [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for natural-language business intelligence.*
+*
 
 ---
 

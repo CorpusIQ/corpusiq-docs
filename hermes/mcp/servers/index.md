@@ -101,6 +101,9 @@ Beyond CorpusIQ's built-in connectors, the MCP ecosystem has 22,000+ third-party
 *↑ [MCP Documentation](/hermes/mcp/)*
 
 *Powered by CorpusIQ — 30+ MCP connectors, unified business intelligence*
+---
+
+*
 
 ---
 

@@ -236,12 +236,13 @@ CorpusIQ maintains SOC 2 Type II certification. Additional certifications are av
 </script>
 
 
----
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
 
 
----
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
+---
+
+*
 
 ---
 

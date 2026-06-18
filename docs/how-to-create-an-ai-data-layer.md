@@ -248,10 +248,9 @@ A: Data never leaves its source system. CorpusIQ doesn't store data. This simpli
 - [Best AI Data Connector — Rankings](/docs/best-ai-data-connector/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 - [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for AI data infrastructure.*
+*
 
 ---
 

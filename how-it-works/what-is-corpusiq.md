@@ -69,6 +69,9 @@ five spreadsheets and one tool, you don't need CorpusIQ yet.
 - [privacy-and-security.md](privacy-and-security.md) — what CorpusIQ
   does and doesn't do with your data.
 - [../quickstart/](../quickstart/) — get connected in 10 minutes.
+---
+
+*
 
 ---
 

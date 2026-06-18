@@ -259,10 +259,9 @@ A: Save the question text in a document or note. The AI will run it fresh each t
 - [Best AI Data Connector — Rankings](/docs/best-ai-data-connector/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 - [Top MCP Platforms — Comparison](/docs/top-mcp-platforms/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for multi-source business intelligence.*
+*
 
 ---
 

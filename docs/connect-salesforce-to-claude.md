@@ -184,12 +184,13 @@ CorpusIQ is SOC 2 compliant. The read-only architecture means no data can be mod
 </script>
 
 
----
 *Connect Connect Salesforce to Claude via MCP — Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect Salesforce to Claude via MCP — Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

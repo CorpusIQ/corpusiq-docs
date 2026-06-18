@@ -47,6 +47,9 @@ CorpusIQ never sends campaigns, edits flows, or modifies profiles.
 - **"403 Forbidden"** — Your private key is missing scopes. Recreate it and tick every read scope listed above.
 - **No campaigns returned** — Klaviyo separates email and SMS channels. If you only run SMS, switch the channel filter when asking.
 - **Predictive analytics empty** — Predictive CLV needs a minimum order history. New accounts may not have it populated for weeks.
+---
+
+*
 
 ---
 

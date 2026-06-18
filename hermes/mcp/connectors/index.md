@@ -150,6 +150,9 @@ New connectors are added through CorpusIQ platform updates. When a connector is 
 3. This page should be updated to reflect the addition
 
 To request a connector, contact CorpusIQ: [corpusiq.io](https://corpusiq.io)
+---
+
+*
 
 ---
 

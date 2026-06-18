@@ -17,6 +17,9 @@ a question. No deep tech — just enough to know what you're using.
 - [metric-specs.md](metric-specs.md) — declare a number once (MRR, AOV,
   active customers), then ask any AI client for it and get the same answer
   every time, with a provenance footer and cross-source drift checks.
+---
+
+*
 
 ---
 

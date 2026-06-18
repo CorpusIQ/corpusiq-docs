@@ -147,12 +147,13 @@ Webhooks eliminate polling latency but require your Hermes instance to be reacha
 - **Test in a sandbox channel first.** Set up a #bot-testing channel and direct all notifications there until you've tuned the signal-to-noise ratio.
 
 
----
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

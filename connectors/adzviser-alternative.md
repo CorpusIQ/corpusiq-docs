@@ -51,6 +51,9 @@ If your team only needs marketing channel data and you never need to cross-refer
 30-day free trial. No credit card. Setup takes under 10 minutes.
 
 [Try CorpusIQ free](https://www.corpusiq.io)
+---
+
+*
 
 ---
 

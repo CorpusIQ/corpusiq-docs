@@ -136,12 +136,13 @@ You don't want it when:
 - [mcp-architecture](../mcp-architecture/) — the substrate the registry assumes you have
 
 
----
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

@@ -35,6 +35,9 @@ Read-only. CorpusIQ never edits, deletes, or shares your files.
 - "Consent required" — your Microsoft 365 admin restricts third-party apps. Ask them to approve CorpusIQ for your tenant.
 - File not found — confirm the file lives in OneDrive (not SharePoint or Teams shared libraries).
 - Permission denied on a specific file — that file was shared with restricted access. Open it in OneDrive to confirm.
+---
+
+*
 
 ---
 

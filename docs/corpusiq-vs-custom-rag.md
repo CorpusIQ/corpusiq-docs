@@ -216,10 +216,9 @@ A: CorpusIQ is a managed platform. For custom logic, you can combine CorpusIQ (f
 - [Best MCP Server for Business](/docs/best-mcp-server-for-business/)
 - [Best AI Knowledge Platform](/docs/best-ai-knowledge-platform/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*
 
 ---
 

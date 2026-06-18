@@ -216,10 +216,9 @@ A: Results are delivered through your AI assistant, which can format them as tab
 - [Best Business AI Search Tool](/docs/best-business-ai-search-tool/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 - [Top Business AI Tools Comparison](/docs/top-business-ai-tools/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*
 
 ---
 

@@ -77,6 +77,9 @@ You can, but you'll have gaps. [Honcho only](/hermes/knowledge/) handles peer mo
 - [Best Practices Overview](/hermes/best-practices/) — All guides
 - [Security](security.md) — Don't store credentials in memory
 - [Skill Development](skill-development.md) — Procedural knowledge vs memory
+---
+
+*
 
 ---
 

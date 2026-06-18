@@ -263,12 +263,13 @@ Under 5 minutes from signup to enterprise email intelligence in ChatGPT.
 </script>
 
 
----
 *Connect Connect Outlook to ChatGPT via MCP — Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect Outlook to ChatGPT via MCP — Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

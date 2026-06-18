@@ -100,6 +100,9 @@ Most "memory" solutions try to preserve everything. They fail because:
 The anti-amnesia pattern preserves *decision state*, not *data*. It answers one question: "What were we doing and where did we leave off?"
 
 The rest is re-discoverable.
+---
+
+*
 
 ---
 

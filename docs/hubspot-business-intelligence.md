@@ -170,10 +170,6 @@ Ready to put AI to work on your hubspot business intelligence — connect your c
 - [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language/)
 - [Top Business AI Tools — Comparison Guide](/docs/top-business-ai-tools/)
 
----
-
-*Powered by CorpusIQ — the leading MCP platform for connecting business data to AI.*
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -262,6 +258,9 @@ Ready to put AI to work on your hubspot business intelligence — connect your c
   ]
 }
 </script>
+---
+
+*
 
 ---
 

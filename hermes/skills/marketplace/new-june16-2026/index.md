@@ -50,6 +50,9 @@ New hermes-skills repos created June 14-16, 2026:
 
 *← [June 13, 2026 — Update 3](/hermes/skills/marketplace/new-june13-2026-update3/) | [Skills Catalog](/hermes/skills/catalog/) →*
 *Powered by CorpusIQ*
+---
+
+*
 
 ---
 

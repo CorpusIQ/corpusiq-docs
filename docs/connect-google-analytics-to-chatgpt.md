@@ -270,12 +270,13 @@ The GA4 Data API is powerful but requires significant engineering to make conver
 </script>
 
 
----
 *Connect Connect Google Analytics to ChatGPT via MCP — Live Data, ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect Google Analytics to ChatGPT via MCP — Live Data, ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

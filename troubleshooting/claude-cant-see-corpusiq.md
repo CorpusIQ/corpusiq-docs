@@ -83,6 +83,9 @@ Send support:
 - Your operating system (Mac or Windows, version).
 - The contents of `claude_desktop_config.json` (redact any tokens).
 - A screenshot of Claude's MCP/connector panel.
+---
+
+*
 
 ---
 

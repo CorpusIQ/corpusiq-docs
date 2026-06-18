@@ -174,12 +174,13 @@ A: Yes. Ask Claude for a formatted project status report and it will synthesize 
 </script>
 
 
----
 *AI-powered AI for Project Management | CorpusIQ MCP Platform for PM ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 
----
 *AI-powered AI for Project Management | CorpusIQ MCP Platform for PM ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+---
+
+*
 
 ---
 

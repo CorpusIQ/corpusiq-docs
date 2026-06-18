@@ -259,6 +259,9 @@ npx skills add useai-pro/openclaw-skills-security --skill setup-auditor -a herme
 **New this update:** 13 skills
 **Marketplace subtotal before:** 248 → **After:** 261
 **Total skills:** 337 → **350**
+---
+
+*
 
 ---
 

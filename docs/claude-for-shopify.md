@@ -227,12 +227,13 @@ Claude for Shopify through CorpusIQ brings enterprise-grade analytical depth to 
 </script>
 
 
----
 *Connect Claude for Shopify — Advanced Ecommerce AI Analysis | Cor... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Claude for Shopify — Advanced Ecommerce AI Analysis | Cor... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

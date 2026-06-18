@@ -50,10 +50,9 @@ What percentage of users who signed up last week are still active today?
 | Custom HogQL queries | ✅ |
 | Session recordings | ❌ |
 | Feature flags | ❌ |
-
 ---
 
-*CorpusIQ is read-only. We never write to or modify your PostHog data.*
+*
 
 ---
 

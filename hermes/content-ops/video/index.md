@@ -443,6 +443,9 @@ def track_video_performance(video_id: str, platforms: list[str]):
 **Platform rejects video:** Check codec, resolution, and duration requirements before uploading. YouTube accepts almost anything; TikTok and Reels are stricter.
 
 **Caption timing drift:** Transcribe audio first, then align captions to the transcript timing rather than predicting timing from script alone.
+---
+
+*
 
 ---
 

@@ -122,6 +122,9 @@ skill_view(name="soul-grader", file_path="references/soul-md-grading-standard.md
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Home](/hermes/) →*
 *Powered by CorpusIQ*
+---
+
+*
 
 ---
 

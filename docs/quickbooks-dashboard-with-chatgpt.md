@@ -289,12 +289,13 @@ A ChatGPT-powered QuickBooks dashboard is the fastest path to financial visibili
 </script>
 
 
----
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
 
 
----
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
+---
+
+*
 
 ---
 

@@ -176,12 +176,13 @@ For each finding, categorize as Critical/High/Medium/Low with remediation code.
 - **Chain prompts.** Use code generation → code review → test generation as a pipeline for higher quality output.
 
 
----
 *From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

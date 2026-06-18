@@ -80,6 +80,9 @@ Rotate API keys and tokens quarterly at minimum. Document the rotation procedure
 - [Memory Management](memory-management.md) — Don't store secrets in memory
 - [MCP Integration Guide](/hermes/mcp/) — Connector authentication
 - [Troubleshooting](/hermes/troubleshooting/) — Fix OAuth token expiry
+---
+
+*
 
 ---
 

@@ -226,8 +226,10 @@ A: Ask your agent: 'What data sources are connected to CorpusIQ?' It should list
 - **[CorpusIQ Connectors Directory](/docs/connectors)** — All 50+ data source integrations  
 - **[Enterprise AI Data Access](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2 compliance  
 
----
 *Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+---
+
+*
 
 ---
 

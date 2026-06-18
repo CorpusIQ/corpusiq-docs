@@ -268,12 +268,13 @@ Setup takes under 5 minutes. No code. No CSV exports. No data warehouse configur
 </script>
 
 
----
 *Connect Connect QuickBooks to ChatGPT via MCP — Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect QuickBooks to ChatGPT via MCP — Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

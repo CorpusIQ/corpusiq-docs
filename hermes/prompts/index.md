@@ -123,12 +123,13 @@ Use different system prompts for different stages:
 These prompts are starting points. As you discover effective variations, adapt them to your workflow. The best prompt is the one that consistently produces useful output for your specific context — invest in refining it over time.
 
 
----
 *From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

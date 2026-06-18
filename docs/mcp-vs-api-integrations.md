@@ -236,12 +236,13 @@ Yes. MCP is an open protocol with SDKs available. You can build custom MCP serve
 </script>
 
 
----
 *Compare MCP vs API Integrations: AI-Native Tool Discovery vs Cust... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
 
 
----
 *Compare MCP vs API Integrations: AI-Native Tool Discovery vs Cust... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
+---
+
+*
 
 ---
 

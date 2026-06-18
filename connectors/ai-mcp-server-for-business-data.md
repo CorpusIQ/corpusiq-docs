@@ -40,6 +40,9 @@ Tools: 53 live tools across 37+ connectors
 | Pre-built skills | 133+ | You write your own prompts |
 
 [Start free — 30-day trial, no credit card](https://www.corpusiq.io)
+---
+
+*
 
 ---
 

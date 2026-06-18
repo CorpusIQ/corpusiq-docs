@@ -40,6 +40,9 @@ Read-only. CorpusIQ never consumes Ahrefs API rows beyond the queries you ask fo
 - **"API token invalid"** — Confirm your Ahrefs plan includes API access (Advanced or higher) and that the token hasn't been rotated.
 - **"No data for domain"** — Ahrefs may not have crawled the domain yet, or the domain is very new. Try a more established domain to verify the connection works.
 - **Rate limits** — Ahrefs enforces per-token rate limits. If you're querying heavily, space out requests or upgrade your plan.
+---
+
+*
 
 ---
 

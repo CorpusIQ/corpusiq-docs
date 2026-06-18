@@ -42,6 +42,9 @@ CorpusIQ never inserts, updates, or deletes documents.
 - **"401 Unauthorized"** — Key is wrong or expired. Get a fresh primary key from Azure portal → Cosmos DB account → Keys.
 - **AAD auth fails** — The principal must hold the Cosmos DB Built-in Data Reader role (not just RBAC on the account).
 - **Cross-partition errors** — Some queries need `cross_partition=true`. Toggle it in the connection settings if your container is partitioned.
+---
+
+*
 
 ---
 

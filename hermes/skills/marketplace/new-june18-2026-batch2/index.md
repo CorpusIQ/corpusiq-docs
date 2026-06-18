@@ -222,3 +222,10 @@ Then reference the skill by name in your agent profile.
 - See the [full skills catalog](/hermes/skills/catalog/) for setup guides
 - See [skill marketplaces](/hermes/skills/skill-marketplaces/) for discovery and publishing
 - See the [June 18 Batch 1](../new-june18-2026/) for the earlier 32 high-install skills
+---
+
+*
+
+---
+
+*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

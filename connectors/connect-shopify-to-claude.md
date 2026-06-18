@@ -47,6 +47,9 @@ Shopify Analytics answers Shopify questions. CorpusIQ answers *business* questio
 - [Klaviyo](https://www.corpusiq.io/connectors/klaviyo) — email revenue attribution
 
 [Start free — connect Shopify to Claude today](https://www.corpusiq.io)
+---
+
+*
 
 ---
 

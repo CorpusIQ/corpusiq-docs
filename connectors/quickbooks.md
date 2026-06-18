@@ -42,6 +42,9 @@ Read-only. CorpusIQ never creates invoices, records payments, or changes anythin
 - "Could not connect to Intuit" — Intuit OAuth occasionally rate-limits. Wait 60 seconds and retry.
 - Wrong company file connected — disconnect QuickBooks in your dashboard and reconnect, picking the correct company.
 - Numbers don't match your accountant's report — make sure you specify accrual vs. cash basis in your question; CorpusIQ uses your QuickBooks default.
+---
+
+*
 
 ---
 

@@ -78,6 +78,9 @@ If none of the above worked, collect:
 Email support. There's a per-connector page in
 [../connectors/](../connectors/) with vendor-specific quirks worth
 checking too.
+---
+
+*
 
 ---
 

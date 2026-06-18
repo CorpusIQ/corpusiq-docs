@@ -93,6 +93,9 @@ personal@example.com → NEVER forwarded, confidential
 3. Always verify sender before responding
 4. Log all outbound messages to activity-log.jsonl
 5. Token refresh: Google OAuth tokens persist via headless automation
+---
+
+*
 
 ---
 

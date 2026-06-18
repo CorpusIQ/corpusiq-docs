@@ -200,12 +200,13 @@ CorpusIQ maintains the MCP connectors, so API changes are handled on the platfor
 </script>
 
 
----
 *Compare MCP vs Zapier: Real-Time AI Queries vs Polling Workflows ... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
 
 
----
 *Compare MCP vs Zapier: Real-Time AI Queries vs Polling Workflows ... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
+---
+
+*
 
 ---
 

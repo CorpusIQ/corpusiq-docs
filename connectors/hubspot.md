@@ -37,6 +37,9 @@ CorpusIQ never creates contacts, moves deals, or sends sequences.
 - **"Wrong portal"** — HubSpot prompts you to pick a portal during OAuth. If you authorized the wrong one, disconnect and reconnect.
 - **"Insufficient scopes"** — Reconnect and make sure all requested scopes are checked. Free HubSpot accounts may not grant some object scopes.
 - **Search returns nothing** — HubSpot search indexes a subset of fields. Try the full name or email instead of a partial match.
+---
+
+*
 
 ---
 

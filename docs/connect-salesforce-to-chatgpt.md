@@ -262,12 +262,13 @@ Setup takes under 5 minutes for a connection that would take weeks to build via 
 </script>
 
 
----
 *Connect Connect Salesforce to ChatGPT via MCP — Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect Salesforce to ChatGPT via MCP — Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

@@ -260,12 +260,13 @@ Setup takes under 5 minutes. No API keys to manage. No GraphQL to write.
 </script>
 
 
----
 *Connect Connect Monday.com to ChatGPT via MCP — Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect Monday.com to ChatGPT via MCP — Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

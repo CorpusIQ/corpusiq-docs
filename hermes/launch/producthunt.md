@@ -18,12 +18,13 @@ CorpusIQ owns the entire pipeline:
 I built CorpusIQ because every AI tool that connects to business data has the same problem — they outsource the connector layer. When you don't own the data pipeline, you can't validate anything. The output looks good but the numbers might be wrong. For financial decisions, that's unacceptable. So we built the entire intelligence layer ourselves. Validation. Normalization. Entity resolution. Anti-drift. Every single piece. Happy to answer questions.
 
 
----
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

@@ -258,10 +258,9 @@ A: Connect your first 3-5 sources (30 minutes). Start asking questions immediate
 - [Best Business AI Search Tool](/docs/best-business-ai-search-tool/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 - [Top Business AI Tools — Rankings](/docs/top-business-ai-tools/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for centralized AI-powered company knowledge.*
+*
 
 ---
 

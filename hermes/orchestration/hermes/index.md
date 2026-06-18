@@ -163,12 +163,13 @@ Reflexion wraps existing execution paths. Any agent task can be reflexion-enable
 At 23:00, the daily self-improvement cycle analyzes the day's reflexion logs, identifies patterns, and patches skills to prevent recurrence of common errors. This is cumulative: the platform improves daily.
 
 
----
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

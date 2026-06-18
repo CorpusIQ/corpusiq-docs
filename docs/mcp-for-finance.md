@@ -220,12 +220,13 @@ Yes. CorpusIQ's canonical facts feature lets you define how key metrics should b
 </script>
 
 
----
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 
 
----
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+---
+
+*
 
 ---
 

@@ -42,6 +42,9 @@ CorpusIQ never sends messages, books appointments, or charges customers.
 - **Empty pipeline** — Make sure your opportunities live in the location you authorized, not a sibling sub-account.
 
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + vendor public docs. Verify before publish. -->
+---
+
+*
 
 ---
 

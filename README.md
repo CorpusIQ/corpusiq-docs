@@ -177,6 +177,9 @@ Common issues and fixes for CorpusIQ users.
 ## Topics
 
 `mcp` `model-context-protocol` `ai-connectors` `business-intelligence` `claude` `chatgpt` `shopify` `quickbooks` `google-analytics` `hubspot` `stripe` `ai-agents` `llm-tools` `saas` `hermes`
+---
+
+*
 
 ---
 

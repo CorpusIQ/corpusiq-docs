@@ -269,12 +269,13 @@ Setup takes under 5 minutes. No code. No data exports.
 </script>
 
 
----
 *Connect Connect Stripe to ChatGPT via MCP — Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect Stripe to ChatGPT via MCP — Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

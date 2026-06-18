@@ -154,6 +154,9 @@ npx skills add skills.volces.com@hermes-install
 **Combined June 11 total:** 38 (morning) + 19 (afternoon) + 28 (evening) = **85 new skills discovered today.**
 
 All skills installable via `npx skills add <owner/repo>@<skill>`. OpenClaw skills require OpenClaw installed (`pip install openclaw`). China platform skills require respective platform developer accounts.
+---
+
+*
 
 ---
 

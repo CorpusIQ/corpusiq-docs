@@ -49,6 +49,9 @@ or common errors and how to handle them.]
 
 [Optional. List common adaptations — different time windows, additional filters,
 output format changes.]
+---
+
+*
 
 ---
 

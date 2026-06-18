@@ -296,12 +296,13 @@ Your Shopify store generates the data. AI-powered sales analysis turns it into r
 </script>
 
 
----
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
 
 
----
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
+---
+
+*
 
 ---
 

@@ -218,10 +218,9 @@ A: CorpusIQ offers a free tier. Most enterprise solutions offer trials or POCs.
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 - [Top Business AI Tools](/docs/top-business-ai-tools/)
 - [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for business AI search.*
+*
 
 ---
 

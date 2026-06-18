@@ -162,8 +162,10 @@ A: Most queries return results in 1–5 seconds. Cross-source queries spanning m
 - **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2, and data residency  
 - **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption, network security, and compliance  
 
----
 *Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+---
+
+*
 
 ---
 

@@ -26,6 +26,9 @@ Sign up at corpusiq.io, verify your email, land on the dashboard.
 
 [2. Connect Claude →](02-connect-claude.md) or
 [3. Connect ChatGPT →](03-connect-chatgpt.md)
+---
+
+*
 
 ---
 

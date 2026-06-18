@@ -387,12 +387,13 @@ The base MCP protocol is request-response oriented. However, the HTTP+SSE transp
 </script>
 
 
----
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 
 
----
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+---
+
+*
 
 ---
 

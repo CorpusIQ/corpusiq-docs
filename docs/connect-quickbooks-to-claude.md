@@ -250,12 +250,13 @@ Yes. CorpusIQ supports multiple QuickBooks company connections, each with indepe
 </script>
 
 
----
 *Connect Connect QuickBooks to Claude via MCP — Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect QuickBooks to Claude via MCP — Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

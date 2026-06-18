@@ -91,6 +91,9 @@ cron: drift-report (daily at 6 AM)
 | `activity-log.jsonl` | All agent actions |
 | `lead-pipeline.jsonl` | Lead state transitions |
 | `email-monitor.log` | Inbound email processing |
+---
+
+*
 
 ---
 

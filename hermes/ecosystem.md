@@ -3176,10 +3176,6 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
----
-
-*Last updated: June 16, 2026 · [Star this repo →](https://github.com/CorpusIQ/corpusiq-docs) · Powered by CorpusIQ*
-
 > **📊 Ecosystem Stats:** 286 repos · 18 categories · 1M+ community stars · 48 skill collections · 20 MCP integrations · 15 domain applications
 
 ---
@@ -3264,6 +3260,9 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 - [Skills Catalog — 133+ Production Skills](/hermes/skills/catalog/)
 - [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
 - [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)
+---
+
+*
 
 ---
 

@@ -106,6 +106,9 @@ hermes execute "Create a branch, add a README fix, and open a PR"
 ```
 
 All development skills include verification steps — they confirm `git push` succeeded, CI is actually running, and the PR is visible on GitHub before reporting success. No "fire and forget" assumptions.
+---
+
+*
 
 ---
 

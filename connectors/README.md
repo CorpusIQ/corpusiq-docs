@@ -84,6 +84,9 @@ The flow is the same for every connector:
 
 Connector-specific notes — required plans, admin roles, choosing the right
 account out of several — are on each individual page.
+---
+
+*
 
 ---
 

@@ -177,12 +177,13 @@ A: No. All integrations are read-only.
 </script>
 
 
----
 *AI-powered AI for Sales Reporting | CorpusIQ MCP Platform for Sales ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 
----
 *AI-powered AI for Sales Reporting | CorpusIQ MCP Platform for Sales ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+---
+
+*
 
 ---
 

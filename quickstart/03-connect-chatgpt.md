@@ -46,6 +46,9 @@ you authenticate them — that's the next step.
 ## Trouble?
 
 See [ChatGPT can't see CorpusIQ](../troubleshooting/chatgpt-cant-see-corpusiq.md).
+---
+
+*
 
 ---
 

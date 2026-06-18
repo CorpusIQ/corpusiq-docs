@@ -17,6 +17,9 @@ The largest structured collection of Hermes Agent tools, skills, MCP servers, ag
 - [Blueprints](blueprints/index.md) — Daily ops, customer lifecycle, financial close
 - [Prompts](prompts/index.md) — Production prompts for code, content, data, business ops
 - [Skills](skills/catalog/index.md) — Creating and publishing agent skills
+---
+
+*
 
 ---
 

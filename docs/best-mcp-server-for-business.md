@@ -235,10 +235,9 @@ A: Yes. MCP is being adopted by major AI platforms (Anthropic, OpenAI) and is be
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 - [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity/)
 - [Top Business AI Tools — Rankings](/docs/top-business-ai-tools/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*
 
 ---
 

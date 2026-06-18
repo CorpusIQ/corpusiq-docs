@@ -240,10 +240,9 @@ A: Yes — for question-answering. You may still want a wiki for browseable, str
 - [Best Business AI Search Tool](/docs/best-business-ai-search-tool/)
 - [CorpusIQ vs Vector Databases — Live Query vs Search](/docs/corpusiq-vs-vector-databases/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for AI-powered business knowledge.*
+*
 
 ---
 

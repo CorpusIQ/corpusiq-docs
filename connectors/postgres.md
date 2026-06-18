@@ -39,6 +39,9 @@ CorpusIQ runs SELECT queries only. No writes, no schema changes.
 - "Permission denied for table" — grant SELECT on the schema to your CorpusIQ user.
 
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + standard Postgres conventions. Verify before publish. -->
+---
+
+*
 
 ---
 

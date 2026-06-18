@@ -260,12 +260,13 @@ Under 5 minutes from signup to your first project management query in ChatGPT.
 </script>
 
 
----
 *Connect Connect Asana to ChatGPT via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect Asana to ChatGPT via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

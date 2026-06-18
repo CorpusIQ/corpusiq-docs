@@ -40,6 +40,9 @@ Read-only. CorpusIQ never confirms orders, posts invoices, or moves stock.
 - "Authentication failed" — generate a fresh API key in Odoo (Preferences → Account Security) and retry.
 - "Database not found" — check that the database name exactly matches what Odoo shows on the login screen.
 - A module looks empty — confirm the connected user has access rights to that module's records.
+---
+
+*
 
 ---
 

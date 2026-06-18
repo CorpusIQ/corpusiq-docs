@@ -350,6 +350,9 @@ MCP servers run as subprocesses managed by Hermes. Each server:
 - **Tool registration:** Automatic — Hermes discovers tools on connect
 
 **The CorpusIQ advantage:** 37+ business platforms through ONE MCP server. No managing 37 API keys, no 37 different auth flows. One OAuth, one server, 53 tools.
+---
+
+*
 
 ---
 

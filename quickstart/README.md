@@ -22,10 +22,9 @@ New to CorpusIQ? Start at [step 1](01-create-account.md).
 Already signed up? Jump to [step 4](04-first-connector.md) (authenticate a connector).
 
 Already have a connector authenticated? Try [step 6](06-first-cross-source-query.md) (multi-connector queries).
-
 ---
 
-**Powered by CorpusIQ**
+*
 
 ---
 

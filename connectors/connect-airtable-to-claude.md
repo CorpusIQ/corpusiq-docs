@@ -26,6 +26,9 @@ Read-only. CorpusIQ never modifies your Airtable bases or records.
 3. Ask your first question
 
 [Connect Airtable to Claude free](https://www.corpusiq.io)
+---
+
+*
 
 ---
 

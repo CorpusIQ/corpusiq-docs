@@ -139,6 +139,9 @@ Extend Hermes Agent through [MCP servers](/hermes/mcp/) for external tools, [ski
 - [MCP Integration Guide](/hermes/mcp/) — Connect external tools and data
 - [Cron Design Best Practices](/hermes/best-practices/cron-design.md) — Reliable scheduled automation
 - [Troubleshooting Guide](/hermes/troubleshooting/) — Common issues and fixes
+---
+
+*
 
 ---
 

@@ -245,6 +245,9 @@ Building a business intelligence capability used to require data warehouses, ETL
 
 ---
 *AI-powered Shopify Business Intelligence — AI-Powered Ecommerce BI |... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+---
+
+*
 
 ---
 

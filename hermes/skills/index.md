@@ -158,6 +158,9 @@ The Hermes community hub includes a curated [Skills Marketplace](/hermes/skills/
 | **[Marketing](/hermes/skills/marketing/)** | SEO, CRO, ads, content strategy, cold outreach, community |
 | **[Engineering](/hermes/skills/engineering/)** | MCP architecture, connector audits, API dev, frontend, cron |
 | **[Operations](/hermes/skills/operations/)** | Email, cron, audit, lead capture, monitoring, governance |
+---
+
+*
 
 ---
 

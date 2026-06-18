@@ -226,12 +226,13 @@ ChatGPT for HubSpot through CorpusIQ transforms how your team interacts with CRM
 </script>
 
 
----
 *Connect ChatGPT for HubSpot — AI CRM Analytics & Sales Intelligen... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect ChatGPT for HubSpot — AI CRM Analytics & Sales Intelligen... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

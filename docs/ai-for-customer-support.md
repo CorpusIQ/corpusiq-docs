@@ -177,12 +177,13 @@ A: Yes. Team-level access controls determine which connectors each user can quer
 </script>
 
 
----
 *AI-powered AI for Customer Support | CorpusIQ MCP Platform for Suppo... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 
----
 *AI-powered AI for Customer Support | CorpusIQ MCP Platform for Suppo... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+---
+
+*
 
 ---
 

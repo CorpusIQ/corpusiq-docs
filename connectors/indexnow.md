@@ -150,6 +150,9 @@ After submitting to IndexNow, remind me to check Search Console impressions in 2
   discretion.
 - Combine with [Search Console](search-console.md) and [Semrush](semrush.md) to measure
   ranking lift after submission.
+---
+
+*
 
 ---
 

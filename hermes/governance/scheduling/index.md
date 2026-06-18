@@ -311,6 +311,9 @@ hermes cron create \
 4. **Delivery targets matter** — Telegram T2 for human-readable reports, `local` for machine-readable logs.
 5. **Context-from is powerful** — chain crons: collect data with a script, analyze with an agent.
 6. **Mass pauses are a symptom** — if you pause 15 crons at once, something cascaded. Find the root cause.
+---
+
+*
 
 ---
 

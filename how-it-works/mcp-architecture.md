@@ -296,6 +296,9 @@ parameter names.
 - [Prompts: MCP developer queries](../prompts/mcp-developer-queries.md)
   — 20+ example prompts for developers.
 - [Quickstart](../quickstart/) — fastest path from zero to first answer.
+---
+
+*
 
 ---
 

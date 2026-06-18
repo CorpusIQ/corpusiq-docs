@@ -79,6 +79,9 @@ hermes skills list | grep spike
 *← [Skills Catalog](/hermes/skills/catalog/) | [June 15 Discovery](/hermes/skills/marketplace/new-june15-2026/) →*
 
 *Powered by CorpusIQ*
+---
+
+*
 
 ---
 

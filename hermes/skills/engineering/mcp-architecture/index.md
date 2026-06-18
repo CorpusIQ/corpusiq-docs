@@ -165,12 +165,13 @@ The substantive pitfalls from the source skill — each one earned the hard way 
 If you're just running existing tools, you don't need this skill loaded.
 
 
----
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

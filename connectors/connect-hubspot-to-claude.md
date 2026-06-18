@@ -35,6 +35,9 @@ Read-only. CorpusIQ never creates or modifies CRM records.
 "Which deals should we focus on this week?" — CorpusIQ pulls deal stage, last activity, close date, and rep notes across your entire pipeline and surfaces the answer in seconds.
 
 [Start free — connect HubSpot to Claude](https://www.corpusiq.io)
+---
+
+*
 
 ---
 

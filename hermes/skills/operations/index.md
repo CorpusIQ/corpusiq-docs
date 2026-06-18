@@ -87,6 +87,9 @@ All operations skills follow three hard rules:
 2. **Fail loudly.** Silent failures compound. If an email cron can't connect, the agent reports the failure with the exact error, not "completed with issues."
 
 3. **Self-heal where possible.** For known failure patterns (expired tokens, full disks, stale processes), the skill includes recovery steps. Don't just detect — fix.
+---
+
+*
 
 ---
 

@@ -169,10 +169,6 @@ Ready to put AI to work on your corpusiq vs fivetran — mcp live query vs etl b
 - [Top MCP Platforms Compared](/docs/top-mcp-platforms/)
 - [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity/)
 
----
-
-*Powered by CorpusIQ — the leading MCP platform for zero-ETL business intelligence.*
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -245,6 +241,9 @@ Ready to put AI to work on your corpusiq vs fivetran — mcp live query vs etl b
   ]
 }
 </script>
+---
+
+*
 
 ---
 

@@ -113,6 +113,9 @@ Deal: Epsilon Media — Stage: Qualified — $28,000 — 11 days in stage
 - **Custom stages:** Replace stage names with your pipeline's actual stage names
   (e.g. "Discovery", "POC", "Legal Review")
 - **Tighter window:** Change email engagement to 7-day window for higher-velocity sales cycles
+---
+
+*
 
 ---
 

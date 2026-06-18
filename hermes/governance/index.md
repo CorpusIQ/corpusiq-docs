@@ -35,6 +35,9 @@ Layer 1: Process — agent alive, CPU/memory bounds, no zombies
 Layer 2: Operations — crons firing, emails flowing, APIs valid
 Layer 3: Quality — outputs meeting thresholds, correct channels
 ```
+---
+
+*
 
 ---
 

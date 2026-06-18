@@ -182,12 +182,13 @@ Yes. Configure your NetSuite role's subsidiary restrictions — CorpusIQ honors 
 </script>
 
 
----
 *Connect Connect NetSuite to Claude via MCP — Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect NetSuite to Claude via MCP — Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

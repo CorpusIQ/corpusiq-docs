@@ -114,8 +114,10 @@ A: Single-source queries, cross-source correlation, trend analysis, date-range f
 - **[CorpusIQ Onboarding Guide](/docs/onboarding/README)** — AI chat and agent setup in 10 minutes  
 - **[MSR Governance Framework](/docs/governance/README)** — Source of truth and audit controls  
 
----
 *Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+---
+
+*
 
 ---
 

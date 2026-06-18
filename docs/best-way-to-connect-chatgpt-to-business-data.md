@@ -235,10 +235,9 @@ A: CorpusIQ offers a free tier. The free tier of ChatGPT has limited MCP support
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 - [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity/)
 - [Top Business AI Tools](/docs/top-business-ai-tools/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for ChatGPT business intelligence.*
+*
 
 ---
 

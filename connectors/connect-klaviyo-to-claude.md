@@ -35,6 +35,9 @@ Read-only. CorpusIQ never sends emails or modifies your lists.
 "Which email campaign drove the most Shopify revenue last month — and what was the ROAS?" connects Klaviyo attribution + Shopify orders in one answer.
 
 [Start free — connect Klaviyo to Claude](https://www.corpusiq.io)
+---
+
+*
 
 ---
 

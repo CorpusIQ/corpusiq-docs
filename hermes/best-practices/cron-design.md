@@ -100,6 +100,9 @@ Track start/end timestamps, record counts processed, error counts by type, and l
 - [Security](security.md) — Credential management for scheduled tasks
 - [Setup Guides](/hermes/setup/) — Run crons on [cloud VPS](/hermes/setup/cloud-vps.md) or [Raspberry Pi](/hermes/setup/raspberry-pi.md)
 - [Blueprints](/hermes/blueprints/) — End-to-end cron-anchored workflows
+---
+
+*
 
 ---
 

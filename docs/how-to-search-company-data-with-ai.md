@@ -246,10 +246,9 @@ A: Yes. Any AI assistant with MCP support on mobile can search your company data
 - [Best AI Knowledge Platform — Comparison](/docs/best-ai-knowledge-platform/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 - [Top Business AI Tools — Rankings](/docs/top-business-ai-tools/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*
 
 ---
 

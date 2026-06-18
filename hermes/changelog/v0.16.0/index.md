@@ -199,6 +199,9 @@ The dashboard is now a complete browser-based administration surface:
 - **@helix4u** (6 PRs) — gateway service-restart, update guard
 - **@jquesnelle** (4 PRs) — installer, desktop tooling
 - **@JimLiu** — Simplified Chinese translation + i18n layer
+---
+
+*
 
 ---
 

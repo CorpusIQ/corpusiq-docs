@@ -261,12 +261,13 @@ Setup takes under 5 minutes. No SharePoint admin configuration required.
 </script>
 
 
----
 *Connect Connect SharePoint to ChatGPT via MCP — Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect SharePoint to ChatGPT via MCP — Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

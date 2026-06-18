@@ -213,12 +213,13 @@ Agency pricing is designed to scale predictably. Contact CorpusIQ for agency-spe
 </script>
 
 
----
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 
 
----
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+---
+
+*
 
 ---
 

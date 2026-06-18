@@ -40,6 +40,9 @@ Google Ads spend + GA4 sessions + Shopify revenue in one answer:
 That's the question most operators can't answer. CorpusIQ answers it in 30 seconds.
 
 [Start free — connect Google Ads to Claude](https://www.corpusiq.io)
+---
+
+*
 
 ---
 

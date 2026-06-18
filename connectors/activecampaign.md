@@ -40,6 +40,9 @@ CorpusIQ never sends mail, edits contacts, or changes automations.
 - **"Invalid API key"** — Regenerate the key in ActiveCampaign (Settings → Developer) and paste the new value.
 - **API URL wrong** — It must be your full account URL like `https://youraccount.api-us1.com`, not the dashboard URL.
 - **Empty campaign list** — Your API user may not have permission for the campaign view; switch to an admin-level key.
+---
+
+*
 
 ---
 

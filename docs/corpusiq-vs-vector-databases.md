@@ -159,10 +159,6 @@ Ready to put AI to work on your corpusiq vs vector databases — mcp retrieval v
 - [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 
----
-
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -235,6 +231,9 @@ Ready to put AI to work on your corpusiq vs vector databases — mcp retrieval v
   ]
 }
 </script>
+---
+
+*
 
 ---
 

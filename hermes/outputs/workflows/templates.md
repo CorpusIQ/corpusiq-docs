@@ -277,12 +277,13 @@ Edit the YAML `schedule` field with standard cron expressions, and adjust thresh
 - [Architecture — 6-Layer Production Model](/hermes/architecture/)
 
 
----
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

@@ -40,6 +40,9 @@ CorpusIQ never creates leads, moves opportunities, or logs activities.
 - **"No leads returned"** — Your API key may be scoped to a specific user. Try generating a key with organization-wide access.
 - **Search returns unexpected results** — Close search uses its own query language. Try exact phrases or use the full-text search for broader matching.
 - **Auth fails after key rotation** — Update the key in your CorpusIQ Connections dashboard.
+---
+
+*
 
 ---
 

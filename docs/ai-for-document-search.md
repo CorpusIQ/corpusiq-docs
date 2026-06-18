@@ -189,12 +189,13 @@ A: No. Document content is streamed directly from the source system for each que
 </script>
 
 
----
 *AI-powered AI for Document Search | CorpusIQ MCP Platform for Enterp... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 
----
 *AI-powered AI for Document Search | CorpusIQ MCP Platform for Enterp... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+---
+
+*
 
 ---
 

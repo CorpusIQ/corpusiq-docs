@@ -116,6 +116,9 @@ You control access. To remove CorpusIQ's access to Stripe, go to **Developers â†
 - **Stripe Sigma / custom Reports API** â€” likely out of scope; ask if you need it.
 
 If you need any of the above sooner, ask CorpusIQ support.
+---
+
+*
 
 ---
 

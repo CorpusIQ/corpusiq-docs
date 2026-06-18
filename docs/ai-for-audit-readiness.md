@@ -171,12 +171,13 @@ A: All data is pulled from live systems via read-only API connections. Evidence 
 </script>
 
 
----
 *AI-powered AI for Audit Readiness | CorpusIQ MCP Platform for Audit ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 
----
 *AI-powered AI for Audit Readiness | CorpusIQ MCP Platform for Audit ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+---
+
+*
 
 ---
 

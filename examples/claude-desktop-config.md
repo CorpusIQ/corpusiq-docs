@@ -155,6 +155,9 @@ What was the revenue per paid session?
 ```
 
 See the [recipes/](../recipes/) directory for more query patterns.
+---
+
+*
 
 ---
 

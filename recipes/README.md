@@ -25,6 +25,9 @@ be copied, adapted, and run directly against your CorpusIQ MCP instance.
 
 See [CONTRIBUTING.md](../CONTRIBUTING.md) for submission instructions.
 Use [TEMPLATE.md](TEMPLATE.md) as your starting point.
+---
+
+*
 
 ---
 

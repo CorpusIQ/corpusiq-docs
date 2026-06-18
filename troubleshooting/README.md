@@ -17,6 +17,9 @@ Five pages for the most common things that go sideways.
 If your issue isn't on this list, see the "escalate to support" section at the
 bottom of the error codes reference, or email support with: which connector,
 what you asked, what Claude or ChatGPT showed you.
+---
+
+*
 
 ---
 

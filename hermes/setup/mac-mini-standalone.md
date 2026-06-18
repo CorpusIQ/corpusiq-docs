@@ -201,6 +201,9 @@ Add a [gaming PC worker node](gaming-pc.md) via SSH for GPU-heavy inference, or 
 - [Memory Architecture](/hermes/knowledge/) — Triple-stack agent memory
 - [MCP Integration Guide](/hermes/mcp/) — Connect 37+ business platforms
 - [Troubleshooting Guide](/hermes/troubleshooting/) — Common Mac Mini issues
+---
+
+*
 
 ---
 

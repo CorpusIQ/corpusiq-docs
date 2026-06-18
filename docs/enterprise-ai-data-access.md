@@ -303,12 +303,13 @@ A: Yes. CorpusIQ's enterprise offering includes support for custom MCP connector
 ```
 
 
----
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
 
 
----
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
+---
+
+*
 
 ---
 

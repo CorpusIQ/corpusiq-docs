@@ -186,12 +186,13 @@ A: Grant CorpusIQ access only to specific channels by configuring your Slack app
 </script>
 
 
----
 *Connect Connect Slack to Claude | CorpusIQ MCP Integration for Te... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect Slack to Claude | CorpusIQ MCP Integration for Te... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

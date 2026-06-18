@@ -167,10 +167,6 @@ Ready to put AI to work on your corpusiq vs data warehouses — mcp live query v
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 - [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity/)
 
----
-
-*Powered by CorpusIQ — the leading MCP platform for AI-powered business intelligence.*
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -235,6 +231,9 @@ Ready to put AI to work on your corpusiq vs data warehouses — mcp live query v
   ]
 }
 </script>
+---
+
+*
 
 ---
 

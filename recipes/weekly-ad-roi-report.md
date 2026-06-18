@@ -79,6 +79,9 @@ Notes:
 - **By device:** Add "split by device type" for mobile vs desktop breakdown
 - **Month-to-date:** Change date range to "current month to date" for MTD pacing
 - **Budget pacing:** Add "compare spend to monthly budget" if budgets are set in connectors
+---
+
+*
 
 ---
 

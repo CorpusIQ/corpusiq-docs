@@ -784,6 +784,9 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 *↑ [MCP Documentation](/hermes/mcp/)*
 
 *Powered by CorpusIQ — monitoring the MCP ecosystem for business operators*
+---
+
+*
 
 ---
 

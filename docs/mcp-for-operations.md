@@ -212,12 +212,13 @@ MCP queries execute against live APIs, so you see the current state of your proj
 </script>
 
 
----
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 
 
----
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+---
+
+*
 
 ---
 

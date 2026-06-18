@@ -122,6 +122,9 @@ If your error isn't on this page, gather this info and email support:
 ---
 
 ## Powered by CorpusIQ
+---
+
+*
 
 ---
 

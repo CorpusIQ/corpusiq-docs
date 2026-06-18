@@ -185,12 +185,13 @@ npx skills add nousresearch/hermes-agent --skill heartmula
 | `pokemon-player` | Gaming | Headless Pokemon emulator |
 
 
----
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

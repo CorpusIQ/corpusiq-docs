@@ -55,6 +55,9 @@ CorpusIQ reads both sources directly. Ask the same question from both datasets a
 CorpusIQ normalizes across platforms. Ask for cost per qualified lead across all paid channels and get a unified view.
 
 [Start free — connect LinkedIn Ads to Claude](https://www.corpusiq.io)
+---
+
+*
 
 ---
 

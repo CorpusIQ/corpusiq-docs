@@ -181,6 +181,9 @@ Hermes connects to 20 messaging platforms:
 | [Skillguard](https://github.com/buzzicra/skillguard) | Skill safety scanner | — |
 | [NemoClaw](https://github.com/NVIDIA/NemoClaw) | Hardware sandboxing | 21K |
 | SSL Guard | Built-in SSL/CA verification | Core |
+---
+
+*
 
 ---
 

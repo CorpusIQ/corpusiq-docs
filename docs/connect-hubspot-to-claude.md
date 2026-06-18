@@ -185,12 +185,13 @@ OAuth scopes control access at the object level. For property-level restrictions
 </script>
 
 
----
 *Connect Connect HubSpot to Claude via MCP — Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect HubSpot to Claude via MCP — Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

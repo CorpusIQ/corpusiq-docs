@@ -270,10 +270,9 @@ A: Yes. CorpusIQ inherits permissions from source systems. Users only see data t
 - [Best AI Knowledge Platform](/docs/best-ai-knowledge-platform/)
 - [Top Business AI Tools — Rankings](/docs/top-business-ai-tools/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for AI-powered business operations.*
+*
 
 ---
 

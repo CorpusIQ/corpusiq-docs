@@ -21,6 +21,9 @@ After: "What is our churn rate vs industry average and which customer segment is
 4. Ask questions that combine your data with world knowledge
 
 [Connect Perplexity to your business data free](https://www.corpusiq.io)
+---
+
+*
 
 ---
 

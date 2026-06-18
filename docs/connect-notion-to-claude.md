@@ -186,12 +186,13 @@ A: The Notion integration token grants workspace-level access to shared pages. A
 </script>
 
 
----
 *Connect Connect Notion to Claude | CorpusIQ MCP Integration for K... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect Notion to Claude | CorpusIQ MCP Integration for K... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

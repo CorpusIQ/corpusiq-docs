@@ -160,12 +160,13 @@ See [Skill Marketplaces](../skills/skill-marketplaces.md) for detailed guidance 
 The catalog is a living resource. Skills are added weekly. Check back often, and consider contributing what you build.
 
 
----
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

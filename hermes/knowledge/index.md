@@ -267,6 +267,9 @@ From our deployment (as of June 16, 2026):
 | GBrain | 729 indexed files, 768d vectors | <200ms search |
 | memcore-cloud | Cross-session context auto-injected | Per-turn, transparent |
 | Session DB | 50K+ messages across sessions | FTS5 instant |
+---
+
+*
 
 ---
 

@@ -190,10 +190,9 @@ You've finished the quickstart. From here:
 - **Run one of the [prompts](../prompts/)** that matches your business type.
 - **Read [how it works](../how-it-works/)** to understand the substrate.
 - **Troubleshoot** with [troubleshooting guide](../troubleshooting/).
-
 ---
 
-**Powered by CorpusIQ**
+*
 
 ---
 

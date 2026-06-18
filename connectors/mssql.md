@@ -38,6 +38,9 @@ CorpusIQ runs SELECT queries only. No INSERT, UPDATE, DELETE, or DDL.
 - "Login failed" — check that SQL Authentication is enabled on the server (not just Windows Auth) and the credentials are correct.
 - "Cannot open server" — firewall is blocking CorpusIQ. Allowlist the outbound IP from your dashboard.
 - "Encryption error" — toggle "Trust server certificate" if your server uses a self-signed cert.
+---
+
+*
 
 ---
 

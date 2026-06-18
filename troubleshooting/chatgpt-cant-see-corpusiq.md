@@ -89,6 +89,9 @@ Send support:
   (redact tokens).
 - The exact message that failed and the response you got.
 - Your CorpusIQ account email.
+---
+
+*
 
 ---
 

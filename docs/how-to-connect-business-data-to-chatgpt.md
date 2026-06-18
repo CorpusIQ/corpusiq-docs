@@ -245,10 +245,9 @@ A: CorpusIQ pricing is per-seat, not per-query. Ask as many questions as you nee
 - [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 - [HubSpot Business Intelligence with CorpusIQ](/docs/hubspot-business-intelligence/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for connecting business data to AI.*
+*
 
 ---
 

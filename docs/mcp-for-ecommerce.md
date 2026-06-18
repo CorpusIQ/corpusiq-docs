@@ -229,12 +229,13 @@ Those tools focus on marketing attribution. MCP provides broader access — mark
 </script>
 
 
----
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 
 
----
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+---
+
+*
 
 ---
 

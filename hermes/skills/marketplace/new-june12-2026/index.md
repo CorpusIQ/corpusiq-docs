@@ -138,6 +138,9 @@ npx skills add nexu-io/html-anything --skill deck-hermes-cyber
 **New this update:** 3 skills
 **Marketplace subtotal before:** 245 → **After:** 248
 **Total skills:** 334 → **337**
+---
+
+*
 
 ---
 

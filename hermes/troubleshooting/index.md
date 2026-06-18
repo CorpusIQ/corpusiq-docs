@@ -557,6 +557,9 @@ hermes queue retry --failed-only --since "1 hour ago"
 3. **Check for recent changes:** `hermes config diff` shows what changed
 4. **Roll back:** If a config change caused the issue, `hermes config rollback`
 5. **Escalate:** Some failures genuinely need human intervention. The system is designed to degrade gracefully — individual features may fail while the core continues operating.
+---
+
+*
 
 ---
 

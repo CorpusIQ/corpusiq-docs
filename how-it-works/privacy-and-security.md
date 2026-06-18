@@ -104,6 +104,9 @@ Pull the plug on any connector at any time and it stops reading that
 tool immediately. No retention. No "but we already have a copy."
 
 That's the deal.
+---
+
+*
 
 ---
 

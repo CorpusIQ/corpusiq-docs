@@ -191,12 +191,13 @@ Stripe Invoices are accessible through the API. Include the Invoices scope when 
 </script>
 
 
----
 *Connect Connect Stripe to Claude via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
 
----
 *Connect Connect Stripe to Claude via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+---
+
+*
 
 ---
 

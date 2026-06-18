@@ -219,10 +219,9 @@ A: Start with CRM + Accounting (2 connectors). Most organizations get maximum va
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 - [Top Business AI Tools — Rankings](/docs/top-business-ai-tools/)
 - [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for business AI data connectivity.*
+*
 
 ---
 

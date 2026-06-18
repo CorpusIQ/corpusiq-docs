@@ -58,6 +58,9 @@ specific click-paths.
 ## Next
 
 [5. Fire your first high-impact prompt →](05-first-prompt.md)
+---
+
+*
 
 ---
 

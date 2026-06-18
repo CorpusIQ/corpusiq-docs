@@ -106,6 +106,9 @@ npx skills add coreyhaines31/marketingskills
 ```
 
 Skills chain naturally: run `seo-audit` → feed gaps into `content-strategy` → generate content with `copywriting` → optimize conversions with `page-cro`. The agent handles the handoff between skills automatically.
+---
+
+*
 
 ---
 

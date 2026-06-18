@@ -176,6 +176,9 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june18-2026/)*
 
 *Powered by CorpusIQ*
+---
+
+*
 
 ---
 

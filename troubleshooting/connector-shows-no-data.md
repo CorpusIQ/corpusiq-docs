@@ -67,6 +67,9 @@ If you've checked all four and the answer is still empty, ask the same
 question through the vendor's own UI to confirm the data exists. Then
 send support the connector name, the question you asked, and what was
 returned.
+---
+
+*
 
 ---
 

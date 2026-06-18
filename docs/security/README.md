@@ -130,8 +130,10 @@ A: HTTPS/TLS 1.3 for all connections, data in transit encrypted end-to-end, MCP 
 - **[CorpusIQ Onboarding Guide](/docs/onboarding/README)** — AI chat and agent setup in 10 minutes  
 - **[MSR Governance Framework](/docs/governance/README)** — Source of truth and audit controls  
 
----
 *Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+---
+
+*
 
 ---
 

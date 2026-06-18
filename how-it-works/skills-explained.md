@@ -104,6 +104,9 @@ the executive snapshot" is enough.
   organized by the question you're trying to answer.
 - [privacy-and-security.md](privacy-and-security.md) — what happens to
   the data the skills pull.
+---
+
+*
 
 ---
 

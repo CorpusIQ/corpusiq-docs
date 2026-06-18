@@ -252,6 +252,9 @@ Each interface is versioned. Breaking changes require a migration period where b
 - **Authentication:** OAuth tokens stored encrypted at rest, rotated proactively
 - **Data:** Knowledge base encrypted, access logged, retention policies enforced
 - **Execution:** Skills run in sandboxed environments, tool calls validated before dispatch
+---
+
+*
 
 ---
 

@@ -36,6 +36,9 @@ Read-only. CorpusIQ never sends mail, replies, deletes messages, or creates even
 - "Admin approval required" — your IT admin must whitelist CorpusIQ in Microsoft Entra. Send them the consent URL from your dashboard.
 - Calendar empty — confirm the events are in your default calendar, not a shared/team calendar.
 - "Token expired" — Microsoft tokens roll over often. Click Reconnect in your dashboard.
+---
+
+*
 
 ---
 

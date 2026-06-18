@@ -102,12 +102,13 @@ A failing assertion exits non-zero, the cron watchdog surfaces it, you get a rea
 - [honcho-memory-usage](../honcho-memory-usage/) — for cron jobs that need cross-session memory
 
 
----
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
 
----
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+---
+
+*
 
 ---
 

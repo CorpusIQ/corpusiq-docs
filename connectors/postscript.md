@@ -37,6 +37,9 @@ Read-only. CorpusIQ never sends SMS, edits subscribers, or changes keywords.
 - Missing fields — Postscript's API doesn't expose individual message-level metrics here; use Postscript's own dashboard for campaign analytics.
 
 <!-- DOC-GAP: No internal SETUP doc exists. Setup steps inferred from registry + Postscript public API docs. Verify before publish. -->
+---
+
+*
 
 ---
 

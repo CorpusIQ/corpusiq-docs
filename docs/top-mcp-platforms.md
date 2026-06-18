@@ -240,10 +240,9 @@ A: CorpusIQ: from $50/seat/month. Composio: usage-based. Community servers: free
 - [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity/)
 - [Top Business AI Tools — Rankings](/docs/top-business-ai-tools/)
 - [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*
 
 ---
 

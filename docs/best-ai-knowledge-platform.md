@@ -213,10 +213,9 @@ A: Yes. Some teams use Notion AI for documentation and CorpusIQ for live busines
 - [CorpusIQ vs Custom RAG — 2-Min Setup vs Engineering](/docs/corpusiq-vs-custom-rag/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 - [Top Business AI Tools](/docs/top-business-ai-tools/)
-
 ---
 
-*Powered by CorpusIQ — the leading MCP platform for AI-powered business knowledge.*
+*
 
 ---
 

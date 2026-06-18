@@ -34,6 +34,9 @@ Single-agent chat patterns break at scale. Agents need:
 - **Persistence**: Run without me watching? (Cron, governance)
 
 This stack answers all four.
+---
+
+*
 
 ---
 
