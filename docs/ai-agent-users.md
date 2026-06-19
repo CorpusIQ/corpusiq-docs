@@ -1,6 +1,6 @@
 ---
 title: "MCP Direct Connection — Connect Any AI Agent or LLM to Business Data"
-description: "Connect any AI model — Claude, ChatGPT, Perplexity, local LLMs, or API-only models — to 34+ business data sources via CorpusIQ MCP. One endpoint. Works with every AI. OAuth 2.0 device flow, 67 tools, 134 skills."
+description: "Connect any AI model — Claude, ChatGPT, Perplexity, local LLMs, or API-only models — to 38+ business data sources via CorpusIQ MCP. One endpoint. Works with every AI. OAuth 2.0 device flow, ~500 tools, 150+ skills."
 category: "Documentation"
 tags: ["mcp direct connection", "connect any llm to business data", "local llm business data", "mcp endpoint", "oauth device flow", "claude mcp", "chatgpt mcp", "ollama mcp", "openrouter mcp"]
 last_updated: "2026-06-18"
@@ -15,7 +15,7 @@ ChatGPT. Claude. Perplexity. A local Ollama model. OpenRouter. Any MCP-compatibl
 
 You don't need a ChatGPT Plus subscription. You don't need a Claude account. CorpusIQ is a standalone MCP server at `https://mcp2.corpusiq.io/mcp` — connect any AI that supports the Model Context Protocol.
 
-34 connectors. 134 pre-built skills. 67 tools. All through one MCP endpoint.
+38 connectors. 150+ pre-built skills. Nearly 500 tools. All through one MCP endpoint.
 
 ## One Endpoint. Every AI.
 
@@ -31,16 +31,16 @@ You don't need a ChatGPT Plus subscription. You don't need a Claude account. Cor
             ┌──────────────────────────┐
             │  CorpusIQ MCP Endpoint   │
             │  mcp2.corpusiq.io/mcp   │
-            │  67 tools across 34   │
+            │  ~500 tools across 38   │
             │  business connectors    │
             └──────────┬───────────────┘
                        │ OAuth 2.0 Device Flow
                        ▼
     ┌──────────────────────────────────────────┐
-    │ 34 Business Data Sources                 │
+    │ 38 Business Data Sources                 │
     │ Shopify · QuickBooks · Stripe · HubSpot  │
     │ GA4 · Gmail · Google Ads · Meta Ads      │
-    │ PostgreSQL · MSSQL · MongoDB · +25 more  │
+    │ PostgreSQL · MSSQL · MongoDB · +29 more  │
     └──────────────────────────────────────────┘
 ```
 
@@ -78,7 +78,7 @@ CorpusIQ uses OAuth 2.0 Device Flow for agent authentication. No browser require
 
 ## Available Tools and Actions
 
-Your AI can query across 34 connectors through the MCP endpoint:
+Your AI can query across 38 connectors through the MCP endpoint:
 
 **Revenue & Financial:**
 - Query Stripe revenue, invoices, subscriptions
