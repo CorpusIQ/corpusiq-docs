@@ -155,6 +155,7 @@ Approved skills appear on the next marketplace update page with install commands
 
 New skills are discovered weekly through automated sweeps of skills.sh. Each discovery gets a dedicated update page:
 
+- [🆕 June 18, 2026 (Final Sweep) — OpenClaw Extensions (8 skills)](/hermes/skills/marketplace/new-june18-2026-final-sweep/)
 - [🆕 June 18, 2026 (Update 2) — HyperFrames Video Ecosystem (6 skills)](/hermes/skills/marketplace/new-june18-2026-update2/)
 - [🆕 June 18, 2026 (Batch 2) — Full Catalog Sweep (107 skills)](/hermes/skills/marketplace/new-june18-2026-batch2/)
 - [🆕 June 18, 2026 (Ecosystem) — Honcho + GBrain Skills (12 skills)](/hermes/skills/marketplace/new-june18-2026-ecosystem/)
@@ -172,7 +173,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 328+ curated skills across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 336+ curated skills across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june18-2026/)*
 
