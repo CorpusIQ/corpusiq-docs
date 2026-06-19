@@ -4373,5 +4373,224 @@
     "near_duplicates": [],
     "discovered_at": "2026-06-19T06:05:04.748522+00:00",
     "status": "pending"
+  },
+  {
+    "name": "wulezhi-hui/boshi-memory-system",
+    "url": "https://github.com/wulezhi-hui/boshi-memory-system",
+    "description": "Hermes Agent \u7684\u56db\u5c42\u8bb0\u5fc6\u67b6\u6784 \uff0c\u5b9e\u73b0\u6301\u4e45\u5316\u3001\u70ed\u5ea6\u8c03\u5ea6\u3001\u77e5\u8bc6\u56fe\u8c31\u3001\u8de8\u901a\u9053\u5bf9\u8bdd\u6865\u63a5",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T07:02:44Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T07:03:41.039600+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "edsuwarna/news-archive",
+    "url": "https://github.com/edsuwarna/news-archive",
+    "description": "Markdown filw collection collecting by Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-06-19T07:02:08Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T07:03:42.542626+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "DrGekoz/Hermes-IdleViber",
+    "url": "https://github.com/DrGekoz/Hermes-IdleViber",
+    "description": "Hermes IdleViber is an ambient idle/incremental game that lives in your browser \u2014 a cozy pixel-art universe where you click, earn, upgrade, and unlock themed rooms while chiptune music plays and particle effects drift across the screen.  The twist? The game is hard-locked to your local Hermes Agent gateway. ",
+    "stars": 6,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "game",
+      "games",
+      "idle-clicker-game",
+      "idle-game"
+    ],
+    "updated_at": "2026-06-19T07:00:52Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "screenpipe/screenpipe",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "CYC2002tommy/Deep-Research-Agent",
+      "mlennie/hermes-mcp",
+      "H-Ali13381/hermes-linux-ricing",
+      "aiunlocked1412/hermes-agent-pixel",
+      "ksimback/hermes-atlas-mcp",
+      "zakahadi/llm-eval-cli",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-06-19T07:03:44.046197+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "apeppler/hermes-agents-siri",
+    "url": "https://github.com/apeppler/hermes-agents-siri",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T07:00:34Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T07:03:45.546749+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sigitdanip/agent-office",
+    "url": "https://github.com/sigitdanip/agent-office",
+    "description": "Agent Office \u2014 Live virtual office for your Hermes AI dev team. WebSocket-driven kanban dashboard with team roster, activity feed, and agent chat.",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-06-19T07:00:28Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "EKKOLearnAI/hermes-studio",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "ruvnet/agent-harness-generator",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "aiunlocked1412/hermes-agent-pixel",
+      "samrusani/AliceBot",
+      "kaankacar/stellar-agent-kit",
+      "kkllxy/hermes-web-ui",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-06-19T07:03:47.049655+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Alonkad/hermes-agent-backup",
+    "url": "https://github.com/Alonkad/hermes-agent-backup",
+    "description": "ermes-agent-backup",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T07:03:38Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T07:03:51.287921+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "aajin32/hermes-agent",
+    "url": "https://github.com/aajin32/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T07:03:48Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness"
+    ],
+    "discovered_at": "2026-06-19T07:03:52.789746+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SmokerGreenOG/ToolCase",
+    "url": "https://github.com/SmokerGreenOG/ToolCase",
+    "description": "\u26a1 ToolCase v3.0 \u2014 35 AI Agent Code Tools \u00b7 8 categories \u00b7 10 safety rules \u00b7 EN/NL/DE i18n \u00b7 Self-improve loop",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "code-quality",
+      "hermes-agent",
+      "python-tools",
+      "security-scanning",
+      "self-improvement",
+      "toolcase"
+    ],
+    "updated_at": "2026-06-19T07:01:14Z",
+    "category": "forks",
+    "score": 46,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T07:03:54.291611+00:00",
+    "status": "pending"
   }
 ]

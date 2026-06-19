@@ -3349,5 +3349,32 @@
     "discovered_at": "2026-06-19T05:03:12.693531+00:00",
     "status": "approved",
     "approved_at": "2026-06-19T05:03:31.393664+00:00"
+  },
+  {
+    "name": "Salomondiei08/oh-my-hermes",
+    "url": "https://github.com/Salomondiei08/oh-my-hermes",
+    "description": "An opinionated workflow layer for building, shipping, and operating apps with Hermes Agent",
+    "stars": 620,
+    "forks": 57,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-06-19T07:03:17Z",
+    "category": "core",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain"
+    ],
+    "discovered_at": "2026-06-19T07:03:39.536820+00:00",
+    "status": "approved",
+    "approved_at": "2026-06-19T07:04:07.606342+00:00"
   }
 ]

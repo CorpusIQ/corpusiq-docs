@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources — 344+ repos, 
 
 The most comprehensive directory of Hermes Agent resources in existence. 344 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 19, 2026 · **Repos indexed:** 347 · **Categories:** 18
+> **Last updated:** June 19, 2026 · **Repos indexed:** 348 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -17,7 +17,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 344 rep
 
 | Category | Count | Jump |
 |----------|-------|------|
-| [Core & Official](#-core--official) | 5 | [↓](#-core--official) |
+| [Core & Official](#-core--official) | 6 | [↓](#-core--official) |
 | [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
 | [Community & Awesome Lists](#-community--awesome-lists) | 33 | [↓](#-community--awesome-lists) |
 | [UI & Dashboards](#-ui--dashboards) | 11 | [↓](#-ui--dashboards) |
@@ -96,6 +96,17 @@ Run agents like Hermes and OpenClaw more securely inside NVIDIA OpenShell with m
 **Maintainer:** NVIDIA  
 **Key capabilities:** Secure agent sandboxing, hardware-enforced isolation, managed infrastructure  
 **Related:** [Deployment →](/hermes/infrastructure/)
+
+---
+
+### Salomondiei08/oh-my-hermes
+⭐ **620** · `Shell` · [github.com/Salomondiei08/oh-my-hermes](https://github.com/Salomondiei08/oh-my-hermes)
+
+An opinionated workflow layer for building, shipping, and operating apps with Hermes Agent. Provides structured patterns for project scaffolding, deployment pipelines, and operational workflows — a "dotfiles for Hermes" approach to agent-driven development.
+
+**Maintainer:** Salomondiei08  
+**Key capabilities:** Project scaffolding, deployment pipelines, operational workflow patterns, opinionated Hermes configurations  
+**Related:** [Skills Catalog →](/hermes/skills/catalog/) · [Deployment →](/hermes/infrastructure/)
 
 ---
 

@@ -1,57 +1,39 @@
 {
-  "run_time": "2026-06-19T05:03:31.397176+00:00",
+  "run_time": "2026-06-19T07:04:07.613444+00:00",
   "new_approved": [
     {
-      "name": "Sylinko/Everywhere",
-      "url": "https://github.com/Sylinko/Everywhere",
-      "description": "On-screen aware AI assistant for your desktop. Uses current app context, multiple LLMs, and MCP tools to help you act across apps.",
-      "stars": 6072,
-      "forks": 374,
-      "language": "C#",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "ai-assistant",
-        "avalonia",
-        "claude",
-        "deepseek",
-        "desktop-app",
-        "flow-state",
-        "gemini",
-        "hermes-agent",
-        "mcp",
-        "on-screen-awareness",
-        "openai",
-        "openclaw",
-        "personal",
-        "skills"
-      ],
-      "updated_at": "2026-06-19T05:00:35Z",
-      "category": "forks",
-      "score": 77,
+      "name": "Salomondiei08/oh-my-hermes",
+      "url": "https://github.com/Salomondiei08/oh-my-hermes",
+      "description": "An opinionated workflow layer for building, shipping, and operating apps with Hermes Agent",
+      "stars": 620,
+      "forks": 57,
+      "language": "Shell",
+      "topics": [],
+      "updated_at": "2026-06-19T07:03:17Z",
+      "category": "core",
+      "score": 75,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
-        "hermes_topic",
-        "agent_ecosystem",
-        "high_stars_1000+",
+        "direct_hermes_reference",
+        "moderate_stars_100+",
         "detailed_description",
-        "active_week",
-        "has_homepage"
+        "active_week"
       ],
       "near_duplicates": [
         "Romanescu11/hermes-skill-factory",
-        "unmodeled-tyler/vessel-browser"
+        "Sibyl-Labs/Sibyl-Memory",
+        "itechmeat/open-second-brain"
       ],
-      "discovered_at": "2026-06-19T05:03:12.693531+00:00",
+      "discovered_at": "2026-06-19T07:03:39.536820+00:00",
       "status": "approved",
-      "approved_at": "2026-06-19T05:03:31.393664+00:00"
+      "approved_at": "2026-06-19T07:04:07.606342+00:00"
     }
   ],
   "stats": {
-    "total_found": 16,
+    "total_found": 9,
     "auto_approved": 1,
-    "pending_review": 15,
-    "total_approved": 123,
-    "total_pending": 142
+    "pending_review": 8,
+    "total_approved": 124,
+    "total_pending": 167
   }
 }
