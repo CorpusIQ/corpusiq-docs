@@ -1,13 +1,13 @@
 ---
 title: Hermes Ecosystem — Complete Resource Directory
-description: The definitive directory of Hermes Agent resources — 344+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
+description: The definitive directory of Hermes Agent resources — 355+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
 ---
 
 # Hermes Ecosystem — Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 344 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 355 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 19, 2026 · **Repos indexed:** 350 · **Categories:** 18
+> **Last updated:** June 19, 2026 · **Repos indexed:** 361 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -469,6 +469,16 @@ Awesome Agent Skills — a curated collection of agent skills and capabilities f
 
 ---
 
+### zhayujie/CowAgent
+⭐ **45,469** · `Python` · [github.com/zhayujie/CowAgent](https://github.com/zhayujie/CowAgent)
+
+CowAgent — comprehensive AI agent framework for building autonomous task execution systems with multi-modal capabilities. Provides a structured approach to agent development with built-in memory management, tool integration, and multi-step reasoning pipelines. Production-ready framework for deploying autonomous agents that learn from interactions, manage complex task graphs, and coordinate across multiple knowledge domains — compatible with Hermes Agent for extended autonomous workflows.
+
+**Key capabilities:** AI agent framework, autonomous task execution, multi-modal, memory management, tool integration, multi-step reasoning, Hermes-compatible
+**Related:** [Architecture →](/hermes/architecture/) · [Orchestration →](#-orchestration-multi-agent--swarms)
+
+---
+
 ## 🖥 UI & Dashboards
 
 Visual interfaces for managing and interacting with Hermes Agent.
@@ -705,6 +715,16 @@ The #1 persistent memory solution for AI coding agents. Drop-in memory layer for
 
 **Key capabilities:** Persistent memory, vector-backed recall, drop-in integration, context continuity, cross-session recall, Hermes-native
 **Related:** [Memory Stack →](/hermes/knowledge/)
+
+---
+
+### Bessouat40/RAGLight
+⭐ **663** · `Python` · [github.com/Bessouat40/RAGLight](https://github.com/Bessouat40/RAGLight)
+
+RAGLight — lightweight Retrieval-Augmented Generation implementation optimized for agent memory and knowledge retrieval. Provides a minimal, fast RAG pipeline that serves as a drop-in knowledge layer for autonomous agents needing efficient document indexing, semantic search, and context injection. Designed for low-latency agent workflows where traditional vector databases are overkill — perfect for Hermes Agent knowledge management in resource-constrained environments with sub-100ms retrieval over moderate document collections.
+
+**Key capabilities:** RAG implementation, lightweight retrieval, agent memory, semantic search, document indexing, context injection, Hermes-compatible
+**Related:** [Knowledge Architecture →](/hermes/knowledge/) · [Memory Stack →](/hermes/knowledge/)
 
 ---
 
@@ -1032,6 +1052,46 @@ MCP server for agent skill management and discovery — Mystx AI's Model Context
 
 **Key capabilities:** MCP server, skill management, skill discovery, cross-platform, skill lifecycle, Hermes-compatible
 **Related:** [MCP Guide →](/hermes/mcp/) · [Skills Catalog →](/hermes/skills/catalog/)
+
+---
+
+### cohnen/mcp-google-ads
+⭐ **641** · `TypeScript` · [github.com/cohnen/mcp-google-ads](https://github.com/cohnen/mcp-google-ads)
+
+MCP server for Google Ads — Model Context Protocol server providing autonomous agents with direct access to Google Ads campaign management, performance reporting, and optimization workflows. Enables Hermes Agent to read campaign metrics, analyze ad performance, manage keywords, and generate optimization recommendations through standardized MCP tool calls. Production-ready bridge between autonomous agents and the Google Ads platform for automated PPC management and reporting.
+
+**Key capabilities:** Google Ads MCP server, campaign management, performance reporting, keyword analysis, PPC automation, Hermes-compatible
+**Related:** [MCP Guide →](/hermes/mcp/) · [Integrations →](#-mcp--integrations)
+
+---
+
+### r-huijts/strava-mcp
+⭐ **442** · `TypeScript` · [github.com/r-huijts/strava-mcp](https://github.com/r-huijts/strava-mcp)
+
+MCP server for Strava — Model Context Protocol server connecting autonomous agents to Strava fitness data, activity tracking, and performance analytics. Grants Hermes Agent access to athlete profiles, activity logs, route data, segment leaderboards, and training metrics through standardized MCP tool calls. Enables agent-driven fitness analysis, training plan optimization, and performance insights from Strava's extensive activity database.
+
+**Key capabilities:** Strava MCP server, fitness data access, activity tracking, training analytics, athlete profiles, Hermes-compatible
+**Related:** [MCP Guide →](/hermes/mcp/) · [Integrations →](#-mcp--integrations)
+
+---
+
+### executeautomation/mcp-database-server
+⭐ **358** · `TypeScript` · [github.com/executeautomation/mcp-database-server](https://github.com/executeautomation/mcp-database-server)
+
+Database MCP server — universal Model Context Protocol server providing autonomous agents with SQL database access across PostgreSQL, MySQL, SQLite, and SQL Server. Enables Hermes Agent to execute queries, explore schemas, and analyze data through standardized MCP tool calls with built-in connection pooling, query sanitization, and result streaming. Production-ready database bridge for agent-driven data exploration, reporting, and ETL workflows.
+
+**Key capabilities:** Database MCP server, SQL access, multi-database support, query execution, schema exploration, Hermes-compatible
+**Related:** [MCP Guide →](/hermes/mcp/) · [Integrations →](#-mcp--integrations)
+
+---
+
+### aptro/superset-mcp
+⭐ **186** · `TypeScript` · [github.com/aptro/superset-mcp](https://github.com/aptro/superset-mcp)
+
+Apache Superset MCP server — Model Context Protocol server connecting autonomous agents to Apache Superset dashboards, charts, and data exploration capabilities. Enables Hermes Agent to query Superset datasets, retrieve chart data, list dashboards, and generate data visualizations through standardized MCP tool calls. Bridges the gap between autonomous agents and business intelligence platforms for agent-driven data analysis and reporting.
+
+**Key capabilities:** Apache Superset MCP, BI integration, dashboard access, chart data retrieval, data exploration, Hermes-compatible
+**Related:** [MCP Guide →](/hermes/mcp/) · [Integrations →](#-mcp--integrations)
 
 ---
 
@@ -1920,6 +1980,16 @@ UI/UX Pro Max skill for AI agents — a comprehensive design and prototyping too
 
 ---
 
+### binance/binance-skills-hub
+⭐ **904** · [github.com/binance/binance-skills-hub](https://github.com/binance/binance-skills-hub)
+
+Binance Skills Hub — official collection of agent skills from Binance for cryptocurrency trading, market analysis, blockchain data access, and DeFi workflow automation. Provides Hermes Agent with production-grade access to Binance APIs, market data streams, portfolio management, and trading strategy execution through well-structured, audited skill modules. Enterprise-grade skills for autonomous agents operating in crypto and blockchain domains with built-in rate limiting, error handling, and security best practices.
+
+**Key capabilities:** Binance skills, crypto trading, market analysis, blockchain data, DeFi automation, enterprise-grade, Hermes-compatible
+**Related:** [Skills Catalog →](/hermes/skills/catalog/)
+
+---
+
 ## 🛠 Tools & Utilities
 
 Development tools, utilities, and platforms for the Hermes ecosystem.
@@ -2447,6 +2517,26 @@ Claw Flows — workflow automation patterns and templates for agent-based task e
 
 ---
 
+### labring/FastGPT
+⭐ **28,553** · `TypeScript` · [github.com/labring/FastGPT](https://github.com/labring/FastGPT)
+
+FastGPT — high-performance GPT platform optimized for rapid knowledge base construction, AI-powered Q&A, and enterprise knowledge management. Provides a complete pipeline for building, training, and deploying custom GPT-powered applications with built-in data preprocessing, vector storage, workflow orchestration, and API integration. Drop-in compatible with Hermes Agent for enhanced knowledge retrieval, automated customer support, and intelligent documentation workflows with sub-second response times at scale.
+
+**Key capabilities:** Fast GPT platform, knowledge base, AI Q&A, enterprise knowledge, vector storage, workflow orchestration, Hermes-compatible
+**Related:** [Knowledge Architecture →](/hermes/knowledge/) · [Tools →](#-tools--utilities)
+
+---
+
+### deepset-ai/haystack
+⭐ **25,613** · `Python` · [github.com/deepset-ai/haystack](https://github.com/deepset-ai/haystack)
+
+Haystack — production-grade NLP framework for building search, question answering, and conversational AI systems. Battle-tested pipeline architecture supporting retrieval-augmented generation (RAG), semantic search, document processing, and agent-based workflows. Integrates with all major LLM providers, vector databases, and embedding models — provides Hermes Agent with enterprise-ready NLP infrastructure for building sophisticated language understanding pipelines, knowledge-intensive applications, and intelligent search systems at production scale.
+
+**Key capabilities:** NLP framework, RAG pipelines, semantic search, question answering, document processing, agent workflows, Hermes-compatible
+**Related:** [Knowledge Architecture →](/hermes/knowledge/) · [Tools →](#-tools--utilities)
+
+---
+
 ## 🎯 Orchestration, Multi-Agent & Swarms
 
 Frameworks and patterns for coordinating multiple agents.
@@ -2656,6 +2746,16 @@ Peer-to-peer, 0-SSH, Redis-backed async message bus for multi-agent systems — 
 
 **Key capabilities:** Async message bus, Redis mailboxes, 0-SSH deployment, multi-agent coordination, framework-agnostic, Hermes-native, cross-machine tasks
 **Related:** [Orchestration →](#-orchestration-multi-agent--swarms) · [Deployment →](#-deployment--infrastructure)
+
+---
+
+### conductor-oss/conductor
+⭐ **31,962** · `Java` · [github.com/conductor-oss/conductor](https://github.com/conductor-oss/conductor)
+
+Conductor — Netflix-originated, battle-tested workflow orchestration engine now fully open-source under the Linux Foundation. Orchestrates complex microservice and agent workflows through a declarative JSON DSL with support for parallel execution, conditional branching, dynamic forks, wait states, and sub-workflows. Production-proven at Netflix scale (millions of concurrent workflows) — provides Hermes Agent with enterprise-grade workflow orchestration infrastructure for coordinating multi-step agent tasks, managing long-running autonomous processes, and ensuring fault tolerance across distributed agent deployments. Includes a visual UI for workflow design and real-time execution monitoring.
+
+**Key capabilities:** Workflow orchestration, Netflix-origin, JSON DSL, parallel execution, fault tolerance, visual UI, enterprise-grade, Hermes-compatible
+**Related:** [Orchestration →](#-orchestration-multi-agent--swarms) · [Architecture →](/hermes/architecture/)
 
 ---
 
@@ -3249,6 +3349,16 @@ TimesFM (Time Series Foundation Model) — pretrained decoder-only foundation mo
 **Model size:** 200M params (~800MB)
 
 ---
+
+---
+
+### jeecgboot/JeecgBoot
+⭐ **46,795** · `Java` · [github.com/jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot)
+
+JeecgBoot — enterprise-grade low-code development platform for rapidly building business applications, CRMs, ERPs, and management systems. Combines a visual low-code designer with code generation, workflow engines, form builders, and reporting tools — capable of reducing application development time by 80%+. Provides Hermes Agent with a powerful application development backend for autonomously constructing business software, generating database schemas, creating REST APIs, and deploying full-stack applications with minimal human intervention.
+
+**Key capabilities:** Low-code platform, code generation, workflow engine, form builder, rapid application development, Hermes-compatible
+**Related:** [Domain Applications →](#-domain-applications)
 
 ---
 
