@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 19, 2026 (morning sweep) · **Sources:** mcp.so (22,460+ servers), mcpservers.org (9,203+ servers)
+> **Last updated:** June 19, 2026 (cron sweep) · **Sources:** mcp.so (22,470+ servers), mcpservers.org (9,210+ servers)
 
 ---
 
@@ -199,6 +199,9 @@ SEO research tools for AI agents: keyword research and metrics, SERP and local S
 ### Amap Maps (高德地图) ★ New
 AutoNavi Maps MCP — China's second-largest mapping platform. Location search, geocoding, directions, and POI data. Essential for China-market operators alongside Baidu Maps. Official 高德 integration.
 
+### ACG Mcp ★ New
+Audited Context Generation Protocol — verifiable fact-checking and grounded RAG via MongoDB. Standalone MCP server that provides verified, evidence-backed answers by grounding AI responses in audited sources. Essential for operators who need verifiable, citation-backed AI outputs for compliance, research, and decision-making.
+
 ---
 
 ## Commerce & E-Commerce
@@ -322,6 +325,12 @@ Agent-native hub (tani.ai) — AI agents discover capabilities in a trust-scored
 ### SeedBase ★ New
 Synthetic test data generation for databases. Generate realistic, FK-consistent test data from AI agents. List projects, get schema DDL, generate datasets as SQL. Ideal for operators who need test data without production exposure.
 
+### Query Streams MCP ★ Official ★ New
+Securely connect MCP clients to live databases through the Query Streams Cloud Network — no VPNs, inbound ports, or complex setup required. Official MCP server for database access from AI agents. Essential for operators who need AI agents to query, analyze, and work with production databases securely without exposing infrastructure.
+
+### bruno-mcp ★ New
+MCP server for creating, managing, and executing Bruno API testing collections. Supports both .bru and .yml (opencollection) formats with built-in security hardening. Ideal for operators who use Bruno for API testing and want AI agents to manage test suites, verify endpoints, and maintain API quality.
+
 ### BUILDY ★ New
 Build real web apps on demand from ChatGPT, Claude, or any coding agent. Cross-agent compatible — build once and use the same app/data across different AI clients. `https://buildy.ai`
 
@@ -425,6 +434,9 @@ Open-source MCP server for Atlassian Confluence that lets AI assistants read, cr
 ### Muxara ★ New
 Online video conversions via API — convert videos between formats directly from your AI agent. Lightweight video processing MCP for operators who need quick format conversions without heavy video editing tools.
 
+### InfraNode ★ New
+Free, keyless MCP server for open data across 84 German cities: weather and DWD warnings, air quality, transit, traffic, water levels, energy/SMARD. 38 tools, Apache 2.0 licensed. Zero authentication required — ideal for operators building location-aware AI applications or needing German infrastructure data for logistics, planning, and environmental monitoring.
+
 ### Numbers Online — Phone Intelligence ★ New
 Hosted, read-only MCP server for AI voice agent phone intelligence — caller identity, risk scoring, line type, DNC check. Every billable answer carries an Ed25519-signed receipt. No raw phone numbers stored (hashed only). Remote/hosted: nothing to install.
 
@@ -443,6 +455,9 @@ Task and project management via MCP. Connect AI agents to your Superlist workspa
 
 ### Onboard MCP ★ Official ★ New
 Connect your AI assistant to Onboard to monitor live onboarding projects, surface blocked tasks and risks, draft customer emails, and take action on tasks with role-based access and preview-first safety. Essential for operators managing customer onboarding workflows — keeps AI agents aligned with real project state. Official MCP server with Streamable HTTP transport.
+
+### Sendmux Email MCP ★ Official ★ New
+Email inbox and sending API purpose-built for AI agents. Sendmux provides transactional email sending, inbox management, and email operations via MCP. Official MCP server — essential for operators who want AI agents to handle email workflows (notifications, transactional emails, inbox automation) without building custom integrations. Streamable HTTP transport.
 
 ---
 
@@ -620,7 +635,7 @@ Memory with drift detection for AI agents — detects context staleness and sign
 
 ## New This Week (June 19, 2026 — morning sweep)
 
-### 8 new servers from mcpservers.org All + Marketing + Productivity + mcp.so Latest
+### 13 new servers from mcpservers.org All + Marketing + Productivity + mcp.so Latest
 
 | Server | Category | Description |
 |--------|----------|-------------|
@@ -632,6 +647,11 @@ Memory with drift detection for AI agents — detects context staleness and sign
 | ITHZ MCP ★ New | Memory | Local-first deterministic project memory — context packs, decisions, gates, risks, claims ledger |
 | Memlane ★ New | Memory | Save, search, pull articles, add links, write notes — personal content memory for agents |
 | EyeBrowse ★ New | Web Scraping | Stealthy Chromium browser engine — 85 tools, full Chrome DevTools Protocol, Python library |
+| Sendmux Email MCP ★ New ★ Official | Communication | Email inbox & sending API for AI agents — transactional email, inbox management, MCP-native |
+| Query Streams MCP ★ New ★ Official | Database | Securely connect MCP clients to live databases — no VPNs, inbound ports, or complex setup |
+| ACG Mcp ★ New | Search | Audited Context Generation — verifiable fact-checking and grounded RAG via MongoDB |
+| bruno-mcp ★ New | Development | MCP server for Bruno API testing collections — create, manage, execute .bru and .yml |
+| InfraNode ★ New | Data/Infrastructure | Free, keyless MCP — German city data (weather, transit, energy, air quality), 38 tools, Apache 2.0 |
 
 ---
 
@@ -874,12 +894,12 @@ Memory with drift detection for AI agents — detects context staleness and sign
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,396 (mcp.so), 9,158 (mcpservers.org)
+- **Total MCP servers tracked:** 22,470 (mcp.so), 9,210 (mcpservers.org)
 - **Official servers:** 40+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, etc.)
-- **New this cycle (June 18 afternoon):** 11 new MCP servers from mcpservers.org + mcp.so
-- **Cumulative since June 9:** 198 MCP servers catalogued across 12 sweeps
+- **New this cycle (June 19 morning):** 13 new MCP servers from mcpservers.org + mcp.so
+- **Cumulative since June 9:** 203 MCP servers catalogued across 13 sweeps
 
 ---
 
