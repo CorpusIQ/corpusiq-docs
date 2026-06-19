@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources — 344+ repos, 
 
 The most comprehensive directory of Hermes Agent resources in existence. 344 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 19, 2026 · **Repos indexed:** 348 · **Categories:** 18
+> **Last updated:** June 19, 2026 · **Repos indexed:** 350 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -26,8 +26,8 @@ The most comprehensive directory of Hermes Agent resources in existence. 344 rep
 | [Skills & Plugins](#-skills--plugins) | 59 | [↓](#-skills--plugins) |
 | [Tools & Utilities](#-tools--utilities) | 50 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 22 | [↓](#-orchestration-multi-agent--swarms) |
-| [Deployment & Infrastructure](#-deployment--infrastructure) | 16 | [↓](#-deployment--infrastructure) |
+| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 23 | [↓](#-orchestration-multi-agent--swarms) |
+| [Deployment & Infrastructure](#-deployment--infrastructure) | 17 | [↓](#-deployment--infrastructure) |
 | [Security & Governance](#-security--governance) | 5 | [↓](#-security--governance) |
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
 | [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
@@ -2649,6 +2649,16 @@ CrewAI — production-grade multi-agent orchestration framework for role-based A
 
 ---
 
+### seleman66eeddwegger3-art/hermes-agentmesh
+⭐ **1/day trending** · `Python` · [github.com/seleman66eeddwegger3-art/hermes-agentmesh](https://github.com/seleman66eeddwegger3-art/hermes-agentmesh)
+
+Peer-to-peer, 0-SSH, Redis-backed async message bus for multi-agent systems — designed by Bobo, a Hermes agent architect. Replaces synchronous HTTP coordination with Redis mailboxes: agents communicate by dropping tasks in named inboxes (`redis.lpush("inbox:<NODE_NAME>", task_json)`) instead of making blocking HTTP calls. Eliminates timeout anxiety (hours-long tasks OK), removes SSH requirements for remote workers, and ensures reports land naturally on the initiating machine. Framework-agnostic — works with Hermes, OpenClaw, LangGraph, AutoGen, and CrewAI.
+
+**Key capabilities:** Async message bus, Redis mailboxes, 0-SSH deployment, multi-agent coordination, framework-agnostic, Hermes-native, cross-machine tasks
+**Related:** [Orchestration →](#-orchestration-multi-agent--swarms) · [Deployment →](#-deployment--infrastructure)
+
+---
+
 ## 🚀 Deployment & Infrastructure
 
 Running Hermes in production — from Docker to Kubernetes.
@@ -2778,6 +2788,16 @@ Nanobot — lightweight AI agent deployment framework from HKU Data Science Lab.
 
 **Key capabilities:** Lightweight agent runtime, edge deployment, container-optimized, IoT-ready, low-resource, serverless, Hermes-compatible
 **Related:** [Infrastructure →](/hermes/infrastructure/)
+
+---
+
+### markwang2658/hermes-windows-native
+⭐ **20** · `Python` · [github.com/markwang2658/hermes-windows-native](https://github.com/markwang2658/hermes-windows-native)
+
+Windows-native integrated package bundling Hermes Agent v0.16.0 + Hermes WebUI v0.51.454 — no Docker, no WSL2 required. Shared Python venv, PowerShell launchers, and one-click startup via `hermes-start.ps1`. Runtime data redirected to `%USERPROFILE%\.hermes` keeping the source tree clean. The lightest local footprint on Windows — eliminates the ~4GB Docker Desktop overhead and WSL2 dependency that block many Windows users from running Hermes.
+
+**Key capabilities:** Windows-native, no Docker, no WSL2, one-click startup, shared venv, PowerShell launchers, Hermes Agent + WebUI
+**Related:** [Deployment →](#-deployment--infrastructure) · [Setup Guide →](/hermes/skills/catalog/hermes-windows-native/)
 
 ---
 
