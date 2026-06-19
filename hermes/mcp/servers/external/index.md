@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 18, 2026 (afternoon sweep) · **Sources:** mcp.so (22,460+ servers), mcpservers.org (9,181+ servers)
+> **Last updated:** June 18, 2026 (evening sweep) · **Sources:** mcp.so (22,460+ servers), mcpservers.org (9,181+ servers)
 
 ---
 
@@ -99,6 +99,15 @@ Open intent exchange where AI agents get a cryptographic identity, reputation-ra
 
 ### signer-mcp ★ New
 Keyless CEX/DEX signing for AI agents — exchange API keys stay inside an AWS Nitro Enclave, so a prompt-injected agent can't leak them. Binance, OKX, Bybit, KuCoin, Hyperliquid, Asterdex. Security-first design for AI trading agents.
+
+### Praesentire ★ New
+Bilingual (English + Traditional Chinese) financial news sentiment scored by Claude — three tools for tickers, batches, and cross-language divergence. Hosted MCP for operators who need AI-curated financial sentiment with East-West market coverage.
+
+### Agentberg ★ New
+Agent-to-agent knowledge exchange for trading intelligence — publish empirical findings, vote on quality, earn reputation, and unlock higher-credibility collective intelligence the more you contribute. Distributed trading intelligence network for AI agent operators.
+
+### ROIC.AI Financial Data API ★ Official ★ New
+Access ROIC.AI financial data from AI tools, including company financials, ratios, prices, transcripts, and market research data. Official MCP server for fundamental analysis — essential for operators who need institutional-grade financial data in their AI workflows.
 
 ---
 
@@ -401,6 +410,15 @@ Create, manage, and publish documentation, convert videos to docs, run complianc
 ### Historis ★ New
 Shared timeline that keeps you and your AI never out of sync. Everything lands in one timeline, linked to the right people. Ask for the brief: what happened, what you should know, what needs handling. Team context MCP for operators managing distributed work.
 
+### Scrivener MCP ★ New
+Connect Scrivener 3 writing projects to Claude, ChatGPT, and other AI assistants. 60+ tools for manuscript management, writing analysis, semantic search, character/plot memory, and content enhancement. Essential for operators who produce long-form content, documentation, or books.
+
+### Atlassian Confluence MCP ★ New
+Open-source MCP server for Atlassian Confluence that lets AI assistants read, create, search, and manage Confluence wiki pages. Works with Confluence Cloud, on-premise Server, and Data Center deployments. Connect your AI coding agent to your team's knowledge base via npx. Essential for operators with Confluence-based documentation workflows.
+
+### Muxara ★ New
+Online video conversions via API — convert videos between formats directly from your AI agent. Lightweight video processing MCP for operators who need quick format conversions without heavy video editing tools.
+
 ### Numbers Online — Phone Intelligence ★ New
 Hosted, read-only MCP server for AI voice agent phone intelligence — caller identity, risk scoring, line type, DNC check. Every billable answer carries an Ed25519-signed receipt. No raw phone numbers stored (hashed only). Remote/hosted: nothing to install.
 
@@ -518,6 +536,12 @@ Enable AI agents to create, manage, and optimize advertising campaigns on ChatGP
 ### Etymolt ★ New
 Signed trademark, domain, cultural, sound-symbolism, and pronunciation verdicts for brand names. Brand validation MCP for operators launching new products or rebranding.
 
+### Poppify Studio ★ New
+Photo-to-reel MCP for solo founders and SMBs. Upload 1–10 photos and get a captioned vertical reel for Instagram, TikTok, YouTube Shorts, or Facebook — with motion, library-matched music, and optional AI voiceover. Content creation MCP for operators who need social video without video editing skills.
+
+### Spimov AI Video Dubbing ★ New
+Dub any video into 600 languages straight from your AI chat — YouTube dubbing and voice cloning via MCP. Global content distribution MCP for operators expanding content across language markets.
+
 ---
 
 ## Memory & Knowledge
@@ -576,6 +600,23 @@ Memory with drift detection for AI agents — detects context staleness and sign
 | FeedOracle DORA OS | Compliance | EU DORA compliance evidence infrastructure — 50 MCP tools, 11 servers, ES256K-signed, blockchain-anchored. July 2026 deadline |
 | Atlassian Rovo MCP Server | Dev/Infra | Atlassian remote MCP for Jira/Confluence — Streamable HTTP. ⚠ SSE endpoint deprecating June 30, 2026 — migrate to new endpoint |
 | Linksee Memory MCP | Memory/Knowledge | Memory with drift detection for AI agents — detects context staleness and signals when agent memory needs refresh. For operators running multi-session agent workflows |
+
+---
+
+## New This Week (June 18, 2026 — evening sweep)
+
+### 8 new servers from mcpservers.org Finance + Marketing + Productivity
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Praesentire ★ New | Finance | Bilingual (EN+ZH) financial news sentiment scored by Claude — tickers, batches, cross-language divergence |
+| Agentberg ★ New | Finance | Agent-to-agent knowledge exchange for trading intelligence — publish, vote, earn reputation |
+| ROIC.AI Financial Data API ★ Official ★ New | Finance | Company financials, ratios, prices, transcripts, market research — institutional-grade |
+| Poppify Studio ★ New | Marketing | Photo-to-reel MCP for solo founders — 1–10 photos → captioned vertical reel with music, voiceover |
+| Spimov AI Video Dubbing ★ New | Marketing | Dub any video into 600 languages — YouTube dubbing + voice cloning via MCP |
+| Scrivener MCP ★ New | Productivity | 60+ tools — manuscript management, writing analysis, semantic search, character/plot memory |
+| Atlassian Confluence MCP ★ New | Productivity | Open-source Confluence MCP — read, create, search, manage wiki pages (Cloud + on-prem) |
+| Muxara ★ New | Productivity | Online video conversions via API — convert formats directly from AI agent |
 
 ---
 
