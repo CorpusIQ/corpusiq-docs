@@ -3581,5 +3581,390 @@
     "near_duplicates": [],
     "discovered_at": "2026-06-18T08:01:18.107036+00:00",
     "status": "pending"
+  },
+  {
+    "name": "christophedanhier-hash/hermes-wiki",
+    "url": "https://github.com/christophedanhier-hash/hermes-wiki",
+    "description": "Wiki LEO \u2014 Documentation Hermes Agent, T600, Bureau G\u00e9rard, Voyages",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-06-19T05:02:38Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T05:02:53.543654+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sbrejnev988-coder/browser-automation-mcp",
+    "url": "https://github.com/sbrejnev988-coder/browser-automation-mcp",
+    "description": "Local Chrome DevTools Protocol browser automation MCP server for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "browser-automation",
+      "cdp",
+      "chrome-devtools-protocol",
+      "hermes-agent",
+      "mcp",
+      "python"
+    ],
+    "updated_at": "2026-06-19T04:12:29Z",
+    "category": "mcp",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T05:02:55.868819+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "IkarusMK/ClaudeNasConnector",
+    "url": "https://github.com/IkarusMK/ClaudeNasConnector",
+    "description": "Self-hosted MCP connector that gives Claude a persistent, network-local brain on your NAS: shared memory, a skill router (skills live on your NAS \u2014 Claude searches & loads the right one), your own tools, and a multi-agent-ready design \u2014 usable from desktop and mobile. Hermes-style, self-hosted, secrets stay home.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T03:50:30Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "Romanescu11/hermes-skill-factory",
+      "ruvnet/agent-harness-generator",
+      "unmodeled-tyler/vessel-browser",
+      "CYC2002tommy/Deep-Research-Agent",
+      "mlennie/hermes-mcp",
+      "H-Ali13381/hermes-linux-ricing",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-06-19T05:02:57.371993+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "0xcjl/hexaloop-evolution",
+    "url": "https://github.com/0xcjl/hexaloop-evolution",
+    "description": "HexaLoop: \u628a OpenClaw \u5185\u90e8\u519c\u573a\u62bd\u6210 Python package + MCP server + Hermes \u9002\u914d\u5c42\uff0c4 \u5ba2\u6237\u7aef 5 \u5206\u949f\u63a5\u5165",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-06-19T03:36:29Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T05:02:58.874937+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ndanhkhoi/vietnam-bank-qr-mcp",
+    "url": "https://github.com/ndanhkhoi/vietnam-bank-qr-mcp",
+    "description": "Vietnamese bank transfer QR generator for AI agents \u2014 NAPAS EMVCo compliant MCP server + Hermes Agent skill. 65 banks, styled payment cards.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T03:21:06Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf",
+      "yoloshii/ClawMem",
+      "jnMetaCode/shellward",
+      "ruvnet/agent-harness-generator",
+      "agentchatme/agentchat-hermes"
+    ],
+    "discovered_at": "2026-06-19T05:03:00.378070+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pkovitan/mcp_mikrotik",
+    "url": "https://github.com/pkovitan/mcp_mikrotik",
+    "description": "MCP server for MikroTik RouterOS with multi-router support, read-only/safe-write/full modes, internal auto-connect for read tools, and an AI-agent-friendly architecture for Claude, Hermes, and other MCP clients.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T02:12:01Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "itechmeat/open-second-brain"
+    ],
+    "discovered_at": "2026-06-19T05:03:01.881170+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Neboy72/nexus-memory",
+    "url": "https://github.com/Neboy72/nexus-memory",
+    "description": "Universal Memory Layer for AI Agents \u2014 self-hosted, hybrid search, 3-way: Hermes Plugin \u00b7 OpenClaw Plugin \u00b7 MCP Server",
+    "stars": 2,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "cursor",
+      "embeddings",
+      "hermes",
+      "knowledge-graph",
+      "mcp",
+      "memory",
+      "openclaw",
+      "persistent-memory",
+      "qdrant",
+      "semantic-search",
+      "vector-search"
+    ],
+    "updated_at": "2026-06-19T01:42:30Z",
+    "category": "mcp",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "yoloshii/ClawMem",
+      "jnMetaCode/shellward"
+    ],
+    "discovered_at": "2026-06-19T05:03:03.384163+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Gimel12/ruben_hermes_trader",
+    "url": "https://github.com/Gimel12/ruben_hermes_trader",
+    "description": "This is my personal hermes agent focus on trading via robinhood MCP and option trading",
+    "stars": 0,
+    "forks": 0,
+    "language": "TeX",
+    "topics": [],
+    "updated_at": "2026-06-19T00:45:33Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T05:03:04.887163+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Fatty911/hermes-agent",
+    "url": "https://github.com/Fatty911/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T05:02:54Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness"
+    ],
+    "discovered_at": "2026-06-19T05:03:08.184322+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "RollingStonie/MightyOS",
+    "url": "https://github.com/RollingStonie/MightyOS",
+    "description": "Hermes fleet brain \u2014 agent registry, pipeline contracts, status, bootstrap",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T05:02:15Z",
+    "category": "forks",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T05:03:09.687346+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "CodeHorizon-design/hermes-agent",
+    "url": "https://github.com/CodeHorizon-design/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T05:02:35Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness"
+    ],
+    "discovered_at": "2026-06-19T05:03:11.190304+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Hollman18/trim_iu",
+    "url": "https://github.com/Hollman18/trim_iu",
+    "description": "Web client for Hermes agent ",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-19T04:59:57Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T05:03:14.196468+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "RipDock/ripdock-hermes-plugin",
+    "url": "https://github.com/RipDock/ripdock-hermes-plugin",
+    "description": "Hermes platform plugin that implements the RipDock Protocol Runtime, including Pairing, Device trust, Sessions, Agent routing, transfers, and dashboard integration.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "dashboard",
+      "device-trust",
+      "file-transfer",
+      "pairing",
+      "ripdock-protocol",
+      "session",
+      "websocket"
+    ],
+    "updated_at": "2026-06-19T04:59:46Z",
+    "category": "forks",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-06-19T05:03:15.699613+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "DrAduk007/NousResearch-hermes-agent",
+    "url": "https://github.com/DrAduk007/NousResearch-hermes-agent",
+    "description": "hermes",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-18T21:55:33Z",
+    "category": "official",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T05:03:25.810723+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "thekoma/hermes-iris",
+    "url": "https://github.com/thekoma/hermes-iris",
+    "description": "Hermes Agent image with k8s + MCP toolbelt \u2014 baked on top of nousresearch/hermes-agent",
+    "stars": 1,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-06-19T01:03:41Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T05:03:27.313797+00:00",
+    "status": "pending"
   }
 ]

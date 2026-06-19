@@ -3304,5 +3304,50 @@
     "discovered_at": "2026-06-18T08:01:05.781187+00:00",
     "status": "approved",
     "approved_at": "2026-06-18T08:01:31.809692+00:00"
+  },
+  {
+    "name": "Sylinko/Everywhere",
+    "url": "https://github.com/Sylinko/Everywhere",
+    "description": "On-screen aware AI assistant for your desktop. Uses current app context, multiple LLMs, and MCP tools to help you act across apps.",
+    "stars": 6072,
+    "forks": 374,
+    "language": "C#",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-assistant",
+      "avalonia",
+      "claude",
+      "deepseek",
+      "desktop-app",
+      "flow-state",
+      "gemini",
+      "hermes-agent",
+      "mcp",
+      "on-screen-awareness",
+      "openai",
+      "openclaw",
+      "personal",
+      "skills"
+    ],
+    "updated_at": "2026-06-19T05:00:35Z",
+    "category": "forks",
+    "score": 77,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "high_stars_1000+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser"
+    ],
+    "discovered_at": "2026-06-19T05:03:12.693531+00:00",
+    "status": "approved",
+    "approved_at": "2026-06-19T05:03:31.393664+00:00"
   }
 ]

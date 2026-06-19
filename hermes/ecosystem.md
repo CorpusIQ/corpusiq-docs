@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources — 344+ repos, 
 
 The most comprehensive directory of Hermes Agent resources in existence. 344 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 18, 2026 · **Repos indexed:** 346 · **Categories:** 18
+> **Last updated:** June 19, 2026 · **Repos indexed:** 347 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -33,7 +33,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 344 rep
 | [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
 | [Platform-Specific](#-platform-specific) | 10 | [↓](#-platform-specific) |
 | [Domain Applications](#-domain-applications) | 19 | [↓](#-domain-applications) |
-| [Forks & Derivatives](#-forks--derivatives) | 4 | [↓](#-forks--derivatives) |
+| [Forks & Derivatives](#-forks--derivatives) | 5 | [↓](#-forks--derivatives) |
 | [Guides](#-guides) | 2 | [↓](#-guides) |
 
 ---
@@ -3255,6 +3255,17 @@ Cloud-deployed Hermes with infrastructure templates. Turnkey cloud deployment wi
 
 ---
 
+### Sylinko/Everywhere
+⭐ **6,072** · `C#` · [github.com/Sylinko/Everywhere](https://github.com/Sylinko/Everywhere)
+
+On-screen aware AI assistant for your desktop. Uses current app context, multiple LLMs (Claude, DeepSeek, Gemini, OpenAI), and MCP tools with Hermes Agent integration to help you act across apps. Avalonia-based desktop app with skills, flow-state support, and on-screen awareness.
+
+**Status:** Active · **Forks:** 374  
+**Key capabilities:** On-screen awareness, multi-LLM, MCP tools, desktop AI, Hermes integration, flow-state  
+**Related:** [MCP Guide →](/hermes/mcp/) · [Skills Catalog →](/hermes/skills/catalog/)
+
+---
+
 ### beardthelion/hermes-skill-distillation
 ⭐ **community** · `Python` · [github.com/beardthelion/hermes-skill-distillation](https://github.com/beardthelion/hermes-skill-distillation)
 
@@ -3293,7 +3304,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 304 |
+| Total repos indexed | 305 |
 | Categories | 18 |
 | Official Nous Research repos | 4 |
 | Community awesome lists | 21 |
@@ -3305,7 +3316,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 | Research/benchmark projects | 12 |
 | Deployment & infra projects | 16 |
 | Domain applications | 17 |
-| Forks & derivatives | 4 |
+| Forks & derivatives | 5 |
 | Language-specific resources | 12 (10 CN, 1 JP, 1 EN) |
 | Total community stars | 1M+ across all indexed repos |
 

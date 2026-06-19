@@ -900,5 +900,117 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-18T08:01:31.809739+00:00"
+  },
+  {
+    "repo": "christophedanhier-hash/hermes-wiki",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T05:03:31.393676+00:00"
+  },
+  {
+    "repo": "sbrejnev988-coder/browser-automation-mcp",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T05:03:31.393678+00:00"
+  },
+  {
+    "repo": "IkarusMK/ClaudeNasConnector",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T05:03:31.393680+00:00"
+  },
+  {
+    "repo": "0xcjl/hexaloop-evolution",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T05:03:31.393681+00:00"
+  },
+  {
+    "repo": "ndanhkhoi/vietnam-bank-qr-mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T05:03:31.393682+00:00"
+  },
+  {
+    "repo": "pkovitan/mcp_mikrotik",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T05:03:31.393683+00:00"
+  },
+  {
+    "repo": "Neboy72/nexus-memory",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T05:03:31.393684+00:00"
+  },
+  {
+    "repo": "Gimel12/ruben_hermes_trader",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T05:03:31.393685+00:00"
+  },
+  {
+    "repo": "Fatty911/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T05:03:31.393686+00:00"
+  },
+  {
+    "repo": "RollingStonie/MightyOS",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T05:03:31.393687+00:00"
+  },
+  {
+    "repo": "CodeHorizon-design/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T05:03:31.393688+00:00"
+  },
+  {
+    "repo": "Sylinko/Everywhere",
+    "score": 77,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-06-19T05:03:31.393689+00:00"
+  },
+  {
+    "repo": "Hollman18/trim_iu",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T05:03:31.393690+00:00"
+  },
+  {
+    "repo": "RipDock/ripdock-hermes-plugin",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T05:03:31.393691+00:00"
+  },
+  {
+    "repo": "DrAduk007/NousResearch-hermes-agent",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T05:03:31.393692+00:00"
+  },
+  {
+    "repo": "thekoma/hermes-iris",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T05:03:31.393692+00:00"
   }
 ]
