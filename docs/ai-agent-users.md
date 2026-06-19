@@ -1,31 +1,48 @@
 ---
-title: "AI Agent Users — Connect MCP Agents to Business Data via CorpusIQ"
-description: "Connect AI agents (Claude, Cursor, Hermes, Windsurf) to 36 business data sources via CorpusIQ MCP. OAuth 2.0 device flow, tools/list, tools/call, security considerations, and troubleshooting."
+title: "MCP Direct Connection — Connect Any AI Agent or LLM to Business Data"
+description: "Connect any AI model — Claude, ChatGPT, Perplexity, local LLMs, or API-only models — to 37+ business data sources via CorpusIQ MCP. One endpoint. Works with every AI. OAuth 2.0 device flow, 67+ tools."
 category: "Documentation"
-tags: ["ai agent mcp", "connect agent to business data", "mcp endpoint", "oauth device flow", "claude agent", "cursor mcp", "hermes agent"]
-last_updated: "2026-06-16"
+tags: ["mcp direct connection", "connect any llm to business data", "local llm business data", "mcp endpoint", "oauth device flow", "claude mcp", "chatgpt mcp", "ollama mcp", "openrouter mcp"]
+last_updated: "2026-06-18"
 canonical: "https://www.corpusiq.io/docs/ai-agent-users"
 robots: "index,follow"
 ---
-# AI Agent Users
+# MCP Direct Connection — Any AI, Any Model
 
-Connect your AI agent directly to CorpusIQ via MCP at [corpusiq.io/mcp/direct-connection](https://www.corpusiq.io/mcp/direct-connection).
+**CorpusIQ doesn't care which AI you use.**
 
-## Direct MCP Connection Architecture
+ChatGPT. Claude. Perplexity. A local Ollama model. OpenRouter. Any MCP-compatible client. If it speaks MCP, it works with CorpusIQ.
+
+You don't need a ChatGPT Plus subscription. You don't need a Claude account. CorpusIQ is a standalone MCP server at `https://mcp2.corpusiq.io/mcp` — connect any AI that supports the Model Context Protocol.
+
+## One Endpoint. Every AI.
 
 ```
-AI Agent (Claude, Cursor, Hermes, etc.)
-        |
-        | MCP Protocol
-        |
-CorpusIQ MCP Endpoint
-        |
-        | OAuth 2.0 Device Flow
-        |
-36 Business Data Sources (Stripe, Shopify, Quickbooks, etc.)
+            ┌─────────────────────────┐
+            │   Any AI Model           │
+            │   Claude | ChatGPT       │
+            │   Local LLM | API        │
+            │   Perplexity | Agent     │
+            └──────────┬──────────────┘
+                       │ MCP Protocol
+                       ▼
+            ┌──────────────────────────┐
+            │  CorpusIQ MCP Endpoint   │
+            │  mcp2.corpusiq.io/mcp   │
+            │  67 tools across 37     │
+            │  business sources       │
+            └──────────┬───────────────┘
+                       │ OAuth 2.0 Device Flow
+                       ▼
+    ┌──────────────────────────────────────────┐
+    │ 37 Business Data Sources                 │
+    │ Shopify · QuickBooks · Stripe · HubSpot  │
+    │ GA4 · Gmail · Google Ads · Meta Ads      │
+    │ PostgreSQL · MSSQL · MongoDB · +30 more  │
+    └──────────────────────────────────────────┘
 ```
 
-Your AI agent connects to a single MCP endpoint. CorpusIQ handles authentication, data retrieval, and normalization across all 36 connected sources. Your agent sees one unified interface.
+No platform lock. No vendor gate. CorpusIQ is the validation layer between your AI and your data — whichever AI you choose.
 
 ## Agent Authentication Process
 
