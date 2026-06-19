@@ -64,7 +64,8 @@ def score_repo(repo):
     reasons = []
 
     # 1. Relevance (0-30): Name/description/topics match
-    name_lower = (repo.get("name", "") + " " + repo.get("description", "") or "").lower()
+    desc = repo.get("description") or ""
+    name_lower = (repo.get("name", "") + " " + desc).lower()
     topics = [t.lower() for t in repo.get("topics", [])]
 
     hermes_keywords = ["hermes", "hermes-agent", "hermes agent", "nousresearch"]
@@ -281,9 +282,11 @@ def discover_repos(token, dry_run=False):
                 new_finds.append(entry)
 
                 if tier == "AUTO_APPROVE" and not dry_run:
-                    print(f"  ✅ AUTO: {full_name} (score: {score}) — {repo.get('description','')[:60]}")
+                    desc_text = (repo.get('description') or '')[:60]
+                    print(f"  ✅ AUTO: {full_name} (score: {score}) — {desc_text}")
                 elif tier == "HIGH_PRIORITY":
-                    print(f"  📌 HIGH: {full_name} (score: {score}) — {repo.get('description','')[:60]}")
+                    desc_text = (repo.get('description') or '')[:60]
+                    print(f"  📌 HIGH: {full_name} (score: {score}) — {desc_text}")
                 else:
                     print(f"  📋 {tier}: {full_name} (score: {score})")
 

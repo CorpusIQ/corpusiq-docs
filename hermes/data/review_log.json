@@ -1012,5 +1012,75 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-19T05:03:31.393692+00:00"
+  },
+  {
+    "repo": "nfstidham/jewel-osco-mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T06:04:25.522891+00:00"
+  },
+  {
+    "repo": "chenchen1010/xiaohongshu-mcp-public-hermes-usage",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T06:04:25.522906+00:00"
+  },
+  {
+    "repo": "yqYo1/hermes-extensions",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T06:04:25.522908+00:00"
+  },
+  {
+    "repo": "fordbmorris/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T06:04:25.522910+00:00"
+  },
+  {
+    "repo": "ceo-aivocado/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T06:04:25.522912+00:00"
+  },
+  {
+    "repo": "NPFernando/hermes-workspace",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T06:04:25.522914+00:00"
+  },
+  {
+    "repo": "Spencerx/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T06:04:25.522916+00:00"
+  },
+  {
+    "repo": "pheanor-agent/p-hermes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T06:04:25.522918+00:00"
+  },
+  {
+    "repo": "sbrejnev988-coder/hermes-memory-wiki",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T06:04:25.522919+00:00"
+  },
+  {
+    "repo": "clowlove/Hermes-House",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-19T06:04:25.522921+00:00"
   }
 ]
