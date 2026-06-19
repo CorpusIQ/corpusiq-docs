@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 18, 2026 (evening sweep) · **Sources:** mcp.so (22,460+ servers), mcpservers.org (9,181+ servers)
+> **Last updated:** June 19, 2026 (morning sweep) · **Sources:** mcp.so (22,460+ servers), mcpservers.org (9,203+ servers)
 
 ---
 
@@ -250,6 +250,12 @@ Collection of Google's official MCP servers. Centralized repository of Google's 
 ### Supabase MCP ★ Official
 Official Supabase MCP server for managing projects, databases, auth, storage, edge functions, and SQL workflows from AI agents. `npx -y @supabase-community/supabase-mcp`
 
+### Just Publish ★ Official ★ New
+Get your website online in seconds — just ask your AI assistant to publish it and Just Publish hands you a live link to share. No code, no setup, no hosting to figure out. Official MCP server for instant web publishing. Ideal for operators who need rapid landing pages, one-off sites, or quick web presence without dev overhead.
+
+### Dawnguard ★ Official ★ New
+Cloud security insights, guardrail guidance, and compliance checking via Dawnguard. Official MCP server for cloud security posture management from AI agents. Essential for operators managing cloud infrastructure who want AI-driven security monitoring and compliance verification.
+
 ### Scrapling MCP
 High-performance Python web scraping via Playwright. Proxy support, captcha solving, intelligent navigation. Speed-optimized alternative to Playwright/Puppeteer.
 
@@ -435,6 +441,9 @@ AI-powered meeting notes and summaries. Connect your meeting data to AI agents.
 ### Superlist MCP Server ★ Official
 Task and project management via MCP. Connect AI agents to your Superlist workspace.
 
+### Onboard MCP ★ Official ★ New
+Connect your AI assistant to Onboard to monitor live onboarding projects, surface blocked tasks and risks, draft customer emails, and take action on tasks with role-based access and preview-first safety. Essential for operators managing customer onboarding workflows — keeps AI agents aligned with real project state. Official MCP server with Streamable HTTP transport.
+
 ---
 
 ## Content Creation & Creative
@@ -469,6 +478,12 @@ Publish, schedule, moderate your social inbox, and pull analytics across every m
 
 ### MentionsAPI ★ New
 Check whether AI recommends your brand — mentions, ranks & citations across ChatGPT, Claude, Gemini, Perplexity, AI Overviews, AI Mode & Bing Copilot. Essential GEO/AI visibility monitoring for operators investing in AI-engine discoverability.
+
+### getAdvantage MCP ★ Official ★ New
+Scan how ChatGPT and Claude read your app, see who they name instead of you, and get paste-ready fixes (llms.txt, JSON-LD, FAQ, meta) to get found. GEO/AI SEO optimization tool — directly competitive with MentionsAPI for AI-visibility monitoring. Essential for operators who need their products discovered by AI agents. Official MCP server.
+
+### Demo Magic ★ Official ★ New
+Guides for making interactive videos & AI product demos that answer viewers' questions. Turn product walkthroughs into AI-interactive experiences. Official MCP server for marketing teams building interactive demo assets — ideal for operators launching products who need demo content that scales.
 
 ### Webotee Amazon MCP ★ Sponsor ★ New
 Amazon brand, seller & niche intelligence in your own Claude or ChatGPT — buy-box history, competing sellers, and under-competed niches. Research built for sellers. Essential for ecommerce operators on Amazon.
@@ -600,6 +615,23 @@ Memory with drift detection for AI agents — detects context staleness and sign
 | FeedOracle DORA OS | Compliance | EU DORA compliance evidence infrastructure — 50 MCP tools, 11 servers, ES256K-signed, blockchain-anchored. July 2026 deadline |
 | Atlassian Rovo MCP Server | Dev/Infra | Atlassian remote MCP for Jira/Confluence — Streamable HTTP. ⚠ SSE endpoint deprecating June 30, 2026 — migrate to new endpoint |
 | Linksee Memory MCP | Memory/Knowledge | Memory with drift detection for AI agents — detects context staleness and signals when agent memory needs refresh. For operators running multi-session agent workflows |
+
+---
+
+## New This Week (June 19, 2026 — morning sweep)
+
+### 8 new servers from mcpservers.org All + Marketing + Productivity + mcp.so Latest
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Demo Magic ★ Official ★ New | Marketing | Interactive video & AI product demos — answer viewer questions via AI-powered video |
+| getAdvantage MCP ★ Official ★ New | Marketing | GEO/AI SEO scan — see how ChatGPT/Claude read your app, get paste-ready fixes (llms.txt, JSON-LD, FAQ, meta) |
+| Onboard MCP ★ Official ★ New | Communication | Customer onboarding — monitor projects, surface blocked tasks, draft emails, role-based access |
+| Just Publish ★ Official ★ New | Cloud Service | Instant website publishing — ask AI to publish and get a live link, zero setup |
+| Dawnguard ★ Official ★ New | Development | Cloud security insights, guardrail guidance, compliance checking from AI agents |
+| ITHZ MCP ★ New | Memory | Local-first deterministic project memory — context packs, decisions, gates, risks, claims ledger |
+| Memlane ★ New | Memory | Save, search, pull articles, add links, write notes — personal content memory for agents |
+| EyeBrowse ★ New | Web Scraping | Stealthy Chromium browser engine — 85 tools, full Chrome DevTools Protocol, Python library |
 
 ---
 
