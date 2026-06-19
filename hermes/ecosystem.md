@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources — 344+ repos, 
 
 The most comprehensive directory of Hermes Agent resources in existence. 344 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 18, 2026 · **Repos indexed:** 345 · **Categories:** 18
+> **Last updated:** June 18, 2026 · **Repos indexed:** 346 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -32,7 +32,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 344 rep
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
 | [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
 | [Platform-Specific](#-platform-specific) | 10 | [↓](#-platform-specific) |
-| [Domain Applications](#-domain-applications) | 18 | [↓](#-domain-applications) |
+| [Domain Applications](#-domain-applications) | 19 | [↓](#-domain-applications) |
 | [Forks & Derivatives](#-forks--derivatives) | 4 | [↓](#-forks--derivatives) |
 | [Guides](#-guides) | 2 | [↓](#-guides) |
 
@@ -3204,6 +3204,20 @@ AIHawk — autonomous job application AI agent that automates the complete job a
 
 **Key capabilities:** Autonomous job application, multi-platform job search, resume tailoring, cover letter generation, application tracking, ATS-compatible, Hermes-compatible
 **Related:** [Domain Applications →](#-domain-applications)
+
+---
+
+### google-research/timesfm
+⭐ **23,223** · `Python` · [github.com/google-research/timesfm](https://github.com/google-research/timesfm)
+
+TimesFM (Time Series Foundation Model) — pretrained decoder-only foundation model for zero-shot time series forecasting. Feed it any univariate time series (sales, sensor readings, stock prices, energy demand, weather) and get point forecasts with calibrated quantile prediction intervals — no training required. Supports up to 16K context points, covariate forecasting (XReg) with exogenous variables, and fine-tuning via HuggingFace Transformers + PEFT (LoRA). Includes a first-party Agent Skills standard SKILL.md for drop-in integration with Hermes Agent, Claude Code, Cursor, and Codex CLI. Runs inside BigQuery (SQL), Google Sheets (spreadsheet formulas), and Vertex AI (API endpoints).
+
+**Maintainer:** Google Research
+**License:** Apache 2.0
+**Key capabilities:** Zero-shot forecasting, time series foundation model, prediction intervals, covariate forecasting, Agent Skills integration, BigQuery/Sheets/Vertex deployment
+**Model size:** 200M params (~800MB)
+
+---
 
 ---
 
