@@ -9,7 +9,7 @@ The platform runs browser-use on the Mac Mini worker node with Playwright, enabl
 
 ## Architecture
 
-DGX Spark orchestrates tasks. Mac Mini M4 executes browser operations. This separation prevents browser processes from competing with inference workloads on the primary compute node.
+The primary compute node orchestrates tasks. A dedicated worker node executes browser operations. This separation prevents browser processes from competing with inference workloads on the primary compute node.
 
 ## Playwright Setup
 

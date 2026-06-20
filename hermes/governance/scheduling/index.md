@@ -1,6 +1,6 @@
 # Production Cron Reference Architecture
 
-38 crons run this agent autonomously 24/7. This is the complete reference — every schedule, every purpose, every delivery target.
+Production crons run this agent autonomously 24/7. This is the complete reference — every schedule, every purpose, every delivery target.
 
 ## Cron Categories
 

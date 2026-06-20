@@ -371,7 +371,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 36+ pages, 326+ repos indexed, 133+ skills cataloged, 37+ MCP connectors, 38-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 36+ pages, 326+ repos indexed, 133+ skills cataloged, 37+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture/) · [Knowledge →](/hermes/knowledge/) · [Crons →](/hermes/governance/scheduling/) · [MCP →](/hermes/mcp/)
 
@@ -2808,7 +2808,7 @@ Production bridge between Hermes Agent and Xiaomi MiMo API — long-chain reason
 ### CorpusIQ Multi-Machine Architecture
 [Deployment Guide →](/hermes/infrastructure/)
 
-DGX Spark (primary) + Mac Mini M4 (worker) production deployment. SSH orchestration, model routing (65% cost savings), 38-cron reference.
+Multi-machine (primary + worker) production deployment. SSH orchestration, model routing (65% cost savings), production-cron reference.
 
 ---
 

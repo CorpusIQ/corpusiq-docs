@@ -23,7 +23,7 @@ The `hermes-s6-container-supervision` skill enables production-grade process sup
 
 ## Why CorpusIQ Needs This
 
-CorpusIQ runs Hermes agents on DGX Spark and Mac Mini worker nodes. Agent processes that crash silently or hang indefinitely create operational blind spots. s6 supervision ensures:
+CorpusIQ runs Hermes agents on primary and worker nodes. Agent processes that crash silently or hang indefinitely create operational blind spots. s6 supervision ensures:
 
 1. **Zero manual intervention:** Agents restart automatically on failure
 2. **Observability:** Structured logs for debugging and audit trails

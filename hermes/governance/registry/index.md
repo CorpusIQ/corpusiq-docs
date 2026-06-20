@@ -93,7 +93,7 @@ The platform operates 24 scheduled processes executing on a 24/7 basis: email mo
 
 ## Cron Architecture
 
-All crons run on DGX Spark. Mac Mini handles browser-dependent tasks via remote SSH. Each cron is verified — status checks catch failures and escalate.
+Crons run on the primary compute node. A dedicated worker handles browser-dependent tasks via remote SSH. Each cron is verified — status checks catch failures and escalate.
 
 ## Scheduling Principles
 

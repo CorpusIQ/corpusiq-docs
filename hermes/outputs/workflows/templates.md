@@ -17,7 +17,7 @@ This is a **grab-bag of cron + skill templates** you can copy, adapt, and deploy
 
 ## Overview
 
-**Stop starting from scratch.** These 12 templates cover the most common automation patterns — email monitoring, report generation, data sync, anomaly detection, and platform-specific integrations. Each template has been production-tested on a [24/7 Hermes deployment](/hermes/) running 38 crons.
+**Stop starting from scratch.** These 12 templates cover the most common automation patterns — email monitoring, report generation, data sync, anomaly detection, and platform-specific integrations. Each template has been production-tested on a [24/7 Hermes deployment](/hermes/).
 
 > **See also:** [Cron Scheduling Guide](/hermes/governance/scheduling/) · [Outputs Overview](/hermes/outputs/) · [Agent Library](/hermes/agents/)
 
