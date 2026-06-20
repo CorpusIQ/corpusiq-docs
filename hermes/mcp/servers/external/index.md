@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 19, 2026 (cron sweep) · **Sources:** mcp.so (22,470+ servers), mcpservers.org (9,210+ servers)
+> **Last updated:** June 19, 2026 (afternoon sweep) · **Sources:** mcp.so (22,529+ servers), mcpservers.org (9,210+ servers)
 
 ---
 
@@ -202,6 +202,15 @@ AutoNavi Maps MCP — China's second-largest mapping platform. Location search, 
 ### ACG Mcp ★ New
 Audited Context Generation Protocol — verifiable fact-checking and grounded RAG via MongoDB. Standalone MCP server that provides verified, evidence-backed answers by grounding AI responses in audited sources. Essential for operators who need verifiable, citation-backed AI outputs for compliance, research, and decision-making.
 
+### Prowlo — Reddit & X for AI Agents ★ New
+Hosted MCP server for clean, semantically-searchable Reddit and X data — crawled through residential proxies, no Reddit API credentials needed. Most free Reddit MCP servers broke in 2026 when Reddit blocked unauthenticated endpoints; Prowlo runs the full pipeline. Read-only. 5 tools: search_dataset, reddit_search, list_records, read_post, read_comments. OAuth authentication. Free 14-day trial, then $19/mo. `https://api.prowlo.com/mcp`. Essential for operators doing social listening, market research, and community monitoring.
+
+### OpenOSINT MCP ★ New
+MCP-native OSINT framework — 18 intelligence tools (email, username, breach, WHOIS, IP, Shodan, VirusTotal, Censys, AbuseIPDB, GitHub, DNS, phone, dorks). v2.22.0 (June 2026). MIT license. 710+ GitHub stars. Three AI backends (Anthropic, Ollama, OpenAI-compatible). Fully async with parallel tool execution. PDF + Markdown reports auto-saved. For authorized security research. `pip install openosint`. Essential for operators doing due diligence, competitive intelligence, and security research.
+
+### Deckextract ★ New
+DocSend & Papermark MCP server — extract decks and convert to PDF or PowerPoint from Claude, Claude Code, ChatGPT, and any MCP client. Document pipeline MCP for operators who share pitch decks, reports, and presentations through DocSend/Papermark and want AI agents to process them.
+
 ---
 
 ## Commerce & E-Commerce
@@ -212,6 +221,9 @@ First SEA e-commerce MCP server — real-time product search across 11M+ product
 ### Portkey Admin MCP ★ New
 150 tools across 18 domains for the Portkey AI Gateway — prompts, analytics, guardrails, API keys, virtual keys, users, workspaces, rate/usage limits. MIT license. ⚠ Maintenance mode post Palo Alto Networks acquisition (May 2026). Works end-to-end as of June 2026. `npx -y portkey-admin-mcp`
 
+### Attio MCP Server ★ New
+AI-native CRM (Attio) via MCP — manage companies, people, lists, and tasks directly from AI assistants like Claude, Cursor, and ChatGPT. Comprehensive Attio API support with robust error handling, automatic retry logic, and input validation. Requires Node.js 18+ and Attio API key. `npx -y @kesslerio/attio-mcp-server`. Essential for operators using Attio as their CRM who want AI agents to query and manage customer relationships.
+
 ---
 
 ## Compliance & Regulatory
@@ -221,6 +233,9 @@ EU AI Act compliance checker — checks 6 articles, HMAC-SHA256 tamper-evident a
 
 ### FeedOracle DORA OS ★ New
 EU DORA compliance evidence infrastructure — 50 MCP tools across 11 servers, ES256K-signed, blockchain-anchored evidence. July 2026 DORA deadline. For EU financial operators needing compliance-grade evidence automation.
+
+### Trust Gate MCP ★ New ★ Featured
+First post-quantum MCP server. Policy-gated AI agent decisions with hybrid Ed25519 + ML-DSA-65 (NIST FIPS 204) cryptographic receipts. Every tool call is policy-gated, hybrid-signed, and offline-verifiable. 4 tools: `gate_decision`, `verify_receipt`, `check_policy`, `health`. Production-ready (47 unit tests, 51 OWASP ASI checks, 0 CVEs in deps). EU AI Act Article 50 native, NSA CNSA 2.0 / NIST AI RMF / SOC 2 ready. Apache-2.0. Essential for operators in regulated industries who need cryptographically verifiable AI agent decisions with post-quantum security. `pip install trust-gate-mcp`
 
 ---
 
@@ -348,6 +363,12 @@ Google Apps Script-based MCP network for Google Workspace — Gmail, Calendar, S
 
 ### Atlassian Rovo MCP Server ★ New
 Atlassian remote MCP for Jira, Confluence — Streamable HTTP at `mcp.atlassian.com`. ⚠ SSE endpoint (`/v1/sse`) deprecates June 30, 2026 — migrate to new endpoint. For operators running Jira/Confluence who want AI agents integrated with their Atlassian stack.
+
+### ZenML MCP Server ★ Official ★ New
+Official MCP server for ZenML MLOps/LLMOps pipelines. Read-only access + trigger pipeline runs. 30+ tools covering stacks, components, pipelines, runs, artifacts, models, deployments, and snapshots. Includes `diagnose_zenml_setup` for troubleshooting misconfigured environments. 46 GitHub stars. `pip install mcp-zenml`. Essential for operators running ML/AI pipelines on ZenML who want AI agents to manage and monitor their MLOps infrastructure.
+
+### Lightrun MCP ★ New
+Production debugging from AI agents — connect coding assistants to live runtime context without redeploying. Discover runtime sources, inspect live expression values, capture call stacks, measure execution duration, count executions, and collect numeric runtime metrics. Hosted at `https://app.lightrun.com/mcp`. Essential for operators who need AI-assisted production debugging with zero redeployment.
 
 ---
 
@@ -593,6 +614,9 @@ Self-learning memory for AI tools — remembers user preferences and context acr
 
 ### Linksee Memory MCP ★ New
 Memory with drift detection for AI agents — detects context staleness and signals when agent memory needs refresh. For operators running multi-session agent workflows where context accuracy is critical. `npx -y linksee-memory`
+
+### Memclaw ★ New ★ Featured
+Governed, shared, self-improving memory for AI agent fleets — built for multi-tenant, multi-agent production environments. Apache 2.0. 131 GitHub stars. Production-proven: eToro runs 300+ agents on Memclaw (26,500+ memories, 1,372 shared skills, 23ms p50 search). Features: tenant isolation, visibility scopes (agent/team/org), agent trust tiers (0–3), full audit trails, single-pass LLM enrichment (14 memory types), hybrid search (pgvector + full-text + knowledge graph), contradiction detection, and PII auto-flagging. Managed platform at memclaw.net or self-hosted via Docker. `pip install memclaw-client` or `npm install @caura/memclaw-client`. Essential for operators running fleets of AI agents who need governed, shared memory with production-grade isolation and audit.
 
 ---
 
@@ -892,14 +916,31 @@ Memory with drift detection for AI agents — detects context staleness and sign
 
 ---
 
+## New This Week (June 19, 2026 — afternoon sweep)
+
+### 8 new servers from mcp.so Latest + mcpservers.org All
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Trust Gate MCP ★ Featured | Security/Compliance | First post-quantum MCP — policy-gated agent decisions, hybrid Ed25519 + ML-DSA-65 (NIST FIPS 204) receipts. EU AI Act Art. 50 native. Apache-2.0. `pip install trust-gate-mcp` |
+| Prowlo | Content/Research | Hosted Reddit & X data MCP — semantic search, no Reddit API needed. Read-only. 5 tools. 14-day free trial, $19/mo. `https://api.prowlo.com/mcp` |
+| OpenOSINT MCP | Data/Intelligence | MCP-native OSINT — 18 tools (email, username, WHOIS, IP, Shodan, VirusTotal, Censys, etc.). MIT license, 710+ ⭐. `pip install openosint` |
+| Attio MCP Server | CRM/Sales | AI-native CRM (Attio) via MCP — manage companies, people, lists, tasks. Node.js 18+. `npx -y @kesslerio/attio-mcp-server` |
+| ZenML MCP Server ★ Official | Dev/Infra | Official MCP for ZenML MLOps/LLMOps — 30+ tools, pipeline triggers, diagnostics. 46 ⭐. `pip install mcp-zenml` |
+| Lightrun MCP | Dev/Infra | Production debugging from AI agents — live runtime context, no redeploy. `https://app.lightrun.com/mcp` |
+| Memclaw ★ Featured | Memory/Knowledge | Governed shared memory for AI agent fleets — tenant isolation, trust tiers, audit trails. eToro-proven (300+ agents). Apache-2.0. `pip install memclaw-client` |
+| Deckextract | Productivity | DocSend & Papermark MCP — extract decks, convert to PDF/PPT from AI agents |
+
+---
+
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,470 (mcp.so), 9,210 (mcpservers.org)
-- **Official servers:** 40+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, etc.)
+- **Total MCP servers tracked:** 22,529 (mcp.so), 9,210+ (mcpservers.org)
+- **Official servers:** 42+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
-- **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, etc.)
-- **New this cycle (June 19 morning):** 13 new MCP servers from mcpservers.org + mcp.so
-- **Cumulative since June 9:** 203 MCP servers catalogued across 13 sweeps
+- **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
+- **New this cycle (June 19 afternoon):** 8 new MCP servers from mcp.so + mcpservers.org
+- **Cumulative since June 9:** 211 MCP servers catalogued across 14 sweeps
 
 ---
 
