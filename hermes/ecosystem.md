@@ -1,13 +1,13 @@
 ---
 title: Hermes Ecosystem — Complete Resource Directory
-description: The definitive directory of Hermes Agent resources — 355+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
+description: The definitive directory of Hermes Agent resources — 360+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
 ---
 
 # Hermes Ecosystem — Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 355 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 360 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 19, 2026 · **Repos indexed:** 361 · **Categories:** 18
+> **Last updated:** June 19, 2026 · **Repos indexed:** 368 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -22,9 +22,9 @@ The most comprehensive directory of Hermes Agent resources in existence. 355 rep
 | [Community & Awesome Lists](#-community--awesome-lists) | 33 | [↓](#-community--awesome-lists) |
 | [UI & Dashboards](#-ui--dashboards) | 11 | [↓](#-ui--dashboards) |
 | [Memory & Knowledge](#-memory--knowledge) | 18 | [↓](#-memory--knowledge) |
-| [MCP & Integrations](#-mcp--integrations) | 24 | [↓](#-mcp--integrations) |
+| [MCP & Integrations](#-mcp--integrations) | 27 | [↓](#-mcp--integrations) |
 | [Skills & Plugins](#-skills--plugins) | 59 | [↓](#-skills--plugins) |
-| [Tools & Utilities](#-tools--utilities) | 50 | [↓](#-tools--utilities) |
+| [Tools & Utilities](#-tools--utilities) | 54 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
 | [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 23 | [↓](#-orchestration-multi-agent--swarms) |
 | [Deployment & Infrastructure](#-deployment--infrastructure) | 17 | [↓](#-deployment--infrastructure) |
@@ -1092,6 +1092,37 @@ Apache Superset MCP server — Model Context Protocol server connecting autonomo
 
 **Key capabilities:** Apache Superset MCP, BI integration, dashboard access, chart data retrieval, data exploration, Hermes-compatible
 **Related:** [MCP Guide →](/hermes/mcp/) · [Integrations →](#-mcp--integrations)
+
+---
+
+### CodeGraphContext/CodeGraphContext
+⭐ **3,775** · [github.com/CodeGraphContext/CodeGraphContext](https://github.com/CodeGraphContext/CodeGraphContext)
+
+Code graph context for AI coding agents — provides structured code knowledge graphs that give agents deep understanding of codebase architecture, dependencies, and relationships. Enables Hermes Agent to navigate complex codebases with full architectural awareness through MCP.
+
+**Key capabilities:** Code graph context, codebase architecture, dependency mapping, MCP-native, Hermes-compatible
+**Related:** [MCP Guide →](/hermes/mcp/)
+
+---
+
+### getsentry/XcodeBuildMCP
+⭐ **5,935** · [github.com/getsentry/XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP)
+
+Sentry Xcode Build MCP — Model Context Protocol server connecting autonomous agents to Xcode build systems and Sentry error monitoring. Enables Hermes Agent to trigger Xcode builds, monitor build status, retrieve build logs, and correlate build failures with Sentry error reports through standardized MCP tool calls.
+
+**Maintainer:** Sentry
+**Key capabilities:** Xcode build MCP, Sentry integration, build automation, error monitoring, iOS development, Hermes-compatible
+**Related:** [MCP Guide →](/hermes/mcp/)
+
+---
+
+### IvanMurzak/Unity-MCP
+⭐ **3,231** · [github.com/IvanMurzak/Unity-MCP](https://github.com/IvanMurzak/Unity-MCP)
+
+Unity MCP server — Model Context Protocol server bridging autonomous agents with the Unity game engine. Enables Hermes Agent to control Unity Editor, manipulate game objects, manage scenes, trigger builds, and automate game development workflows through standardized MCP tool calls.
+
+**Key capabilities:** Unity MCP, game engine integration, Unity Editor control, scene management, build automation, Hermes-compatible
+**Related:** [MCP Guide →](/hermes/mcp/)
 
 ---
 
@@ -2534,6 +2565,48 @@ Haystack — production-grade NLP framework for building search, question answer
 
 **Key capabilities:** NLP framework, RAG pipelines, semantic search, question answering, document processing, agent workflows, Hermes-compatible
 **Related:** [Knowledge Architecture →](/hermes/knowledge/) · [Tools →](#-tools--utilities)
+
+---
+
+### can1357/oh-my-pi
+⭐ **13,559** · [github.com/can1357/oh-my-pi](https://github.com/can1357/oh-my-pi)
+
+Oh My Pi — Raspberry Pi management and automation toolkit for AI agents. Enables Hermes Agent to control, configure, and manage Raspberry Pi devices for IoT, home automation, edge computing, and hardware prototyping workflows through structured tool calls.
+
+**Key capabilities:** Raspberry Pi management, IoT automation, edge computing, hardware control, home automation, Hermes-compatible
+**Related:** [Tools & Utilities →](#-tools--utilities)
+
+---
+
+### tirth8205/code-review-graph
+⭐ **18,705** · [github.com/tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)
+
+Code review graph tool — visual code review and analysis platform that maps code changes, dependencies, and review workflows into interactive graphs. Enables Hermes Agent to perform comprehensive code reviews with architectural impact analysis, dependency tracing, and automated review summaries.
+
+**Key capabilities:** Code review, graph visualization, dependency tracing, architectural analysis, automated reviews, Hermes-compatible
+**Related:** [Tools & Utilities →](#-tools--utilities)
+
+---
+
+### ToolJet/ToolJet
+⭐ **38,037** · `JavaScript` · [github.com/ToolJet/ToolJet](https://github.com/ToolJet/ToolJet)
+
+Low-code platform for building internal tools — extensible open-source platform for rapidly creating custom internal applications, dashboards, and admin panels with drag-and-drop UI builder. Connects to databases, APIs, and services. Compatible with Hermes Agent for automated tool generation and workflow integration in enterprise environments.
+
+**Maintainer:** ToolJet
+**Key capabilities:** Low-code platform, internal tools, drag-and-drop builder, dashboard creation, database integration, Hermes-compatible
+**Related:** [Infrastructure →](/hermes/infrastructure/)
+
+---
+
+### wavetermdev/waveterm
+⭐ **21,345** · `TypeScript` · [github.com/wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)
+
+Wave Terminal — open-source terminal workspace with graphical widgets, web rendering, and AI integration. Modern terminal environment that combines traditional CLI with rich graphical capabilities including charts, images, file previews, and web content. Hermes Agent users gain a powerful terminal workspace for agent-driven development with visual feedback and multi-pane workflows.
+
+**Maintainer:** Wave Terminal
+**Key capabilities:** Terminal workspace, graphical widgets, web rendering, AI integration, multi-pane, Hermes-compatible
+**Related:** [Tools & Utilities →](#-tools--utilities)
 
 ---
 
