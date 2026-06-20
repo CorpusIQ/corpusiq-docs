@@ -5320,5 +5320,107 @@
     "near_duplicates": [],
     "discovered_at": "2026-06-20T05:01:22.431712+00:00",
     "status": "pending"
+  },
+  {
+    "name": "ItachiDevv/ClawVille",
+    "url": "https://github.com/ItachiDevv/ClawVille",
+    "description": "App for autonomous agents and humans, powered by ElizaOS. Train agents, play games, collaborate with other agents. Host your Milady AI, add eliza to your openclaw, hermes, or any agent to play.",
+    "stars": 10,
+    "forks": 1,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-20T06:02:18Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "Romanescu11/hermes-skill-factory",
+      "ruvnet/agent-harness-generator",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "CYC2002tommy/Deep-Research-Agent",
+      "kaankacar/stellar-agent-kit",
+      "ahonore42/logios-brain"
+    ],
+    "discovered_at": "2026-06-20T06:02:33.489637+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "minarflow/hive-os",
+    "url": "https://github.com/minarflow/hive-os",
+    "description": "Hermes-first multi-user agent workspace, self-hosted (chat, tasks, files, run-and-preview)",
+    "stars": 0,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-20T06:01:59Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-20T06:02:34.992607+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "demossml/hermes-agent",
+    "url": "https://github.com/demossml/hermes-agent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-20T06:01:18Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness"
+    ],
+    "discovered_at": "2026-06-20T06:02:36.493285+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "OfficialNovizio/ToonGine",
+    "url": "https://github.com/OfficialNovizio/ToonGine",
+    "description": "AI Agent OS Kernel \u2014 CIE + 13 agents + TOON compression + knowledge graphs + Hermes sync. One npm install, full agent team.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-20T06:00:35Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-20T06:02:37.996344+00:00",
+    "status": "pending"
   }
 ]
