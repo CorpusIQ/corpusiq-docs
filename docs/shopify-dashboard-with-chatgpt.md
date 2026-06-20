@@ -164,7 +164,6 @@ CorpusIQ provides pre-built dashboard templates for common ecommerce roles and u
 ### How does mobile access work?
 Access your dashboard from anywhere by opening ChatGPT on your phone and asking for your dashboard. No special app, no VPN, no desktop required. "How's the store doing today?" during your morning coffee gives you a complete performance snapshot.
 
-
 ## Get Started with Shopify Dashboard with ChatGPT
 
 Ready to put AI to work on your shopify dashboard with chatgpt data? 
@@ -175,7 +174,6 @@ Ready to put AI to work on your shopify dashboard with chatgpt data?
 4. **Scale your usage** — add team members, connect more sources, and automate recurring reports.
 
 **[Get started now →](https://app.corpusiq.com/signup)**
-
 
 ## Internal Links
 
@@ -193,98 +191,7 @@ A ChatGPT-powered Shopify dashboard is the fastest, most flexible way to monitor
 
 **[Set up your Shopify dashboard now](/get-started) — connect your store in 60 seconds.**
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How is this better than Shopify's built-in dashboard?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Shopify's dashboard shows a fixed set of widgets with limited customization and no narrative interpretation. ChatGPT dashboards are fully customizable, show any metric you define, compare across any dimensions, and add AI-powered interpretation — it tells you not just what the numbers are, but what "
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I automate dashboard delivery?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Through CorpusIQ, schedule dashboard delivery via email, Slack, or file storage (Google Drive, OneDrive, Dropbox). \"Send me the morning dashboard at 8 AM daily\" or \"Deliver the weekly performance report to the ecommerce Slack channel every Monday at 9 AM.\""
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How current is the dashboard data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Live. Every dashboard query fetches data from Shopify's API in real time at the moment you ask. There's no batch processing, no cache delay, no ETL window. If an order just came in, it's reflected."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can multiple team members have their own dashboards?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Each team member can have personalized dashboard templates. Marketing sees marketing KPIs. Operations sees fulfillment metrics. The CEO sees the executive summary. All draw from the same live Shopify data."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I combine Shopify data with other platforms in my dashboard?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, through CorpusIQ's multi-source capabilities. Combine Shopify sales with Google Ads spend for real-time ROAS, Klaviyo email performance for channel attribution, or QuickBooks financial data for profit analysis. Multi-source dashboards are available on Pro and Enterprise plans."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT create visual charts?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ChatGPT can produce structured data tables. For native charts, paste dashboard data into Excel, Google Sheets, or your preferred visualization tool. Some ChatGPT versions can generate basic charts directly. CorpusIQ's Enterprise plan includes BI tool integration."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if my store has high order volume?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ optimizes queries for performance. For stores processing thousands of orders daily, dashboard queries use aggregated endpoints where possible. Response times typically range from 3-15 seconds depending on dashboard complexity and data volume."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I set up alerts based on dashboard metrics?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Define alert thresholds through CorpusIQ: \"Alert me if daily revenue drops below $X,\" \"Notify me if any product drops below 7 days of stock,\" or \"Flag if return rate exceeds Y% in a single day.\" Alerts can be delivered via email or Slack."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is there a template library?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ provides pre-built dashboard templates for common ecommerce roles and use cases. You can use these as-is or customize them for your specific KPIs and reporting preferences."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does mobile access work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Access your dashboard from anywhere by opening ChatGPT on your phone and asking for your dashboard. No special app, no VPN, no desktop required. \"How's the store doing today?\" during your morning coffee gives you a complete performance snapshot."
-      }
-    }
-  ]
-}
-</script>
-
-
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
-
 
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
 ---

@@ -135,50 +135,7 @@ A: No. All integrations are read-only.
 
 **Next steps:** [Connect your CRM now →](https://app.corpusiq.com/connect)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does this replace our CRM dashboards?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No \u2014 it complements them. CRM dashboards are great for standard views. AI provides on-demand, ad-hoc answers to questions that don't have pre-built dashboards."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can AI analyze custom CRM objects and fields?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ queries the standard REST API, so custom objects and fields accessible via API are queryable through Claude."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How current is the pipeline data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Real-time. Every query triggers a live API call to your CRM."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can AI create opportunities or update CRM records?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. All integrations are read-only."
-      }
-    }
-  ]
-}
-</script>
-
-
 *AI-powered AI for Sales Reporting | CorpusIQ MCP Platform for Sales ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
 
 *AI-powered AI for Sales Reporting | CorpusIQ MCP Platform for Sales ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---

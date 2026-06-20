@@ -132,50 +132,7 @@ A: Yes. Ask Claude for a formatted project status report and it will synthesize 
 
 **Next steps:** [Start your AI PM transformation →](https://app.corpusiq.com/signup)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Which project management tools are supported?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Monday.com is supported natively. Jira, Asana, and Linear can be accessed via database connectors or API. Direct connectors for additional PM tools are in development."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can AI create or update tasks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. All integrations are read-only. AI analyzes and reports on project data but cannot modify it."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does AI handle complex project dependencies?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Claude can analyze task relationships and dependencies when they're represented in your project management tool's data model and identify at-risk dependency chains."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I generate reports for stakeholders?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Ask Claude for a formatted project status report and it will synthesize data from all connected tools."
-      }
-    }
-  ]
-}
-</script>
-
-
 *AI-powered AI for Project Management | CorpusIQ MCP Platform for PM ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
 
 *AI-powered AI for Project Management | CorpusIQ MCP Platform for PM ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---

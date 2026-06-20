@@ -131,55 +131,6 @@ The agent produces **competitive intelligence briefs, market intelligence summar
 
 Yes. The **literature review skill** sweeps academic databases (arXiv, Semantic Scholar, PubMed) for new papers in your research areas, summarizes key findings and methodology, graphs citations to identify influential work, and flags research gaps for exploration.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does the Hermes Research Agent do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Hermes Research Agent autonomously monitors competitors, tracks industry trends, reviews academic literature, and tracks patents — synthesizing findings into structured briefs with cited sources and confidence levels."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does competitor monitoring work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agent checks competitor websites every 12 hours for changes — new pages, pricing updates, hiring signals, SEO changes — and posts a digest with context."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is the research agent different from a web search?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Unlike one-off searches, the Research Agent maintains persistent monitoring threads, builds knowledge graphs connecting companies and trends, and contextualizes changes against historical patterns."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What types of research briefs does the agent produce?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agent produces competitive intelligence briefs, market intelligence summaries, literature reviews, patent landscape maps, and news digests — all with cited sources and recommended actions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can the agent track academic research?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The literature review skill sweeps academic databases for new papers in your research areas, summarizes findings, graphs citations, and flags research gaps."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Agent Library — All 9 Role Configurations](/hermes/agents/)
@@ -189,9 +140,7 @@ Yes. The **literature review skill** sweeps academic databases (arXiv, Semantic 
 - [Ahrefs Connector — SEO & Backlink Data](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

@@ -146,7 +146,6 @@ MCP queries execute against live APIs. Most ad platforms and analytics tools pro
 Yes. MCP for agencies supports multi-account management. See our [See how agencies use MCP for client reporting](/docs/mcp-for-agencies) for details on managing client portfolios.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -157,79 +156,7 @@ Yes. MCP for agencies supports multi-account management. See our [See how agenci
 - [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
 - [MCP for Customer Support: Ticket Analytics](/docs/mcp-for-customer-support)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP for Marketing: How to Connect Your Business Data to AI",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can MCP replace our marketing analytics tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP complements rather than replaces specialized analytics tools. Tools like Triple Whale or Northbeam provide deep attribution modeling. MCP provides broad data access and AI-powered analysis across all your marketing platforms. They work together \u2014 MCP queries the data, specialized tools model it."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does attribution work with MCP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP provides the data connectivity layer. You can query raw performance data from each platform. The AI model can perform basic attribution calculations (last-click, first-click, linear) based on the connected data. For advanced attribution modeling, specialized tools remain the better choice."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I schedule automated reports through MCP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP is primarily an on-demand query interface. For scheduled reporting, saved prompts can generate consistent report formats. Integration with reporting or scheduling tools is available for enterprise customers."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this compare to Google's Looker Studio or similar dashboard tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Dashboard tools require you to configure every widget and filter in advance. MCP lets you ask any question ad-hoc. Dashboard tools are for monitoring known metrics; MCP is for exploring data and answering unanticipated questions. They're complementary."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How fresh is the marketing data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP queries execute against live APIs. Most ad platforms and analytics tools provide data with latency ranging from near-real-time (Google Ads) to 24-48 hours (some attribution data). MCP returns whatever the source platform provides at query time."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use MCP with our agency's client accounts?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. MCP for agencies supports multi-account management. See our [See how agencies use MCP for client reporting](/docs/mcp-for-agencies) for details on managing client portfolios."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
-
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 ---

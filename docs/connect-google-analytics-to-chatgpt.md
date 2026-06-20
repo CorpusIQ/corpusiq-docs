@@ -78,7 +78,6 @@ Yes. Connect multiple GA4 properties to CorpusIQ. Compare traffic across propert
 GA4 properties have a data retention setting (2 months or 14 months by default). CorpusIQ can query any data within your property's retention window. For data beyond the retention window, you'd need BigQuery export — a topic covered in our [GA4 connector reference](../connectors/ga4.md).
 </details>
 
-
 ## How It Works
 
 1. **Connect GA4 to CorpusIQ.** Dashboard → Connections → Google Analytics → sign into Google → select your GA4 property → authorize read-only access. CorpusIQ lists all properties across your Google Analytics accounts so you can choose the right one.
@@ -183,95 +182,7 @@ The GA4 Data API is powerful but requires significant engineering to make conver
 - [GA4 Connector Reference](../connectors/ga4.md) — technical details
 - [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md) — detailed comparison
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "How to Connect Google Analytics to ChatGPT with CorpusIQ MCP",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What web analytics questions can I ask ChatGPT?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Traffic questions: \"What was our total website traffic last week?\", \"Which pages got the most views this month?\", \"How many users did we have yesterday?\" Conversion questions: \"What's our conversion rate for the last 30 days?\", \"Which traffic source has the highest conversion rate?\" Ecommerce questi"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does CorpusIQ connect GA4 to ChatGPT?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ connects to your Google Analytics account via OAuth 2.0. You select which GA4 property to connect, authorize read-only access, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available analytics tools and calls them when you ask a question. The MCP server handles the "
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What GA4 data can ChatGPT access?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Traffic metrics: sessions, users, new users, pageviews, screen views. Engagement metrics: average engagement time, engaged sessions, bounce rate. Conversion metrics: conversions, conversion rate, event count. Ecommerce metrics: purchase revenue, transactions, item revenue, add-to-carts. All broken d"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this read-only?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The Google Analytics API is inherently read-only \u2014 it provides analytics data, not configuration access. CorpusIQ requests the minimum OAuth scopes needed to read analytics data. ChatGPT cannot modify your GA4 property settings, create events, or alter tracking configuration."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT compare GA4 data with data from other tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "This is where MCP creates value beyond what GA4 alone can offer. \"Did our Google Ads campaigns drive more revenue than our email campaigns this month?\" queries GA4 for conversion data, Google Ads for spend data, and Klaviyo for email campaign data \u2014 all in one response. \"How does our website traffic"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is this different from using GA4's built-in reports?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "GA4's built-in reports are pre-constructed views with specific dimensions and metrics. They're useful for standard analysis but limit you to what Google decided to include. With ChatGPT, every question is a custom report: \"Show me the bounce rate for mobile users from paid search who landed on produ"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this handle GA4's event-based data model?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "GA4's event-based model is powerful but complex. Events have parameters, and understanding which event maps to which business metric requires GA4 expertise. CorpusIQ's MCP layer abstracts this complexity. You ask about \"conversions\" or \"purchases\" in natural language, and the MCP server maps to the "
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What about real-time data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ supports GA4's real-time reporting. You can ask \"How many active users are on our site right now?\" or \"What pages are real-time users viewing?\" This real-time capability lets you monitor campaign launches, product releases, or promotional events as they happen."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect Google Analytics to ChatGPT via MCP — Live Data, ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect Google Analytics to ChatGPT via MCP — Live Data, ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

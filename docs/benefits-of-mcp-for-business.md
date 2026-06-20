@@ -131,7 +131,6 @@ CorpusIQ's platform is built with compliance in mind. The stateless architecture
 Traditional BI involves per-seat licensing, infrastructure costs, and implementation services — easily $50,000-$200,000 annually for mid-market companies. MCP through CorpusIQ is a flat platform subscription, typically one-tenth the cost.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -142,71 +141,7 @@ Traditional BI involves per-seat licensing, infrastructure costs, and implementa
 - [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
 - [Learn about MCP for financial reporting and compliance](/docs/mcp-for-finance)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "Benefits of MCP for Business: 9 Reasons to Connect Your Data to AI",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How fast are MCP queries compared to running reports in the source system?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP queries typically return in 2-10 seconds, comparable to or faster than running native reports. The AI model's natural language processing adds minimal overhead \u2014 the bulk of the time is the source API response."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if my data source goes down?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP queries fail gracefully \u2014 the AI model receives an error and can communicate it clearly. You don't get a broken dashboard or a cryptic error code."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use MCP without an AI model?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Technically yes \u2014 MCP is a protocol for tool discovery and execution. But the primary value comes from pairing it with an AI model that can reason about which tools to use and synthesize natural language answers."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is MCP compliant with regulations like SOC 2 and GDPR?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ's platform is built with compliance in mind. The stateless architecture (no data storage) simplifies GDPR compliance. The audit logging supports SOC 2 requirements. See our security documentation for details."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does MCP pricing compare to traditional BI tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Traditional BI involves per-seat licensing, infrastructure costs, and implementation services \u2014 easily $50,000-$200,000 annually for mid-market companies. MCP through CorpusIQ is a flat platform subscription, typically one-tenth the cost."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
-
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 ---

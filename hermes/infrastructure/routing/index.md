@@ -40,9 +40,7 @@ When a primary model fails or times out, the chain escalates to the next availab
 
 Local-first routing saves $200-400/month for a production deployment while improving latency on routine tasks.
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

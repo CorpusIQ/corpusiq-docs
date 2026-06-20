@@ -72,9 +72,7 @@ When in doubt, grep the deployed page for a unique string and see which repo's g
 - [mcp-architecture](../mcp-architecture/#marketing-site-is-a-separate-repo-verification-trap) — the MCP-server-side view of the same cross-repo boundary
 - [api-development](../api-development/) — the BFF layer's backend dependency
 
-
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 ---

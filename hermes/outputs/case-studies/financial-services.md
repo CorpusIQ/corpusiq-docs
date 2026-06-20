@@ -176,55 +176,6 @@ Yes. Hermes skills can gather required data, validate formatting, generate draft
 
 Yes. Hermes skills can compute time-weighted returns, risk metrics, attribution analysis, and benchmark comparisons by pulling data from portfolio management systems and market data feeds.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What financial systems does Hermes connect to?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes connects to portfolio management systems, custodial platforms, accounting software (QuickBooks), billing systems (Stripe), and any financial database with PostgreSQL or MSSQL access."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes replace my reconciliation team?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No — Hermes automates the mechanical matching work so your team can focus on investigating exceptions. The goal is to handle 90% of transactions automatically and surface the 10% that need human judgment with full context."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How accurate is Hermes fraud detection?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes applies configurable detection rules based on transaction velocity, timing patterns, counterparty analysis, and geographic signals. It serves as a first-line screening layer; final fraud determinations should always involve human review."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does Hermes support FINRA and SEC filing automation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hermes skills can gather required data, validate formatting, generate draft filings, and maintain deadline calendars for FINRA, SEC, CFTC, and other regulatory bodies. All filings route for human review before submission."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes calculate portfolio performance metrics?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hermes skills can compute time-weighted returns, risk metrics, attribution analysis, and benchmark comparisons by pulling data from portfolio management systems and market data feeds."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md) — SOC 2, HIPAA, and GDPR evidence collection
@@ -233,9 +184,7 @@ Yes. Hermes skills can compute time-weighted returns, risk metrics, attribution 
 - [Hermes Agent for Professional Services](../case-studies/professional-services.md) — Invoice generation and billing automation
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

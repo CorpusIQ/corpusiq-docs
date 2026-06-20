@@ -100,39 +100,6 @@ A: When you receive a 429 Too Many Requests, check the retry_after_seconds field
 **Q: What does a 400 Bad Request error indicate?**  
 A: A 400 error means your request body or parameters are malformed. Check that required fields are present, data types are correct, and the JSON structure matches the API schema.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does a 401 error mean on the CorpusIQ API?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A 401 Unauthorized error means your API token is missing, expired, or invalid. Generate a new token from the Dashboard or refresh your session. Tokens expire after 60 minutes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I handle 429 Rate Limit errors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "When you receive a 429 Too Many Requests, check the retry_after_seconds field in the response body and wait that many seconds before retrying. Rate limits are per-endpoint with minute and daily windows."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What does a 400 Bad Request error indicate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A 400 error means your request body or parameters are malformed. Check that required fields are present, data types are correct, and the JSON structure matches the API schema."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  

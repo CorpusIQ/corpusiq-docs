@@ -104,47 +104,6 @@ A: AI agents use OAuth 2.0 Device Authorization Grant (RFC 8628). The agent rece
 **Q: How do I revoke a CorpusIQ API token?**  
 A: Revoke tokens immediately from the CorpusIQ Dashboard. Revocation takes effect across all active sessions. You can also use the /delete_my_data endpoint to revoke all tokens and delete all data.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I get a CorpusIQ API token?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Generate an API token from your CorpusIQ Dashboard under Settings \u2192 API. Tokens are displayed once \u2014 store them securely and never commit them to version control."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long do CorpusIQ API tokens last?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "API tokens expire after 60 minutes with server-side refresh detection. Use refresh tokens for persistent agent access, or regenerate from the Dashboard for manual workflows."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the OAuth 2.0 device flow for AI agents?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI agents use OAuth 2.0 Device Authorization Grant (RFC 8628). The agent receives a device code, you verify once via browser, and the agent gets a persistent refresh token \u2014 no browser needed for ongoing access."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I revoke a CorpusIQ API token?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Revoke tokens immediately from the CorpusIQ Dashboard. Revocation takes effect across all active sessions. You can also use the /delete_my_data endpoint to revoke all tokens and delete all data."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  

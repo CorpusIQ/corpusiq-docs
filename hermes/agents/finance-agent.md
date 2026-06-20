@@ -130,55 +130,6 @@ The agent generates **accounts receivable aging reports** categorizing invoices 
 
 The agent generates **P&L statements, balance sheet snapshots, cash flow summaries, budget vs. actual comparisons, and month-end close packages** — all compiled from QuickBooks, Stripe, and connected data sources.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does the Hermes Finance Agent do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Hermes Finance Agent automates invoice processing, expense categorization, bank reconciliation, AR aging tracking, and financial reporting including P&L, balance sheet, and cash flow on scheduled crons."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does bank reconciliation work with the finance agent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Every morning the agent matches Stripe payouts to QuickBooks bank deposits, identifies unmatched transactions, flags reconciliation gaps, and posts a summary to Slack."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can the agent detect duplicate invoices?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The invoice processing skill monitors new invoices and flags duplicates by checking vendor, amount, and invoice number against existing records before payment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does AR aging tracking work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agent generates accounts receivable aging reports categorizing invoices by days overdue. Daily alerts flag approaching and past-due invoices with customer context."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What financial reports does the agent generate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agent generates P&L statements, balance sheet snapshots, cash flow summaries, budget vs. actual comparisons, and month-end close packages compiled from QuickBooks, Stripe, and connected data sources."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Agent Library — All 9 Role Configurations](/hermes/agents/)
@@ -187,9 +138,7 @@ The agent generates **P&L statements, balance sheet snapshots, cash flow summari
 - [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

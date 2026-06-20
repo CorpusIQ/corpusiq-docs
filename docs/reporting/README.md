@@ -67,39 +67,6 @@ A: Yes. Copy results to clipboard, export as CSV, share via link, or save freque
 **Q: What is MSR governance and how does it relate to reporting?**  
 A: MSR (Management System of Record) is the authoritative source for official financial metrics and board reporting. CorpusIQ surfaces operational data for exploration and analysis; MSR validates and governs data for official reporting.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of reports can I generate with CorpusIQ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Instant reports (ask and get answers immediately), comparative reports (Q1 vs Q2, Stripe vs Shopify), and trend reports (MRR over 6 months, customer acquisition by channel). No configuration needed \u2014 just ask in natural language."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I export CorpusIQ reports?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Copy results to clipboard, export as CSV, share via link, or save frequent queries. Scheduled recurring reports delivered to email or Slack are coming soon."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is MSR governance and how does it relate to reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MSR (Management System of Record) is the authoritative source for official financial metrics and board reporting. CorpusIQ surfaces operational data for exploration and analysis; MSR validates and governs data for official reporting."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[CorpusIQ Architecture](/docs/architecture/README)** — MCP endpoint and connector layer design  

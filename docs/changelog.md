@@ -96,39 +96,6 @@ A: CorpusIQ provides at least 90 days' notice before deprecating any API version
 **Q: How many connectors does CorpusIQ currently support?**  
 A: As of the v1.0 release (March 2026), CorpusIQ supports 37+ native connectors across email, calendar, file storage, analytics, CRM, ecommerce, marketing, financial, social media, and databases.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What versioning scheme does CorpusIQ use?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ follows Semantic Versioning (SemVer). Major versions (X.0) indicate breaking changes, minor versions (1.X) add new features, and patch versions (1.0.X) are bug fixes and improvements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much notice is given before API deprecation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ provides at least 90 days' notice before deprecating any API version. Deprecated versions continue to function with a Deprecation header on responses during the notice period."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many connectors does CorpusIQ currently support?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "As of the v1.0 release (March 2026), CorpusIQ supports 37+ native connectors across email, calendar, file storage, analytics, CRM, ecommerce, marketing, financial, social media, and databases."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[CorpusIQ Quick Start Guide](/docs/quick-start)** — Go from zero to first query in 5 minutes  

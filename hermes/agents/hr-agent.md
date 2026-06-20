@@ -130,55 +130,6 @@ The agent **respects all access controls** configured in your Hermes profile. Re
 
 Yes. Weekly scans check for **expiring certifications, visas, contract end dates, and training completions**. Alerts are sent to appropriate stakeholders with 30, 14, and 7-day advance warnings.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does the Hermes HR Agent do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Hermes HR Agent automates recruiting and people operations: resume screening, interview scheduling, onboarding tracking, policy Q&A, and compliance monitoring on scheduled crons."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does resume screening work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agent parses resumes, scores candidates against job requirements using configurable rubrics, ranks applicants, and surfaces top matches to the recruiting team with scored summaries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can the agent schedule interviews automatically?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The agent checks panel availability across connected calendars, finds open slots, and sends calendar invites with interviewer briefs and candidate context."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the HR agent handle employee data privacy?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agent respects all access controls configured in your Hermes profile. Resume data handling follows GDPR/CCPA requirements with configurable data retention policies."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can the HR agent track compliance and certifications?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Weekly scans check for expiring certifications, visas, contract end dates, and training completions with 30/14/7-day advance warnings."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Agent Library — All 9 Role Configurations](/hermes/agents/)
@@ -187,9 +138,7 @@ Yes. Weekly scans check for **expiring certifications, visas, contract end dates
 - [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

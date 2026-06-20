@@ -129,55 +129,6 @@ Hermes connects to any LMS with SQL database access (PostgreSQL, MSSQL) or API-b
 
 Yes. Hermes skills extract required statistics from institutional data systems, format them for accreditation bodies, and maintain supporting documentation trails. All output routes for administrator review before submission.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is Hermes Agent FERPA compliant?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes supports FERPA compliance through pseudonymization of student identifiers, session-only data retention, minimum necessary access controls, and profile isolation. Institutions must configure these controls appropriately for their environment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes automatically grade student assignments?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes provides rubric-based grading recommendations with evidence from submissions, but final grades always require instructor approval. The system accelerates grading while keeping the instructor in control."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes detect at-risk students?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes monitors LMS activity, assignment completion, quiz score trends, and discussion participation. It flags students showing multiple early warning signs and suggests non-judgmental intervention strategies."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What LMS platforms does Hermes connect to?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes connects to any LMS with SQL database access (PostgreSQL, MSSQL) or API-based integration. Common platforms include Canvas, Blackboard, Moodle, and D2L Brightspace."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes help with accreditation reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hermes skills extract required statistics from institutional data systems, format them for accreditation bodies, and maintain supporting documentation trails. All output routes for administrator review before submission."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent for Government](../case-studies/government.md) — Public sector document management and compliance
@@ -186,9 +137,7 @@ Yes. Hermes skills extract required statistics from institutional data systems, 
 - [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security and data residency for large institutions
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

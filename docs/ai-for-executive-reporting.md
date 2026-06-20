@@ -139,50 +139,7 @@ A: For internal preparation and analysis, yes. External filings and earnings rel
 
 **Next steps:** [Start your AI executive reporting →](https://app.corpusiq.com/signup)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can AI write the actual board presentation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Claude can draft narrative sections, key messages, and data-backed talking points. The final presentation still benefits from human judgment and strategic framing, but AI eliminates the data-gathering and initial drafting time."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I ensure data accuracy for board-level reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ's canonical metric specs ensure consistent calculations. Cross-source checks flag discrepancies. All data is pulled from live systems, not manual exports."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can this handle multi-entity or multi-currency reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Claude can present consolidated views across entities and note currency considerations when data spans multiple currencies."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this appropriate for publicly traded companies?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For internal preparation and analysis, yes. External filings and earnings releases should follow your established disclosure processes and controls."
-      }
-    }
-  ]
-}
-</script>
-
-
 *AI-powered AI for Executive Reporting | CorpusIQ MCP Platform for Le... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
 
 *AI-powered AI for Executive Reporting | CorpusIQ MCP Platform for Le... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---

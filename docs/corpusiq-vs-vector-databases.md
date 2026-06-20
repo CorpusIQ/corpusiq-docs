@@ -135,7 +135,6 @@ A: Vector databases charge for storage, embeddings, and query compute. CorpusIQ 
 **Q: Can I do aggregations with a vector database?**  
 A: No. Vector databases return text chunks, not aggregated numerical data. If you need "total revenue by quarter," you need a structured data system like CorpusIQ.
 
-
 ## Get Started with CorpusIQ vs Vector Databases — MCP Retrieval vs Vector Search
 
 Ready to put AI to work on your corpusiq vs vector databases — mcp retrieval vs vector search data? 
@@ -146,7 +145,6 @@ Ready to put AI to work on your corpusiq vs vector databases — mcp retrieval v
 4. **Scale your usage** — add team members, connect more sources, and automate recurring reports.
 
 **[Get started now →](https://app.corpusiq.com/signup)**
-
 
 ## Internal Links
 
@@ -159,78 +157,6 @@ Ready to put AI to work on your corpusiq vs vector databases — mcp retrieval v
 - [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can CorpusIQ replace Pinecone or Weaviate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For structured business data queries \u2014 yes. For semantic search over unstructured text \u2014 no. They serve different data types and query patterns."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does CorpusIQ use vector embeddings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. CorpusIQ uses structured API calls, not vector similarity search. This gives exact results for transactional business data."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which is faster for business questions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ \u2014 queries complete in 1-5 seconds with exact results. Vector databases require pre-indexing and return approximate top-k results."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use both together?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, and this is a recommended architecture. Vector DB handles unstructured content; CorpusIQ handles structured business data. The AI routes queries to the right system."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need to re-index data with CorpusIQ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. CorpusIQ queries live sources \u2014 there's no indexing step. Data is always current."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What about hybrid search (vector + keyword)?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Vector databases support hybrid search for text. CorpusIQ isn't a search engine \u2014 it's a protocol layer for structured data access. They're different categories."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which is more expensive?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Vector databases charge for storage, embeddings, and query compute. CorpusIQ charges per seat. For business intelligence use cases, CorpusIQ is typically more cost-effective."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I do aggregations with a vector database?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Vector databases return text chunks, not aggregated numerical data. If you need \"total revenue by quarter,\" you need a structured data system like CorpusIQ."
-      }
-    }
-  ]
-}
-</script>
 ---
 
 *

@@ -130,55 +130,6 @@ The agent runs **monthly competitive audits** that compare your domain against c
 
 The agent integrates with **GA4, Google Search Console, Ahrefs, Semrush, Klaviyo, Mailchimp, ActiveCampaign, Meta Ads, Google Ads, LinkedIn Ads, YouTube, TikTok, Airtable, Notion, and Slack** via CorpusIQ MCP connectors.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does the Hermes Marketing Agent do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Hermes Marketing Agent autonomously monitors SEO rankings, tracks content performance, analyzes email and paid campaigns, generates competitive intelligence briefs, and alerts on traffic anomalies on scheduled crons."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the marketing agent monitor SEO?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It connects to Google Search Console and Ahrefs/Semrush to track keyword rankings, detect cannibalization, monitor Core Web Vitals, and surface featured snippet opportunities with weekly reports."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can the marketing agent detect traffic drops automatically?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The daily anomaly detection skill checks organic traffic against historical baselines and alerts Slack with the affected URL, suspected cause, and recommended action if traffic drops more than 20%."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does competitive intelligence work with this agent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agent runs monthly competitive audits comparing your domain against configurable competitors — covering keyword gaps, backlink opportunities, and share-of-voice changes over time."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which marketing tools does the marketing agent integrate with?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agent integrates with GA4, Google Search Console, Ahrefs, Semrush, Klaviyo, Mailchimp, ActiveCampaign, Meta Ads, Google Ads, LinkedIn Ads, YouTube, TikTok, Airtable, Notion, and Slack via CorpusIQ MCP connectors."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Agent Library — All 9 Role Configurations](/hermes/agents/)
@@ -188,9 +139,7 @@ The agent integrates with **GA4, Google Search Console, Ahrefs, Semrush, Klaviyo
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 - [Content Operations Guide](/hermes/content-ops/)
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

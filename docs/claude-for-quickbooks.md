@@ -106,7 +106,6 @@ CorpusIQ charges based on tool calls, not AI model usage. You pay for the Claude
 ### What kind of files can Claude export?
 Claude can format its analysis as markdown tables, CSV-ready text, or structured JSON. You can copy results into Excel, Google Sheets, or your reporting tool of choice. Direct file export is available through CorpusIQ's Pro plan.
 
-
 ## Get Started with Claude for QuickBooks
 
 Ready to put AI to work on your claude for quickbooks data? 
@@ -117,7 +116,6 @@ Ready to put AI to work on your claude for quickbooks data?
 4. **Scale your usage** — add team members, connect more sources, and automate recurring reports.
 
 **[Get started now →](https://app.corpusiq.com/signup)**
-
 
 ## Internal Links
 
@@ -136,98 +134,7 @@ CorpusIQ is the only MCP platform that provides production-ready QuickBooks tool
 
 **Start your deep financial analysis journey.** [Connect Claude to QuickBooks through CorpusIQ](/get-started) and run your first comprehensive financial review today.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does Claude compare to ChatGPT for QuickBooks analysis?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Claude excels at deep, multi-report analysis that requires sustained reasoning across large datasets. ChatGPT is often faster for quick queries. Many teams use both: ChatGPT for day-to-day questions and Claude for month-end analysis, audits, and board reporting. CorpusIQ supports both through the sa"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the 200K context window and why does it matter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The context window is how much information the AI can \"hold in mind\" at once. Claude's 200K tokens (roughly 150,000 words or 500 pages) means it can process an entire year of detailed financial reports simultaneously without losing track of earlier data — essential for cross-period analysis."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is Claude safe to use with sensitive financial data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Claude is developed by Anthropic with a strong emphasis on safety and data privacy. Combined with CorpusIQ's read-only QuickBooks connection and encrypted data transport, your financial data is protected at every layer. Claude does not train on your data."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Claude create QuickBooks journal entries?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Like all CorpusIQ AI integrations, the QuickBooks connection is read-only. Claude can identify needed adjustments and draft journal entry recommendations, but a human must approve and enter them into QuickBooks. This separation of analysis from execution is a deliberate safety feature."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does Claude work with QuickBooks Desktop?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Claude through CorpusIQ connects to QuickBooks Online via the QuickBooks API. QuickBooks Desktop is not directly supported, though enterprise customers can arrange for batch data imports. Contact our sales team for Desktop integration options."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I switch between ChatGPT and Claude?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ's MCP server exposes the same QuickBooks tools to both ChatGPT and Claude. You can configure either AI — or both — as an MCP client pointing to the same CorpusIQ server. No reconfiguration of your QuickBooks connection is needed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What accounting standards does Claude understand?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Claude has broad knowledge of GAAP, IFRS, and common accounting frameworks. However, it is not a replacement for a certified accountant's judgment. Always have a qualified professional review AI-generated accounting analysis before relying on it for compliance purposes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Claude handle multi-currency QuickBooks files?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Claude can pull multi-currency data from QuickBooks and perform conversions using standard rates. For complex multi-currency consolidations, CorpusIQ recommends the enterprise plan, which includes currency handling logic."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is billing structured for Claude via CorpusIQ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ charges based on tool calls, not AI model usage. You pay for the Claude API usage through Anthropic directly (or via your Claude subscription), while CorpusIQ handles the MCP middleware layer. Combined costs are typically lower than manual report generation labor."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What kind of files can Claude export?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Claude can format its analysis as markdown tables, CSV-ready text, or structured JSON. You can copy results into Excel, Google Sheets, or your reporting tool of choice. Direct file export is available through CorpusIQ's Pro plan."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Claude for QuickBooks — Deep Financial Analysis with AI |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Claude for QuickBooks — Deep Financial Analysis with AI |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

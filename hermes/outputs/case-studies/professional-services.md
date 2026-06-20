@@ -175,55 +175,6 @@ Yes. Hermes pulls unbilled time and expenses, applies client rates, and creates 
 
 Yes. Hermes compares hours delivered against retainer commitments weekly, flags under-delivery (client may question value) and over-delivery (scope creep without compensation), and alerts account managers to adjust.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What project management tools does Hermes connect to?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes connects to Monday.com, Notion, and any PM tool with SQL database access or API. Custom connectors can be built for proprietary or industry-specific platforms."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes track time automatically?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes suggests time entries based on calendar events and matches them to active projects, but practitioners must review and confirm entries. It bridges calendar data to timesheets."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes handle different billing rates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes supports blended rates, role-based rates, fixed-fee arrangements, and client-specific rate cards. Rate rules are configurable per client and project."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes generate invoices in QuickBooks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hermes pulls unbilled time and expenses, applies client rates, and creates draft invoices directly in QuickBooks or Xero through the accounting connectors. Invoices route for billing manager review before sending."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does Hermes track agency retainers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hermes compares hours delivered against retainer commitments weekly, flags under-delivery and over-delivery, and alerts account managers to adjust."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent for Legal Firms](../case-studies/legal-firms.md) — Time capture and billing compliance
@@ -232,9 +183,7 @@ Yes. Hermes compares hours delivered against retainer commitments weekly, flags 
 - [Hermes Agent for Startups](../by-company-size/startup.md) — Lean services automation for small teams
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

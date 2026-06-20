@@ -138,7 +138,6 @@ Yes. Connect Monday.com for the marketing team, Notion for engineering, and Asan
 MCP queries execute against live APIs, so you see the current state of your project management tools — not a cached or exported version.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -149,71 +148,7 @@ MCP queries execute against live APIs, so you see the current state of your proj
 - [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
 - [MCP for Enterprise: Multi-Department Deployment](/docs/mcp-for-enterprise)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP for Operations: How to Connect Your Business Data to AI",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can MCP replace our project management tool?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. MCP provides a query interface to your project management tool, not a replacement for it. You still manage projects in Monday.com, Asana, or Jira. MCP lets you query project data across tools and correlate it with data from other systems."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can MCP automate operational workflows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP is primarily a read-only query interface for business intelligence. For workflow automation, tools like Zapier or Make are the right choice. MCP provides the intelligence to know what needs automation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does resource allocation work with MCP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP queries data from your project management and calendar systems to show who's allocated to what. It doesn't replace resource management tools, but it provides queryable access to resource data for analysis and decision-making."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I connect multiple project management tools if different teams use different platforms?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Connect Monday.com for the marketing team, Notion for engineering, and Asana for operations. MCP queries across all of them for unified project visibility."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How fresh is the project and task data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP queries execute against live APIs, so you see the current state of your project management tools \u2014 not a cached or exported version."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
-
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 ---

@@ -136,58 +136,7 @@ A: The Notion integration token grants workspace-level access to shared pages. A
 
 **Next steps:** [Connect Notion to Claude now →](https://app.corpusiq.com/connect/notion)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can Claude see all my Notion pages automatically?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Notion requires explicit sharing. You must share specific pages or databases with the integration for Claude to access them."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Claude modify Notion content?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The integration token is read-only."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this work with Notion databases?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Claude can query structured Notion databases \u2014 project trackers, CRM systems, task lists \u2014 in natural language."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Claude handle large workspaces with thousands of pages?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ uses Notion's search API to efficiently find relevant content. Claude processes only the most relevant results."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I restrict which team members can query Notion through Claude?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Notion integration token grants workspace-level access to shared pages. Any Claude user with access to the connection can query shared content."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect Notion to Claude | CorpusIQ MCP Integration for K... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect Notion to Claude | CorpusIQ MCP Integration for K... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

@@ -125,55 +125,6 @@ Store your deal stage definitions, activity thresholds, and ICP criteria in [can
 
 The [Sales Agent](/hermes/agents/sales-agent.md) focuses on **pipeline management, lead qualification, and deal progression**. The [Marketing Agent](/hermes/agents/marketing-agent.md) focuses on **traffic analytics, SEO monitoring, campaign performance, and content operations**. They complement each other — marketing generates leads, sales converts them.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does the Hermes Sales Agent do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Hermes Sales Agent is an autonomous AI assistant that monitors your CRM pipeline, qualifies inbound leads against your ICP, drafts outreach sequences, flags at-risk deals, and generates daily pipeline reports on a cron schedule."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the sales agent qualify leads?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agent scores inbound leads by comparing firmographic data and behavioral signals against your stored ICP criteria in canonical facts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can the sales agent integrate with my existing CRM?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The agent connects to HubSpot, Close CRM, and LeadConnector through CorpusIQ MCP connectors with full permission respect."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I customize the sales agent for my pipeline stages?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Store your deal stage definitions, activity thresholds, and ICP criteria in canonical facts. The agent references these during all pipeline operations."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the difference between the sales agent and the marketing agent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Sales Agent focuses on pipeline management and deal progression. The Marketing Agent focuses on traffic analytics and campaign performance. They complement each other."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Agent Library — All 9 Role Configurations](/hermes/agents/)
@@ -183,9 +134,7 @@ The [Sales Agent](/hermes/agents/sales-agent.md) focuses on **pipeline managemen
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 - [Canonical Facts — Store Business Definitions](/hermes/governance/)
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

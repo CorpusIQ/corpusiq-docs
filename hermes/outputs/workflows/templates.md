@@ -219,55 +219,6 @@ Yes. The templates use standard Hermes skill references. Replace the `skill` nam
 
 Edit the YAML `schedule` field with standard cron expressions, and adjust threshold values in your skill file. Start with **generous thresholds** (fewer false positives), monitor for a week, then tighten as you build confidence in the automation.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are Hermes cron templates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes cron templates are ready-to-deploy YAML configurations defining scheduled autonomous agent tasks with cron schedules, skills, data sources, and output destinations."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I install these cron templates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Copy the YAML into ~/.hermes/cron/, create the skill file in ~/.hermes/skills/, adjust thresholds, test manually, then enable."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which template should I deploy first?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Start with Daily Executive Summary (report), then Anomaly Detection (alerting), then System Health Check (monitoring) — three crons covering the essential patterns."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do these templates work with any MCP connector?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Templates use standard Hermes skill references. Replace skill names with your actual filenames and authenticate connectors via hermes setup connectors."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I customize thresholds and schedules?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Edit the YAML schedule field with standard cron expressions. Start with generous thresholds, monitor for a week, then tighten as confidence builds."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Outputs Overview — Industry Case Studies](/hermes/outputs/)
@@ -276,9 +227,7 @@ Edit the YAML `schedule` field with standard cron expressions, and adjust thresh
 - [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
 - [Architecture — 6-Layer Production Model](/hermes/architecture/)
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

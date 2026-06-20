@@ -158,66 +158,7 @@ A: Yes. CorpusIQ's metric specs let you define canonical calculations (MRR, CAC,
 
 **Next steps:** [Start your AI-powered BI journey →](https://app.corpusiq.com/signup) or [view all integrations](/integrations/)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How is this different from traditional BI tools like Tableau or Power BI?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Traditional BI tools require building dashboards and reports. AI-powered BI through CorpusIQ is conversational \u2014 you ask questions in natural language and get answers immediately. CorpusIQ complements BI tools by providing on-demand, cross-source answers that don't require dashboard building."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need a data warehouse?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. CorpusIQ queries live data from your tools directly. No ETL, no data warehouse, no data replication needed."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can this replace my analytics team?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No \u2014 it amplifies them. AI handles routine queries, freeing analysts to focus on strategic analysis, modeling, and insight generation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How secure is this approach?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "All connections are read-only OAuth. Data is never stored. You can disconnect any source at any time. SOC 2 compliant infrastructure."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if my data sources don't have APIs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ supports 50+ pre-built connectors. If a source isn't available, database connectors (PostgreSQL, MSSQL, MongoDB) and file storage connectors (Google Drive, OneDrive, SharePoint) provide alternative access paths."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I define custom metrics that span multiple sources?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ's metric specs let you define canonical calculations (MRR, CAC, etc.) that pull from multiple data sources with a single query."
-      }
-    }
-  ]
-}
-</script>
-
-
 *AI-powered AI for Business Intelligence | CorpusIQ MCP Platform for ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
 
 *AI-powered AI for Business Intelligence | CorpusIQ MCP Platform for ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---

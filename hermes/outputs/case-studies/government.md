@@ -115,55 +115,6 @@ No. Hermes screens constituents against published eligibility criteria and provi
 
 Hermes connects to document management systems, email archives, permit databases, 311/CRM systems, grant management platforms, and financial systems through database connectors (PostgreSQL, MSSQL) and API-based MCP integrations.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is Hermes Agent FedRAMP authorized?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes Agent deployments must comply with FedRAMP, StateRAMP, or equivalent authorization frameworks. Hermes supports the security controls needed for authorization but agencies must complete their own ATO process."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes automatically redact FOIA documents?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Hermes flags potential exemption material and cites the statutory basis, but all redaction decisions must be made by a human reviewing officer. Auto-redaction without human review creates legal liability for improper withholding."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes handle constituent PII?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes enforces minimum necessary access, pseudonymizes identifiers where possible, and never retains PII in persistent logs or model context. All data handling must comply with FISMA and agency-specific privacy requirements."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes make benefits eligibility determinations?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Hermes screens constituents against published eligibility criteria and provides application guidance, but it never makes eligibility determinations. Final decisions must be made by authorized human personnel."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What government systems does Hermes connect to?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes connects to document management systems, email archives, permit databases, 311/CRM systems, grant management platforms, and financial systems through database connectors and API-based MCP integrations."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md) — SOC 2, HIPAA, and GDPR evidence collection
@@ -172,9 +123,7 @@ Hermes connects to document management systems, email archives, permit databases
 - [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security architecture and compliance at scale
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

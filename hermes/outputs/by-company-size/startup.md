@@ -186,55 +186,6 @@ No — but it can handle the operational monitoring that would otherwise require
 
 Hermes scales linearly. The same architecture (profiles, crons, skills) works from solo founder to 50-person team. You add profiles, departmental routing, and approval workflows as you grow — no architectural rewrites needed.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How quickly can I set up Hermes as a startup?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can have your first automation running in under an hour. Pick one painful manual task, identify the data sources, write a simple skill, set it on a cron, and iterate."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What does Hermes cost for startups?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes runs on a $20/month VPS or your existing development machine. All essential connectors (database, Stripe, GA4, Gmail, Slack) are free. No enterprise licensing required."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need engineering skills to use Hermes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Basic comfort with YAML configuration and SQL queries is helpful but not required. The first skills are simple: query a database, check for conditions, send a Slack message."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes replace my co-founder?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No — but it can handle the operational monitoring that would otherwise require a part-time operations hire. Hermes tells you what needs attention; you and your team make the decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes scale as my startup grows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes scales linearly. The same architecture (profiles, crons, skills) works from solo founder to 50-person team. You add profiles, departmental routing, and approval workflows as you grow."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent for Mid-Market](../by-company-size/mid-market.md) — Multi-team orchestration for growing companies
@@ -243,9 +194,7 @@ Hermes scales linearly. The same architecture (profiles, crons, skills) works fr
 - [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Ticket triage for lean teams
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

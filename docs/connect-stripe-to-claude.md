@@ -123,76 +123,11 @@ We recommend read-only access to: Charges, Customers, Subscriptions, Payouts, Ba
 Stripe Invoices are accessible through the API. Include the Invoices scope when creating your restricted key.
 </details>
 
-
 ---
 
 **Next steps:** [Connect Stripe to Claude now →](https://app.corpusiq.com/connect/stripe)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can Claude create charges or modify subscriptions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The integration is strictly read-only. Use a restricted API key with only read permissions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this work with Stripe Connect platforms?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The integration works with standard Stripe accounts. Connect platform support is on the roadmap."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How current is the data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Real-time. Every Claude query triggers a fresh Stripe API call."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What Stripe API scopes should I enable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We recommend read-only access to: Charges, Customers, Subscriptions, Payouts, Balance, Refunds, and Disputes. Only enable what you need."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I view invoice data through this integration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Stripe Invoices are accessible through the API. Include the Invoices scope when creating your restricted key."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect Stripe to Claude via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect Stripe to Claude via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

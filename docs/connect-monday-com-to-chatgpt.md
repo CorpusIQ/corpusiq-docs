@@ -78,7 +78,6 @@ Monday.com boards can have complex column configurations — status columns, peo
 Yes. "Give me a standup summary — tasks completed yesterday, tasks planned for today, and any blockers across my boards." One question replaces manually compiling status from multiple Monday.com boards before standup.
 </details>
 
-
 ## How It Works
 
 1. **Connect Monday.com to CorpusIQ.** Dashboard → Connections → Monday.com → sign into Monday.com → authorize read-only access. Takes 2 minutes.
@@ -173,95 +172,7 @@ Setup takes under 5 minutes. No API keys to manage. No GraphQL to write.
 - [Monday.com Connector Reference](../connectors/monday.md) — technical details
 - [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md) — detailed comparison
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "How to Connect Monday.com to ChatGPT with CorpusIQ MCP",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What project management questions can I ask ChatGPT about Monday.com?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Board questions: \"What boards do I have access to?\", \"Show me all items on the Marketing Sprint board.\" Task questions: \"What tasks are assigned to me this week?\", \"Show me overdue tasks across all boards.\" Status questions: \"How many tasks are in the 'In Progress' stage?\", \"Which tasks have been in"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the connection work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ connects to your Monday.com account via OAuth 2.0. You authorize read-only access, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Monday.com tools \u2014 workspace listing, board listing, item retrieval, and column value inspection \u2014 and calls them when you ask "
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the connection read-only?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ requests read-only OAuth scopes from Monday.com. ChatGPT can see boards, items, statuses, owners, and due dates. It cannot create items, update statuses, reassign tasks, or modify anything in your Monday.com account. The read-only guarantee is enforced at the OAuth scope level."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What Monday.com data can ChatGPT access?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Workspaces and their metadata. Boards with columns, groups, and structure. Items (tasks/pulses) with column values including status, owner, due date, text, numbers, and dropdown values. The specific columns accessible depend on each board's schema \u2014 your custom columns are included."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT combine Monday.com data with other tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. \"Show me all Monday.com tasks for HubSpot deals closing this month\" combines work management with CRM data. \"Which overdue Monday.com tasks are associated with customers who have open support emails in Gmail?\" spans work management, CRM, and email. Cross-source context is the hallmark of [MCP p"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is this different from Monday.com's built-in dashboards?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Monday.com's dashboards are pre-configured views with specific widgets. They're excellent for recurring reporting. But they can't answer ad-hoc questions: \"Show me tasks that were due last week, are still in progress, and are assigned to people on the engineering team who also have open tasks on the"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I query across multiple boards?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. \"Show me all items across all boards assigned to me with a status that's not 'Done'\" queries multiple boards simultaneously. \"Compare task completion rates across the Engineering and Marketing boards this month\" spans boards for comparative analysis."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What about board-level permissions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ respects Monday.com's board permissions. If you can't see a board in Monday.com, ChatGPT can't see it either. The MCP layer reflects the permission model of the authenticated user."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect Monday.com to ChatGPT via MCP — Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect Monday.com to ChatGPT via MCP — Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

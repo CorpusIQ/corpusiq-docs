@@ -161,55 +161,6 @@ Yes. Hermes skills can pull comparable sales, active listings, and absorption ra
 
 Hermes can monitor showing requests from calendar systems, email, and showing services. It coordinates agent availability, travel time, and property access constraints to propose optimal time slots.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What CRMs does Hermes work with for real estate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes connects to HubSpot, Close CRM, and LeadConnector (HighLevel) natively. Custom CRM integrations are possible through database connectors for platforms with SQL access."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes automate MLS listing updates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes can monitor listings across your CRM and syndication platforms, flagging discrepancies in price, status, or photos. Direct MLS updates depend on your MLS provider's API access."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes score and route real estate leads?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes enriches leads with CRM history and property data, scores them on configurable criteria (pre-approval status, timeline urgency, property type match), and routes high-scoring leads via Slack, SMS, or CRM assignment within minutes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes help with comparative market analysis?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hermes skills can pull comparable sales, active listings, and absorption rates from MLS data, producing market analysis with price-per-square-foot trends, median days on market, and inventory levels by neighborhood and property type."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does Hermes integrate with showing services?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes can monitor showing requests from calendar systems, email, and showing services. It coordinates agent availability, travel time, and property access constraints to propose optimal time slots."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Lead inquiry triage and response automation
@@ -218,9 +169,7 @@ Hermes can monitor showing requests from calendar systems, email, and showing se
 - [Hermes Agent for Professional Services](../case-studies/professional-services.md) — Client onboarding and status reporting
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

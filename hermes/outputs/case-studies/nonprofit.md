@@ -145,55 +145,6 @@ Yes. Hermes aggregates volunteer hours monthly, identifies milestone achievement
 
 Hermes pulls data from program databases, survey tools, and financial systems to compute metrics like beneficiaries served, cost per outcome, and demographic breakdowns. All calculations are transparent and sourced from your existing data systems.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What donor databases does Hermes connect to?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes connects to Salesforce Nonprofit Cloud, Bloomerang, DonorPerfect, and any donor database with SQL or API access. Custom integrations can be built for proprietary fundraising platforms."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes automatically send thank-you notes to donors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes drafts personalized gift acknowledgments based on donation amount and donor history, but these route for development team review before sending. Automated thank-yous without human review risk damaging donor trust."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes help with grant reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes maintains a grant calendar with all deadlines, gathers financial data from accounting systems, pulls program metrics from monitoring systems, and assembles draft reports matching funder templates."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes track volunteer hours and recognition?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hermes aggregates volunteer hours monthly, identifies milestone achievements, and generates recognition messages for coordinator review. It also matches new volunteers to opportunities based on skills and availability."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes calculate nonprofit impact metrics?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes pulls data from program databases, survey tools, and financial systems to compute metrics like beneficiaries served, cost per outcome, and demographic breakdowns. All calculations are transparent and sourced from your existing data systems."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent for Education](../case-studies/education.md) — Student progress tracking and administrative workflows
@@ -202,9 +153,7 @@ Hermes pulls data from program databases, survey tools, and financial systems to
 - [Hermes Agent for Startups](../by-company-size/startup.md) — Lean automation for small teams
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

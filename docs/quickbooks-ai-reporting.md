@@ -122,7 +122,6 @@ Yes. CorpusIQ supports team accounts where multiple users can connect to the sam
 ### How does this compare to QuickBooks Advanced reporting?
 QuickBooks Advanced offers customizable report templates but still requires manual configuration and navigation. AI reporting eliminates the report builder entirely — you describe what you need conversationally and receive it instantly. The two can complement each other: use AI for ad-hoc and complex reports, and Advanced templates for standardized compliance reports.
 
-
 ## Get Started with QuickBooks AI Reporting
 
 Ready to put AI to work on your quickbooks ai reporting data? 
@@ -133,7 +132,6 @@ Ready to put AI to work on your quickbooks ai reporting data?
 4. **Scale your usage** — add team members, connect more sources, and automate recurring reports.
 
 **[Get started now →](https://app.corpusiq.com/signup)**
-
 
 ## Internal Links
 
@@ -150,98 +148,7 @@ CorpusIQ's AI Reporting for QuickBooks turns hours of manual report generation i
 
 **[Start generating AI-powered financial reports](/get-started) — connect QuickBooks in under 60 seconds.**
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What types of reports can AI generate from QuickBooks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI can generate any report available through QuickBooks' API — P&L (income statement), balance sheet, cash flow statement, AR aging, AP aging, transaction lists, customer/vendor summaries, and account registers. Additionally, it can create custom computed reports like burn rate analysis, customer pr"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How accurate are AI-generated financial reports?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI-generated reports pull data directly from QuickBooks' API in real time — they are as accurate as your QuickBooks data. The AI does not hallucinate numbers; it retrieves and presents what's in your books. CorpusIQ's platform validates API responses before presenting them."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can AI reports include custom fields and class tracking?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. If your QuickBooks setup uses classes, locations, custom fields, or tracking categories, the AI can filter and group reports by these dimensions. Simply mention them in your request: \"Show me P&L by class for the Northeast region.\""
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I export AI-generated reports?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Reports are delivered in your conversation as formatted markdown with tables. You can copy-paste into Excel or Google Sheets (tables copy cleanly), save as PDF through your browser, or use CorpusIQ's Pro plan for direct CSV/PDF export."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I schedule recurring reports?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, through CorpusIQ's enterprise automation features. Define report templates, schedules, and delivery methods (email, Slack, Google Drive), and recurring reports run automatically. This feature is available on the Business and Enterprise plans."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does AI reporting work with multi-currency QuickBooks files?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The AI can handle multi-currency data. Specify your desired reporting currency in your query: \"Show me consolidated revenue in USD.\" For complex multi-currency scenarios, the enterprise plan provides additional currency handling."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if the AI misunderstands my report request?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The AI will ask clarifying questions if your request is ambiguous. You can also refine iteratively: if the first report isn't exactly what you need, say \"remove the intercompany accounts\" or \"group by month instead of quarter\" and the AI adjusts immediately."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is there a limit to how many reports I can generate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ pricing is based on tool calls, not report count. The number of reports you can generate depends on your plan's monthly tool call allowance. Most plans support hundreds of report generations per month."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can multiple team members use AI reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ supports team accounts where multiple users can connect to the same QuickBooks company file and generate reports independently. Role-based access controls are available on Business and Enterprise plans."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this compare to QuickBooks Advanced reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "QuickBooks Advanced offers customizable report templates but still requires manual configuration and navigation. AI reporting eliminates the report builder entirely — you describe what you need conversationally and receive it instantly. The two can complement each other: use AI for ad-hoc and comple"
-      }
-    }
-  ]
-}
-</script>
-
-
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
-
 
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
 ---

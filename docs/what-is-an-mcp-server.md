@@ -174,7 +174,6 @@ Each MCP server manages its own authentication. In CorpusIQ's implementation, yo
 Yes. MCP servers can be deployed on-premise and connect to internal databases, ERPs, and file systems. The stdio transport model is particularly well-suited for on-premise deployments where the MCP server runs alongside the data source.
 </details>
 
-
 ## Internal Links
 
 - [Understand how MCP servers work with a technical deep dive](/docs/how-mcp-servers-work)
@@ -186,95 +185,7 @@ Yes. MCP servers can be deployed on-premise and connect to internal databases, E
 - [Explore MCP for small business intelligence](/docs/mcp-for-small-business)
 - [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "What Is an MCP Server? How the Model Context Protocol Powers AI Data Access",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is MCP only for Claude?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. While Anthropic created MCP, it's an open protocol. Any AI model or platform can implement MCP client support. CorpusIQ works with Claude, and support for additional AI platforms is expanding."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does an MCP server store my data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. MCP servers query your data sources on demand and return results. They do not store, cache, or persist your business data. CorpusIQ's architecture is stateless by design \u2014 each query is a fresh request against your live systems."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is MCP different from a Zapier integration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Zapier is trigger-based and batch-oriented \u2014 when event A happens, perform action B. MCP is real-time and query-oriented \u2014 ask any question and get an answer from live data. Zapier moves data between apps; MCP makes data accessible to AI for analysis and reporting. See our [MCP vs Zapier comparison]"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can MCP servers write data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The protocol supports write operations, but CorpusIQ's MCP implementation defaults to read-only. Write capabilities require explicit configuration and approval. This design choice prioritizes data safety for business intelligence use cases."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How secure is MCP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP uses OAuth 2.0 for authentication, supports scoped access tokens, and encrypts data in transit. MCP servers run in your environment or CorpusIQ's secure cloud. See our [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices) for details."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What data sources does MCP support?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Any data source with an API can be exposed through an MCP server. CorpusIQ provides pre-built connectors for 30+ business platforms including Shopify, QuickBooks, HubSpot, Google Analytics, Stripe, Meta Ads, and more. Custom connectors can be built for proprietary systems."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need technical expertise to use MCP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For end users, no. You connect your data sources through a simple OAuth flow, and then you ask questions in natural language. For setting up custom MCP servers, some technical knowledge is required \u2014 but CorpusIQ eliminates this need for common business platforms."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does MCP handle authentication?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Each MCP server manages its own authentication. In CorpusIQ's implementation, you authenticate each data source once through OAuth. The server stores your tokens securely and uses them for subsequent requests. You can revoke access at any time."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
-
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 ---

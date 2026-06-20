@@ -1187,5 +1187,145 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-06-19T08:02:21.150750+00:00"
+  },
+  {
+    "repo": "reshamkafle/Hermes-Agent-Ansible",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345655+00:00"
+  },
+  {
+    "repo": "mc-hermes/hermes-agent-cost",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345667+00:00"
+  },
+  {
+    "repo": "minh99085/hermes-agent-cursor",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345668+00:00"
+  },
+  {
+    "repo": "PlayForm/Aphrodite-Hermes",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345669+00:00"
+  },
+  {
+    "repo": "jb-bz/sparqr",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345671+00:00"
+  },
+  {
+    "repo": "forgemeshlabs/travel",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345672+00:00"
+  },
+  {
+    "repo": "cassiopeiaym/hermes-oh-my-pi-mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345673+00:00"
+  },
+  {
+    "repo": "forgemeshlabs/travel-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345674+00:00"
+  },
+  {
+    "repo": "ethos-zero/mneme-memory-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345675+00:00"
+  },
+  {
+    "repo": "Interstellar-code/hermes-switchui",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345676+00:00"
+  },
+  {
+    "repo": "taipm/claude-evolve",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345677+00:00"
+  },
+  {
+    "repo": "GipityAI/skills",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345678+00:00"
+  },
+  {
+    "repo": "cnproduct/Rclaw",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345679+00:00"
+  },
+  {
+    "repo": "arthaschan/job-cv-apply",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345680+00:00"
+  },
+  {
+    "repo": "ai-starklabs/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345681+00:00"
+  },
+  {
+    "repo": "Jasper6439/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345682+00:00"
+  },
+  {
+    "repo": "gmhl000/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345683+00:00"
+  },
+  {
+    "repo": "jleechanorg/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345684+00:00"
+  },
+  {
+    "repo": "marketintellabs/hermes-paperclip-adapter",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345685+00:00"
+  },
+  {
+    "repo": "salt-vrn/openclaw-to-hermes-migration",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T05:01:25.345686+00:00"
   }
 ]

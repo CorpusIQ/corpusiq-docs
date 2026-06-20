@@ -138,7 +138,6 @@ MCP queries return data in the source system's native currency. The AI model can
 Yes. CorpusIQ's canonical facts feature lets you define how key metrics should be calculated — gross margin, EBITDA, ARR — and those definitions are applied consistently across all queries.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -149,79 +148,7 @@ Yes. CorpusIQ's canonical facts feature lets you define how key metrics should b
 - [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 - [MCP for Ecommerce: Order and Revenue Analytics](/docs/mcp-for-ecommerce)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP for Finance: How to Connect Your Business Data to AI",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can MCP replace our FP&A tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP complements FP&A tools by providing real-time data access and AI-powered analysis. FP&A tools excel at modeling, scenario planning, and collaborative budgeting. MCP excels at querying live data and surfacing insights. They work together."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this work with our ERP system?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ supports QuickBooks today and is expanding ERP coverage. For custom ERP systems, enterprise customers can work with CorpusIQ on custom connector development."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is financial data secure when queried through MCP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Connections use OAuth with read-only scopes, encrypted token storage, and TLS 1.3 encryption. CorpusIQ maintains SOC 2 Type II certification. Financial data is queried on demand and never stored."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can MCP help with the month-end close process?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Query pre-close data to identify anomalies, verify account balances, and check for completeness before closing the books. \"Show me any accounts with unusual month-over-month variances greater than 20%.\""
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does MCP handle multi-currency data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP queries return data in the source system's native currency. The AI model can convert and consolidate across currencies based on the parameters you specify."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can we define custom financial metrics that MCP uses consistently?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ's canonical facts feature lets you define how key metrics should be calculated \u2014 gross margin, EBITDA, ARR \u2014 and those definitions are applied consistently across all queries."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
-
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 ---

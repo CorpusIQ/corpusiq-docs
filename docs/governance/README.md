@@ -89,39 +89,6 @@ A: Data is retrieved from connected sources via CorpusIQ → MSR validates again
 **Q: What are the source precedence rules?**  
 A: MSR is always authoritative for financial metrics. Connected source data via CorpusIQ is authoritative for operational metrics. Manual entry is deprecated. Third-party exports are not authoritative unless validated by MSR.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is MSR and how does it relate to CorpusIQ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MSR (Management System of Record) is the authoritative source of truth for all financial and business metrics. CorpusIQ surfaces operational data from connected sources; MSR validates, governs, and serves as the official record for reporting and decisions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the data validation process work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Data is retrieved from connected sources via CorpusIQ \u2192 MSR validates against known baselines \u2192 Discrepancies are flagged for reconciliation \u2192 Validated data enters MSR as the official record \u2192 All downstream reporting pulls from MSR."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the source precedence rules?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MSR is always authoritative for financial metrics. Connected source data via CorpusIQ is authoritative for operational metrics. Manual entry is deprecated. Third-party exports are not authoritative unless validated by MSR."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[CorpusIQ Architecture](/docs/architecture/README)** — MCP endpoint and connector layer design  

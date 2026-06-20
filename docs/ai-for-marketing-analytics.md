@@ -133,42 +133,7 @@ A: Yes. Connect Google Analytics (organic data) and Google Ads (paid data) and C
 
 **Next steps:** [Transform your marketing analytics →](https://app.corpusiq.com/signup)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can this replace our marketing analytics platform?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ complements analytics platforms by providing on-demand, cross-channel answers. For dashboards and scheduled reports, continue using your analytics platform. For ad-hoc questions and cross-channel analysis, use CorpusIQ."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does attribution work across different platforms with different attribution models?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ provides raw data from each platform. Claude can help you understand the differences between platform-reported conversions and can correlate spend data with CRM pipeline and revenue data for a more unified view."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I analyze organic and paid search together?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Connect Google Analytics (organic data) and Google Ads (paid data) and Claude can present a unified search performance view."
-      }
-    }
-  ]
-}
-</script>
-
-
 *AI-powered AI for Marketing Analytics | CorpusIQ MCP Platform for Ma... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
 
 *AI-powered AI for Marketing Analytics | CorpusIQ MCP Platform for Ma... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---

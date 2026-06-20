@@ -154,55 +154,6 @@ Yes. Hermes provides continuous evidence collection, audit trail maintenance, an
 
 Hermes enforces minimum necessary access at the connector level, logs all PHI access with attribution, and supports encrypted storage and credential isolation through dedicated compliance profiles.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What compliance frameworks can Hermes Agent automate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes Agent supports SOC 2, HIPAA, GDPR, PCI-DSS, ISO 27001, and custom compliance frameworks. Skills can be configured for any standard that requires evidence collection, access monitoring, and control validation across cloud and SaaS systems."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes Agent collect compliance evidence?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes uses cron-driven skills with MCP connectors to query cloud providers (AWS, GCP, Azure), databases, and SaaS tools. Each run produces timestamped evidence artifacts stored in version-controlled repositories or immutable storage."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes Agent automatically remediate compliance issues?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes can be configured for report-only mode or automated remediation with approval gates. Critical actions like data purging or access revocation can require human approval before execution."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is Hermes Agent suitable for SOC 2 Type II audits?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hermes provides continuous evidence collection, audit trail maintenance, and change management documentation — exactly what SOC 2 Type II auditors require. Skills can map to specific Trust Services Criteria controls."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes handle PHI for HIPAA compliance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes enforces minimum necessary access at the connector level, logs all PHI access with attribution, and supports encrypted storage and credential isolation through dedicated compliance profiles."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent for Healthcare](../case-studies/healthcare.md) — HIPAA-compliant workflows for medical practices
@@ -211,9 +162,7 @@ Hermes enforces minimum necessary access at the connector level, logs all PHI ac
 - [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — SOC 2, segregation of duties, and audit-grade logging
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

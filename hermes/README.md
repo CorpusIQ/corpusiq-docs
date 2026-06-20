@@ -632,63 +632,6 @@ The deployment runs **production crons** across multiple categories (email ops, 
 
 The [official docs](https://hermes-agent.nousresearch.com/docs/) tell you **what** each feature does. This repository tells you **how** to run a production autonomous agent — covering memory stack architecture, cron scheduling patterns, multi-machine deployment, skill marketplace integration, content operations at scale, and governance systems. Official docs = reference. This repo = field manual.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the Hermes Agent Production Knowledge Repository?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The definitive field manual for running autonomous AI agents in production, drawn from extensive real-world 24/7 deployment covering architecture, memory, skills, MCP, cron scheduling, and deployment patterns."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I deploy Hermes Agent in production?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Follow the Quick Start guide: install Hermes, initialize a profile, set up persistent memory, add MCP connectors via CorpusIQ, and deploy your first autonomous cron. See Architecture for the full 6-layer model."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What hardware and infrastructure does this deployment use?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The production deployment uses a multi-machine architecture with a primary compute node for inference and orchestration, plus dedicated worker nodes for browser automation and content operations. Multi-machine SSH orchestration is zero-config with Hermes profiles."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many crons and skills does the production deployment run?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The deployment runs production crons across multiple categories (email ops, social publishing, content, community engagement, research, governance, memory, growth) with an extensive skills library spanning marketing, development, operations, content, and governance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I contribute or submit a resource to the ecosystem?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Submit a repo in 60 seconds via the submission form. Accepted repos are added to the ecosystem directory with full submitter credit within 48 hours."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the difference between this repository and the official Hermes docs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Official docs tell you what each feature does. This repo tells you how to run a production autonomous agent: memory architecture, cron patterns, multi-machine deployment, content ops at scale, and governance."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Documentation Index — Complete Reference](/hermes/index.md)
@@ -719,9 +662,7 @@ Every submission reviewed within 48 hours. Accepted repos added to the [ecosyste
   <sub>One connector. 37+ tools. Your business data, finally answering your questions.</sub>
 </p>
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

@@ -78,7 +78,6 @@ Task dependency information (blocked by, blocking, dependent on) is accessible. 
 Yes. "Give me a summary of what my team accomplished this week, what's overdue, and what's due next week." "What's the status of all projects in the Marketing portfolio?" These summaries replace manually compiling status from multiple Asana views and projects.
 </details>
 
-
 ## How It Works
 
 1. **Connect Asana to CorpusIQ.** Dashboard → Connections → Asana → sign into Asana → select workspace → authorize read-only access. Takes 2 minutes.
@@ -173,95 +172,7 @@ Under 5 minutes from signup to your first project management query in ChatGPT.
 - [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md) — detailed comparison
 - [CorpusIQ Security Architecture](../docs/security/README.md) — how data stays safe
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "How to Connect Asana to ChatGPT with CorpusIQ MCP",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What project questions can I ask ChatGPT about Asana?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Task questions: \"What tasks are assigned to me this week?\", \"Show me all overdue tasks across my projects\", \"Which tasks are blocked and waiting on someone else?\" Project questions: \"What's the completion percentage for Project X?\", \"Show me all active projects and their status\", \"Which projects are"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the connection work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ connects to your Asana account via OAuth 2.0. You authorize read-only access to your workspace, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Asana tools \u2014 project listing, task search, section retrieval, and metadata access \u2014 and calls them when you ask a"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the connection read-only?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ requests read-only OAuth scopes from Asana. ChatGPT can see projects, tasks, sections, assignees, and custom fields. It cannot create tasks, reassign work, change due dates, modify projects, or alter anything in your Asana workspace. The read-only guarantee is enforced at both the OAut"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What Asana data can ChatGPT access?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Projects with status, owner, and timeline information. Tasks with assignee, due date, status, section, custom fields, and dependencies. Sections within projects. Workspace and organization metadata. All accessed through read-only operations \u2014 ChatGPT reads your project data, never writes to it."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT combine Asana data with data from other tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely. \"Show me Asana tasks for projects that correspond to HubSpot deals closing this month\" combines project management with CRM. \"Which overdue Asana tasks are for clients who emailed us this week in Gmail?\" combines tasks with email. \"Show me Asana project completion rates vs. our sprint ve"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is this different from Asana's built-in reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Asana's reporting features \u2014 Portfolios, Goals, Dashboards, Universal Reporting \u2014 are powerful for structured, recurring reports. But they require configuration and don't answer ad-hoc questions: \"Show me all tasks that were due last week, are still incomplete, and are assigned to designers who also"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I query across multiple Asana projects and teams?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. \"Show me all open tasks across the Engineering portfolio.\" \"What's the workload distribution across the Design and Content teams this week?\" \"Which projects across the entire organization have the most overdue tasks?\" Cross-project and cross-team queries work naturally through ChatGPT."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What about Asana's custom fields?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Custom fields are fully supported. If you use custom fields for priority, effort estimation, sprint assignment, or client name, ChatGPT can filter and group by these fields. \"Show me all tasks where the custom field 'Story Points' is greater than 8\" works as naturally as asking about built-in fields"
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect Asana to ChatGPT via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect Asana to ChatGPT via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

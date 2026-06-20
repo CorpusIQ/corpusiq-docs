@@ -143,7 +143,6 @@ CRM reports show you what the CRM vendor anticipated you'd want to see. MCP lets
 While MCP is primarily an on-demand query interface, you can create saved prompts that generate consistent reports. For scheduled delivery, these can be integrated with your existing reporting infrastructure.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -154,79 +153,7 @@ While MCP is primarily an on-demand query interface, you can create saved prompt
 - [MCP for Small Business: Quick Setup](/docs/mcp-for-small-business)
 - [MCP for Agencies: Multi-Client Management](/docs/mcp-for-agencies)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP for Real Estate: How to Connect Your Business Data to AI",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can MCP access my local MLS data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ can connect to property data sources that provide API access. MLS access depends on your MLS provider's data sharing policies. Contact CorpusIQ to discuss specific MLS integration."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this work with my CRM if I use a real estate-specific platform?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ supports major real estate CRMs including Follow Up Boss and can integrate with Salesforce and HubSpot. If your CRM isn't currently supported, custom connector development is available for enterprise accounts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is client data secure when queried through MCP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. All connections use OAuth with read-only defaults. Client data is never stored by CorpusIQ \u2014 it's queried from your systems on demand and returned directly to you. Your data stays in your CRM and transaction management platforms."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use this during client meetings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely. Real-time market data and client history are available on demand. A buyer asks \"are there any new listings in this neighborhood since yesterday?\" \u2014 you answer in seconds directly from live MLS data."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this compare to my CRM's built-in reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CRM reports show you what the CRM vendor anticipated you'd want to see. MCP lets you ask any question about your data \u2014 including questions that span your CRM plus your marketing platforms plus your financial tools."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I set up alerts or scheduled reports?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "While MCP is primarily an on-demand query interface, you can create saved prompts that generate consistent reports. For scheduled delivery, these can be integrated with your existing reporting infrastructure."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
-
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 ---

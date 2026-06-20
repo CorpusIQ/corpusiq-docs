@@ -241,55 +241,6 @@ Skills are categorized as standard changes (read-only, pre-approved), normal cha
 
 Yes. Enterprise deployments use primary/standby instances with heartbeat monitoring, automated failover, and cron resilience. Skill definitions and configurations are version-controlled for rapid recovery.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is Hermes Agent SOC 2 Type II compliant?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes supports SOC 2 compliance through profile isolation, immutable audit logging, change management evidence, and segregation of duties. Organizations must configure these controls appropriately for their environment and complete their own audit process."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes handle data residency requirements?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes supports per-region deployment with separate instances for US, EU, and APAC. Data residency verification skills monitor that regulated data stays within regional boundaries. Global aggregations avoid PII movement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What secrets management does Hermes support?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes integrates with HashiCorp Vault, AWS Secrets Manager, and Azure Key Vault. Credentials should never be stored in skill files or configuration. Service accounts use minimum required permissions with scheduled rotation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does change management work for Hermes skills?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Skills are categorized as standard changes (read-only, pre-approved), normal changes (write access, approval required), or emergency changes (incident response, retroactive documentation). A change auditor skill monitors deployed skills against approved records."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes run in a high-availability configuration?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Enterprise deployments use primary/standby instances with heartbeat monitoring, automated failover, and cron resilience. Skill definitions and configurations are version-controlled for rapid recovery."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent for Mid-Market](../by-company-size/mid-market.md) — Multi-team orchestration for growing companies
@@ -298,9 +249,7 @@ Yes. Enterprise deployments use primary/standby instances with heartbeat monitor
 - [Hermes Agent for Financial Services](../case-studies/financial-services.md) — SOX controls and regulatory filing
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

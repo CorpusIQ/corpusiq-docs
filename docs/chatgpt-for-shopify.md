@@ -108,7 +108,6 @@ If your Shopify store operates in multiple currencies, ChatGPT can query and rep
 ### How does billing work?
 CorpusIQ bills based on tool calls to Shopify's API. A typical question uses 1-3 tool calls. Most plans support hundreds of queries per month — more than enough for daily ecommerce analysis. You also need a ChatGPT Plus, Team, or Enterprise subscription.
 
-
 ## Get Started with ChatGPT for Shopify
 
 Ready to put AI to work on your chatgpt for shopify data? 
@@ -119,7 +118,6 @@ Ready to put AI to work on your chatgpt for shopify data?
 4. **Scale your usage** — add team members, connect more sources, and automate recurring reports.
 
 **[Get started now →](https://app.corpusiq.com/signup)**
-
 
 ## Internal Links
 
@@ -137,98 +135,7 @@ ChatGPT for Shopify through CorpusIQ transforms how you interact with your ecomm
 
 **[Connect your Shopify store to ChatGPT](/get-started) and ask your first question in under 5 minutes.**
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is my Shopify data secure when using ChatGPT?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ uses OAuth 2.0 with read-only access to your Shopify admin. Your store data is queried in real time and never persisted on CorpusIQ servers. All data transmission is encrypted with TLS 1.3. ChatGPT processes the data in your conversation session — consult OpenAI's data usage policies f"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT modify my Shopify store?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The CorpusIQ-Shopify connection is strictly read-only. ChatGPT can analyze your data and make recommendations, but it cannot create products, modify orders, change inventory, adjust prices, or alter any store settings. Your store remains fully under your control."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What Shopify data can ChatGPT access?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ChatGPT can access orders, products, customers, inventory levels, discount codes, refund data, and store analytics. It can query across all these data types and perform calculations — revenue analysis, customer segmentation, product performance, inventory forecasting — using your live data."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which Shopify plans are supported?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ works with all Shopify plans that include API access: Basic Shopify, Shopify, Advanced Shopify, and Shopify Plus. Older \"Lite\" plans without API access are not supported."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is this different from Shopify's built-in analytics?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Shopify's analytics provide pre-built reports and dashboards with limited customization. ChatGPT offers open-ended, conversational analysis — you define the question, not the software. Ask novel questions, create custom metrics, and explore data in ways Shopify's fixed reports cannot. Additionally, "
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I analyze multiple Shopify stores?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ supports multiple store connections. Agencies managing multiple client stores can switch between them or analyze across stores (cross-store analytics available on Enterprise plan)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does ChatGPT understand my custom product data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. ChatGPT reads your actual Shopify product catalog — titles, descriptions, tags, variants, collections, and pricing. It understands your store's specific product taxonomy because it queries your live data."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I forecast future sales with ChatGPT?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. ChatGPT can analyze historical sales patterns from your Shopify data and project future performance. While these are statistical projections (not guarantees), they incorporate your actual seasonal patterns, growth rates, and product-level trends. For formal financial forecasting, always validat"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What about multi-currency stores?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If your Shopify store operates in multiple currencies, ChatGPT can query and report in any currency your store supports. Specify your preferred reporting currency in your query."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does billing work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ bills based on tool calls to Shopify's API. A typical question uses 1-3 tool calls. Most plans support hundreds of queries per month — more than enough for daily ecommerce analysis. You also need a ChatGPT Plus, Team, or Enterprise subscription."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect ChatGPT for Shopify — AI Ecommerce Analytics & Management... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect ChatGPT for Shopify — AI Ecommerce Analytics & Management... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

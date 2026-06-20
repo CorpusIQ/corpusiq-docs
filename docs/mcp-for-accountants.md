@@ -158,7 +158,6 @@ Yes. Query current-year financials against prior-year data to identify tax plann
 CorpusIQ supports QuickBooks today. Support for additional accounting platforms is expanding. Contact CorpusIQ about specific platform requirements.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -169,79 +168,7 @@ CorpusIQ supports QuickBooks today. Support for additional accounting platforms 
 - [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 - [MCP for Agencies: Client Management](/docs/mcp-for-agencies)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP for Accountants: How to Connect Your Business Data to AI",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does MCP replace my accounting software?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. MCP provides a natural language query interface to your existing accounting software. QuickBooks (or Xero, Sage, etc.) remains the system of record. MCP makes the data accessible for analysis and reporting."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can MCP create journal entries or modify transactions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ's accounting connectors default to read-only. They can query data but cannot create, modify, or delete transactions. This is intentional \u2014 it keeps your books safe while making them accessible."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this work with multiple clients?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CPA firms connect each client's QuickBooks as a separate, isolated connection. You can query any client's data at any time, and client data never mixes. The platform is designed for multi-client accounting workflows."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this secure enough for financial data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. All connections use OAuth 2.0 with read-only scopes, encrypted token storage, and TLS 1.3 encryption in transit. CorpusIQ maintains SOC 2 Type II certification. Financial data is never stored \u2014 only queried and returned."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can MCP help with tax planning, not just preparation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Query current-year financials against prior-year data to identify tax planning opportunities \u2014 accelerated depreciation, retirement contributions, entity restructuring considerations. Real-time data enables real-time planning."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if my client uses Xero or Sage instead of QuickBooks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ supports QuickBooks today. Support for additional accounting platforms is expanding. Contact CorpusIQ about specific platform requirements."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
-
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 ---

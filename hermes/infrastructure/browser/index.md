@@ -54,9 +54,7 @@ LinkedIn, TikTok, Instagram, Product Hunt, web forms, and application submission
 
 For aarch64 systems without Chrome, Playwright chromium-1223 with explicit executable path in `~/.agent-browser/config.json` provides a fallback. Curl-based DuckDuckGo Lite search fills in when full browser automation is unavailable.
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

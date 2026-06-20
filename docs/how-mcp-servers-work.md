@@ -289,7 +289,6 @@ GraphQL is a query language for APIs — you write queries to request specific f
 The base MCP protocol is request-response oriented. However, the HTTP+SSE transport supports server-initiated notifications, which could be used for event-driven patterns. This area of the protocol is actively evolving.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -300,95 +299,7 @@ The base MCP protocol is request-response oriented. However, the HTTP+SSE transp
 - [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
 - [Explore MCP for business operations automation](/docs/mcp-for-operations)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "How Do MCP Servers Work? Technical Architecture & Protocol Deep Dive",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I build my own MCP server?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. MCP is an open protocol with SDKs available in Python, TypeScript, and other languages. The protocol specification is publicly documented. Building a custom MCP server lets you expose proprietary systems to any MCP-compatible AI client."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does MCP handle errors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP uses standard JSON-RPC error codes. Tool execution errors return structured error objects with machine-readable codes and human-readable messages. The AI model can interpret these errors and adjust its approach \u2014 for example, retrying with different parameters or asking the user for clarificatio"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if a data source is unavailable?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The MCP server returns an error to the client, which the AI model can communicate to the user in natural language. CorpusIQ includes timeout handling and retry logic for transient failures."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How are rate limits handled?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ's MCP server tracks rate limits for each connected platform and implements backpressure. If a query would exceed rate limits, the server throttles requests and communicates the delay to the client."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can MCP servers stream partial results?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Through the HTTP+SSE transport, servers can stream partial results as they become available. This is particularly useful for large reports or long-running queries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is MCP suitable for real-time applications?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP queries execute against live data and typically return in seconds. While not suitable for sub-second latency requirements (like trading systems), it's more than fast enough for business intelligence, reporting, and operational queries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does MCP compare to GraphQL?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "GraphQL is a query language for APIs \u2014 you write queries to request specific fields. MCP is a protocol for AI agents to discover and use tools. They solve different problems. MCP could use GraphQL as the underlying transport for some data sources."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does MCP support webhooks or event-driven patterns?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The base MCP protocol is request-response oriented. However, the HTTP+SSE transport supports server-initiated notifications, which could be used for event-driven patterns. This area of the protocol is actively evolving."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
-
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 ---

@@ -137,39 +137,6 @@ A: Start with Stripe (revenue), Shopify (orders), or QuickBooks (financials). Th
 **Q: How long does the device login take for AI agents?**  
 A: Device login takes approximately 45 seconds from start to finish. Your agent receives a device code, you verify once via browser or mobile, and the agent gets a persistent refresh token for ongoing access.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I choose between AI Chat and AI Agent onboarding?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Choose AI Chat if you want to chat with AI about your business data at demo.corpusiq.io (5-minute setup). Choose AI Agent if you want to connect an MCP-compatible AI agent like Claude or Cursor (10-minute setup)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What data source should I connect first?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Start with Stripe (revenue), Shopify (orders), or QuickBooks (financials). These give immediate value. Then add HubSpot (CRM), GA4 (analytics), and Klaviyo (marketing) for cross-source insights."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does the device login take for AI agents?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Device login takes approximately 45 seconds from start to finish. Your agent receives a device code, you verify once via browser or mobile, and the agent gets a persistent refresh token for ongoing access."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[CorpusIQ Architecture](/docs/architecture/README)** — MCP endpoint and connector layer design  

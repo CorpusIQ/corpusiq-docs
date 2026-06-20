@@ -116,76 +116,11 @@ Yes — sandbox and production orgs can be connected separately.
 CorpusIQ is SOC 2 compliant. The read-only architecture means no data can be modified. Evaluate within your specific regulatory framework.
 </details>
 
-
 ---
 
 **Next steps:** [Connect Salesforce to Claude now →](https://app.corpusiq.com/connect/salesforce)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does this work with custom Salesforce objects?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ queries standard Salesforce REST API endpoints. Custom objects accessible via the REST API are queryable through Claude."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Claude modify Salesforce records?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The integration is strictly read-only."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this respect Salesforce sharing rules?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The OAuth token inherits the authenticated user's permissions. Users only see records their Salesforce profile allows."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I connect multiple Salesforce orgs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes \u2014 sandbox and production orgs can be connected separately."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this suitable for regulated industries (finance, healthcare)?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ is SOC 2 compliant. The read-only architecture means no data can be modified. Evaluate within your specific regulatory framework."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect Salesforce to Claude via MCP — Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect Salesforce to Claude via MCP — Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

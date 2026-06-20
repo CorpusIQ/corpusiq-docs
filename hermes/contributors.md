@@ -86,55 +86,6 @@ Yes. You can **review pending submissions**, open PRs with category improvements
 
 Accepted repos are added to the [Hermes Ecosystem Directory](/hermes/ecosystem.md) — categorized by type (core, UI, memory, MCP, skills, deployment, research, etc.) with star counts, descriptions, and your GitHub handle as the submitter.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I submit a Hermes repository to the ecosystem directory?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use the submission form with repo URL, description, and category. Submissions are reviewed within 48 hours and appear in the ecosystem directory with your GitHub handle credited."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What types of repositories are accepted?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes skills, MCP servers, plugins, tools, UI/dashboards, deployment guides, tutorials, benchmarks, research papers, and anything extending the Hermes ecosystem."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does review take?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Submissions are reviewed within 48 hours. The discovery engine also runs nightly to detect new community repos automatically."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I contribute without submitting a repo?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. You can review pending submissions, open PRs with improvements, or help validate new community discoveries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where do accepted submissions appear?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Accepted repos appear in the Hermes Ecosystem Directory, categorized by type with star counts, descriptions, and your GitHub handle as submitter."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Ecosystem Directory — 234+ Repos](/hermes/ecosystem.md)
@@ -142,9 +93,7 @@ Accepted repos are added to the [Hermes Ecosystem Directory](/hermes/ecosystem.m
 - [Skills Catalog — 133+ Skills](/hermes/skills/catalog/)
 - [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

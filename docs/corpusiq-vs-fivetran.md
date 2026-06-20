@@ -145,7 +145,6 @@ A: Both platforms are enterprise-grade. CorpusIQ's advantage: no data copies mea
 **Q: Which is easier to implement?**  
 A: CorpusIQ — 2 minutes to connect, instant AI access. Fivetran — hours to days for connector setup, warehouse configuration, schema management, and transformation logic.
 
-
 ## Get Started with CorpusIQ vs Fivetran — MCP Live Query vs ETL Batch Pipelines
 
 Ready to put AI to work on your corpusiq vs fivetran — mcp live query vs etl batch pipelines data? 
@@ -156,7 +155,6 @@ Ready to put AI to work on your corpusiq vs fivetran — mcp live query vs etl b
 4. **Scale your usage** — add team members, connect more sources, and automate recurring reports.
 
 **[Get started now →](https://app.corpusiq.com/signup)**
-
 
 ## Internal Links
 
@@ -169,78 +167,6 @@ Ready to put AI to work on your corpusiq vs fivetran — mcp live query vs etl b
 - [Top MCP Platforms Compared](/docs/top-mcp-platforms/)
 - [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity/)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does CorpusIQ store my data like Fivetran does?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. CorpusIQ never stores, caches, or copies your data. Every query runs against the live source API."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can CorpusIQ handle the data volumes Fivetran processes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ is designed for business intelligence queries, not bulk data extraction. For terabyte-scale analytics, a warehouse approach is more appropriate."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if my data source goes down? Does CorpusIQ work offline?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ requires live source connectivity. Fivetran can serve warehouse data even when sources are unavailable. For mission-critical analytics with unreliable source systems, a warehouse provides resilience."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is one replacing the other?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. They serve different layers of the data stack. Fivetran moves data for centralized analytics. CorpusIQ enables AI to query data where it lives. Many organizations benefit from both."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which is faster for simple business questions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ \u2014 queries complete in 1-5 seconds against live APIs. Fivetran requires the data to already be in the warehouse; if you're asking about data that just changed, the answer isn't available until the next sync."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can CorpusIQ replace my data warehouse?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For AI-powered business questions \u2014 yes. For formal BI reporting, historical analysis, and ML workloads \u2014 no. They complement each other."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does security compare?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both platforms are enterprise-grade. CorpusIQ's advantage: no data copies means fewer surfaces to secure. Fivetran's advantage: warehouse-level encryption and access controls for the centralized copy."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which is easier to implement?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ \u2014 2 minutes to connect, instant AI access. Fivetran \u2014 hours to days for connector setup, warehouse configuration, schema management, and transformation logic."
-      }
-    }
-  ]
-}
-</script>
 ---
 
 *

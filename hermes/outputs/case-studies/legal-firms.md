@@ -149,55 +149,6 @@ Yes. Hermes skills apply the relevant rules of civil procedure, check for weeken
 
 Hermes connects to time tracking and billing systems through database connectors. It can generate draft timesheets from calendar and email activity, check invoices against billing guidelines, and track alternative fee arrangement utilization.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is Hermes Agent suitable for legal work under ethical rules?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes serves as a research and administrative accelerator with attorney-in-the-loop controls. Every output is a draft requiring attorney review, consistent with the duty of competence and not constituting unauthorized practice of law."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes perform legal research and Shepardizing?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes can search legal databases for relevant cases, summarize holdings, and run citator checks to flag negative subsequent treatment. However, attorneys must verify all research outputs and should not rely solely on AI-generated analysis."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes protect attorney-client privilege?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes enforces matter-level isolation, never retains client confidences in persistent model context, and supports separate profiles per matter or practice area. Privilege review skills surface likely privileged documents but never make privilege determinations."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes calculate court deadlines automatically?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hermes skills apply the relevant rules of civil procedure, check for weekends and holidays, and calendar deadlines with multiple advance warnings. This serves as defense-in-depth alongside your primary docketing system."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does Hermes integrate with legal billing systems?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes connects to time tracking and billing systems through database connectors. It can generate draft timesheets, check invoices against billing guidelines, and track alternative fee arrangement utilization."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md) — Regulatory evidence collection and audit trails
@@ -206,9 +157,7 @@ Hermes connects to time tracking and billing systems through database connectors
 - [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security, segregation of duties, and audit logging
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

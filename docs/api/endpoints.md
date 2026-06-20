@@ -322,47 +322,6 @@ A: This endpoint permanently deletes all user data: OAuth tokens, query history,
 **Q: How do I scope queries to specific connectors?**  
 A: Pass a 'connectors' array in your /query request body specifying which data sources to search. Example: {"query": "revenue this month", "connectors": ["stripe", "quickbooks"]}.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the POST /query endpoint used for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "POST /query searches across all your connected business data sources with natural-language queries. It supports connector scoping, idempotency keys, and returns semantically ranked, cited results."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What does POST /deep_search do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "POST /deep_search searches the encrypted archive of previously executed queries and their results. It does NOT make live API calls \u2014 it searches only your query history for pattern discovery and auditing."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens when I call DELETE /delete_my_data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "This endpoint permanently deletes all user data: OAuth tokens, query history, archive entries, webhook registrations, and user profile. The action is irreversible and triggers a user.deleted webhook event."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I scope queries to specific connectors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pass a 'connectors' array in your /query request body specifying which data sources to search. Example: {\"query\": \"revenue this month\", \"connectors\": [\"stripe\", \"quickbooks\"]}."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  

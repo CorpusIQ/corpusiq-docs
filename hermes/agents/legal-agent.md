@@ -130,55 +130,6 @@ The agent supports **SOC 2, ISO 27001, HIPAA, GDPR, and custom frameworks**. Con
 
 Each morning the agent scans regulatory agency feeds, filters updates by your configured **jurisdictions and topics of interest**, and delivers a **curated digest** of only relevant changes — no noise, no irrelevant notices.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does the Hermes Legal Agent do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Hermes Legal Agent performs first-pass contract review, monitors regulatory changes, enforces policy compliance, organizes audit evidence, and manages document expiry calendars — with all findings flagged for attorney review."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the legal agent provide legal advice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The agent's outputs are always framed as flags for attorney review with source references. It accelerates legal workflows but does not replace qualified counsel or render legal opinions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does contract review work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agent reviews contracts for standard clauses, flags deviations from your playbook, extracts obligations and renewal dates, and tracks expirations — all presented for attorney review."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What compliance frameworks does the agent support?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agent supports SOC 2, ISO 27001, HIPAA, GDPR, and custom frameworks. Control mappings are configured in canonical facts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does regulatory monitoring work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Each morning the agent scans regulatory feeds, filters by your jurisdictions and topics, and delivers a curated digest of only relevant changes."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Agent Library — All 9 Role Configurations](/hermes/agents/)
@@ -188,9 +139,7 @@ Each morning the agent scans regulatory agency feeds, filters updates by your co
 - [Governance & Compliance Overview](/hermes/governance/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

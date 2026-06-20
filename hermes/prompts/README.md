@@ -38,9 +38,7 @@ Every prompt lists:
 - **If the answer is wrong**, ask CorpusIQ to show its work: "What sources
   did you use? Show me the raw numbers." It will.
 
-
 *From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

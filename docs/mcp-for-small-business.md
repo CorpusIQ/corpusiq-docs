@@ -131,7 +131,6 @@ Absolutely. Even with just QuickBooks connected, the ability to ask natural lang
 ChatGPT without MCP can only answer from its training data — it can't access your actual QuickBooks, Shopify, or CRM data. With CorpusIQ, the AI assistant queries your live business data and returns specific, accurate answers based on your real numbers.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -142,79 +141,7 @@ ChatGPT without MCP can only answer from its training data — it can't access y
 - [MCP for Sales: Pipeline and Forecasting](/docs/mcp-for-sales)
 - [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP for Small Business: How to Connect Your Business Data to AI",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need technical expertise to set up MCP for my small business?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. CorpusIQ's setup requires only OAuth authentication \u2014 clicking \"Connect\" and logging into each platform. No code, no configuration files, no command line. If you can log into QuickBooks, you can connect it to CorpusIQ."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much does CorpusIQ cost for a small business?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ offers plans starting at accessible SMB price points. Visit the CorpusIQ pricing page for current details. Compared to the cost of a part-time bookkeeper or data analyst, MCP access is a fraction of the cost for 24/7 availability."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is my data secure? Can the AI accidentally delete something?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ defaults to read-only access for all connectors. The AI cannot modify, delete, or create data. It can only read and report. For small businesses, this means zero risk of the AI making unintended changes to your QuickBooks or Shopify data."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I connect multiple businesses or clients?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. If you run multiple businesses or manage books for multiple clients, you can connect separate instances of each platform. Each connection is isolated \u2014 data from Business A is never mixed with Business B."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if I only use QuickBooks? Is MCP still useful with one platform?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely. Even with just QuickBooks connected, the ability to ask natural language questions about your financials \u2014 \"What were my top 5 expense categories last quarter?\" \u2014 saves significant time compared to running reports manually."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is this different from just using ChatGPT?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ChatGPT without MCP can only answer from its training data \u2014 it can't access your actual QuickBooks, Shopify, or CRM data. With CorpusIQ, the AI assistant queries your live business data and returns specific, accurate answers based on your real numbers."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
-
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 ---

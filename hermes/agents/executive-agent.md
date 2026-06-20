@@ -135,55 +135,6 @@ Every 15 minutes during business hours, the agent classifies new emails into thr
 
 Yes. Every Friday at 4:30 PM, the agent delivers a **weekly review** covering wins, blockers, decisions made, delegated task status, and priorities for next week — so you close the week clean and start Monday with a clear plan.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does the Hermes Executive Agent do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Hermes Executive Agent serves as an AI chief of staff — delivering daily briefings, optimizing your calendar, triaging your inbox, preparing meeting briefs, and tracking action items."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the daily briefing work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Every weekday at 6:30 AM, the agent emails today's schedule with context per meeting, the 3-5 priority emails with suggested responses, pending decisions, and a key metrics snapshot."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does the agent prepare me for meetings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Before each meeting, the agent prepares a brief with attendee bios, recent discussion history, open action items, and relevant documents."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does inbox triage work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Every 15 minutes, the agent classifies emails into needs action (with drafts), needs awareness, and can wait — only high-priority items interrupt you."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can the executive agent help with weekly reviews?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Every Friday at 4:30 PM, the agent delivers a weekly review covering wins, blockers, decisions, delegated task status, and next week's priorities."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Agent Library — All 9 Role Configurations](/hermes/agents/)
@@ -193,9 +144,7 @@ Yes. Every Friday at 4:30 PM, the agent delivers a **weekly review** covering wi
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 - [Model Selection Best Practices](/hermes/best-practices/model-selection.md)
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

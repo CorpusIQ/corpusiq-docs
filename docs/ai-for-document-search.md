@@ -139,58 +139,7 @@ A: No. Document content is streamed directly from the source system for each que
 
 **Next steps:** [Start AI-powered document search →](https://app.corpusiq.com/signup)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does AI respect document permissions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. AI can only access documents that the authenticated user has permission to view. SharePoint, Google Drive, and OneDrive permissions are fully respected."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What file types can AI read?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Word (docx), PowerPoint (pptx), Excel (xlsx), PDF, Google Docs/Sheets/Slides, plain text, and Notion pages. Some advanced formatting may be simplified in the extracted text."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this handle large document libraries?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ uses native search APIs (Microsoft Graph, Google Drive API) for efficient retrieval. AI processes only the most relevant documents for each query."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can AI search scanned documents or images?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI can search OCR'd text in PDFs. Purely image-based content without embedded text is not searchable."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is document content stored by CorpusIQ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Document content is streamed directly from the source system for each query and never persisted."
-      }
-    }
-  ]
-}
-</script>
-
-
 *AI-powered AI for Document Search | CorpusIQ MCP Platform for Enterp... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
 
 *AI-powered AI for Document Search | CorpusIQ MCP Platform for Enterp... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---

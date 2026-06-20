@@ -136,58 +136,7 @@ A: AI handles "what" and "how" questions — factual knowledge retrieval. It doe
 
 **Next steps:** [Unlock your organizational knowledge →](https://app.corpusiq.com/signup)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How is this different from a company wiki?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A wiki requires people to intentionally document knowledge in a specific place. AI searches across all tools \u2014 wikis, Slack, email, project docs \u2014 so knowledge doesn't have to be explicitly \"documented\" to be findable."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this replace our wiki or knowledge base?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No \u2014 it amplifies it. Your wiki becomes more valuable because AI can find the right page even when employees don't know the right search terms. And AI can answer questions from Slack and email that were never formally documented."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do we handle sensitive or confidential knowledge?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI respects the access controls of each connected system. Employees only see information they have permission to access in the source systems."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can AI distinguish between current and outdated information?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Claude can assess recency based on document dates and can note when information appears to be from older discussions. It's good practice to maintain current documentation in canonical locations."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Will employees still talk to each other?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI handles \"what\" and \"how\" questions \u2014 factual knowledge retrieval. It doesn't replace the human collaboration, brainstorming, and relationship-building that happens in conversation."
-      }
-    }
-  ]
-}
-</script>
-
-
 *AI-powered AI for Knowledge Management | CorpusIQ MCP Platform for KM — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
 
 *AI-powered AI for Knowledge Management | CorpusIQ MCP Platform for KM — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---

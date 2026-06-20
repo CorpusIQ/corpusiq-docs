@@ -78,7 +78,6 @@ You need a NetSuite account with permissions to create an integration record and
 CorpusIQ can query across subsidiaries. Specify the subsidiary in your question ("Show me Q2 revenue for the EMEA subsidiary") or ask for consolidated views ("Show me consolidated revenue across all subsidiaries this quarter"). The MCP layer handles subsidiary context transparently.
 </details>
 
-
 ## How It Works
 
 1. **Set up NetSuite integration.** In NetSuite, create an integration record, assign a read-only role, and generate consumer key/secret and token ID/secret. This is a one-time setup by your NetSuite admin.
@@ -191,95 +190,7 @@ NetSuite setup takes 5-10 minutes of admin time, one time only. After that, any 
 - [MCP for Finance](../docs/mcp-for-finance.md) — MCP for finance teams
 - [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md) — detailed comparison
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "How to Connect NetSuite to ChatGPT with CorpusIQ MCP",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What NetSuite data can ChatGPT access?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ's NetSuite integration provides access to core ERP objects: sales orders, customers, invoices, inventory, items, financial reports, and project data. ChatGPT can retrieve individual records, list records with filters, and aggregate data across objects. All access is read-only \u2014 no record cr"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What questions can I ask ChatGPT about NetSuite?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Financial questions: \"What's our P&L by subsidiary this month?\", \"Show me open invoices by aging bucket.\" Order questions: \"What sales orders are scheduled to ship this week?\", \"Show me orders on hold.\" Customer questions: \"Who are our top 20 customers by revenue YTD?\", \"Which customers haven't orde"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does CorpusIQ connect NetSuite to ChatGPT?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ connects to NetSuite using token-based authentication (TBA) \u2014 the enterprise-standard method for NetSuite API access. You create an integration record, generate access tokens with read-only permissions, and configure the connection in CorpusIQ. Once connected, the CorpusIQ MCP server expose"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the connection read-only?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The NetSuite integration uses token-based authentication with a role that has read-only permissions. ChatGPT can query records, run saved searches, and retrieve reports. It cannot create, edit, or delete any NetSuite records. The read-only guarantee is enforced by the NetSuite role permissions "
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this handle NetSuite's complexity \u2014 subsidiaries, custom fields, workflows?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "NetSuite is highly customizable, and CorpusIQ's MCP layer is designed to work with that complexity. Custom fields are accessible \u2014 just reference them in your question. Subsidiary data can be queried per-subsidiary or consolidated. Saved searches can be referenced by name. The MCP layer adapts to yo"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT combine NetSuite data with other tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes \u2014 cross-source queries are where MCP delivers the most value. \"Does this month's NetSuite revenue match our Stripe processing volume?\" \"Show me NetSuite customers who have open HubSpot deals.\" \"Which NetSuite inventory items have corresponding Shopify listings that are out of stock?\" These multi"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is this different from NetSuite's built-in reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "NetSuite's reporting tools \u2014 saved searches, reports, SuiteAnalytics \u2014 are powerful and essential for formal financial reporting. But they require NetSuite expertise to build and maintain. ChatGPT with MCP provides ad-hoc access: questions that don't fit into a pre-built saved search but matter for "
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What about SuiteScript \u2014 do I still need it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "SuiteScript remains essential for custom business logic, automation, and integrations that require write operations or complex workflows. But for data access \u2014 the most common reason people write SuiteScript \u2014 ChatGPT with MCP eliminates the need. Instead of writing a script to pull customer order h"
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect NetSuite to ChatGPT via MCP — Live Data, No Code ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect NetSuite to ChatGPT via MCP — Live Data, No Code ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

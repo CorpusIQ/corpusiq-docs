@@ -78,7 +78,6 @@ ChatGPT can search across the workspace efficiently. "Search for pages about the
 Yes. Notion databases are structured collections with typed properties — text, select, multi-select, date, number, person, formula. ChatGPT can query these with property filters and return structured results. "Show me all projects with a deadline this month, sorted by priority" returns structured project data from your Notion project database.
 </details>
 
-
 ## How It Works
 
 1. **Create a Notion integration.** In Notion, go to Settings → Integrations → Create new integration. Give it a name and select read-only capabilities. Copy the integration token.
@@ -175,95 +174,7 @@ Notion's built-in search is excellent for navigating a known workspace. MCP with
 - [Notion Connector Reference](../connectors/notion.md) — technical details
 - [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md) — detailed comparison
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "How to Connect Notion to ChatGPT with CorpusIQ MCP",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What knowledge base questions can I ask ChatGPT about Notion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Page questions: \"What's in our employee onboarding guide?\", \"Show me the Q3 product roadmap page\", \"What does our pricing page say about enterprise plans?\" Database questions: \"Show me all active projects from the Project Tracker database\", \"What tasks are assigned to me in the Sprint database?\", \"L"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the connection work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ connects to your Notion workspace via an Internal Integration Token. You create the integration in Notion, grant it read access to specific pages or the entire workspace, then paste the token into CorpusIQ. Once connected, add the CorpusIQ MCP server to ChatGPT. ChatGPT discovers tools for "
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the connection read-only?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The Notion integration token is configured with read-only capabilities. ChatGPT can search pages, query databases, and read block content. It cannot create pages, edit content, modify databases, or change anything in your Notion workspace. The read-only guarantee is enforced by the integration "
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What Notion content can ChatGPT access?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pages with titles, properties, and content blocks (paragraphs, headings, lists, toggles, callouts). Databases with schema, properties, and row data. Page content through block traversal \u2014 ChatGPT can read the actual text of your pages, not just metadata. The specific content accessible depends on wh"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT search across all Notion pages at once?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. \"Search Notion for everything about the Q4 product launch\" searches across all pages the integration has access to. \"Find all mentions of 'security review' across our documentation\" spans the entire integrated workspace. This is significantly more powerful than Notion's built-in search, which r"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is this different from Notion's built-in AI features?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Notion AI (Notion's built-in AI assistant) is designed for content creation within Notion \u2014 writing, summarizing, translating, and editing Notion pages. It works within a single page context. ChatGPT connected via MCP provides cross-page knowledge retrieval: \"What does our entire documentation say a"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT query Notion databases with filters?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. \"Show me all tasks in the Engineering Sprint database where Status is 'In Progress' and Priority is 'High'\" works naturally. \"List all candidates in the Hiring Pipeline who are in the 'Final Interview' stage.\" Database queries with property filters work through natural language \u2014 no need to bui"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What about access control \u2014 can ChatGPT see private pages?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ChatGPT can only access pages that have been explicitly shared with the Notion integration. If a page isn't shared with the integration, ChatGPT can't see it \u2014 even if the authorizing user can. This is a Notion API design constraint that actually provides stronger access control: you must explicitly"
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect Notion to ChatGPT via MCP — Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect Notion to ChatGPT via MCP — Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

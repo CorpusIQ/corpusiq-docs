@@ -183,39 +183,6 @@ A: Add the CorpusIQ MCP endpoint (https://www.corpusiq.io/mcp/direct-connection)
 **Q: How do I verify my agent is connected?**  
 A: Ask your agent: 'What data sources are connected to CorpusIQ?' It should list all your connected business data sources. You can also run tools/list to see available query tools.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Which AI agents work with CorpusIQ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ has verified compatibility with Hermes (Nous Research), OpenClaw (NiceGUI), Claude Desktop (Anthropic), Cursor, Windsurf (Codeium), and Roo Code. Any MCP-compatible agent can connect using the standard endpoint."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I configure my agent to connect to CorpusIQ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Add the CorpusIQ MCP endpoint (https://www.corpusiq.io/mcp/direct-connection) to your agent's MCP servers config. Use 'http' transport for direct connections or 'mcp-remote' for agents requiring a local proxy. See the config blocks for each agent above."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I verify my agent is connected?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ask your agent: 'What data sources are connected to CorpusIQ?' It should list all your connected business data sources. You can also run tools/list to see available query tools."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[ChatGPT Integration with CorpusIQ](/docs/chatgpt-integration)** — Connect ChatGPT to your business data  

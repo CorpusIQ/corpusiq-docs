@@ -102,39 +102,6 @@ A: Every API response includes rate limit headers: X-RateLimit-Limit, X-RateLimi
 **Q: Can I get higher rate limits for enterprise use?**  
 A: Yes. Enterprise plans include increased rate limits. Contact CorpusIQ sales for custom quota configurations tailored to your organization's query volume.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are the CorpusIQ API rate limits?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Rate limits are per-endpoint with minute and daily windows. Exact limits are documented per endpoint and returned in response headers (X-RateLimit-*) for self-monitoring."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I check my current rate limit status?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Every API response includes rate limit headers: X-RateLimit-Limit, X-RateLimit-Remaining, and X-RateLimit-Reset showing your current quota consumption."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I get higher rate limits for enterprise use?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Enterprise plans include increased rate limits. Contact CorpusIQ sales for custom quota configurations tailored to your organization's query volume."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  

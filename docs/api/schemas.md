@@ -133,39 +133,6 @@ A: Each chunk includes chunk_id, content (the matched data), source_url (link to
 **Q: How are errors structured in API responses?**  
 A: Errors use a consistent format: {"error": {"type": "error_category", "message": "human-readable description", "details": {}}} with appropriate HTTP status codes (400, 401, 429, 500).
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What JSON structure does a /query response follow?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A /query response includes query_id, query (echo), results array with connector/chunks, and search_summary with connectors_searched, total_chunks_found, and duration_ms."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What fields are in each result chunk?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Each chunk includes chunk_id, content (the matched data), source_url (link to the source), relevance_score (0\u20131), and metadata with source-specific fields like subject, date, or status."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How are errors structured in API responses?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Errors use a consistent format: {\"error\": {\"type\": \"error_category\", \"message\": \"human-readable description\", \"details\": {}}} with appropriate HTTP status codes (400, 401, 429, 500)."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  

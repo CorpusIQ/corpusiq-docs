@@ -78,7 +78,6 @@ Yes. CorpusIQ works with all Shopify plans, including Shopify Plus. The OAuth sc
 CorpusIQ offers a free 30-day trial that includes the Shopify connector. After the trial, pricing depends on your plan. Visit [corpusiq.io](https://www.corpusiq.io) for current pricing. There are no per-query charges, no data volume fees, and no hidden costs for the Shopify integration.
 </details>
 
-
 ## How It Works
 
 The architecture is straightforward. CorpusIQ acts as a secure MCP bridge between ChatGPT and your Shopify store. Here's the flow:
@@ -182,95 +181,7 @@ The entire setup takes under 5 minutes from signup to first answer.
 - [Shopify Connector Reference](../connectors/shopify.md) — technical details on the Shopify connector
 - [CorpusIQ Security Architecture](../docs/security/README.md) — how your data stays safe
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "How to Connect Shopify to ChatGPT with CorpusIQ MCP",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What can I ask ChatGPT about my Shopify store once connected?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can ask about orders, revenue, products, customers, refunds, and store performance. Examples: \"What was our Shopify revenue last week?\", \"Which products had the most refunds this month?\", \"Show me my top 10 customers by lifetime spend\", \"What's our AOV trend over the last 90 days?\", \"How many re"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does CorpusIQ connect Shopify to ChatGPT?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ uses the Model Context Protocol (MCP) \u2014 an open standard for connecting AI assistants to data sources. You connect your Shopify store to CorpusIQ via OAuth (2 minutes, read-only), then connect the CorpusIQ MCP server to your ChatGPT account. ChatGPT discovers available tools at runtime and "
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the connection read-only?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ requests read-only OAuth scopes from Shopify. ChatGPT can see orders, products, customers, and store analytics. It cannot create orders, modify products, issue refunds, change prices, or alter anything in your store. The worst that can happen is an incorrect answer \u2014 never an incorrect"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What Shopify data can ChatGPT access?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Orders with line items, totals, and customer details. Products and variants. Customer profiles and order history. Refunds and discount codes applied. Store-level aggregates including total sales, AOV, and order counts for any date range. All of it is live \u2014 answers reflect the current state of your "
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need to export data or maintain a data warehouse?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. CorpusIQ queries your Shopify store directly through the Shopify API. There's no ETL pipeline, no data warehouse to maintain, no scheduled exports to configure. The connection is real-time \u2014 when you ask a question, the answer comes from live data."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is this different from using Shopify's built-in analytics?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Shopify's analytics are pre-built and limited to Shopify's own reporting views. With ChatGPT connected via CorpusIQ, you can ask ad-hoc questions that don't fit into a pre-built report. You can also combine Shopify data with data from other connected tools \u2014 compare Shopify revenue against Google Ad"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use this with multiple Shopify stores?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. You can connect multiple Shopify stores to your CorpusIQ account. Each store's data is isolated, and you can specify which store to query in your questions \u2014 or let the AI pull data across stores for multi-brand analysis."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What permissions do I need to connect?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You need a Shopify store on any plan, plus a store owner or staff account with permission to install apps. The connection takes about 2 minutes from start to finish."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect Shopify to ChatGPT via MCP — Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect Shopify to ChatGPT via MCP — Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

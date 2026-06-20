@@ -199,42 +199,7 @@ Every blueprint follows a predictable escalation pattern: automated retry (trans
 - [Cron Design Best Practices](/hermes/best-practices/cron-design.md) — Reliable scheduled automation
 - [Integration Examples](/hermes/integrations/) — Tool connection patterns for blueprints
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are Hermes Agent automation blueprints?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Automation blueprints are complete, cron-anchored workflow templates for recurring business processes. Each defines the schedule, data sources, processing logic, human decision gates, and output format for functions like daily operations, customer lifecycle, content production, financial close, or incident response."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I customize a Hermes Agent blueprint for my organization?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Adjust cron times to match your team's working hours, replace tool references with your actual systems, and calibrate thresholds to your reality. Start with the lowest-risk automation and enable one at a time with 48-hour observation periods between each."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which Hermes Agent blueprint should I implement first?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Start with the blueprint addressing your most painful manual process. If morning context switching, use Daily Operations. For reactive account management, use Customer Lifecycle. For inconsistent publishing, use Content Pipeline."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

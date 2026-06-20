@@ -135,50 +135,7 @@ A: Yes. Team-level access controls determine which connectors each user can quer
 
 **Next steps:** [Transform your support operations →](https://app.corpusiq.com/signup)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does this integrate with our ticketing system (Zendesk, Intercom, etc.)?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ supports ticketing data through database connectors and API integrations. Direct Zendesk and Intercom connectors are on the roadmap."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can AI respond to customers directly?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ is an analysis and intelligence tool, not a customer-facing chatbot. It provides agents with information to support their responses."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this handle PII and sensitive customer data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "All connections are read-only OAuth. Customer data is never stored by CorpusIQ. Access is controlled by the permissions of the authenticated user."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can we restrict which support agents can query which data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Team-level access controls determine which connectors each user can query."
-      }
-    }
-  ]
-}
-</script>
-
-
 *AI-powered AI for Customer Support | CorpusIQ MCP Platform for Suppo... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
 
 *AI-powered AI for Customer Support | CorpusIQ MCP Platform for Suppo... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---

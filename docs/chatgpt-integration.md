@@ -69,47 +69,6 @@ A: Yes. The ChatGPT integration is a one-click OAuth app for end users (chatgpt.
 **Q: Which ChatGPT plans support CorpusIQ?**  
 A: MCP support is available on ChatGPT Plus, Team, and Enterprise plans. The free tier has limited MCP capabilities.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do I connect CorpusIQ to ChatGPT?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Open ChatGPT, search for 'CorpusIQ', click Connect to authorize via OAuth, and link your CorpusIQ account. ChatGPT will have immediate read-only access to all your connected business data sources."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What can I ask ChatGPT with CorpusIQ connected?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Ask about MRR, revenue trends, top customers, marketing ROAS, order volumes, P&L statements, pipeline value, and more. Example: 'What was our MRR last month?' or 'Compare this month's revenue to last month.'"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the ChatGPT integration different from the MCP direct connection?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The ChatGPT integration is a one-click OAuth app for end users (chatgpt.com/apps). The MCP direct connection is for AI agents and developers using the MCP protocol. Both access the same data sources."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which ChatGPT plans support CorpusIQ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP support is available on ChatGPT Plus, Team, and Enterprise plans. The free tier has limited MCP capabilities."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[ChatGPT Integration with CorpusIQ](/docs/chatgpt-integration)** — Connect ChatGPT to your business data  

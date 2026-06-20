@@ -106,39 +106,6 @@ A: Revenue analysis, customer intelligence, order management, marketing analytic
 **Q: How do I get started with the AI chat?**  
 A: Go to demo.corpusiq.io, sign in with your email, connect your first data source via OAuth (Stripe, Shopify, or QuickBooks recommended), and start asking questions in plain English.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the CorpusIQ AI chat?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The CorpusIQ AI chat at demo.corpusiq.io provides natural-language access to all your connected business data. Ask questions like 'What was our MRR last month?' and get answers from live data \u2014 no SQL or coding required."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What types of questions can I ask in the AI chat?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Revenue analysis, customer intelligence, order management, marketing analytics, financial reporting, inventory tracking, and cross-source correlation \u2014 e.g., 'Compare Stripe revenue to Shopify orders for March.'"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I get started with the AI chat?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Go to demo.corpusiq.io, sign in with your email, connect your first data source via OAuth (Stripe, Shopify, or QuickBooks recommended), and start asking questions in plain English."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[ChatGPT Integration with CorpusIQ](/docs/chatgpt-integration)** — Connect ChatGPT to your business data  

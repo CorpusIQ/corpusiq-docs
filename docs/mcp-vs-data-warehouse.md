@@ -121,7 +121,6 @@ Absolutely. MCP and data warehouses are complementary. Use the warehouse for his
 MCP queries return data in the source system's native format, and the AI model interprets it. For data that requires heavy transformation to be meaningful, a warehouse remains the better approach. But for most business data — orders, invoices, CRM records, analytics — the native format is already meaningful.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -132,71 +131,7 @@ MCP queries return data in the source system's native format, and the AI model i
 - [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
 - [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP vs Data Warehouse: Why Live Query Access Changes Business Intelligence",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can MCP handle the same query complexity as a data warehouse?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP is designed for operational queries against live data. It can handle multi-source queries with joins and aggregations, but it's not optimized for the kind of massive analytical queries (scanning billions of rows, complex window functions) that data warehouses excel at. For operational business i"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does MCP store any data at all?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ's MCP architecture is stateless for business data. Query results are returned to the AI model and discarded. Tool definitions and metadata may be cached for performance, but your actual business data is never stored."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does MCP handle API rate limits from source systems?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ implements rate limit awareness \u2014 tracking the limits imposed by each source platform's API and throttling requests accordingly. This prevents queries from exceeding rate limits and triggering errors."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use MCP alongside my existing data warehouse?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely. MCP and data warehouses are complementary. Use the warehouse for historical analysis and complex reporting; use MCP for real-time operational questions and AI-powered exploration."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What about data that needs transformation before it's useful?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP queries return data in the source system's native format, and the AI model interprets it. For data that requires heavy transformation to be meaningful, a warehouse remains the better approach. But for most business data \u2014 orders, invoices, CRM records, analytics \u2014 the native format is already me"
-      }
-    }
-  ]
-}
-</script>
-
-
 *Compare MCP vs Data Warehouse: Live Query vs Batch ETL for Busine... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
-
 
 *Compare MCP vs Data Warehouse: Live Query vs Batch ETL for Busine... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
 ---

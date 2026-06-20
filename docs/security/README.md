@@ -88,39 +88,6 @@ A: Yes. CorpusIQ is strictly read-only. It queries data from connected sources, 
 **Q: What encryption does CorpusIQ use?**  
 A: HTTPS/TLS 1.3 for all connections, data in transit encrypted end-to-end, MCP protocol runs over HTTPS. All connections are encrypted with forward secrecy.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does CorpusIQ authenticate users?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI chat users use email-based authentication with secure HTTP-only cookies. AI agent users use OAuth 2.0 Device Authorization Grant (RFC 8628) with refresh token rotation. Data source connections use OAuth 2.0 with scoped, read-only permissions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is CorpusIQ data access read-only?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ is strictly read-only. It queries data from connected sources, normalizes and presents results, but never writes, modifies, or deletes data, and never initiates transactions or changes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What encryption does CorpusIQ use?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "HTTPS/TLS 1.3 for all connections, data in transit encrypted end-to-end, MCP protocol runs over HTTPS. All connections are encrypted with forward secrecy."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[CorpusIQ Architecture](/docs/architecture/README)** — MCP endpoint and connector layer design  

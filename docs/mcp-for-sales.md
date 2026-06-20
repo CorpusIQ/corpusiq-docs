@@ -133,7 +133,6 @@ Yes. CRM connections use OAuth with read-only scopes. All queries are logged for
 Yes. Connect email, calendar, support platforms, and product usage data to build a complete picture of each deal and account.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -144,79 +143,7 @@ Yes. Connect email, calendar, support platforms, and product usage data to build
 - [MCP for Operations: Workflow and KPIs](/docs/mcp-for-operations)
 - [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP for Sales: How to Connect Your Business Data to AI",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can MCP replace our CRM's reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP complements CRM reporting by enabling ad-hoc queries that standard reports don't cover. Your CRM's built-in dashboards handle standard metrics well. MCP handles the unanticipated questions and cross-source analysis."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this work with Salesforce's complex data model?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ's Salesforce connector handles the complexity \u2014 custom objects, custom fields, and relationships are all exposed as queryable tools. You don't need to understand the Salesforce data model to get answers."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can reps use this during customer meetings?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. A rep can ask \"what's the full history with this account?\" before a meeting and get a comprehensive summary of CRM activity, recent emails, and support tickets in seconds."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does forecasting with MCP compare to dedicated forecasting tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP provides data access for forecasting \u2014 pipeline values, historical conversion rates, rep-level performance. The AI model can perform basic forecast calculations. For advanced forecasting (AI-driven predictive models, scenario planning), dedicated tools like Clari or Gong may provide deeper capab"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is pipeline data secure when queried through MCP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CRM connections use OAuth with read-only scopes. All queries are logged for audit purposes. Pipeline data is queried on demand and never stored."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I connect additional data sources beyond CRM for deal intelligence?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Connect email, calendar, support platforms, and product usage data to build a complete picture of each deal and account."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
-
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 ---

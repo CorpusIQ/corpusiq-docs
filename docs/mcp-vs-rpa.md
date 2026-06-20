@@ -99,7 +99,6 @@ Yes. An RPA bot could be triggered to perform actions based on insights surfaced
 MCP's API-first approach provides better security characteristics than RPA. MCP uses OAuth with scoped permissions and operates read-only by default. RPA bots require full user credentials and can perform any action the user can — a broader security surface.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -110,71 +109,7 @@ MCP's API-first approach provides better security characteristics than RPA. MCP 
 - [Explore MCP for business operations automation](/docs/mcp-for-operations)
 - [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP vs RPA: Why API-Based Data Access Beats Fragile Screen Automation",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can MCP work with legacy systems that have no API?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP requires an API to connect to. For systems without APIs, RPA remains the appropriate solution. However, many legacy systems now offer API access \u2014 even mainframes expose REST APIs through middleware. If your system has any programmatic interface, an MCP connector can be built for it."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is MCP a replacement for RPA?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Not entirely. MCP and RPA solve different problems. MCP excels at data access and AI-powered intelligence for API-connected systems. RPA excels at automating interactions with systems that lack APIs. They're complementary technologies, not competitors."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the cost compare between MCP and RPA?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "RPA typically involves per-bot licensing ($5,000-$15,000 per bot annually), plus infrastructure and maintenance costs. MCP through CorpusIQ is a flat platform subscription regardless of query volume. For API-connected systems, MCP is significantly more cost-effective because there's no bot developme"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can RPA bots work with MCP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. An RPA bot could be triggered to perform actions based on insights surfaced through MCP. For example, MCP identifies inventory below threshold \u2192 RPA bot generates purchase orders in the legacy ERP system."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What about security and compliance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP's API-first approach provides better security characteristics than RPA. MCP uses OAuth with scoped permissions and operates read-only by default. RPA bots require full user credentials and can perform any action the user can \u2014 a broader security surface."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Compare MCP vs RPA: Intelligent API Data Access vs Scripted UI Au... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
-
 
 *Compare MCP vs RPA: Intelligent API Data Access vs Scripted UI Au... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
 ---

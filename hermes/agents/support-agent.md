@@ -129,55 +129,6 @@ The agent checks every 30 minutes for tickets approaching breach. At **50% of SL
 
 The agent clusters tickets with **similar keywords or error messages**. When 3+ tickets match within 4 hours, it flags a trending issue on Slack with the common pattern, affected customers, and suggested KB article or escalation path.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does the Hermes Support Agent do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Hermes Support Agent autonomously triages tickets, searches knowledge bases, drafts responses, monitors SLA compliance, and detects trending issues from ticket clusters."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does ticket triage work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Every 5 minutes during business hours, the agent scans unassigned tickets, classifies them by type, checks priority against customer tier, and routes to the appropriate team."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can the agent write responses to customers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. For low-complexity tickets, the agent drafts complete responses from knowledge base articles and past tickets. Human agents review and send — the agent never sends without approval."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does SLA monitoring work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agent checks every 30 minutes for tickets approaching breach with escalating alerts: 50% SLA = reminder, 75% = team lead notification, 90% = manager alert, post-breach = post-mortem draft."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is trending issue detection?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agent clusters tickets with similar keywords or error messages. When 3+ tickets match within 4 hours, it flags a trending issue with the common pattern, affected customers, and suggested resolution."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Agent Library — All 9 Role Configurations](/hermes/agents/)
@@ -186,9 +137,7 @@ The agent clusters tickets with **similar keywords or error messages**. When 3+ 
 - [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

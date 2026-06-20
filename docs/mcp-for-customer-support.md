@@ -141,7 +141,6 @@ CorpusIQ connects to major helpdesk platforms. Contact CorpusIQ for current plat
 Yes. A support manager can quickly query "show me the history and full context for this escalated ticket" to provide informed coaching to an agent handling a difficult case.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -152,71 +151,7 @@ Yes. A support manager can quickly query "show me the history and full context f
 - [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
 - [MCP for Enterprise: Multi-Department Deployment](/docs/mcp-for-enterprise)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP for Customer Support: How to Connect Your Business Data to AI",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can MCP replace our helpdesk reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP complements helpdesk reporting by enabling ad-hoc queries and cross-source analysis. Your helpdesk's built-in reports handle standard metrics. MCP handles the questions that span multiple systems \u2014 support plus CRM plus product data."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does sentiment analysis work with MCP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP provides ticket data access. The AI model can analyze ticket text for sentiment patterns. For advanced NLP-based sentiment analysis at scale, dedicated tools may provide deeper capabilities."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can MCP help reduce ticket volume?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Indirectly, yes. By identifying knowledge base gaps, surfacing common issues for product fixes, and enabling root-cause analysis, MCP helps you address the sources of ticket volume."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which helpdesk platforms does CorpusIQ support?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ connects to major helpdesk platforms. Contact CorpusIQ for current platform support details. Custom connector development is available for enterprise customers."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use MCP for real-time support coaching?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. A support manager can quickly query \"show me the history and full context for this escalated ticket\" to provide informed coaching to an agent handling a difficult case."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
-
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 ---

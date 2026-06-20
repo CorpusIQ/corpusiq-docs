@@ -104,55 +104,6 @@ The [Copy-Paste Cron Templates](workflows/templates.md) are designed for **deplo
 
 The community grows stronger with every documented use case. If you've built a Hermes automation that solved a real problem, consider [submitting it as a contribution](/hermes/contributors.md). Include your cron schedule, skill description, data sources, and the business problem it solves.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What are Hermes Agent outputs and implementation guides?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The outputs section provides real-world, production-tested implementation patterns: industry case studies, company-size deployment guides, and copy-paste cron templates with exact schedules, skills, and connectors."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I find the right implementation guide for my industry?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Navigate to the By Industry section and find your sector. Each case study includes specific workflows, compliance requirements, and tool integrations. Cross-domain patterns also apply."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does it take to implement the workflow templates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Copy-Paste Cron Templates are designed for deployment in under an hour. Copy the YAML, create the skill file, adjust thresholds, and test before enabling."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the difference between case studies and workflow templates?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Case studies are comprehensive industry guides covering multiple workflows. Workflow templates are individual, ready-to-deploy cron+skill combinations that serve as building blocks."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I contribute my own implementation patterns?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Submit your Hermes automation as a contribution with cron schedule, skill description, data sources, and the business problem it solves."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Copy-Paste Cron Templates — Deploy in Minutes](workflows/templates.md)
@@ -161,9 +112,7 @@ The community grows stronger with every documented use case. If you've built a H
 - [Cron Scheduling Guide — 38 Production Crons](/hermes/governance/scheduling/)
 - [Contributor Guide — Share Your Patterns](/hermes/contributors.md)
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

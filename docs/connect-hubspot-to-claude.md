@@ -117,76 +117,11 @@ Yes. Every Claude query triggers a fresh API call to HubSpot.
 OAuth scopes control access at the object level. For property-level restrictions, use HubSpot's permission sets to limit what the OAuth app can access.
 </details>
 
-
 ---
 
 **Next steps:** [Connect HubSpot to Claude now →](https://app.corpusiq.com/connect/hubspot)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can Claude create or update HubSpot records?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The integration is read-only. Claude can analyze and report on CRM data but cannot modify it."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which HubSpot hubs does this support?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The integration supports contacts, companies, and deals across all HubSpot tiers. Marketing Hub and Service Hub objects may require additional scope configuration."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many HubSpot accounts can I connect?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can connect multiple HubSpot accounts through CorpusIQ, each with independent permissions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the data real-time?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Every Claude query triggers a fresh API call to HubSpot."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I restrict which properties Claude can see?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "OAuth scopes control access at the object level. For property-level restrictions, use HubSpot's permission sets to limit what the OAuth app can access."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect HubSpot to Claude via MCP — Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect HubSpot to Claude via MCP — Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

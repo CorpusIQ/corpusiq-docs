@@ -42,9 +42,7 @@ Auto-registers as agent tools. Use in prompts: "Check my inbox for unread messag
 - Large attachments require base64 decoding.
 - Gmail API quotas: 250 quota units per user per second for reads.
 
-
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 ---

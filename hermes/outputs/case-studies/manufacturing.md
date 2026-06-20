@@ -177,55 +177,6 @@ Yes. Hermes can start with a single database connection to your ERP and one aler
 
 If your MES has SQL database access (PostgreSQL or MSSQL), Hermes connects directly via database connectors. For API-based MES platforms, custom API connectors can be configured.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What manufacturing systems does Hermes connect to?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes connects to ERP systems (SAP, Oracle, Microsoft Dynamics, Odoo) via database connectors, MES platforms, CMMS maintenance systems, quality databases (LIMS, SPC software), and IoT sensor data stores."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes predict equipment failures?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes applies threshold-based monitoring to IoT sensor data — vibration, temperature, current draw — and alerts on trending patterns that indicate impending failure. This is practical predictive maintenance without requiring dedicated analytics platforms."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes handle supplier quality tracking?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes tracks defect rates by supplier over rolling time windows, applies statistical process control rules, and flags deteriorating trends. Weekly reports prioritize suppliers whose quality issues have the highest business impact."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is Hermes suitable for small manufacturing shops?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hermes can start with a single database connection to your ERP and one alert. Scale gradually as you identify additional pain points. No dedicated IT team required."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes integrate with my existing MES?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If your MES has SQL database access (PostgreSQL or MSSQL), Hermes connects directly via database connectors. For API-based MES platforms, custom API connectors can be configured."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce.md) — Inventory synchronization and multi-channel management
@@ -234,9 +185,7 @@ If your MES has SQL database access (PostgreSQL or MSSQL), Hermes connects direc
 - [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security and governance at scale
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

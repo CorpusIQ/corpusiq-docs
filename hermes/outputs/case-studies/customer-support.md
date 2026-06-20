@@ -202,55 +202,6 @@ Yes. Hermes searches recent tickets for matching customer identity and similar i
 
 No. Hermes automates classification, routing, knowledge retrieval, and monitoring — the mechanical work. Your agents remain essential for complex troubleshooting, empathetic communication, and escalations that require human judgment.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What ticketing systems does Hermes connect to?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes connects to HubSpot Service Hub, LeadConnector, and any ticketing system with SQL database access or API. It layers intelligence on top of your existing tools — it doesn't replace your ticketing platform."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes automatically respond to support tickets?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For high-confidence pattern matches, Hermes can auto-respond with knowledge base articles and resolution steps. Unknown or low-confidence issues should route to human agents."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes handle SLA monitoring?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes checks open tickets every 10 minutes, calculates time-to-resolution against SLA targets, and escalates at 50%, 75%, and 90% thresholds with weekly trend analysis identifying systemic issues."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes detect duplicate support tickets?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hermes searches recent tickets for matching customer identity and similar issue descriptions, then links duplicates with a master ticket to prevent independent work on the same issue."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does Hermes replace my support team?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Hermes automates classification, routing, knowledge retrieval, and monitoring. Your agents remain essential for complex troubleshooting, empathetic communication, and escalations requiring human judgment."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md) — Pipeline management and customer health tracking
@@ -259,9 +210,7 @@ No. Hermes automates classification, routing, knowledge retrieval, and monitorin
 - [Hermes Agent for Mid-Market](../by-company-size/mid-market.md) — Multi-team support orchestration
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

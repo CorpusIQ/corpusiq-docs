@@ -139,58 +139,7 @@ A: No — it amplifies them. AI handles routine and ad-hoc analysis, freeing dat
 
 **Next steps:** [Start AI-powered data analysis →](https://app.corpusiq.com/signup)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can AI handle complex statistical analysis?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Claude can perform regression analysis, correlation analysis, cohort analysis, significance testing, trend decomposition, and distribution analysis. For advanced statistical modeling, supplement with specialized tools like R or Python."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this work with large datasets (millions of rows)?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ queries databases directly using SQL. Claude designs efficient queries. For very large datasets, database-level aggregation and sampling ensure reasonable performance."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What databases are supported?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "PostgreSQL, Microsoft SQL Server, MongoDB, and Azure Cosmos DB natively. Other databases accessible via standardized connection strings may work through the PostgreSQL connector."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can AI modify data in my databases?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. All database connections are read-only. Claude can query and analyze data but can never insert, update, or delete records."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this replace my data team?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No \u2014 it amplifies them. AI handles routine and ad-hoc analysis, freeing data professionals for advanced modeling, data engineering, and strategic analytics."
-      }
-    }
-  ]
-}
-</script>
-
-
 *AI-powered AI for Data Analysis | CorpusIQ MCP Platform for Analytics — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
 
 *AI-powered AI for Data Analysis | CorpusIQ MCP Platform for Analytics — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---

@@ -203,55 +203,6 @@ No. Hermes layers intelligence on top of your existing CRM, marketing automation
 
 A dedicated operations profile monitors all other profiles' cron executions, alerts on skill failures, and provides a central dashboard of automation health. This profile is typically managed by IT or RevOps.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How many Hermes profiles does a mid-market company need?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Start with 2-3 profiles (marketing, sales, operations monitoring) at 50 employees, growing to 5-7 profiles at 200 employees. Each department gets its own isolated profile with dedicated credentials and cron schedules."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can different departments share data sources?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The CRM, billing system, and company database are connected across multiple profiles. Use read-only credentials scoped to each profile's specific needs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do approval workflows work in Hermes?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Skills produce recommendations that route to Slack with approve/deny options. Approved actions execute in follow-up skill runs, and all approvals are logged for audit trails."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does Hermes replace our existing tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Hermes layers intelligence on top of your existing CRM, marketing automation, billing, and analytics tools. It connects them rather than replacing them."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do we monitor that Hermes is running correctly?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A dedicated operations profile monitors all other profiles' cron executions, alerts on skill failures, and provides a central dashboard of automation health."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent for Startups](../by-company-size/startup.md) — Lean automation for early-stage companies
@@ -260,9 +211,7 @@ A dedicated operations profile monitors all other profiles' cron executions, ale
 - [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Multi-channel ticket triage and SLA management
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

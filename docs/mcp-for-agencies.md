@@ -131,7 +131,6 @@ Yes. Custom prompts let you define report templates that apply your agency's spe
 Agency pricing is designed to scale predictably. Contact CorpusIQ for agency-specific pricing that accommodates portfolio growth without per-client add-on costs.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -142,79 +141,7 @@ Agency pricing is designed to scale predictably. Contact CorpusIQ for agency-spe
 - [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
 - [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP for Agencies: How to Connect Your Business Data to AI",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How do you keep client data separate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Each client's data source connections are cryptographically isolated. Client A's Shopify token cannot access Client B's data. The isolation is at the infrastructure level, not through application logic that could be misconfigured."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can clients access their own data through the platform?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ supports client-specific access where each client can query their own data without seeing other clients. This is useful for agencies that want to offer self-service analytics as a client benefit."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the onboarding process for a new client?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agency sends the client OAuth authorization links for each relevant platform. The client authorizes access (read-only by default). Once authorized, the agency can immediately query the client's data. Total time: typically 15-30 minutes per client."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does reporting work when clients use different platforms?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP's tool discovery mechanism abstracts the underlying platform differences. A \"revenue\" query works whether the client uses Shopify, Stripe, or QuickBooks \u2014 the MCP server routes to the appropriate connector for each client."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can we build custom report templates that reflect our agency's methodology?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Custom prompts let you define report templates that apply your agency's specific frameworks, terminology, and formatting. These templates are reusable across all clients."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does pricing work for agencies with growing client lists?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Agency pricing is designed to scale predictably. Contact CorpusIQ for agency-specific pricing that accommodates portfolio growth without per-client add-on costs."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
-
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 ---

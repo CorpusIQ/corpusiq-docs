@@ -143,7 +143,6 @@ A: No. CorpusIQ translates natural language to API calls, not SQL. For complex m
 **Q: How does security compare?**  
 A: Warehouses offer centralized access control. CorpusIQ inherits permissions from source systems. Both are enterprise-grade; the choice depends on your governance model.
 
-
 ## Get Started with CorpusIQ vs Data Warehouses — MCP Live Query vs Stored Data
 
 Ready to put AI to work on your corpusiq vs data warehouses — mcp live query vs stored data data? 
@@ -154,7 +153,6 @@ Ready to put AI to work on your corpusiq vs data warehouses — mcp live query v
 4. **Scale your usage** — add team members, connect more sources, and automate recurring reports.
 
 **[Get started now →](https://app.corpusiq.com/signup)**
-
 
 ## Internal Links
 
@@ -167,70 +165,6 @@ Ready to put AI to work on your corpusiq vs data warehouses — mcp live query v
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 - [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity/)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can CorpusIQ replace Snowflake?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For AI-powered business queries \u2014 yes. For formal BI reporting, historical analysis, and ML \u2014 no. They solve different problems."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I still need a data warehouse if I use CorpusIQ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Depends on your needs. If you require formal BI dashboards, regulatory data retention, or ML training sets, a warehouse is still necessary. If your primary need is AI-powered business questions, CorpusIQ may be sufficient."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does query performance compare?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Warehouses are optimized for scanning billions of rows. CorpusIQ is optimized for the API calls that answer business questions. For a question like \"show me top 10 customers by revenue,\" both return results in seconds \u2014 but CorpusIQ doesn't require data to be loaded into the warehouse first."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I query historical data with CorpusIQ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ queries what the source API provides. If HubSpot's API returns 2 years of deal history, that's what you get. For longer historical analysis, a warehouse is necessary."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the data in CorpusIQ as reliable as warehouse data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ queries live sources \u2014 so the data is exactly what's in your operational systems. Warehouses have data that's been transformed, cleaned, and validated. Both are reliable; they just represent slightly different versions of truth (operational vs analytical)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I run complex SQL with CorpusIQ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. CorpusIQ translates natural language to API calls, not SQL. For complex multi-table joins and window functions, a warehouse is the right tool."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does security compare?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Warehouses offer centralized access control. CorpusIQ inherits permissions from source systems. Both are enterprise-grade; the choice depends on your governance model."
-      }
-    }
-  ]
-}
-</script>
 ---
 
 *

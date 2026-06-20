@@ -136,58 +136,7 @@ A: Grant CorpusIQ access only to specific channels by configuring your Slack app
 
 **Next steps:** [Connect Slack to Claude now →](https://app.corpusiq.com/connect/slack)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can Claude read direct messages or private channels?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Claude can only access public channels and private channels it has been explicitly added to. Direct messages are never accessible."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Claude send messages to Slack?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The integration is strictly read-only."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How far back can Claude search?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Claude can search your entire message history, subject to your Slack workspace's retention settings."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this work with Slack Enterprise Grid?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The OAuth flow works across all Slack plans."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I restrict which channels Claude can search?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Grant CorpusIQ access only to specific channels by configuring your Slack app's channel scope during OAuth."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect Slack to Claude | CorpusIQ MCP Integration for Te... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect Slack to Claude | CorpusIQ MCP Integration for Te... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

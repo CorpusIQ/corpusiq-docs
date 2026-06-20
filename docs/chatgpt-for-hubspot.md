@@ -107,7 +107,6 @@ CorpusIQ bills based on tool calls to HubSpot's API. Typical queries use 1-3 too
 ### Can my entire sales team use this?
 Yes. Through CorpusIQ's team accounts, multiple users can connect to the same HubSpot portal. Role-based access controls on Business and Enterprise plans ensure each user sees only the data appropriate for their role.
 
-
 ## Get Started with ChatGPT for HubSpot
 
 Ready to put AI to work on your chatgpt for hubspot data? 
@@ -118,7 +117,6 @@ Ready to put AI to work on your chatgpt for hubspot data?
 4. **Scale your usage** — add team members, connect more sources, and automate recurring reports.
 
 **[Get started now →](https://app.corpusiq.com/signup)**
-
 
 ## Internal Links
 
@@ -136,98 +134,7 @@ ChatGPT for HubSpot through CorpusIQ transforms how your team interacts with CRM
 
 **[Connect HubSpot to ChatGPT](/get-started) and ask your first CRM question in under 5 minutes.**
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is my HubSpot data secure?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ uses OAuth 2.0 with read-only access to your HubSpot portal. Your CRM data is queried in real time and never stored on CorpusIQ servers. All communication is encrypted with TLS 1.3."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT modify my HubSpot data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The connection is read-only. ChatGPT can analyze your pipeline, identify risks, and recommend actions — but it cannot create deals, modify contacts, update stages, or change any CRM data. Your team retains full control."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What HubSpot data can ChatGPT access?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ChatGPT can access contacts, companies, deals, pipelines, and engagement data. Through CorpusIQ's multi-source capabilities (Pro/Enterprise), you can also connect HubSpot marketing data (campaigns, emails, forms) for closed-loop marketing-to-sales analytics."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which HubSpot hubs are supported?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ supports Sales Hub, Marketing Hub, and Service Hub data. The specific tools available depend on your HubSpot subscription level. Contact records, companies, and deals are available across all tiers that include CRM access."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is this different from HubSpot's built-in reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "HubSpot's report builder requires you to know what you're looking for and how to configure reports. ChatGPT lets you ask open-ended questions: \"Why did our win rate drop this quarter?\" — the AI investigates multiple potential causes (deal stage bottlenecks, competitive losses, rep performance) and p"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use this for sales coaching?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Managers can ask: \"Analyze [rep name]'s pipeline — deal velocity by stage, win rate by deal size, common loss reasons, and activity patterns. What specific improvements would most impact their quota attainment?\" AI-powered coaching insights based on actual CRM data."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this work with custom HubSpot properties?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. ChatGPT discovers your custom properties dynamically. If you have custom deal fields, contact properties, or company attributes, the AI can filter, group, and analyze by them just like standard fields."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I track deals across multiple pipelines?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. If your HubSpot has multiple pipelines (e.g., new business, renewal, partner), ChatGPT can analyze each independently or provide consolidated views. Specify the pipeline in your query: \"Show me the renewal pipeline for Q4.\""
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does billing work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ bills based on tool calls to HubSpot's API. Typical queries use 1-3 tool calls. Most plans support hundreds of queries per month. You also need a ChatGPT Plus, Team, or Enterprise subscription."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can my entire sales team use this?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Through CorpusIQ's team accounts, multiple users can connect to the same HubSpot portal. Role-based access controls on Business and Enterprise plans ensure each user sees only the data appropriate for their role."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect ChatGPT for HubSpot — AI CRM Analytics & Sales Intelligen... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect ChatGPT for HubSpot — AI CRM Analytics & Sales Intelligen... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

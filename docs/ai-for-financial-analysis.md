@@ -138,58 +138,7 @@ A: Upload spreadsheets and financial models to Google Drive, OneDrive, or ShareP
 
 **Next steps:** [Connect your financial tools →](https://app.corpusiq.com/connect)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can AI handle complex financial calculations like NPV or IRR?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Claude can perform financial calculations when provided with the underlying cash flow data from your connected systems. For standardized metrics, CorpusIQ's metric specs ensure consistent calculations."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this compare to FP&A software like Adaptive Insights or Anaplan?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ complements FP&A tools by providing on-demand, conversational access to live financial data across all systems. FP&A tools excel at planning and modeling; CorpusIQ excels at instant answers and cross-source intelligence."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this suitable for publicly traded companies with SOX requirements?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ is SOC 2 compliant with read-only architecture. No transactions can be modified. Companies should evaluate within their SOX control framework, but the read-only nature of all integrations means no financial data can be altered."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I restrict which team members can query financial data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ supports team-level access controls. Finance leadership can control who has access to financial connectors."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What about data from Excel models and offline sources?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Upload spreadsheets and financial models to Google Drive, OneDrive, or SharePoint and connect them through CorpusIQ's file storage connectors."
-      }
-    }
-  ]
-}
-</script>
-
-
 *AI-powered AI for Financial Analysis | CorpusIQ MCP Platform for Fin... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
 
 *AI-powered AI for Financial Analysis | CorpusIQ MCP Platform for Fin... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---

@@ -128,50 +128,7 @@ Follow [cron design best practices](cron-design.md): make every cron idempotent,
 
 Start where you are, automate what hurts most, and share what you learn. The rest follows.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the most important Hermes Agent best practice?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Start with least-privilege access (read-only) and add write capabilities only when needed with explicit approval gates. This single practice prevents the majority of Hermes Agent production incidents."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I know if my Hermes Agent setup is production-ready?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Check against the maturity model. At minimum, have structured logging, error handling with retries, approval gates on writes, and at least one week of error-free operation before considering a deployment production-ready."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Should I use local or cloud AI models for production?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use a hybrid approach: local models for classification, extraction, and routine tasks (free, private); cloud models for complex reasoning. The model selection guide provides detailed task-to-model mapping."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I prevent Hermes Agent cron jobs from causing problems?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Follow cron design best practices: make every cron idempotent, implement retry with backoff, alert on persistent failure (3+ consecutive failures), never run unbounded database queries, and always include a dry-run mode."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

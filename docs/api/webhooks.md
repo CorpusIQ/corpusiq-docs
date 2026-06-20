@@ -158,39 +158,6 @@ A: All webhook deliveries are signed with HMAC-SHA256 using a per-endpoint signi
 **Q: What happens when a webhook delivery fails?**  
 A: Failed deliveries are retried with exponential backoff: 60s → 5min → 15min → 1hr. Configure your endpoint to handle duplicate deliveries by checking the event ID.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What events do CorpusIQ webhooks support?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Currently, CorpusIQ webhooks fire the user.deleted event when a user's data is permanently deleted via the /delete_my_data endpoint. Additional event types are on the roadmap."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How are webhook payloads secured?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "All webhook deliveries are signed with HMAC-SHA256 using a per-endpoint signing secret. The signature is included in the CorpusIQ-Signature header for verification."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens when a webhook delivery fails?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Failed deliveries are retried with exponential backoff: 60s \u2192 5min \u2192 15min \u2192 1hr. Configure your endpoint to handle duplicate deliveries by checking the event ID."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  

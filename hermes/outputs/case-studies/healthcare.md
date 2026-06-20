@@ -159,55 +159,6 @@ Hermes enforces column-level access controls on database queries, pseudonymizes 
 
 Hermes can draft patient communications for staff review but should not send directly without approval. Automated appointment reminders are an exception — these can be configured for direct delivery through approved communication channels.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is Hermes Agent HIPAA compliant?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes Agent supports HIPAA compliance through profile isolation, minimum necessary access controls, encrypted storage, immutable audit trails, and the ability to sign Business Associate Agreements (BAAs) with cloud infrastructure providers."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What EHR systems can Hermes connect to?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes connects to any EHR with SQL database access (PostgreSQL, MSSQL) or API-based integration. Common systems include Epic, Cerner, Meditech, and Athenahealth through their respective database or API interfaces."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes automate prior authorization?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hermes skills can query pending procedures requiring prior authorization, check payer requirements, and compile submission packets. Final submission should always involve human review of clinical necessity documentation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes protect patient data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes enforces column-level access controls on database queries, pseudonymizes patient identifiers in model context, runs on encrypted infrastructure, and maintains detailed access logs for every PHI interaction."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes send automated patient communications?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes can draft patient communications for staff review but should not send directly without approval. Automated appointment reminders are an exception and can be configured for direct delivery through approved communication channels."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md) — Continuous SOC 2, HIPAA, and GDPR evidence collection
@@ -216,9 +167,7 @@ Hermes can draft patient communications for staff review but should not send dir
 - [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Patient inquiry triage and SLA management
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

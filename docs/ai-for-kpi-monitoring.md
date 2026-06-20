@@ -140,50 +140,7 @@ A: CorpusIQ provides on-demand monitoring. For automated alerts, complement with
 
 **Next steps:** [Start AI-powered KPI monitoring →](https://app.corpusiq.com/signup)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How is this different from a KPI dashboard?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Dashboards show what you've pre-built. AI answers any KPI question on demand. Dashboards are great for standard views; AI is better for ad-hoc questions, cross-source validation, and \"why\" analysis."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I define custom business-specific KPIs?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ's metric specs support custom metric definitions with expressions that can reference any connected data source."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How often are KPIs updated?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Every query triggers live API calls. KPIs reflect the current state of your systems at the moment you ask."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I get alerts when KPIs cross thresholds?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ provides on-demand monitoring. For automated alerts, complement with your existing monitoring stack or scheduled queries."
-      }
-    }
-  ]
-}
-</script>
-
-
 *AI-powered AI for KPI Monitoring | CorpusIQ MCP Platform for Metric ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
 
 *AI-powered AI for KPI Monitoring | CorpusIQ MCP Platform for Metric ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---

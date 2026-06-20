@@ -131,55 +131,6 @@ The agent tracks four key **DORA metrics**: deployment frequency, lead time for 
 
 Every Friday, the agent scans for **idle load balancers, oversized instances, unattached volumes, and reserved instance coverage gaps** — delivering a prioritized list of savings opportunities.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What does the Hermes DevOps Agent do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Hermes DevOps Agent autonomously monitors infrastructure health every 15 minutes, tracks deployment DORA metrics, analyzes logs for error patterns, manages incident response, and scans for cost optimization opportunities."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does infrastructure health monitoring work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agent checks CPU, memory, disk, and network metrics every 15 minutes, correlates anomalies with recent deployments or traffic changes, and alerts with context."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can the DevOps agent help during incidents?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. During incidents, the agent automatically pulls relevant logs from the alert window, identifies recent deployments or config changes, and drafts an incident timeline for post-mortem analysis."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What DORA metrics does the agent track?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The agent tracks deployment frequency, lead time for changes, change failure rate, and time to restore service. Daily reports show trends with week-over-week comparisons."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the agent handle cost optimization?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Every Friday, the agent scans for idle load balancers, oversized instances, unattached volumes, and reserved instance coverage gaps."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Agent Library — All 9 Role Configurations](/hermes/agents/)
@@ -189,9 +140,7 @@ Every Friday, the agent scans for **idle load balancers, oversized instances, un
 - [Database Connectors — PostgreSQL, MSSQL, MongoDB](/hermes/mcp/servers/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

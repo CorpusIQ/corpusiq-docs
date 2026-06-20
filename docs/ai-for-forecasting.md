@@ -129,42 +129,7 @@ A: With AI, continuous forecasting becomes practical. Many organizations benefit
 
 **Next steps:** [Start AI-powered forecasting →](https://app.corpusiq.com/signup)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How accurate are AI-generated forecasts?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI forecasts are as good as the data and assumptions they're based on. Claude can analyze historical patterns, apply statistical reasoning, and incorporate multiple data sources \u2014 but forecast accuracy depends on data quality and market predictability. AI doesn't predict the future; it projects base"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can AI build statistical forecasting models?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Claude can explain statistical approaches and help analyze data using regression, trend analysis, and seasonality decomposition. For advanced statistical modeling, supplement with dedicated forecasting tools."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How often should I update forecasts?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "With AI, continuous forecasting becomes practical. Many organizations benefit from weekly forecast reviews based on live data rather than monthly or quarterly cycles."
-      }
-    }
-  ]
-}
-</script>
-
-
 *AI-powered AI for Forecasting | CorpusIQ MCP Platform for Predictive... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
 
 *AI-powered AI for Forecasting | CorpusIQ MCP Platform for Predictive... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---

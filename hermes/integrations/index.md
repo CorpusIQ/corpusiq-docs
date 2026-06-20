@@ -123,9 +123,7 @@ These four integrations are examples of a generalizable pattern. You can apply t
 
 The pattern is always: **read from sources → compute/enrich/detect → write to destinations → alert on anomalies → log everything.**
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

@@ -129,55 +129,6 @@ Yes. A daily cron monitors marketplace prices across channels and flags unauthor
 
 Hermes skills can be configured with currency conversion logic and region-specific inventory pools. Database queries can segment by region, and alerts can route to regional operations teams.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What ecommerce platforms does Hermes connect to?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes connects to Shopify, WooCommerce, Magento, Amazon Seller Central, eBay, and Walmart. Additional platforms can be integrated through database connectors or custom API connectors."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes prevent overselling across channels?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes runs inventory synchronization crons every 15 minutes, comparing each channel's stock levels against the warehouse source of truth. Discrepancies trigger automatic restock pushes or alerts for cross-channel conflicts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes automate abandoned cart emails?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hermes segments abandoned carts by value tier and triggers personalized recovery sequences. High-value carts get human-reviewed drafts, mid-value carts get automated emails, and recovery rates are tracked by segment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does Hermes support MAP price monitoring?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. A daily cron monitors marketplace prices across channels and flags unauthorized discounters violating Minimum Advertised Price policies. Alerts include the specific product, channel, and price violation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes handle multi-currency and multi-region ecommerce?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes skills can be configured with currency conversion logic and region-specific inventory pools. Database queries can segment by region, and alerts can route to regional operations teams."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md) — Pipeline management and revenue reconciliation
@@ -186,9 +137,7 @@ Hermes skills can be configured with currency conversion logic and region-specif
 - [Hermes Agent for Startups](../by-company-size/startup.md) — Lean ecommerce automation for early-stage
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

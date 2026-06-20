@@ -122,7 +122,6 @@ CorpusIQ optimizes queries for performance — using aggregated analytics endpoi
 ### Is AI analytics suitable for investor or board reporting?
 Yes, with appropriate review. AI analytics can generate comprehensive board-ready narratives with supporting data. We recommend having a human review AI-generated board materials for context and strategic framing. Many companies use AI analytics to produce first drafts that their finance or strategy team refines.
 
-
 ## Get Started with Shopify AI Analytics
 
 Ready to put AI to work on your shopify ai analytics data? 
@@ -133,7 +132,6 @@ Ready to put AI to work on your shopify ai analytics data?
 4. **Scale your usage** — add team members, connect more sources, and automate recurring reports.
 
 **[Get started now →](https://app.corpusiq.com/signup)**
-
 
 ## Internal Links
 
@@ -150,98 +148,7 @@ CorpusIQ's AI Analytics for Shopify democratizes ecommerce intelligence. You don
 
 **[Start analyzing your Shopify data with AI](/get-started) — connect your store in 60 seconds.**
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What analytics capabilities does the AI have beyond Shopify's built-in reports?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The AI can perform: cohort analysis, customer lifetime value calculations, product affinity analysis (what's bought together), price elasticity estimation, inventory turnover analysis, discount sensitivity analysis, channel attribution, customer segmentation, trend forecasting, anomaly detection, an"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How accurate are AI-generated analytics?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The AI retrieves data directly from your Shopify store in real time — the numbers are as accurate as your Shopify data. The calculations (growth rates, margins, segmentation) are performed deterministically based on that data. The AI's interpretation and recommendations are analytical judgments that"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I save and schedule recurring analyses?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Through CorpusIQ, you can save analysis templates and schedule them for automated execution. \"Send me a weekly performance digest every Monday at 8 AM\" or \"Generate a monthly product performance report on the 1st.\" Available on Pro and Enterprise plans."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does AI analytics work with Shopify Plus?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Shopify Plus stores have access to additional data (like the checkout extensibility data and higher API rate limits), and CorpusIQ supports these. Enterprise analytics features are particularly valuable for Plus merchants managing high-volume stores."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I combine Shopify analytics with data from other platforms?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, through CorpusIQ's multi-source capabilities (Pro and Enterprise plans). Combine Shopify sales data with Google Ads spend for true ROAS calculation, Klaviyo email performance for channel attribution, or GA4 traffic data for conversion funnel analysis."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I know the AI isn't making up numbers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Every analytical response from CorpusIQ includes source attribution — the AI states which Shopify data it queried and how it performed calculations. You can verify any number by running the same query in your Shopify admin. CorpusIQ's data accuracy contract mandates source traceability."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the learning curve for non-technical team members?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Minimal. If someone can describe what they want to know in English, they can use AI analytics. Most teams achieve proficiency in a single orientation session. We recommend starting with pre-built query templates that teams can customize."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can the AI create visualizations?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The AI produces structured data tables that you can paste into Excel, Google Sheets, or visualization tools. For native chart generation, CorpusIQ's Enterprise plan includes direct integration with BI visualization platforms. ChatGPT's built-in chart capabilities can also visualize some data directl"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does it handle large stores with millions of orders?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ optimizes queries for performance — using aggregated analytics endpoints where available and intelligent sampling for exploratory analysis. For the largest stores, Claude's extended context window is particularly valuable for handling large analytical datasets."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is AI analytics suitable for investor or board reporting?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, with appropriate review. AI analytics can generate comprehensive board-ready narratives with supporting data. We recommend having a human review AI-generated board materials for context and strategic framing. Many companies use AI analytics to produce first drafts that their finance or strategy"
-      }
-    }
-  ]
-}
-</script>
-
-
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
-
 
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
 ---

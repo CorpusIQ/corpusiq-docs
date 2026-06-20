@@ -161,7 +161,6 @@ The MCP connector abstracts API versioning. When a source platform updates its A
 Yes. MCP is an open protocol with SDKs available. You can build custom MCP servers that expose your internal systems through the same protocol, making them accessible to any MCP-compatible AI client.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -173,71 +172,7 @@ Yes. MCP is an open protocol with SDKs available. You can build custom MCP serve
 - [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 - [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP vs Traditional API Integrations: Why AI-Native Tool Discovery Wins",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "If I already have API integrations, why switch to MCP?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You don't need to switch \u2014 MCP can complement your existing integrations. But for AI-powered business intelligence, MCP eliminates the custom code layer entirely. Instead of maintaining API integrations and then building an AI interface on top, MCP provides both in a single protocol."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can MCP handle complex API operations like pagination and filtering?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. MCP tool definitions include rich parameter schemas that support pagination, filtering, sorting, and all the complexity of modern APIs. The AI model constructs appropriate parameters based on the user's question."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What if I need to write data, not just read it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP supports write operations, but CorpusIQ defaults to read-only for safety. Write operations require explicit opt-in. For most business intelligence use cases, read-only is exactly what you need."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does MCP handle API versioning?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The MCP connector abstracts API versioning. When a source platform updates its API, the connector is updated to match. Your questions continue to work without changes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I build custom MCP tools for my proprietary systems?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. MCP is an open protocol with SDKs available. You can build custom MCP servers that expose your internal systems through the same protocol, making them accessible to any MCP-compatible AI client."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Compare MCP vs API Integrations: AI-Native Tool Discovery vs Cust... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
-
 
 *Compare MCP vs API Integrations: AI-Native Tool Discovery vs Cust... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
 ---

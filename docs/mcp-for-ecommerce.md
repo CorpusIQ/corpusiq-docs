@@ -147,7 +147,6 @@ Yes. All connections use OAuth with read-only scopes. CorpusIQ cannot modify you
 Those tools focus on marketing attribution. MCP provides broader access — marketing, yes, but also orders, inventory, customers, finances, and operations. MCP is a general-purpose query layer, not a single-purpose analytics tool.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -158,79 +157,7 @@ Those tools focus on marketing attribution. MCP provides broader access — mark
 - [Learn about MCP for financial reporting and compliance](/docs/mcp-for-finance)
 - [MCP for Small Business: Quick Setup](/docs/mcp-for-small-business)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP for Ecommerce: How to Connect Your Business Data to AI",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Which ecommerce platforms does CorpusIQ support?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ supports Shopify, Amazon Seller Central, and eBay. Support for additional platforms (WooCommerce, BigCommerce, Etsy, Walmart) is expanding."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I see real-time inventory across all channels?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Query inventory levels across Shopify, Amazon FBA, and other connected channels in a single query. \"What's our total available inventory for each SKU across all channels?\""
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does MCP handle the different data formats from different platforms?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP connectors normalize data at the connector level. Orders from Shopify, Amazon, and eBay are presented in a consistent format, so cross-channel analysis works without manual data transformation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can MCP help with Amazon PPC optimization?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Connect Amazon advertising data alongside order data to analyze which campaigns drive the most profitable sales. Compare Amazon PPC efficiency against Google and Meta ads for a complete advertising picture."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this secure for my store data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. All connections use OAuth with read-only scopes. CorpusIQ cannot modify your products, orders, or customer data. Your store data stays in your platforms and is queried on demand."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this compare to ecommerce analytics tools like Triple Whale or Northbeam?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Those tools focus on marketing attribution. MCP provides broader access \u2014 marketing, yes, but also orders, inventory, customers, finances, and operations. MCP is a general-purpose query layer, not a single-purpose analytics tool."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
-
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 ---

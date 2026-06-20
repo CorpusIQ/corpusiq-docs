@@ -129,50 +129,7 @@ A: All data is pulled from live systems via read-only API connections. Evidence 
 
 **Next steps:** [Achieve continuous audit readiness →](https://app.corpusiq.com/signup)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does this replace our external auditors?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. AI supports the audit process by providing faster access to evidence and enabling continuous readiness. External auditors still perform independent testing and issue opinions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can AI make materiality judgments?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. AI can present data that supports materiality analysis, but professional judgment about materiality should come from qualified audit professionals."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What audit frameworks does this support?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ is framework-agnostic. It supports evidence gathering for SOC 2, SOX, ISO 27001, HIPAA, PCI DSS, GDPR, and any other framework where evidence exists in connected systems."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do we ensure evidence integrity?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "All data is pulled from live systems via read-only API connections. Evidence integrity depends on the underlying system controls. CorpusIQ provides tamper-proof query logs for chain of custody."
-      }
-    }
-  ]
-}
-</script>
-
-
 *AI-powered AI for Audit Readiness | CorpusIQ MCP Platform for Audit ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
 
 *AI-powered AI for Audit Readiness | CorpusIQ MCP Platform for Audit ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---

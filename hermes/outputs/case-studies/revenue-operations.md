@@ -201,55 +201,6 @@ Hermes pulls revenue figures daily from CRM, billing, and accounting systems, th
 
 Yes. Hermes builds standard SaaS revenue waterfalls showing new business, expansion, contraction, and churn components, sourced from the billing system with CRM enrichment for segmentation by plan, cohort, and rep.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What CRM and billing systems does Hermes connect to for RevOps?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes connects to HubSpot, Close CRM, LeadConnector for pipeline data, and Stripe, QuickBooks, and Chargebee for billing and revenue data. Custom systems with SQL or API access are also supported."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes improve forecast accuracy?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes builds data-driven forecasts using stage-based probability weights and historical conversion data, then retrospectively compares forecasts to actuals to identify systematic biases by rep, team, and deal stage."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Hermes calculate sales commissions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hermes applies commission plan rules including base rates, accelerators, splits, clawbacks, draws, and guarantees. It produces per-rep statements with full audit trails and cross-checks for anomalies."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does Hermes reconcile revenue across systems?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Hermes pulls revenue figures daily from CRM, billing, and accounting systems, then identifies gaps: deals without invoices, invoices without deals, and amount discrepancies."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does Hermes track MRR/ARR for SaaS businesses?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Hermes builds standard SaaS revenue waterfalls showing new business, expansion, contraction, and churn components, sourced from the billing system with CRM enrichment for segmentation."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Agent for Financial Services](../case-studies/financial-services.md) — Transaction reconciliation and portfolio monitoring
@@ -258,9 +209,7 @@ Yes. Hermes builds standard SaaS revenue waterfalls showing new business, expans
 - [Hermes Agent for Mid-Market](../by-company-size/mid-market.md) — Multi-department RevOps orchestration
 - [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
 
-
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

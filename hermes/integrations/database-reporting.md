@@ -218,9 +218,7 @@ Design queries and destination writes to be idempotent — running the same repo
 - Connect email to deliver PDF report exports to stakeholders who prefer that format
 - Integrate with BI tools (Metabase, Looker, Tableau) by refreshing their underlying datasets
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

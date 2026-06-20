@@ -84,39 +84,6 @@ A: AI agent sends query via MCP → MCP endpoint authenticates request → Tool 
 **Q: Is CorpusIQ self-hosted or a managed service?**  
 A: CorpusIQ is a fully managed hosted service with automatic scaling and high availability. The MCP endpoint runs on production infrastructure — no servers to manage, no software to install.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the CorpusIQ system architecture?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ uses a three-layer architecture: AI clients (Claude, ChatGPT, Cursor) connect via MCP protocol to the CorpusIQ MCP endpoint, which routes queries through the connector layer to 36+ business data sources. All access is read-only via OAuth 2.0."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does data flow through CorpusIQ?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "AI agent sends query via MCP \u2192 MCP endpoint authenticates request \u2192 Tool registry maps query to connectors \u2192 Connector retrieves data from source API \u2192 Data is normalized and returned \u2192 Agent presents answer to user. All steps are logged for audit."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is CorpusIQ self-hosted or a managed service?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ is a fully managed hosted service with automatic scaling and high availability. The MCP endpoint runs on production infrastructure \u2014 no servers to manage, no software to install."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[CorpusIQ Architecture](/docs/architecture/README)** — MCP endpoint and connector layer design  

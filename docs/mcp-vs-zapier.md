@@ -127,7 +127,6 @@ Yes. CorpusIQ's setup requires only OAuth authentication — a few clicks. After
 CorpusIQ maintains the MCP connectors, so API changes are handled on the platform side. You don't need to update any workflows or field mappings. This is a significant maintenance advantage over building and maintaining your own Zaps.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -137,71 +136,7 @@ CorpusIQ maintains the MCP connectors, so API changes are handled on the platfor
 - [Discover the business benefits of MCP servers](/docs/benefits-of-mcp-for-business)
 - [Explore MCP for business operations automation](/docs/mcp-for-operations)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP vs Zapier: Why Real-Time AI Queries Beat Trigger-Based Polling for Business Intelligence",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can MCP replace Zapier entirely?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Not entirely \u2014 they serve different purposes. Zapier excels at automated actions and data movement between apps. MCP excels at real-time data access and AI-powered analysis. They're complementary tools in a modern business stack."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does MCP support triggering actions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The base MCP protocol supports write operations, but CorpusIQ defaults to read-only for data safety. For automation workflows that require write operations, Zapier or Make are better choices today. CorpusIQ focuses on the intelligence layer."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How fast are MCP queries compared to Zapier zaps?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP queries execute in seconds against live data. Zapier zaps have inherent latency from the polling interval (5-15 minutes on standard plans) plus execution time. For time-sensitive questions, MCP is significantly faster."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use MCP without technical expertise?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ's setup requires only OAuth authentication \u2014 a few clicks. After that, you interact with your data through natural language. No field mapping, no workflow configuration, no code."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if a data source changes its API?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ maintains the MCP connectors, so API changes are handled on the platform side. You don't need to update any workflows or field mappings. This is a significant maintenance advantage over building and maintaining your own Zaps."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Compare MCP vs Zapier: Real-Time AI Queries vs Polling Workflows ... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
-
 
 *Compare MCP vs Zapier: Real-Time AI Queries vs Polling Workflows ... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
 ---

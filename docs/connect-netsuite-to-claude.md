@@ -114,76 +114,11 @@ Yes, provided your TBA role has access to the relevant subsidiaries.
 Yes. Configure your NetSuite role's subsidiary restrictions — CorpusIQ honors them.
 </details>
 
-
 ---
 
 **Next steps:** [Connect NetSuite to Claude now →](https://app.corpusiq.com/connect/netsuite)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does this work with NetSuite SuiteTax and multi-currency?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The API returns transaction-level data in original currencies. Claude can present multi-currency analysis."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Claude create transactions or modify records?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The integration uses a read-only role. Zero write capability."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What NetSuite modules are supported?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The integration accesses standard record types accessible via SuiteTalk REST API: financials, inventory, orders, customers, vendors, and employees."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this work across multiple subsidiaries?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, provided your TBA role has access to the relevant subsidiaries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I restrict which subsidiaries Claude can see?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Configure your NetSuite role's subsidiary restrictions \u2014 CorpusIQ honors them."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect NetSuite to Claude via MCP — Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect NetSuite to Claude via MCP — Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

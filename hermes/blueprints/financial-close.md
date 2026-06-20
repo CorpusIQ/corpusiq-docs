@@ -293,9 +293,7 @@ This is essential for audit readiness and debugging why a number changed between
 - Integrate **tax compliance** checks — estimated tax payment adequacy, sales tax collection gaps
 - Connect to **investor reporting templates** for automatic investor update generation
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

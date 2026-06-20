@@ -129,50 +129,7 @@ A: No. AI provides data and analysis to support compliance decisions, but compli
 
 **Next steps:** [Transform your compliance operations →](https://app.corpusiq.com/signup)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does this replace our GRC platform?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ complements GRC platforms by providing on-demand access to evidence and live system data. GRC platforms manage the compliance framework; CorpusIQ provides the data connectivity to verify controls."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this suitable for SOX compliance?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ can support SOX evidence gathering and control testing through read-only access to financial systems. The platform is SOC 2 compliant. Companies should evaluate within their SOX control framework."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is compliance data secured?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "All connections are read-only OAuth. Data is never stored. Access is controlled by user permissions. All queries are logged for audit trail purposes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can AI make compliance decisions?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. AI provides data and analysis to support compliance decisions, but compliance determinations and regulatory judgments should always be made by qualified compliance professionals."
-      }
-    }
-  ]
-}
-</script>
-
-
 *AI-powered AI for Compliance | CorpusIQ MCP Platform for Regulatory ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
 
 *AI-powered AI for Compliance | CorpusIQ MCP Platform for Regulatory ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---

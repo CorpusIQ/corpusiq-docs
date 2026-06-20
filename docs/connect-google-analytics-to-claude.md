@@ -121,76 +121,11 @@ Yes. CorpusIQ supports GA4's real-time reporting API for current active user cou
 Yes. The API returns data based on the property's configured reporting identity and data filters.
 </details>
 
-
 ---
 
 **Next steps:** [Connect Google Analytics to Claude now →](https://app.corpusiq.com/connect/ga4)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Does this work with Universal Analytics (UA) or only GA4?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The integration supports Google Analytics 4 (GA4). Universal Analytics is deprecated by Google and not supported."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many GA4 properties can I connect?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can connect all GA4 properties accessible to your Google account."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is there any data sampling?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ uses the GA4 Data API which returns unsampled data for standard queries. Very large date ranges or complex queries may trigger Google's API sampling thresholds."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Claude see real-time data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ supports GA4's real-time reporting API for current active user counts."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this respect GA4 data filters?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The API returns data based on the property's configured reporting identity and data filters."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect Google Analytics to Claude via MCP — Live Data, N... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect Google Analytics to Claude via MCP — Live Data, N... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

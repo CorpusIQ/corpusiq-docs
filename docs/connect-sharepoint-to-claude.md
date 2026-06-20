@@ -157,66 +157,7 @@ A: Documents with sensitivity labels are accessible, and label metadata is prese
 
 **Next steps:** [Connect SharePoint to Claude now →](https://app.corpusiq.com/connect/sharepoint)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What file types can Claude read from SharePoint?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Claude can read Word documents (docx), PowerPoint (pptx), Excel (xlsx), PDFs, and text files stored in SharePoint document libraries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can Claude access SharePoint Online and on-premises SharePoint?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The integration supports SharePoint Online through Microsoft Graph. On-premises SharePoint is not currently supported."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this work with large document libraries (millions of files)?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ uses Microsoft Graph search APIs to efficiently find relevant documents. Claude processes only the most relevant results."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I restrict which SharePoint sites Claude can access?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Configure site collection scope during OAuth authorization or through Microsoft Entra admin consent."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this work with Teams-shared files?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Files shared in Microsoft Teams channels are stored in SharePoint and are accessible through the same integration."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What about documents protected by Azure Information Protection?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Documents with sensitivity labels are accessible, and label metadata is preserved. Claude cannot bypass encryption or rights management protections."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect SharePoint to Claude | CorpusIQ MCP Integration f... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect SharePoint to Claude | CorpusIQ MCP Integration f... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

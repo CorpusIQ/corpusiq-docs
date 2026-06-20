@@ -72,39 +72,6 @@ A: Cross-source queries let you correlate data from multiple sources in one ques
 **Q: What types of searches does CorpusIQ support?**  
 A: Single-source queries, cross-source correlation, trend analysis, date-range filtering, aggregation and summarization, and exception detection. All using natural language — no SQL required.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does CorpusIQ search work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You ask a question in plain English, CorpusIQ identifies which data sources can answer it, executes queries against relevant sources, normalizes and combines results, and presents the answer with source attribution \u2014 all in real time."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are cross-source queries?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Cross-source queries let you correlate data from multiple sources in one question. Example: 'Compare Meta Ads campaign ROAS to actual Stripe revenue' or 'Which HubSpot leads became Shopify customers?' \u2014 one question, multiple sources, one answer."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What types of searches does CorpusIQ support?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Single-source queries, cross-source correlation, trend analysis, date-range filtering, aggregation and summarization, and exception detection. All using natural language \u2014 no SQL required."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[CorpusIQ Architecture](/docs/architecture/README)** — MCP endpoint and connector layer design  

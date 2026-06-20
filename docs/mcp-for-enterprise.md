@@ -140,7 +140,6 @@ Enterprise pricing is based on the number of connected platforms, departments, a
 Enterprise customers receive 99.9% uptime SLA for the MCP query layer, with financial penalties for non-performance. Premium support with 1-hour response time is included.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -151,79 +150,7 @@ Enterprise customers receive 99.9% uptime SLA for the MCP query layer, with fina
 - [Learn about MCP for financial reporting and compliance](/docs/mcp-for-finance)
 - [Explore MCP for business operations automation](/docs/mcp-for-operations)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP for Enterprise: How to Connect Your Business Data to AI",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can CorpusIQ integrate with our existing SSO provider?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ supports SAML 2.0 and OpenID Connect, integrating with Okta, Azure AD, Ping Identity, OneLogin, and other major identity providers."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you handle data from different regions for global enterprises?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ can deploy in multiple geographic regions with data processing staying within regional boundaries. Queries against platforms in a specific region are processed by infrastructure in that region."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the typical enterprise deployment timeline?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "A departmental pilot can be running in days \u2014 SSO configuration plus OAuth connections. Full enterprise rollout with governance policies typically takes 4-8 weeks, depending on the number of departments and data sources."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can we build custom MCP connectors for our proprietary systems?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ's enterprise offering includes support for custom connector development. Your internal systems can be exposed as MCP tools alongside the standard connector library."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does pricing work for large deployments?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Enterprise pricing is based on the number of connected platforms, departments, and users. Annual contracts with volume discounts are available. Contact CorpusIQ sales for a customized proposal."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What SLAs do you provide?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Enterprise customers receive 99.9% uptime SLA for the MCP query layer, with financial penalties for non-performance. Premium support with 1-hour response time is included."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
-
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 ---

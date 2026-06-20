@@ -107,55 +107,6 @@ Yes. Deploy as many agents as you need. They run as separate Hermes profiles wit
 
 Cost varies by model and frequency. Lightweight monitoring with **Claude Haiku** costs pennies per day. Full-featured agents with **Claude Sonnet 4** may cost $1-5/day depending on frequency. See the [Model Selection Best Practices](/hermes/best-practices/model-selection.md) for optimization tips.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the Hermes Agent Library?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The Hermes Agent Library provides 9 production-ready, role-specific agent configurations with skills, MCP connectors, cron schedules, and model recommendations — ready to deploy in minutes."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I deploy a Hermes agent from this library?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Pick the agent matching your role, run the Quick-Start command, authenticate connectors, customize the cron schedule, test manually, then enable the cron."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which agent should I deploy first?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Start with the agent that solves your most painful manual process — typically Sales Agent, Marketing Agent, or Executive Agent."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I run multiple agents simultaneously?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Agents run as separate Hermes profiles with isolated skills, crons, and configurations. Chain them for cross-role workflows."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How much does running these agents cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Cost varies by model and frequency. Lightweight monitoring costs pennies per day. Full-featured agents may cost $1-5/day."
-      }
-    }
-  ]
-}
-</script>
-
 ## Related Pages
 
 - [Hermes Knowledge Hub — Architecture & Deployment](/hermes/)
@@ -165,9 +116,7 @@ Cost varies by model and frequency. Lightweight monitoring with **Claude Haiku**
 - [Canonical Facts — Store Business Definitions](/hermes/governance/)
 - [Model Selection Best Practices](/hermes/best-practices/model-selection.md)
 
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

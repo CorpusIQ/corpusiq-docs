@@ -84,7 +84,6 @@ CorpusIQ's security architecture is designed for compliance with SOC 2, GDPR, an
 CorpusIQ uses your QuickBooks default reporting basis. If your company is set to accrual, answers reflect accrual accounting. If cash basis, answers reflect cash basis. You can specify the reporting basis in your question: "Show me the P&L on a cash basis for Q2."
 </details>
 
-
 ## How It Works
 
 The architecture is clean and secure:
@@ -181,95 +180,7 @@ Setup takes under 5 minutes. No code. No CSV exports. No data warehouse configur
 - [QuickBooks Connector Reference](../connectors/quickbooks.md) — technical connector details
 - [MCP for Finance](../docs/mcp-for-finance.md) — MCP for finance teams
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "How to Connect QuickBooks to ChatGPT with CorpusIQ MCP",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What financial questions can I ask ChatGPT about QuickBooks?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Virtually any question about your financials. Examples: \"What was our P&L last quarter?\", \"Show me overdue invoices over $5,000 sorted by days overdue\", \"How much cash is on the balance sheet right now?\", \"Who are our top 10 customers by outstanding balance?\", \"What did we spend on contractors this "
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the connection work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ connects to your QuickBooks Online company file via OAuth 2.0. You authorize read-only access once, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available financial tools automatically and calls them when you ask a question. The response comes from your live QuickB"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this read-only? Can ChatGPT modify my books?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, entirely read-only. CorpusIQ requests read-only OAuth scopes from Intuit. ChatGPT can view your P&L, balance sheet, invoices, payments, customers, vendors, and chart of accounts. It cannot create invoices, record payments, modify journal entries, or alter anything in your QuickBooks file. The r"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does this work with QuickBooks Desktop?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. CorpusIQ connects to QuickBooks Online (QBO) only. QuickBooks Desktop does not expose the API endpoints required for MCP integration. If you're on QuickBooks Desktop, consider migrating to QuickBooks Online \u2014 or see our [QuickBooks connector reference](../connectors/quickbooks.md) for the full c"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do my accountant and I share access?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Multiple users can connect the same QuickBooks company file through their own CorpusIQ accounts. Each user's MCP connection is independent. Your accountant connects through their CorpusIQ account, you connect through yours. Both can ask ChatGPT questions \u2014 and both connections are read-only, so ther"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What level of QuickBooks access do I need?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You need QuickBooks Online with Admin or Company Admin access to authorize the OAuth connection. Once authorized, any user with a CorpusIQ account connected to that authorization can query the data through ChatGPT. Accountants connecting on behalf of a client should ensure they have the appropriate "
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How quickly does data update?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ queries QuickBooks through the live API. When you ask a question, the answer reflects the current state of your QuickBooks file. If someone recorded a payment 30 seconds ago, your next ChatGPT question will see it. There is no caching delay, no overnight refresh, no ETL lag."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I compare QuickBooks data with data from other tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes \u2014 this is one of MCP's strongest capabilities. \"Does our Shopify revenue match what QuickBooks shows for the same period?\" queries both platforms simultaneously. \"Show me Stripe payouts that haven't been reconciled in QuickBooks\" is a single cross-source question. See our [Benefits of MCP for Bu"
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect QuickBooks to ChatGPT via MCP — Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect QuickBooks to ChatGPT via MCP — Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

@@ -78,7 +78,6 @@ Gmail's built-in search is keyword-based and returns message lists. It doesn't r
 ChatGPT can search and read emails in response to specific questions you ask. It doesn't proactively scan your inbox. The read-only scope means it cannot modify anything. Google's OAuth consent screen shows exactly which permissions are granted. You can revoke access at any time from your Google Account security settings. The MCP connection queries live — your email data is not stored, cached, or retained by CorpusIQ after a query completes.
 </details>
 
-
 ## How It Works
 
 1. **Connect Gmail to CorpusIQ.** Dashboard → Connections → Google Workspace / Gmail → sign into Google → authorize gmail.readonly scope. Takes 2 minutes.
@@ -174,95 +173,7 @@ Under 5 minutes from signup to email intelligence in ChatGPT.
 - [CorpusIQ Security Architecture](../docs/security/README.md) — how data stays safe
 - [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md) — detailed comparison
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "How to Connect Gmail to ChatGPT with CorpusIQ MCP",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What email questions can I ask ChatGPT about Gmail?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Search questions: \"Find all emails from Acme Corp this month\", \"Search my inbox for messages about the Q3 budget\", \"Show me emails with attachments from John\", \"Find any emails about the contract renewal from the last 30 days.\" Content questions: \"What did the client say about the delivery timeline?"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the connection work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ connects to your Gmail account via Google OAuth 2.0 with read-only scopes. You authenticate with your Google account, authorize Gmail read access, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers tools for listing messages, searching with Gmail syntax, reading message cont"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the connection read-only?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ requests read-only Gmail scopes: gmail.readonly. ChatGPT can search, list, and read emails. It cannot send emails, delete messages, modify labels, change settings, or perform any write operation in your Gmail account. The read-only guarantee is enforced by the Google OAuth scope \u2014 Gmai"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What Gmail data can ChatGPT access?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Email messages with sender, recipients, subject, date, body content, and labels. Email threads with full conversation history. Attachment metadata (filenames, types, sizes \u2014 content reading is available for text-based attachments in supported formats). Gmail labels and categorization. All messages t"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does ChatGPT search Gmail \u2014 do I need to learn Gmail search syntax?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You don't need to learn Gmail search syntax, but it's available if you want precision. You can ask \"Find emails from john@example.com with attachments from this month\" in natural language, and ChatGPT constructs the equivalent Gmail search query (`from:john@example.com has:attachment newer_than:30d`"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT summarize long email threads?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes \u2014 this is one of the most powerful capabilities. \"Summarize the 40-message thread about the API migration decision\" reads the entire thread and produces a summary with key points, decision outcomes, and action items. What would take 15 minutes of reading becomes a 5-second ChatGPT answer."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT extract structured information from emails?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. \"Extract all dates, amounts, and vendor names from the invoices in my inbox this month.\" \"List all action items assigned to me from emails this week.\" \"Pull all shipping addresses from order confirmation emails.\" ChatGPT reads email content and extracts structured data from unstructured email t"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT combine Gmail data with other business tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely \u2014 this is where MCP transforms email from an isolated communication tool to a connected business intelligence source. \"Show me Gmail conversations with customers who have open HubSpot deals.\" \"Find vendor emails about invoices that match overdue QuickBooks bills.\" \"Search for client feedb"
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect Gmail to ChatGPT via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect Gmail to ChatGPT via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

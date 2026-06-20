@@ -222,9 +222,7 @@ The update should take under 30 seconds to speak aloud. Be specific about what s
 - **For sensitive communications, always review.** AI drafts are starting points — add your human judgment.
 - **Chain operations prompts.** Use "task breakdown → sprint plan → standup update" as a connected workflow.
 
-
 *From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

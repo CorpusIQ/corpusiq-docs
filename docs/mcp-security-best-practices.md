@@ -163,7 +163,6 @@ Yes. MCP servers can be deployed on-premise and connect to internal systems. In 
 CorpusIQ maintains SOC 2 Type II certification. Additional certifications are available for Enterprise customers with specific requirements.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -173,71 +172,7 @@ CorpusIQ maintains SOC 2 Type II certification. Additional certifications are av
 - [Learn about MCP for financial reporting and compliance](/docs/mcp-for-finance)
 - [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP Security Best Practices: How to Safely Connect Business Data to AI",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can CorpusIQ employees see my business data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Query results are held in memory and discarded after returning to the AI model. CorpusIQ's operations team has no access to query contents. The stateless architecture means there's nothing to see."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens to my data if I cancel my CorpusIQ account?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "All authentication tokens, configuration data, and audit logs are permanently deleted within 30 days of account cancellation. Since CorpusIQ doesn't store business data, there's no additional data to delete."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do you prevent AI models from leaking data across customers?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Each query is processed in isolation. The AI model receives only the data from the current user's query. CorpusIQ does not use customer data to train or fine-tune models."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use CorpusIQ with on-premise data sources?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. MCP servers can be deployed on-premise and connect to internal systems. In this configuration, data never leaves your network \u2014 the MCP server queries internal systems and returns results directly to the AI client."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What security certifications does CorpusIQ hold?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ maintains SOC 2 Type II certification. Additional certifications are available for Enterprise customers with specific requirements."
-      }
-    }
-  ]
-}
-</script>
-
-
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
-
 
 *[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
 ---

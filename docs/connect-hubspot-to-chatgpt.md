@@ -78,7 +78,6 @@ Custom HubSpot properties are included in contact, deal, and company objects. If
 Yes. You can connect multiple HubSpot portals to CorpusIQ. Each portal's data is isolated, and you can specify which portal to query — or ask ChatGPT to pull data across portals for multi-brand or multi-region sales analysis.
 </details>
 
-
 ## How It Works
 
 1. **Connect HubSpot to CorpusIQ.** In your CorpusIQ dashboard, click Connections → HubSpot → sign into HubSpot → select your portal → approve read-only access. Takes 2 minutes.
@@ -172,95 +171,7 @@ Under 5 minutes from signup to your first CRM query in ChatGPT.
 - [HubSpot Connector Reference](../connectors/hubspot.md) — technical details
 - [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md) — detailed comparison
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "How to Connect HubSpot to ChatGPT with CorpusIQ MCP",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What CRM questions can I ask ChatGPT about HubSpot?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Questions about contacts, deals, companies, and your pipeline. Examples: \"Pull together everything I need to know about Acme Corp\", \"How many deals are in the negotiation stage?\", \"Search HubSpot for contacts at Stripe\", \"Show me my top 10 deals by amount\", \"Which deals are closing this month?\", \"Wh"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does CorpusIQ connect HubSpot to ChatGPT?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ connects to HubSpot via OAuth 2.0 and exposes HubSpot's CRM objects as MCP tools. You authorize read-only access once (selecting which HubSpot portal to connect), then add the CorpusIQ MCP server to ChatGPT. When you ask a CRM question, ChatGPT calls the appropriate tool \u2014 contact search, d"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the connection read-only?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ requests read-only scopes from HubSpot. ChatGPT can see contacts, deals, and companies. It cannot create contacts, move deals between stages, modify company properties, or change anything in your CRM. The read-only guarantee is enforced at both the OAuth scope level and the MCP tool le"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What HubSpot objects can ChatGPT access?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Contacts with full property details and keyword search. Companies with full details. Deals with status, stage, amount, and close date. HubSpot account and portal metadata. All accessed through read-only operations \u2014 ChatGPT reads your CRM data, it never writes to it."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT combine HubSpot data with data from other tools?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. This is where MCP creates value that no single-platform dashboard can match. \"Show me all deals closing this month and cross-reference with email activity from Gmail\" combines HubSpot deal data with Gmail communication history. \"Which customers have open deals and overdue invoices?\" spans HubSp"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is this different from HubSpot's built-in AI features?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "HubSpot's AI features (like Breeze AI) are designed for specific HubSpot-native workflows \u2014 content generation, forecasting, email composition. They work within HubSpot's interface and primarily on HubSpot data alone. Connecting HubSpot to ChatGPT via MCP enables ad-hoc natural language queries acro"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What permissions do I need in HubSpot?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You need a HubSpot account with admin access to authorize the OAuth connection. Once authorized, any CorpusIQ user with access to that authorization can query the connected portal through ChatGPT. Free HubSpot accounts may have limited object scopes \u2014 some properties may not be accessible."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I search across all CRM objects at once?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "You can ask questions that span contacts, deals, and companies. \"Find every interaction with Company X \u2014 contacts, open deals, recent activity.\" ChatGPT will make multiple MCP tool calls as needed and synthesize the results. This multi-object query capability is built into the MCP architecture."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect HubSpot to ChatGPT via MCP — Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect HubSpot to ChatGPT via MCP — Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

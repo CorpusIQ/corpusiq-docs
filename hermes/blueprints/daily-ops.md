@@ -226,34 +226,7 @@ Add a weekly review on Friday afternoons that aggregates the week's reports, con
 - [Cron Design Best Practices](/hermes/best-practices/cron-design.md) — Reliable scheduling patterns
 - [Integration Examples](/hermes/integrations/) — Connect the tools this blueprint needs
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How does the Daily Operations blueprint handle data source failures?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If a data source is unavailable, the briefing still generates with N/A for that source and a clear warning. One failed data pull never blocks the entire briefing — resilience is built into every Hermes Agent blueprint stage."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I customize the Daily Operations blueprint schedule?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Adjust all cron times to match your working hours and timezone. Change the morning briefing from 7:00 AM to whenever your day starts, add or remove check-ins, and tune notification channels to your preferred platforms."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

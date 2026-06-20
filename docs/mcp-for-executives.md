@@ -139,7 +139,6 @@ Individual executives can be set up in minutes — connect their data sources th
 Yes. Generate data for investor updates, answer diligence questions during fundraising, and provide consistent metrics to investors without manual report building for each request.
 </details>
 
-
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
@@ -151,87 +150,7 @@ Yes. Generate data for investor updates, answer diligence questions during fundr
 - [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
 - [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "MCP for Executives: How to Connect Your Business Data to AI",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can MCP replace our BI tools and dashboards?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP complements BI tools by providing ad-hoc, conversational access to business data. BI dashboards handle standardized monitoring of known metrics. MCP handles exploratory questions, cross-source analysis, and the ad-hoc queries that come up in leadership discussions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I know the answers are accurate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MCP queries execute against your live business systems \u2014 the same data that powers your existing reports. The accuracy depends on the accuracy of your source systems. CorpusIQ's source-citation feature shows exactly which system provided each data point."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How is this different from asking my finance or analytics team?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It's faster and available 24/7. But it's not a replacement for your team's judgment and interpretation. MCP provides data access; your team provides the strategic context and decision-making that data supports."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I define how metrics are calculated so they're consistent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ's canonical facts feature lets you define how key metrics should be calculated \u2014 and those definitions are applied consistently across all queries. No more discrepancy between \"finance revenue\" and \"sales revenue.\""
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this secure enough for sensitive board-level data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. All connections use OAuth with read-only scopes. Data is queried on demand and never stored. Audit logs track every query. CorpusIQ maintains SOC 2 Type II certification."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long does it take to set up for an executive team?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Individual executives can be set up in minutes \u2014 connect their data sources through OAuth and start querying. Enterprise-wide deployment with SSO and governance policies typically takes 2-4 weeks."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can this help with investor communications?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Generate data for investor updates, answer diligence questions during fundraising, and provide consistent metrics to investors without manual report building for each request."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
-
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
 ---

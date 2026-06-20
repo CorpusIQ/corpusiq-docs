@@ -101,42 +101,7 @@ Frontier models like Claude Sonnet 4, GPT-4o, and DeepSeek V3 excel at code gene
 
 Revisit model choices monthly — model quality and pricing change fast.
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "When should I use local AI models vs cloud models with Hermes Agent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Use local models (Ollama) for classification, extraction, and data-sensitive tasks — free and private. Use cloud models for complex reasoning, code generation, and frontier capabilities. Most teams benefit from a hybrid approach with local as primary and cloud as fallback."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I reduce API costs with Hermes Agent model selection?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Implement caching for repeated queries, use prompt compression before expensive model calls, batch non-urgent tasks for provider discounts, and create fallback chains that try cheaper models first before escalating to frontier models."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the best AI model for code generation with Hermes Agent?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Frontier models like Claude Sonnet 4, GPT-4o, and DeepSeek V3 excel at complex code generation. For boilerplate or simple functions, smaller local models like CodeLlama or DeepSeek Coder handle it efficiently at zero API cost."
-      }
-    }
-  ]
-}
-</script>
-
-
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---

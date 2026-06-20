@@ -17,9 +17,7 @@ tags: ["corpusiq vs langchain", "langchain alternative", "mcp data connector", "
 
 [30-day free trial — no credit card →](https://www.corpusiq.io)
 
-
 *Compare CorpusIQ vs Langchain — MCP-Native vs Traditional Data Pi... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
-
 
 *Compare CorpusIQ vs Langchain — MCP-Native vs Traditional Data Pi... → [corpusiq.io](https://www.corpusiq.io) — 30-day free trial, no credit card.*
 ---

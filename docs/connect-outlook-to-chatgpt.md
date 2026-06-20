@@ -78,7 +78,6 @@ Yes — this is the core value of MCP. "Show me Outlook conversations with peopl
 Outlook's built-in search is keyword-based and returns message lists with previews. It doesn't read content and synthesize answers. With ChatGPT connected via MCP, you ask "What decision was reached about the vendor contract?" and get the answer extracted from the actual email body — not a list of messages to click through. ChatGPT reads email content, understands context, and answers questions directly rather than pointing to messages that might contain the answer.
 </details>
 
-
 ## How It Works
 
 1. **Connect Outlook to CorpusIQ.** Dashboard → Connections → Microsoft 365 / Outlook → sign into Microsoft 365 → authorize Mail.Read delegated permission. Takes 2 minutes.
@@ -176,95 +175,7 @@ Under 5 minutes from signup to enterprise email intelligence in ChatGPT.
 - [Outlook Connector Reference](../connectors/outlook.md) — technical details
 - [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md) — detailed comparison
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "headline": "How to Connect Outlook to ChatGPT with CorpusIQ MCP",
-  "author": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "CorpusIQ",
-    "url": "https://www.corpusiq.io"
-  },
-  "datePublished": "2026-06-16",
-  "dateModified": "2026-06-16",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What email questions can I ask ChatGPT about Outlook?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Search questions: \"Find all emails from the Microsoft account team this quarter\", \"Search my inbox for messages about the compliance audit\", \"Show me emails with attachments sent last week\", \"Find any emails about the contract negotiation from the Legal team.\" Content questions: \"What did the client"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does the connection work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ connects to Outlook / Exchange Online via Microsoft Graph API using OAuth 2.0 with read-only delegated permissions. You authenticate with your Microsoft 365 account, authorize Mail.Read scope, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers tools for listing messages, sea"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is the connection read-only?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. CorpusIQ requests the Mail.Read delegated permission from Microsoft Graph. ChatGPT can search, list, and read emails across folders. It cannot send emails, delete messages, move emails between folders, modify categories, or perform any write operation in your Outlook mailbox. The read-only guar"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What Outlook data can ChatGPT access?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Email messages across all folders the authenticated user has access to: Inbox, Sent Items, custom folders, and archive folders. Message properties: sender, recipients, subject, date, body content, categories, flags, and importance. Folder structure with message counts and unread counts. Mailbox meta"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT search across specific Outlook folders?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. \"Search the 'Client Projects' folder for emails about the Q3 deliverables.\" \"Show me emails from the 'Archive' folder related to the 2024 audit.\" \"What's in my 'Follow Up' folder?\" ChatGPT can target specific folders or search across all folders. The folder targeting adds precision that reduces"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does ChatGPT handle complex Outlook folder structures?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "ChatGPT can discover your folder structure \u2014 \"Show me my Outlook folders\" \u2014 and then search within specific folders. For users with extensive folder hierarchies (nested project folders, client-specific folders, year-based archives), this discovery capability means you don't need to remember exactly "
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT summarize long email threads?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. \"Summarize the 30-message thread about the enterprise license agreement\" reads the entire conversation and produces a summary with key points, decisions made, and outstanding action items. What takes 20 minutes of reading through an Outlook conversation view becomes a 5-second ChatGPT answer."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can ChatGPT extract structured data from Outlook emails?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely. \"Extract all meeting dates proposed in emails from the last week.\" \"List every budget figure mentioned in emails from the Finance department.\" \"Pull all tracking numbers from shipping confirmation emails this month.\" ChatGPT reads email content and extracts structured information \u2014 dates"
-      }
-    }
-  ]
-}
-</script>
-
-
 *Connect Connect Outlook to ChatGPT via MCP — Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
-
 
 *Connect Connect Outlook to ChatGPT via MCP — Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---

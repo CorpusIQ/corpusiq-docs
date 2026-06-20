@@ -140,55 +140,6 @@ A: Infrastructure runs on Microsoft Azure (US-based). Enterprise customers can r
 **Q: How do I report a security vulnerability?**  
 A: Report to security@corpusiq.io. CorpusIQ follows coordinated disclosure and aims to acknowledge reports within 24 hours. Do not publicly disclose before the team has addressed the issue.
 
-
-<script type="application/ld+json">
-{{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What security certifications does CorpusIQ hold?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ is CASA Tier 2 certified by DEKRA (OWASP Top 10 verified) and maintains SOC 2 Type II compliance. The platform uses AES-256 encryption at rest, TLS 1.3 in transit, and read-only OAuth for all data source connections."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does CorpusIQ store my business data?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. CorpusIQ queries your data sources on demand and discards results after returning them to the AI model. There is no persistent copy of your business data \u2014 no data warehouse, no embedding store, no cache."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does CorpusIQ handle data deletion?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The /delete_my_data endpoint permanently removes all OAuth tokens, query history, archive entries, webhook registrations, and profile data. Connector revocation removes all associated data immediately. Audit receipts are retained for 24 months."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Where is CorpusIQ infrastructure hosted?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Infrastructure runs on Microsoft Azure (US-based). Enterprise customers can request data residency options for specific geographic regions. Contact sales@corpusiq.io for details."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I report a security vulnerability?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Report to security@corpusiq.io. CorpusIQ follows coordinated disclosure and aims to acknowledge reports within 24 hours. Do not publicly disclose before the team has addressed the issue."
-      }
-    }
-  ]
-}}
-</script>
 ## Internal Links
 
 - **[CorpusIQ Quick Start Guide](/docs/quick-start)** — Go from zero to first query in 5 minutes  

@@ -137,50 +137,7 @@ A: Standard REST APIs are used, so custom CRM objects/fields accessible via API 
 
 **Next steps:** [Start your AI RevOps transformation →](https://app.corpusiq.com/signup)
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do I need a CDP or data warehouse?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. CorpusIQ queries live systems directly. No data replication needed. For organizations with existing data warehouses, database connectors can include warehouse data in queries."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How many systems can be connected?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ supports 50+ pre-built connectors. Unlimited connections per account."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I build RevOps dashboards with this?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CorpusIQ provides conversational intelligence \u2014 on-demand answers and analysis. For dashboards, complement with BI tools. For ad-hoc questions and cross-source analysis, CorpusIQ is the fastest path."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How does this handle custom objects and fields?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Standard REST APIs are used, so custom CRM objects/fields accessible via API are queryable."
-      }
-    }
-  ]
-}
-</script>
-
-
 *AI-powered AI for Revenue Operations | CorpusIQ MCP Platform for RevOps — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
-
 
 *AI-powered AI for Revenue Operations | CorpusIQ MCP Platform for RevOps — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---
