@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 19, 2026 (afternoon sweep) · **Sources:** mcp.so (22,529+ servers), mcpservers.org (9,210+ servers)
+> **Last updated:** June 20, 2026 (morning sweep) · **Sources:** mcp.so (22,544+ servers), mcpservers.org (9,228+ servers)
 
 ---
 
@@ -370,6 +370,21 @@ Official MCP server for ZenML MLOps/LLMOps pipelines. Read-only access + trigger
 ### Lightrun MCP ★ New
 Production debugging from AI agents — connect coding assistants to live runtime context without redeploying. Discover runtime sources, inspect live expression values, capture call stacks, measure execution duration, count executions, and collect numeric runtime metrics. Hosted at `https://app.lightrun.com/mcp`. Essential for operators who need AI-assisted production debugging with zero redeployment.
 
+### Agent402 ★ Featured ★ New
+Open-source, self-hostable MCP server with ~1,100 deterministic tools — web search, headless Chromium, PDFs, OCR, images, ~1,040 CPU utilities (hashing, JWT, unit conversions). x402 ecosystem: Find/Route/Leaderboard across all x402 sellers. Live data: SEC EDGAR, crypto, stocks, FRED macro, weather, geo. Agent memory with wallet-keyed KV + audit log. Free to self-host or pay-per-call. `npx -y agent402-mcp` or `https://agent402.tools/mcp`
+
+### IPRout MCP Server ★ New
+GeoIP and ASN intelligence for AI agents — country, city, timezone, network ownership, and ASN lookups. 2 tools: `lookup_ip` and `lookup_caller_ip`. Node.js 18+, IPRout API key. MIT license. `https://github.com/IProut2026/mcp-server`
+
+### overreach ★ New
+AI agent scope-creep auditor — audits code diffs against original task prompts, flags out-of-scope changes (new deps, env vars, endpoints, cron jobs, features). CI gate ready (GitHub Action). Severity-scored findings with `scope_creep_score`. `npx -y overreach`
+
+### YPipe ★ New
+Local AI desktop client + MCP orchestration engine — visual GUI or headless, Java-native, runs offline models on your own hardware with zero cloud routing. One-click MCP server installation, autonomous agent chains, model recommendation based on hardware. Cross-platform (Win/Mac/Linux). GitHub: `iunera/ypipe`
+
+### Legacy Java to Microservices Refactoring ★ New
+A community gateway to migrate legacy Jakarta EE monoliths into Spring Boot 3.4 microservices using AST parsing. Discovery gateway for a premium MCPize-hosted service. For Java enterprise operators modernizing legacy stacks.
+
 ---
 
 ## Productivity
@@ -448,6 +463,12 @@ Shared timeline that keeps you and your AI never out of sync. Everything lands i
 
 ### Scrivener MCP ★ New
 Connect Scrivener 3 writing projects to Claude, ChatGPT, and other AI assistants. 60+ tools for manuscript management, writing analysis, semantic search, character/plot memory, and content enhancement. Essential for operators who produce long-form content, documentation, or books.
+
+### OneCal Calendar MCP ★ New
+Multi-calendar MCP server — connect Google Calendar, Outlook Calendar, and iCloud Calendar through one secure server. AI assistants can read schedules, check availability, create/update/delete events. OAuth with granular scopes (read only, or full read-write). `https://mcp-server.onecal.io/mcp`. Essential for operators managing multi-platform calendars.
+
+### Appflowy MCP ★ New
+Self-hosted AppFlowy Cloud access via Docker with token-scoped, tree-shaped access control. List workspaces, navigate page trees, create/update/read pages, edit individual blocks via Yjs/CRDT. Service account + per-client Bearer tokens. Docker image: `m2n2/appflowy-mcp`. For operators who self-host AppFlowy and want AI access with fine-grained permissions.
 
 ### Atlassian Confluence MCP ★ New
 Open-source MCP server for Atlassian Confluence that lets AI assistants read, create, search, and manage Confluence wiki pages. Works with Confluence Cloud, on-premise Server, and Data Center deployments. Connect your AI coding agent to your team's knowledge base via npx. Essential for operators with Confluence-based documentation workflows.
@@ -586,6 +607,18 @@ Enable AI agents to create, manage, and optimize advertising campaigns on ChatGP
 
 ### Etymolt ★ New
 Signed trademark, domain, cultural, sound-symbolism, and pronunciation verdicts for brand names. Brand validation MCP for operators launching new products or rebranding.
+
+### SEOforGPT MCP ★ New
+AI visibility (GEO) MCP for agencies and marketing teams — audit brand visibility in AI-generated answers across 15 models, monitor competitors and cited sources, fix GEO gaps. 15 tools: visibility reports, trends, competitor intelligence, client briefs, website readiness, CMS publishing. OAuth, Streamable HTTP at `https://www.seoforgpt.io/mcp`. Essential for operators investing in AI-engine discoverability.
+
+### SyncGTM ★ New
+B2B leads and enrichment MCP — verified emails, phone numbers, LinkedIn data, and buying signals. 20+ tools with full workspace context awareness. OAuth browser sign-in, no API token to manage. `https://api.syncgtm.com/mcp`. Essential for sales operators who prospect through AI agents.
+
+### Adsumo ★ New
+Generate on-brand image and video ads from AI agents. 24 tools — brand/product setup from URL or image, image ad generation in any ratio, AI video ads (Seedance, Sora 2, Veo 3.1, Kling 2.6), competitor ad research, credit/plan management. OAuth, Streamable HTTP. `https://www.adsumo.ai/api/mcp`. Essential for operators scaling ad creative production.
+
+### Domain Deliverability Checker ★ New
+Email domain DNS deliverability scoring for AI agents — checks SPF, DKIM, DMARC, MX records, blacklist lookups, domain age, and produces a 0-100 composite score. `mammalabsdev/mcp-domain-deliverability-checker`. For email marketing operators monitoring deliverability health.
 
 ### Poppify Studio ★ New
 Photo-to-reel MCP for solo founders and SMBs. Upload 1–10 photos and get a captioned vertical reel for Instagram, TikTok, YouTube Shorts, or Facebook — with motion, library-matched music, and optional AI voiceover. Content creation MCP for operators who need social video without video editing skills.
@@ -933,14 +966,34 @@ Governed, shared, self-improving memory for AI agent fleets — built for multi-
 
 ---
 
+## New This Week (June 20, 2026 — morning sweep)
+
+### 11 new servers from mcpservers.org All + mcp.so Latest
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Agent402 ★ Featured | Dev/Infra | Open-source, self-hostable MCP server — ~1,100 tools (web search, headless Chromium, PDFs, OCR, images, ~1,040 CPU utilities). Free to self-host or pay-per-call via x402 (USDC on Base). Agent memory, SEC EDGAR, live finance/crypto/macro data. `npx -y agent402-mcp` |
+| SEOforGPT MCP ★ New | Marketing/GEO | AI visibility MCP for agencies — audit brand visibility in AI answers, monitor competitors, fix GEO gaps. 15 tools including visibility reports, competitor intelligence, client briefs, CMS publishing. OAuth, Streamable HTTP. `https://www.seoforgpt.io/mcp` |
+| SyncGTM ★ New | Marketing/Sales | B2B leads and enrichment — verified emails, phone numbers, LinkedIn data, buying signals. 20+ tools with workspace context awareness. OAuth browser sign-in. `https://api.syncgtm.com/mcp` |
+| Adsumo ★ New | Marketing/Creative | Generate on-brand image and video ads straight from prompts. 24 tools — brand setup, image ads, AI video (Seedance/Sora 2/Veo 3.1/Kling 2.6), competitor ad research. OAuth, Streamable HTTP. `https://www.adsumo.ai/api/mcp` |
+| OneCal Calendar MCP ★ New | Productivity | Multi-calendar MCP — Google, Outlook, and iCloud calendars in one server. Read schedule, check availability, create/update/delete events. OAuth with scoped permissions. `https://mcp-server.onecal.io/mcp` |
+| overreach ★ New | Dev/Infra | AI agent scope-creep auditor — audits code diffs against original task prompts, flags out-of-scope changes (new deps, env vars, endpoints, features). CI gate ready. `npx -y overreach` |
+| Appflowy MCP ★ New | Productivity | Self-hosted AppFlowy Cloud via Docker with token-scoped access. List workspaces, navigate pages, create/update/read/edit blocks. Docker image: `m2n2/appflowy-mcp` |
+| IPRout MCP Server ★ New | Dev/Infra | GeoIP and ASN intelligence for AI agents — country, city, timezone, network ownership lookups. Node.js 18+, IPRout API key. MIT license. |
+| Domain Deliverability Checker ★ New | Marketing | Email domain DNS deliverability: SPF, DKIM, DMARC, MX, blacklist, domain age, 0-100 composite score. `mammalabsdev/mcp-domain-deliverability-checker` |
+| YPipe ★ New | Dev/Infra | Local AI desktop client + MCP orchestration engine — visual GUI or headless, Java-native, runs offline models with zero cloud. One-click MCP server installation, autonomous agent chains. Cross-platform (Win/Mac/Linux). |
+| Legacy Java to Microservices ★ New | Dev/Infra | Community gateway to migrate Jakarta EE monoliths into Spring Boot 3.4 microservices via AST parsing. Discovery gateway for premium MCPize-hosted service. |
+
+---
+
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,529 (mcp.so), 9,210+ (mcpservers.org)
+- **Total MCP servers tracked:** 22,544 (mcp.so), 9,228 (mcpservers.org)
 - **Official servers:** 42+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 19 afternoon):** 8 new MCP servers from mcp.so + mcpservers.org
-- **Cumulative since June 9:** 211 MCP servers catalogued across 14 sweeps
+- **New this cycle (June 20 morning):** 11 new MCP servers from mcpservers.org + mcp.so
+- **Cumulative since June 9:** 222 MCP servers catalogued across 15 sweeps
 
 ---
 
