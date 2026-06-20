@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 20, 2026 (morning sweep) · **Sources:** mcp.so (22,544+ servers), mcpservers.org (9,228+ servers)
+> **Last updated:** June 20, 2026 (afternoon sweep) · **Sources:** mcp.so (22,544+ servers), mcpservers.org (9,228+ servers)
 
 ---
 
@@ -237,6 +237,9 @@ EU DORA compliance evidence infrastructure — 50 MCP tools across 11 servers, E
 ### Trust Gate MCP ★ New ★ Featured
 First post-quantum MCP server. Policy-gated AI agent decisions with hybrid Ed25519 + ML-DSA-65 (NIST FIPS 204) cryptographic receipts. Every tool call is policy-gated, hybrid-signed, and offline-verifiable. 4 tools: `gate_decision`, `verify_receipt`, `check_policy`, `health`. Production-ready (47 unit tests, 51 OWASP ASI checks, 0 CVEs in deps). EU AI Act Article 50 native, NSA CNSA 2.0 / NIST AI RMF / SOC 2 ready. Apache-2.0. Essential for operators in regulated industries who need cryptographically verifiable AI agent decisions with post-quantum security. `pip install trust-gate-mcp`
 
+### Averta security ★ New ★ High
+Governed MCP gateway — secure every MCP server with one gateway. Give each AI agent its own scoped MCP access, contain credentials at the gateway (agents never see raw credentials), and audit every MCP tool call. Runtime checkpoints at 5 points: request evaluation, tool exposure control, tool call approval, tool result inspection, and output filtering. OpenAI and Anthropic provider wrappers preserve native SDK shape. `@averta-security/sdk-anthropic`. Essential for enterprise operators deploying MCP at scale — addresses the core security challenge of credential containment and audit in multi-agent environments.
+
 ---
 
 ## Development & Infrastructure
@@ -382,6 +385,9 @@ AI agent scope-creep auditor — audits code diffs against original task prompts
 ### YPipe ★ New
 Local AI desktop client + MCP orchestration engine — visual GUI or headless, Java-native, runs offline models on your own hardware with zero cloud routing. One-click MCP server installation, autonomous agent chains, model recommendation based on hardware. Cross-platform (Win/Mac/Linux). GitHub: `iunera/ypipe`
 
+### Cloudgate Builder ★ New ★ High
+Build and ship live APIs from chat — Claude creates and runs real workflow-APIs in your Cloudgate workspace. Sign in once with OAuth and endpoints go live instantly. No servers to manage. Claude plugin directory integration with `cloudgate-build` skill. `https://github.com/dev-appworld/mcp`. Essential for operators who want to create and deploy APIs directly from AI agent conversations.
+
 ### Legacy Java to Microservices Refactoring ★ New
 A community gateway to migrate legacy Jakarta EE monoliths into Spring Boot 3.4 microservices using AST parsing. Discovery gateway for a premium MCPize-hosted service. For Java enterprise operators modernizing legacy stacks.
 
@@ -473,6 +479,12 @@ Self-hosted AppFlowy Cloud access via Docker with token-scoped, tree-shaped acce
 ### Atlassian Confluence MCP ★ New
 Open-source MCP server for Atlassian Confluence that lets AI assistants read, create, search, and manage Confluence wiki pages. Works with Confluence Cloud, on-premise Server, and Data Center deployments. Connect your AI coding agent to your team's knowledge base via npx. Essential for operators with Confluence-based documentation workflows.
 
+### ServiceNow MCP ★ New ★ High
+65+ tools covering the full ServiceNow REST surface — Table, Aggregate, Attachment, Import Set, Batch, CMDB/IRE, Service Catalog, Change Management, and Knowledge APIs. Includes script intelligence (read/search instance code), flow tracing with Mermaid diagrams, ATF test execution, multi-instance profiles, and self-documentation via local Markdown knowledge base. 7 authentication methods (Basic, OAuth 2.1 PKCE recommended, Client Credentials, JWT Bearer, API Key, Bearer Token, mTLS). Least-privilege controls: table allow/deny lists, global read-only mode, per-package restrictions. 20 tool packages loadable on demand. Node.js 20+. `npx servicenow-mcp-ai`. Essential for enterprise operators running ServiceNow — brings ITSM automation directly into AI agent workflows.
+
+### PDFMakerAPI ★ New ★ High
+Generate professional PDFs (invoices, receipts, documents, letters, proposals) via natural language from any MCP client. Single `create_document` tool returns a shareable link — open to preview, edit any field, and download the PDF. Hosted endpoint at `https://api.pdfmakerapi.com/mcp` (no install) or via `npx -y @pdfmakerapi/mcp`. No account or API key needed. Essential for operators who generate documents from AI workflows.
+
 ### Muxara ★ New
 Online video conversions via API — convert videos between formats directly from your AI agent. Lightweight video processing MCP for operators who need quick format conversions without heavy video editing tools.
 
@@ -500,6 +512,12 @@ Connect your AI assistant to Onboard to monitor live onboarding projects, surfac
 
 ### Sendmux Email MCP ★ Official ★ New
 Email inbox and sending API purpose-built for AI agents. Sendmux provides transactional email sending, inbox management, and email operations via MCP. Official MCP server — essential for operators who want AI agents to handle email workflows (notifications, transactional emails, inbox automation) without building custom integrations. Streamable HTTP transport.
+
+### Shipmail MCP ★ New ★ High
+Business email MCP for AI agents — custom-domain inboxes, REST API, webhooks, and full email tools (send, read, reply). Streamable HTTP transport. Built for AI agent email operations with custom-domain support. `jcoulaud/shipmail-mcp`. Essential for operators who need AI agents to manage business email through custom domains.
+
+### PieterPost MCP ★ New
+Physical mail for AI agents — prepare, price, review, pay for, and send real letters and postcards via OAuth-powered MCP. Test-mode default for safety, idempotency keys on all create operations, payment link flow (mail only sent after Stripe confirms payment). Mailbook contacts with full CRUD. 20 tools including search, fetch, quote_order, create_compose_link, create_payment_link, create_direct_order. `https://pieterpost.com/mcp/`. For operators who need to trigger physical postal mail from AI agent workflows.
 
 ---
 
@@ -619,6 +637,12 @@ Generate on-brand image and video ads from AI agents. 24 tools — brand/product
 
 ### Domain Deliverability Checker ★ New
 Email domain DNS deliverability scoring for AI agents — checks SPF, DKIM, DMARC, MX records, blacklist lookups, domain age, and produces a 0-100 composite score. `mammalabsdev/mcp-domain-deliverability-checker`. For email marketing operators monitoring deliverability health.
+
+### Company Firmographic Enricher ★ New ★ High
+Enrich company domains into structured firmographics with source provenance — employee band, industry, HQ location, founded year, revenue estimate, logo, and description. Data parsed from schema.org/Organization JSON-LD and HTML meta tags. Single `enrich_company_firmographics` tool with batch support (up to 10 domains concurrently). Apify-backed, requires Apify API token. MIT license. `npx -y @mambalabsdev/mcp-company-firmographic-enricher`. Essential for sales and marketing operators enriching company data in AI workflows.
+
+### Sociavault ★ New ★ High
+107 tools across 11 social platforms (TikTok, Instagram, YouTube, X/Twitter, LinkedIn, Facebook, Reddit, Threads, Pinterest, Twitch, TikTok Shop) + Google — all read-only. Ad library coverage (TikTok, Meta, Google, LinkedIn). Token-efficient with default trimmed responses. Zero-install via npx. Requires SociaVault API key. `npx -y sociavault-mcp`. Essential for social media operators and growth teams — brings full social media intelligence into AI agent workflows with platform-by-platform tool groups.
 
 ### Poppify Studio ★ New
 Photo-to-reel MCP for solo founders and SMBs. Upload 1–10 photos and get a captioned vertical reel for Instagram, TikTok, YouTube Shorts, or Facebook — with motion, library-matched music, and optional AI voiceover. Content creation MCP for operators who need social video without video editing skills.
@@ -966,9 +990,9 @@ Governed, shared, self-improving memory for AI agent fleets — built for multi-
 
 ---
 
-## New This Week (June 20, 2026 — morning sweep)
+## New This Week (June 20, 2026 — afternoon sweep)
 
-### 11 new servers from mcpservers.org All + mcp.so Latest
+### 11 new servers from mcpservers.org All + mcp.so Latest (morning)
 
 | Server | Category | Description |
 |--------|----------|-------------|
@@ -984,6 +1008,24 @@ Governed, shared, self-improving memory for AI agent fleets — built for multi-
 | YPipe ★ New | Dev/Infra | Local AI desktop client + MCP orchestration engine — visual GUI or headless, Java-native, runs offline models with zero cloud. One-click MCP server installation, autonomous agent chains. Cross-platform (Win/Mac/Linux). |
 | Legacy Java to Microservices ★ New | Dev/Infra | Community gateway to migrate Jakarta EE monoliths into Spring Boot 3.4 microservices via AST parsing. Discovery gateway for premium MCPize-hosted service. |
 
+### 13 NEW servers from mcpservers.org All (afternoon)
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| ServiceNow MCP ★ New ★ High | Enterprise/ITSM | 65+ tools over full ServiceNow REST surface — Table, Aggregate, Attachment, Import Set, Batch, CMDB/IRE, Catalog, Change, Knowledge APIs. Script intelligence, flow tracing, ATF runs, multi-instance profiles, Mermaid diagrams. OAuth 2.1 (PKCE), 7 auth methods. Node.js 20+. `npx servicenow-mcp-ai` |
+| Sociavault ★ New ★ High | Social Media/Intel | 107 tools across 11 social platforms (TikTok, Instagram, YouTube, X, LinkedIn, Facebook, Reddit, Threads, Pinterest, Twitch, TikTok Shop) + Google. Ad library coverage (TikTok, Meta, Google, LinkedIn). Zero-install via npx. API key. `npx -y sociavault-mcp` |
+| Averta security ★ New ★ High | Security/Gateway | Governed MCP gateway — scoped agent access, credential containment at gateway, full audit trail. Runtime checkpoints at request, tool exposure, tool call, tool result, and output. OpenAI & Anthropic wrappers. `@averta-security/sdk-anthropic` |
+| Shipmail MCP ★ New ★ High | Communication | Business email MCP for AI agents — custom-domain inboxes, REST API, webhooks, send/read/reply tools. Streamable HTTP. `https://mcpservers.org/servers/jcoulaud/shipmail-mcp` |
+| Company Firmographic Enricher ★ New ★ High | Marketing/Sales | Enrich company domains into structured firmographics (employee band, industry, HQ, founded year, revenue, logo, description) via schema.org JSON-LD. Apify-backed. `npx -y @mambalabsdev/mcp-company-firmographic-enricher` |
+| PDFMakerAPI ★ New ★ High | Productivity/Docs | Generate PDFs (invoices, receipts, documents, letters, proposals) via natural language → shareable link to preview, edit, download. Hosted endpoint or npx. No API key needed. `https://api.pdfmakerapi.com/mcp` or `npx -y @pdfmakerapi/mcp` |
+| Cloudgate Builder ★ New ★ High | Dev/API | Build and ship live APIs from chat — Claude creates and runs workflow-APIs in your Cloudgate workspace. OAuth sign-in, endpoints go live instantly. `https://mcpservers.org/servers/dev-appworld/mcp` |
+| PieterPost MCP ★ New | Communication | Physical mail for AI agents — prepare, price, review, pay for, and send real letters and postcards. OAuth-powered MCP with test-mode default, idempotency keys, payment link flow. 20 tools. `https://pieterpost.com/mcp/` |
+| Keenable Web Search ★ New | Search | Live web search and clean-markdown page fetch — works keyless by default. Time-filtered search (absolute/relative dates). OAuth optionally available. `https://api.keenable.ai/mcp` |
+| System Metrics MCP Server ★ New | Dev/Infra | Real-time system monitoring — CPU, memory, disk, and process metrics via FastMCP. `npx` or Python install. |
+| supertonic3-mcp ★ New | Dev/TTS | Local, on-device TTS for Claude & Cursor — no API key, no cloud, 10 voices, 31 languages, ~820ms on Apple Silicon. `npx -y supertonic3-mcp` |
+| AutoCAD MCP Server ★ New | Design | Production-grade AutoCAD control via MCP — draw lines, circles, rectangles, manage layers, calculate areas, export PDFs. Windows only via AutoCAD COM API. `ranvirw18/autocad-mcp-server.git` |
+| Ration Pantry Management ★ New | Consumer | AI-native kitchen MCP — pantry inventory, cook-from-stock recipes, meal plans, and shopping lists. OAuth, 35+ tools. `https://ration.mayutic.com/mcp` |
+
 ---
 
 ## Ecosystem Stats
@@ -992,8 +1034,9 @@ Governed, shared, self-improving memory for AI agent fleets — built for multi-
 - **Official servers:** 42+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 20 morning):** 11 new MCP servers from mcpservers.org + mcp.so
-- **Cumulative since June 9:** 222 MCP servers catalogued across 15 sweeps
+- **New this cycle (June 20 afternoon):** 13 new MCP servers from mcpservers.org (afternoon sweep)
+- **Today total (June 20):** 24 MCP servers catalogued (11 morning + 13 afternoon)
+- **Cumulative since June 9:** 235 MCP servers catalogued across 16 sweeps
 
 ---
 
