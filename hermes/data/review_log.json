@@ -1355,5 +1355,54 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-06-20T06:02:52.271082+00:00"
+  },
+  {
+    "repo": "kagura-agent/caduceus-experiment",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T08:03:03.591180+00:00"
+  },
+  {
+    "repo": "xiaotoulai-debug/sealos-devbox-frontend",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T08:03:03.591194+00:00"
+  },
+  {
+    "repo": "sligo-droid/hermes-agent",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T08:03:03.591196+00:00"
+  },
+  {
+    "repo": "sontakey/clawgenius-agent-ops",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T08:03:03.591198+00:00"
+  },
+  {
+    "repo": "IkarusMK/LLMConnector",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T08:03:03.591200+00:00"
+  },
+  {
+    "repo": "trionnemesis/AIhouskeeperagent",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T08:03:03.591202+00:00"
+  },
+  {
+    "repo": "halojerry/AionUi",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-20T08:03:03.591204+00:00"
   }
 ]

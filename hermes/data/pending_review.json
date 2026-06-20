@@ -5422,5 +5422,197 @@
     "near_duplicates": [],
     "discovered_at": "2026-06-20T06:02:37.996344+00:00",
     "status": "pending"
+  },
+  {
+    "name": "kagura-agent/caduceus-experiment",
+    "url": "https://github.com/kagura-agent/caduceus-experiment",
+    "description": "An AI agent raising another AI agent \u2014 Kagura (OpenClaw) \u00d7 Caduceus (Hermes)",
+    "stars": 1,
+    "forks": 1,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-06-20T08:02:00Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-20T08:02:39.633166+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "xiaotoulai-debug/sealos-devbox-frontend",
+    "url": "https://github.com/xiaotoulai-debug/sealos-devbox-frontend",
+    "description": "sealos-devbox-frontend_hermes agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-20T08:01:51Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-20T08:02:41.135593+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sligo-droid/hermes-agent",
+    "url": "https://github.com/sligo-droid/hermes-agent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-20T07:59:52Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness"
+    ],
+    "discovered_at": "2026-06-20T08:02:42.636660+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sontakey/clawgenius-agent-ops",
+    "url": "https://github.com/sontakey/clawgenius-agent-ops",
+    "description": "ClawGenius Hermes profile distribution: business ops / chief-of-staff agent",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-06-20T07:58:01Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-20T08:02:44.139273+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "IkarusMK/LLMConnector",
+    "url": "https://github.com/IkarusMK/LLMConnector",
+    "description": "Self-hosted MCP connector that gives Claude a persistent, network-local brain on your NAS: memory, a skill router, tools-as-data (call any API), an encrypted secret vault, and OAuth via your own IdP \u2014 usable from desktop & mobile, self-describing for any LLM. Hermes-style, self-hosted, secrets stay home.",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-20T07:44:34Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "KSroido/Kagi-Session2API-MCP",
+      "ruvnet/agent-harness-generator",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "CYC2002tommy/Deep-Research-Agent",
+      "mlennie/hermes-mcp",
+      "H-Ali13381/hermes-linux-ricing",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-06-20T08:02:46.581247+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "trionnemesis/AIhouskeeperagent",
+    "url": "https://github.com/trionnemesis/AIhouskeeperagent",
+    "description": "\u623f\u4ef2\u7b2c\u4e8c\u5927\u8166 \u2014 Hermes-Agent + mem0 + LINE \u7684\u623f\u4ef2 AI \u7b2c\u4e8c\u5927\u8166\uff1bSpec-Driven (STDD\u00d7VDD) + \u53f0\u7063 open data MCP + VM/GKE \u90e8\u7f72",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "fastmcp",
+      "kubernetes",
+      "line-bot",
+      "llm-agent",
+      "mcp",
+      "opendata",
+      "real-estate",
+      "taiwan",
+      "terraform"
+    ],
+    "updated_at": "2026-06-20T07:10:59Z",
+    "category": "mcp",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-20T08:02:48.084056+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "halojerry/AionUi",
+    "url": "https://github.com/halojerry/AionUi",
+    "description": "Free, local, open-source 24/7 Cowork app for OpenClaw, Hermes Agent, Claude Code, Codex, OpenCode, Gemini CLI and 20+ more CLI | Customize your assistants | Star if you like it!",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-20T08:00:45Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "screenpipe/screenpipe",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "Romanescu11/hermes-skill-factory",
+      "ruvnet/agent-harness-generator",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc"
+    ],
+    "discovered_at": "2026-06-20T08:02:51.261098+00:00",
+    "status": "pending"
   }
 ]
