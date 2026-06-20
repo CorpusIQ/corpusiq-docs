@@ -1,6 +1,6 @@
 ---
 title: Hermes Agent Production Knowledge Repository — Deploy Autonomous AI Agents
-description: "Everything the official Hermes docs don't cover. Production-tested patterns from 1,200+ hours of autonomous operations: 6-layer architecture, 133+ skills, 38 crons, 6 memory systems, 37+ MCP connectors."
+description: "Everything the official Hermes docs don't cover. Production-tested patterns from 1,200+ hours of autonomous operations: 6-layer architecture, memory systems, MCP connectors, cron scheduling, and deployment patterns."
 category: Documentation
 tags:
   - hermes-agent
@@ -45,12 +45,11 @@ last_updated: 2026-06-16
 
 The [official Hermes docs](https://hermes-agent.nousresearch.com/docs/) tell you what each feature does. They don't tell you how to run a production autonomous agent that operates a business.
 
-This repository fills that gap. Every pattern here is drawn from a real production deployment running on:
-- **NVIDIA DGX Spark** — primary compute, inference, 96+ skills
-- **Apple Mac Mini M4** — worker node, browser automation, content ops
-- **38 production crons** — email, social, video, research, governance, monitoring
-- **73+ executable skills** — marketing, development, operations, content
-- **6 memory systems** — Honcho, GBrain, memcore-cloud, GraphRAG, Dream Cycle, Session DB
+This repository fills that gap. Every pattern here is drawn from real production deployments running on:
+- **Primary compute node** — inference, orchestration, LLM routing
+- **Worker node** — browser automation, social publishing, content ops
+- **Cron scheduling** — email, social, video, research, governance, monitoring
+- **Memory systems** — semantic search, knowledge graphs, self-evolving memory
 - **195K+ stars** on the core [Hermes Agent repo](https://github.com/NousResearch/hermes-agent)
 
 **This is the repo you wish existed when you started building production agents.**
@@ -125,10 +124,10 @@ Most Hermes setups are single-machine, human-driven chat loops. Production requi
 │  GBrain · Honcho · memcore-cloud · GraphRAG · Dream Cycle   │
 ├─────────────────────────────────────────────────────────────┤
 │                   SKILLS & TOOLS                             │
-│  73+ Skills · 65 CLI Tools · MCP Infrastructure              │
+│  Skills · CLI Tools · MCP Infrastructure              │
 ├─────────────────────────────────────────────────────────────┤
 │                   INFRASTRUCTURE                             │
-│  DGX Spark · Mac Mini M4 · Browser Auto · Auth · Routing    │
+│  Multi-Machine · Browser Auto · Auth · Routing    │
 ├─────────────────────────────────────────────────────────────┤
 │                 AGENT ORCHESTRATION                          │
 │  Hermes v0.16+ · CrewAI · LangGraph · Reflexion             │
@@ -141,8 +140,8 @@ Most Hermes setups are single-machine, human-driven chat loops. Production requi
 
 | Node | Role | Hardware | Primary Workload |
 |------|------|----------|------------------|
-| **DGX Spark** | Primary | NVIDIA ARM64 | Inference, orchestration, 96+ skills, LLM routing |
-| **Mac Mini M4** | Worker | Apple Silicon 16GB | Browser automation, Postiz publishing, FFmpeg video |
+| **Primary** | Orchestration | GPU Compute | Inference, orchestration, skills, LLM routing |
+| **Worker** | Operations | Apple Silicon | Browser automation, Postiz publishing, FFmpeg video |
 
 **Why two machines?** Browser automation is noisy, GPU-hungry, and crash-prone. Offloading it to a dedicated worker keeps the primary agent stable. SSH orchestration between nodes is zero-config with Hermes profiles.
 
@@ -210,13 +209,13 @@ Hermes Agent ships with a built-in skill system. Skills are reusable, self-conta
 
 ### By Category
 
-| Category | Count | Highlights |
-|----------|-------|------------|
-| **Marketing** | 45 | SEO comparison pages, CRO optimization, ad analytics, content strategy, community engagement |
-| **Development** | 12 | GitHub PR workflows, code review, CI/CD, repo management, codebase inspection |
-| **Operations** | 8 | Email automation, cron management, system audits, lead capture |
-| **Content** | 5 | Video generation (HeyGen), social publishing (Postiz), engagement engines |
-| **Governance** | 3 | System registry, drift prevention, session handoff |
+| Category | Highlights |
+|----------|------------|
+| **Marketing** | SEO comparison pages, CRO optimization, ad analytics, content strategy, community engagement |
+| **Development** | GitHub PR workflows, code review, CI/CD, repo management, codebase inspection |
+| **Operations** | Email automation, cron management, system audits, lead capture |
+| **Content** | Video generation (HeyGen), social publishing (Postiz), engagement engines |
+| **Governance** | System registry, drift prevention, session handoff |
 
 ### Top 10 Most-Used Skills
 
@@ -294,29 +293,29 @@ We maintain CorpusIQ listings across MCP directories:
 | **Smithery** | ✅ Live | [smithery.ai](https://smithery.ai) |
 | **mcp.so** | ✅ Live | [mcp.so](https://mcp.so) |
 | **mcpservers.org** | ✅ Live | [mcpservers.org](https://mcpservers.org) |
-| **glama.ai** | ⏳ Pending | Manual browser OAuth required |
+| **glama.ai** | ✅ Listed | [glama.ai](https://glama.ai) |
 
 ---
 
 ## ⏰ Production Crons
 
-38 production crons run this agent autonomously. Here's the reference architecture:
+Production crons run this agent autonomously. Here's the reference architecture:
 
 ### Cron Categories
 
-| Category | Count | Examples |
-|----------|-------|----------|
-| **Email Operations** | 4 | Monitor (every 15m), Responder (every 30m), Forward handler, Job reply forwarder |
-| **Social Publishing** | 3 | Social posting (3x daily), Daily rotation, GitHub promotion |
-| **Content Operations** | 2 | Video pipeline (6 AM daily), Content cross-posting |
-| **Community Engagement** | 5 | Help-first commenting (6x daily), GitHub issues (4x), Channel scan, IG monitoring |
-| **Research & Discovery** | 5 | Tech research (every 6h), MCP server monitor, Skills monitor, GitHub discovery, PH RSS |
-| **Governance** | 6 | Health monitor (10 PM), Self-improvement (11 PM), Drift prevention (1 AM), Auth check, MCP directory check, Docs monitor |
-| **Memory** | 1 | GBrain dream cycle (3 AM) |
-| **Growth** | 2 | Organic discovery, Daily growth geo tools |
-| **Job Search** | 1 | Daily job search + resume generation (7 AM) |
-| **GitHub** | 2 | Issue poller (every minute), Auto-ack issues (every 6h) |
-| **Hermes Release** | 1 | Release monitor (3x daily) |
+| Category | Examples |
+|----------|----------|
+| **Email Operations** | Monitor, Responder, Forward handler, Job reply forwarder |
+| **Social Publishing** | Social posting, Daily rotation, GitHub promotion |
+| **Content Operations** | Video pipeline, Content cross-posting |
+| **Community Engagement** | Help-first commenting, GitHub issues, Channel scan, IG monitoring |
+| **Research & Discovery** | Tech research, MCP server monitor, Skills monitor, GitHub discovery |
+| **Governance** | Health monitor, Self-improvement, Drift prevention, Auth check, MCP directory check, Docs monitor |
+| **Memory** | GBrain dream cycle |
+| **Growth** | Organic discovery, Daily growth geo tools |
+| **Job Search** | Daily job search + resume generation |
+| **GitHub** | Issue poller, Auto-ack issues |
+| **Hermes Release** | Release monitor |
 
 ### Cron Schedule Map (Arizona Time)
 
@@ -357,7 +356,7 @@ We maintain CorpusIQ listings across MCP directories:
 
 ```
 ┌────────────────────────────────────────────────────────────┐
-│                      DGX SPARK (Primary)                    │
+│                      PRIMARY COMPUTE NODE                    │
 │                                                            │
 │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  │
 │  │ Hermes   │  │  CrewAI  │  │ LangGraph│  │ Reflexion│  │
@@ -521,15 +520,15 @@ From a real deployment running 24/7:
 
 | Metric | Value |
 |--------|-------|
-| **Active crons** | 28 active, 8 paused |
-| **Skills deployed** | 73+ |
+| **Active crons** | Production fleet across 10+ categories |
+| **Skills deployed** | Extensive library across marketing, dev, ops, content |
 | **MCP servers** | 2 (CorpusIQ: 53 tools, Honcho: peer memory) |
-| **Memory systems** | 6 (Honcho, GBrain, memcore-cloud, GraphRAG, Dream Cycle, Session DB) |
+| **Memory systems** | Multiple (Honcho, GBrain, memcore-cloud, GraphRAG, Dream Cycle, Session DB) |
 | **Business connectors** | 37+ (via CorpusIQ MCP) |
-| **Platforms published to** | 5 (X, LinkedIn, TikTok, Instagram, YouTube) |
-| **Email inboxes monitored** | 2 (team@ + info@) |
+| **Platforms published to** | Multiple social platforms |
+| **Email inboxes monitored** | 2 (team + customer support) |
 | **Cost optimization** | ~65% savings via multi-model routing |
-| **Uptime** | 24/7 since June 12, 2026 |
+| **Uptime** | 24/7 production since launch |
 
 ---
 
@@ -611,7 +610,7 @@ If you're building production AI agents with Hermes, this is your field manual. 
 
 ### What is the Hermes Agent Production Knowledge Repository?
 
-The **Hermes Agent Production Knowledge Repository** is the definitive field manual for running autonomous AI agents in production. Drawn from 1,200+ hours of real 24/7 deployment on DGX Spark + Mac Mini M4, it covers architecture, memory systems, skills, MCP integrations, cron scheduling, and deployment patterns — everything the [official Hermes docs](https://hermes-agent.nousresearch.com/docs/) don't cover.
+The **Hermes Agent Production Knowledge Repository** is the definitive field manual for running autonomous AI agents in production. Drawn from extensive real-world 24/7 deployment on a multi-machine architecture, it covers architecture, memory systems, skills, MCP integrations, cron scheduling, and deployment patterns — everything the [official Hermes docs](https://hermes-agent.nousresearch.com/docs/) don't cover.
 
 ### How do I deploy Hermes Agent in production?
 
@@ -619,11 +618,11 @@ Follow the [Quick Start guide](#-quick-start) for a 15-minute production setup: 
 
 ### What hardware and infrastructure does this deployment use?
 
-The documented production deployment runs on **NVIDIA DGX Spark** (primary compute, inference, 96+ skills, 21 cron jobs) and **Apple Mac Mini M4** (worker node, browser automation, social publishing). Multi-machine SSH orchestration is zero-config with Hermes profiles. See [deployment patterns](#-deployment) for the full architecture.
+The documented production deployment runs on a **multi-machine architecture** with a primary GPU compute node (inference, orchestration) and dedicated worker nodes (browser automation, social publishing). Multi-machine SSH orchestration is zero-config with Hermes profiles. See [deployment patterns](#-deployment) for the full architecture.
 
 ### How many crons and skills does the production deployment run?
 
-The deployment runs **38 production crons** across 11 categories (email ops, social publishing, content ops, community engagement, research, governance, memory, growth, job search, GitHub, release monitoring) and **73+ executable skills** across marketing, development, operations, content, and governance.
+The deployment runs **production crons** across multiple categories (email ops, social publishing, content ops, community engagement, research, governance, memory, growth, job search, GitHub, release monitoring) and an **extensive skills library** across marketing, development, operations, content, and governance.
 
 ### How do I contribute or submit a resource to the ecosystem?
 
@@ -643,7 +642,7 @@ The [official docs](https://hermes-agent.nousresearch.com/docs/) tell you **what
       "name": "What is the Hermes Agent Production Knowledge Repository?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The definitive field manual for running autonomous AI agents in production, drawn from 1,200+ hours of real 24/7 deployment covering architecture, memory, skills, MCP, cron scheduling, and deployment patterns."
+        "text": "The definitive field manual for running autonomous AI agents in production, drawn from extensive real-world 24/7 deployment covering architecture, memory, skills, MCP, cron scheduling, and deployment patterns."
       }
     },
     {
@@ -659,7 +658,7 @@ The [official docs](https://hermes-agent.nousresearch.com/docs/) tell you **what
       "name": "What hardware and infrastructure does this deployment use?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The production deployment runs on NVIDIA DGX Spark (primary compute, 96+ skills) and Apple Mac Mini M4 (worker, browser automation). Multi-machine SSH orchestration is zero-config with Hermes profiles."
+        "text": "The production deployment uses a multi-machine architecture with a primary compute node for inference and orchestration, plus dedicated worker nodes for browser automation and content operations. Multi-machine SSH orchestration is zero-config with Hermes profiles."
       }
     },
     {
@@ -667,7 +666,7 @@ The [official docs](https://hermes-agent.nousresearch.com/docs/) tell you **what
       "name": "How many crons and skills does the production deployment run?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The deployment runs 38 production crons across 11 categories and 73+ executable skills across marketing, development, operations, content, and governance."
+        "text": "The deployment runs production crons across multiple categories (email ops, social publishing, content, community engagement, research, governance, memory, growth) with an extensive skills library spanning marketing, development, operations, content, and governance."
       }
     },
     {
