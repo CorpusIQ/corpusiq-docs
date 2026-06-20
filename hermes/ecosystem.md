@@ -1768,6 +1768,7 @@ Native X/Twitter plugin for Hermes. Post, read, and interact with Twitter direct
 
 **Status:** Beta  
 **Key capabilities:** Twitter integration, native X client, social posting
+**Related:** [Hermes Tweet catalog entry](/hermes/skills/catalog/communication/hermes-tweet/)
 
 ---
 

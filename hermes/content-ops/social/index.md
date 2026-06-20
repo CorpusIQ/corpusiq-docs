@@ -37,6 +37,13 @@ Not every piece of content belongs on every platform. Here's a decision matrix:
 └──────────────┘    └──────────────┘    └──────────────┘
 ```
 
+## Hermes X/Twitter Runtime
+
+For Hermes-native X/Twitter workflows, use the
+[Hermes Tweet plugin](/hermes/skills/catalog/communication/hermes-tweet/).
+Keep reads on `tweet_read`, use `tweet_explore` for endpoint discovery, and
+enable account actions only for sessions with an explicit approval step.
+
 ## Content Rotation System
 
 A sustainable publishing cadence requires rotating content types to avoid repetition and audience fatigue.
