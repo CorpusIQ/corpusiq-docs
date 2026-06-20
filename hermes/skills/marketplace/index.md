@@ -155,6 +155,7 @@ Approved skills appear on the next marketplace update page with install commands
 
 New skills are discovered weekly through automated sweeps of skills.sh. Each discovery gets a dedicated update page:
 
+- [🆕 June 19, 2026 (Batch 2) — Infrastructure, Platform, Tools (15 repos, 20+ skills)](/hermes/skills/marketplace/new-june19-2026-batch2/)
 - [🆕 June 19, 2026 (Update) — ECC-Hermes 36-Pack, SkillSpector Vetting, AgentMint (6 repos, 60+ skills)](/hermes/skills/marketplace/new-june19-2026-update/)
 - [🆕 June 19, 2026 — AgentMesh Async Bus + Windows Native (4 skills)](/hermes/skills/marketplace/new-june19-2026/)
 - [🆕 June 18, 2026 (Final Sweep) — OpenClaw Extensions (8 skills)](/hermes/skills/marketplace/new-june18-2026-final-sweep/)
@@ -175,7 +176,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 346+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 355+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june18-2026/)*
 
