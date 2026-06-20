@@ -67,6 +67,7 @@ This repository fills that gap. Every pattern here is drawn from real production
 - [Deployment Patterns](#-deployment)
 - [Content Operations at Scale](#-content-operations)
 - [Governance & Operations](#-governance--operations)
+- [Security & Quality — SkillSpector Auditing](#-security--quality)
 - [Community Ecosystem](#-ecosystem)
 - [Contributing](#-contributing)
 
@@ -642,6 +643,41 @@ The [official docs](https://hermes-agent.nousresearch.com/docs/) tell you **what
 - [Architecture — 6-Layer Production Model](/hermes/architecture/)
 - [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
 - [Community Contributors — Join the Directory](/hermes/contributors.md)
+
+---
+
+---
+
+## 🔒 Security & Quality
+
+### SkillSpector — Automated Agent Skill Auditing
+
+Production agents accumulate skills rapidly. Each new connector, cron, and workflow increases the attack surface. **SkillSpector** is a Docker-based static analysis scanner built specifically for Hermes agent skill corpora — it audits every script, config, and prompt template across all skill directories without executing any code.
+
+**Last scan results (June 20, 2026) — 793 components across 33 skill directories:**
+
+| Severity | Count | Description |
+|----------|-------|-------------|
+| HIGH | 534 | Patterns requiring review — privilege boundaries, input validation, network access |
+| MEDIUM | 633 | Best-practice deviations — error handling, logging, configuration hygiene |
+| LOW | 56 | Style and consistency improvements |
+
+**Top categories flagged:**
+- **Privilege Escalation** — 219 patterns where a skill could exercise authority beyond its declared scope
+- **Supply Chain** — patterns in dependency handling, external script execution, and tool invocation chains
+- **Input Validation** — 89 patterns in user-input handling across MCP connectors and API boundaries
+- **Error Handling** — 156 patterns where exceptions are caught but not logged or escalated
+
+**Why this matters for production operators:**
+1. **Every skill is an execution path.** A single prompt injection in a customer-facing skill can compromise the entire agent.
+2. **Static analysis catches patterns LLMs miss.** An LLM writing a skill doesn't see privilege escalation — the scanner does.
+3. **Skills accumulate.** A corpus that starts clean degrades as contributors add new integrations without reviewing existing security boundaries.
+
+**The remediation loop:** Each scan produces a prioritized remediation queue. HIGH findings are triaged into three categories: (a) acknowledged as intentional — the skill legitimately needs expanded privilege; (b) patched via safe wrapper patterns — privilege narrowed without breaking functionality; (c) escalated for redesign — the pattern is fundamentally unsafe and requires architectural change.
+
+**For Hermes agent operators:** If you're running production crons, you need a scanner. SkillSpector is open-source and available in the [ecosystem directory](/hermes/ecosystem.md) under security tools. Run it against your own skill corpus — the results will surprise you.
+
+> **Methodology note:** Scores from static analysis are inherently broad — a scanner flags every `os.system()` call, even in a skill that legitimately manages system processes. The value is in the triage, not the raw count. The production deployment uses layered analysis: static scan → LLM semantic review → manual triage → remediation → re-scan.
 
 ---
 
