@@ -9,13 +9,13 @@ robots: "index,follow"
 ---
 # CorpusIQ Documentation
 
-One connector. 37+ business tools. Ask a plain-English question inside ChatGPT, Claude, or Perplexity and get a single verified answer sourced from QuickBooks, Shopify, HubSpot, Gmail, Stripe, GA4, and 31+ more — with citations tracing every number back to its origin. No dashboards, no CSV exports, no switching tabs. Read-only. Zero data stored.
+One connector. 38+ business tools. Ask a plain-English question inside ChatGPT, Claude, or Perplexity and get a single verified answer sourced from QuickBooks, Shopify, HubSpot, Gmail, Stripe, GA4, Xero, and 32+ more — with citations tracing every number back to its origin. No dashboards, no CSV exports, no switching tabs. Read-only. Zero data stored.
 
 ## Quick Links
 
 - [Quick Start](quick-start.md) — Go from zero to first answer in minutes
 - [API Reference](api/overview.md) — Full REST API documentation
-- [Connectors](connectors.md) — All 37+ supported integrations
+- [Connectors](connectors.md) — All 38+ supported integrations
 - [Security](security/README.md) — Architecture, encryption, compliance
 - [Changelog](changelog.md) — What's new
 

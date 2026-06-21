@@ -1,7 +1,7 @@
 site_name: CorpusIQ Docs
 site_url: https://www.corpusiq.io/docs/
 site_description: >-
-  CorpusIQ is a private AI acceleration layer that connects 37+ business tools
+  CorpusIQ is a private AI acceleration layer that connects 38+ business tools
   to ChatGPT, Claude, and Perplexity via the Model Context Protocol (MCP).
   Read-only, cited answers across your entire data stack — no data moved or stored.
 repo_url: https://github.com/CorpusIQ/corpusiq-docs
@@ -205,6 +205,12 @@ nav:
   - ChatGPT for Business Data: chatgpt-for-business-data.md
   - Secure AI for Business: secure-ai-for-business.md
   - Cross-Tool Business Intelligence: cross-tool-business-intelligence.md
+- Worldwide:
+  - AI for UK Business: uk-ai-for-business.md
+  - IA pour Entreprises Françaises: fr-ia-pour-entreprise.md
+  - AI for Ecommerce: ai-for-ecommerce.md
+  - AI for Accounting Firms: ai-for-accounting-firms.md
+  - Connect Xero to ChatGPT: connect-xero-to-chatgpt.md
 - 🫡 Hermes Community Hub:
   - Overview: hermes/index.md
   - Ecosystem: hermes/ecosystem.md
