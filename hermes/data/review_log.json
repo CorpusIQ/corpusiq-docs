@@ -1404,5 +1404,124 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-20T08:03:03.591204+00:00"
+  },
+  {
+    "repo": "kingkillery/pk-kanban",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913517+00:00"
+  },
+  {
+    "repo": "yamatsu74-lgtm/hermes-android",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913530+00:00"
+  },
+  {
+    "repo": "MoKangMedical/sleep-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913533+00:00"
+  },
+  {
+    "repo": "jiqfu/hermes-root-build",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913535+00:00"
+  },
+  {
+    "repo": "sontakey/Hermes-stackchan",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913537+00:00"
+  },
+  {
+    "repo": "Capslockb/sora-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913539+00:00"
+  },
+  {
+    "repo": "Capslockb/hermes-editing-yt",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913540+00:00"
+  },
+  {
+    "repo": "luckeyfaraday/Athena",
+    "score": 63,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913542+00:00"
+  },
+  {
+    "repo": "iknowkungfubar/hermes-forge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913544+00:00"
+  },
+  {
+    "repo": "L1veSong/Smart-Skill-Router-Plugin",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913546+00:00"
+  },
+  {
+    "repo": "Joanium/Joanium",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913547+00:00"
+  },
+  {
+    "repo": "meso4444/OctoMatrix",
+    "score": 39,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913549+00:00"
+  },
+  {
+    "repo": "spinabot/brigade",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913551+00:00"
+  },
+  {
+    "repo": "HeigatVu/hermes-webui",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913553+00:00"
+  },
+  {
+    "repo": "cubenlp/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913554+00:00"
+  },
+  {
+    "repo": "yasg1988/iola-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913556+00:00"
+  },
+  {
+    "repo": "zengbaocheng/hermes-tech-hub",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T05:01:57.913558+00:00"
   }
 ]
