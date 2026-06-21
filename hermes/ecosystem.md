@@ -5,9 +5,9 @@ description: The definitive directory of Hermes Agent resources — 370+ repos, 
 
 # Hermes Ecosystem — Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 396 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 400 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 21, 2026 · **Repos indexed:** 396 · **Categories:** 18
+> **Last updated:** June 21, 2026 · **Repos indexed:** 400 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -2830,6 +2830,9 @@ Playwright-based search scraper — robust Google search result extraction using
 
 ### lingcoder/crab-code
 ⭐ **72** · `Rust` · [github.com/lingcoder/crab-code](https://github.com/lingcoder/crab-code)
+| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | **⭐ 8,273** | World's first open-source agentic video production system with 12 pipelines and 52 tools. | Tools & Utilities |
+| [sourcegraph/awesome-code-ai](https://github.com/sourcegraph/awesome-code-ai) | **⭐ 1,678** | Curated list of AI coding tools — assistants, completions, refactoring, and code agents. | Tools & Utilities |
+| [tnm/zclaw](https://github.com/tnm/zclaw) | **⭐ 2,165** | Personal AI assistant at 888KiB — runs on embedded devices. Minimal app code. | Tools & Utilities |
 
 Open-source Claude Code alternative in Rust — high-performance AI coding agent built from the ground up in Rust for speed, safety, and memory efficiency. Native-code performance with zero-cost abstractions, fearless concurrency, and comprehensive tool support for code generation, debugging, refactoring, and project management. Drop-in compatible with Hermes Agent workflows for users seeking a Rust-native alternative with lower resource overhead and faster execution.
 
