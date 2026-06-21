@@ -1231,15 +1231,70 @@ Governed, shared, self-improving memory for AI agent fleets — built for multi-
 | Crane Ledger ★ New | Finance/Accounting | API-first accounting platform for AI builders |
 | Openaccountants ★ New | Finance/Tax | 261+ open-source, accountant-verified tax computation skills for AI agents |
 
+## New This Week (June 21, 2026 — afternoon sweep)
+
+### 29 new servers from mcpservers.org (Communication, Memory, Cloud, Marketing, Development, Other) + mcp.so
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| FoundersOS ★ New ★ High | Productivity/CRM | CRM, tasks, finances, feeds, and memory for founders — all via MCP. Essential for solo operators |
+| Amplifier MCP Server ★ Official ★ New ★ High | E-commerce/Logistics | D2C eCommerce fulfillment — manage orders, inventory, shipments, campaigns, and billing from AI agents |
+| AgenticBI ★ New ★ High | Business Intelligence | Connect business data to any MCP client — find data, join across systems, run queries, build dashboards. No SQL required |
+| Demiton ★ New ★ High | ERP/Operations | Connect Claude to operational data — ERP, payroll, asset management, procurement. Identity-bound, governed write-backs, audited |
+| Warp Freight ★ New | Logistics/Supply Chain | Quote, book & track LTL/FTL freight from any MCP agent — 23 tools with inline cards |
+| Toolforest MCP ★ Official ★ New | Productivity/Data | Hosted remote MCP with 15+ toolkits: Google Workspace, Kalshi, Polymarket, Fitbit, Oura. Managed OAuth |
+| Cloudability API ★ New | Cloud/FinOps | Full MCP server for Cloudability — advanced cost management, Kubernetes container analytics, budget forecasting |
+| nable (finops-mcp) ★ New ★ High | Cloud/FinOps | Local-first FinOps copilot — plain-English queries over AWS, Azure, GCP, SaaS costs. Anomaly detection, rightsizing, idle-resource cleanup. Credentials stay local |
+| StackQL MCP Server ★ Official ★ New | Cloud/Infrastructure | Expose cloud provider control & data planes as SQL-queryable data sources. Minimizes tool surface + token usage |
+| Clearview Politics ★ New | Data/Intelligence | Real-time US political news API for AI agents — structured JSON, bias-audited, 26+ sources across 5 categories |
+| Conformi EU Legal Search ★ New ★ High | Legal/Compliance | EU legal research for AI agents — semantic + full-text search over ~48,000 EUR-Lex acts. Daily drift monitoring, CELEX citations. German/English/French. Free tier, no key for article tools. `https://conformi.eu/api/mcp` |
+| Ambix ★ New | Product/Strategy | Product team's shared strategic memory MCP — strategy, initiatives, objectives, journey stages, insights as structured AI-reason-able data. OAuth at `https://mcp.ambix.ai` |
+| StandupCraft ★ New | Dev/Productivity | Reads git commits & GitHub activity to generate daily standups/weekly reports from AI agents. No API key required |
+| Zentric Protocol ★ New | Security/Compliance | Security & compliance layer for MCP agents — prompt injection detection (22 deterministic signatures, 7 languages), PII detection, signed audit records (SHA-256 + UUID + UTC). Free tier: 10,000 requests/month |
+| BumpGuard ★ New | Dev/Infrastructure | Pre-flight dependency-upgrade analysis — reports breaking usages with line numbers, severity, fix hints. Also hallucination checker for AI-written code |
+| PPXC Find Customers ★ New | Marketing/Sales | Turn short-video comments into customer leads, keyword ideas, and outreach scripts |
+| Zaslat.cz ★ New | Logistics | End-to-end logistics management — rate comparison, shipment creation, and package tracking via MCP |
+| Weftly ★ New | Content Creation | AI post-production for audio/video — transcribe, summarize, find clips, cut horizontal/vertical clips, publish to YouTube. Per-job pricing |
+| ECMR MCP ★ New | Logistics/Transport | Electronic consignment notes (eCMR) — create, sign, manage, track transport documents with QR codes, PDFs, digital signatures (Cargoffer API) |
+| DevOps MCP ★ New | Dev/Infrastructure | Secure SSH automation — three-tier access control, human-consent token gate, port-conflict scanning, read-only safe mode. Works with Claude Code, Cursor, Windsurf |
+| SSC MCP Server ★ New | Security/GRC | SecurityScorecard MCP — hybrid semantic search over all 628 API endpoints. Enterprise security posture management for AI agents |
+| Modal MCP ★ New | Cloud/Infrastructure | Manage Modal apps, containers, volumes, secrets — deploy & run directly from MCP clients |
+| ActivitySmith MCP ★ Official ★ New | Communication/Mobile | Send push notifications and Live Activities to paired iOS devices from AI agents |
+| GoodSender ★ New | Communication/Email | Free, consent-based local MCP server — send plain-text, HTML, and Markdown emails with automatic recipient-consent handling |
+| WorldCitiSim eSIM ★ New | Travel/Mobility | Travel eSIMs for 193 countries — AI agents search plans, order via Stripe/Bitcoin, receive QR code in 30 seconds |
+| Memxus ★ New | Memory/Knowledge | One memory across all AI tools (Claude, ChatGPT, Cursor, Slack) and apps (Notion, Linear, Jira, Gmail, Salesforce). Save once, remember everywhere |
+| sessionmem ★ New | Memory/Knowledge | Local-first persistent session memory — claims 85.6% token reduction. No cloud |
+| Lorekeeper ★ New | Memory/Knowledge | Self-improving memory server — hybrid search, feedback-loop quality system, dashboard UI, auto-linking knowledge graph. Gets better the more you use it |
+| AgentLine ★ New | Communication/Voice | Telephony services for AI agents — voice calls from MCP clients |
+
+### Also discovered (niche/consumer/regional)
+
+- **Ringback** — AI agents initiate two-way voice calls + tiered alerts to your phone (self-hosted)
+- **ACHIVX Forum** — Agent-native forum for x402/A2A ecosystem with USDC bounties
+- **iletiMerkezi MCP** — Turkish SMS API (BTK-licensed): send, query delivery, manage senders. `npx -y @iletimerkezi/mcp-server`
+- **Local MCP (LMCP)** — 143 local tools: Mail, iMessage, Teams, Slack, WhatsApp & files. 100% local, no API keys
+- **Ninellayer** — Agent-native search engine optimized for AI agents
+- **Rami Code Review** — AI-focused code review catching bugs/risks AI coding agents commonly leave
+- **SentiBook** — Social network where AI agents and humans participate as equals
+- **aX Platform** — Agent-native collaboration network with persistent identity, real-time messaging, task handoffs
+- **PromptFax** — Send one-off fax from AI chat ($2-$4.50 per fax)
+- **Cure Cancer With AI** — Free oncology data (research, clinical trials, FDA approvals) via MCP
+- **GoCodes Asset Tracking** — QR code, Bluetooth Beacon & GPS asset tracking via MCP
+- **Chess.com MCP** — Interactive chess board replays and playable puzzles via Skybridge
+- **World Cup 2026 MCP Server** — Free World Cup data for AI agents
+- **Healthy Food MCP** — Structured recipe content, calorie categories, diet/meal groups
+- **OpenFate Bazi MCP** — Deterministic Bazi/Four Pillars destiny calculation with True Solar Time
+- **Telugu Panchangam** — Hindu almanac calculations (tithi, nakshatra, muhurta, festivals)
+
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,583 (mcp.so), 9,228+ (mcpservers.org)
-- **Official servers:** 42+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, etc.)
+- **Total MCP servers tracked:** 22,583+ (mcp.so), 9,228+ (mcpservers.org)
+- **Official servers:** 45+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
-- **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, HR, Sales, Marketing, Content Creation, Gov/Intelligence, Legal, Security/Compliance, Memory, etc.)
-- **New this cycle (June 21 morning):** 38 new MCP servers from mcp.so Feed + tag sweeps (Finance, Commerce, HR, Sales, Compliance, Accounting)
-- **Cumulative since June 9:** 288 MCP servers catalogued across 18 sweeps
-- **New categories added:** HR & Recruiting, Sales & Outreach (first dedicated sections)
+- **Categories represented:** 35+ (Finance, Analytics, CRM, Commerce, HR, Sales, Marketing, Content Creation, Gov/Intelligence, Legal, Security/Compliance, Memory, Logistics, ERP, FinOps, Business Intelligence, etc.)
+- **New this cycle (June 21 afternoon):** 29 new MCP servers from mcpservers.org category sweeps + mcp.so
+- **Cumulative since June 9:** 317 MCP servers catalogued across 19 sweeps
+- **New categories added:** Logistics & Supply Chain, ERP & Operations, FinOps, Business Intelligence
 
 ---
 
