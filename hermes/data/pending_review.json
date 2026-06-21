@@ -6121,5 +6121,76 @@
     "near_duplicates": [],
     "discovered_at": "2026-06-21T05:01:54.120932+00:00",
     "status": "pending"
+  },
+  {
+    "name": "navyxiong/family-health-os-skill",
+    "url": "https://github.com/navyxiong/family-health-os-skill",
+    "description": "Hermes Agent skill for managing family lifetime medical records",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-21T05:53:18Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-21T06:01:33.068487+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "l3ad3r1/Hermes-Agent-Android",
+    "url": "https://github.com/l3ad3r1/Hermes-Agent-Android",
+    "description": "Hermes Agent Android App",
+    "stars": 0,
+    "forks": 1,
+    "language": "Kotlin",
+    "topics": [],
+    "updated_at": "2026-06-21T05:53:19Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-21T06:01:34.570219+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jerrydong1988/hermes-agent",
+    "url": "https://github.com/jerrydong1988/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-21T06:00:48Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness"
+    ],
+    "discovered_at": "2026-06-21T06:01:38.604499+00:00",
+    "status": "pending"
   }
 ]

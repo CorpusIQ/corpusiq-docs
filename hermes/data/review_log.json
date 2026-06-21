@@ -1523,5 +1523,26 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-21T05:01:57.913558+00:00"
+  },
+  {
+    "repo": "navyxiong/family-health-os-skill",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T06:01:50.810538+00:00"
+  },
+  {
+    "repo": "l3ad3r1/Hermes-Agent-Android",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T06:01:50.810550+00:00"
+  },
+  {
+    "repo": "jerrydong1988/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T06:01:50.810553+00:00"
   }
 ]
