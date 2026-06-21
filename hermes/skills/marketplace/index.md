@@ -176,14 +176,15 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 - [June 9, 2026 — Initial Marketplace Discovery (42 skills)](/hermes/skills/marketplace/new-june9-2026/)
 - [June 20, 2026 Update — Scope-First, Grill, Skill Audit (4 repos)](/hermes/skills/marketplace/new-june20-2026-update/)
 - [June 20, 2026 — Plugins, Admin API, Jira CLI, Cyberdeck OS (9 repos)](/hermes/skills/marketplace/new-june20-2026/)
+- [June 21, 2026 — Ecosystem Acceleration: 34 New Repos](/hermes/skills/marketplace/new-june21-2026/)
 
 ---
 
-**Total: 368+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 402+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 ---
 
-*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june20-2026-update/)*
+*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june21-2026/)*
 
 *Powered by CorpusIQ*
 ---
