@@ -1,1 +1,0 @@
-<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0;url=index.html"><link rel="canonical" href="index.html"></head><body><p>Redirecting to <a href="index.html">Hermes Community Hub</a>...</p></body></html>

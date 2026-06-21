@@ -1,0 +1,322 @@
+[
+  {
+    "name": "caesaryin2026/hermes-agent-news",
+    "url": "https://github.com/caesaryin2026/hermes-agent-news",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-06-19T06:02:20Z",
+    "category": "core",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:01.783862+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Alien0013/aegis",
+    "url": "https://github.com/Alien0013/aegis",
+    "description": "AEGIS \u2014 a self-improving, multi-provider, multi-channel terminal agent harness in Python (an open replacement for Hermes Agent + OpenClaw): bounded agent loop, OAuth+API-key providers, MCP, skills marketplace, gateway, browser/computer-use, one-line install.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "ai-agent",
+      "claude",
+      "cli",
+      "llm",
+      "mcp",
+      "openai",
+      "python",
+      "terminal"
+    ],
+    "updated_at": "2026-06-19T06:01:31Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:01.783871+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pheanor-agent/p-hermes",
+    "url": "https://github.com/pheanor-agent/p-hermes",
+    "description": "Hermes Agent System Architecture & Documentation",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T06:01:27Z",
+    "category": "core",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:01.783877+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Marfart/hermes-shared",
+    "url": "https://github.com/Marfart/hermes-shared",
+    "description": "Hermes Agent shared workspace - cross-machine sync (Windows + macOS)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T06:01:08Z",
+    "category": "core",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:01.783882+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "DEVELOPERxSAJIB/hermes-agent",
+    "url": "https://github.com/DEVELOPERxSAJIB/hermes-agent",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T06:01:03Z",
+    "category": "core",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:01.783886+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "carboy285/hermes-agent-showcase-site",
+    "url": "https://github.com/carboy285/hermes-agent-showcase-site",
+    "description": "A modern showcase of the Nous Research Hermes Agent agentic use cases.",
+    "stars": 1,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-06-19T06:00:21Z",
+    "category": "core",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:01.783890+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rlaope/oh-my-hermes",
+    "url": "https://github.com/rlaope/oh-my-hermes",
+    "description": "Oh My Hermes (OMH) \u2014 Makes Hermes Agent feel best. Multi-Agent orchestration, Loop Engineering, Planning and Handoff.",
+    "stars": 17,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T05:59:05Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:01.783906+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "iamtubasya/chiper-agent",
+    "url": "https://github.com/iamtubasya/chiper-agent",
+    "description": "ChiperFlux Agent - Fork dari Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T05:57:51Z",
+    "category": "core",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:01.783911+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "maomao2266/research-reports",
+    "url": "https://github.com/maomao2266/research-reports",
+    "description": "Maobolin \u7814\u7a76\u5831\u544a \u2014 powered by Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-06-19T05:56:49Z",
+    "category": "core",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:01.783916+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yqYo1/hermes-extensions",
+    "url": "https://github.com/yqYo1/hermes-extensions",
+    "description": "Hermes Agent plugins and skills collection by yqYo1",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T05:04:20Z",
+    "category": "skills",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:04.748436+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "n8562051986/hermes-plugins-and-skills",
+    "url": "https://github.com/n8562051986/hermes-plugins-and-skills",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T04:34:19Z",
+    "category": "skills",
+    "score": 30,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:04.748459+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "BeliefanX/hermes-skillopt",
+    "url": "https://github.com/BeliefanX/hermes-skillopt",
+    "description": "Hermes plugin for safe staged SkillOpt skill optimization",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T03:18:59Z",
+    "category": "skills",
+    "score": 30,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:04.748469+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "karlorz/llm-wiki",
+    "url": "https://github.com/karlorz/llm-wiki",
+    "description": "Multi-skill Claude Code plugin for Karpathy-style interlinked markdown knowledge bases. Hermes Agent llm-wiki wire-compatible.",
+    "stars": 3,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-19T02:44:27Z",
+    "category": "skills",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:04.748478+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "maomaozuiwudi/plugin-guard",
+    "url": "https://github.com/maomaozuiwudi/plugin-guard",
+    "description": "Hermes \u63d2\u4ef6\u5b89\u5168\u68c0\u6d4b\u4e0e\u529f\u80fd\u5206\u6790\u5de5\u5177\u3002\u88c5\u4efb\u4f55\u7b2c\u4e09\u65b9 Skill/Plugin \u4e4b\u524d\uff0c\u5148\u626b\u4e00\u68ad\u5b50\u786e\u4fdd\u5b89\u5168\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-18T17:49:51Z",
+    "category": "skills",
+    "score": 30,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:04.748504+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "keyboardstaff/hermes-station",
+    "url": "https://github.com/keyboardstaff/hermes-station",
+    "description": "The complete web client for hermes-agent's gateway \u2014 an in-process plugin serving chat, sessions, files, models & skills.",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-18T13:49:32Z",
+    "category": "skills",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:04.748522+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "junerver/hermes-sync",
+    "url": "https://github.com/junerver/hermes-sync",
+    "description": "CLI tool to backup & restore Hermes Agent configuration across machines. Supports skills, memories, plugins, cron jobs with path security validation.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-19T00:20:02Z",
+    "category": "skills",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-19T06:05:04.748539+00:00",
+    "status": "pending"
+  }
+]
