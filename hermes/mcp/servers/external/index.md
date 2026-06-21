@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 20, 2026 (afternoon sweep) · **Sources:** mcp.so (22,544+ servers), mcpservers.org (9,228+ servers)
+> **Last updated:** June 20, 2026 (evening sweep) · **Sources:** mcp.so (22,575+ servers), mcpservers.org (9,228+ servers)
 
 ---
 
@@ -108,6 +108,18 @@ Agent-to-agent knowledge exchange for trading intelligence — publish empirical
 
 ### ROIC.AI Financial Data API ★ Official ★ New
 Access ROIC.AI financial data from AI tools, including company financials, ratios, prices, transcripts, and market research data. Official MCP server for fundamental analysis — essential for operators who need institutional-grade financial data in their AI workflows.
+
+### Stripe Mcp Server ★ New ★ High
+Natural-language Stripe for Claude — 7 tools (customers, revenue, invoices, subscriptions, disputes, refunds). Idempotency-safe writes, pinned API version to prevent silent breakage. Essential for payment operators. By Lokesh Loke.
+
+### Qb Auto ★ New ★ High
+QuickBooks Online MCP for Claude Code — 8 automation tools (invoices, payments, reports) that replace ~50K-token UI snapshots. Essential for accounting operators using QuickBooks. `npx` or direct install.
+
+### Cli Market ★ New ★ High
+LATAM price intelligence — 41 verified retailers across 8 countries (PE, AR, BR, MX, CO, CL, IT, FR). 61,000+ prices refreshed every 4h. Search, compare, basket optimization, inflation signals, procurement workflows. Free API key at cli-market.dev.
+
+### Equity Intel Mcp ★ New
+Stock intelligence for any LLM — SEC insider trades, superinvestor holdings (Dataroma), analyst consensus, valuation, options, and composite ticker analysis. Free/public data with graceful no-data handling (never fabricates numbers).
 
 ---
 
@@ -239,6 +251,9 @@ First post-quantum MCP server. Policy-gated AI agent decisions with hybrid Ed255
 
 ### Averta security ★ New ★ High
 Governed MCP gateway — secure every MCP server with one gateway. Give each AI agent its own scoped MCP access, contain credentials at the gateway (agents never see raw credentials), and audit every MCP tool call. Runtime checkpoints at 5 points: request evaluation, tool exposure control, tool call approval, tool result inspection, and output filtering. OpenAI and Anthropic provider wrappers preserve native SDK shape. `@averta-security/sdk-anthropic`. Essential for enterprise operators deploying MCP at scale — addresses the core security challenge of credential containment and audit in multi-agent environments.
+
+### Patent Connector ★ New
+Official patent offices across 6 jurisdictions (EPO, USPTO, DPMA, IP Australia, JPO, TIPO) + EUIPO — patents, trademarks, and designs. Official data, no scraping, no intermediate database. Essential for IP/legal operators who need direct access to patent office data from AI agents.
 
 ---
 
@@ -1028,15 +1043,39 @@ Governed, shared, self-improving memory for AI agent fleets — built for multi-
 
 ---
 
+## New This Week (June 20, 2026 — evening sweep)
+
+### 15 new servers from mcp.so Feed (evening)
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Stripe Mcp Server ★ New ★ High | Payments | Natural-language Stripe for Claude — 7 tools (customers, revenue, invoices, subscriptions, disputes, refunds). Idempotency-safe writes, pinned API version to prevent silent breakage. Essential for payment operators. By Lokesh Loke. |
+| Qb Auto ★ New ★ High | Finance/Accounting | QuickBooks Online MCP for Claude Code — 8 automation tools (invoices, payments, reports) that replace ~50K-token UI snapshots. Essential for accounting operators using QuickBooks. |
+| Cli Market ★ New ★ High | E-commerce/Finance | LATAM price intelligence — 41 verified retailers across 8 countries (PE, AR, BR, MX, CO, CL, IT, FR). 61,000+ prices refreshed every 4h. Search, compare, basket optimization, inflation signals, procurement workflows. Free API key at cli-market.dev. |
+| Equity Intel Mcp ★ New | Finance | Stock intelligence for any LLM — SEC insider trades, superinvestor holdings (Dataroma), analyst consensus, valuation, options, and composite ticker analysis. Free/public data with graceful no-data handling (never fabricates numbers). |
+| Patent Connector ★ New | Legal/IP | Official patent offices across 6 jurisdictions (EPO, USPTO, DPMA, IP Australia, JPO, TIPO) + EUIPO. Official data, no scraping, no intermediate database. Essential for IP/legal operators. |
+| TensorFeed ★ New | Content/AI Intel | Real-time AI ecosystem data — AI news, service status, model pricing, today's summary, agent activity. Free tools for operators tracking the AI landscape. |
+| NewsMCP ★ New | Content/Research | Real-time news from hundreds of sources, clustered by AI, classified by topic and geography, ranked by importance. Free, no API key. Essential for operators monitoring market news. |
+| FormFill MCP ★ New | Productivity/Docs | Fill PDF forms from AI agents — tax forms, HR paperwork, legal documents, lease agreements, insurance claims. Closes the last-mile gap in AI document workflows. |
+| n8n MCP Server ★ New | Automation | n8n workflow automation platform via MCP. Connect AI agents to 400+ integrations and custom workflow logic. Essential for operators building no-code automation pipelines. |
+| Trellistate MCP ★ New | Real Estate | Free public AI-readable real estate listing exchange — 5 tools to search, retrieve, and act on residential, commercial, FSBO, and off-market listings. |
+| Career Site Jobs ★ New | HR/Recruiting | Retrieve up-to-date job listings from company career sites via MCP. Essential for recruitment operators and talent acquisition teams. |
+| Wekan MCP ★ New | Productivity | Open-source kanban board via MCP — manage tasks, boards, and workflows from AI agents. Includes auto-generated API tokens and environment configuration. |
+| CISO Adapt MCP ★ New | Security/GRC | GRC workspace via MCP — query and act on governance, risk, and compliance data from AI agents. Essential for security operators and compliance teams. |
+| Conduit ★ New | Dev/Infra | Local-first MCP gateway — every MCP server behind one endpoint shared by all AI coding tools. Simplifies MCP management for multi-agent setups. |
+| Docklet ★ New | Productivity | Create artifacts with AI tool and publish with Docklet — turn AI-generated pages, demos, proposals, and guides into live links with feedback and engagement tracking. No exports, hosting setup, or file handoffs. |
+
+---
+
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,544 (mcp.so), 9,228 (mcpservers.org)
+- **Total MCP servers tracked:** 22,575 (mcp.so), 9,228+ (mcpservers.org)
 - **Official servers:** 42+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 20 afternoon):** 13 new MCP servers from mcpservers.org (afternoon sweep)
-- **Today total (June 20):** 24 MCP servers catalogued (11 morning + 13 afternoon)
-- **Cumulative since June 9:** 235 MCP servers catalogued across 16 sweeps
+- **New this cycle (June 20 evening):** 15 new MCP servers from mcp.so Feed (evening sweep)
+- **Today total (June 20):** 39 MCP servers catalogued (11 morning + 13 afternoon + 15 evening)
+- **Cumulative since June 9:** 250 MCP servers catalogued across 17 sweeps
 
 ---
 
