@@ -6192,5 +6192,68 @@
     ],
     "discovered_at": "2026-06-21T06:01:38.604499+00:00",
     "status": "pending"
+  },
+  {
+    "name": "oniondai/hermes_awesome",
+    "url": "https://github.com/oniondai/hermes_awesome",
+    "description": "Reusable skills, scripts, and notes for Hermes Agent setup (Tavily search, GitHub Skills Hub, Browser Automation, etc.)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-06-21T07:01:06Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills"
+    ],
+    "discovered_at": "2026-06-21T07:01:24.994690+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "dbhardwaj86/samagra",
+    "url": "https://github.com/dbhardwaj86/samagra",
+    "description": "agentic oc with claude code, codex and hermes",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-21T07:01:02Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-21T07:01:26.496884+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "thisismalhotra/hermes-agent-configs",
+    "url": "https://github.com/thisismalhotra/hermes-agent-configs",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-21T07:00:13Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-21T07:01:27.997481+00:00",
+    "status": "pending"
   }
 ]

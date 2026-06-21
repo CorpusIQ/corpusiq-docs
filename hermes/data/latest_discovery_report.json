@@ -1,39 +1,66 @@
 {
-  "run_time": "2026-06-19T07:04:07.613444+00:00",
+  "run_time": "2026-06-21T07:01:44.480600+00:00",
   "new_approved": [
     {
-      "name": "Salomondiei08/oh-my-hermes",
-      "url": "https://github.com/Salomondiei08/oh-my-hermes",
-      "description": "An opinionated workflow layer for building, shipping, and operating apps with Hermes Agent",
-      "stars": 620,
-      "forks": 57,
-      "language": "Shell",
-      "topics": [],
-      "updated_at": "2026-06-19T07:03:17Z",
+      "name": "mohitagw15856/pm-claude-skills",
+      "url": "https://github.com/mohitagw15856/pm-claude-skills",
+      "description": "174 professional Agent Skills (SKILL.md) + subagents + slash commands for Claude, ChatGPT, Gemini, Cursor, Codex & Hermes \u2014 one source, every AI tool",
+      "stars": 1005,
+      "forks": 182,
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "chatgpt",
+        "claude-ai",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "cursor",
+        "gemini",
+        "hermes-agent",
+        "llm-tools",
+        "product-management",
+        "product-manager",
+        "productivity",
+        "prompt-engineering",
+        "skill-md",
+        "skills",
+        "slash-commands",
+        "subagents"
+      ],
+      "updated_at": "2026-06-21T06:58:11Z",
       "category": "core",
-      "score": 75,
+      "score": 81,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
-        "direct_hermes_reference",
-        "moderate_stars_100+",
+        "hermes_mention",
+        "high_stars_1000+",
         "detailed_description",
-        "active_week"
+        "active_week",
+        "has_homepage"
       ],
       "near_duplicates": [
+        "colbymchenry/codegraph",
+        "qingchencloud/clawpanel",
+        "awizemann/scarf",
         "Romanescu11/hermes-skill-factory",
-        "Sibyl-Labs/Sibyl-Memory",
-        "itechmeat/open-second-brain"
+        "longyunfeigu/learn-hermes-agent",
+        "jnMetaCode/shellward",
+        "ZeroPointRepo/awesome-hermes-skills",
+        "hugocarreira/agentrc",
+        "zakahadi/llm-eval-cli",
+        "kkllxy/hermes-web-ui"
       ],
-      "discovered_at": "2026-06-19T07:03:39.536820+00:00",
+      "discovered_at": "2026-06-21T07:01:29.499745+00:00",
       "status": "approved",
-      "approved_at": "2026-06-19T07:04:07.606342+00:00"
+      "approved_at": "2026-06-21T07:01:44.469534+00:00"
     }
   ],
   "stats": {
-    "total_found": 9,
+    "total_found": 4,
     "auto_approved": 1,
-    "pending_review": 8,
-    "total_approved": 124,
-    "total_pending": 167
+    "pending_review": 3,
+    "total_approved": 125,
+    "total_pending": 227
   }
 }

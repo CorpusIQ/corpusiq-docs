@@ -3376,5 +3376,59 @@
     "discovered_at": "2026-06-19T07:03:39.536820+00:00",
     "status": "approved",
     "approved_at": "2026-06-19T07:04:07.606342+00:00"
+  },
+  {
+    "name": "mohitagw15856/pm-claude-skills",
+    "url": "https://github.com/mohitagw15856/pm-claude-skills",
+    "description": "174 professional Agent Skills (SKILL.md) + subagents + slash commands for Claude, ChatGPT, Gemini, Cursor, Codex & Hermes \u2014 one source, every AI tool",
+    "stars": 1005,
+    "forks": 182,
+    "language": "JavaScript",
+    "topics": [
+      "agent-skills",
+      "chatgpt",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "gemini",
+      "hermes-agent",
+      "llm-tools",
+      "product-management",
+      "product-manager",
+      "productivity",
+      "prompt-engineering",
+      "skill-md",
+      "skills",
+      "slash-commands",
+      "subagents"
+    ],
+    "updated_at": "2026-06-21T06:58:11Z",
+    "category": "core",
+    "score": 81,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_mention",
+      "high_stars_1000+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "qingchencloud/clawpanel",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "jnMetaCode/shellward",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "hugocarreira/agentrc",
+      "zakahadi/llm-eval-cli",
+      "kkllxy/hermes-web-ui"
+    ],
+    "discovered_at": "2026-06-21T07:01:29.499745+00:00",
+    "status": "approved",
+    "approved_at": "2026-06-21T07:01:44.469534+00:00"
   }
 ]

@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources — 360+ repos, 
 
 The most comprehensive directory of Hermes Agent resources in existence. 360 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 19, 2026 · **Repos indexed:** 368 · **Categories:** 18
+> **Last updated:** June 21, 2026 · **Repos indexed:** 369 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -17,7 +17,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 360 rep
 
 | Category | Count | Jump |
 |----------|-------|------|
-| [Core & Official](#-core--official) | 6 | [↓](#-core--official) |
+| [Core & Official](#-core--official) | 7 | [↓](#-core--official) |
 | [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
 | [Community & Awesome Lists](#-community--awesome-lists) | 33 | [↓](#-community--awesome-lists) |
 | [UI & Dashboards](#-ui--dashboards) | 11 | [↓](#-ui--dashboards) |
@@ -107,6 +107,17 @@ An opinionated workflow layer for building, shipping, and operating apps with He
 **Maintainer:** Salomondiei08  
 **Key capabilities:** Project scaffolding, deployment pipelines, operational workflow patterns, opinionated Hermes configurations  
 **Related:** [Skills Catalog →](/hermes/skills/catalog/) · [Deployment →](/hermes/infrastructure/)
+
+---
+
+### mohitagw15856/pm-claude-skills
+⭐ **1,005** · `JavaScript` · [github.com/mohitagw15856/pm-claude-skills](https://github.com/mohitagw15856/pm-claude-skills)
+
+A unified skills library with 174 professional Agent Skills (SKILL.md format) spanning subagents, slash commands, and cross-AI-tool compatibility. One source works across Claude, ChatGPT, Gemini, Cursor, Codex, and Hermes Agent — eliminating duplicate skill maintenance across AI tools.
+
+**Maintainer:** mohitagw15856  
+**Key capabilities:** 174 cross-tool Agent Skills, SKILL.md format, subagents, slash commands, multi-platform compatibility  
+**Related:** [Skills Catalog →](/hermes/skills/catalog/) · [Multi-Agent →](#-orchestration-multi-agent--swarms)
 
 ---
 
