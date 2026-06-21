@@ -1,13 +1,13 @@
 ---
 title: Hermes Ecosystem — Complete Resource Directory
-description: The definitive directory of Hermes Agent resources — 360+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
+description: The definitive directory of Hermes Agent resources — 370+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
 ---
 
 # Hermes Ecosystem — Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 360 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 367 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 21, 2026 · **Repos indexed:** 369 · **Categories:** 18
+> **Last updated:** June 21, 2026 · **Repos indexed:** 376 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -22,13 +22,13 @@ The most comprehensive directory of Hermes Agent resources in existence. 360 rep
 | [Community & Awesome Lists](#-community--awesome-lists) | 33 | [↓](#-community--awesome-lists) |
 | [UI & Dashboards](#-ui--dashboards) | 11 | [↓](#-ui--dashboards) |
 | [Memory & Knowledge](#-memory--knowledge) | 18 | [↓](#-memory--knowledge) |
-| [MCP & Integrations](#-mcp--integrations) | 27 | [↓](#-mcp--integrations) |
-| [Skills & Plugins](#-skills--plugins) | 59 | [↓](#-skills--plugins) |
-| [Tools & Utilities](#-tools--utilities) | 54 | [↓](#-tools--utilities) |
+| [MCP & Integrations](#-mcp--integrations) | 29 | [↓](#-mcp--integrations) |
+| [Skills & Plugins](#-skills--plugins) | 60 | [↓](#-skills--plugins) |
+| [Tools & Utilities](#-tools--utilities) | 57 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 23 | [↓](#-orchestration-multi-agent--swarms) |
+| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 24 | [↓](#-orchestration-multi-agent--swarms) |
 | [Deployment & Infrastructure](#-deployment--infrastructure) | 17 | [↓](#-deployment--infrastructure) |
-| [Security & Governance](#-security--governance) | 5 | [↓](#-security--governance) |
+| [Security & Governance](#-security--governance) | 6 | [↓](#-security--governance) |
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
 | [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
 | [Platform-Specific](#-platform-specific) | 10 | [↓](#-platform-specific) |
@@ -1137,6 +1137,27 @@ Unity MCP server — Model Context Protocol server bridging autonomous agents wi
 
 ---
 
+### crawbase/crawlbase-mcp
+⭐ **55** · `TypeScript` · [github.com/crawbase/crawlbase-mcp](https://github.com/crawbase/crawlbase-mcp)
+
+MCP server for web scraping and crawling — Crawlbase's Model Context Protocol server enabling autonomous agents to extract structured web data. Provides Hermes Agent with reliable web scraping capabilities including JavaScript rendering, proxy rotation, and CAPTCHA handling through standardized MCP tool calls. Production-ready bridge for web data extraction at scale.
+
+**Maintainer:** Crawlbase
+**Key capabilities:** Web scraping MCP, JavaScript rendering, proxy rotation, CAPTCHA handling, MCP-native, Hermes-compatible
+**Related:** [MCP Guide →](/hermes/mcp/)
+
+---
+
+### jonigl/ollama-mcp-bridge
+⭐ **94** · `Python` · [github.com/jonigl/ollama-mcp-bridge](https://github.com/jonigl/ollama-mcp-bridge)
+
+Ollama API MCP bridge — connects Ollama-hosted local models to the Model Context Protocol ecosystem. Enables Hermes Agent to leverage locally running LLMs through Ollama via standardized MCP tool calls, bridging the gap between local model inference and agent frameworks. Supports model listing, chat completion, embeddings, and model management through MCP.
+
+**Key capabilities:** Ollama MCP bridge, local model support, MCP-native, chat/embeddings, model management, Hermes-compatible
+**Related:** [MCP Guide →](/hermes/mcp/)
+
+---
+
 ## 🛠 Skills & Plugins
 
 Extend Hermes with community-built skills and plugins.
@@ -2033,6 +2054,17 @@ Binance Skills Hub — official collection of agent skills from Binance for cryp
 
 ---
 
+### aipotheosis-labs/aci
+⭐ **4,801** · [github.com/aipotheosis-labs/aci](https://github.com/aipotheosis-labs/aci)
+
+Open source tool-calling platform with 600+ tools — comprehensive agent tooling infrastructure providing Hermes Agent with an extensive library of pre-built, production-tested tool integrations. Covers APIs, databases, file systems, cloud services, and domain-specific utilities through a unified tool-calling interface. Accelerates agent development by eliminating tool integration boilerplate with a curated, maintained tool ecosystem.
+
+**Maintainer:** Aipotheosis Labs
+**Key capabilities:** 600+ tools, tool-calling platform, unified interface, API/database/filesystem/cloud, Hermes-compatible
+**Related:** [Skills Catalog →](/hermes/skills/catalog/) · [MCP Guide →](/hermes/mcp/)
+
+---
+
 ## 🛠 Tools & Utilities
 
 Development tools, utilities, and platforms for the Hermes ecosystem.
@@ -2622,6 +2654,36 @@ Wave Terminal — open-source terminal workspace with graphical widgets, web ren
 
 ---
 
+### giselles-ai/giselle
+⭐ **537** · [github.com/giselles-ai/giselle](https://github.com/giselles-ai/giselle)
+
+AI App Builder, Open Source — visual application builder that empowers AI agents to design, prototype, and generate full applications through a declarative interface. Enables Hermes Agent to build complete web and mobile applications with UI generation, backend scaffolding, database integration, and deployment configuration. Open-source platform for agent-driven application development from concept to production.
+
+**Key capabilities:** AI app builder, visual design, UI generation, backend scaffolding, open source, Hermes-compatible
+**Related:** [Tools & Utilities →](#-tools--utilities)
+
+---
+
+### web-agent-master/google-search
+⭐ **605** · `Python` · [github.com/web-agent-master/google-search](https://github.com/web-agent-master/google-search)
+
+Playwright-based search scraper — robust Google search result extraction using Playwright for JavaScript-rendered pages. Provides Hermes Agent with reliable, programmatic access to Google search results including organic results, featured snippets, knowledge panels, and related queries. Handles anti-bot detection, pagination, and result parsing for agent-driven web research and competitive analysis.
+
+**Key capabilities:** Google search scraping, Playwright-based, JS rendering, anti-bot handling, result parsing, Hermes-compatible
+**Related:** [Tools & Utilities →](#-tools--utilities) · [MCP Guide →](/hermes/mcp/)
+
+---
+
+### lingcoder/crab-code
+⭐ **72** · `Rust` · [github.com/lingcoder/crab-code](https://github.com/lingcoder/crab-code)
+
+Open-source Claude Code alternative in Rust — high-performance AI coding agent built from the ground up in Rust for speed, safety, and memory efficiency. Native-code performance with zero-cost abstractions, fearless concurrency, and comprehensive tool support for code generation, debugging, refactoring, and project management. Drop-in compatible with Hermes Agent workflows for users seeking a Rust-native alternative with lower resource overhead and faster execution.
+
+**Key capabilities:** Claude Code alternative, Rust-native, high performance, memory safe, code generation, Hermes-compatible
+**Related:** [Forks & Derivatives →](#-forks--derivatives)
+
+---
+
 ## 🎯 Orchestration, Multi-Agent & Swarms
 
 Frameworks and patterns for coordinating multiple agents.
@@ -2844,6 +2906,17 @@ Conductor — Netflix-originated, battle-tested workflow orchestration engine no
 
 ---
 
+### mezmo/aura
+⭐ **121** · [github.com/mezmo/aura](https://github.com/mezmo/aura)
+
+Agentic harness for LLM models — lightweight coordination layer that connects large language models to agent frameworks with structured tool execution, context management, and task routing. Provides Hermes Agent with a flexible harness for orchestrating model calls across providers with built-in retry logic, rate limiting, and response validation. Designed as a drop-in agentic middleware for production LLM deployments.
+
+**Maintainer:** Mezmo
+**Key capabilities:** Agentic harness, LLM orchestration, tool execution, context management, task routing, Hermes-compatible
+**Related:** [Orchestration →](#-orchestration-multi-agent--swarms)
+
+---
+
 ## 🚀 Deployment & Infrastructure
 
 Running Hermes in production — from Docker to Kubernetes.
@@ -3022,6 +3095,16 @@ Autonomous inbox management: 4-tier classification, SLA-based response, Gmail AP
 [Auth Guide →](/hermes/infrastructure/auth/)
 
 OAuth lifecycle management with refresh automation, expiration monitoring, and alerting. Gmail, GitHub, HeyGen, Postiz tokens.
+
+---
+
+### cxumol/promptmask
+⭐ **127** · `Python` · [github.com/cxumol/promptmask](https://github.com/cxumol/promptmask)
+
+Local privacy filter for LLMs — on-device prompt sanitization that scrubs sensitive information before it reaches external LLM APIs. Provides Hermes Agent with a local privacy layer that detects and redacts PII, credentials, API keys, and confidential data from prompts using pattern matching and ML-based detection. Runs entirely locally with zero data leakage, ensuring agent interactions with external models never expose private information.
+
+**Key capabilities:** Local privacy filter, PII redaction, prompt sanitization, on-device processing, zero data leakage, Hermes-compatible
+**Related:** [Security & Governance →](#-security--governance)
 
 ---
 
@@ -3530,15 +3613,15 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 305 |
+| Total repos indexed | 312 |
 | Categories | 18 |
 | Official Nous Research repos | 4 |
 | Community awesome lists | 21 |
 | UI/Dashboard projects | 10 |
 | Memory systems | 17 |
-| MCP integrations | 20 |
-| Skill collections & plugins | 49 |
-| Tools & utilities | 38 |
+| MCP integrations | 22 |
+| Skill collections & plugins | 50 |
+| Tools & utilities | 41 |
 | Research/benchmark projects | 12 |
 | Deployment & infra projects | 16 |
 | Domain applications | 17 |
@@ -3607,7 +3690,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 286 repos · 18 categories · 1M+ community stars · 48 skill collections · 20 MCP integrations · 15 domain applications
+> **📊 Ecosystem Stats:** 293 repos · 18 categories · 1M+ community stars · 50 skill collections · 22 MCP integrations · 15 domain applications
 
 ---
 
@@ -3615,7 +3698,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence — **286+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence — **293+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 

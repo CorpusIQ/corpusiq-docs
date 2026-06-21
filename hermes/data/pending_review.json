@@ -6255,5 +6255,303 @@
     "near_duplicates": [],
     "discovered_at": "2026-06-21T07:01:27.997481+00:00",
     "status": "pending"
+  },
+  {
+    "name": "nuffin/hermes-skill-graph",
+    "url": "https://github.com/nuffin/hermes-skill-graph",
+    "description": "Hermes Agent Skill Graph \u2014 knowledge-graph skill discovery with FTS5 search, term matching, and typed relationships",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-21T07:58:21Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "luluthehermeticcrabBot/phronesis"
+    ],
+    "discovered_at": "2026-06-21T08:01:19.127797+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "tkdchen/packaging-hermes-agent",
+    "url": "https://github.com/tkdchen/packaging-hermes-agent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "ai",
+      "hermes-agent",
+      "rpmbuild"
+    ],
+    "updated_at": "2026-06-21T07:57:11Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-21T08:01:20.628222+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "anst-dev/ebook-101-cach-dung-ai",
+    "url": "https://github.com/anst-dev/ebook-101-cach-dung-ai",
+    "description": "101 Cach Dung AI Mien Phi - Ebook (NotebookLM + Hermes Agent)",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-06-21T07:52:59Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-21T08:01:22.130318+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "9505053-create/hermes-config",
+    "url": "https://github.com/9505053-create/hermes-config",
+    "description": "Hermes AI agent configuration backup \u2014 skills, templates, and tool definitions (no secrets)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-21T07:52:39Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent"
+    ],
+    "discovered_at": "2026-06-21T08:01:23.632496+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "21stCenturyPharaoh/Hermes-Toth-Agent-",
+    "url": "https://github.com/21stCenturyPharaoh/Hermes-Toth-Agent-",
+    "description": "The Pharaoh Conglomerate's Diamond Standard Autonomous Synthetic Assets Eco-stewardship ",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-06-21T07:50:32Z",
+    "category": "core",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-21T08:01:25.134605+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "heikki-laitala/inderes-cli",
+    "url": "https://github.com/heikki-laitala/inderes-cli",
+    "description": "Unofficial CLI for the Inderes MCP server (Nordic equity research). OAuth login, friendly subcommands, and ships on-demand skill files for OpenClaw, Hermes, and ptrclaw so agents reach the data without bloating their context.",
+    "stars": 2,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "agent",
+      "cli",
+      "finance",
+      "hermes",
+      "inderes",
+      "keycloak",
+      "mcp",
+      "nordic",
+      "oauth",
+      "openclaw",
+      "ptrclaw",
+      "rust"
+    ],
+    "updated_at": "2026-06-21T07:42:20Z",
+    "category": "mcp",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "ruvnet/agent-harness-generator",
+      "itechmeat/open-second-brain"
+    ],
+    "discovered_at": "2026-06-21T08:01:27.416698+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "molpass/mcp-bible",
+    "url": "https://github.com/molpass/mcp-bible",
+    "description": "Hermes Agent\uc6a9 MCP \u2014 \uc131\uacbd: \ub2e4\uc5ed\ubcf8 \uad6c\uc808 \uc870\ud68c\u00b7\uc6d0\uc5b4/\ub809\uc2dc\ucf58\u00b7\uad00\uc8fc\u00b7\uc758\ubbf8 \uac80\uc0c9. molpass \u00b7 zeolinex.com \u00b7 vibe-coded with Claude",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "bible",
+      "christianity",
+      "claude",
+      "hermes-agent",
+      "korean",
+      "mcp",
+      "model-context-protocol",
+      "scripture",
+      "telegram",
+      "telegrambot",
+      "vibe-coding"
+    ],
+    "updated_at": "2026-06-21T07:09:39Z",
+    "category": "mcp",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-21T08:01:28.918637+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "arush-garg/hermes-agent-self-evolution",
+    "url": "https://github.com/arush-garg/hermes-agent-self-evolution",
+    "description": "\u2692 Evolutionary self-improvement for Hermes Agent \u2014 optimize skills, prompts, and code using DSPy + GEPA",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-21T08:00:50Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "NousResearch/hermes-agent-self-evolution",
+      "awizemann/scarf",
+      "longyunfeigu/learn-hermes-agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "zakahadi/llm-eval-cli"
+    ],
+    "discovered_at": "2026-06-21T08:01:31.968584+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "shreyashjagtap157/hermes-agent",
+    "url": "https://github.com/shreyashjagtap157/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-21T08:00:18Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness"
+    ],
+    "discovered_at": "2026-06-21T08:01:33.470545+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Birkardo/hermes-agent",
+    "url": "https://github.com/Birkardo/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-21T07:58:34Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness"
+    ],
+    "discovered_at": "2026-06-21T08:01:34.972985+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Mayuri276/forge2-qualifier-mayuri",
+    "url": "https://github.com/Mayuri276/forge2-qualifier-mayuri",
+    "description": "iex (irm https://hermes-agent.nousresearch.com/install.ps1)",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-06-21T07:12:07Z",
+    "category": "official",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-21T08:01:44.768135+00:00",
+    "status": "pending"
   }
 ]

@@ -1572,5 +1572,82 @@
     "tier": "AUTO_APPROVE",
     "action": "auto_approved",
     "timestamp": "2026-06-21T07:01:44.469561+00:00"
+  },
+  {
+    "repo": "nuffin/hermes-skill-graph",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T08:01:48.611200+00:00"
+  },
+  {
+    "repo": "tkdchen/packaging-hermes-agent",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T08:01:48.611214+00:00"
+  },
+  {
+    "repo": "anst-dev/ebook-101-cach-dung-ai",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T08:01:48.611217+00:00"
+  },
+  {
+    "repo": "9505053-create/hermes-config",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T08:01:48.611219+00:00"
+  },
+  {
+    "repo": "21stCenturyPharaoh/Hermes-Toth-Agent-",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T08:01:48.611220+00:00"
+  },
+  {
+    "repo": "heikki-laitala/inderes-cli",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T08:01:48.611222+00:00"
+  },
+  {
+    "repo": "molpass/mcp-bible",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T08:01:48.611224+00:00"
+  },
+  {
+    "repo": "arush-garg/hermes-agent-self-evolution",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T08:01:48.611226+00:00"
+  },
+  {
+    "repo": "shreyashjagtap157/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T08:01:48.611228+00:00"
+  },
+  {
+    "repo": "Birkardo/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T08:01:48.611230+00:00"
+  },
+  {
+    "repo": "Mayuri276/forge2-qualifier-mayuri",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-21T08:01:48.611231+00:00"
   }
 ]
