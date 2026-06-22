@@ -292,7 +292,7 @@ def discover_repos(token, dry_run=False):
                 else:
                     print(f"  📋 {tier}: {full_name} (score: {score})")
 
-                time.sleep(2.0)  # Rate limit (2.0s for unauthenticated)
+                time.sleep(3.0 if token == "UNAUTHENTICATED" else 2.0)  # 3.0s unauthenticated (6/min = safe under 10/min limit)
 
         except Exception as e:
             print(f"  ❌ Search failed: {e}")
