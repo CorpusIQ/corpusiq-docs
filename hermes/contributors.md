@@ -8,7 +8,7 @@ tags:
   - open-source
   - submit-repo
   - ecosystem
-last_updated: 2026-06-22T05:10Z
+last_updated: 2026-06-22T06:10Z
 ---
 
 # Hermes Community Contributors — Help Build the Largest Hermes Resource Directory

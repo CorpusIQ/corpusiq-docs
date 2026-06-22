@@ -2167,5 +2167,47 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-22T05:06:53.090650+00:00"
+  },
+  {
+    "repo": "RiggdAI/uniqent",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T06:01:45.780950+00:00"
+  },
+  {
+    "repo": "burakkasikci/hermes-outputs",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T06:01:45.780962+00:00"
+  },
+  {
+    "repo": "TARC-RAM/Cogito",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T06:01:45.780964+00:00"
+  },
+  {
+    "repo": "yansinan/mcp.skills",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T06:01:45.780965+00:00"
+  },
+  {
+    "repo": "fabzter/hermes-holographic-mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T06:01:45.780966+00:00"
+  },
+  {
+    "repo": "123qwe55aa/hermes-mcp-adapter",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T06:01:45.780967+00:00"
   }
 ]

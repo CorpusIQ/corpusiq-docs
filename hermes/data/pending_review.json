@@ -8581,5 +8581,151 @@
     "near_duplicates": [],
     "discovered_at": "2026-06-22T05:05:49.242135+00:00",
     "status": "pending"
+  },
+  {
+    "name": "RiggdAI/uniqent",
+    "url": "https://github.com/RiggdAI/uniqent",
+    "description": "Any brain, any agent. Package an AI agent's brain \u2014 persona, MCP stack, skills, memory, config \u2014 into one open, signed bundle and install it into any framework (OpenClaw, Hermes, Claude Code) in one click.",
+    "stars": 15,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "agent-framework",
+      "agent-memory",
+      "ai-agents",
+      "ai-skills",
+      "claude",
+      "claude-code",
+      "cli",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "model-context-protocol",
+      "open-standard",
+      "portable-agents",
+      "typescript"
+    ],
+    "updated_at": "2026-06-22T06:00:30Z",
+    "category": "core",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "codejunkie99/agentic-stack",
+      "longyunfeigu/learn-hermes-agent",
+      "ruvnet/agent-harness-generator",
+      "itechmeat/open-second-brain",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-06-22T06:01:27.066236+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "burakkasikci/hermes-outputs",
+    "url": "https://github.com/burakkasikci/hermes-outputs",
+    "description": "Outputs from Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "MDX",
+    "topics": [],
+    "updated_at": "2026-06-22T05:57:41Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-22T06:01:29.069433+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "TARC-RAM/Cogito",
+    "url": "https://github.com/TARC-RAM/Cogito",
+    "description": "My very own Hermes Agentic OS created by Hermes.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-22T05:54:39Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-22T06:01:31.072545+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yansinan/mcp.skills",
+    "url": "https://github.com/yansinan/mcp.skills",
+    "description": "Hermes \u6210\u719f\u6280\u80fd\u5e93 \u2014 \u5206\u7c7b\u7ec4\u7ec7\u7684 MCP \u6280\u80fd\u96c6\u5408\uff0c\u4f9b agents \u95f4\u5171\u4eab",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-22T05:54:30Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-22T06:01:33.074658+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "fabzter/hermes-holographic-mcp",
+    "url": "https://github.com/fabzter/hermes-holographic-mcp",
+    "description": "Holographic memory MCP server for Devin \u2014 SQLite + FTS5 + HRR compositional retrieval, trust scoring. Ported from NousResearch/hermes-agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-22T05:42:45Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-22T06:01:35.897590+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "123qwe55aa/hermes-mcp-adapter",
+    "url": "https://github.com/123qwe55aa/hermes-mcp-adapter",
+    "description": null,
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-22T05:40:37Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-22T06:01:37.898689+00:00",
+    "status": "pending"
   }
 ]
