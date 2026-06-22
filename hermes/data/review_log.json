@@ -2209,5 +2209,96 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-06-22T06:01:45.780967+00:00"
+  },
+  {
+    "repo": "Edwson/Ed-Agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T08:05:40.462602+00:00"
+  },
+  {
+    "repo": "conanxin/hermes-knowledge-base",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T08:05:40.462617+00:00"
+  },
+  {
+    "repo": "DeployFaith/hermes-bible-skill",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T08:05:40.462619+00:00"
+  },
+  {
+    "repo": "riffi/hermes-max-plugin",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T08:05:40.462621+00:00"
+  },
+  {
+    "repo": "Postergully/finny-claude-plugin",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T08:05:40.462623+00:00"
+  },
+  {
+    "repo": "cognis-digital/hermes",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T08:05:40.462624+00:00"
+  },
+  {
+    "repo": "eiainano/AgentPlayerAchievements",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T08:05:40.462626+00:00"
+  },
+  {
+    "repo": "antharmaya/mem-bridge",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T08:05:40.462628+00:00"
+  },
+  {
+    "repo": "t3chn0pr13st/hermes-webui",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T08:05:40.462629+00:00"
+  },
+  {
+    "repo": "HybridAIOne/hybridclaw",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T08:05:40.462631+00:00"
+  },
+  {
+    "repo": "chii-77/hermes-webui",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T08:05:40.462633+00:00"
+  },
+  {
+    "repo": "qingfengzxr/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T08:05:40.462634+00:00"
+  },
+  {
+    "repo": "shubhsaxena2020/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-22T08:05:40.462636+00:00"
   }
 ]
