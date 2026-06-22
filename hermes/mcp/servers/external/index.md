@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 21, 2026 (afternoon sweep) · **Sources:** mcp.so (22,583+ servers), mcpservers.org (9,228+ servers)
+> **Last updated:** June 22, 2026 · **Sources:** mcp.so (22,583+ servers), mcpservers.org (9,228+ servers)
 
 ---
 
@@ -1327,14 +1327,50 @@ Local-first agent memory — a plain-Markdown Obsidian vault is the source of tr
 - **OpenFate Bazi MCP** — Deterministic Bazi/Four Pillars destiny calculation with True Solar Time
 - **Telugu Panchangam** — Hindu almanac calculations (tithi, nakshatra, muhurta, festivals)
 
+## New This Week (June 22, 2026)
+
+### 20 new servers from mcp.so Feed + Tags (Finance, Analytics, Compliance, Productivity, Security, Commerce)
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Opensosdata ★ New ★ High | Compliance/KYB | Real-time US business entity search across all 53 jurisdictions (50 states + DC + PR + USVI). Search, verify, and check status of any LLC, corporation, or registered entity. Zero-install MCP. Essential for KYB compliance, due diligence, and vendor verification operators |
+| Kyomi ★ New ★ High | Business Intelligence | AI data intelligence platform connecting data warehouses to any MCP client. Supports BigQuery, Snowflake, PostgreSQL, MySQL, ClickHouse, Redshift, Databricks, SQL Server, Azure Synapse. Natural-language queries over warehouse data. Essential for data operators |
+| Kochava For Advertisers ★ Official ★ New ★ High | Marketing/Analytics | Official MCP server with ~30 tools: analytics, attribution, campaign management, tracker management, SQL + async reporting, reference data, account setup. Turns Kochava into a programmable marketing + attribution platform for AI agents |
+| ConvRadar ★ New ★ High | Analytics/Marketing | Hosted GA4 conversion analyst. Ask "where's my biggest funnel drop?" or "did mobile conversion drop last week?" — pulls the right slice, runs diagnostics, answers with numbers + recommended actions. OAuth 2.1, no per-user URLs. Essential for e-commerce operators |
+| EnterpriseMCP ★ New ★ High | ERP/Enterprise | MCP server for connecting enterprise systems — SAP and Salesforce integration. Bridges AI agents to core enterprise infrastructure. Essential for operators running SAP or Salesforce |
+| SAP Commerce MCP Server ★ New ★ High | E-commerce/ERP | SAP Commerce (Hybris) MCP server. Connect AI agents to enterprise e-commerce infrastructure — product catalogs, orders, customer data. Essential for SAP Commerce operators |
+| MDMagic MCP Server ★ New ★ High | Productivity/Docs | Convert Markdown to DOCX, PDF, HTML using custom Word templates or 15 designer-built templates. 10 tools: convert, validate, estimate cost, recommend template, check credits. Puts company branding (logos, fonts, colors, footers, watermarks) directly into AI-generated documents. Credits-based, free tier. `mdmagic.ai` |
+| Langfuse MCP ★ New | Analytics/Dev | 28-tool production-ready server for LLM analytics, cost monitoring, dataset management. Dual-mode (readonly/readwrite), real-time cost analysis, trace debugging. Deploy with `npx`. Essential for operators running LLM-powered workflows |
+| Coinversaa Pulse ★ New | Finance/Crypto | Deepest Hyperliquid dataset as MCP server — indexes clearinghouse directly via gRPC. 710K+ active wallets classified into behavioral cohorts. 26 tools: live cohort positioning, trader profiling, hidden gem discovery, liquidation heatmaps, 1.8B+ trades |
+| Swiss Truth MCP ★ New | Data/Reference | Stop AI hallucinations with certified, source-backed Swiss facts. 8 tools covering Swiss law, health, finance, climate, AI/ML. No API key needed, public and free. Useful for operators dealing with Swiss regulations |
+| Keyward ★ New | Security/DevTools | Local encrypted secret broker for AI agents. Tools request API keys by name over MCP; user approves in native OS dialog. Only the requested key is injected — the model never sees the actual value. Essential for secure agent-key management |
+| Syncspider B2Bware Mcp ★ New | E-commerce/B2B | B2B data hub MCP — product search/listing, customer lookup, cart upsert with custom line-item pricing, order sorting, checkout with shipping/billing method handling. Remote endpoint + local `npx` setup |
+| UCP Checker ★ New | E-commerce/Protocol | Universal Commerce Protocol compatibility checker — verify any domain supports UCP. Returns verification status, manifest version, capabilities, response latency, AI bot access policies. Enables agent-to-tool commerce workflows |
+| Whispergraph ★ New | Security/Threat Intel | Largest queryable infrastructure graph — 7.39B nodes, 39B edges, 5.6M threat-intel relationships. Traverse DNS, BGP, WHOIS, GeoIP, threat intel natively with Cypher queries. By Whisper Security |
+| AgentsID MCP Scanner ★ New | Security/MCP | Security scanner for MCP servers — scores any server against the AgentsID trust framework (0-100, A-F grade). Findings across injection, permissions, validation, auth categories. 15,983 servers in public registry. `npx` install |
+| Abis Mcp Server ★ New | Compliance/Security | 37-tool AI behavioral drift monitoring — 11 LLM models tracked with 9-score scorecards, silent version change detection, immune threat assessment, compliance reporting. Free tier, no API key |
+| Simple PDF API ★ New | Productivity/Docs | 9 PDF tools: HTML-to-PDF, URL-to-PDF, merge, split, watermark, compress, password-protect, rotate, extract text. Free tier on RapidAPI. `uvx pdf-api-mcp` |
+| PMB (Personal Memory Brain) ★ New | Memory/Knowledge | Local-first persistent memory layer for AI coding agents. Gives Claude Code, Cursor, and Codex shared, durable project memory across sessions. No cloud, no API keys |
+| Conxt Memory Layer ★ New | Memory/Knowledge | Persistent AI memory — stores decisions, coding rules, preferences, tool choices, workflows across Claude, ChatGPT, Gemini, Cursor, Windsurf. 8 tools: get_context, add_memory, search_decisions, team workspaces |
+| AgentTrust ★ New | Finance/Crypto | Trustless AI verdict engine for agent economy. Pay 0.1 XRP, POST task spec + proof of work, receive structured PASS/FAIL verdict from Gemini. XRPL crypto-condition escrow. No humans, no disputes |
+
+### Also discovered (niche/consumer/regional)
+
+- **Areacode.fyi Mcp Server** — North American NANP area-code and phone-number intelligence: lookup, validation, local time, overlays, scam/spoofing context, carrier metadata
+- **Travel Agent Mcp** — Canonical travel-agent MCP server: category discovery, day-trip/weekend planning, transit options, airport comparisons
+- **Wever Labs** — MCP-callable paid workflow rails: quotes, payment authority references, signed receipts, ledger entries, verification proof
+- **Normatia** — AI-native Spanish building code compliance for AECO sector
+- **NCCI Claims Validation** — Validate CPT/HCPCS code pairs against NCCI edits, check MUE unit limits, prevent claim denials (healthcare niche)
+- **Ai Compliance** — (description not provided on listing page)
+
 ## Ecosystem Stats
 
 - **Total MCP servers tracked:** 22,583+ (mcp.so), 9,228+ (mcpservers.org)
 - **Official servers:** 45+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 35+ (Finance, Analytics, CRM, Commerce, HR, Sales, Marketing, Content Creation, Gov/Intelligence, Legal, Security/Compliance, Memory, Logistics, ERP, FinOps, Business Intelligence, etc.)
-- **New this cycle (June 21 afternoon):** 8 new MCP servers from mcp.so Feed + mcpservers.org categories
-- **Cumulative since June 9:** 325 MCP servers catalogued across 20 sweeps
+- **New this cycle (June 22):** 20 new MCP servers from mcp.so Feed + Tags
+- **Cumulative since June 9:** 345 MCP servers catalogued across 21 sweeps
 - **New categories added:** Logistics & Supply Chain, ERP & Operations, FinOps, Business Intelligence
 
 ---
