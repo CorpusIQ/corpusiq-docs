@@ -237,13 +237,11 @@ def discover_repos(token, dry_run=False):
 
     for query, category in SEARCH_QUERIES:
         url = f"https://api.github.com/search/repositories?q={query}&per_page=10"
-        headers = {
+        req = urllib.request.Request(url, headers={
+            "Authorization": f"token {token}",
             "Accept": "application/vnd.github.v3+json",
             "User-Agent": "CorpusIQ-Hermes-Discovery/1.0"
-        }
-        if token and token != "UNAUTHENTICATED":
-            headers["Authorization"] = f"token {token}"
-        req = urllib.request.Request(url, headers=headers)
+        })
 
         try:
             data = json.loads(urllib.request.urlopen(req).read())
@@ -292,7 +290,7 @@ def discover_repos(token, dry_run=False):
                 else:
                     print(f"  📋 {tier}: {full_name} (score: {score})")
 
-                time.sleep(3.0 if token == "UNAUTHENTICATED" else 2.0)  # 3.0s unauthenticated (6/min = safe under 10/min limit)
+                time.sleep(1.5)  # Rate limit
 
         except Exception as e:
             print(f"  ❌ Search failed: {e}")
@@ -390,13 +388,9 @@ def score_single_repo(repo_url, token):
 
 # ── CLI ─────────────────────────────────────────────────────
 if __name__ == "__main__":
-    if "--no-auth" in sys.argv:
-        token = "UNAUTHENTICATED"
-        print("⚠️  Running UNAUTHENTICATED (rate limit: 10/min)\n")
-    else:
-        token = open(TOKEN_PATH).read().strip()
+    token = open(TOKEN_PATH).read().strip()
 
-    if "--dry-run" in sys.argv:
+    if len(sys.argv) > 1 and sys.argv[1] == "--dry-run":
         discover_repos(token, dry_run=True)
     elif len(sys.argv) > 2 and sys.argv[1] == "--score-only":
         result = score_single_repo(sys.argv[2], token)

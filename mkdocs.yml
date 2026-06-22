@@ -1,7 +1,7 @@
 site_name: CorpusIQ Docs
 site_url: https://www.corpusiq.io/docs/
 site_description: >-
-  CorpusIQ is a private AI acceleration layer that connects 38+ business tools
+  CorpusIQ is a private AI acceleration layer that connects 37+ business tools
   to ChatGPT, Claude, and Perplexity via the Model Context Protocol (MCP).
   Read-only, cited answers across your entire data stack — no data moved or stored.
 repo_url: https://github.com/CorpusIQ/corpusiq-docs
@@ -195,32 +195,6 @@ nav:
   - Top MCP Platforms: top-mcp-platforms.md
   - Enterprise AI Data Access: enterprise-ai-data-access.md
   - Secure AI Data Connectivity: secure-ai-data-connectivity.md
-- Private AI Solutions:
-  - Private AI for Business: private-ai-for-business.md
-  - AI Workspace Search: ai-workspace-search.md
-  - AI for Small Business: ai-for-small-business.md
-  - MCP Server for Business: mcp-server-for-business.md
-  - Source-Cited AI Answers: source-cited-ai-answers.md
-  - Business Intelligence AI Assistant: business-intelligence-ai-assistant.md
-  - ChatGPT for Business Data: chatgpt-for-business-data.md
-  - Secure AI for Business: secure-ai-for-business.md
-  - Cross-Tool Business Intelligence: cross-tool-business-intelligence.md
-- Worldwide:
-  - AI for UK Business: uk-ai-for-business.md
-  - IA pour Entreprises Françaises: fr-ia-pour-entreprise.md
-  - KI für Deutsche Unternehmen: de-ki-fuer-unternehmen.md
-  - IA para Empresas Españolas: es-ia-para-empresas.md
-  - IA per Aziende Italiane: it-ia-per-aziende.md
-  - AI voor Nederlandse Bedrijven: nl-ai-voor-bedrijven.md
-  - AI for Swedish Business: se-ai-for-business.md
-  - 日本のビジネスにAIを: jp-ai-for-business.md
-  - AI for Australian Business: au-ai-for-business.md
-  - AI for Ecommerce: ai-for-ecommerce.md
-  - AI for Retail: ai-for-retail.md
-  - AI for Accounting Firms: ai-for-accounting-firms.md
-  - AI for Manufacturing: ai-for-manufacturing.md
-  - AI for Legal Firms: ai-for-legal-firms.md
-  - Connect Xero to ChatGPT: connect-xero-to-chatgpt.md
 - 🫡 Hermes Community Hub:
   - Overview: hermes/index.md
   - Ecosystem: hermes/ecosystem.md

@@ -1,13 +1,13 @@
 ---
 title: Hermes Ecosystem — Complete Resource Directory
-description: The definitive directory of Hermes Agent resources — 370+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
+description: The definitive directory of Hermes Agent resources — 360+ repos, official docs, community tools, SDKs, integrations, benchmarks, and research. Everything in the Hermes universe.
 ---
 
 # Hermes Ecosystem — Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 400 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 360 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 21, 2026 · **Repos indexed:** 404 · **Categories:** 18
+> **Last updated:** June 19, 2026 · **Repos indexed:** 368 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -17,22 +17,22 @@ The most comprehensive directory of Hermes Agent resources in existence. 400 rep
 
 | Category | Count | Jump |
 |----------|-------|------|
-| [Core & Official](#-core--official) | 7 | [↓](#-core--official) |
+| [Core & Official](#-core--official) | 6 | [↓](#-core--official) |
 | [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
 | [Community & Awesome Lists](#-community--awesome-lists) | 33 | [↓](#-community--awesome-lists) |
-| [UI & Dashboards](#-ui--dashboards) | 13 | [↓](#-ui--dashboards) |
+| [UI & Dashboards](#-ui--dashboards) | 11 | [↓](#-ui--dashboards) |
 | [Memory & Knowledge](#-memory--knowledge) | 18 | [↓](#-memory--knowledge) |
-| [MCP & Integrations](#-mcp--integrations) | 37 | [↓](#-mcp--integrations) |
-| [Skills & Plugins](#-skills--plugins) | 65 | [↓](#-skills--plugins) |
-| [Tools & Utilities](#-tools--utilities) | 60 | [↓](#-tools--utilities) |
+| [MCP & Integrations](#-mcp--integrations) | 27 | [↓](#-mcp--integrations) |
+| [Skills & Plugins](#-skills--plugins) | 59 | [↓](#-skills--plugins) |
+| [Tools & Utilities](#-tools--utilities) | 54 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 27 | [↓](#-orchestration-multi-agent--swarms) |
+| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 23 | [↓](#-orchestration-multi-agent--swarms) |
 | [Deployment & Infrastructure](#-deployment--infrastructure) | 17 | [↓](#-deployment--infrastructure) |
-| [Security & Governance](#-security--governance) | 6 | [↓](#-security--governance) |
+| [Security & Governance](#-security--governance) | 5 | [↓](#-security--governance) |
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
-| [Content & Media](#-content--media) | 10 | [↓](#-content--media) |
+| [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
 | [Platform-Specific](#-platform-specific) | 10 | [↓](#-platform-specific) |
-| [Domain Applications](#-domain-applications) | 20 | [↓](#-domain-applications) |
+| [Domain Applications](#-domain-applications) | 19 | [↓](#-domain-applications) |
 | [Forks & Derivatives](#-forks--derivatives) | 5 | [↓](#-forks--derivatives) |
 | [Guides](#-guides) | 2 | [↓](#-guides) |
 
@@ -107,17 +107,6 @@ An opinionated workflow layer for building, shipping, and operating apps with He
 **Maintainer:** Salomondiei08  
 **Key capabilities:** Project scaffolding, deployment pipelines, operational workflow patterns, opinionated Hermes configurations  
 **Related:** [Skills Catalog →](/hermes/skills/catalog/) · [Deployment →](/hermes/infrastructure/)
-
----
-
-### mohitagw15856/pm-claude-skills
-⭐ **1,005** · `JavaScript` · [github.com/mohitagw15856/pm-claude-skills](https://github.com/mohitagw15856/pm-claude-skills)
-
-A unified skills library with 174 professional Agent Skills (SKILL.md format) spanning subagents, slash commands, and cross-AI-tool compatibility. One source works across Claude, ChatGPT, Gemini, Cursor, Codex, and Hermes Agent — eliminating duplicate skill maintenance across AI tools.
-
-**Maintainer:** mohitagw15856  
-**Key capabilities:** 174 cross-tool Agent Skills, SKILL.md format, subagents, slash commands, multi-platform compatibility  
-**Related:** [Skills Catalog →](/hermes/skills/catalog/) · [Multi-Agent →](#-orchestration-multi-agent--swarms)
 
 ---
 
@@ -578,28 +567,6 @@ Web dashboard for Hermes Agent — multi-platform AI chat, session management, s
 Open Design platform — local-first, open-source design tool with 259+ skills for AI-powered creative workflows. Native desktop application enabling agent-driven design, prototyping, and visual content generation. Cross-compatible skill format with Hermes Agent, making it a powerful companion for autonomous design workflows in the Hermes ecosystem.
 
 **Related:** Hermes-compatible skills format. Many skills are cross-compatible.
-
----
-
-### op7418/CodePilot
-⭐ **6,029** · `TypeScript` · [github.com/op7418/CodePilot](https://github.com/op7418/CodePilot)
-
-Multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from a unified desktop interface. Supports Claude, GPT, Gemini, and 20+ models with a rich plugin system and real-time agent monitoring.
-
-**Maintainer:** op7418
-**Key capabilities:** Multi-model desktop client, MCP & skill extensions, unified agent interface, real-time monitoring
-**Related:** [UI & Dashboards →](#-ui--dashboards) · [MCP Guide →](/hermes/mcp/)
-
----
-
-### pyrate-llama/hermes-ui
-⭐ **168** · `HTML` · [github.com/pyrate-llama/hermes-ui](https://github.com/pyrate-llama/hermes-ui)
-
-The command center for Hermes Agent — chat, steer, browse files, manage skills, and monitor everything from a single glassmorphic HTML app. Self-hosted, single-file dashboard with Tailscale integration for remote access. React-powered with real-time agent monitoring and MCP tool visibility.
-
-**Maintainer:** pyrate-llama  
-**Key capabilities:** Glassmorphic dashboard, chat interface, file browser, skills manager, task monitoring, Tailscale integration, single-file deployment, MCP-native  
-**Related:** [UI & Dashboards →](#-ui--dashboards) · [MCP Guide →](/hermes/mcp/)
 
 ---
 
@@ -1156,115 +1123,6 @@ Unity MCP server — Model Context Protocol server bridging autonomous agents wi
 
 **Key capabilities:** Unity MCP, game engine integration, Unity Editor control, scene management, build automation, Hermes-compatible
 **Related:** [MCP Guide →](/hermes/mcp/)
-
----
-
-### crawbase/crawlbase-mcp
-⭐ **55** · `TypeScript` · [github.com/crawbase/crawlbase-mcp](https://github.com/crawbase/crawlbase-mcp)
-
-MCP server for web scraping and crawling — Crawlbase's Model Context Protocol server enabling autonomous agents to extract structured web data. Provides Hermes Agent with reliable web scraping capabilities including JavaScript rendering, proxy rotation, and CAPTCHA handling through standardized MCP tool calls. Production-ready bridge for web data extraction at scale.
-
-**Maintainer:** Crawlbase
-**Key capabilities:** Web scraping MCP, JavaScript rendering, proxy rotation, CAPTCHA handling, MCP-native, Hermes-compatible
-**Related:** [MCP Guide →](/hermes/mcp/)
-
----
-
-### jonigl/ollama-mcp-bridge
-⭐ **94** · `Python` · [github.com/jonigl/ollama-mcp-bridge](https://github.com/jonigl/ollama-mcp-bridge)
-
-Ollama API MCP bridge — connects Ollama-hosted local models to the Model Context Protocol ecosystem. Enables Hermes Agent to leverage locally running LLMs through Ollama via standardized MCP tool calls, bridging the gap between local model inference and agent frameworks. Supports model listing, chat completion, embeddings, and model management through MCP.
-
-**Key capabilities:** Ollama MCP bridge, local model support, MCP-native, chat/embeddings, model management, Hermes-compatible
-**Related:** [MCP Guide →](/hermes/mcp/)
-
----
-
-### mark3labs/mcp-go
-⭐ **8,816** · `Go` · [github.com/mark3labs/mcp-go](https://github.com/mark3labs/mcp-go)
-
-Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external tools/data sources. High-performance, idiomatic Go library for building MCP servers and clients with full protocol compliance.
-
-**Maintainer:** mark3labs
-**Key capabilities:** Go MCP implementation, high-performance, production-ready, full protocol compliance, server/client library
-**Related:** [MCP Guide →](/hermes/mcp/)
-
----
-
-### langchain4j/langchain4j
-⭐ **12,381** · `Java` · [github.com/langchain4j/langchain4j](https://github.com/langchain4j/langchain4j)
-
-Idiomatic open-source Java library for building LLM-powered applications. Integrates with 30+ model providers, embedding stores, and vector databases. Provides a unified API for RAG, AI services, tools/agents, and structured outputs with MCP support.
-
-**Maintainer:** LangChain4j Community
-**Key capabilities:** Java LLM framework, 30+ model integrations, RAG, AI services, MCP support, tool-calling
-**Related:** [MCP Guide →](/hermes/mcp/)
-
----
-
-### Klavis-AI/klavis
-⭐ **5,758** · `Python` · [github.com/Klavis-AI/klavis](https://github.com/Klavis-AI/klavis)
-
-MCP integration platform that lets AI agents use tools reliably at any scale. Production-grade tool-calling infrastructure with built-in rate limiting, retry logic, credential management, and observability.
-
-**Maintainer:** Klavis AI
-**Key capabilities:** MCP integration platform, production tool-calling, rate limiting, credential management, observability
-**Related:** [MCP Guide →](/hermes/mcp/) · [Deployment →](/hermes/infrastructure/)
-
----
-
-### metorial/metorial
-⭐ **3,309** · `TypeScript` · [github.com/metorial/metorial](https://github.com/metorial/metorial)
-
-Connect any AI model to 1200+ integrations (MCP, CLI, API). Universal connector hub for agent-to-tool communication — maps agent tool calls to 1200+ SaaS APIs, databases, and services through a single unified interface.
-
-**Maintainer:** Metorial
-**Key capabilities:** 1200+ integrations, universal connector, MCP/CLI/API support, agent-to-tool hub
-**Related:** [MCP Guide →](/hermes/mcp/)
-
----
-
-### superglue-ai/superglue
-⭐ **2,024** · `TypeScript` · [github.com/superglue-ai/superglue](https://github.com/superglue-ai/superglue)
-
-Build integrations and tools from natural language (YC W25). Production-grade tools from simple descriptions — describe what you need and superglue generates the MCP server, API integration, and tool definition automatically.
-
-**Maintainer:** Superglue AI (YC W25)
-**Key capabilities:** Natural language to integration, MCP server generation, API integration, instant tool creation
-**Related:** [MCP Guide →](/hermes/mcp/) · [Skills Catalog →](/hermes/skills/catalog/)
-
----
-
-### blitzdotdev/blitz-mac
-⭐ **1,703** · `Swift` · [github.com/blitzdotdev/blitz-mac](https://github.com/blitzdotdev/blitz-mac)
-
-Native macOS App Store Connect tool with MCP. Submit iOS apps to App Store with AI agents — TestFlight distribution, screenshot management, metadata editing, review monitoring. Brings the full App Store Connect workflow into the MCP ecosystem.
-
-**Maintainer:** Blitz
-**Key capabilities:** App Store Connect MCP, iOS deployment automation, TestFlight management, metadata editing
-**Related:** [MCP Guide →](/hermes/mcp/) · [Deployment →](/hermes/infrastructure/)
-
----
-
-### ascending-llc/jarvis-registry
-⭐ **1,465** · `Python` · [github.com/ascending-llc/jarvis-registry](https://github.com/ascending-llc/jarvis-registry)
-
-Connect any AI copilot or autonomous agent to enterprise tools through a single, secure MCP/A2A gateway. Enterprise tool registry for agents — discover, authenticate, and access internal APIs, databases, and services with governed access control and audit logging.
-
-**Maintainer:** Ascending LLC
-**Key capabilities:** Enterprise MCP/A2A gateway, tool registry, governed access, audit logging, API discovery
-**Related:** [MCP Guide →](/hermes/mcp/) · [Security →](#-security--governance)
-
----
-
-### microsoft/mcp-for-beginners
-⭐ **16,583** · `Jupyter Notebook` · [github.com/microsoft/mcp-for-beginners](https://github.com/microsoft/mcp-for-beginners)
-
-Official Microsoft open-source curriculum introducing Model Context Protocol (MCP) fundamentals through real-world exercises and hands-on labs. Covers MCP server/client architecture, tool definitions, resource management, and best practices.
-
-**Maintainer:** Microsoft
-**Key capabilities:** MCP curriculum, hands-on labs, server/client architecture, best practices, Microsoft-official
-**Related:** [MCP Guide →](/hermes/mcp/) · [Documentation →](#-documentation--learning)
 
 ---
 
@@ -1910,7 +1768,6 @@ Native X/Twitter plugin for Hermes. Post, read, and interact with Twitter direct
 
 **Status:** Beta  
 **Key capabilities:** Twitter integration, native X client, social posting
-**Related:** [Hermes Tweet catalog entry](/hermes/skills/catalog/communication/hermes-tweet/)
 
 ---
 
@@ -2161,72 +2018,6 @@ Binance Skills Hub — official collection of agent skills from Binance for cryp
 
 **Key capabilities:** Binance skills, crypto trading, market analysis, blockchain data, DeFi automation, enterprise-grade, Hermes-compatible
 **Related:** [Skills Catalog →](/hermes/skills/catalog/)
-
----
-
-### aipotheosis-labs/aci
-⭐ **4,801** · [github.com/aipotheosis-labs/aci](https://github.com/aipotheosis-labs/aci)
-
-Open source tool-calling platform with 600+ tools — comprehensive agent tooling infrastructure providing Hermes Agent with an extensive library of pre-built, production-tested tool integrations. Covers APIs, databases, file systems, cloud services, and domain-specific utilities through a unified tool-calling interface. Accelerates agent development by eliminating tool integration boilerplate with a curated, maintained tool ecosystem.
-
-**Maintainer:** Aipotheosis Labs
-**Key capabilities:** 600+ tools, tool-calling platform, unified interface, API/database/filesystem/cloud, Hermes-compatible
-**Related:** [Skills Catalog →](/hermes/skills/catalog/) · [MCP Guide →](/hermes/mcp/)
-
----
-
-### obra/superpowers
-⭐ **234,886** · `Shell` · [github.com/obra/superpowers](https://github.com/obra/superpowers)
-
-The canonical agentic skills framework and software development methodology that works across any AI agent. Provides a comprehensive skill pack for agent-driven coding — project scaffolding, test generation, refactoring, debugging, and DevOps workflows. The most-starred agent skills repository, setting the standard for skill-based agent augmentation.
-
-**Maintainer:** obra
-**Key capabilities:** Agentic skills framework, software development methodology, project scaffolding, cross-agent compatibility, 234K+ stars
-**Related:** [Skills Catalog →](/hermes/skills/catalog/) · [Tools & Utilities →](#-tools--utilities)
-
----
-
-### deanpeters/Product-Manager-Skills
-⭐ **5,282** · `Shell` · [github.com/deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills)
-
-Product management skills framework built on battle-tested methods for AI coding agents. Covers PRD writing, user story generation, roadmap planning, competitive analysis, stakeholder updates, and launch checklists.
-
-**Maintainer:** deanpeters
-**Key capabilities:** Product management skills, PRD/user story generation, roadmap planning, competitive analysis, launch workflows
-**Related:** [Skills Catalog →](/hermes/skills/catalog/)
-
----
-
-### aaron-he-zhu/seo-geo-claude-skills
-⭐ **2,199** · `Python` · [github.com/aaron-he-zhu/seo-geo-claude-skills](https://github.com/aaron-he-zhu/seo-geo-claude-skills)
-
-20 SEO & GEO skills for AI coding agents. Keyword research, content writing, competitor analysis, and search optimization workflows packaged as agent-executable skill modules. Enables agents to autonomously optimize web content for search engines and generative engine optimization (GEO).
-
-**Maintainer:** aaron-he-zhu
-**Key capabilities:** SEO/GEO skills, keyword research, content optimization, competitor analysis, 20 skill modules
-**Related:** [Skills Catalog →](/hermes/skills/catalog/) · [Content & Media →](#-content--media)
-
----
-
-### openakita/openakita
-⭐ **1,824** · `Python` · [github.com/openakita/openakita](https://github.com/openakita/openakita)
-
-Open-source AI assistant framework with skills and agent architecture. Extensible skill system with multi-provider support (Anthropic, OpenAI, Gemini). Modular agent design allowing custom skill injection, tool integration, and workflow automation across multiple AI backends.
-
-**Maintainer:** OpenAkita
-**Key capabilities:** AI assistant framework, extensible skills, multi-provider support, modular agent design
-**Related:** [Skills Catalog →](/hermes/skills/catalog/)
-
----
-
-### formkit/formkit
-⭐ **4,731** · `TypeScript` · [github.com/formkit/formkit](https://github.com/formkit/formkit)
-
-The form framework for coding agents — structured schema-driven form generation with agent-native validation, submission handling, and multi-step workflows. Enables AI agents to generate, validate, and process complex form UIs programmatically across web frameworks.
-
-**Maintainer:** FormKit
-**Key capabilities:** Agent-native form generation, schema-driven, multi-step workflows, validation, cross-framework
-**Related:** [Skills Catalog →](/hermes/skills/catalog/) · [UI & Dashboards →](#-ui--dashboards)
 
 ---
 
@@ -2819,72 +2610,6 @@ Wave Terminal — open-source terminal workspace with graphical widgets, web ren
 
 ---
 
-### giselles-ai/giselle
-⭐ **537** · [github.com/giselles-ai/giselle](https://github.com/giselles-ai/giselle)
-
-AI App Builder, Open Source — visual application builder that empowers AI agents to design, prototype, and generate full applications through a declarative interface. Enables Hermes Agent to build complete web and mobile applications with UI generation, backend scaffolding, database integration, and deployment configuration. Open-source platform for agent-driven application development from concept to production.
-
-**Key capabilities:** AI app builder, visual design, UI generation, backend scaffolding, open source, Hermes-compatible
-**Related:** [Tools & Utilities →](#-tools--utilities)
-
----
-
-### web-agent-master/google-search
-⭐ **605** · `Python` · [github.com/web-agent-master/google-search](https://github.com/web-agent-master/google-search)
-
-Playwright-based search scraper — robust Google search result extraction using Playwright for JavaScript-rendered pages. Provides Hermes Agent with reliable, programmatic access to Google search results including organic results, featured snippets, knowledge panels, and related queries. Handles anti-bot detection, pagination, and result parsing for agent-driven web research and competitive analysis.
-
-**Key capabilities:** Google search scraping, Playwright-based, JS rendering, anti-bot handling, result parsing, Hermes-compatible
-**Related:** [Tools & Utilities →](#-tools--utilities) · [MCP Guide →](/hermes/mcp/)
-
----
-
-### lingcoder/crab-code
-⭐ **72** · `Rust` · [github.com/lingcoder/crab-code](https://github.com/lingcoder/crab-code)
-| [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | **⭐ 8,273** | World's first open-source agentic video production system with 12 pipelines and 52 tools. | Tools & Utilities |
-| [sourcegraph/awesome-code-ai](https://github.com/sourcegraph/awesome-code-ai) | **⭐ 1,678** | Curated list of AI coding tools — assistants, completions, refactoring, and code agents. | Tools & Utilities |
-| [tnm/zclaw](https://github.com/tnm/zclaw) | **⭐ 2,165** | Personal AI assistant at 888KiB — runs on embedded devices. Minimal app code. | Tools & Utilities |
-
-Open-source Claude Code alternative in Rust — high-performance AI coding agent built from the ground up in Rust for speed, safety, and memory efficiency. Native-code performance with zero-cost abstractions, fearless concurrency, and comprehensive tool support for code generation, debugging, refactoring, and project management. Drop-in compatible with Hermes Agent workflows for users seeking a Rust-native alternative with lower resource overhead and faster execution.
-
-**Key capabilities:** Claude Code alternative, Rust-native, high performance, memory safe, code generation, Hermes-compatible
-**Related:** [Forks & Derivatives →](#-forks--derivatives)
-
----
-
-### arc53/DocsGPT
-⭐ **17,942** · `Python` · [github.com/arc53/DocsGPT](https://github.com/arc53/DocsGPT)
-
-Private AI platform for agents, assistants, and enterprise search. Built-in Agent Builder, deep research capabilities, and document intelligence — self-hosted alternative to enterprise AI platforms. Enables Hermes Agent to deploy private, secure document Q&A and research agents with custom knowledge bases.
-
-**Maintainer:** Arc53
-**Key capabilities:** Private AI platform, Agent Builder, document intelligence, enterprise search, self-hosted
-**Related:** [Tools & Utilities →](#-tools--utilities) · [Memory & Knowledge →](#-memory--knowledge)
-
----
-
-### moazbuilds/CodeMachine-CLI
-⭐ **2,496** · `TypeScript` · [github.com/moazbuilds/CodeMachine-CLI](https://github.com/moazbuilds/CodeMachine-CLI)
-
-Open-source tool that orchestrates AI coding agents into repeatable, long-running development pipelines. CI/CD for agent-driven development — define pipeline stages, chain agent tasks, and run multi-hour autonomous coding sessions with checkpoint recovery and progress tracking.
-
-**Maintainer:** moazbuilds
-**Key capabilities:** Agent pipeline orchestration, CI/CD for agents, long-running sessions, checkpoint recovery
-**Related:** [Tools & Utilities →](#-tools--utilities) · [Orchestration →](#-orchestration-multi-agent--swarms)
-
----
-
-### datopian/portaljs
-⭐ **2,282** · `TypeScript` · [github.com/datopian/portaljs](https://github.com/datopian/portaljs)
-
-AI-native framework for building data portals. Scaffold a full portal from a brief, load datasets, and deploy — all agent-driven. Combines React components, data visualization, and AI agent integration for rapid data portal creation with minimal coding.
-
-**Maintainer:** Datopian
-**Key capabilities:** AI-native data portals, agent-driven scaffolding, dataset loading, React components
-**Related:** [Tools & Utilities →](#-tools--utilities)
-
----
-
 ## 🎯 Orchestration, Multi-Agent & Swarms
 
 Frameworks and patterns for coordinating multiple agents.
@@ -3107,50 +2832,6 @@ Conductor — Netflix-originated, battle-tested workflow orchestration engine no
 
 ---
 
-### mezmo/aura
-⭐ **121** · [github.com/mezmo/aura](https://github.com/mezmo/aura)
-
-Agentic harness for LLM models — lightweight coordination layer that connects large language models to agent frameworks with structured tool execution, context management, and task routing. Provides Hermes Agent with a flexible harness for orchestrating model calls across providers with built-in retry logic, rate limiting, and response validation. Designed as a drop-in agentic middleware for production LLM deployments.
-
-**Maintainer:** Mezmo
-**Key capabilities:** Agentic harness, LLM orchestration, tool execution, context management, task routing, Hermes-compatible
-**Related:** [Orchestration →](#-orchestration-multi-agent--swarms)
-
----
-
-### BAAI-Agents/Cradle
-⭐ **2,539** · `Python` · [github.com/BAAI-Agents/Cradle](https://github.com/BAAI-Agents/Cradle)
-
-General Computer Control (GCC) framework from Beijing Academy of AI (BAAI). Agents that can control any computer software — browsers, IDEs, office suites, creative tools. First-of-its-kind framework for building agents with universal software control capabilities across any GUI application.
-
-**Maintainer:** BAAI (Beijing Academy of Artificial Intelligence)
-**Key capabilities:** General Computer Control, GUI automation, cross-application, universal software control, BAAI research
-**Related:** [Orchestration →](#-orchestration-multi-agent--swarms) · [Research →](#-research--benchmarks)
-
----
-
-### fim-ai/fim-one
-⭐ **1,269** · `Python` · [github.com/fim-ai/fim-one](https://github.com/fim-ai/fim-one)
-
-Open-source agent platform for global enterprises. Wire every system through one agent core — unified operations across business units with multi-language support, enterprise SSO, and compliance-ready deployment. Designed for organizations operating across China and global markets.
-
-**Maintainer:** FIM AI
-**Key capabilities:** Enterprise agent platform, unified operations, multi-language, SSO, cross-market deployment
-**Related:** [Orchestration →](#-orchestration-multi-agent--swarms) · [Deployment →](/hermes/infrastructure/)
-
----
-
-### tale-project/tale
-⭐ **12** · `TypeScript` · [github.com/tale-project/tale](https://github.com/tale-project/tale)
-
-The Orchestrator for AI Agents — Connect OpenClaw, Hermes Agent, Claude Code, Codex, Cursor, Gemini CLI, OpenCode, and Pi. Pool their knowledge, delegate tasks, and build your swarm of agents. Stateful memory, tool routing, and real-time monitoring across multi-agent workflows. Low-code orchestration layer with MCP-native connectivity and RAG-powered knowledge sharing.
-
-**Maintainer:** tale-project  
-**Key capabilities:** Multi-agent orchestration, cross-platform agent connectivity, stateful memory, tool routing, real-time monitoring, RAG knowledge sharing, MCP-native, low-code  
-**Related:** [Orchestration →](#-orchestration-multi-agent--swarms) · [MCP Guide →](/hermes/mcp/)
-
----
-
 ## 🚀 Deployment & Infrastructure
 
 Running Hermes in production — from Docker to Kubernetes.
@@ -3332,16 +3013,6 @@ OAuth lifecycle management with refresh automation, expiration monitoring, and a
 
 ---
 
-### cxumol/promptmask
-⭐ **127** · `Python` · [github.com/cxumol/promptmask](https://github.com/cxumol/promptmask)
-
-Local privacy filter for LLMs — on-device prompt sanitization that scrubs sensitive information before it reaches external LLM APIs. Provides Hermes Agent with a local privacy layer that detects and redacts PII, credentials, API keys, and confidential data from prompts using pattern matching and ML-based detection. Runs entirely locally with zero data leakage, ensuring agent interactions with external models never expose private information.
-
-**Key capabilities:** Local privacy filter, PII redaction, prompt sanitization, on-device processing, zero data leakage, Hermes-compatible
-**Related:** [Security & Governance →](#-security--governance)
-
----
-
 ## 🔍 Detection & Media Forensics
 
 Deepfake detection and media verification for autonomous agents.
@@ -3507,26 +3178,6 @@ Search AI podcast quotes by topic across Lex Fridman, Dwarkesh Patel, No Priors,
 
 **Status:** Beta  
 **Key capabilities:** AI podcast search, quote discovery, topic search, semantic podcast engine, Lex Fridman, Dwarkesh Patel
-
----
-
-### Anil-matcha/Open-Generative-AI
-⭐ **20,306** · `JavaScript` · [github.com/Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI)
-
-Free, open-source AI media studio — 200+ models for image and video generation through a single desktop interface. No content filters, no subscription, self-hosted. Next.js 15 + React 19 + Electron. Pay only for API costs of models used.
-
-**Status:** Active (v2.0.0)  
-**Key capabilities:** Image generation, video generation, lip sync, 200+ model access, desktop app, self-hosted
-
----
-
-### SamurAIGPT/Generative-Media-Skills
-[github.com/SamurAIGPT/Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills)
-
-Agent-native media skills for Claude Code, Cursor, and Hermes. 41 workflow recipes, MCP server with 19 tools, and CLI-powered media generation via muapi-cli. Schema-driven architecture with Core/Library split for LLM-efficient discovery.
-
-**Status:** Active  
-**Key capabilities:** Agent media skills, MCP server, 41 workflow recipes, image/video/audio generation, muapi-cli integration
 
 ---
 
@@ -3784,17 +3435,6 @@ JeecgBoot — enterprise-grade low-code development platform for rapidly buildin
 
 ---
 
-### Open-Source-Legal/OpenContracts
-⭐ **1,359** · `Python` · [github.com/Open-Source-Legal/OpenContracts](https://github.com/Open-Source-Legal/OpenContracts)
-
-Open document intelligence platform for the agentic world. DMS designed for AI agents — contract analysis, redlining, clause extraction, obligation tracking. Enables Hermes Agent to autonomously review, analyze, and manage legal documents with structured annotation, layout parsing, and NLP-powered extraction.
-
-**Maintainer:** Open Source Legal
-**Key capabilities:** Legal document intelligence, contract analysis, redlining, clause extraction, agent-ready DMS
-**Related:** [Domain Applications →](#-domain-applications)
-
----
-
 ## 🔀 Forks & Derivatives
 
 Notable forks and derivative projects building on Hermes Agent.
@@ -3878,18 +3518,18 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 332 |
+| Total repos indexed | 305 |
 | Categories | 18 |
 | Official Nous Research repos | 4 |
 | Community awesome lists | 21 |
-| UI/Dashboard projects | 11 |
+| UI/Dashboard projects | 10 |
 | Memory systems | 17 |
-| MCP integrations | 30 |
-| Skill collections & plugins | 55 |
-| Tools & utilities | 44 |
+| MCP integrations | 20 |
+| Skill collections & plugins | 49 |
+| Tools & utilities | 38 |
 | Research/benchmark projects | 12 |
 | Deployment & infra projects | 16 |
-| Domain applications | 18 |
+| Domain applications | 17 |
 | Forks & derivatives | 5 |
 | Language-specific resources | 12 (10 CN, 1 JP, 1 EN) |
 | Total community stars | 1M+ across all indexed repos |
@@ -3955,7 +3595,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 313 repos · 18 categories · 1M+ community stars · 55 skill collections · 30 MCP integrations · 16 domain applications
+> **📊 Ecosystem Stats:** 286 repos · 18 categories · 1M+ community stars · 48 skill collections · 20 MCP integrations · 15 domain applications
 
 ---
 
@@ -3963,7 +3603,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence — **313+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence — **286+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 

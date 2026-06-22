@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 22, 2026 · **Sources:** mcp.so (22,583+ servers), mcpservers.org (9,228+ servers)
+> **Last updated:** June 20, 2026 (morning sweep) · **Sources:** mcp.so (22,544+ servers), mcpservers.org (9,228+ servers)
 
 ---
 
@@ -109,58 +109,7 @@ Agent-to-agent knowledge exchange for trading intelligence — publish empirical
 ### ROIC.AI Financial Data API ★ Official ★ New
 Access ROIC.AI financial data from AI tools, including company financials, ratios, prices, transcripts, and market research data. Official MCP server for fundamental analysis — essential for operators who need institutional-grade financial data in their AI workflows.
 
-### Stripe Mcp Server ★ New ★ High
-Natural-language Stripe for Claude — 7 tools (customers, revenue, invoices, subscriptions, disputes, refunds). Idempotency-safe writes, pinned API version to prevent silent breakage. Essential for payment operators. By Lokesh Loke.
-
-### Qb Auto ★ New ★ High
-QuickBooks Online MCP for Claude Code — 8 automation tools (invoices, payments, reports) that replace ~50K-token UI snapshots. Essential for accounting operators using QuickBooks. `npx` or direct install.
-
-### Cli Market ★ New ★ High
-LATAM price intelligence — 41 verified retailers across 8 countries (PE, AR, BR, MX, CO, CL, IT, FR). 61,000+ prices refreshed every 4h. Search, compare, basket optimization, inflation signals, procurement workflows. Free API key at cli-market.dev.
-
-### Equity Intel Mcp ★ New
-Stock intelligence for any LLM — SEC insider trades, superinvestor holdings (Dataroma), analyst consensus, valuation, options, and composite ticker analysis. Free/public data with graceful no-data handling (never fabricates numbers).
-
-### Finance Toolkit ★ New ★ High
-200+ financial metrics calculated transparently from raw financial statements — not pulled from third-party endpoints. AI assistants get verified, reproducible financial ratios and metrics. Essential for operators who need auditable financial calculations. By Jeroen Bouma.
-
-### Well ★ New ★ High
-AI-powered finance agent for SMB founders and finance teams. Connects multiple banking APIs, categorizes expenses, generates real-time insights, automates invoice workflows, and delivers customizable FP&A and investor reporting. Essential for operators who want bookkeeping-free financial management.
-
-### Norman Finance MCP Server ★ New
-Accounting and tax filing autopilot for entrepreneurs in Germany. Manage invoicing, accounting, and taxes directly inside Claude, Cursor, or any LLM. Essential for German-market operators.
-
-### Expensebot ★ New
-First expense management tool on the official MCP Registry — CASA Tier 2 certified. 13 authenticated tools: search expenses, submit photo/PDF receipts, scan Gmail for receipts, create expense reports, deep analytics, tax compliance checks. Separate read-only server for pre-sales questions. Free with any ExpenseBot account (60-day trial). `@expensebot/mcp-server-auth`
-
-### Kelnix Receipt MCP API ★ New
-Turn any receipt into structured, accounting-ready JSON or Markdown. Vision AI extracts merchant, date, line items, tax breakdown, totals, currency, and confidence scores. Suggests correct GL account for instant journal entries. 7 tools for end-to-end receipt processing. 50 free credits on signup.
-
-### meskeIA MCP ★ New
-160+ fiscal, financial, labor, and health calculators in Spanish. Covers IRPF, autónomos, mortgages, inheritance, payroll, investments, BMI, and more. Free, no registration or API key. Compatible with Claude Desktop, Cursor, Windsurf. Essential for Spanish-speaking operators and businesses in Spain/LATAM.
-
-### PaperLink MCP ★ New
-Document sharing, analytics, invoicing & personal finance — 15+ tools with granular OAuth 2.1 scopes. Secure document sharing (password-protected, email-gated, NDA agreements), real-time page heatmaps and viewer engagement analytics, full invoicing (estimates, clients, companies, products), personal & business accounting with multi-currency and batch receipts.
-
-### Mintline ★ New
-Connect AI assistants to manage receipts and bank transactions using natural language. Automatically match receipts to bank transactions, analyze spending patterns conversationally, and review all financial data through natural language queries.
-
-### @frihet/mcp Server ★ New
-31-tool AI-native MCP server for business management — invoicing, expenses, clients, products, quotes, tax compliance. Multi-currency (40 currencies), VeriFactu ready (Spanish tax compliance). OAuth 2.0 + PKCE. Works with Claude, GPT, and custom agents.
-
-### FinBrain MCP ★ New
-Institutional-grade alternative financial data directly in LLM workflows. Access alternative financial data without building ETL pipelines. finbrain.tech.
-
-### Twelve Data MCP ★ New
-MCP server for the Twelve Data API — historical time series, latest quotes, and instrument lists for stocks, forex, and crypto. Professional-grade market data for trading and investment operators.
-
-### @frihet/mcp Server ★ New
-
-### Bitcompare Crypto Yield ★ New ★ High
-18 read-only tools serving live and historical crypto lending, staking, borrowing, and stablecoin yields across 350+ assets and 60+ providers (CeFi & DeFi). Data refreshed every 5 minutes. Includes coin metadata, aggregated prices, market stats, and stablecoin peg-stability data. Auth via single `ck_live_*` API key. Hosted endpoint: `https://api.bitcompare.net/mcp` or local: `npx @bitcompare/mcp-server`. Docs: docs.bitcompare.net/mcp
-
-### Tensorfeed X402 Base Mcp ★ New
-Read-only Base mainnet chain reader for x402 payment verification — confirms on-chain USDC settlement against claimed x402 receipts (recipient + amount). Parses publisher `/.well-known/x402` manifests and lists recent USDC payments to an address. No private keys — verification only. Companion to Coinbase Base MCP; includes A2A federation helpers.
+---
 
 ## Document Intelligence
 
@@ -275,71 +224,6 @@ First SEA e-commerce MCP server — real-time product search across 11M+ product
 ### Attio MCP Server ★ New
 AI-native CRM (Attio) via MCP — manage companies, people, lists, and tasks directly from AI assistants like Claude, Cursor, and ChatGPT. Comprehensive Attio API support with robust error handling, automatic retry logic, and input validation. Requires Node.js 18+ and Attio API key. `npx -y @kesslerio/attio-mcp-server`. Essential for operators using Attio as their CRM who want AI agents to query and manage customer relationships.
 
-### WooCommerce MCP Server ★ New
-Connect AI assistants to WooCommerce stores — product catalog, categories, reviews, and WordPress content through secure, read-only MCP interface. WordPress plugin install — no external server needed. Essential for ecommerce operators running WooCommerce.
-
-### Shopify MCP Server ★ New
-Connect AI agents to Shopify stores — manage products, orders, customers, and store data via MCP. Multiple implementations available (Python and Node.js). Essential for Shopify operators.
-
-### BigCommerce API MCP ★ New
-Comprehensive BigCommerce REST API integration — products management, customer retrieval, and order management with customer-product relationship capabilities. Three powerful tools for full ecommerce operations. Essential for BigCommerce operators.
-
-### Profitlee Mcp ★ New ★ High
-Ecommerce and marketplace profitability analysis MCP. Calculate net profit, profit margin, ROI, breakeven price, and fee-adjusted outcomes from product cost, selling price, shipping, ads, platform fees, and tax inputs. Reusable profit scenarios for price/cost comparison. Essential for marketplace sellers and ecommerce operators.
-
-### Coinbase Commerce MCP Server ★ New
-Generate Coinbase Commerce payment links from AI agents. Accept crypto payments directly through MCP workflows. Essential for operators accepting cryptocurrency payments.
-
----
-
-## HR & Recruiting
-
-### Careerproof ★ New ★ High
-Career & workforce intelligence platform — 42 MCP tools for HR/TA teams and professionals. Deep career analytics, workforce planning, and talent intelligence. Essential for HR operators and talent acquisition teams.
-
-### HONO AI HCM MCP Server ★ New
-Enterprise HR assistant for employee data and HR policy queries. Connect AI agents to HCM systems for employee self-service, policy lookups, and HR workflow automation. Essential for enterprise HR operators.
-
-### Smart Match ★ New
-AI-powered job matching and application tracker. Analyze job listings against your resume, get a match score (0-100), identify skill gaps, generate cover letters, and track your application pipeline. Ideal for recruitment operators and job seekers.
-
----
-
-## Sales & Outreach
-
-### LinkMCP ★ New ★ High
-Hosted LinkedIn MCP — 25 tools for profiles, messages, search, post engagement, company data, and enrichment. OAuth-authenticated, rate-limited, account-safe. Essential for operators who prospect and engage through LinkedIn.
-
-### Swarmix Mcp ★ New
-AI client acquisition autopilot — 15 MCP tools for LinkedIn, Email, X, Instagram & Blog outreach from Claude. Multi-channel prospecting and engagement automation for sales operators.
-
-### Buska ★ New
-Social listening & B2B lead gen — search mentions, AI score leads, detect buying signals across 30+ platforms (X, Reddit, LinkedIn, YouTube, Hacker News, etc.). Essential for operators who need AI-driven social listening and lead detection.
-
-### REPLY.IO ★ New
-Sales engagement platform via MCP — list/manage sequences, pull analytics (delivery, open, reply, click rates), enroll contacts, pause/start campaigns — all via natural language. Hosted, API key. Essential for sales operators running outbound sequences.
-
-### toflow.ai MCP Server ★ New
-B2B outbound with AI agents — build lead lists, enrich (verified emails/phones), multi-channel sequences (email, LinkedIn, WhatsApp). Chrome extension for prospect capture, CRM sync. Essential for B2B sales operators.
-
-### Marvenn ★ New
-AI-powered outreach platform — multichannel campaigns (email, phone, social, SMS), real-time stats, lead CRM, approve/reject AI actions, manage agents. Essential for sales and growth teams.
-
-### Peliqan ★ New ★ High
-All-in-one data platform (ETL + warehouse) — MCP exposes 100+ SaaS connectors including Salesforce, HubSpot, Shopify. Real-time company data access from AI agents. Essential for operators who need unified data access across their SaaS stack.
-
-### Gantta MCP ★ New
-Turn conversations into project plans — milestones, dependencies, owners, auto-chase actions, meeting transcriptions → tasks, reports & slide decks. No account needed to start. Essential for operators managing projects through AI conversations.
-
-### Pubrio ★ New
-Glocalized business data layer — 50 tools to search companies/people/jobs/news/ads, enrich records, reveal contacts, manage signal monitors. Business intelligence MCP for sales, marketing, and competitive intelligence operators.
-
-### Nynch Mcp Server ★ New
-42-tool MCP — CRM, relationship intelligence, multi-agent orchestration (contacts, deals, analysis). Full-stack sales and relationship management for AI agents.
-
-### Marketcheck ★ New
-Automotive data MCP server — search US/UK auto listings, predict prices, decode VINs, and access market history from AI agents. `https://developers.marketcheck.com/mcp`. Useful for operators in automotive, fleet management, insurance, and auto finance.
-
 ---
 
 ## Compliance & Regulatory
@@ -352,33 +236,6 @@ EU DORA compliance evidence infrastructure — 50 MCP tools across 11 servers, E
 
 ### Trust Gate MCP ★ New ★ Featured
 First post-quantum MCP server. Policy-gated AI agent decisions with hybrid Ed25519 + ML-DSA-65 (NIST FIPS 204) cryptographic receipts. Every tool call is policy-gated, hybrid-signed, and offline-verifiable. 4 tools: `gate_decision`, `verify_receipt`, `check_policy`, `health`. Production-ready (47 unit tests, 51 OWASP ASI checks, 0 CVEs in deps). EU AI Act Article 50 native, NSA CNSA 2.0 / NIST AI RMF / SOC 2 ready. Apache-2.0. Essential for operators in regulated industries who need cryptographically verifiable AI agent decisions with post-quantum security. `pip install trust-gate-mcp`
-
-### Agent Module — EU AI Act Compliance ★ New
-Structured, human-reviewed compliance guidance that agents consume at runtime — covering EU AI Act obligations, GDPR requirements, risk classification, prohibited practices, and transparency rules. Free 24hr trial — no signup, no credit card. Self-provisioning trial keys. Essential for operators deploying AI in the EU market. By AgentModule.
-
-### deepidv ★ New
-Identity verification and anti-fraud platform via MCP. AI agents can initiate KYC/KYB verification sessions, manage workflows, retrieve bank statement analysis, and query case statuses through natural language. Essential for fintech, HR, and compliance operators who need identity verification in their AI workflows.
-
-### Abis Mcp Server ★ New
-Real-time AI behavioral drift monitoring — 37 tools tracking 11 LLM models with 9-score scorecards, silent version change detection, immune threat assessment, and compliance reporting. Free tier, no API key required. Essential for operators managing AI systems in production.
-
-### Disclos — EU AI Act ★ New
-Remote MCP server for EU AI Act compliance. Add one URL to Claude, Cursor, or Windsurf — no install — and AI classifies any AI system against Regulation (EU) 2024/1689, returns the three-wave timeline, explains risk tiers, and crosswalks to ISO 42001, NIST AI RMF, and GDPR. Essential for EU operators needing zero-install compliance checks.
-
-### Agent Broker ★ New
-MCP server for AI agents to interact with SMBs — book appointments, send messages, find businesses. 13 tools. Compliance pre-check (TCPA, GDPR, CASL). Channel fallback: Cal.com → voice → SMS → email → web form.
-
-### Cloud Audit ★ New
-Open-source AWS security scanner with Attack Chains, Breach Cost Estimation, and MCP Server. 47 checks across 15 AWS services. Every finding includes copy-paste remediation (CLI + Terraform) and a dollar-risk estimate with verified source. First free standalone AWS security MCP server. Essential for operators managing AWS infrastructure.
-
-### Averta security ★ New ★ High
-Governed MCP gateway — secure every MCP server with one gateway. Give each AI agent its own scoped MCP access, contain credentials at the gateway (agents never see raw credentials), and audit every MCP tool call. Runtime checkpoints at 5 points: request evaluation, tool exposure control, tool call approval, tool result inspection, and output filtering. OpenAI and Anthropic provider wrappers preserve native SDK shape. `@averta-security/sdk-anthropic`. Essential for enterprise operators deploying MCP at scale — addresses the core security challenge of credential containment and audit in multi-agent environments.
-
-### CISO ADAPT ★ New
-Connect AI agents to your CISO Adapt workspace — search, analyze, export, and manage risks and policies via natural language. MCP-native risk management and cybersecurity compliance for operators who need AI-driven security posture management. `https://cisoadapt.ai/docs/mcp-server`
-
-### Patent Connector ★ New
-Official patent offices across 6 jurisdictions (EPO, USPTO, DPMA, IP Australia, JPO, TIPO) + EUIPO — patents, trademarks, and designs. Official data, no scraping, no intermediate database. Essential for IP/legal operators who need direct access to patent office data from AI agents.
 
 ---
 
@@ -525,14 +382,8 @@ AI agent scope-creep auditor — audits code diffs against original task prompts
 ### YPipe ★ New
 Local AI desktop client + MCP orchestration engine — visual GUI or headless, Java-native, runs offline models on your own hardware with zero cloud routing. One-click MCP server installation, autonomous agent chains, model recommendation based on hardware. Cross-platform (Win/Mac/Linux). GitHub: `iunera/ypipe`
 
-### Cloudgate Builder ★ New ★ High
-Build and ship live APIs from chat — Claude creates and runs real workflow-APIs in your Cloudgate workspace. Sign in once with OAuth and endpoints go live instantly. No servers to manage. Claude plugin directory integration with `cloudgate-build` skill. `https://github.com/dev-appworld/mcp`. Essential for operators who want to create and deploy APIs directly from AI agent conversations.
-
 ### Legacy Java to Microservices Refactoring ★ New
 A community gateway to migrate legacy Jakarta EE monoliths into Spring Boot 3.4 microservices using AST parsing. Discovery gateway for a premium MCPize-hosted service. For Java enterprise operators modernizing legacy stacks.
-
-### LLM Bus ★ New
-Multi-agent coordination to avoid collisions and re-derivation of work across Claude Code, Cursor, and Codex. Features: atomic gap-free ID claims, advisory file leases, shared event ledger and digest, agent presence, prose handoffs, and task graph. Native Streamable HTTP. Open source (AGPL-3.0); self-host or use hosted at `llm-bus.com`. Essential for operators running multiple AI agents concurrently.
 
 ---
 
@@ -622,12 +473,6 @@ Self-hosted AppFlowy Cloud access via Docker with token-scoped, tree-shaped acce
 ### Atlassian Confluence MCP ★ New
 Open-source MCP server for Atlassian Confluence that lets AI assistants read, create, search, and manage Confluence wiki pages. Works with Confluence Cloud, on-premise Server, and Data Center deployments. Connect your AI coding agent to your team's knowledge base via npx. Essential for operators with Confluence-based documentation workflows.
 
-### ServiceNow MCP ★ New ★ High
-65+ tools covering the full ServiceNow REST surface — Table, Aggregate, Attachment, Import Set, Batch, CMDB/IRE, Service Catalog, Change Management, and Knowledge APIs. Includes script intelligence (read/search instance code), flow tracing with Mermaid diagrams, ATF test execution, multi-instance profiles, and self-documentation via local Markdown knowledge base. 7 authentication methods (Basic, OAuth 2.1 PKCE recommended, Client Credentials, JWT Bearer, API Key, Bearer Token, mTLS). Least-privilege controls: table allow/deny lists, global read-only mode, per-package restrictions. 20 tool packages loadable on demand. Node.js 20+. `npx servicenow-mcp-ai`. Essential for enterprise operators running ServiceNow — brings ITSM automation directly into AI agent workflows.
-
-### PDFMakerAPI ★ New ★ High
-Generate professional PDFs (invoices, receipts, documents, letters, proposals) via natural language from any MCP client. Single `create_document` tool returns a shareable link — open to preview, edit any field, and download the PDF. Hosted endpoint at `https://api.pdfmakerapi.com/mcp` (no install) or via `npx -y @pdfmakerapi/mcp`. No account or API key needed. Essential for operators who generate documents from AI workflows.
-
 ### Muxara ★ New
 Online video conversions via API — convert videos between formats directly from your AI agent. Lightweight video processing MCP for operators who need quick format conversions without heavy video editing tools.
 
@@ -647,9 +492,6 @@ Print and send physical mail and postcards to US addresses (USPS), paid per call
 ### Granola MCP ★ Official
 AI-powered meeting notes and summaries. Connect your meeting data to AI agents.
 
-### tinysend ★ New
-Agent-native email MCP — create newsletters, manage subscribers and contacts, and write & send broadcasts over MCP. Remote streamable-HTTP server with OAuth sign-in (no API key to paste). Essential for operators who want AI agents to handle newsletter and email marketing campaigns.
-
 ### Superlist MCP Server ★ Official
 Task and project management via MCP. Connect AI agents to your Superlist workspace.
 
@@ -658,12 +500,6 @@ Connect your AI assistant to Onboard to monitor live onboarding projects, surfac
 
 ### Sendmux Email MCP ★ Official ★ New
 Email inbox and sending API purpose-built for AI agents. Sendmux provides transactional email sending, inbox management, and email operations via MCP. Official MCP server — essential for operators who want AI agents to handle email workflows (notifications, transactional emails, inbox automation) without building custom integrations. Streamable HTTP transport.
-
-### Shipmail MCP ★ New ★ High
-Business email MCP for AI agents — custom-domain inboxes, REST API, webhooks, and full email tools (send, read, reply). Streamable HTTP transport. Built for AI agent email operations with custom-domain support. `jcoulaud/shipmail-mcp`. Essential for operators who need AI agents to manage business email through custom domains.
-
-### PieterPost MCP ★ New
-Physical mail for AI agents — prepare, price, review, pay for, and send real letters and postcards via OAuth-powered MCP. Test-mode default for safety, idempotency keys on all create operations, payment link flow (mail only sent after Stripe confirms payment). Mailbook contacts with full CRUD. 20 tools including search, fetch, quote_order, create_compose_link, create_payment_link, create_direct_order. `https://pieterpost.com/mcp/`. For operators who need to trigger physical postal mail from AI agent workflows.
 
 ---
 
@@ -689,9 +525,6 @@ Convert blog URLs to video in under 3 minutes via MCP. Turn written content into
 
 ### DesignForYou ★ New
 Generate finished, on-brand designs — logos, social posts, app-store screenshots, comic panels, and visual-novel assets — from a prompt. Remote MCP server backed by 119 templates: free browse/recommend tools, metered generation, OAuth sign-in. Works in Claude Code, Cursor, and ChatGPT. Essential for operators who need design assets without a design team.
-
-### Pm Skills ★ New
-Open-source library of 205 professional agent skills across 21 professions — PRDs, launch plans, postmortems, rubrics, contracts, pitch decks, and more. Exposed as MCP tools: `list_skills`, `search_skills`, `get_skill`. Also provides MCP prompts and resources. MIT license. GitHub: `mohitagw15856/pm-claude-skills`. Run with `npx -y pm-claude-skills-mcp` or hosted at `https://pm-skills-mcp.pm-claude-skills.workers.dev/`. Essential for operators who want a comprehensive library of battle-tested professional templates accessible from any MCP client.
 
 ---
 
@@ -787,23 +620,11 @@ Generate on-brand image and video ads from AI agents. 24 tools — brand/product
 ### Domain Deliverability Checker ★ New
 Email domain DNS deliverability scoring for AI agents — checks SPF, DKIM, DMARC, MX records, blacklist lookups, domain age, and produces a 0-100 composite score. `mammalabsdev/mcp-domain-deliverability-checker`. For email marketing operators monitoring deliverability health.
 
-### Company Firmographic Enricher ★ New ★ High
-Enrich company domains into structured firmographics with source provenance — employee band, industry, HQ location, founded year, revenue estimate, logo, and description. Data parsed from schema.org/Organization JSON-LD and HTML meta tags. Single `enrich_company_firmographics` tool with batch support (up to 10 domains concurrently). Apify-backed, requires Apify API token. MIT license. `npx -y @mambalabsdev/mcp-company-firmographic-enricher`. Essential for sales and marketing operators enriching company data in AI workflows.
-
-### Sociavault ★ New ★ High
-107 tools across 11 social platforms (TikTok, Instagram, YouTube, X/Twitter, LinkedIn, Facebook, Reddit, Threads, Pinterest, Twitch, TikTok Shop) + Google — all read-only. Ad library coverage (TikTok, Meta, Google, LinkedIn). Token-efficient with default trimmed responses. Zero-install via npx. Requires SociaVault API key. `npx -y sociavault-mcp`. Essential for social media operators and growth teams — brings full social media intelligence into AI agent workflows with platform-by-platform tool groups.
-
-### Company Social Presence Mapper ★ New
-Map a company domain to its LinkedIn, X, Instagram, Facebook, and YouTube profile URLs with follower counts. Returns flat Clay-ready JSON with discovery method, per-platform status, and confidence scoring. Essential for sales and marketing operators doing company research and enrichment.
-
 ### Poppify Studio ★ New
 Photo-to-reel MCP for solo founders and SMBs. Upload 1–10 photos and get a captioned vertical reel for Instagram, TikTok, YouTube Shorts, or Facebook — with motion, library-matched music, and optional AI voiceover. Content creation MCP for operators who need social video without video editing skills.
 
 ### Spimov AI Video Dubbing ★ New
 Dub any video into 600 languages straight from your AI chat — YouTube dubbing and voice cloning via MCP. Global content distribution MCP for operators expanding content across language markets.
-
-### Datavessel ★ New ★ High
-Hosted MCP server that gives AI agents read and write access to your full marketing and ecommerce stack — Google Analytics, Search Console, Google & Meta Ads, Shopify, WooCommerce, Shopware, Slack, and LinkedIn. 100+ tools across 10 connectors. BYOK (bring your own keys), OAuth 2.1 with dynamic client registration. `https://mcp.datavessel.io/mcp`. Essential for operators who want one MCP server to orchestrate their entire marketing and ecommerce toolchain — directly competitive with CorpusIQ's connector breadth in the marketing space.
 
 ---
 
@@ -829,9 +650,6 @@ Memory with drift detection for AI agents — detects context staleness and sign
 
 ### Memclaw ★ New ★ Featured
 Governed, shared, self-improving memory for AI agent fleets — built for multi-tenant, multi-agent production environments. Apache 2.0. 131 GitHub stars. Production-proven: eToro runs 300+ agents on Memclaw (26,500+ memories, 1,372 shared skills, 23ms p50 search). Features: tenant isolation, visibility scopes (agent/team/org), agent trust tiers (0–3), full audit trails, single-pass LLM enrichment (14 memory types), hybrid search (pgvector + full-text + knowledge graph), contradiction detection, and PII auto-flagging. Managed platform at memclaw.net or self-hosted via Docker. `pip install memclaw-client` or `npm install @caura/memclaw-client`. Essential for operators running fleets of AI agents who need governed, shared memory with production-grade isolation and audit.
-
-### agentcairn ★ Official ★ New
-Local-first agent memory — a plain-Markdown Obsidian vault is the source of truth, with a rebuildable DuckDB index providing hybrid BM25 + vector + graph recall. Official MCP server. Ideal for operators who want agent memory that is human-readable, local-first, and rebuildable from source files.
 
 ---
 
@@ -891,23 +709,6 @@ Local-first agent memory — a plain-Markdown Obsidian vault is the source of tr
 | ACG Mcp ★ New | Search | Audited Context Generation — verifiable fact-checking and grounded RAG via MongoDB |
 | bruno-mcp ★ New | Development | MCP server for Bruno API testing collections — create, manage, execute .bru and .yml |
 | InfraNode ★ New | Data/Infrastructure | Free, keyless MCP — German city data (weather, transit, energy, air quality), 38 tools, Apache 2.0 |
-
----
-
-## New This Week (June 21, 2026 — afternoon sweep)
-
-### 8 new servers from mcp.so Feed + mcpservers.org categories
-
-| Server | Category | Description |
-|--------|----------|-------------|
-| Datavessel ★ New ★ High | Marketing/E-commerce | Hosted MCP for full marketing & ecommerce stack — GA, GSC, Google & Meta Ads, Shopify, WooCommerce, Shopware, Slack, LinkedIn. 100+ tools across 10 connectors. BYOK, OAuth 2.1 with dynamic client registration. `https://mcp.datavessel.io/mcp` |
-| Bitcompare Crypto Yield ★ New ★ High | Finance/Crypto | 18 read‑only tools: live/historical crypto lending, staking, borrowing, stablecoin yields. 350+ assets, 60+ providers (CeFi & DeFi). Data refreshed every 5 min. Coin metadata, aggregated prices, market stats, peg-stability data. Hosted: `https://api.bitcompare.net/mcp`. Local: `npx @bitcompare/mcp-server` |
-| Marketcheck ★ New | Data/Automotive | Search US/UK auto listings, predict prices, decode VINs, access market history from AI agents. `https://developers.marketcheck.com/mcp` |
-| LLM Bus ★ New | Dev/Infrastructure | Multi-agent coordination — avoid collisions & re-derivation: atomic gap-free IDs, advisory file leases, shared event ledger, prose handoffs, task graph. Streamable HTTP. Open source (AGPL-3.0). `llm-bus.com` |
-| Pm Skills ★ New | Productivity | Open-source library of 205 agent skills across 21 professions — PRDs, launch plans, postmortems, rubrics, contracts, pitch decks. Exposed as MCP tools: `list_skills`, `search_skills`, `get_skill`. MIT license. `npx -y pm-claude-skills-mcp` |
-| agentcairn ★ Official ★ New | Memory/Knowledge | Local-first agent memory: plain-Markdown Obsidian vault is source of truth, rebuildable DuckDB index for hybrid BM25 + vector + graph recall. Official MCP server. |
-| CISO ADAPT ★ New | Security/Compliance | Connect AI agents to your CISO Adapt workspace — search, analyze, export, manage risks and policies via natural language. `https://cisoadapt.ai/docs/mcp-server` |
-| Tensorfeed X402 Base Mcp ★ New | Finance/Blockchain | Read-only Base mainnet chain reader for x402 payment verification — confirms on-chain USDC settlement, parses publisher manifests, lists recent USDC payments. No private keys. |
 
 ---
 
@@ -1165,9 +966,9 @@ Local-first agent memory — a plain-Markdown Obsidian vault is the source of tr
 
 ---
 
-## New This Week (June 20, 2026 — afternoon sweep)
+## New This Week (June 20, 2026 — morning sweep)
 
-### 11 new servers from mcpservers.org All + mcp.so Latest (morning)
+### 11 new servers from mcpservers.org All + mcp.so Latest
 
 | Server | Category | Description |
 |--------|----------|-------------|
@@ -1183,195 +984,16 @@ Local-first agent memory — a plain-Markdown Obsidian vault is the source of tr
 | YPipe ★ New | Dev/Infra | Local AI desktop client + MCP orchestration engine — visual GUI or headless, Java-native, runs offline models with zero cloud. One-click MCP server installation, autonomous agent chains. Cross-platform (Win/Mac/Linux). |
 | Legacy Java to Microservices ★ New | Dev/Infra | Community gateway to migrate Jakarta EE monoliths into Spring Boot 3.4 microservices via AST parsing. Discovery gateway for premium MCPize-hosted service. |
 
-### 13 NEW servers from mcpservers.org All (afternoon)
-
-| Server | Category | Description |
-|--------|----------|-------------|
-| ServiceNow MCP ★ New ★ High | Enterprise/ITSM | 65+ tools over full ServiceNow REST surface — Table, Aggregate, Attachment, Import Set, Batch, CMDB/IRE, Catalog, Change, Knowledge APIs. Script intelligence, flow tracing, ATF runs, multi-instance profiles, Mermaid diagrams. OAuth 2.1 (PKCE), 7 auth methods. Node.js 20+. `npx servicenow-mcp-ai` |
-| Sociavault ★ New ★ High | Social Media/Intel | 107 tools across 11 social platforms (TikTok, Instagram, YouTube, X, LinkedIn, Facebook, Reddit, Threads, Pinterest, Twitch, TikTok Shop) + Google. Ad library coverage (TikTok, Meta, Google, LinkedIn). Zero-install via npx. API key. `npx -y sociavault-mcp` |
-| Averta security ★ New ★ High | Security/Gateway | Governed MCP gateway — scoped agent access, credential containment at gateway, full audit trail. Runtime checkpoints at request, tool exposure, tool call, tool result, and output. OpenAI & Anthropic wrappers. `@averta-security/sdk-anthropic` |
-| Shipmail MCP ★ New ★ High | Communication | Business email MCP for AI agents — custom-domain inboxes, REST API, webhooks, send/read/reply tools. Streamable HTTP. `https://mcpservers.org/servers/jcoulaud/shipmail-mcp` |
-| Company Firmographic Enricher ★ New ★ High | Marketing/Sales | Enrich company domains into structured firmographics (employee band, industry, HQ, founded year, revenue, logo, description) via schema.org JSON-LD. Apify-backed. `npx -y @mambalabsdev/mcp-company-firmographic-enricher` |
-| PDFMakerAPI ★ New ★ High | Productivity/Docs | Generate PDFs (invoices, receipts, documents, letters, proposals) via natural language → shareable link to preview, edit, download. Hosted endpoint or npx. No API key needed. `https://api.pdfmakerapi.com/mcp` or `npx -y @pdfmakerapi/mcp` |
-| Cloudgate Builder ★ New ★ High | Dev/API | Build and ship live APIs from chat — Claude creates and runs workflow-APIs in your Cloudgate workspace. OAuth sign-in, endpoints go live instantly. `https://mcpservers.org/servers/dev-appworld/mcp` |
-| PieterPost MCP ★ New | Communication | Physical mail for AI agents — prepare, price, review, pay for, and send real letters and postcards. OAuth-powered MCP with test-mode default, idempotency keys, payment link flow. 20 tools. `https://pieterpost.com/mcp/` |
-| Keenable Web Search ★ New | Search | Live web search and clean-markdown page fetch — works keyless by default. Time-filtered search (absolute/relative dates). OAuth optionally available. `https://api.keenable.ai/mcp` |
-| System Metrics MCP Server ★ New | Dev/Infra | Real-time system monitoring — CPU, memory, disk, and process metrics via FastMCP. `npx` or Python install. |
-| supertonic3-mcp ★ New | Dev/TTS | Local, on-device TTS for Claude & Cursor — no API key, no cloud, 10 voices, 31 languages, ~820ms on Apple Silicon. `npx -y supertonic3-mcp` |
-| AutoCAD MCP Server ★ New | Design | Production-grade AutoCAD control via MCP — draw lines, circles, rectangles, manage layers, calculate areas, export PDFs. Windows only via AutoCAD COM API. `ranvirw18/autocad-mcp-server.git` |
-| Ration Pantry Management ★ New | Consumer | AI-native kitchen MCP — pantry inventory, cook-from-stock recipes, meal plans, and shopping lists. OAuth, 35+ tools. `https://ration.mayutic.com/mcp` |
-
 ---
-
-## New This Week (June 20, 2026 — evening sweep)
-
-### 15 new servers from mcp.so Feed (evening)
-
-| Server | Category | Description |
-|--------|----------|-------------|
-| Stripe Mcp Server ★ New ★ High | Payments | Natural-language Stripe for Claude — 7 tools (customers, revenue, invoices, subscriptions, disputes, refunds). Idempotency-safe writes, pinned API version to prevent silent breakage. Essential for payment operators. By Lokesh Loke. |
-| Qb Auto ★ New ★ High | Finance/Accounting | QuickBooks Online MCP for Claude Code — 8 automation tools (invoices, payments, reports) that replace ~50K-token UI snapshots. Essential for accounting operators using QuickBooks. |
-| Cli Market ★ New ★ High | E-commerce/Finance | LATAM price intelligence — 41 verified retailers across 8 countries (PE, AR, BR, MX, CO, CL, IT, FR). 61,000+ prices refreshed every 4h. Search, compare, basket optimization, inflation signals, procurement workflows. Free API key at cli-market.dev. |
-| Equity Intel Mcp ★ New | Finance | Stock intelligence for any LLM — SEC insider trades, superinvestor holdings (Dataroma), analyst consensus, valuation, options, and composite ticker analysis. Free/public data with graceful no-data handling (never fabricates numbers). |
-| Patent Connector ★ New | Legal/IP | Official patent offices across 6 jurisdictions (EPO, USPTO, DPMA, IP Australia, JPO, TIPO) + EUIPO. Official data, no scraping, no intermediate database. Essential for IP/legal operators. |
-| TensorFeed ★ New | Content/AI Intel | Real-time AI ecosystem data — AI news, service status, model pricing, today's summary, agent activity. Free tools for operators tracking the AI landscape. |
-| NewsMCP ★ New | Content/Research | Real-time news from hundreds of sources, clustered by AI, classified by topic and geography, ranked by importance. Free, no API key. Essential for operators monitoring market news. |
-| FormFill MCP ★ New | Productivity/Docs | Fill PDF forms from AI agents — tax forms, HR paperwork, legal documents, lease agreements, insurance claims. Closes the last-mile gap in AI document workflows. |
-| n8n MCP Server ★ New | Automation | n8n workflow automation platform via MCP. Connect AI agents to 400+ integrations and custom workflow logic. Essential for operators building no-code automation pipelines. |
-| Trellistate MCP ★ New | Real Estate | Free public AI-readable real estate listing exchange — 5 tools to search, retrieve, and act on residential, commercial, FSBO, and off-market listings. |
-| Career Site Jobs ★ New | HR/Recruiting | Retrieve up-to-date job listings from company career sites via MCP. Essential for recruitment operators and talent acquisition teams. |
-| Wekan MCP ★ New | Productivity | Open-source kanban board via MCP — manage tasks, boards, and workflows from AI agents. Includes auto-generated API tokens and environment configuration. |
-| CISO Adapt MCP ★ New | Security/GRC | GRC workspace via MCP — query and act on governance, risk, and compliance data from AI agents. Essential for security operators and compliance teams. |
-| Conduit ★ New | Dev/Infra | Local-first MCP gateway — every MCP server behind one endpoint shared by all AI coding tools. Simplifies MCP management for multi-agent setups. |
-| Docklet ★ New | Productivity | Create artifacts with AI tool and publish with Docklet — turn AI-generated pages, demos, proposals, and guides into live links with feedback and engagement tracking. No exports, hosting setup, or file handoffs. |
-
----
-
-## New This Week (June 21, 2026 — morning sweep)
-
-### 38 new servers from mcp.so Feed + Tags (Finance, Commerce, HR, Sales, Compliance, Accounting) + mcpservers.org
-
-| Server | Category | Description |
-|--------|----------|-------------|
-| Finance Toolkit ★ New ★ High | Finance | 200+ financial metrics from raw financial statements — auditable, reproducible. By Jeroen Bouma |
-| Well ★ New ★ High | Finance | AI finance agent for SMBs — banking APIs, expense categorization, FP&A, investor reporting |
-| Norman Finance MCP Server ★ New | Finance/Accounting | Accounting & tax filing autopilot for German entrepreneurs |
-| Expensebot ★ New | Finance/Accounting | CASA Tier 2 expense management — 13 tools, receipt scanning, Gmail integration, tax compliance |
-| Kelnix Receipt MCP API ★ New | Finance/Accounting | Receipt → structured JSON/Markdown with GL account suggestions. 50 free credits |
-| Profitlee Mcp ★ New ★ High | E-commerce | Marketplace profitability analysis — net profit, margin, ROI, breakeven, fee-adjusted outcomes |
-| WooCommerce MCP Server ★ New | E-commerce | AI agents connect to WooCommerce — product catalog, categories, reviews. WordPress plugin |
-| Shopify MCP Server ★ New | E-commerce | AI agents manage Shopify products, orders, customers. Python + Node.js |
-| BigCommerce API MCP ★ New | E-commerce | Products, customers, orders with customer-product relationships |
-| Coinbase Commerce MCP Server ★ New | Payments/Crypto | Generate crypto payment links from AI agents |
-| LinkMCP ★ New ★ High | Sales/LinkedIn | 25 LinkedIn tools — profiles, messages, search, company data. OAuth, rate-limited |
-| Peliqan ★ New ★ High | Data/Sales | 100+ SaaS connectors (Salesforce, HubSpot, Shopify) via MCP + ETL warehouse |
-| Careerproof ★ New ★ High | HR/Recruiting | 42-tool workforce intelligence — career analytics, TA tools |
-| HONO AI HCM MCP Server ★ New | HR | Enterprise HR assistant — employee data, policy queries, self-service |
-| Buska ★ New | Sales/Intel | Social listening across 30+ platforms — AI lead scoring, buying signals |
-| REPLY.IO ★ New | Sales | Sales engagement — sequences, analytics (opens/replies/clicks), campaign management |
-| toflow.ai MCP Server ★ New | Sales | B2B outbound — lead lists, enrichment, multi-channel sequences (email, LinkedIn, WhatsApp) |
-| Marvenn ★ New | Sales | Multichannel AI outreach — email, phone, social, SMS campaigns |
-| Swarmix Mcp ★ New | Sales | 15-tool outreach autopilot — LinkedIn, Email, X, Instagram, Blog |
-| Gantta MCP ★ New | Productivity/Sales | Conversations → project plans with milestones, dependencies, auto-chase |
-| Pubrio ★ New | Data/Sales | 50-tool business data layer — companies, people, jobs, news, ads |
-| Nynch Mcp Server ★ New | CRM/Sales | 42-tool CRM with relationship intelligence and multi-agent orchestration |
-| tinysend ★ New | Communication/Email | Agent-native email — newsletters, subscribers, broadcasts. OAuth, streamable HTTP |
-| meskeIA MCP ★ New | Finance/Calculators | 160+ Spanish fiscal, financial, labor calculators. Free, no API key |
-| PaperLink MCP ★ New | Finance/Docs | 15+ tools: document sharing, invoicing, personal finance, page analytics. OAuth 2.1 |
-| Mintline ★ New | Finance/Accounting | Receipt-to-bank matching, spending analysis via natural language |
-| @frihet/mcp Server ★ New | Finance/Business | 31-tool business management — invoicing, expenses, clients, multi-currency, VeriFactu |
-| FinBrain MCP ★ New | Finance/Data | Institutional-grade alternative financial data for LLM workflows |
-| Twelve Data MCP ★ New | Finance/Market Data | Stocks, forex, crypto — time series, quotes, instrument lists |
-| Agent Module — EU AI Act ★ New | Compliance | Runtime EU AI Act compliance guidance. Free 24hr trial, self-provisioning |
-| deepidv ★ New | Compliance/Identity | KYC/KYB verification from AI agents — bank statement analysis, case management |
-| Abis Mcp Server ★ New | Compliance/Security | 37-tool AI behavioral drift monitoring — 11 LLM models, free tier |
-| Disclos — EU AI Act ★ New | Compliance | Zero-install EU AI Act classification — ISO 42001, NIST AI RMF, GDPR crosswalks |
-| Agent Broker ★ New | Compliance/SMB | AI-to-SMB interactions with TCPA/GDPR/CASL compliance pre-checks |
-| Cloud Audit ★ New | Compliance/Security | AWS security scanner — 47 checks, Attack Chains, Breach Cost Estimation. Free |
-| Company Social Presence Mapper ★ New | Marketing/Sales | Domain → LinkedIn, X, Instagram, Facebook, YouTube profiles with follower counts |
-| Crane Ledger ★ New | Finance/Accounting | API-first accounting platform for AI builders |
-| Openaccountants ★ New | Finance/Tax | 261+ open-source, accountant-verified tax computation skills for AI agents |
-
-## New This Week (June 21, 2026 — afternoon sweep)
-
-### 29 new servers from mcpservers.org (Communication, Memory, Cloud, Marketing, Development, Other) + mcp.so
-
-| Server | Category | Description |
-|--------|----------|-------------|
-| FoundersOS ★ New ★ High | Productivity/CRM | CRM, tasks, finances, feeds, and memory for founders — all via MCP. Essential for solo operators |
-| Amplifier MCP Server ★ Official ★ New ★ High | E-commerce/Logistics | D2C eCommerce fulfillment — manage orders, inventory, shipments, campaigns, and billing from AI agents |
-| AgenticBI ★ New ★ High | Business Intelligence | Connect business data to any MCP client — find data, join across systems, run queries, build dashboards. No SQL required |
-| Demiton ★ New ★ High | ERP/Operations | Connect Claude to operational data — ERP, payroll, asset management, procurement. Identity-bound, governed write-backs, audited |
-| Warp Freight ★ New | Logistics/Supply Chain | Quote, book & track LTL/FTL freight from any MCP agent — 23 tools with inline cards |
-| Toolforest MCP ★ Official ★ New | Productivity/Data | Hosted remote MCP with 15+ toolkits: Google Workspace, Kalshi, Polymarket, Fitbit, Oura. Managed OAuth |
-| Cloudability API ★ New | Cloud/FinOps | Full MCP server for Cloudability — advanced cost management, Kubernetes container analytics, budget forecasting |
-| nable (finops-mcp) ★ New ★ High | Cloud/FinOps | Local-first FinOps copilot — plain-English queries over AWS, Azure, GCP, SaaS costs. Anomaly detection, rightsizing, idle-resource cleanup. Credentials stay local |
-| StackQL MCP Server ★ Official ★ New | Cloud/Infrastructure | Expose cloud provider control & data planes as SQL-queryable data sources. Minimizes tool surface + token usage |
-| Clearview Politics ★ New | Data/Intelligence | Real-time US political news API for AI agents — structured JSON, bias-audited, 26+ sources across 5 categories |
-| Conformi EU Legal Search ★ New ★ High | Legal/Compliance | EU legal research for AI agents — semantic + full-text search over ~48,000 EUR-Lex acts. Daily drift monitoring, CELEX citations. German/English/French. Free tier, no key for article tools. `https://conformi.eu/api/mcp` |
-| Ambix ★ New | Product/Strategy | Product team's shared strategic memory MCP — strategy, initiatives, objectives, journey stages, insights as structured AI-reason-able data. OAuth at `https://mcp.ambix.ai` |
-| StandupCraft ★ New | Dev/Productivity | Reads git commits & GitHub activity to generate daily standups/weekly reports from AI agents. No API key required |
-| Zentric Protocol ★ New | Security/Compliance | Security & compliance layer for MCP agents — prompt injection detection (22 deterministic signatures, 7 languages), PII detection, signed audit records (SHA-256 + UUID + UTC). Free tier: 10,000 requests/month |
-| BumpGuard ★ New | Dev/Infrastructure | Pre-flight dependency-upgrade analysis — reports breaking usages with line numbers, severity, fix hints. Also hallucination checker for AI-written code |
-| PPXC Find Customers ★ New | Marketing/Sales | Turn short-video comments into customer leads, keyword ideas, and outreach scripts |
-| Zaslat.cz ★ New | Logistics | End-to-end logistics management — rate comparison, shipment creation, and package tracking via MCP |
-| Weftly ★ New | Content Creation | AI post-production for audio/video — transcribe, summarize, find clips, cut horizontal/vertical clips, publish to YouTube. Per-job pricing |
-| ECMR MCP ★ New | Logistics/Transport | Electronic consignment notes (eCMR) — create, sign, manage, track transport documents with QR codes, PDFs, digital signatures (Cargoffer API) |
-| DevOps MCP ★ New | Dev/Infrastructure | Secure SSH automation — three-tier access control, human-consent token gate, port-conflict scanning, read-only safe mode. Works with Claude Code, Cursor, Windsurf |
-| SSC MCP Server ★ New | Security/GRC | SecurityScorecard MCP — hybrid semantic search over all 628 API endpoints. Enterprise security posture management for AI agents |
-| Modal MCP ★ New | Cloud/Infrastructure | Manage Modal apps, containers, volumes, secrets — deploy & run directly from MCP clients |
-| ActivitySmith MCP ★ Official ★ New | Communication/Mobile | Send push notifications and Live Activities to paired iOS devices from AI agents |
-| GoodSender ★ New | Communication/Email | Free, consent-based local MCP server — send plain-text, HTML, and Markdown emails with automatic recipient-consent handling |
-| WorldCitiSim eSIM ★ New | Travel/Mobility | Travel eSIMs for 193 countries — AI agents search plans, order via Stripe/Bitcoin, receive QR code in 30 seconds |
-| Memxus ★ New | Memory/Knowledge | One memory across all AI tools (Claude, ChatGPT, Cursor, Slack) and apps (Notion, Linear, Jira, Gmail, Salesforce). Save once, remember everywhere |
-| sessionmem ★ New | Memory/Knowledge | Local-first persistent session memory — claims 85.6% token reduction. No cloud |
-| Lorekeeper ★ New | Memory/Knowledge | Self-improving memory server — hybrid search, feedback-loop quality system, dashboard UI, auto-linking knowledge graph. Gets better the more you use it |
-| AgentLine ★ New | Communication/Voice | Telephony services for AI agents — voice calls from MCP clients |
-
-### Also discovered (niche/consumer/regional)
-
-- **Ringback** — AI agents initiate two-way voice calls + tiered alerts to your phone (self-hosted)
-- **ACHIVX Forum** — Agent-native forum for x402/A2A ecosystem with USDC bounties
-- **iletiMerkezi MCP** — Turkish SMS API (BTK-licensed): send, query delivery, manage senders. `npx -y @iletimerkezi/mcp-server`
-- **Local MCP (LMCP)** — 143 local tools: Mail, iMessage, Teams, Slack, WhatsApp & files. 100% local, no API keys
-- **Ninellayer** — Agent-native search engine optimized for AI agents
-- **Rami Code Review** — AI-focused code review catching bugs/risks AI coding agents commonly leave
-- **SentiBook** — Social network where AI agents and humans participate as equals
-- **aX Platform** — Agent-native collaboration network with persistent identity, real-time messaging, task handoffs
-- **PromptFax** — Send one-off fax from AI chat ($2-$4.50 per fax)
-- **Cure Cancer With AI** — Free oncology data (research, clinical trials, FDA approvals) via MCP
-- **GoCodes Asset Tracking** — QR code, Bluetooth Beacon & GPS asset tracking via MCP
-- **Chess.com MCP** — Interactive chess board replays and playable puzzles via Skybridge
-- **World Cup 2026 MCP Server** — Free World Cup data for AI agents
-- **Healthy Food MCP** — Structured recipe content, calorie categories, diet/meal groups
-- **OpenFate Bazi MCP** — Deterministic Bazi/Four Pillars destiny calculation with True Solar Time
-- **Telugu Panchangam** — Hindu almanac calculations (tithi, nakshatra, muhurta, festivals)
-
-## New This Week (June 22, 2026)
-
-### 20 new servers from mcp.so Feed + Tags (Finance, Analytics, Compliance, Productivity, Security, Commerce)
-
-| Server | Category | Description |
-|--------|----------|-------------|
-| Opensosdata ★ New ★ High | Compliance/KYB | Real-time US business entity search across all 53 jurisdictions (50 states + DC + PR + USVI). Search, verify, and check status of any LLC, corporation, or registered entity. Zero-install MCP. Essential for KYB compliance, due diligence, and vendor verification operators |
-| Kyomi ★ New ★ High | Business Intelligence | AI data intelligence platform connecting data warehouses to any MCP client. Supports BigQuery, Snowflake, PostgreSQL, MySQL, ClickHouse, Redshift, Databricks, SQL Server, Azure Synapse. Natural-language queries over warehouse data. Essential for data operators |
-| Kochava For Advertisers ★ Official ★ New ★ High | Marketing/Analytics | Official MCP server with ~30 tools: analytics, attribution, campaign management, tracker management, SQL + async reporting, reference data, account setup. Turns Kochava into a programmable marketing + attribution platform for AI agents |
-| ConvRadar ★ New ★ High | Analytics/Marketing | Hosted GA4 conversion analyst. Ask "where's my biggest funnel drop?" or "did mobile conversion drop last week?" — pulls the right slice, runs diagnostics, answers with numbers + recommended actions. OAuth 2.1, no per-user URLs. Essential for e-commerce operators |
-| EnterpriseMCP ★ New ★ High | ERP/Enterprise | MCP server for connecting enterprise systems — SAP and Salesforce integration. Bridges AI agents to core enterprise infrastructure. Essential for operators running SAP or Salesforce |
-| SAP Commerce MCP Server ★ New ★ High | E-commerce/ERP | SAP Commerce (Hybris) MCP server. Connect AI agents to enterprise e-commerce infrastructure — product catalogs, orders, customer data. Essential for SAP Commerce operators |
-| MDMagic MCP Server ★ New ★ High | Productivity/Docs | Convert Markdown to DOCX, PDF, HTML using custom Word templates or 15 designer-built templates. 10 tools: convert, validate, estimate cost, recommend template, check credits. Puts company branding (logos, fonts, colors, footers, watermarks) directly into AI-generated documents. Credits-based, free tier. `mdmagic.ai` |
-| Langfuse MCP ★ New | Analytics/Dev | 28-tool production-ready server for LLM analytics, cost monitoring, dataset management. Dual-mode (readonly/readwrite), real-time cost analysis, trace debugging. Deploy with `npx`. Essential for operators running LLM-powered workflows |
-| Coinversaa Pulse ★ New | Finance/Crypto | Deepest Hyperliquid dataset as MCP server — indexes clearinghouse directly via gRPC. 710K+ active wallets classified into behavioral cohorts. 26 tools: live cohort positioning, trader profiling, hidden gem discovery, liquidation heatmaps, 1.8B+ trades |
-| Swiss Truth MCP ★ New | Data/Reference | Stop AI hallucinations with certified, source-backed Swiss facts. 8 tools covering Swiss law, health, finance, climate, AI/ML. No API key needed, public and free. Useful for operators dealing with Swiss regulations |
-| Keyward ★ New | Security/DevTools | Local encrypted secret broker for AI agents. Tools request API keys by name over MCP; user approves in native OS dialog. Only the requested key is injected — the model never sees the actual value. Essential for secure agent-key management |
-| Syncspider B2Bware Mcp ★ New | E-commerce/B2B | B2B data hub MCP — product search/listing, customer lookup, cart upsert with custom line-item pricing, order sorting, checkout with shipping/billing method handling. Remote endpoint + local `npx` setup |
-| UCP Checker ★ New | E-commerce/Protocol | Universal Commerce Protocol compatibility checker — verify any domain supports UCP. Returns verification status, manifest version, capabilities, response latency, AI bot access policies. Enables agent-to-tool commerce workflows |
-| Whispergraph ★ New | Security/Threat Intel | Largest queryable infrastructure graph — 7.39B nodes, 39B edges, 5.6M threat-intel relationships. Traverse DNS, BGP, WHOIS, GeoIP, threat intel natively with Cypher queries. By Whisper Security |
-| AgentsID MCP Scanner ★ New | Security/MCP | Security scanner for MCP servers — scores any server against the AgentsID trust framework (0-100, A-F grade). Findings across injection, permissions, validation, auth categories. 15,983 servers in public registry. `npx` install |
-| Abis Mcp Server ★ New | Compliance/Security | 37-tool AI behavioral drift monitoring — 11 LLM models tracked with 9-score scorecards, silent version change detection, immune threat assessment, compliance reporting. Free tier, no API key |
-| Simple PDF API ★ New | Productivity/Docs | 9 PDF tools: HTML-to-PDF, URL-to-PDF, merge, split, watermark, compress, password-protect, rotate, extract text. Free tier on RapidAPI. `uvx pdf-api-mcp` |
-| PMB (Personal Memory Brain) ★ New | Memory/Knowledge | Local-first persistent memory layer for AI coding agents. Gives Claude Code, Cursor, and Codex shared, durable project memory across sessions. No cloud, no API keys |
-| Conxt Memory Layer ★ New | Memory/Knowledge | Persistent AI memory — stores decisions, coding rules, preferences, tool choices, workflows across Claude, ChatGPT, Gemini, Cursor, Windsurf. 8 tools: get_context, add_memory, search_decisions, team workspaces |
-| AgentTrust ★ New | Finance/Crypto | Trustless AI verdict engine for agent economy. Pay 0.1 XRP, POST task spec + proof of work, receive structured PASS/FAIL verdict from Gemini. XRPL crypto-condition escrow. No humans, no disputes |
-
-### Also discovered (niche/consumer/regional)
-
-- **Areacode.fyi Mcp Server** — North American NANP area-code and phone-number intelligence: lookup, validation, local time, overlays, scam/spoofing context, carrier metadata
-- **Travel Agent Mcp** — Canonical travel-agent MCP server: category discovery, day-trip/weekend planning, transit options, airport comparisons
-- **Wever Labs** — MCP-callable paid workflow rails: quotes, payment authority references, signed receipts, ledger entries, verification proof
-- **Normatia** — AI-native Spanish building code compliance for AECO sector
-- **NCCI Claims Validation** — Validate CPT/HCPCS code pairs against NCCI edits, check MUE unit limits, prevent claim denials (healthcare niche)
-- **Ai Compliance** — (description not provided on listing page)
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,583+ (mcp.so), 9,228+ (mcpservers.org)
-- **Official servers:** 45+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, etc.)
+- **Total MCP servers tracked:** 22,544 (mcp.so), 9,228 (mcpservers.org)
+- **Official servers:** 42+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
-- **Categories represented:** 35+ (Finance, Analytics, CRM, Commerce, HR, Sales, Marketing, Content Creation, Gov/Intelligence, Legal, Security/Compliance, Memory, Logistics, ERP, FinOps, Business Intelligence, etc.)
-- **New this cycle (June 22):** 20 new MCP servers from mcp.so Feed + Tags
-- **Cumulative since June 9:** 345 MCP servers catalogued across 21 sweeps
-- **New categories added:** Logistics & Supply Chain, ERP & Operations, FinOps, Business Intelligence
+- **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
+- **New this cycle (June 20 morning):** 11 new MCP servers from mcpservers.org + mcp.so
+- **Cumulative since June 9:** 222 MCP servers catalogued across 15 sweeps
 
 ---
 

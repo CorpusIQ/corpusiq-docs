@@ -155,6 +155,7 @@ Approved skills appear on the next marketplace update page with install commands
 
 New skills are discovered weekly through automated sweeps of skills.sh. Each discovery gets a dedicated update page:
 
+- [🆕 June 20-22, 2026 — Hermes Bible, Steroids Image Gen, Ershov Memory Engine (6 repos, 15 skills)](/hermes/skills/marketplace/new-june20-22-2026/)
 - [🆕 June 19-20, 2026 — Ponytail, SkillSpector, AgentMint (12 skills)](/hermes/skills/marketplace/new-june19-20-2026/)
 - [🆕 June 19, 2026 (Batch 2) — Infrastructure, Platform, Tools (15 repos, 20+ skills)](/hermes/skills/marketplace/new-june19-2026-batch2/)
 - [🆕 June 19, 2026 (Update) — ECC-Hermes 36-Pack, SkillSpector Vetting, AgentMint (6 repos, 60+ skills)](/hermes/skills/marketplace/new-june19-2026-update/)
@@ -174,20 +175,17 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 - [June 11, 2026 — Hermes Ecosystem (38 skills)](/hermes/skills/marketplace/new-june11-2026/)
 - [June 10, 2026 — Web Scraping, MCP, Testing, Stripe (42 skills)](/hermes/skills/marketplace/new-june10-2026/)
 - [June 9, 2026 — Initial Marketplace Discovery (42 skills)](/hermes/skills/marketplace/new-june9-2026/)
-- [June 20, 2026 Update — Scope-First, Grill, Skill Audit (4 repos)](/hermes/skills/marketplace/new-june20-2026-update/)
-- [June 20, 2026 — Plugins, Admin API, Jira CLI, Cyberdeck OS (9 repos)](/hermes/skills/marketplace/new-june20-2026/)
-- [June 21, 2026 — Ecosystem Acceleration: 34 New Repos](/hermes/skills/marketplace/new-june21-2026/)
 
 ---
 
-**Total: 402+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 361+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
----
-
-*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june21-2026/)*
+*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june20-22-2026/)*
 
 *Powered by CorpusIQ*
 ---
+
+*
 
 ---
 

@@ -8,7 +8,7 @@ tags:
   - open-source
   - submit-repo
   - ecosystem
-last_updated: 2026-06-22T06:10Z
+last_updated: 2026-06-20T06:02Z
 ---
 
 # Hermes Community Contributors — Help Build the Largest Hermes Resource Directory
@@ -21,10 +21,10 @@ The **Hermes Ecosystem Directory** is the most comprehensive collection of Herme
 
 | Metric | Value |
 |--------|-------|
-| **Total submissions** | 247+ |
+| **Total submissions** | 244+ |
 | **Approval rate** | 100% |
 | **Review time** | <48 hours |
-| **Repos indexed** | 404+ |
+| **Repos indexed** | 348+ |
 | **Categories** | 18 |
 
 ## How to Contribute
@@ -54,7 +54,7 @@ Check the [Pending Review Queue](https://github.com/CorpusIQ/corpusiq-docs/issue
 
 | Contributor | Submissions | Approved | Role |
 |-------------|------------|----------|------|
-| [@CorpusIQ](https://github.com/CorpusIQ) | 247 | 124 | Maintainer |
+| [@CorpusIQ](https://github.com/CorpusIQ) | 247 | 123 | Maintainer |
 
 ## Inclusion Criteria
 
@@ -88,14 +88,14 @@ Accepted repos are added to the [Hermes Ecosystem Directory](/hermes/ecosystem.m
 
 ## Related Pages
 
-- [Hermes Ecosystem Directory — 404+ Repos](/hermes/ecosystem.md)
+- [Hermes Ecosystem Directory — 234+ Repos](/hermes/ecosystem.md)
 - [Hermes Knowledge Hub — Production Reference](/hermes/)
 - [Skills Catalog — 133+ Skills](/hermes/skills/catalog/)
 - [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 404+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 404+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *
