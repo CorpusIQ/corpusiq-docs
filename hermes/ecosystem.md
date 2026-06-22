@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources — 370+ repos, 
 
 The most comprehensive directory of Hermes Agent resources in existence. 400 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 21, 2026 · **Repos indexed:** 402 · **Categories:** 18
+> **Last updated:** June 21, 2026 · **Repos indexed:** 404 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -20,13 +20,13 @@ The most comprehensive directory of Hermes Agent resources in existence. 400 rep
 | [Core & Official](#-core--official) | 7 | [↓](#-core--official) |
 | [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
 | [Community & Awesome Lists](#-community--awesome-lists) | 33 | [↓](#-community--awesome-lists) |
-| [UI & Dashboards](#-ui--dashboards) | 12 | [↓](#-ui--dashboards) |
+| [UI & Dashboards](#-ui--dashboards) | 13 | [↓](#-ui--dashboards) |
 | [Memory & Knowledge](#-memory--knowledge) | 18 | [↓](#-memory--knowledge) |
 | [MCP & Integrations](#-mcp--integrations) | 37 | [↓](#-mcp--integrations) |
 | [Skills & Plugins](#-skills--plugins) | 65 | [↓](#-skills--plugins) |
 | [Tools & Utilities](#-tools--utilities) | 60 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 26 | [↓](#-orchestration-multi-agent--swarms) |
+| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 27 | [↓](#-orchestration-multi-agent--swarms) |
 | [Deployment & Infrastructure](#-deployment--infrastructure) | 17 | [↓](#-deployment--infrastructure) |
 | [Security & Governance](#-security--governance) | 6 | [↓](#-security--governance) |
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
@@ -588,6 +588,17 @@ Multi-model AI agent desktop client — connect any AI provider, extend with MCP
 
 **Maintainer:** op7418
 **Key capabilities:** Multi-model desktop client, MCP & skill extensions, unified agent interface, real-time monitoring
+**Related:** [UI & Dashboards →](#-ui--dashboards) · [MCP Guide →](/hermes/mcp/)
+
+---
+
+### pyrate-llama/hermes-ui
+⭐ **168** · `HTML` · [github.com/pyrate-llama/hermes-ui](https://github.com/pyrate-llama/hermes-ui)
+
+The command center for Hermes Agent — chat, steer, browse files, manage skills, and monitor everything from a single glassmorphic HTML app. Self-hosted, single-file dashboard with Tailscale integration for remote access. React-powered with real-time agent monitoring and MCP tool visibility.
+
+**Maintainer:** pyrate-llama  
+**Key capabilities:** Glassmorphic dashboard, chat interface, file browser, skills manager, task monitoring, Tailscale integration, single-file deployment, MCP-native  
 **Related:** [UI & Dashboards →](#-ui--dashboards) · [MCP Guide →](/hermes/mcp/)
 
 ---
@@ -3126,6 +3137,17 @@ Open-source agent platform for global enterprises. Wire every system through one
 **Maintainer:** FIM AI
 **Key capabilities:** Enterprise agent platform, unified operations, multi-language, SSO, cross-market deployment
 **Related:** [Orchestration →](#-orchestration-multi-agent--swarms) · [Deployment →](/hermes/infrastructure/)
+
+---
+
+### tale-project/tale
+⭐ **12** · `TypeScript` · [github.com/tale-project/tale](https://github.com/tale-project/tale)
+
+The Orchestrator for AI Agents — Connect OpenClaw, Hermes Agent, Claude Code, Codex, Cursor, Gemini CLI, OpenCode, and Pi. Pool their knowledge, delegate tasks, and build your swarm of agents. Stateful memory, tool routing, and real-time monitoring across multi-agent workflows. Low-code orchestration layer with MCP-native connectivity and RAG-powered knowledge sharing.
+
+**Maintainer:** tale-project  
+**Key capabilities:** Multi-agent orchestration, cross-platform agent connectivity, stateful memory, tool routing, real-time monitoring, RAG knowledge sharing, MCP-native, low-code  
+**Related:** [Orchestration →](#-orchestration-multi-agent--swarms) · [MCP Guide →](/hermes/mcp/)
 
 ---
 
