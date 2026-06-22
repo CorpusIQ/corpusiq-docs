@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources — 370+ repos, 
 
 The most comprehensive directory of Hermes Agent resources in existence. 400 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research — all organized and cross-referenced.
 
-> **Last updated:** June 21, 2026 · **Repos indexed:** 400 · **Categories:** 18
+> **Last updated:** June 21, 2026 · **Repos indexed:** 402 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -30,7 +30,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 400 rep
 | [Deployment & Infrastructure](#-deployment--infrastructure) | 17 | [↓](#-deployment--infrastructure) |
 | [Security & Governance](#-security--governance) | 6 | [↓](#-security--governance) |
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
-| [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
+| [Content & Media](#-content--media) | 10 | [↓](#-content--media) |
 | [Platform-Specific](#-platform-specific) | 10 | [↓](#-platform-specific) |
 | [Domain Applications](#-domain-applications) | 20 | [↓](#-domain-applications) |
 | [Forks & Derivatives](#-forks--derivatives) | 5 | [↓](#-forks--derivatives) |
@@ -3485,6 +3485,26 @@ Search AI podcast quotes by topic across Lex Fridman, Dwarkesh Patel, No Priors,
 
 **Status:** Beta  
 **Key capabilities:** AI podcast search, quote discovery, topic search, semantic podcast engine, Lex Fridman, Dwarkesh Patel
+
+---
+
+### Anil-matcha/Open-Generative-AI
+⭐ **20,306** · `JavaScript` · [github.com/Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI)
+
+Free, open-source AI media studio — 200+ models for image and video generation through a single desktop interface. No content filters, no subscription, self-hosted. Next.js 15 + React 19 + Electron. Pay only for API costs of models used.
+
+**Status:** Active (v2.0.0)  
+**Key capabilities:** Image generation, video generation, lip sync, 200+ model access, desktop app, self-hosted
+
+---
+
+### SamurAIGPT/Generative-Media-Skills
+[github.com/SamurAIGPT/Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills)
+
+Agent-native media skills for Claude Code, Cursor, and Hermes. 41 workflow recipes, MCP server with 19 tools, and CLI-powered media generation via muapi-cli. Schema-driven architecture with Core/Library split for LLM-efficient discovery.
+
+**Status:** Active  
+**Key capabilities:** Agent media skills, MCP server, 41 workflow recipes, image/video/audio generation, muapi-cli integration
 
 ---
 
