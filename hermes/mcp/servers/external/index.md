@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators — curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 20, 2026 (morning sweep) · **Sources:** mcp.so (22,544+ servers), mcpservers.org (9,228+ servers)
+> **Last updated:** June 22, 2026 (morning sweep) · **Sources:** mcp.so (22,544+ servers), mcpservers.org (9,228+ servers)
 
 ---
 
@@ -39,6 +39,12 @@ Dedicated MCP server for PortEden's Google Sheets data firewall. Read, write, an
 
 ### Alpha Vantage MCP Server ★ Sponsor
 Realtime & historical stock, ETF, options, forex, crypto, commodities, fundamentals, technical indicators. Official MCP server from Alpha Vantage.
+
+### Tradingview Mcp ★ New
+Live market data & technical analysis for AI assistants — 30+ tools across stocks, crypto, forex & futures: screeners, indicators, candlestick patterns, multi-timeframe analysis, backtesting & live sentiment. Works with Claude, ChatGPT, Cursor & Copilot. Self-host free (MIT) or one-URL hosted. Essential for financial operators who rely on TradingView's charting and technical analysis ecosystem.
+
+### Tossinvest MCP ★ New
+Korean stock trading via Toss Securities Open API — real-time prices, orders, portfolios. Local MCP server (`npx tossinvest-mcp`). Read-only by default; trading tools disabled unless explicitly enabled. Korean & US stocks, exchange rates, market hours. Regional but significant for operators in the Korean financial market.
 
 ### AlphaAI ★ New
 Hosted MCP server for AI-enriched financial news — full-text and ticker-scoped news search, trending stories, and SEC Form 4 insider activity, each story scored 1–10 for relevance. OAuth 2.1, free tier 100 calls/hour. Essential for operators who need curated, AI-scored financial intelligence.
@@ -514,6 +520,9 @@ AI-powered content creation platform for video and image generation. Create mark
 ### Scenext ★ New
 AI educational video generation platform. Generate high-quality explainer and tutorial videos from question-answer pairs. MCP-native for automated video content pipelines.
 
+### Rendley Mcp ★ New
+Full video editor for AI agents — describe what you want and Rendley creates/edits video using your footage, brand kit, and AI tools. MCP-native video production. Essential for content operators who need AI-driven video editing without leaving their chat interface.
+
 ### MiniMax MCP ★ Official ★ New
 Official MiniMax MCP server for powerful TTS (Text-to-Speech), image generation, and video generation APIs. Create voiceovers, marketing visuals, and video content directly from AI agents. `npx -y @minimax/mcp`
 
@@ -529,6 +538,15 @@ Generate finished, on-brand designs — logos, social posts, app-store screensho
 ---
 
 ## Marketing
+
+### OpenAI Ads MCP Server ★ New
+OpenAI Ads and ChatGPT Ads MCP server for the OpenAI Advertiser API — typed tools for campaigns, creatives, audiences, and insights. Advertising campaign management for operators running paid acquisition on OpenAI/ChatGPT platforms.
+
+### SE Ranking MCP ★ New
+Live access to SE Ranking's SEO and AI search data — keyword research, backlinks, domain analysis, site audits, and AI search visibility (180+ tools). MCP-native SEO platform for operators who need comprehensive search intelligence in their AI workflows.
+
+### PPXC Find Customers ★ New
+Turn short-video comments into ranked customer leads, keyword ideas, and outreach scripts. Lead generation MCP for operators who source customers through social video platforms (TikTok, YouTube Shorts, Instagram Reels).
 
 ### Eclincher ★ New
 Publish, schedule, moderate your social inbox, and pull analytics across every major network directly from any AI assistant. Full social media management MCP — competes with Zernio and Solnk for AI-driven social operations.
@@ -966,6 +984,21 @@ Governed, shared, self-improving memory for AI agent fleets — built for multi-
 
 ---
 
+## New This Week (June 22, 2026 — morning sweep)
+
+### 6 new servers from mcp.so Feed + mcpservers.org
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Tradingview Mcp ★ New | Finance | Live market data & technical analysis — 30+ tools, MIT license, self-host or hosted |
+| Tossinvest MCP ★ New | Finance | Korean stock trading via Toss Securities — prices, orders, portfolios |
+| OpenAI Ads MCP Server ★ New | Marketing | OpenAI/ChatGPT Ads API — campaigns, creatives, audiences, insights |
+| SE Ranking MCP ★ New | Marketing/SEO | 180+ SEO & AI search visibility tools — keywords, backlinks, audits |
+| PPXC Find Customers ★ New | Marketing | Short-video comments → ranked customer leads + outreach scripts |
+| Rendley Mcp ★ New | Content Creation | Full video editor via MCP — AI-driven editing with brand kit + footage |
+
+---
+
 ## New This Week (June 20, 2026 — morning sweep)
 
 ### 11 new servers from mcpservers.org All + mcp.so Latest
@@ -992,8 +1025,8 @@ Governed, shared, self-improving memory for AI agent fleets — built for multi-
 - **Official servers:** 42+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 20 morning):** 11 new MCP servers from mcpservers.org + mcp.so
-- **Cumulative since June 9:** 222 MCP servers catalogued across 15 sweeps
+- **New this cycle (June 22 morning):** 6 new MCP servers from mcp.so Feed + mcpservers.org
+- **Cumulative since June 9:** 228 MCP servers catalogued across 16 sweeps
 
 ---
 
