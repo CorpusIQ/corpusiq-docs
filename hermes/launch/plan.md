@@ -33,7 +33,7 @@ PART 1: HERMES HANDLES (A→Z)
 - Hook: "We built an AI employee that validates every number before it speaks. No hallucinations."
 - Tagline: "The AI layer that verifies your business data before ChatGPT sees it"
 - First comment: Story of why we built it, what makes us different
-- Maker: Benoit Pecqueur
+- Maker: CorpusIQ Team
 - Gallery: 5 images showing Slack → answer flow
 - Video: Otter avatar explainer
 - Tags: AI, Productivity, Slack, SaaS, Business Intelligence
