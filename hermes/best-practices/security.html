@@ -27,7 +27,7 @@
     
     
       
-        <title>Security Best Practices for Hermes Agent — Credentials, Approval Gates & Audit - CorpusIQ Docs</title>
+        <title>Security Best Practices for Hermes Agent  --  Credentials, Approval Gates & Audit - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Security Best Practices for Hermes Agent — Credentials, Approval Gates & Audit
+              Security Best Practices for Hermes Agent  --  Credentials, Approval Gates & Audit
             
           </span>
         </div>
@@ -7939,10 +7939,10 @@
   
 
 
-<h1 id="security-best-practices-protect-your-hermes-agent-deployment">Security Best Practices — Protect Your Hermes Agent Deployment<a class="headerlink" href="#security-best-practices-protect-your-hermes-agent-deployment" title="Anchor link to this section">&para;</a></h1>
-<p>Hermes Agent connects to your data, executes code, and runs scheduled tasks — all capabilities that require thoughtful security design. These security best practices cover credential management, approval gates, audit logging, and the patterns that prevent the most common security failures in production AI agent deployments.</p>
+<h1 id="security-best-practices-protect-your-hermes-agent-deployment">Security Best Practices  --  Protect Your Hermes Agent Deployment<a class="headerlink" href="#security-best-practices-protect-your-hermes-agent-deployment" title="Anchor link to this section">&para;</a></h1>
+<p>Hermes Agent connects to your data, executes code, and runs scheduled tasks  --  all capabilities that require thoughtful security design. These security best practices cover credential management, approval gates, audit logging, and the patterns that prevent the most common security failures in production AI agent deployments.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>Security with Hermes Agent follows the <a href="/hermes/best-practices/">least-privilege principle</a>: start read-only, add write capabilities only with explicit approval gates, and log everything. Each connector to external services (email, CRM, databases) is a potential attack surface — managing tokens and permissions correctly is non-negotiable.</p>
+<p>Security with Hermes Agent follows the <a href="/hermes/best-practices/">least-privilege principle</a>: start read-only, add write capabilities only with explicit approval gates, and log everything. Each connector to external services (email, CRM, databases) is a potential attack surface  --  managing tokens and permissions correctly is non-negotiable.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <h3 id="credential-management">Credential Management<a class="headerlink" href="#credential-management" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Never hardcode credentials</strong> in skills, crons, or prompt templates. Use environment variables or a secrets manager. A skill reading <code>api_key = "sk-abc123"</code> is a breach waiting to happen.</p>
@@ -8011,18 +8011,18 @@
 </ul>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="how-do-i-manage-api-keys-securely-with-hermes-agent">How do I manage API keys securely with Hermes Agent?<a class="headerlink" href="#how-do-i-manage-api-keys-securely-with-hermes-agent" title="Anchor link to this section">&para;</a></h3>
-<p>Never hardcode keys in skills or prompts. Use environment variables, a secrets manager, or the built-in credential store. Each connector should use scoped keys with only the permissions Hermes Agent needs — prefer read-only where possible.</p>
+<p>Never hardcode keys in skills or prompts. Use environment variables, a secrets manager, or the built-in credential store. Each connector should use scoped keys with only the permissions Hermes Agent needs  --  prefer read-only where possible.</p>
 <h3 id="what-actions-require-human-approval-in-hermes-agent">What actions require human approval in Hermes Agent?<a class="headerlink" href="#what-actions-require-human-approval-in-hermes-agent" title="Anchor link to this section">&para;</a></h3>
 <p>Any write operation that affects external systems: sending emails, updating CRM records, modifying databases, posting to Slack, executing financial transactions. Configure <a href="security.html#tiered-approval-gates">tiered approval gates</a> appropriate to the risk level.</p>
 <h3 id="how-often-should-i-rotate-hermes-agent-credentials">How often should I rotate Hermes Agent credentials?<a class="headerlink" href="#how-often-should-i-rotate-hermes-agent-credentials" title="Anchor link to this section">&para;</a></h3>
-<p>Rotate API keys and tokens quarterly at minimum. Document the rotation procedure for each connector so it's a quick task. Set calendar reminders — expired tokens are the #1 cause of silent automation failures.</p>
+<p>Rotate API keys and tokens quarterly at minimum. Document the rotation procedure for each connector so it's a quick task. Set calendar reminders  --  expired tokens are the #1 cause of silent automation failures.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/best-practices/">Best Practices Overview</a> — All guides</li>
-<li><a href="cron-design.html">Cron Design</a> — Secure scheduled automation</li>
-<li><a href="memory-management.html">Memory Management</a> — Don't store secrets in memory</li>
-<li><a href="/hermes/mcp/">MCP Integration Guide</a> — Connector authentication</li>
-<li><a href="/hermes/troubleshooting/">Troubleshooting</a> — Fix OAuth token expiry</li>
+<li><a href="/hermes/best-practices/">Best Practices Overview</a>  --  All guides</li>
+<li><a href="cron-design.html">Cron Design</a>  --  Secure scheduled automation</li>
+<li><a href="memory-management.html">Memory Management</a>  --  Don't store secrets in memory</li>
+<li><a href="/hermes/mcp/">MCP Integration Guide</a>  --  Connector authentication</li>
+<li><a href="/hermes/troubleshooting/">Troubleshooting</a>  --  Fix OAuth token expiry</li>
 </ul>
 <hr />
 <p>*</p>

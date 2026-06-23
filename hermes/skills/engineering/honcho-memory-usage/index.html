@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="When and how to read/write Honcho via the honcho MCP server — server-side semantic memory that complements (does not replace) MEMORY.md and USER.md. The cold-storage pattern that survives session reset.">
+        <meta name="description" content="When and how to read/write Honcho via the honcho MCP server  --  server-side semantic memory that complements (does not replace) MEMORY.md and USER.md. The cold-storage pattern that survives session reset.">
       
       
       
@@ -7650,7 +7650,7 @@
   <a href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Part of the Hermes Skills Library — 133+ agent skills. Built by CorpusIQ.
+        Part of the Hermes Skills Library -- 133+ agent skills. Built by CorpusIQ.
       
     </span>
   </a>
@@ -7694,7 +7694,7 @@
 <td>MEMORY.md / USER.md</td>
 <td>~12KB hand-curated declarative facts</td>
 <td>injected every turn (in token bill)</td>
-<td>zero — already in prompt</td>
+<td>zero  --  already in prompt</td>
 </tr>
 <tr>
 <td>Skills</td>
@@ -7722,7 +7722,7 @@
 </tr>
 </tbody>
 </table>
-<p>Honcho is empty by default. It only knows what we tell it. Querying an empty workspace returns nothing useful — by design.</p>
+<p>Honcho is empty by default. It only knows what we tell it. Querying an empty workspace returns nothing useful  --  by design.</p>
 <h2 id="when-to-write-to-honcho">When to WRITE to Honcho<a class="headerlink" href="#when-to-write-to-honcho" title="Anchor link to this section">&para;</a></h2>
 <p>The bar for writing is high. Most "save this" instincts should go to MEMORY.md instead. Honcho is for facts that:</p>
 <ul>
@@ -7744,7 +7744,7 @@
 - A topic comes up that you suspect has substantial prior context
 - The user references a past decision you don't have in MEMORY.md
 - You're starting work on a domain where Honcho might have stored context (e.g. "let's pick up the Stripe migration" → query for Stripe-related facts)</p>
-<p>Don't read on every turn — Honcho roundtrips cost real latency. Use it like a card catalog, not like a system prompt.</p>
+<p>Don't read on every turn  --  Honcho roundtrips cost real latency. Use it like a card catalog, not like a system prompt.</p>
 <h2 id="api-shape-mcp-exposed-tools">API shape (MCP-exposed tools)<a class="headerlink" href="#api-shape-mcp-exposed-tools" title="Anchor link to this section">&para;</a></h2>
 <p>The Honcho MCP server exposes (depending on configuration):</p>
 <table>
@@ -7782,28 +7782,28 @@
 </tbody>
 </table>
 <h2 id="workspace-peer-naming">Workspace + peer naming<a class="headerlink" href="#workspace-peer-naming" title="Anchor link to this section">&para;</a></h2>
-<p>Each Hermes profile maps to a Honcho <strong>workspace</strong>. Multiple agents/sessions inside the same profile share a workspace. The <strong>peer</strong> identifies a single real human — typically the user's email or a stable identifier.</p>
-<p>Confusing the boundary leads to "I queried Honcho and got nothing useful" — usually because you queried the wrong workspace or wrong peer.</p>
+<p>Each Hermes profile maps to a Honcho <strong>workspace</strong>. Multiple agents/sessions inside the same profile share a workspace. The <strong>peer</strong> identifies a single real human  --  typically the user's email or a stable identifier.</p>
+<p>Confusing the boundary leads to "I queried Honcho and got nothing useful"  --  usually because you queried the wrong workspace or wrong peer.</p>
 <h2 id="cost-discipline">Cost discipline<a class="headerlink" href="#cost-discipline" title="Anchor link to this section">&para;</a></h2>
 <p>Honcho is not free. Each <code>chat</code> call invokes a model inside Honcho's substrate, so:</p>
 <ul>
 <li>Default reasoning level: <code>low</code> or <code>medium</code> for most queries</li>
 <li>Use <code>high</code> or <code>max</code> only when the query is genuinely complex and the answer matters</li>
-<li><code>query_conclusions</code> is cheaper than <code>chat</code> — prefer it when you want raw matched facts, not a synthesized answer</li>
+<li><code>query_conclusions</code> is cheaper than <code>chat</code>  --  prefer it when you want raw matched facts, not a synthesized answer</li>
 </ul>
 <h2 id="when-not-to-use-honcho">When NOT to use Honcho<a class="headerlink" href="#when-not-to-use-honcho" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>You're trying to remember WHAT happened in a past session — use <code>session_search</code> against the local SQLite FTS5 store. Honcho's job is "what does Hermes know about the user/topic," not "what did we discuss on Tuesday."</li>
-<li>The fact is a one-liner — use MEMORY.md.</li>
-<li>You're building procedural knowledge ("how to do X") — use a skill, not Honcho.</li>
-<li>You need the fact in every turn's prompt — use MEMORY.md.</li>
+<li>You're trying to remember WHAT happened in a past session  --  use <code>session_search</code> against the local SQLite FTS5 store. Honcho's job is "what does Hermes know about the user/topic," not "what did we discuss on Tuesday."</li>
+<li>The fact is a one-liner  --  use MEMORY.md.</li>
+<li>You're building procedural knowledge ("how to do X")  --  use a skill, not Honcho.</li>
+<li>You need the fact in every turn's prompt  --  use MEMORY.md.</li>
 </ul>
 <h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="../scheduled-jobs/">scheduled-jobs</a> — cron jobs that need cross-session memory often want Honcho rather than ad-hoc state files</li>
+<li><a href="../scheduled-jobs/">scheduled-jobs</a>  --  cron jobs that need cross-session memory often want Honcho rather than ad-hoc state files</li>
 </ul>
-<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

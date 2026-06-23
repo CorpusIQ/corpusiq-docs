@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Production-grade s6 supervision for Hermes agent containers — health checks, auto-restarts, logging, and process management.">
+        <meta name="description" content="Production-grade s6 supervision for Hermes agent containers  --  health checks, auto-restarts, logging, and process management.">
       
       
       
@@ -7721,13 +7721,13 @@
 <strong>Installs:</strong> 76
 <strong>Source:</strong> <a href="https://skills.sh/nousresearch/hermes-agent/hermes-s6-container-supervision">nousresearch/hermes-agent</a></p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>The <code>hermes-s6-container-supervision</code> skill enables production-grade process supervision for Hermes agents running in containers. Built on the s6 supervision suite, it provides health checks, automatic restarts, log rotation, and process lifecycle management — essential for long-running agent deployments.</p>
+<p>The <code>hermes-s6-container-supervision</code> skill enables production-grade process supervision for Hermes agents running in containers. Built on the s6 supervision suite, it provides health checks, automatic restarts, log rotation, and process lifecycle management  --  essential for long-running agent deployments.</p>
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Health checks:</strong> Monitors Hermes agent processes for crashes, hangs, and resource exhaustion</li>
 <li><strong>Auto-restart:</strong> Automatically restarts failed agent processes with configurable backoff</li>
 <li><strong>Log management:</strong> Captures stdout/stderr with rotation and retention policies</li>
-<li><strong>Container awareness:</strong> Designed for Docker/Podman containers — proper signal handling, PID 1 behavior</li>
+<li><strong>Container awareness:</strong> Designed for Docker/Podman containers  --  proper signal handling, PID 1 behavior</li>
 <li><strong>Multi-agent support:</strong> Supervise multiple Hermes agent instances from one s6 service directory</li>
 </ul>
 <h2 id="why-corpusiq-needs-this">Why CorpusIQ Needs This<a class="headerlink" href="#why-corpusiq-needs-this" title="Anchor link to this section">&para;</a></h2>
@@ -7821,7 +7821,7 @@ ln<span class="w"> </span>-s<span class="w"> </span>/etc/s6/sv/hermes-agent<span
 <tbody>
 <tr>
 <td>Agent not restarting</td>
-<td>Check <code>max_restarts</code> — may have hit the per-hour limit</td>
+<td>Check <code>max_restarts</code>  --  may have hit the per-hour limit</td>
 </tr>
 <tr>
 <td>Logs not rotating</td>
@@ -7839,9 +7839,9 @@ ln<span class="w"> </span>-s<span class="w"> </span>/etc/s6/sv/hermes-agent<span
 </table>
 <h2 id="related-skills">Related Skills<a class="headerlink" href="#related-skills" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/skills/catalog/">hermes-agent</a> — Core Hermes agent skill</li>
-<li><a href="/hermes/skills/marketplace/new-june17-2026/">docker-management</a> — Docker container management</li>
-<li><a href="/hermes/skills/marketplace/new-june17-2026/">openclaw-migration</a> — Migration path from OpenClaw</li>
+<li><a href="/hermes/skills/catalog/">hermes-agent</a>  --  Core Hermes agent skill</li>
+<li><a href="/hermes/skills/marketplace/new-june17-2026/">docker-management</a>  --  Docker container management</li>
+<li><a href="/hermes/skills/marketplace/new-june17-2026/">openclaw-migration</a>  --  Migration path from OpenClaw</li>
 </ul>
 <hr />
 <p>*</p>

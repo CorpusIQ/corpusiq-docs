@@ -23,7 +23,7 @@
     
     
       
-        <title>Hermes Agent v0.17.0 — The Reach Release - CorpusIQ Docs</title>
+        <title>Hermes Agent v0.17.0  --  The Reach Release - CorpusIQ Docs</title>
       
     
     
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes Agent v0.17.0 — The Reach Release
+              Hermes Agent v0.17.0  --  The Reach Release
             
           </span>
         </div>
@@ -7949,44 +7949,44 @@
   
 
 
-<h1 id="hermes-agent-v0170-v2026619-the-reach-release">Hermes Agent v0.17.0 (v2026.6.19) — The Reach Release<a class="headerlink" href="#hermes-agent-v0170-v2026619-the-reach-release" title="Anchor link to this section">&para;</a></h1>
+<h1 id="hermes-agent-v0170-v2026619-the-reach-release">Hermes Agent v0.17.0 (v2026.6.19)  --  The Reach Release<a class="headerlink" href="#hermes-agent-v0170-v2026619-the-reach-release" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Release Date:</strong> June 19, 2026
 <strong>Since v0.16.0:</strong> ~1,475 commits · ~800 merged PRs · 1,693 files changed · 235,390 insertions · 50,730 deletions · 300+ issues closed · 245 community contributors</p>
 <blockquote>
-<p><strong>The Reach Release.</strong> v0.16.0 put Hermes on your desktop. v0.17.0 is about how far that reach extends — across new places to talk to it, deeper into the tools you already use, and smarter about how work gets done.</p>
+<p><strong>The Reach Release.</strong> v0.16.0 put Hermes on your desktop. v0.17.0 is about how far that reach extends  --  across new places to talk to it, deeper into the tools you already use, and smarter about how work gets done.</p>
 </blockquote>
 <hr />
 <h2 id="highlights">✨ Highlights<a class="headerlink" href="#highlights" title="Anchor link to this section">&para;</a></h2>
 <h3 id="imessage-support-via-photon-new">📱 iMessage Support via Photon (NEW)<a class="headerlink" href="#imessage-support-via-photon-new" title="Anchor link to this section">&para;</a></h3>
 <p>No Mac relay required. Talk to Hermes through iMessage using Nous-managed Photon infrastructure.
-- <code>hermes photon login</code> — one-command setup
+- <code>hermes photon login</code>  --  one-command setup
 - Blue-bubble delivery with full message fidelity
 - No Apple hardware dependency</p>
 <h3 id="raft-agent-network-gateway-new">🌊 Raft Agent Network Gateway (NEW)<a class="headerlink" href="#raft-agent-network-gateway-new" title="Anchor link to this section">&para;</a></h3>
-<p>Connect Hermes to Raft via wake-channel bridge — a privacy-preserving agent-to-agent network.
+<p>Connect Hermes to Raft via wake-channel bridge  --  a privacy-preserving agent-to-agent network.
 - Cross-agent dispatch and coordination
 - Privacy-preserving connection model
 - Opt-in bridge architecture</p>
 <h3 id="desktop-app-overhaul">🖥️ Desktop App Overhaul<a class="headerlink" href="#desktop-app-overhaul" title="Anchor link to this section">&para;</a></h3>
 <p>Massive UX upgrade across the Electron desktop app:
-- <strong>Rebindable keyboard shortcuts</strong> panel — customize every action
-- <strong>Native OS notifications</strong> — system-level alerts when Hermes needs you
-- <strong>Live subagent watch-windows</strong> — see what your subagents are doing in real time
+- <strong>Rebindable keyboard shortcuts</strong> panel  --  customize every action
+- <strong>Native OS notifications</strong>  --  system-level alerts when Hermes needs you
+- <strong>Live subagent watch-windows</strong>  --  see what your subagents are doing in real time
 - <strong>Composer model selector</strong> with per-model presets
-- <strong>VS Code theme support</strong> — install any Marketplace theme
+- <strong>VS Code theme support</strong>  --  install any Marketplace theme
 - Automatic RTL/bidi text direction
 - Resizable VS Code-themed terminal pane
 - Per-thread composer drafts</p>
 <h3 id="background-async-subagents">🤖 Background &amp; Async Subagents<a class="headerlink" href="#background-async-subagents" title="Anchor link to this section">&para;</a></h3>
-<p><code>delegate_task(background=true)</code> returns immediately — subagent runs in background, results come back when ready. No more blocking on long chains.</p>
+<p><code>delegate_task(background=true)</code> returns immediately  --  subagent runs in background, results come back when ready. No more blocking on long chains.</p>
 <h3 id="image-editing">🖼️ Image Editing<a class="headerlink" href="#image-editing" title="Anchor link to this section">&para;</a></h3>
 <p>The <code>image_generate</code> tool now supports editing and transforming existing images. Route edits to the appropriate endpoint automatically.</p>
 <h3 id="automation-blueprints-new">📋 Automation Blueprints (NEW)<a class="headerlink" href="#automation-blueprints-new" title="Anchor link to this section">&para;</a></h3>
-<p>Schedule recurring tasks via natural-language forms — no cron syntax required. "Every morning at 8 AM, check my calendar and summarize" just works.</p>
+<p>Schedule recurring tasks via natural-language forms  --  no cron syntax required. "Every morning at 8 AM, check my calendar and summarize" just works.</p>
 <h3 id="model-provider-expansion">🧠 Model &amp; Provider Expansion<a class="headerlink" href="#model-provider-expansion" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>Cursor Composer model via xAI Grok</strong> — <code>grok-composer-2.5-fast</code> with full 200k context via OAuth</li>
-<li>Full profile builder in dashboard — configure models, skills, MCP servers without touching <code>config.yaml</code></li>
+<li><strong>Cursor Composer model via xAI Grok</strong>  --  <code>grok-composer-2.5-fast</code> with full 200k context via OAuth</li>
+<li>Full profile builder in dashboard  --  configure models, skills, MCP servers without touching <code>config.yaml</code></li>
 </ul>
 <h3 id="skills-hub-rehaul">🛒 Skills Hub Rehaul<a class="headerlink" href="#skills-hub-rehaul" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -7999,27 +7999,27 @@
 <p>Atomic batch operations (<code>add</code>/<code>replace</code>/<code>remove</code>) against a character budget. Smarter memory compaction with no loss of critical context.</p>
 <h3 id="security-dashboard">🔐 Security &amp; Dashboard<a class="headerlink" href="#security-dashboard" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>Hardened dashboard login</strong> — proper 401 handling, <code>public_url</code> warning</li>
+<li><strong>Hardened dashboard login</strong>  --  proper 401 handling, <code>public_url</code> warning</li>
 <li>Promptware defense: Brainworm-class attack patterns blocked; memory scanned at load; tool outputs delimited</li>
 <li><code>session_search</code> rebuilt: <strong>4,500× faster</strong>, zero LLM cost</li>
 </ul>
 <h3 id="messaging-platforms">📱 Messaging Platforms<a class="headerlink" href="#messaging-platforms" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>Official WhatsApp Business Cloud API adapter</strong> — native Meta-hosted channel</li>
-<li><strong>Rich text for Telegram</strong> — Bot API 10.1 with native markup (on by default)</li>
+<li><strong>Official WhatsApp Business Cloud API adapter</strong>  --  native Meta-hosted channel</li>
+<li><strong>Rich text for Telegram</strong>  --  Bot API 10.1 with native markup (on by default)</li>
 </ul>
 <h3 id="cost-optimization">💰 Cost Optimization<a class="headerlink" href="#cost-optimization" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>Curator cost optimization</strong> — LLM consolidation pass now off by default; deterministic pruning is free</li>
+<li><strong>Curator cost optimization</strong>  --  LLM consolidation pass now off by default; deterministic pruning is free</li>
 <li>Token-aware tool dispatch reducing per-turn overhead</li>
 </ul>
 <hr />
 <h2 id="desktop-app-details">🖥️ Desktop App Details<a class="headerlink" href="#desktop-app-details" title="Anchor link to this section">&para;</a></h2>
 <h3 id="ux-productivity">UX &amp; Productivity<a class="headerlink" href="#ux-productivity" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li>Rebindable keyboard shortcuts panel — full customization</li>
+<li>Rebindable keyboard shortcuts panel  --  full customization</li>
 <li>Live subagent watch-windows with streaming output</li>
-<li>Composer model selector — switch models mid-conversation</li>
+<li>Composer model selector  --  switch models mid-conversation</li>
 <li>Per-model presets for quick switching</li>
 <li>Automatic RTL/bidi text direction detection</li>
 <li>Resizable VS Code-themed terminal pane</li>
@@ -8037,7 +8037,7 @@
 <h3 id="imessage-photon">iMessage (Photon)<a class="headerlink" href="#imessage-photon" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li><code>hermes photon login</code> for setup</li>
-<li>Managed infrastructure — no Mac required</li>
+<li>Managed infrastructure  --  no Mac required</li>
 <li>Full message fidelity on blue bubbles</li>
 </ul>
 <h3 id="raft-agent-network">Raft Agent Network<a class="headerlink" href="#raft-agent-network" title="Anchor link to this section">&para;</a></h3>
@@ -8056,7 +8056,7 @@
 <h2 id="core-agent">🏗️ Core Agent<a class="headerlink" href="#core-agent" title="Anchor link to this section">&para;</a></h2>
 <h3 id="subagents">Subagents<a class="headerlink" href="#subagents" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><code>delegate_task(background=true)</code> — async, non-blocking</li>
+<li><code>delegate_task(background=true)</code>  --  async, non-blocking</li>
 <li>Subagent results delivered when ready</li>
 <li>Live watch-windows in desktop app</li>
 </ul>
@@ -8068,7 +8068,7 @@
 </ul>
 <h3 id="automation-blueprints">Automation Blueprints<a class="headerlink" href="#automation-blueprints" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li>Natural-language scheduling — no cron syntax</li>
+<li>Natural-language scheduling  --  no cron syntax</li>
 <li>Recurring task definitions with plain English</li>
 <li>One-off and repeating patterns supported</li>
 </ul>
@@ -8099,7 +8099,7 @@
 <tbody>
 <tr>
 <td><strong>iMessage</strong></td>
-<td>Full support via Photon — no Mac required</td>
+<td>Full support via Photon  --  no Mac required</td>
 </tr>
 <tr>
 <td><strong>WhatsApp</strong></td>
@@ -8114,8 +8114,8 @@
 <hr />
 <h2 id="security">🔒 Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Promptware defense</strong> — Brainworm-class attack patterns blocked; memory scanned at load time; tool outputs delimited</li>
-<li>Dashboard auth hardened — proper 401 handling, <code>public_url</code> exposure warning</li>
+<li><strong>Promptware defense</strong>  --  Brainworm-class attack patterns blocked; memory scanned at load time; tool outputs delimited</li>
+<li>Dashboard auth hardened  --  proper 401 handling, <code>public_url</code> exposure warning</li>
 <li><code>session_search</code> rebuilt as deterministic tool (no LLM → no prompt-injection surface)</li>
 <li>Per-skill security scanning in Skills Hub</li>
 </ul>
@@ -8149,7 +8149,7 @@
 </table>
 <hr />
 <h2 id="contributors">👥 Contributors<a class="headerlink" href="#contributors" title="Anchor link to this section">&para;</a></h2>
-<p><strong>245 community contributors</strong> — the largest contributor cohort in Hermes Agent history.</p>
+<p><strong>245 community contributors</strong>  --  the largest contributor cohort in Hermes Agent history.</p>
 <hr />
 <p>*</p>
 <hr />

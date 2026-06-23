@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Stateful graph-based agent workflows — conditional routing, persistence, and production patterns with LangGraph and Hermes">
+        <meta name="description" content="Stateful graph-based agent workflows  --  conditional routing, persistence, and production patterns with LangGraph and Hermes">
       
       
       
@@ -7851,7 +7851,7 @@
 
 
 <h1 id="langgraph-hermes-integration">LangGraph + Hermes Integration<a class="headerlink" href="#langgraph-hermes-integration" title="Anchor link to this section">&para;</a></h1>
-<p>LangGraph brings stateful, graph-based execution to agent workflows. Unlike linear prompt chains or CrewAI's role-based delegation, LangGraph models your agent's decision process as a directed graph — nodes for actions, edges for transitions, and state that persists across steps.</p>
+<p>LangGraph brings stateful, graph-based execution to agent workflows. Unlike linear prompt chains or CrewAI's role-based delegation, LangGraph models your agent's decision process as a directed graph  --  nodes for actions, edges for transitions, and state that persists across steps.</p>
 <p>When combined with Hermes, you get deterministic workflow control with Hermes' model routing, tool ecosystem, and memory infrastructure. This guide covers production patterns, persistence strategies, and real workflow examples.</p>
 <h2 id="why-langgraph">Why LangGraph?<a class="headerlink" href="#why-langgraph" title="Anchor link to this section">&para;</a></h2>
 <p>Linear agent chains have a fundamental limitation: they can't branch. Every input follows the same path. LangGraph solves this by modeling your agent as a state machine:</p>
@@ -7892,7 +7892,7 @@
 <h3 id="nodes">Nodes<a class="headerlink" href="#nodes" title="Anchor link to this section">&para;</a></h3>
 <p>Python functions (or Hermes agent calls) that transform state:</p>
 <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">research_node</span><span class="p">(</span><span class="n">state</span><span class="p">:</span> <span class="n">AgentState</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgentState</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Research phase — gather information about the topic.&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Research phase  --  gather information about the topic.&quot;&quot;&quot;</span>
     <span class="n">query</span> <span class="o">=</span> <span class="n">state</span><span class="p">[</span><span class="s2">&quot;messages&quot;</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">content</span>
     <span class="c1"># Use Hermes tool ecosystem via the MCP bridge</span>
     <span class="n">results</span> <span class="o">=</span> <span class="n">hermes_tools</span><span class="o">.</span><span class="n">web_search</span><span class="p">(</span><span class="n">query</span><span class="p">)</span>
@@ -7902,7 +7902,7 @@
     <span class="p">}</span>
 
 <span class="k">def</span> <span class="nf">analyze_node</span><span class="p">(</span><span class="n">state</span><span class="p">:</span> <span class="n">AgentState</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgentState</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Analysis phase — synthesize findings.&quot;&quot;&quot;</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Analysis phase  --  synthesize findings.&quot;&quot;&quot;</span>
     <span class="n">synthesis</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
         <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
             <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;Synthesize these research findings into key insights.&quot;</span><span class="p">},</span>
@@ -7925,7 +7925,7 @@
     <span class="k">return</span> <span class="s2">&quot;finish&quot;</span>       <span class="c1"># End the workflow</span>
 </code></pre></div>
 <h2 id="production-pattern-1-research-analyze-validate-loop">Production Pattern 1: Research-Analyze-Validate Loop<a class="headerlink" href="#production-pattern-1-research-analyze-validate-loop" title="Anchor link to this section">&para;</a></h2>
-<p>The most common production pattern — research until confident, then proceed.</p>
+<p>The most common production pattern  --  research until confident, then proceed.</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">langgraph.graph</span> <span class="kn">import</span> <span class="n">StateGraph</span><span class="p">,</span> <span class="n">END</span>
 
 <span class="c1"># ── Define nodes ────────────────────────────────────</span>
@@ -7992,7 +7992,7 @@
 <span class="n">workflow</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">compile</span><span class="p">()</span>
 </code></pre></div>
 <h3 id="key-design-decisions">Key Design Decisions<a class="headerlink" href="#key-design-decisions" title="Anchor link to this section">&para;</a></h3>
-<p><strong>Max iterations:</strong> Always cap loops. Three retries is usually sufficient — beyond that, you're either stuck in a bad pattern or the task is genuinely unsolvable with current information. Log the final state for debugging.</p>
+<p><strong>Max iterations:</strong> Always cap loops. Three retries is usually sufficient  --  beyond that, you're either stuck in a bad pattern or the task is genuinely unsolvable with current information. Log the final state for debugging.</p>
 <p><strong>Confidence thresholds:</strong> 0.8 works well for most use cases. Lower (0.6) for time-sensitive tasks where speed matters more than accuracy. Higher (0.95) for compliance or financial contexts.</p>
 <p><strong>State accumulation:</strong> Every node appends to state. The full execution trace is preserved, which is invaluable for debugging and audit trails.</p>
 <h2 id="production-pattern-2-conditional-multi-path-router">Production Pattern 2: Conditional Multi-Path Router<a class="headerlink" href="#production-pattern-2-conditional-multi-path-router" title="Anchor link to this section">&para;</a></h2>
@@ -8160,7 +8160,7 @@
 </code></pre></div>
 <h3 id="common-pitfalls">Common Pitfalls<a class="headerlink" href="#common-pitfalls" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Infinite loops without guards:</strong> Always include a max iteration check in your conditional edges. The <code>retry_count</code> pattern above is essential.</p>
-<p><strong>State explosion:</strong> Long-running threads accumulate state. Implement state trimming in nodes that run many iterations — keep the last N messages, not all of them.</p>
+<p><strong>State explosion:</strong> Long-running threads accumulate state. Implement state trimming in nodes that run many iterations  --  keep the last N messages, not all of them.</p>
 <p><strong>Checkpointer performance:</strong> SQLite is fine for single-node, low-throughput deployments. For high-throughput or multi-node, use Postgres. SQLite under concurrent writes will bottleneck.</p>
 <p><strong>Thread leaks:</strong> Threads without an END state consume resources. Implement thread TTL (auto-cleanup after 7 days of inactivity).</p>
 <h2 id="decision-guide">Decision Guide<a class="headerlink" href="#decision-guide" title="Anchor link to this section">&para;</a></h2>
@@ -8174,7 +8174,7 @@
 <tbody>
 <tr>
 <td>Linear workflows, no branching</td>
-<td>Skip LangGraph — use CrewAI or direct Hermes</td>
+<td>Skip LangGraph  --  use CrewAI or direct Hermes</td>
 </tr>
 <tr>
 <td>Conditional routing based on state</td>

@@ -27,7 +27,7 @@
     
     
       
-        <title>Cron Design Best Practices for Hermes Agent — Reliable Scheduled Automation - CorpusIQ Docs</title>
+        <title>Cron Design Best Practices for Hermes Agent  --  Reliable Scheduled Automation - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Cron Design Best Practices for Hermes Agent — Reliable Scheduled Automation
+              Cron Design Best Practices for Hermes Agent  --  Reliable Scheduled Automation
             
           </span>
         </div>
@@ -7949,10 +7949,10 @@
   
 
 
-<h1 id="cron-design-best-practices-reliable-scheduled-automation">Cron Design Best Practices — Reliable Scheduled Automation<a class="headerlink" href="#cron-design-best-practices-reliable-scheduled-automation" title="Anchor link to this section">&para;</a></h1>
+<h1 id="cron-design-best-practices-reliable-scheduled-automation">Cron Design Best Practices  --  Reliable Scheduled Automation<a class="headerlink" href="#cron-design-best-practices-reliable-scheduled-automation" title="Anchor link to this section">&para;</a></h1>
 <p>Scheduled automation is one of Hermes Agent's most powerful features, but poorly designed crons are the fastest path to operational pain. These cron design best practices cover idempotency, error handling, rate limiting, monitoring, and the anti-patterns that keep your scheduled tasks reliable and safe in production.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>Crons are the heartbeat of autonomous Hermes Agent operation. They handle email monitoring, data synchronization, report generation, and operational checks — running on schedules from every 5 minutes to once per month. Following <a href="/hermes/best-practices/">Hermes Agent best practices</a> for cron design prevents silent failures, resource exhaustion, and alert fatigue.</p>
+<p>Crons are the heartbeat of autonomous Hermes Agent operation. They handle email monitoring, data synchronization, report generation, and operational checks  --  running on schedules from every 5 minutes to once per month. Following <a href="/hermes/best-practices/">Hermes Agent best practices</a> for cron design prevents silent failures, resource exhaustion, and alert fatigue.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <p>A well-designed Hermes Agent cron follows this pattern:</p>
 <div class="highlight"><pre><span></span><code>SCHEDULE → DATA COLLECTION → PROCESSING → VALIDATION → OUTPUT → LOGGING
@@ -7969,14 +7969,14 @@
 <p><strong>Partial success handling.</strong> Handle individual failures within a batch without aborting the entire batch. Log failed records and continue processing.</p>
 <h2 id="rate-limiting-and-delivery-targets">Rate Limiting and Delivery Targets<a class="headerlink" href="#rate-limiting-and-delivery-targets" title="Anchor link to this section">&para;</a></h2>
 <p>Define explicit throughput targets. Implement token-bucket or sliding-window rate limiting. Maintain separate rate-limit budgets per API integration.</p>
-<p><strong>Delivery windows matter.</strong> If your cron takes 4 minutes to complete, don't schedule it every 5 minutes — that leaves only 1 minute of slack. Schedule at 2-3x the expected runtime to prevent overlap.</p>
+<p><strong>Delivery windows matter.</strong> If your cron takes 4 minutes to complete, don't schedule it every 5 minutes  --  that leaves only 1 minute of slack. Schedule at 2-3x the expected runtime to prevent overlap.</p>
 <h2 id="monitoring-and-observability">Monitoring and Observability<a class="headerlink" href="#monitoring-and-observability" title="Anchor link to this section">&para;</a></h2>
 <p>Every cron should emit:</p>
 <ul>
-<li><strong>Start/end timestamps</strong> with duration — track runtime drift</li>
-<li><strong>Record counts</strong> — items read, written, failed</li>
+<li><strong>Start/end timestamps</strong> with duration  --  track runtime drift</li>
+<li><strong>Record counts</strong>  --  items read, written, failed</li>
 <li><strong>Error counts</strong> by type</li>
-<li><strong>Last successful run timestamp</strong> — your canary</li>
+<li><strong>Last successful run timestamp</strong>  --  your canary</li>
 </ul>
 <p><strong>Heartbeat monitoring:</strong> A separate lightweight check every 15-30 minutes verifies the last successful run is within the expected window.</p>
 <h2 id="anti-patterns-to-avoid">Anti-Patterns to Avoid<a class="headerlink" href="#anti-patterns-to-avoid" title="Anchor link to this section">&para;</a></h2>
@@ -8019,7 +8019,7 @@
 <h2 id="delivery-target-patterns">Delivery Target Patterns<a class="headerlink" href="#delivery-target-patterns" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Real-time needs:</strong> Use event-driven architecture, not polling crons</li>
-<li><strong>Near-real-time:</strong> Every 5 minutes — acceptable for most ecommerce</li>
+<li><strong>Near-real-time:</strong> Every 5 minutes  --  acceptable for most ecommerce</li>
 <li><strong>Hourly:</strong> Good for dashboards, cache warming</li>
 <li><strong>Daily:</strong> Batch windows for exports, reconciliation</li>
 <li><strong>Weekly/monthly:</strong> Run during low-traffic with explicit retry windows</li>
@@ -8035,16 +8035,16 @@
 <h3 id="what-makes-a-cron-job-idempotent-in-hermes-agent">What makes a cron job idempotent in Hermes Agent?<a class="headerlink" href="#what-makes-a-cron-job-idempotent-in-hermes-agent" title="Anchor link to this section">&para;</a></h3>
 <p>A cron is idempotent if running it multiple times with the same inputs produces the same result. Use upsert database operations, deduplication keys on notifications, and deterministic file naming for reports.</p>
 <h3 id="how-many-times-should-a-failed-cron-retry">How many times should a failed cron retry?<a class="headerlink" href="#how-many-times-should-a-failed-cron-retry" title="Anchor link to this section">&para;</a></h3>
-<p>Retry 3-5 times with exponential backoff and jitter. After all retries are exhausted, route to a dead-letter queue — never silently discard work. Alert after 3 consecutive failures.</p>
+<p>Retry 3-5 times with exponential backoff and jitter. After all retries are exhausted, route to a dead-letter queue  --  never silently discard work. Alert after 3 consecutive failures.</p>
 <h3 id="how-do-i-monitor-cron-job-health">How do I monitor cron job health?<a class="headerlink" href="#how-do-i-monitor-cron-job-health" title="Anchor link to this section">&para;</a></h3>
 <p>Track start/end timestamps, record counts processed, error counts by type, and last successful run timestamp. Run a separate heartbeat check every 15-30 minutes to catch stale crons.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/best-practices/">Best Practices Overview</a> — All best practices guides</li>
-<li><a href="model-selection.html">Model Selection</a> — Use the right model for each cron</li>
-<li><a href="security.html">Security</a> — Credential management for scheduled tasks</li>
-<li><a href="/hermes/setup/">Setup Guides</a> — Run crons on <a href="/hermes/setup/cloud-vps.md">cloud VPS</a> or <a href="/hermes/setup/raspberry-pi.md">Raspberry Pi</a></li>
-<li><a href="/hermes/blueprints/">Blueprints</a> — End-to-end cron-anchored workflows</li>
+<li><a href="/hermes/best-practices/">Best Practices Overview</a>  --  All best practices guides</li>
+<li><a href="model-selection.html">Model Selection</a>  --  Use the right model for each cron</li>
+<li><a href="security.html">Security</a>  --  Credential management for scheduled tasks</li>
+<li><a href="/hermes/setup/">Setup Guides</a>  --  Run crons on <a href="/hermes/setup/cloud-vps.md">cloud VPS</a> or <a href="/hermes/setup/raspberry-pi.md">Raspberry Pi</a></li>
+<li><a href="/hermes/blueprints/">Blueprints</a>  --  End-to-end cron-anchored workflows</li>
 </ul>
 <hr />
 <p>*</p>

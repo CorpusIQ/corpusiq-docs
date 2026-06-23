@@ -27,7 +27,7 @@
     
     
       
-        <title>Hermes Cron Templates — 12 Copy-Paste Workflows for Autonomous Agents - CorpusIQ Docs</title>
+        <title>Hermes Cron Templates  --  12 Copy-Paste Workflows for Autonomous Agents - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes Cron Templates — 12 Copy-Paste Workflows for Autonomous Agents
+              Hermes Cron Templates  --  12 Copy-Paste Workflows for Autonomous Agents
             
           </span>
         </div>
@@ -6421,7 +6421,7 @@
   <a href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        From the Hermes Case Studies — real-world agent deployments. Powered by CorpusIQ.
+        From the Hermes Case Studies -- real-world agent deployments. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -8356,7 +8356,7 @@
   <a href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        From the Hermes Case Studies — real-world agent deployments. Powered by CorpusIQ.
+        From the Hermes Case Studies -- real-world agent deployments. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -8383,10 +8383,10 @@
   
 
 
-<h1 id="copy-paste-cron-templates-12-ready-to-deploy-autonomous-workflows">Copy-Paste Cron Templates — 12 Ready-to-Deploy Autonomous Workflows<a class="headerlink" href="#copy-paste-cron-templates-12-ready-to-deploy-autonomous-workflows" title="Anchor link to this section">&para;</a></h1>
+<h1 id="copy-paste-cron-templates-12-ready-to-deploy-autonomous-workflows">Copy-Paste Cron Templates  --  12 Ready-to-Deploy Autonomous Workflows<a class="headerlink" href="#copy-paste-cron-templates-12-ready-to-deploy-autonomous-workflows" title="Anchor link to this section">&para;</a></h1>
 <p>This is a <strong>grab-bag of cron + skill templates</strong> you can copy, adapt, and deploy in minutes. Each template includes the cron schedule, the skill it calls, what data sources it uses, and what it produces. Replace the placeholder values with your own tool names, channels, and thresholds.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Stop starting from scratch.</strong> These 12 templates cover the most common automation patterns — email monitoring, report generation, data sync, anomaly detection, and platform-specific integrations. Each template has been production-tested on a <a href="/hermes/">24/7 Hermes deployment</a>.</p>
+<p><strong>Stop starting from scratch.</strong> These 12 templates cover the most common automation patterns  --  email monitoring, report generation, data sync, anomaly detection, and platform-specific integrations. Each template has been production-tested on a <a href="/hermes/">24/7 Hermes deployment</a>.</p>
 <blockquote>
 <p><strong>See also:</strong> <a href="/hermes/governance/scheduling/">Cron Scheduling Guide</a> · <a href="/hermes/outputs/">Outputs Overview</a> · <a href="/hermes/agents/">Agent Library</a></p>
 </blockquote>
@@ -8488,21 +8488,21 @@
 <span class="w">  </span><span class="nt">skill</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">stripe-revenue-pulse</span>
 <span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Tracks daily revenue, new subscriptions, churn, and failed charges</span>
 </code></pre></div>
-<strong>Data sources:</strong> Stripe connector — charges, subscriptions, customers.</p>
+<strong>Data sources:</strong> Stripe connector  --  charges, subscriptions, customers.</p>
 <h3 id="ga4-traffic-anomaly">GA4 Traffic Anomaly<a class="headerlink" href="#ga4-traffic-anomaly" title="Anchor link to this section">&para;</a></h3>
 <p><div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ga4-traffic-watch</span>
 <span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;0</span><span class="nv"> </span><span class="s">*/3</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*&quot;</span><span class="w">  </span><span class="c1"># Every 3 hours</span>
 <span class="w">  </span><span class="nt">skill</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">traffic-anomaly</span>
 <span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Detects unusual traffic patterns that may indicate issues or opportunities</span>
 </code></pre></div>
-<strong>Data sources:</strong> GA4 connector — current traffic vs. baseline.</p>
+<strong>Data sources:</strong> GA4 connector  --  current traffic vs. baseline.</p>
 <h3 id="crm-pipeline-health">CRM Pipeline Health<a class="headerlink" href="#crm-pipeline-health" title="Anchor link to this section">&para;</a></h3>
 <p><div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">crm-pipeline-health</span>
 <span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;0</span><span class="nv"> </span><span class="s">8</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">1-5&quot;</span><span class="w">  </span><span class="c1"># Weekdays at 8 AM</span>
 <span class="w">  </span><span class="nt">skill</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pipeline-health-check</span>
 <span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Daily pipeline health report with deal movement and hygiene issues</span>
 </code></pre></div>
-<strong>Data sources:</strong> CRM connector — deals, activities, contacts.</p>
+<strong>Data sources:</strong> CRM connector  --  deals, activities, contacts.</p>
 <h2 id="template-customization-guide">Template Customization Guide<a class="headerlink" href="#template-customization-guide" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -8533,9 +8533,9 @@
 <h2 id="quick-start-your-first-three-crons">Quick-Start: Your First Three Crons<a class="headerlink" href="#quick-start-your-first-three-crons" title="Anchor link to this section">&para;</a></h2>
 <p>Deploy these three crons today:</p>
 <ol>
-<li><strong>Daily pulse</strong> (report) — One morning summary replacing dashboard checks</li>
-<li><strong>Anomaly detection</strong> (alert) — One metric that tells you when something is wrong before customers do</li>
-<li><strong>Health check</strong> (monitor) — One endpoint or system that must stay up</li>
+<li><strong>Daily pulse</strong> (report)  --  One morning summary replacing dashboard checks</li>
+<li><strong>Anomaly detection</strong> (alert)  --  One metric that tells you when something is wrong before customers do</li>
+<li><strong>Health check</strong> (monitor)  --  One endpoint or system that must stay up</li>
 </ol>
 <p><strong>Three crons. One hour of setup.</strong> You'll know within a week what to automate next.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
@@ -8551,14 +8551,14 @@
 <p>Edit the YAML <code>schedule</code> field with standard cron expressions, and adjust threshold values in your skill file. Start with <strong>generous thresholds</strong> (fewer false positives), monitor for a week, then tighten as you build confidence in the automation.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/outputs/">Outputs Overview — Industry Case Studies</a></li>
-<li><a href="/hermes/governance/scheduling/">Cron Scheduling Guide — 38 Production Crons</a></li>
-<li><a href="/hermes/agents/">Agent Library — 9 Role Configurations</a></li>
-<li><a href="/hermes/mcp/connectors/">CorpusIQ MCP Connectors — 37+ Business Tools</a></li>
-<li><a href="/hermes/architecture/">Architecture — 6-Layer Production Model</a></li>
+<li><a href="/hermes/outputs/">Outputs Overview  --  Industry Case Studies</a></li>
+<li><a href="/hermes/governance/scheduling/">Cron Scheduling Guide  --  38 Production Crons</a></li>
+<li><a href="/hermes/agents/">Agent Library  --  9 Role Configurations</a></li>
+<li><a href="/hermes/mcp/connectors/">CorpusIQ MCP Connectors  --  37+ Business Tools</a></li>
+<li><a href="/hermes/architecture/">Architecture  --  6-Layer Production Model</a></li>
 </ul>
-<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a> — real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a> — real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a>  --  real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a>  --  real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

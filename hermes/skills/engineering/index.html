@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Platform construction skills for Hermes agents — MCP server architecture, connector audits, API development, frontend patterns, scheduled jobs, Honcho memory, and metric specs. Born from operating a 50k+ LOC multi-connector server in production.">
+        <meta name="description" content="Platform construction skills for Hermes agents  --  MCP server architecture, connector audits, API development, frontend patterns, scheduled jobs, Honcho memory, and metric specs. Born from operating a 50k+ LOC multi-connector server in production.">
       
       
       
@@ -7746,86 +7746,86 @@
 
 
 <h1 id="engineering-skills">Engineering Skills<a class="headerlink" href="#engineering-skills" title="Anchor link to this section">&para;</a></h1>
-<p>These are skills for <strong>building the platform itself</strong> — distinct from <a href="/hermes/skills/development/">development skills</a>, which cover using the platform (GitHub PRs, code review, repo management). Engineering skills capture patterns earned through operating a multi-connector MCP server at production scale: what broke, how it was fixed, and the discipline that prevents recurrence.</p>
+<p>These are skills for <strong>building the platform itself</strong>  --  distinct from <a href="/hermes/skills/development/">development skills</a>, which cover using the platform (GitHub PRs, code review, repo management). Engineering skills capture patterns earned through operating a multi-connector MCP server at production scale: what broke, how it was fixed, and the discipline that prevents recurrence.</p>
 <p>Every skill here is a fence around a hole the team already fell into.</p>
 <h2 id="connector-and-mcp-discipline">Connector and MCP Discipline<a class="headerlink" href="#connector-and-mcp-discipline" title="Anchor link to this section">&para;</a></h2>
 <h3 id="consultant-connector-audit"><code>consultant-connector-audit</code><a class="headerlink" href="#consultant-connector-audit" title="Anchor link to this section">&para;</a></h3>
 <p>The single most-loaded engineering skill. A 13-section audit pass for any connector code authored by a non-core contributor. Born from a painful 9-PR cycle where a vendor connector passed CI but silently failed on first customer call, triggering round-trip after round-trip of "customer hits bug → core team fixes → customer hits next bug."</p>
 <p>The audit covers:</p>
 <ol>
-<li><strong>Auth flow completeness</strong> — Does token refresh actually work, or does the connector assume tokens never expire?</li>
-<li><strong>Error surface coverage</strong> — Are all API error codes handled, or do some fall through to "success"?</li>
-<li><strong>Schema compliance</strong> — Do returned fields match the declared schema, or does the connector invent fields?</li>
-<li><strong>Edge case inventory</strong> — Empty results, rate limits, malformed responses, connection drops — handled or swallowed?</li>
-<li><strong>Tool description accuracy</strong> — Do the tool descriptions in the connector match what the tools actually return?</li>
-<li><strong>Pagination correctness</strong> — Are paginated endpoints handled correctly, or will the connector return only the first page?</li>
-<li><strong>Timezone handling</strong> — Are dates returned in the correct timezone, or does UTC silently corrupt local times?</li>
-<li><strong>Unit handling</strong> — Are currency amounts in the correct unit (cents vs. dollars), or will reports be off by 100x?</li>
-<li><strong>Rate limit awareness</strong> — Does the connector back off on 429s, or hammer the API until banned?</li>
-<li><strong>Logging hygiene</strong> — Are secrets, tokens, or PII logged anywhere?</li>
-<li><strong>Dependency freshness</strong> — Are dependencies pinned to known-good versions, or will a minor bump break everything?</li>
-<li><strong>Test coverage of failure paths</strong> — Not just happy-path tests — are error paths tested?</li>
-<li><strong>Documentation for the next auditor</strong> — Can the next person understand the connector without reading all the source?</li>
+<li><strong>Auth flow completeness</strong>  --  Does token refresh actually work, or does the connector assume tokens never expire?</li>
+<li><strong>Error surface coverage</strong>  --  Are all API error codes handled, or do some fall through to "success"?</li>
+<li><strong>Schema compliance</strong>  --  Do returned fields match the declared schema, or does the connector invent fields?</li>
+<li><strong>Edge case inventory</strong>  --  Empty results, rate limits, malformed responses, connection drops  --  handled or swallowed?</li>
+<li><strong>Tool description accuracy</strong>  --  Do the tool descriptions in the connector match what the tools actually return?</li>
+<li><strong>Pagination correctness</strong>  --  Are paginated endpoints handled correctly, or will the connector return only the first page?</li>
+<li><strong>Timezone handling</strong>  --  Are dates returned in the correct timezone, or does UTC silently corrupt local times?</li>
+<li><strong>Unit handling</strong>  --  Are currency amounts in the correct unit (cents vs. dollars), or will reports be off by 100x?</li>
+<li><strong>Rate limit awareness</strong>  --  Does the connector back off on 429s, or hammer the API until banned?</li>
+<li><strong>Logging hygiene</strong>  --  Are secrets, tokens, or PII logged anywhere?</li>
+<li><strong>Dependency freshness</strong>  --  Are dependencies pinned to known-good versions, or will a minor bump break everything?</li>
+<li><strong>Test coverage of failure paths</strong>  --  Not just happy-path tests  --  are error paths tested?</li>
+<li><strong>Documentation for the next auditor</strong>  --  Can the next person understand the connector without reading all the source?</li>
 </ol>
-<p>The audit takes roughly 30 minutes. It catches the class of bugs that survive CI but die on first production use — the most expensive class of bugs.</p>
+<p>The audit takes roughly 30 minutes. It catches the class of bugs that survive CI but die on first production use  --  the most expensive class of bugs.</p>
 <h3 id="mcp-architecture"><code>mcp-architecture</code><a class="headerlink" href="#mcp-architecture" title="Anchor link to this section">&para;</a></h3>
 <p>Operating-scale field guide for a 50k+ LOC MCP server. Covers the architectural patterns that emerge when a single server exposes dozens of connectors:</p>
 <ul>
-<li><strong>Per-connector triplet pattern</strong> — Every connector consists of: (1) the connector module, (2) the tool schema declarations, (3) the authentication handler. Understanding this triplet is the key to navigating the codebase.</li>
-<li><strong>File map</strong> — The directory structure, naming conventions, and which files are "hot" (changed frequently) vs. "cold" (stable infrastructure).</li>
-<li><strong>Dual-render-path trap</strong> — The server renders differently depending on whether it's called from the Hermes agent or from a web dashboard. Numbers that look correct in one render path may be silently wrong in the other. Always verify from both.</li>
-<li><strong>Bulk-regex migration recipe</strong> — When a pattern changes across all connectors (e.g., a new error handling convention), how to safely migrate 50+ files with regex without breaking anything.</li>
-<li><strong>New connector onboarding</strong> — The checklist for adding a new connector: auth setup, tool schema, error taxonomy, test fixtures, and the audit pass.</li>
+<li><strong>Per-connector triplet pattern</strong>  --  Every connector consists of: (1) the connector module, (2) the tool schema declarations, (3) the authentication handler. Understanding this triplet is the key to navigating the codebase.</li>
+<li><strong>File map</strong>  --  The directory structure, naming conventions, and which files are "hot" (changed frequently) vs. "cold" (stable infrastructure).</li>
+<li><strong>Dual-render-path trap</strong>  --  The server renders differently depending on whether it's called from the Hermes agent or from a web dashboard. Numbers that look correct in one render path may be silently wrong in the other. Always verify from both.</li>
+<li><strong>Bulk-regex migration recipe</strong>  --  When a pattern changes across all connectors (e.g., a new error handling convention), how to safely migrate 50+ files with regex without breaking anything.</li>
+<li><strong>New connector onboarding</strong>  --  The checklist for adding a new connector: auth setup, tool schema, error taxonomy, test fixtures, and the audit pass.</li>
 </ul>
 <h3 id="metric-spec-registry"><code>metric-spec-registry</code><a class="headerlink" href="#metric-spec-registry" title="Anchor link to this section">&para;</a></h3>
 <p>The canonical-layer metric subsystem. When two systems disagree about a number (e.g., MRR from Stripe vs. MRR from QuickBooks), the metric spec registry's drift report tells you which one to trust and why.</p>
 <p>Key concepts:</p>
 <ul>
-<li><strong>Declared definitions</strong> — Every KPI has an owner, an expression (in a mini-DSL), an expected unit, and a tolerance for cross-source disagreement.</li>
-<li><strong>Live resolution</strong> — Metrics are computed fresh on every query, never cached. If Stripe's API is down, the resolution reports it rather than serving stale numbers.</li>
-<li><strong>Drift detection</strong> — Cross-source checks compare the same metric computed from different systems. If Stripe MRR and QuickBooks MRR disagree beyond the tolerance threshold, the drift report surfaces the discrepancy with both values and the computed gap.</li>
-<li><strong>Provenance footer</strong> — Every resolved metric carries a footer showing: which sources were queried, how many rows each returned, which version of the spec definition was used, and when it was resolved.</li>
+<li><strong>Declared definitions</strong>  --  Every KPI has an owner, an expression (in a mini-DSL), an expected unit, and a tolerance for cross-source disagreement.</li>
+<li><strong>Live resolution</strong>  --  Metrics are computed fresh on every query, never cached. If Stripe's API is down, the resolution reports it rather than serving stale numbers.</li>
+<li><strong>Drift detection</strong>  --  Cross-source checks compare the same metric computed from different systems. If Stripe MRR and QuickBooks MRR disagree beyond the tolerance threshold, the drift report surfaces the discrepancy with both values and the computed gap.</li>
+<li><strong>Provenance footer</strong>  --  Every resolved metric carries a footer showing: which sources were queried, how many rows each returned, which version of the spec definition was used, and when it was resolved.</li>
 </ul>
 <h2 id="api-and-backend-development">API and Backend Development<a class="headerlink" href="#api-and-backend-development" title="Anchor link to this section">&para;</a></h2>
 <h3 id="api-development"><code>api-development</code><a class="headerlink" href="#api-development" title="Anchor link to this section">&para;</a></h3>
 <p>Cloud Run + FastAPI patterns born from real production audits:</p>
 <ul>
-<li><strong>Test fixture traps</strong> — JSONB fields in Postgres have compile-time hook ordering dependencies. A test that passes locally can fail in CI because the hooks fire in a different order. The fix: explicit hook registration order.</li>
-<li><strong>UUID type matching</strong> — FastAPI path parameters vs. SQLAlchemy column types must agree on UUID representation (string vs. native). Mismatches produce 422 errors with no useful message.</li>
-<li><strong>MCP JWT key bootstrap</strong> — The chicken-and-egg problem of JWT verification: the server needs the public key to verify tokens, but getting the public key requires an authenticated call. The bootstrap pattern solves this.</li>
-<li><strong>Self-destructing admin migrations</strong> — Database migrations that run once and delete themselves to prevent accidental re-execution in production.</li>
-<li><strong>JWT JWKS contract</strong> — When your API issues JWTs and multiple consumers verify them, the JWKS endpoint becomes a contract. Changes to the signing key must be coordinated with all consumers or they break silently.</li>
+<li><strong>Test fixture traps</strong>  --  JSONB fields in Postgres have compile-time hook ordering dependencies. A test that passes locally can fail in CI because the hooks fire in a different order. The fix: explicit hook registration order.</li>
+<li><strong>UUID type matching</strong>  --  FastAPI path parameters vs. SQLAlchemy column types must agree on UUID representation (string vs. native). Mismatches produce 422 errors with no useful message.</li>
+<li><strong>MCP JWT key bootstrap</strong>  --  The chicken-and-egg problem of JWT verification: the server needs the public key to verify tokens, but getting the public key requires an authenticated call. The bootstrap pattern solves this.</li>
+<li><strong>Self-destructing admin migrations</strong>  --  Database migrations that run once and delete themselves to prevent accidental re-execution in production.</li>
+<li><strong>JWT JWKS contract</strong>  --  When your API issues JWTs and multiple consumers verify them, the JWKS endpoint becomes a contract. Changes to the signing key must be coordinated with all consumers or they break silently.</li>
 </ul>
 <h3 id="frontend-development"><code>frontend-development</code><a class="headerlink" href="#frontend-development" title="Anchor link to this section">&para;</a></h3>
 <p>Next.js + Vercel patterns for marketing sites and dashboards:</p>
 <ul>
-<li><strong>Canonical-constant rule</strong> — Company name, pricing, feature lists, and contact emails must be defined in exactly one place (a canonical constants file). Copy-pasting these values across components guarantees divergence.</li>
-<li><strong>Deploy verification</strong> — After a Vercel deploy, verify that (1) the production URL responds, (2) the build hash matches the commit SHA, and (3) the marketing site and dashboard are in sync. "Deployed" and "actually changed prod" are different states.</li>
-<li><strong>Cross-repo boundary</strong> — When the marketing site lives in a separate repo from the dashboard, shared components must be versioned explicitly. A dashboard deploy that silently changes marketing site behavior is the most common cross-repo bug.</li>
-<li><strong>Dashboard widget patterns</strong> — Standard patterns for data-fetching widgets: loading states, error states, empty states, and refresh intervals. Every widget must handle all four.</li>
+<li><strong>Canonical-constant rule</strong>  --  Company name, pricing, feature lists, and contact emails must be defined in exactly one place (a canonical constants file). Copy-pasting these values across components guarantees divergence.</li>
+<li><strong>Deploy verification</strong>  --  After a Vercel deploy, verify that (1) the production URL responds, (2) the build hash matches the commit SHA, and (3) the marketing site and dashboard are in sync. "Deployed" and "actually changed prod" are different states.</li>
+<li><strong>Cross-repo boundary</strong>  --  When the marketing site lives in a separate repo from the dashboard, shared components must be versioned explicitly. A dashboard deploy that silently changes marketing site behavior is the most common cross-repo bug.</li>
+<li><strong>Dashboard widget patterns</strong>  --  Standard patterns for data-fetching widgets: loading states, error states, empty states, and refresh intervals. Every widget must handle all four.</li>
 </ul>
 <h2 id="scheduled-jobs">Scheduled Jobs<a class="headerlink" href="#scheduled-jobs" title="Anchor link to this section">&para;</a></h2>
 <h3 id="scheduled-jobs_1"><code>scheduled-jobs</code><a class="headerlink" href="#scheduled-jobs_1" title="Anchor link to this section">&para;</a></h3>
 <p>Cron operating manual for Hermes agents:</p>
 <ul>
-<li><strong>Server-local time trap</strong> — Cron runs on the server's local timezone. If the server is in Arizona (MST, no DST) and your schedule is written assuming UTC, jobs will fire at the wrong time. Always verify <code>date</code> output on the server before writing cron schedules.</li>
-<li><strong>Profile vs. default split</strong> — Hermes cron jobs run in a specific profile context. A job defined in the default profile won't have access to skills installed in a custom profile. Verify profile context before deploying.</li>
-<li><strong>No-agent watchdog</strong> — Agent processes can hang. A watchdog cron checks that the agent is actually responding (not just running) and restarts if it's frozen. The watchdog itself is monitored by a separate health endpoint.</li>
-<li><strong>In-prompt-curl trap</strong> — Using <code>curl</code> inside a Hermes prompt to hit a local endpoint seems convenient but breaks silently: the agent's network context may differ from the host's. Always use Python scripts with explicit network configuration instead.</li>
-<li><strong>Deliver-script pattern</strong> — Crons call scripts, scripts verify output, verification produces a report. Never have a cron "fire and forget" — every cron must produce a deliverable that can be checked.</li>
+<li><strong>Server-local time trap</strong>  --  Cron runs on the server's local timezone. If the server is in Arizona (MST, no DST) and your schedule is written assuming UTC, jobs will fire at the wrong time. Always verify <code>date</code> output on the server before writing cron schedules.</li>
+<li><strong>Profile vs. default split</strong>  --  Hermes cron jobs run in a specific profile context. A job defined in the default profile won't have access to skills installed in a custom profile. Verify profile context before deploying.</li>
+<li><strong>No-agent watchdog</strong>  --  Agent processes can hang. A watchdog cron checks that the agent is actually responding (not just running) and restarts if it's frozen. The watchdog itself is monitored by a separate health endpoint.</li>
+<li><strong>In-prompt-curl trap</strong>  --  Using <code>curl</code> inside a Hermes prompt to hit a local endpoint seems convenient but breaks silently: the agent's network context may differ from the host's. Always use Python scripts with explicit network configuration instead.</li>
+<li><strong>Deliver-script pattern</strong>  --  Crons call scripts, scripts verify output, verification produces a report. Never have a cron "fire and forget"  --  every cron must produce a deliverable that can be checked.</li>
 </ul>
 <h2 id="cross-session-memory">Cross-Session Memory<a class="headerlink" href="#cross-session-memory" title="Anchor link to this section">&para;</a></h2>
 <h3 id="honcho-memory-usage"><code>honcho-memory-usage</code><a class="headerlink" href="#honcho-memory-usage" title="Anchor link to this section">&para;</a></h3>
-<p>Server-side semantic memory via Honcho MCP — when and how to use it:</p>
+<p>Server-side semantic memory via Honcho MCP  --  when and how to use it:</p>
 <ul>
-<li><strong>When it helps</strong> — Cross-session context that survives agent restarts: user preferences, project state, decisions made, ongoing task status.</li>
-<li><strong>When it doesn't</strong> — In-session working memory (use the agent's context window instead), volatile state (use files), structured data (use a database).</li>
-<li><strong>Read vs. write discipline</strong> — Reads are cheap (semantic search retrieves relevant memories). Writes are expensive (they trigger background derivation tasks). Don't write every turn — write when a decision was made or a fact was established.</li>
-<li><strong>Cost discipline</strong> — Honcho derivation tasks consume LLM tokens. Memory operations should be deliberate, not automatic — write after significant events, not after every message.</li>
+<li><strong>When it helps</strong>  --  Cross-session context that survives agent restarts: user preferences, project state, decisions made, ongoing task status.</li>
+<li><strong>When it doesn't</strong>  --  In-session working memory (use the agent's context window instead), volatile state (use files), structured data (use a database).</li>
+<li><strong>Read vs. write discipline</strong>  --  Reads are cheap (semantic search retrieves relevant memories). Writes are expensive (they trigger background derivation tasks). Don't write every turn  --  write when a decision was made or a fact was established.</li>
+<li><strong>Cost discipline</strong>  --  Honcho derivation tasks consume LLM tokens. Memory operations should be deliberate, not automatic  --  write after significant events, not after every message.</li>
 </ul>
 <h2 id="why-these-are-distinct-from-development-skills">Why These Are Distinct From Development Skills<a class="headerlink" href="#why-these-are-distinct-from-development-skills" title="Anchor link to this section">&para;</a></h2>
 <p>The <a href="/hermes/skills/development/">development skills</a> section covers tools every developer uses: GitHub PRs, code review, repo cloning, syntax checking. These are well-trodden, mostly automatable patterns.</p>
-<p>Engineering skills capture a different class of knowledge — the patterns that emerge when you operate a customer-facing platform at the scale where:</p>
+<p>Engineering skills capture a different class of knowledge  --  the patterns that emerge when you operate a customer-facing platform at the scale where:</p>
 <ul>
 <li>One silently swallowed error compounds into nine PRs of churn</li>
 <li>A contributor who didn't understand the architecture introduces a connector that passes CI but breaks at first customer call</li>

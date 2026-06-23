@@ -27,7 +27,7 @@
     
     
       
-        <title>Incident Response Blueprint for Hermes Agent — Automated Detection & Remediation - CorpusIQ Docs</title>
+        <title>Incident Response Blueprint for Hermes Agent  --  Automated Detection & Remediation - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Incident Response Blueprint for Hermes Agent — Automated Detection & Remediation
+              Incident Response Blueprint for Hermes Agent  --  Automated Detection & Remediation
             
           </span>
         </div>
@@ -7103,7 +7103,7 @@
   <a href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Curated in the Hermes Community Hub — 308+ tools, skills, and agents. Powered by CorpusIQ.
+        Curated in the Hermes Community Hub -- 308+ tools, skills, and agents. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -8256,7 +8256,7 @@
   <a href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Curated in the Hermes Community Hub — 308+ tools, skills, and agents. Powered by CorpusIQ.
+        Curated in the Hermes Community Hub -- 308+ tools, skills, and agents. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -8283,7 +8283,7 @@
   
 
 
-<h1 id="incident-response-blueprint-automated-detection-remediation">Incident Response Blueprint — Automated Detection &amp; Remediation<a class="headerlink" href="#incident-response-blueprint-automated-detection-remediation" title="Anchor link to this section">&para;</a></h1>
+<h1 id="incident-response-blueprint-automated-detection-remediation">Incident Response Blueprint  --  Automated Detection &amp; Remediation<a class="headerlink" href="#incident-response-blueprint-automated-detection-remediation" title="Anchor link to this section">&para;</a></h1>
 <h2 id="incident-lifecycle">Incident Lifecycle<a class="headerlink" href="#incident-lifecycle" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>DETECTION → TRIAGE → REMEDIATION → POSTMORTEM
   (T+0m)     (T+5m)    (T+15m→)     (T+24h→)
@@ -8354,7 +8354,7 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Cron:</strong> Continuous — use webhook receivers where possible, with <code>*/1 * * * *</code> polling fallback.</p>
+<p><strong>Cron:</strong> Continuous  --  use webhook receivers where possible, with <code>*/1 * * * *</code> polling fallback.</p>
 <h3 id="step-2-noise-suppression-and-deduplication">Step 2: Noise Suppression and Deduplication<a class="headerlink" href="#step-2-noise-suppression-and-deduplication" title="Anchor link to this section">&para;</a></h3>
 <p>Not every alert is an incident. The agent applies filters:</p>
 <p><strong>Deduplication Rules:</strong>
@@ -8416,7 +8416,7 @@ When multiple alerts fire simultaneously, correlate them:
 <strong>Goal:</strong> Understand what's broken, who needs to fix it, and start the right runbook.</p>
 <h3 id="step-1-create-incident-record">Step 1: Create Incident Record<a class="headerlink" href="#step-1-create-incident-record" title="Anchor link to this section">&para;</a></h3>
 <p>The agent creates a structured incident in the issue tracker:</p>
-<div class="highlight"><pre><span></span><code><span class="gh"># Incident #[AUTO-ID]: [Service] — [Brief Description]</span>
+<div class="highlight"><pre><span></span><code><span class="gh"># Incident #[AUTO-ID]: [Service]  --  [Brief Description]</span>
 
 <span class="gs">**Status:**</span> 🚨 OPEN
 <span class="gs">**Severity:**</span> [SEV1/SEV2/SEV3/SEV4]
@@ -8424,8 +8424,8 @@ When multiple alerts fire simultaneously, correlate them:
 <span class="gs">**Declared:**</span> [TIMESTAMP]
 
 <span class="gu">## Affected Services</span>
-<span class="k">-</span><span class="w"> </span>[Service A] — [Symptom]
-<span class="k">-</span><span class="w"> </span>[Service B] — [Symptom]
+<span class="k">-</span><span class="w"> </span>[Service A]  --  [Symptom]
+<span class="k">-</span><span class="w"> </span>[Service B]  --  [Symptom]
 
 <span class="gu">## Current Impact</span>
 <span class="k">-</span><span class="w"> </span>Users affected: [ESTIMATE]
@@ -8466,7 +8466,7 @@ When multiple alerts fire simultaneously, correlate them:
 <li>Match on: affected service name + alert type + error signature</li>
 <li>Retrieve the most relevant runbook from the knowledge base (Notion, Confluence, or Git repository)</li>
 <li>Post the runbook link in the incident channel with the specific steps most likely relevant</li>
-<li>If no runbook found, post a template: "No runbook found for this pattern — here's the generic diagnostic checklist"</li>
+<li>If no runbook found, post a template: "No runbook found for this pattern  --  here's the generic diagnostic checklist"</li>
 </ol>
 <p><strong>Generic Diagnostic Checklist:</strong>
 <div class="highlight"><pre><span></span><code>1. Check recent deployments: [link to deploy history for affected service]
@@ -8489,7 +8489,7 @@ When multiple alerts fire simultaneously, correlate them:
 <p><strong>Automated Diagnostics (refresh every 2 minutes):</strong>
 - Current error rate and trend (improving or worsening?)
 - Recent deployments (any new deploys since the incident started?)
-- Infrastructure metrics (CPU, memory, connections — any anomalies?)
+- Infrastructure metrics (CPU, memory, connections  --  any anomalies?)
 - Dependency health (are upstream services healthy?)
 - User impact trend (more or fewer users affected?)</p>
 <p><strong>Communication Automation:</strong>
@@ -8530,7 +8530,7 @@ When multiple alerts fire simultaneously, correlate them:
 <p><strong>SLA:</strong> Postmortem published within 5 business days for SEV1, 7 days for SEV2.
 <strong>Goal:</strong> Learn from the incident and prevent recurrence.</p>
 <h3 id="step-1-timeline-reconstruction">Step 1: Timeline Reconstruction<a class="headerlink" href="#step-1-timeline-reconstruction" title="Anchor link to this section">&para;</a></h3>
-<p><strong>Cron:</strong> <code>0 8 * * *</code> — daily check for incidents needing postmortem.</p>
+<p><strong>Cron:</strong> <code>0 8 * * *</code>  --  daily check for incidents needing postmortem.</p>
 <p>The agent reconstructs the full incident timeline from:
 - Alert history
 - Chat messages in the war room
@@ -8539,8 +8539,8 @@ When multiple alerts fire simultaneously, correlate them:
 - Monitoring data (metrics, logs, traces)</p>
 <p><strong>Automated Timeline:</strong>
 <div class="highlight"><pre><span></span><code>[HH:MM] Monitoring detected error rate spike on payment-service
-[HH:MM] Alert deduplicated — 3 related alerts grouped
-[HH:MM] Classified as SEV1 — payment processing affected
+[HH:MM] Alert deduplicated  --  3 related alerts grouped
+[HH:MM] Classified as SEV1  --  payment processing affected
 [HH:MM] On-call engineer paged (primary: jane-engineer)
 [HH:MM] Jane acknowledged page
 [HH:MM] War room opened in #incidents
@@ -8548,7 +8548,7 @@ When multiple alerts fire simultaneously, correlate them:
 [HH:MM] Rollback of deploy #abc123 initiated
 [HH:MM] Error rate began decreasing
 [HH:MM] Error rate returned to baseline
-[HH:MM] Monitoring period complete — incident resolved
+[HH:MM] Monitoring period complete  --  incident resolved
 </code></pre></div></p>
 <h3 id="step-2-postmortem-draft">Step 2: Postmortem Draft<a class="headerlink" href="#step-2-postmortem-draft" title="Anchor link to this section">&para;</a></h3>
 <p>Generate a postmortem draft following a standard template:</p>
@@ -8571,14 +8571,14 @@ When multiple alerts fire simultaneously, correlate them:
 [Auto-generated timeline from above]
 
 <span class="gu">## Root Cause</span>
-[What specifically caused the incident — the &quot;why&quot;]
+[What specifically caused the incident  --  the &quot;why&quot;]
 
 <span class="gu">## Contributing Factors</span>
-<span class="k">-</span><span class="w"> </span>[Factor 1 — e.g., &quot;no alert on this specific error pattern&quot;]
-<span class="k">-</span><span class="w"> </span>[Factor 2 — e.g., &quot;deploy didn&#39;t have automated canary analysis&quot;]
+<span class="k">-</span><span class="w"> </span>[Factor 1  --  e.g., &quot;no alert on this specific error pattern&quot;]
+<span class="k">-</span><span class="w"> </span>[Factor 2  --  e.g., &quot;deploy didn&#39;t have automated canary analysis&quot;]
 
 <span class="gu">## Detection</span>
-<span class="k">-</span><span class="w"> </span><span class="gs">**Time to detect:**</span> [DURATION] — [how we found out]
+<span class="k">-</span><span class="w"> </span><span class="gs">**Time to detect:**</span> [DURATION]  --  [how we found out]
 <span class="k">-</span><span class="w"> </span><span class="gs">**Could we have detected it faster?**</span> [Analysis]
 
 <span class="gu">## Resolution</span>
@@ -8604,7 +8604,7 @@ When multiple alerts fire simultaneously, correlate them:
 <li>Schedule automated check-ins: 7 days, 14 days, 30 days</li>
 <li>Escalate overdue action items to the postmortem owner's manager</li>
 </ol>
-<p><strong>Cron:</strong> <code>0 9 * * 1</code> — weekly action item status sweep.</p>
+<p><strong>Cron:</strong> <code>0 9 * * 1</code>  --  weekly action item status sweep.</p>
 <h3 id="step-4-postmortem-review">Step 4: Postmortem Review<a class="headerlink" href="#step-4-postmortem-review" title="Anchor link to this section">&para;</a></h3>
 <ol>
 <li>Schedule a postmortem review meeting (blameless, 45 minutes)</li>
@@ -8656,7 +8656,7 @@ When multiple alerts fire simultaneously, correlate them:
 </tr>
 </tbody>
 </table>
-<p><strong>Cron:</strong> <code>0 8 * * 1</code> — weekly SLA dashboard update.</p>
+<p><strong>Cron:</strong> <code>0 8 * * 1</code>  --  weekly SLA dashboard update.</p>
 <h2 id="full-cron-schedule">Full Cron Schedule<a class="headerlink" href="#full-cron-schedule" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -8750,9 +8750,9 @@ When multiple alerts fire simultaneously, correlate them:
 </table>
 <h2 id="implementation-notes">Implementation Notes<a class="headerlink" href="#implementation-notes" title="Anchor link to this section">&para;</a></h2>
 <h3 id="never-fully-autonomous">Never Fully Autonomous<a class="headerlink" href="#never-fully-autonomous" title="Anchor link to this section">&para;</a></h3>
-<p>The response pipeline automates detection, classification, notification, and information gathering — but remediation decisions remain human. The agent's job is to reduce the cognitive load on responders by answering "what's happening right now?" so they can focus on "what do we do about it?"</p>
+<p>The response pipeline automates detection, classification, notification, and information gathering  --  but remediation decisions remain human. The agent's job is to reduce the cognitive load on responders by answering "what's happening right now?" so they can focus on "what do we do about it?"</p>
 <h3 id="runbook-quality">Runbook Quality<a class="headerlink" href="#runbook-quality" title="Anchor link to this section">&para;</a></h3>
-<p>This blueprint is only as effective as your runbooks. Invest in writing clear, current runbooks for your top failure modes. Review and update them quarterly. The automation can find the runbook — it can't fix the issue if the runbook is wrong.</p>
+<p>This blueprint is only as effective as your runbooks. Invest in writing clear, current runbooks for your top failure modes. Review and update them quarterly. The automation can find the runbook  --  it can't fix the issue if the runbook is wrong.</p>
 <h3 id="testing">Testing<a class="headerlink" href="#testing" title="Anchor link to this section">&para;</a></h3>
 <p>Schedule regular incident response drills:
 1. Fire a test alert monthly
@@ -8764,10 +8764,10 @@ When multiple alerts fire simultaneously, correlate them:
 <li>Add <strong>deployment rollback automation</strong> for common failure patterns (error rate spike within 5 minutes of deploy → automated rollback)</li>
 <li>Integrate with <strong>feature flags</strong> to automatically disable problematic features</li>
 <li>Connect to <strong>customer communication</strong> tools (Intercom, Zendesk) to notify affected customers proactively</li>
-<li>Add <strong>cost tracking</strong> to incidents — compute the estimated cost of each incident for prioritization</li>
+<li>Add <strong>cost tracking</strong> to incidents  --  compute the estimated cost of each incident for prioritization</li>
 </ul>
-<p><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a> — 308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a> — 308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a>  --  308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a>  --  308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

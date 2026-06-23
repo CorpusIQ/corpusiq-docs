@@ -27,7 +27,7 @@
     
     
       
-        <title>Hermes Agent Setup & Installation Guide — Get Started Fast - CorpusIQ Docs</title>
+        <title>Hermes Agent Setup & Installation Guide  --  Get Started Fast - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes Agent Setup & Installation Guide — Get Started Fast
+              Hermes Agent Setup & Installation Guide  --  Get Started Fast
             
           </span>
         </div>
@@ -7775,10 +7775,10 @@
   
 
 
-<h1 id="hermes-agent-setup-installation-guide-get-started-fast">Hermes Agent Setup &amp; Installation Guide — Get Started Fast<a class="headerlink" href="#hermes-agent-setup-installation-guide-get-started-fast" title="Anchor link to this section">&para;</a></h1>
+<h1 id="hermes-agent-setup-installation-guide-get-started-fast">Hermes Agent Setup &amp; Installation Guide  --  Get Started Fast<a class="headerlink" href="#hermes-agent-setup-installation-guide-get-started-fast" title="Anchor link to this section">&para;</a></h1>
 <p>Hermes Agent runs on everything from a $50 Raspberry Pi to a $20,000 DGX workstation. This setup guide helps you pick the right hardware platform, install Hermes Agent in under 5 minutes, and choose the best model configuration for your needs.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Don't overthink it.</strong> If you're just getting started, use whatever machine you already have — a MacBook, a Windows desktop, or even a $5/month VPS. Hermes Agent is designed to be provider-agnostic and hardware-flexible. You can always migrate later to a different <a href="index.html#hardware-comparison">setup platform</a>.</p>
+<p><strong>Don't overthink it.</strong> If you're just getting started, use whatever machine you already have  --  a MacBook, a Windows desktop, or even a $5/month VPS. Hermes Agent is designed to be provider-agnostic and hardware-flexible. You can always migrate later to a different <a href="index.html#hardware-comparison">setup platform</a>.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <p>Hermes Agent installs via <code>pip install hermes-agent</code>, then connects to AI models through one of three paths:</p>
 <table>
@@ -7797,7 +7797,7 @@
 </tr>
 <tr>
 <td><strong>OpenRouter</strong></td>
-<td>Access 200+ models through a single API gateway — pay-per-token</td>
+<td>Access 200+ models through a single API gateway  --  pay-per-token</td>
 <td>$0–$20+/month</td>
 </tr>
 <tr>
@@ -7888,13 +7888,13 @@ hermes<span class="w"> </span>profile<span class="w"> </span>create<span class="
 hermes<span class="w"> </span>profile<span class="w"> </span>use<span class="w"> </span>my-agent
 
 <span class="c1"># 3. Configure a model provider (pick one)</span>
-<span class="c1"># Option A: OpenRouter — instant access to 200+ models</span>
+<span class="c1"># Option A: OpenRouter  --  instant access to 200+ models</span>
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>providers.openrouter.api_key<span class="w"> </span><span class="s2">&quot;your-key&quot;</span>
 
 <span class="c1"># Option B: Direct provider</span>
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>providers.anthropic.api_key<span class="w"> </span><span class="s2">&quot;your-key&quot;</span>
 
-<span class="c1"># Option C: Ollama — free, local, no API key needed</span>
+<span class="c1"># Option C: Ollama  --  free, local, no API key needed</span>
 ollama<span class="w"> </span>pull<span class="w"> </span>llama3.2
 
 <span class="c1"># 4. Set your default model</span>
@@ -7916,22 +7916,22 @@ hermes<span class="w"> </span>doctor
 <h2 id="detailed-setup-guides">Detailed Setup Guides<a class="headerlink" href="#detailed-setup-guides" title="Anchor link to this section">&para;</a></h2>
 <p>Choose your hardware:</p>
 <ul>
-<li><strong><a href="mac-mini-standalone.html">Mac Mini M4 (Standalone)</a></strong> — All-in-one: models, browser automation, crons. Best for solo founders.</li>
-<li><strong><a href="gaming-pc.html">Gaming PC / Desktop</a></strong> — Max GPU performance with CUDA. Best for developers with powerful rigs.</li>
-<li><strong><a href="cloud-vps.html">Cloud VPS</a></strong> — $5–20/month, always-on. Best for budget production use.</li>
-<li><strong><a href="raspberry-pi.html">Raspberry Pi 5</a></strong> — Ultra-low-cost 24/7 agent. Best for lightweight automation.</li>
-<li><strong><a href="docker.html">Docker</a></strong> — Containerized deployment. Best for reproducibility and CI/CD.</li>
-<li><strong><a href="windows-wsl.html">Windows 11 + WSL2</a></strong> — Windows users, Linux-native experience. Best for Windows desktops.</li>
+<li><strong><a href="mac-mini-standalone.html">Mac Mini M4 (Standalone)</a></strong>  --  All-in-one: models, browser automation, crons. Best for solo founders.</li>
+<li><strong><a href="gaming-pc.html">Gaming PC / Desktop</a></strong>  --  Max GPU performance with CUDA. Best for developers with powerful rigs.</li>
+<li><strong><a href="cloud-vps.html">Cloud VPS</a></strong>  --  $5–20/month, always-on. Best for budget production use.</li>
+<li><strong><a href="raspberry-pi.html">Raspberry Pi 5</a></strong>  --  Ultra-low-cost 24/7 agent. Best for lightweight automation.</li>
+<li><strong><a href="docker.html">Docker</a></strong>  --  Containerized deployment. Best for reproducibility and CI/CD.</li>
+<li><strong><a href="windows-wsl.html">Windows 11 + WSL2</a></strong>  --  Windows users, Linux-native experience. Best for Windows desktops.</li>
 </ul>
 <h2 id="after-setup">After Setup<a class="headerlink" href="#after-setup" title="Anchor link to this section">&para;</a></h2>
 <p>Once Hermes Agent is running, add capabilities:</p>
 <ul>
-<li><strong><a href="/hermes/mcp/">MCP Integration</a></strong> — Connect to Gmail, Slack, databases, and 37+ platforms</li>
-<li><strong><a href="/hermes/governance/scheduling/">Cron Scheduling</a></strong> — Schedule autonomous tasks with <a href="/hermes/best-practices/cron-design.md">cron design best practices</a></li>
-<li><strong><a href="/hermes/skills/">Skills Marketplace</a></strong> — Add community-built capabilities and <a href="/hermes/skills/creating-skills.md">create custom skills</a></li>
-<li><strong><a href="/hermes/knowledge/">Memory Architecture</a></strong> — Honcho, GBrain, memcore-cloud triple stack</li>
-<li><strong><a href="/hermes/blueprints/">Blueprints</a></strong> — End-to-end automation workflows for business processes</li>
-<li><strong><a href="/hermes/prompts/">Prompt Library</a></strong> — Curated templates for code generation, analysis, content, and more</li>
+<li><strong><a href="/hermes/mcp/">MCP Integration</a></strong>  --  Connect to Gmail, Slack, databases, and 37+ platforms</li>
+<li><strong><a href="/hermes/governance/scheduling/">Cron Scheduling</a></strong>  --  Schedule autonomous tasks with <a href="/hermes/best-practices/cron-design.md">cron design best practices</a></li>
+<li><strong><a href="/hermes/skills/">Skills Marketplace</a></strong>  --  Add community-built capabilities and <a href="/hermes/skills/creating-skills.md">create custom skills</a></li>
+<li><strong><a href="/hermes/knowledge/">Memory Architecture</a></strong>  --  Honcho, GBrain, memcore-cloud triple stack</li>
+<li><strong><a href="/hermes/blueprints/">Blueprints</a></strong>  --  End-to-end automation workflows for business processes</li>
+<li><strong><a href="/hermes/prompts/">Prompt Library</a></strong>  --  Curated templates for code generation, analysis, content, and more</li>
 </ul>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="what-is-hermes-agent">What is Hermes Agent?<a class="headerlink" href="#what-is-hermes-agent" title="Anchor link to this section">&para;</a></h3>
@@ -7941,7 +7941,7 @@ hermes<span class="w"> </span>doctor
 <h3 id="which-hardware-is-best-for-hermes-agent">Which hardware is best for Hermes Agent?<a class="headerlink" href="#which-hardware-is-best-for-hermes-agent" title="Anchor link to this section">&para;</a></h3>
 <p>The <a href="mac-mini-standalone.html">Mac Mini M4</a> is the recommended all-in-one platform. For budget 24/7 operation, a <a href="cloud-vps.html">cloud VPS</a> at $5–20/month works well. For maximum GPU performance, use a <a href="gaming-pc.html">gaming PC</a> with CUDA.</p>
 <h3 id="how-do-i-connect-hermes-agent-to-business-data">How do I connect Hermes Agent to business data?<a class="headerlink" href="#how-do-i-connect-hermes-agent-to-business-data" title="Anchor link to this section">&para;</a></h3>
-<p>Use the <a href="/hermes/mcp/">MCP Integration Guide</a> to connect 37+ business platforms — CRM, email, analytics, databases, advertising, and more — through a single OAuth flow with CorpusIQ MCP.</p>
+<p>Use the <a href="/hermes/mcp/">MCP Integration Guide</a> to connect 37+ business platforms  --  CRM, email, analytics, databases, advertising, and more  --  through a single OAuth flow with CorpusIQ MCP.</p>
 <h3 id="whats-the-difference-between-ollama-and-openrouter">What's the difference between Ollama and OpenRouter?<a class="headerlink" href="#whats-the-difference-between-ollama-and-openrouter" title="Anchor link to this section">&para;</a></h3>
 <p>Ollama runs models locally on your hardware (free, private, limited to smaller models). OpenRouter provides API access to 200+ models including frontier models like Claude and GPT-4o (pay-per-use, no hardware requirements).</p>
 <h3 id="how-do-i-keep-hermes-agent-running-247">How do I keep Hermes Agent running 24/7?<a class="headerlink" href="#how-do-i-keep-hermes-agent-running-247" title="Anchor link to this section">&para;</a></h3>
@@ -7950,12 +7950,12 @@ hermes<span class="w"> </span>doctor
 <p>Extend Hermes Agent through <a href="/hermes/mcp/">MCP servers</a> for external tools, <a href="/hermes/skills/creating-skills.md">skills</a> for reusable workflows, <a href="/hermes/best-practices/cron-design.md">crons</a> for scheduled automation, and <a href="/hermes/knowledge/">memory systems</a> for persistent context.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="mac-mini-standalone.html">Mac Mini M4 Setup</a> — Recommended standalone platform</li>
-<li><a href="cloud-vps.html">Cloud VPS Setup</a> — Budget always-on deployment</li>
-<li><a href="/hermes/best-practices/model-selection.md">Model Selection Guide</a> — Choose the right AI model</li>
-<li><a href="/hermes/mcp/">MCP Integration Guide</a> — Connect external tools and data</li>
-<li><a href="/hermes/best-practices/cron-design.md">Cron Design Best Practices</a> — Reliable scheduled automation</li>
-<li><a href="/hermes/troubleshooting/">Troubleshooting Guide</a> — Common issues and fixes</li>
+<li><a href="mac-mini-standalone.html">Mac Mini M4 Setup</a>  --  Recommended standalone platform</li>
+<li><a href="cloud-vps.html">Cloud VPS Setup</a>  --  Budget always-on deployment</li>
+<li><a href="/hermes/best-practices/model-selection.md">Model Selection Guide</a>  --  Choose the right AI model</li>
+<li><a href="/hermes/mcp/">MCP Integration Guide</a>  --  Connect external tools and data</li>
+<li><a href="/hermes/best-practices/cron-design.md">Cron Design Best Practices</a>  --  Reliable scheduled automation</li>
+<li><a href="/hermes/troubleshooting/">Troubleshooting Guide</a>  --  Common issues and fixes</li>
 </ul>
 <hr />
 <p>*</p>

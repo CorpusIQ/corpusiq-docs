@@ -7740,7 +7740,7 @@
   <a href="#my-ga4-report-is-returning-empty-rows-how-do-i-debug-it" class="md-nav__link">
     <span class="md-ellipsis">
       
-        "My GA4 report is returning empty rows — how do I debug it?"
+        "My GA4 report is returning empty rows -- how do I debug it?"
       
     </span>
   </a>
@@ -7834,7 +7834,7 @@
   <a href="#use-corpusiq-as-the-memory-layer-for-a-sales-agent-give-it-access-to-all-open-deals-and-customer-history" class="md-nav__link">
     <span class="md-ellipsis">
       
-        "Use CorpusIQ as the memory layer for a sales agent — give it access to all open deals and customer history."
+        "Use CorpusIQ as the memory layer for a sales agent -- give it access to all open deals and customer history."
       
     </span>
   </a>
@@ -7872,7 +7872,7 @@
   <a href="#from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        From the Hermes Prompt Collection — production prompts for AI agents. Powered by CorpusIQ.
+        From the Hermes Prompt Collection -- production prompts for AI agents. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -7901,7 +7901,7 @@
 
 <h1 id="mcp-developer-prompts">MCP developer prompts<a class="headerlink" href="#mcp-developer-prompts" title="Anchor link to this section">&para;</a></h1>
 <p>These prompts are written for developers using CorpusIQ as an MCP server
-— either from Claude Desktop, a custom MCP client, or an agent pipeline.
+ --  either from Claude Desktop, a custom MCP client, or an agent pipeline.
 They go beyond operator-level queries and focus on programmatic access,
 cross-connector joins, debugging, and building CorpusIQ into larger
 workflows.</p>
@@ -7920,7 +7920,7 @@ tool-call code in your agent.</p>
 <p><strong>Connectors used:</strong> Shopify or Amazon Seller.
 <strong>MCP tool:</strong> <code>get_orders</code> with <code>created_after</code> date param.
 <strong>What this does:</strong> Returns raw order objects with line items, amounts,
-statuses. The MCP layer returns typed JSON — no parsing of prose needed.
+statuses. The MCP layer returns typed JSON  --  no parsing of prose needed.
 <strong>Developer use case:</strong> Feed order data into a downstream analytics
 pipeline or a fine-tuning dataset.</p>
 <hr />
@@ -7980,7 +7980,7 @@ before attributing it as a channel.</p>
 <code>list_invoices</code> (QuickBooks).
 <strong>What this does:</strong> Two lists, joined on company name or amount. Gaps
 are deals with no matching invoice.
-<strong>Developer use case:</strong> Revenue leakage audit — catch won deals that
+<strong>Developer use case:</strong> Revenue leakage audit  --  catch won deals that
 slipped through billing.</p>
 <hr />
 <h3 id="pull-every-stripe-charge-and-match-to-quickbooks-income-lines">"Pull every Stripe charge and match to QuickBooks income lines."<a class="headerlink" href="#pull-every-stripe-charge-and-match-to-quickbooks-income-lines" title="Anchor link to this section">&para;</a></h3>
@@ -7989,7 +7989,7 @@ slipped through billing.</p>
 <code>list_invoices</code> (QuickBooks).
 <strong>What this does:</strong> Stripe returns raw charges; QuickBooks returns
 booked income. Mismatches surface timing gaps or missing entries.
-<strong>Developer use case:</strong> Automated reconciliation check — run daily in
+<strong>Developer use case:</strong> Automated reconciliation check  --  run daily in
 a CI pipeline.</p>
 <hr />
 <h3 id="show-me-klaviyo-list-growth-alongside-facebook-ad-spend-to-see-if-paid-ads-are-growing-my-list">"Show me Klaviyo list growth alongside Facebook ad spend to see if paid ads are growing my list."<a class="headerlink" href="#show-me-klaviyo-list-growth-alongside-facebook-ad-spend-to-see-if-paid-ads-are-growing-my-list" title="Anchor link to this section">&para;</a></h3>
@@ -8007,18 +8007,18 @@ a CI pipeline.</p>
 <strong>Common causes:</strong> Token revoked in Shopify admin, wrong store domain
 configured, date filter is too narrow by default.</p>
 <hr />
-<h3 id="my-ga4-report-is-returning-empty-rows-how-do-i-debug-it">"My GA4 report is returning empty rows — how do I debug it?"<a class="headerlink" href="#my-ga4-report-is-returning-empty-rows-how-do-i-debug-it" title="Anchor link to this section">&para;</a></h3>
+<h3 id="my-ga4-report-is-returning-empty-rows-how-do-i-debug-it">"My GA4 report is returning empty rows  --  how do I debug it?"<a class="headerlink" href="#my-ga4-report-is-returning-empty-rows-how-do-i-debug-it" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Connectors used:</strong> GA4.
 <strong>Debug approach:</strong> First call <code>list_accounts</code> to verify the property
 is visible. Then call <code>list_properties</code> with the account ID. Then run a
 minimal report: single dimension <code>date</code>, single metric <code>sessions</code>, last
 7 days. If that works, add dimensions one at a time until the empty
 response reappears.
-<strong>Common cause:</strong> <code>property_id</code> has the format <code>properties/XXXXXXX</code> —
+<strong>Common cause:</strong> <code>property_id</code> has the format <code>properties/XXXXXXX</code>  -- 
 make sure you're passing just the numeric ID, not the full path.</p>
 <hr />
 <h3 id="check-whether-my-quickbooks-token-is-still-valid">"Check whether my QuickBooks token is still valid."<a class="headerlink" href="#check-whether-my-quickbooks-token-is-still-valid" title="Anchor link to this section">&para;</a></h3>
-<p><strong>MCP tool:</strong> <code>get_company_info</code> — this is the lightest QuickBooks
+<p><strong>MCP tool:</strong> <code>get_company_info</code>  --  this is the lightest QuickBooks
 call. A valid token returns company name and fiscal year. An expired
 token returns a 401 error, which tells you to re-authenticate via
 <code>get_connector_status</code>.</p>
@@ -8028,7 +8028,7 @@ token returns a 401 error, which tells you to re-authenticate via
 <strong>What this does:</strong> Returns a table of every configured connector,
 its auth state (connected / expired / not authenticated), and a
 re-auth link where applicable.
-<strong>Developer use case:</strong> Health check endpoint in an agent — run this
+<strong>Developer use case:</strong> Health check endpoint in an agent  --  run this
 at session start to gate which connectors are usable.</p>
 <hr />
 <h3 id="why-are-my-meta-ads-impressions-different-between-the-account-summary-and-the-campaign-level-report">"Why are my Meta Ads impressions different between the account summary and the campaign-level report?"<a class="headerlink" href="#why-are-my-meta-ads-impressions-different-between-the-account-summary-and-the-campaign-level-report" title="Anchor link to this section">&para;</a></h3>
@@ -8067,7 +8067,7 @@ and data normalization.</p>
 <strong>Key connector:</strong> <code>get_profit_loss</code> + <code>get_orders</code> for revenue.
 <strong>Read-only guarantee:</strong> CorpusIQ cannot post to Slack, only read.</p>
 <hr />
-<h3 id="use-corpusiq-as-the-memory-layer-for-a-sales-agent-give-it-access-to-all-open-deals-and-customer-history">"Use CorpusIQ as the memory layer for a sales agent — give it access to all open deals and customer history."<a class="headerlink" href="#use-corpusiq-as-the-memory-layer-for-a-sales-agent-give-it-access-to-all-open-deals-and-customer-history" title="Anchor link to this section">&para;</a></h3>
+<h3 id="use-corpusiq-as-the-memory-layer-for-a-sales-agent-give-it-access-to-all-open-deals-and-customer-history">"Use CorpusIQ as the memory layer for a sales agent  --  give it access to all open deals and customer history."<a class="headerlink" href="#use-corpusiq-as-the-memory-layer-for-a-sales-agent-give-it-access-to-all-open-deals-and-customer-history" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Architecture:</strong>
 1. Attach CorpusIQ MCP to your sales agent's LLM context.
 2. On each call, the agent resolves which connectors to query via
@@ -8096,8 +8096,8 @@ most recent email thread.</p>
 2. CorpusIQ pulls live Semrush + GSC data, compares to prior run
    (stored in canonical facts), and returns a diff report.
 3. CI job posts the report to Slack or opens a GitHub issue on regressions.</p>
-<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts">Hermes Prompt Collection</a> — production prompts for AI agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts">Hermes Prompt Collection</a> — production prompts for AI agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts">Hermes Prompt Collection</a>  --  production prompts for AI agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts">Hermes Prompt Collection</a>  --  production prompts for AI agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

@@ -6008,7 +6008,7 @@
   <a href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        From the Hermes Case Studies — real-world agent deployments. Powered by CorpusIQ.
+        From the Hermes Case Studies -- real-world agent deployments. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -7978,7 +7978,7 @@
   <a href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        From the Hermes Case Studies — real-world agent deployments. Powered by CorpusIQ.
+        From the Hermes Case Studies -- real-world agent deployments. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -8013,7 +8013,7 @@
 <h3 id="foia-and-public-records-processing">FOIA and Public Records Processing<a class="headerlink" href="#foia-and-public-records-processing" title="Anchor link to this section">&para;</a></h3>
 <p>Freedom of Information Act (FOIA) requests are a legal obligation with strict timelines. Backlogs are common, and the manual process of searching, reviewing, and redacting is labor-intensive.</p>
 <p><strong>Intake and triage.</strong> A skill classifies incoming requests by complexity (simple lookup, multi-department search, complex review) and routes to the appropriate workflow. It checks for duplicate or substantially similar requests and identifies the likely document custodians based on the request description.</p>
-<p><strong>Document retrieval.</strong> A skill orchestrates searches across document management systems, email archives, and departmental file shares. It applies date range filters, keyword matching, and custodian identification. The output is a structured inventory of responsive documents with provenance tracking — where each document was found and who the custodian is.</p>
+<p><strong>Document retrieval.</strong> A skill orchestrates searches across document management systems, email archives, and departmental file shares. It applies date range filters, keyword matching, and custodian identification. The output is a structured inventory of responsive documents with provenance tracking  --  where each document was found and who the custodian is.</p>
 <p><strong>Redaction assistance.</strong> The most time-consuming FOIA step is line-by-line review for exempt information. A skill pre-processes documents to flag potential exemptions:</p>
 <ul>
 <li>Personal privacy information (names, addresses, SSNs) → Exemption 6/7(C)</li>
@@ -8021,18 +8021,18 @@
 <li>Law enforcement sensitive information → Exemption 7</li>
 <li>Business confidential information → Exemption 4</li>
 </ul>
-<p>Flagged content is highlighted for human review. The skill never auto-redacts — it presents recommendations with the statutory basis cited. The reviewing officer makes the final call, creating a defensible record of each redaction decision.</p>
+<p>Flagged content is highlighted for human review. The skill never auto-redacts  --  it presents recommendations with the statutory basis cited. The reviewing officer makes the final call, creating a defensible record of each redaction decision.</p>
 <p><strong>Response package assembly.</strong> When review is complete, a skill assembles the response package: cover letter with statutory citations, responsive documents with redactions applied, fee calculation and invoice, and appeal rights notification. The package is reviewed, signed, and released.</p>
 <h3 id="document-management">Document Management<a class="headerlink" href="#document-management" title="Anchor link to this section">&para;</a></h3>
-<p>Government agencies generate enormous document volumes — policies, procedures, meeting minutes, contracts, correspondence. Finding the right document at the right time is a persistent challenge.</p>
+<p>Government agencies generate enormous document volumes  --  policies, procedures, meeting minutes, contracts, correspondence. Finding the right document at the right time is a persistent challenge.</p>
 <p><strong>Policy search skill.</strong> "Find our remote work policy from 2023" searches across the document management system, returns the authoritative version, and notes any pending revisions or superseding documents. This eliminates the "I think there's a newer version somewhere" problem.</p>
 <p><strong>Meeting materials preparation.</strong> A skill gathers agenda items, previous meeting minutes for approval, staff reports, and public comment submissions into a board packet. It generates a table of contents, applies the agency's standard formatting, and produces a PDF ready for public posting.</p>
-<p><strong>Records retention automation.</strong> Government records have mandated retention schedules. A cron reviews document metadata against the retention schedule and identifies records eligible for disposition. It generates a disposition log for the records officer's approval — never auto-deleting, always queuing for human decision.</p>
+<p><strong>Records retention automation.</strong> Government records have mandated retention schedules. A cron reviews document metadata against the retention schedule and identifies records eligible for disposition. It generates a disposition log for the records officer's approval  --  never auto-deleting, always queuing for human decision.</p>
 <h3 id="constituent-services">Constituent Services<a class="headerlink" href="#constituent-services" title="Anchor link to this section">&para;</a></h3>
 <p>Citizens interact with government for permits, licenses, benefits, and information. Responsive constituent service builds public trust.</p>
 <p><strong>Permit status lookup skill.</strong> A constituent asks "what's the status of my building permit?" The skill looks up the permit by address or application number, returns the current status with plain-language explanation of what it means, and provides estimated next steps and timelines.</p>
 <p><strong>311/Service request triage.</strong> A skill classifies incoming service requests (pothole, noise complaint, missed trash pickup), routes to the correct department, checks for duplicate reports, and provides the constituent with a tracking number and expected response time.</p>
-<p><strong>Benefits eligibility screening.</strong> A skill helps constituents determine which benefits programs they may qualify for by asking a structured set of questions (income, household size, age, veteran status) and cross-referencing against program eligibility criteria. It provides application links and required documentation checklists — never makes eligibility determinations, just screens and informs.</p>
+<p><strong>Benefits eligibility screening.</strong> A skill helps constituents determine which benefits programs they may qualify for by asking a structured set of questions (income, household size, age, veteran status) and cross-referencing against program eligibility criteria. It provides application links and required documentation checklists  --  never makes eligibility determinations, just screens and informs.</p>
 <h3 id="compliance-reporting">Compliance Reporting<a class="headerlink" href="#compliance-reporting" title="Anchor link to this section">&para;</a></h3>
 <p>Government agencies report to oversight bodies, legislative committees, and federal grant managers. Missing a reporting deadline can jeopardize funding.</p>
 <p><strong>Grant compliance tracker.</strong> A skill monitors federal and state grant reporting requirements. It tracks spending against grant budgets, collects required performance metrics from program databases, and alerts program managers 30, 14, and 7 days before reports are due.</p>
@@ -8040,16 +8040,16 @@
 <p><strong>Audit preparation.</strong> A skill that pre-assembles audit evidence packages: financial reconciliations, procurement documentation, performance metrics with source data, and policy attestations with version history. When auditors arrive, the documentation is organized and traceable.</p>
 <h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Faster FOIA response</strong> — document retrieval and redaction assistance cuts processing time significantly</li>
-<li><strong>Reduced backlogs</strong> — automated triage and routing prevents requests from stalling</li>
-<li><strong>Better constituent experience</strong> — permit status lookups and 311 triage provide immediate answers</li>
-<li><strong>Compliant by design</strong> — every decision documented with statutory basis and human approval</li>
-<li><strong>Audit-ready documentation</strong> — evidence packages pre-assembled with full provenance</li>
-<li><strong>Accessible public services</strong> — output formats meet Section 508/WCAG standards</li>
+<li><strong>Faster FOIA response</strong>  --  document retrieval and redaction assistance cuts processing time significantly</li>
+<li><strong>Reduced backlogs</strong>  --  automated triage and routing prevents requests from stalling</li>
+<li><strong>Better constituent experience</strong>  --  permit status lookups and 311 triage provide immediate answers</li>
+<li><strong>Compliant by design</strong>  --  every decision documented with statutory basis and human approval</li>
+<li><strong>Audit-ready documentation</strong>  --  evidence packages pre-assembled with full provenance</li>
+<li><strong>Accessible public services</strong>  --  output formats meet Section 508/WCAG standards</li>
 </ul>
 <h2 id="key-principles-for-government-deployments">Key Principles for Government Deployments<a class="headerlink" href="#key-principles-for-government-deployments" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Transparency by default.</strong> Every automated decision should be explainable to a citizen, a journalist, or an auditor. Logs should show what data was accessed, what analysis was performed, and what recommendations were made.</p>
-<p><strong>Human decision authority.</strong> Hermes recommends, drafts, and analyzes — but never makes final determinations on benefits eligibility, permit approval, FOIA exemptions, or any decision affecting individual rights. The human-in-the-loop is not optional; it's the law.</p>
+<p><strong>Human decision authority.</strong> Hermes recommends, drafts, and analyzes  --  but never makes final determinations on benefits eligibility, permit approval, FOIA exemptions, or any decision affecting individual rights. The human-in-the-loop is not optional; it's the law.</p>
 <p><strong>Security and privacy.</strong> Government data includes PII, law enforcement sensitive information, and critical infrastructure details. Data handling must comply with FISMA, state privacy laws, and agency-specific security requirements.</p>
 <p><strong>Accessibility.</strong> Public-facing services must meet Section 508/WCAG accessibility standards. Output formats, notifications, and interfaces should be accessible to citizens with disabilities.</p>
 <p><strong>Procurement compliance.</strong> Government IT procurement has specific rules. MCP servers and Hermes deployments must comply with FedRAMP, StateRAMP, or equivalent authorization frameworks where applicable.</p>
@@ -8066,14 +8066,14 @@
 <p>Hermes connects to document management systems, email archives, permit databases, 311/CRM systems, grant management platforms, and financial systems through database connectors (PostgreSQL, MSSQL) and API-based MCP integrations.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="compliance-audit.html">Hermes Agent Compliance &amp; Audit Automation</a> — SOC 2, HIPAA, and GDPR evidence collection</li>
-<li><a href="legal-firms.html">Hermes Agent for Legal Firms</a> — Document review and deadline tracking</li>
-<li><a href="education.html">Hermes Agent for Education</a> — Public education administrative workflows</li>
-<li><a href="../by-company-size/enterprise.html">Hermes Agent for Enterprise</a> — Security architecture and compliance at scale</li>
-<li><a href="../../index.html">Hermes Agent Overview</a> — Core platform capabilities and connector ecosystem</li>
+<li><a href="compliance-audit.html">Hermes Agent Compliance &amp; Audit Automation</a>  --  SOC 2, HIPAA, and GDPR evidence collection</li>
+<li><a href="legal-firms.html">Hermes Agent for Legal Firms</a>  --  Document review and deadline tracking</li>
+<li><a href="education.html">Hermes Agent for Education</a>  --  Public education administrative workflows</li>
+<li><a href="../by-company-size/enterprise.html">Hermes Agent for Enterprise</a>  --  Security architecture and compliance at scale</li>
+<li><a href="../../index.html">Hermes Agent Overview</a>  --  Core platform capabilities and connector ecosystem</li>
 </ul>
-<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a> — real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a> — real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a>  --  real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a>  --  real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

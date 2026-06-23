@@ -27,7 +27,7 @@
     
     
       
-        <title>Cloud VPS Hermes Agent Setup — 24/7 AI Agent for $5-20/month - CorpusIQ Docs</title>
+        <title>Cloud VPS Hermes Agent Setup  --  24/7 AI Agent for $5-20/month - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Cloud VPS Hermes Agent Setup — 24/7 AI Agent for $5-20/month
+              Cloud VPS Hermes Agent Setup  --  24/7 AI Agent for $5-20/month
             
           </span>
         </div>
@@ -8071,7 +8071,7 @@
   
 
 
-<h1 id="cloud-vps-hermes-agent-setup-247-ai-agent-for-520month">Cloud VPS Hermes Agent Setup — 24/7 AI Agent for $5–20/Month<a class="headerlink" href="#cloud-vps-hermes-agent-setup-247-ai-agent-for-520month" title="Anchor link to this section">&para;</a></h1>
+<h1 id="cloud-vps-hermes-agent-setup-247-ai-agent-for-520month">Cloud VPS Hermes Agent Setup  --  24/7 AI Agent for $5–20/Month<a class="headerlink" href="#cloud-vps-hermes-agent-setup-247-ai-agent-for-520month" title="Anchor link to this section">&para;</a></h1>
 <p>Run Hermes Agent 24/7 on a cloud VPS for always-on AI automation at minimal cost. No hardware to maintain, no electricity bill, and your agent stays online even when your laptop is off. This cloud VPS setup guide covers provisioning, model configuration, cron persistence, and security hardening.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <p>A cloud VPS is the best budget option for always-on Hermes Agent operation. For $5–20/month you get a Linux server that runs 24/7 with built-in uptime guarantees. Use API-based models (OpenRouter for 200+ models including free-tier options) since VPS instances don't have GPUs.</p>
@@ -8094,7 +8094,7 @@
 </tr>
 <tr>
 <td><strong>Crons</strong></td>
-<td><a href="/hermes/best-practices/cron-design.md">Hermes cron scheduler</a> — 24/7 execution</td>
+<td><a href="/hermes/best-practices/cron-design.md">Hermes cron scheduler</a>  --  24/7 execution</td>
 </tr>
 <tr>
 <td><strong>Memory</strong></td>
@@ -8178,7 +8178,7 @@ hermes<span class="w"> </span>profile<span class="w"> </span>create<span class="
 hermes<span class="w"> </span>profile<span class="w"> </span>use<span class="w"> </span>cloud-agent
 </code></pre></div>
 <h3 id="step-4-configure-cloud-models">Step 4: Configure Cloud Models<a class="headerlink" href="#step-4-configure-cloud-models" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># OpenRouter — free tier models available</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># OpenRouter  --  free tier models available</span>
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>providers.openrouter.api_key<span class="w"> </span><span class="s2">&quot;your-key&quot;</span>
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>openrouter/qwen/qwen3-235b-a22b:free
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.fallback<span class="w"> </span>openrouter/anthropic/claude-sonnet-4
@@ -8278,19 +8278,19 @@ sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> <
 <p>For heavier usage with Claude-level models: ~$15–25/month.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="can-i-run-local-models-on-a-cloud-vps">Can I run local models on a cloud VPS?<a class="headerlink" href="#can-i-run-local-models-on-a-cloud-vps" title="Anchor link to this section">&para;</a></h3>
-<p>No — cloud VPS instances don't have GPUs. Use API-based models via OpenRouter or direct provider APIs. For local model inference, use a <a href="gaming-pc.html">gaming PC</a> or <a href="mac-mini-standalone.html">Mac Mini M4</a>.</p>
+<p>No  --  cloud VPS instances don't have GPUs. Use API-based models via OpenRouter or direct provider APIs. For local model inference, use a <a href="gaming-pc.html">gaming PC</a> or <a href="mac-mini-standalone.html">Mac Mini M4</a>.</p>
 <h3 id="which-cloud-vps-provider-is-best-for-hermes-agent">Which cloud VPS provider is best for Hermes Agent?<a class="headerlink" href="#which-cloud-vps-provider-is-best-for-hermes-agent" title="Anchor link to this section">&para;</a></h3>
-<p>Hetzner CX22 offers the best value at €4.51/month with 4GB RAM — enough for Hermes Agent + memory stack. DigitalOcean and Linode are good alternatives with simpler interfaces.</p>
+<p>Hetzner CX22 offers the best value at €4.51/month with 4GB RAM  --  enough for Hermes Agent + memory stack. DigitalOcean and Linode are good alternatives with simpler interfaces.</p>
 <h3 id="how-do-i-keep-hermes-agent-running-after-reboot">How do I keep Hermes Agent running after reboot?<a class="headerlink" href="#how-do-i-keep-hermes-agent-running-after-reboot" title="Anchor link to this section">&para;</a></h3>
 <p>The systemd service with <code>Restart=always</code> ensures Hermes Agent restarts automatically. Combine with <code>WantedBy=multi-user.target</code> so it starts on boot.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/setup/">Hermes Agent Setup Overview</a> — All platform options</li>
-<li><a href="docker.html">Docker Setup</a> — Containerized cloud deployment</li>
-<li><a href="raspberry-pi.html">Raspberry Pi Setup</a> — Alternative low-cost 24/7 option</li>
-<li><a href="/hermes/best-practices/model-selection.md">Model Selection Guide</a> — API model tiering</li>
-<li><a href="/hermes/best-practices/cron-design.md">Cron Design Best Practices</a> — 24/7 automation</li>
-<li><a href="/hermes/troubleshooting/">Troubleshooting Guide</a> — VPS-specific issues</li>
+<li><a href="/hermes/setup/">Hermes Agent Setup Overview</a>  --  All platform options</li>
+<li><a href="docker.html">Docker Setup</a>  --  Containerized cloud deployment</li>
+<li><a href="raspberry-pi.html">Raspberry Pi Setup</a>  --  Alternative low-cost 24/7 option</li>
+<li><a href="/hermes/best-practices/model-selection.md">Model Selection Guide</a>  --  API model tiering</li>
+<li><a href="/hermes/best-practices/cron-design.md">Cron Design Best Practices</a>  --  24/7 automation</li>
+<li><a href="/hermes/troubleshooting/">Troubleshooting Guide</a>  --  VPS-specific issues</li>
 </ul>
 <hr />
 <p>*</p>

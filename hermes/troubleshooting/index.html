@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Common failures and fixes — MCP connections, OAuth tokens, cron jobs, browser automation, model routing, gateway crashes">
+        <meta name="description" content="Common failures and fixes  --  MCP connections, OAuth tokens, cron jobs, browser automation, model routing, gateway crashes">
       
       
       
@@ -8463,7 +8463,7 @@
 
 <h1 id="troubleshooting-guide">Troubleshooting Guide<a class="headerlink" href="#troubleshooting-guide" title="Anchor link to this section">&para;</a></h1>
 <p>Production agent systems fail in predictable ways. This guide catalogs the most common failure modes across the Hermes stack and provides clear resolution paths.</p>
-<p>Each section includes symptoms, diagnosis steps, and fixes — organized from most likely to least likely cause.</p>
+<p>Each section includes symptoms, diagnosis steps, and fixes  --  organized from most likely to least likely cause.</p>
 <h2 id="mcp-connection-issues">MCP Connection Issues<a class="headerlink" href="#mcp-connection-issues" title="Anchor link to this section">&para;</a></h2>
 <p>MCP (Model Context Protocol) servers are the bridge between Hermes and external tools. When they fail, agents lose their capabilities silently.</p>
 <h3 id="symptom-agent-reports-tool-not-available-or-mcp-server-unreachable">Symptom: Agent reports "Tool not available" or "MCP server unreachable"<a class="headerlink" href="#symptom-agent-reports-tool-not-available-or-mcp-server-unreachable" title="Anchor link to this section">&para;</a></h3>
@@ -8606,7 +8606,7 @@ hermes<span class="w"> </span>auth<span class="w"> </span>status<span class="w">
 <div class="highlight"><pre><span></span><code><span class="c1"># Reset a specific connector token</span>
 hermes<span class="w"> </span>auth<span class="w"> </span>reset<span class="w"> </span>google_workspace
 
-<span class="c1"># This returns a re-auth URL — open it in a browser</span>
+<span class="c1"># This returns a re-auth URL  --  open it in a browser</span>
 <span class="c1"># After re-auth, verify</span>
 hermes<span class="w"> </span>auth<span class="w"> </span>verify<span class="w"> </span>google_workspace
 </code></pre></div>
@@ -8742,7 +8742,7 @@ nslookup<span class="w"> </span>target-site.com
 <li><strong>Rotating user agents:</strong> Change user agent periodically to avoid fingerprinting</li>
 <li><strong>Residential proxies:</strong> For high-value targets, route through residential IPs</li>
 </ol>
-<p><strong>When CAPTCHA appears:</strong> The task fails and is retried. If CAPTCHA persists across 3 retries, the task is escalated for human review. The browser automation cannot solve CAPTCHAs by design — attempting to would violate most platforms' terms of service.</p>
+<p><strong>When CAPTCHA appears:</strong> The task fails and is retried. If CAPTCHA persists across 3 retries, the task is escalated for human review. The browser automation cannot solve CAPTCHAs by design  --  attempting to would violate most platforms' terms of service.</p>
 <h3 id="symptom-target-closed-mid-operation">Symptom: "Target closed" mid-operation<a class="headerlink" href="#symptom-target-closed-mid-operation" title="Anchor link to this section">&para;</a></h3>
 <p>The page navigated away or closed unexpectedly.</p>
 <p><strong>Fix:</strong> Re-navigate and snapshot before interacting:</p>
@@ -8983,7 +8983,7 @@ hermes<span class="w"> </span>queue<span class="w"> </span>retry<span class="w">
 <li><strong>Isolate the failure:</strong> Test each component independently</li>
 <li><strong>Check for recent changes:</strong> <code>hermes config diff</code> shows what changed</li>
 <li><strong>Roll back:</strong> If a config change caused the issue, <code>hermes config rollback</code></li>
-<li><strong>Escalate:</strong> Some failures genuinely need human intervention. The system is designed to degrade gracefully — individual features may fail while the core continues operating.</li>
+<li><strong>Escalate:</strong> Some failures genuinely need human intervention. The system is designed to degrade gracefully  --  individual features may fail while the core continues operating.</li>
 </ol>
 <hr />
 <p>*</p>

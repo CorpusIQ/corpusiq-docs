@@ -27,7 +27,7 @@
     
     
       
-        <title>Windows 11 WSL2 Hermes Agent Setup — Linux AI Agent on Windows - CorpusIQ Docs</title>
+        <title>Windows 11 WSL2 Hermes Agent Setup  --  Linux AI Agent on Windows - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Windows 11 WSL2 Hermes Agent Setup — Linux AI Agent on Windows
+              Windows 11 WSL2 Hermes Agent Setup  --  Linux AI Agent on Windows
             
           </span>
         </div>
@@ -8071,8 +8071,8 @@
   
 
 
-<h1 id="windows-11-wsl2-hermes-agent-setup-linux-ai-agent-on-windows">Windows 11 WSL2 Hermes Agent Setup — Linux AI Agent on Windows<a class="headerlink" href="#windows-11-wsl2-hermes-agent-setup-linux-ai-agent-on-windows" title="Anchor link to this section">&para;</a></h1>
-<p>Run Hermes Agent on Windows 11 with full Linux compatibility via WSL2 — no dual-booting required. Get NVIDIA GPU acceleration for local models through CUDA passthrough, native Linux filesystem performance, and all Hermes Agent features. This Windows WSL2 setup guide covers everything from installation to persistent 24/7 operation.</p>
+<h1 id="windows-11-wsl2-hermes-agent-setup-linux-ai-agent-on-windows">Windows 11 WSL2 Hermes Agent Setup  --  Linux AI Agent on Windows<a class="headerlink" href="#windows-11-wsl2-hermes-agent-setup-linux-ai-agent-on-windows" title="Anchor link to this section">&para;</a></h1>
+<p>Run Hermes Agent on Windows 11 with full Linux compatibility via WSL2  --  no dual-booting required. Get NVIDIA GPU acceleration for local models through CUDA passthrough, native Linux filesystem performance, and all Hermes Agent features. This Windows WSL2 setup guide covers everything from installation to persistent 24/7 operation.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <p>WSL2 provides a real Linux kernel inside Windows, enabling Hermes Agent to run exactly as it would on a native Linux machine. GPU passthrough means your NVIDIA card accelerates Ollama models at full CUDA speed. The setup is free if you already own a Windows PC, making it the easiest entry point for Windows users who want the full <a href="/hermes/setup/">Hermes Agent setup</a> experience.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
@@ -8098,11 +8098,11 @@
 </tr>
 <tr>
 <td>Networking</td>
-<td>Shared with Windows — no VM networking hassle</td>
+<td>Shared with Windows  --  no VM networking hassle</td>
 </tr>
 <tr>
 <td>Systemd</td>
-<td>Supported — run Hermes Agent as a service</td>
+<td>Supported  --  run Hermes Agent as a service</td>
 </tr>
 </tbody>
 </table>
@@ -8123,7 +8123,7 @@
 </code></pre></div>
 <p>Apply: <code>wsl --shutdown</code> in PowerShell, then reopen WSL.</p>
 <h3 id="step-3-gpu-passthrough-nvidia">Step 3: GPU Passthrough (NVIDIA)<a class="headerlink" href="#step-3-gpu-passthrough-nvidia" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c"># In PowerShell — install NVIDIA WSL2 driver</span>
+<div class="highlight"><pre><span></span><code><span class="c"># In PowerShell  --  install NVIDIA WSL2 driver</span>
 <span class="n">winget</span> <span class="n">install</span> <span class="p">-</span><span class="n">-id</span><span class="p">=</span><span class="n">Nvidia</span><span class="p">.</span><span class="n">CUDA</span> <span class="n">-e</span>
 </code></pre></div>
 <p>Inside WSL:</p>
@@ -8215,18 +8215,18 @@ playwright<span class="w"> </span>install-deps<span class="w"> </span>chromium
 </ul>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="does-ollama-gpu-acceleration-work-in-wsl2">Does Ollama GPU acceleration work in WSL2?<a class="headerlink" href="#does-ollama-gpu-acceleration-work-in-wsl2" title="Anchor link to this section">&para;</a></h3>
-<p>Yes. NVIDIA's WSL2 driver enables full CUDA passthrough. Ollama detects the GPU automatically and uses it for inference — same speed as native Linux.</p>
+<p>Yes. NVIDIA's WSL2 driver enables full CUDA passthrough. Ollama detects the GPU automatically and uses it for inference  --  same speed as native Linux.</p>
 <h3 id="why-not-just-use-windows-native-hermes-agent">Why not just use Windows native Hermes Agent?<a class="headerlink" href="#why-not-just-use-windows-native-hermes-agent" title="Anchor link to this section">&para;</a></h3>
 <p>WSL2 provides a real Linux environment with systemd, ext4 filesystem, and native package management. Many MCP servers and developer tools expect Linux. WSL2 delivers this without dual-booting.</p>
 <h3 id="how-do-i-prevent-wsl2-from-shutting-down">How do I prevent WSL2 from shutting down?<a class="headerlink" href="#how-do-i-prevent-wsl2-from-shutting-down" title="Anchor link to this section">&para;</a></h3>
 <p>Create a Windows Task Scheduler task that runs <code>wsl.exe -d Ubuntu-24.04 -e sleep infinity</code> at startup, or ensure the Hermes systemd service has <code>Restart=always</code>.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/setup/">Hermes Agent Setup Overview</a> — All platform options</li>
-<li><a href="gaming-pc.html">Gaming PC Setup</a> — Native Linux for max GPU performance</li>
-<li><a href="docker.html">Docker Setup</a> — Alternative Windows deployment</li>
-<li><a href="/hermes/best-practices/model-selection.md">Model Selection Guide</a> — GPU model sizing</li>
-<li><a href="/hermes/troubleshooting/">Troubleshooting Guide</a> — WSL2-specific issues</li>
+<li><a href="/hermes/setup/">Hermes Agent Setup Overview</a>  --  All platform options</li>
+<li><a href="gaming-pc.html">Gaming PC Setup</a>  --  Native Linux for max GPU performance</li>
+<li><a href="docker.html">Docker Setup</a>  --  Alternative Windows deployment</li>
+<li><a href="/hermes/best-practices/model-selection.md">Model Selection Guide</a>  --  GPU model sizing</li>
+<li><a href="/hermes/troubleshooting/">Troubleshooting Guide</a>  --  WSL2-specific issues</li>
 </ul>
 <hr />
 <p>*</p>

@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Connect your Stripe account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your stripe data and get real-time, source-cited answers — no exports, no coding required.">
+        <meta name="description" content="Connect your Stripe account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your stripe data and get real-time, source-cited answers  --  no exports, no coding required.">
       
       
       
@@ -27,7 +27,7 @@
     
     
       
-        <title>Connect Stripe to ChatGPT via MCP — Live Data, No Code | CorpusIQ - CorpusIQ Docs</title>
+        <title>Connect Stripe to ChatGPT via MCP  --  Live Data, No Code | CorpusIQ - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Connect Stripe to ChatGPT via MCP — Live Data, No Code | CorpusIQ
+              Connect Stripe to ChatGPT via MCP  --  Live Data, No Code | CorpusIQ
             
           </span>
         </div>
@@ -2244,7 +2244,7 @@
   <a href="#connect-connect-stripe-to-chatgpt-via-mcp-live-data-no-code-with-corpusiq-corpusiqio" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Connect Connect Stripe to ChatGPT via MCP — Live Data, No Code | ... with CorpusIQ → corpusiq.io
+        Connect Connect Stripe to ChatGPT via MCP -- Live Data, No Code | ... with CorpusIQ → corpusiq.io
       
     </span>
   </a>
@@ -7922,7 +7922,7 @@
   <a href="#connect-connect-stripe-to-chatgpt-via-mcp-live-data-no-code-with-corpusiq-corpusiqio" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Connect Connect Stripe to ChatGPT via MCP — Live Data, No Code | ... with CorpusIQ → corpusiq.io
+        Connect Connect Stripe to ChatGPT via MCP -- Live Data, No Code | ... with CorpusIQ → corpusiq.io
       
     </span>
   </a>
@@ -7950,8 +7950,8 @@
 
 
 <h1 id="how-to-connect-stripe-to-chatgpt-with-corpusiq-mcp">How to Connect Stripe to ChatGPT with CorpusIQ MCP<a class="headerlink" href="#how-to-connect-stripe-to-chatgpt-with-corpusiq-mcp" title="Anchor link to this section">&para;</a></h1>
-<p>Your <strong>Stripe</strong> account holds critical business data — but accessing insights usually means logging in, navigating dashboards, and running manual reports. <strong>Connecting Stripe to ChatGPT through CorpusIQ MCP</strong> eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Stripe data directly — you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.</p>
-<p>Once connected, ChatGPT can query your live Stripe data — charges, customers, payouts, balance transactions, refunds, and disputes. You ask questions in plain English and get cited answers from your Stripe account in real time.</p>
+<p>Your <strong>Stripe</strong> account holds critical business data  --  but accessing insights usually means logging in, navigating dashboards, and running manual reports. <strong>Connecting Stripe to ChatGPT through CorpusIQ MCP</strong> eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Stripe data directly  --  you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.</p>
+<p>Once connected, ChatGPT can query your live Stripe data  --  charges, customers, payouts, balance transactions, refunds, and disputes. You ask questions in plain English and get cited answers from your Stripe account in real time.</p>
 <p>This page covers the connection architecture, what you can ask, reconciliation use cases, security, and how MCP compares to direct Stripe API integration.</p>
 <h2 id="faq-common-questions">FAQ: Common Questions<a class="headerlink" href="#faq-common-questions" title="Anchor link to this section">&para;</a></h2>
 <details>
@@ -7969,7 +7969,7 @@ CorpusIQ connects to your Stripe account via a restricted API key with read-only
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. You create a Stripe restricted API key with only read permissions — specifically, read access to charges, customers, payouts, balance, refunds, and disputes. ChatGPT can query your payment data but cannot create charges, issue refunds, modify customers, or change anything in your Stripe account. The read-only guarantee is enforced by the Stripe API key permissions themselves.
+Yes. You create a Stripe restricted API key with only read permissions  --  specifically, read access to charges, customers, payouts, balance, refunds, and disputes. ChatGPT can query your payment data but cannot create charges, issue refunds, modify customers, or change anything in your Stripe account. The read-only guarantee is enforced by the Stripe API key permissions themselves.
 </details>
 
 <details>
@@ -7981,25 +7981,25 @@ Charges with amounts, status, customer, and metadata. Customers with email, name
 <details>
 <summary><strong>Can ChatGPT reconcile Stripe data with accounting systems?</strong></summary>
 
-Yes — reconciliation is one of the strongest use cases. "Does this Stripe payout match what QuickBooks shows?" "Show me Stripe charges that don't have corresponding QuickBooks invoices." "What fees did Stripe deduct from our last payout?" These cross-source reconciliation questions combine Stripe data with QuickBooks data in one ChatGPT response. See our [Stripe connector reference](../connectors/stripe.md) for reconciliation-specific tooling.
+Yes  --  reconciliation is one of the strongest use cases. "Does this Stripe payout match what QuickBooks shows?" "Show me Stripe charges that don't have corresponding QuickBooks invoices." "What fees did Stripe deduct from our last payout?" These cross-source reconciliation questions combine Stripe data with QuickBooks data in one ChatGPT response. See our [Stripe connector reference](../connectors/stripe.md) for reconciliation-specific tooling.
 </details>
 
 <details>
 <summary><strong>How is this different from the Stripe Dashboard?</strong></summary>
 
-The Stripe Dashboard is purpose-built for payment operations — processing charges, managing disputes, configuring payment methods. It's essential for those tasks. But for analytics and Q&A, the Dashboard requires navigating multiple views. With ChatGPT, you ask one question and get an answer that may span charges, customers, payouts, and disputes — data that would require switching between four different Dashboard sections.
+The Stripe Dashboard is purpose-built for payment operations  --  processing charges, managing disputes, configuring payment methods. It's essential for those tasks. But for analytics and Q&A, the Dashboard requires navigating multiple views. With ChatGPT, you ask one question and get an answer that may span charges, customers, payouts, and disputes  --  data that would require switching between four different Dashboard sections.
 </details>
 
 <details>
 <summary><strong>Can I query Stripe data alongside other payment processors?</strong></summary>
 
-Yes. If you also use Shopify Payments, PayPal, or other processors, you can connect those to CorpusIQ and ask questions that span payment systems. "Compare Stripe revenue with Shopify Payments revenue this month" is a single question across multiple platforms — something no single payment processor's dashboard can do.
+Yes. If you also use Shopify Payments, PayPal, or other processors, you can connect those to CorpusIQ and ask questions that span payment systems. "Compare Stripe revenue with Shopify Payments revenue this month" is a single question across multiple platforms  --  something no single payment processor's dashboard can do.
 </details>
 
 <details>
 <summary><strong>What about PCI compliance?</strong></summary>
 
-Stripe handles all PCI compliance at the payment processing level. CorpusIQ only accesses non-PCI data — charge amounts, customer metadata, payout information. No card numbers, no CVV codes, no sensitive payment credentials. The restricted API key you create cannot access PCI-scoped data. Your compliance posture is unchanged by connecting Stripe to ChatGPT.
+Stripe handles all PCI compliance at the payment processing level. CorpusIQ only accesses non-PCI data  --  charge amounts, customer metadata, payout information. No card numbers, no CVV codes, no sensitive payment credentials. The restricted API key you create cannot access PCI-scoped data. Your compliance posture is unchanged by connecting Stripe to ChatGPT.
 </details>
 
 <details>
@@ -8035,13 +8035,13 @@ Yes. Balance transactions include Stripe fees on each charge. "What were our tot
 <p>No API library to install. No webhooks to configure. No data warehouse to maintain.</p>
 <h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Instant payment visibility.</strong> "What's our Stripe revenue today?" replaces logging in, navigating to payments, filtering by date, and mentally summing. One question. One answer. Seconds.</p>
-<p><strong>Proactive dispute management.</strong> "Any new disputes this week?" "Which disputes need evidence submitted in the next 48 hours?" Catch disputes before they become chargebacks — without manually monitoring the Stripe Dashboard.</p>
+<p><strong>Proactive dispute management.</strong> "Any new disputes this week?" "Which disputes need evidence submitted in the next 48 hours?" Catch disputes before they become chargebacks  --  without manually monitoring the Stripe Dashboard.</p>
 <p><strong>Automated reconciliation.</strong> "Match this week's Stripe payouts against QuickBooks deposits." "Show me any Stripe charges from this month that don't have a corresponding invoice in QuickBooks." Reconciliation that normally takes hours of manual comparison becomes a ChatGPT question.</p>
 <p><strong>Customer payment analysis.</strong> "Show me customers whose payment volume dropped by more than 50% this quarter compared to last." "Which customers have the highest refund rate?" Payment behavior analysis that would require SQL queries in a data warehouse becomes conversational.</p>
 <p><strong>Fee optimization.</strong> "What payment methods have the highest fees relative to volume?" "Show me our effective Stripe fee rate month over month." Identify fee optimization opportunities without manual spreadsheet analysis.</p>
 <h2 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="daily-revenue-monitoring">Daily Revenue Monitoring<a class="headerlink" href="#daily-revenue-monitoring" title="Anchor link to this section">&para;</a></h3>
-<p>"Show me Stripe revenue, refunds, and net revenue for yesterday." Start every day with a payment pulse — no Dashboard login needed.</p>
+<p>"Show me Stripe revenue, refunds, and net revenue for yesterday." Start every day with a payment pulse  --  no Dashboard login needed.</p>
 <h3 id="payout-reconciliation">Payout Reconciliation<a class="headerlink" href="#payout-reconciliation" title="Anchor link to this section">&para;</a></h3>
 <p>"Show me the last 5 payouts with their balance transactions." "Which charges are included in Payout X?" "What's the total fee deducted from our last payout?" Payout reconciliation that's automatic instead of manual.</p>
 <h3 id="dispute-management">Dispute Management<a class="headerlink" href="#dispute-management" title="Anchor link to this section">&para;</a></h3>
@@ -8114,7 +8114,7 @@ Yes. Balance transactions include Stripe fees on each charge. "What were our tot
 <p><strong>Create Stripe API key.</strong> Stripe Dashboard → Developers → API keys → Create restricted key. Enable read-only access for: Charges, Customers, Payouts, Balance, Refunds, Disputes. Copy the key.</p>
 </li>
 <li>
-<p><strong>Sign up</strong> at <a href="https://www.corpusiq.io">corpusiq.io</a> — free 30-day trial.</p>
+<p><strong>Sign up</strong> at <a href="https://www.corpusiq.io">corpusiq.io</a>  --  free 30-day trial.</p>
 </li>
 <li>
 <p><strong>Connect Stripe.</strong> Dashboard → Connections → Stripe → paste your restricted API key.</p>
@@ -8132,19 +8132,19 @@ Yes. Balance transactions include Stripe fees on each charge. "What were our tot
 <p>Setup takes under 5 minutes. No code. No data exports.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="../docs/connect-quickbooks-to-chatgpt.md">Connect QuickBooks to ChatGPT</a> — financial data in ChatGPT</li>
-<li><a href="../docs/connect-shopify-to-chatgpt.md">Connect Shopify to ChatGPT</a> — ecommerce data in ChatGPT</li>
-<li><a href="../docs/connect-hubspot-to-chatgpt.md">Connect HubSpot to ChatGPT</a> — CRM data in ChatGPT</li>
-<li><a href="../docs/connect-netsuite-to-chatgpt.md">Connect NetSuite to ChatGPT</a> — enterprise ERP data in ChatGPT</li>
-<li><a href="../docs/connect-google-analytics-to-chatgpt.md">Connect Google Analytics to ChatGPT</a> — web analytics in ChatGPT</li>
-<li><a href="../docs/chatgpt-integration.md">ChatGPT Integration Overview</a> — the full integration</li>
-<li><a href="../docs/benefits-of-mcp-for-business.md">Benefits of MCP for Business</a> — why MCP wins</li>
-<li><a href="../docs/mcp-for-finance.md">MCP for Finance</a> — MCP for finance teams</li>
-<li><a href="../connectors/stripe.md">Stripe Connector Reference</a> — technical details</li>
-<li><a href="../docs/mcp-vs-api-integrations.md">MCP vs. API Integrations</a> — detailed comparison</li>
+<li><a href="../docs/connect-quickbooks-to-chatgpt.md">Connect QuickBooks to ChatGPT</a>  --  financial data in ChatGPT</li>
+<li><a href="../docs/connect-shopify-to-chatgpt.md">Connect Shopify to ChatGPT</a>  --  ecommerce data in ChatGPT</li>
+<li><a href="../docs/connect-hubspot-to-chatgpt.md">Connect HubSpot to ChatGPT</a>  --  CRM data in ChatGPT</li>
+<li><a href="../docs/connect-netsuite-to-chatgpt.md">Connect NetSuite to ChatGPT</a>  --  enterprise ERP data in ChatGPT</li>
+<li><a href="../docs/connect-google-analytics-to-chatgpt.md">Connect Google Analytics to ChatGPT</a>  --  web analytics in ChatGPT</li>
+<li><a href="../docs/chatgpt-integration.md">ChatGPT Integration Overview</a>  --  the full integration</li>
+<li><a href="../docs/benefits-of-mcp-for-business.md">Benefits of MCP for Business</a>  --  why MCP wins</li>
+<li><a href="../docs/mcp-for-finance.md">MCP for Finance</a>  --  MCP for finance teams</li>
+<li><a href="../connectors/stripe.md">Stripe Connector Reference</a>  --  technical details</li>
+<li><a href="../docs/mcp-vs-api-integrations.md">MCP vs. API Integrations</a>  --  detailed comparison</li>
 </ul>
-<p><em>Connect Connect Stripe to ChatGPT via MCP — Live Data, No Code | ... with CorpusIQ → <a href="https://www.corpusiq.io">corpusiq.io</a></em></p>
-<h2 id="connect-connect-stripe-to-chatgpt-via-mcp-live-data-no-code-with-corpusiq-corpusiqio"><em>Connect Connect Stripe to ChatGPT via MCP — Live Data, No Code | ... with CorpusIQ → <a href="https://www.corpusiq.io">corpusiq.io</a></em><a class="headerlink" href="#connect-connect-stripe-to-chatgpt-via-mcp-live-data-no-code-with-corpusiq-corpusiqio" title="Anchor link to this section">&para;</a></h2>
+<p><em>Connect Connect Stripe to ChatGPT via MCP  --  Live Data, No Code | ... with CorpusIQ → <a href="https://www.corpusiq.io">corpusiq.io</a></em></p>
+<h2 id="connect-connect-stripe-to-chatgpt-via-mcp-live-data-no-code-with-corpusiq-corpusiqio"><em>Connect Connect Stripe to ChatGPT via MCP  --  Live Data, No Code | ... with CorpusIQ → <a href="https://www.corpusiq.io">corpusiq.io</a></em><a class="headerlink" href="#connect-connect-stripe-to-chatgpt-via-mcp-live-data-no-code-with-corpusiq-corpusiqio" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

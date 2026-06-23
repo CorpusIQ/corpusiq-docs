@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Production guide for multi-agent orchestration with CrewAI and Hermes — agent definitions, task delegation, coordination strategies">
+        <meta name="description" content="Production guide for multi-agent orchestration with CrewAI and Hermes  --  agent definitions, task delegation, coordination strategies">
       
       
       
@@ -7856,7 +7856,7 @@
   <a href="#cost-overrun-set-max_iter-on-agents-default-is-15-often-too-high-set-max_rpm-on-crew-monitor-via-hermes-usage-tracking" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cost overrun: Set max_iter on agents (default is 15 — often too high). Set max_rpm on crew. Monitor via Hermes' usage tracking.
+        Cost overrun: Set max_iter on agents (default is 15 -- often too high). Set max_rpm on crew. Monitor via Hermes' usage tracking.
       
     </span>
   </a>
@@ -7909,7 +7909,7 @@
 │  └────────────────────────────────────┘ │
 └─────────────────────────────────────────┘
 </code></pre></div>
-<p>CrewAI defines <em>who</em> does <em>what</em>. Hermes provides <em>how</em> — model selection, tool access, and execution infrastructure.</p>
+<p>CrewAI defines <em>who</em> does <em>what</em>. Hermes provides <em>how</em>  --  model selection, tool access, and execution infrastructure.</p>
 <h2 id="installation-and-setup">Installation and Setup<a class="headerlink" href="#installation-and-setup" title="Anchor link to this section">&para;</a></h2>
 <h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -8039,7 +8039,7 @@
 <p>Let CrewAI decide which agent handles a task based on role descriptions and capabilities:</p>
 <div class="highlight"><pre><span></span><code><span class="n">ambiguous_task</span> <span class="o">=</span> <span class="n">Task</span><span class="p">(</span>
     <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Analyze this market data and create a summary post&quot;</span><span class="p">,</span>
-    <span class="c1"># No agent specified — CrewAI will assign based on agent roles</span>
+    <span class="c1"># No agent specified  --  CrewAI will assign based on agent roles</span>
     <span class="n">expected_output</span><span class="o">=</span><span class="s2">&quot;Analysis summary formatted for social media&quot;</span>
 <span class="p">)</span>
 </code></pre></div>
@@ -8067,7 +8067,7 @@
 <span class="p">)</span>
 </code></pre></div>
 <h2 id="production-workflow-content-strategy-pipeline">Production Workflow: Content Strategy Pipeline<a class="headerlink" href="#production-workflow-content-strategy-pipeline" title="Anchor link to this section">&para;</a></h2>
-<p>Here's a complete production example — a weekly content strategy workflow:</p>
+<p>Here's a complete production example  --  a weekly content strategy workflow:</p>
 <div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">crewai</span> <span class="kn">import</span> <span class="n">Agent</span><span class="p">,</span> <span class="n">Task</span><span class="p">,</span> <span class="n">Crew</span><span class="p">,</span> <span class="n">Process</span>
 
 <span class="c1"># ── Agents ──────────────────────────────────────────</span>
@@ -8259,7 +8259,7 @@
 <p><strong>Agent uses wrong model tier:</strong> Verify the <code>model_tier</code> parameter in your HermesLLM adapter. Check Hermes routing rules aren't overriding.</p>
 <p><strong>Tools not found:</strong> Ensure tool names in agent config match Hermes' registered tool names exactly. Use <code>hermes tools list</code> to verify.</p>
 <p><strong>Sequential tasks stall:</strong> Check that each task's <code>expected_output</code> is produced. CrewAI won't proceed without it. Add timeout guards.</p>
-<h2 id="cost-overrun-set-max_iter-on-agents-default-is-15-often-too-high-set-max_rpm-on-crew-monitor-via-hermes-usage-tracking"><strong>Cost overrun:</strong> Set <code>max_iter</code> on agents (default is 15 — often too high). Set <code>max_rpm</code> on crew. Monitor via Hermes' usage tracking.<a class="headerlink" href="#cost-overrun-set-max_iter-on-agents-default-is-15-often-too-high-set-max_rpm-on-crew-monitor-via-hermes-usage-tracking" title="Anchor link to this section">&para;</a></h2>
+<h2 id="cost-overrun-set-max_iter-on-agents-default-is-15-often-too-high-set-max_rpm-on-crew-monitor-via-hermes-usage-tracking"><strong>Cost overrun:</strong> Set <code>max_iter</code> on agents (default is 15  --  often too high). Set <code>max_rpm</code> on crew. Monitor via Hermes' usage tracking.<a class="headerlink" href="#cost-overrun-set-max_iter-on-agents-default-is-15-often-too-high-set-max_rpm-on-crew-monitor-via-hermes-usage-tracking" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

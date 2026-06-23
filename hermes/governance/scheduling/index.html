@@ -7822,7 +7822,7 @@
 
 
 <h1 id="production-cron-reference-architecture">Production Cron Reference Architecture<a class="headerlink" href="#production-cron-reference-architecture" title="Anchor link to this section">&para;</a></h1>
-<p>Production crons run this agent autonomously 24/7. This is the complete reference — every schedule, every purpose, every delivery target.</p>
+<p>Production crons run this agent autonomously 24/7. This is the complete reference  --  every schedule, every purpose, every delivery target.</p>
 <h2 id="cron-categories">Cron Categories<a class="headerlink" href="#cron-categories" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -7933,7 +7933,7 @@ fc7d32e3d588  0 8,11,14,17,20  cross-platform-monitor  AI agent    Telegram T2
 <h3 id="community-engagement">Community Engagement<a class="headerlink" href="#community-engagement" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>ddacec4011bd  0 6,8,10,12,15,17 help-first-commenting  AI agent    local
               └─ 6x daily: Find operators asking questions
-              └─ Answer helpfully — mention product only if relevant
+              └─ Answer helpfully  --  mention product only if relevant
               └─ Skip banned platforms (Reddit, HN)
 
 079b3604c42e  0 5,7,10,17 * * * github-issue-engagement AI agent   local
@@ -7970,7 +7970,7 @@ d3bb38ade338  15 */2 * * *      ph-rss-monitor          no_agent    local
               └─ 11 PM: Review mistakes, patch skills, update memory
 
 4c5a50f21ea2  0 1 * * *         drift-prevention        AI agent    Telegram T2
-              └─ 1 AM: Governance integrity — registry, skills, memory sync
+              └─ 1 AM: Governance integrity  --  registry, skills, memory sync
 
 f44fa8b3b0b1  0 7 * * *         auth-health-check       no_agent    local
               └─ 7 AM: Verify all OAuth tokens and API keys
@@ -7983,7 +7983,7 @@ d87b726f0c7c  0 10 * * *        mcp-directory-check     AI agent    local
 </code></pre></div>
 <h3 id="memory">Memory<a class="headerlink" href="#memory" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>be6ee0113368  0 3 * * *         gbrain-dream            AI agent    local
-              └─ 3 AM: Memory consolidation — merge, deduplicate, strengthen
+              └─ 3 AM: Memory consolidation  --  merge, deduplicate, strengthen
 </code></pre></div>
 <h3 id="growth">Growth<a class="headerlink" href="#growth" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>57d13bdb4201  0 7,19 * * *      organic-discovery       AI agent    Telegram T2
@@ -7995,7 +7995,7 @@ c63dd7058200  0 7 * * *         daily-growth-geo        AI agent    Telegram T2
 <h3 id="job-search">Job Search<a class="headerlink" href="#job-search" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>06f4f056ade8  0 7 * * *         executive-job-search       AI agent    Telegram T2
               └─ 7 AM: Search for executive roles, generate resumes
-              └─ CONFIDENTIAL — never mention CorpusIQ
+              └─ CONFIDENTIAL  --  never mention CorpusIQ
 </code></pre></div>
 <h3 id="github-automation">GitHub Automation<a class="headerlink" href="#github-automation" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>7a6a4007c834  * * * * *         github-issue-poll       no_agent    Telegram T2
@@ -8047,7 +8047,7 @@ c63dd7058200  0 7 * * *         daily-growth-geo        AI agent    Telegram T2
 <span class="w">  </span>--deliver<span class="w"> </span><span class="s2">&quot;telegram:-100CHATID:TOPICID&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--enabled-toolsets<span class="w"> </span><span class="s2">&quot;terminal,web,file,skills,send_message&quot;</span>
 </code></pre></div>
-<p><strong>When to use:</strong> Anything needing reasoning — social posting, email response, research, content generation.</p>
+<p><strong>When to use:</strong> Anything needing reasoning  --  social posting, email response, research, content generation.</p>
 <h3 id="pattern-2-no-agent-script-mechanical-tasks">Pattern 2: No-Agent Script (mechanical tasks)<a class="headerlink" href="#pattern-2-no-agent-script-mechanical-tasks" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--script<span class="w"> </span><span class="s2">&quot;email-monitor.py&quot;</span><span class="w"> </span><span class="se">\</span>
@@ -8055,7 +8055,7 @@ c63dd7058200  0 7 * * *         daily-growth-geo        AI agent    Telegram T2
 <span class="w">  </span>--no-agent<span class="w"> </span><span class="nb">true</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--deliver<span class="w"> </span><span class="s2">&quot;telegram:-100CHATID:TOPICID&quot;</span>
 </code></pre></div>
-<p><strong>When to use:</strong> Mechanical polling — email checks, GitHub polling, RSS monitoring. Faster, cheaper (no LLM), more reliable.</p>
+<p><strong>When to use:</strong> Mechanical polling  --  email checks, GitHub polling, RSS monitoring. Faster, cheaper (no LLM), more reliable.</p>
 <h3 id="pattern-3-script-agent-pipeline">Pattern 3: Script + Agent Pipeline<a class="headerlink" href="#pattern-3-script-agent-pipeline" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Job A: Collect data (no-agent script, runs every hour)</span>
 hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
@@ -8089,7 +8089,7 @@ hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w">
 <p>Failures are reported to Telegram Topic 2. The 1 AM drift prevention cron does a deeper integrity check.</p>
 <hr />
 <h2 id="creating-your-first-cron">Creating Your First Cron<a class="headerlink" href="#creating-your-first-cron" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># 1. Start simple — check your email every 15 minutes</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># 1. Start simple  --  check your email every 15 minutes</span>
 hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--name<span class="w"> </span><span class="s2">&quot;my-email-watch&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Check Gmail for unread messages. Summarize new emails in one sentence each. Be silent if inbox is empty.&quot;</span><span class="w"> </span><span class="se">\</span>
@@ -8113,12 +8113,12 @@ hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w">
 <hr />
 <h2 id="lessons-learned">Lessons Learned<a class="headerlink" href="#lessons-learned" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>No-agent scripts for polling</strong> — mechanical tasks don't need LLMs. Save tokens.</li>
-<li><strong>Rate limit awareness</strong> — X is limited to ~10/day, LinkedIn Page to 2/day. Build schedules around it.</li>
-<li><strong>Error loops kill crons</strong> — if a platform is down, STOP. Don't retry. Log and move on.</li>
-<li><strong>Delivery targets matter</strong> — Telegram T2 for human-readable reports, <code>local</code> for machine-readable logs.</li>
-<li><strong>Context-from is powerful</strong> — chain crons: collect data with a script, analyze with an agent.</li>
-<li><strong>Mass pauses are a symptom</strong> — if you pause 15 crons at once, something cascaded. Find the root cause.</li>
+<li><strong>No-agent scripts for polling</strong>  --  mechanical tasks don't need LLMs. Save tokens.</li>
+<li><strong>Rate limit awareness</strong>  --  X is limited to ~10/day, LinkedIn Page to 2/day. Build schedules around it.</li>
+<li><strong>Error loops kill crons</strong>  --  if a platform is down, STOP. Don't retry. Log and move on.</li>
+<li><strong>Delivery targets matter</strong>  --  Telegram T2 for human-readable reports, <code>local</code> for machine-readable logs.</li>
+<li><strong>Context-from is powerful</strong>  --  chain crons: collect data with a script, analyze with an agent.</li>
+<li><strong>Mass pauses are a symptom</strong>  --  if you pause 15 crons at once, something cascaded. Find the root cause.</li>
 </ol>
 <hr />
 <p>*</p>

@@ -27,7 +27,7 @@
     
     
       
-        <title>Creating Custom Skills for Hermes Agent — Complete Step-by-Step Guide - CorpusIQ Docs</title>
+        <title>Creating Custom Skills for Hermes Agent  --  Complete Step-by-Step Guide - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Creating Custom Skills for Hermes Agent — Complete Step-by-Step Guide
+              Creating Custom Skills for Hermes Agent  --  Complete Step-by-Step Guide
             
           </span>
         </div>
@@ -7501,7 +7501,7 @@
   <a href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Part of the Hermes Skills Library — 133+ agent skills. Built by CorpusIQ.
+        Part of the Hermes Skills Library -- 133+ agent skills. Built by CorpusIQ.
       
     </span>
   </a>
@@ -7944,7 +7944,7 @@
   <a href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Part of the Hermes Skills Library — 133+ agent skills. Built by CorpusIQ.
+        Part of the Hermes Skills Library -- 133+ agent skills. Built by CorpusIQ.
       
     </span>
   </a>
@@ -7971,7 +7971,7 @@
   
 
 
-<h1 id="creating-custom-skills-a-complete-step-by-step-guide">Creating Custom Skills — A Complete Step-by-Step Guide<a class="headerlink" href="#creating-custom-skills-a-complete-step-by-step-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="creating-custom-skills-a-complete-step-by-step-guide">Creating Custom Skills  --  A Complete Step-by-Step Guide<a class="headerlink" href="#creating-custom-skills-a-complete-step-by-step-guide" title="Anchor link to this section">&para;</a></h1>
 <h2 id="before-you-start-the-rule-of-three">Before You Start: The Rule of Three<a class="headerlink" href="#before-you-start-the-rule-of-three" title="Anchor link to this section">&para;</a></h2>
 <p>Before creating a skill, you should have performed the task manually at least three times. The first time teaches you what's needed. The second time refines your approach. By the third time, you know the pattern well enough to encode it as a skill. Skills created before the third manual run are often over-engineered or miss key edge cases.</p>
 <p>Ask yourself:
@@ -8038,19 +8038,19 @@ Common issues and how to resolve them.
 - "Show me campaign ROI"
 - "Marketing health check"</p>
 <p><strong>Bad trigger patterns:</strong>
-- "marketing" (too broad — fires on any mention of marketing)
-- "Check our marketing performance this week including Facebook Ads and Google Analytics" (too specific — won't match natural variations)</p>
+- "marketing" (too broad  --  fires on any mention of marketing)
+- "Check our marketing performance this week including Facebook Ads and Google Analytics" (too specific  --  won't match natural variations)</p>
 <p>Write 5-10 trigger patterns covering different ways a user might ask for your skill. Include variations in formality ("Show me our ad performance" vs. "I'd like to review advertising metrics"), time windows ("this week" vs. "last 7 days"), and specificity ("campaigns" vs. "Facebook campaigns").</p>
 <h2 id="verification-steps">Verification Steps<a class="headerlink" href="#verification-steps" title="Anchor link to this section">&para;</a></h2>
 <p>Between major workflow steps, verify the data you received:</p>
 <p><strong>Schema verification.</strong> Does the response have the expected shape? Required fields present? Data types correct? If a tool returns an error instead of data, your skill should catch that immediately.</p>
 <p><strong>Completeness verification.</strong> Did you get everything you asked for? If you requested 200 records and got 47, it's either a pagination issue or a problem. Log the discrepancy.</p>
 <p><strong>Freshness verification.</strong> Is this data current? If a timestamp is older than expected, surface a caveat. "Last synced 3 days ago" is different from "real-time data."</p>
-<p><strong>Business rule verification.</strong> Are values within expected ranges? If average order value suddenly tripled, something might be wrong with the data — not necessarily your skill, but worth flagging.</p>
+<p><strong>Business rule verification.</strong> Are values within expected ranges? If average order value suddenly tripled, something might be wrong with the data  --  not necessarily your skill, but worth flagging.</p>
 <h2 id="error-recovery-patterns">Error Recovery Patterns<a class="headerlink" href="#error-recovery-patterns" title="Anchor link to this section">&para;</a></h2>
 <p>Every tool call can fail. Your skill should handle these failure modes explicitly:</p>
 <p><strong>Transient errors</strong> (network timeout, rate limit, temporary API error): Retry with backoff. Start at 1 second, double each retry, cap at 3 attempts. Include jitter to avoid thundering-herd problems.</p>
-<p><strong>Authentication errors</strong> (expired token, insufficient permissions): Don't retry — these won't self-resolve. Return a clear message: "Connector X needs re-authentication. Visit [link] to reconnect."</p>
+<p><strong>Authentication errors</strong> (expired token, insufficient permissions): Don't retry  --  these won't self-resolve. Return a clear message: "Connector X needs re-authentication. Visit [link] to reconnect."</p>
 <p><strong>Data errors</strong> (no results found, invalid parameters, upstream validation failure): Return what you can with clear caveats. "No orders found for the specified date range. If you expected results, verify the date range and try again."</p>
 <p><strong>Partial failures</strong> (batch processing, some records failed): Return successes with a summary of failures. "Processed 47 of 50 records. 3 failed: [IDs with error reasons]. The failed records have been logged for review."</p>
 <p><strong>Unknown errors</strong>: Catch-all that logs the full error and returns a user-friendly message. "Something went wrong during step X. The error has been logged. Try again or check your connector configuration."</p>
@@ -8115,7 +8115,7 @@ Error: Record deleted between search and fetch → Retry search to confirm.
 Query billing system for recent invoices and payment status.
 
 Error: Billing system unavailable → Show CRM data with note: &quot;Billing data
-unavailable — QuickBooks connector not responding.&quot;
+unavailable  --  QuickBooks connector not responding.&quot;
 
 <span class="gu">### Step 4: Gather Support Data</span>
 Check for open support tickets and recent resolved tickets.
@@ -8144,8 +8144,8 @@ Format into sections: Contact, Billing, Support, Recent Activity.
 <li><strong>Deprecate gracefully:</strong> If you stop maintaining a skill, mark it deprecated with a notice and migration suggestion.</li>
 </ul>
 <p>A well-maintained skill compounds in value. Every fix benefits every user.</p>
-<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Software development workflows for Hermes agents — GitHub PRs, code review, CI/CD, testing, codebase inspection, and project management. 10+ production skills.">
+        <meta name="description" content="Software development workflows for Hermes agents  --  GitHub PRs, code review, CI/CD, testing, codebase inspection, and project management. 10+ production skills.">
       
       
       
@@ -7695,7 +7695,7 @@
   <a href="#all-development-skills-include-verification-steps-they-confirm-git-push-succeeded-ci-is-actually-running-and-the-pr-is-visible-on-github-before-reporting-success-no-fire-and-forget-assumptions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        All development skills include verification steps — they confirm git push succeeded, CI is actually running, and the PR is visible on GitHub before reporting success. No "fire and forget" assumptions.
+        All development skills include verification steps -- they confirm git push succeeded, CI is actually running, and the PR is visible on GitHub before reporting success. No "fire and forget" assumptions.
       
     </span>
   </a>
@@ -7723,47 +7723,47 @@
 
 
 <h1 id="development-skills">Development Skills<a class="headerlink" href="#development-skills" title="Anchor link to this section">&para;</a></h1>
-<p>Development skills cover the full software delivery lifecycle — from cloning a repo to shipping a merged PR with passing CI. These are the skills that turn Hermes into a capable development teammate: not just generating code, but managing branches, reviewing diffs, triaging issues, running test suites, and coordinating across multiple repositories.</p>
+<p>Development skills cover the full software delivery lifecycle  --  from cloning a repo to shipping a merged PR with passing CI. These are the skills that turn Hermes into a capable development teammate: not just generating code, but managing branches, reviewing diffs, triaging issues, running test suites, and coordinating across multiple repositories.</p>
 <h2 id="skill-categories">Skill Categories<a class="headerlink" href="#skill-categories" title="Anchor link to this section">&para;</a></h2>
 <h3 id="github-workflows">GitHub Workflows<a class="headerlink" href="#github-workflows" title="Anchor link to this section">&para;</a></h3>
 <p>The backbone of any development pipeline. These skills cover every GitHub interaction a developer performs daily.</p>
-<p><strong><code>github-pr-workflow</code></strong> — Full PR lifecycle management. Creates feature branches from issues, commits changes with conventional commit messages, opens pull requests with generated descriptions, monitors CI status, and merges when checks pass. Handles branch naming conventions (<code>feat/</code>, <code>fix/</code>, <code>chore/</code>) and automatically links PRs to issues via closing keywords.</p>
-<p><strong><code>github-auth</code></strong> — Authentication setup for all GitHub access methods. Configures HTTPS token-based auth, SSH key generation and registration with GitHub, and <code>gh</code> CLI authentication. Includes verification that <code>git push</code> actually works before proceeding — the most common failure point in automated Git workflows.</p>
-<p><strong><code>github-repo-management</code></strong> — Repository lifecycle operations. Clones repos with correct depth for automation (shallow clones save bandwidth), creates new repos with appropriate <code>.gitignore</code> and license templates, forks upstream repos for contribution workflows, and manages remote configurations for multi-repo coordination.</p>
-<p><strong><code>github-issues</code></strong> — Issue triage and management. Creates issues from templates, assigns labels based on content analysis, estimates effort from description complexity, and links related issues. The triage workflow: scan new issues → classify by type (bug/feature/docs) → label by component → assign to appropriate milestone → estimate effort.</p>
+<p><strong><code>github-pr-workflow</code></strong>  --  Full PR lifecycle management. Creates feature branches from issues, commits changes with conventional commit messages, opens pull requests with generated descriptions, monitors CI status, and merges when checks pass. Handles branch naming conventions (<code>feat/</code>, <code>fix/</code>, <code>chore/</code>) and automatically links PRs to issues via closing keywords.</p>
+<p><strong><code>github-auth</code></strong>  --  Authentication setup for all GitHub access methods. Configures HTTPS token-based auth, SSH key generation and registration with GitHub, and <code>gh</code> CLI authentication. Includes verification that <code>git push</code> actually works before proceeding  --  the most common failure point in automated Git workflows.</p>
+<p><strong><code>github-repo-management</code></strong>  --  Repository lifecycle operations. Clones repos with correct depth for automation (shallow clones save bandwidth), creates new repos with appropriate <code>.gitignore</code> and license templates, forks upstream repos for contribution workflows, and manages remote configurations for multi-repo coordination.</p>
+<p><strong><code>github-issues</code></strong>  --  Issue triage and management. Creates issues from templates, assigns labels based on content analysis, estimates effort from description complexity, and links related issues. The triage workflow: scan new issues → classify by type (bug/feature/docs) → label by component → assign to appropriate milestone → estimate effort.</p>
 <h3 id="code-review">Code Review<a class="headerlink" href="#code-review" title="Anchor link to this section">&para;</a></h3>
 <p>Code review is the highest-leverage development activity. These skills enforce review discipline that catches bugs before they ship.</p>
-<p><strong><code>github-code-review</code></strong> — Systematic PR review with inline comments. The workflow: fetch PR diff → analyze changed files by risk (config changes &gt; auth changes &gt; business logic &gt; docs) → check for common anti-patterns (missing error handling, hardcoded secrets, untested edge cases) → write inline comments with exact line references → submit review with approve/request-changes decision.</p>
-<p><strong><code>code-review-excellence</code></strong> (marketplace, 22K installs) — Review standards and anti-pattern detection. Covers: what to look for in each language (Python: type hints, exception handling; TypeScript: null checks, promise handling), how to write actionable review comments (state the problem, show the fix, explain the impact), and when to approve vs. request changes.</p>
-<p><strong><code>requesting-code-review</code></strong> (marketplace, 121K installs) — How to prepare a PR for review. Break large changes into reviewable commits, write PR descriptions that explain "what" and "why" not just "how", self-review before requesting, and respond to review feedback constructively.</p>
+<p><strong><code>github-code-review</code></strong>  --  Systematic PR review with inline comments. The workflow: fetch PR diff → analyze changed files by risk (config changes &gt; auth changes &gt; business logic &gt; docs) → check for common anti-patterns (missing error handling, hardcoded secrets, untested edge cases) → write inline comments with exact line references → submit review with approve/request-changes decision.</p>
+<p><strong><code>code-review-excellence</code></strong> (marketplace, 22K installs)  --  Review standards and anti-pattern detection. Covers: what to look for in each language (Python: type hints, exception handling; TypeScript: null checks, promise handling), how to write actionable review comments (state the problem, show the fix, explain the impact), and when to approve vs. request changes.</p>
+<p><strong><code>requesting-code-review</code></strong> (marketplace, 121K installs)  --  How to prepare a PR for review. Break large changes into reviewable commits, write PR descriptions that explain "what" and "why" not just "how", self-review before requesting, and respond to review feedback constructively.</p>
 <h3 id="cicd-and-testing">CI/CD and Testing<a class="headerlink" href="#cicd-and-testing" title="Anchor link to this section">&para;</a></h3>
-<p><strong><code>deployment-pipeline-design</code></strong> (marketplace, 9K installs) — CI/CD pipeline architecture. Designs pipelines for monorepos and multi-service architectures. Covers: build matrix strategies, cache optimization for faster CI, environment-specific deployment gates, and rollback automation.</p>
-<p><strong><code>webapp-testing</code></strong> (marketplace, 92K installs) — Browser-based application testing via Playwright. Writes test scenarios, handles authentication in tests, and verifies visual regressions. Integrates with CI for pre-merge testing gates.</p>
-<p><strong><code>python-testing-patterns</code></strong> (marketplace, 24K installs) — Python test patterns: fixture factories, parametrized tests, mock discipline (mock at the boundary, not internally), and test organization for large codebases.</p>
-<p><strong><code>e2e-testing-patterns</code></strong> (marketplace, 18K installs) — End-to-end test design patterns. Page object model, data seeding strategies, test isolation, and flaky test remediation.</p>
+<p><strong><code>deployment-pipeline-design</code></strong> (marketplace, 9K installs)  --  CI/CD pipeline architecture. Designs pipelines for monorepos and multi-service architectures. Covers: build matrix strategies, cache optimization for faster CI, environment-specific deployment gates, and rollback automation.</p>
+<p><strong><code>webapp-testing</code></strong> (marketplace, 92K installs)  --  Browser-based application testing via Playwright. Writes test scenarios, handles authentication in tests, and verifies visual regressions. Integrates with CI for pre-merge testing gates.</p>
+<p><strong><code>python-testing-patterns</code></strong> (marketplace, 24K installs)  --  Python test patterns: fixture factories, parametrized tests, mock discipline (mock at the boundary, not internally), and test organization for large codebases.</p>
+<p><strong><code>e2e-testing-patterns</code></strong> (marketplace, 18K installs)  --  End-to-end test design patterns. Page object model, data seeding strategies, test isolation, and flaky test remediation.</p>
 <h3 id="codebase-inspection-and-analysis">Codebase Inspection and Analysis<a class="headerlink" href="#codebase-inspection-and-analysis" title="Anchor link to this section">&para;</a></h3>
-<p><strong><code>codebase-inspection</code></strong> — Deep codebase analysis. Uses <code>pygount</code> or similar tools to measure lines of code by language, identifies largest files and directories, calculates language ratios, and surfaces complexity hotspots. The output is a codebase health report: total LOC, language breakdown, top-10 largest files, dependency graph density, and recommendations for refactoring targets.</p>
-<p><strong><code>simplify-code</code></strong> — Parallel code cleanup. Spawns three sub-agents to independently analyze recent code changes, each producing a simplification proposal. The orchestrator merges non-conflicting improvements and flags conflicts for human resolution. This catches redundant abstractions, over-engineered patterns, and code that can be expressed more clearly.</p>
+<p><strong><code>codebase-inspection</code></strong>  --  Deep codebase analysis. Uses <code>pygount</code> or similar tools to measure lines of code by language, identifies largest files and directories, calculates language ratios, and surfaces complexity hotspots. The output is a codebase health report: total LOC, language breakdown, top-10 largest files, dependency graph density, and recommendations for refactoring targets.</p>
+<p><strong><code>simplify-code</code></strong>  --  Parallel code cleanup. Spawns three sub-agents to independently analyze recent code changes, each producing a simplification proposal. The orchestrator merges non-conflicting improvements and flags conflicts for human resolution. This catches redundant abstractions, over-engineered patterns, and code that can be expressed more clearly.</p>
 <h3 id="project-management">Project Management<a class="headerlink" href="#project-management" title="Anchor link to this section">&para;</a></h3>
-<p><strong><code>kanban-worker</code></strong> — Hermes-native Kanban board operations. Manages work-in-progress limits, moves tasks between columns, and enforces completion criteria before marking items done. Integrates with Monday.com and Notion for team visibility.</p>
-<p><strong><code>notion-automation</code></strong> (marketplace, 2.7K installs) — Notion workspace automation. Creates and updates database entries, manages page hierarchies, and syncs development status with project tracking.</p>
+<p><strong><code>kanban-worker</code></strong>  --  Hermes-native Kanban board operations. Manages work-in-progress limits, moves tasks between columns, and enforces completion criteria before marking items done. Integrates with Monday.com and Notion for team visibility.</p>
+<p><strong><code>notion-automation</code></strong> (marketplace, 2.7K installs)  --  Notion workspace automation. Creates and updates database entries, manages page hierarchies, and syncs development status with project tracking.</p>
 <h2 id="workflow-patterns">Workflow Patterns<a class="headerlink" href="#workflow-patterns" title="Anchor link to this section">&para;</a></h2>
 <h3 id="the-standard-pr-pipeline">The Standard PR Pipeline<a class="headerlink" href="#the-standard-pr-pipeline" title="Anchor link to this section">&para;</a></h3>
 <p>The most common workflow chains multiple development skills:</p>
 <ol>
-<li><strong><code>github-issues</code></strong> — Create or pick up an issue, assign it to yourself</li>
-<li><strong><code>github-pr-workflow</code></strong> — Create branch, implement fix, open PR with description</li>
-<li><strong><code>github-code-review</code></strong> — Self-review the PR, check for anti-patterns</li>
-<li><strong><code>webapp-testing</code></strong> or <strong><code>python-testing-patterns</code></strong> — Run the test suite</li>
-<li><strong><code>github-pr-workflow</code></strong> — Monitor CI, merge when green</li>
+<li><strong><code>github-issues</code></strong>  --  Create or pick up an issue, assign it to yourself</li>
+<li><strong><code>github-pr-workflow</code></strong>  --  Create branch, implement fix, open PR with description</li>
+<li><strong><code>github-code-review</code></strong>  --  Self-review the PR, check for anti-patterns</li>
+<li><strong><code>webapp-testing</code></strong> or <strong><code>python-testing-patterns</code></strong>  --  Run the test suite</li>
+<li><strong><code>github-pr-workflow</code></strong>  --  Monitor CI, merge when green</li>
 </ol>
 <p>Each skill verifies its own output before handing off to the next. If CI fails at step 5, the agent loops back to step 2 with the failure context.</p>
 <h3 id="codebase-health-audit">Codebase Health Audit<a class="headerlink" href="#codebase-health-audit" title="Anchor link to this section">&para;</a></h3>
 <p>Run this weekly to catch degradation before it compounds:</p>
 <ol>
-<li><strong><code>codebase-inspection</code></strong> — Generate health report (LOC trends, complexity hotspots)</li>
-<li><strong><code>simplify-code</code></strong> — Target the top-3 largest files for simplification</li>
-<li><strong><code>github-issues</code></strong> — Create refactoring issues for anything that can't be fixed immediately</li>
+<li><strong><code>codebase-inspection</code></strong>  --  Generate health report (LOC trends, complexity hotspots)</li>
+<li><strong><code>simplify-code</code></strong>  --  Target the top-3 largest files for simplification</li>
+<li><strong><code>github-issues</code></strong>  --  Create refactoring issues for anything that can't be fixed immediately</li>
 </ol>
 <h2 id="installing-development-skills">Installing Development Skills<a class="headerlink" href="#installing-development-skills" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># Native skills load automatically with Hermes</span>
@@ -7788,7 +7788,7 @@ hermes<span class="w"> </span>execute<span class="w"> </span><span class="s2">&q
 <span class="c1"># Test PR workflow on a practice repo</span>
 hermes<span class="w"> </span>execute<span class="w"> </span><span class="s2">&quot;Create a branch, add a README fix, and open a PR&quot;</span>
 </code></pre></div>
-<h2 id="all-development-skills-include-verification-steps-they-confirm-git-push-succeeded-ci-is-actually-running-and-the-pr-is-visible-on-github-before-reporting-success-no-fire-and-forget-assumptions">All development skills include verification steps — they confirm <code>git push</code> succeeded, CI is actually running, and the PR is visible on GitHub before reporting success. No "fire and forget" assumptions.<a class="headerlink" href="#all-development-skills-include-verification-steps-they-confirm-git-push-succeeded-ci-is-actually-running-and-the-pr-is-visible-on-github-before-reporting-success-no-fire-and-forget-assumptions" title="Anchor link to this section">&para;</a></h2>
+<h2 id="all-development-skills-include-verification-steps-they-confirm-git-push-succeeded-ci-is-actually-running-and-the-pr-is-visible-on-github-before-reporting-success-no-fire-and-forget-assumptions">All development skills include verification steps  --  they confirm <code>git push</code> succeeded, CI is actually running, and the PR is visible on GitHub before reporting success. No "fire and forget" assumptions.<a class="headerlink" href="#all-development-skills-include-verification-steps-they-confirm-git-push-succeeded-ci-is-actually-running-and-the-pr-is-visible-on-github-before-reporting-success-no-fire-and-forget-assumptions" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

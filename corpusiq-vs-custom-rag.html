@@ -29,7 +29,7 @@
     
     
       
-        <title>CorpusIQ vs Custom RAG — 2-Minute Setup vs Months of Engineering - CorpusIQ Docs</title>
+        <title>CorpusIQ vs Custom RAG  --  2-Minute Setup vs Months of Engineering - CorpusIQ Docs</title>
       
     
     
@@ -118,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CorpusIQ vs Custom RAG — 2-Minute Setup vs Months of Engineering
+              CorpusIQ vs Custom RAG  --  2-Minute Setup vs Months of Engineering
             
           </span>
         </div>
@@ -7829,9 +7829,9 @@
   
 
 
-<h1 id="corpusiq-vs-custom-rag-2-min-setup-vs-months-of-engineering">CorpusIQ vs Custom RAG — 2-Min Setup vs Months of Engineering<a class="headerlink" href="#corpusiq-vs-custom-rag-2-min-setup-vs-months-of-engineering" title="Anchor link to this section">&para;</a></h1>
+<h1 id="corpusiq-vs-custom-rag-2-min-setup-vs-months-of-engineering">CorpusIQ vs Custom RAG  --  2-Min Setup vs Months of Engineering<a class="headerlink" href="#corpusiq-vs-custom-rag-2-min-setup-vs-months-of-engineering" title="Anchor link to this section">&para;</a></h1>
 <h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Anchor link to this section">&para;</a></h2>
-<p>Retrieval-Augmented Generation (RAG) is the dominant pattern for giving AI access to proprietary data. But building RAG pipelines from scratch — custom connectors, embedding pipelines, vector stores, reranking — requires months of engineering effort. CorpusIQ offers an alternative: an MCP platform that connects business data to AI in 2 minutes, with zero custom code.</p>
+<p>Retrieval-Augmented Generation (RAG) is the dominant pattern for giving AI access to proprietary data. But building RAG pipelines from scratch  --  custom connectors, embedding pipelines, vector stores, reranking  --  requires months of engineering effort. CorpusIQ offers an alternative: an MCP platform that connects business data to AI in 2 minutes, with zero custom code.</p>
 <p>This comparison addresses the build-vs-buy decision every organization faces when AI-enabling their business data.</p>
 <h2 id="what-building-custom-rag-entails">What Building Custom RAG Entails<a class="headerlink" href="#what-building-custom-rag-entails" title="Anchor link to this section">&para;</a></h2>
 <p>A production-grade custom RAG system requires:</p>
@@ -7874,7 +7874,7 @@
 <p><strong>No retrieval tuning:</strong> The AI assistant constructs precise API queries based on user questions. No similarity threshold, no top-k tuning, no relevance scoring.</p>
 </li>
 <li>
-<p><strong>No prompt engineering:</strong> CorpusIQ's MCP tools are self-describing. The AI understands what each tool does and how to use it — no custom prompt templates needed.</p>
+<p><strong>No prompt engineering:</strong> CorpusIQ's MCP tools are self-describing. The AI understands what each tool does and how to use it  --  no custom prompt templates needed.</p>
 </li>
 <li>
 <p><strong>Managed maintenance:</strong> CorpusIQ handles API changes, schema updates, and authentication. You get continuous improvement without engineering effort.</p>
@@ -7961,7 +7961,7 @@
 <h2 id="when-corpusiq-makes-sense">When CorpusIQ Makes Sense<a class="headerlink" href="#when-corpusiq-makes-sense" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>
-<p><strong>Standard business data:</strong> CRM, accounting, analytics, marketing, payments — data from common business tools. CorpusIQ has connectors for these.</p>
+<p><strong>Standard business data:</strong> CRM, accounting, analytics, marketing, payments  --  data from common business tools. CorpusIQ has connectors for these.</p>
 </li>
 <li>
 <p><strong>Speed matters:</strong> You need AI-powered business intelligence this week, not next year.</p>
@@ -8016,29 +8016,29 @@
 </tr>
 </tbody>
 </table>
-<p>Versus CorpusIQ: $600-2,400/year per user for the same data access — with real-time accuracy instead of batch staleness.</p>
+<p>Versus CorpusIQ: $600-2,400/year per user for the same data access  --  with real-time accuracy instead of batch staleness.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: Can CorpusIQ handle unstructured documents like PDFs?</strong><br />
 A: CorpusIQ focuses on structured business data from APIs. For document search, you may still need a vector database or enterprise search tool. Many organizations use both.</p>
 <p><strong>Q: What if I need a data source CorpusIQ doesn't support?</strong><br />
 A: CorpusIQ's connector library is growing. For unsupported sources, you can request new connectors or use CorpusIQ alongside custom integrations for those specific sources.</p>
 <p><strong>Q: Does CorpusIQ use RAG internally?</strong><br />
-A: No. CorpusIQ uses MCP — a protocol for structured tool calls. It doesn't embed data, chunk documents, or perform vector similarity search for structured business queries.</p>
+A: No. CorpusIQ uses MCP  --  a protocol for structured tool calls. It doesn't embed data, chunk documents, or perform vector similarity search for structured business queries.</p>
 <p><strong>Q: Can I customize how CorpusIQ queries my data?</strong><br />
 A: CorpusIQ connectors expose predefined tools based on each source's API. You don't customize the query logic, but the AI can compose tools in creative ways to answer complex questions.</p>
 <p><strong>Q: Is the quality as good as a custom-built system?</strong><br />
 A: For structured business data queries, CorpusIQ's exact API calls are more accurate than approximate vector search. For document-heavy use cases, custom RAG may be more appropriate.</p>
 <p><strong>Q: How do I handle data that changes frequently?</strong><br />
-A: CorpusIQ queries live APIs — data is always current. Custom RAG requires re-indexing to stay fresh, which adds cost and complexity.</p>
+A: CorpusIQ queries live APIs  --  data is always current. Custom RAG requires re-indexing to stay fresh, which adds cost and complexity.</p>
 <p><strong>Q: What about data privacy?</strong><br />
 A: CorpusIQ never stores your data. Custom RAG systems often copy data to vector stores, creating additional privacy and compliance considerations.</p>
 <p><strong>Q: Can I extend CorpusIQ with custom logic?</strong><br />
 A: CorpusIQ is a managed platform. For custom logic, you can combine CorpusIQ (for data access) with a framework like LangChain (for custom application logic).</p>
 <h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/docs/corpusiq-vs-vector-databases/">CorpusIQ vs Vector Databases — MCP Retrieval vs Vector Search</a></li>
-<li><a href="/docs/corpusiq-vs-langchain/">CorpusIQ vs LangChain — MCP Protocol vs AI Framework</a></li>
-<li><a href="/docs/corpusiq-vs-data-warehouses/">CorpusIQ vs Data Warehouses — Live Query vs Stored Data</a></li>
+<li><a href="/docs/corpusiq-vs-vector-databases/">CorpusIQ vs Vector Databases  --  MCP Retrieval vs Vector Search</a></li>
+<li><a href="/docs/corpusiq-vs-langchain/">CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework</a></li>
+<li><a href="/docs/corpusiq-vs-data-warehouses/">CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data</a></li>
 <li><a href="/docs/how-to-build-an-ai-knowledge-base/">How to Build an AI Knowledge Base</a></li>
 <li><a href="/docs/how-to-create-an-ai-data-layer/">How to Create an AI Data Layer</a></li>
 <li><a href="/docs/best-mcp-server-for-business/">Best MCP Server for Business</a></li>

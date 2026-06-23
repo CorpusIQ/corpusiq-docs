@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install NVIDIA SkillSpector-based security vetting for Hermes skills — scan-before-install, risk gating, marketplace catalog, and weekly re-audits">
+        <meta name="description" content="Install NVIDIA SkillSpector-based security vetting for Hermes skills  --  scan-before-install, risk gating, marketplace catalog, and weekly re-audits">
       
       
       
@@ -7683,7 +7683,7 @@
   
 
 
-<h1 id="skill-vetting-setup-guide">Skill Vetting — Setup Guide<a class="headerlink" href="#skill-vetting-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="skill-vetting-setup-guide">Skill Vetting  --  Setup Guide<a class="headerlink" href="#skill-vetting-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Skill Vetting</strong> automatically vets external AI agent skills with <a href="https://github.com/NVIDIA/skillspector">NVIDIA SkillSpector</a> before installation. Scan for vulnerabilities, gate on risk score, maintain a catalog of vetted skills, and run weekly re-audits.</p>
 <p>By <a href="https://github.com/SoCalStreet/skill-vetting">SoCalStreet/skill-vetting</a>.</p>
 <hr />
@@ -7730,19 +7730,19 @@ sudo<span class="w"> </span>chmod<span class="w"> </span>+x<span class="w"> </sp
 <hr />
 <h2 id="5-capabilities">5. Capabilities<a class="headerlink" href="#5-capabilities" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Scan-before-install enforcement</strong> — The skill intercepts <code>hermes skills install</code> and runs SkillSpector first</li>
+<li><strong>Scan-before-install enforcement</strong>  --  The skill intercepts <code>hermes skills install</code> and runs SkillSpector first</li>
 <li><strong>64 vulnerability patterns</strong> across 16 categories (static analysis)</li>
-<li><strong>Risk gating</strong> — Auto-proceed on low scores, require approval on medium, refuse on high</li>
-<li><strong>External marketplace catalog</strong> — 5 marketplaces mapped (SkillsLLM, mcpservers.org, VoltAgent, +2)</li>
-<li><strong>Weekly audit cron</strong> — Re-scans all installed skills, alerts on new findings</li>
-<li><strong>Vetting log</strong> — Every scan logged to JSONL for audit trail</li>
+<li><strong>Risk gating</strong>  --  Auto-proceed on low scores, require approval on medium, refuse on high</li>
+<li><strong>External marketplace catalog</strong>  --  5 marketplaces mapped (SkillsLLM, mcpservers.org, VoltAgent, +2)</li>
+<li><strong>Weekly audit cron</strong>  --  Re-scans all installed skills, alerts on new findings</li>
+<li><strong>Vetting log</strong>  --  Every scan logged to JSONL for audit trail</li>
 </ul>
 <hr />
 <h2 id="6-corpusiq-use-cases">6. CorpusIQ Use Cases<a class="headerlink" href="#6-corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Skills catalog curation</strong> — Vet every new skill before adding to the CorpusIQ marketplace</li>
-<li><strong>Cron safety</strong> — Ensure automated discovery skills don't introduce vulnerabilities</li>
-<li><strong>Client deployments</strong> — Verify skills before installing in customer Hermes environments</li>
+<li><strong>Skills catalog curation</strong>  --  Vet every new skill before adding to the CorpusIQ marketplace</li>
+<li><strong>Cron safety</strong>  --  Ensure automated discovery skills don't introduce vulnerabilities</li>
+<li><strong>Client deployments</strong>  --  Verify skills before installing in customer Hermes environments</li>
 </ul>
 <hr />
 <h2 id="7-verification">7. Verification<a class="headerlink" href="#7-verification" title="Anchor link to this section">&para;</a></h2>

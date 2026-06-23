@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="End-to-end Hermes Agent content pipeline blueprint. Research, ideation, drafting, review, publication, and promotion — all orchestrated with cron-driven workflows, SEO analysis, and human editorial gates.">
+        <meta name="description" content="End-to-end Hermes Agent content pipeline blueprint. Research, ideation, drafting, review, publication, and promotion  --  all orchestrated with cron-driven workflows, SEO analysis, and human editorial gates.">
       
       
       
@@ -27,7 +27,7 @@
     
     
       
-        <title>Content Pipeline Blueprint for Hermes Agent — Automated Content Production - CorpusIQ Docs</title>
+        <title>Content Pipeline Blueprint for Hermes Agent  --  Automated Content Production - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Content Pipeline Blueprint for Hermes Agent — Automated Content Production
+              Content Pipeline Blueprint for Hermes Agent  --  Automated Content Production
             
           </span>
         </div>
@@ -7075,7 +7075,7 @@
   <a href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Curated in the Hermes Community Hub — 308+ tools, skills, and agents. Powered by CorpusIQ.
+        Curated in the Hermes Community Hub -- 308+ tools, skills, and agents. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -8312,7 +8312,7 @@
   <a href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Curated in the Hermes Community Hub — 308+ tools, skills, and agents. Powered by CorpusIQ.
+        Curated in the Hermes Community Hub -- 308+ tools, skills, and agents. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -8339,7 +8339,7 @@
   
 
 
-<h1 id="content-pipeline-blueprint-automated-content-production">Content Pipeline Blueprint — Automated Content Production<a class="headerlink" href="#content-pipeline-blueprint-automated-content-production" title="Anchor link to this section">&para;</a></h1>
+<h1 id="content-pipeline-blueprint-automated-content-production">Content Pipeline Blueprint  --  Automated Content Production<a class="headerlink" href="#content-pipeline-blueprint-automated-content-production" title="Anchor link to this section">&para;</a></h1>
 <h2 id="pipeline-stages">Pipeline Stages<a class="headerlink" href="#pipeline-stages" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>RESEARCH → DRAFT → REVIEW → PUBLISH → PROMOTE
   (Week 1)  (Week 2) (Week 3) (Week 4)  (Week 4+)
@@ -8364,23 +8364,23 @@
 <h3 id="step-11-topic-ideation-monday">Step 1.1: Topic Ideation (Monday)<a class="headerlink" href="#step-11-topic-ideation-monday" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Automation:</strong> Generate a list of content topics based on multiple inputs:</p>
 <ol>
-<li><strong>SEO opportunity scan</strong> — query Google Search Console or Ahrefs for keywords where you rank positions 4-20 (striking distance) and have content gaps</li>
-<li><strong>Competitor content audit</strong> — identify top-performing competitor content and find angles they haven't covered</li>
-<li><strong>Customer question mining</strong> — scan support tickets, sales calls, and community forums for recurring questions</li>
-<li><strong>Internal expertise mapping</strong> — cross-reference team expertise with content needs</li>
+<li><strong>SEO opportunity scan</strong>  --  query Google Search Console or Ahrefs for keywords where you rank positions 4-20 (striking distance) and have content gaps</li>
+<li><strong>Competitor content audit</strong>  --  identify top-performing competitor content and find angles they haven't covered</li>
+<li><strong>Customer question mining</strong>  --  scan support tickets, sales calls, and community forums for recurring questions</li>
+<li><strong>Internal expertise mapping</strong>  --  cross-reference team expertise with content needs</li>
 </ol>
 <p><strong>Output:</strong> A ranked list of 10-15 topics with source rationale, target keyword, estimated search volume, and difficulty score.</p>
-<p><strong>Cron:</strong> <code>0 8 * * 1</code> — Monday morning ideation sweep.</p>
+<p><strong>Cron:</strong> <code>0 8 * * 1</code>  --  Monday morning ideation sweep.</p>
 <h3 id="step-12-content-brief-creation-tuesday">Step 1.2: Content Brief Creation (Tuesday)<a class="headerlink" href="#step-12-content-brief-creation-tuesday" title="Anchor link to this section">&para;</a></h3>
 <p>For each selected topic, the agent generates a content brief:</p>
 <div class="highlight"><pre><span></span><code><span class="gh"># Content Brief: [Working Title]</span>
 
 <span class="gu">## Target Keyword</span>
-<span class="k">-</span><span class="w"> </span>Primary: &quot;[keyword]&quot; — Volume: [X]/mo, Difficulty: [X]
+<span class="k">-</span><span class="w"> </span>Primary: &quot;[keyword]&quot;  --  Volume: [X]/mo, Difficulty: [X]
 <span class="k">-</span><span class="w"> </span>Secondary: &quot;[kw2]&quot;, &quot;[kw3]&quot;
 
 <span class="gu">## Search Intent</span>
-[Informational/Commercial/Transactional] — the searcher wants to [describe].
+[Informational/Commercial/Transactional]  --  the searcher wants to [describe].
 
 <span class="gu">## Outline</span>
 <span class="k">1.</span> H1: [Title]
@@ -8412,7 +8412,7 @@
 2. Drafts an interview request: context on the content, 3-5 specific questions, requested response format
 3. Calendar check: suggests 2-3 meeting times or offers async option
 4. Follows up after 2 business days if no response</p>
-<p><strong>Cron:</strong> <code>0 10 * * 3</code> — Wednesday SME matching.</p>
+<p><strong>Cron:</strong> <code>0 10 * * 3</code>  --  Wednesday SME matching.</p>
 <h2 id="stage-2-drafting">Stage 2: Drafting<a class="headerlink" href="#stage-2-drafting" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Duration:</strong> Week 2
 <strong>Goal:</strong> Produce a complete first draft from the approved brief.</p>
@@ -8435,15 +8435,15 @@
 2. Specify dimensions, format, what the visual should communicate
 3. Add to design queue (Notion task, Figma request, or similar)
 4. For data visualizations: generate the chart using the data from research</p>
-<p><strong>Cron:</strong> <code>0 9 * * 3</code> — Wednesday asset brief generation.</p>
+<p><strong>Cron:</strong> <code>0 9 * * 3</code>  --  Wednesday asset brief generation.</p>
 <h3 id="step-23-internal-link-and-seo-optimization-thursday">Step 2.3: Internal Link and SEO Optimization (Thursday)<a class="headerlink" href="#step-23-internal-link-and-seo-optimization-thursday" title="Anchor link to this section">&para;</a></h3>
 <ol>
-<li>Scan the draft for internal linking opportunities — match phrases to existing content</li>
+<li>Scan the draft for internal linking opportunities  --  match phrases to existing content</li>
 <li>Insert internal links with optimized anchor text</li>
 <li>Generate meta title and description (2-3 variants for A/B testing)</li>
 <li>Verify keyword density, header hierarchy, image alt text placeholders</li>
 </ol>
-<p><strong>Cron:</strong> <code>0 10 * * 4</code> — Thursday SEO pass.</p>
+<p><strong>Cron:</strong> <code>0 10 * * 4</code>  --  Thursday SEO pass.</p>
 <h2 id="stage-3-review">Stage 3: Review<a class="headerlink" href="#stage-3-review" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Duration:</strong> Week 3
 <strong>Goal:</strong> Human-edited, polished content ready for publication.</p>
@@ -8475,7 +8475,7 @@
 2. Applies straightforward edits automatically
 3. Flags changes that need editorial judgment for re-review
 4. Regenerates sections that need substantial rewrites</p>
-<p><strong>Cron:</strong> <code>0 9 * * 5</code> — Friday revision processing.</p>
+<p><strong>Cron:</strong> <code>0 9 * * 5</code>  --  Friday revision processing.</p>
 <h2 id="stage-4-publish">Stage 4: Publish<a class="headerlink" href="#stage-4-publish" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Duration:</strong> Week 4, Day 1-2
 <strong>Goal:</strong> Published content with all assets in place.</p>
@@ -8495,7 +8495,7 @@
 2. Submits to Google Search Console for indexing (URL Inspection → Request Indexing)
 3. Updates the sitemap if necessary
 4. Creates a "published" entry in the content tracker with publication date and URL</p>
-<p><strong>Cron:</strong> <code>0 8 * * 2</code> — Tuesday publication window.</p>
+<p><strong>Cron:</strong> <code>0 8 * * 2</code>  --  Tuesday publication window.</p>
 <h2 id="stage-5-promote">Stage 5: Promote<a class="headerlink" href="#stage-5-promote" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Duration:</strong> Ongoing from publication
 <strong>Goal:</strong> Maximize reach and measure performance.</p>
@@ -8505,7 +8505,7 @@
 2. LinkedIn post with professional framing
 3. Short-form video script if the topic suits visual explanation
 4. Relevant community posts (Reddit, Slack communities, Discord)</p>
-<p><strong>Cron:</strong> <code>0 10 * * 2</code> — publication day social push.</p>
+<p><strong>Cron:</strong> <code>0 10 * * 2</code>  --  publication day social push.</p>
 <h3 id="step-52-email-newsletter-inclusion">Step 5.2: Email Newsletter Inclusion<a class="headerlink" href="#step-52-email-newsletter-inclusion" title="Anchor link to this section">&para;</a></h3>
 <p>Add to the next newsletter issue:
 1. Generate newsletter teaser (2-3 sentences with link)
@@ -8525,7 +8525,7 @@
 - Full performance review against targets
 - Update recommendation: needs refresh, optimization, or is evergreen-stable?
 - Content decay detection: traffic dropping &gt; 20% → flag for refresh</p>
-<p><strong>Cron:</strong> <code>0 8 * * 1</code> — weekly content performance sweep.</p>
+<p><strong>Cron:</strong> <code>0 8 * * 1</code>  --  weekly content performance sweep.</p>
 <h2 id="full-cron-schedule">Full Cron Schedule<a class="headerlink" href="#full-cron-schedule" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -8652,7 +8652,7 @@
 </table>
 <h2 id="implementation-notes">Implementation Notes<a class="headerlink" href="#implementation-notes" title="Anchor link to this section">&para;</a></h2>
 <h3 id="the-human-gates-are-non-negotiable">The Human Gates Are Non-Negotiable<a class="headerlink" href="#the-human-gates-are-non-negotiable" title="Anchor link to this section">&para;</a></h3>
-<p>This pipeline automates everything it can — but the review gate must remain human. Content quality degrades without editorial judgment. The automation's job is to make the human reviewer maximally efficient, not to replace them.</p>
+<p>This pipeline automates everything it can  --  but the review gate must remain human. Content quality degrades without editorial judgment. The automation's job is to make the human reviewer maximally efficient, not to replace them.</p>
 <h3 id="content-calendar-management">Content Calendar Management<a class="headerlink" href="#content-calendar-management" title="Anchor link to this section">&para;</a></h3>
 <p>Run a monthly planning session where the agent proposes the next month's content calendar based on pipeline capacity and strategic priorities. Lock the calendar at least 2 weeks before production starts.</p>
 <h3 id="repurposing">Repurposing<a class="headerlink" href="#repurposing" title="Anchor link to this section">&para;</a></h3>
@@ -8668,8 +8668,8 @@
 <li>Add <strong>social listening</strong> to detect when your content is discussed but not linked</li>
 <li>Connect <strong>GA4</strong> for conversion attribution by content piece</li>
 </ul>
-<p><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a> — 308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a> — 308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a>  --  308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a>  --  308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

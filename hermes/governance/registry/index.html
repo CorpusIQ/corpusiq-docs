@@ -7634,14 +7634,14 @@
 
 
 <h1 id="system-registry">System Registry<a class="headerlink" href="#system-registry" title="Anchor link to this section">&para;</a></h1>
-<p>In autonomous systems, uncontrolled creation leads to chaos. The System Registry validates every component before creation — skills, workflows, automations, cron jobs — ensuring nothing is duplicated and everything has an owner.</p>
+<p>In autonomous systems, uncontrolled creation leads to chaos. The System Registry validates every component before creation  --  skills, workflows, automations, cron jobs  --  ensuring nothing is duplicated and everything has an owner.</p>
 <h2 id="registry-checks">Registry Checks<a class="headerlink" href="#registry-checks" title="Anchor link to this section">&para;</a></h2>
 <p>Before creating any new component, the registry validates:</p>
 <ol>
-<li><strong>Does it already exist?</strong> — Search by name, function, and capability overlap</li>
-<li><strong>Who owns it?</strong> — Each component has an assigned maintainer</li>
-<li><strong>Is it active?</strong> — Components marked deprecated if unused for 30+ days</li>
-<li><strong>Dependencies?</strong> — What other components rely on it</li>
+<li><strong>Does it already exist?</strong>  --  Search by name, function, and capability overlap</li>
+<li><strong>Who owns it?</strong>  --  Each component has an assigned maintainer</li>
+<li><strong>Is it active?</strong>  --  Components marked deprecated if unused for 30+ days</li>
+<li><strong>Dependencies?</strong>  --  What other components rely on it</li>
 </ol>
 <h2 id="registry-contents">Registry Contents<a class="headerlink" href="#registry-contents" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -7724,7 +7724,7 @@ description: Autonomous email monitoring, routing, and response for production a
 <p>Email crons run every 15 minutes with delivery verification. Failed checks trigger immediate re-runs. A separate forward-handler ensures job application replies reach the correct inbox.</p>
 <hr />
 <p>title: Autonomous Scheduling
-description: 24 scheduled processes for 24/7 autonomous operations — monitoring, publishing, and maintenance</p>
+description: 24 scheduled processes for 24/7 autonomous operations  --  monitoring, publishing, and maintenance</p>
 <hr />
 <h1 id="autonomous-scheduling">Autonomous Scheduling<a class="headerlink" href="#autonomous-scheduling" title="Anchor link to this section">&para;</a></h1>
 <p>The platform operates 24 scheduled processes executing on a 24/7 basis: email monitoring, social publishing, video generation, knowledge consolidation, reporting, and self-improvement cycles.</p>
@@ -7771,13 +7771,13 @@ description: 24 scheduled processes for 24/7 autonomous operations — monitorin
 </tbody>
 </table>
 <h2 id="cron-architecture">Cron Architecture<a class="headerlink" href="#cron-architecture" title="Anchor link to this section">&para;</a></h2>
-<p>Crons run on the primary compute node. A dedicated worker handles browser-dependent tasks via remote SSH. Each cron is verified — status checks catch failures and escalate.</p>
+<p>Crons run on the primary compute node. A dedicated worker handles browser-dependent tasks via remote SSH. Each cron is verified  --  status checks catch failures and escalate.</p>
 <h2 id="scheduling-principles">Scheduling Principles<a class="headerlink" href="#scheduling-principles" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Staggered execution</strong> — jobs spaced to avoid resource contention</li>
-<li><strong>Retry logic</strong> — failed jobs retry with exponential backoff</li>
-<li><strong>Silent success</strong> — jobs report only on breakpoints, not routine success</li>
-<li><strong>Manual override</strong> — critical jobs have pause/resume controls</li>
+<li><strong>Staggered execution</strong>  --  jobs spaced to avoid resource contention</li>
+<li><strong>Retry logic</strong>  --  failed jobs retry with exponential backoff</li>
+<li><strong>Silent success</strong>  --  jobs report only on breakpoints, not routine success</li>
+<li><strong>Manual override</strong>  --  critical jobs have pause/resume controls</li>
 </ul>
 <h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
 <p>Crons are never trusted at face value. The <code>corpusiq-cron-delivery-audit</code> process runs all crons once to verify they actually deliver, checking actual output against expected output.</p>
@@ -7789,12 +7789,12 @@ description: System health checks, process verification, and anomaly detection f
 <p>A 10 PM daily system health check runs across all 24 crons, verifying execution status, output quality, and system resources.</p>
 <h2 id="health-check-coverage">Health Check Coverage<a class="headerlink" href="#health-check-coverage" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Cron health</strong> — All 24 jobs verified for last successful run</li>
-<li><strong>Disk space</strong> — DGX and Mac Mini storage alerts at 80%</li>
-<li><strong>Token validity</strong> — All OAuth tokens verified non-expired</li>
-<li><strong>Model availability</strong> — Ollama, DeepSeek, Claude endpoints tested</li>
-<li><strong>Email delivery</strong> — Outbound relay verified</li>
-<li><strong>GitHub access</strong> — Token and push capability tested</li>
+<li><strong>Cron health</strong>  --  All 24 jobs verified for last successful run</li>
+<li><strong>Disk space</strong>  --  DGX and Mac Mini storage alerts at 80%</li>
+<li><strong>Token validity</strong>  --  All OAuth tokens verified non-expired</li>
+<li><strong>Model availability</strong>  --  Ollama, DeepSeek, Claude endpoints tested</li>
+<li><strong>Email delivery</strong>  --  Outbound relay verified</li>
+<li><strong>GitHub access</strong>  --  Token and push capability tested</li>
 </ol>
 <h2 id="anomaly-detection">Anomaly Detection<a class="headerlink" href="#anomaly-detection" title="Anchor link to this section">&para;</a></h2>
 <p>The system monitors for unusual patterns: cron failure rate spikes, model latency degradation, email delivery failures, and token expiry approaches.</p>
@@ -7802,8 +7802,8 @@ description: System health checks, process verification, and anomaly detection f
 <p>Issues classified by severity. P1 (authentication failure, database corruption) triggers immediate alert. P2 (cron failure, slow model) triggers next-cycle remediation. P3 (cosmetic, non-blocking) logged for weekly review.</p>
 <h2 id="self-healing">Self-Healing<a class="headerlink" href="#self-healing" title="Anchor link to this section">&para;</a></h2>
 <p>The self-improvement cron at 11 PM analyzes the day's issues and patches skills, updates documentation, and adjusts cron timing to prevent recurrence.</p>
-<p><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a> — 308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a> — 308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a>  --  308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a>  --  308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

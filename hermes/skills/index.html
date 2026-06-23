@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="380+ skills for Hermes agents — 90 native CorpusIQ skills, 290+ marketplace skills from skills.sh. Reusable, executable agent capabilities.">
+        <meta name="description" content="380+ skills for Hermes agents  --  90 native CorpusIQ skills, 290+ marketplace skills from skills.sh. Reusable, executable agent capabilities.">
       
       
       
@@ -7713,17 +7713,17 @@
 
 <h1 id="hermes-skills">Hermes Skills<a class="headerlink" href="#hermes-skills" title="Anchor link to this section">&para;</a></h1>
 <p><strong>See the <a href="/hermes/skills/catalog/">Skills Catalog</a> for the complete index of all 380+ skills.</strong></p>
-<p>Skills are reusable agent capabilities — step-by-step workflows with tools, triggers, and verification criteria. They are not static prompts, not text files — they are executable runbooks that Hermes agents read and execute. A skill tells the agent exactly what to do, what tools to use, how to verify each step, and what to do when something goes wrong.</p>
+<p>Skills are reusable agent capabilities  --  step-by-step workflows with tools, triggers, and verification criteria. They are not static prompts, not text files  --  they are executable runbooks that Hermes agents read and execute. A skill tells the agent exactly what to do, what tools to use, how to verify each step, and what to do when something goes wrong.</p>
 <h2 id="how-skills-work">How Skills Work<a class="headerlink" href="#how-skills-work" title="Anchor link to this section">&para;</a></h2>
 <p>Every skill follows a consistent structure:</p>
 <ol>
-<li><strong>Trigger</strong> — When the skill activates (keyword match, cron schedule, agent profile, or explicit invocation)</li>
-<li><strong>Tool Manifest</strong> — Which tools the skill requires (MCP connectors, terminal access, browser, web extraction)</li>
-<li><strong>Execution Steps</strong> — Numbered instructions the agent follows sequentially</li>
-<li><strong>Verification Gates</strong> — After each major step, what to check before proceeding</li>
-<li><strong>Error Recovery</strong> — What to do when a step fails (retry, escalate, skip, or abort)</li>
+<li><strong>Trigger</strong>  --  When the skill activates (keyword match, cron schedule, agent profile, or explicit invocation)</li>
+<li><strong>Tool Manifest</strong>  --  Which tools the skill requires (MCP connectors, terminal access, browser, web extraction)</li>
+<li><strong>Execution Steps</strong>  --  Numbered instructions the agent follows sequentially</li>
+<li><strong>Verification Gates</strong>  --  After each major step, what to check before proceeding</li>
+<li><strong>Error Recovery</strong>  --  What to do when a step fails (retry, escalate, skip, or abort)</li>
 </ol>
-<p>A skill loads into the agent's context at runtime. The agent doesn't "remember" the skill from previous sessions — it reads the skill body fresh every time, which means skills can evolve without retraining or redeployment. If a skill has a bug, you fix the skill file and the next invocation picks up the fix immediately.</p>
+<p>A skill loads into the agent's context at runtime. The agent doesn't "remember" the skill from previous sessions  --  it reads the skill body fresh every time, which means skills can evolve without retraining or redeployment. If a skill has a bug, you fix the skill file and the next invocation picks up the fix immediately.</p>
 <h2 id="categories">Categories<a class="headerlink" href="#categories" title="Anchor link to this section">&para;</a></h2>
 <p>Skills are organized into functional categories that reflect how teams use Hermes in production:</p>
 <table>
@@ -7785,7 +7785,7 @@
 <p>See the <a href="/hermes/skills/catalog/">Skills Catalog</a> for the full categorized index.</p>
 <h2 id="installing-skills">Installing Skills<a class="headerlink" href="#installing-skills" title="Anchor link to this section">&para;</a></h2>
 <h3 id="native-skills-auto-loaded">Native Skills (Auto-Loaded)<a class="headerlink" href="#native-skills-auto-loaded" title="Anchor link to this section">&para;</a></h3>
-<p>Native CorpusIQ skills load automatically when the agent profile matches their trigger conditions. No installation required — if you have a CorpusIQ profile, the skills are already available.</p>
+<p>Native CorpusIQ skills load automatically when the agent profile matches their trigger conditions. No installation required  --  if you have a CorpusIQ profile, the skills are already available.</p>
 <p>To view loaded skills in your current profile:</p>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span>--native
 </code></pre></div>
@@ -7814,11 +7814,11 @@ hermes<span class="w"> </span>skills<span class="w"> </span>inspect<span class="
 <span class="c1"># Test the skill with a dry run</span>
 hermes<span class="w"> </span>skills<span class="w"> </span><span class="nb">test</span><span class="w"> </span>seo-audit<span class="w"> </span>--dry-run
 </code></pre></div>
-<p>If a skill fails to load, check the Hermes logs for missing dependency errors. Most marketplace skills require specific tools — for example, <code>seo-audit</code> requires web extraction (<code>web_extract</code>) and terminal access. Install any missing tools before retrying.</p>
+<p>If a skill fails to load, check the Hermes logs for missing dependency errors. Most marketplace skills require specific tools  --  for example, <code>seo-audit</code> requires web extraction (<code>web_extract</code>) and terminal access. Install any missing tools before retrying.</p>
 <h2 id="creating-custom-skills">Creating Custom Skills<a class="headerlink" href="#creating-custom-skills" title="Anchor link to this section">&para;</a></h2>
 <p>You can create your own skills for any repeatable workflow. The fastest path is to let Hermes generate the skill from a working session:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># After completing a task manually, tell Hermes to create a skill from it</span>
-<span class="s2">&quot;Create a skill from the last task I just did — audit our email automations&quot;</span>
+<span class="s2">&quot;Create a skill from the last task I just did  --  audit our email automations&quot;</span>
 
 <span class="c1"># Hermes will write the skill file and offer to install it</span>
 </code></pre></div>
@@ -7853,12 +7853,12 @@ Output markdown table: automation name, last run, status, issues found.
 <h2 id="marketplace-discovery">Marketplace Discovery<a class="headerlink" href="#marketplace-discovery" title="Anchor link to this section">&para;</a></h2>
 <p>The Hermes community hub includes a curated <a href="/hermes/skills/marketplace/">Skills Marketplace</a> with 290+ community-contributed skills. New skills are discovered through automated sweeps of skills.sh and added weekly. Browse by category, check install counts to see what's trending, and submit your own skills for inclusion.</p>
 <h3 id="trending-this-week">Trending This Week<a class="headerlink" href="#trending-this-week" title="Anchor link to this section">&para;</a></h3>
-<p><a href="/hermes/skills/marketplace/new-june16-2026/">🆕 June 16, 2026 — ClawPilot ecosystem: mobile-to-agent bridge →</a></p>
+<p><a href="/hermes/skills/marketplace/new-june16-2026/">🆕 June 16, 2026  --  ClawPilot ecosystem: mobile-to-agent bridge →</a></p>
 <h3 id="recent-discoveries">Recent Discoveries<a class="headerlink" href="#recent-discoveries" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><a href="/hermes/skills/marketplace/new-june15-2026/">June 15, 2026 — Nous Research Expansion (23 skills)</a></li>
-<li><a href="/hermes/skills/marketplace/new-june12-2026-update/">June 12, 2026 — OpenClaw Security Suite (13 skills)</a></li>
-<li><a href="/hermes/skills/marketplace/new-june11-2026/">June 11, 2026 — Hermes Ecosystem + Platform Bots (38 skills)</a></li>
+<li><a href="/hermes/skills/marketplace/new-june15-2026/">June 15, 2026  --  Nous Research Expansion (23 skills)</a></li>
+<li><a href="/hermes/skills/marketplace/new-june12-2026-update/">June 12, 2026  --  OpenClaw Security Suite (13 skills)</a></li>
+<li><a href="/hermes/skills/marketplace/new-june11-2026/">June 11, 2026  --  Hermes Ecosystem + Platform Bots (38 skills)</a></li>
 </ul>
 <h2 id="quick-links">Quick Links<a class="headerlink" href="#quick-links" title="Anchor link to this section">&para;</a></h2>
 <table>

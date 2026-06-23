@@ -27,7 +27,7 @@
     
     
       
-        <title>Email + Calendar Integration for Hermes Agent — Automated Scheduling & Follow-ups - CorpusIQ Docs</title>
+        <title>Email + Calendar Integration for Hermes Agent  --  Automated Scheduling & Follow-ups - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Email + Calendar Integration for Hermes Agent — Automated Scheduling & Follow-ups
+              Email + Calendar Integration for Hermes Agent  --  Automated Scheduling & Follow-ups
             
           </span>
         </div>
@@ -7108,7 +7108,7 @@
   <a href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Curated in the Hermes Community Hub — 308+ tools, skills, and agents. Powered by CorpusIQ.
+        Curated in the Hermes Community Hub -- 308+ tools, skills, and agents. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -7990,7 +7990,7 @@
   <a href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Curated in the Hermes Community Hub — 308+ tools, skills, and agents. Powered by CorpusIQ.
+        Curated in the Hermes Community Hub -- 308+ tools, skills, and agents. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -8017,7 +8017,7 @@
   
 
 
-<h1 id="email-calendar-integration-automated-scheduling-follow-ups">Email + Calendar Integration — Automated Scheduling &amp; Follow-ups<a class="headerlink" href="#email-calendar-integration-automated-scheduling-follow-ups" title="Anchor link to this section">&para;</a></h1>
+<h1 id="email-calendar-integration-automated-scheduling-follow-ups">Email + Calendar Integration  --  Automated Scheduling &amp; Follow-ups<a class="headerlink" href="#email-calendar-integration-automated-scheduling-follow-ups" title="Anchor link to this section">&para;</a></h1>
 <h2 id="architecture-overview">Architecture Overview<a class="headerlink" href="#architecture-overview" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>┌──────────┐     ┌──────────────┐     ┌───────────┐
 │  Email   │────▶│  Automation  │────▶│ Calendar  │
@@ -8032,11 +8032,11 @@
 <p>The automation layer reads incoming emails, extracts scheduling intent or follow-up triggers, and creates or updates calendar events accordingly.</p>
 <h2 id="mcp-server-setup">MCP Server Setup<a class="headerlink" href="#mcp-server-setup" title="Anchor link to this section">&para;</a></h2>
 <h3 id="email-servers">Email Servers<a class="headerlink" href="#email-servers" title="Anchor link to this section">&para;</a></h3>
-<p><strong>Gmail MCP Server</strong> — provides <code>list_gmail_messages</code>, <code>search_gmail</code>, and <code>get_gmail_message</code> tools. Configure with OAuth credentials from Google Cloud Console with the Gmail readonly scope. This lets the agent scan inboxes for meeting requests, scheduling emails, and follow-up triggers.</p>
-<p><strong>Outlook MCP Server</strong> — provides equivalent tools for Microsoft 365 mailboxes. Requires Azure AD app registration with Mail.Read scope. Supports shared mailboxes, useful for team inboxes like <code>scheduling@example.com</code>.</p>
+<p><strong>Gmail MCP Server</strong>  --  provides <code>list_gmail_messages</code>, <code>search_gmail</code>, and <code>get_gmail_message</code> tools. Configure with OAuth credentials from Google Cloud Console with the Gmail readonly scope. This lets the agent scan inboxes for meeting requests, scheduling emails, and follow-up triggers.</p>
+<p><strong>Outlook MCP Server</strong>  --  provides equivalent tools for Microsoft 365 mailboxes. Requires Azure AD app registration with Mail.Read scope. Supports shared mailboxes, useful for team inboxes like <code>scheduling@example.com</code>.</p>
 <h3 id="calendar-servers">Calendar Servers<a class="headerlink" href="#calendar-servers" title="Anchor link to this section">&para;</a></h3>
-<p><strong>Google Calendar MCP Server</strong> — provides <code>list_my_calendar_events</code>, <code>search_my_calendar</code>, and event detail retrieval. Configure with Google Calendar API scope. Supports multiple calendars — separate personal and team calendars.</p>
-<p><strong>Outlook Calendar MCP Server</strong> — provides the same capabilities for Microsoft 365 calendars. Handles delegated calendars and room resource lookups.</p>
+<p><strong>Google Calendar MCP Server</strong>  --  provides <code>list_my_calendar_events</code>, <code>search_my_calendar</code>, and event detail retrieval. Configure with Google Calendar API scope. Supports multiple calendars  --  separate personal and team calendars.</p>
+<p><strong>Outlook Calendar MCP Server</strong>  --  provides the same capabilities for Microsoft 365 calendars. Handles delegated calendars and room resource lookups.</p>
 <h2 id="core-automation-scenarios">Core Automation Scenarios<a class="headerlink" href="#core-automation-scenarios" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-meeting-scheduling-from-email">1. Meeting Scheduling from Email<a class="headerlink" href="#1-meeting-scheduling-from-email" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Trigger:</strong> New email arrives containing scheduling language ("let's meet", "find time", "schedule a call", Calendly/Doodle link).</p>
@@ -8048,7 +8048,7 @@
 5. If no times proposed: find the next 3 open slots based on working hours
 6. Draft reply with availability OR confirm the proposed time
 7. Mark email with "scheduling-pending" label until confirmed</p>
-<p><strong>Cron expression:</strong> <code>*/10 * * * *</code> — checks inbox for new scheduling emails every 10 minutes during business hours.</p>
+<p><strong>Cron expression:</strong> <code>*/10 * * * *</code>  --  checks inbox for new scheduling emails every 10 minutes during business hours.</p>
 <h3 id="2-follow-up-automation">2. Follow-Up Automation<a class="headerlink" href="#2-follow-up-automation" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Trigger:</strong> Email sent to a prospect or client with no reply after N days.</p>
 <p><strong>Workflow:</strong>
@@ -8058,7 +8058,7 @@
 4. If still no reply after [2N] days: escalate to a calendar task with higher priority
 5. If [3N] days: move to "cold" status and log for CRM update</p>
 <p><strong>Configuration:</strong> Define follow-up windows per contact category (hot lead: 3 days, warm lead: 5 days, client: 7 days).</p>
-<p><strong>Cron expression:</strong> <code>0 8 * * 1-5</code> — runs once each weekday morning to check for follow-up needs.</p>
+<p><strong>Cron expression:</strong> <code>0 8 * * 1-5</code>  --  runs once each weekday morning to check for follow-up needs.</p>
 <h3 id="3-availability-checking">3. Availability Checking<a class="headerlink" href="#3-availability-checking" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Trigger:</strong> Someone asks "when are you free?" or a scheduling link is shared.</p>
 <p><strong>Workflow:</strong>
@@ -8083,12 +8083,12 @@
 <p><strong>Trigger:</strong> 30 minutes before a scheduled meeting.</p>
 <p><strong>Workflow:</strong>
 1. Agent detects upcoming meeting on calendar (cron: checks every 15 minutes)
-2. Searches email for the meeting thread — pulls recent correspondence with attendees
+2. Searches email for the meeting thread  --  pulls recent correspondence with attendees
 3. Extracts action items, open questions, and decisions from previous meeting notes
 4. Compiles a one-page prep brief: agenda, previous context, open items, preparation notes
 5. Sends the brief via email or posts to the meeting's Slack channel
 6. Includes links to relevant documents and previous meeting summaries</p>
-<p><strong>Cron expression:</strong> <code>*/15 * * * *</code> — checks for upcoming meetings every 15 minutes.</p>
+<p><strong>Cron expression:</strong> <code>*/15 * * * *</code>  --  checks for upcoming meetings every 15 minutes.</p>
 <h2 id="cron-schedule-summary">Cron Schedule Summary<a class="headerlink" href="#cron-schedule-summary" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -8131,16 +8131,16 @@
 <p>Both Gmail and Outlook APIs have rate limits. Implement exponential backoff in your automation scripts. For high-volume inboxes, batch email scanning into a single operation rather than per-message calls.</p>
 <h3 id="security-considerations">Security Considerations<a class="headerlink" href="#security-considerations" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li>Use read-only API scopes where possible — the agent should suggest, not autonomously send emails or create calendar events without human review.</li>
+<li>Use read-only API scopes where possible  --  the agent should suggest, not autonomously send emails or create calendar events without human review.</li>
 <li>Store OAuth tokens securely; rotate refresh tokens on a schedule.</li>
 <li>Never log email bodies or calendar event details to plaintext files.</li>
 </ul>
 <h3 id="testing">Testing<a class="headerlink" href="#testing" title="Anchor link to this section">&para;</a></h3>
-<p>Start with a "dry run" mode that logs proposed actions without executing them. After a week of dry runs that produce sensible output, enable execution one automation at a time. Monitor the first month closely — edge cases in scheduling language and timezone handling are the most common failure modes.</p>
+<p>Start with a "dry run" mode that logs proposed actions without executing them. After a week of dry runs that produce sensible output, enable execution one automation at a time. Monitor the first month closely  --  edge cases in scheduling language and timezone handling are the most common failure modes.</p>
 <h3 id="extending">Extending<a class="headerlink" href="#extending" title="Anchor link to this section">&para;</a></h3>
 <p>Add CRM integration to log meetings against contacts. Connect Slack to post daily schedule summaries to your direct-message channel. Wire up task management (Notion, Monday, Linear) to create prep tasks for meetings automatically.</p>
-<p><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a> — 308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a> — 308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a>  --  308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a>  --  308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Hermes Agent as the primary execution kernel — capabilities, configuration, and production patterns">
+        <meta name="description" content="Hermes Agent as the primary execution kernel  --  capabilities, configuration, and production patterns">
       
       
       
@@ -23,7 +23,7 @@
     
     
       
-        <title>Hermes Agent — Orchestration Engine - CorpusIQ Docs</title>
+        <title>Hermes Agent  --  Orchestration Engine - CorpusIQ Docs</title>
       
     
     
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes Agent — Orchestration Engine
+              Hermes Agent  --  Orchestration Engine
             
           </span>
         </div>
@@ -7622,7 +7622,7 @@
   
 
 
-<h1 id="hermes-agent-orchestration-engine">Hermes Agent — Orchestration Engine<a class="headerlink" href="#hermes-agent-orchestration-engine" title="Anchor link to this section">&para;</a></h1>
+<h1 id="hermes-agent-orchestration-engine">Hermes Agent  --  Orchestration Engine<a class="headerlink" href="#hermes-agent-orchestration-engine" title="Anchor link to this section">&para;</a></h1>
 <p>Hermes serves as the platform's primary orchestration framework and execution environment. It is the kernel, not the platform.</p>
 <h2 id="version-history">Version History<a class="headerlink" href="#version-history" title="Anchor link to this section">&para;</a></h2>
 <p>Deployed from v0.15.1 to v0.16.0, incorporating 426 commits:</p>
@@ -7664,10 +7664,10 @@
 <h2 id="production-patterns">Production Patterns<a class="headerlink" href="#production-patterns" title="Anchor link to this section">&para;</a></h2>
 <p>Model routing: default to local models, escalate to API only when needed. Skills: load skill for every task matching its trigger. Memory: persistent across sessions via GBrain. Crons: verify execution, never trust <code>last_status: ok</code>.</p>
 <hr />
-<p>title: CrewAI — Multi-Agent Orchestration
-description: Multi-agent coordination with CrewAI — specialized agents, parallel execution, and domain delegation</p>
+<p>title: CrewAI  --  Multi-Agent Orchestration
+description: Multi-agent coordination with CrewAI  --  specialized agents, parallel execution, and domain delegation</p>
 <hr />
-<h1 id="crewai-multi-agent-orchestration">CrewAI — Multi-Agent Orchestration<a class="headerlink" href="#crewai-multi-agent-orchestration" title="Anchor link to this section">&para;</a></h1>
+<h1 id="crewai-multi-agent-orchestration">CrewAI  --  Multi-Agent Orchestration<a class="headerlink" href="#crewai-multi-agent-orchestration" title="Anchor link to this section">&para;</a></h1>
 <p>CrewAI provides multi-agent orchestration. Instead of a single agent managing everything, specialized agents handle specific domains in parallel.</p>
 <h2 id="agent-roster">Agent Roster<a class="headerlink" href="#agent-roster" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -7714,7 +7714,7 @@ description: Multi-agent coordination with CrewAI — specialized agents, parall
 <h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Anchor link to this section">&para;</a></h2>
 <p>CrewAI agents delegate execution to Hermes. Hermes provides tool access, model routing, and error recovery. Agents focus on domain logic. Hermes handles infrastructure.</p>
 <h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Anchor link to this section">&para;</a></h2>
-<p>Parallel execution — multiple agents work simultaneously. Specialization — each agent has deep domain context. Isolation — agent failures don't cascade. Scalability — new agents added without refactoring.</p>
+<p>Parallel execution  --  multiple agents work simultaneously. Specialization  --  each agent has deep domain context. Isolation  --  agent failures don't cascade. Scalability  --  new agents added without refactoring.</p>
 <h2 id="use-case-content-pipeline">Use Case: Content Pipeline<a class="headerlink" href="#use-case-content-pipeline" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>Research Agent → finds trending topics
 Content Agent → drafts scripts
@@ -7724,11 +7724,11 @@ Monitoring Agent → tracks engagement
 </code></pre></div>
 <p>Five agents working in sequence, each focused on its domain. Result: end-to-end automation without a single monolithic agent.</p>
 <hr />
-<p>title: LangGraph — Stateful Workflows
+<p>title: LangGraph  --  Stateful Workflows
 description: Graph-based execution with conditional routing, persistent state, and recovery paths for Hermes agents</p>
 <hr />
-<h1 id="langgraph-stateful-workflows">LangGraph — Stateful Workflows<a class="headerlink" href="#langgraph-stateful-workflows" title="Anchor link to this section">&para;</a></h1>
-<p>LangGraph introduces stateful graph-based execution — conditional routing, multi-step workflows, persistent state management, branching decision trees, and recovery paths. The result: deterministic workflow execution, not linear prompt chains.</p>
+<h1 id="langgraph-stateful-workflows">LangGraph  --  Stateful Workflows<a class="headerlink" href="#langgraph-stateful-workflows" title="Anchor link to this section">&para;</a></h1>
+<p>LangGraph introduces stateful graph-based execution  --  conditional routing, multi-step workflows, persistent state management, branching decision trees, and recovery paths. The result: deterministic workflow execution, not linear prompt chains.</p>
 <h2 id="graph-structure">Graph Structure<a class="headerlink" href="#graph-structure" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>Start → Classify Intent → Route to Domain → Execute → Validate → End
                         ↓                    ↓
@@ -7743,10 +7743,10 @@ description: Graph-based execution with conditional routing, persistent state, a
 <h2 id="integration">Integration<a class="headerlink" href="#integration" title="Anchor link to this section">&para;</a></h2>
 <p>LangGraph workflows execute through Hermes tool calls. Hermes provides the execution environment. LangGraph provides the decision structure. Together: flexible execution with deterministic flow control.</p>
 <hr />
-<p>title: Reflexion — Self-Improving Agents
+<p>title: Reflexion  --  Self-Improving Agents
 description: Self-evaluation loops for autonomous agent improvement without human correction</p>
 <hr />
-<h1 id="reflexion-self-improving-agents">Reflexion — Self-Improving Agents<a class="headerlink" href="#reflexion-self-improving-agents" title="Anchor link to this section">&para;</a></h1>
+<h1 id="reflexion-self-improving-agents">Reflexion  --  Self-Improving Agents<a class="headerlink" href="#reflexion-self-improving-agents" title="Anchor link to this section">&para;</a></h1>
 <p>Reflexion introduces self-evaluation loops. Instead of waiting for human correction, agents evaluate their own output and self-correct.</p>
 <h2 id="execution-loop">Execution Loop<a class="headerlink" href="#execution-loop" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>Task → Execute → Evaluate → Detect Error → Adjust Strategy → Re-execute
@@ -7758,11 +7758,11 @@ description: Self-evaluation loops for autonomous agent improvement without huma
 <h2 id="production-impact">Production Impact<a class="headerlink" href="#production-impact" title="Anchor link to this section">&para;</a></h2>
 <p>Reduced human intervention by approximately 70% for routine tasks. Agents learn from mistakes within the same conversation rather than requiring external correction.</p>
 <h2 id="integration_1">Integration<a class="headerlink" href="#integration_1" title="Anchor link to this section">&para;</a></h2>
-<p>Reflexion wraps existing execution paths. Any agent task can be reflexion-enabled. The improvement loop runs transparently — errors are fixed before the user sees the output.</p>
+<p>Reflexion wraps existing execution paths. Any agent task can be reflexion-enabled. The improvement loop runs transparently  --  errors are fixed before the user sees the output.</p>
 <h2 id="daily-cycle">Daily Cycle<a class="headerlink" href="#daily-cycle" title="Anchor link to this section">&para;</a></h2>
 <p>At 23:00, the daily self-improvement cycle analyzes the day's reflexion logs, identifies patterns, and patches skills to prevent recurrence of common errors. This is cumulative: the platform improves daily.</p>
-<p><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a> — 308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a> — 308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a>  --  308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a>  --  308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

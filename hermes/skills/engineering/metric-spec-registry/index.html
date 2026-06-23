@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Pattern for a canonical-layer metric subsystem — store KPI definitions, not data; resolve live; surface drift between sources; never cache; provenance every answer.">
+        <meta name="description" content="Pattern for a canonical-layer metric subsystem  --  store KPI definitions, not data; resolve live; surface drift between sources; never cache; provenance every answer.">
       
       
       
@@ -7595,7 +7595,7 @@
   <a href="#the-resolve-contract-never-cached-always-live-always-provenance" class="md-nav__link">
     <span class="md-ellipsis">
       
-        The resolve contract — never cached, always live, always provenance
+        The resolve contract -- never cached, always live, always provenance
       
     </span>
   </a>
@@ -7650,7 +7650,7 @@
   <a href="#lockstep-test-protect-the-renderer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Lockstep test — protect the renderer
+        Lockstep test -- protect the renderer
       
     </span>
   </a>
@@ -7683,7 +7683,7 @@
   <a href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Part of the Hermes Skills Library — 133+ agent skills. Built by CorpusIQ.
+        Part of the Hermes Skills Library -- 133+ agent skills. Built by CorpusIQ.
       
     </span>
   </a>
@@ -7711,7 +7711,7 @@
 
 
 <h1 id="metric-spec-registry">Metric Spec Registry<a class="headerlink" href="#metric-spec-registry" title="Anchor link to this section">&para;</a></h1>
-<p>When two systems in your stack compute "the same number" differently — Stripe says MRR is $X, QuickBooks recurring revenue says $Y, your dashboard widget says $Z — the question stops being "what's our MRR?" and becomes "which of these three is right, and why don't they match?"</p>
+<p>When two systems in your stack compute "the same number" differently  --  Stripe says MRR is $X, QuickBooks recurring revenue says $Y, your dashboard widget says $Z  --  the question stops being "what's our MRR?" and becomes "which of these three is right, and why don't they match?"</p>
 <p>This skill describes the substrate pattern that answers both questions: a <strong>metric spec registry</strong> that stores user-declared KPI definitions (the expression, the source calls, the variables) and a <strong>resolver</strong> that evaluates them live every time, never cached. Plus a <strong>drift report</strong> that walks every spec with a cross-source check, fires both sides, and surfaces only the ones that disagree past tolerance.</p>
 <h2 id="when-to-load-this-skill">When to load this skill<a class="headerlink" href="#when-to-load-this-skill" title="Anchor link to this section">&para;</a></h2>
 <ul>
@@ -7723,9 +7723,9 @@
 <h2 id="the-waterfall">The waterfall<a class="headerlink" href="#the-waterfall" title="Anchor link to this section">&para;</a></h2>
 <p>Three layers, evaluated in order when a user asks "what's our <metric>?":</p>
 <ol>
-<li><strong>Truth source</strong> (highest authority) — a user-maintained workbook or document the user explicitly declared as the source for this metric. If a TruthSource entry exists AND the spec doesn't have <code>prefer_truth_source: false</code>, use the truth source's number</li>
-<li><strong>Metric spec</strong> — a declared expression in a mini-DSL that compiles to vendor API calls. Resolved live, never cached. Carries <code>cross_source_checks</code> for drift detection</li>
-<li><strong>Raw connector data</strong> (lowest authority) — only when no spec exists and the user didn't register a truth source. Labeled "estimate" in the response, not asserted as canonical</li>
+<li><strong>Truth source</strong> (highest authority)  --  a user-maintained workbook or document the user explicitly declared as the source for this metric. If a TruthSource entry exists AND the spec doesn't have <code>prefer_truth_source: false</code>, use the truth source's number</li>
+<li><strong>Metric spec</strong>  --  a declared expression in a mini-DSL that compiles to vendor API calls. Resolved live, never cached. Carries <code>cross_source_checks</code> for drift detection</li>
+<li><strong>Raw connector data</strong> (lowest authority)  --  only when no spec exists and the user didn't register a truth source. Labeled "estimate" in the response, not asserted as canonical</li>
 </ol>
 <p>The waterfall is the discipline that makes the system trustworthy. Without it, every AI client computes the metric its own way and the user gets three different answers from three different chat windows.</p>
 <h2 id="the-data-model">The data model<a class="headerlink" href="#the-data-model" title="Anchor link to this section">&para;</a></h2>
@@ -7748,7 +7748,7 @@
 </tr>
 <tr>
 <td><code>description</code></td>
-<td>The user's own definition — surfaced in the provenance footer</td>
+<td>The user's own definition  --  surfaced in the provenance footer</td>
 </tr>
 <tr>
 <td><code>expression</code></td>
@@ -7760,7 +7760,7 @@
 </tr>
 <tr>
 <td><code>expected_freshness</code></td>
-<td>Free text the user accepts as staleness budget: <code>realtime</code>, <code>daily</code>, <code>monthly</code>. Metadata only — does NOT trigger caching</td>
+<td>Free text the user accepts as staleness budget: <code>realtime</code>, <code>daily</code>, <code>monthly</code>. Metadata only  --  does NOT trigger caching</td>
 </tr>
 <tr>
 <td><code>cross_source_checks</code></td>
@@ -7788,25 +7788,25 @@
 </tr>
 </tbody>
 </table>
-<h2 id="the-resolve-contract-never-cached-always-live-always-provenance">The resolve contract — never cached, always live, always provenance<a class="headerlink" href="#the-resolve-contract-never-cached-always-live-always-provenance" title="Anchor link to this section">&para;</a></h2>
+<h2 id="the-resolve-contract-never-cached-always-live-always-provenance">The resolve contract  --  never cached, always live, always provenance<a class="headerlink" href="#the-resolve-contract-never-cached-always-live-always-provenance" title="Anchor link to this section">&para;</a></h2>
 <p>When the user asks "what's our MRR?":</p>
 <ol>
 <li>Look up the spec by key</li>
 <li>Parse the expression DSL</li>
 <li>For each source call in the expression, dispatch the matching connector tool</li>
 <li>Aggregate per the expression</li>
-<li>Evaluate <code>cross_source_checks</code> — fire each comparison spec, compare to the primary result, flag drift if outside tolerance</li>
+<li>Evaluate <code>cross_source_checks</code>  --  fire each comparison spec, compare to the primary result, flag drift if outside tolerance</li>
 <li>Return:</li>
-<li><code>value</code> — the canonical number</li>
-<li><code>unit</code> — <code>USD</code> / <code>count</code> / etc.</li>
-<li><code>provenance_footer</code> — a one-line human-readable summary (spec version, source calls, drift status, warnings) you MUST surface verbatim at the end of your answer</li>
-<li><code>drift</code> — populated when cross_source_checks disagree past tolerance; carries both values and a <code>hypothesis</code> field</li>
-<li><code>validation_warnings</code> — any parse failures, missing cross-checks, non-numeric diffs, you MUST surface inline</li>
+<li><code>value</code>  --  the canonical number</li>
+<li><code>unit</code>  --  <code>USD</code> / <code>count</code> / etc.</li>
+<li><code>provenance_footer</code>  --  a one-line human-readable summary (spec version, source calls, drift status, warnings) you MUST surface verbatim at the end of your answer</li>
+<li><code>drift</code>  --  populated when cross_source_checks disagree past tolerance; carries both values and a <code>hypothesis</code> field</li>
+<li><code>validation_warnings</code>  --  any parse failures, missing cross-checks, non-numeric diffs, you MUST surface inline</li>
 </ol>
-<p>The user should be able to see, in every answer, exactly which spec version produced the number and which source calls were dispatched. <strong>No caching, ever</strong> — a stale number is worse than a slow one.</p>
+<p>The user should be able to see, in every answer, exactly which spec version produced the number and which source calls were dispatched. <strong>No caching, ever</strong>  --  a stale number is worse than a slow one.</p>
 <h2 id="drift-as-a-feature">Drift as a feature<a class="headerlink" href="#drift-as-a-feature" title="Anchor link to this section">&para;</a></h2>
 <p><code>metric_spec_drift_report</code> walks every spec with a non-empty <code>cross_source_checks</code>, resolves each one and its comparison, and returns ONLY the specs where the two values disagree beyond <code>tolerance_percent</code>. The "what's silently disagreeing in my numbers" dashboard.</p>
-<p>An empty list is the green signal — everything is within tolerance. Not an error.</p>
+<p>An empty list is the green signal  --  everything is within tolerance. Not an error.</p>
 <p>When drift IS reported, the response surfaces both values, the comparison spec, and the <code>hypothesis</code> field if present. Drift is not a bug; it's a signal that the truth-source story has degraded and someone needs to look. Hiding it (returning one number when two systems disagree) is the failure mode.</p>
 <h2 id="the-mini-dsl-grammar">The mini-DSL grammar<a class="headerlink" href="#the-mini-dsl-grammar" title="Anchor link to this section">&para;</a></h2>
 <p>The expression syntax is the core surface. Minimum viable shape:</p>
@@ -7816,13 +7816,13 @@
 <div class="highlight"><pre><span></span><code>stripe.list_subscriptions(status=&quot;active&quot;).aggregate(sum, field=plan.amount)
 </code></pre></div>
 <p>The DSL parses to a typed AST. The resolver compiles each <code>&lt;source&gt;.&lt;method&gt;(&lt;args&gt;)</code> to a real MCP connector tool call (<code>stripe.list_subscriptions</code> → the <code>list_subscriptions</code> tool on the stripe connector). The aggregate operation runs in the resolver.</p>
-<p>Soft eval gate: a spec whose expression fails to parse is still saved, but the resolver emits <code>validation_warnings</code> every time it tries to resolve. The warnings show in the user's answer. Don't reject at write time — the user might be drafting an expression they'll fix later, and rejecting forces them to throw away the description text they wrote. Soft gate at read time is the right discipline.</p>
+<p>Soft eval gate: a spec whose expression fails to parse is still saved, but the resolver emits <code>validation_warnings</code> every time it tries to resolve. The warnings show in the user's answer. Don't reject at write time  --  the user might be drafting an expression they'll fix later, and rejecting forces them to throw away the description text they wrote. Soft gate at read time is the right discipline.</p>
 <h2 id="pending-write-semantics-constitutional">Pending-write semantics (constitutional)<a class="headerlink" href="#pending-write-semantics-constitutional" title="Anchor link to this section">&para;</a></h2>
 <p>Saves do NOT happen immediately. <code>metric_spec_set</code> returns a <code>pending_write_id</code>. The user must explicitly confirm (<code>canonical_pending_commit</code>) before the spec lands. Never silently save inferred or guessed specs.</p>
 <p>Same for delete (<code>metric_spec_remove</code>). Pending-write IDs are session-scoped and expire if unconfirmed.</p>
 <p>This is the never-silently-modify-canonical rule. The metric spec is a canonical-layer entity; modifying it without explicit user consent breaks the trust contract the registry's existence depends on.</p>
 <h2 id="connector-dispatch-boundary">Connector dispatch boundary<a class="headerlink" href="#connector-dispatch-boundary" title="Anchor link to this section">&para;</a></h2>
-<p>In a v0 implementation, the resolver supports a small fixed set of connectors (Stripe + Shopify is a sensible starting pair — recurring revenue + ecommerce revenue are the two sources users want to compare against each other for MRR/AOV).</p>
+<p>In a v0 implementation, the resolver supports a small fixed set of connectors (Stripe + Shopify is a sensible starting pair  --  recurring revenue + ecommerce revenue are the two sources users want to compare against each other for MRR/AOV).</p>
 <p>Expanding the supported set is straightforward but each new connector needs:</p>
 <ul>
 <li>A DSL grammar entry mapping <code>&lt;source&gt;.&lt;method&gt;</code> → the underlying tool call</li>
@@ -7830,7 +7830,7 @@
 <li>A test fixture asserting the resolver returns the right number for a known input</li>
 </ul>
 <p>Resist the temptation to expand the set in the same PR that ships the registry. The substrate is the lift; the connector additions are increments.</p>
-<h2 id="lockstep-test-protect-the-renderer">Lockstep test — protect the renderer<a class="headerlink" href="#lockstep-test-protect-the-renderer" title="Anchor link to this section">&para;</a></h2>
+<h2 id="lockstep-test-protect-the-renderer">Lockstep test  --  protect the renderer<a class="headerlink" href="#lockstep-test-protect-the-renderer" title="Anchor link to this section">&para;</a></h2>
 <p>The provenance footer is rendered by your response formatter. If your MCP server has dual render paths (one for raw HTTP, one for ChatGPT mega-tool), the footer string lives in both. See <a href="../mcp-architecture/#dual-render-path-trap-serverpy-vs-chatgpt-app">mcp-architecture</a> for the dual-render-path pattern and the lockstep equality test.</p>
 <p>Without a lockstep test, the next refactor will rendering-drift the provenance footer between paths, and customers will see different "powered by spec v3" footers on different clients. Tiny user-visible bug, hard to diagnose.</p>
 <h2 id="when-this-pattern-fits">When this pattern fits<a class="headerlink" href="#when-this-pattern-fits" title="Anchor link to this section">&para;</a></h2>
@@ -7844,16 +7844,16 @@
 <p>You don't want it when:</p>
 <ul>
 <li>Single source of truth exists and is trusted (just use that source)</li>
-<li>The metric is purely operational (memory usage, cron status) — those don't need canonical resolution</li>
+<li>The metric is purely operational (memory usage, cron status)  --  those don't need canonical resolution</li>
 <li>The user prefers fast/cached numbers over right ones (rare in B2B finance, common in operational dashboards)</li>
 </ul>
 <h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="../consultant-connector-audit/#96-parallel-code-path-trap-refactor-missed-sibling">consultant-connector-audit §9.6</a> — the dual-render-path trap the registry's renderer is vulnerable to</li>
-<li><a href="../mcp-architecture/">mcp-architecture</a> — the substrate the registry assumes you have</li>
+<li><a href="../consultant-connector-audit/#96-parallel-code-path-trap-refactor-missed-sibling">consultant-connector-audit §9.6</a>  --  the dual-render-path trap the registry's renderer is vulnerable to</li>
+<li><a href="../mcp-architecture/">mcp-architecture</a>  --  the substrate the registry assumes you have</li>
 </ul>
-<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

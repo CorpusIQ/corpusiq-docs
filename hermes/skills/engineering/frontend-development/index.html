@@ -7595,7 +7595,7 @@
   <a href="#deploy-verification-the-marketing-site-specific-check" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Deploy verification — the marketing-site-specific check
+        Deploy verification -- the marketing-site-specific check
       
     </span>
   </a>
@@ -7639,7 +7639,7 @@
   <a href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Part of the Hermes Skills Library — 133+ agent skills. Built by CorpusIQ.
+        Part of the Hermes Skills Library -- 133+ agent skills. Built by CorpusIQ.
       
     </span>
   </a>
@@ -7670,14 +7670,14 @@
 <p>When a single Next.js repo serves BOTH the public marketing site (<code>www.&lt;domain&gt;/*</code>) AND the authenticated customer dashboard (<code>/dashboard/*</code>), the discipline shifts compared to either alone. This skill covers the patterns that bite once you have both surfaces in one codebase.</p>
 <h2 id="the-single-repo-two-surface-architecture">The single-repo, two-surface architecture<a class="headerlink" href="#the-single-repo-two-surface-architecture" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Marketing routes: <code>/</code>, <code>/pricing</code>, <code>/connectors</code>, <code>/blog</code>, etc. — public, SEO-critical, indexed by Google</li>
-<li>Dashboard routes: <code>/dashboard/*</code> — authenticated, behind a session cookie, the actual product UX</li>
-<li>The BFF layer (<code>/api/*</code> Next.js routes) wraps your backend API and handles cookie-based session state — the API itself never sets cookies, the frontend does</li>
-<li>Vercel auto-deploys every push to main — one push, both surfaces redeploy</li>
+<li>Marketing routes: <code>/</code>, <code>/pricing</code>, <code>/connectors</code>, <code>/blog</code>, etc.  --  public, SEO-critical, indexed by Google</li>
+<li>Dashboard routes: <code>/dashboard/*</code>  --  authenticated, behind a session cookie, the actual product UX</li>
+<li>The BFF layer (<code>/api/*</code> Next.js routes) wraps your backend API and handles cookie-based session state  --  the API itself never sets cookies, the frontend does</li>
+<li>Vercel auto-deploys every push to main  --  one push, both surfaces redeploy</li>
 </ul>
 <p>The trap: a copy-edit to a pricing page on the marketing side and a UX change to the dashboard land in the same Vercel deploy. If either breaks, both go down. Watch deploy status after EVERY push, not just dashboard PRs.</p>
 <h2 id="the-canonical-constant-rule">The canonical-constant rule<a class="headerlink" href="#the-canonical-constant-rule" title="Anchor link to this section">&para;</a></h2>
-<p>A real failure mode: someone added a connector to the connector substrate, also added it to the dashboard's connector list (good), but the marketing site's <code>/connectors</code> page is generated from a separate constant file (bad). Customers visit the marketing page, see the connector listed, try to connect from the dashboard — and the dashboard shows it as Connected (because the marketing page wasn't the source of truth). Or worse, the marketing page does NOT show the connector, customers don't know it exists, the dashboard offers it but nobody knows.</p>
+<p>A real failure mode: someone added a connector to the connector substrate, also added it to the dashboard's connector list (good), but the marketing site's <code>/connectors</code> page is generated from a separate constant file (bad). Customers visit the marketing page, see the connector listed, try to connect from the dashboard  --  and the dashboard shows it as Connected (because the marketing page wasn't the source of truth). Or worse, the marketing page does NOT show the connector, customers don't know it exists, the dashboard offers it but nobody knows.</p>
 <p><strong>The rule:</strong> any value that appears on BOTH surfaces (connector count, pricing, feature lists, plan tiers) has exactly ONE source of truth, imported by both surfaces. If you find yourself updating the same string in two files, you've found a canonical-constant violation.</p>
 <p>Audit pattern: grep your repo for the value before changing it, confirm it appears in only one place.</p>
 <h2 id="npm-builds-public-writeback-gotcha">npm build's <code>public/</code> writeback gotcha<a class="headerlink" href="#npm-builds-public-writeback-gotcha" title="Anchor link to this section">&para;</a></h2>
@@ -7686,8 +7686,8 @@
 1. Add the generated files to <code>.gitignore</code> and regenerate on deploy (preferred)
 2. Build into a separate directory, copy to <code>public/</code> only in CI
 3. If they MUST be committed, run the build once after every change and commit the artifact along with the source</p>
-<p>The third option drifts silently — the build's output and the committed artifact eventually diverge and the deployed site shows stale generated content.</p>
-<h2 id="deploy-verification-the-marketing-site-specific-check">Deploy verification — the marketing-site-specific check<a class="headerlink" href="#deploy-verification-the-marketing-site-specific-check" title="Anchor link to this section">&para;</a></h2>
+<p>The third option drifts silently  --  the build's output and the committed artifact eventually diverge and the deployed site shows stale generated content.</p>
+<h2 id="deploy-verification-the-marketing-site-specific-check">Deploy verification  --  the marketing-site-specific check<a class="headerlink" href="#deploy-verification-the-marketing-site-specific-check" title="Anchor link to this section">&para;</a></h2>
 <p>After any push that touches a customer-visible marketing surface (new connector, pricing change, new page):</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># 1. Wait for Vercel to finish (typically 90s-3min)</span>
 <span class="c1"># 2. Fetch the live page directly</span>
@@ -7704,18 +7704,18 @@ curl<span class="w"> </span>-s<span class="w"> </span>https://www.&lt;your-domai
 <h2 id="cross-repo-boundary">Cross-repo boundary<a class="headerlink" href="#cross-repo-boundary" title="Anchor link to this section">&para;</a></h2>
 <p>If your marketing copy lives in this repo but your blog posts, knowledge base, or product docs live in a DIFFERENT repo (common when the docs site is a separate Vercel project), the boundaries:</p>
 <ul>
-<li>Changes to marketing routes (homepage, /pricing, /features) — this repo</li>
-<li>Changes to /blog or /docs — usually the other repo</li>
-<li>Connector listings: depends on the project — some teams put the canonical list in the docs repo and import it here; some put it here and link from docs. Confirm before editing</li>
+<li>Changes to marketing routes (homepage, /pricing, /features)  --  this repo</li>
+<li>Changes to /blog or /docs  --  usually the other repo</li>
+<li>Connector listings: depends on the project  --  some teams put the canonical list in the docs repo and import it here; some put it here and link from docs. Confirm before editing</li>
 </ul>
 <p>When in doubt, grep the deployed page for a unique string and see which repo's git log mentions it most recently.</p>
 <h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="../mcp-architecture/#marketing-site-is-a-separate-repo-verification-trap">mcp-architecture</a> — the MCP-server-side view of the same cross-repo boundary</li>
-<li><a href="../api-development/">api-development</a> — the BFF layer's backend dependency</li>
+<li><a href="../mcp-architecture/#marketing-site-is-a-separate-repo-verification-trap">mcp-architecture</a>  --  the MCP-server-side view of the same cross-repo boundary</li>
+<li><a href="../api-development/">api-development</a>  --  the BFF layer's backend dependency</li>
 </ul>
-<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

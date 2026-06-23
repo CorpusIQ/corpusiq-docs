@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure the Ponytail lazy-senior-dev skill pack for Hermes Agent — YAGNI-first development, over-engineering audits, and tech debt tracking">
+        <meta name="description" content="Install and configure the Ponytail lazy-senior-dev skill pack for Hermes Agent  --  YAGNI-first development, over-engineering audits, and tech debt tracking">
       
       
       
@@ -7596,7 +7596,7 @@
   <a href="#ponytail-lazy-senior-dev-mode" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ponytail — Lazy Senior Dev Mode
+        ponytail -- Lazy Senior Dev Mode
       
     </span>
   </a>
@@ -7607,7 +7607,7 @@
   <a href="#ponytail-review-diff-review" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ponytail-review — Diff Review
+        ponytail-review -- Diff Review
       
     </span>
   </a>
@@ -7618,7 +7618,7 @@
   <a href="#ponytail-audit-whole-repo-audit" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ponytail-audit — Whole-Repo Audit
+        ponytail-audit -- Whole-Repo Audit
       
     </span>
   </a>
@@ -7629,7 +7629,7 @@
   <a href="#ponytail-debt-tech-debt-ledger" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ponytail-debt — Tech Debt Ledger
+        ponytail-debt -- Tech Debt Ledger
       
     </span>
   </a>
@@ -7640,7 +7640,7 @@
   <a href="#ponytail-gain-impact-scoreboard" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ponytail-gain — Impact Scoreboard
+        ponytail-gain -- Impact Scoreboard
       
     </span>
   </a>
@@ -7651,7 +7651,7 @@
   <a href="#ponytail-help-quick-reference" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ponytail-help — Quick Reference
+        ponytail-help -- Quick Reference
       
     </span>
   </a>
@@ -7727,7 +7727,7 @@
   
 
 
-<h1 id="hermes-ponytail-setup-guide">Hermes Ponytail — Setup Guide<a class="headerlink" href="#hermes-ponytail-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="hermes-ponytail-setup-guide">Hermes Ponytail  --  Setup Guide<a class="headerlink" href="#hermes-ponytail-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Ponytail</strong> makes your Hermes agent think like the laziest senior developer. YAGNI-first. Stdlib-first. No unrequested abstractions. The shortest diff that works.</p>
 <p>Packaged as 7 pure <code>SKILL.md</code> skills for Hermes Agent by <a href="https://github.com/tensakulabs/hermes-ponytail">tensakulabs/hermes-ponytail</a>.</p>
 <hr />
@@ -7736,7 +7736,7 @@
 <li><strong>Hermes Agent</strong> installed and running</li>
 <li>Hermes skills CLI (<code>hermes skills install</code>)</li>
 </ul>
-<p>No Python dependencies, no tools, no API keys — these are pure skill files.</p>
+<p>No Python dependencies, no tools, no API keys  --  these are pure skill files.</p>
 <hr />
 <h2 id="2-installation">2. Installation<a class="headerlink" href="#2-installation" title="Anchor link to this section">&para;</a></h2>
 <p>Install all 7 skills at once:</p>
@@ -7751,7 +7751,7 @@ hermes<span class="w"> </span>skills<span class="w"> </span>install<span class="
 <p>Skills land in <code>~/.hermes/skills/</code> and are auto-discovered on the next restart.</p>
 <hr />
 <h2 id="3-skill-reference">3. Skill Reference<a class="headerlink" href="#3-skill-reference" title="Anchor link to this section">&para;</a></h2>
-<h3 id="ponytail-lazy-senior-dev-mode"><code>ponytail</code> — Lazy Senior Dev Mode<a class="headerlink" href="#ponytail-lazy-senior-dev-mode" title="Anchor link to this section">&para;</a></h3>
+<h3 id="ponytail-lazy-senior-dev-mode"><code>ponytail</code>  --  Lazy Senior Dev Mode<a class="headerlink" href="#ponytail-lazy-senior-dev-mode" title="Anchor link to this section">&para;</a></h3>
 <p>Core mindset skill. Activates YAGNI-first thinking:
 - No unrequested abstractions (no factories, no patterns without a problem)
 - Stdlib before dependencies
@@ -7759,34 +7759,34 @@ hermes<span class="w"> </span>skills<span class="w"> </span>install<span class="
 - Delete code before adding code
 - Question every dependency, every abstraction layer</p>
 <p><strong>Load via:</strong> <code>skill_view(name='ponytail')</code></p>
-<h3 id="ponytail-review-diff-review"><code>ponytail-review</code> — Diff Review<a class="headerlink" href="#ponytail-review-diff-review" title="Anchor link to this section">&para;</a></h3>
+<h3 id="ponytail-review-diff-review"><code>ponytail-review</code>  --  Diff Review<a class="headerlink" href="#ponytail-review-diff-review" title="Anchor link to this section">&para;</a></h3>
 <p>Review any diff for over-engineering. Output: one line per thing to delete, one line per thing to simplify.</p>
 <p><strong>Usage:</strong> Load before reviewing PRs or when asked to review code.</p>
-<h3 id="ponytail-audit-whole-repo-audit"><code>ponytail-audit</code> — Whole-Repo Audit<a class="headerlink" href="#ponytail-audit-whole-repo-audit" title="Anchor link to this section">&para;</a></h3>
-<p>Systematic audit of the entire repo for over-engineering. Produces a ranked list of what to cut — most impactful simplifications first.</p>
+<h3 id="ponytail-audit-whole-repo-audit"><code>ponytail-audit</code>  --  Whole-Repo Audit<a class="headerlink" href="#ponytail-audit-whole-repo-audit" title="Anchor link to this section">&para;</a></h3>
+<p>Systematic audit of the entire repo for over-engineering. Produces a ranked list of what to cut  --  most impactful simplifications first.</p>
 <p><strong>Usage:</strong> Load when doing architectural health checks or before major refactors.</p>
-<h3 id="ponytail-debt-tech-debt-ledger"><code>ponytail-debt</code> — Tech Debt Ledger<a class="headerlink" href="#ponytail-debt-tech-debt-ledger" title="Anchor link to this section">&para;</a></h3>
+<h3 id="ponytail-debt-tech-debt-ledger"><code>ponytail-debt</code>  --  Tech Debt Ledger<a class="headerlink" href="#ponytail-debt-tech-debt-ledger" title="Anchor link to this section">&para;</a></h3>
 <p>Harvests every <code>ponytail:</code> shortcut comment in the codebase into one tracked debt ledger. Comments like <code># ponytail: this abstraction is premature</code> become tracked items.</p>
 <p><strong>Usage:</strong> Run periodically to maintain visibility of intentional shortcuts and planned simplifications.</p>
-<h3 id="ponytail-gain-impact-scoreboard"><code>ponytail-gain</code> — Impact Scoreboard<a class="headerlink" href="#ponytail-gain-impact-scoreboard" title="Anchor link to this section">&para;</a></h3>
+<h3 id="ponytail-gain-impact-scoreboard"><code>ponytail-gain</code>  --  Impact Scoreboard<a class="headerlink" href="#ponytail-gain-impact-scoreboard" title="Anchor link to this section">&para;</a></h3>
 <p>Measures Ponytail's impact: less code, lower costs, faster builds. Trackable metrics over time.</p>
 <p><strong>Usage:</strong> Load for monthly retrospectives or to demonstrate simplification ROI.</p>
-<h3 id="ponytail-help-quick-reference"><code>ponytail-help</code> — Quick Reference<a class="headerlink" href="#ponytail-help-quick-reference" title="Anchor link to this section">&para;</a></h3>
+<h3 id="ponytail-help-quick-reference"><code>ponytail-help</code>  --  Quick Reference<a class="headerlink" href="#ponytail-help-quick-reference" title="Anchor link to this section">&para;</a></h3>
 <p>One-page reference of all Ponytail modes and skills with one-liner descriptions.</p>
 <hr />
 <h2 id="4-corpusiq-use-cases">4. CorpusIQ Use Cases<a class="headerlink" href="#4-corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Agent skill development</strong> — Use <code>ponytail-review</code> when reviewing new skill SKILL.md files before publishing</li>
-<li><strong>Infrastructure code</strong> — <code>ponytail-audit</code> on the Mac Mini and DGX Spark automation scripts</li>
-<li><strong>Growth ops</strong> — Keep automation scripts minimal; <code>ponytail</code> mindset prevents over-engineered workflows</li>
-<li><strong>Docs management</strong> — Audit the corpusiq-docs repo structure for unnecessary complexity</li>
+<li><strong>Agent skill development</strong>  --  Use <code>ponytail-review</code> when reviewing new skill SKILL.md files before publishing</li>
+<li><strong>Infrastructure code</strong>  --  <code>ponytail-audit</code> on the Mac Mini and DGX Spark automation scripts</li>
+<li><strong>Growth ops</strong>  --  Keep automation scripts minimal; <code>ponytail</code> mindset prevents over-engineered workflows</li>
+<li><strong>Docs management</strong>  --  Audit the corpusiq-docs repo structure for unnecessary complexity</li>
 </ul>
 <hr />
 <h2 id="5-limitations">5. Limitations<a class="headerlink" href="#5-limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>On-demand only</strong> — Hermes skills load when triggered, unlike Claude Code/Codex hooks that run every turn. If you want Ponytail governing <em>every</em> Hermes turn, append the ruleset from <code>ponytail/SKILL.md</code> into Hermes' base system prompt or build it as a Hermes plugin (<code>pre_llm_call</code> hook).</li>
-<li><strong>No code execution</strong> — These are pure behavioral skills. They change how the agent <em>thinks</em>, not what tools it has.</li>
-<li><strong>Not for urgent hotfixes</strong> — Ponytail's simplification-first mindset can slow down emergency patches where speed trumps elegance. Disable or unload for critical incidents.</li>
+<li><strong>On-demand only</strong>  --  Hermes skills load when triggered, unlike Claude Code/Codex hooks that run every turn. If you want Ponytail governing <em>every</em> Hermes turn, append the ruleset from <code>ponytail/SKILL.md</code> into Hermes' base system prompt or build it as a Hermes plugin (<code>pre_llm_call</code> hook).</li>
+<li><strong>No code execution</strong>  --  These are pure behavioral skills. They change how the agent <em>thinks</em>, not what tools it has.</li>
+<li><strong>Not for urgent hotfixes</strong>  --  Ponytail's simplification-first mindset can slow down emergency patches where speed trumps elegance. Disable or unload for critical incidents.</li>
 </ul>
 <hr />
 <h2 id="6-verification">6. Verification<a class="headerlink" href="#6-verification" title="Anchor link to this section">&para;</a></h2>

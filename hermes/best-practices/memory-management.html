@@ -27,7 +27,7 @@
     
     
       
-        <title>Memory Management Best Practices for Hermes Agent — Persistent AI Context - CorpusIQ Docs</title>
+        <title>Memory Management Best Practices for Hermes Agent  --  Persistent AI Context - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Memory Management Best Practices for Hermes Agent — Persistent AI Context
+              Memory Management Best Practices for Hermes Agent  --  Persistent AI Context
             
           </span>
         </div>
@@ -7917,7 +7917,7 @@
   
 
 
-<h1 id="memory-management-best-practices-persistent-ai-agent-context">Memory Management Best Practices — Persistent AI Agent Context<a class="headerlink" href="#memory-management-best-practices-persistent-ai-agent-context" title="Anchor link to this section">&para;</a></h1>
+<h1 id="memory-management-best-practices-persistent-ai-agent-context">Memory Management Best Practices  --  Persistent AI Agent Context<a class="headerlink" href="#memory-management-best-practices-persistent-ai-agent-context" title="Anchor link to this section">&para;</a></h1>
 <p>Memory is what separates a stateless tool from a persistent AI assistant in Hermes Agent. But memory also consumes context, increases latency, and introduces staleness risks. These memory management best practices cover when and how to use each memory tier for optimal agent performance.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <p>Hermes Agent provides a <a href="/hermes/knowledge/">triple-stack memory architecture</a>: <strong>Honcho</strong> for peer identity and preferences, <strong>GBrain</strong> for organizational knowledge indexing, and <strong>memcore-cloud</strong> for cross-session conversation recall. Each solves a different problem, and production deployments run all three.</p>
@@ -8022,17 +8022,17 @@
 </ul>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="whats-the-difference-between-honcho-and-gbrain-memory">What's the difference between Honcho and GBrain memory?<a class="headerlink" href="#whats-the-difference-between-honcho-and-gbrain-memory" title="Anchor link to this section">&para;</a></h3>
-<p>Honcho stores peer identity — who the user is, preferences, decisions, bans. GBrain indexes organizational knowledge — where files are, what code does what, project relationships. They solve different problems and should both be used in production.</p>
+<p>Honcho stores peer identity  --  who the user is, preferences, decisions, bans. GBrain indexes organizational knowledge  --  where files are, what code does what, project relationships. They solve different problems and should both be used in production.</p>
 <h3 id="how-do-i-prevent-my-hermes-agent-memory-from-getting-stale">How do I prevent my Hermes Agent memory from getting stale?<a class="headerlink" href="#how-do-i-prevent-my-hermes-agent-memory-from-getting-stale" title="Anchor link to this section">&para;</a></h3>
 <p>Prune memories periodically (monthly review), add expiration to project-specific memories, audit for contradictions, and use the dream cycle (nightly consolidation) to merge duplicates and strengthen frequently accessed paths.</p>
 <h3 id="can-i-use-just-one-memory-system">Can I use just one memory system?<a class="headerlink" href="#can-i-use-just-one-memory-system" title="Anchor link to this section">&para;</a></h3>
 <p>You can, but you'll have gaps. <a href="/hermes/knowledge/">Honcho only</a> handles peer modeling but not file indexing. <a href="/hermes/knowledge/">GBrain only</a> handles code/docs but not "who is the user?". Run the full triple stack for complete agent memory.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/knowledge/">Memory Architecture Guide</a> — Full triple-stack documentation</li>
-<li><a href="/hermes/best-practices/">Best Practices Overview</a> — All guides</li>
-<li><a href="security.html">Security</a> — Don't store credentials in memory</li>
-<li><a href="skill-development.html">Skill Development</a> — Procedural knowledge vs memory</li>
+<li><a href="/hermes/knowledge/">Memory Architecture Guide</a>  --  Full triple-stack documentation</li>
+<li><a href="/hermes/best-practices/">Best Practices Overview</a>  --  All guides</li>
+<li><a href="security.html">Security</a>  --  Don't store credentials in memory</li>
+<li><a href="skill-development.html">Skill Development</a>  --  Procedural knowledge vs memory</li>
 </ul>
 <hr />
 <p>*</p>

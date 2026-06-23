@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Help-first community engagement strategy — platform-specific approaches, response patterns, sentiment detection, and measurement">
+        <meta name="description" content="Help-first community engagement strategy  --  platform-specific approaches, response patterns, sentiment detection, and measurement">
       
       
       
@@ -7846,7 +7846,7 @@
 
 
 <h1 id="community-engagement-automation">Community Engagement Automation<a class="headerlink" href="#community-engagement-automation" title="Anchor link to this section">&para;</a></h1>
-<p>Community engagement is the difference between broadcasting into a void and building an audience that trusts you. But genuine engagement at scale requires systems that can listen, classify, respond, and escalate — without sounding like a bot.</p>
+<p>Community engagement is the difference between broadcasting into a void and building an audience that trusts you. But genuine engagement at scale requires systems that can listen, classify, respond, and escalate  --  without sounding like a bot.</p>
 <p>This guide covers building an automated community engagement system with Hermes: help-first strategy, platform-specific response patterns, sentiment detection, escalation rules, and measurement frameworks.</p>
 <h2 id="the-help-first-strategy">The Help-First Strategy<a class="headerlink" href="#the-help-first-strategy" title="Anchor link to this section">&para;</a></h2>
 <p>Every community interaction falls on a spectrum:</p>
@@ -7854,7 +7854,7 @@
    ↑              ↑                ↑                ↑
   Spam         Common Qs       Complex Qs        Crisis/Sensitive
 </code></pre></div>
-<p>The help-first strategy means: when in doubt, be helpful. An imperfect helpful response beats a perfect silence. But "being helpful" doesn't mean answering everything — it means routing correctly.</p>
+<p>The help-first strategy means: when in doubt, be helpful. An imperfect helpful response beats a perfect silence. But "being helpful" doesn't mean answering everything  --  it means routing correctly.</p>
 <h3 id="decision-framework">Decision Framework<a class="headerlink" href="#decision-framework" title="Anchor link to this section">&para;</a></h3>
 <p>For every inbound message, ask three questions:</p>
 <ol>
@@ -7960,7 +7960,7 @@
     <span class="p">)</span>
 
     <span class="k">if</span> <span class="ow">not</span> <span class="n">results</span><span class="p">:</span>
-        <span class="c1"># Can&#39;t answer confidently — escalate</span>
+        <span class="c1"># Can&#39;t answer confidently  --  escalate</span>
         <span class="k">return</span> <span class="n">escalate_to_support</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
 
     <span class="c1"># Generate a helpful, human-sounding response</span>
@@ -8038,7 +8038,7 @@
     <span class="p">}</span>
 </code></pre></div>
 <h3 id="conversation-engagement">Conversation Engagement<a class="headerlink" href="#conversation-engagement" title="Anchor link to this section">&para;</a></h3>
-<p>Not every message needs a solution — some just need engagement:</p>
+<p>Not every message needs a solution  --  some just need engagement:</p>
 <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">engage_conversation</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">context</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Engage with general conversation naturally.&quot;&quot;&quot;</span>
 
@@ -8048,7 +8048,7 @@
 
 <span class="s2">            Guidelines:</span>
 <span class="s2">            - Be genuinely interested and engaging</span>
-<span class="s2">            - Add value — insight, humor, or a useful question</span>
+<span class="s2">            - Add value  --  insight, humor, or a useful question</span>
 <span class="s2">            - Keep it brief (2-3 sentences typically)</span>
 <span class="s2">            - Match the tone of the community</span>
 <span class="s2">            - Never be argumentative or dismissive</span>
@@ -8087,7 +8087,7 @@
 <strong>Response style:</strong> Concise, timely, authentic.
 <strong>Best practices:</strong>
 - Respond within 1-2 hours (the platform moves fast)
-- Be concise — threads are for depth, replies are for engagement
+- Be concise  --  threads are for depth, replies are for engagement
 - Authenticity matters more than polish
 - Don't engage with obvious trolls
 - Quote-tweet for adding substantial commentary</p>
@@ -8103,7 +8103,7 @@
 <strong>Response style:</strong> Thorough, transparent, helpful.
 <strong>Best practices:</strong>
 - Disclose affiliation transparently
-- Provide genuine value — tutorials, explanations, data
+- Provide genuine value  --  tutorials, explanations, data
 - Never astroturf or use fake accounts
 - Accept criticism gracefully
 - Follow subreddit rules meticulously
@@ -8196,7 +8196,7 @@
 <span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Escalate</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">leadership,</span><span class="nv"> </span><span class="s">pause</span><span class="nv"> </span><span class="s">scheduled</span><span class="nv"> </span><span class="s">posts,</span><span class="nv"> </span><span class="s">investigate&quot;</span>
 <span class="w">  </span><span class="nt">topic_emergence</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">threshold</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;New</span><span class="nv"> </span><span class="s">topic</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">&gt;10</span><span class="nv"> </span><span class="s">mentions</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">&gt;50%</span><span class="nv"> </span><span class="s">negative&quot;</span>
-<span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Investigate</span><span class="nv"> </span><span class="s">immediately</span><span class="nv"> </span><span class="s">—</span><span class="nv"> </span><span class="s">may</span><span class="nv"> </span><span class="s">indicate</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">product</span><span class="nv"> </span><span class="s">issue&quot;</span>
+<span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Investigate</span><span class="nv"> </span><span class="s">immediately</span><span class="nv">  </span><span class="s">--</span><span class="nv">  </span><span class="s">may</span><span class="nv"> </span><span class="s">indicate</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">product</span><span class="nv"> </span><span class="s">issue&quot;</span>
 </code></pre></div>
 <h2 id="measurement-framework">Measurement Framework<a class="headerlink" href="#measurement-framework" title="Anchor link to this section">&para;</a></h2>
 <h3 id="key-metrics">Key Metrics<a class="headerlink" href="#key-metrics" title="Anchor link to this section">&para;</a></h3>

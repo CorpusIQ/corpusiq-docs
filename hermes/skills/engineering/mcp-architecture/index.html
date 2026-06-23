@@ -7562,7 +7562,7 @@
   <a href="#endpoint-topology-there-are-usually-only-two-backends" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Endpoint topology — there are usually only TWO backends
+        Endpoint topology -- there are usually only TWO backends
       
     </span>
   </a>
@@ -7711,7 +7711,7 @@
   <a href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Part of the Hermes Skills Library — 133+ agent skills. Built by CorpusIQ.
+        Part of the Hermes Skills Library -- 133+ agent skills. Built by CorpusIQ.
       
     </span>
   </a>
@@ -7738,10 +7738,10 @@
   
 
 
-<h1 id="mcp-architecture-operating-scale-orientation">MCP Architecture — operating-scale orientation<a class="headerlink" href="#mcp-architecture-operating-scale-orientation" title="Anchor link to this section">&para;</a></h1>
+<h1 id="mcp-architecture-operating-scale-orientation">MCP Architecture  --  operating-scale orientation<a class="headerlink" href="#mcp-architecture-operating-scale-orientation" title="Anchor link to this section">&para;</a></h1>
 <p>A skill for the team building and maintaining an MCP (Model Context Protocol) server with 37+ connectors, multiple client paths (stdio, raw HTTP, ChatGPT mega-tool), and the operational discipline that comes with serving real customer traffic through it.</p>
-<p>This is not "how MCP works" — that's covered by Anthropic's MCP docs. This is "how to keep a customer-facing MCP server from rotting in 50,000+ lines."</p>
-<h2 id="endpoint-topology-there-are-usually-only-two-backends">Endpoint topology — there are usually only TWO backends<a class="headerlink" href="#endpoint-topology-there-are-usually-only-two-backends" title="Anchor link to this section">&para;</a></h2>
+<p>This is not "how MCP works"  --  that's covered by Anthropic's MCP docs. This is "how to keep a customer-facing MCP server from rotting in 50,000+ lines."</p>
+<h2 id="endpoint-topology-there-are-usually-only-two-backends">Endpoint topology  --  there are usually only TWO backends<a class="headerlink" href="#endpoint-topology-there-are-usually-only-two-backends" title="Anchor link to this section">&para;</a></h2>
 <p>Most multi-environment MCP deployments have <strong>exactly two distinct backends</strong> (dev + prod), but often <strong>three+ hostnames</strong> resolve to them because:</p>
 <ul>
 <li>ChatGPT app submissions pin a hostname at approval time; rather than re-submit/re-verify, the team aliases the old hostname to prod</li>
@@ -7749,8 +7749,8 @@
 </ul>
 <p>Get this wrong in customer/exec comms and you'll claim "deployed to three environments" when you actually mean two. The lesson came from a misframed announcement email.</p>
 <p><strong>Implications:</strong>
-- For customer/exec comms — use two-environment framing: "dev (<code>mcp-dev</code>) and prod (<code>mcp</code>)." Never describe an alias as "legacy dev" or imply it's separate
-- For verification — probing a hostname and its alias returns identical results by design. Listing them as separate verifications is redundant noise, not extra coverage. Verify against the canonical dev hostname for dev, canonical prod hostname for prod, full stop</p>
+- For customer/exec comms  --  use two-environment framing: "dev (<code>mcp-dev</code>) and prod (<code>mcp</code>)." Never describe an alias as "legacy dev" or imply it's separate
+- For verification  --  probing a hostname and its alias returns identical results by design. Listing them as separate verifications is redundant noise, not extra coverage. Verify against the canonical dev hostname for dev, canonical prod hostname for prod, full stop</p>
 <h2 id="the-per-connector-triplet">The per-connector triplet<a class="headerlink" href="#the-per-connector-triplet" title="Anchor link to this section">&para;</a></h2>
 <p>For every connector you maintain, you have (at minimum) three files:</p>
 <div class="highlight"><pre><span></span><code>auth/&lt;connector&gt;_auth.py              # OAuth or credential paste, TokenManager
@@ -7762,7 +7762,7 @@ secure_workspace_mcp/tools/&lt;connector&gt;_tools.py   # Tool() schemas
 <h2 id="credential-paste-connectors-path-a">Credential-paste connectors (Path A)<a class="headerlink" href="#credential-paste-connectors-path-a" title="Anchor link to this section">&para;</a></h2>
 <p>For OAuth connectors (HubSpot, QuickBooks, Shopify, etc.) the OAuth flow handles the connection UX. For credential-paste connectors (Stripe, Semrush, GunBroker, API-key databases, BYOK), <strong>the credential-store methods on your server class are NOT enough.</strong> You must also register HTTP routes in both API files so the user can actually hit a setup form.</p>
 <h3 id="the-failure-mode-this-prevents">The failure mode this prevents<a class="headerlink" href="#the-failure-mode-this-prevents" title="Anchor link to this section">&para;</a></h3>
-<p>Real bug: a Phase 1 PR shipped a full credential-paste connector (adapter + auth + tools + 4 server-class credential methods + error payload pointing users to <code>/api/v1/&lt;x&gt;/connect</code>)... but <strong>zero HTTP routes were registered.</strong> User clicks Connect → 404 Not Found. The credential-store methods were orphaned in Python — callable from the codebase, invisible over HTTP. Lived in production for a month.</p>
+<p>Real bug: a Phase 1 PR shipped a full credential-paste connector (adapter + auth + tools + 4 server-class credential methods + error payload pointing users to <code>/api/v1/&lt;x&gt;/connect</code>)... but <strong>zero HTTP routes were registered.</strong> User clicks Connect → 404 Not Found. The credential-store methods were orphaned in Python  --  callable from the codebase, invisible over HTTP. Lived in production for a month.</p>
 <h3 id="the-required-routes">The required routes<a class="headerlink" href="#the-required-routes" title="Anchor link to this section">&para;</a></h3>
 <p>Mirror an existing credential-paste connector's route block. For our pattern, that's 5 routes per API file:</p>
 <div class="highlight"><pre><span></span><code>GET    /api/v1/&lt;x&gt;/connection   → get_&lt;x&gt;_connection      (masked status JSON)
@@ -7783,7 +7783,7 @@ grep<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;/ap
 grep<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;async def \(get\|set\|delete\)_&lt;name&gt;_\|async def get_&lt;name&gt;_connect_help&quot;</span><span class="w"> </span>api/rest_api.py
 grep<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;async def \(get\|set\|delete\)_&lt;name&gt;_\|async def get_&lt;name&gt;_connect_help&quot;</span><span class="w"> </span>api/custom_app_api.py
 </code></pre></div>
-<p>If any count comes back zero or low, you've shipped an orphaned credential store. The connector-status response will still cheerfully tell users where to connect — but the URL will 404.</p>
+<p>If any count comes back zero or low, you've shipped an orphaned credential store. The connector-status response will still cheerfully tell users where to connect  --  but the URL will 404.</p>
 <h2 id="dual-render-path-trap-serverpy-vs-chatgpt-app">Dual-render-path trap (server.py vs ChatGPT app)<a class="headerlink" href="#dual-render-path-trap-serverpy-vs-chatgpt-app" title="Anchor link to this section">&para;</a></h2>
 <p>Symptom: a feature ships, CI green, dev deploy green, you smoke against the deployed surface and the new behavior is <strong>missing</strong> from the response.</p>
 <p>Pattern: many MCP servers serving both raw <code>tools/list</code> clients (Claude desktop, stdio, raw HTTP) AND ChatGPT mega-tool clients have two render paths for response wrapping:</p>
@@ -7837,7 +7837,7 @@ grep<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;asy
 <tr>
 <td><strong>Few cross-cutting sites with reasoning</strong></td>
 <td>Changes that touch 2-5 sites, each requiring understanding of context</td>
-<td>Surgical hand-patches. Never delegate — subagent iteration cap kicks in before they finish reasoning across all sites</td>
+<td>Surgical hand-patches. Never delegate  --  subagent iteration cap kicks in before they finish reasoning across all sites</td>
 </tr>
 <tr>
 <td><strong>15+ mechanical mirror-edits</strong></td>
@@ -7846,24 +7846,24 @@ grep<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;asy
 </tr>
 </tbody>
 </table>
-<p>The regex-transformer-then-stage pattern is the highest-leverage of the three. Cost ~5 minutes to write the transformer, cost ~30 seconds to review the diff, ships 15+ sites with zero hand-edits and zero risk of "I missed one." The trap: comments that look like code can match too — always preview the diff before applying.</p>
+<p>The regex-transformer-then-stage pattern is the highest-leverage of the three. Cost ~5 minutes to write the transformer, cost ~30 seconds to review the diff, ships 15+ sites with zero hand-edits and zero risk of "I missed one." The trap: comments that look like code can match too  --  always preview the diff before applying.</p>
 <h2 id="local-lint-discipline-matters-more-than-youd-think">Local lint discipline (matters more than you'd think)<a class="headerlink" href="#local-lint-discipline-matters-more-than-youd-think" title="Anchor link to this section">&para;</a></h2>
 <p>If your CI runs <code>black --target-version py311</code> and <code>flake8 --jobs=1</code>, the local equivalents matter:</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># MUST match CI&#39;s target version — local Python 3.14 black formats differently</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># MUST match CI&#39;s target version  --  local Python 3.14 black formats differently</span>
 .venv/bin/python<span class="w"> </span>-m<span class="w"> </span>black<span class="w"> </span>--target-version<span class="w"> </span>py311<span class="w"> </span>&lt;file&gt;
 
 <span class="c1"># MUST run with --jobs=1 on files like server.py (Python 3.14 has a recursion issue</span>
 <span class="c1"># with the default parallel flake8 on 50k+ LOC files)</span>
 .venv/bin/python<span class="w"> </span>-m<span class="w"> </span>flake8<span class="w"> </span>--jobs<span class="o">=</span><span class="m">1</span><span class="w"> </span>&lt;file&gt;
 </code></pre></div>
-<p>If CI's Black step fails, CI's Flake8 step skips — so a <code># noqa</code> you added and a Black mismatch you missed can both bite at once and you'll only see the Black failure.</p>
+<p>If CI's Black step fails, CI's Flake8 step skips  --  so a <code># noqa</code> you added and a Black mismatch you missed can both bite at once and you'll only see the Black failure.</p>
 <h2 id="branch-protection-deploy-discipline">Branch protection + deploy discipline<a class="headerlink" href="#branch-protection-deploy-discipline" title="Anchor link to this section">&para;</a></h2>
 <p>If you have branch protection requiring PRs to both your Development and main branches:</p>
 <ul>
 <li>Push to <code>Development</code> → CI fires dev deploy to dev hostname</li>
 <li>Push to <code>main</code> → CI fires prod deploy to prod hostname (most workflows watch only main)</li>
-<li>Use the §12 release-promotion pattern from <a href="../consultant-connector-audit/#12-release-promotion-prs-must-cut-from-origin-not-local">consultant-connector-audit</a> for Dev → main promotions — cut from <code>origin/Development</code>, never from local Development</li>
-<li>After deploy, verify the deployed image's bytes match what you intended to ship (<code>git show &lt;deploy_sha&gt;:&lt;file&gt;</code> vs <code>git show HEAD:&lt;file&gt;</code>) — the image-SHA-to-bytes check catches both the stale-local trap AND the rarer case where the deploy step itself shipped a stale build artifact</li>
+<li>Use the §12 release-promotion pattern from <a href="../consultant-connector-audit/#12-release-promotion-prs-must-cut-from-origin-not-local">consultant-connector-audit</a> for Dev → main promotions  --  cut from <code>origin/Development</code>, never from local Development</li>
+<li>After deploy, verify the deployed image's bytes match what you intended to ship (<code>git show &lt;deploy_sha&gt;:&lt;file&gt;</code> vs <code>git show HEAD:&lt;file&gt;</code>)  --  the image-SHA-to-bytes check catches both the stale-local trap AND the rarer case where the deploy step itself shipped a stale build artifact</li>
 </ul>
 <h2 id="marketing-site-is-a-separate-repo-verification-trap">Marketing site is a separate repo (verification trap)<a class="headerlink" href="#marketing-site-is-a-separate-repo-verification-trap" title="Anchor link to this section">&para;</a></h2>
 <p>If your marketing site (homepage, connector list, docs) lives in a separate repo from your MCP server, MCP ship cycles do NOT update the marketing site. After merging an MCP change that touches a customer-visible surface (new connector, renamed tool, new endpoint), verify the marketing site directly:</p>
@@ -7871,11 +7871,11 @@ grep<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;asy
 </code></pre></div>
 <p>Symptom of failing this: a customer reads the marketing site, sees the old surface, tries the new one, hits "connector not found." You shipped the MCP change but the marketing site is wrong.</p>
 <h2 id="reference-material">Reference material<a class="headerlink" href="#reference-material" title="Anchor link to this section">&para;</a></h2>
-<p>The substantive pitfalls from the source skill — each one earned the hard way — covered as separate sections in this Hermes Hub:</p>
+<p>The substantive pitfalls from the source skill  --  each one earned the hard way  --  covered as separate sections in this Hermes Hub:</p>
 <ul>
-<li><a href="../consultant-connector-audit/">consultant-connector-audit</a> — the audit checklist that catches what this skill describes how to prevent</li>
-<li><a href="../api-development/">api-development</a> — Cloud Run + database backend patterns when your MCP server has a sibling FastAPI surface</li>
-<li><a href="../scheduled-jobs/">scheduled-jobs</a> — cron operating manual for the agent that operates the MCP server</li>
+<li><a href="../consultant-connector-audit/">consultant-connector-audit</a>  --  the audit checklist that catches what this skill describes how to prevent</li>
+<li><a href="../api-development/">api-development</a>  --  Cloud Run + database backend patterns when your MCP server has a sibling FastAPI surface</li>
+<li><a href="../scheduled-jobs/">scheduled-jobs</a>  --  cron operating manual for the agent that operates the MCP server</li>
 </ul>
 <h2 id="when-to-load-this-skill">When to load this skill<a class="headerlink" href="#when-to-load-this-skill" title="Anchor link to this section">&para;</a></h2>
 <ul>
@@ -7884,11 +7884,11 @@ grep<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;asy
 <li>A consultant submitted a connector PR and you're about to merge</li>
 <li>Hit a "feature works in dev but missing in prod" symptom</li>
 <li>About to do a Dev → main promotion</li>
-<li>Customer reports a tool returns the wrong shape — but your tests are green</li>
+<li>Customer reports a tool returns the wrong shape  --  but your tests are green</li>
 </ul>
 <p>If you're just running existing tools, you don't need this skill loaded.</p>
-<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

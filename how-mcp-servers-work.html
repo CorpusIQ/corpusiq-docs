@@ -1479,7 +1479,7 @@
   <a href="#part-of-the-mcp-knowledge-base-at-corpusiqio-connect-37-business-tools-to-ai" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Part of the MCP knowledge base at corpusiq.io — connect 37 business tools to AI.
+        Part of the MCP knowledge base at corpusiq.io -- connect 37 business tools to AI.
       
     </span>
   </a>
@@ -7922,7 +7922,7 @@
   <a href="#part-of-the-mcp-knowledge-base-at-corpusiqio-connect-37-business-tools-to-ai" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Part of the MCP knowledge base at corpusiq.io — connect 37 business tools to AI.
+        Part of the MCP knowledge base at corpusiq.io -- connect 37 business tools to AI.
       
     </span>
   </a>
@@ -7950,13 +7950,13 @@
 
 
 <h1 id="how-do-mcp-servers-work-technical-architecture-protocol-deep-dive">How Do MCP Servers Work? Technical Architecture &amp; Protocol Deep Dive<a class="headerlink" href="#how-do-mcp-servers-work-technical-architecture-protocol-deep-dive" title="Anchor link to this section">&para;</a></h1>
-<p>MCP servers work through a layered architecture that separates transport, messaging, tool discovery, and application logic — each layer solving a specific piece of the AI-to-data puzzle. This technical guide walks through every component of an <strong>MCP server</strong>: from the stdio and HTTP transport mechanisms that move bytes between client and server, to the JSON-RPC 2.0 message format, to the tool discovery system that lets AI models navigate data sources they have never seen before.</p>
+<p>MCP servers work through a layered architecture that separates transport, messaging, tool discovery, and application logic  --  each layer solving a specific piece of the AI-to-data puzzle. This technical guide walks through every component of an <strong>MCP server</strong>: from the stdio and HTTP transport mechanisms that move bytes between client and server, to the JSON-RPC 2.0 message format, to the tool discovery system that lets AI models navigate data sources they have never seen before.</p>
 <h2 id="the-mcp-protocol-stack">The MCP Protocol Stack<a class="headerlink" href="#the-mcp-protocol-stack" title="Anchor link to this section">&para;</a></h2>
 <p>MCP is built on a layered architecture that separates concerns cleanly:</p>
-<p><strong>Layer 1: Transport</strong> — How bytes move between client and server. MCP supports two transport mechanisms: stdio (standard input/output for subprocess communication) and HTTP with Server-Sent Events (for networked deployments).</p>
-<p><strong>Layer 2: JSON-RPC 2.0</strong> — The message format. Every MCP message is a JSON-RPC 2.0 request, response, or notification. This is the same remote procedure call protocol used by Ethereum nodes, VS Code's language server protocol, and countless other systems.</p>
-<p><strong>Layer 3: MCP Primitives</strong> — The domain objects. Tools, resources, prompts, and sampling. These are the abstractions that make MCP useful for AI integration rather than just another RPC framework.</p>
-<p><strong>Layer 4: Application Logic</strong> — The actual data connectors. This is where CorpusIQ's 30+ business integrations live — the code that translates MCP tool calls into QuickBooks API requests, Shopify GraphQL queries, or Google Analytics reports.</p>
+<p><strong>Layer 1: Transport</strong>  --  How bytes move between client and server. MCP supports two transport mechanisms: stdio (standard input/output for subprocess communication) and HTTP with Server-Sent Events (for networked deployments).</p>
+<p><strong>Layer 2: JSON-RPC 2.0</strong>  --  The message format. Every MCP message is a JSON-RPC 2.0 request, response, or notification. This is the same remote procedure call protocol used by Ethereum nodes, VS Code's language server protocol, and countless other systems.</p>
+<p><strong>Layer 3: MCP Primitives</strong>  --  The domain objects. Tools, resources, prompts, and sampling. These are the abstractions that make MCP useful for AI integration rather than just another RPC framework.</p>
+<p><strong>Layer 4: Application Logic</strong>  --  The actual data connectors. This is where CorpusIQ's 30+ business integrations live  --  the code that translates MCP tool calls into QuickBooks API requests, Shopify GraphQL queries, or Google Analytics reports.</p>
 <h2 id="transport-layer-in-detail">Transport Layer in Detail<a class="headerlink" href="#transport-layer-in-detail" title="Anchor link to this section">&para;</a></h2>
 <h3 id="stdio-transport">stdio Transport<a class="headerlink" href="#stdio-transport" title="Anchor link to this section">&para;</a></h3>
 <p>In stdio mode, the MCP client launches the MCP server as a child process. All communication flows over stdin and stdout as newline-delimited JSON-RPC messages. The client writes requests to the server's stdin and reads responses from the server's stdout.</p>
@@ -7969,13 +7969,13 @@ MCP Server Process
     | reads JSON-RPC from stdin
 </code></pre></div>
 <p>Advantages of stdio transport:
-- <strong>Simplicity</strong> — no network configuration, no port management, no TLS certificates
-- <strong>Security</strong> — communication never leaves the local machine
-- <strong>Lifecycle management</strong> — when the host exits, the server process exits automatically</p>
+- <strong>Simplicity</strong>  --  no network configuration, no port management, no TLS certificates
+- <strong>Security</strong>  --  communication never leaves the local machine
+- <strong>Lifecycle management</strong>  --  when the host exits, the server process exits automatically</p>
 <p>Limitations:
-- <strong>Single-machine only</strong> — can't distribute across hosts
-- <strong>One client per server</strong> — no connection sharing
-- <strong>Process overhead</strong> — each client connection requires a separate server process</p>
+- <strong>Single-machine only</strong>  --  can't distribute across hosts
+- <strong>One client per server</strong>  --  no connection sharing
+- <strong>Process overhead</strong>  --  each client connection requires a separate server process</p>
 <h3 id="http-transport-with-sse">HTTP Transport with SSE<a class="headerlink" href="#http-transport-with-sse" title="Anchor link to this section">&para;</a></h3>
 <p>In HTTP mode, the MCP server runs as a standalone HTTP service. The client connects over the network and communicates via HTTP POST for requests and Server-Sent Events for streaming responses and server-initiated notifications.</p>
 <div class="highlight"><pre><span></span><code>Client (Host Application)
@@ -7986,9 +7986,9 @@ MCP Server Process
 MCP Server (HTTP Service)
 </code></pre></div>
 <p>Advantages of HTTP transport:
-- <strong>Network accessibility</strong> — clients and servers can run on different machines
-- <strong>Connection sharing</strong> — multiple clients can connect to one server instance
-- <strong>Standard infrastructure</strong> — works with load balancers, reverse proxies, and cloud deployment</p>
+- <strong>Network accessibility</strong>  --  clients and servers can run on different machines
+- <strong>Connection sharing</strong>  --  multiple clients can connect to one server instance
+- <strong>Standard infrastructure</strong>  --  works with load balancers, reverse proxies, and cloud deployment</p>
 <p>CorpusIQ uses HTTP transport for its cloud deployment, enabling thousands of concurrent client connections through standard load-balanced infrastructure.</p>
 <h2 id="the-json-rpc-20-message-format">The JSON-RPC 2.0 Message Format<a class="headerlink" href="#the-json-rpc-20-message-format" title="Anchor link to this section">&para;</a></h2>
 <p>Every MCP message conforms to JSON-RPC 2.0. A request looks like this:</p>
@@ -8060,7 +8060,7 @@ MCP Server (HTTP Service)
 </table>
 <h2 id="tool-discovery-how-ai-models-navigate-unknown-systems">Tool Discovery: How AI Models Navigate Unknown Systems<a class="headerlink" href="#tool-discovery-how-ai-models-navigate-unknown-systems" title="Anchor link to this section">&para;</a></h2>
 <p>Tool discovery is the MCP feature that most distinguishes it from traditional APIs. Here's how it works in practice:</p>
-<p><strong>1. Initialization Handshake.</strong> When a client connects to a server, it sends an <code>initialize</code> request. The server responds with its capabilities — which protocol features it supports, which MCP version it implements, and instructions for subsequent setup.</p>
+<p><strong>1. Initialization Handshake.</strong> When a client connects to a server, it sends an <code>initialize</code> request. The server responds with its capabilities  --  which protocol features it supports, which MCP version it implements, and instructions for subsequent setup.</p>
 <p><strong>2. Tool Enumeration.</strong> The client calls <code>tools/list</code>. The server returns an array of tool definitions, each containing:</p>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;list_shopify_orders&quot;</span><span class="p">,</span>
@@ -8100,7 +8100,7 @@ MCP Server (HTTP Service)
 - Configuration files (feature flags, environment settings)
 - Reference data (product catalogs, price lists, tax rates)</p>
 <p>Resources are identified by URIs and can contain either text or binary data. The <code>resources/list</code> method returns available resources, and <code>resources/read</code> retrieves their content.</p>
-<p>In CorpusIQ's implementation, resources include canonical business facts — user-declared definitions that ensure consistency across queries. When a user declares "MRR is calculated as the sum of active subscription plan amounts," that definition becomes a resource the AI model can reference in any relevant query.</p>
+<p>In CorpusIQ's implementation, resources include canonical business facts  --  user-declared definitions that ensure consistency across queries. When a user declares "MRR is calculated as the sum of active subscription plan amounts," that definition becomes a resource the AI model can reference in any relevant query.</p>
 <h2 id="prompts-reusable-interaction-templates">Prompts: Reusable Interaction Templates<a class="headerlink" href="#prompts-reusable-interaction-templates" title="Anchor link to this section">&para;</a></h2>
 <p>Prompts are pre-built conversation templates that guide the AI model toward producing structured, consistent outputs. They're defined server-side and can include arguments for customization.</p>
 <p>A prompt definition looks like:</p>
@@ -8118,7 +8118,7 @@ MCP Server (HTTP Service)
 </code></pre></div>
 <p>When a user asks for a report, the AI model can discover this prompt template, fill in the arguments, and produce a consistently structured output. This is particularly valuable for recurring business reports where format consistency matters.</p>
 <h2 id="authentication-and-security">Authentication and Security<a class="headerlink" href="#authentication-and-security" title="Anchor link to this section">&para;</a></h2>
-<p>MCP itself doesn't mandate a specific authentication scheme — it's a transport-level concern that each implementation handles. However, the protocol provides a standard pattern for authentication through the <code>initialize</code> response, where servers can advertise their authentication requirements.</p>
+<p>MCP itself doesn't mandate a specific authentication scheme  --  it's a transport-level concern that each implementation handles. However, the protocol provides a standard pattern for authentication through the <code>initialize</code> response, where servers can advertise their authentication requirements.</p>
 <p>CorpusIQ's authentication model:</p>
 <p><strong>OAuth 2.0 for cloud services.</strong> Each business platform (Shopify, QuickBooks, HubSpot, etc.) is connected through OAuth 2.0. Users authorize CorpusIQ to access their data with explicitly scoped permissions. Tokens are stored encrypted at rest and rotated automatically.</p>
 <p><strong>Read-only by default.</strong> Every connector defaults to read-only access. Write operations require explicit opt-in at both the OAuth scope level and the MCP server configuration level. This dual-gate approach prevents accidental data modification.</p>
@@ -8127,12 +8127,12 @@ MCP Server (HTTP Service)
 <h2 id="how-corpusiq-extends-the-mcp-standard">How CorpusIQ Extends the MCP Standard<a class="headerlink" href="#how-corpusiq-extends-the-mcp-standard" title="Anchor link to this section">&para;</a></h2>
 <p>While the base MCP protocol provides the foundation, CorpusIQ adds several enterprise-grade features:</p>
 <p><strong>Unified server architecture.</strong> Instead of running separate MCP server processes for each data source, CorpusIQ runs a single MCP server that manages 30+ connectors. This reduces operational complexity and enables cross-source queries.</p>
-<p><strong>Cross-source orchestration.</strong> When a user asks a question that spans multiple data sources — like "compare ad spend from Meta with revenue from Shopify" — CorpusIQ orchestrates multiple tool calls, normalizes the responses, and presents unified results to the AI model.</p>
+<p><strong>Cross-source orchestration.</strong> When a user asks a question that spans multiple data sources  --  like "compare ad spend from Meta with revenue from Shopify"  --  CorpusIQ orchestrates multiple tool calls, normalizes the responses, and presents unified results to the AI model.</p>
 <p><strong>Canonical context.</strong> CorpusIQ maintains user-declared business definitions (canonical facts) that the AI model can reference. This ensures that terms like "active customer" or "monthly recurring revenue" are interpreted consistently across all queries.</p>
-<p><strong>Metric specifications.</strong> Users can declare how key metrics should be computed, and CorpusIQ enforces those definitions. When the AI model asks "what's our MRR?", it gets the MRR computed according to the user's definition — not whatever interpretation the model happens to apply.</p>
+<p><strong>Metric specifications.</strong> Users can declare how key metrics should be computed, and CorpusIQ enforces those definitions. When the AI model asks "what's our MRR?", it gets the MRR computed according to the user's definition  --  not whatever interpretation the model happens to apply.</p>
 <p><strong>Truth sources.</strong> Users can designate authoritative documents (spreadsheets, PDFs, database tables) as the source of truth for specific questions. When the AI model encounters a question that matches a truth source, it consults the designated document rather than computing from raw data.</p>
 <h2 id="performance-characteristics">Performance Characteristics<a class="headerlink" href="#performance-characteristics" title="Anchor link to this section">&para;</a></h2>
-<p>MCP server performance depends primarily on the underlying data source APIs. The protocol overhead itself is minimal — JSON serialization and deserialization account for milliseconds of latency.</p>
+<p>MCP server performance depends primarily on the underlying data source APIs. The protocol overhead itself is minimal  --  JSON serialization and deserialization account for milliseconds of latency.</p>
 <p>CorpusIQ's performance optimizations:</p>
 <p><strong>Connection pooling.</strong> HTTP connections to data source APIs are pooled and reused, eliminating TCP handshake overhead on repeated calls.</p>
 <p><strong>Parallel execution.</strong> When a query requires multiple tool calls against independent data sources, CorpusIQ executes them concurrently rather than sequentially.</p>
@@ -8148,7 +8148,7 @@ Yes. MCP is an open protocol with SDKs available in Python, TypeScript, and othe
 <details>
 <summary><strong>How does MCP handle errors?</strong></summary>
 
-MCP uses standard JSON-RPC error codes. Tool execution errors return structured error objects with machine-readable codes and human-readable messages. The AI model can interpret these errors and adjust its approach — for example, retrying with different parameters or asking the user for clarification.
+MCP uses standard JSON-RPC error codes. Tool execution errors return structured error objects with machine-readable codes and human-readable messages. The AI model can interpret these errors and adjust its approach  --  for example, retrying with different parameters or asking the user for clarification.
 </details>
 
 <details>
@@ -8178,7 +8178,7 @@ MCP queries execute against live data and typically return in seconds. While not
 <details>
 <summary><strong>How does MCP compare to GraphQL?</strong></summary>
 
-GraphQL is a query language for APIs — you write queries to request specific fields. MCP is a protocol for AI agents to discover and use tools. They solve different problems. MCP could use GraphQL as the underlying transport for some data sources.
+GraphQL is a query language for APIs  --  you write queries to request specific fields. MCP is a protocol for AI agents to discover and use tools. They solve different problems. MCP could use GraphQL as the underlying transport for some data sources.
 </details>
 
 <details>
@@ -8197,8 +8197,8 @@ The base MCP protocol is request-response oriented. However, the HTTP+SSE transp
 <li><a href="/docs/mcp-for-enterprise">Learn about MCP for enterprise-scale deployments</a></li>
 <li><a href="/docs/mcp-for-operations">Explore MCP for business operations automation</a></li>
 </ul>
-<p><em>Part of the MCP knowledge base at <a href="https://www.corpusiq.io">corpusiq.io</a> — connect 37 business tools to AI.</em></p>
-<h2 id="part-of-the-mcp-knowledge-base-at-corpusiqio-connect-37-business-tools-to-ai"><em>Part of the MCP knowledge base at <a href="https://www.corpusiq.io">corpusiq.io</a> — connect 37 business tools to AI.</em><a class="headerlink" href="#part-of-the-mcp-knowledge-base-at-corpusiqio-connect-37-business-tools-to-ai" title="Anchor link to this section">&para;</a></h2>
+<p><em>Part of the MCP knowledge base at <a href="https://www.corpusiq.io">corpusiq.io</a>  --  connect 37 business tools to AI.</em></p>
+<h2 id="part-of-the-mcp-knowledge-base-at-corpusiqio-connect-37-business-tools-to-ai"><em>Part of the MCP knowledge base at <a href="https://www.corpusiq.io">corpusiq.io</a>  --  connect 37 business tools to AI.</em><a class="headerlink" href="#part-of-the-mcp-knowledge-base-at-corpusiqio-connect-37-business-tools-to-ai" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

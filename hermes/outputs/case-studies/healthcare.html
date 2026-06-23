@@ -5823,7 +5823,7 @@
   <a href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        From the Hermes Case Studies — real-world agent deployments. Powered by CorpusIQ.
+        From the Hermes Case Studies -- real-world agent deployments. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -8000,7 +8000,7 @@
   <a href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        From the Hermes Case Studies — real-world agent deployments. Powered by CorpusIQ.
+        From the Hermes Case Studies -- real-world agent deployments. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -8030,7 +8030,7 @@
 <h1 id="hermes-agent-healthcare-automation">Hermes Agent Healthcare Automation<a class="headerlink" href="#hermes-agent-healthcare-automation" title="Anchor link to this section">&para;</a></h1>
 <p>Hermes Agent provides HIPAA-compliant AI workflows that automate patient record management, appointment scheduling, insurance verification, and lab result notifications for medical practices. Built with minimum-necessary access controls and immutable audit trails, it reduces administrative burden while maintaining full regulatory compliance.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>Healthcare operations involve a dense web of scheduling, verification, record management, and privacy compliance. A typical medical practice or healthcare provider juggles: patient intake and registration, appointment scheduling and reminders, insurance eligibility verification, prior authorization tracking, lab result notification, and referral management. Each involves checking multiple systems — EHR, practice management software, insurance portals, lab interfaces — and each failure mode means delayed care or denied claims.</p>
+<p>Healthcare operations involve a dense web of scheduling, verification, record management, and privacy compliance. A typical medical practice or healthcare provider juggles: patient intake and registration, appointment scheduling and reminders, insurance eligibility verification, prior authorization tracking, lab result notification, and referral management. Each involves checking multiple systems  --  EHR, practice management software, insurance portals, lab interfaces  --  and each failure mode means delayed care or denied claims.</p>
 <p>Hermes Agent sits between these systems, coordinating data flows that currently require human staff to copy-paste between screens.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <h3 id="patient-record-management">Patient Record Management<a class="headerlink" href="#patient-record-management" title="Anchor link to this section">&para;</a></h3>
@@ -8079,7 +8079,7 @@
 <h3 id="hipaa-compliance-patterns">HIPAA Compliance Patterns<a class="headerlink" href="#hipaa-compliance-patterns" title="Anchor link to this section">&para;</a></h3>
 <p>Every automation touching PHI must respect HIPAA's Security Rule and Privacy Rule. Key patterns:</p>
 <p><strong>Minimum Necessary Access</strong>
-Configure database connector queries with column-level restrictions. Never <code>SELECT *</code> — specify only fields the automation genuinely needs. For example, a scheduling skill needs <code>patient_id, appointment_time, provider_id</code> but not <code>diagnosis_codes, notes, medications</code>.</p>
+Configure database connector queries with column-level restrictions. Never <code>SELECT *</code>  --  specify only fields the automation genuinely needs. For example, a scheduling skill needs <code>patient_id, appointment_time, provider_id</code> but not <code>diagnosis_codes, notes, medications</code>.</p>
 <p><strong>Audit Trail</strong>
 Every Hermes action that accesses or processes PHI should log to an immutable audit trail:</p>
 <div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">hipaa-audit-log</span>
@@ -8103,12 +8103,12 @@ Monitor for patterns that indicate compromise: unusual query volumes, off-hours 
 <p>This skill queries the lab interface for new results, parses abnormal flags, and either delivers routine results to the patient portal or escalates critical results through on-call notification channels.</p>
 <h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Reduced administrative burden</strong> — staff reclaim hours spent on manual verification and data entry</li>
-<li><strong>Faster patient throughput</strong> — automated chart reviews catch gaps before appointments begin</li>
-<li><strong>Improved revenue cycle</strong> — insurance verification catches coverage issues before claims are submitted</li>
-<li><strong>HIPAA compliance by design</strong> — minimum necessary access, audit trails, and encrypted storage</li>
-<li><strong>Better patient outcomes</strong> — critical lab results routed immediately to providers</li>
-<li><strong>Scalable practice operations</strong> — same automations work for solo practice or multi-location group</li>
+<li><strong>Reduced administrative burden</strong>  --  staff reclaim hours spent on manual verification and data entry</li>
+<li><strong>Faster patient throughput</strong>  --  automated chart reviews catch gaps before appointments begin</li>
+<li><strong>Improved revenue cycle</strong>  --  insurance verification catches coverage issues before claims are submitted</li>
+<li><strong>HIPAA compliance by design</strong>  --  minimum necessary access, audit trails, and encrypted storage</li>
+<li><strong>Better patient outcomes</strong>  --  critical lab results routed immediately to providers</li>
+<li><strong>Scalable practice operations</strong>  --  same automations work for solo practice or multi-location group</li>
 </ul>
 <h2 id="getting-started-in-healthcare">Getting Started in Healthcare<a class="headerlink" href="#getting-started-in-healthcare" title="Anchor link to this section">&para;</a></h2>
 <ol>
@@ -8129,17 +8129,17 @@ Monitor for patterns that indicate compromise: unusual query volumes, off-hours 
 <h3 id="how-does-hermes-protect-patient-data">How does Hermes protect patient data?<a class="headerlink" href="#how-does-hermes-protect-patient-data" title="Anchor link to this section">&para;</a></h3>
 <p>Hermes enforces column-level access controls on database queries, pseudonymizes patient identifiers in model context, runs on encrypted infrastructure, and maintains detailed access logs for every PHI interaction.</p>
 <h3 id="can-hermes-send-automated-patient-communications">Can Hermes send automated patient communications?<a class="headerlink" href="#can-hermes-send-automated-patient-communications" title="Anchor link to this section">&para;</a></h3>
-<p>Hermes can draft patient communications for staff review but should not send directly without approval. Automated appointment reminders are an exception — these can be configured for direct delivery through approved communication channels.</p>
+<p>Hermes can draft patient communications for staff review but should not send directly without approval. Automated appointment reminders are an exception  --  these can be configured for direct delivery through approved communication channels.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="compliance-audit.html">Hermes Agent Compliance &amp; Audit Automation</a> — Continuous SOC 2, HIPAA, and GDPR evidence collection</li>
-<li><a href="financial-services.html">Hermes Agent for Financial Services</a> — Portfolio monitoring and regulatory filing</li>
-<li><a href="../by-company-size/enterprise.html">Hermes Agent for Enterprise</a> — Security architecture and HIPAA compliance at scale</li>
-<li><a href="customer-support.html">Hermes Agent Customer Support Automation</a> — Patient inquiry triage and SLA management</li>
-<li><a href="../../index.html">Hermes Agent Overview</a> — Core platform capabilities and connector ecosystem</li>
+<li><a href="compliance-audit.html">Hermes Agent Compliance &amp; Audit Automation</a>  --  Continuous SOC 2, HIPAA, and GDPR evidence collection</li>
+<li><a href="financial-services.html">Hermes Agent for Financial Services</a>  --  Portfolio monitoring and regulatory filing</li>
+<li><a href="../by-company-size/enterprise.html">Hermes Agent for Enterprise</a>  --  Security architecture and HIPAA compliance at scale</li>
+<li><a href="customer-support.html">Hermes Agent Customer Support Automation</a>  --  Patient inquiry triage and SLA management</li>
+<li><a href="../../index.html">Hermes Agent Overview</a>  --  Core platform capabilities and connector ecosystem</li>
 </ul>
-<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a> — real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a> — real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a>  --  real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a>  --  real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

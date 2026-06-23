@@ -23,7 +23,7 @@
     
     
       
-        <title>Hermes AgentMesh Async Bus — Setup Guide - CorpusIQ Docs</title>
+        <title>Hermes AgentMesh Async Bus  --  Setup Guide - CorpusIQ Docs</title>
       
     
     
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes AgentMesh Async Bus — Setup Guide
+              Hermes AgentMesh Async Bus  --  Setup Guide
             
           </span>
         </div>
@@ -7607,7 +7607,7 @@
   <a href="#step-1-mac-mini-configure-redis-for-lan-access" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Step 1: Mac mini — Configure Redis for LAN access
+        Step 1: Mac mini -- Configure Redis for LAN access
       
     </span>
   </a>
@@ -7707,7 +7707,7 @@
 
 <h1 id="hermes-agentmesh-async-bus">Hermes AgentMesh Async Bus<a class="headerlink" href="#hermes-agentmesh-async-bus" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Install:</strong> <code>npx skills add seleman66eeddwegger3-art/hermes-agentmesh --skill hermes-agentmesh-async-bus</code></p>
-<p>A peer-to-peer, 0-SSH, Redis-backed async message bus designed by Bobo (a Hermes agent architect). Replaces synchronous HTTP coordination with Redis mailboxes — agents communicate by dropping tasks in named inboxes instead of making blocking HTTP calls.</p>
+<p>A peer-to-peer, 0-SSH, Redis-backed async message bus designed by Bobo (a Hermes agent architect). Replaces synchronous HTTP coordination with Redis mailboxes  --  agents communicate by dropping tasks in named inboxes instead of making blocking HTTP calls.</p>
 <h2 id="why-use-this">Why Use This<a class="headerlink" href="#why-use-this" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -7719,11 +7719,11 @@
 <tbody>
 <tr>
 <td>HTTP timeouts at 5–10 min crash multi-agent tasks</td>
-<td>Redis queues — hours-long tasks OK</td>
+<td>Redis queues  --  hours-long tasks OK</td>
 </tr>
 <tr>
 <td>SSH required to start remote workers</td>
-<td>0 SSH — workers listen on shared Redis</td>
+<td>0 SSH  --  workers listen on shared Redis</td>
 </tr>
 <tr>
 <td>Reports lost or must be scp'd</td>
@@ -7731,7 +7731,7 @@
 </tr>
 <tr>
 <td>Group chat noise eats context tokens</td>
-<td>Named inboxes — zero noise</td>
+<td>Named inboxes  --  zero noise</td>
 </tr>
 </tbody>
 </table>
@@ -7748,7 +7748,7 @@
 <ul>
 <li><strong>Central hub:</strong> Redis + Hermes LLM API + HTTP file server on Mac mini</li>
 <li><strong>Worker nodes:</strong> Pure Redis clients (any OS), kept alive by LaunchAgents/systemd</li>
-<li><strong>Protocol:</strong> <code>redis.lpush("inbox:&lt;NODE_NAME&gt;", task_json)</code> — the mailbox IS the protocol</li>
+<li><strong>Protocol:</strong> <code>redis.lpush("inbox:&lt;NODE_NAME&gt;", task_json)</code>  --  the mailbox IS the protocol</li>
 </ul>
 <h2 id="quick-start-5-minutes">Quick Start (5 minutes)<a class="headerlink" href="#quick-start-5-minutes" title="Anchor link to this section">&para;</a></h2>
 <h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h3>
@@ -7757,7 +7757,7 @@
 <li>1+ other devices on same LAN</li>
 <li>Redis installed on all nodes</li>
 </ul>
-<h3 id="step-1-mac-mini-configure-redis-for-lan-access">Step 1: Mac mini — Configure Redis for LAN access<a class="headerlink" href="#step-1-mac-mini-configure-redis-for-lan-access" title="Anchor link to this section">&para;</a></h3>
+<h3 id="step-1-mac-mini-configure-redis-for-lan-access">Step 1: Mac mini  --  Configure Redis for LAN access<a class="headerlink" href="#step-1-mac-mini-configure-redis-for-lan-access" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>sudo<span class="w"> </span>sed<span class="w"> </span>-i.bak<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-e<span class="w"> </span><span class="s1">&#39;s/^bind 127.0.0.1 ::1$/bind 0.0.0.0/&#39;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-e<span class="w"> </span><span class="s1">&#39;s/^protected-mode yes$/protected-mode no/&#39;</span><span class="w"> </span><span class="se">\</span>
@@ -7795,10 +7795,10 @@ curl<span class="w"> </span>-s<span class="w"> </span>http://&lt;MAC_MINI_IP&gt;
 </code></pre></div>
 <h2 id="key-design-decisions">Key Design Decisions<a class="headerlink" href="#key-design-decisions" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Redis, not HTTP</strong> — Eliminates timeout anxiety. A 2-hour agent task is just a message sitting in a Redis list.</li>
-<li><strong>0 SSH deployment</strong> — Workers pull code from the hub's HTTP file server. No remote process management.</li>
-<li><strong>Reports land locally</strong> — The initiator writes the report to its own filesystem, not the worker's. No scp needed.</li>
-<li><strong>Framework-agnostic</strong> — Works with Hermes, OpenClaw, LangGraph, AutoGen, CrewAI. The mailbox format is universal JSON.</li>
+<li><strong>Redis, not HTTP</strong>  --  Eliminates timeout anxiety. A 2-hour agent task is just a message sitting in a Redis list.</li>
+<li><strong>0 SSH deployment</strong>  --  Workers pull code from the hub's HTTP file server. No remote process management.</li>
+<li><strong>Reports land locally</strong>  --  The initiator writes the report to its own filesystem, not the worker's. No scp needed.</li>
+<li><strong>Framework-agnostic</strong>  --  Works with Hermes, OpenClaw, LangGraph, AutoGen, CrewAI. The mailbox format is universal JSON.</li>
 </ol>
 <h2 id="pitfalls">Pitfalls<a class="headerlink" href="#pitfalls" title="Anchor link to this section">&para;</a></h2>
 <ul>

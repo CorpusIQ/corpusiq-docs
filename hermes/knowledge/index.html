@@ -27,7 +27,7 @@
     
     
       
-        <title>Memory Architecture Guide for Hermes Agent — Triple-Stack Persistent AI Memory - CorpusIQ Docs</title>
+        <title>Memory Architecture Guide for Hermes Agent  --  Triple-Stack Persistent AI Memory - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Memory Architecture Guide for Hermes Agent — Triple-Stack Persistent AI Memory
+              Memory Architecture Guide for Hermes Agent  --  Triple-Stack Persistent AI Memory
             
           </span>
         </div>
@@ -7490,7 +7490,7 @@
   <a href="#layer-1-honcho-peer-memory" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Layer 1: Honcho — Peer Memory
+        Layer 1: Honcho -- Peer Memory
       
     </span>
   </a>
@@ -7501,7 +7501,7 @@
   <a href="#layer-2-gbrain-organizational-knowledge" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Layer 2: GBrain — Organizational Knowledge
+        Layer 2: GBrain -- Organizational Knowledge
       
     </span>
   </a>
@@ -7512,7 +7512,7 @@
   <a href="#layer-3-memcore-cloud-cross-session-recall" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Layer 3: memcore-cloud — Cross-Session Recall
+        Layer 3: memcore-cloud -- Cross-Session Recall
       
     </span>
   </a>
@@ -7523,7 +7523,7 @@
   <a href="#layer-4-graphrag-relationship-memory" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Layer 4: GraphRAG — Relationship Memory
+        Layer 4: GraphRAG -- Relationship Memory
       
     </span>
   </a>
@@ -7534,7 +7534,7 @@
   <a href="#layer-5-session-db-hermes-built-in" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Layer 5: Session DB — Hermes Built-In
+        Layer 5: Session DB -- Hermes Built-In
       
     </span>
   </a>
@@ -7723,7 +7723,7 @@
   <a href="#layer-1-honcho-peer-memory" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Layer 1: Honcho — Peer Memory
+        Layer 1: Honcho -- Peer Memory
       
     </span>
   </a>
@@ -7734,7 +7734,7 @@
   <a href="#layer-2-gbrain-organizational-knowledge" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Layer 2: GBrain — Organizational Knowledge
+        Layer 2: GBrain -- Organizational Knowledge
       
     </span>
   </a>
@@ -7745,7 +7745,7 @@
   <a href="#layer-3-memcore-cloud-cross-session-recall" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Layer 3: memcore-cloud — Cross-Session Recall
+        Layer 3: memcore-cloud -- Cross-Session Recall
       
     </span>
   </a>
@@ -7756,7 +7756,7 @@
   <a href="#layer-4-graphrag-relationship-memory" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Layer 4: GraphRAG — Relationship Memory
+        Layer 4: GraphRAG -- Relationship Memory
       
     </span>
   </a>
@@ -7767,7 +7767,7 @@
   <a href="#layer-5-session-db-hermes-built-in" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Layer 5: Session DB — Hermes Built-In
+        Layer 5: Session DB -- Hermes Built-In
       
     </span>
   </a>
@@ -7827,7 +7827,7 @@
   
 
 
-<h1 id="hermes-agent-memory-architecture-the-triple-stack-for-persistent-ai-memory">Hermes Agent Memory Architecture — The Triple Stack for Persistent AI Memory<a class="headerlink" href="#hermes-agent-memory-architecture-the-triple-stack-for-persistent-ai-memory" title="Anchor link to this section">&para;</a></h1>
+<h1 id="hermes-agent-memory-architecture-the-triple-stack-for-persistent-ai-memory">Hermes Agent Memory Architecture  --  The Triple Stack for Persistent AI Memory<a class="headerlink" href="#hermes-agent-memory-architecture-the-triple-stack-for-persistent-ai-memory" title="Anchor link to this section">&para;</a></h1>
 <h2 id="why-three-systems">Why Three Systems?<a class="headerlink" href="#why-three-systems" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -7859,9 +7859,9 @@
 </tr>
 </tbody>
 </table>
-<p>These aren't competitors — they solve different problems. Run all three.</p>
+<p>These aren't competitors  --  they solve different problems. Run all three.</p>
 <hr />
-<h2 id="layer-1-honcho-peer-memory">Layer 1: Honcho — Peer Memory<a class="headerlink" href="#layer-1-honcho-peer-memory" title="Anchor link to this section">&para;</a></h2>
+<h2 id="layer-1-honcho-peer-memory">Layer 1: Honcho  --  Peer Memory<a class="headerlink" href="#layer-1-honcho-peer-memory" title="Anchor link to this section">&para;</a></h2>
 <p><strong>What it solves:</strong> Persistent identity. Who the user is, what platforms are banned, what decisions were made, what rules apply.</p>
 <p><strong>Setup (2 minutes):</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Add Honcho MCP to Hermes</span>
@@ -7884,10 +7884,10 @@ Peer: corpusiq-agent
 └── Improvement log: Skills patched, patterns discovered
 </code></pre></div>
 <p><strong>Key Honcho tools in Hermes:</strong></p>
-<div class="highlight"><pre><span></span><code>mcp_honcho_get_peer_context    — Load everything about a peer
-mcp_honcho_chat                — Ask questions about peer knowledge
-mcp_honcho_search              — Semantic search across conversations
-mcp_honcho_schedule_dream      — Queue memory consolidation
+<div class="highlight"><pre><span></span><code>mcp_honcho_get_peer_context     --  Load everything about a peer
+mcp_honcho_chat                 --  Ask questions about peer knowledge
+mcp_honcho_search               --  Semantic search across conversations
+mcp_honcho_schedule_dream       --  Queue memory consolidation
 </code></pre></div>
 <p><strong>Pattern: Pre-flight gate</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Before EVERY external action, check Honcho</span>
@@ -7897,7 +7897,7 @@ mcp_honcho_schedule_dream      — Queue memory consolidation
 <span class="c1"># Check: Was this already done?</span>
 </code></pre></div>
 <hr />
-<h2 id="layer-2-gbrain-organizational-knowledge">Layer 2: GBrain — Organizational Knowledge<a class="headerlink" href="#layer-2-gbrain-organizational-knowledge" title="Anchor link to this section">&para;</a></h2>
+<h2 id="layer-2-gbrain-organizational-knowledge">Layer 2: GBrain  --  Organizational Knowledge<a class="headerlink" href="#layer-2-gbrain-organizational-knowledge" title="Anchor link to this section">&para;</a></h2>
 <p><strong>What it solves:</strong> Where are the files, what code does what, what was built when. Organizational knowledge that persists.</p>
 <p><strong>Setup (10 minutes):</strong></p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/garrytan/gbrain
@@ -7927,7 +7927,7 @@ mcp_honcho_schedule_dream      — Queue memory consolidation
 └── Update peer cards with new conclusions
 </code></pre></div>
 <hr />
-<h2 id="layer-3-memcore-cloud-cross-session-recall">Layer 3: memcore-cloud — Cross-Session Recall<a class="headerlink" href="#layer-3-memcore-cloud-cross-session-recall" title="Anchor link to this section">&para;</a></h2>
+<h2 id="layer-3-memcore-cloud-cross-session-recall">Layer 3: memcore-cloud  --  Cross-Session Recall<a class="headerlink" href="#layer-3-memcore-cloud-cross-session-recall" title="Anchor link to this section">&para;</a></h2>
 <p><strong>What it solves:</strong> "What happened last session?" Full conversation recall with raw source tracking.</p>
 <p><strong>Setup (5 minutes):</strong></p>
 <div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>memcore-cloud
@@ -7961,7 +7961,7 @@ memcore-cloud ──► injects ──► Hermes turn
 </tr>
 <tr>
 <td>Repeats the same research</td>
-<td>"Already researched this — here's what we found"</td>
+<td>"Already researched this  --  here's what we found"</td>
 </tr>
 <tr>
 <td>Forgets tool quirks</td>
@@ -7974,8 +7974,8 @@ memcore-cloud ──► injects ──► Hermes turn
 </tbody>
 </table>
 <hr />
-<h2 id="layer-4-graphrag-relationship-memory">Layer 4: GraphRAG — Relationship Memory<a class="headerlink" href="#layer-4-graphrag-relationship-memory" title="Anchor link to this section">&para;</a></h2>
-<p><strong>What it solves:</strong> How entities and concepts connect — not just what documents say.</p>
+<h2 id="layer-4-graphrag-relationship-memory">Layer 4: GraphRAG  --  Relationship Memory<a class="headerlink" href="#layer-4-graphrag-relationship-memory" title="Anchor link to this section">&para;</a></h2>
+<p><strong>What it solves:</strong> How entities and concepts connect  --  not just what documents say.</p>
 <p><strong>When to use:</strong>
 - Complex codebases where files reference each other
 - Business operations with multiple connected systems
@@ -7992,7 +7992,7 @@ graphrag<span class="w"> </span>index<span class="w"> </span>--root<span class="
 → With: Token location, refresh schedule, failure handling per cron
 </code></pre></div>
 <hr />
-<h2 id="layer-5-session-db-hermes-built-in">Layer 5: Session DB — Hermes Built-In<a class="headerlink" href="#layer-5-session-db-hermes-built-in" title="Anchor link to this section">&para;</a></h2>
+<h2 id="layer-5-session-db-hermes-built-in">Layer 5: Session DB  --  Hermes Built-In<a class="headerlink" href="#layer-5-session-db-hermes-built-in" title="Anchor link to this section">&para;</a></h2>
 <p><strong>What it is:</strong> SQLite database at <code>~/.hermes/profiles/&lt;profile&gt;/state.db</code> with FTS5 full-text search. Every conversation, every tool call, every result.</p>
 <p><strong>How to use:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Search past sessions from CLI</span>
@@ -8065,7 +8065,7 @@ SESSION END (or every 30 min)
 <tr>
 <td>GBrain only</td>
 <td>File/code knowledge</td>
-<td>"Who is the user?" — no peer modeling</td>
+<td>"Who is the user?"  --  no peer modeling</td>
 </tr>
 <tr>
 <td>memcore-cloud only</td>
@@ -8075,7 +8075,7 @@ SESSION END (or every 30 min)
 <tr>
 <td><strong>All three</strong></td>
 <td>Complete agent memory</td>
-<td>Nothing — this is the production stack</td>
+<td>Nothing  --  this is the production stack</td>
 </tr>
 </tbody>
 </table>

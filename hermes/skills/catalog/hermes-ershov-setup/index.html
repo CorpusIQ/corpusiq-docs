@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure Ershov — a staged nightly memory engine for Hermes operators with reviewable proposals, artifact-first workflow, and 4 LLM backends">
+        <meta name="description" content="Install and configure Ershov  --  a staged nightly memory engine for Hermes operators with reviewable proposals, artifact-first workflow, and 4 LLM backends">
       
       
       
@@ -7711,10 +7711,10 @@
 <strong>Stars:</strong> 2 ⭐ | <strong>License:</strong> MIT | <strong>Created:</strong> June 19, 2026
 <strong>CI:</strong> ✅ GitHub Actions | <strong>Security:</strong> ✅ CodeQL + OpenSSF Scorecard</p>
 <h2 id="1-what-it-is">1. What It Is<a class="headerlink" href="#1-what-it-is" title="Anchor link to this section">&para;</a></h2>
-<p>A staged nightly memory engine that turns recent Hermes sessions into <strong>reviewable memory proposals</strong> — no silent live-memory mutation. Think of it as "Git for agent memory": inspect, diff, approve, apply, revert.</p>
+<p>A staged nightly memory engine that turns recent Hermes sessions into <strong>reviewable memory proposals</strong>  --  no silent live-memory mutation. Think of it as "Git for agent memory": inspect, diff, approve, apply, revert.</p>
 <p><strong>Key design principles:</strong>
 - <strong>Artifact-first:</strong> Every proposal is a JSONL file with full diffs before any memory write
-- <strong>Human-in-the-loop:</strong> No automated mutation of live memory — every change goes through review
+- <strong>Human-in-the-loop:</strong> No automated mutation of live memory  --  every change goes through review
 - <strong>Auditable:</strong> Local run ledger + <code>ERSHOV.md</code> diary tracks every decision
 - <strong>Offline-capable:</strong> Deterministic replays for demos and tests</p>
 <p><strong>How it works (nightly loop):</strong></p>
@@ -7867,7 +7867,7 @@ hermes<span class="w"> </span>--profile<span class="w"> </span>corpusiq<span cla
 - Ershov complements (doesn't replace) Hermes' built-in <code>memory</code> tool
 - Use Ershov for: cross-session pattern detection, cleanup of stale memories, quality audits
 - Keep Hermes <code>memory</code> for: session-level facts, user preferences, quick saves
-- Ershov diary serves as a changelog for the memory layer — pairs well with Honcho's peer context</p>
+- Ershov diary serves as a changelog for the memory layer  --  pairs well with Honcho's peer context</p>
 <p><strong>Cron job for nightly review:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Add to crontab: run at 3 AM Arizona daily</span>
 <span class="m">0</span><span class="w"> </span><span class="m">3</span><span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>hermes<span class="w"> </span>--profile<span class="w"> </span>corpusiq<span class="w"> </span>ershov<span class="w"> </span>review<span class="w"> </span>--since<span class="w"> </span>24h<span class="w"> </span>&gt;&gt;<span class="w"> </span>~/.hermes/profiles/corpusiq/logs/ershov.log<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span>

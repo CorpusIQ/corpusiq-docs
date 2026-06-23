@@ -7651,7 +7651,7 @@
   <a href="#6-vendor-error-surfacing-two-layers-both-required" class="md-nav__link">
     <span class="md-ellipsis">
       
-        6. Vendor error surfacing (TWO layers — both required)
+        6. Vendor error surfacing (TWO layers -- both required)
       
     </span>
   </a>
@@ -7695,7 +7695,7 @@
   <a href="#8b-scopes-what-the-live-authorize-url-actually-sends-dual-defaults-trap" class="md-nav__link">
     <span class="md-ellipsis">
       
-        8b. Scopes — what the live authorize URL actually sends (dual-defaults trap)
+        8b. Scopes -- what the live authorize URL actually sends (dual-defaults trap)
       
     </span>
   </a>
@@ -7828,7 +7828,7 @@
   <a href="#115-oauth-scope-drift-verify-stored-token-scopes-before-blaming-code" class="md-nav__link">
     <span class="md-ellipsis">
       
-        11.5. OAuth scope drift — verify stored token scopes BEFORE blaming code
+        11.5. OAuth scope drift -- verify stored token scopes BEFORE blaming code
       
     </span>
   </a>
@@ -7910,7 +7910,7 @@
   <a href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Part of the Hermes Skills Library — 133+ agent skills. Built by CorpusIQ.
+        Part of the Hermes Skills Library -- 133+ agent skills. Built by CorpusIQ.
       
     </span>
   </a>
@@ -7943,9 +7943,9 @@
 <ol>
 <li>A connector under your data adapter layer was authored by someone other than the core team, AND you've just hit at least one bug in it in production.</li>
 <li>A customer-facing surface has reported a connector failure that traces to non-core code.</li>
-<li>You're about to merge a new contributor-authored connector PR (preempt — audit BEFORE merge, not after the first customer-reported bug).</li>
+<li>You're about to merge a new contributor-authored connector PR (preempt  --  audit BEFORE merge, not after the first customer-reported bug).</li>
 <li>CI failed in any way related to that connector (silent import, registry parity, formatting that masks a real bug).</li>
-<li>A contributor claims they "fixed" something in auth, billing, security, MCP routing, the token store, or any non-connector code path. Same discipline applies — verify the claim before nodding.</li>
+<li>A contributor claims they "fixed" something in auth, billing, security, MCP routing, the token store, or any non-connector code path. Same discipline applies  --  verify the claim before nodding.</li>
 </ol>
 <p>If trigger 1 or 2 fires, <strong>stop the fix-forward instinct.</strong> Do not push a fix for the symptom you just saw. The cost of "one more PR" is not engineering time, it is the customer's perception of churn. Read the rest of this skill, run the audit, file ONE issue with the full bug inventory, fix in ONE PR, then tell the affected human "try again."</p>
 <h2 id="the-mailchimp-pattern-the-bug-class-this-prevents">The Mailchimp pattern (the bug class this prevents)<a class="headerlink" href="#the-mailchimp-pattern-the-bug-class-this-prevents" title="Anchor link to this section">&para;</a></h2>
@@ -8008,20 +8008,20 @@
 </table>
 <p><strong>Nine round-trips. Every single bug existed in the code at the moment of the first bug-fix PR.</strong> A single 30-minute audit pass after bug #1 would have surfaced the full inventory; one PR, one "try again" call to the customer instead of nine, one "this product appears to be on fire" perception averted.</p>
 <h2 id="the-audit-checklist">The audit checklist<a class="headerlink" href="#the-audit-checklist" title="Anchor link to this section">&para;</a></h2>
-<p>Run every item, in order, against the target connector. For each finding, append to a single Markdown checklist — do NOT open issues per-finding, that recreates the churn.</p>
+<p>Run every item, in order, against the target connector. For each finding, append to a single Markdown checklist  --  do NOT open issues per-finding, that recreates the churn.</p>
 <h3 id="1-import-loader-the-silent-failure-surface">1. Import &amp; loader (the silent-failure surface)<a class="headerlink" href="#1-import-loader-the-silent-failure-surface" title="Anchor link to this section">&para;</a></h3>
-<p>Does the auth module import cleanly in isolation? Does the adapter? What's in the try/except wrapper in your server entry point — does it log the import failure visibly, or swallow it?</p>
+<p>Does the auth module import cleanly in isolation? Does the adapter? What's in the try/except wrapper in your server entry point  --  does it log the import failure visibly, or swallow it?</p>
 <p>Findings:
 - [ ] Imports use canonical paths, not made-up paths
-- [ ] The try/except in the server entry logs the import failure at WARNING with the full exception — never silent
+- [ ] The try/except in the server entry logs the import failure at WARNING with the full exception  --  never silent
 - [ ] The connector's <code>&lt;CONNECTOR&gt;_AVAILABLE</code> (or equivalent) flag is truthy in a normal dev shell</p>
 <h3 id="2-token-storage-constitutional">2. Token storage (constitutional)<a class="headerlink" href="#2-token-storage-constitutional" title="Anchor link to this section">&para;</a></h3>
 <p>If you have a token-storage mixin or shared pattern (file + secret store dual-write, etc.), verify the connector actually uses it:</p>
 <ul>
 <li>[ ] TokenManager inherits the canonical mixin (not a re-implemented one)</li>
 <li>[ ] <code>save_token</code> / <code>load_token</code> / <code>delete_token</code> each call the corresponding helper method</li>
-<li>[ ] The connector-naming constant (KV suffix, secret prefix, etc.) is canonical — not the contributor's nickname for the connector</li>
-<li>[ ] Tokens actually land in the central store after a connect test — verify with the store's CLI directly, don't trust the code path</li>
+<li>[ ] The connector-naming constant (KV suffix, secret prefix, etc.) is canonical  --  not the contributor's nickname for the connector</li>
+<li>[ ] Tokens actually land in the central store after a connect test  --  verify with the store's CLI directly, don't trust the code path</li>
 </ul>
 <h3 id="3-connector-method-signatures-match-the-dispatch-layer">3. Connector-method signatures match the dispatch layer<a class="headerlink" href="#3-connector-method-signatures-match-the-dispatch-layer" title="Anchor link to this section">&para;</a></h3>
 <p>The contributor's adapter <code>__init__</code> may take different args than the server.py dispatch passes. Common drift: positional vs kwarg, missing per-vendor optional params, extra <code>creds</code> parameter, sync vs async mismatch.</p>
@@ -8033,7 +8033,7 @@
 <h3 id="4-tool-naming-registry-parity">4. Tool naming + registry parity<a class="headerlink" href="#4-tool-naming-registry-parity" title="Anchor link to this section">&para;</a></h3>
 <p>If you have a registry that lists tools per connector AND each connector's tool file declares <code>Tool(name=...)</code> entries, run the parity test that diffs the two. Plus a manual sanity check on naming convention:</p>
 <ul>
-<li>[ ] Every tool name matches <code>(get|search|list|delete|update|run)_&lt;canonical_connector&gt;_&lt;noun&gt;</code> — NOT <code>get_&lt;consultant_nickname&gt;_*</code></li>
+<li>[ ] Every tool name matches <code>(get|search|list|delete|update|run)_&lt;canonical_connector&gt;_&lt;noun&gt;</code>  --  NOT <code>get_&lt;consultant_nickname&gt;_*</code></li>
 <li>[ ] Registry's <code>tools[]</code> and <code>tool_schemas{}</code> keys match each other</li>
 <li>[ ] Every tool exists as a real <code>Tool(name=...)</code> entry in code</li>
 </ul>
@@ -8045,8 +8045,8 @@
 <li>[ ] Mega-tool / dynamic-manifest path exposes the same count</li>
 <li>[ ] Counts match between paths</li>
 </ul>
-<h3 id="6-vendor-error-surfacing-two-layers-both-required">6. Vendor error surfacing (TWO layers — both required)<a class="headerlink" href="#6-vendor-error-surfacing-two-layers-both-required" title="Anchor link to this section">&para;</a></h3>
-<p>Constitutional rule: vendor text errors (<code>ERROR NNN::MSG</code>, error JSON, <code>{"type":"...","status":4xx}</code>) must be hoisted to exceptions and surfaced as explicit error envelopes — NOT coerced to empty <code>{"data": []}</code> results AND NOT swallowed by the outer dispatch fall-through as <code>{"raw": null}</code>.</p>
+<h3 id="6-vendor-error-surfacing-two-layers-both-required">6. Vendor error surfacing (TWO layers  --  both required)<a class="headerlink" href="#6-vendor-error-surfacing-two-layers-both-required" title="Anchor link to this section">&para;</a></h3>
+<p>Constitutional rule: vendor text errors (<code>ERROR NNN::MSG</code>, error JSON, <code>{"type":"...","status":4xx}</code>) must be hoisted to exceptions and surfaced as explicit error envelopes  --  NOT coerced to empty <code>{"data": []}</code> results AND NOT swallowed by the outer dispatch fall-through as <code>{"raw": null}</code>.</p>
 <p>This is a TWO-layer check. The adapter raising correctly is necessary but not sufficient; the dispatch elif-block must catch that typed exception or the outer <code>except Exception</code> will log it and silently leave <code>tool_result = None</code>, which the widget formatter ships as <code>{"raw": null}</code>.</p>
 <ul>
 <li>[ ] <strong>Layer 1 (adapter):</strong> every HTTP call is followed by a vendor-error check; on error the adapter raises an explicit typed exception with status + resource + hint</li>
@@ -8065,26 +8065,26 @@
 <ul>
 <li>[ ] At least one test per list-returning tool asserts a VALUE on row 0, not just <code>len()</code> or <code>record_count</code></li>
 <li>[ ] OAuth callback test asserts the token landed in the central store with the right shape</li>
-<li>[ ] Adapter signature test exists — the kind that would have caught bug #3 instantly</li>
+<li>[ ] Adapter signature test exists  --  the kind that would have caught bug #3 instantly</li>
 </ul>
 <h3 id="8-oauth-redirect-uri-matches-the-vendor-portal">8. OAuth redirect URI matches the vendor portal<a class="headerlink" href="#8-oauth-redirect-uri-matches-the-vendor-portal" title="Anchor link to this section">&para;</a></h3>
 <p>Lesson from a real consultant pass: the contributor registered <code>https://mcp.example.com/oauth/&lt;provider&gt;/callback</code> in the vendor portal, but the infrastructure actually serves at <code>https://mcp2.example.com</code>. Result: 404 even after the code fix because the vendor portal was wrong.</p>
 <ul>
-<li>[ ] Vendor portal redirect URI is your PROD host exactly — verified by logging into the vendor portal directly, NOT by trusting the contributor's commit message</li>
+<li>[ ] Vendor portal redirect URI is your PROD host exactly  --  verified by logging into the vendor portal directly, NOT by trusting the contributor's commit message</li>
 <li>[ ] If dev testing is needed, the vendor app supports multiple redirects OR there's a dedicated dev app</li>
 <li>[ ] The <code>redirect_uri</code> in <code>auth/&lt;connector&gt;_auth.py</code> matches what's in the vendor portal exactly (including trailing slash, host, scheme)</li>
 </ul>
-<h3 id="8b-scopes-what-the-live-authorize-url-actually-sends-dual-defaults-trap">8b. Scopes — what the live authorize URL actually sends (dual-defaults trap)<a class="headerlink" href="#8b-scopes-what-the-live-authorize-url-actually-sends-dual-defaults-trap" title="Anchor link to this section">&para;</a></h3>
-<p>Caught on a real Facebook Pages/IG extension: the PR correctly extended scopes from 5 → 10 in <code>auth/facebook_auth.py</code>, but <code>config/settings.py</code> ALSO defined a <code>facebook_scopes</code> field with its own default — in TWO places (the dataclass default AND the <code>os.getenv</code> fallback), both with the stale 5-scope string. The auth-module default was dead code; the settings one always won. Every connect produced an Ads-only token; every new Pages/IG tool would have 403'd silently.</p>
+<h3 id="8b-scopes-what-the-live-authorize-url-actually-sends-dual-defaults-trap">8b. Scopes  --  what the live authorize URL actually sends (dual-defaults trap)<a class="headerlink" href="#8b-scopes-what-the-live-authorize-url-actually-sends-dual-defaults-trap" title="Anchor link to this section">&para;</a></h3>
+<p>Caught on a real Facebook Pages/IG extension: the PR correctly extended scopes from 5 → 10 in <code>auth/facebook_auth.py</code>, but <code>config/settings.py</code> ALSO defined a <code>facebook_scopes</code> field with its own default  --  in TWO places (the dataclass default AND the <code>os.getenv</code> fallback), both with the stale 5-scope string. The auth-module default was dead code; the settings one always won. Every connect produced an Ads-only token; every new Pages/IG tool would have 403'd silently.</p>
 <p>The 30-second diagnostic that catches this: <strong>fetch the live authorize URL and read its <code>scope=</code> parameter.</strong> Don't trust grep on <code>auth/&lt;connector&gt;_auth.py</code> alone.</p>
 <ul>
 <li>[ ] Live authorize URL's <code>scope=</code> parameter contains every scope the connector's tool surface actually needs</li>
-<li>[ ] There is exactly ONE source-of-truth scope string. If config and auth both carry a default, they MUST match — preferably collapse to one</li>
+<li>[ ] There is exactly ONE source-of-truth scope string. If config and auth both carry a default, they MUST match  --  preferably collapse to one</li>
 <li>[ ] The env-var fallback matches the source-of-truth default (silent killer: prod containers without the env var set)</li>
 <li>[ ] A regression-guard test exists asserting the live URL emits the full scope set</li>
 </ul>
 <h3 id="9-vendor-app-review-scope-approval-status">9. Vendor app-review / scope approval status<a class="headerlink" href="#9-vendor-app-review-scope-approval-status" title="Anchor link to this section">&para;</a></h3>
-<p>Discovered on a Facebook Pages + IG Business extension: tools wired cleanly, registry parity passed, dev+prod both green — but the OAuth scopes the new tools required weren't yet approved on the vendor app. Customers connecting via the standard flow hit "scope not authorized" or got empty results on the gated endpoints. <strong>"Shipped" in code-land ≠ "usable by customers."</strong></p>
+<p>Discovered on a Facebook Pages + IG Business extension: tools wired cleanly, registry parity passed, dev+prod both green  --  but the OAuth scopes the new tools required weren't yet approved on the vendor app. Customers connecting via the standard flow hit "scope not authorized" or got empty results on the gated endpoints. <strong>"Shipped" in code-land ≠ "usable by customers."</strong></p>
 <h4 id="scope-presence-scope-traffic-meta-dashboard-gotcha">Scope-PRESENCE ≠ scope-TRAFFIC (Meta dashboard gotcha)<a class="headerlink" href="#scope-presence-scope-traffic-meta-dashboard-gotcha" title="Anchor link to this section">&para;</a></h4>
 <p>Meta's App Dashboard tracks <strong>call traffic per scope</strong>, not just whether the scope is in your token grant. Two distinct things can fail audit:</p>
 <table>
@@ -8099,7 +8099,7 @@
 <tr>
 <td>Scope shows zero calls but feature appears to work in your test</td>
 <td>Scope is granted (in token) but no API endpoint you hit "counts" toward it. Meta attributes each call to its <strong>most-specific</strong> parent scope.</td>
-<td>Add a tool that hits the scope's canonical endpoint. For <code>public_profile</code> that means a literal <code>/me?fields=id,name,email</code> — <code>/me/accounts</code> counts toward <code>pages_show_list</code>, not <code>public_profile</code>.</td>
+<td>Add a tool that hits the scope's canonical endpoint. For <code>public_profile</code> that means a literal <code>/me?fields=id,name,email</code>  --  <code>/me/accounts</code> counts toward <code>pages_show_list</code>, not <code>public_profile</code>.</td>
 </tr>
 <tr>
 <td>Scope shows zero calls AND OAuth dialog never asked for it</td>
@@ -8119,18 +8119,18 @@
 <li>[ ] Smoke against a real account YOU own BEFORE telling any customer the tools work</li>
 <li>[ ] Honest framing: "tools live; X scopes pending vendor app review, customers will see Y behavior until approval lands (~N business days)"</li>
 </ul>
-<p>The cost of skipping this is shaped like the consultant-connector-bug cost — customer tries, fails, retries, fails — except worse, because there's no fix you can ship in 30 minutes. The fix is a 3-7 day vendor review cycle.</p>
+<p>The cost of skipping this is shaped like the consultant-connector-bug cost  --  customer tries, fails, retries, fails  --  except worse, because there's no fix you can ship in 30 minutes. The fix is a 3-7 day vendor review cycle.</p>
 <h3 id="95-duplicate-config-source-trap-silent-override">9.5. Duplicate config-source trap (silent override)<a class="headerlink" href="#95-duplicate-config-source-trap-silent-override" title="Anchor link to this section">&para;</a></h3>
-<p>Pitfall surfaced on Facebook: PR added 5 new scopes to <code>FB_DEFAULT_SCOPES</code> in <code>auth/facebook_auth.py</code>, but <code>config/settings.py</code> had its OWN field with the old string. The auth code did <code>getattr(settings, "facebook_scopes", None) or FB_DEFAULT_SCOPES</code> — <code>settings.facebook_scopes</code> ALWAYS won because it's a real attribute, never None. <code>FB_DEFAULT_SCOPES</code> was dead code.</p>
+<p>Pitfall surfaced on Facebook: PR added 5 new scopes to <code>FB_DEFAULT_SCOPES</code> in <code>auth/facebook_auth.py</code>, but <code>config/settings.py</code> had its OWN field with the old string. The auth code did <code>getattr(settings, "facebook_scopes", None) or FB_DEFAULT_SCOPES</code>  --  <code>settings.facebook_scopes</code> ALWAYS won because it's a real attribute, never None. <code>FB_DEFAULT_SCOPES</code> was dead code.</p>
 <p>For ANY connector-level constant (scopes, redirect URI, API base, version):</p>
 <ul>
-<li>[ ] Exactly ONE source of truth. If two: the one in <code>config/settings.py</code> will win — confirm by reading the actual <code>getattr(...) or DEFAULT</code> site</li>
+<li>[ ] Exactly ONE source of truth. If two: the one in <code>config/settings.py</code> will win  --  confirm by reading the actual <code>getattr(...) or DEFAULT</code> site</li>
 <li>[ ] When the contributor adds new values, they updated EVERY duplicate or deleted the duplicate</li>
-<li>[ ] Live verification (§5/§8) is what catches this — never trust code-reading alone</li>
+<li>[ ] Live verification (§5/§8) is what catches this  --  never trust code-reading alone</li>
 </ul>
 <h3 id="96-parallel-code-path-trap-refactor-missed-sibling">9.6. Parallel code path trap (refactor missed sibling)<a class="headerlink" href="#96-parallel-code-path-trap-refactor-missed-sibling" title="Anchor link to this section">&para;</a></h3>
-<p>Pitfall surfaced on Mailchimp: a fix correctly made the inline <code>server.py</code> loader async-aware, and a separate PR migrated the TokenManager to sync helpers. But <code>auth/mailchimp_auth.py</code> had THREE helper methods doing <code>await self.token_manager.load_token(...)</code> — a parallel code path the inline fix never touched. Every tool call hit <code>TypeError: object dict can't be used in 'await' expression</code>.</p>
-<p>Recurred on a metric-spec ship: PR added contract strings to <code>server.py</code>'s data-contract render path. CI green, dev deploy green. First smoke against the deployed surface showed the directive MISSING — because the Claude-shaped render path is a near-duplicate in <code>openai_app/response_formatter.py</code> with its own override map. Server.py path was instrumented; openai_app path wasn't.</p>
+<p>Pitfall surfaced on Mailchimp: a fix correctly made the inline <code>server.py</code> loader async-aware, and a separate PR migrated the TokenManager to sync helpers. But <code>auth/mailchimp_auth.py</code> had THREE helper methods doing <code>await self.token_manager.load_token(...)</code>  --  a parallel code path the inline fix never touched. Every tool call hit <code>TypeError: object dict can't be used in 'await' expression</code>.</p>
+<p>Recurred on a metric-spec ship: PR added contract strings to <code>server.py</code>'s data-contract render path. CI green, dev deploy green. First smoke against the deployed surface showed the directive MISSING  --  because the Claude-shaped render path is a near-duplicate in <code>openai_app/response_formatter.py</code> with its own override map. Server.py path was instrumented; openai_app path wasn't.</p>
 <p><strong>Mitigation pattern (generalizable):</strong> when intentional duplication can't be collapsed to a single source without architectural lift, add a lockstep equality test that asserts the two copies are equal. Drift becomes a static problem (CI red on edit-one-copy) instead of a runtime one (silent ship, customer-visible).</p>
 <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">test_X_constants_in_lockstep_across_render_paths</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;server.py and openai_app must carry IDENTICAL X strings.</span>
@@ -8162,13 +8162,13 @@
 <td>Token load/save/delete</td>
 <td><code>server.py</code> inline loader (async-aware)</td>
 <td><code>auth/&lt;connector&gt;_auth.py</code> helper methods (<code>get_access_token</code>, etc.)</td>
-<td>None today — grep every <code>token_manager.(load|save|delete)_token</code> call site, confirm sync/async parity</td>
+<td>None today  --  grep every <code>token_manager.(load|save|delete)_token</code> call site, confirm sync/async parity</td>
 </tr>
 <tr>
 <td>Per-tool data contract text</td>
 <td><code>server.py:_tool_data_contract_text</code> (stdio + raw HTTP path)</td>
 <td><code>openai_app/response_formatter.py:_build_data_contract</code> (Claude/widget path)</td>
-<td>A test like the above — string-equality assertion forces CI break on drift</td>
+<td>A test like the above  --  string-equality assertion forces CI break on drift</td>
 </tr>
 <tr>
 <td>Tool registration</td>
@@ -8180,7 +8180,7 @@
 <td>Tool dispatch</td>
 <td><code>server.py</code> async elif-block</td>
 <td><code>server.py</code> HTTP dispatch elif-block for the same connector</td>
-<td>None — grep both for every <code>name == "&lt;tool&gt;"</code> branch on a new tool</td>
+<td>None  --  grep both for every <code>name == "&lt;tool&gt;"</code> branch on a new tool</td>
 </tr>
 <tr>
 <td>OAuth scope set</td>
@@ -8197,9 +8197,9 @@
 <p><strong>Before any "shipped" / "fixed" / "ready" claim:</strong></p>
 <p>Get a JWT for a test user. Invoke at least ONE representative READ tool against the prod endpoint with that JWT. Confirm the response has actual data, not just an error envelope. For each connector, smoke at least one tool from each category present:</p>
 <ul>
-<li><strong>Account/profile read</strong> (<code>get_&lt;x&gt;_account</code>, <code>get_&lt;x&gt;_profile</code>) — easiest signal of dispatch health</li>
-<li><strong>List read</strong> (<code>list_&lt;x&gt;_&lt;resources&gt;</code>) — proves pagination/serialization</li>
-<li><strong>Detail read</strong> (<code>get_&lt;x&gt;_&lt;resource&gt;</code> with an ID from the list) — proves parameter passing works</li>
+<li><strong>Account/profile read</strong> (<code>get_&lt;x&gt;_account</code>, <code>get_&lt;x&gt;_profile</code>)  --  easiest signal of dispatch health</li>
+<li><strong>List read</strong> (<code>list_&lt;x&gt;_&lt;resources&gt;</code>)  --  proves pagination/serialization</li>
+<li><strong>Detail read</strong> (<code>get_&lt;x&gt;_&lt;resource&gt;</code> with an ID from the list)  --  proves parameter passing works</li>
 </ul>
 <p>If the connector has write tools, do NOT smoke them in this audit. Stick to read-only.</p>
 <h4 id="whats-required-to-mark-10-clean">What's required to mark §10 clean<a class="headerlink" href="#whats-required-to-mark-10-clean" title="Anchor link to this section">&para;</a></h4>
@@ -8217,32 +8217,32 @@
 </tr>
 <tr>
 <td>HTTP 200 + <code>Tool &lt;name&gt; error: …</code> in <code>content[0].text</code></td>
-<td>❌ <strong>DISPATCH BUG</strong> — usually means async path doesn't match adapter signature. Do NOT ship.</td>
+<td>❌ <strong>DISPATCH BUG</strong>  --  usually means async path doesn't match adapter signature. Do NOT ship.</td>
 </tr>
 <tr>
 <td>HTTP 200 + auth-required envelope</td>
-<td>⚠ test user isn't authorized — re-auth and retry; not a code bug but smoke didn't complete</td>
+<td>⚠ test user isn't authorized  --  re-auth and retry; not a code bug but smoke didn't complete</td>
 </tr>
 <tr>
 <td>HTTP 401/403</td>
-<td>JWT expired — refresh and retry</td>
+<td>JWT expired  --  refresh and retry</td>
 </tr>
 <tr>
 <td>HTTP 5xx</td>
-<td>Container is unhealthy — separate issue</td>
+<td>Container is unhealthy  --  separate issue</td>
 </tr>
 </tbody>
 </table>
 <h4 id="pitfall-error-envelopes-inside-http-200-responses">Pitfall: error envelopes inside HTTP 200 responses<a class="headerlink" href="#pitfall-error-envelopes-inside-http-200-responses" title="Anchor link to this section">&para;</a></h4>
-<p>Many MCP servers wrap tool failures in <code>result.content[0].text</code> with the literal string <code>Tool &lt;name&gt; error: &lt;message&gt;</code>. The HTTP response is 200, the JSONRPC envelope has <code>result</code> not <code>error</code>, but the actual tool failed. <strong>Always parse <code>content[0].text</code> and check for the error prefix</strong> — do not stop at HTTP 200 or "JSONRPC result is present."</p>
+<p>Many MCP servers wrap tool failures in <code>result.content[0].text</code> with the literal string <code>Tool &lt;name&gt; error: &lt;message&gt;</code>. The HTTP response is 200, the JSONRPC envelope has <code>result</code> not <code>error</code>, but the actual tool failed. <strong>Always parse <code>content[0].text</code> and check for the error prefix</strong>  --  do not stop at HTTP 200 or "JSONRPC result is present."</p>
 <h4 id="pitfall-auth-required-envelope-is-partial-10-evidence-not-full">Pitfall: auth-required envelope is partial §10 evidence, NOT full<a class="headerlink" href="#pitfall-auth-required-envelope-is-partial-10-evidence-not-full" title="Anchor link to this section">&para;</a></h4>
 <p>A successful smoke against an authenticated user is the whole picture. An auth-required envelope means dispatch wiring works (tool was found, gate fires cleanly) but the new vendor-facing code paths were never exercised. The honest status framing when you hit this:</p>
 <blockquote>
-<p>"Shipped to prod: deploy green, tools dispatched cleanly on <code>/mcp/tools/list</code>, CI value-level tests cover the new code paths. Vendor-side verification (real call returning the new envelope shape) is owed to the next authenticated session — instructions for what to look for in the issue comment."</p>
+<p>"Shipped to prod: deploy green, tools dispatched cleanly on <code>/mcp/tools/list</code>, CI value-level tests cover the new code paths. Vendor-side verification (real call returning the new envelope shape) is owed to the next authenticated session  --  instructions for what to look for in the issue comment."</p>
 </blockquote>
-<p>Do not claim "fully verified end-to-end" without the real vendor response. Do not under-claim either — dispatch+CI is meaningful evidence, just not the whole picture.</p>
+<p>Do not claim "fully verified end-to-end" without the real vendor response. Do not under-claim either  --  dispatch+CI is meaningful evidence, just not the whole picture.</p>
 <h4 id="pitfall-retrieved-0-results-is-not-a-failure-signal">Pitfall: "Retrieved 0 results." is NOT a failure signal<a class="headerlink" href="#pitfall-retrieved-0-results-is-not-a-failure-signal" title="Anchor link to this section">&para;</a></h4>
-<p>Some MCP wrappers inject a canonical data-contract footer into every tool response's <code>content[0].text</code> slot. It typically reads <code>Retrieved 0 results.\nData contract: ...\nPowered by &lt;wrapper&gt;</code>. <strong>The real payload lives in <code>result.structuredContent.data</code></strong> — a dict with the actual adapter return value. A successful tool call shows <code>Retrieved 0 results.</code> in text AND has <code>structuredContent.data.&lt;field&gt; = &lt;value&gt;</code>. Do not flag the prose as failure; parse <code>structuredContent.data</code> and assert real fields.</p>
+<p>Some MCP wrappers inject a canonical data-contract footer into every tool response's <code>content[0].text</code> slot. It typically reads <code>Retrieved 0 results.\nData contract: ...\nPowered by &lt;wrapper&gt;</code>. <strong>The real payload lives in <code>result.structuredContent.data</code></strong>  --  a dict with the actual adapter return value. A successful tool call shows <code>Retrieved 0 results.</code> in text AND has <code>structuredContent.data.&lt;field&gt; = &lt;value&gt;</code>. Do not flag the prose as failure; parse <code>structuredContent.data</code> and assert real fields.</p>
 <p>This is the single highest-value check in the audit. If you have time for only one, do this one.</p>
 <h3 id="11-dev-and-prod-deploy-both-green">11. Dev AND prod deploy both green<a class="headerlink" href="#11-dev-and-prod-deploy-both-green" title="Anchor link to this section">&para;</a></h3>
 <p>Lesson: a direct-to-main style commit can leave Development behind. Always check BOTH environments after any connector-affecting merge.</p>
@@ -8251,9 +8251,9 @@
 <li>[ ] Last main deploy is green</li>
 <li>[ ] <code>tools/list</code> on BOTH hosts returns the connector at expected count</li>
 </ul>
-<h3 id="115-oauth-scope-drift-verify-stored-token-scopes-before-blaming-code">11.5. OAuth scope drift — verify stored token scopes BEFORE blaming code<a class="headerlink" href="#115-oauth-scope-drift-verify-stored-token-scopes-before-blaming-code" title="Anchor link to this section">&para;</a></h3>
-<p>When a vendor connector returns "Application does not have permission" / "Invalid OAuth 2.0 Access Token" on tools that <em>should</em> work — and connector status says Connected, and the code looks right — <strong>check the stored token's scope set BEFORE filing a code bug or delegating an audit</strong>.</p>
-<p>Failure mode: a recent PR added a new scope to the OAuth request. Users who authorized BEFORE that PR have valid-but-stale tokens — the right scopes were never granted. Status reports green; API calls needing the new scope fail.</p>
+<h3 id="115-oauth-scope-drift-verify-stored-token-scopes-before-blaming-code">11.5. OAuth scope drift  --  verify stored token scopes BEFORE blaming code<a class="headerlink" href="#115-oauth-scope-drift-verify-stored-token-scopes-before-blaming-code" title="Anchor link to this section">&para;</a></h3>
+<p>When a vendor connector returns "Application does not have permission" / "Invalid OAuth 2.0 Access Token" on tools that <em>should</em> work  --  and connector status says Connected, and the code looks right  --  <strong>check the stored token's scope set BEFORE filing a code bug or delegating an audit</strong>.</p>
+<p>Failure mode: a recent PR added a new scope to the OAuth request. Users who authorized BEFORE that PR have valid-but-stale tokens  --  the right scopes were never granted. Status reports green; API calls needing the new scope fail.</p>
 <p><strong>30-second diagnostic (Meta example):</strong></p>
 <ol>
 <li>Grab the <code>access_token=</code> query value from any leaking error envelope URL</li>
@@ -8282,7 +8282,7 @@ git<span class="w"> </span>checkout<span class="w"> </span>-b<span class="w"> </
 git<span class="w"> </span>push<span class="w"> </span>-u<span class="w"> </span>origin<span class="w"> </span>release/X
 gh<span class="w"> </span>pr<span class="w"> </span>create<span class="w"> </span>--base<span class="w"> </span>main<span class="w"> </span>...
 </code></pre></div>
-<p>The <code>git checkout -b release/X origin/Development</code> form sidesteps the trap entirely — there's no local Development branch in the equation, so it can't be stale.</p>
+<p>The <code>git checkout -b release/X origin/Development</code> form sidesteps the trap entirely  --  there's no local Development branch in the equation, so it can't be stale.</p>
 <p><strong>Pre-promotion verification (catches the trap if you forget):</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1"># This should be NON-EMPTY for any file the new PRs touched</span>
 git<span class="w"> </span>fetch<span class="w"> </span>origin<span class="w"> </span>-q
@@ -8291,7 +8291,7 @@ git<span class="w"> </span>diff<span class="w"> </span>origin/main..origin/Devel
 <span class="c1"># Re-cut release branch from origin/Development directly.</span>
 </code></pre></div>
 <p><strong>Why this fails silently:</strong> the merge produces zero diff, the PR shows green CI, the deploy workflow ships the new commit SHA, the container restarts cleanly. Every signal says "shipped." But <code>git show &lt;deploy_sha&gt;:&lt;changed_file&gt;</code> returns the OLD bytes because the deploy SHA points to a merge commit with no changes underneath it. You only catch the failure when you actually invoke the tool and see the bug you just "fixed" still present.</p>
-<p><strong>Pre-flight check for §11 deploy verification:</strong> before declaring deploy green, confirm the deployed image SHA's bytes match what you intended to ship — not just that the workflow run reports success. The image-SHA-to-bytes check is mechanical (one git command) and catches both this trap and the rarer case where the deploy step itself shipped a stale build artifact.</p>
+<p><strong>Pre-flight check for §11 deploy verification:</strong> before declaring deploy green, confirm the deployed image SHA's bytes match what you intended to ship  --  not just that the workflow run reports success. The image-SHA-to-bytes check is mechanical (one git command) and catches both this trap and the rarer case where the deploy step itself shipped a stale build artifact.</p>
 <h3 id="13-multi-round-audits-are-not-churn-vs-the-mailchimp-anti-pattern">13. Multi-round audits are not churn (vs the Mailchimp anti-pattern)<a class="headerlink" href="#13-multi-round-audits-are-not-churn-vs-the-mailchimp-anti-pattern" title="Anchor link to this section">&para;</a></h3>
 <p>A single audit cycle CAN legitimately produce N rounds of fix-then-re-exercise, with each round revealing previously-hidden defects that the prior fix exposed. <strong>This is not churn.</strong> The discipline distinction:</p>
 <table>
@@ -8322,11 +8322,11 @@ git<span class="w"> </span>diff<span class="w"> </span>origin/main..origin/Devel
 </table>
 <p><strong>When in doubt:</strong> if you've shipped 3+ PRs in one session for the same connector AND each one carried a single finding AND the user was the trigger ("retry"), STOP and run the full audit. If you've shipped 2-3 PRs AND each carried multiple findings AND the trigger was re-exercise revealing newly-reachable defects, you're on the healthy multi-round path.</p>
 <h2 id="after-the-audit-file-one-issue-ship-one-pr">After the audit: file ONE issue, ship ONE PR<a class="headerlink" href="#after-the-audit-file-one-issue-ship-one-pr" title="Anchor link to this section">&para;</a></h2>
-<p>The output is a single GitHub issue titled <code>&lt;Connector&gt; connector audit — N findings</code>, body is the full checklist with every finding marked done/issue/n-a, and a <code>## Proposed fix plan</code> section listing every code change needed.</p>
+<p>The output is a single GitHub issue titled <code>&lt;Connector&gt; connector audit  --  N findings</code>, body is the full checklist with every finding marked done/issue/n-a, and a <code>## Proposed fix plan</code> section listing every code change needed.</p>
 <p>Then open <strong>one</strong> PR that addresses every finding. Even if the PR touches 10 files. The cost of "one big PR" is review time; the cost of "ten small PRs" is customer-perceived churn. The former is bounded and internal; the latter is unbounded and external.</p>
 <p>The PR description must enumerate which audit findings it closes, and the PR must include the value-level tests from §7 above as regression guards.</p>
 <h2 id="personnel-comms-after-a-process-finding">Personnel comms after a process finding<a class="headerlink" href="#personnel-comms-after-a-process-finding" title="Anchor link to this section">&para;</a></h2>
-<p>When the audit surfaces a process issue tied to an external collaborator — direct-to-main push, missed PR, no-tests-on-shipped-code, or any pattern that crosses into "the contributor should have done X" territory — file the technical fix and the regression-test PR as normal AND surface the process finding to your team lead in writing. <strong>Do NOT initiate outbound comms to the contributor about the process issue.</strong> Personnel-flavored conversations belong to the team lead.</p>
+<p>When the audit surfaces a process issue tied to an external collaborator  --  direct-to-main push, missed PR, no-tests-on-shipped-code, or any pattern that crosses into "the contributor should have done X" territory  --  file the technical fix and the regression-test PR as normal AND surface the process finding to your team lead in writing. <strong>Do NOT initiate outbound comms to the contributor about the process issue.</strong> Personnel-flavored conversations belong to the team lead.</p>
 <p>The two are separate channels: the audit fix lands as normal engineering work via PR; the personnel conversation about <em>how</em> the change was shipped is the lead's. Offering to draft the contributor note is fine; sending it without explicit go-ahead is not.</p>
 <h2 id="before-saying-try-again-to-the-human">Before saying "try again" to the human<a class="headerlink" href="#before-saying-try-again-to-the-human" title="Anchor link to this section">&para;</a></h2>
 <p>Don't ping the customer with "fixed, try again" until you've done the human's flow yourself. Concretely:</p>
@@ -8335,14 +8335,14 @@ git<span class="w"> </span>diff<span class="w"> </span>origin/main..origin/Devel
 <li>Hit the actual <code>/connect?connector=&lt;connector&gt;</code> endpoint, follow the redirect chain to <code>/oauth/&lt;connector&gt;/authorize</code>, confirm 302</li>
 <li>After OAuth completes, call the dynamic-manifest mega-tool AND the raw <code>tools/list</code> from the same client</li>
 <li>Invoke one representative read tool against a real account (or the test account if vendor allows)</li>
-<li>Only then send the "try again" message — and frame it as "verified end-to-end on prod with my own test account, here's what to expect" not just "PR merged"</li>
+<li>Only then send the "try again" message  --  and frame it as "verified end-to-end on prod with my own test account, here's what to expect" not just "PR merged"</li>
 </ol>
-<p>If you can't verify end-to-end (no test account, vendor portal blocks dev), the honest framing is "fix shipped, I couldn't fully verify because of X — please test and let me know what you see." Not "try again."</p>
+<p>If you can't verify end-to-end (no test account, vendor portal blocks dev), the honest framing is "fix shipped, I couldn't fully verify because of X  --  please test and let me know what you see." Not "try again."</p>
 <h2 id="when-to-merge-a-contributor-pr-going-forward">When to merge a contributor PR going forward<a class="headerlink" href="#when-to-merge-a-contributor-pr-going-forward" title="Anchor link to this section">&para;</a></h2>
 <p>Run this checklist BEFORE clicking merge on any contributor PR introducing or touching a connector. The audit on a fresh contribution catches the same bugs but BEFORE the customer hits them. The 30 minutes you spend on the checklist is the cheapest insurance available.</p>
 <p>If the contributor pushes back ("this is overkill for a small change"), the right answer is the Mailchimp inventory above. Nine round-trips and a damaged customer relationship is what the alternative costs.</p>
-<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

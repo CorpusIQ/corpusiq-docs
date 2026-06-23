@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Install and configure the steroids-openai-image-gen provider plugin for Hermes Agent — OpenAI-compatible endpoints or direct Codex Auth image generation.">
+        <meta name="description" content="Install and configure the steroids-openai-image-gen provider plugin for Hermes Agent  --  OpenAI-compatible endpoints or direct Codex Auth image generation.">
       
       
       
@@ -23,7 +23,7 @@
     
     
       
-        <title>Steroids OpenAI Image Gen — Hermes Plugin Setup Guide - CorpusIQ Docs</title>
+        <title>Steroids OpenAI Image Gen  --  Hermes Plugin Setup Guide - CorpusIQ Docs</title>
       
     
     
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Steroids OpenAI Image Gen — Hermes Plugin Setup Guide
+              Steroids OpenAI Image Gen  --  Hermes Plugin Setup Guide
             
           </span>
         </div>
@@ -7683,7 +7683,7 @@
   
 
 
-<h1 id="steroids-openai-image-gen-setup-guide">Steroids OpenAI Image Gen — Setup Guide<a class="headerlink" href="#steroids-openai-image-gen-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="steroids-openai-image-gen-setup-guide">Steroids OpenAI Image Gen  --  Setup Guide<a class="headerlink" href="#steroids-openai-image-gen-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Plugin:</strong> <code>eve-ai-dev/steroids-openai-image-gen</code><br />
 <strong>Purpose:</strong> Hermes image generation using OpenAI-compatible endpoints or Codex OAuth<br />
 <strong>License:</strong> MIT | <strong>Language:</strong> Python | <strong>Stars:</strong> 2</p>
@@ -7691,8 +7691,8 @@
 <h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
 <p>Adds a Hermes image generation provider with two modes:</p>
 <ol>
-<li><strong>OpenAI-compatible</strong> — any endpoint with <code>/v1/images/generations</code> and <code>/v1/images/edits</code> routes</li>
-<li><strong>Codex Auth</strong> — uses Codex/OpenAI OAuth token directly</li>
+<li><strong>OpenAI-compatible</strong>  --  any endpoint with <code>/v1/images/generations</code> and <code>/v1/images/edits</code> routes</li>
+<li><strong>Codex Auth</strong>  --  uses Codex/OpenAI OAuth token directly</li>
 </ol>
 <p>Also provides <code>image_generate_background</code> for batch/slow jobs via Hermes' process registry completion queue.</p>
 <hr />
@@ -7740,7 +7740,7 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/eve-a
 <span class="w">    </span><span class="nt">quality</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">medium</span>
 <span class="w">    </span><span class="nt">max_reference_images</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">16</span>
 </code></pre></div>
-<p>Uses Hermes' internal Codex auth helper — no external image endpoint needed.</p>
+<p>Uses Hermes' internal Codex auth helper  --  no external image endpoint needed.</p>
 <hr />
 <h2 id="enhanced-tool-schema">Enhanced Tool Schema<a class="headerlink" href="#enhanced-tool-schema" title="Anchor link to this section">&para;</a></h2>
 <p>The plugin registers an extended <code>image_generate</code> schema:</p>
@@ -7769,9 +7769,9 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/eve-a
 <span class="p">}</span>
 </code></pre></div>
 <p>Jobs persist at <code>${HERMES_HOME}/steroids_openai_image_gen/jobs/&lt;job_id&gt;/</code>:
-- <code>status.json</code> — current state
-- <code>result.json</code> — on completion
-- <code>delivery_event.json</code> — routing metadata</p>
+- <code>status.json</code>  --  current state
+- <code>result.json</code>  --  on completion
+- <code>delivery_event.json</code>  --  routing metadata</p>
 <p>Check job status with <code>image_generate_background_status</code> using the returned <code>job_id</code>.</p>
 <hr />
 <h2 id="compatibility-notes">Compatibility Notes<a class="headerlink" href="#compatibility-notes" title="Anchor link to this section">&para;</a></h2>

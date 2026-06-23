@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="How autonomous agents recover context after restart — session handoff, auto-recovery, and persistent state across sessions">
+        <meta name="description" content="How autonomous agents recover context after restart  --  session handoff, auto-recovery, and persistent state across sessions">
       
       
       
@@ -23,7 +23,7 @@
     
     
       
-        <title>Session Handoff — Anti-Amnesia Pattern - CorpusIQ Docs</title>
+        <title>Session Handoff  --  Anti-Amnesia Pattern - CorpusIQ Docs</title>
       
     
     
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Session Handoff — Anti-Amnesia Pattern
+              Session Handoff  --  Anti-Amnesia Pattern
             
           </span>
         </div>
@@ -7683,7 +7683,7 @@
   
 
 
-<h1 id="session-handoff-anti-amnesia-pattern">Session Handoff — Anti-Amnesia Pattern<a class="headerlink" href="#session-handoff-anti-amnesia-pattern" title="Anchor link to this section">&para;</a></h1>
+<h1 id="session-handoff-anti-amnesia-pattern">Session Handoff  --  Anti-Amnesia Pattern<a class="headerlink" href="#session-handoff-anti-amnesia-pattern" title="Anchor link to this section">&para;</a></h1>
 <p>The fundamental problem with autonomous agents: they lose everything on restart. Every session starts from zero. The operator has to re-explain active tasks, blocked items, decisions made. This breaks the promise of autonomy.</p>
 <p>The anti-amnesia pattern fixes this. It's a two-part system: <strong>save before shutdown, recover on startup</strong>.</p>
 <h2 id="the-problem">The Problem<a class="headerlink" href="#the-problem" title="Anchor link to this section">&para;</a></h2>
@@ -7723,7 +7723,7 @@ corpusiq-session-handoff skill
     ├── Saves handoff page to GBrain (tagged: active-task)
     └── Updates active task tags
 
-[Restart — agent has no context]
+[Restart  --  agent has no context]
 
 Session Start
     ↓
@@ -7768,8 +7768,8 @@ corpusiq-session-start skill (Step 6: Context Recovery)
 </table>
 <h2 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Anchor link to this section">&para;</a></h2>
 <p>Two skills power this:</p>
-<p><strong><code>corpusiq-session-handoff</code></strong> — Runs at session end. Writes structured state. Tags GBrain pages. Appends to TASK_HISTORY.md.</p>
-<p><strong><code>corpusiq-session-start</code></strong> — Runs at session start. Step 6 recovers context from TASK_HISTORY.md, session_search, and GBrain before any other action.</p>
+<p><strong><code>corpusiq-session-handoff</code></strong>  --  Runs at session end. Writes structured state. Tags GBrain pages. Appends to TASK_HISTORY.md.</p>
+<p><strong><code>corpusiq-session-start</code></strong>  --  Runs at session start. Step 6 recovers context from TASK_HISTORY.md, session_search, and GBrain before any other action.</p>
 <h2 id="why-this-works">Why This Works<a class="headerlink" href="#why-this-works" title="Anchor link to this section">&para;</a></h2>
 <p>Most "memory" solutions try to preserve everything. They fail because:
 - Context windows fill up

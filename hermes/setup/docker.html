@@ -27,7 +27,7 @@
     
     
       
-        <title>Docker Hermes Agent Setup — Reproducible Container Deployment Guide - CorpusIQ Docs</title>
+        <title>Docker Hermes Agent Setup  --  Reproducible Container Deployment Guide - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Docker Hermes Agent Setup — Reproducible Container Deployment Guide
+              Docker Hermes Agent Setup  --  Reproducible Container Deployment Guide
             
           </span>
         </div>
@@ -7971,8 +7971,8 @@
   
 
 
-<h1 id="docker-hermes-agent-setup-reproducible-container-deployment">Docker Hermes Agent Setup — Reproducible Container Deployment<a class="headerlink" href="#docker-hermes-agent-setup-reproducible-container-deployment" title="Anchor link to this section">&para;</a></h1>
-<p>Deploy Hermes Agent as a Docker container for identical behavior on your laptop, a cloud VPS, or a CI/CD pipeline. No Python version conflicts, no dependency hell — just consistent, reproducible AI agent deployment. This Docker setup guide covers Compose configuration, volume management, MCP integration, and production hardening.</p>
+<h1 id="docker-hermes-agent-setup-reproducible-container-deployment">Docker Hermes Agent Setup  --  Reproducible Container Deployment<a class="headerlink" href="#docker-hermes-agent-setup-reproducible-container-deployment" title="Anchor link to this section">&para;</a></h1>
+<p>Deploy Hermes Agent as a Docker container for identical behavior on your laptop, a cloud VPS, or a CI/CD pipeline. No Python version conflicts, no dependency hell  --  just consistent, reproducible AI agent deployment. This Docker setup guide covers Compose configuration, volume management, MCP integration, and production hardening.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <p>Docker deployment is the most portable way to run Hermes Agent. The official <code>nousresearch/hermes-agent:latest</code> image ships with all dependencies pre-installed. Mount your config as a volume for persistence, set API keys as environment variables, and you're running in under 2 minutes.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
@@ -8129,18 +8129,18 @@ docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">ex
 </ul>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="do-i-need-to-rebuild-the-docker-image-for-updates">Do I need to rebuild the Docker image for updates?<a class="headerlink" href="#do-i-need-to-rebuild-the-docker-image-for-updates" title="Anchor link to this section">&para;</a></h3>
-<p>No — <code>docker compose pull</code> fetches the latest image from Docker Hub. Your config, skills, and crons persist in the mounted volume.</p>
+<p>No  --  <code>docker compose pull</code> fetches the latest image from Docker Hub. Your config, skills, and crons persist in the mounted volume.</p>
 <h3 id="can-i-run-gpu-accelerated-models-in-docker">Can I run GPU-accelerated models in Docker?<a class="headerlink" href="#can-i-run-gpu-accelerated-models-in-docker" title="Anchor link to this section">&para;</a></h3>
 <p>Yes, if the host has an NVIDIA GPU and the NVIDIA Container Toolkit installed. Pass <code>--gpus all</code> to <code>docker run</code> or add <code>deploy.resources.reservations.devices</code> in Compose.</p>
 <h3 id="how-do-i-add-custom-skills-to-docker-hermes">How do I add custom skills to Docker Hermes?<a class="headerlink" href="#how-do-i-add-custom-skills-to-docker-hermes" title="Anchor link to this section">&para;</a></h3>
 <p>Mount your skills directory: <code>- ./skills:/home/hermes/skills:ro</code>. New skills are immediately available. See the <a href="/hermes/skills/creating-skills.md">custom skills guide</a>.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/setup/">Hermes Agent Setup Overview</a> — All platform options</li>
-<li><a href="cloud-vps.html">Cloud VPS Setup</a> — Docker on cloud</li>
-<li><a href="gaming-pc.html">Gaming PC Setup</a> — Docker with GPU passthrough</li>
-<li><a href="/hermes/mcp/">MCP Integration Guide</a> — Connect tools inside containers</li>
-<li><a href="/hermes/skills/creating-skills.md">Creating Custom Skills</a> — Mount skills in Docker</li>
+<li><a href="/hermes/setup/">Hermes Agent Setup Overview</a>  --  All platform options</li>
+<li><a href="cloud-vps.html">Cloud VPS Setup</a>  --  Docker on cloud</li>
+<li><a href="gaming-pc.html">Gaming PC Setup</a>  --  Docker with GPU passthrough</li>
+<li><a href="/hermes/mcp/">MCP Integration Guide</a>  --  Connect tools inside containers</li>
+<li><a href="/hermes/skills/creating-skills.md">Creating Custom Skills</a>  --  Mount skills in Docker</li>
 </ul>
 <hr />
 <p>*</p>

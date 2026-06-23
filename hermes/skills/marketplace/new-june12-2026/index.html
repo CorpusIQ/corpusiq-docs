@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Overnight sweep: 3 new Hermes-specific skills discovered — security attestation, traffic monitoring, and a Hermes-themed UI deck. From ClawSec and nexu-io.">
+        <meta name="description" content="Overnight sweep: 3 new Hermes-specific skills discovered  --  security attestation, traffic monitoring, and a Hermes-themed UI deck. From ClawSec and nexu-io.">
       
       
       
@@ -23,7 +23,7 @@
     
     
       
-        <title>June 12, 2026 — New Hermes Security & UI Skills - CorpusIQ Docs</title>
+        <title>June 12, 2026  --  New Hermes Security & UI Skills - CorpusIQ Docs</title>
       
     
     
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              June 12, 2026 — New Hermes Security & UI Skills
+              June 12, 2026  --  New Hermes Security & UI Skills
             
           </span>
         </div>
@@ -7562,12 +7562,12 @@
   <a href="#prompt-securityclawsec-hermes-security-suite-2-skills" class="md-nav__link">
     <span class="md-ellipsis">
       
-        prompt-security/clawsec — Hermes Security Suite (2 skills)
+        prompt-security/clawsec -- Hermes Security Suite (2 skills)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="prompt-security/clawsec — Hermes Security Suite (2 skills)">
+    <nav class="md-nav" aria-label="prompt-security/clawsec -- Hermes Security Suite (2 skills)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -7601,12 +7601,12 @@
   <a href="#nexu-iohtml-anything-hermes-theme-1-skill" class="md-nav__link">
     <span class="md-ellipsis">
       
-        nexu-io/html-anything — Hermes Theme (1 skill)
+        nexu-io/html-anything -- Hermes Theme (1 skill)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="nexu-io/html-anything — Hermes Theme (1 skill)">
+    <nav class="md-nav" aria-label="nexu-io/html-anything -- Hermes Theme (1 skill)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -7656,11 +7656,11 @@
   
 
 
-<h1 id="june-12-2026-new-hermes-security-ui-skills">June 12, 2026 — New Hermes Security &amp; UI Skills<a class="headerlink" href="#june-12-2026-new-hermes-security-ui-skills" title="Anchor link to this section">&para;</a></h1>
+<h1 id="june-12-2026-new-hermes-security-ui-skills">June 12, 2026  --  New Hermes Security &amp; UI Skills<a class="headerlink" href="#june-12-2026-new-hermes-security-ui-skills" title="Anchor link to this section">&para;</a></h1>
 <p>Overnight sweep found <strong>3 new Hermes-specific skills</strong> not in any existing catalog page. Key finds: ClawSec's security attestation/traffic monitoring suite from <code>prompt-security/clawsec</code> and a Hermes-themed cyber UI deck.</p>
 <p><em>Previously cataloged: 334 total (89 native + 245 marketplace). This update adds 3 → 337 total.</em></p>
 <hr />
-<h2 id="prompt-securityclawsec-hermes-security-suite-2-skills">prompt-security/clawsec — Hermes Security Suite (2 skills)<a class="headerlink" href="#prompt-securityclawsec-hermes-security-suite-2-skills" title="Anchor link to this section">&para;</a></h2>
+<h2 id="prompt-securityclawsec-hermes-security-suite-2-skills">prompt-security/clawsec  --  Hermes Security Suite (2 skills)<a class="headerlink" href="#prompt-securityclawsec-hermes-security-suite-2-skills" title="Anchor link to this section">&para;</a></h2>
 <p>ClawSec by Prompt Security provides Hermes-first runtime security attestation and traffic monitoring. Both skills use signed release verification with reproducible checksum validation. AGPL-3.0-or-later licensed.</p>
 <h3 id="hermes-attestation-guardian-54-installs">hermes-attestation-guardian (54 installs) 🛡️<a class="headerlink" href="#hermes-attestation-guardian-54-installs" title="Anchor link to this section">&para;</a></h3>
 <p>Runtime security attestation and drift detection for operator-managed Hermes infrastructure. Generates deterministic posture attestations, verifies them with fail-closed integrity checks, and compares baseline drift using stable severity mapping. Includes advisory feed integration with signed verification.</p>
@@ -7704,7 +7704,7 @@ node<span class="w"> </span>scripts/setup_attestation_cron.mjs<span class="w"> <
 | <code>HERMES_ADVISORY_FEED_PUBLIC_KEY</code> | Pinned key override |</p>
 <hr />
 <h3 id="hermes-traffic-guardian-24-installs">hermes-traffic-guardian (24 installs) 🔍<a class="headerlink" href="#hermes-traffic-guardian-24-installs" title="Anchor link to this section">&para;</a></h3>
-<p>Runtime traffic monitoring baseline for opt-in proxy inspection, egress detection, and attestation-aware traffic posture. <strong>Baseline specification skill</strong> — intentionally does not ship a proxy or runtime implementation yet (v0.0.1-beta3). Builders use this as the landing zone for implementing Hermes traffic monitoring.</p>
+<p>Runtime traffic monitoring baseline for opt-in proxy inspection, egress detection, and attestation-aware traffic posture. <strong>Baseline specification skill</strong>  --  intentionally does not ship a proxy or runtime implementation yet (v0.0.1-beta3). Builders use this as the landing zone for implementing Hermes traffic monitoring.</p>
 <p><strong>Install:</strong>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>prompt-security/clawsec<span class="w"> </span>--skill<span class="w"> </span>hermes-traffic-guardian<span class="w"> </span>-a<span class="w"> </span>hermes-agent<span class="w"> </span>-y
 </code></pre></div></p>
@@ -7719,8 +7719,8 @@ node<span class="w"> </span>scripts/setup_attestation_cron.mjs<span class="w"> <
 <strong>Version:</strong> 0.0.1-beta3
 <strong>State dir:</strong> <code>$HERMES_HOME/security/traffic-guardian</code></p>
 <p><strong>Safety contract:</strong>
-- Opt-in only — no global proxy changes
-- Detect-and-log by default — no blocking in v0.0.1
+- Opt-in only  --  no global proxy changes
+- Detect-and-log by default  --  no blocking in v0.0.1
 - Secrets redacted before logs/attestation exports
 - No automatic system trust-store mutation
 - No full request/response body collection
@@ -7731,7 +7731,7 @@ node<span class="w"> </span>scripts/setup_attestation_cron.mjs<span class="w"> <
 | <code>lib/</code> | Detector rules, redaction, posture export, report formatting |
 | <code>scripts/</code> | Start, stop, status, config validation, log query, attestation export helpers |
 | <code>test/</code> | Unit tests, proxy fixture tests, redaction tests, attestation export tests |
-| <code>SPEC.md</code> | Full specification — read before implementing |</p>
+| <code>SPEC.md</code> | Full specification  --  read before implementing |</p>
 <p><strong>Required first implementation behavior:</strong>
 1. Validate config without starting the proxy
 2. Start monitor in foreground or explicit background mode
@@ -7741,9 +7741,9 @@ node<span class="w"> </span>scripts/setup_attestation_cron.mjs<span class="w"> <
 6. Emit JSONL findings with redacted snippets
 7. Export posture JSON for <code>hermes-attestation-guardian</code> integration</p>
 <hr />
-<h2 id="nexu-iohtml-anything-hermes-theme-1-skill">nexu-io/html-anything — Hermes Theme (1 skill)<a class="headerlink" href="#nexu-iohtml-anything-hermes-theme-1-skill" title="Anchor link to this section">&para;</a></h2>
+<h2 id="nexu-iohtml-anything-hermes-theme-1-skill">nexu-io/html-anything  --  Hermes Theme (1 skill)<a class="headerlink" href="#nexu-iohtml-anything-hermes-theme-1-skill" title="Anchor link to this section">&para;</a></h2>
 <h3 id="deck-hermes-cyber-29-installs">deck-hermes-cyber (29 installs) 🎨<a class="headerlink" href="#deck-hermes-cyber-29-installs" title="Anchor link to this section">&para;</a></h3>
-<p>Hermes-themed cyber UI deck from the <code>nexu-io/html-anything</code> collection. Minimal documentation — SKILL.md not publicly accessible on GitHub. Part of a themed-deck collection alongside invoice, meeting-notes, live-dashboard, and doc-kami-parchment decks. Primarily cosmetic/aesthetic.</p>
+<p>Hermes-themed cyber UI deck from the <code>nexu-io/html-anything</code> collection. Minimal documentation  --  SKILL.md not publicly accessible on GitHub. Part of a themed-deck collection alongside invoice, meeting-notes, live-dashboard, and doc-kami-parchment decks. Primarily cosmetic/aesthetic.</p>
 <p><strong>Install:</strong>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>nexu-io/html-anything<span class="w"> </span>--skill<span class="w"> </span>deck-hermes-cyber
 </code></pre></div></p>

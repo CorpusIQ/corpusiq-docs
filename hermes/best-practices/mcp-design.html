@@ -27,7 +27,7 @@
     
     
       
-        <title>MCP Server Design Guide for Hermes Agent — Build Custom AI Tools - CorpusIQ Docs</title>
+        <title>MCP Server Design Guide for Hermes Agent  --  Build Custom AI Tools - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              MCP Server Design Guide for Hermes Agent — Build Custom AI Tools
+              MCP Server Design Guide for Hermes Agent  --  Build Custom AI Tools
             
           </span>
         </div>
@@ -7939,10 +7939,10 @@
   
 
 
-<h1 id="mcp-server-design-guide-build-custom-ai-agent-tools">MCP Server Design Guide — Build Custom AI Agent Tools<a class="headerlink" href="#mcp-server-design-guide-build-custom-ai-agent-tools" title="Anchor link to this section">&para;</a></h1>
+<h1 id="mcp-server-design-guide-build-custom-ai-agent-tools">MCP Server Design Guide  --  Build Custom AI Agent Tools<a class="headerlink" href="#mcp-server-design-guide-build-custom-ai-agent-tools" title="Anchor link to this section">&para;</a></h1>
 <p>Model Context Protocol (MCP) servers extend Hermes Agent with custom tools and data sources. Designing an MCP server well means respecting both the protocol constraints and the expectations of the Hermes community. This MCP server design guide covers tool design, error handling, performance, testing, and the full server lifecycle.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>MCP servers are how Hermes Agent connects to external systems. Each server exposes tools — typed, documented functions that the agent can call. Following <a href="/hermes/best-practices/">MCP design best practices</a> ensures your server is reliable, performant, and easy for the community to adopt.</p>
+<p>MCP servers are how Hermes Agent connects to external systems. Each server exposes tools  --  typed, documented functions that the agent can call. Following <a href="/hermes/best-practices/">MCP design best practices</a> ensures your server is reliable, performant, and easy for the community to adopt.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <h3 id="when-to-build-vs-when-to-buy">When to Build vs When to Buy<a class="headerlink" href="#when-to-build-vs-when-to-buy" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Build when:</strong> No existing MCP server exists for your data source, you need custom behavior, strict security demands self-hosting, or you're integrating an internal system.</p>
@@ -8017,11 +8017,11 @@
 <p>Validate schema compliance with the MCP validator. Unit test each tool with valid/invalid inputs and edge cases. Integration test against a sandbox environment. Performance test typical queries. Complete a security review for credential exposure and data logging.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/best-practices/">Best Practices Overview</a> — All guides</li>
-<li><a href="/hermes/mcp/">MCP Integration Guide</a> — Connect existing MCP servers</li>
-<li><a href="skill-development.html">Skill Development</a> — Skills that call MCP tools</li>
-<li><a href="security.html">Security</a> — Secure MCP server auth patterns</li>
-<li><a href="/hermes/skills/creating-skills.md">Creating Custom Skills</a> — When skills are better than MCP servers</li>
+<li><a href="/hermes/best-practices/">Best Practices Overview</a>  --  All guides</li>
+<li><a href="/hermes/mcp/">MCP Integration Guide</a>  --  Connect existing MCP servers</li>
+<li><a href="skill-development.html">Skill Development</a>  --  Skills that call MCP tools</li>
+<li><a href="security.html">Security</a>  --  Secure MCP server auth patterns</li>
+<li><a href="/hermes/skills/creating-skills.md">Creating Custom Skills</a>  --  When skills are better than MCP servers</li>
 </ul>
 <hr />
 <p>*</p>

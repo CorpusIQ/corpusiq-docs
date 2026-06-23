@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Zero-dependency TypeScript CLI to audit Hermes agent skills — token budget analysis, duplicate detection, unused skill scanning, description compression.">
+        <meta name="description" content="Zero-dependency TypeScript CLI to audit Hermes agent skills  --  token budget analysis, duplicate detection, unused skill scanning, description compression.">
       
       
         <meta name="author" content="FavorPan">
@@ -25,7 +25,7 @@
     
     
       
-        <title>Hermes Skill Cleaner — Setup Guide - CorpusIQ Docs</title>
+        <title>Hermes Skill Cleaner  --  Setup Guide - CorpusIQ Docs</title>
       
     
     
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes Skill Cleaner — Setup Guide
+              Hermes Skill Cleaner  --  Setup Guide
             
           </span>
         </div>
@@ -7758,12 +7758,12 @@
 
 
 <h1 id="hermes-skill-cleaner-setup">Hermes Skill Cleaner Setup<a class="headerlink" href="#hermes-skill-cleaner-setup" title="Anchor link to this section">&para;</a></h1>
-<p><strong>A zero-dependency TypeScript CLI that audits your Hermes agent skill collection.</strong> Identifies wasted context-window tokens, duplicate skills, unused skills, and overly verbose descriptions — with concrete cleanup recommendations.</p>
+<p><strong>A zero-dependency TypeScript CLI that audits your Hermes agent skill collection.</strong> Identifies wasted context-window tokens, duplicate skills, unused skills, and overly verbose descriptions  --  with concrete cleanup recommendations.</p>
 <h2 id="quick-install">Quick Install<a class="headerlink" href="#quick-install" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/FavorPan/hermes-skill-cleaner.git
 <span class="nb">cd</span><span class="w"> </span>hermes-skill-cleaner
 
-<span class="c1"># Quick budget check (fastest — skips log scanning)</span>
+<span class="c1"># Quick budget check (fastest  --  skips log scanning)</span>
 node<span class="w"> </span>--experimental-strip-types<span class="w"> </span>scripts/hermes-skill-cleaner.ts<span class="w"> </span>--no-logs
 
 <span class="c1"># Full report with usage stats</span>
@@ -7782,9 +7782,9 @@ remaining:      1,150 tokens (29% of budget)
 </code></pre></div>
 <h3 id="2-duplicate-detection">2. Duplicate Detection<a class="headerlink" href="#2-duplicate-detection" title="Anchor link to this section">&para;</a></h3>
 <p>Finds duplicate skills across three strategies:
-- <strong>By name</strong> — same skill name in different directories
-- <strong>By body hash</strong> — identical content under different names
-- <strong>By Jaccard similarity</strong> — near-identical skills (copy-paste variants)</p>
+- <strong>By name</strong>  --  same skill name in different directories
+- <strong>By body hash</strong>  --  identical content under different names
+- <strong>By Jaccard similarity</strong>  --  near-identical skills (copy-paste variants)</p>
 <h3 id="3-usage-scanning">3. Usage Scanning<a class="headerlink" href="#3-usage-scanning" title="Anchor link to this section">&para;</a></h3>
 <p>Parses Hermes session JSONL logs to find which skills are actually invoked. Skills with zero usage traces across recent sessions are flagged as removal candidates.</p>
 <h3 id="4-description-bloat">4. Description Bloat<a class="headerlink" href="#4-description-bloat" title="Anchor link to this section">&para;</a></h3>

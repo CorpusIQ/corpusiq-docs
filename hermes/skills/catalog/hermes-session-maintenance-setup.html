@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Zero-token monthly cleanup for Hermes Agent — close zombie sessions, prune old data, VACUUM state.db. Safe, cron-scheduled, with dry-run mode.">
+        <meta name="description" content="Zero-token monthly cleanup for Hermes Agent  --  close zombie sessions, prune old data, VACUUM state.db. Safe, cron-scheduled, with dry-run mode.">
       
       
         <meta name="author" content="salt-vrn (Leonid Zolotarev, NeiroHost.ru)">
@@ -25,7 +25,7 @@
     
     
       
-        <title>Hermes Session Maintenance — Setup Guide - CorpusIQ Docs</title>
+        <title>Hermes Session Maintenance  --  Setup Guide - CorpusIQ Docs</title>
       
     
     
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes Session Maintenance — Setup Guide
+              Hermes Session Maintenance  --  Setup Guide
             
           </span>
         </div>
@@ -7708,7 +7708,7 @@
 
 
 <h1 id="hermes-session-maintenance-setup">Hermes Session Maintenance Setup<a class="headerlink" href="#hermes-session-maintenance-setup" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Monthly cleanup script for Hermes Agent's <code>state.db</code>.</strong> Closes zombie sessions, prunes old data, backs up the database, and reclaims disk space — all with zero tokens consumed by the agent.</p>
+<p><strong>Monthly cleanup script for Hermes Agent's <code>state.db</code>.</strong> Closes zombie sessions, prunes old data, backs up the database, and reclaims disk space  --  all with zero tokens consumed by the agent.</p>
 <h2 id="the-problem-it-solves">The Problem It Solves<a class="headerlink" href="#the-problem-it-solves" title="Anchor link to this section">&para;</a></h2>
 <p>Hermes Agent stores all sessions and messages in <code>state.db</code> (SQLite). Over time:</p>
 <ul>
@@ -7797,10 +7797,10 @@ bash<span class="w"> </span>~/.hermes/scripts/session-maintenance.sh
 <ul>
 <li><strong>Active sessions</strong> (&lt; 1 day old) are <strong>never touched</strong></li>
 <li><strong><code>started_at</code> format</strong> is verified before modifications (rejects ms timestamps, ISO dates)</li>
-<li><strong><code>ended_at = started_at</code></strong> for zombies — no fabricated durations</li>
+<li><strong><code>ended_at = started_at</code></strong> for zombies  --  no fabricated durations</li>
 <li><strong>Backup before VACUUM</strong> with 30-day retention</li>
 <li><strong><code>flock</code></strong> prevents parallel execution</li>
-<li><strong>Each profile processed independently</strong> — one failure doesn't affect others</li>
+<li><strong>Each profile processed independently</strong>  --  one failure doesn't affect others</li>
 <li><strong>Reports before/after stats</strong> for audit trail</li>
 </ul>
 <h2 id="vacuum-and-the-gateway">⚠️ VACUUM and the Gateway<a class="headerlink" href="#vacuum-and-the-gateway" title="Anchor link to this section">&para;</a></h2>
@@ -7808,13 +7808,13 @@ bash<span class="w"> </span>~/.hermes/scripts/session-maintenance.sh
 <p><strong>Safe approaches:</strong>
 - Schedule at 04:00 (low activity)
 - Use <code>--dry-run</code> first
-- If VACUUM fails — backup is safe, retry next month</p>
+- If VACUUM fails  --  backup is safe, retry next month</p>
 <h2 id="requirements">Requirements<a class="headerlink" href="#requirements" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Linux</strong> (GNU grep with PCRE, <code>flock</code>, <code>du -b</code>)</li>
 <li>Hermes Agent installed</li>
 <li>Bash 4+</li>
-<li>Python 3 (for SQLite operations — comes with Hermes)</li>
+<li>Python 3 (for SQLite operations  --  comes with Hermes)</li>
 </ul>
 <hr />
 <p><em>← <a href="/hermes/skills/catalog/hermes-advanced-memory-setup/">Advanced Memory Setup</a> | <a href="/hermes/skills/catalog/hermes-skill-cleaner-setup/">Skill Cleaner Setup →</a></em>

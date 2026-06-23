@@ -27,7 +27,7 @@
     
     
       
-        <title>Data Analysis Prompts for Hermes Agent — SQL, Reporting & Visualization - CorpusIQ Docs</title>
+        <title>Data Analysis Prompts for Hermes Agent  --  SQL, Reporting & Visualization - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Data Analysis Prompts for Hermes Agent — SQL, Reporting & Visualization
+              Data Analysis Prompts for Hermes Agent  --  SQL, Reporting & Visualization
             
           </span>
         </div>
@@ -7307,7 +7307,7 @@
   <a href="#from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        From the Hermes Prompt Collection — production prompts for AI agents. Powered by CorpusIQ.
+        From the Hermes Prompt Collection -- production prompts for AI agents. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -7936,7 +7936,7 @@
   <a href="#from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        From the Hermes Prompt Collection — production prompts for AI agents. Powered by CorpusIQ.
+        From the Hermes Prompt Collection -- production prompts for AI agents. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -7963,7 +7963,7 @@
   
 
 
-<h1 id="data-analysis-prompts-sql-reporting-visualization">Data Analysis Prompts — SQL, Reporting &amp; Visualization<a class="headerlink" href="#data-analysis-prompts-sql-reporting-visualization" title="Anchor link to this section">&para;</a></h1>
+<h1 id="data-analysis-prompts-sql-reporting-visualization">Data Analysis Prompts  --  SQL, Reporting &amp; Visualization<a class="headerlink" href="#data-analysis-prompts-sql-reporting-visualization" title="Anchor link to this section">&para;</a></h1>
 <hr />
 <h2 id="exploratory-data-analysis">Exploratory Data Analysis<a class="headerlink" href="#exploratory-data-analysis" title="Anchor link to this section">&para;</a></h2>
 <h3 id="first-look-analysis">First-Look Analysis<a class="headerlink" href="#first-look-analysis" title="Anchor link to this section">&para;</a></h3>
@@ -7988,7 +7988,7 @@ Provide code (Python/Pandas or SQL) for each answer so I can reproduce results.
 Data context:
 - [ENTITY] table with [KEY COLUMNS]
 - Time period: [START] to [END]
-- Metrics of interest: [LIST — e.g., revenue, frequency, retention]
+- Metrics of interest: [LIST  --  e.g., revenue, frequency, retention]
 
 For each segment, compute:
 - Segment size and percentage of total
@@ -8001,7 +8001,7 @@ Identify the highest-value segment and the fastest-growing segment. Provide the 
 <hr />
 <h2 id="sql-generation">SQL Generation<a class="headerlink" href="#sql-generation" title="Anchor link to this section">&para;</a></h2>
 <h3 id="query-from-plain-english">Query from Plain English<a class="headerlink" href="#query-from-plain-english" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>Convert the following business question into a SQL query for [DATABASE TYPE — PostgreSQL/BigQuery/Snowflake/MySQL].
+<div class="highlight"><pre><span></span><code>Convert the following business question into a SQL query for [DATABASE TYPE  --  PostgreSQL/BigQuery/Snowflake/MySQL].
 
 Question: [PLAIN ENGLISH QUESTION]
 
@@ -8015,7 +8015,7 @@ Requirements:
 - Include comments explaining each CTE or subquery
 - Handle NULL values appropriately
 - Add query optimization notes if the query would scan large tables
-- Format output as [DESIRED FORMAT — daily time series, top-N ranking, summary statistics]
+- Format output as [DESIRED FORMAT  --  daily time series, top-N ranking, summary statistics]
 
 Expected output columns: [DESCRIBE EACH]
 </code></pre></div>
@@ -8041,8 +8041,8 @@ Suggest any new indexes (with CREATE INDEX statements) that would help.
 <div class="highlight"><pre><span></span><code>Design a [WEEKLY/MONTHLY/QUARTERLY] report for [STAKEHOLDER ROLE].
 
 Metrics to include:
-1. [METRIC 1] — [DEFINITION, TARGET, PREVIOUS PERIOD VALUE]
-2. [METRIC 2] — [DEFINITION, TARGET, PREVIOUS PERIOD VALUE]
+1. [METRIC 1]  --  [DEFINITION, TARGET, PREVIOUS PERIOD VALUE]
+2. [METRIC 2]  --  [DEFINITION, TARGET, PREVIOUS PERIOD VALUE]
 3. [ETC.]
 
 For each metric provide:
@@ -8054,7 +8054,7 @@ For each metric provide:
 Include an executive summary section (max 200 words) synthesizing the key takeaways.
 </code></pre></div>
 <h3 id="chart-and-visualization-guidance">Chart and Visualization Guidance<a class="headerlink" href="#chart-and-visualization-guidance" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>I need to visualize [DATA RELATIONSHIP — e.g., &quot;revenue by channel over 12 months&quot;].
+<div class="highlight"><pre><span></span><code>I need to visualize [DATA RELATIONSHIP  --  e.g., &quot;revenue by channel over 12 months&quot;].
 
 Data characteristics:
 - [N] categories
@@ -8066,7 +8066,7 @@ Recommend:
 1. The best chart type with justification (bar, line, area, scatter, heatmap, etc.)
 2. Color scheme considerations (accessibility, brand alignment)
 3. Labeling strategy (axis titles, data labels, annotations)
-4. What the viewer should notice first — design for the &quot;3-second test&quot;
+4. What the viewer should notice first  --  design for the &quot;3-second test&quot;
 
 Provide the code to generate this in [PLOTLY/MATPLOTLIB/VEGA-LITE/EXCEL].
 </code></pre></div>
@@ -8093,7 +8093,7 @@ Metric: [METRIC NAME]
 Granularity: [HOURLY/DAILY/WEEKLY]
 Expected pattern: [SEASONALITY, TREND, KNOWN EVENTS]
 
-Use [METHOD — z-score/IQR/moving average/STL decomposition] to detect anomalies.
+Use [METHOD  --  z-score/IQR/moving average/STL decomposition] to detect anomalies.
 For each anomaly found:
 - Date/time and observed vs expected value
 - Magnitude (how many standard deviations from baseline)
@@ -8102,8 +8102,8 @@ For each anomaly found:
 
 Provide code to run this detection on an ongoing schedule.
 </code></pre></div>
-<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts">Hermes Prompt Collection</a> — production prompts for AI agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts">Hermes Prompt Collection</a> — production prompts for AI agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts">Hermes Prompt Collection</a>  --  production prompts for AI agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts">Hermes Prompt Collection</a>  --  production prompts for AI agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

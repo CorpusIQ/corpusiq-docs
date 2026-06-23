@@ -1619,7 +1619,7 @@
   <a href="#corpusiq-ai-answers-grounded-in-your-business-data-30-day-free-trial" class="md-nav__link">
     <span class="md-ellipsis">
       
-        CorpusIQ — AI answers grounded in your business data. 30-day free trial.
+        CorpusIQ -- AI answers grounded in your business data. 30-day free trial.
       
     </span>
   </a>
@@ -7866,7 +7866,7 @@
   <a href="#corpusiq-ai-answers-grounded-in-your-business-data-30-day-free-trial" class="md-nav__link">
     <span class="md-ellipsis">
       
-        CorpusIQ — AI answers grounded in your business data. 30-day free trial.
+        CorpusIQ -- AI answers grounded in your business data. 30-day free trial.
       
     </span>
   </a>
@@ -7894,10 +7894,10 @@
 
 
 <h1 id="mcp-security-best-practices-how-to-safely-connect-business-data-to-ai">MCP Security Best Practices: How to Safely Connect Business Data to AI<a class="headerlink" href="#mcp-security-best-practices-how-to-safely-connect-business-data-to-ai" title="Anchor link to this section">&para;</a></h1>
-<p>Security is the first question every business leader asks about AI data integration — and rightly so. Connecting an AI model to your financial systems, CRM, and analytics platforms creates a new data access surface that must be secured deliberately. <strong>MCP's security model</strong> combines OAuth 2.0 authentication, read-only access defaults, encrypted token storage, comprehensive audit trails, and stateless architecture to protect business data at every layer.</p>
+<p>Security is the first question every business leader asks about AI data integration  --  and rightly so. Connecting an AI model to your financial systems, CRM, and analytics platforms creates a new data access surface that must be secured deliberately. <strong>MCP's security model</strong> combines OAuth 2.0 authentication, read-only access defaults, encrypted token storage, comprehensive audit trails, and stateless architecture to protect business data at every layer.</p>
 <h2 id="the-mcp-security-model">The MCP Security Model<a class="headerlink" href="#the-mcp-security-model" title="Anchor link to this section">&para;</a></h2>
 <p>MCP's security model rests on several architectural decisions:</p>
-<p><strong>Read-only by default.</strong> The protocol itself supports both read and write operations, but the secure default — and the approach CorpusIQ takes — is to implement all business intelligence connectors as read-only. The AI model can query data but cannot modify it.</p>
+<p><strong>Read-only by default.</strong> The protocol itself supports both read and write operations, but the secure default  --  and the approach CorpusIQ takes  --  is to implement all business intelligence connectors as read-only. The AI model can query data but cannot modify it.</p>
 <p><strong>OAuth 2.0 authentication.</strong> Every connection to a third-party platform uses OAuth 2.0, the industry standard for delegated authorization. Users grant CorpusIQ specific, scoped permissions rather than sharing credentials.</p>
 <p><strong>Stateless architecture.</strong> MCP servers do not store business data. Each query executes against the live source system and returns results that are immediately discarded. There's no persistent copy of your data to protect.</p>
 <p><strong>Encryption in transit.</strong> All communication between the MCP client, server, and source APIs uses TLS 1.3 encryption. Data is never transmitted in cleartext.</p>
@@ -7905,8 +7905,8 @@
 <h2 id="oauth-scopes-the-principle-of-least-privilege">OAuth Scopes: The Principle of Least Privilege<a class="headerlink" href="#oauth-scopes-the-principle-of-least-privilege" title="Anchor link to this section">&para;</a></h2>
 <p>OAuth 2.0 scopes determine what an MCP server can do with a connected platform. Best practice is to request the minimum scopes necessary for the intended use case.</p>
 <p>CorpusIQ's approach:
-- <strong>Read-only scopes by default.</strong> For QuickBooks, we request <code>com.intuit.quickbooks.accounting.read</code> — not the broader scope that includes write access. For Shopify, we request <code>read_orders</code>, <code>read_products</code>, <code>read_customers</code> — not <code>write_orders</code> or <code>write_products</code>.
-- <strong>Explicit opt-in for write operations.</strong> If a use case requires write access (for example, creating draft invoices), the user must explicitly approve additional scopes. This is a deliberate friction point — it ensures write access is never granted accidentally.
+- <strong>Read-only scopes by default.</strong> For QuickBooks, we request <code>com.intuit.quickbooks.accounting.read</code>  --  not the broader scope that includes write access. For Shopify, we request <code>read_orders</code>, <code>read_products</code>, <code>read_customers</code>  --  not <code>write_orders</code> or <code>write_products</code>.
+- <strong>Explicit opt-in for write operations.</strong> If a use case requires write access (for example, creating draft invoices), the user must explicitly approve additional scopes. This is a deliberate friction point  --  it ensures write access is never granted accidentally.
 - <strong>Per-connector scope configuration.</strong> Each connected platform has independently configured scopes. Granting write access to your email marketing platform doesn't grant write access to your accounting system.
 - <strong>Scope visibility.</strong> Users can see exactly which scopes are granted to each connection at any time through the CorpusIQ dashboard.</p>
 <h2 id="token-management">Token Management<a class="headerlink" href="#token-management" title="Anchor link to this section">&para;</a></h2>
@@ -7915,44 +7915,44 @@
 <p><strong>Encrypted refresh token storage.</strong> Refresh tokens (which can obtain new access tokens) are stored encrypted at rest using AES-256 with per-user key derivation. Even our operations team cannot extract raw refresh tokens.</p>
 <p><strong>Automatic token rotation.</strong> When a refresh token is used to obtain a new access token, some providers also rotate the refresh token. CorpusIQ handles this rotation transparently, ensuring the latest refresh token is always stored.</p>
 <p><strong>Token revocation.</strong> Users can revoke access to any connected platform at any time through the CorpusIQ dashboard. Revocation immediately deletes all stored tokens for that platform and terminates any in-flight requests.</p>
-<p><strong>Cross-user isolation.</strong> Each user's tokens are cryptographically isolated. User A's Shopify token cannot be used to access User B's data, even if both users are in the same CorpusIQ organization. This isolation extends to the database layer — tokens are stored with user-scoped encryption keys.</p>
+<p><strong>Cross-user isolation.</strong> Each user's tokens are cryptographically isolated. User A's Shopify token cannot be used to access User B's data, even if both users are in the same CorpusIQ organization. This isolation extends to the database layer  --  tokens are stored with user-scoped encryption keys.</p>
 <h2 id="read-only-architecture-deep-dive">Read-Only Architecture Deep Dive<a class="headerlink" href="#read-only-architecture-deep-dive" title="Anchor link to this section">&para;</a></h2>
 <p>The read-only default deserves deeper examination because it's the most important security property of the system.</p>
 <p><strong>Protocol-level enforcement.</strong> CorpusIQ's MCP server validates every tool call against a capability matrix. Tools marked as read-only cannot be used to execute write operations, regardless of what OAuth scopes are granted.</p>
 <p><strong>API-level guardrails.</strong> Even with write OAuth scopes, CorpusIQ's connector implementations include additional validation. An API call that would modify data is blocked at the connector level unless the connector is explicitly configured to allow writes.</p>
-<p><strong>AI model guardrails.</strong> The MCP tool definitions presented to the AI model describe read-only capabilities. The model sees "List Shopify Orders" — not "Create Shopify Order." This means the AI model itself cannot request write operations unless they've been explicitly exposed.</p>
+<p><strong>AI model guardrails.</strong> The MCP tool definitions presented to the AI model describe read-only capabilities. The model sees "List Shopify Orders"  --  not "Create Shopify Order." This means the AI model itself cannot request write operations unless they've been explicitly exposed.</p>
 <p><strong>Human approval for writes.</strong> In the rare cases where write operations are enabled, CorpusIQ can require human confirmation before execution. The AI model proposes the action, and a human user must approve it before the MCP server executes it.</p>
-<p>This defense-in-depth approach — protocol, API, AI model, and human approval — means that write operations require multiple deliberate choices to enable. Accidental data modification is architecturally prevented.</p>
+<p>This defense-in-depth approach  --  protocol, API, AI model, and human approval  --  means that write operations require multiple deliberate choices to enable. Accidental data modification is architecturally prevented.</p>
 <h2 id="audit-trails">Audit Trails<a class="headerlink" href="#audit-trails" title="Anchor link to this section">&para;</a></h2>
 <p>Every tool call through CorpusIQ's MCP server is logged, creating a complete audit trail:</p>
 <ul>
-<li><strong>Timestamp</strong> — when the query was executed</li>
-<li><strong>User identity</strong> — who asked the question</li>
-<li><strong>Tool name</strong> — which connector and operation was called</li>
-<li><strong>Parameters</strong> — what filters and arguments were used</li>
-<li><strong>Source system</strong> — which platform was queried</li>
-<li><strong>Response status</strong> — success, error, or timeout</li>
+<li><strong>Timestamp</strong>  --  when the query was executed</li>
+<li><strong>User identity</strong>  --  who asked the question</li>
+<li><strong>Tool name</strong>  --  which connector and operation was called</li>
+<li><strong>Parameters</strong>  --  what filters and arguments were used</li>
+<li><strong>Source system</strong>  --  which platform was queried</li>
+<li><strong>Response status</strong>  --  success, error, or timeout</li>
 </ul>
 <p>This audit trail serves multiple purposes:
-- <strong>Security monitoring</strong> — detect unusual query patterns that might indicate compromise
-- <strong>Compliance</strong> — demonstrate data access controls for SOC 2, GDPR, and other frameworks
-- <strong>Debugging</strong> — trace why a particular answer was returned
-- <strong>Usage analytics</strong> — understand which data sources are most frequently accessed</p>
+- <strong>Security monitoring</strong>  --  detect unusual query patterns that might indicate compromise
+- <strong>Compliance</strong>  --  demonstrate data access controls for SOC 2, GDPR, and other frameworks
+- <strong>Debugging</strong>  --  trace why a particular answer was returned
+- <strong>Usage analytics</strong>  --  understand which data sources are most frequently accessed</p>
 <p>Audit logs are retained according to the user's plan and can be exported for integration with SIEM systems or compliance reporting.</p>
 <h2 id="data-minimization">Data Minimization<a class="headerlink" href="#data-minimization" title="Anchor link to this section">&para;</a></h2>
-<p>MCP's stateless architecture naturally enforces data minimization — the principle that you should only process the data you need, for as long as you need it.</p>
+<p>MCP's stateless architecture naturally enforces data minimization  --  the principle that you should only process the data you need, for as long as you need it.</p>
 <p><strong>No persistent storage.</strong> Query results are held in memory only long enough to return them to the AI model, then discarded. There's no database of your business data sitting on CorpusIQ's servers.</p>
 <p><strong>No data aggregation across customers.</strong> Each customer's queries are processed in isolation. CorpusIQ does not aggregate, analyze, or learn from customer data.</p>
 <p><strong>Minimal metadata.</strong> The only persistent data CorpusIQ maintains is: authentication tokens (encrypted), connector configuration (which platforms are connected, with what scopes), and audit logs (which tools were called, when, and by whom).</p>
-<p>This data minimization approach has concrete compliance benefits. Under GDPR, for example, CorpusIQ's lack of business data storage simplifies data subject access requests — there's no corpus of stored customer data to search and delete.</p>
+<p>This data minimization approach has concrete compliance benefits. Under GDPR, for example, CorpusIQ's lack of business data storage simplifies data subject access requests  --  there's no corpus of stored customer data to search and delete.</p>
 <h2 id="network-security">Network Security<a class="headerlink" href="#network-security" title="Anchor link to this section">&para;</a></h2>
 <p><strong>TLS 1.3 everywhere.</strong> All communication channels use TLS 1.3, including: client-to-server (your AI interface to CorpusIQ), server-to-API (CorpusIQ to source platforms), and internal service communication (within CorpusIQ's infrastructure).</p>
 <p><strong>API gateway.</strong> All inbound requests pass through an API gateway that provides rate limiting, request validation, and DDoS protection.</p>
-<p><strong>VPC isolation.</strong> CorpusIQ's production infrastructure runs in a virtual private cloud with network segmentation between services. The MCP server layer has outbound internet access (to reach source APIs) but no inbound access from the public internet — all client requests route through the API gateway.</p>
+<p><strong>VPC isolation.</strong> CorpusIQ's production infrastructure runs in a virtual private cloud with network segmentation between services. The MCP server layer has outbound internet access (to reach source APIs) but no inbound access from the public internet  --  all client requests route through the API gateway.</p>
 <p><strong>IP allowlisting (Enterprise).</strong> Enterprise customers can restrict access to their CorpusIQ instance to specific IP ranges, ensuring that only requests from their corporate network are accepted.</p>
 <h2 id="compliance-considerations">Compliance Considerations<a class="headerlink" href="#compliance-considerations" title="Anchor link to this section">&para;</a></h2>
 <p><strong>SOC 2.</strong> CorpusIQ maintains SOC 2 Type II certification, covering the security, availability, and confidentiality trust service criteria. The audit trail, access controls, and encryption practices described above support this certification.</p>
-<p><strong>GDPR.</strong> CorpusIQ's data minimization approach — no persistent business data storage, minimal metadata collection — simplifies GDPR compliance. Data processing is limited to what's necessary for the service (answering queries against connected platforms).</p>
+<p><strong>GDPR.</strong> CorpusIQ's data minimization approach  --  no persistent business data storage, minimal metadata collection  --  simplifies GDPR compliance. Data processing is limited to what's necessary for the service (answering queries against connected platforms).</p>
 <p><strong>HIPAA.</strong> CorpusIQ is not designed for protected health information (PHI) and should not be used with healthcare data subject to HIPAA without a Business Associate Agreement (BAA).</p>
 <p><strong>Custom compliance requirements.</strong> Enterprise customers with specific compliance needs can work with CorpusIQ on custom deployment configurations, including dedicated infrastructure and enhanced audit capabilities.</p>
 <h2 id="best-practices-for-users">Best Practices for Users<a class="headerlink" href="#best-practices-for-users" title="Anchor link to this section">&para;</a></h2>
@@ -7960,7 +7960,7 @@
 <p><strong>1. Use dedicated service accounts where possible.</strong> When connecting platforms that support service accounts (separate from personal user accounts), use them. This limits the blast radius if tokens are compromised.</p>
 <p><strong>2. Review OAuth scopes periodically.</strong> Check which permissions you've granted to CorpusIQ for each connected platform. Remove any that are broader than necessary.</p>
 <p><strong>3. Rotate credentials after personnel changes.</strong> If an employee with access to your CorpusIQ account leaves the organization, rotate OAuth tokens for all connected platforms.</p>
-<p><strong>4. Monitor audit logs.</strong> Periodically review the audit trail for unusual query patterns — queries at unusual times, against unexpected data sources, or with unusual parameters.</p>
+<p><strong>4. Monitor audit logs.</strong> Periodically review the audit trail for unusual query patterns  --  queries at unusual times, against unexpected data sources, or with unusual parameters.</p>
 <p><strong>5. Enable multi-factor authentication.</strong> Use MFA on your CorpusIQ account and on all connected platforms to prevent unauthorized access.</p>
 <p><strong>6. Limit AI model access to necessary data sources.</strong> Connect only the platforms needed for your use case. Don't connect your entire SaaS portfolio if you only need access to three platforms.</p>
 <h2 id="faq-common-questions">FAQ: Common Questions<a class="headerlink" href="#faq-common-questions" title="Anchor link to this section">&para;</a></h2>
@@ -7985,7 +7985,7 @@ Each query is processed in isolation. The AI model receives only the data from t
 <details>
 <summary><strong>Can I use CorpusIQ with on-premise data sources?</strong></summary>
 
-Yes. MCP servers can be deployed on-premise and connect to internal systems. In this configuration, data never leaves your network — the MCP server queries internal systems and returns results directly to the AI client.
+Yes. MCP servers can be deployed on-premise and connect to internal systems. In this configuration, data never leaves your network  --  the MCP server queries internal systems and returns results directly to the AI client.
 </details>
 
 <details>
@@ -8003,8 +8003,8 @@ CorpusIQ maintains SOC 2 Type II certification. Additional certifications are av
 <li><a href="/docs/mcp-for-finance">Learn about MCP for financial reporting and compliance</a></li>
 <li><a href="/docs/mcp-for-executives">See how executives use MCP for AI-powered dashboards</a></li>
 </ul>
-<p><em><a href="https://www.corpusiq.io">CorpusIQ</a> — AI answers grounded in your business data. 30-day free trial.</em></p>
-<h2 id="corpusiq-ai-answers-grounded-in-your-business-data-30-day-free-trial"><em><a href="https://www.corpusiq.io">CorpusIQ</a> — AI answers grounded in your business data. 30-day free trial.</em><a class="headerlink" href="#corpusiq-ai-answers-grounded-in-your-business-data-30-day-free-trial" title="Anchor link to this section">&para;</a></h2>
+<p><em><a href="https://www.corpusiq.io">CorpusIQ</a>  --  AI answers grounded in your business data. 30-day free trial.</em></p>
+<h2 id="corpusiq-ai-answers-grounded-in-your-business-data-30-day-free-trial"><em><a href="https://www.corpusiq.io">CorpusIQ</a>  --  AI answers grounded in your business data. 30-day free trial.</em><a class="headerlink" href="#corpusiq-ai-answers-grounded-in-your-business-data-30-day-free-trial" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

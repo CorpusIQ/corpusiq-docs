@@ -27,7 +27,7 @@
     
     
       
-        <title>Raspberry Pi 5 Hermes Agent Setup — Ultra-Low-Cost 24/7 AI Agent - CorpusIQ Docs</title>
+        <title>Raspberry Pi 5 Hermes Agent Setup  --  Ultra-Low-Cost 24/7 AI Agent - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Raspberry Pi 5 Hermes Agent Setup — Ultra-Low-Cost 24/7 AI Agent
+              Raspberry Pi 5 Hermes Agent Setup  --  Ultra-Low-Cost 24/7 AI Agent
             
           </span>
         </div>
@@ -8093,7 +8093,7 @@
   
 
 
-<h1 id="raspberry-pi-5-hermes-agent-setup-ultra-low-cost-247-ai-agent">Raspberry Pi 5 Hermes Agent Setup — Ultra-Low-Cost 24/7 AI Agent<a class="headerlink" href="#raspberry-pi-5-hermes-agent-setup-ultra-low-cost-247-ai-agent" title="Anchor link to this section">&para;</a></h1>
+<h1 id="raspberry-pi-5-hermes-agent-setup-ultra-low-cost-247-ai-agent">Raspberry Pi 5 Hermes Agent Setup  --  Ultra-Low-Cost 24/7 AI Agent<a class="headerlink" href="#raspberry-pi-5-hermes-agent-setup-ultra-low-cost-247-ai-agent" title="Anchor link to this section">&para;</a></h1>
 <p>Run Hermes Agent 24/7 on a Raspberry Pi 5 for less than $80 in hardware and pennies a month in electricity. This Raspberry Pi setup guide is perfect for email monitoring, lightweight cron jobs, and home automation agents that run silently and cost almost nothing.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <p>The Raspberry Pi 5 is the most cost-effective always-on Hermes Agent platform. At $50–80, it draws ~5W idle and costs ~$5/year in electricity. It pairs with cloud API models for AI capabilities and is ideal for lightweight, persistent automation tasks that don't require GPU acceleration.</p>
@@ -8134,9 +8134,9 @@
 </table>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>No GPU acceleration</strong> for local LLMs — use <a href="cloud-vps.html">API-based cloud models</a> or very small quantized models</li>
-<li><strong>8GB RAM max</strong> — can't run large models locally</li>
-<li><strong>ARM64 architecture</strong> — some packages may need workarounds</li>
+<li><strong>No GPU acceleration</strong> for local LLMs  --  use <a href="cloud-vps.html">API-based cloud models</a> or very small quantized models</li>
+<li><strong>8GB RAM max</strong>  --  can't run large models locally</li>
+<li><strong>ARM64 architecture</strong>  --  some packages may need workarounds</li>
 </ul>
 <h2 id="step-by-step-installation">Step-by-Step Installation<a class="headerlink" href="#step-by-step-installation" title="Anchor link to this section">&para;</a></h2>
 <h3 id="step-1-os-setup">Step 1: OS Setup<a class="headerlink" href="#step-1-os-setup" title="Anchor link to this section">&para;</a></h3>
@@ -8166,7 +8166,7 @@ hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://ollama.com/install.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
 ollama<span class="w"> </span>pull<span class="w"> </span>tinyllama<span class="w">       </span><span class="c1"># ~637MB, runs on 4GB Pi</span>
 ollama<span class="w"> </span>pull<span class="w"> </span>nomic-embed-text<span class="w"> </span><span class="c1"># Embeddings</span>
-<span class="c1"># Expect 2–5 tokens/sec — slow but functional</span>
+<span class="c1"># Expect 2–5 tokens/sec  --  slow but functional</span>
 </code></pre></div>
 <h3 id="step-5-external-storage-recommended">Step 5: External Storage (Recommended)<a class="headerlink" href="#step-5-external-storage-recommended" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># NVMe via HAT or USB SSD</span>
@@ -8199,12 +8199,12 @@ sudo<span class="w"> </span>systemctl<span class="w"> </span>daemon-reload
 sudo<span class="w"> </span>systemctl<span class="w"> </span><span class="nb">enable</span><span class="w"> </span>--now<span class="w"> </span>hermes-gateway
 </code></pre></div>
 <h3 id="step-7-lightweight-crons">Step 7: Lightweight Crons<a class="headerlink" href="#step-7-lightweight-crons" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Email check — uses cloud model, no local compute</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Email check  --  uses cloud model, no local compute</span>
 hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span>--name<span class="w"> </span><span class="s2">&quot;email-watch&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Check for new emails. Summarize in one sentence.&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;*/30 * * * *&quot;</span>
 
-<span class="c1"># System health — light, local-only</span>
+<span class="c1"># System health  --  light, local-only</span>
 hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span>--name<span class="w"> </span><span class="s2">&quot;pi-health&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Check temperature, disk, memory. Report if &gt;80%.&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;0 * * * *&quot;</span>
@@ -8212,7 +8212,7 @@ hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w">
 <h3 id="step-8-cooling-and-power">Step 8: Cooling and Power<a class="headerlink" href="#step-8-cooling-and-power" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>vcgencmd<span class="w"> </span>measure_temp
 <span class="c1"># If exceeding 70°C, add active cooler (~$5)</span>
-<span class="c1"># Use 5V 5A power supply — undervoltage causes crashes</span>
+<span class="c1"># Use 5V 5A power supply  --  undervoltage causes crashes</span>
 </code></pre></div>
 <h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Anchor link to this section">&para;</a></h2>
 <ul>
@@ -8271,18 +8271,18 @@ hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w">
 <p>For those workloads, use a <a href="cloud-vps.html">cloud VPS</a> or <a href="gaming-pc.html">gaming PC</a>.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="can-a-raspberry-pi-run-local-ai-models">Can a Raspberry Pi run local AI models?<a class="headerlink" href="#can-a-raspberry-pi-run-local-ai-models" title="Anchor link to this section">&para;</a></h3>
-<p>Only very small models like TinyLlama (~1B parameters). Expect 2–5 tokens/second. For practical AI, use cloud API models via OpenRouter — free tier models cost $0/token.</p>
+<p>Only very small models like TinyLlama (~1B parameters). Expect 2–5 tokens/second. For practical AI, use cloud API models via OpenRouter  --  free tier models cost $0/token.</p>
 <h3 id="why-use-external-storage-with-raspberry-pi">Why use external storage with Raspberry Pi?<a class="headerlink" href="#why-use-external-storage-with-raspberry-pi" title="Anchor link to this section">&para;</a></h3>
 <p>microSD cards wear out under constant write operations from logs and memory systems. An NVMe SSD via HAT or USB SSD provides faster, more durable storage.</p>
 <h3 id="what-tasks-is-a-raspberry-pi-best-for-with-hermes-agent">What tasks is a Raspberry Pi best for with Hermes Agent?<a class="headerlink" href="#what-tasks-is-a-raspberry-pi-best-for-with-hermes-agent" title="Anchor link to this section">&para;</a></h3>
 <p>Email monitoring, system health checks, lightweight cron jobs, IoT automation, and notification routing. Not suitable for browser automation, video processing, or heavy inference.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/setup/">Hermes Agent Setup Overview</a> — Compare all platforms</li>
-<li><a href="cloud-vps.html">Cloud VPS Setup</a> — Alternative always-on option</li>
-<li><a href="docker.html">Docker Setup</a> — Containerized ARM deployment</li>
-<li><a href="/hermes/best-practices/cron-design.md">Cron Design Best Practices</a> — Lightweight automation</li>
-<li><a href="/hermes/troubleshooting/">Troubleshooting Guide</a> — Pi-specific issues</li>
+<li><a href="/hermes/setup/">Hermes Agent Setup Overview</a>  --  Compare all platforms</li>
+<li><a href="cloud-vps.html">Cloud VPS Setup</a>  --  Alternative always-on option</li>
+<li><a href="docker.html">Docker Setup</a>  --  Containerized ARM deployment</li>
+<li><a href="/hermes/best-practices/cron-design.md">Cron Design Best Practices</a>  --  Lightweight automation</li>
+<li><a href="/hermes/troubleshooting/">Troubleshooting Guide</a>  --  Pi-specific issues</li>
 </ul>
 <hr />
 <p>*</p>

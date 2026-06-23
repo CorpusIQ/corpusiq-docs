@@ -23,7 +23,7 @@
     
     
       
-        <title>native-mcp — Full Setup Guide for Hermes Agents - CorpusIQ Docs</title>
+        <title>native-mcp  --  Full Setup Guide for Hermes Agents - CorpusIQ Docs</title>
       
     
     
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              native-mcp — Full Setup Guide for Hermes Agents
+              native-mcp  --  Full Setup Guide for Hermes Agents
             
           </span>
         </div>
@@ -7672,10 +7672,10 @@
   
 
 
-<h1 id="native-mcp-setup-guide">native-mcp — Setup Guide<a class="headerlink" href="#native-mcp-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="native-mcp-setup-guide">native-mcp  --  Setup Guide<a class="headerlink" href="#native-mcp-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/nousresearch/hermes-agent">nousresearch/hermes-agent</a> (79 installs)
 <strong>Category:</strong> Infrastructure / MCP</p>
-<p>The native MCP client skill enables Hermes Agent to connect to Model Context Protocol (MCP) servers over stdio and HTTP transports. It handles server discovery, tool registration, and lifecycle management — the foundation for building tool-rich AI agents.</p>
+<p>The native MCP client skill enables Hermes Agent to connect to Model Context Protocol (MCP) servers over stdio and HTTP transports. It handles server discovery, tool registration, and lifecycle management  --  the foundation for building tool-rich AI agents.</p>
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>nousresearch/hermes-agent<span class="w"> </span>--skill<span class="w"> </span>native-mcp
@@ -7749,7 +7749,7 @@
 </tr>
 <tr>
 <td><strong>Reconnect on failure</strong></td>
-<td>Automatic — handles disconnects gracefully</td>
+<td>Automatic  --  handles disconnects gracefully</td>
 <td>Exponential backoff for HTTP</td>
 </tr>
 <tr>
@@ -7760,7 +7760,7 @@
 </tbody>
 </table>
 <h3 id="configuration-reference">Configuration Reference<a class="headerlink" href="#configuration-reference" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># ~/.hermes/config.yaml — MCP server configuration</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># ~/.hermes/config.yaml  --  MCP server configuration</span>
 <span class="nt">mcp_servers</span><span class="p">:</span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;corpusiq-mcp&quot;</span>
 <span class="w">    </span><span class="nt">transport</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;http&quot;</span>
@@ -7790,7 +7790,7 @@
 </tr>
 <tr>
 <td><strong>Multi-server orchestration</strong></td>
-<td>Connect to 3+ MCP servers simultaneously — analytics, CRM, and email — for cross-source workflow automation</td>
+<td>Connect to 3+ MCP servers simultaneously  --  analytics, CRM, and email  --  for cross-source workflow automation</td>
 </tr>
 <tr>
 <td><strong>Development toolchain</strong></td>
@@ -7826,7 +7826,7 @@
 </tr>
 <tr>
 <td><strong>HTTP timeout</strong></td>
-<td>Increase <code>timeout</code> in config.yaml. Default is 30s — large tool payloads may need 60+</td>
+<td>Increase <code>timeout</code> in config.yaml. Default is 30s  --  large tool payloads may need 60+</td>
 </tr>
 <tr>
 <td><strong>stdio server exits</strong></td>
@@ -7834,7 +7834,7 @@
 </tr>
 <tr>
 <td><strong>Auth header not sent</strong></td>
-<td>Use env var syntax <code>${VAR}</code> in config — Hermes expands at connection time</td>
+<td>Use env var syntax <code>${VAR}</code> in config  --  Hermes expands at connection time</td>
 </tr>
 </tbody>
 </table>

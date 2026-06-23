@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Operate, debug, and verify recurring agent work — daily audits, inbox monitors, watchdogs, no-agent scripts. Covers the profile vs default-profile split, server-local time semantics, and the discipline that keeps cron from rotting silently.">
+        <meta name="description" content="Operate, debug, and verify recurring agent work  --  daily audits, inbox monitors, watchdogs, no-agent scripts. Covers the profile vs default-profile split, server-local time semantics, and the discipline that keeps cron from rotting silently.">
       
       
       
@@ -7562,7 +7562,7 @@
   <a href="#canonical-tooling-use-it-dont-hand-edit-jobsjson" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Canonical tooling — use it, don't hand-edit jobs.json
+        Canonical tooling -- use it, don't hand-edit jobs.json
       
     </span>
   </a>
@@ -7661,7 +7661,7 @@
   <a href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Part of the Hermes Skills Library — 133+ agent skills. Built by CorpusIQ.
+        Part of the Hermes Skills Library -- 133+ agent skills. Built by CorpusIQ.
       
     </span>
   </a>
@@ -7689,8 +7689,8 @@
 
 
 <h1 id="scheduled-jobs-hermes-cron">Scheduled Jobs (Hermes Cron)<a class="headerlink" href="#scheduled-jobs-hermes-cron" title="Anchor link to this section">&para;</a></h1>
-<p>Operate and debug a Hermes agent's recurring work — the daily audit email, support-inbox monitor, agent-to-agent watchdogs, vendor sync jobs, end-of-day digests. All of it runs on Hermes cron and the rules here apply to every job in that family.</p>
-<h2 id="canonical-tooling-use-it-dont-hand-edit-jobsjson">Canonical tooling — use it, don't hand-edit jobs.json<a class="headerlink" href="#canonical-tooling-use-it-dont-hand-edit-jobsjson" title="Anchor link to this section">&para;</a></h2>
+<p>Operate and debug a Hermes agent's recurring work  --  the daily audit email, support-inbox monitor, agent-to-agent watchdogs, vendor sync jobs, end-of-day digests. All of it runs on Hermes cron and the rules here apply to every job in that family.</p>
+<h2 id="canonical-tooling-use-it-dont-hand-edit-jobsjson">Canonical tooling  --  use it, don't hand-edit jobs.json<a class="headerlink" href="#canonical-tooling-use-it-dont-hand-edit-jobsjson" title="Anchor link to this section">&para;</a></h2>
 <p>Profile-local cron management belongs to two scripts:</p>
 <table>
 <thead>
@@ -7713,7 +7713,7 @@
 <p><strong>Rule:</strong> NEVER write directly to <code>~/.hermes/cron/jobs.json</code> or the profile equivalent. Hand-edits lose the auto-backup, bypass the duplicate-name guard, and silently break the in-memory state of the running cron daemon.</p>
 <h2 id="server-local-time-not-utc">Server-local time, not UTC<a class="headerlink" href="#server-local-time-not-utc" title="Anchor link to this section">&para;</a></h2>
 <p>This is the single biggest source of confusion in cron scheduling. Hermes cron evaluates schedule expressions in <strong>server-local time</strong>, not UTC. If your dev box is in Arizona (GMT-7 year-round, no DST) and you write <code>0 13 * * *</code> expecting 1 PM UTC, the job will fire at 1 PM Arizona time (which is 20:00 UTC).</p>
-<p>Confirm via <code>next_run_at</code> in the job's status output — it shows the resolved next-fire-time in UTC, so you can compare against your intent.</p>
+<p>Confirm via <code>next_run_at</code> in the job's status output  --  it shows the resolved next-fire-time in UTC, so you can compare against your intent.</p>
 <p>For a job that should fire at 9 AM Arizona / 16:00 UTC, write <code>0 9 * * *</code> and confirm <code>next_run_at</code> resolves to 16:00 UTC on the next day matching the day-of-week constraint.</p>
 <h2 id="the-profile-vs-default-profile-split">The profile vs default-profile split<a class="headerlink" href="#the-profile-vs-default-profile-split" title="Anchor link to this section">&para;</a></h2>
 <p>If your Hermes installation has multiple profiles (e.g. <code>default</code> + a named profile per workstream), each profile has its OWN <code>jobs.json</code> and its OWN cron daemon. Confusing them is a common failure mode:</p>
@@ -7723,7 +7723,7 @@
 </ul>
 <p><strong>Important:</strong> if you only see one of the two gateways running and you reinstall, you may orphan jobs from the other. Two gateways is the normal state. Verify both are running before assuming a job is dead.</p>
 <h2 id="the-no_agent-cron-pattern">The "no_agent" cron pattern<a class="headerlink" href="#the-no_agent-cron-pattern" title="Anchor link to this section">&para;</a></h2>
-<p>Some jobs don't need an LLM at all — they're just scripts that produce a notification when they detect something. Examples:</p>
+<p>Some jobs don't need an LLM at all  --  they're just scripts that produce a notification when they detect something. Examples:</p>
 <ul>
 <li>Watchdog: memory &gt; 90%, send Telegram alert</li>
 <li>API poller: fetch a status endpoint, alert if degraded</li>
@@ -7732,7 +7732,7 @@
 <p>For these, set <code>no_agent: true</code> in the job definition. The cron daemon will execute the script directly without spinning up an agent loop:</p>
 <ul>
 <li>Stdout from the script becomes the message body</li>
-<li><strong>Empty stdout = silent</strong> (the watchdog pattern — only notify when there's something to notify about)</li>
+<li><strong>Empty stdout = silent</strong> (the watchdog pattern  --  only notify when there's something to notify about)</li>
 <li>Non-zero exit code triggers an error alert (so a broken watchdog can't fail silently)</li>
 </ul>
 <p>When to use <code>no_agent: true</code>:
@@ -7740,7 +7740,7 @@
 - Memory/disk/GPU watchdogs, threshold alerts, heartbeats
 - CI notifications, API pollers with a fixed output shape</p>
 <p>When to use the default (LLM-driven):
-- Anything that needs reasoning — summarize a feed, draft a daily briefing, pick interesting items, rephrase data for a human
+- Anything that needs reasoning  --  summarize a feed, draft a daily briefing, pick interesting items, rephrase data for a human
 - Conditional logic based on content</p>
 <h2 id="in-prompt-curl-is-a-trap-use-a-script-instead">In-prompt curl is a trap (use a script instead)<a class="headerlink" href="#in-prompt-curl-is-a-trap-use-a-script-instead" title="Anchor link to this section">&para;</a></h2>
 <p>When you're writing a job's prompt and you want it to send a Telegram or Slack message, the natural instinct is to embed a <code>curl</code> invocation in the prompt body. <strong>Don't.</strong> Hermes' tool-approval layer may block the in-prompt curl, AND the ticker UX (the "agent is working..." indicator) gets killed when an unapproved tool fires.</p>
@@ -7752,10 +7752,10 @@
 </code></pre></div>
 <p>For a named profile, replace <code>default</code> with the profile name. Verify both gateways are still running afterwards.</p>
 <h2 id="status-discipline">Status discipline<a class="headerlink" href="#status-discipline" title="Anchor link to this section">&para;</a></h2>
-<p>Every job should write its last result to a status file (<code>scripts/&lt;job&gt;_status.json</code> or similar) AND log to your standard log path. The cron daemon tracks <code>last_status</code> per job, but that's a coarse "ok / error" — the status file is where the operator looks when they need to diagnose "why did this job report ok but the email never arrived?"</p>
+<p>Every job should write its last result to a status file (<code>scripts/&lt;job&gt;_status.json</code> or similar) AND log to your standard log path. The cron daemon tracks <code>last_status</code> per job, but that's a coarse "ok / error"  --  the status file is where the operator looks when they need to diagnose "why did this job report ok but the email never arrived?"</p>
 <p>Pattern: structure the status file as <code>{"timestamp": ..., "summary": ..., "details": {...}}</code>. The watchdog skill (above) reads these files and surfaces anomalies before they compound.</p>
 <h2 id="drift-detection">Drift detection<a class="headerlink" href="#drift-detection" title="Anchor link to this section">&para;</a></h2>
-<p>A recurring problem with crontabs: jobs that USED to work but silently degraded — the API they call moved endpoints, the script's dependencies got upgraded, the auth token expired. The watchdog catches the loudest failures, but the subtle ones (job runs, exits 0, produces wrong output) need active drift detection.</p>
+<p>A recurring problem with crontabs: jobs that USED to work but silently degraded  --  the API they call moved endpoints, the script's dependencies got upgraded, the auth token expired. The watchdog catches the loudest failures, but the subtle ones (job runs, exits 0, produces wrong output) need active drift detection.</p>
 <p>For any job whose output has a known shape, write a tiny assertion at the end of the script:</p>
 <div class="highlight"><pre><span></span><code><span class="n">result</span> <span class="o">=</span> <span class="n">do_the_work</span><span class="p">()</span>
 <span class="k">assert</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">result</span><span class="p">,</span> <span class="nb">dict</span><span class="p">)</span>
@@ -7765,11 +7765,11 @@
 <p>A failing assertion exits non-zero, the cron watchdog surfaces it, you get a real signal.</p>
 <h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="../api-development/">api-development</a> — when your cron job hits a Cloud Run API, the deploy-verification patterns apply</li>
-<li><a href="../honcho-memory-usage/">honcho-memory-usage</a> — for cron jobs that need cross-session memory</li>
+<li><a href="../api-development/">api-development</a>  --  when your cron job hits a Cloud Run API, the deploy-verification patterns apply</li>
+<li><a href="../honcho-memory-usage/">honcho-memory-usage</a>  --  for cron jobs that need cross-session memory</li>
 </ul>
-<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

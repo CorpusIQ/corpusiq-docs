@@ -7689,7 +7689,7 @@
   <a href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Part of the Hermes Skills Library — 133+ agent skills. Built by CorpusIQ.
+        Part of the Hermes Skills Library -- 133+ agent skills. Built by CorpusIQ.
       
     </span>
   </a>
@@ -7717,12 +7717,12 @@
 
 
 <h1 id="api-development-cloud-run-fastapi">API Development (Cloud Run + FastAPI)<a class="headerlink" href="#api-development-cloud-run-fastapi" title="Anchor link to this section">&para;</a></h1>
-<p>When your stack has multiple services (MCP servers, frontend, workers) and one of them is the <strong>token issuer</strong> — the FastAPI backend that mints JWTs everything else verifies — the discipline for that service is meaningfully different from the discipline for the consumers.</p>
+<p>When your stack has multiple services (MCP servers, frontend, workers) and one of them is the <strong>token issuer</strong>  --  the FastAPI backend that mints JWTs everything else verifies  --  the discipline for that service is meaningfully different from the discipline for the consumers.</p>
 <h2 id="the-single-token-issuer-rule">The single-token-issuer rule<a class="headerlink" href="#the-single-token-issuer-rule" title="Anchor link to this section">&para;</a></h2>
 <p>If you have one auth-issuing API and multiple JWT-consuming services:</p>
 <ul>
 <li>The API publishes <code>/.well-known/jwks.json</code> (or equivalent)</li>
-<li>Every consumer fetches the JWKS and verifies tokens locally — no auth round-trip per request</li>
+<li>Every consumer fetches the JWKS and verifies tokens locally  --  no auth round-trip per request</li>
 <li>The API is the ONLY service that knows how to mint tokens; consumers are read-only on auth</li>
 <li>Schema changes to the JWT payload require coordinated deploys across consumers (the API issues new-shape tokens, consumers must handle both shapes during the transition)</li>
 </ul>
@@ -7733,7 +7733,7 @@
 <p>If your prod DB is Postgres but your test DB is SQLite, you'll have JSONB columns SQLite doesn't natively support. Most projects solve this with a compile hook (<code>@compiles(JSONB, "sqlite")</code>) that maps JSONB to TEXT. <strong>The hook MUST be imported before any model that uses JSONB.</strong> Otherwise the model's <code>metadata.create_all()</code> fires before the hook lands and the column gets created with the wrong type.</p>
 <p>Recipe: import the hook module at the top of your test conftest.py, BEFORE any model imports.</p>
 <h3 id="2-uuid-type-mismatch-between-raw-sql-inserts-and-sqlalchemy-column-adapters">2. UUID type mismatch between raw-SQL inserts and SQLAlchemy column adapters<a class="headerlink" href="#2-uuid-type-mismatch-between-raw-sql-inserts-and-sqlalchemy-column-adapters" title="Anchor link to this section">&para;</a></h3>
-<p>SQLite stores UUIDs as either TEXT or BLOB depending on the column adapter. If you do a raw SQL <code>INSERT</code> for test fixtures and the column was declared as UUID(as_uuid=True), the adapter expects a UUID object — not a string. The raw insert puts a string in; the next ORM read tries to deserialize the string as a UUID and crashes.</p>
+<p>SQLite stores UUIDs as either TEXT or BLOB depending on the column adapter. If you do a raw SQL <code>INSERT</code> for test fixtures and the column was declared as UUID(as_uuid=True), the adapter expects a UUID object  --  not a string. The raw insert puts a string in; the next ORM read tries to deserialize the string as a UUID and crashes.</p>
 <p>Recipe: insert via SQLModel/SQLAlchemy ORM in fixtures, not raw SQL. Or, use <code>str(uuid.uuid4())</code> consistently and skip the as_uuid=True.</p>
 <h3 id="3-metadatacreate_all-pulling-in-postgres-only-tables">3. <code>metadata.create_all()</code> pulling in Postgres-only tables<a class="headerlink" href="#3-metadatacreate_all-pulling-in-postgres-only-tables" title="Anchor link to this section">&para;</a></h3>
 <p>If your models include something like <code>audit_logs</code> declared in a Postgres-only module (because audit is Postgres-only and your test setup imports models broadly), <code>create_all()</code> on SQLite will choke on Postgres-specific types like <code>JSONB[]</code> or <code>pg_trgm</code> indexes.</p>
@@ -7773,18 +7773,18 @@ curl<span class="w"> </span>-s<span class="w"> </span>https://api.&lt;your-domai
 <h2 id="database-backend">Database backend<a class="headerlink" href="#database-backend" title="Anchor link to this section">&para;</a></h2>
 <p>When your DB is Supabase-hosted Postgres + GoTrue for auth:</p>
 <ul>
-<li>Your team-lead (or whoever has the Supabase admin grant) is the only one who can do DB-level operations — migrations, role grants, RLS policy changes</li>
+<li>Your team-lead (or whoever has the Supabase admin grant) is the only one who can do DB-level operations  --  migrations, role grants, RLS policy changes</li>
 <li>Cloud Run instances connect via DATABASE_URL stored in Secret Manager</li>
 <li>Console-level work (env vars, IAM, Secret Manager provisioning) often happens through the GCP console UI, not gcloud CLI</li>
 </ul>
 <p>If you can do GCP-console work but not Supabase-admin work, the boundary matters: route DB-level work (psql migrations against DATABASE_URL, dashboard ops) to whoever owns Supabase admin, keep Cloud Run / env / IAM in your lane.</p>
 <h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="../consultant-connector-audit/">consultant-connector-audit §14</a> — when a consultant pushes auth/billing/security code, the same audit discipline applies even though "connector" is in the name</li>
-<li><a href="../mcp-architecture/">mcp-architecture</a> — the consumer side of the JWT contract this API issues</li>
+<li><a href="../consultant-connector-audit/">consultant-connector-audit §14</a>  --  when a consultant pushes auth/billing/security code, the same audit discipline applies even though "connector" is in the name</li>
+<li><a href="../mcp-architecture/">mcp-architecture</a>  --  the consumer side of the JWT contract this API issues</li>
 </ul>
-<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a> — 133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq"><em>Part of the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills">Hermes Skills Library</a>  --  133+ agent skills. Built by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#part-of-the-hermes-skills-library-133-agent-skills-built-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

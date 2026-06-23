@@ -7661,7 +7661,7 @@
   <a href="#from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        From the Hermes Prompt Collection — production prompts for AI agents. Powered by CorpusIQ.
+        From the Hermes Prompt Collection -- production prompts for AI agents. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -7690,18 +7690,18 @@
 
 <h1 id="executive-summary-prompts">Executive summary prompts<a class="headerlink" href="#executive-summary-prompts" title="Anchor link to this section">&para;</a></h1>
 <p>These are the high-leverage, broad-scope prompts. They fire CorpusIQ's
-<strong>multi-source skills</strong> — pre-built runbooks that pull from everything you
+<strong>multi-source skills</strong>  --  pre-built runbooks that pull from everything you
 have connected and synthesize a single answer.</p>
 <p>If you only learn one category, learn this one.</p>
 <hr />
 <h3 id="how-healthy-is-my-business-right-now">"How healthy is my business right now?"<a class="headerlink" href="#how-healthy-is-my-business-right-now" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What this does:</strong> Runs a top-to-bottom snapshot — cash, revenue trend,
+<p><strong>What this does:</strong> Runs a top-to-bottom snapshot  --  cash, revenue trend,
 wins, risks, this-week priorities.
 <strong>Connectors used:</strong> QuickBooks, Shopify (if ecommerce), HubSpot/CRM,
 Google Ads, Meta Ads, GA4, Gmail/Outlook, Calendar.
 <strong>Behind the scenes:</strong> <code>executive-snapshot</code> skill.
 <strong>Sample answer shape:</strong> Section headers for cash position, revenue, top
-wins, top risks, focus-this-week — each with 2–4 bullets and specific
+wins, top risks, focus-this-week  --  each with 2–4 bullets and specific
 numbers from your data.</p>
 <hr />
 <h3 id="give-me-a-one-page-business-overview">"Give me a one-page business overview."<a class="headerlink" href="#give-me-a-one-page-business-overview" title="Anchor link to this section">&para;</a></h3>
@@ -7709,15 +7709,15 @@ numbers from your data.</p>
 forwarding to a co-founder.
 <strong>Connectors used:</strong> Whatever you have connected.
 <strong>Behind the scenes:</strong> <code>executive-snapshot</code>.
-<strong>Sample answer shape:</strong> Tighter than the health check — one screen,
+<strong>Sample answer shape:</strong> Tighter than the health check  --  one screen,
 no fluff.</p>
 <hr />
 <h3 id="what-changed-in-the-business-this-month">"What changed in the business this month?"<a class="headerlink" href="#what-changed-in-the-business-this-month" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What this does:</strong> Diff-style report — what moved up, what moved down,
+<p><strong>What this does:</strong> Diff-style report  --  what moved up, what moved down,
 what's new on the radar.
 <strong>Connectors used:</strong> QuickBooks, Shopify, GA4, ad accounts, CRM.
 <strong>Behind the scenes:</strong> <code>executive-snapshot</code> with a month-over-month framing.
-<strong>Sample answer shape:</strong> Two columns — improvements and regressions —
+<strong>Sample answer shape:</strong> Two columns  --  improvements and regressions  -- 
 with the metric, the delta, and a one-line possible cause.</p>
 <hr />
 <h3 id="what-should-i-work-on-today">"What should I work on today?"<a class="headerlink" href="#what-should-i-work-on-today" title="Anchor link to this section">&para;</a></h3>
@@ -7727,18 +7727,18 @@ overdue tasks, and high-value unanswered emails.
 <strong>Connectors used:</strong> Calendar, CRM, Email, QuickBooks.
 <strong>Behind the scenes:</strong> <code>today-focus</code> skill.
 <strong>Sample answer shape:</strong> A ranked list of 3 items with reasoning per item
-("Follow up with Acme — $42K deal, last touch 11 days ago").</p>
+("Follow up with Acme  --  $42K deal, last touch 11 days ago").</p>
 <hr />
 <h3 id="good-morning-what-happened-overnight">"Good morning. What happened overnight?"<a class="headerlink" href="#good-morning-what-happened-overnight" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What this does:</strong> Morning briefing — overnight orders, urgent emails,
+<p><strong>What this does:</strong> Morning briefing  --  overnight orders, urgent emails,
 today's calendar, one risk flag. Designed for the first prompt of the day.
 <strong>Connectors used:</strong> Shopify, Email (Gmail/Outlook), Calendar, QuickBooks.
 <strong>Behind the scenes:</strong> <code>morning-briefing</code> skill.
-<strong>Sample answer shape:</strong> A 5-section briefing — cash, new orders, urgent
+<strong>Sample answer shape:</strong> A 5-section briefing  --  cash, new orders, urgent
 inbox items, today's meetings, today's risk.</p>
 <hr />
 <h3 id="wrap-up-the-day-how-did-today-go">"Wrap up the day. How did today go?"<a class="headerlink" href="#wrap-up-the-day-how-did-today-go" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What this does:</strong> End-of-day reflection — what shipped, what moved in
+<p><strong>What this does:</strong> End-of-day reflection  --  what shipped, what moved in
 the pipeline, money received, meetings completed, tomorrow's first thing.
 <strong>Connectors used:</strong> Calendar, CRM, QuickBooks, Email.
 <strong>Behind the scenes:</strong> <code>day-close</code> skill.
@@ -7746,13 +7746,13 @@ the pipeline, money received, meetings completed, tomorrow's first thing.
 tomorrow.</p>
 <hr />
 <h3 id="draft-a-board-update-for-last-quarter">"Draft a board update for last quarter."<a class="headerlink" href="#draft-a-board-update-for-last-quarter" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What this does:</strong> Generates a structured investor/board update —
+<p><strong>What this does:</strong> Generates a structured investor/board update  -- 
 financial performance, key metrics, wins, risks, asks. Pulls prior updates
 from Drive if available to match tone.
 <strong>Connectors used:</strong> QuickBooks, Shopify, HubSpot, GA4, Drive.
 <strong>Behind the scenes:</strong> <code>board-update-drafter</code> skill.
-<strong>Sample answer shape:</strong> Standard investor update sections —
-financials, KPIs, highlights, lowlights, asks — populated with your
+<strong>Sample answer shape:</strong> Standard investor update sections  -- 
+financials, KPIs, highlights, lowlights, asks  --  populated with your
 actuals.</p>
 <hr />
 <h3 id="prepare-me-for-a-board-meeting">"Prepare me for a board meeting."<a class="headerlink" href="#prepare-me-for-a-board-meeting" title="Anchor link to this section">&para;</a></h3>
@@ -7764,14 +7764,14 @@ Anticipates the awkward questions and gives you the data to answer them.
 with backing numbers.</p>
 <hr />
 <h3 id="run-a-weekly-operations-review">"Run a weekly operations review."<a class="headerlink" href="#run-a-weekly-operations-review" title="Anchor link to this section">&para;</a></h3>
-<p><strong>What this does:</strong> Cross-functional health check — SLAs, incidents,
+<p><strong>What this does:</strong> Cross-functional health check  --  SLAs, incidents,
 team capacity, supplier issues, bottlenecks. For COOs and ops leads.
 <strong>Connectors used:</strong> Monday or Calendar (project mgmt), Email, QuickBooks.
 <strong>Behind the scenes:</strong> <code>weekly-ops-review</code> skill.
 <strong>Sample answer shape:</strong> Section per ops domain with status indicator
 and one drill-down bullet each.</p>
-<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts">Hermes Prompt Collection</a> — production prompts for AI agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts">Hermes Prompt Collection</a> — production prompts for AI agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts">Hermes Prompt Collection</a>  --  production prompts for AI agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts">Hermes Prompt Collection</a>  --  production prompts for AI agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-prompt-collection-production-prompts-for-ai-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

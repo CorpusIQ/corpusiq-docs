@@ -23,7 +23,7 @@
     
     
       
-        <title>Hermes Agent v0.16.0 — The Surface Release - CorpusIQ Docs</title>
+        <title>Hermes Agent v0.16.0  --  The Surface Release - CorpusIQ Docs</title>
       
     
     
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Hermes Agent v0.16.0 — The Surface Release
+              Hermes Agent v0.16.0  --  The Surface Release
             
           </span>
         </div>
@@ -7894,49 +7894,49 @@
   
 
 
-<h1 id="hermes-agent-v0160-v202665-the-surface-release">Hermes Agent v0.16.0 (v2026.6.5) — The Surface Release<a class="headerlink" href="#hermes-agent-v0160-v202665-the-surface-release" title="Anchor link to this section">&para;</a></h1>
+<h1 id="hermes-agent-v0160-v202665-the-surface-release">Hermes Agent v0.16.0 (v2026.6.5)  --  The Surface Release<a class="headerlink" href="#hermes-agent-v0160-v202665-the-surface-release" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Release Date:</strong> June 5, 2026
 <strong>Since v0.15.2:</strong> 874 commits · 542 merged PRs · 1,962 files changed · 205,216 insertions · 46,217 deletions · 399 issues closed (2 P0, 62 P1, 16 security-tagged) · 170 community contributors</p>
 <blockquote>
-<p><strong>The Surface Release.</strong> Hermes meets you wherever you work — desktop app, web admin, fuzzy model picker everywhere, <code>/undo</code>, and a leaner default install.</p>
+<p><strong>The Surface Release.</strong> Hermes meets you wherever you work  --  desktop app, web admin, fuzzy model picker everywhere, <code>/undo</code>, and a leaner default install.</p>
 </blockquote>
 <hr />
 <h2 id="highlights">✨ Highlights<a class="headerlink" href="#highlights" title="Anchor link to this section">&para;</a></h2>
 <h3 id="hermes-desktop-app-new">🖥️ Hermes Desktop App (NEW)<a class="headerlink" href="#hermes-desktop-app-new" title="Anchor link to this section">&para;</a></h3>
-<p>A real native Electron app for macOS, Linux, and Windows — not a terminal wrapper. One-click install, in-app self-update. Features:
+<p>A real native Electron app for macOS, Linux, and Windows  --  not a terminal wrapper. One-click install, in-app self-update. Features:
 - Proper chat window with streaming
 - Drag-and-drop files + clipboard image paste
 - Session list with archive/search
 - Cmd+K command palette
 - Inline model picker in status bar
-- <strong>Remote gateway support</strong> — point at a remote Hermes over OAuth or username/password
+- <strong>Remote gateway support</strong>  --  point at a remote Hermes over OAuth or username/password
 - Concurrent multi-profile sessions with cross-profile <code>@session</code> links
-- <strong>Simplified Chinese (简体中文)</strong> — full translation across every UI surface, switchable in Appearance settings</p>
+- <strong>Simplified Chinese (简体中文)</strong>  --  full translation across every UI surface, switchable in Appearance settings</p>
 <h3 id="web-dashboard-full-admin-panel">🌐 Web Dashboard → Full Admin Panel<a class="headerlink" href="#web-dashboard-full-admin-panel" title="Anchor link to this section">&para;</a></h3>
 <p>The dashboard is now a complete browser-based administration surface:
-- <strong>Channels page</strong> — configure Telegram, Discord, Slack from the browser
+- <strong>Channels page</strong>  --  configure Telegram, Discord, Slack from the browser
 - <strong>MCP catalog</strong> with enable/disable toggles
 - <strong>Credential management</strong>, webhooks, memory config
 - <strong>Gateway controls</strong> and System page with check-before-update + Debug Share
 - Pluggable OIDC / username-password login</p>
 <h3 id="agent-improvements">🧠 Agent Improvements<a class="headerlink" href="#agent-improvements" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong><code>/undo [N]</code></strong> — take back the last N turns (CLI, TUI, and all messaging platforms)</li>
-<li><strong>Fuzzy model picker</strong> everywhere — desktop, web, TUI, CLI</li>
-<li><strong>Quick Setup via Nous Portal</strong> — from install to first message in seconds</li>
-<li><strong>Configurable default interface</strong> — <code>cli</code> or <code>tui</code></li>
+<li><strong><code>/undo [N]</code></strong>  --  take back the last N turns (CLI, TUI, and all messaging platforms)</li>
+<li><strong>Fuzzy model picker</strong> everywhere  --  desktop, web, TUI, CLI</li>
+<li><strong>Quick Setup via Nous Portal</strong>  --  from install to first message in seconds</li>
+<li><strong>Configurable default interface</strong>  --  <code>cli</code> or <code>tui</code></li>
 <li>New models: <code>deepseek-v4-flash</code>, <code>MiniMax-M3</code> (1M context), <code>qwen3.7-plus</code></li>
 </ul>
 <h3 id="skills-ecosystem">📦 Skills &amp; Ecosystem<a class="headerlink" href="#skills-ecosystem" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>Leaner default skill set</strong> — redundant/niche skills moved to optional, <code>environments:</code> relevance gates</li>
+<li><strong>Leaner default skill set</strong>  --  redundant/niche skills moved to optional, <code>environments:</code> relevance gates</li>
 <li><strong>NVIDIA/skills</strong> joins OpenAI, Anthropic, HuggingFace as trusted Skills Hub tap</li>
 <li>Curator can now prune unused built-in skills with usage tracking</li>
 <li>Blank-slate installs: <code>hermes install --no-skills</code></li>
 </ul>
 <h3 id="security-reliability">🛡️ Security &amp; Reliability<a class="headerlink" href="#security-reliability" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>CVE-2026-48710</strong> (Starlette BadHost) — patched Starlette ≥1.0.1</li>
+<li><strong>CVE-2026-48710</strong> (Starlette BadHost)  --  patched Starlette ≥1.0.1</li>
 <li>SSRF checks off the event loop in async paths</li>
 <li>Subprocess credential stripping</li>
 <li>399 issues closed (2 P0, 62 P1, 16 security-tagged)</li>
@@ -7996,7 +7996,7 @@
 </ul>
 <h3 id="agent-loop">Agent Loop<a class="headerlink" href="#agent-loop" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><code>/undo [N]</code> — full parity across CLI, TUI, messaging platforms</li>
+<li><code>/undo [N]</code>  --  full parity across CLI, TUI, messaging platforms</li>
 <li>Progressive tool disclosure for MCP and plugin tools</li>
 <li>Universal task-completion guidance</li>
 <li>Uncap delegation <code>max_spawn_depth</code></li>
@@ -8031,7 +8031,7 @@
 <ul>
 <li>Structured stream-event protocol + Telegram draft formatting parity</li>
 <li>Per-platform streaming defaults (Telegram on, Discord off)</li>
-<li>Discord voice-channel mixer — ambient idle bed + verbal acks</li>
+<li>Discord voice-channel mixer  --  ambient idle bed + verbal acks</li>
 <li>Handle Feishu meeting invitations</li>
 <li>Matrix bang-command aliases + fail-closed approval reaction auth</li>
 </ul>
@@ -8056,7 +8056,7 @@
 <hr />
 <h2 id="security">🔒 Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>CVE-2026-48710 (Starlette BadHost) — pin patched Starlette ≥1.0.1</li>
+<li>CVE-2026-48710 (Starlette BadHost)  --  pin patched Starlette ≥1.0.1</li>
 <li>Run URL SSRF checks off the event loop in async paths</li>
 <li>Strip Bedrock inference bearer token from subprocess env</li>
 <li>Add <code>bws_cache.json</code> to file-safety read guard</li>
@@ -8074,15 +8074,15 @@
 <hr />
 <h2 id="contributors">👥 Contributors<a class="headerlink" href="#contributors" title="Anchor link to this section">&para;</a></h2>
 <p><strong>170 community contributors</strong> (including co-authors). Top contributors:
-- <strong>@OutThisLife</strong> (52 PRs) — desktop app end-to-end
-- <strong>@benbarclay</strong> (44 PRs) — Docker hardening, dashboard auth
-- <strong>@kshitijk4poor</strong> (29 PRs) — fuzzy model picker, setup onboarding
-- <strong>@ethernet8023</strong> (18 PRs) — desktop build pipeline, managed-uv
-- <strong>@austinpickett</strong> (8 PRs) — dashboard theme, desktop Providers
-- <strong>@alt-glitch</strong> (7 PRs) — Nous tool-pool, FAL video-gen, supermemory
-- <strong>@helix4u</strong> (6 PRs) — gateway service-restart, update guard
-- <strong>@jquesnelle</strong> (4 PRs) — installer, desktop tooling
-- <strong>@JimLiu</strong> — Simplified Chinese translation + i18n layer</p>
+- <strong>@OutThisLife</strong> (52 PRs)  --  desktop app end-to-end
+- <strong>@benbarclay</strong> (44 PRs)  --  Docker hardening, dashboard auth
+- <strong>@kshitijk4poor</strong> (29 PRs)  --  fuzzy model picker, setup onboarding
+- <strong>@ethernet8023</strong> (18 PRs)  --  desktop build pipeline, managed-uv
+- <strong>@austinpickett</strong> (8 PRs)  --  dashboard theme, desktop Providers
+- <strong>@alt-glitch</strong> (7 PRs)  --  Nous tool-pool, FAL video-gen, supermemory
+- <strong>@helix4u</strong> (6 PRs)  --  gateway service-restart, update guard
+- <strong>@jquesnelle</strong> (4 PRs)  --  installer, desktop tooling
+- <strong>@JimLiu</strong>  --  Simplified Chinese translation + i18n layer</p>
 <hr />
 <p>*</p>
 <hr />

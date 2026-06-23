@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="12 newly catalogued Hermes ecosystem skills from plastic-labs/honcho (memory/context) and garrytan/gbrain (agent brain operations) — essential infrastructure for production Hermes agents.">
+        <meta name="description" content="12 newly catalogued Hermes ecosystem skills from plastic-labs/honcho (memory/context) and garrytan/gbrain (agent brain operations)  --  essential infrastructure for production Hermes agents.">
       
       
       
@@ -23,7 +23,7 @@
     
     
       
-        <title>New Skills — June 18, 2026 (Ecosystem Tools — Honcho + GBrain) - CorpusIQ Docs</title>
+        <title>New Skills  --  June 18, 2026 (Ecosystem Tools  --  Honcho + GBrain) - CorpusIQ Docs</title>
       
     
     
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              New Skills — June 18, 2026 (Ecosystem Tools — Honcho + GBrain)
+              New Skills  --  June 18, 2026 (Ecosystem Tools  --  Honcho + GBrain)
             
           </span>
         </div>
@@ -7562,12 +7562,12 @@
   <a href="#honcho-agent-memory-context-4-skills" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Honcho — Agent Memory &amp; Context (4 skills)
+        Honcho -- Agent Memory &amp; Context (4 skills)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Honcho — Agent Memory &amp; Context (4 skills)">
+    <nav class="md-nav" aria-label="Honcho -- Agent Memory &amp; Context (4 skills)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -7601,12 +7601,12 @@
   <a href="#gbrain-agent-brain-layer-8-skills" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GBrain — Agent Brain Layer (8 skills)
+        GBrain -- Agent Brain Layer (8 skills)
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="GBrain — Agent Brain Layer (8 skills)">
+    <nav class="md-nav" aria-label="GBrain -- Agent Brain Layer (8 skills)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -7667,13 +7667,13 @@
   
 
 
-<h1 id="new-skills-june-18-2026-ecosystem-tools">New Skills — June 18, 2026 (Ecosystem Tools)<a class="headerlink" href="#new-skills-june-18-2026-ecosystem-tools" title="Anchor link to this section">&para;</a></h1>
+<h1 id="new-skills-june-18-2026-ecosystem-tools">New Skills  --  June 18, 2026 (Ecosystem Tools)<a class="headerlink" href="#new-skills-june-18-2026-ecosystem-tools" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://skills.sh/plastic-labs/honcho">plastic-labs/honcho</a> and <a href="https://skills.sh/garrytan/gbrain">garrytan/gbrain</a> via <a href="https://skills.sh">skills.sh</a>
 <strong>Date:</strong> June 18, 2026
 <strong>Total new:</strong> 12 skills (4 Honcho + 8 GBrain)</p>
 <p>These skills were previously uncatalogued despite being widely used in the Hermes agent ecosystem. Honcho provides persistent memory and context derivation for agents; GBrain provides the brain layer for agent knowledge management.</p>
 <hr />
-<h2 id="honcho-agent-memory-context-4-skills">Honcho — Agent Memory &amp; Context (4 skills)<a class="headerlink" href="#honcho-agent-memory-context-4-skills" title="Anchor link to this section">&para;</a></h2>
+<h2 id="honcho-agent-memory-context-4-skills">Honcho  --  Agent Memory &amp; Context (4 skills)<a class="headerlink" href="#honcho-agent-memory-context-4-skills" title="Anchor link to this section">&para;</a></h2>
 <p>Honcho is the persistent memory system used by CorpusIQ Hermes agents for context preservation across sessions, conversation derivation, and peer-aware memory.</p>
 <table>
 <thead>
@@ -7689,7 +7689,7 @@
 <td>1</td>
 <td><code>honcho-integration</code></td>
 <td>534</td>
-<td>Core Honcho MCP integration — connect agents to persistent memory, sessions, and peer context</td>
+<td>Core Honcho MCP integration  --  connect agents to persistent memory, sessions, and peer context</td>
 </tr>
 <tr>
 <td>2</td>
@@ -7701,13 +7701,13 @@
 <td>3</td>
 <td><code>migrate-honcho</code></td>
 <td>235</td>
-<td>Migrate Honcho data between deployments — schema migrations, backup/restore</td>
+<td>Migrate Honcho data between deployments  --  schema migrations, backup/restore</td>
 </tr>
 <tr>
 <td>4</td>
 <td><code>migrate-honcho-ts</code></td>
 <td>235</td>
-<td>TypeScript Honcho migration toolkit — same as migrate-honcho for TS codebases</td>
+<td>TypeScript Honcho migration toolkit  --  same as migrate-honcho for TS codebases</td>
 </tr>
 </tbody>
 </table>
@@ -7724,8 +7724,8 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <h3 id="relevance-to-hermes-agents">Relevance to Hermes Agents<a class="headerlink" href="#relevance-to-hermes-agents" title="Anchor link to this section">&para;</a></h3>
 <p>Honcho is the memory backbone of CorpusIQ's Hermes agent infrastructure. Every session starts with <code>honcho_get_peer_context()</code> to recover channel status, token state, and active rules. The <code>honcho-integration</code> skill provides the MCP tools that make this possible: <code>honcho_chat</code>, <code>honcho_get_peer_context</code>, <code>honcho_create_conclusions</code>, and session management.</p>
 <hr />
-<h2 id="gbrain-agent-brain-layer-8-skills">GBrain — Agent Brain Layer (8 skills)<a class="headerlink" href="#gbrain-agent-brain-layer-8-skills" title="Anchor link to this section">&para;</a></h2>
-<p>GBrain is Garry Tan's agent brain layer — a markdown-based knowledge management system for AI agents using vault-based storage and retrieval.</p>
+<h2 id="gbrain-agent-brain-layer-8-skills">GBrain  --  Agent Brain Layer (8 skills)<a class="headerlink" href="#gbrain-agent-brain-layer-8-skills" title="Anchor link to this section">&para;</a></h2>
+<p>GBrain is Garry Tan's agent brain layer  --  a markdown-based knowledge management system for AI agents using vault-based storage and retrieval.</p>
 <table>
 <thead>
 <tr>
@@ -7740,7 +7740,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <td>1</td>
 <td><code>brain-ops</code></td>
 <td>221</td>
-<td>Core brain operations — search, ingest, maintain the knowledge vault</td>
+<td>Core brain operations  --  search, ingest, maintain the knowledge vault</td>
 </tr>
 <tr>
 <td>2</td>
@@ -7764,7 +7764,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <td>5</td>
 <td><code>citation-fixer</code></td>
 <td>131</td>
-<td>Validate and fix citations in brain entries — source verification</td>
+<td>Validate and fix citations in brain entries  --  source verification</td>
 </tr>
 <tr>
 <td>6</td>
@@ -7800,7 +7800,7 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>garrytan/gbrain/media-ingest
 </code></pre></div>
 <h3 id="relevance-to-hermes-agents_1">Relevance to Hermes Agents<a class="headerlink" href="#relevance-to-hermes-agents_1" title="Anchor link to this section">&para;</a></h3>
-<p>CorpusIQ uses GBrain as the persistent knowledge layer for Hermes agents — session handoff pages, system state documentation, and operational knowledge all live in GBrain vaults. The <code>brain-ops</code> skill enables searching and maintaining this knowledge; <code>idea-ingest</code> and <code>meeting-ingestion</code> feed new information into the agent's persistent memory.</p>
+<p>CorpusIQ uses GBrain as the persistent knowledge layer for Hermes agents  --  session handoff pages, system state documentation, and operational knowledge all live in GBrain vaults. The <code>brain-ops</code> skill enables searching and maintaining this knowledge; <code>idea-ingest</code> and <code>meeting-ingestion</code> feed new information into the agent's persistent memory.</p>
 <hr />
 <h2 id="quick-reference">Quick Reference<a class="headerlink" href="#quick-reference" title="Anchor link to this section">&para;</a></h2>
 <table>

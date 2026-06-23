@@ -6237,7 +6237,7 @@
   <a href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        From the Hermes Case Studies — real-world agent deployments. Powered by CorpusIQ.
+        From the Hermes Case Studies -- real-world agent deployments. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -8044,7 +8044,7 @@
   <a href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        From the Hermes Case Studies — real-world agent deployments. Powered by CorpusIQ.
+        From the Hermes Case Studies -- real-world agent deployments. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -8074,11 +8074,11 @@
 <h1 id="hermes-agent-for-enterprise">Hermes Agent for Enterprise<a class="headerlink" href="#hermes-agent-for-enterprise" title="Anchor link to this section">&para;</a></h1>
 <p>Hermes Agent delivers enterprise-grade AI automation with profile isolation, secrets management, multi-region data residency, SOC 2/HIPAA/GDPR compliance, immutable audit logging, and ITIL-aligned change management. Each department gets startup-like operational leverage with the security and governance controls auditors demand.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>Enterprises don't adopt automation to save a few hours per week — they adopt it to manage complexity at scale. With thousands of employees, hundreds of systems, and regulatory obligations across jurisdictions, the question isn't "can we automate this?" but "can we automate this safely, demonstrably, and in a way that satisfies our compliance, security, and audit requirements?" Hermes addresses these concerns through profile isolation, credential management, audit logging, and deployment patterns that keep data where it belongs.</p>
+<p>Enterprises don't adopt automation to save a few hours per week  --  they adopt it to manage complexity at scale. With thousands of employees, hundreds of systems, and regulatory obligations across jurisdictions, the question isn't "can we automate this?" but "can we automate this safely, demonstrably, and in a way that satisfies our compliance, security, and audit requirements?" Hermes addresses these concerns through profile isolation, credential management, audit logging, and deployment patterns that keep data where it belongs.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <h3 id="security-architecture">Security Architecture<a class="headerlink" href="#security-architecture" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Profile Isolation and Least Privilege</strong></p>
-<p>Every department, function, or compliance boundary gets its own Hermes profile. A marketing automation profile cannot access HR data. A finance reconciliation profile cannot read customer support tickets. This isn't just good practice — it's required for SOC 2, HIPAA, and GDPR compliance.</p>
+<p>Every department, function, or compliance boundary gets its own Hermes profile. A marketing automation profile cannot access HR data. A finance reconciliation profile cannot read customer support tickets. This isn't just good practice  --  it's required for SOC 2, HIPAA, and GDPR compliance.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Enterprise profile structure</span>
 ~/.hermes/profiles/
 ├──<span class="w"> </span>finance-reconciliation/<span class="w">     </span><span class="c1"># SOX-scoped: revenue data only</span>
@@ -8114,7 +8114,7 @@
 <h3 id="multi-region-deployment">Multi-Region Deployment<a class="headerlink" href="#multi-region-deployment" title="Anchor link to this section">&para;</a></h3>
 <p>Enterprises operating across regions (US, EU, APAC) face data residency requirements. Hermes supports region-scoped deployment:</p>
 <p><strong>Per-region Hermes instances:</strong> Deploy separate Hermes instances in each region. EU customer data stays in the EU instance. APAC employee data stays in the APAC instance.</p>
-<p><strong>Global orchestration layer:</strong> A lightweight global profile handles cross-region aggregations that don't involve PII movement — count of customers by region, aggregate revenue trends, global system health.</p>
+<p><strong>Global orchestration layer:</strong> A lightweight global profile handles cross-region aggregations that don't involve PII movement  --  count of customers by region, aggregate revenue trends, global system health.</p>
 <p><strong>Data residency verification skills:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">data-residency-verification</span>
 <span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;0</span><span class="nv"> </span><span class="s">3</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*&quot;</span><span class="w">  </span><span class="c1"># Daily at 3 AM</span>
@@ -8190,12 +8190,12 @@
 - Audit trail immutability with tamper detection</p>
 <h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Auditor-ready compliance</strong> — continuous evidence collection replaces quarterly fire drills</li>
-<li><strong>Data residency enforced</strong> — regional deployment keeps regulated data within jurisdiction</li>
-<li><strong>Least-privilege access</strong> — profile isolation prevents cross-department data exposure</li>
-<li><strong>Segregation of duties</strong> — four-party separation satisfies SOC 2 and SOX requirements</li>
-<li><strong>ITIL-aligned change management</strong> — standard, normal, and emergency change categories with approval gates</li>
-<li><strong>High availability</strong> — primary/standby deployment with automated failover and cron resilience</li>
+<li><strong>Auditor-ready compliance</strong>  --  continuous evidence collection replaces quarterly fire drills</li>
+<li><strong>Data residency enforced</strong>  --  regional deployment keeps regulated data within jurisdiction</li>
+<li><strong>Least-privilege access</strong>  --  profile isolation prevents cross-department data exposure</li>
+<li><strong>Segregation of duties</strong>  --  four-party separation satisfies SOC 2 and SOX requirements</li>
+<li><strong>ITIL-aligned change management</strong>  --  standard, normal, and emergency change categories with approval gates</li>
+<li><strong>High availability</strong>  --  primary/standby deployment with automated failover and cron resilience</li>
 </ul>
 <h2 id="enterprise-deployment-checklist">Enterprise Deployment Checklist<a class="headerlink" href="#enterprise-deployment-checklist" title="Anchor link to this section">&para;</a></h2>
 <p>Before going live with enterprise Hermes:</p>
@@ -8215,13 +8215,13 @@
 </ul>
 <h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Start with one compliant profile.</strong> Pick finance or security — the team most comfortable with controls. Build out the full enterprise pattern (secrets management, audit logging, change approval) for that single profile.</li>
+<li><strong>Start with one compliant profile.</strong> Pick finance or security  --  the team most comfortable with controls. Build out the full enterprise pattern (secrets management, audit logging, change approval) for that single profile.</li>
 <li><strong>Document everything as you go.</strong> The documentation you create for profile #1 becomes the template for profiles #2 through #20.</li>
 <li><strong>Engage your compliance team early.</strong> Show them the audit log output, the access control model, and the change management workflow. Get their sign-off before expanding.</li>
 <li><strong>Run in report-only mode for the first month.</strong> Generate alerts and reports but take no automated actions. This builds trust and surfaces edge cases.</li>
 <li><strong>Expand by department, not by use case.</strong> Onboard an entire department's automation needs rather than scattering skills across departments.</li>
 </ol>
-<p>The outcome: enterprise-grade automation that satisfies auditors, scales across regions, and gives every department the operational leverage of a well-tooled startup — without the compliance risk.</p>
+<p>The outcome: enterprise-grade automation that satisfies auditors, scales across regions, and gives every department the operational leverage of a well-tooled startup  --  without the compliance risk.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="is-hermes-agent-soc-2-type-ii-compliant">Is Hermes Agent SOC 2 Type II compliant?<a class="headerlink" href="#is-hermes-agent-soc-2-type-ii-compliant" title="Anchor link to this section">&para;</a></h3>
 <p>Hermes supports SOC 2 compliance through profile isolation, immutable audit logging, change management evidence, and segregation of duties. Organizations must configure these controls appropriately for their environment and complete their own audit process.</p>
@@ -8235,14 +8235,14 @@
 <p>Yes. Enterprise deployments use primary/standby instances with heartbeat monitoring, automated failover, and cron resilience. Skill definitions and configurations are version-controlled for rapid recovery.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="mid-market.html">Hermes Agent for Mid-Market</a> — Multi-team orchestration for growing companies</li>
-<li><a href="../case-studies/compliance-audit.html">Hermes Agent Compliance &amp; Audit Automation</a> — SOC 2, HIPAA, and GDPR evidence collection</li>
-<li><a href="../case-studies/government.html">Hermes Agent for Government</a> — FedRAMP and public sector compliance</li>
-<li><a href="../case-studies/financial-services.html">Hermes Agent for Financial Services</a> — SOX controls and regulatory filing</li>
-<li><a href="../../index.html">Hermes Agent Overview</a> — Core platform capabilities and connector ecosystem</li>
+<li><a href="mid-market.html">Hermes Agent for Mid-Market</a>  --  Multi-team orchestration for growing companies</li>
+<li><a href="../case-studies/compliance-audit.html">Hermes Agent Compliance &amp; Audit Automation</a>  --  SOC 2, HIPAA, and GDPR evidence collection</li>
+<li><a href="../case-studies/government.html">Hermes Agent for Government</a>  --  FedRAMP and public sector compliance</li>
+<li><a href="../case-studies/financial-services.html">Hermes Agent for Financial Services</a>  --  SOX controls and regulatory filing</li>
+<li><a href="../../index.html">Hermes Agent Overview</a>  --  Core platform capabilities and connector ecosystem</li>
 </ul>
-<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a> — real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a> — real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a>  --  real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a>  --  real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

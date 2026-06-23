@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="4 newly discovered skills and tools — async multi-agent message bus, Windows-native setup package, polymarket trading bot, and video translation. Plus Graphify adds Hermes platform support.">
+        <meta name="description" content="4 newly discovered skills and tools  --  async multi-agent message bus, Windows-native setup package, polymarket trading bot, and video translation. Plus Graphify adds Hermes platform support.">
       
       
       
@@ -23,7 +23,7 @@
     
     
       
-        <title>New Skills — June 19, 2026 (Hermes AgentMesh + Windows Native) - CorpusIQ Docs</title>
+        <title>New Skills  --  June 19, 2026 (Hermes AgentMesh + Windows Native) - CorpusIQ Docs</title>
       
     
     
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              New Skills — June 19, 2026 (Hermes AgentMesh + Windows Native)
+              New Skills  --  June 19, 2026 (Hermes AgentMesh + Windows Native)
             
           </span>
         </div>
@@ -7733,7 +7733,7 @@
   
 
 
-<h1 id="new-skills-june-19-2026">New Skills — June 19, 2026<a class="headerlink" href="#new-skills-june-19-2026" title="Anchor link to this section">&para;</a></h1>
+<h1 id="new-skills-june-19-2026">New Skills  --  June 19, 2026<a class="headerlink" href="#new-skills-june-19-2026" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Sources:</strong> skills.sh, GitHub discovery
 <strong>Date:</strong> June 19, 2026
 <strong>Total new:</strong> 4 skills/tools</p>
@@ -7754,12 +7754,12 @@
 <td>1</td>
 <td><code>hermes-agentmesh-async-bus</code></td>
 <td>1/day trending</td>
-<td>Peer-to-peer, 0-SSH, Redis-backed async message bus for multi-agent systems — Hermes, OpenClaw, LangGraph, AutoGen, CrewAI</td>
+<td>Peer-to-peer, 0-SSH, Redis-backed async message bus for multi-agent systems  --  Hermes, OpenClaw, LangGraph, AutoGen, CrewAI</td>
 </tr>
 <tr>
 <td>2</td>
 <td><code>hermes-windows-native</code></td>
-<td>—</td>
+<td>--</td>
 <td>Windows-native integrated package: Hermes Agent + WebUI, no Docker, no WSL2. One-click PowerShell startup</td>
 </tr>
 </tbody>
@@ -7779,13 +7779,13 @@
 <td>3</td>
 <td><code>openclaw-polymarket-trading-bot</code></td>
 <td>7/day trending</td>
-<td>Polymarket prediction market trading bot — query markets, place bets, track positions</td>
+<td>Polymarket prediction market trading bot  --  query markets, place bets, track positions</td>
 </tr>
 <tr>
 <td>4</td>
 <td><code>openclaw-videotranslate-skill</code></td>
-<td>—</td>
-<td>Video translation pipeline — extract, translate, and dub video content</td>
+<td>--</td>
+<td>Video translation pipeline  --  extract, translate, and dub video content</td>
 </tr>
 </tbody>
 </table>
@@ -7795,16 +7795,16 @@
 <strong>Designed by:</strong> Bobo, a Hermes agent architect</p>
 <h3 id="the-problem-it-solves">The Problem It Solves<a class="headerlink" href="#the-problem-it-solves" title="Anchor link to this section">&para;</a></h3>
 <p>Multi-agent coordination historically fails in three ways:
-1. <strong>Group chat noise</strong> — Telegram/Discord message storms eat context tokens, leak credentials
-2. <strong>Synchronous HTTP timeouts</strong> — Agent tool calls take 5–15 minutes; HTTP connections die at 300–600s
-3. <strong>SSH overhead</strong> — Remote process execution requires SSH; reports must be scp'd</p>
+1. <strong>Group chat noise</strong>  --  Telegram/Discord message storms eat context tokens, leak credentials
+2. <strong>Synchronous HTTP timeouts</strong>  --  Agent tool calls take 5–15 minutes; HTTP connections die at 300–600s
+3. <strong>SSH overhead</strong>  --  Remote process execution requires SSH; reports must be scp'd</p>
 <h3 id="the-solution-drop-in-mailbox-dont-call">The Solution: "Drop in Mailbox, Don't Call"<a class="headerlink" href="#the-solution-drop-in-mailbox-dont-call" title="Anchor link to this section">&para;</a></h3>
 <p>AgentMesh replaces synchronous HTTP with <strong>Redis-backed named inboxes</strong> (<code>inbox:&lt;NODE_NAME&gt;</code>). Any node pushes a task to any inbox; workers listen and process asynchronously. The mailbox is the protocol.</p>
 <div class="highlight"><pre><span></span><code>HTTP Synchronous (&quot;phone call&quot;)     Redis Queue (&quot;mailbox&quot;)
 requests.post(url, timeout=600)     redis.lpush(&quot;inbox:bobo&quot;, task_json)
 Client blocks waiting               Client returns immediately
 Timeout at 5–10 minutes             Hours-long tasks OK
-Cross-machine needs SSH             0 SSH — shared Redis + HTTP LLM
+Cross-machine needs SSH             0 SSH  --  shared Redis + HTTP LLM
 Report must be scp&#39;d                Report lands on initiator&#39;s machine
 </code></pre></div>
 <h3 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Anchor link to this section">&para;</a></h3>
@@ -7831,9 +7831,9 @@ Report must be scp&#39;d                Report lands on initiator&#39;s machine
 <strong>Stars:</strong> 20 ⭐ | <strong>License:</strong> MIT</p>
 <p>A Windows-native integrated package bundling Hermes Agent v0.16.0 + Hermes WebUI v0.51.454 with:
 - Shared <code>.venv</code> for both components
-- PowerShell launchers — Agent, WebUI, and one-click startup
+- PowerShell launchers  --  Agent, WebUI, and one-click startup
 - Runtime data redirected to <code>%USERPROFILE%\.hermes</code>
-- No Docker, no WSL2 — lightest local footprint on Windows</p>
+- No Docker, no WSL2  --  lightest local footprint on Windows</p>
 <h3 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">://</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="p">/</span><span class="n">markwang2658</span><span class="p">/</span><span class="n">hermes-windows-native</span><span class="p">.</span><span class="n">git</span> <span class="n">hermes-windows</span>
 <span class="nb">cd </span><span class="n">hermes-windows</span>
@@ -7853,12 +7853,12 @@ npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </s
 <span class="c1"># OpenClaw Video translate</span>
 npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>zbjincheng/openclaw-skill-videotranslate<span class="w"> </span>--skill<span class="w"> </span>openclaw-videotranslate-skill
 
-<span class="c1"># Hermes Windows Native (not a skills.sh skill — git clone)</span>
+<span class="c1"># Hermes Windows Native (not a skills.sh skill  --  git clone)</span>
 git<span class="w"> </span>clone<span class="w"> </span>https://github.com/markwang2658/hermes-windows-native.git
 </code></pre></div>
 <hr />
 <h2 id="ecosystem-note-graphify-adds-hermes-support">Ecosystem Note: Graphify Adds Hermes Support<a class="headerlink" href="#ecosystem-note-graphify-adds-hermes-support" title="Anchor link to this section">&para;</a></h2>
-<p><a href="https://github.com/safishamsi/graphify">Graphify</a> (<code>pip install graphifyy</code>) — the "turn any folder into a queryable knowledge graph" tool — now supports Hermes Agent as a first-class platform. Install with:</p>
+<p><a href="https://github.com/safishamsi/graphify">Graphify</a> (<code>pip install graphifyy</code>)  --  the "turn any folder into a queryable knowledge graph" tool  --  now supports Hermes Agent as a first-class platform. Install with:</p>
 <div class="highlight"><pre><span></span><code>graphify<span class="w"> </span>install<span class="w"> </span>--platform<span class="w"> </span>hermes
 </code></pre></div>
 <p>This writes <code>~/.hermes/skills/graphify/SKILL.md</code> and <code>AGENTS.md</code> so Hermes agents can use <code>/graphify .</code> to analyze codebases without leaving the conversation.</p>
@@ -7866,16 +7866,16 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/markw
 <h2 id="why-this-matters">Why This Matters<a class="headerlink" href="#why-this-matters" title="Anchor link to this section">&para;</a></h2>
 <ol>
 <li>
-<p><strong>AgentMesh is a paradigm shift</strong> — Moving from synchronous HTTP to async Redis mailboxes changes how multi-agent systems coordinate. No more timeout anxiety, no more SSH setup, no more lost reports. This is the kind of infrastructure the Hermes ecosystem needs for production multi-agent deployments.</p>
+<p><strong>AgentMesh is a paradigm shift</strong>  --  Moving from synchronous HTTP to async Redis mailboxes changes how multi-agent systems coordinate. No more timeout anxiety, no more SSH setup, no more lost reports. This is the kind of infrastructure the Hermes ecosystem needs for production multi-agent deployments.</p>
 </li>
 <li>
-<p><strong>Windows Native lowers the barrier</strong> — Docker and WSL2 are genuine obstacles for Windows users. A one-click PowerShell launcher with a shared venv makes Hermes accessible to a vastly larger audience.</p>
+<p><strong>Windows Native lowers the barrier</strong>  --  Docker and WSL2 are genuine obstacles for Windows users. A one-click PowerShell launcher with a shared venv makes Hermes accessible to a vastly larger audience.</p>
 </li>
 <li>
-<p><strong>Graphify Hermes integration</strong> — Knowledge graph visualization directly inside agent conversations is a powerful workflow. Being able to run <code>/graphify .</code> and get an interactive HTML graph from Hermes extends the agent's analytical capabilities.</p>
+<p><strong>Graphify Hermes integration</strong>  --  Knowledge graph visualization directly inside agent conversations is a powerful workflow. Being able to run <code>/graphify .</code> and get an interactive HTML graph from Hermes extends the agent's analytical capabilities.</p>
 </li>
 <li>
-<p><strong>Continued OpenClaw expansion</strong> — The Polymarket trading bot and video translation skill show the OpenClaw ecosystem continues to grow alongside Hermes, with cross-pollination through <code>aradotso/hermes-skills</code>.</p>
+<p><strong>Continued OpenClaw expansion</strong>  --  The Polymarket trading bot and video translation skill show the OpenClaw ecosystem continues to grow alongside Hermes, with cross-pollination through <code>aradotso/hermes-skills</code>.</p>
 </li>
 </ol>
 <hr />

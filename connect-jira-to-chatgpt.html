@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Connect your Jira account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your jira data and get real-time, source-cited answers — no exports, no coding required.">
+        <meta name="description" content="Connect your Jira account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your jira data and get real-time, source-cited answers  --  no exports, no coding required.">
       
       
       
@@ -27,7 +27,7 @@
     
     
       
-        <title>Connect Jira to ChatGPT via MCP — Live Data, No Code | CorpusIQ - CorpusIQ Docs</title>
+        <title>Connect Jira to ChatGPT via MCP  --  Live Data, No Code | CorpusIQ - CorpusIQ Docs</title>
       
     
     
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Connect Jira to ChatGPT via MCP — Live Data, No Code | CorpusIQ
+              Connect Jira to ChatGPT via MCP  --  Live Data, No Code | CorpusIQ
             
           </span>
         </div>
@@ -2356,7 +2356,7 @@
   <a href="#connect-connect-jira-to-chatgpt-via-mcp-live-data-no-code-co-with-corpusiq-corpusiqio" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Connect Connect Jira to ChatGPT via MCP — Live Data, No Code | Co... with CorpusIQ → corpusiq.io
+        Connect Connect Jira to ChatGPT via MCP -- Live Data, No Code | Co... with CorpusIQ → corpusiq.io
       
     </span>
   </a>
@@ -7922,7 +7922,7 @@
   <a href="#connect-connect-jira-to-chatgpt-via-mcp-live-data-no-code-co-with-corpusiq-corpusiqio" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Connect Connect Jira to ChatGPT via MCP — Live Data, No Code | Co... with CorpusIQ → corpusiq.io
+        Connect Connect Jira to ChatGPT via MCP -- Live Data, No Code | Co... with CorpusIQ → corpusiq.io
       
     </span>
   </a>
@@ -7950,8 +7950,8 @@
 
 
 <h1 id="how-to-connect-jira-to-chatgpt-with-corpusiq-mcp">How to Connect Jira to ChatGPT with CorpusIQ MCP<a class="headerlink" href="#how-to-connect-jira-to-chatgpt-with-corpusiq-mcp" title="Anchor link to this section">&para;</a></h1>
-<p>Your <strong>Jira</strong> account holds critical business data — but accessing insights usually means logging in, navigating dashboards, and running manual reports. <strong>Connecting Jira to ChatGPT through CorpusIQ MCP</strong> eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Jira data directly — you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.</p>
-<p>Once connected, ChatGPT can query your live Jira data — issues, sprints, epics, assignees, status transitions, and project velocity. You ask questions in plain English and get cited answers from your Jira instance — no JQL required.</p>
+<p>Your <strong>Jira</strong> account holds critical business data  --  but accessing insights usually means logging in, navigating dashboards, and running manual reports. <strong>Connecting Jira to ChatGPT through CorpusIQ MCP</strong> eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Jira data directly  --  you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.</p>
+<p>Once connected, ChatGPT can query your live Jira data  --  issues, sprints, epics, assignees, status transitions, and project velocity. You ask questions in plain English and get cited answers from your Jira instance  --  no JQL required.</p>
 <p>This page covers the connection architecture, what you can ask, agile workflow use cases, security, and how MCP compares to JQL queries and direct Jira API integration.</p>
 <h2 id="faq-common-questions">FAQ: Common Questions<a class="headerlink" href="#faq-common-questions" title="Anchor link to this section">&para;</a></h2>
 <details>
@@ -7963,7 +7963,7 @@ Issue questions: "Show me all open bugs in the current sprint", "What issues are
 <details>
 <summary><strong>How does the connection work?</strong></summary>
 
-CorpusIQ connects to your Jira instance (Cloud or Data Center) via OAuth 2.0 or personal access token. You authorize read-only access, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Jira tools — issue search, sprint reporting, project listing, and issue retrieval — and calls them when you ask a question. The MCP server handles JQL construction, pagination, and field mapping behind the scenes.
+CorpusIQ connects to your Jira instance (Cloud or Data Center) via OAuth 2.0 or personal access token. You authorize read-only access, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Jira tools  --  issue search, sprint reporting, project listing, and issue retrieval  --  and calls them when you ask a question. The MCP server handles JQL construction, pagination, and field mapping behind the scenes.
 </details>
 
 <details>
@@ -7975,13 +7975,13 @@ Yes. CorpusIQ requests read-only permissions from Jira. ChatGPT can see issues, 
 <details>
 <summary><strong>What Jira data can ChatGPT access?</strong></summary>
 
-Projects and their metadata. Issues with summary, description, status, assignee, priority, labels, components, and custom fields. Sprints with start/end dates, goal, and completion status. Epics with linked issues and progress. All standard and custom fields are accessible — just reference them by name.
+Projects and their metadata. Issues with summary, description, status, assignee, priority, labels, components, and custom fields. Sprints with start/end dates, goal, and completion status. Epics with linked issues and progress. All standard and custom fields are accessible  --  just reference them by name.
 </details>
 
 <details>
 <summary><strong>Can ChatGPT write JQL for me?</strong></summary>
 
-ChatGPT doesn't just write JQL — it eliminates the need for JQL entirely. Instead of writing `project = "PLATFORM" AND status = "In Progress" AND assignee = currentUser() ORDER BY priority DESC`, you ask "Show me my in-progress issues in the Platform project, sorted by priority." ChatGPT translates your natural language into the appropriate JQL, executes it, and returns the results. You get JQL-level precision without learning JQL syntax.
+ChatGPT doesn't just write JQL  --  it eliminates the need for JQL entirely. Instead of writing `project = "PLATFORM" AND status = "In Progress" AND assignee = currentUser() ORDER BY priority DESC`, you ask "Show me my in-progress issues in the Platform project, sorted by priority." ChatGPT translates your natural language into the appropriate JQL, executes it, and returns the results. You get JQL-level precision without learning JQL syntax.
 </details>
 
 <details>
@@ -7999,7 +7999,7 @@ This is where MCP truly differentiates from Jira-native reporting. "Which Jira e
 <details>
 <summary><strong>How is this different from Jira's built-in dashboards?</strong></summary>
 
-Jira dashboards are excellent for recurring team-level metrics — burndown charts, velocity, issue distributions. But they answer the questions you anticipate, not the questions you discover. "Show me all issues that were reopened more than twice in the last 30 days" is a JQL query and chart you'd need to build specifically — or a ChatGPT question that takes seconds. MCP complements Jira dashboards with ad-hoc analytical capability.
+Jira dashboards are excellent for recurring team-level metrics  --  burndown charts, velocity, issue distributions. But they answer the questions you anticipate, not the questions you discover. "Show me all issues that were reopened more than twice in the last 30 days" is a JQL query and chart you'd need to build specifically  --  or a ChatGPT question that takes seconds. MCP complements Jira dashboards with ad-hoc analytical capability.
 </details>
 
 <details>
@@ -8011,7 +8011,7 @@ Yes. CorpusIQ supports both Jira Cloud (via OAuth 2.0) and Jira Data Center (via
 <details>
 <summary><strong>Can I query across multiple Jira projects and boards?</strong></summary>
 
-Yes. "Show me all open issues across the Frontend, Backend, and DevOps projects." "What's the combined velocity across all engineering teams this quarter?" "Which projects have the most unresolved bugs?" Multi-project queries work naturally — no need to run separate JQL queries and combine results manually.
+Yes. "Show me all open issues across the Frontend, Backend, and DevOps projects." "What's the combined velocity across all engineering teams this quarter?" "Which projects have the most unresolved bugs?" Multi-project queries work naturally  --  no need to run separate JQL queries and combine results manually.
 </details>
 
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
@@ -8026,25 +8026,25 @@ Yes. "Show me all open issues across the Frontend, Backend, and DevOps projects.
 <p><strong>Ask development questions.</strong> ChatGPT translates your natural language into JQL, executes the query through the MCP server, and returns results in readable format.</p>
 </li>
 <li>
-<p><strong>Iterate.</strong> "Now show me just the P0 and P1 bugs" or "Group those by assignee" — follow-ups maintain context across your Jira data.</p>
+<p><strong>Iterate.</strong> "Now show me just the P0 and P1 bugs" or "Group those by assignee"  --  follow-ups maintain context across your Jira data.</p>
 </li>
 </ol>
 <p>No JQL. No board switching. No manual issue compilation.</p>
 <h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Development visibility for non-developers.</strong> Product managers, executives, and customer-facing teams can ask Jira questions without learning Jira's interface or JQL. "What's the status of Feature X?" is a ChatGPT question anyone can ask.</p>
-<p><strong>Faster sprint and standup preparation.</strong> "Give me a sprint summary — completed issues, remaining work, blockers, and burndown status." Sprint preparation that normally requires navigating multiple Jira views becomes one question.</p>
+<p><strong>Faster sprint and standup preparation.</strong> "Give me a sprint summary  --  completed issues, remaining work, blockers, and burndown status." Sprint preparation that normally requires navigating multiple Jira views becomes one question.</p>
 <p><strong>Cross-team development insights.</strong> "Show me issues that span both the Frontend and Backend teams." "Which epics have work distributed across the most teams?" Cross-team visibility that's difficult to achieve within Jira's project-oriented structure.</p>
 <p><strong>Business-connected development.</strong> "Which features in the current sprint map to HubSpot deals with Q3 close dates?" "Show me Jira issues for bugs reported by our top 10 revenue customers." Connecting development work to business impact is the unique advantage of <a href="../docs/benefits-of-mcp-for-business.md">MCP platforms like CorpusIQ</a>.</p>
-<p><strong>Automated status reporting.</strong> "Summarize engineering progress this week — what shipped, what's blocked, what's at risk." Weekly status becomes a conversation instead of compiling Jira data into a slide deck.</p>
+<p><strong>Automated status reporting.</strong> "Summarize engineering progress this week  --  what shipped, what's blocked, what's at risk." Weekly status becomes a conversation instead of compiling Jira data into a slide deck.</p>
 <h2 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="daily-engineering-standup">Daily Engineering Standup<a class="headerlink" href="#daily-engineering-standup" title="Anchor link to this section">&para;</a></h3>
-<p>"Give me the standup summary for my team — what moved to Done yesterday, what's In Progress, any blockers." Standup preparation in seconds.</p>
+<p>"Give me the standup summary for my team  --  what moved to Done yesterday, what's In Progress, any blockers." Standup preparation in seconds.</p>
 <h3 id="sprint-planning-and-retrospective">Sprint Planning and Retrospective<a class="headerlink" href="#sprint-planning-and-retrospective" title="Anchor link to this section">&para;</a></h3>
 <p>"What's our velocity trend over the last 6 sprints?" "Show me carry-over items from the last 3 sprints." "Which types of issues (bugs vs. stories vs. tasks) take the longest to resolve?" Data-driven retrospectives without JQL.</p>
 <h3 id="release-management">Release Management<a class="headerlink" href="#release-management" title="Anchor link to this section">&para;</a></h3>
 <p>"What issues are in the Release 3.2 scope?" "How many open bugs are blocking the release?" "Show me all unresolved issues with the release label." Release readiness becomes a conversational check.</p>
 <h3 id="bug-triage">Bug Triage<a class="headerlink" href="#bug-triage" title="Anchor link to this section">&para;</a></h3>
-<p>"Show me all unassigned P0 and P1 bugs." "Which bugs have been open the longest?" "Show me bugs by component — where are we seeing the most issues?" Bug triage prioritization with live data.</p>
+<p>"Show me all unassigned P0 and P1 bugs." "Which bugs have been open the longest?" "Show me bugs by component  --  where are we seeing the most issues?" Bug triage prioritization with live data.</p>
 <h3 id="cross-source-development-intelligence">Cross-Source Development Intelligence<a class="headerlink" href="#cross-source-development-intelligence" title="Anchor link to this section">&para;</a></h3>
 <p>"Show me Jira issues for features that support HubSpot deals in the final negotiation stage." "Which customer-reported bugs correspond to accounts with open Salesforce cases?" "Are there outstanding Jira tasks for products with declining Shopify inventory?" Development work connected to business context.</p>
 <h2 id="security-read-only-by-design">Security: Read-Only by Design<a class="headerlink" href="#security-read-only-by-design" title="Anchor link to this section">&para;</a></h2>
@@ -8089,7 +8089,7 @@ Yes. "Show me all open issues across the Frontend, Backend, and DevOps projects.
 <tr>
 <td><strong>Ad-hoc queries</strong></td>
 <td>Write and run each JQL query individually</td>
-<td>Conversational — ask and get answers</td>
+<td>Conversational  --  ask and get answers</td>
 </tr>
 <tr>
 <td><strong>Sharing</strong></td>
@@ -8115,7 +8115,7 @@ Yes. "Show me all open issues across the Frontend, Backend, and DevOps projects.
 <tr>
 <td><strong>Field mapping</strong></td>
 <td>Must handle custom field IDs and schemas</td>
-<td>Automatic — reference fields by name</td>
+<td>Automatic  --  reference fields by name</td>
 </tr>
 <tr>
 <td><strong>Rate limiting</strong></td>
@@ -8132,7 +8132,7 @@ Yes. "Show me all open issues across the Frontend, Backend, and DevOps projects.
 <p>JQL and the Jira API are essential for power users and integrations. For day-to-day status, reporting, and cross-functional visibility, MCP democratizes Jira access across the entire organization.</p>
 <h2 id="setup-guide">Setup Guide<a class="headerlink" href="#setup-guide" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Sign up</strong> at <a href="https://www.corpusiq.io">corpusiq.io</a> — free 30-day trial.</li>
+<li><strong>Sign up</strong> at <a href="https://www.corpusiq.io">corpusiq.io</a>  --  free 30-day trial.</li>
 <li><strong>Connect Jira.</strong> Dashboard → Connections → Jira → authenticate (OAuth for Cloud, PAT for Data Center) → authorize read-only access.</li>
 <li><strong>Connect ChatGPT.</strong> Add the CorpusIQ MCP server. See our <a href="../docs/quick-start.md">Quick Start guide</a>.</li>
 <li><strong>Verify.</strong> Ask "What Jira projects do I have access to?" to confirm.</li>
@@ -8141,19 +8141,19 @@ Yes. "Show me all open issues across the Frontend, Backend, and DevOps projects.
 <p>Under 5 minutes from signup to Jira answers in ChatGPT. No JQL required.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="../docs/connect-asana-to-chatgpt.md">Connect Asana to ChatGPT</a> — project management in ChatGPT</li>
-<li><a href="../docs/connect-monday-com-to-chatgpt.md">Connect Monday.com to ChatGPT</a> — work management in ChatGPT</li>
-<li><a href="https://www.corpusiq.io/docs">Connect GitHub to ChatGPT</a> — code repository data (available via CorpusIQ MCP)</li>
-<li><a href="../docs/connect-slack-to-chatgpt.md">Connect Slack to ChatGPT</a> — team communication in ChatGPT</li>
-<li><a href="../docs/connect-hubspot-to-chatgpt.md">Connect HubSpot to ChatGPT</a> — CRM data in ChatGPT</li>
-<li><a href="../docs/chatgpt-integration.md">ChatGPT Integration Overview</a> — the full integration</li>
-<li><a href="../docs/benefits-of-mcp-for-business.md">Benefits of MCP for Business</a> — why MCP wins</li>
-<li><a href="../docs/mcp-for-operations.md">MCP for Operations</a> — MCP for ops and dev teams</li>
-<li><a href="../docs/mcp-vs-api-integrations.md">MCP vs. API Integrations</a> — detailed comparison</li>
-<li><a href="../docs/security/README.md">CorpusIQ Security Architecture</a> — how data stays safe</li>
+<li><a href="../docs/connect-asana-to-chatgpt.md">Connect Asana to ChatGPT</a>  --  project management in ChatGPT</li>
+<li><a href="../docs/connect-monday-com-to-chatgpt.md">Connect Monday.com to ChatGPT</a>  --  work management in ChatGPT</li>
+<li><a href="https://www.corpusiq.io/docs">Connect GitHub to ChatGPT</a>  --  code repository data (available via CorpusIQ MCP)</li>
+<li><a href="../docs/connect-slack-to-chatgpt.md">Connect Slack to ChatGPT</a>  --  team communication in ChatGPT</li>
+<li><a href="../docs/connect-hubspot-to-chatgpt.md">Connect HubSpot to ChatGPT</a>  --  CRM data in ChatGPT</li>
+<li><a href="../docs/chatgpt-integration.md">ChatGPT Integration Overview</a>  --  the full integration</li>
+<li><a href="../docs/benefits-of-mcp-for-business.md">Benefits of MCP for Business</a>  --  why MCP wins</li>
+<li><a href="../docs/mcp-for-operations.md">MCP for Operations</a>  --  MCP for ops and dev teams</li>
+<li><a href="../docs/mcp-vs-api-integrations.md">MCP vs. API Integrations</a>  --  detailed comparison</li>
+<li><a href="../docs/security/README.md">CorpusIQ Security Architecture</a>  --  how data stays safe</li>
 </ul>
-<p><em>Connect Connect Jira to ChatGPT via MCP — Live Data, No Code | Co... with CorpusIQ → <a href="https://www.corpusiq.io">corpusiq.io</a></em></p>
-<h2 id="connect-connect-jira-to-chatgpt-via-mcp-live-data-no-code-co-with-corpusiq-corpusiqio"><em>Connect Connect Jira to ChatGPT via MCP — Live Data, No Code | Co... with CorpusIQ → <a href="https://www.corpusiq.io">corpusiq.io</a></em><a class="headerlink" href="#connect-connect-jira-to-chatgpt-via-mcp-live-data-no-code-co-with-corpusiq-corpusiqio" title="Anchor link to this section">&para;</a></h2>
+<p><em>Connect Connect Jira to ChatGPT via MCP  --  Live Data, No Code | Co... with CorpusIQ → <a href="https://www.corpusiq.io">corpusiq.io</a></em></p>
+<h2 id="connect-connect-jira-to-chatgpt-via-mcp-live-data-no-code-co-with-corpusiq-corpusiqio"><em>Connect Connect Jira to ChatGPT via MCP  --  Live Data, No Code | Co... with CorpusIQ → <a href="https://www.corpusiq.io">corpusiq.io</a></em><a class="headerlink" href="#connect-connect-jira-to-chatgpt-via-mcp-live-data-no-code-co-with-corpusiq-corpusiqio" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>

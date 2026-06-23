@@ -23,7 +23,7 @@
     
     
       
-        <title>SOUL Grader — Full Setup Guide for Hermes Agents - CorpusIQ Docs</title>
+        <title>SOUL Grader  --  Full Setup Guide for Hermes Agents - CorpusIQ Docs</title>
       
     
     
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              SOUL Grader — Full Setup Guide for Hermes Agents
+              SOUL Grader  --  Full Setup Guide for Hermes Agents
             
           </span>
         </div>
@@ -7700,10 +7700,10 @@
   
 
 
-<h1 id="soul-grader-setup-guide">SOUL Grader — Setup Guide<a class="headerlink" href="#soul-grader-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<h1 id="soul-grader-setup-guide">SOUL Grader  --  Setup Guide<a class="headerlink" href="#soul-grader-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/cobibean/soul-grader-skill">cobibean/soul-grader-skill</a> (25⭐, community skill)
 <strong>Category:</strong> Agent Identity &amp; Governance</p>
-<p>Grade, review, rewrite, or approve a Hermes Agent <code>SOUL.md</code> identity file using a narrow, research-backed rubric. The bundled grading standard is the only normative source — no generic prompt-engineering advice or personal taste. Scores 11 categories out of 100 with automatic fail conditions for secrets, false claims, and missing safety gates.</p>
+<p>Grade, review, rewrite, or approve a Hermes Agent <code>SOUL.md</code> identity file using a narrow, research-backed rubric. The bundled grading standard is the only normative source  --  no generic prompt-engineering advice or personal taste. Scores 11 categories out of 100 with automatic fail conditions for secrets, false claims, and missing safety gates.</p>
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>cobibean/soul-grader-skill
@@ -7731,7 +7731,7 @@
 </tr>
 <tr>
 <td><strong>Adjacent files (optional)</strong></td>
-<td><code>CLAUDE.md</code>, <code>AGENTS.md</code>, manifests, or operator guides — only needed for contradiction checks and artifact separation scoring.</td>
+<td><code>CLAUDE.md</code>, <code>AGENTS.md</code>, manifests, or operator guides  --  only needed for contradiction checks and artifact separation scoring.</td>
 </tr>
 </tbody>
 </table>
@@ -7765,7 +7765,7 @@
 <tr>
 <td><strong>Fleet grading</strong></td>
 <td>"Grade all my agent SOULs"</td>
-<td>Uses fleet workflow reference — active/retired classification, contradiction checks</td>
+<td>Uses fleet workflow reference  --  active/retired classification, contradiction checks</td>
 </tr>
 <tr>
 <td><strong>Deployability check</strong></td>
@@ -7775,7 +7775,7 @@
 <tr>
 <td><strong>Deep research</strong></td>
 <td>"Do a SOUL research project"</td>
-<td>Swarm deliverable pattern — independent research lanes, static HTML review surface</td>
+<td>Swarm deliverable pattern  --  independent research lanes, static HTML review surface</td>
 </tr>
 </tbody>
 </table>
@@ -7904,7 +7904,7 @@
 <tbody>
 <tr>
 <td><strong>New agent onboarding</strong></td>
-<td>Grade every new agent's SOUL.md before deployment — catch missing gates, false claims, and secret leaks</td>
+<td>Grade every new agent's SOUL.md before deployment  --  catch missing gates, false claims, and secret leaks</td>
 </tr>
 <tr>
 <td><strong>Agent identity drift detection</strong></td>
@@ -7912,15 +7912,15 @@
 </tr>
 <tr>
 <td><strong>Client agent handoff</strong></td>
-<td>Grade client-facing agent SOULs before delivery — ensures isolation, approval, and credential language is correct</td>
+<td>Grade client-facing agent SOULs before delivery  --  ensures isolation, approval, and credential language is correct</td>
 </tr>
 <tr>
 <td><strong>SOUL authoring</strong></td>
-<td>Use the wording standards and rubric to author strong SOUL.md files from scratch — operational language, no vibes</td>
+<td>Use the wording standards and rubric to author strong SOUL.md files from scratch  --  operational language, no vibes</td>
 </tr>
 <tr>
 <td><strong>Fleet audit</strong></td>
-<td>Run fleet-wide grading across all deployed Hermes agents — classify active/retired, catch contradictions, generate remediation reports</td>
+<td>Run fleet-wide grading across all deployed Hermes agents  --  classify active/retired, catch contradictions, generate remediation reports</td>
 </tr>
 </tbody>
 </table>
@@ -7936,7 +7936,7 @@
 <tbody>
 <tr>
 <td><strong>Bundled references missing</strong></td>
-<td>The grader stops and reports "source bundle missing" — re-clone the skill or check <code>references/</code> directory</td>
+<td>The grader stops and reports "source bundle missing"  --  re-clone the skill or check <code>references/</code> directory</td>
 </tr>
 <tr>
 <td><strong>Frontmatter treated as hidden</strong></td>
@@ -7944,11 +7944,11 @@
 </tr>
 <tr>
 <td><strong>Session cache ignores SOUL fix</strong></td>
-<td>A corrected SOUL may not affect a running session — restart Hermes or start a new session</td>
+<td>A corrected SOUL may not affect a running session  --  restart Hermes or start a new session</td>
 </tr>
 <tr>
 <td><strong>Adjacent file contradictions</strong></td>
-<td>If CLAUDE.md or AGENTS.md conflicts with SOUL, the grader flags it — decide which file owns the rule</td>
+<td>If CLAUDE.md or AGENTS.md conflicts with SOUL, the grader flags it  --  decide which file owns the rule</td>
 </tr>
 </tbody>
 </table>
@@ -7956,7 +7956,7 @@
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify skill installed</span>
 hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>soul-grader
 
-<span class="c1"># Quick functional test — load the grading standard reference</span>
+<span class="c1"># Quick functional test  --  load the grading standard reference</span>
 <span class="c1"># (run inside a Hermes session)</span>
 skill_view<span class="o">(</span><span class="nv">name</span><span class="o">=</span><span class="s2">&quot;soul-grader&quot;</span>,<span class="w"> </span><span class="nv">file_path</span><span class="o">=</span><span class="s2">&quot;references/soul-md-grading-standard.md&quot;</span><span class="o">)</span>
 </code></pre></div>

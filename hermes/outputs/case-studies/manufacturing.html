@@ -5868,7 +5868,7 @@
   <a href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        From the Hermes Case Studies — real-world agent deployments. Powered by CorpusIQ.
+        From the Hermes Case Studies -- real-world agent deployments. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -7978,7 +7978,7 @@
   <a href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        From the Hermes Case Studies — real-world agent deployments. Powered by CorpusIQ.
+        From the Hermes Case Studies -- real-world agent deployments. Powered by CorpusIQ.
       
     </span>
   </a>
@@ -8006,9 +8006,9 @@
 
 
 <h1 id="hermes-agent-manufacturing-automation">Hermes Agent Manufacturing Automation<a class="headerlink" href="#hermes-agent-manufacturing-automation" title="Anchor link to this section">&para;</a></h1>
-<p>Hermes Agent connects ERP, MES, CMMS, and IoT systems into unified monitoring and alerting workflows for manufacturing operations. Automate supply chain tracking, quality control detection, and equipment maintenance coordination — catching issues before they become line stoppages.</p>
+<p>Hermes Agent connects ERP, MES, CMMS, and IoT systems into unified monitoring and alerting workflows for manufacturing operations. Automate supply chain tracking, quality control detection, and equipment maintenance coordination  --  catching issues before they become line stoppages.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>Manufacturing operations span physical and digital domains — production lines, inventory systems, supplier networks, quality data, and maintenance schedules all generate continuous streams of information. Most manufacturers run excellent systems individually: an ERP for orders and inventory, a MES for production tracking, a CMMS for maintenance, separate quality databases, and supplier portals. The gap isn't data collection — it's data connection. Engineers and managers spend hours each day checking multiple dashboards and reconciling discrepancies between systems. Hermes Agent automates that cross-system reconciliation and alerting.</p>
+<p>Manufacturing operations span physical and digital domains  --  production lines, inventory systems, supplier networks, quality data, and maintenance schedules all generate continuous streams of information. Most manufacturers run excellent systems individually: an ERP for orders and inventory, a MES for production tracking, a CMMS for maintenance, separate quality databases, and supplier portals. The gap isn't data collection  --  it's data connection. Engineers and managers spend hours each day checking multiple dashboards and reconciling discrepancies between systems. Hermes Agent automates that cross-system reconciliation and alerting.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <h3 id="supply-chain-monitoring">Supply Chain Monitoring<a class="headerlink" href="#supply-chain-monitoring" title="Anchor link to this section">&para;</a></h3>
 <p>Supply chain disruptions cascade fast. A late shipment from one supplier delays production, which delays customer orders, which triggers penalty clauses. Early warning is everything.</p>
@@ -8023,7 +8023,7 @@
 - Carrier tracking status (via shipping API connectors)
 - In-transit delays from carrier status codes
 - Quantity discrepancies between PO, supplier confirmation, and actual shipment</p>
-<p>When a shipment is at risk — late, short-shipped, or stuck in transit — the skill alerts the procurement team through Slack and creates a follow-up task in the project management system with all relevant order details attached.</p>
+<p>When a shipment is at risk  --  late, short-shipped, or stuck in transit  --  the skill alerts the procurement team through Slack and creates a follow-up task in the project management system with all relevant order details attached.</p>
 <p><strong>Inventory Level Monitoring</strong></p>
 <div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">inventory-reorder-check</span>
 <span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;0</span><span class="nv"> </span><span class="s">7</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*&quot;</span><span class="w">  </span><span class="c1"># Daily at 7 AM</span>
@@ -8038,7 +8038,7 @@
 - Safety stock requirements</p>
 <p>The output is a prioritized replenishment list with recommended order quantities and urgency flags. For items below safety stock with no open PO, Hermes can trigger immediate alerts.</p>
 <h3 id="quality-control-alerts">Quality Control Alerts<a class="headerlink" href="#quality-control-alerts" title="Anchor link to this section">&para;</a></h3>
-<p>Quality data lives in its own systems — inspection databases, lab information management systems (LIMS), statistical process control (SPC) software. Hermes connects to these and applies rules that cross quality data with production data.</p>
+<p>Quality data lives in its own systems  --  inspection databases, lab information management systems (LIMS), statistical process control (SPC) software. Hermes connects to these and applies rules that cross quality data with production data.</p>
 <p><strong>Out-of-Spec Detection</strong></p>
 <div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">quality-spc-monitor</span>
 <span class="w">  </span><span class="nt">schedule</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;*/30</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*</span><span class="nv"> </span><span class="s">*&quot;</span><span class="w">  </span><span class="c1"># Every 30 minutes during production</span>
@@ -8078,7 +8078,7 @@
 <span class="w">  </span><span class="nt">skill</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">equipment-health</span>
 <span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Monitors IoT sensor data for early warning signs</span>
 </code></pre></div>
-<p>The skill queries sensor readings — vibration, temperature, current draw, pressure — and applies threshold rules. A bearing temperature trending upward across successive readings triggers an alert before the bearing fails, giving maintenance time to schedule replacement during planned downtime rather than reacting to a line stoppage.</p>
+<p>The skill queries sensor readings  --  vibration, temperature, current draw, pressure  --  and applies threshold rules. A bearing temperature trending upward across successive readings triggers an alert before the bearing fails, giving maintenance time to schedule replacement during planned downtime rather than reacting to a line stoppage.</p>
 <h3 id="production-reporting">Production Reporting<a class="headerlink" href="#production-reporting" title="Anchor link to this section">&para;</a></h3>
 <p>Shift-by-shift production reporting often involves operators manually entering data that already exists in machine controllers and MES databases. Hermes can automate the aggregation:</p>
 <div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">shift-production-report</span>
@@ -8088,18 +8088,18 @@
 </code></pre></div>
 <h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Fewer supply chain surprises</strong> — at-risk shipments flagged before they delay production</li>
-<li><strong>Reduced quality escapes</strong> — SPC violations caught in near real-time, not at end-of-shift inspection</li>
-<li><strong>Lower maintenance costs</strong> — predictive alerts prevent catastrophic equipment failures</li>
-<li><strong>Optimized inventory</strong> — reorder recommendations factor production demand, not just min/max levels</li>
-<li><strong>Faster shift handoffs</strong> — automated production reports eliminate manual data entry</li>
-<li><strong>Connected factory floor</strong> — ERP, MES, CMMS, and IoT data unified in single alerting system</li>
+<li><strong>Fewer supply chain surprises</strong>  --  at-risk shipments flagged before they delay production</li>
+<li><strong>Reduced quality escapes</strong>  --  SPC violations caught in near real-time, not at end-of-shift inspection</li>
+<li><strong>Lower maintenance costs</strong>  --  predictive alerts prevent catastrophic equipment failures</li>
+<li><strong>Optimized inventory</strong>  --  reorder recommendations factor production demand, not just min/max levels</li>
+<li><strong>Faster shift handoffs</strong>  --  automated production reports eliminate manual data entry</li>
+<li><strong>Connected factory floor</strong>  --  ERP, MES, CMMS, and IoT data unified in single alerting system</li>
 </ul>
 <h2 id="getting-started-in-manufacturing">Getting Started in Manufacturing<a class="headerlink" href="#getting-started-in-manufacturing" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Connect your ERP database first.</strong> Most manufacturers have a SQL-accessible ERP. Start there — it contains orders, inventory, and supplier data.</li>
+<li><strong>Connect your ERP database first.</strong> Most manufacturers have a SQL-accessible ERP. Start there  --  it contains orders, inventory, and supplier data.</li>
 <li><strong>Pick one alert that would prevent a recent problem.</strong> Think about the last production delay or quality escape. Build the Hermes automation that would have caught it.</li>
-<li><strong>Use database connectors for on-prem systems.</strong> Many manufacturing databases run on MSSQL or PostgreSQL — both directly accessible to Hermes.</li>
+<li><strong>Use database connectors for on-prem systems.</strong> Many manufacturing databases run on MSSQL or PostgreSQL  --  both directly accessible to Hermes.</li>
 <li><strong>Layer in IoT gradually.</strong> Start with thresholds you understand (temperature above X), then refine as you learn what patterns matter.</li>
 <li><strong>Route alerts to where action happens.</strong> In manufacturing, that's often a maintenance Slack channel, a production team email, or directly into the CMMS as a work order.</li>
 </ol>
@@ -8108,7 +8108,7 @@
 <h3 id="what-manufacturing-systems-does-hermes-connect-to">What manufacturing systems does Hermes connect to?<a class="headerlink" href="#what-manufacturing-systems-does-hermes-connect-to" title="Anchor link to this section">&para;</a></h3>
 <p>Hermes connects to ERP systems (SAP, Oracle, Microsoft Dynamics, Odoo) via database connectors, MES platforms, CMMS maintenance systems, quality databases (LIMS, SPC software), and IoT sensor data stores. Any system with SQL or API access is connectable.</p>
 <h3 id="can-hermes-predict-equipment-failures">Can Hermes predict equipment failures?<a class="headerlink" href="#can-hermes-predict-equipment-failures" title="Anchor link to this section">&para;</a></h3>
-<p>Hermes applies threshold-based monitoring to IoT sensor data — vibration, temperature, current draw — and alerts on trending patterns that indicate impending failure. This is practical predictive maintenance without requiring dedicated analytics platforms.</p>
+<p>Hermes applies threshold-based monitoring to IoT sensor data  --  vibration, temperature, current draw  --  and alerts on trending patterns that indicate impending failure. This is practical predictive maintenance without requiring dedicated analytics platforms.</p>
 <h3 id="how-does-hermes-handle-supplier-quality-tracking">How does Hermes handle supplier quality tracking?<a class="headerlink" href="#how-does-hermes-handle-supplier-quality-tracking" title="Anchor link to this section">&para;</a></h3>
 <p>Hermes tracks defect rates by supplier over rolling time windows, applies statistical process control rules, and flags deteriorating trends. Weekly reports prioritize suppliers whose quality issues have the highest business impact.</p>
 <h3 id="is-hermes-suitable-for-small-manufacturing-shops">Is Hermes suitable for small manufacturing shops?<a class="headerlink" href="#is-hermes-suitable-for-small-manufacturing-shops" title="Anchor link to this section">&para;</a></h3>
@@ -8117,14 +8117,14 @@
 <p>If your MES has SQL database access (PostgreSQL or MSSQL), Hermes connects directly via database connectors. For API-based MES platforms, custom API connectors can be configured.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="ecommerce.html">Hermes Agent for Ecommerce Operations</a> — Inventory synchronization and multi-channel management</li>
-<li><a href="revenue-operations.html">Hermes Agent Revenue Operations Automation</a> — Pipeline and forecasting automation</li>
-<li><a href="../by-company-size/mid-market.html">Hermes Agent for Mid-Market</a> — Multi-department orchestration</li>
-<li><a href="../by-company-size/enterprise.html">Hermes Agent for Enterprise</a> — Security and governance at scale</li>
-<li><a href="../../index.html">Hermes Agent Overview</a> — Core platform capabilities and connector ecosystem</li>
+<li><a href="ecommerce.html">Hermes Agent for Ecommerce Operations</a>  --  Inventory synchronization and multi-channel management</li>
+<li><a href="revenue-operations.html">Hermes Agent Revenue Operations Automation</a>  --  Pipeline and forecasting automation</li>
+<li><a href="../by-company-size/mid-market.html">Hermes Agent for Mid-Market</a>  --  Multi-department orchestration</li>
+<li><a href="../by-company-size/enterprise.html">Hermes Agent for Enterprise</a>  --  Security and governance at scale</li>
+<li><a href="../../index.html">Hermes Agent Overview</a>  --  Core platform capabilities and connector ecosystem</li>
 </ul>
-<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a> — real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a> — real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a>  --  real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
+<h2 id="from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq"><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a>  --  real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#from-the-hermes-case-studies-real-world-agent-deployments-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />
 <p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
