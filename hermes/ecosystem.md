@@ -3658,3 +3658,4 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+| [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 115000 | 232 AI agent personalities across 16 divisions — marketing, engineering, design, QA, security, support. One-click install for Claude Code, Copilot, Cursor, Aider, OpenCode. MIT license. | agent-personality, multi-agent, marketing, engineering, design |
