@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 23, 2026 (morning sweep) · **Sources:** mcp.so (22,663 servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 23, 2026 (afternoon sweep) · **Sources:** mcp.so (22,663 servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -115,6 +115,12 @@ Agent-to-agent knowledge exchange for trading intelligence  --  publish empirica
 ### ROIC.AI Financial Data API ★ Official ★ New
 Access ROIC.AI financial data from AI tools, including company financials, ratios, prices, transcripts, and market research data. Official MCP server for fundamental analysis  --  essential for operators who need institutional-grade financial data in their AI workflows.
 
+### Ensotrade ★ New
+Bloomberg-grade crypto intelligence for AI agents  --  real-time market data, institutional-grade analytics, multi-exchange coverage, and portfolio intelligence. MCP-native for operators who need professional crypto market data in their AI workflows.
+
+### Evibe Portfolio ★ New
+Read-only investment portfolio access via MCP  --  holdings, performance metrics, dividends, benchmarks, and stock screeners. Official MCP server from Evibe. Essential for operators who want AI-driven portfolio intelligence without manual data entry.
+
 ---
 
 ## Document Intelligence
@@ -193,6 +199,9 @@ Access Reddit data for social listening, market research, and community monitori
 ### Baidu Map MCP ★ New
 Baidu Maps API via MCP  --  China's largest mapping platform. Location search, geocoding, directions, POI data, and route planning. First major map service fully MCP-compatible. Essential for China-market operators.
 
+### freesearch-mcp ★ New
+Routes search queries through public SearXNG instances — free alternative to SerpAPI, Exa, and Brave Search. No API keys, no rate limits, no billing. Perfect for operators who need AI web search without per-query costs.
+
 ### Geekflare ★ New
 Web scraping, search, screenshots, and network tools for Claude, Cursor, ChatGPT, and other MCP clients. All-in-one web intelligence toolkit for operators who need to extract and monitor web data at scale. `npx -y @geekflare/mcp`
 
@@ -242,6 +251,12 @@ EU DORA compliance evidence infrastructure  --  50 MCP tools across 11 servers, 
 
 ### Trust Gate MCP ★ New ★ Featured
 First post-quantum MCP server. Policy-gated AI agent decisions with hybrid Ed25519 + ML-DSA-65 (NIST FIPS 204) cryptographic receipts. Every tool call is policy-gated, hybrid-signed, and offline-verifiable. 4 tools: `gate_decision`, `verify_receipt`, `check_policy`, `health`. Production-ready (47 unit tests, 51 OWASP ASI checks, 0 CVEs in deps). EU AI Act Article 50 native, NSA CNSA 2.0 / NIST AI RMF / SOC 2 ready. Apache-2.0. Essential for operators in regulated industries who need cryptographically verifiable AI agent decisions with post-quantum security. `pip install trust-gate-mcp`
+
+### Gocreative ★ New
+Compliance, KYB (Know Your Business), sanctions screening, and data API for AI agents. Automated business verification, AML checks, and regulatory compliance workflows via MCP. Essential for operators in fintech, legal, and regulated industries.
+
+### EMILIA Protocol ★ New
+Require offline-verifiable human approval before AI agents take irreversible actions. Two-person rule, Ed25519 Trust Receipts, IETF-drafted protocol, Apache-2.0. MCP-native governance for high-stakes agent operations  --  ideal for financial controllers and compliance officers.
 
 ---
 
@@ -485,6 +500,9 @@ Online video conversions via API  --  convert videos between formats directly fr
 ### InfraNode ★ New
 Free, keyless MCP server for open data across 84 German cities: weather and DWD warnings, air quality, transit, traffic, water levels, energy/SMARD. 38 tools, Apache 2.0 licensed. Zero authentication required  --  ideal for operators building location-aware AI applications or needing German infrastructure data for logistics, planning, and environmental monitoring.
 
+### Process Street MCP Server ★ New
+Connect AI agents to Process Street workflows, tasks, runs, datasets, and form fields via a hosted OAuth endpoint. Trigger compliance checklists, standard operating procedures, and recurring business processes directly from AI agents. Essential for operators who run Process Street for team workflows and process automation.
+
 ### Numbers Online  --  Phone Intelligence ★ New
 Hosted, read-only MCP server for AI voice agent phone intelligence  --  caller identity, risk scoring, line type, DNC check. Every billable answer carries an Ed25519-signed receipt. No raw phone numbers stored (hashed only). Remote/hosted: nothing to install.
 
@@ -531,6 +549,15 @@ AI image & video generation for social media, branding, ecommerce, and digital c
 
 ### Blog2Video ★ New
 Convert blog URLs to video in under 3 minutes via MCP. Turn written content into video assets for social media and marketing pipelines without leaving your AI client.
+
+### Powerdmarc Mcp ★ New
+Email security and DMARC compliance MCP  --  monitor domain email authentication (SPF, DKIM, DMARC), detect spoofing, generate forensic reports. Essential for operators who need AI-driven email security monitoring and domain protection.
+
+### Unspam MCP ★ New
+Email deliverability and spam testing MCP  --  inbox placement checks, spam score analysis, screenshot previews, heatmaps, and autopilot deliverability tests. OAuth authentication, no API keys needed. Essential for email marketers and operators managing outreach campaigns.
+
+### mcp-ads ★ New
+MCP for ads platforms  --  connect AI agents to advertising APIs for campaign management, performance analysis, and optimization across ad networks.
 
 ### DesignForYou ★ New
 Generate finished, on-brand designs  --  logos, social posts, app-store screenshots, comic panels, and visual-novel assets  --  from a prompt. Remote MCP server backed by 119 templates: free browse/recommend tools, metered generation, OAuth sign-in. Works in Claude Code, Cursor, and ChatGPT. Essential for operators who need design assets without a design team.
@@ -999,6 +1026,24 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ---
 
+## New This Week (June 23, 2026 — afternoon sweep)
+
+### 9 new servers from mcp.so Feed + mcpservers.org
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Ensotrade ★ New | Finance | Bloomberg-grade crypto intelligence — real-time data, institutional analytics, multi-exchange coverage |
+| Evibe Portfolio ★ New | Finance | Read-only investment portfolio MCP — holdings, performance, dividends, benchmarks |
+| Gocreative ★ New | Compliance | Compliance, KYB, sanctions screening — automated business verification for AI agents |
+| EMILIA Protocol ★ New | Security/Compliance | Offline-verifiable human approval for irreversible agent actions — 2-person rule, IETF-drafted |
+| Powerdmarc Mcp ★ New | Marketing/Security | Email DMARC compliance monitoring — SPF/DKIM/DMARC, spoofing detection, forensic reports |
+| Unspam MCP ★ New | Marketing | Email deliverability testing — spam checks, inbox placement, screenshots, heatmaps |
+| mcp-ads ★ New | Marketing | Ads platform MCP — campaign management, performance analysis, optimization |
+| Process Street MCP Server ★ New | Productivity | Workflow automation — trigger checklists, SOPs, recurring processes via OAuth |
+| freesearch-mcp ★ New | Content/Research | Free SearXNG-powered web search — no API keys, no rate limits, no billing |
+
+---
+
 ## New This Week (June 23, 2026 — morning sweep)
 
 ### 23 new servers from mcp.so Feed (June 23 morning)
@@ -1101,8 +1146,8 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 23 morning):** 23 new MCP servers from mcp.so Feed
-- **Cumulative since June 9:** 292 MCP servers catalogued across 18 sweeps
+- **New this cycle (June 23 afternoon):** 32 new MCP servers — 23 morning (mcp.so Feed) + 9 afternoon (mcp.so Feed + mcpservers.org)
+- **Cumulative since June 9:** 301 MCP servers catalogued across 19 sweeps
 
 ---
 
