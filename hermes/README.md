@@ -29,6 +29,19 @@ last_updated: 2026-06-23
 
 ---
 
+## Directory
+
+| | | | |
+|---|---|---|---|
+| [agents](agents/) — Agent personalities | [architecture](architecture/) — Design patterns | [best-practices](best-practices/) — Guidelines | [blueprints](blueprints/) — Workflows |
+| [changelog](changelog/) — Version history | [community](community/) — Links & projects | [content-ops](content-ops/) — Content tools | [data](data/) — Data handling |
+| [governance](governance/) — Ops & monitoring | [infrastructure](infrastructure/) — Deploy guides | [integrations](integrations/) — Connectors | [knowledge](knowledge/) — Memory systems |
+| [launch](launch/) — Launch helpers | [mcp](mcp/) — MCP servers catalog | [orchestration](orchestration/) — Multi-agent | [outputs](outputs/) — Templates |
+| [prompts](prompts/) — Prompt library | [scripts](scripts/) — Utility scripts | [setup](setup/) — Installation guides | [skills](skills/) — Agent skills |
+| [tools](tools/) — Auxiliary tools | [troubleshooting](troubleshooting/) — Fixes |
+
+---
+
 ## Why This Exists
 
 The [official Hermes docs](https://hermes-agent.nousresearch.com/docs/) cover installation and configuration. They don't tell you what to actually build, how to wire memory systems together, or which MCP servers work in production.
