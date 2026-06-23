@@ -1,1 +1,89 @@
----\ntitle: Hermes Agent Resources — Tools, Skills, MCP Servers & Deployment Knowledge\ndescription: "A curated collection of Hermes Agent resources: MCP servers, skills, memory systems, deployment patterns, and community tools. Everything you need to build production autonomous AI agents."\ncategory: Documentation\ntags:\n  - hermes-agent\n  - autonomous-agents\n  - production-deployment\n  - ai-agent-architecture\n  - mcp-ecosystem\nlast_updated: 2026-06-23\n---\n\n<p align=\"center\">\n  <img src=\"https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/banner.png\" alt=\"Hermes Agent\" width=\"600\">\n</p>\n\n<h1 align=\"center\">Hermes Agent — Community Resources</h1>\n\n<p align=\"center\">\n  <b>A curated directory of tools, skills, MCP servers, and deployment knowledge for building production AI agents with Hermes.</b>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml\"><img src=\"https://img.shields.io/badge/📤_Submit_a_Repo-Add_your_resource-brightgreen\" alt=\"Submit\"></a>\n  <a href=\"https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/ecosystem.md\"><img src=\"https://img.shields.io/badge/📚_Ecosystem-406_repos-blue\" alt=\"Ecosystem\"></a>\n  <a href=\"https://github.com/CorpusIQ/corpusiq-docs\"><img src=\"https://img.shields.io/badge/⭐_Star_us-Contribute-gold\" alt=\"Star\"></a>\n</p>\n\n<p align=\"center\">\n  <a href=\"#-quick-start\">Quick Start</a> ·\n  <a href=\"#-architecture\">Architecture</a> ·\n  <a href=\"#-memory\">Memory</a> ·\n  <a href=\"#-skills\">Skills</a> ·\n  <a href=\"#-mcp-servers\">MCP</a> ·\n  <a href=\"#-deployment\">Deployment</a> ·\n  <a href=\"#-ecosystem\">Ecosystem</a>\n</p>\n\n---\n\n## Why This Exists\n\nThe [official Hermes docs](https://hermes-agent.nousresearch.com/docs/) cover installation and configuration. This repository fills the gap with community-contributed resources:\n\n- **MCP servers** — connect Hermes to APIs, databases, and external tools\n- **Skills** — reusable agent workflows for common tasks\n- **Memory systems** — persistent knowledge across sessions\n- **Deployment patterns** — production architecture for autonomous agents\n- **Agent personalities** — specialized roles for multi-agent workflows\n\n**This is the directory you wish existed when you started building.**\n\n---\n\n## Quick Start\n\n```bash\n# Install Hermes Agent\npip install hermes-agent\n\n# Add an MCP server\nhermes mcp add <name> --url <server-url>\n\n# Install community skills\nhermes skills install <skill-url>\n\n# Clone this resource directory\ngit clone https://github.com/CorpusIQ/corpusiq-docs.git\n```\n\n---\n\n## Architecture\n\n### The Production Stack\n\n| Layer | Purpose | Examples |\n|-------|---------|----------|\n| **Orchestration** | Agent runtime | Hermes Agent, CrewAI, LangGraph |\n| **MCP Layer** | External tools | File systems, APIs, databases, browsers |\n| **Memory** | Persistent context | Honcho, GBrain, memcore-cloud, GraphRAG |\n| **Skills** | Reusable workflows | Code review, deployment, content generation |\n| **Infrastructure** | Deployment | Multi-machine, Docker, systemd |\n| **Governance** | Operations | Monitoring, self-improvement, drift prevention |\n\n---\n\n## Memory\n\n### Memory Stack Options\n\n| System | Type | Use Case |\n|--------|------|----------|\n| **[Honcho](https://mcp.honcho.dev)** | Peer memory | Identity, preferences, conversation history |\n| **[GBrain](https://github.com/garrytan/gbrain)** | Knowledge base | File indexing, code understanding |\n| **[memcore-cloud](https://github.com/memcore-cloud)** | Cross-session | Context injection, source tracking |\n| **[EverOS](https://github.com/EverMind-AI/EverOS)** | Self-evolving | Long-term memory evolution |\n| **SQLite + FTS5** | Built-in | Session history, search |\n\n---\n\n## Skills\n\n### Where to Find Skills\n\n| Source | Description |\n|--------|-------------|\n| **[agentskills.io](https://agentskills.io)** | Open standard skill hub |\n| **[skills.sh](https://skills.sh)** | Community marketplace |\n| **[wondelai/skills](https://github.com/wondelai/skills)** | Cross-platform library |\n| **[msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)** | 232 agent personalities |\n| **[aawobdev/hermes-skills](https://github.com/aawobdev/hermes-skills)** | Blueprint orchestration |\n| **[DeployFaith/hermes-bible-skill](https://github.com/DeployFaith/hermes-bible-skill)** | Community knowledge base |\n\n---\n\n## MCP Servers\n\n### Business & Data\n\n| Server | Description |\n|--------|-------------|\n| **[CorpusIQ MCP](https://corpusiq.io)** | 37+ business APIs (QuickBooks, Shopify, Stripe, HubSpot, GA4) |\n| **[Stripe MCP](https://github.com/stripe/agent-toolkit)** | Payment processing |\n| **[Airbyte MCP](https://github.com/airbytehq/airbyte)** | Data pipeline connector |\n\n### Development & Tools\n\n| Server | Description |\n|--------|-------------|\n| **[GitHub MCP](https://github.com/github/github-mcp-server)** | Repository management |\n| **[Postgres MCP](https://github.com/modelcontextprotocol/servers)** | Database access |\n| **[Browser MCP](https://github.com/modelcontextprotocol/servers)** | Web automation |\n\n### Memory & Knowledge\n\n| Server | Description |\n|--------|-------------|\n| **[Honcho MCP](https://mcp.honcho.dev)** | Peer memory |\n| **[EverOS](https://github.com/EverMind-AI/EverOS)** | Self-evolving memory |\n\n---\n\n## Deployment\n\n### Patterns\n\n- **Single machine** — Hermes + Ollama for local-only agents\n- **Multi-machine** — Primary compute + worker node for heavy tasks\n- **Docker** — Containerized deployment with persistent storage\n- **systemd** — Auto-restart and crash recovery\n\n### Model Routing\n\n| Task Type | Recommended Model |\n|-----------|-------------------|\n| Lightweight ops | Qwen, local Ollama |\n| Coding, research | DeepSeek V4, Claude |\n| Strategy, architecture | Claude Opus, GPT-5 |\n\n---\n\n## Ecosystem\n\n### Official Resources\n\n| Resource | Description |\n|----------|-------------|\n| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Core project (195K+ stars) |\n| [Official Docs](https://hermes-agent.nousresearch.com/docs/) | Installation, CLI, configuration |\n| [Discord](https://discord.gg/NousResearch) | Community support |\n\n### Community Projects\n\n| Project | Stars | Description |\n|---------|-------|-------------|\n| [claude-mem](https://github.com/thedotmack/claude-mem) | 82K+ | Persistent context |\n| [hermes-webui](https://github.com/nesquena/hermes-webui) | 14K+ | Web interface |\n| [hermes-desktop](https://github.com/fathah/hermes-desktop) | 12K+ | Desktop companion |\n| [Hermes Agency](https://github.com/DeployFaith/Hermes_Agency) | — | P2P agent collaboration |\n| [mission-control](https://github.com/builderz-labs/mission-control) | 3.7K+ | Multi-agent fleet |\n| [PraisonAI](https://github.com/MervinPraison/PraisonAI) | 8K+ | AI workforce |\n\n**[Full ecosystem directory →](https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/ecosystem.md)** — 406+ repos indexed, updated daily.\n\n---\n\n## Contributing\n\nSubmit a repo, skill, or MCP server: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)\n\nThis is a community resource. If you built something useful for Hermes, add it here.\n
+---
+title: Hermes Agent Resources — Tools, Skills, MCP Servers & Deployment Knowledge
+description: "A curated collection of Hermes Agent resources: MCP servers, skills, memory systems, deployment patterns, and community tools. Everything you need to build production autonomous AI agents."
+category: Documentation
+tags:
+  - hermes-agent
+  - autonomous-agents
+  - production-deployment
+  - ai-agent-architecture
+  - mcp-ecosystem
+last_updated: 2026-06-23
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/banner.png" alt="Hermes Agent" width="600">
+</p>
+
+<h1 align="center">Hermes Agent — Community Resources</h1>
+
+<p align="center">
+  <b>A curated directory of tools, skills, MCP servers, and deployment knowledge for building production AI agents with Hermes.</b>
+</p>
+
+<p align="center">
+  <a href="https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml"><img src="https://img.shields.io/badge/📤_Submit_a_Repo-Add_your_resource-brightgreen" alt="Submit"></a>
+  <a href="https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/ecosystem.md"><img src="https://img.shields.io/badge/📚_Ecosystem-406_repos-blue" alt="Ecosystem"></a>
+  <a href="https://github.com/CorpusIQ/corpusiq-docs"><img src="https://img.shields.io/badge/⭐_Star_us-Contribute-gold" alt="Star"></a>
+</p>
+
+---
+
+## Why This Exists
+
+The [official Hermes docs](https://hermes-agent.nousresearch.com/docs/) cover installation and configuration. This fills the gap with community-contributed resources:
+
+- **MCP servers** — connect Hermes to APIs, databases, and external tools
+- **Skills** — reusable agent workflows
+- **Memory systems** — persistent knowledge across sessions
+- **Deployment patterns** — production architecture
+- **Agent personalities** — specialized roles for multi-agent workflows
+
+## Quick Start
+
+
+
+## Architecture
+
+| Layer | Purpose | Examples |
+|-------|---------|----------|
+| Orchestration | Agent runtime | Hermes Agent, CrewAI, LangGraph |
+| MCP Layer | External tools | APIs, databases, browsers |
+| Memory | Persistent context | Honcho, GBrain, memcore-cloud |
+| Skills | Reusable workflows | Code review, deployment, content |
+| Infrastructure | Deployment | Multi-machine, Docker, systemd |
+
+## Memory Systems
+
+| System | Use Case |
+|--------|----------|
+| [Honcho](https://mcp.honcho.dev) | Peer memory, identity, preferences |
+| [GBrain](https://github.com/garrytan/gbrain) | Knowledge base, code understanding |
+| [memcore-cloud](https://github.com/memcore-cloud) | Cross-session context injection |
+| [EverOS](https://github.com/EverMind-AI/EverOS) | Self-evolving memory |
+
+## Skills
+
+| Source | Description |
+|--------|-------------|
+| [agentskills.io](https://agentskills.io) | Open standard skill hub |
+| [skills.sh](https://skills.sh) | Community marketplace |
+| [wondelai/skills](https://github.com/wondelai/skills) | Cross-platform library |
+| [agency-agents](https://github.com/msitarzewski/agency-agents) | 232 agent personalities |
+
+## MCP Servers
+
+| Server | Description |
+|--------|-------------|
+| [CorpusIQ MCP](https://corpusiq.io) | 37+ business APIs |
+| [GitHub MCP](https://github.com/github/github-mcp-server) | Repository management |
+| [Postgres MCP](https://github.com/modelcontextprotocol/servers) | Database access |
+| [Browser MCP](https://github.com/modelcontextprotocol/servers) | Web automation |
+
+## Ecosystem
+
+**[Full ecosystem →](ecosystem.md)** — 406+ repos indexed, updated daily.
+
+## Contributing
+
+[Submit a resource](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml) — this is a community directory. If you built something useful for Hermes, add it here.
