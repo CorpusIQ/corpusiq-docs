@@ -8,7 +8,7 @@ tags:
   - production-deployment
   - ai-agent-architecture
   - mcp-ecosystem
-last_updated: 2026-06-16
+last_updated: 2026-06-23
 ---
 
 <p align="center">
@@ -24,7 +24,7 @@ last_updated: 2026-06-16
 
 <p align="center">
   <a href="https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml"><img src="https://img.shields.io/badge/📤_Submit_a_Repo-Add_your_Hermes_resource-brightgreen" alt="Submit a Repo"></a>
-  <a href="https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/ecosystem.md"><img src="https://img.shields.io/badge/📚_Ecosystem-234_repos-blue" alt="Ecosystem"></a>
+  <a href="https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/ecosystem.md"><img src="https://img.shields.io/badge/📚_Ecosystem-406_repos-blue" alt="Ecosystem"></a>
   <a href="https://github.com/CorpusIQ/corpusiq-docs"><img src="https://img.shields.io/badge/⭐_Star_us-Make_this_the_#1_Hermes_resource-gold" alt="Star"></a>
 </p>
 
