@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="CorpusIQ is a private AI acceleration layer that connects 37+ business tools to ChatGPT, Claude, and Perplexity via the Model Context Protocol (MCP). Read-only, cited answers across your entire data stack — no data moved or stored.">
+        <meta name="description" content="Deploy autonomous email auto-reply for Hermes Agent — Watchdog (no-LLM polling) + Processor (agent drafting). ~10x cheaper than single-job polling">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/launch/plan.html">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/skills/catalog/ghostwriter-setup.html">
       
       
       
@@ -18,19 +18,19 @@
         
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Viktor-Style Launch Plan -- CorpusIQ - CorpusIQ Docs</title>
+        <title>Ghostwriter Setup Guide - CorpusIQ Docs</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +49,9 @@
       
     
     
-      <link rel="stylesheet" href="../../stylesheets/extra-v2.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#viktor-style-launch-plan-corpusiq" class="md-skip">
+        <a href="#ghostwriter-autonomous-email-auto-reply" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../index.html" title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../index.html" title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Viktor-Style Launch Plan -- CorpusIQ
+              Ghostwriter Setup Guide
             
           </span>
         </div>
@@ -230,7 +230,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../index.html" title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../../index.html" title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -260,7 +260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../index.html" class="md-nav__link">
+      <a href="../../../index.html" class="md-nav__link">
         
   
   
@@ -287,7 +287,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quick-start.html" class="md-nav__link">
+      <a href="../../../quick-start.html" class="md-nav__link">
         
   
   
@@ -386,7 +386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/overview.html" class="md-nav__link">
+      <a href="../../../api/overview.html" class="md-nav__link">
         
   
   
@@ -414,7 +414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/authentication.html" class="md-nav__link">
+      <a href="../../../api/authentication.html" class="md-nav__link">
         
   
   
@@ -442,7 +442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/endpoints.html" class="md-nav__link">
+      <a href="../../../api/endpoints.html" class="md-nav__link">
         
   
   
@@ -470,7 +470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/schemas.html" class="md-nav__link">
+      <a href="../../../api/schemas.html" class="md-nav__link">
         
   
   
@@ -498,7 +498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/webhooks.html" class="md-nav__link">
+      <a href="../../../api/webhooks.html" class="md-nav__link">
         
   
   
@@ -526,7 +526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/rate-limits.html" class="md-nav__link">
+      <a href="../../../api/rate-limits.html" class="md-nav__link">
         
   
   
@@ -554,7 +554,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/errors.html" class="md-nav__link">
+      <a href="../../../api/errors.html" class="md-nav__link">
         
   
   
@@ -582,7 +582,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/openapi.html" class="md-nav__link">
+      <a href="../../../api/openapi.html" class="md-nav__link">
         
   
   
@@ -617,7 +617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connectors.html" class="md-nav__link">
+      <a href="../../../connectors.html" class="md-nav__link">
         
   
   
@@ -669,7 +669,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../architecture/index.html" class="md-nav__link ">
+            <a href="../../../architecture/index.html" class="md-nav__link ">
               
   
   
@@ -742,7 +742,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../security/index.html" class="md-nav__link ">
+            <a href="../../../security/index.html" class="md-nav__link ">
               
   
   
@@ -786,7 +786,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../security.html" class="md-nav__link">
+      <a href="../../../security.html" class="md-nav__link">
         
   
   
@@ -885,7 +885,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chatgpt-integration.html" class="md-nav__link">
+      <a href="../../../chatgpt-integration.html" class="md-nav__link">
         
   
   
@@ -913,7 +913,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-agent-users.html" class="md-nav__link">
+      <a href="../../../ai-agent-users.html" class="md-nav__link">
         
   
   
@@ -941,7 +941,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-chat-users.html" class="md-nav__link">
+      <a href="../../../ai-chat-users.html" class="md-nav__link">
         
   
   
@@ -969,7 +969,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../supported-agents.html" class="md-nav__link">
+      <a href="../../../supported-agents.html" class="md-nav__link">
         
   
   
@@ -1004,7 +1004,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../search/index.html" class="md-nav__link">
+      <a href="../../../search/index.html" class="md-nav__link">
         
   
   
@@ -1031,7 +1031,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reporting/index.html" class="md-nav__link">
+      <a href="../../../reporting/index.html" class="md-nav__link">
         
   
   
@@ -1058,7 +1058,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../onboarding/index.html" class="md-nav__link">
+      <a href="../../../onboarding/index.html" class="md-nav__link">
         
   
   
@@ -1085,7 +1085,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../governance/index.html" class="md-nav__link">
+      <a href="../../../governance/index.html" class="md-nav__link">
         
   
   
@@ -1112,7 +1112,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog.html" class="md-nav__link">
+      <a href="../../../changelog.html" class="md-nav__link">
         
   
   
@@ -1235,7 +1235,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../what-is-an-mcp-server.html" class="md-nav__link">
+      <a href="../../../what-is-an-mcp-server.html" class="md-nav__link">
         
   
   
@@ -1263,7 +1263,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-mcp-servers-work.html" class="md-nav__link">
+      <a href="../../../how-mcp-servers-work.html" class="md-nav__link">
         
   
   
@@ -1291,7 +1291,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-vs-zapier.html" class="md-nav__link">
+      <a href="../../../mcp-vs-zapier.html" class="md-nav__link">
         
   
   
@@ -1319,7 +1319,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-vs-data-warehouse.html" class="md-nav__link">
+      <a href="../../../mcp-vs-data-warehouse.html" class="md-nav__link">
         
   
   
@@ -1347,7 +1347,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-vs-api-integrations.html" class="md-nav__link">
+      <a href="../../../mcp-vs-api-integrations.html" class="md-nav__link">
         
   
   
@@ -1375,7 +1375,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-vs-rpa.html" class="md-nav__link">
+      <a href="../../../mcp-vs-rpa.html" class="md-nav__link">
         
   
   
@@ -1403,7 +1403,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../benefits-of-mcp-for-business.html" class="md-nav__link">
+      <a href="../../../benefits-of-mcp-for-business.html" class="md-nav__link">
         
   
   
@@ -1431,7 +1431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-security-best-practices.html" class="md-nav__link">
+      <a href="../../../mcp-security-best-practices.html" class="md-nav__link">
         
   
   
@@ -1459,7 +1459,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-small-business.html" class="md-nav__link">
+      <a href="../../../mcp-for-small-business.html" class="md-nav__link">
         
   
   
@@ -1487,7 +1487,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-enterprise.html" class="md-nav__link">
+      <a href="../../../mcp-for-enterprise.html" class="md-nav__link">
         
   
   
@@ -1515,7 +1515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-agencies.html" class="md-nav__link">
+      <a href="../../../mcp-for-agencies.html" class="md-nav__link">
         
   
   
@@ -1543,7 +1543,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-accountants.html" class="md-nav__link">
+      <a href="../../../mcp-for-accountants.html" class="md-nav__link">
         
   
   
@@ -1571,7 +1571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-real-estate.html" class="md-nav__link">
+      <a href="../../../mcp-for-real-estate.html" class="md-nav__link">
         
   
   
@@ -1599,7 +1599,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-ecommerce.html" class="md-nav__link">
+      <a href="../../../mcp-for-ecommerce.html" class="md-nav__link">
         
   
   
@@ -1627,7 +1627,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-finance.html" class="md-nav__link">
+      <a href="../../../mcp-for-finance.html" class="md-nav__link">
         
   
   
@@ -1655,7 +1655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-marketing.html" class="md-nav__link">
+      <a href="../../../mcp-for-marketing.html" class="md-nav__link">
         
   
   
@@ -1683,7 +1683,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-sales.html" class="md-nav__link">
+      <a href="../../../mcp-for-sales.html" class="md-nav__link">
         
   
   
@@ -1711,7 +1711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-operations.html" class="md-nav__link">
+      <a href="../../../mcp-for-operations.html" class="md-nav__link">
         
   
   
@@ -1739,7 +1739,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-customer-support.html" class="md-nav__link">
+      <a href="../../../mcp-for-customer-support.html" class="md-nav__link">
         
   
   
@@ -1767,7 +1767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-executives.html" class="md-nav__link">
+      <a href="../../../mcp-for-executives.html" class="md-nav__link">
         
   
   
@@ -1888,7 +1888,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-shopify-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../connect-shopify-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -1916,7 +1916,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-quickbooks-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../connect-quickbooks-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -1944,7 +1944,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-hubspot-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../connect-hubspot-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -1972,7 +1972,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-salesforce-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../connect-salesforce-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -2000,7 +2000,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-google-analytics-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../connect-google-analytics-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -2028,7 +2028,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-stripe-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../connect-stripe-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -2056,7 +2056,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-netsuite-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../connect-netsuite-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -2084,7 +2084,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-monday-com-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../connect-monday-com-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -2112,7 +2112,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-asana-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../connect-asana-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -2140,7 +2140,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-jira-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../connect-jira-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -2168,7 +2168,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-slack-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../connect-slack-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -2196,7 +2196,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-notion-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../connect-notion-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -2224,7 +2224,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-sharepoint-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../connect-sharepoint-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -2252,7 +2252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-gmail-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../connect-gmail-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -2280,7 +2280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-outlook-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../connect-outlook-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -2391,7 +2391,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-shopify-to-claude.html" class="md-nav__link">
+      <a href="../../../connect-shopify-to-claude.html" class="md-nav__link">
         
   
   
@@ -2419,7 +2419,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-quickbooks-to-claude.html" class="md-nav__link">
+      <a href="../../../connect-quickbooks-to-claude.html" class="md-nav__link">
         
   
   
@@ -2447,7 +2447,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-hubspot-to-claude.html" class="md-nav__link">
+      <a href="../../../connect-hubspot-to-claude.html" class="md-nav__link">
         
   
   
@@ -2475,7 +2475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-salesforce-to-claude.html" class="md-nav__link">
+      <a href="../../../connect-salesforce-to-claude.html" class="md-nav__link">
         
   
   
@@ -2503,7 +2503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-google-analytics-to-claude.html" class="md-nav__link">
+      <a href="../../../connect-google-analytics-to-claude.html" class="md-nav__link">
         
   
   
@@ -2531,7 +2531,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-stripe-to-claude.html" class="md-nav__link">
+      <a href="../../../connect-stripe-to-claude.html" class="md-nav__link">
         
   
   
@@ -2559,7 +2559,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-netsuite-to-claude.html" class="md-nav__link">
+      <a href="../../../connect-netsuite-to-claude.html" class="md-nav__link">
         
   
   
@@ -2587,7 +2587,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-slack-to-claude.html" class="md-nav__link">
+      <a href="../../../connect-slack-to-claude.html" class="md-nav__link">
         
   
   
@@ -2615,7 +2615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-notion-to-claude.html" class="md-nav__link">
+      <a href="../../../connect-notion-to-claude.html" class="md-nav__link">
         
   
   
@@ -2643,7 +2643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-sharepoint-to-claude.html" class="md-nav__link">
+      <a href="../../../connect-sharepoint-to-claude.html" class="md-nav__link">
         
   
   
@@ -2764,7 +2764,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-business-intelligence.html" class="md-nav__link">
+      <a href="../../../ai-for-business-intelligence.html" class="md-nav__link">
         
   
   
@@ -2792,7 +2792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-financial-analysis.html" class="md-nav__link">
+      <a href="../../../ai-for-financial-analysis.html" class="md-nav__link">
         
   
   
@@ -2820,7 +2820,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-sales-reporting.html" class="md-nav__link">
+      <a href="../../../ai-for-sales-reporting.html" class="md-nav__link">
         
   
   
@@ -2848,7 +2848,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-revenue-operations.html" class="md-nav__link">
+      <a href="../../../ai-for-revenue-operations.html" class="md-nav__link">
         
   
   
@@ -2876,7 +2876,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-customer-support.html" class="md-nav__link">
+      <a href="../../../ai-for-customer-support.html" class="md-nav__link">
         
   
   
@@ -2904,7 +2904,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-project-management.html" class="md-nav__link">
+      <a href="../../../ai-for-project-management.html" class="md-nav__link">
         
   
   
@@ -2932,7 +2932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-marketing-analytics.html" class="md-nav__link">
+      <a href="../../../ai-for-marketing-analytics.html" class="md-nav__link">
         
   
   
@@ -2960,7 +2960,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-executive-reporting.html" class="md-nav__link">
+      <a href="../../../ai-for-executive-reporting.html" class="md-nav__link">
         
   
   
@@ -2988,7 +2988,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-forecasting.html" class="md-nav__link">
+      <a href="../../../ai-for-forecasting.html" class="md-nav__link">
         
   
   
@@ -3016,7 +3016,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-kpi-monitoring.html" class="md-nav__link">
+      <a href="../../../ai-for-kpi-monitoring.html" class="md-nav__link">
         
   
   
@@ -3044,7 +3044,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-compliance.html" class="md-nav__link">
+      <a href="../../../ai-for-compliance.html" class="md-nav__link">
         
   
   
@@ -3072,7 +3072,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-audit-readiness.html" class="md-nav__link">
+      <a href="../../../ai-for-audit-readiness.html" class="md-nav__link">
         
   
   
@@ -3100,7 +3100,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-document-search.html" class="md-nav__link">
+      <a href="../../../ai-for-document-search.html" class="md-nav__link">
         
   
   
@@ -3128,7 +3128,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-knowledge-management.html" class="md-nav__link">
+      <a href="../../../ai-for-knowledge-management.html" class="md-nav__link">
         
   
   
@@ -3156,7 +3156,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-data-analysis.html" class="md-nav__link">
+      <a href="../../../ai-for-data-analysis.html" class="md-nav__link">
         
   
   
@@ -3261,7 +3261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chatgpt-for-quickbooks.html" class="md-nav__link">
+      <a href="../../../chatgpt-for-quickbooks.html" class="md-nav__link">
         
   
   
@@ -3289,7 +3289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../claude-for-quickbooks.html" class="md-nav__link">
+      <a href="../../../claude-for-quickbooks.html" class="md-nav__link">
         
   
   
@@ -3317,7 +3317,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quickbooks-ai-reporting.html" class="md-nav__link">
+      <a href="../../../quickbooks-ai-reporting.html" class="md-nav__link">
         
   
   
@@ -3345,7 +3345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quickbooks-natural-language-queries.html" class="md-nav__link">
+      <a href="../../../quickbooks-natural-language-queries.html" class="md-nav__link">
         
   
   
@@ -3373,7 +3373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-analyze-quickbooks-with-ai.html" class="md-nav__link">
+      <a href="../../../how-to-analyze-quickbooks-with-ai.html" class="md-nav__link">
         
   
   
@@ -3401,7 +3401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quickbooks-dashboard-with-chatgpt.html" class="md-nav__link">
+      <a href="../../../quickbooks-dashboard-with-chatgpt.html" class="md-nav__link">
         
   
   
@@ -3429,7 +3429,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quickbooks-business-intelligence.html" class="md-nav__link">
+      <a href="../../../quickbooks-business-intelligence.html" class="md-nav__link">
         
   
   
@@ -3532,7 +3532,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chatgpt-for-shopify.html" class="md-nav__link">
+      <a href="../../../chatgpt-for-shopify.html" class="md-nav__link">
         
   
   
@@ -3560,7 +3560,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../claude-for-shopify.html" class="md-nav__link">
+      <a href="../../../claude-for-shopify.html" class="md-nav__link">
         
   
   
@@ -3588,7 +3588,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shopify-ai-analytics.html" class="md-nav__link">
+      <a href="../../../shopify-ai-analytics.html" class="md-nav__link">
         
   
   
@@ -3616,7 +3616,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shopify-sales-analysis-with-ai.html" class="md-nav__link">
+      <a href="../../../shopify-sales-analysis-with-ai.html" class="md-nav__link">
         
   
   
@@ -3644,7 +3644,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shopify-dashboard-with-chatgpt.html" class="md-nav__link">
+      <a href="../../../shopify-dashboard-with-chatgpt.html" class="md-nav__link">
         
   
   
@@ -3672,7 +3672,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shopify-business-intelligence.html" class="md-nav__link">
+      <a href="../../../shopify-business-intelligence.html" class="md-nav__link">
         
   
   
@@ -3775,7 +3775,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chatgpt-for-hubspot.html" class="md-nav__link">
+      <a href="../../../chatgpt-for-hubspot.html" class="md-nav__link">
         
   
   
@@ -3803,7 +3803,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../claude-for-hubspot.html" class="md-nav__link">
+      <a href="../../../claude-for-hubspot.html" class="md-nav__link">
         
   
   
@@ -3831,7 +3831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hubspot-ai-reporting.html" class="md-nav__link">
+      <a href="../../../hubspot-ai-reporting.html" class="md-nav__link">
         
   
   
@@ -3859,7 +3859,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hubspot-sales-analytics-with-ai.html" class="md-nav__link">
+      <a href="../../../hubspot-sales-analytics-with-ai.html" class="md-nav__link">
         
   
   
@@ -3887,7 +3887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hubspot-dashboard-with-chatgpt.html" class="md-nav__link">
+      <a href="../../../hubspot-dashboard-with-chatgpt.html" class="md-nav__link">
         
   
   
@@ -3915,7 +3915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hubspot-business-intelligence.html" class="md-nav__link">
+      <a href="../../../hubspot-business-intelligence.html" class="md-nav__link">
         
   
   
@@ -4022,7 +4022,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-zapier.html" class="md-nav__link">
+      <a href="../../../corpusiq-vs-zapier.html" class="md-nav__link">
         
   
   
@@ -4050,7 +4050,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-fivetran.html" class="md-nav__link">
+      <a href="../../../corpusiq-vs-fivetran.html" class="md-nav__link">
         
   
   
@@ -4078,7 +4078,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-airbyte.html" class="md-nav__link">
+      <a href="../../../corpusiq-vs-airbyte.html" class="md-nav__link">
         
   
   
@@ -4106,7 +4106,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-langchain.html" class="md-nav__link">
+      <a href="../../../corpusiq-vs-langchain.html" class="md-nav__link">
         
   
   
@@ -4134,7 +4134,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-vector-databases.html" class="md-nav__link">
+      <a href="../../../corpusiq-vs-vector-databases.html" class="md-nav__link">
         
   
   
@@ -4162,7 +4162,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-data-warehouses.html" class="md-nav__link">
+      <a href="../../../corpusiq-vs-data-warehouses.html" class="md-nav__link">
         
   
   
@@ -4190,7 +4190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-custom-rag.html" class="md-nav__link">
+      <a href="../../../corpusiq-vs-custom-rag.html" class="md-nav__link">
         
   
   
@@ -4218,7 +4218,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-traditional-bi.html" class="md-nav__link">
+      <a href="../../../corpusiq-vs-traditional-bi.html" class="md-nav__link">
         
   
   
@@ -4329,7 +4329,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-connect-business-data-to-chatgpt.html" class="md-nav__link">
+      <a href="../../../how-to-connect-business-data-to-chatgpt.html" class="md-nav__link">
         
   
   
@@ -4357,7 +4357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-search-company-data-with-ai.html" class="md-nav__link">
+      <a href="../../../how-to-search-company-data-with-ai.html" class="md-nav__link">
         
   
   
@@ -4385,7 +4385,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-build-an-ai-knowledge-base.html" class="md-nav__link">
+      <a href="../../../how-to-build-an-ai-knowledge-base.html" class="md-nav__link">
         
   
   
@@ -4413,7 +4413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-connect-multiple-data-sources-to-ai.html" class="md-nav__link">
+      <a href="../../../how-to-connect-multiple-data-sources-to-ai.html" class="md-nav__link">
         
   
   
@@ -4441,7 +4441,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-create-an-ai-data-layer.html" class="md-nav__link">
+      <a href="../../../how-to-create-an-ai-data-layer.html" class="md-nav__link">
         
   
   
@@ -4469,7 +4469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-query-business-data-in-natural-language.html" class="md-nav__link">
+      <a href="../../../how-to-query-business-data-in-natural-language.html" class="md-nav__link">
         
   
   
@@ -4497,7 +4497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-build-an-executive-ai-dashboard.html" class="md-nav__link">
+      <a href="../../../how-to-build-an-executive-ai-dashboard.html" class="md-nav__link">
         
   
   
@@ -4525,7 +4525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-analyze-company-data-with-chatgpt.html" class="md-nav__link">
+      <a href="../../../how-to-analyze-company-data-with-chatgpt.html" class="md-nav__link">
         
   
   
@@ -4553,7 +4553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-use-ai-with-business-data.html" class="md-nav__link">
+      <a href="../../../how-to-use-ai-with-business-data.html" class="md-nav__link">
         
   
   
@@ -4581,7 +4581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-centralize-company-knowledge.html" class="md-nav__link">
+      <a href="../../../how-to-centralize-company-knowledge.html" class="md-nav__link">
         
   
   
@@ -4692,7 +4692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../best-mcp-server-for-business.html" class="md-nav__link">
+      <a href="../../../best-mcp-server-for-business.html" class="md-nav__link">
         
   
   
@@ -4720,7 +4720,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../best-ai-data-connector.html" class="md-nav__link">
+      <a href="../../../best-ai-data-connector.html" class="md-nav__link">
         
   
   
@@ -4748,7 +4748,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../best-way-to-connect-chatgpt-to-business-data.html" class="md-nav__link">
+      <a href="../../../best-way-to-connect-chatgpt-to-business-data.html" class="md-nav__link">
         
   
   
@@ -4776,7 +4776,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../best-ai-knowledge-platform.html" class="md-nav__link">
+      <a href="../../../best-ai-knowledge-platform.html" class="md-nav__link">
         
   
   
@@ -4804,7 +4804,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../best-business-ai-search-tool.html" class="md-nav__link">
+      <a href="../../../best-business-ai-search-tool.html" class="md-nav__link">
         
   
   
@@ -4832,7 +4832,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../best-chatgpt-integration-platform.html" class="md-nav__link">
+      <a href="../../../best-chatgpt-integration-platform.html" class="md-nav__link">
         
   
   
@@ -4860,7 +4860,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../top-business-ai-tools.html" class="md-nav__link">
+      <a href="../../../top-business-ai-tools.html" class="md-nav__link">
         
   
   
@@ -4888,7 +4888,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../top-mcp-platforms.html" class="md-nav__link">
+      <a href="../../../top-mcp-platforms.html" class="md-nav__link">
         
   
   
@@ -4916,7 +4916,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../enterprise-ai-data-access.html" class="md-nav__link">
+      <a href="../../../enterprise-ai-data-access.html" class="md-nav__link">
         
   
   
@@ -4944,7 +4944,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../secure-ai-data-connectivity.html" class="md-nav__link">
+      <a href="../../../secure-ai-data-connectivity.html" class="md-nav__link">
         
   
   
@@ -5024,7 +5024,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../index.html" class="md-nav__link ">
+            <a href="../../index.html" class="md-nav__link ">
               
   
   
@@ -5068,7 +5068,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ecosystem.html" class="md-nav__link">
+      <a href="../../ecosystem.html" class="md-nav__link">
         
   
   
@@ -5136,7 +5136,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../agents/index.html" class="md-nav__link ">
+            <a href="../../agents/index.html" class="md-nav__link ">
               
   
   
@@ -5180,7 +5180,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../agents/sales-agent.html" class="md-nav__link">
+      <a href="../../agents/sales-agent.html" class="md-nav__link">
         
   
   
@@ -5208,7 +5208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../agents/marketing-agent.html" class="md-nav__link">
+      <a href="../../agents/marketing-agent.html" class="md-nav__link">
         
   
   
@@ -5236,7 +5236,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../agents/devops-agent.html" class="md-nav__link">
+      <a href="../../agents/devops-agent.html" class="md-nav__link">
         
   
   
@@ -5264,7 +5264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../agents/support-agent.html" class="md-nav__link">
+      <a href="../../agents/support-agent.html" class="md-nav__link">
         
   
   
@@ -5292,7 +5292,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../agents/finance-agent.html" class="md-nav__link">
+      <a href="../../agents/finance-agent.html" class="md-nav__link">
         
   
   
@@ -5320,7 +5320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../agents/executive-agent.html" class="md-nav__link">
+      <a href="../../agents/executive-agent.html" class="md-nav__link">
         
   
   
@@ -5348,7 +5348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../agents/research-agent.html" class="md-nav__link">
+      <a href="../../agents/research-agent.html" class="md-nav__link">
         
   
   
@@ -5376,7 +5376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../agents/legal-agent.html" class="md-nav__link">
+      <a href="../../agents/legal-agent.html" class="md-nav__link">
         
   
   
@@ -5404,7 +5404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../agents/hr-agent.html" class="md-nav__link">
+      <a href="../../agents/hr-agent.html" class="md-nav__link">
         
   
   
@@ -5496,7 +5496,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../outputs/index.html" class="md-nav__link ">
+            <a href="../../outputs/index.html" class="md-nav__link ">
               
   
   
@@ -5540,7 +5540,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/case-studies/compliance-audit.html" class="md-nav__link">
+      <a href="../../outputs/case-studies/compliance-audit.html" class="md-nav__link">
         
   
   
@@ -5568,7 +5568,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/case-studies/healthcare.html" class="md-nav__link">
+      <a href="../../outputs/case-studies/healthcare.html" class="md-nav__link">
         
   
   
@@ -5596,7 +5596,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/case-studies/financial-services.html" class="md-nav__link">
+      <a href="../../outputs/case-studies/financial-services.html" class="md-nav__link">
         
   
   
@@ -5624,7 +5624,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/case-studies/manufacturing.html" class="md-nav__link">
+      <a href="../../outputs/case-studies/manufacturing.html" class="md-nav__link">
         
   
   
@@ -5652,7 +5652,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/case-studies/real-estate.html" class="md-nav__link">
+      <a href="../../outputs/case-studies/real-estate.html" class="md-nav__link">
         
   
   
@@ -5680,7 +5680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/case-studies/ecommerce.html" class="md-nav__link">
+      <a href="../../outputs/case-studies/ecommerce.html" class="md-nav__link">
         
   
   
@@ -5708,7 +5708,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/case-studies/education.html" class="md-nav__link">
+      <a href="../../outputs/case-studies/education.html" class="md-nav__link">
         
   
   
@@ -5736,7 +5736,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/case-studies/nonprofit.html" class="md-nav__link">
+      <a href="../../outputs/case-studies/nonprofit.html" class="md-nav__link">
         
   
   
@@ -5764,7 +5764,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/case-studies/government.html" class="md-nav__link">
+      <a href="../../outputs/case-studies/government.html" class="md-nav__link">
         
   
   
@@ -5792,7 +5792,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/case-studies/legal-firms.html" class="md-nav__link">
+      <a href="../../outputs/case-studies/legal-firms.html" class="md-nav__link">
         
   
   
@@ -5820,7 +5820,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/case-studies/customer-support.html" class="md-nav__link">
+      <a href="../../outputs/case-studies/customer-support.html" class="md-nav__link">
         
   
   
@@ -5848,7 +5848,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/case-studies/revenue-operations.html" class="md-nav__link">
+      <a href="../../outputs/case-studies/revenue-operations.html" class="md-nav__link">
         
   
   
@@ -5876,7 +5876,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/case-studies/professional-services.html" class="md-nav__link">
+      <a href="../../outputs/case-studies/professional-services.html" class="md-nav__link">
         
   
   
@@ -5904,7 +5904,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/by-company-size/startup.html" class="md-nav__link">
+      <a href="../../outputs/by-company-size/startup.html" class="md-nav__link">
         
   
   
@@ -5932,7 +5932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/by-company-size/mid-market.html" class="md-nav__link">
+      <a href="../../outputs/by-company-size/mid-market.html" class="md-nav__link">
         
   
   
@@ -5960,7 +5960,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/by-company-size/enterprise.html" class="md-nav__link">
+      <a href="../../outputs/by-company-size/enterprise.html" class="md-nav__link">
         
   
   
@@ -5988,7 +5988,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../outputs/workflows/templates.html" class="md-nav__link">
+      <a href="../../outputs/workflows/templates.html" class="md-nav__link">
         
   
   
@@ -6058,7 +6058,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../setup/index.html" class="md-nav__link ">
+            <a href="../../setup/index.html" class="md-nav__link ">
               
   
   
@@ -6102,7 +6102,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../setup/mac-mini-standalone.html" class="md-nav__link">
+      <a href="../../setup/mac-mini-standalone.html" class="md-nav__link">
         
   
   
@@ -6130,7 +6130,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../setup/gaming-pc.html" class="md-nav__link">
+      <a href="../../setup/gaming-pc.html" class="md-nav__link">
         
   
   
@@ -6158,7 +6158,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../setup/cloud-vps.html" class="md-nav__link">
+      <a href="../../setup/cloud-vps.html" class="md-nav__link">
         
   
   
@@ -6186,7 +6186,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../setup/raspberry-pi.html" class="md-nav__link">
+      <a href="../../setup/raspberry-pi.html" class="md-nav__link">
         
   
   
@@ -6214,7 +6214,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../setup/docker.html" class="md-nav__link">
+      <a href="../../setup/docker.html" class="md-nav__link">
         
   
   
@@ -6242,7 +6242,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../setup/windows-wsl.html" class="md-nav__link">
+      <a href="../../setup/windows-wsl.html" class="md-nav__link">
         
   
   
@@ -6312,7 +6312,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../best-practices/index.html" class="md-nav__link ">
+            <a href="../../best-practices/index.html" class="md-nav__link ">
               
   
   
@@ -6356,7 +6356,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../best-practices/cron-design.html" class="md-nav__link">
+      <a href="../../best-practices/cron-design.html" class="md-nav__link">
         
   
   
@@ -6384,7 +6384,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../best-practices/model-selection.html" class="md-nav__link">
+      <a href="../../best-practices/model-selection.html" class="md-nav__link">
         
   
   
@@ -6412,7 +6412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../best-practices/memory-management.html" class="md-nav__link">
+      <a href="../../best-practices/memory-management.html" class="md-nav__link">
         
   
   
@@ -6440,7 +6440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../best-practices/security.html" class="md-nav__link">
+      <a href="../../best-practices/security.html" class="md-nav__link">
         
   
   
@@ -6468,7 +6468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../best-practices/skill-development.html" class="md-nav__link">
+      <a href="../../best-practices/skill-development.html" class="md-nav__link">
         
   
   
@@ -6496,7 +6496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../best-practices/mcp-design.html" class="md-nav__link">
+      <a href="../../best-practices/mcp-design.html" class="md-nav__link">
         
   
   
@@ -6564,7 +6564,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../blueprints/index.html" class="md-nav__link ">
+            <a href="../../blueprints/index.html" class="md-nav__link ">
               
   
   
@@ -6608,7 +6608,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../blueprints/daily-ops.html" class="md-nav__link">
+      <a href="../../blueprints/daily-ops.html" class="md-nav__link">
         
   
   
@@ -6636,7 +6636,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../blueprints/customer-lifecycle.html" class="md-nav__link">
+      <a href="../../blueprints/customer-lifecycle.html" class="md-nav__link">
         
   
   
@@ -6664,7 +6664,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../blueprints/content-pipeline.html" class="md-nav__link">
+      <a href="../../blueprints/content-pipeline.html" class="md-nav__link">
         
   
   
@@ -6692,7 +6692,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../blueprints/financial-close.html" class="md-nav__link">
+      <a href="../../blueprints/financial-close.html" class="md-nav__link">
         
   
   
@@ -6720,7 +6720,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../blueprints/incident-response.html" class="md-nav__link">
+      <a href="../../blueprints/incident-response.html" class="md-nav__link">
         
   
   
@@ -6786,7 +6786,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../integrations/index.html" class="md-nav__link ">
+            <a href="../../integrations/index.html" class="md-nav__link ">
               
   
   
@@ -6830,7 +6830,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../integrations/slack-github.html" class="md-nav__link">
+      <a href="../../integrations/slack-github.html" class="md-nav__link">
         
   
   
@@ -6858,7 +6858,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../integrations/email-calendar.html" class="md-nav__link">
+      <a href="../../integrations/email-calendar.html" class="md-nav__link">
         
   
   
@@ -6886,7 +6886,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../integrations/crm-analytics.html" class="md-nav__link">
+      <a href="../../integrations/crm-analytics.html" class="md-nav__link">
         
   
   
@@ -6914,7 +6914,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../integrations/database-reporting.html" class="md-nav__link">
+      <a href="../../integrations/database-reporting.html" class="md-nav__link">
         
   
   
@@ -6984,7 +6984,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../prompts/index.html" class="md-nav__link ">
+            <a href="../../prompts/index.html" class="md-nav__link ">
               
   
   
@@ -7028,7 +7028,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../prompts/code-generation.html" class="md-nav__link">
+      <a href="../../prompts/code-generation.html" class="md-nav__link">
         
   
   
@@ -7056,7 +7056,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../prompts/content-creation.html" class="md-nav__link">
+      <a href="../../prompts/content-creation.html" class="md-nav__link">
         
   
   
@@ -7084,7 +7084,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../prompts/data-analysis.html" class="md-nav__link">
+      <a href="../../prompts/data-analysis.html" class="md-nav__link">
         
   
   
@@ -7112,7 +7112,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../prompts/business-operations.html" class="md-nav__link">
+      <a href="../../prompts/business-operations.html" class="md-nav__link">
         
   
   
@@ -7140,7 +7140,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../prompts/research.html" class="md-nav__link">
+      <a href="../../prompts/research.html" class="md-nav__link">
         
   
   
@@ -7168,7 +7168,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../prompts/creative.html" class="md-nav__link">
+      <a href="../../prompts/creative.html" class="md-nav__link">
         
   
   
@@ -7230,7 +7230,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../skills/catalog/index.html" class="md-nav__link ">
+            <a href="index.html" class="md-nav__link ">
               
   
   
@@ -7274,7 +7274,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../skills/creating-skills.html" class="md-nav__link">
+      <a href="../creating-skills.html" class="md-nav__link">
         
   
   
@@ -7302,7 +7302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../skills/skill-marketplaces.html" class="md-nav__link">
+      <a href="../skill-marketplaces.html" class="md-nav__link">
         
   
   
@@ -7368,7 +7368,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../mcp/index.html" class="md-nav__link ">
+            <a href="../../mcp/index.html" class="md-nav__link ">
               
   
   
@@ -7412,7 +7412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../knowledge/index.html" class="md-nav__link">
+      <a href="../../knowledge/index.html" class="md-nav__link">
         
   
   
@@ -7440,7 +7440,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../troubleshooting/index.html" class="md-nav__link">
+      <a href="../../troubleshooting/index.html" class="md-nav__link">
         
   
   
@@ -7468,7 +7468,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../contributors.html" class="md-nav__link">
+      <a href="../../contributors.html" class="md-nav__link">
         
   
   
@@ -7496,7 +7496,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../changelog/index.html" class="md-nav__link">
+      <a href="../../changelog/index.html" class="md-nav__link">
         
   
   
@@ -7559,10 +7559,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-we-already-have-that-viktor-didnt-at-launch" class="md-nav__link">
+  <a href="#overview" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What We Already Have (that Viktor didn't at launch)
+        Overview
       
     </span>
   </a>
@@ -7570,10 +7570,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#1-slack-app-directory-submission" class="md-nav__link">
+  <a href="#architecture" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. Slack App Directory Submission
+        Architecture
       
     </span>
   </a>
@@ -7581,10 +7581,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-product-hunt-launch" class="md-nav__link">
+  <a href="#prerequisites" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Product Hunt Launch
+        Prerequisites
       
     </span>
   </a>
@@ -7592,10 +7592,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-pricing-model-already-live" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. Pricing Model (Already Live)
+        Installation
       
     </span>
   </a>
@@ -7603,10 +7603,60 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#4-github-social-content-pipeline" class="md-nav__link">
+  <a href="#configuration" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4. GitHub → Social Content Pipeline
+        Configuration
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-vip-inbox" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. VIP Inbox
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-voice-profile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Voice Profile
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-cron-schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Cron Schedule
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#capabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Capabilities
       
     </span>
   </a>
@@ -7614,10 +7664,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-competitor-comparison-content" class="md-nav__link">
+  <a href="#corpusiq-use-cases" class="md-nav__link">
     <span class="md-ellipsis">
       
-        5. Competitor Comparison Content
+        CorpusIQ Use Cases
       
     </span>
   </a>
@@ -7625,10 +7675,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#6-add-100-more-repos-to-ecosystem" class="md-nav__link">
+  <a href="#cost-comparison" class="md-nav__link">
     <span class="md-ellipsis">
       
-        6. Add 100+ More Repos to Ecosystem
+        Cost Comparison
       
     </span>
   </a>
@@ -7636,101 +7686,52 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#7-email-signature-outreach-templates" class="md-nav__link">
+  <a href="#troubleshooting" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7. Email Signature + Outreach Templates
+        Troubleshooting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#watchdog-exits-silently-on-every-poll" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Watchdog exits silently on every poll
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#1-linkedin-founder-post" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#processor-drafts-but-doesnt-send" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. LinkedIn Founder Post
+        Processor drafts but doesn't send
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#2-customer-testimonials" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#duplicate-replies" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Customer Testimonials
+        Duplicate replies
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#3-slack-app-directory-review-approvals" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. Slack App Directory -- Review &amp; Approvals
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-social-media-posting" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        4. Social Media Posting
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5-reddit-rsaas-rslack-rentrepreneur" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        5. Reddit -- r/SaaS, r/Slack, r/Entrepreneur
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#6-partneraffiliate-outreach" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        6. Partner/Affiliate Outreach
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#7-weekly-growth-review" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        7. Weekly Growth Review
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Curated in the Hermes Community Hub -- 308+ tools, skills, and agents. Powered by CorpusIQ.
-      
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -7754,137 +7755,222 @@
   
 
 
-<h1 id="viktor-style-launch-plan-corpusiq">Viktor-Style Launch Plan  --  CorpusIQ<a class="headerlink" href="#viktor-style-launch-plan-corpusiq" title="Anchor link to this section">&para;</a></h1>
-<h2 id="what-we-already-have-that-viktor-didnt-at-launch">What We Already Have (that Viktor didn't at launch)<a class="headerlink" href="#what-we-already-have-that-viktor-didnt-at-launch" title="Anchor link to this section">&para;</a></h2>
+<h1 id="ghostwriter-autonomous-email-auto-reply">Ghostwriter — Autonomous Email Auto-Reply<a class="headerlink" href="#ghostwriter-autonomous-email-auto-reply" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Source:</strong> <a href="https://github.com/okokelly/skill-ghostwriter">okokelly/skill-ghostwriter</a>
+<strong>Stars:</strong> 0 ⭐ | <strong>License:</strong> MIT
+<strong>Created:</strong> June 23, 2026</p>
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
+<p>A two-tier autonomous email auto-reply system for Hermes Agent. Splits the work between a lightweight Python <strong>Watchdog</strong> (polls Gmail, no LLM, zero cost when idle) and a <strong>Processor</strong> agent (drafts + sends replies in your voice only when there's a matching email).</p>
+<p>The key insight: polling Gmail with an LLM agent every 5 minutes burns ~$0.30/day even when there's nothing to do. Ghostwriter eliminates this — the LLM only runs on actual matches.</p>
+<h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>┌─────────────────────────────────────────────────────┐
+│                  GHOSTWRITER                         │
+│                                                      │
+│  ┌──────────┐    every 5min     ┌────────────────┐  │
+│  │ Watchdog │ ─── no match ───▶ │ Silent ($0)    │  │
+│  │  (script)│                   └────────────────┘  │
+│  │          │                                       │
+│  │          │ ─── match ──────▶ ┌────────────────┐  │
+│  └──────────┘                   │ Processor      │  │
+│                                 │  (agent)       │  │
+│                                 │                │  │
+│                                 │ 1. Read email  │  │
+│                                 │ 2. Draft reply │  │
+│                                 │ 3. Send        │  │
+│                                 │ 4. Archive     │  │
+│                                 └────────────────┘  │
+└─────────────────────────────────────────────────────┘
+</code></pre></div>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Slack integration ✅</li>
-<li>MCP-native (winning protocol standard) ✅</li>
-<li>Validation engine + anti-drift (no hallucinations) ✅</li>
-<li>133 pre-built skills ✅</li>
-<li>Read-only OAuth (healthcare/finance/legal can use us) ✅</li>
-<li>30-day free trial, no credit card ✅</li>
-<li>Open-source Hermes community hub (308+ repos) ✅</li>
-<li>Source-cited answers (shows where every number came from) ✅</li>
+<li>Hermes Agent with Google Workspace configured (<code>gws</code> CLI or Gmail API)</li>
+<li>Python 3.10+</li>
+<li>Gmail API credentials with <code>gmail.readonly</code>, <code>gmail.send</code>, <code>gmail.modify</code> scopes</li>
+<li>A "voice profile" — writing samples for the agent to match your tone</li>
 </ul>
-<p>==============================
-PART 1: HERMES HANDLES (A→Z)
-==============================</p>
-<h2 id="1-slack-app-directory-submission">1. Slack App Directory Submission<a class="headerlink" href="#1-slack-app-directory-submission" title="Anchor link to this section">&para;</a></h2>
-<p><strong>What:</strong> List CorpusIQ on Slack Marketplace
-<strong>How:</strong>
-- Submit at marketplace.slack.com → List My App
-- App name: "CorpusIQ" 
-- Short description: "AI answers from your business data. Connect 37 tools. Verified, source-cited, read-only."
-- Category: AI Apps &amp; Assistants, Productivity
-- Screenshots: 5-6 showing Slack questions → validated answers
-- Privacy policy link: corpusiq.io/privacy
-- Support email: media@corpusiq.io
-- Install URL: corpusiq.io/slack/install
-<strong>Status:</strong> READY TO EXECUTE</p>
-<h2 id="2-product-hunt-launch">2. Product Hunt Launch<a class="headerlink" href="#2-product-hunt-launch" title="Anchor link to this section">&para;</a></h2>
-<p><strong>What:</strong> Launch on Product Hunt as a single post
-<strong>How:</strong>
-- Hook: "We built an AI employee that validates every number before it speaks. No hallucinations."
-- Tagline: "The AI layer that verifies your business data before ChatGPT sees it"
-- First comment: Story of why we built it, what makes us different
-- Maker: CorpusIQ Team
-- Gallery: 5 images showing Slack → answer flow
-- Video: Otter avatar explainer
-- Tags: AI, Productivity, Slack, SaaS, Business Intelligence
-<strong>Status:</strong> READY TO EXECUTE  --  just need logo + screenshots</p>
-<h2 id="3-pricing-model-already-live">3. Pricing Model (Already Live)<a class="headerlink" href="#3-pricing-model-already-live" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li>30-day free trial, no credit card ✅</li>
-<li>Copy landing page: corpusiq.io/pricing</li>
-<li>Compare with Viktor: $50/month vs our pricing
-<strong>Status:</strong> ALREADY LIVE</li>
-</ul>
-<h2 id="4-github-social-content-pipeline">4. GitHub → Social Content Pipeline<a class="headerlink" href="#4-github-social-content-pipeline" title="Anchor link to this section">&para;</a></h2>
-<p><strong>What:</strong> Auto-generate social posts from repo activity
-<strong>How:</strong>
-- Every new ecosystem repo → tweet/X post: "Just added [repo] to the Hermes Community Hub. 308+ tools now. github.com/CorpusIQ/corpusiq-docs"
-- Daily automated tweet: "Your business data already knows the answer. corpusiq.io"
-- LinkedIn post template for weekly updates
-<strong>Status:</strong> READY  --  cron on Spark</p>
-<h2 id="5-competitor-comparison-content">5. Competitor Comparison Content<a class="headerlink" href="#5-competitor-comparison-content" title="Anchor link to this section">&para;</a></h2>
-<p><strong>What:</strong> SEO pages targeting Viktor and other competitors
-<strong>How:</strong>
-- corpusiq-vs-viktor.md  --  comparison page
-- "CorpusIQ vs Viktor: Accurate vs Approximate AI"
-- Highlight: validation engine, anti-drift, source citations, read-only privacy
-- Publish on corpusiq.io and repo docs
-<strong>Status:</strong> READY TO CREATE</p>
-<h2 id="6-add-100-more-repos-to-ecosystem">6. Add 100+ More Repos to Ecosystem<a class="headerlink" href="#6-add-100-more-repos-to-ecosystem" title="Anchor link to this section">&para;</a></h2>
-<p><strong>What:</strong> Continue growing the community hub
-<strong>How:</strong>
-- Search GitHub for Hermes/agent repos daily
-- Add to ecosystem.md with SEO entries
-- Each new repo = one more indexed page
-<strong>Status:</strong> ONGOING</p>
-<h2 id="7-email-signature-outreach-templates">7. Email Signature + Outreach Templates<a class="headerlink" href="#7-email-signature-outreach-templates" title="Anchor link to this section">&para;</a></h2>
-<p><strong>What:</strong> Professional outreach emails
-<strong>How:</strong>
-- Create 3 email templates: cold outreach, partnership, demo offer
-- Add to corpus signature
-- Target: Shopify store owners, SaaS founders, agencies
-<strong>Status:</strong> READY</p>
-<p>==============================
-PART 2: BRANDON HANDLES (MANUAL)
-==============================</p>
-<h2 id="1-linkedin-founder-post">1. LinkedIn Founder Post<a class="headerlink" href="#1-linkedin-founder-post" title="Anchor link to this section">&para;</a></h2>
-<p><strong>What:</strong> Benoit posts on LinkedIn announcing the launch
-<strong>Copy:</strong>
-"I built CorpusIQ because I was tired of AI hallucinating my business numbers.</p>
-<p>ChatGPT is powerful. But it has no idea what's actually happening in your Shopify, HubSpot, or QuickBooks. It guesses.</p>
-<p>So we built a validation layer. Before any AI sees your data, CorpusIQ verifies every number. Source-cites every answer. Prevents the AI from inventing metrics.</p>
-<p>133 pre-built skills. 37 connectors. One Slack integration. Read-only by design.</p>
-<p>30-day free trial. No credit card. → corpusiq.io"</p>
-<p><strong>Action:</strong> Post to Benoit's LinkedIn (not CorpusIQ Page)</p>
-<h2 id="2-customer-testimonials">2. Customer Testimonials<a class="headerlink" href="#2-customer-testimonials" title="Anchor link to this section">&para;</a></h2>
-<p><strong>What:</strong> Collect quotes from existing users
-<strong>Who to ask:</strong> Kent Thomas (4P Tactical), Christina Duvarney (Beautiful Disaster)
-<strong>Action:</strong> Email them asking for 1-sentence quote we can publish
-<strong>Template:</strong> "Would you be willing to write 1-2 sentences about your experience with CorpusIQ? We're launching publicly and need real user voices."</p>
-<h2 id="3-slack-app-directory-review-approvals">3. Slack App Directory  --  Review &amp; Approvals<a class="headerlink" href="#3-slack-app-directory-review-approvals" title="Anchor link to this section">&para;</a></h2>
-<p><strong>What:</strong> Once Hermes submits, monitor for approval
-<strong>Action:</strong> Check marketplace.slack.com daily for status
-<strong>Time:</strong> Slack review takes 1-5 business days</p>
-<h2 id="4-social-media-posting">4. Social Media Posting<a class="headerlink" href="#4-social-media-posting" title="Anchor link to this section">&para;</a></h2>
-<p><strong>What:</strong> Post to TikTok, Instagram, X, LinkedIn
-<strong>Platforms + Copy:</strong>
-- TikTok: Otter avatar video + "This AI doesn't hallucinate your numbers. corpusiq.io"
-- Instagram Reel: Same video + link in bio
-- X/Twitter: "We built an AI that verifies every number before it speaks. 133 skills. 37 connectors. Read-only. corpusiq.io"
-- LinkedIn Page: Share Benoit's post + product update</p>
-<h2 id="5-reddit-rsaas-rslack-rentrepreneur">5. Reddit  --  r/SaaS, r/Slack, r/Entrepreneur<a class="headerlink" href="#5-reddit-rsaas-rslack-rentrepreneur" title="Anchor link to this section">&para;</a></h2>
-<p><strong>What:</strong> Post about CorpusIQ in relevant subreddits
-<strong>Copy for r/SaaS:</strong> "We built a validation layer for AI business data. No hallucinations, source-cited answers, read-only. Launched on Product Hunt today."
-<strong>Copy for r/Slack:</strong> "If you use Slack and are tired of switching between 12 dashboards to answer one business question  --  we built something for that."
-<strong>Rules:</strong> Read subreddit rules first. Some ban self-promotion.</p>
-<h2 id="6-partneraffiliate-outreach">6. Partner/Affiliate Outreach<a class="headerlink" href="#6-partneraffiliate-outreach" title="Anchor link to this section">&para;</a></h2>
-<p><strong>What:</strong> Reach out to complementary tools
-<strong>Targets:</strong> Slack consultants, business automation agencies, Shopify experts
-<strong>Action:</strong> Email 10-20 partners offering co-marketing
-<strong>Template:</strong> "We connect 37 business tools to ChatGPT/Claude with zero hallucination risk. Your clients who use [Slack/Shopify/HubSpot] might find this useful. Open to a co-marketing conversation?"</p>
-<h2 id="7-weekly-growth-review">7. Weekly Growth Review<a class="headerlink" href="#7-weekly-growth-review" title="Anchor link to this section">&para;</a></h2>
-<p><strong>What:</strong> 15-min check every Monday
-<strong>Agenda:</strong>
-- Signups this week
-- Product Hunt upvotes
-- Slack installs
-- Any press/posts
-- Next week targets</p>
-<p><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a>  --  308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>
-<h2 id="curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq"><em>Curated in the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes">Hermes Community Hub</a>  --  308+ tools, skills, and agents. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em><a class="headerlink" href="#curated-in-the-hermes-community-hub-308-tools-skills-and-agents-powered-by-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>*</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/okokelly/skill-ghostwriter.git
+cp<span class="w"> </span>-r<span class="w"> </span>skill-ghostwriter<span class="w"> </span>~/.hermes/skills/ghostwriter/
+
+<span class="c1"># Verify Gmail API access</span>
+python3<span class="w"> </span>~/.hermes/skills/ghostwriter/scripts/watchdog.py<span class="w"> </span>--dry-run
+</code></pre></div>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
+<h3 id="1-vip-inbox">1. VIP Inbox<a class="headerlink" href="#1-vip-inbox" title="Anchor link to this section">&para;</a></h3>
+<p>Edit <code>~/.hermes/skills/ghostwriter/config.yaml</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">inbox</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">vip@yourdomain.com</span>
+<span class="nt">poll_interval</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">300</span><span class="w">  </span><span class="c1"># seconds (5 min)</span>
+<span class="nt">filters</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">from</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;investor@*.com&quot;</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;partner@*.com&quot;</span>
+<span class="w">  </span><span class="nt">subject_contains</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;urgent&quot;</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;proposal&quot;</span>
+<span class="w">  </span><span class="nt">exclude</span><span class="p">:</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;newsletter&quot;</span>
+<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;notification&quot;</span>
+</code></pre></div>
+<h3 id="2-voice-profile">2. Voice Profile<a class="headerlink" href="#2-voice-profile" title="Anchor link to this section">&para;</a></h3>
+<p>Create <code>~/.hermes/skills/ghostwriter/voice.md</code> with writing samples:</p>
+<div class="highlight"><pre><span></span><code><span class="gh"># My Email Voice</span>
+
+<span class="gu">## Signature style</span>
+<span class="k">-</span><span class="w"> </span>Short paragraphs, 2-3 sentences max
+<span class="k">-</span><span class="w"> </span>Direct: &quot;Let&#39;s do X&quot; not &quot;I was thinking we might want to consider X&quot;
+<span class="k">-</span><span class="w"> </span>Sign-off: &quot;- FirstName&quot;
+
+<span class="gu">## Example replies</span>
+
+<span class="gu">### To investors</span>
+Subject: Re: Quick check-in
+
+Hey [Name],
+
+Good timing — we just shipped [feature] on Tuesday. Early metrics: [number].
+
+Full update coming Friday. Want to grab 15 min before then?
+
+<span class="k">-</span><span class="w"> </span>Me
+
+<span class="gu">### To partners</span>
+...
+</code></pre></div>
+<h3 id="3-cron-schedule">3. Cron Schedule<a class="headerlink" href="#3-cron-schedule" title="Anchor link to this section">&para;</a></h3>
+<p>Add to crontab (runs every 5 minutes):</p>
+<div class="highlight"><pre><span></span><code>*/5<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>~/.hermes/skills/ghostwriter<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>python3<span class="w"> </span>scripts/watchdog.py<span class="w"> </span>&gt;&gt;<span class="w"> </span>/tmp/ghostwriter.log<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span>
+</code></pre></div>
+<p>Or as a Hermes cron:</p>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--name<span class="w"> </span>ghostwriter-watchdog<span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;*/5 * * * *&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--command<span class="w"> </span><span class="s2">&quot;cd ~/.hermes/skills/ghostwriter &amp;&amp; python3 scripts/watchdog.py&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w">  </span>--profile<span class="w"> </span>corpusiq
+</code></pre></div>
+<h2 id="capabilities">Capabilities<a class="headerlink" href="#capabilities" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Token-efficient polling</strong></td>
+<td>Watchdog uses Gmail API's <code>messages.list</code> with <code>q=</code> filters — no LLM, ~0 tokens when idle</td>
+</tr>
+<tr>
+<td><strong>Voice matching</strong></td>
+<td>Processor agent reads <code>voice.md</code> before drafting — replies match your tone</td>
+</tr>
+<tr>
+<td><strong>Archive-after-send</strong></td>
+<td>Processor archives handled emails, preventing duplicate replies</td>
+</tr>
+<tr>
+<td><strong>Multi-inbox</strong></td>
+<td>Config supports multiple VIP inboxes with different voice profiles</td>
+</tr>
+<tr>
+<td><strong>Dry-run mode</strong></td>
+<td><code>--dry-run</code> flag previews replies without sending</td>
+</tr>
+<tr>
+<td><strong>Processing log</strong></td>
+<td>All actions logged to <code>/tmp/ghostwriter.log</code> for audit</td>
+</tr>
+</tbody>
+</table>
+<h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Use Case</th>
+<th>Configuration</th>
+<th>Benefit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Benefit Reply</strong></td>
+<td>Filter: <code>from:founder@example.com</code></td>
+<td>Instant replies to founder, no manual monitoring</td>
+</tr>
+<tr>
+<td><strong>Lead Response</strong></td>
+<td>Filter: subject contains "CorpusIQ" or "demo"</td>
+<td>Auto-respond to qualified leads within 5 min</td>
+</tr>
+<tr>
+<td><strong>Partner Comms</strong></td>
+<td>Filter: from partner domains</td>
+<td>Fast partner replies without constant inbox checking</td>
+</tr>
+<tr>
+<td><strong>Support Triage</strong></td>
+<td>Filter: subject "urgent" or "down"</td>
+<td>Immediate acknowledgment before human escalation</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cost-comparison">Cost Comparison<a class="headerlink" href="#cost-comparison" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Approach</th>
+<th style="text-align: center;">Idle Cost/Day</th>
+<th style="text-align: center;">Active Cost/Reply</th>
+<th style="text-align: center;">Monthly (100 replies)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LLM polling every 5 min</td>
+<td style="text-align: center;">~$0.30</td>
+<td style="text-align: center;">~$0.02</td>
+<td style="text-align: center;">~$11</td>
+</tr>
+<tr>
+<td>Ghostwriter</td>
+<td style="text-align: center;"><strong>$0.00</strong></td>
+<td style="text-align: center;">~$0.02</td>
+<td style="text-align: center;"><strong>~$2</strong></td>
+</tr>
+</tbody>
+</table>
+<p>~5.5x cheaper monthly. The savings compound with more VIP inboxes.</p>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
+<h3 id="watchdog-exits-silently-on-every-poll">Watchdog exits silently on every poll<a class="headerlink" href="#watchdog-exits-silently-on-every-poll" title="Anchor link to this section">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="c1"># Check Gmail API access</span>
+python3<span class="w"> </span>scripts/watchdog.py<span class="w"> </span>--dry-run<span class="w"> </span>--verbose
+
+<span class="c1"># Expected output when no matches:</span>
+<span class="c1">#   [2026-06-23 14:30:00] Polling... 0 matches. Silent.</span>
+</code></pre></div>
+<h3 id="processor-drafts-but-doesnt-send">Processor drafts but doesn't send<a class="headerlink" href="#processor-drafts-but-doesnt-send" title="Anchor link to this section">&para;</a></h3>
+<p>Verify <code>gmail.send</code> scope in your Gmail API token:</p>
+<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span>
+<span class="s2">import json</span>
+<span class="s2">with open(&#39;~/.hermes/secrets/gmail.json&#39;) as f:</span>
+<span class="s2">    creds = json.load(f)</span>
+<span class="s2">print(creds.get(&#39;scope&#39;, &#39;no scope field&#39;))</span>
+<span class="s2"># Should include: https://www.googleapis.com/auth/gmail.send</span>
+<span class="s2">&quot;</span>
+</code></pre></div>
+<h3 id="duplicate-replies">Duplicate replies<a class="headerlink" href="#duplicate-replies" title="Anchor link to this section">&para;</a></h3>
+<p>The Processor archives emails after sending. If duplicates occur, check that <code>gmail.modify</code> scope is present and the archive step is not failing silently.</p>
 <hr />
-<p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
+<p><em>← <a href="/hermes/skills/catalog/">Skills Catalog</a> | <a href="/hermes/skills/marketplace/">Marketplace Home</a> →</em></p>
 
 
 
 
 
 
+
+  
+  
 
 
 
@@ -7928,13 +8014,13 @@ PART 2: BRANDON HANDLES (MANUAL)
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../../javascripts/hermes-nav.js?v=2"></script>
+        <script src="../../../javascripts/hermes-nav.js?v=2"></script>
       
     
   <script>
