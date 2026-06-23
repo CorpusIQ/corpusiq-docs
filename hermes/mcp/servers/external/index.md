@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 22, 2026 (afternoon sweep) · **Sources:** mcp.so (22,600+ servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 23, 2026 (morning sweep) · **Sources:** mcp.so (22,663 servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -999,6 +999,38 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ---
 
+## New This Week (June 23, 2026 — morning sweep)
+
+### 23 new servers from mcp.so Feed (June 23 morning)
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| patternfetch ★ New | Finance/Trading | Token-compact market-state briefs for AI trading agents. One call: compact candles + patterns + support/resistance + regime + interpreted indicators. MCP + REST, x402 + Stripe. `github.com/MarvinRey7879/patternfetch-client` |
+| StockSlash ★ New | Finance | Hosted MCP for SEC 13F filings from ~80 super investors, U.S. Congress stock trades, and corporate insider (Form 4) buying. 23 tools, no install, no API key. One-call profiles summarize any fund or stock. `https://stockslash.com/mcp` |
+| Influee Mcp Agent ★ New | Marketing | Influencer marketing MCP — connect AI agents to Influee's creator discovery, campaign management, and performance analytics platform |
+| Horizon Insights Mcp ★ New | Finance | Market data, financial statements, valuation data, research materials, transcripts, charts, macro indicators, and market news for investment research workflows |
+| AI Battle Room (AI 吵架房) ★ New | Dev/Infra | Multi-agent collaborative document editing across different machines. Role-isolated agents: read, review, but can't modify without permission. Project-level MCP tokens. Open source. `https://github.com/sxcvicky/AIbattleroom` |
+| Planner ★ New | Productivity | AI task planning and scheduling MCP — organize tasks, projects, and timelines from any AI client |
+| MonSuiviMédical ★ New | Healthcare/Data | French healthcare professional directory (RPPS) and health facility registry (FINESS). 100% public data, updated daily. Practitioner search, detailed profiles, specialties. No ratings or rankings |
+| Reap ★ New | Finance | Payment and expense management MCP — corporate cards, bill pay, and financial operations for AI agents |
+| Octotrip Rental Cars ★ New | Travel/Commerce | Car rental search and booking MCP — compare rental options, check availability, and book vehicles from AI agents |
+| Customs MCP ★ New | Gov/Logistics | International customs and tariff data for AI agents — HS codes, duty rates, trade compliance, customs regulations |
+| Goodvat Mcp Server ★ New | Finance/Tax | VAT compliance and tax rate lookups for AI agents — validate VAT numbers, check rates across jurisdictions |
+| Formswrite ★ New | Productivity | Create forms and export to 30+ platforms from any MCP client. Form building and distribution for operators managing surveys, applications, and data collection |
+| Agent Exchange ★ New | Dev/Infra | Marketplace MCP for discovering and connecting AI agents. Agent-to-agent service exchange with trust scoring and capability registry |
+| Qonoro Intelligence Mcp ★ New | Data/Intelligence | Business intelligence and data analytics MCP — query datasets, generate reports, and surface insights from AI agents |
+| Opplevagent ★ New | Productivity | Experience and learning platform MCP — track skills, manage development goals, surface growth opportunities |
+| PolyBridge MCP ★ New | Dev/Infra | Cross-chain and multi-protocol bridge MCP — connect AI agents to multiple blockchain networks and protocols |
+| Omnicall ★ New | Dev/Infra | Universal agent tools gateway — route AI agent tool calls across multiple backends and services through a single MCP endpoint |
+| Debitura ★ New | Finance | Debt collection and receivables management MCP — credit checks, collection workflows, payment status tracking for AI agents |
+| REMODELERIQ ★ New | Real Estate | Construction and remodeling intelligence MCP — cost estimation, material pricing, contractor matching, and project planning |
+| Africa Eligibility Mcp ★ New | Gov/Social | African social program eligibility verification — check qualification for government benefits, subsidies, and social programs across African jurisdictions |
+| East Africa Momo Parser Mcp ★ New | Finance/Mobile | East African mobile money (MoMo) transaction parsing — M-Pesa, Airtel Money, MTN Mobile Money transaction data for AI agents |
+| African Fintech Mcp ★ New | Finance | Pan-African fintech integration MCP — connect AI agents to African banking, payments, and financial services APIs |
+| Opportunityradar Data Mcp ★ New | Data/Intelligence | Business opportunity discovery MCP — tender alerts, procurement data, funding opportunities, and market entry intelligence |
+
+---
+
 ## New This Week (June 22, 2026 — afternoon sweep)
 
 ### 35 new servers from mcp.so Latest + mcpservers.org Finance + Marketing + Productivity + Development
@@ -1065,12 +1097,12 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,600 (mcp.so), 9,300 (mcpservers.org)
+- **Total MCP servers tracked:** 22,663 (mcp.so), 9,300 (mcpservers.org)
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 22 afternoon):** 35 new MCP servers from mcp.so Latest + mcpservers.org Finance + Marketing + Productivity + Development
-- **Cumulative since June 9:** 269 MCP servers catalogued across 17 sweeps
+- **New this cycle (June 23 morning):** 23 new MCP servers from mcp.so Feed
+- **Cumulative since June 9:** 292 MCP servers catalogued across 18 sweeps
 
 ---
 
