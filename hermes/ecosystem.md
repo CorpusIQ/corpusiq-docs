@@ -3692,3 +3692,10 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 | [ciembor/agent-rules-books](https://github.com/ciembor/agent-rules-books) | 1938 | AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by Clean Code,  | agent, ecosystem |
 | [IsHexx/system-prompts-and-models-of-ai-tools-chinese](https://github.com/IsHexx/system-prompts-and-models-of-ai-tools-chinese) | 1194 | AI编程工具中文提示词合集，包含Cursor、Devin、VSCode Agent等多种AI编程工具的提示词，为中文开发者提供AI辅助编程参考资源。持续更新中文编程Rules和最新AI编程提示词。 | agent, ecosystem |
 | [instructa/ai-prompts](https://github.com/instructa/ai-prompts) | 1052 | Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot | agent, ecosystem |
+| [ModelEngine-Group/nexent](https://github.com/ModelEngine-Group/nexent) | 5265 | Nexent is a zero-code platform for auto-generating production-grade AI agents using Harness Engineer | agent, ecosystem |
+| [EvoAgentX/EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) | 3088 | 🚀 EvoAgentX: Building a Self-Evolving Ecosystem of AI Agents | agent, ecosystem |
+| [tradesdontlie/tradingview-mcp](https://github.com/tradesdontlie/tradingview-mcp) | 3891 | AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for persona | agent, ecosystem |
+| [SomeOddCodeGuy/WilmerAI](https://github.com/SomeOddCodeGuy/WilmerAI) | 817 | WilmerAI is one of the oldest LLM semantic routers. It uses multi-layer prompt routing and complex w | agent, ecosystem |
+| [lofcz/LLMTornado](https://github.com/lofcz/LLMTornado) | 621 | The .NET library to build AI agents with 30+ built-in connectors. | agent, ecosystem |
+| [timothy-odofin/agenthub-be](https://github.com/timothy-odofin/agenthub-be) | 570 | Open-source RAG platform with multi-LLM support. Build AI agents that connect to your data, tools, a | agent, ecosystem |
+| [makafeli/n8n-workflow-builder](https://github.com/makafeli/n8n-workflow-builder) | 526 | AI assistant integration for n8n workflow automation through Model Context Protocol (MCP). Connect C | agent, ecosystem |
