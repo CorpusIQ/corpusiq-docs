@@ -7,7 +7,7 @@
 - 133 pre-built skills ✅
 - Read-only OAuth (healthcare/finance/legal can use us) ✅
 - 30-day free trial, no credit card ✅
-- Open-source Hermes community hub (308+ repos) ✅
+- Open-source Hermes community hub (406+ repos) ✅
 - Source-cited answers (shows where every number came from) ✅
 
 ==============================
@@ -48,7 +48,7 @@ PART 1: HERMES HANDLES (A→Z)
 ## 4. GitHub → Social Content Pipeline
 **What:** Auto-generate social posts from repo activity
 **How:**
-- Every new ecosystem repo → tweet/X post: "Just added [repo] to the Hermes Community Hub. 308+ tools now. github.com/CorpusIQ/corpusiq-docs"
+- Every new ecosystem repo → tweet/X post: "Just added [repo] to the Hermes Community Hub. 406+ tools now. github.com/CorpusIQ/corpusiq-docs"
 - Daily automated tweet: "Your business data already knows the answer. corpusiq.io"
 - LinkedIn post template for weekly updates
 **Status:** READY  --  cron on Spark
@@ -138,10 +138,10 @@ So we built a validation layer. Before any AI sees your data, CorpusIQ verifies 
 - Next week targets
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *
