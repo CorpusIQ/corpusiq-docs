@@ -3502,5 +3502,47 @@
     "discovery_date": "2026-06-23T00:15:28.434579-07:00",
     "language": "HTML",
     "license": ""
+  },
+  {
+    "name": "xiaojilele-glitch/WhyBuddy",
+    "url": "https://github.com/xiaojilele-glitch/WhyBuddy",
+    "description": "A Simple and Universal Product Rehearsal Engine, Speccing Anything. \u7b80\u6d01\u901a\u7528\u7684\u4ea7\u54c1\u63a8\u6f14\u5f15\u64ce\uff0c\u63a8\u6f14\u4e07\u7269\u3002",
+    "stars": 347,
+    "forks": 57,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "clawdbot",
+      "codex",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "moltbot",
+      "nous-research",
+      "openai",
+      "openclaw"
+    ],
+    "updated_at": "2026-06-23T08:01:45Z",
+    "category": "forks",
+    "score": 72,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-23T08:01:50.229407+00:00",
+    "status": "approved",
+    "approved_at": "2026-06-23T08:02:01.896766+00:00"
   }
 ]

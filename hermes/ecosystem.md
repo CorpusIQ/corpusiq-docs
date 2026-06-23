@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources  --  360+ repos,
 
 The most comprehensive directory of Hermes Agent resources in existence. 360 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** June 22, 2026 · **Repos indexed:** 369 · **Categories:** 18
+> **Last updated:** June 23, 2026 · **Repos indexed:** 370 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -33,7 +33,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 360 rep
 | [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
 | [Platform-Specific](#-platform-specific) | 10 | [↓](#-platform-specific) |
 | [Domain Applications](#-domain-applications) | 19 | [↓](#-domain-applications) |
-| [Forks & Derivatives](#-forks--derivatives) | 5 | [↓](#-forks--derivatives) |
+| [Forks & Derivatives](#-forks--derivatives) | 6 | [↓](#-forks--derivatives) |
 | [Guides](#-guides) | 2 | [↓](#-guides) |
 
 ---
@@ -3497,6 +3497,17 @@ Agentic training trajectories from Hermes sessions. Distill agent behavior into 
 
 **Status:** Experimental  
 **Key capabilities:** Skill distillation, training trajectories, agentic learning
+
+---
+
+### xiaojilele-glitch/WhyBuddy
+⭐ **347** · `TypeScript` · [github.com/xiaojilele-glitch/WhyBuddy](https://github.com/xiaojilele-glitch/WhyBuddy)
+
+A simple and universal product rehearsal engine — spec anything. Connect Hermes agents to a product rehearsal engine for speccing and iterating on product ideas. Multi-agent compatible.
+
+**Status:** Active · **Forks:** 57  
+**Key capabilities:** Product rehearsal, spec engine, Hermes integration, multi-agent, product iteration  
+**Related:** [Orchestration →](#-orchestration-multi-agent--swarms)
 
 ---
 
