@@ -3699,3 +3699,4 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 | [lofcz/LLMTornado](https://github.com/lofcz/LLMTornado) | 621 | The .NET library to build AI agents with 30+ built-in connectors. | agent, ecosystem |
 | [timothy-odofin/agenthub-be](https://github.com/timothy-odofin/agenthub-be) | 570 | Open-source RAG platform with multi-LLM support. Build AI agents that connect to your data, tools, a | agent, ecosystem |
 | [makafeli/n8n-workflow-builder](https://github.com/makafeli/n8n-workflow-builder) | 526 | AI assistant integration for n8n workflow automation through Model Context Protocol (MCP). Connect C | agent, ecosystem |
+
