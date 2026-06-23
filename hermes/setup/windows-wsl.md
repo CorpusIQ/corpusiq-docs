@@ -1,14 +1,14 @@
 ---
-title: Windows 11 WSL2 Hermes Agent Setup — Linux AI Agent on Windows
+title: Windows 11 WSL2 Hermes Agent Setup  --  Linux AI Agent on Windows
 description: Run Hermes Agent on Windows 11 with full Linux compatibility via WSL2. GPU passthrough for NVIDIA CUDA, native Ollama models, systemd persistence, and browser automation. Free if you already own a Windows PC.
 category: setup
 tags: [windows, wsl2, hermes-agent, setup-guide, nvidia, gpu-passthrough, ollama, linux-on-windows]
 last_updated: 2026-06-16
 ---
 
-# Windows 11 WSL2 Hermes Agent Setup — Linux AI Agent on Windows
+# Windows 11 WSL2 Hermes Agent Setup  --  Linux AI Agent on Windows
 
-Run Hermes Agent on Windows 11 with full Linux compatibility via WSL2 — no dual-booting required. Get NVIDIA GPU acceleration for local models through CUDA passthrough, native Linux filesystem performance, and all Hermes Agent features. This Windows WSL2 setup guide covers everything from installation to persistent 24/7 operation.
+Run Hermes Agent on Windows 11 with full Linux compatibility via WSL2  --  no dual-booting required. Get NVIDIA GPU acceleration for local models through CUDA passthrough, native Linux filesystem performance, and all Hermes Agent features. This Windows WSL2 setup guide covers everything from installation to persistent 24/7 operation.
 
 ## Overview
 
@@ -21,8 +21,8 @@ WSL2 provides a real Linux kernel inside Windows, enabling Hermes Agent to run e
 | Linux kernel | Real Linux, not emulation |
 | GPU passthrough | NVIDIA CUDA works inside WSL2 |
 | Filesystem | ext4 inside, accessible from Windows via `\\wsl$` |
-| Networking | Shared with Windows — no VM networking hassle |
-| Systemd | Supported — run Hermes Agent as a service |
+| Networking | Shared with Windows  --  no VM networking hassle |
+| Systemd | Supported  --  run Hermes Agent as a service |
 
 ## Step-by-Step Installation
 
@@ -53,7 +53,7 @@ Apply: `wsl --shutdown` in PowerShell, then reopen WSL.
 ### Step 3: GPU Passthrough (NVIDIA)
 
 ```powershell
-# In PowerShell — install NVIDIA WSL2 driver
+# In PowerShell  --  install NVIDIA WSL2 driver
 winget install --id=Nvidia.CUDA -e
 ```
 
@@ -156,7 +156,7 @@ For headed browsing, install a Windows X server like VcXsrv and `export DISPLAY=
 ## FAQ
 
 ### Does Ollama GPU acceleration work in WSL2?
-Yes. NVIDIA's WSL2 driver enables full CUDA passthrough. Ollama detects the GPU automatically and uses it for inference — same speed as native Linux.
+Yes. NVIDIA's WSL2 driver enables full CUDA passthrough. Ollama detects the GPU automatically and uses it for inference  --  same speed as native Linux.
 
 ### Why not just use Windows native Hermes Agent?
 WSL2 provides a real Linux environment with systemd, ext4 filesystem, and native package management. Many MCP servers and developer tools expect Linux. WSL2 delivers this without dual-booting.
@@ -166,11 +166,11 @@ Create a Windows Task Scheduler task that runs `wsl.exe -d Ubuntu-24.04 -e sleep
 
 ## Related Pages
 
-- [Hermes Agent Setup Overview](/hermes/setup/) — All platform options
-- [Gaming PC Setup](gaming-pc.md) — Native Linux for max GPU performance
-- [Docker Setup](docker.md) — Alternative Windows deployment
-- [Model Selection Guide](/hermes/best-practices/model-selection.md) — GPU model sizing
-- [Troubleshooting Guide](/hermes/troubleshooting/) — WSL2-specific issues
+- [Hermes Agent Setup Overview](/hermes/setup/)  --  All platform options
+- [Gaming PC Setup](gaming-pc.md)  --  Native Linux for max GPU performance
+- [Docker Setup](docker.md)  --  Alternative Windows deployment
+- [Model Selection Guide](/hermes/best-practices/model-selection.md)  --  GPU model sizing
+- [Troubleshooting Guide](/hermes/troubleshooting/)  --  WSL2-specific issues
 ---
 
 *

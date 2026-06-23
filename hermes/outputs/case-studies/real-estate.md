@@ -47,7 +47,7 @@ This skill queries your CRM (HubSpot, Close, LeadConnector) for active listings,
   description: Pulls comparable sales data and generates pricing insights
 ```
 
-The skill queries MLS data (via API or database connector) for recent comparable sales, active listings, and market absorption rates within target neighborhoods. It produces a Monday-morning market pulse: median days on market, list-to-sale price ratios, inventory levels, and price-per-square-foot trends — segmented by property type and price band.
+The skill queries MLS data (via API or database connector) for recent comparable sales, active listings, and market absorption rates within target neighborhoods. It produces a Monday-morning market pulse: median days on market, list-to-sale price ratios, inventory levels, and price-per-square-foot trends  --  segmented by property type and price band.
 
 ### Lead Qualification & Routing
 
@@ -122,12 +122,12 @@ Real estate runs on CRM. Key integration patterns:
 
 ## Benefits
 
-- **Faster lead response** — leads qualified and routed within 15 minutes, dramatically improving conversion
-- **Listing accuracy everywhere** — multi-platform syndication monitoring prevents MLS compliance issues
-- **No missed deadlines** — transaction milestones tracked and alerted across all active deals
-- **Better showing coordination** — automated scheduling with agent availability and travel time optimization
-- **Reduced data entry** — agents spend less time on CRM updates and more time on client relationships
-- **Complete deal visibility** — real-time status on every transaction in the pipeline
+- **Faster lead response**  --  leads qualified and routed within 15 minutes, dramatically improving conversion
+- **Listing accuracy everywhere**  --  multi-platform syndication monitoring prevents MLS compliance issues
+- **No missed deadlines**  --  transaction milestones tracked and alerted across all active deals
+- **Better showing coordination**  --  automated scheduling with agent availability and travel time optimization
+- **Reduced data entry**  --  agents spend less time on CRM updates and more time on client relationships
+- **Complete deal visibility**  --  real-time status on every transaction in the pipeline
 
 ## Getting Started in Real Estate
 
@@ -163,15 +163,15 @@ Hermes can monitor showing requests from calendar systems, email, and showing se
 
 ## Related Pages
 
-- [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Lead inquiry triage and response automation
-- [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce.md) — Multi-channel management patterns
-- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md) — Pipeline management and deal tracking
-- [Hermes Agent for Professional Services](../case-studies/professional-services.md) — Client onboarding and status reporting
-- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+- [Hermes Agent Customer Support Automation](../case-studies/customer-support.md)  --  Lead inquiry triage and response automation
+- [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce.md)  --  Multi-channel management patterns
+- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md)  --  Pipeline management and deal tracking
+- [Hermes Agent for Professional Services](../case-studies/professional-services.md)  --  Client onboarding and status reporting
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

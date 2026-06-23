@@ -1,6 +1,6 @@
 ---
-title: "Connect Google Analytics to Claude via MCP — Live Data, No Code | CorpusIQ"
-description: "Connect your Google Analytics account to Claude through CorpusIQ MCP. Ask natural language questions about your google analytics data and get real-time, source-cited answers — no exports, no coding required."
+title: "Connect Google Analytics to Claude via MCP  --  Live Data, No Code | CorpusIQ"
+description: "Connect your Google Analytics account to Claude through CorpusIQ MCP. Ask natural language questions about your google analytics data and get real-time, source-cited answers  --  no exports, no coding required."
 category: Claude Integrations
 tags: ["connect Google Analytics to Claude", "Google Analytics Claude integration", "MCP Google Analytics connector", "Google Analytics data to Claude", "AI for Google Analytics", "CorpusIQ MCP"]
 last_updated: 2026-06-16
@@ -10,28 +10,28 @@ robots: index,follow
 
 # How to Connect Google Analytics to Claude with CorpusIQ MCP
 
-Google Analytics is the most widely used web analytics platform in the world — but most organizations only scratch the surface of what their GA4 data can tell them. Reports are complex, exploration tools require training, and the gap between "I have a question about our traffic" and "I have the answer" is often measured in hours or days. Connecting Google Analytics to Claude via CorpusIQ's MCP platform closes that gap to seconds.
+Google Analytics is the most widely used web analytics platform in the world  --  but most organizations only scratch the surface of what their GA4 data can tell them. Reports are complex, exploration tools require training, and the gap between "I have a question about our traffic" and "I have the answer" is often measured in hours or days. Connecting Google Analytics to Claude via CorpusIQ's MCP platform closes that gap to seconds.
 
 Ask Claude "How did our organic traffic trend last quarter?", "Which landing pages have the highest conversion rate?", or "What's our mobile vs. desktop revenue split?" and receive instant, accurate answers. No report building. No exploration interface. No analytics training required.
 
 ### Why Connect Google Analytics to Claude?
 
-GA4 contains a wealth of data about your website visitors, their behavior, and your conversion performance. But GA4's interface is notoriously complex — even experienced analysts struggle with exploration reports and custom dimensions. Claude gives everyone on your team a natural language interface to the same data.
+GA4 contains a wealth of data about your website visitors, their behavior, and your conversion performance. But GA4's interface is notoriously complex  --  even experienced analysts struggle with exploration reports and custom dimensions. Claude gives everyone on your team a natural language interface to the same data.
 
 **Key benefits:**
 
-- **Instant traffic answers.** "What were our top traffic sources last month?" — answered in seconds.
+- **Instant traffic answers.** "What were our top traffic sources last month?"  --  answered in seconds.
 - **Conversion intelligence.** Understand which channels, pages, and campaigns drive conversions without building funnels.
-- **Content performance.** "Which blog posts drove the most traffic this quarter?" — no more manual report building.
-- **E-commerce analytics.** "What's our e-commerce conversion rate by device?" — directly from GA4 data.
+- **Content performance.** "Which blog posts drove the most traffic this quarter?"  --  no more manual report building.
+- **E-commerce analytics.** "What's our e-commerce conversion rate by device?"  --  directly from GA4 data.
 - **Cross-source attribution.** Combine GA4 traffic data with Google Ads spend, Shopify revenue, or Klaviyo email metrics to understand your full marketing funnel.
-- **Real-time data.** Every query is a live API call — no cached reports, no stale exports.
+- **Real-time data.** Every query is a live API call  --  no cached reports, no stale exports.
 
 ### How It Works
 
 1. **Connect Google Analytics** via Google OAuth. CorpusIQ requests read-only access to your GA4 properties.
 2. **Ask Claude** any question about your web analytics.
-3. **CorpusIQ translates** your question into GA4 Data API calls — selecting the right dimensions, metrics, and date ranges.
+3. **CorpusIQ translates** your question into GA4 Data API calls  --  selecting the right dimensions, metrics, and date ranges.
 4. **Claude presents** the results with analysis, trend interpretation, and actionable insights.
 
 The integration supports all standard GA4 dimensions and metrics: traffic source, medium, campaign, landing page, device category, geography, session metrics, conversion events, and e-commerce data.
@@ -40,7 +40,7 @@ The integration supports all standard GA4 dimensions and metrics: traffic source
 
 1. Go to **Connectors** in your CorpusIQ dashboard.
 2. Select **Google Analytics** from the integration catalog.
-3. Click **"Connect Google Analytics"** — authorize via Google OAuth.
+3. Click **"Connect Google Analytics"**  --  authorize via Google OAuth.
 4. Select which GA4 properties Claude can access.
 5. Start asking analytics questions.
 
@@ -55,12 +55,12 @@ The integration supports all standard GA4 dimensions and metrics: traffic source
 **Conversion Analysis:**
 - "What's our overall conversion rate and how has it trended?"
 - "Which traffic sources have the highest conversion rates?"
-- "Show me conversion rates by device — mobile vs. desktop vs. tablet."
+- "Show me conversion rates by device  --  mobile vs. desktop vs. tablet."
 - "Which landing pages have the highest and lowest bounce rates?"
 
 **E-Commerce Analytics:**
 - "What's our e-commerce revenue by product category?"
-- "Show me the purchase journey — sessions to add-to-cart to purchase."
+- "Show me the purchase journey  --  sessions to add-to-cart to purchase."
 - "What's our average order value from organic vs. paid traffic?"
 
 **Content Performance:**
@@ -84,9 +84,9 @@ The integration supports all standard GA4 dimensions and metrics: traffic source
 | Aspect | CorpusIQ MCP | GA4 Data API Direct |
 |---|---|---|
 | Setup | 5-minute OAuth | Developer + Google Cloud project setup |
-| Natural language | Yes | No — requires dimension/metric knowledge |
+| Natural language | Yes | No  --  requires dimension/metric knowledge |
 | Cross-source | Built-in | Custom ETL required |
-| Dimensional queries | Automatic — CorpusIQ selects dimensions | Manual dimension/metric selection |
+| Dimensional queries | Automatic  --  CorpusIQ selects dimensions | Manual dimension/metric selection |
 | Non-technical access | Anyone can query | Requires API or Looker Studio skills |
 
 ### FAQ: Common Questions
@@ -125,9 +125,9 @@ Yes. The API returns data based on the property's configured reporting identity 
 
 **Next steps:** [Connect Google Analytics to Claude now →](https://app.corpusiq.com/connect/ga4)
 
-*Connect Connect Google Analytics to Claude via MCP — Live Data, N... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect Google Analytics to Claude via MCP  --  Live Data, N... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
-*Connect Connect Google Analytics to Claude via MCP — Live Data, N... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect Google Analytics to Claude via MCP  --  Live Data, N... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---
 
 *

@@ -1,6 +1,6 @@
 ---
-title: Hermes Advanced Memory — Setup Guide
-description: Workspace rules and memory management for Hermes AI agents — structured AGENTS.md index, project folders, SOUL.md principles.
+title: Hermes Advanced Memory  --  Setup Guide
+description: Workspace rules and memory management for Hermes AI agents  --  structured AGENTS.md index, project folders, SOUL.md principles.
 author: salt-vrn (Leonid Zolotarev, NeiroHost.ru)
 repo: https://github.com/salt-vrn/hermes-advanced-memory
 license: MIT
@@ -8,7 +8,7 @@ license: MIT
 
 # Hermes Advanced Memory Setup
 
-**A Hermes Agent skill that enforces structured workspace memory.** Replaces scattered files and chaotic `MEMORY.md` entries with an organized workspace — `AGENTS.md` index, project folders with `README.md`, and `SOUL.md` for persistent principles.
+**A Hermes Agent skill that enforces structured workspace memory.** Replaces scattered files and chaotic `MEMORY.md` entries with an organized workspace  --  `AGENTS.md` index, project folders with `README.md`, and `SOUL.md` for persistent principles.
 
 ## Quick Install
 
@@ -27,7 +27,7 @@ git clone https://github.com/salt-vrn/hermes-advanced-memory.git
 ~/.hermes/
 ├── SOUL.md              ← identity + rules (including workspace rules)
 ├── workspace/
-│   ├── AGENTS.md        ← index — loaded every session, TOC for all memory
+│   ├── AGENTS.md        ← index  --  loaded every session, TOC for all memory
 │   ├── project-alpha/
 │   │   └── README.md
 │   ├── project-beta/
@@ -41,7 +41,7 @@ git clone https://github.com/salt-vrn/hermes-advanced-memory.git
 1. **Workspace is the only working folder.** All agent files go into `workspace/`.
 2. **AGENTS.md is the index.** Loaded at every session start. Without an index entry, a file is invisible to the agent.
 3. **Small topics → AGENTS.md entry.** Major projects → separate folder + `README.md`.
-4. **SOUL.md is the source of truth.** Workspace rules, key principles, and identity live there — not just in the skill file.
+4. **SOUL.md is the source of truth.** Workspace rules, key principles, and identity live there  --  not just in the skill file.
 
 ## Usage
 
@@ -49,7 +49,7 @@ git clone https://github.com/salt-vrn/hermes-advanced-memory.git
 1. Agent reads the skill
 2. Asks user to confirm profile (never guesses)
 3. Creates `workspace/` in profile root
-4. Creates `AGENTS.md` — empty index
+4. Creates `AGENTS.md`  --  empty index
 5. Moves working files into `workspace/`
 6. Opens existing `SOUL.md` and adds key principles
 7. Describes the new structure to the user
@@ -59,12 +59,12 @@ If memory is not organized, apply the skill, move scattered files into `workspac
 
 ## Why This Matters
 
-Without a memory system, Hermes agents store data chaotically — files scattered across `~/.hermes/`, `MEMORY.md` filled with garbage, crucial facts forgotten across sessions. This skill solves that by enforcing a structure that:
+Without a memory system, Hermes agents store data chaotically  --  files scattered across `~/.hermes/`, `MEMORY.md` filled with garbage, crucial facts forgotten across sessions. This skill solves that by enforcing a structure that:
 
-- **Prevents context loss** — `AGENTS.md` is the single source of truth, loaded every session
-- **Scales with projects** — new project = new folder + README, never a cluttered flat directory
-- **Survives restarts** — `SOUL.md` preserves key principles across sessions and model changes
-- **Self-documents** — the structure itself tells the agent where everything lives
+- **Prevents context loss**  --  `AGENTS.md` is the single source of truth, loaded every session
+- **Scales with projects**  --  new project = new folder + README, never a cluttered flat directory
+- **Survives restarts**  --  `SOUL.md` preserves key principles across sessions and model changes
+- **Self-documents**  --  the structure itself tells the agent where everything lives
 
 ## Production Notes
 

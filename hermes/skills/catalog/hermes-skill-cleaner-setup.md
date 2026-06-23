@@ -1,6 +1,6 @@
 ---
-title: Hermes Skill Cleaner — Setup Guide
-description: Zero-dependency TypeScript CLI to audit Hermes agent skills — token budget analysis, duplicate detection, unused skill scanning, description compression.
+title: Hermes Skill Cleaner  --  Setup Guide
+description: Zero-dependency TypeScript CLI to audit Hermes agent skills  --  token budget analysis, duplicate detection, unused skill scanning, description compression.
 author: FavorPan
 repo: https://github.com/FavorPan/hermes-skill-cleaner
 license: MIT
@@ -8,7 +8,7 @@ license: MIT
 
 # Hermes Skill Cleaner Setup
 
-**A zero-dependency TypeScript CLI that audits your Hermes agent skill collection.** Identifies wasted context-window tokens, duplicate skills, unused skills, and overly verbose descriptions — with concrete cleanup recommendations.
+**A zero-dependency TypeScript CLI that audits your Hermes agent skill collection.** Identifies wasted context-window tokens, duplicate skills, unused skills, and overly verbose descriptions  --  with concrete cleanup recommendations.
 
 ## Quick Install
 
@@ -16,7 +16,7 @@ license: MIT
 git clone https://github.com/FavorPan/hermes-skill-cleaner.git
 cd hermes-skill-cleaner
 
-# Quick budget check (fastest — skips log scanning)
+# Quick budget check (fastest  --  skips log scanning)
 node --experimental-strip-types scripts/hermes-skill-cleaner.ts --no-logs
 
 # Full report with usage stats
@@ -41,9 +41,9 @@ remaining:      1,150 tokens (29% of budget)
 
 ### 2. Duplicate Detection
 Finds duplicate skills across three strategies:
-- **By name** — same skill name in different directories
-- **By body hash** — identical content under different names
-- **By Jaccard similarity** — near-identical skills (copy-paste variants)
+- **By name**  --  same skill name in different directories
+- **By body hash**  --  identical content under different names
+- **By Jaccard similarity**  --  near-identical skills (copy-paste variants)
 
 ### 3. Usage Scanning
 Parses Hermes session JSONL logs to find which skills are actually invoked. Skills with zero usage traces across recent sessions are flagged as removal candidates.

@@ -3,15 +3,15 @@ title: June 11, 2026 Discoveries
 description: 38 new high-value skills discovered across 5 new repositories. Hermes agent ecosystem, platform integrations, and communication bots.
 ---
 
-# June 11, 2026 — New Skills Discoveries
+# June 11, 2026  --  New Skills Discoveries
 
-Automated discovery sweep found **38 new high-value skills** across **5 previously uncatalogued repositories**. All with direct relevance to Hermes agents — from the `aradotso/hermes-skills` ecosystem (20 skills) to platform communication bots (10 skills), new Nous Research variants (2 skills), and standalone community contributions.
+Automated discovery sweep found **38 new high-value skills** across **5 previously uncatalogued repositories**. All with direct relevance to Hermes agents  --  from the `aradotso/hermes-skills` ecosystem (20 skills) to platform communication bots (10 skills), new Nous Research variants (2 skills), and standalone community contributions.
 
 *Previously cataloged: coreyhaines31/marketingskills, nousresearch/hermes-agent, vercel-labs/agent-browser, vercel-labs/agent-skills, anthropics/skills, xixu-me/skills, browser-use/skills, mcp-use/mcp-use, github/awesome-copilot, obra/superpowers, apify/agent-skills, wshobson/agents, googleworkspace/cli, firecrawl/cli, and others.*
 
 ---
 
-## aradotso/hermes-skills — 20 skills (2,656 total installs)
+## aradotso/hermes-skills  --  20 skills (2,656 total installs)
 
 The definitive community Hermes agent skill collection. Covers agent evolution, UI frameworks, desktop companions, mission control, observability, and multi-agent orchestration.
 
@@ -45,12 +45,12 @@ npx skills add aradotso/hermes-skills@hermes-agent-self-evolution
 npx skills add aradotso/hermes-skills@hermes-agent-framework
 npx skills add aradotso/hermes-skills@oh-my-hermes-workflow
 # Skills auto-register with Hermes after install.
-# Some require API keys (Paperclip, OpenClaw) — see individual skill docs.
+# Some require API keys (Paperclip, OpenClaw)  --  see individual skill docs.
 ```
 
 ---
 
-## membranedev/application-skills — 10 skills (13.7K total installs)
+## membranedev/application-skills  --  10 skills (13.7K total installs)
 
 Turn Hermes agents into interactive bots on 10 major platforms. Each skill wraps a platform's API into a ready-to-use agent toolset.
 
@@ -81,7 +81,7 @@ npx skills add membranedev/application-skills@shopify
 
 ---
 
-## nousresearch/hermes-agent — 2 new variants (283 total installs)
+## nousresearch/hermes-agent  --  2 new variants (283 total installs)
 
 New official Hermes agent variants from Nous Research.
 
@@ -101,7 +101,7 @@ npx skills add nousresearch/hermes-agent@claude-code
 
 ---
 
-## aradotso/trending-skills — 1 skill (135 installs)
+## aradotso/trending-skills  --  1 skill (135 installs)
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
@@ -115,7 +115,7 @@ npx skills add aradotso/trending-skills@hermes-labyrinth-observability
 
 ---
 
-## Community Standalone — 5 skills (352 total installs)
+## Community Standalone  --  5 skills (352 total installs)
 
 Independent community contributions with Hermes integration.
 
@@ -147,7 +147,7 @@ npx skills add ar9av/obsidian-wiki@hermes-history-ingest
 | nousresearch/hermes-agent | 2 | 283 | Official Variants |
 | aradotso/trending-skills | 1 | 135 | Observability |
 | Community Standalone | 5 | 3,674 | Mixed |
-| **Total** | **38** | **20,487** | — |
+| **Total** | **38** | **20,487** |  --  |
 
 **Catalog update:** Added to `hermes/skills/catalog/index.md` under Hermes Ecosystem (20) and Platform Bots (10) sections. Hermes Variants section updated with 2 new entries.
 ---

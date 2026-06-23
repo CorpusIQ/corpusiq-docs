@@ -1,14 +1,14 @@
 ---
-title: Mac Mini M4 Hermes Agent Setup — Standalone AI Workstation Guide
+title: Mac Mini M4 Hermes Agent Setup  --  Standalone AI Workstation Guide
 description: Step-by-step Mac Mini M4 setup guide for Hermes Agent. Run local LLMs with Ollama/MLX, browser automation with Playwright, and persistent crons on a single silent machine. $599+ hardware, free local inference.
 category: setup
 tags: [mac-mini, hermes-agent, setup-guide, ollama, mlx, browser-automation, standalone, apple-silicon]
 last_updated: 2026-06-16
 ---
 
-# Mac Mini M4 Hermes Agent Setup — Standalone AI Workstation
+# Mac Mini M4 Hermes Agent Setup  --  Standalone AI Workstation
 
-The Mac Mini M4 is the ideal single-machine Hermes Agent host for solo founders and developers. Everything runs on one box: LLM inference with Ollama and MLX, browser automation with Playwright, cron scheduling, and messaging — no worker nodes, no SSH keys, no multi-machine complexity.
+The Mac Mini M4 is the ideal single-machine Hermes Agent host for solo founders and developers. Everything runs on one box: LLM inference with Ollama and MLX, browser automation with Playwright, cron scheduling, and messaging  --  no worker nodes, no SSH keys, no multi-machine complexity.
 
 ## Overview
 
@@ -48,7 +48,7 @@ hermes --version
 
 Pick one or both strategies:
 
-**Local Models (Ollama — Free):**
+**Local Models (Ollama  --  Free):**
 
 ```bash
 # Install Ollama
@@ -63,7 +63,7 @@ ollama pull qwen2.5:14b        # Heavier tasks (if 24GB+ RAM)
 hermes config set model.default ollama/llama3.2
 ```
 
-**Cloud Models (OpenRouter — Pay-per-use):**
+**Cloud Models (OpenRouter  --  Pay-per-use):**
 
 ```bash
 hermes config set providers.openrouter.api_key "your-key"
@@ -144,15 +144,15 @@ Or go to **System Settings → Battery → Options → Prevent automatic sleepin
 ### Step 7: Memory Stack
 
 ```bash
-# Honcho — peer memory (2 min)
+# Honcho  --  peer memory (2 min)
 hermes mcp add honcho -- npx mcp-remote https://mcp.honcho.dev \
   --header "Authorization: Bearer your-h...ken" \
   --header "X-Honcho-Workspace-ID: your-workspace"
 
-# GBrain — project memory (10 min)
+# GBrain  --  project memory (10 min)
 git clone https://github.com/garrytan/gbrain && cd gbrain && ./setup.sh
 
-# memcore-cloud — cross-session context (5 min)
+# memcore-cloud  --  cross-session context (5 min)
 pip install memcore-cloud && memcore-cloud init
 ```
 
@@ -161,10 +161,10 @@ Full details in the [memory architecture guide](/hermes/knowledge/).
 ## Benefits of Mac Mini M4 + Hermes Agent
 
 - **Single-box simplicity**: No worker nodes, no SSH, no multi-machine coordination
-- **Unified memory**: 16–32GB shared between CPU and GPU — ideal for local LLM inference
-- **Silent operation**: ~20W idle, ~40W under load — leave it running 24/7
+- **Unified memory**: 16–32GB shared between CPU and GPU  --  ideal for local LLM inference
+- **Silent operation**: ~20W idle, ~40W under load  --  leave it running 24/7
 - **Native browser automation**: Playwright and patchright run directly on macOS
-- **Developer ecosystem**: Homebrew, Python, Node.js — everything just works
+- **Developer ecosystem**: Homebrew, Python, Node.js  --  everything just works
 - **Cost efficiency**: $599 one-time hardware, free local models, ~$3/month electricity
 
 ## Cost Summary
@@ -195,12 +195,12 @@ Add a [gaming PC worker node](gaming-pc.md) via SSH for GPU-heavy inference, or 
 
 ## Related Pages
 
-- [Hermes Agent Setup Overview](/hermes/setup/) — Compare all hardware platforms
-- [Gaming PC Setup](gaming-pc.md) — Maximum GPU performance
-- [Model Selection Guide](/hermes/best-practices/model-selection.md) — Tiered model routing
-- [Memory Architecture](/hermes/knowledge/) — Triple-stack agent memory
-- [MCP Integration Guide](/hermes/mcp/) — Connect 37+ business platforms
-- [Troubleshooting Guide](/hermes/troubleshooting/) — Common Mac Mini issues
+- [Hermes Agent Setup Overview](/hermes/setup/)  --  Compare all hardware platforms
+- [Gaming PC Setup](gaming-pc.md)  --  Maximum GPU performance
+- [Model Selection Guide](/hermes/best-practices/model-selection.md)  --  Tiered model routing
+- [Memory Architecture](/hermes/knowledge/)  --  Triple-stack agent memory
+- [MCP Integration Guide](/hermes/mcp/)  --  Connect 37+ business platforms
+- [Troubleshooting Guide](/hermes/troubleshooting/)  --  Common Mac Mini issues
 ---
 
 *

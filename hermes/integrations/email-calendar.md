@@ -1,12 +1,12 @@
 ---
-title: Email + Calendar Integration for Hermes Agent — Automated Scheduling & Follow-ups
+title: Email + Calendar Integration for Hermes Agent  --  Automated Scheduling & Follow-ups
 description: Connect Gmail, Outlook, Google Calendar, and Outlook Calendar to Hermes Agent. Automate meeting scheduling, follow-up workflows, availability management with MCP servers and cron-driven automation patterns.
 category: integrations
 tags: [hermes-agent, integration, email, calendar, gmail, outlook, meeting-scheduling, follow-up-automation, mcp]
 last_updated: 2026-06-16
 ---
 
-# Email + Calendar Integration — Automated Scheduling & Follow-ups
+# Email + Calendar Integration  --  Automated Scheduling & Follow-ups
 
 ## Architecture Overview
 
@@ -28,15 +28,15 @@ The automation layer reads incoming emails, extracts scheduling intent or follow
 
 ### Email Servers
 
-**Gmail MCP Server** — provides `list_gmail_messages`, `search_gmail`, and `get_gmail_message` tools. Configure with OAuth credentials from Google Cloud Console with the Gmail readonly scope. This lets the agent scan inboxes for meeting requests, scheduling emails, and follow-up triggers.
+**Gmail MCP Server**  --  provides `list_gmail_messages`, `search_gmail`, and `get_gmail_message` tools. Configure with OAuth credentials from Google Cloud Console with the Gmail readonly scope. This lets the agent scan inboxes for meeting requests, scheduling emails, and follow-up triggers.
 
-**Outlook MCP Server** — provides equivalent tools for Microsoft 365 mailboxes. Requires Azure AD app registration with Mail.Read scope. Supports shared mailboxes, useful for team inboxes like `scheduling@example.com`.
+**Outlook MCP Server**  --  provides equivalent tools for Microsoft 365 mailboxes. Requires Azure AD app registration with Mail.Read scope. Supports shared mailboxes, useful for team inboxes like `scheduling@example.com`.
 
 ### Calendar Servers
 
-**Google Calendar MCP Server** — provides `list_my_calendar_events`, `search_my_calendar`, and event detail retrieval. Configure with Google Calendar API scope. Supports multiple calendars — separate personal and team calendars.
+**Google Calendar MCP Server**  --  provides `list_my_calendar_events`, `search_my_calendar`, and event detail retrieval. Configure with Google Calendar API scope. Supports multiple calendars  --  separate personal and team calendars.
 
-**Outlook Calendar MCP Server** — provides the same capabilities for Microsoft 365 calendars. Handles delegated calendars and room resource lookups.
+**Outlook Calendar MCP Server**  --  provides the same capabilities for Microsoft 365 calendars. Handles delegated calendars and room resource lookups.
 
 ## Core Automation Scenarios
 
@@ -53,7 +53,7 @@ The automation layer reads incoming emails, extracts scheduling intent or follow
 6. Draft reply with availability OR confirm the proposed time
 7. Mark email with "scheduling-pending" label until confirmed
 
-**Cron expression:** `*/10 * * * *` — checks inbox for new scheduling emails every 10 minutes during business hours.
+**Cron expression:** `*/10 * * * *`  --  checks inbox for new scheduling emails every 10 minutes during business hours.
 
 ### 2. Follow-Up Automation
 
@@ -68,7 +68,7 @@ The automation layer reads incoming emails, extracts scheduling intent or follow
 
 **Configuration:** Define follow-up windows per contact category (hot lead: 3 days, warm lead: 5 days, client: 7 days).
 
-**Cron expression:** `0 8 * * 1-5` — runs once each weekday morning to check for follow-up needs.
+**Cron expression:** `0 8 * * 1-5`  --  runs once each weekday morning to check for follow-up needs.
 
 ### 3. Availability Checking
 
@@ -101,13 +101,13 @@ working_hours:
 
 **Workflow:**
 1. Agent detects upcoming meeting on calendar (cron: checks every 15 minutes)
-2. Searches email for the meeting thread — pulls recent correspondence with attendees
+2. Searches email for the meeting thread  --  pulls recent correspondence with attendees
 3. Extracts action items, open questions, and decisions from previous meeting notes
 4. Compiles a one-page prep brief: agenda, previous context, open items, preparation notes
 5. Sends the brief via email or posts to the meeting's Slack channel
 6. Includes links to relevant documents and previous meeting summaries
 
-**Cron expression:** `*/15 * * * *` — checks for upcoming meetings every 15 minutes.
+**Cron expression:** `*/15 * * * *`  --  checks for upcoming meetings every 15 minutes.
 
 ## Cron Schedule Summary
 
@@ -125,19 +125,19 @@ working_hours:
 Both Gmail and Outlook APIs have rate limits. Implement exponential backoff in your automation scripts. For high-volume inboxes, batch email scanning into a single operation rather than per-message calls.
 
 ### Security Considerations
-- Use read-only API scopes where possible — the agent should suggest, not autonomously send emails or create calendar events without human review.
+- Use read-only API scopes where possible  --  the agent should suggest, not autonomously send emails or create calendar events without human review.
 - Store OAuth tokens securely; rotate refresh tokens on a schedule.
 - Never log email bodies or calendar event details to plaintext files.
 
 ### Testing
-Start with a "dry run" mode that logs proposed actions without executing them. After a week of dry runs that produce sensible output, enable execution one automation at a time. Monitor the first month closely — edge cases in scheduling language and timezone handling are the most common failure modes.
+Start with a "dry run" mode that logs proposed actions without executing them. After a week of dry runs that produce sensible output, enable execution one automation at a time. Monitor the first month closely  --  edge cases in scheduling language and timezone handling are the most common failure modes.
 
 ### Extending
 Add CRM integration to log meetings against contacts. Connect Slack to post daily schedule summaries to your direct-message channel. Wire up task management (Notion, Monday, Linear) to create prep tasks for meetings automatically.
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

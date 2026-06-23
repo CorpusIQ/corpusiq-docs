@@ -3,17 +3,17 @@ title: June 10, 2026 Discoveries
 description: 68 new high-value skills discovered across 12 new repositories. Setup guides with install commands and Hermes integration tips.
 ---
 
-# June 10, 2026 — New Skills Discoveries
+# June 10, 2026  --  New Skills Discoveries
 
-Automated discovery sweep across 74 search queries found **226 skills not yet cataloged**. This page documents the **most impactful 68** — skills from 12 major new repositories, each with 500+ installs and direct relevance to Hermes agents.
+Automated discovery sweep across 74 search queries found **226 skills not yet cataloged**. This page documents the **most impactful 68**  --  skills from 12 major new repositories, each with 500+ installs and direct relevance to Hermes agents.
 
 *Previously cataloged: coreyhaines31/marketingskills, nousresearch/hermes-agent, vercel-labs/agent-browser, vercel-labs/agent-skills, anthropics/skills, xixu-me/skills, browser-use/skills, mcp-use/mcp-use, github/awesome-copilot, obra/superpowers, apify/agent-skills, wshobson/agents.*
 
 ---
 
-## Google Workspace CLI — 8 skills (168K total installs)
+## Google Workspace CLI  --  8 skills (168K total installs)
 
-`googleworkspace/cli` — Automate Gmail, Drive, Docs, Calendar, and Sheets from the terminal. Essential for any operator running Hermes with Google Workspace.
+`googleworkspace/cli`  --  Automate Gmail, Drive, Docs, Calendar, and Sheets from the terminal. Essential for any operator running Hermes with Google Workspace.
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
@@ -37,9 +37,9 @@ npx skills add googleworkspace/cli@gws-drive
 
 ---
 
-## Firecrawl CLI — 4 skills (235K total installs)
+## Firecrawl CLI  --  4 skills (235K total installs)
 
-`firecrawl/cli` — The dominant web scraping toolkit. Turns any website into structured markdown. Core infrastructure for research agents.
+`firecrawl/cli`  --  The dominant web scraping toolkit. Turns any website into structured markdown. Core infrastructure for research agents.
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
@@ -59,9 +59,9 @@ npx skills add firecrawl/cli@firecrawl
 
 ---
 
-## Stripe AI — 3 skills (108K total installs)
+## Stripe AI  --  3 skills (108K total installs)
 
-`stripe/ai` — Official Stripe agent skills. Payment integration, upgrades, and project scaffolding for Stripe-powered apps.
+`stripe/ai`  --  Official Stripe agent skills. Payment integration, upgrades, and project scaffolding for Stripe-powered apps.
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
@@ -79,9 +79,9 @@ npx skills add stripe/ai@stripe-best-practices
 
 ---
 
-## Firebase Agent Skills — 5 skills (292K total installs)
+## Firebase Agent Skills  --  5 skills (292K total installs)
 
-`firebase/agent-skills` — Firebase platform skills. Auth, hosting, security rules, Firestore. For agents building on Firebase.
+`firebase/agent-skills`  --  Firebase platform skills. Auth, hosting, security rules, Firestore. For agents building on Firebase.
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
@@ -100,9 +100,9 @@ npx skills add firebase/agent-skills@firebase-basics
 
 ---
 
-## Supabase Agent Skills — 2 skills (335K total installs)
+## Supabase Agent Skills  --  2 skills (335K total installs)
 
-`supabase/agent-skills` — Official Supabase skills for database, auth, and real-time infrastructure.
+`supabase/agent-skills`  --  Official Supabase skills for database, auth, and real-time infrastructure.
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
@@ -118,9 +118,9 @@ npx skills add supabase/agent-skills@supabase-postgres-best-practices
 
 ---
 
-## Shopify AI Toolkit — 6 skills (38K total installs)
+## Shopify AI Toolkit  --  6 skills (38K total installs)
 
-`shopify/shopify-ai-toolkit` — Official Shopify dev tools for storefront, admin, Liquid, and GraphQL.
+`shopify/shopify-ai-toolkit`  --  Official Shopify dev tools for storefront, admin, Liquid, and GraphQL.
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
@@ -140,9 +140,9 @@ npx skills add shopify/shopify-ai-toolkit@shopify-dev
 
 ---
 
-## Prisma Skills — 3 skills (32K total installs)
+## Prisma Skills  --  3 skills (32K total installs)
 
-`prisma/skills` — Database ORM for TypeScript/Node.js. Schema design, migrations, client API patterns.
+`prisma/skills`  --  Database ORM for TypeScript/Node.js. Schema design, migrations, client API patterns.
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
@@ -159,9 +159,9 @@ npx skills add prisma/skills@prisma-database-setup
 
 ---
 
-## LangGraph Extensions — 3 skills (20.6K total installs)
+## LangGraph Extensions  --  3 skills (20.6K total installs)
 
-`langchain-ai/langchain-skills` — LangGraph workflow patterns. State persistence, human-in-the-loop, and deep agent memory.
+`langchain-ai/langchain-skills`  --  LangGraph workflow patterns. State persistence, human-in-the-loop, and deep agent memory.
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
@@ -178,9 +178,9 @@ npx skills add langchain-ai/langchain-skills@langgraph-persistence
 
 ---
 
-## ElevenLabs — 2 skills (10.7K total installs)
+## ElevenLabs  --  2 skills (10.7K total installs)
 
-`elevenlabs/skills` — Voice AI. Text-to-speech and speech-to-text for audio agents.
+`elevenlabs/skills`  --  Voice AI. Text-to-speech and speech-to-text for audio agents.
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
@@ -197,9 +197,9 @@ npx skills add elevenlabs/skills@text-to-speech
 
 ---
 
-## Claude Office Skills — 4 skills (22K total installs)
+## Claude Office Skills  --  4 skills (22K total installs)
 
-`claude-office-skills/skills` — Office automation: Excel, CRM, PDFs, Airtable. Built for Claude but works with any LLM agent.
+`claude-office-skills/skills`  --  Office automation: Excel, CRM, PDFs, Airtable. Built for Claude but works with any LLM agent.
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
@@ -217,9 +217,9 @@ npx skills add claude-office-skills/skills@excel-automation
 
 ---
 
-## Communication Bots — 4 skills (11K total installs)
+## Communication Bots  --  4 skills (11K total installs)
 
-`claude-office-skills/skills` — Telegram, WhatsApp, Slack, and Discord bot builders. Deploy autonomous agents to chat platforms.
+`claude-office-skills/skills`  --  Telegram, WhatsApp, Slack, and Discord bot builders. Deploy autonomous agents to chat platforms.
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
@@ -278,9 +278,9 @@ All skills installable with `npx skills add <owner/repo@skill>`. See the [skills
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

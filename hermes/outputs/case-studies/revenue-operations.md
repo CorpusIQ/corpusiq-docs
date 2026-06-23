@@ -19,7 +19,7 @@ Hermes Agent automates pipeline hygiene, sales forecasting, commission calculati
 
 ## Overview
 
-Revenue operations (RevOps) sits at the intersection of sales, marketing, finance, and customer success. The RevOps mandate is to make the revenue engine predictable, measurable, and scalable — but the data needed to do that lives in separate systems that rarely agree. A typical revenue stack includes CRM (HubSpot, Salesforce, Close), marketing automation (Klaviyo, Mailchimp, ActiveCampaign), billing (Stripe, QuickBooks, Chargebee), analytics (GA4, PostHog), and spreadsheets (the unofficial system of record). Each system has its own definition of "customer," "revenue," and "pipeline." Hermes automates that reconciliation and makes it continuous rather than month-end.
+Revenue operations (RevOps) sits at the intersection of sales, marketing, finance, and customer success. The RevOps mandate is to make the revenue engine predictable, measurable, and scalable  --  but the data needed to do that lives in separate systems that rarely agree. A typical revenue stack includes CRM (HubSpot, Salesforce, Close), marketing automation (Klaviyo, Mailchimp, ActiveCampaign), billing (Stripe, QuickBooks, Chargebee), analytics (GA4, PostHog), and spreadsheets (the unofficial system of record). Each system has its own definition of "customer," "revenue," and "pipeline." Hermes automates that reconciliation and makes it continuous rather than month-end.
 
 ## How It Works
 
@@ -86,7 +86,7 @@ The skill:
   description: Compares prior month forecasts to actual results
 ```
 
-This retrospective compares what was forecasted (at weekly intervals) against what actually closed, calculating forecast accuracy by rep, by team, and by deal stage. It identifies systematic biases — who consistently over-forecasts, which deal stages are least predictive — so managers can calibrate.
+This retrospective compares what was forecasted (at weekly intervals) against what actually closed, calculating forecast accuracy by rep, by team, and by deal stage. It identifies systematic biases  --  who consistently over-forecasts, which deal stages are least predictive  --  so managers can calibrate.
 
 ### Commission Calculation
 
@@ -162,17 +162,17 @@ The gap between marketing qualified leads and sales accepted opportunities is wh
 
 ## Benefits
 
-- **Cleaner pipeline data** — stale deals, missing fields, and inconsistencies flagged daily
-- **More accurate forecasts** — data-driven weighted pipeline with historical accuracy tracking
-- **Faster commission cycles** — automated calculations with transparent audit trails
-- **Trusted revenue numbers** — daily cross-source reconciliation catches gaps immediately
-- **Better marketing-sales alignment** — MQL-to-SQL conversion tracked and leakage identified
-- **Single source of truth** — finance, sales, and leadership all work from the same numbers
+- **Cleaner pipeline data**  --  stale deals, missing fields, and inconsistencies flagged daily
+- **More accurate forecasts**  --  data-driven weighted pipeline with historical accuracy tracking
+- **Faster commission cycles**  --  automated calculations with transparent audit trails
+- **Trusted revenue numbers**  --  daily cross-source reconciliation catches gaps immediately
+- **Better marketing-sales alignment**  --  MQL-to-SQL conversion tracked and leakage identified
+- **Single source of truth**  --  finance, sales, and leadership all work from the same numbers
 
 ## Getting Started in RevOps
 
 1. **Start with pipeline hygiene.** Clean data makes every other automation better. Pipeline cleanup provides immediate value and builds trust.
-2. **Connect your CRM and billing system first.** These are the two poles of the revenue equation — everything else sits between them.
+2. **Connect your CRM and billing system first.** These are the two poles of the revenue equation  --  everything else sits between them.
 3. **Reconcile before forecasting.** If your systems don't agree on what revenue is, forecasts based on any one system are unreliable.
 4. **Build commission calculations with extreme transparency.** Every rep should be able to see exactly how their number was calculated, with a clear dispute path.
 5. **Use database connectors for custom metrics.** Most revenue teams have custom SQL queries they run regularly. Turn those into Hermes skills that run on schedule.
@@ -203,15 +203,15 @@ Yes. Hermes builds standard SaaS revenue waterfalls showing new business, expans
 
 ## Related Pages
 
-- [Hermes Agent for Financial Services](../case-studies/financial-services.md) — Transaction reconciliation and portfolio monitoring
-- [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Customer health monitoring and churn signals
-- [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce.md) — Order processing and revenue tracking
-- [Hermes Agent for Mid-Market](../by-company-size/mid-market.md) — Multi-department RevOps orchestration
-- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+- [Hermes Agent for Financial Services](../case-studies/financial-services.md)  --  Transaction reconciliation and portfolio monitoring
+- [Hermes Agent Customer Support Automation](../case-studies/customer-support.md)  --  Customer health monitoring and churn signals
+- [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce.md)  --  Order processing and revenue tracking
+- [Hermes Agent for Mid-Market](../by-company-size/mid-market.md)  --  Multi-department RevOps orchestration
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

@@ -1,9 +1,9 @@
 ---
 title: Hermes Ponytail Setup Guide
-description: Install and configure the Ponytail lazy-senior-dev skill pack for Hermes Agent — YAGNI-first development, over-engineering audits, and tech debt tracking
+description: Install and configure the Ponytail lazy-senior-dev skill pack for Hermes Agent  --  YAGNI-first development, over-engineering audits, and tech debt tracking
 ---
 
-# Hermes Ponytail — Setup Guide
+# Hermes Ponytail  --  Setup Guide
 
 **Ponytail** makes your Hermes agent think like the laziest senior developer. YAGNI-first. Stdlib-first. No unrequested abstractions. The shortest diff that works.
 
@@ -16,7 +16,7 @@ Packaged as 7 pure `SKILL.md` skills for Hermes Agent by [tensakulabs/hermes-pon
 - **Hermes Agent** installed and running
 - Hermes skills CLI (`hermes skills install`)
 
-No Python dependencies, no tools, no API keys — these are pure skill files.
+No Python dependencies, no tools, no API keys  --  these are pure skill files.
 
 ---
 
@@ -41,7 +41,7 @@ Skills land in `~/.hermes/skills/` and are auto-discovered on the next restart.
 
 ## 3. Skill Reference
 
-### `ponytail` — Lazy Senior Dev Mode
+### `ponytail`  --  Lazy Senior Dev Mode
 
 Core mindset skill. Activates YAGNI-first thinking:
 - No unrequested abstractions (no factories, no patterns without a problem)
@@ -52,31 +52,31 @@ Core mindset skill. Activates YAGNI-first thinking:
 
 **Load via:** `skill_view(name='ponytail')`
 
-### `ponytail-review` — Diff Review
+### `ponytail-review`  --  Diff Review
 
 Review any diff for over-engineering. Output: one line per thing to delete, one line per thing to simplify.
 
 **Usage:** Load before reviewing PRs or when asked to review code.
 
-### `ponytail-audit` — Whole-Repo Audit
+### `ponytail-audit`  --  Whole-Repo Audit
 
-Systematic audit of the entire repo for over-engineering. Produces a ranked list of what to cut — most impactful simplifications first.
+Systematic audit of the entire repo for over-engineering. Produces a ranked list of what to cut  --  most impactful simplifications first.
 
 **Usage:** Load when doing architectural health checks or before major refactors.
 
-### `ponytail-debt` — Tech Debt Ledger
+### `ponytail-debt`  --  Tech Debt Ledger
 
 Harvests every `ponytail:` shortcut comment in the codebase into one tracked debt ledger. Comments like `# ponytail: this abstraction is premature` become tracked items.
 
 **Usage:** Run periodically to maintain visibility of intentional shortcuts and planned simplifications.
 
-### `ponytail-gain` — Impact Scoreboard
+### `ponytail-gain`  --  Impact Scoreboard
 
 Measures Ponytail's impact: less code, lower costs, faster builds. Trackable metrics over time.
 
 **Usage:** Load for monthly retrospectives or to demonstrate simplification ROI.
 
-### `ponytail-help` — Quick Reference
+### `ponytail-help`  --  Quick Reference
 
 One-page reference of all Ponytail modes and skills with one-liner descriptions.
 
@@ -84,18 +84,18 @@ One-page reference of all Ponytail modes and skills with one-liner descriptions.
 
 ## 4. CorpusIQ Use Cases
 
-- **Agent skill development** — Use `ponytail-review` when reviewing new skill SKILL.md files before publishing
-- **Infrastructure code** — `ponytail-audit` on the Mac Mini and DGX Spark automation scripts
-- **Growth ops** — Keep automation scripts minimal; `ponytail` mindset prevents over-engineered workflows
-- **Docs management** — Audit the corpusiq-docs repo structure for unnecessary complexity
+- **Agent skill development**  --  Use `ponytail-review` when reviewing new skill SKILL.md files before publishing
+- **Infrastructure code**  --  `ponytail-audit` on the Mac Mini and DGX Spark automation scripts
+- **Growth ops**  --  Keep automation scripts minimal; `ponytail` mindset prevents over-engineered workflows
+- **Docs management**  --  Audit the corpusiq-docs repo structure for unnecessary complexity
 
 ---
 
 ## 5. Limitations
 
-- **On-demand only** — Hermes skills load when triggered, unlike Claude Code/Codex hooks that run every turn. If you want Ponytail governing *every* Hermes turn, append the ruleset from `ponytail/SKILL.md` into Hermes' base system prompt or build it as a Hermes plugin (`pre_llm_call` hook).
-- **No code execution** — These are pure behavioral skills. They change how the agent *thinks*, not what tools it has.
-- **Not for urgent hotfixes** — Ponytail's simplification-first mindset can slow down emergency patches where speed trumps elegance. Disable or unload for critical incidents.
+- **On-demand only**  --  Hermes skills load when triggered, unlike Claude Code/Codex hooks that run every turn. If you want Ponytail governing *every* Hermes turn, append the ruleset from `ponytail/SKILL.md` into Hermes' base system prompt or build it as a Hermes plugin (`pre_llm_call` hook).
+- **No code execution**  --  These are pure behavioral skills. They change how the agent *thinks*, not what tools it has.
+- **Not for urgent hotfixes**  --  Ponytail's simplification-first mindset can slow down emergency patches where speed trumps elegance. Disable or unload for critical incidents.
 
 ---
 

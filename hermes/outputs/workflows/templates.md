@@ -1,5 +1,5 @@
 ---
-title: Hermes Cron Templates — 12 Copy-Paste Workflows for Autonomous Agents
+title: Hermes Cron Templates  --  12 Copy-Paste Workflows for Autonomous Agents
 description: "Ready-to-deploy cron templates for Hermes Agent: email triage, report generation, data sync, anomaly detection, SLA monitoring, and more. Copy, adapt, deploy in minutes."
 category: Outputs
 tags:
@@ -11,13 +11,13 @@ tags:
 last_updated: 2026-06-16
 ---
 
-# Copy-Paste Cron Templates — 12 Ready-to-Deploy Autonomous Workflows
+# Copy-Paste Cron Templates  --  12 Ready-to-Deploy Autonomous Workflows
 
 This is a **grab-bag of cron + skill templates** you can copy, adapt, and deploy in minutes. Each template includes the cron schedule, the skill it calls, what data sources it uses, and what it produces. Replace the placeholder values with your own tool names, channels, and thresholds.
 
 ## Overview
 
-**Stop starting from scratch.** These 12 templates cover the most common automation patterns — email monitoring, report generation, data sync, anomaly detection, and platform-specific integrations. Each template has been production-tested on a [24/7 Hermes deployment](/hermes/).
+**Stop starting from scratch.** These 12 templates cover the most common automation patterns  --  email monitoring, report generation, data sync, anomaly detection, and platform-specific integrations. Each template has been production-tested on a [24/7 Hermes deployment](/hermes/).
 
 > **See also:** [Cron Scheduling Guide](/hermes/governance/scheduling/) · [Outputs Overview](/hermes/outputs/) · [Agent Library](/hermes/agents/)
 
@@ -158,7 +158,7 @@ This is a **grab-bag of cron + skill templates** you can copy, adapt, and deploy
   skill: stripe-revenue-pulse
   description: Tracks daily revenue, new subscriptions, churn, and failed charges
 ```
-**Data sources:** Stripe connector — charges, subscriptions, customers.
+**Data sources:** Stripe connector  --  charges, subscriptions, customers.
 
 ### GA4 Traffic Anomaly
 ```yaml
@@ -167,7 +167,7 @@ This is a **grab-bag of cron + skill templates** you can copy, adapt, and deploy
   skill: traffic-anomaly
   description: Detects unusual traffic patterns that may indicate issues or opportunities
 ```
-**Data sources:** GA4 connector — current traffic vs. baseline.
+**Data sources:** GA4 connector  --  current traffic vs. baseline.
 
 ### CRM Pipeline Health
 ```yaml
@@ -176,7 +176,7 @@ This is a **grab-bag of cron + skill templates** you can copy, adapt, and deploy
   skill: pipeline-health-check
   description: Daily pipeline health report with deal movement and hygiene issues
 ```
-**Data sources:** CRM connector — deals, activities, contacts.
+**Data sources:** CRM connector  --  deals, activities, contacts.
 
 ## Template Customization Guide
 
@@ -191,9 +191,9 @@ This is a **grab-bag of cron + skill templates** you can copy, adapt, and deploy
 
 Deploy these three crons today:
 
-1. **Daily pulse** (report) — One morning summary replacing dashboard checks
-2. **Anomaly detection** (alert) — One metric that tells you when something is wrong before customers do
-3. **Health check** (monitor) — One endpoint or system that must stay up
+1. **Daily pulse** (report)  --  One morning summary replacing dashboard checks
+2. **Anomaly detection** (alert)  --  One metric that tells you when something is wrong before customers do
+3. **Health check** (monitor)  --  One endpoint or system that must stay up
 
 **Three crons. One hour of setup.** You'll know within a week what to automate next.
 
@@ -221,15 +221,15 @@ Edit the YAML `schedule` field with standard cron expressions, and adjust thresh
 
 ## Related Pages
 
-- [Outputs Overview — Industry Case Studies](/hermes/outputs/)
-- [Cron Scheduling Guide — 38 Production Crons](/hermes/governance/scheduling/)
-- [Agent Library — 9 Role Configurations](/hermes/agents/)
-- [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
-- [Architecture — 6-Layer Production Model](/hermes/architecture/)
+- [Outputs Overview  --  Industry Case Studies](/hermes/outputs/)
+- [Cron Scheduling Guide  --  38 Production Crons](/hermes/governance/scheduling/)
+- [Agent Library  --  9 Role Configurations](/hermes/agents/)
+- [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
+- [Architecture  --  6-Layer Production Model](/hermes/architecture/)
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

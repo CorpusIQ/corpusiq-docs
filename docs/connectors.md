@@ -1,11 +1,11 @@
 ---
 description: >-
-  CorpusIQ integrates with 37+ business tools through read-only OAuth —
-  email, CRM, e-commerce, analytics, and databases — for natural-language
+  CorpusIQ integrates with 37+ business tools through read-only OAuth  -- 
+  email, CRM, e-commerce, analytics, and databases  --  for natural-language
   queries across your entire data stack.
 ---
 
-title: "CorpusIQ Connectors — 50+ Business Data Integrations for AI"
+title: "CorpusIQ Connectors  --  50+ Business Data Integrations for AI"
 description: "Complete directory of CorpusIQ connectors: CRM (HubSpot, Salesforce), accounting (QuickBooks), payments (Stripe), analytics (GA4), marketing (Klaviyo, Meta Ads), databases, and 50+ more read-only integrations."
 category: "Documentation"
 tags: ["corpusiq connectors", "data integrations", "business tools ai", "oauth connectors", "crm integration", "accounting integration", "analytics connectors"]
@@ -147,7 +147,7 @@ A: Log into the CorpusIQ Dashboard, navigate to Connections, click the service y
 A: Yes. All connectors use read-only OAuth scopes. CorpusIQ never requests write permissions. You can verify the exact scopes on the OAuth authorization screen during connection setup.
 
 **Q: Does CorpusIQ support database connections?**  
-A: Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), MySQL, Azure Cosmos DB, and MongoDB — all with read-only SQL/query access.
+A: Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), MySQL, Azure Cosmos DB, and MongoDB  --  all with read-only SQL/query access.
 
 **Q: What if I need a connector that isn't listed?**  
 A: CorpusIQ adds new connectors regularly. You can request new connectors through the Dashboard or connect custom databases via the database bridge. For proprietary APIs, contact CorpusIQ about custom MCP connector development.
@@ -157,15 +157,15 @@ A: Visit the CorpusIQ Dashboard to see connector status (active, paused, needs r
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/docs/quick-start)** — Go from zero to first query in 5 minutes  
-- **[API Reference](/docs/api/overview)** — Full REST API documentation  
-- **[CorpusIQ Connectors](/docs/connectors)** — All 50+ supported integrations  
-- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SOC 2, data residency  
-- **[CorpusIQ Security Documentation](/docs/security)** — Certifications, encryption, and compliance  
-- **[CorpusIQ Changelog](/docs/changelog)** — API updates and version history  
-- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption and network security  
+- **[CorpusIQ Quick Start Guide](/docs/quick-start)**  --  Go from zero to first query in 5 minutes  
+- **[API Reference](/docs/api/overview)**  --  Full REST API documentation  
+- **[CorpusIQ Connectors](/docs/connectors)**  --  All 50+ supported integrations  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/docs/security)**  --  Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/docs/changelog)**  --  API updates and version history  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption and network security  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *

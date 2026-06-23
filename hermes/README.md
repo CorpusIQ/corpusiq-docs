@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent Production Knowledge Repository — Deploy Autonomous AI Agents
+title: Hermes Agent Production Knowledge Repository  --  Deploy Autonomous AI Agents
 description: "Everything the official Hermes docs don't cover. Production-tested patterns from 1,200+ hours of autonomous operations: 6-layer architecture, memory systems, MCP connectors, cron scheduling, and deployment patterns."
 category: Documentation
 tags:
@@ -15,7 +15,7 @@ last_updated: 2026-06-16
   <img src="https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/banner.png" alt="Hermes Agent" width="600">
 </p>
 
-<h1 align="center">Hermes Agent — The Production Knowledge Repository</h1>
+<h1 align="center">Hermes Agent  --  The Production Knowledge Repository</h1>
 
 <p align="center">
   <b>Everything the <a href="https://hermes-agent.nousresearch.com/docs/">official docs</a> don't cover.<br>
@@ -46,10 +46,10 @@ last_updated: 2026-06-16
 The [official Hermes docs](https://hermes-agent.nousresearch.com/docs/) tell you what each feature does. They don't tell you how to run a production autonomous agent that operates a business.
 
 This repository fills that gap. Every pattern here is drawn from real production deployments running on:
-- **Primary compute node** — inference, orchestration, LLM routing
-- **Worker node** — browser automation, social publishing, content ops
-- **Cron scheduling** — email, social, video, research, governance, monitoring
-- **Memory systems** — semantic search, knowledge graphs, self-evolving memory
+- **Primary compute node**  --  inference, orchestration, LLM routing
+- **Worker node**  --  browser automation, social publishing, content ops
+- **Cron scheduling**  --  email, social, video, research, governance, monitoring
+- **Memory systems**  --  semantic search, knowledge graphs, self-evolving memory
 - **195K+ stars** on the core [Hermes Agent repo](https://github.com/NousResearch/hermes-agent)
 
 **This is the repo you wish existed when you started building production agents.**
@@ -58,8 +58,8 @@ This repository fills that gap. Every pattern here is drawn from real production
 
 ## 📖 Table of Contents
 
-- [Quick Start — Production in 15 Minutes](#-quick-start)
-- [Architecture — The 6-Layer Model](#-architecture)
+- [Quick Start  --  Production in 15 Minutes](#-quick-start)
+- [Architecture  --  The 6-Layer Model](#-architecture)
 - [Memory & Knowledge](#-memory--knowledge)
 - [Skills Marketplace](#-skills-marketplace)
 - [MCP Ecosystem](#-mcp-ecosystem)
@@ -160,7 +160,7 @@ The single biggest gap between a chat agent and an autonomous operator is **pers
 | **[Honcho](https://mcp.honcho.dev)** | Peer memory | Who are you, what platforms are banned, what decisions were made | 2 min |
 | **[GBrain](https://github.com/garrytan/gbrain)** | Organizational knowledge | What files exist, what code does what, what was built when | 10 min |
 | **[memcore-cloud](https://github.com/memcore-cloud)** | Self-evolving memory | Cross-session context injection, raw source tracking, FTS5 recall | 5 min |
-| **GraphRAG** | Relationship memory | How entities and concepts connect — not just what documents say | 30 min |
+| **GraphRAG** | Relationship memory | How entities and concepts connect  --  not just what documents say | 30 min |
 | **Dream Cycle** | Consolidation | Nightly job at 3 AM that merges, deduplicates, and strengthens memories | Cron |
 | **Session DB** | SQLite + FTS5 | Full conversation history, searchable across sessions | Built-in |
 
@@ -199,7 +199,7 @@ Session End (or every 30 min)
 | **memcore-cloud** | Cross-session context injection, raw source tracking | Peer modeling |
 | **All three together** | Complete agent memory architecture | Slightly more setup (15 min) |
 
-**Key insight:** These aren't competitors — they solve different problems. Run all three.
+**Key insight:** These aren't competitors  --  they solve different problems. Run all three.
 
 ---
 
@@ -219,16 +219,16 @@ Hermes Agent ships with a built-in skill system. Skills are reusable, self-conta
 
 ### Top 10 Most-Used Skills
 
-1. **corpusiq-social-cadence-engine** — 6x daily social posting across X, LinkedIn, TikTok, Instagram, YouTube
-2. **corpusiq-email-operating-rules** — Autonomous inbox management with 4-tier classification
-3. **help-first-community-engagement** — Find operators asking questions, answer without selling
-4. **corpusiq-heygen-video-pipeline** — Daily UGC video generation with 10-scenario rotation
-5. **corpusiq-daily-html-reporting** — 6 PM daily report with 6 locked sections
-6. **corpusiq-execution-discipline** — No-permission-gates, framework-first, data-driven execution
-7. **corpusiq-organic-discovery** — Find organic promotion opportunities across platforms
-8. **corpusiq-autonomous-growth-intelligence** — Proactive gap-spotting and improvement recommendations
-9. **corpusiq-session-start** — Mandatory pre-flight checks before every session
-10. **corpusiq-governance-system** — Registry verification, drift detection, integrity checks
+1. **corpusiq-social-cadence-engine**  --  6x daily social posting across X, LinkedIn, TikTok, Instagram, YouTube
+2. **corpusiq-email-operating-rules**  --  Autonomous inbox management with 4-tier classification
+3. **help-first-community-engagement**  --  Find operators asking questions, answer without selling
+4. **corpusiq-heygen-video-pipeline**  --  Daily UGC video generation with 10-scenario rotation
+5. **corpusiq-daily-html-reporting**  --  6 PM daily report with 6 locked sections
+6. **corpusiq-execution-discipline**  --  No-permission-gates, framework-first, data-driven execution
+7. **corpusiq-organic-discovery**  --  Find organic promotion opportunities across platforms
+8. **corpusiq-autonomous-growth-intelligence**  --  Proactive gap-spotting and improvement recommendations
+9. **corpusiq-session-start**  --  Mandatory pre-flight checks before every session
+10. **corpusiq-governance-system**  --  Registry verification, drift detection, integrity checks
 
 ### Where Skills Come From
 
@@ -248,7 +248,7 @@ Hermes Agent ships with a built-in skill system. Skills are reusable, self-conta
 
 Model Context Protocol (MCP) servers extend Hermes with structured tools. Here's every MCP integration we've tested:
 
-### CorpusIQ MCP — 53 Business Tools
+### CorpusIQ MCP  --  53 Business Tools
 
 The [CorpusIQ MCP server](https://corpusiq.io) connects Hermes to 37+ business platforms through a single OAuth flow:
 
@@ -421,7 +421,7 @@ Fully automated UGC video production: scenario rotation library, avatar casting,
 
 ### Social Publishing (3x Daily)
 
-Scheduled posting across X and LinkedIn. Help-first content strategy — solve operator problems before mentioning product.
+Scheduled posting across X and LinkedIn. Help-first content strategy  --  solve operator problems before mentioning product.
 
 [Full content operations guide →](/hermes/content-ops/)
 
@@ -457,12 +457,12 @@ Reviews the day's mistakes from IMPROVEMENT_LOG.md, patches affected skills, upd
 | Resource | Stars | Description |
 |----------|-------|-------------|
 | [Hermes Agent](https://github.com/NousResearch/hermes-agent) | 195K+ | Core project |
-| [Official Docs](https://hermes-agent.nousresearch.com/docs/) | — | Installation, CLI, gateway, tools, skills |
-| [Release Notes](https://github.com/NousResearch/hermes-agent/releases) | — | Changelog per version |
-| [Discord](https://discord.gg/NousResearch) | — | Community support |
-| [autonovel](https://github.com/NousResearch/autonovel) | — | Autonomous long-form writing |
-| [hermes-paperclip-adapter](https://github.com/NousResearch/hermes-paperclip-adapter) | — | Paperclip integration |
-| [tinker-atropos](https://github.com/NousResearch/tinker-atropos) | — | RL training for tool-calling |
+| [Official Docs](https://hermes-agent.nousresearch.com/docs/) |  --  | Installation, CLI, gateway, tools, skills |
+| [Release Notes](https://github.com/NousResearch/hermes-agent/releases) |  --  | Changelog per version |
+| [Discord](https://discord.gg/NousResearch) |  --  | Community support |
+| [autonovel](https://github.com/NousResearch/autonovel) |  --  | Autonomous long-form writing |
+| [hermes-paperclip-adapter](https://github.com/NousResearch/hermes-paperclip-adapter) |  --  | Paperclip integration |
+| [tinker-atropos](https://github.com/NousResearch/tinker-atropos) |  --  | RL training for tool-calling |
 
 ### Memory & Knowledge
 
@@ -576,7 +576,7 @@ From a real deployment running 24/7:
 
 ## 🤝 Contributing
 
-This is a living repository maintained by **CorpusIQ** — the operating system for business agents. Content is generated and updated by monitoring crons that detect new Hermes releases, MCP servers, skills, and community resources.
+This is a living repository maintained by **CorpusIQ**  --  the operating system for business agents. Content is generated and updated by monitoring crons that detect new Hermes releases, MCP servers, skills, and community resources.
 
 **To contribute:**
 1. Fork the repo
@@ -597,10 +597,10 @@ We especially welcome:
 
 If you're building production AI agents with Hermes, this is your field manual. Everything here is:
 
-- **Production-tested** — Not hypothetical. Runs 24/7.
-- **Community-curated** — Pulled from the full Hermes ecosystem.
-- **Beyond the docs** — The official docs tell you *what*. This tells you *how*.
-- **Actively maintained** — Updated as the ecosystem evolves.
+- **Production-tested**  --  Not hypothetical. Runs 24/7.
+- **Community-curated**  --  Pulled from the full Hermes ecosystem.
+- **Beyond the docs**  --  The official docs tell you *what*. This tells you *how*.
+- **Actively maintained**  --  Updated as the ecosystem evolves.
 
 **[Star this repo](https://github.com/CorpusIQ/corpusiq-docs)** if you want the definitive Hermes resource to exist.
 
@@ -610,7 +610,7 @@ If you're building production AI agents with Hermes, this is your field manual. 
 
 ### What is the Hermes Agent Production Knowledge Repository?
 
-The **Hermes Agent Production Knowledge Repository** is the definitive field manual for running autonomous AI agents in production. Drawn from extensive real-world 24/7 deployment on a multi-machine architecture, it covers architecture, memory systems, skills, MCP integrations, cron scheduling, and deployment patterns — everything the [official Hermes docs](https://hermes-agent.nousresearch.com/docs/) don't cover.
+The **Hermes Agent Production Knowledge Repository** is the definitive field manual for running autonomous AI agents in production. Drawn from extensive real-world 24/7 deployment on a multi-machine architecture, it covers architecture, memory systems, skills, MCP integrations, cron scheduling, and deployment patterns  --  everything the [official Hermes docs](https://hermes-agent.nousresearch.com/docs/) don't cover.
 
 ### How do I deploy Hermes Agent in production?
 
@@ -626,22 +626,22 @@ The deployment runs **production crons** across multiple categories (email ops, 
 
 ### How do I contribute or submit a resource to the ecosystem?
 
-**[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** — takes 60 seconds. We accept Hermes skills, MCP servers, plugins, tools, UI/dashboards, deployment guides, tutorials, benchmarks, and research. Every submission reviewed within 48 hours and added to the [ecosystem directory](/hermes/ecosystem.md) with full submitter credit.
+**[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)**  --  takes 60 seconds. We accept Hermes skills, MCP servers, plugins, tools, UI/dashboards, deployment guides, tutorials, benchmarks, and research. Every submission reviewed within 48 hours and added to the [ecosystem directory](/hermes/ecosystem.md) with full submitter credit.
 
 ### What's the difference between this repository and the official Hermes docs?
 
-The [official docs](https://hermes-agent.nousresearch.com/docs/) tell you **what** each feature does. This repository tells you **how** to run a production autonomous agent — covering memory stack architecture, cron scheduling patterns, multi-machine deployment, skill marketplace integration, content operations at scale, and governance systems. Official docs = reference. This repo = field manual.
+The [official docs](https://hermes-agent.nousresearch.com/docs/) tell you **what** each feature does. This repository tells you **how** to run a production autonomous agent  --  covering memory stack architecture, cron scheduling patterns, multi-machine deployment, skill marketplace integration, content operations at scale, and governance systems. Official docs = reference. This repo = field manual.
 
 ## Related Pages
 
-- [Hermes Documentation Index — Complete Reference](/hermes/index.md)
-- [Ecosystem Directory — 234+ Community Resources](/hermes/ecosystem.md)
-- [Agent Library — 9 Production Agent Blueprints](/hermes/agents/)
-- [Skills Catalog — 133+ Production Skills](/hermes/skills/catalog/)
-- [Cron Scheduling — 38 Production Cron Reference](/hermes/governance/scheduling/)
-- [Architecture — 6-Layer Production Model](/hermes/architecture/)
-- [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
-- [Community Contributors — Join the Directory](/hermes/contributors.md)
+- [Hermes Documentation Index  --  Complete Reference](/hermes/index.md)
+- [Ecosystem Directory  --  234+ Community Resources](/hermes/ecosystem.md)
+- [Agent Library  --  9 Production Agent Blueprints](/hermes/agents/)
+- [Skills Catalog  --  133+ Production Skills](/hermes/skills/catalog/)
+- [Cron Scheduling  --  38 Production Cron Reference](/hermes/governance/scheduling/)
+- [Architecture  --  6-Layer Production Model](/hermes/architecture/)
+- [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
+- [Community Contributors  --  Join the Directory](/hermes/contributors.md)
 
 ---
 
@@ -649,7 +649,7 @@ The [official docs](https://hermes-agent.nousresearch.com/docs/) tell you **what
 
 Have a Hermes-related repo, tool, skill, or integration? 
 
-👉 **[Submit it here — takes 60 seconds](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)**
+👉 **[Submit it here  --  takes 60 seconds](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)**
 
 Every submission reviewed within 48 hours. Accepted repos added to the [ecosystem directory](https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/ecosystem.md) with full submitter credit.
 
@@ -658,13 +658,13 @@ Every submission reviewed within 48 hours. Accepted repos added to the [ecosyste
 ---
 
 <p align="center">
-  <b>Powered by <a href="https://corpusiq.io">CorpusIQ</a> — the operating system for business agents.</b><br>
+  <b>Powered by <a href="https://corpusiq.io">CorpusIQ</a>  --  the operating system for business agents.</b><br>
   <sub>One connector. 37+ tools. Your business data, finally answering your questions.</sub>
 </p>
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

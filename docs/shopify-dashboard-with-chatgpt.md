@@ -3,8 +3,8 @@ title: 'Shopify Dashboard with ChatGPT: Real-Time Ecommerce KPIs | CorpusIQ'
 description: Build a live ecommerce dashboard from Shopify data using ChatGPT and CorpusIQ MCP. Monitor revenue, orders, AOV, customer metrics, product performance, and inventory in real time.
 url: /docs/shopify-dashboard-with-chatgpt
 h1: 'Shopify Dashboard with ChatGPT: Your Real-Time Ecommerce Command Center'
-title: Shopify Dashboard with ChatGPT — Live Ecommerce KPIs | CorpusIQ
-description: Create a live Shopify dashboard using ChatGPT and CorpusIQ. Monitor sales, orders, customers, products, inventory, and marketing performance — all in real time through natural language
+title: Shopify Dashboard with ChatGPT  --  Live Ecommerce KPIs | CorpusIQ
+description: Create a live Shopify dashboard using ChatGPT and CorpusIQ. Monitor sales, orders, customers, products, inventory, and marketing performance  --  all in real time through natural language
   queries.
 keywords:
 - Shopify dashboard ChatGPT
@@ -23,9 +23,9 @@ canonical_url: https://corpusiq.com/docs/shopify-dashboard-with-chatgpt
 
 # Shopify Dashboard with ChatGPT: Your Real-Time Ecommerce Command Center
 
-Every ecommerce operator needs a dashboard — a single view that answers the essential question: "How is my store performing right now?" But building and maintaining ecommerce dashboards has traditionally required BI tools, data connectors, and hours of configuration. **CorpusIQ turns ChatGPT into your live Shopify dashboard**, delivering real-time KPIs, trend analysis, and performance alerts through simple conversation.
+Every ecommerce operator needs a dashboard  --  a single view that answers the essential question: "How is my store performing right now?" But building and maintaining ecommerce dashboards has traditionally required BI tools, data connectors, and hours of configuration. **CorpusIQ turns ChatGPT into your live Shopify dashboard**, delivering real-time KPIs, trend analysis, and performance alerts through simple conversation.
 
-No data pipelines. No dashboard builder. No weekly report exports. Just connect your Shopify store, ask for your dashboard, and receive a real-time performance snapshot — updated to the moment, with AI-powered interpretation that tells you what the numbers mean and what you should do about them.
+No data pipelines. No dashboard builder. No weekly report exports. Just connect your Shopify store, ask for your dashboard, and receive a real-time performance snapshot  --  updated to the moment, with AI-powered interpretation that tells you what the numbers mean and what you should do about them.
 
 ## How It Works
 
@@ -50,44 +50,44 @@ Define role-specific dashboards for your team:
 Every dashboard pull queries Shopify live. No stale caches. No ETL delays. If an order was placed 30 seconds ago, it's in your dashboard now. This real-time capability is invaluable during promotions, product launches, and flash sales.
 
 ### 4. Anomaly Detection and Alerts
-ChatGPT doesn't just display numbers — it compares them against historical patterns and raises flags: "AOV today is 22% below the 30-day average — this may be driven by a higher-than-normal mix of first-time customers from the Instagram campaign." These contextual alerts turn passive monitoring into active management.
+ChatGPT doesn't just display numbers  --  it compares them against historical patterns and raises flags: "AOV today is 22% below the 30-day average  --  this may be driven by a higher-than-normal mix of first-time customers from the Instagram campaign." These contextual alerts turn passive monitoring into active management.
 
 ## Key Benefits
 
 ### Always-Current Performance View
-Traditional dashboards update on a schedule — hourly at best, daily for most. ChatGPT dashboards pull live data on demand. During a flash sale, you can check performance every 60 seconds if needed — each pull reflects the current state of your store.
+Traditional dashboards update on a schedule  --  hourly at best, daily for most. ChatGPT dashboards pull live data on demand. During a flash sale, you can check performance every 60 seconds if needed  --  each pull reflects the current state of your store.
 
 ### Multi-Dimensional Visibility
-A single dashboard can span revenue, customers, products, marketing, and operations — dimensions that typically live in separate Shopify reports. "Show me revenue by product category, alongside inventory levels for top sellers, and new customer acquisition by channel" — one query, complete picture.
+A single dashboard can span revenue, customers, products, marketing, and operations  --  dimensions that typically live in separate Shopify reports. "Show me revenue by product category, alongside inventory levels for top sellers, and new customer acquisition by channel"  --  one query, complete picture.
 
 ### Narrative Intelligence
-Numbers without context are noise. ChatGPT adds the narrative layer: "Revenue is up 15% week-over-week, driven primarily by the new email campaign which generated $12,400 in attributed sales. However, AOV declined 8%, likely due to the free shipping threshold promotion. Net impact is positive — total gross profit increased 11%."
+Numbers without context are noise. ChatGPT adds the narrative layer: "Revenue is up 15% week-over-week, driven primarily by the new email campaign which generated $12,400 in attributed sales. However, AOV declined 8%, likely due to the free shipping threshold promotion. Net impact is positive  --  total gross profit increased 11%."
 
 ### Role-Based Access
 Not everyone needs the full financial picture. Marketing sees campaign performance. Operations sees fulfillment metrics. The CEO sees everything. CorpusIQ supports role-based dashboard templates so each team member gets the right view.
 
 ### Zero Maintenance
-Traditional BI dashboards break. Data connectors fail. Metrics drift. ChatGPT dashboards query Shopify's API directly — if your store is running, your dashboard works. No maintenance burden.
+Traditional BI dashboards break. Data connectors fail. Metrics drift. ChatGPT dashboards query Shopify's API directly  --  if your store is running, your dashboard works. No maintenance burden.
 
 ## Use Cases
 
 ### Morning Store Check
-A store owner's daily ritual: "Morning dashboard — yesterday's sales, MTD revenue vs. target, top 5 products, inventory alerts (anything below 2 weeks of supply), and any customer service flags (orders unfulfilled > 48 hours)."
+A store owner's daily ritual: "Morning dashboard  --  yesterday's sales, MTD revenue vs. target, top 5 products, inventory alerts (anything below 2 weeks of supply), and any customer service flags (orders unfulfilled > 48 hours)."
 
 ### Flash Sale Monitoring
-During a 24-hour flash sale, a marketing manager checks every 2 hours: "Flash sale pulse — revenue since launch vs. target, conversion rate, top-selling sale items, remaining inventory on promoted products, and new email signups."
+During a 24-hour flash sale, a marketing manager checks every 2 hours: "Flash sale pulse  --  revenue since launch vs. target, conversion rate, top-selling sale items, remaining inventory on promoted products, and new email signups."
 
 ### Weekly Team Meeting
-A head of ecommerce runs the weekly team meeting: "Full weekly dashboard — revenue and orders by day, AOV trend, new customer acquisition by channel, product returns rate, customer satisfaction (from review data), and fulfillment SLAs. Compare all metrics to the previous 4-week average."
+A head of ecommerce runs the weekly team meeting: "Full weekly dashboard  --  revenue and orders by day, AOV trend, new customer acquisition by channel, product returns rate, customer satisfaction (from review data), and fulfillment SLAs. Compare all metrics to the previous 4-week average."
 
 ### Monthly Board Report
-A CEO preparing for a board meeting: "Board dashboard — monthly revenue with year-over-year comparison, customer LTV trend, gross margin, customer acquisition cost, repeat purchase rate, inventory turnover, and top-line growth rate. Present as a structured board-ready summary."
+A CEO preparing for a board meeting: "Board dashboard  --  monthly revenue with year-over-year comparison, customer LTV trend, gross margin, customer acquisition cost, repeat purchase rate, inventory turnover, and top-line growth rate. Present as a structured board-ready summary."
 
 ### Product Launch Tracking
-A product manager tracking a new launch: "Launch dashboard for [Product X] — sales by day since launch, traffic to product page, add-to-cart rate, conversion rate, customer reviews/ratings, and cannibalization check (are similar products declining?). Compare to our last 3 product launches."
+A product manager tracking a new launch: "Launch dashboard for [Product X]  --  sales by day since launch, traffic to product page, add-to-cart rate, conversion rate, customer reviews/ratings, and cannibalization check (are similar products declining?). Compare to our last 3 product launches."
 
 ### Inventory Health Check
-An operations manager's weekly check: "Inventory dashboard — products with less than 14 days of stock based on 30-day sales velocity, products with more than 180 days of stock (overstock risk), top 10 products by inventory value, and dead stock (0 sales in 90 days)."
+An operations manager's weekly check: "Inventory dashboard  --  products with less than 14 days of stock based on 30-day sales velocity, products with more than 180 days of stock (overstock risk), top 10 products by inventory value, and dead stock (0 sales in 90 days)."
 
 ## Dashboard Metrics You Can Track
 
@@ -135,7 +135,7 @@ An operations manager's weekly check: "Inventory dashboard — products with les
 ## Frequently Asked Questions
 
 ### How is this better than Shopify's built-in dashboard?
-Shopify's dashboard shows a fixed set of widgets with limited customization and no narrative interpretation. ChatGPT dashboards are fully customizable, show any metric you define, compare across any dimensions, and add AI-powered interpretation — it tells you not just what the numbers are, but what they mean.
+Shopify's dashboard shows a fixed set of widgets with limited customization and no narrative interpretation. ChatGPT dashboards are fully customizable, show any metric you define, compare across any dimensions, and add AI-powered interpretation  --  it tells you not just what the numbers are, but what they mean.
 
 ### Can I automate dashboard delivery?
 Yes. Through CorpusIQ, schedule dashboard delivery via email, Slack, or file storage (Google Drive, OneDrive, Dropbox). "Send me the morning dashboard at 8 AM daily" or "Deliver the weekly performance report to the ecommerce Slack channel every Monday at 9 AM."
@@ -168,10 +168,10 @@ Access your dashboard from anywhere by opening ChatGPT on your phone and asking 
 
 Ready to put AI to work on your shopify dashboard with chatgpt data? 
 
-1. **Sign up** for a [CorpusIQ account](https://app.corpusiq.com/signup) — free plan available.
-2. **Connect your data** — OAuth 2.0 authentication takes under 60 seconds.
-3. **Start asking questions** — use ChatGPT, Claude, or any MCP-compatible AI assistant.
-4. **Scale your usage** — add team members, connect more sources, and automate recurring reports.
+1. **Sign up** for a [CorpusIQ account](https://app.corpusiq.com/signup)  --  free plan available.
+2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
+3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
+4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
 **[Get started now →](https://app.corpusiq.com/signup)**
 
@@ -189,11 +189,11 @@ Ready to put AI to work on your shopify dashboard with chatgpt data?
 
 A ChatGPT-powered Shopify dashboard is the fastest, most flexible way to monitor your ecommerce performance. No BI tools to build. No data pipelines to maintain. No reports to export. Just real-time intelligence, on demand.
 
-**[Set up your Shopify dashboard now](/get-started) — connect your store in 60 seconds.**
+**[Set up your Shopify dashboard now](/get-started)  --  connect your store in 60 seconds.**
 
-*[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
-*[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *

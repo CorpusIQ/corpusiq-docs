@@ -1,6 +1,6 @@
 ---
 title: Automated Social Publishing
-description: Multi-platform social media publishing pipeline — strategy, scheduling, content rotation, engagement tracking, and rate limit handling
+description: Multi-platform social media publishing pipeline  --  strategy, scheduling, content rotation, engagement tracking, and rate limit handling
 ---
 
 # Automated Social Publishing
@@ -48,14 +48,14 @@ content_rotation:
   monday:
     platform: linkedin
     type: thought_leadership
-    topic: "{weekly_theme} — industry perspective"
+    topic: "{weekly_theme}  --  industry perspective"
     format: "text_post_with_image"
     time: "08:30"
 
   tuesday:
     platform: twitter
     type: thread
-    topic: "{weekly_theme} — tactical breakdown"
+    topic: "{weekly_theme}  --  tactical breakdown"
     format: "thread_5_tweets"
     time: "12:00"
     secondary:
@@ -66,7 +66,7 @@ content_rotation:
   wednesday:
     platform: tiktok
     type: short_video
-    topic: "{weekly_theme} — quick tip"
+    topic: "{weekly_theme}  --  quick tip"
     format: "60s_talking_head"
     time: "14:00"
     secondary:
@@ -77,7 +77,7 @@ content_rotation:
   thursday:
     platform: linkedin
     type: case_study_or_data
-    topic: "{weekly_theme} — real results"
+    topic: "{weekly_theme}  --  real results"
     format: "carousel_or_document"
     time: "08:30"
     secondary:
@@ -166,7 +166,7 @@ def _best_times(data: dict, **preferences) -> list[str]:
 
     # Return top slot for each day
     return [f"{day}T{hour:02d}:00" for day in ["Mon","Tue","Wed","Thu","Fri"]
-            for hour, _ in [ranked[0]]]  # Simplified — real impl per-day
+            for hour, _ in [ranked[0]]]  # Simplified  --  real impl per-day
 ```
 
 ### Hermes Cron Integration
@@ -447,7 +447,7 @@ def sync_content_calendar():
 
 ## Emergency Content Pauses
 
-Sometimes you need to pause all scheduled content — product issues, PR situations, or world events:
+Sometimes you need to pause all scheduled content  --  product issues, PR situations, or world events:
 
 ```python
 def emergency_pause_all(reason: str):

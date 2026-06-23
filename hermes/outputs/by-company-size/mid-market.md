@@ -15,11 +15,11 @@ last_updated: "2026-06-16"
 
 # Hermes Agent for Mid-Market
 
-Hermes Agent provides cross-department orchestration for mid-market companies with 50-500 employees — connecting marketing, sales, finance, and customer success tools without a dedicated engineering team. Profile-based isolation, approval workflows, and departmental autonomy give each team startup-like efficiency with enterprise coordination.
+Hermes Agent provides cross-department orchestration for mid-market companies with 50-500 employees  --  connecting marketing, sales, finance, and customer success tools without a dedicated engineering team. Profile-based isolation, approval workflows, and departmental autonomy give each team startup-like efficiency with enterprise coordination.
 
 ## Overview
 
-Mid-market companies face a distinct automation challenge: they have the team size to specialize by function, but not the headcount to build dedicated internal tools for every department. Marketing, sales, customer success, finance, and operations each have their own tools and data — and those tools don't talk to each other. Unlike startups (where one person does everything) or enterprises (where dedicated platforms and teams exist for each function), mid-market companies need automation that works across departments, respects existing tool choices, scales without architectural rewrites, and supports approval workflows for sensitive operations.
+Mid-market companies face a distinct automation challenge: they have the team size to specialize by function, but not the headcount to build dedicated internal tools for every department. Marketing, sales, customer success, finance, and operations each have their own tools and data  --  and those tools don't talk to each other. Unlike startups (where one person does everything) or enterprises (where dedicated platforms and teams exist for each function), mid-market companies need automation that works across departments, respects existing tool choices, scales without architectural rewrites, and supports approval workflows for sensitive operations.
 
 ## How It Works
 
@@ -123,7 +123,7 @@ The sales profile connects to the CRM (HubSpot, Close, LeadConnector), calendar 
 
 ### Approval Workflows for Sensitive Operations
 
-Mid-market companies need controls. Not every automation should act autonomously — some should propose and wait for approval.
+Mid-market companies need controls. Not every automation should act autonomously  --  some should propose and wait for approval.
 
 Hermes supports this through notification-and-confirmation patterns:
 
@@ -164,12 +164,12 @@ Your Hermes deployment evolves with your company:
 
 ## Benefits
 
-- **Departmental autonomy** — each team owns its automation without waiting for engineering
-- **Cross-functional visibility** — marketing-to-sales handoff, sales-to-finance reconciliation automated
-- **Approval controls** — sensitive operations require human sign-off before execution
-- **No rip-and-replace** — Hermes layers on top of existing tools, not replacing them
-- **Linear scaling** — same architecture scales from 50 to 500 employees
-- **Central governance** — operations team monitors all profiles while departments self-serve
+- **Departmental autonomy**  --  each team owns its automation without waiting for engineering
+- **Cross-functional visibility**  --  marketing-to-sales handoff, sales-to-finance reconciliation automated
+- **Approval controls**  --  sensitive operations require human sign-off before execution
+- **No rip-and-replace**  --  Hermes layers on top of existing tools, not replacing them
+- **Linear scaling**  --  same architecture scales from 50 to 500 employees
+- **Central governance**  --  operations team monitors all profiles while departments self-serve
 
 ## Getting Started
 
@@ -189,7 +189,7 @@ Start with 2-3 profiles (marketing, sales, operations monitoring) at 50 employee
 
 ### Can different departments share data sources?
 
-Yes. The CRM, billing system, and company database are connected across multiple profiles. Use read-only credentials scoped to each profile's specific needs — marketing doesn't need access to commission data.
+Yes. The CRM, billing system, and company database are connected across multiple profiles. Use read-only credentials scoped to each profile's specific needs  --  marketing doesn't need access to commission data.
 
 ### How do approval workflows work in Hermes?
 
@@ -205,15 +205,15 @@ A dedicated operations profile monitors all other profiles' cron executions, ale
 
 ## Related Pages
 
-- [Hermes Agent for Startups](../by-company-size/startup.md) — Lean automation for early-stage companies
-- [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security, compliance, and governance at scale
-- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md) — Pipeline management and forecasting
-- [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Multi-channel ticket triage and SLA management
-- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+- [Hermes Agent for Startups](../by-company-size/startup.md)  --  Lean automation for early-stage companies
+- [Hermes Agent for Enterprise](../by-company-size/enterprise.md)  --  Security, compliance, and governance at scale
+- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md)  --  Pipeline management and forecasting
+- [Hermes Agent Customer Support Automation](../case-studies/customer-support.md)  --  Multi-channel ticket triage and SLA management
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

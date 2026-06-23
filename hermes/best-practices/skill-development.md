@@ -1,18 +1,18 @@
 ---
-title: Skill Development Guide for Hermes Agent — Build Reusable AI Skills
+title: Skill Development Guide for Hermes Agent  --  Build Reusable AI Skills
 description: Complete Hermes Agent skill development guide. SKILL.md anatomy, trigger patterns, verification steps, error recovery, testing methodology, lifecycle management, and publishing. Create production-ready reusable AI agent skills.
 category: best-practices
 tags: [hermes-agent, skill-development, skills, reusable-workflows, testing, triggers, error-handling, publishing]
 last_updated: 2026-06-16
 ---
 
-# Skill Development Guide — Build Reusable AI Agent Skills
+# Skill Development Guide  --  Build Reusable AI Agent Skills
 
-Skills are Hermes Agent's superpower — they encode repeatable expertise into reusable, shareable packages. A well-written skill transforms "I need to do X" into a single invocation that handles tool orchestration, error recovery, and output formatting. This skill development guide covers everything from your first SKILL.md to publishing.
+Skills are Hermes Agent's superpower  --  they encode repeatable expertise into reusable, shareable packages. A well-written skill transforms "I need to do X" into a single invocation that handles tool orchestration, error recovery, and output formatting. This skill development guide covers everything from your first SKILL.md to publishing.
 
 ## Overview
 
-Custom skills capture repeatable workflows — tool calls, validations, and output formatting — into a package you, your team, or the community can reuse. Following [best practices](/hermes/best-practices/) for skill development ensures your skills are testable, maintainable, and production-ready.
+Custom skills capture repeatable workflows  --  tool calls, validations, and output formatting  --  into a package you, your team, or the community can reuse. Following [best practices](/hermes/best-practices/) for skill development ensures your skills are testable, maintainable, and production-ready.
 
 ## How It Works
 
@@ -41,7 +41,7 @@ Followed by: What This Skill Does, When to Use, Required Setup, Step-by-Step Wor
 
 ### Trigger Patterns
 
-Write 5-10 trigger patterns covering different ways users might ask. **Good:** "Check our marketing performance this week" — specific enough to avoid false positives but broad enough to catch real intent. **Bad:** "marketing" (too broad) or overly specific variations.
+Write 5-10 trigger patterns covering different ways users might ask. **Good:** "Check our marketing performance this week"  --  specific enough to avoid false positives but broad enough to catch real intent. **Bad:** "marketing" (too broad) or overly specific variations.
 
 ### Verification Between Steps
 
@@ -53,7 +53,7 @@ Write 5-10 trigger patterns covering different ways users might ask. **Good:** "
 ### Error Recovery Patterns
 
 - **Transient errors:** Retry with exponential backoff (max 3 attempts, include jitter)
-- **Auth errors:** Don't retry — return clear re-auth message
+- **Auth errors:** Don't retry  --  return clear re-auth message
 - **Data errors:** Return partial results with clear caveats
 - **Partial failures:** Return successes + failure summary
 
@@ -91,10 +91,10 @@ Good triggers are specific enough to avoid false positives but broad enough to c
 
 ## Related Pages
 
-- [Best Practices Overview](/hermes/best-practices/) — All guides
-- [Creating Custom Skills](/hermes/skills/creating-skills.md) — Full walkthrough with example
-- [Skill Marketplaces](/hermes/skills/skill-marketplaces.md) — Where to publish
-- [MCP Server Design](mcp-design.md) — Build tools your skills call
+- [Best Practices Overview](/hermes/best-practices/)  --  All guides
+- [Creating Custom Skills](/hermes/skills/creating-skills.md)  --  Full walkthrough with example
+- [Skill Marketplaces](/hermes/skills/skill-marketplaces.md)  --  Where to publish
+- [MCP Server Design](mcp-design.md)  --  Build tools your skills call
 ---
 
 *

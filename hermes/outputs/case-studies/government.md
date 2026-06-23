@@ -29,7 +29,7 @@ Freedom of Information Act (FOIA) requests are a legal obligation with strict ti
 
 **Intake and triage.** A skill classifies incoming requests by complexity (simple lookup, multi-department search, complex review) and routes to the appropriate workflow. It checks for duplicate or substantially similar requests and identifies the likely document custodians based on the request description.
 
-**Document retrieval.** A skill orchestrates searches across document management systems, email archives, and departmental file shares. It applies date range filters, keyword matching, and custodian identification. The output is a structured inventory of responsive documents with provenance tracking — where each document was found and who the custodian is.
+**Document retrieval.** A skill orchestrates searches across document management systems, email archives, and departmental file shares. It applies date range filters, keyword matching, and custodian identification. The output is a structured inventory of responsive documents with provenance tracking  --  where each document was found and who the custodian is.
 
 **Redaction assistance.** The most time-consuming FOIA step is line-by-line review for exempt information. A skill pre-processes documents to flag potential exemptions:
 
@@ -38,19 +38,19 @@ Freedom of Information Act (FOIA) requests are a legal obligation with strict ti
 - Law enforcement sensitive information → Exemption 7
 - Business confidential information → Exemption 4
 
-Flagged content is highlighted for human review. The skill never auto-redacts — it presents recommendations with the statutory basis cited. The reviewing officer makes the final call, creating a defensible record of each redaction decision.
+Flagged content is highlighted for human review. The skill never auto-redacts  --  it presents recommendations with the statutory basis cited. The reviewing officer makes the final call, creating a defensible record of each redaction decision.
 
 **Response package assembly.** When review is complete, a skill assembles the response package: cover letter with statutory citations, responsive documents with redactions applied, fee calculation and invoice, and appeal rights notification. The package is reviewed, signed, and released.
 
 ### Document Management
 
-Government agencies generate enormous document volumes — policies, procedures, meeting minutes, contracts, correspondence. Finding the right document at the right time is a persistent challenge.
+Government agencies generate enormous document volumes  --  policies, procedures, meeting minutes, contracts, correspondence. Finding the right document at the right time is a persistent challenge.
 
 **Policy search skill.** "Find our remote work policy from 2023" searches across the document management system, returns the authoritative version, and notes any pending revisions or superseding documents. This eliminates the "I think there's a newer version somewhere" problem.
 
 **Meeting materials preparation.** A skill gathers agenda items, previous meeting minutes for approval, staff reports, and public comment submissions into a board packet. It generates a table of contents, applies the agency's standard formatting, and produces a PDF ready for public posting.
 
-**Records retention automation.** Government records have mandated retention schedules. A cron reviews document metadata against the retention schedule and identifies records eligible for disposition. It generates a disposition log for the records officer's approval — never auto-deleting, always queuing for human decision.
+**Records retention automation.** Government records have mandated retention schedules. A cron reviews document metadata against the retention schedule and identifies records eligible for disposition. It generates a disposition log for the records officer's approval  --  never auto-deleting, always queuing for human decision.
 
 ### Constituent Services
 
@@ -60,7 +60,7 @@ Citizens interact with government for permits, licenses, benefits, and informati
 
 **311/Service request triage.** A skill classifies incoming service requests (pothole, noise complaint, missed trash pickup), routes to the correct department, checks for duplicate reports, and provides the constituent with a tracking number and expected response time.
 
-**Benefits eligibility screening.** A skill helps constituents determine which benefits programs they may qualify for by asking a structured set of questions (income, household size, age, veteran status) and cross-referencing against program eligibility criteria. It provides application links and required documentation checklists — never makes eligibility determinations, just screens and informs.
+**Benefits eligibility screening.** A skill helps constituents determine which benefits programs they may qualify for by asking a structured set of questions (income, household size, age, veteran status) and cross-referencing against program eligibility criteria. It provides application links and required documentation checklists  --  never makes eligibility determinations, just screens and informs.
 
 ### Compliance Reporting
 
@@ -74,18 +74,18 @@ Government agencies report to oversight bodies, legislative committees, and fede
 
 ## Benefits
 
-- **Faster FOIA response** — document retrieval and redaction assistance cuts processing time significantly
-- **Reduced backlogs** — automated triage and routing prevents requests from stalling
-- **Better constituent experience** — permit status lookups and 311 triage provide immediate answers
-- **Compliant by design** — every decision documented with statutory basis and human approval
-- **Audit-ready documentation** — evidence packages pre-assembled with full provenance
-- **Accessible public services** — output formats meet Section 508/WCAG standards
+- **Faster FOIA response**  --  document retrieval and redaction assistance cuts processing time significantly
+- **Reduced backlogs**  --  automated triage and routing prevents requests from stalling
+- **Better constituent experience**  --  permit status lookups and 311 triage provide immediate answers
+- **Compliant by design**  --  every decision documented with statutory basis and human approval
+- **Audit-ready documentation**  --  evidence packages pre-assembled with full provenance
+- **Accessible public services**  --  output formats meet Section 508/WCAG standards
 
 ## Key Principles for Government Deployments
 
 **Transparency by default.** Every automated decision should be explainable to a citizen, a journalist, or an auditor. Logs should show what data was accessed, what analysis was performed, and what recommendations were made.
 
-**Human decision authority.** Hermes recommends, drafts, and analyzes — but never makes final determinations on benefits eligibility, permit approval, FOIA exemptions, or any decision affecting individual rights. The human-in-the-loop is not optional; it's the law.
+**Human decision authority.** Hermes recommends, drafts, and analyzes  --  but never makes final determinations on benefits eligibility, permit approval, FOIA exemptions, or any decision affecting individual rights. The human-in-the-loop is not optional; it's the law.
 
 **Security and privacy.** Government data includes PII, law enforcement sensitive information, and critical infrastructure details. Data handling must comply with FISMA, state privacy laws, and agency-specific security requirements.
 
@@ -117,15 +117,15 @@ Hermes connects to document management systems, email archives, permit databases
 
 ## Related Pages
 
-- [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md) — SOC 2, HIPAA, and GDPR evidence collection
-- [Hermes Agent for Legal Firms](../case-studies/legal-firms.md) — Document review and deadline tracking
-- [Hermes Agent for Education](../case-studies/education.md) — Public education administrative workflows
-- [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security architecture and compliance at scale
-- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+- [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md)  --  SOC 2, HIPAA, and GDPR evidence collection
+- [Hermes Agent for Legal Firms](../case-studies/legal-firms.md)  --  Document review and deadline tracking
+- [Hermes Agent for Education](../case-studies/education.md)  --  Public education administrative workflows
+- [Hermes Agent for Enterprise](../by-company-size/enterprise.md)  --  Security architecture and compliance at scale
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

@@ -1,12 +1,12 @@
 ---
-title: Content Pipeline Blueprint for Hermes Agent — Automated Content Production
-description: End-to-end Hermes Agent content pipeline blueprint. Research, ideation, drafting, review, publication, and promotion — all orchestrated with cron-driven workflows, SEO analysis, and human editorial gates.
+title: Content Pipeline Blueprint for Hermes Agent  --  Automated Content Production
+description: End-to-end Hermes Agent content pipeline blueprint. Research, ideation, drafting, review, publication, and promotion  --  all orchestrated with cron-driven workflows, SEO analysis, and human editorial gates.
 category: blueprints
 tags: [hermes-agent, blueprint, content-pipeline, content-production, seo, editorial-workflow, publishing]
 last_updated: 2026-06-16
 ---
 
-# Content Pipeline Blueprint — Automated Content Production
+# Content Pipeline Blueprint  --  Automated Content Production
 
 ## Pipeline Stages
 
@@ -42,14 +42,14 @@ Each stage has entry criteria, automated actions, human review gates, and exit c
 
 **Automation:** Generate a list of content topics based on multiple inputs:
 
-1. **SEO opportunity scan** — query Google Search Console or Ahrefs for keywords where you rank positions 4-20 (striking distance) and have content gaps
-2. **Competitor content audit** — identify top-performing competitor content and find angles they haven't covered
-3. **Customer question mining** — scan support tickets, sales calls, and community forums for recurring questions
-4. **Internal expertise mapping** — cross-reference team expertise with content needs
+1. **SEO opportunity scan**  --  query Google Search Console or Ahrefs for keywords where you rank positions 4-20 (striking distance) and have content gaps
+2. **Competitor content audit**  --  identify top-performing competitor content and find angles they haven't covered
+3. **Customer question mining**  --  scan support tickets, sales calls, and community forums for recurring questions
+4. **Internal expertise mapping**  --  cross-reference team expertise with content needs
 
 **Output:** A ranked list of 10-15 topics with source rationale, target keyword, estimated search volume, and difficulty score.
 
-**Cron:** `0 8 * * 1` — Monday morning ideation sweep.
+**Cron:** `0 8 * * 1`  --  Monday morning ideation sweep.
 
 ### Step 1.2: Content Brief Creation (Tuesday)
 
@@ -59,11 +59,11 @@ For each selected topic, the agent generates a content brief:
 # Content Brief: [Working Title]
 
 ## Target Keyword
-- Primary: "[keyword]" — Volume: [X]/mo, Difficulty: [X]
+- Primary: "[keyword]"  --  Volume: [X]/mo, Difficulty: [X]
 - Secondary: "[kw2]", "[kw3]"
 
 ## Search Intent
-[Informational/Commercial/Transactional] — the searcher wants to [describe].
+[Informational/Commercial/Transactional]  --  the searcher wants to [describe].
 
 ## Outline
 1. H1: [Title]
@@ -99,7 +99,7 @@ If the topic requires subject matter expert input:
 3. Calendar check: suggests 2-3 meeting times or offers async option
 4. Follows up after 2 business days if no response
 
-**Cron:** `0 10 * * 3` — Wednesday SME matching.
+**Cron:** `0 10 * * 3`  --  Wednesday SME matching.
 
 ## Stage 2: Drafting
 
@@ -131,16 +131,16 @@ Based on the draft's placeholder markers:
 3. Add to design queue (Notion task, Figma request, or similar)
 4. For data visualizations: generate the chart using the data from research
 
-**Cron:** `0 9 * * 3` — Wednesday asset brief generation.
+**Cron:** `0 9 * * 3`  --  Wednesday asset brief generation.
 
 ### Step 2.3: Internal Link and SEO Optimization (Thursday)
 
-1. Scan the draft for internal linking opportunities — match phrases to existing content
+1. Scan the draft for internal linking opportunities  --  match phrases to existing content
 2. Insert internal links with optimized anchor text
 3. Generate meta title and description (2-3 variants for A/B testing)
 4. Verify keyword density, header hierarchy, image alt text placeholders
 
-**Cron:** `0 10 * * 4` — Thursday SEO pass.
+**Cron:** `0 10 * * 4`  --  Thursday SEO pass.
 
 ## Stage 3: Review
 
@@ -183,7 +183,7 @@ Agent incorporates editor feedback:
 3. Flags changes that need editorial judgment for re-review
 4. Regenerates sections that need substantial rewrites
 
-**Cron:** `0 9 * * 5` — Friday revision processing.
+**Cron:** `0 9 * * 5`  --  Friday revision processing.
 
 ## Stage 4: Publish
 
@@ -210,7 +210,7 @@ Content is published to the CMS. The agent:
 3. Updates the sitemap if necessary
 4. Creates a "published" entry in the content tracker with publication date and URL
 
-**Cron:** `0 8 * * 2` — Tuesday publication window.
+**Cron:** `0 8 * * 2`  --  Tuesday publication window.
 
 ## Stage 5: Promote
 
@@ -225,7 +225,7 @@ Generate and schedule social promotion:
 3. Short-form video script if the topic suits visual explanation
 4. Relevant community posts (Reddit, Slack communities, Discord)
 
-**Cron:** `0 10 * * 2` — publication day social push.
+**Cron:** `0 10 * * 2`  --  publication day social push.
 
 ### Step 5.2: Email Newsletter Inclusion
 
@@ -252,7 +252,7 @@ Add to the next newsletter issue:
 - Update recommendation: needs refresh, optimization, or is evergreen-stable?
 - Content decay detection: traffic dropping > 20% → flag for refresh
 
-**Cron:** `0 8 * * 1` — weekly content performance sweep.
+**Cron:** `0 8 * * 1`  --  weekly content performance sweep.
 
 ## Full Cron Schedule
 
@@ -287,7 +287,7 @@ Maintain a content tracker (in Notion, Airtable, or Google Sheets) with these fi
 ## Implementation Notes
 
 ### The Human Gates Are Non-Negotiable
-This pipeline automates everything it can — but the review gate must remain human. Content quality degrades without editorial judgment. The automation's job is to make the human reviewer maximally efficient, not to replace them.
+This pipeline automates everything it can  --  but the review gate must remain human. Content quality degrades without editorial judgment. The automation's job is to make the human reviewer maximally efficient, not to replace them.
 
 ### Content Calendar Management
 Run a monthly planning session where the agent proposes the next month's content calendar based on pipeline capacity and strategic priorities. Lock the calendar at least 2 weeks before production starts.
@@ -306,9 +306,9 @@ Build this into the promote stage so it's systematic, not ad-hoc.
 - Add **social listening** to detect when your content is discussed but not linked
 - Connect **GA4** for conversion attribution by content piece
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

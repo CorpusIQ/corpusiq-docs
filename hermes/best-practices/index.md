@@ -1,18 +1,18 @@
 ---
-title: Hermes Agent Best Practices Guide — Build Reliable AI Automation
+title: Hermes Agent Best Practices Guide  --  Build Reliable AI Automation
 description: Hermes Agent best practices for production AI automation. Anti-patterns, maturity model, cron design, model selection, memory management, security, skill development, and MCP server design. Community-driven reliability patterns.
 category: best-practices
 tags: [hermes-agent, best-practices, ai-automation, maturity-model, anti-patterns, production, reliability]
 last_updated: 2026-06-16
 ---
 
-# Hermes Agent Best Practices — Build Reliable AI Automation
+# Hermes Agent Best Practices  --  Build Reliable AI Automation
 
 Hermes Agent best practices capture what the community has learned about building reliable, secure, and maintainable AI agent setups. Whether you're running your first cron or managing a team deployment, these best practices help you avoid the mistakes we've already made in production.
 
 ## Overview
 
-This guide serves as the entry point to the Hermes Agent best practices collection. Each companion guide (cron design, model selection, memory management, security, skill development, MCP design) stands alone — read the ones relevant to your current work.
+This guide serves as the entry point to the Hermes Agent best practices collection. Each companion guide (cron design, model selection, memory management, security, skill development, MCP design) stands alone  --  read the ones relevant to your current work.
 
 ## How It Works
 
@@ -32,16 +32,16 @@ These patterns cause the majority of production incidents. Avoid them.
 
 | Anti-Pattern | Why It Hurts | What to Do Instead |
 |---|---|---|
-| Hardcoded credentials in skills | Breach on first share | [Security best practices](security.md) — secrets manager or env vars |
-| God crons that do everything | One failure cascades | [Cron design](cron-design.md) — single-responsibility crons |
+| Hardcoded credentials in skills | Breach on first share | [Security best practices](security.md)  --  secrets manager or env vars |
+| God crons that do everything | One failure cascades | [Cron design](cron-design.md)  --  single-responsibility crons |
 | Silent error swallowing | False confidence | Alert on persistent failure |
-| No approval on write ops | Unintended external actions | [Security](security.md) — tiered confirmation gates |
+| No approval on write ops | Unintended external actions | [Security](security.md)  --  tiered confirmation gates |
 | Unbounded database queries | Timeouts, resource exhaustion | Pagination and limits |
-| Memory as dumping ground | Context pollution, staleness | [Memory management](memory-management.md) — curated, pruned memories |
-| Copy-pasted skill logic | Bug propagation | [Skill development](skill-development.md) — shared utility skills |
+| Memory as dumping ground | Context pollution, staleness | [Memory management](memory-management.md)  --  curated, pruned memories |
+| Copy-pasted skill logic | Bug propagation | [Skill development](skill-development.md)  --  shared utility skills |
 | Console-only logging | No audit trail | Structured persistent logging |
 | Auto-updating dependencies | Supply-chain risk | Version pinning in production |
-| Model selection by habit | Cost/latency waste | [Model selection](model-selection.md) — task-aware routing |
+| Model selection by habit | Cost/latency waste | [Model selection](model-selection.md)  --  task-aware routing |
 
 ## Maturity Model
 
@@ -116,21 +116,21 @@ Follow [cron design best practices](cron-design.md): make every cron idempotent,
 
 ## Related Pages
 
-- [Cron Design Best Practices](cron-design.md) — Reliable scheduled automation
-- [Model Selection Guide](model-selection.md) — Task-aware model routing
-- [Memory Management](memory-management.md) — Context optimization strategies
-- [Security Best Practices](security.md) — Token management and approval gates
-- [Skill Development](skill-development.md) — Building reusable skills
-- [MCP Server Design](mcp-design.md) — Custom tool development
-- [Setup Guides](/hermes/setup/) — Platform-specific installation
+- [Cron Design Best Practices](cron-design.md)  --  Reliable scheduled automation
+- [Model Selection Guide](model-selection.md)  --  Task-aware model routing
+- [Memory Management](memory-management.md)  --  Context optimization strategies
+- [Security Best Practices](security.md)  --  Token management and approval gates
+- [Skill Development](skill-development.md)  --  Building reusable skills
+- [MCP Server Design](mcp-design.md)  --  Custom tool development
+- [Setup Guides](/hermes/setup/)  --  Platform-specific installation
 
 ---
 
 Start where you are, automate what hurts most, and share what you learn. The rest follows.
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

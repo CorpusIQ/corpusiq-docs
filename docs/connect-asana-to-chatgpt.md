@@ -1,6 +1,6 @@
 ---
-title: "Connect Asana to ChatGPT via MCP — Live Data, No Code | CorpusIQ"
-description: "Connect your Asana account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your asana data and get real-time, source-cited answers — no exports, no coding required."
+title: "Connect Asana to ChatGPT via MCP  --  Live Data, No Code | CorpusIQ"
+description: "Connect your Asana account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your asana data and get real-time, source-cited answers  --  no exports, no coding required."
 category: ChatGPT Integrations
 tags: ["connect Asana to ChatGPT", "Asana ChatGPT integration", "MCP Asana connector", "Asana data to ChatGPT", "AI for Asana", "CorpusIQ MCP"]
 last_updated: 2026-06-16
@@ -10,9 +10,9 @@ robots: index,follow
 
 # How to Connect Asana to ChatGPT with CorpusIQ MCP
 
-Your **Asana** account holds critical business data — but accessing insights usually means logging in, navigating dashboards, and running manual reports. **Connecting Asana to ChatGPT through CorpusIQ MCP** eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Asana data directly — you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.
+Your **Asana** account holds critical business data  --  but accessing insights usually means logging in, navigating dashboards, and running manual reports. **Connecting Asana to ChatGPT through CorpusIQ MCP** eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Asana data directly  --  you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.
 
-Once connected, ChatGPT can query your live Asana data — projects, tasks, sections, assignees, due dates, custom fields, and milestones. You ask questions in plain English and get cited answers from your actual Asana workspace in real time.
+Once connected, ChatGPT can query your live Asana data  --  projects, tasks, sections, assignees, due dates, custom fields, and milestones. You ask questions in plain English and get cited answers from your actual Asana workspace in real time.
 
 This page covers the connection architecture, what you can ask, team collaboration use cases, security, and how MCP compares to direct Asana API integration.
 
@@ -27,7 +27,7 @@ Task questions: "What tasks are assigned to me this week?", "Show me all overdue
 <details>
 <summary><strong>How does the connection work?</strong></summary>
 
-CorpusIQ connects to your Asana account via OAuth 2.0. You authorize read-only access to your workspace, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Asana tools — project listing, task search, section retrieval, and metadata access — and calls them when you ask a question. The MCP server handles the Asana REST API, including pagination, rate limiting, and field expansion.
+CorpusIQ connects to your Asana account via OAuth 2.0. You authorize read-only access to your workspace, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Asana tools  --  project listing, task search, section retrieval, and metadata access  --  and calls them when you ask a question. The MCP server handles the Asana REST API, including pagination, rate limiting, and field expansion.
 </details>
 
 <details>
@@ -39,7 +39,7 @@ Yes. CorpusIQ requests read-only OAuth scopes from Asana. ChatGPT can see projec
 <details>
 <summary><strong>What Asana data can ChatGPT access?</strong></summary>
 
-Projects with status, owner, and timeline information. Tasks with assignee, due date, status, section, custom fields, and dependencies. Sections within projects. Workspace and organization metadata. All accessed through read-only operations — ChatGPT reads your project data, never writes to it.
+Projects with status, owner, and timeline information. Tasks with assignee, due date, status, section, custom fields, and dependencies. Sections within projects. Workspace and organization metadata. All accessed through read-only operations  --  ChatGPT reads your project data, never writes to it.
 </details>
 
 <details>
@@ -51,7 +51,7 @@ Absolutely. "Show me Asana tasks for projects that correspond to HubSpot deals c
 <details>
 <summary><strong>How is this different from Asana's built-in reporting?</strong></summary>
 
-Asana's reporting features — Portfolios, Goals, Dashboards, Universal Reporting — are powerful for structured, recurring reports. But they require configuration and don't answer ad-hoc questions: "Show me all tasks that were due last week, are still incomplete, and are assigned to designers who also have high-priority tasks due this week." That's a ChatGPT question, and it would require building and combining multiple Asana reports to replicate.
+Asana's reporting features  --  Portfolios, Goals, Dashboards, Universal Reporting  --  are powerful for structured, recurring reports. But they require configuration and don't answer ad-hoc questions: "Show me all tasks that were due last week, are still incomplete, and are assigned to designers who also have high-priority tasks due this week." That's a ChatGPT question, and it would require building and combining multiple Asana reports to replicate.
 </details>
 
 <details>
@@ -86,7 +86,7 @@ Yes. "Give me a summary of what my team accomplished this week, what's overdue, 
 
 3. **Ask project questions.** ChatGPT maps your question to the appropriate Asana API calls, retrieves data through the MCP server, and returns cited answers.
 
-4. **Drill down conversationally.** "Now show me just the ones assigned to the design team" or "Which of those are the highest priority?" — follow-ups maintain context.
+4. **Drill down conversationally.** "Now show me just the ones assigned to the design team" or "Which of those are the highest priority?"  --  follow-ups maintain context.
 
 No Asana login. No project navigation. No manual status compilation.
 
@@ -94,23 +94,23 @@ No Asana login. No project navigation. No manual status compilation.
 
 **Instant project visibility.** "What's the status of the Q3 Website Redesign project?" replaces navigating to the project, scrolling through sections, and mentally summarizing progress. One question, one complete answer.
 
-**Automated status reporting.** Instead of manually compiling weekly status from multiple Asana projects, ask ChatGPT: "Summarize this week's progress across all active projects — tasks completed, tasks in progress, blockers, and milestones achieved." Status reporting becomes a conversation, not a manual data gathering exercise.
+**Automated status reporting.** Instead of manually compiling weekly status from multiple Asana projects, ask ChatGPT: "Summarize this week's progress across all active projects  --  tasks completed, tasks in progress, blockers, and milestones achieved." Status reporting becomes a conversation, not a manual data gathering exercise.
 
 **Resource and workload insights.** "Who has more than 10 open tasks?" "Show me workload distribution across the team this sprint." "Which team members have availability based on their current task load?" Resource planning insights without building custom Asana dashboards.
 
-**Cross-project risk identification.** "Which projects across the organization have the most overdue tasks?" "Show me all high-priority tasks that are past their due date." Risk identification that spans your entire Asana workspace — not limited to a single project view.
+**Cross-project risk identification.** "Which projects across the organization have the most overdue tasks?" "Show me all high-priority tasks that are past their due date." Risk identification that spans your entire Asana workspace  --  not limited to a single project view.
 
-**Connected project context.** "Show me Asana tasks for the HubSpot deals in the negotiation stage" or "Which project tasks are related to Shopify products with low inventory?" Project management becomes connected to your CRM, ecommerce, and communication tools — not isolated in Asana.
+**Connected project context.** "Show me Asana tasks for the HubSpot deals in the negotiation stage" or "Which project tasks are related to Shopify products with low inventory?" Project management becomes connected to your CRM, ecommerce, and communication tools  --  not isolated in Asana.
 
 ## Use Cases
 
 ### Daily Standup and Sprint Tracking
 
-"Give me today's standup summary — what moved yesterday, what's planned for today, blockers." "How many sprint tasks are complete vs. remaining?" "Show me tasks that were added mid-sprint." Sprint management becomes conversational.
+"Give me today's standup summary  --  what moved yesterday, what's planned for today, blockers." "How many sprint tasks are complete vs. remaining?" "Show me tasks that were added mid-sprint." Sprint management becomes conversational.
 
 ### Project Portfolio Management
 
-"Show me the health dashboard for our active projects — completion percentages, overdue tasks, upcoming milestones." "Which projects are at risk of missing their deadlines?" Portfolio-level visibility without navigating between multiple projects.
+"Show me the health dashboard for our active projects  --  completion percentages, overdue tasks, upcoming milestones." "Which projects are at risk of missing their deadlines?" Portfolio-level visibility without navigating between multiple projects.
 
 ### Team Capacity Planning
 
@@ -133,7 +133,7 @@ The Asana integration is read-only at every layer:
 - **No Data Persistence.** Project and task data is queried live from Asana and discarded after the response.
 - **TLS 1.3 Encryption.** All data in transit is encrypted.
 
-For teams handling sensitive project data — product roadmaps, client deliverables, confidential initiatives — this read-only architecture ensures project data stays in Asana while remaining accessible through ChatGPT for status and reporting.
+For teams handling sensitive project data  --  product roadmaps, client deliverables, confidential initiatives  --  this read-only architecture ensures project data stays in Asana while remaining accessible through ChatGPT for status and reporting.
 
 ## Comparison: MCP vs. Direct Asana API Integration
 
@@ -142,7 +142,7 @@ For teams handling sensitive project data — product roadmaps, client deliverab
 | **Setup** | Asana API client, OAuth, pagination, rate limiting | 2-minute OAuth authorization |
 | **Query interface** | REST endpoints with JSON parameters | Natural language |
 | **Multi-project queries** | Multiple API calls with manual aggregation | One question across all projects |
-| **Custom fields** | Must handle field metadata and value parsing manually | Automatic — reference fields by name |
+| **Custom fields** | Must handle field metadata and value parsing manually | Automatic  --  reference fields by name |
 | **Cross-source** | Asana-only | Combine with CRM, email, ecommerce, other PM tools |
 | **Pagination** | Must implement offset-based pagination and rate limit backoff | Handled automatically |
 | **Maintenance** | API deprecation schedule, field schema changes | CorpusIQ handles all updates |
@@ -151,7 +151,7 @@ Direct API integration is right for building custom Asana apps, workflow automat
 
 ## Setup Guide
 
-1. **Sign up** at [corpusiq.io](https://www.corpusiq.io) — free 30-day trial.
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
 2. **Connect Asana.** Dashboard → Connections → Asana → sign into Asana → select workspace → authorize read-only access.
 3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](../docs/quick-start.md).
 4. **Verify.** Ask "What projects are in my Asana workspace?" to confirm.
@@ -161,20 +161,20 @@ Under 5 minutes from signup to your first project management query in ChatGPT.
 
 ## Related Pages
 
-- [Connect Monday.com to ChatGPT](../docs/connect-monday-com-to-chatgpt.md) — alternative work management in ChatGPT
-- [Connect Jira to ChatGPT](../docs/connect-jira-to-chatgpt.md) — software development tracking in ChatGPT
-- [Connect Notion to ChatGPT](../docs/connect-notion-to-chatgpt.md) — documentation and wiki in ChatGPT
-- [Connect Slack to ChatGPT](../docs/connect-slack-to-chatgpt.md) — team communication in ChatGPT
-- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md) — CRM data in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md) — the full integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md) — why MCP wins
-- [MCP for Operations](../docs/mcp-for-operations.md) — MCP for ops teams
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md) — detailed comparison
-- [CorpusIQ Security Architecture](../docs/security/README.md) — how data stays safe
+- [Connect Monday.com to ChatGPT](../docs/connect-monday-com-to-chatgpt.md)  --  alternative work management in ChatGPT
+- [Connect Jira to ChatGPT](../docs/connect-jira-to-chatgpt.md)  --  software development tracking in ChatGPT
+- [Connect Notion to ChatGPT](../docs/connect-notion-to-chatgpt.md)  --  documentation and wiki in ChatGPT
+- [Connect Slack to ChatGPT](../docs/connect-slack-to-chatgpt.md)  --  team communication in ChatGPT
+- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT
+- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full integration
+- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP wins
+- [MCP for Operations](../docs/mcp-for-operations.md)  --  MCP for ops teams
+- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
+- [CorpusIQ Security Architecture](../docs/security/README.md)  --  how data stays safe
 
-*Connect Connect Asana to ChatGPT via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect Asana to ChatGPT via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
-*Connect Connect Asana to ChatGPT via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect Asana to ChatGPT via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---
 
 *

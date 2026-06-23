@@ -1,9 +1,9 @@
 ---
 title: Blueprint Orchestration Setup Guide
-description: Install and configure aawobdev/hermes-skills — a 12-skill multi-agent blueprint orchestration system for Hermes Agent. Architect interviews, cheap models execute.
+description: Install and configure aawobdev/hermes-skills  --  a 12-skill multi-agent blueprint orchestration system for Hermes Agent. Architect interviews, cheap models execute.
 ---
 
-# Blueprint Orchestration — Setup Guide
+# Blueprint Orchestration  --  Setup Guide
 
 **Source:** [aawobdev/hermes-skills](https://github.com/aawobdev/hermes-skills)
 **Skills:** 12 | **Author:** [Alistair](https://github.com/aawobdev)
@@ -131,19 +131,19 @@ Human is the relay between all phases
 ### Routing Tiers
 
 ```
-TIER 0 — Orchestrator (OpenRouter)
+TIER 0  --  Orchestrator (OpenRouter)
   → Task decomposition, cheap reasoning
 
-TIER 1 — Local Ollama (all routine dev, FREE)
+TIER 1  --  Local Ollama (all routine dev, FREE)
   → Architect, Developer, Tester, End-User
 
-TIER 2 — OpenRouter Paid
+TIER 2  --  OpenRouter Paid
   → CC-class: complex logic, multi-file refactors
 
-TIER 3 — OpenRouter Free (rate-limited)
+TIER 3  --  OpenRouter Free (rate-limited)
   → Free cloud fallback
 
-TIER 4 — Claude Code CLI (separate subscription)
+TIER 4  --  Claude Code CLI (separate subscription)
   → CC-class via Claude: Sonnet/Haiku/Opus
 ```
 
@@ -167,7 +167,7 @@ Blueprint is at: [path/to/blueprint.md]
 
 ## Customization
 
-- **Role skills:** Edit `role-*/SKILL.md` in place — changes take effect immediately
+- **Role skills:** Edit `role-*/SKILL.md` in place  --  changes take effect immediately
 - **Model assignments:** Edit `model-routing/SKILL.md`
 - **Adding new roles:** Add a new `role-<name>/SKILL.md` file
 - **Prompt standards:** Follow `prompting-standards/SKILL.md` Part A for blueprints, Part B for execution

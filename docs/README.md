@@ -10,11 +10,11 @@ CorpusIQ acts as a read-only bridge between your SaaS applications and AI assist
 
 ## Key Capabilities
 
-- **37+ native connectors** — Gmail, Google Drive, Slack, HubSpot, Shopify, QuickBooks, PostgreSQL, and more
-- **MCP-native** — Designed for AI assistants that speak the Model Context Protocol
-- **Read-only by design** — OAuth scopes are restricted to read access; no write permissions are ever requested
-- **Zero data retention** — Embeddings are computed per session and deleted immediately after
-- **SOC 2 Ready & CASA Tier 2 Certified** — DEKRA-assessed, GDPR aligned, OWASP Top 10 verified
+- **37+ native connectors**  --  Gmail, Google Drive, Slack, HubSpot, Shopify, QuickBooks, PostgreSQL, and more
+- **MCP-native**  --  Designed for AI assistants that speak the Model Context Protocol
+- **Read-only by design**  --  OAuth scopes are restricted to read access; no write permissions are ever requested
+- **Zero data retention**  --  Embeddings are computed per session and deleted immediately after
+- **SOC 2 Ready & CASA Tier 2 Certified**  --  DEKRA-assessed, GDPR aligned, OWASP Top 10 verified
 
 ## Quick Links
 
@@ -53,9 +53,9 @@ CorpusIQ never stores your data. It translates AI assistant queries into read-on
 For integration partners and enterprise deployments, contact sales@corpusiq.io.
 # sitemap rebuild trigger
 
-*[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
-*[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *

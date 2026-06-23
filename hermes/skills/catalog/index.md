@@ -1,6 +1,6 @@
 # Skills Catalog
 
-Welcome to the Hermes Skills Catalog — your directory of community-contributed, validated skills that extend what Hermes can do. Skills encode repeatable expertise into shareable packages that anyone in the Hermes community can install and use.
+Welcome to the Hermes Skills Catalog  --  your directory of community-contributed, validated skills that extend what Hermes can do. Skills encode repeatable expertise into shareable packages that anyone in the Hermes community can install and use.
 
 ## Skill Quality Tiers
 
@@ -30,7 +30,7 @@ Beta-tier skills are functional and well-tested by their authors but haven't com
 - May lack comprehensive confirmation gates
 - Updated within 90 days
 
-These skills are suitable for supervised use. They'll save you time but keep an eye on them — especially in the first few runs. Look for the 🟡 indicator.
+These skills are suitable for supervised use. They'll save you time but keep an eye on them  --  especially in the first few runs. Look for the 🟡 indicator.
 
 ### Community Tier 🔵
 
@@ -40,7 +40,7 @@ Community-tier skills are shared in good faith but haven't completed formal vali
 - May have been tested only on the author's setup
 - Documentation may be minimal
 - Error handling may be incomplete
-- Best suited for learning, inspiration, and adaptation — not production reliance
+- Best suited for learning, inspiration, and adaptation  --  not production reliance
 
 These skills are valuable for the community but require due diligence before relying on them. Look for the 🔵 indicator.
 
@@ -74,7 +74,7 @@ Run the skill first in a read-only mode or with limited data. Before you let it 
 New to Hermes? These 10 skills are the most commonly recommended starting points. They cover essential workflows and are all Production-tier verified.
 
 ### 1. Daily Briefing
-**What it does:** Your morning dashboard — calendar, priority emails, task list, and key metrics from connected services. One invocation replaces five separate checks.  
+**What it does:** Your morning dashboard  --  calendar, priority emails, task list, and key metrics from connected services. One invocation replaces five separate checks.  
 **Needs:** Calendar, email, and optionally CRM or project management connectors.  
 **Why start here:** Replaces your morning routine with a single command. Immediate time savings.
 
@@ -89,7 +89,7 @@ New to Hermes? These 10 skills are the most commonly recommended starting points
 **Why start here:** Never walk into a meeting underprepared again.
 
 ### 4. Weekly Report Generator
-**What it does:** Aggregates activity from your connected services into a structured weekly summary — tasks completed, meetings attended, key communications, metrics trends.  
+**What it does:** Aggregates activity from your connected services into a structured weekly summary  --  tasks completed, meetings attended, key communications, metrics trends.  
 **Needs:** Project management, calendar, email (configurable).  
 **Why start here:** Automates the Friday afternoon ritual. Customize the template to match your team's format.
 
@@ -99,14 +99,14 @@ New to Hermes? These 10 skills are the most commonly recommended starting points
 **Why start here:** Your CRM has data but Hermes turns it into action items.
 
 ### 6. Data to Chart
-**What it does:** Takes a dataset (from any connector or upload) and generates appropriate visualizations — time series, distribution, comparison, correlation.  
+**What it does:** Takes a dataset (from any connector or upload) and generates appropriate visualizations  --  time series, distribution, comparison, correlation.  
 **Needs:** Any data source (accepts structured data from other skills).  
 **Why start here:** Visual insight without spreadsheet wrestling.
 
 ### 7. Content Drafting Assistant
 **What it does:** Drafts blog posts, social media updates, newsletters, and other content following your brand voice. Includes tone calibration and audience targeting.  
 **Needs:** No specific connectors (optionally integrates with CMS or social platforms).  
-**Why start here:** Beat the blank page. All output is draft — you remain the editor.
+**Why start here:** Beat the blank page. All output is draft  --  you remain the editor.
 
 ### 8. Code Review Companion
 **What it does:** Reviews code changes for bugs, security issues, style consistency, and documentation completeness. Provides actionable, specific feedback.  
@@ -116,7 +116,7 @@ New to Hermes? These 10 skills are the most commonly recommended starting points
 ### 9. Travel Planner
 **What it does:** Given destination and dates, gathers flight options, hotel availability, weather forecasts, and local information. Organizes into a comparison view.  
 **Needs:** Calendar (for availability context).  
-**Why start here:** Research acceleration — you still book, but Hermes does the hunting.
+**Why start here:** Research acceleration  --  you still book, but Hermes does the hunting.
 
 ### 10. Knowledge Base Q&A
 **What it does:** Searches your organization's documentation, wikis, and shared drives to answer questions. "What's our vacation policy?" "How do I set up the VPN?"  
@@ -143,27 +143,27 @@ The skills catalog thrives on community contributions. If you've built something
 4. Remove environment-specific values (use placeholders)
 5. Submit through the catalog contribution process
 
-Skills are reviewed by community maintainers before publication. The review checks for documentation completeness, error handling, security considerations, and community value — not whether every edge case is handled (that's what quality tiers communicate).
+Skills are reviewed by community maintainers before publication. The review checks for documentation completeness, error handling, security considerations, and community value  --  not whether every edge case is handled (that's what quality tiers communicate).
 
 ## Finding More Skills
 
 The catalog here represents community-validated skills. Additional skills are discoverable through:
 
-- **[skills.sh](https://skills.sh)** — Large open marketplace
-- **[agentskills.io](https://agentskills.io)** — Curated premium and community skills
-- **[hermeshub](https://hermeshub.nousresearch.com)** — Official Hermes skill registry
-- **[skilldock.io](https://skilldock.io)** — Enterprise-focused skill marketplace
-- **GitHub** — Search for "hermes-skill" or "hermes-skill-" prefixed repositories
+- **[skills.sh](https://skills.sh)**  --  Large open marketplace
+- **[agentskills.io](https://agentskills.io)**  --  Curated premium and community skills
+- **[hermeshub](https://hermeshub.nousresearch.com)**  --  Official Hermes skill registry
+- **[skilldock.io](https://skilldock.io)**  --  Enterprise-focused skill marketplace
+- **GitHub**  --  Search for "hermes-skill" or "hermes-skill-" prefixed repositories
 
 See [Skill Marketplaces](../skills/skill-marketplaces.md) for detailed guidance on each marketplace.
 
 The catalog is a living resource. Skills are added weekly. Check back often, and consider contributing what you build.
 
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

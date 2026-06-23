@@ -1,5 +1,5 @@
 ---
-meta_title: "CorpusIQ API Rate Limits — Quotas, Headers, and Best Practices"
+meta_title: "CorpusIQ API Rate Limits  --  Quotas, Headers, and Best Practices"
 meta_desc: "Complete guide to CorpusIQ API rate limits. Per-endpoint quotas, rate limit headers, retry strategies, 429 handling, fair-use policies, and how to request limit increases for enterprise accounts."
 category: "API Reference"
 tags: ["corpusiq rate limits", "api quotas", "rate limiting", "429 errors", "api throttling", "enterprise api", "fair use policy"]
@@ -104,15 +104,15 @@ A: Yes. Enterprise plans include increased rate limits. Contact CorpusIQ sales f
 
 ## Internal Links
 
-- **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  
-- **[API Authentication Guide](/docs/api/authentication)** — Bearer tokens, OAuth 2.0, and security best practices  
-- **[API Endpoints Reference](/docs/api/endpoints)** — Complete request/response schemas and code examples  
-- **[API Rate Limits](/docs/api/rate-limits)** — Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/docs/api/webhooks)** — Event notifications and HMAC signature verification  
-- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2, and data residency  
-- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption, network security, and compliance  
+- **[CorpusIQ API Overview](/docs/api/overview)**  --  Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/docs/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/docs/api/endpoints)**  --  Complete request/response schemas and code examples  
+- **[API Rate Limits](/docs/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Event notifications and HMAC signature verification  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption, network security, and compliance  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *

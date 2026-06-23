@@ -1,12 +1,12 @@
 ---
-title: Cloud VPS Hermes Agent Setup — 24/7 AI Agent for $5-20/month
+title: Cloud VPS Hermes Agent Setup  --  24/7 AI Agent for $5-20/month
 description: Deploy Hermes Agent on a cloud VPS for always-on AI automation. Step-by-step setup for Hetzner, DigitalOcean, AWS, Vultr. API-based models, systemd persistence, security hardening. $5/month budget deployment.
 category: setup
 tags: [cloud-vps, hermes-agent, setup-guide, hetzner, digitalocean, openrouter, systemd, 24/7-automation]
 last_updated: 2026-06-16
 ---
 
-# Cloud VPS Hermes Agent Setup — 24/7 AI Agent for $5–20/Month
+# Cloud VPS Hermes Agent Setup  --  24/7 AI Agent for $5–20/Month
 
 Run Hermes Agent 24/7 on a cloud VPS for always-on AI automation at minimal cost. No hardware to maintain, no electricity bill, and your agent stays online even when your laptop is off. This cloud VPS setup guide covers provisioning, model configuration, cron persistence, and security hardening.
 
@@ -20,7 +20,7 @@ A cloud VPS is the best budget option for always-on Hermes Agent operation. For 
 |---|---|
 | **Models** | OpenRouter API (200+ models) or direct provider APIs |
 | **Persistence** | systemd service with `Restart=always` |
-| **Crons** | [Hermes cron scheduler](/hermes/best-practices/cron-design.md) — 24/7 execution |
+| **Crons** | [Hermes cron scheduler](/hermes/best-practices/cron-design.md)  --  24/7 execution |
 | **Memory** | [Honcho](/hermes/knowledge/) + GBrain + memcore-cloud |
 | **Security** | UFW firewall, SSH key-only auth, unattended upgrades |
 
@@ -70,7 +70,7 @@ hermes profile use cloud-agent
 ### Step 4: Configure Cloud Models
 
 ```bash
-# OpenRouter — free tier models available
+# OpenRouter  --  free tier models available
 hermes config set providers.openrouter.api_key "your-key"
 hermes config set model.default openrouter/qwen/qwen3-235b-a22b:free
 hermes config set model.fallback openrouter/anthropic/claude-sonnet-4
@@ -170,22 +170,22 @@ For heavier usage with Claude-level models: ~$15–25/month.
 ## FAQ
 
 ### Can I run local models on a cloud VPS?
-No — cloud VPS instances don't have GPUs. Use API-based models via OpenRouter or direct provider APIs. For local model inference, use a [gaming PC](gaming-pc.md) or [Mac Mini M4](mac-mini-standalone.md).
+No  --  cloud VPS instances don't have GPUs. Use API-based models via OpenRouter or direct provider APIs. For local model inference, use a [gaming PC](gaming-pc.md) or [Mac Mini M4](mac-mini-standalone.md).
 
 ### Which cloud VPS provider is best for Hermes Agent?
-Hetzner CX22 offers the best value at €4.51/month with 4GB RAM — enough for Hermes Agent + memory stack. DigitalOcean and Linode are good alternatives with simpler interfaces.
+Hetzner CX22 offers the best value at €4.51/month with 4GB RAM  --  enough for Hermes Agent + memory stack. DigitalOcean and Linode are good alternatives with simpler interfaces.
 
 ### How do I keep Hermes Agent running after reboot?
 The systemd service with `Restart=always` ensures Hermes Agent restarts automatically. Combine with `WantedBy=multi-user.target` so it starts on boot.
 
 ## Related Pages
 
-- [Hermes Agent Setup Overview](/hermes/setup/) — All platform options
-- [Docker Setup](docker.md) — Containerized cloud deployment
-- [Raspberry Pi Setup](raspberry-pi.md) — Alternative low-cost 24/7 option
-- [Model Selection Guide](/hermes/best-practices/model-selection.md) — API model tiering
-- [Cron Design Best Practices](/hermes/best-practices/cron-design.md) — 24/7 automation
-- [Troubleshooting Guide](/hermes/troubleshooting/) — VPS-specific issues
+- [Hermes Agent Setup Overview](/hermes/setup/)  --  All platform options
+- [Docker Setup](docker.md)  --  Containerized cloud deployment
+- [Raspberry Pi Setup](raspberry-pi.md)  --  Alternative low-cost 24/7 option
+- [Model Selection Guide](/hermes/best-practices/model-selection.md)  --  API model tiering
+- [Cron Design Best Practices](/hermes/best-practices/cron-design.md)  --  24/7 automation
+- [Troubleshooting Guide](/hermes/troubleshooting/)  --  VPS-specific issues
 ---
 
 *

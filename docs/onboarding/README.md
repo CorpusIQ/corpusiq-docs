@@ -1,5 +1,5 @@
 ---
-meta_title: "CorpusIQ Onboarding Guide — AI Chat and AI Agent Setup in 10 Minutes"
+meta_title: "CorpusIQ Onboarding Guide  --  AI Chat and AI Agent Setup in 10 Minutes"
 meta_desc: "Complete CorpusIQ onboarding guide for new users. Step-by-step AI chat setup (5 min) and AI agent MCP configuration (10 min). Connect Stripe, Shopify, QuickBooks, and HubSpot to your AI."
 category: "Documentation"
 tags: ["corpusiq onboarding", "setup guide", "ai chat setup", "ai agent setup", "mcp configuration", "first query", "getting started"]
@@ -139,14 +139,14 @@ A: Device login takes approximately 45 seconds from start to finish. Your agent 
 
 ## Internal Links
 
-- **[CorpusIQ Architecture](/docs/architecture/README)** — MCP endpoint and connector layer design  
-- **[CorpusIQ Security Overview](/docs/security/README)** — Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/docs/search/README)** — Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/docs/reporting/README)** — Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/docs/onboarding/README)** — AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/docs/governance/README)** — Source of truth and audit controls  
+- **[CorpusIQ Architecture](/docs/architecture/README)**  --  MCP endpoint and connector layer design  
+- **[CorpusIQ Security Overview](/docs/security/README)**  --  Authentication and encryption  
+- **[CorpusIQ Search Capabilities](/docs/search/README)**  --  Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/docs/reporting/README)**  --  Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/docs/onboarding/README)**  --  AI chat and agent setup in 10 minutes  
+- **[MSR Governance Framework](/docs/governance/README)**  --  Source of truth and audit controls  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *

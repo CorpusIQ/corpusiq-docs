@@ -47,7 +47,7 @@ npx skills add nousresearch/hermes-agent --skill subagent-driven-development
 
 ```bash
 # Load skills in a session
-# The agent auto-loads these when relevant — no manual trigger needed
+# The agent auto-loads these when relevant  --  no manual trigger needed
 
 # Manual invocation pattern:
 # 1. Ask Hermes to write a plan
@@ -67,7 +67,7 @@ npx skills add nousresearch/hermes-agent --skill subagent-driven-development
 
 | Use Case | How It Works |
 |----------|-------------|
-| **Feature development** | Break new CorpusIQ features into plans, execute in parallel — 3-5x faster than sequential |
+| **Feature development** | Break new CorpusIQ features into plans, execute in parallel  --  3-5x faster than sequential |
 | **Docs updates** | Plan doc page creation across multiple sections, execute simultaneously |
 | **System audit fixes** | Decompose audit findings into fix tasks, delegate to subagents |
 | **Connector integration** | Plan connector setup (MCP server + docs + tests), execute in parallel |
@@ -78,8 +78,8 @@ npx skills add nousresearch/hermes-agent --skill subagent-driven-development
 | Issue | Solution |
 |-------|----------|
 | Subagent context missing files | Ensure `context` field in `delegate_task` includes all relevant file paths |
-| Subagent results conflict | Review the reconciliation output — agent flags conflicts for manual resolution |
-| Plan too granular | Ask "simplify the plan to 3-5 tasks" — plans auto-scale to feature complexity |
+| Subagent results conflict | Review the reconciliation output  --  agent flags conflicts for manual resolution |
+| Plan too granular | Ask "simplify the plan to 3-5 tasks"  --  plans auto-scale to feature complexity |
 | Subagent timeout | Increase `delegation.timeout` in config.yaml; split oversized tasks |
 
 **Verification:**
@@ -92,9 +92,9 @@ npx skills list | grep -E "writing-plans|subagent-driven-development"
 # Should produce: numbered tasks with file paths and dependencies
 ```
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

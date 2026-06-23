@@ -1,13 +1,13 @@
 ---
 title: Troubleshooting Guide
-description: Common failures and fixes — MCP connections, OAuth tokens, cron jobs, browser automation, model routing, gateway crashes
+description: Common failures and fixes  --  MCP connections, OAuth tokens, cron jobs, browser automation, model routing, gateway crashes
 ---
 
 # Troubleshooting Guide
 
 Production agent systems fail in predictable ways. This guide catalogs the most common failure modes across the Hermes stack and provides clear resolution paths.
 
-Each section includes symptoms, diagnosis steps, and fixes — organized from most likely to least likely cause.
+Each section includes symptoms, diagnosis steps, and fixes  --  organized from most likely to least likely cause.
 
 ## MCP Connection Issues
 
@@ -126,7 +126,7 @@ When automated refresh fails, reset the connector:
 # Reset a specific connector token
 hermes auth reset google_workspace
 
-# This returns a re-auth URL — open it in a browser
+# This returns a re-auth URL  --  open it in a browser
 # After re-auth, verify
 hermes auth verify google_workspace
 ```
@@ -309,7 +309,7 @@ browser_config = {
 4. **Rotating user agents:** Change user agent periodically to avoid fingerprinting
 5. **Residential proxies:** For high-value targets, route through residential IPs
 
-**When CAPTCHA appears:** The task fails and is retried. If CAPTCHA persists across 3 retries, the task is escalated for human review. The browser automation cannot solve CAPTCHAs by design — attempting to would violate most platforms' terms of service.
+**When CAPTCHA appears:** The task fails and is retried. If CAPTCHA persists across 3 retries, the task is escalated for human review. The browser automation cannot solve CAPTCHAs by design  --  attempting to would violate most platforms' terms of service.
 
 ### Symptom: "Target closed" mid-operation
 
@@ -556,7 +556,7 @@ hermes queue retry --failed-only --since "1 hour ago"
 2. **Isolate the failure:** Test each component independently
 3. **Check for recent changes:** `hermes config diff` shows what changed
 4. **Roll back:** If a config change caused the issue, `hermes config rollback`
-5. **Escalate:** Some failures genuinely need human intervention. The system is designed to degrade gracefully — individual features may fail while the core continues operating.
+5. **Escalate:** Some failures genuinely need human intervention. The system is designed to degrade gracefully  --  individual features may fail while the core continues operating.
 ---
 
 *

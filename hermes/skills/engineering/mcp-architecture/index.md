@@ -3,13 +3,13 @@ title: mcp-architecture
 description: Field guide for operating a 50k+ LOC MCP server with multi-connector substrate. Where files live, the per-connector pattern, deployment topology, dual-render-path traps, and the discipline that keeps it from rotting silently.
 ---
 
-# MCP Architecture — operating-scale orientation
+# MCP Architecture  --  operating-scale orientation
 
 A skill for the team building and maintaining an MCP (Model Context Protocol) server with 37+ connectors, multiple client paths (stdio, raw HTTP, ChatGPT mega-tool), and the operational discipline that comes with serving real customer traffic through it.
 
-This is not "how MCP works" — that's covered by Anthropic's MCP docs. This is "how to keep a customer-facing MCP server from rotting in 50,000+ lines."
+This is not "how MCP works"  --  that's covered by Anthropic's MCP docs. This is "how to keep a customer-facing MCP server from rotting in 50,000+ lines."
 
-## Endpoint topology — there are usually only TWO backends
+## Endpoint topology  --  there are usually only TWO backends
 
 Most multi-environment MCP deployments have **exactly two distinct backends** (dev + prod), but often **three+ hostnames** resolve to them because:
 
@@ -19,8 +19,8 @@ Most multi-environment MCP deployments have **exactly two distinct backends** (d
 Get this wrong in customer/exec comms and you'll claim "deployed to three environments" when you actually mean two. The lesson came from a misframed announcement email.
 
 **Implications:**
-- For customer/exec comms — use two-environment framing: "dev (`mcp-dev`) and prod (`mcp`)." Never describe an alias as "legacy dev" or imply it's separate
-- For verification — probing a hostname and its alias returns identical results by design. Listing them as separate verifications is redundant noise, not extra coverage. Verify against the canonical dev hostname for dev, canonical prod hostname for prod, full stop
+- For customer/exec comms  --  use two-environment framing: "dev (`mcp-dev`) and prod (`mcp`)." Never describe an alias as "legacy dev" or imply it's separate
+- For verification  --  probing a hostname and its alias returns identical results by design. Listing them as separate verifications is redundant noise, not extra coverage. Verify against the canonical dev hostname for dev, canonical prod hostname for prod, full stop
 
 ## The per-connector triplet
 
@@ -42,7 +42,7 @@ For OAuth connectors (HubSpot, QuickBooks, Shopify, etc.) the OAuth flow handles
 
 ### The failure mode this prevents
 
-Real bug: a Phase 1 PR shipped a full credential-paste connector (adapter + auth + tools + 4 server-class credential methods + error payload pointing users to `/api/v1/<x>/connect`)... but **zero HTTP routes were registered.** User clicks Connect → 404 Not Found. The credential-store methods were orphaned in Python — callable from the codebase, invisible over HTTP. Lived in production for a month.
+Real bug: a Phase 1 PR shipped a full credential-paste connector (adapter + auth + tools + 4 server-class credential methods + error payload pointing users to `/api/v1/<x>/connect`)... but **zero HTTP routes were registered.** User clicks Connect → 404 Not Found. The credential-store methods were orphaned in Python  --  callable from the codebase, invisible over HTTP. Lived in production for a month.
 
 ### The required routes
 
@@ -72,7 +72,7 @@ grep -c "async def \(get\|set\|delete\)_<name>_\|async def get_<name>_connect_he
 grep -c "async def \(get\|set\|delete\)_<name>_\|async def get_<name>_connect_help" api/custom_app_api.py
 ```
 
-If any count comes back zero or low, you've shipped an orphaned credential store. The connector-status response will still cheerfully tell users where to connect — but the URL will 404.
+If any count comes back zero or low, you've shipped an orphaned credential store. The connector-status response will still cheerfully tell users where to connect  --  but the URL will 404.
 
 ## Dual-render-path trap (server.py vs ChatGPT app)
 
@@ -106,17 +106,17 @@ A 50k+ LOC `server.py` has **three** distinct change patterns. Use the right one
 | Pattern | When | How |
 |---|---|---|
 | **New connector scaffolding** | Adding a fresh connector | Delegate to a subagent with explicit file paths and conventions; review the diff carefully |
-| **Few cross-cutting sites with reasoning** | Changes that touch 2-5 sites, each requiring understanding of context | Surgical hand-patches. Never delegate — subagent iteration cap kicks in before they finish reasoning across all sites |
+| **Few cross-cutting sites with reasoning** | Changes that touch 2-5 sites, each requiring understanding of context | Surgical hand-patches. Never delegate  --  subagent iteration cap kicks in before they finish reasoning across all sites |
 | **15+ mechanical mirror-edits** | E.g. `dict[k]=v` → `store.put(k,v)` across every connector | One-shot regex transformer, stage to `.staged`, diff-review, mv |
 
-The regex-transformer-then-stage pattern is the highest-leverage of the three. Cost ~5 minutes to write the transformer, cost ~30 seconds to review the diff, ships 15+ sites with zero hand-edits and zero risk of "I missed one." The trap: comments that look like code can match too — always preview the diff before applying.
+The regex-transformer-then-stage pattern is the highest-leverage of the three. Cost ~5 minutes to write the transformer, cost ~30 seconds to review the diff, ships 15+ sites with zero hand-edits and zero risk of "I missed one." The trap: comments that look like code can match too  --  always preview the diff before applying.
 
 ## Local lint discipline (matters more than you'd think)
 
 If your CI runs `black --target-version py311` and `flake8 --jobs=1`, the local equivalents matter:
 
 ```bash
-# MUST match CI's target version — local Python 3.14 black formats differently
+# MUST match CI's target version  --  local Python 3.14 black formats differently
 .venv/bin/python -m black --target-version py311 <file>
 
 # MUST run with --jobs=1 on files like server.py (Python 3.14 has a recursion issue
@@ -124,7 +124,7 @@ If your CI runs `black --target-version py311` and `flake8 --jobs=1`, the local 
 .venv/bin/python -m flake8 --jobs=1 <file>
 ```
 
-If CI's Black step fails, CI's Flake8 step skips — so a `# noqa` you added and a Black mismatch you missed can both bite at once and you'll only see the Black failure.
+If CI's Black step fails, CI's Flake8 step skips  --  so a `# noqa` you added and a Black mismatch you missed can both bite at once and you'll only see the Black failure.
 
 ## Branch protection + deploy discipline
 
@@ -132,8 +132,8 @@ If you have branch protection requiring PRs to both your Development and main br
 
 - Push to `Development` → CI fires dev deploy to dev hostname
 - Push to `main` → CI fires prod deploy to prod hostname (most workflows watch only main)
-- Use the §12 release-promotion pattern from [consultant-connector-audit](../consultant-connector-audit/#12-release-promotion-prs-must-cut-from-origin-not-local) for Dev → main promotions — cut from `origin/Development`, never from local Development
-- After deploy, verify the deployed image's bytes match what you intended to ship (`git show <deploy_sha>:<file>` vs `git show HEAD:<file>`) — the image-SHA-to-bytes check catches both the stale-local trap AND the rarer case where the deploy step itself shipped a stale build artifact
+- Use the §12 release-promotion pattern from [consultant-connector-audit](../consultant-connector-audit/#12-release-promotion-prs-must-cut-from-origin-not-local) for Dev → main promotions  --  cut from `origin/Development`, never from local Development
+- After deploy, verify the deployed image's bytes match what you intended to ship (`git show <deploy_sha>:<file>` vs `git show HEAD:<file>`)  --  the image-SHA-to-bytes check catches both the stale-local trap AND the rarer case where the deploy step itself shipped a stale build artifact
 
 ## Marketing site is a separate repo (verification trap)
 
@@ -147,11 +147,11 @@ Symptom of failing this: a customer reads the marketing site, sees the old surfa
 
 ## Reference material
 
-The substantive pitfalls from the source skill — each one earned the hard way — covered as separate sections in this Hermes Hub:
+The substantive pitfalls from the source skill  --  each one earned the hard way  --  covered as separate sections in this Hermes Hub:
 
-- [consultant-connector-audit](../consultant-connector-audit/) — the audit checklist that catches what this skill describes how to prevent
-- [api-development](../api-development/) — Cloud Run + database backend patterns when your MCP server has a sibling FastAPI surface
-- [scheduled-jobs](../scheduled-jobs/) — cron operating manual for the agent that operates the MCP server
+- [consultant-connector-audit](../consultant-connector-audit/)  --  the audit checklist that catches what this skill describes how to prevent
+- [api-development](../api-development/)  --  Cloud Run + database backend patterns when your MCP server has a sibling FastAPI surface
+- [scheduled-jobs](../scheduled-jobs/)  --  cron operating manual for the agent that operates the MCP server
 
 ## When to load this skill
 
@@ -160,13 +160,13 @@ The substantive pitfalls from the source skill — each one earned the hard way 
 - A consultant submitted a connector PR and you're about to merge
 - Hit a "feature works in dev but missing in prod" symptom
 - About to do a Dev → main promotion
-- Customer reports a tool returns the wrong shape — but your tests are green
+- Customer reports a tool returns the wrong shape  --  but your tests are green
 
 If you're just running existing tools, you don't need this skill loaded.
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

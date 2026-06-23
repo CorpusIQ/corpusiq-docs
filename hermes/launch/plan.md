@@ -1,4 +1,4 @@
-# Viktor-Style Launch Plan — CorpusIQ
+# Viktor-Style Launch Plan  --  CorpusIQ
 
 ## What We Already Have (that Viktor didn't at launch)
 - Slack integration ✅
@@ -37,7 +37,7 @@ PART 1: HERMES HANDLES (A→Z)
 - Gallery: 5 images showing Slack → answer flow
 - Video: Otter avatar explainer
 - Tags: AI, Productivity, Slack, SaaS, Business Intelligence
-**Status:** READY TO EXECUTE — just need logo + screenshots
+**Status:** READY TO EXECUTE  --  just need logo + screenshots
 
 ## 3. Pricing Model (Already Live)
 - 30-day free trial, no credit card ✅
@@ -51,12 +51,12 @@ PART 1: HERMES HANDLES (A→Z)
 - Every new ecosystem repo → tweet/X post: "Just added [repo] to the Hermes Community Hub. 308+ tools now. github.com/CorpusIQ/corpusiq-docs"
 - Daily automated tweet: "Your business data already knows the answer. corpusiq.io"
 - LinkedIn post template for weekly updates
-**Status:** READY — cron on Spark
+**Status:** READY  --  cron on Spark
 
 ## 5. Competitor Comparison Content
 **What:** SEO pages targeting Viktor and other competitors
 **How:**
-- corpusiq-vs-viktor.md — comparison page
+- corpusiq-vs-viktor.md  --  comparison page
 - "CorpusIQ vs Viktor: Accurate vs Approximate AI"
 - Highlight: validation engine, anti-drift, source citations, read-only privacy
 - Publish on corpusiq.io and repo docs
@@ -103,7 +103,7 @@ So we built a validation layer. Before any AI sees your data, CorpusIQ verifies 
 **Action:** Email them asking for 1-sentence quote we can publish
 **Template:** "Would you be willing to write 1-2 sentences about your experience with CorpusIQ? We're launching publicly and need real user voices."
 
-## 3. Slack App Directory — Review & Approvals
+## 3. Slack App Directory  --  Review & Approvals
 **What:** Once Hermes submits, monitor for approval
 **Action:** Check marketplace.slack.com daily for status
 **Time:** Slack review takes 1-5 business days
@@ -116,10 +116,10 @@ So we built a validation layer. Before any AI sees your data, CorpusIQ verifies 
 - X/Twitter: "We built an AI that verifies every number before it speaks. 133 skills. 37 connectors. Read-only. corpusiq.io"
 - LinkedIn Page: Share Benoit's post + product update
 
-## 5. Reddit — r/SaaS, r/Slack, r/Entrepreneur
+## 5. Reddit  --  r/SaaS, r/Slack, r/Entrepreneur
 **What:** Post about CorpusIQ in relevant subreddits
 **Copy for r/SaaS:** "We built a validation layer for AI business data. No hallucinations, source-cited answers, read-only. Launched on Product Hunt today."
-**Copy for r/Slack:** "If you use Slack and are tired of switching between 12 dashboards to answer one business question — we built something for that."
+**Copy for r/Slack:** "If you use Slack and are tired of switching between 12 dashboards to answer one business question  --  we built something for that."
 **Rules:** Read subreddit rules first. Some ban self-promotion.
 
 ## 6. Partner/Affiliate Outreach
@@ -138,10 +138,10 @@ So we built a validation layer. Before any AI sees your data, CorpusIQ verifies 
 - Next week targets
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

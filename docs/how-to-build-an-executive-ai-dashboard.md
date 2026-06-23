@@ -1,5 +1,5 @@
 ---
-title: "How to Build an Executive AI Dashboard — Real-Time Business Intelligence"
+title: "How to Build an Executive AI Dashboard  --  Real-Time Business Intelligence"
 description: "Build an AI-powered executive dashboard with CorpusIQ MCP. Real-time metrics across sales, finance, marketing, and operations. Natural language, live data."
 h1: "How to Build an Executive AI Dashboard"
 url: "/docs/how-to-build-an-executive-ai-dashboard/"
@@ -13,11 +13,11 @@ tags: ["executive-dashboard", "ai-dashboard", "business-intelligence", "kpi-trac
 
 ## The Problem
 
-Executives need a clear, real-time view of business performance. Traditional dashboards require months of BI development, depend on stale warehouse data, and can only answer the questions they were built for. When a board member asks "How does our customer acquisition cost trend against pipeline growth?" the dashboard likely doesn't have that view — and building it takes days.
+Executives need a clear, real-time view of business performance. Traditional dashboards require months of BI development, depend on stale warehouse data, and can only answer the questions they were built for. When a board member asks "How does our customer acquisition cost trend against pipeline growth?" the dashboard likely doesn't have that view  --  and building it takes days.
 
 ## The Solution
 
-An AI-powered executive dashboard built with CorpusIQ provides instant answers to any business question — drawing from live data across all your systems. No dashboards to build. No reports to schedule. Just ask and get answers.
+An AI-powered executive dashboard built with CorpusIQ provides instant answers to any business question  --  drawing from live data across all your systems. No dashboards to build. No reports to schedule. Just ask and get answers.
 
 ## What You'll Need
 
@@ -60,14 +60,14 @@ Build a library of high-impact executive questions:
 **Weekly Pulse:**
 ```
 "Give me this week's business pulse: revenue closed, new pipeline created,
-website traffic, ad spend, and cash position — compared to last week"
+website traffic, ad spend, and cash position  --  compared to last week"
 ```
 
 **Monthly Business Review:**
 ```
 "Full monthly business review: revenue by product line, pipeline health,
 customer acquisition cost by channel, churn rate, gross margin, and team 
-headcount — with month-over-month and year-over-year comparisons"
+headcount  --  with month-over-month and year-over-year comparisons"
 ```
 
 **Board Meeting Prep:**
@@ -95,8 +95,8 @@ Your "dashboard" is your AI assistant. Set it up for executive use:
 
 1. **Pin key queries** as saved prompts for one-click access
 2. **Set up a dedicated channel** (Slack integration, shared ChatGPT thread) for executive queries
-3. **Create query shortcuts** — numbered or named queries that anyone can invoke
-4. **Enable mobile access** — executives can ask questions from their phone
+3. **Create query shortcuts**  --  numbered or named queries that anyone can invoke
+4. **Enable mobile access**  --  executives can ask questions from their phone
 
 ### Step 5: Establish a Cadence
 
@@ -113,7 +113,7 @@ Your "dashboard" is your AI assistant. Set it up for executive use:
 
 **AI Response:**
 ```
-BOARD MEETING SUMMARY — June 16, 2026
+BOARD MEETING SUMMARY  --  June 16, 2026
 Data as of: June 16, 2026, 8:45 AM (live)
 
 REVENUE & GROWTH
@@ -145,9 +145,9 @@ FINANCIAL HEALTH
 • Runway: 6.9 months (target: 12+ months)
 
 KEY RISKS
-⚠️ Runway at 6.9 months — below 12-month target
-⚠️ 7 deals at risk ($245,000) — stalled in negotiation
-⚠️ Top 3 customers represent 28% of revenue — concentration risk
+⚠️ Runway at 6.9 months  --  below 12-month target
+⚠️ 7 deals at risk ($245,000)  --  stalled in negotiation
+⚠️ Top 3 customers represent 28% of revenue  --  concentration risk
 ```
 
 ## CorpusIQ's Role
@@ -155,11 +155,11 @@ KEY RISKS
 CorpusIQ powers the executive AI dashboard by:
 
 1. **Connecting all executive data sources** through one MCP endpoint
-2. **Querying live data** — every answer reflects current business state
-3. **Orchestrating cross-source analysis** — revenue from accounting, pipeline from CRM, spend from ads
-4. **Enabling natural language** — no SQL, no dashboard builder, no BI training
-5. **Supporting mobile/anywhere access** — ask questions from any device
-6. **Scaling with your business** — add new sources as you grow
+2. **Querying live data**  --  every answer reflects current business state
+3. **Orchestrating cross-source analysis**  --  revenue from accounting, pipeline from CRM, spend from ads
+4. **Enabling natural language**  --  no SQL, no dashboard builder, no BI training
+5. **Supporting mobile/anywhere access**  --  ask questions from any device
+6. **Scaling with your business**  --  add new sources as you grow
 
 ## FAQ
 
@@ -173,7 +173,7 @@ A: Yes. Each executive can have their own CorpusIQ account or share a team accou
 A: CorpusIQ is read-only and inherits source permissions. Financial data in QuickBooks is only visible to users authorized in QuickBooks.
 
 **Q: Can I get alerts when metrics cross thresholds?**  
-A: Not natively — CorpusIQ is query-on-demand. You can set up reminders to check key metrics at regular intervals.
+A: Not natively  --  CorpusIQ is query-on-demand. You can set up reminders to check key metrics at regular intervals.
 
 **Q: How do I share the dashboard with board members?**  
 A: Copy the AI's response into your board deck or share the query so board members can ask it themselves (if they have access).
@@ -182,7 +182,7 @@ A: Copy the AI's response into your board deck or share the query so board membe
 A: Document which source is authoritative for which metric. CorpusIQ queries sources as-is; it doesn't reconcile definitions.
 
 **Q: How often should I refresh metrics?**  
-A: As often as decisions require. Data is live — ask whenever you need current numbers.
+A: As often as decisions require. Data is live  --  ask whenever you need current numbers.
 
 **Q: Can I export to PowerPoint or PDF?**  
 A: Copy the AI's structured response into your presentation tool. Direct export depends on the AI client.
@@ -192,10 +192,10 @@ A: Copy the AI's structured response into your presentation tool. Direct export 
 - [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language/)
 - [How to Analyze Company Data with ChatGPT](/docs/how-to-analyze-company-data-with-chatgpt/)
 - [How to Connect Multiple Data Sources to AI](/docs/how-to-connect-multiple-data-sources-to-ai/)
-- [CorpusIQ vs Traditional BI — Natural Language vs Dashboards](/docs/corpusiq-vs-traditional-bi/)
+- [CorpusIQ vs Traditional BI  --  Natural Language vs Dashboards](/docs/corpusiq-vs-traditional-bi/)
 - [Best Business AI Search Tool](/docs/best-business-ai-search-tool/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
-- [Top Business AI Tools — Rankings](/docs/top-business-ai-tools/)
+- [Top Business AI Tools  --  Rankings](/docs/top-business-ai-tools/)
 - [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform/)
 ---
 

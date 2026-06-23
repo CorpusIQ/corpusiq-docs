@@ -1,6 +1,6 @@
 ---
-title: Hermes Session Maintenance — Setup Guide
-description: Zero-token monthly cleanup for Hermes Agent — close zombie sessions, prune old data, VACUUM state.db. Safe, cron-scheduled, with dry-run mode.
+title: Hermes Session Maintenance  --  Setup Guide
+description: Zero-token monthly cleanup for Hermes Agent  --  close zombie sessions, prune old data, VACUUM state.db. Safe, cron-scheduled, with dry-run mode.
 author: salt-vrn (Leonid Zolotarev, NeiroHost.ru)
 repo: https://github.com/salt-vrn/hermes-session-maintenance
 license: MIT
@@ -8,7 +8,7 @@ license: MIT
 
 # Hermes Session Maintenance Setup
 
-**Monthly cleanup script for Hermes Agent's `state.db`.** Closes zombie sessions, prunes old data, backs up the database, and reclaims disk space — all with zero tokens consumed by the agent.
+**Monthly cleanup script for Hermes Agent's `state.db`.** Closes zombie sessions, prunes old data, backs up the database, and reclaims disk space  --  all with zero tokens consumed by the agent.
 
 ## The Problem It Solves
 
@@ -86,10 +86,10 @@ DAYS_PRUNE=7     # Delete ended sessions older than N days
 
 - **Active sessions** (< 1 day old) are **never touched**
 - **`started_at` format** is verified before modifications (rejects ms timestamps, ISO dates)
-- **`ended_at = started_at`** for zombies — no fabricated durations
+- **`ended_at = started_at`** for zombies  --  no fabricated durations
 - **Backup before VACUUM** with 30-day retention
 - **`flock`** prevents parallel execution
-- **Each profile processed independently** — one failure doesn't affect others
+- **Each profile processed independently**  --  one failure doesn't affect others
 - **Reports before/after stats** for audit trail
 
 ## ⚠️ VACUUM and the Gateway
@@ -99,14 +99,14 @@ VACUUM requires an **exclusive lock** on the database. If the Hermes gateway is 
 **Safe approaches:**
 - Schedule at 04:00 (low activity)
 - Use `--dry-run` first
-- If VACUUM fails — backup is safe, retry next month
+- If VACUUM fails  --  backup is safe, retry next month
 
 ## Requirements
 
 - **Linux** (GNU grep with PCRE, `flock`, `du -b`)
 - Hermes Agent installed
 - Bash 4+
-- Python 3 (for SQLite operations — comes with Hermes)
+- Python 3 (for SQLite operations  --  comes with Hermes)
 
 ---
 

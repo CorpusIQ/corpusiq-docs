@@ -1,18 +1,18 @@
 ---
-title: Security Best Practices for Hermes Agent — Credentials, Approval Gates & Audit
+title: Security Best Practices for Hermes Agent  --  Credentials, Approval Gates & Audit
 description: Hermes Agent security best practices. Token and credential management, least-privilege access, tiered approval gates, audit logging, secrets management, plugin verification, and operational security checklist.
 category: best-practices
 tags: [hermes-agent, security, credentials, approval-gates, audit-logging, least-privilege, token-management, secrets]
 last_updated: 2026-06-16
 ---
 
-# Security Best Practices — Protect Your Hermes Agent Deployment
+# Security Best Practices  --  Protect Your Hermes Agent Deployment
 
-Hermes Agent connects to your data, executes code, and runs scheduled tasks — all capabilities that require thoughtful security design. These security best practices cover credential management, approval gates, audit logging, and the patterns that prevent the most common security failures in production AI agent deployments.
+Hermes Agent connects to your data, executes code, and runs scheduled tasks  --  all capabilities that require thoughtful security design. These security best practices cover credential management, approval gates, audit logging, and the patterns that prevent the most common security failures in production AI agent deployments.
 
 ## Overview
 
-Security with Hermes Agent follows the [least-privilege principle](/hermes/best-practices/): start read-only, add write capabilities only with explicit approval gates, and log everything. Each connector to external services (email, CRM, databases) is a potential attack surface — managing tokens and permissions correctly is non-negotiable.
+Security with Hermes Agent follows the [least-privilege principle](/hermes/best-practices/): start read-only, add write capabilities only with explicit approval gates, and log everything. Each connector to external services (email, CRM, databases) is a potential attack surface  --  managing tokens and permissions correctly is non-negotiable.
 
 ## How It Works
 
@@ -65,21 +65,21 @@ Log every significant action: what was done, by whom, when, with what inputs, an
 ## FAQ
 
 ### How do I manage API keys securely with Hermes Agent?
-Never hardcode keys in skills or prompts. Use environment variables, a secrets manager, or the built-in credential store. Each connector should use scoped keys with only the permissions Hermes Agent needs — prefer read-only where possible.
+Never hardcode keys in skills or prompts. Use environment variables, a secrets manager, or the built-in credential store. Each connector should use scoped keys with only the permissions Hermes Agent needs  --  prefer read-only where possible.
 
 ### What actions require human approval in Hermes Agent?
 Any write operation that affects external systems: sending emails, updating CRM records, modifying databases, posting to Slack, executing financial transactions. Configure [tiered approval gates](security.md#tiered-approval-gates) appropriate to the risk level.
 
 ### How often should I rotate Hermes Agent credentials?
-Rotate API keys and tokens quarterly at minimum. Document the rotation procedure for each connector so it's a quick task. Set calendar reminders — expired tokens are the #1 cause of silent automation failures.
+Rotate API keys and tokens quarterly at minimum. Document the rotation procedure for each connector so it's a quick task. Set calendar reminders  --  expired tokens are the #1 cause of silent automation failures.
 
 ## Related Pages
 
-- [Best Practices Overview](/hermes/best-practices/) — All guides
-- [Cron Design](cron-design.md) — Secure scheduled automation
-- [Memory Management](memory-management.md) — Don't store secrets in memory
-- [MCP Integration Guide](/hermes/mcp/) — Connector authentication
-- [Troubleshooting](/hermes/troubleshooting/) — Fix OAuth token expiry
+- [Best Practices Overview](/hermes/best-practices/)  --  All guides
+- [Cron Design](cron-design.md)  --  Secure scheduled automation
+- [Memory Management](memory-management.md)  --  Don't store secrets in memory
+- [MCP Integration Guide](/hermes/mcp/)  --  Connector authentication
+- [Troubleshooting](/hermes/troubleshooting/)  --  Fix OAuth token expiry
 ---
 
 *

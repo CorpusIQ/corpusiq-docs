@@ -1,12 +1,12 @@
 ---
-title: Data Analysis Prompts for Hermes Agent — SQL, Reporting & Visualization
+title: Data Analysis Prompts for Hermes Agent  --  SQL, Reporting & Visualization
 description: Hermes Agent data analysis prompts for SQL query generation, reporting, visualization guidance, and metric computation. Prompt templates with placeholders for your database schema, analytics tools, and business questions.
 category: prompts
 tags: [hermes-agent, prompts, data-analysis, sql, reporting, visualization, metrics, business-intelligence]
 last_updated: 2026-06-16
 ---
 
-# Data Analysis Prompts — SQL, Reporting & Visualization
+# Data Analysis Prompts  --  SQL, Reporting & Visualization
 
 ---
 
@@ -39,7 +39,7 @@ Segment my [CUSTOMERS/USERS/TRANSACTIONS] data by [DIMENSION].
 Data context:
 - [ENTITY] table with [KEY COLUMNS]
 - Time period: [START] to [END]
-- Metrics of interest: [LIST — e.g., revenue, frequency, retention]
+- Metrics of interest: [LIST  --  e.g., revenue, frequency, retention]
 
 For each segment, compute:
 - Segment size and percentage of total
@@ -57,7 +57,7 @@ Identify the highest-value segment and the fastest-growing segment. Provide the 
 ### Query from Plain English
 
 ```
-Convert the following business question into a SQL query for [DATABASE TYPE — PostgreSQL/BigQuery/Snowflake/MySQL].
+Convert the following business question into a SQL query for [DATABASE TYPE  --  PostgreSQL/BigQuery/Snowflake/MySQL].
 
 Question: [PLAIN ENGLISH QUESTION]
 
@@ -71,7 +71,7 @@ Requirements:
 - Include comments explaining each CTE or subquery
 - Handle NULL values appropriately
 - Add query optimization notes if the query would scan large tables
-- Format output as [DESIRED FORMAT — daily time series, top-N ranking, summary statistics]
+- Format output as [DESIRED FORMAT  --  daily time series, top-N ranking, summary statistics]
 
 Expected output columns: [DESCRIBE EACH]
 ```
@@ -105,8 +105,8 @@ Suggest any new indexes (with CREATE INDEX statements) that would help.
 Design a [WEEKLY/MONTHLY/QUARTERLY] report for [STAKEHOLDER ROLE].
 
 Metrics to include:
-1. [METRIC 1] — [DEFINITION, TARGET, PREVIOUS PERIOD VALUE]
-2. [METRIC 2] — [DEFINITION, TARGET, PREVIOUS PERIOD VALUE]
+1. [METRIC 1]  --  [DEFINITION, TARGET, PREVIOUS PERIOD VALUE]
+2. [METRIC 2]  --  [DEFINITION, TARGET, PREVIOUS PERIOD VALUE]
 3. [ETC.]
 
 For each metric provide:
@@ -121,7 +121,7 @@ Include an executive summary section (max 200 words) synthesizing the key takeaw
 ### Chart and Visualization Guidance
 
 ```
-I need to visualize [DATA RELATIONSHIP — e.g., "revenue by channel over 12 months"].
+I need to visualize [DATA RELATIONSHIP  --  e.g., "revenue by channel over 12 months"].
 
 Data characteristics:
 - [N] categories
@@ -133,7 +133,7 @@ Recommend:
 1. The best chart type with justification (bar, line, area, scatter, heatmap, etc.)
 2. Color scheme considerations (accessibility, brand alignment)
 3. Labeling strategy (axis titles, data labels, annotations)
-4. What the viewer should notice first — design for the "3-second test"
+4. What the viewer should notice first  --  design for the "3-second test"
 
 Provide the code to generate this in [PLOTLY/MATPLOTLIB/VEGA-LITE/EXCEL].
 ```
@@ -168,7 +168,7 @@ Metric: [METRIC NAME]
 Granularity: [HOURLY/DAILY/WEEKLY]
 Expected pattern: [SEASONALITY, TREND, KNOWN EVENTS]
 
-Use [METHOD — z-score/IQR/moving average/STL decomposition] to detect anomalies.
+Use [METHOD  --  z-score/IQR/moving average/STL decomposition] to detect anomalies.
 For each anomaly found:
 - Date/time and observed vs expected value
 - Magnitude (how many standard deviations from baseline)
@@ -178,9 +178,9 @@ For each anomaly found:
 Provide code to run this detection on an ongoing schedule.
 ```
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

@@ -1,12 +1,12 @@
 ---
-title: Incident Response Blueprint for Hermes Agent — Automated Detection & Remediation
+title: Incident Response Blueprint for Hermes Agent  --  Automated Detection & Remediation
 description: SLA-driven Hermes Agent incident response blueprint. Automated detection, triage, severity scoring, remediation coordination, and postmortem generation. Connects monitoring, communication, and issue tracking with time-gated escalation.
 category: blueprints
 tags: [hermes-agent, blueprint, incident-response, monitoring, sla, triage, remediation, postmortem, devops]
 last_updated: 2026-06-16
 ---
 
-# Incident Response Blueprint — Automated Detection & Remediation
+# Incident Response Blueprint  --  Automated Detection & Remediation
 
 ## Incident Lifecycle
 
@@ -61,7 +61,7 @@ The agent monitors alert sources continuously using a combination of polling and
 | Synthetic checks | Active probing | Every 60 seconds |
 | User-reported issues | Slack bot listener | Real-time (events) |
 
-**Cron:** Continuous — use webhook receivers where possible, with `*/1 * * * *` polling fallback.
+**Cron:** Continuous  --  use webhook receivers where possible, with `*/1 * * * *` polling fallback.
 
 ### Step 2: Noise Suppression and Deduplication
 
@@ -109,7 +109,7 @@ severity_score = (user_impact × 40)     # % of users affected
 The agent creates a structured incident in the issue tracker:
 
 ```markdown
-# Incident #[AUTO-ID]: [Service] — [Brief Description]
+# Incident #[AUTO-ID]: [Service]  --  [Brief Description]
 
 **Status:** 🚨 OPEN
 **Severity:** [SEV1/SEV2/SEV3/SEV4]
@@ -117,8 +117,8 @@ The agent creates a structured incident in the issue tracker:
 **Declared:** [TIMESTAMP]
 
 ## Affected Services
-- [Service A] — [Symptom]
-- [Service B] — [Symptom]
+- [Service A]  --  [Symptom]
+- [Service B]  --  [Symptom]
 
 ## Current Impact
 - Users affected: [ESTIMATE]
@@ -164,7 +164,7 @@ The agent searches the knowledge base for a runbook matching the incident patter
 1. Match on: affected service name + alert type + error signature
 2. Retrieve the most relevant runbook from the knowledge base (Notion, Confluence, or Git repository)
 3. Post the runbook link in the incident channel with the specific steps most likely relevant
-4. If no runbook found, post a template: "No runbook found for this pattern — here's the generic diagnostic checklist"
+4. If no runbook found, post a template: "No runbook found for this pattern  --  here's the generic diagnostic checklist"
 
 **Generic Diagnostic Checklist:**
 ```
@@ -195,7 +195,7 @@ The agent provides continuous support during remediation:
 **Automated Diagnostics (refresh every 2 minutes):**
 - Current error rate and trend (improving or worsening?)
 - Recent deployments (any new deploys since the incident started?)
-- Infrastructure metrics (CPU, memory, connections — any anomalies?)
+- Infrastructure metrics (CPU, memory, connections  --  any anomalies?)
 - Dependency health (are upstream services healthy?)
 - User impact trend (more or fewer users affected?)
 
@@ -237,7 +237,7 @@ When the team indicates the fix is deployed:
 
 ### Step 1: Timeline Reconstruction
 
-**Cron:** `0 8 * * *` — daily check for incidents needing postmortem.
+**Cron:** `0 8 * * *`  --  daily check for incidents needing postmortem.
 
 The agent reconstructs the full incident timeline from:
 - Alert history
@@ -249,8 +249,8 @@ The agent reconstructs the full incident timeline from:
 **Automated Timeline:**
 ```
 [HH:MM] Monitoring detected error rate spike on payment-service
-[HH:MM] Alert deduplicated — 3 related alerts grouped
-[HH:MM] Classified as SEV1 — payment processing affected
+[HH:MM] Alert deduplicated  --  3 related alerts grouped
+[HH:MM] Classified as SEV1  --  payment processing affected
 [HH:MM] On-call engineer paged (primary: jane-engineer)
 [HH:MM] Jane acknowledged page
 [HH:MM] War room opened in #incidents
@@ -258,7 +258,7 @@ The agent reconstructs the full incident timeline from:
 [HH:MM] Rollback of deploy #abc123 initiated
 [HH:MM] Error rate began decreasing
 [HH:MM] Error rate returned to baseline
-[HH:MM] Monitoring period complete — incident resolved
+[HH:MM] Monitoring period complete  --  incident resolved
 ```
 
 ### Step 2: Postmortem Draft
@@ -285,14 +285,14 @@ Generate a postmortem draft following a standard template:
 [Auto-generated timeline from above]
 
 ## Root Cause
-[What specifically caused the incident — the "why"]
+[What specifically caused the incident  --  the "why"]
 
 ## Contributing Factors
-- [Factor 1 — e.g., "no alert on this specific error pattern"]
-- [Factor 2 — e.g., "deploy didn't have automated canary analysis"]
+- [Factor 1  --  e.g., "no alert on this specific error pattern"]
+- [Factor 2  --  e.g., "deploy didn't have automated canary analysis"]
 
 ## Detection
-- **Time to detect:** [DURATION] — [how we found out]
+- **Time to detect:** [DURATION]  --  [how we found out]
 - **Could we have detected it faster?** [Analysis]
 
 ## Resolution
@@ -319,7 +319,7 @@ Generate a postmortem draft following a standard template:
 3. Schedule automated check-ins: 7 days, 14 days, 30 days
 4. Escalate overdue action items to the postmortem owner's manager
 
-**Cron:** `0 9 * * 1` — weekly action item status sweep.
+**Cron:** `0 9 * * 1`  --  weekly action item status sweep.
 
 ### Step 4: Postmortem Review
 
@@ -340,7 +340,7 @@ The agent maintains an incident response dashboard:
 | Postmortem Completion | < 5 days | [X] days avg | [X] days avg |
 | Action Item Closure (30 days) | > 90% | [X]% | [X]% |
 
-**Cron:** `0 8 * * 1` — weekly SLA dashboard update.
+**Cron:** `0 8 * * 1`  --  weekly SLA dashboard update.
 
 ## Full Cron Schedule
 
@@ -363,10 +363,10 @@ The agent maintains an incident response dashboard:
 ## Implementation Notes
 
 ### Never Fully Autonomous
-The response pipeline automates detection, classification, notification, and information gathering — but remediation decisions remain human. The agent's job is to reduce the cognitive load on responders by answering "what's happening right now?" so they can focus on "what do we do about it?"
+The response pipeline automates detection, classification, notification, and information gathering  --  but remediation decisions remain human. The agent's job is to reduce the cognitive load on responders by answering "what's happening right now?" so they can focus on "what do we do about it?"
 
 ### Runbook Quality
-This blueprint is only as effective as your runbooks. Invest in writing clear, current runbooks for your top failure modes. Review and update them quarterly. The automation can find the runbook — it can't fix the issue if the runbook is wrong.
+This blueprint is only as effective as your runbooks. Invest in writing clear, current runbooks for your top failure modes. Review and update them quarterly. The automation can find the runbook  --  it can't fix the issue if the runbook is wrong.
 
 ### Testing
 Schedule regular incident response drills:
@@ -379,11 +379,11 @@ Schedule regular incident response drills:
 - Add **deployment rollback automation** for common failure patterns (error rate spike within 5 minutes of deploy → automated rollback)
 - Integrate with **feature flags** to automatically disable problematic features
 - Connect to **customer communication** tools (Intercom, Zendesk) to notify affected customers proactively
-- Add **cost tracking** to incidents — compute the estimated cost of each incident for prioritization
+- Add **cost tracking** to incidents  --  compute the estimated cost of each incident for prioritization
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

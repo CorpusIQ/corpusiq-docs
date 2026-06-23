@@ -1,5 +1,5 @@
 ---
-title: Hermes Windows Native — Setup Guide
+title: Hermes Windows Native  --  Setup Guide
 description: Run Hermes Agent + WebUI on Windows without Docker or WSL2. One-click PowerShell launcher, shared venv, pure native workflow.
 category: Platform
 source: markwang2658/hermes-windows-native
@@ -10,7 +10,7 @@ stars: 20
 
 **Install:** `git clone https://github.com/markwang2658/hermes-windows-native.git`
 
-A Windows-native integrated package that bundles Hermes Agent v0.16.0 + Hermes WebUI v0.51.454 with a shared Python virtual environment, PowerShell launchers, and one-click startup. No Docker, no WSL2 — the lightest local footprint on Windows.
+A Windows-native integrated package that bundles Hermes Agent v0.16.0 + Hermes WebUI v0.51.454 with a shared Python virtual environment, PowerShell launchers, and one-click startup. No Docker, no WSL2  --  the lightest local footprint on Windows.
 
 ## Why Use This
 
@@ -82,9 +82,9 @@ F:\hermes-windows\
 ```
 
 ## Startup Order
-1. `hermes-env.ps1` — Loads environment variables
-2. `hermes-agent-start.ps1` — Starts Agent, waits until ready
-3. `hermes-webui-start.ps1` — Starts WebUI, waits until it responds
+1. `hermes-env.ps1`  --  Loads environment variables
+2. `hermes-agent-start.ps1`  --  Starts Agent, waits until ready
+3. `hermes-webui-start.ps1`  --  Starts WebUI, waits until it responds
 
 ## Free Models (Confirmed Working)
 

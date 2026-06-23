@@ -8,7 +8,7 @@ invoiced revenue.
 
 ### "How healthy is my sales pipeline?"
 
-**What this does:** Pipeline review — deal velocity, stalled
+**What this does:** Pipeline review  --  deal velocity, stalled
 opportunities, contact engagement gaps, forecast accuracy.
 **Connectors used:** HubSpot or LeadConnector, Email, Calendar,
 QuickBooks, Shopify.
@@ -31,7 +31,7 @@ contact.
 
 ### "Score every customer by health."
 
-**What this does:** Account-by-account health scoring — usage, billing,
+**What this does:** Account-by-account health scoring  --  usage, billing,
 engagement, support signals. Identifies healthy / at-risk / critical.
 **Connectors used:** HubSpot, GA4 (or PostHog), Email, QuickBooks.
 **Behind the scenes:** `customer-health-scorecard` skill.
@@ -42,7 +42,7 @@ and recommended action per account.
 
 ### "Which customers are about to churn?"
 
-**What this does:** Surfaces at-risk accounts before cancellation —
+**What this does:** Surfaces at-risk accounts before cancellation  -- 
 declining engagement, failed payments, support escalations.
 **Connectors used:** HubSpot, Email, QuickBooks, Klaviyo (if available).
 **Behind the scenes:** `churn-prevention` skill.
@@ -65,18 +65,18 @@ and last-activity.
 ### "Prep me for my call with Acme."
 
 **What this does:** Pulls everything CorpusIQ has on a specific account
-— CRM deal, recent emails, past meetings, invoice/payment history,
+ --  CRM deal, recent emails, past meetings, invoice/payment history,
 support threads.
 **Connectors used:** HubSpot, Email, Calendar, QuickBooks.
 **Behind the scenes:** `sales-call-prep-brief` skill.
-**Sample answer shape:** A pre-call brief — relationship state, open
+**Sample answer shape:** A pre-call brief  --  relationship state, open
 items, last touchpoint, suggested talking points.
 
 ---
 
 ### "Prepare a QBR deck for [customer name]."
 
-**What this does:** Builds a quarterly business review brief — usage
+**What this does:** Builds a quarterly business review brief  --  usage
 metrics, wins, open issues, expansion angles.
 **Connectors used:** HubSpot, GA4 or PostHog, Email.
 **Behind the scenes:** `qbr-prep-assembler` skill.
@@ -87,7 +87,7 @@ account's actuals.
 
 ### "How are bookings going? What's the meeting-to-close rate?"
 
-**What this does:** Analyzes the booked-meeting funnel — bookings,
+**What this does:** Analyzes the booked-meeting funnel  --  bookings,
 no-shows, demos completed, demo-to-deal rate.
 **Connectors used:** Calendly, HubSpot, Calendar.
 **Behind the scenes:** `meeting-funnel-analyst` skill.
@@ -104,9 +104,9 @@ activity.
 **Behind the scenes:** Pipeline + engagement join.
 **Sample answer shape:** Contact list ranked by touchpoint count.
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

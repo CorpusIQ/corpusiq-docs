@@ -1,5 +1,5 @@
 ---
-meta_title: "CorpusIQ Webhooks — Event Notifications and HMAC Signature Verification"
+meta_title: "CorpusIQ Webhooks  --  Event Notifications and HMAC Signature Verification"
 meta_desc: "Complete CorpusIQ webhooks guide: event types (user.deleted), HMAC-SHA256 signature verification, retry with exponential backoff, payload format, and setup instructions."
 category: "API Reference"
 tags: ["corpusiq webhooks", "event notifications", "hmac signature", "webhook security", "user deleted event", "webhook setup", "api events"]
@@ -16,7 +16,7 @@ CorpusIQ webhooks notify your application when specific events occur, such as us
 1. Log in to the [CorpusIQ Dashboard](https://corpusiq.io/dashboard)
 2. Navigate to **Settings → Webhooks**
 3. Enter your endpoint URL (must be HTTPS)
-4. Copy the signing secret — it will only be displayed once
+4. Copy the signing secret  --  it will only be displayed once
 
 CorpusIQ sends a verification request to your endpoint during registration. Your server must respond with HTTP `200` to confirm the endpoint is reachable.
 
@@ -143,7 +143,7 @@ Additional events will be documented here as they become available. Subscribe to
 
 - Always verify the `CorpusIQ-Signature` header before processing any webhook payload
 - Store your webhook signing secret securely (environment variables, secrets manager)
-- Use HTTPS for your webhook endpoint — CorpusIQ will not deliver to HTTP URLs
+- Use HTTPS for your webhook endpoint  --  CorpusIQ will not deliver to HTTP URLs
 - Process webhooks idempotently using the `event_id` field to handle retries
 - Respond with `200` before performing long-running processing to avoid timeouts
 
@@ -160,15 +160,15 @@ A: Failed deliveries are retried with exponential backoff: 60s → 5min → 15mi
 
 ## Internal Links
 
-- **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  
-- **[API Authentication Guide](/docs/api/authentication)** — Bearer tokens, OAuth 2.0, and security best practices  
-- **[API Endpoints Reference](/docs/api/endpoints)** — Complete request/response schemas and code examples  
-- **[API Rate Limits](/docs/api/rate-limits)** — Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/docs/api/webhooks)** — Event notifications and HMAC signature verification  
-- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2, and data residency  
-- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption, network security, and compliance  
+- **[CorpusIQ API Overview](/docs/api/overview)**  --  Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/docs/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/docs/api/endpoints)**  --  Complete request/response schemas and code examples  
+- **[API Rate Limits](/docs/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Event notifications and HMAC signature verification  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption, network security, and compliance  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *

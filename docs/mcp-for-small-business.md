@@ -10,13 +10,13 @@ robots: index,follow
 
 # MCP for Small Business: How to Connect Your Business Data to AI
 
-**Small Business teams need fast, accurate answers from their business data** — but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives small business professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports — just connect your tools and ask questions in plain English.
+**Small Business teams need fast, accurate answers from their business data**  --  but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives small business professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports  --  just connect your tools and ask questions in plain English.
 
 ## Why Small Businesses Need MCP
 
-Small businesses run on the same SaaS platforms as enterprises — QuickBooks for accounting, Shopify for ecommerce, HubSpot for CRM, Google Analytics for web traffic. The difference is that small businesses lack the resources to integrate these platforms into a unified view of the business.
+Small businesses run on the same SaaS platforms as enterprises  --  QuickBooks for accounting, Shopify for ecommerce, HubSpot for CRM, Google Analytics for web traffic. The difference is that small businesses lack the resources to integrate these platforms into a unified view of the business.
 
-The owner of a small retail business might check Shopify for orders, QuickBooks for cash position, and Google Analytics for website traffic — three separate logins, three separate dashboards, zero integration. Understanding how marketing spend translates to revenue requires manual spreadsheet work. Getting a clear picture of business health means hours of exporting and combining data.
+The owner of a small retail business might check Shopify for orders, QuickBooks for cash position, and Google Analytics for website traffic  --  three separate logins, three separate dashboards, zero integration. Understanding how marketing spend translates to revenue requires manual spreadsheet work. Getting a clear picture of business health means hours of exporting and combining data.
 
 MCP eliminates this fragmentation. Connect your platforms once through OAuth, and you can ask natural language questions that span all of them. "How much revenue did we generate from email campaigns last month?" "Which products have the best margin?" "Who are our top customers and what have they bought recently?" These are answers that small business owners need but typically can't get without manual effort.
 
@@ -31,7 +31,7 @@ Traditional business intelligence stacks are expensive:
 
 For a small business, this is non-viable. Even the lower end represents a significant fraction of revenue.
 
-CorpusIQ's MCP platform starts at a price point designed for small businesses — comparable to a single SaaS subscription rather than an enterprise BI deployment. There's no data warehouse to provision, no ETL pipelines to build, and no implementation consulting required. The setup is self-service OAuth authentication, taking minutes rather than months.
+CorpusIQ's MCP platform starts at a price point designed for small businesses  --  comparable to a single SaaS subscription rather than an enterprise BI deployment. There's no data warehouse to provision, no ETL pipelines to build, and no implementation consulting required. The setup is self-service OAuth authentication, taking minutes rather than months.
 
 ## Quick Setup: From Zero to Insights in Minutes
 
@@ -39,7 +39,7 @@ The setup process for a small business using CorpusIQ:
 
 **1. Create an account.** Sign up through the CorpusIQ platform. No credit card required to start.
 
-**2. Connect QuickBooks.** Authorize CorpusIQ to access your QuickBooks data through OAuth. The connection is read-only by default — CorpusIQ can read your financial data but cannot modify it.
+**2. Connect QuickBooks.** Authorize CorpusIQ to access your QuickBooks data through OAuth. The connection is read-only by default  --  CorpusIQ can read your financial data but cannot modify it.
 
 **3. Connect your CRM.** Authorize HubSpot, Salesforce, or your preferred CRM. Again, read-only access for querying contacts, deals, and pipeline data.
 
@@ -55,7 +55,7 @@ The entire process takes 10-15 minutes. There's no technical expertise required 
 
 Not every small business needs 30+ connectors. The essential ones for most SMBs are:
 
-**QuickBooks (or Xero).** Financial data is the foundation of business intelligence. Revenue, expenses, profit margins, cash position, accounts receivable — these are the numbers every business owner needs.
+**QuickBooks (or Xero).** Financial data is the foundation of business intelligence. Revenue, expenses, profit margins, cash position, accounts receivable  --  these are the numbers every business owner needs.
 
 **CRM (HubSpot, Salesforce, or similar).** Customer data, sales pipeline, deal tracking. Understanding who your customers are and how your sales process is performing.
 
@@ -98,7 +98,7 @@ With these five categories connected, a small business owner can answer virtuall
 <details>
 <summary><strong>Do I need technical expertise to set up MCP for my small business?</strong></summary>
 
-No. CorpusIQ's setup requires only OAuth authentication — clicking "Connect" and logging into each platform. No code, no configuration files, no command line. If you can log into QuickBooks, you can connect it to CorpusIQ.
+No. CorpusIQ's setup requires only OAuth authentication  --  clicking "Connect" and logging into each platform. No code, no configuration files, no command line. If you can log into QuickBooks, you can connect it to CorpusIQ.
 </details>
 
 <details>
@@ -116,19 +116,19 @@ CorpusIQ defaults to read-only access for all connectors. The AI cannot modify, 
 <details>
 <summary><strong>Can I connect multiple businesses or clients?</strong></summary>
 
-Yes. If you run multiple businesses or manage books for multiple clients, you can connect separate instances of each platform. Each connection is isolated — data from Business A is never mixed with Business B.
+Yes. If you run multiple businesses or manage books for multiple clients, you can connect separate instances of each platform. Each connection is isolated  --  data from Business A is never mixed with Business B.
 </details>
 
 <details>
 <summary><strong>What if I only use QuickBooks? Is MCP still useful with one platform?</strong></summary>
 
-Absolutely. Even with just QuickBooks connected, the ability to ask natural language questions about your financials — "What were my top 5 expense categories last quarter?" — saves significant time compared to running reports manually.
+Absolutely. Even with just QuickBooks connected, the ability to ask natural language questions about your financials  --  "What were my top 5 expense categories last quarter?"  --  saves significant time compared to running reports manually.
 </details>
 
 <details>
 <summary><strong>How is this different from just using ChatGPT?</strong></summary>
 
-ChatGPT without MCP can only answer from its training data — it can't access your actual QuickBooks, Shopify, or CRM data. With CorpusIQ, the AI assistant queries your live business data and returns specific, accurate answers based on your real numbers.
+ChatGPT without MCP can only answer from its training data  --  it can't access your actual QuickBooks, Shopify, or CRM data. With CorpusIQ, the AI assistant queries your live business data and returns specific, accurate answers based on your real numbers.
 </details>
 
 ## Internal Links
@@ -141,9 +141,9 @@ ChatGPT without MCP can only answer from its training data — it can't access y
 - [MCP for Sales: Pipeline and Forecasting](/docs/mcp-for-sales)
 - [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 ---
 
 *

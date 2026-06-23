@@ -1,19 +1,19 @@
 ---
-title: New Hermes Skill Repo — aawobdev/hermes-skills (Blueprint Orchestration)
-description: 12 newly discovered Hermes Agent skills from aawobdev/hermes-skills — a complete multi-agent blueprint orchestration system: Architect, Developer, Tester, Designer, DevOps, Security Auditor, End-User, Researcher, Orchestrator, Model Routing, Prompting Standards
+title: New Hermes Skill Repo  --  aawobdev/hermes-skills (Blueprint Orchestration)
+description: 12 newly discovered Hermes Agent skills from aawobdev/hermes-skills  --  a complete multi-agent blueprint orchestration system: Architect, Developer, Tester, Designer, DevOps, Security Auditor, End-User, Researcher, Orchestrator, Model Routing, Prompting Standards
 ---
 
-# New Skills: June 22, 2026 (Late Sweep) — aawobdev/hermes-skills
+# New Skills: June 22, 2026 (Late Sweep)  --  aawobdev/hermes-skills
 
 **Discovered:** June 22, 2026 via GitHub search + skills.sh
 **New repo:** 1 | **Net-new skills:** 12
 **Repo:** [aawobdev/hermes-skills](https://github.com/aawobdev/hermes-skills)
 
-A complete multi-agent blueprint orchestration system that splits work across 9 specialized roles — an expensive thinking model produces a detailed blueprint, then cheap local models execute under human supervision.
+A complete multi-agent blueprint orchestration system that splits work across 9 specialized roles  --  an expensive thinking model produces a detailed blueprint, then cheap local models execute under human supervision.
 
 ---
 
-## ⭐ aawobdev/hermes-skills — Blueprint Orchestration
+## ⭐ aawobdev/hermes-skills  --  Blueprint Orchestration
 
 **Stars:** 0 ⭐ | **License:** Not specified | **Created:** May 27, 2026
 **Author:** [Alistair (aawobdev)](https://github.com/aawobdev)
@@ -24,7 +24,7 @@ A complete multi-agent blueprint orchestration system that splits work across 9 
 
 > *"The expensive model thinks. The cheap models do. You supervise."*
 
-A frontier thinking model acts as **Architect** — it interviews you, makes all design decisions, and produces a detailed blueprint. Cheap local models then execute the blueprint role-by-role. Roles never talk directly — you are the relay.
+A frontier thinking model acts as **Architect**  --  it interviews you, makes all design decisions, and produces a detailed blueprint. Cheap local models then execute the blueprint role-by-role. Roles never talk directly  --  you are the relay.
 
 > *"If the blueprint is thorough enough, you don't need a frontier model for every task. A blueprint that specifies exact file names, function signatures, and verification commands turns a $0.001/task local model into a reliable executor."*
 
@@ -74,17 +74,17 @@ Any escalation goes back to Architect. Human is the relay between all phases.
 
 This is the **first community blueprint orchestration system** we've discovered for Hermes Agent. It addresses a core pain point: how to structure multi-agent projects without a single omnipotent prompt. Key innovations:
 
-- **Model routing by tier** — TIER 0 (OpenRouter Orchestrator) → TIER 1 (local Ollama for routine dev) → TIER 2 (OpenRouter paid for complex tasks) → TIER 3 (OpenRouter free tier) → TIER 4 (Claude Code CLI). Role-appropriate model assignment based on task complexity.
-- **Self-contained blueprints** — Each role receives only its task section + role card. Zero context leaking between roles.
-- **STATUS.md tracking** — Every task starts as `⬜ Todo`, progresses through `🟦 In Progress` → `✅ Done` → `❌ Failed`. Live progress, not a static plan.
-- **Escalation protocol** — Roles escalate to Architect (via human relay) when stuck, confused, or the spec is ambiguous. No silent drift.
-- **Local-first, cloud-fallback** — Uses local Ollama models by default (free, private), falls back to OpenRouter only for reasoning-heavy tasks.
+- **Model routing by tier**  --  TIER 0 (OpenRouter Orchestrator) → TIER 1 (local Ollama for routine dev) → TIER 2 (OpenRouter paid for complex tasks) → TIER 3 (OpenRouter free tier) → TIER 4 (Claude Code CLI). Role-appropriate model assignment based on task complexity.
+- **Self-contained blueprints**  --  Each role receives only its task section + role card. Zero context leaking between roles.
+- **STATUS.md tracking**  --  Every task starts as `⬜ Todo`, progresses through `🟦 In Progress` → `✅ Done` → `❌ Failed`. Live progress, not a static plan.
+- **Escalation protocol**  --  Roles escalate to Architect (via human relay) when stuck, confused, or the spec is ambiguous. No silent drift.
+- **Local-first, cloud-fallback**  --  Uses local Ollama models by default (free, private), falls back to OpenRouter only for reasoning-heavy tasks.
 
 ---
 
 ## Installation
 
-### Option A — Hermes Tap (recommended)
+### Option A  --  Hermes Tap (recommended)
 
 ```bash
 hermes skills tap add aawobdev/hermes-skills
@@ -96,7 +96,7 @@ Skills are immediately available. Update anytime:
 hermes skills tap update aawobdev/hermes-skills
 ```
 
-### Option B — Manual Clone
+### Option B  --  Manual Clone
 
 ```bash
 git clone https://github.com/aawobdev/hermes-skills ~/hermes-skills

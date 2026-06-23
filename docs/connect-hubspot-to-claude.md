@@ -1,6 +1,6 @@
 ---
-title: "Connect HubSpot to Claude via MCP — Live Data, No Code | CorpusIQ"
-description: "Connect your HubSpot account to Claude through CorpusIQ MCP. Ask natural language questions about your hubspot data and get real-time, source-cited answers — no exports, no coding required."
+title: "Connect HubSpot to Claude via MCP  --  Live Data, No Code | CorpusIQ"
+description: "Connect your HubSpot account to Claude through CorpusIQ MCP. Ask natural language questions about your hubspot data and get real-time, source-cited answers  --  no exports, no coding required."
 category: Claude Integrations
 tags: ["connect HubSpot to Claude", "HubSpot Claude integration", "MCP HubSpot connector", "HubSpot data to Claude", "AI for HubSpot", "CorpusIQ MCP"]
 last_updated: 2026-06-16
@@ -10,9 +10,9 @@ robots: index,follow
 
 # How to Connect HubSpot to Claude with CorpusIQ MCP
 
-Sales teams spend more time updating and navigating HubSpot than they do selling. Connecting HubSpot to Claude via CorpusIQ's MCP platform flips that dynamic — Claude becomes a natural language interface to your entire CRM. Ask "What deals are closing this month?", "Show me contacts who haven't been contacted in 30 days", or "What's our pipeline by stage and rep?" and get instant, accurate answers drawn from your live HubSpot data.
+Sales teams spend more time updating and navigating HubSpot than they do selling. Connecting HubSpot to Claude via CorpusIQ's MCP platform flips that dynamic  --  Claude becomes a natural language interface to your entire CRM. Ask "What deals are closing this month?", "Show me contacts who haven't been contacted in 30 days", or "What's our pipeline by stage and rep?" and get instant, accurate answers drawn from your live HubSpot data.
 
-The integration uses the Model Context Protocol (MCP), an open standard that CorpusIQ implements to connect Claude to business tools. Setup is point-and-click OAuth — no APIs to configure, no code to write, no developer required.
+The integration uses the Model Context Protocol (MCP), an open standard that CorpusIQ implements to connect Claude to business tools. Setup is point-and-click OAuth  --  no APIs to configure, no code to write, no developer required.
 
 ### Why Connect HubSpot to Claude?
 
@@ -29,17 +29,17 @@ HubSpot is the system of record for your customer relationships, sales pipeline,
 ### How the Integration Works
 
 1. **Connect HubSpot** via OAuth. CorpusIQ requests read-only access to contacts, companies, deals, and associated records.
-2. **Ask Claude** any question about your CRM data — pipeline, contacts, companies, deal status, activity history.
+2. **Ask Claude** any question about your CRM data  --  pipeline, contacts, companies, deal status, activity history.
 3. **CorpusIQ executes** the appropriate HubSpot API calls using your stored credentials.
 4. **Claude presents** the answer in natural language, with context and actionable recommendations.
 
-All communication is encrypted. CorpusIQ never stores your CRM data — every query is a live API call.
+All communication is encrypted. CorpusIQ never stores your CRM data  --  every query is a live API call.
 
 ### Setup Steps
 
 1. **Log into CorpusIQ** and go to Connectors.
 2. **Select HubSpot** from the integration list.
-3. **Click "Connect HubSpot"** — you'll be redirected to HubSpot's OAuth screen.
+3. **Click "Connect HubSpot"**  --  you'll be redirected to HubSpot's OAuth screen.
 4. **Authorize read-only access** to contacts, companies, deals, and associated records.
 5. **Return to CorpusIQ.** Start asking Claude CRM questions immediately.
 
@@ -67,7 +67,7 @@ All communication is encrypted. CorpusIQ never stores your CRM data — every qu
 **Cross-Source Intelligence:**
 - "Compare our HubSpot pipeline to actual revenue in QuickBooks by quarter." (requires QuickBooks)
 - "Which HubSpot contacts have active Stripe subscriptions?" (requires Stripe)
-- "Match HubSpot companies to Shopify customers — who buys through both channels?" (requires Shopify)
+- "Match HubSpot companies to Shopify customers  --  who buys through both channels?" (requires Shopify)
 
 ### Security
 
@@ -81,7 +81,7 @@ All communication is encrypted. CorpusIQ never stores your CRM data — every qu
 |---|---|---|
 | Setup time | Under 5 minutes | Hours to days |
 | Technical skill | None required | Developer required |
-| Natural language | Yes — ask Claude directly | No |
+| Natural language | Yes  --  ask Claude directly | No |
 | Cross-source | Built-in multi-tool correlation | Custom development |
 | Cost | Included in CorpusIQ | Developer time + maintenance |
 
@@ -121,9 +121,9 @@ OAuth scopes control access at the object level. For property-level restrictions
 
 **Next steps:** [Connect HubSpot to Claude now →](https://app.corpusiq.com/connect/hubspot)
 
-*Connect Connect HubSpot to Claude via MCP — Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect HubSpot to Claude via MCP  --  Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
-*Connect Connect HubSpot to Claude via MCP — Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect HubSpot to Claude via MCP  --  Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---
 
 *

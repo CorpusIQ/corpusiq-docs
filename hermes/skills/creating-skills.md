@@ -1,12 +1,12 @@
 ---
-title: Creating Custom Skills for Hermes Agent — Complete Step-by-Step Guide
+title: Creating Custom Skills for Hermes Agent  --  Complete Step-by-Step Guide
 description: Complete guide to creating custom Hermes Agent skills. SKILL.md anatomy, trigger patterns, verification steps, error recovery, testing methodology, and publishing. Build reusable AI agent workflows step by step.
 category: skills
 tags: [hermes-agent, skills, custom-skills, skill-development, triggers, testing, publishing, reusable-workflows]
 last_updated: 2026-06-16
 ---
 
-# Creating Custom Skills — A Complete Step-by-Step Guide
+# Creating Custom Skills  --  A Complete Step-by-Step Guide
 
 ## Before You Start: The Rule of Three
 
@@ -86,8 +86,8 @@ Trigger patterns determine when your skill activates. They should be specific en
 - "Marketing health check"
 
 **Bad trigger patterns:**
-- "marketing" (too broad — fires on any mention of marketing)
-- "Check our marketing performance this week including Facebook Ads and Google Analytics" (too specific — won't match natural variations)
+- "marketing" (too broad  --  fires on any mention of marketing)
+- "Check our marketing performance this week including Facebook Ads and Google Analytics" (too specific  --  won't match natural variations)
 
 Write 5-10 trigger patterns covering different ways a user might ask for your skill. Include variations in formality ("Show me our ad performance" vs. "I'd like to review advertising metrics"), time windows ("this week" vs. "last 7 days"), and specificity ("campaigns" vs. "Facebook campaigns").
 
@@ -101,7 +101,7 @@ Between major workflow steps, verify the data you received:
 
 **Freshness verification.** Is this data current? If a timestamp is older than expected, surface a caveat. "Last synced 3 days ago" is different from "real-time data."
 
-**Business rule verification.** Are values within expected ranges? If average order value suddenly tripled, something might be wrong with the data — not necessarily your skill, but worth flagging.
+**Business rule verification.** Are values within expected ranges? If average order value suddenly tripled, something might be wrong with the data  --  not necessarily your skill, but worth flagging.
 
 ## Error Recovery Patterns
 
@@ -109,7 +109,7 @@ Every tool call can fail. Your skill should handle these failure modes explicitl
 
 **Transient errors** (network timeout, rate limit, temporary API error): Retry with backoff. Start at 1 second, double each retry, cap at 3 attempts. Include jitter to avoid thundering-herd problems.
 
-**Authentication errors** (expired token, insufficient permissions): Don't retry — these won't self-resolve. Return a clear message: "Connector X needs re-authentication. Visit [link] to reconnect."
+**Authentication errors** (expired token, insufficient permissions): Don't retry  --  these won't self-resolve. Return a clear message: "Connector X needs re-authentication. Visit [link] to reconnect."
 
 **Data errors** (no results found, invalid parameters, upstream validation failure): Return what you can with clear caveats. "No orders found for the specified date range. If you expected results, verify the date range and try again."
 
@@ -189,7 +189,7 @@ Error: Record deleted between search and fetch → Retry search to confirm.
 Query billing system for recent invoices and payment status.
 
 Error: Billing system unavailable → Show CRM data with note: "Billing data
-unavailable — QuickBooks connector not responding."
+unavailable  --  QuickBooks connector not responding."
 
 ### Step 4: Gather Support Data
 Check for open support tickets and recent resolved tickets.
@@ -224,9 +224,9 @@ Skills need maintenance. Plan to:
 
 A well-maintained skill compounds in value. Every fix benefits every user.
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

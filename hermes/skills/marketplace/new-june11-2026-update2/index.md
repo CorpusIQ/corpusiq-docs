@@ -1,17 +1,17 @@
 ---
-title: "June 11, 2026 — Update #2 (28 New Skills)"
+title: "June 11, 2026  --  Update #2 (28 New Skills)"
 description: "Evening sweep: 23 OpenClaw ecosystem skills from aradotso/hermes-skills plus 5 new standalone Hermes skills. Agent control centers, Chinese platform integrations, deployment tooling, PPT generation, QQ bot, and marketing dashboard."
 ---
 
-# June 11, 2026 — Update #2: 28 New Skills
+# June 11, 2026  --  Update #2: 28 New Skills
 
-Third sweep of the day found **28 additional skills** not in the morning or afternoon discoveries. The `aradotso/hermes-skills` repo grew its OpenClaw ecosystem dramatically — 23 new skills covering control centers, deployment tooling, Chinese platform integrations (WeChat, DingTalk, Lark/Feishu), security guides, and training frameworks. Plus 5 standalone skills from independent publishers.
+Third sweep of the day found **28 additional skills** not in the morning or afternoon discoveries. The `aradotso/hermes-skills` repo grew its OpenClaw ecosystem dramatically  --  23 new skills covering control centers, deployment tooling, Chinese platform integrations (WeChat, DingTalk, Lark/Feishu), security guides, and training frameworks. Plus 5 standalone skills from independent publishers.
 
 *Previously cataloged today: aradotso/hermes-skills (31), membranedev/application-skills (10), nousresearch/hermes-agent (15), community standalone (5), aradotso/ai-agent-skills (2), aradotso/trending-skills (1).*
 
 ---
 
-## aradotso/hermes-skills — 23 new OpenClaw ecosystem skills
+## aradotso/hermes-skills  --  23 new OpenClaw ecosystem skills
 
 The community repo now has **54 skills** (up from 31). New additions focus on OpenClaw deployment, control interfaces, China integrations, and community resources.
 
@@ -82,7 +82,7 @@ npx skills add aradotso/hermes-skills@openclaw-security-practice-guide
 # Installer: Requires Docker + access to target deployment environment
 # Security: Read-only; no API keys required
 
-# Community resources (read-only — no API keys)
+# Community resources (read-only  --  no API keys)
 npx skills add aradotso/hermes-skills@awesome-openclaw-agents-templates
 npx skills add aradotso/hermes-skills@awesome-openclaw-tutorial
 npx skills add aradotso/hermes-skills@openclaw101-resource-platform
@@ -91,21 +91,21 @@ npx skills add aradotso/hermes-skills@openclaw-master-skills
 # Cost optimization & training
 npx skills add aradotso/hermes-skills@openclaw-zero-token
 npx skills add aradotso/hermes-skills@openclaw-rl-training
-# zero-token: Applies to any OpenClaw deployment — instant savings
+# zero-token: Applies to any OpenClaw deployment  --  instant savings
 # rl-training: Requires RL environment + training compute
 ```
 
 ---
 
-## Standalone Community Skills — 5 new
+## Standalone Community Skills  --  5 new
 
 Independent Hermes-relevant skills from four new publishers.
 
 | Skill | Installs | Use Case |
 |-------|----------|----------|
-| `wihy/hermes-agent-skill@hermes-agent` | 489 | Hermes agent skill from wihy — alternative community wrapper |
+| `wihy/hermes-agent-skill@hermes-agent` | 489 | Hermes agent skill from wihy  --  alternative community wrapper |
 | `aradotso/marketing-skills@hermes-marketing-dashboard` | 383 | Marketing analytics dashboard for Hermes agents |
-| `hermess/ppt-director@ppt-director` | 82 | PowerPoint presentation director — generate slide decks from Hermes |
+| `hermess/ppt-director@ppt-director` | 82 | PowerPoint presentation director  --  generate slide decks from Hermes |
 | `chujianyun/skills@hermes-qq` | 51 | QQ (Tencent) instant messaging bot integration |
 | `skills.volces.com@hermes-install` | 17 | Hermes installer from ByteDance/Volces |
 
@@ -149,7 +149,7 @@ npx skills add skills.volces.com@hermes-install
 | hermess/ppt-director | 1 | **1** | Productivity |
 | chujianyun/skills | 1 | **2** | Community Standalone |
 | skills.volces.com | 1 | **2** | ByteDance |
-| **Total New** | **28** | — | — |
+| **Total New** | **28** |  --  |  --  |
 
 **Combined June 11 total:** 38 (morning) + 19 (afternoon) + 28 (evening) = **85 new skills discovered today.**
 

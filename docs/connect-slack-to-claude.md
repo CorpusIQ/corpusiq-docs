@@ -1,5 +1,5 @@
 ---
-title: Connect Slack to Claude via MCP — Team Communication Intelligence in AI
+title: Connect Slack to Claude via MCP  --  Team Communication Intelligence in AI
 title: Connect Slack to Claude | CorpusIQ MCP Integration for Team Collaboration
 description: Connect Slack to Claude using CorpusIQ's MCP platform. Search messages, analyze channels, and surface knowledge from team conversations in natural language. Read-only OAuth, enterprise-grade
   security.
@@ -28,22 +28,22 @@ tags:
 
 # Connect Slack to Claude: Unlock Your Team's Knowledge Base
 
-Slack is where your organization's institutional knowledge lives — decisions, discussions, project updates, customer conversations, and tribal knowledge that isn't documented anywhere else. But Slack's search is limited, and finding the right conversation from six months ago often means scrolling through hundreds of messages. Connecting Slack to Claude via CorpusIQ's MCP platform transforms Slack from a message archive into a queryable knowledge base.
+Slack is where your organization's institutional knowledge lives  --  decisions, discussions, project updates, customer conversations, and tribal knowledge that isn't documented anywhere else. But Slack's search is limited, and finding the right conversation from six months ago often means scrolling through hundreds of messages. Connecting Slack to Claude via CorpusIQ's MCP platform transforms Slack from a message archive into a queryable knowledge base.
 
 Ask Claude "What was the decision on the Q3 pricing strategy?", "Find conversations about [customer name] from the last month", or "Summarize the #product-launch channel activity this week" and receive accurate, context-rich answers drawn from your live Slack workspace.
 
 ## Why Connect Slack to Claude?
 
-Slack contains answers to thousands of questions your team asks every day — but those answers are buried in message threads, scattered across channels, and inaccessible through Slack's surface-level search. Claude becomes the intelligence layer that surfaces exactly what you need.
+Slack contains answers to thousands of questions your team asks every day  --  but those answers are buried in message threads, scattered across channels, and inaccessible through Slack's surface-level search. Claude becomes the intelligence layer that surfaces exactly what you need.
 
 **Key benefits:**
 
-- **Instant knowledge retrieval.** "What did the engineering team decide about the API rate limit issue?" — answered from real Slack conversations.
+- **Instant knowledge retrieval.** "What did the engineering team decide about the API rate limit issue?"  --  answered from real Slack conversations.
 - **Cross-channel synthesis.** Claude can pull context from multiple channels to answer complex questions.
 - **Customer conversation intelligence.** Search for all mentions of a customer across public channels to understand account health.
 - **Project status at a glance.** "Summarize this week's activity in #product-development" without reading every message.
 - **Onboarding acceleration.** New team members can ask Claude about past decisions, processes, and tribal knowledge that would otherwise take months to absorb.
-- **Meeting and decision capture.** "What was decided in the Q2 planning thread?" — instant retrieval of organizational decisions.
+- **Meeting and decision capture.** "What was decided in the Q2 planning thread?"  --  instant retrieval of organizational decisions.
 
 ## How It Works
 
@@ -58,7 +58,7 @@ Claude can search across public channels and private channels it has been added 
 
 1. Navigate to **Connectors** in CorpusIQ.
 2. Select **Slack** from the integration catalog.
-3. Click **"Connect Slack"** — authorize via Slack OAuth.
+3. Click **"Connect Slack"**  --  authorize via Slack OAuth.
 4. Review the workspace permissions (channels:read, channels:history, search:read, files:read).
 5. Start asking Claude about your team's conversations.
 
@@ -124,13 +124,13 @@ A: Grant CorpusIQ access only to specific channels by configuring your Slack app
 
 ## Internal Links
 
-- [Connect Notion to Claude](/docs/connect-notion-to-claude/) — Knowledge management in Claude.
-- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude/) — Enterprise document access.
-- [Connect HubSpot to Claude](/docs/connect-hubspot-to-claude/) — CRM data in Claude.
-- [AI for Knowledge Management](/docs/ai-for-knowledge-management/) — AI-powered knowledge retrieval.
-- [AI for Document Search](/docs/ai-for-document-search/) — Document intelligence.
-- [AI for Customer Support](/docs/ai-for-customer-support/) — Support intelligence.
-- [What is MCP?](/docs/what-is-mcp/) — Understanding the Model Context Protocol.
+- [Connect Notion to Claude](/docs/connect-notion-to-claude/)  --  Knowledge management in Claude.
+- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude/)  --  Enterprise document access.
+- [Connect HubSpot to Claude](/docs/connect-hubspot-to-claude/)  --  CRM data in Claude.
+- [AI for Knowledge Management](/docs/ai-for-knowledge-management/)  --  AI-powered knowledge retrieval.
+- [AI for Document Search](/docs/ai-for-document-search/)  --  Document intelligence.
+- [AI for Customer Support](/docs/ai-for-customer-support/)  --  Support intelligence.
+- [What is MCP?](/docs/what-is-mcp/)  --  Understanding the Model Context Protocol.
 
 ---
 

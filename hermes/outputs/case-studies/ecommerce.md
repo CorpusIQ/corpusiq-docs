@@ -57,7 +57,7 @@ Cart abandonment costs ecommerce businesses billions annually. Hermes turns aban
 - **Mid-value carts** ($50-$200): Automated recovery email at 4 hours, reminder at 24 hours
 - **Low-value carts** (<$50): Single automated email at 24 hours
 
-A "Cart recovery report" skill shows recovery rate by value tier, channel, and time window. This data feeds into optimization decisions — are high-value cart emails converting? Should the timing change?
+A "Cart recovery report" skill shows recovery rate by value tier, channel, and time window. This data feeds into optimization decisions  --  are high-value cart emails converting? Should the timing change?
 
 ### Multi-Channel Listing Management
 
@@ -74,12 +74,12 @@ For businesses using MAP (Minimum Advertised Price) policies, a cron monitors ma
 
 ## Benefits
 
-- **No overselling** — inventory synchronized across channels every 15 minutes
-- **Faster fulfillment** — orders enriched and routed to correct workflow automatically
-- **Recovered revenue** — abandoned cart recovery segmented by value tier
-- **Consistent listings** — price and content parity enforced across all sales channels
-- **MAP compliance** — unauthorized discounters flagged daily
-- **Morning clarity** — daily operations digest replaces multi-dashboard checking
+- **No overselling**  --  inventory synchronized across channels every 15 minutes
+- **Faster fulfillment**  --  orders enriched and routed to correct workflow automatically
+- **Recovered revenue**  --  abandoned cart recovery segmented by value tier
+- **Consistent listings**  --  price and content parity enforced across all sales channels
+- **MAP compliance**  --  unauthorized discounters flagged daily
+- **Morning clarity**  --  daily operations digest replaces multi-dashboard checking
 
 ## Common Patterns and Anti-Patterns
 
@@ -131,15 +131,15 @@ Hermes skills can be configured with currency conversion logic and region-specif
 
 ## Related Pages
 
-- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md) — Pipeline management and revenue reconciliation
-- [Hermes Agent for Manufacturing](../case-studies/manufacturing.md) — Supply chain and inventory monitoring
-- [Hermes Agent for Real Estate](../case-studies/real-estate.md) — Multi-platform listing management
-- [Hermes Agent for Startups](../by-company-size/startup.md) — Lean ecommerce automation for early-stage
-- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md)  --  Pipeline management and revenue reconciliation
+- [Hermes Agent for Manufacturing](../case-studies/manufacturing.md)  --  Supply chain and inventory monitoring
+- [Hermes Agent for Real Estate](../case-studies/real-estate.md)  --  Multi-platform listing management
+- [Hermes Agent for Startups](../by-company-size/startup.md)  --  Lean ecommerce automation for early-stage
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

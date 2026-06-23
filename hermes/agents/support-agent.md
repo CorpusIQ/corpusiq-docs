@@ -1,5 +1,5 @@
 ---
-title: Hermes Support Agent — Customer Ticket Triage & SLA Automation
+title: Hermes Support Agent  --  Customer Ticket Triage & SLA Automation
 description: Deploy an AI customer support agent for ticket triage, knowledge base search, response drafting, SLA monitoring, and trending issue detection. Complete Hermes configuration blueprint.
 category: Agents
 tags:
@@ -11,15 +11,15 @@ tags:
 last_updated: 2026-06-16
 ---
 
-# Hermes Support Agent — Autonomous Ticket Triage & SLA Monitoring
+# Hermes Support Agent  --  Autonomous Ticket Triage & SLA Monitoring
 
-The **Hermes Support Agent** is your **first line of defense for customer inquiries** — it triages incoming tickets, searches your knowledge base for answers, drafts response templates, monitors **SLA compliance**, and surfaces **trending issues** before they become support crises. Deploy in minutes to handle the repetitive parts of ticket management so your human team can focus on complex, empathy-requiring conversations.
+The **Hermes Support Agent** is your **first line of defense for customer inquiries**  --  it triages incoming tickets, searches your knowledge base for answers, drafts response templates, monitors **SLA compliance**, and surfaces **trending issues** before they become support crises. Deploy in minutes to handle the repetitive parts of ticket management so your human team can focus on complex, empathy-requiring conversations.
 
 This agent integrates with your helpdesk, knowledge base, CRM, and communication tools through [CorpusIQ MCP connectors](/hermes/mcp/connectors/).
 
 ## Overview
 
-**The Support Agent eliminates manual ticket sorting and response drafting.** Every 5 minutes it scans for new tickets, classifies them by type and priority, routes them to the right team, and — for common issues — drafts complete responses pulled from your knowledge base. Human agents review and send with one click.
+**The Support Agent eliminates manual ticket sorting and response drafting.** Every 5 minutes it scans for new tickets, classifies them by type and priority, routes them to the right team, and  --  for common issues  --  drafts complete responses pulled from your knowledge base. Human agents review and send with one click.
 
 | Capability | What It Does |
 |-----------|-------------|
@@ -33,24 +33,24 @@ This agent integrates with your helpdesk, knowledge base, CRM, and communication
 
 ## How It Works
 
-1. **Connect your helpdesk** — via API integration with Zendesk, Intercom, Freshdesk, or Help Scout
-2. **Link your knowledge base** — Notion, Airtable, or Google Drive with support articles and macros
-3. **Load the skills** — Ticket triage, KB search, response draft, SLA monitor, trending issues
-4. **Schedule the crons** — Every-5-minute triage, every-30-minute SLA checks, daily summaries
-5. **Human agents review** — The agent drafts, humans approve and send
+1. **Connect your helpdesk**  --  via API integration with Zendesk, Intercom, Freshdesk, or Help Scout
+2. **Link your knowledge base**  --  Notion, Airtable, or Google Drive with support articles and macros
+3. **Load the skills**  --  Ticket triage, KB search, response draft, SLA monitor, trending issues
+4. **Schedule the crons**  --  Every-5-minute triage, every-30-minute SLA checks, daily summaries
+5. **Human agents review**  --  The agent drafts, humans approve and send
 
 ## Key Features
 
-- **Every-5-minute ticket triage** during business hours — classification, prioritization, routing
+- **Every-5-minute ticket triage** during business hours  --  classification, prioritization, routing
 - **Auto-drafted responses** for low-complexity tickets (password resets, billing questions, shipping status)
 - **SLA breach risk detection** every 30 minutes with escalating alerts to team leads
-- **Daily support summary** at 5:30 PM — tickets created, resolved, breached
-- **Trending issue clustering** — detects when 3+ tickets share keywords or error patterns
-- **Knowledge base gap analysis** — identifies common questions with no existing article
+- **Daily support summary** at 5:30 PM  --  tickets created, resolved, breached
+- **Trending issue clustering**  --  detects when 3+ tickets share keywords or error patterns
+- **Knowledge base gap analysis**  --  identifies common questions with no existing article
 
 ## Recommended Model
 
-**Claude Sonnet 4** or **GPT-4o** — nuanced language for customer-facing responses with empathy and brand voice. Use **Claude Haiku** or **GPT-4o Mini** for classification and routing at scale.
+**Claude Sonnet 4** or **GPT-4o**  --  nuanced language for customer-facing responses with empathy and brand voice. Use **Claude Haiku** or **GPT-4o Mini** for classification and routing at scale.
 
 ## MCP Connectors Needed
 
@@ -111,7 +111,7 @@ hermes agent create support \
 
 ### What does the Hermes Support Agent do?
 
-The **Hermes Support Agent** autonomously triages incoming support tickets, searches your knowledge base for answers, drafts response templates, monitors SLA compliance with breach alerts, and detects trending issues from ticket clusters — all on scheduled crons.
+The **Hermes Support Agent** autonomously triages incoming support tickets, searches your knowledge base for answers, drafts response templates, monitors SLA compliance with breach alerts, and detects trending issues from ticket clusters  --  all on scheduled crons.
 
 ### How does ticket triage work?
 
@@ -119,7 +119,7 @@ Every 5 minutes during business hours, the agent scans for unassigned tickets, *
 
 ### Can the agent write responses to customers?
 
-Yes. For low-complexity tickets (password resets, billing questions, shipping status), the agent **drafts complete responses** using knowledge base articles and past resolved tickets. **Human agents review and send** with one click — the agent never sends without approval.
+Yes. For low-complexity tickets (password resets, billing questions, shipping status), the agent **drafts complete responses** using knowledge base articles and past resolved tickets. **Human agents review and send** with one click  --  the agent never sends without approval.
 
 ### How does SLA monitoring work?
 
@@ -131,15 +131,15 @@ The agent clusters tickets with **similar keywords or error messages**. When 3+ 
 
 ## Related Pages
 
-- [Agent Library — All 9 Role Configurations](/hermes/agents/)
-- [Sales Agent — Pipeline & CRM Automation](/hermes/agents/sales-agent.md)
-- [DevOps Agent — Infrastructure & Incident Management](/hermes/agents/devops-agent.md)
-- [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
+- [Agent Library  --  All 9 Role Configurations](/hermes/agents/)
+- [Sales Agent  --  Pipeline & CRM Automation](/hermes/agents/sales-agent.md)
+- [DevOps Agent  --  Infrastructure & Incident Management](/hermes/agents/devops-agent.md)
+- [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

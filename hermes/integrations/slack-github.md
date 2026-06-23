@@ -1,12 +1,12 @@
 ---
-title: Slack + GitHub Integration for Hermes Agent — Automated Dev Workflow Notifications
+title: Slack + GitHub Integration for Hermes Agent  --  Automated Dev Workflow Notifications
 description: Connect Slack and GitHub to Hermes Agent for automated PR notifications, issue triage, deployment status alerts, and daily standup digests. MCP server setup, webhook configuration, and cron patterns for development teams.
 category: integrations
 tags: [hermes-agent, integration, slack, github, pr-notifications, issue-tracking, deployment, devops, webhooks]
 last_updated: 2026-06-16
 ---
 
-# Slack + GitHub Integration — Automated Dev Workflow Notifications
+# Slack + GitHub Integration  --  Automated Dev Workflow Notifications
 
 ## Architecture Overview
 
@@ -146,9 +146,9 @@ Webhooks eliminate polling latency but require your Hermes instance to be reacha
 - **Respect working hours.** Route urgent issues (security, production incidents) 24/7. Route everything else only during working hours.
 - **Test in a sandbox channel first.** Set up a #bot-testing channel and direct all notifications there until you've tuned the signal-to-noise ratio.
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

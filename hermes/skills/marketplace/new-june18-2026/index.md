@@ -1,9 +1,9 @@
 ---
-title: New Skills — June 18, 2026 (nousresearch/hermes-agent expansion)
-description: 32 new Hermes Agent skills discovered June 18, 2026 from nousresearch/hermes-agent — macOS desktop automation, Node.js/Python debugging, smart home control, subagent workflows, music generation, and more.
+title: New Skills  --  June 18, 2026 (nousresearch/hermes-agent expansion)
+description: 32 new Hermes Agent skills discovered June 18, 2026 from nousresearch/hermes-agent  --  macOS desktop automation, Node.js/Python debugging, smart home control, subagent workflows, music generation, and more.
 ---
 
-# New Skills — June 18, 2026
+# New Skills  --  June 18, 2026
 
 **Source:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) via [skills.sh](https://skills.sh/nousresearch/hermes-agent)
 **Date:** June 18, 2026
@@ -16,7 +16,7 @@ description: 32 new Hermes Agent skills discovered June 18, 2026 from nousresear
 | 1 | `heartmula` | 136 | Suno-like song generation from lyrics + tags via HeartMuLa |
 | 2 | `node-inspect-debugger` | 136 | Debug Node.js via --inspect + Chrome DevTools Protocol CLI |
 | 3 | `openhue` | 135 | Control Philips Hue lights, scenes, rooms via OpenHue CLI |
-| 4 | `macos-computer-use` | 134 | Drive macOS desktop: screenshots, mouse, keyboard, scroll, drag — without stealing focus |
+| 4 | `macos-computer-use` | 134 | Drive macOS desktop: screenshots, mouse, keyboard, scroll, drag  --  without stealing focus |
 | 5 | `teams-meeting-pipeline` | 133 | Operate Teams meeting summary pipeline: summarize, inspect, replay, manage Graph subscriptions |
 | 6 | `python-debugpy` | 133 | Debug Python: pdb REPL + debugpy remote (DAP) |
 | 7 | `godmode` | 130 | Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN |
@@ -69,7 +69,7 @@ npx skills add nousresearch/hermes-agent --skill subagent-driven-development
 
 **Use for:** Multi-file refactors, feature implementation, parallel task execution with review gates.
 
-### godmode (130 installs) — LLM Jailbreaking
+### godmode (130 installs)  --  LLM Jailbreaking
 
 Jailbreak LLMs using Parseltongue, GODMODE, and ULTRAPLINIAN techniques. For red-teaming, safety testing, and understanding model boundaries.
 
@@ -78,9 +78,9 @@ Jailbreak LLMs using Parseltongue, GODMODE, and ULTRAPLINIAN techniques. For red
 npx skills add nousresearch/hermes-agent --skill godmode
 ```
 
-### macos-computer-use (134 installs) — Desktop Automation
+### macos-computer-use (134 installs)  --  Desktop Automation
 
-Drive the macOS desktop in the background — screenshots, mouse, keyboard, scroll, drag — without stealing the user's cursor, keyboard focus, or Space. Works with any tool-capable model.
+Drive the macOS desktop in the background  --  screenshots, mouse, keyboard, scroll, drag  --  without stealing the user's cursor, keyboard focus, or Space. Works with any tool-capable model.
 
 **Install:**
 ```bash
@@ -89,7 +89,7 @@ npx skills add nousresearch/hermes-agent --skill macos-computer-use
 
 **Prerequisites:** macOS, Accessibility permissions, `computer_use` tool available.
 
-### linear (80 installs) — Project Management
+### linear (80 installs)  --  Project Management
 
 Manage Linear issues, projects, and teams via GraphQL API + curl. Create/update issues, query project state, manage team workflows.
 
@@ -100,16 +100,16 @@ npx skills add nousresearch/hermes-agent --skill linear
 
 **Prerequisites:** Linear API key.
 
-### webhook-subscriptions (80 installs) — Event-Driven Automation
+### webhook-subscriptions (80 installs)  --  Event-Driven Automation
 
-Set up webhook subscriptions for event-driven agent runs. Trigger agents on external events — GitHub pushes, API calls, scheduled events.
+Set up webhook subscriptions for event-driven agent runs. Trigger agents on external events  --  GitHub pushes, API calls, scheduled events.
 
 **Install:**
 ```bash
 npx skills add nousresearch/hermes-agent --skill webhook-subscriptions
 ```
 
-### teams-meeting-pipeline (133 installs) — Meeting Automation
+### teams-meeting-pipeline (133 installs)  --  Meeting Automation
 
 Operate the Teams meeting summary pipeline via Hermes CLI. Summarize meetings, inspect pipeline status, replay jobs, manage Microsoft Graph subscriptions.
 
@@ -120,7 +120,7 @@ npx skills add nousresearch/hermes-agent --skill teams-meeting-pipeline
 
 **Prerequisites:** MSGRAPH_TENANT_ID, MSGRAPH_CLIENT_ID, MSGRAPH_CLIENT_SECRET.
 
-### node-inspect-debugger (136 installs) — Node.js Debugging
+### node-inspect-debugger (136 installs)  --  Node.js Debugging
 
 Debug Node.js via `--inspect` + Chrome DevTools Protocol CLI. Set breakpoints, inspect variables, step through code programmatically.
 
@@ -129,7 +129,7 @@ Debug Node.js via `--inspect` + Chrome DevTools Protocol CLI. Set breakpoints, i
 npx skills add nousresearch/hermes-agent --skill node-inspect-debugger
 ```
 
-### python-debugpy (133 installs) — Python Debugging
+### python-debugpy (133 installs)  --  Python Debugging
 
 Debug Python with pdb REPL + debugpy remote (DAP). Attach to running processes, set conditional breakpoints, inspect stack frames.
 
@@ -138,9 +138,9 @@ Debug Python with pdb REPL + debugpy remote (DAP). Attach to running processes, 
 npx skills add nousresearch/hermes-agent --skill python-debugpy
 ```
 
-### openhue (135 installs) — Smart Home
+### openhue (135 installs)  --  Smart Home
 
-Control Philips Hue lights, scenes, and rooms via OpenHue CLI. Agent-driven lighting automation — set scenes, adjust brightness, trigger room presets.
+Control Philips Hue lights, scenes, and rooms via OpenHue CLI. Agent-driven lighting automation  --  set scenes, adjust brightness, trigger room presets.
 
 **Install:**
 ```bash
@@ -149,7 +149,7 @@ npx skills add nousresearch/hermes-agent --skill openhue
 
 **Prerequisites:** Philips Hue Bridge on local network, OpenHue CLI configured.
 
-### heartmula (136 installs) — Music Generation
+### heartmula (136 installs)  --  Music Generation
 
 Suno-like song generation from lyrics + tags. Generate complete songs with vocals, instrumentation, and production.
 
@@ -184,9 +184,9 @@ npx skills add nousresearch/hermes-agent --skill heartmula
 | `minecraft-modpack-server` | Gaming | Host modded Minecraft servers |
 | `pokemon-player` | Gaming | Headless Pokemon emulator |
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

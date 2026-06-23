@@ -1,6 +1,6 @@
 ---
-title: "Connect NetSuite to Claude via MCP — Live Data, No Code | CorpusIQ"
-description: "Connect your NetSuite account to Claude through CorpusIQ MCP. Ask natural language questions about your netsuite data and get real-time, source-cited answers — no exports, no coding required."
+title: "Connect NetSuite to Claude via MCP  --  Live Data, No Code | CorpusIQ"
+description: "Connect your NetSuite account to Claude through CorpusIQ MCP. Ask natural language questions about your netsuite data and get real-time, source-cited answers  --  no exports, no coding required."
 category: Claude Integrations
 tags: ["connect NetSuite to Claude", "NetSuite Claude integration", "MCP NetSuite connector", "NetSuite data to Claude", "AI for NetSuite", "CorpusIQ MCP"]
 last_updated: 2026-06-16
@@ -10,18 +10,18 @@ robots: index,follow
 
 # How to Connect NetSuite to Claude with CorpusIQ MCP
 
-Oracle NetSuite is the ERP backbone for thousands of enterprises — managing financials, inventory, orders, procurement, and CRM in one platform. But accessing NetSuite data for analysis typically requires SuiteScript developers, saved searches, or expensive BI integrations. Connecting NetSuite to Claude via CorpusIQ's MCP platform eliminates those barriers.
+Oracle NetSuite is the ERP backbone for thousands of enterprises  --  managing financials, inventory, orders, procurement, and CRM in one platform. But accessing NetSuite data for analysis typically requires SuiteScript developers, saved searches, or expensive BI integrations. Connecting NetSuite to Claude via CorpusIQ's MCP platform eliminates those barriers.
 
 Ask Claude "What's our inventory position across all warehouses?", "Show me open purchase orders by vendor", or "What's our consolidated P&L by subsidiary?" and receive instant, accurate answers from your live NetSuite data. No SuiteScript. No saved searches. No consultant engagement.
 
 ### Why Connect NetSuite to Claude?
 
-NetSuite is powerful but notoriously difficult to query — especially for non-technical users. Claude becomes the natural language interface that makes NetSuite data accessible to every department.
+NetSuite is powerful but notoriously difficult to query  --  especially for non-technical users. Claude becomes the natural language interface that makes NetSuite data accessible to every department.
 
 **Key benefits:**
 
 - **Financial intelligence for everyone.** Finance, operations, and executive teams can query P&L, balance sheet, and financial reports without NetSuite training.
-- **Inventory visibility.** "Which SKUs are below reorder point across all warehouses?" — answered in seconds.
+- **Inventory visibility.** "Which SKUs are below reorder point across all warehouses?"  --  answered in seconds.
 - **Order and procurement tracking.** "Show me all purchase orders that haven't been received."
 - **Cross-subsidiary consolidation.** Query data across multiple subsidiaries in a single Claude conversation.
 - **Cross-source enterprise intelligence.** Combine NetSuite financials with Salesforce pipeline, Stripe payments, or Shopify orders.
@@ -77,7 +77,7 @@ NetSuite is powerful but notoriously difficult to query — especially for non-t
 | Aspect | CorpusIQ MCP | NetSuite API Direct |
 |---|---|---|
 | Setup | TBA token entry (15 min with admin) | Developer + SuiteTalk integration |
-| Natural language | Yes | No — REST/SOAP queries only |
+| Natural language | Yes | No  --  REST/SOAP queries only |
 | Cross-source | Built-in | Custom data warehouse |
 | Saved search equivalent | Automatic query construction | Must build saved searches |
 | Non-technical access | Anyone | NetSuite admins only |
@@ -111,16 +111,16 @@ Yes, provided your TBA role has access to the relevant subsidiaries.
 <details>
 <summary><strong>Can I restrict which subsidiaries Claude can see?</strong></summary>
 
-Yes. Configure your NetSuite role's subsidiary restrictions — CorpusIQ honors them.
+Yes. Configure your NetSuite role's subsidiary restrictions  --  CorpusIQ honors them.
 </details>
 
 ---
 
 **Next steps:** [Connect NetSuite to Claude now →](https://app.corpusiq.com/connect/netsuite)
 
-*Connect Connect NetSuite to Claude via MCP — Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect NetSuite to Claude via MCP  --  Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
-*Connect Connect NetSuite to Claude via MCP — Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect NetSuite to Claude via MCP  --  Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---
 
 *

@@ -3,7 +3,7 @@ title: 'Shopify Business Intelligence: AI-Powered Ecommerce BI Platform | Corpus
 description: Transform Shopify into a business intelligence platform with CorpusIQ MCP. Unify sales, marketing, inventory, and financial data for AI-powered ecommerce intelligence across your entire business.
 url: /docs/shopify-business-intelligence
 h1: 'Shopify Business Intelligence: Turn Your Store Data into Strategic Advantage'
-title: Shopify Business Intelligence — AI-Powered Ecommerce BI | CorpusIQ
+title: Shopify Business Intelligence  --  AI-Powered Ecommerce BI | CorpusIQ
 description: Upgrade Shopify to an enterprise BI platform with CorpusIQ MCP. Unify ecommerce, marketing, financial, and customer data for AI-powered business intelligence and cross-source analytics.
 keywords:
 - Shopify business intelligence
@@ -22,9 +22,9 @@ canonical_url: https://corpusiq.com/docs/shopify-business-intelligence
 
 # Shopify Business Intelligence: Turn Your Store Data into Strategic Advantage
 
-Shopify captures the transactional heart of your ecommerce business — but it doesn't operate in isolation. Your sales are influenced by marketing campaigns run in Google and Meta. Your customers engage through email and SMS in Klaviyo. Your finances are reconciled in QuickBooks. Your web traffic flows through GA4. **CorpusIQ's Business Intelligence platform for Shopify unifies these disconnected data streams into a single, AI-powered intelligence layer.**
+Shopify captures the transactional heart of your ecommerce business  --  but it doesn't operate in isolation. Your sales are influenced by marketing campaigns run in Google and Meta. Your customers engage through email and SMS in Klaviyo. Your finances are reconciled in QuickBooks. Your web traffic flows through GA4. **CorpusIQ's Business Intelligence platform for Shopify unifies these disconnected data streams into a single, AI-powered intelligence layer.**
 
-This isn't another analytics tool. It's a fundamental shift in how ecommerce businesses access and act on their data. Instead of piecing together insights from 5-10 different platforms — each with its own dashboard, export process, and analytics vocabulary — you ask questions in plain English and receive answers synthesized from every system that matters.
+This isn't another analytics tool. It's a fundamental shift in how ecommerce businesses access and act on their data. Instead of piecing together insights from 5-10 different platforms  --  each with its own dashboard, export process, and analytics vocabulary  --  you ask questions in plain English and receive answers synthesized from every system that matters.
 
 ## How It Works
 
@@ -49,7 +49,7 @@ The AI queries across all connected sources simultaneously, joining data that li
 - **Full-Funnel Analytics**: GA4 traffic + Shopify conversion + Klaviyo retention = complete customer journey
 
 ### Dimension 3: AI-Powered Delivery
-Insights are delivered conversationally through ChatGPT or Claude, scheduled as automated reports, or surfaced as real-time alerts — whatever format suits your workflow.
+Insights are delivered conversationally through ChatGPT or Claude, scheduled as automated reports, or surfaced as real-time alerts  --  whatever format suits your workflow.
 
 ## Key Benefits
 
@@ -57,21 +57,21 @@ Insights are delivered conversationally through ChatGPT or Claude, scheduled as 
 Stop juggling 8 different dashboards. Stop manually reconciling Shopify against Stripe against QuickBooks. CorpusIQ BI provides a unified query layer that speaks to every system in your stack and presents consistent, reconciled answers.
 
 ### Marketing Attribution Without the Guesswork
-True attribution requires connecting ad spend to actual sales. "What's the ROAS on our Google Ads campaigns?" — the AI pulls spend from Google Ads, matches it to attributed Shopify orders, computes ROAS including discount costs and returns, and presents campaign-level profitability. Attribution that marketing teams spend days building in spreadsheets — now in 30 seconds.
+True attribution requires connecting ad spend to actual sales. "What's the ROAS on our Google Ads campaigns?"  --  the AI pulls spend from Google Ads, matches it to attributed Shopify orders, computes ROAS including discount costs and returns, and presents campaign-level profitability. Attribution that marketing teams spend days building in spreadsheets  --  now in 30 seconds.
 
 ### Customer Intelligence Across Touchpoints
-Your customers interact with your brand across your store, your emails, your ads, and your support channels. "Show me the complete journey of customers who spent over $500 this year — where did they come from, what emails did they engage with, what products did they browse before buying?" Cross-source customer intelligence reveals the full picture.
+Your customers interact with your brand across your store, your emails, your ads, and your support channels. "Show me the complete journey of customers who spent over $500 this year  --  where did they come from, what emails did they engage with, what products did they browse before buying?" Cross-source customer intelligence reveals the full picture.
 
 ### Inventory-Financial Alignment
 Inventory is both an operational concern (stock levels in Shopify) and a financial concern (asset value in QuickBooks). "Reconcile our Shopify inventory value against our QuickBooks inventory asset account and flag any discrepancies over $500." Cross-source BI catches the gaps between operations and accounting.
 
 ### Strategic Decision Support
-When you're evaluating a major decision — launching a new product line, entering a new market, changing your pricing strategy — you need data from everywhere. BI synthesizes the complete picture: market trends, customer behavior, financial impact, and operational feasibility — in one analytical conversation.
+When you're evaluating a major decision  --  launching a new product line, entering a new market, changing your pricing strategy  --  you need data from everywhere. BI synthesizes the complete picture: market trends, customer behavior, financial impact, and operational feasibility  --  in one analytical conversation.
 
 ## Use Cases
 
 ### Full-Funnel Performance Analysis
-An ecommerce director asks: "Show me our complete marketing funnel — GA4 sessions by channel → Shopify add-to-carts and conversion rate → first-order AOV and new customer count → 30-day repeat purchase rate from Klaviyo post-purchase flows → 90-day LTV. Break down by marketing channel and identify the highest-ROI acquisition path."
+An ecommerce director asks: "Show me our complete marketing funnel  --  GA4 sessions by channel → Shopify add-to-carts and conversion rate → first-order AOV and new customer count → 30-day repeat purchase rate from Klaviyo post-purchase flows → 90-day LTV. Break down by marketing channel and identify the highest-ROI acquisition path."
 
 ### Unified Financial Reconciliation
 A finance manager asks: "Reconcile June revenue across three sources: Shopify gross sales, Stripe processed payments (net of fees), and QuickBooks recognized revenue. Show a line-by-line reconciliation and flag any discrepancies over $100. What's the total adjustment needed to close the books?"
@@ -80,7 +80,7 @@ A finance manager asks: "Reconcile June revenue across three sources: Shopify gr
 A CMO preparing quarterly budget asks: "For each marketing channel (Google, Meta, TikTok, Email, SMS), show: spend, attributed revenue from Shopify, new customer acquisition, blended CAC, and 90-day LTV of acquired customers. Based on LTV:CAC ratios, recommend a reallocation of our $150K monthly budget."
 
 ### Customer Health Monitoring
-A customer success lead asks: "Identify at-risk customers — those who purchased 3+ times historically but haven't ordered in 90+ days. For each, show: total LTV, last order date, email engagement from Klaviyo (last open/click), any open support tickets from HubSpot, and recommended re-engagement strategy."
+A customer success lead asks: "Identify at-risk customers  --  those who purchased 3+ times historically but haven't ordered in 90+ days. For each, show: total LTV, last order date, email engagement from Klaviyo (last open/click), any open support tickets from HubSpot, and recommended re-engagement strategy."
 
 ### Product Launch Business Case
 A product manager building a launch business case asks: "Analyze the performance of the last 5 product launches: initial 90-day revenue from Shopify, marketing spend from Google/Meta, email campaign performance from Klaviyo, customer acquisition and retention patterns, and inventory costs from QuickBooks. Build a predictive model for the proposed launch ROI."
@@ -91,7 +91,7 @@ A founder preparing for fundraising asks: "Build the investor data pack: revenue
 ## Frequently Asked Questions
 
 ### How is this different from Shopify's Plus analytics or third-party analytics apps?
-Shopify Plus analytics and apps like Triple Whale or Northbeam focus on a subset of data — primarily marketing attribution. CorpusIQ BI connects your entire business stack: ecommerce, marketing, financial, CRM, and operations. It's a general-purpose business intelligence layer, not a single-use analytics tool.
+Shopify Plus analytics and apps like Triple Whale or Northbeam focus on a subset of data  --  primarily marketing attribution. CorpusIQ BI connects your entire business stack: ecommerce, marketing, financial, CRM, and operations. It's a general-purpose business intelligence layer, not a single-use analytics tool.
 
 ### Do I need a data warehouse?
 No. CorpusIQ queries your data in-place through direct API connections. No data migration, no warehouse costs, no ETL pipelines, no data engineering team. Your data stays in its source systems and is queried on demand.
@@ -100,7 +100,7 @@ No. CorpusIQ queries your data in-place through direct API connections. No data 
 CorpusIQ supports 30+ platforms and is continuously adding more. Custom API integrations are available on the Enterprise plan for proprietary or niche platforms. Contact our sales team to discuss your specific stack.
 
 ### How does cross-source data accuracy work?
-CorpusIQ's data accuracy contract ensures every number is traceable to its source. When comparing Shopify to Stripe, the AI explains that Shopify reports gross sales while Stripe reports net (after fees) — and performs the explicit reconciliation. You always know where each number came from and how it was computed.
+CorpusIQ's data accuracy contract ensures every number is traceable to its source. When comparing Shopify to Stripe, the AI explains that Shopify reports gross sales while Stripe reports net (after fees)  --  and performs the explicit reconciliation. You always know where each number came from and how it was computed.
 
 ### Can I define custom business metrics?
 Yes, through CorpusIQ's metric spec system. Define metrics like "True CAC" (total marketing spend / new customers), "Contribution Margin" (revenue - COGS - shipping - payment fees), or "Net Revenue Retention" with exact formulas. Once defined, the AI computes them consistently every time.
@@ -124,10 +124,10 @@ Connect your platforms (typically 10-30 minutes per source), define your key met
 
 Ready to put AI to work on your shopify business intelligence data? 
 
-1. **Sign up** for a [CorpusIQ account](https://app.corpusiq.com/signup) — free plan available.
-2. **Connect your data** — OAuth 2.0 authentication takes under 60 seconds.
-3. **Start asking questions** — use ChatGPT, Claude, or any MCP-compatible AI assistant.
-4. **Scale your usage** — add team members, connect more sources, and automate recurring reports.
+1. **Sign up** for a [CorpusIQ account](https://app.corpusiq.com/signup)  --  free plan available.
+2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
+3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
+4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
 **[Get started now →](https://app.corpusiq.com/signup)**
 
@@ -143,15 +143,15 @@ Ready to put AI to work on your shopify business intelligence data?
 
 ## Ecommerce Intelligence, Without the Infrastructure
 
-Building a business intelligence capability used to require data warehouses, ETL pipelines, BI tools, and data teams — a six-figure, multi-month investment. CorpusIQ collapses this into a single MCP platform that connects your stack, queries your data, and delivers intelligence conversationally.
+Building a business intelligence capability used to require data warehouses, ETL pipelines, BI tools, and data teams  --  a six-figure, multi-month investment. CorpusIQ collapses this into a single MCP platform that connects your stack, queries your data, and delivers intelligence conversationally.
 
 **[Start your ecommerce intelligence journey](/get-started). Connect Shopify and your marketing stack in under 30 minutes.**
 
 ---
-*AI-powered Shopify Business Intelligence — AI-Powered Ecommerce BI |... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*AI-powered Shopify Business Intelligence  --  AI-Powered Ecommerce BI |...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
 ---
-*AI-powered Shopify Business Intelligence — AI-Powered Ecommerce BI |... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*AI-powered Shopify Business Intelligence  --  AI-Powered Ecommerce BI |...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---
 
 *

@@ -1,5 +1,5 @@
 ---
-title: AI for Document Search — Intelligent Enterprise Search with CorpusIQ MCP
+title: AI for Document Search  --  Intelligent Enterprise Search with CorpusIQ MCP
 title: AI for Document Search | CorpusIQ MCP Platform for Enterprise Search
 description: Transform document search with AI. Find information across SharePoint, Google Drive, OneDrive, and Notion in natural language. Read document contents, not just file names. Enterprise-grade
   security.
@@ -28,19 +28,19 @@ tags:
 
 # AI for Document Search: Find Answers, Not Just Files
 
-Enterprise document search is broken. Employees spend an estimated 20% of their time searching for information — navigating folder structures in SharePoint, guessing file names in Google Drive, scrolling through Notion pages. When they do find a document, they still have to read it to extract the answer they actually need. AI-powered document search through CorpusIQ's MCP platform changes the paradigm: instead of searching for files, employees search for answers.
+Enterprise document search is broken. Employees spend an estimated 20% of their time searching for information  --  navigating folder structures in SharePoint, guessing file names in Google Drive, scrolling through Notion pages. When they do find a document, they still have to read it to extract the answer they actually need. AI-powered document search through CorpusIQ's MCP platform changes the paradigm: instead of searching for files, employees search for answers.
 
-Ask Claude "What's our remote work policy for international employees?", "Find the Q3 financial forecast and summarize the key assumptions", or "Show me all documents related to the [Project Name] initiative" and Claude will search across your document repositories, read the relevant files, and deliver the answer — not just a list of filenames.
+Ask Claude "What's our remote work policy for international employees?", "Find the Q3 financial forecast and summarize the key assumptions", or "Show me all documents related to the [Project Name] initiative" and Claude will search across your document repositories, read the relevant files, and deliver the answer  --  not just a list of filenames.
 
 ## What AI Brings to Document Search
 
 **Content-Level Search, Not Metadata**
 
-Traditional enterprise search matches keywords against file names and metadata. AI reads the actual content of documents — Word files, PowerPoints, PDFs, spreadsheets, and Notion pages — and finds information based on meaning, not just keywords. "What does our policy say about data retention?" returns the specific policy language, not a list of documents called "data policy."
+Traditional enterprise search matches keywords against file names and metadata. AI reads the actual content of documents  --  Word files, PowerPoints, PDFs, spreadsheets, and Notion pages  --  and finds information based on meaning, not just keywords. "What does our policy say about data retention?" returns the specific policy language, not a list of documents called "data policy."
 
 **Cross-Repository Search**
 
-Most organizations have documents spread across SharePoint, Google Drive, OneDrive, and Notion. AI searches across all of them simultaneously: "Find every document that mentions the [client name] contract" — spanning every repository the user has access to.
+Most organizations have documents spread across SharePoint, Google Drive, OneDrive, and Notion. AI searches across all of them simultaneously: "Find every document that mentions the [client name] contract"  --  spanning every repository the user has access to.
 
 **Answer Extraction**
 
@@ -48,7 +48,7 @@ The killer feature is answer extraction. Instead of "Here are 14 documents that 
 
 **Document Synthesis**
 
-"Compare our Q2 and Q3 strategy presentations" — AI reads both documents and delivers a synthesized comparison. "Summarize all the competitive analysis we've done on [competitor]" — AI finds and synthesizes relevant content across multiple documents.
+"Compare our Q2 and Q3 strategy presentations"  --  AI reads both documents and delivers a synthesized comparison. "Summarize all the competitive analysis we've done on [competitor]"  --  AI finds and synthesizes relevant content across multiple documents.
 
 **Policy and Compliance Answers**
 
@@ -56,9 +56,9 @@ The killer feature is answer extraction. Instead of "Here are 14 documents that 
 
 ## How CorpusIQ MCP Enables AI Document Search
 
-- **SharePoint:** Enterprise document libraries — read document contents, not just metadata.
-- **Google Drive:** Documents, spreadsheets, presentations, PDFs — full content search.
-- **OneDrive:** Microsoft 365 files — Word, Excel, PowerPoint — content-level access.
+- **SharePoint:** Enterprise document libraries  --  read document contents, not just metadata.
+- **Google Drive:** Documents, spreadsheets, presentations, PDFs  --  full content search.
+- **OneDrive:** Microsoft 365 files  --  Word, Excel, PowerPoint  --  content-level access.
 - **Dropbox:** Cloud storage with full document content reading.
 - **Notion:** Pages and databases with semantic search capabilities.
 
@@ -95,18 +95,18 @@ The killer feature is answer extraction. Instead of "Here are 14 documents that 
 
 ## Implementation Steps
 
-1. **Connect document repositories** to CorpusIQ — SharePoint, Google Drive, OneDrive, Notion, Dropbox.
-2. **Grant appropriate read permissions** — CorpusIQ respects existing access controls.
+1. **Connect document repositories** to CorpusIQ  --  SharePoint, Google Drive, OneDrive, Notion, Dropbox.
+2. **Grant appropriate read permissions**  --  CorpusIQ respects existing access controls.
 3. **Start asking document questions** through Claude.
 4. **Build query templates** for common document search needs by department.
-5. **Integrate into workflows** — HR policy lookups, legal contract search, project document retrieval.
+5. **Integrate into workflows**  --  HR policy lookups, legal contract search, project document retrieval.
 
 ## ROI
 
 - **50-70% reduction** in time spent searching for documents.
-- **Higher information accuracy** — AI reads the actual content, reducing misinterpretation.
-- **Faster employee onboarding** — new hires self-serve policy and process questions.
-- **Reduced internal support tickets** — employees find their own answers.
+- **Higher information accuracy**  --  AI reads the actual content, reducing misinterpretation.
+- **Faster employee onboarding**  --  new hires self-serve policy and process questions.
+- **Reduced internal support tickets**  --  employees find their own answers.
 
 ## FAQ
 
@@ -139,9 +139,9 @@ A: No. Document content is streamed directly from the source system for each que
 
 **Next steps:** [Start AI-powered document search →](https://app.corpusiq.com/signup)
 
-*AI-powered AI for Document Search | CorpusIQ MCP Platform for Enterp... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*AI-powered AI for Document Search | CorpusIQ MCP Platform for Enterp...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
-*AI-powered AI for Document Search | CorpusIQ MCP Platform for Enterp... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*AI-powered AI for Document Search | CorpusIQ MCP Platform for Enterp...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---
 
 *

@@ -1,12 +1,12 @@
 ---
-title: Memory Management Best Practices for Hermes Agent — Persistent AI Context
+title: Memory Management Best Practices for Hermes Agent  --  Persistent AI Context
 description: Hermes Agent memory management guide. Honcho peer memory, GBrain organizational knowledge, memcore-cloud cross-session recall, GraphRAG, and Session DB. When to use each memory tier, compaction strategies, and anti-patterns.
 category: best-practices
 tags: [hermes-agent, memory-management, honcho, gbrain, memcore-cloud, context-optimization, persistent-memory, graphrag]
 last_updated: 2026-06-16
 ---
 
-# Memory Management Best Practices — Persistent AI Agent Context
+# Memory Management Best Practices  --  Persistent AI Agent Context
 
 Memory is what separates a stateless tool from a persistent AI assistant in Hermes Agent. But memory also consumes context, increases latency, and introduces staleness risks. These memory management best practices cover when and how to use each memory tier for optimal agent performance.
 
@@ -63,7 +63,7 @@ When context windows fill up:
 ## FAQ
 
 ### What's the difference between Honcho and GBrain memory?
-Honcho stores peer identity — who the user is, preferences, decisions, bans. GBrain indexes organizational knowledge — where files are, what code does what, project relationships. They solve different problems and should both be used in production.
+Honcho stores peer identity  --  who the user is, preferences, decisions, bans. GBrain indexes organizational knowledge  --  where files are, what code does what, project relationships. They solve different problems and should both be used in production.
 
 ### How do I prevent my Hermes Agent memory from getting stale?
 Prune memories periodically (monthly review), add expiration to project-specific memories, audit for contradictions, and use the dream cycle (nightly consolidation) to merge duplicates and strengthen frequently accessed paths.
@@ -73,10 +73,10 @@ You can, but you'll have gaps. [Honcho only](/hermes/knowledge/) handles peer mo
 
 ## Related Pages
 
-- [Memory Architecture Guide](/hermes/knowledge/) — Full triple-stack documentation
-- [Best Practices Overview](/hermes/best-practices/) — All guides
-- [Security](security.md) — Don't store credentials in memory
-- [Skill Development](skill-development.md) — Procedural knowledge vs memory
+- [Memory Architecture Guide](/hermes/knowledge/)  --  Full triple-stack documentation
+- [Best Practices Overview](/hermes/best-practices/)  --  All guides
+- [Security](security.md)  --  Don't store credentials in memory
+- [Skill Development](skill-development.md)  --  Procedural knowledge vs memory
 ---
 
 *

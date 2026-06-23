@@ -1,6 +1,6 @@
 ---
 name: notion-api
-description: Full Notion API integration. Pages, databases, blocks — complete Notion workspace access. 42.6K installs.
+description: Full Notion API integration. Pages, databases, blocks  --  complete Notion workspace access. 42.6K installs.
 triggers:
   - "notion api"
 source: skills.sh marketplace
@@ -30,9 +30,9 @@ Install with `npx skills add` or via the Hermes skills manager. The skill auto-r
 
 Discovered via skills.sh marketplace scan, June 2026.
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

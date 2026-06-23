@@ -1,6 +1,6 @@
 ---
 title: Hermes Tools & SDK Reference
-description: Complete directory of 140+ tools and SDKs compatible with Hermes Agent — browsers, search, code execution, media, deployment, and more.
+description: Complete directory of 140+ tools and SDKs compatible with Hermes Agent  --  browsers, search, code execution, media, deployment, and more.
 ---
 
 # Hermes Tools & SDK Reference
@@ -14,7 +14,7 @@ description: Complete directory of 140+ tools and SDKs compatible with Hermes Ag
 | Browser Automation | 6 | browser-use, patchright, Playwright, Selenium, deepcloak, camofox |
 | Web Search & Extraction | 8 | Firecrawl, Kindly Search, Kagi MCP, SearXNG, Tavily, Brave, DDGS, Exa |
 | Code Execution | 5 | Python REPL, Node.js, Bash, Docker exec, SSH exec |
-| File Operations | 4 | read/write/patch/search — built into Hermes core |
+| File Operations | 4 | read/write/patch/search  --  built into Hermes core |
 | Media Processing | 6 | FFmpeg, ImageMagick, Pillow, Sharp, Whisper, OpenCV |
 | Messaging | 20 | Telegram, Discord, Slack, WhatsApp, Signal, Matrix, Feishu, WeCom, QQ, Yuanbao, Teams, iMessage, Photon, Mattermost, Ntfy, Webhook, Email |
 | Model Providers | 10 | Anthropic, OpenAI, DeepSeek, Grok, Gemini, Ollama, Bedrock, OpenRouter, MiniMax, Z.ai |
@@ -40,9 +40,9 @@ description: Complete directory of 140+ tools and SDKs compatible with Hermes Ag
 |------|-------|-------------|-------------------|
 | [browser-use](https://github.com/browser-use/browser-use) | 97K | AI-powered browser automation | Native Hermes tool |
 | [Playwright](https://playwright.dev) | 70K+ | Cross-browser automation | Via terminal + Python |
-| [patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) | — | Undetected Playwright — bypasses Cloudflare, DataDome | Via Mac Mini worker |
-| [deepcloak](https://github.com/deepcloak/deepcloak) | — | Anti-bot bypass for Cloudflare, Turnstile | Standalone service |
-| [camofox](https://github.com/daijro/camofox) | — | Camoufox stealth browser REST API | HTTP API from Hermes |
+| [patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) |  --  | Undetected Playwright  --  bypasses Cloudflare, DataDome | Via Mac Mini worker |
+| [deepcloak](https://github.com/deepcloak/deepcloak) |  --  | Anti-bot bypass for Cloudflare, Turnstile | Standalone service |
+| [camofox](https://github.com/daijro/camofox) |  --  | Camoufox stealth browser REST API | HTTP API from Hermes |
 | [Selenium](https://www.selenium.dev) | 30K+ | Legacy browser automation | Via terminal |
 
 ---
@@ -51,14 +51,14 @@ description: Complete directory of 140+ tools and SDKs compatible with Hermes Ag
 
 | Tool | Stars | Description | Hermes Integration |
 |------|-------|-------------|-------------------|
-| [Firecrawl](https://www.firecrawl.dev) | — | Web scraping + search API | Native Hermes tool (Nous subscription) |
+| [Firecrawl](https://www.firecrawl.dev) |  --  | Web scraping + search API | Native Hermes tool (Nous subscription) |
 | [Kindly Web Search MCP](https://github.com/Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server) | 345 | Web search MCP server | MCP `hermes mcp add kindly-search` |
 | [Kagi Search MCP](https://github.com/KSroido/Kagi-Session2API-MCP) | 137 | Free Kagi search via session tokens | MCP |
 | [SearXNG](https://github.com/searxng/searxng) | 14K+ | Privacy-respecting metasearch | Configure as web provider |
-| [Tavily](https://tavily.com) | — | AI-optimized search API | Web provider |
-| [Brave Search](https://brave.com/search/api/) | — | Privacy-first search API | Web provider |
-| [DuckDuckGo](https://duckduckgo.com) | — | Free web search | Web provider (ddgs) |
-| [Exa](https://exa.ai) | — | Semantic search for AI | Web provider |
+| [Tavily](https://tavily.com) |  --  | AI-optimized search API | Web provider |
+| [Brave Search](https://brave.com/search/api/) |  --  | Privacy-first search API | Web provider |
+| [DuckDuckGo](https://duckduckgo.com) |  --  | Free web search | Web provider (ddgs) |
+| [Exa](https://exa.ai) |  --  | Semantic search for AI | Web provider |
 
 ---
 
@@ -112,14 +112,14 @@ Hermes supports these model providers natively:
 
 | System | Type | Setup | Stars |
 |--------|------|-------|-------|
-| [Honcho](https://mcp.honcho.dev) | Peer memory | 2 min | — |
+| [Honcho](https://mcp.honcho.dev) | Peer memory | 2 min |  --  |
 | [GBrain](https://github.com/garrytan/gbrain) | Organizational knowledge | 10 min | 23K |
 | [EverOS](https://github.com/EverMind-AI/EverOS) | Self-evolving memory | 5 min | 7.5K |
 | [claude-mem](https://github.com/thedotmack/claude-mem) | Persistent context | 5 min | 83K |
 | [mnemosyne](https://github.com/AxDSan/mnemosyne) | Sub-ms memory | 2 min | 1.2K |
 | [memtrace](https://github.com/syncable-dev/memtrace-public) | Structural memory | 10 min | 193 |
 | [YantrikDB](https://github.com/yantrikos/yantrikdb-hermes-plugin) | Self-maintaining DB | 5 min | 60 |
-| memcore-cloud | Cross-session context | 5 min | — |
+| memcore-cloud | Cross-session context | 5 min |  --  |
 
 ---
 
@@ -162,7 +162,7 @@ Hermes connects to 20 messaging platforms:
 
 | Backend | Use Case |
 |---------|----------|
-| Local | Default — runs on your machine |
+| Local | Default  --  runs on your machine |
 | Docker | Containerized isolation |
 | SSH | Remote execution on worker nodes |
 | Modal | Serverless GPU |
@@ -178,7 +178,7 @@ Hermes connects to 20 messaging platforms:
 | Tool | Description | Stars |
 |------|-------------|-------|
 | [Shellward](https://github.com/jnMetaCode/shellward) | 8-layer defense middleware | 109 |
-| [Skillguard](https://github.com/buzzicra/skillguard) | Skill safety scanner | — |
+| [Skillguard](https://github.com/buzzicra/skillguard) | Skill safety scanner |  --  |
 | [NemoClaw](https://github.com/NVIDIA/NemoClaw) | Hardware sandboxing | 21K |
 | SSL Guard | Built-in SSL/CA verification | Core |
 ---

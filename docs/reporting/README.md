@@ -1,5 +1,5 @@
 ---
-meta_title: "CorpusIQ Reporting — Instant Reports, Comparisons, and Trend Analysis"
+meta_title: "CorpusIQ Reporting  --  Instant Reports, Comparisons, and Trend Analysis"
 meta_desc: "CorpusIQ reporting capabilities: instant reports, comparative analysis, trend tracking across 36 data sources. Generate P&L summaries, revenue comparisons, and growth trends with natural language queries."
 category: "Documentation"
 tags: ["corpusiq reporting", "business reports", "revenue reporting", "trend analysis", "comparative reports", "financial reporting", "kpi tracking"]
@@ -59,7 +59,7 @@ For official financial reporting, see [MSR Governance](../governance/index.html)
 ## Frequently Asked Questions
 
 **Q: What types of reports can I generate with CorpusIQ?**  
-A: Instant reports (ask and get answers immediately), comparative reports (Q1 vs Q2, Stripe vs Shopify), and trend reports (MRR over 6 months, customer acquisition by channel). No configuration needed — just ask in natural language.
+A: Instant reports (ask and get answers immediately), comparative reports (Q1 vs Q2, Stripe vs Shopify), and trend reports (MRR over 6 months, customer acquisition by channel). No configuration needed  --  just ask in natural language.
 
 **Q: Can I export CorpusIQ reports?**  
 A: Yes. Copy results to clipboard, export as CSV, share via link, or save frequent queries. Scheduled recurring reports delivered to email or Slack are coming soon.
@@ -69,14 +69,14 @@ A: MSR (Management System of Record) is the authoritative source for official fi
 
 ## Internal Links
 
-- **[CorpusIQ Architecture](/docs/architecture/README)** — MCP endpoint and connector layer design  
-- **[CorpusIQ Security Overview](/docs/security/README)** — Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/docs/search/README)** — Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/docs/reporting/README)** — Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/docs/onboarding/README)** — AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/docs/governance/README)** — Source of truth and audit controls  
+- **[CorpusIQ Architecture](/docs/architecture/README)**  --  MCP endpoint and connector layer design  
+- **[CorpusIQ Security Overview](/docs/security/README)**  --  Authentication and encryption  
+- **[CorpusIQ Search Capabilities](/docs/search/README)**  --  Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/docs/reporting/README)**  --  Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/docs/onboarding/README)**  --  AI chat and agent setup in 10 minutes  
+- **[MSR Governance Framework](/docs/governance/README)**  --  Source of truth and audit controls  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *

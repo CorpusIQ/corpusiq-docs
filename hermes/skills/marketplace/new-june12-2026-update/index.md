@@ -1,19 +1,19 @@
 ---
-title: June 12, 2026 (Update) — OpenClaw Security Suite
+title: June 12, 2026 (Update)  --  OpenClaw Security Suite
 description: "Afternoon sweep: 13-skill OpenClaw security suite discovered from useai-pro (UseClawPro). Flagship skill-vetter at 19,340 installs."
 ---
 
-# June 12, 2026 (Update) — OpenClaw Security Suite
+# June 12, 2026 (Update)  --  OpenClaw Security Suite
 
-Afternoon sweep surfaced the **`useai-pro/openclaw-skills-security`** repository from **UseClawPro** (UseAI.pro): a complete 13-skill security suite for the OpenClaw ecosystem. The flagship `skill-vetter` has **19,340 installs** — one of the highest-install Hermes/OpenClaw skills discovered to date.
+Afternoon sweep surfaced the **`useai-pro/openclaw-skills-security`** repository from **UseClawPro** (UseAI.pro): a complete 13-skill security suite for the OpenClaw ecosystem. The flagship `skill-vetter` has **19,340 installs**  --  one of the highest-install Hermes/OpenClaw skills discovered to date.
 
-All 13 skills are instruction modules (`SKILL.md`) — they don't run on their own. Load them into a host agent (Hermes Agent / Claude Code / Codex CLI / OpenClaw) or paste into any LLM chat. Trust scores range from 93–98. All skills audited Feb–Mar 2026. AGPL-3.0-or-later licensed.
+All 13 skills are instruction modules (`SKILL.md`)  --  they don't run on their own. Load them into a host agent (Hermes Agent / Claude Code / Codex CLI / OpenClaw) or paste into any LLM chat. Trust scores range from 93–98. All skills audited Feb–Mar 2026. AGPL-3.0-or-later licensed.
 
 *Previously cataloged: 337 total (89 native + 248 marketplace). This update adds 13 → 350 total.*
 
 ---
 
-## useai-pro/openclaw-skills-security — Security Suite (13 skills)
+## useai-pro/openclaw-skills-security  --  Security Suite (13 skills)
 
 Security-first instruction modules maintained by UseClawPro. Each skill is a focused module covering one security domain. Load individually or chain them together for a full security pipeline.
 
@@ -42,7 +42,7 @@ npx skills add useai-pro/openclaw-skills-security --skill skill-vetter -a hermes
 
 ---
 
-### 🛡️ skill-auditor (590 installs) — **Recommended Primary Auditor**
+### 🛡️ skill-auditor (590 installs)  --  **Recommended Primary Auditor**
 
 Comprehensive six-step security review for OpenClaw skills. Checks for typosquatting, dangerous permissions, prompt injection, supply chain risks, and data exfiltration patterns. Produces a structured SKILL AUDIT REPORT with severity-based verdicts and safe-run plans.
 
@@ -52,12 +52,12 @@ npx skills add useai-pro/openclaw-skills-security --skill skill-auditor -a herme
 ```
 
 **Six-step protocol:**
-1. **Identity check** — typosquatting, impersonation, source verification
-2. **Permission analysis** — file-read, file-write, network, shell, env access
-3. **Dependency review** — npm/pip/Go package safety, hooks, typosquatting
-4. **Prompt injection scan** — hidden instructions, context manipulation
-5. **Exfiltration risk** — network calls, file reads, data egress patterns
-6. **Supply chain check** — repo provenance, maintainer trust, update history
+1. **Identity check**  --  typosquatting, impersonation, source verification
+2. **Permission analysis**  --  file-read, file-write, network, shell, env access
+3. **Dependency review**  --  npm/pip/Go package safety, hooks, typosquatting
+4. **Prompt injection scan**  --  hidden instructions, context manipulation
+5. **Exfiltration risk**  --  network calls, file reads, data egress patterns
+6. **Supply chain check**  --  repo provenance, maintainer trust, update history
 
 **Version:** 2.0.0 | Trust score: 97 | Audited: Feb 5, 2026
 
@@ -91,7 +91,7 @@ npx skills add useai-pro/openclaw-skills-security --skill prompt-guard -a hermes
 
 ### 🔑 credential-scanner (433 installs)
 
-Pre-flight workspace scan for exposed credentials, API keys, and secrets before any skill gets file-read access. Path-aware regex checks with skip rules and sanitized reporting — never prints raw secrets.
+Pre-flight workspace scan for exposed credentials, API keys, and secrets before any skill gets file-read access. Path-aware regex checks with skip rules and sanitized reporting  --  never prints raw secrets.
 
 **Install:**
 ```bash
@@ -130,7 +130,7 @@ npx skills add useai-pro/openclaw-skills-security --skill permission-auditor -a 
 
 ### 🧹 output-sanitizer (392 installs)
 
-Sanitize agent output before display. Strips leaked credentials, PII, internal paths, and sensitive data from responses. Pattern-based detection with masking rules — never emits raw sensitive values.
+Sanitize agent output before display. Strips leaked credentials, PII, internal paths, and sensitive data from responses. Pattern-based detection with masking rules  --  never emits raw sensitive values.
 
 **Install:**
 ```bash
@@ -167,7 +167,7 @@ npx skills add useai-pro/openclaw-skills-security --skill config-hardener -a her
 
 ---
 
-### 🏠 setup-auditor (384 installs) — **Recommended Environment Audit**
+### 🏠 setup-auditor (384 installs)  --  **Recommended Environment Audit**
 
 Wizard-style four-step environment audit. Covers credentials, config hardening, sandbox readiness, and persistence checks. Collects operator answers and produces a SETUP AUDIT REPORT with readiness verdict, findings, and concrete remediation steps.
 
@@ -177,10 +177,10 @@ npx skills add useai-pro/openclaw-skills-security --skill setup-auditor -a herme
 ```
 
 **Four-step review:**
-1. Credential exposure — secrets in environment, config files, logs
-2. Configuration hardening — gateway, AGENTS.md, permission defaults
-3. Sandbox readiness — isolation, filesystem, network containment
-4. Persistence checks — cron, autostart, SSH keys, startup scripts
+1. Credential exposure  --  secrets in environment, config files, logs
+2. Configuration hardening  --  gateway, AGENTS.md, permission defaults
+3. Sandbox readiness  --  isolation, filesystem, network containment
+4. Persistence checks  --  cron, autostart, SSH keys, startup scripts
 
 **Version:** 2.0.0 | Trust score: not yet audited (new release)
 
@@ -209,10 +209,10 @@ npx skills add useai-pro/openclaw-skills-security --skill incident-responder -a 
 ```
 
 **Response phases:**
-1. **Containment** — isolate affected skills, revoke tokens, stop processes
-2. **Investigation** — audit logs, check file access, trace network calls
-3. **Credential rotation** — systematically rotate all potentially exposed secrets
-4. **Recovery** — restore from known-good state, verify integrity, document findings
+1. **Containment**  --  isolate affected skills, revoke tokens, stop processes
+2. **Investigation**  --  audit logs, check file access, trace network calls
+3. **Credential rotation**  --  systematically rotate all potentially exposed secrets
+4. **Recovery**  --  restore from known-good state, verify integrity, document findings
 
 **Version:** 1.0.0 | Trust score: 96 | Audited: Feb 3, 2026
 
@@ -252,7 +252,7 @@ npx skills add useai-pro/openclaw-skills-security --skill setup-auditor -a herme
 | `output-sanitizer` | 392 | Module | 94 |
 | `sandbox-guard` | 390 | Module | 95 |
 | `config-hardener` | 387 | Module | 95 |
-| `setup-auditor` ⭐ | 384 | Auditor (env) | — |
+| `setup-auditor` ⭐ | 384 | Auditor (env) |  --  |
 | `network-watcher` | 376 | Module | 95 |
 | `incident-responder` | 374 | Module | 96 |
 

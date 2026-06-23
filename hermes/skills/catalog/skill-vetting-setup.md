@@ -1,9 +1,9 @@
 ---
 title: Skill Vetting Setup Guide
-description: Install NVIDIA SkillSpector-based security vetting for Hermes skills — scan-before-install, risk gating, marketplace catalog, and weekly re-audits
+description: Install NVIDIA SkillSpector-based security vetting for Hermes skills  --  scan-before-install, risk gating, marketplace catalog, and weekly re-audits
 ---
 
-# Skill Vetting — Setup Guide
+# Skill Vetting  --  Setup Guide
 
 **Skill Vetting** automatically vets external AI agent skills with [NVIDIA SkillSpector](https://github.com/NVIDIA/skillspector) before installation. Scan for vulnerabilities, gate on risk score, maintain a catalog of vetted skills, and run weekly re-audits.
 
@@ -76,20 +76,20 @@ hermes cron create "0 12 * * 1" \
 
 ## 5. Capabilities
 
-- **Scan-before-install enforcement** — The skill intercepts `hermes skills install` and runs SkillSpector first
+- **Scan-before-install enforcement**  --  The skill intercepts `hermes skills install` and runs SkillSpector first
 - **64 vulnerability patterns** across 16 categories (static analysis)
-- **Risk gating** — Auto-proceed on low scores, require approval on medium, refuse on high
-- **External marketplace catalog** — 5 marketplaces mapped (SkillsLLM, mcpservers.org, VoltAgent, +2)
-- **Weekly audit cron** — Re-scans all installed skills, alerts on new findings
-- **Vetting log** — Every scan logged to JSONL for audit trail
+- **Risk gating**  --  Auto-proceed on low scores, require approval on medium, refuse on high
+- **External marketplace catalog**  --  5 marketplaces mapped (SkillsLLM, mcpservers.org, VoltAgent, +2)
+- **Weekly audit cron**  --  Re-scans all installed skills, alerts on new findings
+- **Vetting log**  --  Every scan logged to JSONL for audit trail
 
 ---
 
 ## 6. CorpusIQ Use Cases
 
-- **Skills catalog curation** — Vet every new skill before adding to the CorpusIQ marketplace
-- **Cron safety** — Ensure automated discovery skills don't introduce vulnerabilities
-- **Client deployments** — Verify skills before installing in customer Hermes environments
+- **Skills catalog curation**  --  Vet every new skill before adding to the CorpusIQ marketplace
+- **Cron safety**  --  Ensure automated discovery skills don't introduce vulnerabilities
+- **Client deployments**  --  Verify skills before installing in customer Hermes environments
 
 ---
 

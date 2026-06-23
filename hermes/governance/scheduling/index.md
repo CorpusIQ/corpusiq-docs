@@ -1,6 +1,6 @@
 # Production Cron Reference Architecture
 
-Production crons run this agent autonomously 24/7. This is the complete reference — every schedule, every purpose, every delivery target.
+Production crons run this agent autonomously 24/7. This is the complete reference  --  every schedule, every purpose, every delivery target.
 
 ## Cron Categories
 
@@ -74,7 +74,7 @@ fc7d32e3d588  0 8,11,14,17,20  cross-platform-monitor  AI agent    Telegram T2
 ```
 ddacec4011bd  0 6,8,10,12,15,17 help-first-commenting  AI agent    local
               └─ 6x daily: Find operators asking questions
-              └─ Answer helpfully — mention product only if relevant
+              └─ Answer helpfully  --  mention product only if relevant
               └─ Skip banned platforms (Reddit, HN)
 
 079b3604c42e  0 5,7,10,17 * * * github-issue-engagement AI agent   local
@@ -117,7 +117,7 @@ d3bb38ade338  15 */2 * * *      ph-rss-monitor          no_agent    local
               └─ 11 PM: Review mistakes, patch skills, update memory
 
 4c5a50f21ea2  0 1 * * *         drift-prevention        AI agent    Telegram T2
-              └─ 1 AM: Governance integrity — registry, skills, memory sync
+              └─ 1 AM: Governance integrity  --  registry, skills, memory sync
 
 f44fa8b3b0b1  0 7 * * *         auth-health-check       no_agent    local
               └─ 7 AM: Verify all OAuth tokens and API keys
@@ -133,7 +133,7 @@ d87b726f0c7c  0 10 * * *        mcp-directory-check     AI agent    local
 
 ```
 be6ee0113368  0 3 * * *         gbrain-dream            AI agent    local
-              └─ 3 AM: Memory consolidation — merge, deduplicate, strengthen
+              └─ 3 AM: Memory consolidation  --  merge, deduplicate, strengthen
 ```
 
 ### Growth
@@ -151,7 +151,7 @@ c63dd7058200  0 7 * * *         daily-growth-geo        AI agent    Telegram T2
 ```
 06f4f056ade8  0 7 * * *         executive-job-search       AI agent    Telegram T2
               └─ 7 AM: Search for executive roles, generate resumes
-              └─ CONFIDENTIAL — never mention CorpusIQ
+              └─ CONFIDENTIAL  --  never mention CorpusIQ
 ```
 
 ### GitHub Automation
@@ -219,7 +219,7 @@ hermes cron create \
   --enabled-toolsets "terminal,web,file,skills,send_message"
 ```
 
-**When to use:** Anything needing reasoning — social posting, email response, research, content generation.
+**When to use:** Anything needing reasoning  --  social posting, email response, research, content generation.
 
 ### Pattern 2: No-Agent Script (mechanical tasks)
 
@@ -231,7 +231,7 @@ hermes cron create \
   --deliver "telegram:-100CHATID:TOPICID"
 ```
 
-**When to use:** Mechanical polling — email checks, GitHub polling, RSS monitoring. Faster, cheaper (no LLM), more reliable.
+**When to use:** Mechanical polling  --  email checks, GitHub polling, RSS monitoring. Faster, cheaper (no LLM), more reliable.
 
 ### Pattern 3: Script + Agent Pipeline
 
@@ -279,7 +279,7 @@ Failures are reported to Telegram Topic 2. The 1 AM drift prevention cron does a
 ## Creating Your First Cron
 
 ```bash
-# 1. Start simple — check your email every 15 minutes
+# 1. Start simple  --  check your email every 15 minutes
 hermes cron create \
   --name "my-email-watch" \
   --prompt "Check Gmail for unread messages. Summarize new emails in one sentence each. Be silent if inbox is empty." \
@@ -305,12 +305,12 @@ hermes cron create \
 
 ## Lessons Learned
 
-1. **No-agent scripts for polling** — mechanical tasks don't need LLMs. Save tokens.
-2. **Rate limit awareness** — X is limited to ~10/day, LinkedIn Page to 2/day. Build schedules around it.
-3. **Error loops kill crons** — if a platform is down, STOP. Don't retry. Log and move on.
-4. **Delivery targets matter** — Telegram T2 for human-readable reports, `local` for machine-readable logs.
-5. **Context-from is powerful** — chain crons: collect data with a script, analyze with an agent.
-6. **Mass pauses are a symptom** — if you pause 15 crons at once, something cascaded. Find the root cause.
+1. **No-agent scripts for polling**  --  mechanical tasks don't need LLMs. Save tokens.
+2. **Rate limit awareness**  --  X is limited to ~10/day, LinkedIn Page to 2/day. Build schedules around it.
+3. **Error loops kill crons**  --  if a platform is down, STOP. Don't retry. Log and move on.
+4. **Delivery targets matter**  --  Telegram T2 for human-readable reports, `local` for machine-readable logs.
+5. **Context-from is powerful**  --  chain crons: collect data with a script, analyze with an agent.
+6. **Mass pauses are a symptom**  --  if you pause 15 crons at once, something cascaded. Find the root cause.
 ---
 
 *

@@ -1,5 +1,5 @@
 ---
-meta_title: "CorpusIQ OpenAPI Specification — API Reference for Postman and Swagger"
+meta_title: "CorpusIQ OpenAPI Specification  --  API Reference for Postman and Swagger"
 meta_desc: "Complete CorpusIQ OpenAPI 3.0.3 specification. Import into Postman, Insomnia, or Swagger UI for interactive API testing. Available at api.corpusiq.io/v1/openapi.json."
 category: "API Reference"
 tags: ["corpusiq openapi", "swagger", "postman", "api specification", "openapi 3.0", "api testing", "api documentation"]
@@ -36,7 +36,7 @@ info:
   description: |
     Private AI acceleration layer connecting 37+ business tools to ChatGPT, Claude,
     and Perplexity via MCP. Read-only queries across your entire data stack with
-    cited results — no data storage, no data movement.
+    cited results  --  no data storage, no data movement.
   contact:
     name: "CorpusIQ API Support"
     email: "api@corpusiq.io"
@@ -180,7 +180,7 @@ components:
           example: "chnk_x1y2z3"
         content:
           type: "string"
-          example: "Order #12345 — $4,299.00 — Placed 2026-06-14"
+          example: "Order #12345  --  $4,299.00  --  Placed 2026-06-14"
         source_url:
           type: "string"
           format: "uri"
@@ -358,15 +358,15 @@ A: Yes. The OpenAPI spec is importable into Postman, Insomnia, Swagger UI, and a
 
 ## Internal Links
 
-- **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  
-- **[API Authentication Guide](/docs/api/authentication)** — Bearer tokens, OAuth 2.0, and security best practices  
-- **[API Endpoints Reference](/docs/api/endpoints)** — Complete request/response schemas and code examples  
-- **[API Rate Limits](/docs/api/rate-limits)** — Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/docs/api/webhooks)** — Event notifications and HMAC signature verification  
-- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2, and data residency  
-- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption, network security, and compliance  
+- **[CorpusIQ API Overview](/docs/api/overview)**  --  Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/docs/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/docs/api/endpoints)**  --  Complete request/response schemas and code examples  
+- **[API Rate Limits](/docs/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Event notifications and HMAC signature verification  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption, network security, and compliance  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *

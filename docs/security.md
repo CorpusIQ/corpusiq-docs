@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ Security — SOC 2, CASA Tier 2, Encryption, and Data Privacy"
+title: "CorpusIQ Security  --  SOC 2, CASA Tier 2, Encryption, and Data Privacy"
 description: "Complete CorpusIQ security documentation: SOC 2 Type II, CASA Tier 2 certified by DEKRA, AES-256 encryption, TLS 1.3, read-only OAuth, zero data storage, GDPR compliance, and incident response."
 category: "Documentation"
 tags: ["corpusiq security", "soc 2", "casa tier 2", "data privacy", "encryption", "oauth security", "gdpr compliance", "ai security"]
@@ -15,11 +15,11 @@ CorpusIQ is designed with data privacy as a foundational principle. This page do
 
 | Standard | Status |
 |----------|--------|
-| **CASA Tier 2** | Certified by DEKRA — OWASP Top 10 Verified |
-| **SOC 2** | Ready — quarterly control checks, independent pen-testing annually |
-| **GDPR** | Aligned — data minimization, user consent, deletion rights |
+| **CASA Tier 2** | Certified by DEKRA  --  OWASP Top 10 Verified |
+| **SOC 2** | Ready  --  quarterly control checks, independent pen-testing annually |
+| **GDPR** | Aligned  --  data minimization, user consent, deletion rights |
 | **Encryption** | AES-256 at rest, TLS 1.3 in transit |
-| **Access Model** | Read-only OAuth — no write permissions ever |
+| **Access Model** | Read-only OAuth  --  no write permissions ever |
 
 Contact: security@corpusiq.io · privacy@corpusiq.io
 
@@ -62,7 +62,7 @@ Private subnets, deny-by-default, WAF and rate limits on all public endpoints.
 Read-only OAuth scopes only. No write permissions on any connector. The specific scopes requested are visible on the OAuth authorization screen during connection setup.
 
 ### Authentication
-API tokens have 60-minute expiry with server-side refresh detection. Tokens are never embedded in client-side code — server-side usage only. Token revocation takes effect immediately across all active sessions.
+API tokens have 60-minute expiry with server-side refresh detection. Tokens are never embedded in client-side code  --  server-side usage only. Token revocation takes effect immediately across all active sessions.
 
 ### Webhook Security
 All webhook deliveries are signed with HMAC-SHA256 using a per-endpoint signing secret. The signature is included in the `CorpusIQ-Signature` header. See [Webhooks](/docs/api/webhooks) for verification code examples.
@@ -88,7 +88,7 @@ The `/delete_my_data` endpoint permanently removes all OAuth tokens, query histo
 
 ## 6. Subprocessors
 
-Infrastructure: Microsoft Azure (US-based). Enterprise cloud infrastructure. For enterprise customers, data residency options are available — contact sales@corpusiq.io.
+Infrastructure: Microsoft Azure (US-based). Enterprise cloud infrastructure. For enterprise customers, data residency options are available  --  contact sales@corpusiq.io.
 
 ## 7. Incident Response
 
@@ -129,7 +129,7 @@ If you discover a security vulnerability, report to security@corpusiq.io. We fol
 A: CorpusIQ is CASA Tier 2 certified by DEKRA (OWASP Top 10 verified) and maintains SOC 2 Type II compliance. The platform uses AES-256 encryption at rest, TLS 1.3 in transit, and read-only OAuth for all data source connections.
 
 **Q: Does CorpusIQ store my business data?**  
-A: No. CorpusIQ queries your data sources on demand and discards results after returning them to the AI model. There is no persistent copy of your business data — no data warehouse, no embedding store, no cache.
+A: No. CorpusIQ queries your data sources on demand and discards results after returning them to the AI model. There is no persistent copy of your business data  --  no data warehouse, no embedding store, no cache.
 
 **Q: How does CorpusIQ handle data deletion?**  
 A: The /delete_my_data endpoint permanently removes all OAuth tokens, query history, archive entries, webhook registrations, and profile data. Connector revocation removes all associated data immediately. Audit receipts are retained for 24 months.
@@ -142,15 +142,15 @@ A: Report to security@corpusiq.io. CorpusIQ follows coordinated disclosure and a
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/docs/quick-start)** — Go from zero to first query in 5 minutes  
-- **[API Reference](/docs/api/overview)** — Full REST API documentation  
-- **[CorpusIQ Connectors](/docs/connectors)** — All 50+ supported integrations  
-- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SOC 2, data residency  
-- **[CorpusIQ Security Documentation](/docs/security)** — Certifications, encryption, and compliance  
-- **[CorpusIQ Changelog](/docs/changelog)** — API updates and version history  
-- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption and network security  
+- **[CorpusIQ Quick Start Guide](/docs/quick-start)**  --  Go from zero to first query in 5 minutes  
+- **[API Reference](/docs/api/overview)**  --  Full REST API documentation  
+- **[CorpusIQ Connectors](/docs/connectors)**  --  All 50+ supported integrations  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/docs/security)**  --  Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/docs/changelog)**  --  API updates and version history  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption and network security  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *

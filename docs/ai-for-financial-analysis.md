@@ -1,5 +1,5 @@
 ---
-title: AI for Financial Analysis — Real-Time Finance Intelligence with CorpusIQ MCP
+title: AI for Financial Analysis  --  Real-Time Finance Intelligence with CorpusIQ MCP
 title: AI for Financial Analysis | CorpusIQ MCP Platform for Finance Teams
 description: Transform financial analysis with AI. Query QuickBooks, Stripe, NetSuite in natural language. Instant P&L, cash flow, and variance analysis. Read-only, SOC 2 compliant MCP platform.
 url: /docs/ai-for-financial-analysis/
@@ -27,7 +27,7 @@ tags:
 
 # AI for Financial Analysis: Real-Time Finance Intelligence
 
-Financial analysis has always been a bottleneck in business decision-making. Month-end close takes days. Variance analysis requires manual spreadsheet work. Cash flow projections are outdated by the time they're presented. AI is changing this — and CorpusIQ's MCP platform is at the center of that transformation, giving finance teams and business leaders instant, conversational access to live financial data across all their systems.
+Financial analysis has always been a bottleneck in business decision-making. Month-end close takes days. Variance analysis requires manual spreadsheet work. Cash flow projections are outdated by the time they're presented. AI is changing this  --  and CorpusIQ's MCP platform is at the center of that transformation, giving finance teams and business leaders instant, conversational access to live financial data across all their systems.
 
 Imagine asking "What's our gross margin by product line for the last 6 months?" during a board meeting and getting an accurate answer in seconds. That's AI-powered financial analysis through CorpusIQ.
 
@@ -35,11 +35,11 @@ Imagine asking "What's our gross margin by product line for the last 6 months?" 
 
 **Instant Financial Answers**
 
-The most immediate impact AI brings to finance is speed. Questions that previously required pulling reports from QuickBooks or NetSuite, exporting to Excel, and manually calculating metrics can now be answered in seconds through natural language. "What was our net income for Q2?", "Show me our AR aging summary", "What's our working capital ratio?" — all answered instantly from live data.
+The most immediate impact AI brings to finance is speed. Questions that previously required pulling reports from QuickBooks or NetSuite, exporting to Excel, and manually calculating metrics can now be answered in seconds through natural language. "What was our net income for Q2?", "Show me our AR aging summary", "What's our working capital ratio?"  --  all answered instantly from live data.
 
 **Automated Variance Analysis**
 
-Variance analysis — comparing actuals to budget or prior periods — is essential but tedious. AI can perform automated variance analysis across any dimension: "Compare actual revenue to budget by department and explain the top 3 variances." Claude pulls the actuals from your ERP, compares them to your stated targets, and provides an analytical narrative of what drove the differences.
+Variance analysis  --  comparing actuals to budget or prior periods  --  is essential but tedious. AI can perform automated variance analysis across any dimension: "Compare actual revenue to budget by department and explain the top 3 variances." Claude pulls the actuals from your ERP, compares them to your stated targets, and provides an analytical narrative of what drove the differences.
 
 **Cash Flow Intelligence**
 
@@ -47,7 +47,7 @@ Cash flow analysis is critical for business health but typically requires combin
 
 **Cross-Source Financial Reconciliation**
 
-One of the most painful financial tasks is reconciling data across systems — Stripe payouts to QuickBooks deposits, Shopify revenue to bank settlements, Salesforce pipeline to actual bookings. AI can perform cross-source reconciliation automatically: "Match this month's Stripe payouts to QuickBooks deposits and flag any discrepancies."
+One of the most painful financial tasks is reconciling data across systems  --  Stripe payouts to QuickBooks deposits, Shopify revenue to bank settlements, Salesforce pipeline to actual bookings. AI can perform cross-source reconciliation automatically: "Match this month's Stripe payouts to QuickBooks deposits and flag any discrepancies."
 
 **Trend Analysis and Forecasting**
 
@@ -57,10 +57,10 @@ AI excels at pattern recognition. Ask Claude "What trends do you see in our expe
 
 CorpusIQ connects AI to your financial systems through the Model Context Protocol:
 
-- **QuickBooks integration:** P&L, balance sheet, invoices, AR/AP aging, customer/vendor data — all queryable in natural language.
-- **Stripe integration:** Charges, subscriptions, MRR, refunds, disputes, payouts, balance — your payment data becomes conversational.
-- **NetSuite integration:** Enterprise ERP data — financials, inventory, orders, procurement — accessible through AI.
-- **Cross-source correlation:** Compare QuickBooks to Stripe, NetSuite to Salesforce, Shopify to your accounting system — all in one conversation.
+- **QuickBooks integration:** P&L, balance sheet, invoices, AR/AP aging, customer/vendor data  --  all queryable in natural language.
+- **Stripe integration:** Charges, subscriptions, MRR, refunds, disputes, payouts, balance  --  your payment data becomes conversational.
+- **NetSuite integration:** Enterprise ERP data  --  financials, inventory, orders, procurement  --  accessible through AI.
+- **Cross-source correlation:** Compare QuickBooks to Stripe, NetSuite to Salesforce, Shopify to your accounting system  --  all in one conversation.
 - **Read-only security:** OAuth 2.0 with read-only scope. AI can analyze financial data but can never create, modify, or delete transactions.
 
 ## Example Financial Analysis Queries
@@ -77,7 +77,7 @@ CorpusIQ connects AI to your financial systems through the Model Context Protoco
 - "Show me our largest upcoming cash obligations."
 
 **Revenue Analysis:**
-- "What's our revenue concentration — what percentage comes from our top 10 customers?"
+- "What's our revenue concentration  --  what percentage comes from our top 10 customers?"
 - "Analyze revenue by geography, product line, and sales rep."
 - "What's our recurring vs. one-time revenue split?"
 
@@ -88,23 +88,23 @@ CorpusIQ connects AI to your financial systems through the Model Context Protoco
 
 **Cross-Source Reconciliation:**
 - "Do our Stripe payouts match QuickBooks deposits for last month?"
-- "Compare Shopify revenue to QuickBooks revenue — are they reconciled?"
+- "Compare Shopify revenue to QuickBooks revenue  --  are they reconciled?"
 - "Match Salesforce closed-won deals to QuickBooks invoices."
 
 ## Implementation Steps
 
-1. **Connect your financial systems** to CorpusIQ — QuickBooks, Stripe, NetSuite, or your database.
+1. **Connect your financial systems** to CorpusIQ  --  QuickBooks, Stripe, NetSuite, or your database.
 2. **Define your key metrics** using CorpusIQ's metric specs (MRR, ARR, gross margin, CAC, burn rate).
 3. **Start asking questions** in natural language through Claude or ChatGPT.
-4. **Integrate into financial workflows** — month-end close, board preparation, investor updates, budget reviews.
-5. **Expand cross-source analysis** as needs evolve — add CRM, ERP, and analytics data for complete financial intelligence.
+4. **Integrate into financial workflows**  --  month-end close, board preparation, investor updates, budget reviews.
+5. **Expand cross-source analysis** as needs evolve  --  add CRM, ERP, and analytics data for complete financial intelligence.
 
 ## ROI for Finance Teams
 
 - **50-70% reduction** in time spent on routine report generation.
 - **Faster month-end close** through instant AR/AP analysis and cross-source reconciliation.
-- **More strategic finance** — analysts spend time on insight generation, not data gathering.
-- **Better decision-making** — leadership gets financial answers in minutes, not days.
+- **More strategic finance**  --  analysts spend time on insight generation, not data gathering.
+- **Better decision-making**  --  leadership gets financial answers in minutes, not days.
 
 ## FAQ
 
@@ -125,22 +125,22 @@ A: Upload spreadsheets and financial models to Google Drive, OneDrive, or ShareP
 
 ## Internal Links
 
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/) — Financial data in AI.
-- [Connect Stripe to Claude](/docs/connect-stripe-to-claude/) — Payment analytics.
-- [Connect NetSuite to Claude](/docs/connect-netsuite-to-claude/) — Enterprise ERP.
-- [AI for Executive Reporting](/docs/ai-for-executive-reporting/) — Board-ready intelligence.
-- [AI for Forecasting](/docs/ai-for-forecasting/) — Predictive finance.
-- [AI for Compliance](/docs/ai-for-compliance/) — Financial compliance.
-- [AI for Audit Readiness](/docs/ai-for-audit-readiness/) — Audit preparation.
-- [What is MCP?](/docs/what-is-mcp/) — MCP explained.
+- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/)  --  Financial data in AI.
+- [Connect Stripe to Claude](/docs/connect-stripe-to-claude/)  --  Payment analytics.
+- [Connect NetSuite to Claude](/docs/connect-netsuite-to-claude/)  --  Enterprise ERP.
+- [AI for Executive Reporting](/docs/ai-for-executive-reporting/)  --  Board-ready intelligence.
+- [AI for Forecasting](/docs/ai-for-forecasting/)  --  Predictive finance.
+- [AI for Compliance](/docs/ai-for-compliance/)  --  Financial compliance.
+- [AI for Audit Readiness](/docs/ai-for-audit-readiness/)  --  Audit preparation.
+- [What is MCP?](/docs/what-is-mcp/)  --  MCP explained.
 
 ---
 
 **Next steps:** [Connect your financial tools →](https://app.corpusiq.com/connect)
 
-*AI-powered AI for Financial Analysis | CorpusIQ MCP Platform for Fin... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*AI-powered AI for Financial Analysis | CorpusIQ MCP Platform for Fin...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
-*AI-powered AI for Financial Analysis | CorpusIQ MCP Platform for Fin... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*AI-powered AI for Financial Analysis | CorpusIQ MCP Platform for Fin...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---
 
 *

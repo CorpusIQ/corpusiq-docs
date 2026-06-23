@@ -1,6 +1,6 @@
 ---
-title: "Connect QuickBooks to Claude via MCP — Live Data, No Code | CorpusIQ"
-description: "Connect your QuickBooks account to Claude through CorpusIQ MCP. Ask natural language questions about your quickbooks data and get real-time, source-cited answers — no exports, no coding required."
+title: "Connect QuickBooks to Claude via MCP  --  Live Data, No Code | CorpusIQ"
+description: "Connect your QuickBooks account to Claude through CorpusIQ MCP. Ask natural language questions about your quickbooks data and get real-time, source-cited answers  --  no exports, no coding required."
 category: Claude Integrations
 tags: ["connect QuickBooks to Claude", "QuickBooks Claude integration", "MCP QuickBooks connector", "QuickBooks data to Claude", "AI for QuickBooks", "CorpusIQ MCP"]
 last_updated: 2026-06-16
@@ -16,11 +16,11 @@ The integration works through the Model Context Protocol (MCP), an open standard
 
 ### Why Connect QuickBooks to Claude?
 
-QuickBooks contains your company's financial truth — profit and loss, balance sheet, accounts receivable and payable, invoices, bills, and cash flow. But accessing that data typically means logging into QuickBooks, navigating reports, exporting data, and manually interpreting the numbers. Claude changes the paradigm by becoming the interface to your financial data.
+QuickBooks contains your company's financial truth  --  profit and loss, balance sheet, accounts receivable and payable, invoices, bills, and cash flow. But accessing that data typically means logging into QuickBooks, navigating reports, exporting data, and manually interpreting the numbers. Claude changes the paradigm by becoming the interface to your financial data.
 
 **Key benefits of connecting QuickBooks to Claude:**
 
-- **Instant financial answers.** Ask "What was our net income for Q1?" and Claude returns the number with context — no report building required.
+- **Instant financial answers.** Ask "What was our net income for Q1?" and Claude returns the number with context  --  no report building required.
 - **Executive-ready summaries.** Claude can synthesize complex financial data into digestible summaries, trend analyses, and recommendations.
 - **AR/AP visibility.** Ask "Which customers owe us more than $5,000?" or "What bills are due next week?" without digging through QuickBooks screens.
 - **Cross-source financial intelligence.** Combine QuickBooks data with Shopify revenue, Stripe payments, or Salesforce pipeline for a complete financial picture.
@@ -31,18 +31,18 @@ QuickBooks contains your company's financial truth — profit and loss, balance 
 
 The CorpusIQ MCP architecture for QuickBooks follows the same secure pattern as all integrations:
 
-1. **You connect QuickBooks once** via OAuth to Intuit. CorpusIQ requests read-only access to your company's financial data — P&L, balance sheet, invoices, customers, vendors, and reports.
-2. **Claude interprets your question** when you ask a financial query — "What's our gross profit margin trend over the last 6 months?"
+1. **You connect QuickBooks once** via OAuth to Intuit. CorpusIQ requests read-only access to your company's financial data  --  P&L, balance sheet, invoices, customers, vendors, and reports.
+2. **Claude interprets your question** when you ask a financial query  --  "What's our gross profit margin trend over the last 6 months?"
 3. **CorpusIQ translates** your question into the appropriate QuickBooks API calls and executes them with your stored credentials.
 4. **Claude presents** the results in natural language, with calculated metrics, trend observations, and actionable context.
 
-The connection is always live — every question triggers a fresh API call, so you're never looking at stale financial data.
+The connection is always live  --  every question triggers a fresh API call, so you're never looking at stale financial data.
 
 ### Setup Steps
 
 1. **Navigate to Connectors** in your CorpusIQ dashboard.
 2. **Select QuickBooks** from the integration catalog.
-3. **Click "Connect QuickBooks"** — you'll be directed to Intuit's OAuth consent screen.
+3. **Click "Connect QuickBooks"**  --  you'll be directed to Intuit's OAuth consent screen.
 4. **Authorize read-only access.** Review the scopes (Company Info, Customers, Invoices, Accounts, Reports, Vendors) and approve.
 5. **Return to CorpusIQ.** Your QuickBooks data is now queryable through Claude.
 
@@ -75,8 +75,8 @@ Once connected, Claude becomes your always-available financial analyst:
 - "What were our largest expenses last month?"
 
 **Cross-Source Financial Intelligence:**
-- "Compare revenue in QuickBooks to revenue in Shopify — are they reconciled?" (requires Shopify connected)
-- "Match Stripe payouts to QuickBooks deposits — are there discrepancies?" (requires Stripe connected)
+- "Compare revenue in QuickBooks to revenue in Shopify  --  are they reconciled?" (requires Shopify connected)
+- "Match Stripe payouts to QuickBooks deposits  --  are there discrepancies?" (requires Stripe connected)
 - "Show me Salesforce pipeline vs. QuickBooks actuals by quarter." (requires Salesforce connected)
 
 ### Security and Compliance
@@ -94,9 +94,9 @@ Financial data is among the most sensitive information in any organization. Corp
 | Aspect | CorpusIQ MCP | Direct QuickBooks API |
 |---|---|---|
 | Setup | 5-minute OAuth flow | Days to weeks (developer, Intuit Developer account, app approval) |
-| Natural language | Yes — plain English queries | No — requires OData or REST API calls |
+| Natural language | Yes  --  plain English queries | No  --  requires OData or REST API calls |
 | Cross-source analysis | Built-in (QuickBooks + Shopify + Stripe + Salesforce) | Requires custom data warehouse |
-| Maintenance | Zero — API versioning handled | Ongoing — Intuit updates, deprecation management |
+| Maintenance | Zero  --  API versioning handled | Ongoing  --  Intuit updates, deprecation management |
 | Security | Read-only OAuth, encrypted tokens | Must implement your own security |
 | Non-technical access | Any team member can query | Only developers or analysts with API skills |
 
@@ -108,7 +108,7 @@ Financial data is among the most sensitive information in any organization. Corp
 - Cash management: "What's our daily cash burn rate?"
 
 **Executive Team:**
-- Board meeting prep: "Give me a financial summary of Q2 — revenue, margins, cash position."
+- Board meeting prep: "Give me a financial summary of Q2  --  revenue, margins, cash position."
 - Investor updates: "Show me our key SaaS metrics: MRR, churn, LTV."
 - Strategic decisions: "What's our runway at current burn rate?"
 
@@ -170,9 +170,9 @@ Yes. CorpusIQ supports multiple QuickBooks company connections, each with indepe
 
 **Next steps:** [Connect QuickBooks to Claude now →](https://app.corpusiq.com/connect/quickbooks) or [view all integrations](/integrations/).
 
-*Connect Connect QuickBooks to Claude via MCP — Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect QuickBooks to Claude via MCP  --  Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
-*Connect Connect QuickBooks to Claude via MCP — Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect QuickBooks to Claude via MCP  --  Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---
 
 *

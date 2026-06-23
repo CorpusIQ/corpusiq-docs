@@ -1,5 +1,5 @@
 ---
-title: "How to Search Company Data with AI — Natural Language Business Search Guide"
+title: "How to Search Company Data with AI  --  Natural Language Business Search Guide"
 description: "Search your company's data with AI using CorpusIQ MCP. Natural language queries across CRM, accounting, analytics, and more. Step-by-step guide."
 h1: "How to Search Company Data with AI"
 url: "/docs/how-to-search-company-data-with-ai/"
@@ -17,7 +17,7 @@ Your company's data is scattered across dozens of tools: customer records in Hub
 
 ## The Solution
 
-CorpusIQ's MCP platform creates a unified AI search layer across all your business tools. Instead of searching each tool individually, you ask natural-language questions and the AI queries every connected source simultaneously — returning answers in seconds.
+CorpusIQ's MCP platform creates a unified AI search layer across all your business tools. Instead of searching each tool individually, you ask natural-language questions and the AI queries every connected source simultaneously  --  returning answers in seconds.
 
 ## What You'll Need
 
@@ -102,7 +102,7 @@ When you find valuable information, save it:
 **AI Response (powered by CorpusIQ):**
 
 ```
-GLOBALTECH INC — Account Overview
+GLOBALTECH INC  --  Account Overview
 
 CRM (HubSpot):
 - Company: GlobalTech Inc | Industry: SaaS | Employees: 250-500
@@ -112,7 +112,7 @@ CRM (HubSpot):
 
 Email (Gmail):
 - 23 emails in the last 90 days across 4 threads
-- Latest: "Re: Q3 Platform Expansion — Proposal Review" (June 12)
+- Latest: "Re: Q3 Platform Expansion  --  Proposal Review" (June 12)
 - Key thread: Contract negotiation with legal team (May 28 - June 8)
 
 Financial (QuickBooks):
@@ -132,9 +132,9 @@ CorpusIQ is the engine that makes this possible. It:
 
 1. **Unifies data access** across all your tools through a single MCP endpoint
 2. **Translates natural language** into structured API queries across each source
-3. **Orchestrates parallel queries** — searching CRM, email, accounting, and support tools simultaneously
+3. **Orchestrates parallel queries**  --  searching CRM, email, accounting, and support tools simultaneously
 4. **Returns structured data** that AI can format into coherent, readable answers
-5. **Maintains security** — read-only access, no data storage, inherits source permissions
+5. **Maintains security**  --  read-only access, no data storage, inherits source permissions
 
 ## FAQ
 
@@ -154,7 +154,7 @@ A: Yes. CorpusIQ queries live APIs with read-only access. Your data isn't copied
 A: Yes. Most connectors support date filtering. Ask "Show me deals from Q2 2026" or "Find emails from last week about the budget."
 
 **Q: What if the search returns too many results?**  
-A: Refine your query with more specifics — add date ranges, dollar amounts, people, or departments. The AI helps you narrow results interactively.
+A: Refine your query with more specifics  --  add date ranges, dollar amounts, people, or departments. The AI helps you narrow results interactively.
 
 **Q: Can non-technical team members use this?**  
 A: Absolutely. If you can type a question, you can search. No SQL, no search syntax, no training required.
@@ -168,10 +168,10 @@ A: Yes. Any AI assistant with MCP support on mobile can search your company data
 - [How to Analyze Company Data with ChatGPT](/docs/how-to-analyze-company-data-with-chatgpt/)
 - [How to Centralize Company Knowledge](/docs/how-to-centralize-company-knowledge/)
 - [How to Build an AI Knowledge Base](/docs/how-to-build-an-ai-knowledge-base/)
-- [Best Business AI Search Tool — Rankings](/docs/best-business-ai-search-tool/)
-- [Best AI Knowledge Platform — Comparison](/docs/best-ai-knowledge-platform/)
+- [Best Business AI Search Tool  --  Rankings](/docs/best-business-ai-search-tool/)
+- [Best AI Knowledge Platform  --  Comparison](/docs/best-ai-knowledge-platform/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
-- [Top Business AI Tools — Rankings](/docs/top-business-ai-tools/)
+- [Top Business AI Tools  --  Rankings](/docs/top-business-ai-tools/)
 ---
 
 *

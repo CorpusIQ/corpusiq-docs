@@ -1,14 +1,14 @@
 ---
-title: Docker Hermes Agent Setup — Reproducible Container Deployment Guide
+title: Docker Hermes Agent Setup  --  Reproducible Container Deployment Guide
 description: Deploy Hermes Agent as a Docker container for reproducible AI automation. Docker Compose setup with persistent volumes, MCP server integration, cron persistence, and production checklist. Works on any host.
 category: setup
 tags: [docker, hermes-agent, setup-guide, container, docker-compose, reproducible, cicd, deployment]
 last_updated: 2026-06-16
 ---
 
-# Docker Hermes Agent Setup — Reproducible Container Deployment
+# Docker Hermes Agent Setup  --  Reproducible Container Deployment
 
-Deploy Hermes Agent as a Docker container for identical behavior on your laptop, a cloud VPS, or a CI/CD pipeline. No Python version conflicts, no dependency hell — just consistent, reproducible AI agent deployment. This Docker setup guide covers Compose configuration, volume management, MCP integration, and production hardening.
+Deploy Hermes Agent as a Docker container for identical behavior on your laptop, a cloud VPS, or a CI/CD pipeline. No Python version conflicts, no dependency hell  --  just consistent, reproducible AI agent deployment. This Docker setup guide covers Compose configuration, volume management, MCP integration, and production hardening.
 
 ## Overview
 
@@ -147,7 +147,7 @@ docker compose exec hermes hermes gateway status
 ## FAQ
 
 ### Do I need to rebuild the Docker image for updates?
-No — `docker compose pull` fetches the latest image from Docker Hub. Your config, skills, and crons persist in the mounted volume.
+No  --  `docker compose pull` fetches the latest image from Docker Hub. Your config, skills, and crons persist in the mounted volume.
 
 ### Can I run GPU-accelerated models in Docker?
 Yes, if the host has an NVIDIA GPU and the NVIDIA Container Toolkit installed. Pass `--gpus all` to `docker run` or add `deploy.resources.reservations.devices` in Compose.
@@ -157,11 +157,11 @@ Mount your skills directory: `- ./skills:/home/hermes/skills:ro`. New skills are
 
 ## Related Pages
 
-- [Hermes Agent Setup Overview](/hermes/setup/) — All platform options
-- [Cloud VPS Setup](cloud-vps.md) — Docker on cloud
-- [Gaming PC Setup](gaming-pc.md) — Docker with GPU passthrough
-- [MCP Integration Guide](/hermes/mcp/) — Connect tools inside containers
-- [Creating Custom Skills](/hermes/skills/creating-skills.md) — Mount skills in Docker
+- [Hermes Agent Setup Overview](/hermes/setup/)  --  All platform options
+- [Cloud VPS Setup](cloud-vps.md)  --  Docker on cloud
+- [Gaming PC Setup](gaming-pc.md)  --  Docker with GPU passthrough
+- [MCP Integration Guide](/hermes/mcp/)  --  Connect tools inside containers
+- [Creating Custom Skills](/hermes/skills/creating-skills.md)  --  Mount skills in Docker
 ---
 
 *

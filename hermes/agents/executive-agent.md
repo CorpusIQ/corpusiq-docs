@@ -1,5 +1,5 @@
 ---
-title: Hermes Executive Agent — AI Chief of Staff for Calendar & Inbox
+title: Hermes Executive Agent  --  AI Chief of Staff for Calendar & Inbox
 description: Deploy an autonomous executive assistant agent for daily briefings, calendar management, inbox triage, meeting preparation, and task follow-up. Complete Hermes blueprint.
 category: Agents
 tags:
@@ -11,9 +11,9 @@ tags:
 last_updated: 2026-06-16
 ---
 
-# Hermes Executive Agent — Autonomous Calendar, Inbox & Daily Briefings
+# Hermes Executive Agent  --  Autonomous Calendar, Inbox & Daily Briefings
 
-The **Hermes Executive Agent** is your **AI chief of staff** — it manages your calendar, prepares meeting briefs, triages your inbox, and delivers a structured **daily briefing** so you start every day with clarity instead of chaos. Designed for founders, executives, and anyone juggling too many priorities.
+The **Hermes Executive Agent** is your **AI chief of staff**  --  it manages your calendar, prepares meeting briefs, triages your inbox, and delivers a structured **daily briefing** so you start every day with clarity instead of chaos. Designed for founders, executives, and anyone juggling too many priorities.
 
 This agent integrates deeply with your calendar, email, task management, and communication tools through [CorpusIQ MCP connectors](/hermes/mcp/connectors/). It learns your priorities, communication patterns, and working style to provide **proactive, context-rich support**.
 
@@ -33,24 +33,24 @@ This agent integrates deeply with your calendar, email, task management, and com
 
 ## How It Works
 
-1. **Connect your personal stack** — Google/Outlook Calendar, Calendly, Gmail/Outlook, Slack, Notion, Drive
-2. **Define your priorities** — Store communication preferences and delegation patterns in canonical facts
-3. **Load the skills** — Daily briefing, calendar manager, priority inbox, meeting prep, task follow-up
-4. **Schedule the crons** — 5 AM calendar optimization, 6:30 AM briefing, 15-min inbox triage
-5. **Receive via email and Slack** — Morning briefings, meeting prep docs, task reminders
+1. **Connect your personal stack**  --  Google/Outlook Calendar, Calendly, Gmail/Outlook, Slack, Notion, Drive
+2. **Define your priorities**  --  Store communication preferences and delegation patterns in canonical facts
+3. **Load the skills**  --  Daily briefing, calendar manager, priority inbox, meeting prep, task follow-up
+4. **Schedule the crons**  --  5 AM calendar optimization, 6:30 AM briefing, 15-min inbox triage
+5. **Receive via email and Slack**  --  Morning briefings, meeting prep docs, task reminders
 
 ## Key Features
 
-- **6:30 AM daily briefing** delivered to your inbox — meetings, priority emails, decisions, metrics
-- **Calendar optimization** at 5 AM — resolves conflicts, blocks focus time, ensures travel buffers
+- **6:30 AM daily briefing** delivered to your inbox  --  meetings, priority emails, decisions, metrics
+- **Calendar optimization** at 5 AM  --  resolves conflicts, blocks focus time, ensures travel buffers
 - **Every-15-minute inbox triage** during business hours with response drafts
 - **Pre-meeting briefs** with attendee bios, recent interactions, and open action items
 - **4:00 PM task follow-up** checking delegated items and flagging overdue tasks
-- **Friday weekly review** — wins, blockers, decisions made, next week's priorities
+- **Friday weekly review**  --  wins, blockers, decisions made, next week's priorities
 
 ## Recommended Model
 
-**Claude Sonnet 4** or **GPT-4o** — sophisticated prioritization, contextual understanding, and professional communication drafting. Use **Claude Haiku** for daily briefings and scheduling.
+**Claude Sonnet 4** or **GPT-4o**  --  sophisticated prioritization, contextual understanding, and professional communication drafting. Use **Claude Haiku** for daily briefings and scheduling.
 
 ## MCP Connectors Needed
 
@@ -103,7 +103,7 @@ hermes agent create executive \
 - Configure **high-priority senders and topics** vs. noise
 - Set **working hours, focus time preferences, and meeting duration defaults**
 - Define **action item keywords and formats** for automatic tracking
-- The agent respects **calendar and email privacy** — only accesses what you've granted
+- The agent respects **calendar and email privacy**  --  only accesses what you've granted
 
 ## Extending
 
@@ -117,7 +117,7 @@ hermes agent create executive \
 
 ### What does the Hermes Executive Agent do?
 
-The **Hermes Executive Agent** serves as an AI chief of staff — delivering daily briefings at 6:30 AM, optimizing your calendar, triaging your inbox every 15 minutes, preparing meeting briefs with attendee context, and tracking action items and delegated tasks.
+The **Hermes Executive Agent** serves as an AI chief of staff  --  delivering daily briefings at 6:30 AM, optimizing your calendar, triaging your inbox every 15 minutes, preparing meeting briefs with attendee context, and tracking action items and delegated tasks.
 
 ### How does the daily briefing work?
 
@@ -125,7 +125,7 @@ Every weekday at 6:30 AM, the agent compiles and emails: **today's schedule with
 
 ### Does the agent prepare me for meetings?
 
-Yes. Before each meeting, the agent prepares a **brief covering who's attending, what's been discussed recently, open action items, and relevant documents** — so you walk in fully prepared without pre-meeting research.
+Yes. Before each meeting, the agent prepares a **brief covering who's attending, what's been discussed recently, open action items, and relevant documents**  --  so you walk in fully prepared without pre-meeting research.
 
 ### How does inbox triage work?
 
@@ -133,20 +133,20 @@ Every 15 minutes during business hours, the agent classifies new emails into thr
 
 ### Can the executive agent help with weekly reviews?
 
-Yes. Every Friday at 4:30 PM, the agent delivers a **weekly review** covering wins, blockers, decisions made, delegated task status, and priorities for next week — so you close the week clean and start Monday with a clear plan.
+Yes. Every Friday at 4:30 PM, the agent delivers a **weekly review** covering wins, blockers, decisions made, delegated task status, and priorities for next week  --  so you close the week clean and start Monday with a clear plan.
 
 ## Related Pages
 
-- [Agent Library — All 9 Role Configurations](/hermes/agents/)
-- [HR Agent — Recruiting & People Operations](/hermes/agents/hr-agent.md)
-- [Sales Agent — Pipeline & CRM Automation](/hermes/agents/sales-agent.md)
-- [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
+- [Agent Library  --  All 9 Role Configurations](/hermes/agents/)
+- [HR Agent  --  Recruiting & People Operations](/hermes/agents/hr-agent.md)
+- [Sales Agent  --  Pipeline & CRM Automation](/hermes/agents/sales-agent.md)
+- [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 - [Model Selection Best Practices](/hermes/best-practices/model-selection.md)
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

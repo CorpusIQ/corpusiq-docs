@@ -1,5 +1,5 @@
 ---
-title: Hermes HR Agent — Recruiting & People Operations Automation
+title: Hermes HR Agent  --  Recruiting & People Operations Automation
 description: Deploy an AI HR agent for resume screening, interview scheduling, onboarding coordination, policy Q&A, and compliance tracking. Complete Hermes configuration blueprint.
 category: Agents
 tags:
@@ -11,9 +11,9 @@ tags:
 last_updated: 2026-06-16
 ---
 
-# Hermes HR Agent — Autonomous Recruiting & People Operations
+# Hermes HR Agent  --  Autonomous Recruiting & People Operations
 
-The **Hermes HR Agent** automates **recruiting and people operations workflows** — resume screening, interview scheduling, onboarding coordination, policy Q&A, and employee data management. It connects to your ATS, calendar, HRIS, and document storage through [CorpusIQ MCP connectors](/hermes/mcp/connectors/) to reduce administrative burden on your people team.
+The **Hermes HR Agent** automates **recruiting and people operations workflows**  --  resume screening, interview scheduling, onboarding coordination, policy Q&A, and employee data management. It connects to your ATS, calendar, HRIS, and document storage through [CorpusIQ MCP connectors](/hermes/mcp/connectors/) to reduce administrative burden on your people team.
 
 The agent handles high-volume, repetitive HR tasks so your team can focus on culture, employee experience, and strategic workforce planning. All employee data handling follows access controls configured in your Hermes profile.
 
@@ -33,24 +33,24 @@ The agent handles high-volume, repetitive HR tasks so your team can focus on cul
 
 ## How It Works
 
-1. **Connect your HR stack** — Calendly, Google/Outlook Calendar, Gmail, Notion, Drive
-2. **Store job descriptions and rubrics** — In canonical facts or a Notion database
-3. **Load the skills** — Resume screening, interview scheduling, onboarding, policy QA, compliance
-4. **Schedule the crons** — Hourly resume screening, daily onboarding checks, weekly compliance
-5. **Receive in Slack/Email** — Candidate summaries, onboarding status, compliance alerts
+1. **Connect your HR stack**  --  Calendly, Google/Outlook Calendar, Gmail, Notion, Drive
+2. **Store job descriptions and rubrics**  --  In canonical facts or a Notion database
+3. **Load the skills**  --  Resume screening, interview scheduling, onboarding, policy QA, compliance
+4. **Schedule the crons**  --  Hourly resume screening, daily onboarding checks, weekly compliance
+5. **Receive in Slack/Email**  --  Candidate summaries, onboarding status, compliance alerts
 
 ## Key Features
 
-- **Hourly resume screening** — ranks new applicants against job requirements with scored summaries
-- **Panel coordination** — checks availability across interviewer calendars and sends invites
-- **Onboarding progress tracking** — flags outstanding documents, incomplete setup tasks
-- **Compliance monitoring** — weekly scans for expiring certifications, visas, and contract end dates
-- **Employee lifecycle tracking** — anniversaries, probation periods, contract renewals
-- **Policy Q&A** — semantic search across handbooks and policies for employee self-service
+- **Hourly resume screening**  --  ranks new applicants against job requirements with scored summaries
+- **Panel coordination**  --  checks availability across interviewer calendars and sends invites
+- **Onboarding progress tracking**  --  flags outstanding documents, incomplete setup tasks
+- **Compliance monitoring**  --  weekly scans for expiring certifications, visas, and contract end dates
+- **Employee lifecycle tracking**  --  anniversaries, probation periods, contract renewals
+- **Policy Q&A**  --  semantic search across handbooks and policies for employee self-service
 
 ## Recommended Model
 
-**Claude Sonnet 4** or **GPT-4o** — nuanced resume evaluation and professional communication drafting. Use **Claude Haiku** or **GPT-4o Mini** for policy Q&A and simple scheduling.
+**Claude Sonnet 4** or **GPT-4o**  --  nuanced resume evaluation and professional communication drafting. Use **Claude Haiku** or **GPT-4o Mini** for policy Q&A and simple scheduling.
 
 ## MCP Connectors Needed
 
@@ -96,9 +96,9 @@ hermes agent create hr \
 ## Configuration Notes
 
 - Store **job descriptions, evaluation rubrics, and scoring criteria** in canonical facts
-- Define **interview panel configurations** — who must attend per role type
+- Define **interview panel configurations**  --  who must attend per role type
 - Configure **policy document locations** for Q&A skill searching
-- Set **data retention policies** — agent respects GDPR/CCPA requirements
+- Set **data retention policies**  --  agent respects GDPR/CCPA requirements
 - All resume data handling follows **access controls** configured in your profile
 
 ## Extending
@@ -112,7 +112,7 @@ hermes agent create hr \
 
 ### What does the Hermes HR Agent do?
 
-The **Hermes HR Agent** automates recruiting and people operations: it screens resumes against job requirements, coordinates interview scheduling across panels, tracks onboarding progress, answers policy questions from employees, and monitors compliance deadlines — all on scheduled crons.
+The **Hermes HR Agent** automates recruiting and people operations: it screens resumes against job requirements, coordinates interview scheduling across panels, tracks onboarding progress, answers policy questions from employees, and monitors compliance deadlines  --  all on scheduled crons.
 
 ### How does resume screening work?
 
@@ -132,15 +132,15 @@ Yes. Weekly scans check for **expiring certifications, visas, contract end dates
 
 ## Related Pages
 
-- [Agent Library — All 9 Role Configurations](/hermes/agents/)
-- [Executive Agent — Calendar & Inbox Management](/hermes/agents/executive-agent.md)
-- [Legal Agent — Compliance & Contract Review](/hermes/agents/legal-agent.md)
-- [CorpusIQ MCP Connectors — 37+ Business Tools](/hermes/mcp/connectors/)
+- [Agent Library  --  All 9 Role Configurations](/hermes/agents/)
+- [Executive Agent  --  Calendar & Inbox Management](/hermes/agents/executive-agent.md)
+- [Legal Agent  --  Compliance & Contract Review](/hermes/agents/legal-agent.md)
+- [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

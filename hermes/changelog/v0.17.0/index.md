@@ -1,14 +1,14 @@
 ---
-title: Hermes Agent v0.17.0 — The Reach Release
+title: Hermes Agent v0.17.0  --  The Reach Release
 description: iMessage via Photon, Raft agent network, background subagents, image editing, Automation Blueprints, desktop app overhaul, Skills Hub rehaul, WhatsApp Cloud API, Telegram rich text. June 19, 2026.
 ---
 
-# Hermes Agent v0.17.0 (v2026.6.19) — The Reach Release
+# Hermes Agent v0.17.0 (v2026.6.19)  --  The Reach Release
 
 **Release Date:** June 19, 2026
 **Since v0.16.0:** ~1,475 commits · ~800 merged PRs · 1,693 files changed · 235,390 insertions · 50,730 deletions · 300+ issues closed · 245 community contributors
 
-> **The Reach Release.** v0.16.0 put Hermes on your desktop. v0.17.0 is about how far that reach extends — across new places to talk to it, deeper into the tools you already use, and smarter about how work gets done.
+> **The Reach Release.** v0.16.0 put Hermes on your desktop. v0.17.0 is about how far that reach extends  --  across new places to talk to it, deeper into the tools you already use, and smarter about how work gets done.
 
 ---
 
@@ -16,39 +16,39 @@ description: iMessage via Photon, Raft agent network, background subagents, imag
 
 ### 📱 iMessage Support via Photon (NEW)
 No Mac relay required. Talk to Hermes through iMessage using Nous-managed Photon infrastructure.
-- `hermes photon login` — one-command setup
+- `hermes photon login`  --  one-command setup
 - Blue-bubble delivery with full message fidelity
 - No Apple hardware dependency
 
 ### 🌊 Raft Agent Network Gateway (NEW)
-Connect Hermes to Raft via wake-channel bridge — a privacy-preserving agent-to-agent network.
+Connect Hermes to Raft via wake-channel bridge  --  a privacy-preserving agent-to-agent network.
 - Cross-agent dispatch and coordination
 - Privacy-preserving connection model
 - Opt-in bridge architecture
 
 ### 🖥️ Desktop App Overhaul
 Massive UX upgrade across the Electron desktop app:
-- **Rebindable keyboard shortcuts** panel — customize every action
-- **Native OS notifications** — system-level alerts when Hermes needs you
-- **Live subagent watch-windows** — see what your subagents are doing in real time
+- **Rebindable keyboard shortcuts** panel  --  customize every action
+- **Native OS notifications**  --  system-level alerts when Hermes needs you
+- **Live subagent watch-windows**  --  see what your subagents are doing in real time
 - **Composer model selector** with per-model presets
-- **VS Code theme support** — install any Marketplace theme
+- **VS Code theme support**  --  install any Marketplace theme
 - Automatic RTL/bidi text direction
 - Resizable VS Code-themed terminal pane
 - Per-thread composer drafts
 
 ### 🤖 Background & Async Subagents
-`delegate_task(background=true)` returns immediately — subagent runs in background, results come back when ready. No more blocking on long chains.
+`delegate_task(background=true)` returns immediately  --  subagent runs in background, results come back when ready. No more blocking on long chains.
 
 ### 🖼️ Image Editing
 The `image_generate` tool now supports editing and transforming existing images. Route edits to the appropriate endpoint automatically.
 
 ### 📋 Automation Blueprints (NEW)
-Schedule recurring tasks via natural-language forms — no cron syntax required. "Every morning at 8 AM, check my calendar and summarize" just works.
+Schedule recurring tasks via natural-language forms  --  no cron syntax required. "Every morning at 8 AM, check my calendar and summarize" just works.
 
 ### 🧠 Model & Provider Expansion
-- **Cursor Composer model via xAI Grok** — `grok-composer-2.5-fast` with full 200k context via OAuth
-- Full profile builder in dashboard — configure models, skills, MCP servers without touching `config.yaml`
+- **Cursor Composer model via xAI Grok**  --  `grok-composer-2.5-fast` with full 200k context via OAuth
+- Full profile builder in dashboard  --  configure models, skills, MCP servers without touching `config.yaml`
 
 ### 🛒 Skills Hub Rehaul
 - Featured skills with curated discovery
@@ -60,16 +60,16 @@ Schedule recurring tasks via natural-language forms — no cron syntax required.
 Atomic batch operations (`add`/`replace`/`remove`) against a character budget. Smarter memory compaction with no loss of critical context.
 
 ### 🔐 Security & Dashboard
-- **Hardened dashboard login** — proper 401 handling, `public_url` warning
+- **Hardened dashboard login**  --  proper 401 handling, `public_url` warning
 - Promptware defense: Brainworm-class attack patterns blocked; memory scanned at load; tool outputs delimited
 - `session_search` rebuilt: **4,500× faster**, zero LLM cost
 
 ### 📱 Messaging Platforms
-- **Official WhatsApp Business Cloud API adapter** — native Meta-hosted channel
-- **Rich text for Telegram** — Bot API 10.1 with native markup (on by default)
+- **Official WhatsApp Business Cloud API adapter**  --  native Meta-hosted channel
+- **Rich text for Telegram**  --  Bot API 10.1 with native markup (on by default)
 
 ### 💰 Cost Optimization
-- **Curator cost optimization** — LLM consolidation pass now off by default; deterministic pruning is free
+- **Curator cost optimization**  --  LLM consolidation pass now off by default; deterministic pruning is free
 - Token-aware tool dispatch reducing per-turn overhead
 
 ---
@@ -77,9 +77,9 @@ Atomic batch operations (`add`/`replace`/`remove`) against a character budget. S
 ## 🖥️ Desktop App Details
 
 ### UX & Productivity
-- Rebindable keyboard shortcuts panel — full customization
+- Rebindable keyboard shortcuts panel  --  full customization
 - Live subagent watch-windows with streaming output
-- Composer model selector — switch models mid-conversation
+- Composer model selector  --  switch models mid-conversation
 - Per-model presets for quick switching
 - Automatic RTL/bidi text direction detection
 - Resizable VS Code-themed terminal pane
@@ -97,7 +97,7 @@ Atomic batch operations (`add`/`replace`/`remove`) against a character budget. S
 
 ### iMessage (Photon)
 - `hermes photon login` for setup
-- Managed infrastructure — no Mac required
+- Managed infrastructure  --  no Mac required
 - Full message fidelity on blue bubbles
 
 ### Raft Agent Network
@@ -115,7 +115,7 @@ Atomic batch operations (`add`/`replace`/`remove`) against a character budget. S
 ## 🏗️ Core Agent
 
 ### Subagents
-- `delegate_task(background=true)` — async, non-blocking
+- `delegate_task(background=true)`  --  async, non-blocking
 - Subagent results delivered when ready
 - Live watch-windows in desktop app
 
@@ -125,7 +125,7 @@ Atomic batch operations (`add`/`replace`/`remove`) against a character budget. S
 - Memory tool: atomic batch operations with character budget
 
 ### Automation Blueprints
-- Natural-language scheduling — no cron syntax
+- Natural-language scheduling  --  no cron syntax
 - Recurring task definitions with plain English
 - One-off and repeating patterns supported
 
@@ -150,7 +150,7 @@ Atomic batch operations (`add`/`replace`/`remove`) against a character budget. S
 
 | Platform | New in v0.17.0 |
 |----------|----------------|
-| **iMessage** | Full support via Photon — no Mac required |
+| **iMessage** | Full support via Photon  --  no Mac required |
 | **WhatsApp** | Official Business Cloud API adapter |
 | **Telegram** | Rich text via Bot API 10.1 (native markup, on by default) |
 
@@ -158,8 +158,8 @@ Atomic batch operations (`add`/`replace`/`remove`) against a character budget. S
 
 ## 🔒 Security
 
-- **Promptware defense** — Brainworm-class attack patterns blocked; memory scanned at load time; tool outputs delimited
-- Dashboard auth hardened — proper 401 handling, `public_url` exposure warning
+- **Promptware defense**  --  Brainworm-class attack patterns blocked; memory scanned at load time; tool outputs delimited
+- Dashboard auth hardened  --  proper 401 handling, `public_url` exposure warning
 - `session_search` rebuilt as deterministic tool (no LLM → no prompt-injection surface)
 - Per-skill security scanning in Skills Hub
 
@@ -178,7 +178,7 @@ Atomic batch operations (`add`/`replace`/`remove`) against a character budget. S
 
 ## 👥 Contributors
 
-**245 community contributors** — the largest contributor cohort in Hermes Agent history.
+**245 community contributors**  --  the largest contributor cohort in Hermes Agent history.
 
 ---
 

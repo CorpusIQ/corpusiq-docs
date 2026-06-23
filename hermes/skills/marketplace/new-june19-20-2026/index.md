@@ -1,6 +1,6 @@
 ---
-title: New Hermes Skills — June 19-20, 2026
-description: 12 newly discovered Hermes Agent skills across 6 repos — Ponytail lazy-senior-dev, SkillSpector security vetting, AgentMint subagent routing, Herman's execution playbook, and 3 new aradotso/hermes-skills additions
+title: New Hermes Skills  --  June 19-20, 2026
+description: 12 newly discovered Hermes Agent skills across 6 repos  --  Ponytail lazy-senior-dev, SkillSpector security vetting, AgentMint subagent routing, Herman's execution playbook, and 3 new aradotso/hermes-skills additions
 ---
 
 # New Skills: June 19-20, 2026
@@ -14,7 +14,7 @@ description: 12 newly discovered Hermes Agent skills across 6 repos — Ponytail
 
 **"Makes your agent think like the laziest senior dev in the room."**
 
-Ponytail repackaged for Hermes — pure `SKILL.md` skills with no code, no tools, no env. Hermes loads them on demand: when a task looks over-engineered, the model pulls the skill into context and builds the simplest thing that works.
+Ponytail repackaged for Hermes  --  pure `SKILL.md` skills with no code, no tools, no env. Hermes loads them on demand: when a task looks over-engineered, the model pulls the skill into context and builds the simplest thing that works.
 
 | Skill | What it does | Install Command |
 |-------|-------------|-----------------|
@@ -53,7 +53,7 @@ Scan-before-install enforcement, 64 vulnerability patterns, risk gating (auto-pr
 
 | Skill | What it does | Install Command |
 |-------|-------------|-----------------|
-| `agentmint` | Universal AgentMint usage — wallet matrix, JSON-RPC methods, persona format | `hermes skills install mesutcelik/agentmint-skills/agentmint` |
+| `agentmint` | Universal AgentMint usage  --  wallet matrix, JSON-RPC methods, persona format | `hermes skills install mesutcelik/agentmint-skills/agentmint` |
 | `hermes-delegate-task` | Route `delegate_task(background=True)` to named, persistent AgentMint subagent | `hermes skills install mesutcelik/agentmint-skills/hermes-delegate-task` |
 
 **Repo:** [mesutcelik/agentmint-skills](https://github.com/mesutcelik/agentmint-skills) | **Stars:** 0 | **Created:** June 19, 2026  
@@ -64,7 +64,7 @@ Scan-before-install enforcement, 64 vulnerability patterns, risk gating (auto-pr
 
 ## darraappen2/herman-skill-playbook (8 skills in 1 playbook)
 
-**Execution skills by Herman (Hermes Agent) — GitHub installs, plugin management, DB ops, GDrive uploads, data analysis, memory management.**
+**Execution skills by Herman (Hermes Agent)  --  GitHub installs, plugin management, DB ops, GDrive uploads, data analysis, memory management.**
 
 | # | Skill | Description |
 |---|-------|-------------|
@@ -96,7 +96,7 @@ Discovered via commit tracking on aradotso/hermes-skills (June 18, 2026):
 
 ## Also Discovered (lower value)
 
-These repos were found but not catalogued in detail — low star counts, minimal content, or duplicate existing skills:
+These repos were found but not catalogued in detail  --  low star counts, minimal content, or duplicate existing skills:
 
 | Repo | Description | Why skipped |
 |------|-------------|-------------|

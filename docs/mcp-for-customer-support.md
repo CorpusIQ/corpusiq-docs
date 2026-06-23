@@ -10,11 +10,11 @@ robots: index,follow
 
 # MCP for Customer Support: How to Connect Your Business Data to AI
 
-**Customer Support teams need fast, accurate answers from their business data** — but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives customer support professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports — just connect your tools and ask questions in plain English.
+**Customer Support teams need fast, accurate answers from their business data**  --  but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives customer support professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports  --  just connect your tools and ask questions in plain English.
 
 ## Beyond Helpdesk Reporting
 
-Every helpdesk platform provides dashboards — ticket volume by status, average response time, CSAT scores. These reports tell you what happened. They don't tell you:
+Every helpdesk platform provides dashboards  --  ticket volume by status, average response time, CSAT scores. These reports tell you what happened. They don't tell you:
 
 - "What types of issues are trending upward this month, and which product areas are generating the most tickets?"
 - "Which customers with open support tickets are also in active sales cycles?"
@@ -37,7 +37,7 @@ Deep analysis of your support ticket data:
 
 **First response time.** "Are we meeting our first response time SLA? Break it down by channel, priority, and time of day." SLA compliance monitoring.
 
-**Ticket lifecycle.** "What's the full lifecycle of tickets from creation to resolution — where do they spend the most time?" Process optimization insights.
+**Ticket lifecycle.** "What's the full lifecycle of tickets from creation to resolution  --  where do they spend the most time?" Process optimization insights.
 
 **Reopen rate.** "Which types of tickets are most likely to be reopened after resolution?" Identify issues requiring better root-cause solutions.
 
@@ -107,14 +107,14 @@ Connect support data to other business systems:
 
 **Communication platform integration.** Connect Slack or email for communication context alongside ticket data.
 
-**Cross-source support intelligence.** The support value is in the connections — how tickets relate to customer value, how sentiment relates to churn, how knowledge base content relates to resolution speed. CorpusIQ makes these connections queryable.
+**Cross-source support intelligence.** The support value is in the connections  --  how tickets relate to customer value, how sentiment relates to churn, how knowledge base content relates to resolution speed. CorpusIQ makes these connections queryable.
 
 ## FAQ: Common Questions
 
 <details>
 <summary><strong>Can MCP replace our helpdesk reporting?</strong></summary>
 
-MCP complements helpdesk reporting by enabling ad-hoc queries and cross-source analysis. Your helpdesk's built-in reports handle standard metrics. MCP handles the questions that span multiple systems — support plus CRM plus product data.
+MCP complements helpdesk reporting by enabling ad-hoc queries and cross-source analysis. Your helpdesk's built-in reports handle standard metrics. MCP handles the questions that span multiple systems  --  support plus CRM plus product data.
 </details>
 
 <details>
@@ -151,9 +151,9 @@ Yes. A support manager can quickly query "show me the history and full context f
 - [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
 - [MCP for Enterprise: Multi-Department Deployment](/docs/mcp-for-enterprise)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 ---
 
 *

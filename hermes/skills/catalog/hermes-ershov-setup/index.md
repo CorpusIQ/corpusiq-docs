@@ -1,6 +1,6 @@
 ---
 title: Hermes Ershov Memory Engine Setup
-description: Install and configure Ershov — a staged nightly memory engine for Hermes operators with reviewable proposals, artifact-first workflow, and 4 LLM backends
+description: Install and configure Ershov  --  a staged nightly memory engine for Hermes operators with reviewable proposals, artifact-first workflow, and 4 LLM backends
 ---
 
 # Hermes Ershov Memory Engine Setup
@@ -12,11 +12,11 @@ description: Install and configure Ershov — a staged nightly memory engine for
 
 ## 1. What It Is
 
-A staged nightly memory engine that turns recent Hermes sessions into **reviewable memory proposals** — no silent live-memory mutation. Think of it as "Git for agent memory": inspect, diff, approve, apply, revert.
+A staged nightly memory engine that turns recent Hermes sessions into **reviewable memory proposals**  --  no silent live-memory mutation. Think of it as "Git for agent memory": inspect, diff, approve, apply, revert.
 
 **Key design principles:**
 - **Artifact-first:** Every proposal is a JSONL file with full diffs before any memory write
-- **Human-in-the-loop:** No automated mutation of live memory — every change goes through review
+- **Human-in-the-loop:** No automated mutation of live memory  --  every change goes through review
 - **Auditable:** Local run ledger + `ERSHOV.md` diary tracks every decision
 - **Offline-capable:** Deterministic replays for demos and tests
 
@@ -161,7 +161,7 @@ ershov:
 - Ershov complements (doesn't replace) Hermes' built-in `memory` tool
 - Use Ershov for: cross-session pattern detection, cleanup of stale memories, quality audits
 - Keep Hermes `memory` for: session-level facts, user preferences, quick saves
-- Ershov diary serves as a changelog for the memory layer — pairs well with Honcho's peer context
+- Ershov diary serves as a changelog for the memory layer  --  pairs well with Honcho's peer context
 
 **Cron job for nightly review:**
 

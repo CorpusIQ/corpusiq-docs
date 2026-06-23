@@ -1,18 +1,18 @@
 ---
-title: Cron Design Best Practices for Hermes Agent — Reliable Scheduled Automation
+title: Cron Design Best Practices for Hermes Agent  --  Reliable Scheduled Automation
 description: Production-grade cron design for Hermes Agent scheduled automation. Idempotency, error handling with retry/backoff, rate limiting, monitoring, delivery targets, and anti-patterns. Build crons that don't fail silently.
 category: best-practices
 tags: [hermes-agent, cron-design, scheduled-automation, idempotency, error-handling, monitoring, rate-limiting]
 last_updated: 2026-06-16
 ---
 
-# Cron Design Best Practices — Reliable Scheduled Automation
+# Cron Design Best Practices  --  Reliable Scheduled Automation
 
 Scheduled automation is one of Hermes Agent's most powerful features, but poorly designed crons are the fastest path to operational pain. These cron design best practices cover idempotency, error handling, rate limiting, monitoring, and the anti-patterns that keep your scheduled tasks reliable and safe in production.
 
 ## Overview
 
-Crons are the heartbeat of autonomous Hermes Agent operation. They handle email monitoring, data synchronization, report generation, and operational checks — running on schedules from every 5 minutes to once per month. Following [Hermes Agent best practices](/hermes/best-practices/) for cron design prevents silent failures, resource exhaustion, and alert fatigue.
+Crons are the heartbeat of autonomous Hermes Agent operation. They handle email monitoring, data synchronization, report generation, and operational checks  --  running on schedules from every 5 minutes to once per month. Following [Hermes Agent best practices](/hermes/best-practices/) for cron design prevents silent failures, resource exhaustion, and alert fatigue.
 
 ## How It Works
 
@@ -44,16 +44,16 @@ A good litmus test: could you run this cron three times back-to-back without bre
 
 Define explicit throughput targets. Implement token-bucket or sliding-window rate limiting. Maintain separate rate-limit budgets per API integration.
 
-**Delivery windows matter.** If your cron takes 4 minutes to complete, don't schedule it every 5 minutes — that leaves only 1 minute of slack. Schedule at 2-3x the expected runtime to prevent overlap.
+**Delivery windows matter.** If your cron takes 4 minutes to complete, don't schedule it every 5 minutes  --  that leaves only 1 minute of slack. Schedule at 2-3x the expected runtime to prevent overlap.
 
 ## Monitoring and Observability
 
 Every cron should emit:
 
-- **Start/end timestamps** with duration — track runtime drift
-- **Record counts** — items read, written, failed
+- **Start/end timestamps** with duration  --  track runtime drift
+- **Record counts**  --  items read, written, failed
 - **Error counts** by type
-- **Last successful run timestamp** — your canary
+- **Last successful run timestamp**  --  your canary
 
 **Heartbeat monitoring:** A separate lightweight check every 15-30 minutes verifies the last successful run is within the expected window.
 
@@ -70,7 +70,7 @@ Every cron should emit:
 ## Delivery Target Patterns
 
 - **Real-time needs:** Use event-driven architecture, not polling crons
-- **Near-real-time:** Every 5 minutes — acceptable for most ecommerce
+- **Near-real-time:** Every 5 minutes  --  acceptable for most ecommerce
 - **Hourly:** Good for dashboards, cache warming
 - **Daily:** Batch windows for exports, reconciliation
 - **Weekly/monthly:** Run during low-traffic with explicit retry windows
@@ -88,18 +88,18 @@ Every cron should emit:
 A cron is idempotent if running it multiple times with the same inputs produces the same result. Use upsert database operations, deduplication keys on notifications, and deterministic file naming for reports.
 
 ### How many times should a failed cron retry?
-Retry 3-5 times with exponential backoff and jitter. After all retries are exhausted, route to a dead-letter queue — never silently discard work. Alert after 3 consecutive failures.
+Retry 3-5 times with exponential backoff and jitter. After all retries are exhausted, route to a dead-letter queue  --  never silently discard work. Alert after 3 consecutive failures.
 
 ### How do I monitor cron job health?
 Track start/end timestamps, record counts processed, error counts by type, and last successful run timestamp. Run a separate heartbeat check every 15-30 minutes to catch stale crons.
 
 ## Related Pages
 
-- [Best Practices Overview](/hermes/best-practices/) — All best practices guides
-- [Model Selection](model-selection.md) — Use the right model for each cron
-- [Security](security.md) — Credential management for scheduled tasks
-- [Setup Guides](/hermes/setup/) — Run crons on [cloud VPS](/hermes/setup/cloud-vps.md) or [Raspberry Pi](/hermes/setup/raspberry-pi.md)
-- [Blueprints](/hermes/blueprints/) — End-to-end cron-anchored workflows
+- [Best Practices Overview](/hermes/best-practices/)  --  All best practices guides
+- [Model Selection](model-selection.md)  --  Use the right model for each cron
+- [Security](security.md)  --  Credential management for scheduled tasks
+- [Setup Guides](/hermes/setup/)  --  Run crons on [cloud VPS](/hermes/setup/cloud-vps.md) or [Raspberry Pi](/hermes/setup/raspberry-pi.md)
+- [Blueprints](/hermes/blueprints/)  --  End-to-end cron-anchored workflows
 ---
 
 *

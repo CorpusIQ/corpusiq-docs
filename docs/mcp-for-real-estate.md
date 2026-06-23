@@ -10,7 +10,7 @@ robots: index,follow
 
 # MCP for Real Estate: How to Connect Your Business Data to AI
 
-**Real Estate teams need fast, accurate answers from their business data** — but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives real estate professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports — just connect your tools and ask questions in plain English.
+**Real Estate teams need fast, accurate answers from their business data**  --  but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives real estate professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports  --  just connect your tools and ask questions in plain English.
 
 ## The Real Estate Data Challenge
 
@@ -23,7 +23,7 @@ A typical real estate professional interacts with:
 - **Document management** systems for contracts and disclosures
 - **Communication tools** (email, SMS) for client correspondence
 
-The data is fragmented across seven or more systems. Answering a question like "which of my listings are getting the most online engagement and how does that correlate with showing requests?" requires accessing MLS data, analytics data, and CRM data — typically a manual, multi-tool process.
+The data is fragmented across seven or more systems. Answering a question like "which of my listings are getting the most online engagement and how does that correlate with showing requests?" requires accessing MLS data, analytics data, and CRM data  --  typically a manual, multi-tool process.
 
 MCP connects these systems and lets you ask that question in plain English. The AI queries each relevant data source and presents a correlated answer in seconds.
 
@@ -63,7 +63,7 @@ Real estate transactions generate massive paperwork. MCP can help manage it:
 
 **Contract deadline monitoring.** "What contract deadlines are coming up in the next seven days across all active transactions?" Never miss a contingency deadline.
 
-**Document retrieval.** "Find the inspection report for 456 Oak Avenue" — search across your document management system without navigating folder hierarchies.
+**Document retrieval.** "Find the inspection report for 456 Oak Avenue"  --  search across your document management system without navigating folder hierarchies.
 
 **Closing preparation.** "What documents are still outstanding for the three transactions closing next week?" Ensure all paperwork is in order before closing day.
 
@@ -81,17 +81,17 @@ MCP connects communication platforms to transaction and CRM data for a complete 
 
 ## Use Cases by Real Estate Role
 
-**Residential agents.** Daily business management — pipeline review, client follow-up prioritization, listing performance monitoring, and market knowledge building. "What do I need to focus on today?" becomes a query that pulls from CRM, calendar, and transaction data.
+**Residential agents.** Daily business management  --  pipeline review, client follow-up prioritization, listing performance monitoring, and market knowledge building. "What do I need to focus on today?" becomes a query that pulls from CRM, calendar, and transaction data.
 
-**Commercial brokers.** Market intelligence — "show me all available industrial properties over 50,000 square feet within 20 miles of the port" and client matching — "which of my clients are looking for properties that match these new listings?"
+**Commercial brokers.** Market intelligence  --  "show me all available industrial properties over 50,000 square feet within 20 miles of the port" and client matching  --  "which of my clients are looking for properties that match these new listings?"
 
-**Real estate investors.** Portfolio analytics — "calculate the cash-on-cash return for each property in my portfolio" and acquisition screening — "find properties that meet my investment criteria in these target markets."
+**Real estate investors.** Portfolio analytics  --  "calculate the cash-on-cash return for each property in my portfolio" and acquisition screening  --  "find properties that meet my investment criteria in these target markets."
 
-**Property managers.** Maintenance tracking — "which properties have open maintenance requests older than 48 hours?" and tenant communications — "show me the communication history with the tenant at Unit 4B."
+**Property managers.** Maintenance tracking  --  "which properties have open maintenance requests older than 48 hours?" and tenant communications  --  "show me the communication history with the tenant at Unit 4B."
 
-**Real estate teams and brokerages.** Team performance — "compare production metrics across all agents this quarter" and office analytics — "what's our total pipeline value and projected commission revenue?"
+**Real estate teams and brokerages.** Team performance  --  "compare production metrics across all agents this quarter" and office analytics  --  "what's our total pipeline value and projected commission revenue?"
 
-**Real estate marketers.** Campaign analytics — "which ad campaigns are generating the most qualified leads?" and listing promotion tracking — "how many inquiries did each listing generate from our marketing efforts?"
+**Real estate marketers.** Campaign analytics  --  "which ad campaigns are generating the most qualified leads?" and listing promotion tracking  --  "how many inquiries did each listing generate from our marketing efforts?"
 
 ## How CorpusIQ Supports Real Estate Workflows
 
@@ -103,7 +103,7 @@ MCP connects communication platforms to transaction and CRM data for a complete 
 
 **Marketing integration.** Connect Meta Ads, Google Ads, and Google Analytics to track listing promotion performance and lead generation effectiveness.
 
-**Multi-platform correlation.** The real power comes from connecting all of these — MLS data, CRM pipeline, marketing performance, and financial results — in a single query interface.
+**Multi-platform correlation.** The real power comes from connecting all of these  --  MLS data, CRM pipeline, marketing performance, and financial results  --  in a single query interface.
 
 ## FAQ: Common Questions
 
@@ -122,19 +122,19 @@ CorpusIQ supports major real estate CRMs including Follow Up Boss and can integr
 <details>
 <summary><strong>Is client data secure when queried through MCP?</strong></summary>
 
-Yes. All connections use OAuth with read-only defaults. Client data is never stored by CorpusIQ — it's queried from your systems on demand and returned directly to you. Your data stays in your CRM and transaction management platforms.
+Yes. All connections use OAuth with read-only defaults. Client data is never stored by CorpusIQ  --  it's queried from your systems on demand and returned directly to you. Your data stays in your CRM and transaction management platforms.
 </details>
 
 <details>
 <summary><strong>Can I use this during client meetings?</strong></summary>
 
-Absolutely. Real-time market data and client history are available on demand. A buyer asks "are there any new listings in this neighborhood since yesterday?" — you answer in seconds directly from live MLS data.
+Absolutely. Real-time market data and client history are available on demand. A buyer asks "are there any new listings in this neighborhood since yesterday?"  --  you answer in seconds directly from live MLS data.
 </details>
 
 <details>
 <summary><strong>How does this compare to my CRM's built-in reporting?</strong></summary>
 
-CRM reports show you what the CRM vendor anticipated you'd want to see. MCP lets you ask any question about your data — including questions that span your CRM plus your marketing platforms plus your financial tools.
+CRM reports show you what the CRM vendor anticipated you'd want to see. MCP lets you ask any question about your data  --  including questions that span your CRM plus your marketing platforms plus your financial tools.
 </details>
 
 <details>
@@ -153,9 +153,9 @@ While MCP is primarily an on-demand query interface, you can create saved prompt
 - [MCP for Small Business: Quick Setup](/docs/mcp-for-small-business)
 - [MCP for Agencies: Multi-Client Management](/docs/mcp-for-agencies)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 ---
 
 *

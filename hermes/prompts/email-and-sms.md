@@ -17,7 +17,7 @@ conversions, and revenue.
 
 ### "How healthy is my email program overall?"
 
-**What this does:** Full email lifecycle analysis — performance,
+**What this does:** Full email lifecycle analysis  --  performance,
 list health, deliverability, flow revenue, attribution.
 **Connectors used:** Klaviyo (primary), ActiveCampaign, Mailchimp, GA4
 or Shopify for attribution.
@@ -30,7 +30,7 @@ attribution.
 
 ### "How's my abandoned cart flow performing?"
 
-**What this does:** Klaviyo abandoned cart flow — revenue recovered,
+**What this does:** Klaviyo abandoned cart flow  --  revenue recovered,
 conversion rate, message-by-message breakdown.
 **Connectors used:** Klaviyo.
 **Behind the scenes:** `get_klaviyo_abandoned_cart_flows`.
@@ -73,7 +73,7 @@ purchase-probability distribution.
 
 ### "What's the recent SMS performance?"
 
-**What this does:** Klaviyo SMS summary — recipients, deliveries, clicks,
+**What this does:** Klaviyo SMS summary  --  recipients, deliveries, clicks,
 revenue.
 **Connectors used:** Klaviyo.
 **Behind the scenes:** `get_klaviyo_sms_metrics_summary`.
@@ -109,9 +109,9 @@ rate.
 **Behind the scenes:** `get_klaviyo_top_performing_forms`.
 **Sample answer shape:** Form list with views, submits, and submit rate.
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

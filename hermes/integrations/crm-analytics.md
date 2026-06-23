@@ -1,12 +1,12 @@
 ---
-title: CRM + Analytics Integration for Hermes Agent — Lead Scoring & Pipeline Forecasting
+title: CRM + Analytics Integration for Hermes Agent  --  Lead Scoring & Pipeline Forecasting
 description: Connect CRM (HubSpot, Salesforce, Close) with analytics (GA4, PostHog) in Hermes Agent. Automated lead scoring, pipeline forecasting, marketing attribution with MCP server setup and cron-driven reporting patterns.
 category: integrations
 tags: [hermes-agent, integration, crm, analytics, hubspot, ga4, lead-scoring, pipeline-forecasting, attribution]
 last_updated: 2026-06-16
 ---
 
-# CRM + Analytics Integration — Lead Scoring & Pipeline Forecasting
+# CRM + Analytics Integration  --  Lead Scoring & Pipeline Forecasting
 
 ## Architecture Overview
 
@@ -29,17 +29,17 @@ CRM provides the "who" (contacts, deals, pipeline stages). Analytics provides th
 
 ### CRM Servers
 
-**HubSpot MCP Server** — provides `list_hubspot_contacts`, `list_hubspot_deals`, `search_hubspot_contacts`, and company data. Configure with HubSpot private app token. Scopes needed: `crm.objects.contacts.read`, `crm.objects.deals.read`, `crm.objects.companies.read`.
+**HubSpot MCP Server**  --  provides `list_hubspot_contacts`, `list_hubspot_deals`, `search_hubspot_contacts`, and company data. Configure with HubSpot private app token. Scopes needed: `crm.objects.contacts.read`, `crm.objects.deals.read`, `crm.objects.companies.read`.
 
-**Close CRM MCP Server** — provides `close_list_leads`, `close_list_opportunities`, `close_list_activities`, and `close_search`. OAuth-based authentication. Ideal for sales-heavy organizations with activity tracking needs.
+**Close CRM MCP Server**  --  provides `close_list_leads`, `close_list_opportunities`, `close_list_activities`, and `close_search`. OAuth-based authentication. Ideal for sales-heavy organizations with activity tracking needs.
 
-**LeadConnector MCP Server** — provides contact, opportunity, appointment, and conversation data. Suitable for agencies and service businesses using GoHighLevel.
+**LeadConnector MCP Server**  --  provides contact, opportunity, appointment, and conversation data. Suitable for agencies and service businesses using GoHighLevel.
 
 ### Analytics Servers
 
-**GA4 MCP Server** — provides `run_report` with dimensions and metrics, `get_realtime` for live traffic. Configure with Google Analytics Data API scope. Use property IDs from your GA4 account.
+**GA4 MCP Server**  --  provides `run_report` with dimensions and metrics, `get_realtime` for live traffic. Configure with Google Analytics Data API scope. Use property IDs from your GA4 account.
 
-**PostHog MCP Server** — provides `list_events`, `run_query` (HogQL), and `get_funnel` for product analytics. Personal API key authentication. Excellent for SaaS businesses tracking in-product behavior.
+**PostHog MCP Server**  --  provides `list_events`, `run_query` (HogQL), and `get_funnel` for product analytics. Personal API key authentication. Excellent for SaaS businesses tracking in-product behavior.
 
 ## Core Automation Scenarios
 
@@ -66,7 +66,7 @@ Score = (Page View Weight × Pages Visited)
 4. Update CRM contact with score and score breakdown (what contributed)
 5. Trigger alerts for contacts crossing threshold values (e.g., score > 70 → notify sales)
 
-**Cron expression:** `0 2 * * *` — runs overnight when API load is lower.
+**Cron expression:** `0 2 * * *`  --  runs overnight when API load is lower.
 
 ### 2. Pipeline Forecasting
 
@@ -82,9 +82,9 @@ Score = (Page View Weight × Pages Visited)
    ```
 4. Apply cohort adjustments: deals from [SOURCE A] convert 20% faster than [SOURCE B]
 5. Generate forecast report with: best case, expected case (weighted), and worst case projections
-6. Flag deals stuck in stage beyond 2× average duration — these need intervention
+6. Flag deals stuck in stage beyond 2× average duration  --  these need intervention
 
-**Cron expression:** `0 6 * * 1` — weekly Monday morning forecast report.
+**Cron expression:** `0 6 * * 1`  --  weekly Monday morning forecast report.
 
 ### 3. Attribution Tracking
 
@@ -134,7 +134,7 @@ attribution:
    - Generate a health summary: what degraded, by how much, when it started
    - Suggest intervention: specific features to re-engage them on, unused capabilities
 
-**Cron expression:** `0 7 * * 1,3,5` — runs Monday, Wednesday, Friday mornings.
+**Cron expression:** `0 7 * * 1,3,5`  --  runs Monday, Wednesday, Friday mornings.
 
 ## Cron Schedule Summary
 
@@ -155,9 +155,9 @@ CRM and analytics data drift apart. Start every automation with a data quality c
 - Is analytics tracking comprehensive? Missing events create blind spots in scoring.
 
 ### Privacy Considerations
-- Respect data residency requirements — don't merge EU CRM data with US analytics processing unless compliant.
+- Respect data residency requirements  --  don't merge EU CRM data with US analytics processing unless compliant.
 - Honor unsubscribe and do-not-track signals from both systems.
-- Log attribution data separately from PII — keep the pipeline analysis database isolated.
+- Log attribution data separately from PII  --  keep the pipeline analysis database isolated.
 
 ### Gradual Rollout
 Start with non-critical reports (attribution, pipeline visibility). After 4 weeks of validated data, move to action-triggering automations (lead scoring alerts, churn tasks). This builds trust in the merged data before it drives decisions.
@@ -167,9 +167,9 @@ Start with non-critical reports (attribution, pipeline visibility). After 4 week
 - Connect Slack for real-time scoring alerts when high-value leads are detected.
 - Wire in calendar data to track meeting-to-opportunity conversion rates.
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

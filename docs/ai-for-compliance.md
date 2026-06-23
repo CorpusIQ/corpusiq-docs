@@ -1,5 +1,5 @@
 ---
-title: AI for Compliance — Automated Compliance Intelligence with CorpusIQ MCP
+title: AI for Compliance  --  Automated Compliance Intelligence with CorpusIQ MCP
 title: AI for Compliance | CorpusIQ MCP Platform for Regulatory Intelligence
 description: Transform compliance operations with AI. Query financial records, policies, and controls across systems in natural language. Automated compliance checks, audit trail access, and policy
   verification.
@@ -28,7 +28,7 @@ tags:
 
 # AI for Compliance: Real-Time Regulatory Intelligence
 
-Compliance teams operate in a high-stakes environment where missing a deadline, overlooking a control, or failing to produce documentation can result in significant penalties. Yet the fundamental challenge of compliance — accessing and verifying information across dozens of systems — remains painfully manual. AI-powered compliance through CorpusIQ's MCP platform changes this by making every system of record instantly queryable.
+Compliance teams operate in a high-stakes environment where missing a deadline, overlooking a control, or failing to produce documentation can result in significant penalties. Yet the fundamental challenge of compliance  --  accessing and verifying information across dozens of systems  --  remains painfully manual. AI-powered compliance through CorpusIQ's MCP platform changes this by making every system of record instantly queryable.
 
 Ask Claude "Show me all transactions above $10,000 from Q2", "Which vendors haven't provided updated compliance certifications?", or "Verify that our data retention policy is being followed across all document repositories" and receive accurate, documented answers in seconds.
 
@@ -36,11 +36,11 @@ Ask Claude "Show me all transactions above $10,000 from Q2", "Which vendors have
 
 **Instant Evidence Gathering**
 
-Compliance investigations and audits require gathering evidence from multiple systems — financial records, contracts, policies, access logs, and communication archives. AI can query all of these simultaneously: "Find all documentation related to vendor X's SOC 2 compliance" — searching QuickBooks, SharePoint, contracts, and email archives in one query.
+Compliance investigations and audits require gathering evidence from multiple systems  --  financial records, contracts, policies, access logs, and communication archives. AI can query all of these simultaneously: "Find all documentation related to vendor X's SOC 2 compliance"  --  searching QuickBooks, SharePoint, contracts, and email archives in one query.
 
 **Policy Verification at Scale**
 
-"Are our data retention policies actually being followed?" — AI can compare stated policies (stored in Notion or SharePoint) against actual practices (observed in system configurations and data) to identify gaps between policy and practice.
+"Are our data retention policies actually being followed?"  --  AI can compare stated policies (stored in Notion or SharePoint) against actual practices (observed in system configurations and data) to identify gaps between policy and practice.
 
 **Automated Control Testing**
 
@@ -48,26 +48,26 @@ Many compliance controls can be verified through data: "Show me all user account
 
 **Regulatory Reporting**
 
-SOX, GDPR, HIPAA, PCI — each requires specific reports and documentation. AI can generate compliance reports from live data: "Prepare a summary of all data subject access requests received and processed this quarter."
+SOX, GDPR, HIPAA, PCI  --  each requires specific reports and documentation. AI can generate compliance reports from live data: "Prepare a summary of all data subject access requests received and processed this quarter."
 
 **Cross-System Audit Trail**
 
-When an auditor asks "Show me the approval chain for this transaction," finding that information typically requires checking 3-4 systems. AI traces the trail automatically: "Show me the full approval history for invoice #12345 — who approved it, when, and from which system."
+When an auditor asks "Show me the approval chain for this transaction," finding that information typically requires checking 3-4 systems. AI traces the trail automatically: "Show me the full approval history for invoice #12345  --  who approved it, when, and from which system."
 
 ## How CorpusIQ MCP Enables Compliance
 
-- **Financial systems:** QuickBooks, NetSuite, Stripe — transaction records, approval workflows, financial controls.
-- **Document repositories:** SharePoint, Google Drive, OneDrive — policies, procedures, contracts, evidence.
-- **Communication:** Slack, Gmail, Outlook — decision records, approval communications, audit trail.
-- **CRM:** Salesforce, HubSpot — customer data handling, consent records, data subject requests.
-- **Identity & access:** Database connectors — user access reviews, permission audits, segregation of duties.
+- **Financial systems:** QuickBooks, NetSuite, Stripe  --  transaction records, approval workflows, financial controls.
+- **Document repositories:** SharePoint, Google Drive, OneDrive  --  policies, procedures, contracts, evidence.
+- **Communication:** Slack, Gmail, Outlook  --  decision records, approval communications, audit trail.
+- **CRM:** Salesforce, HubSpot  --  customer data handling, consent records, data subject requests.
+- **Identity & access:** Database connectors  --  user access reviews, permission audits, segregation of duties.
 
 ## Example Compliance Queries
 
 **Financial Compliance:**
 - "Show me all journal entries made outside of business hours."
 - "Which vendors have changed banking details in the last 90 days?"
-- "Verify segregation of duties — who can both create and approve invoices?"
+- "Verify segregation of duties  --  who can both create and approve invoices?"
 - "Show me all transactions above the reporting threshold for Q3."
 
 **Data Privacy (GDPR/CCPA):**
@@ -82,23 +82,23 @@ When an auditor asks "Show me the approval chain for this transaction," finding 
 - "Show me all third-party vendors and their current compliance status."
 
 **Audit Preparation:**
-- "Prepare evidence package for the Q3 SOX audit — key controls and test results."
+- "Prepare evidence package for the Q3 SOX audit  --  key controls and test results."
 - "Show me all changes to financial system configurations in the last year."
 - "List all employees with access to financial systems and their permission levels."
 
 ## Implementation Steps
 
 1. **Identify compliance-critical systems** and connect them to CorpusIQ.
-2. **Map compliance controls** to data queries — what evidence is needed for each control.
-3. **Build compliance query templates** for recurring needs — transaction monitoring, access reviews, policy verification.
-4. **Integrate into audit workflows** — evidence gathering, control testing, regulatory reporting.
-5. **Enable continuous monitoring** — regular automated checks for compliance gaps.
+2. **Map compliance controls** to data queries  --  what evidence is needed for each control.
+3. **Build compliance query templates** for recurring needs  --  transaction monitoring, access reviews, policy verification.
+4. **Integrate into audit workflows**  --  evidence gathering, control testing, regulatory reporting.
+5. **Enable continuous monitoring**  --  regular automated checks for compliance gaps.
 
 ## ROI for Compliance Teams
 
 - **70% reduction** in time spent gathering evidence for audits.
 - **Continuous compliance monitoring** instead of point-in-time checks.
-- **Faster audit cycles** — evidence produced in minutes, not weeks.
+- **Faster audit cycles**  --  evidence produced in minutes, not weeks.
 - **Reduced compliance risk** through automated control verification.
 
 ## FAQ
@@ -129,9 +129,9 @@ A: No. AI provides data and analysis to support compliance decisions, but compli
 
 **Next steps:** [Transform your compliance operations →](https://app.corpusiq.com/signup)
 
-*AI-powered AI for Compliance | CorpusIQ MCP Platform for Regulatory ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*AI-powered AI for Compliance | CorpusIQ MCP Platform for Regulatory ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
-*AI-powered AI for Compliance | CorpusIQ MCP Platform for Regulatory ... — [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
+*AI-powered AI for Compliance | CorpusIQ MCP Platform for Regulatory ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 ---
 
 *

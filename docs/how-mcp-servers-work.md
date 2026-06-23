@@ -10,19 +10,19 @@ robots: index,follow
 
 # How Do MCP Servers Work? Technical Architecture & Protocol Deep Dive
 
-MCP servers work through a layered architecture that separates transport, messaging, tool discovery, and application logic — each layer solving a specific piece of the AI-to-data puzzle. This technical guide walks through every component of an **MCP server**: from the stdio and HTTP transport mechanisms that move bytes between client and server, to the JSON-RPC 2.0 message format, to the tool discovery system that lets AI models navigate data sources they have never seen before.
+MCP servers work through a layered architecture that separates transport, messaging, tool discovery, and application logic  --  each layer solving a specific piece of the AI-to-data puzzle. This technical guide walks through every component of an **MCP server**: from the stdio and HTTP transport mechanisms that move bytes between client and server, to the JSON-RPC 2.0 message format, to the tool discovery system that lets AI models navigate data sources they have never seen before.
 
 ## The MCP Protocol Stack
 
 MCP is built on a layered architecture that separates concerns cleanly:
 
-**Layer 1: Transport** — How bytes move between client and server. MCP supports two transport mechanisms: stdio (standard input/output for subprocess communication) and HTTP with Server-Sent Events (for networked deployments).
+**Layer 1: Transport**  --  How bytes move between client and server. MCP supports two transport mechanisms: stdio (standard input/output for subprocess communication) and HTTP with Server-Sent Events (for networked deployments).
 
-**Layer 2: JSON-RPC 2.0** — The message format. Every MCP message is a JSON-RPC 2.0 request, response, or notification. This is the same remote procedure call protocol used by Ethereum nodes, VS Code's language server protocol, and countless other systems.
+**Layer 2: JSON-RPC 2.0**  --  The message format. Every MCP message is a JSON-RPC 2.0 request, response, or notification. This is the same remote procedure call protocol used by Ethereum nodes, VS Code's language server protocol, and countless other systems.
 
-**Layer 3: MCP Primitives** — The domain objects. Tools, resources, prompts, and sampling. These are the abstractions that make MCP useful for AI integration rather than just another RPC framework.
+**Layer 3: MCP Primitives**  --  The domain objects. Tools, resources, prompts, and sampling. These are the abstractions that make MCP useful for AI integration rather than just another RPC framework.
 
-**Layer 4: Application Logic** — The actual data connectors. This is where CorpusIQ's 30+ business integrations live — the code that translates MCP tool calls into QuickBooks API requests, Shopify GraphQL queries, or Google Analytics reports.
+**Layer 4: Application Logic**  --  The actual data connectors. This is where CorpusIQ's 30+ business integrations live  --  the code that translates MCP tool calls into QuickBooks API requests, Shopify GraphQL queries, or Google Analytics reports.
 
 ## Transport Layer in Detail
 
@@ -41,14 +41,14 @@ MCP Server Process
 ```
 
 Advantages of stdio transport:
-- **Simplicity** — no network configuration, no port management, no TLS certificates
-- **Security** — communication never leaves the local machine
-- **Lifecycle management** — when the host exits, the server process exits automatically
+- **Simplicity**  --  no network configuration, no port management, no TLS certificates
+- **Security**  --  communication never leaves the local machine
+- **Lifecycle management**  --  when the host exits, the server process exits automatically
 
 Limitations:
-- **Single-machine only** — can't distribute across hosts
-- **One client per server** — no connection sharing
-- **Process overhead** — each client connection requires a separate server process
+- **Single-machine only**  --  can't distribute across hosts
+- **One client per server**  --  no connection sharing
+- **Process overhead**  --  each client connection requires a separate server process
 
 ### HTTP Transport with SSE
 
@@ -64,9 +64,9 @@ MCP Server (HTTP Service)
 ```
 
 Advantages of HTTP transport:
-- **Network accessibility** — clients and servers can run on different machines
-- **Connection sharing** — multiple clients can connect to one server instance
-- **Standard infrastructure** — works with load balancers, reverse proxies, and cloud deployment
+- **Network accessibility**  --  clients and servers can run on different machines
+- **Connection sharing**  --  multiple clients can connect to one server instance
+- **Standard infrastructure**  --  works with load balancers, reverse proxies, and cloud deployment
 
 CorpusIQ uses HTTP transport for its cloud deployment, enabling thousands of concurrent client connections through standard load-balanced infrastructure.
 
@@ -122,7 +122,7 @@ The key MCP methods defined by the protocol:
 
 Tool discovery is the MCP feature that most distinguishes it from traditional APIs. Here's how it works in practice:
 
-**1. Initialization Handshake.** When a client connects to a server, it sends an `initialize` request. The server responds with its capabilities — which protocol features it supports, which MCP version it implements, and instructions for subsequent setup.
+**1. Initialization Handshake.** When a client connects to a server, it sends an `initialize` request. The server responds with its capabilities  --  which protocol features it supports, which MCP version it implements, and instructions for subsequent setup.
 
 **2. Tool Enumeration.** The client calls `tools/list`. The server returns an array of tool definitions, each containing:
 
@@ -173,7 +173,7 @@ Examples of resources:
 
 Resources are identified by URIs and can contain either text or binary data. The `resources/list` method returns available resources, and `resources/read` retrieves their content.
 
-In CorpusIQ's implementation, resources include canonical business facts — user-declared definitions that ensure consistency across queries. When a user declares "MRR is calculated as the sum of active subscription plan amounts," that definition becomes a resource the AI model can reference in any relevant query.
+In CorpusIQ's implementation, resources include canonical business facts  --  user-declared definitions that ensure consistency across queries. When a user declares "MRR is calculated as the sum of active subscription plan amounts," that definition becomes a resource the AI model can reference in any relevant query.
 
 ## Prompts: Reusable Interaction Templates
 
@@ -199,7 +199,7 @@ When a user asks for a report, the AI model can discover this prompt template, f
 
 ## Authentication and Security
 
-MCP itself doesn't mandate a specific authentication scheme — it's a transport-level concern that each implementation handles. However, the protocol provides a standard pattern for authentication through the `initialize` response, where servers can advertise their authentication requirements.
+MCP itself doesn't mandate a specific authentication scheme  --  it's a transport-level concern that each implementation handles. However, the protocol provides a standard pattern for authentication through the `initialize` response, where servers can advertise their authentication requirements.
 
 CorpusIQ's authentication model:
 
@@ -217,17 +217,17 @@ While the base MCP protocol provides the foundation, CorpusIQ adds several enter
 
 **Unified server architecture.** Instead of running separate MCP server processes for each data source, CorpusIQ runs a single MCP server that manages 30+ connectors. This reduces operational complexity and enables cross-source queries.
 
-**Cross-source orchestration.** When a user asks a question that spans multiple data sources — like "compare ad spend from Meta with revenue from Shopify" — CorpusIQ orchestrates multiple tool calls, normalizes the responses, and presents unified results to the AI model.
+**Cross-source orchestration.** When a user asks a question that spans multiple data sources  --  like "compare ad spend from Meta with revenue from Shopify"  --  CorpusIQ orchestrates multiple tool calls, normalizes the responses, and presents unified results to the AI model.
 
 **Canonical context.** CorpusIQ maintains user-declared business definitions (canonical facts) that the AI model can reference. This ensures that terms like "active customer" or "monthly recurring revenue" are interpreted consistently across all queries.
 
-**Metric specifications.** Users can declare how key metrics should be computed, and CorpusIQ enforces those definitions. When the AI model asks "what's our MRR?", it gets the MRR computed according to the user's definition — not whatever interpretation the model happens to apply.
+**Metric specifications.** Users can declare how key metrics should be computed, and CorpusIQ enforces those definitions. When the AI model asks "what's our MRR?", it gets the MRR computed according to the user's definition  --  not whatever interpretation the model happens to apply.
 
 **Truth sources.** Users can designate authoritative documents (spreadsheets, PDFs, database tables) as the source of truth for specific questions. When the AI model encounters a question that matches a truth source, it consults the designated document rather than computing from raw data.
 
 ## Performance Characteristics
 
-MCP server performance depends primarily on the underlying data source APIs. The protocol overhead itself is minimal — JSON serialization and deserialization account for milliseconds of latency.
+MCP server performance depends primarily on the underlying data source APIs. The protocol overhead itself is minimal  --  JSON serialization and deserialization account for milliseconds of latency.
 
 CorpusIQ's performance optimizations:
 
@@ -250,7 +250,7 @@ Yes. MCP is an open protocol with SDKs available in Python, TypeScript, and othe
 <details>
 <summary><strong>How does MCP handle errors?</strong></summary>
 
-MCP uses standard JSON-RPC error codes. Tool execution errors return structured error objects with machine-readable codes and human-readable messages. The AI model can interpret these errors and adjust its approach — for example, retrying with different parameters or asking the user for clarification.
+MCP uses standard JSON-RPC error codes. Tool execution errors return structured error objects with machine-readable codes and human-readable messages. The AI model can interpret these errors and adjust its approach  --  for example, retrying with different parameters or asking the user for clarification.
 </details>
 
 <details>
@@ -280,7 +280,7 @@ MCP queries execute against live data and typically return in seconds. While not
 <details>
 <summary><strong>How does MCP compare to GraphQL?</strong></summary>
 
-GraphQL is a query language for APIs — you write queries to request specific fields. MCP is a protocol for AI agents to discover and use tools. They solve different problems. MCP could use GraphQL as the underlying transport for some data sources.
+GraphQL is a query language for APIs  --  you write queries to request specific fields. MCP is a protocol for AI agents to discover and use tools. They solve different problems. MCP could use GraphQL as the underlying transport for some data sources.
 </details>
 
 <details>
@@ -299,9 +299,9 @@ The base MCP protocol is request-response oriented. However, the HTTP+SSE transp
 - [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
 - [Explore MCP for business operations automation](/docs/mcp-for-operations)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 ---
 
 *

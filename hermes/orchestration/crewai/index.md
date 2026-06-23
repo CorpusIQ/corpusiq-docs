@@ -1,6 +1,6 @@
 ---
 title: CrewAI + Hermes Integration
-description: Production guide for multi-agent orchestration with CrewAI and Hermes — agent definitions, task delegation, coordination strategies
+description: Production guide for multi-agent orchestration with CrewAI and Hermes  --  agent definitions, task delegation, coordination strategies
 ---
 
 # CrewAI + Hermes Integration
@@ -35,7 +35,7 @@ This guide covers production setup, agent design patterns, task delegation strat
 └─────────────────────────────────────────┘
 ```
 
-CrewAI defines *who* does *what*. Hermes provides *how* — model selection, tool access, and execution infrastructure.
+CrewAI defines *who* does *what*. Hermes provides *how*  --  model selection, tool access, and execution infrastructure.
 
 ## Installation and Setup
 
@@ -203,7 +203,7 @@ Let CrewAI decide which agent handles a task based on role descriptions and capa
 ```python
 ambiguous_task = Task(
     description="Analyze this market data and create a summary post",
-    # No agent specified — CrewAI will assign based on agent roles
+    # No agent specified  --  CrewAI will assign based on agent roles
     expected_output="Analysis summary formatted for social media"
 )
 ```
@@ -238,7 +238,7 @@ publish = Task(
 
 ## Production Workflow: Content Strategy Pipeline
 
-Here's a complete production example — a weekly content strategy workflow:
+Here's a complete production example  --  a weekly content strategy workflow:
 
 ```python
 from crewai import Agent, Task, Crew, Process
@@ -427,7 +427,7 @@ crew = Crew(
 
 **Sequential tasks stall:** Check that each task's `expected_output` is produced. CrewAI won't proceed without it. Add timeout guards.
 
-**Cost overrun:** Set `max_iter` on agents (default is 15 — often too high). Set `max_rpm` on crew. Monitor via Hermes' usage tracking.
+**Cost overrun:** Set `max_iter` on agents (default is 15  --  often too high). Set `max_rpm` on crew. Monitor via Hermes' usage tracking.
 ---
 
 *

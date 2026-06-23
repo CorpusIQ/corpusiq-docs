@@ -1,9 +1,9 @@
 ---
-title: June 12, 2026 — New Hermes Security & UI Skills
-description: "Overnight sweep: 3 new Hermes-specific skills discovered — security attestation, traffic monitoring, and a Hermes-themed UI deck. From ClawSec and nexu-io."
+title: June 12, 2026  --  New Hermes Security & UI Skills
+description: "Overnight sweep: 3 new Hermes-specific skills discovered  --  security attestation, traffic monitoring, and a Hermes-themed UI deck. From ClawSec and nexu-io."
 ---
 
-# June 12, 2026 — New Hermes Security & UI Skills
+# June 12, 2026  --  New Hermes Security & UI Skills
 
 Overnight sweep found **3 new Hermes-specific skills** not in any existing catalog page. Key finds: ClawSec's security attestation/traffic monitoring suite from `prompt-security/clawsec` and a Hermes-themed cyber UI deck.
 
@@ -11,7 +11,7 @@ Overnight sweep found **3 new Hermes-specific skills** not in any existing catal
 
 ---
 
-## prompt-security/clawsec — Hermes Security Suite (2 skills)
+## prompt-security/clawsec  --  Hermes Security Suite (2 skills)
 
 ClawSec by Prompt Security provides Hermes-first runtime security attestation and traffic monitoring. Both skills use signed release verification with reproducible checksum validation. AGPL-3.0-or-later licensed.
 
@@ -68,7 +68,7 @@ node scripts/setup_attestation_cron.mjs --every 6h --apply
 
 ### hermes-traffic-guardian (24 installs) 🔍
 
-Runtime traffic monitoring baseline for opt-in proxy inspection, egress detection, and attestation-aware traffic posture. **Baseline specification skill** — intentionally does not ship a proxy or runtime implementation yet (v0.0.1-beta3). Builders use this as the landing zone for implementing Hermes traffic monitoring.
+Runtime traffic monitoring baseline for opt-in proxy inspection, egress detection, and attestation-aware traffic posture. **Baseline specification skill**  --  intentionally does not ship a proxy or runtime implementation yet (v0.0.1-beta3). Builders use this as the landing zone for implementing Hermes traffic monitoring.
 
 **Install:**
 ```bash
@@ -88,8 +88,8 @@ npx skills add prompt-security/clawsec --skill hermes-traffic-guardian -a hermes
 **State dir:** `$HERMES_HOME/security/traffic-guardian`
 
 **Safety contract:**
-- Opt-in only — no global proxy changes
-- Detect-and-log by default — no blocking in v0.0.1
+- Opt-in only  --  no global proxy changes
+- Detect-and-log by default  --  no blocking in v0.0.1
 - Secrets redacted before logs/attestation exports
 - No automatic system trust-store mutation
 - No full request/response body collection
@@ -101,7 +101,7 @@ npx skills add prompt-security/clawsec --skill hermes-traffic-guardian -a hermes
 | `lib/` | Detector rules, redaction, posture export, report formatting |
 | `scripts/` | Start, stop, status, config validation, log query, attestation export helpers |
 | `test/` | Unit tests, proxy fixture tests, redaction tests, attestation export tests |
-| `SPEC.md` | Full specification — read before implementing |
+| `SPEC.md` | Full specification  --  read before implementing |
 
 **Required first implementation behavior:**
 1. Validate config without starting the proxy
@@ -114,11 +114,11 @@ npx skills add prompt-security/clawsec --skill hermes-traffic-guardian -a hermes
 
 ---
 
-## nexu-io/html-anything — Hermes Theme (1 skill)
+## nexu-io/html-anything  --  Hermes Theme (1 skill)
 
 ### deck-hermes-cyber (29 installs) 🎨
 
-Hermes-themed cyber UI deck from the `nexu-io/html-anything` collection. Minimal documentation — SKILL.md not publicly accessible on GitHub. Part of a themed-deck collection alongside invoice, meeting-notes, live-dashboard, and doc-kami-parchment decks. Primarily cosmetic/aesthetic.
+Hermes-themed cyber UI deck from the `nexu-io/html-anything` collection. Minimal documentation  --  SKILL.md not publicly accessible on GitHub. Part of a themed-deck collection alongside invoice, meeting-notes, live-dashboard, and doc-kami-parchment decks. Primarily cosmetic/aesthetic.
 
 **Install:**
 ```bash

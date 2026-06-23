@@ -1,14 +1,14 @@
 ---
-title: SOUL Grader — Full Setup Guide for Hermes Agents
+title: SOUL Grader  --  Full Setup Guide for Hermes Agents
 description: Install, configure, and use the soul-grader skill from cobibean/soul-grader-skill. Grade, review, and approve Hermes Agent SOUL.md identity files with a research-backed rubric.
 ---
 
-# SOUL Grader — Setup Guide
+# SOUL Grader  --  Setup Guide
 
 **Source:** [cobibean/soul-grader-skill](https://github.com/cobibean/soul-grader-skill) (25⭐, community skill)
 **Category:** Agent Identity & Governance
 
-Grade, review, rewrite, or approve a Hermes Agent `SOUL.md` identity file using a narrow, research-backed rubric. The bundled grading standard is the only normative source — no generic prompt-engineering advice or personal taste. Scores 11 categories out of 100 with automatic fail conditions for secrets, false claims, and missing safety gates.
+Grade, review, rewrite, or approve a Hermes Agent `SOUL.md` identity file using a narrow, research-backed rubric. The bundled grading standard is the only normative source  --  no generic prompt-engineering advice or personal taste. Scores 11 categories out of 100 with automatic fail conditions for secrets, false claims, and missing safety gates.
 
 ---
 
@@ -32,7 +32,7 @@ git clone https://github.com/cobibean/soul-grader-skill.git
 |---|---|
 | **Hermes Agent** | Any version. SOUL.md loading behavior is consistent across releases. |
 | **Target SOUL.md** | A SOUL.md file to grade (local path or inline text). |
-| **Adjacent files (optional)** | `CLAUDE.md`, `AGENTS.md`, manifests, or operator guides — only needed for contradiction checks and artifact separation scoring. |
+| **Adjacent files (optional)** | `CLAUDE.md`, `AGENTS.md`, manifests, or operator guides  --  only needed for contradiction checks and artifact separation scoring. |
 
 ---
 
@@ -45,9 +45,9 @@ git clone https://github.com/cobibean/soul-grader-skill.git
 | **Full SOUL grade** | "Grade this SOUL.md" or "Review my agent SOUL" | Returns 11-category score table, automatic blockers, drift risks, suggested wording |
 | **Quick grade** | "Quick grade this SOUL" | Returns score/verdict, deployability, biggest issue, top 3 fixes |
 | **SOUL rewriting** | "Rewrite this weak SOUL" or "Make this SOUL stronger" | Patches from bundled research artifacts, not generic advice |
-| **Fleet grading** | "Grade all my agent SOULs" | Uses fleet workflow reference — active/retired classification, contradiction checks |
+| **Fleet grading** | "Grade all my agent SOULs" | Uses fleet workflow reference  --  active/retired classification, contradiction checks |
 | **Deployability check** | "Is this SOUL ready to deploy?" | Runs automatic fail scan first (secrets, false claims, missing gates) |
-| **Deep research** | "Do a SOUL research project" | Swarm deliverable pattern — independent research lanes, static HTML review surface |
+| **Deep research** | "Do a SOUL research project" | Swarm deliverable pattern  --  independent research lanes, static HTML review surface |
 
 ### Grading Rubric (11 Categories, 100 Points)
 
@@ -90,11 +90,11 @@ git clone https://github.com/cobibean/soul-grader-skill.git
 
 | Use Case | How |
 |---|---|
-| **New agent onboarding** | Grade every new agent's SOUL.md before deployment — catch missing gates, false claims, and secret leaks |
+| **New agent onboarding** | Grade every new agent's SOUL.md before deployment  --  catch missing gates, false claims, and secret leaks |
 | **Agent identity drift detection** | Re-grade SOUL.md monthly; compare scores to catch mission drift, constraint erosion, or scope creep |
-| **Client agent handoff** | Grade client-facing agent SOULs before delivery — ensures isolation, approval, and credential language is correct |
-| **SOUL authoring** | Use the wording standards and rubric to author strong SOUL.md files from scratch — operational language, no vibes |
-| **Fleet audit** | Run fleet-wide grading across all deployed Hermes agents — classify active/retired, catch contradictions, generate remediation reports |
+| **Client agent handoff** | Grade client-facing agent SOULs before delivery  --  ensures isolation, approval, and credential language is correct |
+| **SOUL authoring** | Use the wording standards and rubric to author strong SOUL.md files from scratch  --  operational language, no vibes |
+| **Fleet audit** | Run fleet-wide grading across all deployed Hermes agents  --  classify active/retired, catch contradictions, generate remediation reports |
 
 ---
 
@@ -102,10 +102,10 @@ git clone https://github.com/cobibean/soul-grader-skill.git
 
 | Issue | Fix |
 |---|---|
-| **Bundled references missing** | The grader stops and reports "source bundle missing" — re-clone the skill or check `references/` directory |
+| **Bundled references missing** | The grader stops and reports "source bundle missing"  --  re-clone the skill or check `references/` directory |
 | **Frontmatter treated as hidden** | Hermes native SOUL loading injects SOUL as prompt text; YAML is visible. Move secrets to env vars or config |
-| **Session cache ignores SOUL fix** | A corrected SOUL may not affect a running session — restart Hermes or start a new session |
-| **Adjacent file contradictions** | If CLAUDE.md or AGENTS.md conflicts with SOUL, the grader flags it — decide which file owns the rule |
+| **Session cache ignores SOUL fix** | A corrected SOUL may not affect a running session  --  restart Hermes or start a new session |
+| **Adjacent file contradictions** | If CLAUDE.md or AGENTS.md conflicts with SOUL, the grader flags it  --  decide which file owns the rule |
 
 ### Verification
 
@@ -113,7 +113,7 @@ git clone https://github.com/cobibean/soul-grader-skill.git
 # Verify skill installed
 hermes skills list | grep soul-grader
 
-# Quick functional test — load the grading standard reference
+# Quick functional test  --  load the grading standard reference
 # (run inside a Hermes session)
 skill_view(name="soul-grader", file_path="references/soul-md-grading-standard.md")
 ```

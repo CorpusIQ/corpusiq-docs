@@ -1,9 +1,9 @@
 ---
-title: Session Handoff — Anti-Amnesia Pattern
-description: How autonomous agents recover context after restart — session handoff, auto-recovery, and persistent state across sessions
+title: Session Handoff  --  Anti-Amnesia Pattern
+description: How autonomous agents recover context after restart  --  session handoff, auto-recovery, and persistent state across sessions
 ---
 
-# Session Handoff — Anti-Amnesia Pattern
+# Session Handoff  --  Anti-Amnesia Pattern
 
 The fundamental problem with autonomous agents: they lose everything on restart. Every session starts from zero. The operator has to re-explain active tasks, blocked items, decisions made. This breaks the promise of autonomy.
 
@@ -58,7 +58,7 @@ corpusiq-session-handoff skill
     ├── Saves handoff page to GBrain (tagged: active-task)
     └── Updates active task tags
 
-[Restart — agent has no context]
+[Restart  --  agent has no context]
 
 Session Start
     ↓
@@ -86,9 +86,9 @@ Not everything. Only what survives a restart:
 
 Two skills power this:
 
-**`corpusiq-session-handoff`** — Runs at session end. Writes structured state. Tags GBrain pages. Appends to TASK_HISTORY.md.
+**`corpusiq-session-handoff`**  --  Runs at session end. Writes structured state. Tags GBrain pages. Appends to TASK_HISTORY.md.
 
-**`corpusiq-session-start`** — Runs at session start. Step 6 recovers context from TASK_HISTORY.md, session_search, and GBrain before any other action.
+**`corpusiq-session-start`**  --  Runs at session start. Step 6 recovers context from TASK_HISTORY.md, session_search, and GBrain before any other action.
 
 ## Why This Works
 

@@ -10,7 +10,7 @@ robots: index,follow
 
 # MCP for Finance: How to Connect Your Business Data to AI
 
-**Finance teams need fast, accurate answers from their business data** — but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives finance professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports — just connect your tools and ask questions in plain English.
+**Finance teams need fast, accurate answers from their business data**  --  but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives finance professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports  --  just connect your tools and ask questions in plain English.
 
 ## The Finance Data Fragmentation Problem
 
@@ -24,7 +24,7 @@ A corporate finance team typically interacts with:
 - **Expense management** (Expensify, Ramp, Brex)
 - **Spreadsheets** (the universal finance tool, but not a system of record)
 
-Each system holds critical financial data, but pulling it all together for a complete financial picture requires manual data aggregation — exporting reports from each system and combining them in spreadsheets. This process is slow, error-prone, and consumes analyst time that should be spent on analysis rather than data gathering.
+Each system holds critical financial data, but pulling it all together for a complete financial picture requires manual data aggregation  --  exporting reports from each system and combining them in spreadsheets. This process is slow, error-prone, and consumes analyst time that should be spent on analysis rather than data gathering.
 
 MCP eliminates the aggregation step. Connect your financial systems once, and ask questions that span all of them. "What's our consolidated cash position across all bank accounts and payment processors?" queries every connected financial platform and returns a unified answer.
 
@@ -135,7 +135,7 @@ MCP queries return data in the source system's native currency. The AI model can
 <details>
 <summary><strong>Can we define custom financial metrics that MCP uses consistently?</strong></summary>
 
-Yes. CorpusIQ's canonical facts feature lets you define how key metrics should be calculated — gross margin, EBITDA, ARR — and those definitions are applied consistently across all queries.
+Yes. CorpusIQ's canonical facts feature lets you define how key metrics should be calculated  --  gross margin, EBITDA, ARR  --  and those definitions are applied consistently across all queries.
 </details>
 
 ## Internal Links
@@ -148,9 +148,9 @@ Yes. CorpusIQ's canonical facts feature lets you define how key metrics should b
 - [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 - [MCP for Ecommerce: Order and Revenue Analytics](/docs/mcp-for-ecommerce)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 ---
 
 *

@@ -1,6 +1,6 @@
 ---
 title: hermes-s6-container-supervision Setup Guide
-description: Production-grade s6 supervision for Hermes agent containers — health checks, auto-restarts, logging, and process management.
+description: Production-grade s6 supervision for Hermes agent containers  --  health checks, auto-restarts, logging, and process management.
 ---
 
 # hermes-s6-container-supervision
@@ -11,14 +11,14 @@ description: Production-grade s6 supervision for Hermes agent containers — hea
 
 ## Overview
 
-The `hermes-s6-container-supervision` skill enables production-grade process supervision for Hermes agents running in containers. Built on the s6 supervision suite, it provides health checks, automatic restarts, log rotation, and process lifecycle management — essential for long-running agent deployments.
+The `hermes-s6-container-supervision` skill enables production-grade process supervision for Hermes agents running in containers. Built on the s6 supervision suite, it provides health checks, automatic restarts, log rotation, and process lifecycle management  --  essential for long-running agent deployments.
 
 ## What It Does
 
 - **Health checks:** Monitors Hermes agent processes for crashes, hangs, and resource exhaustion
 - **Auto-restart:** Automatically restarts failed agent processes with configurable backoff
 - **Log management:** Captures stdout/stderr with rotation and retention policies
-- **Container awareness:** Designed for Docker/Podman containers — proper signal handling, PID 1 behavior
+- **Container awareness:** Designed for Docker/Podman containers  --  proper signal handling, PID 1 behavior
 - **Multi-agent support:** Supervise multiple Hermes agent instances from one s6 service directory
 
 ## Why CorpusIQ Needs This
@@ -96,16 +96,16 @@ ENTRYPOINT ["/usr/bin/s6-svscan", "/etc/s6/service"]
 
 | Issue | Solution |
 |-------|----------|
-| Agent not restarting | Check `max_restarts` — may have hit the per-hour limit |
+| Agent not restarting | Check `max_restarts`  --  may have hit the per-hour limit |
 | Logs not rotating | Verify `log_retention_days` and disk space |
 | s6 not detecting crash | Confirm the agent's `run` script exits on crash (no trap-based recovery) |
 | Multiple instances conflict | Use unique service directories per agent instance |
 
 ## Related Skills
 
-- [hermes-agent](/hermes/skills/catalog/) — Core Hermes agent skill
-- [docker-management](/hermes/skills/marketplace/new-june17-2026/) — Docker container management
-- [openclaw-migration](/hermes/skills/marketplace/new-june17-2026/) — Migration path from OpenClaw
+- [hermes-agent](/hermes/skills/catalog/)  --  Core Hermes agent skill
+- [docker-management](/hermes/skills/marketplace/new-june17-2026/)  --  Docker container management
+- [openclaw-migration](/hermes/skills/marketplace/new-june17-2026/)  --  Migration path from OpenClaw
 ---
 
 *

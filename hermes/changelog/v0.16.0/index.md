@@ -1,53 +1,53 @@
 ---
-title: Hermes Agent v0.16.0 — The Surface Release
+title: Hermes Agent v0.16.0  --  The Surface Release
 description: Desktop app, remote gateway, web admin panel, fuzzy model picker, /undo, Simplified Chinese translation, leaner skills, NVIDIA/skills tap. June 5, 2026.
 ---
 
-# Hermes Agent v0.16.0 (v2026.6.5) — The Surface Release
+# Hermes Agent v0.16.0 (v2026.6.5)  --  The Surface Release
 
 **Release Date:** June 5, 2026
 **Since v0.15.2:** 874 commits · 542 merged PRs · 1,962 files changed · 205,216 insertions · 46,217 deletions · 399 issues closed (2 P0, 62 P1, 16 security-tagged) · 170 community contributors
 
-> **The Surface Release.** Hermes meets you wherever you work — desktop app, web admin, fuzzy model picker everywhere, `/undo`, and a leaner default install.
+> **The Surface Release.** Hermes meets you wherever you work  --  desktop app, web admin, fuzzy model picker everywhere, `/undo`, and a leaner default install.
 
 ---
 
 ## ✨ Highlights
 
 ### 🖥️ Hermes Desktop App (NEW)
-A real native Electron app for macOS, Linux, and Windows — not a terminal wrapper. One-click install, in-app self-update. Features:
+A real native Electron app for macOS, Linux, and Windows  --  not a terminal wrapper. One-click install, in-app self-update. Features:
 - Proper chat window with streaming
 - Drag-and-drop files + clipboard image paste
 - Session list with archive/search
 - Cmd+K command palette
 - Inline model picker in status bar
-- **Remote gateway support** — point at a remote Hermes over OAuth or username/password
+- **Remote gateway support**  --  point at a remote Hermes over OAuth or username/password
 - Concurrent multi-profile sessions with cross-profile `@session` links
-- **Simplified Chinese (简体中文)** — full translation across every UI surface, switchable in Appearance settings
+- **Simplified Chinese (简体中文)**  --  full translation across every UI surface, switchable in Appearance settings
 
 ### 🌐 Web Dashboard → Full Admin Panel
 The dashboard is now a complete browser-based administration surface:
-- **Channels page** — configure Telegram, Discord, Slack from the browser
+- **Channels page**  --  configure Telegram, Discord, Slack from the browser
 - **MCP catalog** with enable/disable toggles
 - **Credential management**, webhooks, memory config
 - **Gateway controls** and System page with check-before-update + Debug Share
 - Pluggable OIDC / username-password login
 
 ### 🧠 Agent Improvements
-- **`/undo [N]`** — take back the last N turns (CLI, TUI, and all messaging platforms)
-- **Fuzzy model picker** everywhere — desktop, web, TUI, CLI
-- **Quick Setup via Nous Portal** — from install to first message in seconds
-- **Configurable default interface** — `cli` or `tui`
+- **`/undo [N]`**  --  take back the last N turns (CLI, TUI, and all messaging platforms)
+- **Fuzzy model picker** everywhere  --  desktop, web, TUI, CLI
+- **Quick Setup via Nous Portal**  --  from install to first message in seconds
+- **Configurable default interface**  --  `cli` or `tui`
 - New models: `deepseek-v4-flash`, `MiniMax-M3` (1M context), `qwen3.7-plus`
 
 ### 📦 Skills & Ecosystem
-- **Leaner default skill set** — redundant/niche skills moved to optional, `environments:` relevance gates
+- **Leaner default skill set**  --  redundant/niche skills moved to optional, `environments:` relevance gates
 - **NVIDIA/skills** joins OpenAI, Anthropic, HuggingFace as trusted Skills Hub tap
 - Curator can now prune unused built-in skills with usage tracking
 - Blank-slate installs: `hermes install --no-skills`
 
 ### 🛡️ Security & Reliability
-- **CVE-2026-48710** (Starlette BadHost) — patched Starlette ≥1.0.1
+- **CVE-2026-48710** (Starlette BadHost)  --  patched Starlette ≥1.0.1
 - SSRF checks off the event loop in async paths
 - Subprocess credential stripping
 - 399 issues closed (2 P0, 62 P1, 16 security-tagged)
@@ -106,7 +106,7 @@ The dashboard is now a complete browser-based administration surface:
 - `gemini-3.5-flash` (Gemini OAuth + API-key pickers)
 
 ### Agent Loop
-- `/undo [N]` — full parity across CLI, TUI, messaging platforms
+- `/undo [N]`  --  full parity across CLI, TUI, messaging platforms
 - Progressive tool disclosure for MCP and plugin tools
 - Universal task-completion guidance
 - Uncap delegation `max_spawn_depth`
@@ -141,7 +141,7 @@ The dashboard is now a complete browser-based administration surface:
 
 - Structured stream-event protocol + Telegram draft formatting parity
 - Per-platform streaming defaults (Telegram on, Discord off)
-- Discord voice-channel mixer — ambient idle bed + verbal acks
+- Discord voice-channel mixer  --  ambient idle bed + verbal acks
 - Handle Feishu meeting invitations
 - Matrix bang-command aliases + fail-closed approval reaction auth
 
@@ -169,7 +169,7 @@ The dashboard is now a complete browser-based administration surface:
 
 ## 🔒 Security
 
-- CVE-2026-48710 (Starlette BadHost) — pin patched Starlette ≥1.0.1
+- CVE-2026-48710 (Starlette BadHost)  --  pin patched Starlette ≥1.0.1
 - Run URL SSRF checks off the event loop in async paths
 - Strip Bedrock inference bearer token from subprocess env
 - Add `bws_cache.json` to file-safety read guard
@@ -190,15 +190,15 @@ The dashboard is now a complete browser-based administration surface:
 ## 👥 Contributors
 
 **170 community contributors** (including co-authors). Top contributors:
-- **@OutThisLife** (52 PRs) — desktop app end-to-end
-- **@benbarclay** (44 PRs) — Docker hardening, dashboard auth
-- **@kshitijk4poor** (29 PRs) — fuzzy model picker, setup onboarding
-- **@ethernet8023** (18 PRs) — desktop build pipeline, managed-uv
-- **@austinpickett** (8 PRs) — dashboard theme, desktop Providers
-- **@alt-glitch** (7 PRs) — Nous tool-pool, FAL video-gen, supermemory
-- **@helix4u** (6 PRs) — gateway service-restart, update guard
-- **@jquesnelle** (4 PRs) — installer, desktop tooling
-- **@JimLiu** — Simplified Chinese translation + i18n layer
+- **@OutThisLife** (52 PRs)  --  desktop app end-to-end
+- **@benbarclay** (44 PRs)  --  Docker hardening, dashboard auth
+- **@kshitijk4poor** (29 PRs)  --  fuzzy model picker, setup onboarding
+- **@ethernet8023** (18 PRs)  --  desktop build pipeline, managed-uv
+- **@austinpickett** (8 PRs)  --  dashboard theme, desktop Providers
+- **@alt-glitch** (7 PRs)  --  Nous tool-pool, FAL video-gen, supermemory
+- **@helix4u** (6 PRs)  --  gateway service-restart, update guard
+- **@jquesnelle** (4 PRs)  --  installer, desktop tooling
+- **@JimLiu**  --  Simplified Chinese translation + i18n layer
 ---
 
 *

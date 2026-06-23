@@ -10,7 +10,7 @@ robots: index,follow
 
 # MCP for Enterprise: How to Connect Your Business Data to AI
 
-**Enterprise teams need fast, accurate answers from their business data** — but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives enterprise professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports — just connect your tools and ask questions in plain English.
+**Enterprise teams need fast, accurate answers from their business data**  --  but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives enterprise professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports  --  just connect your tools and ask questions in plain English.
 
 ## Enterprise-Grade Architecture
 
@@ -20,7 +20,7 @@ CorpusIQ's enterprise deployment model is built for organizations with thousands
 
 **High availability.** The MCP server layer runs in an active-active configuration across multiple availability zones. If one zone experiences issues, traffic automatically routes to healthy instances with no downtime.
 
-**Horizontal scaling.** As query volume grows, additional MCP server instances are added automatically. The stateless architecture means scaling is purely a matter of adding compute — no data migration, no schema changes, no downtime.
+**Horizontal scaling.** As query volume grows, additional MCP server instances are added automatically. The stateless architecture means scaling is purely a matter of adding compute  --  no data migration, no schema changes, no downtime.
 
 **Global deployment.** For multinational enterprises, CorpusIQ can deploy in multiple geographic regions, keeping data processing within regional boundaries and reducing query latency for global teams.
 
@@ -28,9 +28,9 @@ CorpusIQ's enterprise deployment model is built for organizations with thousands
 
 Enterprise security starts with identity. CorpusIQ supports:
 
-**SAML 2.0 and OpenID Connect.** Integrate with your existing identity provider — Okta, Azure AD, Ping Identity, OneLogin, or any SAML/OIDC-compatible IdP. Employees use their corporate credentials to access CorpusIQ.
+**SAML 2.0 and OpenID Connect.** Integrate with your existing identity provider  --  Okta, Azure AD, Ping Identity, OneLogin, or any SAML/OIDC-compatible IdP. Employees use their corporate credentials to access CorpusIQ.
 
-**Role-based access control (RBAC).** Define roles with specific permissions — who can connect data sources, who can query which platforms, who can view audit logs. Map these roles to your existing directory groups.
+**Role-based access control (RBAC).** Define roles with specific permissions  --  who can connect data sources, who can query which platforms, who can view audit logs. Map these roles to your existing directory groups.
 
 **Just-in-time provisioning.** When a new employee joins a directory group with CorpusIQ access, they're automatically provisioned. When they leave the group or the organization, access is automatically revoked.
 
@@ -40,11 +40,11 @@ Enterprise security starts with identity. CorpusIQ supports:
 
 ## Department-Level Data Governance
 
-Large organizations don't have one set of data — they have many, each owned by different departments with different access requirements. CorpusIQ supports:
+Large organizations don't have one set of data  --  they have many, each owned by different departments with different access requirements. CorpusIQ supports:
 
 **Department-scoped connections.** The marketing department connects Meta Ads and Google Analytics. The finance department connects QuickBooks and Stripe. The sales department connects Salesforce. Each department manages its own connections, and users in one department cannot access another department's data sources unless explicitly authorized.
 
-**Cross-department querying with governance.** When a question requires data from multiple departments — like comparing marketing spend to revenue — CorpusIQ enforces access controls. A user can only query data sources they're authorized to access. The cross-source query respects all departmental boundaries.
+**Cross-department querying with governance.** When a question requires data from multiple departments  --  like comparing marketing spend to revenue  --  CorpusIQ enforces access controls. A user can only query data sources they're authorized to access. The cross-source query respects all departmental boundaries.
 
 **Data source approval workflow.** Enterprise administrators can require approval before new data sources are connected. When a department head wants to connect a new platform, the request routes to the security team for review before OAuth tokens are issued.
 
@@ -64,7 +64,7 @@ Enterprise compliance requirements are non-negotiable. CorpusIQ supports:
 
 **Custom data retention policies.** Configure how long audit logs and metadata are retained according to your internal policies and regulatory requirements.
 
-**GDPR compliance.** CorpusIQ's stateless architecture — no persistent business data storage — simplifies GDPR compliance. Data processing is limited to the duration of each query.
+**GDPR compliance.** CorpusIQ's stateless architecture  --  no persistent business data storage  --  simplifies GDPR compliance. Data processing is limited to the duration of each query.
 
 ## Integration with Enterprise Architecture
 
@@ -82,7 +82,7 @@ CorpusIQ integrates with the systems enterprises already use:
 
 Rolling out MCP across a large enterprise requires a phased approach:
 
-**Phase 1: Pilot department.** Start with one department — typically finance or sales operations — that has clearly defined data sources and high-value use cases. Connect 3-5 platforms, train power users, and measure impact.
+**Phase 1: Pilot department.** Start with one department  --  typically finance or sales operations  --  that has clearly defined data sources and high-value use cases. Connect 3-5 platforms, train power users, and measure impact.
 
 **Phase 2: Expand to adjacent departments.** Based on pilot learnings, expand to departments that share data sources with the pilot group. Marketing might join if they share analytics platforms. Customer success might join if they share CRM access.
 
@@ -92,9 +92,9 @@ Rolling out MCP across a large enterprise requires a phased approach:
 
 ## Enterprise Use Cases
 
-**Executive dashboards.** The CEO asks "what's our global revenue this quarter compared to forecast?" — a question that spans ERP, CRM, and financial planning systems across multiple regions. MCP queries all relevant sources and returns a consolidated answer.
+**Executive dashboards.** The CEO asks "what's our global revenue this quarter compared to forecast?"  --  a question that spans ERP, CRM, and financial planning systems across multiple regions. MCP queries all relevant sources and returns a consolidated answer.
 
-**Cross-functional analytics.** The revenue operations team asks "how does marketing spend correlate with sales pipeline generation and closed revenue?" — a question spanning marketing platforms, CRM, and financial systems. MCP handles the cross-source orchestration.
+**Cross-functional analytics.** The revenue operations team asks "how does marketing spend correlate with sales pipeline generation and closed revenue?"  --  a question spanning marketing platforms, CRM, and financial systems. MCP handles the cross-source orchestration.
 
 **Compliance monitoring.** The compliance team asks "show me all financial transactions over $50,000 this quarter with their associated approval records." MCP queries the ERP and approval systems, returning an audit-ready report.
 
@@ -119,7 +119,7 @@ CorpusIQ can deploy in multiple geographic regions with data processing staying 
 <details>
 <summary><strong>What's the typical enterprise deployment timeline?</strong></summary>
 
-A departmental pilot can be running in days — SSO configuration plus OAuth connections. Full enterprise rollout with governance policies typically takes 4-8 weeks, depending on the number of departments and data sources.
+A departmental pilot can be running in days  --  SSO configuration plus OAuth connections. Full enterprise rollout with governance policies typically takes 4-8 weeks, depending on the number of departments and data sources.
 </details>
 
 <details>
@@ -150,9 +150,9 @@ Enterprise customers receive 99.9% uptime SLA for the MCP query layer, with fina
 - [Learn about MCP for financial reporting and compliance](/docs/mcp-for-finance)
 - [Explore MCP for business operations automation](/docs/mcp-for-operations)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 ---
 
 *

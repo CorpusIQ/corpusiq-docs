@@ -1,6 +1,6 @@
 ---
 title: Production Autonomous Agent Architecture
-description: Complete architecture for a production autonomous agent platform — six layers, data flow, failure modes, scaling strategies, and architectural decisions
+description: Complete architecture for a production autonomous agent platform  --  six layers, data flow, failure modes, scaling strategies, and architectural decisions
 ---
 
 # Production Autonomous Agent Architecture
@@ -11,7 +11,7 @@ A production system requires: long-term memory, persistent identity, workflow or
 
 This document outlines the architecture that bridges that gap.
 
-## System Architecture — The Six-Layer Model
+## System Architecture  --  The Six-Layer Model
 
 The platform decomposes into six layers, each with distinct responsibilities, failure domains, and scaling characteristics:
 
@@ -28,7 +28,7 @@ The brain stem. This layer handles task decomposition, agent routing, model sele
 
 ### Layer 2: Skills and Tooling
 
-The muscle system. This layer provides domain-specific capabilities — everything the agents can actually *do*.
+The muscle system. This layer provides domain-specific capabilities  --  everything the agents can actually *do*.
 
 **Components:** 70+ skills across marketing, engineering, operations, and content; 65+ CLI tools; MCP infrastructure with 50+ operational tools; FastMCP validation layer
 
@@ -118,10 +118,10 @@ Every layer has distinct failure modes. Understanding them is critical for desig
 
 | Failure Mode | Probability | Impact | Mitigation |
 |---|---|---|---|
-| Model hallucinates execution plan | Medium | High — wrong task executed | Reflexion evaluation loop validates outputs before execution |
-| Task decomposition too granular | Low | Medium — excessive cost | Token budget enforcement, plan compression |
-| Agent assignment wrong | Low | High — expensive model for simple task | Multi-model router with explicit task-to-model mapping |
-| Infinite loop in Reflexion | Medium | High — cost spiral | Max iteration guard (default: 3), cost ceiling per task |
+| Model hallucinates execution plan | Medium | High  --  wrong task executed | Reflexion evaluation loop validates outputs before execution |
+| Task decomposition too granular | Low | Medium  --  excessive cost | Token budget enforcement, plan compression |
+| Agent assignment wrong | Low | High  --  expensive model for simple task | Multi-model router with explicit task-to-model mapping |
+| Infinite loop in Reflexion | Medium | High  --  cost spiral | Max iteration guard (default: 3), cost ceiling per task |
 
 **Recovery strategy:** Orchestration failures are detected by the governance layer monitoring execution anomalies. Recovery involves re-routing to a different model, simplifying the task graph, or escalating to human review.
 
@@ -129,10 +129,10 @@ Every layer has distinct failure modes. Understanding them is critical for desig
 
 | Failure Mode | Probability | Impact | Mitigation |
 |---|---|---|---|
-| API rate limit exceeded | High | Low — retry fixes it | Exponential backoff with jitter, rate limit awareness before calls |
-| Tool returns malformed data | Medium | Medium — downstream corruption | Pydantic validation on all tool I/O, schema enforcement |
-| External service down | Medium | Medium — workflow blocked | Circuit breaker pattern, degraded-mode execution, cached results |
-| Skill version mismatch | Low | High — silent incorrect behavior | Version pinning, checksum validation, canary deployment |
+| API rate limit exceeded | High | Low  --  retry fixes it | Exponential backoff with jitter, rate limit awareness before calls |
+| Tool returns malformed data | Medium | Medium  --  downstream corruption | Pydantic validation on all tool I/O, schema enforcement |
+| External service down | Medium | Medium  --  workflow blocked | Circuit breaker pattern, degraded-mode execution, cached results |
+| Skill version mismatch | Low | High  --  silent incorrect behavior | Version pinning, checksum validation, canary deployment |
 
 **Recovery strategy:** Tool failures trigger automatic retry with exponential backoff. After three failures, the task is marked for governance review. Critical workflows have fallback tool paths defined.
 
@@ -140,21 +140,21 @@ Every layer has distinct failure modes. Understanding them is critical for desig
 
 | Failure Mode | Probability | Impact | Mitigation |
 |---|---|---|---|
-| Model provider rate limit | Medium | Medium — task backlog | Multi-provider routing, queuing with priority, local model fallback |
-| Worker node unreachable | Low | High — browser ops blocked | Health checks every 60s, auto-restart via systemd, alert on 3 consecutive failures |
-| OAuth token expired | High | Low — single service blocked | Proactive refresh 24h before expiry, automated re-auth flows |
-| Disk space exhaustion | Low | High — system-wide failure | 80% threshold alert, automated log rotation, artifact cleanup cron |
+| Model provider rate limit | Medium | Medium  --  task backlog | Multi-provider routing, queuing with priority, local model fallback |
+| Worker node unreachable | Low | High  --  browser ops blocked | Health checks every 60s, auto-restart via systemd, alert on 3 consecutive failures |
+| OAuth token expired | High | Low  --  single service blocked | Proactive refresh 24h before expiry, automated re-auth flows |
+| Disk space exhaustion | Low | High  --  system-wide failure | 80% threshold alert, automated log rotation, artifact cleanup cron |
 
-**Recovery strategy:** Infrastructure failures use health-check-driven auto-recovery. Persistent failures trigger governance alerts. The system degrades gracefully — if the worker node is down, browser tasks queue until recovery.
+**Recovery strategy:** Infrastructure failures use health-check-driven auto-recovery. Persistent failures trigger governance alerts. The system degrades gracefully  --  if the worker node is down, browser tasks queue until recovery.
 
 ### Layer 4 Failures: Content Operations
 
 | Failure Mode | Probability | Impact | Mitigation |
 |---|---|---|---|
-| Platform API changes break publishing | Medium | Medium — content gap | Scheduled integration tests against platform APIs, content queue with retry |
-| Video generation fails mid-render | Medium | Low — wasted compute | Render checkpointing, partial output recovery, automated retry |
-| Rate limit hit during publish | High | Low — delayed post | Per-platform rate limit tracking, staggered scheduling, backoff |
-| Generated content violates platform policy | Low | High — account risk | Pre-publish policy check, content moderation filter, human review flag for edge cases |
+| Platform API changes break publishing | Medium | Medium  --  content gap | Scheduled integration tests against platform APIs, content queue with retry |
+| Video generation fails mid-render | Medium | Low  --  wasted compute | Render checkpointing, partial output recovery, automated retry |
+| Rate limit hit during publish | High | Low  --  delayed post | Per-platform rate limit tracking, staggered scheduling, backoff |
+| Generated content violates platform policy | Low | High  --  account risk | Pre-publish policy check, content moderation filter, human review flag for edge cases |
 
 **Recovery strategy:** Content ops failures are queued for retry. The system maintains a content buffer (2-3 days of queued content) so transient failures don't create gaps. Policy violations halt the pipeline and require human review.
 
@@ -162,10 +162,10 @@ Every layer has distinct failure modes. Understanding them is critical for desig
 
 | Failure Mode | Probability | Impact | Mitigation |
 |---|---|---|---|
-| Vector DB corruption | Low | Critical — knowledge loss | Nightly backups, checksum validation, read-repair on retrieval |
-| Embedding model drift | Low | Medium — degraded retrieval | A/B test retrieval quality weekly, re-index on score degradation |
-| Dream cycle stalls | Medium | Medium — knowledge fragmentation | Timeout guard (max 2 hours), partial commit on timeout, alert on skip |
-| Context window overflow | Medium | Medium — truncated knowledge | Token budget management, relevance scoring, hierarchical summarization |
+| Vector DB corruption | Low | Critical  --  knowledge loss | Nightly backups, checksum validation, read-repair on retrieval |
+| Embedding model drift | Low | Medium  --  degraded retrieval | A/B test retrieval quality weekly, re-index on score degradation |
+| Dream cycle stalls | Medium | Medium  --  knowledge fragmentation | Timeout guard (max 2 hours), partial commit on timeout, alert on skip |
+| Context window overflow | Medium | Medium  --  truncated knowledge | Token budget management, relevance scoring, hierarchical summarization |
 
 **Recovery strategy:** Knowledge failures are the most dangerous because they compound silently. Nightly validation checks embedding consistency. Weekly retrieval quality benchmarks catch drift. Backups are immutable and versioned.
 
@@ -173,10 +173,10 @@ Every layer has distinct failure modes. Understanding them is critical for desig
 
 | Failure Mode | Probability | Impact | Mitigation |
 |---|---|---|---|
-| Alert fatigue (too many false positives) | High | Medium — real alerts ignored | Threshold tuning, alert deduplication, severity tiers |
-| Cron job silent failure | Medium | High — missed execution | Outcome validation (not just exit code), heartbeat monitoring |
-| Token refresh automation fails | Medium | Medium — service disruption | Multi-channel alerting, manual override path, 48h advance warning |
-| Monitoring gap (new component unmonitored) | Low | High — blind spot | Registry-enforced monitoring on creation, automated coverage audit |
+| Alert fatigue (too many false positives) | High | Medium  --  real alerts ignored | Threshold tuning, alert deduplication, severity tiers |
+| Cron job silent failure | Medium | High  --  missed execution | Outcome validation (not just exit code), heartbeat monitoring |
+| Token refresh automation fails | Medium | Medium  --  service disruption | Multi-channel alerting, manual override path, 48h advance warning |
+| Monitoring gap (new component unmonitored) | Low | High  --  blind spot | Registry-enforced monitoring on creation, automated coverage audit |
 
 **Recovery strategy:** Governance itself must be governed. A meta-monitoring cron validates that all monitoring systems are healthy. Alert pipelines are tested weekly with synthetic failures.
 
@@ -200,7 +200,7 @@ The architecture supports horizontal scaling at several points:
 
 The multi-model router achieves approximately 65% cost reduction versus premium-model-only routing by matching task complexity to model capability:
 
-- **Tier 1 (Lightweight):** Local models for classification, formatting, simple extraction — near-zero cost
+- **Tier 1 (Lightweight):** Local models for classification, formatting, simple extraction  --  near-zero cost
 - **Tier 2 (Standard):** Mid-tier cloud models for content generation, tool selection, analysis
 - **Tier 3 (Premium):** Top-tier models for strategic reasoning, multi-step planning, critical decisions
 

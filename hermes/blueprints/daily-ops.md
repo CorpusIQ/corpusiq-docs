@@ -1,12 +1,12 @@
 ---
-title: Daily Operations Blueprint for Hermes Agent — Automate Your Business Day
+title: Daily Operations Blueprint for Hermes Agent  --  Automate Your Business Day
 description: End-to-end Hermes Agent daily operations blueprint. Morning briefing, task triage, midday pulse check, execution monitoring, and evening wrap-up. 12 cron jobs orchestrate a complete business day with human decision gates.
 category: blueprints
 tags: [hermes-agent, blueprint, daily-operations, morning-briefing, task-triage, cron, workflow-automation]
 last_updated: 2026-06-16
 ---
 
-# Daily Operations Blueprint — Automate Your Business Day with Hermes Agent
+# Daily Operations Blueprint  --  Automate Your Business Day with Hermes Agent
 
 ## Overview
 
@@ -41,7 +41,7 @@ MORNING                  MIDDAY                EVENING
 ### Data Collection (06:30)
 The agent pulls a snapshot from all connected systems:
 
-**Calendar:** Today's events — title, attendees, time, location, virtual meeting links. Highlight external meetings and any flagged as "needs prep."
+**Calendar:** Today's events  --  title, attendees, time, location, virtual meeting links. Highlight external meetings and any flagged as "needs prep."
 
 **Email:** Unread count, priority senders (configurable VIP list), emails marked urgent. Extract action items from emails received overnight.
 
@@ -55,22 +55,22 @@ The agent pulls a snapshot from all connected systems:
 The agent compiles the collected data into a structured briefing:
 
 ```markdown
-# Morning Briefing — [DATE]
+# Morning Briefing  --  [DATE]
 
 ## Today's Calendar ([N] events)
 | Time | Event | Attendees | Location | Prep Needed? |
 |---|---|---|---|---|
 | 09:00 | Sprint Planning | Team (6) | Zoom | Review backlog |
-| 11:00 | Client Call — Acme | Acme team (3) | Google Meet | YES — see prep section |
+| 11:00 | Client Call  --  Acme | Acme team (3) | Google Meet | YES  --  see prep section |
 | 14:00 | 1:1 with [Manager] | 2 | In-person | Bring project status |
 
 ## Priority Inbox ([N] unread, [N] flagged)
-- 🔴 [Sender]: [Subject] — [one-line summary]
-- 🟡 [Sender]: [Subject] — [one-line summary]
+- 🔴 [Sender]: [Subject]  --  [one-line summary]
+- 🟡 [Sender]: [Subject]  --  [one-line summary]
 
 ## Tasks at Risk
-- ⚠️ [Task] — Due today, not started
-- ⚠️ [Task] — Due yesterday, in progress
+- ⚠️ [Task]  --  Due today, not started
+- ⚠️ [Task]  --  Due yesterday, in progress
 
 ## Key Metrics
 | Metric | Today | Yesterday | Change | Status |
@@ -110,7 +110,7 @@ Query project management for tasks blocked by you or for you. If you're the bloc
 Lightweight re-check of the morning's key metrics. Answer: has anything materially changed since 7 AM? If yes, flag it. This prevents end-of-day surprises.
 
 ### Afternoon Reminder (14:00)
-Surface the most important task from the morning briefing that still hasn't been started or completed. Gentle nudge format — the tone should help, not nag.
+Surface the most important task from the morning briefing that still hasn't been started or completed. Gentle nudge format  --  the tone should help, not nag.
 
 ## Phase 3: Evening Wrap-Up (16:00–17:30)
 
@@ -124,7 +124,7 @@ Gather data for the end-of-day report:
 
 ### Evening Wrap-Up Report (17:00)
 ```markdown
-# End of Day — [DATE]
+# End of Day  --  [DATE]
 
 ## Completed Today
 - ✅ [Item 1]
@@ -132,11 +132,11 @@ Gather data for the end-of-day report:
 - ✅ [Item 3]
 
 ## Deferred to Tomorrow
-- 🔄 [Item 1] — reason: [blocked / reprioritized / capacity]
-- 🔄 [Item 2] — reason: [needs more info]
+- 🔄 [Item 1]  --  reason: [blocked / reprioritized / capacity]
+- 🔄 [Item 2]  --  reason: [needs more info]
 
 ## New Items Added Today
-- 🆕 [Item 1] — source: [meeting / email / Slack]
+- 🆕 [Item 1]  --  source: [meeting / email / Slack]
 
 ## Meeting Outcomes
 | Meeting | Key Decision | Action Items |
@@ -156,7 +156,7 @@ Gather data for the end-of-day report:
 - Draft tomorrow's priority list based on today's deferred items and calendar
 - Identify meetings that need preparation
 - Flag any early-morning deadlines
-- Save the draft — the morning briefing will refine it with overnight data
+- Save the draft  --  the morning briefing will refine it with overnight data
 
 ## Configuration
 
@@ -199,36 +199,36 @@ daily_metrics:
 - Never let one failed data pull block the entire briefing
 
 ### Personalization
-- Tune the morning briefing format over the first two weeks — remove sections you never read, add data you find yourself looking up manually
+- Tune the morning briefing format over the first two weeks  --  remove sections you never read, add data you find yourself looking up manually
 - Adjust the priority-senders list based on whose emails actually require same-day response
 - The task triage suggestions will improve as the agent learns which types of tasks you typically defer vs tackle
 
 ### Extending
 - Add a **weekly review** on Friday afternoons that aggregates the week's daily reports
 - Connect to Slack for a "good morning" DM with the briefing instead of email
-- Integrate a **commute briefing** — a voice-readable summary for the drive/walk to work
+- Integrate a **commute briefing**  --  a voice-readable summary for the drive/walk to work
 
 ## FAQ
 
 ### How does the Daily Operations blueprint handle data source failures?
-If a data source is unavailable (API down, credential expired), the briefing still generates with "N/A" for that source and a clear warning. One failed data pull never blocks the entire briefing — resilience is built into every stage.
+If a data source is unavailable (API down, credential expired), the briefing still generates with "N/A" for that source and a clear warning. One failed data pull never blocks the entire briefing  --  resilience is built into every stage.
 
 ### Can I customize the Daily Operations blueprint schedule?
-Yes. Adjust all cron times to match your working hours and timezone. The blueprint is designed to be customized — change the morning briefing time from 7:00 AM to whenever your day starts, add or remove check-ins, and tune notification channels.
+Yes. Adjust all cron times to match your working hours and timezone. The blueprint is designed to be customized  --  change the morning briefing time from 7:00 AM to whenever your day starts, add or remove check-ins, and tune notification channels.
 
 ### How do I extend the Daily Operations blueprint?
 Add a weekly review on Friday afternoons that aggregates the week's reports, connect to Slack for DM briefings instead of email, or integrate a commute briefing for voice-readable summaries. The pattern of data-collection → computation → action extends naturally.
 
 ## Related Pages
 
-- [Automation Blueprints Overview](/hermes/blueprints/) — All workflow templates
-- [Customer Lifecycle Blueprint](customer-lifecycle.md) — Feeds customer health into morning briefings
-- [Cron Design Best Practices](/hermes/best-practices/cron-design.md) — Reliable scheduling patterns
-- [Integration Examples](/hermes/integrations/) — Connect the tools this blueprint needs
+- [Automation Blueprints Overview](/hermes/blueprints/)  --  All workflow templates
+- [Customer Lifecycle Blueprint](customer-lifecycle.md)  --  Feeds customer health into morning briefings
+- [Cron Design Best Practices](/hermes/best-practices/cron-design.md)  --  Reliable scheduling patterns
+- [Integration Examples](/hermes/integrations/)  --  Connect the tools this blueprint needs
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

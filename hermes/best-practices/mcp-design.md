@@ -1,18 +1,18 @@
 ---
-title: MCP Server Design Guide for Hermes Agent — Build Custom AI Tools
+title: MCP Server Design Guide for Hermes Agent  --  Build Custom AI Tools
 description: MCP server design best practices for Hermes Agent. Tool design principles, error handling, pagination, performance, testing, and server lifecycle. Build production-ready Model Context Protocol servers for AI agent tools.
 category: best-practices
 tags: [hermes-agent, mcp-design, mcp-server, tool-design, model-context-protocol, error-handling, testing]
 last_updated: 2026-06-16
 ---
 
-# MCP Server Design Guide — Build Custom AI Agent Tools
+# MCP Server Design Guide  --  Build Custom AI Agent Tools
 
 Model Context Protocol (MCP) servers extend Hermes Agent with custom tools and data sources. Designing an MCP server well means respecting both the protocol constraints and the expectations of the Hermes community. This MCP server design guide covers tool design, error handling, performance, testing, and the full server lifecycle.
 
 ## Overview
 
-MCP servers are how Hermes Agent connects to external systems. Each server exposes tools — typed, documented functions that the agent can call. Following [MCP design best practices](/hermes/best-practices/) ensures your server is reliable, performant, and easy for the community to adopt.
+MCP servers are how Hermes Agent connects to external systems. Each server exposes tools  --  typed, documented functions that the agent can call. Following [MCP design best practices](/hermes/best-practices/) ensures your server is reliable, performant, and easy for the community to adopt.
 
 ## How It Works
 
@@ -72,11 +72,11 @@ Validate schema compliance with the MCP validator. Unit test each tool with vali
 
 ## Related Pages
 
-- [Best Practices Overview](/hermes/best-practices/) — All guides
-- [MCP Integration Guide](/hermes/mcp/) — Connect existing MCP servers
-- [Skill Development](skill-development.md) — Skills that call MCP tools
-- [Security](security.md) — Secure MCP server auth patterns
-- [Creating Custom Skills](/hermes/skills/creating-skills.md) — When skills are better than MCP servers
+- [Best Practices Overview](/hermes/best-practices/)  --  All guides
+- [MCP Integration Guide](/hermes/mcp/)  --  Connect existing MCP servers
+- [Skill Development](skill-development.md)  --  Skills that call MCP tools
+- [Security](security.md)  --  Secure MCP server auth patterns
+- [Creating Custom Skills](/hermes/skills/creating-skills.md)  --  When skills are better than MCP servers
 ---
 
 *

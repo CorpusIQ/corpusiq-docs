@@ -1,11 +1,11 @@
 ---
 description: >-
-  CorpusIQ REST API reference — query connected business tools, search
+  CorpusIQ REST API reference  --  query connected business tools, search
   encrypted archives, and manage user data over a Bearer-authenticated
   JSON API at https://api.corpusiq.io/v1.
 ---
 
-meta_title: "CorpusIQ API Overview — REST API Documentation for Business Data"
+meta_title: "CorpusIQ API Overview  --  REST API Documentation for Business Data"
 meta_desc: "Complete CorpusIQ REST API overview. Query 50+ business tools (HubSpot, QuickBooks, Stripe) via unified API. Base URL, endpoints, authentication, and response format at api.corpusiq.io/v1."
 category: "API Reference"
 tags: ["corpusiq api", "rest api", "business data api", "mcp api", "api documentation", "query api", "data integration api"]
@@ -43,7 +43,7 @@ Each `/query` request generates a unique `query_id` that can be used for idempot
 
 Searches the encrypted archive of previously executed queries and their results. This endpoint is useful for retrieving historical answers, auditing past queries, and discovering patterns across previous searches. The archive is encrypted at rest and indexed by embedding vectors.
 
-Unlike `/query`, this endpoint does not make live calls to connected tools — it searches only the archive.
+Unlike `/query`, this endpoint does not make live calls to connected tools  --  it searches only the archive.
 
 ### DELETE /delete_my_data
 
@@ -71,9 +71,9 @@ Authorization: Bearer <token>
 
 ## Next Steps
 
-- [Authentication](/docs/api/authentication) — Obtain and manage API tokens
-- [Endpoints Reference](/docs/api/endpoints) — Full request/response schemas and code examples
-- [Rate Limits](/docs/api/rate-limits) — Understand per-endpoint quotas
+- [Authentication](/docs/api/authentication)  --  Obtain and manage API tokens
+- [Endpoints Reference](/docs/api/endpoints)  --  Full request/response schemas and code examples
+- [Rate Limits](/docs/api/rate-limits)  --  Understand per-endpoint quotas
 
 ## Frequently Asked Questions
 
@@ -97,15 +97,15 @@ A: Most queries return results in 1–5 seconds. Cross-source queries spanning m
 
 ## Internal Links
 
-- **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  
-- **[API Authentication Guide](/docs/api/authentication)** — Bearer tokens, OAuth 2.0, and security best practices  
-- **[API Endpoints Reference](/docs/api/endpoints)** — Complete request/response schemas and code examples  
-- **[API Rate Limits](/docs/api/rate-limits)** — Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/docs/api/webhooks)** — Event notifications and HMAC signature verification  
-- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2, and data residency  
-- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption, network security, and compliance  
+- **[CorpusIQ API Overview](/docs/api/overview)**  --  Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/docs/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/docs/api/endpoints)**  --  Complete request/response schemas and code examples  
+- **[API Rate Limits](/docs/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Event notifications and HMAC signature verification  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption, network security, and compliance  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *

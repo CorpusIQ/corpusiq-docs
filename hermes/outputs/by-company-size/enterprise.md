@@ -21,7 +21,7 @@ Hermes Agent delivers enterprise-grade AI automation with profile isolation, sec
 
 ## Overview
 
-Enterprises don't adopt automation to save a few hours per week — they adopt it to manage complexity at scale. With thousands of employees, hundreds of systems, and regulatory obligations across jurisdictions, the question isn't "can we automate this?" but "can we automate this safely, demonstrably, and in a way that satisfies our compliance, security, and audit requirements?" Hermes addresses these concerns through profile isolation, credential management, audit logging, and deployment patterns that keep data where it belongs.
+Enterprises don't adopt automation to save a few hours per week  --  they adopt it to manage complexity at scale. With thousands of employees, hundreds of systems, and regulatory obligations across jurisdictions, the question isn't "can we automate this?" but "can we automate this safely, demonstrably, and in a way that satisfies our compliance, security, and audit requirements?" Hermes addresses these concerns through profile isolation, credential management, audit logging, and deployment patterns that keep data where it belongs.
 
 ## How It Works
 
@@ -29,7 +29,7 @@ Enterprises don't adopt automation to save a few hours per week — they adopt i
 
 **Profile Isolation and Least Privilege**
 
-Every department, function, or compliance boundary gets its own Hermes profile. A marketing automation profile cannot access HR data. A finance reconciliation profile cannot read customer support tickets. This isn't just good practice — it's required for SOC 2, HIPAA, and GDPR compliance.
+Every department, function, or compliance boundary gets its own Hermes profile. A marketing automation profile cannot access HR data. A finance reconciliation profile cannot read customer support tickets. This isn't just good practice  --  it's required for SOC 2, HIPAA, and GDPR compliance.
 
 ```bash
 # Enterprise profile structure
@@ -77,7 +77,7 @@ Enterprises operating across regions (US, EU, APAC) face data residency requirem
 
 **Per-region Hermes instances:** Deploy separate Hermes instances in each region. EU customer data stays in the EU instance. APAC employee data stays in the APAC instance.
 
-**Global orchestration layer:** A lightweight global profile handles cross-region aggregations that don't involve PII movement — count of customers by region, aggregate revenue trends, global system health.
+**Global orchestration layer:** A lightweight global profile handles cross-region aggregations that don't involve PII movement  --  count of customers by region, aggregate revenue trends, global system health.
 
 **Data residency verification skills:**
 
@@ -185,12 +185,12 @@ Enterprise Hermes should tolerate failures:
 
 ## Benefits
 
-- **Auditor-ready compliance** — continuous evidence collection replaces quarterly fire drills
-- **Data residency enforced** — regional deployment keeps regulated data within jurisdiction
-- **Least-privilege access** — profile isolation prevents cross-department data exposure
-- **Segregation of duties** — four-party separation satisfies SOC 2 and SOX requirements
-- **ITIL-aligned change management** — standard, normal, and emergency change categories with approval gates
-- **High availability** — primary/standby deployment with automated failover and cron resilience
+- **Auditor-ready compliance**  --  continuous evidence collection replaces quarterly fire drills
+- **Data residency enforced**  --  regional deployment keeps regulated data within jurisdiction
+- **Least-privilege access**  --  profile isolation prevents cross-department data exposure
+- **Segregation of duties**  --  four-party separation satisfies SOC 2 and SOX requirements
+- **ITIL-aligned change management**  --  standard, normal, and emergency change categories with approval gates
+- **High availability**  --  primary/standby deployment with automated failover and cron resilience
 
 ## Enterprise Deployment Checklist
 
@@ -211,13 +211,13 @@ Before going live with enterprise Hermes:
 
 ## Getting Started
 
-1. **Start with one compliant profile.** Pick finance or security — the team most comfortable with controls. Build out the full enterprise pattern (secrets management, audit logging, change approval) for that single profile.
+1. **Start with one compliant profile.** Pick finance or security  --  the team most comfortable with controls. Build out the full enterprise pattern (secrets management, audit logging, change approval) for that single profile.
 2. **Document everything as you go.** The documentation you create for profile #1 becomes the template for profiles #2 through #20.
 3. **Engage your compliance team early.** Show them the audit log output, the access control model, and the change management workflow. Get their sign-off before expanding.
 4. **Run in report-only mode for the first month.** Generate alerts and reports but take no automated actions. This builds trust and surfaces edge cases.
 5. **Expand by department, not by use case.** Onboard an entire department's automation needs rather than scattering skills across departments.
 
-The outcome: enterprise-grade automation that satisfies auditors, scales across regions, and gives every department the operational leverage of a well-tooled startup — without the compliance risk.
+The outcome: enterprise-grade automation that satisfies auditors, scales across regions, and gives every department the operational leverage of a well-tooled startup  --  without the compliance risk.
 
 ## FAQ
 
@@ -243,15 +243,15 @@ Yes. Enterprise deployments use primary/standby instances with heartbeat monitor
 
 ## Related Pages
 
-- [Hermes Agent for Mid-Market](../by-company-size/mid-market.md) — Multi-team orchestration for growing companies
-- [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md) — SOC 2, HIPAA, and GDPR evidence collection
-- [Hermes Agent for Government](../case-studies/government.md) — FedRAMP and public sector compliance
-- [Hermes Agent for Financial Services](../case-studies/financial-services.md) — SOX controls and regulatory filing
-- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+- [Hermes Agent for Mid-Market](../by-company-size/mid-market.md)  --  Multi-team orchestration for growing companies
+- [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md)  --  SOC 2, HIPAA, and GDPR evidence collection
+- [Hermes Agent for Government](../case-studies/government.md)  --  FedRAMP and public sector compliance
+- [Hermes Agent for Financial Services](../case-studies/financial-services.md)  --  SOX controls and regulatory filing
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

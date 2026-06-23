@@ -1,5 +1,5 @@
 ---
-title: Hermes AgentMesh Async Bus — Setup Guide
+title: Hermes AgentMesh Async Bus  --  Setup Guide
 description: Deploy a peer-to-peer, 0-SSH, Redis-backed async message bus for multi-agent coordination. Designed for Hermes, OpenClaw, LangGraph, AutoGen, CrewAI.
 category: Agent Infrastructure
 source: seleman66eeddwegger3-art/hermes-agentmesh
@@ -10,16 +10,16 @@ installs: 1/day trending
 
 **Install:** `npx skills add seleman66eeddwegger3-art/hermes-agentmesh --skill hermes-agentmesh-async-bus`
 
-A peer-to-peer, 0-SSH, Redis-backed async message bus designed by Bobo (a Hermes agent architect). Replaces synchronous HTTP coordination with Redis mailboxes — agents communicate by dropping tasks in named inboxes instead of making blocking HTTP calls.
+A peer-to-peer, 0-SSH, Redis-backed async message bus designed by Bobo (a Hermes agent architect). Replaces synchronous HTTP coordination with Redis mailboxes  --  agents communicate by dropping tasks in named inboxes instead of making blocking HTTP calls.
 
 ## Why Use This
 
 | Problem | AgentMesh Solution |
 |---------|-------------------|
-| HTTP timeouts at 5–10 min crash multi-agent tasks | Redis queues — hours-long tasks OK |
-| SSH required to start remote workers | 0 SSH — workers listen on shared Redis |
+| HTTP timeouts at 5–10 min crash multi-agent tasks | Redis queues  --  hours-long tasks OK |
+| SSH required to start remote workers | 0 SSH  --  workers listen on shared Redis |
 | Reports lost or must be scp'd | Reports land naturally on initiator's machine |
-| Group chat noise eats context tokens | Named inboxes — zero noise |
+| Group chat noise eats context tokens | Named inboxes  --  zero noise |
 
 ## Architecture
 
@@ -36,7 +36,7 @@ A peer-to-peer, 0-SSH, Redis-backed async message bus designed by Bobo (a Hermes
 
 - **Central hub:** Redis + Hermes LLM API + HTTP file server on Mac mini
 - **Worker nodes:** Pure Redis clients (any OS), kept alive by LaunchAgents/systemd
-- **Protocol:** `redis.lpush("inbox:<NODE_NAME>", task_json)` — the mailbox IS the protocol
+- **Protocol:** `redis.lpush("inbox:<NODE_NAME>", task_json)`  --  the mailbox IS the protocol
 
 ## Quick Start (5 minutes)
 
@@ -45,7 +45,7 @@ A peer-to-peer, 0-SSH, Redis-backed async message bus designed by Bobo (a Hermes
 - 1+ other devices on same LAN
 - Redis installed on all nodes
 
-### Step 1: Mac mini — Configure Redis for LAN access
+### Step 1: Mac mini  --  Configure Redis for LAN access
 ```bash
 sudo sed -i.bak \
   -e 's/^bind 127.0.0.1 ::1$/bind 0.0.0.0/' \
@@ -93,10 +93,10 @@ curl -s http://<MAC_MINI_IP>:8080/health
 
 ## Key Design Decisions
 
-1. **Redis, not HTTP** — Eliminates timeout anxiety. A 2-hour agent task is just a message sitting in a Redis list.
-2. **0 SSH deployment** — Workers pull code from the hub's HTTP file server. No remote process management.
-3. **Reports land locally** — The initiator writes the report to its own filesystem, not the worker's. No scp needed.
-4. **Framework-agnostic** — Works with Hermes, OpenClaw, LangGraph, AutoGen, CrewAI. The mailbox format is universal JSON.
+1. **Redis, not HTTP**  --  Eliminates timeout anxiety. A 2-hour agent task is just a message sitting in a Redis list.
+2. **0 SSH deployment**  --  Workers pull code from the hub's HTTP file server. No remote process management.
+3. **Reports land locally**  --  The initiator writes the report to its own filesystem, not the worker's. No scp needed.
+4. **Framework-agnostic**  --  Works with Hermes, OpenClaw, LangGraph, AutoGen, CrewAI. The mailbox format is universal JSON.
 
 ## Pitfalls
 

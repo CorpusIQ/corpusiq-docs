@@ -1,12 +1,12 @@
 ---
-title: Research Prompts for Hermes Agent — Competitive Analysis & Market Intelligence
+title: Research Prompts for Hermes Agent  --  Competitive Analysis & Market Intelligence
 description: Hermes Agent research prompts for competitive analysis, market sizing, technology evaluation, trend reports, and structured investigation. Replace bracketed text with your research parameters and data sources.
 category: prompts
 tags: [hermes-agent, prompts, research, competitive-analysis, market-sizing, technology-evaluation, trend-reports]
 last_updated: 2026-06-16
 ---
 
-# Research Prompts — Competitive Analysis & Market Intelligence
+# Research Prompts  --  Competitive Analysis & Market Intelligence
 
 ---
 
@@ -39,8 +39,8 @@ Map the competitive landscape for [MARKET/PRODUCT CATEGORY].
 Analyze [N] competitors: [LIST NAMES IF KNOWN]
 
 Create a positioning matrix with these axes:
-- X-axis: [DIMENSION 1 — e.g., Ease of Use / Power]
-- Y-axis: [DIMENSION 2 — e.g., SMB Focus / Enterprise Focus]
+- X-axis: [DIMENSION 1  --  e.g., Ease of Use / Power]
+- Y-axis: [DIMENSION 2  --  e.g., SMB Focus / Enterprise Focus]
 
 For each competitor:
 - Bubble size proportional to [REVENUE/USER BASE/MARKET SHARE]
@@ -49,7 +49,7 @@ For each competitor:
 - Key differentiator (one sentence)
 - Where they're vulnerable
 
-Identify whitespace on the matrix — where are the underserved customer needs?
+Identify whitespace on the matrix  --  where are the underserved customer needs?
 ```
 
 ### Feature Comparison Matrix
@@ -106,9 +106,9 @@ Synthesize a market trends report on [TOPIC/INDUSTRY] for the next [TIME HORIZON
 
 Structure:
 1. Executive summary: 3 most important shifts happening right now
-2. Trend 1: [NAME] — driving factors, evidence, implications
-3. Trend 2: [NAME] — driving factors, evidence, implications
-4. Trend 3: [NAME] — driving factors, evidence, implications
+2. Trend 1: [NAME]  --  driving factors, evidence, implications
+3. Trend 2: [NAME]  --  driving factors, evidence, implications
+4. Trend 3: [NAME]  --  driving factors, evidence, implications
 5. Wildcards: low-probability high-impact events to watch
 6. Implications: what this means for [OUR BUSINESS/INVESTMENT THESIS]
 
@@ -137,12 +137,12 @@ Context:
 - Timeline: [WHEN DECISION NEEDED]
 
 Evaluation criteria with weights (must sum to 100%):
-1. Functional fit: [%] — does it solve the core problem?
-2. Learning curve: [%] — time to team proficiency
-3. Community/ecosystem: [%] — available libraries, support, hiring pool
-4. Performance: [%] — latency, throughput, resource usage
-5. Cost: [%] — licensing, hosting, operational
-6. Future-proofing: [%] — roadmap, vendor stability, migration ease
+1. Functional fit: [%]  --  does it solve the core problem?
+2. Learning curve: [%]  --  time to team proficiency
+3. Community/ecosystem: [%]  --  available libraries, support, hiring pool
+4. Performance: [%]  --  latency, throughput, resource usage
+5. Cost: [%]  --  licensing, hosting, operational
+6. Future-proofing: [%]  --  roadmap, vendor stability, migration ease
 
 Score each candidate 1-5 per criterion. Provide weighted total and a narrative recommendation.
 Include a "what would make us switch later" section.
@@ -159,8 +159,8 @@ Internal build estimate:
 - Opportunity cost: [WHAT ELSE THE TEAM COULD BUILD]
 
 Buy options:
-- Vendor 1: [NAME] at [$XX/MONTH] — pros/cons
-- Vendor 2: [NAME] at [$XX/MONTH] — pros/cons
+- Vendor 1: [NAME] at [$XX/MONTH]  --  pros/cons
+- Vendor 2: [NAME] at [$XX/MONTH]  --  pros/cons
 
 Decision framework:
 1. Core vs context: is this differentiating for our business?
@@ -186,7 +186,7 @@ Synthesize findings from these [N] sources on [TOPIC]:
 Output:
 1. Consensus findings (things most sources agree on)
 2. Points of disagreement or debate
-3. Gaps — questions none of the sources adequately address
+3. Gaps  --  questions none of the sources adequately address
 4. Key quotes (max 5, with attribution)
 5. Recommended follow-up research questions
 
@@ -201,10 +201,10 @@ Generate a SWOT analysis for [COMPANY/PRODUCT/INITIATIVE].
 Context: [1-2 PARAGRAPHS OF BACKGROUND]
 
 Format:
-- Strengths (internal, positive): [4-6 items] — what advantages do we have?
-- Weaknesses (internal, negative): [4-6 items] — where are we vulnerable?
-- Opportunities (external, positive): [4-6 items] — what trends or gaps can we exploit?
-- Threats (external, negative): [4-6 items] — what external forces could harm us?
+- Strengths (internal, positive): [4-6 items]  --  what advantages do we have?
+- Weaknesses (internal, negative): [4-6 items]  --  where are we vulnerable?
+- Opportunities (external, positive): [4-6 items]  --  what trends or gaps can we exploit?
+- Threats (external, negative): [4-6 items]  --  what external forces could harm us?
 
 For each quadrant, prioritize by impact and likelihood. 
 Then provide a TOWS cross-analysis:
@@ -214,9 +214,9 @@ Then provide a TOWS cross-analysis:
 - How do we fix weaknesses to survive threats?
 ```
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

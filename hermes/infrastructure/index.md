@@ -6,7 +6,7 @@ Production agents need dedicated hardware. Here's the architecture pattern.
 
 | Problem | Single Machine | Two Machines |
 |---------|---------------|--------------|
-| Browser automation crashes | Takes down your agent | Isolated on worker — agent stays up |
+| Browser automation crashes | Takes down your agent | Isolated on worker  --  agent stays up |
 | Video rendering pegs CPU | Blocks all other tasks | Offloaded to worker with FFmpeg |
 | Social publishing failures | Can't post anywhere | Worker node runs Postiz independently |
 | Memory pressure | LLM + browser + video = OOM | LLM on primary, everything else on worker |
@@ -42,7 +42,7 @@ Production agents need dedicated hardware. Here's the architecture pattern.
 │  OS: macOS (ARM64) · RAM: 16GB                                   │
 │                                                                  │
 │  Services:                                                       │
-│  ├── Postiz CLI (social publishing — X, LinkedIn, TikTok, IG)    │
+│  ├── Postiz CLI (social publishing  --  X, LinkedIn, TikTok, IG)    │
 │  ├── Playwright (browser automation, stealth)                    │
 │  ├── FFmpeg (video post-production)                              │
 │  ├── patchright (Cloudflare bypass)                              │
@@ -257,7 +257,7 @@ ping worker-node.local
 # Gmail
 python3 refresh_gmail_token.py
 
-# GitHub (classic PAT — never expires)
+# GitHub (classic PAT  --  never expires)
 # Verify: curl -H "Authorization: token $(cat secrets/github.token)" https://api.github.com/user
 ```
 
@@ -265,12 +265,12 @@ python3 refresh_gmail_token.py
 
 ## Lessons Learned
 
-1. **Browser automation is fragile** — offload it. Playwright crashes shouldn't take down your agent.
-2. **Key-based SSH is mandatory** — password auth fails silently in cron environments.
-3. **Postiz on worker is stable** — better than running social publishing directly from the agent.
-4. **Model routing saves real money** — ~65% savings compounds at 24/7 operation.
-5. **Monitor both machines** — the health check must verify the worker node too.
-6. **Keep Hermes versions synced** — primary and worker nodes must run the same version.
+1. **Browser automation is fragile**  --  offload it. Playwright crashes shouldn't take down your agent.
+2. **Key-based SSH is mandatory**  --  password auth fails silently in cron environments.
+3. **Postiz on worker is stable**  --  better than running social publishing directly from the agent.
+4. **Model routing saves real money**  --  ~65% savings compounds at 24/7 operation.
+5. **Monitor both machines**  --  the health check must verify the worker node too.
+6. **Keep Hermes versions synced**  --  primary and worker nodes must run the same version.
 ---
 
 *

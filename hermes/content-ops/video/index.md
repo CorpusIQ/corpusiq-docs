@@ -1,11 +1,11 @@
 ---
 title: Automated Video Production
-description: End-to-end video production pipeline — script generation, avatar rendering, post-production, and multi-platform distribution with Hermes
+description: End-to-end video production pipeline  --  script generation, avatar rendering, post-production, and multi-platform distribution with Hermes
 ---
 
 # Automated Video Production
 
-Video content dominates engagement metrics across every platform. But producing quality video at scale requires a pipeline that handles scripting, rendering, post-production, and distribution — without human intervention at every step.
+Video content dominates engagement metrics across every platform. But producing quality video at scale requires a pipeline that handles scripting, rendering, post-production, and distribution  --  without human intervention at every step.
 
 This guide covers building an automated video production system with Hermes: tools, pipeline design, script generation strategies, rendering workflows, and platform-specific optimization.
 
@@ -105,7 +105,7 @@ Every video script should follow a proven structure:
 [Summarize the 3 key takeaways]
 
 # CALL TO ACTION (5:30-6:00)
-[What the viewer should do next — subscribe, comment, visit link]
+[What the viewer should do next  --  subscribe, comment, visit link]
 ```
 
 ### Script Generation with Reflexion
@@ -206,7 +206,7 @@ def create_avatar_video(script: str, output_path: str) -> str:
 **Best practices for avatar videos:**
 - Keep segments under 90 seconds (avatar attention fatigue)
 - Insert B-roll or screen recordings between avatar segments (2-3 per video)
-- Use captions — 85% of social video is watched without sound
+- Use captions  --  85% of social video is watched without sound
 - Test voice/avatar combinations for audience preference
 
 ### Option B: Remotion Programmatic Video
@@ -349,13 +349,13 @@ videos:
 
   - platform: tiktok
     clip_duration: 60  # Extract best 60 seconds
-    caption: "{hook} — full video on YouTube 🔗"
+    caption: "{hook}  --  full video on YouTube 🔗"
     hashtags: [fyp, viral_topic, niche_hashtag]
     schedule: "+2h"  # 2 hours after YouTube
 
   - platform: instagram_reels
     clip_duration: 90
-    caption: "{topic} — watch the full breakdown 👆 link in bio"
+    caption: "{topic}  --  watch the full breakdown 👆 link in bio"
     schedule: "+4h"
 ```
 

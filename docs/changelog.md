@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ Changelog — API Updates, New Features, and Version History"
+title: "CorpusIQ Changelog  --  API Updates, New Features, and Version History"
 description: "Complete CorpusIQ changelog and version history. Track API updates, new endpoints, connector additions, security improvements, and breaking changes. Follows Semantic Versioning."
 category: "Documentation"
 tags: ["corpusiq changelog", "api updates", "version history", "release notes", "new features", "breaking changes", "semantic versioning"]
@@ -13,7 +13,7 @@ All notable changes to the CorpusIQ API are documented here. This project follow
 
 ---
 
-## v1.0 — March 2026
+## v1.0  --  March 2026
 
 ### Initial API Release
 
@@ -21,11 +21,11 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 
 ### New Endpoints
 
-- **`POST /v1/query`** — Search across all connected business tools with natural-language queries. Supports connector scoping via the `connectors` parameter and idempotent submissions via the `Idempotency-Key` header. Returns semantically ranked, cited results from each matching connector.
+- **`POST /v1/query`**  --  Search across all connected business tools with natural-language queries. Supports connector scoping via the `connectors` parameter and idempotent submissions via the `Idempotency-Key` header. Returns semantically ranked, cited results from each matching connector.
 
-- **`POST /v1/deep_search`** — Search the encrypted archive of previously executed queries and their results. Supports date-range filtering and returns similarity-scored matches.
+- **`POST /v1/deep_search`**  --  Search the encrypted archive of previously executed queries and their results. Supports date-range filtering and returns similarity-scored matches.
 
-- **`DELETE /v1/delete_my_data`** — Permanently delete all user data, including OAuth tokens, query history, archive entries, webhook registrations, and user profile. Triggers a `user.deleted` webhook event.
+- **`DELETE /v1/delete_my_data`**  --  Permanently delete all user data, including OAuth tokens, query history, archive entries, webhook registrations, and user profile. Triggers a `user.deleted` webhook event.
 
 ### Authentication
 
@@ -98,15 +98,15 @@ A: As of the v1.0 release (March 2026), CorpusIQ supports 37+ native connectors 
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/docs/quick-start)** — Go from zero to first query in 5 minutes  
-- **[API Reference](/docs/api/overview)** — Full REST API documentation  
-- **[CorpusIQ Connectors](/docs/connectors)** — All 50+ supported integrations  
-- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SOC 2, data residency  
-- **[CorpusIQ Security Documentation](/docs/security)** — Certifications, encryption, and compliance  
-- **[CorpusIQ Changelog](/docs/changelog)** — API updates and version history  
-- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption and network security  
+- **[CorpusIQ Quick Start Guide](/docs/quick-start)**  --  Go from zero to first query in 5 minutes  
+- **[API Reference](/docs/api/overview)**  --  Full REST API documentation  
+- **[CorpusIQ Connectors](/docs/connectors)**  --  All 50+ supported integrations  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/docs/security)**  --  Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/docs/changelog)**  --  API updates and version history  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption and network security  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *

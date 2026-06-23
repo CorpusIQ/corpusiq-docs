@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent Outputs — Real-World Implementation Guides & Case Studies
+title: Hermes Agent Outputs  --  Real-World Implementation Guides & Case Studies
 description: "Field manual of Hermes Agent implementations: industry case studies, company-size guides, and copy-paste cron templates. Real automations for compliance, healthcare, finance, manufacturing, and more."
 category: Outputs
 tags:
@@ -11,33 +11,33 @@ tags:
 last_updated: 2026-06-16
 ---
 
-# Hermes Agent Outputs & Implementation Guide — Real-World Patterns That Work
+# Hermes Agent Outputs & Implementation Guide  --  Real-World Patterns That Work
 
-Welcome to the **Hermes Agent field manual**. This section shows what Hermes can do in practice — not through feature lists, but through **concrete, copy-paste-ready implementations** organized by industry, company size, and workflow pattern. Every guide includes real cron schedules, real skill patterns, and real integration examples you can adapt and deploy today.
+Welcome to the **Hermes Agent field manual**. This section shows what Hermes can do in practice  --  not through feature lists, but through **concrete, copy-paste-ready implementations** organized by industry, company size, and workflow pattern. Every guide includes real cron schedules, real skill patterns, and real integration examples you can adapt and deploy today.
 
 ## Overview
 
-**This isn't documentation about Hermes. It's documentation for *using* Hermes** — patterns that work, automations that pay for themselves in the first week, and architectures that scale from solo founder to enterprise. Each guide is built from production-tested deployments running on [real infrastructure](/hermes/infrastructure/).
+**This isn't documentation about Hermes. It's documentation for *using* Hermes**  --  patterns that work, automations that pay for themselves in the first week, and architectures that scale from solo founder to enterprise. Each guide is built from production-tested deployments running on [real infrastructure](/hermes/infrastructure/).
 
 ## How It Works
 
 ### If You're New to Hermes Agent
 
-1. **Start with the [Startup guide](by-company-size/startup.md)** — covers fundamentals of building your first automations
-2. **Read the [Workflow Templates](workflows/templates.md) next** — pick one template that solves your most painful manual task
-3. **Then explore your [industry case study](#by-industry-case-studies)** — patterns specific to your domain
+1. **Start with the [Startup guide](by-company-size/startup.md)**  --  covers fundamentals of building your first automations
+2. **Read the [Workflow Templates](workflows/templates.md) next**  --  pick one template that solves your most painful manual task
+3. **Then explore your [industry case study](#by-industry-case-studies)**  --  patterns specific to your domain
 
 ### If You're Scaling Your Usage
 
-1. **Read the company-size guide matching your stage** — patterns change meaningfully between stages
-2. **Browse case studies outside your industry** — manufacturing patterns apply to any supply chain
-3. **Use the [templates](workflows/templates.md) as a starting point** — designed to be adapted, not adopted wholesale
+1. **Read the company-size guide matching your stage**  --  patterns change meaningfully between stages
+2. **Browse case studies outside your industry**  --  manufacturing patterns apply to any supply chain
+3. **Use the [templates](workflows/templates.md) as a starting point**  --  designed to be adapted, not adopted wholesale
 
 ### If You're Evaluating Hermes
 
-1. **Find your industry case study** — map documented automations to your current manual processes
-2. **Read the company-size guide** — understand operational overhead and governance patterns
-3. **Estimate time recovery** — each documented automation typically replaces **2-10 hours/week** of manual work
+1. **Find your industry case study**  --  map documented automations to your current manual processes
+2. **Read the company-size guide**  --  understand operational overhead and governance patterns
+3. **Estimate time recovery**  --  each documented automation typically replaces **2-10 hours/week** of manual work
 
 ## By Industry (Case Studies)
 
@@ -76,17 +76,17 @@ Ready-to-deploy cron + skill templates in the [**Copy-Paste Cron Templates**](wo
 
 Across all guides, certain patterns recur:
 
-- **Cross-system reconciliation** — Matching data between tools that should agree but don't. The single highest-value automation category.
-- **Monitoring and alerting** — Continuous metric, status, and deadline checking with intelligent escalation and context.
-- **Report generation** — Multi-source data compiled into structured, scheduled reports without anyone remembering to run them.
-- **Workflow orchestration** — Multi-step processes: onboarding sequences, approval chains, escalation paths.
-- **Compliance evidence** — Continuous collection of configuration snapshots, access logs, and control evidence.
+- **Cross-system reconciliation**  --  Matching data between tools that should agree but don't. The single highest-value automation category.
+- **Monitoring and alerting**  --  Continuous metric, status, and deadline checking with intelligent escalation and context.
+- **Report generation**  --  Multi-source data compiled into structured, scheduled reports without anyone remembering to run them.
+- **Workflow orchestration**  --  Multi-step processes: onboarding sequences, approval chains, escalation paths.
+- **Compliance evidence**  --  Continuous collection of configuration snapshots, access logs, and control evidence.
 
 ## FAQ
 
 ### What are Hermes Agent outputs and implementation guides?
 
-The outputs section provides **real-world, production-tested implementation patterns** — industry-specific case studies, company-size deployment guides, and copy-paste cron templates. Unlike API documentation, these guides show exactly how to automate specific business processes with cron schedules, skills, and connectors.
+The outputs section provides **real-world, production-tested implementation patterns**  --  industry-specific case studies, company-size deployment guides, and copy-paste cron templates. Unlike API documentation, these guides show exactly how to automate specific business processes with cron schedules, skills, and connectors.
 
 ### How do I find the right implementation guide for my industry?
 
@@ -106,15 +106,15 @@ The community grows stronger with every documented use case. If you've built a H
 
 ## Related Pages
 
-- [Copy-Paste Cron Templates — Deploy in Minutes](workflows/templates.md)
-- [Agent Library — 9 Role Configurations](/hermes/agents/)
-- [Architecture — 6-Layer Production Model](/hermes/architecture/)
-- [Cron Scheduling Guide — 38 Production Crons](/hermes/governance/scheduling/)
-- [Contributor Guide — Share Your Patterns](/hermes/contributors.md)
+- [Copy-Paste Cron Templates  --  Deploy in Minutes](workflows/templates.md)
+- [Agent Library  --  9 Role Configurations](/hermes/agents/)
+- [Architecture  --  6-Layer Production Model](/hermes/architecture/)
+- [Cron Scheduling Guide  --  38 Production Crons](/hermes/governance/scheduling/)
+- [Contributor Guide  --  Share Your Patterns](/hermes/contributors.md)
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

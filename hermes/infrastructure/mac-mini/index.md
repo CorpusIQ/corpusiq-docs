@@ -1,9 +1,9 @@
 ---
-title: Mac Mini M4 — Worker Node
+title: Mac Mini M4  --  Worker Node
 description: Apple Mac Mini M4 as a dedicated worker node for browser automation, content operations, and GitHub management
 ---
 
-# Mac Mini M4 — Worker Node
+# Mac Mini M4  --  Worker Node
 
 The Apple Mac Mini M4 (16 GB) serves as the dedicated worker node, offloading browser automation, content operations, and GitHub workflows from the primary DGX Spark.
 
@@ -33,9 +33,9 @@ Coordinates with HeyGen API for UGC video generation. Scripts and review workflo
 ## Connection
 Accessible from DGX Spark via SSH: `ssh user@worker-node.local`
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

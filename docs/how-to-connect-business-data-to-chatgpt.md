@@ -1,5 +1,5 @@
 ---
-title: "How to Connect Business Data to ChatGPT — Step-by-Step Guide with CorpusIQ"
+title: "How to Connect Business Data to ChatGPT  --  Step-by-Step Guide with CorpusIQ"
 description: "Connect your business data to ChatGPT in under 2 minutes with CorpusIQ MCP. Step-by-step guide for HubSpot, QuickBooks, Stripe, GA4, and 50+ sources."
 h1: "How to Connect Business Data to ChatGPT"
 url: "/docs/how-to-connect-business-data-to-chatgpt/"
@@ -13,11 +13,11 @@ tags: ["chatgpt-integration", "connect-data-to-ai", "mcp-setup", "business-data"
 
 ## The Problem
 
-You have critical business data spread across multiple tools — HubSpot for CRM, QuickBooks for accounting, Stripe for payments, Google Analytics for web traffic, Google Ads for marketing spend. You want to use ChatGPT to analyze this data, ask questions, and get insights. But ChatGPT can't natively access your business tools. You're stuck copy-pasting exports, building custom integrations, or worse — not using AI for business intelligence at all.
+You have critical business data spread across multiple tools  --  HubSpot for CRM, QuickBooks for accounting, Stripe for payments, Google Analytics for web traffic, Google Ads for marketing spend. You want to use ChatGPT to analyze this data, ask questions, and get insights. But ChatGPT can't natively access your business tools. You're stuck copy-pasting exports, building custom integrations, or worse  --  not using AI for business intelligence at all.
 
 ## The Solution: CorpusIQ MCP
 
-CorpusIQ bridges this gap using the **Model Context Protocol (MCP)** — an open standard developed by Anthropic that lets AI assistants discover and use external tools. CorpusIQ provides pre-built MCP connectors for 50+ business data sources. Connect in 2 minutes, start asking ChatGPT about your business data immediately.
+CorpusIQ bridges this gap using the **Model Context Protocol (MCP)**  --  an open standard developed by Anthropic that lets AI assistants discover and use external tools. CorpusIQ provides pre-built MCP connectors for 50+ business data sources. Connect in 2 minutes, start asking ChatGPT about your business data immediately.
 
 ## What You'll Need
 
@@ -37,7 +37,7 @@ CorpusIQ bridges this gap using the **Model Context Protocol (MCP)** — an open
 ### Step 2: Connect Your Data Sources
 
 1. From the CorpusIQ dashboard, click **Add Connector**
-2. Select your first data source — for example, **HubSpot**
+2. Select your first data source  --  for example, **HubSpot**
 3. Click **Connect** to initiate the OAuth flow
 4. Log in to HubSpot and authorize CorpusIQ to access your data (read-only)
 5. Repeat for additional sources: QuickBooks, Stripe, GA4, Google Ads, Slack, etc.
@@ -122,7 +122,7 @@ A: CorpusIQ never stores your data. Queries run against live APIs with read-only
 A: MCP support is available on ChatGPT Plus, Team, and Enterprise plans. The free tier of ChatGPT has limited MCP capabilities.
 
 **Q: What if ChatGPT misunderstands my question?**  
-A: You can refine your question — just like any conversation. Be specific about what data you want and which source to query.
+A: You can refine your question  --  just like any conversation. Be specific about what data you want and which source to query.
 
 **Q: How many data sources can I connect?**  
 A: CorpusIQ supports 50+ connectors, and you can connect as many as you need. Multi-source queries work seamlessly.
@@ -151,7 +151,7 @@ A: CorpusIQ pricing is per-seat, not per-query. Ask as many questions as you nee
 - [How to Connect Multiple Data Sources to AI](/docs/how-to-connect-multiple-data-sources-to-ai/)
 - [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language/)
 - [Best Way to Connect ChatGPT to Business Data](/docs/best-way-to-connect-chatgpt-to-business-data/)
-- [CorpusIQ vs Custom RAG — 2-Min Setup vs Engineering](/docs/corpusiq-vs-custom-rag/)
+- [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/docs/corpusiq-vs-custom-rag/)
 - [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform/)
 - [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
 - [HubSpot Business Intelligence with CorpusIQ](/docs/hubspot-business-intelligence/)

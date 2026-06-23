@@ -1,6 +1,6 @@
 ---
-title: "Connect Slack to ChatGPT via MCP — Live Data, No Code | CorpusIQ"
-description: "Connect your Slack account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your slack data and get real-time, source-cited answers — no exports, no coding required."
+title: "Connect Slack to ChatGPT via MCP  --  Live Data, No Code | CorpusIQ"
+description: "Connect your Slack account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your slack data and get real-time, source-cited answers  --  no exports, no coding required."
 category: ChatGPT Integrations
 tags: ["connect Slack to ChatGPT", "Slack ChatGPT integration", "MCP Slack connector", "Slack data to ChatGPT", "AI for Slack", "CorpusIQ MCP"]
 last_updated: 2026-06-16
@@ -10,9 +10,9 @@ robots: index,follow
 
 # How to Connect Slack to ChatGPT with CorpusIQ MCP
 
-Your **Slack** account holds critical business data — but accessing insights usually means logging in, navigating dashboards, and running manual reports. **Connecting Slack to ChatGPT through CorpusIQ MCP** eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Slack data directly — you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.
+Your **Slack** account holds critical business data  --  but accessing insights usually means logging in, navigating dashboards, and running manual reports. **Connecting Slack to ChatGPT through CorpusIQ MCP** eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Slack data directly  --  you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.
 
-Once connected, ChatGPT can query your live Slack workspace — channels, messages, threads, files, and workspace analytics. You ask questions in plain English and get cited answers from your actual Slack history in real time.
+Once connected, ChatGPT can query your live Slack workspace  --  channels, messages, threads, files, and workspace analytics. You ask questions in plain English and get cited answers from your actual Slack history in real time.
 
 This page covers the connection architecture, what you can ask, knowledge retrieval use cases, security considerations, and how MCP compares to Slack's built-in search and API.
 
@@ -27,7 +27,7 @@ Channel questions: "What channels am I in?", "Show me public channels sorted by 
 <details>
 <summary><strong>How does the connection work?</strong></summary>
 
-CorpusIQ connects to your Slack workspace via OAuth 2.0. You authorize read-only access with specific scopes, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Slack tools — channel listing, message search, thread retrieval, file search, and workspace analytics — and calls them when you ask a question. The MCP server handles Slack's pagination, rate limiting, and message formatting.
+CorpusIQ connects to your Slack workspace via OAuth 2.0. You authorize read-only access with specific scopes, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Slack tools  --  channel listing, message search, thread retrieval, file search, and workspace analytics  --  and calls them when you ask a question. The MCP server handles Slack's pagination, rate limiting, and message formatting.
 </details>
 
 <details>
@@ -39,43 +39,43 @@ Yes. CorpusIQ requests read-only OAuth scopes from Slack. ChatGPT can read chann
 <details>
 <summary><strong>What Slack data can ChatGPT access?</strong></summary>
 
-Public channels and their metadata. Messages (in public channels and private channels the authorizing user belongs to) with text, timestamps, and reactions. Thread replies. Shared files with names and metadata. Workspace analytics (member counts, message volume, top channels). Note: Direct messages and private channels the authorizing user is not a member of are not accessible — Slack's permission model is respected.
+Public channels and their metadata. Messages (in public channels and private channels the authorizing user belongs to) with text, timestamps, and reactions. Thread replies. Shared files with names and metadata. Workspace analytics (member counts, message volume, top channels). Note: Direct messages and private channels the authorizing user is not a member of are not accessible  --  Slack's permission model is respected.
 </details>
 
 <details>
 <summary><strong>Can ChatGPT combine Slack data with data from other tools?</strong></summary>
 
-Yes — and this is where MCP creates workflows that isolated Slack search cannot. "Show me Slack discussions about Customer X and cross-reference with HubSpot deal data" combines communication with CRM. "What Slack decisions were made about projects that have overdue Jira issues?" spans communication and project management. "Summarize this week's Slack activity about our product launch and compare with GA4 traffic data" crosses communication with analytics. The cross-source capability of [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md) connects team conversations to business data.
+Yes  --  and this is where MCP creates workflows that isolated Slack search cannot. "Show me Slack discussions about Customer X and cross-reference with HubSpot deal data" combines communication with CRM. "What Slack decisions were made about projects that have overdue Jira issues?" spans communication and project management. "Summarize this week's Slack activity about our product launch and compare with GA4 traffic data" crosses communication with analytics. The cross-source capability of [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md) connects team conversations to business data.
 </details>
 
 <details>
 <summary><strong>How is this different from Slack's built-in search?</strong></summary>
 
-Slack's built-in search is keyword-based and returns message snippets. It doesn't understand context, can't summarize discussions, and can't connect Slack conversations to external business data. With ChatGPT connected via MCP, you can ask "What was the consensus about the pricing change?" and get a synthesized answer from multiple messages across channels — something Slack search cannot do. You can also ask follow-up questions that build on previous search results.
+Slack's built-in search is keyword-based and returns message snippets. It doesn't understand context, can't summarize discussions, and can't connect Slack conversations to external business data. With ChatGPT connected via MCP, you can ask "What was the consensus about the pricing change?" and get a synthesized answer from multiple messages across channels  --  something Slack search cannot do. You can also ask follow-up questions that build on previous search results.
 </details>
 
 <details>
 <summary><strong>Can ChatGPT access private channels and DMs?</strong></summary>
 
-ChatGPT can only access channels and conversations that the authorizing Slack user has access to. If you're a member of a private channel, ChatGPT can search it. If you're not, it can't. Direct messages follow the same rule — ChatGPT can access DMs that include the authorizing user. This permission model means the MCP connection doesn't expand anyone's Slack access beyond what they already have.
+ChatGPT can only access channels and conversations that the authorizing Slack user has access to. If you're a member of a private channel, ChatGPT can search it. If you're not, it can't. Direct messages follow the same rule  --  ChatGPT can access DMs that include the authorizing user. This permission model means the MCP connection doesn't expand anyone's Slack access beyond what they already have.
 </details>
 
 <details>
 <summary><strong>What about Slack Connect channels with external organizations?</strong></summary>
 
-Channels shared via Slack Connect that the authorizing user has access to are included. The same permission rules apply — if you can see it in Slack, ChatGPT can query it. External organization members' messages appear with source attribution.
+Channels shared via Slack Connect that the authorizing user has access to are included. The same permission rules apply  --  if you can see it in Slack, ChatGPT can query it. External organization members' messages appear with source attribution.
 </details>
 
 <details>
 <summary><strong>Can ChatGPT glean decisions and action items from Slack conversations?</strong></summary>
 
-Yes — this is one of the most valuable natural language capabilities. Instead of searching for keywords and reading through messages yourself, ask ChatGPT: "What decisions were made in the product-launch channel in the last two weeks?" or "Extract action items from yesterday's standup thread in the engineering channel." ChatGPT reads the messages, identifies decisions and action items, and presents them in summary form.
+Yes  --  this is one of the most valuable natural language capabilities. Instead of searching for keywords and reading through messages yourself, ask ChatGPT: "What decisions were made in the product-launch channel in the last two weeks?" or "Extract action items from yesterday's standup thread in the engineering channel." ChatGPT reads the messages, identifies decisions and action items, and presents them in summary form.
 </details>
 
 <details>
 <summary><strong>How does this handle large workspaces with thousands of channels?</strong></summary>
 
-ChatGPT can list channels and narrow searches to specific channels or date ranges. "Search the sales channel for discussions about pricing this month" targets a specific channel and timeframe. For workspace analytics, ChatGPT provides aggregate views: "What are our 10 most active channels?" You're not searching across thousands of channels — you're asking targeted questions.
+ChatGPT can list channels and narrow searches to specific channels or date ranges. "Search the sales channel for discussions about pricing this month" targets a specific channel and timeframe. For workspace analytics, ChatGPT provides aggregate views: "What are our 10 most active channels?" You're not searching across thousands of channels  --  you're asking targeted questions.
 </details>
 
 ## How It Works
@@ -86,17 +86,17 @@ ChatGPT can list channels and narrow searches to specific channels or date range
 
 3. **Ask communication questions.** ChatGPT maps your natural language to Slack search syntax, retrieves messages and threads, and synthesizes answers.
 
-4. **Drill down.** "Show me the full thread on that pricing discussion" or "Who else weighed in on that decision?" — follow-ups maintain conversational context.
+4. **Drill down.** "Show me the full thread on that pricing discussion" or "Who else weighed in on that decision?"  --  follow-ups maintain conversational context.
 
 No Slack search syntax to learn. No scrolling through message history. No manual summarization of long threads.
 
 ## Benefits
 
-**Conversational search that understands intent.** Instead of searching Slack for "pricing update" and clicking through message results, ask "What did the team decide about the pricing update?" and get a synthesized answer. ChatGPT reads messages, identifies the decision point, and summarizes — something keyword search cannot do.
+**Conversational search that understands intent.** Instead of searching Slack for "pricing update" and clicking through message results, ask "What did the team decide about the pricing update?" and get a synthesized answer. ChatGPT reads messages, identifies the decision point, and summarizes  --  something keyword search cannot do.
 
 **Automated knowledge extraction.** "What were the key takeaways from this week's product sync?" "Summarize the Q&A from the all-hands channel." "What action items came out of the marketing planning thread?" Knowledge that would require reading dozens of messages becomes a single ChatGPT answer.
 
-**Decision archaeology.** "When did we decide to deprecate the v1 API and what was the reasoning?" ChatGPT can trace decision history across channels and threads, surfacing the original discussion, participants, and rationale — knowledge that would normally require searching through months of Slack history.
+**Decision archaeology.** "When did we decide to deprecate the v1 API and what was the reasoning?" ChatGPT can trace decision history across channels and threads, surfacing the original discussion, participants, and rationale  --  knowledge that would normally require searching through months of Slack history.
 
 **Cross-source context.** "Show me Slack discussions about Customer X alongside their HubSpot deal status and recent support tickets." Team communication becomes connected to CRM data, support systems, and project management tools. This is the unique capability of [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md).
 
@@ -114,7 +114,7 @@ No Slack search syntax to learn. No scrolling through message history. No manual
 
 ### Onboarding and Knowledge Transfer
 
-"What's the history of the authentication system discussion in the backend channel?" New team members can ask ChatGPT for context on past decisions and discussions — accelerating onboarding without burdening teammates.
+"What's the history of the authentication system discussion in the backend channel?" New team members can ask ChatGPT for context on past decisions and discussions  --  accelerating onboarding without burdening teammates.
 
 ### Cross-Functional Context
 
@@ -142,17 +142,17 @@ For organizations with sensitive internal communications, this architecture mean
 |--------|-------------|------------------------|
 | **Search method** | Keyword matching | Natural language understanding |
 | **Result format** | Message snippets | Synthesized answers and summaries |
-| **Decision extraction** | Manual — read messages and infer | Automatic — AI identifies decisions and actions |
-| **Thread summarization** | Manual — click through thread | Automatic — AI reads and summarizes threads |
+| **Decision extraction** | Manual  --  read messages and infer | Automatic  --  AI identifies decisions and actions |
+| **Thread summarization** | Manual  --  click through thread | Automatic  --  AI reads and summarizes threads |
 | **Cross-source** | Slack-only | Connect with CRM, email, project tools, analytics |
-| **Follow-up** | Start new search each time | Conversational — build on previous results |
+| **Follow-up** | Start new search each time | Conversational  --  build on previous results |
 | **File search** | By filename | By content context and relevance |
 
-Slack's built-in search is fast and effective for known-item retrieval — "find the message where John shared the Q3 deck." MCP with ChatGPT excels at unknown-item discovery — "what was discussed about the Q3 plan?" — and at synthesizing answers from multiple messages across channels.
+Slack's built-in search is fast and effective for known-item retrieval  --  "find the message where John shared the Q3 deck." MCP with ChatGPT excels at unknown-item discovery  --  "what was discussed about the Q3 plan?"  --  and at synthesizing answers from multiple messages across channels.
 
 ## Setup Guide
 
-1. **Sign up** at [corpusiq.io](https://www.corpusiq.io) — free 30-day trial.
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
 2. **Connect Slack.** Dashboard → Connections → Slack → sign into Slack workspace → authorize read-only scopes.
 3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](../docs/quick-start.md).
 4. **Verify.** Ask "What public channels are in my Slack workspace?" to confirm.
@@ -162,20 +162,20 @@ Under 5 minutes from signup to Slack answers in ChatGPT.
 
 ## Related Pages
 
-- [Connect Gmail to ChatGPT](../docs/connect-gmail-to-chatgpt.md) — email data in ChatGPT
-- [Connect Outlook to ChatGPT](../docs/connect-outlook-to-chatgpt.md) — Microsoft email in ChatGPT
-- [Connect Notion to ChatGPT](../docs/connect-notion-to-chatgpt.md) — documentation in ChatGPT
-- [Connect Jira to ChatGPT](../docs/connect-jira-to-chatgpt.md) — development tracking in ChatGPT
-- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md) — CRM data in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md) — the full integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md) — why MCP wins
-- [MCP for Operations](../docs/mcp-for-operations.md) — MCP for ops teams
-- [Slack Connector Reference](../connectors/slack.md) — technical details
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md) — detailed comparison
+- [Connect Gmail to ChatGPT](../docs/connect-gmail-to-chatgpt.md)  --  email data in ChatGPT
+- [Connect Outlook to ChatGPT](../docs/connect-outlook-to-chatgpt.md)  --  Microsoft email in ChatGPT
+- [Connect Notion to ChatGPT](../docs/connect-notion-to-chatgpt.md)  --  documentation in ChatGPT
+- [Connect Jira to ChatGPT](../docs/connect-jira-to-chatgpt.md)  --  development tracking in ChatGPT
+- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT
+- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full integration
+- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP wins
+- [MCP for Operations](../docs/mcp-for-operations.md)  --  MCP for ops teams
+- [Slack Connector Reference](../connectors/slack.md)  --  technical details
+- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
 
-*Connect Connect Slack to ChatGPT via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect Slack to ChatGPT via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
-*Connect Connect Slack to ChatGPT via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect Slack to ChatGPT via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---
 
 *

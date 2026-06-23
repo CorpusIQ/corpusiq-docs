@@ -1,6 +1,6 @@
 ---
 title: Hermes Bible Skill Setup
-description: Install and configure the Hermes Bible community knowledge base — 169 pages of unofficial docs, 25+ real-world flows, SOUL.md patterns, and intent-based routing
+description: Install and configure the Hermes Bible community knowledge base  --  169 pages of unofficial docs, 25+ real-world flows, SOUL.md patterns, and intent-based routing
 ---
 
 # Hermes Bible Skill Setup
@@ -115,15 +115,15 @@ cp -r hermes-bible-skill/SKILL.md hermes-bible-skill/references ~/.hermes/profil
 - Cross-referencing workflows against CorpusIQ's own cron/canon patterns
 
 **When NOT to use:**
-- For official Hermes CLI commands — use `hermes --help` or `hermes-agent` skill
-- For CorpusIQ-specific product decisions — use `corpusiq-fundamentals` skill
+- For official Hermes CLI commands  --  use `hermes --help` or `hermes-agent` skill
+- For CorpusIQ-specific product decisions  --  use `corpusiq-fundamentals` skill
 
 ## 7. Troubleshooting
 
 | Symptom | Likely Cause | Fix |
 |---------|-------------|-----|
 | Skill not loading | Hermes didn't scan the new directory | Restart Hermes or `/reload-skills` |
-| References 404 | Light install — references/ not copied | Reinstall with clone+copy method |
+| References 404 | Light install  --  references/ not copied | Reinstall with clone+copy method |
 | Conflicting with hermes-agent | Both skills loaded, Bible is secondary | Bible defers to official docs by design |
 | Outdated content | Community KB ages | Bible links to live `llms.txt` for freshness |
 

@@ -1,5 +1,5 @@
 ---
-meta_title: "CorpusIQ MSR Governance — Source of Truth, Validation, and Audit Controls"
+meta_title: "CorpusIQ MSR Governance  --  Source of Truth, Validation, and Audit Controls"
 meta_desc: "CorpusIQ MSR governance framework: management system of record, data hierarchy, validation process, reconciliation procedures, audit controls, and source precedence rules for financial and business metrics."
 category: "Documentation"
 tags: ["corpusiq governance", "msr", "source of truth", "data validation", "reconciliation", "audit controls", "financial governance"]
@@ -91,14 +91,14 @@ A: MSR is always authoritative for financial metrics. Connected source data via 
 
 ## Internal Links
 
-- **[CorpusIQ Architecture](/docs/architecture/README)** — MCP endpoint and connector layer design  
-- **[CorpusIQ Security Overview](/docs/security/README)** — Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/docs/search/README)** — Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/docs/reporting/README)** — Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/docs/onboarding/README)** — AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/docs/governance/README)** — Source of truth and audit controls  
+- **[CorpusIQ Architecture](/docs/architecture/README)**  --  MCP endpoint and connector layer design  
+- **[CorpusIQ Security Overview](/docs/security/README)**  --  Authentication and encryption  
+- **[CorpusIQ Search Capabilities](/docs/search/README)**  --  Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/docs/reporting/README)**  --  Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/docs/onboarding/README)**  --  AI chat and agent setup in 10 minutes  
+- **[MSR Governance Framework](/docs/governance/README)**  --  Source of truth and audit controls  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *

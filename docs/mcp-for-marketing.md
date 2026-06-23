@@ -10,7 +10,7 @@ robots: index,follow
 
 # MCP for Marketing: How to Connect Your Business Data to AI
 
-**Marketing teams need fast, accurate answers from their business data** — but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives marketing professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports — just connect your tools and ask questions in plain English.
+**Marketing teams need fast, accurate answers from their business data**  --  but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives marketing professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports  --  just connect your tools and ask questions in plain English.
 
 ## The Marketing Data Stack
 
@@ -20,11 +20,11 @@ A modern marketing team's data landscape includes:
 - **SEO tools** (Google Search Console, Ahrefs, Semrush)
 - **Email marketing** (Klaviyo, Mailchimp, HubSpot, Constant Contact)
 - **Social media** (organic and paid social analytics)
-- **CRM** (HubSpot, Salesforce — for lead-to-revenue tracking)
+- **CRM** (HubSpot, Salesforce  --  for lead-to-revenue tracking)
 - **Content management** (CMS analytics, content engagement)
 - **Attribution tools** (multi-touch attribution, marketing mix modeling)
 
-Each platform provides channel-specific metrics, but answering the fundamental marketing question — "what's working and what's not?" — requires correlating data across all of them. MCP makes this correlation possible through natural language queries.
+Each platform provides channel-specific metrics, but answering the fundamental marketing question  --  "what's working and what's not?"  --  requires correlating data across all of them. MCP makes this correlation possible through natural language queries.
 
 ## Campaign Analytics
 
@@ -48,7 +48,7 @@ The monthly marketing report is a time sink. MCP transforms it:
 
 **Unified dashboards through queries.** Instead of building reports in each platform and combining them in spreadsheets, query across all platforms at once. "Give me a marketing summary for last month: total spend, total revenue attributed, ROAS by channel, top campaigns, and key trends."
 
-**Consistent metrics across channels.** Define how key metrics are calculated across platforms — what counts as a "conversion," how revenue is attributed — and apply those definitions consistently.
+**Consistent metrics across channels.** Define how key metrics are calculated across platforms  --  what counts as a "conversion," how revenue is attributed  --  and apply those definitions consistently.
 
 **Executive summaries.** "Summarize marketing performance this quarter in three key takeaways with supporting data." AI-synthesized insights from your actual marketing data.
 
@@ -98,22 +98,22 @@ Connect email platforms to the broader marketing picture:
 
 ## How CorpusIQ Powers Marketing Intelligence
 
-**Comprehensive ad platform support.** CorpusIQ connects to Google Ads, Meta Ads, LinkedIn Ads, and TikTok Ads — providing visibility across the major paid channels.
+**Comprehensive ad platform support.** CorpusIQ connects to Google Ads, Meta Ads, LinkedIn Ads, and TikTok Ads  --  providing visibility across the major paid channels.
 
-**Analytics integration.** Google Analytics 4, Google Search Console, Ahrefs, and Semrush — connecting web analytics and SEO data.
+**Analytics integration.** Google Analytics 4, Google Search Console, Ahrefs, and Semrush  --  connecting web analytics and SEO data.
 
-**Email platform connectors.** Klaviyo, Mailchimp, Constant Contact, ActiveCampaign — email marketing data integrated with the broader marketing picture.
+**Email platform connectors.** Klaviyo, Mailchimp, Constant Contact, ActiveCampaign  --  email marketing data integrated with the broader marketing picture.
 
-**CRM integration.** HubSpot and Salesforce — completing the funnel by connecting marketing activity to sales outcomes.
+**CRM integration.** HubSpot and Salesforce  --  completing the funnel by connecting marketing activity to sales outcomes.
 
-**Cross-source correlation.** The marketing value proposition is in the connections — how ad spend translates to revenue, how email drives website traffic, how SEO supports the full funnel. CorpusIQ's cross-source querying makes these connections accessible.
+**Cross-source correlation.** The marketing value proposition is in the connections  --  how ad spend translates to revenue, how email drives website traffic, how SEO supports the full funnel. CorpusIQ's cross-source querying makes these connections accessible.
 
 ## FAQ: Common Questions
 
 <details>
 <summary><strong>Can MCP replace our marketing analytics tools?</strong></summary>
 
-MCP complements rather than replaces specialized analytics tools. Tools like Triple Whale or Northbeam provide deep attribution modeling. MCP provides broad data access and AI-powered analysis across all your marketing platforms. They work together — MCP queries the data, specialized tools model it.
+MCP complements rather than replaces specialized analytics tools. Tools like Triple Whale or Northbeam provide deep attribution modeling. MCP provides broad data access and AI-powered analysis across all your marketing platforms. They work together  --  MCP queries the data, specialized tools model it.
 </details>
 
 <details>
@@ -156,9 +156,9 @@ Yes. MCP for agencies supports multi-account management. See our [See how agenci
 - [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
 - [MCP for Customer Support: Ticket Analytics](/docs/mcp-for-customer-support)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 ---
 
 *

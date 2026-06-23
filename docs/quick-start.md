@@ -1,11 +1,11 @@
 ---
 description: >-
-  Get your first CorpusIQ query running in under five minutes — sign up,
+  Get your first CorpusIQ query running in under five minutes  --  sign up,
   connect a business tool, and ask a natural-language question with cited
   answers.
 ---
 
-title: "CorpusIQ Quick Start Guide — Connect Business Data to AI in 5 Minutes"
+title: "CorpusIQ Quick Start Guide  --  Connect Business Data to AI in 5 Minutes"
 description: "Get your first CorpusIQ query running in under 5 minutes. Step-by-step guide: sign up, connect business tools via OAuth, get API token, and query CRM, accounting, or analytics with natural language."
 category: "Documentation"
 tags: ["corpusiq quick start", "setup guide", "connect data to ai", "mcp setup", "oauth connection", "api token", "first query"]
@@ -34,19 +34,19 @@ Create an account at [corpusiq.io/signup](https://corpusiq.io/signup). You can s
 3. Click **Add Connection** on any service you want to connect
 4. Complete the OAuth authorization flow
 
-CorpusIQ uses **read-only OAuth scopes** — it can search your data but never modify it. The exact permissions are displayed on the authorization screen.
+CorpusIQ uses **read-only OAuth scopes**  --  it can search your data but never modify it. The exact permissions are displayed on the authorization screen.
 
 Popular first connections:
-- **Gmail** — Search your email history
-- **Google Drive** — Query across documents and spreadsheets
-- **Slack** — Search messages and threads
-- **HubSpot** — Look up deals and contacts
+- **Gmail**  --  Search your email history
+- **Google Drive**  --  Query across documents and spreadsheets
+- **Slack**  --  Search messages and threads
+- **HubSpot**  --  Look up deals and contacts
 
 ## Step 3: Get Your API Token
 
 1. In the Dashboard, go to **Settings → API**
 2. Click **Generate Token**
-3. Copy the token — it will only be displayed once
+3. Copy the token  --  it will only be displayed once
 
 Store the token securely. Never embed it in client-side code or commit it to version control.
 
@@ -81,7 +81,7 @@ curl -X POST https://api.corpusiq.io/v1/query \
       "chunks": [
         {
           "chunk_id": "chnk_x1y2",
-          "content": "Re: Q3 Budget Review — Sarah from Finance shared the updated budget spreadsheet. Please review by Friday.",
+          "content": "Re: Q3 Budget Review  --  Sarah from Finance shared the updated budget spreadsheet. Please review by Friday.",
           "source_url": "https://mail.google.com/mail/u/0/#inbox/abc123",
           "relevance_score": 0.96,
           "metadata": {
@@ -136,11 +136,11 @@ See the [MCP Integration Guide](https://corpusiq.io/docs/mcp) for setup instruct
 
 ## Next Steps
 
-- [API Overview](/docs/api/overview) — Understand the full API surface
-- [Endpoints Reference](/docs/api/endpoints) — Detailed request/response schemas
-- [Connectors](/docs/connectors) — Browse all 37+ integrations
-- [Authentication](/docs/api/authentication) — Token management and best practices
-- [Rate Limits](/docs/api/rate-limits) — Understand quotas and how to stay within them
+- [API Overview](/docs/api/overview)  --  Understand the full API surface
+- [Endpoints Reference](/docs/api/endpoints)  --  Detailed request/response schemas
+- [Connectors](/docs/connectors)  --  Browse all 37+ integrations
+- [Authentication](/docs/api/authentication)  --  Token management and best practices
+- [Rate Limits](/docs/api/rate-limits)  --  Understand quotas and how to stay within them
 
 ## Frequently Asked Questions
 
@@ -158,15 +158,15 @@ A: Go to Dashboard → Settings → API, click Generate Token, and copy it. Stor
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/docs/quick-start)** — Go from zero to first query in 5 minutes  
-- **[API Reference](/docs/api/overview)** — Full REST API documentation  
-- **[CorpusIQ Connectors](/docs/connectors)** — All 50+ supported integrations  
-- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SOC 2, data residency  
-- **[CorpusIQ Security Documentation](/docs/security)** — Certifications, encryption, and compliance  
-- **[CorpusIQ Changelog](/docs/changelog)** — API updates and version history  
-- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption and network security  
+- **[CorpusIQ Quick Start Guide](/docs/quick-start)**  --  Go from zero to first query in 5 minutes  
+- **[API Reference](/docs/api/overview)**  --  Full REST API documentation  
+- **[CorpusIQ Connectors](/docs/connectors)**  --  All 50+ supported integrations  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SOC 2, data residency  
+- **[CorpusIQ Security Documentation](/docs/security)**  --  Certifications, encryption, and compliance  
+- **[CorpusIQ Changelog](/docs/changelog)**  --  API updates and version history  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption and network security  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *

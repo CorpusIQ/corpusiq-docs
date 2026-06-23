@@ -1,12 +1,12 @@
 ---
-title: Raspberry Pi 5 Hermes Agent Setup — Ultra-Low-Cost 24/7 AI Agent
+title: Raspberry Pi 5 Hermes Agent Setup  --  Ultra-Low-Cost 24/7 AI Agent
 description: Run Hermes Agent on Raspberry Pi 5 for under $80 hardware and $5/month ongoing. Always-on email monitoring, cron jobs, and lightweight AI automation. Step-by-step Pi setup with cloud models and external storage.
 category: setup
 tags: [raspberry-pi, hermes-agent, setup-guide, low-cost, always-on, arm64, cron-automation, budget-ai]
 last_updated: 2026-06-16
 ---
 
-# Raspberry Pi 5 Hermes Agent Setup — Ultra-Low-Cost 24/7 AI Agent
+# Raspberry Pi 5 Hermes Agent Setup  --  Ultra-Low-Cost 24/7 AI Agent
 
 Run Hermes Agent 24/7 on a Raspberry Pi 5 for less than $80 in hardware and pennies a month in electricity. This Raspberry Pi setup guide is perfect for email monitoring, lightweight cron jobs, and home automation agents that run silently and cost almost nothing.
 
@@ -27,9 +27,9 @@ The Raspberry Pi 5 is the most cost-effective always-on Hermes Agent platform. A
 
 ## Limitations
 
-- **No GPU acceleration** for local LLMs — use [API-based cloud models](cloud-vps.md) or very small quantized models
-- **8GB RAM max** — can't run large models locally
-- **ARM64 architecture** — some packages may need workarounds
+- **No GPU acceleration** for local LLMs  --  use [API-based cloud models](cloud-vps.md) or very small quantized models
+- **8GB RAM max**  --  can't run large models locally
+- **ARM64 architecture**  --  some packages may need workarounds
 
 ## Step-by-Step Installation
 
@@ -75,7 +75,7 @@ hermes config set model.default openrouter/qwen/qwen3-235b-a22b:free
 curl -fsSL https://ollama.com/install.sh | sh
 ollama pull tinyllama       # ~637MB, runs on 4GB Pi
 ollama pull nomic-embed-text # Embeddings
-# Expect 2–5 tokens/sec — slow but functional
+# Expect 2–5 tokens/sec  --  slow but functional
 ```
 
 ### Step 5: External Storage (Recommended)
@@ -117,12 +117,12 @@ sudo systemctl enable --now hermes-gateway
 ### Step 7: Lightweight Crons
 
 ```bash
-# Email check — uses cloud model, no local compute
+# Email check  --  uses cloud model, no local compute
 hermes cron create --name "email-watch" \
   --prompt "Check for new emails. Summarize in one sentence." \
   --schedule "*/30 * * * *"
 
-# System health — light, local-only
+# System health  --  light, local-only
 hermes cron create --name "pi-health" \
   --prompt "Check temperature, disk, memory. Report if >80%." \
   --schedule "0 * * * *"
@@ -133,7 +133,7 @@ hermes cron create --name "pi-health" \
 ```bash
 vcgencmd measure_temp
 # If exceeding 70°C, add active cooler (~$5)
-# Use 5V 5A power supply — undervoltage causes crashes
+# Use 5V 5A power supply  --  undervoltage causes crashes
 ```
 
 ## Benefits
@@ -168,7 +168,7 @@ For those workloads, use a [cloud VPS](cloud-vps.md) or [gaming PC](gaming-pc.md
 ## FAQ
 
 ### Can a Raspberry Pi run local AI models?
-Only very small models like TinyLlama (~1B parameters). Expect 2–5 tokens/second. For practical AI, use cloud API models via OpenRouter — free tier models cost $0/token.
+Only very small models like TinyLlama (~1B parameters). Expect 2–5 tokens/second. For practical AI, use cloud API models via OpenRouter  --  free tier models cost $0/token.
 
 ### Why use external storage with Raspberry Pi?
 microSD cards wear out under constant write operations from logs and memory systems. An NVMe SSD via HAT or USB SSD provides faster, more durable storage.
@@ -178,11 +178,11 @@ Email monitoring, system health checks, lightweight cron jobs, IoT automation, a
 
 ## Related Pages
 
-- [Hermes Agent Setup Overview](/hermes/setup/) — Compare all platforms
-- [Cloud VPS Setup](cloud-vps.md) — Alternative always-on option
-- [Docker Setup](docker.md) — Containerized ARM deployment
-- [Cron Design Best Practices](/hermes/best-practices/cron-design.md) — Lightweight automation
-- [Troubleshooting Guide](/hermes/troubleshooting/) — Pi-specific issues
+- [Hermes Agent Setup Overview](/hermes/setup/)  --  Compare all platforms
+- [Cloud VPS Setup](cloud-vps.md)  --  Alternative always-on option
+- [Docker Setup](docker.md)  --  Containerized ARM deployment
+- [Cron Design Best Practices](/hermes/best-practices/cron-design.md)  --  Lightweight automation
+- [Troubleshooting Guide](/hermes/troubleshooting/)  --  Pi-specific issues
 ---
 
 *

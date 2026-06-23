@@ -1,5 +1,5 @@
 ---
-meta_title: "CorpusIQ Architecture — MCP Endpoint, Connector Layer, and Data Flow"
+meta_title: "CorpusIQ Architecture  --  MCP Endpoint, Connector Layer, and Data Flow"
 meta_desc: "Complete CorpusIQ system architecture: MCP endpoint, OAuth 2.0 authentication layer, 36+ connector adapters, data flow from AI agent to business source, security model, and deployment infrastructure."
 category: "Documentation"
 tags: ["corpusiq architecture", "mcp endpoint", "connector layer", "data flow", "system design", "ai agent architecture", "oauth architecture"]
@@ -82,18 +82,18 @@ A: CorpusIQ uses a three-layer architecture: AI clients (Claude, ChatGPT, Cursor
 A: AI agent sends query via MCP → MCP endpoint authenticates request → Tool registry maps query to connectors → Connector retrieves data from source API → Data is normalized and returned → Agent presents answer to user. All steps are logged for audit.
 
 **Q: Is CorpusIQ self-hosted or a managed service?**  
-A: CorpusIQ is a fully managed hosted service with automatic scaling and high availability. The MCP endpoint runs on production infrastructure — no servers to manage, no software to install.
+A: CorpusIQ is a fully managed hosted service with automatic scaling and high availability. The MCP endpoint runs on production infrastructure  --  no servers to manage, no software to install.
 
 ## Internal Links
 
-- **[CorpusIQ Architecture](/docs/architecture/README)** — MCP endpoint and connector layer design  
-- **[CorpusIQ Security Overview](/docs/security/README)** — Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/docs/search/README)** — Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/docs/reporting/README)** — Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/docs/onboarding/README)** — AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/docs/governance/README)** — Source of truth and audit controls  
+- **[CorpusIQ Architecture](/docs/architecture/README)**  --  MCP endpoint and connector layer design  
+- **[CorpusIQ Security Overview](/docs/security/README)**  --  Authentication and encryption  
+- **[CorpusIQ Search Capabilities](/docs/search/README)**  --  Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/docs/reporting/README)**  --  Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/docs/onboarding/README)**  --  AI chat and agent setup in 10 minutes  
+- **[MSR Governance Framework](/docs/governance/README)**  --  Source of truth and audit controls  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *

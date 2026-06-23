@@ -15,11 +15,11 @@ last_updated: "2026-06-16"
 
 # Hermes Agent Manufacturing Automation
 
-Hermes Agent connects ERP, MES, CMMS, and IoT systems into unified monitoring and alerting workflows for manufacturing operations. Automate supply chain tracking, quality control detection, and equipment maintenance coordination — catching issues before they become line stoppages.
+Hermes Agent connects ERP, MES, CMMS, and IoT systems into unified monitoring and alerting workflows for manufacturing operations. Automate supply chain tracking, quality control detection, and equipment maintenance coordination  --  catching issues before they become line stoppages.
 
 ## Overview
 
-Manufacturing operations span physical and digital domains — production lines, inventory systems, supplier networks, quality data, and maintenance schedules all generate continuous streams of information. Most manufacturers run excellent systems individually: an ERP for orders and inventory, a MES for production tracking, a CMMS for maintenance, separate quality databases, and supplier portals. The gap isn't data collection — it's data connection. Engineers and managers spend hours each day checking multiple dashboards and reconciling discrepancies between systems. Hermes Agent automates that cross-system reconciliation and alerting.
+Manufacturing operations span physical and digital domains  --  production lines, inventory systems, supplier networks, quality data, and maintenance schedules all generate continuous streams of information. Most manufacturers run excellent systems individually: an ERP for orders and inventory, a MES for production tracking, a CMMS for maintenance, separate quality databases, and supplier portals. The gap isn't data collection  --  it's data connection. Engineers and managers spend hours each day checking multiple dashboards and reconciling discrepancies between systems. Hermes Agent automates that cross-system reconciliation and alerting.
 
 ## How It Works
 
@@ -42,7 +42,7 @@ The skill queries your ERP (via database connector or Odoo/other MCP integration
 - In-transit delays from carrier status codes
 - Quantity discrepancies between PO, supplier confirmation, and actual shipment
 
-When a shipment is at risk — late, short-shipped, or stuck in transit — the skill alerts the procurement team through Slack and creates a follow-up task in the project management system with all relevant order details attached.
+When a shipment is at risk  --  late, short-shipped, or stuck in transit  --  the skill alerts the procurement team through Slack and creates a follow-up task in the project management system with all relevant order details attached.
 
 **Inventory Level Monitoring**
 
@@ -64,7 +64,7 @@ The output is a prioritized replenishment list with recommended order quantities
 
 ### Quality Control Alerts
 
-Quality data lives in its own systems — inspection databases, lab information management systems (LIMS), statistical process control (SPC) software. Hermes connects to these and applies rules that cross quality data with production data.
+Quality data lives in its own systems  --  inspection databases, lab information management systems (LIMS), statistical process control (SPC) software. Hermes connects to these and applies rules that cross quality data with production data.
 
 **Out-of-Spec Detection**
 
@@ -123,7 +123,7 @@ For manufacturers with IoT sensors on equipment, Hermes can query sensor databas
   description: Monitors IoT sensor data for early warning signs
 ```
 
-The skill queries sensor readings — vibration, temperature, current draw, pressure — and applies threshold rules. A bearing temperature trending upward across successive readings triggers an alert before the bearing fails, giving maintenance time to schedule replacement during planned downtime rather than reacting to a line stoppage.
+The skill queries sensor readings  --  vibration, temperature, current draw, pressure  --  and applies threshold rules. A bearing temperature trending upward across successive readings triggers an alert before the bearing fails, giving maintenance time to schedule replacement during planned downtime rather than reacting to a line stoppage.
 
 ### Production Reporting
 
@@ -138,18 +138,18 @@ Shift-by-shift production reporting often involves operators manually entering d
 
 ## Benefits
 
-- **Fewer supply chain surprises** — at-risk shipments flagged before they delay production
-- **Reduced quality escapes** — SPC violations caught in near real-time, not at end-of-shift inspection
-- **Lower maintenance costs** — predictive alerts prevent catastrophic equipment failures
-- **Optimized inventory** — reorder recommendations factor production demand, not just min/max levels
-- **Faster shift handoffs** — automated production reports eliminate manual data entry
-- **Connected factory floor** — ERP, MES, CMMS, and IoT data unified in single alerting system
+- **Fewer supply chain surprises**  --  at-risk shipments flagged before they delay production
+- **Reduced quality escapes**  --  SPC violations caught in near real-time, not at end-of-shift inspection
+- **Lower maintenance costs**  --  predictive alerts prevent catastrophic equipment failures
+- **Optimized inventory**  --  reorder recommendations factor production demand, not just min/max levels
+- **Faster shift handoffs**  --  automated production reports eliminate manual data entry
+- **Connected factory floor**  --  ERP, MES, CMMS, and IoT data unified in single alerting system
 
 ## Getting Started in Manufacturing
 
-1. **Connect your ERP database first.** Most manufacturers have a SQL-accessible ERP. Start there — it contains orders, inventory, and supplier data.
+1. **Connect your ERP database first.** Most manufacturers have a SQL-accessible ERP. Start there  --  it contains orders, inventory, and supplier data.
 2. **Pick one alert that would prevent a recent problem.** Think about the last production delay or quality escape. Build the Hermes automation that would have caught it.
-3. **Use database connectors for on-prem systems.** Many manufacturing databases run on MSSQL or PostgreSQL — both directly accessible to Hermes.
+3. **Use database connectors for on-prem systems.** Many manufacturing databases run on MSSQL or PostgreSQL  --  both directly accessible to Hermes.
 4. **Layer in IoT gradually.** Start with thresholds you understand (temperature above X), then refine as you learn what patterns matter.
 5. **Route alerts to where action happens.** In manufacturing, that's often a maintenance Slack channel, a production team email, or directly into the CMMS as a work order.
 
@@ -163,7 +163,7 @@ Hermes connects to ERP systems (SAP, Oracle, Microsoft Dynamics, Odoo) via datab
 
 ### Can Hermes predict equipment failures?
 
-Hermes applies threshold-based monitoring to IoT sensor data — vibration, temperature, current draw — and alerts on trending patterns that indicate impending failure. This is practical predictive maintenance without requiring dedicated analytics platforms.
+Hermes applies threshold-based monitoring to IoT sensor data  --  vibration, temperature, current draw  --  and alerts on trending patterns that indicate impending failure. This is practical predictive maintenance without requiring dedicated analytics platforms.
 
 ### How does Hermes handle supplier quality tracking?
 
@@ -179,15 +179,15 @@ If your MES has SQL database access (PostgreSQL or MSSQL), Hermes connects direc
 
 ## Related Pages
 
-- [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce.md) — Inventory synchronization and multi-channel management
-- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md) — Pipeline and forecasting automation
-- [Hermes Agent for Mid-Market](../by-company-size/mid-market.md) — Multi-department orchestration
-- [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security and governance at scale
-- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+- [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce.md)  --  Inventory synchronization and multi-channel management
+- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md)  --  Pipeline and forecasting automation
+- [Hermes Agent for Mid-Market](../by-company-size/mid-market.md)  --  Multi-department orchestration
+- [Hermes Agent for Enterprise](../by-company-size/enterprise.md)  --  Security and governance at scale
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

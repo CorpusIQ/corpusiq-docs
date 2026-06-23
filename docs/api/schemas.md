@@ -1,5 +1,5 @@
 ---
-meta_title: "CorpusIQ API Schemas — Data Models and JSON Reference"
+meta_title: "CorpusIQ API Schemas  --  Data Models and JSON Reference"
 meta_desc: "Complete CorpusIQ API schemas and data models. Request/response JSON structures for query, deep_search, connectors, chunks, metadata, errors, and webhook payload formats."
 category: "API Reference"
 tags: ["corpusiq schemas", "api data models", "json schemas", "api reference", "response format", "request format", "data structures"]
@@ -20,7 +20,7 @@ A `Chunk` represents a single relevant result fragment returned from a connected
 ```json
 {
   "chunk_id": "chnk_x1y2z3",
-  "content": "Order #12345 — $4,299.00 — Placed 2026-06-14 by customer@example.com",
+  "content": "Order #12345  --  $4,299.00  --  Placed 2026-06-14 by customer@example.com",
   "source_url": "https://admin.shopify.com/store/.../orders/12345",
   "relevance_score": 0.98,
   "metadata": {
@@ -135,15 +135,15 @@ A: Errors use a consistent format: {"error": {"type": "error_category", "message
 
 ## Internal Links
 
-- **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  
-- **[API Authentication Guide](/docs/api/authentication)** — Bearer tokens, OAuth 2.0, and security best practices  
-- **[API Endpoints Reference](/docs/api/endpoints)** — Complete request/response schemas and code examples  
-- **[API Rate Limits](/docs/api/rate-limits)** — Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/docs/api/webhooks)** — Event notifications and HMAC signature verification  
-- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2, and data residency  
-- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption, network security, and compliance  
+- **[CorpusIQ API Overview](/docs/api/overview)**  --  Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/docs/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/docs/api/endpoints)**  --  Complete request/response schemas and code examples  
+- **[API Rate Limits](/docs/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Event notifications and HMAC signature verification  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption, network security, and compliance  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *

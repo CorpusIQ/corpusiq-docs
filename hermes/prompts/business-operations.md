@@ -1,12 +1,12 @@
 ---
-title: Business Operations Prompts for Hermes Agent — Email, Meetings & Project Planning
+title: Business Operations Prompts for Hermes Agent  --  Email, Meetings & Project Planning
 description: Hermes Agent business operations prompts for email communication, meeting management, project planning, and task organization. Replace bracketed text with your team context, tools, and workflow preferences.
 category: prompts
 tags: [hermes-agent, prompts, business-operations, email, meetings, project-planning, task-management, workflow]
 last_updated: 2026-06-16
 ---
 
-# Business Operations Prompts — Email, Meetings & Project Planning
+# Business Operations Prompts  --  Email, Meetings & Project Planning
 
 ---
 
@@ -43,7 +43,7 @@ Include a "read this if you only have 10 seconds" one-sentence summary at the to
 ```
 Help me draft a diplomatic email for a sensitive situation:
 
-Context: [DESCRIBE THE SITUATION — e.g., project delay, scope change, pricing increase]
+Context: [DESCRIBE THE SITUATION  --  e.g., project delay, scope change, pricing increase]
 Relationship importance: [CRITICAL/IMPORTANT/TRANSACTIONAL]
 What cannot be compromised: [NON-NEGOTIABLE POINTS]
 What I'm willing to offer: [CONCESSIONS OR ALTERNATIVES]
@@ -64,11 +64,11 @@ Create a standardized weekly update email template for [TEAM/PROJECT].
 
 Sections:
 1. Top-line: One sentence on the most important thing that happened
-2. Wins (3 bullet max) — celebrate progress and people
-3. Blockers — what's stuck and who can help
+2. Wins (3 bullet max)  --  celebrate progress and people
+3. Blockers  --  what's stuck and who can help
 4. Priorities for next week (ranked, 3-5 items)
-5. Metrics snapshot — [2-3 KEY NUMBERS] with arrows showing direction
-6. Asks — specific requests of the reader
+5. Metrics snapshot  --  [2-3 KEY NUMBERS] with arrows showing direction
+6. Asks  --  specific requests of the reader
 
 Make it scannable in under 60 seconds. Include guidance on what NOT to include (status on everything, excessive detail, blame language).
 ```
@@ -112,7 +112,7 @@ My goals:
 Their likely perspective: [WHAT YOU KNOW ABOUT THEIR POSITION]
 
 Include:
-- Opening statement (first 60 seconds — set the tone and purpose)
+- Opening statement (first 60 seconds  --  set the tone and purpose)
 - Key talking points with supporting data
 - Anticipated objections and my responses
 - Questions to ask them
@@ -185,10 +185,10 @@ For each task provide:
 - Description (1-2 sentences)
 - Estimated effort ([HOURS/STORY POINTS])
 - Dependencies (must complete task #[X] first)
-- Assignee role (not name — describe the skills needed)
+- Assignee role (not name  --  describe the skills needed)
 - Acceptance criteria (how to verify it's done)
 
-Organize tasks into phases (phase 1, 2, 3) based on dependency order and value delivery. Identify the MVP threshold — the minimum set of tasks that delivers standalone value.
+Organize tasks into phases (phase 1, 2, 3) based on dependency order and value delivery. Identify the MVP threshold  --  the minimum set of tasks that delivers standalone value.
 ```
 
 ### Daily Standup Format
@@ -208,7 +208,7 @@ Blockers:
 Format as:
 - Yesterday: [1-2 bullets, max 40 words total]
 - Today: [1-2 bullets, max 40 words total]
-- Blockers: [0 or 1 items — only if I need help]
+- Blockers: [0 or 1 items  --  only if I need help]
 
 The update should take under 30 seconds to speak aloud. Be specific about what shipped, not what I "worked on."
 ```
@@ -219,12 +219,12 @@ The update should take under 30 seconds to speak aloud. Be specific about what s
 
 - **Specify the recipient relationship.** "My peer" vs "my skip-level manager" produces meaningfully different emails.
 - **Give the model your brand voice examples.** Paste 2-3 emails you've written that you like as style references.
-- **For sensitive communications, always review.** AI drafts are starting points — add your human judgment.
+- **For sensitive communications, always review.** AI drafts are starting points  --  add your human judgment.
 - **Chain operations prompts.** Use "task breakdown → sprint plan → standup update" as a connected workflow.
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

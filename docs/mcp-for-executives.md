@@ -10,7 +10,7 @@ robots: index,follow
 
 # MCP for Executives: How to Connect Your Business Data to AI
 
-**Executives teams need fast, accurate answers from their business data** — but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives executives professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports — just connect your tools and ask questions in plain English.
+**Executives teams need fast, accurate answers from their business data**  --  but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives executives professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports  --  just connect your tools and ask questions in plain English.
 
 ## The Executive Information Gap
 
@@ -43,7 +43,7 @@ Traditional executive dashboards are pre-built and static. MCP-powered dashboard
 
 Track the metrics that matter to the business without building and maintaining dashboards:
 
-**Custom KPI definitions.** Define what metrics mean in your business — "net revenue retention includes expansion and excludes churn from accounts under $10K" — and have those definitions applied consistently across all queries.
+**Custom KPI definitions.** Define what metrics mean in your business  --  "net revenue retention includes expansion and excludes churn from accounts under $10K"  --  and have those definitions applied consistently across all queries.
 
 **KPI trend analysis.** "How have our top 5 KPIs trended over the last 12 months? Show me the trajectory and identify any concerning patterns."
 
@@ -83,7 +83,7 @@ Beyond metrics, MCP helps executives understand the business at a strategic leve
 
 ## How CorpusIQ Delivers Executive Intelligence
 
-**Comprehensive connector library.** CorpusIQ's 30+ business connectors span the full executive data landscape — finance, sales, marketing, customer, and operations systems.
+**Comprehensive connector library.** CorpusIQ's 30+ business connectors span the full executive data landscape  --  finance, sales, marketing, customer, and operations systems.
 
 **Cross-source queries.** The executive value proposition is in the connections. Revenue from QuickBooks correlated with pipeline from Salesforce correlated with marketing spend from ad platforms. CorpusIQ makes these multi-source queries possible through a single interface.
 
@@ -91,9 +91,9 @@ Beyond metrics, MCP helps executives understand the business at a strategic leve
 
 **Consistent definitions.** Canonical facts ensure that "revenue" means the same thing whether queried through finance, sales, or marketing data. No more arguments about whose numbers are right.
 
-**Real-time access.** Board meeting in 10 minutes and need the latest numbers? Query live data — no waiting for ETL refreshes or report generation.
+**Real-time access.** Board meeting in 10 minutes and need the latest numbers? Query live data  --  no waiting for ETL refreshes or report generation.
 
-**Audit trail.** Every executive query is logged, providing transparency into what data was accessed and when — important for board and audit committee confidence.
+**Audit trail.** Every executive query is logged, providing transparency into what data was accessed and when  --  important for board and audit committee confidence.
 
 ## FAQ: Common Questions
 
@@ -106,7 +106,7 @@ MCP complements BI tools by providing ad-hoc, conversational access to business 
 <details>
 <summary><strong>How do I know the answers are accurate?</strong></summary>
 
-MCP queries execute against your live business systems — the same data that powers your existing reports. The accuracy depends on the accuracy of your source systems. CorpusIQ's source-citation feature shows exactly which system provided each data point.
+MCP queries execute against your live business systems  --  the same data that powers your existing reports. The accuracy depends on the accuracy of your source systems. CorpusIQ's source-citation feature shows exactly which system provided each data point.
 </details>
 
 <details>
@@ -118,7 +118,7 @@ It's faster and available 24/7. But it's not a replacement for your team's judgm
 <details>
 <summary><strong>Can I define how metrics are calculated so they're consistent?</strong></summary>
 
-Yes. CorpusIQ's canonical facts feature lets you define how key metrics should be calculated — and those definitions are applied consistently across all queries. No more discrepancy between "finance revenue" and "sales revenue."
+Yes. CorpusIQ's canonical facts feature lets you define how key metrics should be calculated  --  and those definitions are applied consistently across all queries. No more discrepancy between "finance revenue" and "sales revenue."
 </details>
 
 <details>
@@ -130,7 +130,7 @@ Yes. All connections use OAuth with read-only scopes. Data is queried on demand 
 <details>
 <summary><strong>How long does it take to set up for an executive team?</strong></summary>
 
-Individual executives can be set up in minutes — connect their data sources through OAuth and start querying. Enterprise-wide deployment with SSO and governance policies typically takes 2-4 weeks.
+Individual executives can be set up in minutes  --  connect their data sources through OAuth and start querying. Enterprise-wide deployment with SSO and governance policies typically takes 2-4 weeks.
 </details>
 
 <details>
@@ -150,9 +150,9 @@ Yes. Generate data for investor updates, answer diligence questions during fundr
 - [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
 - [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 ---
 
 *

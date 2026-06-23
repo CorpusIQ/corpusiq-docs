@@ -1,6 +1,6 @@
 ---
 title: Content Operations
-description: Automated content production with Hermes — HeyGen video, Postiz publishing, social automation, community engagement
+description: Automated content production with Hermes  --  HeyGen video, Postiz publishing, social automation, community engagement
 ---
 
 # Content Operations

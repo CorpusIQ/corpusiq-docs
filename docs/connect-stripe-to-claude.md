@@ -1,6 +1,6 @@
 ---
-title: "Connect Stripe to Claude via MCP — Live Data, No Code | CorpusIQ"
-description: "Connect your Stripe account to Claude through CorpusIQ MCP. Ask natural language questions about your stripe data and get real-time, source-cited answers — no exports, no coding required."
+title: "Connect Stripe to Claude via MCP  --  Live Data, No Code | CorpusIQ"
+description: "Connect your Stripe account to Claude through CorpusIQ MCP. Ask natural language questions about your stripe data and get real-time, source-cited answers  --  no exports, no coding required."
 category: Claude Integrations
 tags: ["connect Stripe to Claude", "Stripe Claude integration", "MCP Stripe connector", "Stripe data to Claude", "AI for Stripe", "CorpusIQ MCP"]
 last_updated: 2026-06-16
@@ -10,18 +10,18 @@ robots: index,follow
 
 # How to Connect Stripe to Claude with CorpusIQ MCP
 
-Stripe processes billions of dollars in payments, but the financial data it captures — charges, subscriptions, refunds, disputes, payouts — is often siloed in the Stripe Dashboard, inaccessible to team members who need it for reconciliation, customer support, and financial analysis. Connecting Stripe to Claude via CorpusIQ's MCP platform changes that.
+Stripe processes billions of dollars in payments, but the financial data it captures  --  charges, subscriptions, refunds, disputes, payouts  --  is often siloed in the Stripe Dashboard, inaccessible to team members who need it for reconciliation, customer support, and financial analysis. Connecting Stripe to Claude via CorpusIQ's MCP platform changes that.
 
-Ask Claude "What was our subscription MRR last month?", "Show me all disputed charges from Q2", or "Which customers have the highest lifetime value?" and receive accurate, real-time answers drawn from your live Stripe data. Claude becomes your payment intelligence layer — no Stripe Dashboard required.
+Ask Claude "What was our subscription MRR last month?", "Show me all disputed charges from Q2", or "Which customers have the highest lifetime value?" and receive accurate, real-time answers drawn from your live Stripe data. Claude becomes your payment intelligence layer  --  no Stripe Dashboard required.
 
 ### Why Connect Stripe to Claude?
 
-Stripe manages your revenue — and understanding that revenue means understanding the full payment lifecycle: charges, refunds, disputes, payouts, and subscription metrics. Claude gives you a natural language interface to all of it.
+Stripe manages your revenue  --  and understanding that revenue means understanding the full payment lifecycle: charges, refunds, disputes, payouts, and subscription metrics. Claude gives you a natural language interface to all of it.
 
 **Key benefits:**
 
 - **MRR and subscription metrics in seconds.** Ask Claude "What's our monthly recurring revenue trend?" and get an instant answer with trend analysis.
-- **Dispute and refund monitoring.** "How many chargebacks did we have this month and what was the total disputed amount?" — no manual report building.
+- **Dispute and refund monitoring.** "How many chargebacks did we have this month and what was the total disputed amount?"  --  no manual report building.
 - **Customer financial profiles.** "Show me the full payment history for [customer email]" for support and account management.
 - **Payout reconciliation.** Match Stripe payouts to bank deposits or QuickBooks entries for financial close.
 - **Revenue intelligence.** Combine Stripe revenue with Shopify orders, Google Analytics conversions, or Facebook Ads spend.
@@ -31,7 +31,7 @@ Stripe manages your revenue — and understanding that revenue means understandi
 
 1. **Connect Stripe** by providing a read-only restricted API key.
 2. **Ask Claude** any payment-related question.
-3. **CorpusIQ executes** Stripe API calls using your key — charges, customers, subscriptions, payouts, refunds, disputes, balance.
+3. **CorpusIQ executes** Stripe API calls using your key  --  charges, customers, subscriptions, payouts, refunds, disputes, balance.
 4. **Claude presents** the results with analysis, calculations, and actionable insights.
 
 Every query is a live API call. Data is never cached or stored by CorpusIQ.
@@ -67,7 +67,7 @@ Every query is a live API call. Data is never cached or stored by CorpusIQ.
 **Payout Reconciliation:**
 - "Show me all payouts from last month with their amounts and arrival dates."
 - "Do our Stripe payouts match our QuickBooks deposits?" (requires QuickBooks)
-- "What's our current Stripe balance — available vs. pending?"
+- "What's our current Stripe balance  --  available vs. pending?"
 
 **Customer Intelligence:**
 - "Who are our top 20 customers by lifetime value?"
@@ -86,7 +86,7 @@ Every query is a live API call. Data is never cached or stored by CorpusIQ.
 | Aspect | CorpusIQ MCP | Stripe API Direct |
 |---|---|---|
 | Setup | 5 minutes (paste API key) | Developer integration required |
-| Natural language | Yes | No — REST API only |
+| Natural language | Yes | No  --  REST API only |
 | Cross-source | Built-in (Stripe + QuickBooks + Shopify) | Custom development needed |
 | Subscription metrics | Automatic MRR, churn calculations | Must build aggregation logic |
 | Non-technical access | Anyone can query | Developers only |
@@ -127,9 +127,9 @@ Stripe Invoices are accessible through the API. Include the Invoices scope when 
 
 **Next steps:** [Connect Stripe to Claude now →](https://app.corpusiq.com/connect/stripe)
 
-*Connect Connect Stripe to Claude via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect Stripe to Claude via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
-*Connect Connect Stripe to Claude via MCP — Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect Stripe to Claude via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---
 
 *

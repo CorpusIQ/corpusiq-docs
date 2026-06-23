@@ -1,12 +1,12 @@
 ---
-title: Hermes Agent Skill Marketplaces — Discovery, Publishing & Quality Standards
+title: Hermes Agent Skill Marketplaces  --  Discovery, Publishing & Quality Standards
 description: Navigate Hermes Agent skill marketplaces for discovering and publishing skills. Quality tiers, marketplace comparison, publishing guides, community standards, and how to find the best community-built AI agent skills.
 category: skills
 tags: [hermes-agent, skills, marketplace, publishing, quality-tiers, community, discovery, curation]
 last_updated: 2026-06-16
 ---
 
-# Hermes Agent Skill Marketplaces — Discovery, Publishing & Quality
+# Hermes Agent Skill Marketplaces  --  Discovery, Publishing & Quality
 
 ## Marketplace Overview
 
@@ -57,7 +57,7 @@ last_updated: 2026-06-16
 
 **Discovery:** Skills are organized by Hermes feature area (Memory, Cron, Plugin, Connector). Each skill is tested against the current Hermes release to verify compatibility. The "Verified" badge means the Hermes team has validated the skill works correctly.
 
-**Publishing:** Submit through the contribution process on the Hermes GitHub repository. Skills are reviewed by community maintainers. Publication cadence is weekly — submissions by Wednesday are reviewed and published by Friday.
+**Publishing:** Submit through the contribution process on the Hermes GitHub repository. Skills are reviewed by community maintainers. Publication cadence is weekly  --  submissions by Wednesday are reviewed and published by Friday.
 
 **Quality indicators to look for:**
 - Hermes Verified badge (team-validated compatibility)
@@ -88,7 +88,7 @@ last_updated: 2026-06-16
 
 **Discovery:** Search for `hermes-skill-*` repositories or use topic tags `hermes-skill` and `hermes-plugin`. Each repository is a self-contained skill directory. Quality and documentation vary widely.
 
-**Publishing:** Create a public GitHub repository, add the `hermes-skill` topic, and share the link. No review process, no formal listing — pure open source.
+**Publishing:** Create a public GitHub repository, add the `hermes-skill` topic, and share the link. No review process, no formal listing  --  pure open source.
 
 **Quality indicators to look for:**
 - Stars and forks
@@ -156,7 +156,7 @@ Submit your skill following the marketplace's process. After publication:
 
 Before installing any skill from any marketplace:
 
-1. **Read the SKILL.md completely.** Not just the description — what connectors does it need? What does it write?
+1. **Read the SKILL.md completely.** Not just the description  --  what connectors does it need? What does it write?
 
 2. **Check the quality tier.** Match the tier to your risk tolerance. Production tier for automated workflows. Beta for supervised use. Community for learning.
 
@@ -194,9 +194,9 @@ The marketplaces are complementary, not competitive. A skill published on skills
 
 One skill ecosystem, many entry points. Find what works, build what's missing, and share what you create.
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

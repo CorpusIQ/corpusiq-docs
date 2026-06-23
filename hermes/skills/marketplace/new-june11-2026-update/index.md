@@ -1,9 +1,9 @@
 ---
-title: June 11, 2026 — Update (19 New Skills)
+title: June 11, 2026  --  Update (19 New Skills)
 description: 19 additional Hermes-relevant skills discovered in afternoon sweep. Agent architecture, UI dashboards, Nous variants, and OpenClaw ecosystem.
 ---
 
-# June 11, 2026 — Update: 19 New Skills
+# June 11, 2026  --  Update: 19 New Skills
 
 Afternoon sweep of [skills.sh](https://skills.sh) found **19 additional skills** not in the morning discovery. Covers new Hermes agent architecture patterns, UI dashboards, Nous Research official variants, and OpenClaw ecosystem tools.
 
@@ -11,7 +11,7 @@ Afternoon sweep of [skills.sh](https://skills.sh) found **19 additional skills**
 
 ---
 
-## aradotso/hermes-skills — 11 new skills
+## aradotso/hermes-skills  --  11 new skills
 
 The community collection grew to **31 skills** (up from 20). New entries focus on agent architecture, context management, IDE integration, and the OpenClaw ecosystem.
 
@@ -58,7 +58,7 @@ npx skills add aradotso/hermes-skills@hermes-agent-guide
 
 ---
 
-## nousresearch/hermes-agent — 6 new official variants
+## nousresearch/hermes-agent  --  6 new official variants
 
 Official Nous Research variants grew from 9 → 15. New skills cover Jupyter integration, design tools, container supervision, and skill authoring.
 
@@ -93,7 +93,7 @@ npx skills add nousresearch/hermes-agent@hermes-s6-container-supervision
 
 ---
 
-## aradotso/ai-agent-skills — 2 skills (cross-listed)
+## aradotso/ai-agent-skills  --  2 skills (cross-listed)
 
 Mirror repository with alternative Hermes agent framework and self-evolution skills.
 
@@ -120,7 +120,7 @@ npx skills add aradotso/ai-agent-skills@hermes-agent-self-evolution
 | aradotso/hermes-skills | 11 | 31 | Hermes Ecosystem |
 | nousresearch/hermes-agent | 6 | 15 | Official Variants |
 | aradotso/ai-agent-skills | 2 | 2 | Mirror/Fork |
-| **Total New** | **19** | — | — |
+| **Total New** | **19** |  --  |  --  |
 
 **Combined June 11 total:** 38 (morning) + 19 (update) = **57 new skills discovered today.**
 

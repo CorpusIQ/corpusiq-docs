@@ -137,17 +137,17 @@ Hermes can pull market data from financial data providers through API connectors
 
 ## Benefits
 
-- **Continuous reconciliation** — exceptions surfaced daily instead of discovered at month-end
-- **Reduced operational risk** — systematic matching eliminates manual spreadsheet errors
-- **Faster fraud detection** — anomalous patterns flagged within hours, not weeks
-- **Auditor-ready reporting** — timestamped reconciliation records with full audit trails
-- **Scalable operations** — one analyst manages reconciliation that previously required a team
-- **Regulatory confidence** — filing drafts prepared and reviewed on schedule, not in a panic
+- **Continuous reconciliation**  --  exceptions surfaced daily instead of discovered at month-end
+- **Reduced operational risk**  --  systematic matching eliminates manual spreadsheet errors
+- **Faster fraud detection**  --  anomalous patterns flagged within hours, not weeks
+- **Auditor-ready reporting**  --  timestamped reconciliation records with full audit trails
+- **Scalable operations**  --  one analyst manages reconciliation that previously required a team
+- **Regulatory confidence**  --  filing drafts prepared and reviewed on schedule, not in a panic
 
 ## Getting Started in Financial Services
 
 1. **Start with reconciliation.** It's the highest-ROI, lowest-risk automation. Pick one account type and one custodian.
-2. **Build exception handling first.** Don't try to automate every case — automate the 90% that match and route the 10% exceptions to humans with full context.
+2. **Build exception handling first.** Don't try to automate every case  --  automate the 90% that match and route the 10% exceptions to humans with full context.
 3. **Use database connectors for internal systems.** Most financial systems expose SQL access, making Hermes's PostgreSQL and MSSQL connectors immediately useful.
 4. **Layer detection rules incrementally.** Start with 3-5 fraud detection rules, monitor false-positive rates for two weeks, then expand.
 5. **Maintain the human-in-the-loop for regulatory filings.** Hermes prepares; humans review and submit.
@@ -162,7 +162,7 @@ Hermes connects to portfolio management systems, custodial platforms, accounting
 
 ### Can Hermes replace my reconciliation team?
 
-No — Hermes automates the mechanical matching work so your team can focus on investigating exceptions. The goal is to handle 90% of transactions automatically and surface the 10% that need human judgment with full context.
+No  --  Hermes automates the mechanical matching work so your team can focus on investigating exceptions. The goal is to handle 90% of transactions automatically and surface the 10% that need human judgment with full context.
 
 ### How accurate is Hermes fraud detection?
 
@@ -178,15 +178,15 @@ Yes. Hermes skills can compute time-weighted returns, risk metrics, attribution 
 
 ## Related Pages
 
-- [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md) — SOC 2, HIPAA, and GDPR evidence collection
-- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md) — Pipeline management and revenue reconciliation
-- [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — SOX compliance and financial controls at scale
-- [Hermes Agent for Professional Services](../case-studies/professional-services.md) — Invoice generation and billing automation
-- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+- [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md)  --  SOC 2, HIPAA, and GDPR evidence collection
+- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md)  --  Pipeline management and revenue reconciliation
+- [Hermes Agent for Enterprise](../by-company-size/enterprise.md)  --  SOX compliance and financial controls at scale
+- [Hermes Agent for Professional Services](../case-studies/professional-services.md)  --  Invoice generation and billing automation
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

@@ -20,10 +20,10 @@ Layer 6: Governance        →  Safety rules, monitoring, drift detection
 
 | Framework | What It Does | Doc |
 |-----------|-------------|-----|
-| **Hermes Agent** | Execution kernel — tool loop, skills loading, session management, model routing | [Read →](/hermes/orchestration/hermes/) |
-| **CrewAI** | Multi-agent coordination — task delegation, parallel workstreams, agent roles | [Read →](/hermes/orchestration/crewai/) |
-| **LangGraph** | Stateful graph workflows — checkpoints, conditional routing, subgraph isolation | [Read →](/hermes/orchestration/langgraph/) |
-| **Reflexion** | Self-improving loops — evaluation, reflection, memory, iterative improvement | [Read →](/hermes/orchestration/reflexion/) |
+| **Hermes Agent** | Execution kernel  --  tool loop, skills loading, session management, model routing | [Read →](/hermes/orchestration/hermes/) |
+| **CrewAI** | Multi-agent coordination  --  task delegation, parallel workstreams, agent roles | [Read →](/hermes/orchestration/crewai/) |
+| **LangGraph** | Stateful graph workflows  --  checkpoints, conditional routing, subgraph isolation | [Read →](/hermes/orchestration/langgraph/) |
+| **Reflexion** | Self-improving loops  --  evaluation, reflection, memory, iterative improvement | [Read →](/hermes/orchestration/reflexion/) |
 
 ## Why This Stack
 

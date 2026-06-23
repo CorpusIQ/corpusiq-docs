@@ -1,6 +1,6 @@
 ---
-title: "Connect Salesforce to ChatGPT via MCP — Live Data, No Code | CorpusIQ"
-description: "Connect your Salesforce account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your salesforce data and get real-time, source-cited answers — no exports, no coding required."
+title: "Connect Salesforce to ChatGPT via MCP  --  Live Data, No Code | CorpusIQ"
+description: "Connect your Salesforce account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your salesforce data and get real-time, source-cited answers  --  no exports, no coding required."
 category: ChatGPT Integrations
 tags: ["connect Salesforce to ChatGPT", "Salesforce ChatGPT integration", "MCP Salesforce connector", "Salesforce data to ChatGPT", "AI for Salesforce", "CorpusIQ MCP"]
 last_updated: 2026-06-16
@@ -10,9 +10,9 @@ robots: index,follow
 
 # How to Connect Salesforce to ChatGPT with CorpusIQ MCP
 
-Your **Salesforce** account holds critical business data — but accessing insights usually means logging in, navigating dashboards, and running manual reports. **Connecting Salesforce to ChatGPT through CorpusIQ MCP** eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Salesforce data directly — you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.
+Your **Salesforce** account holds critical business data  --  but accessing insights usually means logging in, navigating dashboards, and running manual reports. **Connecting Salesforce to ChatGPT through CorpusIQ MCP** eliminates all that friction. Once connected via a secure OAuth flow, ChatGPT can query your live Salesforce data directly  --  you ask questions in plain English, and get cited answers drawn from your actual account, not outdated exports or screenshots.
 
-Once connected, ChatGPT can query your live Salesforce data — accounts, opportunities, contacts, leads, cases, and custom objects — in plain English. Your sales team, executives, and operations staff get CRM answers without logging into Salesforce.
+Once connected, ChatGPT can query your live Salesforce data  --  accounts, opportunities, contacts, leads, cases, and custom objects  --  in plain English. Your sales team, executives, and operations staff get CRM answers without logging into Salesforce.
 
 This page covers the architecture, what you can ask, enterprise security considerations, and how MCP compares to direct Salesforce API integration.
 
@@ -21,19 +21,19 @@ This page covers the architecture, what you can ask, enterprise security conside
 <details>
 <summary><strong>What Salesforce data can ChatGPT access?</strong></summary>
 
-CorpusIQ provides MCP tools that map to core Salesforce objects: Accounts, Contacts, Leads, Opportunities, Cases, and custom objects. ChatGPT can search across these objects, retrieve individual records, list records with filters, and combine data across multiple objects. All access is read-only — no create, update, or delete operations exist.
+CorpusIQ provides MCP tools that map to core Salesforce objects: Accounts, Contacts, Leads, Opportunities, Cases, and custom objects. ChatGPT can search across these objects, retrieve individual records, list records with filters, and combine data across multiple objects. All access is read-only  --  no create, update, or delete operations exist.
 </details>
 
 <details>
 <summary><strong>What questions can I ask ChatGPT about Salesforce?</strong></summary>
 
-Sales pipeline questions: "What's our pipeline value by stage?", "Show me opportunities closing this quarter over $100K", "Which opportunities have been in the same stage for over 30 days?" Account questions: "Give me a 360 view of Acme Corp — all contacts, open opportunities, recent cases." Lead questions: "Show me new leads from this week sorted by score", "Which leads haven't been contacted yet?" Case questions: "How many open cases do we have by priority?", "Show me cases that have been open for over 5 days."
+Sales pipeline questions: "What's our pipeline value by stage?", "Show me opportunities closing this quarter over $100K", "Which opportunities have been in the same stage for over 30 days?" Account questions: "Give me a 360 view of Acme Corp  --  all contacts, open opportunities, recent cases." Lead questions: "Show me new leads from this week sorted by score", "Which leads haven't been contacted yet?" Case questions: "How many open cases do we have by priority?", "Show me cases that have been open for over 5 days."
 </details>
 
 <details>
 <summary><strong>How does the connection work?</strong></summary>
 
-CorpusIQ connects to Salesforce via OAuth 2.0. You authorize read-only access to your Salesforce org, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Salesforce tools and calls them in response to natural language questions. The MCP server handles SOQL/SOSL query construction, pagination, and rate limiting automatically — you never write a query.
+CorpusIQ connects to Salesforce via OAuth 2.0. You authorize read-only access to your Salesforce org, then connect the CorpusIQ MCP server to ChatGPT. ChatGPT discovers the available Salesforce tools and calls them in response to natural language questions. The MCP server handles SOQL/SOSL query construction, pagination, and rate limiting automatically  --  you never write a query.
 </details>
 
 <details>
@@ -45,19 +45,19 @@ Yes, completely read-only. CorpusIQ requests the minimum OAuth scopes needed for
 <details>
 <summary><strong>How does this handle Salesforce's data model complexity?</strong></summary>
 
-Salesforce has a deeply customizable data model with standard objects, custom objects, custom fields, and complex relationships. CorpusIQ's MCP layer abstracts this complexity. When you ask a natural language question, ChatGPT calls the appropriate tool, which handles the SOQL/SOSL construction behind the scenes. Custom fields and objects are accessible — just reference them in your question.
+Salesforce has a deeply customizable data model with standard objects, custom objects, custom fields, and complex relationships. CorpusIQ's MCP layer abstracts this complexity. When you ask a natural language question, ChatGPT calls the appropriate tool, which handles the SOQL/SOSL construction behind the scenes. Custom fields and objects are accessible  --  just reference them in your question.
 </details>
 
 <details>
 <summary><strong>Can ChatGPT handle Salesforce reports and dashboards?</strong></summary>
 
-ChatGPT doesn't replace Salesforce reports and dashboards — it complements them. For scheduled, recurring reports that need formatting and distribution, Salesforce reports are the right tool. For ad-hoc questions that don't fit into a pre-built report, ChatGPT is faster: "Show me all opportunities where the close date slipped this month and the amount is over $50K" is a ChatGPT question, not a report you'd build once.
+ChatGPT doesn't replace Salesforce reports and dashboards  --  it complements them. For scheduled, recurring reports that need formatting and distribution, Salesforce reports are the right tool. For ad-hoc questions that don't fit into a pre-built report, ChatGPT is faster: "Show me all opportunities where the close date slipped this month and the amount is over $50K" is a ChatGPT question, not a report you'd build once.
 </details>
 
 <details>
 <summary><strong>How does this work with Salesforce Shield and encrypted fields?</strong></summary>
 
-CorpusIQ respects Salesforce's field-level security and encryption. If a field is encrypted or masked by Salesforce Shield, the data returned through the MCP layer reflects the user-authorized visibility — encrypted fields appear as encrypted, masked fields appear as masked. The MCP layer does not bypass Salesforce security controls.
+CorpusIQ respects Salesforce's field-level security and encryption. If a field is encrypted or masked by Salesforce Shield, the data returned through the MCP layer reflects the user-authorized visibility  --  encrypted fields appear as encrypted, masked fields appear as masked. The MCP layer does not bypass Salesforce security controls.
 </details>
 
 <details>
@@ -69,7 +69,7 @@ You can connect multiple Salesforce orgs to CorpusIQ. Each org is isolated. You 
 <details>
 <summary><strong>How is this different from Salesforce's Einstein AI?</strong></summary>
 
-Einstein AI is purpose-built for Salesforce-native workflows — predictive scoring, opportunity insights, activity capture, and within-Salesforce recommendations. It operates inside the Salesforce interface on Salesforce data. Connecting Salesforce to ChatGPT via MCP enables cross-source analytics (combine Salesforce pipeline data with QuickBooks revenue data, Stripe payment data, or HubSpot marketing data) and lets your team ask questions in ChatGPT — the interface they may already use throughout the day.
+Einstein AI is purpose-built for Salesforce-native workflows  --  predictive scoring, opportunity insights, activity capture, and within-Salesforce recommendations. It operates inside the Salesforce interface on Salesforce data. Connecting Salesforce to ChatGPT via MCP enables cross-source analytics (combine Salesforce pipeline data with QuickBooks revenue data, Stripe payment data, or HubSpot marketing data) and lets your team ask questions in ChatGPT  --  the interface they may already use throughout the day.
 </details>
 
 <details>
@@ -86,7 +86,7 @@ You need a Salesforce user account with API access enabled and sufficient object
 
 3. **Ask natural language questions.** ChatGPT maps your question to the appropriate MCP tools, constructs the necessary queries (SOQL/SOSL), and returns cited answers from live Salesforce data.
 
-4. **Iterate.** Follow-up questions maintain context. "Now show me just the opportunities over $100K" or "Which of those accounts have open cases?" — the conversation flows naturally.
+4. **Iterate.** Follow-up questions maintain context. "Now show me just the opportunities over $100K" or "Which of those accounts have open cases?"  --  the conversation flows naturally.
 
 No Salesforce reports to build. No SOQL to write. No data exports to manage. Just questions and answers.
 
@@ -96,7 +96,7 @@ No Salesforce reports to build. No SOQL to write. No data exports to manage. Jus
 
 **Faster opportunity reviews.** Instead of building opportunity reports and clicking through records, ask ChatGPT: "Give me a pipeline summary by rep, with amounts, stages, and close dates." Instant pipeline visibility.
 
-**Account 360 without tab-switching.** "Give me everything on Acme Corp — account details, all contacts, open opportunities, recent cases, and last activity dates." One question pulls from multiple Salesforce objects simultaneously.
+**Account 360 without tab-switching.** "Give me everything on Acme Corp  --  account details, all contacts, open opportunities, recent cases, and last activity dates." One question pulls from multiple Salesforce objects simultaneously.
 
 **Cross-source intelligence.** Combine Salesforce data with data from other connected tools. "Show me opportunities for accounts with overdue invoices in QuickBooks" or "Which marketing campaigns generated the most Salesforce opportunities this quarter?" The cross-source capability is unique to [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md).
 
@@ -106,7 +106,7 @@ No Salesforce reports to build. No SOQL to write. No data exports to manage. Jus
 
 ### Executive Pipeline Review
 
-"Summarize our global pipeline — total value, count by stage, top 10 opportunities, and deals at risk." The CEO gets a pipeline snapshot in ChatGPT without a Salesforce login, a pre-built dashboard, or a manually compiled report.
+"Summarize our global pipeline  --  total value, count by stage, top 10 opportunities, and deals at risk." The CEO gets a pipeline snapshot in ChatGPT without a Salesforce login, a pre-built dashboard, or a manually compiled report.
 
 ### Sales Rep Daily Briefing
 
@@ -122,7 +122,7 @@ No Salesforce reports to build. No SOQL to write. No data exports to manage. Jus
 
 ### Revenue Operations
 
-"Match closed-won opportunities against recognized revenue in QuickBooks. Flag any discrepancies." Cross-source reconciliation between CRM and financial systems — a task that normally requires exporting from both systems and comparing manually.
+"Match closed-won opportunities against recognized revenue in QuickBooks. Flag any discrepancies." Cross-source reconciliation between CRM and financial systems  --  a task that normally requires exporting from both systems and comparing manually.
 
 ## Security: Enterprise-Grade Read-Only Access
 
@@ -141,19 +141,19 @@ For enterprises in regulated industries (financial services, healthcare, governm
 
 | Aspect | Direct API Integration | CorpusIQ MCP |
 |--------|----------------------|--------------|
-| **Setup** | Weeks — REST/SOAP API client, OAuth, SOQL/SOSL, pagination, error handling | Minutes — OAuth authorization |
+| **Setup** | Weeks  --  REST/SOAP API client, OAuth, SOQL/SOSL, pagination, error handling | Minutes  --  OAuth authorization |
 | **Query interface** | SOQL/SOSL queries, REST endpoints, JSON parsing | Natural language |
-| **Multi-object queries** | Must write SOQL relationships or multiple queries with merge logic | Automatic — ChatGPT orchestrates multi-tool calls |
+| **Multi-object queries** | Must write SOQL relationships or multiple queries with merge logic | Automatic  --  ChatGPT orchestrates multi-tool calls |
 | **Cross-source** | Build separate integrations for every other system | One question across all connected tools |
-| **Developer dependency** | Every new question type requires new code | No code — ask in plain English |
+| **Developer dependency** | Every new question type requires new code | No code  --  ask in plain English |
 | **API limits** | Must implement rate limit handling, batch processing | CorpusIQ handles rate limits and retries |
 | **Maintenance** | API version migrations, security updates | CorpusIQ handles all maintenance |
 
-Direct API integration is appropriate for custom Salesforce workflows that require write operations, complex automation, or deep platform integration. For data access, Q&A, and reporting — the 80% use case — MCP eliminates months of development and ongoing maintenance.
+Direct API integration is appropriate for custom Salesforce workflows that require write operations, complex automation, or deep platform integration. For data access, Q&A, and reporting  --  the 80% use case  --  MCP eliminates months of development and ongoing maintenance.
 
 ## Setup Guide
 
-1. **Sign up** at [corpusiq.io](https://www.corpusiq.io) — free 30-day trial.
+1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
 2. **Connect Salesforce.** Dashboard → Connections → Salesforce → sign into Salesforce → authorize read-only access.
 3. **Connect ChatGPT.** Add the CorpusIQ MCP server to ChatGPT. See our [Quick Start guide](../docs/quick-start.md).
 4. **Verify.** Ask "How many opportunities are in my Salesforce org?" to confirm the connection.
@@ -163,20 +163,20 @@ Setup takes under 5 minutes for a connection that would take weeks to build via 
 
 ## Related Pages
 
-- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md) — CRM data in ChatGPT (alternative CRM)
-- [Connect QuickBooks to ChatGPT](../docs/connect-quickbooks-to-chatgpt.md) — financial data in ChatGPT
-- [Connect Stripe to ChatGPT](../docs/connect-stripe-to-chatgpt.md) — payment data in ChatGPT
-- [Connect Gmail to ChatGPT](../docs/connect-gmail-to-chatgpt.md) — email data in ChatGPT
-- [Connect NetSuite to ChatGPT](../docs/connect-netsuite-to-chatgpt.md) — enterprise ERP data in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md) — the full integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md) — why MCP wins
-- [MCP for Enterprise](../docs/mcp-for-enterprise.md) — enterprise deployment
-- [CorpusIQ Security Architecture](../docs/security/README.md) — how data stays safe
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md) — detailed comparison
+- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT (alternative CRM)
+- [Connect QuickBooks to ChatGPT](../docs/connect-quickbooks-to-chatgpt.md)  --  financial data in ChatGPT
+- [Connect Stripe to ChatGPT](../docs/connect-stripe-to-chatgpt.md)  --  payment data in ChatGPT
+- [Connect Gmail to ChatGPT](../docs/connect-gmail-to-chatgpt.md)  --  email data in ChatGPT
+- [Connect NetSuite to ChatGPT](../docs/connect-netsuite-to-chatgpt.md)  --  enterprise ERP data in ChatGPT
+- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full integration
+- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP wins
+- [MCP for Enterprise](../docs/mcp-for-enterprise.md)  --  enterprise deployment
+- [CorpusIQ Security Architecture](../docs/security/README.md)  --  how data stays safe
+- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
 
-*Connect Connect Salesforce to ChatGPT via MCP — Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect Salesforce to ChatGPT via MCP  --  Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 
-*Connect Connect Salesforce to ChatGPT via MCP — Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
+*Connect Connect Salesforce to ChatGPT via MCP  --  Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---
 
 *

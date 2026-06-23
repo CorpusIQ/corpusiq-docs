@@ -4,7 +4,7 @@ description: Master Shopify sales analysis using AI. Step-by-step guide covering
   Claude.
 url: /docs/shopify-sales-analysis-with-ai
 h1: 'Shopify Sales Analysis with AI: Turn Raw Order Data into Revenue Intelligence'
-title: Shopify Sales Analysis with AI — Complete Guide | CorpusIQ
+title: Shopify Sales Analysis with AI  --  Complete Guide | CorpusIQ
 description: Learn how to analyze Shopify sales with AI. Comprehensive guide to revenue analysis, product performance, customer segmentation, discount optimization, and sales forecasting using ChatGPT
   and Claude.
 keywords:
@@ -24,14 +24,14 @@ canonical_url: https://corpusiq.com/docs/shopify-sales-analysis-with-ai
 
 # Shopify Sales Analysis with AI: Turn Raw Order Data into Revenue Intelligence
 
-Every Shopify store generates rich sales data — but most of it goes unanalyzed. Store owners check daily revenue. Managers review monthly reports. But the deeper questions — the ones that drive strategic growth — remain buried in spreadsheets that no one has time to build. **CorpusIQ's AI-powered sales analysis for Shopify changes this.**
+Every Shopify store generates rich sales data  --  but most of it goes unanalyzed. Store owners check daily revenue. Managers review monthly reports. But the deeper questions  --  the ones that drive strategic growth  --  remain buried in spreadsheets that no one has time to build. **CorpusIQ's AI-powered sales analysis for Shopify changes this.**
 
 This guide walks you through how to use ChatGPT and Claude to perform comprehensive sales analysis on your Shopify data. From basic revenue tracking to advanced customer segmentation and predictive forecasting, you'll learn the techniques, prompts, and analytical frameworks that turn order data into revenue intelligence.
 
 ## Setting Up AI Sales Analysis
 
 ### Step 1: Connect Shopify to CorpusIQ
-Navigate to your CorpusIQ dashboard, select "Connect Shopify," and authenticate through Shopify's OAuth flow. The connection is read-only — the AI can analyze your data but cannot modify your store.
+Navigate to your CorpusIQ dashboard, select "Connect Shopify," and authenticate through Shopify's OAuth flow. The connection is read-only  --  the AI can analyze your data but cannot modify your store.
 
 ### Step 2: Choose Your AI Model
 - **ChatGPT**: Best for daily sales queries, quick analysis, and iterative exploration
@@ -53,7 +53,7 @@ Revenue analysis goes far beyond "how much did we sell?" AI-powered analysis rev
 
 **Revenue Trend Analysis:**
 ```
-"Show me daily revenue for the last 90 days with a 7-day moving average. Identify any days with anomalous revenue (more than 2 standard deviations from the moving average) and investigate what caused those spikes or dips — promotions, marketing campaigns, or external events."
+"Show me daily revenue for the last 90 days with a 7-day moving average. Identify any days with anomalous revenue (more than 2 standard deviations from the moving average) and investigate what caused those spikes or dips  --  promotions, marketing campaigns, or external events."
 ```
 
 **Revenue Forecasting:**
@@ -68,7 +68,7 @@ Revenue analysis goes far beyond "how much did we sell?" AI-powered analysis rev
 
 ### 2. Product Performance Analysis
 
-Understanding which products drive your business — and which drag it down — is fundamental to merchandising and inventory strategy.
+Understanding which products drive your business  --  and which drag it down  --  is fundamental to merchandising and inventory strategy.
 
 **Top Performer Analysis:**
 ```
@@ -82,7 +82,7 @@ Understanding which products drive your business — and which drag it down — 
 
 **Cross-Sell and Bundle Analysis:**
 ```
-"Analyze orders containing multiple products — which products are most frequently bought together? Identify the top 20 product pairs by co-occurrence. For the top pairs, calculate the revenue uplift when both are in cart vs. when only one is purchased."
+"Analyze orders containing multiple products  --  which products are most frequently bought together? Identify the top 20 product pairs by co-occurrence. For the top pairs, calculate the revenue uplift when both are in cart vs. when only one is purchased."
 ```
 
 **Margin Analysis:**
@@ -116,7 +116,7 @@ Your customers aren't a monolith. AI analysis reveals the segments, behaviors, a
 
 ### 4. Discount and Promotion Analysis
 
-Discounts drive sales — but they also erode margin. AI analysis helps you find the optimal balance.
+Discounts drive sales  --  but they also erode margin. AI analysis helps you find the optimal balance.
 
 **Discount Impact Analysis:**
 ```
@@ -150,13 +150,13 @@ Where your customers are matters for marketing, inventory positioning, and expan
 ## Frequently Asked Questions
 
 ### How is AI sales analysis different from Shopify Analytics?
-Shopify Analytics shows you pre-built reports. AI sales analysis lets you ask any question — novel analyses, custom metrics, multi-dimensional comparisons — without building reports. Additionally, the AI provides narrative interpretation: it explains what the numbers mean, not just what they are.
+Shopify Analytics shows you pre-built reports. AI sales analysis lets you ask any question  --  novel analyses, custom metrics, multi-dimensional comparisons  --  without building reports. Additionally, the AI provides narrative interpretation: it explains what the numbers mean, not just what they are.
 
 ### Can the AI connect sales data to marketing data?
 Yes, through CorpusIQ's multi-source capabilities. Connect Google Ads, Meta Ads, Klaviyo, and GA4 alongside Shopify for true marketing attribution and ROAS analysis. Available on Pro and Enterprise plans.
 
 ### How do I know the sales analysis is accurate?
-The AI retrieves data directly from Shopify's API in real time. Numbers are not hallucinated — they come from your actual orders. The AI's analytical interpretations are clearly labeled as analysis (vs. factual data), and you can independently verify any number in your Shopify admin.
+The AI retrieves data directly from Shopify's API in real time. Numbers are not hallucinated  --  they come from your actual orders. The AI's analytical interpretations are clearly labeled as analysis (vs. factual data), and you can independently verify any number in your Shopify admin.
 
 ### What's the most valuable analysis most stores aren't doing?
 Customer cohort retention analysis. Most store owners know their revenue but not whether the customers they acquired 6 months ago are still buying. AI makes cohort analysis trivially easy, and it's often the highest-ROI analysis for ecommerce businesses.
@@ -183,9 +183,9 @@ Start with a shared ChatGPT or Claude workspace where team members can ask quest
 
 Ready to transform your Shopify order data into revenue intelligence?
 
-1. **Sign up** for a [CorpusIQ account](https://app.corpusiq.com/signup) — free plan available.
-2. **Connect your Shopify store** — OAuth 2.0 authentication takes under 60 seconds.
-3. **Start asking questions** — use ChatGPT, Claude, or any MCP-compatible AI assistant.
+1. **Sign up** for a [CorpusIQ account](https://app.corpusiq.com/signup)  --  free plan available.
+2. **Connect your Shopify store**  --  OAuth 2.0 authentication takes under 60 seconds.
+3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Use the prompt templates** in this guide to run your first revenue, product, and customer analyses today.
 
 **[Start your AI-powered sales analysis now →](https://app.corpusiq.com/signup)**
@@ -204,11 +204,11 @@ Ready to transform your Shopify order data into revenue intelligence?
 
 Your Shopify store generates the data. AI-powered sales analysis turns it into revenue intelligence. Stop exporting CSV files and building pivot tables. Start asking questions and getting answers.
 
-**[Begin your AI-powered sales analysis](/get-started) — connect Shopify in 60 seconds.**
+**[Begin your AI-powered sales analysis](/get-started)  --  connect Shopify in 60 seconds.**
 
-*[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
-*[CorpusIQ](https://www.corpusiq.io) — AI answers grounded in your business data. 30-day free trial.*
+*[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 ---
 
 *

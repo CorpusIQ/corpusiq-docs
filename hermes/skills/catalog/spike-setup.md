@@ -1,14 +1,14 @@
 ---
-title: Spike — Full Setup Guide for Hermes Agents
+title: Spike  --  Full Setup Guide for Hermes Agents
 description: Install, configure, and use the spike skill from nousresearch/hermes-agent. Throwaway experiments to validate growth hypotheses before building.
 ---
 
-# Spike — Setup Guide
+# Spike  --  Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/spike) (135 installs)
 **Category:** Development & Testing
 
-Throwaway experiments to validate an idea before committing to a full build. Use spike when you have a hypothesis about a growth tactic, integration pattern, or product feature — build the smallest possible test, learn from it, then either proceed or move on.
+Throwaway experiments to validate an idea before committing to a full build. Use spike when you have a hypothesis about a growth tactic, integration pattern, or product feature  --  build the smallest possible test, learn from it, then either proceed or move on.
 
 ---
 
@@ -18,7 +18,7 @@ Throwaway experiments to validate an idea before committing to a full build. Use
 npx skills add nousresearch/hermes-agent@spike -y
 ```
 
-No plugins or additional dependencies required. The skill is a prompt/instruction module — it guides the agent's behavior, it doesn't add new tools.
+No plugins or additional dependencies required. The skill is a prompt/instruction module  --  it guides the agent's behavior, it doesn't add new tools.
 
 ---
 
@@ -26,7 +26,7 @@ No plugins or additional dependencies required. The skill is a prompt/instructio
 
 | Requirement | Details |
 |---|---|
-| **Hermes Agent** | Any version — skill is prompt-only, no tool deps |
+| **Hermes Agent** | Any version  --  skill is prompt-only, no tool deps |
 | **Nothing else** | No API keys, accounts, or external services |
 
 ---
@@ -48,11 +48,11 @@ No plugins or additional dependencies required. The skill is a prompt/instructio
 
 | Use Case | How |
 |---|---|
-| **Growth tactic validation** | "Spike: can we get 10 GitHub stars by posting in r/SaaS with a help-first approach?" — run a 30-min test, measure results |
-| **Integration feasibility** | "Spike: can we pull GA4 data via MCP connector and generate a weekly report?" — test the connector, verify data shape |
-| **Content channel testing** | "Spike: does a daily LinkedIn post get more engagement than 3x/week?" — run 5-day A/B test |
-| **Tool evaluation** | "Spike: is Firecrawl or browser-use faster for scraping competitor pricing?" — benchmark both on 3 sites |
-| **Product feature validation** | "Spike: would operators use a one-click competitor report?" — build a throwaway demo, show to 3 users |
+| **Growth tactic validation** | "Spike: can we get 10 GitHub stars by posting in r/SaaS with a help-first approach?"  --  run a 30-min test, measure results |
+| **Integration feasibility** | "Spike: can we pull GA4 data via MCP connector and generate a weekly report?"  --  test the connector, verify data shape |
+| **Content channel testing** | "Spike: does a daily LinkedIn post get more engagement than 3x/week?"  --  run 5-day A/B test |
+| **Tool evaluation** | "Spike: is Firecrawl or browser-use faster for scraping competitor pricing?"  --  benchmark both on 3 sites |
+| **Product feature validation** | "Spike: would operators use a one-click competitor report?"  --  build a throwaway demo, show to 3 users |
 
 ---
 
@@ -60,8 +60,8 @@ No plugins or additional dependencies required. The skill is a prompt/instructio
 
 | Issue | Fix |
 |---|---|
-| **Spike goes too long** | Remind agent: "This is a spike — 30 min max. What's the smallest test?" |
-| **Agent builds production code** | The skill enforces throwaway code. If agent persists, say: "Spike only — delete this after." |
+| **Spike goes too long** | Remind agent: "This is a spike  --  30 min max. What's the smallest test?" |
+| **Agent builds production code** | The skill enforces throwaway code. If agent persists, say: "Spike only  --  delete this after." |
 | **Unclear pass/fail** | Define the success metric before starting: "We need 3+ qualified replies" or "Response time under 2 seconds" |
 
 ## Verification
@@ -71,7 +71,7 @@ No plugins or additional dependencies required. The skill is a prompt/instructio
 hermes skills list | grep spike
 
 # Trigger a spike (example)
-# Just describe the hypothesis to your agent — the skill guides behavior automatically
+# Just describe the hypothesis to your agent  --  the skill guides behavior automatically
 ```
 
 ---

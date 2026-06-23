@@ -5,14 +5,14 @@ description: Pattern for operating a FastAPI backend on Cloud Run as the single 
 
 # API Development (Cloud Run + FastAPI)
 
-When your stack has multiple services (MCP servers, frontend, workers) and one of them is the **token issuer** — the FastAPI backend that mints JWTs everything else verifies — the discipline for that service is meaningfully different from the discipline for the consumers.
+When your stack has multiple services (MCP servers, frontend, workers) and one of them is the **token issuer**  --  the FastAPI backend that mints JWTs everything else verifies  --  the discipline for that service is meaningfully different from the discipline for the consumers.
 
 ## The single-token-issuer rule
 
 If you have one auth-issuing API and multiple JWT-consuming services:
 
 - The API publishes `/.well-known/jwks.json` (or equivalent)
-- Every consumer fetches the JWKS and verifies tokens locally — no auth round-trip per request
+- Every consumer fetches the JWKS and verifies tokens locally  --  no auth round-trip per request
 - The API is the ONLY service that knows how to mint tokens; consumers are read-only on auth
 - Schema changes to the JWT payload require coordinated deploys across consumers (the API issues new-shape tokens, consumers must handle both shapes during the transition)
 
@@ -30,7 +30,7 @@ Recipe: import the hook module at the top of your test conftest.py, BEFORE any m
 
 ### 2. UUID type mismatch between raw-SQL inserts and SQLAlchemy column adapters
 
-SQLite stores UUIDs as either TEXT or BLOB depending on the column adapter. If you do a raw SQL `INSERT` for test fixtures and the column was declared as UUID(as_uuid=True), the adapter expects a UUID object — not a string. The raw insert puts a string in; the next ORM read tries to deserialize the string as a UUID and crashes.
+SQLite stores UUIDs as either TEXT or BLOB depending on the column adapter. If you do a raw SQL `INSERT` for test fixtures and the column was declared as UUID(as_uuid=True), the adapter expects a UUID object  --  not a string. The raw insert puts a string in; the next ORM read tries to deserialize the string as a UUID and crashes.
 
 Recipe: insert via SQLModel/SQLAlchemy ORM in fixtures, not raw SQL. Or, use `str(uuid.uuid4())` consistently and skip the as_uuid=True.
 
@@ -93,7 +93,7 @@ The FastAPI docstring trick is the simplest "is my code actually deployed" verif
 
 When your DB is Supabase-hosted Postgres + GoTrue for auth:
 
-- Your team-lead (or whoever has the Supabase admin grant) is the only one who can do DB-level operations — migrations, role grants, RLS policy changes
+- Your team-lead (or whoever has the Supabase admin grant) is the only one who can do DB-level operations  --  migrations, role grants, RLS policy changes
 - Cloud Run instances connect via DATABASE_URL stored in Secret Manager
 - Console-level work (env vars, IAM, Secret Manager provisioning) often happens through the GCP console UI, not gcloud CLI
 
@@ -101,12 +101,12 @@ If you can do GCP-console work but not Supabase-admin work, the boundary matters
 
 ## Related
 
-- [consultant-connector-audit §14](../consultant-connector-audit/) — when a consultant pushes auth/billing/security code, the same audit discipline applies even though "connector" is in the name
-- [mcp-architecture](../mcp-architecture/) — the consumer side of the JWT contract this API issues
+- [consultant-connector-audit §14](../consultant-connector-audit/)  --  when a consultant pushes auth/billing/security code, the same audit discipline applies even though "connector" is in the name
+- [mcp-architecture](../mcp-architecture/)  --  the consumer side of the JWT contract this API issues
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills) — 133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
+*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

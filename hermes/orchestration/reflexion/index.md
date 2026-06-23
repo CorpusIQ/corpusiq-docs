@@ -1,11 +1,11 @@
 ---
-title: Reflexion — Self-Improving Agent Patterns
-description: Building agents that evaluate their own output, detect errors, and adjust strategy — production Reflexion patterns with Hermes
+title: Reflexion  --  Self-Improving Agent Patterns
+description: Building agents that evaluate their own output, detect errors, and adjust strategy  --  production Reflexion patterns with Hermes
 ---
 
-# Reflexion — Self-Improving Agent Patterns
+# Reflexion  --  Self-Improving Agent Patterns
 
-Reflexion is the pattern of having an agent evaluate its own output, detect issues, and adjust its approach before delivering a final result. Instead of a human catching mistakes, the agent catches them itself — then fixes them.
+Reflexion is the pattern of having an agent evaluate its own output, detect issues, and adjust its approach before delivering a final result. Instead of a human catching mistakes, the agent catches them itself  --  then fixes them.
 
 This guide covers production Reflexion patterns with Hermes: evaluation loop design, error detection strategies, strategy adjustment mechanisms, and concrete examples you can deploy.
 
@@ -23,7 +23,7 @@ Task → Execute → Evaluate → Pass? → Return Result
 **Execute:** The agent attempts the task.
 **Evaluate:** A separate evaluation step (often a different model or prompt) judges the output.
 **Pass?** If the output meets quality criteria, return it. If not, identify what's wrong.
-**Adjust:** Modify the strategy based on the evaluation feedback — then execute again.
+**Adjust:** Modify the strategy based on the evaluation feedback  --  then execute again.
 
 The key insight: evaluation is cheaper than execution, and correction is cheaper than starting over. A $0.01 evaluation that catches a mistake saves the cost of a bad output plus the cost of human review.
 
@@ -121,7 +121,7 @@ reflexion:
 
 ## Pattern 2: Factual Verification Reflexion
 
-For outputs where factual accuracy is critical — claims must be verified against sources.
+For outputs where factual accuracy is critical  --  claims must be verified against sources.
 
 ```python
 def factual_reflexion(claim: str, sources: list[str]) -> dict:
@@ -182,7 +182,7 @@ Instead of just fixing the output, the agent changes *how* it approaches the tas
 class StrategyReflexion:
     """
     The agent maintains a strategy stack. On failure, it doesn't just
-    tweak the output — it changes the strategy.
+    tweak the output  --  it changes the strategy.
     """
 
     STRATEGIES = [
@@ -329,7 +329,7 @@ def multi_evaluator_reflexion(task: str, active_evaluators: list[str]) -> str:
 # hermes/config/reflexion.yaml
 reflexion:
   default_max_iterations: 3
-  cost_ceiling_per_task: 0.50  # USD — hard stop
+  cost_ceiling_per_task: 0.50  # USD  --  hard stop
   
   evaluators:
     default_set: [accuracy, clarity, completeness]
@@ -383,7 +383,7 @@ Track these metrics to optimize your Reflexion setup:
 
 **Too many criteria:** Start with 3 criteria. More than 5 creates evaluation noise and slows convergence.
 
-**Same model for both:** Don't use the same model for execution and evaluation — it's grading its own homework. Use a lightweight model for evaluation.
+**Same model for both:** Don't use the same model for execution and evaluation  --  it's grading its own homework. Use a lightweight model for evaluation.
 
 **No cost ceiling:** Always set a `cost_ceiling_per_task`. Reflexion loops without a ceiling can burn through budget.
 

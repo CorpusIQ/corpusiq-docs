@@ -19,7 +19,7 @@ Hermes Agent automates multi-channel ticket triage, knowledge base retrieval, SL
 
 ## Overview
 
-Customer support teams face a constant challenge: ticket volume grows faster than headcount. The solution isn't just more agents — it's smarter automation that handles the routine so humans focus on the complex. Support operations involve ticket ingestion from multiple channels, classification and prioritization, assignment to the right agent, knowledge base lookup, SLA monitoring, escalation management, and post-resolution analysis. Each step is a candidate for automation. Hermes Agent provides the triage, routing, knowledge retrieval, and monitoring layer that makes support teams dramatically more efficient.
+Customer support teams face a constant challenge: ticket volume grows faster than headcount. The solution isn't just more agents  --  it's smarter automation that handles the routine so humans focus on the complex. Support operations involve ticket ingestion from multiple channels, classification and prioritization, assignment to the right agent, knowledge base lookup, SLA monitoring, escalation management, and post-resolution analysis. Each step is a candidate for automation. Hermes Agent provides the triage, routing, knowledge retrieval, and monitoring layer that makes support teams dramatically more efficient.
 
 ## How It Works
 
@@ -80,7 +80,7 @@ This skill indexes your knowledge base (Notion, Confluence, Google Docs, GitBook
 - Suggest it to the agent (agent-in-the-loop mode)
 - Deliver it directly to the customer for high-confidence matches
 
-The skill also monitors for stale articles — those not updated in 90+ days that reference deprecated features or old screenshots — and flags them for review.
+The skill also monitors for stale articles  --  those not updated in 90+ days that reference deprecated features or old screenshots  --  and flags them for review.
 
 ### SLA Monitoring and Escalation
 
@@ -150,7 +150,7 @@ These flags route to customer success managers, not just support, enabling proac
 
 ### Multi-Channel Response Coordination
 
-A customer might email, then DM on social media, then call — creating duplicate work and inconsistent responses.
+A customer might email, then DM on social media, then call  --  creating duplicate work and inconsistent responses.
 
 ```yaml
 - name: cross-channel-dedup
@@ -163,18 +163,18 @@ The skill searches recent tickets for matching customer identity and similar iss
 
 ## Benefits
 
-- **Faster first response** — tickets classified, prioritized, and routed within 5 minutes
-- **Fewer SLA breaches** — proactive escalation at 50%, 75%, and 90% of SLA windows
-- **Reduced agent toil** — knowledge base lookups automated, routine tickets auto-responded
-- **Better customer health visibility** — concerning support patterns flagged to CSMs daily
-- **Consistent cross-channel experience** — duplicate issues linked, not worked independently
-- **Scalable without linear headcount** — classification and routing handled by automation
+- **Faster first response**  --  tickets classified, prioritized, and routed within 5 minutes
+- **Fewer SLA breaches**  --  proactive escalation at 50%, 75%, and 90% of SLA windows
+- **Reduced agent toil**  --  knowledge base lookups automated, routine tickets auto-responded
+- **Better customer health visibility**  --  concerning support patterns flagged to CSMs daily
+- **Consistent cross-channel experience**  --  duplicate issues linked, not worked independently
+- **Scalable without linear headcount**  --  classification and routing handled by automation
 
 ## Getting Started in Support
 
 1. **Start with triage, not auto-response.** Classification and routing provide immediate value without risking incorrect automated replies.
 2. **Build your SLA rules carefully.** Start with generous thresholds, monitor false-positives for two weeks, then tighten.
-3. **Integrate with your existing ticketing system.** Hermes doesn't replace your ticketing — it layers intelligence on top.
+3. **Integrate with your existing ticketing system.** Hermes doesn't replace your ticketing  --  it layers intelligence on top.
 4. **Use email and Slack connectors as your primary channel monitors.** These cover 90% of support intake for most teams.
 5. **Keep humans in the loop for responses.** Automate classification, routing, and monitoring. Keep humans for customer-facing communication until your knowledge base coverage and accuracy are proven.
 
@@ -184,7 +184,7 @@ The outcome: faster first responses, fewer SLA breaches, less time spent on rout
 
 ### What ticketing systems does Hermes connect to?
 
-Hermes connects to HubSpot Service Hub, LeadConnector, and any ticketing system with SQL database access or API. It layers intelligence on top of your existing tools — it doesn't replace your ticketing platform.
+Hermes connects to HubSpot Service Hub, LeadConnector, and any ticketing system with SQL database access or API. It layers intelligence on top of your existing tools  --  it doesn't replace your ticketing platform.
 
 ### Can Hermes automatically respond to support tickets?
 
@@ -200,19 +200,19 @@ Yes. Hermes searches recent tickets for matching customer identity and similar i
 
 ### Does Hermes replace my support team?
 
-No. Hermes automates classification, routing, knowledge retrieval, and monitoring — the mechanical work. Your agents remain essential for complex troubleshooting, empathetic communication, and escalations that require human judgment.
+No. Hermes automates classification, routing, knowledge retrieval, and monitoring  --  the mechanical work. Your agents remain essential for complex troubleshooting, empathetic communication, and escalations that require human judgment.
 
 ## Related Pages
 
-- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md) — Pipeline management and customer health tracking
-- [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce.md) — Order processing and customer communication
-- [Hermes Agent for Professional Services](../case-studies/professional-services.md) — Client onboarding and status reporting
-- [Hermes Agent for Mid-Market](../by-company-size/mid-market.md) — Multi-team support orchestration
-- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md)  --  Pipeline management and customer health tracking
+- [Hermes Agent for Ecommerce Operations](../case-studies/ecommerce.md)  --  Order processing and customer communication
+- [Hermes Agent for Professional Services](../case-studies/professional-services.md)  --  Client onboarding and status reporting
+- [Hermes Agent for Mid-Market](../by-company-size/mid-market.md)  --  Multi-team support orchestration
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

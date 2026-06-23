@@ -10,11 +10,11 @@ robots: index,follow
 
 # MCP for Sales: How to Connect Your Business Data to AI
 
-**Sales teams need fast, accurate answers from their business data** — but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives sales professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports — just connect your tools and ask questions in plain English.
+**Sales teams need fast, accurate answers from their business data**  --  but traditional BI tools and manual reporting create bottlenecks that slow decision-making. The Model Context Protocol (MCP) gives sales professionals direct AI-powered access to live data from QuickBooks, Salesforce, HubSpot, Shopify, and 25+ other platforms through natural language queries. No more waiting on data teams for reports  --  just connect your tools and ask questions in plain English.
 
 ## Beyond CRM Dashboards
 
-Every CRM provides dashboards — pre-built reports showing pipeline by stage, quota attainment, activity metrics. These dashboards answer the questions that CRM product managers anticipated. But sales leaders have questions the dashboard builders didn't think of:
+Every CRM provides dashboards  --  pre-built reports showing pipeline by stage, quota attainment, activity metrics. These dashboards answer the questions that CRM product managers anticipated. But sales leaders have questions the dashboard builders didn't think of:
 
 - "Which deals that have been in the pipeline more than 60 days are still worth pursuing?"
 - "What's the average time from demo to close for deals over $50,000, and which reps are fastest?"
@@ -73,7 +73,7 @@ Connect rep activity to outcomes:
 
 Unlock insights hidden in your CRM data:
 
-**Account expansion.** "Which existing customers have high product usage but low contract value — indicating expansion opportunity?" Identify upsell and cross-sell targets.
+**Account expansion.** "Which existing customers have high product usage but low contract value  --  indicating expansion opportunity?" Identify upsell and cross-sell targets.
 
 **Churn risk signals.** "Which accounts have declining engagement (fewer meetings, emails, logins) over the last 90 days?" Early warning for at-risk accounts.
 
@@ -85,7 +85,7 @@ Unlock insights hidden in your CRM data:
 
 ## How CorpusIQ Powers Sales Intelligence
 
-**CRM integration.** CorpusIQ connects to HubSpot and Salesforce with read-only access — query your entire CRM without risk of modifying records, deals, or contacts.
+**CRM integration.** CorpusIQ connects to HubSpot and Salesforce with read-only access  --  query your entire CRM without risk of modifying records, deals, or contacts.
 
 **Multi-source context.** Beyond CRM data, connect email platforms for communication history, calendar for meeting data, and support platforms for customer health signals.
 
@@ -93,7 +93,7 @@ Unlock insights hidden in your CRM data:
 
 **Read-only by default.** Sales connectors are read-only. Analyze pipeline data, query deal records, and generate reports with zero risk of accidentally modifying CRM data.
 
-**Team-wide access.** Sales leaders, managers, and reps can all query CRM data through natural language — no Salesforce report builder expertise required.
+**Team-wide access.** Sales leaders, managers, and reps can all query CRM data through natural language  --  no Salesforce report builder expertise required.
 
 ## FAQ: Common Questions
 
@@ -106,7 +106,7 @@ MCP complements CRM reporting by enabling ad-hoc queries that standard reports d
 <details>
 <summary><strong>How does this work with Salesforce's complex data model?</strong></summary>
 
-CorpusIQ's Salesforce connector handles the complexity — custom objects, custom fields, and relationships are all exposed as queryable tools. You don't need to understand the Salesforce data model to get answers.
+CorpusIQ's Salesforce connector handles the complexity  --  custom objects, custom fields, and relationships are all exposed as queryable tools. You don't need to understand the Salesforce data model to get answers.
 </details>
 
 <details>
@@ -118,7 +118,7 @@ Yes. A rep can ask "what's the full history with this account?" before a meeting
 <details>
 <summary><strong>How does forecasting with MCP compare to dedicated forecasting tools?</strong></summary>
 
-MCP provides data access for forecasting — pipeline values, historical conversion rates, rep-level performance. The AI model can perform basic forecast calculations. For advanced forecasting (AI-driven predictive models, scenario planning), dedicated tools like Clari or Gong may provide deeper capabilities.
+MCP provides data access for forecasting  --  pipeline values, historical conversion rates, rep-level performance. The AI model can perform basic forecast calculations. For advanced forecasting (AI-driven predictive models, scenario planning), dedicated tools like Clari or Gong may provide deeper capabilities.
 </details>
 
 <details>
@@ -143,9 +143,9 @@ Yes. Connect email, calendar, support platforms, and product usage data to build
 - [MCP for Operations: Workflow and KPIs](/docs/mcp-for-operations)
 - [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io) — connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
 ---
 
 *

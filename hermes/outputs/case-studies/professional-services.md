@@ -19,7 +19,7 @@ Hermes Agent automates client onboarding, time tracking, invoice generation, and
 
 ## Overview
 
-Professional services firms — agencies, consultancies, law firms, accounting practices — sell time and expertise. The operational overhead of tracking that time, managing client work, and producing deliverables consumes hours that should be billable. A typical firm runs a CRM for business development, a project management tool for delivery, a time tracking system (often separate), an invoicing platform, and communication tools. Data moves between these systems manually. Hermes Agent automates these handoffs.
+Professional services firms  --  agencies, consultancies, law firms, accounting practices  --  sell time and expertise. The operational overhead of tracking that time, managing client work, and producing deliverables consumes hours that should be billable. A typical firm runs a CRM for business development, a project management tool for delivery, a time tracking system (often separate), an invoicing platform, and communication tools. Data moves between these systems manually. Hermes Agent automates these handoffs.
 
 ## How It Works
 
@@ -51,7 +51,7 @@ When a deal reaches "Closed Won" in the CRM (HubSpot, Close, LeadConnector), the
   description: Checks all in-progress onboardings for stalled steps
 ```
 
-This companion skill identifies onboardings where a step is overdue — contract hasn't been countersigned after 48 hours, workspace hasn't been accessed by the client, kickoff hasn't been scheduled — and escalates to the engagement manager.
+This companion skill identifies onboardings where a step is overdue  --  contract hasn't been countersigned after 48 hours, workspace hasn't been accessed by the client, kickoff hasn't been scheduled  --  and escalates to the engagement manager.
 
 ### Time Tracking Automation
 
@@ -70,7 +70,7 @@ The skill:
 1. Pulls the day's calendar events (Google Calendar, Outlook)
 2. Matches events against active projects and clients in the PM tool
 3. Creates draft time entries for review
-4. Flags gaps — calendar blocks without matching events, suggesting those hours may be missing from tracking
+4. Flags gaps  --  calendar blocks without matching events, suggesting those hours may be missing from tracking
 5. Delivers a daily summary: "Here are your suggested time entries. Confirm and we'll log them."
 
 **Project Budget Monitoring**
@@ -136,17 +136,17 @@ This skill compares hours delivered against retainer commitments week-over-week,
 
 ## Benefits
 
-- **Faster client onboarding** — 6-step workflow triggered automatically when a deal closes
-- **Less time spent on timesheets** — calendar-based suggestions reduce "what did I do Tuesday?" gaps
-- **No budget surprises** — alerts at 70% and 90% of project budget prevent overruns
-- **On-time invoicing** — billing cycles run on schedule, not when someone finds time
-- **Automated status reports** — client-ready reports compiled from PM data every Friday
-- **Retainer visibility** — under/over-delivery flagged weekly before clients notice
+- **Faster client onboarding**  --  6-step workflow triggered automatically when a deal closes
+- **Less time spent on timesheets**  --  calendar-based suggestions reduce "what did I do Tuesday?" gaps
+- **No budget surprises**  --  alerts at 70% and 90% of project budget prevent overruns
+- **On-time invoicing**  --  billing cycles run on schedule, not when someone finds time
+- **Automated status reports**  --  client-ready reports compiled from PM data every Friday
+- **Retainer visibility**  --  under/over-delivery flagged weekly before clients notice
 
 ## Getting Started in Professional Services
 
 1. **Connect your PM tool and calendar first.** These are the two highest-signal data sources for services automation.
-2. **Start with reporting, not action.** Build status reports and monitoring before automated actions — let the team build trust in the data.
+2. **Start with reporting, not action.** Build status reports and monitoring before automated actions  --  let the team build trust in the data.
 3. **Involve the billing manager early.** Invoice generation automation directly affects cash flow. Get their requirements and validation rules before automating.
 4. **Use Slack as the operations hub.** Services teams live in Slack. Route all alerts, approvals, and summaries there.
 5. **Layer automation gradually.** Week 1: status reports. Week 2: time tracking suggestions. Week 3: budget alerts. Week 4: invoice drafts.
@@ -161,7 +161,7 @@ Hermes connects to Monday.com, Notion, and any PM tool with SQL database access 
 
 ### Can Hermes track time automatically?
 
-Hermes suggests time entries based on calendar events and matches them to active projects, but practitioners must review and confirm entries. It cannot observe work activity directly — it bridges calendar data to timesheets.
+Hermes suggests time entries based on calendar events and matches them to active projects, but practitioners must review and confirm entries. It cannot observe work activity directly  --  it bridges calendar data to timesheets.
 
 ### How does Hermes handle different billing rates?
 
@@ -177,15 +177,15 @@ Yes. Hermes compares hours delivered against retainer commitments weekly, flags 
 
 ## Related Pages
 
-- [Hermes Agent for Legal Firms](../case-studies/legal-firms.md) — Time capture and billing compliance
-- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md) — Pipeline management and forecasting
-- [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Client inquiry and SLA management
-- [Hermes Agent for Startups](../by-company-size/startup.md) — Lean services automation for small teams
-- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+- [Hermes Agent for Legal Firms](../case-studies/legal-firms.md)  --  Time capture and billing compliance
+- [Hermes Agent Revenue Operations Automation](../case-studies/revenue-operations.md)  --  Pipeline management and forecasting
+- [Hermes Agent Customer Support Automation](../case-studies/customer-support.md)  --  Client inquiry and SLA management
+- [Hermes Agent for Startups](../by-company-size/startup.md)  --  Lean services automation for small teams
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

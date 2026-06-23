@@ -1,9 +1,9 @@
 ---
-title: NVIDIA DGX Spark — Primary Compute
+title: NVIDIA DGX Spark  --  Primary Compute
 description: Running Hermes Agent on NVIDIA DGX Spark for production inference, model routing, and 24/7 autonomous operations
 ---
 
-# NVIDIA DGX Spark — Primary Compute
+# NVIDIA DGX Spark  --  Primary Compute
 
 The DGX Spark serves as the primary inference and orchestration node for the CorpusIQ agent platform. It handles model inference, cron scheduling, memory management, and the majority of operational workloads.
 
@@ -34,13 +34,13 @@ Persistent knowledge layer: 729 indexed files, pglite database, nomic-embed-text
 
 ## Why DGX Spark
 - Zero-cost local inference for routine tasks
-- Data privacy — sensitive operations never leave the machine
+- Data privacy  --  sensitive operations never leave the machine
 - Sub-100ms latency for local models
 - Silent 24/7 operation in workspace environment
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

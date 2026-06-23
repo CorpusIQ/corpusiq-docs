@@ -5,16 +5,16 @@ description: Preventing duplication and sprawl in autonomous agent systems throu
 
 # System Registry
 
-In autonomous systems, uncontrolled creation leads to chaos. The System Registry validates every component before creation — skills, workflows, automations, cron jobs — ensuring nothing is duplicated and everything has an owner.
+In autonomous systems, uncontrolled creation leads to chaos. The System Registry validates every component before creation  --  skills, workflows, automations, cron jobs  --  ensuring nothing is duplicated and everything has an owner.
 
 ## Registry Checks
 
 Before creating any new component, the registry validates:
 
-1. **Does it already exist?** — Search by name, function, and capability overlap
-2. **Who owns it?** — Each component has an assigned maintainer
-3. **Is it active?** — Components marked deprecated if unused for 30+ days
-4. **Dependencies?** — What other components rely on it
+1. **Does it already exist?**  --  Search by name, function, and capability overlap
+2. **Who owns it?**  --  Each component has an assigned maintainer
+3. **Is it active?**  --  Components marked deprecated if unused for 30+ days
+4. **Dependencies?**  --  What other components rely on it
 
 ## Registry Contents
 
@@ -73,7 +73,7 @@ Email crons run every 15 minutes with delivery verification. Failed checks trigg
 
 ---
 title: Autonomous Scheduling
-description: 24 scheduled processes for 24/7 autonomous operations — monitoring, publishing, and maintenance
+description: 24 scheduled processes for 24/7 autonomous operations  --  monitoring, publishing, and maintenance
 ---
 
 # Autonomous Scheduling
@@ -93,14 +93,14 @@ The platform operates 24 scheduled processes executing on a 24/7 basis: email mo
 
 ## Cron Architecture
 
-Crons run on the primary compute node. A dedicated worker handles browser-dependent tasks via remote SSH. Each cron is verified — status checks catch failures and escalate.
+Crons run on the primary compute node. A dedicated worker handles browser-dependent tasks via remote SSH. Each cron is verified  --  status checks catch failures and escalate.
 
 ## Scheduling Principles
 
-- **Staggered execution** — jobs spaced to avoid resource contention
-- **Retry logic** — failed jobs retry with exponential backoff
-- **Silent success** — jobs report only on breakpoints, not routine success
-- **Manual override** — critical jobs have pause/resume controls
+- **Staggered execution**  --  jobs spaced to avoid resource contention
+- **Retry logic**  --  failed jobs retry with exponential backoff
+- **Silent success**  --  jobs report only on breakpoints, not routine success
+- **Manual override**  --  critical jobs have pause/resume controls
 
 ## Verification
 
@@ -117,12 +117,12 @@ A 10 PM daily system health check runs across all 24 crons, verifying execution 
 
 ## Health Check Coverage
 
-1. **Cron health** — All 24 jobs verified for last successful run
-2. **Disk space** — DGX and Mac Mini storage alerts at 80%
-3. **Token validity** — All OAuth tokens verified non-expired
-4. **Model availability** — Ollama, DeepSeek, Claude endpoints tested
-5. **Email delivery** — Outbound relay verified
-6. **GitHub access** — Token and push capability tested
+1. **Cron health**  --  All 24 jobs verified for last successful run
+2. **Disk space**  --  DGX and Mac Mini storage alerts at 80%
+3. **Token validity**  --  All OAuth tokens verified non-expired
+4. **Model availability**  --  Ollama, DeepSeek, Claude endpoints tested
+5. **Email delivery**  --  Outbound relay verified
+6. **GitHub access**  --  Token and push capability tested
 
 ## Anomaly Detection
 
@@ -136,9 +136,9 @@ Issues classified by severity. P1 (authentication failure, database corruption) 
 
 The self-improvement cron at 11 PM analyzes the day's issues and patches skills, updates documentation, and adjusts cron timing to prevent recurrence.
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

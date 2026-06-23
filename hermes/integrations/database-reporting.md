@@ -1,12 +1,12 @@
 ---
-title: Database + Reporting Integration for Hermes Agent — Automated Queries & Dashboards
+title: Database + Reporting Integration for Hermes Agent  --  Automated Queries & Dashboards
 description: Connect databases (PostgreSQL, MySQL, SQL Server, MongoDB) to Hermes Agent for automated reporting. Scheduled queries, dashboard generation, anomaly detection, and report distribution with MCP setup and cron patterns.
 category: integrations
 tags: [hermes-agent, integration, database, reporting, postgresql, mysql, mongodb, dashboards, anomaly-detection, cron]
 last_updated: 2026-06-16
 ---
 
-# Database + Reporting Integration — Automated Queries & Dashboards
+# Database + Reporting Integration  --  Automated Queries & Dashboards
 
 ## Architecture Overview
 
@@ -30,13 +30,13 @@ The query engine executes parameterized SQL against production databases (or rea
 
 ### Database Servers
 
-**PostgreSQL MCP Server** — provides `query_database`, `list_database_tables`, and `describe_table`. Configure with connection string containing host, port, database name, user, and password. **Critical: use a read-only database user.** Production write access from automation is a significant risk.
+**PostgreSQL MCP Server**  --  provides `query_database`, `list_database_tables`, and `describe_table`. Configure with connection string containing host, port, database name, user, and password. **Critical: use a read-only database user.** Production write access from automation is a significant risk.
 
-**MSSQL MCP Server** — provides `configure_mssql_connection`, `query_mssql_database`, and `list_mssql_tables`. Supports SQL Server authentication and Azure AD. Configure with encrypted connections enabled.
+**MSSQL MCP Server**  --  provides `configure_mssql_connection`, `query_mssql_database`, and `list_mssql_tables`. Supports SQL Server authentication and Azure AD. Configure with encrypted connections enabled.
 
-**MongoDB MCP Server** — provides aggregation pipeline execution for document-based data stores. Use for operational metrics stored in document collections.
+**MongoDB MCP Server**  --  provides aggregation pipeline execution for document-based data stores. Use for operational metrics stored in document collections.
 
-**Cosmos DB MCP Server** — provides `configure_cosmos_connection`, `query_cosmos_database`, and `list_cosmos_containers`. Supports both key-based and Azure RBAC authentication.
+**Cosmos DB MCP Server**  --  provides `configure_cosmos_connection`, `query_cosmos_database`, and `list_cosmos_containers`. Supports both key-based and Azure RBAC authentication.
 
 ### Security Configuration
 
@@ -106,7 +106,7 @@ anomaly_detection:
 2. On schedule, execute all queries for a given dashboard
 3. Format results into the destination's expected schema
 4. Write to Google Sheets (via `read_sheet`/write operations), Notion databases (via Notion API), or Airtable
-5. Log update timestamps — if an update fails, flag it for investigation
+5. Log update timestamps  --  if an update fails, flag it for investigation
 
 **Google Sheets Integration:**
 ```
@@ -184,7 +184,7 @@ WHERE o.id IS NULL;
 3. Record quality metrics over time to identify degrading data sources
 4. Build a quality score per data source (0-100) based on completeness, freshness, and accuracy
 
-**Cron expression:** `0 5 * * *` — runs before the main reporting window.
+**Cron expression:** `0 5 * * *`  --  runs before the main reporting window.
 
 ## Cron Schedule Summary
 
@@ -202,25 +202,25 @@ WHERE o.id IS NULL;
 ### Query Performance
 - Every scheduled query should have an `EXPLAIN` plan reviewed before production use
 - Set `statement_timeout` at the connection level (30 seconds default)
-- Monitor query execution time over time — queries that slow down indicate missing indexes or growing data
+- Monitor query execution time over time  --  queries that slow down indicate missing indexes or growing data
 - Use materialized views for complex reporting queries that don't need real-time data
 
 ### Idempotency
-Design queries and destination writes to be idempotent — running the same report twice should produce the same result, not duplicate data. Use upsert patterns when writing to destinations.
+Design queries and destination writes to be idempotent  --  running the same report twice should produce the same result, not duplicate data. Use upsert patterns when writing to destinations.
 
 ### Failure Handling
 - If a query fails (timeout, connection error): retry once after 5 minutes, then alert
 - If a destination write fails: buffer results and retry; escalate if unresolved after 1 hour
-- Never silently drop report failures — missing data is worse than late data
+- Never silently drop report failures  --  missing data is worse than late data
 
 ### Extending
 - Add Slack slash commands so team members can trigger reports on-demand
 - Connect email to deliver PDF report exports to stakeholders who prefer that format
 - Integrate with BI tools (Metabase, Looker, Tableau) by refreshing their underlying datasets
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

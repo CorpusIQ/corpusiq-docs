@@ -19,7 +19,7 @@ Hermes Agent provides HIPAA-compliant AI workflows that automate patient record 
 
 ## Overview
 
-Healthcare operations involve a dense web of scheduling, verification, record management, and privacy compliance. A typical medical practice or healthcare provider juggles: patient intake and registration, appointment scheduling and reminders, insurance eligibility verification, prior authorization tracking, lab result notification, and referral management. Each involves checking multiple systems — EHR, practice management software, insurance portals, lab interfaces — and each failure mode means delayed care or denied claims.
+Healthcare operations involve a dense web of scheduling, verification, record management, and privacy compliance. A typical medical practice or healthcare provider juggles: patient intake and registration, appointment scheduling and reminders, insurance eligibility verification, prior authorization tracking, lab result notification, and referral management. Each involves checking multiple systems  --  EHR, practice management software, insurance portals, lab interfaces  --  and each failure mode means delayed care or denied claims.
 
 Hermes Agent sits between these systems, coordinating data flows that currently require human staff to copy-paste between screens.
 
@@ -86,7 +86,7 @@ The skill produces an exception report: patients who need updated insurance info
 Every automation touching PHI must respect HIPAA's Security Rule and Privacy Rule. Key patterns:
 
 **Minimum Necessary Access**
-Configure database connector queries with column-level restrictions. Never `SELECT *` — specify only fields the automation genuinely needs. For example, a scheduling skill needs `patient_id, appointment_time, provider_id` but not `diagnosis_codes, notes, medications`.
+Configure database connector queries with column-level restrictions. Never `SELECT *`  --  specify only fields the automation genuinely needs. For example, a scheduling skill needs `patient_id, appointment_time, provider_id` but not `diagnosis_codes, notes, medications`.
 
 **Audit Trail**
 Every Hermes action that accesses or processes PHI should log to an immutable audit trail:
@@ -120,12 +120,12 @@ This skill queries the lab interface for new results, parses abnormal flags, and
 
 ## Benefits
 
-- **Reduced administrative burden** — staff reclaim hours spent on manual verification and data entry
-- **Faster patient throughput** — automated chart reviews catch gaps before appointments begin
-- **Improved revenue cycle** — insurance verification catches coverage issues before claims are submitted
-- **HIPAA compliance by design** — minimum necessary access, audit trails, and encrypted storage
-- **Better patient outcomes** — critical lab results routed immediately to providers
-- **Scalable practice operations** — same automations work for solo practice or multi-location group
+- **Reduced administrative burden**  --  staff reclaim hours spent on manual verification and data entry
+- **Faster patient throughput**  --  automated chart reviews catch gaps before appointments begin
+- **Improved revenue cycle**  --  insurance verification catches coverage issues before claims are submitted
+- **HIPAA compliance by design**  --  minimum necessary access, audit trails, and encrypted storage
+- **Better patient outcomes**  --  critical lab results routed immediately to providers
+- **Scalable practice operations**  --  same automations work for solo practice or multi-location group
 
 ## Getting Started in Healthcare
 
@@ -157,19 +157,19 @@ Hermes enforces column-level access controls on database queries, pseudonymizes 
 
 ### Can Hermes send automated patient communications?
 
-Hermes can draft patient communications for staff review but should not send directly without approval. Automated appointment reminders are an exception — these can be configured for direct delivery through approved communication channels.
+Hermes can draft patient communications for staff review but should not send directly without approval. Automated appointment reminders are an exception  --  these can be configured for direct delivery through approved communication channels.
 
 ## Related Pages
 
-- [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md) — Continuous SOC 2, HIPAA, and GDPR evidence collection
-- [Hermes Agent for Financial Services](../case-studies/financial-services.md) — Portfolio monitoring and regulatory filing
-- [Hermes Agent for Enterprise](../by-company-size/enterprise.md) — Security architecture and HIPAA compliance at scale
-- [Hermes Agent Customer Support Automation](../case-studies/customer-support.md) — Patient inquiry triage and SLA management
-- [Hermes Agent Overview](../../index.md) — Core platform capabilities and connector ecosystem
+- [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md)  --  Continuous SOC 2, HIPAA, and GDPR evidence collection
+- [Hermes Agent for Financial Services](../case-studies/financial-services.md)  --  Portfolio monitoring and regulatory filing
+- [Hermes Agent for Enterprise](../by-company-size/enterprise.md)  --  Security architecture and HIPAA compliance at scale
+- [Hermes Agent Customer Support Automation](../case-studies/customer-support.md)  --  Patient inquiry triage and SLA management
+- [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies) — real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

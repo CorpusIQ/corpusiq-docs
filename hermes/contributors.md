@@ -1,5 +1,5 @@
 ---
-title: Hermes Contributors — How to Submit to the Hermes Ecosystem Directory
+title: Hermes Contributors  --  How to Submit to the Hermes Ecosystem Directory
 description: Learn how to contribute to the largest Hermes Agent resource directory. Submit repos, review pending additions, and join the community of contributors. 122+ repos indexed.
 category: Community
 tags:
@@ -11,9 +11,9 @@ tags:
 last_updated: 2026-06-20T06:02Z
 ---
 
-# Hermes Community Contributors — Help Build the Largest Hermes Resource Directory
+# Hermes Community Contributors  --  Help Build the Largest Hermes Resource Directory
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources — tools, skills, MCP servers, dashboards, and deployment guides. Every contribution helps the community discover what's possible with **autonomous AI agents**. Submit a repo, review additions, or open a PR to improve the directory.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources  --  tools, skills, MCP servers, dashboards, and deployment guides. Every contribution helps the community discover what's possible with **autonomous AI agents**. Submit a repo, review additions, or open a PR to improve the directory.
 
 ## Overview
 
@@ -31,20 +31,20 @@ The **Hermes Ecosystem Directory** is the most comprehensive collection of Herme
 
 ### 1. Submit a Repository
 
-**[Use the submission form →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** — Takes 60 seconds. Include the repo URL, a short description, and the category it belongs to.
+**[Use the submission form →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)**  --  Takes 60 seconds. Include the repo URL, a short description, and the category it belongs to.
 
 **What we're looking for:**
-- **Hermes Agent tools, SDKs, and integrations** — Anything that extends Hermes
+- **Hermes Agent tools, SDKs, and integrations**  --  Anything that extends Hermes
 - **MCP servers** compatible with Hermes Agent
-- **Skills and plugins** — Production-ready or experimental
-- **Deployment guides and infrastructure** — How you run Hermes in production
-- **Research papers and benchmarks** — Performance data and academic work
-- **Tutorials and educational content** — Guides for the community
-- **Community projects and examples** — What you've built
+- **Skills and plugins**  --  Production-ready or experimental
+- **Deployment guides and infrastructure**  --  How you run Hermes in production
+- **Research papers and benchmarks**  --  Performance data and academic work
+- **Tutorials and educational content**  --  Guides for the community
+- **Community projects and examples**  --  What you've built
 
 ### 2. Review Pending Submissions
 
-Check the [Pending Review Queue](https://github.com/CorpusIQ/corpusiq-docs/issues?q=label%3Apending-review) — help validate submissions by verifying repo activity, checking for duplicates, and confirming category fit.
+Check the [Pending Review Queue](https://github.com/CorpusIQ/corpusiq-docs/issues?q=label%3Apending-review)  --  help validate submissions by verifying repo activity, checking for duplicates, and confirming category fit.
 
 ### 3. Suggest Improvements
 
@@ -84,18 +84,18 @@ Yes. You can **review pending submissions**, open PRs with category improvements
 
 ### Where do accepted submissions appear?
 
-Accepted repos are added to the [Hermes Ecosystem Directory](/hermes/ecosystem.md) — categorized by type (core, UI, memory, MCP, skills, deployment, research, etc.) with star counts, descriptions, and your GitHub handle as the submitter.
+Accepted repos are added to the [Hermes Ecosystem Directory](/hermes/ecosystem.md)  --  categorized by type (core, UI, memory, MCP, skills, deployment, research, etc.) with star counts, descriptions, and your GitHub handle as the submitter.
 
 ## Related Pages
 
-- [Hermes Ecosystem Directory — 234+ Repos](/hermes/ecosystem.md)
-- [Hermes Knowledge Hub — Production Reference](/hermes/)
-- [Skills Catalog — 133+ Skills](/hermes/skills/catalog/)
+- [Hermes Ecosystem Directory  --  234+ Repos](/hermes/ecosystem.md)
+- [Hermes Knowledge Hub  --  Production Reference](/hermes/)
+- [Skills Catalog  --  133+ Skills](/hermes/skills/catalog/)
 - [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

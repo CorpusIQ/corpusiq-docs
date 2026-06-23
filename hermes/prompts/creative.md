@@ -1,12 +1,12 @@
 ---
-title: Creative Prompts for Hermes Agent — Brainstorming, Naming & Design Strategy
+title: Creative Prompts for Hermes Agent  --  Brainstorming, Naming & Design Strategy
 description: Hermes Agent creative prompts for brainstorming, naming, design briefs, creative strategy, and ideation. Replace bracketed text with your brand context, creative brief, and style preferences. Temperature optimization tips included.
 category: prompts
 tags: [hermes-agent, prompts, creative, brainstorming, naming, design, ideation, creative-strategy]
 last_updated: 2026-06-16
 ---
 
-# Creative Prompts — Brainstorming, Naming & Design Strategy
+# Creative Prompts  --  Brainstorming, Naming & Design Strategy
 
 Prompts for brainstorming, ideation, naming, design briefs, creative strategy, and other generative thinking tasks. Replace `[bracketed text]` with your creative brief details.
 
@@ -24,9 +24,9 @@ Constraints: [BUDGET, TIMELINE, TECHNICAL, OR BRAND LIMITATIONS]
 Target audience: [WHO THIS IS FOR]
 
 Generate ideas across these categories:
-1. Safe bets (low risk, proven approaches) — [N ideas]
-2. Differentiators (medium risk, sets us apart) — [N ideas]
-3. Moonshots (high risk, could be game-changing) — [N ideas]
+1. Safe bets (low risk, proven approaches)  --  [N ideas]
+2. Differentiators (medium risk, sets us apart)  --  [N ideas]
+3. Moonshots (high risk, could be game-changing)  --  [N ideas]
 
 For each idea provide:
 - One-line description
@@ -46,7 +46,7 @@ Instead of asking "how do we solve this?", we'll ask "how do we make this worse?
 Generate [N] ways to make [PROBLEM] as bad as possible.
 
 For each "make it worse" idea:
-- Flip it to its opposite — this becomes a potential solution
+- Flip it to its opposite  --  this becomes a potential solution
 - Evaluate the flipped version for feasibility
 
 This technique surfaces unconventional approaches by breaking fixed thinking patterns.
@@ -84,20 +84,20 @@ After generating all ideas, select the top 5 with the most potential and explain
 Generate [N] name candidates for a [PRODUCT/COMPANY/FEATURE].
 
 Description: [WHAT IT DOES, 1-2 SENTENCES]
-Brand personality: [3-5 ADJECTIVES — e.g., "trustworthy, modern, playful, premium"]
+Brand personality: [3-5 ADJECTIVES  --  e.g., "trustworthy, modern, playful, premium"]
 Competitor names to differentiate from: [LIST]
 Constraints:
 - Domain availability matters? [YES/NO]
-- Trademark search feasible? [YES/NO — if yes, favor unique coined words]
+- Trademark search feasible? [YES/NO  --  if yes, favor unique coined words]
 - Character limit: [MAX]
 - Avoid: [ANY WORDS, THEMES, OR PATTERNS TO EXCLUDE]
 
 Generate names in these categories:
-1. Descriptive (says what it does — e.g., "MailChimp")
-2. Evocative (suggests the feeling — e.g., "Slack")
-3. Coined/Abstract (invented words — e.g., "Kodak")
-4. Compound (two words merged — e.g., "YouTube")
-5. Metaphorical (borrows from another domain — e.g., "Firebase")
+1. Descriptive (says what it does  --  e.g., "MailChimp")
+2. Evocative (suggests the feeling  --  e.g., "Slack")
+3. Coined/Abstract (invented words  --  e.g., "Kodak")
+4. Compound (two words merged  --  e.g., "YouTube")
+5. Metaphorical (borrows from another domain  --  e.g., "Firebase")
 
 For each name: pronunciation guide if needed, 1-sentence brand story hook.
 ```
@@ -143,7 +143,7 @@ Success metrics: [HOW WE'LL MEASURE IMPROVEMENT]
 
 Include:
 1. User story: "As a [USER TYPE], I want to [ACTION] so that [OUTCOME]"
-2. Key screens/states: [LIST — e.g., empty, loading, error, populated, edge case]
+2. Key screens/states: [LIST  --  e.g., empty, loading, error, populated, edge case]
 3. Interaction patterns: [DESCRIBE KEY INTERACTIONS]
 4. Content requirements: headings, body copy, labels, error messages
 5. Accessibility requirements: keyboard nav, screen reader, color contrast
@@ -185,7 +185,7 @@ Develop [N] creative campaign concepts for [PRODUCT LAUNCH/PROMOTION/EVENT].
 
 Objective: [WHAT THE CAMPAIGN NEEDS TO ACHIEVE]
 Budget: [RANGE]
-Channels: [WHERE IT RUNS — social, email, OOH, search, etc.]
+Channels: [WHERE IT RUNS  --  social, email, OOH, search, etc.]
 Timeline: [DURATION]
 
 For each concept provide:
@@ -206,8 +206,8 @@ Design a content strategy for [BRAND] targeting [AUDIENCE] on [PRIMARY CHANNELS]
 
 Business goal: [WHAT CONTENT SHOULD DRIVE]
 Content pillars (3-4):
-1. [PILLAR 1] — [% of content mix] — [WHAT IT COVERS]
-2. [PILLAR 2] — [% of content mix] — [WHAT IT COVERS]
+1. [PILLAR 1]  --  [% of content mix]  --  [WHAT IT COVERS]
+2. [PILLAR 2]  --  [% of content mix]  --  [WHAT IT COVERS]
 3. [ETC.]
 
 For each pillar:
@@ -224,15 +224,15 @@ Include a 90-day editorial calendar layout and KPIs for measuring content effect
 
 ## Tips for Creative Prompts
 
-- **Warm up the model.** Start with "generate 20 bad ideas" then ask for good ones — it loosens constraints.
+- **Warm up the model.** Start with "generate 20 bad ideas" then ask for good ones  --  it loosens constraints.
 - **Specify quantity.** "Give me 10 ideas" gets more varied output than "give me some ideas."
 - **Use constraints as creative fuel.** The tightest briefs often produce the most interesting work.
 - **Ask for rationale.** Understanding why an idea works is as valuable as the idea itself.
 - **Iterate with "more like X."** Once you see a direction you like, steer toward it explicitly.
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

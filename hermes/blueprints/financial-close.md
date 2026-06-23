@@ -1,12 +1,12 @@
 ---
-title: Financial Close Blueprint for Hermes Agent — Monthly Reconciliation Automation
-description: Monthly financial close automation blueprint for Hermes Agent. Data pull, account reconciliation, variance analysis, reporting, and forecasting — connected to QuickBooks, Stripe, banking data. Cron-driven with human sign-off gates.
+title: Financial Close Blueprint for Hermes Agent  --  Monthly Reconciliation Automation
+description: Monthly financial close automation blueprint for Hermes Agent. Data pull, account reconciliation, variance analysis, reporting, and forecasting  --  connected to QuickBooks, Stripe, banking data. Cron-driven with human sign-off gates.
 category: blueprints
 tags: [hermes-agent, blueprint, financial-close, reconciliation, accounting, quickbooks, stripe, monthly-reporting]
 last_updated: 2026-06-16
 ---
 
-# Financial Close Blueprint — Monthly Reconciliation Automation
+# Financial Close Blueprint  --  Monthly Reconciliation Automation
 
 ## Close Timeline
 
@@ -48,28 +48,28 @@ Begin Close    All Accounts   + Variance     Forecast
 
 ### Morning: Trigger the Close
 
-**Cron:** `0 6 1 * *` — 6 AM on the 1st of each month.
+**Cron:** `0 6 1 * *`  --  6 AM on the 1st of each month.
 
 The close automation begins by pulling data from all financial sources for the period that just ended.
 
 ### Step 1: Pull Accounting Data
 
 From the accounting system (QuickBooks, Xero, etc.), extract:
-1. **Trial Balance** — all accounts with ending balances for the period
-2. **Profit & Loss** — revenue and expense categories with period totals and year-to-date
-3. **Balance Sheet** — assets, liabilities, and equity as of period end
-4. **Transaction Detail** — general ledger detail for key accounts flagged for review
-5. **Accounts Receivable Aging** — outstanding invoices by age bucket
-6. **Accounts Payable Aging** — unpaid bills by age bucket
+1. **Trial Balance**  --  all accounts with ending balances for the period
+2. **Profit & Loss**  --  revenue and expense categories with period totals and year-to-date
+3. **Balance Sheet**  --  assets, liabilities, and equity as of period end
+4. **Transaction Detail**  --  general ledger detail for key accounts flagged for review
+5. **Accounts Receivable Aging**  --  outstanding invoices by age bucket
+6. **Accounts Payable Aging**  --  unpaid bills by age bucket
 
 ### Step 2: Pull Payment Processor Data
 
 From Stripe or other payment processors:
 1. **Gross revenue** for the period (charges, net of refunds)
-2. **Fees** — processing fees, dispute fees, platform fees
-3. **Payouts** — what actually hit the bank, by date
-4. **Disputes** — open and resolved chargebacks with amounts
-5. **Refunds** — period refunds with reasons
+2. **Fees**  --  processing fees, dispute fees, platform fees
+3. **Payouts**  --  what actually hit the bank, by date
+4. **Disputes**  --  open and resolved chargebacks with amounts
+5. **Refunds**  --  period refunds with reasons
 
 ### Step 3: Pull Banking Data
 
@@ -91,7 +91,7 @@ From other systems:
 The agent generates a personalized close checklist based on what data was successfully pulled and what needs attention:
 
 ```markdown
-# Monthly Close Checklist — [MONTH YEAR]
+# Monthly Close Checklist  --  [MONTH YEAR]
 
 ## Data Status
 | Source | Status | Notes |
@@ -121,7 +121,7 @@ The agent generates a personalized close checklist based on what data was succes
 
 ### Automated Reconciliation
 
-**Cron:** `0 7 2 * *` — Day 2 reconciliation run, with a follow-up on Day 3 if variances remain.
+**Cron:** `0 7 2 * *`  --  Day 2 reconciliation run, with a follow-up on Day 3 if variances remain.
 
 ### Revenue Reconciliation
 
@@ -152,7 +152,7 @@ Match the accounting system's bank balance to the actual bank balance:
 2. Pull balance per accounting system for the same account
 3. List outstanding checks and deposits in transit
 4. Compute adjusted balance: `Book Balance + Deposits in Transit - Outstanding Checks`
-5. Compare to bank statement balance — should match within de minimis threshold
+5. Compare to bank statement balance  --  should match within de minimis threshold
 
 ### Accounts Receivable Reconciliation
 
@@ -163,7 +163,7 @@ Match the accounting system's bank balance to the actual bank balance:
 
 ## Day 4-5: Reporting and Variance Analysis
 
-**Cron:** `0 6 4 * *` — Day 4 report generation.
+**Cron:** `0 6 4 * *`  --  Day 4 report generation.
 
 ### Financial Package
 
@@ -211,7 +211,7 @@ For line items with variance > 5% or > $[THRESHOLD], the agent generates comment
 
 ## Day 6-7: Review and Forecast
 
-**Cron:** `0 8 6 * *` — Day 6 forecast update.
+**Cron:** `0 8 6 * *`  --  Day 6 forecast update.
 
 ### Forecast Update
 
@@ -224,7 +224,7 @@ Based on the just-closed month and year-to-date results, update the rolling fore
 
 ### Close Package Distribution
 
-**Cron:** `0 9 7 * *` — Day 7 package distribution.
+**Cron:** `0 9 7 * *`  --  Day 7 package distribution.
 
 The completed close package is distributed:
 1. Full package → finance team (email with PDF/Notion link)
@@ -245,7 +245,7 @@ After distribution, the agent generates a process retrospective:
 
 | Day | Time | Task | Cron |
 |---|---|---|---|
-| 1st | 06:00 | Trigger close — pull all data | `0 6 1 * *` |
+| 1st | 06:00 | Trigger close  --  pull all data | `0 6 1 * *` |
 | 2nd | 07:00 | Run automated reconciliations | `0 7 2 * *` |
 | 3rd | 07:00 | Re-run reconciliations for unresolved items | `0 7 3 * *` |
 | 4th | 06:00 | Generate financial package and variance analysis | `0 6 4 * *` |
@@ -290,12 +290,12 @@ This is essential for audit readiness and debugging why a number changed between
 ### Extending
 - Connect **spreadsheet-based budgets** so variance analysis compares to the official budget, not last month
 - Add **multi-entity consolidation** for organizations with subsidiaries
-- Integrate **tax compliance** checks — estimated tax payment adequacy, sales tax collection gaps
+- Integrate **tax compliance** checks  --  estimated tax payment adequacy, sales tax collection gaps
 - Connect to **investor reporting templates** for automatic investor update generation
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

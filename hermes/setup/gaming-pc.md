@@ -1,14 +1,14 @@
 ---
-title: Gaming PC Hermes Agent Setup — CUDA-Accelerated AI Workstation
+title: Gaming PC Hermes Agent Setup  --  CUDA-Accelerated AI Workstation
 description: Run Hermes Agent on your gaming PC with NVIDIA CUDA acceleration. Local LLM inference at 50-200 tokens/sec, zero API costs. Step-by-step setup for Ubuntu Linux with Ollama, GPU optimization, and persistent operation.
 category: setup
 tags: [gaming-pc, hermes-agent, setup-guide, nvidia, cuda, ollama, gpu-acceleration, local-models]
 last_updated: 2026-06-16
 ---
 
-# Gaming PC Hermes Agent Setup — CUDA-Accelerated AI Workstation
+# Gaming PC Hermes Agent Setup  --  CUDA-Accelerated AI Workstation
 
-Got a gaming rig with an NVIDIA GPU? It's a perfect Hermes Agent host for developers and power users. Run models locally at full speed with CUDA acceleration — no per-token API costs, no latency, no rate limits. This gaming PC setup guide covers everything from NVIDIA drivers to persistent operation.
+Got a gaming rig with an NVIDIA GPU? It's a perfect Hermes Agent host for developers and power users. Run models locally at full speed with CUDA acceleration  --  no per-token API costs, no latency, no rate limits. This gaming PC setup guide covers everything from NVIDIA drivers to persistent operation.
 
 ## Overview
 
@@ -26,7 +26,7 @@ A gaming PC delivers the highest raw inference performance for local AI models. 
 
 ## Minimum Specs
 
-- **GPU:** NVIDIA GTX 1060 (6GB) or better — RTX 3060+ recommended
+- **GPU:** NVIDIA GTX 1060 (6GB) or better  --  RTX 3060+ recommended
 - **RAM:** 16GB system memory minimum, 32GB+ ideal
 - **Storage:** 50GB free for models and embeddings
 - **OS:** Linux (Ubuntu 22.04/24.04) or [Windows 11 + WSL2](windows-wsl.md)
@@ -136,7 +136,7 @@ sudo apt install libnvidia-gl-550  # For headless GPU rendering
 
 ## Windows + WSL2 Alternative
 
-If you game on Windows, [follow the WSL2 guide](windows-wsl.md). GPU passthrough works — Ollama inside WSL2 sees your NVIDIA GPU via `nvidia-smi`.
+If you game on Windows, [follow the WSL2 guide](windows-wsl.md). GPU passthrough works  --  Ollama inside WSL2 sees your NVIDIA GPU via `nvidia-smi`.
 
 ## FAQ
 
@@ -151,11 +151,11 @@ Any RTX 30-series or newer works well. The RTX 4090 (24GB VRAM) is ideal for run
 
 ## Related Pages
 
-- [Hermes Agent Setup Overview](/hermes/setup/) — Compare all platforms
-- [Windows WSL2 Setup](windows-wsl.md) — GPU passthrough on Windows
-- [Mac Mini M4 Setup](mac-mini-standalone.md) — Silent alternative
-- [Model Selection Guide](/hermes/best-practices/model-selection.md) — Choose the right model
-- [Troubleshooting Guide](/hermes/troubleshooting/) — Common GPU issues
+- [Hermes Agent Setup Overview](/hermes/setup/)  --  Compare all platforms
+- [Windows WSL2 Setup](windows-wsl.md)  --  GPU passthrough on Windows
+- [Mac Mini M4 Setup](mac-mini-standalone.md)  --  Silent alternative
+- [Model Selection Guide](/hermes/best-practices/model-selection.md)  --  Choose the right model
+- [Troubleshooting Guide](/hermes/troubleshooting/)  --  Common GPU issues
 ---
 
 *

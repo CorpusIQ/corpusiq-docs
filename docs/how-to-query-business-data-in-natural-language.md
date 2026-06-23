@@ -1,5 +1,5 @@
 ---
-title: "How to Query Business Data in Natural Language — AI-Powered Analytics Guide"
+title: "How to Query Business Data in Natural Language  --  AI-Powered Analytics Guide"
 description: "Query your business data using plain English with CorpusIQ MCP. No SQL required. Connect CRM, accounting, and analytics to AI for natural language queries."
 h1: "How to Query Business Data in Natural Language"
 url: "/docs/how-to-query-business-data-in-natural-language/"
@@ -13,13 +13,13 @@ tags: ["natural-language-query", "nlq", "ai-analytics", "business-intelligence"]
 
 ## The Problem
 
-Business data is locked behind technical barriers. To answer "What were our top 5 customers by revenue last quarter?" you need to: know SQL, understand the database schema, have access to the data warehouse, write a correct query, and format the results. Most business users can't do this — so they wait for analysts, export to Excel, or skip the analysis entirely.
+Business data is locked behind technical barriers. To answer "What were our top 5 customers by revenue last quarter?" you need to: know SQL, understand the database schema, have access to the data warehouse, write a correct query, and format the results. Most business users can't do this  --  so they wait for analysts, export to Excel, or skip the analysis entirely.
 
 Natural language querying (NLQ) changes this. But most NLQ tools still require data warehouses, schema configuration, and significant setup. There's a simpler way.
 
 ## The Solution
 
-CorpusIQ enables true natural language querying of business data — no SQL, no warehouses, no configuration. Connect your data sources, ask questions in plain English, and get structured answers from live data in seconds.
+CorpusIQ enables true natural language querying of business data  --  no SQL, no warehouses, no configuration. Connect your data sources, ask questions in plain English, and get structured answers from live data in seconds.
 
 ## What You'll Need
 
@@ -33,10 +33,10 @@ CorpusIQ enables true natural language querying of business data — no SQL, no 
 
 Natural language querying only works if the data is accessible. Connect your key sources:
 
-1. **CRM** — for customer, deal, and pipeline questions
-2. **Accounting** — for revenue, expense, and financial questions
-3. **Analytics** — for traffic, conversion, and marketing questions
-4. **Payments** — for transaction and cash flow questions
+1. **CRM**  --  for customer, deal, and pipeline questions
+2. **Accounting**  --  for revenue, expense, and financial questions
+3. **Analytics**  --  for traffic, conversion, and marketing questions
+4. **Payments**  --  for transaction and cash flow questions
 
 In CorpusIQ: Dashboard → Add Connector → OAuth → Done. Each under 60 seconds.
 
@@ -58,7 +58,7 @@ Natural language querying is a skill. The more specific your question, the bette
 
 ### Step 3: Master Filtering and Aggregation
 
-Natural language supports the same operations as SQL — just phrased differently:
+Natural language supports the same operations as SQL  --  just phrased differently:
 
 **Filtering:**
 - "Show me deals over $10,000 closing this quarter"
@@ -103,7 +103,7 @@ Natural language querying is conversational. If the first answer isn't exactly w
 
 **AI Response:**
 ```
-SALES PERFORMANCE — Q2 2026 vs Q1 2026
+SALES PERFORMANCE  --  Q2 2026 vs Q1 2026
 
 | Metric | Q1 2026 | Q2 2026 | Change |
 |--------|---------|---------|--------|
@@ -115,9 +115,9 @@ SALES PERFORMANCE — Q2 2026 vs Q1 2026
 | Avg Sales Cycle | 34 days | 28 days | -17.6% |
 
 Top Performing Reps:
-1. Sarah Chen — $425,000 closed (11 deals)
-2. Marcus Johnson — $380,000 closed (9 deals)
-3. David Park — $295,000 closed (8 deals)
+1. Sarah Chen  --  $425,000 closed (11 deals)
+2. Marcus Johnson  --  $380,000 closed (9 deals)
+3. David Park  --  $295,000 closed (8 deals)
 ```
 
 ## Tools Needed (and CorpusIQ's Role)
@@ -136,7 +136,7 @@ Top Performing Reps:
 A: No. You express what you want in plain English. The AI translates it to the appropriate API queries.
 
 **Q: How accurate are natural language queries?**  
-A: As accurate as the underlying data. The AI queries live sources — there's no interpretation or approximation of numerical data.
+A: As accurate as the underlying data. The AI queries live sources  --  there's no interpretation or approximation of numerical data.
 
 **Q: What if the AI misunderstands my question?**  
 A: Refine your question with more specifics. The conversational nature means you can iterate until you get exactly what you need.
@@ -161,7 +161,7 @@ A: Minimal. The main skill is learning to be specific in your questions. Most us
 - [How to Analyze Company Data with ChatGPT](/docs/how-to-analyze-company-data-with-chatgpt/)
 - [How to Use AI with Business Data](/docs/how-to-use-ai-with-business-data/)
 - [How to Build an Executive AI Dashboard](/docs/how-to-build-an-executive-ai-dashboard/)
-- [CorpusIQ vs Traditional BI — Natural Language vs Dashboards](/docs/corpusiq-vs-traditional-bi/)
+- [CorpusIQ vs Traditional BI  --  Natural Language vs Dashboards](/docs/corpusiq-vs-traditional-bi/)
 - [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai/)
 - [Best Business AI Search Tool](/docs/best-business-ai-search-tool/)
 - [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform/)

@@ -1,7 +1,7 @@
 # MCP developer prompts
 
 These prompts are written for developers using CorpusIQ as an MCP server
-— either from Claude Desktop, a custom MCP client, or an agent pipeline.
+ --  either from Claude Desktop, a custom MCP client, or an agent pipeline.
 They go beyond operator-level queries and focus on programmatic access,
 cross-connector joins, debugging, and building CorpusIQ into larger
 workflows.
@@ -28,7 +28,7 @@ tool-call code in your agent.
 **Connectors used:** Shopify or Amazon Seller.
 **MCP tool:** `get_orders` with `created_after` date param.
 **What this does:** Returns raw order objects with line items, amounts,
-statuses. The MCP layer returns typed JSON — no parsing of prose needed.
+statuses. The MCP layer returns typed JSON  --  no parsing of prose needed.
 **Developer use case:** Feed order data into a downstream analytics
 pipeline or a fine-tuning dataset.
 
@@ -110,7 +110,7 @@ before attributing it as a channel.
 `list_invoices` (QuickBooks).
 **What this does:** Two lists, joined on company name or amount. Gaps
 are deals with no matching invoice.
-**Developer use case:** Revenue leakage audit — catch won deals that
+**Developer use case:** Revenue leakage audit  --  catch won deals that
 slipped through billing.
 
 ---
@@ -122,7 +122,7 @@ slipped through billing.
 `list_invoices` (QuickBooks).
 **What this does:** Stripe returns raw charges; QuickBooks returns
 booked income. Mismatches surface timing gaps or missing entries.
-**Developer use case:** Automated reconciliation check — run daily in
+**Developer use case:** Automated reconciliation check  --  run daily in
 a CI pipeline.
 
 ---
@@ -149,7 +149,7 @@ configured, date filter is too narrow by default.
 
 ---
 
-### "My GA4 report is returning empty rows — how do I debug it?"
+### "My GA4 report is returning empty rows  --  how do I debug it?"
 
 **Connectors used:** GA4.
 **Debug approach:** First call `list_accounts` to verify the property
@@ -157,14 +157,14 @@ is visible. Then call `list_properties` with the account ID. Then run a
 minimal report: single dimension `date`, single metric `sessions`, last
 7 days. If that works, add dimensions one at a time until the empty
 response reappears.
-**Common cause:** `property_id` has the format `properties/XXXXXXX` —
+**Common cause:** `property_id` has the format `properties/XXXXXXX`  -- 
 make sure you're passing just the numeric ID, not the full path.
 
 ---
 
 ### "Check whether my QuickBooks token is still valid."
 
-**MCP tool:** `get_company_info` — this is the lightest QuickBooks
+**MCP tool:** `get_company_info`  --  this is the lightest QuickBooks
 call. A valid token returns company name and fiscal year. An expired
 token returns a 401 error, which tells you to re-authenticate via
 `get_connector_status`.
@@ -177,7 +177,7 @@ token returns a 401 error, which tells you to re-authenticate via
 **What this does:** Returns a table of every configured connector,
 its auth state (connected / expired / not authenticated), and a
 re-auth link where applicable.
-**Developer use case:** Health check endpoint in an agent — run this
+**Developer use case:** Health check endpoint in an agent  --  run this
 at session start to gate which connectors are usable.
 
 ---
@@ -231,7 +231,7 @@ and data normalization.
 
 ---
 
-### "Use CorpusIQ as the memory layer for a sales agent — give it access to all open deals and customer history."
+### "Use CorpusIQ as the memory layer for a sales agent  --  give it access to all open deals and customer history."
 
 **Architecture:**
 1. Attach CorpusIQ MCP to your sales agent's LLM context.
@@ -268,9 +268,9 @@ most recent email thread.
    (stored in canonical facts), and returns a diff report.
 3. CI job posts the report to Slack or opens a GitHub issue on regressions.
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

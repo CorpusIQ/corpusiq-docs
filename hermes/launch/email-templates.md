@@ -1,25 +1,25 @@
 # Email Outreach Templates
 
-## 1. Cold Outreach — Shopify Store Owner
+## 1. Cold Outreach  --  Shopify Store Owner
 
-Subject: Connect your Shopify data to ChatGPT — verified answers
+Subject: Connect your Shopify data to ChatGPT  --  verified answers
 
 Hi {name},
 
 Your Shopify store has the answers. But you're still logging into 5 different dashboards to find them.
 
-CorpusIQ connects 37 business tools — Shopify, QuickBooks, Gmail, Stripe, HubSpot — directly to ChatGPT and Claude. Every answer is verified against your live data and source-cited.
+CorpusIQ connects 37 business tools  --  Shopify, QuickBooks, Gmail, Stripe, HubSpot  --  directly to ChatGPT and Claude. Every answer is verified against your live data and source-cited.
 
 Unlike other AI tools, CorpusIQ doesn't hallucinate numbers. Validation engine. Anti-drift. Read-only OAuth.
 
 30-day free trial. No credit card. → corpusiq.io
 
-—
+ -- 
 CorpusIQ
 
 ## 2. Partner/Co-Marketing
 
-Subject: Co-marketing opportunity — AI business intelligence for your clients
+Subject: Co-marketing opportunity  --  AI business intelligence for your clients
 
 Hi {name},
 
@@ -29,12 +29,12 @@ CorpusIQ connects 37 business platforms (including {platform}) to ChatGPT and Cl
 
 Open to a co-marketing conversation? Could be a blog post, webinar, or joint customer case study.
 
-—
+ -- 
 CorpusIQ
 
 ## 3. Demo Offer
 
-Subject: See your business data in ChatGPT — 10-minute demo
+Subject: See your business data in ChatGPT  --  10-minute demo
 
 Hi {name},
 
@@ -47,10 +47,10 @@ No obligation. No credit card.
 → corpusiq.io/demo
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

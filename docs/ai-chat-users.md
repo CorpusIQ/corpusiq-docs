@@ -1,6 +1,6 @@
 ---
-title: "AI Chat Users — Natural Language Business Data Queries at demo.corpusiq.io"
-description: "Access CorpusIQ AI chat at demo.corpusiq.io. Ask natural-language questions about revenue, customers, orders, and marketing across 36 connected business data sources — no coding required."
+title: "AI Chat Users  --  Natural Language Business Data Queries at demo.corpusiq.io"
+description: "Access CorpusIQ AI chat at demo.corpusiq.io. Ask natural-language questions about revenue, customers, orders, and marketing across 36 connected business data sources  --  no coding required."
 category: "Documentation"
 tags: ["ai chat", "corpusiq chat", "business data chat", "natural language queries", "revenue analysis", "customer intelligence", "marketing analytics"]
 last_updated: "2026-06-16"
@@ -98,25 +98,25 @@ The CorpusIQ AI chat provides natural language access to your connected business
 ## Frequently Asked Questions
 
 **Q: What is the CorpusIQ AI chat?**  
-A: The CorpusIQ AI chat at demo.corpusiq.io provides natural-language access to all your connected business data. Ask questions like 'What was our MRR last month?' and get answers from live data — no SQL or coding required.
+A: The CorpusIQ AI chat at demo.corpusiq.io provides natural-language access to all your connected business data. Ask questions like 'What was our MRR last month?' and get answers from live data  --  no SQL or coding required.
 
 **Q: What types of questions can I ask in the AI chat?**  
-A: Revenue analysis, customer intelligence, order management, marketing analytics, financial reporting, inventory tracking, and cross-source correlation — e.g., 'Compare Stripe revenue to Shopify orders for March.'
+A: Revenue analysis, customer intelligence, order management, marketing analytics, financial reporting, inventory tracking, and cross-source correlation  --  e.g., 'Compare Stripe revenue to Shopify orders for March.'
 
 **Q: How do I get started with the AI chat?**  
 A: Go to demo.corpusiq.io, sign in with your email, connect your first data source via OAuth (Stripe, Shopify, or QuickBooks recommended), and start asking questions in plain English.
 
 ## Internal Links
 
-- **[ChatGPT Integration with CorpusIQ](/docs/chatgpt-integration)** — Connect ChatGPT to your business data  
-- **[AI Agent Users Guide](/docs/ai-agent-users)** — MCP direct connection for AI agents  
-- **[AI Chat Users Guide](/docs/ai-chat-users)** — Natural language queries at demo.corpusiq.io  
-- **[Supported AI Agents](/docs/supported-agents)** — MCP config for Claude, Cursor, Hermes, Windsurf  
-- **[CorpusIQ Quick Start](/docs/quick-start)** — Get running in under 5 minutes  
-- **[CorpusIQ Connectors Directory](/docs/connectors)** — All 50+ data source integrations  
-- **[Enterprise AI Data Access](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2 compliance  
+- **[ChatGPT Integration with CorpusIQ](/docs/chatgpt-integration)**  --  Connect ChatGPT to your business data  
+- **[AI Agent Users Guide](/docs/ai-agent-users)**  --  MCP direct connection for AI agents  
+- **[AI Chat Users Guide](/docs/ai-chat-users)**  --  Natural language queries at demo.corpusiq.io  
+- **[Supported AI Agents](/docs/supported-agents)**  --  MCP config for Claude, Cursor, Hermes, Windsurf  
+- **[CorpusIQ Quick Start](/docs/quick-start)**  --  Get running in under 5 minutes  
+- **[CorpusIQ Connectors Directory](/docs/connectors)**  --  All 50+ data source integrations  
+- **[Enterprise AI Data Access](/docs/enterprise-ai-data-access)**  --  SSO, SAML, SOC 2 compliance  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *

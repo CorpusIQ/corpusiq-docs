@@ -1,11 +1,11 @@
 ---
 title: LangGraph + Hermes Integration
-description: Stateful graph-based agent workflows — conditional routing, persistence, and production patterns with LangGraph and Hermes
+description: Stateful graph-based agent workflows  --  conditional routing, persistence, and production patterns with LangGraph and Hermes
 ---
 
 # LangGraph + Hermes Integration
 
-LangGraph brings stateful, graph-based execution to agent workflows. Unlike linear prompt chains or CrewAI's role-based delegation, LangGraph models your agent's decision process as a directed graph — nodes for actions, edges for transitions, and state that persists across steps.
+LangGraph brings stateful, graph-based execution to agent workflows. Unlike linear prompt chains or CrewAI's role-based delegation, LangGraph models your agent's decision process as a directed graph  --  nodes for actions, edges for transitions, and state that persists across steps.
 
 When combined with Hermes, you get deterministic workflow control with Hermes' model routing, tool ecosystem, and memory infrastructure. This guide covers production patterns, persistence strategies, and real workflow examples.
 
@@ -61,7 +61,7 @@ Python functions (or Hermes agent calls) that transform state:
 
 ```python
 def research_node(state: AgentState) -> AgentState:
-    """Research phase — gather information about the topic."""
+    """Research phase  --  gather information about the topic."""
     query = state["messages"][-1].content
     # Use Hermes tool ecosystem via the MCP bridge
     results = hermes_tools.web_search(query)
@@ -71,7 +71,7 @@ def research_node(state: AgentState) -> AgentState:
     }
 
 def analyze_node(state: AgentState) -> AgentState:
-    """Analysis phase — synthesize findings."""
+    """Analysis phase  --  synthesize findings."""
     synthesis = hermes_llm.complete(
         messages=[
             {"role": "system", "content": "Synthesize these research findings into key insights."},
@@ -99,7 +99,7 @@ def should_retry(state: AgentState) -> str:
 
 ## Production Pattern 1: Research-Analyze-Validate Loop
 
-The most common production pattern — research until confident, then proceed.
+The most common production pattern  --  research until confident, then proceed.
 
 ```python
 from langgraph.graph import StateGraph, END
@@ -170,7 +170,7 @@ workflow = graph.compile()
 
 ### Key Design Decisions
 
-**Max iterations:** Always cap loops. Three retries is usually sufficient — beyond that, you're either stuck in a bad pattern or the task is genuinely unsolvable with current information. Log the final state for debugging.
+**Max iterations:** Always cap loops. Three retries is usually sufficient  --  beyond that, you're either stuck in a bad pattern or the task is genuinely unsolvable with current information. Log the final state for debugging.
 
 **Confidence thresholds:** 0.8 works well for most use cases. Lower (0.6) for time-sensitive tasks where speed matters more than accuracy. Higher (0.95) for compliance or financial contexts.
 
@@ -391,7 +391,7 @@ workflow = graph.compile(debug=True)  # Prints every state transition
 
 **Infinite loops without guards:** Always include a max iteration check in your conditional edges. The `retry_count` pattern above is essential.
 
-**State explosion:** Long-running threads accumulate state. Implement state trimming in nodes that run many iterations — keep the last N messages, not all of them.
+**State explosion:** Long-running threads accumulate state. Implement state trimming in nodes that run many iterations  --  keep the last N messages, not all of them.
 
 **Checkpointer performance:** SQLite is fine for single-node, low-throughput deployments. For high-throughput or multi-node, use Postgres. SQLite under concurrent writes will bottleneck.
 
@@ -401,7 +401,7 @@ workflow = graph.compile(debug=True)  # Prints every state transition
 
 | Requirement | Recommendation |
 |---|---|
-| Linear workflows, no branching | Skip LangGraph — use CrewAI or direct Hermes |
+| Linear workflows, no branching | Skip LangGraph  --  use CrewAI or direct Hermes |
 | Conditional routing based on state | LangGraph is ideal |
 | Loops with state (retry, refinement) | LangGraph is ideal |
 | Human approval gates | LangGraph with interrupt |

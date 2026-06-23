@@ -1,17 +1,17 @@
 ---
-title: HyperFrames — Full Setup Guide for Hermes Agents
+title: HyperFrames  --  Full Setup Guide for Hermes Agents
 description: Install, configure, and use the hyperframes skill from nousresearch/hermes-agent. Create HTML-based video compositions, animated title cards, social overlays, and audio-reactive visuals directly from Hermes.
 ---
 
-# HyperFrames — Setup Guide
+# HyperFrames  --  Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/hyperframes) (13 installs on skills.sh¹)
 **Category:** Media & Video
 **Ecosystem:** [HyperFrames by HeyGen](https://skills.sh/heygen-com/hyperframes) (103K+ installs across 5 SDK skills)
 
-Create HTML-based video compositions, animated title cards, social overlays, captioned talking-head videos, audio-reactive visuals, and shader transitions — all directly from Hermes Agent prompts. Wraps the HyperFrames SDK for agentic video generation.
+Create HTML-based video compositions, animated title cards, social overlays, captioned talking-head videos, audio-reactive visuals, and shader transitions  --  all directly from Hermes Agent prompts. Wraps the HyperFrames SDK for agentic video generation.
 
-*¹ The underlying HyperFrames ecosystem (heygen-com/hyperframes) has 103,094 installs for hyperframes, 99,994 for hyperframes-cli, and 96,452 for hyperframes-registry — making this one of the largest video creation ecosystems on skills.sh.*
+*¹ The underlying HyperFrames ecosystem (heygen-com/hyperframes) has 103,094 installs for hyperframes, 99,994 for hyperframes-cli, and 96,452 for hyperframes-registry  --  making this one of the largest video creation ecosystems on skills.sh.*
 
 ---
 
@@ -30,7 +30,7 @@ The HyperFrames ecosystem dependencies (gsap, media, registry, CLI) are bundled 
 | Requirement | Details |
 |---|---|
 | **Hermes Agent** | v0.16.0+ (June 2026 release) |
-| **HyperFrames SDK** | Bundled — no separate install needed |
+| **HyperFrames SDK** | Bundled  --  no separate install needed |
 | **Browser runtime** | Chromium-based browser for HTML canvas rendering (bundled or system) |
 | **FFmpeg** | For video encoding/export (system install: `apt install ffmpeg` or `brew install ffmpeg`) |
 | **Node.js** | 18+ for CLI operations |
@@ -99,7 +99,7 @@ bash SKILL_DIR/scripts/preview.sh --template social-overlay --text "Hello World"
 # Verify skill installed
 hermes skills list | grep hyperframes
 
-# Quick functional test — list available templates
+# Quick functional test  --  list available templates
 bash SKILL_DIR/scripts/templates.sh --list
 
 # Render a test title card

@@ -1,9 +1,9 @@
 ---
-title: Kanban Orchestrator — Full Setup Guide for Hermes Agents
+title: Kanban Orchestrator  --  Full Setup Guide for Hermes Agents
 description: Install, configure, and use the kanban-orchestrator skill from nousresearch/hermes-agent. Decompose growth ops into parallel workstreams.
 ---
 
-# Kanban Orchestrator — Setup Guide
+# Kanban Orchestrator  --  Setup Guide
 
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/kanban-orchestrator) (133 installs)
 **Category:** Productivity
@@ -18,7 +18,7 @@ A decomposition playbook with anti-temptation rules for an orchestrator profile 
 npx skills add nousresearch/hermes-agent@kanban-orchestrator -y
 ```
 
-This is a prompt/instruction module. It changes how the agent thinks about work decomposition — no new tools or APIs.
+This is a prompt/instruction module. It changes how the agent thinks about work decomposition  --  no new tools or APIs.
 
 ---
 
@@ -28,7 +28,7 @@ This is a prompt/instruction module. It changes how the agent thinks about work 
 |---|---|
 | **Hermes Agent** | Any version |
 | **delegate_task tool** | Must be enabled in Hermes config for subagent delegation |
-| **Kanban board (optional)** | GitHub Projects, Notion, or any visual tracker — the skill works with any |
+| **Kanban board (optional)** | GitHub Projects, Notion, or any visual tracker  --  the skill works with any |
 
 ---
 
@@ -45,7 +45,7 @@ This is a prompt/instruction module. It changes how the agent thinks about work 
 
 ### CLI Command Reference
 
-No CLI commands — this is a behavior-modifying skill. Load it into an orchestrator profile and the agent automatically decomposes work.
+No CLI commands  --  this is a behavior-modifying skill. Load it into an orchestrator profile and the agent automatically decomposes work.
 
 ---
 
@@ -53,10 +53,10 @@ No CLI commands — this is a behavior-modifying skill. Load it into an orchestr
 
 | Use Case | How |
 |---|---|
-| **Daily growth sweep** | Decompose into: (1) Reddit mining, (2) HN monitoring, (3) Discord engagement, (4) lead response — run all 4 in parallel |
-| **Product launch checklist** | Break into: social posts, email blast, docs update, changelog, competitor monitoring — dispatch each to a subagent |
+| **Daily growth sweep** | Decompose into: (1) Reddit mining, (2) HN monitoring, (3) Discord engagement, (4) lead response  --  run all 4 in parallel |
+| **Product launch checklist** | Break into: social posts, email blast, docs update, changelog, competitor monitoring  --  dispatch each to a subagent |
 | **Weekly competitive research** | Parallel tasks: scrape 5 competitor sites, analyze pricing changes, summarize feature updates, draft positioning response |
-| **Lead qualification pipeline** | Decompose: email classification → domain research → response drafting → send — each step a separate task |
+| **Lead qualification pipeline** | Decompose: email classification → domain research → response drafting → send  --  each step a separate task |
 | **Content calendar execution** | Break monthly calendar into weekly batches, dispatch each week's posts as parallel tasks |
 
 ---
@@ -65,7 +65,7 @@ No CLI commands — this is a behavior-modifying skill. Load it into an orchestr
 
 | Issue | Fix |
 |---|---|
-| **Orchestrator agent tries to execute** | Remind: "You're the orchestrator — delegate, don't do." The skill reinforces this. |
+| **Orchestrator agent tries to execute** | Remind: "You're the orchestrator  --  delegate, don't do." The skill reinforces this. |
 | **Subagents return incomplete work** | Add verification step to each task: "Return URL, file path, or HTTP status as proof" |
 | **Too many parallel tasks** | Limit to 3 concurrent subagents (config.yaml: `delegation.max_concurrent_children: 3`) |
 | **Kanban board out of sync** | Run a sync pass: "Audit all tasks, update board to match reality" |

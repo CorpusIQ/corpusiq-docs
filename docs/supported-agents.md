@@ -1,5 +1,5 @@
 ---
-title: "Supported AI Agents — MCP Configuration for Claude, Cursor, Hermes, Windsurf"
+title: "Supported AI Agents  --  MCP Configuration for Claude, Cursor, Hermes, Windsurf"
 description: "Complete MCP configuration guides for all supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, Roo Code, OpenClaw. Copy-paste JSON config blocks for instant CorpusIQ connection."
 category: "Documentation"
 tags: ["supported ai agents", "mcp configuration", "claude desktop mcp", "cursor mcp", "hermes agent", "windsurf mcp", "roo code"]
@@ -185,15 +185,15 @@ A: Ask your agent: 'What data sources are connected to CorpusIQ?' It should list
 
 ## Internal Links
 
-- **[ChatGPT Integration with CorpusIQ](/docs/chatgpt-integration)** — Connect ChatGPT to your business data  
-- **[AI Agent Users Guide](/docs/ai-agent-users)** — MCP direct connection for AI agents  
-- **[AI Chat Users Guide](/docs/ai-chat-users)** — Natural language queries at demo.corpusiq.io  
-- **[Supported AI Agents](/docs/supported-agents)** — MCP config for Claude, Cursor, Hermes, Windsurf  
-- **[CorpusIQ Quick Start](/docs/quick-start)** — Get running in under 5 minutes  
-- **[CorpusIQ Connectors Directory](/docs/connectors)** — All 50+ data source integrations  
-- **[Enterprise AI Data Access](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2 compliance  
+- **[ChatGPT Integration with CorpusIQ](/docs/chatgpt-integration)**  --  Connect ChatGPT to your business data  
+- **[AI Agent Users Guide](/docs/ai-agent-users)**  --  MCP direct connection for AI agents  
+- **[AI Chat Users Guide](/docs/ai-chat-users)**  --  Natural language queries at demo.corpusiq.io  
+- **[Supported AI Agents](/docs/supported-agents)**  --  MCP config for Claude, Cursor, Hermes, Windsurf  
+- **[CorpusIQ Quick Start](/docs/quick-start)**  --  Get running in under 5 minutes  
+- **[CorpusIQ Connectors Directory](/docs/connectors)**  --  All 50+ data source integrations  
+- **[Enterprise AI Data Access](/docs/enterprise-ai-data-access)**  --  SSO, SAML, SOC 2 compliance  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *

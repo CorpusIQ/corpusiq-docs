@@ -33,7 +33,7 @@ it.
 
 ### "Compare Google Ads spend to GA4 sessions and revenue."
 
-**What this does:** Cross-source correlation — does spend translate to
+**What this does:** Cross-source correlation  --  does spend translate to
 traffic, and traffic to revenue, on a day-by-day basis?
 **Connectors used:** Google Ads, GA4.
 **Behind the scenes:** `correlate_ads_spend_vs_ga4_revenue` and
@@ -46,7 +46,7 @@ ROAS line at the bottom.
 ### "Which Google Ads campaigns are wasting money?"
 
 **What this does:** Ranks campaigns by spend efficiency. CorpusIQ does
-not invent a "waste" threshold — it surfaces high-spend / low-conversion
+not invent a "waste" threshold  --  it surfaces high-spend / low-conversion
 campaigns so you can judge.
 **Connectors used:** Google Ads.
 **Behind the scenes:** `list_google_ads_campaigns` +
@@ -58,7 +58,7 @@ CTR, CPC, and conversion rate.
 
 ### "What search terms are people actually using to find my ads?"
 
-**What this does:** Pulls the Google Ads search terms report — the queries
+**What this does:** Pulls the Google Ads search terms report  --  the queries
 your keywords matched on. Reveals negative-keyword opportunities.
 **Connectors used:** Google Ads.
 **Behind the scenes:** `get_google_ads_search_terms`.
@@ -69,7 +69,7 @@ and conversions.
 
 ### "Show me my Meta Ads performance for the last 30 days."
 
-**What this does:** Account-level Meta (Facebook + Instagram) summary —
+**What this does:** Account-level Meta (Facebook + Instagram) summary  -- 
 spend, impressions, reach, frequency, CPM, CPC, conversions.
 **Connectors used:** Meta Ads.
 **Behind the scenes:** `get_facebook_account_insights`.
@@ -99,7 +99,7 @@ spend, impressions, reach, frequency, CPM, CPC, conversions.
 
 ### "How's my TikTok content performing?"
 
-**What this does:** TikTok organic — followers, top videos, total views
+**What this does:** TikTok organic  --  followers, top videos, total views
 and engagement.
 **Connectors used:** TikTok.
 **Behind the scenes:** `get_tiktok_account_analytics`,
@@ -110,16 +110,16 @@ and engagement.
 
 ### "Where's my best traffic coming from?"
 
-**What this does:** GA4 acquisition report — channels, sources, mediums
+**What this does:** GA4 acquisition report  --  channels, sources, mediums
 sorted by sessions and conversions.
 **Connectors used:** GA4.
 **Behind the scenes:** `run_ga4_report`.
 **Sample answer shape:** Source/medium table with sessions, users,
 engagement, conversions.
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts) — production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*From the [Hermes Prompt Collection](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/prompts)  --  production prompts for AI agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

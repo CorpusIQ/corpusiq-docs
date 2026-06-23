@@ -1,14 +1,14 @@
 ---
-title: Model Selection Guide for Hermes Agent — Choose the Right AI Model
+title: Model Selection Guide for Hermes Agent  --  Choose the Right AI Model
 description: Hermes Agent model selection best practices. Task-to-model mapping, cost optimization, local vs cloud tradeoffs, fallback chains, and decision tree. Save latency and cost with tiered model routing for every task type.
 category: best-practices
 tags: [hermes-agent, model-selection, ai-models, cost-optimization, ollama, openrouter, local-models, cloud-models]
 last_updated: 2026-06-16
 ---
 
-# Model Selection Guide — Choose the Right AI Model Every Time
+# Model Selection Guide  --  Choose the Right AI Model Every Time
 
-Choosing the right model for each task is one of the highest-leverage decisions you make with Hermes Agent. A well-chosen model saves latency, cost, and context — missteps waste all three. This model selection guide covers task-to-model mapping, cost optimization, local vs cloud tradeoffs, and fallback chain patterns.
+Choosing the right model for each task is one of the highest-leverage decisions you make with Hermes Agent. A well-chosen model saves latency, cost, and context  --  missteps waste all three. This model selection guide covers task-to-model mapping, cost optimization, local vs cloud tradeoffs, and fallback chain patterns.
 
 ## Overview
 
@@ -20,9 +20,9 @@ Hermes Agent supports 200+ models across Ollama (local), OpenRouter, and direct 
 
 Ask three questions before every model selection:
 
-1. **What does the task require?** — Reasoning depth, factual precision, creative generation, or tool orchestration?
-2. **What is the latency budget?** — Real-time interaction, batch processing, or background work?
-3. **What is the cost tolerance?** — Per-request budget, daily volume, or fixed monthly spend?
+1. **What does the task require?**  --  Reasoning depth, factual precision, creative generation, or tool orchestration?
+2. **What is the latency budget?**  --  Real-time interaction, batch processing, or background work?
+3. **What is the cost tolerance?**  --  Per-request budget, daily volume, or fixed monthly spend?
 
 ### Task-to-Model Mapping
 
@@ -39,7 +39,7 @@ Ask three questions before every model selection:
 
 **Prompt compression.** Summarize conversation history before expensive calls. Strip irrelevant tool output.
 
-**Task batching.** Process similar records together — many providers offer 50% discounts on batch endpoints.
+**Task batching.** Process similar records together  --  many providers offer 50% discounts on batch endpoints.
 
 **Model fallback chains.** Try cheapest model first → if confidence low, escalate to mid-tier → if still uncertain, invoke frontier. This "progressive enhancement" gives frontier quality on hard cases while keeping average cost low.
 
@@ -53,11 +53,11 @@ Ask three questions before every model selection:
 
 ## The Fallback Chain Pattern
 
-1. **Check cache** — identical query answered recently? Return cached.
-2. **Try primary model** — send to default model for this task class
-3. **Validate output** — check structure, completeness, confidence
-4. **Escalate if needed** — retry with stronger model
-5. **Track fallback rate** — if >10%, primary model is too weak
+1. **Check cache**  --  identical query answered recently? Return cached.
+2. **Try primary model**  --  send to default model for this task class
+3. **Validate output**  --  check structure, completeness, confidence
+4. **Escalate if needed**  --  retry with stronger model
+5. **Track fallback rate**  --  if >10%, primary model is too weak
 
 ## Practical Decision Tree
 
@@ -82,7 +82,7 @@ Data sensitive/regulated? → Local or approved cloud with BAA
 ## FAQ
 
 ### When should I use a local model vs a cloud model?
-Use local models (Ollama) for classification, extraction, and data-sensitive tasks — they're free and private. Use cloud models for complex reasoning, code generation, and tasks requiring frontier capabilities. Most teams benefit from a [hybrid approach](/hermes/setup/).
+Use local models (Ollama) for classification, extraction, and data-sensitive tasks  --  they're free and private. Use cloud models for complex reasoning, code generation, and tasks requiring frontier capabilities. Most teams benefit from a [hybrid approach](/hermes/setup/).
 
 ### How do I reduce my API costs with Hermes Agent?
 Implement caching for repeated queries, use prompt compression before expensive calls, batch non-urgent tasks, and create fallback chains that try cheaper models first. Track cost per successful task, not per token.
@@ -92,18 +92,18 @@ Frontier models like Claude Sonnet 4, GPT-4o, and DeepSeek V3 excel at code gene
 
 ## Related Pages
 
-- [Best Practices Overview](/hermes/best-practices/) — All guides
-- [Setup Guides](/hermes/setup/) — Platform-specific model configuration
-- [Memory Management](memory-management.md) — Context optimization for models
-- [MCP Server Design](mcp-design.md) — Design tools for model efficiency
+- [Best Practices Overview](/hermes/best-practices/)  --  All guides
+- [Setup Guides](/hermes/setup/)  --  Platform-specific model configuration
+- [Memory Management](memory-management.md)  --  Context optimization for models
+- [MCP Server Design](mcp-design.md)  --  Design tools for model efficiency
 
 ---
 
-Revisit model choices monthly — model quality and pricing change fast.
+Revisit model choices monthly  --  model quality and pricing change fast.
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  308+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 ---
 
 *

@@ -1,5 +1,5 @@
 ---
-meta_title: "CorpusIQ API Endpoints Reference — Full Request/Response Schemas"
+meta_title: "CorpusIQ API Endpoints Reference  --  Full Request/Response Schemas"
 meta_desc: "Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search, DELETE /delete_my_data documentation."
 category: "API Reference"
 tags: ["corpusiq endpoints", "api reference", "query api", "deep search", "rest api", "api schemas", "api examples"]
@@ -53,7 +53,7 @@ Idempotency-Key: <unique-key>  (optional)
       "chunks": [
         {
           "chunk_id": "chnk_x1y2",
-          "content": "Order #12345 — $4,299.00 — Placed 2026-06-14 by customer@example.com",
+          "content": "Order #12345  --  $4,299.00  --  Placed 2026-06-14 by customer@example.com",
           "source_url": "https://admin.shopify.com/store/.../orders/12345",
           "relevance_score": 0.98,
           "metadata": {
@@ -314,7 +314,7 @@ print(response.json()["message"])
 A: POST /query searches across all your connected business data sources with natural-language queries. It supports connector scoping, idempotency keys, and returns semantically ranked, cited results.
 
 **Q: What does POST /deep_search do?**  
-A: POST /deep_search searches the encrypted archive of previously executed queries and their results. It does NOT make live API calls — it searches only your query history for pattern discovery and auditing.
+A: POST /deep_search searches the encrypted archive of previously executed queries and their results. It does NOT make live API calls  --  it searches only your query history for pattern discovery and auditing.
 
 **Q: What happens when I call DELETE /delete_my_data?**  
 A: This endpoint permanently deletes all user data: OAuth tokens, query history, archive entries, webhook registrations, and user profile. The action is irreversible and triggers a user.deleted webhook event.
@@ -324,15 +324,15 @@ A: Pass a 'connectors' array in your /query request body specifying which data s
 
 ## Internal Links
 
-- **[CorpusIQ API Overview](/docs/api/overview)** — Full REST API documentation and base URL reference  
-- **[API Authentication Guide](/docs/api/authentication)** — Bearer tokens, OAuth 2.0, and security best practices  
-- **[API Endpoints Reference](/docs/api/endpoints)** — Complete request/response schemas and code examples  
-- **[API Rate Limits](/docs/api/rate-limits)** — Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/docs/api/webhooks)** — Event notifications and HMAC signature verification  
-- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)** — SSO, SAML, SOC 2, and data residency  
-- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)** — Encryption, network security, and compliance  
+- **[CorpusIQ API Overview](/docs/api/overview)**  --  Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/docs/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/docs/api/endpoints)**  --  Complete request/response schemas and code examples  
+- **[API Rate Limits](/docs/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Event notifications and HMAC signature verification  
+- **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption, network security, and compliance  
 
-*Powered by CorpusIQ — the leading MCP platform for business data and AI.*
+*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
 
 *
