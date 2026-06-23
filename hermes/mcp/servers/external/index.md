@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 22, 2026 (morning sweep) · **Sources:** mcp.so (22,544+ servers), mcpservers.org (9,228+ servers)
+> **Last updated:** June 22, 2026 (afternoon sweep) · **Sources:** mcp.so (22,600+ servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -999,6 +999,50 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ---
 
+## New This Week (June 22, 2026 — afternoon sweep)
+
+### 35 new servers from mcp.so Latest + mcpservers.org Finance + Marketing + Productivity + Development
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Flatland ★ Official | Finance | Financial & quantitative modeling engine for AI agents — typed, named, deterministic |
+| Finance Toolkit | Finance | 200+ financial metrics calculated transparently from raw financial statements — no third-party endpoints |
+| Profitlee Mcp | Ecommerce/Finance | E-commerce & marketplace profitability — net profit, margin, ROI, breakeven, fee-adjusted scenarios |
+| Allowance MCP | Finance | Secure agent purchasing with human-approved virtual cards, checkout automation, receipt reporting |
+| Infersports | Data/Sports | Keyless, hosted MCP for live football & basketball odds — Asian-handicap lines, de-vigged sharp (Pinnacle) probabilities |
+| Selvedge | Dev/Infra | Captures the "why" behind AI coding agent changes — blame, diff, history, prior attempts. 8 tools, local SQLite, MIT |
+| Routara Llm Gateway | Dev/Infra | Routes 787+ LLMs + image & video generation via single API. OpenAI-compatible. `npx routara-mcp@1.0.1` |
+| ServiceNow MCP | Productivity/ITSM | 65 tools over full ServiceNow REST surface — Table, CMDB/IRE, Catalog, Change, Knowledge, Email, ATF |
+| datavessel | Marketing/Analytics | 100+ tools across 10 connectors — Google Analytics, Search Console, Google & Meta Ads, Shopify, WooCommerce, Slack, LinkedIn. OAuth 2.1 |
+| PostWire | Marketing/Social | Post to TikTok, Instagram, YouTube, X, LinkedIn, Bluesky, Telegram, Mastodon & Discord via one MCP tool |
+| AppGoblin ASO | Marketing/ASO | App Store stats, installs, keywords, revenue, descriptions — B2B SDK analysis & ad tech stack intelligence |
+| Company Identity Resolver | Marketing/Sales | Resolve company name/domain/LinkedIn URL into canonical identity with confidence scores |
+| Company Change-Event Feed | Marketing/Sales | Monitor company domain — hiring, tech stack, funding, firmographics, social changes |
+| Funding & Press Signal Scanner | Marketing/Sales | Scan Google News & PR wires for funding rounds, executive moves, product launches, acquisitions |
+| Company Firmographic Enricher | Marketing/Sales | Enrich company domain into structured firmographics with source provenance (schema.org, meta tags) |
+| Company Social Presence Mapper | Marketing/Sales | Map company domain → LinkedIn, X, Instagram, Facebook, YouTube profiles with follower counts |
+| Google Ads - AdPlug | Marketing/Advertising | Connect Google Ads to the AI tools you already use |
+| Sentor | Analytics | Review analysis for AI agents — surface topics from thousands of reviews, pinpoint what to fix first |
+| OpenBase | Data/Intelligence | Free French company data — 20M+ companies, 14 tools (SIREN/SIRET, financials, executives, solvency, legal). No API key |
+| Brazilian PEP | Gov/Compliance | Brazilian Politically Exposed Persons & federal public servants via Porta da Transparência API |
+| Ezel Legal AI | Legal | AI legal research over MCP — search US case law, fetch full opinions, matter-aware Q&A |
+| Quintadb | Database/Productivity | No-code databases, forms, portals — 104 MCP tools. Available in EN, UA, RU variants |
+| framefetch | Content/Research | Social video URL → metadata, transcript (captions/Whisper), engagement insights, parametric frames. YouTube, TikTok, Instagram. x402 pay-per-call |
+| Silkgeo Geo | Marketing/SEO | Dual-market GEO platform — 8 MCP tools for AI visibility audit and citation tracking |
+| MuninX | Productivity | Help desk for small teams — tickets, messages, history search, analytics via MCP. Role-respecting |
+| tinysend | Marketing/Email | Email newsletter creation & management — subscribers, broadcasts, OAuth sign-in, no API key needed |
+| Motivegrid Vehicle Advisor | Data/Consumer | Vehicle intelligence — car comparison, 5-year ownership cost, safety analysis, structured rankings |
+| FlipDomain Domain Sales | Commerce | Premium domain sales — search 2,972 domains, inspect prices, submit purchase offers |
+| Thiri Chord Intelligence | Creative/Music | Deterministic music theory for AI agents — chord analysis, voicing generation, jazz reharmonization. ℤ/12 pitch-class engine |
+| Urbankit Atlas | Data/Real Estate | US county parcel ArcGIS REST endpoints — 152 counties across 50 states |
+| AgentPlayerAchievements | Productivity | Steam-style achievements for AI coding agents — gamified Claude Code, Hermes workflows |
+| PDFMakerAPI | Productivity | Generate PDFs from natural language — invoices, receipts, proposals. Get view/edit/share link |
+| VocalRemover MCP ★ Official | Creative/Audio | Professional audio editing and AI augmentation tools |
+| //beforeyouship | Dev/Infra | LLM cost modeling from editor — realistic costs with retries, caching, batch discounts, infra overhead |
+| Tensorfeed X402 Base Mcp | Finance/Crypto | Read-only Base mainnet chain reader for x402 payment verification, AFTA federation helpers |
+
+---
+
 ## New This Week (June 20, 2026  --  morning sweep)
 
 ### 11 new servers from mcpservers.org All + mcp.so Latest
@@ -1021,12 +1065,12 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ## Ecosystem Stats
 
-- **Total MCP servers tracked:** 22,544 (mcp.so), 9,228 (mcpservers.org)
-- **Official servers:** 42+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, etc.)
+- **Total MCP servers tracked:** 22,600 (mcp.so), 9,300 (mcpservers.org)
+- **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 22 morning):** 6 new MCP servers from mcp.so Feed + mcpservers.org
-- **Cumulative since June 9:** 228 MCP servers catalogued across 16 sweeps
+- **New this cycle (June 22 afternoon):** 35 new MCP servers from mcp.so Latest + mcpservers.org Finance + Marketing + Productivity + Development
+- **Cumulative since June 9:** 269 MCP servers catalogued across 17 sweeps
 
 ---
 
