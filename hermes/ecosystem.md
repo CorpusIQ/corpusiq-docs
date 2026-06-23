@@ -3678,3 +3678,17 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 | [bytechefhq/bytechef](https://github.com/bytechefhq/bytechef) | 775 | Open-source platform that unifies AI agent orchestration and workflow automation — autonomy and precision in one platfor | agent, ecosystem |
 | [giuseppe-trisciuoglio/developer-kit](https://github.com/giuseppe-trisciuoglio/developer-kit) | 291 |  Modular plugin marketplace for Claude Code and agentic CLIs, with validated, spec-driven skills, agents, commands, and  | agent, ecosystem |
 | [osovv/grace-marketplace](https://github.com/osovv/grace-marketplace) | 214 |  GRACE (Graph-RAG Anchored Code Engineering): open Agent Skills for contract-driven AI code generation with semantic mar | agent, ecosystem |
+| [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | 141060 | FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, L | agent, ecosystem |
+| [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | 105512 | An open-source AI agent that brings the power of Gemini directly into your terminal. | agent, ecosystem |
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 83445 | RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge | agent, ecosystem |
+| [aaif-goose/goose](https://github.com/aaif-goose/goose) | 50069 | an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and  | agent, ecosystem |
+| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 48075 | Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, s | agent, ecosystem |
+| [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox) | 15689 | MCP Toolbox for Databases is an open source MCP server for databases. | agent, ecosystem |
+| [modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector) | 10167 | Visual testing tool for MCP servers | agent, ecosystem |
+| [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | 9860 | HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) a | agent, ecosystem |
+| [refly-ai/refly](https://github.com/refly-ai/refly) | 7396 | The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Curs | agent, ecosystem |
+| [steipete/agent-rules](https://github.com/steipete/agent-rules) | 5693 | Rules and Knowledge to work better with agents such as Claude Code or Cursor | agent, ecosystem |
+| [intellectronica/ruler](https://github.com/intellectronica/ruler) | 2773 | Ruler — apply the same rules to all coding agents | agent, ecosystem |
+| [ciembor/agent-rules-books](https://github.com/ciembor/agent-rules-books) | 1938 | AGENTS.md rules / skills for AI coding agents: Codex, Cursor & Claude Code. Inspired by Clean Code,  | agent, ecosystem |
+| [IsHexx/system-prompts-and-models-of-ai-tools-chinese](https://github.com/IsHexx/system-prompts-and-models-of-ai-tools-chinese) | 1194 | AI编程工具中文提示词合集，包含Cursor、Devin、VSCode Agent等多种AI编程工具的提示词，为中文开发者提供AI辅助编程参考资源。持续更新中文编程Rules和最新AI编程提示词。 | agent, ecosystem |
+| [instructa/ai-prompts](https://github.com/instructa/ai-prompts) | 1052 | Curated AI Prompts for Cursor Rules, Cline, Windsurf and Github Copilot | agent, ecosystem |
