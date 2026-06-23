@@ -3445,5 +3445,62 @@
     "discovered_at": "2026-06-23T06:04:38.710157+00:00",
     "status": "approved",
     "approved_at": "2026-06-23T06:04:53.467954+00:00"
+  },
+  {
+    "full_name": "aliaihub/awesome-hermes-usecases",
+    "name": "awesome-hermes-usecases",
+    "description": "Curated real-world use cases for Hermes Agent \u2014 the self-improving AI agent from Nous Research. Backed by primary sources.",
+    "stars": 114,
+    "forks": 8,
+    "url": "https://github.com/aliaihub/awesome-hermes-usecases",
+    "score": 72,
+    "reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week"
+    ],
+    "discovery_date": "2026-06-23T00:15:28.434579-07:00",
+    "language": "Python",
+    "license": "MIT"
+  },
+  {
+    "full_name": "amanning3390/hermeshub",
+    "name": "hermeshub",
+    "description": "HermesHub - The Skills Hub for Hermes Agent by Nous Research. Browse, share, and install community skills.",
+    "stars": 283,
+    "forks": 95,
+    "url": "https://github.com/amanning3390/hermeshub",
+    "score": 75,
+    "reasons": [
+      "direct_hermes_reference",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "discovery_date": "2026-06-23T00:15:28.434579-07:00",
+    "language": "TypeScript",
+    "license": ""
+  },
+  {
+    "full_name": "ksimback/hermes-ecosystem",
+    "name": "hermes-ecosystem",
+    "description": "\ud83d\uddfa\ufe0f Hermes Atlas \u2014 the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com",
+    "stars": 1050,
+    "forks": 83,
+    "url": "https://github.com/ksimback/hermes-ecosystem",
+    "score": 80,
+    "reasons": [
+      "direct_hermes_reference",
+      "high_stars_1000+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "discovery_date": "2026-06-23T00:15:28.434579-07:00",
+    "language": "HTML",
+    "license": ""
   }
 ]

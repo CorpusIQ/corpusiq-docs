@@ -6881,5 +6881,75 @@
     ],
     "discovered_at": "2026-06-23T06:04:44.641450+00:00",
     "status": "pending"
+  },
+  {
+    "full_name": "0xarkstar/awesome-hermes-agent",
+    "name": "awesome-hermes-agent",
+    "description": "A curated list of awesome resources for Hermes Agent by Nous Research",
+    "stars": 33,
+    "forks": 7,
+    "url": "https://github.com/0xarkstar/awesome-hermes-agent",
+    "score": 56,
+    "reasons": [
+      "direct_hermes_reference",
+      "some_stars_10+",
+      "active_week"
+    ],
+    "discovery_date": "2026-06-23T00:15:28.434579-07:00",
+    "language": null,
+    "license": "CC0-1.0"
+  },
+  {
+    "full_name": "NousResearch/hermes-example-plugins",
+    "name": "hermes-example-plugins",
+    "description": "Example plugins for hermes-agent \u2014 reference implementations and documentation companions, not bundled with the core repo.",
+    "stars": 22,
+    "forks": 12,
+    "url": "https://github.com/NousResearch/hermes-example-plugins",
+    "score": 62,
+    "reasons": [
+      "direct_hermes_reference",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week"
+    ],
+    "discovery_date": "2026-06-23T00:15:28.434579-07:00",
+    "language": "Python",
+    "license": "MIT"
+  },
+  {
+    "full_name": "OnlyTerp/hermes-optimization-guide",
+    "name": "hermes-optimization-guide",
+    "description": "Hermes Agent setup, migration, LightRAG, Telegram, and skill creation guide",
+    "stars": 467,
+    "forks": 38,
+    "url": "https://github.com/OnlyTerp/hermes-optimization-guide",
+    "score": 62,
+    "reasons": [
+      "direct_hermes_reference",
+      "moderate_stars_100+",
+      "active_week"
+    ],
+    "discovery_date": "2026-06-23T00:15:28.434579-07:00",
+    "language": "Shell",
+    "license": "MIT"
+  },
+  {
+    "full_name": "witt3rd/oh-my-hermes",
+    "name": "oh-my-hermes",
+    "description": "Oh My Hermes (OMH) \u2014 Multi-agent orchestration skills for Hermes Agent. Inspired by oh-my-claudecode, rebuilt natively for Hermes primitives.",
+    "stars": 83,
+    "forks": 9,
+    "url": "https://github.com/witt3rd/oh-my-hermes",
+    "score": 59,
+    "reasons": [
+      "direct_hermes_reference",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week"
+    ],
+    "discovery_date": "2026-06-23T00:15:28.434579-07:00",
+    "language": "Python",
+    "license": "MIT"
   }
 ]
