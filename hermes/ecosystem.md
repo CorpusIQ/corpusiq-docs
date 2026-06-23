@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources  --  360+ repos,
 
 The most comprehensive directory of Hermes Agent resources in existence. 360 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** June 19, 2026 · **Repos indexed:** 368 · **Categories:** 18
+> **Last updated:** June 22, 2026 · **Repos indexed:** 369 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -26,7 +26,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 360 rep
 | [Skills & Plugins](#-skills--plugins) | 59 | [↓](#-skills--plugins) |
 | [Tools & Utilities](#-tools--utilities) | 54 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 23 | [↓](#-orchestration-multi-agent--swarms) |
+| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 24 | [↓](#-orchestration-multi-agent--swarms) |
 | [Deployment & Infrastructure](#-deployment--infrastructure) | 17 | [↓](#-deployment--infrastructure) |
 | [Security & Governance](#-security--governance) | 5 | [↓](#-security--governance) |
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
@@ -2737,6 +2737,16 @@ Telegram-first multi-agent operating system for Hermes Agent  --  role-based bot
 
 **Status:** Beta  
 **Key capabilities:** Multi-agent OS, Telegram-native, role bots, topic routing, skill integration, safety guardrails, profile management
+
+---
+
+### tale-project/tale
+⭐ **12** · `TypeScript` · [github.com/tale-project/tale](https://github.com/tale-project/tale)
+
+The Orchestrator for AI Agents  --  connect OpenClaw, Hermes Agent, Claude Code, Codex, Cursor, Gemini CLI, OpenCode, and Pi into a unified agent swarm. Pool knowledge across agents, delegate tasks intelligently, and build collaborative multi-agent workflows. TypeScript-native agent orchestration layer that bridges the fragmented coding agent ecosystem into a single coordinated workforce.
+
+**Key capabilities:** Multi-agent orchestration, agent swarm, knowledge pooling, task delegation, OpenClaw/Hermes-native, TypeScript, cross-agent bridges
+**Related:** [Orchestration →](#-orchestration-multi-agent--swarms)
 
 ---
 

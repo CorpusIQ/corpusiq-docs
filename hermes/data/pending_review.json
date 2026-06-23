@@ -6819,5 +6819,67 @@
     ],
     "discovered_at": "2026-06-23T05:07:46.043651+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Vishalcj3/Vortexa",
+    "url": "https://github.com/Vishalcj3/Vortexa",
+    "description": "VORTEXA: Patient-owned prescription vault with consent-gated access. AI safety agent reasons live through drug interactions, allergies & duplicates before flagging. Token-based appointments + automated reminders (Hermes agent). React, Firebase, Gemini RAG. Built solo for HackHere 24hr hackathon.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-06-23T06:04:08Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-23T06:04:35.706715+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "aajin32/codegraph",
+    "url": "https://github.com/aajin32/codegraph",
+    "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent \u2014 fewer tokens, fewer tool calls, 100% local",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-23T06:03:21Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "NousResearch/hermes-agent-self-evolution",
+      "codejunkie99/agentic-stack",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "KSroido/Kagi-Session2API-MCP",
+      "jnMetaCode/shellward",
+      "ruvnet/agent-harness-generator",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "ahonore42/logios-brain",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-06-23T06:04:44.641450+00:00",
+    "status": "pending"
   }
 ]
