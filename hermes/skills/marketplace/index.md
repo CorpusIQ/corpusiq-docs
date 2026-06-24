@@ -157,7 +157,8 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 - [🆕 June 22, 2026 (Late Sweep)  --  Blueprint Orchestration (1 repo, 12 skills)](/hermes/skills/marketplace/new-june22-2026-late/)
 - [🆕 June 20-22, 2026  --  Hermes Bible, Steroids Image Gen, Ershov Memory Engine (6 repos, 15 skills)](/hermes/skills/marketplace/new-june20-22-2026/)
-- [🆕 June 23, 2026  --  Engineering Curation, Ghostwriter, Cron Workflow, StepFun (8 repos, 3 setup guides)](/hermes/skills/marketplace/new-june23-2026/)
+- [🆕 June 24, 2026  --  Ashima, SG Arrival Card, Perfectloop, Three-Agent Bridge (4 setup guides, 22 repos discovered)](/hermes/skills/marketplace/new-june24-2026/)
+- [🆕 June 23, 2026  --  Engineering Curation, Ghostwriter, Cron Workflow, StepFun (8 repos, 3 setup guides)](/hermes/skills/marketplace/new-june24-2026/)
 - [🆕 June 19-20, 2026  --  Ponytail, SkillSpector, AgentMint (12 skills)](/hermes/skills/marketplace/new-june19-20-2026/)
 - [🆕 June 19, 2026 (Batch 2)  --  Infrastructure, Platform, Tools (15 repos, 20+ skills)](/hermes/skills/marketplace/new-june19-2026-batch2/)
 - [🆕 June 19, 2026 (Update)  --  ECC-Hermes 36-Pack, SkillSpector Vetting, AgentMint (6 repos, 60+ skills)](/hermes/skills/marketplace/new-june19-2026-update/)
@@ -180,9 +181,9 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 362+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 366+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
-*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june23-2026/)*
+*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june24-2026/)*
 
 *Powered by CorpusIQ*
 ---
