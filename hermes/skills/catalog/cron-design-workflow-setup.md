@@ -1,49 +1,20 @@
 ---
-title: Cron Design Workflow Setup Guide
-description: Deploy a reusable Hermes Agent skill for designing cron jobs, scheduled automations, and recurring alerts — Context → Office Hour → Brainstorming → Grill Me → Docs → Execute
+title: Cron Design Workflow — Full Setup Guide for Hermes Agents
+description: Install and configure the Cron Design Workflow skill from lovenps85/hermes-cron-design-workflow-skill. Reusable workflow for designing and improving Hermes cron jobs, scheduled automations, and recurring operations.
 ---
 
-# Cron Design Workflow
+# Cron Design Workflow — Setup Guide
 
 **Source:** [lovenps85/hermes-cron-design-workflow-skill](https://github.com/lovenps85/hermes-cron-design-workflow-skill)
-**Stars:** 0 ⭐ | **License:** MIT
-**Created:** June 23, 2026
+**Category:** Operations / DevOps
 
-## Overview
+A reusable Hermes Agent skill for designing and improving cron jobs, scheduled automations, recurring alerts, and personal operations workflows. Adapts patterns from Superpowers (`brainstorming`, `writing-plans`), Matt Pocock (`grill-me`, `grill-with-docs`, `domain-modeling`), and GSTACK (`office-hours`) into a structured cron design pipeline.
 
-A reusable workflow for designing and improving Hermes Agent cron jobs, scheduled automations, and recurring alerts. Adapts battle-tested patterns from Superpowers (brainstorming, writing-plans), Matt Pocock (grill-me, domain-modeling), and GSTACK (office-hours) into a structured 6-phase pipeline.
-
-## Workflow
-
-```
-Context → Office Hour → Brainstorming → Grill Me → Docs → Execute / Verify
-```
-
-### Phase 1: Context
-Agent gathers current state — existing crons, schedule conflicts, resource usage, failure history. No design yet; just data.
-
-### Phase 2: Office Hour
-Structured Q&A session. Agent asks clarifying questions about the cron's purpose, frequency, failure tolerance, notification targets, and dependencies.
-
-### Phase 3: Brainstorming
-Agent proposes 3-5 design options with trade-offs: schedule variants, error handling strategies, notification routing, and resource budgets.
-
-### Phase 4: Grill Me
-Adversarial review of the chosen design. Agent stress-tests: "What if the API is down?" "What if the previous run is still executing?" "What happens at DST boundary?"
-
-### Phase 5: Docs
-Agent generates: cron command, schedule rationale, failure modes, rollback plan, and monitoring checklist.
-
-### Phase 6: Execute / Verify
-Agent creates the cron, runs it once dry, verifies output, and confirms delivery to notification targets.
-
-## Prerequisites
-
-- Hermes Agent with cron management (`hermes cron create/list/logs`)
-- Access to target notification channels (Telegram, email, etc.)
-- Understanding of the task being automated
+---
 
 ## Installation
+
+### Option A: Clone/copy (recommended — preserves references)
 
 ```bash
 git clone https://github.com/lovenps85/hermes-cron-design-workflow-skill.git
@@ -51,73 +22,95 @@ mkdir -p ~/.hermes/skills/devops
 cp -a hermes-cron-design-workflow-skill/cron-design-workflow ~/.hermes/skills/devops/
 ```
 
-Load the skill in a Hermes session:
+Then start a Hermes session and load:
 
 ```bash
 hermes -s cron-design-workflow
 ```
 
-Or invoke from within an active session:
+Or inside Hermes:
 
-```
+```text
 /skill cron-design-workflow
 ```
 
-## CLI Reference
+### Option B: Direct SKILL.md install
 
 ```bash
-# Start a new cron design session
-hermes -s cron-design-workflow "design a daily report cron at 6 PM"
-
-# Review an existing cron
-hermes -s cron-design-workflow "audit the skills-monitor cron"
-
-# Skip to a specific phase
-hermes -s cron-design-workflow "grill-me on the video generation cron"
+hermes skills install https://raw.githubusercontent.com/lovenps85/hermes-cron-design-workflow-skill/main/cron-design-workflow/SKILL.md
 ```
-
-## Capabilities
-
-| Phase | Tool Support | Output |
-|-------|-------------|--------|
-| Context | `hermes cron list`, `hermes cron logs`, system resource check | Current state report |
-| Office Hour | Structured Q&A template | Clarified requirements doc |
-| Brainstorming | Design pattern library from Superpowers + Matt Pocock | 3-5 options with trade-offs |
-| Grill Me | Failure mode catalog, edge case library | Risk assessment + mitigations |
-| Docs | Auto-generated from design decisions | Cron spec + runbook |
-| Execute | `hermes cron create`, dry-run, verification | Live cron + delivery confirmation |
-
-## CorpusIQ Use Cases
-
-| Use Case | Why This Workflow |
-|----------|-------------------|
-| **New Daily Report Cron** | Ensures 6 PM delivery with fallback, verification, and Telegram delivery confirmation |
-| **Skills Sweep Automation** | Designs for API failures, rate limits, concurrent-run prevention, and catalog update conflicts |
-| **Video Generation Pipeline** | Handles HeyGen API timeouts, queue management, and multi-platform posting verification |
-| **Email Monitor Refactoring** | Optimizes polling intervals, dual-account handling, and token refresh failure modes |
-| **Platform Comment Checking** | Designs for per-platform rate limits, session expiry, and fallback paths |
-
-## Troubleshooting
-
-### Skill not found
-
-```bash
-# Verify installation
-ls ~/.hermes/skills/devops/cron-design-workflow/
-
-# If missing, re-clone
-git clone https://github.com/lovenps85/hermes-cron-design-workflow-skill.git /tmp/cdw
-cp -a /tmp/cdw/cron-design-workflow ~/.hermes/skills/devops/
-```
-
-### "Grill Me" phase produces too many edge cases
-
-The adversarial review is intentionally thorough. Focus on the top 5 highest-impact failure modes and defer the rest to the Docs phase as "known limitations."
-
-### Cron verification fails on first run
-
-Common causes: environment variables not set in cron context, working directory mismatch, or Python path issues. The Docs phase generates a `cron.env` file — ensure it's sourced in the cron command.
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+## Prerequisites
+
+| Requirement | Details |
+|---|---|
+| **Hermes Agent** | v0.14.0+ (skill loading support) |
+| **Git** | For clone install (Option A) |
+
+---
+
+## Key Capabilities
+
+### Workflow Pipeline
+
+```
+Context → Office Hour → Brainstorming → Grill Me → Docs → Execute / Verify
+```
+
+| Phase | What Happens | Output |
+|---|---|---|
+| **Context** | Gather existing crons, schedules, and requirements | Structured requirements doc |
+| **Office Hour** | Open Q&A session — explore edge cases, constraints | Clarified scope |
+| **Brainstorming** | Generate multiple approaches, evaluate trade-offs | Ranked options |
+| **Grill Me** | Stress-test the chosen approach — find failure modes | Hardened design |
+| **Docs** | Write the cron spec, schedule, monitoring plan | Deployable documentation |
+| **Execute / Verify** | Deploy and validate the cron job | Running automation |
+
+### Core Features
+
+| Capability | How to Trigger | Notes |
+|---|---|---|
+| **Design New Cron** | "Design a cron for [purpose]" | Full 6-phase pipeline |
+| **Improve Existing Cron** | "Review my [name] cron" | Skips straight to Grill Me phase |
+| **Cron Audit** | "Audit all my crons" | Context phase gathers all existing jobs |
+| **Documentation** | "Write docs for my crons" | Docs phase with monitoring plan |
+
+---
+
+## CorpusIQ Use Cases
+
+| Use Case | How |
+|---|---|
+| **New Automation Design** | "Design a cron to monitor MCP server uptime every hour" |
+| **Existing Cron Optimization** | "Review the skills-sweep cron — it's running slow" |
+| **Scheduled Report Generation** | "Design a daily HTML report cron for growth metrics" |
+| **Watchdog Design** | "Design a watchdog for email inbox monitoring" |
+| **Cron Consolidation** | "Audit all crons and suggest consolidation" |
+
+---
+
+## Troubleshooting
+
+| Issue | Fix |
+|---|---|
+| Skill not found | Verify clone path: `ls ~/.hermes/skills/devops/cron-design-workflow/` |
+| References missing | Use Option A (clone) — Option B may only install SKILL.md |
+| Pipeline stalls | Each phase builds on the last — ensure Context is complete before Office Hour |
+
+## Verification
+
+```bash
+# Verify skill installed
+hermes skills list | grep cron-design-workflow
+
+# Check references
+ls ~/.hermes/skills/devops/cron-design-workflow/references/
+# Should show: source-research.md
+```
+
+---
+
+*← [Skills Catalog](/hermes/skills/catalog/) | [Discovery Page](/hermes/skills/marketplace/new-june23-2026/) →*
+*Powered by CorpusIQ*
