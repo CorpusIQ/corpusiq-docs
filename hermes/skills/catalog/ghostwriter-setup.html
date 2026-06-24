@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Deploy autonomous email auto-reply for Hermes Agent — Watchdog (no-LLM polling) + Processor (agent drafting). ~10x cheaper than single-job polling">
+        <meta name="description" content="Install and configure the Ghostwriter skill from okokelly/skill-ghostwriter. Autonomous email auto-reply pipeline with zero-token watchdog and voice-guided processor for VIP inboxes.">
       
       
       
@@ -23,7 +23,7 @@
     
     
       
-        <title>Ghostwriter Setup Guide - CorpusIQ Docs</title>
+        <title>Ghostwriter — Full Setup Guide for Hermes Agents - CorpusIQ Docs</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#ghostwriter-autonomous-email-auto-reply" class="md-skip">
+        <a href="#ghostwriter-setup-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Ghostwriter Setup Guide
+              Ghostwriter — Full Setup Guide for Hermes Agents
             
           </span>
         </div>
@@ -7559,21 +7559,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Overview
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#architecture" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Architecture
+        Installation
       
     </span>
   </a>
@@ -7592,33 +7581,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#key-capabilities" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Installation
+        Key Capabilities
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Configuration
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Configuration">
+    <nav class="md-nav" aria-label="Key Capabilities">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-vip-inbox" class="md-nav__link">
+  <a href="#architecture" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. VIP Inbox
+        Architecture
       
     </span>
   </a>
@@ -7626,21 +7604,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-voice-profile" class="md-nav__link">
+  <a href="#core-features" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Voice Profile
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-cron-schedule" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. Cron Schedule
+        Core Features
       
     </span>
   </a>
@@ -7649,17 +7616,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#capabilities" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Capabilities
-      
-    </span>
-  </a>
   
 </li>
       
@@ -7675,17 +7631,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cost-comparison" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cost Comparison
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#troubleshooting" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -7694,44 +7639,16 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Troubleshooting">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#watchdog-exits-silently-on-every-poll" class="md-nav__link">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verification" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Watchdog exits silently on every poll
+        Verification
       
     </span>
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#processor-drafts-but-doesnt-send" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Processor drafts but doesn't send
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#duplicate-replies" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Duplicate replies
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -7755,213 +7672,163 @@
   
 
 
-<h1 id="ghostwriter-autonomous-email-auto-reply">Ghostwriter — Autonomous Email Auto-Reply<a class="headerlink" href="#ghostwriter-autonomous-email-auto-reply" title="Anchor link to this section">&para;</a></h1>
+<h1 id="ghostwriter-setup-guide">Ghostwriter — Setup Guide<a class="headerlink" href="#ghostwriter-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/okokelly/skill-ghostwriter">okokelly/skill-ghostwriter</a>
-<strong>Stars:</strong> 0 ⭐ | <strong>License:</strong> MIT
-<strong>Created:</strong> June 23, 2026</p>
-<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>A two-tier autonomous email auto-reply system for Hermes Agent. Splits the work between a lightweight Python <strong>Watchdog</strong> (polls Gmail, no LLM, zero cost when idle) and a <strong>Processor</strong> agent (drafts + sends replies in your voice only when there's a matching email).</p>
-<p>The key insight: polling Gmail with an LLM agent every 5 minutes burns ~$0.30/day even when there's nothing to do. Ghostwriter eliminates this — the LLM only runs on actual matches.</p>
-<h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>┌─────────────────────────────────────────────────────┐
-│                  GHOSTWRITER                         │
-│                                                      │
-│  ┌──────────┐    every 5min     ┌────────────────┐  │
-│  │ Watchdog │ ─── no match ───▶ │ Silent ($0)    │  │
-│  │  (script)│                   └────────────────┘  │
-│  │          │                                       │
-│  │          │ ─── match ──────▶ ┌────────────────┐  │
-│  └──────────┘                   │ Processor      │  │
-│                                 │  (agent)       │  │
-│                                 │                │  │
-│                                 │ 1. Read email  │  │
-│                                 │ 2. Draft reply │  │
-│                                 │ 3. Send        │  │
-│                                 │ 4. Archive     │  │
-│                                 └────────────────┘  │
-└─────────────────────────────────────────────────────┘
-</code></pre></div>
-<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li>Hermes Agent with Google Workspace configured (<code>gws</code> CLI or Gmail API)</li>
-<li>Python 3.10+</li>
-<li>Gmail API credentials with <code>gmail.readonly</code>, <code>gmail.send</code>, <code>gmail.modify</code> scopes</li>
-<li>A "voice profile" — writing samples for the agent to match your tone</li>
-</ul>
+<strong>Category:</strong> Email Automation</p>
+<p>An autonomous email auto-reply pipeline for Hermes Agent. Two-job architecture: a zero-token Python watchdog checks Gmail, a processor agent drafts and sends replies in your voice. ~10x cheaper than single-job polling because the watchdog exits silently when there's nothing to process.</p>
+<hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/okokelly/skill-ghostwriter.git
-cp<span class="w"> </span>-r<span class="w"> </span>skill-ghostwriter<span class="w"> </span>~/.hermes/skills/ghostwriter/
-
-<span class="c1"># Verify Gmail API access</span>
-python3<span class="w"> </span>~/.hermes/skills/ghostwriter/scripts/watchdog.py<span class="w"> </span>--dry-run
+<div class="highlight"><pre><span></span><code><span class="c1"># Clone the repo (preserves references)</span>
+git<span class="w"> </span>clone<span class="w"> </span>https://github.com/okokelly/skill-ghostwriter.git
+mkdir<span class="w"> </span>-p<span class="w"> </span>~/.hermes/skills/email
+cp<span class="w"> </span>-a<span class="w"> </span>skill-ghostwriter/ghostwriter<span class="w"> </span>~/.hermes/skills/email/
 </code></pre></div>
-<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<h3 id="1-vip-inbox">1. VIP Inbox<a class="headerlink" href="#1-vip-inbox" title="Anchor link to this section">&para;</a></h3>
-<p>Edit <code>~/.hermes/skills/ghostwriter/config.yaml</code>:</p>
-<div class="highlight"><pre><span></span><code><span class="nt">inbox</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">vip@yourdomain.com</span>
-<span class="nt">poll_interval</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">300</span><span class="w">  </span><span class="c1"># seconds (5 min)</span>
-<span class="nt">filters</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">from</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;investor@*.com&quot;</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;partner@*.com&quot;</span>
-<span class="w">  </span><span class="nt">subject_contains</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;urgent&quot;</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;proposal&quot;</span>
-<span class="w">  </span><span class="nt">exclude</span><span class="p">:</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;newsletter&quot;</span>
-<span class="w">    </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="s">&quot;notification&quot;</span>
+<p>Then start a Hermes session and load:</p>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>-s<span class="w"> </span>ghostwriter
 </code></pre></div>
-<h3 id="2-voice-profile">2. Voice Profile<a class="headerlink" href="#2-voice-profile" title="Anchor link to this section">&para;</a></h3>
-<p>Create <code>~/.hermes/skills/ghostwriter/voice.md</code> with writing samples:</p>
-<div class="highlight"><pre><span></span><code><span class="gh"># My Email Voice</span>
-
-<span class="gu">## Signature style</span>
-<span class="k">-</span><span class="w"> </span>Short paragraphs, 2-3 sentences max
-<span class="k">-</span><span class="w"> </span>Direct: &quot;Let&#39;s do X&quot; not &quot;I was thinking we might want to consider X&quot;
-<span class="k">-</span><span class="w"> </span>Sign-off: &quot;- FirstName&quot;
-
-<span class="gu">## Example replies</span>
-
-<span class="gu">### To investors</span>
-Subject: Re: Quick check-in
-
-Hey [Name],
-
-Good timing — we just shipped [feature] on Tuesday. Early metrics: [number].
-
-Full update coming Friday. Want to grab 15 min before then?
-
-<span class="k">-</span><span class="w"> </span>Me
-
-<span class="gu">### To partners</span>
-...
+<p>Or inside Hermes:</p>
+<div class="highlight"><pre><span></span><code>/skill ghostwriter
 </code></pre></div>
-<h3 id="3-cron-schedule">3. Cron Schedule<a class="headerlink" href="#3-cron-schedule" title="Anchor link to this section">&para;</a></h3>
-<p>Add to crontab (runs every 5 minutes):</p>
-<div class="highlight"><pre><span></span><code>*/5<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span>*<span class="w"> </span><span class="nb">cd</span><span class="w"> </span>~/.hermes/skills/ghostwriter<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>python3<span class="w"> </span>scripts/watchdog.py<span class="w"> </span>&gt;&gt;<span class="w"> </span>/tmp/ghostwriter.log<span class="w"> </span><span class="m">2</span>&gt;<span class="p">&amp;</span><span class="m">1</span>
-</code></pre></div>
-<p>Or as a Hermes cron:</p>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--name<span class="w"> </span>ghostwriter-watchdog<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;*/5 * * * *&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--command<span class="w"> </span><span class="s2">&quot;cd ~/.hermes/skills/ghostwriter &amp;&amp; python3 scripts/watchdog.py&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--profile<span class="w"> </span>corpusiq
-</code></pre></div>
-<h2 id="capabilities">Capabilities<a class="headerlink" href="#capabilities" title="Anchor link to this section">&para;</a></h2>
+<hr />
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Feature</th>
-<th>Description</th>
+<th>Requirement</th>
+<th>Details</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Token-efficient polling</strong></td>
-<td>Watchdog uses Gmail API's <code>messages.list</code> with <code>q=</code> filters — no LLM, ~0 tokens when idle</td>
+<td><strong>Google Workspace Auth</strong></td>
+<td>Gmail API access must be configured. Verify with: <code>GAPI="$HOME/.hermes/hermes-agent/venv/bin/python3 $HOME/.hermes/skills/productivity/google-workspace/scripts/gmail.py"</code></td>
 </tr>
 <tr>
-<td><strong>Voice matching</strong></td>
-<td>Processor agent reads <code>voice.md</code> before drafting — replies match your tone</td>
+<td><strong>Hermes Agent</strong></td>
+<td>v0.14.0+ for cron-based watchdog support</td>
 </tr>
 <tr>
-<td><strong>Archive-after-send</strong></td>
-<td>Processor archives handled emails, preventing duplicate replies</td>
-</tr>
-<tr>
-<td><strong>Multi-inbox</strong></td>
-<td>Config supports multiple VIP inboxes with different voice profiles</td>
-</tr>
-<tr>
-<td><strong>Dry-run mode</strong></td>
-<td><code>--dry-run</code> flag previews replies without sending</td>
-</tr>
-<tr>
-<td><strong>Processing log</strong></td>
-<td>All actions logged to <code>/tmp/ghostwriter.log</code> for audit</td>
+<td><strong>Target Contact</strong></td>
+<td>Email address of the VIP contact to auto-reply to</td>
 </tr>
 </tbody>
 </table>
+<hr />
+<h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
+<h3 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Anchor link to this section">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>Watchdog (no_agent, script only)
+  every 5min → checks Gmail for target emails
+  ├─ Nothing found → exits silently (no stdout → no delivery → $0 cost)
+  └─ Found → outputs email content → fed to Processor
+
+Processor (agent, context_from=Watchdog)
+  every 6min, offset by 1min → receives watchdog output as context
+  ├─ No watchdog output → responds with &quot;.&quot; (minimal tokens)
+  └─ Email data present → reads, drafts reply, sends, archives
+</code></pre></div>
+<h3 id="core-features">Core Features<a class="headerlink" href="#core-features" title="Anchor link to this section">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Capability</th>
+<th>How to Trigger</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>VIP Inbox Monitoring</strong></td>
+<td>"Set up auto-reply for [person]"</td>
+<td>Watchdog polls Gmail every 5 minutes</td>
+</tr>
+<tr>
+<td><strong>Voice-Guided Replies</strong></td>
+<td>"Ghostwriter for [new contact]"</td>
+<td>Processor drafts in your voice/style</td>
+</tr>
+<tr>
+<td><strong>Silent Mode</strong></td>
+<td>Automatic — no emails = zero tokens</td>
+<td>Watchdog exits without output when nothing found</td>
+</tr>
+<tr>
+<td><strong>Auto-Archive</strong></td>
+<td>Built into processor</td>
+<td>Sent replies are automatically archived</td>
+</tr>
+</tbody>
+</table>
+<hr />
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
 <th>Use Case</th>
-<th>Configuration</th>
-<th>Benefit</th>
+<th>How</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Benefit Reply</strong></td>
-<td>Filter: <code>from:founder@example.com</code></td>
-<td>Instant replies to founder, no manual monitoring</td>
+<td><strong>VIP Client Auto-Reply</strong></td>
+<td>"Ghostwriter for client@example.com" — handles their emails autonomously</td>
 </tr>
 <tr>
-<td><strong>Lead Response</strong></td>
-<td>Filter: subject contains "CorpusIQ" or "demo"</td>
-<td>Auto-respond to qualified leads within 5 min</td>
+<td><strong>Partner Communication</strong></td>
+<td>Set up for integration partners who need quick responses</td>
 </tr>
 <tr>
-<td><strong>Partner Comms</strong></td>
-<td>Filter: from partner domains</td>
-<td>Fast partner replies without constant inbox checking</td>
+<td><strong>Investor Updates</strong></td>
+<td>Auto-respond to investor emails with status updates in your voice</td>
 </tr>
 <tr>
 <td><strong>Support Triage</strong></td>
-<td>Filter: subject "urgent" or "down"</td>
-<td>Immediate acknowledgment before human escalation</td>
+<td>Watchdog captures, processor drafts, human reviews before send</td>
+</tr>
+<tr>
+<td><strong>After-Hours Coverage</strong></td>
+<td>Run 24/7 — watchdog costs nothing when inbox is quiet</td>
 </tr>
 </tbody>
 </table>
-<h2 id="cost-comparison">Cost Comparison<a class="headerlink" href="#cost-comparison" title="Anchor link to this section">&para;</a></h2>
+<hr />
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Approach</th>
-<th style="text-align: center;">Idle Cost/Day</th>
-<th style="text-align: center;">Active Cost/Reply</th>
-<th style="text-align: center;">Monthly (100 replies)</th>
+<th>Issue</th>
+<th>Fix</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>LLM polling every 5 min</td>
-<td style="text-align: center;">~$0.30</td>
-<td style="text-align: center;">~$0.02</td>
-<td style="text-align: center;">~$11</td>
+<td>Watchdog not detecting emails</td>
+<td>Verify Google Workspace auth: <code>GAPI=... gmail.py</code></td>
 </tr>
 <tr>
-<td>Ghostwriter</td>
-<td style="text-align: center;"><strong>$0.00</strong></td>
-<td style="text-align: center;">~$0.02</td>
-<td style="text-align: center;"><strong>~$2</strong></td>
+<td>Processor sends no replies</td>
+<td>Check cron offset — processor must run 1min after watchdog</td>
+</tr>
+<tr>
+<td>High token usage</td>
+<td>Verify watchdog exits silently on no-match (check cron output)</td>
+</tr>
+<tr>
+<td>Wrong voice/style</td>
+<td>Edit the voice prompt in <code>ghostwriter/SKILL.md</code></td>
 </tr>
 </tbody>
 </table>
-<p>~5.5x cheaper monthly. The savings compound with more VIP inboxes.</p>
-<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
-<h3 id="watchdog-exits-silently-on-every-poll">Watchdog exits silently on every poll<a class="headerlink" href="#watchdog-exits-silently-on-every-poll" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Check Gmail API access</span>
-python3<span class="w"> </span>scripts/watchdog.py<span class="w"> </span>--dry-run<span class="w"> </span>--verbose
+<h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="c1"># Verify skill loaded</span>
+hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>ghostwriter
 
-<span class="c1"># Expected output when no matches:</span>
-<span class="c1">#   [2026-06-23 14:30:00] Polling... 0 matches. Silent.</span>
+<span class="c1"># Test watchdog manually</span>
+<span class="nb">cd</span><span class="w"> </span>~/.hermes/skills/email/ghostwriter
+python3<span class="w"> </span>scripts/watchdog.py<span class="w"> </span>--dry-run
 </code></pre></div>
-<h3 id="processor-drafts-but-doesnt-send">Processor drafts but doesn't send<a class="headerlink" href="#processor-drafts-but-doesnt-send" title="Anchor link to this section">&para;</a></h3>
-<p>Verify <code>gmail.send</code> scope in your Gmail API token:</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;</span>
-<span class="s2">import json</span>
-<span class="s2">with open(&#39;~/.hermes/secrets/gmail.json&#39;) as f:</span>
-<span class="s2">    creds = json.load(f)</span>
-<span class="s2">print(creds.get(&#39;scope&#39;, &#39;no scope field&#39;))</span>
-<span class="s2"># Should include: https://www.googleapis.com/auth/gmail.send</span>
-<span class="s2">&quot;</span>
-</code></pre></div>
-<h3 id="duplicate-replies">Duplicate replies<a class="headerlink" href="#duplicate-replies" title="Anchor link to this section">&para;</a></h3>
-<p>The Processor archives emails after sending. If duplicates occur, check that <code>gmail.modify</code> scope is present and the archive step is not failing silently.</p>
 <hr />
-<p><em>← <a href="/hermes/skills/catalog/">Skills Catalog</a> | <a href="/hermes/skills/marketplace/">Marketplace Home</a> →</em></p>
+<p><em>← <a href="/hermes/skills/catalog/">Skills Catalog</a> | <a href="/hermes/skills/marketplace/new-june23-2026/">Discovery Page</a> →</em>
+<em>Powered by CorpusIQ</em></p>
 
 
 

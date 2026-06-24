@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Deploy a reusable Hermes Agent skill for designing cron jobs, scheduled automations, and recurring alerts — Context → Office Hour → Brainstorming → Grill Me → Docs → Execute">
+        <meta name="description" content="Install and configure the Cron Design Workflow skill from lovenps85/hermes-cron-design-workflow-skill. Reusable workflow for designing and improving Hermes cron jobs, scheduled automations, and recurring operations.">
       
       
       
@@ -23,7 +23,7 @@
     
     
       
-        <title>Cron Design Workflow Setup Guide - CorpusIQ Docs</title>
+        <title>Cron Design Workflow — Full Setup Guide for Hermes Agents - CorpusIQ Docs</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cron-design-workflow" class="md-skip">
+        <a href="#cron-design-workflow-setup-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Cron Design Workflow Setup Guide
+              Cron Design Workflow — Full Setup Guide for Hermes Agents
             
           </span>
         </div>
@@ -7559,33 +7559,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Overview
+        Installation
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#workflow" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Workflow
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Workflow">
+    <nav class="md-nav" aria-label="Installation">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#phase-1-context" class="md-nav__link">
+  <a href="#option-a-clonecopy-recommended-preserves-references" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Phase 1: Context
+        Option A: Clone/copy (recommended — preserves references)
       
     </span>
   </a>
@@ -7593,54 +7582,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#phase-2-office-hour" class="md-nav__link">
+  <a href="#option-b-direct-skillmd-install" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Phase 2: Office Hour
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#phase-3-brainstorming" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Phase 3: Brainstorming
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#phase-4-grill-me" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Phase 4: Grill Me
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#phase-5-docs" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Phase 5: Docs
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#phase-6-execute-verify" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Phase 6: Execute / Verify
+        Option B: Direct SKILL.md install
       
     </span>
   </a>
@@ -7664,35 +7609,41 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#key-capabilities" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Installation
+        Key Capabilities
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Capabilities">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#workflow-pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Workflow Pipeline
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#cli-reference" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#core-features" class="md-nav__link">
     <span class="md-ellipsis">
       
-        CLI Reference
+        Core Features
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#capabilities" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Capabilities
-      
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -7716,44 +7667,16 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Troubleshooting">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#skill-not-found" class="md-nav__link">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verification" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Skill not found
+        Verification
       
     </span>
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#grill-me-phase-produces-too-many-edge-cases" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        "Grill Me" phase produces too many edge cases
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cron-verification-fails-on-first-run" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Cron verification fails on first run
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -7777,142 +7700,191 @@
   
 
 
-<h1 id="cron-design-workflow">Cron Design Workflow<a class="headerlink" href="#cron-design-workflow" title="Anchor link to this section">&para;</a></h1>
+<h1 id="cron-design-workflow-setup-guide">Cron Design Workflow — Setup Guide<a class="headerlink" href="#cron-design-workflow-setup-guide" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Source:</strong> <a href="https://github.com/lovenps85/hermes-cron-design-workflow-skill">lovenps85/hermes-cron-design-workflow-skill</a>
-<strong>Stars:</strong> 0 ⭐ | <strong>License:</strong> MIT
-<strong>Created:</strong> June 23, 2026</p>
-<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>A reusable workflow for designing and improving Hermes Agent cron jobs, scheduled automations, and recurring alerts. Adapts battle-tested patterns from Superpowers (brainstorming, writing-plans), Matt Pocock (grill-me, domain-modeling), and GSTACK (office-hours) into a structured 6-phase pipeline.</p>
-<h2 id="workflow">Workflow<a class="headerlink" href="#workflow" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>Context → Office Hour → Brainstorming → Grill Me → Docs → Execute / Verify
-</code></pre></div>
-<h3 id="phase-1-context">Phase 1: Context<a class="headerlink" href="#phase-1-context" title="Anchor link to this section">&para;</a></h3>
-<p>Agent gathers current state — existing crons, schedule conflicts, resource usage, failure history. No design yet; just data.</p>
-<h3 id="phase-2-office-hour">Phase 2: Office Hour<a class="headerlink" href="#phase-2-office-hour" title="Anchor link to this section">&para;</a></h3>
-<p>Structured Q&amp;A session. Agent asks clarifying questions about the cron's purpose, frequency, failure tolerance, notification targets, and dependencies.</p>
-<h3 id="phase-3-brainstorming">Phase 3: Brainstorming<a class="headerlink" href="#phase-3-brainstorming" title="Anchor link to this section">&para;</a></h3>
-<p>Agent proposes 3-5 design options with trade-offs: schedule variants, error handling strategies, notification routing, and resource budgets.</p>
-<h3 id="phase-4-grill-me">Phase 4: Grill Me<a class="headerlink" href="#phase-4-grill-me" title="Anchor link to this section">&para;</a></h3>
-<p>Adversarial review of the chosen design. Agent stress-tests: "What if the API is down?" "What if the previous run is still executing?" "What happens at DST boundary?"</p>
-<h3 id="phase-5-docs">Phase 5: Docs<a class="headerlink" href="#phase-5-docs" title="Anchor link to this section">&para;</a></h3>
-<p>Agent generates: cron command, schedule rationale, failure modes, rollback plan, and monitoring checklist.</p>
-<h3 id="phase-6-execute-verify">Phase 6: Execute / Verify<a class="headerlink" href="#phase-6-execute-verify" title="Anchor link to this section">&para;</a></h3>
-<p>Agent creates the cron, runs it once dry, verifies output, and confirms delivery to notification targets.</p>
-<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li>Hermes Agent with cron management (<code>hermes cron create/list/logs</code>)</li>
-<li>Access to target notification channels (Telegram, email, etc.)</li>
-<li>Understanding of the task being automated</li>
-</ul>
+<strong>Category:</strong> Operations / DevOps</p>
+<p>A reusable Hermes Agent skill for designing and improving cron jobs, scheduled automations, recurring alerts, and personal operations workflows. Adapts patterns from Superpowers (<code>brainstorming</code>, <code>writing-plans</code>), Matt Pocock (<code>grill-me</code>, <code>grill-with-docs</code>, <code>domain-modeling</code>), and GSTACK (<code>office-hours</code>) into a structured cron design pipeline.</p>
+<hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
+<h3 id="option-a-clonecopy-recommended-preserves-references">Option A: Clone/copy (recommended — preserves references)<a class="headerlink" href="#option-a-clonecopy-recommended-preserves-references" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/lovenps85/hermes-cron-design-workflow-skill.git
 mkdir<span class="w"> </span>-p<span class="w"> </span>~/.hermes/skills/devops
 cp<span class="w"> </span>-a<span class="w"> </span>hermes-cron-design-workflow-skill/cron-design-workflow<span class="w"> </span>~/.hermes/skills/devops/
 </code></pre></div>
-<p>Load the skill in a Hermes session:</p>
+<p>Then start a Hermes session and load:</p>
 <div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>-s<span class="w"> </span>cron-design-workflow
 </code></pre></div>
-<p>Or invoke from within an active session:</p>
+<p>Or inside Hermes:</p>
 <div class="highlight"><pre><span></span><code>/skill cron-design-workflow
 </code></pre></div>
-<h2 id="cli-reference">CLI Reference<a class="headerlink" href="#cli-reference" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># Start a new cron design session</span>
-hermes<span class="w"> </span>-s<span class="w"> </span>cron-design-workflow<span class="w"> </span><span class="s2">&quot;design a daily report cron at 6 PM&quot;</span>
-
-<span class="c1"># Review an existing cron</span>
-hermes<span class="w"> </span>-s<span class="w"> </span>cron-design-workflow<span class="w"> </span><span class="s2">&quot;audit the skills-monitor cron&quot;</span>
-
-<span class="c1"># Skip to a specific phase</span>
-hermes<span class="w"> </span>-s<span class="w"> </span>cron-design-workflow<span class="w"> </span><span class="s2">&quot;grill-me on the video generation cron&quot;</span>
+<h3 id="option-b-direct-skillmd-install">Option B: Direct SKILL.md install<a class="headerlink" href="#option-b-direct-skillmd-install" title="Anchor link to this section">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>https://raw.githubusercontent.com/lovenps85/hermes-cron-design-workflow-skill/main/cron-design-workflow/SKILL.md
 </code></pre></div>
-<h2 id="capabilities">Capabilities<a class="headerlink" href="#capabilities" title="Anchor link to this section">&para;</a></h2>
+<hr />
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Requirement</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Hermes Agent</strong></td>
+<td>v0.14.0+ (skill loading support)</td>
+</tr>
+<tr>
+<td><strong>Git</strong></td>
+<td>For clone install (Option A)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="key-capabilities">Key Capabilities<a class="headerlink" href="#key-capabilities" title="Anchor link to this section">&para;</a></h2>
+<h3 id="workflow-pipeline">Workflow Pipeline<a class="headerlink" href="#workflow-pipeline" title="Anchor link to this section">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>Context → Office Hour → Brainstorming → Grill Me → Docs → Execute / Verify
+</code></pre></div>
 <table>
 <thead>
 <tr>
 <th>Phase</th>
-<th>Tool Support</th>
+<th>What Happens</th>
 <th>Output</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Context</td>
-<td><code>hermes cron list</code>, <code>hermes cron logs</code>, system resource check</td>
-<td>Current state report</td>
+<td><strong>Context</strong></td>
+<td>Gather existing crons, schedules, and requirements</td>
+<td>Structured requirements doc</td>
 </tr>
 <tr>
-<td>Office Hour</td>
-<td>Structured Q&amp;A template</td>
-<td>Clarified requirements doc</td>
+<td><strong>Office Hour</strong></td>
+<td>Open Q&amp;A session — explore edge cases, constraints</td>
+<td>Clarified scope</td>
 </tr>
 <tr>
-<td>Brainstorming</td>
-<td>Design pattern library from Superpowers + Matt Pocock</td>
-<td>3-5 options with trade-offs</td>
+<td><strong>Brainstorming</strong></td>
+<td>Generate multiple approaches, evaluate trade-offs</td>
+<td>Ranked options</td>
 </tr>
 <tr>
-<td>Grill Me</td>
-<td>Failure mode catalog, edge case library</td>
-<td>Risk assessment + mitigations</td>
+<td><strong>Grill Me</strong></td>
+<td>Stress-test the chosen approach — find failure modes</td>
+<td>Hardened design</td>
 </tr>
 <tr>
-<td>Docs</td>
-<td>Auto-generated from design decisions</td>
-<td>Cron spec + runbook</td>
+<td><strong>Docs</strong></td>
+<td>Write the cron spec, schedule, monitoring plan</td>
+<td>Deployable documentation</td>
 </tr>
 <tr>
-<td>Execute</td>
-<td><code>hermes cron create</code>, dry-run, verification</td>
-<td>Live cron + delivery confirmation</td>
+<td><strong>Execute / Verify</strong></td>
+<td>Deploy and validate the cron job</td>
+<td>Running automation</td>
 </tr>
 </tbody>
 </table>
+<h3 id="core-features">Core Features<a class="headerlink" href="#core-features" title="Anchor link to this section">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Capability</th>
+<th>How to Trigger</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Design New Cron</strong></td>
+<td>"Design a cron for [purpose]"</td>
+<td>Full 6-phase pipeline</td>
+</tr>
+<tr>
+<td><strong>Improve Existing Cron</strong></td>
+<td>"Review my [name] cron"</td>
+<td>Skips straight to Grill Me phase</td>
+</tr>
+<tr>
+<td><strong>Cron Audit</strong></td>
+<td>"Audit all my crons"</td>
+<td>Context phase gathers all existing jobs</td>
+</tr>
+<tr>
+<td><strong>Documentation</strong></td>
+<td>"Write docs for my crons"</td>
+<td>Docs phase with monitoring plan</td>
+</tr>
+</tbody>
+</table>
+<hr />
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
 <th>Use Case</th>
-<th>Why This Workflow</th>
+<th>How</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>New Daily Report Cron</strong></td>
-<td>Ensures 6 PM delivery with fallback, verification, and Telegram delivery confirmation</td>
+<td><strong>New Automation Design</strong></td>
+<td>"Design a cron to monitor MCP server uptime every hour"</td>
 </tr>
 <tr>
-<td><strong>Skills Sweep Automation</strong></td>
-<td>Designs for API failures, rate limits, concurrent-run prevention, and catalog update conflicts</td>
+<td><strong>Existing Cron Optimization</strong></td>
+<td>"Review the skills-sweep cron — it's running slow"</td>
 </tr>
 <tr>
-<td><strong>Video Generation Pipeline</strong></td>
-<td>Handles HeyGen API timeouts, queue management, and multi-platform posting verification</td>
+<td><strong>Scheduled Report Generation</strong></td>
+<td>"Design a daily HTML report cron for growth metrics"</td>
 </tr>
 <tr>
-<td><strong>Email Monitor Refactoring</strong></td>
-<td>Optimizes polling intervals, dual-account handling, and token refresh failure modes</td>
+<td><strong>Watchdog Design</strong></td>
+<td>"Design a watchdog for email inbox monitoring"</td>
 </tr>
 <tr>
-<td><strong>Platform Comment Checking</strong></td>
-<td>Designs for per-platform rate limits, session expiry, and fallback paths</td>
+<td><strong>Cron Consolidation</strong></td>
+<td>"Audit all crons and suggest consolidation"</td>
 </tr>
 </tbody>
 </table>
-<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
-<h3 id="skill-not-found">Skill not found<a class="headerlink" href="#skill-not-found" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Verify installation</span>
-ls<span class="w"> </span>~/.hermes/skills/devops/cron-design-workflow/
-
-<span class="c1"># If missing, re-clone</span>
-git<span class="w"> </span>clone<span class="w"> </span>https://github.com/lovenps85/hermes-cron-design-workflow-skill.git<span class="w"> </span>/tmp/cdw
-cp<span class="w"> </span>-a<span class="w"> </span>/tmp/cdw/cron-design-workflow<span class="w"> </span>~/.hermes/skills/devops/
-</code></pre></div>
-<h3 id="grill-me-phase-produces-too-many-edge-cases">"Grill Me" phase produces too many edge cases<a class="headerlink" href="#grill-me-phase-produces-too-many-edge-cases" title="Anchor link to this section">&para;</a></h3>
-<p>The adversarial review is intentionally thorough. Focus on the top 5 highest-impact failure modes and defer the rest to the Docs phase as "known limitations."</p>
-<h3 id="cron-verification-fails-on-first-run">Cron verification fails on first run<a class="headerlink" href="#cron-verification-fails-on-first-run" title="Anchor link to this section">&para;</a></h3>
-<p>Common causes: environment variables not set in cron context, working directory mismatch, or Python path issues. The Docs phase generates a <code>cron.env</code> file — ensure it's sourced in the cron command.</p>
 <hr />
-<p><em>← <a href="/hermes/skills/catalog/">Skills Catalog</a> | <a href="/hermes/skills/marketplace/">Marketplace Home</a> →</em></p>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Issue</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Skill not found</td>
+<td>Verify clone path: <code>ls ~/.hermes/skills/devops/cron-design-workflow/</code></td>
+</tr>
+<tr>
+<td>References missing</td>
+<td>Use Option A (clone) — Option B may only install SKILL.md</td>
+</tr>
+<tr>
+<td>Pipeline stalls</td>
+<td>Each phase builds on the last — ensure Context is complete before Office Hour</td>
+</tr>
+</tbody>
+</table>
+<h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="c1"># Verify skill installed</span>
+hermes<span class="w"> </span>skills<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>cron-design-workflow
+
+<span class="c1"># Check references</span>
+ls<span class="w"> </span>~/.hermes/skills/devops/cron-design-workflow/references/
+<span class="c1"># Should show: source-research.md</span>
+</code></pre></div>
+<hr />
+<p><em>← <a href="/hermes/skills/catalog/">Skills Catalog</a> | <a href="/hermes/skills/marketplace/new-june23-2026/">Discovery Page</a> →</em>
+<em>Powered by CorpusIQ</em></p>
 
 
 
