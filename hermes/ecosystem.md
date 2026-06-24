@@ -5,9 +5,9 @@ description: The definitive directory of Hermes Agent resources  --  360+ repos,
 
 # Hermes Ecosystem  --  Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 360 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 407 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** June 23, 2026 · **Repos indexed:** 370 · **Categories:** 18
+> **Last updated:** June 24, 2026 · **Repos indexed:** 407 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -20,20 +20,20 @@ The most comprehensive directory of Hermes Agent resources in existence. 360 rep
 | [Core & Official](#-core--official) | 6 | [↓](#-core--official) |
 | [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
 | [Community & Awesome Lists](#-community--awesome-lists) | 33 | [↓](#-community--awesome-lists) |
-| [UI & Dashboards](#-ui--dashboards) | 11 | [↓](#-ui--dashboards) |
-| [Memory & Knowledge](#-memory--knowledge) | 18 | [↓](#-memory--knowledge) |
-| [MCP & Integrations](#-mcp--integrations) | 27 | [↓](#-mcp--integrations) |
-| [Skills & Plugins](#-skills--plugins) | 59 | [↓](#-skills--plugins) |
+| [UI & Dashboards](#-ui--dashboards) | 14 | [↓](#-ui--dashboards) |
+| [Memory & Knowledge](#-memory--knowledge) | 27 | [↓](#-memory--knowledge) |
+| [MCP & Integrations](#-mcp--integrations) | 32 | [↓](#-mcp--integrations) |
+| [Skills & Plugins](#-skills--plugins) | 69 | [↓](#-skills--plugins) |
 | [Tools & Utilities](#-tools--utilities) | 54 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 24 | [↓](#-orchestration-multi-agent--swarms) |
-| [Deployment & Infrastructure](#-deployment--infrastructure) | 17 | [↓](#-deployment--infrastructure) |
+| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 26 | [↓](#-orchestration-multi-agent--swarms) |
+| [Deployment & Infrastructure](#-deployment--infrastructure) | 21 | [↓](#-deployment--infrastructure) |
 | [Security & Governance](#-security--governance) | 5 | [↓](#-security--governance) |
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
 | [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
 | [Platform-Specific](#-platform-specific) | 10 | [↓](#-platform-specific) |
-| [Domain Applications](#-domain-applications) | 19 | [↓](#-domain-applications) |
-| [Forks & Derivatives](#-forks--derivatives) | 6 | [↓](#-forks--derivatives) |
+| [Domain Applications](#-domain-applications) | 22 | [↓](#-domain-applications) |
+| [Forks & Derivatives](#-forks--derivatives) | 7 | [↓](#-forks--derivatives) |
 | [Guides](#-guides) | 2 | [↓](#-guides) |
 
 ---
@@ -570,6 +570,30 @@ Open Design platform  --  local-first, open-source design tool with 259+ skills 
 
 ---
 
+### chrisryugj/hermes-dashboard
+⭐ **31** · `HTML` · [https://github.com/chrisryugj/hermes-dashboard](https://github.com/chrisryugj/hermes-dashboard)
+
+Web dashboard for Hermes Agent gateway — full config, MCP, cron, model management without CLI
+
+
+---
+
+### synthalorian/hermes-wingman
+⭐ **5** · `Dart` · [https://github.com/synthalorian/hermes-wingman](https://github.com/synthalorian/hermes-wingman)
+
+The complete Hermes Agent GUI — Flutter desktop + mobile app + Rails 8 web dashboard. Glass morphism UI, 29 themes, Rust backend. Replaces the entire Hermes CLI.
+
+
+---
+
+### praveenkay/Hermes_Portal
+⭐ **1** · `Python` · [https://github.com/praveenkay/Hermes_Portal](https://github.com/praveenkay/Hermes_Portal)
+
+Hermes Agent Web UI -- cross-platform dashboard: sessions, agents, desktop, projects.
+
+
+---
+
 ## 🧠 Memory & Knowledge
 
 Persistent memory and knowledge management for autonomous agents.
@@ -725,6 +749,82 @@ RAGLight  --  lightweight Retrieval-Augmented Generation implementation optimize
 
 **Key capabilities:** RAG implementation, lightweight retrieval, agent memory, semantic search, document indexing, context injection, Hermes-compatible
 **Related:** [Knowledge Architecture →](/hermes/knowledge/) · [Memory Stack →](/hermes/knowledge/)
+
+---
+
+### Sibyl-Labs/Sibyl-Memory
+⭐ **84** · `Python` · [https://github.com/Sibyl-Labs/Sibyl-Memory](https://github.com/Sibyl-Labs/Sibyl-Memory)
+
+Sibyl Memory Plugin for Hermes enables persistent memory across long time horizons, and enables relational context previously unavailable. Self-learning and auto-skill creation creates an agent that grows with you.  Local SQLite, structured tiers, no vector DB. SDK, CLI, MCP server, Hermes plugin.
+
+
+---
+
+### itechmeat/open-second-brain
+⭐ **71** · `TypeScript` · [https://github.com/itechmeat/open-second-brain](https://github.com/itechmeat/open-second-brain)
+
+Local-first 🧠 memory for Hermes Agent that lives in your Obsidian vault and remembers project context. Nightly 😴 dream passes turn repeat corrections into confirmed preferences with measurable confidence. Adapters ship for Claude Code, Codex, and OpenClaw, with an MCP server for anything else.
+
+
+---
+
+### itsXactlY/mazemaker
+⭐ **49** · `Python` · [https://github.com/itsXactlY/mazemaker](https://github.com/itsXactlY/mazemaker)
+
+Semantic memory system with knowledge graph, spreading activation, embedding-based recall, autonomous dream consolidation, and C++ LSTM+kNN pattern learning for any /MCP and the Hermes Agent.
+
+**Topics:** `aes-256`, `agent`, `agents`, `ai`, `brain`, `claude`, `codex`, `gpt`
+
+---
+
+### xMannixx/agent-memory-skill
+⭐ **2** · `Python` · [https://github.com/xMannixx/agent-memory-skill](https://github.com/xMannixx/agent-memory-skill)
+
+Local-first SQLite memory for Hermes with authority lanes, recall snippets, audit/recovery, confidence decay, and query-aware plugin retrieval.
+
+**Topics:** `agent-memory`, `hermes`, `local-first`, `memory`, `retrieval`, `sqlite`
+
+---
+
+### luluthehermeticcrabBot/phronesis
+⭐ **2** · `JavaScript` · [https://github.com/luluthehermeticcrabBot/phronesis](https://github.com/luluthehermeticcrabBot/phronesis)
+
+Practical wisdom from agent experience. Auto-skill creation, FTS5 session search, persona system, memory consolidation, and Telegram notifications — bridging Hermes Agent's adaptive learning loop into OpenCode's plugin ecosystem.
+
+
+---
+
+### samrusani/AliceBot
+⭐ **1** · `Python` · [https://github.com/samrusani/AliceBot](https://github.com/samrusani/AliceBot)
+
+Local-first AI agent memory and second-brain runtime with MCP, governed scheduler, live capture connectors, dogfood telemetry, OpenClaw, and Hermes integrations.
+
+**Topics:** `agent-memory`, `agentic-control-plane`, `ai-agents`, `ai-memory`, `context-engineering`, `continuity-layer`, `developer-tools`, `dogfooding`
+
+---
+
+### siddiqitaha/hermes-knowledge-brain
+⭐ **0** · `Python` · [https://github.com/siddiqitaha/hermes-knowledge-brain](https://github.com/siddiqitaha/hermes-knowledge-brain)
+
+Model-agnostic memory substrate for AI agents
+
+**Topics:** `ai-agents`, `knowledge-graph`, `memory`, `python`
+
+---
+
+### Aphelios01-sdk/hermes-brain
+⭐ **0** · `Python` · [https://github.com/Aphelios01-sdk/hermes-brain](https://github.com/Aphelios01-sdk/hermes-brain)
+
+Hermes Agent skills and memories - AI training knowledge base
+
+
+---
+
+### ahonore42/logios-brain
+⭐ **0** · `Python` · [https://github.com/ahonore42/logios-brain](https://github.com/ahonore42/logios-brain)
+
+A server-side memory and knowledge graph API for AI agents. Stores episodic memories (Postgres+Qdrant), semantic knowledge (Neo4j), and identity instructions, with native integration libraries for agent frameworks like Hermes, OpenClaw, Pi, GoClaw, Claude Agent SDK, and ZeroClaw.
+
 
 ---
 
@@ -1123,6 +1223,48 @@ Unity MCP server  --  Model Context Protocol server bridging autonomous agents w
 
 **Key capabilities:** Unity MCP, game engine integration, Unity Editor control, scene management, build automation, Hermes-compatible
 **Related:** [MCP Guide →](/hermes/mcp/)
+
+---
+
+### ksimback/hermes-atlas-mcp
+⭐ **6** · `JavaScript` · [https://github.com/ksimback/hermes-atlas-mcp](https://github.com/ksimback/hermes-atlas-mcp)
+
+MCP server exposing the Hermes Atlas ecosystem catalog — 100+ Hermes Agent tools, skills, plugins, and integrations — to any MCP-aware client (Claude Desktop, Cursor, Continue).
+
+
+---
+
+### goagent123/hermes-composio-bridge
+⭐ **0** · `Unknown` · [https://github.com/goagent123/hermes-composio-bridge](https://github.com/goagent123/hermes-composio-bridge)
+
+Hermes Agent Composio MCP integration - connects Hermes to Composio for 1000+ tool integrations
+
+
+---
+
+### megberts/mcp-hermes-integration
+⭐ **0** · `Shell` · [https://github.com/megberts/mcp-hermes-integration](https://github.com/megberts/mcp-hermes-integration)
+
+Connect Hermes Agent to WebsitePublisher.ai via MCP — 59 tools for AI-powered web publishing
+
+**Topics:** `hermes-agent`, `mcp`
+
+---
+
+### wottz-inc/shopify-hermes-oauth
+⭐ **0** · `TypeScript` · [https://github.com/wottz-inc/shopify-hermes-oauth](https://github.com/wottz-inc/shopify-hermes-oauth)
+
+Hermes-first Shopify OAuth connector for agent-safe multi-store access, read-only reporting, guardrails, audit logging, and MCP integration.
+
+**Topics:** `agents`, `ecommerce`, `hermes-agent`, `mcp`, `oauth`, `shopify`
+
+---
+
+### LordVaderXIII/grok-connectors
+⭐ **0** · `Unknown` · [https://github.com/LordVaderXIII/grok-connectors](https://github.com/LordVaderXIII/grok-connectors)
+
+Collection of Grok/xAI tool connectors, MCP integrations, browser-to-api workflows, and utilities for agent systems like Hermes and OpenClaw. Self-hosted Unraid/Home Assistant compatible examples and docs.
+
 
 ---
 
@@ -2021,6 +2163,87 @@ Binance Skills Hub  --  official collection of agent skills from Binance for cry
 
 ---
 
+### CYC2002tommy/Deep-Research-Agent
+⭐ **58** · `JavaScript` · [https://github.com/CYC2002tommy/Deep-Research-Agent](https://github.com/CYC2002tommy/Deep-Research-Agent)
+
+This is a skill that can be used for most of the agentic AI, which enables your Hermes, Openclaw ...etc to look for a bunch of papers based on your research plan. It will access to scopus by the scopus mcp, and OpenAlex api ...etc
+
+
+---
+
+### uzairansaruzi/robinhood-agent-skill
+⭐ **30** · `Python` · [https://github.com/uzairansaruzi/robinhood-agent-skill](https://github.com/uzairansaruzi/robinhood-agent-skill)
+
+Robinhood portfolio advisor skill for Hermes Agent, OpenClaw, Claude Code, Codex, and other MCP-compatible AI agents
+
+
+---
+
+### LYAKAKOY/Hermes-Codex-Plugin
+⭐ **15** · `Python` · [https://github.com/LYAKAKOY/Hermes-Codex-Plugin](https://github.com/LYAKAKOY/Hermes-Codex-Plugin)
+
+Local-first memory, recall, and skill evolution plugin for Codex agents.
+
+**Topics:** `agent-memory`, `ai-agent`, `codex`, `codex-plugin`, `developer-tools`, `fts5`, `mcp`, `memory`
+
+---
+
+### agentchatme/agentchat-hermes
+⭐ **12** · `Python` · [https://github.com/agentchatme/agentchat-hermes](https://github.com/agentchatme/agentchat-hermes)
+
+AgentChat platform plugin for Nous Research's Hermes Agent runtime — peer-to-peer messaging for autonomous agents over WebSocket. Bundles the agent etiquette skill. (PyPI: agentchatme-hermes)
+
+
+---
+
+### roach88/hermetic
+⭐ **2** · `Python` · [https://github.com/roach88/hermetic](https://github.com/roach88/hermetic)
+
+Sync Claude Code plugins into Hermes as native skills and delegation skills.
+
+
+---
+
+### Guoen0/xiaoduiyou-public
+⭐ **2** · `Python` · [https://github.com/Guoen0/xiaoduiyou-public](https://github.com/Guoen0/xiaoduiyou-public)
+
+Public Xiaoduiyou Agent plugins and skills for Hermes and OpenClaw
+
+
+---
+
+### dexter7wolf/telegram-file-sender
+⭐ **2** · `Unknown` · [https://github.com/dexter7wolf/telegram-file-sender](https://github.com/dexter7wolf/telegram-file-sender)
+
+Hermes Agent skill/plugin per inviare file locali su Telegram
+
+
+---
+
+### jinlio/feishu-table-patch
+⭐ **2** · `Python` · [https://github.com/jinlio/feishu-table-patch](https://github.com/jinlio/feishu-table-patch)
+
+A Hermes skill plugin that converts Markdown (tables + rich text) to Feishu card messages via Schema 2.0 + tag:markdown
+
+
+---
+
+### verkyyi/agentfeeds-hermes-plugin
+⭐ **1** · `Python` · [https://github.com/verkyyi/agentfeeds-hermes-plugin](https://github.com/verkyyi/agentfeeds-hermes-plugin)
+
+Hermes plugin and skill for Agent Feeds
+
+
+---
+
+### poogas/hermes-skill-installer
+⭐ **1** · `JavaScript` · [https://github.com/poogas/hermes-skill-installer](https://github.com/poogas/hermes-skill-installer)
+
+Skill installer plugin for Hermes Agent
+
+
+---
+
 ## 🛠 Tools & Utilities
 
 Development tools, utilities, and platforms for the Hermes ecosystem.
@@ -2842,6 +3065,23 @@ Conductor  --  Netflix-originated, battle-tested workflow orchestration engine n
 
 ---
 
+### thestark77/cobalt-agent
+⭐ **3** · `Python` · [https://github.com/thestark77/cobalt-agent](https://github.com/thestark77/cobalt-agent)
+
+Modular orchestration plugin for Hermes Agent — model routing, tool guard, skill injection
+
+
+---
+
+### hugocarreira/agentrc
+⭐ **2** · `Markdown` · [https://github.com/hugocarreira/agentrc](https://github.com/hugocarreira/agentrc)
+
+Single source of truth for AI coding agents — share AGENTS.md, RTK.md, skills, and plugins across OpenCode, Codex, Claude, Copilot, Hermes & Gemini CLI. Powered by agentrc.
+
+**Topics:** `ai`, `ai-agent`, `automation`, `claude`, `codex`, `developer-tools`, `opencode`, `productivity`
+
+---
+
 ## 🚀 Deployment & Infrastructure
 
 Running Hermes in production  --  from Docker to Kubernetes.
@@ -2981,6 +3221,40 @@ Windows-native integrated package bundling Hermes Agent v0.16.0 + Hermes WebUI v
 
 **Key capabilities:** Windows-native, no Docker, no WSL2, one-click startup, shared venv, PowerShell launchers, Hermes Agent + WebUI
 **Related:** [Deployment →](#-deployment--infrastructure) · [Setup Guide →](/hermes/skills/catalog/hermes-windows-native/)
+
+---
+
+### pom11/hscc
+⭐ **3** · `Python` · [https://github.com/pom11/hscc](https://github.com/pom11/hscc)
+
+Hermes Spark Cluster Control — Install package, plugins, skills, templates
+
+
+---
+
+### aims1425-lab/hermes-deploy
+⭐ **0** · `Shell` · [https://github.com/aims1425-lab/hermes-deploy](https://github.com/aims1425-lab/hermes-deploy)
+
+Production-ready Hermes Agent deployment template with Docker, security hardening, Telegram integration, and OSS maintainer workflows
+
+**Topics:** `ai-agent`, `deployment`, `devops`, `docker`, `docker-compose`, `hermes-agent`, `open-source`, `security-hardening`
+
+---
+
+### romdix/coolify-hermes-stack
+⭐ **0** · `Unknown` · [https://github.com/romdix/coolify-hermes-stack](https://github.com/romdix/coolify-hermes-stack)
+
+A production-ready Docker Compose stack to deploy Hermes Agent and Workspace UI on Coolify.
+
+
+---
+
+### varunlakshmaiah/hermes-compose
+⭐ **0** · `Shell` · [https://github.com/varunlakshmaiah/hermes-compose](https://github.com/varunlakshmaiah/hermes-compose)
+
+A zero-friction, production-ready Docker Compose architecture for instantly deploying the NousResearch Hermes AI Agent & Gateway on Dokploy, VPS, or locally.
+
+**Topics:** `ai-agent`, `docker`, `docker-compose`, `hermes`, `nousresearch`, `openrouter`, `selfhosted`, `webhook`
 
 ---
 
@@ -3445,6 +3719,31 @@ JeecgBoot  --  enterprise-grade low-code development platform for rapidly buildi
 
 ---
 
+### yang1989haoa-gif/synapse-studio
+⭐ **1** · `TypeScript` · [https://github.com/yang1989haoa-gif/synapse-studio](https://github.com/yang1989haoa-gif/synapse-studio)
+
+a local-first visual orchestration workspace for AI agents, enabling users to design, connect, test, and observe multi-agent workflows with Hermes and OpenClaw integrations, execution traces, and secure per-agent configuration.
+
+
+---
+
+### kaankacar/stellar-agent-kit
+⭐ **0** · `TypeScript` · [https://github.com/kaankacar/stellar-agent-kit](https://github.com/kaankacar/stellar-agent-kit)
+
+Connect any AI agent to Stellar / Soroban — TypeScript SDK with plugin architecture for LangChain, Vercel AI SDK, OpenAI, and Anthropic tool-calling. Includes autonomous-agent runner, Telegram bot template, and Hermes Agent integration.
+
+
+---
+
+### muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334
+⭐ **0** · `Unknown` · [https://github.com/muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334](https://github.com/muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334)
+
+A production-grade, open-source SaaS platform for predictive maintenance. This project is built on a resilient and scalable stack including FastAPI, PostgreSQL/TimescaleDB , and Redis, all with Docker and with full cloud deployment. It implements a sophisticated Multi-Agent AI system and a MLOps lifecycle with MLflow to manage 17 distinct models
+
+**Topics:** `jules-annotation-20251001`
+
+---
+
 ## 🔀 Forks & Derivatives
 
 Notable forks and derivative projects building on Hermes Agent.
@@ -3511,6 +3810,14 @@ A simple and universal product rehearsal engine — spec anything. Connect Herme
 
 ---
 
+### repolex-forx/NousResearch--hermes-paperclip-adapter
+⭐ **0** · `Unknown` · [https://github.com/repolex-forx/NousResearch--hermes-paperclip-adapter](https://github.com/repolex-forx/NousResearch--hermes-paperclip-adapter)
+
+RDF parse data for NousResearch/hermes-paperclip-adapter
+
+
+---
+
 ## 📖 Guides
 
 Community-maintained guides, wikis, and deployment references.
@@ -3539,19 +3846,19 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 305 |
+| Total repos indexed | 407 |
 | Categories | 18 |
 | Official Nous Research repos | 4 |
 | Community awesome lists | 21 |
-| UI/Dashboard projects | 10 |
-| Memory systems | 17 |
-| MCP integrations | 20 |
-| Skill collections & plugins | 49 |
+| UI/Dashboard projects | 14 |
+| Memory systems | 27 |
+| MCP integrations | 32 |
+| Skill collections & plugins | 69 |
 | Tools & utilities | 38 |
 | Research/benchmark projects | 12 |
-| Deployment & infra projects | 16 |
-| Domain applications | 17 |
-| Forks & derivatives | 5 |
+| Deployment & infra projects | 21 |
+| Domain applications | 22 |
+| Forks & derivatives | 7 |
 | Language-specific resources | 12 (10 CN, 1 JP, 1 EN) |
 | Total community stars | 1M+ across all indexed repos |
 

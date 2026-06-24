@@ -1,6 +1,6 @@
 ---
 title: Hermes Contributors  --  How to Submit to the Hermes Ecosystem Directory
-description: Learn how to contribute to the largest Hermes Agent resource directory. Submit repos, review pending additions, and join the community of contributors. 122+ repos indexed.
+description: Learn how to contribute to the largest Hermes Agent resource directory. Submit repos, review pending additions, and join the community of contributors. 407 repos indexed.
 category: Community
 tags:
   - contributors
@@ -8,7 +8,7 @@ tags:
   - open-source
   - submit-repo
   - ecosystem
-last_updated: 2026-06-23T08:10Z
+last_updated: 2026-06-24T08:00Z
 ---
 
 # Hermes Community Contributors  --  Help Build the Largest Hermes Resource Directory
@@ -24,7 +24,7 @@ The **Hermes Ecosystem Directory** is the most comprehensive collection of Herme
 | **Total submissions** | 246 |
 | **Approval rate** | 100% |
 | **Review time** | <48 hours |
-| **Repos indexed** | 370 |
+| **Repos indexed** | 407 |
 | **Categories** | 18 |
 
 ## How to Contribute
