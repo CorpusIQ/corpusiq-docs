@@ -1733,5 +1733,103 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-23T08:02:01.896871+00:00"
+  },
+  {
+    "repo": "siongsheng/hermes-panel",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T05:06:23.268882+00:00"
+  },
+  {
+    "repo": "kusuriya/pentest-pipeline",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T05:06:23.268895+00:00"
+  },
+  {
+    "repo": "yazqe/idx-signals",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T05:06:23.268898+00:00"
+  },
+  {
+    "repo": "empreendedorserial/hermes-whatsapp-mixed",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T05:06:23.268900+00:00"
+  },
+  {
+    "repo": "ahobsonsayers/closedagent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T05:06:23.268902+00:00"
+  },
+  {
+    "repo": "DeployFaith/Hermes_Agency",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T05:06:23.268903+00:00"
+  },
+  {
+    "repo": "john-data-chen/hermes-agent-backup",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T05:06:23.268905+00:00"
+  },
+  {
+    "repo": "eamondowling/gtnh-mcp-game-chat",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T05:06:23.268907+00:00"
+  },
+  {
+    "repo": "miaolink/THS_MCP_Quant",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T05:06:23.268908+00:00"
+  },
+  {
+    "repo": "HYC925/hy-c38-test",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T05:06:23.268910+00:00"
+  },
+  {
+    "repo": "ki11a-Conton/hermes-reflection-mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T05:06:23.268911+00:00"
+  },
+  {
+    "repo": "nhattan658-coder/veogenie-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T05:06:23.268913+00:00"
+  },
+  {
+    "repo": "yang98623/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T05:06:23.268914+00:00"
+  },
+  {
+    "repo": "monah-studio/WeChatHermes",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T05:06:23.268916+00:00"
   }
 ]
