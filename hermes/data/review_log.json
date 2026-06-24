@@ -1831,5 +1831,33 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-24T05:06:23.268916+00:00"
+  },
+  {
+    "repo": "Anquietas86/hermes-meshcore",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T06:01:43.488572+00:00"
+  },
+  {
+    "repo": "CodeSigils/hermes-doom-config",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T06:01:43.488586+00:00"
+  },
+  {
+    "repo": "Jnocode/recall-memory-hermes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T06:01:43.488589+00:00"
+  },
+  {
+    "repo": "robert7/remnote-mcp-server",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-24T06:01:43.488591+00:00"
   }
 ]

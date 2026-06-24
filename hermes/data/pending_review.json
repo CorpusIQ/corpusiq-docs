@@ -7470,5 +7470,117 @@
     ],
     "discovered_at": "2026-06-24T05:06:15.129890+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Anquietas86/hermes-meshcore",
+    "url": "https://github.com/Anquietas86/hermes-meshcore",
+    "description": "MeshCore LoRa mesh radio platform adapter for Hermes Agent \u2014 connects Hermes to MeshCore companion radio nodes via TCP for channel and DM messaging.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-24T06:00:51Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "megberts/mcp-hermes-integration",
+      "kaankacar/stellar-agent-kit",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-06-24T06:01:23.206164+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "CodeSigils/hermes-doom-config",
+    "url": "https://github.com/CodeSigils/hermes-doom-config",
+    "description": "Doom Emacs config with Hermes AI Agent skill \u2014 agent-aware module setup, curator-driven sync, automated validation",
+    "stars": 0,
+    "forks": 0,
+    "language": "Emacs Lisp",
+    "topics": [
+      "doom-config",
+      "doom-emacs",
+      "emacs",
+      "emacs-config",
+      "hermes-agent",
+      "org-mode"
+    ],
+    "updated_at": "2026-06-24T05:59:26Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-24T06:01:26.208599+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Jnocode/recall-memory-hermes",
+    "url": "https://github.com/Jnocode/recall-memory-hermes",
+    "description": "Hermes Agent memory provider plugin for recall-memory (SAG-based retrieval)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-24T05:57:48Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-24T06:01:29.211148+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "robert7/remnote-mcp-server",
+    "url": "https://github.com/robert7/remnote-mcp-server",
+    "description": "MCP server and CLI for connecting AI agents, OpenClaw/Hermes workflows, local automation, and coding harnesses to your RemNote knowledge base via the RemNote Automation Bridge.",
+    "stars": 13,
+    "forks": 7,
+    "language": "TypeScript",
+    "topics": [
+      "agentic-workflows",
+      "ai-agents",
+      "hermes",
+      "mcp-server",
+      "model-context-protocol",
+      "openclaw",
+      "remnote"
+    ],
+    "updated_at": "2026-06-24T05:13:29Z",
+    "category": "mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "Romanescu11/hermes-skill-factory",
+      "ruvnet/agent-harness-generator",
+      "unmodeled-tyler/vessel-browser",
+      "smfworks/smf-notebooklm-video-pipeline",
+      "Bo1202/Aivy-OS",
+      "Sylinko/Everywhere"
+    ],
+    "discovered_at": "2026-06-24T06:01:32.998171+00:00",
+    "status": "pending"
   }
 ]
