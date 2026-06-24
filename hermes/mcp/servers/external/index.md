@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 23, 2026 (afternoon sweep) · **Sources:** mcp.so (22,663 servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 23, 2026 (evening sweep) · **Sources:** mcp.so (22,663 servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -81,6 +81,18 @@ AI legal compliance  --  contract review, ad law check, risk scoring, EU AI Act 
 
 ### Personal Finance MCP Server ★ New
 Personal finance calculations in the Claude ecosystem. Guide users through compound interest, loan amortization, retirement planning, tax estimation, and budgeting. Ideal for operators who want AI-driven personal finance alongside business tools.
+
+### GoodVat MCP Server ★ New
+Global tax compliance knowledge and tools. AI assistants get access to verified VAT, GST, and sales tax data across 200+ jurisdictions. Built and maintained by goodvat.com. Essential for operators managing cross-border commerce.
+
+### ifthenpay Payments MCP ★ New
+Generate payments, retrieve transaction history, and interact with ifthenpay services directly from AI agents. Portuguese payment gateway integration for European operators.
+
+### PipRail ★ New
+AI agent autonomous payment execution for any x402 (HTTP 402) API across 29 blockchains. Budget-capped, self-custody, no facilitator fees. Essential for operators automating micropayment workflows.
+
+### Customs Mcp ★ New
+Trade tariff data for GB and US imports. Two tools: `hs_lookup` (product descriptions → HS commodity codes) and `duty_rates` (import duties, preferential rates, VAT). Freemium: 20 free queries per key, then $0.02/query. Essential for ecommerce operators managing international shipments.
 
 ### hourledger-mcp ★ New
 Work hours, overtime, and gross pay calculation with tested rulesets for US federal, California, Alaska, Colorado, and Nevada law. MCP-native payroll intelligence for operators managing distributed teams.
@@ -233,6 +245,9 @@ DocSend & Papermark MCP server  --  extract decks and convert to PDF or PowerPoi
 ### BuyWhere MCP ★ New
 First SEA e-commerce MCP server  --  real-time product search across 11M+ products in Singapore, SEA, and US markets. 6 tools: search_products, compare_prices, get_price, get_affiliate_link, get_catalog, get_product. Compatible with LangChain, LlamaIndex, CrewAI, Mastra + any MCP client. Free API key at buywhere.ai. `npx -y @buywhere/mcp-server`
 
+### Profitlee-MCP ★ New
+Ecommerce and marketplace profitability calculator. Analyze net profit, profit margin, ROI, breakeven price, and fee-adjusted outcomes from product cost, selling price, shipping, ads, platform fees, and tax inputs. Supports reusable profit scenarios. Essential for ecommerce operators managing multi-channel profitability.
+
 ### Portkey Admin MCP ★ New
 150 tools across 18 domains for the Portkey AI Gateway  --  prompts, analytics, guardrails, API keys, virtual keys, users, workspaces, rate/usage limits. MIT license. ⚠ Maintenance mode post Palo Alto Networks acquisition (May 2026). Works end-to-end as of June 2026. `npx -y portkey-admin-mcp`
 
@@ -264,6 +279,24 @@ Require offline-verifiable human approval before AI agents take irreversible act
 
 ### Bright Data ★ Sponsor
 Discover, extract, and interact with the web  --  one unified interface powering automated access across the public internet. Enterprise-grade web scraping and data extraction.
+
+### Reefapi ★ New
+One MCP server connecting AI to 160+ live web-data APIs: search engines, social media (Reddit, TikTok, Threads, Bluesky), e-commerce (Amazon, eBay, AliExpress, Etsy), real estate (Zillow, Redfin), jobs, travel, news, and finance. Returns clean JSON from sites that block scrapers (captcha/anti-bot/login-walled/JS-heavy). One API key, one credit pool across all sources. Free tier available. Essential for operators who need multi-platform data intelligence.
+
+### CheckMyVIN ★ New
+Decode any VIN and check open NHTSA safety recalls directly in your AI assistant. Free, official US government data, no auth required. Two tools: `decode_vin` (full specs, recalls, maintenance from 17-character VIN) and `check_recalls` (open NHTSA recalls by make/model/year). Essential for fleet and logistics operators.
+
+### Media Context Mcp ★ New
+Give your AI assistant eyes and ears. Analyze any video, audio, or image entirely on your machine. Local processing — no cloud uploads. Essential for operators who need media intelligence without data leakage.
+
+### Native Soil ★ New
+Save your AI chat's working state (decisions, context, plan) and load it in any other model, client, or provider. Verified on save, secrets stripped. Essential for operators managing multi-model workflows.
+
+### Apiany Mcp ★ New
+APIAny offers a single OpenAI-compatible API gateway for leading LLM, image, video, and audio models. Compare pricing, read docs, start building production apps, agents, and workflows. Essential for operators managing multi-provider AI infrastructure.
+
+### Mcp Json Validator ★ New
+AI-powered self-healing JSON validator. Pay-per-call model. Essential for developers building JSON-heavy agent workflows.
 
 ### Onlinecybertools MCP (280+ Tools)
 280+ free dev/security tools in one MCP server: Base64/URL/JWT encoders, MD5/SHA/HMAC/bcrypt/argon2 hashes, JSON/YAML/XML formatters, regex tester, network diagnostics (ping/traceroute/dig/whois/SSL/SPF/DMARC), OSINT lookups. No auth, no API key.
@@ -412,6 +445,12 @@ A community gateway to migrate legacy Jakarta EE monoliths into Spring Boot 3.4 
 
 ### Niche ★ New
 Editorial intelligence for creators and their agents  --  discover the stories worth writing about, rank the strongest angle, and draft grounded, platform-native posts. Content strategy MCP for operators running content marketing and thought leadership programs.
+
+### Rendley MCP ★ New
+Full video editor accessible via MCP. Create and edit video by describing what you want in the same chat you already work in. Essential for marketing and content operators who need AI-driven video production.
+
+### onvela CRM ★ New
+AI-first MCP CRM. Native MCP integration for customer relationship management. Essential for sales operators who want CRM operations directly in their AI workflow.
 
 ### Hirenimbus Mcp ★ New
 Home Services MCP by HireNimbus  --  AI agents find, compare, and book verified local pros for handyman, renovation, HVAC, plumbing, electrical, and landscaping jobs in supported US metro markets. Essential for property managers, facility operators, and home service businesses.
@@ -568,6 +607,21 @@ Generate finished, on-brand designs  --  logos, social posts, app-store screensh
 
 ### OpenAI Ads MCP Server ★ New
 OpenAI Ads and ChatGPT Ads MCP server for the OpenAI Advertiser API  --  typed tools for campaigns, creatives, audiences, and insights. Advertising campaign management for operators running paid acquisition on OpenAI/ChatGPT platforms.
+
+### Zooq ★ New
+LinkedIn data API and MCP server for AI agents. Public profiles, companies, and posts as clean JSON — no login, no cookies, no browser automation. 300 free credits on signup. Pay-as-you-go credit billing. Endpoint: `https://zooq.dev/api/mcp`. Essential for sales and recruiting operators who need LinkedIn intelligence.
+
+### Rampify ★ New
+SEO MCP server: crawl your site, find AI-visibility gaps (GEO), and ship the fix from your coding agent. Combines traditional SEO audit with AI-engine optimization (AEO). Essential for marketing operators managing AI discoverability.
+
+### viral.app ★ New
+API-powered MCP server for UGC marketing analytics, creator tracking, campaign reporting, and agent workflows. Analyze user-generated content performance and creator ROI directly from AI assistants.
+
+### Influee MCP ★ New
+Run influencer marketing campaigns on Influee platform from AI agents. Campaign setup, creator matching, performance tracking, and payment workflows. Essential for brands managing influencer partnerships.
+
+### MillionPhones ★ New
+Verified B2B direct dials. AI agents get access to phone-verified contact database for outbound sales. Essential for sales operators building prospecting workflows.
 
 ### SE Ranking MCP ★ New
 Live access to SE Ranking's SEO and AI search data  --  keyword research, backlinks, domain analysis, site audits, and AI search visibility (180+ tools). MCP-native SEO platform for operators who need comprehensive search intelligence in their AI workflows.
