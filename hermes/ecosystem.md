@@ -3700,3 +3700,14 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 | [timothy-odofin/agenthub-be](https://github.com/timothy-odofin/agenthub-be) | 570 | Open-source RAG platform with multi-LLM support. Build AI agents that connect to your data, tools, a | agent, ecosystem |
 | [makafeli/n8n-workflow-builder](https://github.com/makafeli/n8n-workflow-builder) | 526 | AI assistant integration for n8n workflow automation through Model Context Protocol (MCP). Connect C | agent, ecosystem |
 
+| [ruvnet/agent-harness-generator](https://github.com/ruvnet/agent-harness-generator) | 297 | 🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own np | agent, ecosystem |
+| [zhu1090093659/spec_driven_develop](https://github.com/zhu1090093659/spec_driven_develop) | 909 | Spec-driven development workflow for AI coding agents: architecture-first planning, task decompositi | agent, ecosystem |
+| [DjangoPeng/agent-hub](https://github.com/DjangoPeng/agent-hub) | 339 | This repository is a hub for AI Agent projects, including GitHub Sentinel, LanguageMentor, and ChatP | agent, ecosystem |
+| [groupzer0/vs-code-agents](https://github.com/groupzer0/vs-code-agents) | 274 | A multi-agent workflow system for GitHub Copilot in VS Code that brings structure, quality gates, an | agent, ecosystem |
+| [google-labs-code/jules-action](https://github.com/google-labs-code/jules-action) | 203 | Add a powerful cloud coding agent to your GitHub workflows | agent, ecosystem |
+| [marcuspat/turbo-flow](https://github.com/marcuspat/turbo-flow) | 163 | Advanced Agentic Development Environment for DevPods, GitHub Codespaces, Rackspace Spot & more. Rufl | agent, ecosystem |
+| [Zen4-bit/Proxima](https://github.com/Zen4-bit/Proxima) | 1099 | Multi-AI MCP Server - Connect ChatGPT, Claude, Gemini & Perplexity to your coding tools without any  | agent, ecosystem |
+| [iansinnott/obsidian-claude-code-mcp](https://github.com/iansinnott/obsidian-claude-code-mcp) | 309 | Connect Claude Code and other AI tools to your Obsidian notes using Model Context Protocol (MCP) | agent, ecosystem |
+| [HarmonicSecurity/claudit-sec](https://github.com/HarmonicSecurity/claudit-sec) | 292 | Security audit tool for Claude Desktop and Claude Code on macOS — single-command visibility into MCP | agent, ecosystem |
+| [Glade-tool/glade-mcp](https://github.com/Glade-tool/glade-mcp) | 167 | Connect any MCP-compatible AI client (Claude Code, Cursor, Windsurf) to Unity or Godot. 235+ granula | agent, ecosystem |
+| [mixelpixx/SSH-MCP](https://github.com/mixelpixx/SSH-MCP) | 49 | A Model Context Protocol (MCP) server that provides SSH access to remote servers, allowing AI tools  | agent, ecosystem |
