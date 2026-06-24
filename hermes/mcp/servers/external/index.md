@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 23, 2026 (evening sweep) · **Sources:** mcp.so (22,663 servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 24, 2026 (morning sweep) · **Sources:** mcp.so (22,663 servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -54,6 +54,9 @@ Read-only access to Belarusian securities: tokens, shares, bonds, companies, tic
 
 ### Infrawise ★ New
 Azure FinOps infrastructure cost optimization. Helps operators manage cloud spend with AI-assisted cost analysis. `npx -y @infrawise/mcp-server`
+
+### Costory ★ New
+Multi-cloud FinOps MCP  --  ask your AI assistant a cost question and get allocation, correlation, and explanation in one response. Normalized cost data across AWS, GCP, Azure, Datadog, OpenAI, and Anthropic. Essential for operators managing multi-cloud infrastructure who need AI-driven cost intelligence without switching between vendor consoles.
 
 ### agents.hellobooks.ai ★ New
 AI agents that automate bookkeeping and financial close for SMBs. Streamable HTTP transport. Hands-free bookkeeping via MCP  --  ideal for small business operators who want AI to handle financial close.
@@ -254,6 +257,18 @@ Ecommerce and marketplace profitability calculator. Analyze net profit, profit m
 ### Attio MCP Server ★ New
 AI-native CRM (Attio) via MCP  --  manage companies, people, lists, and tasks directly from AI assistants like Claude, Cursor, and ChatGPT. Comprehensive Attio API support with robust error handling, automatic retry logic, and input validation. Requires Node.js 18+ and Attio API key. `npx -y @kesslerio/attio-mcp-server`. Essential for operators using Attio as their CRM who want AI agents to query and manage customer relationships.
 
+### Pandadoc Mcp ★ New
+PandaDoc document automation via MCP  --  create, send, and track proposals, contracts, quotes, and e-signatures directly from AI agents. Essential for operators who manage document workflows (sales proposals, legal agreements, SOWs) and want AI-driven document generation, signing, and pipeline tracking.
+
+### Amplifier MCP Server ★ Official ★ New
+D2C eCommerce fulfillment platform via MCP  --  manage orders, inventory, shipments, campaigns, and billing directly from AI agents. Official MCP server for the Amplifier fulfillment platform. Essential for ecommerce operators who need AI-driven fulfillment operations across their D2C channels.
+
+### Amazon Seller Central / Amazon Ads ★ New
+Connect Amazon Seller Central and Amazon Ads accounts to AI agents. Manage inventory and orders (Seller Central) alongside advertising campaigns and analytics (Amazon Ads). Two-in-one MCP server for Amazon marketplace operators who need both commerce operations and paid acquisition from a single agent interface.
+
+### MewCP Razorpay MCP ★ New
+Hosted, stateless, multitenant Razorpay MCP  --  manage payments, customers, subscriptions, invoices, and financial operations through India's leading payment gateway. Essential for Indian-market operators and global businesses processing INR transactions who want AI agents to handle payment workflows.
+
 ---
 
 ## Compliance & Regulatory
@@ -272,6 +287,9 @@ Compliance, KYB (Know Your Business), sanctions screening, and data API for AI a
 
 ### EMILIA Protocol ★ New
 Require offline-verifiable human approval before AI agents take irreversible actions. Two-person rule, Ed25519 Trust Receipts, IETF-drafted protocol, Apache-2.0. MCP-native governance for high-stakes agent operations  --  ideal for financial controllers and compliance officers.
+
+### Averta security ★ New
+MCP gateway security  --  secure every MCP server with one governed gateway. Give each AI agent its own scoped MCP access, contain credentials at the gateway, and audit every MCP tool call without wiring agents directly to each server. Essential for operators running multi-agent, multi-server MCP deployments who need centralized security, credential management, and audit trails.
 
 ---
 
@@ -439,6 +457,18 @@ Local AI desktop client + MCP orchestration engine  --  visual GUI or headless, 
 ### Legacy Java to Microservices Refactoring ★ New
 A community gateway to migrate legacy Jakarta EE monoliths into Spring Boot 3.4 microservices using AST parsing. Discovery gateway for a premium MCPize-hosted service. For Java enterprise operators modernizing legacy stacks.
 
+### corelayer0 ★ New
+Turn any OpenAPI spec into a hosted MCP server in 30 seconds. One typed tool per endpoint, server-side auth injection, stable URL across spec updates. EU-hosted, GDPR-native. Essential for operators who need to rapidly expose internal APIs as MCP tools without building custom servers.
+
+### Pipetable ★ New
+Register local data files as DuckDB views and let AI agents run real SQL against them. Files never leave the machine — results are ground truth, not generated. Zero data exfiltration. Essential for operators who want AI agents to query local CSV, Parquet, and JSON data without uploading to cloud services.
+
+### Clutter ★ New
+Synthetic data generator MCP server  --  19 tools for generating realistic companies, documents, and structured data. Ideal for populating SharePoint, test, and demo systems. Requires `CLUTTER_API_KEY`. Essential for operators who need realistic test data for AI agent development and system demonstrations.
+
+### Syntitan ★ New
+AI-Ready Data Platform MCP  --  bridge enterprise data management and AI execution. Connect Claude and other MCP clients to Syntitan's governed data layer that fills the missing layer between enterprise data systems and AI agents. Essential for enterprise operators building governed AI data pipelines.
+
 ---
 
 ## Productivity
@@ -557,6 +587,12 @@ AI-powered meeting notes and summaries. Connect your meeting data to AI agents.
 
 ### Superlist MCP Server ★ Official
 Task and project management via MCP. Connect AI agents to your Superlist workspace.
+
+### KaiCalls ★ New
+AI phone secretary for businesses  --  place outbound calls, read transcripts, manage voicemails, send/receive SMS, and access analytics from your business line via MCP. Essential for operators who want AI agents to handle phone-based customer interactions, lead qualification, and communication workflows without a human receptionist.
+
+### Shipmail MCP ★ New
+Business email MCP server for AI agents  --  custom-domain inboxes, REST API, webhooks, send, read, and reply tools. Purpose-built for AI agents to handle business email workflows including transactional notifications, customer communications, and inbox management with custom-domain professionalism.
 
 ### Onboard MCP ★ Official ★ New
 Connect your AI assistant to Onboard to monitor live onboarding projects, surface blocked tasks and risks, draft customer emails, and take action on tasks with role-based access and preview-first safety. Essential for operators managing customer onboarding workflows  --  keeps AI agents aligned with real project state. Official MCP server with Streamable HTTP transport.
@@ -724,6 +760,9 @@ Photo-to-reel MCP for solo founders and SMBs. Upload 1–10 photos and get a cap
 
 ### Spimov AI Video Dubbing ★ New
 Dub any video into 600 languages straight from your AI chat  --  YouTube dubbing and voice cloning via MCP. Global content distribution MCP for operators expanding content across language markets.
+
+### MewCP Google Business MCP ★ New
+Hosted, stateless, multitenant Google Business Profile MCP  --  manage business listings, reviews, locations, and customer interactions through Google Business Profile. Essential for local business operators and multi-location brands who want AI agents to manage their Google presence, respond to reviews, and update business information.
 
 ---
 
@@ -1130,6 +1169,28 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ---
 
+## New This Week (June 24, 2026 — morning sweep)
+
+### 13 new servers from mcp.so Feed + mcpservers.org Communication + Cloud Service + Development + Other
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Pandadoc Mcp ★ New | Commerce/Docs | PandaDoc document automation MCP — create, send, and track proposals, contracts, quotes, and e-signatures from AI agents |
+| KaiCalls ★ New | Communication | AI phone secretary for businesses — outbound calls, transcripts, voicemails, SMS, and analytics from your business line |
+| Shipmail MCP ★ New | Communication | Business email MCP for AI agents — custom-domain inboxes, REST API, webhooks, send, read, and reply tools |
+| Costory ★ New | Finance/FinOps | Multi-cloud cost analysis — normalized cost data across AWS, GCP, Azure, Datadog, OpenAI, and Anthropic with allocation and correlation |
+| Amplifier MCP Server ★ Official ★ New | Commerce/Fulfillment | D2C eCommerce fulfillment platform — manage orders, inventory, shipments, campaigns, and billing via AI agents |
+| Amazon Seller Central / Amazon Ads ★ New | Commerce | Connect Amazon Seller Central and Ads accounts to AI agents — inventory, orders, campaign management, and advertising analytics |
+| Averta security ★ New | Security/Infra | MCP gateway security — scoped access per AI agent, credential containment, full audit trail for every MCP tool call |
+| MewCP Razorpay MCP ★ New | Commerce/Payments | Hosted, stateless Razorpay MCP — manage payments, customers, subscriptions, invoices, and financial operations for Indian-market operators |
+| MewCP Google Business MCP ★ New | Marketing/Local | Google Business Profile management — listings, reviews, locations, and customer interactions via AI agents |
+| corelayer0 ★ New | Dev/Infra | Turn any OpenAPI spec into a hosted MCP server in 30 seconds — EU-hosted, GDPR-native, stable URLs |
+| Pipetable ★ New | Data/Dev | Local data files as DuckDB views — register files, let AI agents run real SQL against them, zero data exfiltration |
+| Clutter ★ New | Dev/Data | Synthetic data generator MCP — realistic companies, documents, and structured data for testing and demo systems |
+| Syntitan ★ New | Data/Enterprise | AI-Ready Data Platform MCP — bridge enterprise data management and AI execution with governed access |
+
+---
+
 ## New This Week (June 22, 2026 — afternoon sweep)
 
 ### 35 new servers from mcp.so Latest + mcpservers.org Finance + Marketing + Productivity + Development
@@ -1200,8 +1261,8 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 23 afternoon):** 32 new MCP servers — 23 morning (mcp.so Feed) + 9 afternoon (mcp.so Feed + mcpservers.org)
-- **Cumulative since June 9:** 301 MCP servers catalogued across 19 sweeps
+- **New this cycle (June 24 morning):** 13 new MCP servers — from mcp.so Feed + mcpservers.org Communication + Cloud Service + Development + Other
+- **Cumulative since June 9:** 314 MCP servers catalogued across 20 sweeps
 
 ---
 
