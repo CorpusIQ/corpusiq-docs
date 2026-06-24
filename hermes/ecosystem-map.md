@@ -11,7 +11,7 @@ Visual map of the entire Hermes Agent ecosystem  --  every repository, category,
 
 ```mermaid
 graph TB
-    CORE[NousResearch/hermes-agent<br/>⭐195K · Core Framework]
+    CORE[NousResearch/hermes-agent<br/>⭐202K · Core Framework]
 
     subgraph OFFICIAL[Official Resources]
         SELF[hermes-agent-self-evolution<br/>⭐4.1K]
@@ -138,14 +138,14 @@ xychart-beta
     title "Stars by Category (log scale)"
     x-axis ["Core", "Memory", "UI", "Orch.", "Deploy", "Skills", "Research"]
     y-axis "Stars (log)" 0 --> 200000
-    bar [195064, 82700, 14540, 61663, 35898, 15046, 4116]
+    bar [202005, 82700, 14540, 61663, 35898, 15046, 4116]
 ```
 
 ## Master Index
 
 | # | Repository | Stars | Category |
 |---|-----------|-------|----------|
-| 1 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 195,064 | Core |
+| 1 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 202,005 | Core |
 | 2 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 102,447 | Orchestration |
 | 3 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 82,700 | Memory |
 | 4 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 65,835 | UI |

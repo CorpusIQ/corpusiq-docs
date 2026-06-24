@@ -182,7 +182,7 @@ Model Context Protocol (MCP) servers extend Hermes with structured tools.
 
 | Resource | Description |
 |----------|-------------|
-| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Core project (195K+ stars) |
+| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Core project (202K+ stars) |
 | [Official Docs](https://hermes-agent.nousresearch.com/docs/) | Installation, CLI, gateway, tools, skills |
 | [Discord](https://discord.gg/NousResearch) | Community support |
 

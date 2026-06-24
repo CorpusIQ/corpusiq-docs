@@ -43,7 +43,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 407 rep
 The foundational repositories maintained by Nous Research and core ecosystem maintainers.
 
 ### NousResearch/hermes-agent
-⭐ **195,064** · `Python` · [github.com/NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+⭐ **202,005** · `Python` · [github.com/NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
 
 The agent that grows with you. Self-improving autonomous AI agent with persistent memory, self-evolving skills, multi-platform messaging gateway (Telegram, Discord, Slack, WhatsApp, Signal, Feishu, WeCom, QQBot, Yuanbao + Teams via plugin), cron scheduling, MCP integration, profiles, and ACP (Agent Communication Protocol). Supports Anthropic, ChatCompletions, Responses API, and Bedrock model providers. 18 messaging platforms, 7 execution backends.
 
@@ -3943,7 +3943,7 @@ Browse the [Quick Navigation](#-quick-navigation) table above to jump to any of 
 
 ### What are the most popular Hermes Agent tools?
 
-Based on community stars: **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (195K+), **[claude-mem](https://github.com/thedotmack/claude-mem)** (82K+), **[open-design](https://github.com/nexu-io/open-design)** (66K+), **[gbrain](https://github.com/garrytan/gbrain)** (23K+), **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** (21K+), **[screenpipe](https://github.com/screenpipe/screenpipe)** (19K+), and **[hermes-webui](https://github.com/nesquena/hermes-webui)** (14.5K+).
+Based on community stars: **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (202K+), **[claude-mem](https://github.com/thedotmack/claude-mem)** (82K+), **[open-design](https://github.com/nexu-io/open-design)** (66K+), **[gbrain](https://github.com/garrytan/gbrain)** (23K+), **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** (21K+), **[screenpipe](https://github.com/screenpipe/screenpipe)** (19K+), and **[hermes-webui](https://github.com/nesquena/hermes-webui)** (14.5K+).
 
 ### How does the ecosystem directory stay updated?
 
