@@ -7,7 +7,11 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
+<<<<<<< Updated upstream
 > **Last updated:** June 24, 2026 (morning sweep) · **Sources:** mcp.so (22,663 servers), mcpservers.org (9,300+ servers)
+=======
+> **Last updated:** June 24, 2026 (afternoon sweep) · **Sources:** mcp.so (22,663 servers), mcpservers.org (9,300+ servers)
+>>>>>>> Stashed changes
 
 ---
 
@@ -58,6 +62,12 @@ Azure FinOps infrastructure cost optimization. Helps operators manage cloud spen
 ### Costory ★ New
 Multi-cloud FinOps MCP  --  ask your AI assistant a cost question and get allocation, correlation, and explanation in one response. Normalized cost data across AWS, GCP, Azure, Datadog, OpenAI, and Anthropic. Essential for operators managing multi-cloud infrastructure who need AI-driven cost intelligence without switching between vendor consoles.
 
+<<<<<<< Updated upstream
+=======
+### Cloudability API ★ New
+Comprehensive MCP server for the Cloudability API  --  advanced cloud cost management, Kubernetes container analytics, and budget forecasting across multi-cloud environments. Enables AI agents to query normalized cloud spend, rightsizing recommendations, and commitment discount analysis without switching between cloud consoles. Essential for FinOps operators and cloud cost managers.
+
+>>>>>>> Stashed changes
 ### agents.hellobooks.ai ★ New
 AI agents that automate bookkeeping and financial close for SMBs. Streamable HTTP transport. Hands-free bookkeeping via MCP  --  ideal for small business operators who want AI to handle financial close.
 
@@ -269,6 +279,15 @@ Connect Amazon Seller Central and Amazon Ads accounts to AI agents. Manage inven
 ### MewCP Razorpay MCP ★ New
 Hosted, stateless, multitenant Razorpay MCP  --  manage payments, customers, subscriptions, invoices, and financial operations through India's leading payment gateway. Essential for Indian-market operators and global businesses processing INR transactions who want AI agents to handle payment workflows.
 
+<<<<<<< Updated upstream
+=======
+### mcp-jp ★ New
+Japanese SMB SaaS connectors via MCP  --  30+ tools for KING OF TIME (attendance), SmartHR (HR management), kaonavi (talent management), Smaregi (POS), CloudSign (e-contracts), L Step (sales management), and more. Each connector is an independent pip package; connectors are archived once an official MCP ships. Essential for operators in the Japanese market who need AI-driven access to domestic SMB SaaS tools without waiting for official MCP support.
+
+### OnePageCRM ★ New
+Full CRM operations via MCP for OnePageCRM users. Create, search, update, and manage contacts, companies, deals, and notes directly from AI agents. Essential for sales operators using OnePageCRM who want AI-driven pipeline management and customer relationship workflows without switching between tools.
+
+>>>>>>> Stashed changes
 ---
 
 ## Compliance & Regulatory
@@ -281,6 +300,12 @@ EU DORA compliance evidence infrastructure  --  50 MCP tools across 11 servers, 
 
 ### Trust Gate MCP ★ New ★ Featured
 First post-quantum MCP server. Policy-gated AI agent decisions with hybrid Ed25519 + ML-DSA-65 (NIST FIPS 204) cryptographic receipts. Every tool call is policy-gated, hybrid-signed, and offline-verifiable. 4 tools: `gate_decision`, `verify_receipt`, `check_policy`, `health`. Production-ready (47 unit tests, 51 OWASP ASI checks, 0 CVEs in deps). EU AI Act Article 50 native, NSA CNSA 2.0 / NIST AI RMF / SOC 2 ready. Apache-2.0. Essential for operators in regulated industries who need cryptographically verifiable AI agent decisions with post-quantum security. `pip install trust-gate-mcp`
+
+### Ares MCP ★ New
+Official Czech business registry MCP server for ARES (ares.gov.cz). 14 tools: company lookup by IČO or name, full due diligence profiles (financials, ownership, statutory bodies), insolvency register checks, VAT-payer verification, trade-license validation, address search, and cross-company person graph analysis. Optional Ed25519-signed provenance records (source + date + signature) for offline verification. Experimental/beta. Essential for operators doing business in the Czech Republic or Central Europe who need verified company intelligence through their AI agents.
+
+### botcorpus ★ New
+Machine-first, web-sourced knowledge base of current CZ/SK/AT/EU civic, tax, and legal facts. Each fact includes source URL, extraction date, and confidence score. Purpose-built for AI agents operating in Central European jurisdictions — replaces hallucinated legal information with verified, timestamped knowledge. Essential for compliance officers, legal operators, and business entities in CZ/SK/AT/EU markets.
 
 ### Gocreative ★ New
 Compliance, KYB (Know Your Business), sanctions screening, and data API for AI agents. Automated business verification, AML checks, and regulatory compliance workflows via MCP. Essential for operators in fintech, legal, and regulated industries.
@@ -482,6 +507,9 @@ Full video editor accessible via MCP. Create and edit video by describing what y
 ### onvela CRM ★ New
 AI-first MCP CRM. Native MCP integration for customer relationship management. Essential for sales operators who want CRM operations directly in their AI workflow.
 
+### FoundersOS ★ New
+All-in-one operator OS for AI-native startup management — CRM, tasks, finances, feeds, and persistent memory for founders, delivered as an MCP server. Single MCP endpoint for the full founder toolkit: customer tracking, task management, financial dashboards, content feeds, and cross-session agent memory. Essential for solo founders and small startup teams who want AI agents to orchestrate their entire operational stack.
+
 ### Hirenimbus Mcp ★ New
 Home Services MCP by HireNimbus  --  AI agents find, compare, and book verified local pros for handyman, renovation, HVAC, plumbing, electrical, and landscaping jobs in supported US metro markets. Essential for property managers, facility operators, and home service businesses.
 
@@ -599,6 +627,9 @@ Connect your AI assistant to Onboard to monitor live onboarding projects, surfac
 
 ### Sendmux Email MCP ★ Official ★ New
 Email inbox and sending API purpose-built for AI agents. Sendmux provides transactional email sending, inbox management, and email operations via MCP. Official MCP server  --  essential for operators who want AI agents to handle email workflows (notifications, transactional emails, inbox automation) without building custom integrations. Streamable HTTP transport.
+
+### Mcp Emails ★ New
+Multi-inbox email management for AI agents via MCP. Read, search, send, organize, draft, and schedule email across your inboxes from any MCP client. Purpose-built for operators managing multiple email accounts who want AI agents to handle email triage, response drafting, and inbox organization across all accounts from a single interface.
 
 ---
 
@@ -1191,6 +1222,25 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ---
 
+<<<<<<< Updated upstream
+=======
+## New This Week (June 24, 2026 — afternoon sweep)
+
+### 7 new servers from mcp.so Feed + mcpservers.org Cloud Service + Memory
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Ares MCP ★ New | Finance/Compliance | Official Czech business registry MCP — 14 tools: company lookup, due diligence, statutory bodies, insolvency, VAT-payer & trade-license checks, address search, cross-company person graphs. Ed25519-signed provenance |
+| mcp-jp ★ New | Commerce/HR | Japanese SMB SaaS connectors — 30+ tools for KING OF TIME, SmartHR, kaonavi, Smaregi, CloudSign, L Step, and more. Independent pip packages per connector; archived once official MCP ships |
+| OnePageCRM ★ New | CRM | Create, search, update, and manage data in OnePageCRM directly from AI agents. Full CRM operations via MCP for sales operators |
+| Mcp Emails ★ New | Communication | Read, search, send, organize, draft, and schedule email across your inboxes from any MCP client. Multi-inbox email management for AI agents |
+| Cloudability API ★ New | Finance/FinOps | Comprehensive MCP for Cloudability API — advanced cloud cost management, Kubernetes container analytics, and budget forecasting across multi-cloud environments |
+| botcorpus ★ New | Legal/Compliance | Machine-first, web-sourced knowledge base of current CZ/SK/AT/EU civic, tax & legal facts — each with source, date & confidence. For operators in Central European jurisdictions |
+| FoundersOS ★ New | Productivity/CRM | CRM, tasks, finances, feeds, and memory for founders — as an MCP server. All-in-one operator OS for AI-native startup management |
+
+---
+
+>>>>>>> Stashed changes
 ## New This Week (June 22, 2026 — afternoon sweep)
 
 ### 35 new servers from mcp.so Latest + mcpservers.org Finance + Marketing + Productivity + Development
