@@ -7582,5 +7582,196 @@
     ],
     "discovered_at": "2026-06-24T06:01:32.998171+00:00",
     "status": "pending"
+  },
+  {
+    "name": "tranthethang/hermes-course-generator",
+    "url": "https://github.com/tranthethang/hermes-course-generator",
+    "description": "Hermes Course Generator: An AI agent-driven framework to bootstrap & generate comprehensive programming courses compatible with Docusaurus. Features automated multi-language lesson drafting, CLI tools, and scoring metrics.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-24T07:00:55Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "unmodeled-tyler/vessel-browser"
+    ],
+    "discovered_at": "2026-06-24T07:01:41.100289+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "thisismalhotra/hermes-agent-configs",
+    "url": "https://github.com/thisismalhotra/hermes-agent-configs",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-24T07:00:51Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-24T07:01:44.100803+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "surya17495/centri",
+    "url": "https://github.com/surya17495/centri",
+    "description": "Memory-native coding Agent with episodic memory, and both semantic/verbatim recall. Shipped as an Opencode fork and comes with Hermes-native memory integration.",
+    "stars": 6,
+    "forks": 1,
+    "language": "TypeScript",
+    "topics": [
+      "agent-memory",
+      "ai-agent",
+      "fts5",
+      "hermes",
+      "llm",
+      "memory",
+      "opencode",
+      "sqlite"
+    ],
+    "updated_at": "2026-06-24T07:00:31Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-24T07:01:47.104062+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Shivansh1146/NMG-Forge2-Qualifier-",
+    "url": "https://github.com/Shivansh1146/NMG-Forge2-Qualifier-",
+    "description": "A full-stack, AI-engineered Kanban board built for the NMG Forge 2 Qualifier. Features a Laravel REST API, React UI, HTML5 drag-and-drop, and dual-agent architecture (Hermes + OpenClaw).",
+    "stars": 1,
+    "forks": 0,
+    "language": "Blade",
+    "topics": [
+      "ai-agents",
+      "github-actions",
+      "kanban-board",
+      "laravel",
+      "nmg-forge",
+      "react",
+      "sqlite",
+      "vite"
+    ],
+    "updated_at": "2026-06-24T06:59:48Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-24T07:01:50.107571+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "synthalorian/clawtrade",
+    "url": "https://github.com/synthalorian/clawtrade",
+    "description": "AI-powered micro-SaaS marketplace where Hermes agents autonomously create, sell, and buy services",
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-06-24T06:59:45Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-24T07:01:53.111074+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "IAMDS-GMBH/hermes-agent",
+    "url": "https://github.com/IAMDS-GMBH/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-24T07:01:42Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-06-24T07:01:58.473718+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "liuhao1024/hermes-agent",
+    "url": "https://github.com/liuhao1024/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-24T07:01:38Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-06-24T07:02:01.476048+00:00",
+    "status": "pending"
   }
 ]
