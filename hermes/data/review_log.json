@@ -1908,5 +1908,75 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-24T07:02:10.652615+00:00"
+  },
+  {
+    "repo": "caesaryin2026/hermes-news",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-25T05:01:20.756607+00:00"
+  },
+  {
+    "repo": "rubbers5018/hermes-file-watcher-telegram",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-25T05:01:20.756620+00:00"
+  },
+  {
+    "repo": "BuboTheWise/MemChorus",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-25T05:01:20.756622+00:00"
+  },
+  {
+    "repo": "atlamors/agent-docs",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-25T05:01:20.756624+00:00"
+  },
+  {
+    "repo": "nemesis-agent/Nemesis",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-25T05:01:20.756626+00:00"
+  },
+  {
+    "repo": "butterclaw-tech/butterclaw",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-25T05:01:20.756627+00:00"
+  },
+  {
+    "repo": "StoneLL1/dida-task-skill",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-25T05:01:20.756629+00:00"
+  },
+  {
+    "repo": "TheIanLi/agent-config-snapshot-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-25T05:01:20.756630+00:00"
+  },
+  {
+    "repo": "agentmetal/agents",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-25T05:01:20.756632+00:00"
+  },
+  {
+    "repo": "joeshu/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-25T05:01:20.756633+00:00"
   }
 ]

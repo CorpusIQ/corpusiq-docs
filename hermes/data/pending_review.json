@@ -7773,5 +7773,276 @@
     ],
     "discovered_at": "2026-06-24T07:02:01.476048+00:00",
     "status": "pending"
+  },
+  {
+    "name": "caesaryin2026/hermes-news",
+    "url": "https://github.com/caesaryin2026/hermes-news",
+    "description": "Hermes Agent \u4e2d\u6587\u8d44\u8baf\u65e5\u62a5",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-06-25T04:59:54Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-25T05:00:41.756609+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rubbers5018/hermes-file-watcher-telegram",
+    "url": "https://github.com/rubbers5018/hermes-file-watcher-telegram",
+    "description": "Custom Hermes Agent skill: file-watcher with Telegram webhook notifications. Watches ~/.hermes/ directory and pushes real-time updates via Telegram Bot API.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-25T04:59:46Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "kaankacar/stellar-agent-kit"
+    ],
+    "discovered_at": "2026-06-25T05:00:44.758573+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "BuboTheWise/MemChorus",
+    "url": "https://github.com/BuboTheWise/MemChorus",
+    "description": "A modular, extensible memory orchestration layer for Hermes AI agents",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-25T04:59:36Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-25T05:00:47.760580+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "atlamors/agent-docs",
+    "url": "https://github.com/atlamors/agent-docs",
+    "description": "Hermes agent documentation",
+    "stars": 0,
+    "forks": 0,
+    "language": "MDX",
+    "topics": [],
+    "updated_at": "2026-06-25T04:59:24Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "mudrii/hermes-agent-docs"
+    ],
+    "discovered_at": "2026-06-25T05:00:50.762626+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "nemesis-agent/Nemesis",
+    "url": "https://github.com/nemesis-agent/Nemesis",
+    "description": "deploy autonomous trading agents on Base. built on Hermes, executed through Base MCP. approval-first, always.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-25T04:56:57Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-25T05:00:53.764708+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "butterclaw-tech/butterclaw",
+    "url": "https://github.com/butterclaw-tech/butterclaw",
+    "description": "A local-first agentic SOC & security watchdog for autonomous AI agents. Dual\u2011hemisphere Gemma 4 reasoning, behavioral drift tracking, event ledger, and kinetic response via the ButterVault. Protects OpenClaw, Hermes-Agent, and other MCP-based agents from prompt injection and rogue behavior.",
+    "stars": 2,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "agent-security",
+      "agentic-ai",
+      "agentic-soc",
+      "behavioral-drift",
+      "buttervault",
+      "local-first",
+      "mcp",
+      "ollama",
+      "prompt-injection-defense",
+      "security-tools"
+    ],
+    "updated_at": "2026-06-25T04:44:30Z",
+    "category": "mcp",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "MervinPraison/PraisonAI",
+      "longyunfeigu/learn-hermes-agent",
+      "jnMetaCode/shellward",
+      "ruvnet/agent-harness-generator",
+      "unmodeled-tyler/vessel-browser",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "ahonore42/logios-brain",
+      "tale-project/tale"
+    ],
+    "discovered_at": "2026-06-25T05:00:57.578349+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "StoneLL1/dida-task-skill",
+    "url": "https://github.com/StoneLL1/dida-task-skill",
+    "description": "Cross-platform TickTick (\u6ef4\u7b54\u6e05\u5355) task-management AI agent skill \u2014 Hermes / OpenClaw / Claude Code / Codex. MCP onboarding, dynamic project routing, dedup, deadline-based priority.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-06-25T04:32:07Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/superpowers-zh",
+      "jnMetaCode/shellward",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-06-25T05:01:00.581248+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "TheIanLi/agent-config-snapshot-mcp",
+    "url": "https://github.com/TheIanLi/agent-config-snapshot-mcp",
+    "description": "\ud83d\udee1\ufe0f Protect your AI agent's critical files from accidental corruption. Auto-snapshot on every change, one-command rollback, unified diff. Supports any MCP-compatible agent (Hermes, OpenClaw, Claude Code). Never lose a config again. \ud83d\udee1\ufe0f AI Agent \u914d\u7f6e\u5b88\u62a4\u5de5\u5177 \u2014 \u6587\u4ef6\u6539\u52a8\u81ea\u52a8\u5907\u4efd\uff0c\u4e00\u952e\u56de\u6eda\u3002\u57fa\u4e8e watchdog \u5b9e\u65f6\u76d1\u542c\uff0c\u652f\u6301 Hermes / OpenClaw / Claude Code \u7b49 MCP Agent\u3002\u518d\u4e5f\u4e0d\u6015\u6539\u574f\u914d\u7f6e\u3002",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-25T02:32:45Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "1Panel-dev/1Panel",
+      "jnMetaCode/superpowers-zh",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "jnMetaCode/shellward",
+      "ruvnet/agent-harness-generator",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "kaankacar/stellar-agent-kit",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale"
+    ],
+    "discovered_at": "2026-06-25T05:01:03.584229+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "agentmetal/agents",
+    "url": "https://github.com/agentmetal/agents",
+    "description": "AgentMetal skills + Claude plugin \u2014 teach Claude / Hermes / OpenClaw to provision VPSes via AgentMetal.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-06-24T16:41:05Z",
+    "category": "skills",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/agency-agents-zh",
+      "unifapi-agent/agents",
+      "agentscope-ai/PawBench",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-06-25T05:01:07.511991+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "joeshu/hermes-agent",
+    "url": "https://github.com/joeshu/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-25T04:59:40Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-06-25T05:01:11.145706+00:00",
+    "status": "pending"
   }
 ]
