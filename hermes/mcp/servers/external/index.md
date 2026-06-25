@@ -7,11 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-<<<<<<< Updated upstream
-> **Last updated:** June 24, 2026 (morning sweep) · **Sources:** mcp.so (22,663 servers), mcpservers.org (9,300+ servers)
-=======
-> **Last updated:** June 24, 2026 (afternoon sweep) · **Sources:** mcp.so (22,663 servers), mcpservers.org (9,300+ servers)
->>>>>>> Stashed changes
+> **Last updated:** June 24, 2026 (evening sweep) · **Sources:** mcp.so (22,663 servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -62,12 +58,9 @@ Azure FinOps infrastructure cost optimization. Helps operators manage cloud spen
 ### Costory ★ New
 Multi-cloud FinOps MCP  --  ask your AI assistant a cost question and get allocation, correlation, and explanation in one response. Normalized cost data across AWS, GCP, Azure, Datadog, OpenAI, and Anthropic. Essential for operators managing multi-cloud infrastructure who need AI-driven cost intelligence without switching between vendor consoles.
 
-<<<<<<< Updated upstream
-=======
 ### Cloudability API ★ New
 Comprehensive MCP server for the Cloudability API  --  advanced cloud cost management, Kubernetes container analytics, and budget forecasting across multi-cloud environments. Enables AI agents to query normalized cloud spend, rightsizing recommendations, and commitment discount analysis without switching between cloud consoles. Essential for FinOps operators and cloud cost managers.
 
->>>>>>> Stashed changes
 ### agents.hellobooks.ai ★ New
 AI agents that automate bookkeeping and financial close for SMBs. Streamable HTTP transport. Hands-free bookkeeping via MCP  --  ideal for small business operators who want AI to handle financial close.
 
@@ -88,6 +81,9 @@ Australian economic and financial data  --  ABS (Australian Bureau of Statistics
 
 ### Lovie  --  Company Formation MCP ★ New
 Company formation, bank accounts, cards, invoices, and payments  --  all directly from AI agents. The Company Formation MCP for business operators who want to incorporate, bank, and manage finances through their AI toolchain.
+
+### Legal Doc Intelligence ★ New
+AI-powered legal document analysis, contract review, and compliance checking — extract clauses, assess risk, and verify regulatory alignment
 
 ### GoldLegal Legal Compliance API ★ New
 AI legal compliance  --  contract review, ad law check, risk scoring, EU AI Act compliance, China AI regulation, AI content watermark check. MCP-over-HTTP with 6 tools. Hosted on Alibaba Cloud FC. Built-in compliance standards for global operators.
@@ -279,15 +275,12 @@ Connect Amazon Seller Central and Amazon Ads accounts to AI agents. Manage inven
 ### MewCP Razorpay MCP ★ New
 Hosted, stateless, multitenant Razorpay MCP  --  manage payments, customers, subscriptions, invoices, and financial operations through India's leading payment gateway. Essential for Indian-market operators and global businesses processing INR transactions who want AI agents to handle payment workflows.
 
-<<<<<<< Updated upstream
-=======
 ### mcp-jp ★ New
 Japanese SMB SaaS connectors via MCP  --  30+ tools for KING OF TIME (attendance), SmartHR (HR management), kaonavi (talent management), Smaregi (POS), CloudSign (e-contracts), L Step (sales management), and more. Each connector is an independent pip package; connectors are archived once an official MCP ships. Essential for operators in the Japanese market who need AI-driven access to domestic SMB SaaS tools without waiting for official MCP support.
 
 ### OnePageCRM ★ New
 Full CRM operations via MCP for OnePageCRM users. Create, search, update, and manage contacts, companies, deals, and notes directly from AI agents. Essential for sales operators using OnePageCRM who want AI-driven pipeline management and customer relationship workflows without switching between tools.
 
->>>>>>> Stashed changes
 ---
 
 ## Compliance & Regulatory
@@ -597,6 +590,9 @@ Online video conversions via API  --  convert videos between formats directly fr
 ### InfraNode ★ New
 Free, keyless MCP server for open data across 84 German cities: weather and DWD warnings, air quality, transit, traffic, water levels, energy/SMARD. 38 tools, Apache 2.0 licensed. Zero authentication required  --  ideal for operators building location-aware AI applications or needing German infrastructure data for logistics, planning, and environmental monitoring.
 
+### ProductNow ★ New
+Product management and roadmap MCP — define features, track progress, and align stakeholders through AI-powered product workflows
+
 ### Process Street MCP Server ★ New
 Connect AI agents to Process Street workflows, tasks, runs, datasets, and form fields via a hosted OAuth endpoint. Trigger compliance checklists, standard operating procedures, and recurring business processes directly from AI agents. Essential for operators who run Process Street for team workflows and process automation.
 
@@ -609,6 +605,18 @@ Hosted, read-only MCP server for AI voice agent phone intelligence  --  caller i
 
 ### PostAgent ★ Official ★ New
 Print and send physical mail and postcards to US addresses (USPS), paid per call in USDC on Base via x402 or credit card. Official MCP server for physical mail automation  --  essential for operators who need to trigger postal mail from AI workflows.
+
+### Document To Json Pdf Parser ★ New
+Convert PDF documents (invoices, contracts, statements) to structured JSON — parse, extract, and transform PDFs into agent-readable data
+
+### Minddory Com Connect ★ New
+Mind mapping and knowledge organization tool — create, navigate, and query visual knowledge graphs and mind maps
+
+### Penqwin ★ New
+AI productivity assistant and workflow automation — task management, scheduling, and intelligent workflow optimization
+
+### Turbojobapply Com Mcp ★ New
+Automated job application and resume optimization — search jobs, tailor resumes, and submit applications through AI agents
 
 ### Granola MCP ★ Official
 AI-powered meeting notes and summaries. Connect your meeting data to AI agents.
@@ -1200,6 +1208,47 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ---
 
+## New This Week (June 24, 2026 — evening sweep)
+
+### 28 new servers from mcp.so Feed + mcpservers.org /all
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| AIDC-AI.IO Design Engine ★ New | AI/Design | AI-powered design engine for UIs and graphics — text-to-design, component generation |
+| AccessibilityAI ★ New | Dev/Infra | AI accessibility testing — automated WCAG compliance checking and fix suggestions |
+| Agentbrush ★ New | Content & Research | AI agent for web scraping and data extraction from any website |
+| agent-connector ★ New | Dev/Infra | Agent-to-agent communication and orchestration framework |
+| Apiosk MCP ★ New | Dev/Infra | API marketplace and integration platform — discover, test, connect APIs via MCP |
+| Brand & Domain Intelligence Mcp ★ New | Marketing | Brand monitoring, domain intelligence, and trademark analysis |
+| Citedspy ★ New | Content & Research | Citation tracking and academic reference analysis |
+| Cybersecurity Threat Intelligence Mcp ★ New | Security/Compliance | Real-time threat intelligence feeds — IOC tracking, threat actor profiles |
+| Document To Json Pdf Parser ★ New | Productivity | PDF documents to structured JSON — invoices, contracts, statements |
+| Donotact ★ New | Security/Compliance | Do-not-contact registry and privacy compliance management |
+| Financial Signals Mcp ★ New | Financial Data | Financial market signals, trading indicators, and economic data |
+| Government Contracts Intelligence Mcp ★ New | Content & Research | Government RFPs, procurement intelligence, and contract opportunities |
+| Keenable Web Search ★ New | Content & Research | Web search with AI-powered result filtering and summarization |
+| Legal Doc Intelligence ★ New | Legal | AI-powered legal document analysis, contract review, compliance checking |
+| Metagraphed Bittensor Subnet Registry ★ New | Dev/Infra | Bittensor subnet registry and metadata for decentralized AI networks |
+| Minddory Com Connect ★ New | Productivity | Mind mapping and knowledge organization — visual knowledge graphs |
+| Monet Team ★ New | Marketing | Team monetization and revenue analytics platform |
+| Newsagent Data ★ New | Content & Research | News aggregation and data feeds for AI agents |
+| Open Code ★ New | Dev/Infra | Open-source code search and analysis across repositories |
+| Patent Intelligence Mcp ★ New | Content & Research | Patent search, analysis, and IP intelligence |
+| Penqwin ★ New | Productivity | AI productivity assistant and workflow automation |
+| Polymarket Scan Mcp ★ New | Financial Data | Polymarket prediction market data and analytics |
+| ProductNow ★ New | Productivity | Product management and roadmap MCP — features, progress, stakeholders |
+| Prompt2Love ★ New | Content Creation | AI prompt engineering and creative content generation |
+| Rifframe ★ New | Content Creation | AI-powered video creation and editing framework |
+| Sharebench ★ New | Financial Data | Investment research and benchmark sharing platform |
+| Sports Hub ★ New | Content & Research | Sports data, statistics, scores, and analytics across major leagues |
+| Stophy ★ New | Dev/Infra | Development workflow automation and stop-gap analysis |
+| Textavia Mcp ★ New | Content & Research | Text analysis, summarization, and NLP tools |
+| Turbojobapply Com Mcp ★ New | Productivity | Automated job application and resume optimization |
+| Weather & Climate Intelligence Mcp ★ New | Content & Research | Weather forecasts, climate data, and environmental intelligence |
+| X402 Trust Scores ★ New | Dev/Infra | Trust scoring and verification for x402 payment network |
+
+---
+
 ## New This Week (June 24, 2026 — morning sweep)
 
 ### 13 new servers from mcp.so Feed + mcpservers.org Communication + Cloud Service + Development + Other
@@ -1222,8 +1271,6 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ---
 
-<<<<<<< Updated upstream
-=======
 ## New This Week (June 24, 2026 — afternoon sweep)
 
 ### 7 new servers from mcp.so Feed + mcpservers.org Cloud Service + Memory
@@ -1240,7 +1287,6 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ---
 
->>>>>>> Stashed changes
 ## New This Week (June 22, 2026 — afternoon sweep)
 
 ### 35 new servers from mcp.so Latest + mcpservers.org Finance + Marketing + Productivity + Development
@@ -1311,8 +1357,8 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 24 morning):** 13 new MCP servers — from mcp.so Feed + mcpservers.org Communication + Cloud Service + Development + Other
-- **Cumulative since June 9:** 314 MCP servers catalogued across 20 sweeps
+- **New this cycle (June 24 evening):** 28 new MCP servers — from mcp.so Feed + mcpservers.org /all (28 servers across 8 categories)
+- **Cumulative since June 9:** 342 MCP servers catalogued across 21 sweeps
 
 ---
 
