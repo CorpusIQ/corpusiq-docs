@@ -7,7 +7,7 @@ description: Discover and install community skills from skills.sh  --  290+ cura
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**346+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**379+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## How to Discover Skills
 
@@ -31,7 +31,7 @@ The marketplace organizes skills into functional categories. Click any category 
 | [Platform Integrations](#platform-integrations) | 11 | `notion-api` (42.1K), `agent-email-inbox` (3.3K) |
 | [Communication Bots](#communication-bots) | 4 | `whatsapp-automation` (3.4K), `telegram-bot` (3.1K) |
 | [Hermes Agent Variants](#hermes-agent-variants) | 30 | `dogfood` (3.6K), `claude-code` (131) |
-| [Hermes Ecosystem](#hermes-ecosystem) | 20 | `hermes-webui-agent` (193), `hermes-desktop-companion` (152) |
+| [Hermes Ecosystem](#hermes-ecosystem) | 53 | `hermes-webui-agent` (193), `hermes-desktop-companion` (152) |
 | [Security Suite](#security-suite) | 16 | `skill-auditor` (590), `setup-auditor` (384) |
 
 ### Check Trending Skills
@@ -157,7 +157,9 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 - [🆕 June 22, 2026 (Late Sweep)  --  Blueprint Orchestration (1 repo, 12 skills)](/hermes/skills/marketplace/new-june22-2026-late/)
 - [🆕 June 20-22, 2026  --  Hermes Bible, Steroids Image Gen, Ershov Memory Engine (6 repos, 15 skills)](/hermes/skills/marketplace/new-june20-22-2026/)
-- [🆕 June 24, 2026  --  Ashima, SG Arrival Card, Perfectloop, Three-Agent Bridge (4 setup guides, 22 repos discovered)](/hermes/skills/marketplace/new-june24-2026/)
+- [🆕 June 25, 2026 — GBrain Operations Expansion (1 repo, 33 skills)](/hermes/skills/marketplace/new-june25-2026/)
+- [🆕 June 24, 2026 (Evening) — Hermes Agency, ContextForge RAG, Advanced Memory (4 setup guides)](/hermes/skills/marketplace/new-june24-2026-evening/)
+- [🆕 June 24, 2026 — Ashima, SG Arrival Card, Perfectloop, Three-Agent Bridge (4 setup guides, 22 repos discovered)](/hermes/skills/marketplace/new-june24-2026/)
 - [🆕 June 23, 2026  --  Engineering Curation, Ghostwriter, Cron Workflow, StepFun (8 repos, 3 setup guides)](/hermes/skills/marketplace/new-june24-2026/)
 - [🆕 June 19-20, 2026  --  Ponytail, SkillSpector, AgentMint (12 skills)](/hermes/skills/marketplace/new-june19-20-2026/)
 - [🆕 June 19, 2026 (Batch 2)  --  Infrastructure, Platform, Tools (15 repos, 20+ skills)](/hermes/skills/marketplace/new-june19-2026-batch2/)
@@ -181,9 +183,9 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 366+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 399+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
-*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june24-2026/)*
+*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june25-2026/)*
 
 *Powered by CorpusIQ*
 ---
