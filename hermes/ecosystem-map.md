@@ -138,14 +138,14 @@ xychart-beta
     title "Stars by Category (log scale)"
     x-axis ["Core", "Memory", "UI", "Orch.", "Deploy", "Skills", "Research"]
     y-axis "Stars (log)" 0 --> 200000
-    bar [202005, 82700, 14540, 61663, 35898, 15046, 4116]
+    bar [203044, 82700, 14540, 61663, 35898, 15046, 4116]
 ```
 
 ## Master Index
 
 | # | Repository | Stars | Category |
 |---|-----------|-------|----------|
-| 1 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 202,005 | Core |
+| 1 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 203,044 | Core |
 | 2 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 102,447 | Orchestration |
 | 3 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 82,700 | Memory |
 | 4 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 65,835 | UI |
