@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 25, 2026 (morning sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 25, 2026 (afternoon sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -1374,14 +1374,43 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ---
 
+## New This Week (June 25, 2026 — afternoon sweep)
+
+### 3 new servers from mcp.so Latest + 17 from mcpservers.org /all
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Stagenth File Relay ★ New | Dev/Infra | Remote MCP server (Streamable HTTP) giving AI a real cloud file system + web scraping. 21 tools: chunked/resumable upload, download, list/search, full folder tree (create/move/rename/delete), shareable links, quota, and scrape_url (web page → clean Markdown). Credit-based, free credits on signup. `https://www.stagenth.com/mcp/file-relay` |
+| Oriel ★ New | Dev/Infra | Drive Docker and Colima from an AI. Safety-gated MCP server for containers, images, volumes, networks, and Compose, with secret masking and a destructive-action grant. Essential for operators who want AI-managed container infrastructure with safety guardrails. |
+| PDF To Markdown ★ New | Productivity/Docs | Hosted MCP server turning PDFs into clean, LLM-ready Markdown. Real Markdown tables, formulas as LaTeX, OCR for scans. Same engine used by major AI platforms for document processing. Essential for operators who need AI agents to process PDFs into structured, queryable text. |
+| MaxAEO AI Visibility MCP ★ New | Marketing/GEO | Local-first MCP server for AI visibility audits across GEO/AEO, llms.txt, AI crawler readiness, robots, sitemap, canonical, metadata, noindex, and JSON-LD. Essential for operators investing in AI-engine discoverability. |
+| Weavz ★ New | Data/Integration | Data integration and API connectivity MCP — connect AI agents to diverse data sources and services |
+| Scholarxiv ★ New | Content/Research | Academic paper and preprint access via MCP — scholarly research for AI agents |
+| Memdeklaro ★ New | Memory/Knowledge | Declarative memory and knowledge management MCP — structured knowledge representation for AI agents |
+| Outlit AI Marketing ★ New | Marketing | AI marketing tools MCP — campaign analysis, content optimization, and marketing intelligence |
+| DataAssist MCP ★ New | Data/Analytics | Data analysis and assistance MCP — query, analyze, and visualize datasets through AI agents |
+| Subsquid Portal MCP ★ New | Data/Blockchain | Blockchain data indexing and querying via MCP — access to decentralized data lakes and indexed blockchain data |
+| Compabase MCP ★ New | Content/Data | Company and content database MCP — structured business data for AI agents |
+| x402 Stoa Launch Review ★ New | Dev/Infra | x402 payment protocol launch review tools — verify and deploy x402-enabled MCP servers |
+| PyPI Burst ★ New | Dev/Infra | Python package intelligence MCP — PyPI package analysis, dependency checking, and release monitoring |
+| Spider Cloud MCP v2 ★ New | Web Scraping | Cloud-based web scraping MCP v2 — scalable, proxy-rotated web data extraction for AI agents |
+| Arachne MCP ★ New | Dev/Infra | Web crawling and data extraction framework via MCP — structured web data collection |
+| Pedra MCP ★ New | Dev/Infra | Infrastructure and deployment automation MCP — manage cloud resources through AI agents |
+| Verychic MCP ★ New | Productivity | Productivity and lifestyle management MCP — personal organization and task management |
+| OpenGrok Go MCP ★ New | Dev/Infra | OpenGrok code search and analysis via MCP — search massive codebases through AI agents |
+| Vision Cropper ★ New | Content Creation | x402-enabled image cropping and processing MCP — AI-assisted image manipulation via micropayments |
+| Flkeys ★ New | Data/Regional | Florida Keys regional data MCP — local business, tourism, and geographic intelligence |
+
+---
+
 ## Ecosystem Stats
 
 - **Total MCP servers tracked:** 22,663 (mcp.so), 9,300 (mcpservers.org)
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 25 morning):** 14 new MCP servers — from mcp.so Feed (14 servers across 8 categories)
-- **Cumulative since June 9:** 356 MCP servers catalogued across 22 sweeps
+- **New this cycle (June 25 afternoon):** 20 new MCP servers — from mcp.so Latest (3) + mcpservers.org /all (17)
+- **Cumulative since June 9:** 376 MCP servers catalogued across 23 sweeps
 
 ---
 
