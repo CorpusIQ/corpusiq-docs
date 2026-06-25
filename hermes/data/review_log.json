@@ -1999,5 +1999,40 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-25T06:05:02.843258+00:00"
+  },
+  {
+    "repo": "taozhioooo/privateCloud-hermes-cc",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-25T07:04:37.864670+00:00"
+  },
+  {
+    "repo": "cylin2022/hermes",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-25T07:04:37.864685+00:00"
+  },
+  {
+    "repo": "garoter-a11y/G-cross-window-orchestrator",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-25T07:04:37.864687+00:00"
+  },
+  {
+    "repo": "onaries/hermes-studio",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-25T07:04:37.864689+00:00"
+  },
+  {
+    "repo": "scorion1750/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-25T07:04:37.864691+00:00"
   }
 ]
