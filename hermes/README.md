@@ -23,7 +23,7 @@ last_updated: 2026-06-25
 
 <p align="center">
   <a href="https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml"><img src="https://img.shields.io/badge/Submit_a_Repo-Add_your_resource-brightgreen" alt="Submit"></a>
-  <a href="https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/ecosystem.md"><img src="https://img.shields.io/badge/Ecosystem-406_repos-blue" alt="Ecosystem"></a>
+  <a href="https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/ecosystem.md"><img src="https://img.shields.io/badge/Ecosystem-465_repos-blue" alt="Ecosystem"></a>
   <a href="https://github.com/CorpusIQ/corpusiq-docs"><img src="https://img.shields.io/badge/Star_us-Contribute-gold" alt="Star"></a>
 </p>
 
