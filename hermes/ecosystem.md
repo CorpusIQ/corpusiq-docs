@@ -354,7 +354,7 @@ Curated list of Claude Skills, resources, and tools for customizing AI workflows
 Multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, OpenCode, GitHub Copilot, and Hermes Agent  --  the unified plugin discovery layer spanning every major AI coding harness. Browse, discover, and install plugins that work across your entire agent toolkit without framework lock-in. Essential resource for Hermes users building multi-harness workflows that span Claude Code, Codex, Cursor, and Copilot environments with seamless cross-platform plugin compatibility.
 
 **Key capabilities:** Multi-harness marketplace, Claude Code/Codex/Cursor/Copilot/Hermes, plugin discovery, cross-platform, framework-agnostic
-**Related:** [Skills Catalog →](/hermes/skills/catalog/) · [Plugins →](/hermes/plugins/)
+**Related:** [Skills Catalog →](/hermes/skills/catalog/) · Plugins
 
 ---
 
@@ -393,7 +393,7 @@ Curated hub for Claude Skills, Agents, Commands, Hooks, and Plugins. The definit
 Open-source marketplace with 425 plugins, 2,810 skills, and 200 agents  --  the largest unified repository of cross-compatible Hermes Agent extensions. Browse, discover, and install production-ready skills and plugins with verified Hermes compatibility. A one-stop marketplace for exponentially expanding your agent's toolbox with community-built capabilities spanning every domain.
 
 **Key capabilities:** 425 plugins, 2,810 skills, 200 agents, open marketplace, Hermes-compatible, largest unified repository
-**Related:** [Skills Catalog →](/hermes/skills/catalog/) · [Plugins →](/hermes/plugins/)
+**Related:** [Skills Catalog →](/hermes/skills/catalog/) · Plugins
 
 ---
 
@@ -425,7 +425,7 @@ Official Anthropic-managed directory of high-quality Claude Code plugins. Refere
 
 **Maintainer:** Anthropic
 **Key capabilities:** Official plugin directory, canonical plugin architecture, quality standards, lifecycle management, Hermes-applicable patterns
-**Related:** [Plugins →](/hermes/plugins/) · [Skills Catalog →](/hermes/skills/catalog/)
+**Related:** Plugins · [Skills Catalog →](/hermes/skills/catalog/)
 
 ---
 
@@ -445,7 +445,7 @@ Claude Code infrastructure examples with skill auto-activation, hooks, and agent
 Comprehensive Claude Code toolkit: 135 agents, 35 curated skills, 42 commands, 176+ plugins. Discovery resource for Hermes-compatible tools  --  the largest single-curator collection of cross-compatible agent extensions spanning every capability domain. An essential browsing destination for Hermes users seeking battle-tested tools, skills, and plugins from the broader agent ecosystem.
 
 **Key capabilities:** 135 agents, 35 skills, 42 commands, 176+ plugins, cross-compatible discovery, curated toolkit, Hermes-compatible
-**Related:** [Skills Catalog →](/hermes/skills/catalog/) · [Plugins →](/hermes/plugins/)
+**Related:** [Skills Catalog →](/hermes/skills/catalog/) · Plugins
 
 ---
 
@@ -2315,7 +2315,7 @@ Desktop-grade AI agent for real work  --  NetEase Youdao's production AI agent d
 Curated plugin marketplace for AI agents  --  discover, install, and manage plugins across agent frameworks. Works natively with Claude Code, Codex, and Hermes Agent, providing a unified plugin discovery layer for expanding agent capabilities. Browse community-vetted plugins organized by category with verified compatibility ratings for Hermes Agent production deployments.
 
 **Key capabilities:** Plugin marketplace, curated plugins, Claude Code/Codex/Hermes compatible, plugin discovery, community-vetted, multi-framework
-**Related:** [Plugins →](/hermes/plugins/)
+**Related:** Plugins
 
 ---
 
@@ -2717,7 +2717,7 @@ Agent Browser by Vercel  --  production-grade browser automation agent for auton
 Agent Reach  --  multi-platform agent communication and reach platform that extends autonomous agent capabilities across messaging platforms, web interfaces, and API endpoints. Provides a unified communication layer enabling Hermes Agent to interact through Discord, Telegram, Slack, WhatsApp, webhooks, REST APIs, and custom channels with consistent message formatting, attachment handling, and response routing. Built for production agent deployments requiring omnichannel presence  --  one agent, every platform, unified response handling with delivery guarantees and retry logic.
 
 **Key capabilities:** Multi-platform agent reach, messaging gateway, Discord/Telegram/Slack/WhatsApp, webhook integration, unified communication, Hermes-compatible
-**Related:** [Messaging Gateway →](/hermes/messaging/)
+**Related:** Messaging Gateway
 
 ---
 
