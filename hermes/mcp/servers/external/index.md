@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 24, 2026 (evening sweep) · **Sources:** mcp.so (22,663 servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 25, 2026 (morning sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -1249,6 +1249,29 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ---
 
+## New This Week (June 25, 2026 — morning sweep)
+
+### 14 new servers from mcp.so Feed
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Zillapi ★ New | Real Estate/Data | Zillow property data MCP — Zestimates, rent estimates, tax history, price history, schools, photos, and listing details via real-time API |
+| DC Hub ★ New | Infrastructure/Energy | Data center & energy intelligence — real-time grid telemetry (7 US ISOs + 40+ balancing authorities + EU/GB/TW/AU), 21K+ facilities, gas-vs-grid economics, 2K+ M&A deals |
+| Grist ★ New | Productivity/Data | Spreadsheet-database hybrid MCP — list/query/add records, create docs and tables across team sites. Universal SQL builder, OAuth-secured |
+| Patchwork OS ★ New | Dev/Infra | Local-first MCP bridge for Claude Code — 177 tools (LSP, debugger, terminal, git, GitHub, file ops) via companion VS Code extension |
+| Vindata MCP ★ New | Automotive/Data | VIN decoding and European vehicle data — structured make, model, year, equipment details for automotive operators and dealer workflows |
+| VoIPstudio MCP ★ New | Communication/Analytics | VoIP call analytics — securely query call recordings, CDRs, live calls, voicemails for reporting, QA, and operational intelligence |
+| Docker MCP Server ★ New | Dev/Infra | Full Docker management via AI agents — containers, images, networks, volumes, swarm services, secrets, configs, nodes, plugins |
+| Devloop ★ New | Dev/Infra | Browser + dev server on one correlated timeline — browser console error + backend stack trace from the same request, for Puppeteer/Expo/React Native |
+| TapWaterMap ★ New | Gov/Health | US tap water quality from EPA SDWIS records — contaminants, violations (health-based classification), water systems serving any city |
+| Wever Labs Agentic Rails ★ New | Dev/Infra | Agent workflow rails — proof-backed agent runs, receipts, callbacks, handoff packages, and compliance for agent-driven operations |
+| Control Plane ★ New | Dev/Infra | Official Control Plane MCP — deploy, operate, troubleshoot, migrate containerized workloads across AWS, GCP, Azure, OCI, plus secrets, networking, stateful storage |
+| Video Gen MCP ★ New | Content Creation | AI video generation via FAL AI from MCP clients — `uv`-based, local or remote deployment |
+| RaidRunner ★ New | Entertainment | Twitch raid train scheduling MCP — manage schedules, OAuth-secured streaming relay events |
+| ReadGZH ★ New | Content/Research | WeChat public account article reader — 99.89% anti-scraping success rate, 50-87% token compression. Chinese-market content intelligence |
+
+---
+
 ## New This Week (June 24, 2026 — morning sweep)
 
 ### 13 new servers from mcp.so Feed + mcpservers.org Communication + Cloud Service + Development + Other
@@ -1357,8 +1380,8 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 24 evening):** 28 new MCP servers — from mcp.so Feed + mcpservers.org /all (28 servers across 8 categories)
-- **Cumulative since June 9:** 342 MCP servers catalogued across 21 sweeps
+- **New this cycle (June 25 morning):** 14 new MCP servers — from mcp.so Feed (14 servers across 8 categories)
+- **Cumulative since June 9:** 356 MCP servers catalogued across 22 sweeps
 
 ---
 
