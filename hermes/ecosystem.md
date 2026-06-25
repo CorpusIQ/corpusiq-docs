@@ -4018,3 +4018,12 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 | [HarmonicSecurity/claudit-sec](https://github.com/HarmonicSecurity/claudit-sec) | 292 | Security audit tool for Claude Desktop and Claude Code on macOS — single-command visibility into MCP | agent, ecosystem |
 | [Glade-tool/glade-mcp](https://github.com/Glade-tool/glade-mcp) | 167 | Connect any MCP-compatible AI client (Claude Code, Cursor, Windsurf) to Unity or Godot. 235+ granula | agent, ecosystem |
 | [mixelpixx/SSH-MCP](https://github.com/mixelpixx/SSH-MCP) | 49 | A Model Context Protocol (MCP) server that provides SSH access to remote servers, allowing AI tools  | agent, ecosystem |
+
+## New Additions — June 25, 2026
+
+| Repository | Stars | Description |
+|-----------|-------|-------------|
+| [rolandpg/zettelforge](https://github.com/rolandpg/zettelforge) | 50 | Agentic memory for CTI — STIX knowledge graphs, threat-actor alias resolution |
+| [QuantaSeal/mcp-server](https://github.com/QuantaSeal/mcp-server) | 0 | QuantaSeal MCP Server — 18 tools for AI agents |
+| [invertible-statue269/colign](https://github.com/invertible-statue269/colign) | 2 | Align teams on specs before AI writes code |
+| [Lucenx9/forktty](https://github.com/Lucenx9/forktty) | 6 | Linux-native workspace for coding agents — Ghostty terminals, git worktrees |
