@@ -13,6 +13,15 @@ This is a curated log. For the full commit-level history, see the
 
 ### New features
 
+- **Reading PDFs and files** — ask CorpusIQ about a document in Google
+  Drive, OneDrive, or Dropbox and it reads the text inside and answers,
+  citing the file. PDFs use a three-tier strategy (form fields →
+  layout-aware extraction that keeps tables and multi-column pages
+  intact → plain-text fallback), with page-range and in-document search.
+  Word, Excel, and PowerPoint are read too. Scanned image-only PDFs
+  aren't supported yet — CorpusIQ says so honestly rather than guess.
+  Read the guide:
+  [how-it-works/reading-files-and-pdfs.md](../how-it-works/reading-files-and-pdfs.md).
 - **Metric Spec Registry** — declare a business number once (MRR, AOV,
   active customers, whatever), with the recipe written in a small DSL
   that resolves live against your connector data. Every AI client gets
