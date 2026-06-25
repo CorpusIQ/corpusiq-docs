@@ -8044,5 +8044,86 @@
     ],
     "discovered_at": "2026-06-25T05:01:11.145706+00:00",
     "status": "pending"
+  },
+  {
+    "name": "aabbcc070403/skill-manager",
+    "url": "https://github.com/aabbcc070403/skill-manager",
+    "description": "AI Skill Manager - \u7edf\u4e00\u7ba1\u7406\u591a\u4e2a AI \u5e73\u53f0\u7684 Skills\uff0c\u652f\u6301 Claude Code\u3001Codex\u3001OpenClaw\u3001Hermes Agent\u3001OpenCode\u3001Continue\u3001Cursor",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-25T06:04:12Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-25T06:04:45.375597+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hackerphysics/agent-phonon",
+    "url": "https://github.com/hackerphysics/agent-phonon",
+    "description": "Unified scheduler for local AI coding agents (Claude Code/Codex/OpenCode/OpenClaw/Hermes) with one protocol for remote task dispatch.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-25T06:02:38Z",
+    "category": "core",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-25T06:04:48.378649+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "meridelvolitional423/Grow-a-Garden-Trainer_1",
+    "url": "https://github.com/meridelvolitional423/Grow-a-Garden-Trainer_1",
+    "description": "Automate farming tasks, harvest crops, and manage pet rolls in Grow a Garden with this script.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "a2a",
+      "a2a-mcp",
+      "a2a-server",
+      "agents",
+      "ai-agent",
+      "anthropic",
+      "business",
+      "claude-code",
+      "codex",
+      "generative-ai",
+      "hermes-agent",
+      "kubernetes",
+      "linux-foundation",
+      "openclaw",
+      "python"
+    ],
+    "updated_at": "2026-06-25T06:03:31Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-25T06:04:53.741058+00:00",
+    "status": "pending"
   }
 ]
