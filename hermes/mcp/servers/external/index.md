@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 26, 2026 (morning sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 26, 2026 (morning sweep — 2nd pass) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -37,6 +37,24 @@ Dedicated MCP server for PortEden's Google Sheets data firewall. Read, write, an
 
 ## Financial Data
 
+
+### Chuhching ★ New
+Financial data integration platform. Provides AI agents with structured financial information.
+
+### DDG Agent Payable Services MCP ★ New
+Agent payable services and micropayments via the DuckDuckGo agent ecosystem. Enables AI agents to transact with small-value payments.
+
+### Gatewards ★ New
+Drop-in spend governance and cross-agent dedup proxy for AI agent fleets. Per-agent budget enforcement, non-custodial x402 settlement over MCP. Essential for teams deploying multiple autonomous agents who need cost controls.
+
+### SQD Portal ★ New
+Query onchain data across EVM, Solana, Bitcoin, Substrate, and Hyperliquid through the SQD Portal API. Hosted remote endpoint or local stdio server for blockchain data access.
+
+### Valid — Vehicle Identity MCP Server ★ New
+Vehicle identification, history verification, and automotive data via MCP. AI agents can verify VINs, check vehicle history, and access automotive intelligence.
+
+### Easy Predict ★ New
+Predictive analytics platform via MCP. Provides AI agents with forecasting, trend analysis, and predictive modeling capabilities.
 ### Alpha Vantage MCP Server ★ Sponsor
 Realtime & historical stock, ETF, options, forex, crypto, commodities, fundamentals, technical indicators. Official MCP server from Alpha Vantage.
 
@@ -170,6 +188,12 @@ Australian property intelligence, H3 spatial intelligence, and capability discov
 
 ### Remote Jobs MCP ★ New (Jobicy)
 Autonomous remote job search  --  AI tools can search, filter, and retrieve the latest remote job listings in real-time via public Jobicy MCP server. Useful for recruitment agents and talent operations.
+
+---
+
+
+### Infino ★ New
+Keyword, vector, hybrid, and SQL retrieval over data on object storage, for AI agents. Multi-modal search across structured and unstructured data.
 
 ---
 
@@ -313,6 +337,24 @@ MCP gateway security  --  secure every MCP server with one governed gateway. Giv
 
 ## Development & Infrastructure
 
+
+### Backengine MCP ★ New
+Backend engine for MCP server development. Streamlines building and deploying custom MCP servers with pre-built infrastructure.
+
+### Enigmata ★ New
+Encryption, data privacy, and secure computing tools for AI agents. Provides cryptographic operations and privacy-preserving computation.
+
+### Electron Stagewright ★ New
+Drive, inspect, and assert on real Electron desktop apps from an AI agent. Agent-native, Playwright-style automation with accessibility refs, stable error codes, and retrying assertions. Essential for testing and automating Electron-based applications.
+
+### Requesty MCP Gateway ★ New
+Connect AI agents to 300+ LLM providers through a single MCP endpoint with built-in routing, caching, and observability. Essential for multi-model agent deployments.
+
+### mcp-launch-review ★ New
+Source-grounded launch review for x402, MCP, paid API, and agent-tool listings. Provides structured review and validation of MCP server deployments.
+
+### TinyZKP ★ New
+Hosted MCP server for transparent STARK proof receipts that agents can mint and verify for supported workflows. Post-quantum ready verification for agent actions.
 ### Bright Data ★ Sponsor
 Discover, extract, and interact with the web  --  one unified interface powering automated access across the public internet. Enterprise-grade web scraping and data extraction.
 
@@ -346,6 +388,21 @@ Control and inspect a live Chrome browser from coding agents (Gemini, Claude, Cu
 ### DeepWiki by Devin ★ Official
 Remote, no-auth MCP server providing AI-powered codebase context and answers.
 
+
+### Lightbringer ★ New
+Research and knowledge discovery tool for AI agents. Surfaces relevant research, papers, and domain knowledge across multiple sources.
+
+### Roboselect360 ★ New
+Humanoid robot intelligence and research data. AI agents can access robotics specs, benchmarks, and industry intelligence.
+
+### WeatherAPI MCP ★ New
+Weather data integration for AI agents. Real-time and forecast weather data accessible through MCP tools.
+
+### AirLabs ★ New
+Real-time flight tracking, airport schedules, delays, and reference data for airlines, airports, aircraft, and routes via the AirLabs API. Essential for travel and logistics operators.
+
+### Channel3 Product Search ★ New
+Product search and discovery engine via MCP. AI agents can search across product catalogs, compare specifications, and surface relevant products.
 ### Context7 MCP ★ Official
 Up-to-date, version-specific library documentation and code examples injected into AI coding prompts.
 
@@ -509,6 +566,26 @@ Home Services MCP by HireNimbus  --  AI agents find, compare, and book verified 
 ### Obsidian Regulatory Mcp ★ New
 Verified, tier-0 regulatory data for AI agents: connect Claude, ChatGPT, or Cursor to 850+ official sources across 50+ jurisdictions. Compliance-grade data for regulatory research, legal operations, and governance. Essential for operators in regulated industries (finance, healthcare, legal).
 
+
+### Fixzi MCP Server ★ New
+Issue tracking and bug fixing workflow automation via MCP. AI agents can create, track, and resolve issues programmatically.
+
+### Cairn ★ New
+
+
+### Church Website Editor ★ New
+Design and edit church websites with ChatGPT or Claude via MCP. Provides AI agents with website editing capabilities for faith-based organizations.
+
+Repo-native task graph as plain Markdown files, served to AI agents over MCP and to humans over a clean web UI. Combines project management with AI agent integration.
+
+### Touchpoint ★ New
+Give AI agent eyes and hands on any desktop — cross-platform accessibility API with MCP server. AI agents can interact with desktop applications through accessibility APIs.
+
+### Remnus ★ New
+Task management and workflow automation platform via MCP. AI agents can orchestrate multi-step workflows and manage task dependencies.
+
+### Turbo Job Apply ★ New
+AI-powered job search and application platform. Find jobs that are not ghost jobs — AI-assisted job matching and fast application via MCP.
 ### Cal.com MCP ★ Official
 Connect AI clients to Cal.com scheduling. Hosted endpoint at `mcp.cal.com` or local instance.
 
@@ -598,6 +675,15 @@ Connect AI agents to Process Street workflows, tasks, runs, datasets, and form f
 
 ### Numbers Online  --  Phone Intelligence ★ New
 Hosted, read-only MCP server for AI voice agent phone intelligence  --  caller identity, risk scoring, line type, DNC check. Every billable answer carries an Ed25519-signed receipt. No raw phone numbers stored (hashed only). Remote/hosted: nothing to install.
+
+---
+
+
+### Pixelvault ★ New
+Digital asset and image management platform for AI agents. Store, retrieve, and manipulate visual assets through MCP.
+
+### OnBrand by SlideSpeak ★ New
+Feeds AI agents your brand's real logos, colors, fonts, and approved slide layouts, so every deck and document comes out on brand the first time. Essential for brand-conscious operators.
 
 ---
 
@@ -802,6 +888,12 @@ Dub any video into 600 languages straight from your AI chat  --  YouTube dubbing
 
 ### MewCP Google Business MCP ★ New
 Hosted, stateless, multitenant Google Business Profile MCP  --  manage business listings, reviews, locations, and customer interactions through Google Business Profile. Essential for local business operators and multi-location brands who want AI agents to manage their Google presence, respond to reviews, and update business information.
+
+---
+
+
+### Linkdeal MCP ★ New
+Deal discovery and promotion tools for AI agents. Find, compare, and promote deals across platforms through MCP.
 
 ---
 
@@ -1427,6 +1519,42 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 | 302_sandbox_mcp ★ New | Dev/Infra | Remote sandbox for code execution and file operations. Secure, isolated environments for AI agent code execution. `npx -y @302ai/sandbox-mcp` |
 | jina-mcp-tools ★ New | Research | Jina AI Search Foundation APIs — AI-powered web search, content extraction, and embedding. Multi-engine search for comprehensive research. `npx jina-mcp-tools` |
 | mailtrap-mcp ★ New | Communication | Transactional email sending and testing via Mailtrap — email automation for AI agents. Test inboxes, spam analysis, deliverability checks. `npx -y mcp-mailtrap` |
+
+---
+
+## New This Week (June 26, 2026 — morning sweep)
+
+### 27 new servers from mcp.so Feed + mcpservers.org /all
+
+| Server | Category | What It Does |
+|--------|----------|-------------|
+| Channel3 Product Search | Content & Research | Product search and discovery engine |
+| Lightbringer | Content & Research | Research and knowledge discovery |
+| Roboselect360 | Content & Research | Humanoid robot intelligence data |
+| WeatherAPI MCP | Content & Research | Weather data for AI agents |
+| AirLabs | Content & Research | Flight tracking and airport data |
+| Chuhching | Financial Data | Financial data integration |
+| DDG Agent Payable Services | Financial Data | Agent micropayments |
+| Gatewards | Financial Data | Agent spend governance & x402 settlement |
+| SQD Portal | Financial Data | Multi-chain onchain data query |
+| Valid — Vehicle Identity | Financial Data | Vehicle identification and history |
+| Easy Predict | Financial Data | Predictive analytics platform |
+| Backengine MCP | Development | Backend engine for MCP server dev |
+| Enigmata | Development | Encryption and privacy tools |
+| Electron Stagewright | Development | Electron app automation (Playwright-style) |
+| Requesty MCP Gateway | Development | 300+ LLM provider routing MCP endpoint |
+| mcp-launch-review | Development | Launch review for MCP/x402 tools |
+| TinyZKP | Security & Privacy | STARK proof receipts for agents |
+| Fixzi MCP | Productivity | Issue tracking & bug fix workflow |
+| Cairn | Productivity | Repo-native task graph for AI agents |
+| Touchpoint | Productivity | Desktop accessibility API for AI agents |
+| Remnus | Productivity | Workflow automation platform |
+| Turbo Job Apply | Productivity | AI-powered job search & application |
+| Church Website Editor | Productivity | Website editing for faith organizations |
+| Pixelvault | Content Creation | Digital asset & image management |
+| OnBrand by SlideSpeak | Content Creation | Brand asset MCP (logos, colors, fonts) |
+| Linkdeal MCP | Marketing | Deal discovery & promotion tools |
+| Infino | Analytics & BI | Multi-modal search over object storage |
 
 ---
 
