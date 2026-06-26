@@ -1,26 +1,28 @@
 name: Validate docs
 
-# Fast pre-merge gate. Runs on pull requests (and direct pushes to main) that
-# touch Markdown or the validator itself. Catches broken YAML frontmatter BEFORE
-# it reaches the non-strict mkdocs build — where it would otherwise render a pink
+# Fast pre-merge gate. Runs on EVERY pull request and EVERY push to main —
+# deliberately WITHOUT a `paths:` filter. Catches broken YAML frontmatter BEFORE
+# it reaches the non-strict mkdocs build, where it would otherwise render a pink
 # parse banner on GitHub and silently drop <meta name="description"> tags.
 #
+# Why no `paths:` filter (hardened 2026-06-26): a path-filtered gate gives a
+# false sense of safety. A direct push to main carrying broken frontmatter
+# (e.g. the dd4ce68 em-dash sweep that flattened hermes/index.md and broke a
+# skills page) slipped through and turned main red with NO Validate-docs run
+# recorded for that push. The marketplace/SEO sweeps push straight to main and
+# touch hundreds of .md files at once, so the cost of running this ~12-second
+# check unconditionally is trivial next to the cost of a silent break that
+# blocks every subsequent docs PR. Run it on everything; never gate it behind a
+# path glob that can fail to match or fail to evaluate on a given push.
+#
 # This is deliberately separate from pages.yml (the deploy workflow): it gives
-# PRs a quick green/red check without doing a full site build, and it runs on the
-# direct-push vector too (the marketplace sweeps push straight to main).
+# PRs a quick green/red check without doing a full site build, and it runs on
+# the direct-push-to-main vector too.
 
 on:
   pull_request:
-    paths:
-      - '**/*.md'
-      - 'scripts/validate_frontmatter.py'
-      - '.github/workflows/validate.yml'
   push:
     branches: [main]
-    paths:
-      - '**/*.md'
-      - 'scripts/validate_frontmatter.py'
-      - '.github/workflows/validate.yml'
   workflow_dispatch:
 
 permissions:
