@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 25, 2026 (afternoon sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 25, 2026 (evening sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -1403,14 +1403,41 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ---
 
+## New This Week (June 25, 2026 — evening sweep)
+
+### 18 new servers from mcp.so Feed
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| assistable ★ New | Communication | Multi-channel voice AI for customer interaction — place/manage AI phone calls, send SMS/WhatsApp/web-chat messages, manage contacts and assistants. `ASSISTABLE_API_KEY={KEY} npx -y @assistableai/mcp` |
+| flexorch-mcp ★ New | Document Intelligence | Unstructured business documents → structured LLM-ready datasets. 6 async tools: classify → extract fields → detect PII → build RAG datasets. PDF, DOCX, invoices, contracts, payroll. `FLEXORCH_API_KEY={KEY} flexorch-mcp` |
+| nachonacho-for-ai-agents ★ New | Commerce/Procurement | B2B SaaS marketplace for AI agents — search thousands of products, compare deals, sign up from chat. Connect agents to the NachoNacho marketplace. `https://mcp.nachonacho.com/` |
+| local-mcp ★ New | Productivity | Native macOS MCP server — 160+ tools connecting AI agents to Mail, Calendar, Contacts, Reminders, Messages (iMessage), Notes, Safari, OmniFocus, Microsoft Teams. `npx -y local-mcp` |
+| scout-by-jakvab ★ New | Business Intelligence | Nordic company intelligence — look up companies, AI summaries, scoring and signals via MCP. Streamable HTTP. `npx mcp-remote https://mcp.scout.jakvab.se` |
+| tlaloc-mcp-server ★ New | Financial Data/Regional | Mexican official data: validate CURP (RENAPO), RFC (SAT), postal codes (SEPOMEX), phone carriers (IFT), banking (Banxico, SPEI, CEP). Fintech-ready. `npx mcp-remote https://api.tlaloc.sh/mx/mcp` |
+| polish-companies ★ New | Financial Data/Regional | 3M+ Polish companies from KRS registry via Compabase MCP. Business intelligence for Polish market operators. `npx mcp-remote https://compabase.com/api/mcp` |
+| braintube ★ New | Knowledge Management | Turn everything you save — YouTube, articles, podcasts, PDFs, Notion, Obsidian, any URL — into a persistent, semantically searchable knowledge base. `npx mcp-remote https://brain-tube.com/mcp` |
+| hubd ★ New | Productivity | Project tracker for teams of humans + AI agents — plain files, zero dependencies. MCP server + CLI for agent-coordinated project management. Kanban, markdown, JSONL. `https://github.com/bzdOS/hubd` |
+| sovereign-execution-engine ★ New | Dev/Infra | 15 x402 execution primitives for AI agents — cross-chain routing (XRPL/Hedera/Base), browser automation, EU AI Act checks. Pay per call in USDC on Base. `npx mcp-remote https://api.zuluworksai.com/mcp` |
+| gpthuman-humanizer ★ New | Content Creation | GPTHuman API for rewriting AI-generated text into natural, human-sounding prose. Bypasses AI detectors. `GPTHUMAN_API_KEY={KEY} npx -y @gpthuman/mcp-server` |
+| bittensormcp ★ New | Financial Data/Crypto | Full Bittensor blockchain access for AI agents — 11 free read-only tools: balances, portfolios, subnet lists, metagraph, staking, AMM swaps, alpha pricing. `npx mcp-remote https://bittensormcp.com/api/mcp` |
+| axiomseal ★ New | Memory/Knowledge | Tamper-proof, truth-validated AI memory — every memory SHA-512 chain-sealed, OAuth in 30 seconds. Claude & Cursor compatible. `npx mcp-remote https://mcp.axiomseal.com/mcp` |
+| tracehunt ★ New | Security | OSINT username reconnaissance across 480+ platforms. footprint_score() returns 0-100 digital footprint rating. Python MCP. `python mcp/tracehunt_mcp.py` |
+| simcloud ★ New | Regional/Telecom | South African telecom MCP — wallet balance checks, network lookups, SMS, airtime recharges, data bundles, prepaid electricity. OAuth, Streamable HTTP. `npx mcp-remote https://simcloud.co.za/api/mcp.php` |
+| 302_sandbox_mcp ★ New | Dev/Infra | Remote sandbox for code execution and file operations. Secure, isolated environments for AI agent code execution. `npx -y @302ai/sandbox-mcp` |
+| jina-mcp-tools ★ New | Research | Jina AI Search Foundation APIs — AI-powered web search, content extraction, and embedding. Multi-engine search for comprehensive research. `npx jina-mcp-tools` |
+| mailtrap-mcp ★ New | Communication | Transactional email sending and testing via Mailtrap — email automation for AI agents. Test inboxes, spam analysis, deliverability checks. `npx -y mcp-mailtrap` |
+
+---
+
 ## Ecosystem Stats
 
 - **Total MCP servers tracked:** 22,663 (mcp.so), 9,300 (mcpservers.org)
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 25 afternoon):** 20 new MCP servers — from mcp.so Latest (3) + mcpservers.org /all (17)
-- **Cumulative since June 9:** 376 MCP servers catalogued across 23 sweeps
+- **New this cycle (June 25 evening):** 18 new MCP servers — from mcp.so Feed
+- **Cumulative since June 9:** 394 MCP servers catalogued across 24 sweeps
 
 ---
 
