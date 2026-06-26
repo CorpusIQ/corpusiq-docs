@@ -1,1 +1,23 @@
----\ntitle: "Hermes Community Hub — 406+ Tools & Resources"\ndescription: "The largest structured Hermes Agent knowledge base — 406+ tools, skills, MCP servers, agents, blueprints, and case studies. Built by the community. Updated daily."\n---\n\n# 🫡 Hermes Community Hub\n\nThe largest structured collection of Hermes Agent tools, skills, MCP servers, agents, blueprints, and case studies — all in one organized place. Updated daily.\n\n## Quick Links\n\n- [Ecosystem Map](ecosystem.md) — 406+ repos across 18 categories\n- [Agent Library](agents/index.md) — 10 production agent configurations\n- [Case Studies](outputs/index.md) — 13 industry case studies\n- [Setup Guides](setup/index.md) — Deploy on Mac, PC, VPS, Raspberry Pi\n- [Best Practices](best-practices/index.md) — Cron design, model selection, memory, security\n- [Blueprints](blueprints/index.md) — Daily ops, customer lifecycle, financial close\n- [Prompts](prompts/index.md) — Production prompts for code, content, data, business ops\n- [Skills](skills/catalog/index.md) — Creating and publishing agent skills\n\n---\n\nThis Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).\n
+---
+title: "Hermes Community Hub — 406+ Tools & Resources"
+description: "The largest structured Hermes Agent knowledge base — 406+ tools, skills, MCP servers, agents, blueprints, and case studies. Built by the community. Updated daily."
+---
+
+# 🫡 Hermes Community Hub
+
+The largest structured collection of Hermes Agent tools, skills, MCP servers, agents, blueprints, and case studies — all in one organized place. Updated daily.
+
+## Quick Links
+
+- [Ecosystem Map](ecosystem.md) — 406+ repos across 18 categories
+- [Agent Library](agents/index.md) — 10 production agent configurations
+- [Case Studies](outputs/index.md) — 13 industry case studies
+- [Setup Guides](setup/index.md) — Deploy on Mac, PC, VPS, Raspberry Pi
+- [Best Practices](best-practices/index.md) — Cron design, model selection, memory, security
+- [Blueprints](blueprints/index.md) — Daily ops, customer lifecycle, financial close
+- [Prompts](prompts/index.md) — Production prompts for code, content, data, business ops
+- [Skills](skills/catalog/index.md) — Creating and publishing agent skills
+
+---
+
+This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).
