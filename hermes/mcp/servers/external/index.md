@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 25, 2026 (evening sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 26, 2026 (morning sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -1430,14 +1430,29 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ---
 
+## New This Week (June 26, 2026 — morning sweep)
+
+### 6 new servers from mcp.so Feed
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| MentionsAPI ★ New | Marketing/GEO | Track brand mentions, ranks, and citations across ChatGPT, Claude, Gemini, Perplexity, Google AI Overviews, AI Mode, and Bing Copilot. MCP-native, pay-as-you-go, $1 free signup credit. Essential for operators investing in AI-engine visibility and brand monitoring. `npx -y @mentionsapi/mcp` |
+| Yapp ★ New | Productivity/Publishing | Turn "build me a page" into a live URL. Connect once (browser OAuth or token) and your AI can publish HTML, PDFs, ZIP sites, images, and landing pages to a public slug.yapp.page URL in seconds. Essential for operators who need AI agents to ship pages, proposals, and reports instantly. `https://yapp.page/mcp` |
+| Note2IT ★ New | Productivity/Knowledge | Keep work in notebooks, sections, and nested pages with a fast slash-command editor. Record meetings for automatic transcripts + structured summaries with action items. Connect Claude over MCP so AI can search, read, and make precise, undoable edits to pages. Essential for operators managing knowledge work with AI agent access. `npx -y @note2it/mcp` |
+| Advanced Patent Search ★ New | Research/Legal | PatSnap Advanced Patent Search MCP — semantic, similarity, image, patent-number, nested-query, analytics, and sequence search. Connects AI agents to professional patent intelligence. Essential for IP-heavy operators and innovation teams. `https://mcp.patsnap.com` |
+| Chaiz MCP ★ New | Commerce/Insurance | Search live vehicle service contract (extended warranty) quotes by VIN, license plate, or make/model/year — with plan prices, coverage tiers, expert ratings, and checkout links. Read-only, works anonymously. Niche but valuable for fleet operators and automotive businesses. `npx -y @chaiz/mcp` |
+| OrcaLayer MCP ★ New | Financial Data/Crypto | Polymarket whale tracking and smart-money analytics MCP. Filtered leaderboard (airdrop-farmers excluded), hedge detection, NegRisk correction, and unique Ukraine territorial markets with ISW frontline overlay. 5 tools, 4 prompts, 3 resources. `npx mcp-remote https://orcalayer.com/mcp` |
+
+---
+
 ## Ecosystem Stats
 
 - **Total MCP servers tracked:** 22,663 (mcp.so), 9,300 (mcpservers.org)
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 25 evening):** 18 new MCP servers — from mcp.so Feed
-- **Cumulative since June 9:** 394 MCP servers catalogued across 24 sweeps
+- **New this cycle (June 26 morning):** 6 new MCP servers — from mcp.so Feed
+- **Cumulative since June 9:** 400 MCP servers catalogued across 25 sweeps
 
 ---
 
