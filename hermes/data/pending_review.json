@@ -8958,5 +8958,209 @@
     ],
     "discovered_at": "2026-06-26T06:03:15.339846+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Enuclea/AGent-Ada",
+    "url": "https://github.com/Enuclea/AGent-Ada",
+    "description": " **AGent-Ada** is a standalone, developer-focused autonomous execution harness built on top of the **Google AntiGravity SDK**. It wraps AntiGravity's agentic capabilities into a highly interactive terminal CLI and a visual Web Dashboard, offering a keyless development loop integrated with the system-wide `agy` CLI gateway.   Similar to Hermes.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-26T07:03:05Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "CYC2002tommy/Deep-Research-Agent",
+      "yang1989haoa-gif/synapse-studio",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334"
+    ],
+    "discovered_at": "2026-06-26T07:03:44.791538+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SouthpawIN/sirvir",
+    "url": "https://github.com/SouthpawIN/sirvir",
+    "description": "Sirvir \u2014 model fleet manager & intelligence engine for Hermes Agent. Autonomous model lifecycle manager: local serving, benchmarking, auto-scaling, API fallback, HuggingFace scanning, creator tracking, backend optimization, budget monitoring.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-06-26T07:00:53Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-26T07:03:47.793771+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "zirophyz/hermes-skills",
+    "url": "https://github.com/zirophyz/hermes-skills",
+    "description": "Central Hermes Agent skills repository \u2014 source of truth for custom skills across all profiles",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-26T07:00:14Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills",
+      "hugocarreira/agentrc",
+      "Undermybelt/hermes-skills-research",
+      "BBridgeers/hermes-skills"
+    ],
+    "discovered_at": "2026-06-26T07:03:50.795961+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "zero-0437/hermes-skill-governance",
+    "url": "https://github.com/zero-0437/hermes-skill-governance",
+    "description": "Hermes \u591a Agent \u6280\u80fd\u6cbb\u7406\u7cfb\u7edf\uff1a\u56db\u5c42\u5206\u5c42\u6a21\u578b + Agent \u76ee\u5f55\u6811 + \u6301\u4e45\u5316\u7f13\u5b58 + \u81ea\u52a8\u5ba1\u8ba1\u95ed\u73af",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-26T06:59:52Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-26T07:03:53.798295+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "quantm-alpha/hermes-aistackworks-timeline",
+    "url": "https://github.com/quantm-alpha/hermes-aistackworks-timeline",
+    "description": "Hermes plugin: per-card skill timeline events to Mission Control (report_progress tool + worker-exit backstop)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-26T07:03:31Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-26T07:03:58.255379+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "zengsipei/hermes-agent",
+    "url": "https://github.com/zengsipei/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-26T07:02:12Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-06-26T07:04:01.937992+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ceo1st/hermes-webui",
+    "url": "https://github.com/ceo1st/hermes-webui",
+    "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-26T07:01:55Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "nesquena/hermes-webui",
+      "unmodeled-tyler/vessel-browser"
+    ],
+    "discovered_at": "2026-06-26T07:04:04.940952+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pebble-tech/hermes-agent",
+    "url": "https://github.com/pebble-tech/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-26T07:01:12Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-06-26T07:04:07.943896+00:00",
+    "status": "pending"
   }
 ]
