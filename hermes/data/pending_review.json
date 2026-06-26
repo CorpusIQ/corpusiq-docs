@@ -8836,5 +8836,127 @@
     ],
     "discovered_at": "2026-06-26T05:02:02.475495+00:00",
     "status": "pending"
+  },
+  {
+    "name": "kevwillow/proxmox-manager-agent-skill",
+    "url": "https://github.com/kevwillow/proxmox-manager-agent-skill",
+    "description": "Fully-featured AI agent skill for managing Proxmox VE hosts. Whitelist/blacklist sudoers templates, scripts for VM/LXC lifecycle, references for storage/firewall/cluster. Works with Hermes, Claude Code, Codex, OpenCode.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-06-26T06:02:24Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "EverMind-AI/EverOS",
+      "ruvnet/agent-harness-generator",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "ahonore42/logios-brain"
+    ],
+    "discovered_at": "2026-06-26T06:02:57.578571+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yeaminlabs/paperstack",
+    "url": "https://github.com/yeaminlabs/paperstack",
+    "description": "One-command AI company infrastructure \u2014 Paperclip + Hermes Agent + DeepSeek",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-06-26T06:00:37Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-26T06:03:00.581806+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Edgar-s-Tool/linear-orchestrator",
+    "url": "https://github.com/Edgar-s-Tool/linear-orchestrator",
+    "description": "Linear webhook \u2192 Hermes agent middleware: signature verify + payload parse + session map + hermes run + Linear write-back",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-26T05:57:43Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-26T06:03:03.585471+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "XYJMSK/hermes-agent-desktop",
+    "url": "https://github.com/XYJMSK/hermes-agent-desktop",
+    "description": "Hermes Agent + webui in Linux GUI Desktop",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-06-26T06:02:57Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-26T06:03:12.336509+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "JZKK720/hermes-agent",
+    "url": "https://github.com/JZKK720/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-26T06:01:38Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-06-26T06:03:15.339846+00:00",
+    "status": "pending"
   }
 ]

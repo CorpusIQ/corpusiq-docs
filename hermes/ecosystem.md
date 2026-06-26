@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources  --  360+ repos,
 
 The most comprehensive directory of Hermes Agent resources in existence. 407 repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** June 24, 2026 · **Repos indexed:** 407 · **Categories:** 18
+> **Last updated:** June 25, 2026 · **Repos indexed:** 408 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -825,6 +825,16 @@ Hermes Agent skills and memories - AI training knowledge base
 
 A server-side memory and knowledge graph API for AI agents. Stores episodic memories (Postgres+Qdrant), semantic knowledge (Neo4j), and identity instructions, with native integration libraries for agent frameworks like Hermes, OpenClaw, Pi, GoClaw, Claude Agent SDK, and ZeroClaw.
 
+
+---
+
+### yun520-1/mark-heartflow-skill
+⭐ **26** · `JavaScript` · [github.com/yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill)
+
+心虫 (HeartFlow) — Cognitive state encoder + autonomous decision engine. 60 modules encode raw text into structured cognitive data, judgment engine handles multi-path decisions, decision routing does field tracking, self-healing RL learns from errors. Invoked by Hermes Agent via MCP, providing structured cognitive snapshots to LLMs.
+
+**Key capabilities:** Cognitive state encoding, multi-path decision engine, field tracking, self-healing reinforcement learning, MCP-native integration, structured cognitive snapshots
+**Maintainer:** yun520-1
 
 ---
 
@@ -4027,3 +4037,4 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 | [QuantaSeal/mcp-server](https://github.com/QuantaSeal/mcp-server) | 0 | QuantaSeal MCP Server — 18 tools for AI agents |
 | [invertible-statue269/colign](https://github.com/invertible-statue269/colign) | 2 | Align teams on specs before AI writes code |
 | [Lucenx9/forktty](https://github.com/Lucenx9/forktty) | 6 | Linux-native workspace for coding agents — Ghostty terminals, git worktrees |
+| [yun520-1/mark-heartflow-skill](https://github.com/yun520-1/mark-heartflow-skill) | 26 | 心虫 (HeartFlow) — Cognitive state encoder + autonomous decision engine via MCP |

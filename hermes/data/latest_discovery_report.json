@@ -1,54 +1,50 @@
 {
-  "run_time": "2026-06-23T08:02:01.901630+00:00",
+  "run_time": "2026-06-26T06:03:25.673393+00:00",
   "new_approved": [
     {
-      "name": "xiaojilele-glitch/WhyBuddy",
-      "url": "https://github.com/xiaojilele-glitch/WhyBuddy",
-      "description": "A Simple and Universal Product Rehearsal Engine, Speccing Anything. \u7b80\u6d01\u901a\u7528\u7684\u4ea7\u54c1\u63a8\u6f14\u5f15\u64ce\uff0c\u63a8\u6f14\u4e07\u7269\u3002",
-      "stars": 347,
-      "forks": 57,
-      "language": "TypeScript",
+      "name": "yun520-1/mark-heartflow-skill",
+      "url": "https://github.com/yun520-1/mark-heartflow-skill",
+      "description": "\u5fc3\u866b (HeartFlow) \u2014 \u8ba4\u77e5\u72b6\u6001\u7f16\u7801\u5668 + \u81ea\u4e3b\u51b3\u7b56\u5f15\u64ce\u300260\u4e2a\u6a21\u5757\u628a\u539f\u59cb\u6587\u672c\u7f16\u7801\u6210\u7ed3\u6784\u5316\u8ba4\u77e5\u6570\u636e\uff0c\u5224\u65ad\u5f15\u64ce\u505a\u591a\u8def\u5f84\u51b3\u7b56\uff0c\u51b3\u7b56\u8def\u7531\u505a\u573a\u57df\u8ffd\u8e2a\uff0c\u81ea\u6108RL\u4ece\u9519\u8bef\u4e2d\u5b66\u4e60\u3002\u88abHermes Agent\u901a\u8fc7MCP\u8c03\u7528\uff0c\u4e3aLLM\u63d0\u4f9b\u7ed3\u6784\u5316\u8ba4\u77e5\u5feb\u7167\u3002",
+      "stars": 26,
+      "forks": 5,
+      "language": "JavaScript",
       "topics": [
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "clawdbot",
-        "codex",
-        "hermes",
+        "ai-being",
+        "ai-philosophy",
+        "ai-psychology",
+        "cognitive-engine",
+        "decision-engine",
+        "decision-routing",
         "hermes-agent",
-        "llm",
-        "moltbot",
-        "nous-research",
-        "openai",
-        "openclaw"
+        "judgment-engine",
+        "mcp",
+        "nodejs",
+        "reinforcement-learning",
+        "self-healing"
       ],
-      "updated_at": "2026-06-23T08:01:45Z",
-      "category": "forks",
-      "score": 72,
+      "updated_at": "2026-06-26T05:39:29Z",
+      "category": "mcp",
+      "score": 75,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
-        "hermes_topic",
+        "direct_hermes_reference",
         "agent_ecosystem",
-        "moderate_stars_100+",
+        "some_stars_10+",
         "detailed_description",
         "active_week",
         "has_homepage"
       ],
       "near_duplicates": [],
-      "discovered_at": "2026-06-23T08:01:50.229407+00:00",
+      "discovered_at": "2026-06-26T06:03:07.620014+00:00",
       "status": "approved",
-      "approved_at": "2026-06-23T08:02:01.896766+00:00"
+      "approved_at": "2026-06-26T06:03:25.662670+00:00"
     }
   ],
   "stats": {
     "total_found": 6,
     "auto_approved": 1,
     "pending_review": 5,
-    "total_approved": 129,
-    "total_pending": 253
+    "total_approved": 132,
+    "total_pending": 316
   }
 }

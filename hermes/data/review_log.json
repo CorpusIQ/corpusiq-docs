@@ -2153,5 +2153,47 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-06-26T05:02:11.693387+00:00"
+  },
+  {
+    "repo": "kevwillow/proxmox-manager-agent-skill",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T06:03:25.662686+00:00"
+  },
+  {
+    "repo": "yeaminlabs/paperstack",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T06:03:25.662842+00:00"
+  },
+  {
+    "repo": "Edgar-s-Tool/linear-orchestrator",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T06:03:25.662846+00:00"
+  },
+  {
+    "repo": "yun520-1/mark-heartflow-skill",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-06-26T06:03:25.662848+00:00"
+  },
+  {
+    "repo": "XYJMSK/hermes-agent-desktop",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T06:03:25.662849+00:00"
+  },
+  {
+    "repo": "JZKK720/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T06:03:25.662851+00:00"
   }
 ]
