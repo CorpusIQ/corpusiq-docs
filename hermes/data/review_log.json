@@ -2251,5 +2251,47 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-26T07:04:18.037516+00:00"
+  },
+  {
+    "repo": "baohaoxiang/codex-email-wechat-operator-skill",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T08:04:14.396113+00:00"
+  },
+  {
+    "repo": "amirulhazym/hermes-agent-personal_assistant",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T08:04:14.396126+00:00"
+  },
+  {
+    "repo": "abundantbeing/hermes-browser-extension",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T08:04:14.396128+00:00"
+  },
+  {
+    "repo": "jonathanNi98/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T08:04:14.396130+00:00"
+  },
+  {
+    "repo": "paulhybryant/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T08:04:14.396132+00:00"
+  },
+  {
+    "repo": "Bichalla/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T08:04:14.396133+00:00"
   }
 ]
