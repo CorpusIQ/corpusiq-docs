@@ -1,6 +1,6 @@
 ---
-title: "Hermes Community Hub — 406+ Tools & Resources"
-description: "The largest structured Hermes Agent knowledge base — 406+ tools, skills, MCP servers, agents, blueprints, and case studies. Built by the community. Updated daily."
+title: "Hermes Community Hub — 440+ Tools & Resources"
+description: "The largest structured Hermes Agent knowledge base — 440+ tools, skills, MCP servers, agents, blueprints, and case studies. Built by the community. Updated daily."
 ---
 
 # 🫡 Hermes Community Hub
@@ -9,7 +9,7 @@ The largest structured collection of Hermes Agent tools, skills, MCP servers, ag
 
 ## Quick Links
 
-- [Ecosystem Map](ecosystem.md) — 406+ repos across 18 categories
+- [Ecosystem Map](ecosystem.md) — 440+ repos across 18 categories
 - [Agent Library](agents/index.md) — 10 production agent configurations
 - [Case Studies](outputs/index.md) — 13 industry case studies
 - [Setup Guides](setup/index.md) — Deploy on Mac, PC, VPS, Raspberry Pi

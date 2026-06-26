@@ -1,3 +1,8 @@
+---
+title: "Hermes Skills Catalog — Quality-Tiered Agent Skills Directory"
+description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 445+ skills catalogued."
+---
+
 # Skills Catalog
 
 Welcome to the Hermes Skills Catalog  --  your directory of community-contributed, validated skills that extend what Hermes can do. Skills encode repeatable expertise into shareable packages that anyone in the Hermes community can install and use.
@@ -158,15 +163,6 @@ The catalog here represents community-validated skills. Additional skills are di
 See [Skill Marketplaces](../skills/skill-marketplaces.md) for detailed guidance on each marketplace.
 
 The catalog is a living resource. Skills are added weekly. Check back often, and consider contributing what you build.
-
-
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
-
-
-*Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
----
-
-*
 
 ---
 
