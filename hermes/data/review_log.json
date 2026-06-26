@@ -2076,5 +2076,82 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-25T08:04:26.941881+00:00"
+  },
+  {
+    "repo": "gchigoo/hermes-tavern",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T05:02:11.693355+00:00"
+  },
+  {
+    "repo": "strongmandisabilitypayment539/hermes-geopolitical-market-sim",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T05:02:11.693370+00:00"
+  },
+  {
+    "repo": "Markwayneclarkgeorgesbraque941/Ankh.md",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T05:02:11.693373+00:00"
+  },
+  {
+    "repo": "xyshanren/hermes-tray",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T05:02:11.693375+00:00"
+  },
+  {
+    "repo": "oratis/LISA",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T05:02:11.693377+00:00"
+  },
+  {
+    "repo": "ningtoba/infinite-loop",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T05:02:11.693378+00:00"
+  },
+  {
+    "repo": "IDEAtells-B-V-Software/hermes-ms365-mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T05:02:11.693380+00:00"
+  },
+  {
+    "repo": "OdinYkt/hermes-skill-mcp-plugin",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T05:02:11.693382+00:00"
+  },
+  {
+    "repo": "heidis168/hermes-tools",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T05:02:11.693384+00:00"
+  },
+  {
+    "repo": "forks-ai/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T05:02:11.693385+00:00"
+  },
+  {
+    "repo": "forks-ai/hermes-webui",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-26T05:02:11.693387+00:00"
   }
 ]
