@@ -12,6 +12,10 @@ a question. No deep tech — just enough to know what you're using.
 - [rate-limits-and-quotas.md](rate-limits-and-quotas.md) — API rate limits,
   data freshness, and performance expectations. Read this before running
   production queries or dashboards.
+- [reading-files-and-pdfs.md](reading-files-and-pdfs.md) — how CorpusIQ
+  reads the text inside your PDFs, Word, Excel, and PowerPoint files in
+  Google Drive, OneDrive, and Dropbox — and the one limit (scanned
+  images) worth knowing.
 - [privacy-and-security.md](privacy-and-security.md) — what CorpusIQ does
   and does not do with your data. Read-only, encrypted, disconnect anytime.
 - [metric-specs.md](metric-specs.md) — declare a number once (MRR, AOV,
