@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 26, 2026 (afternoon sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 27, 2026 (morning sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -553,6 +553,15 @@ Synthetic data generator MCP server  --  19 tools for generating realistic compa
 ### Syntitan ★ New
 AI-Ready Data Platform MCP  --  bridge enterprise data management and AI execution. Connect Claude and other MCP clients to Syntitan's governed data layer that fills the missing layer between enterprise data systems and AI agents. Essential for enterprise operators building governed AI data pipelines.
 
+### GTmetrix MCP ★ New (June 27)
+Get web performance tests and data directly in your AI workflow. Analyze page speed, Core Web Vitals, and performance metrics from any MCP client. Official MCP server. `https://gtmetrix.com/blog/gtmetrix-mcp/`. Essential for operators monitoring site health, SEO performance, and user experience metrics.
+
+### superserve-sandbox ★ New (June 27)
+Create and control isolated cloud sandboxes from any MCP client. Each sandbox is a Firecracker microVM that boots in seconds — run shell commands, install dependencies, expose preview URLs, then pause or delete when done. Secrets brokered by platform, never passed through the model. `npx -y @superserve/mcp` or hosted at `mcp.superserve.ai`.
+
+### web-pilot ★ New (June 27)
+8 web tools in one MCP server: fetch any webpage as clean markdown, search the web, extract links/metadata/contacts, parse sitemaps and RSS feeds, batch-check URL statuses. Remote MCP at `https://poetic-rebirth-production-6e26.up.railway.app/sse`. Useful for operators building web-scraping or data collection agent workflows.
+
 ---
 
 ## Productivity
@@ -684,6 +693,9 @@ Connect AI agents to Process Street workflows, tasks, runs, datasets, and form f
 
 ### Numbers Online  --  Phone Intelligence ★ New
 Hosted, read-only MCP server for AI voice agent phone intelligence  --  caller identity, risk scoring, line type, DNC check. Every billable answer carries an Ed25519-signed receipt. No raw phone numbers stored (hashed only). Remote/hosted: nothing to install.
+
+### AgentDocs ★ New (June 27)
+An agent-first office suite your AI reads and writes over MCP — Docs, Sheets, Slides, a Database, Drive, and Notion-style Pages. Sign in with Google; free to start. Remote MCP at `https://getagentdocs.com/mcp`. Essential for operators who want AI agents to create, edit, and manage office documents without leaving their chat interface.
 
 ---
 
@@ -900,6 +912,9 @@ Hosted, stateless, multitenant Google Business Profile MCP  --  manage business 
 
 ### Serpzilla ★ New (June 26)
 MCP server for Serpzilla  --  purchase SEO placements (links, articles, reviews) on publisher sites. Manage projects, search sites by metrics, and track placements via OAuth-secured API. Remote MCP at `mcp.serpzilla.com/mcp`. Essential for SEO operators and agencies managing paid link-building and content placement campaigns through AI agents.
+
+### Sociality MCP ★ New (June 27)
+Social media analytics, post insights, and competitor benchmarking for AI agents. Connect AI with social media intelligence across Facebook, X (Twitter), Instagram, YouTube, LinkedIn, and TikTok. Remote MCP at `https://api.sociality.io/mcp`. Essential for marketing operators who need cross-platform social analytics and competitor monitoring in their AI workflows.
 
 ---
 
@@ -1585,14 +1600,28 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ---
 
+## New This Week (June 27, 2026 — morning sweep)
+
+### 5 new MCP servers from mcp.so Feed + mcpservers.org /latest
+
+| Server | Category | What It Does |
+|--------|----------|-------------|
+| GTmetrix MCP ★ New | Development | Web performance testing — page speed, Core Web Vitals, performance metrics |
+| superserve-sandbox ★ New | Development | Isolated cloud sandboxes (Firecracker microVMs) for agent code execution |
+| web-pilot ★ New | Development | 8 web tools: fetch, search, extract links/metadata, sitemaps, RSS, URL checks |
+| Sociality MCP ★ New | Marketing | Cross-platform social media analytics (FB, X, IG, YT, LinkedIn, TikTok) |
+| AgentDocs ★ New | Productivity | Agent-first office suite — Docs, Sheets, Slides, Database, Drive via MCP |
+
+**Key Trends:** Web performance testing (GTmetrix), social media analytics (Sociality), and agent-native office suites (AgentDocs) are expanding MCP's reach into core business operations. Sandbox execution (superserve) signals growing demand for secure agent code environments.
+
 ## Ecosystem Stats
 
 - **Total MCP servers tracked:** 22,663 (mcp.so), 9,300 (mcpservers.org)
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 26 morning):** 6 new MCP servers — from mcp.so Feed
-- **Cumulative since June 9:** 400 MCP servers catalogued across 25 sweeps
+- **New this cycle (June 27 morning):** 5 new MCP servers — from mcp.so Feed + mcpservers.org
+- **Cumulative since June 9:** 405 MCP servers catalogued across 26 sweeps
 
 ---
 
