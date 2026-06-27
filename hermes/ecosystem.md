@@ -5,9 +5,9 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 # Hermes Ecosystem  --  Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 440+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 441+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** June 26, 2026 · **Repos indexed:** 440+ · **Categories:** 18
+> **Last updated:** June 27, 2026 · **Repos indexed:** 441+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -21,7 +21,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 440+ re
 | [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
 | [Community & Awesome Lists](#-community--awesome-lists) | 33 | [↓](#-community--awesome-lists) |
 | [UI & Dashboards](#-ui--dashboards) | 14 | [↓](#-ui--dashboards) |
-| [Memory & Knowledge](#-memory--knowledge) | 27 | [↓](#-memory--knowledge) |
+| [Memory & Knowledge](#-memory--knowledge) | 28 | [↓](#-memory--knowledge) |
 | [MCP & Integrations](#-mcp--integrations) | 32 | [↓](#-mcp--integrations) |
 | [Skills & Plugins](#-skills--plugins) | 69 | [↓](#-skills--plugins) |
 | [Tools & Utilities](#-tools--utilities) | 54 | [↓](#-tools--utilities) |
@@ -644,6 +644,17 @@ One brain, many harnesses. Portable `.agent/` folder (memory + skills + config) 
 The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agent. Ultra-fast local memory with minimal overhead.
 
 **Key capabilities:** Zero dependencies, sub-ms retrieval, local-first, Hermes-native
+
+---
+
+### CodeAbra/iai-personal-memory-engine
+⭐ **307** · `Python` · [github.com/CodeAbra/iai-personal-memory-engine](https://github.com/CodeAbra/iai-personal-memory-engine)
+
+MCP memory server for AI coding assistants. Works with Claude Code, Cursor, Codex, Gemini CLI, Cline, Continue, Cherry Studio, Zed, Hermes, OpenClaw, and any MCP client. Local, encrypted, verbatim recall. MIT.
+
+**Maintainer:** CodeAbra
+**Key capabilities:** Local encrypted memory, verbatim recall, MCP-native, cross-agent support, SQLite + vector DB hybrid
+**Related:** [MCP & Integrations →](#-mcp--integrations) · [Memory Stack →](/hermes/knowledge/)
 
 ---
 

@@ -2293,5 +2293,89 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-26T08:04:14.396133+00:00"
+  },
+  {
+    "repo": "bojansandhaus/tool-repair-skill-for-hermes-and-opencode",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-27T08:02:11.862625+00:00"
+  },
+  {
+    "repo": "jyje/hermes-agent-helm",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-27T08:02:11.862628+00:00"
+  },
+  {
+    "repo": "Hy4ri/hermes-mobile",
+    "score": 46,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-27T08:02:11.862630+00:00"
+  },
+  {
+    "repo": "chargyzuo/hermes-self-opt",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-27T08:02:11.862632+00:00"
+  },
+  {
+    "repo": "Leo-ai-robot/ai-archive",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-27T08:02:11.862633+00:00"
+  },
+  {
+    "repo": "codenamekt/hexus",
+    "score": 38,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-27T08:02:11.862635+00:00"
+  },
+  {
+    "repo": "BarnsL/hermes-squad",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-27T08:02:11.862637+00:00"
+  },
+  {
+    "repo": "CodeAbra/iai-personal-memory-engine",
+    "score": 73,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-06-27T08:02:11.862639+00:00"
+  },
+  {
+    "repo": "iPotatow/hermes-skill-manage",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-27T08:02:11.862640+00:00"
+  },
+  {
+    "repo": "wyuebei-cloud/auto-completion-sound-setup",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-27T08:02:11.862642+00:00"
+  },
+  {
+    "repo": "hunzhiwange/rustcodegraph",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-27T08:02:11.862644+00:00"
+  },
+  {
+    "repo": "darvax/coolify-hermes-agent-arm64",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-27T08:02:11.862645+00:00"
   }
 ]

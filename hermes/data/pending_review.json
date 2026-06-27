@@ -9339,5 +9339,306 @@
     ],
     "discovered_at": "2026-06-26T08:04:05.644888+00:00",
     "status": "pending"
+  },
+  {
+    "name": "bojansandhaus/tool-repair-skill-for-hermes-and-opencode",
+    "url": "https://github.com/bojansandhaus/tool-repair-skill-for-hermes-and-opencode",
+    "description": "Hermes Tool Repair Skill - deterministic tool call repair for LLM agents. Catches common JSON formatting mistakes open models make and fixes them before dispatch, with repair notes that teach the model to self-correct.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-27T07:58:41Z",
+    "category": "core",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "CYC2002tommy/Deep-Research-Agent",
+      "zakahadi/llm-eval-cli"
+    ],
+    "discovered_at": "2026-06-27T08:01:26.998301+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jyje/hermes-agent-helm",
+    "url": "https://github.com/jyje/hermes-agent-helm",
+    "description": "\ud83d\udc69\ud83c\udffb\u200d\ud83d\udcbb A Helm chart to run Hermes Agent on Kubernetes, community-powered, lightweight",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "helm-charts",
+      "hermes-agent",
+      "kubernetes"
+    ],
+    "updated_at": "2026-06-27T07:58:13Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-27T08:01:30.000975+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Hy4ri/hermes-mobile",
+    "url": "https://github.com/Hy4ri/hermes-mobile",
+    "description": "Hermes agent android app",
+    "stars": 2,
+    "forks": 0,
+    "language": "Kotlin",
+    "topics": [
+      "ai",
+      "android",
+      "apk",
+      "hermes",
+      "hermes-agent",
+      "mobile"
+    ],
+    "updated_at": "2026-06-27T07:57:46Z",
+    "category": "core",
+    "score": 46,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-27T08:01:33.004121+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "chargyzuo/hermes-self-opt",
+    "url": "https://github.com/chargyzuo/hermes-self-opt",
+    "description": "Agent Self-Optimization for Hermes \u2014 Harvest, Mine, Gate-Lite",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-27T07:57:44Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-27T08:01:36.006966+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Leo-ai-robot/ai-archive",
+    "url": "https://github.com/Leo-ai-robot/ai-archive",
+    "description": "hermes agent",
+    "stars": 1,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-06-27T07:57:37Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-27T08:01:39.010056+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "codenamekt/hexus",
+    "url": "https://github.com/codenamekt/hexus",
+    "description": "Vector MCP + BERT Embeddings + Hermes Memory",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-27T06:11:45Z",
+    "category": "mcp",
+    "score": 38,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-27T08:01:42.828687+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "BarnsL/hermes-squad",
+    "url": "https://github.com/BarnsL/hermes-squad",
+    "description": "Multi-agent AI orchestrator combining Claude Squad session management with Hermes Agent self-improving intelligence. Integrates with Amazon Quick and Kiro via ACP/MCP.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "acp",
+      "agent-orchestration",
+      "ai-agents",
+      "amazon-quick",
+      "claude-code",
+      "electron",
+      "hermes-agent",
+      "kiro",
+      "mcp",
+      "multi-agent",
+      "self-improving-ai",
+      "terminal"
+    ],
+    "updated_at": "2026-06-27T02:26:45Z",
+    "category": "mcp",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "KSroido/Kagi-Session2API-MCP",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-06-27T08:01:45.830875+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "iPotatow/hermes-skill-manage",
+    "url": "https://github.com/iPotatow/hermes-skill-manage",
+    "description": "Hermes plugin for source-aware skill management",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-27T05:46:58Z",
+    "category": "skills",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-27T08:01:52.595058+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wyuebei-cloud/auto-completion-sound-setup",
+    "url": "https://github.com/wyuebei-cloud/auto-completion-sound-setup",
+    "description": "Hermes Agent skill: automatic completion sound via transform_llm_output plugin hook \u2014 zero LLM involvement, R5 compliant",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-06-26T20:04:35Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-27T08:01:55.597279+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hunzhiwange/rustcodegraph",
+    "url": "https://github.com/hunzhiwange/rustcodegraph",
+    "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent \u2014 fewer tokens, fewer tool calls, 100% local",
+    "stars": 1,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-06-27T07:59:21Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "NousResearch/hermes-agent-self-evolution",
+      "codejunkie99/agentic-stack",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "longyunfeigu/learn-hermes-agent",
+      "KSroido/Kagi-Session2API-MCP",
+      "jnMetaCode/shellward",
+      "ruvnet/agent-harness-generator",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale"
+    ],
+    "discovered_at": "2026-06-27T08:01:59.326080+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "darvax/coolify-hermes-agent-arm64",
+    "url": "https://github.com/darvax/coolify-hermes-agent-arm64",
+    "description": "Production-ready ARM64 Docker Compose template for deploying Hermes Agent on Coolify without the WebUI.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "ai-agent",
+      "ampere",
+      "arm64",
+      "coolify",
+      "docker",
+      "docker-compose",
+      "hermes",
+      "hermes-agent",
+      "oracle-cloud",
+      "oracle-cloud-free-tier",
+      "self-hosted"
+    ],
+    "updated_at": "2026-06-26T22:09:53Z",
+    "category": "deployment",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "romdix/coolify-hermes-stack",
+      "varunlakshmaiah/hermes-compose"
+    ],
+    "discovered_at": "2026-06-27T08:02:03.991660+00:00",
+    "status": "pending"
   }
 ]

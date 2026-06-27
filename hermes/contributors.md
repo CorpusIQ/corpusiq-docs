@@ -8,7 +8,7 @@ tags:
   - open-source
   - submit-repo
   - ecosystem
-last_updated: 2026-06-26T05:00Z
+last_updated: 2026-06-27T01:00Z
 ---
 
 # Hermes Community Contributors  --  Help Build the Largest Hermes Resource Directory
@@ -21,10 +21,10 @@ The **Hermes Ecosystem Directory** is the most comprehensive collection of Herme
 
 | Metric | Value |
 |--------|-------|
-| **Total submissions** | 258 |
+| **Total submissions** | 259 |
 | **Approval rate** | 100% |
 | **Review time** | <48 hours |
-| **Repos indexed** | 408 |
+| **Repos indexed** | 441 |
 | **Categories** | 18 |
 
 ## How to Contribute
