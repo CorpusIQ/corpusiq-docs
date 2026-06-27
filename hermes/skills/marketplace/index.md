@@ -155,6 +155,7 @@ Approved skills appear on the next marketplace update page with install commands
 
 New skills are discovered weekly through automated sweeps of skills.sh. Each discovery gets a dedicated update page:
 
+- [🆕 June 27, 2026 — Skills Gallery (1,672+ skills), A2A Bridge, Flight Recorder + 6 more (9 repos)](/hermes/skills/marketplace/new-june27-2026/)
 - [🆕 June 26, 2026 (Afternoon) — Agenthood 14-Agent Team + Letta AI Full 24-Skill Harness (2 repos, 38 skills)](/hermes/skills/marketplace/new-june26-2026-afternoon/)
 - [🆕 June 26, 2026 — Matt Pocock Toolkit, OpenClaw Ecosystem, Impeccable, CLI-Anything Harnesses (9 repos, 43 skills)](/hermes/skills/marketplace/new-june26-2026/)
 - [🆕 June 22, 2026 (Late Sweep)  --  Blueprint Orchestration (1 repo, 12 skills)](/hermes/skills/marketplace/new-june22-2026-late/)
@@ -186,9 +187,9 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 445+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 455+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
-*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june26-2026-afternoon/)*
+*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june27-2026/)*
 
 *Powered by CorpusIQ*
 ---
