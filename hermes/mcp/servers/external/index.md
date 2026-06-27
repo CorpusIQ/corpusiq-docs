@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 26, 2026 (morning sweep — 2nd pass) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 26, 2026 (afternoon sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -159,6 +159,15 @@ Bloomberg-grade crypto intelligence for AI agents  --  real-time market data, in
 
 ### Evibe Portfolio ★ New
 Read-only investment portfolio access via MCP  --  holdings, performance metrics, dividends, benchmarks, and stock screeners. Official MCP server from Evibe. Essential for operators who want AI-driven portfolio intelligence without manual data entry.
+
+### PubFi MCP ★ New (June 26)
+Route crypto data needs through PubFi capability and gateway tools. MCP-native crypto data orchestration for AI agents. Essential for operators managing multi-chain crypto data workflows.
+
+### zopnight ★ New (June 26)
+Query and govern your AWS, GCP & Azure cloud estate (and AI runtimes like Bedrock & Vertex AI) from Claude Code or Cursor. Surfaces waste, cost, ownership, and 400+ audit findings across 200+ resource types. Essential for FinOps operators managing multi-cloud infrastructure.
+
+### Quotor ★ New (June 26)
+Real, bindable home & auto insurance quotes via MCP  --  actual carrier rates, not estimates. Texas market with expansion planned. 11 tools with carrier-masked options and human-completed bind. Essential for insurance operators and fintech platforms integrating quote flows into AI agent workflows.
 
 ---
 
@@ -888,6 +897,9 @@ Dub any video into 600 languages straight from your AI chat  --  YouTube dubbing
 
 ### MewCP Google Business MCP ★ New
 Hosted, stateless, multitenant Google Business Profile MCP  --  manage business listings, reviews, locations, and customer interactions through Google Business Profile. Essential for local business operators and multi-location brands who want AI agents to manage their Google presence, respond to reviews, and update business information.
+
+### Serpzilla ★ New (June 26)
+MCP server for Serpzilla  --  purchase SEO placements (links, articles, reviews) on publisher sites. Manage projects, search sites by metrics, and track placements via OAuth-secured API. Remote MCP at `mcp.serpzilla.com/mcp`. Essential for SEO operators and agencies managing paid link-building and content placement campaigns through AI agents.
 
 ---
 
