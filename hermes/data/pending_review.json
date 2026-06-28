@@ -10037,5 +10037,111 @@
     ],
     "discovered_at": "2026-06-28T05:03:29.727802+00:00",
     "status": "pending"
+  },
+  {
+    "name": "esaradev/daedalus",
+    "url": "https://github.com/esaradev/daedalus",
+    "description": "Financial control plane for Hermes agents: double-entry ledger, Stripe earn + approval-gated spend, self-evolving pricing. NVIDIA x Stripe x Nous hackathon.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-28T06:00:54Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-28T06:01:18.428323+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Piccolo123/hermes-skills",
+    "url": "https://github.com/Piccolo123/hermes-skills",
+    "description": "Custom Hermes Agent skills \u2014 curated workflows, tools, and automations",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-06-28T06:00:15Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Undermybelt/hermes-skills-research",
+      "BBridgeers/hermes-skills"
+    ],
+    "discovered_at": "2026-06-28T06:01:21.431067+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "userresg17/typermagic",
+    "url": "https://github.com/userresg17/typermagic",
+    "description": "TYPER Magic \u2014 local-first, BYOK, model-agnostic general-purpose agent (class of Hermes/OpenClaw) that proves before it acts.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-28T05:59:56Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-28T06:01:24.434326+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "verdenmax/hermes-agent-visual-guide",
+    "url": "https://github.com/verdenmax/hermes-agent-visual-guide",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-06-28T05:58:11Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-28T06:01:27.435380+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yansinan/mcp.skills",
+    "url": "https://github.com/yansinan/mcp.skills",
+    "description": "Hermes \u6210\u719f\u6280\u80fd\u5e93 \u2014 \u5206\u7c7b\u7ec4\u7ec7\u7684 MCP \u6280\u80fd\u96c6\u5408\uff0c\u4f9b agents \u95f4\u5171\u4eab",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-28T05:27:00Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-28T06:01:31.083179+00:00",
+    "status": "pending"
   }
 ]
