@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 27, 2026 (afternoon sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 28, 2026 (morning sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -265,8 +265,14 @@ AI-powered website audit for any URL across 10+ categories  --  SEO, performance
 ### OpenSEO ★ New
 SEO research tools for AI agents: keyword research and metrics, SERP and local SERP results, domain and backlink analysis, rank tracking, and Google Search Console performance. `npx openseo-mcp`
 
+### PipeTable MCP ★ New
+Query local CSV, Parquet, JSON and TSV files with real SQL via DuckDB. Gives AI coding tools ground-truth data access instead of hallucinated answers. Data never leaves your machine. Essential for operators who work with data files and want SQL-grade analysis in their AI workflows. `npx -y pipetable`, `github.com/melihbirim/pipetable` ★1.
+
 ### Amap Maps (高德地图) ★ New
 AutoNavi Maps MCP  --  China's second-largest mapping platform. Location search, geocoding, directions, and POI data. Essential for China-market operators alongside Baidu Maps. Official 高德 integration.
+
+### Prowlo  --  Reddit & X for AI Agents ★ New
+Content and community intelligence for Reddit and X (Twitter). Search both platforms in one tool, discover trending posts, and pull audience insights. Essential for operators managing social presence and community listening. `npx @prowlo/mcp`
 
 ### ACG Mcp ★ New
 Audited Context Generation Protocol  --  verifiable fact-checking and grounded RAG via MongoDB. Standalone MCP server that provides verified, evidence-backed answers by grounding AI responses in audited sources. Essential for operators who need verifiable, citation-backed AI outputs for compliance, research, and decision-making.
@@ -1638,14 +1644,28 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 **Key Trends:** SEO tools (GSC SEO MCP), GEO/AEO monitoring (Sleepwalker), document processing (PDF2MD), and agent memory infrastructure (Hindsight-MemPalace) dominated this afternoon's discovery. Data integration (ReefAPI — 160+ APIs) and productivity tools (Grist, Kanbaruu) continue expanding MCP's business operations footprint.
 
+### 7 new MCP servers from mcpservers.org /all (pages 1–4)
+
+| Server | Category | What It Does |
+|--------|----------|-------------|
+| Rampify MCP ★ New | Marketing/SEO | SEO MCP server: crawl your site, find AI-visibility gaps, and ship the fix from your coding agent. `github.com/rampify-dev/rampify-mcp` ★2 |
+| PipeTable MCP ★ New | Data/Analytics | Query local CSV, Parquet, JSON and TSV files with real SQL via DuckDB. Ground-truth data access for AI agents. `github.com/melihbirim/pipetable` ★1 |
+| HookSense MCP ★ New | Dev/Webhooks | Webhook & callback layer for AI agents — create callbacks, wait_for_callback instead of polling, verify signatures over MCP. `github.com/ozers/hooksense-mcp` ★1 |
+| Monet MCP ★ New | Dev/Memory | Local-first, state-centric memory for coding agents — remembers project conventions and preferences. 100% local over MCP. |
+| ShareBench MCP ★ New | Agent Marketplace | Hosted MCP — search and pull AI skills, agents, prompts & playbooks. Connect once at `mcp-public.sharebench.ai`. |
+| Ambix MCP ★ New | Product Management | Product team workspace — makes team direction, priorities, and conviction persistent and accessible to AI clients via MCP. |
+| Infino MCP ★ New | Data/Infra | Keyword, vector, hybrid, and SQL retrieval over data on object storage for AI agents. |
+
+**Key Trends:** AI visibility tools (Rampify for SEO, Sleepwalker for GEO) continue expanding as operators shift focus from traditional SEO to AI-engine discoverability. Agent infrastructure (HookSense webhooks, Monet local memory, ShareBench agent marketplace) shows the ecosystem maturing beyond data access into agent-native middleware.
+
 ## Ecosystem Stats
 
 - **Total MCP servers tracked:** 22,663 (mcp.so), 9,300 (mcpservers.org)
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 27 afternoon):** 13 new MCP servers — from mcpservers.org /all pages 1–3
-- **Cumulative since June 9:** 418 MCP servers catalogued across 27 sweeps
+- **New this cycle (June 28 morning):** 7 new MCP servers — from mcpservers.org /all pages 1–4
+- **Cumulative since June 9:** 425 MCP servers catalogued across 28 sweeps
 
 ---
 
