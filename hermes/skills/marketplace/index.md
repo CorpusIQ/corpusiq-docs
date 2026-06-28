@@ -157,6 +157,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 - [🆕 June 28, 2026 — Threads Growth Skill, NemoClaw User Guide, Huawei Hermes Deployment (3 skills)](/hermes/skills/marketplace/new-june28-2026/)
 - [🆕 June 28, 2026 (Update) — OpenClaw Email, Security, Finance, DevOps (14 repos, 17 skills, 4 setup guides)](/hermes/skills/marketplace/new-june28-2026-update/)
+- [🆕 June 28, 2026 (Update 2) — sundial-org OpenClaw Collection, Marketing Skills, Audit Watchdog (2 repos, 9 skills, 2 setup guides)](/hermes/skills/marketplace/new-june28-2026-update2/)
 - [🆕 June 27, 2026 — Skills Gallery (1,672+ skills), A2A Bridge, Flight Recorder + 6 more (9 repos)](/hermes/skills/marketplace/new-june27-2026/)
 - [🆕 June 26, 2026 (Afternoon) — Agenthood 14-Agent Team + Letta AI Full 24-Skill Harness (2 repos, 38 skills)](/hermes/skills/marketplace/new-june26-2026-afternoon/)
 - [🆕 June 26, 2026 — Matt Pocock Toolkit, OpenClaw Ecosystem, Impeccable, CLI-Anything Harnesses (9 repos, 43 skills)](/hermes/skills/marketplace/new-june26-2026/)
@@ -189,9 +190,9 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 455+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 464+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
-*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june27-2026/)*
+*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june28-2026-update2/)*
 
 *Powered by CorpusIQ*
 ---
