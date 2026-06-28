@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 28, 2026 (morning sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 28, 2026 (afternoon sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -81,6 +81,9 @@ Comprehensive MCP server for the Cloudability API  --  advanced cloud cost manag
 
 ### agents.hellobooks.ai ★ New
 AI agents that automate bookkeeping and financial close for SMBs. Streamable HTTP transport. Hands-free bookkeeping via MCP  --  ideal for small business operators who want AI to handle financial close.
+
+### Aikount Mcp ★ New (June 28)
+Spanish accounting (contabilidad) for AI agents — issue invoices, OCR expense PDFs into deduplicated purchases, reconcile bank movements, and prepare quarterly VAT returns (Modelo 303) over REST API. For autónomos and SMEs in Spain. Essential for operators in Spanish/LATAM markets who want AI-driven accounting automation with local tax compliance.
 
 ### infaton-1c-mcp ★ New
 MCP server for 1C:Enterprise (ERP, Accounting)  --  51 tools for metadata, documents, registers, reports. Essential for Eastern European and Russian-market operators running on 1C.
@@ -166,6 +169,9 @@ Route crypto data needs through PubFi capability and gateway tools. MCP-native c
 ### zopnight ★ New (June 26)
 Query and govern your AWS, GCP & Azure cloud estate (and AI runtimes like Bedrock & Vertex AI) from Claude Code or Cursor. Surfaces waste, cost, ownership, and 400+ audit findings across 200+ resource types. Essential for FinOps operators managing multi-cloud infrastructure.
 
+### Opencloudcosts ★ New (June 28)
+Anchor AI FinOps to real, live cloud pricing. Multi-cloud MCP server for AWS, GCP & Azure — public list prices AND enterprise negotiated rates (Reserved Instances, Savings Plans, CUDs, EDPs). No credentials needed to query pricing data. Essential for FinOps operators who need AI agents to reason about cloud costs with real pricing data.
+
 ### Quotor ★ New (June 26)
 Real, bindable home & auto insurance quotes via MCP  --  actual carrier rates, not estimates. Texas market with expansion planned. 11 tools with carrier-masked options and human-completed bind. Essential for insurance operators and fintech platforms integrating quote flows into AI agent workflows.
 
@@ -179,6 +185,9 @@ Extracts structured, typed records from documents (PDFs, scans, contracts, invoi
 ---
 
 ## Analytics & Business Intelligence
+
+### SIXTA Connect ★ New (June 28)
+DBRE-grade SQL analysis inside any MCP client — no connection, no install required. Paste a query, EXPLAIN plan, migration, or error → get named findings with severity, rationale, and ready-to-run fixes for PostgreSQL and MySQL. Essential for operators running database workloads who need instant SQL review and optimization without connecting to production.
 
 ### Clamp Analytics MCP
 Analyze and manage traffic, funnels, cohorts, revenue, errors. Web/app analytics via MCP. Complementary to GA4 for product analytics use cases.
@@ -1658,14 +1667,43 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 **Key Trends:** AI visibility tools (Rampify for SEO, Sleepwalker for GEO) continue expanding as operators shift focus from traditional SEO to AI-engine discoverability. Agent infrastructure (HookSense webhooks, Monet local memory, ShareBench agent marketplace) shows the ecosystem maturing beyond data access into agent-native middleware.
 
+## New This Week (June 28, 2026 — afternoon sweep)
+
+### 18 new servers from mcp.so Feed
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| SIXTA Connect ★ New | Analytics/Database | DBRE-grade SQL analysis for PostgreSQL & MySQL — paste query, get named findings with severity and fixes. Zero-connection. |
+| Opencloudcosts ★ New | Finance/FinOps | Multi-cloud pricing MCP — AWS, GCP, Azure list prices + enterprise rates (RIs, Savings Plans, CUDs). No credentials needed. |
+| Aikount ★ New | Finance/Accounting | Spanish accounting MCP — invoices, OCR expense PDFs, bank reconciliation, quarterly VAT (Modelo 303). For autónomos/SMEs. |
+| Agentready ★ New | Productivity/Knowledge | Make any website queryable by AI agents — index sites, get cited RAG answers. |
+| What2post ★ New | Marketing/Social | Social media content planning and publishing for AI agents. |
+| Catchintent ★ New | Marketing/Sales | Intent catching and lead identification for AI agents. |
+| Datahyena ★ New | Analytics/Data | Data analysis and processing for AI agents. |
+| Edata4you ★ New | Analytics/Data | Data service platform for AI agents. |
+| AEO Tool ★ New | Marketing/GEO | AI Engine Optimization — optimize content for AI discoverability. |
+| ABAP MCP ★ New | Dev/SAP | SAP ABAP development via MCP — read/write ABAP, run syntax checks over ADT API. |
+| BVCC Agent Wallet ★ New | Finance/Crypto | Non-custodial crypto agent wallet — balances, sends, swaps on Uniswap across 4 chains with spend limits. |
+| SVGFarm ★ New | Dev/Creative | Search SVG icon packs and fetch markup from coding agents. |
+| JanusMCP ★ New | Dev/Infra | Local multi-account MCP broker — switch identity without reconnecting. |
+| Chain Context Mcp ★ New | Blockchain | Blockchain context provider for AI agents. |
+| AI Tool Directory ★ New | Research/Discovery | Query 2,000+ AI tools — search, compare, find alternatives. Public, no API key. |
+| Wax Seal ★ New | Security/Compliance | Cryptographic identity verification — on-chain seals, Ed25519 signatures, human-signed approvals. |
+| Graphlens ★ New | Analytics/Visualization | Graph-based data visualization and analysis for AI agents. |
+| Fuse Network ★ New | Blockchain | Blockchain network integration for AI agents. |
+
+**Key Trends:** Database tooling goes zero-connection (SIXTA), cloud FinOps gets credentialless pricing (Opencloudcosts), regional business MCPs growing (Aikount — Spanish accounting), agent governance infrastructure expanding (Wax Seal, JanusMCP).
+
+---
+
 ## Ecosystem Stats
 
 - **Total MCP servers tracked:** 22,663 (mcp.so), 9,300 (mcpservers.org)
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 28 morning):** 7 new MCP servers — from mcpservers.org /all pages 1–4
-- **Cumulative since June 9:** 425 MCP servers catalogued across 28 sweeps
+- **New this sweep (June 28 afternoon):** 18 new MCP servers — from mcp.so Feed
+- **Cumulative since June 9:** 443 MCP servers catalogued across 29 sweeps
 
 ---
 
