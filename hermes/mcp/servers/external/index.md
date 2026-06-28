@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 27, 2026 (morning sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 27, 2026 (afternoon sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -919,8 +919,8 @@ Social media analytics, post insights, and competitor benchmarking for AI agents
 ---
 
 
-### Linkdeal MCP ★ New
-Deal discovery and promotion tools for AI agents. Find, compare, and promote deals across platforms through MCP.
+### LinkDeal MCP ★ New
+Find warm LinkedIn leads via AI — enrich contacts, unlock comments, and deliver to Slack. B2B lead generation MCP for sales operators who prospect through AI agents. Essential for operators building AI-driven outbound sales workflows.
 
 ---
 
@@ -1614,14 +1614,38 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 **Key Trends:** Web performance testing (GTmetrix), social media analytics (Sociality), and agent-native office suites (AgentDocs) are expanding MCP's reach into core business operations. Sandbox execution (superserve) signals growing demand for secure agent code environments.
 
+---
+
+## New This Week (June 27, 2026 — afternoon sweep)
+
+### 13 new MCP servers from mcpservers.org /all (pages 1–3)
+
+| Server | Category | What It Does |
+|--------|----------|-------------|
+| GSC SEO MCP ★ New | Marketing/SEO | Google Search Console MCP — SEO audits, keyword insights, URL inspection, sitemap management for AI agents. Essential for SEO operators. `github.com/samalyxx/gsc-seo-mcp` |
+| Sleepwalker ★ New | Marketing/GEO | AI Visibility & Content Intelligence — inspect AI answers, citations, page content, trends, and saved reports. GEO/AEO monitoring for AI-driven marketing operators. |
+| ReefAPI MCP ★ New | Data/Integration | 160+ live web-data APIs (search, social, e-commerce, real estate, jobs, finance) — clean JSON, free tier. One MCP server for broad data integration. |
+| PDF2MD MCP ★ New | Productivity/Documents | Hosted MCP converting PDFs into clean, LLM-ready Markdown with tables, LaTeX formulas, and OCR (MinerU + Docling). Essential for operators processing documents in AI workflows. |
+| Upriver MCP ★ New | Content/Research | Breakout trending topics in tech, sports & politics with citations. Content research MCP for operators tracking market trends. |
+| Grist MCP ★ New | Productivity/Data | Turn spreadsheets running your business into secure applications. Spreadsheet-to-app MCP for operators managing business data. |
+| Hindsight-MemPalace ★ New | Memory/Knowledge | Self-hosted long-term memory for AI agents — MCP server with hierarchical recall over pgvector. For operators running persistent agent memory infrastructure. |
+| Reflex MCP ★ New | Dev/Browser | Faster, parallel browser for AI agents — drives your own Chrome with fewer round trips and tokens than Playwright. Browser automation MCP for operators. |
+| Railway MCP ★ New | Dev/Infra | Natural language interaction with Railway projects and infrastructure — create, manage, and deploy via AI agents. |
+| Kanbaruu MCP ★ New | Productivity | Markdown-native project board for AI agents — read, create, and check off tasks. Agent-friendly task management. |
+| HC Stark ★ New | Security/Compliance | Hosted MCP for transparent STARK proof receipts — agents mint and verify cryptographic receipts for supported workflows. Enterprise compliance MCP. |
+| Kubernetes MCP (blankcut) ★ New | Dev/Infra | Claude Kubernetes MCP in Go — integrates with ArgoCD, GitLab, Claude AI for advanced K8s control and deployment automation. |
+| Shadcn MCP ★ New | Design/Dev | Shadcn AI builder — create, refine, and convert Figma designs into production-ready UI blocks. Design-to-code MCP for product teams. |
+
+**Key Trends:** SEO tools (GSC SEO MCP), GEO/AEO monitoring (Sleepwalker), document processing (PDF2MD), and agent memory infrastructure (Hindsight-MemPalace) dominated this afternoon's discovery. Data integration (ReefAPI — 160+ APIs) and productivity tools (Grist, Kanbaruu) continue expanding MCP's business operations footprint.
+
 ## Ecosystem Stats
 
 - **Total MCP servers tracked:** 22,663 (mcp.so), 9,300 (mcpservers.org)
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this cycle (June 27 morning):** 5 new MCP servers — from mcp.so Feed + mcpservers.org
-- **Cumulative since June 9:** 405 MCP servers catalogued across 26 sweeps
+- **New this cycle (June 27 afternoon):** 13 new MCP servers — from mcpservers.org /all pages 1–3
+- **Cumulative since June 9:** 418 MCP servers catalogued across 27 sweeps
 
 ---
 
