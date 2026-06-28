@@ -3717,5 +3717,50 @@
     "discovered_at": "2026-06-28T07:04:44.775938+00:00",
     "status": "approved",
     "approved_at": "2026-06-28T07:05:05.102809+00:00"
+  },
+  {
+    "name": "codegraphtheory/chainforge",
+    "url": "https://github.com/codegraphtheory/chainforge",
+    "description": "Installable Hermes Agent profile for a security-first blockchain architect specializing in smart contracts, Solidity, Solana, DeFi, audits, governance, and tokenomics.",
+    "stars": 8,
+    "forks": 3,
+    "language": "Python",
+    "topics": [
+      "agent-profile",
+      "ai-agent",
+      "auditing",
+      "blockchain",
+      "built-from-hermes-profile-template",
+      "defi",
+      "developer-tools",
+      "ethereum",
+      "governance",
+      "hermes-agent",
+      "profile-distribution",
+      "security",
+      "smart-contracts",
+      "solana",
+      "solidity",
+      "tokenomics",
+      "web3"
+    ],
+    "updated_at": "2026-06-27T23:04:19Z",
+    "category": "security",
+    "score": 74,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage",
+      "niche_specialized"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent"
+    ],
+    "discovered_at": "2026-06-28T08:04:55.522281+00:00",
+    "status": "approved",
+    "approved_at": "2026-06-28T08:04:58.839226+00:00"
   }
 ]

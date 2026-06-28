@@ -5,9 +5,9 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 # Hermes Ecosystem  --  Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 442+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 443+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** June 28, 2026 · **Repos indexed:** 442+ · **Categories:** 18
+> **Last updated:** June 28, 2026 · **Repos indexed:** 443+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -28,7 +28,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 442+ re
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
 | [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 26 | [↓](#-orchestration-multi-agent--swarms) |
 | [Deployment & Infrastructure](#-deployment--infrastructure) | 21 | [↓](#-deployment--infrastructure) |
-| [Security & Governance](#-security--governance) | 5 | [↓](#-security--governance) |
+| [Security & Governance](#-security--governance) | 6 | [↓](#-security--governance) |
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
 | [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
 | [Platform-Specific](#-platform-specific) | 11 | [↓](#-platform-specific) |
@@ -3315,6 +3315,15 @@ Autonomous inbox management: 4-tier classification, SLA-based response, Gmail AP
 [Auth Guide →](/hermes/infrastructure/auth/)
 
 OAuth lifecycle management with refresh automation, expiration monitoring, and alerting. Gmail, GitHub, HeyGen, Postiz tokens.
+
+---
+
+### codegraphtheory/chainforge
+⭐ **8** · `Python` · [github.com/codegraphtheory/chainforge](https://github.com/codegraphtheory/chainforge)
+
+Installable Hermes Agent profile for a security-first blockchain architect specializing in smart contracts, Solidity, Solana, DeFi, audits, governance, and tokenomics.
+
+**Key capabilities:** Smart contracts, Solidity, Solana, DeFi, blockchain security, governance, tokenomics
 
 ---
 

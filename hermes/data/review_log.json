@@ -2559,5 +2559,89 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-28T07:05:05.102837+00:00"
+  },
+  {
+    "repo": "jahilldev/olympian",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T08:04:58.839241+00:00"
+  },
+  {
+    "repo": "NTTLuke/luxintenebris-ai-news",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T08:04:58.839244+00:00"
+  },
+  {
+    "repo": "kishoreHQ/hermes-agent-config",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T08:04:58.839246+00:00"
+  },
+  {
+    "repo": "khoirulyahya/hermes-local-agent-lab-provider-expanded",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T08:04:58.839249+00:00"
+  },
+  {
+    "repo": "MAghadavoodi/HermesGoogleMCP",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T08:04:58.839250+00:00"
+  },
+  {
+    "repo": "irfanzulkifle/hermes-agentic-ai-infrastructure",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T08:04:58.839252+00:00"
+  },
+  {
+    "repo": "Gordey007/Hermes-Agent-1337-Inc",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T08:04:58.839254+00:00"
+  },
+  {
+    "repo": "zengbaocheng/hermes-tech-hub",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T08:04:58.839255+00:00"
+  },
+  {
+    "repo": "hotelbyte-com/hermes-loop",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T08:04:58.839257+00:00"
+  },
+  {
+    "repo": "kulakov/kk-hermes-course",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T08:04:58.839258+00:00"
+  },
+  {
+    "repo": "kt-aicoding/hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T08:04:58.839260+00:00"
+  },
+  {
+    "repo": "codegraphtheory/chainforge",
+    "score": 74,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-06-28T08:04:58.839262+00:00"
   }
 ]
