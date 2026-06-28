@@ -134,7 +134,7 @@ A: CorpusIQ provides on-demand monitoring. For automated alerts, complement with
 - [AI for Business Intelligence](/docs/ai-for-business-intelligence/)
 - [AI for Executive Reporting](/docs/ai-for-executive-reporting/)
 - [AI for Forecasting](/docs/ai-for-forecasting/)
-- [What is MCP?](/docs/what-is-mcp/)
+- [What is MCP?](/docs/what-is-an-mcp-server/)
 
 ---
 

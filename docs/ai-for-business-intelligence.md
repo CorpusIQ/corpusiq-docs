@@ -152,11 +152,11 @@ A: Yes. CorpusIQ's metric specs let you define canonical calculations (MRR, CAC,
 - [AI for Executive Reporting](/docs/ai-for-executive-reporting/)  --  Leadership dashboards.
 - [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring/)  --  Real-time KPI tracking.
 - [AI for Data Analysis](/docs/ai-for-data-analysis/)  --  Advanced analytics with AI.
-- [What is MCP?](/docs/what-is-mcp/)  --  Understanding the Model Context Protocol.
+- [What is MCP?](/docs/what-is-an-mcp-server/)  --  Understanding the Model Context Protocol.
 
 ---
 
-**Next steps:** [Start your AI-powered BI journey →](https://app.corpusiq.com/signup) or [view all integrations](/integrations/)
+**Next steps:** [Start your AI-powered BI journey →](https://app.corpusiq.com/signup) or [view all integrations](/connectors/)
 
 *AI-powered AI for Business Intelligence | CorpusIQ MCP Platform for ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 

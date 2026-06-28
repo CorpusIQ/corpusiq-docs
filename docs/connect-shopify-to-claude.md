@@ -159,7 +159,7 @@ You can connect multiple stores through CorpusIQ and specify which store Claude 
 
 ---
 
-**Next steps:** [Connect Shopify to Claude now →](https://app.corpusiq.com/connect/shopify) or [learn more about CorpusIQ's MCP platform](/docs/what-is-corpusiq/).
+**Next steps:** [Connect Shopify to Claude now →](https://app.corpusiq.com/connect/shopify) or [learn more about CorpusIQ's MCP platform](/how-it-works/what-is-corpusiq/).
 
 *Connect Connect Shopify to Claude via MCP  --  Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

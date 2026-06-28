@@ -132,7 +132,7 @@ Ready to put AI to work on your claude for hubspot data?
 
 Claude for HubSpot through CorpusIQ brings enterprise-grade sales analytics to organizations of any size. The combination of Claude's analytical depth, your live CRM data, and CorpusIQ's MCP infrastructure delivers insights that were previously available only to companies with dedicated sales operations and data science teams.
 
-**[Connect Claude to HubSpot](/get-started) and run your first deep sales analysis today.**
+**[Connect Claude to HubSpot](/docs/quick-start/) and run your first deep sales analysis today.**
 
 *Connect Claude for HubSpot  --  Advanced CRM Intelligence & Sales An... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

@@ -141,7 +141,7 @@ Ready to put AI to work on your hubspot ai reporting data?
 
 CorpusIQ's AI Reporting for HubSpot transforms CRM reporting from a technical task into a conversational capability. Your team spends less time building reports and more time acting on the intelligence they contain.
 
-**[Start generating AI-powered HubSpot reports](/get-started)  --  connect your CRM in 60 seconds.**
+**[Start generating AI-powered HubSpot reports](/docs/quick-start/)  --  connect your CRM in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

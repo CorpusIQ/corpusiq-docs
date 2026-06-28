@@ -123,7 +123,7 @@ A: No. AI provides data and analysis to support compliance decisions, but compli
 - [AI for Audit Readiness](/docs/ai-for-audit-readiness/)
 - [AI for Financial Analysis](/docs/ai-for-financial-analysis/)
 - [AI for Document Search](/docs/ai-for-document-search/)
-- [What is MCP?](/docs/what-is-mcp/)
+- [What is MCP?](/docs/what-is-an-mcp-server/)
 
 ---
 

@@ -129,7 +129,7 @@ A: Yes. Team-level access controls determine which connectors each user can quer
 - [Connect Notion to Claude](/docs/connect-notion-to-claude/)
 - [AI for Knowledge Management](/docs/ai-for-knowledge-management/)
 - [AI for Data Analysis](/docs/ai-for-data-analysis/)
-- [What is MCP?](/docs/what-is-mcp/)
+- [What is MCP?](/docs/what-is-an-mcp-server/)
 
 ---
 

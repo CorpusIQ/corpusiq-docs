@@ -121,13 +121,13 @@ A: Yes. Connect Google Analytics (organic data) and Google Ads (paid data) and C
 
 ## Internal Links
 
-- [Connect Google Ads to Claude](/docs/connect-google-ads-to-claude/)
-- [Connect Facebook Ads to Claude](/docs/connect-facebook-ads-to-claude/)
+- [Connect Google Ads to Claude](/connectors/google_ads/)
+- [Connect Facebook Ads to Claude](/connectors/facebook_marketing/)
 - [Connect Google Analytics to Claude](/docs/connect-google-analytics-to-claude/)
-- [Connect Klaviyo to Claude](/docs/connect-klaviyo-to-claude/)
+- [Connect Klaviyo to Claude](/connectors/klaviyo/)
 - [AI for Business Intelligence](/docs/ai-for-business-intelligence/)
 - [AI for Revenue Operations](/docs/ai-for-revenue-operations/)
-- [What is MCP?](/docs/what-is-mcp/)
+- [What is MCP?](/docs/what-is-an-mcp-server/)
 
 ---
 

@@ -127,14 +127,14 @@ Ready to put AI to work on your chatgpt for quickbooks data?
 - [How to Analyze QuickBooks Data with AI](/docs/how-to-analyze-quickbooks-with-ai)
 - [QuickBooks Dashboard with ChatGPT](/docs/quickbooks-dashboard-with-chatgpt)
 - [QuickBooks Business Intelligence Platform](/docs/quickbooks-business-intelligence)
-- [Getting Started with CorpusIQ MCP Platform](/docs/getting-started)
+[Getting Started with CorpusIQ MCP Platform](/docs/quick-start/)
 - [ChatGPT for Shopify: Ecommerce AI Analytics](/docs/chatgpt-for-shopify)
 
 ## Why CorpusIQ for QuickBooks AI Integration?
 
 CorpusIQ is the only MCP platform purpose-built for business data integration. Unlike generic API connectors that require developers to write custom code, CorpusIQ provides pre-built, tested QuickBooks tools that work out of the box with ChatGPT and Claude. Our platform handles authentication, rate limiting, query optimization, and data formatting  --  so you can start asking financial questions in minutes, not weeks.
 
-**Ready to transform your accounting workflow?** [Connect QuickBooks to ChatGPT today](/get-started) and ask your first financial question in under five minutes.
+**Ready to transform your accounting workflow?** [Connect QuickBooks to ChatGPT today](/docs/quick-start/) and ask your first financial question in under five minutes.
 
 *Connect ChatGPT for QuickBooks  --  AI Accounting & Financial Analys... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

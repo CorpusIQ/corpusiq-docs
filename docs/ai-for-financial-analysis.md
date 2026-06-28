@@ -132,7 +132,7 @@ A: Upload spreadsheets and financial models to Google Drive, OneDrive, or ShareP
 - [AI for Forecasting](/docs/ai-for-forecasting/)  --  Predictive finance.
 - [AI for Compliance](/docs/ai-for-compliance/)  --  Financial compliance.
 - [AI for Audit Readiness](/docs/ai-for-audit-readiness/)  --  Audit preparation.
-- [What is MCP?](/docs/what-is-mcp/)  --  MCP explained.
+- [What is MCP?](/docs/what-is-an-mcp-server/)  --  MCP explained.
 
 ---
 

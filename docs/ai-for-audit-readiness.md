@@ -123,7 +123,7 @@ A: All data is pulled from live systems via read-only API connections. Evidence 
 - [AI for Compliance](/docs/ai-for-compliance/)
 - [AI for Financial Analysis](/docs/ai-for-financial-analysis/)
 - [AI for Document Search](/docs/ai-for-document-search/)
-- [What is MCP?](/docs/what-is-mcp/)
+- [What is MCP?](/docs/what-is-an-mcp-server/)
 
 ---
 

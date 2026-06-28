@@ -130,7 +130,7 @@ A: Grant CorpusIQ access only to specific channels by configuring your Slack app
 - [AI for Knowledge Management](/docs/ai-for-knowledge-management/)  --  AI-powered knowledge retrieval.
 - [AI for Document Search](/docs/ai-for-document-search/)  --  Document intelligence.
 - [AI for Customer Support](/docs/ai-for-customer-support/)  --  Support intelligence.
-- [What is MCP?](/docs/what-is-mcp/)  --  Understanding the Model Context Protocol.
+- [What is MCP?](/docs/what-is-an-mcp-server/)  --  Understanding the Model Context Protocol.
 
 ---
 

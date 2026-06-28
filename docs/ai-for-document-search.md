@@ -133,7 +133,7 @@ A: No. Document content is streamed directly from the source system for each que
 - [AI for Compliance](/docs/ai-for-compliance/)
 - [AI for Audit Readiness](/docs/ai-for-audit-readiness/)
 - [AI for Project Management](/docs/ai-for-project-management/)
-- [What is MCP?](/docs/what-is-mcp/)
+- [What is MCP?](/docs/what-is-an-mcp-server/)
 
 ---
 

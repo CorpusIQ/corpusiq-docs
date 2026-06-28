@@ -208,7 +208,7 @@ Ready to unlock AI-powered insights from your CRM data?
 
 Your HubSpot CRM is rich with insights waiting to be surfaced. AI-powered sales analytics makes those insights accessible to everyone on your team  --  no sales ops background, no report-building expertise, no spreadsheet wizardry required.
 
-**[Start your AI-powered sales analytics journey](/get-started). Connect HubSpot in 60 seconds.**
+**[Start your AI-powered sales analytics journey](/docs/quick-start/). Connect HubSpot in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

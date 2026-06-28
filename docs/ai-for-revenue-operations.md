@@ -131,7 +131,7 @@ A: Standard REST APIs are used, so custom CRM objects/fields accessible via API 
 - [AI for Sales Reporting](/docs/ai-for-sales-reporting/)
 - [AI for Marketing Analytics](/docs/ai-for-marketing-analytics/)
 - [AI for Executive Reporting](/docs/ai-for-executive-reporting/)
-- [What is MCP?](/docs/what-is-mcp/)
+- [What is MCP?](/docs/what-is-an-mcp-server/)
 
 ---
 

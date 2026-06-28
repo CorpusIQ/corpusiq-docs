@@ -133,7 +133,7 @@ A: For internal preparation and analysis, yes. External filings and earnings rel
 - [AI for Financial Analysis](/docs/ai-for-financial-analysis/)
 - [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring/)
 - [AI for Forecasting](/docs/ai-for-forecasting/)
-- [What is MCP?](/docs/what-is-mcp/)
+- [What is MCP?](/docs/what-is-an-mcp-server/)
 
 ---
 

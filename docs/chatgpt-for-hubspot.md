@@ -132,7 +132,7 @@ Ready to put AI to work on your chatgpt for hubspot data?
 
 ChatGPT for HubSpot through CorpusIQ transforms how your team interacts with CRM data. No more waiting for reports, building dashboards, or exporting spreadsheets. Just ask, and receive actionable intelligence from your live pipeline and customer data.
 
-**[Connect HubSpot to ChatGPT](/get-started) and ask your first CRM question in under 5 minutes.**
+**[Connect HubSpot to ChatGPT](/docs/quick-start/) and ask your first CRM question in under 5 minutes.**
 
 *Connect ChatGPT for HubSpot  --  AI CRM Analytics & Sales Intelligen... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

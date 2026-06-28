@@ -68,7 +68,7 @@ This skill is critical for CorpusIQ's multi-agent infrastructure:
 ## 6. Related Skills
 
 - [OpenClaw Security Hardening](/hermes/skills/catalog/openclaw-security-hardening-setup/) — Hardening configurations (874 installs)
-- [OpenClaw Security Watchdog](/hermes/skills/catalog/openclaw-security-watchdog-setup/) — Runtime security monitoring (761 installs)
+- [OpenClaw Audit Watchdog](/hermes/skills/catalog/openclaw-audit-watchdog-setup/) — Security auditing and misconfiguration detection (665 installs)
 - [Hermes Flight Recorder](/hermes/skills/catalog/hermes-flight-recorder-setup/) — Agent activity logging
 
 ## 7. Troubleshooting

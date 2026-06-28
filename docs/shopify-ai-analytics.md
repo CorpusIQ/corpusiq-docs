@@ -146,7 +146,7 @@ Ready to put AI to work on your shopify ai analytics data?
 
 CorpusIQ's AI Analytics for Shopify democratizes ecommerce intelligence. You don't need a data analyst, a BI tool, or advanced Excel skills. You just need questions  --  and the AI provides answers.
 
-**[Start analyzing your Shopify data with AI](/get-started)  --  connect your store in 60 seconds.**
+**[Start analyzing your Shopify data with AI](/docs/quick-start/)  --  connect your store in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

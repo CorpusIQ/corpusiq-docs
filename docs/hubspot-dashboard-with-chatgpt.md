@@ -183,7 +183,7 @@ Ready to put AI to work on your hubspot dashboard with chatgpt data?
 
 A ChatGPT-powered HubSpot dashboard is the fastest, most flexible way to monitor your sales organization. No dashboard configuration. No report building. No data exports. Just real-time sales intelligence, on demand.
 
-**[Set up your sales dashboard now](/get-started)  --  connect HubSpot in 60 seconds.**
+**[Set up your sales dashboard now](/docs/quick-start/)  --  connect HubSpot in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

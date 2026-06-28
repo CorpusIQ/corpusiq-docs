@@ -130,7 +130,7 @@ A: AI handles "what" and "how" questions  --  factual knowledge retrieval. It do
 - [AI for Document Search](/docs/ai-for-document-search/)
 - [AI for Customer Support](/docs/ai-for-customer-support/)
 - [AI for Project Management](/docs/ai-for-project-management/)
-- [What is MCP?](/docs/what-is-mcp/)
+- [What is MCP?](/docs/what-is-an-mcp-server/)
 
 ---
 

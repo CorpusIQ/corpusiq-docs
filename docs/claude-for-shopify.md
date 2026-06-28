@@ -133,7 +133,7 @@ Ready to put AI to work on your claude for shopify data?
 
 Claude for Shopify through CorpusIQ brings enterprise-grade analytical depth to ecommerce teams of any size. Whether you're a DTC brand optimizing your product portfolio, an agency analyzing client performance, or an investor evaluating acquisition targets, Claude's deep analytical capabilities  --  paired with your live Shopify data  --  deliver insights that were previously available only to companies with dedicated data science teams.
 
-**[Connect Claude to your Shopify store](/get-started) and run your first deep analysis today.**
+**[Connect Claude to your Shopify store](/docs/quick-start/) and run your first deep analysis today.**
 
 *Connect Claude for Shopify  --  Advanced Ecommerce AI Analysis | Cor... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

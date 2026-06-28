@@ -129,7 +129,7 @@ A: No. All integrations are read-only.
 - [AI for Forecasting](/docs/ai-for-forecasting/)  --  Predictive sales analytics.
 - [AI for Executive Reporting](/docs/ai-for-executive-reporting/)  --  Leadership reporting.
 - [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring/)  --  Real-time metrics.
-- [What is MCP?](/docs/what-is-mcp/)
+- [What is MCP?](/docs/what-is-an-mcp-server/)
 
 ---
 

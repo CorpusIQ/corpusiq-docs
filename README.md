@@ -41,15 +41,15 @@ Everything needed to go from zero to first answer.
 
 | Page | Use Case |
 |------|----------|
-| [Executive Summary](/prompts/executive-summary/) | Multi-source business health overview |
-| [Marketing & ROAS](/prompts/marketing-roas/) | Campaign performance across Google Ads, Meta, LinkedIn |
-| [Ecommerce Ops](/prompts/ecommerce-ops/) | Shopify + Klaviyo + GA4 combined queries |
-| [Revenue & Finance](/prompts/revenue-and-finance/) | QuickBooks P&L, Stripe revenue, overdue invoices |
-| [Customer & CRM](/prompts/customer-and-crm/) | HubSpot pipeline, lead scoring, deal velocity |
-| [Email & SMS](/prompts/email-and-sms/) | Klaviyo campaign performance, list health |
-| [Multi-Source](/prompts/multi-source/) | Cross-source queries combining 2+ connectors |
+| [Executive Summary](/hermes/prompts/executive-summary/) | Multi-source business health overview |
+| [Marketing & ROAS](/hermes/prompts/marketing-roas/) | Campaign performance across Google Ads, Meta, LinkedIn |
+| [Ecommerce Ops](/hermes/prompts/ecommerce-ops/) | Shopify + Klaviyo + GA4 combined queries |
+| [Revenue & Finance](/hermes/prompts/revenue-and-finance/) | QuickBooks P&L, Stripe revenue, overdue invoices |
+| [Customer & CRM](/hermes/prompts/customer-and-crm/) | HubSpot pipeline, lead scoring, deal velocity |
+| [Email & SMS](/hermes/prompts/email-and-sms/) | Klaviyo campaign performance, list health |
+| [Multi-Source](/hermes/prompts/multi-source/) | Cross-source queries combining 2+ connectors |
 
-[Browse all 10 prompt templates →](/prompts/)
+[Browse all 10 prompt templates →](/hermes/prompts/)
 
 ### Recipes
 **Copy-paste workflows** for common business operations.
@@ -150,7 +150,7 @@ Common issues and fixes for CorpusIQ users.
 |----------|--------|
 | How do I get started? | [Quickstart →](/quickstart/) |
 | What connectors are available? | [All 37+ connectors →](/connectors/) |
-| How do I write a good prompt? | [Prompt library →](/prompts/) |
+| How do I write a good prompt? | [Prompt library →](/hermes/prompts/) |
 | How does it work under the hood? | [How It Works →](/how-it-works/) |
 | Can my autonomous agent use this? | [Hermes Community Hub →](/hermes/) |
 | Something's broken. Help? | [Troubleshooting →](/troubleshooting/) |

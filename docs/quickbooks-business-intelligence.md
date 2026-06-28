@@ -166,7 +166,7 @@ Ready to put AI to work on your quickbooks business intelligence data?
 
 QuickBooks is where your financial truth lives. CorpusIQ Business Intelligence makes that truth accessible, contextual, and actionable  --  by connecting it to every other system that drives your business. The result is not just better accounting. It's better decision-making.
 
-**[Transform QuickBooks into your BI platform](/get-started). Connect your sources and ask your first cross-system question in under 5 minutes.**
+**[Transform QuickBooks into your BI platform](/docs/quick-start/). Connect your sources and ask your first cross-system question in under 5 minutes.**
 
 ---
 *AI-powered QuickBooks Business Intelligence  --  AI-Powered BI Platform...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*

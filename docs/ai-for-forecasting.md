@@ -123,7 +123,7 @@ A: With AI, continuous forecasting becomes practical. Many organizations benefit
 - [AI for Revenue Operations](/docs/ai-for-revenue-operations/)
 - [AI for Executive Reporting](/docs/ai-for-executive-reporting/)
 - [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring/)
-- [What is MCP?](/docs/what-is-mcp/)
+- [What is MCP?](/docs/what-is-an-mcp-server/)
 
 ---
 

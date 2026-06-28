@@ -204,7 +204,7 @@ Ready to transform your Shopify order data into revenue intelligence?
 
 Your Shopify store generates the data. AI-powered sales analysis turns it into revenue intelligence. Stop exporting CSV files and building pivot tables. Start asking questions and getting answers.
 
-**[Begin your AI-powered sales analysis](/get-started)  --  connect Shopify in 60 seconds.**
+**[Begin your AI-powered sales analysis](/docs/quick-start/)  --  connect Shopify in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 
