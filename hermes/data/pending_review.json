@@ -9640,5 +9640,402 @@
     ],
     "discovered_at": "2026-06-27T08:02:03.991660+00:00",
     "status": "pending"
+  },
+  {
+    "name": "shint-mcguff/agent-pulse",
+    "url": "https://github.com/shint-mcguff/agent-pulse",
+    "description": "macOS menu bar app for monitoring Claude Code agents (launchd + Hermes)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "updated_at": "2026-06-28T05:02:34Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-28T05:02:47.165777+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mcdl1818-star/hermes-agent",
+    "url": "https://github.com/mcdl1818-star/hermes-agent",
+    "description": "Personal AI assistant via Telegram",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-06-28T05:02:14Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-06-28T05:02:50.167713+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "brentmwarner/hermes-fetch-plugins",
+    "url": "https://github.com/brentmwarner/hermes-fetch-plugins",
+    "description": "Public Hermes Agent plugins for Fetch iOS notifications and inbox delivery",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-28T05:01:37Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Guoen0/xiaoduiyou-public"
+    ],
+    "discovered_at": "2026-06-28T05:02:53.169840+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kentaro/shiraharino.com",
+    "url": "https://github.com/kentaro/shiraharino.com",
+    "description": "Hermes Agent public diary built with TypeScript, Tailwind, and GitHub Pages",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-28T05:01:25Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-28T05:02:56.171948+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Hawaiine/hermes-config-expert",
+    "url": "https://github.com/Hawaiine/hermes-config-expert",
+    "description": "Hermes Agent \u914d\u7f6e\u4e13\u5bb6 System Prompt \u2014 \u4e25\u683c\u3001\u53ef\u9a8c\u8bc1\u3001\u53ef\u56de\u6eda\u7684\u914d\u7f6e\u5de5\u4f5c\u6d41",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-06-28T04:58:59Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-28T05:02:59.174016+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Pythoughts-labs/hermes-ui",
+    "url": "https://github.com/Pythoughts-labs/hermes-ui",
+    "description": "Self-hosted control plane for Hermes Agent \u2014 chat, profiles, providers, models, skills, automation, and logs in one local dashboard. Ships as a desktop app, an npm CLI, and a Docker image.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "ai-agent",
+      "chat-ui",
+      "control-plane",
+      "dashboard",
+      "docker",
+      "electron",
+      "hermes-agent",
+      "koa",
+      "llm",
+      "local-first",
+      "mcp",
+      "openrouter",
+      "self-hosted",
+      "typescript",
+      "vue"
+    ],
+    "updated_at": "2026-06-28T04:58:15Z",
+    "category": "core",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "1Panel-dev/1Panel",
+      "outsourc-e/hermes-workspace",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "mlennie/hermes-mcp",
+      "aiunlocked1412/hermes-agent-pixel"
+    ],
+    "discovered_at": "2026-06-28T05:03:02.176709+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "WOOWTECH/woow_hermes_mcp_server",
+    "url": "https://github.com/WOOWTECH/woow_hermes_mcp_server",
+    "description": "WoowTech Hermes MCP Admin \u2014 FastMCP wrapper for Claude app to control Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-06-28T04:56:43Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/shellward",
+      "mlennie/hermes-mcp",
+      "megberts/mcp-hermes-integration",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-06-28T05:03:05.178889+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "2001Y/codex-dynamicflow",
+    "url": "https://github.com/2001Y/codex-dynamicflow",
+    "description": "Codex CLI dynamic workflow runner with phases, model/reasoning routing, worktrees, and Hermes MCP access",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-28T04:22:48Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-28T05:03:09.122635+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "solomonneas/reelgrep-mcp",
+    "url": "https://github.com/solomonneas/reelgrep-mcp",
+    "description": "MCP server for reelgrep - browse and search your local video library from any MCP client (Claude Desktop, Claude Code, OpenClaw, Hermes, Codex CLI).",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "subtitles",
+      "typescript",
+      "video-search",
+      "whisper"
+    ],
+    "updated_at": "2026-06-28T02:01:35Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "yoloshii/ClawMem",
+      "KSroido/Kagi-Session2API-MCP",
+      "ruvnet/agent-harness-generator",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "ksimback/hermes-atlas-mcp",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine"
+    ],
+    "discovered_at": "2026-06-28T05:03:12.125906+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "patoko92/foundry-mcp-patoko",
+    "url": "https://github.com/patoko92/foundry-mcp-patoko",
+    "description": "Custom MCP server for Foundry VTT \u2014 built for Patoko infrastructure. Bridges Hermes AI assistant to Foundry VTT via WebSocket + MCP protocol.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-28T00:03:56Z",
+    "category": "mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "yoloshii/ClawMem",
+      "jnMetaCode/shellward",
+      "unmodeled-tyler/vessel-browser",
+      "megberts/mcp-hermes-integration"
+    ],
+    "discovered_at": "2026-06-28T05:03:15.128963+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "vLoon-jpg/hermes-mcp-whatsapp",
+    "url": "https://github.com/vLoon-jpg/hermes-mcp-whatsapp",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-27T20:15:51Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-28T05:03:18.129655+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sofiane8910/onepilot-hermes-skills",
+    "url": "https://github.com/sofiane8910/onepilot-hermes-skills",
+    "description": "Hermes plugin: skill discovery surface for the Onepilot iOS app",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-27T17:27:40Z",
+    "category": "skills",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-28T05:03:22.031532+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "taoj1114/hermes-agent-features",
+    "url": "https://github.com/taoj1114/hermes-agent-features",
+    "description": "Hermes Agent features overview: installed tools, skills, MCP, plugins, configuration, and capabilities",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-06-27T09:01:04Z",
+    "category": "skills",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "SamurAIGPT/awesome-hermes-agent",
+      "ksimback/hermes-atlas-mcp"
+    ],
+    "discovered_at": "2026-06-28T05:03:25.034558+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Torulose-formula909/hermes-browser-extension",
+    "url": "https://github.com/Torulose-formula909/hermes-browser-extension",
+    "description": "Connect web browser context to your Hermes Agent runtime using this side panel extension for local and remote API integration.",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agent",
+      "browser-extension",
+      "chrome-extension",
+      "chromium-extension",
+      "edge-extension",
+      "hermes-agent",
+      "hermes-plugin",
+      "local-first",
+      "nous-research",
+      "playwright",
+      "sidepanel"
+    ],
+    "updated_at": "2026-06-28T03:26:53Z",
+    "category": "integrations",
+    "score": 63,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "CYC2002tommy/Deep-Research-Agent",
+      "mlennie/hermes-mcp",
+      "JackTheGit/hermes-autonomous-server",
+      "smfworks/smf-notebooklm-video-pipeline",
+      "megberts/mcp-hermes-integration",
+      "kaankacar/stellar-agent-kit",
+      "zakahadi/llm-eval-cli",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-06-28T05:03:29.727802+00:00",
+    "status": "pending"
   }
 ]

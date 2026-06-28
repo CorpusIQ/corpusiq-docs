@@ -2377,5 +2377,103 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-27T08:02:11.862645+00:00"
+  },
+  {
+    "repo": "shint-mcguff/agent-pulse",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T05:03:38.497217+00:00"
+  },
+  {
+    "repo": "mcdl1818-star/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T05:03:38.497232+00:00"
+  },
+  {
+    "repo": "brentmwarner/hermes-fetch-plugins",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T05:03:38.497235+00:00"
+  },
+  {
+    "repo": "kentaro/shiraharino.com",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T05:03:38.497237+00:00"
+  },
+  {
+    "repo": "Hawaiine/hermes-config-expert",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T05:03:38.497239+00:00"
+  },
+  {
+    "repo": "Pythoughts-labs/hermes-ui",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T05:03:38.497241+00:00"
+  },
+  {
+    "repo": "WOOWTECH/woow_hermes_mcp_server",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T05:03:38.497243+00:00"
+  },
+  {
+    "repo": "2001Y/codex-dynamicflow",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T05:03:38.497245+00:00"
+  },
+  {
+    "repo": "solomonneas/reelgrep-mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T05:03:38.497247+00:00"
+  },
+  {
+    "repo": "patoko92/foundry-mcp-patoko",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T05:03:38.497248+00:00"
+  },
+  {
+    "repo": "vLoon-jpg/hermes-mcp-whatsapp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T05:03:38.497250+00:00"
+  },
+  {
+    "repo": "sofiane8910/onepilot-hermes-skills",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T05:03:38.497252+00:00"
+  },
+  {
+    "repo": "taoj1114/hermes-agent-features",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T05:03:38.497253+00:00"
+  },
+  {
+    "repo": "Torulose-formula909/hermes-browser-extension",
+    "score": 63,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-28T05:03:38.497255+00:00"
   }
 ]
