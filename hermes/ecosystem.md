@@ -5,9 +5,9 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 # Hermes Ecosystem  --  Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 441+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 442+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** June 27, 2026 · **Repos indexed:** 441+ · **Categories:** 18
+> **Last updated:** June 28, 2026 · **Repos indexed:** 442+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -31,7 +31,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 441+ re
 | [Security & Governance](#-security--governance) | 5 | [↓](#-security--governance) |
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
 | [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
-| [Platform-Specific](#-platform-specific) | 10 | [↓](#-platform-specific) |
+| [Platform-Specific](#-platform-specific) | 11 | [↓](#-platform-specific) |
 | [Domain Applications](#-domain-applications) | 22 | [↓](#-domain-applications) |
 | [Forks & Derivatives](#-forks--derivatives) | 7 | [↓](#-forks--derivatives) |
 | [Guides](#-guides) | 2 | [↓](#-guides) |
@@ -3499,6 +3499,7 @@ Chinese, Japanese, Korean, and other language-specific Hermes resources.
 | [jnMetaCode/superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) | 5,450 | AI coding superpowers, Chinese edition |
 | [AlexAnys/awesome-openclaw-usecases-zh](https://github.com/AlexAnys/awesome-openclaw-usecases-zh) | 4,324 | 50+ OpenClaw use cases in Chinese |
 | [qingchencloud/clawpanel](https://github.com/qingchencloud/clawpanel) | 2,842 | Multi-engine management panel |
+| [Eynzof/Hermes-CN-Desktop](https://github.com/Eynzof/Hermes-CN-Desktop) | 617 | Windows-First desktop app built with Tauri + Rust |
 | [longyunfeigu/learn-hermes-agent](https://github.com/longyunfeigu/learn-hermes-agent) | 153 | 27-chapter hands-on tutorial |
 | [jefferyjob/awesome-hermes-agent-zh](https://github.com/jefferyjob/awesome-hermes-agent-zh) | 55 | Chinese awesome list |
 | [zcweah1981/awesome-hermes-agent-zh](https://github.com/zcweah1981/awesome-hermes-agent-zh) | 25 | Chinese portal + solution packs |
