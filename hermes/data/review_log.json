@@ -2818,5 +2818,47 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-29T07:01:38.207908+00:00"
+  },
+  {
+    "repo": "hansai-art/hermes-agent-school",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T08:04:19.019691+00:00"
+  },
+  {
+    "repo": "conanxin/hermes-knowledge-base",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T08:04:19.019707+00:00"
+  },
+  {
+    "repo": "3unshine/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T08:04:19.019709+00:00"
+  },
+  {
+    "repo": "sk-holmes/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T08:04:19.019711+00:00"
+  },
+  {
+    "repo": "infocentr/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T08:04:19.019713+00:00"
+  },
+  {
+    "repo": "biexiaofeeng-boop/hermes-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T08:04:19.019714+00:00"
   }
 ]
