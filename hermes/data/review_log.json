@@ -2741,5 +2741,82 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-06-29T05:04:57.880246+00:00"
+  },
+  {
+    "repo": "bot-ted/hermes-agent-image",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T07:01:38.207875+00:00"
+  },
+  {
+    "repo": "freeluyishisan/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T07:01:38.207890+00:00"
+  },
+  {
+    "repo": "SpaceX-mit/hermes-agent-handbook",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T07:01:38.207892+00:00"
+  },
+  {
+    "repo": "Sin10874/goalkeeper",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T07:01:38.207894+00:00"
+  },
+  {
+    "repo": "100yenadmin/Lossless-Codex-Orchestrator-LCO",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T07:01:38.207896+00:00"
+  },
+  {
+    "repo": "divnjl2/nexus-athena",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T07:01:38.207898+00:00"
+  },
+  {
+    "repo": "Alucardzh/TradingAgentsAstockMcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T07:01:38.207900+00:00"
+  },
+  {
+    "repo": "internetyev/cross-agent-memory-kit",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T07:01:38.207901+00:00"
+  },
+  {
+    "repo": "CodeSigils/agents-markdown-formatter",
+    "score": 38,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T07:01:38.207903+00:00"
+  },
+  {
+    "repo": "Rxchan0756/hermes-np-agent",
+    "score": 38,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T07:01:38.207907+00:00"
+  },
+  {
+    "repo": "phuongvm/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T07:01:38.207908+00:00"
   }
 ]

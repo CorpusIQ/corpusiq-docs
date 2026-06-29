@@ -10964,5 +10964,311 @@
     ],
     "discovered_at": "2026-06-29T05:04:52.725858+00:00",
     "status": "pending"
+  },
+  {
+    "name": "bot-ted/hermes-agent-image",
+    "url": "https://github.com/bot-ted/hermes-agent-image",
+    "description": "Derived Hermes Agent Docker image with pre-installed tools (gh, bw, himalaya, jq)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-29T07:00:12Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-29T07:00:57.443655+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "freeluyishisan/hermes-agent",
+    "url": "https://github.com/freeluyishisan/hermes-agent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-29T06:59:41Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-06-29T07:01:00.444860+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SpaceX-mit/hermes-agent-handbook",
+    "url": "https://github.com/SpaceX-mit/hermes-agent-handbook",
+    "description": "hermes-agent-handbook",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-29T06:59:41Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-29T07:01:03.448187+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Sin10874/goalkeeper",
+    "url": "https://github.com/Sin10874/goalkeeper",
+    "description": "\u8ba9\u4efb\u610f coding agent \u4e0d\u8fbe\u76ee\u7684\u4e0d\u505c\u624b \u00b7 goal mode for any coding agent (Claude Code/Kimi/Kiro/opencode/pi/openclaw/hermes/ZCode)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-06-29T06:59:35Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-29T07:01:06.451457+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "100yenadmin/Lossless-Codex-Orchestrator-LCO",
+    "url": "https://github.com/100yenadmin/Lossless-Codex-Orchestrator-LCO",
+    "description": "Control Codex Desktop/Claude Code remotely via your OpenClaw/Hermes agent. Collaborate and manage threads via your orchestrator agent when you are on your computer in the same sessions or remote. Does not require but plugs into Lossless Context Management (LCM).",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "ai-agents",
+      "codex",
+      "lcm",
+      "lossless",
+      "lossless-codex",
+      "openclaw",
+      "orchestrator"
+    ],
+    "updated_at": "2026-06-29T06:59:15Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "1Panel-dev/1Panel",
+      "codejunkie99/agentic-stack",
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-06-29T07:01:09.455035+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "divnjl2/nexus-athena",
+    "url": "https://github.com/divnjl2/nexus-athena",
+    "description": "Athena \u2014 Hermes-friendly planner: CRISP + Spec-Kit + Beads (3-layer) -> deterministic bd task-graph. Claude Code plugin + MCP server.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-29T06:39:36Z",
+    "category": "mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-29T07:01:13.232464+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Alucardzh/TradingAgentsAstockMcp",
+    "url": "https://github.com/Alucardzh/TradingAgentsAstockMcp",
+    "description": "A\u80a1\uff08\u6caa\u6df1\u4eac\uff09\u884c\u60c5\u6570\u636e MCP \u670d\u52a1\u5668\uff0c\u63d0\u4f9b 18 \u4e2a\u5de5\u5177\u8986\u76d6 K \u7ebf\u884c\u60c5\u3001\u6280\u672f\u6307\u6807\u3001\u8d22\u52a1\u62a5\u8868\u3001\u65b0\u95fb\u8d44\u8baf\u3001\u8d44\u91d1\u6d41\u5411\u3001\u9f99\u864e\u699c\u3001\u5317\u5411\u8d44\u91d1\u3001\u677f\u5757\u6392\u540d\u7b49\u5168\u573a\u666f\uff0c\u652f\u6301 Claude Code / OpenClaw / Hermes \u7b49 AI \u4ee3\u7406\u4e00\u952e\u63a5\u5165\u3002\u591a\u6570\u636e\u6e90\u81ea\u52a8\u964d\u7ea7\uff0c\u5185\u7f6e\u9632\u5c01\u9650\u901f\u4e0e\u672c\u5730\u7f13\u5b58\u3002",
+    "stars": 0,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-29T06:25:37Z",
+    "category": "mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/superpowers-zh",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-06-29T07:01:16.235449+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "internetyev/cross-agent-memory-kit",
+    "url": "https://github.com/internetyev/cross-agent-memory-kit",
+    "description": "Persistent, self-updating memory for AI coding agents (Claude Code, Codex, Cursor, Gemini, Kiro, Hermes). Built on mcp-memory-service: a post-session distillation hook, a retrieval skill, optional Cloudflare multi-device sync, multi-user mode (private + shared memory on one shared account), and an interactive install wizard.",
+    "stars": 5,
+    "forks": 2,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "cloudflare",
+      "codex",
+      "cursor",
+      "llm",
+      "mcp",
+      "memory"
+    ],
+    "updated_at": "2026-06-29T06:09:23Z",
+    "category": "mcp",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "MervinPraison/PraisonAI",
+      "EverMind-AI/EverOS",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "yoloshii/ClawMem",
+      "ruvnet/agent-harness-generator",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine"
+    ],
+    "discovered_at": "2026-06-29T07:01:19.239151+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "CodeSigils/agents-markdown-formatter",
+    "url": "https://github.com/CodeSigils/agents-markdown-formatter",
+    "description": "AI-agent-safe GFM/MDX Markdown formatter powered by Oxc oxfmt with structural guards",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agents",
+      "developer-tools",
+      "documentation",
+      "formatter",
+      "gfm",
+      "hermes-agent",
+      "markdown",
+      "mdx",
+      "oxc",
+      "oxfmt"
+    ],
+    "updated_at": "2026-06-29T07:01:15Z",
+    "category": "forks",
+    "score": 38,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-29T07:01:23.701160+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Rxchan0756/hermes-np-agent",
+    "url": "https://github.com/Rxchan0756/hermes-np-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-17T02:58:27Z",
+    "category": "forks",
+    "score": 38,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_month",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent"
+    ],
+    "discovered_at": "2026-06-29T07:01:26.704223+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "phuongvm/hermes-agent",
+    "url": "https://github.com/phuongvm/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-29T07:00:51Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-06-29T07:01:29.707058+00:00",
+    "status": "pending"
   }
 ]
