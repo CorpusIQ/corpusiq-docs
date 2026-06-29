@@ -45,7 +45,7 @@ Workspaces and their metadata. Boards with columns, groups, and structure. Items
 <details>
 <summary><strong>Can ChatGPT combine Monday.com data with other tools?</strong></summary>
 
-Yes. "Show me all Monday.com tasks for HubSpot deals closing this month" combines work management with CRM data. "Which overdue Monday.com tasks are associated with customers who have open support emails in Gmail?" spans work management, CRM, and email. Cross-source context is the hallmark of [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md).
+Yes. "Show me all Monday.com tasks for HubSpot deals closing this month" combines work management with CRM data. "Which overdue Monday.com tasks are associated with customers who have open support emails in Gmail?" spans work management, CRM, and email. Cross-source context is the hallmark of [MCP platforms like CorpusIQ](benefits-of-mcp-for-business).
 </details>
 
 <details>
@@ -153,7 +153,7 @@ Direct API integration is appropriate for building custom Monday.com apps, autom
 
 1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
 2. **Connect Monday.com.** Dashboard → Connections → Monday.com → sign in → authorize read-only access.
-3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](../docs/quick-start.md).
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](quick-start).
 4. **Verify.** Ask "What boards do I have access to in Monday.com?" to confirm.
 5. **Explore.** Try "Show me my open tasks across all boards" or "What's due this week?"
 
@@ -161,16 +161,16 @@ Setup takes under 5 minutes. No API keys to manage. No GraphQL to write.
 
 ## Related Pages
 
-- [Connect Asana to ChatGPT](../docs/connect-asana-to-chatgpt.md)  --  alternative work management in ChatGPT
-- [Connect Jira to ChatGPT](../docs/connect-jira-to-chatgpt.md)  --  software development tracking in ChatGPT
-- [Connect Notion to ChatGPT](../docs/connect-notion-to-chatgpt.md)  --  documentation and wiki in ChatGPT
-- [Connect Slack to ChatGPT](../docs/connect-slack-to-chatgpt.md)  --  team communication in ChatGPT
-- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP wins
-- [MCP for Operations](../docs/mcp-for-operations.md)  --  MCP for ops teams
-- [Monday.com Connector Reference](../connectors/monday.md)  --  technical details
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
+- [Connect Asana to ChatGPT](connect-asana-to-chatgpt)  --  alternative work management in ChatGPT
+- [Connect Jira to ChatGPT](connect-jira-to-chatgpt)  --  software development tracking in ChatGPT
+- [Connect Notion to ChatGPT](connect-notion-to-chatgpt)  --  documentation and wiki in ChatGPT
+- [Connect Slack to ChatGPT](connect-slack-to-chatgpt)  --  team communication in ChatGPT
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt)  --  CRM data in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration)  --  the full integration
+- [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
+- [MCP for Operations](mcp-for-operations)  --  MCP for ops teams
+- [Monday.com Connector Reference](connect-monday-com-to-chatgpt)  --  technical details
+- [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
 
 *Connect Connect Monday.com to ChatGPT via MCP  --  Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

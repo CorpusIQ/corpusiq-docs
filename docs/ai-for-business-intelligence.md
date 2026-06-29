@@ -8,7 +8,7 @@ h1: 'AI for Business Intelligence: From Dashboards to Conversations'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/ai-for-business-intelligence/
+canonical: https://www.corpusiq.io/docs/ai-for-business-intelligence/
 keywords:
 - AI for business intelligence
 - business intelligence AI automation
@@ -156,7 +156,7 @@ A: Yes. CorpusIQ's metric specs let you define canonical calculations (MRR, CAC,
 
 ---
 
-**Next steps:** [Start your AI-powered BI journey →](https://app.corpusiq.com/signup) or [view all integrations](/connectors/)
+**Next steps:** [Start your AI-powered BI journey →](https://corpusiq.io/register) or [view all integrations](connectors)
 
 *AI-powered AI for Business Intelligence | CorpusIQ MCP Platform for ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 

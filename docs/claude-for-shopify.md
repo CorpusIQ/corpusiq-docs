@@ -18,7 +18,7 @@ keywords:
 last_updated: '2026-06-16'
 category: Shopify
 cluster: 6
-canonical_url: https://corpusiq.com/docs/claude-for-shopify
+canonical_url: https://www.corpusiq.io/docs/claude-for-shopify
 ---
 
 # Claude for Shopify: Deep Ecommerce Intelligence with Anthropic's AI
@@ -112,12 +112,12 @@ Yes. CorpusIQ exposes the same Shopify tools to both models. Configure both as M
 
 Ready to put AI to work on your claude for shopify data? 
 
-1. **Sign up** for a [CorpusIQ account](https://app.corpusiq.com/signup)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://app.corpusiq.com/signup)**
+**[Get started now →](https://corpusiq.io/register)**
 
 ## Internal Links
 

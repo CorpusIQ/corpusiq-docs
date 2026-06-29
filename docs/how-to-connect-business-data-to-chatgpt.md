@@ -21,7 +21,7 @@ CorpusIQ bridges this gap using the **Model Context Protocol (MCP)**  --  an ope
 
 ## What You'll Need
 
-- A **CorpusIQ account** (free tier available at corpusiq.com)
+- A **CorpusIQ account** (free tier available at corpusiq.io)
 - Access to your business data sources (HubSpot, QuickBooks, Stripe, etc.)
 - A ChatGPT subscription that supports MCP (ChatGPT Plus, Team, or Enterprise with MCP enabled)
 
@@ -29,7 +29,7 @@ CorpusIQ bridges this gap using the **Model Context Protocol (MCP)**  --  an ope
 
 ### Step 1: Create Your CorpusIQ Account
 
-1. Go to [corpusiq.com](https://corpusiq.com) and click **Sign Up**
+1. Go to [corpusiq.io](https://corpusiq.io) and click **Sign Up**
 2. Create an account with your work email
 3. Verify your email address
 4. Log in to your CorpusIQ dashboard

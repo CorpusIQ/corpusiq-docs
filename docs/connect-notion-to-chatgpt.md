@@ -100,7 +100,7 @@ No manual page navigation. No database filter building. Knowledge retrieval beco
 
 **Database-powered Q&A.** "Show me all active projects with a deadline this quarter" or "List all open positions with their hiring manager"  --  your Notion databases become queryable by natural language, not just by building database views.
 
-**Business-connected knowledge.** "Show me the project brief for the HubSpot deal with Acme Corp" or "What's our documentation say about the integration that the Stripe team is asking about?" Notion knowledge connected to CRM and payment data provides richer context than isolated documentation. This cross-source capability is unique to [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md).
+**Business-connected knowledge.** "Show me the project brief for the HubSpot deal with Acme Corp" or "What's our documentation say about the integration that the Stripe team is asking about?" Notion knowledge connected to CRM and payment data provides richer context than isolated documentation. This cross-source capability is unique to [MCP platforms like CorpusIQ](benefits-of-mcp-for-business).
 
 **Accelerated onboarding.** New hires can ask ChatGPT about company policies, project documentation, and team processes  --  getting answers from Notion without knowing which pages to look at or how the workspace is organized.
 
@@ -157,22 +157,22 @@ Notion's built-in search is excellent for navigating a known workspace. MCP with
 2. **Share pages.** For each page/database → Share → invite the integration.
 3. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
 4. **Connect Notion.** Dashboard → Connections → Notion → paste integration token.
-5. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](../docs/quick-start.md).
+5. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](quick-start).
 6. **Verify.** Ask "Search my Notion workspace for onboarding documentation."
 7. **Explore.** Try "What databases do I have in Notion?" or "Find all pages about [topic]."
 
 ## Related Pages
 
-- [Connect SharePoint to ChatGPT](../docs/connect-sharepoint-to-chatgpt.md)  --  Microsoft intranet in ChatGPT
+- [Connect SharePoint to ChatGPT](connect-sharepoint-to-chatgpt)  --  Microsoft intranet in ChatGPT
 - [Connect Google Drive to ChatGPT](https://www.corpusiq.io/docs)  --  file storage data (available via CorpusIQ MCP)
-- [Connect Slack to ChatGPT](../docs/connect-slack-to-chatgpt.md)  --  team communication in ChatGPT
-- [Connect Asana to ChatGPT](../docs/connect-asana-to-chatgpt.md)  --  project management in ChatGPT
-- [Connect Monday.com to ChatGPT](../docs/connect-monday-com-to-chatgpt.md)  --  work management in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP wins
-- [MCP for Operations](../docs/mcp-for-operations.md)  --  MCP for ops teams
-- [Notion Connector Reference](../connectors/notion.md)  --  technical details
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
+- [Connect Slack to ChatGPT](connect-slack-to-chatgpt)  --  team communication in ChatGPT
+- [Connect Asana to ChatGPT](connect-asana-to-chatgpt)  --  project management in ChatGPT
+- [Connect Monday.com to ChatGPT](connect-monday-com-to-chatgpt)  --  work management in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration)  --  the full integration
+- [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
+- [MCP for Operations](mcp-for-operations)  --  MCP for ops teams
+- [Notion Connector Reference](connect-notion-to-chatgpt)  --  technical details
+- [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
 
 *Connect Connect Notion to ChatGPT via MCP  --  Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

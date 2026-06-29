@@ -39,7 +39,7 @@ Yes, entirely read-only. CorpusIQ requests read-only OAuth scopes from Intuit. C
 <details>
 <summary><strong>Does this work with QuickBooks Desktop?</strong></summary>
 
-No. CorpusIQ connects to QuickBooks Online (QBO) only. QuickBooks Desktop does not expose the API endpoints required for MCP integration. If you're on QuickBooks Desktop, consider migrating to QuickBooks Online  --  or see our [QuickBooks connector reference](../connectors/quickbooks.md) for the full compatibility list.
+No. CorpusIQ connects to QuickBooks Online (QBO) only. QuickBooks Desktop does not expose the API endpoints required for MCP integration. If you're on QuickBooks Desktop, consider migrating to QuickBooks Online  --  or see our [QuickBooks connector reference](connect-quickbooks-to-chatgpt) for the full compatibility list.
 </details>
 
 <details>
@@ -63,7 +63,7 @@ CorpusIQ queries QuickBooks through the live API. When you ask a question, the a
 <details>
 <summary><strong>Can I compare QuickBooks data with data from other tools?</strong></summary>
 
-Yes  --  this is one of MCP's strongest capabilities. "Does our Shopify revenue match what QuickBooks shows for the same period?" queries both platforms simultaneously. "Show me Stripe payouts that haven't been reconciled in QuickBooks" is a single cross-source question. See our [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md) for more on cross-source analytics.
+Yes  --  this is one of MCP's strongest capabilities. "Does our Shopify revenue match what QuickBooks shows for the same period?" queries both platforms simultaneously. "Show me Stripe payouts that haven't been reconciled in QuickBooks" is a single cross-source question. See our [Benefits of MCP for Business](benefits-of-mcp-for-business) for more on cross-source analytics.
 </details>
 
 <details>
@@ -75,7 +75,7 @@ CorpusIQ retrieves data in your QuickBooks home currency by default. If your Qui
 <details>
 <summary><strong>Is this SOC 2 compliant?</strong></summary>
 
-CorpusIQ's security architecture is designed for compliance with SOC 2, GDPR, and other frameworks. All data is encrypted in transit (TLS 1.3), OAuth 2.0 authentication is used throughout, and no financial data is persisted after a query completes. See our [security documentation](../docs/security/README.md) for the full compliance details.
+CorpusIQ's security architecture is designed for compliance with SOC 2, GDPR, and other frameworks. All data is encrypted in transit (TLS 1.3), OAuth 2.0 authentication is used throughout, and no financial data is persisted after a query completes. See our [security documentation](security/index) for the full compliance details.
 </details>
 
 <details>
@@ -106,7 +106,7 @@ The key architectural insight: your QuickBooks data never leaves Intuit's infras
 
 **Real-time cash management.** Daily cash position questions become trivial. "What's our current cash across all bank accounts?" "Show me payments received today." No login required, just ask ChatGPT.
 
-**Cross-source reconciliation.** Match QuickBooks data against Stripe payouts, Shopify orders, and bank transactions. The [multi-source MCP architecture](../docs/benefits-of-mcp-for-business.md) makes reconciliation a conversational task instead of a spreadsheet marathon.
+**Cross-source reconciliation.** Match QuickBooks data against Stripe payouts, Shopify orders, and bank transactions. The [multi-source MCP architecture](benefits-of-mcp-for-business) makes reconciliation a conversational task instead of a spreadsheet marathon.
 
 **Audit-ready provenance.** Every answer includes a source citation  --  which connector, which query, and when. If your auditor asks where a number came from, you have a traceable path back to the source.
 
@@ -161,7 +161,7 @@ The direct API approach is appropriate when you need write operations  --  creat
 
 1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial with full QuickBooks access.
 2. **Connect QuickBooks.** Dashboard → Connections → QuickBooks → sign into Intuit → select company file → authorize.
-3. **Connect ChatGPT.** Add the CorpusIQ MCP server to ChatGPT. See our [Quick Start guide](../docs/quick-start.md) for step-by-step instructions.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server to ChatGPT. See our [Quick Start guide](quick-start) for step-by-step instructions.
 4. **Verify.** Ask "What's my company name per QuickBooks?"  --  the answer confirms you're connected to the right company file.
 5. **Explore.** Try "Show me this month's P&L" or "List my overdue invoices."
 
@@ -169,16 +169,16 @@ Setup takes under 5 minutes. No code. No CSV exports. No data warehouse configur
 
 ## Related Pages
 
-- [Connect Shopify to ChatGPT](../docs/connect-shopify-to-chatgpt.md)  --  ecommerce data in ChatGPT
-- [Connect Stripe to ChatGPT](../docs/connect-stripe-to-chatgpt.md)  --  payment data in ChatGPT
-- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT
-- [Connect NetSuite to ChatGPT](../docs/connect-netsuite-to-chatgpt.md)  --  enterprise ERP data in ChatGPT
-- [Connect Google Analytics to ChatGPT](../docs/connect-google-analytics-to-chatgpt.md)  --  web analytics in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  how the full integration works
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP is the right architecture
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
-- [QuickBooks Connector Reference](../connectors/quickbooks.md)  --  technical connector details
-- [MCP for Finance](../docs/mcp-for-finance.md)  --  MCP for finance teams
+- [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt)  --  ecommerce data in ChatGPT
+- [Connect Stripe to ChatGPT](connect-stripe-to-chatgpt)  --  payment data in ChatGPT
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt)  --  CRM data in ChatGPT
+- [Connect NetSuite to ChatGPT](connect-netsuite-to-chatgpt)  --  enterprise ERP data in ChatGPT
+- [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt)  --  web analytics in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration)  --  how the full integration works
+- [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP is the right architecture
+- [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
+- [QuickBooks Connector Reference](connect-quickbooks-to-chatgpt)  --  technical connector details
+- [MCP for Finance](mcp-for-finance)  --  MCP for finance teams
 
 *Connect Connect QuickBooks to ChatGPT via MCP  --  Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

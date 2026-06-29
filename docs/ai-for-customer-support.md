@@ -7,7 +7,7 @@ h1: 'AI for Customer Support: Smarter, Faster Customer Intelligence'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/ai-for-customer-support/
+canonical: https://www.corpusiq.io/docs/ai-for-customer-support/
 keywords:
 - AI for customer support
 - customer support AI automation
@@ -133,7 +133,7 @@ A: Yes. Team-level access controls determine which connectors each user can quer
 
 ---
 
-**Next steps:** [Transform your support operations →](https://app.corpusiq.com/signup)
+**Next steps:** [Transform your support operations →](https://corpusiq.io/register)
 
 *AI-powered AI for Customer Support | CorpusIQ MCP Platform for Suppo...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 

@@ -8,7 +8,7 @@ h1: 'AI for Forecasting: Predictive Intelligence from Live Data'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/ai-for-forecasting/
+canonical: https://www.corpusiq.io/docs/ai-for-forecasting/
 keywords:
 - AI for forecasting
 - forecasting AI automation
@@ -127,7 +127,7 @@ A: With AI, continuous forecasting becomes practical. Many organizations benefit
 
 ---
 
-**Next steps:** [Start AI-powered forecasting →](https://app.corpusiq.com/signup)
+**Next steps:** [Start AI-powered forecasting →](https://corpusiq.io/register)
 
 *AI-powered AI for Forecasting | CorpusIQ MCP Platform for Predictive...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 

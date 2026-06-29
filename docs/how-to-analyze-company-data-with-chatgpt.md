@@ -31,7 +31,7 @@ CorpusIQ connects ChatGPT to your live business data through the MCP protocol. I
 
 ### Step 1: Set Up Your CorpusIQ-to-ChatGPT Connection
 
-1. Create a CorpusIQ account at [corpusiq.com](https://corpusiq.com)
+1. Create a CorpusIQ account at [corpusiq.io](https://corpusiq.io)
 2. Connect your data sources: HubSpot, QuickBooks, Stripe, GA4, etc.
 3. Copy your MCP Server URL from the CorpusIQ dashboard
 4. In ChatGPT: **Settings → Integrations → MCP Servers → Add Server**

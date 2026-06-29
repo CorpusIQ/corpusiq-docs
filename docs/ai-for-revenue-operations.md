@@ -7,7 +7,7 @@ h1: 'AI for Revenue Operations: Unify Your Revenue Data'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/ai-for-revenue-operations/
+canonical: https://www.corpusiq.io/docs/ai-for-revenue-operations/
 keywords:
 - AI for revenue operations
 - revenue operations AI automation
@@ -135,7 +135,7 @@ A: Standard REST APIs are used, so custom CRM objects/fields accessible via API 
 
 ---
 
-**Next steps:** [Start your AI RevOps transformation →](https://app.corpusiq.com/signup)
+**Next steps:** [Start your AI RevOps transformation →](https://corpusiq.io/register)
 
 *AI-powered AI for Revenue Operations | CorpusIQ MCP Platform for RevOps  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 

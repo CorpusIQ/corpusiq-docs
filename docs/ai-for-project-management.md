@@ -7,7 +7,7 @@ h1: 'AI for Project Management: From Status Meetings to Instant Answers'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/ai-for-project-management/
+canonical: https://www.corpusiq.io/docs/ai-for-project-management/
 keywords:
 - AI for project management
 - project management AI automation
@@ -120,7 +120,7 @@ A: Yes. Ask Claude for a formatted project status report and it will synthesize 
 
 ## Internal Links
 
-- [Connect Monday.com to Claude](/connectors/monday/)
+- [Connect Monday.com to Claude](https://corpusiq.io/connectors/monday/)
 - [Connect Slack to Claude](/docs/connect-slack-to-claude/)
 - [Connect Notion to Claude](/docs/connect-notion-to-claude/)
 - [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude/)
@@ -130,7 +130,7 @@ A: Yes. Ask Claude for a formatted project status report and it will synthesize 
 
 ---
 
-**Next steps:** [Start your AI PM transformation →](https://app.corpusiq.com/signup)
+**Next steps:** [Start your AI PM transformation →](https://corpusiq.io/register)
 
 *AI-powered AI for Project Management | CorpusIQ MCP Platform for PM ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 

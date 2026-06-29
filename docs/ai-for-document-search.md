@@ -8,7 +8,7 @@ h1: 'AI for Document Search: Find Answers, Not Just Files'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/ai-for-document-search/
+canonical: https://www.corpusiq.io/docs/ai-for-document-search/
 keywords:
 - AI for document search
 - document search AI automation
@@ -137,7 +137,7 @@ A: No. Document content is streamed directly from the source system for each que
 
 ---
 
-**Next steps:** [Start AI-powered document search →](https://app.corpusiq.com/signup)
+**Next steps:** [Start AI-powered document search →](https://corpusiq.io/register)
 
 *AI-powered AI for Document Search | CorpusIQ MCP Platform for Enterp...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 

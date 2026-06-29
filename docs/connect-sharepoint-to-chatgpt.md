@@ -100,7 +100,7 @@ No SharePoint site navigation. No document library browsing. No manual content r
 
 **Enterprise-wide visibility.** "What SharePoint sites are active in our tenant?" "Show me recently modified documents across the organization." "Which document libraries have the most content?" IT and knowledge management teams get tenant-level visibility.
 
-**Business-connected knowledge.** "Find the contract document for Acme Corp and cross-reference with their HubSpot deal status." "Show me project plans for initiatives with open Jira epics." SharePoint documents become connected to CRM, project management, and business data. This is the unique capability of [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md).
+**Business-connected knowledge.** "Find the contract document for Acme Corp and cross-reference with their HubSpot deal status." "Show me project plans for initiatives with open Jira epics." SharePoint documents become connected to CRM, project management, and business data. This is the unique capability of [MCP platforms like CorpusIQ](benefits-of-mcp-for-business).
 
 ## Use Cases
 
@@ -154,7 +154,7 @@ SharePoint's native search is optimized for finding documents by title, metadata
 
 1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
 2. **Connect SharePoint.** Dashboard → Connections → Microsoft 365 / SharePoint → sign into Microsoft 365 → authorize read-only permissions.
-3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](../docs/quick-start.md).
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](quick-start).
 4. **Verify.** Ask "What SharePoint sites do I have access to?" to confirm.
 5. **Explore.** Try "Search SharePoint for documents about [topic]" or "Find the latest [document name]."
 
@@ -162,16 +162,16 @@ Setup takes under 5 minutes. No SharePoint admin configuration required.
 
 ## Related Pages
 
-- [Connect Notion to ChatGPT](../docs/connect-notion-to-chatgpt.md)  --  knowledge base in ChatGPT
+- [Connect Notion to ChatGPT](connect-notion-to-chatgpt)  --  knowledge base in ChatGPT
 - [Connect OneDrive to ChatGPT](https://www.corpusiq.io/docs)  --  personal file storage (available via CorpusIQ MCP)
-- [Connect Outlook to ChatGPT](../docs/connect-outlook-to-chatgpt.md)  --  Microsoft email in ChatGPT
-- [Connect Gmail to ChatGPT](../docs/connect-gmail-to-chatgpt.md)  --  Google email in ChatGPT
-- [Connect Slack to ChatGPT](../docs/connect-slack-to-chatgpt.md)  --  team communication in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP wins
-- [MCP for Enterprise](../docs/mcp-for-enterprise.md)  --  enterprise deployment
-- [MCP for Operations](../docs/mcp-for-operations.md)  --  MCP for ops teams
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
+- [Connect Outlook to ChatGPT](connect-outlook-to-chatgpt)  --  Microsoft email in ChatGPT
+- [Connect Gmail to ChatGPT](connect-gmail-to-chatgpt)  --  Google email in ChatGPT
+- [Connect Slack to ChatGPT](connect-slack-to-chatgpt)  --  team communication in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration)  --  the full integration
+- [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
+- [MCP for Enterprise](mcp-for-enterprise)  --  enterprise deployment
+- [MCP for Operations](mcp-for-operations)  --  MCP for ops teams
+- [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
 
 *Connect Connect SharePoint to ChatGPT via MCP  --  Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

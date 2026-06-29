@@ -45,7 +45,7 @@ Contacts with full property details and keyword search. Companies with full deta
 <details>
 <summary><strong>Can ChatGPT combine HubSpot data with data from other tools?</strong></summary>
 
-Yes. This is where MCP creates value that no single-platform dashboard can match. "Show me all deals closing this month and cross-reference with email activity from Gmail" combines HubSpot deal data with Gmail communication history. "Which customers have open deals and overdue invoices?" spans HubSpot and QuickBooks. The cross-source capability is the differentiator  --  see our [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md).
+Yes. This is where MCP creates value that no single-platform dashboard can match. "Show me all deals closing this month and cross-reference with email activity from Gmail" combines HubSpot deal data with Gmail communication history. "Which customers have open deals and overdue invoices?" spans HubSpot and QuickBooks. The cross-source capability is the differentiator  --  see our [Benefits of MCP for Business](benefits-of-mcp-for-business).
 </details>
 
 <details>
@@ -98,7 +98,7 @@ No ETL pipeline. No data warehouse. No scheduled syncs. Your CRM data is queried
 
 **Pipeline management at scale.** "Which deals are stalled?" "Show me deals with no activity in 14 days." "Which reps have the most deals in the proposal stage?" Pipeline hygiene questions that would require custom reports in HubSpot become instant queries.
 
-**Cross-source relationship intelligence.** The real power comes from connecting HubSpot with your other tools. "Show me open deals for customers with overdue invoices" combines HubSpot and QuickBooks. "Which customers with open deals haven't opened our last email campaign?" combines HubSpot and Klaviyo. This cross-source context is unique to [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md).
+**Cross-source relationship intelligence.** The real power comes from connecting HubSpot with your other tools. "Show me open deals for customers with overdue invoices" combines HubSpot and QuickBooks. "Which customers with open deals haven't opened our last email campaign?" combines HubSpot and Klaviyo. This cross-source context is unique to [MCP platforms like CorpusIQ](benefits-of-mcp-for-business).
 
 **Source-cited answers you can verify.** Every response includes provenance  --  which HubSpot object was queried, when, and what was returned. If a deal amount looks wrong, you can trace it back to the source record.
 
@@ -122,7 +122,7 @@ Instead of building a pipeline report in HubSpot: "Show me all deals by stage wi
 
 ### Cross-Source Attribution
 
-"Which marketing campaigns generated the most HubSpot deals this quarter?" queries HubSpot for closed deals in the period, then cross-references with Google Ads and Meta Ads for campaign attribution. See our [MCP for Marketing guide](../docs/mcp-for-marketing.md) for more attribution use cases.
+"Which marketing campaigns generated the most HubSpot deals this quarter?" queries HubSpot for closed deals in the period, then cross-references with Google Ads and Meta Ads for campaign attribution. See our [MCP for Marketing guide](mcp-for-marketing) for more attribution use cases.
 
 ## Security: Read-Only by Design
 
@@ -152,7 +152,7 @@ The direct API approach is right when you need write operations  --  creating co
 
 1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
 2. **Connect HubSpot.** Dashboard → Connections → HubSpot → sign into HubSpot → select portal → authorize read-only access.
-3. **Connect ChatGPT.** Add the CorpusIQ MCP server to ChatGPT. See our [Quick Start guide](../docs/quick-start.md) for instructions.
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server to ChatGPT. See our [Quick Start guide](quick-start) for instructions.
 4. **Verify.** Ask "How many contacts are in my HubSpot account?" to confirm the connection.
 5. **Explore.** Try "Show me my open deals sorted by amount" or "Search for contacts at example.com."
 
@@ -160,16 +160,16 @@ Under 5 minutes from signup to your first CRM query in ChatGPT.
 
 ## Related Pages
 
-- [Connect Salesforce to ChatGPT](../docs/connect-salesforce-to-chatgpt.md)  --  enterprise CRM data in ChatGPT
-- [Connect Shopify to ChatGPT](../docs/connect-shopify-to-chatgpt.md)  --  ecommerce data in ChatGPT
-- [Connect QuickBooks to ChatGPT](../docs/connect-quickbooks-to-chatgpt.md)  --  financial data in ChatGPT
-- [Connect Gmail to ChatGPT](../docs/connect-gmail-to-chatgpt.md)  --  email data in ChatGPT
-- [Connect Slack to ChatGPT](../docs/connect-slack-to-chatgpt.md)  --  team communication in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  how the connection works
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP architecture matters
-- [MCP for Sales](../docs/mcp-for-sales.md)  --  MCP for sales teams
-- [HubSpot Connector Reference](../connectors/hubspot.md)  --  technical details
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
+- [Connect Salesforce to ChatGPT](connect-salesforce-to-chatgpt)  --  enterprise CRM data in ChatGPT
+- [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt)  --  ecommerce data in ChatGPT
+- [Connect QuickBooks to ChatGPT](connect-quickbooks-to-chatgpt)  --  financial data in ChatGPT
+- [Connect Gmail to ChatGPT](connect-gmail-to-chatgpt)  --  email data in ChatGPT
+- [Connect Slack to ChatGPT](connect-slack-to-chatgpt)  --  team communication in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration)  --  how the connection works
+- [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP architecture matters
+- [MCP for Sales](mcp-for-sales)  --  MCP for sales teams
+- [HubSpot Connector Reference](connect-hubspot-to-chatgpt)  --  technical details
+- [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
 
 *Connect Connect HubSpot to ChatGPT via MCP  --  Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

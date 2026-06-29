@@ -7,7 +7,7 @@ h1: 'AI for Marketing Analytics: Campaign Intelligence in Real Time'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/ai-for-marketing-analytics/
+canonical: https://www.corpusiq.io/docs/ai-for-marketing-analytics/
 keywords:
 - AI for marketing analytics
 - marketing analytics AI automation
@@ -121,17 +121,17 @@ A: Yes. Connect Google Analytics (organic data) and Google Ads (paid data) and C
 
 ## Internal Links
 
-- [Connect Google Ads to Claude](/connectors/google_ads/)
-- [Connect Facebook Ads to Claude](/connectors/facebook_marketing/)
-- [Connect Google Analytics to Claude](/docs/connect-google-analytics-to-claude/)
-- [Connect Klaviyo to Claude](/connectors/klaviyo/)
+- [Connect Google Ads to Claude](https://corpusiq.io/connectors/google_ads/)
+- [Connect Facebook Ads to Claude](https://corpusiq.io/connectors/facebook_marketing/)
+- [Connect Google Analytics to Claude](connect-google-analytics-to-claude)
+- [Connect Klaviyo to Claude](https://corpusiq.io/connectors/klaviyo/)
 - [AI for Business Intelligence](/docs/ai-for-business-intelligence/)
 - [AI for Revenue Operations](/docs/ai-for-revenue-operations/)
 - [What is MCP?](/docs/what-is-an-mcp-server/)
 
 ---
 
-**Next steps:** [Transform your marketing analytics →](https://app.corpusiq.com/signup)
+**Next steps:** [Transform your marketing analytics →](https://corpusiq.io/register)
 
 *AI-powered AI for Marketing Analytics | CorpusIQ MCP Platform for Ma...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 

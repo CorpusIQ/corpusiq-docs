@@ -7,7 +7,7 @@ h1: 'Connect Notion to Claude: Your Wiki as an AI Knowledge Base'
 category: Claude Integrations
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/connect-notion-to-claude/
+canonical: https://www.corpusiq.io/docs/connect-notion-to-claude/
 keywords:
 - connect notion to Claude
 - notion Claude integration
@@ -126,7 +126,7 @@ A: The Notion integration token grants workspace-level access to shared pages. A
 
 - [Connect Slack to Claude](/docs/connect-slack-to-claude/)  --  Team communication in Claude.
 - [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude/)  --  Enterprise document access.
-- [Connect Google Drive to Claude](/connectors/google_workspace/)  --  Cloud storage integration.
+- [Connect Google Drive to Claude](https://corpusiq.io/connectors/google_workspace/)  --  Cloud storage integration.
 - [AI for Knowledge Management](/docs/ai-for-knowledge-management/)  --  AI-powered knowledge retrieval.
 - [AI for Document Search](/docs/ai-for-document-search/)  --  Document intelligence at scale.
 - [AI for Project Management](/docs/ai-for-project-management/)  --  Project intelligence.
@@ -134,7 +134,7 @@ A: The Notion integration token grants workspace-level access to shared pages. A
 
 ---
 
-**Next steps:** [Connect Notion to Claude now →](https://app.corpusiq.com/connect/notion)
+**Next steps:** [Connect Notion to Claude now →](https://corpusiq.io/connect/notion)
 
 *Connect Connect Notion to Claude | CorpusIQ MCP Integration for K... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

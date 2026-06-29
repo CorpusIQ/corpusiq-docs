@@ -98,7 +98,7 @@ No Salesforce reports to build. No SOQL to write. No data exports to manage. Jus
 
 **Account 360 without tab-switching.** "Give me everything on Acme Corp  --  account details, all contacts, open opportunities, recent cases, and last activity dates." One question pulls from multiple Salesforce objects simultaneously.
 
-**Cross-source intelligence.** Combine Salesforce data with data from other connected tools. "Show me opportunities for accounts with overdue invoices in QuickBooks" or "Which marketing campaigns generated the most Salesforce opportunities this quarter?" The cross-source capability is unique to [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md).
+**Cross-source intelligence.** Combine Salesforce data with data from other connected tools. "Show me opportunities for accounts with overdue invoices in QuickBooks" or "Which marketing campaigns generated the most Salesforce opportunities this quarter?" The cross-source capability is unique to [MCP platforms like CorpusIQ](benefits-of-mcp-for-business).
 
 **Enterprise governance.** Read-only access, field-level security respect, audit trails, and no data duplication. Your Salesforce data stays in Salesforce. The MCP layer provides governed, ephemeral access that meets enterprise compliance requirements.
 
@@ -135,7 +135,7 @@ The Salesforce integration is designed for enterprise security requirements:
 - **Audit Trail.** Every query is logged with timestamp and source. Your Salesforce admin can track exactly what data was accessed.
 - **TLS 1.3 Encryption.** All data in transit between Salesforce, CorpusIQ, and ChatGPT is encrypted.
 
-For enterprises in regulated industries (financial services, healthcare, government), this architecture meets the core requirements: no data duplication, governed access, and complete visibility into data access patterns. See our [security documentation](../docs/security/README.md) for the full compliance framework.
+For enterprises in regulated industries (financial services, healthcare, government), this architecture meets the core requirements: no data duplication, governed access, and complete visibility into data access patterns. See our [security documentation](security/index) for the full compliance framework.
 
 ## Comparison: MCP vs. Direct Salesforce API Integration
 
@@ -155,7 +155,7 @@ Direct API integration is appropriate for custom Salesforce workflows that requi
 
 1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
 2. **Connect Salesforce.** Dashboard → Connections → Salesforce → sign into Salesforce → authorize read-only access.
-3. **Connect ChatGPT.** Add the CorpusIQ MCP server to ChatGPT. See our [Quick Start guide](../docs/quick-start.md).
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server to ChatGPT. See our [Quick Start guide](quick-start).
 4. **Verify.** Ask "How many opportunities are in my Salesforce org?" to confirm the connection.
 5. **Explore.** Try "Show me my top 10 opportunities by amount" or "Give me a pipeline summary."
 
@@ -163,16 +163,16 @@ Setup takes under 5 minutes for a connection that would take weeks to build via 
 
 ## Related Pages
 
-- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT (alternative CRM)
-- [Connect QuickBooks to ChatGPT](../docs/connect-quickbooks-to-chatgpt.md)  --  financial data in ChatGPT
-- [Connect Stripe to ChatGPT](../docs/connect-stripe-to-chatgpt.md)  --  payment data in ChatGPT
-- [Connect Gmail to ChatGPT](../docs/connect-gmail-to-chatgpt.md)  --  email data in ChatGPT
-- [Connect NetSuite to ChatGPT](../docs/connect-netsuite-to-chatgpt.md)  --  enterprise ERP data in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP wins
-- [MCP for Enterprise](../docs/mcp-for-enterprise.md)  --  enterprise deployment
-- [CorpusIQ Security Architecture](../docs/security/README.md)  --  how data stays safe
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt)  --  CRM data in ChatGPT (alternative CRM)
+- [Connect QuickBooks to ChatGPT](connect-quickbooks-to-chatgpt)  --  financial data in ChatGPT
+- [Connect Stripe to ChatGPT](connect-stripe-to-chatgpt)  --  payment data in ChatGPT
+- [Connect Gmail to ChatGPT](connect-gmail-to-chatgpt)  --  email data in ChatGPT
+- [Connect NetSuite to ChatGPT](connect-netsuite-to-chatgpt)  --  enterprise ERP data in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration)  --  the full integration
+- [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
+- [MCP for Enterprise](mcp-for-enterprise)  --  enterprise deployment
+- [CorpusIQ Security Architecture](security/index)  --  how data stays safe
+- [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
 
 *Connect Connect Salesforce to ChatGPT via MCP  --  Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

@@ -7,7 +7,7 @@ h1: 'AI for Financial Analysis: Real-Time Finance Intelligence'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/ai-for-financial-analysis/
+canonical: https://www.corpusiq.io/docs/ai-for-financial-analysis/
 keywords:
 - AI for financial analysis
 - financial analysis AI automation
@@ -136,7 +136,7 @@ A: Upload spreadsheets and financial models to Google Drive, OneDrive, or ShareP
 
 ---
 
-**Next steps:** [Connect your financial tools →](https://app.corpusiq.com/connect)
+**Next steps:** [Connect your financial tools →](https://corpusiq.io/connect)
 
 *AI-powered AI for Financial Analysis | CorpusIQ MCP Platform for Fin...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 

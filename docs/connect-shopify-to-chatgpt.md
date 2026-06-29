@@ -84,7 +84,7 @@ The architecture is straightforward. CorpusIQ acts as a secure MCP bridge betwee
 
 1. **Connect Shopify to CorpusIQ.** You authorize CorpusIQ to access your Shopify store via read-only OAuth. This takes about 2 minutes  --  enter your store's myshopify.com domain, sign into Shopify, and approve the requested scopes.
 
-2. **Connect CorpusIQ to ChatGPT.** In ChatGPT, you add the CorpusIQ MCP server as a connected app. ChatGPT discovers all your connected data sources automatically. See our [ChatGPT integration guide](../docs/chatgpt-integration.md) for step-by-step instructions.
+2. **Connect CorpusIQ to ChatGPT.** In ChatGPT, you add the CorpusIQ MCP server as a connected app. ChatGPT discovers all your connected data sources automatically. See our [ChatGPT integration guide](chatgpt-integration) for step-by-step instructions.
 
 3. **Ask questions.** ChatGPT receives your question, determines that it needs Shopify data, calls the appropriate MCP tool, and returns a cited answer from your live store.
 
@@ -98,7 +98,7 @@ This architecture eliminates the traditional analytics pipeline  --  no data war
 
 **Real-time decision support.** Traditional BI tools show you yesterday's data. With MCP, you ask about today's performance and get today's numbers. During a flash sale or promotional period, that real-time access is the difference between catching a trend early and reacting after it's over.
 
-**Cross-source context.** Shopify data becomes more valuable when combined with data from other tools. "Did our Google Ads campaign drive more Shopify revenue than our email campaign?" is a single question that CorpusIQ answers by querying Shopify, Google Ads, and Klaviyo simultaneously. This cross-source capability is unique to MCP platforms like [CorpusIQ's multi-source MCP approach](../docs/benefits-of-mcp-for-business.md).
+**Cross-source context.** Shopify data becomes more valuable when combined with data from other tools. "Did our Google Ads campaign drive more Shopify revenue than our email campaign?" is a single question that CorpusIQ answers by querying Shopify, Google Ads, and Klaviyo simultaneously. This cross-source capability is unique to MCP platforms like [CorpusIQ's multi-source MCP approach](benefits-of-mcp-for-business).
 
 **Source-cited answers you can verify.** Every answer includes provenance  --  which connector provided the data, what query was executed, and when. If a number looks surprising, you can trace it back to the source. This auditability is essential for financial reporting and stakeholder communications.
 
@@ -120,7 +120,7 @@ Track product performance and inventory levels. "Which products have under 10 un
 
 ### Marketing Attribution
 
-Combine Shopify data with marketing platform data for attribution analysis. "Which marketing channel drove the most first-time purchases this month?" "What's the AOV from Google Ads traffic vs. email traffic?" These cross-source questions are where [MCP's multi-source architecture](../docs/benefits-of-mcp-for-business.md) truly shines.
+Combine Shopify data with marketing platform data for attribution analysis. "Which marketing channel drove the most first-time purchases this month?" "What's the AOV from Google Ads traffic vs. email traffic?" These cross-source questions are where [MCP's multi-source architecture](benefits-of-mcp-for-business) truly shines.
 
 ### Financial Reconciliation
 
@@ -130,7 +130,7 @@ Validate revenue numbers across platforms. "Does our Shopify revenue match what 
 
 CorpusIQ's Shopify integration is read-only at every layer. The OAuth scopes requested from Shopify only include read permissions. The MCP server only exposes query tools  --  no mutation operations exist. Even if a query were somehow misrouted, no data can be modified.
 
-For organizations with strict compliance requirements, CorpusIQ's security architecture is described in detail in our [security documentation](../docs/security/README.md). Key points:
+For organizations with strict compliance requirements, CorpusIQ's security architecture is described in detail in our [security documentation](security/index). Key points:
 
 - **OAuth 2.0** authentication  --  no shared credentials, no API keys stored in plaintext.
 - **TLS 1.3** encryption in transit.
@@ -163,23 +163,23 @@ With MCP, connecting Shopify to ChatGPT takes 2 minutes, and every question is a
 
 1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
 2. **Connect Shopify.** In your CorpusIQ dashboard, click Connections → Shopify → enter your myshopify.com domain → authorize via OAuth.
-3. **Connect ChatGPT.** Add the CorpusIQ MCP server to your ChatGPT account. Detailed instructions in our [Quick Start guide](../docs/quick-start.md).
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server to your ChatGPT account. Detailed instructions in our [Quick Start guide](quick-start).
 4. **Ask your first question.** Try "What was my Shopify revenue last week?" and verify the answer matches your store.
 
 The entire setup takes under 5 minutes from signup to first answer.
 
 ## Related Pages
 
-- [Connect QuickBooks to ChatGPT](../docs/connect-quickbooks-to-chatgpt.md)  --  financial data in ChatGPT
-- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT
-- [Connect Stripe to ChatGPT](../docs/connect-stripe-to-chatgpt.md)  --  payment data in ChatGPT
-- [Connect Google Analytics to ChatGPT](../docs/connect-google-analytics-to-chatgpt.md)  --  web analytics in ChatGPT
-- [Connect Klaviyo to ChatGPT](../connectors/connect-klaviyo-to-chatgpt.md)  --  email marketing data in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full ChatGPT integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP beats traditional approaches
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
-- [Shopify Connector Reference](../connectors/shopify.md)  --  technical details on the Shopify connector
-- [CorpusIQ Security Architecture](../docs/security/README.md)  --  how your data stays safe
+- [Connect QuickBooks to ChatGPT](connect-quickbooks-to-chatgpt)  --  financial data in ChatGPT
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt)  --  CRM data in ChatGPT
+- [Connect Stripe to ChatGPT](connect-stripe-to-chatgpt)  --  payment data in ChatGPT
+- [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt)  --  web analytics in ChatGPT
+- [Connect Klaviyo to ChatGPT](connectors)  --  email marketing data in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration)  --  the full ChatGPT integration
+- [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP beats traditional approaches
+- [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
+- [Shopify Connector Reference](connect-shopify-to-chatgpt)  --  technical details on the Shopify connector
+- [CorpusIQ Security Architecture](security/index)  --  how your data stays safe
 
 *Connect Connect Shopify to ChatGPT via MCP  --  Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

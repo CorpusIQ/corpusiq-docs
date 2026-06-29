@@ -17,7 +17,7 @@ keywords:
 last_updated: '2026-06-16'
 category: QuickBooks
 cluster: 5
-canonical_url: https://corpusiq.com/docs/quickbooks-dashboard-with-chatgpt
+canonical_url: https://www.corpusiq.io/docs/quickbooks-dashboard-with-chatgpt
 ---
 
 # QuickBooks Dashboard with ChatGPT: Real-Time Financial Visibility at Your Fingertips
@@ -173,12 +173,12 @@ Dashboard queries are processed in real time with data traveling over encrypted 
 
 Ready to put AI to work on your quickbooks dashboard with chatgpt data? 
 
-1. **Sign up** for a [CorpusIQ account](https://app.corpusiq.com/signup)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://app.corpusiq.com/signup)**
+**[Get started now →](https://corpusiq.io/register)**
 
 ## Internal Links
 

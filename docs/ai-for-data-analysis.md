@@ -7,7 +7,7 @@ h1: 'AI for Data Analysis: From SQL Queries to Natural Conversations'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/ai-for-data-analysis/
+canonical: https://www.corpusiq.io/docs/ai-for-data-analysis/
 keywords:
 - AI for data analysis
 - data analysis AI automation
@@ -127,7 +127,7 @@ A: No  --  it amplifies them. AI handles routine and ad-hoc analysis, freeing da
 
 ## Internal Links
 
-- [Connect Your Database to Claude](/connectors/postgres/)
+- [Connect Your Database to Claude](https://corpusiq.io/connectors/postgres/)
 - [Connect Shopify to Claude](/docs/connect-shopify-to-claude/)
 - [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/)
 - [AI for Business Intelligence](/docs/ai-for-business-intelligence/)
@@ -137,7 +137,7 @@ A: No  --  it amplifies them. AI handles routine and ad-hoc analysis, freeing da
 
 ---
 
-**Next steps:** [Start AI-powered data analysis →](https://app.corpusiq.com/signup)
+**Next steps:** [Start AI-powered data analysis →](https://corpusiq.io/register)
 
 *AI-powered AI for Data Analysis | CorpusIQ MCP Platform for Analytics  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 

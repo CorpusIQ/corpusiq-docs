@@ -98,7 +98,7 @@ No JQL. No board switching. No manual issue compilation.
 
 **Cross-team development insights.** "Show me issues that span both the Frontend and Backend teams." "Which epics have work distributed across the most teams?" Cross-team visibility that's difficult to achieve within Jira's project-oriented structure.
 
-**Business-connected development.** "Which features in the current sprint map to HubSpot deals with Q3 close dates?" "Show me Jira issues for bugs reported by our top 10 revenue customers." Connecting development work to business impact is the unique advantage of [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md).
+**Business-connected development.** "Which features in the current sprint map to HubSpot deals with Q3 close dates?" "Show me Jira issues for bugs reported by our top 10 revenue customers." Connecting development work to business impact is the unique advantage of [MCP platforms like CorpusIQ](benefits-of-mcp-for-business).
 
 **Automated status reporting.** "Summarize engineering progress this week  --  what shipped, what's blocked, what's at risk." Weekly status becomes a conversation instead of compiling Jira data into a slide deck.
 
@@ -159,7 +159,7 @@ JQL and the Jira API are essential for power users and integrations. For day-to-
 
 1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
 2. **Connect Jira.** Dashboard → Connections → Jira → authenticate (OAuth for Cloud, PAT for Data Center) → authorize read-only access.
-3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](../docs/quick-start.md).
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](quick-start).
 4. **Verify.** Ask "What Jira projects do I have access to?" to confirm.
 5. **Explore.** Try "Show me my open issues" or "What's the status of the current sprint?"
 
@@ -167,16 +167,16 @@ Under 5 minutes from signup to Jira answers in ChatGPT. No JQL required.
 
 ## Related Pages
 
-- [Connect Asana to ChatGPT](../docs/connect-asana-to-chatgpt.md)  --  project management in ChatGPT
-- [Connect Monday.com to ChatGPT](../docs/connect-monday-com-to-chatgpt.md)  --  work management in ChatGPT
+- [Connect Asana to ChatGPT](connect-asana-to-chatgpt)  --  project management in ChatGPT
+- [Connect Monday.com to ChatGPT](connect-monday-com-to-chatgpt)  --  work management in ChatGPT
 - [Connect GitHub to ChatGPT](https://www.corpusiq.io/docs)  --  code repository data (available via CorpusIQ MCP)
-- [Connect Slack to ChatGPT](../docs/connect-slack-to-chatgpt.md)  --  team communication in ChatGPT
-- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP wins
-- [MCP for Operations](../docs/mcp-for-operations.md)  --  MCP for ops and dev teams
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
-- [CorpusIQ Security Architecture](../docs/security/README.md)  --  how data stays safe
+- [Connect Slack to ChatGPT](connect-slack-to-chatgpt)  --  team communication in ChatGPT
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt)  --  CRM data in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration)  --  the full integration
+- [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
+- [MCP for Operations](mcp-for-operations)  --  MCP for ops and dev teams
+- [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
+- [CorpusIQ Security Architecture](security/index)  --  how data stays safe
 
 *Connect Connect Jira to ChatGPT via MCP  --  Live Data, No Code | Co... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

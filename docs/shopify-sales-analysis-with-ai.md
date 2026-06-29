@@ -19,7 +19,7 @@ keywords:
 last_updated: '2026-06-16'
 category: Shopify
 cluster: 6
-canonical_url: https://corpusiq.com/docs/shopify-sales-analysis-with-ai
+canonical_url: https://www.corpusiq.io/docs/shopify-sales-analysis-with-ai
 ---
 
 # Shopify Sales Analysis with AI: Turn Raw Order Data into Revenue Intelligence
@@ -183,12 +183,12 @@ Start with a shared ChatGPT or Claude workspace where team members can ask quest
 
 Ready to transform your Shopify order data into revenue intelligence?
 
-1. **Sign up** for a [CorpusIQ account](https://app.corpusiq.com/signup)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
 2. **Connect your Shopify store**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Use the prompt templates** in this guide to run your first revenue, product, and customer analyses today.
 
-**[Start your AI-powered sales analysis now →](https://app.corpusiq.com/signup)**
+**[Start your AI-powered sales analysis now →](https://corpusiq.io/register)**
 
 ## Internal Links
 

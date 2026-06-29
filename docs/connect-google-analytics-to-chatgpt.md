@@ -45,7 +45,7 @@ Yes. The Google Analytics API is inherently read-only  --  it provides analytics
 <details>
 <summary><strong>Can ChatGPT compare GA4 data with data from other tools?</strong></summary>
 
-This is where MCP creates value beyond what GA4 alone can offer. "Did our Google Ads campaigns drive more revenue than our email campaigns this month?" queries GA4 for conversion data, Google Ads for spend data, and Klaviyo for email campaign data  --  all in one response. "How does our website traffic correlate with Shopify orders?" combines GA4 and Shopify data. Cross-source analytics is the core capability of [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md).
+This is where MCP creates value beyond what GA4 alone can offer. "Did our Google Ads campaigns drive more revenue than our email campaigns this month?" queries GA4 for conversion data, Google Ads for spend data, and Klaviyo for email campaign data  --  all in one response. "How does our website traffic correlate with Shopify orders?" combines GA4 and Shopify data. Cross-source analytics is the core capability of [MCP platforms like CorpusIQ](benefits-of-mcp-for-business).
 </details>
 
 <details>
@@ -75,7 +75,7 @@ Yes. Connect multiple GA4 properties to CorpusIQ. Compare traffic across propert
 <details>
 <summary><strong>What about historical data?</strong></summary>
 
-GA4 properties have a data retention setting (2 months or 14 months by default). CorpusIQ can query any data within your property's retention window. For data beyond the retention window, you'd need BigQuery export  --  a topic covered in our [GA4 connector reference](../connectors/ga4.md).
+GA4 properties have a data retention setting (2 months or 14 months by default). CorpusIQ can query any data within your property's retention window. For data beyond the retention window, you'd need BigQuery export  --  a topic covered in our [GA4 connector reference](connect-google-analytics-to-chatgpt).
 </details>
 
 ## How It Works
@@ -122,7 +122,7 @@ No GA4 report building. No dimension/metric memorization. No data exports.
 
 ### Cross-Source Attribution
 
-Combine GA4 with ad platforms and ecommerce tools: "Show me Google Ads spend vs. GA4 attributed revenue by day" or "How does email campaign send volume correlate with website sessions?" See our [MCP for Marketing guide](../docs/mcp-for-marketing.md) for more attribution patterns.
+Combine GA4 with ad platforms and ecommerce tools: "Show me Google Ads spend vs. GA4 attributed revenue by day" or "How does email campaign send volume correlate with website sessions?" See our [MCP for Marketing guide](mcp-for-marketing) for more attribution patterns.
 
 ## Security: Read-Only Analytics Access
 
@@ -165,22 +165,22 @@ The GA4 Data API is powerful but requires significant engineering to make conver
 
 1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
 2. **Connect GA4.** Dashboard → Connections → Google Analytics → sign into Google → select GA4 property → authorize.
-3. **Connect ChatGPT.** Add the CorpusIQ MCP server to ChatGPT. See our [Quick Start guide](../docs/quick-start.md).
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server to ChatGPT. See our [Quick Start guide](quick-start).
 4. **Verify.** Ask "How many users visited our site yesterday?" to confirm the connection.
 5. **Explore.** Try "What were our top 5 pages by traffic this week?" or "Show me conversions by source."
 
 ## Related Pages
 
 - [Connect Google Ads to ChatGPT](https://www.corpusiq.io/docs)  --  ad platform data in ChatGPT (available via CorpusIQ MCP)
-- [Connect Shopify to ChatGPT](../docs/connect-shopify-to-chatgpt.md)  --  ecommerce data in ChatGPT
-- [Connect Stripe to ChatGPT](../docs/connect-stripe-to-chatgpt.md)  --  payment data in ChatGPT
-- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT
-- [Connect Klaviyo to ChatGPT](../connectors/connect-klaviyo-to-chatgpt.md)  --  email marketing data in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP wins
-- [MCP for Marketing](../docs/mcp-for-marketing.md)  --  MCP for marketing teams
-- [GA4 Connector Reference](../connectors/ga4.md)  --  technical details
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
+- [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt)  --  ecommerce data in ChatGPT
+- [Connect Stripe to ChatGPT](connect-stripe-to-chatgpt)  --  payment data in ChatGPT
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt)  --  CRM data in ChatGPT
+- [Connect Klaviyo to ChatGPT](connectors)  --  email marketing data in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration)  --  the full integration
+- [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
+- [MCP for Marketing](mcp-for-marketing)  --  MCP for marketing teams
+- [GA4 Connector Reference](connect-google-analytics-to-chatgpt)  --  technical details
+- [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
 
 *Connect Connect Google Analytics to ChatGPT via MCP  --  Live Data, ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

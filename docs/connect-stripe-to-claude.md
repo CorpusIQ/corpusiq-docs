@@ -125,7 +125,7 @@ Stripe Invoices are accessible through the API. Include the Invoices scope when 
 
 ---
 
-**Next steps:** [Connect Stripe to Claude now →](https://app.corpusiq.com/connect/stripe)
+**Next steps:** [Connect Stripe to Claude now →](https://corpusiq.io/connect/stripe)
 
 *Connect Connect Stripe to Claude via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

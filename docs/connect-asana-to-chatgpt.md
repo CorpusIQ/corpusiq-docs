@@ -45,7 +45,7 @@ Projects with status, owner, and timeline information. Tasks with assignee, due 
 <details>
 <summary><strong>Can ChatGPT combine Asana data with data from other tools?</strong></summary>
 
-Absolutely. "Show me Asana tasks for projects that correspond to HubSpot deals closing this month" combines project management with CRM. "Which overdue Asana tasks are for clients who emailed us this week in Gmail?" combines tasks with email. "Show me Asana project completion rates vs. our sprint velocity in Jira" compares project management across platforms. Cross-source context is the defining advantage of [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md).
+Absolutely. "Show me Asana tasks for projects that correspond to HubSpot deals closing this month" combines project management with CRM. "Which overdue Asana tasks are for clients who emailed us this week in Gmail?" combines tasks with email. "Show me Asana project completion rates vs. our sprint velocity in Jira" compares project management across platforms. Cross-source context is the defining advantage of [MCP platforms like CorpusIQ](benefits-of-mcp-for-business).
 </details>
 
 <details>
@@ -153,7 +153,7 @@ Direct API integration is right for building custom Asana apps, workflow automat
 
 1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
 2. **Connect Asana.** Dashboard → Connections → Asana → sign into Asana → select workspace → authorize read-only access.
-3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](../docs/quick-start.md).
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](quick-start).
 4. **Verify.** Ask "What projects are in my Asana workspace?" to confirm.
 5. **Explore.** Try "Show me my open tasks" or "What's due this week?"
 
@@ -161,16 +161,16 @@ Under 5 minutes from signup to your first project management query in ChatGPT.
 
 ## Related Pages
 
-- [Connect Monday.com to ChatGPT](../docs/connect-monday-com-to-chatgpt.md)  --  alternative work management in ChatGPT
-- [Connect Jira to ChatGPT](../docs/connect-jira-to-chatgpt.md)  --  software development tracking in ChatGPT
-- [Connect Notion to ChatGPT](../docs/connect-notion-to-chatgpt.md)  --  documentation and wiki in ChatGPT
-- [Connect Slack to ChatGPT](../docs/connect-slack-to-chatgpt.md)  --  team communication in ChatGPT
-- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP wins
-- [MCP for Operations](../docs/mcp-for-operations.md)  --  MCP for ops teams
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
-- [CorpusIQ Security Architecture](../docs/security/README.md)  --  how data stays safe
+- [Connect Monday.com to ChatGPT](connect-monday-com-to-chatgpt)  --  alternative work management in ChatGPT
+- [Connect Jira to ChatGPT](connect-jira-to-chatgpt)  --  software development tracking in ChatGPT
+- [Connect Notion to ChatGPT](connect-notion-to-chatgpt)  --  documentation and wiki in ChatGPT
+- [Connect Slack to ChatGPT](connect-slack-to-chatgpt)  --  team communication in ChatGPT
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt)  --  CRM data in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration)  --  the full integration
+- [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
+- [MCP for Operations](mcp-for-operations)  --  MCP for ops teams
+- [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
+- [CorpusIQ Security Architecture](security/index)  --  how data stays safe
 
 *Connect Connect Asana to ChatGPT via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

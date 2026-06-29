@@ -7,7 +7,7 @@ h1: 'AI for Knowledge Management: Unlock Your Organization''s Brain'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/ai-for-knowledge-management/
+canonical: https://www.corpusiq.io/docs/ai-for-knowledge-management/
 keywords:
 - AI for knowledge management
 - knowledge management AI automation
@@ -134,7 +134,7 @@ A: AI handles "what" and "how" questions  --  factual knowledge retrieval. It do
 
 ---
 
-**Next steps:** [Unlock your organizational knowledge →](https://app.corpusiq.com/signup)
+**Next steps:** [Unlock your organizational knowledge →](https://corpusiq.io/register)
 
 *AI-powered AI for Knowledge Management | CorpusIQ MCP Platform for KM  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 

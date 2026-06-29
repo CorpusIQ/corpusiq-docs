@@ -45,7 +45,7 @@ Public channels and their metadata. Messages (in public channels and private cha
 <details>
 <summary><strong>Can ChatGPT combine Slack data with data from other tools?</strong></summary>
 
-Yes  --  and this is where MCP creates workflows that isolated Slack search cannot. "Show me Slack discussions about Customer X and cross-reference with HubSpot deal data" combines communication with CRM. "What Slack decisions were made about projects that have overdue Jira issues?" spans communication and project management. "Summarize this week's Slack activity about our product launch and compare with GA4 traffic data" crosses communication with analytics. The cross-source capability of [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md) connects team conversations to business data.
+Yes  --  and this is where MCP creates workflows that isolated Slack search cannot. "Show me Slack discussions about Customer X and cross-reference with HubSpot deal data" combines communication with CRM. "What Slack decisions were made about projects that have overdue Jira issues?" spans communication and project management. "Summarize this week's Slack activity about our product launch and compare with GA4 traffic data" crosses communication with analytics. The cross-source capability of [MCP platforms like CorpusIQ](benefits-of-mcp-for-business) connects team conversations to business data.
 </details>
 
 <details>
@@ -98,7 +98,7 @@ No Slack search syntax to learn. No scrolling through message history. No manual
 
 **Decision archaeology.** "When did we decide to deprecate the v1 API and what was the reasoning?" ChatGPT can trace decision history across channels and threads, surfacing the original discussion, participants, and rationale  --  knowledge that would normally require searching through months of Slack history.
 
-**Cross-source context.** "Show me Slack discussions about Customer X alongside their HubSpot deal status and recent support tickets." Team communication becomes connected to CRM data, support systems, and project management tools. This is the unique capability of [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md).
+**Cross-source context.** "Show me Slack discussions about Customer X alongside their HubSpot deal status and recent support tickets." Team communication becomes connected to CRM data, support systems, and project management tools. This is the unique capability of [MCP platforms like CorpusIQ](benefits-of-mcp-for-business).
 
 **Meeting and thread preparation.** "Summarize the design-team channel's discussion about the homepage redesign for my meeting in 10 minutes." Arrive at conversations prepared with context from the actual Slack history.
 
@@ -154,7 +154,7 @@ Slack's built-in search is fast and effective for known-item retrieval  --  "fin
 
 1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
 2. **Connect Slack.** Dashboard → Connections → Slack → sign into Slack workspace → authorize read-only scopes.
-3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](../docs/quick-start.md).
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](quick-start).
 4. **Verify.** Ask "What public channels are in my Slack workspace?" to confirm.
 5. **Explore.** Try "Search Slack for messages about [topic]" or "Summarize recent activity in the [channel] channel."
 
@@ -162,16 +162,16 @@ Under 5 minutes from signup to Slack answers in ChatGPT.
 
 ## Related Pages
 
-- [Connect Gmail to ChatGPT](../docs/connect-gmail-to-chatgpt.md)  --  email data in ChatGPT
-- [Connect Outlook to ChatGPT](../docs/connect-outlook-to-chatgpt.md)  --  Microsoft email in ChatGPT
-- [Connect Notion to ChatGPT](../docs/connect-notion-to-chatgpt.md)  --  documentation in ChatGPT
-- [Connect Jira to ChatGPT](../docs/connect-jira-to-chatgpt.md)  --  development tracking in ChatGPT
-- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP wins
-- [MCP for Operations](../docs/mcp-for-operations.md)  --  MCP for ops teams
-- [Slack Connector Reference](../connectors/slack.md)  --  technical details
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
+- [Connect Gmail to ChatGPT](connect-gmail-to-chatgpt)  --  email data in ChatGPT
+- [Connect Outlook to ChatGPT](connect-outlook-to-chatgpt)  --  Microsoft email in ChatGPT
+- [Connect Notion to ChatGPT](connect-notion-to-chatgpt)  --  documentation in ChatGPT
+- [Connect Jira to ChatGPT](connect-jira-to-chatgpt)  --  development tracking in ChatGPT
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt)  --  CRM data in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration)  --  the full integration
+- [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
+- [MCP for Operations](mcp-for-operations)  --  MCP for ops teams
+- [Slack Connector Reference](connect-slack-to-chatgpt)  --  technical details
+- [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
 
 *Connect Connect Slack to ChatGPT via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

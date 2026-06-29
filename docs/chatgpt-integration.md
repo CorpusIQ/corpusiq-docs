@@ -43,7 +43,7 @@ The CorpusIQ ChatGPT integration connects your business data directly to ChatGPT
 
 ## Supported Data Sources
 
-All 36 CorpusIQ connectors are available through the ChatGPT integration. See the [connectors directory](../connectors/) for the full list.
+All 36 CorpusIQ connectors are available through the ChatGPT integration. See the [connectors directory](connectors) for the full list.
 
 ## ChatGPT vs AI Agent Direct Connection
 

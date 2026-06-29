@@ -7,7 +7,7 @@ h1: 'AI for Executive Reporting: Instant Board-Ready Intelligence'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/ai-for-executive-reporting/
+canonical: https://www.corpusiq.io/docs/ai-for-executive-reporting/
 keywords:
 - AI for executive reporting
 - executive reporting AI automation
@@ -137,7 +137,7 @@ A: For internal preparation and analysis, yes. External filings and earnings rel
 
 ---
 
-**Next steps:** [Start your AI executive reporting →](https://app.corpusiq.com/signup)
+**Next steps:** [Start your AI executive reporting →](https://corpusiq.io/register)
 
 *AI-powered AI for Executive Reporting | CorpusIQ MCP Platform for Le...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 

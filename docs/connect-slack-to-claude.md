@@ -8,7 +8,7 @@ h1: 'Connect Slack to Claude: Unlock Your Team''s Knowledge Base'
 category: Claude Integrations
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/connect-slack-to-claude/
+canonical: https://www.corpusiq.io/docs/connect-slack-to-claude/
 keywords:
 - connect slack to Claude
 - slack Claude integration
@@ -134,7 +134,7 @@ A: Grant CorpusIQ access only to specific channels by configuring your Slack app
 
 ---
 
-**Next steps:** [Connect Slack to Claude now →](https://app.corpusiq.com/connect/slack)
+**Next steps:** [Connect Slack to Claude now →](https://corpusiq.io/connect/slack)
 
 *Connect Connect Slack to Claude | CorpusIQ MCP Integration for Te... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

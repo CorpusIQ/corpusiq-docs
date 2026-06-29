@@ -8,7 +8,7 @@ h1: 'AI for Audit Readiness: Always Prepared, Never Scrambling'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/ai-for-audit-readiness/
+canonical: https://www.corpusiq.io/docs/ai-for-audit-readiness/
 keywords:
 - AI for audit readiness
 - audit readiness AI automation
@@ -127,7 +127,7 @@ A: All data is pulled from live systems via read-only API connections. Evidence 
 
 ---
 
-**Next steps:** [Achieve continuous audit readiness →](https://app.corpusiq.com/signup)
+**Next steps:** [Achieve continuous audit readiness →](https://corpusiq.io/register)
 
 *AI-powered AI for Audit Readiness | CorpusIQ MCP Platform for Audit ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 

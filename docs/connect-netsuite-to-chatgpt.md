@@ -98,7 +98,7 @@ No SuiteScript. No saved searches to build. No CSV exports to analyze in Excel.
 
 **Faster operational decisions.** "Do we have enough inventory to fulfill this week's open orders?"  --  a question that could require checking three NetSuite screens  --  becomes one ChatGPT query.
 
-**Cross-department visibility.** "Show me NetSuite customers with open opportunities in HubSpot" combines ERP and CRM data. "Match NetSuite revenue against Stripe payouts" combines ERP and payment data. Only [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md) provide this cross-source context.
+**Cross-department visibility.** "Show me NetSuite customers with open opportunities in HubSpot" combines ERP and CRM data. "Match NetSuite revenue against Stripe payouts" combines ERP and payment data. Only [MCP platforms like CorpusIQ](benefits-of-mcp-for-business) provide this cross-source context.
 
 **Reduced SuiteScript dependency.** Every ad-hoc data question that would normally require a custom SuiteScript becomes a ChatGPT conversation. Free your NetSuite developers for higher-value work.
 
@@ -169,7 +169,7 @@ SuiteScript is the right tool for custom business logic, automation, and deep Ne
 
 3. **Connect NetSuite.** Dashboard → Connections → NetSuite → enter account ID and TBA credentials.
 
-4. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](../docs/quick-start.md).
+4. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](quick-start).
 
 5. **Verify.** Ask "How many sales orders are in my NetSuite account?" to confirm the connection.
 
@@ -179,16 +179,16 @@ NetSuite setup takes 5-10 minutes of admin time, one time only. After that, any 
 
 ## Related Pages
 
-- [Connect QuickBooks to ChatGPT](../docs/connect-quickbooks-to-chatgpt.md)  --  SMB financial data in ChatGPT
-- [Connect Salesforce to ChatGPT](../docs/connect-salesforce-to-chatgpt.md)  --  enterprise CRM in ChatGPT
-- [Connect Shopify to ChatGPT](../docs/connect-shopify-to-chatgpt.md)  --  ecommerce data in ChatGPT
-- [Connect Stripe to ChatGPT](../docs/connect-stripe-to-chatgpt.md)  --  payment data in ChatGPT
-- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP wins
-- [MCP for Enterprise](../docs/mcp-for-enterprise.md)  --  enterprise deployment
-- [MCP for Finance](../docs/mcp-for-finance.md)  --  MCP for finance teams
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
+- [Connect QuickBooks to ChatGPT](connect-quickbooks-to-chatgpt)  --  SMB financial data in ChatGPT
+- [Connect Salesforce to ChatGPT](connect-salesforce-to-chatgpt)  --  enterprise CRM in ChatGPT
+- [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt)  --  ecommerce data in ChatGPT
+- [Connect Stripe to ChatGPT](connect-stripe-to-chatgpt)  --  payment data in ChatGPT
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt)  --  CRM data in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration)  --  the full integration
+- [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
+- [MCP for Enterprise](mcp-for-enterprise)  --  enterprise deployment
+- [MCP for Finance](mcp-for-finance)  --  MCP for finance teams
+- [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
 
 *Connect Connect NetSuite to ChatGPT via MCP  --  Live Data, No Code ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

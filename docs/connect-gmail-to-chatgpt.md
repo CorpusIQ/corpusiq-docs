@@ -63,7 +63,7 @@ Yes. "Extract all dates, amounts, and vendor names from the invoices in my inbox
 <details>
 <summary><strong>Can ChatGPT combine Gmail data with other business tools?</strong></summary>
 
-Absolutely  --  this is where MCP transforms email from an isolated communication tool to a connected business intelligence source. "Show me Gmail conversations with customers who have open HubSpot deals." "Find vendor emails about invoices that match overdue QuickBooks bills." "Search for client feedback emails and cross-reference with their recent Shopify orders." "What internal Gmail discussions reference the Jira issues that are blocking the current sprint?" Email becomes connected to your CRM, financials, ecommerce, and project tools. This cross-source capability is unique to [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md).
+Absolutely  --  this is where MCP transforms email from an isolated communication tool to a connected business intelligence source. "Show me Gmail conversations with customers who have open HubSpot deals." "Find vendor emails about invoices that match overdue QuickBooks bills." "Search for client feedback emails and cross-reference with their recent Shopify orders." "What internal Gmail discussions reference the Jira issues that are blocking the current sprint?" Email becomes connected to your CRM, financials, ecommerce, and project tools. This cross-source capability is unique to [MCP platforms like CorpusIQ](benefits-of-mcp-for-business).
 </details>
 
 <details>
@@ -154,7 +154,7 @@ Gmail's built-in search is fast and effective for finding known messages. MCP wi
 
 1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
 2. **Connect Gmail.** Dashboard → Connections → Google Workspace → sign into Google → authorize gmail.readonly.
-3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](../docs/quick-start.md).
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](quick-start).
 4. **Verify.** Ask "Show me my recent emails from today" to confirm.
 5. **Explore.** Try "Search my inbox for emails about [topic]" or "Summarize my latest email thread with [person]."
 
@@ -162,16 +162,16 @@ Under 5 minutes from signup to email intelligence in ChatGPT.
 
 ## Related Pages
 
-- [Connect Outlook to ChatGPT](../docs/connect-outlook-to-chatgpt.md)  --  Microsoft email in ChatGPT
-- [Connect Slack to ChatGPT](../docs/connect-slack-to-chatgpt.md)  --  team communication in ChatGPT
-- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT
-- [Connect Salesforce to ChatGPT](../docs/connect-salesforce-to-chatgpt.md)  --  enterprise CRM in ChatGPT
-- [Connect Notion to ChatGPT](../docs/connect-notion-to-chatgpt.md)  --  knowledge base in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP wins
-- [MCP for Customer Support](../docs/mcp-for-customer-support.md)  --  MCP for support teams
-- [CorpusIQ Security Architecture](../docs/security/README.md)  --  how data stays safe
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
+- [Connect Outlook to ChatGPT](connect-outlook-to-chatgpt)  --  Microsoft email in ChatGPT
+- [Connect Slack to ChatGPT](connect-slack-to-chatgpt)  --  team communication in ChatGPT
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt)  --  CRM data in ChatGPT
+- [Connect Salesforce to ChatGPT](connect-salesforce-to-chatgpt)  --  enterprise CRM in ChatGPT
+- [Connect Notion to ChatGPT](connect-notion-to-chatgpt)  --  knowledge base in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration)  --  the full integration
+- [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
+- [MCP for Customer Support](mcp-for-customer-support)  --  MCP for support teams
+- [CorpusIQ Security Architecture](security/index)  --  how data stays safe
+- [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
 
 *Connect Connect Gmail to ChatGPT via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

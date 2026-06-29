@@ -69,7 +69,7 @@ Absolutely. "Extract all meeting dates proposed in emails from the last week." "
 <details>
 <summary><strong>Can ChatGPT combine Outlook data with other Microsoft 365 and business tools?</strong></summary>
 
-Yes  --  this is the core value of MCP. "Show me Outlook conversations with people who have upcoming meetings on my calendar" combines email with calendar. "Find vendor emails that reference the SharePoint contract document" spans email and document management. "Show me emails from HubSpot deal contacts and their current deal status" connects email with CRM. "What Outlook discussions reference the Jira tickets blocking this sprint?" links email with project management. The cross-source capability of [MCP platforms like CorpusIQ](../docs/benefits-of-mcp-for-business.md) turns email from an isolated communication channel into a connected business intelligence source.
+Yes  --  this is the core value of MCP. "Show me Outlook conversations with people who have upcoming meetings on my calendar" combines email with calendar. "Find vendor emails that reference the SharePoint contract document" spans email and document management. "Show me emails from HubSpot deal contacts and their current deal status" connects email with CRM. "What Outlook discussions reference the Jira tickets blocking this sprint?" links email with project management. The cross-source capability of [MCP platforms like CorpusIQ](benefits-of-mcp-for-business) turns email from an isolated communication channel into a connected business intelligence source.
 </details>
 
 <details>
@@ -122,7 +122,7 @@ No Outlook search syntax. No folder navigation. No manual message reading.
 
 ### Cross-Source Business Intelligence
 
-"Show me Outlook conversations with HubSpot contacts who have deals closing this month." "Find vendor emails that match overdue QuickBooks invoices." "What customer emails reference the Shopify products with the highest return rates?" Email intelligence connected to CRM, financial, and ecommerce data  --  only possible with [CorpusIQ's multi-source MCP architecture](../docs/benefits-of-mcp-for-business.md).
+"Show me Outlook conversations with HubSpot contacts who have deals closing this month." "Find vendor emails that match overdue QuickBooks invoices." "What customer emails reference the Shopify products with the highest return rates?" Email intelligence connected to CRM, financial, and ecommerce data  --  only possible with [CorpusIQ's multi-source MCP architecture](benefits-of-mcp-for-business).
 
 ## Security: Enterprise-Grade Read-Only by Microsoft Design
 
@@ -156,7 +156,7 @@ Outlook's built-in search is effective for finding known messages by sender, sub
 
 1. **Sign up** at [corpusiq.io](https://www.corpusiq.io)  --  free 30-day trial.
 2. **Connect Outlook.** Dashboard → Connections → Microsoft 365 → sign into Microsoft 365 → authorize Mail.Read permission.
-3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](../docs/quick-start.md).
+3. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](quick-start).
 4. **Verify.** Ask "Show me my recent emails from today" to confirm.
 5. **Explore.** Try "Search my inbox for emails about [topic]" or "Summarize email communication with [person] this month."
 
@@ -164,16 +164,16 @@ Under 5 minutes from signup to enterprise email intelligence in ChatGPT.
 
 ## Related Pages
 
-- [Connect Gmail to ChatGPT](../docs/connect-gmail-to-chatgpt.md)  --  Google email in ChatGPT
-- [Connect SharePoint to ChatGPT](../docs/connect-sharepoint-to-chatgpt.md)  --  Microsoft intranet in ChatGPT
-- [Connect Slack to ChatGPT](../docs/connect-slack-to-chatgpt.md)  --  team communication in ChatGPT
-- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT
-- [Connect Salesforce to ChatGPT](../docs/connect-salesforce-to-chatgpt.md)  --  enterprise CRM in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP wins
-- [MCP for Enterprise](../docs/mcp-for-enterprise.md)  --  enterprise deployment
-- [Outlook Connector Reference](../connectors/outlook.md)  --  technical details
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
+- [Connect Gmail to ChatGPT](connect-gmail-to-chatgpt)  --  Google email in ChatGPT
+- [Connect SharePoint to ChatGPT](connect-sharepoint-to-chatgpt)  --  Microsoft intranet in ChatGPT
+- [Connect Slack to ChatGPT](connect-slack-to-chatgpt)  --  team communication in ChatGPT
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt)  --  CRM data in ChatGPT
+- [Connect Salesforce to ChatGPT](connect-salesforce-to-chatgpt)  --  enterprise CRM in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration)  --  the full integration
+- [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
+- [MCP for Enterprise](mcp-for-enterprise)  --  enterprise deployment
+- [Outlook Connector Reference](connect-outlook-to-chatgpt)  --  technical details
+- [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
 
 *Connect Connect Outlook to ChatGPT via MCP  --  Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

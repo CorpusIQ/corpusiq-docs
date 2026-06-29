@@ -45,7 +45,7 @@ Charges with amounts, status, customer, and metadata. Customers with email, name
 <details>
 <summary><strong>Can ChatGPT reconcile Stripe data with accounting systems?</strong></summary>
 
-Yes  --  reconciliation is one of the strongest use cases. "Does this Stripe payout match what QuickBooks shows?" "Show me Stripe charges that don't have corresponding QuickBooks invoices." "What fees did Stripe deduct from our last payout?" These cross-source reconciliation questions combine Stripe data with QuickBooks data in one ChatGPT response. See our [Stripe connector reference](../connectors/stripe.md) for reconciliation-specific tooling.
+Yes  --  reconciliation is one of the strongest use cases. "Does this Stripe payout match what QuickBooks shows?" "Show me Stripe charges that don't have corresponding QuickBooks invoices." "What fees did Stripe deduct from our last payout?" These cross-source reconciliation questions combine Stripe data with QuickBooks data in one ChatGPT response. See our [Stripe connector reference](connect-stripe-to-chatgpt) for reconciliation-specific tooling.
 </details>
 
 <details>
@@ -124,7 +124,7 @@ No API library to install. No webhooks to configure. No data warehouse to mainta
 
 ### Cross-Source Financial Reconciliation
 
-"Does this month's Stripe revenue match this month's QuickBooks revenue?" "Show me Shopify orders that were paid via Stripe but don't appear in the Stripe charge list." Cross-source reconciliation that catches discrepancies before month-end close. See our [MCP for Finance guide](../docs/mcp-for-finance.md) for more financial reconciliation patterns.
+"Does this month's Stripe revenue match this month's QuickBooks revenue?" "Show me Shopify orders that were paid via Stripe but don't appear in the Stripe charge list." Cross-source reconciliation that catches discrepancies before month-end close. See our [MCP for Finance guide](mcp-for-finance) for more financial reconciliation patterns.
 
 ## Security: Read-Only by API Key Design
 
@@ -160,7 +160,7 @@ Direct API integration is appropriate for custom payment flows, Stripe Connect p
 
 3. **Connect Stripe.** Dashboard → Connections → Stripe → paste your restricted API key.
 
-4. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](../docs/quick-start.md).
+4. **Connect ChatGPT.** Add the CorpusIQ MCP server. See our [Quick Start guide](quick-start).
 
 5. **Verify.** Ask "What's my current Stripe balance?" to confirm the connection.
 
@@ -170,16 +170,16 @@ Setup takes under 5 minutes. No code. No data exports.
 
 ## Related Pages
 
-- [Connect QuickBooks to ChatGPT](../docs/connect-quickbooks-to-chatgpt.md)  --  financial data in ChatGPT
-- [Connect Shopify to ChatGPT](../docs/connect-shopify-to-chatgpt.md)  --  ecommerce data in ChatGPT
-- [Connect HubSpot to ChatGPT](../docs/connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT
-- [Connect NetSuite to ChatGPT](../docs/connect-netsuite-to-chatgpt.md)  --  enterprise ERP data in ChatGPT
-- [Connect Google Analytics to ChatGPT](../docs/connect-google-analytics-to-chatgpt.md)  --  web analytics in ChatGPT
-- [ChatGPT Integration Overview](../docs/chatgpt-integration.md)  --  the full integration
-- [Benefits of MCP for Business](../docs/benefits-of-mcp-for-business.md)  --  why MCP wins
-- [MCP for Finance](../docs/mcp-for-finance.md)  --  MCP for finance teams
-- [Stripe Connector Reference](../connectors/stripe.md)  --  technical details
-- [MCP vs. API Integrations](../docs/mcp-vs-api-integrations.md)  --  detailed comparison
+- [Connect QuickBooks to ChatGPT](connect-quickbooks-to-chatgpt)  --  financial data in ChatGPT
+- [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt)  --  ecommerce data in ChatGPT
+- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt)  --  CRM data in ChatGPT
+- [Connect NetSuite to ChatGPT](connect-netsuite-to-chatgpt)  --  enterprise ERP data in ChatGPT
+- [Connect Google Analytics to ChatGPT](connect-google-analytics-to-chatgpt)  --  web analytics in ChatGPT
+- [ChatGPT Integration Overview](chatgpt-integration)  --  the full integration
+- [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
+- [MCP for Finance](mcp-for-finance)  --  MCP for finance teams
+- [Stripe Connector Reference](connect-stripe-to-chatgpt)  --  technical details
+- [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
 
 *Connect Connect Stripe to ChatGPT via MCP  --  Live Data, No Code | ... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

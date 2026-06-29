@@ -8,7 +8,7 @@ h1: 'Connect SharePoint to Claude: Enterprise Documents Meet AI Intelligence'
 category: Claude Integrations
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/connect-sharepoint-to-claude/
+canonical: https://www.corpusiq.io/docs/connect-sharepoint-to-claude/
 keywords:
 - connect sharepoint to Claude
 - sharepoint Claude integration
@@ -155,7 +155,7 @@ A: Documents with sensitivity labels are accessible, and label metadata is prese
 
 ---
 
-**Next steps:** [Connect SharePoint to Claude now →](https://app.corpusiq.com/connect/sharepoint)
+**Next steps:** [Connect SharePoint to Claude now →](https://corpusiq.io/connect/sharepoint)
 
 *Connect Connect SharePoint to Claude | CorpusIQ MCP Integration f... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

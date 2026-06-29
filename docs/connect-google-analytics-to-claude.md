@@ -123,7 +123,7 @@ Yes. The API returns data based on the property's configured reporting identity 
 
 ---
 
-**Next steps:** [Connect Google Analytics to Claude now →](https://app.corpusiq.com/connect/ga4)
+**Next steps:** [Connect Google Analytics to Claude now →](https://corpusiq.io/connect/ga4)
 
 *Connect Connect Google Analytics to Claude via MCP  --  Live Data, N... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

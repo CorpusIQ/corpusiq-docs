@@ -130,7 +130,7 @@ Only CorpusIQ checks all four boxes.
 
 ## Getting Started with CorpusIQ + ChatGPT
 
-1. **Sign up** at [corpusiq.com](https://corpusiq.com) (free tier available)
+1. **Sign up** at [corpusiq.io](https://corpusiq.io) (free tier available)
 2. **Connect** your first data source (HubSpot, QuickBooks, etc.)
 3. **Copy** your MCP Server URL from the dashboard
 4. **Add** to ChatGPT: Settings → Integrations → MCP Servers

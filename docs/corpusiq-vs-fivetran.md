@@ -149,12 +149,12 @@ A: CorpusIQ  --  2 minutes to connect, instant AI access. Fivetran  --  hours to
 
 Ready to put AI to work on your corpusiq vs fivetran  --  mcp live query vs etl batch pipelines data? 
 
-1. **Sign up** for a [CorpusIQ account](https://app.corpusiq.com/signup)  --  free plan available.
+1. **Sign up** for a [CorpusIQ account](https://corpusiq.io/register)  --  free plan available.
 2. **Connect your data**  --  OAuth 2.0 authentication takes under 60 seconds.
 3. **Start asking questions**  --  use ChatGPT, Claude, or any MCP-compatible AI assistant.
 4. **Scale your usage**  --  add team members, connect more sources, and automate recurring reports.
 
-**[Get started now →](https://app.corpusiq.com/signup)**
+**[Get started now →](https://corpusiq.io/register)**
 
 ## Internal Links
 

@@ -7,7 +7,7 @@ h1: 'AI for KPI Monitoring: Real-Time Metrics at Your Fingertips'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/ai-for-kpi-monitoring/
+canonical: https://www.corpusiq.io/docs/ai-for-kpi-monitoring/
 keywords:
 - AI for kpi monitoring
 - kpi monitoring AI automation
@@ -138,7 +138,7 @@ A: CorpusIQ provides on-demand monitoring. For automated alerts, complement with
 
 ---
 
-**Next steps:** [Start AI-powered KPI monitoring →](https://app.corpusiq.com/signup)
+**Next steps:** [Start AI-powered KPI monitoring →](https://corpusiq.io/register)
 
 *AI-powered AI for KPI Monitoring | CorpusIQ MCP Platform for Metric ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 

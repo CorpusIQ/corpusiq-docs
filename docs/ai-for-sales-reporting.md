@@ -7,7 +7,7 @@ h1: 'AI for Sales Reporting: Pipeline Intelligence in Real Time'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://corpusiq.com/docs/ai-for-sales-reporting/
+canonical: https://www.corpusiq.io/docs/ai-for-sales-reporting/
 keywords:
 - AI for sales reporting
 - sales reporting AI automation
@@ -133,7 +133,7 @@ A: No. All integrations are read-only.
 
 ---
 
-**Next steps:** [Connect your CRM now →](https://app.corpusiq.com/connect)
+**Next steps:** [Connect your CRM now →](https://corpusiq.io/connect)
 
 *AI-powered AI for Sales Reporting | CorpusIQ MCP Platform for Sales ...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*
 
