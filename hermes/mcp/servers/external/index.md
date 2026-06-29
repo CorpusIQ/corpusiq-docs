@@ -181,6 +181,24 @@ Market intelligence data for AI agents via MCP. Query market data, competitive i
 ### MyLinedChart Chart Context ★ New (June 28)
 Read-only MCP server giving AI agents access to live MyLinedChart desktop workspace — chart context, candles, drawings, indicators, and IBKR connection status. Local, private, read-only. First MCP bridge for the MyLinedChart/Interactive Brokers trading ecosystem. Essential for traders and financial operators who use MyLinedChart for technical analysis. `github.com/none298-dotcom/mylinedchart-mcp-chart-context`
 
+### Chytrý Rejstřík ★ New (June 29)
+AI-ready MCP server for comprehensive Czech business intelligence. Search, verify, monitor, and analyze companies using data aggregated from 20+ official public sources — financial statements, ownership structures, legal records, and more. Essential for operators doing due diligence, supplier verification, and competitive research in the Czech market. `chytryrejstrik.cz`
+
+### CryptoGate ★ New (June 29)
+Non-custodial crypto payments for AI assistants. Connect your CryptoGate account to Claude, ChatGPT, or any MCP-compatible assistant to check balances, volume and stats, look up customer payments and invoices, and create crypto payment links on the spot. Read-heavy MCP with zero write risk. Essential for operators running crypto-native businesses who want AI-driven payment operations. `cryptogate.com`
+
+### Delegum ★ New (June 29)
+Spanish tax, labor law, and finance MCP server with 42 tools: IRPF, autónomos, nóminas (payroll), despidos (terminations), herencias (inheritances), pensiones, and hipotecas (mortgages). All calculations follow Spanish regulations. No registration, no API key required. Essential for operators managing Spanish businesses, employees, or personal finances through AI agents. `github.com/meskeIA/delegum`
+
+### Fylings MCP ★ New (June 29)
+African company-intelligence platform for searching, verifying, and monitoring businesses across official company registries. Turns public registries across the continent into clean, free company pages. MCP-native access for AI agents doing African market research, supplier verification, and business intelligence. Essential for operators expanding into or operating in African markets.
+
+### SIMA MCP Server ★ New (June 29)
+Read-only tools for discovering the capabilities of the SIMA protection platform for Solana AI agents, autonomous wallets, and trading bots. Explore SIMA platform features directly from MCP-compatible AI clients. For Solana ecosystem operators and DeFi traders. `sima-prime.com`
+
+### Web3Agent ★ New (June 29)
+Web3 MCP proxy server for AI agents: EVM execution, DeFi swaps, bridges, advanced orders, market data, wallet management, and confirmation-gated writes. First MCP-native Web3 proxy that treats AI agents as first-class blockchain citizens. Essential for operators running AI-driven DeFi strategies, cross-chain operations, and on-chain automation.
+
 ---
 
 ## Document Intelligence
@@ -304,6 +322,12 @@ MCP-native OSINT framework  --  18 intelligence tools (email, username, breach, 
 ### Deckextract ★ New
 DocSend & Papermark MCP server  --  extract decks and convert to PDF or PowerPoint from Claude, Claude Code, ChatGPT, and any MCP client. Document pipeline MCP for operators who share pitch decks, reports, and presentations through DocSend/Papermark and want AI agents to process them.
 
+### AirLabs MCP Server ★ New (June 29)
+Real-time aviation data API via MCP: flight data, airport schedules, delays, and reference databases for airlines, airports, aircraft types, and cities. Lets AI assistants access live aviation intelligence for travel planning, logistics, and flight tracking. Essential for operators in travel, logistics, and aviation who need real-time flight data in their AI workflows. `airlabs.co/docs`
+
+### Minha Morada ★ New (June 29)
+Search 181,000+ real estate listings in Portugal (apartments, houses, land) for sale or rent. Covers all 18 districts with data from Imovirtual, Idealista, and RE/MAX. MCP tools: search properties by location/price/typology, get property details, get market statistics. Essential for operators in real estate investment, relocation, and Portuguese property markets.
+
 ---
 
 ## Commerce & E-Commerce
@@ -374,6 +398,9 @@ Require offline-verifiable human approval before AI agents take irreversible act
 
 ### Averta security ★ New
 MCP gateway security  --  secure every MCP server with one governed gateway. Give each AI agent its own scoped MCP access, contain credentials at the gateway, and audit every MCP tool call without wiring agents directly to each server. Essential for operators running multi-agent, multi-server MCP deployments who need centralized security, credential management, and audit trails.
+
+### Blocktrust TrustScan ★ New (June 29)
+Digital trust verification for AI agents. Verify contact identities, domains, and websites. Detect phishing and invoice fraud. Sign interactions cryptographically (BIS). 15 tools, blockchain-anchored on Polygon. GDPR-compliant. Essential for operators who need AI agents to verify counterparties, detect fraud, and establish cryptographic trust before executing transactions. `github.com/brnbtech770/blocktrust-trustscan`
 
 ---
 
@@ -598,6 +625,24 @@ Create and control isolated cloud sandboxes from any MCP client. Each sandbox is
 ### web-pilot ★ New (June 27)
 8 web tools in one MCP server: fetch any webpage as clean markdown, search the web, extract links/metadata/contacts, parse sitemaps and RSS feeds, batch-check URL statuses. Remote MCP at `https://poetic-rebirth-production-6e26.up.railway.app/sse`. Useful for operators building web-scraping or data collection agent workflows.
 
+### Agent Guild ★ New (June 29)
+A neutral, attack-resistant reputation and trust layer for autonomous AI agents. Lets an agent ask "who is the safest agent for this job?", vet any agent before delegating work or money, and vouch for completed work with cryptographic attestations. Essential for operators building multi-agent systems where agent-to-agent trust, delegation safety, and reputation tracking are critical.
+
+### GGWP API Hub ★ New (June 29)
+189 pay-per-call API endpoints covering Social Media, Jobs, Finance, Crypto, AI Tools, and more. Powered by x402 protocol with USDC payments on Base chain. MCP-native API marketplace that lets AI agents pay for and consume APIs on-demand. Essential for operators who want AI agents to access a wide range of paid APIs through a single MCP gateway with on-chain payments.
+
+### Reqly ★ New (June 29)
+API client built for AI agents. MCP tools for creating collections, running requests, chaining flows, mocking APIs, and exporting CI workflows. Zero cloud dependency — everything runs locally. Essential for operators building AI-driven API testing, integration, and development workflows. `github.com/RutvikPansare/reqly`
+
+### Statewave ★ New (June 29)
+Open-source state management and persistence layer for AI agents. MCP server enables AI assistants to store, retrieve, and manage structured state across sessions, workflows, and external systems through standardized MCP tools. Essential for operators building long-running, stateful AI agent workflows that need reliable persistence across sessions.
+
+### Vynix MCP Server ★ New (June 29)
+AI-powered website feedback, visual bug reporting, and website annotation MCP server. Connect AI coding assistants to Vynix to capture website feedback, create GitHub issues, access project data, and annotate websites directly from MCP clients. Essential for operators managing web development projects who want AI-driven QA and feedback loops.
+
+### Version Pill ★ New (June 29)
+Version management MCP server for AI agents — track and manage software versions, dependencies, and release cycles through standardized MCP tools. Essential for operators running software development workflows with AI agents.
+
 ---
 
 ## Productivity
@@ -733,6 +778,12 @@ Hosted, read-only MCP server for AI voice agent phone intelligence  --  caller i
 ### AgentDocs ★ New (June 27)
 An agent-first office suite your AI reads and writes over MCP — Docs, Sheets, Slides, a Database, Drive, and Notion-style Pages. Sign in with Google; free to start. Remote MCP at `https://getagentdocs.com/mcp`. Essential for operators who want AI agents to create, edit, and manage office documents without leaving their chat interface.
 
+### Formly ★ New (June 29)
+Create, edit, and publish Formly forms from any AI agent — Claude, Cursor, Codex, ChatGPT — in plain language. Formly's AI designs the form structure for you. Essential for operators who need to quickly deploy forms (surveys, lead capture, registrations) through AI agents without manual form builders.
+
+### MemPlato ★ New (June 29)
+Personal MCP server that runs on your Android phone via Termux. 29 tools: drawers, knowledge graph, diary, semantic search, tunnels. All data stored locally on your device — never on external servers. Works with Claude, Perplexity, Cursor, Windsurf, VS Code, Zed. Essential for operators who want a private, personal MCP server on mobile for knowledge management and AI workflows.
+
 ---
 
 
@@ -818,6 +869,9 @@ MCP for ads platforms  --  connect AI agents to advertising APIs for campaign ma
 
 ### DesignForYou ★ New
 Generate finished, on-brand designs  --  logos, social posts, app-store screenshots, comic panels, and visual-novel assets  --  from a prompt. Remote MCP server backed by 119 templates: free browse/recommend tools, metered generation, OAuth sign-in. Works in Claude Code, Cursor, and ChatGPT. Essential for operators who need design assets without a design team.
+
+### Valossa Assistant ★ New (June 29)
+Multimodal video AI MCP server built on a decade of video understanding. Goes end-to-end: ingest a video, understand its content multimodally (visual + audio + text), and produce structured outputs. Unlike video MCPs that stop at search or analysis, Valossa processes video from ingestion to structured intelligence. Essential for operators working with video content at scale — media monitoring, content analysis, compliance review. `valossa.com`
 
 ---
 
@@ -952,6 +1006,9 @@ MCP server for Serpzilla  --  purchase SEO placements (links, articles, reviews)
 ### Sociality MCP ★ New (June 27)
 Social media analytics, post insights, and competitor benchmarking for AI agents. Connect AI with social media intelligence across Facebook, X (Twitter), Instagram, YouTube, LinkedIn, and TikTok. Remote MCP at `https://api.sociality.io/mcp`. Essential for marketing operators who need cross-platform social analytics and competitor monitoring in their AI workflows.
 
+### AdMob MCP ★ New (June 29)
+Google AdMob management, mediation waterfall operations, advanced revenue analysis, and A/B experiments — all directly accessible to MCP-compatible AI clients (Claude Desktop, Cursor, Windsurf, etc.). First MCP server for mobile ad monetization. Essential for operators running mobile apps who want AI-driven ad revenue optimization. `github.com/AbhishekDhobe/admob-mcp`
+
 ---
 
 
@@ -982,6 +1039,9 @@ Memory with drift detection for AI agents  --  detects context staleness and sig
 
 ### Memclaw ★ New ★ Featured
 Governed, shared, self-improving memory for AI agent fleets  --  built for multi-tenant, multi-agent production environments. Apache 2.0. 131 GitHub stars. Production-proven: eToro runs 300+ agents on Memclaw (26,500+ memories, 1,372 shared skills, 23ms p50 search). Features: tenant isolation, visibility scopes (agent/team/org), agent trust tiers (0–3), full audit trails, single-pass LLM enrichment (14 memory types), hybrid search (pgvector + full-text + knowledge graph), contradiction detection, and PII auto-flagging. Managed platform at memclaw.net or self-hosted via Docker. `pip install memclaw-client` or `npm install @caura/memclaw-client`. Essential for operators running fleets of AI agents who need governed, shared memory with production-grade isolation and audit.
+
+### Memory Engine ★ New (June 29)
+Atomic memory model for AI agents — knowledge stored as atoms (facts, decisions, events, preferences, logs, procedures, notes, session messages). Multi-factor ranking combines FTS relevance × confidence × recency × weight (not just BM25). Organic decay and reinforcement over time. Essential for operators building AI agents that need sophisticated, long-term memory with context-aware recall beyond simple vector search. `github.com/SimoneB79/memory-engine`
 
 ---
 
@@ -1688,6 +1748,37 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 **Key Trends:** AI visibility tools (Rampify for SEO, Sleepwalker for GEO) continue expanding as operators shift focus from traditional SEO to AI-engine discoverability. Agent infrastructure (HookSense webhooks, Monet local memory, ShareBench agent marketplace) shows the ecosystem maturing beyond data access into agent-native middleware.
 
+## New This Week (June 29, 2026 — morning sweep)
+
+### 20 new servers from mcp.so Feed
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Chytrý Rejstřík ★ New | Finance/Business Intel | Czech business intelligence — search, verify, monitor companies from 20+ public sources. |
+| CryptoGate ★ New | Finance/Crypto | Non-custodial crypto payments for AI agents — balances, invoices, payment links. |
+| Delegum ★ New | Finance/Legal | 42 Spanish tax, labor law & finance tools. No registration, no API key. |
+| Fylings MCP ★ New | Finance/Business Intel | African company intelligence — search, verify, monitor across official registries. |
+| SIMA MCP Server ★ New | Finance/Crypto | Solana AI agent protection platform — discover platform capabilities via MCP. |
+| Web3Agent ★ New | Finance/Web3 | Web3 proxy for AI agents — EVM, DeFi, swaps, bridges, wallet management. |
+| AirLabs MCP Server ★ New | Research/Travel | Real-time aviation data — flights, airports, schedules, delays. |
+| Minha Morada ★ New | Research/Real Estate | 181K+ Portuguese real estate listings across 18 districts (Imovirtual, Idealista, RE/MAX). |
+| Blocktrust TrustScan ★ New | Compliance/Security | Digital trust verification — identities, domains, phishing detection, cryptographic signing. |
+| Agent Guild ★ New | Dev/Agent Infra | Reputation & trust layer for autonomous AI agents — vet, vouch, delegate safely. |
+| GGWP API Hub ★ New | Dev/API | 189 pay-per-call API endpoints via x402 protocol + USDC on Base. |
+| Reqly ★ New | Dev/API | API client for AI agents — collections, flows, mocking, CI export. Zero cloud dependency. |
+| Statewave ★ New | Dev/Agent Infra | Open-source state management & persistence for AI agents across sessions. |
+| Vynix MCP Server ★ New | Dev/QA | Website feedback, visual bug reporting & annotation for AI coding assistants. |
+| Version Pill ★ New | Dev/Infra | Version management MCP for AI agents — track dependencies and releases. |
+| Formly ★ New | Productivity | Create & publish forms from AI agents in plain language. |
+| MemPlato ★ New | Productivity/Mobile | Personal MCP on Android (Termux) — 29 tools, all local storage. |
+| Valossa Assistant ★ New | Creative/Video | Multimodal video AI — ingestion to structured intelligence, decade of video R&D. |
+| AdMob MCP ★ New | Marketing/Ads | Google AdMob management, mediation, revenue analysis & A/B experiments. |
+| Memory Engine ★ New | Memory/Knowledge | Atomic memory model with multi-factor ranking, decay, and reinforcement. |
+
+**Key Trends:** Regional business intelligence MCPs expanding rapidly (Czech Republic, Africa, Spain, Portugal). Agent-native infrastructure growing: reputation layers (Agent Guild), state management (Statewave), crypto payment rails (CryptoGate, GGWP). Mobile MCP (MemPlato on Android) signals the extension of MCP beyond desktop agents. Video AI goes end-to-end (Valossa) beyond simple search/transcription.
+
+---
+
 ## New This Week (June 28, 2026 — afternoon sweep)
 
 ### 18 new servers from mcp.so Feed
@@ -1723,8 +1814,8 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this sweep (June 28 evening):** 7 new MCP servers — from mcpservers.org Homepage
-- **Cumulative since June 9:** 450 MCP servers catalogued across 30 sweeps
+- **New this sweep (June 29 morning):** 20 new MCP servers — from mcp.so Feed
+- **Cumulative since June 9:** 471 MCP servers catalogued across 31 sweeps
 
 ---
 
