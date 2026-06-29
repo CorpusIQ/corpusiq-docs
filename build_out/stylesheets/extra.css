@@ -1,0 +1,28 @@
+/* CorpusIQ brand colors for MkDocs Material theme */
+:root {
+  --md-primary-fg-color: #0a2540;
+  --md-primary-fg-color--light: #1e3a5f;
+  --md-primary-fg-color--dark: #061829;
+  --md-accent-fg-color: #c9a961;
+  --md-accent-fg-color--transparent: rgba(201, 169, 97, 0.1);
+}
+
+.md-typeset a { color: #c9a961; }
+.md-typeset a:hover { color: #b8942f; }
+.md-header { background: linear-gradient(135deg, #0a2540 0%, #1e3a5f 100%); }
+.md-typeset code { border-radius: 4px; }
+.md-typeset pre > code { border-radius: 6px; }
+
+/* ── Hermes section separator: big, bold, gold border ── */
+.md-nav__link[href="hermes/index.html"] {
+  font-weight: 800 !important;
+  font-size: 1.2em !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  color: #0a2540 !important;
+}
+li.md-nav__item:has(> .md-nav__link[href="hermes/index.html"]) {
+  margin-top: 20px !important;
+  padding-top: 16px !important;
+  border-top: 3px solid #c9a961 !important;
+}

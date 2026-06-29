@@ -1,0 +1,58 @@
+{
+  "run_time": "2026-06-29T05:04:57.892797+00:00",
+  "new_approved": [
+    {
+      "name": "mage0535/hermes-memory-installer",
+      "url": "https://github.com/mage0535/hermes-memory-installer",
+      "description": "\ud83e\udde0 Production-grade memory sidecar for AI agents \u2014 gbrain + Hindsight + 3-tier recall. Agent-agnostic, battle-tested. | \u751f\u4ea7\u7ea7\u5916\u6302\u8bb0\u5fc6\u7cfb\u7edf\uff0c\u517c\u5bb9Hermes/Claude/Cursor\u7b49\u4efb\u610fAI\u667a\u80fd\u4f53",
+      "stars": 165,
+      "forks": 9,
+      "language": "Python",
+      "topics": [
+        "agent-memory",
+        "ai-agent",
+        "claude-code",
+        "cli",
+        "codex",
+        "cursor",
+        "gbrain",
+        "hermes",
+        "hindsight",
+        "knowledge-graph",
+        "llm",
+        "memory",
+        "multi-agent",
+        "production",
+        "python",
+        "rag",
+        "retrieval",
+        "semantic-search",
+        "sidecar",
+        "vector-memory"
+      ],
+      "updated_at": "2026-06-29T05:04:24Z",
+      "category": "forks",
+      "score": 75,
+      "tier": "AUTO_APPROVE",
+      "score_reasons": [
+        "hermes_mention",
+        "agent_ecosystem",
+        "moderate_stars_100+",
+        "detailed_description",
+        "active_week",
+        "has_homepage"
+      ],
+      "near_duplicates": [],
+      "discovered_at": "2026-06-29T05:04:39.628217+00:00",
+      "status": "approved",
+      "approved_at": "2026-06-29T05:04:57.880204+00:00"
+    }
+  ],
+  "stats": {
+    "total_found": 14,
+    "auto_approved": 1,
+    "pending_review": 13,
+    "total_approved": 136,
+    "total_pending": 390
+  }
+}
