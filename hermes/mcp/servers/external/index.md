@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 28, 2026 (afternoon sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 28, 2026 (evening sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
 
 ---
 
@@ -175,6 +175,12 @@ Anchor AI FinOps to real, live cloud pricing. Multi-cloud MCP server for AWS, GC
 ### Quotor ★ New (June 26)
 Real, bindable home & auto insurance quotes via MCP  --  actual carrier rates, not estimates. Texas market with expansion planned. 11 tools with carrier-masked options and human-completed bind. Essential for insurance operators and fintech platforms integrating quote flows into AI agent workflows.
 
+### Fahali ★ New (June 28)
+Market intelligence data for AI agents via MCP. Query market data, competitive intelligence, and business insights directly from AI assistants. Essential for operators who need AI-driven market research and competitive analysis without manual data gathering. `github.com/BobMain-2025/fahali-mcp`
+
+### MyLinedChart Chart Context ★ New (June 28)
+Read-only MCP server giving AI agents access to live MyLinedChart desktop workspace — chart context, candles, drawings, indicators, and IBKR connection status. Local, private, read-only. First MCP bridge for the MyLinedChart/Interactive Brokers trading ecosystem. Essential for traders and financial operators who use MyLinedChart for technical analysis. `github.com/none298-dotcom/mylinedchart-mcp-chart-context`
+
 ---
 
 ## Document Intelligence
@@ -225,6 +231,9 @@ Extract timestamped YouTube transcripts, video search, metadata, and related-vid
 
 ### Hacker News MCP ★ by NeCL
 Access Hacker News data for AI agents: top stories, story details, comments thread, full-text search via Algolia. No API key required  --  public HN API. Built for content research, trend monitoring, and prompt enrichment. By Neural Engineering & Cognitive Logic (neclco.com).
+
+### HumanTone ★ New (June 28)
+Official MCP server for HumanTone. Humanize AI-generated text and check AI likelihood directly from Claude Desktop, Cursor, Cline, and other MCP clients. Growing category as AI content detection becomes standard — essential for operators who use AI-generated content but need it to pass as human-written for publishing, outreach, and brand communications. `github.com/HumanTone/humantone-mcp`
 
 ### NotebookLM MCP ★ New
 Let CLI agents (Claude, Cursor, Codex) chat directly with NotebookLM for zero-hallucination answers based on your own notebooks. Ground-truth research from Google's NotebookLM. `npx -y @pleaseprompto/notebooklm-mcp`
@@ -328,6 +337,15 @@ Japanese SMB SaaS connectors via MCP  --  30+ tools for KING OF TIME (attendance
 
 ### OnePageCRM ★ New
 Full CRM operations via MCP for OnePageCRM users. Create, search, update, and manage contacts, companies, deals, and notes directly from AI agents. Essential for sales operators using OnePageCRM who want AI-driven pipeline management and customer relationship workflows without switching between tools.
+
+### E-commerce Fashion Market Analysis ★ New (June 28)
+Fashion vertical MCP server — SEO audits, trend analysis, competitor monitoring, and ad copy generation for fashion e-commerce. Includes 12 playbook skills for AI agents. First fashion-industry-specific MCP server combining SEO, trends, and competitor intelligence in one agent toolkit. Essential for fashion e-commerce operators and DTC brands. `github.com/alexgenovese/ecommerce-fashion-market-analysis`
+
+### Neuron ★ New (June 28)
+WhatsApp automation platform with 120+ MCP tools for AI chatbots, broadcasts, campaigns, contact management, knowledge bases, and newsletters. First MCP-native WhatsApp marketing platform. Essential for operators in WhatsApp-first markets (LATAM, India, SEA, Africa) who want AI-driven customer communication, marketing automation, and chatbot deployment on the world's #1 messaging platform. `neuron.ng`
+
+### mailcue-mcp ★ New (June 28)
+Give AI agents their own local mailbox to read, send, and triage email via MCP. Lightweight email automation for AI agents — simpler than full Gmail/Outlook MCP servers, no heavy OAuth setup required. Ideal for operators who want AI-driven email triage and response without connecting to production email infrastructure. `github.com/Olib-AI/mailcue`
 
 ---
 
@@ -510,6 +528,9 @@ Agent-native hub (tani.ai)  --  AI agents discover capabilities in a trust-score
 
 ### SeedBase ★ New
 Synthetic test data generation for databases. Generate realistic, FK-consistent test data from AI agents. List projects, get schema DDL, generate datasets as SQL. Ideal for operators who need test data without production exposure.
+
+### StartupKit ★ New (June 28)
+Agent-native MCP+CLI platform for business infrastructure — domain search, SEO analytics, keyword research, Google Trends, and app store intelligence. All-in-one business research toolkit for operators launching or scaling products. Combines domain availability, SEO metrics, keyword trends, and competitive app store data in one MCP server. Essential for founders, growth operators, and product managers. `github.com/01-studio/startupkit`
 
 ### Query Streams MCP ★ Official ★ New
 Securely connect MCP clients to live databases through the Query Streams Cloud Network  --  no VPNs, inbound ports, or complex setup required. Official MCP server for database access from AI agents. Essential for operators who need AI agents to query, analyze, and work with production databases securely without exposing infrastructure.
@@ -1702,8 +1723,8 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this sweep (June 28 afternoon):** 18 new MCP servers — from mcp.so Feed
-- **Cumulative since June 9:** 443 MCP servers catalogued across 29 sweeps
+- **New this sweep (June 28 evening):** 7 new MCP servers — from mcpservers.org Homepage
+- **Cumulative since June 9:** 450 MCP servers catalogued across 30 sweeps
 
 ---
 
