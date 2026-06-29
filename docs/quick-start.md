@@ -1,11 +1,5 @@
 ---
-description: >-
-  Get your first CorpusIQ query running in under five minutes  --  sign up,
-  connect a business tool, and ask a natural-language question with cited
-  answers.
----
-
-title: "CorpusIQ Quick Start Guide  --  Connect Business Data to AI in 5 Minutes"
+title: "CorpusIQ Quick Start Guide — Connect Business Data to AI in 5 Minutes"
 description: "Get your first CorpusIQ query running in under 5 minutes. Step-by-step guide: sign up, connect business tools via OAuth, get API token, and query CRM, accounting, or analytics with natural language."
 category: "Documentation"
 tags: ["corpusiq quick start", "setup guide", "connect data to ai", "mcp setup", "oauth connection", "api token", "first query"]
@@ -166,11 +160,4 @@ A: Go to Dashboard → Settings → API, click Generate Token, and copy it. Stor
 - **[CorpusIQ Changelog](/docs/changelog)**  --  API updates and version history  
 - **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption and network security  
 
-*Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
----
-
-*
-
----
-
-*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+*Powered by CorpusIQ.*
