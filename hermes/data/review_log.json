@@ -2643,5 +2643,103 @@
     "tier": "AUTO_APPROVE",
     "action": "auto_approved",
     "timestamp": "2026-06-28T08:04:58.839262+00:00"
+  },
+  {
+    "repo": "Postergully/finny-claude-plugin",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T05:04:57.880220+00:00"
+  },
+  {
+    "repo": "mrinolife/HermesClient",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T05:04:57.880223+00:00"
+  },
+  {
+    "repo": "kcemate/otto-procurement-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T05:04:57.880225+00:00"
+  },
+  {
+    "repo": "R2129487/hermes-xiaoxi",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T05:04:57.880227+00:00"
+  },
+  {
+    "repo": "storm-credit/ai-knowledge-assistant",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T05:04:57.880229+00:00"
+  },
+  {
+    "repo": "lunarnexus/cloakbrowser-hermes-plugin",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T05:04:57.880231+00:00"
+  },
+  {
+    "repo": "thomkozik/hermes-yt_transcriber-mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T05:04:57.880232+00:00"
+  },
+  {
+    "repo": "rafael-fae/hermes-ct2",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T05:04:57.880234+00:00"
+  },
+  {
+    "repo": "PhilipAD/health-export-mcp",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T05:04:57.880236+00:00"
+  },
+  {
+    "repo": "HomodeusAI/homodeus-hermes-stack",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T05:04:57.880238+00:00"
+  },
+  {
+    "repo": "mage0535/hermes-memory-installer",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-06-29T05:04:57.880240+00:00"
+  },
+  {
+    "repo": "idearoom/hermes-agent-dorvis",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T05:04:57.880242+00:00"
+  },
+  {
+    "repo": "lovicho/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T05:04:57.880244+00:00"
+  },
+  {
+    "repo": "AtharvaPagar04/weather-market-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-29T05:04:57.880246+00:00"
   }
 ]

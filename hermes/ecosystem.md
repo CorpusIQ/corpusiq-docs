@@ -5,9 +5,9 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 # Hermes Ecosystem  --  Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 443+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 444+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** June 28, 2026 · **Repos indexed:** 443+ · **Categories:** 18
+> **Last updated:** June 29, 2026 · **Repos indexed:** 444+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -33,7 +33,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 443+ re
 | [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
 | [Platform-Specific](#-platform-specific) | 11 | [↓](#-platform-specific) |
 | [Domain Applications](#-domain-applications) | 22 | [↓](#-domain-applications) |
-| [Forks & Derivatives](#-forks--derivatives) | 7 | [↓](#-forks--derivatives) |
+| [Forks & Derivatives](#-forks--derivatives) | 8 | [↓](#-forks--derivatives) |
 | [Guides](#-guides) | 2 | [↓](#-guides) |
 
 ---
@@ -3849,6 +3849,17 @@ RDF parse data for NousResearch/hermes-paperclip-adapter
 
 ---
 
+### mage0535/hermes-memory-installer
+⭐ **165** · `Python` · [github.com/mage0535/hermes-memory-installer](https://github.com/mage0535/hermes-memory-installer)
+
+Production-grade memory sidecar for AI agents — gbrain + Hindsight + 3-tier recall. Agent-agnostic, battle-tested. Compatible with Hermes, Claude, Cursor, and any AI agent.
+
+**Status:** Active · **Forks:** 9  
+**Key capabilities:** Agent memory, knowledge graph, semantic search, vector memory, 3-tier recall, gbrain, production-grade  
+**Related:** [Memory & Knowledge →](#-memory--knowledge)
+
+---
+
 ## 📖 Guides
 
 Community-maintained guides, wikis, and deployment references.
@@ -3877,7 +3888,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 407 |
+| Total repos indexed | 408 |
 | Categories | 18 |
 | Official Nous Research repos | 4 |
 | Community awesome lists | 21 |
@@ -3889,7 +3900,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 | Research/benchmark projects | 12 |
 | Deployment & infra projects | 21 |
 | Domain applications | 22 |
-| Forks & derivatives | 7 |
+| Forks & derivatives | 8 |
 | Language-specific resources | 12 (10 CN, 1 JP, 1 EN) |
 | Total community stars | 1M+ across all indexed repos |
 

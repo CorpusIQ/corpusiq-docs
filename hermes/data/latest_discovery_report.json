@@ -1,57 +1,58 @@
 {
-  "run_time": "2026-06-28T08:04:58.851533+00:00",
+  "run_time": "2026-06-29T05:04:57.892797+00:00",
   "new_approved": [
     {
-      "name": "codegraphtheory/chainforge",
-      "url": "https://github.com/codegraphtheory/chainforge",
-      "description": "Installable Hermes Agent profile for a security-first blockchain architect specializing in smart contracts, Solidity, Solana, DeFi, audits, governance, and tokenomics.",
-      "stars": 8,
-      "forks": 3,
+      "name": "mage0535/hermes-memory-installer",
+      "url": "https://github.com/mage0535/hermes-memory-installer",
+      "description": "\ud83e\udde0 Production-grade memory sidecar for AI agents \u2014 gbrain + Hindsight + 3-tier recall. Agent-agnostic, battle-tested. | \u751f\u4ea7\u7ea7\u5916\u6302\u8bb0\u5fc6\u7cfb\u7edf\uff0c\u517c\u5bb9Hermes/Claude/Cursor\u7b49\u4efb\u610fAI\u667a\u80fd\u4f53",
+      "stars": 165,
+      "forks": 9,
       "language": "Python",
       "topics": [
-        "agent-profile",
+        "agent-memory",
         "ai-agent",
-        "auditing",
-        "blockchain",
-        "built-from-hermes-profile-template",
-        "defi",
-        "developer-tools",
-        "ethereum",
-        "governance",
-        "hermes-agent",
-        "profile-distribution",
-        "security",
-        "smart-contracts",
-        "solana",
-        "solidity",
-        "tokenomics",
-        "web3"
+        "claude-code",
+        "cli",
+        "codex",
+        "cursor",
+        "gbrain",
+        "hermes",
+        "hindsight",
+        "knowledge-graph",
+        "llm",
+        "memory",
+        "multi-agent",
+        "production",
+        "python",
+        "rag",
+        "retrieval",
+        "semantic-search",
+        "sidecar",
+        "vector-memory"
       ],
-      "updated_at": "2026-06-27T23:04:19Z",
-      "category": "security",
-      "score": 74,
+      "updated_at": "2026-06-29T05:04:24Z",
+      "category": "forks",
+      "score": 75,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
-        "direct_hermes_reference",
+        "hermes_mention",
         "agent_ecosystem",
+        "moderate_stars_100+",
         "detailed_description",
         "active_week",
-        "has_homepage",
-        "niche_specialized"
+        "has_homepage"
       ],
-      "near_duplicates": [
-        "longyunfeigu/learn-hermes-agent"
-      ],
-      "discovered_at": "2026-06-28T08:04:55.522281+00:00",
+      "near_duplicates": [],
+      "discovered_at": "2026-06-29T05:04:39.628217+00:00",
       "status": "approved",
-      "approved_at": "2026-06-28T08:04:58.839226+00:00"
+      "approved_at": "2026-06-29T05:04:57.880204+00:00"
     }
   ],
   "stats": {
-    "total_found": 12,
+    "total_found": 14,
     "auto_approved": 1,
-    "pending_review": 11,
-    "total_approved": 135,
-    "total_pending": 377
+    "pending_review": 13,
+    "total_approved": 136,
+    "total_pending": 390
   }
 }

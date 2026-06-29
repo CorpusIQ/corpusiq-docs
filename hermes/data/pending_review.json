@@ -10654,5 +10654,315 @@
     ],
     "discovered_at": "2026-06-28T08:04:51.978580+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Postergully/finny-claude-plugin",
+    "url": "https://github.com/Postergully/finny-claude-plugin",
+    "description": "Cowork-side plugin and MCP bridge for Finny (Hermes Bedrock agent)",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-06-29T05:03:12Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-29T05:04:07.026798+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mrinolife/HermesClient",
+    "url": "https://github.com/mrinolife/HermesClient",
+    "description": "Native iOS client for Hermes Agent WebUI",
+    "stars": 0,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "updated_at": "2026-06-29T05:03:14Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-29T05:04:10.028682+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kcemate/otto-procurement-agent",
+    "url": "https://github.com/kcemate/otto-procurement-agent",
+    "description": "Hermes MoA agent-run SaaS procurement savings micro-business for the Nous x NVIDIA x Stripe hackathon",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-29T05:01:24Z",
+    "category": "core",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-29T05:04:13.031231+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "R2129487/hermes-xiaoxi",
+    "url": "https://github.com/R2129487/hermes-xiaoxi",
+    "description": "Xiaoxi \u2014 Hermes Agent Voice and Vision Integration Solution \u00b7 ESP32 Hardware Side + Agent Backend(\u5c0f\u5e0c \u2014 Hermes Agent \u8bed\u97f3\u4e0e\u89c6\u89c9\u63a5\u5165\u65b9\u6848 \u00b7 ESP32\u786c\u4ef6\u7aef + Agent\u540e\u7aef)",
+    "stars": 2,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-29T05:00:53Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-29T05:04:16.033481+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "storm-credit/ai-knowledge-assistant",
+    "url": "https://github.com/storm-credit/ai-knowledge-assistant",
+    "description": "\uac1c\uc778 AI \uc9c0\uc2dd \ube44\uc11c \u2014 \ub9e4\uc77c AI \uc815\ubcf4 \uc790\ub3d9 \uc218\uc9d1\u00b7\uc694\uc57d\u00b7\uc800\uc7a5 (Hermes Agent \uae30\ubc18). PM \ubb38\uc11c + \uc7ac\uc0ac\uc6a9 \ud50c\ub808\uc774\ubd81 \ud3ec\ud568.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-29T04:59:50Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-29T05:04:19.036176+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lunarnexus/cloakbrowser-hermes-plugin",
+    "url": "https://github.com/lunarnexus/cloakbrowser-hermes-plugin",
+    "description": "Hermes plugin that routes browser_* tools through CloakBrowser MCP.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-29T04:02:38Z",
+    "category": "mcp",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-29T05:04:22.831456+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "thomkozik/hermes-yt_transcriber-mcp",
+    "url": "https://github.com/thomkozik/hermes-yt_transcriber-mcp",
+    "description": "YouTube transcription MCP for Hermes & Obsidian",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-29T02:23:32Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-29T05:04:25.833998+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rafael-fae/hermes-ct2",
+    "url": "https://github.com/rafael-fae/hermes-ct2",
+    "description": "CT2 \u2014 Control Tower para equipes Hermes Agent. API REST + MCP + Plugin Dashboard.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-29T02:12:41Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-29T05:04:28.836399+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "PhilipAD/health-export-mcp",
+    "url": "https://github.com/PhilipAD/health-export-mcp",
+    "description": "Apple Health MCP server: query 190 HealthKit metrics from Claude, ChatGPT, Cursor, OpenClaw, Hermes & any AI agent \u2014 zero-dependency, local-first.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agents",
+      "apple-health",
+      "apple-watch",
+      "chatgpt",
+      "claude",
+      "cursor",
+      "data-export",
+      "health-data",
+      "healthkit",
+      "hrv",
+      "ios",
+      "json",
+      "llm",
+      "local-first",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "privacy",
+      "quantified-self"
+    ],
+    "updated_at": "2026-06-29T00:39:06Z",
+    "category": "mcp",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/shellward",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "ksimback/hermes-atlas-mcp"
+    ],
+    "discovered_at": "2026-06-29T05:04:31.838901+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "HomodeusAI/homodeus-hermes-stack",
+    "url": "https://github.com/HomodeusAI/homodeus-hermes-stack",
+    "description": "HomoDeus Hermes Agent stack, skills, plugin, and GBrain team installer",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-28T18:53:23Z",
+    "category": "skills",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-29T05:04:35.739409+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "idearoom/hermes-agent-dorvis",
+    "url": "https://github.com/idearoom/hermes-agent-dorvis",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-23T21:37:26Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent"
+    ],
+    "discovered_at": "2026-06-29T05:04:42.631288+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lovicho/hermes-agent",
+    "url": "https://github.com/lovicho/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-29T05:02:11Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-06-29T05:04:45.634529+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "AtharvaPagar04/weather-market-agent",
+    "url": "https://github.com/AtharvaPagar04/weather-market-agent",
+    "description": "Hermes-powered weather prediction market research agent with Apify weather data, Polymarket paper trading, risk management, dashboard planning, and evaluation docs.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-28T19:00:16Z",
+    "category": "research",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "mrbooboo1987-creator/hermes-grok-trading-system"
+    ],
+    "discovered_at": "2026-06-29T05:04:52.725858+00:00",
+    "status": "pending"
   }
 ]
