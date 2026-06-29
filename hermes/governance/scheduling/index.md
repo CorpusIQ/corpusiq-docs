@@ -1,3 +1,8 @@
+---
+title: "Index"
+description: "Documentation page for Index."
+---
+
 # Production Cron Reference Architecture
 
 Production crons run this agent autonomously 24/7. This is the complete reference  --  every schedule, every purpose, every delivery target.

@@ -1,3 +1,8 @@
+---
+title: "Seo And Content"
+description: "Documentation page for Seo And Content."
+---
+
 # SEO and content prompts
 
 Powered by **Google Search Console**, **Semrush**, and **YouTube**. Joined

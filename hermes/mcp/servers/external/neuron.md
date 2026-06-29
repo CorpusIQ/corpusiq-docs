@@ -1,3 +1,8 @@
+---
+title: "Neuron MCP Server"
+description: "External MCP server: Neuron — reference and integration details."
+---
+
 # Neuron — WhatsApp MCP Integration Guide
 
 ## Overview

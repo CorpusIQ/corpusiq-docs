@@ -3981,7 +3981,7 @@ Browse the [Quick Navigation](#-quick-navigation) table above to jump to any of 
 
 ### How do I submit my Hermes project to the ecosystem?
 
-**[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)**  --  takes 60 seconds. Include the repo URL, description, and suggested category. Submissions are reviewed within 48 hours and accepted repos appear in this directory with your GitHub handle credited. See the [Contributors page](/hermes/contributors.md) for full guidelines.
+**[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)**  --  takes 60 seconds. Include the repo URL, description, and suggested category. Submissions are reviewed within 48 hours and accepted repos appear in this directory with your GitHub handle credited. See the [Contributors page](/hermes/contributors/) for full guidelines.
 
 ### What are the most popular Hermes Agent tools?
 
@@ -3994,9 +3994,9 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 ## Related Pages
 
 - [Hermes Knowledge Hub  --  Production Deployment](/hermes/)
-- [Documentation Index  --  Complete Reference](/hermes/index.md)
+- [Documentation Index  --  Complete Reference](/hermes/)
 - [Agent Library  --  9 Role Configurations](/hermes/agents/)
-- [Community Contributors  --  Join the Directory](/hermes/contributors.md)
+- [Community Contributors  --  Join the Directory](/hermes/contributors/)
 - [Skills Catalog  --  133+ Production Skills](/hermes/skills/catalog/)
 - [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
 - [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)

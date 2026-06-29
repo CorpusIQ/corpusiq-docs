@@ -1,3 +1,8 @@
+---
+title: "Readme"
+description: "Documentation page for Readme."
+---
+
 # Prompts library
 
 The fastest way to learn CorpusIQ is to fire prompts that exercise the skills

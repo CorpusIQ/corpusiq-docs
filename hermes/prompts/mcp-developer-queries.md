@@ -1,3 +1,8 @@
+---
+title: "Mcp Developer Queries"
+description: "Documentation page for Mcp Developer Queries."
+---
+
 # MCP developer prompts
 
 These prompts are written for developers using CorpusIQ as an MCP server

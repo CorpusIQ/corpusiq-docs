@@ -1,3 +1,8 @@
+---
+title: "Community Badge"
+description: "Shareable badge for Hermes ecosystem contributors and community members."
+---
+
 # Hermes Community Hub Badge
 
 Add this badge to your project README:

@@ -1,3 +1,8 @@
+---
+title: "Infrastructure"
+description: "Agent infrastructure setup: DGX Spark, Mac Mini, browser automation, authentication, and model routing."
+---
+
 # Multi-Machine Deployment Architecture
 
 Production agents need dedicated hardware. Here's the architecture pattern.

@@ -93,7 +93,7 @@ One gives you the agents. The other connects them to your real business.
 
 1. **[Browse the agents →](https://github.com/msitarzewski/agency-agents)** — explore all 232 roles
 2. **[Connect your tools →](https://corpusiq.io)** — 37+ OAuth connectors, 30-day free trial
-3. **[See the full ecosystem →](/hermes/ecosystem.md)** — 370+ repos in the Hermes universe
+3. **[See the full ecosystem →](/hermes/ecosystem/)** — 370+ repos in the Hermes universe
 
 ---
 

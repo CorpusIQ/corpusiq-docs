@@ -1,3 +1,8 @@
+---
+title: "Revenue And Finance"
+description: "Documentation page for Revenue And Finance."
+---
+
 # Revenue and finance prompts
 
 Money questions. Powered mostly by **QuickBooks**, with assists from

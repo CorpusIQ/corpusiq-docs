@@ -1,3 +1,8 @@
+---
+title: "Launch Plan"
+description: "Launch strategy and execution plan for Hermes community ecosystem."
+---
+
 # Viktor-Style Launch Plan  --  CorpusIQ
 
 ## What We Already Have (that Viktor didn't at launch)

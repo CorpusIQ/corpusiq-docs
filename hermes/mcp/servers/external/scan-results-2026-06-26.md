@@ -1,3 +1,8 @@
+---
+title: "MCP Server Scan Results — 2026-06-26"
+description: "Automated MCP server discovery scan results for 2026-06-26."
+---
+
 # MCP Server Directory Scan — June 26, 2026
 ## Quick afternoon sweep — checking for new servers since June 25 scan
 

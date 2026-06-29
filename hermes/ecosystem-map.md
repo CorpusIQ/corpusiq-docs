@@ -156,7 +156,7 @@ xychart-beta
 | 9 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | 28,359 | Orchestration |
 | 10 | [garrytan/gbrain](https://github.com/garrytan/gbrain) | 22,991 | Memory |
 
-[Full 121+ repo directory →](/hermes/ecosystem.md)
+[Full 121+ repo directory →](/hermes/ecosystem/)
 
 ## Data Flow
 

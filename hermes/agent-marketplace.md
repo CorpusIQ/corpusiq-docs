@@ -1,3 +1,8 @@
+---
+title: "Hermes Agent Marketplace — 440+ Tools & Resources"
+description: "Complete directory of Hermes Agent tools, MCP servers, skills, SDKs, and community resources."
+---
+
 # AI Agent Marketplace
 
 The largest collection of AI agents on the internet. 232 specialized agents across 16 divisions. One click install. Then connect them to your real business data with CorpusIQ.

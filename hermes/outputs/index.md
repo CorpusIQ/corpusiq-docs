@@ -102,7 +102,7 @@ The [Copy-Paste Cron Templates](workflows/templates.md) are designed for **deplo
 
 ### How do I contribute my own implementation patterns?
 
-The community grows stronger with every documented use case. If you've built a Hermes automation that solved a real problem, consider [submitting it as a contribution](/hermes/contributors.md). Include your cron schedule, skill description, data sources, and the business problem it solves.
+The community grows stronger with every documented use case. If you've built a Hermes automation that solved a real problem, consider [submitting it as a contribution](/hermes/contributors/). Include your cron schedule, skill description, data sources, and the business problem it solves.
 
 ## Related Pages
 
@@ -110,7 +110,7 @@ The community grows stronger with every documented use case. If you've built a H
 - [Agent Library  --  9 Role Configurations](/hermes/agents/)
 - [Architecture  --  6-Layer Production Model](/hermes/architecture/)
 - [Cron Scheduling Guide  --  38 Production Crons](/hermes/governance/scheduling/)
-- [Contributor Guide  --  Share Your Patterns](/hermes/contributors.md)
+- [Contributor Guide  --  Share Your Patterns](/hermes/contributors/)
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

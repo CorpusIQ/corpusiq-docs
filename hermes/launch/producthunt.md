@@ -1,3 +1,8 @@
+---
+title: "Product Hunt Launch Plan"
+description: "Product Hunt launch strategy, timeline, and execution checklist for Hermes community tools."
+---
+
 ## Tagline
 CorpusIQ  --  The intelligence layer that owns your data pipeline. Viktor outsources theirs.
 

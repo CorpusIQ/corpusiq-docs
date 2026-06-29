@@ -17,7 +17,7 @@ The **Hermes Ecosystem Directory** is the most comprehensive collection of Herme
 
 ## Overview
 
-**This is a community-built resource.** The directory grows through submissions from developers, operators, and researchers who've built something useful on Hermes. Submissions are reviewed within 48 hours and accepted repos appear in the [ecosystem directory](/hermes/ecosystem.md) with full submitter credit.
+**This is a community-built resource.** The directory grows through submissions from developers, operators, and researchers who've built something useful on Hermes. Submissions are reviewed within 48 hours and accepted repos appear in the [ecosystem directory](/hermes/ecosystem/) with full submitter credit.
 
 | Metric | Value |
 |--------|-------|
@@ -68,7 +68,7 @@ Every submission must meet our [inclusion criteria](https://github.com/CorpusIQ/
 
 ### How do I submit a Hermes repository to the ecosystem directory?
 
-Use the [submission form](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml). Include the repo URL, a description, and a category. Submissions are reviewed within 48 hours and accepted repos appear in the [ecosystem directory](/hermes/ecosystem.md) with your GitHub handle credited.
+Use the [submission form](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml). Include the repo URL, a description, and a category. Submissions are reviewed within 48 hours and accepted repos appear in the [ecosystem directory](/hermes/ecosystem/) with your GitHub handle credited.
 
 ### What types of repositories are accepted?
 
@@ -84,11 +84,11 @@ Yes. You can **review pending submissions**, open PRs with category improvements
 
 ### Where do accepted submissions appear?
 
-Accepted repos are added to the [Hermes Ecosystem Directory](/hermes/ecosystem.md)  --  categorized by type (core, UI, memory, MCP, skills, deployment, research, etc.) with star counts, descriptions, and your GitHub handle as the submitter.
+Accepted repos are added to the [Hermes Ecosystem Directory](/hermes/ecosystem/)  --  categorized by type (core, UI, memory, MCP, skills, deployment, research, etc.) with star counts, descriptions, and your GitHub handle as the submitter.
 
 ## Related Pages
 
-- [Hermes Ecosystem Directory  --  234+ Repos](/hermes/ecosystem.md)
+- [Hermes Ecosystem Directory  --  234+ Repos](/hermes/ecosystem/)
 - [Hermes Knowledge Hub  --  Production Reference](/hermes/)
 - [Skills Catalog  --  133+ Skills](/hermes/skills/catalog/)
 - [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)

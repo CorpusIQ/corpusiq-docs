@@ -1,3 +1,8 @@
+---
+title: "Customer & CRM Prompts"
+description: "Prompt templates for customer data analysis, CRM operations, and business intelligence."
+---
+
 # Customer and CRM prompts
 
 For **HubSpot** and **LeadConnector** (GoHighLevel) pipelines. Add **Email**

@@ -1,3 +1,8 @@
+---
+title: "Executive Summary"
+description: "Documentation page for Executive Summary."
+---
+
 # Executive summary prompts
 
 These are the high-leverage, broad-scope prompts. They fire CorpusIQ's

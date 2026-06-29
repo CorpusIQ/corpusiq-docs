@@ -1,3 +1,8 @@
+---
+title: "MCP Server Scan Results — 2026-06-25"
+description: "Automated MCP server discovery scan results for 2026-06-25."
+---
+
 # MCP Server Directory Scan — June 25, 2026
 ## Comprehensive scan of mcp.so and mcpservers.org for new business-relevant MCP servers
 

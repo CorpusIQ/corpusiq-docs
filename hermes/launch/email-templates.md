@@ -1,3 +1,8 @@
+---
+title: "Launch Email Templates"
+description: "Email templates for community outreach, launch announcements, and follow-up campaigns."
+---
+
 # Email Outreach Templates
 
 ## 1. Cold Outreach  --  Shopify Store Owner

@@ -1,3 +1,8 @@
+---
+title: "Email And Sms"
+description: "Documentation page for Email And Sms."
+---
+
 # Email and SMS marketing prompts
 
 For Klaviyo, Mailchimp, Constant Contact, ActiveCampaign, and PostScript.

@@ -1,3 +1,8 @@
+---
+title: "MCP Server Scan Results — 2026-06-28 (Evening)"
+description: "Automated MCP server discovery scan results for 2026-06-28 (Evening)."
+---
+
 # MCP Server Directory Scan — June 28, 2026 (Evening Sweep)
 ## mcpservers.org homepage — 7 new servers found since afternoon sweep
 

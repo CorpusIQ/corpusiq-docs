@@ -1,3 +1,8 @@
+---
+title: "Ecosystem Inclusion Criteria"
+description: "Criteria for including repositories and tools in the Hermes Ecosystem Directory."
+---
+
 # Hermes Repository Inclusion Criteria
 
 Every submission is scored 0-100 across six dimensions:

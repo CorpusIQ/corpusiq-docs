@@ -1,3 +1,8 @@
+---
+title: "Multi Source"
+description: "Documentation page for Multi Source."
+---
+
 # Multi-source prompts  --  the moat
 
 These prompts fire across **three or more connectors at once**. They're what
