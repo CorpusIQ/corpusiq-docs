@@ -242,6 +242,7 @@ nav:
     - Changelog: hermes/changelog/index.md
 plugins:
 - search
+- meta
 repo_name: CorpusIQ/corpusiq-docs
 repo_url: https://github.com/CorpusIQ/corpusiq-docs
 site_description: CorpusIQ is a private AI acceleration layer that connects 37+ business
