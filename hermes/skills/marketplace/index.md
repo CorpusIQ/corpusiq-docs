@@ -155,6 +155,7 @@ Approved skills appear on the next marketplace update page with install commands
 
 New skills are discovered weekly through automated sweeps of skills.sh. Each discovery gets a dedicated update page:
 
+- [🆕 June 30, 2026 (Update) — Matt Pocock Engineering Suite, ChromaDB, OpenClaw Loader (7 skills, 1.3M+ installs, 1 setup guide)](/hermes/skills/marketplace/new-june30-2026-update/)
 - [🆕 June 30, 2026 — OpenClaw Expansion, HermesPet, MCP Dev Toolkit (14 repos, 24 skills, 2 setup guides)](/hermes/skills/marketplace/new-june30-2026/)
 - [🆕 June 29, 2026 — Coding Posture, Ultimate Humanizer, Clean Slate, Delegate Skills, AutoLoRA, WhatsApp Secretary, Safari Web Agent (7 repos, 7 skills, 7 setup guides)](/hermes/skills/marketplace/new-june29-2026/)
 - [🆕 June 29, 2026 (Update) — OpenClaw/Clawd Ecosystem: clawdis (14), clawdirect (2), clawdstrike + 8 more repos (9 repos, 25 skills, 3 setup guides)](/hermes/skills/marketplace/new-june29-2026-update/)
@@ -176,6 +177,19 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 - [🆕 June 19, 2026 (Batch 2)  --  Infrastructure, Platform, Tools (15 repos, 20+ skills)](/hermes/skills/marketplace/new-june19-2026-batch2/)
 - [🆕 June 19, 2026 (Update)  --  ECC-Hermes 36-Pack, SkillSpector Vetting, AgentMint (6 repos, 60+ skills)](/hermes/skills/marketplace/new-june19-2026-update/)
 - [🆕 June 19, 2026  --  AgentMesh Async Bus + Windows Native (4 skills)](/hermes/skills/marketplace/new-june19-2026/)
+- [🆕 June 28, 2026 (Update) — Skills.sh Late Sweep (3 repos)](/hermes/skills/marketplace/new-june28-2026-update/)
+- [🆕 June 28, 2026 — Skills Ecosystem Expansion (12 repos, 30+ skills)](/hermes/skills/marketplace/new-june28-2026/)
+- [🆕 June 27, 2026 — Hermes Ecosystem Discovery (10 repos, 28+ skills)](/hermes/skills/marketplace/new-june27-2026/)
+- [🆕 June 26, 2026 (Afternoon) — Skills.sh API Sweep Round 2 (8 repos, 18+ skills)](/hermes/skills/marketplace/new-june26-2026-afternoon/)
+- [🆕 June 26, 2026 — Skills.sh API Mega-Sweep (43 skills, 1.8M+ installs)](/hermes/skills/marketplace/new-june26-2026/)
+- [🆕 June 25, 2026 (Update) — Late Sweep Additions (5 repos, 12+ skills)](/hermes/skills/marketplace/new-june25-2026-update/)
+- [🆕 June 25, 2026 — Skills Ecosystem Expansion (8 repos, 20+ skills)](/hermes/skills/marketplace/new-june25-2026/)
+- [🆕 June 24, 2026 (Evening) — Evening Sweep (4 repos, 10+ skills)](/hermes/skills/marketplace/new-june24-2026-evening/)
+- [🆕 June 24, 2026 — Skills Discovery (6 repos, 15+ skills)](/hermes/skills/marketplace/new-june24-2026/)
+- [🆕 June 23, 2026 — Skills Discovery (5 repos, 12+ skills)](/hermes/skills/marketplace/new-june23-2026/)
+- [🆕 June 22, 2026 (Late) — Late Evening Sweep (3 repos, 8+ skills)](/hermes/skills/marketplace/new-june22-2026-late/)
+- [🆕 June 20-22, 2026 — Weekend Discovery (8 repos, 18+ skills)](/hermes/skills/marketplace/new-june20-22-2026/)
+
 - [🆕 June 18, 2026 (Final Sweep)  --  OpenClaw Extensions (8 skills)](/hermes/skills/marketplace/new-june18-2026-final-sweep/)
 - [🆕 June 18, 2026 (Update 2)  --  HyperFrames Video Ecosystem (6 skills)](/hermes/skills/marketplace/new-june18-2026-update2/)
 - [🆕 June 18, 2026 (Batch 2)  --  Full Catalog Sweep (107 skills)](/hermes/skills/marketplace/new-june18-2026-batch2/)
@@ -194,7 +208,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 520+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 527+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 
