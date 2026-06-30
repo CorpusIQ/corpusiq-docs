@@ -5,9 +5,9 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 # Hermes Ecosystem  --  Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 445+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 446+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** June 29, 2026 · **Repos indexed:** 445+ · **Categories:** 18
+> **Last updated:** June 30, 2026 · **Repos indexed:** 446+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -15,14 +15,14 @@ The most comprehensive directory of Hermes Agent resources in existence. 445+ re
 
 ## 📑 Quick Navigation
 
-| Category | Count | Jump |
+|| Category | Count | Jump |
 |----------|-------|------|
 | [Core & Official](#-core--official) | 6 | [↓](#-core--official) |
 | [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
 | [Community & Awesome Lists](#-community--awesome-lists) | 33 | [↓](#-community--awesome-lists) |
 | [UI & Dashboards](#-ui--dashboards) | 14 | [↓](#-ui--dashboards) |
 | [Memory & Knowledge](#-memory--knowledge) | 29 | [↓](#-memory--knowledge) |
-| [MCP & Integrations](#-mcp--integrations) | 32 | [↓](#-mcp--integrations) |
+| [MCP & Integrations](#-mcp--integrations) | 33 | [↓](#-mcp--integrations) |
 | [Skills & Plugins](#-skills--plugins) | 69 | [↓](#-skills--plugins) |
 | [Tools & Utilities](#-tools--utilities) | 54 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
@@ -906,6 +906,17 @@ Unified real-time search MCP server for AI agents  --  aggregates results from G
 ⭐ **137** · `Python` · [github.com/KSroido/Kagi-Session2API-MCP](https://github.com/KSroido/Kagi-Session2API-MCP)
 
 Free Kagi Search MCP server  --  access Kagi search and summarizer via session tokens. Hermes-compatible.
+
+---
+
+### AVIDS2/memorix
+⭐ **519** · `TypeScript` · [github.com/AVIDS2/memorix](https://github.com/AVIDS2/memorix)
+
+Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Antigravity, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Copilot, Kiro, OpenCode, and Trae. Provides persistent, searchable memory across multiple AI coding assistants through the Model Context Protocol.
+
+**Maintainer:** AVIDS2  
+**Key capabilities:** Cross-agent memory, MCP integration, persistent storage, multi-assistant compatibility, local-first architecture  
+**Related:** [MCP Guide →](/hermes/mcp/) · [Memory Systems →](/hermes/memory/)
 
 ---
 
