@@ -485,7 +485,7 @@ CowAgent  --  comprehensive AI agent framework for building autonomous task exec
 🗺️ Hermes Atlas — the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com. The go-to visual directory for discovering the full Hermes ecosystem landscape — browse tools, skills, integrations, and community projects in an interactive map format.
 
 **Key capabilities:** Ecosystem visualization, tool discovery, community directory, interactive mapping, Hermes-compatible
-**Related:** [Ecosystem Map →](/hermes/ecosystem-map/) · [Skills Catalog →](/hermes/skills/catalog/)
+**Related:** [Architecture →](/hermes/architecture/) · [Skills Catalog →](/hermes/skills/catalog/)
 
 ---
 
@@ -926,7 +926,7 @@ Open-source cross-agent memory layer for coding agents via MCP. Compatible with 
 
 **Maintainer:** AVIDS2  
 **Key capabilities:** Cross-agent memory, MCP integration, persistent storage, multi-assistant compatibility, local-first architecture  
-**Related:** [MCP Guide →](/hermes/mcp/) · [Memory Systems →](/hermes/memory/)
+**Related:** [MCP Guide →](/hermes/mcp/) · [Knowledge Systems →](/hermes/knowledge/)
 
 ---
 
