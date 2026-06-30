@@ -5,9 +5,9 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 # Hermes Ecosystem  --  Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 444+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 445+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** June 29, 2026 · **Repos indexed:** 444+ · **Categories:** 18
+> **Last updated:** June 29, 2026 · **Repos indexed:** 445+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -21,7 +21,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 444+ re
 | [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
 | [Community & Awesome Lists](#-community--awesome-lists) | 33 | [↓](#-community--awesome-lists) |
 | [UI & Dashboards](#-ui--dashboards) | 14 | [↓](#-ui--dashboards) |
-| [Memory & Knowledge](#-memory--knowledge) | 28 | [↓](#-memory--knowledge) |
+| [Memory & Knowledge](#-memory--knowledge) | 29 | [↓](#-memory--knowledge) |
 | [MCP & Integrations](#-mcp--integrations) | 32 | [↓](#-mcp--integrations) |
 | [Skills & Plugins](#-skills--plugins) | 69 | [↓](#-skills--plugins) |
 | [Tools & Utilities](#-tools--utilities) | 54 | [↓](#-tools--utilities) |
@@ -644,6 +644,16 @@ One brain, many harnesses. Portable `.agent/` folder (memory + skills + config) 
 The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agent. Ultra-fast local memory with minimal overhead.
 
 **Key capabilities:** Zero dependencies, sub-ms retrieval, local-first, Hermes-native
+
+---
+
+### AVIDS2/memorix
+⭐ **519** · `TypeScript` · [github.com/AVIDS2/memorix](https://github.com/AVIDS2/memorix)
+
+Open-source cross-agent memory layer for coding agents via MCP. Compatible with Claude Code, Codex, Cursor, Windsurf, Gemini CLI, Antigravity, OpenClaw, Hermes Agent, Oh-my-Pi, Pi, Copilot, Kiro, OpenCode, and Trae. Local-first, Apache-2.0 licensed.
+
+**Key capabilities:** Cross-agent memory, MCP-native server, local-first sessions, 14+ agent compatibility, TypeScript SDK
+**Related:** [MCP & Integrations →](#-mcp--integrations) · [Memory Stack →](/hermes/knowledge/)
 
 ---
 

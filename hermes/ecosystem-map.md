@@ -1,6 +1,6 @@
 ---
 title: Hermes Ecosystem Map
-description: Visual map of the entire Hermes Agent ecosystem  --  121+ repos, 14 categories, all connections visualized.
+description: Visual map of the entire Hermes Agent ecosystem  --  122+ repos, 14 categories, all connections visualized.
 ---
 
 # Hermes Ecosystem Map

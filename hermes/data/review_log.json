@@ -2860,5 +2860,110 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-06-29T08:04:19.019714+00:00"
+  },
+  {
+    "repo": "korea7030/host-coding-agent-mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T05:01:57.996627+00:00"
+  },
+  {
+    "repo": "lee-liao/sub-agents-on-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T05:01:57.996630+00:00"
+  },
+  {
+    "repo": "arotonal-ai/hermes-headroom-plugin",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T05:01:57.996632+00:00"
+  },
+  {
+    "repo": "ramdhanhdy/hermes-toolkit",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T05:01:57.996634+00:00"
+  },
+  {
+    "repo": "80x24/nuanua",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T05:01:57.996636+00:00"
+  },
+  {
+    "repo": "Starscade/Hermes",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T05:01:57.996637+00:00"
+  },
+  {
+    "repo": "TheMindExpansionNetwork/neuroglyph-forge",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T05:01:57.996639+00:00"
+  },
+  {
+    "repo": "AVIDS2/memorix",
+    "score": 80,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-06-30T05:01:57.996641+00:00"
+  },
+  {
+    "repo": "LLM-Architects/hermes-skill-router",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T05:01:57.996642+00:00"
+  },
+  {
+    "repo": "lk-snkrs/hermes-brain",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T05:01:57.996644+00:00"
+  },
+  {
+    "repo": "xxy9468615/devnav",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T05:01:57.996646+00:00"
+  },
+  {
+    "repo": "anhle128/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T05:01:57.996648+00:00"
+  },
+  {
+    "repo": "SDET-Hamad-KMughal/hermes-bench",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T05:01:57.996650+00:00"
+  },
+  {
+    "repo": "tyler-jewell/hermes-plugin-benchmark-results",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T05:01:57.996651+00:00"
+  },
+  {
+    "repo": "Metabuilder-Labs/tokenjam-bench",
+    "score": 33,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T05:01:57.996653+00:00"
   }
 ]
