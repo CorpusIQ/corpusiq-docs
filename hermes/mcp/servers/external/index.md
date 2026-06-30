@@ -199,6 +199,18 @@ Read-only tools for discovering the capabilities of the SIMA protection platform
 ### Web3Agent ★ New (June 29)
 Web3 MCP proxy server for AI agents: EVM execution, DeFi swaps, bridges, advanced orders, market data, wallet management, and confirmation-gated writes. First MCP-native Web3 proxy that treats AI agents as first-class blockchain citizens. Essential for operators running AI-driven DeFi strategies, cross-chain operations, and on-chain automation.
 
+### Bitcoin Monetary Data ★ New (June 29 PM)
+Honest monetary data for AI agents. Compare purchasing power erosion over time, reveal the gap between CPI and real M2 money supply growth, and show Bitcoin vs dollar performance. No spin, no API key. Live SSE endpoint. Essential for operators who need inflation-adjusted financial context for AI-driven analysis.
+
+### Ko Financial Data ★ New (June 29 PM)
+Real SEC, 13F, insider, congress & macro data your AI agent can cite. 24 tools — institutional holdings, insider & congress trades, spot-Bitcoin-ETF ownership, financials, and Treasury/Fed/BLS macro. Hosted Streamable HTTP, free tier (200 calls/day). Essential for operators building AI investment research workflows.
+
+### Clypra ★ New (June 29 PM)
+MCP server for AI agent payments. x402 USDC on Base micropayment integration. Enables AI agents to transact with small-value cryptocurrency payments.
+
+### Arcade Trading ★ New (June 29 PM)
+Trading-focused MCP server. Provides AI agents with trading data, market access, and transaction capabilities.
+
 ---
 
 ## Document Intelligence
@@ -327,6 +339,12 @@ Real-time aviation data API via MCP: flight data, airport schedules, delays, and
 
 ### Minha Morada ★ New (June 29)
 Search 181,000+ real estate listings in Portugal (apartments, houses, land) for sale or rent. Covers all 18 districts with data from Imovirtual, Idealista, and RE/MAX. MCP tools: search properties by location/price/typology, get property details, get market statistics. Essential for operators in real estate investment, relocation, and Portuguese property markets.
+
+### Vublox Sports ★ New (June 29 PM)
+Live football scores, match summaries, and fan clip links — no API key required. MCP-native sports data for AI agents. Essential for operators in sports media, betting analytics, and content creation around live football events.
+
+### Trad Tune Explorer (thesession Data) ★ New (June 29 PM)
+Explore traditional folk music using data from The Session. Search tunes, recordings, sets, and musicians, discover related tunes, analyze tune popularity, browse recordings by artist, and explore relationships between tunes and performers. Unique cultural data MCP for operators in music, arts, and cultural heritage.
 
 ---
 
@@ -642,6 +660,9 @@ AI-powered website feedback, visual bug reporting, and website annotation MCP se
 
 ### Version Pill ★ New (June 29)
 Version management MCP server for AI agents — track and manage software versions, dependencies, and release cycles through standardized MCP tools. Essential for operators running software development workflows with AI agents.
+
+### Mcp Midasflow ★ New (June 29 PM)
+MCP server for AI agent data flow orchestration. Connect AI agents to data pipelines, automate data workflows, and manage data integration tasks through standardized MCP tools.
 
 ---
 
@@ -1779,6 +1800,24 @@ Atomic memory model for AI agents — knowledge stored as atoms (facts, decision
 
 ---
 
+## New This Week (June 29, 2026 — afternoon sweep)
+
+### 7 new servers from mcp.so Feed
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Bitcoin Monetary Data ★ New | Finance/Crypto | Honest monetary data — CPI, M2 money supply, Bitcoin vs dollar. No API key. |
+| Ko Financial Data ★ New | Finance/Market Data | SEC, 13F, insider, congress & macro data — 24 tools. Free tier 200 calls/day. |
+| Clypra ★ New | Finance/Crypto | x402 USDC micropayments on Base for AI agent transactions. |
+| Arcade Trading ★ New | Finance/Trading | Trading data and market access for AI agents. |
+| Vublox Sports ★ New | Content/Sports | Live football scores, match summaries, fan clip links — no API key. |
+| Trad Tune Explorer ★ New | Content/Music | Traditional folk music data from The Session — tunes, recordings, sets, musicians. |
+| Mcp Midasflow ★ New | Dev/Data Infra | Data flow orchestration and pipeline automation for AI agents. |
+
+**Key Trends:** Financial data MCPs continue diversifying beyond stocks/crypto into monetary economics (Bitcoin Monetary Data) and institutional filings (Ko Financial). Sports and music data MCPs signal the expansion into niche content verticals. Agent payment infrastructure (Clypra/x402) remains a growing category as the agent economy matures.
+
+---
+
 ## New This Week (June 28, 2026 — afternoon sweep)
 
 ### 18 new servers from mcp.so Feed
@@ -1815,7 +1854,7 @@ Atomic memory model for AI agents — knowledge stored as atoms (facts, decision
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
 - **New this sweep (June 29 morning):** 20 new MCP servers — from mcp.so Feed
-- **Cumulative since June 9:** 471 MCP servers catalogued across 31 sweeps
+- **Cumulative since June 9:** 478 MCP servers catalogued across 32 sweeps
 
 ---
 
