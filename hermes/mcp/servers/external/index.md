@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 28, 2026 (evening sweep) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers)
+> **Last updated:** June 30, 2026 · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -37,6 +37,9 @@ Dedicated MCP server for PortEden's Google Sheets data firewall. Read, write, an
 
 ## Financial Data
 
+
+### CarDossier MCP Server ★ New (June 30)
+MCP Server for CarDossier Poland Market API — real-time used car market data: valuations, price history, liquidity metrics, and market trends. Essential for automotive operators, fleet managers, and insurance in the Polish and broader EU used-car market. `github.com/Joyall-au/cardossier-mcp-server`
 
 ### Chuhching ★ New
 Financial data integration platform. Provides AI agents with structured financial information.
@@ -225,6 +228,9 @@ Extracts structured, typed records from documents (PDFs, scans, contracts, invoi
 ### SIXTA Connect ★ New (June 28)
 DBRE-grade SQL analysis inside any MCP client — no connection, no install required. Paste a query, EXPLAIN plan, migration, or error → get named findings with severity, rationale, and ready-to-run fixes for PostgreSQL and MySQL. Essential for operators running database workloads who need instant SQL review and optimization without connecting to production.
 
+### Sparkient MCP ★ New (June 30)
+Sub-100ms Decision Intelligence API via MCP. Instant structured decisions for content moderation, fraud detection, ticket triage, and approval workflows. Real-time AI decision-making at production latency. Essential for operators running high-volume decision workflows. `mcpservers.org: sparkient/sparkient-mcp-server`
+
 ### Clamp Analytics MCP
 Analyze and manage traffic, funnels, cohorts, revenue, errors. Web/app analytics via MCP. Complementary to GA4 for product analytics use cases.
 
@@ -393,6 +399,9 @@ Give AI agents their own local mailbox to read, send, and triage email via MCP. 
 
 ## Compliance & Regulatory
 
+### Eleata E-Invoice MCP ★ New (June 30)
+EU e-invoice validation MCP server — Peppol, XRechnung, Factur-X, UBL/CII validation with error code explanations. For AI agents processing EU-compliant electronic invoicing across multiple national formats. Essential for operators in EU markets where e-invoicing mandates are rolling out. `github.com/hernaninverso/eleata-einvoice-mcp`
+
 ### AIR Blackbox MCP Server ★ New
 EU AI Act compliance checker  --  checks 6 articles, HMAC-SHA256 tamper-evident audit trails, auto-remediation with working code fixes. August 2026 deadline ready. Essential for EU operators deploying AI systems. `pip install air-blackbox-mcp`
 
@@ -424,6 +433,9 @@ Digital trust verification for AI agents. Verify contact identities, domains, an
 
 ## Development & Infrastructure
 
+
+### Bult.ai MCP Server ★ New (June 30)
+Deploy and manage Bult.ai cloud hosting resources — projects, services, GitHub and Docker deployments via MCP. Cloud infrastructure management for AI agents. Essential for operators who want to manage cloud hosting through their AI toolchain. `mcpservers.org: bultcloud/mcp-server`
 
 ### Backengine MCP ★ New
 Backend engine for MCP server development. Streamlines building and deploying custom MCP servers with pre-built infrastructure.
@@ -462,6 +474,15 @@ APIAny offers a single OpenAI-compatible API gateway for leading LLM, image, vid
 
 ### Mcp Json Validator ★ New
 AI-powered self-healing JSON validator. Pay-per-call model. Essential for developers building JSON-heavy agent workflows.
+
+### Agent Warden — MCP Audit Proxy ★ New (June 30)
+Local MCP audit proxy — audit logs, policy enforcement, secret scrubbing, and emergency kill switch between Claude Code and any MCP server. Security layer for production AI agent operations. `github.com/yli769227-jpg/agent-warden`
+
+### MCPscan — MCP Supply Chain Security ★ New (June 30)
+Supply-chain security scanner for MCP servers & Claude Code projects — catch tool-poisoning, command injection, and risky package dependencies. Essential for operators deploying MCP servers in production. `github.com/glatinone/mcpscan`
+
+### APIbase MCP Gateway ★ New (June 30)
+Universal MCP gateway — 905 tools across 258 providers behind one endpoint. Pay-per-call with x402 USDC on Base. Operators can access hundreds of APIs through a single MCP server instead of managing dozens of individual integrations. `github.com/whiteknightonhorse/APIbase`
 
 ### Onlinecybertools MCP (280+ Tools)
 280+ free dev/security tools in one MCP server: Base64/URL/JWT encoders, MD5/SHA/HMAC/bcrypt/argon2 hashes, JSON/YAML/XML formatters, regex tester, network diagnostics (ping/traceroute/dig/whois/SSL/SPF/DMARC), OSINT lookups. No auth, no API key.
@@ -706,6 +727,10 @@ Task management and workflow automation platform via MCP. AI agents can orchestr
 
 ### Turbo Job Apply ★ New
 AI-powered job search and application platform. Find jobs that are not ghost jobs — AI-assisted job matching and fast application via MCP.
+
+### CreateWorker MCP ★ New (June 30)
+Drive AI workers from Claude Code, Claude Desktop, Cursor, and other MCP clients. AI workforce orchestration — operators deploying fleets of AI workers can manage them through a single MCP server. `github.com/CreateWorkerAI/createworker-mcp`
+
 ### Cal.com MCP ★ Official
 Connect AI clients to Cal.com scheduling. Hosted endpoint at `mcp.cal.com` or local instance.
 
@@ -845,6 +870,9 @@ AI phone secretary for businesses  --  place outbound calls, read transcripts, m
 ### Shipmail MCP ★ New
 Business email MCP server for AI agents  --  custom-domain inboxes, REST API, webhooks, send, read, and reply tools. Purpose-built for AI agents to handle business email workflows including transactional notifications, customer communications, and inbox management with custom-domain professionalism.
 
+### SendGrid MCP ★ New (June 30)
+SendGrid email delivery via MCP. AI agents can send transactional emails, manage templates, and track delivery metrics. Essential for operators who need AI-driven email delivery without building custom integrations. `mcpservers.org: neschadin/sendgrid-mcp`
+
 ### Onboard MCP ★ Official ★ New
 Connect your AI assistant to Onboard to monitor live onboarding projects, surface blocked tasks and risks, draft customer emails, and take action on tasks with role-based access and preview-first safety. Essential for operators managing customer onboarding workflows  --  keeps AI agents aligned with real project state. Official MCP server with Streamable HTTP transport.
 
@@ -901,6 +929,9 @@ Multimodal video AI MCP server built on a decade of video understanding. Goes en
 ### OpenAI Ads MCP Server ★ New
 OpenAI Ads and ChatGPT Ads MCP server for the OpenAI Advertiser API  --  typed tools for campaigns, creatives, audiences, and insights. Advertising campaign management for operators running paid acquisition on OpenAI/ChatGPT platforms.
 
+### Google Ads MCP Server ★ New (June 30)
+Standalone MCP server for Google Ads — campaign management, performance data, keyword analytics, and ad optimization directly from AI agents. Lightweight alternative for operators who only need Google Ads access without a full 37-platform suite. `github.com/smileCompiler/google-ads-mcp-server`
+
 ### Zooq ★ New
 LinkedIn data API and MCP server for AI agents. Public profiles, companies, and posts as clean JSON — no login, no cookies, no browser automation. 300 free credits on signup. Pay-as-you-go credit billing. Endpoint: `https://zooq.dev/api/mcp`. Essential for sales and recruiting operators who need LinkedIn intelligence.
 
@@ -927,6 +958,12 @@ Publish, schedule, moderate your social inbox, and pull analytics across every m
 
 ### MentionsAPI ★ New
 Check whether AI recommends your brand  --  mentions, ranks & citations across ChatGPT, Claude, Gemini, Perplexity, AI Overviews, AI Mode & Bing Copilot. Essential GEO/AI visibility monitoring for operators investing in AI-engine discoverability.
+
+### NotHumanSearch ★ New (June 30)
+Search engine for AI agents — ranks sites by agentic readiness (llms.txt, OpenAPI, MCP, ai-plugin). MCP server + REST API + full-text search. New "agentic SEO" category — operators need to understand how AI agents discover and rank their sites. `github.com/unitedideas/nothumansearch`
+
+### Geoly GEO MCP ★ New (June 30)
+Remote MCP server + geoly-mcp skill for AI brand visibility (GEO) reporting. Track how AI models mention and recommend brands. Competitive with MentionsAPI for AI-engine discoverability monitoring. `github.com/geoly-ai/codex-plugins`
 
 ### getAdvantage MCP ★ Official ★ New
 Scan how ChatGPT and Claude read your app, see who they name instead of you, and get paste-ready fixes (llms.txt, JSON-LD, FAQ, meta) to get found. GEO/AI SEO optimization tool  --  directly competitive with MentionsAPI for AI-visibility monitoring. Essential for operators who need their products discovered by AI agents. Official MCP server.
