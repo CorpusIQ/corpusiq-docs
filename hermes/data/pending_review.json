@@ -11881,5 +11881,335 @@
     "near_duplicates": [],
     "discovered_at": "2026-06-30T05:01:52.704596+00:00",
     "status": "pending"
+  },
+  {
+    "name": "connorarutherford-create/hermes-merch",
+    "url": "https://github.com/connorarutherford-create/hermes-merch",
+    "description": "Hermes Agent Official Merch Store",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-06-30T08:02:15Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-30T08:02:23.392221+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "RemiPelloux/OpenAgents",
+    "url": "https://github.com/RemiPelloux/OpenAgents",
+    "description": "Self-hosted multi-provider AI agent platform \u2014 professional OpenAgents fork of Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-30T07:59:12Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-30T08:02:26.394476+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "luckyfrog1/hermes-kmemo",
+    "url": "https://github.com/luckyfrog1/hermes-kmemo",
+    "description": "A four-layer, proposal-gated memory harness for Hermes Agent \u2014 the agent proposes, you approve. Layered SQLite memory (meta/user/agent + routes), web review panel, zero source-code changes.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-memory",
+      "hermes-agent",
+      "llm-agent",
+      "memory",
+      "plugin",
+      "sqlite"
+    ],
+    "updated_at": "2026-06-30T07:57:30Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "jnMetaCode/shellward",
+      "synthalorian/hermes-wingman",
+      "zakahadi/llm-eval-cli"
+    ],
+    "discovered_at": "2026-06-30T08:02:32.398807+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Firefly-Star/playwright-mcp-server-docker",
+    "url": "https://github.com/Firefly-Star/playwright-mcp-server-docker",
+    "description": "Docker-based Playwright MCP server for Hermes Agent, with VPN proxy support",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-06-30T07:44:20Z",
+    "category": "mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-30T08:02:36.209104+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "OldSebastian/Hermes2Figma",
+    "url": "https://github.com/OldSebastian/Hermes2Figma",
+    "description": "\u5728 Figma \u91cc\u7a0b\u5e8f\u5316\u6279\u91cf\u6539\u8bbe\u8ba1\u7a3f\uff1a\u901a\u7528 bridge \u63d2\u4ef6 + execute_code\uff0c\u5728\u63d2\u4ef6\u4e0a\u4e0b\u6587\u6267\u884c\u4efb\u610f Plugin API JS\u3002\u542b relay/MCP server/Python \u5ba2\u6237\u7aef\u4e0e\u4e2d\u6587\u4f7f\u7528\u8bf4\u660e\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-06-30T07:15:33Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-30T08:02:39.211483+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "LogicLabsAI/ultramemory-mcp",
+    "url": "https://github.com/LogicLabsAI/ultramemory-mcp",
+    "description": "One memory across Claude Code, Claude Desktop, Cursor, ChatGPT & Hermes \u2014 recalls first every turn, honest enough to say 'I don't know'. MCP client + Claude Code recall hook.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-memory",
+      "ai-memory",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "cursor",
+      "llm",
+      "mcp",
+      "memory",
+      "model-context-protocol"
+    ],
+    "updated_at": "2026-06-30T07:11:18Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "yoloshii/ClawMem",
+      "KSroido/Kagi-Session2API-MCP",
+      "jnMetaCode/shellward",
+      "ksimback/hermes-atlas-mcp"
+    ],
+    "discovered_at": "2026-06-30T08:02:42.213734+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "luluthehungrycat/phronesis",
+    "url": "https://github.com/luluthehungrycat/phronesis",
+    "description": "Practical wisdom from agent experience. Auto-skill creation, FTS5 session search, persona system, memory consolidation, and Telegram notifications \u2014 bridging Hermes Agent's adaptive learning loop into OpenCode's plugin ecosystem.",
+    "stars": 2,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-06-30T07:53:39Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "Sibyl-Labs/Sibyl-Memory",
+      "luluthehermeticcrabBot/phronesis",
+      "kaankacar/stellar-agent-kit"
+    ],
+    "discovered_at": "2026-06-30T08:02:46.147561+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "clawling/clawchat-plugin-hermes-agent",
+    "url": "https://github.com/clawling/clawchat-plugin-hermes-agent",
+    "description": null,
+    "stars": 6,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-30T08:02:34Z",
+    "category": "forks",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-30T08:02:49.921794+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "asdhabdua/bilibili-video-notes-skill",
+    "url": "https://github.com/asdhabdua/bilibili-video-notes-skill",
+    "description": "\u4e00\u6b3e\u667a\u80fd\u7684B\u7ad9\u89c6\u9891\u7b14\u8bb0\u751f\u6210skill\uff0c\u4eceB\u7ad9\u89c6\u9891\u81ea\u52a8\u751f\u6210\u5e26\u622a\u56fe\u7684DOCX\u5b66\u4e60\u7b14\u8bb0\uff0c\u4e5f\u53ef\u4ee5\u7528\u4e8e\u672c\u5730\u89c6\u9891\uff0c\u9002\u7528\u4e8e\u8003\u7814\u515a\u7b49\u7f51\u8bfe\u4eba\u7fa4",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "bilibili",
+      "claude-code",
+      "codex",
+      "hermes-agent",
+      "kaoyan",
+      "study-notes",
+      "video-notes"
+    ],
+    "updated_at": "2026-06-30T08:02:25Z",
+    "category": "forks",
+    "score": 36,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-06-30T08:02:52.923668+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "shrimpapplepro/hermes-agent",
+    "url": "https://github.com/shrimpapplepro/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-30T08:02:24Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-06-30T08:02:55.925743+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "MythEclipse/hermes-agent",
+    "url": "https://github.com/MythEclipse/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-30T08:01:57Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-06-30T08:02:58.927819+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "matantsevs/hermes-agent",
+    "url": "https://github.com/matantsevs/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-30T08:01:37Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-06-30T08:03:01.930241+00:00",
+    "status": "pending"
   }
 ]

@@ -5,9 +5,9 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 # Hermes Ecosystem  --  Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 446+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 447+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** June 30, 2026 · **Repos indexed:** 446+ · **Categories:** 18
+> **Last updated:** June 30, 2026 · **Repos indexed:** 447+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -19,7 +19,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 446+ re
 |----------|-------|------|
 | [Core & Official](#-core--official) | 6 | [↓](#-core--official) |
 | [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
-| [Community & Awesome Lists](#-community--awesome-lists) | 33 | [↓](#-community--awesome-lists) |
+| [Community & Awesome Lists](#-community--awesome-lists) | 34 | [↓](#-community--awesome-lists) |
 | [UI & Dashboards](#-ui--dashboards) | 14 | [↓](#-ui--dashboards) |
 | [Memory & Knowledge](#-memory--knowledge) | 29 | [↓](#-memory--knowledge) |
 | [MCP & Integrations](#-mcp--integrations) | 33 | [↓](#-mcp--integrations) |
@@ -476,6 +476,16 @@ CowAgent  --  comprehensive AI agent framework for building autonomous task exec
 
 **Key capabilities:** AI agent framework, autonomous task execution, multi-modal, memory management, tool integration, multi-step reasoning, Hermes-compatible
 **Related:** [Architecture →](/hermes/architecture/) · [Orchestration →](#-orchestration-multi-agent--swarms)
+
+---
+
+### ksimback/hermes-ecosystem
+⭐ **1,076** · `HTML` · [github.com/ksimback/hermes-ecosystem](https://github.com/ksimback/hermes-ecosystem)
+
+🗺️ Hermes Atlas — the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com. The go-to visual directory for discovering the full Hermes ecosystem landscape — browse tools, skills, integrations, and community projects in an interactive map format.
+
+**Key capabilities:** Ecosystem visualization, tool discovery, community directory, interactive mapping, Hermes-compatible
+**Related:** [Ecosystem Map →](/hermes/ecosystem-map/) · [Skills Catalog →](/hermes/skills/catalog/)
 
 ---
 

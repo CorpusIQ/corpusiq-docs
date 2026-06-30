@@ -3873,5 +3873,51 @@
     "discovered_at": "2026-06-30T05:01:26.676830+00:00",
     "status": "approved",
     "approved_at": "2026-06-30T05:01:57.996612+00:00"
+  },
+  {
+    "name": "ksimback/hermes-ecosystem",
+    "url": "https://github.com/ksimback/hermes-ecosystem",
+    "description": "\ud83d\uddfa\ufe0f Hermes Atlas \u2014 the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com",
+    "stars": 1076,
+    "forks": 83,
+    "language": "HTML",
+    "topics": [
+      "ai-agents",
+      "ecosystem-map",
+      "hermes-agent",
+      "hermes-atlas",
+      "nous-research"
+    ],
+    "updated_at": "2026-06-30T07:59:06Z",
+    "category": "core",
+    "score": 85,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "high_stars_1000+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "agentchatme/agentchat-hermes",
+      "ksimback/hermes-atlas-mcp",
+      "hugocarreira/agentrc",
+      "tale-project/tale",
+      "awesome-hermes-usecases",
+      "hermeshub",
+      "hermes-ecosystem",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-06-30T08:02:29.396539+00:00",
+    "status": "approved",
+    "approved_at": "2026-06-30T08:03:11.506049+00:00"
   }
 ]

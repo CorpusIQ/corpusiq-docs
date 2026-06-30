@@ -2965,5 +2965,96 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-06-30T05:01:57.996653+00:00"
+  },
+  {
+    "repo": "connorarutherford-create/hermes-merch",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T08:03:11.506062+00:00"
+  },
+  {
+    "repo": "RemiPelloux/OpenAgents",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T08:03:11.506064+00:00"
+  },
+  {
+    "repo": "ksimback/hermes-ecosystem",
+    "score": 85,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-06-30T08:03:11.506065+00:00"
+  },
+  {
+    "repo": "luckyfrog1/hermes-kmemo",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T08:03:11.506066+00:00"
+  },
+  {
+    "repo": "Firefly-Star/playwright-mcp-server-docker",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T08:03:11.506067+00:00"
+  },
+  {
+    "repo": "OldSebastian/Hermes2Figma",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T08:03:11.506068+00:00"
+  },
+  {
+    "repo": "LogicLabsAI/ultramemory-mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T08:03:11.506069+00:00"
+  },
+  {
+    "repo": "luluthehungrycat/phronesis",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T08:03:11.506071+00:00"
+  },
+  {
+    "repo": "clawling/clawchat-plugin-hermes-agent",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T08:03:11.506072+00:00"
+  },
+  {
+    "repo": "asdhabdua/bilibili-video-notes-skill",
+    "score": 36,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T08:03:11.506073+00:00"
+  },
+  {
+    "repo": "shrimpapplepro/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T08:03:11.506074+00:00"
+  },
+  {
+    "repo": "MythEclipse/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T08:03:11.506076+00:00"
+  },
+  {
+    "repo": "matantsevs/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-06-30T08:03:11.506077+00:00"
   }
 ]
