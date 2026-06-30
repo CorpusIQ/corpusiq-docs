@@ -156,6 +156,7 @@ Approved skills appear on the next marketplace update page with install commands
 New skills are discovered weekly through automated sweeps of skills.sh. Each discovery gets a dedicated update page:
 
 - [🆕 June 29, 2026 — Coding Posture, Ultimate Humanizer, Clean Slate, Delegate Skills, AutoLoRA, WhatsApp Secretary, Safari Web Agent (7 repos, 7 skills, 7 setup guides)](/hermes/skills/marketplace/new-june29-2026/)
+- [🆕 June 29, 2026 (Update) — OpenClaw/Clawd Ecosystem: clawdis (14), clawdirect (2), clawdstrike + 8 more repos (9 repos, 25 skills, 3 setup guides)](/hermes/skills/marketplace/new-june29-2026-update/)
 - [🆕 June 28, 2026 — Threads Growth Skill, NemoClaw User Guide, Huawei Hermes Deployment (3 skills)](/hermes/skills/marketplace/new-june28-2026/)
 - [🆕 June 28, 2026 (Update) — OpenClaw Email, Security, Finance, DevOps (14 repos, 17 skills, 4 setup guides)](/hermes/skills/marketplace/new-june28-2026-update/)
 - [🆕 June 28, 2026 (Update 2) — sundial-org OpenClaw Collection, Marketing Skills, Audit Watchdog (2 repos, 9 skills, 2 setup guides)](/hermes/skills/marketplace/new-june28-2026-update2/)
@@ -192,7 +193,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 471+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 496+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 
