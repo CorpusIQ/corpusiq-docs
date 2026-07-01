@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** June 30, 2026 · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 1, 2026 · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -399,6 +399,9 @@ Give AI agents their own local mailbox to read, send, and triage email via MCP. 
 
 ## Compliance & Regulatory
 
+### Chia Health MCP ★ New (July 1)
+HIPAA-compliant telehealth operations via MCP — manage patient intake, prescriptions, consent forms, lab orders, and payment (Stripe) through AI agents. Supports GLP-1 weight loss clinics, peptide therapy, anti-aging, longevity medicine. First healthcare-operations MCP server. Essential for operators in telehealth who need to automate patient workflows through AI agents while maintaining HIPAA compliance. `github.com/Carolaunfading944/chia-mcp`
+
 ### Eleata E-Invoice MCP ★ New (June 30)
 EU e-invoice validation MCP server — Peppol, XRechnung, Factur-X, UBL/CII validation with error code explanations. For AI agents processing EU-compliant electronic invoicing across multiple national formats. Essential for operators in EU markets where e-invoicing mandates are rolling out. `github.com/hernaninverso/eleata-einvoice-mcp`
 
@@ -436,6 +439,9 @@ Digital trust verification for AI agents. Verify contact identities, domains, an
 
 ### Bult.ai MCP Server ★ New (June 30)
 Deploy and manage Bult.ai cloud hosting resources — projects, services, GitHub and Docker deployments via MCP. Cloud infrastructure management for AI agents. Essential for operators who want to manage cloud hosting through their AI toolchain. `mcpservers.org: bultcloud/mcp-server`
+
+### CCHub ★ New (July 1)
+Desktop app (Tauri + React + Rust) for managing Claude Code MCP servers, skills, plugins, hooks, and config profiles in one unified UI. Multi-profile management for complex setups. Essential for operators running multiple Claude Code environments across teams or projects who need centralized configuration management. `github.com/boxxapp23-pixel/cchub`
 
 ### Backengine MCP ★ New
 Backend engine for MCP server development. Streamlines building and deploying custom MCP servers with pre-built infrastructure.
@@ -924,6 +930,13 @@ Multimodal video AI MCP server built on a decade of video understanding. Goes en
 
 ---
 
+## Manufacturing & Hardware
+
+### Bambu Printer MCP ★ New (July 1)
+Control Bambu Lab 3D printers, edit STL files, and manage 3MF print workflows via MCP. AI agents can start prints, monitor progress, edit models. Compatible with Bambu CLI, Bambu Studio, Klipper, OctoPrint, Moonraker, and other 3D printing ecosystems. Essential for manufacturing and prototyping operators with Bambu Lab printers who want to automate print workflows through AI agents. Niche but growing — Bambu Lab is the fastest-growing 3D printer brand in consumer and prosumer markets. `github.com/offthehook-implication870/bambu-printer-mcp`
+
+---
+
 ## Marketing
 
 ### OpenAI Ads MCP Server ★ New
@@ -1100,6 +1113,9 @@ Governed, shared, self-improving memory for AI agent fleets  --  built for multi
 
 ### Memory Engine ★ New (June 29)
 Atomic memory model for AI agents — knowledge stored as atoms (facts, decisions, events, preferences, logs, procedures, notes, session messages). Multi-factor ranking combines FTS relevance × confidence × recency × weight (not just BM25). Organic decay and reinforcement over time. Essential for operators building AI agents that need sophisticated, long-term memory with context-aware recall beyond simple vector search. `github.com/SimoneB79/memory-engine`
+
+### memo ★ New (July 1)
+100% local persistent semantic memory for AI agents on Apple Silicon (MLX) or Linux/Ubuntu (CPU). Markdown source of truth, sqlite-vec + BM25 hybrid search, codegraph-backed knowledge graph. MCP server + CLI. No cloud, no API keys. Privacy-first memory infrastructure for operators who need local-only AI agent memory without cloud dependencies. Essential for regulated industries (HIPAA, GDPR) or operators who refuse cloud-based memory infrastructure. `github.com/jagoff/memo` · `pip install mlx-memo`
 
 ---
 
