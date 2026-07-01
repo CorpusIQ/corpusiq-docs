@@ -3112,5 +3112,47 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-01T05:01:22.563000+00:00"
+  },
+  {
+    "repo": "issac-new/SwarmStudio",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-01T08:03:30.059119+00:00"
+  },
+  {
+    "repo": "limkyulee/swift-claim",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-01T08:03:30.059134+00:00"
+  },
+  {
+    "repo": "goncharik/hermes-mobile-push-plugin",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-01T08:03:30.059137+00:00"
+  },
+  {
+    "repo": "hashbender/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-01T08:03:30.059139+00:00"
+  },
+  {
+    "repo": "Michael-Lfx/hermes-agent-ultra",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-01T08:03:30.059141+00:00"
+  },
+  {
+    "repo": "parous-eclat203/agent-doctor",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-01T08:03:30.059142+00:00"
   }
 ]

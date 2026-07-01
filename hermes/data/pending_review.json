@@ -12430,5 +12430,158 @@
     ],
     "discovered_at": "2026-07-01T05:01:13.981611+00:00",
     "status": "pending"
+  },
+  {
+    "name": "issac-new/SwarmStudio",
+    "url": "https://github.com/issac-new/SwarmStudio",
+    "description": "AI Agent<->Human\u7684\u5206\u5e03\u5f0f\u8702\u7fa4\u534f\u4f5c\u7cfb\u7edf\uff0c\u5f15\u7528\u8bf4\u660e\uff1a\u4f7f\u7528Matrix\u7684\u70b9\u5bf9\u70b9\u52a0\u5bc6\u6d88\u606f\u670d\u52a1\u3001\u7ed3\u5408Hermes Studio\u3001Hermes Agent Plugins\uff08kanban\uff09\u3001Element Web\u5f00\u6e90\u9879\u76ee,\u5e76\u5438\u6536AgentScope\u53caOpenRath\u7684\u53ef\u89c2\u6d4b\u6027\u7406\u5ff5\u8fdb\u884c\u4e8c\u6b21\u6784\u5efa\u5f00\u53d1\u540e\u5c01\u88c5",
+    "stars": 1,
+    "forks": 0,
+    "language": "Vue",
+    "topics": [],
+    "updated_at": "2026-07-01T08:02:36Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-01T08:03:04.810668+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "limkyulee/swift-claim",
+    "url": "https://github.com/limkyulee/swift-claim",
+    "description": "\ubcf4\uc0c1 \uc989\uc2dc \uc9c0\uae09 \ucc98\ub9ac \uad6c\ud604 \ud574\ubcf4\uae30 (MSA, kafka, Hermes Agent, RAG)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-07-01T08:01:37Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-01T08:03:07.813560+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "goncharik/hermes-mobile-push-plugin",
+    "url": "https://github.com/goncharik/hermes-mobile-push-plugin",
+    "description": "Push notifications plugin for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-01T08:00:42Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-01T08:03:10.816894+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hashbender/hermes-agent",
+    "url": "https://github.com/hashbender/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-01T08:02:52Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-01T08:03:16.063660+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Michael-Lfx/hermes-agent-ultra",
+    "url": "https://github.com/Michael-Lfx/hermes-agent-ultra",
+    "description": "Hermes Agent Ultra (built from hermes-agent-rs core by lumioresearch, @oxterrybit). Hermes-agent feature parity at commit level. Rust Performance",
+    "stars": 2,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-07-01T08:01:58Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-01T08:03:19.067047+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "parous-eclat203/agent-doctor",
+    "url": "https://github.com/parous-eclat203/agent-doctor",
+    "description": "Diagnose, repair, and manage local AI agent runtimes with automated probes, configuration fixes, and audit reports.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "ai-tools",
+      "claude-code",
+      "clinical-assistant",
+      "context-aware-ai",
+      "diagnostic",
+      "doctor-ai",
+      "evotown",
+      "fallback-architecture",
+      "generative-ai",
+      "healthcare-ai",
+      "healthcare-ai-assistant",
+      "hermes-agent",
+      "langgraph",
+      "llm",
+      "llm-decision-graph",
+      "openai",
+      "troubleshooting"
+    ],
+    "updated_at": "2026-07-01T08:01:36Z",
+    "category": "forks",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-01T08:03:22.070638+00:00",
+    "status": "pending"
   }
 ]
