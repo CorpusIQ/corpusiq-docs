@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 1, 2026 (PM update) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 1, 2026 (PM evening update) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -124,6 +124,9 @@ Generate payments, retrieve transaction history, and interact with ifthenpay ser
 ### PipRail ★ New
 AI agent autonomous payment execution for any x402 (HTTP 402) API across 29 blockchains. Budget-capped, self-custody, no facilitator fees. Essential for operators automating micropayment workflows.
 
+### Hermes Plant MCP Server ★ New (July 1 PM)
+Runnable MCP server for deterministic finance and quant APIs paid over x402. Provides AI agents with provably correct financial calculations, quantitative models, and market analytics with cryptographic payment rails. For operators building AI-driven quantitative finance workflows with verifiable computation. `github.com/JesseGdotIO/hermesplant-mcp-server` · [Integration Guide](/hermes/mcp/servers/external/hermesplant-mcp-server/)
+
 ### Customs Mcp ★ New
 Trade tariff data for GB and US imports. Two tools: `hs_lookup` (product descriptions → HS commodity codes) and `duty_rates` (import duties, preferential rates, VAT). Freemium: 20 free queries per key, then $0.02/query. Essential for ecommerce operators managing international shipments.
 
@@ -233,6 +236,9 @@ Sub-100ms Decision Intelligence API via MCP. Instant structured decisions for co
 
 ### Clamp Analytics MCP
 Analyze and manage traffic, funnels, cohorts, revenue, errors. Web/app analytics via MCP. Complementary to GA4 for product analytics use cases.
+
+### Google Analytics MCP ★ New (July 1 PM)
+Free, open-source MCP server (44 tools) connecting Google Analytics 4 (GA4) to Claude, Cursor, Windsurf, and any MCP client. Traffic analysis, funnel exploration, real-time reporting, and e-commerce analytics via natural language. MIT license. Essential for operators who want AI-driven GA4 analytics without vendor lock-in. `github.com/yusofansari/google-analytics-mcp`
 
 ### Playwright MCP ★ Official (Microsoft)
 Official Microsoft MCP server for browser automation, page inspection, screenshots, and web interaction. 78 tools for AI agents. `npx @playwright/mcp@latest`
@@ -437,6 +443,9 @@ MCP gateway security  --  secure every MCP server with one governed gateway. Giv
 
 ### Blocktrust TrustScan ★ New (June 29)
 Digital trust verification for AI agents. Verify contact identities, domains, and websites. Detect phishing and invoice fraud. Sign interactions cryptographically (BIS). 15 tools, blockchain-anchored on Polygon. GDPR-compliant. Essential for operators who need AI agents to verify counterparties, detect fraud, and establish cryptographic trust before executing transactions. `github.com/brnbtech770/blocktrust-trustscan`
+
+### vrules ★ New (July 1 PM)
+Open-source, vendor-neutral agent-governance and LLM guardrails framework. Vector-enabled rules engine for MCP proxying, policy-as-code, conditional organizational memory, and browser/WASM execution. Essential for operators deploying AI agents in production who need programmable guardrails, policy enforcement, and governance across their agent fleet — without vendor lock-in. `github.com/ops-ping/vrules` · [Integration Guide](/hermes/mcp/servers/external/vrules/)
 
 ---
 
@@ -950,6 +959,12 @@ OpenAI Ads and ChatGPT Ads MCP server for the OpenAI Advertiser API  --  typed t
 
 ### Google Ads MCP Server ★ New (June 30)
 Standalone MCP server for Google Ads — campaign management, performance data, keyword analytics, and ad optimization directly from AI agents. Lightweight alternative for operators who only need Google Ads access without a full 37-platform suite. `github.com/smileCompiler/google-ads-mcp-server`
+
+### Google Ads MCP (Open Source) ★ New (July 1 PM)
+Free, open-source MCP server (57 tools) connecting Google Ads to Claude, Cursor, Windsurf, and any MCP client. Campaign management, keyword optimization, GAQL querying, and competitive analysis via natural language. MIT license, no vendor lock-in. `github.com/yusofansari/google-ads-mcp`
+
+### Google Search Console MCP (Open Source) ★ New (July 1 PM)
+Free, open-source MCP server (43 tools) connecting Google Search Console to Claude, Cursor, Windsurf, and any MCP client. Search analytics, indexing checks, cannibalization detection, and sitemap management via natural language. MIT license. Essential for SEO operators who want GSC data in their AI workflows without paid tools. `github.com/yusofansari/google-search-console-mcp`
 
 ### Zooq ★ New
 LinkedIn data API and MCP server for AI agents. Public profiles, companies, and posts as clean JSON — no login, no cookies, no browser automation. 300 free credits on signup. Pay-as-you-go credit billing. Endpoint: `https://zooq.dev/api/mcp`. Essential for sales and recruiting operators who need LinkedIn intelligence.
@@ -1910,14 +1925,30 @@ Atomic memory model for AI agents — knowledge stored as atoms (facts, decision
 
 ---
 
+## New This Week (July 1, 2026 — PM evening sweep)
+
+### 5 new servers from GitHub API (topic:mcp-server created >2026-07-01T12:00)
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| vrules ★ New | Compliance/Security | Open-source agent-governance & LLM guardrails framework — vector-enabled rules engine for MCP proxying, policy-as-code, conditional organizational memory, and browser/WASM execution. Vendor-neutral. `github.com/ops-ping/vrules` |
+| Hermes Plant MCP Server ★ New | Finance/Quant | Deterministic finance & quant APIs over x402 — provably correct financial calculations, quantitative models, and market analytics with cryptographic payment rails. `github.com/JesseGdotIO/hermesplant-mcp-server` |
+| Google Analytics MCP ★ New | Analytics | Free, open-source GA4 MCP server (44 tools) — traffic, funnels, real-time & e-commerce reporting via natural language. MIT license. `github.com/yusofansari/google-analytics-mcp` |
+| Google Ads MCP (Open Source) ★ New | Marketing | Free, open-source Google Ads MCP server (57 tools) — campaign management, keyword optimization, GAQL querying, competitive analysis. MIT license. `github.com/yusofansari/google-ads-mcp` |
+| Google Search Console MCP (Open Source) ★ New | Marketing/SEO | Free, open-source GSC MCP server (43 tools) — search analytics, indexing checks, cannibalization detection, sitemap management. MIT license. `github.com/yusofansari/google-search-console-mcp` |
+
+**Key Trends:** Agent governance infrastructure (vrules) emerges as a distinct MCP category — operators need programmable guardrails for production AI deployments. Google marketing suite goes open-source (yusofansari's GA4 + Ads + GSC trio) signals growing demand for zero-cost, no-vendor-lock-in marketing MCPs. Deterministic finance with cryptographic payment rails (Hermes Plant over x402) shows convergence of DeFi-grade verifiability and traditional quant workflows.
+
+---
+
 ## Ecosystem Stats
 
 - **Total MCP servers tracked:** 22,663 (mcp.so), 9,300 (mcpservers.org)
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this sweep (June 29 morning):** 20 new MCP servers — from mcp.so Feed
-- **Cumulative since June 9:** 478 MCP servers catalogued across 32 sweeps
+- **New this sweep (July 1 PM evening):** 5 new MCP servers — from GitHub API (created >2026-07-01T12:00)
+- **Cumulative since June 9:** 483 MCP servers catalogued across 35 sweeps
 
 ---
 
