@@ -28,7 +28,7 @@ PART 1: HERMES HANDLES (A→Z)
 - Category: AI Apps & Assistants, Productivity
 - Screenshots: 5-6 showing Slack questions → validated answers
 - Privacy policy link: corpusiq.io/privacy
-- Support email: media@corpusiq.io
+- Support email: support@example.com
 - Install URL: corpusiq.io/slack/install
 **Status:** READY TO EXECUTE
 
