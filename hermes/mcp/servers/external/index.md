@@ -1848,8 +1848,12 @@ Atomic memory model for AI agents — knowledge stored as atoms (facts, decision
 | Valossa Assistant ★ New | Creative/Video | Multimodal video AI — ingestion to structured intelligence, decade of video R&D. |
 | AdMob MCP ★ New | Marketing/Ads | Google AdMob management, mediation, revenue analysis & A/B experiments. |
 | Memory Engine ★ New | Memory/Knowledge | Atomic memory model with multi-factor ranking, decay, and reinforcement. |
+| memo ★ New | Memory/Knowledge | 100% local AI memory (Apple Silicon/Linux) — no cloud, privacy-first. |
+| CCHub ★ New | Dev/Tooling | Claude Code config manager — desktop app for MCP servers, skills, plugins. |
+| Bambu Printer MCP ★ New | Manufacturing/Hardware | 3D printing automation for Bambu Lab printers via MCP. |
+| Chia Health MCP ★ New | Healthcare/Compliance | HIPAA telehealth ops — intake, prescriptions, payment automation. |
 
-**Key Trends:** Regional business intelligence MCPs expanding rapidly (Czech Republic, Africa, Spain, Portugal). Agent-native infrastructure growing: reputation layers (Agent Guild), state management (Statewave), crypto payment rails (CryptoGate, GGWP). Mobile MCP (MemPlato on Android) signals the extension of MCP beyond desktop agents. Video AI goes end-to-end (Valossa) beyond simple search/transcription.
+**Key Trends:** Healthcare operations MCPs emerging (Chia Health — first HIPAA telehealth MCP). Privacy-first memory infrastructure growing (memo — 100% local, no cloud). Developer tooling maturing (CCHub desktop app). Hardware automation expanding beyond software (Bambu 3D printers). Regional business intelligence MCPs expanding rapidly (Czech Republic, Africa, Spain, Portugal). Agent-native infrastructure growing: reputation layers (Agent Guild), state management (Statewave), crypto payment rails (CryptoGate, GGWP). Mobile MCP (MemPlato on Android) signals the extension of MCP beyond desktop agents. Video AI goes end-to-end (Valossa) beyond simple search/transcription.
 
 ---
 
