@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 1, 2026 · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 1, 2026 (PM update) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -391,6 +391,12 @@ Fashion vertical MCP server — SEO audits, trend analysis, competitor monitorin
 
 ### Neuron ★ New (June 28)
 WhatsApp automation platform with 120+ MCP tools for AI chatbots, broadcasts, campaigns, contact management, knowledge bases, and newsletters. First MCP-native WhatsApp marketing platform. Essential for operators in WhatsApp-first markets (LATAM, India, SEA, Africa) who want AI-driven customer communication, marketing automation, and chatbot deployment on the world's #1 messaging platform. `neuron.ng`
+
+### Meta Business MCP — WhatsApp Business Cloud API ★ New (July 1)
+Production-validated MCP server for WhatsApp Business Cloud API — compliance engine, error intelligence & message orchestration for AI agents. 24 tools, sub-2ms decisions, 85.6% test coverage. Built in Go. Unlike Neuron (which targets marketing campaigns), this server targets the raw WhatsApp Business Cloud API for transactional messaging, customer support, and compliance-enforced communication. Essential for operators who need AI agents to send/receive WhatsApp messages through Meta's official API with production-grade reliability. `github.com/metabusiness-mcp/meta-business-mcp` · [Integration Guide](/hermes/mcp/servers/external/meta-business-mcp/)
+
+### Protonmail-rs — Proton Mail MCP ★ New (July 1)
+Pure-Rust Proton Mail client — library, CLI, and MCP server with end-to-end OpenPGP encryption. First MCP server for Proton Mail. Gives AI agents encrypted email capabilities through Switzerland's privacy-first provider. Essential for operators in regulated industries (HIPAA, legal, finance) who need AI agents to handle encrypted email while maintaining end-to-end encryption and zero-access architecture. `github.com/filippofinke/protonmail-rs` · [Integration Guide](/hermes/mcp/servers/external/protonmail-rs/)
 
 ### mailcue-mcp ★ New (June 28)
 Give AI agents their own local mailbox to read, send, and triage email via MCP. Lightweight email automation for AI agents — simpler than full Gmail/Outlook MCP servers, no heavy OAuth setup required. Ideal for operators who want AI-driven email triage and response without connecting to production email infrastructure. `github.com/Olib-AI/mailcue`
