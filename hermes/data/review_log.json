@@ -3056,5 +3056,61 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-06-30T08:03:11.506077+00:00"
+  },
+  {
+    "repo": "donovan-yohan/hermes-plugin-dynamic-workflows",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-01T05:01:22.562975+00:00"
+  },
+  {
+    "repo": "503496348-ops/hermes-security-suite",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-01T05:01:22.562988+00:00"
+  },
+  {
+    "repo": "Judunreliable735/hermes-agent-desktop",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-01T05:01:22.562991+00:00"
+  },
+  {
+    "repo": "503496348-ops/hermes-doctor",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-01T05:01:22.562993+00:00"
+  },
+  {
+    "repo": "YinGakki/hermes-mobile",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-01T05:01:22.562994+00:00"
+  },
+  {
+    "repo": "emminentt/capillus-hermes-mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-01T05:01:22.562996+00:00"
+  },
+  {
+    "repo": "Wislist/mcp-azureland",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-01T05:01:22.562998+00:00"
+  },
+  {
+    "repo": "pchaganti/px-hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-01T05:01:22.563000+00:00"
   }
 ]

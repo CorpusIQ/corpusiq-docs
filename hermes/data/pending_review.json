@@ -12211,5 +12211,224 @@
     ],
     "discovered_at": "2026-06-30T08:03:01.930241+00:00",
     "status": "pending"
+  },
+  {
+    "name": "donovan-yohan/hermes-plugin-dynamic-workflows",
+    "url": "https://github.com/donovan-yohan/hermes-plugin-dynamic-workflows",
+    "description": "Hermes Agent plugin prototype for Claude Code-style dynamic workflows",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-orchestration",
+      "claude-code",
+      "dynamic-workflows",
+      "hermes-agent",
+      "python"
+    ],
+    "updated_at": "2026-07-01T05:00:40Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-01T05:00:50.604177+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "503496348-ops/hermes-security-suite",
+    "url": "https://github.com/503496348-ops/hermes-security-suite",
+    "description": "\u5947\u70b9\u9020\u7269 Genesisix-hermes \u2014 Agent\u5b89\u5168\u4e09\u4ef6\u5957\u3002\u68c0\u6d4b(825\u89c4\u5219/13\u5c42)+\u8bca\u65ad(\u81ea\u6108)+\u9632\u62a4(\u5b9e\u65f6\u62e6\u622a)\u3002",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "atomcollide",
+      "mcp",
+      "operations",
+      "product",
+      "python",
+      "security",
+      "vulnerability-scanner"
+    ],
+    "updated_at": "2026-07-01T04:58:41Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "active_week",
+      "has_homepage",
+      "niche_specialized"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-01T05:00:53.606660+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Judunreliable735/hermes-agent-desktop",
+    "url": "https://github.com/Judunreliable735/hermes-agent-desktop",
+    "description": "Automate tasks on your local machine using an AI agent client for Claude, Grok, and Gemini models on Windows, macOS, and Linux.",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "agent-orchestration",
+      "agent-workspace",
+      "ai-collaboration",
+      "ai-tools",
+      "chatbot",
+      "desktop-app",
+      "electron",
+      "hermes-agent",
+      "kimi",
+      "local-first",
+      "model-router",
+      "multi-agent",
+      "open-source",
+      "openclaw",
+      "python",
+      "qwen",
+      "rust",
+      "skills-management",
+      "wsl-support"
+    ],
+    "updated_at": "2026-07-01T04:58:31Z",
+    "category": "core",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "zakahadi/llm-eval-cli"
+    ],
+    "discovered_at": "2026-07-01T05:00:56.609421+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "503496348-ops/hermes-doctor",
+    "url": "https://github.com/503496348-ops/hermes-doctor",
+    "description": "Hermes Doctor (\u767d\u9f99\u9a6c\u533b\u751f) \u2014 Hermes Agent \u81ea\u8bca\u65ad\u4e0e\u5b89\u5168\u81ea\u6108\u63d2\u4ef6\u3002\u4f53\u68c0\u3001\u836f\u65b9\u5339\u914d\u3001\u4fee\u590d\u8ba1\u5212\u3001\u75c5\u5386\u6c89\u6dc0\u3001\u98de\u4e66\u6d88\u606f\u8def\u7531\u3002",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "atomcollide",
+      "diagnostics",
+      "hermes-agent",
+      "lark",
+      "operations",
+      "product",
+      "python",
+      "security",
+      "self-healing"
+    ],
+    "updated_at": "2026-07-01T04:58:32Z",
+    "category": "core",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "active_week",
+      "has_homepage",
+      "niche_specialized"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-01T05:00:59.612259+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "YinGakki/hermes-mobile",
+    "url": "https://github.com/YinGakki/hermes-mobile",
+    "description": "Hermes Agent (Android) \u2014 self-contained APK bundling Termux + Hermes Agent. Forked from AnyClaw.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Kotlin",
+    "topics": [],
+    "updated_at": "2026-07-01T04:57:51Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-01T05:01:02.614760+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "emminentt/capillus-hermes-mcp",
+    "url": "https://github.com/emminentt/capillus-hermes-mcp",
+    "description": "Local-first MCP server and BLE monitor for Bluetooth-enabled Capillus caps",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-01T03:44:38Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-01T05:01:06.376523+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Wislist/mcp-azureland",
+    "url": "https://github.com/Wislist/mcp-azureland",
+    "description": "\u7ed9\u78a7\u84dd\u822a\u7ebf\u6302\u673a\u811a\u672c\u505a\u7684\u4e00\u4e2amcp\uff0c\u65e8\u5728\u901a\u8fc7hermes\u3001openclaw\u7b49agent\u5de5\u5177\u63a5\u5165\uff0c\u5b9e\u73b0\u5168\u81ea\u52a8\u5316\u6302\u673a\u811a\u672c\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-01T02:21:47Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-01T05:01:09.380027+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pchaganti/px-hermes-agent",
+    "url": "https://github.com/pchaganti/px-hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-01T04:59:46Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent"
+    ],
+    "discovered_at": "2026-07-01T05:01:13.981611+00:00",
+    "status": "pending"
   }
 ]
