@@ -3329,5 +3329,103 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-02T07:06:52.246856+00:00"
+  },
+  {
+    "repo": "SouthpawIN/turbofit",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T08:11:25.777716+00:00"
+  },
+  {
+    "repo": "refixai/proactivity",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T08:11:25.777730+00:00"
+  },
+  {
+    "repo": "jorinyang/awesome-skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T08:11:25.777732+00:00"
+  },
+  {
+    "repo": "Tanklive/aim-multi-agent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T08:11:25.777734+00:00"
+  },
+  {
+    "repo": "yasyf/yclaw",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T08:11:25.777736+00:00"
+  },
+  {
+    "repo": "andriy4k07/mcp-baf-audit",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T08:11:25.777738+00:00"
+  },
+  {
+    "repo": "freeluyishisan/hermes-mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T08:11:25.777740+00:00"
+  },
+  {
+    "repo": "arshiaafzal/smart-ask",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T08:11:25.777742+00:00"
+  },
+  {
+    "repo": "Abhi190702/NemoClaw",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T08:11:25.777743+00:00"
+  },
+  {
+    "repo": "Joanium/Joanium",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T08:11:25.777745+00:00"
+  },
+  {
+    "repo": "sonalim611/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T08:11:25.777747+00:00"
+  },
+  {
+    "repo": "wangkejun0006/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T08:11:25.777749+00:00"
+  },
+  {
+    "repo": "goodjin/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T08:11:25.777751+00:00"
+  },
+  {
+    "repo": "OolonColoophid/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T08:11:25.777752+00:00"
   }
 ]

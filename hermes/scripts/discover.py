@@ -247,7 +247,7 @@ def discover_repos(token, dry_run=False):
             time.sleep(QUERY_DELAY)
         query_count += 1
 
-        url = f"https://api.github.com/search/repositories?q={query}&per_page=10"
+        url = f"https://api.github.com/search/repositories?q={urllib.parse.quote(query, safe='+')}&per_page=10"
         headers = {
             "Accept": "application/vnd.github.v3+json",
             "User-Agent": "CorpusIQ-Hermes-Discovery/1.0"
