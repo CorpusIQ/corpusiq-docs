@@ -3210,5 +3210,124 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-02T05:01:26.316929+00:00"
+  },
+  {
+    "repo": "KevinUnk/jarvis-hermes-ui",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246825+00:00"
+  },
+  {
+    "repo": "johnson-41/hermes-skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246828+00:00"
+  },
+  {
+    "repo": "s-studio-creator/s-studio-office",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246830+00:00"
+  },
+  {
+    "repo": "MangelZabalaDevelop/iPhish-Agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246832+00:00"
+  },
+  {
+    "repo": "lokah1945/ilma-core",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246834+00:00"
+  },
+  {
+    "repo": "LukaLeskovsek/hermes-starter-pack",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246836+00:00"
+  },
+  {
+    "repo": "andriy4k07/mcp-baf",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246838+00:00"
+  },
+  {
+    "repo": "alonre/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246840+00:00"
+  },
+  {
+    "repo": "alramalho/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246842+00:00"
+  },
+  {
+    "repo": "ashneil12/vanilla-hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246843+00:00"
+  },
+  {
+    "repo": "CorvinLabs/CorvinOS",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246845+00:00"
+  },
+  {
+    "repo": "Quithor/hermes-agent-spring-clone",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246847+00:00"
+  },
+  {
+    "repo": "mnemosyne-oss/mnemosyne",
+    "score": 84,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-02T07:06:52.246849+00:00"
+  },
+  {
+    "repo": "Cyapstaye/Adame_ver.open",
+    "score": 39,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246851+00:00"
+  },
+  {
+    "repo": "stanchak/hermes-agent-oauth-billing-fix",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246853+00:00"
+  },
+  {
+    "repo": "uudruid74/hermes-agent",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246855+00:00"
+  },
+  {
+    "repo": "cuniculture/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-02T07:06:52.246856+00:00"
   }
 ]

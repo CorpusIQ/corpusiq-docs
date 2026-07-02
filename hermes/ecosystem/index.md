@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 The most comprehensive directory of Hermes Agent resources in existence. 447+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** June 30, 2026 · **Repos indexed:** 447+ · **Categories:** 18
+> **Last updated:** July 2, 2026 · **Repos indexed:** 447+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -648,12 +648,12 @@ One brain, many harnesses. Portable `.agent/` folder (memory + skills + config) 
 
 ---
 
-### AxDSan/mnemosyne
-⭐ **1,150** · `Python` · [github.com/AxDSan/mnemosyne](https://github.com/AxDSan/mnemosyne)
+### mnemosyne-oss/mnemosyne
+⭐ **1,358** · `Python` · [github.com/mnemosyne-oss/mnemosyne](https://github.com/mnemosyne-oss/mnemosyne)
 
-The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agent. Ultra-fast local memory with minimal overhead.
+The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agents and Everyone Else. Production-grade local memory with zero external dependencies — battle-tested across agents, AI, ML, and Nous Research workflows.
 
-**Key capabilities:** Zero dependencies, sub-ms retrieval, local-first, Hermes-native
+**Key capabilities:** Zero dependencies, sub-ms retrieval, local-first, Hermes-native, agents/AI/ML ecosystem
 
 ---
 
@@ -3942,7 +3942,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 | Topic | Resources |
 |-------|-----------|
 | **Getting Started** | [Setup Guide](/hermes/setup/) · [Official Docs](https://hermes-agent.nousresearch.com/docs/) · [Orange Book](https://github.com/alchaincyf/hermes-agent-orange-book) · [27-Chapter Tutorial](https://github.com/longyunfeigu/learn-hermes-agent) |
-| **Memory** | [Knowledge Architecture](/hermes/knowledge/) · [GBrain](https://github.com/garrytan/gbrain) · [EverOS](https://github.com/EverMind-AI/EverOS) · [claude-mem](https://github.com/thedotmack/claude-mem) · [mnemosyne](https://github.com/AxDSan/mnemosyne) |
+| **Memory** | [Knowledge Architecture](/hermes/knowledge/) · [GBrain](https://github.com/garrytan/gbrain) · [EverOS](https://github.com/EverMind-AI/EverOS) · [claude-mem](https://github.com/thedotmack/claude-mem) · [mnemosyne](https://github.com/mnemosyne-oss/mnemosyne) |
 | **MCP** | [MCP Guide](/hermes/mcp/) · [CorpusIQ](https://corpusiq.io) · [Kindly Search](https://github.com/Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server) · [Kagi MCP](https://github.com/KSroido/Kagi-Session2API-MCP) |
 | **Skills** | [Skills Catalog](/hermes/skills/catalog/) · [Marketing Skills](https://github.com/Ben-Home/marketingskills) · [Skill Factory](https://github.com/Romanescu11/hermes-skill-factory) · [372 Skills](https://github.com/BBridgeers/hermes-skills) |
 | **UI** | [Hermes WebUI](https://github.com/nesquena/hermes-webui) · [Desktop](https://github.com/fathah/hermes-desktop) · [Studio](https://github.com/EKKOLearnAI/hermes-studio) · [Workspace](https://github.com/outsourc-e/hermes-workspace) · [Scarf](https://github.com/awizemann/scarf) |

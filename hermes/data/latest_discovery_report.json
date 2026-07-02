@@ -1,23 +1,24 @@
 {
-  "run_time": "2026-06-30T08:03:11.513263+00:00",
+  "run_time": "2026-07-02T07:06:52.261155+00:00",
   "new_approved": [
     {
-      "name": "ksimback/hermes-ecosystem",
-      "url": "https://github.com/ksimback/hermes-ecosystem",
-      "description": "\ud83d\uddfa\ufe0f Hermes Atlas \u2014 the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com",
-      "stars": 1076,
-      "forks": 83,
-      "language": "HTML",
+      "name": "mnemosyne-oss/mnemosyne",
+      "url": "https://github.com/mnemosyne-oss/mnemosyne",
+      "description": "The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agents and Everyone Else!",
+      "stars": 1358,
+      "forks": 125,
+      "language": "Python",
       "topics": [
-        "ai-agents",
-        "ecosystem-map",
+        "agents",
+        "ai",
+        "hermes",
         "hermes-agent",
-        "hermes-atlas",
-        "nous-research"
+        "ml",
+        "nousresearch"
       ],
-      "updated_at": "2026-06-30T07:59:06Z",
-      "category": "core",
-      "score": 85,
+      "updated_at": "2026-07-02T06:28:20Z",
+      "category": "official",
+      "score": 84,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
         "direct_hermes_reference",
@@ -27,32 +28,20 @@
         "has_homepage"
       ],
       "near_duplicates": [
-        "0xNyk/awesome-hermes-agent",
-        "SamurAIGPT/awesome-hermes-agent",
-        "awizemann/scarf",
-        "Romanescu11/hermes-skill-factory",
-        "longyunfeigu/learn-hermes-agent",
-        "mudrii/hermes-agent-docs",
-        "ZeroPointRepo/awesome-hermes-skills",
-        "agentchatme/agentchat-hermes",
-        "ksimback/hermes-atlas-mcp",
-        "hugocarreira/agentrc",
-        "tale-project/tale",
-        "awesome-hermes-usecases",
-        "hermeshub",
-        "hermes-ecosystem",
-        "awesome-hermes-agent"
+        "AxDSan/mnemosyne",
+        "itsXactlY/mazemaker",
+        "tale-project/tale"
       ],
-      "discovered_at": "2026-06-30T08:02:29.396539+00:00",
+      "discovered_at": "2026-07-02T07:06:10.884353+00:00",
       "status": "approved",
-      "approved_at": "2026-06-30T08:03:11.506049+00:00"
+      "approved_at": "2026-07-02T07:06:52.246809+00:00"
     }
   ],
   "stats": {
-    "total_found": 13,
+    "total_found": 17,
     "auto_approved": 1,
-    "pending_review": 12,
-    "total_approved": 138,
-    "total_pending": 433
+    "pending_review": 16,
+    "total_approved": 139,
+    "total_pending": 471
   }
 }

@@ -3919,5 +3919,40 @@
     "discovered_at": "2026-06-30T08:02:29.396539+00:00",
     "status": "approved",
     "approved_at": "2026-06-30T08:03:11.506049+00:00"
+  },
+  {
+    "name": "mnemosyne-oss/mnemosyne",
+    "url": "https://github.com/mnemosyne-oss/mnemosyne",
+    "description": "The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agents and Everyone Else!",
+    "stars": 1358,
+    "forks": 125,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "ai",
+      "hermes",
+      "hermes-agent",
+      "ml",
+      "nousresearch"
+    ],
+    "updated_at": "2026-07-02T06:28:20Z",
+    "category": "official",
+    "score": 84,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "high_stars_1000+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "AxDSan/mnemosyne",
+      "itsXactlY/mazemaker",
+      "tale-project/tale"
+    ],
+    "discovered_at": "2026-07-02T07:06:10.884353+00:00",
+    "status": "approved",
+    "approved_at": "2026-07-02T07:06:52.246809+00:00"
   }
 ]

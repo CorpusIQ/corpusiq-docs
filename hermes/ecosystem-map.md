@@ -40,7 +40,7 @@ graph TB
         CLAUDEMEM[claude-mem<br/>⭐83K]
         GBRAIN[gbrain<br/>⭐23K]
         EVEROS[EverOS<br/>⭐7.5K]
-        MNEMOSYNE[mnemosyne<br/>⭐1.2K]
+        MNEMOSYNE[mnemosyne<br/>⭐1.4K]
         MEMTRACE[memtrace<br/>⭐193]
     end
 
