@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 1, 2026 (PM evening update) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 2, 2026 · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -123,6 +123,18 @@ Generate payments, retrieve transaction history, and interact with ifthenpay ser
 
 ### PipRail ★ New
 AI agent autonomous payment execution for any x402 (HTTP 402) API across 29 blockchains. Budget-capped, self-custody, no facilitator fees. Essential for operators automating micropayment workflows.
+
+### SentiSense ★ New (July 2)
+Market intelligence MCP for AI agents: US market mood, stock sentiment, SentiSense Score, market-moving news, analyst ratings, 13F filings. Five read-only tools, zero-config OAuth, no API key required. Essential for investment analysts and fintech operators needing AI-driven market intelligence without API key management. `sentisense.ai` · [Integration Guide](/hermes/mcp/servers/external/sentisense/)
+
+### HPSILab Quant Finance MCP ★ New (July 2)
+Institutional-grade quantitative finance MCP: options analytics (Black-Scholes, Greeks), implied volatility surfaces, Monte Carlo simulations, AI market signals, and strategy backtesting. Quantum ML (Qiskit) and regime detection. Essential for quant analysts, hedge fund operators, and fintech builders needing AI-driven quantitative finance workflows. `mcp.so` listing · [Integration Guide](/hermes/mcp/servers/external/hpsilab-quant/)
+
+### Kalshi MCP ★ New (July 2)
+First prediction-market MCP server. CFTC-regulated Kalshi markets from any AI agent — get markets, positions, and place orders on event contracts. TypeScript. Essential for operators in prediction markets, political forecasting, and event-driven trading. `github.com/onofre-jauregui/kalshi-mcp` · [Integration Guide](/hermes/mcp/servers/external/kalshi-mcp/)
+
+### pipeworx Business Data Suite ★ New (July 2)
+Industrial-scale MCP wrapping: 18+ servers shipped in a single day. Business-relevant: **mcp-tradier** (stock & options market data via Tradier Brokerage API), **mcp-eodhd** (EOD Historical Data for global equities), **mcp-diffbot** (Diffbot Knowledge Graph for company enrichment), **mcp-coresignal** (LinkedIn-adjacent company + employee data), **mcp-peopledatalabs** (person/company enrichment), **mcp-shodan** (Shodan REST API for internet scanning), **mcp-pulsedive** (threat intelligence IOC enrichment), **mcp-seo-backlinks** (DataForSEO backlink intelligence), **mcp-emailable** (Emailable email verification). All TypeScript, consistent tool naming. `github.com/pipeworx-io` · [Integration Guide](/hermes/mcp/servers/external/pipeworx-business-data/)
 
 ### Hermes Plant MCP Server ★ New (July 1 PM)
 Runnable MCP server for deterministic finance and quant APIs paid over x402. Provides AI agents with provably correct financial calculations, quantitative models, and market analytics with cryptographic payment rails. For operators building AI-driven quantitative finance workflows with verifiable computation. `github.com/JesseGdotIO/hermesplant-mcp-server` · [Integration Guide](/hermes/mcp/servers/external/hermesplant-mcp-server/)
@@ -322,6 +334,9 @@ Web scraping, search, screenshots, and network tools for Claude, Cursor, ChatGPT
 ### Auditspark ★ New
 AI-powered website audit for any URL across 10+ categories  --  SEO, performance, accessibility, UX, and content quality. Scored report in under 2 minutes. Free tier included. Ideal for operators auditing their web presence.
 
+### SEOforGPT — AI Visibility / GEO MCP ★ New (July 2)
+First purpose-built Generative Engine Optimization (GEO) MCP. Audit client visibility across ChatGPT, Claude, Perplexity, and Gemini. Track competitors and AI-cited sources. Generate AI-optimized content and publish to CMS. Essential for marketing agencies future-proofing their SEO practice as search shifts to AI platforms. `seoforgpt.com` · [Integration Guide](/hermes/mcp/servers/external/seoforgpt/)
+
 ### OpenSEO ★ New
 SEO research tools for AI agents: keyword research and metrics, SERP and local SERP results, domain and backlink analysis, rank tracking, and Google Search Console performance. `npx openseo-mcp`
 
@@ -443,6 +458,9 @@ MCP gateway security  --  secure every MCP server with one governed gateway. Giv
 
 ### Blocktrust TrustScan ★ New (June 29)
 Digital trust verification for AI agents. Verify contact identities, domains, and websites. Detect phishing and invoice fraud. Sign interactions cryptographically (BIS). 15 tools, blockchain-anchored on Polygon. GDPR-compliant. Essential for operators who need AI agents to verify counterparties, detect fraud, and establish cryptographic trust before executing transactions. `github.com/brnbtech770/blocktrust-trustscan`
+
+### MCP Long-Term Memory (GraphRAG) ★ New (July 2)
+GraphRAG-backed persistent memory for AI agents via MCP. Neo4j knowledge graph storage enables multi-hop reasoning and structured cross-session recall — entities, relationships, and communities. Python. Essential for operators building persistent agent workflows where context must survive beyond a single session. `github.com/null-create/mcp-long-term-memory` · [Integration Guide](/hermes/mcp/servers/external/mcp-long-term-memory/)
 
 ### vrules ★ New (July 1 PM)
 Open-source, vendor-neutral agent-governance and LLM guardrails framework. Vector-enabled rules engine for MCP proxying, policy-as-code, conditional organizational memory, and browser/WASM execution. Essential for operators deploying AI agents in production who need programmable guardrails, policy enforcement, and governance across their agent fleet — without vendor lock-in. `github.com/ops-ping/vrules` · [Integration Guide](/hermes/mcp/servers/external/vrules/)
