@@ -235,7 +235,18 @@ def discover_repos(token, dry_run=False):
     new_finds = []
     all_seen = set()
 
+    # Rate-limit guard: max 10 search queries/min (authenticated).
+    # With 2.0s per-result sleep, we space queries 6s apart to stay under the limit
+    # and avoid GitHub's "User flagged as spammy" 422 response.
+    QUERY_DELAY = 6.0  # seconds between search queries
+    query_count = 0
+
     for query, category in SEARCH_QUERIES:
+        # Inter-query delay (skip first)
+        if query_count > 0:
+            time.sleep(QUERY_DELAY)
+        query_count += 1
+
         url = f"https://api.github.com/search/repositories?q={query}&per_page=10"
         headers = {
             "Accept": "application/vnd.github.v3+json",
