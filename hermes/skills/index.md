@@ -140,13 +140,13 @@ The Hermes community hub includes a curated [Skills Marketplace](/hermes/skills/
 
 ### Trending This Week
 
-[🆕 June 16, 2026  --  ClawPilot ecosystem: mobile-to-agent bridge →](/hermes/skills/marketplace/new-june16-2026/)
+[🆕 July 2, 2026  --  Hermes Browser Extension + OpenClaw on Android (2 new skills) →](/hermes/skills/marketplace/new-july2-2026/)
 
 ### Recent Discoveries
 
+- [July 1, 2026  --  Official Hermes Gap Sweep (49 skills)](/hermes/skills/marketplace/new-july1-2026/)
+- [June 30, 2026  --  xurl, TimesFM, ClawSec Security Suite (12 skills)](/hermes/skills/marketplace/new-june30-2026-update2/)
 - [June 15, 2026  --  Nous Research Expansion (23 skills)](/hermes/skills/marketplace/new-june15-2026/)
-- [June 12, 2026  --  OpenClaw Security Suite (13 skills)](/hermes/skills/marketplace/new-june12-2026-update/)
-- [June 11, 2026  --  Hermes Ecosystem + Platform Bots (38 skills)](/hermes/skills/marketplace/new-june11-2026/)
 
 ## Quick Links
 

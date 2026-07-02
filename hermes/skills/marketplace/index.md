@@ -155,6 +155,7 @@ Approved skills appear on the next marketplace update page with install commands
 
 New skills are discovered weekly through automated sweeps of skills.sh. Each discovery gets a dedicated update page:
 
+- [🆕 July 2, 2026 — Hermes Browser Extension + OpenClaw on Android (2 repos, 2 skills, 2 setup guides)](/hermes/skills/marketplace/new-july2-2026/)
 - [🆕 June 30, 2026 (Update 2) — xurl X/Twitter, TimesFM Forecasting, ClawSec Security Suite (2 repos, 12 skills, 2 setup guides)](/hermes/skills/marketplace/new-june30-2026-update2/)
 - [🆕 June 30, 2026 (Update) — Matt Pocock Engineering Suite, ChromaDB, OpenClaw Loader (7 skills, 1.3M+ installs, 1 setup guide)](/hermes/skills/marketplace/new-june30-2026-update/)
 - [🆕 June 30, 2026 — OpenClaw Expansion, HermesPet, MCP Dev Toolkit (14 repos, 24 skills, 2 setup guides)](/hermes/skills/marketplace/new-june30-2026/)
