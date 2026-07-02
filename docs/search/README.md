@@ -1,6 +1,6 @@
 ---
 meta_title: "CorpusIQ Search  --  Natural Language Queries Across 36 Business Data Sources"
-meta_desc: "CorpusIQ search capabilities: natural language queries, cross-source search, real-time results, date filtering, aggregation, trend analysis. Query Stripe, Shopify, HubSpot, and QuickBooks simultaneously."
+description: "CorpusIQ search capabilities: natural language queries, cross-source search, real-time results, date filtering, aggregation, trend analysis. Query Stripe, Shopify, HubSpot, and QuickBooks simultaneously."
 category: "Documentation"
 tags: ["corpusiq search", "natural language search", "cross-source queries", "business data search", "real-time queries", "trend analysis", "data aggregation"]
 last_updated: "2026-06-16"

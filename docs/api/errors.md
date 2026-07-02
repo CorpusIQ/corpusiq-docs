@@ -1,6 +1,6 @@
 ---
 meta_title: "CorpusIQ API Error Codes  --  Troubleshooting and Error Reference"
-meta_desc: "Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and validation errors (400)."
+description: "Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and validation errors (400)."
 category: "API Reference"
 tags: ["corpusiq errors", "api error codes", "troubleshooting", "http errors", "rate limiting", "authentication errors", "api debugging"]
 last_updated: "2026-06-16"

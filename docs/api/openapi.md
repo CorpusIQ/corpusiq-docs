@@ -1,6 +1,6 @@
 ---
 meta_title: "CorpusIQ OpenAPI Specification  --  API Reference for Postman and Swagger"
-meta_desc: "Complete CorpusIQ OpenAPI 3.0.3 specification. Import into Postman, Insomnia, or Swagger UI for interactive API testing. Available at api.corpusiq.io/v1/openapi.json."
+description: "Complete CorpusIQ OpenAPI 3.0.3 specification. Import into Postman, Insomnia, or Swagger UI for interactive API testing. Available at api.corpusiq.io/v1/openapi.json."
 category: "API Reference"
 tags: ["corpusiq openapi", "swagger", "postman", "api specification", "openapi 3.0", "api testing", "api documentation"]
 last_updated: "2026-06-16"

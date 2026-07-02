@@ -2,3 +2,6 @@
 __pycache__/
 *.py[cod]
 site/
+
+# MkDocs intermediate build output (not deployed)
+build_out/

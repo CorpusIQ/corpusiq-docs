@@ -1,6 +1,6 @@
 ---
 meta_title: "CorpusIQ API Authentication  --  Bearer Tokens, OAuth, and Security"
-meta_desc: "Complete guide to CorpusIQ API authentication. Bearer tokens, OAuth 2.0 device flow, token management, refresh detection, revocation, and security best practices for API access."
+description: "Complete guide to CorpusIQ API authentication. Bearer tokens, OAuth 2.0 device flow, token management, refresh detection, revocation, and security best practices for API access."
 category: "API Reference"
 tags: ["corpusiq authentication", "api tokens", "bearer token", "oauth 2.0", "api security", "token management", "mcp authentication"]
 last_updated: "2026-06-16"
