@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 2, 2026 · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 2, 2026 (afternoon) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -58,6 +58,12 @@ Vehicle identification, history verification, and automotive data via MCP. AI ag
 
 ### Easy Predict ★ New
 Predictive analytics platform via MCP. Provides AI agents with forecasting, trend analysis, and predictive modeling capabilities.
+### BillingServ MCP ★ New (July 2)
+Customer, invoice, and order lookups via the BillingServ billing platform API. AI agents can search customers, retrieve invoice details, and query order statuses — turning billing inquiries into conversational queries. Essential for operators using BillingServ for subscription/invoice management. `github.com/BillingServ/MCP` · [Integration Guide](/hermes/mcp/servers/external/billingserv/)
+
+### AICryptoVault MCP ★ New (July 2)
+MCP-native treasury infrastructure — AI agents interact with crypto wallets for balance queries, transaction history, and agent-governed DeFi operations. Remote SSE transport. Essential for operators managing crypto treasury who want programmatic, auditable wallet access through AI agents. `github.com/browtastic/cloudaiwallet-mcp-servers` · [Integration Guide](/hermes/mcp/servers/external/aicryptovault/)
+
 ### Alpha Vantage MCP Server ★ Sponsor
 Realtime & historical stock, ETF, options, forex, crypto, commodities, fundamentals, technical indicators. Official MCP server from Alpha Vantage.
 
@@ -270,6 +276,12 @@ Autonomous remote job search  --  AI tools can search, filter, and retrieve the 
 ---
 
 
+### Booyah Index MCP ★ New (July 2)
+Free AI-readable directory of 3,520 local businesses across 14 Southeast Asian cities (Bangkok, Singapore, Bali, Kuala Lumpur, Ho Chi Minh City, and more). Search restaurants, services, and local businesses by category, city, or keyword. Essential for market researchers and expansion teams targeting SE Asian markets. `github.com/sarapab-th/booyah-index-mcp` · [Integration Guide](/hermes/mcp/servers/external/booyah-index/)
+
+### qlows MCP — Tender & RFP Search ★ New (July 2)
+Real-time tender and RFP search across 35 WTO-GPA countries (US, EU, Australia). AI agents can search procurement opportunities, extract RFP requirements, and match company capabilities to relevant tenders. Essential for business development teams and proposal writers in government/commercial procurement. `github.com/getqlows/qlows-mcp` · [Integration Guide](/hermes/mcp/servers/external/qlows-mcp-tender-search/)
+
 ### Infino ★ New
 Keyword, vector, hybrid, and SQL retrieval over data on object storage, for AI agents. Multi-modal search across structured and unstructured data.
 
@@ -419,6 +431,15 @@ Production-validated MCP server for WhatsApp Business Cloud API — compliance e
 ### Protonmail-rs — Proton Mail MCP ★ New (July 1)
 Pure-Rust Proton Mail client — library, CLI, and MCP server with end-to-end OpenPGP encryption. First MCP server for Proton Mail. Gives AI agents encrypted email capabilities through Switzerland's privacy-first provider. Essential for operators in regulated industries (HIPAA, legal, finance) who need AI agents to handle encrypted email while maintaining end-to-end encryption and zero-access architecture. `github.com/filippofinke/protonmail-rs` · [Integration Guide](/hermes/mcp/servers/external/protonmail-rs/)
 
+### Odoo MCP ★ New (July 2)
+Free AI layer for Odoo ERP v16+ — zero Odoo-side setup. Connect any MCP client to accounting, inventory, CRM, and sales data via XML-RPC. No App Store module required. Essential for operators running Odoo ERP who want AI-driven business intelligence without ERP-side configuration. `github.com/tuanle96/mcp-odoo` · [Integration Guide](/hermes/mcp/servers/external/odoo-mcp/)
+
+### Launch Fast MCP — Amazon FBA Analytics ★ New (July 2)
+Amazon seller analytics via remote MCP — product research, seller analytics, Brand Analytics, keyword research, supplier research, and ads diagnostics. Essential for Amazon FBA operators who want AI-driven product and market intelligence. `github.com/BlockchainHB/launchfast-mcp` · [Integration Guide](/hermes/mcp/servers/external/launch-fast/)
+
+### Container Tracking MCP ★ New (July 2)
+Real-time ocean container tracking across 200+ shipping lines — live milestones, vessel positions, and ETA by container number, bill of lading, or booking reference. First logistics/supply-chain MCP server. Essential for operators managing international freight and supply chain visibility. `github.com/lxxmng/container-tracking-mcp` · [Integration Guide](/hermes/mcp/servers/external/container-tracking-mcp/)
+
 ### mailcue-mcp ★ New (June 28)
 Give AI agents their own local mailbox to read, send, and triage email via MCP. Lightweight email automation for AI agents — simpler than full Gmail/Outlook MCP servers, no heavy OAuth setup required. Ideal for operators who want AI-driven email triage and response without connecting to production email infrastructure. `github.com/Olib-AI/mailcue`
 
@@ -465,10 +486,18 @@ GraphRAG-backed persistent memory for AI agents via MCP. Neo4j knowledge graph s
 ### vrules ★ New (July 1 PM)
 Open-source, vendor-neutral agent-governance and LLM guardrails framework. Vector-enabled rules engine for MCP proxying, policy-as-code, conditional organizational memory, and browser/WASM execution. Essential for operators deploying AI agents in production who need programmable guardrails, policy enforcement, and governance across their agent fleet — without vendor lock-in. `github.com/ops-ping/vrules` · [Integration Guide](/hermes/mcp/servers/external/vrules/)
 
+### Kvasir Legal MCP ★ New (July 2)
+Ground AI on verifiable German, Bavarian, and EU law — canonical legal objects with cryptographic provenance and pinpoint citations. Legal professionals can query regulations, search case law, and ground AI outputs in authoritative sources. Essential for compliance teams and legal operators in EU jurisdictions. `kvasir.legal` · [Integration Guide](/hermes/mcp/servers/external/kvasir-legal/)
+
+### SaferAgenticAI MCP ★ New (July 2)
+AI safety framework for agentic coding assistants over MCP — governance guardrails, safety checks, and policy enforcement. Every agent action validated against organizational safety policies before execution. Essential for operators deploying AI agents in production who need programmable safety guardrails. `github.com/NellInc/SaferAgenticAI` · [Integration Guide](/hermes/mcp/servers/external/saferagenticai-mcp/)
+
 ---
 
 ## Development & Infrastructure
 
+### Drumbeats MCP ★ New (July 2)
+Operate Drumbeats monitoring from any AI client — create cron/heartbeat monitors, triage incidents, and manage status pages via MCP. Essential for DevOps operators who want AI-driven uptime monitoring, incident response, and status page management. `github.com/drumbeats-io/mcp` · [Integration Guide](/hermes/mcp/servers/external/drumbeats-mcp/)
 
 ### Bult.ai MCP Server ★ New (June 30)
 Deploy and manage Bult.ai cloud hosting resources — projects, services, GitHub and Docker deployments via MCP. Cloud infrastructure management for AI agents. Essential for operators who want to manage cloud hosting through their AI toolchain. `mcpservers.org: bultcloud/mcp-server`
@@ -1125,6 +1154,15 @@ Google AdMob management, mediation waterfall operations, advanced revenue analys
 ### LinkDeal MCP ★ New
 Find warm LinkedIn leads via AI — enrich contacts, unlock comments, and deliver to Slack. B2B lead generation MCP for sales operators who prospect through AI agents. Essential for operators building AI-driven outbound sales workflows.
 
+### AppSigma App Store Data MCP ★ New (July 2)
+Full public App Store search results as users see them — rankings, reviews, ASO keywords, sponsored slots, charts, and app analytics. iPhone app growth teams can research competitors, track keyword rankings, and analyze reviews directly from AI agents. Essential for mobile growth operators and ASO teams. `appsigma.io` · [Integration Guide](/hermes/mcp/servers/external/appsigma-app-store-data-mcp/)
+
+### Userbrain MCP ★ New (July 2)
+User testing analytics via MCP — explore test session data, summarize participant feedback, identify pain points, and surface UX insights. Product teams can query usability test results without manually watching recordings. Essential for UX researchers and product operators. `userbrain.com` · [Integration Guide](/hermes/mcp/servers/external/userbrain/)
+
+### NaturalMelo MCP ★ New (July 2)
+AI content detection with naturalness scoring and AI-template pattern flagging. Content teams can audit AI-assisted writing before publishing — verify output reads authentically rather than like generic LLM content. Essential for content operators managing AI-assisted content pipelines and SEO quality. `github.com/carter-wzq/naturalmelo-mcp` · [Integration Guide](/hermes/mcp/servers/external/naturalmelo-mcp/)
+
 ---
 
 ## Memory & Knowledge
@@ -1156,7 +1194,24 @@ Atomic memory model for AI agents — knowledge stored as atoms (facts, decision
 ### memo ★ New (July 1)
 100% local persistent semantic memory for AI agents on Apple Silicon (MLX) or Linux/Ubuntu (CPU). Markdown source of truth, sqlite-vec + BM25 hybrid search, codegraph-backed knowledge graph. MCP server + CLI. No cloud, no API keys. Privacy-first memory infrastructure for operators who need local-only AI agent memory without cloud dependencies. Essential for regulated industries (HIPAA, GDPR) or operators who refuse cloud-based memory infrastructure. `github.com/jagoff/memo` · `pip install mlx-memo`
 
+### SPM — Structured Project Memory ★ New (July 2)
+Project-scoped memory for AI agents with provenance tracking and access control. Delivered as a remote MCP connector — context packs, verification, context graphs, and cryptographic memory integrity. Essential for operators running multi-agent workflows who need auditable, verifiable project memory with governance. `github.com/getspm/spm-agent-connectors` · [Integration Guide](/hermes/mcp/servers/external/spm-structured-project-memory/)
+
 ---
+
+## New This Week (July 2, 2026 — afternoon sweep)
+
+### 14 new business-relevant servers from mcp.so
+
+**ERP & Business:** Odoo MCP (free ERP connector), BillingServ MCP (billing/invoicing)  
+**Ecommerce & Logistics:** Launch Fast MCP (Amazon FBA), Container Tracking MCP (ocean freight)  
+**Marketing & Content:** AppSigma (App Store ASO), Userbrain (UX testing), NaturalMelo (AI content detection)  
+**BI & Procurement:** Booyah Index (SE Asia business directory), qlows (WTO-GPA tender/RFP search)  
+**Legal & Compliance:** Kvasir Legal (EU law grounding), SaferAgenticAI (AI safety governance)  
+**Agent Infrastructure:** SPM (project-scoped agent memory), Drumbeats (uptime/cron monitoring)  
+**Finance:** AICryptoVault (crypto treasury)
+
+Full details: [scan-results-2026-07-02-update.md](/hermes/mcp/servers/external/scan-results-2026-07-02-update/)
 
 ## New This Week (June 18, 2026  --  cron sweep)
 
