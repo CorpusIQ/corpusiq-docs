@@ -205,5 +205,5 @@ This sweep produced one detailed setup guide:
 
 ---
 
-*← [July 2 Sweep](/hermes/skills/marketplace/new-july2-2026/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+*← [July 2 Sweep](/hermes/skills/marketplace/new-july2-2026/) | [Marketplace Home](/hermes/skills/marketplace/) | [July 3 Update (6 more) →](/hermes/skills/marketplace/new-july3-2026-update/)*
 *Powered by CorpusIQ*
