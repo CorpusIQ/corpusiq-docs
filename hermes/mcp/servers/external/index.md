@@ -65,7 +65,10 @@ Customer, invoice, and order lookups via the BillingServ billing platform API. A
 MCP-native treasury infrastructure — AI agents interact with crypto wallets for balance queries, transaction history, and agent-governed DeFi operations. Remote SSE transport. Essential for operators managing crypto treasury who want programmatic, auditable wallet access through AI agents. `github.com/browtastic/cloudaiwallet-mcp-servers` · [Integration Guide](/hermes/mcp/servers/external/aicryptovault/)
 
 ### Alpha Vantage MCP Server ★ Sponsor
-Realtime & historical stock, ETF, options, forex, crypto, commodities, fundamentals, technical indicators. Official MCP server from Alpha Vantage.
+Realtime & historical stock, ETF, options, forex, crypto, commodities, fundamentals, technical indicators. Official MCP server from Alpha Vantage. [Full integration guide →](/hermes/mcp/servers/external/alphavantage-mcp/)
+
+### Co-Invest MCP Server ★ New (July 3)
+Invest with AI agents — market research, portfolio analysis, trade execution, and strategy backtesting. Built on Liquid Trade infrastructure. Official MCP from liquid.trade. Essential for operators managing personal or firm investments who want AI-driven research and execution. [Full integration guide →](/hermes/mcp/servers/external/coinvest-mcp/)
 
 ### Tradingview Mcp ★ New
 Live market data & technical analysis for AI assistants  --  30+ tools across stocks, crypto, forex & futures: screeners, indicators, candlestick patterns, multi-timeframe analysis, backtesting & live sentiment. Works with Claude, ChatGPT, Cursor & Copilot. Self-host free (MIT) or one-URL hosted. Essential for financial operators who rely on TradingView's charting and technical analysis ecosystem.
@@ -809,6 +812,12 @@ Home Services MCP by HireNimbus  --  AI agents find, compare, and book verified 
 Verified, tier-0 regulatory data for AI agents: connect Claude, ChatGPT, or Cursor to 850+ official sources across 50+ jurisdictions. Compliance-grade data for regulatory research, legal operations, and governance. Essential for operators in regulated industries (finance, healthcare, legal).
 
 
+### Cal.com MCP Server ★ New (July 3)
+Official Cal.com scheduling MCP — create event types, check availability, book meetings directly from AI agents. Remote endpoint at `mcp.cal.com`. Essential for operators who manage heavy meeting schedules and want scheduling to be agent-driven rather than dashboard-clicking. [Full integration guide →](/hermes/mcp/servers/external/calcom-mcp/)
+
+### Granola MCP Server ★ New (July 3)
+Official Granola meeting notes MCP — query meeting transcripts, extract action items, and search your entire meeting history from AI agents. Turns meeting notes into a queryable knowledge base. Essential for operators who want AI agents to answer "what did we decide about X?" from actual meeting records. [Full integration guide →](/hermes/mcp/servers/external/granola-mcp/)
+
 ### Fixzi MCP Server ★ New
 Issue tracking and bug fixing workflow automation via MCP. AI agents can create, track, and resolve issues programmatically.
 
@@ -1057,6 +1066,12 @@ LinkedIn data API and MCP server for AI agents. Public profiles, companies, and 
 
 ### Rampify ★ New
 SEO MCP server: crawl your site, find AI-visibility gaps (GEO), and ship the fix from your coding agent. Combines traditional SEO audit with AI-engine optimization (AEO). Essential for marketing operators managing AI discoverability.
+
+### Webotee Amazon MCP Server ★ New (July 3)
+Amazon seller intelligence MCP — product research, buy-box history, competitor analysis, niche discovery. Built for Amazon sellers and ecommerce operators. Research products and discover under-competed niches directly from AI agents. [Full integration guide →](/hermes/mcp/servers/external/webotee-amazon-mcp/)
+
+### OpenTweet MCP Server ★ New (July 3)
+X/Twitter management MCP — compose, schedule, publish tweets and threads; search content; analyze engagement. Complete X presence management from AI agents. Essential for marketers and operators who manage X/Twitter as their primary social channel. [Full integration guide →](/hermes/mcp/servers/external/opentweet-mcp/)
 
 ### viral.app ★ New
 API-powered MCP server for UGC marketing analytics, creator tracking, campaign reporting, and agent workflows. Analyze user-generated content performance and creator ROI directly from AI assistants.
