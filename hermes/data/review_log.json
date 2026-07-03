@@ -3546,5 +3546,89 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-03T05:04:38.789962+00:00"
+  },
+  {
+    "repo": "stepanov1975/hermes-local-knowledge",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T08:07:02.910022+00:00"
+  },
+  {
+    "repo": "justinsensei/apollo-backup",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T08:07:02.910049+00:00"
+  },
+  {
+    "repo": "orion2182/hermes-skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T08:07:02.910052+00:00"
+  },
+  {
+    "repo": "ashah360/ghost_cursor",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T08:07:02.910054+00:00"
+  },
+  {
+    "repo": "rrusyaidii/hermes-config",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T08:07:02.910056+00:00"
+  },
+  {
+    "repo": "klarlabs-studio/mnemos",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T08:07:02.910058+00:00"
+  },
+  {
+    "repo": "ballcheung/china-company-check-mcp",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T08:07:02.910060+00:00"
+  },
+  {
+    "repo": "AojdevStudio/hermes-satellite",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T08:07:02.910062+00:00"
+  },
+  {
+    "repo": "sunilkumar770/hermes-agent-for-seo",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T08:07:02.910064+00:00"
+  },
+  {
+    "repo": "aqua1694/hermes-agent",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T08:07:02.910066+00:00"
+  },
+  {
+    "repo": "laichunhui/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T08:07:02.910068+00:00"
+  },
+  {
+    "repo": "Loukky/hermes-webui",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T08:07:02.910070+00:00"
   }
 ]

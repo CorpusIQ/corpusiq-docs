@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 The most comprehensive directory of Hermes Agent resources in existence. 447+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** July 2, 2026 · **Repos indexed:** 447+ · **Categories:** 18
+> **Last updated:** July 3, 2026 · **Repos indexed:** 447+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -4080,7 +4080,7 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 | [timothy-odofin/agenthub-be](https://github.com/timothy-odofin/agenthub-be) | 570 | Open-source RAG platform with multi-LLM support. Build AI agents that connect to your data, tools, a | agent, ecosystem |
 | [makafeli/n8n-workflow-builder](https://github.com/makafeli/n8n-workflow-builder) | 526 | AI assistant integration for n8n workflow automation through Model Context Protocol (MCP). Connect C | agent, ecosystem |
 
-| [ruvnet/metaharness](https://github.com/ruvnet/metaharness) | 354 | 🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own np | agent, ecosystem |
+| [ruvnet/metaharness](https://github.com/ruvnet/metaharness) | 355 | 🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own np | agent, ecosystem |
 | [zhu1090093659/spec_driven_develop](https://github.com/zhu1090093659/spec_driven_develop) | 909 | Spec-driven development workflow for AI coding agents: architecture-first planning, task decompositi | agent, ecosystem |
 | [DjangoPeng/agent-hub](https://github.com/DjangoPeng/agent-hub) | 339 | This repository is a hub for AI Agent projects, including GitHub Sentinel, LanguageMentor, and ChatP | agent, ecosystem |
 | [groupzer0/vs-code-agents](https://github.com/groupzer0/vs-code-agents) | 274 | A multi-agent workflow system for GitHub Copilot in VS Code that brings structure, quality gates, an | agent, ecosystem |

@@ -1350,47 +1350,6 @@
     "approved_at": "2026-06-16"
   },
   {
-    "name": "ruvnet/agent-harness-generator",
-    "url": "https://github.com/ruvnet/agent-harness-generator",
-    "description": "\ud83d\udee0\ufe0f The meta-harness for AI agents \u2014 scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).",
-    "stars": 99,
-    "forks": 8,
-    "language": "TypeScript",
-    "topics": [
-      "agent-harness",
-      "agent-harness-generator",
-      "agent-scaffolding",
-      "agentic-ai",
-      "agentic-framework",
-      "autonomous-agents",
-      "claude-code",
-      "codex",
-      "create-agent-harness",
-      "hermes-agent",
-      "mcp",
-      "mcp-server",
-      "multi-agent",
-      "openai-codex",
-      "openclaw",
-      "pi-dev",
-      "rvm",
-      "sandboxing",
-      "scaffold",
-      "scaffolding"
-    ],
-    "updated_at": "2026-06-16",
-    "category": "discovered",
-    "score": 0,
-    "tier": "SEEDED",
-    "score_reasons": [
-      "seeded_from_initial_discovery"
-    ],
-    "near_duplicates": [],
-    "discovered_at": "2026-06-16",
-    "status": "approved",
-    "approved_at": "2026-06-16"
-  },
-  {
     "name": "unmodeled-tyler/vessel-browser",
     "url": "https://github.com/unmodeled-tyler/vessel-browser",
     "description": "Built from the ground-up for agents, Vessel Browser is an open source AI browser for Linux/Mac/Windows that provides a durable state, MCP control, and BYOK with full autonomous browsing. Use with Hermes Agent, OpenClaw, or connect to your favorite API provider.",
@@ -3959,7 +3918,7 @@
     "name": "ruvnet/metaharness",
     "url": "https://github.com/ruvnet/metaharness",
     "description": "\ud83d\udee0\ufe0f The meta-harness for AI agents \u2014 scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).",
-    "stars": 354,
+    "stars": 355,
     "forks": 34,
     "language": "TypeScript",
     "topics": [
@@ -3984,7 +3943,7 @@
       "scaffold",
       "scaffolding"
     ],
-    "updated_at": "2026-07-03T02:37:25Z",
+    "updated_at": "2026-07-03",
     "category": "mcp",
     "score": 75,
     "tier": "AUTO_APPROVE",
