@@ -45,6 +45,12 @@ pipeworx-io shipped 18+ MCP servers on July 2, 2026 — the single largest one-d
 | **mcp-seo-backlinks** | DataForSEO Backlinks | Backlink intelligence, domain authority, link profiling |
 | **mcp-emailable** | Emailable API | Email verification, deliverability scoring |
 
+### Maps & Location
+
+| Server | API | Use Case |
+|--------|-----|----------|
+| **mcp-here** | HERE Maps API | Geocoding, reverse geocoding, routing, POI search, map tiles |
+
 ## Quick Start (Any Server)
 
 ```bash

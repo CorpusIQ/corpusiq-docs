@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 2, 2026 (evening) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 3, 2026 (morning) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -94,6 +94,9 @@ AI agents that automate bookkeeping and financial close for SMBs. Streamable HTT
 ### Aikount Mcp ★ New (June 28)
 Spanish accounting (contabilidad) for AI agents — issue invoices, OCR expense PDFs into deduplicated purchases, reconcile bank movements, and prepare quarterly VAT returns (Modelo 303) over REST API. For autónomos and SMEs in Spain. Essential for operators in Spanish/LATAM markets who want AI-driven accounting automation with local tax compliance.
 
+### AI2Fin Tax MCP ★ New (July 3)
+Free, public MCP server for verified tax rates across 50+ countries — GST/VAT, income tax, company tax, and capital gains tax. No login, no API key. Every answer source-cited to the national tax authority (ATO, IRD, HMRC, IRS). Streamable HTTP at `https://taxmcp.ai2fin.com`. Essential for e-commerce operators, finance teams, and anyone doing cross-border pricing or tax planning. · [Integration Guide](/hermes/mcp/servers/external/ai2fin-tax-mcp/)
+
 ### infaton-1c-mcp ★ New
 MCP server for 1C:Enterprise (ERP, Accounting)  --  51 tools for metadata, documents, registers, reports. Essential for Eastern European and Russian-market operators running on 1C.
 
@@ -140,7 +143,7 @@ Institutional-grade quantitative finance MCP: options analytics (Black-Scholes, 
 First prediction-market MCP server. CFTC-regulated Kalshi markets from any AI agent — get markets, positions, and place orders on event contracts. TypeScript. Essential for operators in prediction markets, political forecasting, and event-driven trading. `github.com/onofre-jauregui/kalshi-mcp` · [Integration Guide](/hermes/mcp/servers/external/kalshi-mcp/)
 
 ### pipeworx Business Data Suite ★ New (July 2)
-Industrial-scale MCP wrapping: 18+ servers shipped in a single day. Business-relevant: **mcp-tradier** (stock & options market data via Tradier Brokerage API), **mcp-eodhd** (EOD Historical Data for global equities), **mcp-diffbot** (Diffbot Knowledge Graph for company enrichment), **mcp-coresignal** (LinkedIn-adjacent company + employee data), **mcp-peopledatalabs** (person/company enrichment), **mcp-shodan** (Shodan REST API for internet scanning), **mcp-pulsedive** (threat intelligence IOC enrichment), **mcp-seo-backlinks** (DataForSEO backlink intelligence), **mcp-emailable** (Emailable email verification), **mcp-here** (HERE Maps — premium geocoding, places, traffic-aware routing, July 2). All TypeScript, consistent tool naming. `github.com/pipeworx-io` · [Integration Guide](/hermes/mcp/servers/external/pipeworx-business-data/)
+Industrial-scale MCP wrapping: 18+ servers shipped in a single day. Business-relevant: **mcp-tradier** (stock & options market data via Tradier Brokerage API), **mcp-eodhd** (EOD Historical Data for global equities), **mcp-diffbot** (Diffbot Knowledge Graph for company enrichment), **mcp-coresignal** (LinkedIn-adjacent company + employee data), **mcp-peopledatalabs** (person/company enrichment), **mcp-shodan** (Shodan REST API for internet scanning), **mcp-pulsedive** (threat intelligence IOC enrichment), **mcp-seo-backlinks** (DataForSEO backlink intelligence), **mcp-emailable** (Emailable email verification), **mcp-here** (HERE Maps — geocoding, routing, POI). All TypeScript, consistent tool naming. `github.com/pipeworx-io` · [Integration Guide](/hermes/mcp/servers/external/pipeworx-business-data/)
 
 ### Hermes Plant MCP Server ★ New (July 1 PM)
 Runnable MCP server for deterministic finance and quant APIs paid over x402. Provides AI agents with provably correct financial calculations, quantitative models, and market analytics with cryptographic payment rails. For operators building AI-driven quantitative finance workflows with verifiable computation. `github.com/JesseGdotIO/hermesplant-mcp-server` · [Integration Guide](/hermes/mcp/servers/external/hermesplant-mcp-server/)
@@ -358,6 +361,9 @@ Turn Google Maps businesses into leads with verified contact emails — search b
 ### LinkedIn FastMCP ★ New (July 2 PM)
 Open-source MCP for LinkedIn REST APIs — AI agents access LinkedIn data for sales, recruiting, and company research. `github.com/rajdudhare1/linkedin-fastmcp`
 
+### Search Console Mcp (getpercy.io) ★ New (July 2 PM)
+Alternative Google Search Console implementation — query GSC search analytics, indexing status, and performance data from AI agents. `github.com/sudomichael/search-console-mcp`
+
 ### OpenSEO ★ New
 SEO research tools for AI agents: keyword research and metrics, SERP and local SERP results, domain and backlink analysis, rank tracking, and Google Search Console performance. `npx openseo-mcp`
 
@@ -522,6 +528,9 @@ Natural language SQL with security — read-only, column masking, row caps, quer
 
 ### S3 MCP Connector ★ New (July 2 PM)
 Amazon S3 (and S3-compatible) MCP — list, read, write, delete objects & buckets. Go binary, local or remote. `github.com/FerhatDundar/s3-mcp-connector`
+
+### Assetzaar Marketplace ★ New (July 2 PM)
+Marketplace for UI components, skills, and MCP tools — discover and integrate reusable agent capabilities and frontend components. `assetzaar.com/mcp`
 
 ### Bult.ai MCP Server ★ New (June 30)
 Deploy and manage Bult.ai cloud hosting resources — projects, services, GitHub and Docker deployments via MCP. Cloud infrastructure management for AI agents. Essential for operators who want to manage cloud hosting through their AI toolchain. `mcpservers.org: bultcloud/mcp-server`
