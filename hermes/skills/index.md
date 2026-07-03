@@ -1,6 +1,6 @@
 ---
 title: Hermes Skills
-description: 380+ skills for Hermes agents  --  90 native CorpusIQ skills, 290+ marketplace skills from skills.sh. Reusable, executable agent capabilities.
+description: 445+ skills for Hermes agents  --  90 native CorpusIQ skills, 350+ marketplace skills from skills.sh. Reusable, executable agent capabilities.
 ---
 
 # Hermes Skills
@@ -139,6 +139,8 @@ The skill is now available for any Hermes session in your profile. Invoke it by 
 The Hermes community hub includes a curated [Skills Marketplace](/hermes/skills/marketplace/) with 290+ community-contributed skills. New skills are discovered through automated sweeps of skills.sh and added weekly. Browse by category, check install counts to see what's trending, and submit your own skills for inclusion.
 
 ### Trending This Week
+
+[🆕 July 3, 2026  --  Hermex iPhone App (286⭐) + 6 more tools →](/hermes/skills/marketplace/new-july3-2026/)
 
 [🆕 July 2, 2026  --  Hermes Browser Extension + OpenClaw on Android (2 new skills) →](/hermes/skills/marketplace/new-july2-2026/)
 

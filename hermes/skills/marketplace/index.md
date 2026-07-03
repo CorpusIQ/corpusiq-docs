@@ -155,6 +155,7 @@ Approved skills appear on the next marketplace update page with install commands
 
 New skills are discovered weekly through automated sweeps of skills.sh. Each discovery gets a dedicated update page:
 
+- [🆕 July 3, 2026 — Hermex iPhone App (286⭐), Crypto Radar, Agent Memory Stack (7 repos, 7 tools, 1 setup guide)](/hermes/skills/marketplace/new-july3-2026/)
 - [🆕 July 2, 2026 — Hermes Browser Extension + OpenClaw on Android (2 repos, 2 skills, 2 setup guides)](/hermes/skills/marketplace/new-july2-2026/)
 - [🆕 July 2, 2026 (Update) — Blackbox Browser OpenClaw, Alibaba Cloud AI Suite, Browser-Use, Evolink Video (4 repos, 8 skills, 1 setup guide)](/hermes/skills/marketplace/new-july2-2026-update/)
 - [🆕 June 30, 2026 (Update 2) — xurl X/Twitter, TimesFM Forecasting, ClawSec Security Suite (2 repos, 12 skills, 2 setup guides)](/hermes/skills/marketplace/new-june30-2026-update2/)
