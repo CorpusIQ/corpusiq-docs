@@ -138,6 +138,8 @@ nav:
   - CorpusIQ vs Data Warehouses: corpusiq-vs-data-warehouses.md
   - CorpusIQ vs Custom RAG: corpusiq-vs-custom-rag.md
   - CorpusIQ vs Traditional BI: corpusiq-vs-traditional-bi.md
+  - CorpusIQ vs Supermetrics: corpusiq-vs-supermetrics.md
+  - CorpusIQ vs Viktor: corpusiq-vs-viktor.md
 - How-To Guides:
   - Connect Business Data to ChatGPT: how-to-connect-business-data-to-chatgpt.md
   - Search Company Data with AI: how-to-search-company-data-with-ai.md

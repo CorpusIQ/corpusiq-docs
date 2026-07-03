@@ -1,6 +1,5 @@
 ---
 title: 'QuickBooks Dashboard with ChatGPT: Real-Time Financial Dashboards | CorpusIQ'
-description: Build live financial dashboards from QuickBooks data using ChatGPT and CorpusIQ MCP. Monitor KPIs, track revenue, manage cash flow, and visualize financial performance in real time.
 url: /docs/quickbooks-dashboard-with-chatgpt
 h1: 'QuickBooks Dashboard with ChatGPT: Real-Time Financial Visibility at Your Fingertips'
 title: QuickBooks Dashboard with ChatGPT  --  Real-Time Financial Dashboards | CorpusIQ

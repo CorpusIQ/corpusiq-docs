@@ -1,6 +1,5 @@
 ---
 title: 'QuickBooks Natural Language Queries: Ask Your Books Anything | CorpusIQ'
-description: Query QuickBooks using natural language  --  no SQL, no report builder. Ask 'What's our gross margin by product line?' and get instant answers through CorpusIQ's AI-powered MCP platform.
 url: /docs/quickbooks-natural-language-queries
 h1: 'QuickBooks Natural Language Queries: Ask Your Financial Data Anything'
 title: QuickBooks Natural Language Queries  --  Ask Your Books in Plain English | CorpusIQ

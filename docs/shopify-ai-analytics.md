@@ -1,6 +1,5 @@
 ---
 title: 'Shopify AI Analytics: Automated Ecommerce Insights & Reporting | CorpusIQ'
-description: Automate Shopify analytics with AI. Generate sales reports, customer insights, product performance analysis, and marketing attribution reports through natural language  --  no analytics expertise
   required.
 url: /docs/shopify-ai-analytics
 h1: 'Shopify AI Analytics: Automated Ecommerce Intelligence at Conversation Speed'

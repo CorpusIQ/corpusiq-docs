@@ -1,6 +1,5 @@
 ---
 title: 'ChatGPT for QuickBooks: AI-Powered Accounting & Financial Analysis | CorpusIQ'
-description: Connect ChatGPT to QuickBooks with CorpusIQ's MCP platform. Automate financial reporting, ask natural language questions about your P&L, and get real-time AI accounting insights. No manual
   exports required.
 url: /docs/chatgpt-for-quickbooks
 h1: 'ChatGPT for QuickBooks: Transform Your Accounting Workflow with AI'

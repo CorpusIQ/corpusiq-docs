@@ -1,6 +1,5 @@
 ---
 title: 'Shopify Dashboard with ChatGPT: Real-Time Ecommerce KPIs | CorpusIQ'
-description: Build a live ecommerce dashboard from Shopify data using ChatGPT and CorpusIQ MCP. Monitor revenue, orders, AOV, customer metrics, product performance, and inventory in real time.
 url: /docs/shopify-dashboard-with-chatgpt
 h1: 'Shopify Dashboard with ChatGPT: Your Real-Time Ecommerce Command Center'
 title: Shopify Dashboard with ChatGPT  --  Live Ecommerce KPIs | CorpusIQ

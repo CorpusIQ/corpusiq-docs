@@ -1,6 +1,5 @@
 ---
 title: 'QuickBooks Business Intelligence: AI-Powered BI for Accounting | CorpusIQ'
-description: Transform QuickBooks into a business intelligence platform with CorpusIQ MCP. Multi-source analytics, AI-driven insights, automated reporting, and executive dashboards from your accounting
   data.
 url: /docs/quickbooks-business-intelligence
 h1: 'QuickBooks Business Intelligence: Turn Accounting Data into Strategic Advantage'

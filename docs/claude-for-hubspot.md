@@ -1,6 +1,5 @@
 ---
 title: 'Claude for HubSpot: Advanced CRM Intelligence & Pipeline Analysis | CorpusIQ'
-description: Connect Claude to HubSpot through CorpusIQ MCP. Leverage Claude's 200K context window for deep pipeline analysis, multi-quarter sales forecasting, comprehensive win-loss analysis, and territory
   optimization.
 url: /docs/claude-for-hubspot
 h1: 'Claude for HubSpot: Deep CRM Intelligence with Anthropic''s AI'
