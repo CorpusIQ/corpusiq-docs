@@ -3427,5 +3427,124 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-02T08:11:25.777752+00:00"
+  },
+  {
+    "repo": "wesleysimplicio/hermes-turbo-agent",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789934+00:00"
+  },
+  {
+    "repo": "mailkaseijinbiz-web/hermesagent-mac",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789937+00:00"
+  },
+  {
+    "repo": "willtholke/ai-sidekick-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789939+00:00"
+  },
+  {
+    "repo": "Justin-Shang/hermes-wiki-client",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789940+00:00"
+  },
+  {
+    "repo": "shekelstrong/hermes-mcp-catalog",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789942+00:00"
+  },
+  {
+    "repo": "shekelstrong/hermes-memory-pro",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789944+00:00"
+  },
+  {
+    "repo": "ruvnet/metaharness",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-03T05:04:38.789946+00:00"
+  },
+  {
+    "repo": "OOBE-PROTOCOL/sap-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789947+00:00"
+  },
+  {
+    "repo": "vcolombo/hermes-plugin-skillspector",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789949+00:00"
+  },
+  {
+    "repo": "mberjans/Hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789950+00:00"
+  },
+  {
+    "repo": "mogilventures/hermes-todoist",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789952+00:00"
+  },
+  {
+    "repo": "zyrconlabs/Cascadia-OS",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789954+00:00"
+  },
+  {
+    "repo": "NakePranob/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789955+00:00"
+  },
+  {
+    "repo": "sheldon904/hermes-hybrid-memory",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789957+00:00"
+  },
+  {
+    "repo": "ivansslo/hermes-agent-api",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789959+00:00"
+  },
+  {
+    "repo": "genichin/js-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789960+00:00"
+  },
+  {
+    "repo": "uncannylabs/hermes-railway",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-03T05:04:38.789962+00:00"
   }
 ]

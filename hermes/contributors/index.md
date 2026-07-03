@@ -24,7 +24,7 @@ The **Hermes Ecosystem Directory** is the most comprehensive collection of Herme
 | **Total submissions** | 276 |
 | **Approval rate** | 100% |
 | **Review time** | <48 hours |
-| **Repos indexed** | 445 |
+| **Repos indexed** | 447 |
 | **Categories** | 18 |
 
 ## How to Contribute
