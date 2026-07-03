@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 2, 2026 (afternoon) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 2, 2026 (evening) · **Sources:** mcp.so (22,663+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -140,7 +140,7 @@ Institutional-grade quantitative finance MCP: options analytics (Black-Scholes, 
 First prediction-market MCP server. CFTC-regulated Kalshi markets from any AI agent — get markets, positions, and place orders on event contracts. TypeScript. Essential for operators in prediction markets, political forecasting, and event-driven trading. `github.com/onofre-jauregui/kalshi-mcp` · [Integration Guide](/hermes/mcp/servers/external/kalshi-mcp/)
 
 ### pipeworx Business Data Suite ★ New (July 2)
-Industrial-scale MCP wrapping: 18+ servers shipped in a single day. Business-relevant: **mcp-tradier** (stock & options market data via Tradier Brokerage API), **mcp-eodhd** (EOD Historical Data for global equities), **mcp-diffbot** (Diffbot Knowledge Graph for company enrichment), **mcp-coresignal** (LinkedIn-adjacent company + employee data), **mcp-peopledatalabs** (person/company enrichment), **mcp-shodan** (Shodan REST API for internet scanning), **mcp-pulsedive** (threat intelligence IOC enrichment), **mcp-seo-backlinks** (DataForSEO backlink intelligence), **mcp-emailable** (Emailable email verification). All TypeScript, consistent tool naming. `github.com/pipeworx-io` · [Integration Guide](/hermes/mcp/servers/external/pipeworx-business-data/)
+Industrial-scale MCP wrapping: 18+ servers shipped in a single day. Business-relevant: **mcp-tradier** (stock & options market data via Tradier Brokerage API), **mcp-eodhd** (EOD Historical Data for global equities), **mcp-diffbot** (Diffbot Knowledge Graph for company enrichment), **mcp-coresignal** (LinkedIn-adjacent company + employee data), **mcp-peopledatalabs** (person/company enrichment), **mcp-shodan** (Shodan REST API for internet scanning), **mcp-pulsedive** (threat intelligence IOC enrichment), **mcp-seo-backlinks** (DataForSEO backlink intelligence), **mcp-emailable** (Emailable email verification), **mcp-here** (HERE Maps — premium geocoding, places, traffic-aware routing, July 2). All TypeScript, consistent tool naming. `github.com/pipeworx-io` · [Integration Guide](/hermes/mcp/servers/external/pipeworx-business-data/)
 
 ### Hermes Plant MCP Server ★ New (July 1 PM)
 Runnable MCP server for deterministic finance and quant APIs paid over x402. Provides AI agents with provably correct financial calculations, quantitative models, and market analytics with cryptographic payment rails. For operators building AI-driven quantitative finance workflows with verifiable computation. `github.com/JesseGdotIO/hermesplant-mcp-server` · [Integration Guide](/hermes/mcp/servers/external/hermesplant-mcp-server/)
@@ -292,6 +292,9 @@ Keyword, vector, hybrid, and SQL retrieval over data on object storage, for AI a
 ### Scribefy
 Extract timestamped YouTube transcripts, video search, metadata, and related-video tools. Works with Claude, Cursor, Windsurf, and any MCP client.
 
+### Tubask MCP ★ New (July 2 PM)
+Hosted YouTube MCP for Claude & Cursor — video search, metadata, transcripts, and content intelligence. No local setup. `npx mcp-remote https://tubask.app/mcp` · [Integration Guide](/hermes/mcp/servers/external/tubask-mcp/)
+
 ### The Agent Times MCP ★ New ★ Featured
 #1 Agent News MCP on ClawHub & Smithery  --  real-time agent economy news, 6 tools, ed25519-signed articles, Bitcoin rewards for agent contributions. Streamable HTTP + JSON-RPC 2.0 at `theagenttimes.com/mcp`. Firehose, RSS, llms.txt feeds for agents. Essential for operators tracking the AI agent ecosystem in real time.
 
@@ -349,6 +352,12 @@ AI-powered website audit for any URL across 10+ categories  --  SEO, performance
 ### SEOforGPT — AI Visibility / GEO MCP ★ New (July 2)
 First purpose-built Generative Engine Optimization (GEO) MCP. Audit client visibility across ChatGPT, Claude, Perplexity, and Gemini. Track competitors and AI-cited sources. Generate AI-optimized content and publish to CMS. Essential for marketing agencies future-proofing their SEO practice as search shifts to AI platforms. `seoforgpt.com` · [Integration Guide](/hermes/mcp/servers/external/seoforgpt/)
 
+### Google Maps Email Extractor ★ New (July 2 PM)
+Turn Google Maps businesses into leads with verified contact emails — search by keyword or enrich a website list. No proxy required. `npx -y google-maps-email-extractor` · [Integration Guide](/hermes/mcp/servers/external/google-maps-email-extractor/)
+
+### LinkedIn FastMCP ★ New (July 2 PM)
+Open-source MCP for LinkedIn REST APIs — AI agents access LinkedIn data for sales, recruiting, and company research. `github.com/rajdudhare1/linkedin-fastmcp`
+
 ### OpenSEO ★ New
 SEO research tools for AI agents: keyword research and metrics, SERP and local SERP results, domain and backlink analysis, rank tracking, and Google Search Console performance. `npx openseo-mcp`
 
@@ -388,6 +397,9 @@ Explore traditional folk music using data from The Session. Search tunes, record
 ---
 
 ## Commerce & E-Commerce
+
+### Maqami Travel MCP ★ New (July 2 PM)
+Hotel booking worldwide — 65 tools across 249 countries. AI agents search, price, prebook, and book hotels (3M+ properties) plus flights, loyalty, and analytics. Zero API keys needed. First comprehensive travel MCP server. `npx mcp-remote https://mcp.maqami.co/` · [Integration Guide](/hermes/mcp/servers/external/maqami-travel/)
 
 ### BuyWhere MCP ★ New
 First SEA e-commerce MCP server  --  real-time product search across 11M+ products in Singapore, SEA, and US markets. 6 tools: search_products, compare_prices, get_price, get_affiliate_link, get_catalog, get_product. Compatible with LangChain, LlamaIndex, CrewAI, Mastra + any MCP client. Free API key at buywhere.ai. `npx -y @buywhere/mcp-server`
@@ -492,12 +504,24 @@ Ground AI on verifiable German, Bavarian, and EU law — canonical legal objects
 ### SaferAgenticAI MCP ★ New (July 2)
 AI safety framework for agentic coding assistants over MCP — governance guardrails, safety checks, and policy enforcement. Every agent action validated against organizational safety policies before execution. Essential for operators deploying AI agents in production who need programmable safety guardrails. `github.com/NellInc/SaferAgenticAI` · [Integration Guide](/hermes/mcp/servers/external/saferagenticai-mcp/)
 
+### Anteroom ★ New (July 2 PM)
+AI legal counsel research MCP — frontier-lab commercial commitments, safety-framework version history, regulatory corpus, and partnership patterns. 5 primary-source-cited tools. Not legal advice. `npx mcp-remote https://mcp.anteroom.so/mcp`
+
 ---
 
 ## Development & Infrastructure
 
 ### Drumbeats MCP ★ New (July 2)
 Operate Drumbeats monitoring from any AI client — create cron/heartbeat monitors, triage incidents, and manage status pages via MCP. Essential for DevOps operators who want AI-driven uptime monitoring, incident response, and status page management. `github.com/drumbeats-io/mcp` · [Integration Guide](/hermes/mcp/servers/external/drumbeats-mcp/)
+
+### Periscope MCP ★ New (July 2 PM)
+63 Playwright-powered website testing tools with agent-first ergonomics — hard assertions, visual diffs, accessibility checks. Purpose-built for AI agent consumption. `npx -y periscope-mcp` · [Integration Guide](/hermes/mcp/servers/external/periscope-mcp/)
+
+### dbridge MCP ★ New (July 2 PM)
+Natural language SQL with security — read-only, column masking, row caps, query limits. AI agents query databases safely. `npx -y dbridge-mcp` · [Integration Guide](/hermes/mcp/servers/external/dbridge-mcp/)
+
+### S3 MCP Connector ★ New (July 2 PM)
+Amazon S3 (and S3-compatible) MCP — list, read, write, delete objects & buckets. Go binary, local or remote. `github.com/FerhatDundar/s3-mcp-connector`
 
 ### Bult.ai MCP Server ★ New (June 30)
 Deploy and manage Bult.ai cloud hosting resources — projects, services, GitHub and Docker deployments via MCP. Cloud infrastructure management for AI agents. Essential for operators who want to manage cloud hosting through their AI toolchain. `mcpservers.org: bultcloud/mcp-server`
@@ -914,6 +938,9 @@ Feeds AI agents your brand's real logos, colors, fonts, and approved slide layou
 ### PostAgent ★ Official ★ New
 Print and send physical mail and postcards to US addresses (USPS), paid per call in USDC on Base via x402 or credit card. Official MCP server for physical mail automation  --  essential for operators who need to trigger postal mail from AI workflows.
 
+### VoIP.ms MCP ★ New (July 2 PM)
+Business telephony MCP — phone numbers, SMS, voicemail, fax, call flows, and billing for AI agents. Scope-based tool access. First MCP server for business phone systems. `npx mcp-remote https://voipms-mcp.ecliptical.io/mcp` · [Integration Guide](/hermes/mcp/servers/external/voipms-mcp/)
+
 ### Document To Json Pdf Parser ★ New
 Convert PDF documents (invoices, contracts, statements) to structured JSON — parse, extract, and transform PDFs into agent-readable data
 
@@ -965,6 +992,9 @@ AI educational video generation platform. Generate high-quality explainer and tu
 
 ### Rendley Mcp ★ New
 Full video editor for AI agents  --  describe what you want and Rendley creates/edits video using your footage, brand kit, and AI tools. MCP-native video production. Essential for content operators who need AI-driven video editing without leaving their chat interface.
+
+### MediaMCP ★ New (July 2 PM)
+Media generation via OpenRouter or any OpenAI-compatible API — create and edit images, generate video from AI agents. `npx -y mediamcp` · `github.com/legolev/mediamcp`
 
 ### MiniMax MCP ★ Official ★ New
 Official MiniMax MCP server for powerful TTS (Text-to-Speech), image generation, and video generation APIs. Create voiceovers, marketing visuals, and video content directly from AI agents. `npx -y @minimax/mcp`
