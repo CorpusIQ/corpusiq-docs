@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 3, 2026 (evening) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 4, 2026 (morning) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -88,6 +88,9 @@ Azure FinOps infrastructure cost optimization. Helps operators manage cloud spen
 ### Costory ★ New
 Multi-cloud FinOps MCP  --  ask your AI assistant a cost question and get allocation, correlation, and explanation in one response. Normalized cost data across AWS, GCP, Azure, Datadog, OpenAI, and Anthropic. Essential for operators managing multi-cloud infrastructure who need AI-driven cost intelligence without switching between vendor consoles.
 
+### Fleets MCP ★ New (July 4)
+Multi-site analytics dashboard for AI agents. Read-only GA4, Search Console, Cloudflare edge, and PageSpeed data across every site you run, plus audits that return paste-ready fixes. Local stdio server via `npx -y fleets-mcp`. Essential for operators managing multiple web properties who need unified analytics across all their sites in one AI conversation.
+
 ### Cloudability API ★ New
 Comprehensive MCP server for the Cloudability API  --  advanced cloud cost management, Kubernetes container analytics, and budget forecasting across multi-cloud environments. Enables AI agents to query normalized cloud spend, rightsizing recommendations, and commitment discount analysis without switching between cloud consoles. Essential for FinOps operators and cloud cost managers.
 
@@ -98,6 +101,15 @@ AI agents that automate bookkeeping and financial close for SMBs. Streamable HTT
 Spanish accounting (contabilidad) for AI agents — issue invoices, OCR expense PDFs into deduplicated purchases, reconcile bank movements, and prepare quarterly VAT returns (Modelo 303) over REST API. For autónomos and SMEs in Spain. Essential for operators in Spanish/LATAM markets who want AI-driven accounting automation with local tax compliance.
 
 ### AI2Fin Tax MCP ★ New (July 3)
+### OilPriceAPI MCP ★ New (July 4)
+Real-time oil, gas, and commodity prices for AI agents. The commodity-data MCP server behind fintech dashboards, fleet & logistics tools, and maritime compliance platforms — same API serves 2M+ requests every month. Essential for operators in energy, logistics, and commodities trading who need live pricing data in their AI workflows. `github.com/OilpriceAPI/mcp-server` ⭐3
+
+### Earningsprism ★ New (July 4)
+SEC filing intelligence for AI agents — access and analyze SEC filings, EDGAR data, and financial disclosures through MCP. Enables AI assistants to research public company financials, compare filings, and surface regulatory insights. Essential for financial analysts, investors, and operators doing public-company due diligence.
+
+### Agent Signals ★ New (July 4)
+Pay-per-call crypto market intelligence for AI trading agents. 20 tools: price, funding rate, market regime, orderbook, volatility, momentum, Fear & Greed, top movers, gas, stablecoin pegs, ENS, one-call market summary, plus unique Japan data (bitFlyer/Coincheck JPY board). Essential for operators running AI trading agents who need comprehensive crypto market data.
+
 Free, public MCP server for verified tax rates across 50+ countries — GST/VAT, income tax, company tax, and capital gains tax. No login, no API key. Every answer source-cited to the national tax authority (ATO, IRD, HMRC, IRS). Streamable HTTP at `https://taxmcp.ai2fin.com`. Essential for e-commerce operators, finance teams, and anyone doing cross-border pricing or tax planning. · [Integration Guide](/hermes/mcp/servers/external/ai2fin-tax-mcp/)
 
 ### infaton-1c-mcp ★ New
@@ -295,6 +307,12 @@ Keyword, vector, hybrid, and SQL retrieval over data on object storage, for AI a
 
 ## Content & Research
 
+### Crustdata MCP ★ New (July 4)
+Real-time B2B company and people intelligence for AI agents. Connects to 15+ live data sources — search companies, find and enrich people and contacts, run job and social-post searches, and set up watchers that monitor accounts and people for changes across 1B+ people and 100M+ companies. Essential for sales operators, recruiters, and business researchers who need live B2B intelligence in their AI workflows.
+
+### ENTIA Entity Verification ★ New (July 4)
+Verified business-identity intelligence for AI agents and MCP clients — company verification, VAT, BORME, GLEIF, ownership and risk signals across 34 countries. Remote MCP server, free tier (100 req/day). Sources: BORME, VIES, GLEIF, Wikidata. Essential for compliance officers, KYC/AML operators, and anyone doing cross-border business verification through AI agents.
+
 ### Scribefy
 Extract timestamped YouTube transcripts, video search, metadata, and related-video tools. Works with Claude, Cursor, Windsurf, and any MCP client.
 
@@ -407,6 +425,9 @@ Explore traditional folk music using data from The Session. Search tunes, record
 
 ## Commerce & E-Commerce
 
+### Ecoexperten Energieausweis ★ New (July 4)
+Order official energy performance certificates (Energieausweis, § 82 GEG) for residential buildings in Germany — directly from chat. The registered certificate (DIBt number) arrives by e-mail as PDF within 1 business day. Essential for German property operators, real estate agents, and landlords who need regulatory energy certificates through automated AI workflows.
+
 ### Maqami Travel MCP ★ New (July 2 PM)
 Hotel booking worldwide — 65 tools across 249 countries. AI agents search, price, prebook, and book hotels (3M+ properties) plus flights, loyalty, and analytics. Zero API keys needed. First comprehensive travel MCP server. `npx mcp-remote https://mcp.maqami.co/` · [Integration Guide](/hermes/mcp/servers/external/maqami-travel/)
 
@@ -468,6 +489,12 @@ Give AI agents their own local mailbox to read, send, and triage email via MCP. 
 
 ## Compliance & Regulatory
 
+### VerityLayer ★ New (July 4)
+Fail-closed verify-before-you-act trust gate for AI agents. 5 tools: verify_fact, detect_injection, moderate_content, redact_pii, guard_action. Keyless, pay-per-call via x402 (USDC on Base); every verdict ships an Ed25519-signed receipt. Run: `npx -y @veritylayer/mcp`. Essential for operators deploying AI agents in production who need cryptographic proof of safety checks before agent actions execute.
+
+### ChronoVerify ★ New (July 4)
+Image authenticity verification for AI agents — checks when a photo was taken and whether it shows signs of editing. Validates C2PA Content Credentials against official trust lists, reads EXIF and XMP, runs pixel forensics, and returns one typed verdict with a confidence score. Works on any image, signed or not. Essential for operators in insurance, journalism, legal, and compliance who rely on photo evidence through AI systems.
+
 ### Chia Health MCP ★ New (July 1)
 HIPAA-compliant telehealth operations via MCP — manage patient intake, prescriptions, consent forms, lab orders, and payment (Stripe) through AI agents. Supports GLP-1 weight loss clinics, peptide therapy, anti-aging, longevity medicine. First healthcare-operations MCP server. Essential for operators in telehealth who need to automate patient workflows through AI agents while maintaining HIPAA compliance. `github.com/Carolaunfading944/chia-mcp`
 
@@ -519,6 +546,15 @@ AI legal counsel research MCP — frontier-lab commercial commitments, safety-fr
 ---
 
 ## Development & Infrastructure
+
+### nuzur ★ New (July 4)
+Database change safety for AI agents — AI agents propose database schema and data changes as reviewable requests before anything is applied. No direct write access. Works with Claude Code, Cursor, and any MCP client. Essential for operators who want AI to help with database work but need human-in-the-loop approval gates before any schema or data mutations.
+
+### Docguard ★ New (July 4)
+The enforcement tool for Canonical-Driven Development (CDD) — audit, generate, and guard your project documentation. Zero-config documentation standards enforcement through MCP. ⭐19. Essential for engineering operators who want AI-generated docs to stay compliant with project standards. `github.com/raccioly/docguard`
+
+### Planka V2 MCP ★ New (July 4)
+Connect Claude, Cursor, Codex, and other MCP clients directly to your Planka v2.x boards. AI agents can read, create, and manage project management boards through natural language. Essential for operators using Planka for project management who want AI-assisted board operations.
 
 ### Drumbeats MCP ★ New (July 2)
 Operate Drumbeats monitoring from any AI client — create cron/heartbeat monitors, triage incidents, and manage status pages via MCP. Essential for DevOps operators who want AI-driven uptime monitoring, incident response, and status page management. `github.com/drumbeats-io/mcp` · [Integration Guide](/hermes/mcp/servers/external/drumbeats-mcp/)
@@ -793,6 +829,18 @@ MCP server for AI agent data flow orchestration. Connect AI agents to data pipel
 
 ## Productivity
 
+### Founders OS ★ New (July 4)
+Open-source MCP server that puts your whole business inside Claude, Cursor, or any MCP client. Connects CRM, financials, tasks, and long-term memory behind one server, so you can ask a single question that reads across all of them. Example: "Which clients are behind on payments and what tasks do I have with them?" ⭐7. Essential for founders and small business operators who want a unified AI interface to their entire business. `github.com/OurThinkTank/founders-os`
+
+### RadMail ★ New (July 4)
+The email operating system for AI agents — searches your real inbox (sender/subject/content, ranked), surfaces a "Right Now" lane, tracks commitments, and drafts reviewable replies. No tool can auto-send money, change banking, or make irreversible decisions without human approval. Essential for operators drowning in email who want AI to triage, prioritize, and draft while keeping dangerous actions gated.
+
+### Paigy ★ New (July 4)
+Text, push, or call your phone when an AI agent needs input mid-task. Reply by voice instead of babysitting a long-running or blocked terminal. Essential for operators running long-running agent tasks who can't stay glued to a terminal waiting for human-in-the-loop prompts.
+
+### Truepath Recorder ★ New (July 4)
+A local MCP server that lets Claude, Cursor, or Codex drive TruePath Recorder — start/stop recordings, list capture sources, and get the saved file path back. Local bridge over 127.0.0.1 + per-launch token; recordings never leave your Mac. Essential for operators creating tutorials, bug reports, or documentation where AI-driven screen recording saves hours of manual capture.
+
 ### Niche ★ New
 Editorial intelligence for creators and their agents  --  discover the stories worth writing about, rank the strongest angle, and draft grounded, platform-native posts. Content strategy MCP for operators running content marketing and thought leadership programs.
 
@@ -1004,6 +1052,9 @@ Multi-inbox email management for AI agents via MCP. Read, search, send, organize
 ---
 
 ## Content Creation & Creative
+
+### Pepys MCP ★ New (July 4)
+Pay-as-you-go audio and video transcription with diarization + AI. Transcribe, podcast feeds, SRT/VTT export, search — BYO key or hosted OAuth connector. Never trains on your audio. Essential for content operators, podcasters, and media teams who need AI-driven transcription and content extraction from audio/video files through their existing MCP workflow.
 
 ### EverArt ★ New
 AI image generation via MCP. Generate marketing visuals, social media assets, product mockups, and creative content from any MCP client. Official integration with EverArt's FLUX and SD models. `docker exec -i mcp-node bash -c "EVERART_API_KEY=*** npx -y @modelcontextprotocol/server-everart"`
@@ -1226,6 +1277,12 @@ AI content detection with naturalness scoring and AI-template pattern flagging. 
 ---
 
 ## Memory & Knowledge
+
+### Cortex Memory MCP ★ New (July 4)
+Structured memory layer for AI agents — persistent knowledge storage with retrieval and context management. Provides AI agents with long-term memory capabilities across sessions. Essential for operators building stateful AI agent workflows that require memory persistence.
+
+### Psychopathia Machinalis MCP ★ New (July 4)
+Read-only MCP tools over the Psychopathia Machinalis nosology — 79 conditions across the AI-psychopathology taxonomy, via 11 tools. Zero-install hosted endpoint available. Niche but notable for AI safety researchers and operators running agent evaluation/red-teaming pipelines.
 
 ### Anki MCP ★ Official
 Enable AI assistants to interact with Anki spaced-repetition flashcards.
@@ -2058,6 +2115,36 @@ Full details: [scan-results-2026-07-02-update.md](/hermes/mcp/servers/external/s
 
 ---
 
+## New This Week (July 4, 2026 — morning sweep)
+
+### 19 new servers from mcp.so Feed
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| OilPriceAPI MCP ★ New | Financial Data | See main catalog entry above |
+| Earningsprism ★ New | Financial Data | See main catalog entry above |
+| Agent Signals ★ New | Financial Data | See main catalog entry above |
+| Fleets MCP ★ New | Analytics & BI | See main catalog entry above |
+| Crustdata MCP ★ New | Content & Research | See main catalog entry above |
+| ENTIA Entity Verification ★ New | Content & Research | See main catalog entry above |
+| VerityLayer ★ New | Compliance & Regulatory | See main catalog entry above |
+| ChronoVerify ★ New | Compliance & Regulatory | See main catalog entry above |
+| nuzur ★ New | Development | See main catalog entry above |
+| Docguard ★ New | Development | See main catalog entry above |
+| Planka V2 MCP ★ New | Development | See main catalog entry above |
+| Founders OS ★ New | Productivity | See main catalog entry above |
+| RadMail ★ New | Productivity | See main catalog entry above |
+| Paigy ★ New | Productivity | See main catalog entry above |
+| Truepath Recorder ★ New | Productivity | See main catalog entry above |
+| Pepys MCP ★ New | Content Creation | See main catalog entry above |
+| Cortex Memory MCP ★ New | Memory & Knowledge | See main catalog entry above |
+| Psychopathia Machinalis ★ New | Memory & Knowledge | See main catalog entry above |
+| Ecoexperten Energieausweis ★ New | Commerce | See main catalog entry above |
+
+**Key Trends:** Business-operator infrastructure MCPs dominate this sweep — Founders OS (whole-business interface), RadMail (email OS for agents), and Crustdata (B2B intelligence) signal the shift from developer-tool MCPs to operator-facing business automation. Trust and verification MCPs (VerityLayer, ChronoVerify, ENTIA) show growing demand for AI agent guardrails in production. Multi-site analytics (Fleets) and commodity data (OilPriceAPI) expand the operational data surface available through MCP. Agent-human communication bridges (Paigy, Truepath Recorder) address the human-in-the-loop gap.
+
+---
+
 ## New This Week (July 1, 2026 — PM evening sweep)
 
 ### 5 new servers from GitHub API (topic:mcp-server created >2026-07-01T12:00)
@@ -2080,8 +2167,8 @@ Full details: [scan-results-2026-07-02-update.md](/hermes/mcp/servers/external/s
 - **Official servers:** 43+ (from Google, GitHub, Cloudflare, Anthropic, Microsoft, MiniMax, ZenML, Flatland, etc.)
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
-- **New this sweep (July 1 PM evening):** 5 new MCP servers — from GitHub API (created >2026-07-01T12:00)
-- **Cumulative since June 9:** 483 MCP servers catalogued across 35 sweeps
+- **New this sweep (July 4 morning):** 19 new MCP servers — from mcp.so Feed (25 scanned, 22 genuinely new, 3 already catalogued)
+- **Cumulative since June 9:** 502 MCP servers catalogued across 36 sweeps
 
 ---
 
