@@ -3630,5 +3630,54 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-03T08:07:02.910070+00:00"
+  },
+  {
+    "repo": "AgentAi-Leo/hermes-screenshots",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T07:06:11.547891+00:00"
+  },
+  {
+    "repo": "siongsheng/dokima",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T07:06:11.547901+00:00"
+  },
+  {
+    "repo": "buben12310/skillmanager",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T07:06:11.547903+00:00"
+  },
+  {
+    "repo": "crussella0129/sprint-loops",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T07:06:11.547904+00:00"
+  },
+  {
+    "repo": "tylerdotai/second-brain-evolution",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T07:06:11.547905+00:00"
+  },
+  {
+    "repo": "ar221/memory-wiki-plugin",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T07:06:11.547906+00:00"
+  },
+  {
+    "repo": "Mohamedhasbini/hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T07:06:11.547907+00:00"
   }
 ]
