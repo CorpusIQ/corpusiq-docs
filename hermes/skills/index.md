@@ -142,6 +142,8 @@ The Hermes community hub includes a curated [Skills Marketplace](/hermes/skills/
 
 [🆕 July 4, 2026  --  agent-sessions (683⭐) + Hermes ArXiv Agent + 22 more →](/hermes/skills/marketplace/new-july4-2026/)
 
+[🆕 July 4, 2026 (Update)  --  hermes-top Dashboard + Neo Theme + Backup + AGEL-Comp →](/hermes/skills/marketplace/new-july4-2026-update/)
+
 [🆕 July 3, 2026  --  Hermex iPhone App (286⭐) + 6 more tools →](/hermes/skills/marketplace/new-july3-2026/)
 
 [🆕 July 3, 2026 (Update)  --  Hybrid Memory Plugin, MoA Synthesis + 4 more →](/hermes/skills/marketplace/new-july3-2026-update/)

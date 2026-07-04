@@ -155,6 +155,8 @@ Approved skills appear on the next marketplace update page with install commands
 
 New skills are discovered weekly through automated sweeps of skills.sh. Each discovery gets a dedicated update page:
 
+- [🆕 July 4, 2026 — agent-sessions (683⭐), Hermes ArXiv Agent + 22 more (24 repos, 5 setup guides)](/hermes/skills/marketplace/new-july4-2026/)
+- [🆕 July 4, 2026 (Update) — hermes-top Dashboard, Neo Theme, Backup Script, AGEL-Comp Safety (5 repos, 4 setup guides)](/hermes/skills/marketplace/new-july4-2026-update/)
 - [🆕 July 3, 2026 — Hermex iPhone App (286⭐), Crypto Radar, Agent Memory Stack (7 repos, 7 tools, 1 setup guide)](/hermes/skills/marketplace/new-july3-2026/)
 - [🆕 July 3, 2026 (Update) — Hybrid Memory Plugin, MCP ChatGPT Bridge, MoA Synthesis + 3 more (6 repos, 1 setup guide)](/hermes/skills/marketplace/new-july3-2026-update/)
 - [🆕 July 2, 2026 — Hermes Browser Extension + OpenClaw on Android (2 repos, 2 skills, 2 setup guides)](/hermes/skills/marketplace/new-july2-2026/)
