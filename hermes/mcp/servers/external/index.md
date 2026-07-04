@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 4, 2026 (morning) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 4, 2026 (evening) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -1028,6 +1028,9 @@ Automated job application and resume optimization — search jobs, tailor resume
 ### Granola MCP ★ Official
 AI-powered meeting notes and summaries. Connect your meeting data to AI agents.
 
+### Plaud MCP ★ Official ★ New (July 4)
+Connect Plaud.ai recordings to AI agents. Search recordings, read transcripts, generate summaries and documents. Essential for operators who record client calls, team meetings, and partner conversations. [Integration Guide](/hermes/mcp/servers/external/plaud-mcp/) · `docs.plaud.ai`
+
 ### Superlist MCP Server ★ Official
 Task and project management via MCP. Connect AI agents to your Superlist workspace.
 
@@ -1087,13 +1090,23 @@ Email security and DMARC compliance MCP  --  monitor domain email authentication
 Email deliverability and spam testing MCP  --  inbox placement checks, spam score analysis, screenshot previews, heatmaps, and autopilot deliverability tests. OAuth authentication, no API keys needed. Essential for email marketers and operators managing outreach campaigns.
 
 ### mcp-ads ★ New
-MCP for ads platforms  --  connect AI agents to advertising APIs for campaign management, performance analysis, and optimization across ad networks.
-
-### DesignForYou ★ New
-Generate finished, on-brand designs  --  logos, social posts, app-store screenshots, comic panels, and visual-novel assets  --  from a prompt. Remote MCP server backed by 119 templates: free browse/recommend tools, metered generation, OAuth sign-in. Works in Claude Code, Cursor, and ChatGPT. Essential for operators who need design assets without a design team.
+MCP for ads platforms — connect AI agents to advertising APIs for campaign management, performance analysis, and optimization across ad networks.
 
 ### Valossa Assistant ★ New (June 29)
 Multimodal video AI MCP server built on a decade of video understanding. Goes end-to-end: ingest a video, understand its content multimodally (visual + audio + text), and produce structured outputs. Unlike video MCPs that stop at search or analysis, Valossa processes video from ingestion to structured intelligence. Essential for operators working with video content at scale — media monitoring, content analysis, compliance review. `valossa.com`
+
+---
+
+## Design & Product
+
+### Mowgli MCP ★ New (July 3)
+Intelligent product canvas with context and taste — connect your coding agent to iterate on product design, from sweeping new flows to surgical tweaks, and sync back to code. [Integration Guide](/hermes/mcp/servers/external/mowgli-mcp/) · `app.mowgli.ai/mcp`
+
+### Design Context Bridge MCP ★ New (July 4)
+Turns AI agents into frontend developers that read Figma files natively — components, design tokens, routes, icons, states. Faithful design-to-code, not screenshot guessing. [Integration Guide](/hermes/mcp/servers/external/design-context-bridge-mcp/) · `github.com/CristinaFores/design-context-bridge`
+
+### DesignForYou ★ New
+Generate finished, on-brand designs — logos, social posts, app-store screenshots — from a prompt. Remote MCP server backed by 119 templates.
 
 ---
 
@@ -1283,6 +1296,9 @@ Structured memory layer for AI agents — persistent knowledge storage with retr
 
 ### Psychopathia Machinalis MCP ★ New (July 4)
 Read-only MCP tools over the Psychopathia Machinalis nosology — 79 conditions across the AI-psychopathology taxonomy, via 11 tools. Zero-install hosted endpoint available. Niche but notable for AI safety researchers and operators running agent evaluation/red-teaming pipelines.
+
+### Astucia Wiki MCP ★ New (July 4)
+AI-enabled team wiki with semantic search, auto-organization, and MCP-native read/write access. Built from the ground up for AI agent consumption — finally, a wiki your agents can actually query and update. [Integration Guide](/hermes/mcp/servers/external/astucia-wiki-mcp/) · `astucia.wiki`
 
 ### Anki MCP ★ Official
 Enable AI assistants to interact with Anki spaced-repetition flashcards.
@@ -2142,6 +2158,22 @@ Full details: [scan-results-2026-07-02-update.md](/hermes/mcp/servers/external/s
 | Ecoexperten Energieausweis ★ New | Commerce | See main catalog entry above |
 
 **Key Trends:** Business-operator infrastructure MCPs dominate this sweep — Founders OS (whole-business interface), RadMail (email OS for agents), and Crustdata (B2B intelligence) signal the shift from developer-tool MCPs to operator-facing business automation. Trust and verification MCPs (VerityLayer, ChronoVerify, ENTIA) show growing demand for AI agent guardrails in production. Multi-site analytics (Fleets) and commodity data (OilPriceAPI) expand the operational data surface available through MCP. Agent-human communication bridges (Paigy, Truepath Recorder) address the human-in-the-loop gap.
+
+---
+
+## New This Week (July 4, 2026 — evening sweep)
+
+### 5 new servers from mcpservers.org
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Plaud MCP ★ New | Communication | See [Integration Guide](/hermes/mcp/servers/external/plaud-mcp/) |
+| Astucia Wiki MCP ★ New | Memory & Knowledge | See [Integration Guide](/hermes/mcp/servers/external/astucia-wiki-mcp/) |
+| Design Context Bridge ★ New | Design & Product | See [Integration Guide](/hermes/mcp/servers/external/design-context-bridge-mcp/) |
+| Synaplan Multimodal Gateway ★ New | Productivity | Multimodal MCP gateway — early stage, watched |
+| Creed Space ★ New | AI Safety & Security | Constitutional-AI guardrails — infra-layer |
+
+**Key Trends:** Recording intelligence emerges as a distinct MCP category — Plaud MCP follows Granola (July 3), signaling that "queryable meeting memory" is becoming table stakes. Agent-first wikis (Astucia) and native Figma readers (Design Context Bridge) represent a design-and-knowledge tool stack purpose-built for AI-assisted workflows. Combined with Mowgli (July 3), the design-to-code pipeline is becoming fully MCP-native.
 
 ---
 
