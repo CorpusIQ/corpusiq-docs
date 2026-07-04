@@ -140,16 +140,16 @@ The Hermes community hub includes a curated [Skills Marketplace](/hermes/skills/
 
 ### Trending This Week
 
+[🆕 July 4, 2026  --  agent-sessions (683⭐) + Hermes ArXiv Agent + 22 more →](/hermes/skills/marketplace/new-july4-2026/)
+
 [🆕 July 3, 2026  --  Hermex iPhone App (286⭐) + 6 more tools →](/hermes/skills/marketplace/new-july3-2026/)
 
 [🆕 July 3, 2026 (Update)  --  Hybrid Memory Plugin, MoA Synthesis + 4 more →](/hermes/skills/marketplace/new-july3-2026-update/)
 
-[🆕 July 2, 2026  --  Hermes Browser Extension + OpenClaw on Android (2 new skills) →](/hermes/skills/marketplace/new-july2-2026/)
-
 ### Recent Discoveries
 
+- [July 4, 2026  --  agent-sessions (683⭐) + 22 more repos](/hermes/skills/marketplace/new-july4-2026/)
 - [July 1, 2026  --  Official Hermes Gap Sweep (49 skills)](/hermes/skills/marketplace/new-july1-2026/)
-- [June 30, 2026  --  xurl, TimesFM, ClawSec Security Suite (12 skills)](/hermes/skills/marketplace/new-june30-2026-update2/)
 - [June 15, 2026  --  Nous Research Expansion (23 skills)](/hermes/skills/marketplace/new-june15-2026/)
 
 ## Quick Links
