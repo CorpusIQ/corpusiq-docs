@@ -3679,5 +3679,89 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-04T07:06:11.547907+00:00"
+  },
+  {
+    "repo": "SahinShazi/Nara-Router---Hermes-Agent-",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T08:03:41.777389+00:00"
+  },
+  {
+    "repo": "JorrynRen/PilotDesk",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T08:03:41.777405+00:00"
+  },
+  {
+    "repo": "theo-22/hermes-config",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T08:03:41.777407+00:00"
+  },
+  {
+    "repo": "rahmanef63/models-rahmanef-com",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T08:03:41.777409+00:00"
+  },
+  {
+    "repo": "ZombieDuckling/visionary",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T08:03:41.777411+00:00"
+  },
+  {
+    "repo": "Aqilaapril4330/hermes-agent-desktop",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T08:03:41.777413+00:00"
+  },
+  {
+    "repo": "Saliksha6568/hermes-war-room",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T08:03:41.777415+00:00"
+  },
+  {
+    "repo": "Akashpandey1970/crowdwisdom-crypto-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T08:03:41.777417+00:00"
+  },
+  {
+    "repo": "cxnaive/hermes-agent-llbot",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T08:03:41.777419+00:00"
+  },
+  {
+    "repo": "DTALEX66/Workflow-assistance",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T08:03:41.777421+00:00"
+  },
+  {
+    "repo": "yosbotnet/hermes-curriculum",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T08:03:41.777423+00:00"
+  },
+  {
+    "repo": "Code-MonkeyZhang/persona-agent",
+    "score": 33,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-04T08:03:41.777425+00:00"
   }
 ]

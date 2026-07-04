@@ -289,42 +289,6 @@
     "status": "pending"
   },
   {
-    "name": "CorpusIQ/corpusiq-docs",
-    "url": "https://github.com/CorpusIQ/corpusiq-docs",
-    "description": "The largest Hermes Agent knowledge base \u2014 302+ tools, skills, MCP servers, agents, blueprints, and case studies. Everything in one organized place.",
-    "stars": 2,
-    "forks": 2,
-    "language": "HTML",
-    "topics": [
-      "agent-skills",
-      "agent-tools",
-      "ai-agents",
-      "business-ai",
-      "claude-code",
-      "hermes-agent",
-      "mcp-server",
-      "nous-research",
-      "skills-marketplace"
-    ],
-    "updated_at": "2026-06-17T04:21:15Z",
-    "category": "mcp",
-    "score": 63,
-    "tier": "HIGH_PRIORITY",
-    "score_reasons": [
-      "direct_hermes_reference",
-      "detailed_description",
-      "active_week",
-      "has_homepage"
-    ],
-    "near_duplicates": [
-      "1Panel-dev/1Panel",
-      "longyunfeigu/learn-hermes-agent",
-      "ksimback/hermes-atlas-mcp"
-    ],
-    "discovered_at": "2026-06-17T05:01:30.306138+00:00",
-    "status": "pending"
-  },
-  {
     "name": "ncz-os/mnemos",
     "url": "https://github.com/ncz-os/mnemos",
     "description": "Production-grade memory operating system for agentic AI. Interoperates with every major framework via MCP, OpenAI-compatible gateway, and native /v1/* REST \u2014 Claude Code, OpenClaw, ZeroClaw, Hermes, MemPalace, LangChain, LlamaIndex, CrewAI, AutoGen, Mem0, Letta, Zep. In production use since December 2025. Apache 2.0.",
@@ -14791,6 +14755,351 @@
       "ksimback/hermes-ecosystem"
     ],
     "discovered_at": "2026-07-04T07:05:42.466093+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SahinShazi/Nara-Router---Hermes-Agent-",
+    "url": "https://github.com/SahinShazi/Nara-Router---Hermes-Agent-",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-07-04T08:00:40Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-04T08:01:00.139632+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "JorrynRen/PilotDesk",
+    "url": "https://github.com/JorrynRen/PilotDesk",
+    "description": "PilotDesk \u662f\u4e00\u4e2a **Agent \u7edf\u4e00\u684c\u9762\u5ba2\u6237\u7aef**\uff0c\u5c06\u591a\u4e2a AI Agent\uff08Claude Code\u3001Hermes Agent\u3001CodeX CLI\u7b49\uff09\u96c6\u6210\u5230\u5355\u4e00\u684c\u9762\u5e94\u7528\u4e2d\uff0c\u63d0\u4f9b\u7edf\u4e00\u7684\u4f1a\u8bdd\u7ba1\u7406\u3001\u6d88\u606f\u4ea4\u4e92\u4f53\u9a8c\u53caLLM API\u76f4\u8fde\u4f1a\u8bdd\uff08\u652f\u6301\u4e0a\u4e0b\u6587\uff09\u3002\u540c\u65f6\uff0c\u57fa\u4e8e\u6b64AI\u80fd\u529b\u63d0\u4f9b\u5de5\u4f5c\u6d41\u4efb\u52a1\u7ba1\u7406\u548c\u5176\u4ed6\u7528\u6237\u81ea\u5b9a\u4e49\u62d3\u5c55\u80fd\u529b\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": "Makefile",
+    "topics": [],
+    "updated_at": "2026-07-04T08:00:32Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-04T08:01:03.145280+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "theo-22/hermes-config",
+    "url": "https://github.com/theo-22/hermes-config",
+    "description": "Multi-profile Hermes Agent configuration \u2014 foundry operations, coordination, memory, and model testing profiles with routing chains",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-04T08:00:23Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-07-04T08:01:06.148424+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rahmanef63/models-rahmanef-com",
+    "url": "https://github.com/rahmanef63/models-rahmanef-com",
+    "description": "Portable multi-tenant BYOK model registry: auto-updating models.dev catalog + per-tenant credential resolution. Distilled from openclaw + hermes-agent.",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-04T07:59:59Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-04T08:01:09.151431+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ZombieDuckling/visionary",
+    "url": "https://github.com/ZombieDuckling/visionary",
+    "description": "Local-first desktop mission control for multi-agent AI systems. One pane of glass for OpenClaw, Claude Code, Hermes, Codex \u2014 node:http + SQLite, vanilla JS, Electron, zero build step.",
+    "stars": 2,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "agent-orchestration",
+      "ai-agents",
+      "dashboard",
+      "electron",
+      "local-first",
+      "mission-control",
+      "sqlite",
+      "vanilla-js"
+    ],
+    "updated_at": "2026-07-04T07:55:55Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "jnMetaCode/shellward",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-07-04T08:01:12.154672+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Aqilaapril4330/hermes-agent-desktop",
+    "url": "https://github.com/Aqilaapril4330/hermes-agent-desktop",
+    "description": "Automate desktop tasks and workflows using the Hermes agent for efficient local interaction.",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "agent-orchestration",
+      "ai-collaboration",
+      "claude-code",
+      "cli",
+      "codex-cli",
+      "desktop-app",
+      "docker",
+      "gpt4",
+      "hermes",
+      "llm",
+      "no-docker",
+      "no-install",
+      "nous-research",
+      "python",
+      "pywebview",
+      "qwen",
+      "tool-making"
+    ],
+    "updated_at": "2026-07-04T07:55:46Z",
+    "category": "core",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "zakahadi/llm-eval-cli"
+    ],
+    "discovered_at": "2026-07-04T08:01:15.157618+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Saliksha6568/hermes-war-room",
+    "url": "https://github.com/Saliksha6568/hermes-war-room",
+    "description": "Visualize and manage your Hermes agent fleet through a unified browser dashboard for streamlined orchestration and task delegation.",
+    "stars": 1,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "agent",
+      "agent-ui",
+      "ai",
+      "ai-agent",
+      "ai-workspace",
+      "airbnb",
+      "bash",
+      "chatgpt",
+      "claude",
+      "codex",
+      "hackathon",
+      "hermes",
+      "instagram",
+      "openai",
+      "orchestration",
+      "reddit",
+      "rust",
+      "terminal",
+      "whatsapp"
+    ],
+    "updated_at": "2026-07-04T07:55:17Z",
+    "category": "core",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser"
+    ],
+    "discovered_at": "2026-07-04T08:01:18.161025+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Akashpandey1970/crowdwisdom-crypto-agent",
+    "url": "https://github.com/Akashpandey1970/crowdwisdom-crypto-agent",
+    "description": "A production-grade multi-agent crypto arbitrage & prediction platform built with the Hermes Agent framework. Sourced programmatically via Apify, the system uses the Kronos Time-Series Foundation Model to predict 5-minute close trends on BTC/ETH, sizing position allocations across Polymarket and Kalshi using the fractional Kelly Criterion.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-04T07:55:14Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "Lethe044/hermes-incident-commander",
+      "JackTheGit/hermes-autonomous-server",
+      "yang1989haoa-gif/synapse-studio",
+      "romdix/coolify-hermes-stack",
+      "varunlakshmaiah/hermes-compose",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "Panoramar8046/hermes-agent-metaharness",
+      "zakahadi/llm-eval-cli"
+    ],
+    "discovered_at": "2026-07-04T08:01:21.164565+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cxnaive/hermes-agent-llbot",
+    "url": "https://github.com/cxnaive/hermes-agent-llbot",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-04T07:55:13Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-04T08:01:24.165572+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "DTALEX66/Workflow-assistance",
+    "url": "https://github.com/DTALEX66/Workflow-assistance",
+    "description": "HERMES + CC Switch + Codex workflow enhancement assets: config, skills, MCP, scripts, templates, and troubleshooting.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-workflows",
+      "cc-switch",
+      "codex",
+      "hermes-agent",
+      "mcp",
+      "workflow-automation"
+    ],
+    "updated_at": "2026-07-04T07:53:49Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-04T08:01:33.953619+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yosbotnet/hermes-curriculum",
+    "url": "https://github.com/yosbotnet/hermes-curriculum",
+    "description": "Knowledge-graph curriculum engine: decides what to teach/test next so a tutor LLM is only the delivery layer. Ingests your materials into a Postgres+pgvector graph + OKF content, generates grounded questions, serves them over MCP.",
+    "stars": 1,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-04T07:47:16Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-07-04T08:01:36.956192+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Code-MonkeyZhang/persona-agent",
+    "url": "https://github.com/Code-MonkeyZhang/persona-agent",
+    "description": "User-friendly Personal Agent for all",
+    "stars": 4,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "ai-agents",
+      "deepseek",
+      "desktop-app",
+      "electron",
+      "hermes-agent",
+      "llm",
+      "openclaw",
+      "react"
+    ],
+    "updated_at": "2026-07-04T08:00:58Z",
+    "category": "forks",
+    "score": 33,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-04T08:01:53.320424+00:00",
     "status": "pending"
   }
 ]
