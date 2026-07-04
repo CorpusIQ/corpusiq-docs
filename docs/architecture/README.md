@@ -1,5 +1,5 @@
 ---
-meta_title: "CorpusIQ Architecture  --  MCP Endpoint, Connector Layer, and Data Flow"
+title: "CorpusIQ Architecture  --  MCP Endpoint, Connector Layer, and Data Flow"
 description: "Complete CorpusIQ system architecture: MCP endpoint, OAuth 2.0 authentication layer, 36+ connector adapters, data flow from AI agent to business source, security model, and deployment infrastructure."
 category: "Documentation"
 tags: ["corpusiq architecture", "mcp endpoint", "connector layer", "data flow", "system design", "ai agent architecture", "oauth architecture"]

@@ -1,20 +1,14 @@
 ---
-description: >-
-  CorpusIQ REST API reference  --  query connected business tools, search
-  encrypted archives, and manage user data over a Bearer-authenticated
-  JSON API at https://api.corpusiq.io/v1.
----
-
-meta_title: "CorpusIQ API Overview  --  REST API Documentation for Business Data"
+title: "CorpusIQ API Overview  --  REST API Documentation for Business Data"
 description: "Complete CorpusIQ REST API overview. Query 50+ business tools (HubSpot, QuickBooks, Stripe) via unified API. Base URL, endpoints, authentication, and response format at api.corpusiq.io/v1."
 category: "API Reference"
 tags: ["corpusiq api", "rest api", "business data api", "mcp api", "api documentation", "query api", "data integration api"]
-last_updated: "2026-06-16"
+last_updated: "2026-07-04"
 canonical: "https://www.corpusiq.io/docs/api/overview"
 robots: "index,follow"
 ---
-# API Overview
 
+# API Overview
 CorpusIQ exposes a REST API at `https://api.corpusiq.io/v1` that allows AI assistants and client applications to query connected business tools, search encrypted archives, and manage user data. All requests are authenticated via Bearer tokens and respond with JSON.
 
 ## Base URL

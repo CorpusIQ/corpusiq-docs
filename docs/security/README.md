@@ -5,7 +5,7 @@ description: >-
   We never write to your systems.
 ---
 
-meta_title: "CorpusIQ Security Overview  --  Authentication, Encryption, and Read-Only Access"
+title: "CorpusIQ Security Overview  --  Authentication, Encryption, and Read-Only Access"
 description: "CorpusIQ security overview: OAuth 2.0 authentication for agents and chat users, TLS 1.3 encryption, read-only data access policy, audit logging, data handling, and security best practices."
 category: "Documentation"
 tags: ["corpusiq security overview", "authentication", "encryption", "read-only access", "oauth security", "data handling", "audit logging"]
