@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 3, 2026 (morning) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 3, 2026 (evening) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -817,6 +817,12 @@ Official Cal.com scheduling MCP — create event types, check availability, book
 
 ### Granola MCP Server ★ New (July 3)
 Official Granola meeting notes MCP — query meeting transcripts, extract action items, and search your entire meeting history from AI agents. Turns meeting notes into a queryable knowledge base. Essential for operators who want AI agents to answer "what did we decide about X?" from actual meeting records. [Full integration guide →](/hermes/mcp/servers/external/granola-mcp/)
+
+### Microsoft Planner MCP ★ New (July 3 eve)
+Connect AI agents to Microsoft Planner via Microsoft Graph API. Create plans, manage tasks, update buckets, assign work, and automate project workflows in Microsoft 365. Essential for enterprise operators on the Microsoft stack who want conversational task management. [Full integration guide →](/hermes/mcp/servers/external/microsoft-planner-mcp/)
+
+### Mowgli MCP ★ New (July 3 eve)
+Intelligent product canvas with MCP access — connect coding agents to iterate on product design, from sweeping flows to surgical component tweaks, and sync changes back to code. Built for product teams who want AI-driven design iteration without Figma exports. [Full integration guide →](/hermes/mcp/servers/external/mowgli-mcp/)
 
 ### Fixzi MCP Server ★ New
 Issue tracking and bug fixing workflow automation via MCP. AI agents can create, track, and resolve issues programmatically.
