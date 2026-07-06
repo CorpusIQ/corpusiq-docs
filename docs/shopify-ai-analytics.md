@@ -1,6 +1,4 @@
 ---
-title: 'Shopify AI Analytics: Automated Ecommerce Insights & Reporting | CorpusIQ'
-  required.
 url: /docs/shopify-ai-analytics
 h1: 'Shopify AI Analytics: Automated Ecommerce Intelligence at Conversation Speed'
 title: Shopify AI Analytics  --  Automated Ecommerce Insights | CorpusIQ

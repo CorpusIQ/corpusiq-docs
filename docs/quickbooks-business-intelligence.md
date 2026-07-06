@@ -1,6 +1,4 @@
 ---
-title: 'QuickBooks Business Intelligence: AI-Powered BI for Accounting | CorpusIQ'
-  data.
 url: /docs/quickbooks-business-intelligence
 h1: 'QuickBooks Business Intelligence: Turn Accounting Data into Strategic Advantage'
 title: QuickBooks Business Intelligence  --  AI-Powered BI Platform | CorpusIQ

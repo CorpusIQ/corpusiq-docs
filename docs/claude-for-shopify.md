@@ -1,6 +1,4 @@
 ---
-title: 'Claude for Shopify: Advanced Ecommerce AI Analysis | CorpusIQ'
-  and inventory optimization.
 url: /docs/claude-for-shopify
 h1: 'Claude for Shopify: Deep Ecommerce Intelligence with Anthropic''s AI'
 title: Claude for Shopify  --  Advanced Ecommerce AI Analysis | CorpusIQ

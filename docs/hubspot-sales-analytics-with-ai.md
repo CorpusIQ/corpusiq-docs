@@ -1,6 +1,4 @@
 ---
-title: 'HubSpot Sales Analytics with AI: Complete Guide to Pipeline & Deal Intelligence | CorpusIQ'
-  with ChatGPT and Claude.
 url: /docs/hubspot-sales-analytics-with-ai
 h1: 'HubSpot Sales Analytics with AI: Turn Pipeline Data into Revenue Intelligence'
 title: HubSpot Sales Analytics with AI  --  Complete Guide | CorpusIQ
