@@ -1,6 +1,4 @@
 ---
-title: 'HubSpot AI Reporting: Automated CRM Reports & Sales Analytics | CorpusIQ'
-  CorpusIQ MCP.
 url: /docs/hubspot-ai-reporting
 h1: 'HubSpot AI Reporting: Automated CRM Intelligence at Conversation Speed'
 title: HubSpot AI Reporting  --  Automated CRM Reports & Analytics | CorpusIQ

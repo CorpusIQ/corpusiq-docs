@@ -1,6 +1,4 @@
 ---
-title: 'Shopify Sales Analysis with AI: Complete Guide to AI-Powered Sales Intelligence | CorpusIQ'
-  Claude.
 url: /docs/shopify-sales-analysis-with-ai
 h1: 'Shopify Sales Analysis with AI: Turn Raw Order Data into Revenue Intelligence'
 title: Shopify Sales Analysis with AI  --  Complete Guide | CorpusIQ

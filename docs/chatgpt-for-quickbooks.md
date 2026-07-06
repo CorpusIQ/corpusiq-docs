@@ -1,6 +1,4 @@
 ---
-title: 'ChatGPT for QuickBooks: AI-Powered Accounting & Financial Analysis | CorpusIQ'
-  exports required.
 url: /docs/chatgpt-for-quickbooks
 h1: 'ChatGPT for QuickBooks: Transform Your Accounting Workflow with AI'
 title: ChatGPT for QuickBooks  --  AI Accounting & Financial Analysis | CorpusIQ

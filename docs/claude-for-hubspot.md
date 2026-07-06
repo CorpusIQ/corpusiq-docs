@@ -1,6 +1,4 @@
 ---
-title: 'Claude for HubSpot: Advanced CRM Intelligence & Pipeline Analysis | CorpusIQ'
-  optimization.
 url: /docs/claude-for-hubspot
 h1: 'Claude for HubSpot: Deep CRM Intelligence with Anthropic''s AI'
 title: Claude for HubSpot  --  Advanced CRM Intelligence & Sales Analytics | CorpusIQ

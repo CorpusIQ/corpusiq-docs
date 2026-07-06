@@ -1,6 +1,4 @@
 ---
-title: 'QuickBooks AI Reporting: Automated Financial Reports with AI | CorpusIQ'
-  MCP.
 url: /docs/quickbooks-ai-reporting
 h1: 'QuickBooks AI Reporting: Automated Financial Intelligence at Conversation Speed'
 title: QuickBooks AI Reporting  --  Automated Financial Reports | CorpusIQ
