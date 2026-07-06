@@ -38,6 +38,14 @@ nav:
   - AI Agent Users: ai-agent-users.md
   - AI Chat Users: ai-chat-users.md
   - Supported Agents: supported-agents.md
+- Chat Apps (Slack & Teams):
+  - Overview: chat-apps/README.md
+  - What It Is: chat-apps/what-it-is.md
+  - Getting Started in Slack: chat-apps/getting-started-slack.md
+  - Getting Started in Teams: chat-apps/getting-started-teams.md
+  - Asking Questions: chat-apps/asking-questions.md
+  - Commands & Account: chat-apps/commands-and-account.md
+  - Troubleshooting: chat-apps/troubleshooting.md
 - Search: search/README.md
 - Reporting: reporting/README.md
 - Onboarding: onboarding/README.md
