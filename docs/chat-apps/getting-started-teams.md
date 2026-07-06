@@ -69,7 +69,7 @@ Plain English. A good first question is one you can sanity-check:
 The answer comes back as a card — key numbers laid out, not a paragraph to
 squint at.
 
-<!-- screenshot: a CorpusIQ answer in Teams shown as an Adaptive Card with KPIs -->
+![A CorpusIQ answer in Microsoft Teams: a short summary line followed by an Adaptive Card showing the session count and its breakdown, with a "Powered by CorpusIQ" footer.](assets/teams-answer-sessions.png)
 
 If a question needs a tool you haven't connected, the app tells you and links
 you to connect it in the dashboard. Connect once, ask again, done.
