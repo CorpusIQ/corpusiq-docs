@@ -1,3 +1,12 @@
+# CorpusIQ — Full Documentation
+
+> Generated for AI assistant ingestion. Covers platform, connectors, agents, operations.
+
+
+---
+## README
+---
+
 # CorpusIQ — Stop building reports by hand. Just ask your AI.
 
 [![MCP Platform](https://img.shields.io/badge/MCP-Platform-0a2540?style=flat-square&logo=anthropic&logoColor=white)](https://www.corpusiq.io)
@@ -125,3 +134,91 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 ---
 
 *CorpusIQ — Stop building reports by hand. Just ask your AI.*
+
+
+---
+## All Connectors
+---
+
+- README: /connectors/README.md
+- activecampaign: /connectors/activecampaign.md
+- adzviser alternative: /connectors/adzviser-alternative.md
+- ahrefs: /connectors/ahrefs.md
+- ai mcp server for business data: /connectors/ai-mcp-server-for-business-data.md
+- airtable: /connectors/airtable.md
+- amazon seller: /connectors/amazon_seller.md
+- calendly: /connectors/calendly.md
+- chatgpt business data connector: /connectors/chatgpt-business-data-connector.md
+- close: /connectors/close.md
+- connect airtable to claude: /connectors/connect-airtable-to-claude.md
+- connect ga4 to claude: /connectors/connect-ga4-to-claude.md
+- connect google ads to claude: /connectors/connect-google-ads-to-claude.md
+- connect hubspot to claude: /connectors/connect-hubspot-to-claude.md
+- connect klaviyo to chatgpt: /connectors/connect-klaviyo-to-chatgpt.md
+- connect klaviyo to claude: /connectors/connect-klaviyo-to-claude.md
+- connect linkedin ads to claude: /connectors/connect-linkedin-ads-to-claude.md
+- connect meta ads to claude: /connectors/connect-meta-ads-to-claude.md
+- connect quickbooks to claude: /connectors/connect-quickbooks-to-claude.md
+- connect shopify to claude: /connectors/connect-shopify-to-claude.md
+- connect slack to claude: /connectors/connect-slack-to-claude.md
+- connect stripe to claude: /connectors/connect-stripe-to-claude.md
+- constantcontact: /connectors/constantcontact.md
+- cosmosdb: /connectors/cosmosdb.md
+- dropbox: /connectors/dropbox.md
+- ebay: /connectors/ebay.md
+- facebook marketing: /connectors/facebook_marketing.md
+- ga4: /connectors/ga4.md
+- gohighlevel: /connectors/gohighlevel.md
+- google ads: /connectors/google_ads.md
+- google workspace: /connectors/google_workspace.md
+- gunbroker: /connectors/gunbroker.md
+- hubspot: /connectors/hubspot.md
+- imap: /connectors/imap.md
+- indexnow: /connectors/indexnow.md
+- klaviyo: /connectors/klaviyo.md
+- linkedin ads: /connectors/linkedin-ads.md
+- mailchimp: /connectors/mailchimp.md
+- mcp server shopify quickbooks: /connectors/mcp-server-shopify-quickbooks.md
+- monday: /connectors/monday.md
+- mongodb: /connectors/mongodb.md
+- mssql: /connectors/mssql.md
+- notion: /connectors/notion.md
+- odoo: /connectors/odoo.md
+- onedrive: /connectors/onedrive.md
+- outlook: /connectors/outlook.md
+- perplexity business data mcp: /connectors/perplexity-business-data-mcp.md
+- postgres: /connectors/postgres.md
+- posthog: /connectors/posthog.md
+- postscript: /connectors/postscript.md
+- quickbooks: /connectors/quickbooks.md
+- search console: /connectors/search-console.md
+- semrush: /connectors/semrush.md
+- shopify: /connectors/shopify.md
+- slack: /connectors/slack.md
+- stripe: /connectors/stripe.md
+- tiktok: /connectors/tiktok.md
+- windsor ai alternative: /connectors/windsor-ai-alternative.md
+- youtube: /connectors/youtube.md
+
+---
+## Prompt Library
+---
+
+- data analysis: /hermes/prompts/data-analysis.md
+- customer and crm: /hermes/prompts/customer-and-crm.md
+- marketing roas: /hermes/prompts/marketing-roas.md
+- README: /hermes/prompts/README.md
+- code generation: /hermes/prompts/code-generation.md
+- revenue and finance: /hermes/prompts/revenue-and-finance.md
+- index: /hermes/prompts/index.md
+- productivity and files: /hermes/prompts/productivity-and-files.md
+- business operations: /hermes/prompts/business-operations.md
+- ecommerce ops: /hermes/prompts/ecommerce-ops.md
+- multi source: /hermes/prompts/multi-source.md
+- mcp developer queries: /hermes/prompts/mcp-developer-queries.md
+- seo and content: /hermes/prompts/seo-and-content.md
+- research: /hermes/prompts/research.md
+- content creation: /hermes/prompts/content-creation.md
+- executive summary: /hermes/prompts/executive-summary.md
+- email and sms: /hermes/prompts/email-and-sms.md
+- creative: /hermes/prompts/creative.md
