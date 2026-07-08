@@ -1,7 +1,7 @@
 ---
 title: Output Workflows
 description: Reusable agent output workflow templates and patterns
-last_updated: 2026-06-25
+last_updated: 2026-07-08
 ---
 
 # Output Workflows

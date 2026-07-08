@@ -3,7 +3,7 @@ title: "Astucia Wiki MCP — AI-Enabled Team Wiki for Hermes Agent"
 description: "Connect Astucia Wiki to Hermes Agent. AI-native team wiki with semantic search, auto-organization, and natural language querying. For operators who need a single source of truth their AI can actually use."
 category: mcp
 tags: [mcp-server, wiki, knowledge-management, documentation, team-collaboration, productivity]
-last_updated: 2026-07-04
+last_updated: 2026-07-08
 ---
 
 # Astucia Wiki MCP Server ★ New (July 4)

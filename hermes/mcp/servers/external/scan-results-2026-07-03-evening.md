@@ -3,7 +3,7 @@ title: "MCP Server Discovery — July 3, 2026 (Evening Supplement)"
 description: "Late-day supplemental scan of mcpservers.org and mcp.so. 3 new business-relevant MCP servers across task management, product design, and design-to-code categories."
 category: mcp
 tags: [mcp-servers, daily-scan, july-2026]
-last_updated: 2026-07-03
+last_updated: 2026-07-08
 ---
 
 # MCP Server Discovery — July 3, 2026 (Evening Supplement)

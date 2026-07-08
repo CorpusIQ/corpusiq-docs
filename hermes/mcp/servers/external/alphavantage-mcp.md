@@ -3,7 +3,7 @@ title: "Alpha Vantage MCP — Financial Market Data for AI Agents"
 description: "Connect Alpha Vantage to Hermes Agent. Access real-time and historical stock, ETF, forex, crypto, and commodities data. Technical indicators, fundamentals, and economic data — all via MCP."
 category: mcp
 tags: [mcp-server, alpha-vantage, finance, market-data, stocks, forex, crypto, technical-analysis]
-last_updated: 2026-07-03
+last_updated: 2026-07-08
 ---
 
 # Alpha Vantage MCP Server ★ New (July 3)

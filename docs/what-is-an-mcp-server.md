@@ -3,7 +3,7 @@ title: "What Is an MCP Server? Complete Guide to Model Context Protocol | Corpus
 description: "Learn what an MCP server is and how Anthropic's Model Context Protocol powers AI-to-business-data connections. Discover real-time natural language queries across 30+ platforms like Shopify, QuickBooks, and HubSpot."
 category: MCP Education
 tags: ["what is an MCP server", "Model Context Protocol explained", "MCP server guide", "AI business data integration", "Claude MCP server", "connect business data to ChatGPT"]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 canonical: https://www.corpusiq.io/docs/what-is-an-mcp-server
 robots: index,follow
 ---

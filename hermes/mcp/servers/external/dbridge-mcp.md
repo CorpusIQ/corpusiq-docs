@@ -3,7 +3,7 @@ title: "dbridge MCP — Secure Natural Language SQL for AI Agents"
 description: "Query databases with natural language, secured by column masking, row caps, and query limits. AI agents get SQL access without exposing raw data — security-first database MCP."
 category: mcp
 tags: [mcp-server, database, sql, security, postgresql, mysql, data-access, governance]
-last_updated: 2026-07-02
+last_updated: 2026-07-08
 ---
 
 # dbridge MCP Server ★ New (July 2 PM)

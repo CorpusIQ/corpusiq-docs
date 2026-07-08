@@ -8,7 +8,7 @@ tags:
   - people-operations
   - resume-screening
   - ai-hr-assistant
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Hermes HR Agent  --  Autonomous Recruiting & People Operations

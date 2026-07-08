@@ -8,7 +8,7 @@ tags:
   - hermes-agents
   - role-configurations
   - production-agents
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Hermes Agent Library  --  9 Production-Ready AI Agent Blueprints

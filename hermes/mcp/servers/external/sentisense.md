@@ -3,7 +3,7 @@ title: "SentiSense MCP — Market Intelligence for AI Agents"
 description: "Connect SentiSense market intelligence to Hermes Agent. US market mood, stock sentiment, analyst ratings, 13F filings. Five read-only tools, zero-config OAuth, no API key."
 category: mcp
 tags: [mcp-server, sentisense, finance, market-intelligence, sentiment, stocks, investing]
-last_updated: 2026-07-02
+last_updated: 2026-07-08
 ---
 
 # SentiSense — Market Intelligence MCP Server

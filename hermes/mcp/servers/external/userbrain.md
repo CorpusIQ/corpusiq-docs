@@ -3,7 +3,7 @@ title: "Userbrain MCP — UX Research Analytics for AI Agents"
 description: "Explore user testing data, summarize session feedback, and uncover UX insights from unmoderated usability tests — all through your MCP client."
 category: mcp
 tags: [mcp-server, ux-research, usability-testing, user-testing, product-research]
-last_updated: 2026-07-02
+last_updated: 2026-07-08
 ---
 
 # Userbrain MCP — UX Research Connector

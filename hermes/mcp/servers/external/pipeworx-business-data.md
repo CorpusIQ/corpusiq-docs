@@ -3,7 +3,7 @@ title: "pipeworx-io Business Data Suite — Industrial MCP Wrappers"
 description: "Connect Tradier, EODHD, Diffbot, Coresignal, PeopleDataLabs, Shodan, SEO Backlinks, Emailable to Hermes Agent. Systematic API wrapping for business intelligence."
 category: mcp
 tags: [mcp-server, pipeworx, business-intelligence, finance, market-data, company-data, security]
-last_updated: 2026-07-02
+last_updated: 2026-07-08
 ---
 
 # pipeworx-io Business Data Suite — MCP Servers

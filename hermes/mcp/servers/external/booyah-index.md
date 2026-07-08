@@ -3,7 +3,7 @@ title: "Booyah Index MCP — Southeast Asia Business Directory for AI Agents"
 description: "Free AI-readable directory of 3,520 local businesses across 14 Southeast Asian cities. Search restaurants, services, and local businesses in Bangkok, Singapore, Bali, Kuala Lumpur, and more from any MCP client."
 category: mcp
 tags: [mcp-server, business-directory, southeast-asia, local-business, travel, market-research]
-last_updated: 2026-07-02
+last_updated: 2026-07-08
 ---
 
 # Booyah Index MCP — SE Asia Business Directory

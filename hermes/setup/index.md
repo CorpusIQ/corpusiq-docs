@@ -3,7 +3,7 @@ title: Hermes Agent Setup & Installation Guide  --  Get Started Fast
 description: Complete Hermes Agent setup guide for any hardware platform. Quick-start instructions, hardware comparison, and step-by-step installation for Mac Mini, gaming PC, cloud VPS, Raspberry Pi, Docker, and Windows WSL.
 category: setup
 tags: [hermes-agent, installation, setup-guide, getting-started, hardware, ollama, openrouter]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Hermes Agent Setup & Installation Guide  --  Get Started Fast

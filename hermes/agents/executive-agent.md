@@ -8,7 +8,7 @@ tags:
   - inbox-triage
   - ai-chief-of-staff
   - daily-briefing
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Hermes Executive Agent  --  Autonomous Calendar, Inbox & Daily Briefings

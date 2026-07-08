@@ -1,7 +1,7 @@
 ---
 title: Auto Updater — OpenClaw Self-Updating Setup Guide
 description: Setup guide for the openclaw-auto-updater skill — keep your OpenClaw agent and its skills automatically updated. Zero-touch maintenance for long-running agents.
-last_updated: 2026-06-28
+last_updated: 2026-07-08
 ---
 
 # Auto Updater — OpenClaw Self-Updating

@@ -3,7 +3,7 @@ title: Aikount MCP Server Integration Guide
 description: Spanish accounting for AI agents — issue invoices, OCR expense PDFs, reconcile bank movements, and prepare quarterly VAT returns (Modelo 303) with Aikount MCP
 category: mcp
 tags: [mcp, aikount, accounting, spanish, iva, modelo-303, invoices, expenses, autónomo, hermes-agent]
-last_updated: 2026-06-28
+last_updated: 2026-07-08
 ---
 
 # Aikount MCP — Spanish Accounting Automation for Hermes Agent

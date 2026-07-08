@@ -1,7 +1,7 @@
 ---
 title: "OpenClaw Marketing Skills — Setup Guide"
 description: "Install and configure the openclaw-marketing-skills from aradotso/marketing-skills — campaign management, audience targeting, and content scheduling for Hermes/OpenClaw agents."
-last_updated: 2026-06-28
+last_updated: 2026-07-08
 ---
 
 # OpenClaw Marketing Skills — Setup Guide

@@ -3,7 +3,7 @@ title: "Connect Asana to ChatGPT via MCP  --  Live Data, No Code | CorpusIQ"
 description: "Connect your Asana account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your asana data and get real-time, source-cited answers  --  no exports, no coding required."
 category: ChatGPT Integrations
 tags: ["connect Asana to ChatGPT", "Asana ChatGPT integration", "MCP Asana connector", "Asana data to ChatGPT", "AI for Asana", "CorpusIQ MCP"]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 canonical: https://www.corpusiq.io/docs/connect-asana-to-chatgpt
 robots: index,follow
 ---

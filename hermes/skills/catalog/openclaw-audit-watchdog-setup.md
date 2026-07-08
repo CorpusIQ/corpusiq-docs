@@ -1,7 +1,7 @@
 ---
 title: "OpenClaw Audit Watchdog — Setup Guide"
 description: "Install and configure the openclaw-audit-watchdog from prompt-security/clawsec — security auditing and misconfiguration detection for Hermes/OpenClaw agent deployments."
-last_updated: 2026-06-28
+last_updated: 2026-07-08
 ---
 
 # OpenClaw Audit Watchdog — Setup Guide

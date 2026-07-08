@@ -3,7 +3,7 @@ title: "SEOforGPT MCP — AI Visibility & Generative Engine Optimization"
 description: "Connect SEOforGPT to Hermes Agent. Audit AI visibility across ChatGPT, Claude, Perplexity, Gemini. Track competitors, generate AI-optimized content, publish to CMS."
 category: mcp
 tags: [mcp-server, seo, geo, ai-visibility, marketing, content-generation, competitor-tracking]
-last_updated: 2026-07-02
+last_updated: 2026-07-08
 ---
 
 # SEOforGPT — AI Visibility / GEO MCP Server

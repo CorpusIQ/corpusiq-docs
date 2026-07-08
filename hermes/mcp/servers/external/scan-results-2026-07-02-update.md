@@ -3,7 +3,7 @@ title: "MCP Server Discovery — July 2, 2026 (Afternoon Update)"
 description: "Second daily sweep of mcp.so and mcpservers.org. 14 new business-relevant MCP servers across ERP, ecommerce, legal, billing, supply chain, agent infrastructure, and content categories."
 category: mcp
 tags: [mcp-servers, daily-scan, july-2026]
-last_updated: 2026-07-02
+last_updated: 2026-07-08
 ---
 
 # MCP Server Discovery — July 2, 2026 (Afternoon Update)

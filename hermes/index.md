@@ -1,7 +1,7 @@
 ---
 title: "Hermes Community Hub — 440+ Tools & Resources"
 description: "The largest structured Hermes Agent knowledge base
-last_updated: 2026-07-01 — 440+ tools, skills, MCP servers, agents, blueprints, and case studies. Built by the community. Updated daily."
+last_updated: 2026-07-08 — 440+ tools, skills, MCP servers, agents, blueprints, and case studies. Built by the community. Updated daily."
 ---
 
 # 🫡 Hermes Community Hub

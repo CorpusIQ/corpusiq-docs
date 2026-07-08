@@ -8,7 +8,7 @@ tags:
   - competitive-analysis
   - literature-review
   - ai-research-assistant
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Hermes Research Agent  --  Autonomous Market Intelligence & Competitive Research

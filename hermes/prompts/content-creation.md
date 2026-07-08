@@ -3,7 +3,7 @@ title: Content Creation Prompts for Hermes Agent  --  Blog, Social, Email & SEO 
 description: Hermes Agent content creation prompts for blog posts, social media, email campaigns, video scripts, and SEO-optimized content. Replace bracketed placeholders with your brand voice, audience, and topic.
 category: prompts
 tags: [hermes-agent, prompts, content-creation, blog-posts, social-media, email-marketing, seo, video-scripts]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Content Creation Prompts  --  Blog, Social, Email & SEO Templates

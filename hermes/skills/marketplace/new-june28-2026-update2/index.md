@@ -1,7 +1,7 @@
 ---
 title: "New Skills Discovered — June 28, 2026 (Update 2)"
 description: "9 new skills discovered — sundial-org OpenClaw collection (news-summary, ffmpeg-video-editor, Jina Reader, reminders, proactive agent, topic monitor, financial analysis), plus aradotso marketing skill and prompt-security audit watchdog."
-last_updated: 2026-06-28
+last_updated: 2026-07-08
 ---
 
 # New Skills Discovered — June 28, 2026 (Update 2)

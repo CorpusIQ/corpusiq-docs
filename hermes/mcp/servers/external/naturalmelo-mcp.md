@@ -3,7 +3,7 @@ title: "NaturalMelo MCP — AI Content Detection for Agents"
 description: "Detect AI-generated content with naturalness scoring, flagged AI-template patterns, and humanization suggestions. Content teams can audit and refine AI-assisted writing from any MCP client."
 category: mcp
 tags: [mcp-server, content-detection, ai-detection, content-ops, writing, marketing]
-last_updated: 2026-07-02
+last_updated: 2026-07-08
 ---
 
 # NaturalMelo MCP — AI Content Detection

@@ -3,7 +3,7 @@ title: "MCP for Accountants: AI-Powered Data Access for Accountants Teams | Corp
 description: "How accountants teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access without coding."
 category: MCP Education
 tags: ["MCP for accountants", "accountants AI analytics", "AI for accountants teams", "connect business data to ChatGPT", "no-code AI business intelligence", "accountants data integration"]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 canonical: https://www.corpusiq.io/docs/mcp-for-accountants
 robots: index,follow
 ---

@@ -3,7 +3,7 @@ title: "Connect Shopify to ChatGPT via MCP  --  Live Data, No Code | CorpusIQ"
 description: "Connect your Shopify account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your shopify data and get real-time, source-cited answers  --  no exports, no coding required."
 category: ChatGPT Integrations
 tags: ["connect Shopify to ChatGPT", "Shopify ChatGPT integration", "MCP Shopify connector", "Shopify data to ChatGPT", "AI for Shopify", "CorpusIQ MCP"]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 canonical: https://www.corpusiq.io/docs/connect-shopify-to-chatgpt
 robots: index,follow
 ---

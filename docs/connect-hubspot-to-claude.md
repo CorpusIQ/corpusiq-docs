@@ -3,7 +3,7 @@ title: "Connect HubSpot to Claude via MCP  --  Live Data, No Code | CorpusIQ"
 description: "Connect your HubSpot account to Claude through CorpusIQ MCP. Ask natural language questions about your hubspot data and get real-time, source-cited answers  --  no exports, no coding required."
 category: Claude Integrations
 tags: ["connect HubSpot to Claude", "HubSpot Claude integration", "MCP HubSpot connector", "HubSpot data to Claude", "AI for HubSpot", "CorpusIQ MCP"]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 canonical: https://www.corpusiq.io/docs/connect-hubspot-to-claude
 robots: index,follow
 ---

@@ -3,7 +3,7 @@ title: "Mowgli MCP — Integration Guide"
 description: "Connect AI coding agents to Mowgli's intelligent product canvas for design iteration. Modify product designs conversationally and sync changes back to code."
 category: mcp
 tags: [mcp-server, mowgli, product-design, design-to-code, ux, product-development]
-last_updated: 2026-07-03
+last_updated: 2026-07-08
 source: https://mcpservers.org
 source_repo: app.mowgli.ai/mcp
 ---

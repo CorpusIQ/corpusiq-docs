@@ -8,7 +8,7 @@ tags:
   - lead-qualification
   - crm-automation
   - ai-sales-assistant
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Hermes Sales Agent  --  Autonomous Pipeline Management & AI Outreach

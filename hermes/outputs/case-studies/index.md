@@ -1,7 +1,7 @@
 ---
 title: Case Studies
 description: Real-world Hermes Agent deployment case studies across 13 industries
-last_updated: 2026-06-25
+last_updated: 2026-07-08
 ---
 
 # Case Studies

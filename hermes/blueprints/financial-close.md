@@ -3,7 +3,7 @@ title: Financial Close Blueprint for Hermes Agent  --  Monthly Reconciliation Au
 description: Monthly financial close automation blueprint for Hermes Agent. Data pull, account reconciliation, variance analysis, reporting, and forecasting  --  connected to QuickBooks, Stripe, banking data. Cron-driven with human sign-off gates.
 category: blueprints
 tags: [hermes-agent, blueprint, financial-close, reconciliation, accounting, quickbooks, stripe, monthly-reporting]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Financial Close Blueprint  --  Monthly Reconciliation Automation

@@ -8,7 +8,7 @@ tags:
   - compliance-monitoring
   - regulatory-tracking
   - ai-legal-assistant
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Hermes Legal Agent  --  Autonomous Contract Review & Compliance Monitoring

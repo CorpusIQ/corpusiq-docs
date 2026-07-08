@@ -3,7 +3,7 @@ title: Hermes Agent Automation Blueprints  --  End-to-End AI Workflow Templates
 description: Production-ready Hermes Agent automation blueprints for daily operations, customer lifecycle, content pipeline, financial close, and incident response. Cron-anchored workflows with human decision gates.
 category: blueprints
 tags: [hermes-agent, blueprints, automation, workflows, cron, daily-operations, customer-lifecycle, content-pipeline, financial-close, incident-response]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Hermes Agent Automation Blueprints  --  End-to-End AI Workflows

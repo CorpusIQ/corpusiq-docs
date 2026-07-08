@@ -1,7 +1,7 @@
 ---
 title: Tavily Search — Web Search for OpenClaw Setup Guide
 description: Setup guide for the tavily-search skill — AI-optimized web search for OpenClaw agents. Real-time search with source attribution, topic extraction, and structured results.
-last_updated: 2026-06-28
+last_updated: 2026-07-08
 ---
 
 # Tavily Search — Web Search for OpenClaw

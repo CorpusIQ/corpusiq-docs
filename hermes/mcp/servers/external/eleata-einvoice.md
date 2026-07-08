@@ -3,7 +3,7 @@ title: "Integration Guide: Eleata E-Invoice MCP — EU E-Invoice Validation for 
 description: "Connect AI agents to Eleata E-Invoice MCP for Peppol, XRechnung, Factur-X, and UBL/CII validation. Automate EU e-invoicing compliance."
 category: mcp
 tags: [mcp, einvoice, eu-compliance, peppol, xrechnung, factur-x, ubl, electa]
-last_updated: 2026-06-30
+last_updated: 2026-07-08
 ---
 
 # Eleata E-Invoice MCP — EU E-Invoice Validation for AI Agents

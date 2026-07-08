@@ -8,7 +8,7 @@ tags:
   - automation-templates
   - industry-examples
   - hermes-outputs
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Hermes Agent Outputs & Implementation Guide  --  Real-World Patterns That Work

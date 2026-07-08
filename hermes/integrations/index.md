@@ -3,7 +3,7 @@ title: Hermes Agent Integration Examples  --  Connect Slack, GitHub, Email, CRM 
 description: Practical Hermes Agent integration guides connecting Slack, GitHub, email, calendar, CRM, analytics, databases, and reporting tools. MCP server setup, cron patterns, and automation workflows with detailed architecture.
 category: integrations
 tags: [hermes-agent, integrations, slack, github, email, calendar, crm, analytics, database, mcp-server, automation]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Hermes Agent Integration Examples  --  Connect Your Business Tools

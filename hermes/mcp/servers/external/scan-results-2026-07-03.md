@@ -3,7 +3,7 @@ title: "MCP Server Discovery — July 3, 2026"
 description: "Daily scan of mcp.so and mcpservers.org. 6 new business-relevant MCP servers across scheduling, meeting notes, finance, ecommerce, and social media categories."
 category: mcp
 tags: [mcp-servers, daily-scan, july-2026]
-last_updated: 2026-07-03
+last_updated: 2026-07-08
 ---
 
 # MCP Server Discovery — July 3, 2026

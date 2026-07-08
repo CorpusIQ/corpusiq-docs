@@ -3,7 +3,7 @@ title: Gaming PC Hermes Agent Setup  --  CUDA-Accelerated AI Workstation
 description: Run Hermes Agent on your gaming PC with NVIDIA CUDA acceleration. Local LLM inference at 50-200 tokens/sec, zero API costs. Step-by-step setup for Ubuntu Linux with Ollama, GPU optimization, and persistent operation.
 category: setup
 tags: [gaming-pc, hermes-agent, setup-guide, nvidia, cuda, ollama, gpu-acceleration, local-models]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Gaming PC Hermes Agent Setup  --  CUDA-Accelerated AI Workstation

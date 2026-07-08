@@ -3,7 +3,7 @@ title: "MCP Server Discovery — July 2, 2026 (Evening Scan)"
 description: "Evening scan of mcp.so and mcpservers.org. 13 new business-relevant MCP servers across travel, telephony, databases, web testing, lead generation, content research, legal, and cloud storage categories."
 category: mcp
 tags: [mcp-servers, daily-scan, july-2026]
-last_updated: 2026-07-02
+last_updated: 2026-07-08
 ---
 
 # MCP Server Discovery — July 2, 2026 (Evening Scan)

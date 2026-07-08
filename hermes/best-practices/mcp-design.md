@@ -3,7 +3,7 @@ title: MCP Server Design Guide for Hermes Agent  --  Build Custom AI Tools
 description: MCP server design best practices for Hermes Agent. Tool design principles, error handling, pagination, performance, testing, and server lifecycle. Build production-ready Model Context Protocol servers for AI agent tools.
 category: best-practices
 tags: [hermes-agent, mcp-design, mcp-server, tool-design, model-context-protocol, error-handling, testing]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # MCP Server Design Guide  --  Build Custom AI Agent Tools

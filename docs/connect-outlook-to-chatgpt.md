@@ -3,7 +3,7 @@ title: "Connect Outlook to ChatGPT via MCP  --  Live Data, No Code | CorpusIQ"
 description: "Connect your Outlook account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your outlook data and get real-time, source-cited answers  --  no exports, no coding required."
 category: ChatGPT Integrations
 tags: ["connect Outlook to ChatGPT", "Outlook ChatGPT integration", "MCP Outlook connector", "Outlook data to ChatGPT", "AI for Outlook", "CorpusIQ MCP"]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 canonical: https://www.corpusiq.io/docs/connect-outlook-to-chatgpt
 robots: index,follow
 ---

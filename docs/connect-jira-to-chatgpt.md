@@ -3,7 +3,7 @@ title: "Connect Jira to ChatGPT via MCP  --  Live Data, No Code | CorpusIQ"
 description: "Connect your Jira account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your jira data and get real-time, source-cited answers  --  no exports, no coding required."
 category: ChatGPT Integrations
 tags: ["connect Jira to ChatGPT", "Jira ChatGPT integration", "MCP Jira connector", "Jira data to ChatGPT", "AI for Jira", "CorpusIQ MCP"]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 canonical: https://www.corpusiq.io/docs/connect-jira-to-chatgpt
 robots: index,follow
 ---

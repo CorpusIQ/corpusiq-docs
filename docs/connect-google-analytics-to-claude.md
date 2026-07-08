@@ -3,7 +3,7 @@ title: "Connect Google Analytics to Claude via MCP  --  Live Data, No Code | Cor
 description: "Connect your Google Analytics account to Claude through CorpusIQ MCP. Ask natural language questions about your google analytics data and get real-time, source-cited answers  --  no exports, no coding required."
 category: Claude Integrations
 tags: ["connect Google Analytics to Claude", "Google Analytics Claude integration", "MCP Google Analytics connector", "Google Analytics data to Claude", "AI for Google Analytics", "CorpusIQ MCP"]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 canonical: https://www.corpusiq.io/docs/connect-google-analytics-to-claude
 robots: index,follow
 ---

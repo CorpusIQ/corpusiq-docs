@@ -1,7 +1,7 @@
 ---
 title: Launch Resources
 description: Product launch playbook, email templates, and Product Hunt submission guide
-last_updated: 2026-06-25
+last_updated: 2026-07-08
 ---
 
 # Launch Resources

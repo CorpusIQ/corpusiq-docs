@@ -3,7 +3,7 @@ title: Yapp MCP Server Integration Guide
 description: Publish pages, PDFs, images, and landing pages instantly through AI agents with Yapp MCP server for Hermes Agent
 category: mcp
 tags: [mcp, yapp, publishing, landing-pages, content, hermes-agent]
-last_updated: 2026-06-26
+last_updated: 2026-07-08
 ---
 
 # Yapp MCP — Instant Publishing for Hermes Agent

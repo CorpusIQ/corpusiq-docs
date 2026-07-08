@@ -8,7 +8,7 @@ tags:
   - hermes-crons
   - autonomous-agents
   - deployment-blueprints
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Copy-Paste Cron Templates  --  12 Ready-to-Deploy Autonomous Workflows

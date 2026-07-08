@@ -3,7 +3,7 @@ title: Hermes Agent Prompt Library  --  Curated AI Prompt Templates for Every Ta
 description: Curated Hermes Agent prompt templates for code generation, content creation, data analysis, business operations, research, and creative work. Customization guide, model selection, chaining strategies, and common pitfalls.
 category: prompts
 tags: [hermes-agent, prompts, prompt-templates, code-generation, content-creation, data-analysis, ai-prompts]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Hermes Agent Prompt Library  --  Curated AI Prompt Templates

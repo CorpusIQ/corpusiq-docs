@@ -3,7 +3,7 @@ title: Raspberry Pi 5 Hermes Agent Setup  --  Ultra-Low-Cost 24/7 AI Agent
 description: Run Hermes Agent on Raspberry Pi 5 for under $80 hardware and $5/month ongoing. Always-on email monitoring, cron jobs, and lightweight AI automation. Step-by-step Pi setup with cloud models and external storage.
 category: setup
 tags: [raspberry-pi, hermes-agent, setup-guide, low-cost, always-on, arm64, cron-automation, budget-ai]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Raspberry Pi 5 Hermes Agent Setup  --  Ultra-Low-Cost 24/7 AI Agent

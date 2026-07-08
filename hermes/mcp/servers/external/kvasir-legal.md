@@ -3,7 +3,7 @@ title: "Kvasir Legal MCP — EU Law Grounding for AI Agents"
 description: "Ground legal AI on verifiable German, Bavarian, and EU law with canonical objects, provenance tracking, and pinpoint citations. Compliance and legal research from any MCP client."
 category: mcp
 tags: [mcp-server, legal, compliance, eu-law, german-law, rag, regulatory]
-last_updated: 2026-07-02
+last_updated: 2026-07-08
 ---
 
 # Kvasir Legal MCP — EU Law Grounding

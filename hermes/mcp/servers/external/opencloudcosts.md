@@ -3,7 +3,7 @@ title: Opencloudcosts MCP Server Integration Guide
 description: Multi-cloud pricing for AI agents — AWS, GCP, Azure real-time pricing without credentials. Anchor AI FinOps to live cloud costs with Opencloudcosts MCP
 category: mcp
 tags: [mcp, opencloudcosts, finops, cloud, aws, gcp, azure, pricing, cost-optimization, hermes-agent]
-last_updated: 2026-06-28
+last_updated: 2026-07-08
 ---
 
 # Opencloudcosts MCP — Credentialless Cloud Pricing for Hermes Agent

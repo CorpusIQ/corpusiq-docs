@@ -3,7 +3,7 @@ title: MentionsAPI MCP Server Integration Guide
 description: Track brand mentions across AI platforms (ChatGPT, Claude, Gemini, Perplexity, Google AI) with MentionsAPI MCP server for Hermes Agent
 category: mcp
 tags: [mcp, mentionsapi, brand-monitoring, geo, ai-visibility, hermes-agent]
-last_updated: 2026-06-26
+last_updated: 2026-07-08
 ---
 
 # MentionsAPI MCP — AI Brand Monitoring for Hermes Agent

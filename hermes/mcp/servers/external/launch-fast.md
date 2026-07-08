@@ -3,7 +3,7 @@ title: "Launch Fast MCP — Amazon FBA Analytics for AI Agents"
 description: "Amazon seller analytics directly from any MCP client — product research, seller analytics, Brand Analytics, and ads diagnostics. Zero-setup remote MCP server for FBA operators."
 category: mcp
 tags: [mcp-server, amazon-fba, ecommerce, seller-tools, amazon-ads, product-research, keyword-research]
-last_updated: 2026-07-02
+last_updated: 2026-07-08
 ---
 
 # Launch Fast MCP — Amazon FBA Analytics

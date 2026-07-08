@@ -3,7 +3,7 @@ title: "Microsoft Planner MCP — Integration Guide"
 description: "Connect AI agents to Microsoft Planner for task management in Microsoft 365. Create plans, manage tasks, update buckets, and automate project workflows."
 category: mcp
 tags: [mcp-server, microsoft-planner, task-management, enterprise, microsoft-365, project-management]
-last_updated: 2026-07-03
+last_updated: 2026-07-08
 source: https://mcpservers.org
 source_repo: github.com/aixolotl/microsoft-planner-mcp
 ---

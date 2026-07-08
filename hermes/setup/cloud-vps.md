@@ -3,7 +3,7 @@ title: Cloud VPS Hermes Agent Setup  --  24/7 AI Agent for $5-20/month
 description: Deploy Hermes Agent on a cloud VPS for always-on AI automation. Step-by-step setup for Hetzner, DigitalOcean, AWS, Vultr. API-based models, systemd persistence, security hardening. $5/month budget deployment.
 category: setup
 tags: [cloud-vps, hermes-agent, setup-guide, hetzner, digitalocean, openrouter, systemd, 24/7-automation]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Cloud VPS Hermes Agent Setup  --  24/7 AI Agent for $5–20/Month

@@ -1,7 +1,7 @@
 ---
 title: IMAP/SMTP Email — OpenClaw Email Integration Setup Guide
 description: Setup guide for the imap-smtp-email skill — bring email reading and sending capabilities to your OpenClaw agent. IMAP for inbox access, SMTP for sending.
-last_updated: 2026-06-28
+last_updated: 2026-07-08
 ---
 
 # IMAP/SMTP Email — OpenClaw Email Integration

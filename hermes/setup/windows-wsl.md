@@ -3,7 +3,7 @@ title: Windows 11 WSL2 Hermes Agent Setup  --  Linux AI Agent on Windows
 description: Run Hermes Agent on Windows 11 with full Linux compatibility via WSL2. GPU passthrough for NVIDIA CUDA, native Ollama models, systemd persistence, and browser automation. Free if you already own a Windows PC.
 category: setup
 tags: [windows, wsl2, hermes-agent, setup-guide, nvidia, gpu-passthrough, ollama, linux-on-windows]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Windows 11 WSL2 Hermes Agent Setup  --  Linux AI Agent on Windows

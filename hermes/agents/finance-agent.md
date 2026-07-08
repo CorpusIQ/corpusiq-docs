@@ -8,7 +8,7 @@ tags:
   - invoice-processing
   - reconciliation
   - ai-finance-assistant
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Hermes Finance Agent  --  Autonomous Accounting & Financial Reconciliation

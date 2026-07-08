@@ -1,7 +1,7 @@
 ---
 title: Automation Scripts
 description: Utility scripts for ecosystem discovery, agent stack installation, and submission processing
-last_updated: 2026-06-25
+last_updated: 2026-07-08
 ---
 
 # Automation Scripts

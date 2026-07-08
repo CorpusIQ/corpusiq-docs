@@ -1,7 +1,7 @@
 ---
 title: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem — 140+ repos, tools, skills, and integrations
-last_updated: 2026-07-03
+last_updated: 2026-07-08
 ---
 
 # Hermes Ecosystem Directory

@@ -3,7 +3,7 @@ title: Cron Design Best Practices for Hermes Agent  --  Reliable Scheduled Autom
 description: Production-grade cron design for Hermes Agent scheduled automation. Idempotency, error handling with retry/backoff, rate limiting, monitoring, delivery targets, and anti-patterns. Build crons that don't fail silently.
 category: best-practices
 tags: [hermes-agent, cron-design, scheduled-automation, idempotency, error-handling, monitoring, rate-limiting]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 ---
 
 # Cron Design Best Practices  --  Reliable Scheduled Automation

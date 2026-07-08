@@ -1,7 +1,7 @@
 ---
 title: Ecosystem Data
 description: Discovery data, repository approvals, and inclusion criteria for the Hermes ecosystem
-last_updated: 2026-06-25
+last_updated: 2026-07-08
 ---
 
 # Ecosystem Data

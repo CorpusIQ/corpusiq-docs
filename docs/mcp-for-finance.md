@@ -3,7 +3,7 @@ title: "MCP for Finance: AI-Powered Data Access for Finance Teams | CorpusIQ"
 description: "How finance teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access without coding."
 category: MCP Education
 tags: ["MCP for finance", "finance AI analytics", "AI for finance teams", "connect business data to ChatGPT", "no-code AI business intelligence", "finance data integration"]
-last_updated: 2026-06-16
+last_updated: 2026-07-08
 canonical: https://www.corpusiq.io/docs/mcp-for-finance
 robots: index,follow
 ---

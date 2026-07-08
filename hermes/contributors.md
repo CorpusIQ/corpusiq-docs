@@ -1,7 +1,7 @@
 ---
 title: Ecosystem Contributors
 description: Community contributors to the Hermes Ecosystem Directory
-last_updated: 2026-07-03
+last_updated: 2026-07-08
 ---
 
 # Ecosystem Contributors
