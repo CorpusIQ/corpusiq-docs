@@ -11,6 +11,8 @@ Track every Hermes Agent release. New versions are auto-detected and documented 
 
 | Version | Date | Name | Highlights |
 |---------|------|------|------------|
+| [v0.18.2](/hermes/changelog/v0.18.2/) | July 7, 2026 | WhatsApp Baileys Fix | Unpins WhatsApp Baileys bridge from git commit to published npm 7.0.0-rc13, fixing Docker builds |
+| [v0.18.1](/hermes/changelog/v0.18.1/) | July 7, 2026 | Infrastructure Patch | ~660 PR roll-up since v0.18.0: installer self-healing, dashboard/gateway fixes, WhatsApp pairing, MCP/provider fixes, stability hardening |
 | [v0.18.0](/hermes/changelog/v0.18.0/) | July 1, 2026 | The Judgment Release | P0/P1 clean sweep (100% resolved), Mixture-of-Agents as first-class model, verification & completion contracts, `/learn` skill distillation, `/journey` learning timeline, desktop coding Projects, background fan-out, scale-to-zero gateway, Google Vertex AI, security hardening |
 | [v0.17.0](/hermes/changelog/v0.17.0/) | June 19, 2026 | The Reach Release | iMessage via Photon, Raft agent network, background subagents, image editing, Automation Blueprints, desktop overhaul, Skills Hub rehaul, WhatsApp, Telegram rich text |
 | [v0.16.0](/hermes/changelog/v0.16.0/) | June 5, 2026 | The Surface Release | Desktop app, remote gateway, web admin panel, fuzzy model picker, `/undo`, 简体中文, leaner skills, NVIDIA/skills tap |
