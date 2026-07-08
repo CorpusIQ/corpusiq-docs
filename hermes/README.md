@@ -8,7 +8,7 @@ tags:
   - production-deployment
   - ai-agent-architecture
   - mcp-ecosystem
-last_updated: 2026-07-01
+last_updated: 2026-07-08
 ---
 
 <p align="center">
@@ -23,7 +23,7 @@ last_updated: 2026-07-01
 
 <p align="center">
   <a href="https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml"><img src="https://img.shields.io/badge/Submit_a_Repo-Add_your_resource-brightgreen" alt="Submit"></a>
-  <a href="https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/ecosystem.md"><img src="https://img.shields.io/badge/Ecosystem-440+_repos-blue" alt="Ecosystem"></a>
+  <a href="https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/ecosystem.md"><img src="https://img.shields.io/badge/Ecosystem-670+_repos-blue" alt="Ecosystem"></a>
   <a href="https://github.com/CorpusIQ/corpusiq-docs"><img src="https://img.shields.io/badge/Star_us-Contribute-gold" alt="Star"></a>
 </p>
 
@@ -182,7 +182,7 @@ Model Context Protocol (MCP) servers extend Hermes with structured tools.
 
 | Resource | Description |
 |----------|-------------|
-| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Core project (202K+ stars) |
+| [Hermes Agent](https://github.com/NousResearch/hermes-agent) | Core project (211K+ stars) |
 | [Official Docs](https://hermes-agent.nousresearch.com/docs/) | Installation, CLI, gateway, tools, skills |
 | [Discord](https://discord.gg/NousResearch) | Community support |
 
@@ -197,7 +197,7 @@ Model Context Protocol (MCP) servers extend Hermes with structured tools.
 | [mission-control](https://github.com/builderz-labs/mission-control) | 3.7K+ | Multi-agent fleet management |
 | [Hermes Agency](https://github.com/DeployFaith/Hermes_Agency) | — | P2P agent collaboration |
 
-**[Full ecosystem directory](ecosystem.md)** — 440+ repos indexed across 18 categories, updated daily. 301+ MCP servers catalogued.
+**[Full ecosystem directory](ecosystem.md)** — 670+ repos indexed across 18 categories (139 approved, 531 pending review), updated daily. 93 skills catalogued, 190+ tools indexed.
 
 ---
 
