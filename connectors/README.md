@@ -23,13 +23,13 @@ we'll say so on its page and explain why.
 
 - [Shopify](shopify.md)
 - [eBay](ebay.md)
-- [Amazon Seller](amazon-seller.md)
+- [Amazon Seller](amazon_seller.md)
 - [GunBroker](gunbroker.md)
 
 ### Advertising
 
-- [Google Ads](google-ads.md)
-- [Meta Ads](meta-ads.md) (Facebook + Instagram)
+- [Google Ads](google_ads.md)
+- [Meta Ads](facebook_marketing.md) (Facebook + Instagram)
 - [TikTok](tiktok.md)
 
 ### Web + SEO
@@ -44,7 +44,7 @@ we'll say so on its page and explain why.
 
 - [Klaviyo](klaviyo.md)
 - [Mailchimp](mailchimp.md)
-- [Constant Contact](constant-contact.md)
+- [Constant Contact](constantcontact.md)
 - [ActiveCampaign](activecampaign.md)
 - [PostScript](postscript.md)
 
@@ -55,8 +55,8 @@ we'll say so on its page and explain why.
 
 ### Productivity
 
-- [Google Workspace](google-workspace.md) (Gmail + Calendar + Drive + Sheets)
-- [Microsoft 365](microsoft.md) (Outlook + Calendar + OneDrive)
+- [Google Workspace](google_workspace.md) (Gmail + Calendar + Drive + Sheets)
+- [Microsoft 365](outlook.md) (Outlook + Calendar + OneDrive)
 - [Dropbox](dropbox.md)
 - [Slack](slack.md)
 - [Calendly](calendly.md)
@@ -69,7 +69,7 @@ we'll say so on its page and explain why.
 
 ### Databases (technical)
 
-- [PostgreSQL / MSSQL / MongoDB / Cosmos DB](databases.md)
+- [PostgreSQL](postgres.md) · [MSSQL](mssql.md) · [MongoDB](mongodb.md) · [Cosmos DB](cosmosdb.md)
 
 ## How to connect any of them
 

@@ -12,7 +12,7 @@ Hermes Agent runs on everything from a $50 Raspberry Pi to a $20,000 DGX worksta
 
 ## Overview
 
-**Don't overthink it.** If you're just getting started, use whatever machine you already have  --  a MacBook, a Windows desktop, or even a $5/month VPS. Hermes Agent is designed to be provider-agnostic and hardware-flexible. You can always migrate later to a different [setup platform](index.md#hardware-comparison).
+**Don't overthink it.** If you're just getting started, use whatever machine you already have  --  a MacBook, a Windows desktop, or even a $5/month VPS. Hermes Agent is designed to be provider-agnostic and hardware-flexible. You can always migrate later to a different [setup platform](#hardware-comparison).
 
 ## How It Works
 

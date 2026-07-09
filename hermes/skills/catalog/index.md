@@ -142,7 +142,7 @@ After installation, configure any required connectors. Most skills include a set
 
 The skills catalog thrives on community contributions. If you've built something useful:
 
-1. Follow the [skill development best practices](../best-practices/skill-development.md)
+1. Follow the [skill development best practices](../../best-practices/skill-development.md)
 2. Test thoroughly in your environment
 3. Document setup, invocation, and expected output
 4. Remove environment-specific values (use placeholders)
@@ -160,7 +160,7 @@ The catalog here represents community-validated skills. Additional skills are di
 - **[skilldock.io](https://skilldock.io)**  --  Enterprise-focused skill marketplace
 - **GitHub**  --  Search for "hermes-skill" or "hermes-skill-" prefixed repositories
 
-See [Skill Marketplaces](../skills/skill-marketplaces.md) for detailed guidance on each marketplace.
+See [Skill Marketplaces](../skill-marketplaces.md) for detailed guidance on each marketplace.
 
 The catalog is a living resource. Skills are added weekly. Check back often, and consider contributing what you build.
 
