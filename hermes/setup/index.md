@@ -102,6 +102,9 @@ Choose your hardware:
 Once Hermes Agent is running, add capabilities:
 
 - **[MCP Integration](/hermes/mcp/)**  --  Connect to Gmail, Slack, databases, and 37+ platforms
+- **[CorpusIQ MCP Setup](corpusiq-mcp.md)**  --  Connect 37+ business tools to Hermes in 5 minutes
+- **[CorpusIQ Cron Patterns](corpusiq-cron-patterns.md)**  --  Autonomous business monitoring with Hermes + CorpusIQ
+- **[CorpusIQ Troubleshooting]( /hermes/troubleshooting/corpusiq.md)**  --  Token refresh, 401 errors, fork restrictions
 - **[Cron Scheduling](/hermes/governance/scheduling/)**  --  Schedule autonomous tasks with [cron design best practices](/hermes/best-practices/cron-design.md)
 - **[Skills Marketplace](/hermes/skills/)**  --  Add community-built capabilities and [create custom skills](/hermes/skills/creating-skills.md)
 - **[Memory Architecture](/hermes/knowledge/)**  --  Honcho, GBrain, memcore-cloud triple stack
