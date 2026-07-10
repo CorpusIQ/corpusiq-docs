@@ -39,7 +39,7 @@ Here's the definitive map of what's available and where to find everything.
 
 We maintain the largest structured collection of Hermes resources on GitHub: 670+ repos indexed, 93 skills catalogued, 190+ tools documented. Everything cross-referenced with setup guides and deployment patterns.
 
-[Browse the repo →](https://github.com/NousResearch/hermes-agent)
+[Browse the hub →](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)
 
 ## What you can build
 

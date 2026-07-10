@@ -43,7 +43,7 @@ That's it. 37+ tools available to your agent. No SDK. No custom integration code
 
 CorpusIQ maintains the largest Hermes Agent resource hub on GitHub: 670+ repos, 93 skills, 190+ tools. All open. All documented.
 
-[github.com/NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+[github.com/CorpusIQ/corpusiq-docs/tree/main/hermes](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)
 
 ---
 
