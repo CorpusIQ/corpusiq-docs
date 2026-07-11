@@ -30,7 +30,7 @@ The largest collection of AI agents on the internet. 232 specialized agents acro
 | Growth | 2 | Growth hacking, conversion optimization |
 | Executive | 1 | CEO/Founder strategic advisor |
 
-**One command install:** `curl -sL corpusiq.io/install | bash`
+**Get started:** [corpusiq.io](https://www.corpusiq.io)
 
 ## The Data Layer: CorpusIQ
 
