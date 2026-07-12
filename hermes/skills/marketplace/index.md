@@ -7,7 +7,7 @@ description: Discover and install community skills from skills.sh  --  290+ cura
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**492+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**501+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## How to Discover Skills
 
@@ -158,6 +158,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 - [🆕 July 4, 2026 — agent-sessions (683⭐), Hermes ArXiv Agent + 22 more (24 repos, 5 setup guides)](/hermes/skills/marketplace/new-july4-2026/)
 - [🆕 July 4, 2026 (Update) — hermes-top Dashboard, Neo Theme, Backup Script, AGEL-Comp Safety (5 repos, 4 setup guides)](/hermes/skills/marketplace/new-july4-2026-update/)
 - [🆕 July 4, 2026 (Update 2) — Hermes Idea Workflow Suite, OpenClaw Tooling (3 repos, 6 skills)](/hermes/skills/marketplace/new-july4-2026-update2/)
+- [🆕 July 12, 2026 — OpenClaw Plugin Testing, Skill Distribution Utility, WeChat/Solana Integrations (7 repos, 9 skills, 1 setup guide)](/hermes/skills/marketplace/new-july12-2026/)
 - [🆕 July 3, 2026 — Hermex iPhone App (286⭐), Crypto Radar, Agent Memory Stack (7 repos, 7 tools, 1 setup guide)](/hermes/skills/marketplace/new-july3-2026/)
 - [🆕 July 3, 2026 (Update) — Hybrid Memory Plugin, MCP ChatGPT Bridge, MoA Synthesis + 3 more (6 repos, 1 setup guide)](/hermes/skills/marketplace/new-july3-2026-update/)
 - [🆕 July 2, 2026 — Hermes Browser Extension + OpenClaw on Android (2 repos, 2 skills, 2 setup guides)](/hermes/skills/marketplace/new-july2-2026/)
@@ -217,7 +218,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 561+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 570+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 
