@@ -19,8 +19,8 @@ Strategy for mass-publishing affiliate program landing pages across 100+ languag
 
 ## Related Skills
 
-- [CorpusIQ Autonomous Growth Agent](/hermes/skills/growth-operations/corpusiq-autonomous-growth-agent/)
-- [Worldwide Platform Promotion](/hermes/skills/growth-operations/worldwide-platform-promotion/)
+- [SKILL.md — Complete Definition](/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/SKILL.md)
+- [Growth Operations](/hermes/skills/growth-operations/)
 
 ---
 

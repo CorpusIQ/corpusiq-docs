@@ -1,3 +1,8 @@
+---
+title: "How to Add CorpusIQ MCP to Hermes Agent"
+description: "Connect CorpusIQ MCP to Hermes Agent — query business data from 37+ tools directly through your AI assistant. Step-by-step setup guide."
+---
+
 # How to Add CorpusIQ MCP to Hermes Agent
 
 Hermes Agent can use CorpusIQ as an MCP server to query business data from 37+ tools. Here's how.

@@ -1,3 +1,8 @@
+---
+title: "Running CorpusIQ Cron Jobs — Autonomous Business Monitoring"
+description: "Patterns for running CorpusIQ cron jobs with Hermes Agent — daily KPI reports, AR aging alerts, anomaly detection, and multi-client agency reporting."
+---
+
 # Running CorpusIQ Cron Jobs — Autonomous Business Monitoring
 
 CorpusIQ connects business data to Hermes Agent. Combine with cron jobs for autonomous monitoring.
