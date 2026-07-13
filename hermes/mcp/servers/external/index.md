@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 12, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 13, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -311,6 +311,9 @@ US location intelligence: crime safety scores, recent incidents, neighborhood de
 ### HTAG Property Intelligence MCP ★ Official ★ New
 Australian property intelligence, H3 spatial intelligence, and capability discovery  --  70+ read-only tools over Streamable HTTP. Public connectors for real estate operators, investors, and property analysts. Official HTAG integration.
 
+### AppAmbit MCP ★ New (July 13)
+All-in-one mobile app platform via MCP — analytics, crash reporting, build distribution, managed databases, serverless functions, and CMS. 10 GitHub stars. First comprehensive mobile development MCP server. Essential for mobile app operators who want AI-driven product operations across the full mobile lifecycle. [Integration Guide](/hermes/mcp/servers/external/appambit-mcp/)
+
 ### Remote Jobs MCP ★ New (Jobicy)
 Autonomous remote job search  --  AI tools can search, filter, and retrieve the latest remote job listings in real-time via public Jobicy MCP server. Useful for recruitment agents and talent operations.
 
@@ -329,6 +332,12 @@ Keyword, vector, hybrid, and SQL retrieval over data on object storage, for AI a
 ---
 
 ## Content & Research
+
+### AI Localization Agent MCP ★ New (July 13)
+Stop wasting AI tokens on localization. MCP server by l10n.dev connecting AI agents to dedicated translation infrastructure. 3 GitHub stars. Essential for operators managing multi-language content who want AI-driven localization without burning LLM tokens. [Integration Guide](/hermes/mcp/servers/external/ai-localization-agent/)
+
+### Horizon AI Intelligence MCP ★ New (July 13)
+Free AI-industry intelligence for agents — briefings, regulation tracker, and regional lenses. By system-alchemist. Essential for operators tracking AI policy changes, competitive intelligence, and regional compliance requirements. [Integration Guide](/hermes/mcp/servers/external/horizon-mcp/)
 
 ### Crustdata MCP ★ New (July 4)
 Real-time B2B company and people intelligence for AI agents. Connects to 15+ live data sources — search companies, find and enrich people and contacts, run job and social-post searches, and set up watchers that monitor accounts and people for changes across 1B+ people and 100M+ companies. Essential for sales operators, recruiters, and business researchers who need live B2B intelligence in their AI workflows.
@@ -447,6 +456,12 @@ Explore traditional folk music using data from The Session. Search tunes, record
 ---
 
 ## Commerce & E-Commerce
+
+### HTML Pub MCP ★ New (July 13)
+Publish AI-generated HTML to a live page on your own domain — MCP server by Leadpages. Remote endpoint at `mcp.htmlpub.com/mcp`. First major martech company (Leadpages) shipping an MCP server for content publishing. Essential for operators who want AI agents to create and deploy landing pages, announcements, and microsites without touching a CMS. [Integration Guide](/hermes/mcp/servers/external/htmlpub-mcp/)
+
+### Toolzy MCP ★ New (July 13)
+French tool rental marketplace via MCP — search and rent tools between individuals (particuliers). Finance & Commerce category. Niche regional — relevant for French-market operators in the sharing economy.
 
 ### Ecoexperten Energieausweis ★ New (July 4)
 Order official energy performance certificates (Energieausweis, § 82 GEG) for residential buildings in Germany — directly from chat. The registered certificate (DIBt number) arrives by e-mail as PDF within 1 business day. Essential for German property operators, real estate agents, and landlords who need regulatory energy certificates through automated AI workflows.
@@ -570,6 +585,12 @@ AI legal counsel research MCP — frontier-lab commercial commitments, safety-fr
 
 ## Development & Infrastructure
 
+
+### Bothread MCP ★ New (July 13)
+Local room where AI coding agents collaborate on one codebase via MCP — collisions prevented, human in command. By AdamACE9. Developer tool for multi-agent coding workflows.
+
+### ResolveMesh Compatibility Intelligence MCP ★ New (July 13)
+Hosted ResolveMesh compatibility MCP server — read-only, source-backed compatibility lookups for AI agents. By mo-sharif. AI & Agents category.
 
 ### Agent Coherence MCP ★ New (July 12)
 Stop AI agents from silently overwriting shared files — TLA+-verified coherence guard for multi-agent systems. Essential for platform operators running multiple agents on shared infrastructure. [Integration Guide](/hermes/mcp/servers/external/agent-coherence-mcp/)
