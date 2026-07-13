@@ -3763,5 +3763,229 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-04T08:03:41.777425+00:00"
+  },
+  {
+    "repo": "simpleace15/hermes-ha-addon",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378327+00:00"
+  },
+  {
+    "repo": "Leisure-Auf1/Terence-Agent",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378330+00:00"
+  },
+  {
+    "repo": "SouthpawIN/agent-wiki",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378332+00:00"
+  },
+  {
+    "repo": "andre-ani/hermes-companion",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378334+00:00"
+  },
+  {
+    "repo": "torque60/ollama-hermes-docker",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378336+00:00"
+  },
+  {
+    "repo": "given33/hermes-ios",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378338+00:00"
+  },
+  {
+    "repo": "jeongu0569-ui/Codmes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378340+00:00"
+  },
+  {
+    "repo": "gitychzh/NVForge",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378341+00:00"
+  },
+  {
+    "repo": "leemind-q/hermes-browser",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378343+00:00"
+  },
+  {
+    "repo": "kathesama/vrm-ia-maker",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378344+00:00"
+  },
+  {
+    "repo": "solomon2773/nora",
+    "score": 68,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378346+00:00"
+  },
+  {
+    "repo": "ferangarita01/MetaTraderHec",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378348+00:00"
+  },
+  {
+    "repo": "nobulart/octane-mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378350+00:00"
+  },
+  {
+    "repo": "CorpusIQ/corpusiq-docs",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-13T05:06:56.378351+00:00"
+  },
+  {
+    "repo": "LaiTszKin/fabricium",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378353+00:00"
+  },
+  {
+    "repo": "hermes-jarvis-bot/hermes-agent-config-kit",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378355+00:00"
+  },
+  {
+    "repo": "junagent/hermes-plugin-installer",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378357+00:00"
+  },
+  {
+    "repo": "junagent/hermes-quant-plugin",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378358+00:00"
+  },
+  {
+    "repo": "babylonagent/soulchain-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378360+00:00"
+  },
+  {
+    "repo": "tiendv89/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378362+00:00"
+  },
+  {
+    "repo": "robertoamoreno/codegraph-team-server",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378364+00:00"
+  },
+  {
+    "repo": "mogilventures/mogil-bench",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378366+00:00"
+  },
+  {
+    "repo": "Rhymer-Lcy/hermes-quant",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378367+00:00"
+  },
+  {
+    "repo": "jitendraravi/Hermes-Polymarket-AI",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378369+00:00"
+  },
+  {
+    "repo": "ai-integr8tor/NousResearch-hermes-paperclip-adapter",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378371+00:00"
+  },
+  {
+    "repo": "mengbo/docker-hermes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378372+00:00"
+  },
+  {
+    "repo": "theodury/hermes-agent-k8s",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378374+00:00"
+  },
+  {
+    "repo": "shagghiesuperstar/hermes-master-ref-maintained",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378376+00:00"
+  },
+  {
+    "repo": "WeLikeCode/Hermes-Agent-Helm",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378377+00:00"
+  },
+  {
+    "repo": "HaroPad-Hermes/hermes-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378379+00:00"
+  },
+  {
+    "repo": "Swarm-Agent-Aggregator/Swarm-Network-Hermes",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378381+00:00"
+  },
+  {
+    "repo": "Tuxmint-Open-Source/hermes-team-policy-template",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-13T05:06:56.378383+00:00"
   }
 ]
