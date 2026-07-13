@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 4, 2026 (evening) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 12, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -100,6 +100,14 @@ AI agents that automate bookkeeping and financial close for SMBs. Streamable HTT
 ### Aikount Mcp ★ New (June 28)
 Spanish accounting (contabilidad) for AI agents — issue invoices, OCR expense PDFs into deduplicated purchases, reconcile bank movements, and prepare quarterly VAT returns (Modelo 303) over REST API. For autónomos and SMEs in Spain. Essential for operators in Spanish/LATAM markets who want AI-driven accounting automation with local tax compliance.
 
+
+### Seiche — US Money Market Stress Testing MCP ★ New (July 12)
+Free open source funding stress terminal for US money markets. 22 engines, honest backtests, zero data cost using Fed/NY Fed/OFR/Treasury public APIs. AGPL-3.0. Essential for treasury operators and financial risk analysts. `github.com/beepboop2025/seiche` · [Integration Guide](/hermes/mcp/servers/external/seiche-finance-mcp/)
+
+### Financial News MCP ★ New (July 12)
+Real-time financial news for AI agents — search by ticker, source, and language with sentiment analysis and entity extraction. Essential for operators who need live market context alongside portfolio data. [Integration Guide](/hermes/mcp/servers/external/financial-news-mcp/)
+
+
 ### AI2Fin Tax MCP ★ New (July 3)
 ### OilPriceAPI MCP ★ New (July 4)
 Real-time oil, gas, and commodity prices for AI agents. The commodity-data MCP server behind fintech dashboards, fleet & logistics tools, and maritime compliance platforms — same API serves 2M+ requests every month. Essential for operators in energy, logistics, and commodities trading who need live pricing data in their AI workflows. `github.com/OilpriceAPI/mcp-server` ⭐3
@@ -133,8 +141,23 @@ Company formation, bank accounts, cards, invoices, and payments  --  all directl
 ### Legal Doc Intelligence ★ New
 AI-powered legal document analysis, contract review, and compliance checking — extract clauses, assess risk, and verify regulatory alignment
 
+### Substack Publisher MCP ★ New (July 12)
+Queries Substack posts, engagement analytics, subscriber counts, and publications through the official Publisher API. Essential for content operators running newsletter-first businesses who want AI-driven analytics. [Integration Guide](/hermes/mcp/servers/external/substack-publisher-mcp/)
+
+### CrustAPI MCP — Live Google Search ★ New (July 12)
+MCP server for CrustAPI — live Google Search, Maps, News, Images, and Reviews. Pay-per-result pricing (no subscription). Essential for operators who need occasional live web intelligence without ongoing costs. [Integration Guide](/hermes/mcp/servers/external/crustapi-mcp/)
+
+
 ### GoldLegal Legal Compliance API ★ New
 AI legal compliance  --  contract review, ad law check, risk scoring, EU AI Act compliance, China AI regulation, AI content watermark check. MCP-over-HTTP with 6 tools. Hosted on Alibaba Cloud FC. Built-in compliance standards for global operators.
+
+
+### EU Textile Sustainability MCP ★ New (July 12)
+Free search engine for EU textile sustainability law — ESPR, DPP, CSRD, CBAM, CWA 18291. Remote MCP server, no API key. Essential for operators in fashion/textile who need AI-accessible regulatory intelligence.
+
+### shieldly-io — AWS Security Analysis MCP ★ New (July 12)
+AI-Powered Security Analysis for AWS — official MCP server. Analyze IAM policies and CloudFormation templates from any MCP client. Essential for DevOps operators needing shift-left security analysis. [Integration Guide](/hermes/mcp/servers/external/shieldly-aws-mcp/)
+
 
 ### Personal Finance MCP Server ★ New
 Personal finance calculations in the Claude ecosystem. Guide users through compound interest, loan amortization, retirement planning, tax estimation, and budgeting. Ideal for operators who want AI-driven personal finance alongside business tools.
@@ -546,6 +569,23 @@ AI legal counsel research MCP — frontier-lab commercial commitments, safety-fr
 ---
 
 ## Development & Infrastructure
+
+
+### Agent Coherence MCP ★ New (July 12)
+Stop AI agents from silently overwriting shared files — TLA+-verified coherence guard for multi-agent systems. Essential for platform operators running multiple agents on shared infrastructure. [Integration Guide](/hermes/mcp/servers/external/agent-coherence-mcp/)
+
+### Selenium MCP ★ New (July 12)
+Selenium MCP server for AI agents — 39 browser automation tools with page snapshots, selector hints, multi-session, and batched execution. Essential for operators needing enterprise-grade browser automation.
+
+### MCP Time Server ★ New (July 12)
+Zero-dependency clock + drift guard for Claude Desktop, Claude Code, and claude.ai. Local, remote, and hook flavors. Small but essential for time-sensitive agent workflows.
+
+### E2LLM / SiFR Browser MCP ★ New (July 12)
+Structured perception (SiFR) plus browser action — gives AI agents eyes and hands in a real browser, working with the AI you already use.
+
+### Prompt Improver MCP ★ New (July 12)
+Hosted MCP server that turns rough requests into sharp Role/Task/Context/Format prompts. Thai + English. Essential for operators who want consistent, high-quality agent outputs.
+
 
 ### nuzur ★ New (July 4)
 Database change safety for AI agents — AI agents propose database schema and data changes as reviewable requests before anything is applied. No direct write access. Works with Claude Code, Cursor, and any MCP client. Essential for operators who want AI to help with database work but need human-in-the-loop approval gates before any schema or data mutations.
@@ -2178,6 +2218,18 @@ Full details: [scan-results-2026-07-02-update.md](/hermes/mcp/servers/external/s
 ---
 
 ## New This Week (July 1, 2026 — PM evening sweep)
+
+
+## New This Week (July 12, 2026 — mcp.so/feed sweep)
+
+14 new business-relevant MCP servers from the mcp.so/feed. GitHub and mcpservers.org were unavailable (API rate-limiting, SPA client-rendering). Full scan report: [scan-results-2026-07-12.md](/hermes/mcp/servers/external/scan-results-2026-07-12/)
+
+**Integration guides created (6):** Substack Publisher, Financial News, Seiche Finance, shieldly-io AWS Security, CrustAPI Live Search, Agent Coherence
+
+**Index-only additions (8):** EU Textile Sustainability, Selenium MCP, MCP Time Server, E2LLM/SiFR Browser, Prompt Improver, HelpScout-ProductLift Triangulator, BreckenWander Travel, deman-maker MCP Marketplace
+
+**Trends:** Financial data MCPs accelerating (2 new), compliance MCPs emerging (2 new), agent governance maturing (Agent Coherence, Human-in-the-loop), live search category expanding (CrustAPI).
+
 
 ### 5 new servers from GitHub API (topic:mcp-server created >2026-07-01T12:00)
 
