@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 13, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 14, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -314,6 +314,12 @@ Australian property intelligence, H3 spatial intelligence, and capability discov
 ### AppAmbit MCP ★ New (July 13)
 All-in-one mobile app platform via MCP — analytics, crash reporting, build distribution, managed databases, serverless functions, and CMS. 10 GitHub stars. First comprehensive mobile development MCP server. Essential for mobile app operators who want AI-driven product operations across the full mobile lifecycle. [Integration Guide](/hermes/mcp/servers/external/appambit-mcp/)
 
+### AI Visibility Analytics MCP ★ New (July 14)
+Brand visibility monitoring across 15+ AI providers (ChatGPT, Perplexity, Gemini, AI Overviews). MCP connector runs scans, compares competitor mentions, and tracks brand presence in AI-generated responses. Essential for marketing operators and brand managers navigating the AI search era. · [Integration Guide](/hermes/mcp/servers/external/ai-visibility-analytics/)
+
+### SaaS and AI Pricing API MCP ★ New (July 14)
+Free REST API and MCP server for verified SaaS, AI, and LLM pricing across 490+ tools. OpenAPI 3.1, no API key required. Gives AI agents structured access to the pricing landscape. Essential for operators in procurement, vendor research, and tool stack evaluation. · [Integration Guide](/hermes/mcp/servers/external/saas-pricing-mcp/)
+
 ### Remote Jobs MCP ★ New (Jobicy)
 Autonomous remote job search  --  AI tools can search, filter, and retrieve the latest remote job listings in real-time via public Jobicy MCP server. Useful for recruitment agents and talent operations.
 
@@ -527,6 +533,12 @@ Give AI agents their own local mailbox to read, send, and triage email via MCP. 
 
 ## Compliance & Regulatory
 
+### Threat Modeling and Security Scanning MCP ★ New (July 14)
+Threat modeling, code, cloud and pipeline scanning, shadow-AI discovery, compliance checks and fixes from your AI assistant. Overlaps with SaferAgenticAI. INDEX ONLY.
+
+### Quality Clouds Hub MCP ★ New (July 14)
+AI code governance rules injected into Cursor, Claude Code and other MCP clients at generation time. Overlaps with vrules. INDEX ONLY.
+
 ### VerityLayer ★ New (July 4)
 Fail-closed verify-before-you-act trust gate for AI agents. 5 tools: verify_fact, detect_injection, moderate_content, redact_pii, guard_action. Keyless, pay-per-call via x402 (USDC on Base); every verdict ships an Ed25519-signed receipt. Run: `npx -y @veritylayer/mcp`. Essential for operators deploying AI agents in production who need cryptographic proof of safety checks before agent actions execute.
 
@@ -591,6 +603,24 @@ Local room where AI coding agents collaborate on one codebase via MCP — collis
 
 ### ResolveMesh Compatibility Intelligence MCP ★ New (July 13)
 Hosted ResolveMesh compatibility MCP server — read-only, source-backed compatibility lookups for AI agents. By mo-sharif. AI & Agents category.
+
+### LLM Observability MCP (LangTrace) ★ New (July 14)
+Open source LLM observability and monitoring. Drop-in proxy for OpenAI, Anthropic, and Gemini with request logging, cost tracking, and agent tracing. Self-host with one Docker command. MIT license. Essential for operators running AI agents in production who need cost controls and debugging. · [Integration Guide](/hermes/mcp/servers/external/llm-observability-mcp/)
+
+### ClassQuill MCP ★ New (July 14)
+Read-only access to tutoring-business data (sessions, students, tutors, invoices, payments, reports) for Claude, Codex, Cursor. Education niche. INDEX ONLY.
+
+### Microphone and Speech-to-Text MCP ★ New (July 14)
+Give AI agents the ability to listen — microphone capture and speech-to-text tools for MCP-compatible agents. Agent infrastructure. INDEX ONLY.
+
+### Writing Style Checker (WSC) MCP ★ New (July 14)
+Prose linter and AI-slop detector: weasel words, passive voice, hedging, and 190+ research-cited AI tells. Web editor, API, MCP server, CLI, GitHub Action. Content quality. INDEX ONLY.
+
+### Floot MCP ★ New (July 14)
+Build and host full-stack apps with your own AI. Connect the Floot MCP server to Claude, Cursor, ChatGPT, and any MCP client. Development platform. INDEX ONLY.
+
+### URL Capture MCP ★ New (July 14)
+URL to PNG/JPEG/PDF capture API plus MCP server for AI agents. Playwright plus Fastify, deploy-ready on Fly.io. INDEX ONLY.
 
 ### Agent Coherence MCP ★ New (July 12)
 Stop AI agents from silently overwriting shared files — TLA+-verified coherence guard for multi-agent systems. Essential for platform operators running multiple agents on shared infrastructure. [Integration Guide](/hermes/mcp/servers/external/agent-coherence-mcp/)
@@ -893,6 +923,9 @@ MCP server for AI agent data flow orchestration. Connect AI agents to data pipel
 ### Founders OS ★ New (July 4)
 Open-source MCP server that puts your whole business inside Claude, Cursor, or any MCP client. Connects CRM, financials, tasks, and long-term memory behind one server, so you can ask a single question that reads across all of them. Example: "Which clients are behind on payments and what tasks do I have with them?" ⭐7. Essential for founders and small business operators who want a unified AI interface to their entire business. `github.com/OurThinkTank/founders-os`
 
+### Coding Agent Project Management MCP ★ New (July 14)
+Project management for coding agents — bugs, features, sprints, cross-tenant contracts. 71 MCP tools purpose-built for operators orchestrating AI-assisted development workflows across multiple agents and projects. Essential for engineering managers and agencies running AI coding agents at scale. · [Integration Guide](/hermes/mcp/servers/external/coding-agent-pm-mcp/)
+
 ### RadMail ★ New (July 4)
 The email operating system for AI agents — searches your real inbox (sender/subject/content, ranked), surfaces a "Right Now" lane, tracks commitments, and drafts reviewable replies. No tool can auto-send money, change banking, or make irreversible decisions without human approval. Essential for operators drowning in email who want AI to triage, prioritize, and draft while keeping dangerous actions gated.
 
@@ -1192,6 +1225,12 @@ Free, open-source MCP server (57 tools) connecting Google Ads to Claude, Cursor,
 ### Google Search Console MCP (Open Source) ★ New (July 1 PM)
 Free, open-source MCP server (43 tools) connecting Google Search Console to Claude, Cursor, Windsurf, and any MCP client. Search analytics, indexing checks, cannibalization detection, and sitemap management via natural language. MIT license. Essential for SEO operators who want GSC data in their AI workflows without paid tools. `github.com/yusofansari/google-search-console-mcp`
 
+### Podcast Sponsorship Discovery MCP ★ New (July 14)
+Find brands that sponsor podcasts like yours, then reveal the buyer to pitch — by name and email. Detected from 4M+ podcast sponsorships, updated daily. Essential for sales and marketing operators who need direct lead generation from podcast advertising intelligence. · [Integration Guide](/hermes/mcp/servers/external/podcast-sponsorship-mcp/)
+
+### ShortsMonkey YouTube Outlier Research MCP ★ New (July 14)
+Find YouTube outliers, daily viral Shorts, and analyze video performance. Content strategy tool for video-focused operators. INDEX ONLY.
+
 ### Zooq ★ New
 LinkedIn data API and MCP server for AI agents. Public profiles, companies, and posts as clean JSON — no login, no cookies, no browser automation. 300 free credits on signup. Pay-as-you-go credit billing. Endpoint: `https://zooq.dev/api/mcp`. Essential for sales and recruiting operators who need LinkedIn intelligence.
 
@@ -1351,6 +1390,9 @@ AI content detection with naturalness scoring and AI-template pattern flagging. 
 ---
 
 ## Memory & Knowledge
+
+### Persistent Memory for Coding Assistants MCP ★ New (July 14)
+Persistent memory and cross-session learning for AI coding assistants. Cloud-based context management via MCP. Redundant category (3+ memory MCPs already catalogued). INDEX ONLY.
 
 ### Cortex Memory MCP ★ New (July 4)
 Structured memory layer for AI agents — persistent knowledge storage with retrieval and context management. Provides AI agents with long-term memory capabilities across sessions. Essential for operators building stateful AI agent workflows that require memory persistence.
