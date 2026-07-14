@@ -4246,5 +4246,96 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-14T07:07:25.312114+00:00"
+  },
+  {
+    "repo": "cstcen/argent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T08:09:52.606955+00:00"
+  },
+  {
+    "repo": "echoriver89/nowledge-mem-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T08:09:52.606958+00:00"
+  },
+  {
+    "repo": "ddddd-xy126/HERMES-AGENT",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T08:09:52.606960+00:00"
+  },
+  {
+    "repo": "yuluyangguang1/hermes-portable",
+    "score": 73,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-14T08:09:52.606962+00:00"
+  },
+  {
+    "repo": "fengjunlu618/catbox-skill",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T08:09:52.606963+00:00"
+  },
+  {
+    "repo": "fengjunlu618/imgbb-skill",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T08:09:52.606965+00:00"
+  },
+  {
+    "repo": "chpomob/hermes-quota-status",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T08:09:52.606967+00:00"
+  },
+  {
+    "repo": "eonewg/hermes-credential-switcher",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T08:09:52.606968+00:00"
+  },
+  {
+    "repo": "AgentAi-Leo/hermes-artifacts",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T08:09:52.606977+00:00"
+  },
+  {
+    "repo": "CorpusIQ/corpusiq-docs",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-14T08:09:52.606979+00:00"
+  },
+  {
+    "repo": "bitrouter/bitrouter",
+    "score": 72,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-14T08:09:52.606981+00:00"
+  },
+  {
+    "repo": "robbyslmt/ai-news-dashboard",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T08:09:52.606983+00:00"
+  },
+  {
+    "repo": "waefrebeorn/slermes",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T08:09:52.606985+00:00"
   }
 ]

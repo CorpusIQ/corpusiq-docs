@@ -16795,5 +16795,230 @@
     ],
     "discovered_at": "2026-07-14T07:05:36.354979+00:00",
     "status": "pending"
+  },
+  {
+    "name": "cstcen/argent",
+    "url": "https://github.com/cstcen/argent",
+    "description": "Argent - \u95ee\u8ff0\u79d1\u6280 AI \u52a9\u624b\uff0c\u57fa\u4e8e Hermes Agent \u6539\u9020",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-14T08:07:05Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-14T08:07:07.265879+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "echoriver89/nowledge-mem-hermes",
+    "url": "https://github.com/echoriver89/nowledge-mem-hermes",
+    "description": "Nowledge Mem plugin for Hermes Agent (flat structure, synced from nowledge-co/community/nowledge-mem-hermes)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-14T08:06:55Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-14T08:07:10.267811+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ddddd-xy126/HERMES-AGENT",
+    "url": "https://github.com/ddddd-xy126/HERMES-AGENT",
+    "description": "\u7231\u9a6c\u4ed5\u667a\u80fd\u4f53",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-14T08:06:45Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-14T08:07:13.270220+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "fengjunlu618/catbox-skill",
+    "url": "https://github.com/fengjunlu618/catbox-skill",
+    "description": "Hermes Agent skill: \u4e0a\u4f20\u6587\u4ef6\u5230 catbox.moe / litterbox \u56fe\u5e8a\uff0c\u514d key\uff0c\u7eaf\u6807\u51c6\u5e93",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-14T08:05:21Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-14T08:07:19.275054+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "fengjunlu618/imgbb-skill",
+    "url": "https://github.com/fengjunlu618/imgbb-skill",
+    "description": "Hermes Agent skill: \u4e0a\u4f20\u56fe\u7247\u5230 imgbb.com \u56fe\u5e8a\uff0c\u7eaf\u6807\u51c6\u5e93\uff0c\u514d pip \u4f9d\u8d56",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-14T08:05:19Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-14T08:07:22.277278+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "chpomob/hermes-quota-status",
+    "url": "https://github.com/chpomob/hermes-quota-status",
+    "description": "Hermes Agent plugin: real-time AI quota status for Claude, Codex, Gemini, GLM, DeepSeek",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-14T08:04:30Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-14T08:07:25.279485+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "eonewg/hermes-credential-switcher",
+    "url": "https://github.com/eonewg/hermes-credential-switcher",
+    "description": "Safe credential-pool priority switching for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-14T08:03:09Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-14T08:07:28.281612+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "AgentAi-Leo/hermes-artifacts",
+    "url": "https://github.com/AgentAi-Leo/hermes-artifacts",
+    "description": "Rendered artifacts generated by Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-14T08:02:13Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-14T08:07:31.284467+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "robbyslmt/ai-news-dashboard",
+    "url": "https://github.com/robbyslmt/ai-news-dashboard",
+    "description": "Daily AI news dashboard powered by Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-14T08:07:21Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-14T08:08:00.547643+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "waefrebeorn/slermes",
+    "url": "https://github.com/waefrebeorn/slermes",
+    "description": "\ud83c\udf3b Pure C11 reimplementation of Hermes Agent \u2014 no Python, no C++, no interpreter. Single native binary.",
+    "stars": 9,
+    "forks": 0,
+    "language": "C",
+    "topics": [
+      "ai-agent",
+      "c",
+      "c-port",
+      "c11",
+      "cli",
+      "gateway",
+      "hermes-agent",
+      "llm"
+    ],
+    "updated_at": "2026-07-14T08:06:05Z",
+    "category": "forks",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-14T08:08:03.550585+00:00",
+    "status": "pending"
   }
 ]

@@ -5,9 +5,9 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 # Hermes Ecosystem  --  Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 448+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 450+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** July 14, 2026 · **Repos indexed:** 448+ · **Categories:** 18
+> **Last updated:** July 14, 2026 · **Repos indexed:** 450+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -24,10 +24,10 @@ The most comprehensive directory of Hermes Agent resources in existence. 448+ re
 | [Memory & Knowledge](#-memory--knowledge) | 29 | [↓](#-memory--knowledge) |
 | [MCP & Integrations](#-mcp--integrations) | 33 | [↓](#-mcp--integrations) |
 | [Skills & Plugins](#-skills--plugins) | 69 | [↓](#-skills--plugins) |
-| [Tools & Utilities](#-tools--utilities) | 55 | [↓](#-tools--utilities) |
+|| [Tools & Utilities](#-tools--utilities) | 56 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
 | [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 26 | [↓](#-orchestration-multi-agent--swarms) |
-| [Deployment & Infrastructure](#-deployment--infrastructure) | 21 | [↓](#-deployment--infrastructure) |
+|| [Deployment & Infrastructure](#-deployment--infrastructure) | 22 | [↓](#-deployment--infrastructure) |
 | [Security & Governance](#-security--governance) | 6 | [↓](#-security--governance) |
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
 | [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
@@ -2340,6 +2340,17 @@ Free AI gateway: one endpoint, multiple models  --  unified API gateway providin
 
 ---
 
+### bitrouter/bitrouter
+⭐ **203** · `Rust` · [github.com/bitrouter/bitrouter](https://github.com/bitrouter/bitrouter)
+
+Context-aware agentic LLM gateway and router that optimizes agentic workflows with every run. Works with any harness (Hermes Agent, Claude Code, Codex, OpenCode), any model (OpenAI-compatible, Anthropic-compatible, LiteLLM), and any loop. Features ACP-native routing, agent observability, guardrails, and MCP integration — all in a high-performance Rust binary.
+
+**Maintainer:** [bitrouter](https://github.com/bitrouter)
+**Key capabilities:** LLM gateway, agentic routing, ACP-native, multi-harness, multi-model, agent observability, guardrails, MCP integration, Rust
+**Related:** [MCP Guide →](/hermes/mcp/) · [Orchestration →](#-orchestration-multi-agent--swarms)
+
+---
+
 ### ThinkInAIXYZ/deepchat
 ⭐ **6,023** · `TypeScript` · [github.com/ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat)
 
@@ -3187,6 +3198,16 @@ Desktop customization via Hermes  --  let your agent configure your Linux deskto
 ⭐ **0** · `Python` · [github.com/anomaliagent007-hue/hermes-mimo-bridge](https://github.com/anomaliagent007-hue/hermes-mimo-bridge)
 
 Production bridge between Hermes Agent and Xiaomi MiMo API  --  long-chain reasoning for IoT device control.
+
+---
+
+### yuluyangguang1/hermes-portable
+⭐ **37** · `Python` · [github.com/yuluyangguang1/hermes-portable](https://github.com/yuluyangguang1/hermes-portable)
+
+Plug-in-a-USB AI agent — zero-install, zero-trace, cross-platform portable Hermes Agent. Runs directly from a USB drive with no installation required, leaving no traces on the host machine. Ideal for air-gapped environments, demos, and secure portable deployments.
+
+**Key capabilities:** USB portable, zero-install, zero-trace, cross-platform, self-contained, air-gap ready
+**Related:** [Hermes Setup Guide →](/hermes/setup/)
 
 ---
 
