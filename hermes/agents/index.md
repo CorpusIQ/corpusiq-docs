@@ -97,7 +97,7 @@ The **Hermes Agent Library** provides 9 production-ready, role-specific agent co
 
 ### Which agent should I deploy first?
 
-Start with the agent that solves your **most painful manual process**. For most businesses, that's the [Sales Agent](/hermes/agents/sales-agent.md) (pipeline management), [Marketing Agent](/hermes/agents/marketing-agent.md) (SEO monitoring), or [Executive Agent](/hermes/agents/executive-agent.md) (daily briefings).
+Start with the agent that solves your **most painful manual process**. For most businesses, that's the [Sales Agent](/docs/hermes/agents/sales-agent.html) (pipeline management), [Marketing Agent](/docs/hermes/agents/marketing-agent.html) (SEO monitoring), or [Executive Agent](/docs/hermes/agents/executive-agent.html) (daily briefings).
 
 ### Can I run multiple agents simultaneously?
 
@@ -105,7 +105,7 @@ Yes. Deploy as many agents as you need. They run as separate Hermes profiles wit
 
 ### How much does running these agents cost?
 
-Cost varies by model and frequency. Lightweight monitoring with **Claude Haiku** costs pennies per day. Full-featured agents with **Claude Sonnet 4** may cost $1-5/day depending on frequency. See the [Model Selection Best Practices](/hermes/best-practices/model-selection.md) for optimization tips.
+Cost varies by model and frequency. Lightweight monitoring with **Claude Haiku** costs pennies per day. Full-featured agents with **Claude Sonnet 4** may cost $1-5/day depending on frequency. See the [Model Selection Best Practices](/docs/hermes/best-practices/model-selection.html) for optimization tips.
 
 ## Related Pages
 
@@ -114,7 +114,7 @@ Cost varies by model and frequency. Lightweight monitoring with **Claude Haiku**
 - [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 - [Canonical Facts  --  Store Business Definitions](/hermes/governance/)
-- [Model Selection Best Practices](/hermes/best-practices/model-selection.md)
+- [Model Selection Best Practices](/docs/hermes/best-practices/model-selection.html)
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

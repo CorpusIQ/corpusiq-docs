@@ -9,7 +9,7 @@ Strategy for mass-publishing affiliate program landing pages across 100+ languag
 
 ## Contents
 
-- [SKILL.md](/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/SKILL.md) — Complete skill definition with strategy, templates, and execution commands
+- [SKILL.md](/docs/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/SKILL.html) — Complete skill definition with strategy, templates, and execution commands
 
 ## Key Facts
 
@@ -19,7 +19,7 @@ Strategy for mass-publishing affiliate program landing pages across 100+ languag
 
 ## Related Skills
 
-- [SKILL.md — Complete Definition](/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/SKILL.md)
+- [SKILL.md — Complete Definition](/docs/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/SKILL.html)
 - [Growth Operations](/hermes/skills/growth-operations/)
 
 ---

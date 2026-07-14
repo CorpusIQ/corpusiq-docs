@@ -100,7 +100,7 @@ ollama run llama3.2 --verbose | grep -i cuda  # Verify GPU
 | `/home/` (Linux ext4) | Fast | Hermes config, skills, crons |
 | `/mnt/c/` (Windows NTFS) | Slower | Shared files, backups |
 
-**Rule:** Keep active Hermes data in `/home/` for performance. For [model selection](/hermes/best-practices/model-selection.md) and memory, WSL2's ext4 filesystem is significantly faster than NTFS.
+**Rule:** Keep active Hermes data in `/home/` for performance. For [model selection](/docs/hermes/best-practices/model-selection.html) and memory, WSL2's ext4 filesystem is significantly faster than NTFS.
 
 ### Step 8: Systemd Service
 
@@ -169,7 +169,7 @@ Create a Windows Task Scheduler task that runs `wsl.exe -d Ubuntu-24.04 -e sleep
 - [Hermes Agent Setup Overview](/hermes/setup/)  --  All platform options
 - [Gaming PC Setup](gaming-pc.md)  --  Native Linux for max GPU performance
 - [Docker Setup](docker.md)  --  Alternative Windows deployment
-- [Model Selection Guide](/hermes/best-practices/model-selection.md)  --  GPU model sizing
+- [Model Selection Guide](/docs/hermes/best-practices/model-selection.html)  --  GPU model sizing
 - [Troubleshooting Guide](/hermes/troubleshooting/)  --  WSL2-specific issues
 ---
 

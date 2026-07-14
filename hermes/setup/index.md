@@ -104,9 +104,9 @@ Once Hermes Agent is running, add capabilities:
 - **[MCP Integration](/hermes/mcp/)**  --  Connect to Gmail, Slack, databases, and 37+ platforms
 - **[CorpusIQ MCP Setup](corpusiq-mcp.md)**  --  Connect 37+ business tools to Hermes in 5 minutes
 - **[CorpusIQ Cron Patterns](corpusiq-cron-patterns.md)**  --  Autonomous business monitoring with Hermes + CorpusIQ
-- **[CorpusIQ Troubleshooting]( /hermes/troubleshooting/corpusiq.md)**  --  Token refresh, 401 errors, fork restrictions
-- **[Cron Scheduling](/hermes/governance/scheduling/)**  --  Schedule autonomous tasks with [cron design best practices](/hermes/best-practices/cron-design.md)
-- **[Skills Marketplace](/hermes/skills/)**  --  Add community-built capabilities and [create custom skills](/hermes/skills/creating-skills.md)
+- **[CorpusIQ Troubleshooting]( /docs/hermes/troubleshooting/corpusiq.html)**  --  Token refresh, 401 errors, fork restrictions
+- **[Cron Scheduling](/hermes/governance/scheduling/)**  --  Schedule autonomous tasks with [cron design best practices](/docs/hermes/best-practices/cron-design.html)
+- **[Skills Marketplace](/hermes/skills/)**  --  Add community-built capabilities and [create custom skills](/docs/hermes/skills/creating-skills.html)
 - **[Memory Architecture](/hermes/knowledge/)**  --  Honcho, GBrain, memcore-cloud triple stack
 - **[Blueprints](/hermes/blueprints/)**  --  End-to-end automation workflows for business processes
 - **[Prompt Library](/hermes/prompts/)**  --  Curated templates for code generation, analysis, content, and more
@@ -132,15 +132,15 @@ Ollama runs models locally on your hardware (free, private, limited to smaller m
 Use a [cloud VPS](cloud-vps.md), [Raspberry Pi](raspberry-pi.md), or an always-on desktop with `caffeinate` (macOS) or power settings adjusted. Configure the Hermes gateway as a systemd or launchd service for automatic restart.
 
 ### How do I add new capabilities after setup?
-Extend Hermes Agent through [MCP servers](/hermes/mcp/) for external tools, [skills](/hermes/skills/creating-skills.md) for reusable workflows, [crons](/hermes/best-practices/cron-design.md) for scheduled automation, and [memory systems](/hermes/knowledge/) for persistent context.
+Extend Hermes Agent through [MCP servers](/hermes/mcp/) for external tools, [skills](/docs/hermes/skills/creating-skills.html) for reusable workflows, [crons](/docs/hermes/best-practices/cron-design.html) for scheduled automation, and [memory systems](/hermes/knowledge/) for persistent context.
 
 ## Related Pages
 
 - [Mac Mini M4 Setup](mac-mini-standalone.md)  --  Recommended standalone platform
 - [Cloud VPS Setup](cloud-vps.md)  --  Budget always-on deployment
-- [Model Selection Guide](/hermes/best-practices/model-selection.md)  --  Choose the right AI model
+- [Model Selection Guide](/docs/hermes/best-practices/model-selection.html)  --  Choose the right AI model
 - [MCP Integration Guide](/hermes/mcp/)  --  Connect external tools and data
-- [Cron Design Best Practices](/hermes/best-practices/cron-design.md)  --  Reliable scheduled automation
+- [Cron Design Best Practices](/docs/hermes/best-practices/cron-design.html)  --  Reliable scheduled automation
 - [Troubleshooting Guide](/hermes/troubleshooting/)  --  Common issues and fixes
 ---
 

@@ -302,7 +302,7 @@ description: "Automated MCP server discovery scan results for 2026-06-25."
 
 ## COMPARISON WITH EXISTING CATALOG
 
-Our catalog at `/corpusiq-docs/hermes/mcp/servers/external/index.md` (updated June 25, 2026) already contains many of the financial servers found (Alpha Vantage, Tradingview, Tossinvest, AlphaAI, Infrawise, Costory, Cloudability, GoodVat, Lovie, etc.)
+Our catalog at `/corpusiq-docs/docs/hermes/mcp/servers/external/index.html` (updated June 25, 2026) already contains many of the financial servers found (Alpha Vantage, Tradingview, Tossinvest, AlphaAI, Infrawise, Costory, Cloudability, GoodVat, Lovie, etc.)
 
 ### NEW SERVERS NOT IN OUR CATALOG (High Priority)
 

@@ -58,7 +58,7 @@ Check the [Pending Review Queue](https://github.com/CorpusIQ/corpusiq-docs/issue
 
 ## Inclusion Criteria
 
-Every submission must meet our [inclusion criteria](https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/data/inclusion_criteria.md):
+Every submission must meet our [inclusion criteria](https://github.com/CorpusIQ/corpusiq-docs/blob/main/docs/hermes/data/inclusion_criteria.html):
 - Must be related to Hermes Agent or compatible tools
 - Repository must be publicly accessible
 - Must have a clear README or documentation

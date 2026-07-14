@@ -36,7 +36,7 @@ A good litmus test: could you run this cron three times back-to-back without bre
 
 **Dead-letter queue.** After all retries exhausted, route failed work to a dead-letter queue or structured log. Never silently discard work.
 
-**Alert on persistent failure.** If your cron fails for more than N consecutive runs, trigger an alert through [Slack](/hermes/integrations/slack-github.md), email, or PagerDuty.
+**Alert on persistent failure.** If your cron fails for more than N consecutive runs, trigger an alert through [Slack](/docs/hermes/integrations/slack-github.html), email, or PagerDuty.
 
 **Partial success handling.** Handle individual failures within a batch without aborting the entire batch. Log failed records and continue processing.
 
@@ -98,7 +98,7 @@ Track start/end timestamps, record counts processed, error counts by type, and l
 - [Best Practices Overview](/hermes/best-practices/)  --  All best practices guides
 - [Model Selection](model-selection.md)  --  Use the right model for each cron
 - [Security](security.md)  --  Credential management for scheduled tasks
-- [Setup Guides](/hermes/setup/)  --  Run crons on [cloud VPS](/hermes/setup/cloud-vps.md) or [Raspberry Pi](/hermes/setup/raspberry-pi.md)
+- [Setup Guides](/hermes/setup/)  --  Run crons on [cloud VPS](/docs/hermes/setup/cloud-vps.html) or [Raspberry Pi](/docs/hermes/setup/raspberry-pi.html)
 - [Blueprints](/hermes/blueprints/)  --  End-to-end cron-anchored workflows
 ---
 

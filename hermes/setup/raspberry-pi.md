@@ -181,7 +181,7 @@ Email monitoring, system health checks, lightweight cron jobs, IoT automation, a
 - [Hermes Agent Setup Overview](/hermes/setup/)  --  Compare all platforms
 - [Cloud VPS Setup](cloud-vps.md)  --  Alternative always-on option
 - [Docker Setup](docker.md)  --  Containerized ARM deployment
-- [Cron Design Best Practices](/hermes/best-practices/cron-design.md)  --  Lightweight automation
+- [Cron Design Best Practices](/docs/hermes/best-practices/cron-design.html)  --  Lightweight automation
 - [Troubleshooting Guide](/hermes/troubleshooting/)  --  Pi-specific issues
 ---
 

@@ -55,7 +55,7 @@ description: "Automated MCP server discovery scan results for 2026-06-26."
 
 - Added 4 new servers to `index.md`: PubFi MCP, zopnight, Quotor (Financial Data section), Serpzilla (Marketing section)
 - Updated "last updated" timestamp to June 26, 2026 (afternoon sweep)
-- File: `~/corpusiq-docs/hermes/mcp/servers/external/index.md`
+- File: `~/corpusiq-docs/docs/hermes/mcp/servers/external/index.html`
 
 ---
 

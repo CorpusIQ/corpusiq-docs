@@ -102,7 +102,7 @@ docker compose exec hermes hermes cron create \
   --schedule "*/15 * * * *"
 ```
 
-Crons survive container restarts and image updates because they're stored in the `hermes_data` volume. Follow [cron design best practices](/hermes/best-practices/cron-design.md) for production-grade scheduling.
+Crons survive container restarts and image updates because they're stored in the `hermes_data` volume. Follow [cron design best practices](/docs/hermes/best-practices/cron-design.html) for production-grade scheduling.
 
 ## Production Checklist
 
@@ -153,7 +153,7 @@ No  --  `docker compose pull` fetches the latest image from Docker Hub. Your con
 Yes, if the host has an NVIDIA GPU and the NVIDIA Container Toolkit installed. Pass `--gpus all` to `docker run` or add `deploy.resources.reservations.devices` in Compose.
 
 ### How do I add custom skills to Docker Hermes?
-Mount your skills directory: `- ./skills:/home/hermes/skills:ro`. New skills are immediately available. See the [custom skills guide](/hermes/skills/creating-skills.md).
+Mount your skills directory: `- ./skills:/home/hermes/skills:ro`. New skills are immediately available. See the [custom skills guide](/docs/hermes/skills/creating-skills.html).
 
 ## Related Pages
 
@@ -161,7 +161,7 @@ Mount your skills directory: `- ./skills:/home/hermes/skills:ro`. New skills are
 - [Cloud VPS Setup](cloud-vps.md)  --  Docker on cloud
 - [Gaming PC Setup](gaming-pc.md)  --  Docker with GPU passthrough
 - [MCP Integration Guide](/hermes/mcp/)  --  Connect tools inside containers
-- [Creating Custom Skills](/hermes/skills/creating-skills.md)  --  Mount skills in Docker
+- [Creating Custom Skills](/docs/hermes/skills/creating-skills.html)  --  Mount skills in Docker
 ---
 
 *

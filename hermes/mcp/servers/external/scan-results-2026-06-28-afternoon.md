@@ -12,7 +12,7 @@ description: "Automated MCP server discovery scan results for 2026-06-28 (Aftern
 
 ### Methodology
 - Extracted from mcp.so/feed page
-- Identified 18 servers NOT in our catalog (checked against ~/corpusiq-docs/hermes/mcp/servers/external/index.md)
+- Identified 18 servers NOT in our catalog (checked against ~/corpusiq-docs/docs/hermes/mcp/servers/external/index.html)
 - Filtered for business relevance
 
 ---

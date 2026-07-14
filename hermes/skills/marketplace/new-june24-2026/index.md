@@ -14,9 +14,9 @@ description: 22 new Hermes skill repos discovered on June 24, 2026 including Ash
 | # | Repo | Stars | Type | Setup Guide |
 |---|------|:-----:|------|:-----------:|
 | 1 | `doucoo/ashima` | ⭐1 | Meta-routing (4 skills: ashima, aria, duet, chorus) | [Ashima Setup](/hermes/skills/catalog/ashima-setup/) |
-| 2 | `Freakingnolife/sg-arrival-card-skill` | ⭐2 | Browser automation (SGAC submission) | [SG Arrival Card Setup](/hermes/skills/catalog/sg-arrival-card-setup.md) |
-| 3 | `sebmarion/hermes-agent-skill-perfectloop` | ⭐0 | Loop design framework (21KB SKILL.md) | [Perfectloop Setup](/hermes/skills/catalog/perfectloop-setup.md) |
-| 4 | `airbrushbones-afk/hermes-skills` | ⭐0 | Three-Agent Bridge Protocol | [Three-Agent Bridge Setup](/hermes/skills/catalog/three-agent-bridge-setup.md) |
+| 2 | `Freakingnolife/sg-arrival-card-skill` | ⭐2 | Browser automation (SGAC submission) | [SG Arrival Card Setup](/docs/hermes/skills/catalog/sg-arrival-card-setup.html) |
+| 3 | `sebmarion/hermes-agent-skill-perfectloop` | ⭐0 | Loop design framework (21KB SKILL.md) | [Perfectloop Setup](/docs/hermes/skills/catalog/perfectloop-setup.html) |
+| 4 | `airbrushbones-afk/hermes-skills` | ⭐0 | Three-Agent Bridge Protocol | [Three-Agent Bridge Setup](/docs/hermes/skills/catalog/three-agent-bridge-setup.html) |
 
 ### 1. Ashima — Meta-Routing Orchestrator (doucoo/ashima)
 

@@ -22,7 +22,7 @@ MCP servers are how Hermes Agent connects to external systems. Each server expos
 
 **Use existing when:** It covers your use case and is actively maintained. Search the [MCP ecosystem](/hermes/mcp/) and [skills catalog](/hermes/skills/) first.
 
-**Avoid building when:** A simple REST API call from a [skill](/hermes/skills/creating-skills.md) would work. Not every integration needs an MCP server.
+**Avoid building when:** A simple REST API call from a [skill](/docs/hermes/skills/creating-skills.html) would work. Not every integration needs an MCP server.
 
 ### Tool Design Principles
 
@@ -62,7 +62,7 @@ MCP servers are how Hermes Agent connects to external systems. Each server expos
 ## FAQ
 
 ### Do I need to build an MCP server for every API integration?
-No. If the integration is a single API call with simple parameters, a [skill step](/hermes/skills/creating-skills.md) is simpler. Build an MCP server when you need multiple tools, state management, authentication handling, or want to share with the community.
+No. If the integration is a single API call with simple parameters, a [skill step](/docs/hermes/skills/creating-skills.html) is simpler. Build an MCP server when you need multiple tools, state management, authentication handling, or want to share with the community.
 
 ### How do I handle pagination in MCP server tools?
 Always support `limit`/`offset` or cursor-based pagination for any tool that can return more than 50 items. Return pagination metadata (total count, next cursor) so callers know when more data is available.
@@ -76,7 +76,7 @@ Validate schema compliance with the MCP validator. Unit test each tool with vali
 - [MCP Integration Guide](/hermes/mcp/)  --  Connect existing MCP servers
 - [Skill Development](skill-development.md)  --  Skills that call MCP tools
 - [Security](security.md)  --  Secure MCP server auth patterns
-- [Creating Custom Skills](/hermes/skills/creating-skills.md)  --  When skills are better than MCP servers
+- [Creating Custom Skills](/docs/hermes/skills/creating-skills.html)  --  When skills are better than MCP servers
 ---
 
 *

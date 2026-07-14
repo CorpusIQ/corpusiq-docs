@@ -29,7 +29,7 @@ This agent connects to your analytics, SEO tools, email platforms, and project b
 | **Competitive intelligence** | Competitor content audits, gap analysis, share-of-voice tracking |
 | **Social scheduling** | Content calendar management, best-time-to-post analysis, engagement reporting |
 
-> **See also:** [Agent Library Overview](/hermes/agents/) · [Sales Agent](/hermes/agents/sales-agent.md) · [Research Agent](/hermes/agents/research-agent.md)
+> **See also:** [Agent Library Overview](/hermes/agents/) · [Sales Agent](/docs/hermes/agents/sales-agent.html) · [Research Agent](/docs/hermes/agents/research-agent.html)
 
 ## How It Works
 
@@ -133,8 +133,8 @@ The agent integrates with **GA4, Google Search Console, Ahrefs, Semrush, Klaviyo
 ## Related Pages
 
 - [Agent Library  --  All 9 Role Configurations](/hermes/agents/)
-- [Sales Agent  --  Pipeline & Outreach Automation](/hermes/agents/sales-agent.md)
-- [Research Agent  --  Competitive Intelligence](/hermes/agents/research-agent.md)
+- [Sales Agent  --  Pipeline & Outreach Automation](/docs/hermes/agents/sales-agent.html)
+- [Research Agent  --  Competitive Intelligence](/docs/hermes/agents/research-agent.html)
 - [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 - [Content Operations Guide](/hermes/content-ops/)

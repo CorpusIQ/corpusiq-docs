@@ -29,7 +29,7 @@ This agent integrates deeply with your calendar, email, task management, and com
 | **Meeting preparation** | Per-meeting briefs: attendee bios, recent interactions, open action items |
 | **Task follow-up** | Track action items from meetings and emails, flag overdue items |
 
-> **See also:** [Agent Library Overview](/hermes/agents/) · [Sales Agent](/hermes/agents/sales-agent.md) · [HR Agent](/hermes/agents/hr-agent.md)
+> **See also:** [Agent Library Overview](/hermes/agents/) · [Sales Agent](/docs/hermes/agents/sales-agent.html) · [HR Agent](/docs/hermes/agents/hr-agent.html)
 
 ## How It Works
 
@@ -138,11 +138,11 @@ Yes. Every Friday at 4:30 PM, the agent delivers a **weekly review** covering wi
 ## Related Pages
 
 - [Agent Library  --  All 9 Role Configurations](/hermes/agents/)
-- [HR Agent  --  Recruiting & People Operations](/hermes/agents/hr-agent.md)
-- [Sales Agent  --  Pipeline & CRM Automation](/hermes/agents/sales-agent.md)
+- [HR Agent  --  Recruiting & People Operations](/docs/hermes/agents/hr-agent.html)
+- [Sales Agent  --  Pipeline & CRM Automation](/docs/hermes/agents/sales-agent.html)
 - [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
-- [Model Selection Best Practices](/hermes/best-practices/model-selection.md)
+- [Model Selection Best Practices](/docs/hermes/best-practices/model-selection.html)
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

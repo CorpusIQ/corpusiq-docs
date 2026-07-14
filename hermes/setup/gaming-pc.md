@@ -12,7 +12,7 @@ Got a gaming rig with an NVIDIA GPU? It's a perfect Hermes Agent host for develo
 
 ## Overview
 
-A gaming PC delivers the highest raw inference performance for local AI models. With 8–24GB of VRAM and CUDA acceleration, you can run models from 7B to 70B parameters locally at 50–200 tokens per second. Combined with Hermes Agent's [model selection](/hermes/best-practices/model-selection.md) capabilities, you get a powerful AI workstation.
+A gaming PC delivers the highest raw inference performance for local AI models. With 8–24GB of VRAM and CUDA acceleration, you can run models from 7B to 70B parameters locally at 50–200 tokens per second. Combined with Hermes Agent's [model selection](/docs/hermes/best-practices/model-selection.html) capabilities, you get a powerful AI workstation.
 
 ## How It Works
 
@@ -144,7 +144,7 @@ If you game on Windows, [follow the WSL2 guide](windows-wsl.md). GPU passthrough
 Yes. Set `OLLAMA_KEEP_ALIVE=10m` so models unload from VRAM when idle. During gaming, Hermes Agent can use cloud fallback models or wait until you're done.
 
 ### What VRAM do I need for local LLMs?
-6–8GB VRAM handles 7B models. 12–16GB handles 13–14B models. 24GB handles 32B models. See our [model selection guide](/hermes/best-practices/model-selection.md) for detailed recommendations.
+6–8GB VRAM handles 7B models. 12–16GB handles 13–14B models. 24GB handles 32B models. See our [model selection guide](/docs/hermes/best-practices/model-selection.html) for detailed recommendations.
 
 ### Which GPU is best for Hermes Agent?
 Any RTX 30-series or newer works well. The RTX 4090 (24GB VRAM) is ideal for running 32B+ models. Multiple GPUs can be combined with NVLink.
@@ -154,7 +154,7 @@ Any RTX 30-series or newer works well. The RTX 4090 (24GB VRAM) is ideal for run
 - [Hermes Agent Setup Overview](/hermes/setup/)  --  Compare all platforms
 - [Windows WSL2 Setup](windows-wsl.md)  --  GPU passthrough on Windows
 - [Mac Mini M4 Setup](mac-mini-standalone.md)  --  Silent alternative
-- [Model Selection Guide](/hermes/best-practices/model-selection.md)  --  Choose the right model
+- [Model Selection Guide](/docs/hermes/best-practices/model-selection.html)  --  Choose the right model
 - [Troubleshooting Guide](/hermes/troubleshooting/)  --  Common GPU issues
 ---
 
