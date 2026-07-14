@@ -1,0 +1,11 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*/index",
+      "destination": "/:path*/",
+      "statusCode": 301
+    }
+  ]
+}
