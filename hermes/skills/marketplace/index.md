@@ -7,7 +7,7 @@ description: Discover and install community skills from skills.sh  --  290+ cura
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**501+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**503+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## How to Discover Skills
 
@@ -155,6 +155,7 @@ Approved skills appear on the next marketplace update page with install commands
 
 New skills are discovered weekly through automated sweeps of skills.sh. Each discovery gets a dedicated update page:
 
+- [🆕 July 14, 2026 — openclaw-workspace (143), pymupdf-pdf (47) (2 repos, 2 skills)](/hermes/skills/marketplace/new-july14-2026/)
 - [🆕 July 4, 2026 — agent-sessions (683⭐), Hermes ArXiv Agent + 22 more (24 repos, 5 setup guides)](/hermes/skills/marketplace/new-july4-2026/)
 - [🆕 July 4, 2026 (Update) — hermes-top Dashboard, Neo Theme, Backup Script, AGEL-Comp Safety (5 repos, 4 setup guides)](/hermes/skills/marketplace/new-july4-2026-update/)
 - [🆕 July 4, 2026 (Update 2) — Hermes Idea Workflow Suite, OpenClaw Tooling (3 repos, 6 skills)](/hermes/skills/marketplace/new-july4-2026-update2/)
@@ -218,7 +219,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 570+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 572+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 
