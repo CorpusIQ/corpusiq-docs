@@ -5,9 +5,9 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 # Hermes Ecosystem  --  Complete Resource Directory
 
-The most comprehensive directory of Hermes Agent resources in existence. 447+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
+The most comprehensive directory of Hermes Agent resources in existence. 448+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** July 3, 2026 · **Repos indexed:** 447+ · **Categories:** 18
+> **Last updated:** July 14, 2026 · **Repos indexed:** 448+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -24,7 +24,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 447+ re
 | [Memory & Knowledge](#-memory--knowledge) | 29 | [↓](#-memory--knowledge) |
 | [MCP & Integrations](#-mcp--integrations) | 33 | [↓](#-mcp--integrations) |
 | [Skills & Plugins](#-skills--plugins) | 69 | [↓](#-skills--plugins) |
-| [Tools & Utilities](#-tools--utilities) | 54 | [↓](#-tools--utilities) |
+| [Tools & Utilities](#-tools--utilities) | 55 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
 | [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 26 | [↓](#-orchestration-multi-agent--swarms) |
 | [Deployment & Infrastructure](#-deployment--infrastructure) | 21 | [↓](#-deployment--infrastructure) |
@@ -2885,6 +2885,16 @@ Wave Terminal  --  open-source terminal workspace with graphical widgets, web re
 
 ---
 
+### PatterAI/Patter
+⭐ **967** · `Python` · [github.com/PatterAI/Patter](https://github.com/PatterAI/Patter)
+
+Open-source voice-AI SDK. The Vapi/Retell alternative for builders who want to own the stack. Give your Hermes agent a voice — build real-time voice AI applications with self-hosted infrastructure.
+
+**Key capabilities:** Voice AI SDK, real-time voice, self-hosted, Vapi alternative, Retell alternative, open-source, Hermes-compatible
+**Related:** [Tools & Utilities →](#-tools--utilities)
+
+---
+
 ## 🎯 Orchestration, Multi-Agent & Swarms
 
 Frameworks and patterns for coordinating multiple agents.
@@ -3047,7 +3057,7 @@ ByteDance's open-source long-horizon SuperAgent harness. Researches, codes, and 
 ---
 
 ### ruvnet/ruflo
-⭐ **59,849** · [github.com/ruvnet/ruflo](https://github.com/ruvnet/ruflo)
+⭐ **64,353** · [github.com/ruvnet/ruflo](https://github.com/ruvnet/ruflo)
 
 Leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows with skill-based execution. Patterns transferable to Hermes agent orchestration  --  swarm coordination, skill delegation, and workflow automation.
 

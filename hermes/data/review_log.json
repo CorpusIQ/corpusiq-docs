@@ -4141,5 +4141,110 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-14T05:06:04.920460+00:00"
+  },
+  {
+    "repo": "Th0rgal/hermes-proton-email",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T07:07:25.312088+00:00"
+  },
+  {
+    "repo": "japer-technology/obsidian-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T07:07:25.312091+00:00"
+  },
+  {
+    "repo": "ruvnet/ruflo",
+    "score": 81,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-14T07:07:25.312093+00:00"
+  },
+  {
+    "repo": "SunMe1977/HermesClawZero-ConfigSidecar",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T07:07:25.312095+00:00"
+  },
+  {
+    "repo": "SohriCarryU/hermes-mcp-s-rss-radar",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T07:07:25.312096+00:00"
+  },
+  {
+    "repo": "wassermanproductions/blockout-mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T07:07:25.312098+00:00"
+  },
+  {
+    "repo": "wassermanproductions/motion-previs-mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T07:07:25.312100+00:00"
+  },
+  {
+    "repo": "wassermanproductions/master-canvas-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T07:07:25.312101+00:00"
+  },
+  {
+    "repo": "wassermanproductions/sam-pdf-studio-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T07:07:25.312103+00:00"
+  },
+  {
+    "repo": "jozrftamson/hermes-figma-prompt-hub",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T07:07:25.312105+00:00"
+  },
+  {
+    "repo": "CorpusIQ/corpusiq-docs",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-14T07:07:25.312107+00:00"
+  },
+  {
+    "repo": "wassermanproductions/master-canvas-hermes-plugin",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T07:07:25.312109+00:00"
+  },
+  {
+    "repo": "PatterAI/Patter",
+    "score": 72,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-14T07:07:25.312111+00:00"
+  },
+  {
+    "repo": "wlsdks/muse-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T07:07:25.312113+00:00"
+  },
+  {
+    "repo": "xaviroblessarries/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T07:07:25.312114+00:00"
   }
 ]

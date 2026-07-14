@@ -16441,5 +16441,359 @@
     "near_duplicates": [],
     "discovered_at": "2026-07-14T05:05:49.153859+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Th0rgal/hermes-proton-email",
+    "url": "https://github.com/Th0rgal/hermes-proton-email",
+    "description": "Standalone Proton Mail gateway platform plugin for Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-14T07:04:27Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-14T07:04:34.042765+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "japer-technology/obsidian-hermes",
+    "url": "https://github.com/japer-technology/obsidian-hermes",
+    "description": "Obsidian becomes Hermes Agent\u2019s local command centre, memory, workflow engine, and continuously maintained knowledge system.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-14T07:00:48Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-14T07:04:37.044951+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SunMe1977/HermesClawZero-ConfigSidecar",
+    "url": "https://github.com/SunMe1977/HermesClawZero-ConfigSidecar",
+    "description": "HermesClaw Zero\u2011Config Sidecar is a lightweight local vector\u2011memory engine for Hermes and OpenClaw. It runs as a zero\u2011config sidecar, providing fast embeddings, persistent memory, and instant retrieval for agents and MCP tools. Built for speed, simplicity, and full local control.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-memory",
+      "ai-agent",
+      "chat-memory",
+      "docker",
+      "embeddings",
+      "fastapi",
+      "hermes",
+      "hermes-agent",
+      "knowledge-graph",
+      "mcp",
+      "memory",
+      "ollama",
+      "openclaw",
+      "openclaw-skill",
+      "pgvector",
+      "postgresql",
+      "rag",
+      "semantic-search",
+      "vector-database"
+    ],
+    "updated_at": "2026-07-14T06:50:34Z",
+    "category": "mcp",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-07-14T07:04:49.793047+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SohriCarryU/hermes-mcp-s-rss-radar",
+    "url": "https://github.com/SohriCarryU/hermes-mcp-s-rss-radar",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-14T06:40:47Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-14T07:04:52.793666+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wassermanproductions/blockout-mcp",
+    "url": "https://github.com/wassermanproductions/blockout-mcp",
+    "description": "MCP server for Blockout \u2014 drive the open-source previs app from any MCP agent (Hermes, Claude, Codex). Zero dependencies.",
+    "stars": 5,
+    "forks": 2,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-07-14T05:33:01Z",
+    "category": "mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "jnMetaCode/shellward",
+      "ksimback/hermes-atlas-mcp"
+    ],
+    "discovered_at": "2026-07-14T07:04:55.795496+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wassermanproductions/motion-previs-mcp",
+    "url": "https://github.com/wassermanproductions/motion-previs-mcp",
+    "description": "MCP server for Motion Previs Studio \u2014 extract camera + performance motion from reference footage via any MCP agent (Hermes, Claude, Codex). Zero dependencies.",
+    "stars": 5,
+    "forks": 2,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-07-14T05:33:01Z",
+    "category": "mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/shellward"
+    ],
+    "discovered_at": "2026-07-14T07:04:58.797288+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wassermanproductions/master-canvas-mcp",
+    "url": "https://github.com/wassermanproductions/master-canvas-mcp",
+    "description": "Headless MCP server for Master Canvas \u2014 read/edit a project (boards, cards, prompts, shot order, assets) and build generator-ready handoff packages from Hermes, Claude Code, Codex, or any MCP client. Zero dependencies. MIT.",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-07-14T05:32:58Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "yoloshii/ClawMem",
+      "longyunfeigu/learn-hermes-agent",
+      "KSroido/Kagi-Session2API-MCP",
+      "jnMetaCode/shellward",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "mlennie/hermes-mcp",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-07-14T07:05:01.799623+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wassermanproductions/sam-pdf-studio-mcp",
+    "url": "https://github.com/wassermanproductions/sam-pdf-studio-mcp",
+    "description": "Headless MCP server for Sam PDF Studio \u2014 run its PyMuPDF engine (merge, split, redact, OCR, convert, page ops) on local PDFs from Hermes, Claude Code, Codex, or any MCP client. Zero dependencies. Apache-2.0.",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-07-14T05:30:30Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "codejunkie99/agentic-stack",
+      "KSroido/Kagi-Session2API-MCP",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "mlennie/hermes-mcp",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-07-14T07:05:04.801418+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jozrftamson/hermes-figma-prompt-hub",
+    "url": "https://github.com/jozrftamson/hermes-figma-prompt-hub",
+    "description": "Figma-to-MCP prompt management for Hermes workflows.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "contributors-welcome",
+      "developer-tools",
+      "figma",
+      "figma-api",
+      "hermes",
+      "llm-evals",
+      "mcp",
+      "model-context-protocol",
+      "open-source",
+      "prompt-engineering",
+      "prompt-management",
+      "python"
+    ],
+    "updated_at": "2026-07-14T05:25:56Z",
+    "category": "mcp",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-14T07:05:07.803142+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wassermanproductions/master-canvas-hermes-plugin",
+    "url": "https://github.com/wassermanproductions/master-canvas-hermes-plugin",
+    "description": "Hermes Agent plugin and bundled skill for Master Canvas AI video handoff packages.",
+    "stars": 2,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "ai-video",
+      "comfyui",
+      "hermes-agent",
+      "kling",
+      "ltx",
+      "master-canvas",
+      "veo"
+    ],
+    "updated_at": "2026-07-14T05:33:03Z",
+    "category": "skills",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "verkyyi/agentfeeds-hermes-plugin",
+      "kaankacar/stellar-agent-kit"
+    ],
+    "discovered_at": "2026-07-14T07:05:20.618546+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wlsdks/muse-agent",
+    "url": "https://github.com/wlsdks/muse-agent",
+    "description": "Building a personal AI that learns how you live and work, then gets better at knowing when and how to help. Local-first, any model.",
+    "stars": 4,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-assistant",
+      "anthropic",
+      "chatgpt",
+      "claude-code",
+      "cli",
+      "hermes-agent",
+      "llm",
+      "llms",
+      "local-llm",
+      "ollama",
+      "open-source",
+      "openai",
+      "openclaw"
+    ],
+    "updated_at": "2026-07-14T07:01:32Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-07-14T07:05:33.351785+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "xaviroblessarries/gbrain",
+    "url": "https://github.com/xaviroblessarries/gbrain",
+    "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-14T07:01:08Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "garrytan/gbrain"
+    ],
+    "discovered_at": "2026-07-14T07:05:36.354979+00:00",
+    "status": "pending"
   }
 ]
