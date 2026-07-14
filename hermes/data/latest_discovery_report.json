@@ -1,55 +1,14 @@
 {
-  "run_time": "2026-07-13T05:06:56.394380+00:00",
-  "new_approved": [
-    {
-      "name": "CorpusIQ/corpusiq-docs",
-      "url": "https://github.com/CorpusIQ/corpusiq-docs",
-      "description": "Hermes Agent Production Knowledge Repository \u2014 406+ repos, AI Agent Marketplace, MCP servers, autonomous AI agent patterns. Production-tested from 1,200+ hours of ops. Updated daily.",
-      "stars": 12,
-      "forks": 5,
-      "language": "HTML",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "awesome-mcp",
-        "business-ai",
-        "business-intelligence",
-        "claude-code",
-        "corpusiq",
-        "hermes-agent",
-        "mcp",
-        "mcp-server",
-        "nous-research",
-        "skills-marketplace"
-      ],
-      "updated_at": "2026-07-13T02:22:24Z",
-      "category": "mcp",
-      "score": 75,
-      "tier": "AUTO_APPROVE",
-      "score_reasons": [
-        "direct_hermes_reference",
-        "agent_ecosystem",
-        "some_stars_10+",
-        "detailed_description",
-        "active_week",
-        "has_homepage"
-      ],
-      "near_duplicates": [
-        "longyunfeigu/learn-hermes-agent",
-        "crispyb0i/hermes-operator-pack",
-        "BBridgeers/hermes-skills",
-        "anomaliagent007-hue/hermes-mimo-bridge"
-      ],
-      "discovered_at": "2026-07-13T05:03:59.643016+00:00",
-      "status": "approved",
-      "approved_at": "2026-07-13T05:06:56.378314+00:00"
-    }
-  ],
+  "run_time": "2026-07-14T05:06:04.937449+00:00",
+  "new_approved": [],
   "stats": {
-    "total_found": 32,
+    "total_found": 22,
     "auto_approved": 1,
-    "pending_review": 31,
+    "pending_review": 21,
     "total_approved": 140,
-    "total_pending": 562
-  }
+    "total_pending": 583
+  },
+  "auto_approved": 0,
+  "summary": "0 new repos auto-approved (self-reference removed)",
+  "timestamp": "2026-07-14T05:06:46Z"
 }

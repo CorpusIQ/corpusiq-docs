@@ -3987,5 +3987,159 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-13T05:06:56.378383+00:00"
+  },
+  {
+    "repo": "MRafStudio/Hermes-Portable-Scripts",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920421+00:00"
+  },
+  {
+    "repo": "HYYYY0C/hermes-session-rotator",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920424+00:00"
+  },
+  {
+    "repo": "itsPremkumar/prems-jarvis-hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920426+00:00"
+  },
+  {
+    "repo": "snadrus/hermes-cursor",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920428+00:00"
+  },
+  {
+    "repo": "felcopentesting/felconsec-ai",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920430+00:00"
+  },
+  {
+    "repo": "mrojas54/tool-benchmarks",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920432+00:00"
+  },
+  {
+    "repo": "DongSANZ/RuyiHermesAgent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920434+00:00"
+  },
+  {
+    "repo": "const1981/hermes-agent-mobile-zh",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920435+00:00"
+  },
+  {
+    "repo": "PatrickNoFilter/eling-agent",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920437+00:00"
+  },
+  {
+    "repo": "VoixKz/hermes-acp-sdk",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920439+00:00"
+  },
+  {
+    "repo": "okdk7788/opencode-self-improving-skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920441+00:00"
+  },
+  {
+    "repo": "MoeWang-ys/hermes-auto-learn",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920442+00:00"
+  },
+  {
+    "repo": "LuChangQiu/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920444+00:00"
+  },
+  {
+    "repo": "douinc/hermes-agent-plugins",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920446+00:00"
+  },
+  {
+    "repo": "whansel007/HugoHermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920447+00:00"
+  },
+  {
+    "repo": "sam7894604/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920449+00:00"
+  },
+  {
+    "repo": "emocog/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920451+00:00"
+  },
+  {
+    "repo": "RohiRIK/hermes-brain",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920453+00:00"
+  },
+  {
+    "repo": "CorpusIQ/corpusiq-docs",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-14T05:06:04.920455+00:00"
+  },
+  {
+    "repo": "reyerchu/hermes-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920457+00:00"
+  },
+  {
+    "repo": "tigermkiiiddd/hermes-agent-stable",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920458+00:00"
+  },
+  {
+    "repo": "BuckG71/whizzard",
+    "score": 43,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-14T05:06:04.920460+00:00"
   }
 ]
