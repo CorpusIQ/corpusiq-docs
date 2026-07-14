@@ -244,6 +244,10 @@ nav:
     - Catalog: hermes/skills/catalog/index.md
     - Creating Skills: hermes/skills/creating-skills.md
     - Marketplaces: hermes/skills/skill-marketplaces.md
+    - Marketplace Updates: hermes/skills/marketplace/index.md
+  - MCP Servers:
+    - Overview: hermes/mcp/servers/index.md
+    - External Catalog: hermes/mcp/servers/external/index.md
   - More:
     - MCP Guide: hermes/mcp/index.md
     - Knowledge: hermes/knowledge/index.md
