@@ -3,8 +3,8 @@
   "trailingSlash": false,
   "redirects": [
     {
-      "source": "/:path*/index",
-      "destination": "/:path*/",
+      "source": "/hermes/:path*",
+      "destination": "/docs/hermes/:path*",
       "statusCode": 301
     }
   ]
