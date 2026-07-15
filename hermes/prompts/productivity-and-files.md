@@ -1,6 +1,6 @@
 ---
 title: "Productivity And Files"
-description: "Documentation page for Productivity And Files."
+description: "Productivity and file management prompts for Hermes agents. Search, organize, and analyze documents across Google Drive, Dropbox, OneDrive, and SharePoint using natural language queries."
 ---
 
 # Productivity, inbox, and files

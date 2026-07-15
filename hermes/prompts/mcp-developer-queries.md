@@ -1,6 +1,6 @@
 ---
 title: "Mcp Developer Queries"
-description: "Documentation page for Mcp Developer Queries."
+description: "MCP developer query prompts for building and debugging MCP servers. Test queries, schema discovery patterns, and performance diagnostics for developers integrating custom MCP tools."
 ---
 
 # MCP developer prompts

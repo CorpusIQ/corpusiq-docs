@@ -1,6 +1,6 @@
 ---
 title: "Executive Summary"
-description: "Documentation page for Executive Summary."
+description: "Executive summary prompts for Hermes agents. Generate board-ready business overviews combining revenue data, KPIs, market trends, and operational metrics from all connected business tools."
 ---
 
 # Executive summary prompts

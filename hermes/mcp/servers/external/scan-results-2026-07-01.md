@@ -1,6 +1,6 @@
 ---
 title: "MCP Server Scan Results — 2026-07-01"
-description: "Automated MCP server discovery scan results for July 1, 2026."
+description: "MCP server discovery scan results for July 1, 2026. Automated scan of new and existing MCP server integrations with availability checks and status updates for the Hermes ecosystem."
 ---
 
 # MCP Server Directory Scan — July 1, 2026

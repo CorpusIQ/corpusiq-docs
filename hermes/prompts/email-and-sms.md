@@ -1,6 +1,6 @@
 ---
 title: "Email And Sms"
-description: "Documentation page for Email And Sms."
+description: "Email and SMS campaign prompts for Hermes agents. Analyze open rates, click-through, and conversion data across Gmail, Outlook, Klaviyo, and Twilio using natural language queries."
 ---
 
 # Email and SMS marketing prompts
