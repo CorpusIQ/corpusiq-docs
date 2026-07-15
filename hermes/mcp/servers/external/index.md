@@ -467,7 +467,48 @@ Explore traditional folk music using data from The Session. Search tunes, record
 
 ---
 
+## Data Infrastructure ★ New Section (July 15, Wave 2)
+
+### Confluent MCP — Apache Kafka ★ New (July 15)
+Official Confluent MCP server — Apache Kafka data streaming for AI agents. Real-time event streaming, topic management, schema registry, consumer group monitoring, and Connect management. Enterprise backbone for event-driven architectures. `npx -y @confluentinc/mcp-confluent` · [Integration Guide](/hermes/mcp/servers/external/confluent-mcp/)
+
+### Elasticsearch MCP ★ New (July 15)
+Official Elastic MCP server — full-text search, aggregations, vector search, and observability. AI agents can query any index with Elasticsearch Query DSL, run kNN semantic search, monitor APM traces and logs. `npx -y @elastic/mcp-server-elasticsearch` · [Integration Guide](/hermes/mcp/servers/external/elasticsearch-mcp/)
+
+### Snowflake MCP ★ New (July 15)
+MCP server for Snowflake data warehouse — query, explore schemas, manage warehouses, and analyze enterprise data through natural language. RBAC-aware. Essential for operators running data workloads on Snowflake. `npx -y mcp-snowflake-server` · [Integration Guide](/hermes/mcp/servers/external/snowflake-mcp/)
+
+### Keboola MCP ★ New (July 15)
+Data operations platform MCP — ETL, data engineering, and pipeline management for AI agents. Enterprise data stack integration.
+
+---
+
+## DevOps & Feature Management ★ New Section (July 15, Wave 2)
+
+### LaunchDarkly MCP ★ New (July 15)
+Official LaunchDarkly MCP server — feature flag management for AI agents. Toggle features, manage progressive rollouts, run experiments, and audit flag changes. Essential for product and engineering operators. `npx -y @launchdarkly/mcp-server` · [Integration Guide](/hermes/mcp/servers/external/launchdarkly-mcp/)
+
+### OpenTofu MCP ★ New (July 15)
+Infrastructure-as-code via MCP. OpenTofu (Terraform fork) for provisioning and managing cloud infrastructure through AI agents. DevOps niche.
+
+### Instana MCP ★ New (July 15)
+IBM Instana APM — application performance monitoring and observability for AI agents. Real-time infrastructure and application health.
+
+### SmartBear MCP ★ New (July 15)
+SmartBear testing tools MCP — API testing, UI testing, test management, and quality automation for AI agents.
+
+### Tailscale MCP ★ New (July 15)
+Tailscale networking via MCP — VPN, mesh networking, and secure service access for AI agents.
+
+---
+
 ## Commerce & E-Commerce
+
+### Monday.com MCP ★ New (July 15)
+Official Monday.com MCP — project management, workflows, boards, and automations accessible to AI agents. First major PM platform with dedicated MCP. Essential for operators running cross-team projects and workflows. `npx -y @mondaycom/mcp` · [Integration Guide](/hermes/mcp/servers/external/mondaycom-mcp/)
+
+### WordPress MCP ★ New (July 15)
+WordPress CMS management via MCP — manage posts, pages, plugins, themes, and content directly from AI agents. `npx -y wsp-wordpress-mcp`
 
 ### HTML Pub MCP ★ New (July 13)
 Publish AI-generated HTML to a live page on your own domain — MCP server by Leadpages. Remote endpoint at `mcp.htmlpub.com/mcp`. First major martech company (Leadpages) shipping an MCP server for content publishing. Essential for operators who want AI agents to create and deploy landing pages, announcements, and microsites without touching a CMS. [Integration Guide](/hermes/mcp/servers/external/htmlpub-mcp/)
