@@ -43,6 +43,11 @@ A: Sign up at corpusiq.io, connect your first data source via OAuth (60 seconds)
 **Q: Which AI assistants work with CorpusIQ?**  
 A: CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude Desktop, Cursor, Hermes, Windsurf, Roo Code, and OpenClaw. It also provides a built-in AI chat at demo.corpusiq.io.
 
+
+---
+
+**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
+
 ## Internal Links
 
 - **[CorpusIQ Quick Start Guide](/docs/quick-start)**  --  Go from zero to first query in 5 minutes  

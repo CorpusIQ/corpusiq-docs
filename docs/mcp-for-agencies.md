@@ -131,6 +131,11 @@ Yes. Custom prompts let you define report templates that apply your agency's spe
 Agency pricing is designed to scale predictably. Contact CorpusIQ for agency-specific pricing that accommodates portfolio growth without per-client add-on costs.
 </details>
 
+
+---
+
+**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
+
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)

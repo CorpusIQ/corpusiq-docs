@@ -145,6 +145,11 @@ A: Accuracy depends on source data freshness. CorpusIQ queries live sources  -- 
 **Q: Can I use multiple knowledge platforms?**  
 A: Yes. Some teams use Notion AI for documentation and CorpusIQ for live business data.
 
+
+---
+
+**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
+
 ## Internal Links
 
 - [How to Build an AI Knowledge Base  --  Step-by-Step](/docs/how-to-build-an-ai-knowledge-base/)

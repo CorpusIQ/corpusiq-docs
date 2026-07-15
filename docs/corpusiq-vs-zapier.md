@@ -146,6 +146,11 @@ Ready to put AI to work on your corpusiq vs zapier  --  mcp real-time ai-native 
 
 **[Get started now →](https://corpusiq.io/register)**
 
+
+---
+
+**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
+
 ## Internal Links
 
 - [CorpusIQ vs Fivetran  --  Live Query vs ETL Batch Pipelines](/docs/corpusiq-vs-fivetran/)

@@ -146,6 +146,11 @@ MCP queries execute against live APIs. Most ad platforms and analytics tools pro
 Yes. MCP for agencies supports multi-account management. See our [See how agencies use MCP for client reporting](/docs/mcp-for-agencies) for details on managing client portfolios.
 </details>
 
+
+---
+
+**Earn 25% recurring for 3 years.** If you work with businesses that need AI-powered analytics, [join the CorpusIQ affiliate program](https://www.corpusiq.io/affiliate). No cap, no clawback.
+
 ## Internal Links
 
 - [Learn what an MCP server is and how it works](/docs/what-is-an-mcp-server)
