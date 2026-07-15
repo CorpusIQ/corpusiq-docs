@@ -3,6 +3,13 @@ extra_css:
 - stylesheets/extra-v2.css
 extra_javascript:
 - javascripts/hermes-nav.js?v=2
+# Rewrites the theme's page-relative asset URLs (assets/, javascripts/,
+# stylesheets/) to absolute /docs/-rooted paths at build time. Required because
+# the site is served under /docs/ with trailing-slash stripping, which makes a
+# no-slash request like /docs resolve relative assets against the domain root
+# and 404. See hooks/absolute_asset_urls.py for the full explanation.
+hooks:
+- hooks/absolute_asset_urls.py
 markdown_extensions:
 - admonition
 - pymdownx.details
