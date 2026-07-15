@@ -25,6 +25,12 @@
   {% if page and page.meta and page.meta.description %}
     <meta name="twitter:description" content="{{ page.meta.description }}">
   {% endif %}
+  <!-- Meta description for SEO crawlers -->
+  {% if page and page.meta and page.meta.description %}
+    <meta name="description" content="{{ page.meta.description }}">
+  {% elif config.site_description %}
+    <meta name="description" content="{{ config.site_description }}">
+  {% endif %}
 {% endblock %}
 
 {% block scripts %}
