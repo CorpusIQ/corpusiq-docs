@@ -1,6 +1,6 @@
 ---
 title: "Launch Plan"
-description: "Launch strategy and execution plan for Hermes community ecosystem."
+description: "Launch strategy and execution plan for the Hermes community ecosystem. Covers community building milestones, content strategy, integration roadmap, and growth targets for the open-source agent platform."
 ---
 
 # Viktor-Style Launch Plan  --  CorpusIQ

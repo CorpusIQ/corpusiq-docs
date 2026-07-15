@@ -1,6 +1,6 @@
 ---
 title: "Seo And Content"
-description: "Documentation page for Seo And Content."
+description: "SEO and content marketing prompts for Hermes agents. Analyze Search Console data, track keyword rankings, and generate content insights by connecting SEO tools to AI assistants."
 ---
 
 # SEO and content prompts

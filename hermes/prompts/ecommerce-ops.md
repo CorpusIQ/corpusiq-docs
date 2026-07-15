@@ -1,6 +1,6 @@
 ---
 title: "Ecommerce Ops"
-description: "Documentation page for Ecommerce Ops."
+description: "Ecommerce operations prompts for Hermes agents. Monitor Shopify sales, track inventory, analyze customer segments, and optimize pricing using AI connected to your ecommerce stack."
 ---
 
 # Ecommerce and marketplace prompts

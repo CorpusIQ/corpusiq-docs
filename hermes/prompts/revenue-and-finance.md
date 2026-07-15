@@ -1,6 +1,6 @@
 ---
 title: "Revenue And Finance"
-description: "Documentation page for Revenue And Finance."
+description: "Revenue and finance prompts for Hermes agents. Query ARR, MRR, churn, cash flow, P&L, and budget vs actuals in plain English using AI connected to your accounting and billing systems."
 ---
 
 # Revenue and finance prompts

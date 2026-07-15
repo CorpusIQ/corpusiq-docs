@@ -1,6 +1,6 @@
 ---
 title: "Community Share Card"
-description: "Share card template for Hermes ecosystem social media promotion."
+description: "Share card template for promoting Hermes across social media. Standardized visual template for showcasing agents, skills, and MCP servers on X, LinkedIn, Reddit, and developer communities."
 ---
 
 # Social Share Card

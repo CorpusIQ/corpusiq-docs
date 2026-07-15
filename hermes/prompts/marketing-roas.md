@@ -1,6 +1,6 @@
 ---
 title: "Marketing Roas"
-description: "Documentation page for Marketing Roas."
+description: "Marketing ROAS analysis prompts for Hermes agents. Natural language queries to analyze ad spend efficiency, cross-channel performance, and campaign ROI across connected marketing platforms."
 ---
 
 # Marketing and ROAS prompts

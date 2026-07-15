@@ -20,3 +20,8 @@ Data files powering the Hermes ecosystem discovery engine — approved repositor
 ---
 
 *← [Hermes Home](/hermes/)*
+
+
+## All Data Files
+
+- [Ecosystem Inclusion Criteria](/docs/hermes/data/inclusion_criteria.html)

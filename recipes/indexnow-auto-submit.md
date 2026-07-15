@@ -126,3 +126,8 @@ Next step: check Search Console impressions for these URLs in 48 hours.
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+
+
+## Current Submission Queue
+
+The full list of URLs to submit is maintained in [`indexnow-submission-urls.txt`](./indexnow-submission-urls.txt) — updated from the latest Ahrefs site audit (Jul 15, 2026). Contains 1 docs pages ready for IndexNow submission.

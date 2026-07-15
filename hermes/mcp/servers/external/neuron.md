@@ -1,6 +1,6 @@
 ---
 title: "Neuron MCP Server"
-description: "External MCP server: Neuron — reference and integration details."
+description: "Neuron MCP server integration guide for Hermes. Connect autonomous AI agents to enterprise data sources through the Neuron protocol — reference setup, configuration, and usage patterns."
 ---
 
 # Neuron — WhatsApp MCP Integration Guide

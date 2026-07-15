@@ -1,6 +1,6 @@
 ---
 title: "Index"
-description: "Documentation page for Index."
+description: "Hermes agent scheduling and governance reference. Configure cron jobs, task queues, and automated workflows with guardrails for production AI agent deployments."
 ---
 
 # Production Cron Reference Architecture

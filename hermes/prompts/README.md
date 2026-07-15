@@ -1,6 +1,6 @@
 ---
 title: "Readme"
-description: "Documentation page for Readme."
+description: "Hermes prompts directory — ready-to-use AI prompts for business operations, code generation, content creation, data analysis, research, and creative workflows powered by your connected data sources."
 ---
 
 # Prompts library

@@ -1,6 +1,6 @@
 ---
 title: "Multi Source"
-description: "Documentation page for Multi Source."
+description: "Multi-source query prompts for Hermes agents. Ask questions that span multiple business tools simultaneously — cross-reference CRM data with billing, analytics with ads, support tickets with product usage."
 ---
 
 # Multi-source prompts  --  the moat
