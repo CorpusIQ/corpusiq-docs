@@ -10,6 +10,7 @@ extra_javascript:
 # and 404. See hooks/absolute_asset_urls.py for the full explanation.
 hooks:
 - hooks/absolute_asset_urls.py
+- scripts/hooks/auto_link_children.py
 markdown_extensions:
 - admonition
 - pymdownx.details
@@ -261,8 +262,6 @@ nav:
     - Troubleshooting: hermes/troubleshooting/index.md
     - Contributors: hermes/contributors.md
     - Changelog: hermes/changelog/index.md
-hooks:
-- scripts/hooks/auto_link_children.py
 plugins:
 - search
 - meta
