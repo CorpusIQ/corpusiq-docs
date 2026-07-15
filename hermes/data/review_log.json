@@ -4456,5 +4456,117 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-15T05:11:15.247388+00:00"
+  },
+  {
+    "repo": "anatolijlaptev1991-ctrl/hermes-ru",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-15T14:06:39.594538+00:00"
+  },
+  {
+    "repo": "Jianmingphua/hermes",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-15T14:06:39.594540+00:00"
+  },
+  {
+    "repo": "web3blind/hermes-vk-platform",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-15T14:06:39.594541+00:00"
+  },
+  {
+    "repo": "farisqlail/lail-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-15T14:06:39.594542+00:00"
+  },
+  {
+    "repo": "HeyClioo/workmate-ai",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-15T14:06:39.594543+00:00"
+  },
+  {
+    "repo": "nv-drollins/aec-demo-portable",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-15T14:06:39.594545+00:00"
+  },
+  {
+    "repo": "whisper-sec/whisper-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-15T14:06:39.594546+00:00"
+  },
+  {
+    "repo": "lightnet19/stb-mcp-server",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-15T14:06:39.594547+00:00"
+  },
+  {
+    "repo": "codenote-net/oh-my-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-15T14:06:39.594548+00:00"
+  },
+  {
+    "repo": "tertiarycourses/TGS-2024043854-Build-a-Human-AI-Workforce-with-Autonomous-AI-Agents",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-15T14:06:39.594549+00:00"
+  },
+  {
+    "repo": "saimon4eg/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-15T14:06:39.594550+00:00"
+  },
+  {
+    "repo": "stefanpieter/hermes-vscode",
+    "score": 43,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-15T14:06:39.594552+00:00"
+  },
+  {
+    "repo": "agent-of-empires/agent-of-empires",
+    "score": 72,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-15T14:06:39.594553+00:00"
+  },
+  {
+    "repo": "calumba-holding/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-15T14:06:39.594554+00:00"
+  },
+  {
+    "repo": "aoyang17/hermes-research-paper-writing",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-15T14:06:39.594555+00:00"
+  },
+  {
+    "repo": "Weltenwanderer1/ai-buddy",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-15T14:06:39.594556+00:00"
   }
 ]

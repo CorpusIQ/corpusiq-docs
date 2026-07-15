@@ -1,55 +1,61 @@
 {
-  "run_time": "2026-07-15T05:11:15.265354+00:00",
+  "run_time": "2026-07-15T14:06:39.603988+00:00",
   "new_approved": [
     {
-      "name": "CorpusIQ/corpusiq-docs",
-      "url": "https://github.com/CorpusIQ/corpusiq-docs",
-      "description": "Hermes Agent Production Knowledge Repository \u2014 406+ repos, AI Agent Marketplace, MCP servers, autonomous AI agent patterns. Production-tested from 1,200+ hours of ops. Updated daily.",
-      "stars": 12,
-      "forks": 5,
-      "language": "HTML",
+      "name": "agent-of-empires/agent-of-empires",
+      "url": "https://github.com/agent-of-empires/agent-of-empires",
+      "description": "Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding.",
+      "stars": 2816,
+      "forks": 265,
+      "language": "Rust",
       "topics": [
-        "agent-skills",
-        "ai-agents",
-        "awesome-mcp",
-        "business-ai",
-        "business-intelligence",
+        "ai-coding",
+        "claude",
         "claude-code",
-        "corpusiq",
+        "cli",
+        "codex",
+        "cursor",
+        "factory-droid-cli",
+        "gemini",
+        "gemini-cli",
+        "github-copilot-cli",
         "hermes-agent",
-        "mcp",
-        "mcp-server",
-        "nous-research",
-        "skills-marketplace"
+        "llm",
+        "mistral-vibe",
+        "opencode",
+        "orchestrator",
+        "pi",
+        "terminal",
+        "tmux",
+        "vibe",
+        "vibe-coding"
       ],
-      "updated_at": "2026-07-15T03:10:49Z",
-      "category": "mcp",
-      "score": 75,
+      "updated_at": "2026-07-15T14:01:42Z",
+      "category": "forks",
+      "score": 72,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
-        "direct_hermes_reference",
-        "agent_ecosystem",
-        "some_stars_10+",
+        "hermes_topic",
+        "high_stars_1000+",
         "detailed_description",
         "active_week",
         "has_homepage"
       ],
       "near_duplicates": [
-        "longyunfeigu/learn-hermes-agent",
-        "crispyb0i/hermes-operator-pack",
-        "BBridgeers/hermes-skills",
-        "anomaliagent007-hue/hermes-mimo-bridge"
+        "tale-project/tale",
+        "AVIDS2/memorix",
+        "ruvnet/metaharness"
       ],
-      "discovered_at": "2026-07-15T05:08:53.774409+00:00",
+      "discovered_at": "2026-07-15T14:04:41.365807+00:00",
       "status": "approved",
-      "approved_at": "2026-07-15T05:11:15.247343+00:00"
+      "approved_at": "2026-07-15T14:06:39.594525+00:00"
     }
   ],
   "stats": {
-    "total_found": 17,
+    "total_found": 16,
     "auto_approved": 1,
-    "pending_review": 16,
-    "total_approved": 144,
-    "total_pending": 621
+    "pending_review": 15,
+    "total_approved": 145,
+    "total_pending": 636
   }
 }

@@ -1,12 +1,12 @@
 ---
 title: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem — 140+ repos, tools, skills, and integrations
-last_updated: 2026-07-08
+last_updated: 2026-07-15
 ---
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **140+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **141+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
 > **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome.
 
@@ -17,7 +17,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **140+ reposit
 | 🎬 Content & Media | 1 | Video, social media, content generation |
 | 🧠 Core Framework | 4 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 9 | Docker, Kubernetes, production hosting |
-| 🍴 Forks & Derivatives | 3 | Community forks with significant changes |
+| 🍴 Forks & Derivatives | 4 | Community forks with significant changes |
 | 🔗 Integrations | 2 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 5 | Model Context Protocol servers & integrations |
 | 💾 Memory & Knowledge | 35 | Persistent memory, knowledge graphs, context systems |
@@ -162,6 +162,14 @@ _Community forks with significant changes_
 >On-screen aware AI assistant for your desktop. Uses current app context, multiple LLMs, and MCP tools to help you act across apps.
 
 **Language:** C# | **Topics:** ai, ai-agents, ai-assistant, avalonia, claude | **Score:** 77/100
+
+---
+
+### [agent-of-empires/agent-of-empires](https://github.com/agent-of-empires/agent-of-empires) ⭐ 2,816
+
+>Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding.
+
+**Language:** Rust | **Topics:** ai-coding, claude, claude-code, codex, hermes-agent, orchestrator | **Score:** 72/100
 
 ---
 

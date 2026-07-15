@@ -4232,5 +4232,54 @@
     "discovered_at": "2026-07-15T05:08:53.774409+00:00",
     "status": "approved",
     "approved_at": "2026-07-15T05:11:15.247343+00:00"
+  },
+  {
+    "name": "agent-of-empires/agent-of-empires",
+    "url": "https://github.com/agent-of-empires/agent-of-empires",
+    "description": "Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding.",
+    "stars": 2816,
+    "forks": 265,
+    "language": "Rust",
+    "topics": [
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "cli",
+      "codex",
+      "cursor",
+      "factory-droid-cli",
+      "gemini",
+      "gemini-cli",
+      "github-copilot-cli",
+      "hermes-agent",
+      "llm",
+      "mistral-vibe",
+      "opencode",
+      "orchestrator",
+      "pi",
+      "terminal",
+      "tmux",
+      "vibe",
+      "vibe-coding"
+    ],
+    "updated_at": "2026-07-15T14:01:42Z",
+    "category": "forks",
+    "score": 72,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_topic",
+      "high_stars_1000+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "tale-project/tale",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-07-15T14:04:41.365807+00:00",
+    "status": "approved",
+    "approved_at": "2026-07-15T14:06:39.594525+00:00"
   }
 ]
