@@ -1,5 +1,22 @@
 {% extends "base.html" %}
 
+{#
+  Title tag without the "- {{ site_name }}" suffix the base theme appends.
+  Material renders "<page title> - CorpusIQ Docs", and that 15-character suffix
+  pushed many otherwise-fine titles past the 60-char limit Ahrefs flags as
+  "Title too long". Dropping it reclaims those characters. The homepage still
+  uses the site name as its title.
+#}
+{% block htmltitle %}
+  {% if page.meta and page.meta.title %}
+    <title>{{ page.meta.title }}</title>
+  {% elif page.title and not page.is_homepage %}
+    <title>{{ page.title | striptags }}</title>
+  {% else %}
+    <title>{{ config.site_name }}</title>
+  {% endif %}
+{% endblock %}
+
 {% block extrahead %}
   {{ super() }}
   {#
