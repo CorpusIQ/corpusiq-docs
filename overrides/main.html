@@ -1,4 +1,32 @@
 {% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <!-- Open Graph tags — required for social sharing previews (LinkedIn, X, Facebook) -->
+  {% if page and page.meta %}
+    {% if page.meta.title %}
+      <meta property="og:title" content="{{ page.meta.title }}">
+    {% elif page.title %}
+      <meta property="og:title" content="{{ page.title }}">
+    {% endif %}
+    {% if page.meta.description %}
+      <meta property="og:description" content="{{ page.meta.description }}">
+    {% elif config.site_description %}
+      <meta property="og:description" content="{{ config.site_description }}">
+    {% endif %}
+  {% endif %}
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta name="twitter:card" content="summary_large_image">
+  {% if page and page.meta and page.meta.title %}
+    <meta name="twitter:title" content="{{ page.meta.title }}">
+  {% endif %}
+  {% if page and page.meta and page.meta.description %}
+    <meta name="twitter:description" content="{{ page.meta.description }}">
+  {% endif %}
+{% endblock %}
+
 {% block scripts %}
   {{ super() }}
   <script>

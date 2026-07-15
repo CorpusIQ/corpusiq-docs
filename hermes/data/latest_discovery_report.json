@@ -1,58 +1,61 @@
 {
-  "run_time": "2026-06-29T05:04:57.892797+00:00",
+  "run_time": "2026-07-15T14:06:39.603988+00:00",
   "new_approved": [
     {
-      "name": "mage0535/hermes-memory-installer",
-      "url": "https://github.com/mage0535/hermes-memory-installer",
-      "description": "\ud83e\udde0 Production-grade memory sidecar for AI agents \u2014 gbrain + Hindsight + 3-tier recall. Agent-agnostic, battle-tested. | \u751f\u4ea7\u7ea7\u5916\u6302\u8bb0\u5fc6\u7cfb\u7edf\uff0c\u517c\u5bb9Hermes/Claude/Cursor\u7b49\u4efb\u610fAI\u667a\u80fd\u4f53",
-      "stars": 165,
-      "forks": 9,
-      "language": "Python",
+      "name": "agent-of-empires/agent-of-empires",
+      "url": "https://github.com/agent-of-empires/agent-of-empires",
+      "description": "Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding.",
+      "stars": 2816,
+      "forks": 265,
+      "language": "Rust",
       "topics": [
-        "agent-memory",
-        "ai-agent",
+        "ai-coding",
+        "claude",
         "claude-code",
         "cli",
         "codex",
         "cursor",
-        "gbrain",
-        "hermes",
-        "hindsight",
-        "knowledge-graph",
+        "factory-droid-cli",
+        "gemini",
+        "gemini-cli",
+        "github-copilot-cli",
+        "hermes-agent",
         "llm",
-        "memory",
-        "multi-agent",
-        "production",
-        "python",
-        "rag",
-        "retrieval",
-        "semantic-search",
-        "sidecar",
-        "vector-memory"
+        "mistral-vibe",
+        "opencode",
+        "orchestrator",
+        "pi",
+        "terminal",
+        "tmux",
+        "vibe",
+        "vibe-coding"
       ],
-      "updated_at": "2026-06-29T05:04:24Z",
+      "updated_at": "2026-07-15T14:01:42Z",
       "category": "forks",
-      "score": 75,
+      "score": 72,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
-        "hermes_mention",
-        "agent_ecosystem",
-        "moderate_stars_100+",
+        "hermes_topic",
+        "high_stars_1000+",
         "detailed_description",
         "active_week",
         "has_homepage"
       ],
-      "near_duplicates": [],
-      "discovered_at": "2026-06-29T05:04:39.628217+00:00",
+      "near_duplicates": [
+        "tale-project/tale",
+        "AVIDS2/memorix",
+        "ruvnet/metaharness"
+      ],
+      "discovered_at": "2026-07-15T14:04:41.365807+00:00",
       "status": "approved",
-      "approved_at": "2026-06-29T05:04:57.880204+00:00"
+      "approved_at": "2026-07-15T14:06:39.594525+00:00"
     }
   ],
   "stats": {
-    "total_found": 14,
+    "total_found": 16,
     "auto_approved": 1,
-    "pending_review": 13,
-    "total_approved": 136,
-    "total_pending": 390
+    "pending_review": 15,
+    "total_approved": 145,
+    "total_pending": 636
   }
 }

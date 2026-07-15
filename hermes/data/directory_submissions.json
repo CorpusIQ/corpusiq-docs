@@ -1,0 +1,349 @@
+{
+  "date": "2026-07-04-AM",
+  "items": [
+    {
+      "name": "gregoire-costory/awesome-agentic-finops",
+      "url": "github.com/gregoire-costory/awesome-agentic-finops/issues",
+      "notes": "21★. PERFECT FIT — FinOps MCP. SUBMISSION BLOCKED: GitHub spam filter auto-deletes issues. Needs PR-based or manual submission."
+    },
+    {
+      "name": "VipinMI2024/awesome-mcp-servers",
+      "url": "github.com/VipinMI2024/awesome-mcp-servers/issues",
+      "notes": "8★. Sales/lead gen MCP. SUBMISSION BLOCKED: GitHub spam filter auto-deletes issues."
+    },
+    {
+      "name": "DevOpsAIguru123/awesome-agentic-devops",
+      "url": "github.com/DevOpsAIguru123/awesome-agentic-devops",
+      "notes": "6★. DevOps/Cloud/SRE MCP catalog. Issues enabled. MEDIUM priority."
+    },
+    {
+      "name": "yerdaulet-damir/awesome-solo-ai",
+      "url": "github.com/yerdaulet-damir/awesome-solo-ai",
+      "notes": "4★. Solopreneur AI tools. Core demographic match. MEDIUM priority."
+    },
+    {
+      "name": "Kuberwastaken/awesome-codex-mcp-servers",
+      "url": "github.com/Kuberwastaken/awesome-codex-mcp-servers",
+      "notes": "1★. Codex MCP catalog. LOW priority."
+    },
+    {
+      "name": "arieslee/awesome-agent-plugin",
+      "url": "github.com/arieslee/awesome-agent-plugin",
+      "notes": "0★. Agent plugin MCP list. LOW priority."
+    },
+    {
+      "name": "Chat2AnyLLM/awesome-mcp-servers",
+      "url": "github.com/Chat2AnyLLM/awesome-mcp-servers",
+      "notes": "0★. NEW July 4. Machine-readable MCP format. Issues enabled. LOW priority now but monitor — machine-readable = programmatic indexing potential."
+    },
+    {
+      "name": "Enterprise-AI-Atlas/awesome-mcp-servers",
+      "url": "github.com/Enterprise-AI-Atlas/awesome-mcp-servers",
+      "notes": "0★. Curated MCP servers/clients. Issues enabled. Created June 23. LOW priority."
+    },
+    {
+      "name": "Cubiczan/awesome-mcp-servers",
+      "url": "github.com/Cubiczan/awesome-mcp-servers",
+      "notes": "0★. No description. Issues enabled. LOW priority."
+    },
+    {
+      "name": "There's An AI For That",
+      "url": "theresanaiforthat.com",
+      "notes": "DR 62. LARGEST AI directory. FREE. BLOCKED: Cloudflare 403. Flag for manual/browser submission."
+    },
+    {
+      "name": "SaaSHub",
+      "url": "saashub.com",
+      "notes": "DR 76. HIGH DR SaaS directory. FREE. Accessible (200). Submit via web form."
+    },
+    {
+      "name": "AlternativeTo",
+      "url": "alternativeto.net",
+      "notes": "DR 76. HIGH DR. List as alternative to competitors. BLOCKED: Cloudflare 403."
+    },
+    {
+      "name": "FutureTools",
+      "url": "futuretools.io",
+      "notes": "DR 55. Matt Wolfe's directory. FREE. Accessible (200). HIGH priority."
+    },
+    {
+      "name": "Futurepedia",
+      "url": "futurepedia.io",
+      "notes": "DR 42. Well-known AI directory. FREE. Accessible (200). HIGH priority."
+    },
+    {
+      "name": "BetaList",
+      "url": "betalist.com",
+      "notes": "DR 67. Launch platform. FREE. Accessible (200). Pre-launch/launched only. HIGH priority."
+    },
+    {
+      "name": "Dang.ai",
+      "url": "dang.ai",
+      "notes": "DA 35. AI tools directory. FREE. Accessible (200)."
+    },
+    {
+      "name": "aitools.fyi",
+      "url": "aitools.fyi",
+      "notes": "DA 27. AI tools directory. FREE. Accessible (200)."
+    },
+    {
+      "name": "AI Scout",
+      "url": "aiscout.net",
+      "notes": "DA 25. AI tools directory. FREE."
+    },
+    {
+      "name": "Supertools (The Rundown)",
+      "url": "supertools.therundown.ai",
+      "notes": "DA 38. Part of The Rundown AI newsletter. FREE. Accessible (301 redirect). HIGH priority — newsletter audience overlap."
+    },
+    {
+      "name": "DevHunt",
+      "url": "devhunt.org",
+      "notes": "DR 45. GitHub PR submission! ACTIONABLE NOW — no browser needed. Submit via PR to their repo."
+    },
+    {
+      "name": "PeerPush",
+      "url": "peerpush.net",
+      "notes": "DR 50. GEO-friendly, AI-readable structured data. FREE. Accessible (301)."
+    },
+    {
+      "name": "TinyLaunch",
+      "url": "tinylaunch.com",
+      "notes": "DR 55. Launch platform + competitor listing. FREE. Accessible (307)."
+    },
+    {
+      "name": "GoodFirms",
+      "url": "goodfirms.co",
+      "notes": "DA 55. Software reviews. FREE. Requires account."
+    },
+    {
+      "name": "AI Tool Hunt",
+      "url": "aitoolhunt.com",
+      "notes": "DA 24. AI tools. FREE."
+    },
+    {
+      "name": "Easy With AI",
+      "url": "easywithai.com",
+      "notes": "DA 27. AI tools directory. FREE."
+    },
+    {
+      "name": "PaulBoguta/awesome-directories",
+      "url": "github.com/paulboguta/awesome-directories",
+      "notes": "0★. META resource — 100+ directory targets. Used as discovery source for this cycle."
+    },
+    {
+      "name": "xuweizhengo/skills-hub",
+      "url": "github.com/xuweizhengo/skills-hub",
+      "notes": "43★. AI Skills & MCP marketplace for Claude Code, Codex, Cursor. Topics: ai-coding, mcp, skills, marketplace. PR welcome badge. HIGH priority — 43★ community. Created June 27."
+    },
+    {
+      "name": "corezoid/corezoid-ai-plugin",
+      "url": "github.com/corezoid/corezoid-ai-plugin",
+      "notes": "70★. AI plugin marketplace for Claude Code and Codex: product knowledge, workflow skills, MCP references. Issues enabled. HIGH priority — largest new marketplace find. Created May 4."
+    },
+    {
+      "name": "Milktang0128/myskills",
+      "url": "github.com/Milktang0128/myskills",
+      "notes": "51★. Cross-platform desktop AI Skill Hub — discover, dedupe, organize, sync AI agent skills. Ships MCP server. Issues enabled. HIGH priority — 51★ community. Created May 19."
+    },
+    {
+      "name": "Reina-Agent/Reina",
+      "url": "github.com/Reina-Agent/Reina",
+      "notes": "13★. Open-source desktop AI agent — multi-agent teams, MCP & Skills marketplace. Electron+React+TypeScript. Issues enabled. HIGH priority — marketplace built in. Created July 3 (VERY NEW)."
+    },
+    {
+      "name": "eon01/awesome-mcp",
+      "url": "github.com/eon01/awesome-mcp",
+      "notes": "0★. Curated map of MCP ecosystem: devtools, platforms, resources. Categories include Gateways, SDKs, Platforms. Issues enabled. MEDIUM — author ships MCP courses, credible. Created July 1."
+    },
+    {
+      "name": "caSSano22/quiver-mcp",
+      "url": "github.com/caSSano22/quiver-mcp",
+      "notes": "0★. AI agent tools directory with letter-grade (A-F) polygraph. Auto-indexes npm packages tagged 'model context protocol'. Has $QUIVER token on Base. API for reviews. MEDIUM — CorpusIQ needs npm package for auto-index; otherwise manual. Created June 16."
+    },
+    {
+      "name": "mrahm65/AgentVerse-5K",
+      "url": "github.com/mrahm65/AgentVerse-5K",
+      "notes": "0★. Curated index of 5,000+ open-source AI agent repos — largest community AI-agent directory on GitHub. Covers MCP servers, voice/coding agents, LangGraph, AutoGen, CrewAI. Issues enabled. MEDIUM. Created June 16."
+    },
+    {
+      "name": "frangelbarrera/awesome-ai-agents",
+      "url": "github.com/frangelbarrera/awesome-ai-agents",
+      "notes": "9★. 24-category AI agents directory: frameworks, coding assistants, OSINT, MCP, voice, Web3, edge AI. Issues enabled. MEDIUM. Created June 1. NOTE: earlier submission (issue #13) nuked by spam filter — try PR instead."
+    },
+    {
+      "name": "mcpHQ/awesome-mcp-servers",
+      "url": "github.com/mcpHQ/awesome-mcp-servers",
+      "notes": "3★. No description. Issues enabled. MEDIUM. Created May 30."
+    },
+    {
+      "name": "insodimension/awesome-agent-protocols",
+      "url": "github.com/insodimension/awesome-agent-protocols",
+      "notes": "7★. Curated list of 50+ agent protocols: MCP, A2A, ACP, AG-UI, AP2, x402. Issues enabled. MEDIUM — MCP is a featured protocol category. Created June 2."
+    },
+    {
+      "name": "jentic/awesome-agent-apis",
+      "url": "github.com/jentic/awesome-agent-apis",
+      "notes": "2★. Curated AI-agent-ready APIs scored by Jentic AI-Readiness Framework. Issues enabled. MEDIUM — CorpusIQ is API-first. Created June 8."
+    },
+    {
+      "name": "discoveredlabs/awesome-aeo-seo-agents",
+      "url": "github.com/discoveredlabs/awesome-aeo-seo-agents",
+      "notes": "2★. AI agents, MCP tools, agentic frameworks for AEO and SEO. Issues enabled. LOW. Created June 27."
+    },
+    {
+      "name": "Kuberwastaken/awesome-claude-mcp-servers",
+      "url": "github.com/Kuberwastaken/awesome-claude-mcp-servers",
+      "notes": "1★. Curated Claude MCP catalog — sibling to already-tracked Codex version. Issues enabled. LOW. Created July 1."
+    },
+    {
+      "name": "alvabillwu/mcpindex",
+      "url": "github.com/alvabillwu/mcpindex",
+      "notes": "0★. Searchable index and discovery tool for MCP servers — aggregate from any registry, dedupe/merge. Issues enabled. LOW — monitor for growth. Created June 29."
+    },
+    {
+      "name": "cyotee/opencode-marketplace",
+      "url": "github.com/cyotee/opencode-marketplace",
+      "notes": "0★. Marketplace support for OpenCode: Claude-format plugin catalogs. Issues enabled. LOW — monitor. Created July 2."
+    },
+    {
+      "name": "Tulimoa/tulimoa-mcp",
+      "url": "github.com/Tulimoa/tulimoa-mcp",
+      "notes": "1★. Remote MCP server for Tulimoa directory — let agents discover SaaS and AI tools. Has a web directory at tulimoa.com. Issues enabled. LOW — web directory angle. Created June 21."
+    },
+    {
+      "name": "mcp-index.com",
+      "url": "https://mcp-index.com/submit",
+      "notes": "Web directory. Placeholder (1182 bytes) — keywords: 'best MCP servers, MCP search engine'. /submit returns 200. MONITOR — could become real directory. LOW priority until fleshed out."
+    }
+  ],
+  "completed": [
+    {
+      "name": "MCP.so",
+      "url": "mcp.so/server/corpusiq",
+      "status": "LIVE — verified 200 July 4 AM"
+    },
+    {
+      "name": "mcpservers.org",
+      "url": "mcpservers.org/servers/corpusiq-io",
+      "status": "LIVE — verified 200 July 4 AM"
+    },
+    {
+      "name": "Glama.ai",
+      "url": "glama.ai/mcp/servers/CorpusIQ/corpusiq-docs",
+      "status": "LIVE — verified 200 July 4 AM"
+    },
+    {
+      "name": "Uneed.best",
+      "url": "uneed.best/tool/corpusiq",
+      "status": "LIVE — verified 302 July 4 AM"
+    },
+    {
+      "name": "Smithery.ai",
+      "url": "smithery.ai/server/corpusiq",
+      "status": "NOT LISTED — 308 redirect (19th cycle July 4 AM). Root cause: corpusiq/corpusiq-mcp repo missing."
+    },
+    {
+      "name": "Wikidata Q140239812",
+      "url": "wikidata.org/wiki/Q140239812",
+      "status": "DELETED — 404 (12th cycle July 4 AM). Needs full recreation."
+    },
+    {
+      "name": "PRLog",
+      "url": "prlog.org/13137131",
+      "status": "LIVE"
+    },
+    {
+      "name": "LaunchBoosts",
+      "url": "launchboosts.com/alternatives/corpusiq",
+      "status": "LIVE — verified 200 July 4 AM"
+    },
+    {
+      "name": "Good AI Tools",
+      "url": "goodaitools.com/ai/corpusiq",
+      "status": "LIVE — verified 200 July 4 AM"
+    },
+    {
+      "name": "SaaS Territory",
+      "url": "saasterritory.com/products/corpusiq",
+      "status": "LIVE — verified 200 July 4 AM"
+    },
+    {
+      "name": "ANYFP",
+      "url": "anyfp.com/corpusiq/",
+      "status": "LIVE"
+    },
+    {
+      "name": "Stackshare",
+      "url": "stackshare.io/corpusiq",
+      "status": "LIVE"
+    },
+    {
+      "name": "MCP.Directory",
+      "url": "mcp.directory/submit",
+      "status": "SUBMITTED — pending 18 days (June 16→July 4 AM)"
+    },
+    {
+      "name": "Etropo Marketing MCPs",
+      "url": "etropo.com/marketing-mcps",
+      "status": "SUBMITTED — pending 11 days (June 23→July 4 AM)"
+    },
+    {
+      "name": "AgenticSkills.io",
+      "url": "agenticskills.io/submit",
+      "status": "SUBMITTED — pending 11 days (June 23→July 4 AM)"
+    },
+    {
+      "name": "adw0rd/awesome-mcp-servers",
+      "url": "github.com/adw0rd/awesome-mcp-servers/issues/5",
+      "status": "OPEN — since June 17 (17 days). Only surviving GitHub submission."
+    },
+    {
+      "name": "best-of-ai/ai-directories",
+      "url": "github.com/best-of-ai/ai-directories/issues",
+      "status": "SUBMITTED"
+    },
+    {
+      "name": "PulseMCP",
+      "url": "pulsemcp.com/servers/corpusiq",
+      "status": "BLOCKED — Cloudflare 403"
+    },
+    {
+      "name": "G2.com",
+      "url": "g2.com/products/corpusiq",
+      "status": "BLOCKED — Cloudflare 403. Profile exists, 0 reviews."
+    },
+    {
+      "name": "tolkonepiu/best-of-mcp-servers",
+      "url": "github.com/tolkonepiu/best-of-mcp-servers/issues/288",
+      "status": "DELETED — Issue #288 nuked by GitHub spam filter (July 4 AM check). Repo alive (143 open issues). Submitted July 3 AM."
+    },
+    {
+      "name": "wundercorp/awesome-mcp",
+      "url": "github.com/wundercorp/awesome-mcp/issues/12",
+      "status": "DELETED — Issue #12 nuked by GitHub spam filter. Repo alive (4 open issues). Submitted July 3 AM."
+    },
+    {
+      "name": "eL1fe/mcpdir",
+      "url": "github.com/eL1fe/mcpdir/issues/17",
+      "status": "DELETED — Issue #17 nuked by GitHub spam filter. Repo alive (13 open issues). Submitted July 3 AM."
+    },
+    {
+      "name": "frangelbarrera/Artificial-Intelligence-Universe",
+      "url": "github.com/frangelbarrera/Artificial-Intelligence-Universe/issues/13",
+      "status": "DELETED — Issue #13 nuked by GitHub spam filter. Repo alive (7 open issues). Submitted July 3 AM."
+    },
+    {
+      "name": "jshorwitz/awesome-agentic-advertising",
+      "url": "github.com/jshorwitz/awesome-agentic-advertising/issues/11",
+      "status": "DELETED — Issue #11 nuked by GitHub spam filter. Repo alive (8 open issues). Submitted July 3 AM."
+    },
+    {
+      "name": "abordage/awesome-mcp",
+      "url": "github.com/abordage/awesome-mcp/issues/67",
+      "status": "DELETED — Issue #67 nuked by GitHub spam filter. Repo alive (5 open issues). Submitted July 3 AM."
+    }
+  ],
+  "last_updated": "2026-07-04T14:00:00-07:00",
+  "cycle_notes": "PM cycle. Firecrawl still DOWN — all research via GitHub API + curl. EXISTING STATUS: mcp.so 200, mcpservers.org 200, glama.ai 200, smithery.ai 308 (unchanged, 19th cycle), Wikidata 404 (unchanged, 12th cycle), theresanaiforthat.com 403, pulsemcp.com 403. DevHunt 200 LIVE, TinyLaunch 200 LIVE. SaasHub/FutureTools/Futurepedia/BetaList/Dang.ai/aitools.fyi all 404 (not listed yet). MAJOR NEW FINDS: 4 HIGH-priority marketplaces: xuweizhengo/skills-hub (43★), corezoid/corezoid-ai-plugin (70★), Milktang0128/myskills (51★), Reina-Agent/Reina (13★). 11 MEDIUM/LOW awesome-lists and directories. mcp-index.com placeholder (monitor). GitHub spam filter still blocking issue submissions — PR-based or web form submissions needed. All new discoveries added to items array. Total items: 35. Total completed: 27."
+}
