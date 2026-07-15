@@ -1184,6 +1184,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*140+ repositories in the Hermes ecosystem. Last updated: 2026-07-03. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*144+ repositories in the Hermes ecosystem. Last updated: 2026-07-14. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

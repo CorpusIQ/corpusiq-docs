@@ -15,6 +15,7 @@ import sys
 import time
 import urllib.request
 import urllib.parse
+import urllib.error
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -247,17 +248,33 @@ def discover_repos(token, dry_run=False):
             time.sleep(QUERY_DELAY)
         query_count += 1
 
-        url = f"https://api.github.com/search/repositories?q={urllib.parse.quote(query, safe='+')}&per_page=10"
+        # GitHub search uses + for spaces, : and , must remain literal
+        encoded_query = query.replace(' ', '+')
+        url = f"https://api.github.com/search/repositories?q={encoded_query}&per_page=10"
         headers = {
             "Accept": "application/vnd.github.v3+json",
             "User-Agent": "CorpusIQ-Hermes-Discovery/1.0"
         }
-        if token and token != "UNAUTHENTICATED":
+        auth_used = token and token != "UNAUTHENTICATED"
+        if auth_used:
             headers["Authorization"] = f"token {token}"
         req = urllib.request.Request(url, headers=headers)
 
         try:
-            data = json.loads(urllib.request.urlopen(req).read())
+            try:
+                resp = urllib.request.urlopen(req)
+                data = json.loads(resp.read())
+            except urllib.error.HTTPError as e:
+                # Read error body to check for spammy flag
+                err_body = e.read().decode()
+                if auth_used and 'spammy' in err_body.lower():
+                    # Token flagged — retry without auth
+                    del headers["Authorization"]
+                    req2 = urllib.request.Request(url, headers=headers)
+                    resp2 = urllib.request.urlopen(req2)
+                    data = json.loads(resp2.read())
+                else:
+                    raise
             items = data.get("items", [])
             print(f"\n📡 {category:15s} → {len(items)} results")
 

@@ -1,95 +1,55 @@
 {
-  "run_time": "2026-07-14T08:09:52.624397+00:00",
+  "run_time": "2026-07-15T05:11:15.265354+00:00",
   "new_approved": [
     {
-      "name": "yuluyangguang1/hermes-portable",
-      "url": "https://github.com/yuluyangguang1/hermes-portable",
-      "description": "\u2192 Plug-in-a-USB AI agent \u00b7 zero-install, zero-trace, cross-platform \u00b7 \u63d2\u4e0aU\u76d8\u5373\u7528\u7684 Hermes Agent \u4fbf\u643a\u7248",
-      "stars": 37,
-      "forks": 15,
-      "language": "Python",
+      "name": "CorpusIQ/corpusiq-docs",
+      "url": "https://github.com/CorpusIQ/corpusiq-docs",
+      "description": "Hermes Agent Production Knowledge Repository \u2014 406+ repos, AI Agent Marketplace, MCP servers, autonomous AI agent patterns. Production-tested from 1,200+ hours of ops. Updated daily.",
+      "stars": 12,
+      "forks": 5,
+      "language": "HTML",
       "topics": [
-        "ai-agent",
-        "claude",
-        "cli-tool",
-        "cross-platform",
-        "hermes",
-        "llm",
-        "openai",
-        "portable",
-        "python",
-        "self-contained",
-        "usb"
+        "agent-skills",
+        "ai-agents",
+        "awesome-mcp",
+        "business-ai",
+        "business-intelligence",
+        "claude-code",
+        "corpusiq",
+        "hermes-agent",
+        "mcp",
+        "mcp-server",
+        "nous-research",
+        "skills-marketplace"
       ],
-      "updated_at": "2026-07-14T08:06:14Z",
-      "category": "core",
-      "score": 73,
+      "updated_at": "2026-07-15T03:10:49Z",
+      "category": "mcp",
+      "score": 75,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
         "direct_hermes_reference",
         "agent_ecosystem",
         "some_stars_10+",
         "detailed_description",
-        "active_week"
-      ],
-      "near_duplicates": [],
-      "discovered_at": "2026-07-14T08:07:16.272832+00:00",
-      "status": "approved",
-      "approved_at": "2026-07-14T08:09:52.606937+00:00"
-    },
-    {
-      "name": "bitrouter/bitrouter",
-      "url": "https://github.com/bitrouter/bitrouter",
-      "description": "Context-aware agentic LLM gateway & router that optimize your agentic workflows with every runs, works with any harnesses, any models, any loops.",
-      "stars": 203,
-      "forks": 12,
-      "language": "Rust",
-      "topics": [
-        "acp",
-        "agent-guardrails",
-        "agent-harness",
-        "agent-observability",
-        "ai-agent",
-        "anthropic-compatible",
-        "api-gateway",
-        "claude-code",
-        "claude-fable-5",
-        "codex",
-        "hermes-agent",
-        "litellm",
-        "llm-gateway",
-        "llm-router",
-        "mcp",
-        "openai-compatible",
-        "openclaw",
-        "opencode",
-        "rust",
-        "skills"
-      ],
-      "updated_at": "2026-07-14T08:07:50Z",
-      "category": "forks",
-      "score": 72,
-      "tier": "AUTO_APPROVE",
-      "score_reasons": [
-        "hermes_topic",
-        "agent_ecosystem",
-        "moderate_stars_100+",
-        "detailed_description",
         "active_week",
         "has_homepage"
       ],
-      "near_duplicates": [],
-      "discovered_at": "2026-07-14T08:07:57.544718+00:00",
+      "near_duplicates": [
+        "longyunfeigu/learn-hermes-agent",
+        "crispyb0i/hermes-operator-pack",
+        "BBridgeers/hermes-skills",
+        "anomaliagent007-hue/hermes-mimo-bridge"
+      ],
+      "discovered_at": "2026-07-15T05:08:53.774409+00:00",
       "status": "approved",
-      "approved_at": "2026-07-14T08:09:52.606953+00:00"
+      "approved_at": "2026-07-15T05:11:15.247343+00:00"
     }
   ],
   "stats": {
-    "total_found": 13,
-    "auto_approved": 3,
-    "pending_review": 10,
+    "total_found": 17,
+    "auto_approved": 1,
+    "pending_review": 16,
     "total_approved": 144,
-    "total_pending": 605
-  },
-  "auto_approved": 2
+    "total_pending": 621
+  }
 }
