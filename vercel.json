@@ -6,6 +6,21 @@
       "source": "/hermes/:path*",
       "destination": "/docs/hermes/:path*",
       "statusCode": 301
+    },
+    {
+      "source": "/assets/:path*",
+      "destination": "/docs/assets/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/javascripts/:path*",
+      "destination": "/docs/javascripts/:path*",
+      "statusCode": 301
+    },
+    {
+      "source": "/stylesheets/:path*",
+      "destination": "/docs/stylesheets/:path*",
+      "statusCode": 301
     }
   ]
 }
