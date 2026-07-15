@@ -35,7 +35,7 @@ Add this to your Hermes `config.yaml` under `mcp.servers`. Restart Hermes and ru
 
 ### OpenClaw
 
-[OpenClaw](https://github.com/nicegui-dev/openclaw) by NiceGUI.
+[OpenClaw](#repo-unavailable) by NiceGUI.
 
 **Setup:**
 ```json

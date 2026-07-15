@@ -5,7 +5,7 @@ description: Install and configure Chukwuemeka001/hermes-memory-stack — a modu
 
 # Hermes Memory Stack — Setup Guide
 
-**Source:** [Chukwuemeka001/hermes-memory-stack](https://github.com/Chukwuemeka001/hermes-memory-stack)
+**Source:** [Chukwuemeka001/hermes-memory-stack](#repo-unavailable)
 **Stars:** 0 ⭐ | **License:** Apache-2.0
 **Created:** June 24, 2026
 **Category:** Agent Infrastructure / Memory Management
@@ -43,7 +43,7 @@ A modular memory OS layer for Hermes Agent that addresses the full memory lifecy
 ## 3. Installation
 
 ```bash
-git clone https://github.com/Chukwuemeka001/hermes-memory-stack.git
+git clone #repo-unavailable.git
 cd hermes-memory-stack
 bash install.sh
 ```

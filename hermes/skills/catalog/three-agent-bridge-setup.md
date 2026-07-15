@@ -5,7 +5,7 @@ description: Install and configure airbrushbones-afk/hermes-skills/three-agent-b
 
 # Three-Agent Bridge Protocol Setup
 
-**Source:** [airbrushbones-afk/hermes-skills](https://github.com/airbrushbones-afk/hermes-skills)
+**Source:** [airbrushbones-afk/hermes-skills](#repo-unavailable)
 **Package:** `three-agent-bridge` subdirectory
 **Stars:** 0 ⭐ | **License:** MIT
 **Created:** June 24, 2026
@@ -47,7 +47,7 @@ A real-time synchronization protocol for three Hermes agents: **Human + Desktop 
 ## 3. Installation
 
 ```bash
-git clone https://github.com/airbrushbones-afk/hermes-skills.git
+git clone #repo-unavailable.git
 cp -r hermes-skills/three-agent-bridge ~/.hermes/skills/three-agent-bridge
 ```
 

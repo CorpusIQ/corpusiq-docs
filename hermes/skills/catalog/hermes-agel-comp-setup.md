@@ -302,7 +302,7 @@ AGEL-Comp works through Hermes plugin hooks — the agent cannot disable it. If 
 ## References
 
 - Shahid, A. & Rothe, C. (2026). *AGEL-Comp: A Neuro-Symbolic Framework for Safe Autonomous Agent Deployment.*
-- [Hermes Agent Plugin Documentation](https://hermes-agent.nousresearch.com/docs/plugins)
+- [Hermes Agent Plugin Documentation](#repo-unavailable)
 
 ---
 
