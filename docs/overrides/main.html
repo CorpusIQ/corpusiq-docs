@@ -10,7 +10,7 @@
       <meta property="og:title" content="{{ page.title }}">
     {% endif %}
     {% if page.meta.description %}
-      <meta property="og:description" content="{{ page.meta.description }}">
+      <meta property="og:description" content="{{ page.meta.description | truncate(155, True, "", 0) | trim }}">
     {% elif config.site_description %}
       <meta property="og:description" content="{{ config.site_description }}">
     {% endif %}
@@ -23,11 +23,11 @@
     <meta name="twitter:title" content="{{ page.meta.title }}">
   {% endif %}
   {% if page and page.meta and page.meta.description %}
-    <meta name="twitter:description" content="{{ page.meta.description }}">
+    <meta name="twitter:description" content="{{ page.meta.description | truncate(155, True, "", 0) | trim }}">
   {% endif %}
   <!-- Meta description for SEO crawlers -->
   {% if page and page.meta and page.meta.description %}
-    <meta name="description" content="{{ page.meta.description }}">
+    <meta name="description" content="{{ page.meta.description | truncate(155, True, "", 0) | trim }}">
   {% elif config.site_description %}
     <meta name="description" content="{{ config.site_description }}">
   {% endif %}
