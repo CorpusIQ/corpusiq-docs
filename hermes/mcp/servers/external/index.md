@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 14, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 15, 2026 (evening supplement) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -140,6 +140,9 @@ Company formation, bank accounts, cards, invoices, and payments  --  all directl
 
 ### Legal Doc Intelligence ★ New
 AI-powered legal document analysis, contract review, and compliance checking — extract clauses, assess risk, and verify regulatory alignment
+
+### Lawstronaut MCP ★ New (July 15)
+Access millions of official legal and regulatory source documents from 155+ jurisdictions via MCP. Structured legal research, laws, regulations, cases, and guidance for AI agents. Essential for operators managing cross-border compliance and international regulatory research. [Integration Guide](/hermes/mcp/servers/external/lawstronaut-mcp/)
 
 ### Substack Publisher MCP ★ New (July 12)
 Queries Substack posts, engagement analytics, subscriber counts, and publications through the official Publisher API. Essential for content operators running newsletter-first businesses who want AI-driven analytics. [Integration Guide](/hermes/mcp/servers/external/substack-publisher-mcp/)
@@ -282,6 +285,9 @@ Trading-focused MCP server. Provides AI agents with trading data, market access,
 
 ### Sifter
 Extracts structured, typed records from documents (PDFs, scans, contracts, invoices) using natural-language field specs. Agents can query and aggregate  --  exact counts, sums, filters, with source-page citations. Unlike RAG, answers collection-wide questions.
+
+### Unstructured Transform MCP ★ New (July 15)
+Parse PDFs, CSVs, images, and documents into structured AI-ready data via the Unstructured platform. Remote MCP transport — turn raw files into queryable intelligence for AI agents. Essential for operators processing invoices, contracts, and reports at scale. [Integration Guide](/hermes/mcp/servers/external/unstructured-transform-mcp/)
 
 ---
 
