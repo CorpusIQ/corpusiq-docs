@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Second-wave discovery from mcpservers.org sitemaps 2-5. 220+ servers with Jul 15 lastmod, 5 business-critical integration guides created.">
+        <meta name="description" content="Complete setup guide for hermes-history-ingest — ingest Hermes agent conversation history and session data into an Obsidian wiki vault.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-15-wave2.html">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-history-ingest-setup/index.html">
       
       
       
@@ -23,7 +23,7 @@
     
     
       
-        <title>MCP Server Scan — July 15, 2026 (Wave 2: Sitemaps 2-5) - CorpusIQ Docs</title>
+        <title>hermes-history-ingest Setup Guide - CorpusIQ Docs</title>
       
     
     
@@ -61,21 +61,25 @@
   <!-- Open Graph tags — required for social sharing previews (LinkedIn, X, Facebook) -->
   
     
-      <meta property="og:title" content="MCP Server Scan — July 15, 2026 (Wave 2: Sitemaps 2-5)">
+      <meta property="og:title" content="hermes-history-ingest Setup Guide">
     
     
-      <meta property="og:description" content="Second-wave discovery from mcpservers.org sitemaps 2-5. 220+ servers with Jul 15 lastmod, 5 business-critical integration guides created.">
+      <meta property="og:description" content="Complete setup guide for hermes-history-ingest — ingest Hermes agent conversation history and session data into an Obsidian wiki vault.">
     
   
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-15-wave2.html">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-history-ingest-setup/index.html">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta name="twitter:card" content="summary_large_image">
   
-    <meta name="twitter:title" content="MCP Server Scan — July 15, 2026 (Wave 2: Sitemaps 2-5)">
+    <meta name="twitter:title" content="hermes-history-ingest Setup Guide">
   
   
-    <meta name="twitter:description" content="Second-wave discovery from mcpservers.org sitemaps 2-5. 220+ servers with Jul 15 lastmod, 5 business-critical integration guides created.">
+    <meta name="twitter:description" content="Complete setup guide for hermes-history-ingest — ingest Hermes agent conversation history and session data into an Obsidian wiki vault.">
+  
+  <!-- Meta description for SEO crawlers -->
+  
+    <meta name="description" content="Complete setup guide for hermes-history-ingest — ingest Hermes agent conversation history and session data into an Obsidian wiki vault.">
   
 
   </head>
@@ -97,7 +101,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mcp-server-scan-july-15-2026-wave-2" class="md-skip">
+        <a href="#hermes-history-ingest-setup-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -133,7 +137,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              MCP Server Scan — July 15, 2026 (Wave 2: Sitemaps 2-5)
+              hermes-history-ingest Setup Guide
             
           </span>
         </div>
@@ -7571,7 +7575,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../skills/catalog/index.html" class="md-nav__link ">
+            <a href="../index.html" class="md-nav__link ">
               
   
   
@@ -7615,7 +7619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../skills/creating-skills.html" class="md-nav__link">
+      <a href="../../creating-skills.html" class="md-nav__link">
         
   
   
@@ -7643,7 +7647,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../skills/skill-marketplaces.html" class="md-nav__link">
+      <a href="../../skill-marketplaces.html" class="md-nav__link">
         
   
   
@@ -7671,7 +7675,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../skills/marketplace/index.html" class="md-nav__link">
+      <a href="../../marketplace/index.html" class="md-nav__link">
         
   
   
@@ -7731,7 +7735,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../index.html" class="md-nav__link ">
+            <a href="../../../mcp/servers/index.html" class="md-nav__link ">
               
   
   
@@ -7775,7 +7779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="index.html" class="md-nav__link">
+      <a href="../../../mcp/servers/external/index.html" class="md-nav__link">
         
   
   
@@ -7841,7 +7845,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../index.html" class="md-nav__link ">
+            <a href="../../../mcp/index.html" class="md-nav__link ">
               
   
   
@@ -8032,10 +8036,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#methodology-change" class="md-nav__link">
+  <a href="#capabilities" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Methodology Change
+        Capabilities
       
     </span>
   </a>
@@ -8043,49 +8047,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#new-business-critical-discoveries-5-guides-created" class="md-nav__link">
+  <a href="#prerequisites" class="md-nav__link">
     <span class="md-ellipsis">
       
-        New Business-Critical Discoveries: 5 guides created
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="New Business-Critical Discoveries: 5 guides created">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#guide-worthy-business-relevant" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Guide-Worthy (Business-Relevant)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#index-only-business-adjacent-but-narrower" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        INDEX-ONLY (Business-Adjacent but Narrower)
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#developerniche-servers-150-more" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Developer/Niche Servers (&gt;150 more)
+        Prerequisites
       
     </span>
   </a>
@@ -8093,10 +8058,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#trends-wave-2" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Trends (Wave 2)
+        Installation
       
     </span>
   </a>
@@ -8104,10 +8069,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#actions-taken" class="md-nav__link">
+  <a href="#usage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Actions Taken
+        Usage
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Troubleshooting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-skills" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related Skills
       
     </span>
   </a>
@@ -8134,239 +8121,57 @@
   
 
 
-<h1 id="mcp-server-scan-july-15-2026-wave-2">MCP Server Scan — July 15, 2026 (Wave 2)<a class="headerlink" href="#mcp-server-scan-july-15-2026-wave-2" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Source:</strong> mcpservers.org sitemaps 2-5 (sitemap 1 was covered in morning scan)
-<strong>Date:</strong> July 15, 2026 (evening, second wave)
-<strong>Previous scan:</strong> July 15, 2026 (morning — sitemap 1 only, 11 servers found)</p>
-<h2 id="methodology-change">Methodology Change<a class="headerlink" href="#methodology-change" title="Anchor link to this section">&para;</a></h2>
-<p>The morning July 15 scan only checked <code>/sitemaps/servers/1.xml</code> (lastmod capped at 2026-07-10). Sitemaps 2-5 contained ~220 unique servers with <code>lastmod &gt;= 2026-07-15</code>. This second-wave scan covers all four remaining sitemaps. Deduplicated across i18n language variants (&gt;90% were translated duplicates — filtered to unique English URLs).</p>
-<h2 id="new-business-critical-discoveries-5-guides-created">New Business-Critical Discoveries: 5 guides created<a class="headerlink" href="#new-business-critical-discoveries-5-guides-created" title="Anchor link to this section">&para;</a></h2>
-<p>These are <strong>enterprise-grade MCP servers from major platform vendors</strong> — the morning scan completely missed them because they're in sitemaps 2-5.</p>
-<h3 id="guide-worthy-business-relevant">Guide-Worthy (Business-Relevant)<a class="headerlink" href="#guide-worthy-business-relevant" title="Anchor link to this section">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Server</th>
-<th>Source</th>
-<th>Description</th>
-<th>Guide</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Confluent MCP</strong> ★</td>
-<td>mcpservers.org sitemap 3</td>
-<td>Official Confluent MCP server — Apache Kafka data streaming for AI agents. Real-time event streaming, topic management, schema registry. Enterprise backbone for event-driven architectures.</td>
-<td><a href="/hermes/mcp/servers/external/confluent-mcp/">Guide</a></td>
-</tr>
-<tr>
-<td><strong>Elasticsearch MCP</strong> ★</td>
-<td>mcpservers.org sitemap 2</td>
-<td>Official Elastic MCP server — full-text search, analytics, and vector search for AI agents. The search infrastructure behind thousands of production apps.</td>
-<td><a href="/hermes/mcp/servers/external/elasticsearch-mcp/">Guide</a></td>
-</tr>
-<tr>
-<td><strong>Snowflake MCP</strong> ★</td>
-<td>mcpservers.org sitemap 4</td>
-<td>MCP server for Snowflake data warehouse — query, manage, and analyze enterprise data through AI agents. Essential for data-heavy operators.</td>
-<td><a href="/hermes/mcp/servers/external/snowflake-mcp/">Guide</a></td>
-</tr>
-<tr>
-<td><strong>Monday.com MCP</strong> ★</td>
-<td>mcpservers.org sitemap 2</td>
-<td>Official Monday.com MCP — project management, workflows, boards, and automations accessible to AI agents. First major PM platform with MCP.</td>
-<td><a href="/hermes/mcp/servers/external/mondaycom-mcp/">Guide</a></td>
-</tr>
-<tr>
-<td><strong>LaunchDarkly MCP</strong> ★</td>
-<td>mcpservers.org sitemap 4</td>
-<td>Official LaunchDarkly MCP server — feature flag management for AI agents. Toggle features, manage rollouts, run experiments without deploying code.</td>
-<td><a href="/hermes/mcp/servers/external/launchdarkly-mcp/">Guide</a></td>
-</tr>
-</tbody>
-</table>
-<h3 id="index-only-business-adjacent-but-narrower">INDEX-ONLY (Business-Adjacent but Narrower)<a class="headerlink" href="#index-only-business-adjacent-but-narrower" title="Anchor link to this section">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Server</th>
-<th>Source</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Neo4j MCP</strong> ★ Official</td>
-<td>sitemap 3</td>
-<td>Official Neo4j graph database MCP. Already partially covered via MCP Long-Term Memory (GraphRAG).</td>
-</tr>
-<tr>
-<td><strong>TimescaleDB MCP</strong></td>
-<td>sitemap 3</td>
-<td>Tiger CLI — TimescaleDB time-series database access for AI agents. Niche: time-series specialists.</td>
-</tr>
-<tr>
-<td><strong>AWS Labs MCP</strong> ★</td>
-<td>sitemap 3</td>
-<td>Multi-service AWS MCP from awslabs. Includes CloudTrail and DynamoDB sub-servers. Massive scope — needs dedicated deep-dive.</td>
-</tr>
-<tr>
-<td><strong>Tencent Cloud Base AI Toolkit</strong></td>
-<td>sitemap 3</td>
-<td>Tencent's cloud platform for AI agents. China-market essential.</td>
-</tr>
-<tr>
-<td><strong>Skyvern MCP</strong></td>
-<td>sitemap 4</td>
-<td>Browser automation platform — web navigation, data extraction, form filling via AI agents. Overlaps with Playwright/Browserbase.</td>
-</tr>
-<tr>
-<td><strong>Instana MCP</strong> ★</td>
-<td>sitemap 4</td>
-<td>IBM Instana APM — observability and application performance monitoring for AI agents.</td>
-</tr>
-<tr>
-<td><strong>SmartBear MCP</strong></td>
-<td>sitemap 4</td>
-<td>SmartBear testing tools MCP — API testing, UI testing, test management.</td>
-</tr>
-<tr>
-<td><strong>OpenTofu MCP</strong></td>
-<td>sitemap 4</td>
-<td>Infrastructure-as-code via MCP. Terraform fork. DevOps niche.</td>
-</tr>
-<tr>
-<td><strong>Firebase MCP</strong> ★ Official</td>
-<td>sitemap 3</td>
-<td>Google Firebase tools via MCP. App platform for mobile/web developers.</td>
-</tr>
-<tr>
-<td><strong>Atlassian MCP</strong></td>
-<td>sitemap 2</td>
-<td>Jira + Confluence access via MCP. Already partially covered via separate guides.</td>
-</tr>
-<tr>
-<td><strong>Resend MCP</strong> ★</td>
-<td>sitemap 2</td>
-<td>Email sending API via MCP. Competitive to existing email MCPs in catalog.</td>
-</tr>
-<tr>
-<td><strong>Shippo MCP</strong> ★</td>
-<td>sitemap 5</td>
-<td>Shipping and logistics API. E-commerce shipping automation.</td>
-</tr>
-<tr>
-<td><strong>WordPress MCP</strong></td>
-<td>sitemap 5</td>
-<td>WordPress CMS management via MCP. Content publishing for operators.</td>
-</tr>
-<tr>
-<td><strong>Xiaohongshu MCP</strong></td>
-<td>sitemap 5</td>
-<td>Chinese social commerce platform (RedNote/Little Red Book). China market.</td>
-</tr>
-<tr>
-<td><strong>Coinrule MCP</strong></td>
-<td>sitemap 5</td>
-<td>Automated trading rule engine via MCP. Crypto + traditional markets.</td>
-</tr>
-<tr>
-<td><strong>Kintone MCP</strong></td>
-<td>sitemap 3</td>
-<td>Japanese low-code business platform. Regional — Japan market.</td>
-</tr>
-<tr>
-<td><strong>Svelte MCP</strong> ★ Official</td>
-<td>sitemap 2</td>
-<td>Official Svelte framework MCP. Web development tool.</td>
-</tr>
-<tr>
-<td><strong>WebdriverIO MCP</strong> ★</td>
-<td>sitemap 4</td>
-<td>Browser test automation via MCP. Testing/QA niche.</td>
-</tr>
-<tr>
-<td><strong>IBM MCP Context Forge</strong></td>
-<td>sitemap 2</td>
-<td>IBM enterprise context management for AI. Enterprise niche.</td>
-</tr>
-<tr>
-<td><strong>Keboola MCP</strong></td>
-<td>sitemap 2</td>
-<td>Data operations platform MCP. ETL/data engineering.</td>
-</tr>
-<tr>
-<td><strong>Backlog MCP</strong></td>
-<td>sitemap 2</td>
-<td>Nulab Backlog project management. Japanese PM tool.</td>
-</tr>
-<tr>
-<td><strong>esa.io MCP</strong></td>
-<td>sitemap 4</td>
-<td>Japanese team knowledge management. Documentation wiki.</td>
-</tr>
-<tr>
-<td><strong>Qdrant Loader MCP</strong></td>
-<td>sitemap 2</td>
-<td>Vector DB data loading for AI agents. Vector search infrastructure.</td>
-</tr>
-<tr>
-<td><strong>Odoo Pulse MCP</strong></td>
-<td>sitemap 5</td>
-<td>Odoo ERP monitoring via MCP. Already covered by existing Odoo MCP guide.</td>
-</tr>
-<tr>
-<td><strong>NotebookLM MCP CLI</strong></td>
-<td>sitemap 4</td>
-<td>NotebookLM access via MCP CLI. Already covered in catalog.</td>
-</tr>
-<tr>
-<td><strong>Appium MCP</strong></td>
-<td>sitemap 3</td>
-<td>Mobile test automation via MCP. QA/testing niche.</td>
-</tr>
-<tr>
-<td><strong>Tailscale MCP</strong></td>
-<td>sitemap 2</td>
-<td>Tailscale networking via MCP. DevOps/networking niche.</td>
-</tr>
-<tr>
-<td><strong>Kubernetes MCP</strong></td>
-<td>sitemap 2</td>
-<td>K8s cluster management via MCP. DevOps niche.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="developerniche-servers-150-more">Developer/Niche Servers (&gt;150 more)<a class="headerlink" href="#developerniche-servers-150-more" title="Anchor link to this section">&para;</a></h2>
-<p>Beyond business-relevant servers, 150+ developer-focused or niche servers were found across sitemaps 2-5. Categories include: Obsidian plugins, game dev (Godot, Unreal Engine), Nix packages, Go tooling, Java dev tools, nvim plugins, code review graphs, session continuity, memory/context tools, and developer productivity utilities. Not cataloged — too far from business-operator use case.</p>
-<h2 id="trends-wave-2">Trends (Wave 2)<a class="headerlink" href="#trends-wave-2" title="Anchor link to this section">&para;</a></h2>
-<ol>
-<li>
-<p><strong>Enterprise platforms entering MCP en masse:</strong> Confluent, Elastic, Snowflake, Monday.com, LaunchDarkly, Neo4j, Firebase, Atlassian, AWS — all now have MCP servers. This signals that major platform vendors are treating MCP as a first-class integration surface, not an afterthought.</p>
-</li>
-<li>
-<p><strong>Infrastructure MCPs maturing:</strong> OpenTofu, Kubernetes, Tailscale, Instana, SmartBear — DevOps/infra tools are now MCP-native. The "operations" layer of MCP is expanding beyond business apps into infrastructure management.</p>
-</li>
-<li>
-<p><strong>Asian platform representation growing:</strong> Tencent Cloud, Kintone, Backlog, Xiaohongshu, esa.io — Chinese and Japanese platforms are actively publishing MCP servers. Ecosystem is genuinely global.</p>
-</li>
-<li>
-<p><strong>Database MCPs proliferating:</strong> Elasticsearch, Snowflake, Neo4j, TimescaleDB, Qdrant — every major database category now has MCP representation. The "AI agent as universal database client" pattern is solidifying.</p>
-</li>
-<li>
-<p><strong>Volume acceleration confirmed:</strong> ~220 servers with Jul 15 lastmod across 4 sitemaps suggests mcpservers.org is indexing 50+ new servers per day — much higher than the ~10/day observed from sitemap 1 alone. Total mcpservers.org catalog is likely significantly larger than previously estimated 9,800.</p>
-</li>
-</ol>
-<h2 id="actions-taken">Actions Taken<a class="headerlink" href="#actions-taken" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li>✅ 5 integration guides drafted for top business-critical servers (Confluent, Elasticsearch, Snowflake, Monday.com, LaunchDarkly)</li>
-<li>✅ 25 business-adjacent servers indexed (too narrow for full guides)</li>
-<li>✅ 150+ niche/developer servers acknowledged (not cataloged)</li>
-<li>✅ Wave 2 scan report published</li>
-<li>✅ index.md updated with new entries</li>
-</ul>
+<h1 id="hermes-history-ingest-setup-guide">hermes-history-ingest Setup Guide<a class="headerlink" href="#hermes-history-ingest-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Skill:</strong> <code>hermes-history-ingest</code> · <strong>Installs:</strong> 2,700+ · <strong>Source:</strong> <a href="https://github.com/ar9av/obsidian-wiki">ar9av/obsidian-wiki</a></p>
+<p>hermes-history-ingest extracts Hermes agent conversation history — memory snapshots, session data, and decision logs — and ingests them into an Obsidian wiki vault. Enables long-term knowledge retention, cross-session pattern discovery, and searchable agent memory.</p>
 <hr />
-<p><em>Next scan: July 16, 2026. Continue multi-sitemap approach (all 5 sitemaps, not just sitemap 1).</em></p>
+<h2 id="capabilities">Capabilities<a class="headerlink" href="#capabilities" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>Extract Hermes memory entries and session artifacts</li>
+<li>Convert to structured Obsidian markdown notes</li>
+<li>Link related sessions and decisions automatically</li>
+<li>Tag and categorize ingested content</li>
+<li>Support incremental ingestion (only new/changed data)</li>
+</ul>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
+<p>Hermes agent installed at ~/.hermes, Obsidian vault configured, Python 3.10+.</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>ar9av/obsidian-wiki<span class="w"> </span>--skill<span class="w"> </span>hermes-history-ingest
+</code></pre></div>
+<h2 id="usage">Usage<a class="headerlink" href="#usage" title="Anchor link to this section">&para;</a></h2>
+<p>Load the skill in your agent session:</p>
+<div class="highlight"><pre><span></span><code>/ hermes-history-ingest
+</code></pre></div>
+<p>The skill activates and provides browser automation tools accessible through natural language commands.</p>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Issue</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Skill not found</td>
+<td>Verify <code>npx skills add</code> completed successfully and the skill appears in <code>npx skills list</code></td>
+</tr>
+<tr>
+<td>Browser not launching</td>
+<td>Ensure Playwright/Puppeteer is installed system-wide</td>
+</tr>
+<tr>
+<td>Permission errors on VPS</td>
+<td>Check that the agent user has access to the browser binary</td>
+</tr>
+</tbody>
+</table>
+<h2 id="related-skills">Related Skills<a class="headerlink" href="#related-skills" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><a href="/hermes/skills/catalog/wiki-history-ingest-setup/">wiki-history-ingest</a> — Unified agent history ingestion router</li>
+<li><a href="/hermes/skills/catalog/openclaw-history-ingest-setup/">openclaw-history-ingest</a> — OpenClaw agent history ingestion</li>
+<li><a href="/hermes/skills/catalog/">Skills Catalog</a></li>
+</ul>
 
 
 

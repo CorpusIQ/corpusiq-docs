@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Connect AI agents to LaunchDarkly via the official MCP server. Manage feature flags, target rules, experiments, and progressive rollouts.">
+        <meta name="description" content="Complete setup guide for browser-harness — AI agent browser automation skill from David Ondrej's skills collection. Control browsers through your agent on VPS and remote servers.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/launchdarkly-mcp.html">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/skills/catalog/browser-harness-setup/index.html">
       
       
       
@@ -23,7 +23,7 @@
     
     
       
-        <title>LaunchDarkly MCP — Feature Flags for AI Agents - CorpusIQ Docs</title>
+        <title>browser-harness Setup Guide - CorpusIQ Docs</title>
       
     
     
@@ -61,21 +61,25 @@
   <!-- Open Graph tags — required for social sharing previews (LinkedIn, X, Facebook) -->
   
     
-      <meta property="og:title" content="LaunchDarkly MCP — Feature Flags for AI Agents">
+      <meta property="og:title" content="browser-harness Setup Guide">
     
     
-      <meta property="og:description" content="Connect AI agents to LaunchDarkly via the official MCP server. Manage feature flags, target rules, experiments, and progressive rollouts.">
+      <meta property="og:description" content="Complete setup guide for browser-harness — AI agent browser automation skill from David Ondrej's skills collection. Control browsers through your agent on VPS and remote servers.">
     
   
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/launchdarkly-mcp.html">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/browser-harness-setup/index.html">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta name="twitter:card" content="summary_large_image">
   
-    <meta name="twitter:title" content="LaunchDarkly MCP — Feature Flags for AI Agents">
+    <meta name="twitter:title" content="browser-harness Setup Guide">
   
   
-    <meta name="twitter:description" content="Connect AI agents to LaunchDarkly via the official MCP server. Manage feature flags, target rules, experiments, and progressive rollouts.">
+    <meta name="twitter:description" content="Complete setup guide for browser-harness — AI agent browser automation skill from David Ondrej's skills collection. Control browsers through your agent on VPS and remote servers.">
+  
+  <!-- Meta description for SEO crawlers -->
+  
+    <meta name="description" content="Complete setup guide for browser-harness — AI agent browser automation skill from David Ondrej's skills collection. Control browsers through your agent on VPS and remote servers.">
   
 
   </head>
@@ -97,7 +101,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#launchdarkly-mcp-feature-flags-for-ai-agents" class="md-skip">
+        <a href="#browser-harness-setup-guide" class="md-skip">
           Skip to content
         </a>
       
@@ -133,7 +137,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              LaunchDarkly MCP — Feature Flags for AI Agents
+              browser-harness Setup Guide
             
           </span>
         </div>
@@ -7571,7 +7575,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../skills/catalog/index.html" class="md-nav__link ">
+            <a href="../index.html" class="md-nav__link ">
               
   
   
@@ -7615,7 +7619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../skills/creating-skills.html" class="md-nav__link">
+      <a href="../../creating-skills.html" class="md-nav__link">
         
   
   
@@ -7643,7 +7647,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../skills/skill-marketplaces.html" class="md-nav__link">
+      <a href="../../skill-marketplaces.html" class="md-nav__link">
         
   
   
@@ -7671,7 +7675,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../skills/marketplace/index.html" class="md-nav__link">
+      <a href="../../marketplace/index.html" class="md-nav__link">
         
   
   
@@ -7731,7 +7735,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../index.html" class="md-nav__link ">
+            <a href="../../../mcp/servers/index.html" class="md-nav__link ">
               
   
   
@@ -7775,7 +7779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="index.html" class="md-nav__link">
+      <a href="../../../mcp/servers/external/index.html" class="md-nav__link">
         
   
   
@@ -7841,7 +7845,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../index.html" class="md-nav__link ">
+            <a href="../../../mcp/index.html" class="md-nav__link ">
               
   
   
@@ -8032,10 +8036,21 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-it-does" class="md-nav__link">
+  <a href="#capabilities" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What It Does
+        Capabilities
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prerequisites
       
     </span>
   </a>
@@ -8051,41 +8066,13 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Installation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#hermes-claude-desktop" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hermes / Claude Desktop
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#direct-cli" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Direct CLI
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
+  <a href="#usage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Configuration
+        Usage
       
     </span>
   </a>
@@ -8093,10 +8080,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#business-operator-use-cases" class="md-nav__link">
+  <a href="#troubleshooting" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Business Operator Use Cases
+        Troubleshooting
       
     </span>
   </a>
@@ -8104,21 +8091,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#security-notes" class="md-nav__link">
+  <a href="#related-skills" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Security Notes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pricing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Pricing
+        Related Skills
       
     </span>
   </a>
@@ -8145,66 +8121,57 @@
   
 
 
-<h1 id="launchdarkly-mcp-feature-flags-for-ai-agents">LaunchDarkly MCP — Feature Flags for AI Agents<a class="headerlink" href="#launchdarkly-mcp-feature-flags-for-ai-agents" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Official LaunchDarkly MCP server.</strong> Connect AI agents to LaunchDarkly — the feature management platform used by 7,000+ teams. AI agents can toggle features, manage rollout rules, run experiments, and audit flag changes without touching the LaunchDarkly dashboard.</p>
-<h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
-<p>LaunchDarkly MCP gives AI agents programmatic access to:
-- <strong>Flag management:</strong> List, toggle, create feature flags across environments
-- <strong>Targeting rules:</strong> Read and modify user targeting rules (percentage, attribute-based)
-- <strong>Progressive rollouts:</strong> Adjust rollout percentages, monitor adoption
-- <strong>Experimentation:</strong> Query experiment metrics, conversion rates, statistical significance
-- <strong>Audit log:</strong> Read flag change history, who changed what, when
-- <strong>Environments:</strong> Switch between dev, staging, production contexts
-- <strong>Projects:</strong> Navigate across multiple LaunchDarkly projects
-- <strong>Code references:</strong> Find where flags are used in your codebase</p>
-<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<h3 id="hermes-claude-desktop">Hermes / Claude Desktop<a class="headerlink" href="#hermes-claude-desktop" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;launchdarkly&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;@launchdarkly/mcp-server&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;LAUNCHDARKLY_ACCESS_TOKEN&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-access-token&quot;</span>
-<span class="w">      </span><span class="p">}</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3 id="direct-cli">Direct CLI<a class="headerlink" href="#direct-cli" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>-y<span class="w"> </span>@launchdarkly/mcp-server
-</code></pre></div>
-<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<ol>
-<li>Go to LaunchDarkly → Account Settings → Access Tokens</li>
-<li>Create token with appropriate role (reader for query, writer for changes)</li>
-<li>Set <code>LAUNCHDARKLY_ACCESS_TOKEN</code> environment variable</li>
-<li>Optional: Set <code>LAUNCHDARKLY_PROJECT_KEY</code> to limit scope</li>
-<li>Start MCP server — agent connects to your LaunchDarkly account</li>
-</ol>
-<h2 id="business-operator-use-cases">Business Operator Use Cases<a class="headerlink" href="#business-operator-use-cases" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li><strong>Emergency kill switches:</strong> "Turn off the new checkout flow in production — NOW"</li>
-<li><strong>Progressive rollout:</strong> "Increase the new search algorithm rollout from 10% to 25%"</li>
-<li><strong>Experiment analysis:</strong> "Is the 'pricing v3' experiment statistically significant yet?"</li>
-<li><strong>Flag hygiene:</strong> "Which flags haven't been modified in 6+ months and can be archived?"</li>
-<li><strong>Release coordination:</strong> "What flags are scheduled to go to 100% this week?"</li>
-<li><strong>Incident response:</strong> "Show me every flag change in the last 2 hours — correlate with the outage"</li>
-<li><strong>Cross-team visibility:</strong> "Which teams have flags targeting the payment service?"</li>
-</ul>
-<h2 id="security-notes">Security Notes<a class="headerlink" href="#security-notes" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li><strong>CRITICAL:</strong> Use read-only tokens for advisory agents; separate writer token for change agents</li>
-<li>Never use production writer tokens without human approval gates</li>
-<li>Production flag toggles should require explicit confirmation: "Are you sure you want to toggle PROD-checkout-v2?"</li>
-<li>Use custom roles in LaunchDarkly to scope token permissions</li>
-<li>Audit every flag change through LaunchDarkly's immutable audit log</li>
-<li>Set up Slack/Telegram alerts for any production flag changes made by agents</li>
-</ul>
-<h2 id="pricing">Pricing<a class="headerlink" href="#pricing" title="Anchor link to this section">&para;</a></h2>
-<p>Included with LaunchDarkly Pro and Enterprise plans. API access requires a paid plan (starter plans may not include full API access). No additional MCP-specific pricing.</p>
+<h1 id="browser-harness-setup-guide">browser-harness Setup Guide<a class="headerlink" href="#browser-harness-setup-guide" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Skill:</strong> <code>browser-harness</code> · <strong>Installs:</strong> 1,200+ · <strong>Source:</strong> <a href="https://github.com/davidondrej/skills">davidondrej/skills</a></p>
+<p>Browser harness gives AI agents browser automation capabilities — navigate pages, click elements, extract data, fill forms, and take screenshots. Designed for headless operation on VPS and remote Linux servers where GUI browsers aren't available.</p>
 <hr />
-<p><em>Discovered in Wave 2 scan (sitemaps 2-5), July 15, 2026. Part of the enterprise platform MCP surge.</em></p>
+<h2 id="capabilities">Capabilities<a class="headerlink" href="#capabilities" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>Page navigation and URL management</li>
+<li>Element clicking, typing, and form filling</li>
+<li>Content extraction and data scraping</li>
+<li>Screenshot capture for visual verification</li>
+<li>Cookie and session management</li>
+</ul>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
+<p>Node.js 18+, Playwright or Puppeteer installed on the system.</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>davidondrej/skills<span class="w"> </span>--skill<span class="w"> </span>browser-harness
+</code></pre></div>
+<h2 id="usage">Usage<a class="headerlink" href="#usage" title="Anchor link to this section">&para;</a></h2>
+<p>Load the skill in your agent session:</p>
+<div class="highlight"><pre><span></span><code>/ browser-harness
+</code></pre></div>
+<p>The skill activates and provides browser automation tools accessible through natural language commands.</p>
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Issue</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Skill not found</td>
+<td>Verify <code>npx skills add</code> completed successfully and the skill appears in <code>npx skills list</code></td>
+</tr>
+<tr>
+<td>Browser not launching</td>
+<td>Ensure Playwright/Puppeteer is installed system-wide</td>
+</tr>
+<tr>
+<td>Permission errors on VPS</td>
+<td>Check that the agent user has access to the browser binary</td>
+</tr>
+</tbody>
+</table>
+<h2 id="related-skills">Related Skills<a class="headerlink" href="#related-skills" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><a href="/hermes/skills/catalog/vps-server-management-setup/">vps-server-management</a> — VPS server management and monitoring</li>
+<li><a href="/hermes/skills/catalog/distribute-skill-to-all-agents-setup/">distribute-skill-to-all-agents</a> — Sync skills across multiple agent instances</li>
+<li><a href="/hermes/skills/catalog/">Skills Catalog</a></li>
+</ul>
 
 
 

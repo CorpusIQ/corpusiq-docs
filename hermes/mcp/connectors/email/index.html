@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Connect AI agents to Elasticsearch via the official Elastic MCP server. Full-text search, analytics, vector search, and observability.">
+        <meta name="description" content="Gmail and Outlook email connectors for CorpusIQ MCP. Read, search, send, and manage email through AI agents with OAuth authentication.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/elasticsearch-mcp.html">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/connectors/email/index.html">
       
       
       
@@ -23,7 +23,7 @@
     
     
       
-        <title>Elasticsearch MCP — Search & Analytics for AI Agents - CorpusIQ Docs</title>
+        <title>CorpusIQ Email Connectors - CorpusIQ Docs</title>
       
     
     
@@ -61,21 +61,25 @@
   <!-- Open Graph tags — required for social sharing previews (LinkedIn, X, Facebook) -->
   
     
-      <meta property="og:title" content="Elasticsearch MCP — Search & Analytics for AI Agents">
+      <meta property="og:title" content="CorpusIQ Email Connectors">
     
     
-      <meta property="og:description" content="Connect AI agents to Elasticsearch via the official Elastic MCP server. Full-text search, analytics, vector search, and observability.">
+      <meta property="og:description" content="Gmail and Outlook email connectors for CorpusIQ MCP. Read, search, send, and manage email through AI agents with OAuth authentication.">
     
   
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/elasticsearch-mcp.html">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/connectors/email/index.html">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta name="twitter:card" content="summary_large_image">
   
-    <meta name="twitter:title" content="Elasticsearch MCP — Search & Analytics for AI Agents">
+    <meta name="twitter:title" content="CorpusIQ Email Connectors">
   
   
-    <meta name="twitter:description" content="Connect AI agents to Elasticsearch via the official Elastic MCP server. Full-text search, analytics, vector search, and observability.">
+    <meta name="twitter:description" content="Gmail and Outlook email connectors for CorpusIQ MCP. Read, search, send, and manage email through AI agents with OAuth authentication.">
+  
+  <!-- Meta description for SEO crawlers -->
+  
+    <meta name="description" content="Gmail and Outlook email connectors for CorpusIQ MCP. Read, search, send, and manage email through AI agents with OAuth authentication.">
   
 
   </head>
@@ -97,7 +101,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#elasticsearch-mcp-search-analytics-for-ai-agents" class="md-skip">
+        <a href="#corpusiq-email-connectors" class="md-skip">
           Skip to content
         </a>
       
@@ -133,7 +137,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Elasticsearch MCP — Search & Analytics for AI Agents
+              CorpusIQ Email Connectors
             
           </span>
         </div>
@@ -7731,7 +7735,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../index.html" class="md-nav__link ">
+            <a href="../../servers/index.html" class="md-nav__link ">
               
   
   
@@ -7775,7 +7779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="index.html" class="md-nav__link">
+      <a href="../../servers/external/index.html" class="md-nav__link">
         
   
   
@@ -8032,10 +8036,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-it-does" class="md-nav__link">
+  <a href="#what-it-is" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What It Does
+        What It Is
       
     </span>
   </a>
@@ -8043,49 +8047,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#available-connectors" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Installation
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Installation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#hermes-claude-desktop" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hermes / Claude Desktop
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#direct-cli" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Direct CLI
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Configuration
+        Available Connectors
       
     </span>
   </a>
@@ -8093,10 +8058,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#business-operator-use-cases" class="md-nav__link">
+  <a href="#quick-start" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Business Operator Use Cases
+        Quick Start
       
     </span>
   </a>
@@ -8104,21 +8069,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#security-notes" class="md-nav__link">
+  <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Security Notes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pricing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Pricing
+        See Also
       
     </span>
   </a>
@@ -8145,63 +8099,36 @@
   
 
 
-<h1 id="elasticsearch-mcp-search-analytics-for-ai-agents">Elasticsearch MCP — Search &amp; Analytics for AI Agents<a class="headerlink" href="#elasticsearch-mcp-search-analytics-for-ai-agents" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Official Elastic MCP server.</strong> Connect AI agents to Elasticsearch — the search and analytics engine powering thousands of production applications. AI agents can search, aggregate, and analyze data across indices with full Elasticsearch Query DSL support.</p>
-<h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
-<p>Elasticsearch MCP gives AI agents programmatic access to:
-- <strong>Full-text search:</strong> Query any index with Elasticsearch Query DSL
-- <strong>Aggregations:</strong> Metrics, buckets, pipeline aggregations
-- <strong>Vector search:</strong> kNN and semantic search for AI embeddings
-- <strong>Index management:</strong> Create, configure, and manage indices
-- <strong>Cluster health:</strong> Monitor cluster status, node health, shard allocation
-- <strong>Observability data:</strong> APM traces, logs, metrics from Elastic Observability
-- <strong>Security analytics:</strong> SIEM data, threat detection, anomaly scoring</p>
-<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<h3 id="hermes-claude-desktop">Hermes / Claude Desktop<a class="headerlink" href="#hermes-claude-desktop" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;elasticsearch&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;@elastic/mcp-server-elasticsearch&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;ELASTICSEARCH_URL&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://your-cluster.elastic-cloud.com&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;ELASTICSEARCH_API_KEY&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-api-key&quot;</span>
-<span class="w">      </span><span class="p">}</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3 id="direct-cli">Direct CLI<a class="headerlink" href="#direct-cli" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>-y<span class="w"> </span>@elastic/mcp-server-elasticsearch
-</code></pre></div>
-<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<ol>
-<li>Deploy on Elastic Cloud or self-managed cluster</li>
-<li>Generate API key with appropriate index permissions</li>
-<li>Set <code>ELASTICSEARCH_URL</code> and <code>ELASTICSEARCH_API_KEY</code></li>
-<li>For self-signed certs: set <code>ELASTICSEARCH_CA_CERTS</code> path</li>
-</ol>
-<h2 id="business-operator-use-cases">Business Operator Use Cases<a class="headerlink" href="#business-operator-use-cases" title="Anchor link to this section">&para;</a></h2>
+<h1 id="corpusiq-email-connectors">CorpusIQ Email Connectors<a class="headerlink" href="#corpusiq-email-connectors" title="Anchor link to this section">&para;</a></h1>
+<h2 id="what-it-is">What It Is<a class="headerlink" href="#what-it-is" title="Anchor link to this section">&para;</a></h2>
+<p>CorpusIQ connects to Gmail and Microsoft Outlook via OAuth, giving AI agents read and send access to email. Agents can search inboxes, read threads, draft and send replies, and manage labels — all with the user's own permissions.</p>
+<h2 id="available-connectors">Available Connectors<a class="headerlink" href="#available-connectors" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Connector</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gmail connector</td>
+<td>Read, search, send, label, and manage Gmail messages</td>
+</tr>
+<tr>
+<td>Outlook connector</td>
+<td>Read, search, send, and manage Outlook/Exchange messages</td>
+</tr>
+</tbody>
+</table>
+<h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
+<p>Add the connector through the <a href="https://corpusiq.io/dashboard">CorpusIQ dashboard</a>. Each connector uses OAuth or connection-string authentication — no API keys to manage.</p>
+<h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Customer support search:</strong> "Find all support tickets mentioning 'login failure' in the last 24 hours"</li>
-<li><strong>E-commerce product search:</strong> "Search products matching 'wireless headphones' with price &lt; $200"</li>
-<li><strong>Log forensics:</strong> "Show all ERROR-level logs from the payment service since midnight"</li>
-<li><strong>Semantic search:</strong> "Find documents about Q4 revenue projections using vector similarity"</li>
-<li><strong>APM insights:</strong> "Which service has the highest p99 latency this hour?"</li>
-<li><strong>Security monitoring:</strong> "Alert on any failed login attempts from IPs outside North America"</li>
+<li><a href="/hermes/mcp/connectors/">All Connectors</a></li>
+<li><a href="/hermes/mcp/servers/external/">External MCP Servers</a></li>
+<li><a href="https://corpusiq.io/docs">CorpusIQ Docs</a></li>
 </ul>
-<h2 id="security-notes">Security Notes<a class="headerlink" href="#security-notes" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li>Create dedicated API keys per agent with least-privilege index access</li>
-<li>Prefer read-only keys unless agents need index management</li>
-<li>Use field-level security to redact sensitive fields (PII, credentials)</li>
-<li>Audit all queries through Elasticsearch audit logs</li>
-<li>Never expose production write access without approval gates</li>
-</ul>
-<h2 id="pricing">Pricing<a class="headerlink" href="#pricing" title="Anchor link to this section">&para;</a></h2>
-<p>Included with Elastic Cloud subscription (starting at $95/month). Self-managed Elasticsearch is free under the Elastic License.</p>
-<hr />
-<p><em>Discovered in Wave 2 scan (sitemaps 2-5), July 15, 2026. Part of the enterprise platform MCP surge.</em></p>
 
 
 

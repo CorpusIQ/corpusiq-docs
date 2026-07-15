@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Connect AI agents to Snowflake via MCP. Query, analyze, and manage enterprise data warehouse operations through natural language.">
+        <meta name="description" content="SQL database connectors for CorpusIQ MCP. Query PostgreSQL, MySQL, and other databases through AI agents with connection-level access control.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/snowflake-mcp.html">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/connectors/database/index.html">
       
       
       
@@ -23,7 +23,7 @@
     
     
       
-        <title>Snowflake MCP — Data Warehouse for AI Agents - CorpusIQ Docs</title>
+        <title>CorpusIQ Database Connectors - CorpusIQ Docs</title>
       
     
     
@@ -61,21 +61,25 @@
   <!-- Open Graph tags — required for social sharing previews (LinkedIn, X, Facebook) -->
   
     
-      <meta property="og:title" content="Snowflake MCP — Data Warehouse for AI Agents">
+      <meta property="og:title" content="CorpusIQ Database Connectors">
     
     
-      <meta property="og:description" content="Connect AI agents to Snowflake via MCP. Query, analyze, and manage enterprise data warehouse operations through natural language.">
+      <meta property="og:description" content="SQL database connectors for CorpusIQ MCP. Query PostgreSQL, MySQL, and other databases through AI agents with connection-level access control.">
     
   
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/snowflake-mcp.html">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/connectors/database/index.html">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta name="twitter:card" content="summary_large_image">
   
-    <meta name="twitter:title" content="Snowflake MCP — Data Warehouse for AI Agents">
+    <meta name="twitter:title" content="CorpusIQ Database Connectors">
   
   
-    <meta name="twitter:description" content="Connect AI agents to Snowflake via MCP. Query, analyze, and manage enterprise data warehouse operations through natural language.">
+    <meta name="twitter:description" content="SQL database connectors for CorpusIQ MCP. Query PostgreSQL, MySQL, and other databases through AI agents with connection-level access control.">
+  
+  <!-- Meta description for SEO crawlers -->
+  
+    <meta name="description" content="SQL database connectors for CorpusIQ MCP. Query PostgreSQL, MySQL, and other databases through AI agents with connection-level access control.">
   
 
   </head>
@@ -97,7 +101,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#snowflake-mcp-data-warehouse-for-ai-agents" class="md-skip">
+        <a href="#corpusiq-database-connectors" class="md-skip">
           Skip to content
         </a>
       
@@ -133,7 +137,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Snowflake MCP — Data Warehouse for AI Agents
+              CorpusIQ Database Connectors
             
           </span>
         </div>
@@ -7731,7 +7735,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../index.html" class="md-nav__link ">
+            <a href="../../servers/index.html" class="md-nav__link ">
               
   
   
@@ -7775,7 +7779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="index.html" class="md-nav__link">
+      <a href="../../servers/external/index.html" class="md-nav__link">
         
   
   
@@ -8032,10 +8036,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-it-does" class="md-nav__link">
+  <a href="#what-it-is" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What It Does
+        What It Is
       
     </span>
   </a>
@@ -8043,49 +8047,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#available-connectors" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Installation
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Installation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#hermes-claude-desktop" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hermes / Claude Desktop
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#direct-cli" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Direct CLI
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Configuration
+        Available Connectors
       
     </span>
   </a>
@@ -8093,10 +8058,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#business-operator-use-cases" class="md-nav__link">
+  <a href="#quick-start" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Business Operator Use Cases
+        Quick Start
       
     </span>
   </a>
@@ -8104,21 +8069,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#security-notes" class="md-nav__link">
+  <a href="#see-also" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Security Notes
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pricing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Pricing
+        See Also
       
     </span>
   </a>
@@ -8145,70 +8099,40 @@
   
 
 
-<h1 id="snowflake-mcp-data-warehouse-for-ai-agents">Snowflake MCP — Data Warehouse for AI Agents<a class="headerlink" href="#snowflake-mcp-data-warehouse-for-ai-agents" title="Anchor link to this section">&para;</a></h1>
-<p><strong>MCP server for Snowflake.</strong> Connect AI agents to your Snowflake data warehouse — run queries, explore schemas, manage warehouses, and analyze enterprise data through natural language. Built for data-heavy operators who live in Snowflake.</p>
-<h2 id="what-it-does">What It Does<a class="headerlink" href="#what-it-does" title="Anchor link to this section">&para;</a></h2>
-<p>Snowflake MCP gives AI agents programmatic access to:
-- <strong>Query execution:</strong> Run SQL queries and retrieve results
-- <strong>Schema exploration:</strong> List databases, schemas, tables, views, columns
-- <strong>Warehouse management:</strong> Start, stop, resize, monitor virtual warehouses
-- <strong>Data sharing:</strong> Manage Snowflake data shares with external accounts
-- <strong>Usage monitoring:</strong> Query history, warehouse utilization, credit consumption
-- <strong>Role-based access:</strong> Work within Snowflake's RBAC model
-- <strong>Query optimization:</strong> Explain plans, clustering recommendations</p>
-<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<h3 id="hermes-claude-desktop">Hermes / Claude Desktop<a class="headerlink" href="#hermes-claude-desktop" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;snowflake&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;mcp-snowflake-server&quot;</span><span class="p">],</span>
-<span class="w">      </span><span class="nt">&quot;env&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;SNOWFLAKE_ACCOUNT&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-account&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;SNOWFLAKE_USER&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-user&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;SNOWFLAKE_PASSWORD&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;your-password&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;SNOWFLAKE_ROLE&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;analyst&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;SNOWFLAKE_WAREHOUSE&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;compute_wh&quot;</span><span class="p">,</span>
-<span class="w">        </span><span class="nt">&quot;SNOWFLAKE_DATABASE&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;production&quot;</span>
-<span class="w">      </span><span class="p">}</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3 id="direct-cli">Direct CLI<a class="headerlink" href="#direct-cli" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>-y<span class="w"> </span>mcp-snowflake-server
-</code></pre></div>
-<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
-<ol>
-<li>Create a Snowflake user for the agent with least-privilege role</li>
-<li>Set environment variables (account, user, password, role, warehouse, database)</li>
-<li>Optional: Use key-pair authentication instead of password</li>
-<li>Optional: Set <code>SNOWFLAKE_SCHEMA</code> to limit scope</li>
-<li>Start MCP server — agent connects to your Snowflake account</li>
-</ol>
-<h2 id="business-operator-use-cases">Business Operator Use Cases<a class="headerlink" href="#business-operator-use-cases" title="Anchor link to this section">&para;</a></h2>
+<h1 id="corpusiq-database-connectors">CorpusIQ Database Connectors<a class="headerlink" href="#corpusiq-database-connectors" title="Anchor link to this section">&para;</a></h1>
+<h2 id="what-it-is">What It Is<a class="headerlink" href="#what-it-is" title="Anchor link to this section">&para;</a></h2>
+<p>CorpusIQ connects to SQL databases (PostgreSQL, MySQL, and others) giving AI agents read-only query access. Agents can explore schemas, run SELECT queries, and analyze data — while write operations require explicit authorization.</p>
+<h2 id="available-connectors">Available Connectors<a class="headerlink" href="#available-connectors" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Connector</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PostgreSQL connector</td>
+<td>Schema exploration, SELECT queries, connection pooling</td>
+</tr>
+<tr>
+<td>MySQL connector</td>
+<td>Schema exploration, SELECT queries, connection pooling</td>
+</tr>
+<tr>
+<td>Generic SQL</td>
+<td>ODBC/JDBC for additional database engines</td>
+</tr>
+</tbody>
+</table>
+<h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
+<p>Add the connector through the <a href="https://corpusiq.io/dashboard">CorpusIQ dashboard</a>. Each connector uses OAuth or connection-string authentication — no API keys to manage.</p>
+<h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Ad-hoc analytics:</strong> "What was revenue by region for the last 3 quarters?"</li>
-<li><strong>Pipeline monitoring:</strong> "Show me any data loads that failed in the last hour"</li>
-<li><strong>Cost optimization:</strong> "Which warehouses are running idle right now?"</li>
-<li><strong>Schema discovery:</strong> "What tables contain customer data with email addresses?"</li>
-<li><strong>Query debugging:</strong> "Explain why this query is slow and suggest optimizations"</li>
-<li><strong>KPI dashboards:</strong> "Pull the 5 key metrics for this month's board deck"</li>
-<li><strong>Data quality:</strong> "Find all orders with missing shipping addresses"</li>
+<li><a href="/hermes/mcp/connectors/">All Connectors</a></li>
+<li><a href="/hermes/mcp/servers/external/">External MCP Servers</a></li>
+<li><a href="https://corpusiq.io/docs">CorpusIQ Docs</a></li>
 </ul>
-<h2 id="security-notes">Security Notes<a class="headerlink" href="#security-notes" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li><strong>CRITICAL:</strong> Create a dedicated Snowflake user with read-only role for query agents</li>
-<li>Grant only SELECT on specific databases/schemas — never ALL PRIVILEGES</li>
-<li>Warehouse access: use the smallest warehouse that satisfies query needs</li>
-<li>Monitor credit consumption — runaway AI queries can spike costs</li>
-<li>Use network policies to restrict agent access to specific IPs</li>
-<li>Enable query history auditing to track all agent queries</li>
-</ul>
-<h2 id="pricing">Pricing<a class="headerlink" href="#pricing" title="Anchor link to this section">&para;</a></h2>
-<p>Included with Snowflake subscription. Credit consumption depends on query complexity and warehouse size. Use XS warehouse for agent queries to minimize costs.</p>
-<hr />
-<p><em>Discovered in Wave 2 scan (sitemaps 2-5), July 15, 2026. Part of the enterprise platform MCP surge.</em></p>
 
 
 

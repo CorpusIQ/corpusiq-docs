@@ -829,6 +829,14 @@
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/connectors/database/index.html</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/connectors/email/index.html</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/index.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
@@ -893,10 +901,6 @@
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
-         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/confluent-mcp.html</loc>
-         <lastmod>2026-07-15</lastmod>
-    </url>
-    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/container-tracking-mcp.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
@@ -914,10 +918,6 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/drumbeats-mcp.html</loc>
-         <lastmod>2026-07-15</lastmod>
-    </url>
-    <url>
-         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/elasticsearch-mcp.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
@@ -961,10 +961,6 @@
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
-         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/launchdarkly-mcp.html</loc>
-         <lastmod>2026-07-15</lastmod>
-    </url>
-    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/lawstronaut-mcp.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
@@ -990,10 +986,6 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/microsoft-planner-mcp.html</loc>
-         <lastmod>2026-07-15</lastmod>
-    </url>
-    <url>
-         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/mondaycom-mcp.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
@@ -1137,10 +1129,6 @@
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
-         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-15-wave2.html</loc>
-         <lastmod>2026-07-15</lastmod>
-    </url>
-    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-15.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
@@ -1166,10 +1154,6 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/sixta-connect.html</loc>
-         <lastmod>2026-07-15</lastmod>
-    </url>
-    <url>
-         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/snowflake-mcp.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
@@ -1217,7 +1201,15 @@
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/confluent-mcp/index.html</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/crustdata/index.html</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/elasticsearch-mcp/index.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
@@ -1237,6 +1229,10 @@
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/launchdarkly-mcp/index.html</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/mcp-email-server/index.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
@@ -1245,11 +1241,19 @@
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/mondaycom-mcp/index.html</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/pretensor-mcp/index.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/radmail/index.html</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/snowflake-mcp/index.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
@@ -1502,6 +1506,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/agentmint-skills-setup.html</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/apple-calendar-setup.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
@@ -1801,6 +1809,10 @@
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-grok-search-setup.html</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-marketing-skills-setup.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
@@ -1810,6 +1822,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-security-hardening-setup.html</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-skill-vetter-setup.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
@@ -1890,6 +1906,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/blueprint-orchestration-setup/index.html</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/browser-harness-setup/index.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
@@ -2041,6 +2061,10 @@
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-history-ingest-setup/index.html</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-windows-native/index.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
@@ -2094,6 +2118,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-android-setup/index.html</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-history-ingest-setup/index.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
@@ -2278,6 +2306,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july15-2026/index.html</loc>
+         <lastmod>2026-07-15</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july15-2026-update/index.html</loc>
          <lastmod>2026-07-15</lastmod>
     </url>
     <url>
