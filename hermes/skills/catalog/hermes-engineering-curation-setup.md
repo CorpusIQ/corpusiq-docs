@@ -5,7 +5,7 @@ description: Install and use Fahrnetic's professionally-curated Hermes Agent eng
 
 # Hermes Engineering Curation
 
-**Source:** [Fahrnetic/hermes-engineering-skill-curation](https://github.com/Fahrnetic/hermes-engineering-skill-curation)
+**Source:** [Fahrnetic/hermes-engineering-skill-curation](#repo-unavailable)
 **Stars:** 1 ⭐ | **License:** MIT
 **Created:** June 23, 2026
 
@@ -26,7 +26,7 @@ The core thesis: **AI coding without workflow is autocomplete with a costume bud
 ### Full Install (recommended)
 
 ```bash
-git clone https://github.com/Fahrnetic/hermes-engineering-skill-curation.git
+git clone #repo-unavailable.git
 cd hermes-engineering-skill-curation
 
 # Install operator profiles
@@ -42,7 +42,7 @@ cat CURATION.md
 ### Profile-Only Install
 
 ```bash
-git clone https://github.com/Fahrnetic/hermes-engineering-skill-curation.git
+git clone #repo-unavailable.git
 cp -r hermes-engineering-skill-curation/profiles ~/.hermes/profiles/
 ```
 
@@ -122,7 +122,7 @@ ls ~/.hermes/profiles/
 # Should show fahrnetic-* directories
 
 # Re-clone if missing
-git clone https://github.com/Fahrnetic/hermes-engineering-skill-curation.git /tmp/fahrnetic
+git clone #repo-unavailable.git /tmp/fahrnetic
 cp -r /tmp/fahrnetic/profiles/* ~/.hermes/profiles/
 ```
 

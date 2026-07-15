@@ -101,7 +101,7 @@ This is the closest thing to having an AI analyst who can both do the research A
 
 ## Pricing
 
-Free tier available. Check [yapp.page/pricing](https://yapp.page/pricing) for current plans.
+Free tier available. Check [yapp.page/pricing](#repo-unavailable) for current plans.
 
 ---
 

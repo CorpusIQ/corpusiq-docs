@@ -5,7 +5,7 @@ description: Install and configure the Ghostwriter skill from okokelly/skill-gho
 
 # Ghostwriter — Setup Guide
 
-**Source:** [okokelly/skill-ghostwriter](https://github.com/okokelly/skill-ghostwriter)
+**Source:** [okokelly/skill-ghostwriter](#repo-unavailable)
 **Category:** Email Automation
 
 An autonomous email auto-reply pipeline for Hermes Agent. Two-job architecture: a zero-token Python watchdog checks Gmail, a processor agent drafts and sends replies in your voice. ~10x cheaper than single-job polling because the watchdog exits silently when there's nothing to process.
@@ -16,7 +16,7 @@ An autonomous email auto-reply pipeline for Hermes Agent. Two-job architecture: 
 
 ```bash
 # Clone the repo (preserves references)
-git clone https://github.com/okokelly/skill-ghostwriter.git
+git clone #repo-unavailable.git
 mkdir -p ~/.hermes/skills/email
 cp -a skill-ghostwriter/ghostwriter ~/.hermes/skills/email/
 ```

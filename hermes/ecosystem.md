@@ -131,7 +131,7 @@ _Docker, Kubernetes, production hosting_
 
 ---
 
-### [Panoramar8046/hermes-agent-metaharness](https://github.com/Panoramar8046/hermes-agent-metaharness) ⭐ 0
+### [Panoramar8046/hermes-agent-metaharness](#repo-unavailable) ⭐ 0
 
 >Optimize LLM system quality by using this outer-loop meta-harness to automate the search, evaluation, and mutation of agent benchmarking code.
 

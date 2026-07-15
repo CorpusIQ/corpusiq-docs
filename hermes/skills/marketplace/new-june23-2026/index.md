@@ -51,7 +51,7 @@ A productive Tuesday morning sweep. Two standout finds: a professionally-curated
 
 ## Spotlight: Fahrnetic Engineering Curation
 
-**Source:** [Fahrnetic/hermes-engineering-skill-curation](https://github.com/Fahrnetic/hermes-engineering-skill-curation)
+**Source:** [Fahrnetic/hermes-engineering-skill-curation](#repo-unavailable)
 **Stars:** 1 ⭐ | **License:** MIT | **Created:** June 23, 2026
 
 The most professionally-structured Hermes skill curation to date. Scanned 336 skills across the ecosystem and selected 104 based on quality, utility, and engineering rigor. Ships with 10 operator profiles covering different engineering roles.
@@ -78,7 +78,7 @@ Each phase has explicit gates, evidence loops, and role-separated review — mov
 ### Installation
 
 ```bash
-git clone https://github.com/Fahrnetic/hermes-engineering-skill-curation.git
+git clone #repo-unavailable.git
 cp -r hermes-engineering-skill-curation/profiles ~/.hermes/profiles/
 cp -r hermes-engineering-skill-curation/bundles ~/.hermes/bundles/
 ```
@@ -89,7 +89,7 @@ cp -r hermes-engineering-skill-curation/bundles ~/.hermes/bundles/
 
 ## Spotlight: Ghostwriter — Autonomous Email Auto-Reply
 
-**Source:** [okokelly/skill-ghostwriter](https://github.com/okokelly/skill-ghostwriter)
+**Source:** [okokelly/skill-ghostwriter](#repo-unavailable)
 **Stars:** 0 ⭐ | **License:** MIT | **Created:** June 23, 2026
 
 A two-tier email auto-reply system designed for Hermes Agent. Splits the work: a lightweight Python **Watchdog** polls Gmail every 5 minutes (no LLM, zero token cost when idle), and hands off to the **Processor** agent only when a matching email is found.
@@ -112,7 +112,7 @@ Polling Gmail with an LLM agent every 5 minutes burns ~$0.30/day in idle costs. 
 ### Quick Start
 
 ```bash
-git clone https://github.com/okokelly/skill-ghostwriter.git
+git clone #repo-unavailable.git
 cp -r skill-ghostwriter ~/.hermes/skills/ghostwriter/
 # Configure Gmail API credentials, VIP inbox, and voice profile
 ```
