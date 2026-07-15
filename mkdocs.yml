@@ -11,6 +11,7 @@ extra_javascript:
 hooks:
 - hooks/absolute_asset_urls.py
 - scripts/hooks/auto_link_children.py
+- scripts/hooks/truncate_meta_description.py
 markdown_extensions:
 - admonition
 - pymdownx.details
@@ -267,7 +268,7 @@ plugins:
 - meta
 repo_name: CorpusIQ/corpusiq-docs
 repo_url: https://github.com/CorpusIQ/corpusiq-docs
-site_description: CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your entire data stack — no data moved or stored.
+site_description: CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your data stack. No data moved or stored.
 site_name: CorpusIQ Docs
 site_url: https://www.corpusiq.io/docs/
 theme:
