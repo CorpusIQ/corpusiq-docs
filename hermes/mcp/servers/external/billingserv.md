@@ -1,5 +1,5 @@
 ---
-title: "BillingServ MCP — Invoice & Customer Management for AI Agents"
+title: "BillingServ MCP — Invoice & Customer Management"
 description: "Connect AI agents to BillingServ API for customer, invoice, and order lookups. Automate billing inquiries and account reconciliation directly from your MCP client."
 category: mcp
 tags: [mcp-server, billing, invoicing, finance, accounts-receivable]

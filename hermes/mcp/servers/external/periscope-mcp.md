@@ -1,5 +1,5 @@
 ---
-title: "Periscope MCP — Playwright-Powered Website Testing for AI Agents"
+title: "Periscope MCP — Playwright-Powered Website Testing"
 description: "63 Playwright-powered testing tools with agent-first ergonomics. Browser automation, screenshots, visual regression, accessibility checks, and assertions — all from AI agents. Built for CI/CD integration."
 category: mcp
 tags: [mcp-server, testing, playwright, browser-automation, qa, web-testing, ci-cd, developer-tools]

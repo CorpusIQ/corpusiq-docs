@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ Changelog  --  API Updates, New Features, and Version History"
+title: "CorpusIQ Changelog"
 description: "Complete CorpusIQ changelog and version history. Track API updates, new endpoints, connector additions, security improvements, and breaking changes. Follows Semantic Versioning."
 category: "Documentation"
 tags: ["corpusiq changelog", "api updates", "version history", "release notes", "new features", "breaking changes", "semantic versioning"]

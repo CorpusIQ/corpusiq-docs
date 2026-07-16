@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Education Automation | Course Materials & Student Progress AI"
+title: "Hermes Agent Education Automation"
 description: "Automate course material generation, student progress tracking, assignment grading assistance, and research workflows with Hermes Agent AI for education."
 category: "Case Study"
 tags:

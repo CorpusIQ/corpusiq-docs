@@ -1,5 +1,5 @@
 ---
-title: Safari Web Agent — Native macOS Browser Automation Setup Guide
+title: "Safari Web Agent — macOS Browser Automation Setup"
 description: Install and configure safari-web-agent for real Safari browser automation using native macOS CGEvent. Anti-bot bypass, login session persistence, works where Playwright fails. Hermes + Claude Code.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Code Generation Prompts for Hermes Agent  --  AI-Powered Development Templates
+title: "Code Generation Prompts for Hermes Agent"
 description: Curated Hermes Agent code generation prompts for writing, refactoring, debugging, and reviewing code. Prompt templates with placeholders for Python, JavaScript, SQL, and more. Model selection guide for code tasks.
 category: prompts
 tags: [hermes-agent, prompts, code-generation, debugging, refactoring, python, javascript, sql, ai-coding]

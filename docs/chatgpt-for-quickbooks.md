@@ -1,7 +1,7 @@
 ---
+title: "ChatGPT for QuickBooks -- AI Accounting & Financial Analysis"
 url: /docs/chatgpt-for-quickbooks
 h1: 'ChatGPT for QuickBooks: Transform Your Accounting Workflow with AI'
-title: ChatGPT for QuickBooks  --  AI Accounting & Financial Analysis | CorpusIQ
 description: Connect ChatGPT to QuickBooks with CorpusIQ. Ask questions in plain English, generate P&L reports, analyze cash flow, and automate financial reporting with AI.
 keywords:
 - ChatGPT for QuickBooks

@@ -1,6 +1,5 @@
 ---
-title: AI for Project Management  --  Intelligent Project Intelligence with CorpusIQ MCP
-title: AI for Project Management | CorpusIQ MCP Platform for PM Teams
+title: "AI for Project Management"
 description: Transform project management with AI. Query Monday.com, Notion, Slack, and calendars in natural language. Instant status reports, blocker identification, and cross-project intelligence.
 url: /docs/ai-for-project-management
 h1: 'AI for Project Management: From Status Meetings to Instant Answers'

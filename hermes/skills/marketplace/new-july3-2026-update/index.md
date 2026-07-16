@@ -1,5 +1,5 @@
 ---
-title: "🆕 July 3, 2026 (Update) — Hermes Hybrid Memory + 5 More Skills"
+title: "July 3, 2026 (Update) — Hermes Hybrid Memory + 5 More Skills"
 description: "6 additional Hermes-relevant repos discovered in the late July 3 sweep: Hybrid Memory plugin (graph+vector+holographic), MCP ChatGPT bridge, Agent Bookmarks for Notion, MoA Synthesis decision discipline, BDH Graph Harness, and RedSeek Rescue."
 ---
 

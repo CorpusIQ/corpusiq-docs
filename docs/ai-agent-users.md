@@ -1,5 +1,5 @@
 ---
-title: "MCP Direct Connection  --  Connect Any AI Agent or LLM to Business Data"
+title: "MCP Direct Connection"
 description: "Connect any AI model  --  Claude, ChatGPT, Perplexity, local LLMs, or API-only models  --  to 38+ business data sources via CorpusIQ MCP. One endpoint. Works with every AI. OAuth 2.0 device flow, ~500 tools, 150+ skills."
 category: "Documentation"
 tags: ["mcp direct connection", "connect any llm to business data", "local llm business data", "mcp endpoint", "oauth device flow", "claude mcp", "chatgpt mcp", "ollama mcp", "openrouter mcp"]

@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ Quick Start Guide — Connect Business Data to AI in 5 Minutes"
+title: "CorpusIQ Quick Start — Connect Business Data to AI"
 description: "Get your first CorpusIQ query running in under 5 minutes. Step-by-step guide: sign up, connect business tools via OAuth, get API token, and query CRM, accounting, or analytics with natural language."
 category: "Documentation"
 tags: ["corpusiq quick start", "setup guide", "connect data to ai", "mcp setup", "oauth connection", "api token", "first query"]

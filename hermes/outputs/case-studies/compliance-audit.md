@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Compliance & Audit Automation | Continuous SOC 2 HIPAA GDPR Monitoring"
+title: "Hermes Agent Compliance & Audit Automation"
 description: "Automate SOC 2, HIPAA, and GDPR compliance with Hermes Agent. Continuous evidence collection, audit trails, and regulatory reporting using cron-driven AI skills."
 category: "Case Study"
 tags:

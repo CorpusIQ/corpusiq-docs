@@ -1,5 +1,5 @@
 ---
-title: "New Hermes Skill Repo  --  aawobdev/hermes-skills (Blueprint Orchestration)"
+title: "New Hermes Skill Repo"
 description: "12 newly discovered Hermes Agent skills from aawobdev/hermes-skills  --  a complete multi-agent blueprint orchestration system: Architect, Developer, Tester, Designer, DevOps, Security Auditor, End-User, Researcher, Orchestrator, Model Routing, Prompting Standards"
 ---
 

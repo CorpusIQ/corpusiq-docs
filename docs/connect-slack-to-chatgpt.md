@@ -1,5 +1,5 @@
 ---
-title: "Connect Slack to ChatGPT via MCP  --  Live Data, No Code | CorpusIQ"
+title: "Connect Slack to ChatGPT via MCP -- Live Data, No Code"
 description: "Connect your Slack account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your slack data and get real-time, source-cited answers  --  no exports, no coding required."
 category: ChatGPT Integrations
 tags: ["connect Slack to ChatGPT", "Slack ChatGPT integration", "MCP Slack connector", "Slack data to ChatGPT", "AI for Slack", "CorpusIQ MCP"]

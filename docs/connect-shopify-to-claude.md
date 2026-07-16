@@ -1,5 +1,5 @@
 ---
-title: "Connect Shopify to Claude via MCP  --  Live Data, No Code | CorpusIQ"
+title: "Connect Shopify to Claude via MCP -- Live Data, No Code"
 description: "Connect your Shopify account to Claude through CorpusIQ MCP. Ask natural language questions about your shopify data and get real-time, source-cited answers  --  no exports, no coding required."
 category: Claude Integrations
 tags: ["connect Shopify to Claude", "Shopify Claude integration", "MCP Shopify connector", "Shopify data to Claude", "AI for Shopify", "CorpusIQ MCP"]

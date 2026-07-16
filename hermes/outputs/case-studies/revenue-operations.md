@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Revenue Operations Automation | Pipeline Forecasting & Reconciliation"
+title: "Hermes Agent Revenue Operations Automation"
 description: "Automate pipeline hygiene, sales forecasting, commission calculation, and cross-source revenue reconciliation with Hermes Agent AI for RevOps teams."
 category: "Case Study"
 tags:

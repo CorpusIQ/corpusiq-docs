@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Customer Support Automation | Ticket Triage & SLA Management AI"
+title: "Hermes Agent Customer Support Automation"
 description: "Automate multi-channel ticket triage, knowledge base search, SLA monitoring, escalation routing, and customer health tracking with Hermes Agent AI."
 category: "Case Study"
 tags:

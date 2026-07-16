@@ -1,5 +1,5 @@
 ---
-title: Incident Response Blueprint for Hermes Agent  --  Automated Detection & Remediation
+title: "Incident Response Blueprint for Hermes Agent"
 description: SLA-driven Hermes Agent incident response blueprint. Automated detection, triage, severity scoring, remediation coordination, and postmortem generation. Connects monitoring, communication, and issue tracking with time-gated escalation.
 category: blueprints
 tags: [hermes-agent, blueprint, incident-response, monitoring, sla, triage, remediation, postmortem, devops]

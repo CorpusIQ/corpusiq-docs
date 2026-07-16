@@ -1,5 +1,5 @@
 ---
-title: New Skills  --  June 17, 2026 (nousresearch/hermes-agent expansion)
+title: "New Skills"
 description: 6 new Hermes Agent skills discovered June 17, 2026 from nousresearch/hermes-agent  --  native MCP client, office document generation, DuckDuckGo search, meme generation, vLLM serving, and Excel authoring.
 ---
 

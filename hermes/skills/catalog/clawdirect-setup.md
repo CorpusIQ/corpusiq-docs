@@ -1,5 +1,5 @@
 ---
-title: "Setup Guide: napoleond/clawdirect — Agent Self-Direction Framework (9K+ Installs)"
+title: "napoleond/clawdirect — Agent Self-Direction Framework"
 description: "Complete setup guide for clawdirect and clawdirect-dev: structured agent task execution, work trees, directives, and development mode for Hermes/OpenClaw agents."
 ---
 

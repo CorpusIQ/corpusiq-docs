@@ -1,5 +1,5 @@
 ---
-title: "🆕 July 1, 2026 — Official Hermes Gap Sweep: 11 New Core Skills + Hermes Ecosystem Expansion (49 total)"
+title: "July 1, 2026 — Official Hermes Gap Sweep"
 description: "New Hermes skills discovered July 1, 2026: 11 official Hermes Agent skills, 23 Hermes ecosystem skills, 15 ClawSec security skills. First discovery of these core utilities missed in previous sweeps."
 ---
 

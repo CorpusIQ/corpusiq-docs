@@ -1,5 +1,5 @@
 ---
-title: "AI Visibility Analytics MCP — Brand Monitoring Across AI Search Engines"
+title: "AI Visibility Analytics MCP — Brand Monitoring"
 description: "Monitor brand visibility across 15+ AI providers (ChatGPT, Perplexity, Gemini, AI Overviews). MCP connector for competitive intelligence and AI search tracking."
 category: mcp
 tags: [mcp-server, marketing, seo, brand-monitoring, ai-search, competitive-intelligence]

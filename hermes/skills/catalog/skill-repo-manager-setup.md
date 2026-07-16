@@ -1,5 +1,5 @@
 ---
-title: Skill Repo Manager — Hermes Skill Repository Management Setup Guide
+title: "Skill Repo Manager — Hermes Repository Setup Guide"
 description: Install and configure Victor-F-M-A-R/skywork-skill-skill-repo-manager — manage the complete lifecycle of Hermes skill GitHub repositories with sync, audit, and update detection
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Connect QuickBooks to Claude via MCP  --  Live Data, No Code | CorpusIQ"
+title: "Connect QuickBooks to Claude via MCP -- Live Data, No Code"
 description: "Connect your QuickBooks account to Claude through CorpusIQ MCP. Ask natural language questions about your quickbooks data and get real-time, source-cited answers  --  no exports, no coding required."
 category: Claude Integrations
 tags: ["connect QuickBooks to Claude", "QuickBooks Claude integration", "MCP QuickBooks connector", "QuickBooks data to Claude", "AI for QuickBooks", "CorpusIQ MCP"]

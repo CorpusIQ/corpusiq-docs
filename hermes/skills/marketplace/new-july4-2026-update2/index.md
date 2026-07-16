@@ -1,5 +1,5 @@
 ---
-title: "🆕 July 4, 2026 (Update 2) — Hermes Idea Workflow Suite + OpenClaw Tooling"
+title: "July 4, 2026 (Update 2) — Hermes Idea Workflow Suite"
 description: "6 new Hermes-relevant skills discovered in a July 4 late-evening sweep: akoliteza/hermes-agent-idea-workflow (4 skills, 235⭐), archieindian/openclaw-superpowers tool-description-optimizer, and heyvhuang/ship-faster tool-openclaw."
 ---
 

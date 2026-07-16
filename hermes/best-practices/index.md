@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent Best Practices Guide  --  Build Reliable AI Automation
+title: "Hermes Agent Best Practices Guide"
 description: Hermes Agent best practices for production AI automation. Anti-patterns, maturity model, cron design, model selection, memory management, security, skill development, and MCP server design. Community-driven reliability patterns.
 category: best-practices
 tags: [hermes-agent, best-practices, ai-automation, maturity-model, anti-patterns, production, reliability]

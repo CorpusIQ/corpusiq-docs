@@ -1,5 +1,5 @@
 ---
-title: "SaaS & AI Pricing API MCP — Competitive Intelligence for 490+ Tools"
+title: "SaaS & AI Pricing API MCP — Competitive Intelligence"
 description: "Free REST API and MCP server for verified SaaS, AI, and LLM pricing across 490+ tools. OpenAPI 3.1, no API key required. Market research for operators."
 category: mcp
 tags: [mcp-server, business-intelligence, saas, pricing, competitive-research, market-intelligence]

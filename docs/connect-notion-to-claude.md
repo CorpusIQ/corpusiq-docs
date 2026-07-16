@@ -1,6 +1,5 @@
 ---
-title: Connect Notion to Claude via MCP  --  Knowledge Base Intelligence in AI
-title: Connect Notion to Claude | CorpusIQ MCP Integration for Knowledge Management
+title: "Connect Notion to Claude"
 description: Connect Notion to Claude using CorpusIQ's MCP platform. Search pages, query databases, and surface institutional knowledge in natural language. Read-only integration, no-code setup.
 url: /docs/connect-notion-to-claude
 h1: 'Connect Notion to Claude: Your Wiki as an AI Knowledge Base'

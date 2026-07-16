@@ -1,5 +1,5 @@
 ---
-title: Hermes DevOps Agent  --  Infrastructure Monitoring & SRE Automation
+title: "Hermes DevOps Agent"
 description: Deploy an autonomous DevOps/SRE agent for infrastructure health checks, deployment monitoring, incident response, log analysis, and cost optimization. Complete Hermes blueprint.
 category: Agents
 tags:

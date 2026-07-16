@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Manufacturing Automation | Supply Chain & Quality Control AI"
+title: "Hermes Agent Manufacturing Automation"
 description: "Automate supply chain monitoring, quality control alerts, and equipment maintenance with Hermes Agent AI workflows for manufacturing operations."
 category: "Case Study"
 tags:

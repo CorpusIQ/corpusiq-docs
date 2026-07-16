@@ -1,5 +1,5 @@
 ---
-title: "MCP vs RPA: Intelligent API Data Access vs Scripted UI Automation | CorpusIQ"
+title: "MCP vs RPA: API Data Access vs Scripted UI Automation"
 description: "Compare MCP servers vs Robotic Process Automation (RPA). MCP offers intelligent read-only API-based data access while RPA relies on fragile UI automation, screen scraping, and scripted interface interactions."
 category: MCP Education
 tags: ["MCP vs RPA", "API vs UI automation", "AI data access layer", "RPA alternative for analytics", "intelligent data integration", "screen scraping vs API"]

@@ -1,6 +1,5 @@
 ---
-title: AI for Forecasting  --  Predictive Business Intelligence with CorpusIQ MCP
-title: AI for Forecasting | CorpusIQ MCP Platform for Predictive Analytics
+title: "AI for Forecasting"
 description: Transform business forecasting with AI. Combine historical data, pipeline, and market signals for accurate predictions. Revenue forecasting, cash flow projections, and demand planning
   with MCP.
 url: /docs/ai-for-forecasting

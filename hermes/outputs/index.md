@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent Outputs  --  Real-World Implementation Guides & Case Studies
+title: "Hermes Agent Outputs"
 description: "Field manual of Hermes Agent implementations: industry case studies, company-size guides, and copy-paste cron templates. Real automations for compliance, healthcare, finance, manufacturing, and more."
 category: Outputs
 tags:

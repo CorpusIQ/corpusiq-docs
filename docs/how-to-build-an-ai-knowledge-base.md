@@ -1,5 +1,5 @@
 ---
-title: "How to Build an AI Knowledge Base  --  Step-by-Step with CorpusIQ MCP"
+title: "How to Build an AI Knowledge Base"
 description: "Build an AI-powered knowledge base that queries your live business data. Connect CRM, docs, email, and more to AI with CorpusIQ MCP. No coding required."
 h1: "How to Build an AI Knowledge Base"
 url: "/docs/how-to-build-an-ai-knowledge-base"

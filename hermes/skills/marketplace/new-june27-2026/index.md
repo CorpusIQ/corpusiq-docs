@@ -1,5 +1,5 @@
 ---
-title: "New June 27, 2026 — Skills Gallery (1,672+ Skills), A2A Bridge, Flight Recorder, and 7 More"
+title: "June 27, 2026 — Skills Gallery (1,672"
 description: "9 newly discovered Hermes Agent repos — Skills Gallery mega-collection (1,672+ skills across 49 categories), Agent-to-Agent Protocol bridge, autonomy flight recorder, WeChat plugin, Coolify ARM64 deploy, Walkie-Talkie, ztk context compressor, Robert Greene skill, and Gruvbox skin"
 ---
 

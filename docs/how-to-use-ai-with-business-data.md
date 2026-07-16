@@ -1,5 +1,5 @@
 ---
-title: "How to Use AI with Business Data  --  Complete MCP Implementation Guide"
+title: "How to Use AI with Business Data"
 description: "Use AI with your business data using CorpusIQ MCP. Connect CRM, accounting, analytics, and more to ChatGPT and Claude. No coding, real-time data."
 h1: "How to Use AI with Business Data"
 url: "/docs/how-to-use-ai-with-business-data"

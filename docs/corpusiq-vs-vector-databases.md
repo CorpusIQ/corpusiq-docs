@@ -1,5 +1,5 @@
 ---
-title: CorpusIQ vs Vector Databases  --  MCP Real-Time Retrieval vs Vector Search
+title: "CorpusIQ vs Vector Databases"
 description: CorpusIQ MCP live query vs vector database search. Real-time API retrieval vs pre-indexed embeddings. When to use each for AI-powered data access.
 h1: CorpusIQ vs Vector Databases  --  MCP Retrieval vs Vector Search
 url: /docs/corpusiq-vs-vector-databases

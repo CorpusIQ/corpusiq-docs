@@ -1,5 +1,5 @@
 ---
-title: "🆕 July 4, 2026 — agent-sessions (683⭐) + Hermes ArXiv Agent + 22 More"
+title: "July 4, 2026 — agent-sessions (683⭐)"
 description: "24 new Hermes-relevant repos discovered July 4, 2026: agent-sessions macOS session browser (683⭐), Hermes ArXiv Agent (91⭐), memoria-vault research OS, cinematic-scroll-skill (9⭐), Hermes Meshtastic adapter, and more."
 ---
 

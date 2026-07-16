@@ -1,5 +1,5 @@
 ---
-title: New Skills  --  June 18, 2026 Update 2 (HyperFrames Video Ecosystem)
+title: "New Skills"
 description: 6 newly catalogued skills  --  the official Hermes Agent hyperframes skill (nousresearch) plus 5 HyperFrames SDK skills from heygen-com/hyperframes (103K+ installs each)  --  enabling agentic HTML-based video creation.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Hermes Sales Agent Configuration  --  AI-Powered Pipeline & Outreach
+title: "Hermes Sales Agent Configuration"
 description: Deploy an autonomous Hermes sales agent for lead qualification, pipeline management, outreach sequences, and daily CRM reporting. Complete configuration blueprint with cron schedules.
 category: Agents
 tags:

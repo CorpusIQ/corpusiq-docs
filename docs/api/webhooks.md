@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ Webhooks  --  Event Notifications and HMAC Signature Verification"
+title: "CorpusIQ Webhooks"
 description: "Complete CorpusIQ webhooks guide: event types (user.deleted), HMAC-SHA256 signature verification, retry with exponential backoff, payload format, and setup instructions."
 category: "API Reference"
 tags: ["corpusiq webhooks", "event notifications", "hmac signature", "webhook security", "user deleted event", "webhook setup", "api events"]

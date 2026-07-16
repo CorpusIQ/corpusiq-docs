@@ -1,5 +1,5 @@
 ---
-title: "🆕 June 29, 2026 (Update) — OpenClaw/Clawd Ecosystem: 25 New Skills from 9 Repos (43K+ Total Installs)"
+title: "June 29, 2026 (Update) — OpenClaw/Clawd Ecosystem"
 description: "June 29, 2026 update: 25 new skills discovered across 9 OpenClaw/Clawd ecosystem repos — clawdis (14 skills), clawdirect (2), clawdstrike (1), plus security, backup, and integrations."
 ---
 

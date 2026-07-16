@@ -1,5 +1,5 @@
 ---
-title: "Lawstronaut MCP — Global Legal & Regulatory Document Access for AI Agents"
+title: "Lawstronaut MCP — Global Legal & Regulatory Document Access"
 description: "Connect Lawstronaut to Hermes Agent. Access millions of official legal and regulatory source documents from 155+ jurisdictions — structured legal research, laws, regulations, cases, and guidance."
 category: mcp
 tags: [mcp-server, legal, compliance, regulatory, lawstronaut, legal-research]

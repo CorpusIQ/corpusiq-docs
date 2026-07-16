@@ -1,5 +1,5 @@
 ---
-title: New Skills  --  June 19, 2026 (Hermes AgentMesh + Windows Native)
+title: "New Skills"
 description: 4 newly discovered skills and tools  --  async multi-agent message bus, Windows-native setup package, polymarket trading bot, and video translation. Plus Graphify adds Hermes platform support.
 ---
 

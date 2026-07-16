@@ -1,5 +1,5 @@
 ---
-title: June 15, 2026  --  Nous Research Hermes Agent Expansion (23 skills)
+title: "June 15, 2026 -- Nous Research Hermes Agent Expansion"
 description: Daily sweep found 23 unlisted nousresearch/hermes-agent skills with 131-158 installs each. Creative tools, macOS automation, dev workflows  --  all from the official repo.
 ---
 

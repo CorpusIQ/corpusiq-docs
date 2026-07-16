@@ -1,5 +1,5 @@
 ---
-title: "Matt Pocock Engineering Skills — Setup Guide for Hermes Agents"
+title: "Matt Pocock Engineering Skills — Setup Guide"
 description: "Install and configure the 5-skill Matt Pocock engineering suite: architecture review, PRD generation, issue decomposition, repo setup, and adversarial plan grilling. 1.3M+ combined installs."
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Coding Agent Project Management MCP — 71 Tools for AI-Driven Development"
+title: "Coding Agent Project Management MCP — 71 Tools"
 description: "Project management for coding agents — bugs, features, sprints, cross-tenant contracts. 71 MCP tools for operators managing AI-assisted development workflows."
 category: mcp
 tags: [mcp-server, operations, project-management, development, coding-agents, agile]

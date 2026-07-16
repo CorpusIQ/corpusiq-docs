@@ -1,5 +1,5 @@
 ---
-title: "Hermes Skills Catalog — Quality-Tiered Agent Skills Directory"
+title: "Hermes Skills Catalog — Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 445+ skills catalogued."
 ---
 

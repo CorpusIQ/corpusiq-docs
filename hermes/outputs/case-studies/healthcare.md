@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Healthcare Automation | HIPAA-Compliant AI Workflows for Medical Practices"
+title: "Hermes Agent Healthcare Automation"
 description: "Automate patient record management, appointment scheduling, insurance verification, and lab notifications with HIPAA-compliant Hermes Agent AI workflows for healthcare."
 category: "Case Study"
 tags:

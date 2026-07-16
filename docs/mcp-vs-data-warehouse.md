@@ -1,5 +1,5 @@
 ---
-title: "MCP vs Data Warehouse: Live Query vs Batch ETL for Business Intelligence | CorpusIQ"
+title: "MCP vs Data Warehouse: Live Query vs Batch ETL"
 description: "Compare MCP servers vs traditional data warehouses. MCP queries live business data with zero storage overhead, while data warehouses require batch ETL pipelines, schema design, and ongoing maintenance."
 category: MCP Education
 tags: ["MCP vs data warehouse", "live query vs ETL", "real-time vs batch analytics", "AI business intelligence platform", "zero storage data access", "data warehouse alternative"]

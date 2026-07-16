@@ -1,5 +1,5 @@
 ---
-title: "Setup Guide: steipete/clawdis — 14 OpenClaw Skills (37K+ Installs)"
+title: "steipete/clawdis — 14 OpenClaw Skills"
 description: "Complete setup guide for the clawdis skill collection: tmux, openai-whisper, ordercli, peekaboo, himalaya, clawhub, video-frames, session-logs, healthcheck, trello, model-usage, sonoscli, blogwatcher, spotify-player."
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "🆕 July 4, 2026 (Update) — hermes-top Dashboard + Neo Theme + Backup + AGEL-Comp Safety"
+title: "July 4, 2026 (Update) — hermes-top Dashboard"
 description: "5 new Hermes-relevant repos discovered in late July 4 sweep: hermes-top terminal dashboard (1⭐), Neo Desktop Theme (2⭐), Hermes Full Backup (1⭐), IC-sd Agent Skills (1⭐), AGEL-Comp Safety Framework."
 ---
 

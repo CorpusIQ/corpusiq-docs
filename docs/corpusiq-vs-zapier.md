@@ -1,5 +1,5 @@
 ---
-title: CorpusIQ vs Zapier  --  MCP Real-Time AI vs Workflow Automation Comparison
+title: "CorpusIQ vs Zapier"
 description: 'CorpusIQ MCP platform vs Zapier workflow automation: real-time AI-native data access vs trigger-action pipelines. Fair comparison with strengths of each tool.'
 h1: CorpusIQ vs Zapier  --  MCP Real-Time AI-Native vs Workflow Automation
 url: /docs/corpusiq-vs-zapier

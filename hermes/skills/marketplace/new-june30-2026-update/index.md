@@ -1,5 +1,5 @@
 ---
-title: "🆕 June 30, 2026 (Update) — Matt Pocock Engineering Skills + OpenClaw Loader"
+title: "June 30, 2026 (Update) — Matt Pocock Engineering Skills"
 description: "7 additional Hermes skills discovered June 30, 2026 late sweep: 5 Matt Pocock engineering skills (1.3M+ combined installs), ChromaDB integration, OpenClaw skill loader."
 ---
 

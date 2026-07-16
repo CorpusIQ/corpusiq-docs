@@ -1,8 +1,7 @@
 ---
-title: 'QuickBooks Natural Language Queries: Ask Your Books Anything | CorpusIQ'
+title: "QuickBooks Natural Language Queries"
 url: /docs/quickbooks-natural-language-queries
 h1: 'QuickBooks Natural Language Queries: Ask Your Financial Data Anything'
-title: QuickBooks Natural Language Queries  --  Ask Your Books in Plain English | CorpusIQ
 description: Query QuickBooks in plain English with CorpusIQ MCP. Ask questions like 'Which customers are past due?' or 'What drove our expense increase?' and get instant, accurate answers from your
   live data.
 keywords:

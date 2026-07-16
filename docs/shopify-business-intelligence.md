@@ -1,8 +1,7 @@
 ---
-title: 'Shopify Business Intelligence: AI-Powered Ecommerce BI Platform | CorpusIQ'
+title: "Shopify Business Intelligence -- AI-Powered Ecommerce BI"
 url: /docs/shopify-business-intelligence
 h1: 'Shopify Business Intelligence: Turn Your Store Data into Strategic Advantage'
-title: Shopify Business Intelligence  --  AI-Powered Ecommerce BI | CorpusIQ
 description: Upgrade Shopify to an enterprise BI platform with CorpusIQ MCP. Unify ecommerce, marketing, financial, and customer data for AI-powered business intelligence and cross-source analytics.
 keywords:
 - Shopify business intelligence
