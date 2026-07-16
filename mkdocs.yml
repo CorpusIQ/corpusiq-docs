@@ -263,6 +263,8 @@ nav:
     - Troubleshooting: hermes/troubleshooting/index.md
     - Contributors: hermes/contributors.md
     - Changelog: hermes/changelog/index.md
+hooks:
+- scripts/hooks/auto_link_children.py
 plugins:
 - search
 - meta
