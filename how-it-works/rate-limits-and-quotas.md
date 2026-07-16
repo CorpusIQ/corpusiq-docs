@@ -306,7 +306,7 @@ These are self-hosted or your own cloud accounts, so rate limits depend on your 
 
 ### 1. Check the error code first
 
-If you see `429 Too Many Requests`, a vendor rate limit was hit. See [troubleshooting/error-codes-reference.md](troubleshooting/error-codes-reference.md).
+If you see `429 Too Many Requests`, a vendor rate limit was hit. See [error-codes-reference.md](../troubleshooting/error-codes-reference.md).
 
 ### 2. Narrow your query scope
 
