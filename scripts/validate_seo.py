@@ -79,6 +79,18 @@ def find_internal_links(content, all_pages):
     return linked
 
 
+def _is_placeholder_url(url):
+    """Skip illustrative/example URLs used in API docs (not real, never resolve).
+
+    e.g. https://admin.shopify.com/store/.../orders/12345 or
+    https://quickbooks.api.intuit.com/v3/company/{REALM_ID}/query — these are
+    documentation placeholders, not broken links, and must not block a deploy.
+    """
+    markers = ("{", "}", "...", "<", ">", "example.com", "your-", "REALM_ID",
+               "/store/.../", "12345", "YOUR_", "xxxx")
+    return any(m in url for m in markers)
+
+
 def check_broken_link(url):
     """Check if an external URL returns 200. Returns (url, status, error)."""
     try:
@@ -152,6 +164,8 @@ def main():
             content = f.read()
         for url, text in find_external_links(content):
             if "corpusiq.io" not in url and "github.com/CorpusIQ" not in url:
+                if _is_placeholder_url(url):
+                    continue
                 all_links.add(url)
                 link_sources[url].append(str(md_path.relative_to(docs_dir)))
 
@@ -171,7 +185,8 @@ def main():
         futures = {pool.submit(check_broken_link, url): url for url in check_links[:args.max_links]}
         for future in as_completed(futures):
             url, status, error = future.result()
-            if status and status >= 400:
+            # 401/403/429 = exists but auth-walled / rate-limited, not broken.
+            if status and status >= 400 and status not in (401, 403, 429):
                 broken.append((url, status, link_sources[url]))
                 print(f"  ❌ {status} {url} (from {link_sources[url][0]})")
 
@@ -197,7 +212,7 @@ def main():
     for md_path in md_files:
         with open(md_path) as f:
             content = f.read()
-        for text, link in find_internal_links(content, all_pages):
+        for link in find_internal_links(content, all_pages):
             # Normalize the link
             link = link.replace(".md", "").replace(".html", "")
             if link.endswith("/index"):
