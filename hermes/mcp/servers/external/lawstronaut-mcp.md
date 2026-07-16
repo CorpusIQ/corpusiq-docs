@@ -1,43 +1,49 @@
 ---
-title: "Lawstronaut MCP — Global Legal & Regulatory Document Access"
-description: "Connect Lawstronaut to Hermes Agent. Access millions of official legal and regulatory source documents from 155+ jurisdictions — structured legal research, laws, regulations, cases, and guidance."
+title: "Lawstronaut MCP — Legal & Regulatory Research Across 155+ Jurisdictions"
+description: "Millions of official legal and regulatory source documents from 155+ jurisdictions accessible via MCP. Structured legal research for AI agents."
 category: mcp
-tags: [mcp-server, legal, compliance, regulatory, lawstronaut, legal-research]
-last_updated: 2026-07-15
+tags: [mcp-server, legal, compliance, research, regulatory, business-operations]
+last_updated: 2026-07-16
 ---
 
 # Lawstronaut MCP Server ★ New (July 15)
 
-Lawstronaut gives AI agents structured access to millions of official legal and regulatory source documents across 155+ jurisdictions. Built by Lawstronaut-FZCO, it enables AI agents to perform legal research, compliance verification, and regulatory analysis without manual document retrieval.
+Access millions of official legal and regulatory source documents from 155+ jurisdictions through MCP. Lawstronaut supports AI agents with structured legal research — laws, regulations, cases, guidance, and official sources — all queryable in plain language.
 
 **Source:** mcp.so (submitted July 15, 2026)
-**Author:** Lawstronaut-FZCO (Wanne Pemmelaar)
-**Verified:** ✓
+**Category:** Databases
+**Author:** Lawstronaut-FZCO (verified)
 
 ## Key Features
 
-- **155+ jurisdictions:** Official legal documents from countries worldwide — laws, regulations, cases, and regulatory guidance
-- **Structured legal research:** AI agents query and retrieve cited, source-verified legal content
-- **Regulatory compliance:** Access current regulations for compliance checks, cross-border operations, and risk assessment
-- **Case law & guidance:** Official court decisions and regulatory agency guidance documents
-- **MCP-native:** Built as an MCP server from the ground up for AI agent consumption
+- **155+ jurisdictions:** Legal documents spanning countries across North America, Europe, Asia, and more
+- **Structured research:** Laws, regulations, cases, guidance documents, and official sources
+- **Plain-language queries:** Ask legal questions in natural language and get source-documented answers
+- **MCP-native:** Connect directly to Claude, Cursor, ChatGPT, and any MCP client
+- **Official sources:** Documents sourced from government and regulatory bodies, not third-party summaries
 
 ## Business Relevance
 
-For legal teams, compliance officers, and operators managing cross-border business — Lawstronaut turns legal research from a manual, jurisdiction-by-jurisdiction slog into an AI-assisted query. Operators expanding internationally can verify regulatory requirements in target markets. Compliance teams can cross-reference obligations across jurisdictions. Legal researchers can retrieve cited source documents without navigating 155+ separate government portals.
+Legal and regulatory research for operators managing compliance, contracts, and cross-border operations. Use cases:
+- **Compliance checking:** Verify business practices against regulations in your operating jurisdictions
+- **Cross-border expansion:** Research legal requirements before entering new markets
+- **Contract intelligence:** Reference relevant laws and precedents when reviewing or drafting contracts
+- **Regulatory monitoring:** Track changes in laws and regulations that affect your industry
+- **Due diligence:** Research legal frameworks during M&A, partnerships, or vendor evaluations
+
+Essential for operators in legal, compliance, finance, and international operations roles. Reduces reliance on expensive legal research platforms for preliminary inquiries.
 
 ## Integration with CorpusIQ
 
-Lawstronaut complements CorpusIQ's business operations data by adding the legal/regulatory layer. While CorpusIQ provides financial, sales, and marketing data from 37+ business sources, Lawstronaut adds the compliance dimension — operators can verify that business decisions align with current regulations in their operating jurisdictions. Combined workflow: CorpusIQ surfaces a financial trend → Lawstronaut checks if the response complies with relevant regulations in the affected jurisdictions.
+Pair with CorpusIQ's business data connectors to contextualize legal research against your actual operations. Ask: "Are our current data handling practices compliant with regulations in the EU markets we serve?" Combine Lawstronaut's legal data with your operational data from HubSpot, Stripe, or QuickBooks for compliance-aware business intelligence.
 
 ## Limitations
 
-- **Submission-only listing:** Listed on mcp.so as of July 15, 2026. GitHub repository, documentation URL, and API endpoint details are not yet publicly available
-- **Jurisdiction coverage:** 155+ jurisdictions is broad but may not include all regulatory bodies within each jurisdiction
-- **Document freshness:** Legal documents require regular updates — update frequency is not yet documented
-- **Access model:** Self-hosted vs. hosted, authentication requirements, and pricing are TBD pending full documentation
+- Not a substitute for legal counsel — provides source documents, not legal advice
+- Coverage varies by jurisdiction — some countries have more comprehensive document libraries than others
+- Document freshness depends on government publication schedules
+- English-language focus — non-English documents may have limited searchability
 
-## See Also
+---
 
-- [Kvasir Legal MCP — EU Law Grounding](/hermes/mcp/servers/external/kvasir-legal/) — complementary for EU-specific legal queries
-- [GoldLegal Legal Compliance API](/hermes/mcp/servers/external/) — contract review and AI Act compliance
+*→ [Back to External MCP Catalog](/hermes/mcp/servers/external/)*

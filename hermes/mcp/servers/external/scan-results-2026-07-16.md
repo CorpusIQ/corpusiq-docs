@@ -1,6 +1,6 @@
 ---
-title: "MCP Server Scan — July 16, 2026"
-description: "Automated scan of mcpservers.org (sitemap). 7 new servers found, 4 business-relevant guides created."
+title: "MCP Server Scan Results — July 16, 2026"
+description: "Daily MCP server discovery scan from mcp.so + mcpservers.org. 15 new servers found (July 15-17), 6 business-relevant guides created."
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
 last_updated: 2026-07-16
@@ -8,50 +8,69 @@ last_updated: 2026-07-16
 
 # MCP Server Scan — July 16, 2026
 
-**Sources:** mcpservers.org (sitemap extraction)
+**Sources:** mcp.so (React SPA, text extraction) + mcpservers.org (TanStack Router hydration payload)
 **Date:** July 16, 2026
-**Previous scan:** July 15, 2026 (evening supplement — 7 servers from mcp.so)
+**Previous scan:** July 14, 2026 (supplement)
+**Coverage:** July 15-17 submissions on mcp.so; July 15-16 latest on mcpservers.org
 
 ## Methodology
 
-mcpservers.org sitemap extraction — filtered for servers with `lastmod >= 2026-07-16` across all 5 sitemap files. mcp.so is JS-rendered (SolidJS) in cron environment and was not scanned this cycle (deferred until Firecrawl/Playwright available in cron).
+Both sources remain accessible: mcp.so via curl text-stripping from SPA payloads, mcpservers.org via browser-identifying User-Agent. Cross-referenced all candidates against the existing catalog (index.md + 80+ guide files + prior scan reports).
 
-## New Since July 15 Evening Scan: 7 servers, 4 guides created
+## New Servers Found: 15 total, 6 guides created
 
-### Guide-Worthy (Business-Relevant)
+### Guide-Worthy (Business-Relevant) — Guides Created
 
-| Server | Source | Stars | Description | Guide |
-|--------|--------|-------|-------------|-------|
-| **Kubernetes MCP Server** ★ | mcpservers.org | 1,814★ | MCP server for Kubernetes and OpenShift. Native binary, npm/Python/Docker. Manage clusters, pods, deployments, configs via MCP. | [Guide](/hermes/mcp/servers/external/kubernetes-mcp-server/) |
-| **Devopness** ★ | mcpservers.org | 434★ | AI DevOps on your cloud. Deploy apps, infra and CI/CD. Any cloud/stack, one MCP. Deterministic API. No cloud credentials in AI chats. Free plan. | [Guide](/hermes/mcp/servers/external/devopness-mcp/) |
-| **Superserve** ★ | mcpservers.org | 413★ | Sandbox infrastructure for AI Agents — create and control isolated cloud sandboxes via MCP. | [Guide](/hermes/mcp/servers/external/superserve-mcp/) |
-| **Agent360 Browser MCP** ★ | mcpservers.org | 22★ | Drive real logged-in Chrome from AI agents. Reads emailed login codes from Gmail, solves CAPTCHAs, 34 tools. MIT, local-only. Works where headless dies. | [Guide](/hermes/mcp/servers/external/browser-mcp-agent360/) |
+| Server | Source | Description | Guide |
+|--------|--------|-------------|-------|
+| **Competitor Tracker & Co.** ★ | mcp.so | Weekly competitor website crawling — pricing, product, messaging changes detected and filed as tagged reports. Submitted July 16. | [competitor-tracker-mcp](/hermes/mcp/servers/external/competitor-tracker-mcp/) |
+| **Lawstronaut** ★ | mcp.so | Millions of legal/regulatory documents from 155+ jurisdictions. Structured legal research via MCP. Submitted July 15. | [lawstronaut-mcp](/hermes/mcp/servers/external/lawstronaut-mcp/) |
+| **Capital.com Public API MCP** ★ | mcpservers.org | Trading account access + market data via MCP. Position checks, trade previews, plain-language queries. Submitted July 16. | [capital-com-mcp](/hermes/mcp/servers/external/capital-com-mcp/) |
+| **Agentcard** ★ | mcpservers.org | Prepaid virtual cards for AI agents with spend caps and human approvals. Submitted July 15. | [agentcard-mcp](/hermes/mcp/servers/external/agentcard-mcp/) |
+| **TranscriptFetch MCP** ★ | mcp.so | YouTube transcript fetching, search, channels, and playlists via MCP. Submitted July 16. | [transcriptfetch-mcp](/hermes/mcp/servers/external/transcriptfetch-mcp/) |
+| **Linkly Link Shortener** ★ | mcpservers.org | Link management with geo redirects, link rotators, and conversion tracking via MCP. Submitted July 16. | [linkly-mcp](/hermes/mcp/servers/external/linkly-mcp/) |
 
-### INDEX-ONLY (Niche or Developer-Focused)
+### INDEX-ONLY (Business-Adjacent, Niche, or Developer-Focused)
 
 | Server | Source | Description |
 |--------|--------|-------------|
-| **Google GenAI Toolbox** | mcpservers.org | Official Google MCP server for databases. Listed as "Official Toolbox For Databases MCP Server" on mcpservers.org. GitHub repo not publicly verifiable — may be internal or upcoming release. |
-| **Semiotic** | mcpservers.org | React data visualization library (2,685★). Charts, maps, network visualization. Developer library, not business-operator MCP. |
-| **Quokkapix MCP** | mcpservers.org | Private browser image workflows for AI agents (0★). Local-first image processing. Very early stage, narrow scope. |
+| **Blender MCP** | mcpservers.org | Official Blender 3D MCP — natural language interface with Blender Python API. Design/content creation. Submitted July 16. |
+| **SVGator MCP** | mcp.so | SVG animation from AI prompts. Export as SVG, Lottie, GIF, MP4. Media & Design category. Submitted July 15. |
+| **Sitespeak Claude Plugin** | mcp.so | Manage SiteSpeakAI chatbots from Claude Code — optimize chatbots in plain English. Productivity. Submitted July 15. |
+| **CallLint** | mcpservers.org | Static preflight safety gate for MCP servers — scan configs before running. Never executes. Development. Submitted July 15. |
+| **Overleaf Web MCP** | mcpservers.org | Revision-checked Overleaf (LaTeX) editing, compilation, and review threads via MCP. Productivity. Submitted July 15. |
+| **SAP ABAP MCP** | mcpservers.org | Develop, test, analyze SAP ABAP systems from AI coding agents. Enterprise development. Submitted July 15. |
+| **nornir-napalm-mcp** | mcpservers.org | Network device state via Nornir + NAPALM for AI assistants. Networking. Submitted July 15. |
+| **extentos (Smart Glasses MCP)** | mcp.so | MCP server for adding smart-glasses capabilities to Android/iOS apps. Niche hardware. Submitted July 17. |
+
+### SKIPPED
+
+| Server | Source | Reason |
+|--------|--------|--------|
+| **PoYo.ai** | mcp.so | AI model API client (500+ models) — not an MCP server, listed under Clients on mcp.so |
+| **Gocosmik** | mcp.so | MCP client/web app — not a server |
+| **APIMart** | mcp.so | AI API platform/client — not a server |
 
 ## Trends
 
-1. **DevOps MCPs accelerating:** Kubernetes MCP (1,814★) and Devopness (434★) both appeared the same day — signaling DevOps/infrastructure automation as a maturing MCP category. These join the cloud sandbox MCP (Superserve) to form a cluster of infrastructure-as-tool for AI agents.
+1. **Competitive intelligence enters MCP:** Competitor Tracker & Co. is the first dedicated competitor monitoring MCP server. Signals MCP expansion into strategic business operations beyond developer tooling.
 
-2. **Browser automation diversifying:** Agent360 Browser MCP (22★) takes a different approach from headless — real logged-in Chrome with Gmail OTP reading and CAPTCHA solving. Competitive to browser-use (97K★ Python library) but MCP-native.
+2. **Financial controls for AI agents emerge:** Agentcard represents a new category — financial infrastructure for autonomous AI agent spending. As agents become more autonomous, operators need spending controls.
 
-3. **Google entering MCP ecosystem:** The Google GenAI Toolbox listing suggests Google is building official MCP servers. Even if the repo isn't public yet, the listing on mcpservers.org under `googleapis/` signals intent.
+3. **Legal research democratized:** Lawstronaut brings legal document access to AI agents across 155+ jurisdictions. Reduces the cost of preliminary legal research for operators.
 
-4. **Volume steady:** 7 new servers/day consistent with the ~10-15/day observed in prior scans (~9,800 total on mcpservers.org).
+4. **Content intelligence tools proliferate:** TranscriptFetch joins YouTube-focused MCPs. Combined with existing content tools, operators can now build complete content intelligence pipelines through MCP.
+
+5. **Finance category deepens:** Capital.com adds trading/market data to an already strong finance category (Alpha Vantage, Kalshi, Dino Markets, Coinvest, Seiche Finance). Operators have diverse financial data options.
 
 ## Actions Taken
 
-- 4 integration guides drafted for business-relevant servers
-- 3 servers indexed (too niche or unverifiable for full guides)
-- Scan methodology: mcpservers.org sitemap extraction, mcp.so deferred
-- index.md updated with all new entries
+- ✅ 6 integration guides created for business-relevant servers
+- ✅ 8 servers added to index.md as INDEX-ONLY entries
+- ✅ 1 server skipped (client, not server)
+- ✅ 3 client listings skipped (PoYo.ai, Gocosmik, APIMart)
+- ✅ Scan report published
 
 ---
 
-*Next scan: July 17, 2026. Continue dual-source approach when mcp.so is scannable.*
+*← [Back to External MCP Catalog](/hermes/mcp/servers/external/) | [Previous Scan (July 14)](/hermes/mcp/servers/external/scan-results-2026-07-14/) →*

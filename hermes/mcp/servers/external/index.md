@@ -2388,6 +2388,42 @@ Full details: [scan-results-2026-07-02-update.md](/hermes/mcp/servers/external/s
 
 ---
 
+
+
+## New This Week (July 15–16, 2026)
+
+### 15 new servers from mcp.so Feed + mcpservers.org
+
+**Guides created for 6 business-relevant servers:**
+
+| Server | Category | Description | Guide |
+|--------|----------|-------------|-------|
+| Competitor Tracker & Co. ★ New | AI & Agents | Weekly competitor website crawling — pricing, product, messaging changes detected and filed as tagged reports. Submitted July 16. | [Guide](/hermes/mcp/servers/external/competitor-tracker-mcp/) |
+| Lawstronaut ★ New | Legal/Databases | Millions of legal/regulatory source documents from 155+ jurisdictions. Structured legal research for AI agents. Submitted July 15. | [Guide](/hermes/mcp/servers/external/lawstronaut-mcp/) |
+| Capital.com Public API MCP ★ New | Finance/Trading | Trading account access + market data via MCP. Position checks, trade previews, plain-language queries. Submitted July 16. | [Guide](/hermes/mcp/servers/external/capital-com-mcp/) |
+| Agentcard ★ New | Finance/Agent Ops | Prepaid virtual cards for AI agents with spend caps and human approvals. Submitted July 15. | [Guide](/hermes/mcp/servers/external/agentcard-mcp/) |
+| TranscriptFetch MCP ★ New | Developer Tools/Content | YouTube transcript fetching, search, channels, and playlists via MCP. Submitted July 16. | [Guide](/hermes/mcp/servers/external/transcriptfetch-mcp/) |
+| Linkly Link Shortener ★ New | Marketing | Link management with geo redirects, link rotators, and conversion tracking via MCP. Submitted July 16. | [Guide](/hermes/mcp/servers/external/linkly-mcp/) |
+
+**Index-only additions (9 servers):**
+
+| Server | Category | Description |
+|--------|----------|-------------|
+| Blender MCP ★ New | Design | Official Blender 3D MCP — natural language interface with Blender Python API. Submitted July 16. |
+| SVGator MCP ★ New | Media & Design | SVG animation from AI prompts. Export as SVG, Lottie, GIF, MP4. Submitted July 15. |
+| Sitespeak Claude Plugin ★ New | Productivity | Manage SiteSpeakAI chatbots from Claude Code — optimize chatbots in plain English. Submitted July 15. |
+| CallLint ★ New | Development | Static preflight safety gate for MCP servers — scan configs before running. Submitted July 15. |
+| Overleaf Web MCP ★ New | Productivity | Revision-checked Overleaf (LaTeX) editing, compilation, and review threads. Submitted July 15. |
+| SAP ABAP MCP ★ New | Development/Enterprise | SAP ABAP development, testing, and analysis from AI coding agents via ADT. Submitted July 15. |
+| nornir-napalm-mcp ★ New | Networking | Nornir + NAPALM network device state for AI assistants. Submitted July 15. |
+| extentos (Smart Glasses MCP) ★ New | Hardware/IoT | MCP server for adding smart-glasses capabilities to Android/iOS apps. Submitted July 17. |
+| ClassQuill MCP ★ New | Education/Productivity | Read-only tutoring business data — sessions, students, invoices, payments. Submitted July 14. |
+
+**Key Trends:** Competitive intelligence enters MCP as a first-class category (Competitor Tracker). Financial controls for autonomous AI agent spending emerge (Agentcard). Legal research democratized through MCP (Lawstronaut — 155+ jurisdictions). Content intelligence tools proliferate (TranscriptFetch). MCP safety/security tooling matures (CallLint — static analysis for MCP configs).
+
+**Full scan report:** [scan-results-2026-07-16.md](/hermes/mcp/servers/external/scan-results-2026-07-16/)
+
+
 ## Ecosystem Stats
 
 - **Total MCP servers tracked:** 22,663 (mcp.so), 9,300 (mcpservers.org)
