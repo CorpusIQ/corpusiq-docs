@@ -3,6 +3,15 @@ extra_css:
 - stylesheets/extra-v2.css
 extra_javascript:
 - javascripts/hermes-nav.js?v=2
+# Rewrites the theme's page-relative asset URLs (assets/, javascripts/,
+# stylesheets/) to absolute /docs/-rooted paths at build time. Required because
+# the site is served under /docs/ with trailing-slash stripping, which makes a
+# no-slash request like /docs resolve relative assets against the domain root
+# and 404. See hooks/absolute_asset_urls.py for the full explanation.
+hooks:
+- hooks/absolute_asset_urls.py
+- scripts/hooks/auto_link_children.py
+- scripts/hooks/truncate_meta_description.py
 markdown_extensions:
 - admonition
 - pymdownx.details
@@ -261,7 +270,7 @@ plugins:
 - meta
 repo_name: CorpusIQ/corpusiq-docs
 repo_url: https://github.com/CorpusIQ/corpusiq-docs
-site_description: CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your entire data stack — no data moved or stored.
+site_description: CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your data stack. No data moved or stored.
 site_name: CorpusIQ Docs
 site_url: https://www.corpusiq.io/docs/
 theme:

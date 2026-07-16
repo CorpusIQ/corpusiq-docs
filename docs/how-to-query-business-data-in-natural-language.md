@@ -2,7 +2,7 @@
 title: "How to Query Business Data in Natural Language  --  AI-Powered Analytics Guide"
 description: "Query your business data using plain English with CorpusIQ MCP. No SQL required. Connect CRM, accounting, and analytics to AI for natural language queries."
 h1: "How to Query Business Data in Natural Language"
-url: "/docs/how-to-query-business-data-in-natural-language/"
+url: "/docs/how-to-query-business-data-in-natural-language"
 author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
@@ -158,14 +158,14 @@ A: Minimal. The main skill is learning to be specific in your questions. Most us
 
 ## Internal Links
 
-- [How to Analyze Company Data with ChatGPT](/docs/how-to-analyze-company-data-with-chatgpt/)
-- [How to Use AI with Business Data](/docs/how-to-use-ai-with-business-data/)
-- [How to Build an Executive AI Dashboard](/docs/how-to-build-an-executive-ai-dashboard/)
-- [CorpusIQ vs Traditional BI  --  Natural Language vs Dashboards](/docs/corpusiq-vs-traditional-bi/)
-- [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai/)
-- [Best Business AI Search Tool](/docs/best-business-ai-search-tool/)
-- [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform/)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
+- [How to Analyze Company Data with ChatGPT](/docs/how-to-analyze-company-data-with-chatgpt)
+- [How to Use AI with Business Data](/docs/how-to-use-ai-with-business-data)
+- [How to Build an Executive AI Dashboard](/docs/how-to-build-an-executive-ai-dashboard)
+- [CorpusIQ vs Traditional BI  --  Natural Language vs Dashboards](/docs/corpusiq-vs-traditional-bi)
+- [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai)
+- [Best Business AI Search Tool](/docs/best-business-ai-search-tool)
+- [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform)
+- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
 ---
 
 *

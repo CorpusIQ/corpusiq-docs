@@ -2,7 +2,7 @@
 title: "How to Search Company Data with AI  --  Natural Language Business Search Guide"
 description: "Search your company's data with AI using CorpusIQ MCP. Natural language queries across CRM, accounting, analytics, and more. Step-by-step guide."
 h1: "How to Search Company Data with AI"
-url: "/docs/how-to-search-company-data-with-ai/"
+url: "/docs/how-to-search-company-data-with-ai"
 author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
@@ -164,14 +164,14 @@ A: Yes. Any AI assistant with MCP support on mobile can search your company data
 
 ## Internal Links
 
-- [How to Connect Business Data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt/)
-- [How to Analyze Company Data with ChatGPT](/docs/how-to-analyze-company-data-with-chatgpt/)
-- [How to Centralize Company Knowledge](/docs/how-to-centralize-company-knowledge/)
-- [How to Build an AI Knowledge Base](/docs/how-to-build-an-ai-knowledge-base/)
-- [Best Business AI Search Tool  --  Rankings](/docs/best-business-ai-search-tool/)
-- [Best AI Knowledge Platform  --  Comparison](/docs/best-ai-knowledge-platform/)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
-- [Top Business AI Tools  --  Rankings](/docs/top-business-ai-tools/)
+- [How to Connect Business Data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
+- [How to Analyze Company Data with ChatGPT](/docs/how-to-analyze-company-data-with-chatgpt)
+- [How to Centralize Company Knowledge](/docs/how-to-centralize-company-knowledge)
+- [How to Build an AI Knowledge Base](/docs/how-to-build-an-ai-knowledge-base)
+- [Best Business AI Search Tool  --  Rankings](/docs/best-business-ai-search-tool)
+- [Best AI Knowledge Platform  --  Comparison](/docs/best-ai-knowledge-platform)
+- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
+- [Top Business AI Tools  --  Rankings](/docs/top-business-ai-tools)
 ---
 
 *

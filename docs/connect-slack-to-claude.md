@@ -3,12 +3,12 @@ title: Connect Slack to Claude via MCP  --  Team Communication Intelligence in A
 title: Connect Slack to Claude | CorpusIQ MCP Integration for Team Collaboration
 description: Connect Slack to Claude using CorpusIQ's MCP platform. Search messages, analyze channels, and surface knowledge from team conversations in natural language. Read-only OAuth, enterprise-grade
   security.
-url: /docs/connect-slack-to-claude/
+url: /docs/connect-slack-to-claude
 h1: 'Connect Slack to Claude: Unlock Your Team''s Knowledge Base'
 category: Claude Integrations
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/connect-slack-to-claude/
+canonical: https://www.corpusiq.io/docs/connect-slack-to-claude
 keywords:
 - connect slack to Claude
 - slack Claude integration
@@ -124,13 +124,13 @@ A: Grant CorpusIQ access only to specific channels by configuring your Slack app
 
 ## Internal Links
 
-- [Connect Notion to Claude](/docs/connect-notion-to-claude/)  --  Knowledge management in Claude.
-- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude/)  --  Enterprise document access.
-- [Connect HubSpot to Claude](/docs/connect-hubspot-to-claude/)  --  CRM data in Claude.
-- [AI for Knowledge Management](/docs/ai-for-knowledge-management/)  --  AI-powered knowledge retrieval.
-- [AI for Document Search](/docs/ai-for-document-search/)  --  Document intelligence.
-- [AI for Customer Support](/docs/ai-for-customer-support/)  --  Support intelligence.
-- [What is MCP?](/docs/what-is-an-mcp-server/)  --  Understanding the Model Context Protocol.
+- [Connect Notion to Claude](/docs/connect-notion-to-claude)  --  Knowledge management in Claude.
+- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude)  --  Enterprise document access.
+- [Connect HubSpot to Claude](/docs/connect-hubspot-to-claude)  --  CRM data in Claude.
+- [AI for Knowledge Management](/docs/ai-for-knowledge-management)  --  AI-powered knowledge retrieval.
+- [AI for Document Search](/docs/ai-for-document-search)  --  Document intelligence.
+- [AI for Customer Support](/docs/ai-for-customer-support)  --  Support intelligence.
+- [What is MCP?](/docs/what-is-an-mcp-server)  --  Understanding the Model Context Protocol.
 
 ---
 

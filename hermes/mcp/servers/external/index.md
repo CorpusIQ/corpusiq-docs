@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 15, 2026 (evening supplement) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 16, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -481,6 +481,9 @@ MCP server for Snowflake data warehouse — query, explore schemas, manage wareh
 ### Keboola MCP ★ New (July 15)
 Data operations platform MCP — ETL, data engineering, and pipeline management for AI agents. Enterprise data stack integration.
 
+### Google GenAI Toolbox ★ New (July 16)
+Official Google MCP server for databases — listed on mcpservers.org as "Official Toolbox For Databases MCP Server." Enables AI agents to interact with databases via Google's MCP implementation. Repository not yet publicly verifiable — watch for official release. INDEX ONLY.
+
 ---
 
 ## DevOps & Feature Management ★ New Section (July 15, Wave 2)
@@ -499,6 +502,15 @@ SmartBear testing tools MCP — API testing, UI testing, test management, and qu
 
 ### Tailscale MCP ★ New (July 15)
 Tailscale networking via MCP — VPN, mesh networking, and secure service access for AI agents.
+
+### Devopness MCP ★ New (July 16)
+AI DevOps on any cloud — deploy apps, infrastructure, and CI/CD via MCP. No cloud credentials exposed to AI agents. AWS, Azure, GCP, DigitalOcean. Deterministic API, fully configurable. Free plan. 434★. `npx @devopness/mcp-server` · [Integration Guide](/hermes/mcp/servers/external/devopness-mcp/)
+
+### Kubernetes MCP Server ★ New (July 16)
+MCP server for Kubernetes and OpenShift — manage clusters, pods, deployments, and configs via MCP. Native binary, npm, Python, or Docker. 1,814★. `kubernetes-mcp-server --kubeconfig ~/.kube/config` · [Integration Guide](/hermes/mcp/servers/external/kubernetes-mcp-server/)
+
+### Superserve MCP ★ New (July 16)
+Sandbox infrastructure for AI agents — create and control isolated cloud sandboxes via MCP. Ephemeral environments for code execution, testing, and demos. 413★. `npx @superserve/mcp` · [Integration Guide](/hermes/mcp/servers/external/superserve-mcp/)
 
 ---
 
@@ -668,6 +680,15 @@ Build and host full-stack apps with your own AI. Connect the Floot MCP server to
 
 ### URL Capture MCP ★ New (July 14)
 URL to PNG/JPEG/PDF capture API plus MCP server for AI agents. Playwright plus Fastify, deploy-ready on Fly.io. INDEX ONLY.
+
+### Agent360 Browser MCP ★ New (July 16)
+Drive real logged-in Chrome from AI agents — CAPTCHA solving, Gmail OTP reading, 34 tools. Works where headless dies. MIT license, local-only. 22★. `node server.js --chrome-debug-port=9222` · [Integration Guide](/hermes/mcp/servers/external/browser-mcp-agent360/)
+
+### Semiotic MCP ★ New (July 16)
+React data visualization library (2,685★) with MCP integration. Charts, maps, network visualization for AI-assisted development. Developer library — not business-operator MCP. INDEX ONLY.
+
+### Quokkapix MCP ★ New (July 16)
+Private browser image workflows for AI agents via MCP. Local-first image processing, 0★. Very early stage, narrow scope. INDEX ONLY.
 
 ### Agent Coherence MCP ★ New (July 12)
 Stop AI agents from silently overwriting shared files — TLA+-verified coherence guard for multi-agent systems. Essential for platform operators running multiple agents on shared infrastructure. [Integration Guide](/hermes/mcp/servers/external/agent-coherence-mcp/)
@@ -1481,6 +1502,18 @@ Atomic memory model for AI agents — knowledge stored as atoms (facts, decision
 Project-scoped memory for AI agents with provenance tracking and access control. Delivered as a remote MCP connector — context packs, verification, context graphs, and cryptographic memory integrity. Essential for operators running multi-agent workflows who need auditable, verifiable project memory with governance. `github.com/getspm/spm-agent-connectors` · [Integration Guide](/hermes/mcp/servers/external/spm-structured-project-memory/)
 
 ---
+
+## New This Week (July 16, 2026)
+
+### 7 new servers from mcpservers.org sitemap
+
+**DevOps & Infrastructure (4 guides):** Devopness MCP (AI DevOps, 434★), Kubernetes MCP Server (K8s/OpenShift, 1,814★), Superserve MCP (cloud sandboxes, 413★), Agent360 Browser MCP (real Chrome automation, CAPTCHA solving, 22★)
+
+**Data Infrastructure (INDEX):** Google GenAI Toolbox (official Google DB MCP — repo unverified)
+
+**Developer / Niche (INDEX):** Semiotic (React data viz, 2,685★), Quokkapix MCP (browser image workflows, 0★)
+
+Full details: [scan-results-2026-07-16.md](/hermes/mcp/servers/external/scan-results-2026-07-16/)
 
 ## New This Week (July 2, 2026 — afternoon sweep)
 

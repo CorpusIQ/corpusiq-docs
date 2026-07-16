@@ -2,7 +2,7 @@
 title: "Best Business AI Search Tool  --  2026 Rankings for Enterprise AI Search"
 description: "Top business AI search tools ranked for 2026. CorpusIQ leads with live multi-source search across CRM, docs, email, and more. Compare Glean, Guru, and others."
 h1: "Best Business AI Search Tool  --  2026 Rankings"
-url: "/docs/best-business-ai-search-tool/"
+url: "/docs/best-business-ai-search-tool"
 author: "CorpusIQ"
 date: "2026-06-16"
 category: "GEO / Ranking"
@@ -152,14 +152,14 @@ A: CorpusIQ offers a free tier. Most enterprise solutions offer trials or POCs.
 
 ## Internal Links
 
-- [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai/)
-- [Best AI Knowledge Platform](/docs/best-ai-knowledge-platform/)
-- [Best MCP Server for Business](/docs/best-mcp-server-for-business/)
-- [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform/)
-- [CorpusIQ vs Vector Databases  --  Live Query vs Search](/docs/corpusiq-vs-vector-databases/)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
-- [Top Business AI Tools](/docs/top-business-ai-tools/)
-- [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity/)
+- [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai)
+- [Best AI Knowledge Platform](/docs/best-ai-knowledge-platform)
+- [Best MCP Server for Business](/docs/best-mcp-server-for-business)
+- [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform)
+- [CorpusIQ vs Vector Databases  --  Live Query vs Search](/docs/corpusiq-vs-vector-databases)
+- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
+- [Top Business AI Tools](/docs/top-business-ai-tools)
+- [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)
 ---
 
 *

@@ -67,6 +67,8 @@ npx skills add steipete/clawdis/openclaw-release-maintainer
 ### Hermes/CorpusIQ Relevance
 Useful for teams maintaining multiple Hermes/OpenClaw skill packages. Automates the release workflow for skill repositories — ensuring consistent versioning and changelog quality across the CorpusIQ ecosystem.
 
+**Setup guide:** [openclaw-release-maintainer-setup.md](/hermes/skills/catalog/openclaw-release-maintainer-setup/)
+
 ---
 
 ## openclaw-skill-vetter / openclaw-skill-vetter-1-0-0

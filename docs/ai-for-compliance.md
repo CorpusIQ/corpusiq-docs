@@ -3,12 +3,12 @@ title: AI for Compliance  --  Automated Compliance Intelligence with CorpusIQ MC
 title: AI for Compliance | CorpusIQ MCP Platform for Regulatory Intelligence
 description: Transform compliance operations with AI. Query financial records, policies, and controls across systems in natural language. Automated compliance checks, audit trail access, and policy
   verification.
-url: /docs/ai-for-compliance/
+url: /docs/ai-for-compliance
 h1: 'AI for Compliance: Real-Time Regulatory Intelligence'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/ai-for-compliance/
+canonical: https://www.corpusiq.io/docs/ai-for-compliance
 keywords:
 - AI for compliance
 - compliance AI automation
@@ -117,13 +117,13 @@ A: No. AI provides data and analysis to support compliance decisions, but compli
 
 ## Internal Links
 
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/)
-- [Connect NetSuite to Claude](/docs/connect-netsuite-to-claude/)
-- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude/)
-- [AI for Audit Readiness](/docs/ai-for-audit-readiness/)
-- [AI for Financial Analysis](/docs/ai-for-financial-analysis/)
-- [AI for Document Search](/docs/ai-for-document-search/)
-- [What is MCP?](/docs/what-is-an-mcp-server/)
+- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude)
+- [Connect NetSuite to Claude](/docs/connect-netsuite-to-claude)
+- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude)
+- [AI for Audit Readiness](/docs/ai-for-audit-readiness)
+- [AI for Financial Analysis](/docs/ai-for-financial-analysis)
+- [AI for Document Search](/docs/ai-for-document-search)
+- [What is MCP?](/docs/what-is-an-mcp-server)
 
 ---
 

@@ -3,12 +3,12 @@ title: AI for Document Search  --  Intelligent Enterprise Search with CorpusIQ M
 title: AI for Document Search | CorpusIQ MCP Platform for Enterprise Search
 description: Transform document search with AI. Find information across SharePoint, Google Drive, OneDrive, and Notion in natural language. Read document contents, not just file names. Enterprise-grade
   security.
-url: /docs/ai-for-document-search/
+url: /docs/ai-for-document-search
 h1: 'AI for Document Search: Find Answers, Not Just Files'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/ai-for-document-search/
+canonical: https://www.corpusiq.io/docs/ai-for-document-search
 keywords:
 - AI for document search
 - document search AI automation
@@ -127,13 +127,13 @@ A: No. Document content is streamed directly from the source system for each que
 
 ## Internal Links
 
-- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude/)
-- [Connect Notion to Claude](/docs/connect-notion-to-claude/)
-- [AI for Knowledge Management](/docs/ai-for-knowledge-management/)
-- [AI for Compliance](/docs/ai-for-compliance/)
-- [AI for Audit Readiness](/docs/ai-for-audit-readiness/)
-- [AI for Project Management](/docs/ai-for-project-management/)
-- [What is MCP?](/docs/what-is-an-mcp-server/)
+- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude)
+- [Connect Notion to Claude](/docs/connect-notion-to-claude)
+- [AI for Knowledge Management](/docs/ai-for-knowledge-management)
+- [AI for Compliance](/docs/ai-for-compliance)
+- [AI for Audit Readiness](/docs/ai-for-audit-readiness)
+- [AI for Project Management](/docs/ai-for-project-management)
+- [What is MCP?](/docs/what-is-an-mcp-server)
 
 ---
 

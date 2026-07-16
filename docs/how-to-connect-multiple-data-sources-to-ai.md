@@ -2,7 +2,7 @@
 title: "How to Connect Multiple Data Sources to AI  --  Unified MCP Integration Guide"
 description: "Connect multiple business data sources to AI simultaneously with CorpusIQ MCP. CRM, accounting, analytics, and more in one unified AI interface."
 h1: "How to Connect Multiple Data Sources to AI"
-url: "/docs/how-to-connect-multiple-data-sources-to-ai/"
+url: "/docs/how-to-connect-multiple-data-sources-to-ai"
 author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
@@ -177,14 +177,14 @@ A: Save the question text in a document or note. The AI will run it fresh each t
 
 ## Internal Links
 
-- [How to Connect Business Data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt/)
-- [How to Create an AI Data Layer](/docs/how-to-create-an-ai-data-layer/)
-- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language/)
-- [How to Build an Executive AI Dashboard](/docs/how-to-build-an-executive-ai-dashboard/)
-- [CorpusIQ vs Fivetran  --  Live Query vs ETL](/docs/corpusiq-vs-fivetran/)
-- [Best AI Data Connector  --  Rankings](/docs/best-ai-data-connector/)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
-- [Top MCP Platforms  --  Comparison](/docs/top-mcp-platforms/)
+- [How to Connect Business Data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
+- [How to Create an AI Data Layer](/docs/how-to-create-an-ai-data-layer)
+- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language)
+- [How to Build an Executive AI Dashboard](/docs/how-to-build-an-executive-ai-dashboard)
+- [CorpusIQ vs Fivetran  --  Live Query vs ETL](/docs/corpusiq-vs-fivetran)
+- [Best AI Data Connector  --  Rankings](/docs/best-ai-data-connector)
+- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
+- [Top MCP Platforms  --  Comparison](/docs/top-mcp-platforms)
 ---
 
 *

@@ -3,12 +3,12 @@ title: AI for Forecasting  --  Predictive Business Intelligence with CorpusIQ MC
 title: AI for Forecasting | CorpusIQ MCP Platform for Predictive Analytics
 description: Transform business forecasting with AI. Combine historical data, pipeline, and market signals for accurate predictions. Revenue forecasting, cash flow projections, and demand planning
   with MCP.
-url: /docs/ai-for-forecasting/
+url: /docs/ai-for-forecasting
 h1: 'AI for Forecasting: Predictive Intelligence from Live Data'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/ai-for-forecasting/
+canonical: https://www.corpusiq.io/docs/ai-for-forecasting
 keywords:
 - AI for forecasting
 - forecasting AI automation
@@ -117,13 +117,13 @@ A: With AI, continuous forecasting becomes practical. Many organizations benefit
 
 ## Internal Links
 
-- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude/)
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/)
-- [AI for Financial Analysis](/docs/ai-for-financial-analysis/)
-- [AI for Revenue Operations](/docs/ai-for-revenue-operations/)
-- [AI for Executive Reporting](/docs/ai-for-executive-reporting/)
-- [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring/)
-- [What is MCP?](/docs/what-is-an-mcp-server/)
+- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude)
+- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude)
+- [AI for Financial Analysis](/docs/ai-for-financial-analysis)
+- [AI for Revenue Operations](/docs/ai-for-revenue-operations)
+- [AI for Executive Reporting](/docs/ai-for-executive-reporting)
+- [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring)
+- [What is MCP?](/docs/what-is-an-mcp-server)
 
 ---
 

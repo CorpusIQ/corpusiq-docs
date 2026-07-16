@@ -34,25 +34,40 @@ def on_page_markdown(markdown, page, config, files):
         return markdown
 
     docs_dir = Path(config["docs_dir"])
-    page_dir = docs_dir / page.file.src_path.replace("index.md", "")
+    # Section index pages in this repo are named either index.md or README.md
+    # (MkDocs treats README.md as the directory index). Derive the section
+    # directory from the source file's parent so page_dir is always the
+    # containing directory, never the index file itself. The previous
+    # str.replace("index.md", "") left README.md paths untouched, so page_dir
+    # pointed at the file and iterdir() raised NotADirectoryError, failing the
+    # whole build.
+    page_dir = (docs_dir / page.file.src_path).parent
 
-    if not page_dir.exists():
+    if not page_dir.is_dir():
         return markdown
 
-    # Find children: sibling .md files and subdirectories with index.md
+    # Find children: sibling .md files and subdirectories with their own index
+    # (index.md or README.md). Skip the section's own index file so it does not
+    # link to itself.
     children = []
     for item in sorted(page_dir.iterdir()):
-        if item.name == "index.md":
+        if item.name in ("index.md", "README.md"):
             continue
         if item.suffix == ".md":
             # Extract title from frontmatter
             title = _extract_title(item)
             slug = item.stem + ".html"
             children.append((title, slug))
-        elif item.is_dir() and (item / "index.md").exists():
-            title = _extract_title(item / "index.md")
-            slug = item.name + "/index.html"
-            children.append((title, slug))
+        elif item.is_dir():
+            child_index = None
+            if (item / "index.md").exists():
+                child_index = item / "index.md"
+            elif (item / "README.md").exists():
+                child_index = item / "README.md"
+            if child_index is not None:
+                title = _extract_title(child_index)
+                slug = item.name + "/index.html"
+                children.append((title, slug))
 
     if not children:
         return markdown

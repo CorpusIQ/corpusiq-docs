@@ -2,12 +2,12 @@
 title: AI for Knowledge Management  --  Institutional Intelligence with CorpusIQ MCP
 title: AI for Knowledge Management | CorpusIQ MCP Platform for KM
 description: Transform knowledge management with AI. Query wikis, docs, Slack, and project tools in natural language. Surface institutional knowledge, accelerate onboarding, and prevent knowledge loss.
-url: /docs/ai-for-knowledge-management/
+url: /docs/ai-for-knowledge-management
 h1: 'AI for Knowledge Management: Unlock Your Organization''s Brain'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/ai-for-knowledge-management/
+canonical: https://www.corpusiq.io/docs/ai-for-knowledge-management
 keywords:
 - AI for knowledge management
 - knowledge management AI automation
@@ -124,13 +124,13 @@ A: AI handles "what" and "how" questions  --  factual knowledge retrieval. It do
 
 ## Internal Links
 
-- [Connect Notion to Claude](/docs/connect-notion-to-claude/)
-- [Connect Slack to Claude](/docs/connect-slack-to-claude/)
-- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude/)
-- [AI for Document Search](/docs/ai-for-document-search/)
-- [AI for Customer Support](/docs/ai-for-customer-support/)
-- [AI for Project Management](/docs/ai-for-project-management/)
-- [What is MCP?](/docs/what-is-an-mcp-server/)
+- [Connect Notion to Claude](/docs/connect-notion-to-claude)
+- [Connect Slack to Claude](/docs/connect-slack-to-claude)
+- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude)
+- [AI for Document Search](/docs/ai-for-document-search)
+- [AI for Customer Support](/docs/ai-for-customer-support)
+- [AI for Project Management](/docs/ai-for-project-management)
+- [What is MCP?](/docs/what-is-an-mcp-server)
 
 ---
 

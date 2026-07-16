@@ -11,7 +11,7 @@ They go beyond operator-level queries and focus on programmatic access,
 cross-connector joins, debugging, and building CorpusIQ into larger
 workflows.
 
-If you're new to MCP, see [how-it-works/mcp-architecture.html](../how-it-works/mcp-architecture.html).
+If you're new to MCP, see [MCP architecture](../architecture/).
 
 ---
 

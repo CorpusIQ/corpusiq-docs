@@ -2,12 +2,12 @@
 title: AI for Customer Support  --  Intelligent Support Operations with CorpusIQ MCP
 title: AI for Customer Support | CorpusIQ MCP Platform for Support Teams
 description: Transform customer support with AI. Query tickets, CRM, billing, and product data in natural language. Faster resolution, proactive support, and cross-source customer intelligence.
-url: /docs/ai-for-customer-support/
+url: /docs/ai-for-customer-support
 h1: 'AI for Customer Support: Smarter, Faster Customer Intelligence'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/ai-for-customer-support/
+canonical: https://www.corpusiq.io/docs/ai-for-customer-support
 keywords:
 - AI for customer support
 - customer support AI automation
@@ -122,14 +122,14 @@ A: Yes. Team-level access controls determine which connectors each user can quer
 
 ## Internal Links
 
-- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude/)
-- [Connect HubSpot to Claude](/docs/connect-hubspot-to-claude/)
-- [Connect Stripe to Claude](/docs/connect-stripe-to-claude/)
-- [Connect Slack to Claude](/docs/connect-slack-to-claude/)
-- [Connect Notion to Claude](/docs/connect-notion-to-claude/)
-- [AI for Knowledge Management](/docs/ai-for-knowledge-management/)
-- [AI for Data Analysis](/docs/ai-for-data-analysis/)
-- [What is MCP?](/docs/what-is-an-mcp-server/)
+- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude)
+- [Connect HubSpot to Claude](/docs/connect-hubspot-to-claude)
+- [Connect Stripe to Claude](/docs/connect-stripe-to-claude)
+- [Connect Slack to Claude](/docs/connect-slack-to-claude)
+- [Connect Notion to Claude](/docs/connect-notion-to-claude)
+- [AI for Knowledge Management](/docs/ai-for-knowledge-management)
+- [AI for Data Analysis](/docs/ai-for-data-analysis)
+- [What is MCP?](/docs/what-is-an-mcp-server)
 
 ---
 

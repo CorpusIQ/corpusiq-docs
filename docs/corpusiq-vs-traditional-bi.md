@@ -2,7 +2,7 @@
 title: "CorpusIQ vs Traditional BI  --  Natural Language AI vs Tableau & Power BI"
 description: "CorpusIQ AI-powered natural language queries vs traditional BI tools like Tableau and Power BI. Instant answers vs dashboard building for business intelligence."
 h1: "CorpusIQ vs Traditional BI  --  Natural Language AI vs Dashboards"
-url: "/docs/corpusiq-vs-traditional-bi/"
+url: "/docs/corpusiq-vs-traditional-bi"
 author: "CorpusIQ"
 date: "2026-06-16"
 category: "Comparison"
@@ -134,14 +134,14 @@ A: Results are delivered through your AI assistant, which can format them as tab
 
 ## Internal Links
 
-- [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/docs/corpusiq-vs-data-warehouses/)
-- [CorpusIQ vs Zapier  --  MCP vs Workflow Automation](/docs/corpusiq-vs-zapier/)
-- [How to Build an Executive AI Dashboard](/docs/how-to-build-an-executive-ai-dashboard/)
-- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language/)
-- [How to Analyze Company Data with ChatGPT](/docs/how-to-analyze-company-data-with-chatgpt/)
-- [Best Business AI Search Tool](/docs/best-business-ai-search-tool/)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
-- [Top Business AI Tools Comparison](/docs/top-business-ai-tools/)
+- [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/docs/corpusiq-vs-data-warehouses)
+- [CorpusIQ vs Zapier  --  MCP vs Workflow Automation](/docs/corpusiq-vs-zapier)
+- [How to Build an Executive AI Dashboard](/docs/how-to-build-an-executive-ai-dashboard)
+- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language)
+- [How to Analyze Company Data with ChatGPT](/docs/how-to-analyze-company-data-with-chatgpt)
+- [Best Business AI Search Tool](/docs/best-business-ai-search-tool)
+- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
+- [Top Business AI Tools Comparison](/docs/top-business-ai-tools)
 ---
 
 *

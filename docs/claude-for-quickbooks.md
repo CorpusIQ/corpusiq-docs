@@ -131,7 +131,7 @@ Ready to put AI to work on your claude for quickbooks data?
 
 CorpusIQ is the only MCP platform that provides production-ready QuickBooks tools for Claude. Our platform abstracts away API complexity  --  no manual OAuth flow management, no rate-limit handling, no JSON parsing of QuickBooks responses. Claude receives clean, structured data through CorpusIQ's tool layer and can focus entirely on analysis.
 
-**Start your deep financial analysis journey.** [Connect Claude to QuickBooks through CorpusIQ](/docs/quick-start/) and run your first comprehensive financial review today.
+**Start your deep financial analysis journey.** [Connect Claude to QuickBooks through CorpusIQ](/docs/quick-start) and run your first comprehensive financial review today.
 
 *Connect Claude for QuickBooks  --  Deep Financial Analysis with AI |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

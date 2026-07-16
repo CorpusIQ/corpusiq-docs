@@ -2,12 +2,12 @@
 title: AI for KPI Monitoring  --  Real-Time Metric Intelligence with CorpusIQ MCP
 title: AI for KPI Monitoring | CorpusIQ MCP Platform for Metric Tracking
 description: Transform KPI monitoring with AI. Track key performance indicators across all business systems in real time. Automated alerts, trend detection, and cross-source metric validation.
-url: /docs/ai-for-kpi-monitoring/
+url: /docs/ai-for-kpi-monitoring
 h1: 'AI for KPI Monitoring: Real-Time Metrics at Your Fingertips'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/ai-for-kpi-monitoring/
+canonical: https://www.corpusiq.io/docs/ai-for-kpi-monitoring
 keywords:
 - AI for kpi monitoring
 - kpi monitoring AI automation
@@ -128,13 +128,13 @@ A: CorpusIQ provides on-demand monitoring. For automated alerts, complement with
 
 ## Internal Links
 
-- [Connect Stripe to Claude](/docs/connect-stripe-to-claude/)
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/)
-- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude/)
-- [AI for Business Intelligence](/docs/ai-for-business-intelligence/)
-- [AI for Executive Reporting](/docs/ai-for-executive-reporting/)
-- [AI for Forecasting](/docs/ai-for-forecasting/)
-- [What is MCP?](/docs/what-is-an-mcp-server/)
+- [Connect Stripe to Claude](/docs/connect-stripe-to-claude)
+- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude)
+- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude)
+- [AI for Business Intelligence](/docs/ai-for-business-intelligence)
+- [AI for Executive Reporting](/docs/ai-for-executive-reporting)
+- [AI for Forecasting](/docs/ai-for-forecasting)
+- [What is MCP?](/docs/what-is-an-mcp-server)
 
 ---
 

@@ -2,12 +2,12 @@
 title: AI for Sales Reporting  --  Real-Time Pipeline & Revenue Intelligence
 title: AI for Sales Reporting | CorpusIQ MCP Platform for Sales Analytics
 description: Transform sales reporting with AI. Query Salesforce, HubSpot, Close CRM in natural language. Instant pipeline analysis, rep performance, and forecasting. Read-only MCP integration.
-url: /docs/ai-for-sales-reporting/
+url: /docs/ai-for-sales-reporting
 h1: 'AI for Sales Reporting: Pipeline Intelligence in Real Time'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/ai-for-sales-reporting/
+canonical: https://www.corpusiq.io/docs/ai-for-sales-reporting
 keywords:
 - AI for sales reporting
 - sales reporting AI automation
@@ -123,13 +123,13 @@ A: No. All integrations are read-only.
 
 ## Internal Links
 
-- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude/)  --  Salesforce in AI.
-- [Connect HubSpot to Claude](/docs/connect-hubspot-to-claude/)  --  HubSpot in AI.
-- [AI for Revenue Operations](/docs/ai-for-revenue-operations/)  --  RevOps intelligence.
-- [AI for Forecasting](/docs/ai-for-forecasting/)  --  Predictive sales analytics.
-- [AI for Executive Reporting](/docs/ai-for-executive-reporting/)  --  Leadership reporting.
-- [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring/)  --  Real-time metrics.
-- [What is MCP?](/docs/what-is-an-mcp-server/)
+- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude)  --  Salesforce in AI.
+- [Connect HubSpot to Claude](/docs/connect-hubspot-to-claude)  --  HubSpot in AI.
+- [AI for Revenue Operations](/docs/ai-for-revenue-operations)  --  RevOps intelligence.
+- [AI for Forecasting](/docs/ai-for-forecasting)  --  Predictive sales analytics.
+- [AI for Executive Reporting](/docs/ai-for-executive-reporting)  --  Leadership reporting.
+- [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring)  --  Real-time metrics.
+- [What is MCP?](/docs/what-is-an-mcp-server)
 
 ---
 

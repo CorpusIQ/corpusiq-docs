@@ -115,9 +115,9 @@ Your agent now has access to 36 business data sources. Use it for:
 
 ## What's Next?
 
-- Browse the [prompts library](hermes/prompts/index) for 60+ copy-paste queries
-- Check [connector documentation](connectors) for specific setup guides
-- Review [troubleshooting](hermes/troubleshooting/index) if you hit issues
+- Browse the [prompts library](/docs/hermes/prompts/) for 60+ copy-paste queries
+- Check [connector documentation](/docs/connectors) for specific setup guides
+- Review [troubleshooting](/docs/hermes/troubleshooting/) if you hit issues
 - Join the [community](https://corpusiq.io/community/) for questions, early connector ideas, and
   upvotes
 - Open a [Connector Enhancement Request](https://github.com/CorpusIQ/corpusiq-docs/issues/new/choose)
@@ -139,12 +139,12 @@ A: Device login takes approximately 45 seconds from start to finish. Your agent 
 
 ## Internal Links
 
-- **[CorpusIQ Architecture](/docs/architecture/README)**  --  MCP endpoint and connector layer design  
-- **[CorpusIQ Security Overview](/docs/security/README)**  --  Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/docs/search/README)**  --  Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/docs/reporting/README)**  --  Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/docs/onboarding/README)**  --  AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/docs/governance/README)**  --  Source of truth and audit controls  
+- **[CorpusIQ Architecture](/docs/architecture/)**  --  MCP endpoint and connector layer design  
+- **[CorpusIQ Security Overview](/docs/security)**  --  Authentication and encryption  
+- **[CorpusIQ Search Capabilities](/docs/search/)**  --  Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/docs/reporting/)**  --  Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/docs/onboarding/)**  --  AI chat and agent setup in 10 minutes  
+- **[MSR Governance Framework](/docs/governance/)**  --  Source of truth and audit controls  
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---
