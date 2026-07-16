@@ -4568,5 +4568,103 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-15T14:06:39.594556+00:00"
+  },
+  {
+    "repo": "Que-Arch/hermes-agent",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T05:05:30.917137+00:00"
+  },
+  {
+    "repo": "jribnik/hermes-society",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T05:05:30.917370+00:00"
+  },
+  {
+    "repo": "Adenhall/aws-bedrock-agentcore-skill",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T05:05:30.917554+00:00"
+  },
+  {
+    "repo": "agentaddress/aap-hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T05:05:30.917556+00:00"
+  },
+  {
+    "repo": "kchekuru/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T05:05:30.917558+00:00"
+  },
+  {
+    "repo": "wesleysimplicio/simplicio-agent",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T05:05:30.917560+00:00"
+  },
+  {
+    "repo": "roock3r/split-brain-ai",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T05:05:30.917562+00:00"
+  },
+  {
+    "repo": "felix-windsor/hermes-procurement-pricing-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T05:05:30.917563+00:00"
+  },
+  {
+    "repo": "frankxai/awesome-hermes-agent-skills",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T05:05:30.917752+00:00"
+  },
+  {
+    "repo": "Kyzcreig/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T05:05:30.917754+00:00"
+  },
+  {
+    "repo": "thepr0metheus/lama-caravan",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T05:05:30.917756+00:00"
+  },
+  {
+    "repo": "ethernet8023/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T05:05:30.917758+00:00"
+  },
+  {
+    "repo": "nateginn/dual-agent-core",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T05:05:30.917760+00:00"
+  },
+  {
+    "repo": "FixItFoundry/hermes-agent",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T05:05:30.917762+00:00"
   }
 ]
