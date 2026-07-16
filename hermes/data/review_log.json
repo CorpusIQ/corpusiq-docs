@@ -4666,5 +4666,82 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-16T05:05:30.917762+00:00"
+  },
+  {
+    "repo": "chenwei791129/hermes-usage-hook",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T07:06:09.625985+00:00"
+  },
+  {
+    "repo": "HongguangLi/agenttap",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T07:06:09.627586+00:00"
+  },
+  {
+    "repo": "Jasonzhu0314/agent-harness-analysis",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T07:06:09.627786+00:00"
+  },
+  {
+    "repo": "ndominguez-cell/hermes-mirror",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T07:06:09.627789+00:00"
+  },
+  {
+    "repo": "snsn78/hermes-mcp-tool-discovery-skill",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T07:06:09.627791+00:00"
+  },
+  {
+    "repo": "chefroger/smart-trade-ai",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T07:06:09.627793+00:00"
+  },
+  {
+    "repo": "Chengastro/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T07:06:09.627795+00:00"
+  },
+  {
+    "repo": "drippy-passport968/agent-supervision-skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T07:06:09.627799+00:00"
+  },
+  {
+    "repo": "rattanasak-ops/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T07:06:09.627800+00:00"
+  },
+  {
+    "repo": "n4igme/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T07:06:09.627802+00:00"
+  },
+  {
+    "repo": "akshajsrivastava-exe/wikix",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T07:06:09.627804+00:00"
   }
 ]
