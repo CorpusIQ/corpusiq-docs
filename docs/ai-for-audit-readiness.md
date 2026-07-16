@@ -3,12 +3,12 @@ title: AI for Audit Readiness  --  Continuous Audit Intelligence with CorpusIQ M
 title: AI for Audit Readiness | CorpusIQ MCP Platform for Audit Teams
 description: Transform audit preparation with AI. Query financial records, policies, and controls across systems in natural language. Instant evidence gathering, continuous readiness, and automated
   control testing.
-url: /docs/ai-for-audit-readiness/
+url: /docs/ai-for-audit-readiness
 h1: 'AI for Audit Readiness: Always Prepared, Never Scrambling'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/ai-for-audit-readiness/
+canonical: https://www.corpusiq.io/docs/ai-for-audit-readiness
 keywords:
 - AI for audit readiness
 - audit readiness AI automation
@@ -117,13 +117,13 @@ A: All data is pulled from live systems via read-only API connections. Evidence 
 
 ## Internal Links
 
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/)
-- [Connect NetSuite to Claude](/docs/connect-netsuite-to-claude/)
-- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude/)
-- [AI for Compliance](/docs/ai-for-compliance/)
-- [AI for Financial Analysis](/docs/ai-for-financial-analysis/)
-- [AI for Document Search](/docs/ai-for-document-search/)
-- [What is MCP?](/docs/what-is-an-mcp-server/)
+- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude)
+- [Connect NetSuite to Claude](/docs/connect-netsuite-to-claude)
+- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude)
+- [AI for Compliance](/docs/ai-for-compliance)
+- [AI for Financial Analysis](/docs/ai-for-financial-analysis)
+- [AI for Document Search](/docs/ai-for-document-search)
+- [What is MCP?](/docs/what-is-an-mcp-server)
 
 ---
 

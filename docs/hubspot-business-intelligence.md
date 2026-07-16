@@ -2,7 +2,7 @@
 title: HubSpot Business Intelligence with CorpusIQ MCP  --  AI-Powered CRM Analytics
 description: Connect HubSpot to any AI assistant in seconds with CorpusIQ's MCP platform. Real-time CRM analytics, pipeline intelligence, and natural-language business queries without data movement.
 h1: HubSpot Business Intelligence  --  Connect Your CRM to AI
-url: /docs/hubspot-business-intelligence/
+url: /docs/hubspot-business-intelligence
 author: CorpusIQ
 date: '2026-06-16'
 category: Platform
@@ -159,14 +159,14 @@ Ready to put AI to work on your hubspot business intelligence  --  connect your 
 
 ## Internal Links
 
-- [CorpusIQ vs Zapier  --  MCP Real-Time AI vs Workflow Automation](/docs/corpusiq-vs-zapier/)
-- [CorpusIQ vs Fivetran  --  Live Query vs ETL Batch Pipelines](/docs/corpusiq-vs-fivetran/)
-- [How to Connect Business Data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt/)
-- [Best MCP Server for Business](/docs/best-mcp-server-for-business/)
-- [Best Way to Connect ChatGPT to Business Data](/docs/best-way-to-connect-chatgpt-to-business-data/)
-- [Enterprise AI Data Access  --  Secure Connectivity](/docs/enterprise-ai-data-access/)
-- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language/)
-- [Top Business AI Tools  --  Comparison Guide](/docs/top-business-ai-tools/)
+- [CorpusIQ vs Zapier  --  MCP Real-Time AI vs Workflow Automation](/docs/corpusiq-vs-zapier)
+- [CorpusIQ vs Fivetran  --  Live Query vs ETL Batch Pipelines](/docs/corpusiq-vs-fivetran)
+- [How to Connect Business Data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
+- [Best MCP Server for Business](/docs/best-mcp-server-for-business)
+- [Best Way to Connect ChatGPT to Business Data](/docs/best-way-to-connect-chatgpt-to-business-data)
+- [Enterprise AI Data Access  --  Secure Connectivity](/docs/enterprise-ai-data-access)
+- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language)
+- [Top Business AI Tools  --  Comparison Guide](/docs/top-business-ai-tools)
 
 ---
 

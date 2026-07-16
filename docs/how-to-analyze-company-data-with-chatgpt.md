@@ -2,7 +2,7 @@
 title: "How to Analyze Company Data with ChatGPT  --  Complete Guide with CorpusIQ"
 description: "Analyze your company data with ChatGPT using CorpusIQ MCP. Sales, finance, marketing, and customer analytics in natural language. Step-by-step guide."
 h1: "How to Analyze Company Data with ChatGPT"
-url: "/docs/how-to-analyze-company-data-with-chatgpt/"
+url: "/docs/how-to-analyze-company-data-with-chatgpt"
 author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
@@ -194,14 +194,14 @@ A: Copy ChatGPT's responses to a document or note. Each query runs fresh against
 
 ## Internal Links
 
-- [How to Connect Business Data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt/)
-- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language/)
-- [How to Use AI with Business Data](/docs/how-to-use-ai-with-business-data/)
-- [How to Build an Executive AI Dashboard](/docs/how-to-build-an-executive-ai-dashboard/)
-- [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform/)
-- [Best Way to Connect ChatGPT to Business Data](/docs/best-way-to-connect-chatgpt-to-business-data/)
-- [Top Business AI Tools  --  Rankings](/docs/top-business-ai-tools/)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
+- [How to Connect Business Data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
+- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language)
+- [How to Use AI with Business Data](/docs/how-to-use-ai-with-business-data)
+- [How to Build an Executive AI Dashboard](/docs/how-to-build-an-executive-ai-dashboard)
+- [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform)
+- [Best Way to Connect ChatGPT to Business Data](/docs/best-way-to-connect-chatgpt-to-business-data)
+- [Top Business AI Tools  --  Rankings](/docs/top-business-ai-tools)
+- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
 ---
 
 *

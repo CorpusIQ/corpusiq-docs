@@ -3,12 +3,12 @@ title: Connect SharePoint to Claude via MCP  --  Enterprise Document Intelligenc
 title: Connect SharePoint to Claude | CorpusIQ MCP Integration for Microsoft 365
 description: Connect SharePoint to Claude using CorpusIQ's MCP platform. Search documents, libraries, and enterprise content in natural language. Read-only OAuth, Microsoft 365 integration, enterprise-grade
   security.
-url: /docs/connect-sharepoint-to-claude/
+url: /docs/connect-sharepoint-to-claude
 h1: 'Connect SharePoint to Claude: Enterprise Documents Meet AI Intelligence'
 category: Claude Integrations
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/connect-sharepoint-to-claude/
+canonical: https://www.corpusiq.io/docs/connect-sharepoint-to-claude
 keywords:
 - connect sharepoint to Claude
 - sharepoint Claude integration
@@ -145,13 +145,13 @@ A: Documents with sensitivity labels are accessible, and label metadata is prese
 
 ## Internal Links
 
-- [Connect Notion to Claude](/docs/connect-notion-to-claude/)  --  Knowledge management in Claude.
-- [Connect Slack to Claude](/docs/connect-slack-to-claude/)  --  Team communication in Claude.
-- [Connect Microsoft Teams to Claude](/docs/connect-sharepoint-to-claude/)  --  Teams data in Claude via Microsoft 365 integration.
-- [AI for Document Search](/docs/ai-for-document-search/)  --  AI-powered document intelligence.
-- [AI for Knowledge Management](/docs/ai-for-knowledge-management/)  --  Enterprise knowledge retrieval.
-- [AI for Compliance](/docs/ai-for-compliance/)  --  Document compliance with AI.
-- [What is MCP?](/docs/what-is-an-mcp-server/)  --  Understanding the Model Context Protocol.
+- [Connect Notion to Claude](/docs/connect-notion-to-claude)  --  Knowledge management in Claude.
+- [Connect Slack to Claude](/docs/connect-slack-to-claude)  --  Team communication in Claude.
+- [Connect Microsoft Teams to Claude](/docs/connect-sharepoint-to-claude)  --  Teams data in Claude via Microsoft 365 integration.
+- [AI for Document Search](/docs/ai-for-document-search)  --  AI-powered document intelligence.
+- [AI for Knowledge Management](/docs/ai-for-knowledge-management)  --  Enterprise knowledge retrieval.
+- [AI for Compliance](/docs/ai-for-compliance)  --  Document compliance with AI.
+- [What is MCP?](/docs/what-is-an-mcp-server)  --  Understanding the Model Context Protocol.
 
 ---
 

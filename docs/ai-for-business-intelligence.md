@@ -3,12 +3,12 @@ title: AI for Business Intelligence  --  Transform Analytics with CorpusIQ MCP
 title: AI for Business Intelligence | CorpusIQ MCP Platform for BI Transformation
 description: Discover how AI transforms business intelligence. Query data across all your tools in natural language, automate reporting, and democratize analytics with CorpusIQ's MCP platform. Real-time
   BI for every team.
-url: /docs/ai-for-business-intelligence/
+url: /docs/ai-for-business-intelligence
 h1: 'AI for Business Intelligence: From Dashboards to Conversations'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/ai-for-business-intelligence/
+canonical: https://www.corpusiq.io/docs/ai-for-business-intelligence
 keywords:
 - AI for business intelligence
 - business intelligence AI automation
@@ -145,14 +145,14 @@ A: Yes. CorpusIQ's metric specs let you define canonical calculations (MRR, CAC,
 
 ## Internal Links
 
-- [Connect Shopify to Claude](/docs/connect-shopify-to-claude/)  --  E-commerce BI.
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/)  --  Financial BI.
-- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude/)  --  CRM intelligence.
-- [Connect Google Analytics to Claude](/docs/connect-google-analytics-to-claude/)  --  Web analytics BI.
-- [AI for Executive Reporting](/docs/ai-for-executive-reporting/)  --  Leadership dashboards.
-- [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring/)  --  Real-time KPI tracking.
-- [AI for Data Analysis](/docs/ai-for-data-analysis/)  --  Advanced analytics with AI.
-- [What is MCP?](/docs/what-is-an-mcp-server/)  --  Understanding the Model Context Protocol.
+- [Connect Shopify to Claude](/docs/connect-shopify-to-claude)  --  E-commerce BI.
+- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude)  --  Financial BI.
+- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude)  --  CRM intelligence.
+- [Connect Google Analytics to Claude](/docs/connect-google-analytics-to-claude)  --  Web analytics BI.
+- [AI for Executive Reporting](/docs/ai-for-executive-reporting)  --  Leadership dashboards.
+- [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring)  --  Real-time KPI tracking.
+- [AI for Data Analysis](/docs/ai-for-data-analysis)  --  Advanced analytics with AI.
+- [What is MCP?](/docs/what-is-an-mcp-server)  --  Understanding the Model Context Protocol.
 
 ---
 

@@ -2,7 +2,7 @@
 title: CorpusIQ vs Vector Databases  --  MCP Real-Time Retrieval vs Vector Search
 description: CorpusIQ MCP live query vs vector database search. Real-time API retrieval vs pre-indexed embeddings. When to use each for AI-powered data access.
 h1: CorpusIQ vs Vector Databases  --  MCP Retrieval vs Vector Search
-url: /docs/corpusiq-vs-vector-databases/
+url: /docs/corpusiq-vs-vector-databases
 author: CorpusIQ
 date: '2026-06-16'
 category: Comparison
@@ -148,14 +148,14 @@ Ready to put AI to work on your corpusiq vs vector databases  --  mcp retrieval 
 
 ## Internal Links
 
-- [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/docs/corpusiq-vs-custom-rag/)
-- [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/docs/corpusiq-vs-data-warehouses/)
-- [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/docs/corpusiq-vs-langchain/)
-- [How to Build an AI Knowledge Base](/docs/how-to-build-an-ai-knowledge-base/)
-- [Best Business AI Search Tool  --  Rankings](/docs/best-business-ai-search-tool/)
-- [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai/)
-- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language/)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
+- [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/docs/corpusiq-vs-custom-rag)
+- [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/docs/corpusiq-vs-data-warehouses)
+- [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/docs/corpusiq-vs-langchain)
+- [How to Build an AI Knowledge Base](/docs/how-to-build-an-ai-knowledge-base)
+- [Best Business AI Search Tool  --  Rankings](/docs/best-business-ai-search-tool)
+- [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai)
+- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language)
+- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
 
 ---
 

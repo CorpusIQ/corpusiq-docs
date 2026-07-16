@@ -2,12 +2,12 @@
 title: AI for Project Management  --  Intelligent Project Intelligence with CorpusIQ MCP
 title: AI for Project Management | CorpusIQ MCP Platform for PM Teams
 description: Transform project management with AI. Query Monday.com, Notion, Slack, and calendars in natural language. Instant status reports, blocker identification, and cross-project intelligence.
-url: /docs/ai-for-project-management/
+url: /docs/ai-for-project-management
 h1: 'AI for Project Management: From Status Meetings to Instant Answers'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/ai-for-project-management/
+canonical: https://www.corpusiq.io/docs/ai-for-project-management
 keywords:
 - AI for project management
 - project management AI automation
@@ -121,12 +121,12 @@ A: Yes. Ask Claude for a formatted project status report and it will synthesize 
 ## Internal Links
 
 - [Connect Monday.com to Claude](https://corpusiq.io/connectors/monday/)
-- [Connect Slack to Claude](/docs/connect-slack-to-claude/)
-- [Connect Notion to Claude](/docs/connect-notion-to-claude/)
-- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude/)
-- [AI for Executive Reporting](/docs/ai-for-executive-reporting/)
-- [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring/)
-- [What is MCP?](/docs/what-is-an-mcp-server/)
+- [Connect Slack to Claude](/docs/connect-slack-to-claude)
+- [Connect Notion to Claude](/docs/connect-notion-to-claude)
+- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude)
+- [AI for Executive Reporting](/docs/ai-for-executive-reporting)
+- [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring)
+- [What is MCP?](/docs/what-is-an-mcp-server)
 
 ---
 

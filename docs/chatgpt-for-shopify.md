@@ -132,7 +132,7 @@ Ready to put AI to work on your chatgpt for shopify data?
 
 ChatGPT for Shopify through CorpusIQ transforms how you interact with your ecommerce data. No more report exports, spreadsheet formulas, or dashboard limitations. Just ask, and receive.
 
-**[Connect your Shopify store to ChatGPT](/docs/quick-start/) and ask your first question in under 5 minutes.**
+**[Connect your Shopify store to ChatGPT](/docs/quick-start) and ask your first question in under 5 minutes.**
 
 *Connect ChatGPT for Shopify  --  AI Ecommerce Analytics & Management... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

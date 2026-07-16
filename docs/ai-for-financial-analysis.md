@@ -2,12 +2,12 @@
 title: AI for Financial Analysis  --  Real-Time Finance Intelligence with CorpusIQ MCP
 title: AI for Financial Analysis | CorpusIQ MCP Platform for Finance Teams
 description: Transform financial analysis with AI. Query QuickBooks, Stripe, NetSuite in natural language. Instant P&L, cash flow, and variance analysis. Read-only, SOC 2 compliant MCP platform.
-url: /docs/ai-for-financial-analysis/
+url: /docs/ai-for-financial-analysis
 h1: 'AI for Financial Analysis: Real-Time Finance Intelligence'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/ai-for-financial-analysis/
+canonical: https://www.corpusiq.io/docs/ai-for-financial-analysis
 keywords:
 - AI for financial analysis
 - financial analysis AI automation
@@ -125,14 +125,14 @@ A: Upload spreadsheets and financial models to Google Drive, OneDrive, or ShareP
 
 ## Internal Links
 
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/)  --  Financial data in AI.
-- [Connect Stripe to Claude](/docs/connect-stripe-to-claude/)  --  Payment analytics.
-- [Connect NetSuite to Claude](/docs/connect-netsuite-to-claude/)  --  Enterprise ERP.
-- [AI for Executive Reporting](/docs/ai-for-executive-reporting/)  --  Board-ready intelligence.
-- [AI for Forecasting](/docs/ai-for-forecasting/)  --  Predictive finance.
-- [AI for Compliance](/docs/ai-for-compliance/)  --  Financial compliance.
-- [AI for Audit Readiness](/docs/ai-for-audit-readiness/)  --  Audit preparation.
-- [What is MCP?](/docs/what-is-an-mcp-server/)  --  MCP explained.
+- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude)  --  Financial data in AI.
+- [Connect Stripe to Claude](/docs/connect-stripe-to-claude)  --  Payment analytics.
+- [Connect NetSuite to Claude](/docs/connect-netsuite-to-claude)  --  Enterprise ERP.
+- [AI for Executive Reporting](/docs/ai-for-executive-reporting)  --  Board-ready intelligence.
+- [AI for Forecasting](/docs/ai-for-forecasting)  --  Predictive finance.
+- [AI for Compliance](/docs/ai-for-compliance)  --  Financial compliance.
+- [AI for Audit Readiness](/docs/ai-for-audit-readiness)  --  Audit preparation.
+- [What is MCP?](/docs/what-is-an-mcp-server)  --  MCP explained.
 
 ---
 

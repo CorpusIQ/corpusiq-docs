@@ -2,7 +2,7 @@
 title: "CorpusIQ vs Custom RAG  --  2-Minute Setup vs Months of Engineering"
 description: "CorpusIQ MCP platform vs building custom RAG pipelines. 2-minute data-to-AI setup vs months of engineering. Compare cost, speed, and maintainability."
 h1: "CorpusIQ vs Custom RAG  --  2-Min Setup vs Months of Engineering"
-url: "/docs/corpusiq-vs-custom-rag/"
+url: "/docs/corpusiq-vs-custom-rag"
 author: "CorpusIQ"
 date: "2026-06-16"
 category: "Comparison"
@@ -134,14 +134,14 @@ A: CorpusIQ is a managed platform. For custom logic, you can combine CorpusIQ (f
 
 ## Internal Links
 
-- [CorpusIQ vs Vector Databases  --  MCP Retrieval vs Vector Search](/docs/corpusiq-vs-vector-databases/)
-- [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/docs/corpusiq-vs-langchain/)
-- [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/docs/corpusiq-vs-data-warehouses/)
-- [How to Build an AI Knowledge Base](/docs/how-to-build-an-ai-knowledge-base/)
-- [How to Create an AI Data Layer](/docs/how-to-create-an-ai-data-layer/)
-- [Best MCP Server for Business](/docs/best-mcp-server-for-business/)
-- [Best AI Knowledge Platform](/docs/best-ai-knowledge-platform/)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
+- [CorpusIQ vs Vector Databases  --  MCP Retrieval vs Vector Search](/docs/corpusiq-vs-vector-databases)
+- [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/docs/corpusiq-vs-langchain)
+- [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/docs/corpusiq-vs-data-warehouses)
+- [How to Build an AI Knowledge Base](/docs/how-to-build-an-ai-knowledge-base)
+- [How to Create an AI Data Layer](/docs/how-to-create-an-ai-data-layer)
+- [Best MCP Server for Business](/docs/best-mcp-server-for-business)
+- [Best AI Knowledge Platform](/docs/best-ai-knowledge-platform)
+- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
 ---
 
 *

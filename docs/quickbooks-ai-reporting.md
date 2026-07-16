@@ -143,7 +143,7 @@ Ready to put AI to work on your quickbooks ai reporting data?
 
 CorpusIQ's AI Reporting for QuickBooks turns hours of manual report generation into seconds of conversation. Whether you're an accountant closing the books, a CFO preparing investor materials, or a business owner checking financial health, AI-powered reporting gives you instant access to the answers in your data.
 
-**[Start generating AI-powered financial reports](/docs/quick-start/)  --  connect QuickBooks in under 60 seconds.**
+**[Start generating AI-powered financial reports](/docs/quick-start)  --  connect QuickBooks in under 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

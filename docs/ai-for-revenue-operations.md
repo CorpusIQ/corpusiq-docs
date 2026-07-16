@@ -2,12 +2,12 @@
 title: AI for Revenue Operations  --  Unify Your Revenue Stack with CorpusIQ MCP
 title: AI for Revenue Operations | CorpusIQ MCP Platform for RevOps
 description: Transform Revenue Operations with AI. Connect CRM, marketing, billing, and analytics for unified revenue intelligence. Cross-source analysis, real-time metrics, read-only MCP integration.
-url: /docs/ai-for-revenue-operations/
+url: /docs/ai-for-revenue-operations
 h1: 'AI for Revenue Operations: Unify Your Revenue Data'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/ai-for-revenue-operations/
+canonical: https://www.corpusiq.io/docs/ai-for-revenue-operations
 keywords:
 - AI for revenue operations
 - revenue operations AI automation
@@ -124,14 +124,14 @@ A: Standard REST APIs are used, so custom CRM objects/fields accessible via API 
 
 ## Internal Links
 
-- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude/)
-- [Connect HubSpot to Claude](/docs/connect-hubspot-to-claude/)
-- [Connect Stripe to Claude](/docs/connect-stripe-to-claude/)
-- [Connect Google Analytics to Claude](/docs/connect-google-analytics-to-claude/)
-- [AI for Sales Reporting](/docs/ai-for-sales-reporting/)
-- [AI for Marketing Analytics](/docs/ai-for-marketing-analytics/)
-- [AI for Executive Reporting](/docs/ai-for-executive-reporting/)
-- [What is MCP?](/docs/what-is-an-mcp-server/)
+- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude)
+- [Connect HubSpot to Claude](/docs/connect-hubspot-to-claude)
+- [Connect Stripe to Claude](/docs/connect-stripe-to-claude)
+- [Connect Google Analytics to Claude](/docs/connect-google-analytics-to-claude)
+- [AI for Sales Reporting](/docs/ai-for-sales-reporting)
+- [AI for Marketing Analytics](/docs/ai-for-marketing-analytics)
+- [AI for Executive Reporting](/docs/ai-for-executive-reporting)
+- [What is MCP?](/docs/what-is-an-mcp-server)
 
 ---
 
