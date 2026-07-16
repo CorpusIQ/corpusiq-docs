@@ -2,12 +2,12 @@
 title: AI for Data Analysis  --  Transform Analytics with CorpusIQ MCP
 title: AI for Data Analysis | CorpusIQ MCP Platform for Analytics
 description: Transform data analysis with AI. Query databases, spreadsheets, and business tools in natural language. Instant SQL-free analysis, cross-source correlation, and automated insight generation.
-url: /docs/ai-for-data-analysis/
+url: /docs/ai-for-data-analysis
 h1: 'AI for Data Analysis: From SQL Queries to Natural Conversations'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/ai-for-data-analysis/
+canonical: https://www.corpusiq.io/docs/ai-for-data-analysis
 keywords:
 - AI for data analysis
 - data analysis AI automation
@@ -128,12 +128,12 @@ A: No  --  it amplifies them. AI handles routine and ad-hoc analysis, freeing da
 ## Internal Links
 
 - [Connect Your Database to Claude](https://corpusiq.io/connectors/postgres/)
-- [Connect Shopify to Claude](/docs/connect-shopify-to-claude/)
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/)
-- [AI for Business Intelligence](/docs/ai-for-business-intelligence/)
-- [AI for Financial Analysis](/docs/ai-for-financial-analysis/)
-- [AI for Forecasting](/docs/ai-for-forecasting/)
-- [What is MCP?](/docs/what-is-an-mcp-server/)
+- [Connect Shopify to Claude](/docs/connect-shopify-to-claude)
+- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude)
+- [AI for Business Intelligence](/docs/ai-for-business-intelligence)
+- [AI for Financial Analysis](/docs/ai-for-financial-analysis)
+- [AI for Forecasting](/docs/ai-for-forecasting)
+- [What is MCP?](/docs/what-is-an-mcp-server)
 
 ---
 

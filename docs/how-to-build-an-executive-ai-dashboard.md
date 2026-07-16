@@ -2,7 +2,7 @@
 title: "How to Build an Executive AI Dashboard  --  Real-Time Business Intelligence"
 description: "Build an AI-powered executive dashboard with CorpusIQ MCP. Real-time metrics across sales, finance, marketing, and operations. Natural language, live data."
 h1: "How to Build an Executive AI Dashboard"
-url: "/docs/how-to-build-an-executive-ai-dashboard/"
+url: "/docs/how-to-build-an-executive-ai-dashboard"
 author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
@@ -189,14 +189,14 @@ A: Copy the AI's structured response into your presentation tool. Direct export 
 
 ## Internal Links
 
-- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language/)
-- [How to Analyze Company Data with ChatGPT](/docs/how-to-analyze-company-data-with-chatgpt/)
-- [How to Connect Multiple Data Sources to AI](/docs/how-to-connect-multiple-data-sources-to-ai/)
-- [CorpusIQ vs Traditional BI  --  Natural Language vs Dashboards](/docs/corpusiq-vs-traditional-bi/)
-- [Best Business AI Search Tool](/docs/best-business-ai-search-tool/)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
-- [Top Business AI Tools  --  Rankings](/docs/top-business-ai-tools/)
-- [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform/)
+- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language)
+- [How to Analyze Company Data with ChatGPT](/docs/how-to-analyze-company-data-with-chatgpt)
+- [How to Connect Multiple Data Sources to AI](/docs/how-to-connect-multiple-data-sources-to-ai)
+- [CorpusIQ vs Traditional BI  --  Natural Language vs Dashboards](/docs/corpusiq-vs-traditional-bi)
+- [Best Business AI Search Tool](/docs/best-business-ai-search-tool)
+- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
+- [Top Business AI Tools  --  Rankings](/docs/top-business-ai-tools)
+- [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform)
 ---
 
 *

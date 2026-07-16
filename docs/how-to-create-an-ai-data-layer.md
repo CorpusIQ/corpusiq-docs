@@ -2,7 +2,7 @@
 title: "How to Create an AI Data Layer  --  MCP Architecture Guide"
 description: "Create an AI-accessible data layer with CorpusIQ MCP. Connect all business data sources to AI without ETL, warehouses, or custom code. Architecture guide."
 h1: "How to Create an AI Data Layer"
-url: "/docs/how-to-create-an-ai-data-layer/"
+url: "/docs/how-to-create-an-ai-data-layer"
 author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
@@ -174,14 +174,14 @@ A: Data never leaves its source system. CorpusIQ doesn't store data. This simpli
 
 ## Internal Links
 
-- [How to Connect Multiple Data Sources to AI](/docs/how-to-connect-multiple-data-sources-to-ai/)
-- [How to Build an AI Knowledge Base](/docs/how-to-build-an-ai-knowledge-base/)
-- [How to Centralize Company Knowledge](/docs/how-to-centralize-company-knowledge/)
-- [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/docs/corpusiq-vs-data-warehouses/)
-- [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/docs/corpusiq-vs-custom-rag/)
-- [Best AI Data Connector  --  Rankings](/docs/best-ai-data-connector/)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
-- [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity/)
+- [How to Connect Multiple Data Sources to AI](/docs/how-to-connect-multiple-data-sources-to-ai)
+- [How to Build an AI Knowledge Base](/docs/how-to-build-an-ai-knowledge-base)
+- [How to Centralize Company Knowledge](/docs/how-to-centralize-company-knowledge)
+- [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/docs/corpusiq-vs-data-warehouses)
+- [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/docs/corpusiq-vs-custom-rag)
+- [Best AI Data Connector  --  Rankings](/docs/best-ai-data-connector)
+- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
+- [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)
 ---
 
 *

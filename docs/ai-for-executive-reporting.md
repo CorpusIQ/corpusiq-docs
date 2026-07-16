@@ -2,12 +2,12 @@
 title: AI for Executive Reporting  --  Board-Ready Intelligence with CorpusIQ MCP
 title: AI for Executive Reporting | CorpusIQ MCP Platform for Leadership
 description: Transform executive reporting with AI. Generate board-ready reports from live data across all business systems. Instant business health summaries, financial analysis, and performance metrics.
-url: /docs/ai-for-executive-reporting/
+url: /docs/ai-for-executive-reporting
 h1: 'AI for Executive Reporting: Instant Board-Ready Intelligence'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/ai-for-executive-reporting/
+canonical: https://www.corpusiq.io/docs/ai-for-executive-reporting
 keywords:
 - AI for executive reporting
 - executive reporting AI automation
@@ -126,14 +126,14 @@ A: For internal preparation and analysis, yes. External filings and earnings rel
 
 ## Internal Links
 
-- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude/)
-- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude/)
-- [Connect Stripe to Claude](/docs/connect-stripe-to-claude/)
-- [AI for Business Intelligence](/docs/ai-for-business-intelligence/)
-- [AI for Financial Analysis](/docs/ai-for-financial-analysis/)
-- [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring/)
-- [AI for Forecasting](/docs/ai-for-forecasting/)
-- [What is MCP?](/docs/what-is-an-mcp-server/)
+- [Connect QuickBooks to Claude](/docs/connect-quickbooks-to-claude)
+- [Connect Salesforce to Claude](/docs/connect-salesforce-to-claude)
+- [Connect Stripe to Claude](/docs/connect-stripe-to-claude)
+- [AI for Business Intelligence](/docs/ai-for-business-intelligence)
+- [AI for Financial Analysis](/docs/ai-for-financial-analysis)
+- [AI for KPI Monitoring](/docs/ai-for-kpi-monitoring)
+- [AI for Forecasting](/docs/ai-for-forecasting)
+- [What is MCP?](/docs/what-is-an-mcp-server)
 
 ---
 

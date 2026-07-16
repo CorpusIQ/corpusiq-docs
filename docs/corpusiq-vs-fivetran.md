@@ -2,7 +2,7 @@
 title: CorpusIQ vs Fivetran  --  MCP Live Query vs ETL Batch Pipelines
 description: CorpusIQ's MCP real-time query vs Fivetran's ETL batch pipelines. No data movement, no warehouse costs, instant access. Fair feature comparison.
 h1: CorpusIQ vs Fivetran  --  MCP Live Query vs ETL Batch Pipelines
-url: /docs/corpusiq-vs-fivetran/
+url: /docs/corpusiq-vs-fivetran
 author: CorpusIQ
 date: '2026-06-16'
 category: Comparison
@@ -158,14 +158,14 @@ Ready to put AI to work on your corpusiq vs fivetran  --  mcp live query vs etl 
 
 ## Internal Links
 
-- [CorpusIQ vs Zapier  --  MCP vs Workflow Automation](/docs/corpusiq-vs-zapier/)
-- [CorpusIQ vs Airbyte  --  MCP vs Open-Source Integration](/docs/corpusiq-vs-airbyte/)
-- [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/docs/corpusiq-vs-data-warehouses/)
-- [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/docs/corpusiq-vs-custom-rag/)
-- [Best AI Data Connector for Business](/docs/best-ai-data-connector/)
-- [Enterprise AI Data Access  --  Architecture Guide](/docs/enterprise-ai-data-access/)
-- [Top MCP Platforms Compared](/docs/top-mcp-platforms/)
-- [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity/)
+- [CorpusIQ vs Zapier  --  MCP vs Workflow Automation](/docs/corpusiq-vs-zapier)
+- [CorpusIQ vs Airbyte  --  MCP vs Open-Source Integration](/docs/corpusiq-vs-airbyte)
+- [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/docs/corpusiq-vs-data-warehouses)
+- [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/docs/corpusiq-vs-custom-rag)
+- [Best AI Data Connector for Business](/docs/best-ai-data-connector)
+- [Enterprise AI Data Access  --  Architecture Guide](/docs/enterprise-ai-data-access)
+- [Top MCP Platforms Compared](/docs/top-mcp-platforms)
+- [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)
 
 ---
 

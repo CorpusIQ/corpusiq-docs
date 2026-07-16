@@ -136,7 +136,7 @@ These prompts are starting points. As you discover effective variations, adapt t
 
 ## All Prompts
 
-- [Readme](/docs/hermes/prompts/README.html)
+- [Readme](/docs/hermes/prompts/)
 - [business-operations.md](/docs/hermes/prompts/business-operations.html)
 - [code-generation.md](/docs/hermes/prompts/code-generation.html)
 - [content-creation.md](/docs/hermes/prompts/content-creation.html)

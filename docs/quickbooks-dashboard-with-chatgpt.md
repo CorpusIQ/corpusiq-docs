@@ -194,7 +194,7 @@ Ready to put AI to work on your quickbooks dashboard with chatgpt data?
 
 A ChatGPT-powered QuickBooks dashboard is the fastest path to financial visibility. No BI tools, no data warehouses, no implementation projects. Just connect, ask, and receive.
 
-**[Set up your financial dashboard now](/docs/quick-start/)  --  connect QuickBooks in 60 seconds and ask for your first dashboard.**
+**[Set up your financial dashboard now](/docs/quick-start)  --  connect QuickBooks in 60 seconds and ask for your first dashboard.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

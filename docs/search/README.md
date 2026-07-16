@@ -74,12 +74,12 @@ A: Single-source queries, cross-source correlation, trend analysis, date-range f
 
 ## Internal Links
 
-- **[CorpusIQ Architecture](/docs/architecture/README)**  --  MCP endpoint and connector layer design  
-- **[CorpusIQ Security Overview](/docs/security/README)**  --  Authentication and encryption  
-- **[CorpusIQ Search Capabilities](/docs/search/README)**  --  Natural language and cross-source queries  
-- **[CorpusIQ Reporting](/docs/reporting/README)**  --  Instant reports and trend analysis  
-- **[CorpusIQ Onboarding Guide](/docs/onboarding/README)**  --  AI chat and agent setup in 10 minutes  
-- **[MSR Governance Framework](/docs/governance/README)**  --  Source of truth and audit controls  
+- **[CorpusIQ Architecture](/docs/architecture/)**  --  MCP endpoint and connector layer design  
+- **[CorpusIQ Security Overview](/docs/security)**  --  Authentication and encryption  
+- **[CorpusIQ Search Capabilities](/docs/search/)**  --  Natural language and cross-source queries  
+- **[CorpusIQ Reporting](/docs/reporting/)**  --  Instant reports and trend analysis  
+- **[CorpusIQ Onboarding Guide](/docs/onboarding/)**  --  AI chat and agent setup in 10 minutes  
+- **[MSR Governance Framework](/docs/governance/)**  --  Source of truth and audit controls  
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---

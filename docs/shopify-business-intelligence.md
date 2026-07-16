@@ -144,7 +144,7 @@ Ready to put AI to work on your shopify business intelligence data?
 
 Building a business intelligence capability used to require data warehouses, ETL pipelines, BI tools, and data teams  --  a six-figure, multi-month investment. CorpusIQ collapses this into a single MCP platform that connects your stack, queries your data, and delivers intelligence conversationally.
 
-**[Start your ecommerce intelligence journey](/docs/quick-start/). Connect Shopify and your marketing stack in under 30 minutes.**
+**[Start your ecommerce intelligence journey](/docs/quick-start). Connect Shopify and your marketing stack in under 30 minutes.**
 
 ---
 *AI-powered Shopify Business Intelligence  --  AI-Powered Ecommerce BI |...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*

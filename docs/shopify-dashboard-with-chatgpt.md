@@ -188,7 +188,7 @@ Ready to put AI to work on your shopify dashboard with chatgpt data?
 
 A ChatGPT-powered Shopify dashboard is the fastest, most flexible way to monitor your ecommerce performance. No BI tools to build. No data pipelines to maintain. No reports to export. Just real-time intelligence, on demand.
 
-**[Set up your Shopify dashboard now](/docs/quick-start/)  --  connect your store in 60 seconds.**
+**[Set up your Shopify dashboard now](/docs/quick-start)  --  connect your store in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

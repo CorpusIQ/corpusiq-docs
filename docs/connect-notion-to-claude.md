@@ -2,12 +2,12 @@
 title: Connect Notion to Claude via MCP  --  Knowledge Base Intelligence in AI
 title: Connect Notion to Claude | CorpusIQ MCP Integration for Knowledge Management
 description: Connect Notion to Claude using CorpusIQ's MCP platform. Search pages, query databases, and surface institutional knowledge in natural language. Read-only integration, no-code setup.
-url: /docs/connect-notion-to-claude/
+url: /docs/connect-notion-to-claude
 h1: 'Connect Notion to Claude: Your Wiki as an AI Knowledge Base'
 category: Claude Integrations
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/connect-notion-to-claude/
+canonical: https://www.corpusiq.io/docs/connect-notion-to-claude
 keywords:
 - connect notion to Claude
 - notion Claude integration
@@ -124,13 +124,13 @@ A: The Notion integration token grants workspace-level access to shared pages. A
 
 ## Internal Links
 
-- [Connect Slack to Claude](/docs/connect-slack-to-claude/)  --  Team communication in Claude.
-- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude/)  --  Enterprise document access.
+- [Connect Slack to Claude](/docs/connect-slack-to-claude)  --  Team communication in Claude.
+- [Connect SharePoint to Claude](/docs/connect-sharepoint-to-claude)  --  Enterprise document access.
 - [Connect Google Drive to Claude](https://corpusiq.io/connectors/google_workspace/)  --  Cloud storage integration.
-- [AI for Knowledge Management](/docs/ai-for-knowledge-management/)  --  AI-powered knowledge retrieval.
-- [AI for Document Search](/docs/ai-for-document-search/)  --  Document intelligence at scale.
-- [AI for Project Management](/docs/ai-for-project-management/)  --  Project intelligence.
-- [What is MCP?](/docs/what-is-an-mcp-server/)  --  Understanding the Model Context Protocol.
+- [AI for Knowledge Management](/docs/ai-for-knowledge-management)  --  AI-powered knowledge retrieval.
+- [AI for Document Search](/docs/ai-for-document-search)  --  Document intelligence at scale.
+- [AI for Project Management](/docs/ai-for-project-management)  --  Project intelligence.
+- [What is MCP?](/docs/what-is-an-mcp-server)  --  Understanding the Model Context Protocol.
 
 ---
 

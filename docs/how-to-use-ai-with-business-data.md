@@ -2,7 +2,7 @@
 title: "How to Use AI with Business Data  --  Complete MCP Implementation Guide"
 description: "Use AI with your business data using CorpusIQ MCP. Connect CRM, accounting, analytics, and more to ChatGPT and Claude. No coding, real-time data."
 h1: "How to Use AI with Business Data"
-url: "/docs/how-to-use-ai-with-business-data/"
+url: "/docs/how-to-use-ai-with-business-data"
 author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
@@ -188,14 +188,14 @@ A: Yes. CorpusIQ inherits permissions from source systems. Users only see data t
 
 ## Internal Links
 
-- [How to Connect Business Data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt/)
-- [How to Analyze Company Data with ChatGPT](/docs/how-to-analyze-company-data-with-chatgpt/)
-- [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai/)
-- [How to Centralize Company Knowledge](/docs/how-to-centralize-company-knowledge/)
-- [Best Way to Connect ChatGPT to Business Data](/docs/best-way-to-connect-chatgpt-to-business-data/)
-- [Best AI Knowledge Platform](/docs/best-ai-knowledge-platform/)
-- [Top Business AI Tools  --  Rankings](/docs/top-business-ai-tools/)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
+- [How to Connect Business Data to ChatGPT](/docs/how-to-connect-business-data-to-chatgpt)
+- [How to Analyze Company Data with ChatGPT](/docs/how-to-analyze-company-data-with-chatgpt)
+- [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai)
+- [How to Centralize Company Knowledge](/docs/how-to-centralize-company-knowledge)
+- [Best Way to Connect ChatGPT to Business Data](/docs/best-way-to-connect-chatgpt-to-business-data)
+- [Best AI Knowledge Platform](/docs/best-ai-knowledge-platform)
+- [Top Business AI Tools  --  Rankings](/docs/top-business-ai-tools)
+- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
 ---
 
 *

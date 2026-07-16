@@ -2,7 +2,7 @@
 title: CorpusIQ vs Data Warehouses  --  MCP Live Query vs Snowflake & BigQuery
 description: CorpusIQ MCP real-time query vs data warehouses like Snowflake, BigQuery, Redshift. Live query vs stored data for AI-powered business intelligence.
 h1: CorpusIQ vs Data Warehouses  --  MCP Live Query vs Stored Data
-url: /docs/corpusiq-vs-data-warehouses/
+url: /docs/corpusiq-vs-data-warehouses
 author: CorpusIQ
 date: '2026-06-16'
 category: Comparison
@@ -156,14 +156,14 @@ Ready to put AI to work on your corpusiq vs data warehouses  --  mcp live query 
 
 ## Internal Links
 
-- [CorpusIQ vs Fivetran  --  Live Query vs ETL Batch Pipelines](/docs/corpusiq-vs-fivetran/)
-- [CorpusIQ vs Airbyte  --  MCP vs Open-Source Data Integration](/docs/corpusiq-vs-airbyte/)
-- [CorpusIQ vs Traditional BI  --  Natural Language vs Dashboards](/docs/corpusiq-vs-traditional-bi/)
-- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language/)
-- [How to Connect Multiple Data Sources to AI](/docs/how-to-connect-multiple-data-sources-to-ai/)
-- [Best AI Data Connector for Business](/docs/best-ai-data-connector/)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
-- [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity/)
+- [CorpusIQ vs Fivetran  --  Live Query vs ETL Batch Pipelines](/docs/corpusiq-vs-fivetran)
+- [CorpusIQ vs Airbyte  --  MCP vs Open-Source Data Integration](/docs/corpusiq-vs-airbyte)
+- [CorpusIQ vs Traditional BI  --  Natural Language vs Dashboards](/docs/corpusiq-vs-traditional-bi)
+- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language)
+- [How to Connect Multiple Data Sources to AI](/docs/how-to-connect-multiple-data-sources-to-ai)
+- [Best AI Data Connector for Business](/docs/best-ai-data-connector)
+- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
+- [Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)
 
 ---
 

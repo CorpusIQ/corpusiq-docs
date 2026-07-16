@@ -2,7 +2,7 @@
 title: "How to Build an AI Knowledge Base  --  Step-by-Step with CorpusIQ MCP"
 description: "Build an AI-powered knowledge base that queries your live business data. Connect CRM, docs, email, and more to AI with CorpusIQ MCP. No coding required."
 h1: "How to Build an AI Knowledge Base"
-url: "/docs/how-to-build-an-ai-knowledge-base/"
+url: "/docs/how-to-build-an-ai-knowledge-base"
 author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
@@ -166,14 +166,14 @@ A: Yes  --  for question-answering. You may still want a wiki for browseable, st
 
 ## Internal Links
 
-- [How to Centralize Company Knowledge](/docs/how-to-centralize-company-knowledge/)
-- [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai/)
-- [How to Use AI with Business Data](/docs/how-to-use-ai-with-business-data/)
-- [How to Create an AI Data Layer](/docs/how-to-create-an-ai-data-layer/)
-- [Best AI Knowledge Platform  --  Rankings](/docs/best-ai-knowledge-platform/)
-- [Best Business AI Search Tool](/docs/best-business-ai-search-tool/)
-- [CorpusIQ vs Vector Databases  --  Live Query vs Search](/docs/corpusiq-vs-vector-databases/)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
+- [How to Centralize Company Knowledge](/docs/how-to-centralize-company-knowledge)
+- [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai)
+- [How to Use AI with Business Data](/docs/how-to-use-ai-with-business-data)
+- [How to Create an AI Data Layer](/docs/how-to-create-an-ai-data-layer)
+- [Best AI Knowledge Platform  --  Rankings](/docs/best-ai-knowledge-platform)
+- [Best Business AI Search Tool](/docs/best-business-ai-search-tool)
+- [CorpusIQ vs Vector Databases  --  Live Query vs Search](/docs/corpusiq-vs-vector-databases)
+- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
 ---
 
 *

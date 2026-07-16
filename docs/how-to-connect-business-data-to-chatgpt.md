@@ -2,7 +2,7 @@
 title: "How to Connect Business Data to ChatGPT  --  Step-by-Step Guide with CorpusIQ"
 description: "Connect your business data to ChatGPT in under 2 minutes with CorpusIQ MCP. Step-by-step guide for HubSpot, QuickBooks, Stripe, GA4, and 50+ sources."
 h1: "How to Connect Business Data to ChatGPT"
-url: "/docs/how-to-connect-business-data-to-chatgpt/"
+url: "/docs/how-to-connect-business-data-to-chatgpt"
 author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
@@ -147,14 +147,14 @@ A: CorpusIQ pricing is per-seat, not per-query. Ask as many questions as you nee
 
 ## Internal Links
 
-- [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai/)
-- [How to Connect Multiple Data Sources to AI](/docs/how-to-connect-multiple-data-sources-to-ai/)
-- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language/)
-- [Best Way to Connect ChatGPT to Business Data](/docs/best-way-to-connect-chatgpt-to-business-data/)
-- [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/docs/corpusiq-vs-custom-rag/)
-- [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform/)
-- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access/)
-- [HubSpot Business Intelligence with CorpusIQ](/docs/hubspot-business-intelligence/)
+- [How to Search Company Data with AI](/docs/how-to-search-company-data-with-ai)
+- [How to Connect Multiple Data Sources to AI](/docs/how-to-connect-multiple-data-sources-to-ai)
+- [How to Query Business Data in Natural Language](/docs/how-to-query-business-data-in-natural-language)
+- [Best Way to Connect ChatGPT to Business Data](/docs/best-way-to-connect-chatgpt-to-business-data)
+- [CorpusIQ vs Custom RAG  --  2-Min Setup vs Engineering](/docs/corpusiq-vs-custom-rag)
+- [Best ChatGPT Integration Platform](/docs/best-chatgpt-integration-platform)
+- [Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)
+- [HubSpot Business Intelligence with CorpusIQ](/docs/hubspot-business-intelligence)
 ---
 
 *

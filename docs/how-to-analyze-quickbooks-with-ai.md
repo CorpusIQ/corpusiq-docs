@@ -207,7 +207,7 @@ CorpusIQ bills based on tool calls. A simple analysis might use 1-3 tool calls; 
 
 AI-powered QuickBooks analysis turns hours of manual spreadsheet work into seconds of conversation. Whether you need a quick cash flow check, a deep margin analysis, or a comprehensive financial review, CorpusIQ's MCP platform connects your AI assistant directly to your live financial data.
 
-**[Connect QuickBooks and start your first analysis](/docs/quick-start/)  --  setup takes under 60 seconds.**
+**[Connect QuickBooks and start your first analysis](/docs/quick-start)  --  setup takes under 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

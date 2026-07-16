@@ -2,12 +2,12 @@
 title: AI for Marketing Analytics  --  Real-Time Campaign Intelligence with CorpusIQ MCP
 title: AI for Marketing Analytics | CorpusIQ MCP Platform for Marketing Teams
 description: Transform marketing analytics with AI. Query Google Ads, Facebook Ads, GA4, Klaviyo, and more in natural language. Instant ROAS, attribution, and campaign performance analysis.
-url: /docs/ai-for-marketing-analytics/
+url: /docs/ai-for-marketing-analytics
 h1: 'AI for Marketing Analytics: Campaign Intelligence in Real Time'
 category: Business Use Cases
 last_updated: '2025-06-16'
 author: CorpusIQ
-canonical: https://www.corpusiq.io/docs/ai-for-marketing-analytics/
+canonical: https://www.corpusiq.io/docs/ai-for-marketing-analytics
 keywords:
 - AI for marketing analytics
 - marketing analytics AI automation
@@ -125,9 +125,9 @@ A: Yes. Connect Google Analytics (organic data) and Google Ads (paid data) and C
 - [Connect Facebook Ads to Claude](https://corpusiq.io/connectors/facebook_marketing/)
 - [Connect Google Analytics to Claude](connect-google-analytics-to-claude)
 - [Connect Klaviyo to Claude](https://corpusiq.io/connectors/klaviyo/)
-- [AI for Business Intelligence](/docs/ai-for-business-intelligence/)
-- [AI for Revenue Operations](/docs/ai-for-revenue-operations/)
-- [What is MCP?](/docs/what-is-an-mcp-server/)
+- [AI for Business Intelligence](/docs/ai-for-business-intelligence)
+- [AI for Revenue Operations](/docs/ai-for-revenue-operations)
+- [What is MCP?](/docs/what-is-an-mcp-server)
 
 ---
 
