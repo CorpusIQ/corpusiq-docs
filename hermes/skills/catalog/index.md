@@ -1,6 +1,6 @@
 ---
 title: "Hermes Skills Catalog — Quality-Tiered Directory"
-description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 445+ skills catalogued."
+description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 449+ skills catalogued."
 ---
 
 # Skills Catalog
@@ -171,11 +171,13 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 
 ## All Skills Catalog Pages
 
+- [Agent Browser — Vercel Labs CLI for AI Agents Setup](/docs/hermes/skills/catalog/agent-browser-setup.html)
 - [Agent Flywheel Mega-Toolkit Setup Guide](/docs/hermes/skills/catalog/agent-flywheel-setup.html)
 - [agent-sessions — macOS Agent Session Browser Setup](/docs/hermes/skills/catalog/agent-sessions-setup.html)
 - [Agenthood Setup](/docs/hermes/skills/catalog/agenthood-setup.html)
 - [Agentmint Skills Setup](/docs/hermes/skills/catalog/agentmint-skills-setup.html)
 - [AgentMemory Setup — Persistent Memory for Hermes Agents](/docs/hermes/skills/catalog/agentmemory-setup.html)
+- [Apify Agent Skills — Web Scraping for Hermes Setup](/docs/hermes/skills/catalog/apify-agent-skills-setup.html)
 - [Apple Calendar Setup](/docs/hermes/skills/catalog/apple-calendar-setup.html)
 - [Arxiv Setup](/docs/hermes/skills/catalog/arxiv-setup.html)
 - [Ashima Setup](/docs/hermes/skills/catalog/ashima-setup/index.html)
@@ -191,6 +193,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Setup Guide: napoleond/clawdirect — Agent Self-Direction Framework (9K+ Installs)](/docs/hermes/skills/catalog/clawdirect-setup.html)
 - [Setup Guide: steipete/clawdis — 14 OpenClaw Skills (37K+ Installs)](/docs/hermes/skills/catalog/clawdis-setup.html)
 - [Setup Guide: cantinaxyz/clawdstrike — Agent Red-Team Security Testing (486 Installs)](/docs/hermes/skills/catalog/clawdstrike-setup.html)
+- [ClawFu Skills — 175 Marketing Methodologies for AI Agents Setup](/docs/hermes/skills/catalog/clawfu-skills-setup.html)
 - [Clawpilot Ecosystem Setup](/docs/hermes/skills/catalog/clawpilot-ecosystem-setup.html)
 - [Clean Slate Setup](/docs/hermes/skills/catalog/clean-slate-setup.html)
 - [Cli Anything Harnesses Setup](/docs/hermes/skills/catalog/cli-anything-harnesses-setup.html)
@@ -301,6 +304,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Timesfm Forecasting Setup](/docs/hermes/skills/catalog/timesfm-forecasting-setup/index.html)
 - [Trailofbits Security Setup](/docs/hermes/skills/catalog/trailofbits-security-setup.html)
 - [Ultimate Humanizer Setup](/docs/hermes/skills/catalog/ultimate-humanizer-setup.html)
+- [Vercel Agent Skills — Official Vercel Collection Setup](/docs/hermes/skills/catalog/vercel-agent-skills-setup.html)
 - [Vps Server Management Setup](/docs/hermes/skills/catalog/vps-server-management-setup/index.html)
 - [Wiki History Ingest Setup](/docs/hermes/skills/catalog/wiki-history-ingest-setup/index.html)
 - [Writing Plans Subagent Development Setup](/docs/hermes/skills/catalog/writing-plans-subagent-development-setup.html)

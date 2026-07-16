@@ -7,7 +7,7 @@ description: Discover and install community skills from skills.sh  --  290+ cura
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**512+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**516+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## How to Discover Skills
 
@@ -160,6 +160,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 - [🆕 July 4, 2026 — agent-sessions (683⭐), Hermes ArXiv Agent + 22 more (24 repos, 5 setup guides)](/hermes/skills/marketplace/new-july4-2026/)
 - [🆕 July 4, 2026 (Update) — hermes-top Dashboard, Neo Theme, Backup Script, AGEL-Comp Safety (5 repos, 4 setup guides)](/hermes/skills/marketplace/new-july4-2026-update/)
 - [🆕 July 4, 2026 (Update 2) — Hermes Idea Workflow Suite, OpenClaw Tooling (3 repos, 6 skills)](/hermes/skills/marketplace/new-july4-2026-update2/)
+| [🆕 July 16, 2026 — Agent Browser, Vercel Skills, Apify, ClawFu (4 repos, 4 skills, 4 setup guides)](/hermes/skills/marketplace/new-july16-2026/)
 | [🆕 July 15, 2026 — Memory Hygiene, System Service Deployment, LLM-OPS, Security Analysis (6 repos, 6 skills, 6 setup guides)](/hermes/skills/marketplace/new-july15-2026/)
 | [🆕 July 12, 2026 — OpenClaw Plugin Testing, Skill Distribution Utility, WeChat/Solana Integrations (7 repos, 9 skills, 1 setup guide)](/hermes/skills/marketplace/new-july12-2026/)
 - [🆕 July 3, 2026 — Hermex iPhone App (286⭐), Crypto Radar, Agent Memory Stack (7 repos, 7 tools, 1 setup guide)](/hermes/skills/marketplace/new-july3-2026/)
@@ -241,6 +242,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 - [New July12 2026](/docs/hermes/skills/marketplace/new-july12-2026/index.html)
 - [New July14 2026](/docs/hermes/skills/marketplace/new-july14-2026/index.html)
 - [New July14 2026 Update](/docs/hermes/skills/marketplace/new-july14-2026-update/index.html)
+- [New July16 2026](/docs/hermes/skills/marketplace/new-july16-2026/index.html)
 - [New July15 2026](/docs/hermes/skills/marketplace/new-july15-2026/index.html)
 - [New July15 2026 Update](/docs/hermes/skills/marketplace/new-july15-2026-update/index.html)
 - [🆕 July 2, 2026 — Hermes Browser Extension + OpenClaw on Android](/docs/hermes/skills/marketplace/new-july2-2026/index.html)
