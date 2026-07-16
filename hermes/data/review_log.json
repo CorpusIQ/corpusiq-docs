@@ -4743,5 +4743,61 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-16T07:06:09.627804+00:00"
+  },
+  {
+    "repo": "Upstream17/hermes-anysearch-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T08:07:36.516001+00:00"
+  },
+  {
+    "repo": "giuliastro/HarnessTrim",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T08:07:36.516013+00:00"
+  },
+  {
+    "repo": "holee9/ra-hermes-multi-agent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T08:07:36.516014+00:00"
+  },
+  {
+    "repo": "DataXquad-HQ/hermes-ai-colleague-package",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T08:07:36.516015+00:00"
+  },
+  {
+    "repo": "pcjcosta/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T08:07:36.516016+00:00"
+  },
+  {
+    "repo": "kishorchintala/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T08:07:36.516017+00:00"
+  },
+  {
+    "repo": "mickaelbsg/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T08:07:36.516018+00:00"
+  },
+  {
+    "repo": "Draqun/simple-hermes-instalator",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-16T08:07:36.516020+00:00"
   }
 ]

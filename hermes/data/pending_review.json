@@ -18787,5 +18787,226 @@
     ],
     "discovered_at": "2026-07-16T07:04:17.153005+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Upstream17/hermes-anysearch-plugin",
+    "url": "https://github.com/Upstream17/hermes-anysearch-plugin",
+    "description": "Vibe-coded Hermes Agent user plugin bridging anysearch.com into web_search/web_extract. Markdown\u2192ABC parser + 30s wall-clock cap. Bilingual docs.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-16T08:03:46Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-16T08:05:05.375112+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "giuliastro/HarnessTrim",
+    "url": "https://github.com/giuliastro/HarnessTrim",
+    "description": "One token policy for Claude Code, Codex, OpenCode, Hermes Agent and Pi. A cross-harness token-economy control plane.",
+    "stars": 11,
+    "forks": 1,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-16T08:00:55Z",
+    "category": "core",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "Romanescu11/hermes-skill-factory",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "tale-project/tale",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-07-16T08:05:07.378679+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "holee9/ra-hermes-multi-agent",
+    "url": "https://github.com/holee9/ra-hermes-multi-agent",
+    "description": null,
+    "stars": 0,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-16T06:29:46Z",
+    "category": "forks",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-16T08:05:30.417528+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "DataXquad-HQ/hermes-ai-colleague-package",
+    "url": "https://github.com/DataXquad-HQ/hermes-ai-colleague-package",
+    "description": "BusyCow Agent Playbooks \u2014 reusable Hermes skill templates for SME use cases",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-16T08:05:11Z",
+    "category": "forks",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "awesome-hermes-usecases"
+    ],
+    "discovered_at": "2026-07-16T08:05:32.420397+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pcjcosta/hermes-agent",
+    "url": "https://github.com/pcjcosta/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-16T08:05:11Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-16T08:05:34.422502+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kishorchintala/hermes-agent",
+    "url": "https://github.com/kishorchintala/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-16T08:04:52Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-16T08:05:36.424936+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mickaelbsg/hermes-agent",
+    "url": "https://github.com/mickaelbsg/hermes-agent",
+    "description": "Agente Orquestrador",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-16T08:04:55Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-16T08:05:38.427472+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Draqun/simple-hermes-instalator",
+    "url": "https://github.com/Draqun/simple-hermes-instalator",
+    "description": "Painless, interactive installer for the [Hermes agent](https://github.com/NousResearch/hermes-agent) and its [WebUI](https://github.com/nesquena/hermes-webui) on a [Mikrus](https://mikr.us) VPS \u2014 in the spirit of Mikrus's own `n8n_install`.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-07-16T07:57:41Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "CYC2002tommy/Deep-Research-Agent",
+      "ruvnet/metaharness",
+      "PatterAI/Patter"
+    ],
+    "discovered_at": "2026-07-16T08:07:07.253224+00:00",
+    "status": "pending"
   }
 ]
