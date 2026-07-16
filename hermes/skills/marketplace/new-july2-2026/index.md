@@ -1,5 +1,5 @@
 ---
-title: "🆕 July 2, 2026 — Hermes Browser Extension + OpenClaw on Android"
+title: "July 2, 2026 — Hermes Browser Extension"
 description: "2 new Hermes-relevant skills discovered July 2, 2026: Hermes Browser Extension (439⭐) brings side-panel access to Chrome/Edge, OpenClaw Android (1,649⭐) runs agents on old phones."
 ---
 

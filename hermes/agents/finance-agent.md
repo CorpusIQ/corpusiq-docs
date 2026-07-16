@@ -1,5 +1,5 @@
 ---
-title: Hermes Finance Agent  --  Automated Accounting & Reconciliation
+title: "Hermes Finance Agent"
 description: Deploy an AI finance agent for invoice processing, expense tracking, bank reconciliation, AR aging, and financial reporting. Complete Hermes blueprint with QuickBooks and Stripe.
 category: Agents
 tags:

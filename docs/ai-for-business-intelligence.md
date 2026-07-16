@@ -1,6 +1,5 @@
 ---
-title: AI for Business Intelligence  --  Transform Analytics with CorpusIQ MCP
-title: AI for Business Intelligence | CorpusIQ MCP Platform for BI Transformation
+title: "AI for Business Intelligence"
 description: Discover how AI transforms business intelligence. Query data across all your tools in natural language, automate reporting, and democratize analytics with CorpusIQ's MCP platform. Real-time
   BI for every team.
 url: /docs/ai-for-business-intelligence

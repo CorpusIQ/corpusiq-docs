@@ -1,6 +1,5 @@
 ---
-title: AI for Compliance  --  Automated Compliance Intelligence with CorpusIQ MCP
-title: AI for Compliance | CorpusIQ MCP Platform for Regulatory Intelligence
+title: "AI for Compliance"
 description: Transform compliance operations with AI. Query financial records, policies, and controls across systems in natural language. Automated compliance checks, audit trail access, and policy
   verification.
 url: /docs/ai-for-compliance

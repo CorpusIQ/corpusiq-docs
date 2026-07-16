@@ -1,5 +1,5 @@
 ---
-title: Hermes Contributors  --  How to Submit to the Hermes Ecosystem Directory
+title: "Hermes Contributors"
 description: Learn how to contribute to the largest Hermes Agent resource directory. Submit repos, review pending additions, and join the community of contributors. 448 repos indexed.
 category: Community
 tags:

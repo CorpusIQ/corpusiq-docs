@@ -1,5 +1,5 @@
 ---
-title: "Meta Business MCP — WhatsApp Business Cloud API Integration Guide"
+title: "Meta Business MCP — WhatsApp Business Cloud API"
 description: "Connect AI agents to WhatsApp Business Cloud API via MCP — 24 tools for message orchestration, compliance engine, and error intelligence. Production-validated for WhatsApp-first markets."
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "LLM Observability MCP (LangTrace) — Open Source Monitoring for AI Agents"
+title: "LLM Observability MCP (LangTrace) — Open Source Monitoring"
 description: "Open source LLM observability proxy. Drop-in for OpenAI, Anthropic, Gemini with request logging, cost tracking, and agent tracing. Self-host with Docker. MIT."
 category: mcp
 tags: [mcp-server, devops, llm, observability, monitoring, cost-tracking, agent-tracing]

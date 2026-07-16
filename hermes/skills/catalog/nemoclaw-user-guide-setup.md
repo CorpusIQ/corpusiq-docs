@@ -1,5 +1,5 @@
 ---
-title: NemoClaw User Guide — Security Setup for Hermes/OpenClaw Agents
+title: "NemoClaw User Guide — Security Setup"
 description: Install and use the NemoClaw security user guide from nvidia/skills (99 installs). Enterprise-grade security best practices for autonomous Hermes agent deployments.
 ---
 

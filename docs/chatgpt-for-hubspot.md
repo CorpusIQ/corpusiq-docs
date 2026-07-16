@@ -1,8 +1,7 @@
 ---
-title: 'ChatGPT for HubSpot: AI-Powered CRM Analytics & Sales Intelligence | CorpusIQ'
+title: "ChatGPT for HubSpot -- AI CRM Analytics & Sales Intelligence"
 url: /docs/chatgpt-for-hubspot
 h1: 'ChatGPT for HubSpot: Your AI-Powered CRM Command Center'
-title: ChatGPT for HubSpot  --  AI CRM Analytics & Sales Intelligence | CorpusIQ
 description: Connect ChatGPT directly to HubSpot via CorpusIQ MCP. Ask questions about your pipeline, deals, contacts, and campaigns in plain English  --  get real-time answers from your live CRM data.
 keywords:
 - ChatGPT for HubSpot

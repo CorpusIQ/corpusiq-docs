@@ -1,5 +1,5 @@
 ---
-title: "New June 28, 2026 — Threads Growth Skill, NemoClaw User Guide, Huawei Hermes Deployment"
+title: "June 28, 2026 — Threads Growth Skill"
 description: "3 newly discovered skills — Threads growth automation (745 installs), NemoClaw security user guide (99 installs), Huawei Cloud Hermes deployment (43 installs)"
 ---
 

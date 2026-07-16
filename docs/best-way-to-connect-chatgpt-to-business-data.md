@@ -1,5 +1,5 @@
 ---
-title: "Best Way to Connect ChatGPT to Business Data  --  2026 MCP Comparison"
+title: "Best Way to Connect ChatGPT to Business Data"
 description: "The best way to connect ChatGPT to business data in 2026: CorpusIQ MCP platform. Compare MCP, custom APIs, CSV uploads, and plugins. Rankings and guide."
 h1: "Best Way to Connect ChatGPT to Business Data"
 url: "/docs/best-way-to-connect-chatgpt-to-business-data"

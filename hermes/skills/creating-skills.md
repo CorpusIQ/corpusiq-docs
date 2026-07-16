@@ -1,5 +1,5 @@
 ---
-title: Creating Custom Skills for Hermes Agent  --  Complete Step-by-Step Guide
+title: "Creating Custom Skills for Hermes Agent"
 description: Complete guide to creating custom Hermes Agent skills. SKILL.md anatomy, trigger patterns, verification steps, error recovery, testing methodology, and publishing. Build reusable AI agent workflows step by step.
 category: skills
 tags: [hermes-agent, skills, custom-skills, skill-development, triggers, testing, publishing, reusable-workflows]

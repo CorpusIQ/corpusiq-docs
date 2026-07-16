@@ -1,5 +1,5 @@
 ---
-title: Memory Management Best Practices for Hermes Agent  --  Persistent AI Context
+title: "Memory Management Best Practices for Hermes Agent"
 description: Hermes Agent memory management guide. Honcho peer memory, GBrain organizational knowledge, memcore-cloud cross-session recall, GraphRAG, and Session DB. When to use each memory tier, compaction strategies, and anti-patterns.
 category: best-practices
 tags: [hermes-agent, memory-management, honcho, gbrain, memcore-cloud, context-optimization, persistent-memory, graphrag]

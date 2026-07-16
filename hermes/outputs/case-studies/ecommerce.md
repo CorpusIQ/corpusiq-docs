@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Ecommerce Automation | Multi-Channel Operations & Cart Recovery"
+title: "Hermes Agent Ecommerce Automation"
 description: "Automate inventory synchronization, order processing, abandoned cart recovery, and multi-channel listing management with Hermes Agent AI for ecommerce."
 category: "Case Study"
 tags:

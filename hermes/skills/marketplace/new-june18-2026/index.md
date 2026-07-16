@@ -1,5 +1,5 @@
 ---
-title: New Skills  --  June 18, 2026 (nousresearch/hermes-agent expansion)
+title: "New Skills"
 description: 32 new Hermes Agent skills discovered June 18, 2026 from nousresearch/hermes-agent  --  macOS desktop automation, Node.js/Python debugging, smart home control, subagent workflows, music generation, and more.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Impeccable Writing Framework — Full Setup Guide for Hermes Agents
+title: "Impeccable Writing Framework — Setup Guide"
 description: Install, configure, and use pbakaus/impeccable — an AI writing quality framework that teaches Hermes style rules, structure templates, and content arrangement. 90K combined installs.
 ---
 

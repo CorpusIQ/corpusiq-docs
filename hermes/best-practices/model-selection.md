@@ -1,5 +1,5 @@
 ---
-title: Model Selection Guide for Hermes Agent  --  Choose the Right AI Model
+title: "Model Selection Guide for Hermes Agent"
 description: Hermes Agent model selection best practices. Task-to-model mapping, cost optimization, local vs cloud tradeoffs, fallback chains, and decision tree. Save latency and cost with tiered model routing for every task type.
 category: best-practices
 tags: [hermes-agent, model-selection, ai-models, cost-optimization, ollama, openrouter, local-models, cloud-models]

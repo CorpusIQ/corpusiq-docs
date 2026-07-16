@@ -1,5 +1,5 @@
 ---
-title: HubSpot Business Intelligence with CorpusIQ MCP  --  AI-Powered CRM Analytics
+title: "HubSpot Business Intelligence with CorpusIQ MCP"
 description: Connect HubSpot to any AI assistant in seconds with CorpusIQ's MCP platform. Real-time CRM analytics, pipeline intelligence, and natural-language business queries without data movement.
 h1: HubSpot Business Intelligence  --  Connect Your CRM to AI
 url: /docs/hubspot-business-intelligence

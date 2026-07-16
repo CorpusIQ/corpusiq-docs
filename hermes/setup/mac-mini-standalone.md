@@ -1,5 +1,5 @@
 ---
-title: Mac Mini M4 Hermes Agent Setup  --  Standalone AI Workstation Guide
+title: "Mac Mini M4 Hermes Agent Setup"
 description: Step-by-step Mac Mini M4 setup guide for Hermes Agent. Run local LLMs with Ollama/MLX, browser automation with Playwright, and persistent crons on a single silent machine. $599+ hardware, free local inference.
 category: setup
 tags: [mac-mini, hermes-agent, setup-guide, ollama, mlx, browser-automation, standalone, apple-silicon]

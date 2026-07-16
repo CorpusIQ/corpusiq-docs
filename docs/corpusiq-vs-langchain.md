@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ vs Langchain  --  MCP-Native vs Traditional Data Pipeline"
+title: "CorpusIQ vs Langchain"
 description: "Compare CorpusIQ vs Langchain. Direct AI queries vs ETL pipelines. Real-time answers vs batch processing. Read-only OAuth vs data warehouse."
 category: "Comparison"
 tags: ["corpusiq vs langchain", "langchain alternative", "mcp data connector", "ai business intelligence"]

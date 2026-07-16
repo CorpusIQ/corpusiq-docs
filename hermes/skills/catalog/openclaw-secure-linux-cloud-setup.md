@@ -1,5 +1,5 @@
 ---
-title: OpenClaw Secure Linux Cloud — Full Setup Guide for Hermes Agents
+title: "OpenClaw Secure Linux Cloud — Setup Guide"
 description: Install and use xixu-me/skills openclaw-secure-linux-cloud — hardened Linux cloud deployment for OpenClaw/Hermes agents. 244K installs on skills.sh.
 ---
 

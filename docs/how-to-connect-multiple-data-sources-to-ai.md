@@ -1,5 +1,5 @@
 ---
-title: "How to Connect Multiple Data Sources to AI  --  Unified MCP Integration Guide"
+title: "How to Connect Multiple Data Sources to AI -- Unified MCP"
 description: "Connect multiple business data sources to AI simultaneously with CorpusIQ MCP. CRM, accounting, analytics, and more in one unified AI interface."
 h1: "How to Connect Multiple Data Sources to AI"
 url: "/docs/how-to-connect-multiple-data-sources-to-ai"

@@ -1,5 +1,5 @@
 ---
-title: Hermes Executive Agent  --  AI Chief of Staff for Calendar & Inbox
+title: "Hermes Executive Agent"
 description: Deploy an autonomous executive assistant agent for daily briefings, calendar management, inbox triage, meeting preparation, and task follow-up. Complete Hermes blueprint.
 category: Agents
 tags:

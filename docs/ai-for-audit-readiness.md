@@ -1,6 +1,5 @@
 ---
-title: AI for Audit Readiness  --  Continuous Audit Intelligence with CorpusIQ MCP
-title: AI for Audit Readiness | CorpusIQ MCP Platform for Audit Teams
+title: "AI for Audit Readiness"
 description: Transform audit preparation with AI. Query financial records, policies, and controls across systems in natural language. Instant evidence gathering, continuous readiness, and automated
   control testing.
 url: /docs/ai-for-audit-readiness

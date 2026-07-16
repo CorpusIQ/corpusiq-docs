@@ -1,5 +1,5 @@
 ---
-title: "Enterprise AI Data Access: Security, SSO, Audit Trails, and Compliance | CorpusIQ"
+title: "Enterprise AI Data Access: Security, SSO & Audit"
 description: "How enterprises can securely give AI access to business data: SSO/SAML, SOC 2, CASA Tier 2, data residency, read-only OAuth, audit trails, and zero data storage. Compare CorpusIQ MCP platform vs building in-house."
 category: Enterprise Security
 tags: [Enterprise AI Data Access, SSO, SAML, SOC 2, CASA Tier 2, Data Residency, Audit Trails, Read-Only OAuth, Zero Data Storage]

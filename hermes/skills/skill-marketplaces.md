@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent Skill Marketplaces  --  Discovery, Publishing & Quality Standards
+title: "Hermes Agent Skill Marketplaces"
 description: Navigate Hermes Agent skill marketplaces for discovering and publishing skills. Quality tiers, marketplace comparison, publishing guides, community standards, and how to find the best community-built AI agent skills.
 category: skills
 tags: [hermes-agent, skills, marketplace, publishing, quality-tiers, community, discovery, curation]

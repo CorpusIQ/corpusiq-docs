@@ -1,5 +1,5 @@
 ---
-title: "Transform MCP (Unstructured) — Document Parsing for AI Agents"
+title: "Transform MCP (Unstructured) — Document Parsing"
 description: "Connect Unstructured Transform MCP to Hermes Agent. Parse PDFs, CSVs, images, and documents into structured AI-ready data — turns raw files into queryable intelligence."
 category: mcp
 tags: [mcp-server, document-processing, unstructured, pdf-parsing, data-extraction]

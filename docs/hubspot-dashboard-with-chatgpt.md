@@ -1,8 +1,7 @@
 ---
-title: 'HubSpot Dashboard with ChatGPT: Real-Time CRM KPIs & Pipeline Monitoring | CorpusIQ'
+title: "HubSpot Dashboard with ChatGPT -- Live CRM KPIs & Pipeline"
 url: /docs/hubspot-dashboard-with-chatgpt
 h1: 'HubSpot Dashboard with ChatGPT: Your Real-Time Sales Command Center'
-title: HubSpot Dashboard with ChatGPT  --  Live CRM KPIs & Pipeline | CorpusIQ
 description: Create a live HubSpot dashboard using ChatGPT and CorpusIQ. Track pipeline health, monitor deal progress, measure rep performance, and get real-time sales alerts  --  all through natural
   language queries.
 keywords:

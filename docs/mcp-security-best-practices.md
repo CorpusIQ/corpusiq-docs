@@ -1,5 +1,5 @@
 ---
-title: "MCP Security Best Practices: OAuth, Token Management & Audit Trails | CorpusIQ"
+title: "MCP Security Best Practices: OAuth & Token Management"
 description: "Complete guide to MCP server security: OAuth 2.0 scopes, encrypted token management, read-only access defaults, audit trails, TLS encryption, and SOC 2 compliance for business AI data integration."
 category: MCP Education
 tags: ["MCP security best practices", "secure AI data integration", "OAuth AI authentication", "read-only data access security", "AI audit trails", "SOC 2 AI compliance"]

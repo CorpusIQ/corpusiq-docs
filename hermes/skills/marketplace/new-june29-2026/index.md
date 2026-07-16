@@ -1,5 +1,5 @@
 ---
-title: "🆕 June 29, 2026 — Coding Posture, Ultimate Humanizer, Clean Slate, Delegate Skills, AutoLoRA, WhatsApp Secretary, Safari Web Agent (7 repos, 7 skills)"
+title: "June 29, 2026 — Coding Posture"
 description: "New Hermes skills discovered June 29, 2026: task-aware coding modes, anti-AI-slop humanizer, session verification, background delegation, self-fine-tuning, WhatsApp integration, and native Safari automation."
 ---
 

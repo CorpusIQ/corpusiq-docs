@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Nonprofit Automation | Donor Management & Grant Tracking AI"
+title: "Hermes Agent Nonprofit Automation"
 description: "Automate donor management, grant tracking, volunteer coordination, and impact reporting with Hermes Agent AI workflows for nonprofit organizations."
 category: "Case Study"
 tags:

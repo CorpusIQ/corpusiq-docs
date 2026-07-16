@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ vs Airbyte  --  MCP-Native vs Traditional Data Pipeline"
+title: "CorpusIQ vs Airbyte"
 description: "Compare CorpusIQ vs Airbyte. Direct AI queries vs ETL pipelines. Real-time answers vs batch processing. Read-only OAuth vs data warehouse."
 category: "Comparison"
 tags: ["corpusiq vs airbyte", "airbyte alternative", "mcp data connector", "ai business intelligence"]

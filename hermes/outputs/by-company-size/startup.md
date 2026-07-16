@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent for Startups | AI Automation to Do More With Less"
+title: "Hermes Agent for Startups"
 description: "Get 5-10 hours back per week with Hermes Agent AI automation for startups. Customer onboarding, daily metrics, payment recovery, and market monitoring  --  running in under an hour."
 category: "Company Size"
 tags:

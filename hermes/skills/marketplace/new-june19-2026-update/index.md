@@ -1,5 +1,5 @@
 ---
-title: New Skills  --  June 19, 2026 Update (ECC-Hermes 36-pack, SkillSpector Vetting, AgentMint)
+title: "New Skills"
 description: 6 newly discovered Hermes skill repos  --  36-skill ECC pack, NVIDIA SkillSpector vetting pipeline, AgentMint subagent routing, devops/scraping skills, SEO/WordPress marketing pack, and Herman's execution playbook.
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Secure AI Data Connectivity  --  Zero-Trust Business AI Access | CorpusIQ
+title: "Secure AI Data Connectivity -- Zero-Trust Business AI Access"
 description: The most secure way to connect AI assistants to business data. TLS 1.3, AES-256, read-only OAuth, HMAC signatures, and zero data retention. CASA Tier 2 certified.
 category: Security
 tags: [secure AI connectivity, zero-trust AI, business AI security, read-only OAuth, MCP security, encrypted AI access, AI data governance]

@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Professional Services Automation | Agency & Consulting AI Workflows"
+title: "Hermes Agent Professional Services Automation"
 description: "Automate client onboarding, time tracking, invoice generation, and project status reporting with Hermes Agent AI workflows for agencies and consultancies."
 category: "Case Study"
 tags:

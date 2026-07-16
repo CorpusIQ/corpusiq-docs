@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Government Automation | FOIA Processing & Public Records AI"
+title: "Hermes Agent Government Automation"
 description: "Automate FOIA request processing, document management, constituent services, and compliance reporting with Hermes Agent AI workflows for government agencies."
 category: "Case Study"
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "🆕 June 30, 2026 — OpenClaw Ecosystem Expansion, HermesPet, MCP Dev Toolkit (14 repos, 24 skills)"
+title: "June 30, 2026 — OpenClaw Ecosystem Expansion"
 description: "New Hermes skills discovered June 30, 2026: 1 Hermes variant, 13 OpenClaw ecosystem skills, 1 Clawdbot skill, 9 MCP development skills. Crosses 7 categories."
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Hermes Support Agent  --  Customer Ticket Triage & SLA Automation
+title: "Hermes Support Agent"
 description: Deploy an AI customer support agent for ticket triage, knowledge base search, response drafting, SLA monitoring, and trending issue detection. Complete Hermes configuration blueprint.
 category: Agents
 tags:

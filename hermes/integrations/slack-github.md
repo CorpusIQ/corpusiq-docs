@@ -1,5 +1,5 @@
 ---
-title: Slack + GitHub Integration for Hermes Agent  --  Automated Dev Workflow Notifications
+title: "Slack + GitHub Integration for Hermes Agent"
 description: Connect Slack and GitHub to Hermes Agent for automated PR notifications, issue triage, deployment status alerts, and daily standup digests. MCP server setup, webhook configuration, and cron patterns for development teams.
 category: integrations
 tags: [hermes-agent, integration, slack, github, pr-notifications, issue-tracking, deployment, devops, webhooks]

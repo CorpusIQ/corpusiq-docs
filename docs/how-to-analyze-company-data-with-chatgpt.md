@@ -1,5 +1,5 @@
 ---
-title: "How to Analyze Company Data with ChatGPT  --  Complete Guide with CorpusIQ"
+title: "How to Analyze Company Data with ChatGPT"
 description: "Analyze your company data with ChatGPT using CorpusIQ MCP. Sales, finance, marketing, and customer analytics in natural language. Step-by-step guide."
 h1: "How to Analyze Company Data with ChatGPT"
 url: "/docs/how-to-analyze-company-data-with-chatgpt"

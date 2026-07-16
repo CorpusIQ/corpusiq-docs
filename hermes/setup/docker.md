@@ -1,5 +1,5 @@
 ---
-title: Docker Hermes Agent Setup  --  Reproducible Container Deployment Guide
+title: "Docker Hermes Agent Setup"
 description: Deploy Hermes Agent as a Docker container for reproducible AI automation. Docker Compose setup with persistent volumes, MCP server integration, cron persistence, and production checklist. Works on any host.
 category: setup
 tags: [docker, hermes-agent, setup-guide, container, docker-compose, reproducible, cicd, deployment]

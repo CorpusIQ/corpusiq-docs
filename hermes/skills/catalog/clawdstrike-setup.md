@@ -1,5 +1,5 @@
 ---
-title: "Setup Guide: cantinaxyz/clawdstrike — Agent Red-Team Security Testing (486 Installs)"
+title: "cantinaxyz/clawdstrike — Agent Red-Team Security Testing"
 description: "Complete setup guide for clawdstrike: automated vulnerability scanning and security testing for Hermes/OpenClaw agent deployments."
 ---
 

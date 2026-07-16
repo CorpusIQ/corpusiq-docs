@@ -1,5 +1,5 @@
 ---
-title: New June 26, 2026 (Afternoon) — Agenthood 14-Agent Team + Letta AI 24-Skill Harness
+title: "June 26, 2026 (Afternoon) — Agenthood 14-Agent Team"
 description: 38 newly catalogued skills — Agenthood's full AI engineering team (14 specialized agent roles) and Letta Code's complete 24-skill agent harness. Multi-agent architecture, memory systems, and self-improving agent infrastructure.
 ---
 

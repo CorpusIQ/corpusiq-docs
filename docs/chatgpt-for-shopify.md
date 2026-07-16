@@ -1,8 +1,7 @@
 ---
-title: 'ChatGPT for Shopify: AI-Powered Ecommerce Analytics & Management | CorpusIQ'
+title: "ChatGPT for Shopify -- AI Ecommerce Analytics & Management"
 url: /docs/chatgpt-for-shopify
 h1: 'ChatGPT for Shopify: Your AI-Powered Ecommerce Command Center'
-title: ChatGPT for Shopify  --  AI Ecommerce Analytics & Management | CorpusIQ
 description: Connect ChatGPT directly to your Shopify store via CorpusIQ MCP. Ask questions about sales, orders, customers, products, and inventory in plain English  --  get real-time answers from live
   data.
 keywords:

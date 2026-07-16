@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent for Mid-Market | Multi-Team AI Automation & Orchestration"
+title: "Hermes Agent for Mid-Market"
 description: "Deploy cross-department AI automation for mid-market companies (50-500 employees). Marketing, sales, finance, and CS profiles with approval workflows and shared infrastructure."
 category: "Company Size"
 tags:

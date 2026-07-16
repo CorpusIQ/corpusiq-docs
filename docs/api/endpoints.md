@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ API Endpoints Reference  --  Full Request/Response Schemas"
+title: "CorpusIQ API Endpoints Reference"
 description: "Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search, DELETE /delete_my_data documentation."
 category: "API Reference"
 tags: ["corpusiq endpoints", "api reference", "query api", "deep search", "rest api", "api schemas", "api examples"]

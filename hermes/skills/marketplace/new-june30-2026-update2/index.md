@@ -1,5 +1,5 @@
 ---
-title: "🆕 June 30, 2026 (Update 2) — xurl X/Twitter, TimesFM Forecasting, ClawSec Security Suite"
+title: "June 30, 2026 (Update 2) — xurl X/Twitter"
 description: "12 additional Hermes-relevant skills discovered June 30, 2026 evening sweep: xurl (X/Twitter from Nous Research), TimesFM forecasting (Google), and 10 ClawSec security skills for the OpenClaw ecosystem."
 ---
 

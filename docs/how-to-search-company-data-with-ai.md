@@ -1,5 +1,5 @@
 ---
-title: "How to Search Company Data with AI  --  Natural Language Business Search Guide"
+title: "How to Search Company Data with AI"
 description: "Search your company's data with AI using CorpusIQ MCP. Natural language queries across CRM, accounting, analytics, and more. Step-by-step guide."
 h1: "How to Search Company Data with AI"
 url: "/docs/how-to-search-company-data-with-ai"

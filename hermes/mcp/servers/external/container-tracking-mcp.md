@@ -1,5 +1,5 @@
 ---
-title: "Container Tracking MCP — Ocean Freight Visibility for AI Agents"
+title: "Container Tracking MCP — Ocean Freight Visibility"
 description: "Track ocean containers across 200+ shipping lines by container number, bill of lading, or booking reference. Live milestones, vessel positions, and supply chain visibility from any MCP client."
 category: mcp
 tags: [mcp-server, logistics, shipping, supply-chain, container-tracking, ocean-freight]

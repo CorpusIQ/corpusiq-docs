@@ -1,5 +1,5 @@
 ---
-title: "Google Maps Email Extractor — Maps-to-Leads Pipeline for AI Agents"
+title: "Google Maps Email Extractor — Maps-to-Leads Pipeline"
 description: "Search businesses on Google Maps and extract verified contact emails for outreach. Turn any Google Maps search into a qualified lead list with verified email addresses — directly from AI agents."
 category: mcp
 tags: [mcp-server, lead-generation, google-maps, email-extraction, sales, outreach, prospecting, business-intelligence]

@@ -1,5 +1,5 @@
 ---
-title: Skill Development Guide for Hermes Agent  --  Build Reusable AI Skills
+title: "Skill Development Guide for Hermes Agent"
 description: Complete Hermes Agent skill development guide. SKILL.md anatomy, trigger patterns, verification steps, error recovery, testing methodology, lifecycle management, and publishing. Create production-ready reusable AI agent skills.
 category: best-practices
 tags: [hermes-agent, skill-development, skills, reusable-workflows, testing, triggers, error-handling, publishing]

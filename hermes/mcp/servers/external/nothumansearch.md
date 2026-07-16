@@ -1,5 +1,5 @@
 ---
-title: "Integration Guide: NotHumanSearch — AI Agent Search Engine for Operator Visibility"
+title: "NotHumanSearch — AI Agent Search Engine"
 description: "Connect NotHumanSearch MCP to understand how AI agents discover and rank your business. Optimize for agentic search visibility."
 category: mcp
 tags: [mcp, geo, ai-search, agentic-seo, nothumansearch, visibility]

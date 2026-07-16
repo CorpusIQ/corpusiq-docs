@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Real Estate Automation | Listing Management & Lead Routing AI"
+title: "Hermes Agent Real Estate Automation"
 description: "Automate property listing syndication, lead qualification, showing coordination, and transaction management with Hermes Agent AI workflows for real estate."
 category: "Case Study"
 tags:

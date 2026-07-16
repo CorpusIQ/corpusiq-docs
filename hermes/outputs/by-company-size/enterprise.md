@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent for Enterprise | AI Automation Security, Scale & Governance"
+title: "Hermes Agent for Enterprise"
 description: "Deploy Hermes Agent AI automation at enterprise scale with SOC 2 compliance, multi-region data residency, segregation of duties, and immutable audit logging."
 category: "Company Size"
 tags:

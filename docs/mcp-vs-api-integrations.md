@@ -1,5 +1,5 @@
 ---
-title: "MCP vs API Integrations: AI-Native Tool Discovery vs Custom Code | CorpusIQ"
+title: "MCP vs API Integrations: Tool Discovery vs Custom Code"
 description: "Compare MCP servers vs traditional API integrations. MCP offers automatic AI tool discovery, structured responses, and zero custom code versus manual REST API endpoints that require custom development for every integration."
 category: MCP Education
 tags: ["MCP vs API", "AI-native integration", "tool discovery AI", "no-code AI data connector", "REST API vs MCP", "connect apps to AI"]

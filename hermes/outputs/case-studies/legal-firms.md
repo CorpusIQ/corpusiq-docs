@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Legal Automation | Case Research & Document Review AI for Law Firms"
+title: "Hermes Agent Legal Automation"
 description: "Automate case research, document review, billing compliance, deadline tracking, and conflict checking with Hermes Agent AI workflows for legal firms."
 category: "Case Study"
 tags:

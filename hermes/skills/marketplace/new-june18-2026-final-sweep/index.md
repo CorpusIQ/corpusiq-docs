@@ -1,5 +1,5 @@
 ---
-title: New Skills  --  June 18, 2026 (Final Sweep  --  OpenClaw Extensions)
+title: "New Skills"
 description: 8 newly discovered skills from aradotso/hermes-skills  --  QQ bot, MemX memory plugin, executive assistant suite, and agent building tutorial. Final sweep of the day.
 ---
 

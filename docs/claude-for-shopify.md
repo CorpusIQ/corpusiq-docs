@@ -1,7 +1,7 @@
 ---
+title: "Claude for Shopify -- Advanced Ecommerce AI Analysis"
 url: /docs/claude-for-shopify
 h1: 'Claude for Shopify: Deep Ecommerce Intelligence with Anthropic''s AI'
-title: Claude for Shopify  --  Advanced Ecommerce AI Analysis | CorpusIQ
 description: Use Anthropic's Claude with Shopify via CorpusIQ MCP. Extended context window enables comprehensive sales analysis, customer lifetime value modeling, product portfolio optimization, and
   inventory forecasting.
 keywords:

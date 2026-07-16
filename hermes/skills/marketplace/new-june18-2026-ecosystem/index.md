@@ -1,5 +1,5 @@
 ---
-title: New Skills  --  June 18, 2026 (Ecosystem Tools  --  Honcho + GBrain)
+title: "New Skills"
 description: 12 newly catalogued Hermes ecosystem skills from plastic-labs/honcho (memory/context) and garrytan/gbrain (agent brain operations)  --  essential infrastructure for production Hermes agents.
 ---
 
