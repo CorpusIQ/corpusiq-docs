@@ -1,55 +1,12 @@
 {
-  "run_time": "2026-07-17T05:05:45.101113+00:00",
-  "new_approved": [
-    {
-      "name": "zcweah1981/awesome-hermes-agent-zh",
-      "url": "https://github.com/zcweah1981/awesome-hermes-agent-zh",
-      "description": "Hermes Agent\u4e2d\u6587\u7ad9- \u4e2d\u6587\u5b9e\u6218\u5165\u53e3\uff1a\u4e0a\u624b\u8def\u5f84\u3001\u56fd\u5185\u843d\u5730\u3001OpenClaw \u5171\u5b58\u8fc1\u79fb\u3001\u6392\u969c\u53c2\u8003\u4e0e\u53ef\u4e0b\u8f7d\u65b9\u6848\u5305\u3002",
-      "stars": 37,
-      "forks": 6,
-      "language": "Python",
-      "topics": [
-        "agent",
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "ai-workflow",
-        "chinese-docs",
-        "deepseek",
-        "hermes",
-        "hermes-agent",
-        "hermes-skill",
-        "hermes-zh",
-        "mcp",
-        "multi-agent",
-        "openclaw",
-        "openclaw-agent",
-        "qwen"
-      ],
-      "updated_at": "2026-07-17T05:00:00Z",
-      "category": "core",
-      "score": 70,
-      "tier": "AUTO_APPROVE",
-      "score_reasons": [
-        "direct_hermes_reference",
-        "agent_ecosystem",
-        "some_stars_10+",
-        "active_week",
-        "has_homepage"
-      ],
-      "near_duplicates": [
-        "awesome-hermes-agent"
-      ],
-      "discovered_at": "2026-07-17T05:03:07.486431+00:00",
-      "status": "approved",
-      "approved_at": "2026-07-17T05:05:45.081994+00:00"
-    }
-  ],
+  "run_time": "2026-07-17T08:07:44.521419+00:00",
+  "new_approved": [],
   "stats": {
-    "total_found": 16,
+    "total_found": 9,
     "auto_approved": 1,
-    "pending_review": 15,
+    "pending_review": 8,
     "total_approved": 146,
-    "total_pending": 684
-  }
+    "total_pending": 700
+  },
+  "auto_approved": 0
 }

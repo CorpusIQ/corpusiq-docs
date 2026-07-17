@@ -4967,5 +4967,68 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-17T07:06:56.728655+00:00"
+  },
+  {
+    "repo": "nludd25/hermes-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T08:07:44.511209+00:00"
+  },
+  {
+    "repo": "mikolaj92/hermes-plugin-oss-repo-agent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T08:07:44.511211+00:00"
+  },
+  {
+    "repo": "dryvist/ansible-proxmox-ai",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T08:07:44.511212+00:00"
+  },
+  {
+    "repo": "machjesusmoto/hermes-desk",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T08:07:44.511213+00:00"
+  },
+  {
+    "repo": "Neo-Isshin/open-nova",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T08:07:44.511214+00:00"
+  },
+  {
+    "repo": "yourconscience/dotagents",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T08:07:44.511215+00:00"
+  },
+  {
+    "repo": "CorpusIQ/corpusiq-docs",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-17T08:07:44.511216+00:00"
+  },
+  {
+    "repo": "utrobinmv/hermes-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T08:07:44.511217+00:00"
+  },
+  {
+    "repo": "EndeavorYen/hermes-agent",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T08:07:44.511218+00:00"
   }
 ]
