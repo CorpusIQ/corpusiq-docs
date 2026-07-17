@@ -290,4 +290,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 - [🆕 June 30, 2026 — OpenClaw Ecosystem Expansion, HermesPet, MCP Dev Toolkit (14 repos, 24 skills)](/docs/hermes/skills/marketplace/new-june30-2026/index.html)
 - [🆕 June 30, 2026 (Update) — Matt Pocock Engineering Skills + OpenClaw Loader](/docs/hermes/skills/marketplace/new-june30-2026-update/index.html)
 - [🆕 June 30, 2026 (Update 2) — xurl X/Twitter, TimesFM Forecasting, ClawSec Security Suite](/docs/hermes/skills/marketplace/new-june30-2026-update2/index.html)
+- [🆕 July 17, 2026 — find-skills (2.5M⭐), skill-creator (317K⭐), remotion-best-practices (430K⭐), browser-act (99K⭐), firecrawl-workflows (120K⭐)](/docs/hermes/skills/marketplace/new-july17-2026/index.html)
+- [July 16, 2026 — agent-browser (38K⭐), Vercel Agent Skills (29K⭐), Apify Agent Skills (2.2K⭐), ClawFu Skills (134⭐)](/docs/hermes/skills/marketplace/new-july16-2026/index.html)
+- [July 15, 2026 (Supplement) — OpenClaw Ecosystem: 5 New Skills](/docs/hermes/skills/marketplace/new-july15-2026-update/index.html)
 - [New June9 2026](/docs/hermes/skills/marketplace/new-june9-2026/index.html)

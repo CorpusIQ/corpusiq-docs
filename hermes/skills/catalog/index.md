@@ -171,6 +171,11 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 
 ## All Skills Catalog Pages
 
+- [find-skills — Skill Discovery Tool Setup](/docs/hermes/skills/catalog/find-skills-setup.html)
+- [skill-creator — Anthropic's Skill Creation Framework Setup](/docs/hermes/skills/catalog/skill-creator-setup.html)
+- [remotion-best-practices — Video Production Setup](/docs/hermes/skills/catalog/remotion-best-practices-setup.html)
+- [browser-act — Record-and-Replay Browser Automation Setup](/docs/hermes/skills/catalog/browser-act-setup.html)
+- [firecrawl-workflows — Growth & Research Automation Setup](/docs/hermes/skills/catalog/firecrawl-workflows-setup.html)
 - [Agent Browser — Vercel Labs CLI for AI Agents Setup](/docs/hermes/skills/catalog/agent-browser-setup.html)
 - [Agent Flywheel Mega-Toolkit Setup Guide](/docs/hermes/skills/catalog/agent-flywheel-setup.html)
 - [agent-sessions — macOS Agent Session Browser Setup](/docs/hermes/skills/catalog/agent-sessions-setup.html)
