@@ -27,16 +27,24 @@ HPSILab is an institutional-grade quantitative finance MCP server. It gives AI a
 ## Quick Start
 
 ```bash
-# Add to Hermes (URL-based if available via mcp.so)
-hermes mcp add hpsilab --url https://api.hpsilab.com/mcp
+# Via PyPI (simplest)
+pip install hpsilab-mcp
 
-# Or local install (if GitHub repo becomes available)
-git clone https://github.com/HPSILab/options-analytics-mcp.git
-cd options-analytics-mcp
-pip install -r requirements.txt
+# Or from GitHub
+git clone https://github.com/haiyunsky/hpsilab-quant-finance-mcp.git
+cd hpsilab-quant-finance-mcp
+pip install .
+cp env.example .env
+# edit .env and set HPSILAB_API_KEY=***
 
-hermes mcp add hpsilab --command "python" --args "server.py" --workdir "$(pwd)"
+# Run the MCP server
+hpsilab-quant-finance-mcp
+
+# Add to Hermes
+hermes mcp add hpsilab --command "hpsilab-quant-finance-mcp"
 ```
+
+See also: [PyPI package](https://pypi.org/project/hpsilab-mcp/) | [Official site](https://hpsilab.com)
 
 ## Business Use Cases
 
