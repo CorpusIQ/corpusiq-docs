@@ -1,6 +1,6 @@
 ---
 title: "Hermes Skills Catalog — Quality-Tiered Directory"
-description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 449+ skills catalogued."
+description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 454+ skills catalogued."
 ---
 
 # Skills Catalog
@@ -316,3 +316,8 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [X Twitter Scraper Setup](/docs/hermes/skills/catalog/x-twitter-scraper-setup.html)
 - [Xurl Setup](/docs/hermes/skills/catalog/xurl-setup/index.html)
 - [Youtube Content Setup](/docs/hermes/skills/catalog/youtube-content-setup.html)
+- [AI Video Generation — Script-to-Video Pipeline Setup](/docs/hermes/skills/catalog/ai-video-generation-setup.html)
+- [marketingskills — Complete Marketing Suite Setup (160K+ installs)](/docs/hermes/skills/catalog/marketingskills-setup.html)
+- [rigorpilot-skills — AI Research & Reproduction Setup](/docs/hermes/skills/catalog/rigorpilot-skills-setup.html)
+- [taste-skill — Design-to-Code & AI Image Gen Setup](/docs/hermes/skills/catalog/taste-skill-setup.html)
+- [web-quality-skills — Google-Grade Web Quality Audits Setup](/docs/hermes/skills/catalog/web-quality-skills-setup.html)
