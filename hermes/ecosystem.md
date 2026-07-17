@@ -1,12 +1,12 @@
 ---
 title: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem — 140+ repos, tools, skills, and integrations
-last_updated: 2026-07-15
+last_updated: 2026-07-16
 ---
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **141+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **142+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
 > **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome.
 
@@ -15,7 +15,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **141+ reposit
 | Category | Repos | Description |
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
-| 🧠 Core Framework | 4 | Core Hermes Agent repos, official builds |
+| 🧠 Core Framework | 5 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 9 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 4 | Community forks with significant changes |
 | 🔗 Integrations | 2 | Platform connectors, bridges, adapters |
@@ -76,6 +76,14 @@ _Core Hermes Agent repos, official builds_
 >The Orchestrator for AI Agents — Connect OpenClaw, Hermes Agent, Claude Code, Codex, Cursor, Gemini CLI, OpenCode, and Pi. Pool their knowledge, delegate tasks, and build your swarm of agents.
 
 **Language:** TypeScript | **Topics:** agent-skills, agentic-ai, agentic-workflow, ai, ai-agents | **Score:** 72/100
+
+---
+
+### [zcweah1981/awesome-hermes-agent-zh](https://github.com/zcweah1981/awesome-hermes-agent-zh) ⭐ 37
+
+>Hermes Agent中文站 — 中文实战入口：上手路径、国内落地、OpenClaw 共存迁移、排障参考与可下载方案包。
+
+**Language:** Python | **Topics:** agent, ai, ai-agent, chinese-docs, deepseek, hermes, hermes-agent, hermes-skill, mcp, multi-agent, openclaw, qwen | **Score:** 70/100
 
 ---
 

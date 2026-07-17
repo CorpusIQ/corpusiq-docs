@@ -4799,5 +4799,117 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-16T08:07:36.516020+00:00"
+  },
+  {
+    "repo": "FreeMark/resonant-lattice-memory",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T05:05:45.082014+00:00"
+  },
+  {
+    "repo": "smoermeow/artcraft-mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T05:05:45.082017+00:00"
+  },
+  {
+    "repo": "TANISHKA0509/NMG-Forde-edition-2-project",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T05:05:45.082019+00:00"
+  },
+  {
+    "repo": "zcweah1981/awesome-hermes-agent-zh",
+    "score": 70,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-17T05:05:45.082021+00:00"
+  },
+  {
+    "repo": "superkrist/hermes_blog",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T05:05:45.082023+00:00"
+  },
+  {
+    "repo": "btnalit/Hermes-Memory-OS",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T05:05:45.082024+00:00"
+  },
+  {
+    "repo": "sushiHex/hardline-mcp",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T05:05:45.082026+00:00"
+  },
+  {
+    "repo": "iknowkungfubar/small-model-harness",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T05:05:45.082028+00:00"
+  },
+  {
+    "repo": "schaedler6/hermes-agent-hub",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T05:05:45.082030+00:00"
+  },
+  {
+    "repo": "simeon-kepp/hermes-agent-bundle",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T05:05:45.082031+00:00"
+  },
+  {
+    "repo": "simeon-kepp/hermes-bundle",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T05:05:45.082033+00:00"
+  },
+  {
+    "repo": "simeon-kepp/hermes-setup",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T05:05:45.082035+00:00"
+  },
+  {
+    "repo": "leonluo2008-ops/obsidian-hermes-plugin",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T05:05:45.082037+00:00"
+  },
+  {
+    "repo": "Ahlnos-Inc/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T05:05:45.082038+00:00"
+  },
+  {
+    "repo": "TANISHKA0509/NMG-Forge-edition-2-project",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T05:05:45.082040+00:00"
+  },
+  {
+    "repo": "alfredang/hermes-video-pipeline",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-17T05:05:45.082042+00:00"
   }
 ]

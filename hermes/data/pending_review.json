@@ -19008,5 +19008,393 @@
     ],
     "discovered_at": "2026-07-16T08:07:07.253224+00:00",
     "status": "pending"
+  },
+  {
+    "name": "FreeMark/resonant-lattice-memory",
+    "url": "https://github.com/FreeMark/resonant-lattice-memory",
+    "description": "Reverse engineered my brain, made it work with hermes-agent, also grok coding agent. More to come, have your ai set it up for itself.",
+    "stars": 4,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-17T05:01:54Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "smfworks/smf-notebooklm-video-pipeline"
+    ],
+    "discovered_at": "2026-07-17T05:03:01.479234+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "smoermeow/artcraft-mcp",
+    "url": "https://github.com/smoermeow/artcraft-mcp",
+    "description": "ArtCraft subscription MCP server built for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "artcraft",
+      "hermes-agent",
+      "image-generation",
+      "mcp",
+      "video-generation"
+    ],
+    "updated_at": "2026-07-17T05:01:07Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-17T05:03:03.481896+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "TANISHKA0509/NMG-Forde-edition-2-project",
+    "url": "https://github.com/TANISHKA0509/NMG-Forde-edition-2-project",
+    "description": "AI-powered Trello-like Kanban board built with Laravel, React, Hermes, and OpenClaw to demonstrate multi-agent software development workflows.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Blade",
+    "topics": [],
+    "updated_at": "2026-07-17T05:00:35Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-17T05:03:05.484275+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "superkrist/hermes_blog",
+    "url": "https://github.com/superkrist/hermes_blog",
+    "description": "Hermes Agent \u4e2a\u4eba\u535a\u5ba2 - Hugo + GitHub Pages",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-17T04:58:23Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-17T05:03:09.488635+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "btnalit/Hermes-Memory-OS",
+    "url": "https://github.com/btnalit/Hermes-Memory-OS",
+    "description": "An engineering-focused Agent OS runtime for Hermes Agent. Features dual-engine memory (SQLite + Flat files), deterministic state machine locks to prevent model drift, and temporal-decay weighted retrieval for long-term autonomous operations.",
+    "stars": 8,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "autonomous-agents",
+      "hermes-agent-plugin",
+      "llm-memory",
+      "long-term-memory",
+      "state-machine"
+    ],
+    "updated_at": "2026-07-17T04:58:23Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "itsXactlY/mazemaker",
+      "Lethe044/hermes-incident-commander",
+      "zakahadi/llm-eval-cli",
+      "anomaliagent007-hue/hermes-mimo-bridge"
+    ],
+    "discovered_at": "2026-07-17T05:03:11.490861+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sushiHex/hardline-mcp",
+    "url": "https://github.com/sushiHex/hardline-mcp",
+    "description": "MCP server that lets local Claude Code, Hermes, and Codex agents message each other \u2014 durable SQLite mailbox + live-ask bridges.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "claude",
+      "codex",
+      "mcp",
+      "model-context-protocol"
+    ],
+    "updated_at": "2026-07-17T02:34:39Z",
+    "category": "mcp",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "codejunkie99/agentic-stack",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "yoloshii/ClawMem",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "mlennie/hermes-mcp",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-07-17T05:03:20.424900+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "iknowkungfubar/small-model-harness",
+    "url": "https://github.com/iknowkungfubar/small-model-harness",
+    "description": "Defensive harness for 1B-12B local LLMs in production agentic workflows. 5-layer architecture: routing, validation, constraint, circuit break, context management. Hermes plugin + MCP server.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-17T02:02:39Z",
+    "category": "mcp",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Sibyl-Labs/Sibyl-Memory"
+    ],
+    "discovered_at": "2026-07-17T05:03:22.427591+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "schaedler6/hermes-agent-hub",
+    "url": "https://github.com/schaedler6/hermes-agent-hub",
+    "description": "A local-first dashboard to discover, validate and securely manage AI agents, Agent Skills and plugins on Windows.",
+    "stars": 0,
+    "forks": 0,
+    "language": "PowerShell",
+    "topics": [],
+    "updated_at": "2026-07-17T04:32:22Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "yang1989haoa-gif/synapse-studio",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334"
+    ],
+    "discovered_at": "2026-07-17T05:03:31.400835+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "simeon-kepp/hermes-agent-bundle",
+    "url": "https://github.com/simeon-kepp/hermes-agent-bundle",
+    "description": "Simeon's 1:1 Hermes Agent bundle \u2014 skills, plugins, portable config. No secrets.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-16T17:12:13Z",
+    "category": "skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-17T05:03:33.404060+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "simeon-kepp/hermes-bundle",
+    "url": "https://github.com/simeon-kepp/hermes-bundle",
+    "description": "Simeon's 1:1 Hermes Agent bundle (skills, plugins, portable config \u2014 no secrets)",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-16T17:04:33Z",
+    "category": "skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-17T05:03:35.407544+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "simeon-kepp/hermes-setup",
+    "url": "https://github.com/simeon-kepp/hermes-setup",
+    "description": "Simeon's 1:1 Hermes Agent bundle \u2014 skills, plugins, portable config (no secrets)",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-16T17:00:16Z",
+    "category": "skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-17T05:03:37.410931+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "leonluo2008-ops/obsidian-hermes-plugin",
+    "url": "https://github.com/leonluo2008-ops/obsidian-hermes-plugin",
+    "description": "Hermes Agent skill for installing and configuring the jsun2020 Obsidian plugin",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-16T09:08:02Z",
+    "category": "skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "verkyyi/agentfeeds-hermes-plugin"
+    ],
+    "discovered_at": "2026-07-17T05:03:39.414040+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Ahlnos-Inc/hermes-agent",
+    "url": "https://github.com/Ahlnos-Inc/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-17T05:02:48Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-17T05:03:48.452024+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "TANISHKA0509/NMG-Forge-edition-2-project",
+    "url": "https://github.com/TANISHKA0509/NMG-Forge-edition-2-project",
+    "description": "AI-powered Trello-like Kanban board built with Laravel, React, Hermes, and OpenClaw to demonstrate multi-agent software development workflows.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Blade",
+    "topics": [],
+    "updated_at": "2026-07-17T05:03:07Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-17T05:03:50.455338+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "alfredang/hermes-video-pipeline",
+    "url": "https://github.com/alfredang/hermes-video-pipeline",
+    "description": "Automated YouTube video production pipeline for Tertiary Courses \u2014 topic requests from a web form trigger a Hermes Agent webhook that researches, scripts, renders (Manim/HyperFrames), verifies, and publishes videos autonomously.",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [
+      "ai-agents",
+      "hermes-agent",
+      "manim",
+      "nodejs",
+      "video-pipeline",
+      "webhook",
+      "youtube-automation"
+    ],
+    "updated_at": "2026-07-16T17:23:07Z",
+    "category": "production",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "mlennie/hermes-mcp",
+      "crispyb0i/hermes-operator-pack"
+    ],
+    "discovered_at": "2026-07-17T05:04:55.332154+00:00",
+    "status": "pending"
   }
 ]

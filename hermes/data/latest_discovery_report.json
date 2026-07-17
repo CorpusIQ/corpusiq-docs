@@ -1,61 +1,55 @@
 {
-  "run_time": "2026-07-15T14:06:39.603988+00:00",
+  "run_time": "2026-07-17T05:05:45.101113+00:00",
   "new_approved": [
     {
-      "name": "agent-of-empires/agent-of-empires",
-      "url": "https://github.com/agent-of-empires/agent-of-empires",
-      "description": "Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding.",
-      "stars": 2816,
-      "forks": 265,
-      "language": "Rust",
+      "name": "zcweah1981/awesome-hermes-agent-zh",
+      "url": "https://github.com/zcweah1981/awesome-hermes-agent-zh",
+      "description": "Hermes Agent\u4e2d\u6587\u7ad9- \u4e2d\u6587\u5b9e\u6218\u5165\u53e3\uff1a\u4e0a\u624b\u8def\u5f84\u3001\u56fd\u5185\u843d\u5730\u3001OpenClaw \u5171\u5b58\u8fc1\u79fb\u3001\u6392\u969c\u53c2\u8003\u4e0e\u53ef\u4e0b\u8f7d\u65b9\u6848\u5305\u3002",
+      "stars": 37,
+      "forks": 6,
+      "language": "Python",
       "topics": [
-        "ai-coding",
-        "claude",
-        "claude-code",
-        "cli",
-        "codex",
-        "cursor",
-        "factory-droid-cli",
-        "gemini",
-        "gemini-cli",
-        "github-copilot-cli",
+        "agent",
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "ai-workflow",
+        "chinese-docs",
+        "deepseek",
+        "hermes",
         "hermes-agent",
-        "llm",
-        "mistral-vibe",
-        "opencode",
-        "orchestrator",
-        "pi",
-        "terminal",
-        "tmux",
-        "vibe",
-        "vibe-coding"
+        "hermes-skill",
+        "hermes-zh",
+        "mcp",
+        "multi-agent",
+        "openclaw",
+        "openclaw-agent",
+        "qwen"
       ],
-      "updated_at": "2026-07-15T14:01:42Z",
-      "category": "forks",
-      "score": 72,
+      "updated_at": "2026-07-17T05:00:00Z",
+      "category": "core",
+      "score": 70,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
-        "hermes_topic",
-        "high_stars_1000+",
-        "detailed_description",
+        "direct_hermes_reference",
+        "agent_ecosystem",
+        "some_stars_10+",
         "active_week",
         "has_homepage"
       ],
       "near_duplicates": [
-        "tale-project/tale",
-        "AVIDS2/memorix",
-        "ruvnet/metaharness"
+        "awesome-hermes-agent"
       ],
-      "discovered_at": "2026-07-15T14:04:41.365807+00:00",
+      "discovered_at": "2026-07-17T05:03:07.486431+00:00",
       "status": "approved",
-      "approved_at": "2026-07-15T14:06:39.594525+00:00"
+      "approved_at": "2026-07-17T05:05:45.081994+00:00"
     }
   ],
   "stats": {
     "total_found": 16,
     "auto_approved": 1,
     "pending_review": 15,
-    "total_approved": 145,
-    "total_pending": 636
+    "total_approved": 146,
+    "total_pending": 684
   }
 }
