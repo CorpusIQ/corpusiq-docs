@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 The most comprehensive directory of Hermes Agent resources in existence. 450+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** July 14, 2026 · **Repos indexed:** 450+ · **Categories:** 18
+> **Last updated:** July 17, 2026 · **Repos indexed:** 409+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -3006,6 +3006,16 @@ AI companies compete for stars. Competitive multi-agent arena for testing agent 
 
 ---
 
+### agent-of-empires/agent-of-empires
+⭐ **2,816** · `Rust` · [github.com/agent-of-empires/agent-of-empires](https://github.com/agent-of-empires/agent-of-empires)
+
+Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Multi-agent orchestrator supporting Hermes Agent, Claude Code, Codex CLI, Gemini CLI, Mistral Vibe, Copilot CLI, and Pi.dev — unified interface for managing coding agents across providers.
+
+**Key capabilities:** Multi-agent orchestration, TUI + Web UI, cross-provider support, Hermes-compatible, mobile-ready, task management
+**Related:** [Orchestration →](#-orchestration-multi-agent--swarms)
+
+---
+
 ### supermodeltools/bigiron
 ⭐ **community** · `Python` · [github.com/supermodeltools/bigiron](https://github.com/supermodeltools/bigiron)
 
@@ -3950,7 +3960,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 408 |
+| Total repos indexed | 409 |
 | Categories | 18 |
 | Official Nous Research repos | 4 |
 | Community awesome lists | 21 |
@@ -4027,7 +4037,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 286 repos · 18 categories · 1M+ community stars · 48 skill collections · 20 MCP integrations · 15 domain applications
+> **📊 Ecosystem Stats:** 409 repos · 18 categories · 1M+ community stars · 48 skill collections · 20 MCP integrations · 15 domain applications
 
 ---
 
@@ -4035,7 +4045,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence  --  **286+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence  --  **409+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 

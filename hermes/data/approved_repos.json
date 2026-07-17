@@ -4191,49 +4191,6 @@
     "approved_at": "2026-07-14T08:09:52.606953+00:00"
   },
   {
-    "name": "CorpusIQ/corpusiq-docs",
-    "url": "https://github.com/CorpusIQ/corpusiq-docs",
-    "description": "Hermes Agent Production Knowledge Repository \u2014 406+ repos, AI Agent Marketplace, MCP servers, autonomous AI agent patterns. Production-tested from 1,200+ hours of ops. Updated daily.",
-    "stars": 12,
-    "forks": 5,
-    "language": "HTML",
-    "topics": [
-      "agent-skills",
-      "ai-agents",
-      "awesome-mcp",
-      "business-ai",
-      "business-intelligence",
-      "claude-code",
-      "corpusiq",
-      "hermes-agent",
-      "mcp",
-      "mcp-server",
-      "nous-research",
-      "skills-marketplace"
-    ],
-    "updated_at": "2026-07-15T03:10:49Z",
-    "category": "mcp",
-    "score": 75,
-    "tier": "AUTO_APPROVE",
-    "score_reasons": [
-      "direct_hermes_reference",
-      "agent_ecosystem",
-      "some_stars_10+",
-      "detailed_description",
-      "active_week",
-      "has_homepage"
-    ],
-    "near_duplicates": [
-      "longyunfeigu/learn-hermes-agent",
-      "crispyb0i/hermes-operator-pack",
-      "BBridgeers/hermes-skills",
-      "anomaliagent007-hue/hermes-mimo-bridge"
-    ],
-    "discovered_at": "2026-07-15T05:08:53.774409+00:00",
-    "status": "approved",
-    "approved_at": "2026-07-15T05:11:15.247343+00:00"
-  },
-  {
     "name": "agent-of-empires/agent-of-empires",
     "url": "https://github.com/agent-of-empires/agent-of-empires",
     "description": "Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding.",
