@@ -17,6 +17,7 @@ be copied, adapted, and run directly against your CorpusIQ MCP instance.
 
 | Recipe | Connectors | Use Case |
 |--------|-----------|----------|
+| [AI Agent MCP Setup](ai-agent-mcp-setup.md) | Any | Connect CorpusIQ to Claude Code, Cursor, Hermes, and other AI coding agents |
 | [Weekly Ad ROI Report](weekly-ad-roi-report.md) | Google Ads, Meta Ads, GA4 | Cross-source weekly advertising ROI |
 | [Shopify-QuickBooks Reconciliation](shopify-quickbooks-reconciliation.md) | Shopify, QuickBooks | Daily sales vs invoice reconciliation |
 | [HubSpot-Klaviyo Pipeline](hubspot-klaviyo-pipeline.md) | HubSpot, Klaviyo | Deal pipeline correlated with email engagement |

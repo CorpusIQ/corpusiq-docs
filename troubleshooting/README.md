@@ -1,10 +1,13 @@
 # Troubleshooting
 
-Five pages for the most common things that go sideways.
+Six pages for the most common things that go sideways.
 
 - [error-codes-reference.md](error-codes-reference.md) — Error codes,
   messages, and fixes organized by type (auth, rate limit, timeout, vendor).
   Start here if you see an error.
+- [mcp-connection-errors.md](mcp-connection-errors.md) — "My MCP client
+  can't connect to CorpusIQ." Covers connection refused, 401 unauthorized,
+  OAuth device login, tool-not-found, timeout, and rate limit errors.
 - [connector-auth-failed.md](connector-auth-failed.md) — "I tried to
   connect Shopify and it failed."
 - [connector-shows-no-data.md](connector-shows-no-data.md) — "It says
