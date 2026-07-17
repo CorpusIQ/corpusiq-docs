@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 16, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 17, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -43,6 +43,9 @@ MCP Server for CarDossier Poland Market API — real-time used car market data: 
 
 ### Chuhching ★ New
 Financial data integration platform. Provides AI agents with structured financial information.
+
+### Mercury MCP ★★★ Official (Beta) — New July 17
+Official Mercury banking MCP server. Read-only access to accounts, transactions, balances, and cards via OAuth 2.0 + Dynamic Client Registration (RFC 7591). Hosted at `https://mcp.mercury.com/mcp`. First banking platform to ship an official MCP server — landmark for fintech MCP adoption. Sessions last 3 days. [Full integration guide →](/hermes/mcp/servers/external/mercury-mcp/)
 
 ### DDG Agent Payable Services MCP ★ New
 Agent payable services and micropayments via the DuckDuckGo agent ecosystem. Enables AI agents to transact with small-value payments.
@@ -987,6 +990,9 @@ MCP server for AI agent data flow orchestration. Connect AI agents to data pipel
 ---
 
 ## Productivity
+
+### Asana MCP V2 ★★★ Official — New July 17
+Official Asana project management MCP V2 server. Tasks, projects, and workspaces via OAuth 2.0. Hosted at `https://mcp.asana.com/v2/mcp`. Requires pre-registered OAuth app credentials. Joins Atlassian (Jira/Confluence), Linear, and Notion in the PM MCP ecosystem. Claude Code has native OAuth support; other clients use `mcp-remote`. [Full integration guide →](/hermes/mcp/servers/external/asana-mcp/)
 
 ### Founders OS ★ New (July 4)
 Open-source MCP server that puts your whole business inside Claude, Cursor, or any MCP client. Connects CRM, financials, tasks, and long-term memory behind one server, so you can ask a single question that reads across all of them. Example: "Which clients are behind on payments and what tasks do I have with them?" ⭐7. Essential for founders and small business operators who want a unified AI interface to their entire business. `github.com/OurThinkTank/founders-os`

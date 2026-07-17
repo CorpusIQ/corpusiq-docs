@@ -17,13 +17,15 @@ last_updated: 2026-07-17
 
 Both sources remain accessible via curl text-stripping from SPA payloads. Cross-referenced all candidates against the existing catalog (index.md + 100+ guide files + prior scan reports including July 16).
 
-## New Servers Found: 7 total, 1 guide created
+## New Servers Found: 10 total, 3 guides created
 
-### Guide-Worthy (Major) — Guide Created
+### Guide-Worthy (Major) — Guides Created
 
 | Server | Source | Description | Guide |
 |--------|--------|-------------|-------|
 | **1Password MCP** ★★★ | mcpservers.org | Official 1Password MCP server (beta). Manages 1Password Environments from MCP clients without exposing secrets. Agent orchestrates, 1Password enforces the security boundary. First major secrets-management platform to ship an official MCP server. | [1password-mcp](/hermes/mcp/servers/external/1password-mcp/) |
+| **Mercury MCP** ★★★ | mcp.so | Official Mercury banking MCP (beta). Read-only access to accounts, transactions, balances, and cards via OAuth 2.0 + DCR. First banking platform to ship an official MCP server. | [mercury-mcp](/hermes/mcp/servers/external/mercury-mcp/) |
+| **Asana MCP V2** ★★★ | mcp.so | Official Asana project management MCP V2. Tasks, projects, workspaces via OAuth 2.0. Pre-registration required. Joins Atlassian, Linear, Notion in the PM MCP ecosystem. | [asana-mcp](/hermes/mcp/servers/external/asana-mcp/) |
 
 ### INDEX-ONLY (Niche, Developer-Focused, or Previously Noted)
 
@@ -64,9 +66,11 @@ The 1Password MCP server represents a watershed moment for AI agent infrastructu
 ## Actions Taken
 
 - ✅ 1 integration guide created for 1Password MCP (landmark server)
+- ✅ 1 integration guide created for Mercury MCP (first banking MCP)
+- ✅ 1 integration guide created for Asana MCP V2 (project management)
 - ✅ 3 servers noted as INDEX-ONLY (already covered or too niche)
 - ✅ 3 servers confirmed as previously indexed in July 16 scan
-- ✅ Scan report published
+- ✅ Scan report updated
 
 ---
 
