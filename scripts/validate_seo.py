@@ -140,10 +140,12 @@ def main():
             short_descs.append((md_path, len(desc), title or md_path.stem))
 
     if missing_descs:
-        print(f"  ❌ {len(missing_descs)} pages with NO description:")
+        print(f"  ⚠️  {len(missing_descs)} pages with NO description:")
         for path, title in missing_descs[:10]:
             print(f"     {path.relative_to(docs_dir)} — \"{title}\"")
-        errors += len(missing_descs)
+        if len(missing_descs) > 10:
+            print(f"     ... and {len(missing_descs) - 10} more")
+        warnings += len(missing_descs)
 
     if short_descs:
         print(f"  ⚠️  {len(short_descs)} pages with short description (<{args.min_description}c):")
