@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Connect HPSILab institutional-grade quant finance to Hermes Agent. Black-Scholes options pricing, implied volatility surfaces, Monte Carlo simulations, quantum ML signals, strategy backtesting.">
+        <meta name="description" content="Connect HPSILab institutional-grade quant finance to Hermes Agent. Black-Scholes options pricing, implied volatility surfaces, Monte Carlo simulations">
       
       
       
@@ -18,19 +18,19 @@
         
       
       
-      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <link rel="icon" href="/docs/assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
-      
-        <title>HPSILab Quant Finance MCP — Options Analytics & Monte Carlo - CorpusIQ Docs</title>
-      
+  
+    <title>HPSILab Quant Finance MCP — Options Analytics & Monte Carlo</title>
+  
+
     
-    
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="/docs/assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="/docs/assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,7 +49,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../../stylesheets/extra-v2.css">
+      <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
     <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -58,29 +58,27 @@
     
     
   
-  <!-- Open Graph tags — required for social sharing previews (LinkedIn, X, Facebook) -->
+  
+  
   
     
-      <meta property="og:title" content="HPSILab Quant Finance MCP — Options Analytics & Monte Carlo">
-    
-    
-      <meta property="og:description" content="Connect HPSILab institutional-grade quant finance to Hermes Agent. Black-Scholes options pricing, implied volatility surfaces, Monte Carlo simulations, quantum ML signals, strategy backtesting.">
+  
+  
     
   
+  <!-- Open Graph — LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/hpsilab-quant.html">
   <meta property="og:site_name" content="CorpusIQ Docs">
+  <meta property="og:title" content="HPSILab Quant Finance MCP — Options Analytics & Monte Carlo">
+  <meta property="og:description" content="Connect HPSILab institutional-grade quant finance to Hermes Agent. Black-Scholes options pricing, implied volatility surfaces, Monte Carlo simulations">
+  <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
+  <meta property="og:image:alt" content="CorpusIQ Docs">
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  
-    <meta name="twitter:title" content="HPSILab Quant Finance MCP — Options Analytics & Monte Carlo">
-  
-  
-    <meta name="twitter:description" content="Connect HPSILab institutional-grade quant finance to Hermes Agent. Black-Scholes options pricing, implied volatility surfaces, Monte Carlo simulations, quantum ML signals, strategy backtesting.">
-  
-  <!-- Meta description for SEO crawlers -->
-  
-    <meta name="description" content="Connect HPSILab institutional-grade quant finance to Hermes Agent. Black-Scholes options pricing, implied volatility surfaces, Monte Carlo simulations, quantum ML signals, strategy backtesting.">
-  
+  <meta name="twitter:title" content="HPSILab Quant Finance MCP — Options Analytics & Monte Carlo">
+  <meta name="twitter:description" content="Connect HPSILab institutional-grade quant finance to Hermes Agent. Black-Scholes options pricing, implied volatility surfaces, Monte Carlo simulations">
+  <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
 
   </head>
   
@@ -8168,16 +8166,23 @@
 </tbody>
 </table>
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># Add to Hermes (URL-based if available via mcp.so)</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>hpsilab<span class="w"> </span>--url<span class="w"> </span>https://api.hpsilab.com/mcp
+<div class="highlight"><pre><span></span><code><span class="c1"># Via PyPI (simplest)</span>
+pip<span class="w"> </span>install<span class="w"> </span>hpsilab-mcp
 
-<span class="c1"># Or local install (if GitHub repo becomes available)</span>
-git<span class="w"> </span>clone<span class="w"> </span>https://github.com/HPSILab/options-analytics-mcp.git
-<span class="nb">cd</span><span class="w"> </span>options-analytics-mcp
-pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+<span class="c1"># Or from GitHub</span>
+git<span class="w"> </span>clone<span class="w"> </span>https://github.com/haiyunsky/hpsilab-quant-finance-mcp.git
+<span class="nb">cd</span><span class="w"> </span>hpsilab-quant-finance-mcp
+pip<span class="w"> </span>install<span class="w"> </span>.
+cp<span class="w"> </span>env.example<span class="w"> </span>.env
+<span class="c1"># edit .env and set HPSILAB_API_KEY=***</span>
 
-hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>hpsilab<span class="w"> </span>--command<span class="w"> </span><span class="s2">&quot;python&quot;</span><span class="w"> </span>--args<span class="w"> </span><span class="s2">&quot;server.py&quot;</span><span class="w"> </span>--workdir<span class="w"> </span><span class="s2">&quot;</span><span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span><span class="s2">&quot;</span>
+<span class="c1"># Run the MCP server</span>
+hpsilab-quant-finance-mcp
+
+<span class="c1"># Add to Hermes</span>
+hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>hpsilab<span class="w"> </span>--command<span class="w"> </span><span class="s2">&quot;hpsilab-quant-finance-mcp&quot;</span>
 </code></pre></div>
+<p>See also: <a href="https://pypi.org/project/hpsilab-mcp/">PyPI package</a> | <a href="https://hpsilab.com">Official site</a></p>
 <h2 id="business-use-cases">Business Use Cases<a class="headerlink" href="#business-use-cases" title="Anchor link to this section">&para;</a></h2>
 <ol>
 <li><strong>Options Trading</strong>: Price options, compute Greeks, and visualize volatility surfaces before executing trades</li>
@@ -8297,9 +8302,9 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </s
     
     
   
-      <script src="../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="/docs/assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../../../../javascripts/hermes-nav.js?v=2"></script>
+        <script src="/docs/javascripts/hermes-nav.js?v=2"></script>
       
     
   <script>
