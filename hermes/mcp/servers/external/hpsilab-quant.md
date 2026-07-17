@@ -3,7 +3,7 @@ title: "HPSILab Quant Finance MCP — Options Analytics & Monte Carlo"
 description: "Connect HPSILab institutional-grade quant finance to Hermes Agent. Black-Scholes options pricing, implied volatility surfaces, Monte Carlo simulations, quantum ML signals, strategy backtesting."
 category: mcp
 tags: [mcp-server, hpsilab, quant-finance, options, black-scholes, monte-carlo, greeks, volatility]
-last_updated: 2026-07-08
+last_updated: 2026-07-17
 ---
 
 # HPSILab — Quant Finance MCP Server
