@@ -36,9 +36,9 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 
 ### OpenAPI Specification
 
-- Complete OpenAPI 3.0.3 spec published at `https://api.corpusiq.io/v1/openapi.json`
+- Complete OpenAPI 3.0.3 spec published at `https://mcp2.corpusiq.io/mcp`
 - Importable into Postman, Insomnia, and Swagger UI
-- Interactive documentation at `https://api.corpusiq.io/v1/docs`
+- Interactive documentation at `https://mcp2.corpusiq.io/mcp`
 
 ### Webhooks
 

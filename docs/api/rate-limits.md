@@ -68,7 +68,7 @@ Check `X-RateLimit-Remaining-Minute` before making burst requests. If remaining 
 ```python
 import time
 
-response = requests.post("https://api.corpusiq.io/v1/query", ...)
+response = requests.post("https://mcp2.corpusiq.io/mcp", ...)
 remaining = int(response.headers.get("X-RateLimit-Remaining-Minute", 60))
 
 if remaining < 5:

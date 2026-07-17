@@ -45,33 +45,33 @@ Usage** stats.
 Work that's actively in progress:
 
 - **Reliability hardening** — cutting the long-tail latency on heavy tool calls
-  so big result sets return fast and predictably ([#319](https://github.com/CorpusIQ/multi-source-mcp/issues/319)).
+  so big result sets return fast and predictably.
 - **Stripe read-surface expansion** — deeper payment-intelligence coverage
-  beyond the core reconciliation tools ([#247](https://github.com/CorpusIQ/multi-source-mcp/issues/247)).
+  beyond the core reconciliation tools.
 - **Shopify embedded admin app** — install CorpusIQ directly from the Shopify
-  admin, meeting App Store review requirements ([#226](https://github.com/CorpusIQ/multi-source-mcp/issues/226)).
+  admin, meeting App Store review requirements.
 - **MCP directory listings** — getting CorpusIQ into the Anthropic MCP directory
-  and the official MCP ecosystem registry so it's discoverable ([#216](https://github.com/CorpusIQ/multi-source-mcp/issues/216)).
+  and the official MCP ecosystem registry so it's discoverable.
 
 ## 🗺️ Planned
 
 On the list, not yet started. Upvote the matching Idea to move it up:
 
-- **New connectors** — Zendesk (support ops, [#215](https://github.com/CorpusIQ/multi-source-mcp/issues/215)),
-  Linear (issue tracking, [#214](https://github.com/CorpusIQ/multi-source-mcp/issues/214)).
+- **New connectors** — Zendesk (support ops, #215 ),
+  Linear (issue tracking, #214 ).
 - **HubSpot expansion** — go beyond CRM to deals, marketing, and email
-  sequences ([#210](https://github.com/CorpusIQ/multi-source-mcp/issues/210)).
+  sequences.
 - **Self-hosted deployment** — a run-it-in-your-own-cloud option for
-  privacy-critical customers ([#207](https://github.com/CorpusIQ/multi-source-mcp/issues/207)).
+  privacy-critical customers.
 - **Workflow triggers** — connector-to-connector automation so one event can
-  drive an action across sources ([#206](https://github.com/CorpusIQ/multi-source-mcp/issues/206)).
+  drive an action across sources.
 
 ## 🧊 Parked
 
 Real requests we've heard, deliberately deferred until enough customers ask:
 
 - **Enterprise-tier connectors** — Salesforce, Workday, NetSuite, ServiceNow.
-  Big builds; we'll start when there's clear pull ([#211](https://github.com/CorpusIQ/multi-source-mcp/issues/211)).
+  Big builds; we'll start when there's clear pull.
 
 ---
 

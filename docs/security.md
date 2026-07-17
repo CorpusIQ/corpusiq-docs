@@ -114,7 +114,7 @@ Users can:
 
 ## 10. Public API and Webhooks
 
-- REST API at `https://api.corpusiq.io/v1`
+- REST API at `https://mcp2.corpusiq.io/mcp`
 - Bearer token authentication with 60-minute expiry
 - Rate-limited endpoints with documented quotas
 - HMAC-signed webhook delivery

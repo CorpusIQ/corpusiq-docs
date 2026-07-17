@@ -83,7 +83,7 @@ Verify your token is active with a simple health check:
 ```bash
 curl -s -o /dev/null -w "%{http_code}" \
   -H "Authorization: Bearer <token>" \
-  https://api.corpusiq.io/v1/query \
+  https://mcp2.corpusiq.io/mcp \
   -H "Content-Type: application/json" \
   -d '{"query": "test"}'
 ```

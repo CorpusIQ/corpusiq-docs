@@ -5,7 +5,7 @@ internal refactors and infrastructure work live in the engineering tracker, not
 here. Dates are when the change went live on production.
 
 This is a curated log. For the full commit-level history, see the
-[multi-source-mcp repo](https://github.com/CorpusIQ/multi-source-mcp).
+multi-source-mcp repo .
 
 ---
 
