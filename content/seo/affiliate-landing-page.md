@@ -39,7 +39,7 @@ It takes 5 minutes to set up. Read-only. CASA Tier 2 + SOC 2.
 3. Get your unique tracking link
 4. Start sharing
 
-Questions: media@corpusiq.io
+Questions: support@corpusiq.io
 
 ---
 

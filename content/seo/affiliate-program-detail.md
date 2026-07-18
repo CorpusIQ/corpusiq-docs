@@ -34,7 +34,7 @@ The pitch is simple: "Stop building reports. Just ask your AI."
 
 Go to corpusiq.io/affiliate. Sign up through Reditus or FirstPromoter. Get your unique link. Start earning.
 
-Questions: media@corpusiq.io
+Questions: support@corpusiq.io
 
 ---
 
