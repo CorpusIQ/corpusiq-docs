@@ -16,21 +16,28 @@ HPSILab is an institutional-grade quantitative finance MCP server. It gives AI a
 
 ## Tools Available
 
-| Category | Tools |
-|----------|-------|
-| **Options Analytics** | Black-Scholes pricing, Greeks (delta, gamma, theta, vega, rho), IV surface construction |
-| **Simulations** | Monte Carlo path generation, scenario analysis, VaR calculation |
-| **Market Signals** | AI-driven buy/sell signals, regime detection (bull/bear/range), anomaly detection |
-| **Backtesting** | Strategy backtesting with transaction costs, slippage, benchmark comparison |
-| **Quantum ML** | Qiskit-based quantum feature maps for market regime classification |
+| Tool Name | Description |
+|-----------|-------------|
+| `analyze_stock` | Comprehensive stock analysis with fundamentals and technical indicators |
+| `get_iv_radar` | Implied volatility surface visualization and skew analysis |
+| `get_option_pressure` | Options flow analysis — call/put volume, open interest, unusual activity |
+| `get_monte_carlo` | Monte Carlo path generation, scenario analysis, VaR calculation |
+| `get_ai_prediction` | AI-driven price predictions with confidence intervals |
+| `get_equity_curves` | Strategy backtesting with transaction costs, slippage, benchmark comparison |
+| `generate_stock_images` | Generate annotated stock charts with technical indicators |
+| `generate_stock_research_report` | Full research report with fundamentals, technicals, and risk metrics |
+| `get_pretrade_risk_scan` | Pre-trade risk assessment: margin, exposure, concentration limits |
 
 ## Quick Start
 
 ```bash
-# Via PyPI (simplest)
+# Option 1: Remote endpoint (recommended — no local install)
+hermes mcp add hpsilab --url https://hpsilab.com/mcp
+
+# Option 2: Via PyPI (local install)
 pip install hpsilab-mcp
 
-# Or from GitHub
+# Option 3: From GitHub
 git clone https://github.com/haiyunsky/hpsilab-quant-finance-mcp.git
 cd hpsilab-quant-finance-mcp
 pip install .
@@ -40,7 +47,7 @@ cp env.example .env
 # Run the MCP server
 hpsilab-quant-finance-mcp
 
-# Add to Hermes
+# Add local install to Hermes
 hermes mcp add hpsilab --command "hpsilab-quant-finance-mcp"
 ```
 
