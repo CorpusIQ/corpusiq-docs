@@ -211,6 +211,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Context Forge Rag Setup](/docs/hermes/skills/catalog/context-forge-rag-setup.html)
 - [Cron Design Workflow Setup](/docs/hermes/skills/catalog/cron-design-workflow-setup.html)
 - [Delegate Skills Setup](/docs/hermes/skills/catalog/delegate-skills-setup.html)
+- [Design Judge Skills — Design Award Workflow Setup](/docs/hermes/skills/catalog/design-judge-skills-setup/index.html)
 - [Distribute Skill To All Agents Setup](/docs/hermes/skills/catalog/distribute-skill-to-all-agents-setup.html)
 - [elevenlabs Skills](/docs/hermes/skills/catalog/elevenlabs/index.html)
 - [firebase Skills](/docs/hermes/skills/catalog/firebase/index.html)
