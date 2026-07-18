@@ -1,6 +1,6 @@
 ---
 title: "Hermes Skills Catalog — Quality-Tiered Directory"
-description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 449+ skills catalogued."
+description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 456+ skills catalogued."
 ---
 
 # Skills Catalog
@@ -183,6 +183,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Agentmint Skills Setup](/docs/hermes/skills/catalog/agentmint-skills-setup.html)
 - [AgentMemory Setup — Persistent Memory for Hermes Agents](/docs/hermes/skills/catalog/agentmemory-setup.html)
 - [Apify Agent Skills — Web Scraping for Hermes Setup](/docs/hermes/skills/catalog/apify-agent-skills-setup.html)
+- [Apify Growth Skills — Lead Gen, Brand Monitoring, Ultimate Scraper Setup](/docs/hermes/skills/catalog/apify-growth-skills-setup/index.html)
 - [Apple Calendar Setup](/docs/hermes/skills/catalog/apple-calendar-setup.html)
 - [Arxiv Setup](/docs/hermes/skills/catalog/arxiv-setup.html)
 - [Ashima Setup](/docs/hermes/skills/catalog/ashima-setup/index.html)
@@ -292,6 +293,8 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [platform Skills](/docs/hermes/skills/catalog/platform/index.html)
 - [prisma Skills](/docs/hermes/skills/catalog/prisma/index.html)
 - [Safari Web Agent Setup](/docs/hermes/skills/catalog/safari-web-agent-setup.html)
+- [Security Hardening — AI Agent Security Setup](/docs/hermes/skills/catalog/security-and-hardening-setup/index.html)
+- [Sentry AI Monitoring — Agent Error Tracking Setup](/docs/hermes/skills/catalog/sentry-ai-monitoring-setup/index.html)
 - [Sg Arrival Card Setup](/docs/hermes/skills/catalog/sg-arrival-card-setup.html)
 - [shopify Skills](/docs/hermes/skills/catalog/shopify/index.html)
 - [Skill Repo Manager Setup](/docs/hermes/skills/catalog/skill-repo-manager-setup.html)
