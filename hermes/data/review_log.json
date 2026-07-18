@@ -5275,5 +5275,47 @@
     "tier": "AUTO_APPROVE",
     "action": "auto_approved",
     "timestamp": "2026-07-18T07:04:53.550480+00:00"
+  },
+  {
+    "repo": "prajadiputra/Meboya",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T08:05:58.303342+00:00"
+  },
+  {
+    "repo": "stefanpieter/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T08:05:58.303346+00:00"
+  },
+  {
+    "repo": "CorpusIQ/corpusiq-docs",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-18T08:05:58.303348+00:00"
+  },
+  {
+    "repo": "sostrowsk/setup-hermes-honcho",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T08:05:58.303350+00:00"
+  },
+  {
+    "repo": "VibeCodeBlogger-Public/paperclip-hermes-paperclip-adapter-integration-free-glm-4.6-zai-minimax-llm-windows-wsl2",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T08:05:58.303352+00:00"
+  },
+  {
+    "repo": "evjohn-icu/Hermes-ruff",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T08:05:58.303354+00:00"
   }
 ]
