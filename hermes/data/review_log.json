@@ -5156,5 +5156,89 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-18T05:04:58.305924+00:00"
+  },
+  {
+    "repo": "shirodune/immigration-wiki",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T06:05:53.095233+00:00"
+  },
+  {
+    "repo": "LeeAli7/hermes-setup",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T06:05:53.095238+00:00"
+  },
+  {
+    "repo": "abhibansal-sg/shipfactory",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T06:05:53.095241+00:00"
+  },
+  {
+    "repo": "ChonSong/intermediary-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T06:05:53.095243+00:00"
+  },
+  {
+    "repo": "tbdavid2019/hermes-agent-docs-skill",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T06:05:53.095245+00:00"
+  },
+  {
+    "repo": "remoet-labs/agent-skills",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T06:05:53.095247+00:00"
+  },
+  {
+    "repo": "CorpusIQ/corpusiq-docs",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-18T06:05:53.095250+00:00"
+  },
+  {
+    "repo": "minderificllc-eng/hermes-agent-m",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T06:05:53.095252+00:00"
+  },
+  {
+    "repo": "asimons81/design-canon",
+    "score": 34,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T06:05:53.095254+00:00"
+  },
+  {
+    "repo": "athronix/kmaster-agent-patch",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T06:05:53.095256+00:00"
+  },
+  {
+    "repo": "athronix/kmaster-agent-ui",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T06:05:53.095258+00:00"
+  },
+  {
+    "repo": "athronix/kmaster-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T06:05:53.095260+00:00"
   }
 ]

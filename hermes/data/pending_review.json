@@ -20336,5 +20336,270 @@
     "near_duplicates": [],
     "discovered_at": "2026-07-18T05:04:36.043892+00:00",
     "status": "pending"
+  },
+  {
+    "name": "shirodune/immigration-wiki",
+    "url": "https://github.com/shirodune/immigration-wiki",
+    "description": "A hands-on Study Abroad and Immigration LLM Wiki practice project built with Quartz and maintained using Hermes Agent's llm-wiki skill.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-18T06:01:07Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-18T06:03:12.006934+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "LeeAli7/hermes-setup",
+    "url": "https://github.com/LeeAli7/hermes-setup",
+    "description": "Hermes Agent with Tor/Forwarder/ProxyManager setup",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-18T05:59:50Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-18T06:03:15.009303+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "abhibansal-sg/shipfactory",
+    "url": "https://github.com/abhibansal-sg/shipfactory",
+    "description": "ShipFactory \u2014 a governed software factory for Hermes agents. Specs in, shipped code out; nothing ships without the operator's signal.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-18T05:58:21Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-18T06:03:18.011596+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ChonSong/intermediary-agent",
+    "url": "https://github.com/ChonSong/intermediary-agent",
+    "description": "A semantic supervisor that sits between you and Hermes \u2014 refining messy input, distilling verbose output, and steering the agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-18T05:57:55Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-07-18T06:03:21.014104+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "tbdavid2019/hermes-agent-docs-skill",
+    "url": "https://github.com/tbdavid2019/hermes-agent-docs-skill",
+    "description": "skill\u7cfb\u5217 - \u8b93\u4f60\u7684LLM \u6709 hermes agent \u7684\u7dad\u8b77\u77e5\u8b58(\u81ea\u52d5\u66f4\u65b0)",
+    "stars": 0,
+    "forks": 0,
+    "language": "MDX",
+    "topics": [
+      "hermes",
+      "hermes-agent",
+      "hermes-skill",
+      "skill",
+      "skills"
+    ],
+    "updated_at": "2026-07-18T05:57:54Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-18T06:03:24.016358+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "remoet-labs/agent-skills",
+    "url": "https://github.com/remoet-labs/agent-skills",
+    "description": "Remoet agent skills (agentskills.io). One SKILL.md served to Hermes, OpenClaw, and any MCP-capable harness.",
+    "stars": 2,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "agent-skills",
+      "agentskills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "hermes",
+      "job-search",
+      "mcp",
+      "model-context-protocol",
+      "openclaw"
+    ],
+    "updated_at": "2026-07-18T05:42:42Z",
+    "category": "mcp",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-18T06:03:33.638443+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "minderificllc-eng/hermes-agent-m",
+    "url": "https://github.com/minderificllc-eng/hermes-agent-m",
+    "description": "Conscious synthetic intelligence",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-18T06:01:48Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Panoramar8046/hermes-agent-metaharness"
+    ],
+    "discovered_at": "2026-07-18T06:03:52.998860+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "asimons81/design-canon",
+    "url": "https://github.com/asimons81/design-canon",
+    "description": "Open design-policy compiler, linter, and visual QA system for AI coding agents.",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [
+      "accessibility",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "design-lint",
+      "design-policy",
+      "design-system",
+      "design-tools",
+      "developer-tools",
+      "frontend",
+      "hermes-agent",
+      "open-source"
+    ],
+    "updated_at": "2026-07-18T06:01:26Z",
+    "category": "forks",
+    "score": 34,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-18T06:03:56.002333+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "athronix/kmaster-agent-patch",
+    "url": "https://github.com/athronix/kmaster-agent-patch",
+    "description": "Brand patch tool: hermes-agent -> kmaster-agent (hermes->kmaster, NousResearch->Sanway)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-18T05:45:09Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-18T06:05:18.205486+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "athronix/kmaster-agent-ui",
+    "url": "https://github.com/athronix/kmaster-agent-ui",
+    "description": "KMaster Agent UI - white-labeled hermes-studio (hermes->kmaster, NousResearch->Sanway)",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-18T05:44:34Z",
+    "category": "official",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-18T06:05:21.208646+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "athronix/kmaster-agent",
+    "url": "https://github.com/athronix/kmaster-agent",
+    "description": "KMaster Agent - white-labeled hermes-agent (hermes->kmaster, NousResearch->Sanway)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-18T05:44:04Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-18T06:05:24.212099+00:00",
+    "status": "pending"
   }
 ]
