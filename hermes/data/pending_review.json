@@ -20601,5 +20601,118 @@
     "near_duplicates": [],
     "discovered_at": "2026-07-18T06:05:24.212099+00:00",
     "status": "pending"
+  },
+  {
+    "name": "leonluo2008-ops/hermes-config",
+    "url": "https://github.com/leonluo2008-ops/hermes-config",
+    "description": "Hermes Agent config management \u2014 SOUL.md/.hermes.md/MEMORY.md \u4e09\u5c42\u67b6\u6784\u89c4\u8303",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-18T07:01:47Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-18T07:02:33.914398+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "YanOIer/FenXing-Agent",
+    "url": "https://github.com/YanOIer/FenXing-Agent",
+    "description": "\u5206\u5f62Agent \u00b7 FractalAgent \u2014 \u6bcf\u6b21\u95ee\u7b54\u628a\u300c\u4ece\u95ee\u9898\u5230\u7b54\u6848\u300d\u7684\u63a8\u7406\u8fc7\u7a0b\u751f\u6210\u53ef\u4ea4\u4e92\u4e8c\u7ef4\u5206\u5f62\u56fe\u7684\u4e2a\u4eba AI Agent\uff08\u57fa\u4e8e hermes-agent\uff0c\u6838\u5fc3\u96f6\u6539\u52a8\uff09",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-18T07:01:26Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-18T07:02:36.916270+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "iskandarsulaili/hermes-ultimate-coding",
+    "url": "https://github.com/iskandarsulaili/hermes-ultimate-coding",
+    "description": "Ultimate vibe coding plugins for Hermes AI agent \u2014 Effect-ts, LSP, Semble code search & Graphify knowledge graph + t/s status bar. 23 tools, 5 plugins, stdlib core.",
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agentic",
+      "ai-coding-agent",
+      "code-intelligence",
+      "code-search",
+      "dependency-graph",
+      "effect-ts",
+      "functional-programming",
+      "hermes-agent",
+      "hermes-ultimate-coding",
+      "knowledge-graph",
+      "lsp",
+      "opencode",
+      "plugin",
+      "python",
+      "self-correcting",
+      "semantic-search",
+      "typed-errors",
+      "vibe-coding"
+    ],
+    "updated_at": "2026-07-18T07:00:08Z",
+    "category": "core",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "jnMetaCode/superpowers-zh",
+      "NousResearch/hermes-agent-self-evolution",
+      "qingchencloud/clawpanel",
+      "awizemann/scarf",
+      "jnMetaCode/shellward",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "hugocarreira/agentrc",
+      "kkllxy/hermes-web-ui"
+    ],
+    "discovered_at": "2026-07-18T07:02:39.918603+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "thesues/lerobot-agent-console",
+    "url": "https://github.com/thesues/lerobot-agent-console",
+    "description": "Single-page web console to operate LeRobot: Linux shell + hermes AI agent + browser-like service viewer. One container = lerobot + slim hermes + console.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-18T06:59:45Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-18T07:02:42.920417+00:00",
+    "status": "pending"
   }
 ]

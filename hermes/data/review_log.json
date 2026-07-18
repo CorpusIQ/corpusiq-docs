@@ -5240,5 +5240,40 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-18T06:05:53.095260+00:00"
+  },
+  {
+    "repo": "leonluo2008-ops/hermes-config",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T07:04:53.550470+00:00"
+  },
+  {
+    "repo": "YanOIer/FenXing-Agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T07:04:53.550474+00:00"
+  },
+  {
+    "repo": "iskandarsulaili/hermes-ultimate-coding",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T07:04:53.550476+00:00"
+  },
+  {
+    "repo": "thesues/lerobot-agent-console",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-18T07:04:53.550478+00:00"
+  },
+  {
+    "repo": "CorpusIQ/corpusiq-docs",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-18T07:04:53.550480+00:00"
   }
 ]
