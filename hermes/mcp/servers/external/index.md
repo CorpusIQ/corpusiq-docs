@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 17, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 18, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -332,6 +332,9 @@ Free REST API and MCP server for verified SaaS, AI, and LLM pricing across 490+ 
 ### Remote Jobs MCP ★ New (Jobicy)
 Autonomous remote job search  --  AI tools can search, filter, and retrieve the latest remote job listings in real-time via public Jobicy MCP server. Useful for recruitment agents and talent operations.
 
+### Octolens ★★★ New (July 18)
+Brand monitoring across 15+ platforms (Reddit, X, LinkedIn, HN, YouTube, Bluesky, GitHub, Stack Overflow, podcasts, newsletters, TikTok). AI-filtered mentions with sentiment scoring. Remote MCP via Streamable HTTP + OAuth. Used by Vercel, PostHog, Prisma. First MCP-native social listening solution. Essential for marketing operators, brand managers, and product teams who want AI-driven brand intelligence without dashboard-hopping. · [Integration Guide](/hermes/mcp/servers/external/octolens/)
+
 ---
 
 
@@ -514,6 +517,9 @@ MCP server for Kubernetes and OpenShift — manage clusters, pods, deployments, 
 
 ### Superserve MCP ★ New (July 16)
 Sandbox infrastructure for AI agents — create and control isolated cloud sandboxes via MCP. Ephemeral environments for code execution, testing, and demos. 413★. `npx @superserve/mcp` · [Integration Guide](/hermes/mcp/servers/external/superserve-mcp/)
+
+### Vibgrate MCP ★ New (July 18)
+Dependency drift, CVE vulnerability scanning, and EOL runtime detection for AI agents. 51 tools across 14 groups — DriftScores, blast-radius analysis, upgrade paths, org catalog management. OAuth 2.1, Apache 2.0. Remote endpoint at `https://mcp.vibgrate.com`. First MCP server for software supply chain security. Essential for operators managing production software who want AI-driven dependency intelligence. · [Integration Guide](/hermes/mcp/servers/external/vibgrate-mcp/)
 
 ---
 
