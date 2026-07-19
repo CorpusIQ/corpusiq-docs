@@ -170,7 +170,7 @@ Under 5 minutes from signup to email intelligence in ChatGPT.
 - [ChatGPT Integration Overview](chatgpt-integration)  --  the full integration
 - [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
 - [MCP for Customer Support](mcp-for-customer-support)  --  MCP for support teams
-- [CorpusIQ Security Architecture](security/index)  --  how data stays safe
+- [CorpusIQ Security Architecture](../security/)  --  how data stays safe
 - [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
 
 *Connect Connect Gmail to ChatGPT via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*

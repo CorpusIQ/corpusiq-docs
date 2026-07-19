@@ -135,7 +135,7 @@ The Salesforce integration is designed for enterprise security requirements:
 - **Audit Trail.** Every query is logged with timestamp and source. Your Salesforce admin can track exactly what data was accessed.
 - **TLS 1.3 Encryption.** All data in transit between Salesforce, CorpusIQ, and ChatGPT is encrypted.
 
-For enterprises in regulated industries (financial services, healthcare, government), this architecture meets the core requirements: no data duplication, governed access, and complete visibility into data access patterns. See our [security documentation](security/index) for the full compliance framework.
+For enterprises in regulated industries (financial services, healthcare, government), this architecture meets the core requirements: no data duplication, governed access, and complete visibility into data access patterns. See our [security documentation](../security/) for the full compliance framework.
 
 ## Comparison: MCP vs. Direct Salesforce API Integration
 
@@ -171,7 +171,7 @@ Setup takes under 5 minutes for a connection that would take weeks to build via 
 - [ChatGPT Integration Overview](chatgpt-integration)  --  the full integration
 - [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
 - [MCP for Enterprise](mcp-for-enterprise)  --  enterprise deployment
-- [CorpusIQ Security Architecture](security/index)  --  how data stays safe
+- [CorpusIQ Security Architecture](../security/)  --  how data stays safe
 - [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
 
 *Connect Connect Salesforce to ChatGPT via MCP  --  Live Data, No Cod... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*

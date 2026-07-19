@@ -130,7 +130,7 @@ Validate revenue numbers across platforms. "Does our Shopify revenue match what 
 
 CorpusIQ's Shopify integration is read-only at every layer. The OAuth scopes requested from Shopify only include read permissions. The MCP server only exposes query tools  --  no mutation operations exist. Even if a query were somehow misrouted, no data can be modified.
 
-For organizations with strict compliance requirements, CorpusIQ's security architecture is described in detail in our [security documentation](security/index). Key points:
+For organizations with strict compliance requirements, CorpusIQ's security architecture is described in detail in our [security documentation](../security/). Key points:
 
 - **OAuth 2.0** authentication  --  no shared credentials, no API keys stored in plaintext.
 - **TLS 1.3** encryption in transit.
@@ -179,7 +179,7 @@ The entire setup takes under 5 minutes from signup to first answer.
 - [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP beats traditional approaches
 - [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
 - [Shopify Connector Reference](connect-shopify-to-chatgpt)  --  technical details on the Shopify connector
-- [CorpusIQ Security Architecture](security/index)  --  how your data stays safe
+- [CorpusIQ Security Architecture](../security/)  --  how your data stays safe
 
 *Connect Connect Shopify to ChatGPT via MCP  --  Live Data, No Code |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

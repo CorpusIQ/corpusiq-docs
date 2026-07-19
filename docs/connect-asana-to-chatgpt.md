@@ -170,7 +170,7 @@ Under 5 minutes from signup to your first project management query in ChatGPT.
 - [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
 - [MCP for Operations](mcp-for-operations)  --  MCP for ops teams
 - [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
-- [CorpusIQ Security Architecture](security/index)  --  how data stays safe
+- [CorpusIQ Security Architecture](../security/)  --  how data stays safe
 
 *Connect Connect Asana to ChatGPT via MCP  --  Live Data, No Code | C... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

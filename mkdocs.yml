@@ -168,6 +168,23 @@ nav:
   - Analyze Company Data with ChatGPT: how-to-analyze-company-data-with-chatgpt.md
   - Use AI with Business Data: how-to-use-ai-with-business-data.md
   - Centralize Company Knowledge: how-to-centralize-company-knowledge.md
+- Examples:
+  - Overview: examples/README.md
+  - Cross-Source ROAS Analysis: examples/cross-source-roas-analysis.md
+  - Claude Desktop Config: examples/claude-desktop-config.md
+  - MCP Starter Kit: examples/mcp-starter/README.md
+- Recipes:
+  - Overview: recipes/README.md
+  - AI Agent MCP Setup: recipes/ai-agent-mcp-setup.md
+  - Cross-Source Revenue Audit: recipes/cross-source-revenue-audit.md
+  - HubSpot + Klaviyo Pipeline: recipes/hubspot-klaviyo-pipeline.md
+  - Meta Ads + Shopify ROAS: recipes/meta-ads-shopify-roas.md
+  - Monthly Close: recipes/monthly-close.md
+  - Morning Briefing: recipes/morning-briefing.md
+  - Shopify + QuickBooks Reconciliation: recipes/shopify-quickbooks-reconciliation.md
+  - Universal Business Search: recipes/universal-business-search.md
+  - Weekly Ad ROI Report: recipes/weekly-ad-roi-report.md
+  - IndexNow Auto-Submit: recipes/indexnow-auto-submit.md
 - Best Of:
   - Best MCP Server for Business: best-mcp-server-for-business.md
   - Best AI Data Connector: best-ai-data-connector.md

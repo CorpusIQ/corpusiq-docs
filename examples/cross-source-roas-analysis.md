@@ -79,6 +79,6 @@ With CorpusIQ, it's one question. Every time. The data is always live.
 
 ## Next Steps
 
-- Try the [QuickBooks + Shopify profit margin example](../recipes/shopify-quickbooks-profit-margin.md)
+- Try the [QuickBooks + Shopify reconciliation example](../recipes/shopify-quickbooks-reconciliation.md)
 - Learn about [cross-source queries](../how-it-works/mcp-architecture.md)
-- Check out the [HubSpot sales pipeline with Stripe revenue example](../recipes/hubspot-stripe-pipeline.md)
+- Check out the [HubSpot + Klaviyo pipeline example](../recipes/hubspot-klaviyo-pipeline.md)

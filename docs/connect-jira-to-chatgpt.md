@@ -176,7 +176,7 @@ Under 5 minutes from signup to Jira answers in ChatGPT. No JQL required.
 - [Benefits of MCP for Business](benefits-of-mcp-for-business)  --  why MCP wins
 - [MCP for Operations](mcp-for-operations)  --  MCP for ops and dev teams
 - [MCP vs. API Integrations](mcp-vs-api-integrations)  --  detailed comparison
-- [CorpusIQ Security Architecture](security/index)  --  how data stays safe
+- [CorpusIQ Security Architecture](../security/)  --  how data stays safe
 
 *Connect Connect Jira to ChatGPT via MCP  --  Live Data, No Code | Co... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

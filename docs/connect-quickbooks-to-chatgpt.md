@@ -75,7 +75,7 @@ CorpusIQ retrieves data in your QuickBooks home currency by default. If your Qui
 <details>
 <summary><strong>Is this SOC 2 compliant?</strong></summary>
 
-CorpusIQ's security architecture is designed for compliance with SOC 2, GDPR, and other frameworks. All data is encrypted in transit (TLS 1.3), OAuth 2.0 authentication is used throughout, and no financial data is persisted after a query completes. See our [security documentation](security/index) for the full compliance details.
+CorpusIQ's security architecture is designed for compliance with SOC 2, GDPR, and other frameworks. All data is encrypted in transit (TLS 1.3), OAuth 2.0 authentication is used throughout, and no financial data is persisted after a query completes. See our [security documentation](../security/) for the full compliance details.
 </details>
 
 <details>
