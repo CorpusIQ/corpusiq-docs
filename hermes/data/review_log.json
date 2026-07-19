@@ -5317,5 +5317,131 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-18T08:05:58.303354+00:00"
+  },
+  {
+    "repo": "Pratiksha935/Echo",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T05:04:39.810660+00:00"
+  },
+  {
+    "repo": "helciocosta/estudiohc-agentic-os",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T05:04:39.810662+00:00"
+  },
+  {
+    "repo": "dev-hann/hermes-opencode-bridge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T05:04:39.810663+00:00"
+  },
+  {
+    "repo": "Raidriar7170/hermes-skilleval",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T05:04:39.810664+00:00"
+  },
+  {
+    "repo": "connectwithprakash/session-bridge",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T05:04:39.810665+00:00"
+  },
+  {
+    "repo": "cx2002302-lang/zettelkasten-second-memory",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-19T05:04:39.810666+00:00"
+  },
+  {
+    "repo": "WEIFENG2333/phistory",
+    "score": 70,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-19T05:04:39.810667+00:00"
+  },
+  {
+    "repo": "myrandomtips/plex-nfc-movie-launcher",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T05:04:39.810668+00:00"
+  },
+  {
+    "repo": "yoloshii/gigaxity-deep-research",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T05:04:39.810669+00:00"
+  },
+  {
+    "repo": "xuhancn/hermes-to-claude",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T05:04:39.810670+00:00"
+  },
+  {
+    "repo": "ngocthanh06/longbrain",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T05:04:39.810671+00:00"
+  },
+  {
+    "repo": "AtlasOmnia/hermes-agent-custom-pack",
+    "score": 46,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T05:04:39.810672+00:00"
+  },
+  {
+    "repo": "chintheman/todo",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T05:04:39.810673+00:00"
+  },
+  {
+    "repo": "ion-lgb/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T05:04:39.810674+00:00"
+  },
+  {
+    "repo": "CorpusIQ/corpusiq-docs",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-19T05:04:39.810675+00:00"
+  },
+  {
+    "repo": "aiden-comotion/hermes-spotlight",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T05:04:39.810677+00:00"
+  },
+  {
+    "repo": "VibeCodeBlogger-Public/paperclip-hermes-paperclip-adapter-integration-glm-4.6-zai-minimax-llm-windows-wsl2",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T05:04:39.810678+00:00"
+  },
+  {
+    "repo": "jobboat-fr/hermes-agent",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T05:04:39.810679+00:00"
   }
 ]

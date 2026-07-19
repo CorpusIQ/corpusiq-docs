@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 The most comprehensive directory of Hermes Agent resources in existence. 450+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** July 17, 2026 · **Repos indexed:** 409+ · **Categories:** 18
+> **Last updated:** July 18, 2026 · **Repos indexed:** 411+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -21,10 +21,10 @@ The most comprehensive directory of Hermes Agent resources in existence. 450+ re
 | [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
 | [Community & Awesome Lists](#-community--awesome-lists) | 34 | [↓](#-community--awesome-lists) |
 | [UI & Dashboards](#-ui--dashboards) | 14 | [↓](#-ui--dashboards) |
-| [Memory & Knowledge](#-memory--knowledge) | 29 | [↓](#-memory--knowledge) |
+|| [Memory & Knowledge](#-memory--knowledge) | 30 | [↓](#-memory--knowledge) |
 | [MCP & Integrations](#-mcp--integrations) | 33 | [↓](#-mcp--integrations) |
 | [Skills & Plugins](#-skills--plugins) | 69 | [↓](#-skills--plugins) |
-|| [Tools & Utilities](#-tools--utilities) | 56 | [↓](#-tools--utilities) |
+|| [Tools & Utilities](#-tools--utilities) | 57 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
 | [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 26 | [↓](#-orchestration-multi-agent--swarms) |
 || [Deployment & Infrastructure](#-deployment--infrastructure) | 22 | [↓](#-deployment--infrastructure) |
@@ -866,6 +866,17 @@ A server-side memory and knowledge graph API for AI agents. Stores episodic memo
 
 **Key capabilities:** Cognitive state encoding, multi-path decision engine, field tracking, self-healing reinforcement learning, MCP-native integration, structured cognitive snapshots
 **Maintainer:** yun520-1
+
+---
+
+### cx2002302-lang/zettelkasten-second-memory
+⭐ **16** · `TypeScript` · [github.com/cx2002302-lang/zettelkasten-second-memory](https://github.com/cx2002302-lang/zettelkasten-second-memory)
+
+An OpenClaw (2026.4/2026.6+) and Hermes Agent plugin that turns AI conversations into a permanent Zettelkasten knowledge base — atomic notes, bi-directional links, knowledge distillation, and MCP tool exposure. Converts agent dialogue into structured, interlinked knowledge artifacts with SQLite persistence.
+
+**Maintainer:** cx2002302-lang
+**Topics:** `knowledge-management`, `zettelkasten`, `mcp-server`, `note-taking`, `second-memory`, `knowledge-graph`
+**Key capabilities:** AI conversation → Zettelkasten, bi-directional linking, MCP tool exposure, SQLite persistence, atomic notes, knowledge distillation
 
 ---
 
@@ -2299,6 +2310,16 @@ Skill installer plugin for Hermes Agent
 ## 🛠 Tools & Utilities
 
 Development tools, utilities, and platforms for the Hermes ecosystem.
+
+### WEIFENG2333/phistory
+⭐ **340** · `HTML` · [github.com/WEIFENG2333/phistory](https://github.com/WEIFENG2333/phistory)
+
+Phistory automatically archives versioned system prompt snapshots from agent CLIs like Claude Code, Codex, OpenClaw, and Hermes. Tracks prompt evolution over time, enabling diff-based analysis of how agent behavior changes with prompt modifications. Essential for prompt engineering and agent debugging workflows.
+
+**Maintainer:** WEIFENG2333
+**Key capabilities:** Prompt snapshot archiving, versioned system prompt history, multi-agent CLI support (Claude Code/Codex/OpenClaw/Hermes), diff-based prompt analysis, agent debugging
+
+---
 
 ### danny-avila/LibreChat
 ⭐ **39,302** · `TypeScript` · [github.com/danny-avila/LibreChat](https://github.com/danny-avila/LibreChat)
@@ -3960,15 +3981,15 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 409 |
+| Total repos indexed | 411 |
 | Categories | 18 |
 | Official Nous Research repos | 4 |
 | Community awesome lists | 21 |
 | UI/Dashboard projects | 14 |
-| Memory systems | 27 |
+| Memory systems | 28 |
 | MCP integrations | 32 |
 | Skill collections & plugins | 69 |
-| Tools & utilities | 38 |
+| Tools & utilities | 39 |
 | Research/benchmark projects | 12 |
 | Deployment & infra projects | 21 |
 | Domain applications | 22 |
@@ -4037,7 +4058,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 - Skills and plugins
 - Language-specific resources
 
-> **📊 Ecosystem Stats:** 409 repos · 18 categories · 1M+ community stars · 48 skill collections · 20 MCP integrations · 15 domain applications
+> **📊 Ecosystem Stats:** 411 repos · 18 categories · 1M+ community stars · 48 skill collections · 20 MCP integrations · 15 domain applications
 
 ---
 
@@ -4045,7 +4066,7 @@ This directory is maintained by [CorpusIQ](https://corpusiq.io). New resources a
 
 ### What is the Hermes Ecosystem Directory?
 
-The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence  --  **409+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
+The **Hermes Ecosystem Directory** is the most comprehensive collection of Hermes Agent resources in existence  --  **411+ repositories** organized across 18 categories including core tools, UIs, memory systems, MCP integrations, skills, deployment, research, and domain applications. It's the definitive map of the Hermes universe.
 
 ### How do I find tools and resources for Hermes Agent?
 

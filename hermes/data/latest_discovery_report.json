@@ -1,12 +1,98 @@
 {
-  "run_time": "2026-07-18T08:05:58.320629+00:00",
-  "new_approved": [],
+  "run_time": "2026-07-19T05:04:39.821332+00:00",
+  "new_approved": [
+    {
+      "name": "cx2002302-lang/zettelkasten-second-memory",
+      "url": "https://github.com/cx2002302-lang/zettelkasten-second-memory",
+      "description": "An OpenClaw (2026.4/2026.6+) and Hermes Agent plugin that turns AI conversations into a permanent Zettelkasten knowledge base \u2014 atomic notes, bi-directional links, knowledge distillation, and MCP tool exposure.",
+      "stars": 16,
+      "forks": 2,
+      "language": "TypeScript",
+      "topics": [
+        "ai-agent",
+        "compatibility",
+        "hermes-agent",
+        "knowledge-graph",
+        "knowledge-management",
+        "markdown",
+        "mcp",
+        "mcp-server",
+        "note-taking",
+        "openclaw",
+        "second-memory",
+        "sqlite",
+        "zettelkasten"
+      ],
+      "updated_at": "2026-07-19T04:55:05Z",
+      "category": "core",
+      "score": 75,
+      "tier": "AUTO_APPROVE",
+      "score_reasons": [
+        "direct_hermes_reference",
+        "agent_ecosystem",
+        "some_stars_10+",
+        "detailed_description",
+        "active_week",
+        "has_homepage"
+      ],
+      "near_duplicates": [
+        "colbymchenry/codegraph",
+        "1Panel-dev/1Panel",
+        "Romanescu11/hermes-skill-factory",
+        "GumbyEnder/hermes-kanban",
+        "longyunfeigu/learn-hermes-agent",
+        "unmodeled-tyler/vessel-browser",
+        "Sibyl-Labs/Sibyl-Memory",
+        "itechmeat/open-second-brain",
+        "mlennie/hermes-mcp",
+        "luluthehermeticcrabBot/phronesis",
+        "kaankacar/stellar-agent-kit",
+        "Aphelios01-sdk/hermes-brain",
+        "anomaliagent007-hue/hermes-mimo-bridge",
+        "Bo1202/Aivy-OS"
+      ],
+      "discovered_at": "2026-07-19T05:01:56.182517+00:00",
+      "status": "approved",
+      "approved_at": "2026-07-19T05:04:39.810647+00:00"
+    },
+    {
+      "name": "WEIFENG2333/phistory",
+      "url": "https://github.com/WEIFENG2333/phistory",
+      "description": "Phistory automatically archives versioned system prompt snapshots from agent CLIs like Claude Code, Codex, OpenClaw, and Hermes.",
+      "stars": 340,
+      "forks": 28,
+      "language": "HTML",
+      "topics": [],
+      "updated_at": "2026-07-19T04:54:48Z",
+      "category": "core",
+      "score": 70,
+      "tier": "AUTO_APPROVE",
+      "score_reasons": [
+        "hermes_mention",
+        "moderate_stars_100+",
+        "detailed_description",
+        "active_week",
+        "has_homepage"
+      ],
+      "near_duplicates": [
+        "thedotmack/claude-mem",
+        "iOfficeAI/AionUi",
+        "EverMind-AI/EverOS",
+        "itechmeat/open-second-brain",
+        "ZeroPointRepo/awesome-hermes-skills",
+        "ruvnet/metaharness"
+      ],
+      "discovered_at": "2026-07-19T05:01:59.184697+00:00",
+      "status": "approved",
+      "approved_at": "2026-07-19T05:04:39.810657+00:00"
+    }
+  ],
   "stats": {
-    "total_found": 6,
-    "auto_approved": 1,
-    "pending_review": 5,
-    "total_approved": 146,
-    "total_pending": 737
+    "total_found": 18,
+    "auto_approved": 3,
+    "pending_review": 15,
+    "total_approved": 148,
+    "total_pending": 752
   },
-  "auto_approved": 0
+  "auto_approved": 2
 }
