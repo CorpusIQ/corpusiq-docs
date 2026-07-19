@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ API Overview"
-description: "Complete CorpusIQ REST API overview. Query 50+ business tools (HubSpot, QuickBooks, Stripe) via unified API. Base URL, endpoints, authentication, and response format at api.corpusiq.io/v1."
+description: "Complete CorpusIQ REST API overview. Query 50+ business tools (HubSpot, QuickBooks, Stripe) via unified API. Base URL, endpoints, authentication, and response format at mcp2.corpusiq.io/mcp."
 category: "API Reference"
 tags: ["corpusiq api", "rest api", "business data api", "mcp api", "api documentation", "query api", "data integration api"]
 last_updated: "2026-07-04"
@@ -9,12 +9,12 @@ robots: "index,follow"
 ---
 
 # API Overview
-CorpusIQ exposes a REST API at `https://api.corpusiq.io/v1` that allows AI assistants and client applications to query connected business tools, search encrypted archives, and manage user data. All requests are authenticated via Bearer tokens and respond with JSON.
+CorpusIQ exposes a REST API at `https://mcp2.corpusiq.io/mcp` that allows AI assistants and client applications to query connected business tools, search encrypted archives, and manage user data. All requests are authenticated via Bearer tokens and respond with JSON.
 
 ## Base URL
 
 ```
-https://api.corpusiq.io/v1
+https://mcp2.corpusiq.io/mcp
 ```
 
 All endpoint paths are relative to this base. The API version (`v1`) is part of the URL path. Breaking changes will be released under a new version prefix.
@@ -72,7 +72,7 @@ Authorization: Bearer <token>
 ## Frequently Asked Questions
 
 **Q: What is the CorpusIQ API base URL?**  
-A: All CorpusIQ API endpoints are accessed at https://api.corpusiq.io/v1. The API version (v1) is part of the URL path, and all requests must use HTTPS.
+A: All CorpusIQ API endpoints are accessed at https://mcp2.corpusiq.io/mcp. The API version (v1) is part of the URL path, and all requests must use HTTPS.
 
 **Q: How do I authenticate with the CorpusIQ API?**  
 A: Authentication uses Bearer tokens passed in the Authorization header. Tokens are generated from the CorpusIQ Dashboard and expire after 60 minutes with server-side refresh detection.

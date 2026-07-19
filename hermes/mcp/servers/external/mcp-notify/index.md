@@ -88,7 +88,7 @@ notifications:
     enabled: false
     smtp_host: smtp.gmail.com
     smtp_port: 587
-    to: media@corpusiq.io
+    to: notifications@example.com
 
 filters:
   categories:

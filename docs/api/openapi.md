@@ -1,5 +1,5 @@
 ---
-description: "Complete CorpusIQ OpenAPI 3.0.3 specification. Import into Postman, Insomnia, or Swagger UI for interactive API testing. Available at api.corpusiq.io/v1/openapi.json."
+description: "Complete CorpusIQ OpenAPI 3.0.3 specification. Import into Postman, Insomnia, or Swagger UI for interactive API testing. Available at mcp2.corpusiq.io/mcp."
 category: "API Reference"
 tags: ["corpusiq openapi", "swagger", "postman", "api specification", "openapi 3.0", "api testing", "api documentation"]
 last_updated: "2026-06-16"
@@ -14,16 +14,16 @@ CorpusIQ provides a complete OpenAPI 3.0.3 specification that can be imported in
 
 ### Postman
 1. Click **Import** → **Link**
-2. Paste: `https://api.corpusiq.io/v1/openapi.json`
+2. Paste: `https://mcp2.corpusiq.io/mcp`
 3. Click **Continue** → **Import**
 
 ### Insomnia
 1. Click **Create** → **Import From**
-2. Select **URL** and paste: `https://api.corpusiq.io/v1/openapi.json`
+2. Select **URL** and paste: `https://mcp2.corpusiq.io/mcp`
 3. Click **Fetch and Import**
 
 ### Swagger UI / Redoc
-Visit `https://api.corpusiq.io/v1/docs` for an interactive Swagger UI with live "Try it out" functionality.
+Visit `https://mcp2.corpusiq.io/mcp` for an interactive Swagger UI with live "Try it out" functionality.
 
 ## Full Specification
 
@@ -42,7 +42,7 @@ info:
   license:
     name: "Proprietary"
 servers:
-  - url: "https://api.corpusiq.io/v1"
+  - url: "https://mcp2.corpusiq.io/mcp"
     description: "Production API"
 security:
   - BearerAuth: []
@@ -340,8 +340,8 @@ components:
 
 The spec is also available as a downloadable file:
 
-- **JSON**: `https://api.corpusiq.io/v1/openapi.json`
-- **YAML**: `https://api.corpusiq.io/v1/openapi.yaml`
+- **JSON**: `https://mcp2.corpusiq.io/mcp`
+- **YAML**: `https://mcp2.corpusiq.io/mcp`
 
 ## Versioning
 
@@ -350,7 +350,7 @@ The spec version tracks the CorpusIQ API version. Breaking changes to the API re
 ## Frequently Asked Questions
 
 **Q: Where can I find the CorpusIQ OpenAPI specification?**  
-A: The complete OpenAPI 3.0.3 spec is published at https://api.corpusiq.io/v1/openapi.json. Interactive documentation is available at https://api.corpusiq.io/v1/docs.
+A: The complete OpenAPI 3.0.3 spec is published at https://mcp2.corpusiq.io/mcp. Interactive documentation is available at https://mcp2.corpusiq.io/mcp.
 
 **Q: Can I import the OpenAPI spec into Postman?**  
 A: Yes. The OpenAPI spec is importable into Postman, Insomnia, Swagger UI, and any OpenAPI-compatible tool. This enables interactive API testing and code generation.

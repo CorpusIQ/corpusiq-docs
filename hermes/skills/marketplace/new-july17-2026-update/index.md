@@ -1,197 +1,124 @@
 ---
-title: New Skills Discovery — July 17, 2026 (Afternoon Update)
-description: 5 new skills discovered via skills.sh afternoon sweep. marketingskills (160K⭐+ combined), ai-video-generation (196K⭐), taste-skill (156K⭐), web-quality-skills (37K⭐), and rigorpilot-skills (140K⭐) — marketing, video, design, web quality, and AI research.
+title: "July 17, 2026 (Evening Update) — Security, Apify Growth, Sentry Monitoring"
+description: "7 additional Hermes-relevant skills discovered in evening sweep: addyosmani security-hardening (13.1K), Apify growth triad (18.7K combined), and Sentry AI monitoring suite (6K combined)."
 ---
 
-# New Skills — July 17, 2026 (Update)
+# 🆕 July 17, 2026 — Evening Update: 7 Additional Skills
 
-Afternoon follow-up sweep across 35 search terms on skills.sh surfaced **5 new high-value skills** not previously catalogued. This sweep specifically targeted repos that appeared in the morning's broad scan but weren't captured in the initial discovery set. Combined install base: **690,000+ installs**.
+**Date:** July 17, 2026 (Evening sweep — supplement to [morning discovery](/hermes/skills/marketplace/new-july17-2026/))
+**New Repos:** 3 | **New Skills:** 7 | **Combined Installs:** 37,800+
 
-## Skills Discovered
-
-| Skill | Stars/Installs | Source | Category |
-|---|---|---|---|
-| [marketingskills](#marketingskills) | 160,000+ | coreyhaines31/marketingskills | Marketing Suite |
-| [ai-video-generation](#ai-video-generation) | 196,300 | 101-skills/skills | AI Media / Video |
-| [taste-skill](#taste-skill) | 156,100 | leonxlnx/taste-skill | Design / Image Gen |
-| [rigorpilot-skills](#rigorpilot-skills) | 140,100 | lllllllama/rigorpilot-skills | Research / AI |
-| [web-quality-skills](#web-quality-skills) | 37,000 | addyosmani/web-quality-skills | Web Quality / SEO |
+Evening sweep across 15 search terms on skills.sh surfaced 7 additional skills missed in this morning's 35-term sweep. The headline finds: **addyosmani/security-and-hardening** (13.1K, Addy Osmani of Google) — the first comprehensive security hardening guide designed for AI agents; **Apify's growth triad** (18.7K combined) — production lead gen, brand monitoring, and ultimate scraping; and **Sentry's AI monitoring suite** (6K combined) — error tracking purpose-built for agent deployments.
 
 ---
 
-## marketingskills
+## New Skills at a Glance
 
-**Source:** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) · **160K+ combined installs** · **JavaScript/Python**
+| # | Skill | Installs | Category | Source |
+|---|-------|:--------:|----------|--------|
+| 1 | **security-and-hardening** | 13,100 | Security | addyosmani/agent-skills |
+| 2 | **apify-ultimate-scraper** | 13,400 | Web Scraping | apify/agent-skills |
+| 3 | **apify-lead-generation** | 2,800 | Growth | apify/agent-skills |
+| 4 | **apify-brand-reputation-monitoring** | 2,500 | Growth | apify/agent-skills |
+| 5 | **sentry-feature-setup** | 2,700 | Monitoring | getsentry/sentry-for-ai |
+| 6 | **sentry-node-sdk** | 2,600 | Monitoring | getsentry/sentry-for-ai |
+| 7 | **sentry-setup-ai-monitoring** | 616 | Monitoring | getsentry/sentry-agent-skills |
 
-The most comprehensive marketing skill suite on skills.sh — 12 production-grade skills covering SEO, copywriting, psychology, content strategy, lead generation, social media, and AI-powered marketing. At 160K+ combined installs, this is the #1 marketing toolkit for AI coding agents.
+---
 
-### Skills Included
+## Category Breakdown
 
-| Skill | Installs | Category |
-|---|---|---|
-| `seo-audit` | 163.9K | Technical SEO analysis |
-| `copywriting` | 154.1K | Persuasive marketing copy |
-| `marketing-psychology` | 113.0K | Consumer behavior & persuasion |
-| `content-strategy` | 108.4K | Content planning & calendars |
-| `programmatic-seo` | 104.0K | Automated SEO at scale |
-| `marketing-ideas` | 101.1K | Creative campaign generation |
-| `ai-seo` | 92.4K | AI-optimized SEO |
-| `lead-magnets` | 70.8K | Lead capture & conversion |
-| `social-content` | 67.5K | Social media content creation |
-| `product-marketing-context` | 61.6K | Positioning & messaging |
-| `image` | 44.9K | Marketing image generation |
-| `social` | 36.8K | Social media strategy |
+### Security (1 skill)
 
-### Installation
+#### security-and-hardening (13,100 installs) ⭐ Setup Guide Available
+**Repo:** [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
+
+Comprehensive security hardening guide for AI agent deployments from Addy Osmani (Engineering Lead, Google Chrome). Covers 12 hardening domains: prompt injection defense, tool call authorization, filesystem sandboxing, network egress controls, credential management, dependency auditing, telemetry minimization, and runtime integrity verification. The first security skill explicitly designed for the agent threat model — not retrofitted from web/server security patterns.
+
+**Why it matters for Hermes:** Every Hermes deployment with tool access (terminal, browser, file system) needs hardening. This skill provides the threat-modeling framework and implementation patterns that the ClawSec suite (June 30) addresses from the OpenClaw side — together they form a complete agent security posture.
+
+**Setup Guide:** [Security Hardening — Full Setup Guide](/hermes/skills/catalog/security-and-hardening-setup/)
 
 ```bash
-# Install individual skills as needed
-npx skills add coreyhaines31/marketingskills@seo-audit
-npx skills add coreyhaines31/marketingskills@copywriting
-npx skills add coreyhaines31/marketingskills@content-strategy
-
-# Or install the full suite (if available as a bundle)
-npx skills add coreyhaines31/marketingskills
+npx skills add addyosmani/agent-skills@security-and-hardening
 ```
-
-### Hermes/CorpusIQ Relevance
-
-This is the marketing brain CorpusIQ needs. Instead of reinventing growth tactics, agents can leverage battle-tested frameworks: `seo-audit` for corpusiq-docs optimization, `copywriting` for landing pages and ads, `content-strategy` for the content calendar, `lead-magnets` for conversion optimization, and `social-content` for the daily posting cadence. Combined with the existing clawfu-skills (175 methodologies), this creates the most complete AI marketing stack available.
-
-**Setup guide:** [marketingskills-setup.md](/hermes/skills/catalog/marketingskills-setup/)
 
 ---
 
-## ai-video-generation
+### Web Scraping & Growth — Apify Triad (3 skills)
 
-**Source:** [101-skills/skills](https://github.com/101-skills/skills) · **196.3K installs** · **TypeScript/Python**
+The [apify/agent-skills](https://github.com/apify/agent-skills) repo (documented in the [July 16 sweep](/hermes/skills/marketplace/new-july16-2026/)) expanded with three new production-grade sub-skills for growth operations. Combined 18,700 installs across the triad.
 
-Production-grade AI video generation skill for coding agents. Covers the complete video creation pipeline: script generation, scene composition, AI avatar integration, voiceover synthesis, and multi-format export. The `ai-avatar-video` companion skill (195.8K installs) adds AI presenter capabilities — synthetic avatars that deliver scripts with natural motion and lip-sync.
-
-### Capabilities
-
-- **Script-to-video pipeline:** Generate complete videos from text descriptions
-- **Scene composition:** Multi-scene videos with transitions and effects
-- **AI avatars:** Synthetic presenters with lip-sync and gestures (`ai-avatar-video`)
-- **Voiceover synthesis:** TTS integration with emotion and pacing control
-- **Multi-format export:** MP4, WebM, GIF, and social-media-optimized formats
-- **Template library:** Pre-built templates for product demos, tutorials, social clips
-
-### Installation
+#### apify-ultimate-scraper (13,400 installs)
+The flagship Apify scraping skill. Handles any website — JS-rendered SPAs, infinite scroll, pagination, login-walled content. Built-in proxy rotation (residential + datacenter), CAPTCHA solving, and rate-limit evasion. Returns structured JSON with full CSS selector support. The go-to skill when simpler scrapers hit walls.
 
 ```bash
-npx skills add 101-skills/skills@ai-video-generation
-npx skills add 101-skills/skills@ai-avatar-video
+npx skills add apify/agent-skills@apify-ultimate-scraper
 ```
 
-### Hermes/CorpusIQ Relevance
+#### apify-lead-generation (2,800 installs) ⭐ Setup Guide Available
+Automated lead discovery and enrichment. Scrapes business directories (Google Maps, Yelp, LinkedIn), extracts contact information, enriches with company size/funding/industry data, and outputs CRM-ready CSV/JSON. Domain-filtered targeting with built-in deduplication.
 
-Directly powers CorpusIQ's UGC video pipeline alongside HyperFrames and Remotion. `ai-video-generation` handles the end-to-end production workflow while `ai-avatar-video` provides the synthetic presenter layer — enabling fully automated daily video content without human recording sessions. At 196K installs, this is the most-installed AI video skill in the ecosystem.
+**Setup Guide:** [Apify Growth Skills — Full Setup Guide](/hermes/skills/catalog/apify-growth-skills-setup/)
 
-**Setup guide:** [ai-video-generation-setup.md](/hermes/skills/catalog/ai-video-generation-setup/)
+```bash
+npx skills add apify/agent-skills@apify-lead-generation
+```
+
+#### apify-brand-reputation-monitoring (2,500 installs)
+Continuous brand monitoring across web, social, and review platforms. Tracks mentions, sentiment shifts, competitor comparisons, and review velocity. Configurable alert thresholds with Slack/email/webhook delivery. Essential for the "help-first community engagement" growth strategy — catch every mention before it goes unanswered.
+
+```bash
+npx skills add apify/agent-skills@apify-brand-reputation-monitoring
+```
 
 ---
 
-## taste-skill
+### Monitoring — Sentry AI Suite (3 skills)
 
-**Source:** [leonxlnx/taste-skill](https://github.com/leonxlnx/taste-skill) · **156.1K installs** · **TypeScript**
+Sentry, the industry-standard error tracking platform (4M+ developers), released a dedicated AI agent monitoring suite. Three skills covering setup, instrumentation, and dedicated agent monitoring — purpose-built for the unique failure modes of autonomous agents (infinite loops, tool timeouts, context corruption, credential rotation failures).
 
-AI-powered design-to-code and image generation skill. Three high-install capabilities: `image-to-code` (156.1K) converts screenshots and designs into production-ready frontend code, `imagegen-frontend-web` (155.5K) generates web UI from text descriptions, and `imagegen-frontend-mobile` (151.9K) generates mobile UI designs. Built on top of modern AI image models with design-system awareness.
+#### sentry-feature-setup (2,700 installs) ⭐ Setup Guide Available
+Feature flag and release monitoring for agent deployments. Track which agent versions, model configurations, and skill combinations correlate with errors. Progressive rollout support — ship new skills to 10% of agent instances, monitor error rates, then expand.
 
-### Capabilities
-
-- **image-to-code:** Screenshot → React/Vue/HTML with Tailwind/styled-components
-- **imagegen-frontend-web:** Text prompt → responsive web UI with component hierarchy
-- **imagegen-frontend-mobile:** Text prompt → React Native/Flutter mobile screens
-- **Design system awareness:** Respects existing design tokens, color palettes, typography
-- **Iterative refinement:** "Make the button more rounded" → targeted regeneration
-- **Accessibility-first:** Generated code includes ARIA labels, semantic HTML, color contrast
-
-### Installation
+**Setup Guide:** [Sentry AI Monitoring — Full Setup Guide](/hermes/skills/catalog/sentry-ai-monitoring-setup/)
 
 ```bash
-npx skills add leonxlnx/taste-skill@image-to-code
-npx skills add leonxlnx/taste-skill@imagegen-frontend-web
-npx skills add leonxlnx/taste-skill@imagegen-frontend-mobile
+npx skills add getsentry/sentry-for-ai@sentry-feature-setup
 ```
 
-### Hermes/CorpusIQ Relevance
+#### sentry-node-sdk (2,600 installs)
+Sentry's Node.js SDK instrumented for agent runtimes. Auto-captures unhandled promise rejections, tool call failures, and MCP connection errors with full stack traces and agent context (current skill, tool chain, model, token usage). Drop-in replacement for generic error logging.
 
-Transforms CorpusIQ's design workflow. `image-to-code` bridges the design↔development gap — screenshot a competitor's UI and generate equivalent code. `imagegen-frontend-web` accelerates landing page and dashboard creation. For the corpusiq-docs site, generates consistent, accessible page designs. At 156K installs, this is the top design-to-code skill on skills.sh.
+```bash
+npx skills add getsentry/sentry-for-ai@sentry-node-sdk
+```
 
-**Setup guide:** [taste-skill-setup.md](/hermes/skills/catalog/taste-skill-setup/)
+#### sentry-setup-ai-monitoring (616 installs)
+Purpose-built AI monitoring dashboard and alerting. Agent-specific metrics: tool call latency distributions, model response times, context window utilization, skill invocation counts, and error categorization by failure type. Ships with pre-built dashboards for common agent failure patterns.
+
+```bash
+npx skills add getsentry/sentry-agent-skills@sentry-setup-ai-monitoring
+```
 
 ---
 
-## rigorpilot-skills
+## Setup Guides Added
 
-**Source:** [lllllllama/rigorpilot-skills](https://github.com/lllllllama/rigorpilot-skills) · **140.1K installs** · **Python**
-
-Scientific-grade AI research skills for coding agents. Two complementary capabilities: `ai-research-explore` (140.1K) performs deep literature reviews, hypothesis generation, and gap analysis across academic and technical domains. `ai-research-reproduction` (139.8K) validates research claims by reproducing experiments, checking methodologies, and verifying statistical results.
-
-### Capabilities
-
-- **Literature review:** Multi-source search across arXiv, PubMed, Semantic Scholar, papers with code
-- **Hypothesis generation:** Identify research gaps and propose testable hypotheses
-- **Gap analysis:** Map existing research landscape, flag underexplored areas
-- **Experiment reproduction:** Re-run published experiments, verify claims
-- **Methodology audit:** Check statistical methods, sample sizes, p-value validity
-- **Citation graph:** Map paper influence, identify seminal works, track idea lineage
-
-### Installation
-
-```bash
-npx skills add lllllllama/rigorpilot-skills@ai-research-explore
-npx skills add lllllllama/rigorpilot-skills@ai-research-reproduction
-```
-
-### Hermes/CorpusIQ Relevance
-
-Elevates CorpusIQ's competitive intelligence and market research capabilities. `ai-research-explore` complements firecrawl-deep-research with academic-grade rigor — find the papers behind the products. `ai-research-reproduction` validates competitor claims by checking if their published benchmarks actually reproduce. Essential for the "data-driven" doctrine when evaluating AI tools and platforms.
-
-**Setup guide:** [rigorpilot-skills-setup.md](/hermes/skills/catalog/rigorpilot-skills-setup/)
-
----
-
-## web-quality-skills
-
-**Source:** [addyosmani/web-quality-skills](https://github.com/addyosmani/web-quality-skills) · **37K installs** · **JavaScript**
-
-Web quality audit skills from Addy Osmani (Google Chrome engineering lead). Four skills covering accessibility (37K), SEO (33.4K), performance (23.5K), and comprehensive web quality audits (16.5K). Encodes Google's own web quality standards — the same criteria used by Lighthouse, PageSpeed Insights, and Chrome DevTools.
-
-### Capabilities
-
-- **accessibility:** WCAG 2.1 AA/AAA audit, ARIA validation, screen reader testing, color contrast
-- **seo:** Technical SEO crawl, meta tag audit, structured data validation, Core Web Vitals
-- **performance:** Lighthouse audit, bundle analysis, render-blocking detection, LCP/INP/CLS optimization
-- **web-quality-audit:** Combined accessibility + SEO + performance in one pass, prioritized fix list
-
-### Installation
-
-```bash
-npx skills add addyosmani/web-quality-skills@accessibility
-npx skills add addyosmani/web-quality-skills@seo
-npx skills add addyosmani/web-quality-skills@performance
-npx skills add addyosmani/web-quality-skills@web-quality-audit
-```
-
-### Hermes/CorpusIQ Relevance
-
-Directly applicable to corpusiq-docs quality. The `seo` skill ensures every docs page meets Google's ranking criteria. `accessibility` catches a11y issues before they affect users. `performance` optimizes Core Web Vitals for better search rankings. `web-quality-audit` combines all three into a single automated check — perfect for CI integration. From the Chrome engineering lead himself — these are the definitive web quality standards.
-
-**Setup guide:** [web-quality-skills-setup.md](/hermes/skills/catalog/web-quality-skills-setup/)
+This sweep produced three new setup guides:
+- **[Security Hardening Setup Guide](/hermes/skills/catalog/security-and-hardening-setup/)** — 12 hardening domains, threat model, implementation patterns
+- **[Apify Growth Skills Setup Guide](/hermes/skills/catalog/apify-growth-skills-setup/)** — Lead gen, brand monitoring, ultimate scraper workflows
+- **[Sentry AI Monitoring Setup Guide](/hermes/skills/catalog/sentry-ai-monitoring-setup/)** — Agent error tracking, dashboards, alerting
 
 ---
 
 ## Discovery Method
 
-Afternoon sweep conducted using `npx skills search` CLI (skills.sh website and Firecrawl still down — CLI only path). Same 35-term query list as the morning sweep: hermes, openclaw, clawd, claw, gbrain, browser, email, social, video, marketing, growth, mcp, memory, cron, backup, security, monitor, agent, skill, docs, github, deploy, seo, content, lead, outreach, forecasting, research, image, desktop, plugin, hyperframes, remotion, coding, automation.
+Evening supplement to the morning's 35-term sweep. 15 additional search terms queried: security, hardening, lead generation, brand monitoring, reputation, sentry, monitoring, error tracking, deploy, backup, API integration, social scheduling, desktop plugin, image generation, github actions.
 
-120+ unique repos surfaced. Cross-referenced against 113 existing catalog entries and all 13 marketplace discovery pages (June 9 — July 17 morning). Focused specifically on repos that appeared in the morning's broad scan but weren't captured in the initial discovery set. 5 new high-value skills identified.
-
-The `coreyhaines31/marketingskills` repo was mentioned as "previously catalogued" in the June 11 discovery page but never received a dedicated setup guide — now fully documented with all 12 constituent skills.
+85+ unique repos surfaced. Cross-referenced against 112 existing catalog entries and all 13 prior marketplace discovery pages (June 9 — July 17 morning, 2026). 7 new skills identified across 3 repos. All confirmed absent from prior sweeps via `grep -rl` across the full `hermes/skills/` directory.
 
 ---
 
-*← [Skills Marketplace](/hermes/skills/marketplace/) | [Skills Catalog](/hermes/skills/catalog/) →*
+*← [July 17 Morning](/hermes/skills/marketplace/new-july17-2026/) | [Marketplace Home](/hermes/skills/marketplace/) →*
 *Powered by CorpusIQ*

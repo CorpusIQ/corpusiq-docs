@@ -1,6 +1,6 @@
 ---
 title: "Hermes Skills Catalog — Quality-Tiered Directory"
-description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 454+ skills catalogued."
+description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 456+ skills catalogued."
 ---
 
 # Skills Catalog
@@ -183,10 +183,12 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Agentmint Skills Setup](/docs/hermes/skills/catalog/agentmint-skills-setup.html)
 - [AgentMemory Setup — Persistent Memory for Hermes Agents](/docs/hermes/skills/catalog/agentmemory-setup.html)
 - [Apify Agent Skills — Web Scraping for Hermes Setup](/docs/hermes/skills/catalog/apify-agent-skills-setup.html)
+- [Apify Growth Skills — Lead Gen, Brand Monitoring, Ultimate Scraper Setup](/docs/hermes/skills/catalog/apify-growth-skills-setup/index.html)
 - [Apple Calendar Setup](/docs/hermes/skills/catalog/apple-calendar-setup.html)
 - [Arxiv Setup](/docs/hermes/skills/catalog/arxiv-setup.html)
 - [Ashima Setup](/docs/hermes/skills/catalog/ashima-setup/index.html)
 - [Autolora Setup](/docs/hermes/skills/catalog/autolora-setup.html)
+- [Awesome Copilot — MCP Server Generators & GitHub Automation Setup](/docs/hermes/skills/catalog/awesome-copilot-setup.html)
 - [bb-browser-openclaw — Setup Guide](/docs/hermes/skills/catalog/bb-browser-openclaw-setup.html)
 - [Blogwatcher — RSS/Atom Feed Monitoring for Hermes](/docs/hermes/skills/catalog/blogwatcher-setup.html)
 - [Blueprint Orchestration Setup](/docs/hermes/skills/catalog/blueprint-orchestration-setup/index.html)
@@ -209,6 +211,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Context Forge Rag Setup](/docs/hermes/skills/catalog/context-forge-rag-setup.html)
 - [Cron Design Workflow Setup](/docs/hermes/skills/catalog/cron-design-workflow-setup.html)
 - [Delegate Skills Setup](/docs/hermes/skills/catalog/delegate-skills-setup.html)
+- [Design Judge Skills — Design Award Workflow Setup](/docs/hermes/skills/catalog/design-judge-skills-setup/index.html)
 - [Distribute Skill To All Agents Setup](/docs/hermes/skills/catalog/distribute-skill-to-all-agents-setup.html)
 - [elevenlabs Skills](/docs/hermes/skills/catalog/elevenlabs/index.html)
 - [firebase Skills](/docs/hermes/skills/catalog/firebase/index.html)
@@ -287,11 +290,14 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Openclaw Security Hardening Setup](/docs/hermes/skills/catalog/openclaw-security-hardening-setup.html)
 - [Openclaw Skill Vetter Setup](/docs/hermes/skills/catalog/openclaw-skill-vetter-setup.html)
 - [OpenClaw XHS Setup — Xiaohongshu (RED) Integration](/docs/hermes/skills/catalog/openclaw-xhs-setup.html)
+- [Parallel Agent Skills — Web Intelligence for Hermes Setup](/docs/hermes/skills/catalog/parallel-agent-skills-setup.html)
 - [Perfectloop Setup](/docs/hermes/skills/catalog/perfectloop-setup.html)
 - [Petdex — Animated Mascots for Hermes Agent](/docs/hermes/skills/catalog/petdex-setup.html)
 - [platform Skills](/docs/hermes/skills/catalog/platform/index.html)
 - [prisma Skills](/docs/hermes/skills/catalog/prisma/index.html)
 - [Safari Web Agent Setup](/docs/hermes/skills/catalog/safari-web-agent-setup.html)
+- [Security Hardening — AI Agent Security Setup](/docs/hermes/skills/catalog/security-and-hardening-setup/index.html)
+- [Sentry AI Monitoring — Agent Error Tracking Setup](/docs/hermes/skills/catalog/sentry-ai-monitoring-setup/index.html)
 - [Sg Arrival Card Setup](/docs/hermes/skills/catalog/sg-arrival-card-setup.html)
 - [shopify Skills](/docs/hermes/skills/catalog/shopify/index.html)
 - [Skill Repo Manager Setup](/docs/hermes/skills/catalog/skill-repo-manager-setup.html)
@@ -313,11 +319,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Vps Server Management Setup](/docs/hermes/skills/catalog/vps-server-management-setup/index.html)
 - [Wiki History Ingest Setup](/docs/hermes/skills/catalog/wiki-history-ingest-setup/index.html)
 - [Writing Plans Subagent Development Setup](/docs/hermes/skills/catalog/writing-plans-subagent-development-setup.html)
+- [wshobson/agents — Agent Plugin Marketplace Setup](/docs/hermes/skills/catalog/wshobson-agents-setup.html)
 - [X Twitter Scraper Setup](/docs/hermes/skills/catalog/x-twitter-scraper-setup.html)
 - [Xurl Setup](/docs/hermes/skills/catalog/xurl-setup/index.html)
 - [Youtube Content Setup](/docs/hermes/skills/catalog/youtube-content-setup.html)
-- [AI Video Generation — Script-to-Video Pipeline Setup](/docs/hermes/skills/catalog/ai-video-generation-setup.html)
-- [marketingskills — Complete Marketing Suite Setup (160K+ installs)](/docs/hermes/skills/catalog/marketingskills-setup.html)
-- [rigorpilot-skills — AI Research & Reproduction Setup](/docs/hermes/skills/catalog/rigorpilot-skills-setup.html)
-- [taste-skill — Design-to-Code & AI Image Gen Setup](/docs/hermes/skills/catalog/taste-skill-setup.html)
-- [web-quality-skills — Google-Grade Web Quality Audits Setup](/docs/hermes/skills/catalog/web-quality-skills-setup.html)

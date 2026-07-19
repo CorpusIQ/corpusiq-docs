@@ -3,7 +3,7 @@ title: "HPSILab Quant Finance MCP — Options Analytics & Monte Carlo"
 description: "Connect HPSILab institutional-grade quant finance to Hermes Agent. Black-Scholes options pricing, implied volatility surfaces, Monte Carlo simulations, quantum ML signals, strategy backtesting."
 category: mcp
 tags: [mcp-server, hpsilab, quant-finance, options, black-scholes, monte-carlo, greeks, volatility]
-last_updated: 2026-07-08
+last_updated: 2026-07-17
 ---
 
 # HPSILab — Quant Finance MCP Server
@@ -16,27 +16,42 @@ HPSILab is an institutional-grade quantitative finance MCP server. It gives AI a
 
 ## Tools Available
 
-| Category | Tools |
-|----------|-------|
-| **Options Analytics** | Black-Scholes pricing, Greeks (delta, gamma, theta, vega, rho), IV surface construction |
-| **Simulations** | Monte Carlo path generation, scenario analysis, VaR calculation |
-| **Market Signals** | AI-driven buy/sell signals, regime detection (bull/bear/range), anomaly detection |
-| **Backtesting** | Strategy backtesting with transaction costs, slippage, benchmark comparison |
-| **Quantum ML** | Qiskit-based quantum feature maps for market regime classification |
+| Tool Name | Description |
+|-----------|-------------|
+| `analyze_stock` | Comprehensive stock analysis with fundamentals and technical indicators |
+| `get_iv_radar` | Implied volatility surface visualization and skew analysis |
+| `get_option_pressure` | Options flow analysis — call/put volume, open interest, unusual activity |
+| `get_monte_carlo` | Monte Carlo path generation, scenario analysis, VaR calculation |
+| `get_ai_prediction` | AI-driven price predictions with confidence intervals |
+| `get_equity_curves` | Strategy backtesting with transaction costs, slippage, benchmark comparison |
+| `generate_stock_images` | Generate annotated stock charts with technical indicators |
+| `generate_stock_research_report` | Full research report with fundamentals, technicals, and risk metrics |
+| `get_pretrade_risk_scan` | Pre-trade risk assessment: margin, exposure, concentration limits |
 
 ## Quick Start
 
 ```bash
-# Add to Hermes (URL-based if available via mcp.so)
-hermes mcp add hpsilab --url https://api.hpsilab.com/mcp
+# Option 1: Remote endpoint (recommended — no local install)
+hermes mcp add hpsilab --url https://hpsilab.com/mcp
 
-# Or local install (if GitHub repo becomes available)
-git clone https://github.com/HPSILab/options-analytics-mcp.git
-cd options-analytics-mcp
-pip install -r requirements.txt
+# Option 2: Via PyPI (local install)
+pip install hpsilab-mcp
 
-hermes mcp add hpsilab --command "python" --args "server.py" --workdir "$(pwd)"
+# Option 3: From GitHub
+git clone https://github.com/haiyunsky/hpsilab-quant-finance-mcp.git
+cd hpsilab-quant-finance-mcp
+pip install .
+cp env.example .env
+# edit .env and set HPSILAB_API_KEY=***
+
+# Run the MCP server
+hpsilab-quant-finance-mcp
+
+# Add local install to Hermes
+hermes mcp add hpsilab --command "hpsilab-quant-finance-mcp"
 ```
+
+See also: [PyPI package](https://pypi.org/project/hpsilab-mcp/) | [Official site](https://hpsilab.com)
 
 ## Business Use Cases
 

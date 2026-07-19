@@ -44,24 +44,24 @@ When you receive a `429 Too Many Requests`, inspect the `retry_after_seconds` fi
 ```python
 import time
 
-response = requests.post("https://api.corpusiq.io/v1/query", ...)
+response = requests.post("https://mcp2.corpusiq.io/mcp", ...)
 
 if response.status_code == 429:
     retry_after = response.json()["error"].get("retry_after_seconds", 60)
     time.sleep(retry_after)
-    response = requests.post("https://api.corpusiq.io/v1/query", ...)
+    response = requests.post("https://mcp2.corpusiq.io/mcp", ...)
 ```
 
 ### Handling 401 Token Expiry
 
 ```javascript
-let response = await fetch("https://api.corpusiq.io/v1/query", {
+let response = await fetch("https://mcp2.corpusiq.io/mcp", {
   headers: { Authorization: `Bearer ${token}` },
 });
 
 if (response.status === 401 && response.headers.get("X-Token-Expired")) {
   token = await refreshToken(); // Re-authenticate
-  response = await fetch("https://api.corpusiq.io/v1/query", {
+  response = await fetch("https://mcp2.corpusiq.io/mcp", {
     headers: { Authorization: `Bearer ${token}` },
   });
 }
@@ -77,7 +77,7 @@ import requests
 
 max_retries = 3
 for attempt in range(max_retries):
-    response = requests.post("https://api.corpusiq.io/v1/query", ...)
+    response = requests.post("https://mcp2.corpusiq.io/mcp", ...)
     if response.status_code < 500:
         break
     if attempt < max_retries - 1:

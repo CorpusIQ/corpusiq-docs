@@ -87,7 +87,7 @@ Idempotency-Key: req_2026-06-16_sales_report
 **cURL**
 
 ```bash
-curl -X POST https://api.corpusiq.io/v1/query \
+curl -X POST https://mcp2.corpusiq.io/mcp \
   -H "Authorization: Bearer <token>" \
   -H "Content-Type: application/json" \
   -H "Idempotency-Key: $(uuidgen)" \
@@ -101,7 +101,7 @@ curl -X POST https://api.corpusiq.io/v1/query \
 **JavaScript**
 
 ```javascript
-const response = await fetch("https://api.corpusiq.io/v1/query", {
+const response = await fetch("https://mcp2.corpusiq.io/mcp", {
   method: "POST",
   headers: {
     Authorization: `Bearer ${token}`,
@@ -126,7 +126,7 @@ import requests
 import uuid
 
 response = requests.post(
-    "https://api.corpusiq.io/v1/query",
+    "https://mcp2.corpusiq.io/mcp",
     headers={
         "Authorization": f"Bearer {token}",
         "Content-Type": "application/json",
@@ -202,7 +202,7 @@ Authorization: Bearer <token>
 **cURL**
 
 ```bash
-curl -X POST https://api.corpusiq.io/v1/deep_search \
+curl -X POST https://mcp2.corpusiq.io/mcp \
   -H "Authorization: Bearer <token>" \
   -H "Content-Type: application/json" \
   -d '{
@@ -215,7 +215,7 @@ curl -X POST https://api.corpusiq.io/v1/deep_search \
 **JavaScript**
 
 ```javascript
-const response = await fetch("https://api.corpusiq.io/v1/deep_search", {
+const response = await fetch("https://mcp2.corpusiq.io/mcp", {
   method: "POST",
   headers: {
     Authorization: `Bearer ${token}`,
@@ -235,7 +235,7 @@ const response = await fetch("https://api.corpusiq.io/v1/deep_search", {
 import requests
 
 response = requests.post(
-    "https://api.corpusiq.io/v1/deep_search",
+    "https://mcp2.corpusiq.io/mcp",
     headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
     json={
         "query": "Q3 revenue projections",
@@ -281,14 +281,14 @@ No request body is required. The API returns a confirmation payload before execu
 **cURL**
 
 ```bash
-curl -X DELETE https://api.corpusiq.io/v1/delete_my_data \
+curl -X DELETE https://mcp2.corpusiq.io/mcp \
   -H "Authorization: Bearer <token>"
 ```
 
 **JavaScript**
 
 ```javascript
-const response = await fetch("https://api.corpusiq.io/v1/delete_my_data", {
+const response = await fetch("https://mcp2.corpusiq.io/mcp", {
   method: "DELETE",
   headers: { Authorization: `Bearer ${token}` },
 });
@@ -302,7 +302,7 @@ console.log(result.message);
 import requests
 
 response = requests.delete(
-    "https://api.corpusiq.io/v1/delete_my_data",
+    "https://mcp2.corpusiq.io/mcp",
     headers={"Authorization": f"Bearer {token}"},
 )
 print(response.json()["message"])

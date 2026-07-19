@@ -56,7 +56,7 @@ Once your tools are connected and you have a token, you can query your data from
 ### Basic cURL Example
 
 ```bash
-curl -X POST https://api.corpusiq.io/v1/query \
+curl -X POST https://mcp2.corpusiq.io/mcp \
   -H "Authorization: Bearer $CORPUSIQ_TOKEN" \
   -H "Content-Type: application/json" \
   -d '{"query": "Show me my 5 most recent emails about budgets"}'
@@ -98,7 +98,7 @@ curl -X POST https://api.corpusiq.io/v1/query \
 ### Filter by Specific Connectors
 
 ```bash
-curl -X POST https://api.corpusiq.io/v1/query \
+curl -X POST https://mcp2.corpusiq.io/mcp \
   -H "Authorization: Bearer $CORPUSIQ_TOKEN" \
   -H "Content-Type: application/json" \
   -d '{
@@ -111,7 +111,7 @@ curl -X POST https://api.corpusiq.io/v1/query \
 ### Use Idempotency for Safe Retries
 
 ```bash
-curl -X POST https://api.corpusiq.io/v1/query \
+curl -X POST https://mcp2.corpusiq.io/mcp \
   -H "Authorization: Bearer $CORPUSIQ_TOKEN" \
   -H "Content-Type: application/json" \
   -H "Idempotency-Key: $(uuidgen)" \

@@ -9,6 +9,7 @@ and gives you working code or configuration you can run immediately.
 
 | Example | What it does |
 |---------|-------------|
+| [Cross-Source ROAS Analysis](cross-source-roas-analysis.md) | Calculate true ROAS by connecting Shopify revenue with Meta Ads and Google Ads spend |
 | [Claude Desktop Config](claude-desktop-config.md) | Add CorpusIQ MCP server to Claude Desktop |
 
 ## Submitting an Example

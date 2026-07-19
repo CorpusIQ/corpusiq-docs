@@ -84,11 +84,11 @@ PART 1: HERMES HANDLES (A→Z)
 **Status:** READY
 
 ==============================
-PART 2: BRANDON HANDLES (MANUAL)
+PART 2: SOCIAL TEAM HANDLES (MANUAL)
 ==============================
 
 ## 1. LinkedIn Founder Post
-**What:** Benoit posts on LinkedIn announcing the launch
+**What:** Founder posts on LinkedIn announcing the launch
 **Copy:**
 "I built CorpusIQ because I was tired of AI hallucinating my business numbers.
 
@@ -100,11 +100,11 @@ So we built a validation layer. Before any AI sees your data, CorpusIQ verifies 
 
 30-day free trial. No credit card. → corpusiq.io"
 
-**Action:** Post to Benoit's LinkedIn (not CorpusIQ Page)
+**Action:** Post to founder's LinkedIn (not CorpusIQ Page)
 
 ## 2. Customer Testimonials
 **What:** Collect quotes from existing users
-**Who to ask:** Kent Thomas (4P Tactical), Christina Duvarney (Beautiful Disaster)
+**Who to ask:** Early beta users and pilot customers
 **Action:** Email them asking for 1-sentence quote we can publish
 **Template:** "Would you be willing to write 1-2 sentences about your experience with CorpusIQ? We're launching publicly and need real user voices."
 
@@ -119,7 +119,7 @@ So we built a validation layer. Before any AI sees your data, CorpusIQ verifies 
 - TikTok: Otter avatar video + "This AI doesn't hallucinate your numbers. corpusiq.io"
 - Instagram Reel: Same video + link in bio
 - X/Twitter: "We built an AI that verifies every number before it speaks. 133 skills. 37 connectors. Read-only. corpusiq.io"
-- LinkedIn Page: Share Benoit's post + product update
+- LinkedIn Page: Share founder's post + product update
 
 ## 5. Reddit  --  r/SaaS, r/Slack, r/Entrepreneur
 **What:** Post about CorpusIQ in relevant subreddits
@@ -143,14 +143,4 @@ So we built a validation layer. Before any AI sees your data, CorpusIQ verifies 
 - Next week targets
 
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
-
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
----
-
-*
-
----
-
-*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes) — 406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*

@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 17, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 18, 2026 (late night sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -84,6 +84,9 @@ Hosted MCP server for AI-enriched financial news  --  full-text and ticker-scope
 
 ### Tokenbel Financial Data
 Read-only access to Belarusian securities: tokens, shares, bonds, companies, ticker search. Niche but notable for Eastern European markets.
+
+### Velarion MCP ★ New (July 18)
+Executive-compensation and corporate governance intelligence for ~3,000 US public companies via MCP tools. Deterministic data sourced from SEC proxy filings — not LLM guesses. 8 tools, self-serve token, remote endpoint at `intel.velarion.ai`. First MCP server dedicated to corporate governance data. Essential for investors, analysts, and compensation consultants. `github.com/velarion-ai/velarion-mcp` · [Integration Guide](/hermes/mcp/servers/external/velarion-mcp/)
 
 ### Infrawise ★ New
 Azure FinOps infrastructure cost optimization. Helps operators manage cloud spend with AI-assisted cost analysis. `npx -y @infrawise/mcp-server`
@@ -332,6 +335,12 @@ Free REST API and MCP server for verified SaaS, AI, and LLM pricing across 490+ 
 ### Remote Jobs MCP ★ New (Jobicy)
 Autonomous remote job search  --  AI tools can search, filter, and retrieve the latest remote job listings in real-time via public Jobicy MCP server. Useful for recruitment agents and talent operations.
 
+### Octolens ★★★ New (July 18)
+Brand monitoring across 15+ platforms (Reddit, X, LinkedIn, HN, YouTube, Bluesky, GitHub, Stack Overflow, podcasts, newsletters, TikTok). AI-filtered mentions with sentiment scoring. Remote MCP via Streamable HTTP + OAuth. Used by Vercel, PostHog, Prisma. First MCP-native social listening solution. Essential for marketing operators, brand managers, and product teams who want AI-driven brand intelligence without dashboard-hopping. · [Integration Guide](/hermes/mcp/servers/external/octolens/)
+
+### Backengine MCP ★ New (July 18)
+Customer-context layer for revenue teams — query Slack, email, call transcripts, and support tickets from any MCP client. Multi-tenant SaaS that gives AI agents the full customer picture before every sales conversation. Essential for sales operators, customer success managers, and founders doing enterprise sales. `github.com/BackEngine-ai/backengine-mcp` · [Integration Guide](/hermes/mcp/servers/external/backengine-mcp/)
+
 ---
 
 
@@ -514,6 +523,12 @@ MCP server for Kubernetes and OpenShift — manage clusters, pods, deployments, 
 
 ### Superserve MCP ★ New (July 16)
 Sandbox infrastructure for AI agents — create and control isolated cloud sandboxes via MCP. Ephemeral environments for code execution, testing, and demos. 413★. `npx @superserve/mcp` · [Integration Guide](/hermes/mcp/servers/external/superserve-mcp/)
+
+### Vibgrate MCP ★ New (July 18)
+Dependency drift, CVE vulnerability scanning, and EOL runtime detection for AI agents. 51 tools across 14 groups — DriftScores, blast-radius analysis, upgrade paths, org catalog management. OAuth 2.1, Apache 2.0. Remote endpoint at `https://mcp.vibgrate.com`. First MCP server for software supply chain security. Essential for operators managing production software who want AI-driven dependency intelligence. · [Integration Guide](/hermes/mcp/servers/external/vibgrate-mcp/)
+
+### Docker MCP Server ★ Popular (494 stars) — New Guide July 18
+Complete Docker management for AI agents — containers, images, networks, volumes, Swarm services, secrets, configs, nodes, plugins. 494★, MIT licensed, production-hardened. Local stdio transport. Essential for DevOps operators managing containerized infrastructure. `github.com/QuantGeekDev/docker-mcp` · [Integration Guide](/hermes/mcp/servers/external/docker-mcp/)
 
 ---
 
@@ -1325,6 +1340,18 @@ Run influencer marketing campaigns on Influee platform from AI agents. Campaign 
 
 ### MillionPhones ★ New
 Verified B2B direct dials. AI agents get access to phone-verified contact database for outbound sales. Essential for sales operators building prospecting workflows.
+
+### SocialBu MCP ★ New (July 18)
+Social media management via MCP — connect Claude, ChatGPT, Cursor, Hermes Agent, and other MCP-compatible AI assistants to SocialBu. Create posts, use AI tools, review schedules, check analytics, and manage social accounts across all major platforms. Essential for marketing operators who want conversational social media management without dashboard switching. `github.com/usamaejaz/socialbu-mcp` · [Integration Guide](/hermes/mcp/servers/external/socialbu-mcp/)
+
+### Octolens MCP ★ New (July 18)
+Brand monitoring across 15+ platforms (Reddit, X, LinkedIn, HN, YouTube, Bluesky, GitHub, Stack Overflow, podcasts, newsletters, TikTok). AI-filtered mentions with sentiment scoring. Remote MCP via Streamable HTTP + OAuth. Used by Vercel, PostHog, Prisma. Essential for marketing operators tracking brand presence. `octolens.com` · [Integration Guide](/hermes/mcp/servers/external/octolens/)
+
+### TofuBofu AI Visibility MCP ★ New (July 19)
+Free AI visibility scan for B2B companies — checks how a domain appears across ChatGPT, Claude, Gemini, Perplexity, and Google AI Overviews. Returns Brand Visibility Score, share-of-voice breakdown, top coverage themes, and competitor rank. Remote MCP, no API key. First MCP server dedicated to AI-brand visibility measurement. Essential for operators tracking how AI platforms represent their brand. `tofubofu.com` · [Integration Guide](/hermes/mcp/servers/external/tofubofu-mcp/)
+
+### Competitor Tracker & Co. MCP ★ New (July 19)
+Weekly competitor website monitoring — crawls pricing, product, messaging, and corporate pages. Detects changes, files tagged/ranked changelogs. From Slobodan Stojanović (founder, Vacation Tracker — 35K+ users). Essential for operators needing conversational competitive intelligence without dashboard switching. `competitortracker.co` · [Integration Guide](/hermes/mcp/servers/external/competitor-tracker-mcp/)
 
 ### SE Ranking MCP ★ New
 Live access to SE Ranking's SEO and AI search data  --  keyword research, backlinks, domain analysis, site audits, and AI search visibility (180+ tools). MCP-native SEO platform for operators who need comprehensive search intelligence in their AI workflows.
@@ -2574,6 +2601,12 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [MCP Server Scan Results — July 14, 2026](/docs/hermes/mcp/servers/external/scan-results-2026-07-14.html)
 - [MCP Server Scan Supplement — July 15, 2026 (Evening)](/docs/hermes/mcp/servers/external/scan-results-2026-07-15-supplement.html)
 - [MCP Server Scan — July 15, 2026](/docs/hermes/mcp/servers/external/scan-results-2026-07-15.html)
+- [MCP Server Scan Results — July 16, 2026](/docs/hermes/mcp/servers/external/scan-results-2026-07-16.html)
+- [MCP Server Scan Results — July 17, 2026](/docs/hermes/mcp/servers/external/scan-results-2026-07-17.html)
+- [MCP Server Scan Supplement — July 17, 2026 (Evening)](/docs/hermes/mcp/servers/external/scan-results-2026-07-17-supplement.html)
+- [MCP Server Scan — July 18, 2026](/docs/hermes/mcp/servers/external/scan-results-2026-07-18.html)
+- [MCP Server Scan Supplement — July 18, 2026 (Evening)](/docs/hermes/mcp/servers/external/scan-results-2026-07-18-supplement.html)
+- [MCP Server Scan — July 18, 2026 (Late Night)](/docs/hermes/mcp/servers/external/scan-results-2026-07-18-late-night.html)
 - [Scrivener MCP — Integration Guide](/docs/hermes/mcp/servers/external/scrivener-mcp.html)
 - [Seiche Finance MCP — US Money Market Stress Testing](/docs/hermes/mcp/servers/external/seiche-finance-mcp.html)
 - [SentiSense MCP — Market Intelligence for AI Agents](/docs/hermes/mcp/servers/external/sentisense.html)

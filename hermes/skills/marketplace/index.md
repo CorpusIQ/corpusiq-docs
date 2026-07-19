@@ -7,7 +7,7 @@ description: Discover and install community skills from skills.sh  --  290+ cura
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**521+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**519+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## How to Discover Skills
 
@@ -290,8 +290,8 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 - [🆕 June 30, 2026 — OpenClaw Ecosystem Expansion, HermesPet, MCP Dev Toolkit (14 repos, 24 skills)](/docs/hermes/skills/marketplace/new-june30-2026/index.html)
 - [🆕 June 30, 2026 (Update) — Matt Pocock Engineering Skills + OpenClaw Loader](/docs/hermes/skills/marketplace/new-june30-2026-update/index.html)
 - [🆕 June 30, 2026 (Update 2) — xurl X/Twitter, TimesFM Forecasting, ClawSec Security Suite](/docs/hermes/skills/marketplace/new-june30-2026-update2/index.html)
+- [🆕 July 17, 2026 (Evening) — Security Hardening, Apify Growth, Sentry AI Monitoring (3 repos, 7 skills)](/hermes/skills/marketplace/new-july17-2026-update/)
 - [🆕 July 17, 2026 — find-skills (2.5M⭐), skill-creator (317K⭐), remotion-best-practices (430K⭐), browser-act (99K⭐), firecrawl-workflows (120K⭐)](/docs/hermes/skills/marketplace/new-july17-2026/index.html)
-- [🆕 July 17, 2026 (Update) — marketingskills (160K+⭐), ai-video-generation (196K⭐), taste-skill (156K⭐), rigorpilot-skills (140K⭐), web-quality-skills (37K⭐)](/docs/hermes/skills/marketplace/new-july17-2026-update/index.html)
 - [July 16, 2026 — agent-browser (38K⭐), Vercel Agent Skills (29K⭐), Apify Agent Skills (2.2K⭐), ClawFu Skills (134⭐)](/docs/hermes/skills/marketplace/new-july16-2026/index.html)
 - [July 15, 2026 (Supplement) — OpenClaw Ecosystem: 5 New Skills](/docs/hermes/skills/marketplace/new-july15-2026-update/index.html)
 - [New June9 2026](/docs/hermes/skills/marketplace/new-june9-2026/index.html)

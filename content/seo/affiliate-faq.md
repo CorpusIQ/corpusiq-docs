@@ -42,7 +42,7 @@ Login to Reditus or FirstPromoter. See clicks, signups, active referrals, and mo
 
 ## What if I have questions?
 
-Email media@corpusiq.io. Real humans, not bots.
+Email support@corpusiq.io. Real humans, not bots.
 
 ---
 

@@ -9,7 +9,7 @@ robots: "index,follow"
 
 # CorpusIQ API Reference
 
-Full REST API documentation for programmatic access to CorpusIQ. Authenticate with bearer tokens, query your connected business tools, and manage user data — all through a JSON API at `https://api.corpusiq.io/v1`.
+Full REST API documentation for programmatic access to CorpusIQ. Authenticate with bearer tokens, query your connected business tools, and manage user data — all through a JSON API at `https://mcp2.corpusiq.io/mcp`.
 
 ## Quick Links
 
@@ -27,7 +27,7 @@ Full REST API documentation for programmatic access to CorpusIQ. Authenticate wi
 ## Base URL
 
 ```
-https://api.corpusiq.io/v1
+https://mcp2.corpusiq.io/mcp
 ```
 
 ## Authentication
@@ -36,7 +36,7 @@ All API requests require a Bearer token in the `Authorization` header:
 
 ```bash
 curl -H "Authorization: Bearer YOUR_API_TOKEN" \
-     https://api.corpusiq.io/v1/me
+     https://mcp2.corpusiq.io/mcp
 ```
 
 See [Authentication](authentication.md) for token creation, OAuth flow, and security best practices.
