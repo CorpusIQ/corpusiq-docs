@@ -69,13 +69,6 @@
     "timestamp": "2026-06-17T05:02:52.877337+00:00"
   },
   {
-    "repo": "CorpusIQ/corpusiq-docs",
-    "score": 63,
-    "tier": "HIGH_PRIORITY",
-    "action": "pending_review",
-    "timestamp": "2026-06-17T05:02:52.877338+00:00"
-  },
-  {
     "repo": "ncz-os/mnemos",
     "score": 62,
     "tier": "HIGH_PRIORITY",
@@ -3856,13 +3849,6 @@
     "timestamp": "2026-07-13T05:06:56.378350+00:00"
   },
   {
-    "repo": "CorpusIQ/corpusiq-docs",
-    "score": 75,
-    "tier": "AUTO_APPROVE",
-    "action": "auto_approved",
-    "timestamp": "2026-07-13T05:06:56.378351+00:00"
-  },
-  {
     "repo": "LaiTszKin/fabricium",
     "score": 45,
     "tier": "REVIEW",
@@ -4115,13 +4101,6 @@
     "timestamp": "2026-07-14T05:06:04.920453+00:00"
   },
   {
-    "repo": "CorpusIQ/corpusiq-docs",
-    "score": 75,
-    "tier": "AUTO_APPROVE",
-    "action": "auto_approved",
-    "timestamp": "2026-07-14T05:06:04.920455+00:00"
-  },
-  {
     "repo": "reyerchu/hermes-agent",
     "score": 52,
     "tier": "HIGH_PRIORITY",
@@ -4211,13 +4190,6 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-14T07:07:25.312105+00:00"
-  },
-  {
-    "repo": "CorpusIQ/corpusiq-docs",
-    "score": 75,
-    "tier": "AUTO_APPROVE",
-    "action": "auto_approved",
-    "timestamp": "2026-07-14T07:07:25.312107+00:00"
   },
   {
     "repo": "wassermanproductions/master-canvas-hermes-plugin",
@@ -4311,13 +4283,6 @@
     "timestamp": "2026-07-14T08:09:52.606977+00:00"
   },
   {
-    "repo": "CorpusIQ/corpusiq-docs",
-    "score": 75,
-    "tier": "AUTO_APPROVE",
-    "action": "auto_approved",
-    "timestamp": "2026-07-14T08:09:52.606979+00:00"
-  },
-  {
     "repo": "bitrouter/bitrouter",
     "score": 72,
     "tier": "AUTO_APPROVE",
@@ -4393,13 +4358,6 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-15T05:11:15.247372+00:00"
-  },
-  {
-    "repo": "CorpusIQ/corpusiq-docs",
-    "score": 75,
-    "tier": "AUTO_APPROVE",
-    "action": "auto_approved",
-    "timestamp": "2026-07-15T05:11:15.247374+00:00"
   },
   {
     "repo": "dandanlan8090/Hermes-skillroute-core",
@@ -5011,13 +4969,6 @@
     "timestamp": "2026-07-17T08:07:44.511215+00:00"
   },
   {
-    "repo": "CorpusIQ/corpusiq-docs",
-    "score": 75,
-    "tier": "AUTO_APPROVE",
-    "action": "auto_approved",
-    "timestamp": "2026-07-17T08:07:44.511216+00:00"
-  },
-  {
     "repo": "utrobinmv/hermes-agent",
     "score": 45,
     "tier": "REVIEW",
@@ -5079,13 +5030,6 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-18T05:04:58.305906+00:00"
-  },
-  {
-    "repo": "CorpusIQ/corpusiq-docs",
-    "score": 75,
-    "tier": "AUTO_APPROVE",
-    "action": "auto_approved",
-    "timestamp": "2026-07-18T05:04:58.305908+00:00"
   },
   {
     "repo": "chenchen1010/hermes-media-suite",
@@ -5200,13 +5144,6 @@
     "timestamp": "2026-07-18T06:05:53.095247+00:00"
   },
   {
-    "repo": "CorpusIQ/corpusiq-docs",
-    "score": 75,
-    "tier": "AUTO_APPROVE",
-    "action": "auto_approved",
-    "timestamp": "2026-07-18T06:05:53.095250+00:00"
-  },
-  {
     "repo": "minderificllc-eng/hermes-agent-m",
     "score": 50,
     "tier": "HIGH_PRIORITY",
@@ -5270,13 +5207,6 @@
     "timestamp": "2026-07-18T07:04:53.550478+00:00"
   },
   {
-    "repo": "CorpusIQ/corpusiq-docs",
-    "score": 75,
-    "tier": "AUTO_APPROVE",
-    "action": "auto_approved",
-    "timestamp": "2026-07-18T07:04:53.550480+00:00"
-  },
-  {
     "repo": "prajadiputra/Meboya",
     "score": 49,
     "tier": "REVIEW",
@@ -5289,13 +5219,6 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-18T08:05:58.303346+00:00"
-  },
-  {
-    "repo": "CorpusIQ/corpusiq-docs",
-    "score": 75,
-    "tier": "AUTO_APPROVE",
-    "action": "auto_approved",
-    "timestamp": "2026-07-18T08:05:58.303348+00:00"
   },
   {
     "repo": "sostrowsk/setup-hermes-honcho",
@@ -5417,13 +5340,6 @@
     "timestamp": "2026-07-19T05:04:39.810674+00:00"
   },
   {
-    "repo": "CorpusIQ/corpusiq-docs",
-    "score": 75,
-    "tier": "AUTO_APPROVE",
-    "action": "auto_approved",
-    "timestamp": "2026-07-19T05:04:39.810675+00:00"
-  },
-  {
     "repo": "aiden-comotion/hermes-spotlight",
     "score": 47,
     "tier": "REVIEW",
@@ -5473,10 +5389,59 @@
     "timestamp": "2026-07-19T07:04:19.164386+00:00"
   },
   {
-    "repo": "CorpusIQ/corpusiq-docs",
-    "score": 75,
-    "tier": "AUTO_APPROVE",
-    "action": "auto_approved",
-    "timestamp": "2026-07-19T07:04:19.164388+00:00"
+    "repo": "BBRenxo/renz-launcher",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T08:03:53.484691+00:00"
+  },
+  {
+    "repo": "im-khang/hermes-1aivault-memory",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T08:03:53.484694+00:00"
+  },
+  {
+    "repo": "marketcaper/mcp",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T08:03:53.484697+00:00"
+  },
+  {
+    "repo": "virtualsms-io/mcp-server",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T08:03:53.484698+00:00"
+  },
+  {
+    "repo": "PabloTheThinker/hermespace",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T08:03:53.484702+00:00"
+  },
+  {
+    "repo": "TAOMA-06/emotion-voice-director",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T08:03:53.484703+00:00"
+  },
+  {
+    "repo": "Strategic-Automation/violin",
+    "score": 66,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T08:03:53.484705+00:00"
+  },
+  {
+    "repo": "shivros/hermes-agent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T08:03:53.484707+00:00"
   }
 ]
