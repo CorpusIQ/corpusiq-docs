@@ -21363,5 +21363,96 @@
     ],
     "discovered_at": "2026-07-19T05:04:10.839914+00:00",
     "status": "pending"
+  },
+  {
+    "name": "timfewi/tentaflake",
+    "url": "https://github.com/timfewi/tentaflake",
+    "description": "Declaratively deploy & manage multiple isolated Hermes AI agents on a single NixOS machine \u2014 each with its own secrets, skills, and personality.",
+    "stars": 26,
+    "forks": 2,
+    "language": "Nix",
+    "topics": [],
+    "updated_at": "2026-07-19T07:00:58Z",
+    "category": "core",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "hugocarreira/agentrc",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "Bo1202/Aivy-OS",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-07-19T07:01:59.630050+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "khalednoor75/hermes-trading",
+    "url": "https://github.com/khalednoor75/hermes-trading",
+    "description": "Self-improving EUR/USD paper trading agent powered by Hermes",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-19T07:00:38Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-19T07:02:02.633180+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lerlerchan/ScholarStack",
+    "url": "https://github.com/lerlerchan/ScholarStack",
+    "description": "helping scholar / reseracher to do academic research via Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-19T07:00:04Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-19T07:02:05.636729+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "robin-maki/linear-hermes-adapter",
+    "url": "https://github.com/robin-maki/linear-hermes-adapter",
+    "description": "Linear Agent API bridge for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-07-19T07:02:24Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-19T07:02:28.444018+00:00",
+    "status": "pending"
   }
 ]

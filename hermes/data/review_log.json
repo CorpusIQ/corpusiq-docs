@@ -5443,5 +5443,40 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-19T05:04:39.810679+00:00"
+  },
+  {
+    "repo": "timfewi/tentaflake",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T07:04:19.164379+00:00"
+  },
+  {
+    "repo": "khalednoor75/hermes-trading",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T07:04:19.164382+00:00"
+  },
+  {
+    "repo": "lerlerchan/ScholarStack",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T07:04:19.164384+00:00"
+  },
+  {
+    "repo": "robin-maki/linear-hermes-adapter",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-19T07:04:19.164386+00:00"
+  },
+  {
+    "repo": "CorpusIQ/corpusiq-docs",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-19T07:04:19.164388+00:00"
   }
 ]
