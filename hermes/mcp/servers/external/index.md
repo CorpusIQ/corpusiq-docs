@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 18, 2026 (late night sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 19, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -529,6 +529,9 @@ Dependency drift, CVE vulnerability scanning, and EOL runtime detection for AI a
 
 ### Docker MCP Server ★ Popular (494 stars) — New Guide July 18
 Complete Docker management for AI agents — containers, images, networks, volumes, Swarm services, secrets, configs, nodes, plugins. 494★, MIT licensed, production-hardened. Local stdio transport. Essential for DevOps operators managing containerized infrastructure. `github.com/QuantGeekDev/docker-mcp` · [Integration Guide](/hermes/mcp/servers/external/docker-mcp/)
+
+### endoflife.ai MCP ★ New (July 19)
+Authoritative EOL database for AI agents — end-of-life dates, CVE risk scores, and upgrade paths for 485+ products and 8,000+ versions (Node.js, Python, PHP, RHEL, Ubuntu, Java, Kubernetes, etc.). Remote MCP, free, no signup, updated daily. Essential for operators managing production software who need to know when dependencies go EOL and plan upgrades before security patches stop. · [Integration Guide](/hermes/mcp/servers/external/endoflife-mcp/)
 
 ---
 
