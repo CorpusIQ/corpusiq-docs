@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search, DELETE /delete_my_data documentation.">
+        <meta name="description" content="Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search">
       
       
       
@@ -22,19 +22,19 @@
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="/docs/assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
-      
-        <title>CorpusIQ API Endpoints Reference  --  Full Request/Response Schemas - CorpusIQ Docs</title>
-      
+  
+    <title>CorpusIQ API Endpoints Reference</title>
+  
+
     
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="/docs/assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="/docs/assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -53,7 +53,7 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra-v2.css">
+      <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -62,29 +62,27 @@
     
     
   
-  <!-- Open Graph tags — required for social sharing previews (LinkedIn, X, Facebook) -->
+  
+  
   
     
-      <meta property="og:title" content="CorpusIQ API Endpoints Reference  --  Full Request/Response Schemas">
-    
-    
-      <meta property="og:description" content="Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search, DELETE /delete_my_data documentation.">
+  
+  
     
   
+  <!-- Open Graph — LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/api/endpoints.html">
   <meta property="og:site_name" content="CorpusIQ Docs">
+  <meta property="og:title" content="CorpusIQ API Endpoints Reference">
+  <meta property="og:description" content="Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search">
+  <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
+  <meta property="og:image:alt" content="CorpusIQ Docs">
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  
-    <meta name="twitter:title" content="CorpusIQ API Endpoints Reference  --  Full Request/Response Schemas">
-  
-  
-    <meta name="twitter:description" content="Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search, DELETE /delete_my_data documentation.">
-  
-  <!-- Meta description for SEO crawlers -->
-  
-    <meta name="description" content="Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search, DELETE /delete_my_data documentation.">
-  
+  <meta name="twitter:title" content="CorpusIQ API Endpoints Reference">
+  <meta name="twitter:description" content="Complete CorpusIQ API endpoints reference with request/response schemas, code examples in cURL, JavaScript, and Python. POST /query, POST /deep_search">
+  <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
 
   </head>
   
@@ -141,7 +139,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CorpusIQ API Endpoints Reference  --  Full Request/Response Schemas
+              CorpusIQ API Endpoints Reference
             
           </span>
         </div>
@@ -8578,7 +8576,7 @@
 </code></pre></div>
 <h3 id="code-examples">Code Examples<a class="headerlink" href="#code-examples" title="Anchor link to this section">&para;</a></h3>
 <p><strong>cURL</strong></p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://api.corpusiq.io/v1/query<span class="w"> </span><span class="se">\</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer &lt;token&gt;&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Idempotency-Key: </span><span class="k">$(</span>uuidgen<span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
@@ -8589,7 +8587,7 @@
 <span class="s1">  }&#39;</span>
 </code></pre></div>
 <p><strong>JavaScript</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://api.corpusiq.io/v1/query&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;POST&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="p">,</span>
@@ -8611,7 +8609,7 @@
 <span class="kn">import</span> <span class="nn">uuid</span>
 
 <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span>
-    <span class="s2">&quot;https://api.corpusiq.io/v1/query&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
     <span class="n">headers</span><span class="o">=</span><span class="p">{</span>
         <span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
         <span class="s2">&quot;Content-Type&quot;</span><span class="p">:</span> <span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
@@ -8701,7 +8699,7 @@
 </code></pre></div>
 <h3 id="code-examples_1">Code Examples<a class="headerlink" href="#code-examples_1" title="Anchor link to this section">&para;</a></h3>
 <p><strong>cURL</strong></p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://api.corpusiq.io/v1/deep_search<span class="w"> </span><span class="se">\</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer &lt;token&gt;&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
@@ -8711,7 +8709,7 @@
 <span class="s1">  }&#39;</span>
 </code></pre></div>
 <p><strong>JavaScript</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://api.corpusiq.io/v1/deep_search&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;POST&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="p">,</span>
@@ -8728,7 +8726,7 @@
 <div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">requests</span>
 
 <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span>
-    <span class="s2">&quot;https://api.corpusiq.io/v1/deep_search&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
     <span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;Content-Type&quot;</span><span class="p">:</span> <span class="s2">&quot;application/json&quot;</span><span class="p">},</span>
     <span class="n">json</span><span class="o">=</span><span class="p">{</span>
         <span class="s2">&quot;query&quot;</span><span class="p">:</span> <span class="s2">&quot;Q3 revenue projections&quot;</span><span class="p">,</span>
@@ -8760,11 +8758,11 @@
 </code></pre></div>
 <h3 id="code-examples_2">Code Examples<a class="headerlink" href="#code-examples_2" title="Anchor link to this section">&para;</a></h3>
 <p><strong>cURL</strong></p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>DELETE<span class="w"> </span>https://api.corpusiq.io/v1/delete_my_data<span class="w"> </span><span class="se">\</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>DELETE<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer &lt;token&gt;&quot;</span>
 </code></pre></div>
 <p><strong>JavaScript</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://api.corpusiq.io/v1/delete_my_data&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;DELETE&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="w"> </span><span class="p">},</span>
 <span class="p">});</span>
@@ -8775,7 +8773,7 @@
 <div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">requests</span>
 
 <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span>
-    <span class="s2">&quot;https://api.corpusiq.io/v1/delete_my_data&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
     <span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">},</span>
 <span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s2">&quot;message&quot;</span><span class="p">])</span>
@@ -8859,9 +8857,9 @@ A: Pass a 'connectors' array in your /query request body specifying which data s
     
     
   
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="/docs/assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../javascripts/hermes-nav.js?v=2"></script>
+        <script src="/docs/javascripts/hermes-nav.js?v=2"></script>
       
     
   <script>

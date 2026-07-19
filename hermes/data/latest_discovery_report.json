@@ -1,61 +1,56 @@
 {
-  "run_time": "2026-07-15T14:06:39.603988+00:00",
+  "run_time": "2026-07-19T08:03:53.505753+00:00",
   "new_approved": [
     {
-      "name": "agent-of-empires/agent-of-empires",
-      "url": "https://github.com/agent-of-empires/agent-of-empires",
-      "description": "Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding.",
-      "stars": 2816,
-      "forks": 265,
-      "language": "Rust",
+      "name": "CorpusIQ/corpusiq-docs",
+      "url": "https://github.com/CorpusIQ/corpusiq-docs",
+      "description": "Hermes Agent Production Knowledge Repository \u2014 406+ repos, AI Agent Marketplace, MCP servers, autonomous AI agent patterns. Production-tested from 1,200+ hours of ops. Updated daily.",
+      "stars": 14,
+      "forks": 5,
+      "language": "HTML",
       "topics": [
-        "ai-coding",
-        "claude",
+        "agent-skills",
+        "ai-agents",
+        "awesome-mcp",
+        "business-ai",
+        "business-intelligence",
         "claude-code",
-        "cli",
-        "codex",
-        "cursor",
-        "factory-droid-cli",
-        "gemini",
-        "gemini-cli",
-        "github-copilot-cli",
+        "corpusiq",
         "hermes-agent",
-        "llm",
-        "mistral-vibe",
-        "opencode",
-        "orchestrator",
-        "pi",
-        "terminal",
-        "tmux",
-        "vibe",
-        "vibe-coding"
+        "mcp",
+        "mcp-server",
+        "nous-research",
+        "skills-marketplace"
       ],
-      "updated_at": "2026-07-15T14:01:42Z",
-      "category": "forks",
-      "score": 72,
+      "updated_at": "2026-07-19T07:05:19Z",
+      "category": "mcp",
+      "score": 75,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
-        "hermes_topic",
-        "high_stars_1000+",
+        "direct_hermes_reference",
+        "agent_ecosystem",
+        "some_stars_10+",
         "detailed_description",
         "active_week",
         "has_homepage"
       ],
       "near_duplicates": [
-        "tale-project/tale",
-        "AVIDS2/memorix",
-        "ruvnet/metaharness"
+        "longyunfeigu/learn-hermes-agent",
+        "crispyb0i/hermes-operator-pack",
+        "BBridgeers/hermes-skills",
+        "anomaliagent007-hue/hermes-mimo-bridge",
+        "cx2002302-lang/zettelkasten-second-memory"
       ],
-      "discovered_at": "2026-07-15T14:04:41.365807+00:00",
+      "discovered_at": "2026-07-19T08:01:40.455620+00:00",
       "status": "approved",
-      "approved_at": "2026-07-15T14:06:39.594525+00:00"
+      "approved_at": "2026-07-19T08:03:53.484678+00:00"
     }
   ],
   "stats": {
-    "total_found": 16,
+    "total_found": 9,
     "auto_approved": 1,
-    "pending_review": 15,
-    "total_approved": 145,
-    "total_pending": 636
+    "pending_review": 8,
+    "total_approved": 148,
+    "total_pending": 764
   }
 }

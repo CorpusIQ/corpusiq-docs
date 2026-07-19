@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and validation errors (400).">
+        <meta name="description" content="Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and">
       
       
       
@@ -22,19 +22,19 @@
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="/docs/assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
-      
-        <title>CorpusIQ API Error Codes  --  Troubleshooting and Error Reference - CorpusIQ Docs</title>
-      
+  
+    <title>CorpusIQ API Error Codes</title>
+  
+
     
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="/docs/assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="/docs/assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -53,7 +53,7 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra-v2.css">
+      <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -62,29 +62,27 @@
     
     
   
-  <!-- Open Graph tags — required for social sharing previews (LinkedIn, X, Facebook) -->
+  
+  
   
     
-      <meta property="og:title" content="CorpusIQ API Error Codes  --  Troubleshooting and Error Reference">
-    
-    
-      <meta property="og:description" content="Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and validation errors (400).">
+  
+  
     
   
+  <!-- Open Graph — LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/api/errors.html">
   <meta property="og:site_name" content="CorpusIQ Docs">
+  <meta property="og:title" content="CorpusIQ API Error Codes">
+  <meta property="og:description" content="Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and">
+  <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
+  <meta property="og:image:alt" content="CorpusIQ Docs">
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  
-    <meta name="twitter:title" content="CorpusIQ API Error Codes  --  Troubleshooting and Error Reference">
-  
-  
-    <meta name="twitter:description" content="Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and validation errors (400).">
-  
-  <!-- Meta description for SEO crawlers -->
-  
-    <meta name="description" content="Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and validation errors (400).">
-  
+  <meta name="twitter:title" content="CorpusIQ API Error Codes">
+  <meta name="twitter:description" content="Complete CorpusIQ API error reference: HTTP status codes, error types, troubleshooting guidance, rate limit errors (429), authentication errors (401), and">
+  <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
 
   </head>
   
@@ -141,7 +139,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CorpusIQ API Error Codes  --  Troubleshooting and Error Reference
+              CorpusIQ API Error Codes
             
           </span>
         </div>
@@ -8405,21 +8403,21 @@
 <p>When you receive a <code>429 Too Many Requests</code>, inspect the <code>retry_after_seconds</code> field:</p>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">time</span>
 
-<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://api.corpusiq.io/v1/query&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
 
 <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">429</span><span class="p">:</span>
     <span class="n">retry_after</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s2">&quot;error&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;retry_after_seconds&quot;</span><span class="p">,</span> <span class="mi">60</span><span class="p">)</span>
     <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">retry_after</span><span class="p">)</span>
-    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://api.corpusiq.io/v1/query&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
 </code></pre></div>
 <h3 id="handling-401-token-expiry">Handling 401 Token Expiry<a class="headerlink" href="#handling-401-token-expiry" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://api.corpusiq.io/v1/query&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+<div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="w"> </span><span class="p">},</span>
 <span class="p">});</span>
 
 <span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">response</span><span class="p">.</span><span class="nx">status</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="mf">401</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">headers</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;X-Token-Expired&quot;</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="nx">token</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">refreshToken</span><span class="p">();</span><span class="w"> </span><span class="c1">// Re-authenticate</span>
-<span class="w">  </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://api.corpusiq.io/v1/query&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="w"> </span><span class="p">},</span>
 <span class="w">  </span><span class="p">});</span>
 <span class="p">}</span>
@@ -8431,7 +8429,7 @@
 
 <span class="n">max_retries</span> <span class="o">=</span> <span class="mi">3</span>
 <span class="k">for</span> <span class="n">attempt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_retries</span><span class="p">):</span>
-    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://api.corpusiq.io/v1/query&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">&lt;</span> <span class="mi">500</span><span class="p">:</span>
         <span class="k">break</span>
     <span class="k">if</span> <span class="n">attempt</span> <span class="o">&lt;</span> <span class="n">max_retries</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
@@ -8517,9 +8515,9 @@ A: A 400 error means your request body or parameters are malformed. Check that r
     
     
   
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="/docs/assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../javascripts/hermes-nav.js?v=2"></script>
+        <script src="/docs/javascripts/hermes-nav.js?v=2"></script>
       
     
   <script>

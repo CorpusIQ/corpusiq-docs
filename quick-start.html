@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Get your first CorpusIQ query running in under 5 minutes. Step-by-step guide: sign up, connect business tools via OAuth, get API token, and query CRM, accounting, or analytics with natural language.">
+        <meta name="description" content="Get your first CorpusIQ query running in under 5 minutes. Step-by-step guide: sign up, connect business tools via OAuth, get API token, and query CRM">
       
       
       
@@ -22,19 +22,19 @@
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="/docs/assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
-      
-        <title>CorpusIQ Quick Start Guide — Connect Business Data to AI in 5 Minutes - CorpusIQ Docs</title>
-      
+  
+    <title>CorpusIQ Quick Start — Connect Business Data to AI</title>
+  
+
     
-    
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="/docs/assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="/docs/assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -53,7 +53,7 @@
       
     
     
-      <link rel="stylesheet" href="stylesheets/extra-v2.css">
+      <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -62,29 +62,27 @@
     
     
   
-  <!-- Open Graph tags — required for social sharing previews (LinkedIn, X, Facebook) -->
+  
+  
   
     
-      <meta property="og:title" content="CorpusIQ Quick Start Guide — Connect Business Data to AI in 5 Minutes">
-    
-    
-      <meta property="og:description" content="Get your first CorpusIQ query running in under 5 minutes. Step-by-step guide: sign up, connect business tools via OAuth, get API token, and query CRM, accounting, or analytics with natural language.">
+  
+  
     
   
+  <!-- Open Graph — LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/quick-start.html">
   <meta property="og:site_name" content="CorpusIQ Docs">
+  <meta property="og:title" content="CorpusIQ Quick Start — Connect Business Data to AI">
+  <meta property="og:description" content="Get your first CorpusIQ query running in under 5 minutes. Step-by-step guide: sign up, connect business tools via OAuth, get API token, and query CRM">
+  <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
+  <meta property="og:image:alt" content="CorpusIQ Docs">
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  
-    <meta name="twitter:title" content="CorpusIQ Quick Start Guide — Connect Business Data to AI in 5 Minutes">
-  
-  
-    <meta name="twitter:description" content="Get your first CorpusIQ query running in under 5 minutes. Step-by-step guide: sign up, connect business tools via OAuth, get API token, and query CRM, accounting, or analytics with natural language.">
-  
-  <!-- Meta description for SEO crawlers -->
-  
-    <meta name="description" content="Get your first CorpusIQ query running in under 5 minutes. Step-by-step guide: sign up, connect business tools via OAuth, get API token, and query CRM, accounting, or analytics with natural language.">
-  
+  <meta name="twitter:title" content="CorpusIQ Quick Start — Connect Business Data to AI">
+  <meta name="twitter:description" content="Get your first CorpusIQ query running in under 5 minutes. Step-by-step guide: sign up, connect business tools via OAuth, get API token, and query CRM">
+  <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
 
   </head>
   
@@ -141,7 +139,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CorpusIQ Quick Start Guide — Connect Business Data to AI in 5 Minutes
+              CorpusIQ Quick Start — Connect Business Data to AI
             
           </span>
         </div>
@@ -8440,7 +8438,7 @@
 <h2 id="step-4-make-your-first-query">Step 4: Make Your First Query<a class="headerlink" href="#step-4-make-your-first-query" title="Anchor link to this section">&para;</a></h2>
 <p>Once your tools are connected and you have a token, you can query your data from the terminal, your backend, or any HTTP client.</p>
 <h3 id="basic-curl-example">Basic cURL Example<a class="headerlink" href="#basic-curl-example" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://api.corpusiq.io/v1/query<span class="w"> </span><span class="se">\</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$CORPUSIQ_TOKEN</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;query&quot;: &quot;Show me my 5 most recent emails about budgets&quot;}&#39;</span>
@@ -8476,7 +8474,7 @@
 <span class="p">}</span>
 </code></pre></div>
 <h3 id="filter-by-specific-connectors">Filter by Specific Connectors<a class="headerlink" href="#filter-by-specific-connectors" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://api.corpusiq.io/v1/query<span class="w"> </span><span class="se">\</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$CORPUSIQ_TOKEN</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
@@ -8486,7 +8484,7 @@
 <span class="s1">  }&#39;</span>
 </code></pre></div>
 <h3 id="use-idempotency-for-safe-retries">Use Idempotency for Safe Retries<a class="headerlink" href="#use-idempotency-for-safe-retries" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://api.corpusiq.io/v1/query<span class="w"> </span><span class="se">\</span>
+<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$CORPUSIQ_TOKEN</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Idempotency-Key: </span><span class="k">$(</span>uuidgen<span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
@@ -8584,9 +8582,9 @@ A: Go to Dashboard → Settings → API, click Generate Token, and copy it. Stor
     
     
   
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="/docs/assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="javascripts/hermes-nav.js?v=2"></script>
+        <script src="/docs/javascripts/hermes-nav.js?v=2"></script>
       
     
   <script>

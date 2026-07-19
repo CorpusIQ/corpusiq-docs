@@ -4191,49 +4191,6 @@
     "approved_at": "2026-07-14T08:09:52.606953+00:00"
   },
   {
-    "name": "CorpusIQ/corpusiq-docs",
-    "url": "https://github.com/CorpusIQ/corpusiq-docs",
-    "description": "Hermes Agent Production Knowledge Repository \u2014 406+ repos, AI Agent Marketplace, MCP servers, autonomous AI agent patterns. Production-tested from 1,200+ hours of ops. Updated daily.",
-    "stars": 12,
-    "forks": 5,
-    "language": "HTML",
-    "topics": [
-      "agent-skills",
-      "ai-agents",
-      "awesome-mcp",
-      "business-ai",
-      "business-intelligence",
-      "claude-code",
-      "corpusiq",
-      "hermes-agent",
-      "mcp",
-      "mcp-server",
-      "nous-research",
-      "skills-marketplace"
-    ],
-    "updated_at": "2026-07-15T03:10:49Z",
-    "category": "mcp",
-    "score": 75,
-    "tier": "AUTO_APPROVE",
-    "score_reasons": [
-      "direct_hermes_reference",
-      "agent_ecosystem",
-      "some_stars_10+",
-      "detailed_description",
-      "active_week",
-      "has_homepage"
-    ],
-    "near_duplicates": [
-      "longyunfeigu/learn-hermes-agent",
-      "crispyb0i/hermes-operator-pack",
-      "BBridgeers/hermes-skills",
-      "anomaliagent007-hue/hermes-mimo-bridge"
-    ],
-    "discovered_at": "2026-07-15T05:08:53.774409+00:00",
-    "status": "approved",
-    "approved_at": "2026-07-15T05:11:15.247343+00:00"
-  },
-  {
     "name": "agent-of-empires/agent-of-empires",
     "url": "https://github.com/agent-of-empires/agent-of-empires",
     "description": "Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding.",
@@ -4281,5 +4238,133 @@
     "discovered_at": "2026-07-15T14:04:41.365807+00:00",
     "status": "approved",
     "approved_at": "2026-07-15T14:06:39.594525+00:00"
+  },
+  {
+    "name": "zcweah1981/awesome-hermes-agent-zh",
+    "url": "https://github.com/zcweah1981/awesome-hermes-agent-zh",
+    "description": "Hermes Agent\u4e2d\u6587\u7ad9- \u4e2d\u6587\u5b9e\u6218\u5165\u53e3\uff1a\u4e0a\u624b\u8def\u5f84\u3001\u56fd\u5185\u843d\u5730\u3001OpenClaw \u5171\u5b58\u8fc1\u79fb\u3001\u6392\u969c\u53c2\u8003\u4e0e\u53ef\u4e0b\u8f7d\u65b9\u6848\u5305\u3002",
+    "stars": 37,
+    "forks": 6,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "ai-workflow",
+      "chinese-docs",
+      "deepseek",
+      "hermes",
+      "hermes-agent",
+      "hermes-skill",
+      "hermes-zh",
+      "mcp",
+      "multi-agent",
+      "openclaw",
+      "openclaw-agent",
+      "qwen"
+    ],
+    "updated_at": "2026-07-17T05:00:00Z",
+    "category": "core",
+    "score": 70,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-17T05:03:07.486431+00:00",
+    "status": "approved",
+    "approved_at": "2026-07-17T05:05:45.081994+00:00"
+  },
+  {
+    "name": "cx2002302-lang/zettelkasten-second-memory",
+    "url": "https://github.com/cx2002302-lang/zettelkasten-second-memory",
+    "description": "An OpenClaw (2026.4/2026.6+) and Hermes Agent plugin that turns AI conversations into a permanent Zettelkasten knowledge base \u2014 atomic notes, bi-directional links, knowledge distillation, and MCP tool exposure.",
+    "stars": 16,
+    "forks": 2,
+    "language": "TypeScript",
+    "topics": [
+      "ai-agent",
+      "compatibility",
+      "hermes-agent",
+      "knowledge-graph",
+      "knowledge-management",
+      "markdown",
+      "mcp",
+      "mcp-server",
+      "note-taking",
+      "openclaw",
+      "second-memory",
+      "sqlite",
+      "zettelkasten"
+    ],
+    "updated_at": "2026-07-19T04:55:05Z",
+    "category": "core",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "1Panel-dev/1Panel",
+      "Romanescu11/hermes-skill-factory",
+      "GumbyEnder/hermes-kanban",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "mlennie/hermes-mcp",
+      "luluthehermeticcrabBot/phronesis",
+      "kaankacar/stellar-agent-kit",
+      "Aphelios01-sdk/hermes-brain",
+      "anomaliagent007-hue/hermes-mimo-bridge",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-07-19T05:01:56.182517+00:00",
+    "status": "approved",
+    "approved_at": "2026-07-19T05:04:39.810647+00:00"
+  },
+  {
+    "name": "WEIFENG2333/phistory",
+    "url": "https://github.com/WEIFENG2333/phistory",
+    "description": "Phistory automatically archives versioned system prompt snapshots from agent CLIs like Claude Code, Codex, OpenClaw, and Hermes.",
+    "stars": 340,
+    "forks": 28,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-07-19T04:54:48Z",
+    "category": "core",
+    "score": 70,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_mention",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-07-19T05:01:59.184697+00:00",
+    "status": "approved",
+    "approved_at": "2026-07-19T05:04:39.810657+00:00"
   }
 ]

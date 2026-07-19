@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Complete CorpusIQ API reference: authentication, endpoints, rate limits, error codes, OpenAPI spec, schemas, and webhooks. Everything you need to integrate with the CorpusIQ API.">
+        <meta name="description" content="Complete CorpusIQ API reference: authentication, endpoints, rate limits, error codes, OpenAPI spec, schemas, and webhooks. Everything you need to integrate">
       
       
       
@@ -18,19 +18,19 @@
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="/docs/assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
-      
-        <title>CorpusIQ API Reference — REST API, Authentication, and SDK Documentation - CorpusIQ Docs</title>
-      
+  
+    <title>CorpusIQ API Reference — REST, Auth, and SDKs</title>
+  
+
     
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="/docs/assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="/docs/assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,7 +49,7 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra-v2.css">
+      <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -58,29 +58,27 @@
     
     
   
-  <!-- Open Graph tags — required for social sharing previews (LinkedIn, X, Facebook) -->
+  
+  
   
     
-      <meta property="og:title" content="CorpusIQ API Reference — REST API, Authentication, and SDK Documentation">
-    
-    
-      <meta property="og:description" content="Complete CorpusIQ API reference: authentication, endpoints, rate limits, error codes, OpenAPI spec, schemas, and webhooks. Everything you need to integrate with the CorpusIQ API.">
+  
+  
     
   
+  <!-- Open Graph — LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/api/index.html">
   <meta property="og:site_name" content="CorpusIQ Docs">
+  <meta property="og:title" content="CorpusIQ API Reference — REST, Auth, and SDKs">
+  <meta property="og:description" content="Complete CorpusIQ API reference: authentication, endpoints, rate limits, error codes, OpenAPI spec, schemas, and webhooks. Everything you need to integrate">
+  <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
+  <meta property="og:image:alt" content="CorpusIQ Docs">
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  
-    <meta name="twitter:title" content="CorpusIQ API Reference — REST API, Authentication, and SDK Documentation">
-  
-  
-    <meta name="twitter:description" content="Complete CorpusIQ API reference: authentication, endpoints, rate limits, error codes, OpenAPI spec, schemas, and webhooks. Everything you need to integrate with the CorpusIQ API.">
-  
-  <!-- Meta description for SEO crawlers -->
-  
-    <meta name="description" content="Complete CorpusIQ API reference: authentication, endpoints, rate limits, error codes, OpenAPI spec, schemas, and webhooks. Everything you need to integrate with the CorpusIQ API.">
-  
+  <meta name="twitter:title" content="CorpusIQ API Reference — REST, Auth, and SDKs">
+  <meta name="twitter:description" content="Complete CorpusIQ API reference: authentication, endpoints, rate limits, error codes, OpenAPI spec, schemas, and webhooks. Everything you need to integrate">
+  <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
 
   </head>
   
@@ -137,7 +135,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CorpusIQ API Reference — REST API, Authentication, and SDK Documentation
+              CorpusIQ API Reference — REST, Auth, and SDKs
             
           </span>
         </div>
@@ -8079,6 +8077,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#all-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        All Pages
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -8100,7 +8109,7 @@
 
 
 <h1 id="corpusiq-api-reference">CorpusIQ API Reference<a class="headerlink" href="#corpusiq-api-reference" title="Anchor link to this section">&para;</a></h1>
-<p>Full REST API documentation for programmatic access to CorpusIQ. Authenticate with bearer tokens, query your connected business tools, and manage user data — all through a JSON API at <code>https://api.corpusiq.io/v1</code>.</p>
+<p>Full REST API documentation for programmatic access to CorpusIQ. Authenticate with bearer tokens, query your connected business tools, and manage user data — all through a JSON API at <code>https://mcp2.corpusiq.io/mcp</code>.</p>
 <h2 id="quick-links">Quick Links<a class="headerlink" href="#quick-links" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -8145,12 +8154,12 @@
 </tbody>
 </table>
 <h2 id="base-url">Base URL<a class="headerlink" href="#base-url" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>https://api.corpusiq.io/v1
+<div class="highlight"><pre><span></span><code>https://mcp2.corpusiq.io/mcp
 </code></pre></div>
 <h2 id="authentication">Authentication<a class="headerlink" href="#authentication" title="Anchor link to this section">&para;</a></h2>
 <p>All API requests require a Bearer token in the <code>Authorization</code> header:</p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer YOUR_API_TOKEN&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">     </span>https://api.corpusiq.io/v1/me
+<span class="w">     </span>https://mcp2.corpusiq.io/mcp
 </code></pre></div>
 <p>See <a href="authentication.html">Authentication</a> for token creation, OAuth flow, and security best practices.</p>
 <h2 id="core-endpoints">Core Endpoints<a class="headerlink" href="#core-endpoints" title="Anchor link to this section">&para;</a></h2>
@@ -8166,6 +8175,33 @@ DELETE<span class="w"> </span>/delete_my_data
 <p>Full endpoint documentation with request/response examples: <a href="endpoints.html">Endpoints</a></p>
 <hr />
 <p><em>← <a href="/docs/">Docs Home</a> | <a href="overview.html">Next: API Overview →</a></em></p>
+<h2 id="all-pages">All Pages<a class="headerlink" href="#all-pages" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>
+<p><a href="authentication.html">CorpusIQ API Authentication</a></p>
+</li>
+<li>
+<p><a href="endpoints.html">CorpusIQ API Endpoints Reference</a></p>
+</li>
+<li>
+<p><a href="errors.html">CorpusIQ API Error Codes</a></p>
+</li>
+<li>
+<p><a href="openapi.html">OpenAPI Specification</a></p>
+</li>
+<li>
+<p><a href="overview.html">CorpusIQ API Overview</a></p>
+</li>
+<li>
+<p><a href="rate-limits.html">CorpusIQ API Rate Limits</a></p>
+</li>
+<li>
+<p><a href="schemas.html">CorpusIQ API Schemas  --  Data Models and JSON Reference</a></p>
+</li>
+<li>
+<p><a href="webhooks.html">CorpusIQ Webhooks</a></p>
+</li>
+</ul>
 
 
 
@@ -8222,9 +8258,9 @@ DELETE<span class="w"> </span>/delete_my_data
     
     
   
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="/docs/assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../javascripts/hermes-nav.js?v=2"></script>
+        <script src="/docs/javascripts/hermes-nav.js?v=2"></script>
       
     
   <script>

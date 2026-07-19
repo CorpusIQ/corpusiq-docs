@@ -309,6 +309,10 @@ def discover_repos(token, dry_run=False):
                     "status": "pending"
                 }
 
+                # Skip self — don't add our own repo to the ecosystem
+                if full_name == "CorpusIQ/corpusiq-docs":
+                    continue
+
                 new_finds.append(entry)
 
                 if tier == "AUTO_APPROVE" and not dry_run:

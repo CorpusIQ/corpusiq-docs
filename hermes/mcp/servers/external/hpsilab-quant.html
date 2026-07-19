@@ -8138,38 +8138,57 @@
 <table>
 <thead>
 <tr>
-<th>Category</th>
-<th>Tools</th>
+<th>Tool Name</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Options Analytics</strong></td>
-<td>Black-Scholes pricing, Greeks (delta, gamma, theta, vega, rho), IV surface construction</td>
+<td><code>analyze_stock</code></td>
+<td>Comprehensive stock analysis with fundamentals and technical indicators</td>
 </tr>
 <tr>
-<td><strong>Simulations</strong></td>
+<td><code>get_iv_radar</code></td>
+<td>Implied volatility surface visualization and skew analysis</td>
+</tr>
+<tr>
+<td><code>get_option_pressure</code></td>
+<td>Options flow analysis — call/put volume, open interest, unusual activity</td>
+</tr>
+<tr>
+<td><code>get_monte_carlo</code></td>
 <td>Monte Carlo path generation, scenario analysis, VaR calculation</td>
 </tr>
 <tr>
-<td><strong>Market Signals</strong></td>
-<td>AI-driven buy/sell signals, regime detection (bull/bear/range), anomaly detection</td>
+<td><code>get_ai_prediction</code></td>
+<td>AI-driven price predictions with confidence intervals</td>
 </tr>
 <tr>
-<td><strong>Backtesting</strong></td>
+<td><code>get_equity_curves</code></td>
 <td>Strategy backtesting with transaction costs, slippage, benchmark comparison</td>
 </tr>
 <tr>
-<td><strong>Quantum ML</strong></td>
-<td>Qiskit-based quantum feature maps for market regime classification</td>
+<td><code>generate_stock_images</code></td>
+<td>Generate annotated stock charts with technical indicators</td>
+</tr>
+<tr>
+<td><code>generate_stock_research_report</code></td>
+<td>Full research report with fundamentals, technicals, and risk metrics</td>
+</tr>
+<tr>
+<td><code>get_pretrade_risk_scan</code></td>
+<td>Pre-trade risk assessment: margin, exposure, concentration limits</td>
 </tr>
 </tbody>
 </table>
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># Via PyPI (simplest)</span>
+<div class="highlight"><pre><span></span><code><span class="c1"># Option 1: Remote endpoint (recommended — no local install)</span>
+hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>hpsilab<span class="w"> </span>--url<span class="w"> </span>https://hpsilab.com/mcp
+
+<span class="c1"># Option 2: Via PyPI (local install)</span>
 pip<span class="w"> </span>install<span class="w"> </span>hpsilab-mcp
 
-<span class="c1"># Or from GitHub</span>
+<span class="c1"># Option 3: From GitHub</span>
 git<span class="w"> </span>clone<span class="w"> </span>https://github.com/haiyunsky/hpsilab-quant-finance-mcp.git
 <span class="nb">cd</span><span class="w"> </span>hpsilab-quant-finance-mcp
 pip<span class="w"> </span>install<span class="w"> </span>.
@@ -8179,7 +8198,7 @@ cp<span class="w"> </span>env.example<span class="w"> </span>.env
 <span class="c1"># Run the MCP server</span>
 hpsilab-quant-finance-mcp
 
-<span class="c1"># Add to Hermes</span>
+<span class="c1"># Add local install to Hermes</span>
 hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>hpsilab<span class="w"> </span>--command<span class="w"> </span><span class="s2">&quot;hpsilab-quant-finance-mcp&quot;</span>
 </code></pre></div>
 <p>See also: <a href="https://pypi.org/project/hpsilab-mcp/">PyPI package</a> | <a href="https://hpsilab.com">Official site</a></p>

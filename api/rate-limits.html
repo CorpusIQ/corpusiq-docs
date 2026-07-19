@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Complete guide to CorpusIQ API rate limits. Per-endpoint quotas, rate limit headers, retry strategies, 429 handling, fair-use policies, and how to request limit increases for enterprise accounts.">
+        <meta name="description" content="Complete guide to CorpusIQ API rate limits. Per-endpoint quotas, rate limit headers, retry strategies, 429 handling, fair-use policies, and how to request">
       
       
       
@@ -22,19 +22,19 @@
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="/docs/assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
-      
-        <title>CorpusIQ API Rate Limits  --  Quotas, Headers, and Best Practices - CorpusIQ Docs</title>
-      
+  
+    <title>CorpusIQ API Rate Limits</title>
+  
+
     
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="/docs/assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="/docs/assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -53,7 +53,7 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra-v2.css">
+      <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -62,29 +62,27 @@
     
     
   
-  <!-- Open Graph tags — required for social sharing previews (LinkedIn, X, Facebook) -->
+  
+  
   
     
-      <meta property="og:title" content="CorpusIQ API Rate Limits  --  Quotas, Headers, and Best Practices">
-    
-    
-      <meta property="og:description" content="Complete guide to CorpusIQ API rate limits. Per-endpoint quotas, rate limit headers, retry strategies, 429 handling, fair-use policies, and how to request limit increases for enterprise accounts.">
+  
+  
     
   
+  <!-- Open Graph — LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/api/rate-limits.html">
   <meta property="og:site_name" content="CorpusIQ Docs">
+  <meta property="og:title" content="CorpusIQ API Rate Limits">
+  <meta property="og:description" content="Complete guide to CorpusIQ API rate limits. Per-endpoint quotas, rate limit headers, retry strategies, 429 handling, fair-use policies, and how to request">
+  <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
+  <meta property="og:image:alt" content="CorpusIQ Docs">
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  
-    <meta name="twitter:title" content="CorpusIQ API Rate Limits  --  Quotas, Headers, and Best Practices">
-  
-  
-    <meta name="twitter:description" content="Complete guide to CorpusIQ API rate limits. Per-endpoint quotas, rate limit headers, retry strategies, 429 handling, fair-use policies, and how to request limit increases for enterprise accounts.">
-  
-  <!-- Meta description for SEO crawlers -->
-  
-    <meta name="description" content="Complete guide to CorpusIQ API rate limits. Per-endpoint quotas, rate limit headers, retry strategies, 429 handling, fair-use policies, and how to request limit increases for enterprise accounts.">
-  
+  <meta name="twitter:title" content="CorpusIQ API Rate Limits">
+  <meta name="twitter:description" content="Complete guide to CorpusIQ API rate limits. Per-endpoint quotas, rate limit headers, retry strategies, 429 handling, fair-use policies, and how to request">
+  <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
 
   </head>
   
@@ -141,7 +139,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CorpusIQ API Rate Limits  --  Quotas, Headers, and Best Practices
+              CorpusIQ API Rate Limits
             
           </span>
         </div>
@@ -8471,7 +8469,7 @@
 <p>Check <code>X-RateLimit-Remaining-Minute</code> before making burst requests. If remaining is low, pace your requests or wait for the window to reset.</p>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">time</span>
 
-<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://api.corpusiq.io/v1/query&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
 <span class="n">remaining</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">headers</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;X-RateLimit-Remaining-Minute&quot;</span><span class="p">,</span> <span class="mi">60</span><span class="p">))</span>
 
 <span class="k">if</span> <span class="n">remaining</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
@@ -8562,9 +8560,9 @@ A: Yes. Enterprise plans include increased rate limits. Contact CorpusIQ sales f
     
     
   
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="/docs/assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../javascripts/hermes-nav.js?v=2"></script>
+        <script src="/docs/javascripts/hermes-nav.js?v=2"></script>
       
     
   <script>

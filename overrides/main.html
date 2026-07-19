@@ -1,36 +1,62 @@
 {% extends "base.html" %}
 
+{#
+  Title tag without the "- {{ site_name }}" suffix the base theme appends.
+  Material renders "<page title> - CorpusIQ Docs", and that 15-character suffix
+  pushed many otherwise-fine titles past the 60-char limit Ahrefs flags as
+  "Title too long". Dropping it reclaims those characters. The homepage still
+  uses the site name as its title.
+#}
+{% block htmltitle %}
+  {% if page.meta and page.meta.title %}
+    <title>{{ page.meta.title }}</title>
+  {% elif page.title and not page.is_homepage %}
+    <title>{{ page.title | striptags }}</title>
+  {% else %}
+    <title>{{ config.site_name }}</title>
+  {% endif %}
+{% endblock %}
+
 {% block extrahead %}
   {{ super() }}
-  <!-- Open Graph tags — required for social sharing previews (LinkedIn, X, Facebook) -->
-  {% if page and page.meta %}
-    {% if page.meta.title %}
-      <meta property="og:title" content="{{ page.meta.title }}">
-    {% elif page.title %}
-      <meta property="og:title" content="{{ page.title }}">
-    {% endif %}
-    {% if page.meta.description %}
-      <meta property="og:description" content="{{ page.meta.description }}">
-    {% elif config.site_description %}
-      <meta property="og:description" content="{{ config.site_description }}">
-    {% endif %}
+  {#
+    Social-share head tags, emitted on EVERY page with fallbacks so no page is
+    left without Open Graph or Twitter Card data (Ahrefs "Open Graph tags
+    missing/incomplete", "X (Twitter) card missing"). The previous version
+    gated the whole block on page.meta, so pages without frontmatter got no
+    og:title/description, and it never set og:image / twitter:image (a card
+    with no image reads as incomplete).
+
+    The base theme already emits a single <meta name="description">, so this
+    block intentionally does NOT add one. The earlier version did, producing a
+    duplicate description tag on every page.
+  #}
+  {% set social_image = "https://www.corpusiq.io/og-default.png" %}
+  {% if page and page.meta and page.meta.title %}
+    {% set social_title = page.meta.title %}
+  {% elif page and page.title %}
+    {% set social_title = page.title %}
+  {% else %}
+    {% set social_title = config.site_name %}
   {% endif %}
+  {% if page and page.meta and page.meta.description %}
+    {% set social_desc = page.meta.description | trim %}
+  {% else %}
+    {% set social_desc = config.site_description %}
+  {% endif %}
+  <!-- Open Graph — LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.canonical_url }}">
   <meta property="og:site_name" content="{{ config.site_name }}">
+  <meta property="og:title" content="{{ social_title }}">
+  <meta property="og:description" content="{{ social_desc }}">
+  <meta property="og:image" content="{{ social_image }}">
+  <meta property="og:image:alt" content="{{ config.site_name }}">
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  {% if page and page.meta and page.meta.title %}
-    <meta name="twitter:title" content="{{ page.meta.title }}">
-  {% endif %}
-  {% if page and page.meta and page.meta.description %}
-    <meta name="twitter:description" content="{{ page.meta.description }}">
-  {% endif %}
-  <!-- Meta description for SEO crawlers -->
-  {% if page and page.meta and page.meta.description %}
-    <meta name="description" content="{{ page.meta.description }}">
-  {% elif config.site_description %}
-    <meta name="description" content="{{ config.site_description }}">
-  {% endif %}
+  <meta name="twitter:title" content="{{ social_title }}">
+  <meta name="twitter:description" content="{{ social_desc }}">
+  <meta name="twitter:image" content="{{ social_image }}">
 {% endblock %}
 
 {% block scripts %}

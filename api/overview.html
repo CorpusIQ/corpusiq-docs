@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Complete CorpusIQ REST API overview. Query 50+ business tools (HubSpot, QuickBooks, Stripe) via unified API. Base URL, endpoints, authentication, and response format at api.corpusiq.io/v1.">
+        <meta name="description" content="Complete CorpusIQ REST API overview. Query 50+ business tools (HubSpot, QuickBooks, Stripe) via unified API. Base URL, endpoints, authentication, and">
       
       
       
@@ -22,19 +22,19 @@
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="/docs/assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
-      
-        <title>CorpusIQ API Overview  --  REST API Documentation for Business Data - CorpusIQ Docs</title>
-      
+  
+    <title>CorpusIQ API Overview</title>
+  
+
     
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="/docs/assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="/docs/assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -53,7 +53,7 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra-v2.css">
+      <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -62,29 +62,27 @@
     
     
   
-  <!-- Open Graph tags — required for social sharing previews (LinkedIn, X, Facebook) -->
+  
+  
   
     
-      <meta property="og:title" content="CorpusIQ API Overview  --  REST API Documentation for Business Data">
-    
-    
-      <meta property="og:description" content="Complete CorpusIQ REST API overview. Query 50+ business tools (HubSpot, QuickBooks, Stripe) via unified API. Base URL, endpoints, authentication, and response format at api.corpusiq.io/v1.">
+  
+  
     
   
+  <!-- Open Graph — LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/api/overview.html">
   <meta property="og:site_name" content="CorpusIQ Docs">
+  <meta property="og:title" content="CorpusIQ API Overview">
+  <meta property="og:description" content="Complete CorpusIQ REST API overview. Query 50+ business tools (HubSpot, QuickBooks, Stripe) via unified API. Base URL, endpoints, authentication, and">
+  <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
+  <meta property="og:image:alt" content="CorpusIQ Docs">
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  
-    <meta name="twitter:title" content="CorpusIQ API Overview  --  REST API Documentation for Business Data">
-  
-  
-    <meta name="twitter:description" content="Complete CorpusIQ REST API overview. Query 50+ business tools (HubSpot, QuickBooks, Stripe) via unified API. Base URL, endpoints, authentication, and response format at api.corpusiq.io/v1.">
-  
-  <!-- Meta description for SEO crawlers -->
-  
-    <meta name="description" content="Complete CorpusIQ REST API overview. Query 50+ business tools (HubSpot, QuickBooks, Stripe) via unified API. Base URL, endpoints, authentication, and response format at api.corpusiq.io/v1.">
-  
+  <meta name="twitter:title" content="CorpusIQ API Overview">
+  <meta name="twitter:description" content="Complete CorpusIQ REST API overview. Query 50+ business tools (HubSpot, QuickBooks, Stripe) via unified API. Base URL, endpoints, authentication, and">
+  <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
 
   </head>
   
@@ -141,7 +139,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CorpusIQ API Overview  --  REST API Documentation for Business Data
+              CorpusIQ API Overview
             
           </span>
         </div>
@@ -8361,9 +8359,9 @@
 
 
 <h1 id="api-overview">API Overview<a class="headerlink" href="#api-overview" title="Anchor link to this section">&para;</a></h1>
-<p>CorpusIQ exposes a REST API at <code>https://api.corpusiq.io/v1</code> that allows AI assistants and client applications to query connected business tools, search encrypted archives, and manage user data. All requests are authenticated via Bearer tokens and respond with JSON.</p>
+<p>CorpusIQ exposes a REST API at <code>https://mcp2.corpusiq.io/mcp</code> that allows AI assistants and client applications to query connected business tools, search encrypted archives, and manage user data. All requests are authenticated via Bearer tokens and respond with JSON.</p>
 <h2 id="base-url">Base URL<a class="headerlink" href="#base-url" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>https://api.corpusiq.io/v1
+<div class="highlight"><pre><span></span><code>https://mcp2.corpusiq.io/mcp
 </code></pre></div>
 <p>All endpoint paths are relative to this base. The API version (<code>v1</code>) is part of the URL path. Breaking changes will be released under a new version prefix.</p>
 <h2 id="endpoints">Endpoints<a class="headerlink" href="#endpoints" title="Anchor link to this section">&para;</a></h2>
@@ -8423,7 +8421,7 @@
 </ul>
 <h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: What is the CorpusIQ API base URL?</strong><br />
-A: All CorpusIQ API endpoints are accessed at https://api.corpusiq.io/v1. The API version (v1) is part of the URL path, and all requests must use HTTPS.</p>
+A: All CorpusIQ API endpoints are accessed at https://mcp2.corpusiq.io/mcp. The API version (v1) is part of the URL path, and all requests must use HTTPS.</p>
 <p><strong>Q: How do I authenticate with the CorpusIQ API?</strong><br />
 A: Authentication uses Bearer tokens passed in the Authorization header. Tokens are generated from the CorpusIQ Dashboard and expire after 60 minutes with server-side refresh detection.</p>
 <p><strong>Q: What endpoints does the CorpusIQ API offer?</strong><br />
@@ -8504,9 +8502,9 @@ A: Most queries return results in 1–5 seconds. Cross-source queries spanning m
     
     
   
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="/docs/assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../javascripts/hermes-nav.js?v=2"></script>
+        <script src="/docs/javascripts/hermes-nav.js?v=2"></script>
       
     
   <script>
