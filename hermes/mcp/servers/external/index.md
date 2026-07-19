@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 18, 2026 (evening supplement) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 18, 2026 (late night sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
 
 ---
 
@@ -1347,6 +1347,12 @@ Social media management via MCP — connect Claude, ChatGPT, Cursor, Hermes Agen
 ### Octolens MCP ★ New (July 18)
 Brand monitoring across 15+ platforms (Reddit, X, LinkedIn, HN, YouTube, Bluesky, GitHub, Stack Overflow, podcasts, newsletters, TikTok). AI-filtered mentions with sentiment scoring. Remote MCP via Streamable HTTP + OAuth. Used by Vercel, PostHog, Prisma. Essential for marketing operators tracking brand presence. `octolens.com` · [Integration Guide](/hermes/mcp/servers/external/octolens/)
 
+### TofuBofu AI Visibility MCP ★ New (July 19)
+Free AI visibility scan for B2B companies — checks how a domain appears across ChatGPT, Claude, Gemini, Perplexity, and Google AI Overviews. Returns Brand Visibility Score, share-of-voice breakdown, top coverage themes, and competitor rank. Remote MCP, no API key. First MCP server dedicated to AI-brand visibility measurement. Essential for operators tracking how AI platforms represent their brand. `tofubofu.com` · [Integration Guide](/hermes/mcp/servers/external/tofubofu-mcp/)
+
+### Competitor Tracker & Co. MCP ★ New (July 19)
+Weekly competitor website monitoring — crawls pricing, product, messaging, and corporate pages. Detects changes, files tagged/ranked changelogs. From Slobodan Stojanović (founder, Vacation Tracker — 35K+ users). Essential for operators needing conversational competitive intelligence without dashboard switching. `competitortracker.co` · [Integration Guide](/hermes/mcp/servers/external/competitor-tracker-mcp/)
+
 ### SE Ranking MCP ★ New
 Live access to SE Ranking's SEO and AI search data  --  keyword research, backlinks, domain analysis, site audits, and AI search visibility (180+ tools). MCP-native SEO platform for operators who need comprehensive search intelligence in their AI workflows.
 
@@ -2595,6 +2601,12 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [MCP Server Scan Results — July 14, 2026](/docs/hermes/mcp/servers/external/scan-results-2026-07-14.html)
 - [MCP Server Scan Supplement — July 15, 2026 (Evening)](/docs/hermes/mcp/servers/external/scan-results-2026-07-15-supplement.html)
 - [MCP Server Scan — July 15, 2026](/docs/hermes/mcp/servers/external/scan-results-2026-07-15.html)
+- [MCP Server Scan Results — July 16, 2026](/docs/hermes/mcp/servers/external/scan-results-2026-07-16.html)
+- [MCP Server Scan Results — July 17, 2026](/docs/hermes/mcp/servers/external/scan-results-2026-07-17.html)
+- [MCP Server Scan Supplement — July 17, 2026 (Evening)](/docs/hermes/mcp/servers/external/scan-results-2026-07-17-supplement.html)
+- [MCP Server Scan — July 18, 2026](/docs/hermes/mcp/servers/external/scan-results-2026-07-18.html)
+- [MCP Server Scan Supplement — July 18, 2026 (Evening)](/docs/hermes/mcp/servers/external/scan-results-2026-07-18-supplement.html)
+- [MCP Server Scan — July 18, 2026 (Late Night)](/docs/hermes/mcp/servers/external/scan-results-2026-07-18-late-night.html)
 - [Scrivener MCP — Integration Guide](/docs/hermes/mcp/servers/external/scrivener-mcp.html)
 - [Seiche Finance MCP — US Money Market Stress Testing](/docs/hermes/mcp/servers/external/seiche-finance-mcp.html)
 - [SentiSense MCP — Market Intelligence for AI Agents](/docs/hermes/mcp/servers/external/sentisense.html)
