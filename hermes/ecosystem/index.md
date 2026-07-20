@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 The most comprehensive directory of Hermes Agent resources in existence. 450+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** July 18, 2026 · **Repos indexed:** 411+ · **Categories:** 18
+> **Last updated:** July 19, 2026 · **Repos indexed:** 412+ · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -26,7 +26,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 450+ re
 | [Skills & Plugins](#-skills--plugins) | 69 | [↓](#-skills--plugins) |
 || [Tools & Utilities](#-tools--utilities) | 57 | [↓](#-tools--utilities) |
 | [Detection & Media Forensics](#-detection--media-forensics) | 1 | [↓](#-detection--media-forensics) |
-| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 26 | [↓](#-orchestration-multi-agent--swarms) |
+|| [Orchestration, Multi-Agent & Swarms](#-orchestration-multi-agent--swarms) | 27 | [↓](#-orchestration-multi-agent--swarms) |
 || [Deployment & Infrastructure](#-deployment--infrastructure) | 22 | [↓](#-deployment--infrastructure) |
 | [Security & Governance](#-security--governance) | 6 | [↓](#-security--governance) |
 | [Research & Benchmarks](#-research--benchmarks) | 12 | [↓](#-research--benchmarks) |
@@ -3183,6 +3183,16 @@ Modular orchestration plugin for Hermes Agent — model routing, tool guard, ski
 Single source of truth for AI coding agents — share AGENTS.md, RTK.md, skills, and plugins across OpenCode, Codex, Claude, Copilot, Hermes & Gemini CLI. Powered by agentrc.
 
 **Topics:** `ai`, `ai-agent`, `automation`, `claude`, `codex`, `developer-tools`, `opencode`, `productivity`
+
+---
+
+### Intelligent-Internet/zenith
+⭐ **257** · `Python` · [github.com/Intelligent-Internet/zenith](https://github.com/Intelligent-Internet/zenith)
+
+Zenith — a continuous-improvement harness for long-running agent tasks. Turns Claude Code, Codex, or Hermes into a multi-agent mission orchestrator via MCP/ACP. Supports agent-client-protocol, multi-agent orchestration, long-horizon tasks, and LLM-powered autonomous workflows.
+
+**Topics:** `agent-client-protocol`, `agent-harness`, `ai-agents`, `claude-code`, `codex`, `llm`, `long-horizon-tasks`, `mcp`, `model-context-protocol`, `multi-agent`, `orchestration`
+**Related:** [Orchestration →](#-orchestration-multi-agent--swarms)
 
 ---
 

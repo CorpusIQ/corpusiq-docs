@@ -5443,5 +5443,117 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-19T08:03:53.484707+00:00"
+  },
+  {
+    "repo": "antonybudianto/skills",
+    "score": 35,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T05:06:17.316699+00:00"
+  },
+  {
+    "repo": "alysonduarte/hermes-skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T05:06:17.316702+00:00"
+  },
+  {
+    "repo": "blcktgr73/hermes-kakao-talkchannel-plugin",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T05:06:17.316705+00:00"
+  },
+  {
+    "repo": "IEatCodeDaily/olympus",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T05:06:17.316707+00:00"
+  },
+  {
+    "repo": "Henri822/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T05:06:17.316708+00:00"
+  },
+  {
+    "repo": "awobaba1/realityos-desktop",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T05:06:17.316710+00:00"
+  },
+  {
+    "repo": "SohriCarryU/hermes-mcp-s-grok-search",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T05:06:17.316712+00:00"
+  },
+  {
+    "repo": "nanoatom81/Mini_Blender_mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T05:06:17.316713+00:00"
+  },
+  {
+    "repo": "RicSchonfelder/whatsapp-hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T05:06:17.316715+00:00"
+  },
+  {
+    "repo": "majehuang/h_claw",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T05:06:17.316717+00:00"
+  },
+  {
+    "repo": "SuperInstance/hermes-memory-mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T05:06:17.316718+00:00"
+  },
+  {
+    "repo": "Intelligent-Internet/zenith",
+    "score": 73,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-20T05:06:17.316720+00:00"
+  },
+  {
+    "repo": "arssnndr/kasio-distribution",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T05:06:17.316722+00:00"
+  },
+  {
+    "repo": "imcrobot/hermes-webui",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T05:06:17.316724+00:00"
+  },
+  {
+    "repo": "Xendegi/hermes-agentic-benchmark",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T05:06:17.316726+00:00"
+  },
+  {
+    "repo": "AxioRank/hermes-plugin",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T05:06:17.316728+00:00"
   }
 ]

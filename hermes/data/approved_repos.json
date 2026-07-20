@@ -4366,5 +4366,52 @@
     "discovered_at": "2026-07-19T05:01:59.184697+00:00",
     "status": "approved",
     "approved_at": "2026-07-19T05:04:39.810657+00:00"
+  },
+  {
+    "name": "Intelligent-Internet/zenith",
+    "url": "https://github.com/Intelligent-Internet/zenith",
+    "description": "Zenith \u2014 a continuous-improvement harness for long-running agent tasks. Turns Claude Code, Codex, or Hermes into a multi-agent mission orchestrator via MCP/ACP.",
+    "stars": 257,
+    "forks": 32,
+    "language": "Python",
+    "topics": [
+      "agent-client-protocol",
+      "agent-harness",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "llm",
+      "long-horizon-tasks",
+      "mcp",
+      "model-context-protocol",
+      "multi-agent",
+      "orchestration"
+    ],
+    "updated_at": "2026-07-20T02:21:27Z",
+    "category": "mcp",
+    "score": 73,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "Romanescu11/hermes-skill-factory",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "tale-project/tale",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "cx2002302-lang/zettelkasten-second-memory"
+    ],
+    "discovered_at": "2026-07-20T05:04:03.868201+00:00",
+    "status": "approved",
+    "approved_at": "2026-07-20T05:06:17.316688+00:00"
   }
 ]
