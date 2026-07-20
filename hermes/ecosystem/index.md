@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 The most comprehensive directory of Hermes Agent resources in existence. 450+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** July 19, 2026 · **Repos indexed:** 412+ · **Categories:** 18
+> **Last updated:** July 20, 2026 · **Repos indexed:** 412 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -33,7 +33,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 450+ re
 | [Content & Media](#-content--media) | 8 | [↓](#-content--media) |
 | [Platform-Specific](#-platform-specific) | 11 | [↓](#-platform-specific) |
 | [Domain Applications](#-domain-applications) | 22 | [↓](#-domain-applications) |
-| [Forks & Derivatives](#-forks--derivatives) | 8 | [↓](#-forks--derivatives) |
+| [Forks & Derivatives](#-forks--derivatives) | 9 | [↓](#-forks--derivatives) |
 | [Guides](#-guides) | 2 | [↓](#-guides) |
 
 ---
@@ -3963,6 +3963,16 @@ Production-grade memory sidecar for AI agents — gbrain + Hindsight + 3-tier re
 
 ---
 
+### shiwenwen/hope-agent
+⭐ **1,238** · `Python` · [github.com/shiwenwen/hope-agent](https://github.com/shiwenwen/hope-agent)
+
+🦭 A cross-device desktop AI agent with memory, autonomous goal pursuit, and dynamic multi-agent orchestration. Can run as a service on NAS/cloud. Built on Hermes Agent foundations with self-learning, tool-use, and context-aware reasoning.
+
+**Status:** Active
+**Key capabilities:** Multi-agent orchestration, autonomous goals, cross-device desktop, service-mode, NAS/cloud deployment, memory system
+
+---
+
 ## 📖 Guides
 
 Community-maintained guides, wikis, and deployment references.
@@ -3991,7 +4001,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 
 | Metric | Value |
 |--------|-------|
-| Total repos indexed | 411 |
+| Total repos indexed | 412 |
 | Categories | 18 |
 | Official Nous Research repos | 4 |
 | Community awesome lists | 21 |
@@ -4003,7 +4013,7 @@ Community wiki with deployment patterns and configuration recipes. Crowd-sourced
 | Research/benchmark projects | 12 |
 | Deployment & infra projects | 21 |
 | Domain applications | 22 |
-| Forks & derivatives | 8 |
+| Forks & derivatives | 9 |
 | Language-specific resources | 12 (10 CN, 1 JP, 1 EN) |
 | Total community stars | 1M+ across all indexed repos |
 

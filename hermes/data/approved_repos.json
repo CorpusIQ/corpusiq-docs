@@ -4413,5 +4413,55 @@
     "discovered_at": "2026-07-20T05:04:03.868201+00:00",
     "status": "approved",
     "approved_at": "2026-07-20T05:06:17.316688+00:00"
+  },
+  {
+    "name": "shiwenwen/hope-agent",
+    "url": "https://github.com/shiwenwen/hope-agent",
+    "description": "\ud83e\uddad \u4f1a\u8bb0\u5fc6\u3001\u80fd\u6301\u7eed\u63a8\u8fdb\u76ee\u6807\u3001\u4f1a\u52a8\u6001\u7f16\u6392\u591a Agent \u7684\u8de8\u7aef\u684c\u9762 AI \u52a9\u624b\uff0c\u4e5f\u53ef\u670d\u52a1\u5316\u5e38\u9a7b NAS / \u4e91\u7aef | A cross-device desktop AI agent with memory, autonomous goals, dynamic workflows, and headless deployment",
+    "stars": 1238,
+    "forks": 108,
+    "language": "Rust",
+    "topics": [
+      "agent",
+      "ai",
+      "ai-assistant",
+      "anthropic",
+      "chatbot",
+      "claude",
+      "claw",
+      "codex",
+      "cross-device",
+      "desktop-app",
+      "gemini",
+      "handoff",
+      "harness",
+      "hermes-agent",
+      "llm",
+      "local-ai",
+      "mcp",
+      "openai",
+      "openclaw",
+      "personal"
+    ],
+    "updated_at": "2026-07-20T08:03:33Z",
+    "category": "forks",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "high_stars_1000+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "MervinPraison/PraisonAI",
+      "longyunfeigu/learn-hermes-agent",
+      "Bo1202/Aivy-OS",
+      "ruvnet/ruflo"
+    ],
+    "discovered_at": "2026-07-20T08:06:00.109703+00:00",
+    "status": "approved",
+    "approved_at": "2026-07-20T08:07:51.448421+00:00"
   }
 ]
