@@ -7,7 +7,34 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 19, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,300+ servers), GitHub search
+> **Last updated:** July 20, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,800+ servers), GitHub search
+
+---
+
+## 🆕 July 20, 2026 — Sweep Additions (8 New Business Servers)
+
+Full sweep details: [Sweep Report →](/hermes/mcp/sweeps/sweep-july20-2026/)
+
+### mcp-sam-gov ★★★ New — July 20
+150-tool keyless MCP server for US federal + state/local government contracting, spending, regulation, and partner vetting. SAM.gov, USAspending, Grants.gov, OFAC, FDIC, EPA, CourtListener + 45 more sources. No API keys required. First government contracting MCP server. `github.com/cliwant/mcp-sam-gov` · [Integration Guide →](/hermes/mcp/servers/external/sam-gov-mcp/)
+
+### openInvest ★★★ New (July 20)
+Research-grade investment decision engine for AI agents — isolated multi-agent committee, auditable verdicts, backtests with lookahead protection, published negative results. 63⭐. Python. `github.com/longsizhuo/openInvest` · [Integration Guide →](/hermes/mcp/servers/external/openinvest-mcp/)
+
+### Orbiads GAM MCP ★★ New (July 20)
+Google Ad Manager hosted MCP — 200+ tools across campaign management, line items, creatives (image/video/HTML5/native), interactive reporting, inventory exploration, and ad-ops compliance audits. OAuth. Free trial. `github.com/OrbiAds/Orbiads-GAM-MCP` · [Integration Guide →](/hermes/mcp/servers/external/orbiads-gam-mcp/)
+
+### camt053-mcp ★★ New (July 20)
+ISO 20022 camt.053 bank-to-customer statement parsing & reconciliation — 19 tools, CBPR+/HVPS+ readiness, SLSA-L3 provenance. Export to Xero & QuickBooks Online. Part of the ISO 20022 MCP Suite. `github.com/sebastienrousseau/camt053-mcp` · [Integration Guide →](/hermes/mcp/servers/external/camt053-mcp/)
+
+### pacs008-mcp ★★ New (July 20)
+ISO 20022 pacs.008 credit transfer generation & validation — 10 tools, scheme-aware (CBPR+/HVPS+/Fedwire/CHAPS/T2/SCT-Inst). Convert SWIFT MT103 → pacs.008. Part of ISO 20022 MCP Suite. `github.com/sebastienrousseau/pacs008-mcp` · [Integration Guide →](/hermes/mcp/servers/external/pacs008-mcp/)
+
+### skillselion-mcp ★ New (July 20)
+Search Skillselion's curated directory of Claude Code skills, MCP servers & plugin marketplaces, ranked by installs and GitHub stars. For operators discovering AI agent tools. `github.com/skillselion/skillselion-mcp` · [Integration Guide →](/hermes/mcp/servers/external/skillselion-mcp/)
+
+### Additional Discoveries (July 20 Sweep)
+Also discovered: bug-bounty-intelligence-mcp (smart contract security, 27K+ findings), ai-footprints-mcp (agent-first bookmark manager). Plus 22+ niche/consumer servers (tgboard, llm-video, Nippy, ariadne, gotcosy, LseKit, ValueScope, Obsidian Everywhere, PPN Hub, Posthive, Lumify, and more). See [full sweep report →](/hermes/mcp/sweeps/sweep-july20-2026/)
 
 ---
 
