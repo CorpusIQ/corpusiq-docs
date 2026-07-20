@@ -5590,5 +5590,61 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-20T06:05:31.318071+00:00"
+  },
+  {
+    "repo": "Sophie97x/Hermes-Live-Agent-Hub",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T07:08:04.121142+00:00"
+  },
+  {
+    "repo": "ZhangMengmeng-702/RuyiLearningPlanner",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T07:08:04.121155+00:00"
+  },
+  {
+    "repo": "WOO-MX/hermes-kook-adapter",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T07:08:04.121157+00:00"
+  },
+  {
+    "repo": "Hinana0325/Agent-Control-Center",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T07:08:04.121159+00:00"
+  },
+  {
+    "repo": "musqulu/hermes-dash",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T07:08:04.121161+00:00"
+  },
+  {
+    "repo": "sahilm-ti/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T07:08:04.121163+00:00"
+  },
+  {
+    "repo": "ardelperal/codegraph-vba",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T07:08:04.121165+00:00"
+  },
+  {
+    "repo": "SeerBench/hermes-multiuser-web-service",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T07:08:04.121167+00:00"
   }
 ]

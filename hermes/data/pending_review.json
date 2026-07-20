@@ -22263,5 +22263,210 @@
     ],
     "discovered_at": "2026-07-20T06:03:39.444148+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Sophie97x/Hermes-Live-Agent-Hub",
+    "url": "https://github.com/Sophie97x/Hermes-Live-Agent-Hub",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-07-20T07:05:14Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-20T07:05:34.987848+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ZhangMengmeng-702/RuyiLearningPlanner",
+    "url": "https://github.com/ZhangMengmeng-702/RuyiLearningPlanner",
+    "description": "\u751f\u4ea7\u5b9e\u4e60\u2014\u2014Hermes Agent \u667a\u80fd\u5b66\u4e60\u89c4\u5212\u52a9\u624b",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-20T07:04:21Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-20T07:05:37.990190+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "WOO-MX/hermes-kook-adapter",
+    "url": "https://github.com/WOO-MX/hermes-kook-adapter",
+    "description": "Hermes Agent KOOK\uff08\u5f00\u9ed1\u5566\uff09\u5e73\u53f0\u9002\u914d\u5668 \u2014 WebSocket + REST API \u5168\u53cc\u5de5",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-20T07:04:35Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-20T07:05:40.991824+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Hinana0325/Agent-Control-Center",
+    "url": "https://github.com/Hinana0325/Agent-Control-Center",
+    "description": "AgentHub - Mobile remote control app for AI agents (Hermes/OpenCode/OpenAI-compatible/OpenClaw)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Kotlin",
+    "topics": [],
+    "updated_at": "2026-07-20T07:03:14Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-20T07:05:43.993593+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "musqulu/hermes-dash",
+    "url": "https://github.com/musqulu/hermes-dash",
+    "description": "Dashboard for hermes reports & agent management. ",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-20T07:01:25Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "chrisryugj/hermes-dashboard"
+    ],
+    "discovered_at": "2026-07-20T07:05:46.995423+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sahilm-ti/hermes-agent",
+    "url": "https://github.com/sahilm-ti/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-20T07:05:58Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh"
+    ],
+    "discovered_at": "2026-07-20T07:06:09.823691+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ardelperal/codegraph-vba",
+    "url": "https://github.com/ardelperal/codegraph-vba",
+    "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent \u2014 fewer tokens, fewer tool calls, 100% local",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-20T07:06:08Z",
+    "category": "forks",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "NousResearch/hermes-agent-self-evolution",
+      "codejunkie99/agentic-stack",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "longyunfeigu/learn-hermes-agent",
+      "KSroido/Kagi-Session2API-MCP",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "Intelligent-Internet/zenith"
+    ],
+    "discovered_at": "2026-07-20T07:06:12.826048+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SeerBench/hermes-multiuser-web-service",
+    "url": "https://github.com/SeerBench/hermes-multiuser-web-service",
+    "description": "Multi-user web chat service built on top of NousResearch/hermes-agent. Per-user accounts, API keys, quota, isolated memory/sessions, sandboxed file tools.",
+    "stars": 1,
+    "forks": 2,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-20T06:26:14Z",
+    "category": "official",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-20T07:07:35.069835+00:00",
+    "status": "pending"
   }
 ]
