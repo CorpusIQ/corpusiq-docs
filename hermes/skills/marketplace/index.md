@@ -239,6 +239,8 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ## All Marketplace Updates Pages
 
+- [🆕 July 20, 2026 — Official Hermes Agent Skills + Self-Evolution Framework (15 new skills, 9.5K+ installs)](/docs/hermes/skills/marketplace/new-july20-2026/index.html)
+- [🆕 July 19, 2026 — Hermespace Pocket Workbench + Cursor Dispatcher + Plutus + Daidala](/docs/hermes/skills/marketplace/new-july19-2026/index.html)
 - [🆕 July 1, 2026 — Official Hermes Gap Sweep: 11 New Core Skills + Hermes Ecosystem Expansion (49 total)](/docs/hermes/skills/marketplace/new-july1-2026/index.html)
 - [New July12 2026](/docs/hermes/skills/marketplace/new-july12-2026/index.html)
 - [New July14 2026](/docs/hermes/skills/marketplace/new-july14-2026/index.html)
