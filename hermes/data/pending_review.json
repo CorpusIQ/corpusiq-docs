@@ -22118,5 +22118,150 @@
     ],
     "discovered_at": "2026-07-20T05:05:48.221346+00:00",
     "status": "pending"
+  },
+  {
+    "name": "lansenger-pm/hermes-lansenger-adapter",
+    "url": "https://github.com/lansenger-pm/hermes-lansenger-adapter",
+    "description": "Hermes Agent platform adapter and tool plugin for Lansenger (\u84dd\u4fe1) \u2014 enterprise messaging platform",
+    "stars": 1,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-20T06:02:39Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "agentchatme/agentchat-hermes",
+      "thestark77/cobalt-agent",
+      "kaankacar/stellar-agent-kit",
+      "cx2002302-lang/zettelkasten-second-memory"
+    ],
+    "discovered_at": "2026-07-20T06:03:10.462324+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "aidoctor654-sys/hermesa52-living",
+    "url": "https://github.com/aidoctor654-sys/hermesa52-living",
+    "description": "Living repository of Hermes A52 \u2014 AI agent living in Samsung Galaxy A52. Auto-updated by cron.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-20T06:00:10Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent"
+    ],
+    "discovered_at": "2026-07-20T06:03:12.465785+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "taras-kolodchyn/local-ai-platform",
+    "url": "https://github.com/taras-kolodchyn/local-ai-platform",
+    "description": "Open-source local AI platform for coding agents powered by Qwen, LiteLLM, Codex, Hermes, MCP and pgvector.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "apple-silicon",
+      "coding-agents",
+      "litellm",
+      "local-ai",
+      "mcp",
+      "pgvector",
+      "qwen"
+    ],
+    "updated_at": "2026-07-20T05:44:41Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "hugocarreira/agentrc",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-07-20T06:03:21.462603+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mrmtsuruya/agentic-os",
+    "url": "https://github.com/mrmtsuruya/agentic-os",
+    "description": "Agentic OS: Multi-agent orchestration platform for opencode, Hermes & Gemini CLI. Skills hub, scheduler, cost analytics, memory & backup.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-07-20T06:03:13Z",
+    "category": "forks",
+    "score": 48,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "hugocarreira/agentrc"
+    ],
+    "discovered_at": "2026-07-20T06:03:37.440903+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jsky-james/hermes-agent",
+    "url": "https://github.com/jsky-james/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-20T06:02:20Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh"
+    ],
+    "discovered_at": "2026-07-20T06:03:39.444148+00:00",
+    "status": "pending"
   }
 ]

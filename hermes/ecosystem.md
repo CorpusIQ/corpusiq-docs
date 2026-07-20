@@ -1,12 +1,12 @@
 ---
 title: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem — 140+ repos, tools, skills, and integrations
-last_updated: 2026-07-16
+last_updated: 2026-07-19
 ---
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **142+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **143+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
 > **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome.
 
@@ -19,7 +19,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **142+ reposit
 | 🚀 Deployment | 9 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 4 | Community forks with significant changes |
 | 🔗 Integrations | 2 | Platform connectors, bridges, adapters |
-| 🔌 MCP Servers | 5 | Model Context Protocol servers & integrations |
+| 🔌 MCP Servers | 6 | Model Context Protocol servers & integrations |
 | 💾 Memory & Knowledge | 35 | Persistent memory, knowledge graphs, context systems |
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
 | 📋 Other | 3 | General discoveries, misc tools |
@@ -242,6 +242,14 @@ _Model Context Protocol servers & integrations_
 >MCP memory server for AI coding assistants. Works with Claude Code, Cursor, Codex, Gemini CLI, Cline, Continue, Cherry Studio, Zed, Hermes, OpenClaw, and any MCP client. Local, encrypted, verbatim recall. MIT.
 
 **Language:** Python | **Topics:** agent-memory, ai-memory, claude, claude-code, codex | **Score:** 73/100
+
+---
+
+### [Intelligent-Internet/zenith](https://github.com/Intelligent-Internet/zenith) ⭐ 257
+
+>A continuous-improvement harness for long-running agent tasks. Turns Claude Code, Codex, or Hermes into a multi-agent mission orchestrator via MCP/ACP.
+
+**Language:** Python | **Topics:** agent-client-protocol, agent-harness, ai-agents, claude-code, codex, llm, long-horizon-tasks, mcp, multi-agent, orchestration | **Score:** 73/100
 
 ---
 

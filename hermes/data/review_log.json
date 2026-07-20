@@ -5555,5 +5555,40 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-20T05:06:17.316728+00:00"
+  },
+  {
+    "repo": "lansenger-pm/hermes-lansenger-adapter",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T06:05:31.318054+00:00"
+  },
+  {
+    "repo": "aidoctor654-sys/hermesa52-living",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T06:05:31.318065+00:00"
+  },
+  {
+    "repo": "taras-kolodchyn/local-ai-platform",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T06:05:31.318068+00:00"
+  },
+  {
+    "repo": "mrmtsuruya/agentic-os",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T06:05:31.318069+00:00"
+  },
+  {
+    "repo": "jsky-james/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-20T06:05:31.318071+00:00"
   }
 ]
