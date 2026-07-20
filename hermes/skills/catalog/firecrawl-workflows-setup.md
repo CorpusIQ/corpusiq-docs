@@ -82,14 +82,14 @@ firecrawl-deep-research "What are the top MCP server frameworks in 2026?" \
 ...
 
 ## Key Findings
-1. **Finding one** with [citation](url)
-2. **Finding two** with [citation](url)
+1. **Finding one** (see sources below)
+2. **Finding two** (see sources below)
 
 ## Detailed Analysis
 ...
 
 ## Sources
-1. [Source Title](url) — Relevance: High
+1. Firecrawl web extraction documentation — Relevance: High
 ...
 ```
 

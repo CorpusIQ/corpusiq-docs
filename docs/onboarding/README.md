@@ -54,9 +54,9 @@ Connect additional data sources for cross-source insights:
 
 ### Step 5: Explore Advanced Features
 
-- [Search capabilities](../search/index.html)
-- [Cross-source queries](../search/index.html)
-- [Save and share reports](../reporting/index.html)
+- [Search capabilities](../search/README.md)
+- [Cross-source queries](../search/README.md)
+- [Save and share reports](../reporting/README.md)
 
 ---
 
@@ -68,7 +68,7 @@ Sign up at [demo.corpusiq.io](https://demo.corpusiq.io) if you haven't already. 
 
 ### Step 2: Configure Your Agent
 
-Add CorpusIQ to your agent's MCP configuration. See [supported agents](../supported-agents.html) for exact config blocks.
+Add CorpusIQ to your agent's MCP configuration. See [supported agents](../supported-agents.md) for exact config blocks.
 
 **Generic MCP config:**
 ```json
@@ -107,9 +107,9 @@ Your agent now has access to 36 business data sources. Use it for:
 
 ### Step 6: Explore Advanced Agent Usage
 
-- [Available MCP tools](../ai-agent-users.html)
-- [Security considerations](../security/index.html)
-- [Troubleshooting agent connections](../ai-agent-users.html#troubleshooting-procedures)
+- [Available MCP tools](../ai-agent-users.md)
+- [Security considerations](../security/README.md)
+- [Troubleshooting agent connections](../ai-agent-users.md#troubleshooting-procedures)
 
 ---
 
