@@ -11,6 +11,39 @@ Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ ser
 
 ---
 
+## 🆕 July 19, 2026 — Sweep Additions (20 New Servers)
+
+Full sweep details: [Sweep Report →](/hermes/mcp/sweeps/sweep-july19-2026/)
+
+### SignWell MCP ★★★ Official — New July 19
+Official e-signature MCP server from SignWell. First major e-sign platform with native MCP support. Create templates, send documents for signing, track status, download completed PDFs — all from any MCP-compatible agent. Essential for operators automating contract workflows. `github.com/Bidsketch/signwell-mcp` · [Integration Guide →](/hermes/mcp/servers/external/signwell-mcp/)
+
+### Setell MCP ★ New (July 19)
+Vertical quote-to-cash agent for small service businesses (machine shops, contractors, field services). Generate quotes, manage orders, track payments from any MCP client. `github.com/Setell-AI/setell-mcp` · [Integration Guide →](/hermes/mcp/servers/external/setell-mcp/)
+
+### DataNexus MCP ★ New (July 19)
+55-tool public data intelligence server — CVE vulnerabilities, patents, federal contracts, NPI provider data, nonprofits, domain intelligence. 8,000+ calls on Smithery. Essential for operator market research and vendor due diligence. `github.com/datanexusmcp/datanexus-mcp` · [Integration Guide →](/hermes/mcp/servers/external/datanexus-mcp/)
+
+### Kadenzo MCP ★ New (July 19)
+Agent-native social media scheduling and management. Schedule, generate, and analyze content from any MCP client. First social scheduler purpose-built for AI agents rather than human dashboards. `github.com/Kadenzo/kadenzo-mcp` · [Integration Guide →](/hermes/mcp/servers/external/kadenzo-mcp/)
+
+### Conduit (Toolport) ★ New (July 19)
+Local-first desktop MCP gateway aggregator. Configure servers once, share across Claude, Cursor, VS Code, Codex. One config, everywhere. `github.com/tsouth89/conduit-aggregator` · [Integration Guide →](/hermes/mcp/servers/external/conduit-aggregator/)
+
+### fastCRW ★ New (July 19)
+Open-source Rust web crawler and search API. Single ~6MB binary, self-hostable. No API keys, no rate limits. AGPL-3.0. `github.com/us/fastcrw` · [Integration Guide →](/hermes/mcp/servers/external/fastcrw/)
+
+### Flash Props API ★ New (July 19)
+Live sports betting player props — NBA, MLB, NFL, NHL, NCAA, soccer. Unified format across all major sports. Hosted remote server. `github.com/iFan6oy/flash-props-api` · [Integration Guide →](/hermes/mcp/servers/external/flash-props-api/)
+
+### Bolthub ★ New (July 19)
+Bitcoin Lightning L402 paid-API marketplace for AI agents. Agents autonomously discover and pay for tools per call via Lightning micropayments. `github.com/TamasCsernyanszky/bolthub` · [Integration Guide →](/hermes/mcp/servers/external/bolthub/)
+
+### Additional Discoveries (July 19 Sweep)
+Also discovered but not yet with full guides: MemeBoat MCP (meme generation), Project Telos MCP (developer tooling), RustChain MCP (blockchain tools), ArcGIS MCP Bridge (geospatial), S-GW (credential gateway), AgentBodega, FluxDown (media), PACS.008 MCP (financial messaging), SportsData MCP. See [full sweep report →](/hermes/mcp/sweeps/sweep-july19-2026/)
+
+---
+
 ## Data Firewall Suite (PortEden)
 
 The **PortEden Secure*** family puts a data firewall between AI agents and your Google/Microsoft accounts. Every action is permission-gated, content-redacted, and audit-logged. One-click revoke. Complementary to CorpusIQ's read-only OAuth model.
