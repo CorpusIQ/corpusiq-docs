@@ -5688,5 +5688,138 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-20T08:07:51.448450+00:00"
+  },
+  {
+    "repo": "denniswanglabs/filmo",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876290+00:00"
+  },
+  {
+    "repo": "9thLevelSoftware/hades-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876304+00:00"
+  },
+  {
+    "repo": "blaspat/hermes-node-plugin",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876306+00:00"
+  },
+  {
+    "repo": "SaravananJaichandar/world-model-mcp",
+    "score": 63,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876309+00:00"
+  },
+  {
+    "repo": "nfeuism/markitdown-webui2",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876310+00:00"
+  },
+  {
+    "repo": "bielcarpi/apple-mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876312+00:00"
+  },
+  {
+    "repo": "akrhin/hermes-pipeline-plugin",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876314+00:00"
+  },
+  {
+    "repo": "aliagenttucuman-byte/pablo-hermes-desktop-plugins",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876316+00:00"
+  },
+  {
+    "repo": "iPotatow/hermes-desktop-skill-manager",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876317+00:00"
+  },
+  {
+    "repo": "VantaSoft/vantasoft-hermes-library",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876319+00:00"
+  },
+  {
+    "repo": "W3JDev/hermes-claude-engineering-worker",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876321+00:00"
+  },
+  {
+    "repo": "jbellsolutions/hermes-workforce-router",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876323+00:00"
+  },
+  {
+    "repo": "helix4u/hermes-agent_prs",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876324+00:00"
+  },
+  {
+    "repo": "akerjia/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876326+00:00"
+  },
+  {
+    "repo": "AethyrionAI/Talaria-27",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876328+00:00"
+  },
+  {
+    "repo": "steve360fishing/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876330+00:00"
+  },
+  {
+    "repo": "geng957/hermes-gpt-image-2-integration-guide",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876332+00:00"
+  },
+  {
+    "repo": "foundryworks-dev/foundry-draft-hermes-plugin",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876334+00:00"
+  },
+  {
+    "repo": "plesnev-hash/hermes-agent-russian-localizer",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T05:06:07.876335+00:00"
   }
 ]
