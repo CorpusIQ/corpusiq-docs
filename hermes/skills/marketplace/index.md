@@ -156,6 +156,7 @@ Approved skills appear on the next marketplace update page with install commands
 New skills are discovered weekly through automated sweeps of skills.sh. Each discovery gets a dedicated update page:
 
 - [🆕 July 19, 2026 — hermespace (46⭐), cursor-dispatcher (1⭐), plutus (2⭐), daidala (0⭐) (4 repos, 12+ skills, 2 setup guides)](/hermes/skills/marketplace/new-july19-2026/)
+- [🆕 July 20, 2026 — hermes-tweet (18⭐), bitrouter (209⭐), agentcairn (20⭐) + 10 more (13 repos, 7 setup guides)](/hermes/skills/marketplace/new-july20-2026/)
 - [🆕 July 14, 2026 — openclaw-workspace (143), pymupdf-pdf (47) (2 repos, 2 skills)](/hermes/skills/marketplace/new-july14-2026/)
 - [🆕 July 14, 2026 (Update) — wiki-history-ingest (2,744), vps-server-management + 2 more (3 repos, 4 skills, 2 setup guides)](/hermes/skills/marketplace/new-july14-2026-update/)
 - [🆕 July 4, 2026 — agent-sessions (683⭐), Hermes ArXiv Agent + 22 more (24 repos, 5 setup guides)](/hermes/skills/marketplace/new-july4-2026/)

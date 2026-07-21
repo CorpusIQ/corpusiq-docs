@@ -1,18 +1,20 @@
 ---
-title: "July 20, 2026 — Official Hermes Agent Skills, Self-Evolution Framework, Marketing Dashboard"
-description: "15 new Hermes-relevant skills discovered from nousresearch/hermes-agent (official), aradotso/hermes-skills, wihy/hermes-agent-skill, dandacompany/hermes-skill, and affaan-m/everything-claude-code. Combined 9,500+ installs across new official and community skills."
+title: "July 20, 2026 — Official Skills, Self-Evolution, Marketing Dashboard + 13 GitHub Repos"
+description: "15 skills.sh skills (9,500+ installs) + 13 GitHub repos (288+ stars) — largest single-day Hermes ecosystem expansion. Nous Research official skills, aradotso ecosystem, community tools, and new GitHub repos."
 ---
 
-# 🆕 July 20, 2026 — 15 New Hermes-Agent Skills
+# 🆕 July 20, 2026 — Two Sweeps: 15 Skills.sh Skills + 13 GitHub Repos
 
 **Date:** July 20, 2026
-**New Skills:** 15 | **Combined Installs:** 9,500+
+**Skills.sh Skills:** 15 | **Combined Installs:** 9,500+ | **GitHub Repos:** 13 | **Combined Stars:** 288+
 
-Discovery sweep across `hermes-agent`, `hermes`, `hermes-skills` topics on skills.sh. Cross-referenced against all prior marketplace pages (June 9 — July 19, 2026). The headline: **Nous Research published 19 official skills** on the marketplace, plus aradotso's auto-generated ecosystem of 20+ Hermes/OpenClaw companion skills.
+Two independent discovery sweeps ran on July 20 — one across skills.sh marketplace topics (`hermes-agent`, `hermes`, `hermes-skills`) and one across GitHub topics (`topic:hermes-agent` pushed since July 19). Cross-referenced against all prior marketplace pages (June 9 — July 19, 2026) and the 230+ item skills catalog.
 
 ---
 
-## New Skills at a Glance
+## Part 1: Skills.sh Marketplace — 15 New Skills
+
+Discovery sweep across `hermes-agent`, `hermes`, `hermes-skills` topics on skills.sh. **Nous Research published 19 official skills**, plus aradotso auto-generated ecosystem of 20+ Hermes/OpenClaw companion skills.
 
 | # | Skill | Source | Installs | Category | Setup Guide |
 |---|-------|--------|:--------:|----------|:-----------:|
@@ -32,107 +34,64 @@ Discovery sweep across `hermes-agent`, `hermes`, `hermes-skills` topics on skill
 | 14 | **hermes-agent-framework** | aradotso/hermes-skills | 203 | Agent Framework | — |
 | 15 | **hermes** | dandacompany/hermes-skill | 67 | Ops / Self-Hosting | — |
 
----
+### Official Nous Research Skills (19 total on skills.sh)
 
-## Category Breakdown
+- **dogfood** (4.7K): 5-phase exploratory QA testing using browser tools
+- **yuanbao** (550): Tencent Yuanbao group chat integration
+- **hermes-agent-skill-authoring** (234): Writing and publishing SKILL.md files
+- **popular-web-designs** (434): Curated design patterns library
+- Plus 15 more: google-workspace, powerpoint, claude-design, imessage, songwriting, llm-wiki, p5js, excalidraw, ascii-art, architecture-diagram, design-md, research-paper-writing
 
-### Official Nous Research Skills (nousresearch/hermes-agent)
-
-The Hermes Agent team published their official skill collection on skills.sh. These are the sanctioned, maintained skills that ship with Hermes Agent or are recommended by Nous Research. **19 skills total** — the most significant expansion of the official Hermes skill ecosystem to date.
-
-**New to our catalog (not previously documented):**
-
-| Skill | Installs | What It Does |
-|-------|:--------:|-------------|
-| **dogfood** | 4.7K | Systematic 5-phase exploratory QA testing using browser tools. Plan → Explore → Collect Evidence → Categorize → Report. |
-| **yuanbao** | 550 | Tencent Yuanbao (元宝) group chat integration — @mention users, query group info/members, send DMs. |
-| **hermes-agent** | 403 | Core Hermes Agent skill — CLI invocation, subagent delegation, persistent memory, self-improving skills. |
-| **hermes-agent-skill-authoring** | 234 | How to write high-quality SKILL.md files for the Hermes ecosystem — templates, best practices, validation. |
-| **popular-web-designs** | 434 | Curated reference library of popular web design patterns and layouts for agent-assisted UI development. |
-| **google-workspace** | 388 | Gmail, Calendar, Drive, Docs, Sheets integration via GWS CLI. |
-| **powerpoint** | 383 | Create, edit, and format PowerPoint presentations programmatically. |
-| **claude-design** | — | Anthropic design system guidelines for building Claude-compatible interfaces. |
-| **imessage** | — | Apple iMessage integration — send/receive messages through Messages.app. |
-| **songwriting-and-ai-music** | — | AI-assisted music composition using Suno, Udio, and other music generation tools. |
-| **llm-wiki** | — | Comprehensive LLM knowledge wiki covering models, providers, techniques, and benchmarks. |
-| **p5js** | — | Creative coding with p5.js — generative art, visualizations, and interactive graphics. |
-| **excalidraw** | — | Diagram creation with Excalidraw — flowcharts, wireframes, architecture diagrams. |
-| **ascii-art** | — | Generate ASCII art diagrams, text-based UI mockups, and decorative text elements. |
-| **architecture-diagram** | — | Software architecture diagram generation — C4 model, system context, container diagrams. |
-| **design-md** | — | Markdown-based design documentation — design decisions, RFCs, architecture decision records. |
-| **research-paper-writing** | — | Academic and technical paper writing — literature review, citation management, LaTeX. |
-
-**Previously documented skills now available officially:**
-- `humanizer` (122K installs) — already in catalog ✅
-- `youtube-content` (63K installs) — already in catalog ✅
-- `arxiv` (41K installs) — already in catalog ✅
-- `jupyter-live-kernel` (25K installs) — already in catalog ✅
-
-### Aradotso Hermes Ecosystem (aradotso/hermes-skills)
-
-Auto-generated skills from trending Hermes/OpenClaw agent runtime repos. **20+ skills** covering agent self-evolution, WebUI control, desktop companions, ecosystem mapping, and more. All tagged `hermes-agent` on skills.sh.
-
-| Skill | Installs | What It Does |
-|-------|:--------:|-------------|
-| **hermes-agent-self-evolution** | 282 | Agent learns from past tasks, auto-creates reusable skills, improves over time. |
-| **hermes-webui-agent** | 239 | Control Hermes through a web browser interface — visual agent dashboard. |
-| **hermes-agent-framework** | 203 | Modular agent framework with pluggable tools, memory backends, and LLM providers. |
-| **hermes-workspace-ai-agent-ui** | 195 | Workspace-oriented AI agent UI with file browser, terminal, and editor panes. |
-| **hermes-desktop-companion** | 190 | Desktop companion app — always-on agent accessible from menu bar or system tray. |
-| **awesome-hermes-agent-ecosystem** | 214 | Curated list of Hermes Agent tools, plugins, skills, and community resources. |
-| **hermes-agent-mission-control** | — | Central mission control dashboard for managing multiple Hermes agents and profiles. |
-| **hermes-atlas-ecosystem-map** | — | Visual ecosystem map of all Hermes tools, skills, plugins, and integrations. |
-| **hermes-control-interface-dashboard** | — | Advanced control panel for Hermes configuration, monitoring, and debugging. |
-| **hermes-desktop-os1-native-macos-client** | — | Native macOS client for Hermes using OS1 desktop framework. |
-| **hermes-hudui-consciousness-monitor** | — | HUD-style consciousness monitor showing agent state, active goals, and context usage. |
-| **hermes-web-ui-dashboard** | — | Full web dashboard for Hermes — session history, memory browser, skill management, cron scheduler. |
-| **minions-hermes-mission-control** | — | Minion-style task dispatch and monitoring for Hermes agent fleets. |
-| **oh-my-hermes-workflow** | — | Community workflow collection — pre-built automation recipes for common Hermes tasks. |
-
-### Community Skills
-
-| Skill | Source | Installs | Description |
-|-------|--------|:--------:|-------------|
-| **hermes-agent** | wihy/hermes-agent-skill | 548 | Portable Hermes Agent CLI wrapper v2.0 for WorkBuddy/Claude Code/Cursor. Self-improving skills, persistent memory, subagent delegation, MCP integration. Supports any instance with one-command install. |
-| **hermes-imports** | affaan-m/everything-claude-code | 2.4K | Import Claude Code projects, skills, and memory into Hermes Agent. Part of the 231K⭐ everything-claude-code harness. |
-| **hermes-marketing-dashboard** | aradotso/marketing-skills | 964 | Marketing analytics dashboard for Hermes — track campaigns, social metrics, and growth KPIs from agent conversations. |
-| **hermes** | dandacompany/hermes-skill | 67 | Comprehensive Hermes self-hosting and operations guide — install, configure, operate, troubleshoot. Covers CLI, gateway, Slack, plugins, tools, skills, profiles, memory, MCP, cron, Kanban, subagents, tmux. |
-
----
-
-## Setup Guides Created
-
-This sweep includes 5 new detailed setup guides:
-
-1. **[Dogfood — Systematic Web App QA Testing](/hermes/skills/catalog/dogfood-setup/)** — 5-phase exploratory QA using Hermes browser tools
-2. **[Yuanbao — Tencent Group Chat Integration](/hermes/skills/catalog/yuanbao-setup/)** — @mentions, group queries, DMs in Yuanbao
-3. **[Hermes Agent — Core Skill](/hermes/skills/catalog/hermes-agent-setup/)** — Official Nous Research Hermes Agent skill
-4. **[Hermes Agent Skill Authoring](/hermes/skills/catalog/hermes-agent-skill-authoring-setup/)** — Writing and publishing SKILL.md files
-5. **[Hermes Agent Self-Evolution](/hermes/skills/catalog/hermes-agent-self-evolution-setup/)** — Agent self-improvement framework
-
----
-
-## Quick Install
+### Quick Install
 
 ```bash
-# Official Nous Research skills
 npx skills add nousresearch/hermes-agent --skill dogfood -g -y
-npx skills add nousresearch/hermes-agent --skill yuanbao -g -y
-npx skills add nousresearch/hermes-agent --skill hermes-agent-skill-authoring -g -y
-
-# Community skills
 npx skills add aradotso/hermes-skills --skill hermes-agent-self-evolution -g -y
 npx skills add wihy/hermes-agent-skill --skill hermes-agent -g -y
-npx skills add dandacompany/hermes-skill --skill hermes -g -y
 ```
 
 ---
 
-## Why This Matters for Hermes
+## Part 2: GitHub Repo Discovery — 13 New Repos
 
-This is the largest single-day expansion of the Hermes skill ecosystem on skills.sh. Nous Research's official skill collection legitimizes the marketplace as the canonical distribution channel for Hermes capabilities. The aradotso ecosystem, while auto-generated, provides discoverability for 20+ community tools that previously lacked marketplace presence.
+Evening sweep across `topic:hermes-agent` repos pushed since July 19, 2026. 182 repos surfaced via GitHub Search API. 13 confirmed new after cross-reference.
 
-For CorpusIQ operators, the key pickups are:
-- **dogfood**: Replace ad-hoc testing with systematic 5-phase QA methodology
-- **hermes-agent-self-evolution**: Reduce manual skill creation by having agents learn from tasks
-- **hermes-agent-skill-authoring**: Standardize skill quality across the team
+| # | Repo | Stars | Language | Category | Setup Guide |
+|---|------|:-----:|:--------:|----------|:-----------:|
+| 1 | **hermes-tweet** | 18 | Python | Social / Twitter | ✅ |
+| 2 | **bitrouter** | 209 | Rust | LLM Routing | ✅ |
+| 3 | **agentcairn** | 20 | Python | Agent Memory | ✅ |
+| 4 | **memroos** | 6 | TypeScript | Memory OS | ✅ |
+| 5 | **beastmode** | 7 | Shell | Orchestration | ✅ |
+| 6 | **hermes-agent-helm** | 3 | Python | DevOps / K8s | ✅ |
+| 7 | **muse-agent** | 5 | TypeScript | AI Companion | — |
+| 8 | **hermes-backup-recovery** | 0 | Shell | Backup | ✅ |
+| 9 | **hermes-always-on** | 0 | — | Ops Guide | — |
+| 10 | **chronicle** | 2 | Python | Agent Memory | — |
+| 11 | **finch** | 0 | Python | Self-Improvement | — |
+| 12 | **tale** | 16 | TypeScript | Orchestration | — |
+| 13 | **nexus-mobile** | 2 | Swift | Mobile Control | — |
+
+### Headline GitHub Finds
+
+- **hermes-tweet** (18 stars): Native Hermes plugin for X/Twitter via Xquik
+- **bitrouter** (209 stars): Self-improving LLM router — works with any agent harness, MCP-ready
+- **agentcairn** (20 stars): Obsidian vault as agent memory source — local-first, daemonless
+
+### Setup Guides Created (GitHub Repos)
+
+1. [Hermes Tweet Setup](/hermes/skills/catalog/hermes-tweet-setup/)
+2. [BitRouter Setup](/hermes/skills/catalog/bitrouter-setup/)
+3. [AgentCairn Setup](/hermes/skills/catalog/agentcairn-setup/)
+4. [MemroOS Setup](/hermes/skills/catalog/memroos-setup/)
+5. [Beastmode Setup](/hermes/skills/catalog/beastmode-setup/)
+6. [Hermes Agent Helm Chart Setup](/hermes/skills/catalog/hermes-agent-helm-setup/)
+7. [Hermes Backup Recovery Setup](/hermes/skills/catalog/hermes-backup-recovery-setup/)
+
+---
+
+## Why This Matters
+
+The largest single-day expansion of the Hermes skill ecosystem. Nous Research officially publishing on skills.sh legitimizes the marketplace as the canonical distribution channel. The GitHub repo discovery complements it with tools not yet on the marketplace — bitrouter (209 stars) for LLM routing and agentcairn (20 stars) for Obsidian-based memory are the most immediately useful for production Hermes deployments.
+
+For CorpusIQ operators: **dogfood** replaces ad-hoc testing with systematic 5-phase QA, **hermes-tweet** enables native X/Twitter automation through Hermes, and **bitrouter** optimizes multi-model routing for cost efficiency.
