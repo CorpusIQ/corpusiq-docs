@@ -11,6 +11,7 @@ Track every Hermes Agent release. New versions are auto-detected and documented 
 
 | Version | Date | Name | Highlights |
 |---------|------|------|------------|
+| [v0.19.0](/hermes/changelog/v0.19.0/) | July 20, 2026 | The Quicksilver Release | ~80% first-token speed improvement, terminal billing, Bitwarden/1Password secrets, smart approvals, durable delivery ledger, live subagent transcripts, GPT-5.6/grok-4.5/kimi-k3, 450+ contributors |
 | [v0.18.2](/hermes/changelog/v0.18.2/) | July 7, 2026 | WhatsApp Baileys Fix | Unpins WhatsApp Baileys bridge from git commit to published npm 7.0.0-rc13, fixing Docker builds |
 | [v0.18.1](/hermes/changelog/v0.18.1/) | July 7, 2026 | Infrastructure Patch | ~660 PR roll-up since v0.18.0: installer self-healing, dashboard/gateway fixes, WhatsApp pairing, MCP/provider fixes, stability hardening |
 | [v0.18.0](/hermes/changelog/v0.18.0/) | July 1, 2026 | The Judgment Release | P0/P1 clean sweep (100% resolved), Mixture-of-Agents as first-class model, verification & completion contracts, `/learn` skill distillation, `/journey` learning timeline, desktop coding Projects, background fan-out, scale-to-zero gateway, Google Vertex AI, security hardening |
