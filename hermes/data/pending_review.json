@@ -23508,5 +23508,273 @@
     ],
     "discovered_at": "2026-07-21T07:05:18.441447+00:00",
     "status": "pending"
+  },
+  {
+    "name": "sbrejnev988-coder/hermes-omnicouncil",
+    "url": "https://github.com/sbrejnev988-coder/hermes-omnicouncil",
+    "description": "Hermes Agent multi-model OmniCouncil plugin: agentic blackboard, voting, model failover, safe brokered tools, doctor/cache tools, and deep-web research crawler.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agentic-ai",
+      "ai-agents",
+      "blackboard",
+      "brokered-tools",
+      "council",
+      "deep-research",
+      "deep-web-crawler",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "model-failover",
+      "multi-agent",
+      "omnicouncil",
+      "python",
+      "web-crawler"
+    ],
+    "updated_at": "2026-07-21T08:04:22Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-21T08:04:58.910601+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cambridgetcg/hermes-agents",
+    "url": "https://github.com/cambridgetcg/hermes-agents",
+    "description": "The kingdom's plain-speaking staff \u2014 local Hermes 3 agents for transparency, understanding, and love. explainer \u00b7 kindness \u00b7 verisleight.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-07-21T08:04:23Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "tale-project/tale"
+    ],
+    "discovered_at": "2026-07-21T08:05:01.913220+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "NyxFoundation/skills",
+    "url": "https://github.com/NyxFoundation/skills",
+    "description": "Single source of truth for Nyx Foundation agent skills (hermes / Claude Code / workspace agents)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-07-21T08:03:12Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills",
+      "izillionways/academic-research-skills-hermes",
+      "Undermybelt/hermes-skills-research",
+      "0451-software/research-skills",
+      "BBridgeers/hermes-skills"
+    ],
+    "discovered_at": "2026-07-21T08:05:04.916233+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cg63sun/Hermes-Agent",
+    "url": "https://github.com/cg63sun/Hermes-Agent",
+    "description": "hermes",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-21T08:01:59Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh"
+    ],
+    "discovered_at": "2026-07-21T08:05:07.918877+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "iPotatow/hermes-skill-manager",
+    "url": "https://github.com/iPotatow/hermes-skill-manager",
+    "description": "Native Hermes Desktop plugin for managing built-in, community, and local skills",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-21T07:34:03Z",
+    "category": "skills",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-21T08:05:24.144036+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "qixiaoz/hermes-agent",
+    "url": "https://github.com/qixiaoz/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-21T08:05:22Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh"
+    ],
+    "discovered_at": "2026-07-21T08:05:33.754329+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "frukaki/hermes-agent",
+    "url": "https://github.com/frukaki/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-11T20:40:24Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_month",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh"
+    ],
+    "discovered_at": "2026-07-21T08:05:36.756844+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "barkley-assistant/caduceus",
+    "url": "https://github.com/barkley-assistant/caduceus",
+    "description": "In development",
+    "stars": 1,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "agentic-ai",
+      "automation",
+      "github",
+      "github-issues",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "rust"
+    ],
+    "updated_at": "2026-07-21T08:05:27Z",
+    "category": "forks",
+    "score": 41,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-21T08:05:39.759374+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "JensenLZX/hermes-agent",
+    "url": "https://github.com/JensenLZX/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-21T08:04:58Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh"
+    ],
+    "discovered_at": "2026-07-21T08:05:42.761828+00:00",
+    "status": "pending"
   }
 ]

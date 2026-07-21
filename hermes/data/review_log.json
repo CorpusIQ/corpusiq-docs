@@ -5905,5 +5905,68 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-21T07:07:05.847030+00:00"
+  },
+  {
+    "repo": "sbrejnev988-coder/hermes-omnicouncil",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T08:07:30.450334+00:00"
+  },
+  {
+    "repo": "cambridgetcg/hermes-agents",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T08:07:30.450347+00:00"
+  },
+  {
+    "repo": "NyxFoundation/skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T08:07:30.450349+00:00"
+  },
+  {
+    "repo": "cg63sun/Hermes-Agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T08:07:30.450352+00:00"
+  },
+  {
+    "repo": "iPotatow/hermes-skill-manager",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T08:07:30.450353+00:00"
+  },
+  {
+    "repo": "qixiaoz/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T08:07:30.450355+00:00"
+  },
+  {
+    "repo": "frukaki/hermes-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T08:07:30.450357+00:00"
+  },
+  {
+    "repo": "barkley-assistant/caduceus",
+    "score": 41,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T08:07:30.450358+00:00"
+  },
+  {
+    "repo": "JensenLZX/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-21T08:07:30.450360+00:00"
   }
 ]
