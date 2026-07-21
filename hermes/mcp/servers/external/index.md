@@ -7,7 +7,60 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 20, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (9,800+ servers), GitHub search
+> **Last updated:** July 21, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,080+ servers), GitHub search
+
+---
+
+## 🆕 July 21, 2026 (Evening) — Sweep Additions (15 New Business Servers)
+
+Full sweep details: [Sweep Report →](/hermes/mcp/sweeps/sweep-july21-2026-evening/)
+
+### Fintel ★★★ New — July 21
+Hosted financial data MCP server. Real-time + historical market data through Streamable HTTP. OAuth/API key auth. First dedicated financial MCP on mcpservers.org direct-submit path. `mcp.fintel.io` · [Guide →](/hermes/mcp/servers/external/fintel-mcp/)
+
+### GReminders ★★★ New — July 21
+Scheduling + CRM + calendar MCP for professional firms. AI agents can book meetings, retrieve CRM records, answer client questions. `api.greminders.com/mcp` · [Guide →](/hermes/mcp/servers/external/greminders-mcp/)
+
+### BasedOnBusiness ★★★ New — July 21
+Google Maps business lead search + enrichment (email, social, tech stack) across 195 countries. `www.basedonb.com` · [Guide →](/hermes/mcp/servers/external/basedonbusiness-mcp/)
+
+### datamcp ★★★ New — July 21
+Hosted MCP gateway for PostgreSQL, MySQL, and OpenAPI. Server-side credentials, scoped access links. `datamcp.app` · [Guide →](/hermes/mcp/servers/external/datamcp-mcp/)
+
+### Feedier ★★ New — July 21
+Customer feedback & survey MCP — NPS, sentiment analysis, feedback categories. AI-powered customer insights. `help.feedier.com` · [Guide →](/hermes/mcp/servers/external/feedier-mcp/)
+
+### Google Maps Scraper ★★ New — July 21
+Live Google Maps search, reviews, photos through MCP. Lead generation, competitor research. `gmapsextractor.com` · [Guide →](/hermes/mcp/servers/external/google-maps-scraper-mcp/)
+
+### Scalix Cloud ★★ New — July 21
+Agent-operable cloud platform — 50+ MCP tools. Database, AI, functions, containers, storage, auth. `github.com/scalixworld/scalix-mcp` · [Guide →](/hermes/mcp/servers/external/scalix-mcp/)
+
+### InvestSights ★★ New — July 21
+Indian stock market MCP (NSE/BSE) — fundamentals, forensic accounting, DCF for 6,000+ stocks. First India-focused MCP. `github.com/InvestSights` · [Guide →](/hermes/mcp/servers/external/investsights-mcp/)
+
+### PreTestAds ★★ New — July 21
+Pre-flight ad creative scoring vs 76 top TikTok ads. $5 USDC/run via x402 or OAuth. `github.com/krecicki/pretestads-agent-scripts` · [Guide →](/hermes/mcp/servers/external/pretestads-mcp/)
+
+### Mermail ★★ New — July 21
+Privacy-first email inboxes for AI agents — read, search, draft, send, triage over MCP. `docs.mermail.app` · [Guide →](/hermes/mcp/servers/external/mermail-mcp/)
+
+### MailStream ★★ New — July 21
+Physical mail MCP: postcards, letters, campaigns. First direct mail MCP server. `mailstream.app` · [Guide →](/hermes/mcp/servers/external/mailstream-mcp/)
+
+### squirrelscan ★★ New — July 21
+Website audit MCP: SEO, performance, security, accessibility, agent experience — with exact fixes. `github.com/squirrelscan/squirrelscan` · [Guide →](/hermes/mcp/servers/external/squirrelscan-mcp/)
+
+### LastPing MCP ★ New — July 21
+AI agent service monitoring and uptime checks. Lightweight. `github.com/tp322d/lastping-app` · [Guide →](/hermes/mcp/servers/external/lastping-mcp/)
+
+### codicil ★ New — July 21
+Repo documentation indexing with local Chroma + Ollama embeddings. Zero external API deps. `github.com/colehellman/codicil` · [Guide →](/hermes/mcp/servers/external/codicil-mcp/)
+
+### MailFixture ★ New — July 21
+Disposable email/SMS inboxes for automated testing. Wait-for-OTP, wait-for-link tools. `mailfixture.com` · [Guide →](/hermes/mcp/servers/external/mailfixture-mcp/)
+
+**Also identified:** Nippy, Massive, Panella, Talamus, AgentCouch, BTC War, Latchshot + 6 more (28 total new). [Full sweep →](/hermes/mcp/sweeps/sweep-july21-2026-evening/)
 
 ---
 
