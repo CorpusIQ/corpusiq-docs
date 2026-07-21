@@ -128,6 +128,5 @@ tvly search "competitor_name review OR alternative" --time-range week --json
 ## See Also
 
 - [[content-strategy-setup]] — Content strategy planning (companion skill)
-- [[corpusiq-social-cadence-engine]] — CorpusIQ multi-platform posting schedule
-- [[cross-platform-commenting-engine]] — Automated engagement across platforms
-- [[corpusiq-content-voice-rules]] — Hard constraints for all public content
+- [Postiz](https://postiz.com) — Open-source social media scheduling tool
+- [Buffer Social Media Guide](https://buffer.com/library/social-media-strategy) — Social media strategy for brands
