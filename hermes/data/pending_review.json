@@ -23193,5 +23193,245 @@
     "near_duplicates": [],
     "discovered_at": "2026-07-21T05:05:38.500707+00:00",
     "status": "pending"
+  },
+  {
+    "name": "arcbjorn/odin",
+    "url": "https://github.com/arcbjorn/odin",
+    "description": "A lean, single-binary, robust, stable agent without context pollution. Sane alternative to OpenClaw & Hermes",
+    "stars": 1,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "updated_at": "2026-07-21T06:05:21Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "easyvibecoding/vibe-sci"
+    ],
+    "discovered_at": "2026-07-21T06:05:37.676587+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "itsebasvz/duet",
+    "url": "https://github.com/itsebasvz/duet",
+    "description": "Dual-agent dev system: Claude Code orchestrator + CLI worker agents (Hermes first) with live web observability",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-21T06:04:08Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-21T06:05:40.678245+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yancyfeng999-star/luer-visual-design-skill",
+    "url": "https://github.com/yancyfeng999-star/luer-visual-design-skill",
+    "description": "\ud83c\udfa8 \u9e7f\u5c14\u82b1\u56ed\u89c6\u89c9\u8bbe\u8ba1\u7cfb\u7edf | Luer Garden Visual Design Skill - \u5b8c\u6574\u7684AI\u8f85\u52a9\u89c6\u89c9\u8bbe\u8ba1\u5de5\u4f5c\u6d41\uff0c\u57fa\u4e8eHermes Agent\u3002\u5305\u542bVI\u89c4\u8303\u6267\u884c\u3001\u6d3b\u52a8\u4e3b\u753b\u9762\u8bbe\u8ba1\u3001\u7535\u5546\u4ea7\u54c1\u8bbe\u8ba1\u3001\u6807\u8bc6\u6807\u724c\u8bbe\u8ba1\u3001\u7ade\u54c1\u7814\u7a76\u7b49\u5b8c\u6574\u529f\u80fd\u3002\u5b9e\u6218\u9a8c\u8bc1\uff1a\u4e03\u5915\u661f\u5149\u591c\u6848\u4f8b95\u5206\uff0c27\u5206\u949f\u5b8c\u6574\u4ea4\u4ed8\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [
+      "ai-design",
+      "ai-skill",
+      "brand-design",
+      "chinese-design",
+      "design-automation",
+      "gpt-image",
+      "hermes-agent",
+      "prompt-engineering",
+      "visual-design"
+    ],
+    "updated_at": "2026-07-21T06:01:53Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-21T06:05:43.680013+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "baphuongna/my-agents",
+    "url": "https://github.com/baphuongna/my-agents",
+    "description": "Personal Rust coding agent \u2014 single-user local-first, wraps harness-cli for traces/stories/backlog persistence. Inspired by hermes-agent's agent core (MIT, design only).",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-21T06:02:28Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-21T06:05:46.681751+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Elite-Nexus-AI/Elite-Nexus-Matrix-Command-Center",
+    "url": "https://github.com/Elite-Nexus-AI/Elite-Nexus-Matrix-Command-Center",
+    "description": "Elite Nexus AI Matrix HUD \u2014 Local AI Command Center with Hermes, GPU telemetry, Piper voice, and agent control",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-21T06:01:27Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "Bo1202/Aivy-OS",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-07-21T06:05:49.683729+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "madeinoz67/hermes-memory-muninndb",
+    "url": "https://github.com/madeinoz67/hermes-memory-muninndb",
+    "description": "munnindb memory plugin for Hermes",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "hermes",
+      "hermes-agent",
+      "hermes-plugin",
+      "munnindb"
+    ],
+    "updated_at": "2026-07-21T06:05:09Z",
+    "category": "forks",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-21T06:06:12.571413+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "birhantprkc/gbrain",
+    "url": "https://github.com/birhantprkc/gbrain",
+    "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-21T06:05:02Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "garrytan/gbrain"
+    ],
+    "discovered_at": "2026-07-21T06:06:15.573975+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "IT-Help-San-Diego/calibration-scope",
+    "url": "https://github.com/IT-Help-San-Diego/calibration-scope",
+    "description": "Test local AI models like a scientist: ground-truth benchmarks for LM Studio + cloud LLMs. Vision/tools/reasoning/security, N=3 trials, SHA3-sealed evidence, live Rust+SSE dashboard. No marketing numbers \u2014 your hardware, your proof.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "ai-agent",
+      "ai-evaluation",
+      "axum",
+      "benchmark",
+      "hermes-agent",
+      "llm",
+      "lm-studio",
+      "local-llm",
+      "model-evaluation",
+      "postgresql",
+      "prompt-injection",
+      "reproducible-research",
+      "rust",
+      "sse",
+      "vision-language-model"
+    ],
+    "updated_at": "2026-07-21T06:04:02Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "niche_specialized"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-21T06:06:18.577380+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "anthonybaldwin/hermes-agent",
+    "url": "https://github.com/anthonybaldwin/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-21T06:03:54Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh"
+    ],
+    "discovered_at": "2026-07-21T06:06:21.580010+00:00",
+    "status": "pending"
   }
 ]
