@@ -305,6 +305,8 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Parallel Agent Skills — Web Intelligence for Hermes Setup](/docs/hermes/skills/catalog/parallel-agent-skills-setup.html)
 - [Perfectloop Setup](/docs/hermes/skills/catalog/perfectloop-setup.html)
 - [Petdex — Animated Mascots for Hermes Agent](/docs/hermes/skills/catalog/petdex-setup.html)
+- [Popular Web Designs — 54 Design Systems as HTML/CSS Templates Setup](/docs/hermes/skills/catalog/popular-web-designs-setup.html)
+- [PowerPoint — Create, Read, Edit .pptx Decks Setup](/docs/hermes/skills/catalog/powerpoint-setup.html)
 - [platform Skills](/docs/hermes/skills/catalog/platform/index.html)
 - [prisma Skills](/docs/hermes/skills/catalog/prisma/index.html)
 - [Safari Web Agent Setup](/docs/hermes/skills/catalog/safari-web-agent-setup.html)
