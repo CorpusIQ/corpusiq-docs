@@ -31,6 +31,32 @@ Agent-native session replay by Fullstory. Captures production sessions and conne
 
 ---
 
+## 🆕 July 22, 2026 (Evening) — GitHub Sweep Additions (6 New Business Servers)
+
+Full sweep details: [Sweep Report →](/hermes/mcp/sweeps/sweep-july22-2026-evening/)
+
+### Collibra MCP ★★★ New — July 22 (evening)
+MCP server for Collibra Core REST API 2.0 — enterprise data governance. AI agents can search, read, and write Collibra assets, attributes, and relations. Pairs with Power BI MCP for semantic lineage. First dedicated data governance MCP. `github.com/rajivdatta/mcp-collibra` · [Guide →](/hermes/mcp/servers/external/collibra-mcp/)
+
+### Sanctions Screening MCP ★★★ New — July 22 (evening)
+OFAC, EU, UK, UN sanctions screening through MCP. Hosted on MCPize. Essential for fintech AML/KYC compliance workflows. `github.com/apifymcpfactory-droid/sanctions-screening-mcp` · [Guide →](/hermes/mcp/servers/external/sanctions-screening-mcp/)
+
+### EU VAT VIES MCP ★★★ New — July 22 (evening)
+EU VAT number validation with consultation number for legal audit proof. Part of the Honest MCP suite. Essential for EU e-commerce B2B operators. `github.com/bartosz-kuc/honest-vies-mcp` · [Guide →](/hermes/mcp/servers/external/honest-vies-mcp/)
+
+### Capforge (SAP CAP/CDS) ★★★ New — July 22 (evening)
+SAP Cloud Application Programming model scaffolding with CDS compile validation. Generates Fiori/UI5 frontends. First SAP development MCP. `github.com/automatizatodo/capforge` · [Guide →](/hermes/mcp/servers/external/capforge-mcp/)
+
+### abapilot (SAP ECC/S4HANA) ★★★ New — July 22 (evening)
+In-system ABAP for SAP ECC and on-premise S/4HANA. No BTP, no ADT, no RISE required. Direct ABAP access to the world's most deployed ERP. `github.com/NicoHern/abapilot-mcp` · [Guide →](/hermes/mcp/servers/external/abapilot-mcp/)
+
+### General Liquidity MCP ★★★ New — July 22 (evening)
+Machine economy API MCP server — resolve, pay, verify, disclose. Enables autonomous payment operations between machine-economy participants. `github.com/general-liquidity/general-liquidity-mcp` · [Guide →](/hermes/mcp/servers/external/general-liquidity-mcp/)
+
+**Also identified:** Universal Commerce Protocol MCP (Google shopping), Confluence MCP, OneNote MCP, Subcue MCP (pricing data), Polish Honest MCP suite (12 servers: Gmail, Drive, Calendar, company registry, FX rates, etc.), SAP-specific tooling — 47 total new servers. [Full sweep →](/hermes/mcp/sweeps/sweep-july22-2026-evening/)
+
+---
+
 ## 🆕 July 21, 2026 (Evening) — Sweep Additions (15 New Business Servers)
 
 Full sweep details: [Sweep Report →](/hermes/mcp/sweeps/sweep-july21-2026-evening/)
