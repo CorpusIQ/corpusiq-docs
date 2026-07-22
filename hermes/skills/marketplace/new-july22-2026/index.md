@@ -1,53 +1,58 @@
 ---
 title: "New Skills — July 22, 2026 Marketplace Sweep"
-description: "2 new Hermes-bundled skills discovered on skills.sh not yet documented. 844+ combined installs. Official Hermes skills from nousresearch/hermes-agent."
+description: "8 new Hermes-relevant skills discovered on skills.sh — multi-agent orchestration, PR review, web scraping, MCP integration, Docker deployment, session persistence, and more."
 ---
 
 # New Skills — July 22, 2026
 
-Skills discovered during the July 22 early-morning marketplace sweep. 2 new setup guides created for Hermes agents. These are official bundled skills from nousresearch/hermes-agent that were missing from our documentation catalog.
-
 ## Summary
-
 | Metric | Count |
 |---|---|
-| New skills found | 2 |
-| Setup guides created | 2 |
-| Combined installs | ~844+ |
-| Quality: 🟢 Production | 2 |
-
-## New Skills
-
-### Creative & Design
-
-| Skill | Publisher | Installs | Tier | Guide |
-|---|---|---|---|---|
-| **popular-web-designs** | nousresearch/hermes-agent | 451 | 🟢 | [Setup Guide](/hermes/skills/catalog/popular-web-designs-setup/) |
-
-### Productivity
-
-| Skill | Publisher | Installs | Tier | Guide |
-|---|---|---|---|---|
-| **powerpoint** | nousresearch/hermes-agent | 393 | 🟢 | [Setup Guide](/hermes/skills/catalog/powerpoint-setup/) |
-
-## Skill Details
-
-### popular-web-designs (451 installs)
-
-54 real-world design systems (Stripe, Linear, Vercel, Apple, Airbnb, Notion, Supabase, and 48 more) as HTML/CSS templates. Each template captures a site's complete visual language: color palette, typography hierarchy, component styles, spacing system, shadows, and responsive behavior. Includes Hermes-specific implementation notes with CDN font substitutes and Google Fonts `<link>` tags.
-
-Pairs with `claude-design` for design process and `generative-widgets` for live preview via cloudflared tunnel.
-
-### powerpoint (393 installs)
-
-Complete PowerPoint creation, reading, and editing. Supports from-scratch generation via pptxgenjs, template-based XML manipulation, speaker notes, native charts, and design QA via LibreOffice. Includes 20+ documented gotchas (hex color format, shadow offsets, chart data labels), 10 curated color palettes, and comprehensive validation scripts.
-
-Part of the Hermes office suite alongside `docx`, `xlsx`, and `pdf`.
+| Total skills scanned | 37 |
+| Already catalogued | 25 |
+| New skills found | 12 |
+| Setup guides created | 8 |
+| Combined installs | ~660+ |
+| Quality: 🟡 Beta | 2 |
+| Quality: 🔵 Community | 6 |
 
 ## Notes
 
-- Both skills are official Hermes bundled skills from the nousresearch/hermes-agent repository
-- These were missing from our documentation catalog despite being available on skills.sh
-- Discovered by cross-referencing the 183 SKILL.md files in nousresearch/hermes-agent against our existing catalog of 248+ setup guides
-- All setup guides follow the standard format with installation, usage, related skills, and verification sections
-- Total catalog now covers 349+ Hermes-relevant skills from skills.sh and community sources
+- First sweep since June 30, 2026 — 3-week gap closed. No new Hermes-specific skills surfaced but 8 broadly relevant agent infrastructure skills documented.
+- 4 skills could not be retrieved: `skills.volces.com@agentic-workflow-automation` (non-GitHub host), `404kidwiz/claude-supercode-skills@deployment-engineer` (private repo), `julianromli/ai-skills@backend-dev` (skill not found in that form), `ruvnet/claude-flow@session-persist` (not found).
+- The `cat-xierluo/legal-skills@multi-agent-orchestration` skill (32 installs) is exceptionally comprehensive at v1.18.4 — a full PM-style orchestration framework. Low install count belies its production maturity.
+- `gooseworks-ai/goose-skills@web-scraping` (35 installs) provides unified access to 5 scraping engines (Scrapegraph, Olostep, Riveter, Brand.dev, Notte) under one API key — strong candidate for competitive research workflows.
+
+## New Skills
+
+### Engineering / Code Review
+| Skill | Publisher | Installs | Tier | Guide |
+|---|---|---|---|---|
+| **git-pr-reviewer** | onewave-ai/claude-skills | 239 | 🟡 | [Setup Guide](/hermes/skills/catalog/git-pr-reviewer-setup/) |
+| **git-pr-review** | sickn33/antigravity-awesome-skills | 34 | 🔵 | [Setup Guide](/hermes/skills/catalog/git-pr-review-skills-sh-setup/) |
+
+### Engineering / DevOps
+| Skill | Publisher | Installs | Tier | Guide |
+|---|---|---|---|---|
+| **infra-deploy** | terrylica/cc-skills | 108 | 🟡 | [Setup Guide](/hermes/skills/catalog/infra-deploy-calcom-setup/) |
+| **dockerize-and-deploy** | rockclaver/systemcraft | 44 | 🔵 | [Setup Guide](/hermes/skills/catalog/dockerize-and-deploy-setup/) |
+
+### Engineering / MCP
+| Skill | Publisher | Installs | Tier | Guide |
+|---|---|---|---|---|
+| **mcp-integration** | anthropics/claude-plugins-public | 78 | 🔵 | [Setup Guide](/hermes/skills/catalog/mcp-integration-setup/) |
+
+### Engineering / Data Extraction
+| Skill | Publisher | Installs | Tier | Guide |
+|---|---|---|---|---|
+| **web-scraping** | gooseworks-ai/goose-skills | 35 | 🔵 | [Setup Guide](/hermes/skills/catalog/web-scraping-gooseworks-setup/) |
+
+### Engineering / Agent Orchestration
+| Skill | Publisher | Installs | Tier | Guide |
+|---|---|---|---|---|
+| **multi-agent-orchestration** | cat-xierluo/legal-skills | 32 | 🔵 | [Setup Guide](/hermes/skills/catalog/multi-agent-orchestration-setup/) |
+
+### Engineering / Memory & Persistence
+| Skill | Publisher | Installs | Tier | Guide |
+|---|---|---|---|---|
+| **session-persistence** | archieindian/openclaw-superpowers | 28 | 🔵 | [Setup Guide](/hermes/skills/catalog/session-persistence-openclaw-setup/) |
