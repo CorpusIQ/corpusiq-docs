@@ -6066,5 +6066,47 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-22T05:06:17.612138+00:00"
+  },
+  {
+    "repo": "cronux98/PRJ-001-argus-soc",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T06:04:48.445406+00:00"
+  },
+  {
+    "repo": "coolifystealthagents/overseasvirtualassistant",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T06:04:48.445421+00:00"
+  },
+  {
+    "repo": "mifdlaldev/mifdlaldev",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T06:04:48.445423+00:00"
+  },
+  {
+    "repo": "adithyakuruva007/red_agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T06:04:48.445425+00:00"
+  },
+  {
+    "repo": "magnus919/agent-skills",
+    "score": 43,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T06:04:48.445427+00:00"
+  },
+  {
+    "repo": "Uniterra-Solutions/fabricium",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T06:04:48.445429+00:00"
   }
 ]

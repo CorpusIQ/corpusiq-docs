@@ -1,12 +1,12 @@
 ---
 title: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem — 140+ repos, tools, skills, and integrations
-last_updated: 2026-07-19
+last_updated: 2026-07-21
 ---
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **143+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **144+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
 > **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome.
 
@@ -26,7 +26,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **143+ reposit
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
 | 📦 SDKs & Libraries | 1 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 1 | Security tools, compliance, audit |
-| 🔧 Skills & Plugins | 35 | Reusable skills, plugins, extensions, tools |
+| 🔧 Skills & Plugins | 36 | Reusable skills, plugins, extensions, tools |
 | 🖥️ Interfaces & UI | 26 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
@@ -812,6 +812,14 @@ _Reusable skills, plugins, extensions, tools_
 >This is a skill that can be used for most of the agentic AI, which enables your Hermes, Openclaw ...etc to look for a bunch of papers based on your research plan. It will access to scopus by the scopus mcp, and OpenAlex api ...etc
 
 **Language:** JavaScript
+
+---
+
+### [Anil-matcha/awesome-hermes-agent](https://github.com/Anil-matcha/awesome-hermes-agent) ⭐ 38
+
+>A curated list of skills, plugins, tools, integrations, and resources for Hermes Agent by Nous Research
+
+**Topics:** agent-tools, agentic-ai, ai-agents, awesome, awesome-list, hermes-agent, nous-research, skills
 
 ---
 

@@ -24128,5 +24128,170 @@
     "near_duplicates": [],
     "discovered_at": "2026-07-22T05:05:48.738129+00:00",
     "status": "pending"
+  },
+  {
+    "name": "cronux98/PRJ-001-argus-soc",
+    "url": "https://github.com/cronux98/PRJ-001-argus-soc",
+    "description": "PRJ-001 ARGUS: General-purpose RISC-V SoC on sky130A. Ibex RV32IMC, APB bus, 8 FOSSi peripherals, GDS-proven. Built with Vera (Hermes Agentic ASIC Framework).",
+    "stars": 1,
+    "forks": 0,
+    "language": "Verilog",
+    "topics": [],
+    "updated_at": "2026-07-22T05:59:35Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-22T06:02:26.804432+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "coolifystealthagents/overseasvirtualassistant",
+    "url": "https://github.com/coolifystealthagents/overseasvirtualassistant",
+    "description": "overseasvirtualassistant SEO lead generation site built by Hermes Agent site factory",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-22T05:53:59Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-22T06:02:28.806346+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mifdlaldev/mifdlaldev",
+    "url": "https://github.com/mifdlaldev/mifdlaldev",
+    "description": "AI-agent & automation engineer \u2014 n8n, OpenClaw/Hermes, bots, prompt engineering. Building agents from Bandung, Indonesia.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "ai-agents",
+      "automation",
+      "bots",
+      "hermes",
+      "n8n",
+      "openclaw",
+      "prompt-engineering"
+    ],
+    "updated_at": "2026-07-22T05:53:28Z",
+    "category": "core",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-22T06:02:30.808041+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "adithyakuruva007/red_agent",
+    "url": "https://github.com/adithyakuruva007/red_agent",
+    "description": "A local-first AI agent that grows with you. Essentially a Hermes agent in your pocket, connecting directly to your Obsidian vault to act as your Second Brain. Offline-capable, sandboxed, and built with absolute privacy.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Kotlin",
+    "topics": [],
+    "updated_at": "2026-07-22T05:53:14Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "screenpipe/screenpipe",
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "mlennie/hermes-mcp",
+      "aiunlocked1412/hermes-agent-pixel",
+      "samrusani/AliceBot",
+      "yang1989haoa-gif/synapse-studio",
+      "kaankacar/stellar-agent-kit",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "Bo1202/Aivy-OS",
+      "PatterAI/Patter",
+      "cx2002302-lang/zettelkasten-second-memory"
+    ],
+    "discovered_at": "2026-07-22T06:02:32.809812+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "magnus919/agent-skills",
+    "url": "https://github.com/magnus919/agent-skills",
+    "description": "Curated collection of AI agent skills for Hermes and other agent frameworks",
+    "stars": 13,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "agentskills",
+      "ai-agents",
+      "automation",
+      "llm"
+    ],
+    "updated_at": "2026-07-22T05:52:44Z",
+    "category": "core",
+    "score": 43,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "some_stars_10+",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "Romanescu11/hermes-skill-factory",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "LordVaderXIII/grok-connectors",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-22T06:02:34.811612+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Uniterra-Solutions/fabricium",
+    "url": "https://github.com/Uniterra-Solutions/fabricium",
+    "description": "Fabricium \u2014 Shared Hermes plugin infrastructure (CLI lifecycle, bundled skills, Git self-update, state persistence)",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-22T05:10:47Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-22T06:02:50.691631+00:00",
+    "status": "pending"
   }
 ]
