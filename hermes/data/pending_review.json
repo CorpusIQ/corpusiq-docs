@@ -24293,5 +24293,338 @@
     "near_duplicates": [],
     "discovered_at": "2026-07-22T06:02:50.691631+00:00",
     "status": "pending"
+  },
+  {
+    "name": "openclawjohn/hermes-brain",
+    "url": "https://github.com/openclawjohn/hermes-brain",
+    "description": "Hermes Agent brain - Obsidian vault with project docs, site credentials, and planning",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-22T07:03:02Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "itechmeat/open-second-brain",
+      "Aphelios01-sdk/hermes-brain"
+    ],
+    "discovered_at": "2026-07-22T07:04:51.582036+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "labsiqbal/proxima",
+    "url": "https://github.com/labsiqbal/proxima",
+    "description": "Self-hosted, single-user cockpit for the AI agents you already own \u2014 delegate tasks with review gates, run agent-drawn workflow graphs on cron, chat with tool approvals, and design, all over ACP (Claude Code, Codex, Hermes, Pi). FastAPI + React PWA. No bundled model, no stored provider credentials.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "acp",
+      "ai-agents",
+      "ai-orchestration",
+      "fastapi",
+      "pwa",
+      "react",
+      "self-hosted",
+      "workflow-engine"
+    ],
+    "updated_at": "2026-07-22T07:02:35Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "1Panel-dev/1Panel",
+      "MervinPraison/PraisonAI",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "PatterAI/Patter"
+    ],
+    "discovered_at": "2026-07-22T07:04:54.584388+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Jilazem/hermes-for-excel",
+    "url": "https://github.com/Jilazem/hermes-for-excel",
+    "description": "Bring an LLM agent into Excel: =HERMES.* cell functions + a chat pane, wired to your own gateway (self-hosted, OpenAI, Ollama, Anthropic).",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-07-22T07:00:30Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-22T07:04:57.586222+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kyoungrok0517/hermes-plugin-serper",
+    "url": "https://github.com/kyoungrok0517/hermes-plugin-serper",
+    "description": "Serper.dev Google Search provider plugin for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "google-search",
+      "hermes-agent",
+      "python",
+      "serper",
+      "web-search"
+    ],
+    "updated_at": "2026-07-22T07:00:12Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-22T07:05:00.587870+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kdkrkwhr/hermes-env",
+    "url": "https://github.com/kdkrkwhr/hermes-env",
+    "description": "hermes agent \uae30\ubc18 workflow. \ubc29\uc2dd \ubc0f \uc2a4\ud0ac \ud2b8\ub9ac \uad6c\uc131 ",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-22T06:59:18Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-22T07:05:03.589702+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "emperorclaw/emperorclaw",
+    "url": "https://github.com/emperorclaw/emperorclaw",
+    "description": "Introduce AI to your company workspace.",
+    "stars": 189,
+    "forks": 6,
+    "language": "TypeScript",
+    "topics": [
+      "ai-agents",
+      "hermes-agent",
+      "jose-zuma",
+      "mission-control",
+      "openclaw"
+    ],
+    "updated_at": "2026-07-22T06:56:55Z",
+    "category": "forks",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "moderate_stars_100+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-22T07:05:26.518078+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wlsdks/ontology-atlas",
+    "url": "https://github.com/wlsdks/ontology-atlas",
+    "description": "Understand what your AI agents are building. Agent-native, human-sovereign ontology workbench \u2014 one markdown graph humans and coding agents read, write, and keep fresh together. Local-first, MCP-native, open source.",
+    "stars": 5,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agents",
+      "chatgpt",
+      "claude",
+      "claudecode",
+      "codex",
+      "cursor",
+      "frontmatter",
+      "hermes-agent",
+      "knowledge-graph",
+      "markdown",
+      "mcp",
+      "nextjs",
+      "obsidian",
+      "ontologies",
+      "ontology",
+      "ontology-services",
+      "openclaw",
+      "vault"
+    ],
+    "updated_at": "2026-07-22T07:05:21Z",
+    "category": "forks",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-22T07:05:29.520894+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "gingerninja85/askhermie.dev",
+    "url": "https://github.com/gingerninja85/askhermie.dev",
+    "description": "Hermie skill catalog, tools lab, and AI systems assistant homepage",
+    "stars": 0,
+    "forks": 1,
+    "language": "Astro",
+    "topics": [
+      "ai-assistant",
+      "astro",
+      "cloudflare-pages",
+      "cybersecurity",
+      "hermes-agent",
+      "iot",
+      "skills-catalog",
+      "systems-engineering"
+    ],
+    "updated_at": "2026-07-22T07:04:42Z",
+    "category": "forks",
+    "score": 41,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-22T07:05:32.523409+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "timothybrush/NemoClaw",
+    "url": "https://github.com/timothybrush/NemoClaw",
+    "description": "Run agents like Hermes and OpenClaw more securely inside NVIDIA OpenShell with managed inference",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-22T07:02:01Z",
+    "category": "forks",
+    "score": 48,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NVIDIA/NemoClaw"
+    ],
+    "discovered_at": "2026-07-22T07:05:35.526565+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "carcraze/hermes-agent",
+    "url": "https://github.com/carcraze/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-22T07:02:30Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-22T07:05:38.529119+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "timothybrush/hermes-agent",
+    "url": "https://github.com/timothybrush/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-22T07:01:55Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-22T07:05:41.531588+00:00",
+    "status": "pending"
   }
 ]

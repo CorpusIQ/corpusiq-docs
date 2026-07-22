@@ -6108,5 +6108,82 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-22T06:04:48.445429+00:00"
+  },
+  {
+    "repo": "openclawjohn/hermes-brain",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T07:07:29.689698+00:00"
+  },
+  {
+    "repo": "labsiqbal/proxima",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T07:07:29.689713+00:00"
+  },
+  {
+    "repo": "Jilazem/hermes-for-excel",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T07:07:29.689716+00:00"
+  },
+  {
+    "repo": "kyoungrok0517/hermes-plugin-serper",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T07:07:29.689718+00:00"
+  },
+  {
+    "repo": "kdkrkwhr/hermes-env",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T07:07:29.689720+00:00"
+  },
+  {
+    "repo": "emperorclaw/emperorclaw",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T07:07:29.689722+00:00"
+  },
+  {
+    "repo": "wlsdks/ontology-atlas",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T07:07:29.689723+00:00"
+  },
+  {
+    "repo": "gingerninja85/askhermie.dev",
+    "score": 41,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T07:07:29.689725+00:00"
+  },
+  {
+    "repo": "timothybrush/NemoClaw",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T07:07:29.689727+00:00"
+  },
+  {
+    "repo": "carcraze/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T07:07:29.689729+00:00"
+  },
+  {
+    "repo": "timothybrush/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T07:07:29.689731+00:00"
   }
 ]

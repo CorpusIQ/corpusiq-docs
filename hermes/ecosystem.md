@@ -1,12 +1,12 @@
 ---
 title: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem — 140+ repos, tools, skills, and integrations
-last_updated: 2026-07-21
+last_updated: 2026-07-22
 ---
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **144+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **149+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
 > **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome.
 
@@ -15,12 +15,12 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **144+ reposit
 | Category | Repos | Description |
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
-| 🧠 Core Framework | 5 | Core Hermes Agent repos, official builds |
-| 🚀 Deployment | 9 | Docker, Kubernetes, production hosting |
+| 🧠 Core Framework | 6 | Core Hermes Agent repos, official builds |
+| 🚀 Deployment | 10 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 4 | Community forks with significant changes |
-| 🔗 Integrations | 2 | Platform connectors, bridges, adapters |
+| 🔗 Integrations | 3 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 6 | Model Context Protocol servers & integrations |
-| 💾 Memory & Knowledge | 35 | Persistent memory, knowledge graphs, context systems |
+| 💾 Memory & Knowledge | 37 | Persistent memory, knowledge graphs, context systems |
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
 | 📋 Other | 3 | General discoveries, misc tools |
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
@@ -87,6 +87,14 @@ _Core Hermes Agent repos, official builds_
 
 ---
 
+### [shiwenwen/hope-agent](https://github.com/shiwenwen/hope-agent) ⭐ 1,261
+
+>🦭 A cross-device desktop AI agent with memory, autonomous goals, dynamic workflows, and headless deployment — compatible with Hermes Agent, OpenClaw, Claude Code, Codex, and more.
+
+**Language:** Rust | **Topics:** agent, ai, ai-assistant, cross-device, desktop-app, hermes-agent, mcp, openclaw, personal | **Score:** 75/100
+
+---
+
 ## 🚀 Deployment
 
 _Docker, Kubernetes, production hosting_
@@ -104,6 +112,14 @@ _Docker, Kubernetes, production hosting_
 >Adversarial multi-perspective council MCP server for hermes-agent
 
 **Language:** Python
+
+---
+
+### [yuluyangguang1/hermes-portable](https://github.com/yuluyangguang1/hermes-portable) ⭐ 38
+
+>🔌 Plug-in-a-USB AI agent — zero-install, zero-trace, cross-platform portable Hermes Agent. Self-contained with all dependencies.
+
+**Language:** Python | **Topics:** ai-agent, cross-platform, hermes, portable, python, usb | **Score:** 75/100
 
 ---
 
@@ -200,6 +216,14 @@ _Community forks with significant changes_
 ## 🔗 Integrations
 
 _Platform connectors, bridges, adapters_
+
+### [bitrouter/bitrouter](https://github.com/bitrouter/bitrouter) ⭐ 211
+
+>The self-improving LLM router that optimizes your agentic workflows with every run — works with any harness (Hermes Agent, OpenClaw, Claude Code, Codex), any model, any loop.
+
+**Language:** Rust | **Topics:** agent-harness, ai-agent, api-gateway, hermes-agent, llm-router, mcp, openclaw, rust | **Score:** 82/100
+
+---
 
 ### [yang1989haoa-gif/synapse-studio](https://github.com/yang1989haoa-gif/synapse-studio) ⭐ 1
 
@@ -369,6 +393,14 @@ _Persistent memory, knowledge graphs, context systems_
 
 ---
 
+### [WEIFENG2333/phistory](https://github.com/WEIFENG2333/phistory) ⭐ 364
+
+>📸 Phistory automatically archives versioned system prompt snapshots from agent CLIs like Claude Code, Codex, OpenClaw, and Hermes Agent — track prompt evolution and debug agent behavior.
+
+**Language:** HTML | **Score:** 78/100
+
+---
+
 ### [Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server](https://github.com/Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server) ⭐ 345
 
 >Kindly Web Search MCP Server: Web search + robust content retrieval for AI coding tools (Claude Code, Codex, Cursor, GitHub Copilot, Gemini, etc.) and AI agents (Claude Desktop, OpenClaw, Hermes, etc.). Supports Serper, Tavily, and SearXNG.
@@ -486,6 +518,14 @@ _Persistent memory, knowledge graphs, context systems_
 >Local-first memory, recall, and skill evolution plugin for Codex agents.
 
 **Language:** Python | **Topics:** agent-memory, ai-agent, codex, codex-plugin, developer-tools
+
+---
+
+### [cx2002302-lang/zettelkasten-second-memory](https://github.com/cx2002302-lang/zettelkasten-second-memory) ⭐ 16
+
+>🗂️ Turns AI conversations into a permanent Zettelkasten knowledge base — atomic notes, bi-directional links, knowledge distillation, and MCP tool exposure for Hermes Agent and OpenClaw.
+
+**Language:** TypeScript | **Topics:** ai-agent, hermes-agent, knowledge-graph, mcp, note-taking, openclaw, second-memory, zettelkasten | **Score:** 72/100
 
 ---
 
