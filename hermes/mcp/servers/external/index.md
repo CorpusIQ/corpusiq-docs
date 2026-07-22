@@ -7,7 +7,27 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 21, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,080+ servers), GitHub search
+> **Last updated:** July 22, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,135+ servers), GitHub search
+
+---
+
+## 🆕 July 22, 2026 — Sweep Additions (4 New Business Servers)
+
+Full sweep details: [Sweep Report →](/hermes/mcp/sweeps/sweep-july22-2026/)
+
+### Sugra API MCP ★★★ New — July 22
+Official MCP server for the Sugra API — 1,500+ endpoints across 36 data domains from 160+ primary sources. Markets, economics, company fundamentals, government, news, climate. Most comprehensive data MCP yet observed. `mcp.so/servers/sugra-api-mcp` · [Guide →](/hermes/mcp/servers/external/sugra-api-mcp/)
+
+### Patsnap Patent Literature Search ★★★ New — July 22
+Professional MCP for searching Patsnap's global patent and literature databases via natural language, semantic, or keyword queries. First dedicated patent/IP MCP server. 170+ jurisdictions. `mcp.so/servers/patsnap-patent-literature-search-mcp` · [Guide →](/hermes/mcp/servers/external/patsnap-mcp/)
+
+### Capital.com MCP ★★ New — July 22
+Official CFD trading MCP from Capital.com — forex, indices, commodities, shares, crypto. 4 GitHub stars, verified. Regulated broker with OAuth auth. ⚠️ CFDs are high-risk (81% of retail accounts lose money). `mcp.so/servers/capital-com-mcp` · [Guide →](/hermes/mcp/servers/external/capital-com-mcp/)
+
+### Subtext ★★ New — July 22
+Agent-native session replay by Fullstory. Captures production sessions and connects them to coding agents for debugging, UX analysis, and support triage. 9 GitHub stars. `mcp.so/servers/subtext` · [Guide →](/hermes/mcp/servers/external/subtext-mcp/)
+
+**Also identified:** Reelier (agent workflow replay), Moxie Docs (automated docs), FT Optix MCP (industrial automation), yandex-wiki-search-mcp (8 total new). [Full sweep →](/hermes/mcp/sweeps/sweep-july22-2026/)
 
 ---
 
