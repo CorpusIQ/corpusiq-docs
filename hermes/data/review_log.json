@@ -6185,5 +6185,89 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-22T07:07:29.689731+00:00"
+  },
+  {
+    "repo": "faizalardhi16/palskills",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T08:06:33.691178+00:00"
+  },
+  {
+    "repo": "KitchenGun/personal-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T08:06:33.691190+00:00"
+  },
+  {
+    "repo": "bok-oversold-chive/hermes-agent-bok",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T08:06:33.691193+00:00"
+  },
+  {
+    "repo": "qf1lzx/railway-hermes-oauth-image",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T08:06:33.691195+00:00"
+  },
+  {
+    "repo": "Frankynwa/hermes-skills",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T08:06:33.691196+00:00"
+  },
+  {
+    "repo": "serpapi/serpapi-hermes-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T08:06:33.691198+00:00"
+  },
+  {
+    "repo": "Theorvane/type-mcp-api-agent-skill",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T08:06:33.691200+00:00"
+  },
+  {
+    "repo": "tevenfeng/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T08:06:33.691201+00:00"
+  },
+  {
+    "repo": "EverMind-AI/Raven",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T08:06:33.691203+00:00"
+  },
+  {
+    "repo": "chirag127/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T08:06:33.691205+00:00"
+  },
+  {
+    "repo": "tishensnoopy/superpowers-zh",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T08:06:33.691206+00:00"
+  },
+  {
+    "repo": "ruyi1024/hermes-chat",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T08:06:33.691208+00:00"
   }
 ]
