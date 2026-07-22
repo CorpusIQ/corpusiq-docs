@@ -139,6 +139,6 @@ apify actor run apify/reddit-scraper \
 
 ## See Also
 
-- [[apify-agent-skills-setup]] — Core Apify Agent Skills setup
-- [[firecrawl-agent-setup]] — Alternative structured extraction
+- Apify Agent Skills Setup — Core Apify Agent Skills setup
+- Firecrawl Agent Setup — Alternative structured extraction
 - [Apify Store](https://apify.com/store) — Full Actor catalog

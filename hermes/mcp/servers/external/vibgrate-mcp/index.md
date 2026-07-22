@@ -93,5 +93,5 @@ Vibgrate MCP is relevant for any business operator managing production software 
 
 ## See Also
 
-- [[External MCP Server Catalog]](/hermes/mcp/servers/external/)
-- [[Shieldly AWS MCP]](/hermes/mcp/servers/external/shieldly-aws-mcp/) — AWS security analysis via MCP
+- External MCP Server Catalog(/hermes/mcp/servers/external/)
+- Shieldly AWS MCP(/hermes/mcp/servers/external/shieldly-aws-mcp/) — AWS security analysis via MCP

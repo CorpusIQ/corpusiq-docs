@@ -143,6 +143,6 @@ tvly search "shopify merchants looking for analytics" --depth advanced --json
 
 ## See Also
 
-- [[tavily-research-setup]] — Deep AI-powered research with citations
-- [[tavily-search-openclaw-setup]] — Community OpenClaw wrapper (alternative)
+- Tavily Research Setup — Deep AI-powered research with citations
+- Tavily Search OpenClaw Setup — Community OpenClaw wrapper (alternative)
 - [Tavily Docs](https://docs.tavily.com) — Official API documentation

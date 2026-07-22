@@ -60,5 +60,5 @@ Subtext helps operators who use CorpusIQ alongside customer-facing applications:
 ## See Also
 
 - [[index]] — Full external MCP catalog
-- [[appambit-mcp]] — Mobile app analytics MCP
-- [[fleets]] — Multi-site analytics MCP
+- AppAmbit MCP — Mobile app analytics MCP
+- Fleets — Multi-site analytics MCP

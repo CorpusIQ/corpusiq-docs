@@ -109,6 +109,6 @@ For CorpusIQ Hermes agents, integrate skill-vetter into the governance pipeline:
 
 ## See Also
 
-- [[skill-vetting-setup]] — NVIDIA SkillSpector-based alternative vetting system
-- [[openclaw-audit-watchdog-setup]] — Runtime audit monitoring for installed skills
+- Skill Vetting Setup — NVIDIA SkillSpector-based alternative vetting system
+- OpenClaw Audit Watchdog Setup — Runtime audit monitoring for installed skills
 - [ClawHub](https://clawhub.ai) — Official OpenClaw skill marketplace

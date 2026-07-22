@@ -80,6 +80,6 @@ For support operators: issue detection, sentiment trends, platform-specific moni
 
 ## See Also
 
-- [[External MCP Server Catalog]](/hermes/mcp/servers/external/)
-- [[Competitor Tracker MCP]](/hermes/mcp/servers/external/competitor-tracker-mcp/) — competitor website change monitoring
-- [[AI Visibility Analytics MCP]](/hermes/mcp/servers/external/ai-visibility-analytics/) — brand presence tracking across AI providers
+- External MCP Server Catalog(/hermes/mcp/servers/external/)
+- Competitor Tracker MCP(/hermes/mcp/servers/external/competitor-tracker-mcp/) — competitor website change monitoring
+- AI Visibility Analytics MCP(/hermes/mcp/servers/external/ai-visibility-analytics/) — brand presence tracking across AI providers

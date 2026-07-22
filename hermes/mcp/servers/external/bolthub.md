@@ -68,4 +68,4 @@ As CorpusIQ scales its MCP server to more operators, L402-based billing could be
 ## See Also
 
 - [[sweeps/sweep-july19-2026]]
-- [[setell-mcp]]
+- Setell MCP

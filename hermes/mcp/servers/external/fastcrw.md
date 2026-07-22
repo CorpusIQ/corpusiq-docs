@@ -68,4 +68,4 @@ For CorpusIQ operators who need competitive intelligence or market research at s
 ## See Also
 
 - [[sweeps/sweep-july19-2026]]
-- [[datanexus-mcp]]
+- Datanexus MCP

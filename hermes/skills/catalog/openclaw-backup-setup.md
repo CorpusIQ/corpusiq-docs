@@ -111,6 +111,6 @@ For Hermes agents, integrate into the session-end ritual:
 
 ## See Also
 
-- [[hermes-backup-recovery-setup]] — General Hermes backup strategy
-- [[hermes-full-backup-setup]] — Full system backup guide
+- Hermes Backup Recovery Setup — General Hermes backup strategy
+- Hermes Full Backup Setup — Full system backup guide
 - [soul-upload.com](https://soul-upload.com) — Backup storage service

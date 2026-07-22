@@ -102,6 +102,6 @@ Sugra API MCP complements CorpusIQ's 37+ business connectors by providing extern
 ## See Also
 
 - [[index]] — Full external MCP catalog
-- [[capital-com-mcp]] — Trading/CFD MCP
-- [[fintel-mcp]] — Financial data MCP
-- [[alphavantage-mcp]] — Stock market data MCP
+- Capital.com MCP — Trading/CFD MCP
+- Fintel MCP — Financial data MCP
+- AlphaVantage MCP — Stock market data MCP

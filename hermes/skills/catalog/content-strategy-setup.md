@@ -131,6 +131,6 @@ Topic Cluster: "Business Operator Data Consolidation"
 
 ## See Also
 
-- [[social-setup]] — Social media content creation (companion skill)
+- Social Media Setup — Social media content creation (companion skill)
 - [HubSpot Content Strategy Guide](https://blog.hubspot.com/marketing/content-marketing-strategy) — Content marketing strategy fundamentals
 - [Google SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) — SEO fundamentals and best practices

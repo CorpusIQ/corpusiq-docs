@@ -139,7 +139,7 @@ For CorpusIQ Hermes agents, the StoreBackend pattern provides session-persistent
 
 ## See Also
 
-- [[agentmemory-setup]] — AgentMemory integration for Hermes
-- [[hermes-memory-stack-setup]] — Hermes native memory stack
-- [[hermes-hybrid-memory-setup]] — Hybrid memory architecture
+- AgentMemory Setup — AgentMemory integration for Hermes
+- Hermes Memory Stack Setup — Hermes native memory stack
+- Hermes Hybrid Memory Setup — Hybrid memory architecture
 - [LangChain Deep Agents Docs](https://docs.langchain.com) — Official documentation

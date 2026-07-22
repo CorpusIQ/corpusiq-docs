@@ -132,6 +132,6 @@ tvly research "What problems do ecommerce operators face with data consolidation
 
 ## See Also
 
-- [[tavily-search-setup]] — Quick LLM-optimized web search
-- [[tavily-search-openclaw-setup]] — Community OpenClaw wrapper
+- Tavily Search Setup — Quick LLM-optimized web search
+- Tavily Search OpenClaw Setup — Community OpenClaw wrapper
 - [Tavily Docs](https://docs.tavily.com) — Official API documentation

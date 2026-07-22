@@ -117,9 +117,9 @@ The MCP server exposes these primary capabilities:
 
 ## See Also
 
-- [[vibgrate-mcp/index]] — Dependency drift and CVE scanning MCP
-- [[docker-mcp/index]] — Docker container management
-- [[shieldly-aws-mcp]] — AWS security analysis MCP
+- Vibgrate MCP — Dependency drift and CVE scanning MCP
+- Docker MCP — Docker container management
+- Shieldly AWS MCP — AWS security analysis MCP
 - [endoflife.ai website](https://endoflife.ai) — Full product database
 
 ---

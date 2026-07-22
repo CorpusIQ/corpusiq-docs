@@ -149,6 +149,6 @@ For CorpusIQ Hermes agents, the handoff pattern maps to our session-handoff ritu
 
 ## See Also
 
-- [[hermes-session-maintenance-setup]] — Hermes session state management
+- Hermes Session Maintenance Setup — Hermes session state management
 - [Claude API Documentation](https://docs.anthropic.com/en/api) — Official Anthropic Claude API reference
 - [skills.sh](https://skills.sh) — Discover more agent skills for session management

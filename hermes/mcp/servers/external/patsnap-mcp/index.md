@@ -82,6 +82,6 @@ Patsnap MCP pairs with CorpusIQ for operator workflows:
 ## See Also
 
 - [[index]] — Full external MCP catalog
-- [[datanexus-mcp]] — Public data intelligence (patents, contracts, vulnerabilities)
-- [[sugra-api-mcp]] — Comprehensive business data MCP
-- [[sam-gov-mcp]] — Government contracting MCP
+- Datanexus MCP — Public data intelligence (patents, contracts, vulnerabilities)
+- Sugra API MCP — Comprehensive business data MCP
+- SAM.gov MCP — Government contracting MCP

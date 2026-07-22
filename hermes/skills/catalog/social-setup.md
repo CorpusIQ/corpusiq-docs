@@ -127,6 +127,6 @@ tvly search "competitor_name review OR alternative" --time-range week --json
 
 ## See Also
 
-- [[content-strategy-setup]] — Content strategy planning (companion skill)
+- Content Strategy Setup — Content strategy planning (companion skill)
 - [Postiz](https://postiz.com) — Open-source social media scheduling tool
 - [Buffer Social Media Guide](https://buffer.com/library/social-media-strategy) — Social media strategy for brands

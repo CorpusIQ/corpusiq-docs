@@ -72,6 +72,6 @@ Capital.com MCP adds trading capabilities alongside CorpusIQ's financial connect
 ## See Also
 
 - [[index]] — Full external MCP catalog
-- [[sugra-api-mcp]] — Comprehensive business data MCP
-- [[fintel-mcp]] — Financial data MCP
-- [[alphavantage-mcp]] — Stock market data MCP
+- Sugra API MCP — Comprehensive business data MCP
+- Fintel MCP — Financial data MCP
+- AlphaVantage MCP — Stock market data MCP

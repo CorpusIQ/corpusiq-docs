@@ -76,4 +76,4 @@ Directly relevant to Hermes' multi-session memory problem. Linksee's forgetting 
 ## See Also
 
 - [[sweeps/sweep-july19-2026]]
-- [[engram-mcp]]
+- Engram MCP

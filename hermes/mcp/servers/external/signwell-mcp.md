@@ -68,5 +68,5 @@ E-signature is one of the most requested connectors from CorpusIQ operators. Int
 ## See Also
 
 - [[sweeps/sweep-july19-2026]]
-- [[setell-mcp]]
-- [[1password-mcp]]
+- Setell MCP
+- 1Password MCP

@@ -129,5 +129,5 @@ firecrawl agent "extract company name, website, and description for all listings
 ## See Also
 
 - [Firecrawl Docs](https://docs.firecrawl.com) — Core Firecrawl CLI setup and configuration
-- [[firecrawl-workflows-setup]] — Multi-step extraction workflows
+- Firecrawl Workflows Setup — Multi-step extraction workflows
 - [Firecrawl Docs](https://docs.firecrawl.com) — Official documentation

@@ -68,4 +68,4 @@ Setell's quote-to-cash workflow mirrors what CorpusIQ operators do daily — but
 ## See Also
 
 - [[sweeps/sweep-july19-2026]]
-- [[signwell-mcp]]
+- SignWell MCP
