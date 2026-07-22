@@ -7,7 +7,7 @@ description: The definitive directory of Hermes Agent resources  --  440+ repos,
 
 The most comprehensive directory of Hermes Agent resources in existence. 450+ repositories, official documentation, community projects, SDKs, integrations, benchmarks, and research  --  all organized and cross-referenced.
 
-> **Last updated:** July 20, 2026 · **Repos indexed:** 412 · **Categories:** 18
+> **Last updated:** July 21, 2026 · **Repos indexed:** 413 · **Categories:** 18
 >
 > 👉 **[Submit a repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)** · Missing something? [Open a PR →](https://github.com/CorpusIQ/corpusiq-docs)
 
@@ -19,7 +19,7 @@ The most comprehensive directory of Hermes Agent resources in existence. 450+ re
 |----------|-------|------|
 | [Core & Official](#-core--official) | 6 | [↓](#-core--official) |
 | [Documentation & Learning](#-documentation--learning) | 9 | [↓](#-documentation--learning) |
-| [Community & Awesome Lists](#-community--awesome-lists) | 34 | [↓](#-community--awesome-lists) |
+| [Community & Awesome Lists](#-community--awesome-lists) | 35 | [↓](#-community--awesome-lists) |
 | [UI & Dashboards](#-ui--dashboards) | 14 | [↓](#-ui--dashboards) |
 || [Memory & Knowledge](#-memory--knowledge) | 30 | [↓](#-memory--knowledge) |
 | [MCP & Integrations](#-mcp--integrations) | 33 | [↓](#-mcp--integrations) |
@@ -246,6 +246,13 @@ Curated awesome list of AI agent skills across platforms  --  a comprehensive co
 
 **Key capabilities:** Curated skill list, multi-platform agent skills, community-driven, Hermes-compatible, skill discovery
 **Related:** [Skills Catalog →](/hermes/skills/catalog/)
+
+---
+
+### Anil-matcha/awesome-hermes-agent
+⭐ **38** · [github.com/Anil-matcha/awesome-hermes-agent](https://github.com/Anil-matcha/awesome-hermes-agent)
+
+Curated list of skills, plugins, tools, integrations, and resources for Hermes Agent by Nous Research. Community-driven resource collection with active curation.
 
 ---
 

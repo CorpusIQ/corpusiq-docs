@@ -5968,5 +5968,103 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-21T08:07:30.450360+00:00"
+  },
+  {
+    "repo": "iap/builder",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T05:06:17.612111+00:00"
+  },
+  {
+    "repo": "raynervoltia/supercoding-agents",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T05:06:17.612114+00:00"
+  },
+  {
+    "repo": "yyh-001/agent-expression",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T05:06:17.612116+00:00"
+  },
+  {
+    "repo": "RecursiveIntell/agent-memory-kits",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T05:06:17.612118+00:00"
+  },
+  {
+    "repo": "dktaylor/hermes-ollama-setup",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T05:06:17.612120+00:00"
+  },
+  {
+    "repo": "lesterppo/hermes-winagent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T05:06:17.612122+00:00"
+  },
+  {
+    "repo": "crussella0129/Animus_Sprint_Loops",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T05:06:17.612124+00:00"
+  },
+  {
+    "repo": "Samin12/claude-club-motion-library-skill",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T05:06:17.612126+00:00"
+  },
+  {
+    "repo": "s07709134-code/Backups-Hermes-Davinci",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T05:06:17.612129+00:00"
+  },
+  {
+    "repo": "Anil-matcha/awesome-hermes-agent",
+    "score": 70,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-22T05:06:17.612131+00:00"
+  },
+  {
+    "repo": "justinbrenton/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T05:06:17.612133+00:00"
+  },
+  {
+    "repo": "Francistab705/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T05:06:17.612135+00:00"
+  },
+  {
+    "repo": "spr-networks/spr-hermes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T05:06:17.612136+00:00"
+  },
+  {
+    "repo": "Lore-Hex/hermes-trustedrouter",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-22T05:06:17.612138+00:00"
   }
 ]
