@@ -6,7 +6,7 @@ last_updated: 2026-07-22
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **149+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **150+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
 > **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome.
 
@@ -18,7 +18,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **149+ reposit
 | 🧠 Core Framework | 6 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 10 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 4 | Community forks with significant changes |
-| 🔗 Integrations | 3 | Platform connectors, bridges, adapters |
+| 🔗 Integrations | 4 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 6 | Model Context Protocol servers & integrations |
 | 💾 Memory & Knowledge | 37 | Persistent memory, knowledge graphs, context systems |
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
@@ -222,6 +222,14 @@ _Platform connectors, bridges, adapters_
 >The self-improving LLM router that optimizes your agentic workflows with every run — works with any harness (Hermes Agent, OpenClaw, Claude Code, Codex), any model, any loop.
 
 **Language:** Rust | **Topics:** agent-harness, ai-agent, api-gateway, hermes-agent, llm-router, mcp, openclaw, rust | **Score:** 82/100
+
+---
+
+### [xintaofei/codeg](https://github.com/xintaofei/codeg) ⭐ 2,326
+
+>Collaborative multi-agent AI coding workspace: aggregate sessions from Claude Code, Codex, OpenCode, Pi, Grok Build, etc. Desktop app, self-hosted server, or Docker.
+
+**Language:** TypeScript | **Topics:** acp, agent, claude-code, codex, hermes-agent, openclaw, opencode, gui | **Score:** 80/100 | **License:** Apache-2.0
 
 ---
 

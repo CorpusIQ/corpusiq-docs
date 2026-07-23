@@ -6269,5 +6269,96 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-22T08:06:33.691208+00:00"
+  },
+  {
+    "repo": "somarimapps/tokenwise",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T05:05:34.437436+00:00"
+  },
+  {
+    "repo": "AttilaHuns288452/hermes-workflow",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T05:05:34.437439+00:00"
+  },
+  {
+    "repo": "KitchenGun/personal-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T05:05:34.437441+00:00"
+  },
+  {
+    "repo": "yashzord/hermes_agent_mcp_app",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T05:05:34.437443+00:00"
+  },
+  {
+    "repo": "negronnoel6893-max/ai-blender-studio",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T05:05:34.437445+00:00"
+  },
+  {
+    "repo": "Littlemiro/muse",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T05:05:34.437447+00:00"
+  },
+  {
+    "repo": "JNHFlow21/agent-switch",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T05:05:34.437448+00:00"
+  },
+  {
+    "repo": "sajjad-gazergar-dev/hermes-light",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T05:05:34.437450+00:00"
+  },
+  {
+    "repo": "veenyi/fnos-hermes-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T05:05:34.437452+00:00"
+  },
+  {
+    "repo": "xintaofei/codeg",
+    "score": 80,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-23T05:05:34.437453+00:00"
+  },
+  {
+    "repo": "nuffin/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T05:05:34.437455+00:00"
+  },
+  {
+    "repo": "batumilove/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T05:05:34.437456+00:00"
+  },
+  {
+    "repo": "ruyi1024/hermes-chat",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T05:05:34.437458+00:00"
   }
 ]
