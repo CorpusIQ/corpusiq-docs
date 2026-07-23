@@ -7,7 +7,18 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 22, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,135+ servers), GitHub search
+> **Last updated:** July 23, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), GitHub search
+
+---
+
+## 🆕 July 23, 2026 — Cron Sweep (1 New Business Server)
+
+Full sweep details: [Sweep Report →](/hermes/mcp/sweeps/sweep-july23-2026-cron/)
+
+### Fullstory MCP Plugin ★★★ New — July 23
+Official MCP plugin from Fullstory — query behavioral analytics, session data, funnel metrics, and customer experience insights directly from Claude or Cursor. Complements Subtext (Fullstory's agent-native session replay). Beta program. `github.com/fullstorydev/fullstory-skills` · [Guide →](/hermes/mcp/servers/external/fullstory-mcp/)
+
+**Also scanned:** 43 new servers across mcp.so + mcpservers.org. Most were crypto, testing, or niche. Taplio (LinkedIn tool) identified as potential future guide. [Full sweep →](/hermes/mcp/sweeps/sweep-july23-2026-cron/)
 
 ---
 
