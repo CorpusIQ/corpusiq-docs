@@ -25230,5 +25230,196 @@
     ],
     "discovered_at": "2026-07-23T07:05:02.345465+00:00",
     "status": "pending"
+  },
+  {
+    "name": "CaseyTso/hermesian",
+    "url": "https://github.com/CaseyTso/hermesian",
+    "description": "Hermes Agent sidebar and selection-aware editing for Obsidian",
+    "stars": 2,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-23T07:54:26Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-23T08:03:08.704236+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yungalgo/hermes-voice",
+    "url": "https://github.com/yungalgo/hermes-voice",
+    "description": "Realtime voice platform plugin for hermes-agent: Daily WebRTC, pluggable STT/TTS ports (Deepgram Flux, Cartesia Ink-2 + Sonic), in-process barge-in",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-23T07:57:43Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-23T08:03:10.706249+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ThisisPeggy/customer-map-hermes-connector",
+    "url": "https://github.com/ThisisPeggy/customer-map-hermes-connector",
+    "description": "Connector that links Hermes Agent with Customer Map",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "connector",
+      "customer-map",
+      "hermes-agent"
+    ],
+    "updated_at": "2026-07-23T07:47:54Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-23T08:03:12.708015+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hansai-art/hermesagent.download",
+    "url": "https://github.com/hansai-art/hermesagent.download",
+    "description": "Hermes Agent \u4e2d\u6587\u793e\u7fa4\u77e5\u8b58\u5eab \u2014 \u5171\u7b46\u3001\u958b\u6e90\u3001\u81ea\u52d5\u9032\u5316(\u975e\u5b98\u65b9)",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-23T07:42:02Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-23T08:03:14.709709+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "latreon/hermes-testing-framework",
+    "url": "https://github.com/latreon/hermes-testing-framework",
+    "description": "Behavioral testing framework for Hermes Agent skills",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-23T07:40:43Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-23T08:03:16.711391+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "dannysl/hermes-agent",
+    "url": "https://github.com/dannysl/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-23T07:56:56Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-23T08:03:39.621102+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "TKaxv-7S/superpowers-zh",
+    "url": "https://github.com/TKaxv-7S/superpowers-zh",
+    "description": "\ud83e\uddb8 AI \u7f16\u7a0b\u8d85\u80fd\u529b \u00b7 \u4e2d\u6587\u589e\u5f3a\u7248 \u2014 superpowers\uff08116k+ \u2b50\uff09\u5b8c\u6574\u6c49\u5316 + 6 \u4e2a\u4e2d\u56fd\u539f\u521b skills\uff0c\u8ba9 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI \u7b49 16 \u6b3e AI \u7f16\u7a0b\u5de5\u5177\u771f\u6b63\u4f1a\u5e72\u6d3b",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-07-17T13:49:33Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "nexu-io/open-design",
+      "jnMetaCode/superpowers-zh",
+      "syncable-dev/memtrace-public",
+      "jnMetaCode/shellward",
+      "Bo1202/Aivy-OS",
+      "ruvnet/ruflo"
+    ],
+    "discovered_at": "2026-07-23T08:03:41.623146+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "zjdCander/gbrain",
+    "url": "https://github.com/zjdCander/gbrain",
+    "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-23T07:48:47Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "garrytan/gbrain"
+    ],
+    "discovered_at": "2026-07-23T08:03:43.625594+00:00",
+    "status": "pending"
   }
 ]

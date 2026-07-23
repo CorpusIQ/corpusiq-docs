@@ -6444,5 +6444,61 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-23T07:06:50.316088+00:00"
+  },
+  {
+    "repo": "CaseyTso/hermesian",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T08:05:36.596215+00:00"
+  },
+  {
+    "repo": "yungalgo/hermes-voice",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T08:05:36.596230+00:00"
+  },
+  {
+    "repo": "ThisisPeggy/customer-map-hermes-connector",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T08:05:36.596233+00:00"
+  },
+  {
+    "repo": "hansai-art/hermesagent.download",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T08:05:36.596234+00:00"
+  },
+  {
+    "repo": "latreon/hermes-testing-framework",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T08:05:36.596237+00:00"
+  },
+  {
+    "repo": "dannysl/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T08:05:36.596238+00:00"
+  },
+  {
+    "repo": "TKaxv-7S/superpowers-zh",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T08:05:36.596240+00:00"
+  },
+  {
+    "repo": "zjdCander/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T08:05:36.596242+00:00"
   }
 ]
