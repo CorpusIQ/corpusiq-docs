@@ -1,6 +1,6 @@
 ---
 title: "Hermes Skills Catalog — Quality-Tiered Directory"
-description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 456+ skills catalogued."
+description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 465+ skills catalogued."
 ---
 
 # Skills Catalog
@@ -342,3 +342,12 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Xurl Setup](/docs/hermes/skills/catalog/xurl-setup/index.html)
 - [Youtube Content Setup](/docs/hermes/skills/catalog/youtube-content-setup.html)
 - [Yuanbao — Tencent Group Chat Integration Setup](/docs/hermes/skills/catalog/yuanbao-setup/)
+- [Better Auth Skills — Authentication Infrastructure Setup](/docs/hermes/skills/catalog/better-auth-skills-setup.html)
+- [Google Agents CLI — Google ADK Setup](/docs/hermes/skills/catalog/google-agents-cli-setup.html)
+- [GTM Agents — Go-to-Market Sales Skills Setup](/docs/hermes/skills/catalog/gtm-agents-setup.html)
+- [Knowledge Work Plugins — Anthropic Productivity Setup](/docs/hermes/skills/catalog/knowledge-work-plugins-setup.html)
+- [Lenny Skills — PM Methodology from Lenny Rachitsky Setup](/docs/hermes/skills/catalog/lenny-skills-setup.html)
+- [Sanity Agent Toolkit — Headless CMS Setup](/docs/hermes/skills/catalog/sanity-agent-toolkit-setup.html)
+- [SERP Downloaders — Content Downloader Skills Setup](/docs/hermes/skills/catalog/serpdownloaders-setup.html)
+- [Skills Collective AI Media — Image & Video Gen Setup](/docs/hermes/skills/catalog/skills-collective-ai-media-setup.html)
+- [Stitch Skills — Google Design-to-Code Pipeline Setup](/docs/hermes/skills/catalog/stitch-skills-setup.html)
