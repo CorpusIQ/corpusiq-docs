@@ -25063,5 +25063,172 @@
     ],
     "discovered_at": "2026-07-23T06:06:47.423050+00:00",
     "status": "pending"
+  },
+  {
+    "name": "qf1lzx/railway-hermes-oauth-image",
+    "url": "https://github.com/qf1lzx/railway-hermes-oauth-image",
+    "description": "Gateway-only Railway image for Hermes Agent with Nous + OpenAI Codex OAuth bootstrap",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-23T07:04:12Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills"
+    ],
+    "discovered_at": "2026-07-23T07:04:24.435077+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Realmagnum/hermes-max-integration",
+    "url": "https://github.com/Realmagnum/hermes-max-integration",
+    "description": "Hermes Agent MAX messenger platform adapter with STT voice transcription.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-23T06:49:07Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-23T07:04:27.436940+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "unsigned-gg/agentic",
+    "url": "https://github.com/unsigned-gg/agentic",
+    "description": "Agent-harness monorepo \u2014 pi.dev + hermes-agent configs, extensions, shared skills, local-model bootstrap",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "agent-constellation"
+    ],
+    "updated_at": "2026-07-23T07:03:40Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "codejunkie99/agentic-stack"
+    ],
+    "discovered_at": "2026-07-23T07:04:30.438798+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "to-na/hermes-secure-update",
+    "url": "https://github.com/to-na/hermes-secure-update",
+    "description": "Secure update wrapper for Hermes Agent \u2014 fetch/verify/review/apply pipeline with human approval gate",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-07-23T07:03:33Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-23T07:04:33.441040+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ddm667/mcp-ssh-manager-hermes",
+    "url": "https://github.com/ddm667/mcp-ssh-manager-hermes",
+    "description": "MCP SSH Manager with native Hermes Agent integration",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-07-23T06:35:27Z",
+    "category": "mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-23T07:04:43.084106+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "huwei/hermes-agent",
+    "url": "https://github.com/huwei/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-23T07:04:18Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-23T07:04:59.343124+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "948829115/agency-agents-zh",
+    "url": "https://github.com/948829115/agency-agents-zh",
+    "description": "\ud83c\udfad 267 \u4e2a\u5373\u63d2\u5373\u7528\u7684 AI \u4e13\u5bb6\u89d2\u8272 \u2014 \u652f\u6301 Hermes Agent/Claude Code/Cursor/Copilot \u7b49 18 \u79cd\u5de5\u5177\uff0c\u8986\u76d6\u5de5\u7a0b/\u8bbe\u8ba1/\u8425\u9500/\u91d1\u878d\u7b49 20 \u4e2a\u90e8\u95e8\u3002\u542b 52 \u4e2a\u4e2d\u56fd\u5e02\u573a\u539f\u521b\u667a\u80fd\u4f53\uff08\u5c0f\u7ea2\u4e66/\u6296\u97f3/\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489\u7b49\uff09\u3002\u642d\u914d\u7f16\u6392\u5668 agency-orchestrator\uff0c\u4e00\u53e5\u8bdd\u5373\u53ef\u8ba9\u591a\u4f4d\u4e13\u5bb6\u6309 DAG \u81ea\u52a8\u534f\u4f5c\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-23T07:04:40Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/agency-agents-zh"
+    ],
+    "discovered_at": "2026-07-23T07:05:02.345465+00:00",
+    "status": "pending"
   }
 ]

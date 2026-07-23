@@ -6395,5 +6395,54 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-23T06:08:39.437585+00:00"
+  },
+  {
+    "repo": "qf1lzx/railway-hermes-oauth-image",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T07:06:50.316054+00:00"
+  },
+  {
+    "repo": "Realmagnum/hermes-max-integration",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T07:06:50.316069+00:00"
+  },
+  {
+    "repo": "unsigned-gg/agentic",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T07:06:50.316071+00:00"
+  },
+  {
+    "repo": "to-na/hermes-secure-update",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T07:06:50.316074+00:00"
+  },
+  {
+    "repo": "ddm667/mcp-ssh-manager-hermes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T07:06:50.316076+00:00"
+  },
+  {
+    "repo": "huwei/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T07:06:50.316078+00:00"
+  },
+  {
+    "repo": "948829115/agency-agents-zh",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T07:06:50.316088+00:00"
   }
 ]
