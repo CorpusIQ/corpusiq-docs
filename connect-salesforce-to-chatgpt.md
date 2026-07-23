@@ -27,4 +27,4 @@ Query your Salesforce data directly from ChatGPT using CorpusIQ.
 
 CorpusIQ uses read-only access. ChatGPT can query your Salesforce data but cannot create, update, or delete records.
 
-See all [connectors](../connectors.md) for other tools you can connect.
+See all [connectors](connectors.md) for other tools you can connect.

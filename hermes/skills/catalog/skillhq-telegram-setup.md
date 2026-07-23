@@ -128,4 +128,4 @@ telegram whoami --json | python3 -c "import json,sys; d=json.load(sys.stdin); pr
 - **Session persistence**: Session saved locally after `telegram auth` — no re-authentication needed
 - **Use case for CorpusIQ**: Monitor CorpusIQ Team forum, read Topic 2 messages programmatically, send alerts, export chat history for analysis
 - **Pitfall**: Not for bot accounts — use Telegram Bot API for @corpusiq_bot. This is for human account access
-- **Related skills**: [telegram-bot-builder](telegram-bot-builder) (if using bot API), [corpusiq-inbound-communication-monitoring](corpusiq-inbound-communication-monitoring)
+- **Related skills**: telegram-bot-builder (if using bot API), corpusiq-inbound-communication-monitoring

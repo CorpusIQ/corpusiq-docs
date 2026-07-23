@@ -102,4 +102,4 @@ npx skills list | grep "code.deepline.com"
 - **Use case for CorpusIQ**: TAM analysis for market sizing, portfolio prospecting for lead generation, signal discovery for identifying operator pain points
 - **Clay integration**: If using Clay.com for data enrichment, the clay-to-deepline bridge unifies the pipeline
 - **LinkedIn skill**: No LinkedIn API auth needed — resolves public URLs and enriches with available data
-- **Related skills**: [prospect-research-personalization](prospect-research-personalization), [inbound-lead-analysis-domain-first](inbound-lead-analysis-domain-first)
+- **Related skills**: prospect-research-personalization, inbound-lead-analysis-domain-first

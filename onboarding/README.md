@@ -27,5 +27,5 @@ For teams, we recommend:
 ## Need Help?
 
 - [Troubleshooting](../troubleshooting/README.md) — Common issues and fixes
-- [Chat Apps Setup](../chat-apps/README.md) — Slack and Teams integration
+- [Chat Apps Setup](../docs/chat-apps/README.md) — Slack and Teams integration
 - [Contact support](https://corpusiq.io) — We respond within hours

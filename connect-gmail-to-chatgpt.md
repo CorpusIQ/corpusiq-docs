@@ -26,4 +26,4 @@ Query your Gmail inbox directly from ChatGPT using CorpusIQ.
 
 CorpusIQ uses read-only access. ChatGPT can query your Gmail but cannot send, delete, or modify emails.
 
-See all [connectors](../connectors.md) for other tools you can connect.
+See all [connectors](connectors.md) for other tools you can connect.

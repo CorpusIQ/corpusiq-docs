@@ -26,4 +26,4 @@ Query your Outlook email and calendar directly from ChatGPT using CorpusIQ.
 
 CorpusIQ uses read-only access. ChatGPT can query your Outlook data but cannot send, delete, or modify emails or events.
 
-See all [connectors](../connectors.md) for other tools you can connect.
+See all [connectors](connectors.md) for other tools you can connect.

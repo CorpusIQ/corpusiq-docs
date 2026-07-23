@@ -25,4 +25,4 @@ CorpusIQ is built on the principle that your business data should never leave yo
 
 When you connect an AI tool to CorpusIQ via MCP, the connection is authenticated and scoped. Your AI tool can only query data through the MCP protocol — it never gets direct API access to your business tools.
 
-See [MCP Security Best Practices](../mcp-security-best-practices.md) for detailed guidance.
+See [MCP Security Best Practices](../docs/mcp-security-best-practices.md) for detailed guidance.

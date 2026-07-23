@@ -25,10 +25,10 @@ https://mcp2.corpusiq.io/mcp
 
 For programmatic access, see the sections below:
 
-- [Authentication](api/authentication.md) — API keys and OAuth
-- [Endpoints](api/endpoints.md) — Available API endpoints
-- [Schemas](api/schemas.md) — Data models and types
-- [Webhooks](api/webhooks.md) — Event subscriptions
-- [Rate Limits](api/rate-limits.md) — Usage limits and throttling
-- [Errors](api/errors.md) — Error codes and handling
-- [OpenAPI](api/openapi.md) — OpenAPI specification
+- [Authentication](authentication.md) — API keys and OAuth
+- [Endpoints](endpoints.md) — Available API endpoints
+- [Schemas](schemas.md) — Data models and types
+- [Webhooks](webhooks.md) — Event subscriptions
+- [Rate Limits](rate-limits.md) — Usage limits and throttling
+- [Errors](errors.md) — Error codes and handling
+- [OpenAPI](openapi.md) — OpenAPI specification

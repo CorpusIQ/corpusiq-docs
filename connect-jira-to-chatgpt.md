@@ -26,4 +26,4 @@ Query your Jira projects and issues directly from ChatGPT using CorpusIQ.
 
 CorpusIQ uses read-only access. ChatGPT can query your Jira data but cannot create, update, or transition issues.
 
-See all [connectors](../connectors.md) for other tools you can connect.
+See all [connectors](connectors.md) for other tools you can connect.

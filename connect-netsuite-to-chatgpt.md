@@ -27,4 +27,4 @@ Query your NetSuite ERP data directly from ChatGPT using CorpusIQ.
 
 CorpusIQ uses read-only access. ChatGPT can query your NetSuite data but cannot create, update, or delete records.
 
-See all [connectors](../connectors.md) for other tools you can connect.
+See all [connectors](connectors.md) for other tools you can connect.

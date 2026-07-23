@@ -26,4 +26,4 @@ Query your Monday.com boards and projects directly from ChatGPT using CorpusIQ.
 
 CorpusIQ uses read-only access. ChatGPT can query your Monday.com data but cannot create, update, or delete items.
 
-See all [connectors](../connectors.md) for other tools you can connect.
+See all [connectors](connectors.md) for other tools you can connect.

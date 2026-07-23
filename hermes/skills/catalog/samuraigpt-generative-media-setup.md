@@ -120,4 +120,4 @@ npx skills list | grep samuraigpt
 - **Seedance 2.0**: Primary video engine — uses instructional prompt grammar for precise camera control
 - **Use case for CorpusIQ**: UGC video production, social media content, logo refinement, UI mockups for product specs
 - **Model agnostic**: Image generation uses whatever model is available — not locked to one provider
-- **Related skills**: [corpusiq-media-pipeline](corpusiq-media-pipeline), [corpusiq-heygen-video-automation](corpusiq-heygen-video-automation), [hyperframes](hyperframes)
+- **Related skills**: corpusiq-media-pipeline, corpusiq-heygen-video-automation, hyperframes

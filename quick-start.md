@@ -27,10 +27,10 @@ CorpusIQ works with any MCP-compatible AI platform. The most common setups:
 Add CorpusIQ as an MCP server in ChatGPT settings. Full guide: [ChatGPT Integration](chatgpt-integration.md)
 
 ### Claude
-Add to Claude Desktop's MCP config. Full guide: [Claude Integration](ai-mcp-server-for-business-data.md)
+Add to Claude Desktop's MCP config. Full guide: [Claude Integration](connectors/ai-mcp-server-for-business-data.md)
 
 ### Perplexity
-Add as a data source in Perplexity settings. Full guide: [Perplexity Integration](perplexity-business-data-mcp.md)
+Add as a data source in Perplexity settings. Full guide: [Perplexity Integration](connectors/perplexity-business-data-mcp.md)
 
 For any other MCP-compatible tool, use this server URL:
 
@@ -54,4 +54,4 @@ CorpusIQ runs cross-source queries automatically. You get answers with cited dat
 - [Browse all connectors](connectors.md) to connect more data sources
 - [See examples](examples/README.md) of real business queries
 - [Explore recipes](recipes/README.md) for common workflows
-- [Set up Slack or Teams](chat-apps/README.md) for team access
+- [Set up Slack or Teams](docs/chat-apps/README.md) for team access

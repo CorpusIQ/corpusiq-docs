@@ -138,4 +138,4 @@ curl -X POST "https://reddapi.dev/api/v1/search/semantic" \
 - **Use cases for CorpusIQ**: Market research, competitive analysis, pain point discovery, B2B lead generation for business operators
 - **Lead scoring**: 0-100 with industry auto-detection — filter for scores >70 for warmest prospects
 - **Free tier**: 3 searches/month — sufficient for evaluation. Lite ($19.9/mo) for production use
-- **Related skills**: [reddit-praw-automation](reddit-praw-automation), [help-first-community-engagement](help-first-community-engagement)
+- **Related skills**: reddit-praw-automation, help-first-community-engagement

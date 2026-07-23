@@ -157,4 +157,4 @@ curl -s "https://antibrow.com/api/v1/profiles" -H "Authorization: Bearer $ANTIBR
 - **Undetectable**: 500+ fingerprint parameters, real device data from the cloud — no synthetic fingerprints
 - **Use case for CorpusIQ**: Bypass Instagram/TikTok anti-bot walls, Reddit scraping, LinkedIn prospect research
 - **MCP integration**: Pairs with Hermes's native MCP client for autonomous browser operations
-- **Related skills**: [browser-use-automation](browser-use-automation), [browser-act-setup](browser-act-setup.md), [browser-harness-setup](browser-harness-setup)
+- **Related skills**: browser-use-automation, [browser-act-setup](browser-act-setup.md), [browser-harness-setup](browser-harness-setup)
