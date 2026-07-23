@@ -24940,5 +24940,128 @@
     "near_duplicates": [],
     "discovered_at": "2026-07-23T05:05:05.292184+00:00",
     "status": "pending"
+  },
+  {
+    "name": "asimons81/hermes-field-kit",
+    "url": "https://github.com/asimons81/hermes-field-kit",
+    "description": "Field-tested, open-source skills for Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-23T05:59:45Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-23T06:06:18.636915+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "LaansDole/my-hermes-skills",
+    "url": "https://github.com/LaansDole/my-hermes-skills",
+    "description": "My Hermes Agent skills",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-23T05:59:28Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-23T06:06:20.638531+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "nikershovru-star/hermes-kernel-v2",
+    "url": "https://github.com/nikershovru-star/hermes-kernel-v2",
+    "description": "Async-first, event-driven AI Operating System kernel. Clean Architecture, plugin-extensible, MCP-native. 140 tests, 90% coverage.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-23T05:56:14Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-23T06:06:29.562501+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "chirag127/screenpipe",
+    "url": "https://github.com/chirag127/screenpipe",
+    "description": "YC (S26) | AI that knows what you've seen, said, or heard. Records everything you do, say, hear 24/7, local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps",
+    "stars": 1,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-07-23T06:06:38Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "iOfficeAI/AionUi",
+      "screenpipe/screenpipe",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "kaankacar/stellar-agent-kit"
+    ],
+    "discovered_at": "2026-07-23T06:06:45.420060+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "fangliquanflq/hermes-agent",
+    "url": "https://github.com/fangliquanflq/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-23T06:01:54Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-23T06:06:47.423050+00:00",
+    "status": "pending"
   }
 ]

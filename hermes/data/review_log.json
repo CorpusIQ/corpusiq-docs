@@ -6360,5 +6360,40 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-23T05:05:34.437458+00:00"
+  },
+  {
+    "repo": "asimons81/hermes-field-kit",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T06:08:39.437564+00:00"
+  },
+  {
+    "repo": "LaansDole/my-hermes-skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T06:08:39.437578+00:00"
+  },
+  {
+    "repo": "nikershovru-star/hermes-kernel-v2",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T06:08:39.437581+00:00"
+  },
+  {
+    "repo": "chirag127/screenpipe",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T06:08:39.437583+00:00"
+  },
+  {
+    "repo": "fangliquanflq/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-23T06:08:39.437585+00:00"
   }
 ]
