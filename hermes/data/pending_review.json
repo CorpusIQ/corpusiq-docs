@@ -25663,5 +25663,265 @@
     ],
     "discovered_at": "2026-07-24T06:05:13.043761+00:00",
     "status": "pending"
+  },
+  {
+    "name": "echoflying/sensitive-cli",
+    "url": "https://github.com/echoflying/sensitive-cli",
+    "description": "sensitive cli check for Hermes and other AI agent, by Go.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "updated_at": "2026-07-24T07:01:45Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "uzairansaruzi/robinhood-agent-skill"
+    ],
+    "discovered_at": "2026-07-24T07:03:17.838109+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ZIYU-FUI/wenshu",
+    "url": "https://github.com/ZIYU-FUI/wenshu",
+    "description": "\u6587\u67a2\u30fbHermes Agent \u6df1\u5ea6\u6539 fork, \u57fa\u4e8e v0.19.0",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-24T07:01:39Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-24T07:03:20.841296+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "online111111/agentmesh",
+    "url": "https://github.com/online111111/agentmesh",
+    "description": "Cross-platform, cross-device, high-performance multi-agent communication mesh \u2014 Go relay hub + Go/Python/TS SDKs for LLM/coding agents (Hermes, Codex CLI).",
+    "stars": 0,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "updated_at": "2026-07-24T07:01:23Z",
+    "category": "core",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-24T07:03:23.844534+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "joecastelino/jay-skill-pack",
+    "url": "https://github.com/joecastelino/jay-skill-pack",
+    "description": "Skill pack for Jay, the Tekion DMS specialist agent at American Motors Group. Hermes Agent skills, sorted by usage, secrets redacted, auto-synced.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TeX",
+    "topics": [],
+    "updated_at": "2026-07-24T07:00:20Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem"
+    ],
+    "discovered_at": "2026-07-24T07:03:26.848592+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Samge0/hermes-research-report-agent",
+    "url": "https://github.com/Samge0/hermes-research-report-agent",
+    "description": "\u57fa\u4e8ehermes\u6784\u5efa\u7684\u7814\u7a76\u62a5\u544a\u5206\u6790\u5e08 Agent \u2014\u2014 \u8f93\u5165\u4efb\u610f\u4e3b\u9898\uff0c\u81ea\u52a8\u591a\u6e90\u6570\u636e\u91c7\u96c6\u3001\u591a\u7ef4\u5ea6\u6253\u5206\u8bc4\u4f30\u3001\u751f\u6210\u7ed3\u6784\u5316 PDF \u62a5\u544a\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-24T07:00:51Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-24T07:03:29.851608+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Theorvane/type-mcp-api-agent-skill",
+    "url": "https://github.com/Theorvane/type-mcp-api-agent-skill",
+    "description": "Hermes skill and generator harness for turning API specifications and documentation into TypeMCP MCP repositories",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "api-generation",
+      "developer-tools",
+      "hermes-agent",
+      "mcp",
+      "model-context-protocol",
+      "openapi",
+      "typescript"
+    ],
+    "updated_at": "2026-07-24T06:35:02Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-24T07:03:39.508492+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "agent37-platform/hermes-openclaw-composio",
+    "url": "https://github.com/agent37-platform/hermes-openclaw-composio",
+    "description": "Run Hermes agent and OpenClaw on Agent37 Cloud with your own Composio: your API key, your users' connected accounts (Gmail, Slack, Notion, 1000+ apps via MCP), per-agent usage metering",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "agent37",
+      "ai-agents",
+      "composio",
+      "hermes-agent",
+      "mcp",
+      "nextjs",
+      "openclaw"
+    ],
+    "updated_at": "2026-07-24T06:11:50Z",
+    "category": "mcp",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "JackTheGit/hermes-autonomous-server",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-07-24T07:03:42.512591+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mrmign/hermes-agent",
+    "url": "https://github.com/mrmign/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-05-24T17:37:07Z",
+    "category": "forks",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_quarter",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-24T07:03:58.988098+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "s3d1K0/hermes-one",
+    "url": "https://github.com/s3d1K0/hermes-one",
+    "description": "Native iPhone app for your Hermes agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [],
+    "updated_at": "2026-07-24T07:02:32Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-24T07:04:01.991335+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "later0day/hermes-agent",
+    "url": "https://github.com/later0day/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-24T07:02:19Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-24T07:04:04.994319+00:00",
+    "status": "pending"
   }
 ]

@@ -6556,5 +6556,75 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-24T06:07:21.039223+00:00"
+  },
+  {
+    "repo": "echoflying/sensitive-cli",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T07:05:52.793349+00:00"
+  },
+  {
+    "repo": "ZIYU-FUI/wenshu",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T07:05:52.793361+00:00"
+  },
+  {
+    "repo": "online111111/agentmesh",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T07:05:52.793364+00:00"
+  },
+  {
+    "repo": "joecastelino/jay-skill-pack",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T07:05:52.793366+00:00"
+  },
+  {
+    "repo": "Samge0/hermes-research-report-agent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T07:05:52.793368+00:00"
+  },
+  {
+    "repo": "Theorvane/type-mcp-api-agent-skill",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T07:05:52.793370+00:00"
+  },
+  {
+    "repo": "agent37-platform/hermes-openclaw-composio",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T07:05:52.793371+00:00"
+  },
+  {
+    "repo": "mrmign/hermes-agent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T07:05:52.793373+00:00"
+  },
+  {
+    "repo": "s3d1K0/hermes-one",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T07:05:52.793376+00:00"
+  },
+  {
+    "repo": "later0day/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T07:05:52.793377+00:00"
   }
 ]
