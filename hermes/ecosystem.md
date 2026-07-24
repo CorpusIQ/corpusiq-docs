@@ -1,14 +1,14 @@
 ---
 title: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem — 140+ repos, tools, skills, and integrations
-last_updated: 2026-07-22
+last_updated: 2026-07-24
 ---
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **150+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **152+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome.
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **152+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -17,7 +17,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **150+ reposit
 | 🎬 Content & Media | 1 | Video, social media, content generation |
 | 🧠 Core Framework | 6 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 10 | Docker, Kubernetes, production hosting |
-| 🍴 Forks & Derivatives | 4 | Community forks with significant changes |
+| 🍴 Forks & Derivatives | 6 | Community forks with significant changes |
 | 🔗 Integrations | 4 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 6 | Model Context Protocol servers & integrations |
 | 💾 Memory & Knowledge | 37 | Persistent memory, knowledge graphs, context systems |
@@ -210,6 +210,22 @@ _Community forks with significant changes_
 >🧠 Production-grade memory sidecar for AI agents — gbrain + Hindsight + 3-tier recall. Agent-agnostic, battle-tested. | 生产级外挂记忆系统，兼容Hermes/Claude/Cursor等任意AI智能体
 
 **Language:** Python | **Topics:** agent-memory, ai-agent, claude-code, cli, codex | **Score:** 75/100
+
+---
+
+### [Stack-Cairn/LiveAgent](https://github.com/Stack-Cairn/LiveAgent) ⭐ 1,381
+
+>A fully functional AI Agent desktop client that supports Webui access and can be creatively customized and expanded!
+
+**Language:** TypeScript | **Topics:** ai-agents, ai-tools, claude-code, codex | **Score:** 75/100
+
+---
+
+### [Javis603/token-monitor](https://github.com/Javis603/token-monitor) ⭐ 938
+
+>Real-time token, cost, and AI limits widget with multi-device sync for Claude Code, Codex, OpenCode, Hermes, OpenClaw, Cursor, and more.
+
+**Language:** JavaScript | **Topics:** ai, ai-tools, claude-code, codex, cursor | **Score:** 76/100
 
 ---
 
@@ -1264,6 +1280,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*144+ repositories in the Hermes ecosystem. Last updated: 2026-07-14. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*152+ repositories in the Hermes ecosystem. Last updated: 2026-07-24. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

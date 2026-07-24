@@ -25923,5 +25923,82 @@
     ],
     "discovered_at": "2026-07-24T07:04:04.994319+00:00",
     "status": "pending"
+  },
+  {
+    "name": "falke-ai-circuit/hermes-remote",
+    "url": "https://github.com/falke-ai-circuit/hermes-remote",
+    "description": "Remote agent for the Hermes ecosystem \u2014 run Hermes natively on any machine",
+    "stars": 0,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "updated_at": "2026-07-24T07:51:50Z",
+    "category": "core",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "awizemann/scarf",
+      "ksimback/hermes-atlas-mcp"
+    ],
+    "discovered_at": "2026-07-24T08:04:22.441471+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kaspianseehg/Agent-Command-Locus",
+    "url": "https://github.com/kaspianseehg/Agent-Command-Locus",
+    "description": "Spatial multi-agent command canvas \u2014 phosphor-lattice HUD, agent-agnostic PTYs (Claude, Codex, Hermes, Grok, \u2026)",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-24T08:02:18Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-24T08:04:25.444366+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Lexus2016/hermes-agent-evolution",
+    "url": "https://github.com/Lexus2016/hermes-agent-evolution",
+    "description": "Self-evolving AI Agent with autonomous research, proposal generation, and self-update capabilities based on Hermes Agent by Nous Research",
+    "stars": 11,
+    "forks": 2,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-24T08:00:31Z",
+    "category": "core",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "JackTheGit/hermes-autonomous-server",
+      "BBridgeers/hermes-skills",
+      "anomaliagent007-hue/hermes-mimo-bridge",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-24T08:04:28.447660+00:00",
+    "status": "pending"
   }
 ]

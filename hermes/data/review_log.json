@@ -6626,5 +6626,40 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-24T07:05:52.793377+00:00"
+  },
+  {
+    "repo": "falke-ai-circuit/hermes-remote",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T08:06:42.614780+00:00"
+  },
+  {
+    "repo": "kaspianseehg/Agent-Command-Locus",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T08:06:42.614782+00:00"
+  },
+  {
+    "repo": "Lexus2016/hermes-agent-evolution",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T08:06:42.614784+00:00"
+  },
+  {
+    "repo": "Stack-Cairn/LiveAgent",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-24T08:06:42.614786+00:00"
+  },
+  {
+    "repo": "Javis603/token-monitor",
+    "score": 76,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-24T08:06:42.614788+00:00"
   }
 ]
