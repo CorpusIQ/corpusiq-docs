@@ -2,20 +2,20 @@
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated July 16, 2026)
+## File count (updated July 24, 2026)
 
-- **Total Markdown files:** 1,034
-- **Total HTML files:** 1,085 (MkDocs build output)
-- **Total lines:** ~109,600 across all docs
-- **Hermes subdirectory:** 175 directories covering skills, MCP servers, setup guides, blueprints, and ecosystem discovery
+- **Total Markdown files:** 1,291
+- **Total HTML files:** 1,300+ (MkDocs build output)
+- **Total lines:** ~130,000 across all docs
+- **Hermes subdirectory:** 25 directories covering skills, MCP servers, setup guides, blueprints, and ecosystem discovery
 - **Docs subdirectory:** 13 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 
 ## Site architecture
 
 - **Main docs:** `https://www.corpusiq.io/docs/` — MkDocs Material, served on corpusiq.io
-- **Hermes knowledge base:** `https://corpusiq.github.io/corpusiq-docs/hermes/` — GitHub Pages, 1,034 markdown pages
+- **Hermes knowledge base:** `https://corpusiq.github.io/corpusiq-docs/hermes/` — GitHub Pages, 1,291 markdown pages
 - **SEO pages:** 100+ programmatic pages targeting high-intent keywords (e.g., "connect Shopify to ChatGPT," "MCP for ecommerce")
-- **Skills catalog:** 112 setup guides for Hermes skills
+- **Skills catalog:** 191 setup guides for Hermes skills
 - **MCP servers:** 200+ server listings with integration guides
 - **Daily automation:** Ecosystem discovery cron, skills.sh marketplace monitoring, MCP.so/mcpservers.org scans
 
@@ -42,7 +42,7 @@ The repo is actively maintained with daily automated updates:
 
 ---
 
-*Last updated: July 16, 2026. This repo is updated daily via automated crons.*
+*Last updated: July 24, 2026. This repo is updated daily via automated crons.*
 ---
 
 *

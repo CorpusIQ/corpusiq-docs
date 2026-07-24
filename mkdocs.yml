@@ -60,6 +60,14 @@ nav:
 - Onboarding: onboarding/README.md
 - Governance: governance/README.md
 - Changelog: changelog.md
+- Troubleshooting:
+  - Overview: troubleshooting/README.md
+  - Error Codes Reference: troubleshooting/error-codes-reference.md
+  - MCP Connection Errors: troubleshooting/mcp-connection-errors.md
+  - Connector Auth Failed: troubleshooting/connector-auth-failed.md
+  - Connector Shows No Data: troubleshooting/connector-shows-no-data.md
+  - Claude Can't See CorpusIQ: troubleshooting/claude-cant-see-corpusiq.md
+  - ChatGPT Can't See CorpusIQ: troubleshooting/chatgpt-cant-see-corpusiq.md
 - MCP Education:
   - What is an MCP Server: what-is-an-mcp-server.md
   - How MCP Servers Work: how-mcp-servers-work.md
