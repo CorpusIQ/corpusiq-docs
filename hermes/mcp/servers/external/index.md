@@ -7,7 +7,18 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 23, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), GitHub search
+> **Last updated:** July 24, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), GitHub search
+
+---
+
+## 🆕 July 24, 2026 — Cron Sweep (1 New Server)
+
+Full sweep details: [Sweep Report →](/hermes/mcp/sweeps/sweep-july24-2026-cron/)
+
+### Groundwork MCP ★ New — July 24
+Tenant-scoped, read-only company-state feed for MCP-compatible AI agents. Module catalog, brand settings, entitlements, and curated how-tos — stops agents from inventing your company. Public proof endpoint available (no account required). Hosted at `https://connector.rarefied.earth/public/mcp`. Pro tier at $49/mo with 14-day trial. `github.com/Rarefied-Earth/groundwork` · [Guide →](/hermes/mcp/servers/external/groundwork-mcp/)
+
+**Also scanned:** mcpservers.org — no new servers since July 23 sweep. mcp.so — only Groundwork is new. [Full sweep →](/hermes/mcp/sweeps/sweep-july24-2026-cron/)
 
 ---
 
