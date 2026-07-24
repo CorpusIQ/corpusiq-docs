@@ -299,6 +299,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 - [🆕 July 23, 2026 — Google ADK (357K), Better Auth (203K), Stitch (285K), Knowledge Work Plugins, Lenny Skills, 9 publishers, 47 skills, 1M+ installs](/hermes/skills/marketplace/new-july23-2026/)
 - [🆕 July 23, 2026 (Afternoon) — Antibrow (30K), Deepline (92K), SamuraiGPT, Reddit Research, SkillHQ Telegram (5 publishers, 21 skills, 136K+)](/hermes/skills/marketplace/new-july23-2026-update/)
 - [🆕 July 23, 2026 (Evening) — Microsoft Azure AI Foundry (478K), Nexscope Amazon (77K), Samber Go (35K), PM/Founder/Content Skills (7 publishers, 27 skills, 643K+)](/hermes/skills/marketplace/new-july23-2026-evening/)
+- [🆕 July 24, 2026 — Ruflo Agent Orchestration (65K⭐), Midscene Visual Browser Automation (14K⭐) — 2 publishers, 2 skills, 79K+ GitHub stars](/hermes/skills/marketplace/new-july24-2026/)
 - [🆕 July 17, 2026 (Evening) — Security Hardening, Apify Growth, Sentry AI Monitoring (3 repos, 7 skills)](/hermes/skills/marketplace/new-july17-2026-update/)
 - [🆕 July 17, 2026 — find-skills (2.5M⭐), skill-creator (317K⭐), remotion-best-practices (430K⭐), browser-act (99K⭐), firecrawl-workflows (120K⭐)](/docs/hermes/skills/marketplace/new-july17-2026/index.html)
 - [July 16, 2026 — agent-browser (38K⭐), Vercel Agent Skills (29K⭐), Apify Agent Skills (2.2K⭐), ClawFu Skills (134⭐)](/docs/hermes/skills/marketplace/new-july16-2026/index.html)
