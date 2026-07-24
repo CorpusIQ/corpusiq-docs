@@ -353,3 +353,6 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Midscene Skills — AI-Powered Visual Browser Automation Setup](/docs/hermes/skills/catalog/midscene-skills-setup.html)
 - [Ruflo — Multi-Agent Orchestration Platform Setup](/docs/hermes/skills/catalog/ruflo-setup.html)
 - [Stitch Skills — Google Design-to-Code Pipeline Setup](/docs/hermes/skills/catalog/stitch-skills-setup.html)
+- [just-scrape — AI-Powered Web Scraping CLI Setup](/docs/hermes/skills/catalog/just-scrape-setup.html)
+- [Terminal Skills — System Administration Pack Setup](/docs/hermes/skills/catalog/terminal-skills-setup.html)
+- [Finance Skills — Financial Analysis for Agents Setup](/docs/hermes/skills/catalog/finance-skills-setup.html)
