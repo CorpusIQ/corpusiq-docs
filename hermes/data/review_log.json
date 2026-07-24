@@ -6500,5 +6500,61 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-23T08:05:36.596242+00:00"
+  },
+  {
+    "repo": "hyyu189/roundtable-agents",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T06:07:21.039199+00:00"
+  },
+  {
+    "repo": "kevinACQ/hermes-config",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T06:07:21.039212+00:00"
+  },
+  {
+    "repo": "AtlasOmnia/hermes-agent-community",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T06:07:21.039214+00:00"
+  },
+  {
+    "repo": "m0rtal/hermes-maxru-platform",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T06:07:21.039216+00:00"
+  },
+  {
+    "repo": "422070876/hermes-agent-windows-patches",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T06:07:21.039218+00:00"
+  },
+  {
+    "repo": "AIAtHome-Adam/hermes-windows-node-broker",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T06:07:21.039220+00:00"
+  },
+  {
+    "repo": "benclawbot/open-brain",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T06:07:21.039222+00:00"
+  },
+  {
+    "repo": "Cassette-Editor/oh-my-cassette",
+    "score": 68,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-24T06:07:21.039223+00:00"
   }
 ]
