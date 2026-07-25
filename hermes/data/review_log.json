@@ -6745,5 +6745,82 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-25T06:05:24.509635+00:00"
+  },
+  {
+    "repo": "neforainx/hermes-agent-android",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T07:05:42.151823+00:00"
+  },
+  {
+    "repo": "localhost41/hermes-qvac-provider",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T07:05:42.151835+00:00"
+  },
+  {
+    "repo": "Oldcircle/wsl-agent-kit",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T07:05:42.151837+00:00"
+  },
+  {
+    "repo": "AzamatSafarov/hermes-optimizer",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T07:05:42.151839+00:00"
+  },
+  {
+    "repo": "Wendy-Nam/hermes-vps-setup",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T07:05:42.151841+00:00"
+  },
+  {
+    "repo": "TheBlueHouse75/hermes-action-bridge",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T07:05:42.151842+00:00"
+  },
+  {
+    "repo": "gitcommit90/1Helm",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T07:05:42.151844+00:00"
+  },
+  {
+    "repo": "devinhurry/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T07:05:42.151846+00:00"
+  },
+  {
+    "repo": "kodewulf/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T07:05:42.151847+00:00"
+  },
+  {
+    "repo": "zapabob/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T07:05:42.151850+00:00"
+  },
+  {
+    "repo": "sheldon-im/hermes-webui",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T07:05:42.151852+00:00"
   }
 ]
