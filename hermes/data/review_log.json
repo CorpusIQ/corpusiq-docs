@@ -6822,5 +6822,54 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-25T07:05:42.151852+00:00"
+  },
+  {
+    "repo": "equanimity-abc/web_hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T08:03:02.406893+00:00"
+  },
+  {
+    "repo": "joeynyc/hermes-hudui",
+    "score": 68,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T08:03:02.406903+00:00"
+  },
+  {
+    "repo": "Mandark-droid/hermes-otel-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T08:03:02.406905+00:00"
+  },
+  {
+    "repo": "Zekiog/hermes-legal",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T08:03:02.406906+00:00"
+  },
+  {
+    "repo": "nuffin/hermes-llm-api-call-logger-pip",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T08:03:02.406907+00:00"
+  },
+  {
+    "repo": "chirag127/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T08:03:02.406908+00:00"
+  },
+  {
+    "repo": "rant-ha/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T08:03:02.406909+00:00"
   }
 ]
