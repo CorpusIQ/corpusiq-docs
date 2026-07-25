@@ -6717,5 +6717,33 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-25T05:04:47.177476+00:00"
+  },
+  {
+    "repo": "Bitbull-Ideas/kube.hermes_setup",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T06:05:24.509616+00:00"
+  },
+  {
+    "repo": "thanhan-a17/geo-skill-pack",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T06:05:24.509630+00:00"
+  },
+  {
+    "repo": "RealShocky/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T06:05:24.509633+00:00"
+  },
+  {
+    "repo": "jckm14/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-25T06:05:24.509635+00:00"
   }
 ]

@@ -26241,5 +26241,113 @@
     "near_duplicates": [],
     "discovered_at": "2026-07-25T05:04:37.859372+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Bitbull-Ideas/kube.hermes_setup",
+    "url": "https://github.com/Bitbull-Ideas/kube.hermes_setup",
+    "description": "Production-oriented Kubernetes/K3s installer for Hermes Agent stack",
+    "stars": 2,
+    "forks": 1,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-07-25T05:58:43Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-25T06:03:04.460897+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "thanhan-a17/geo-skill-pack",
+    "url": "https://github.com/thanhan-a17/geo-skill-pack",
+    "description": "Practical GEO workflow skills for Hermes Agent: audit, optimize, and watch.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-07-25T05:57:06Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-25T06:03:06.463077+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "RealShocky/hermes-agent",
+    "url": "https://github.com/RealShocky/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-25T06:02:51Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-25T06:03:29.412952+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jckm14/hermes-agent",
+    "url": "https://github.com/jckm14/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-25T06:02:00Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-25T06:03:31.416252+00:00",
+    "status": "pending"
   }
 ]
