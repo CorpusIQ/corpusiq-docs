@@ -1,6 +1,6 @@
 ---
 title: "New Skills — July 25, 2026 Marketplace Sweep"
-description: "3 new publishers, 3 setup guides created, 134K+ combined installs. Morning cron sweep of skills.sh marketplace for Hermes-relevant skills."
+description: "5 new publishers, 5 setup guides created, ~2.1M+ combined installs. Two sweeps of skills.sh marketplace for Hermes-relevant skills."
 ---
 
 # New Skills — July 25, 2026
@@ -9,15 +9,27 @@ description: "3 new publishers, 3 setup guides created, 134K+ combined installs.
 
 | Metric | Count |
 |---|---|
-| New publishers found | 3 |
-| Setup guides created | 3 |
-| Combined installs | ~134,000+ |
-| Combined GitHub stars | 3,434 ⭐ |
-| Quality: 🟢 Production | 3 |
+| New publishers found | 5 |
+| Setup guides created | 5 |
+| Combined installs | ~2,100,000+ |
+| Combined GitHub stars | 3,434+ ⭐ |
+| Quality: 🟢 Production | 5 |
 | Quality: 🟡 Beta | 0 |
 | Quality: 🔵 Community | 0 |
 
 ## New Skills
+
+### Development & Security
+
+| Skill | Publisher | Installs | Stars | Tier | Guide |
+|---|---|---|---|---|---|
+| **OpenAI Skills** | openai/skills | 703K+ | — | 🟢 | [Setup Guide](/hermes/skills/catalog/openai-skills-setup/) |
+
+### Engineering Workflows
+
+| Skill | Publisher | Installs | Stars | Tier | Guide |
+|---|---|---|---|---|---|
+| **Obra Superpowers** | obra/superpowers | 1.2M+ | — | 🟢 | [Setup Guide](/hermes/skills/catalog/obra-superpowers-setup/) |
 
 ### Agent Infrastructure
 
@@ -37,24 +49,30 @@ description: "3 new publishers, 3 setup guides created, 134K+ combined installs.
 |---|---|---|---|---|---|
 | **ResumeSkills** | paramchoudhary/resumeskills | 13K+ | 1,264⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/resumeskills-setup/) |
 
-## 🔑 Standout Find: langchain-ai/langchain-skills (71K+ installs)
+## 🔑 Standout Finds
 
-LangChain's official agent skills — the most authoritative source for agent memory, persistence, RAG, and middleware patterns. Previously only `deep-agents-memory` was documented as a standalone guide. This sweep creates a publisher-level guide covering all 6 skills: deep-agents-memory (13.1K), langgraph-persistence (11.8K), langchain-rag (11.7K), langchain-fundamentals (11.6K), langgraph-human-in-the-loop (11.3K), and langchain-middleware (10.8K). These are the canonical implementation patterns for production AI agents.
+### obra/superpowers (1.2M+ installs) — Morning Sweep #2
+The most-installed engineering workflow suite on skills.sh. Structured brainstorming (295K), systematic debugging (200K), planning (198K), code review (179K), and TDD (178K). This is the definitive engineering discipline toolkit — any Hermes agent doing code work should have these loaded.
+
+### openai/skills (703K+ installs) — Morning Sweep #2
+Official OpenAI skills — PDF manipulation (10.5K), CI debugging (7.8K), security auditing (5.8K), Linear integration, Playwright testing, and Figma implementation. Production-grade, well-maintained workflows from the team behind ChatGPT.
+
+### langchain-ai/langchain-skills (71K+ installs) — Morning Sweep #1
+LangChain's official agent skills — the most authoritative source for agent memory, persistence, RAG, and middleware patterns. Previously only `deep-agents-memory` was documented as a standalone guide. This sweep creates a publisher-level guide covering all 6 skills.
 
 ## Other Highlights
 
-- **resciencelab/opc-skills** (50K+ installs, 1,174⭐): The solopreneur's AI toolkit. SEO-GEO alone has 37K installs — the most-installed solopreneur skill on skills.sh. Reddit marketing, Product Hunt launches, logo creation, and Twitter growth complete the stack. Previously only seo-geo had a minimal platform entry.
-- **paramchoudhary/resumeskills** (13K+ installs, 1,264⭐): Complete job application optimization toolkit — ATS optimization, LinkedIn profile enhancement, bullet writing, resume tailoring, cover letters, and tech formatting. Directly complements CorpusIQ's existing job-application-engine skill.
+- **resciencelab/opc-skills** (50K+ installs, 1,174⭐): The solopreneur's AI toolkit. SEO-GEO alone has 37K installs — the most-installed solopreneur skill on skills.sh.
+- **paramchoudhary/resumeskills** (13K+ installs, 1,264⭐): Complete job application optimization toolkit — directly complements CorpusIQ's existing job-application-engine skill.
 
 ## Discovery Method
 
-Bulk sweep: 50+ search terms via `npx skills search` → 139 unique repo/publisher entries → cross-referenced against 304 existing catalog entries → publisher-level verification → 3 confirmed new, 47 filtered (Claude-specific, low stars, already documented under different names, or non-agent-relevant).
+Two sweeps combined: Morning Sweep #1 (50+ search terms) → 139 unique repos → cross-referenced → 3 publishers (langchain, opc-skills, resumeskills). Morning Sweep #2 (54 search terms) → 619 unique skill entries → 269 publishers → cross-referenced → 2 additional publishers (openai/skills, obra/superpowers). Combined: 5 publishers, 30 skills documented.
 
 ## Notes
 
+- **obra/superpowers** is the biggest missed opportunity until now — 1.2M+ installs across 6 skills, foundational to agent engineering workflows.
+- **openai/skills** brings official OpenAI tooling for PDFs, CI, security, and design-to-code workflows.
 - **langchain-ai/langchain-skills** supersedes the standalone `deep-agents-memory-setup.md` — the publisher-level guide now covers all 6 LangChain agent skills.
 - **resciencelab/opc-skills** replaces the minimal `platform/seo-geo.md` entry — full publisher coverage with all 6 skills.
 - **paramchoudhary/resumeskills** is entirely new — no prior catalog entry.
-- This is the first July 25 sweep. 139 unique repos were scanned; the vast majority were Claude Code-specific or already documented.
-- Notable skipped: `composiohq/awesome-claude-skills` (70K⭐, Claude-focused), `lobehub/lobe-chat` (full app, not skills), `greensock/gsap-skills` (12K⭐, already covered by HyperFrames docs), `jeffallan/claude-skills` (10.7K⭐, Claude-only).
-- GitHub API rate limited on some OpenClaw repos — deferred to next sweep.
