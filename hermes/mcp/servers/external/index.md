@@ -7,7 +7,22 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 24, 2026 (evening sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), GitHub search · **Catalog:** 88 servers (+8 guides today)
+> **Last updated:** July 25, 2026 (morning cron) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), GitHub search · **Catalog:** 91 servers (+3 guides today)
+
+---
+
+## 🆕 July 25, 2026 — Morning Cron (3 New Servers)
+
+### Feedback Synthesis MCP ★★ New — July 25
+Customer feedback intelligence MCP — aggregate GitHub Issues, HN threads, and App Store reviews into ranked pain clusters. Pay-per-call via x402 micropayments (USDC on Base). `github.com/sapph1re/feedback-synthesis-mcp` · [Guide →](/hermes/mcp/servers/external/feedback-synthesis-mcp/)
+
+### MCP Billing Gateway ★★ New — July 25
+Reverse proxy that adds Stripe fiat billing + x402 crypto micropayments to any MCP server without touching upstream code. API key management, per-call metering, transparent proxying. `github.com/sapph1re/mcp-billing-gateway-sdk` · [Guide →](/hermes/mcp/servers/external/mcp-billing-gateway/)
+
+### Skills Loader ★★ New — July 25
+1,900+ security-reviewed agent skills for AI agents via MCP. Browse, search, and install skills across development, design, marketing, and more. Free, no auth required. `skills.agentsandswarms.ai/mcp` · [Guide →](/hermes/mcp/servers/external/skills-loader-mcp/)
+
+**Also identified:** Agentic Memory (persistent memory, #3295), Prerender Buddy MCP (crawler visibility, #3297), GoldBean (53 Chinese AI tools, #3299), Humanity4AI (9 humanity skills, #3296). Scanned 20 new GitHub submissions since last sweep.
 
 ---
 
