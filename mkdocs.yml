@@ -39,6 +39,16 @@ nav:
 - Connectors: connectors.md
 - Architecture:
   - Overview: architecture/README.md
+- How It Works:
+  - Overview: how-it-works/README.md
+  - What is CorpusIQ: how-it-works/what-is-corpusiq.md
+  - MCP Architecture: how-it-works/mcp-architecture.md
+  - Connectors Explained: how-it-works/connectors-explained.md
+  - Skills Engine: how-it-works/skills-explained.md
+  - Metric Specs: how-it-works/metric-specs.md
+  - Privacy & Security: how-it-works/privacy-and-security.md
+  - Rate Limits & Quotas: how-it-works/rate-limits-and-quotas.md
+  - Reading Files & PDFs: how-it-works/reading-files-and-pdfs.md
 - Security:
   - Overview: security/README.md
   - Compliance: security.md
