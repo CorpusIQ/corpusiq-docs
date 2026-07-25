@@ -7,18 +7,44 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 24, 2026 · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), GitHub search
+> **Last updated:** July 24, 2026 (evening sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), GitHub search · **Catalog:** 88 servers (+8 guides today)
 
 ---
 
-## 🆕 July 24, 2026 — Cron Sweep (1 New Server)
+## 🆕 July 24, 2026 — Evening Sweep (8 New Servers, 43 Discovered)
 
-Full sweep details: [Sweep Report →](/hermes/mcp/sweeps/sweep-july24-2026-cron/)
+Full sweep details: [Sweep Report →](/hermes/mcp/servers/external/scan-results-2026-07-24/)
+
+### emailmd MCP ★★★ New — July 24
+Write and preview emails from your AI assistant. Renders markdown into email-safe HTML that holds up in Outlook and Gmail, lints drafts for deliverability problems, and returns a live preview link. `github.com/anypost/emailmd` · [Guide →](/hermes/mcp/servers/external/emailmd-mcp/)
+
+### mcp-server-malcolm ★★ New — July 24
+MCP server for Malcolm network traffic analysis suite (Zeek + Suricata + Arkime + OpenSearch + NetBox). Structured threat-hunting access: search traffic, query alerts, browse sessions, resolve assets. Read-only by default. `github.com/nagameTW/mcp-server-malcolm` · [Guide →](/hermes/mcp/servers/external/mcp-server-malcolm/)
+
+### byakugan ★★ New — July 24
+Private, local AI-text analysis — detection, exact AI-tell spans, reuse check, grammar pass. Runs entirely on your machine. `github.com/JayOfemi/byakugan` · [Guide →](/hermes/mcp/servers/external/byakugan/)
+
+### Index One MCP ★★ New — July 24
+Query financial index data, run backtests, and deploy systematic investment strategies. Agent-native access to financial indices. `mcpservers.org/servers/indexone-io-docs-mcp` · [Guide →](/hermes/mcp/servers/external/index-one-mcp/)
+
+### CDN.MN MCP ★★ New — July 24
+Agent-ready global image CDN. Upload, transform, and serve images globally from your AI agent workflow. `mcpservers.org/servers/cdnmn-mcp` · [Guide →](/hermes/mcp/servers/external/cdnmn-mcp/)
+
+### AI Consensus Connector ★ New — July 24
+Query multiple AI models simultaneously for consensus, comparison, and bias reduction. `mcpservers.org/servers/thestevenjohnstone/ai-consensus-connector` · [Guide →](/hermes/mcp/servers/external/ai-consensus-mcp/)
+
+### Agent Browser MCP ★ New — July 24
+MCP wrapper for Vercel's agent-browser CLI. Browser automation for AI agents — navigate, click, extract, screenshot. `github.com/codeChap/mcp-server-agent-browser` · [Guide →](/hermes/mcp/servers/external/agent-browser-mcp/)
+
+### githunt-mcp ★ New — July 24
+Search, rank, and analyze GitHub developers for tech recruiting. AI scoring and contact discovery over millions of ranked profiles. `github.com/githunt-agent/githunt-mcp` · [Guide →](/hermes/mcp/servers/external/githunt-mcp/)
+
+**Also discovered (awaiting guides):** suitecrm-mcp-server (CRM), mssqlmcp (MS SQL), mcp-server-microsoft365-filesearch (M365), costwright-mcp (cost management), todoist-mcp-server, dida365-mcp-server, github-security-mcp-server, and 29 others across mcp.so + mcpservers.org. [Full sweep →](/hermes/mcp/servers/external/scan-results-2026-07-24/)
+
+## 🆕 July 24, 2026 — Morning Cron (Groundwork)
 
 ### Groundwork MCP ★ New — July 24
 Tenant-scoped, read-only company-state feed for MCP-compatible AI agents. Module catalog, brand settings, entitlements, and curated how-tos — stops agents from inventing your company. Public proof endpoint available (no account required). Hosted at `https://connector.rarefied.earth/public/mcp`. Pro tier at $49/mo with 14-day trial. `github.com/Rarefied-Earth/groundwork` · [Guide →](/hermes/mcp/servers/external/groundwork-mcp/)
-
-**Also scanned:** mcpservers.org — no new servers since July 23 sweep. mcp.so — only Groundwork is new. [Full sweep →](/hermes/mcp/sweeps/sweep-july24-2026-cron/)
 
 ---
 
