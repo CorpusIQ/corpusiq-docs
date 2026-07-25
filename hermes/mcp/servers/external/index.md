@@ -7,7 +7,18 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 25, 2026 (morning cron) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), GitHub search · **Catalog:** 91 servers (+3 guides today)
+> **Last updated:** July 25, 2026 (afternoon sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), GitHub search · **Catalog:** 92 servers (+1 guide, +17 discovered)
+
+---
+
+## 🆕 July 25, 2026 — Afternoon Sweep (1 New Server, 17 Discovered)
+
+Full sweep of mcpservers.org sitemaps (9,634 servers indexed) against our 91-server catalog. Found 17 genuinely new servers; 1 business-relevant guide written.
+
+### OpusGrowth MCP ★★★ New — July 25
+Hosted MCP connector for Google Ads, Microsoft Advertising, TikTok Ads, and LinkedIn Ads — 233 tools with real write actions behind approval gates. Cross-platform campaign management from any MCP client. Pre-launch (waitlist). `github.com/opusgrowth/Opus-Growth-The-MCP-Connector-for-Ad-Platforms` · [Guide →](/hermes/mcp/servers/external/opusgrowth-mcp/)
+
+**Also discovered (awaiting guides):** mcp-server-linkedin (LinkedIn automation, codeChap, April 2026), mcp-server-seo (SEO audit/crawl/GSC/PageSpeed, codeChap, July 19), chromium-bridge (browser MCP for Arc/Vivaldi, 4⭐), infimium-agent (cross-IDE memory, 15⭐), lulu-ads (MCP monetization, 1⭐), antohins/seo-tools-mcp, gitdealflow-com, 11agents-cloud-mcp, agentcouch-dev, cc-design-mcp, ghostapi, agent-web-search-mcp, and 5 others. 17 new servers total from mcpservers.org sitemap scan. GitHub Search API blocked this sweep ("user flagged as spammy"); mcpservers.org sitemap used as fallback.
 
 ---
 
