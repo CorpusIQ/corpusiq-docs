@@ -1,6 +1,6 @@
 ---
 title: "Hermes Skills Catalog — Quality-Tiered Directory"
-description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 465+ skills catalogued."
+description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 469+ skills catalogued."
 ---
 
 # Skills Catalog
@@ -204,8 +204,10 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Setup Guide: cantinaxyz/clawdstrike — Agent Red-Team Security Testing (486 Installs)](/docs/hermes/skills/catalog/clawdstrike-setup.html)
 - [ClawFu Skills — 175 Marketing Methodologies for AI Agents Setup](/docs/hermes/skills/catalog/clawfu-skills-setup.html)
 - [Clawpilot Ecosystem Setup](/docs/hermes/skills/catalog/clawpilot-ecosystem-setup.html)
+- [Claude Code Skills — Agentic Coding & Skill Development Setup](/docs/hermes/skills/catalog/claude-code-skills-setup.html)
 - [Claude Handoff — Session Handoff Pattern Setup](/docs/hermes/skills/catalog/claude-handoff-setup.html)
 - [Clean Slate Setup](/docs/hermes/skills/catalog/clean-slate-setup.html)
+- [Clerk Auth Skills — Authentication & User Management Setup](/docs/hermes/skills/catalog/clerk-auth-skills-setup.html)
 - [Cli Anything Harnesses Setup](/docs/hermes/skills/catalog/cli-anything-harnesses-setup.html)
 - [Cli Anything Hermes Setup](/docs/hermes/skills/catalog/cli-anything-hermes-setup.html)
 - [Codex — Delegate Coding Tasks to OpenAI Codex CLI](/docs/hermes/skills/catalog/codex-setup.html)
@@ -302,6 +304,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Openclaw Security Hardening Setup](/docs/hermes/skills/catalog/openclaw-security-hardening-setup.html)
 - [Openclaw Skill Vetter Setup](/docs/hermes/skills/catalog/openclaw-skill-vetter-setup.html)
 - [OpenClaw XHS Setup — Xiaohongshu (RED) Integration](/docs/hermes/skills/catalog/openclaw-xhs-setup.html)
+- [OpenAI Codex Skills — Official Skills Catalog Setup](/docs/hermes/skills/catalog/openai-codex-skills-setup.html)
 - [Parallel Agent Skills — Web Intelligence for Hermes Setup](/docs/hermes/skills/catalog/parallel-agent-skills-setup.html)
 - [Perfectloop Setup](/docs/hermes/skills/catalog/perfectloop-setup.html)
 - [Petdex — Animated Mascots for Hermes Agent](/docs/hermes/skills/catalog/petdex-setup.html)
@@ -325,6 +328,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Steroids Openai Image Gen Setup](/docs/hermes/skills/catalog/steroids-openai-image-gen-setup/index.html)
 - [stripe Skills](/docs/hermes/skills/catalog/stripe/index.html)
 - [supabase Skills](/docs/hermes/skills/catalog/supabase/index.html)
+- [Superpowers — Agentic Skills Framework Setup](/docs/hermes/skills/catalog/superpowers-setup.html)
 - [Tavily Search Openclaw Setup](/docs/hermes/skills/catalog/tavily-search-openclaw-setup.html)
 - [Tavily Search — Official LLM-Optimized Web Search CLI Setup](/docs/hermes/skills/catalog/tavily-search-setup.html)
 - [Tavily Research — AI-Powered Deep Research Setup](/docs/hermes/skills/catalog/tavily-research-setup.html)
