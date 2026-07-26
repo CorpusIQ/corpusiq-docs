@@ -7,7 +7,20 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 25, 2026 (afternoon sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), GitHub search · **Catalog:** 92 servers (+1 guide, +17 discovered)
+> **Last updated:** July 26, 2026 (evening sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), GitHub search · **Catalog:** 92 servers (+2 monitoring, 0 guides)
+
+---
+
+## 🆕 July 25, 2026 — Evening Sweep (2 New, 0 Guides)
+
+Short sweep of mcp.so homepage (SSR scrape) + mcpservers.org sitemaps. 2 new servers created on mcp.so after the afternoon sweep (post-17:00 UTC). Neither is high-value business-operator fit; no guides written.
+
+| Server | Stars | Created | Relevance |
+|--------|-------|---------|-----------|
+| AptiBuild AI — Career Intelligence | 0 | Jul 26, 2026 | FRED labor signals + BLS wages ($39/mo) — niche |
+| Medplum | 2,545 | Jul 26, 2026 | Healthcare compliance platform — not business-ops |
+
+mcpservers.org sitemaps showed 60+ pages modified (tableau-mcp, cost-management-mcp, finopsmcp, finra-mcp-server, etc.) but `lastmod` ≠ creation date — most are likely re-crawled existing pages. [Full sweep →](/hermes/mcp/sweeps/sweep-july25-2026-evening/)
 
 ---
 
