@@ -80,7 +80,7 @@ nav:
   - ChatGPT Can't See CorpusIQ: troubleshooting/chatgpt-cant-see-corpusiq.md
 - MCP Education:
   - What is an MCP Server: what-is-an-mcp-server.md
-  - MCP Spec GA (July 2026): docs/mcp-spec-ga-july-2026.md
+  - MCP Spec GA (July 2026): mcp-spec-ga-july-2026.md
   - How MCP Servers Work: how-mcp-servers-work.md
   - MCP vs Zapier: mcp-vs-zapier.md
   - MCP vs Data Warehouses: mcp-vs-data-warehouse.md
