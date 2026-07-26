@@ -1,14 +1,14 @@
 ---
 title: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem — 140+ repos, tools, skills, and integrations
-last_updated: 2026-07-25
+last_updated: 2026-07-26
 ---
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **153+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **154+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **153+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **154+ repos indexed.**
 
 ## 📊 Category Overview
 

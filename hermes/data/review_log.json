@@ -6997,5 +6997,26 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-26T06:05:12.507514+00:00"
+  },
+  {
+    "repo": "cognitiaartifact/hermes-immortal",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T07:04:33.828201+00:00"
+  },
+  {
+    "repo": "wlilley93/boltrig",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T07:04:33.828214+00:00"
+  },
+  {
+    "repo": "eitanziv/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T07:04:33.828216+00:00"
   }
 ]
