@@ -7018,5 +7018,33 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-26T07:04:33.828216+00:00"
+  },
+  {
+    "repo": "Rama-Digital/coret-agent-kit",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T08:05:08.405982+00:00"
+  },
+  {
+    "repo": "BoBeenLee/hermes-workspace",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T08:05:08.405995+00:00"
+  },
+  {
+    "repo": "seovendorco/sv-mcp-skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T08:05:08.405998+00:00"
+  },
+  {
+    "repo": "fsca8/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T08:05:08.406000+00:00"
   }
 ]

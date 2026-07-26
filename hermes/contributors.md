@@ -31,4 +31,4 @@ Thank you to everyone who has contributed to the Hermes Ecosystem Directory — 
 
 ---
 
-*Last updated: 2026-07-25. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Last updated: 2026-07-26. Powered by [CorpusIQ](https://www.corpusiq.io).*
