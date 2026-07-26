@@ -7,7 +7,7 @@ description: Discover and install community skills from skills.sh  --  290+ cura
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**528+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**531+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## How to Discover Skills
 
@@ -155,6 +155,7 @@ Approved skills appear on the next marketplace update page with install commands
 
 New skills are discovered weekly through automated sweeps of skills.sh. Each discovery gets a dedicated update page:
 
+- [🆕 July 26, 2026 (Update #2) — Datadog (12K), LaunchDarkly (26K), Railway (5.5K) (3 repos, 3 setup guides, 43K+ installs)](/hermes/skills/marketplace/new-july26-2026-update2/)
 - [🆕 July 19, 2026 — hermespace (46⭐), cursor-dispatcher (1⭐), plutus (2⭐), daidala (0⭐) (4 repos, 12+ skills, 2 setup guides)](/hermes/skills/marketplace/new-july19-2026/)
 - [🆕 July 20, 2026 — hermes-tweet (18⭐), bitrouter (209⭐), agentcairn (20⭐) + 10 more (13 repos, 7 setup guides)](/hermes/skills/marketplace/new-july20-2026/)
 - [🆕 July 21, 2026 — 10 new marketplace skills: firecrawl-agent (73.9K), tavily-search (25.7K), content-strategy (110.2K) + 7 more (10 setup guides, 458K+ combined installs)](/hermes/skills/marketplace/new-july21-2026/)
