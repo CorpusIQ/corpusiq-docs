@@ -6871,5 +6871,96 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-25T08:03:02.406909+00:00"
+  },
+  {
+    "repo": "QAQ-awa-QAQ/naphermes-hermes-for-napcat",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T05:04:49.843233+00:00"
+  },
+  {
+    "repo": "GeoWizard4645/caduceus",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T05:04:49.843248+00:00"
+  },
+  {
+    "repo": "jpalmae/hermeshq",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T05:04:49.843250+00:00"
+  },
+  {
+    "repo": "justin-cyhuang/justin-cyhuang.github.io",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T05:04:49.843252+00:00"
+  },
+  {
+    "repo": "therayally/agentops",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T05:04:49.843254+00:00"
+  },
+  {
+    "repo": "cotcollective/argus",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T05:04:49.843256+00:00"
+  },
+  {
+    "repo": "ZESCODE/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T05:04:49.843257+00:00"
+  },
+  {
+    "repo": "bemindlabs/bwoc-plugin-hermes",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T05:04:49.843259+00:00"
+  },
+  {
+    "repo": "slamdunktiger/hermes-free-web-stack",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T05:04:49.843261+00:00"
+  },
+  {
+    "repo": "hao333hao/codegraph",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T05:04:49.843262+00:00"
+  },
+  {
+    "repo": "lehmannm360/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T05:04:49.843264+00:00"
+  },
+  {
+    "repo": "colingreig/hermes-agent-upstream-contrib",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T05:04:49.843266+00:00"
+  },
+  {
+    "repo": "thanvish21/hcc-bundle",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T05:04:49.843267+00:00"
   }
 ]
