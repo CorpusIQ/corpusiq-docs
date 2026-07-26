@@ -6962,5 +6962,40 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-26T05:04:49.843267+00:00"
+  },
+  {
+    "repo": "developers-appdeed/the-neon-prime-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T06:05:12.507505+00:00"
+  },
+  {
+    "repo": "stephenschoettler/hermes-lcm",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-26T06:05:12.507508+00:00"
+  },
+  {
+    "repo": "yelinos/cc-switch",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T06:05:12.507511+00:00"
+  },
+  {
+    "repo": "chuanqi87/appgraph",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T06:05:12.507513+00:00"
+  },
+  {
+    "repo": "Th0rgal/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-26T06:05:12.507514+00:00"
   }
 ]

@@ -1,21 +1,21 @@
 ---
 title: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem — 140+ repos, tools, skills, and integrations
-last_updated: 2026-07-24
+last_updated: 2026-07-25
 ---
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **152+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **153+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **152+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **153+ repos indexed.**
 
 ## 📊 Category Overview
 
 | Category | Repos | Description |
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
-| 🧠 Core Framework | 6 | Core Hermes Agent repos, official builds |
+| 🧠 Core Framework | 7 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 10 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 6 | Community forks with significant changes |
 | 🔗 Integrations | 4 | Platform connectors, bridges, adapters |
@@ -52,6 +52,14 @@ _Core Hermes Agent repos, official builds_
 >🗺️ Hermes Atlas — the community map of every tool, skill, and integration for Hermes Agent by Nous Research. Live at hermesatlas.com
 
 **Language:** HTML | **Topics:** ai-agents, ecosystem-map, hermes-agent, hermes-atlas, nous-research | **Score:** 85/100
+
+---
+
+### [stephenschoettler/hermes-lcm](https://github.com/stephenschoettler/hermes-lcm) ⭐ 892
+
+>Lossless Context Management plugin for Hermes Agent — DAG-based context engine that never loses a message
+
+**Language:** Python | **Score:** 75/100
 
 ---
 
@@ -1280,6 +1288,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*152+ repositories in the Hermes ecosystem. Last updated: 2026-07-24. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*153+ repositories in the Hermes ecosystem. Last updated: 2026-07-25. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

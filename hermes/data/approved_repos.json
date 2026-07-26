@@ -4678,5 +4678,32 @@
     "discovered_at": "2026-07-24T08:04:54.454460+00:00",
     "status": "approved",
     "approved_at": "2026-07-24T08:06:42.614777+00:00"
+  },
+  {
+    "name": "stephenschoettler/hermes-lcm",
+    "url": "https://github.com/stephenschoettler/hermes-lcm",
+    "description": "Lossless Context Management plugin for Hermes Agent \u2014 DAG-based context engine that never loses a message",
+    "stars": 892,
+    "forks": 87,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-26T05:59:38Z",
+    "category": "core",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "Sibyl-Labs/Sibyl-Memory",
+      "cx2002302-lang/zettelkasten-second-memory"
+    ],
+    "discovered_at": "2026-07-26T06:02:54.865163+00:00",
+    "status": "approved",
+    "approved_at": "2026-07-26T06:05:12.507490+00:00"
   }
 ]
