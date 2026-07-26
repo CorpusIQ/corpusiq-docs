@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 26, 2026 (cron sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), GitHub search · **Catalog:** 93 servers (+1 guide, +2 noted)
+> **Last updated:** July 26, 2026 (afternoon sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), mcp.so GitHub issues · **Catalog:** 95 servers (+3 guides, +2 noted)
 
 ---
 
@@ -17,6 +17,20 @@ Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ ser
 25 pay-per-call MCP tools for UK business operations — Companies House registry, HM Land Registry property data, agent-readiness audits, domain/email/VAT/IBAN verification, and even human-in-the-loop tasks. x402 micropayments (USDC on Base). `https://agents.oromi.co.uk` · [Guide →](/hermes/mcp/servers/external/oromi-agent-services/)
 
 **Also discovered:** ctxfile (local-first project context snapshots, 2⭐), mcp-fns-check (Russian FNS counterparty due diligence, 14⭐ — Russia-specific). [Full sweep →](/hermes/mcp/sweeps/sweep-july26-2026-cron/)
+
+---
+
+## 🆕 July 26, 2026 — Afternoon Sweep (2 New, 2 Guides)
+
+Sweep of mcpservers.org /all page (JSON-LD, 30 newest), mcp.so sitemap page 19, and chatmcp/mcpso GitHub issues (20 latest submissions). GitHub API rate-limited this sweep; discovery via unauthenticated sources.
+
+### STEADYWRK Dispatch ★★★ New — July 26
+Field-service dispatch for AI agents — instant quotes, tracked work orders, and public evals across 8 trade verticals (HVAC, plumbing, electrical, roofing, general contracting, landscaping, pest control, cleaning). Public read tools free; quote/order via API key. Remote Streamable HTTP at `https://steadywrk.app/api/mcp`. Built by a sovereign AI company in Aqaba, Jordan. [Guide →](/hermes/mcp/servers/external/steadywrk-dispatch-mcp/)
+
+### TendFeed ★★★ New — July 26
+Bid/no-bid intelligence for EU public tenders — competition density, price corridors, SME fit, and beachhead rankings over 592,000 real TED contract awards. Free guest tier (expired tenders, no signup); live board at 99 EUR/month. Remote Streamable HTTP at `https://tendfeed.eu/api/mcp/tendfeed`. `github.com/tendfeed-eu/tendfeed-mcp` · [Guide →](/hermes/mcp/servers/external/tendfeed-mcp/)
+
+**Also identified:** BountyVerdict (agent decision tools — previously noted, developer-focused, no guide). ~280+ other mcp.so sitemap entries from today — most were test repos, duplicates, or non-business categories (weather bots, Pokemon, Minecraft, etc.). [Full sweep →](/hermes/mcp/sweeps/sweep-july26-2026-afternoon/)
 
 ---
 
