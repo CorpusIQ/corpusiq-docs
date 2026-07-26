@@ -7,7 +7,16 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 26, 2026 (evening sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), GitHub search · **Catalog:** 92 servers (+2 monitoring, 0 guides)
+> **Last updated:** July 26, 2026 (cron sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), GitHub search · **Catalog:** 93 servers (+1 guide, +2 noted)
+
+---
+
+## 🆕 July 26, 2026 — Cron Sweep (3 New, 1 Guide)
+
+### Oromi Agent Services ★★★ New — July 26
+25 pay-per-call MCP tools for UK business operations — Companies House registry, HM Land Registry property data, agent-readiness audits, domain/email/VAT/IBAN verification, and even human-in-the-loop tasks. x402 micropayments (USDC on Base). `https://agents.oromi.co.uk` · [Guide →](/hermes/mcp/servers/external/oromi-agent-services/)
+
+**Also discovered:** ctxfile (local-first project context snapshots, 2⭐), mcp-fns-check (Russian FNS counterparty due diligence, 14⭐ — Russia-specific). [Full sweep →](/hermes/mcp/sweeps/sweep-july26-2026-cron/)
 
 ---
 
