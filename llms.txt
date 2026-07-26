@@ -216,6 +216,7 @@
 - [Top Business Ai Tools](/docs/top-business-ai-tools.md)
 - [Top Mcp Platforms](/docs/top-mcp-platforms.md)
 - [What Is An Mcp Server](/docs/what-is-an-mcp-server.md)
+- [Mcp Spec Ga July 2026](/docs/mcp-spec-ga-july-2026.md)
 
 ## Examples
 - [Readme](/examples/README.md)
