@@ -154,4 +154,4 @@ Traditional BI involves per-seat licensing, infrastructure costs, and implementa
 
 ---
 
-**MCP Spec GA — July 28, 2026:** The Model Context Protocol specification reaches general availability on July 28. [Read what this means for business operators](/docs/mcp-spec-ga-july-2026/).
+**MCP Spec GA — July 28, 2026:** The Model Context Protocol specification reaches general availability on July 28. [Read what this means for business operators](/docs/mcp-spec-ga-july-2026).

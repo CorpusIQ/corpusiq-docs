@@ -163,4 +163,4 @@ Enterprise customers receive 99.9% uptime SLA for the MCP query layer, with fina
 
 ---
 
-**MCP Spec GA — July 28, 2026:** The Model Context Protocol specification reaches general availability on July 28. [Read what this means for business operators](/docs/mcp-spec-ga-july-2026/).
+**MCP Spec GA — July 28, 2026:** The Model Context Protocol specification reaches general availability on July 28. [Read what this means for business operators](/docs/mcp-spec-ga-july-2026).
