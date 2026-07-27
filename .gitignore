@@ -5,3 +5,6 @@ site/
 
 # MkDocs intermediate build output (not deployed)
 build_out/
+
+# Agent state files
+.last_processed_release
