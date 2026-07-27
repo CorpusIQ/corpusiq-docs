@@ -1,6 +1,6 @@
 ---
 title: AgentMemory Setup — Persistent Memory for Hermes Agents
-description: Install and configure rohitg00/agentmemory — #1 persistent memory for AI coding agents with Hermes support. No more re-explaining your codebase.
+description: "Install and configure rohitg00/agentmemory — #1 persistent memory for AI coding agents with Hermes support. No more re-explaining your codebase."
 author: rohitg00
 repo: https://github.com/rohitg00/agentmemory
 stars: 25,207

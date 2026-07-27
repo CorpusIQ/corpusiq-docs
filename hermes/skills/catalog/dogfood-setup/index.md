@@ -1,6 +1,6 @@
 ---
 title: Dogfood — Systematic Web App QA Testing for Hermes Agents
-description: Official Nous Research skill for systematic exploratory QA testing using Hermes browser tools. 5-phase methodology: Plan → Explore → Collect Evidence → Categorize → Report. 4,700+ installs.
+description: "Official Nous Research skill for systematic exploratory QA testing using Hermes browser tools. 5-phase methodology: Plan → Explore → Collect Evidence → Categorize → Report. 4,700+ installs."
 ---
 
 # Dogfood — Setup Guide
