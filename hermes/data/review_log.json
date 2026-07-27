@@ -7179,5 +7179,54 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-27T06:10:05.532289+00:00"
+  },
+  {
+    "repo": "zhaozengxiao/hermes-memory-tencentdb",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T07:09:13.387321+00:00"
+  },
+  {
+    "repo": "rabilrbl/hermes-commandcode-ai-plugin",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T07:09:13.387335+00:00"
+  },
+  {
+    "repo": "m0d02x/hermes-webui-dokploy",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T07:09:13.387338+00:00"
+  },
+  {
+    "repo": "InternetMaximalism/mordred-hermes",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T07:09:13.387340+00:00"
+  },
+  {
+    "repo": "latipun7/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T07:09:13.387342+00:00"
+  },
+  {
+    "repo": "usernotfinded/atlas-agent",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T07:09:13.387344+00:00"
+  },
+  {
+    "repo": "exiao/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T07:09:13.387346+00:00"
   }
 ]
