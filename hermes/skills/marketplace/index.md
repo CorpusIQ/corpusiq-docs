@@ -155,6 +155,7 @@ Approved skills appear on the next marketplace update page with install commands
 
 New skills are discovered weekly through automated sweeps of skills.sh. Each discovery gets a dedicated update page:
 
+- [🆕 July 26, 2026 (Update #3) — Composio (28 skills, 71K⭐), Addy Osmani (20 skills, 80K⭐), Intellectronica (22 skills, 63K installs) (3 repos, 3 setup guides, 93K+ installs)](/hermes/skills/marketplace/new-july26-2026-update3/)
 - [🆕 July 26, 2026 (Update #2) — Datadog (12K), LaunchDarkly (26K), Railway (5.5K) (3 repos, 3 setup guides, 43K+ installs)](/hermes/skills/marketplace/new-july26-2026-update2/)
 - [🆕 July 19, 2026 — hermespace (46⭐), cursor-dispatcher (1⭐), plutus (2⭐), daidala (0⭐) (4 repos, 12+ skills, 2 setup guides)](/hermes/skills/marketplace/new-july19-2026/)
 - [🆕 July 20, 2026 — hermes-tweet (18⭐), bitrouter (209⭐), agentcairn (20⭐) + 10 more (13 repos, 7 setup guides)](/hermes/skills/marketplace/new-july20-2026/)
