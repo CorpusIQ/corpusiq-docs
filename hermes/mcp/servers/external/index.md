@@ -7,9 +7,37 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 26, 2026 (evening sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), mcp.so GitHub issues · **Catalog:** 100 servers (+5 guides, +2 noted)
+> **Last updated:** July 27, 2026 (morning sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), mcp.so GitHub issues · **Catalog:** 108 servers (+8 guides)
 
 ---
+
+## 🆕 July 27, 2026 — Morning Sweep (8 New, 8 Guides)
+
+Sweep of mcpservers.org /all (30 newest), chatmcp/mcpso issues (20 latest), and awesome-mcp-servers PR queue. Discovered 29 new servers, wrote integration guides for the 8 most business-relevant. [Full sweep report →](/hermes/mcp/sweeps/sweep-july27-2026-morning/)
+
+### Fulcru MCP ★★ — July 27
+AI search visibility with an execution arm. Finds questions where ChatGPT/Gemini/Perplexity name your competitor instead of you, writes the page that closes the gap, and measures what changed. 5 tools. Remote Streamable HTTP. `github.com/gsmmediaro/fulcru-agent` · [Guide →](/hermes/mcp/servers/external/fulcru-mcp/)
+
+### Opportunity Exchange MCP ★★ — July 27
+Saskatchewan labour-market data — 516 NOC occupations with StatCan wages, CMHC rents/vacancy rates for 178 centres, trade flows, discretionary-income outcomes. 18 tools, keyless, remote HTTP. Every answer carries truth-state metadata. `ca.veilpoint/opportunity-exchange` · [Guide →](/hermes/mcp/servers/external/opportunity-exchange-mcp/)
+
+### GTD Brain MCP ★★ — July 27
+Getting-Things-Done task manager for MCP clients. Inbox capture, next actions, projects, waiting-for. 12 tools. Remote HTTP with OAuth 2.1 PKCE. Purpose-built GTD methodology (not a generic CRUD wrapper). `com.gtdbrain/gtd-brain` · [Guide →](/hermes/mcp/servers/external/gtd-brain-mcp/)
+
+### PingCheck MCP ★★ — July 27
+Status page monitoring for AI agents. Query any public status page by slug (zero config), private monitoring with API key. 8 tools: uptime, response times, on-demand checks, incident management. stdio via npx. `github.com/Churman1113/pingcheck` (MIT) · [Guide →](/hermes/mcp/servers/external/pingcheck-mcp/)
+
+### Peil MCP ★★ — July 27
+Freelance time tracking and invoicing via MCP. Log hours, draft invoices from unbilled hours, get financial insights — all in natural language. `github.com/Luminc/peil-mcp` · [Guide →](/hermes/mcp/servers/external/peil-mcp/)
+
+### x-use MCP ★★ — July 27
+Browser-native X (Twitter) automation — 32 tools, no X API key needed. Cookie-based Chrome session with draft-approval mode (write tools return drafts, nothing publishes without approval). Multi-account personas, proxy pools, scheduled actions. `github.com/ihuzaifashoukat/x-use` (MIT) · [Guide →](/hermes/mcp/servers/external/x-use-mcp/)
+
+### Agentic Memory MCP ★ — July 27
+Persistent memory for AI agents — conversation history, key-value context, semantic search, FIFO queues for agent-to-agent work handoff. Redis-backed, per-tenant isolation. Remote SSE + stdio fallback. 17 tools. `github.com/jyswee/agenticmemory` · $24.99/mo · [Guide →](/hermes/mcp/servers/external/agentic-memory-mcp/)
+
+### Pathix MCP ★ — July 27
+Microsoft Dynamics 365 forensics — cross-component dependency tracing, impact analysis, security reachability mapping. 21 read-only tools. Commercial, self-hosted in customer's Azure. OAuth via Microsoft Entra. [Guide →](/hermes/mcp/servers/external/pathix-mcp/)
 
 ## 🆕 July 26, 2026 — Evening Sweep (5 New, 5 Guides) ★ MAJOR
 
