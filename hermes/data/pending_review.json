@@ -27896,5 +27896,256 @@
     "near_duplicates": [],
     "discovered_at": "2026-07-27T05:04:54.952723+00:00",
     "status": "pending"
+  },
+  {
+    "name": "NevrLabs/stellarc",
+    "url": "https://github.com/NevrLabs/stellarc",
+    "description": "Stellarc \u2014 Rust-native control plane for AI coding agents. Agent-agnostic: Hermes, Claude Code, Codex, Cursor, and more (axis + orbit).",
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-07-27T06:06:44Z",
+    "category": "core",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "yoloshii/ClawMem",
+      "jnMetaCode/shellward",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "ahonore42/logios-brain",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor"
+    ],
+    "discovered_at": "2026-07-27T06:07:37.361821+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "asimons81/hardproof",
+    "url": "https://github.com/asimons81/hardproof",
+    "description": "A persistent, risk-aware engineering protocol for Hermes Agent. Software has to earn done.",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agentic-coding",
+      "coding-agents",
+      "developer-tools",
+      "hermes-agent",
+      "open-source",
+      "python",
+      "software-engineering",
+      "verification"
+    ],
+    "updated_at": "2026-07-27T06:06:09Z",
+    "category": "core",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-27T06:07:39.364185+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lac5q/beastmode",
+    "url": "https://github.com/lac5q/beastmode",
+    "description": "Beastmode: MofA (Mixture of Agents) orchestration framework for Hermes/OpenClaw/Codex with MemroOS-style context continuity.",
+    "stars": 12,
+    "forks": 1,
+    "language": "Shell",
+    "topics": [
+      "agent-memory",
+      "agent-orchestration",
+      "agent-workflows",
+      "ai-agents",
+      "beastmode",
+      "claude-code",
+      "codex",
+      "context-management",
+      "context-rot",
+      "cost-optimization",
+      "hermes-agent",
+      "llm-orchestration",
+      "memroos",
+      "mixture-of-agents",
+      "mofa",
+      "multi-agent",
+      "openclaw",
+      "qwen",
+      "self-improving-agents",
+      "worktrees"
+    ],
+    "updated_at": "2026-07-27T06:06:41Z",
+    "category": "core",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-27T06:07:41.367132+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yonro/hermes-xmemo-plugin",
+    "url": "https://github.com/yonro/hermes-xmemo-plugin",
+    "description": "XMemo memory provider for Hermes Agent \u2014 durable cross-session AI memory with semantic search",
+    "stars": 7,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-memory",
+      "ai-memory",
+      "hermes-agent",
+      "hermes-plugin",
+      "memory-provider",
+      "xmemo"
+    ],
+    "updated_at": "2026-07-27T06:04:54Z",
+    "category": "core",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "kaankacar/stellar-agent-kit",
+      "ahonore42/logios-brain"
+    ],
+    "discovered_at": "2026-07-27T06:07:43.370507+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "saturn43210/hermes-miniapp",
+    "url": "https://github.com/saturn43210/hermes-miniapp",
+    "description": "Hermes Agent Mini App - Telegram WebApp",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-07-27T06:03:57Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-27T06:07:45.373525+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jungsek/meta-harness",
+    "url": "https://github.com/jungsek/meta-harness",
+    "description": "One-way config compiler: single source dir \u2192 native config for Claude Code, Codex, Cursor, OpenCode, Hermes, .agents",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-07-27T06:08:00Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "Javis603/token-monitor"
+    ],
+    "discovered_at": "2026-07-27T06:08:08.375499+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Clawdi-AI/clawdi",
+    "url": "https://github.com/Clawdi-AI/clawdi",
+    "description": null,
+    "stars": 98,
+    "forks": 20,
+    "language": "TypeScript",
+    "topics": [
+      "agent",
+      "agent-cloud",
+      "claude-code",
+      "codex",
+      "hermes-agent",
+      "openclaw"
+    ],
+    "updated_at": "2026-07-27T06:07:37Z",
+    "category": "forks",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-27T06:08:10.376950+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Colin4k1024/hermesx",
+    "url": "https://github.com/Colin4k1024/hermesx",
+    "description": "A production-grade platform for deploying, isolating, and governing AI agents at enterprise scale. Built in Go for single-binary deployment, native concurrency, and zero-dependency distribution.",
+    "stars": 8,
+    "forks": 1,
+    "language": "Go",
+    "topics": [
+      "hermes-agent",
+      "saas"
+    ],
+    "updated_at": "2026-07-27T06:06:39Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "MervinPraison/PraisonAI",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334"
+    ],
+    "discovered_at": "2026-07-27T06:08:12.380067+00:00",
+    "status": "pending"
   }
 ]

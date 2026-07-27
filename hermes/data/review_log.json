@@ -7123,5 +7123,61 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-27T05:06:44.079574+00:00"
+  },
+  {
+    "repo": "NevrLabs/stellarc",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T06:10:05.532264+00:00"
+  },
+  {
+    "repo": "asimons81/hardproof",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T06:10:05.532278+00:00"
+  },
+  {
+    "repo": "lac5q/beastmode",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T06:10:05.532280+00:00"
+  },
+  {
+    "repo": "yonro/hermes-xmemo-plugin",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T06:10:05.532282+00:00"
+  },
+  {
+    "repo": "saturn43210/hermes-miniapp",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T06:10:05.532283+00:00"
+  },
+  {
+    "repo": "jungsek/meta-harness",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T06:10:05.532285+00:00"
+  },
+  {
+    "repo": "Clawdi-AI/clawdi",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T06:10:05.532287+00:00"
+  },
+  {
+    "repo": "Colin4k1024/hermesx",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T06:10:05.532289+00:00"
   }
 ]
