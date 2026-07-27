@@ -1,6 +1,6 @@
 ---
 title: "Hermes Skills Catalog — Quality-Tiered Directory"
-description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 469+ skills catalogued."
+description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 473+ skills catalogued."
 ---
 
 # Skills Catalog
@@ -183,6 +183,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Agenthood Setup](/docs/hermes/skills/catalog/agenthood-setup.html)
 - [Agentmint Skills Setup](/docs/hermes/skills/catalog/agentmint-skills-setup.html)
 - [AgentMemory Setup — Persistent Memory for Hermes Agents](/docs/hermes/skills/catalog/agentmemory-setup.html)
+- [Alireza Rezvani Claude Skills — 341 Engineering & Marketing Skills Setup](/docs/hermes/skills/catalog/alirezarezvani-claude-skills-setup.html)
 - [Apify Agent Skills — Web Scraping for Hermes Setup](/docs/hermes/skills/catalog/apify-agent-skills-setup.html)
 - [Apify Growth Skills — Lead Gen, Brand Monitoring, Ultimate Scraper Setup](/docs/hermes/skills/catalog/apify-growth-skills-setup/index.html)
 - [Apify Ultimate Scraper — Universal Web Scraping for 15+ Platforms Setup](/docs/hermes/skills/catalog/apify-ultimate-scraper-setup.html)
@@ -265,6 +266,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Hermex iPhone App — Setup Guide for Hermes Agent](/docs/hermes/skills/catalog/hermex-iphone-app-setup.html)
 - [Honcho Integration Setup](/docs/hermes/skills/catalog/honcho-integration-setup.html)
 - [Huawei Hermes Deployment Setup](/docs/hermes/skills/catalog/huawei-hermes-deployment-setup.html)
+- [HuggingFace Agent Skills — Datasets, Papers, ML Tools Setup](/docs/hermes/skills/catalog/huggingface-agent-skills-setup.html)
 - [Humanizer Setup](/docs/hermes/skills/catalog/humanizer-setup.html)
 - [Hyperframes Setup](/docs/hermes/skills/catalog/hyperframes-setup.html)
 - [Idea Workflow Suite Setup](/docs/hermes/skills/catalog/idea-workflow-suite-setup.html)
@@ -275,6 +277,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [infrastructure Skills](/docs/hermes/skills/catalog/infrastructure/index.html)
 - [Jupyter Live Kernel Setup](/docs/hermes/skills/catalog/jupyter-live-kernel-setup.html)
 - [Kanban Orchestrator Setup](/docs/hermes/skills/catalog/kanban-orchestrator-setup.html)
+- [Kostja94 Marketing Skills — Copywriting, SEO, Ads Setup](/docs/hermes/skills/catalog/kostja94-marketing-skills-setup.html)
 - [LangChain Agent Skills — Memory, RAG, Persistence & Middleware Setup](/docs/hermes/skills/catalog/langchain-skills-setup.html)
 - [langgraph Skills](/docs/hermes/skills/catalog/langgraph/index.html)
 - [LaunchDarkly Agent Skills — Feature Flags & AgentControl Setup](/docs/hermes/skills/catalog/launchdarkly-agent-skills-setup/)
@@ -294,6 +297,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Metamask Openclaw Security Analysis Setup](/docs/hermes/skills/catalog/metamask-openclaw-security-analysis-setup.html)
 - [Native Mcp Setup](/docs/hermes/skills/catalog/native-mcp-setup.html)
 - [Nemoclaw User Guide Setup](/docs/hermes/skills/catalog/nemoclaw-user-guide-setup.html)
+- [Netlify Agent Skills — Serverless Deployment for Hermes Setup](/docs/hermes/skills/catalog/netlify-agent-skills-setup.html)
 - [OpenClaw on Android — Full Setup Guide](/docs/hermes/skills/catalog/openclaw-android-setup/index.html)
 - [OpenClaw Audit Watchdog — Setup Guide](/docs/hermes/skills/catalog/openclaw-audit-watchdog-setup.html)
 - [Openclaw Auto Updater Setup](/docs/hermes/skills/catalog/openclaw-auto-updater-setup.html)

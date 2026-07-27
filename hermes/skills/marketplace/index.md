@@ -9,6 +9,11 @@ The Skills Marketplace is the community hub for discovering, installing, and sha
 
 **531+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
+## Recent Sweeps
+
+- [🆕 July 27, 2026 — Netlify, HuggingFace, Alireza Rezvani, Kostja94 Marketing (4 publishers, 28+ skills, 32K+ installs)](/hermes/skills/marketplace/new-july27-2026/)
+- [🆕 July 25, 2026 — LangChain Agent Skills (71K installs), OPC Solopreneur Skills (50K), ResumeSkills (13K) — 3 publishers, 18 skills, 134K+ combined installs](/hermes/skills/marketplace/new-july25-2026/)
+
 ## How to Discover Skills
 
 ### Browse by Category
