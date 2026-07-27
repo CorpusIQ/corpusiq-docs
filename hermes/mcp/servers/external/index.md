@@ -7,7 +7,30 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 26, 2026 (afternoon sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), mcp.so GitHub issues · **Catalog:** 95 servers (+3 guides, +2 noted)
+> **Last updated:** July 26, 2026 (evening sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), mcp.so GitHub issues · **Catalog:** 100 servers (+5 guides, +2 noted)
+
+---
+
+## 🆕 July 26, 2026 — Evening Sweep (5 New, 5 Guides) ★ MAJOR
+
+Sweep of mcpservers.org priority-servers sitemap (1,190+ entries, sorted by lastmod). Discovered 5 new servers, all with official status and very high business relevance. This was the most significant single sweep in July — Stripe, Metabase, n8n, Apify, and Ahrefs all shipping official MCP endpoints marks an inflection point in MCP adoption by major platforms.
+
+### Stripe MCP ★★★ Official — July 26
+The official Stripe MCP server and agent toolkit — customers, payments, subscriptions, refunds, invoices, billing. Part of `stripe/agent-toolkit` (1.7K⭐) with companion SDKs: `@stripe/ai-sdk` for Vercel AI SDK integration and `@stripe/token-meter` for LLM token-based billing. Remote at `https://mcp.stripe.com` via OAuth. First major payment processor to ship MCP. [Guide →](/hermes/mcp/servers/external/stripe-mcp/)
+
+### Metabase MCP ★★★ Official — July 27
+Built-in MCP server in Metabase (48.4K⭐). AI agents connect directly to your instance for searching data, building queries on the semantic layer, and visualizing results. 9 tools: search, navigate entities, construct/execute queries, run raw SQL, manage questions and dashboards. Streamable HTTP transport. First BI platform to go MCP-native. [Guide →](/hermes/mcp/servers/external/metabase-mcp/)
+
+### n8n MCP ★★★ — July 26
+MCP server bridging n8n's 2,175 workflow automation nodes (827 core + 1,348 community) with AI models. 99% property coverage, 87% documentation coverage, 2,352 templates with 99.96% AI metadata. Local stdio via `npx n8n-mcp`. Turns AI agents into n8n workflow experts. `github.com/czlonkowski/n8n-mcp` · [Guide →](/hermes/mcp/servers/external/n8n-mcp/)
+
+### Apify MCP ★★★ Official — July 26
+Official Apify MCP server (2.2K⭐). AI agents search and run thousands of pre-built web scrapers from Apify Store — social media, search engines, e-commerce, maps, news. Hosted at `https://mcp.apify.com` via OAuth with output schema inference. The definitive web scraping MCP. `github.com/apify/apify-mcp-server` · [Guide →](/hermes/mcp/servers/external/apify-mcp/)
+
+### Ahrefs MCP ★★★ Official — July 26
+Official Ahrefs MCP server — backlinks, domain ratings, keyword research, competitor analysis, and site health through the Ahrefs API. Hosted endpoint, token auth. Requires Ahrefs Lite plan ($129/month) or higher. First major SEO platform to ship MCP. [Guide →](/hermes/mcp/servers/external/ahrefs-mcp/)
+
+**Also identified:** Serena MCP (semantic code retrieval, `oraios/serena` — developer-focused, no guide), Desktop Commander MCP (desktop control — no guide). mcpservers.org sitemaps 3-6 showed mostly niche/consumer servers (anime, Minecraft, etc.) — none business-relevant. [Full sweep →](/hermes/mcp/sweeps/sweep-july26-2026-evening/)
 
 ---
 
