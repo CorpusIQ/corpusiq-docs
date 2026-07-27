@@ -1,14 +1,14 @@
 ---
 title: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem — 140+ repos, tools, skills, and integrations
-last_updated: 2026-07-26
+last_updated: 2026-07-27
 ---
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **154+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **155+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **154+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **155+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -18,7 +18,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **154+ reposit
 | 🧠 Core Framework | 7 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 10 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 6 | Community forks with significant changes |
-| 🔗 Integrations | 4 | Platform connectors, bridges, adapters |
+|| 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 6 | Model Context Protocol servers & integrations |
 | 💾 Memory & Knowledge | 37 | Persistent memory, knowledge graphs, context systems |
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
@@ -240,6 +240,14 @@ _Community forks with significant changes_
 ## 🔗 Integrations
 
 _Platform connectors, bridges, adapters_
+
+### [liaohch3/claude-tap](https://github.com/liaohch3/claude-tap) ⭐ 2,863
+
+>Intercept and inspect Coding Agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, Kimi/Kimi Code, Pi, and Hermes in a local trace viewer.
+
+**Language:** Python | **Topics:** agent-observability, agent-debugging, hermes-agent, claude-code, codex, llm-proxy, trace-viewer | **Score:** 76/100
+
+---
 
 ### [bitrouter/bitrouter](https://github.com/bitrouter/bitrouter) ⭐ 211
 
@@ -1288,6 +1296,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*153+ repositories in the Hermes ecosystem. Last updated: 2026-07-26. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*155+ repositories in the Hermes ecosystem. Last updated: 2026-07-27. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

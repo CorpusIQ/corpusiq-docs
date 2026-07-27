@@ -1,39 +1,70 @@
 {
-  "run_time": "2026-07-26T06:05:12.533208+00:00",
+  "run_time": "2026-07-27T05:06:44.105619+00:00",
   "new_approved": [
     {
-      "name": "stephenschoettler/hermes-lcm",
-      "url": "https://github.com/stephenschoettler/hermes-lcm",
-      "description": "Lossless Context Management plugin for Hermes Agent \u2014 DAG-based context engine that never loses a message",
-      "stars": 892,
-      "forks": 87,
+      "name": "liaohch3/claude-tap",
+      "url": "https://github.com/liaohch3/claude-tap",
+      "description": "Intercept and inspect Coding Agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, Kimi/Kimi Code, Pi, and Hermes in a local trace viewer.",
+      "stars": 2863,
+      "forks": 250,
       "language": "Python",
-      "topics": [],
-      "updated_at": "2026-07-26T05:59:38Z",
+      "topics": [
+        "agent-debugging",
+        "agent-observability",
+        "ai-agents",
+        "ai-tools",
+        "api-debugging",
+        "claude-code",
+        "codex",
+        "codex-cli",
+        "cursor-cli",
+        "developer-tools",
+        "gemini-cli",
+        "hermes-agent",
+        "kimi",
+        "llm",
+        "llm-proxy",
+        "opencode",
+        "pi-coding-agent",
+        "proxy",
+        "trace",
+        "trace-viewer"
+      ],
+      "updated_at": "2026-07-27T05:02:13Z",
       "category": "core",
-      "score": 75,
+      "score": 76,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
-        "direct_hermes_reference",
-        "moderate_stars_100+",
+        "hermes_mention",
+        "high_stars_1000+",
         "detailed_description",
         "active_week"
       ],
       "near_duplicates": [
-        "Romanescu11/hermes-skill-factory",
-        "Sibyl-Labs/Sibyl-Memory",
-        "cx2002302-lang/zettelkasten-second-memory"
+        "farion1231/cc-switch",
+        "colbymchenry/codegraph",
+        "iOfficeAI/AionUi",
+        "longyunfeigu/learn-hermes-agent",
+        "itechmeat/open-second-brain",
+        "ZeroPointRepo/awesome-hermes-skills",
+        "mlennie/hermes-mcp",
+        "ahonore42/logios-brain",
+        "tale-project/tale",
+        "CodeAbra/iai-personal-memory-engine",
+        "AVIDS2/memorix",
+        "agent-of-empires/agent-of-empires",
+        "xintaofei/codeg"
       ],
-      "discovered_at": "2026-07-26T06:02:54.865163+00:00",
+      "discovered_at": "2026-07-27T05:04:07.714668+00:00",
       "status": "approved",
-      "approved_at": "2026-07-26T06:05:12.507490+00:00"
+      "approved_at": "2026-07-27T05:06:44.079539+00:00"
     }
   ],
   "stats": {
-    "total_found": 5,
+    "total_found": 11,
     "auto_approved": 1,
-    "pending_review": 4,
-    "total_approved": 154,
-    "total_pending": 967
+    "pending_review": 10,
+    "total_approved": 155,
+    "total_pending": 984
   }
 }

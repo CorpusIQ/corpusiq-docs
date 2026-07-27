@@ -7046,5 +7046,82 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-26T08:05:08.406000+00:00"
+  },
+  {
+    "repo": "bj9421/hermes-skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T05:06:44.079554+00:00"
+  },
+  {
+    "repo": "liaohch3/claude-tap",
+    "score": 76,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-27T05:06:44.079557+00:00"
+  },
+  {
+    "repo": "DannylydST/sorftime-seller-agent",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T05:06:44.079560+00:00"
+  },
+  {
+    "repo": "Hybridenishi/foundryvtt-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T05:06:44.079562+00:00"
+  },
+  {
+    "repo": "iizcm/hermes-desktop-plugins-skill",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T05:06:44.079563+00:00"
+  },
+  {
+    "repo": "xznhj8129/hermes-atak",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T05:06:44.079565+00:00"
+  },
+  {
+    "repo": "David473443/Hermes-agent-",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T05:06:44.079567+00:00"
+  },
+  {
+    "repo": "mikeholownych/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T05:06:44.079569+00:00"
+  },
+  {
+    "repo": "iso2kx/hermes-billing-proxy",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T05:06:44.079570+00:00"
+  },
+  {
+    "repo": "Joello2925/hermes-mod",
+    "score": 46,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T05:06:44.079572+00:00"
+  },
+  {
+    "repo": "wan0net/asgard",
+    "score": 38,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-27T05:06:44.079574+00:00"
   }
 ]
