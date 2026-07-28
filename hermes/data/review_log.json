@@ -7389,5 +7389,47 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-28T06:07:15.736885+00:00"
+  },
+  {
+    "repo": "Schreezer/AgentCall",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T07:07:34.154358+00:00"
+  },
+  {
+    "repo": "rrpauls/hermes-esra",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T07:07:34.154373+00:00"
+  },
+  {
+    "repo": "koalazh/hermes-app-engineering",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T07:07:34.154375+00:00"
+  },
+  {
+    "repo": "dongwei6688/policy-search-china-skill",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T07:07:34.154377+00:00"
+  },
+  {
+    "repo": "258692011/Hermes-CN-Core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T07:07:34.154379+00:00"
+  },
+  {
+    "repo": "258692011/Hermes-CN-Desktop",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T07:07:34.154381+00:00"
   }
 ]

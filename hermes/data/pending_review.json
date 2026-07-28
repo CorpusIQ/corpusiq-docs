@@ -28988,5 +28988,177 @@
     ],
     "discovered_at": "2026-07-28T06:05:28.067839+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Schreezer/AgentCall",
+    "url": "https://github.com/Schreezer/AgentCall",
+    "description": "Agent-triggered urgent iPhone calls with SwiftUI, PushKit, CallKit, expiring audio uploads, a managed APNs relay, and Hermes integration.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "audio",
+      "callkit",
+      "hermes-agent",
+      "ios",
+      "pushkit",
+      "swiftui",
+      "voip"
+    ],
+    "updated_at": "2026-07-17T16:32:05Z",
+    "category": "core",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_month"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T07:05:11.247068+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rrpauls/hermes-esra",
+    "url": "https://github.com/rrpauls/hermes-esra",
+    "description": "Evolutionary Self-Recursive Architecture for Hermes Agent \u2014 meta-skills, OODA, smart orchestration",
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "agentic-ai",
+      "agentic-workflow",
+      "ai-agent",
+      "ai-agent-tools",
+      "ai-agents",
+      "chatgpt",
+      "gemini",
+      "grok",
+      "hermes-agent",
+      "hermes-plugin",
+      "hermes-skill",
+      "hermes-skills",
+      "llm",
+      "openai",
+      "openclaw",
+      "openclaw-skill",
+      "openclaw-skills",
+      "z-ai"
+    ],
+    "updated_at": "2026-07-28T07:02:59Z",
+    "category": "core",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T07:05:14.250516+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "koalazh/hermes-app-engineering",
+    "url": "https://github.com/koalazh/hermes-app-engineering",
+    "description": "Experimental Agent Skill for native-first, minimum-complexity Hermes app engineering.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-28T06:25:23Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T07:05:37.099654+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "dongwei6688/policy-search-china-skill",
+    "url": "https://github.com/dongwei6688/policy-search-china-skill",
+    "description": "\u56fd\u5185\u653f\u7b56\u6587\u4ef6\u641c\u7d22\u4e0e\u5f15\u7528 \u2014 \u8de8 Agent \u5e73\u53f0\u901a\u7528 Skill\u3002\u641c\u7d22\u56fd\u52a1\u9662/\u5de5\u4fe1\u90e8/\u56fd\u5bb6\u6570\u636e\u5c40/\u56fd\u8d44\u59d4/\u80fd\u6e90\u5c40/\u53d1\u6539\u59d4/\u7f51\u4fe1\u529e\u7684\u653f\u7b56\u6587\u4ef6\uff0c\u63d0\u53d6\u9010\u5b57\u5f15\u6587\uff0c\u751f\u6210\u7ed3\u6784\u5316 HTML \u6c47\u7f16",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "china",
+      "chinese",
+      "citation",
+      "digital-transformation",
+      "government",
+      "hermes-agent",
+      "policy",
+      "research"
+    ],
+    "updated_at": "2026-07-28T07:04:08Z",
+    "category": "forks",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week",
+      "has_homepage",
+      "niche_specialized"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T07:05:40.102680+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "258692011/Hermes-CN-Core",
+    "url": "https://github.com/258692011/Hermes-CN-Core",
+    "description": "Chinese community fork of Hermes Agent with CN provider metadata and signed desktop runtime releases",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-28T07:03:19Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Eynzof/Hermes-CN-Desktop"
+    ],
+    "discovered_at": "2026-07-28T07:05:43.105466+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "258692011/Hermes-CN-Desktop",
+    "url": "https://github.com/258692011/Hermes-CN-Desktop",
+    "description": "Hermes Agent CN desktop app, Windows-First, built with Tauri, Typescript and Rust. Isolated Hermes Agent core insides. ",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-28T07:02:46Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Eynzof/Hermes-CN-Desktop"
+    ],
+    "discovered_at": "2026-07-28T07:05:46.108458+00:00",
+    "status": "pending"
   }
 ]
