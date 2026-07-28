@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 28, 2026 (morning sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,141+ servers), mcp.so sitemaps · **Catalog:** 112 servers (+12 guides)
+> **Last updated:** July 28, 2026 (afternoon sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,357+ servers), sitemap scanning · **Catalog:** 117 servers (+17 guides)
 
 ---
 
@@ -22,6 +22,29 @@ The issue tracker for AI agents over MCP — 33 tools, remote Streamable HTTP. A
 Official Santiment MCP connector for crypto market intelligence — 30+ metrics across 500+ assets. On-chain data, social sentiment, trending narratives, and analyst insights through OAuth 2.0. Free tier with core metrics. Remote at `https://api.santiment.net/mcp`. `academy.santiment.net/mcp-connector/` · [Guide →](/hermes/mcp/servers/external/santiment-mcp/)
 
 **Also identified:** Snipara (project intelligence/memory — insufficient data for guide), Fixou (French tradespeople quotes — region-specific), iGaming Tools (gaming reference data — niche), Confluence-to-Markdown MCP (utility — not business-ops), various developer tooling and AI model wrappers (not business-relevant). mcpservers.org now at 10,141 total servers (up from 10,139).
+
+---
+
+## 🆕 July 28, 2026 — Afternoon Sweep (5 New, 5 Guides) 🔥 MAJOR FINDS
+
+Sweep of mcpservers.org sitemaps (servers/5.xml, servers/6.xml, priority-servers.xml) and mcp.so SSR extraction. Scanned 46 servers with July 28 lastmod dates. Discovered 5 high-value business servers — including two game-changing B2B outreach tools. [Full sweep report →](/hermes/mcp/sweeps/sweep-july28-2026-afternoon/)
+
+### LinkedIn MCP by GTM API ★★★ New — July 28 (afternoon)
+Managed LinkedIn MCP server for AI agents — search, connect, message, and enrich on LinkedIn from any MCP client. Production-grade anti-ban infrastructure (rotating residential IPs, browser fingerprinting, CAPTCHA solving). 20,000+ accounts at <1% ban rate. The first LinkedIn MCP that operators can actually use at scale. `github.com/gtm-api/linkedin-mcp` · [Guide →](/hermes/mcp/servers/external/linkedin-mcp-gtm/)
+
+### Apollo.io MCP ★★★ New — July 28 (afternoon)
+MCP server for Apollo.io's full API — 45+ tools covering lead search, contact enrichment, sequence management, and CRM operations across 275M+ contacts and 30M+ companies. Combined with LinkedIn MCP, this creates an end-to-end AI-driven B2B outbound pipeline. `github.com/Inferensys/apollo-io-mcp` · [Guide →](/hermes/mcp/servers/external/apollo-io-mcp/)
+
+### Browserless MCP ★★ Official — July 28 (afternoon)
+Official MCP from Browserless — the leading headless Chrome SaaS. AI agents navigate, scrape, screenshot, and automate any website at scale. Agents describe what they want in natural language; Browserless executes on production-grade Chrome infrastructure. Free tier (1,000 sessions/mo). `github.com/browserless/browserless-mcp` · [Guide →](/hermes/mcp/servers/external/browserless-mcp/)
+
+### FXMacroData MCP ★★ — July 28 (afternoon)
+Macroeconomic and FX data MCP — 18 currencies, central bank calendars, COT data, commodities, and forex rates. Turns AI agents into treasury analysts. Free tier with 100 calls/day. Python-based, open source. `github.com/fxmacrodata/fxmacrodata` · [Guide →](/hermes/mcp/servers/external/fxmacrodata-mcp/)
+
+### OpenOSINT MCP ★★ — July 28 (afternoon)
+MCP-native OSINT framework — 9 tools: email enumeration, username search, breach checks, WHOIS, IP intel, subdomain discovery, Google dorks, paste search, phone intelligence. Free, open source (MIT), no API keys required. Consolidates 5+ OSINT tools into one MCP. `github.com/OpenOSINT/OpenOSINT` · [Guide →](/hermes/mcp/servers/external/openosint-mcp/)
+
+**Also identified:** Screpy SEO MCP (technical SEO — niche), AnySearch MCP (unified search — dev tool), GetJobzi MCP (consumer job search), JobVetta MCP (India-only jobs), FlatCash MCP (crypto bounties), Trello Desktop MCP, MS Planner MCP, plus 30+ developer tools, memory frameworks, and consumer apps. mcpservers.org now at 10,357 total servers (up from 10,141 — +216 since morning).
 
 ---
 
