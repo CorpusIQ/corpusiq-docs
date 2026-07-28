@@ -7263,5 +7263,89 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-27T08:09:59.179121+00:00"
+  },
+  {
+    "repo": "freedomw1987/tree_monstor",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T05:06:22.712498+00:00"
+  },
+  {
+    "repo": "Kiasma1/ai-agent-skills-and-tools",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T05:06:22.712511+00:00"
+  },
+  {
+    "repo": "cywf/vtoc-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T05:06:22.712512+00:00"
+  },
+  {
+    "repo": "Fraddy4/hermes-snapdeploy",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T05:06:22.712514+00:00"
+  },
+  {
+    "repo": "tn8or/hermes-with-tools",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T05:06:22.712515+00:00"
+  },
+  {
+    "repo": "vypdev/unifi-observer",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T05:06:22.712516+00:00"
+  },
+  {
+    "repo": "Amiirhosseini/racksmith",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T05:06:22.712517+00:00"
+  },
+  {
+    "repo": "timothe/opencode-go-quota-hermes",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T05:06:22.712518+00:00"
+  },
+  {
+    "repo": "Kuazzymyzay/Rohit-Ghumare-rohitg00",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T05:06:22.712519+00:00"
+  },
+  {
+    "repo": "Kuazzymyzay/hermes-setup",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T05:06:22.712520+00:00"
+  },
+  {
+    "repo": "byrnespe/hermes-agent-xprof-deps",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T05:06:22.712521+00:00"
+  },
+  {
+    "repo": "rhCat/hermes-agent-transmutation",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T05:06:22.712522+00:00"
   }
 ]

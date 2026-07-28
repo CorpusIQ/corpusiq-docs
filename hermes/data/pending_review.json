@@ -28568,5 +28568,263 @@
     ],
     "discovered_at": "2026-07-27T08:08:10.374447+00:00",
     "status": "pending"
+  },
+  {
+    "name": "freedomw1987/tree_monstor",
+    "url": "https://github.com/freedomw1987/tree_monstor",
+    "description": "Tree Monstor \u662f\u4e00\u500b\u904b\u884c\u5728 Hermes Agent \u6846\u67b6\u5167\u7684 AI \u8edf\u4ef6\u958b\u767c Profile\u3002\u5b83\u4e0d\u662f\u666e\u901a\u7684 AI \u804a\u5929\u6a5f\u68b0\u4eba\uff0c\u800c\u662f\u4e00\u500b\u5177\u5099\u5b8c\u6574\u8edf\u4ef6\u5de5\u7a0b\u80fd\u529b\u7684\u865b\u64ec\u958b\u767c\u5718\u968a\u3002",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-28T05:03:32Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T05:03:41.794042+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Kiasma1/ai-agent-skills-and-tools",
+    "url": "https://github.com/Kiasma1/ai-agent-skills-and-tools",
+    "description": "AI agent skills \u4e0e\u751f\u6001\u5de5\u5177\u6e05\u5355 \u2014 48 skills + 4 \u5de5\u5177\u8986\u76d6 Claude Code / Codex / OpenClaw / Cursor / Hermes",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-28T05:02:55Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "nexu-io/open-design",
+      "jnMetaCode/superpowers-zh",
+      "qingchencloud/clawpanel",
+      "syncable-dev/memtrace-public",
+      "jnMetaCode/shellward",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Bo1202/Aivy-OS",
+      "ruvnet/ruflo"
+    ],
+    "discovered_at": "2026-07-28T05:03:44.796052+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cywf/vtoc-agent",
+    "url": "https://github.com/cywf/vtoc-agent",
+    "description": "Board-aware Heltec VTOC Agent firmware, companion protocol, Hermes bridge, VTOC client, and browser flasher",
+    "stars": 0,
+    "forks": 1,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-07-28T05:01:40Z",
+    "category": "core",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T05:03:47.798152+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Fraddy4/hermes-snapdeploy",
+    "url": "https://github.com/Fraddy4/hermes-snapdeploy",
+    "description": "Hermes Agent running on SnapDeploy - Docker PaaS deploy",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-28T05:01:39Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T05:03:50.799928+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "tn8or/hermes-with-tools",
+    "url": "https://github.com/tn8or/hermes-with-tools",
+    "description": "image for my local hermes agent with extra tools",
+    "stars": 0,
+    "forks": 0,
+    "language": "Dockerfile",
+    "topics": [],
+    "updated_at": "2026-07-28T05:00:58Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T05:03:53.801925+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "vypdev/unifi-observer",
+    "url": "https://github.com/vypdev/unifi-observer",
+    "description": "Read-only-first UniFi MCP server for Coolify, Hermes, and OpenClaw",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-28T01:25:36Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T05:04:03.450021+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Amiirhosseini/racksmith",
+    "url": "https://github.com/Amiirhosseini/racksmith",
+    "description": "Agentic bare-metal lab ops \u2014 MAAS automation, health findings, Hermes skills & MCP",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-27T23:15:59Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T05:04:06.452196+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "timothe/opencode-go-quota-hermes",
+    "url": "https://github.com/timothe/opencode-go-quota-hermes",
+    "description": "Hermes plugin: OpenCode Go quota warn/block + postpone skill",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-27T19:00:14Z",
+    "category": "skills",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T05:04:16.145359+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Kuazzymyzay/Rohit-Ghumare-rohitg00",
+    "url": "https://github.com/Kuazzymyzay/Rohit-Ghumare-rohitg00",
+    "description": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-28T00:12:25Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T05:05:44.645258+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Kuazzymyzay/hermes-setup",
+    "url": "https://github.com/Kuazzymyzay/hermes-setup",
+    "description": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-27T23:53:12Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T05:05:47.647844+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "byrnespe/hermes-agent-xprof-deps",
+    "url": "https://github.com/byrnespe/hermes-agent-xprof-deps",
+    "description": "PR source: cross-profile kanban deps (fork of NousResearch/hermes-agent)",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-27T23:03:45Z",
+    "category": "official",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T05:05:50.651425+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rhCat/hermes-agent-transmutation",
+    "url": "https://github.com/rhCat/hermes-agent-transmutation",
+    "description": "Mechanical structural analysis of NousResearch/hermes-agent \u2014 21,909 intent-shape claims, zero LLM. Cyberware Alchemistry.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-27T14:25:15Z",
+    "category": "official",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T05:05:53.654451+00:00",
+    "status": "pending"
   }
 ]
