@@ -7,7 +7,21 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 27, 2026 (evening sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), mcp.so sitemaps · **Catalog:** 110 servers (+10 guides)
+> **Last updated:** July 28, 2026 (morning sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,141+ servers), mcp.so sitemaps · **Catalog:** 112 servers (+12 guides)
+
+---
+
+## 🆕 July 28, 2026 — Morning Sweep (2 New, 2 Guides)
+
+Sweep of mcpservers.org /all (newest-first, 30 entries) and mcp.so /servers page. Firecrawl DOWN — used curl-based scraping and DDGS fallback. Discovered 2 genuinely new business-relevant servers and wrote integration guides for both. [Full sweep report →](/hermes/mcp/sweeps/sweep-july28-2026-morning/)
+
+### Retasc MCP ★★★ New — July 28
+The issue tracker for AI agents over MCP — 33 tools, remote Streamable HTTP. Atomic claims with lease/TTL, dependency-graph dispatch, parallel swarm execution, cross-runtime handoffs. Free tier includes $10 metered usage. Purpose-built for agentic workflows, not human project management. `retasc.com` · [Guide →](/hermes/mcp/servers/external/retasc-mcp/)
+
+### Santiment MCP ★★ Official — July 28
+Official Santiment MCP connector for crypto market intelligence — 30+ metrics across 500+ assets. On-chain data, social sentiment, trending narratives, and analyst insights through OAuth 2.0. Free tier with core metrics. Remote at `https://api.santiment.net/mcp`. `academy.santiment.net/mcp-connector/` · [Guide →](/hermes/mcp/servers/external/santiment-mcp/)
+
+**Also identified:** Snipara (project intelligence/memory — insufficient data for guide), Fixou (French tradespeople quotes — region-specific), iGaming Tools (gaming reference data — niche), Confluence-to-Markdown MCP (utility — not business-ops), various developer tooling and AI model wrappers (not business-relevant). mcpservers.org now at 10,141 total servers (up from 10,139).
 
 ---
 
