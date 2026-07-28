@@ -272,6 +272,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 - [New June10 2026](/docs/hermes/skills/marketplace/new-june10-2026/index.html)
 - [New June11 2026](/docs/hermes/skills/marketplace/new-june11-2026/index.html)
 - [New June11 2026 Update](/docs/hermes/skills/marketplace/new-june11-2026-update/index.html)
+- [New Skills — July 28, 2026](new-july28-2026/) — 8 new skills from Anthropic Knowledge Work Plugins (23.5K+ installs)
 - [June 11, 2026  --  Update #2 (28 New Skills)](/docs/hermes/skills/marketplace/new-june11-2026-update2/index.html)
 - [New June12 2026](/docs/hermes/skills/marketplace/new-june12-2026/index.html)
 - [New June12 2026 Update](/docs/hermes/skills/marketplace/new-june12-2026-update/index.html)
