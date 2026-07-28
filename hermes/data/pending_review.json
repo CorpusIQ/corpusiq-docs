@@ -28826,5 +28826,167 @@
     "near_duplicates": [],
     "discovered_at": "2026-07-28T05:05:53.654451+00:00",
     "status": "pending"
+  },
+  {
+    "name": "BrightCloud05/BISEO",
+    "url": "https://github.com/BrightCloud05/BISEO",
+    "description": "HERMES AGENT + OBSIDIAN",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-28T06:04:47Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T06:04:53.212665+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pbseiya/hermes-free-model-guide",
+    "url": "https://github.com/pbseiya/hermes-free-model-guide",
+    "description": "\ud83d\udc0d \u0e04\u0e39\u0e48\u0e21\u0e37\u0e2d\u0e15\u0e34\u0e14\u0e15\u0e31\u0e49\u0e07 Hermes Agent + \u0e43\u0e0a\u0e49 Free Model (OKMD AI Playground) | Windows/Linux/macOS",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-07-28T06:04:02Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T06:04:56.214654+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SlowGreek/costas-code",
+    "url": "https://github.com/SlowGreek/costas-code",
+    "description": "Costas Code \u2014 a production-ready, custom-branded Hermes coding agent.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-28T06:04:01Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-28T06:04:59.216470+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "vizartid/Mavent-agent",
+    "url": "https://github.com/vizartid/Mavent-agent",
+    "description": "24/7 personal Telegram AI bot deployment powered by Hermes Agent (Nous Research), 9Router model gateway, and custom Docker container.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Dockerfile",
+    "topics": [
+      "9router",
+      "ai-agent",
+      "ai-agents",
+      "docker",
+      "hermes-agent",
+      "telegrambot"
+    ],
+    "updated_at": "2026-07-28T06:04:29Z",
+    "category": "core",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent",
+      "kaankacar/stellar-agent-kit",
+      "mrbooboo1987-creator/hermes-grok-trading-system"
+    ],
+    "discovered_at": "2026-07-28T06:05:02.218441+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Lusuzucky/hermes-agent",
+    "url": "https://github.com/Lusuzucky/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-28T06:04:24Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-28T06:05:25.064919+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "voyfei-lang/hermes-agent",
+    "url": "https://github.com/voyfei-lang/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-28T06:04:00Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-28T06:05:28.067839+00:00",
+    "status": "pending"
   }
 ]

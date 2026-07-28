@@ -7347,5 +7347,47 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-28T05:06:22.712522+00:00"
+  },
+  {
+    "repo": "BrightCloud05/BISEO",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T06:07:15.736863+00:00"
+  },
+  {
+    "repo": "pbseiya/hermes-free-model-guide",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T06:07:15.736877+00:00"
+  },
+  {
+    "repo": "SlowGreek/costas-code",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T06:07:15.736879+00:00"
+  },
+  {
+    "repo": "vizartid/Mavent-agent",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T06:07:15.736881+00:00"
+  },
+  {
+    "repo": "Lusuzucky/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T06:07:15.736883+00:00"
+  },
+  {
+    "repo": "voyfei-lang/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-28T06:07:15.736885+00:00"
   }
 ]
