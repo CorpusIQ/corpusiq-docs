@@ -7,13 +7,27 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 27, 2026 (morning sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), mcp.so GitHub issues · **Catalog:** 108 servers (+8 guides)
+> **Last updated:** July 27, 2026 (evening sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,139+ servers), mcp.so sitemaps · **Catalog:** 110 servers (+10 guides)
 
 ---
 
 ## 🆕 July 27, 2026 — Morning Sweep (8 New, 8 Guides)
 
 Sweep of mcpservers.org /all (30 newest), chatmcp/mcpso issues (20 latest), and awesome-mcp-servers PR queue. Discovered 29 new servers, wrote integration guides for the 8 most business-relevant. [Full sweep report →](/hermes/mcp/sweeps/sweep-july27-2026-morning/)
+
+## 🆕 July 27, 2026 — Evening Sweep (2 New, 2 Guides) 🔥 MAJOR FIND
+
+Sweep of mcp.so servers sitemaps (newest pages) and mcpservers.org priority-servers.xml. Discovered the official Atlassian MCP Server — the biggest single find of the July 27 sweep cycle. 5 business-relevant new servers, 2 guides written. [Full sweep report →](/hermes/mcp/sweeps/sweep-july27-2026-evening/)
+
+### Atlassian MCP ★★★ Official — July 27 (evening)
+Official remote MCP server from Atlassian (911⭐). Connects AI agents to Jira, Confluence, Jira Service Management, Bitbucket, and Compass using OAuth 2.1 or API tokens. The first major enterprise platform to ship an official MCP covering their full product suite. `github.com/atlassian/atlassian-mcp-server` · [Guide →](/hermes/mcp/servers/external/atlassian-mcp/)
+
+### GoLogin MCP ★★ — July 27 (evening)
+Official GoLogin MCP — anti-detect browser profile management for multi-account operations. Create, configure, and control browser profiles through AI agents. 18 stars. `github.com/gologinapp/gologin-mcp` · [Guide →](/hermes/mcp/servers/external/gologin-mcp/)
+
+**Also identified:** Lusha MCP (B2B contact enrichment), PayPal MCP by CData (read-only, 0⭐), Salestools MCP (0⭐), YNAB MCP (personal finance), Confluence MCP Server (third-party test, superseded by official Atlassian). Plus 8 niche/consumer servers (BugBug, Memora, CogMemAI, Accessibility AI, Propline, Legal Docs, Leonardo AI, various CData wrappers). [Full sweep →](/hermes/mcp/sweeps/sweep-july27-2026-evening/)
+
+---
 
 ### Fulcru MCP ★★ — July 27
 AI search visibility with an execution arm. Finds questions where ChatGPT/Gemini/Perplexity name your competitor instead of you, writes the page that closes the gap, and measures what changed. 5 tools. Remote Streamable HTTP. `github.com/gsmmediaro/fulcru-agent` · [Guide →](/hermes/mcp/servers/external/fulcru-mcp/)
