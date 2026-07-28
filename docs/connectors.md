@@ -5,8 +5,8 @@ description: >-
   queries across your entire data stack.
 ---
 
-title: "CorpusIQ Connectors  --  50+ Business Data Integrations for AI"
-description: "Complete directory of CorpusIQ connectors: CRM (HubSpot, Salesforce), accounting (QuickBooks), payments (Stripe), analytics (GA4), marketing (Klaviyo, Meta Ads), databases, and 50+ more read-only integrations."
+title: "CorpusIQ Connectors  --  37+ Business Data Integrations for AI"
+description: "Complete directory of CorpusIQ connectors: CRM (HubSpot, Salesforce), accounting (QuickBooks), payments (Stripe), analytics (GA4), marketing (Klaviyo, Meta Ads), databases, and 37+ more read-only integrations."
 category: "Documentation"
 tags: ["corpusiq connectors", "data integrations", "business tools ai", "oauth connectors", "crm integration", "accounting integration", "analytics connectors"]
 last_updated: "2026-06-16"
@@ -138,7 +138,7 @@ For the latest connector count and status, visit [corpusiq.io/connectors](https:
 ## Frequently Asked Questions
 
 **Q: How many connectors does CorpusIQ support?**  
-A: CorpusIQ supports 50+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. All connectors are read-only via OAuth.
+A: CorpusIQ supports 37+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. All connectors are read-only via OAuth.
 
 **Q: How do I connect a new data source?**  
 A: Log into the CorpusIQ Dashboard, navigate to Connections, click the service you want to connect, and complete the OAuth authorization flow. Each connection takes under 60 seconds.
@@ -159,7 +159,7 @@ A: Visit the CorpusIQ Dashboard to see connector status (active, paused, needs r
 
 - **[CorpusIQ Quick Start Guide](/docs/quick-start)**  --  Go from zero to first query in 5 minutes  
 - **[API Reference](/docs/api/overview)**  --  Full REST API documentation  
-- **[CorpusIQ Connectors](/docs/connectors)**  --  All 50+ supported integrations  
+- **[CorpusIQ Connectors](/docs/connectors)**  --  All 37+ supported integrations  
 - **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SOC 2, data residency  
 - **[CorpusIQ Security Documentation](/docs/security)**  --  Certifications, encryption, and compliance  
 - **[CorpusIQ Changelog](/docs/changelog)**  --  API updates and version history  

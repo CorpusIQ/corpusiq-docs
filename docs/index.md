@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ Documentation"
-description: "CorpusIQ is a private AI acceleration layer connecting 50+ business tools to ChatGPT, Claude, and AI agents. Real-time, read-only access to CRM, accounting, analytics, and more via MCP."
+description: "CorpusIQ is a private AI acceleration layer connecting 37+ business tools to ChatGPT, Claude, and AI agents. Real-time, read-only access to CRM, accounting, analytics, and more via MCP."
 category: "Documentation"
 tags: ["corpusiq docs", "mcp documentation", "business data ai", "chatgpt integration", "claude integration", "ai data access", "mcp platform"]
 last_updated: "2026-06-16"
@@ -26,13 +26,13 @@ One connector. 37+ business tools. Ask a plain-English question inside ChatGPT, 
 ## Frequently Asked Questions
 
 **Q: What is CorpusIQ?**  
-A: CorpusIQ is a private AI acceleration layer that connects 50+ business tools (HubSpot, QuickBooks, Stripe, Shopify, GA4, Slack, and more) to ChatGPT, Claude, and AI agents via the Model Context Protocol (MCP). It enables real-time, natural-language queries across your entire data stack without moving or storing your data.
+A: CorpusIQ is a private AI acceleration layer that connects 37+ business tools (HubSpot, QuickBooks, Stripe, Shopify, GA4, Slack, and more) to ChatGPT, Claude, and AI agents via the Model Context Protocol (MCP). It enables real-time, natural-language queries across your entire data stack without moving or storing your data.
 
 **Q: How does CorpusIQ connect my business data to AI?**  
 A: CorpusIQ uses MCP (Model Context Protocol)  --  an open standard that lets AI assistants discover and use external tools. Connect your data sources via OAuth, and the AI can query them live through CorpusIQ's MCP endpoint with read-only access.
 
 **Q: What data sources does CorpusIQ support?**  
-A: CorpusIQ supports 50+ business tools including HubSpot, Salesforce, QuickBooks, Stripe, Shopify, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, Notion, PostgreSQL, MSSQL, MongoDB, and more  --  see the full connectors directory.
+A: CorpusIQ supports 37+ business tools including HubSpot, Salesforce, QuickBooks, Stripe, Shopify, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, Notion, PostgreSQL, MSSQL, MongoDB, and more  --  see the full connectors directory.
 
 **Q: Is my data secure with CorpusIQ?**  
 A: Yes. CorpusIQ is read-only by default, never stores your business data, uses TLS 1.3 encryption, and is SOC 2 compliant. All data source connections use OAuth with minimum required scopes.
@@ -52,7 +52,7 @@ A: CorpusIQ works with any MCP-compatible AI assistant including ChatGPT, Claude
 
 - **[CorpusIQ Quick Start Guide](/docs/quick-start)**  --  Go from zero to first query in 5 minutes  
 - **[API Reference](/docs/api/overview)**  --  Full REST API documentation  
-- **[CorpusIQ Connectors](/docs/connectors)**  --  All 50+ supported integrations  
+- **[CorpusIQ Connectors](/docs/connectors)**  --  All 37+ supported integrations  
 - **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SOC 2, data residency  
 - **[CorpusIQ Security Documentation](/docs/security)**  --  Certifications, encryption, and compliance  
 - **[CorpusIQ Changelog](/docs/changelog)**  --  API updates and version history  
