@@ -7,7 +7,24 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 28, 2026 (afternoon sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,357+ servers), sitemap scanning · **Catalog:** 117 servers (+17 guides)
+> **Last updated:** July 29, 2026 (morning sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,360+ servers), sitemap scanning · **Catalog:** 120 servers (+20 guides)
+
+---
+
+## 🆕 July 29, 2026 — Morning Sweep (3 New, 3 Guides) 🔥 MAJOR FINDS
+
+Sweep of mcpservers.org sitemaps (servers/1-6.xml + priority-servers.xml) and mcp.so SSR extraction. Firecrawl + web_search DOWN — used curl-based sitemap scraping (proven fallback). Scanned 175 servers with lastmod=2026-07-29; 3 business-critical new finds (all absent from catalog). [Full sweep report →](/hermes/mcp/sweeps/sweep-july29-2026-morning/)
+
+### Tableau MCP ★★★ Official — July 29
+Official Tableau MCP server — 315⭐. AI agents connect to Tableau Cloud/Server to query data sources, list workbooks, execute calculated fields, and retrieve visualizations. The second major BI platform to ship MCP after Metabase. Remote Streamable HTTP. `github.com/tableau/tableau-mcp` · [Guide →](/hermes/mcp/servers/external/tableau-mcp/)
+
+### Meta Ads MCP ★★★ — July 29
+Pipeboard Meta Ads MCP — 1,112⭐. Connect AI agents to Facebook/Instagram Ads: campaign management, ad set optimization, creative analysis, audience insights, and performance reporting. Meta Business verified badge. Hosted remote MCP. Part of Pipeboard's 5-platform advertising family. `github.com/pipeboard-co/meta-ads-mcp` · [Guide →](/hermes/mcp/servers/external/meta-ads-mcp/)
+
+### Salesforce MCP ★★★ — July 29
+Community Salesforce MCP connector — 179⭐. Connect AI agents to Salesforce CRM: accounts, contacts, opportunities, leads, cases, reports, and custom objects via SOQL. Comprehensive object coverage. Not official (awaiting Salesforce's official MCP) but well-implemented. `github.com/smn2gnt/MCP-Salesforce` · [Guide →](/hermes/mcp/servers/external/salesforce-mcp/)
+
+**Also identified (secondary):** Grafana MCP (3,299⭐ Official), Netlify MCP (49⭐ Official), Buildkite MCP (52⭐ Official), Help Scout MCP (46⭐). Plus 160+ re-indexed existing servers (lastmod ≠ creation date) and developer frameworks (FastMCP 26K⭐, mcp-use 10K⭐, IBM Context Forge 4K⭐, CUA 20K⭐ — skipped as developer tools). mcpservers.org now at ~10,360 total servers (stable from July 28). mcp.so at ~22,680 (stable).
 
 ---
 
