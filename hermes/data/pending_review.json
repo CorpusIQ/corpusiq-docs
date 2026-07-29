@@ -29160,5 +29160,366 @@
     ],
     "discovered_at": "2026-07-28T07:05:46.108458+00:00",
     "status": "pending"
+  },
+  {
+    "name": "IceHeartGitH/Hermes-Agent-Android-Termux",
+    "url": "https://github.com/IceHeartGitH/Hermes-Agent-Android-Termux",
+    "description": "Hermes Agent for Android - Termux",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "android",
+      "cli",
+      "hermes-agent",
+      "termux"
+    ],
+    "updated_at": "2026-07-29T05:01:32Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-29T05:03:34.328154+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cashtsai/hermes-studio-bridge",
+    "url": "https://github.com/cashtsai/hermes-studio-bridge",
+    "description": "Hermes \u2194 Pocket Agent \u7684\u7248\u672c\u5316\u6a4b\u63a5\u5c64 (FastAPI, OpenAI \u76f8\u5bb9)\u3002\u5305\u88dd Hermes \u5167\u90e8 (state.db / cron / ACP)\uff0c\u5c0d\u5916\u53ea\u9732\u7a69\u5b9a app/v1 contract\uff1acanonical \u8a0a\u606f\u540c\u6b65\u3001\u5831\u544a\u3001\u6838\u51c6\u3001Claude Code \u9060\u7aef session\u3001APNs \u63a8\u64ad\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "apns",
+      "bridge",
+      "fastapi",
+      "hermes",
+      "pocket-agent"
+    ],
+    "updated_at": "2026-07-29T05:00:57Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-29T05:03:37.331712+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kijan007-agent/kijan-hermes-shared",
+    "url": "https://github.com/kijan007-agent/kijan-hermes-shared",
+    "description": "Hermes skills sync between Jan and KijanHermes007_Bot",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-07-29T05:00:33Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-29T05:03:40.335569+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Tomi431/Tomi",
+    "url": "https://github.com/Tomi431/Tomi",
+    "description": "MCP-native, agent-agnostic marketplace intelligence \u2014 works with Claude Code, Codex, Cursor, OpenClaw, Hermes, Pi, and any MCP-compatible AI agent. Amazon \u00b7 Walmart \u00b7 TikTok \u00b7 1688 \u00b7 Shopee \u00b7 TEMU.",
+    "stars": 1,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [
+      "agent-friendly",
+      "ai-agents",
+      "amazon-sellers",
+      "claude-code",
+      "codex",
+      "cursor",
+      "ecommerce",
+      "marketplace-intelligence",
+      "mcp",
+      "product-research",
+      "sorftime",
+      "walmart"
+    ],
+    "updated_at": "2026-07-29T03:27:03Z",
+    "category": "mcp",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "KSroido/Kagi-Session2API-MCP",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "ahonore42/logios-brain",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor"
+    ],
+    "discovered_at": "2026-07-29T05:03:49.979743+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "chuongwang115/nanoflux",
+    "url": "https://github.com/chuongwang115/nanoflux",
+    "description": "NanoFlux: A local-first news service built for OpenClaw / Hermes AI Agents. Delivers structured results via MCP, self-hosted with a minimal operator console.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-07-29T01:22:07Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "unmodeled-tyler/vessel-browser",
+      "yang1989haoa-gif/synapse-studio"
+    ],
+    "discovered_at": "2026-07-29T05:03:52.986107+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "DarkArty07/Aether-Agents",
+    "url": "https://github.com/DarkArty07/Aether-Agents",
+    "description": "Provider-agnostic multi-agent system built on hermes-agent. 6 specialized Daimons orchestrated via Olympus MCP and ACP protocol.",
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-orchestration",
+      "ai-agents",
+      "hermes-agent",
+      "mcp",
+      "multi-agent-systems",
+      "python"
+    ],
+    "updated_at": "2026-07-29T00:21:00Z",
+    "category": "mcp",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-29T05:03:55.989370+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "zcxGGmu/awesome-openclaw-hermes-agents",
+    "url": "https://github.com/zcxGGmu/awesome-openclaw-hermes-agents",
+    "description": "Curated use cases, agent templates, skills, plugins, and workflows for Hermes Agent and OpenClaw.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-28T13:43:20Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-29T05:04:05.635688+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Gabriel300p/hermes-agent",
+    "url": "https://github.com/Gabriel300p/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-29T05:03:19Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-29T05:04:15.292900+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "provision-org/provision-core",
+    "url": "https://github.com/provision-org/provision-core",
+    "description": "Open-source AI workforce platform. Agents with tasks, tools, browsers, and email.",
+    "stars": 27,
+    "forks": 5,
+    "language": "PHP",
+    "topics": [
+      "agent-platform",
+      "agentmail",
+      "ai-agents",
+      "chatgpt",
+      "claude",
+      "discord",
+      "docker",
+      "hermes",
+      "hermes-agent",
+      "inertia",
+      "laravel",
+      "open-source",
+      "openai",
+      "openclaw",
+      "react",
+      "self-hosted",
+      "slack",
+      "tailwindcss",
+      "telegram",
+      "typescript"
+    ],
+    "updated_at": "2026-07-29T05:02:04Z",
+    "category": "forks",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-29T05:04:18.296423+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "nostagestudios-gif/hermes-skills",
+    "url": "https://github.com/nostagestudios-gif/hermes-skills",
+    "description": "Production skills for the Hermes \u2194 Claude Code autonomous AI agent pipeline (CCR tutorial series)",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-28T12:10:22Z",
+    "category": "production",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "crispyb0i/hermes-operator-pack",
+      "Undermybelt/hermes-skills-research",
+      "BBridgeers/hermes-skills",
+      "ruvnet/ruflo"
+    ],
+    "discovered_at": "2026-07-29T05:05:20.995569+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "harborworks/harbor-hermes-agent",
+    "url": "https://github.com/harborworks/harbor-hermes-agent",
+    "description": "Harbor Works skinny fork of NousResearch/hermes-agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-28T19:17:55Z",
+    "category": "official",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-29T05:05:43.436224+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mvdbastos/hermes-acp-agents",
+    "url": "https://github.com/mvdbastos/hermes-acp-agents",
+    "description": "Third-party ACP agent backend plugins for Hermes Agent (Claude Code, Codex CLI, GitHub Copilot) \u2014 split from NousResearch/hermes-agent#68222 per the standalone-plugin policy in issue #5257",
+    "stars": 0,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-28T08:11:07Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "tale-project/tale",
+      "awesome-hermes-usecases",
+      "ruvnet/metaharness",
+      "liaohch3/claude-tap"
+    ],
+    "discovered_at": "2026-07-29T05:05:46.440211+00:00",
+    "status": "pending"
   }
 ]

@@ -7431,5 +7431,89 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-28T07:07:34.154381+00:00"
+  },
+  {
+    "repo": "IceHeartGitH/Hermes-Agent-Android-Termux",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T05:06:15.261188+00:00"
+  },
+  {
+    "repo": "cashtsai/hermes-studio-bridge",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T05:06:15.261202+00:00"
+  },
+  {
+    "repo": "kijan007-agent/kijan-hermes-shared",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T05:06:15.261205+00:00"
+  },
+  {
+    "repo": "Tomi431/Tomi",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T05:06:15.261207+00:00"
+  },
+  {
+    "repo": "chuongwang115/nanoflux",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T05:06:15.261209+00:00"
+  },
+  {
+    "repo": "DarkArty07/Aether-Agents",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T05:06:15.261211+00:00"
+  },
+  {
+    "repo": "zcxGGmu/awesome-openclaw-hermes-agents",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T05:06:15.261213+00:00"
+  },
+  {
+    "repo": "Gabriel300p/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T05:06:15.261214+00:00"
+  },
+  {
+    "repo": "provision-org/provision-core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T05:06:15.261216+00:00"
+  },
+  {
+    "repo": "nostagestudios-gif/hermes-skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T05:06:15.261218+00:00"
+  },
+  {
+    "repo": "harborworks/harbor-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T05:06:15.261219+00:00"
+  },
+  {
+    "repo": "mvdbastos/hermes-acp-agents",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T05:06:15.261221+00:00"
   }
 ]
