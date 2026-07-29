@@ -7550,5 +7550,61 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-29T06:05:14.628715+00:00"
+  },
+  {
+    "repo": "NathanAlex7/hermes-kanban-swarm",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T07:08:05.542767+00:00"
+  },
+  {
+    "repo": "MadsGao/frakio-work",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T07:08:05.542781+00:00"
+  },
+  {
+    "repo": "swanandapps/hermes-agent-exercise",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T07:08:05.542783+00:00"
+  },
+  {
+    "repo": "bit-cook/cc-switch",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T07:08:05.542786+00:00"
+  },
+  {
+    "repo": "naufil601/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T07:08:05.542787+00:00"
+  },
+  {
+    "repo": "paulpham157/hermes-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T07:08:05.542789+00:00"
+  },
+  {
+    "repo": "Git-on-my-level/hermes-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T07:08:05.542791+00:00"
+  },
+  {
+    "repo": "FlexNetOS/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T07:08:05.542792+00:00"
   }
 ]
