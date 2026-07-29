@@ -29899,5 +29899,103 @@
     ],
     "discovered_at": "2026-07-29T07:06:13.594791+00:00",
     "status": "pending"
+  },
+  {
+    "name": "ryancollingwood/HermesFlow",
+    "url": "https://github.com/ryancollingwood/HermesFlow",
+    "description": "Hermes Agent + Windmill",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-29T08:04:22Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-29T08:05:30.798490+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Jason-Chen615/Hermes-Agent",
+    "url": "https://github.com/Jason-Chen615/Hermes-Agent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-29T08:02:45Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-29T08:05:32.800358+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "duquesnay/claude-channels-hermes",
+    "url": "https://github.com/duquesnay/claude-channels-hermes",
+    "description": "hermes-channel MCP plugin + ACP supervisor/session-pool for claude --channels (Hermes/Janet backend)",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-29T07:57:35Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-29T08:05:41.813226+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "erratas/hermes-webui",
+    "url": "https://github.com/erratas/hermes-webui",
+    "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-29T08:04:39Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "nesquena/hermes-webui",
+      "unmodeled-tyler/vessel-browser"
+    ],
+    "discovered_at": "2026-07-29T08:05:57.748744+00:00",
+    "status": "pending"
   }
 ]
