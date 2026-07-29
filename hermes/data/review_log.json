@@ -7515,5 +7515,40 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-29T05:06:15.261221+00:00"
+  },
+  {
+    "repo": "JoaoMarcos44/hermes-agent-pr-assets",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T06:05:14.628701+00:00"
+  },
+  {
+    "repo": "edkadigital/agent-profiles",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T06:05:14.628711+00:00"
+  },
+  {
+    "repo": "3ndym10n/hermes-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T06:05:14.628713+00:00"
+  },
+  {
+    "repo": "HgFinance/multi_agent",
+    "score": 34,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T06:05:14.628714+00:00"
+  },
+  {
+    "repo": "UPSMAN84/hermes-android",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-29T06:05:14.628715+00:00"
   }
 ]

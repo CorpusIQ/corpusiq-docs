@@ -29521,5 +29521,130 @@
     ],
     "discovered_at": "2026-07-29T05:05:46.440211+00:00",
     "status": "pending"
+  },
+  {
+    "name": "JoaoMarcos44/hermes-agent-pr-assets",
+    "url": "https://github.com/JoaoMarcos44/hermes-agent-pr-assets",
+    "description": "Public image assets embedded in hermes-agent PR/issue descriptions (not part of the codebase).",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-29T06:01:44Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-29T06:02:53.211886+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "edkadigital/agent-profiles",
+    "url": "https://github.com/edkadigital/agent-profiles",
+    "description": "Reusable Hermes profile distributions for agents running on Edka clusters.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-29T05:59:29Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-29T06:02:55.214166+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "3ndym10n/hermes-agent",
+    "url": "https://github.com/3ndym10n/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-29T06:02:43Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-29T06:03:18.571400+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "HgFinance/multi_agent",
+    "url": "https://github.com/HgFinance/multi_agent",
+    "description": "Multi-agent workflow project",
+    "stars": 2,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "agentic-rag",
+      "hedge-fund",
+      "hermes-agent",
+      "langgraph",
+      "mulit-agent"
+    ],
+    "updated_at": "2026-07-29T06:02:35Z",
+    "category": "forks",
+    "score": 34,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-29T06:03:20.573651+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "UPSMAN84/hermes-android",
+    "url": "https://github.com/UPSMAN84/hermes-android",
+    "description": "Android client for Hermes Agent - chat with your Hermes sessions from a phone or tablet over local Wi-Fi or a private Tailscale network.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Dart",
+    "topics": [],
+    "updated_at": "2026-07-29T06:03:01Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser"
+    ],
+    "discovered_at": "2026-07-29T06:03:22.575940+00:00",
+    "status": "pending"
   }
 ]
