@@ -298,6 +298,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [memoria-vault — Multi-Agent Research OS for Obsidian Setup](/docs/hermes/skills/catalog/memoria-vault-setup.html)
 - [Memory Hygiene Setup](/docs/hermes/skills/catalog/memory-hygiene-setup.html)
 - [Memory Merger Setup — Agent Session Memory Consolidation](/docs/hermes/skills/catalog/memory-merger-setup.html)
+- [Media Use Setup — Agent Media OS for HyperFrames (182.7K installs)](/docs/hermes/skills/catalog/media-use-setup/)
 - [Metamask Openclaw Security Analysis Setup](/docs/hermes/skills/catalog/metamask-openclaw-security-analysis-setup.html)
 - [Native Mcp Setup](/docs/hermes/skills/catalog/native-mcp-setup.html)
 - [Nemoclaw User Guide Setup](/docs/hermes/skills/catalog/nemoclaw-user-guide-setup.html)

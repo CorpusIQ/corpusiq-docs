@@ -11,6 +11,8 @@ The Skills Marketplace is the community hub for discovering, installing, and sha
 
 ## Recent Sweeps
 
+- [🆕 July 29, 2026 — Media Use Skill (182.7K installs) — Agent Media OS for HyperFrames](/hermes/skills/marketplace/new-july29-2026/)
+
 - [🆕 July 28, 2026 (Skills) — Dogfood QA, History Ingest, Imports, Marketing Dashboard, Skill Vetter, OpenClaw Backup (6 new skills, 34.4K+ installs)](/hermes/skills/marketplace/new-july28-2026-skills/)
 
 - [🆕 July 27, 2026 (Night) — Reddit Automation, OpenTUI, Monitoring, Guizang Social Cards (4 new skills, 172K+ installs)](/hermes/skills/marketplace/new-july27-2026-night/)
