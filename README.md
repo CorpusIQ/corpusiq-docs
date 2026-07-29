@@ -1,5 +1,7 @@
 # CorpusIQ — Stop building reports by hand. Just ask your AI.
 
+[![MCP Toplist](https://mcptoplist.com/badge/glama%2FCorpusIQ%2Fcorpusiq-docs.svg)](https://mcptoplist.com/server/glama%2FCorpusIQ%2Fcorpusiq-docs)
+
 [![MCP Platform](https://img.shields.io/badge/MCP-Platform-0a2540?style=flat-square&logo=anthropic&logoColor=white)](https://www.corpusiq.io)
 [![Connectors](https://img.shields.io/badge/Connectors-37+-c9a961?style=flat-square)](https://www.corpusiq.io/connectors)
 [![Stars](https://img.shields.io/github/stars/CorpusIQ/corpusiq-docs?style=flat-square&color=c9a961)](https://github.com/CorpusIQ/corpusiq-docs)
