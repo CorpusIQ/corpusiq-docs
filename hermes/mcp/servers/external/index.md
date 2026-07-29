@@ -7,7 +7,24 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 29, 2026 (morning sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,360+ servers), sitemap scanning · **Catalog:** 120 servers (+20 guides)
+> **Last updated:** July 29, 2026 (afternoon sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,377+ servers), SSR + sitemap scanning · **Catalog:** 123 servers (+23 guides)
+
+---
+
+## 🆕 July 29, 2026 — Afternoon Sweep (3 New, 3 Guides) 🔥 MAJOR FINDS
+
+Sweep of mcpservers.org /all SSR (30 newest) and sitemap lastmod dates. Firecrawl + web_extract DOWN — used curl-based extraction. 3 business-critical new finds (all absent from morning sweep). [Full sweep report →](/hermes/mcp/sweeps/sweep-july29-2026-afternoon/)
+
+### QuickBooks MCP Server ★★★ — July 29 afternoon
+First comprehensive QuickBooks MCP — 550+ tools, OAuth2, hosted by datagrout.ai. AI agents connect to QuickBooks Online for invoices, bills, reports, and inventory. Write operations disabled by default. Fills the single biggest gap in accounting MCP. `datagrout.ai/integrations/quickbooks-mcp-server` · [Guide →](/hermes/mcp/servers/external/quickbooks-mcp/)
+
+### Oracle MCP Server ★★★ — July 29 afternoon
+First Oracle Fusion Cloud MCP — 1,000+ tools, OAuth2, hosted by datagrout.ai. AI agents connect to Financials, Procurement, Inventory, Suppliers, Tax, and Workforce. Previously, Oracle access required custom middleware. `datagrout.ai/integrations/oracle-mcp-server` · [Guide →](/hermes/mcp/servers/external/oracle-mcp/)
+
+### DealMachine MCP ★★ — July 29 afternoon
+Real estate property intelligence MCP — 17 command groups, OAuth 2.1 + API key. AI agents search properties, skip-trace owners, analyze comps, and manage lead lists. First major real estate platform to ship MCP. `github.com/DealMachine/dealmachine-cli` · [Guide →](/hermes/mcp/servers/external/dealmachine-mcp/)
+
+**Also identified (secondary):** SMKlog Parcel Quotes (live USPS/UPS/FedEx rates), MaxStat MCP (Messenger analytics), XiaoFlow MCP (AI SEO + Etsy intelligence), SotaProxy MCP (proxy management). Plus ~23 other new servers — mostly memory tools, testing frameworks, developer tools, and regional/niche projects. mcpservers.org now at 10,377 total (up from ~10,360). Notable trend: datagrout.ai emerging as "enterprise ERP connector factory" — shipping QuickBooks and Oracle MCPs with identical security models on the same day.
 
 ---
 
@@ -24,7 +41,7 @@ Pipeboard Meta Ads MCP — 1,112⭐. Connect AI agents to Facebook/Instagram Ads
 ### Salesforce MCP ★★★ — July 29
 Community Salesforce MCP connector — 179⭐. Connect AI agents to Salesforce CRM: accounts, contacts, opportunities, leads, cases, reports, and custom objects via SOQL. Comprehensive object coverage. Not official (awaiting Salesforce's official MCP) but well-implemented. `github.com/smn2gnt/MCP-Salesforce` · [Guide →](/hermes/mcp/servers/external/salesforce-mcp/)
 
-**Also identified (secondary):** Grafana MCP (3,299⭐ Official), Netlify MCP (49⭐ Official), Buildkite MCP (52⭐ Official), Help Scout MCP (46⭐). Plus 160+ re-indexed existing servers (lastmod ≠ creation date) and developer frameworks (FastMCP 26K⭐, mcp-use 10K⭐, IBM Context Forge 4K⭐, CUA 20K⭐ — skipped as developer tools). mcpservers.org now at ~10,360 total servers (stable from July 28). mcp.so at ~22,680 (stable).
+**Also identified (secondary):** Grafana MCP (3,299⭐ Official), Netlify MCP (49⭐ Official), Buildkite MCP (52⭐ Official), Help Scout MCP (46⭐). Plus 160+ re-indexed existing servers (lastmod ≠ creation date) and developer frameworks (FastMCP 26K⭐, mcp-use 10K⭐, IBM Context Forge 4K⭐, CUA 20K⭐ — skipped as developer tools). mcpservers.org now at ~10,377 total servers (up from 10,360). mcp.so at ~22,680 (stable).
 
 ---
 
