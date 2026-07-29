@@ -1,92 +1,102 @@
 # Connectors
 
-CorpusIQ integrates with 29 third-party data sources plus 3 internal
-connectors (databases, cross-source analytics, canonical layer). Each
-external connector requires a one-time authentication — you click Connect,
-approve the permission screen, and CorpusIQ stores a read-only token
-on your behalf.
+CorpusIQ connects to your business tools through read-only MCP connectors.
+Each connector requires a one-time OAuth authentication — you click Connect,
+approve the permission screen, and your AI tools can query live data immediately.
 
-## What CorpusIQ asks for
-
-Read-only access wherever the vendor supports it. We never write back to
-your accounts. If a connector requires a scope that allows writes (rare),
-we'll say so on its page and explain why.
+CorpusIQ never writes back to your accounts. Every connector is read-only.
 
 ## Index
 
-### Money
+### Commerce & Payments
+- [Shopify](shopify.md) — Orders, products, customers, inventory
+- [Stripe](stripe.md) — Payments, subscriptions, invoices, refunds
+- [eBay](ebay.md) — Listings, orders, marketplace data
+- [Amazon Seller](amazon_seller.md) — Seller Central metrics
+- [GunBroker](gunbroker.md) — Auctions, bids, inventory
 
-- [QuickBooks](quickbooks.md)
-- [Stripe](stripe.md)
+### Marketing & Advertising
+- [Google Ads](google_ads.md) — Campaigns, ad groups, keywords, performance
+- [Meta Ads (Facebook & Instagram)](facebook_marketing.md) — Ad accounts, campaigns, ad sets
+- [LinkedIn Ads](linkedin-ads.md) — Campaign performance, audience data
+- [TikTok](tiktok.md) — Ad performance, audience insights
 
-### Ecommerce + marketplaces
+### Web Analytics & SEO
+- [GA4 — Google Analytics 4](ga4.md) — Traffic, conversions, events
+- [Google Search Console](search-console.md) — Rankings, clicks, impressions
+- [Ahrefs](ahrefs.md) — Backlinks, keyword rankings, site audits
+- [Semrush](semrush.md) — Keyword research, competitor analysis
+- [IndexNow](indexnow.md) — Real-time search engine indexing
+- [YouTube](youtube.md) — Channel analytics, video performance
 
-- [Shopify](shopify.md)
-- [eBay](ebay.md)
-- [Amazon Seller](amazon_seller.md)
-- [GunBroker](gunbroker.md)
+### Email & SMS Marketing
+- [Klaviyo](klaviyo.md) — Campaigns, flows, segments
+- [Mailchimp](mailchimp.md) — Campaigns, audiences, reports
+- [Constant Contact](constantcontact.md) — Email campaigns, contacts
+- [ActiveCampaign](activecampaign.md) — Automations, deals, contacts
+- [Postscript](postscript.md) — SMS campaigns, subscribers
 
-### Advertising
+### CRM & Pipeline
+- [HubSpot](hubspot.md) — Deals, contacts, companies, tickets
+- [GoHighLevel (LeadConnector)](gohighlevel.md) — Pipelines, contacts, opportunities
+- [Close](close.md) — Sales pipeline, leads, sequences
+- [Monday.com](monday.md) — Boards, items, workflows
 
-- [Google Ads](google_ads.md)
-- [Meta Ads](facebook_marketing.md) (Facebook + Instagram)
-- [TikTok](tiktok.md)
+### Finance & Accounting
+- [QuickBooks](quickbooks.md) — P&L, balance sheet, invoices, bills
+- [Odoo](odoo.md) — ERP: accounting, inventory, sales, CRM
 
-### Web + SEO
+### Communication & Productivity
+- [Google Workspace](google_workspace.md) — Gmail, Calendar, Drive, Docs, Sheets
+- [Microsoft Outlook](outlook.md) — Email, Calendar, OneDrive
+- [Slack](slack.md) — Messages, channels, search
+- [Dropbox](dropbox.md) — Files, folders, shared links
+- [OneDrive](onedrive.md) — Files, folders, SharePoint libraries
+- [Notion](notion.md) — Pages, databases, comments
+- [Airtable](airtable.md) — Bases, tables, records
+- [Calendly](calendly.md) — Events, scheduling, invitees
+- [IMAP Email](imap.md) — Read email from any IMAP account
 
-- [Google Analytics 4](ga4.md)
-- [Google Search Console](search-console.md)
-- [Semrush](semrush.md)
-- [YouTube](youtube.md)
-- [IndexNow](indexnow.md)
+### Databases & Analytics
+- [PostgreSQL](postgres.md) — Relational database queries
+- [Microsoft SQL Server (MSSQL)](mssql.md) — SQL Server queries
+- [MongoDB](mongodb.md) — Document database queries
+- [Azure Cosmos DB](cosmosdb.md) — Multi-model database queries
+- [PostHog](posthog.md) — Product analytics, feature flags
 
-### Email and SMS marketing
+### AI Integration Guides
+- [ChatGPT Business Data Connector](chatgpt-business-data-connector.md)
+- [Perplexity Business Data via MCP](perplexity-business-data-mcp.md)
+- [AI MCP Server for Business Data](ai-mcp-server-for-business-data.md)
+- [MCP Server: Shopify + QuickBooks](mcp-server-shopify-quickbooks.md)
+- [Connect Airtable to Claude](connect-airtable-to-claude.md)
+- [Connect GA4 to Claude](connect-ga4-to-claude.md)
+- [Connect Google Ads to Claude](connect-google-ads-to-claude.md)
+- [Connect HubSpot to Claude](connect-hubspot-to-claude.md)
+- [Connect Klaviyo to ChatGPT](connect-klaviyo-to-chatgpt.md)
+- [Connect Klaviyo to Claude](connect-klaviyo-to-claude.md)
+- [Connect LinkedIn Ads to Claude](connect-linkedin-ads-to-claude.md)
+- [Connect Meta Ads to Claude](connect-meta-ads-to-claude.md)
+- [Connect QuickBooks to Claude](connect-quickbooks-to-claude.md)
+- [Connect Shopify to Claude](connect-shopify-to-claude.md)
+- [Connect Slack to Claude](connect-slack-to-claude.md)
+- [Connect Stripe to Claude](connect-stripe-to-claude.md)
 
-- [Klaviyo](klaviyo.md)
-- [Mailchimp](mailchimp.md)
-- [Constant Contact](constantcontact.md)
-- [ActiveCampaign](activecampaign.md)
-- [PostScript](postscript.md)
+### Alternatives & Comparisons
+- [Windsor.ai Alternative](windsor-ai-alternative.md)
+- [Adzviser Alternative](adzviser-alternative.md)
 
-### CRM and pipeline
+## How to connect any connector
 
-- [HubSpot](hubspot.md)
-- [LeadConnector / GoHighLevel](gohighlevel.md)
+1. Open the CorpusIQ **Connectors** page
+2. Click **Connect** next to the tool you want
+3. A browser tab opens to the vendor's login page
+4. Sign in, review the read-only permissions, click **Authorize**
+5. The tab returns to CorpusIQ — the connector shows **Connected**
 
-### Productivity
+That's it. Your AI assistant can now query live data from that service.
 
-- [Google Workspace](google_workspace.md) (Gmail + Calendar + Drive + Sheets)
-- [Microsoft 365](outlook.md) (Outlook + Calendar + OneDrive)
-- [Dropbox](dropbox.md)
-- [Slack](slack.md)
-- [Calendly](calendly.md)
-- [Monday.com](monday.md)
-- [Airtable](airtable.md)
-
-### ERP
-
-- [Odoo](odoo.md)
-
-### Databases (technical)
-
-- [PostgreSQL](postgres.md) · [MSSQL](mssql.md) · [MongoDB](mongodb.md) · [Cosmos DB](cosmosdb.md)
-
-## How to connect any of them
-
-The flow is the same for every connector:
-
-1. Open the CorpusIQ **Connectors** page.
-2. Click **Connect** next to the tool you want.
-3. A new browser tab opens to the vendor's login.
-4. Sign in, review the permissions screen, click **Allow** /
-   **Authorize**.
-5. The tab returns to CorpusIQ and the connector shows **Connected**.
-
-Connector-specific notes — required plans, admin roles, choosing the right
-account out of several — are on each individual page.
----
-
-*
+Connector-specific notes (required plans, admin roles, multi-account setups) are on each individual connector page.
 
 ---
 
