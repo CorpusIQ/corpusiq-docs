@@ -1,54 +1,85 @@
 ---
-title: "hermes-history-ingest Setup Guide"
-description: "Complete setup guide for hermes-history-ingest — ingest Hermes agent conversation history and session data into an Obsidian wiki vault."
+title: Hermes History Ingest — Setup Guide for Hermes Agents
+description: Mine Hermes agent session history into Obsidian wiki. Extract insights from past conversations, import ~/.hermes memories, and track knowledge evolution. 2.1K+ installs.
 ---
 
-# hermes-history-ingest Setup Guide
+# Hermes History Ingest — Setup Guide
 
-**Skill:** `hermes-history-ingest` · **Installs:** 2,700+ · **Source:** [ar9av/obsidian-wiki](https://github.com/ar9av/obsidian-wiki)
+**Source:** [ar9av/obsidian-wiki](https://github.com/ar9av/obsidian-wiki) (Community)
+**Skill:** `hermes-history-ingest` · **Installs:** 2.1K+ · **Category:** Memory / Knowledge Management
+**Platform:** Linux, macOS, Windows
 
-hermes-history-ingest extracts Hermes agent conversation history — memory snapshots, session data, and decision logs — and ingests them into an Obsidian wiki vault. Enables long-term knowledge retention, cross-session pattern discovery, and searchable agent memory.
-
----
-
-## Capabilities
-
-- Extract Hermes memory entries and session artifacts
-- Convert to structured Obsidian markdown notes
-- Link related sessions and decisions automatically
-- Tag and categorize ingested content
-- Support incremental ingestion (only new/changed data)
-
-## Prerequisites
-
-Hermes agent installed at ~/.hermes, Obsidian vault configured, Python 3.10+.
+Hermes History Ingest extracts knowledge from your Hermes agent history and distills it into an Obsidian wiki. It mines past sessions for durable knowledge, imports `~/.hermes/memories`, and tracks what's been ingested via a manifest file to avoid duplicates.
 
 ## Installation
 
 ```bash
-npx skills add ar9av/obsidian-wiki --skill hermes-history-ingest
+npx skills add ar9av/obsidian-wiki@hermes-history-ingest
 ```
 
-## Usage
+## Prerequisites
 
-Load the skill in your agent session:
+| Requirement | Details |
+|-------------|---------|
+| Obsidian vault | Existing vault with `.obsidian-wiki` config or CWD-based setup |
+| Hermes data | `~/.hermes/memories/` and optionally session transcripts |
+| Python 3.7+ | For manifest and file processing |
 
-```
-/ hermes-history-ingest
-```
+## Configuration
 
-The skill activates and provides browser automation tools accessible through natural language commands.
+The skill resolves configuration via a priority chain:
 
-## Troubleshooting
+1. Inline `@name` override
+2. Walk up CWD for `.env` file
+3. `~/.obsidian-wiki/config`
+4. Interactive prompt setup
 
-| Issue | Fix |
-|---|---|
-| Skill not found | Verify `npx skills add` completed successfully and the skill appears in `npx skills list` |
-| Browser not launching | Ensure Playwright/Puppeteer is installed system-wide |
-| Permission errors on VPS | Check that the agent user has access to the browser binary |
+Key config values:
+- `OBSIDIAN_VAULT_PATH` — where the Obsidian wiki lives
+- `HERMES_HISTORY_PATH` — defaults to `~/.hermes`
+
+## Ingest Modes
+
+### Append Mode (Default)
+
+Checks `.manifest.json` at the vault root. Only processes:
+- Files not in the manifest (new memories, new session logs)
+- Files with modification time newer than `ingested_at`
+
+Use for regular syncs.
+
+### Full Mode
+
+Processes everything regardless of manifest. Use after `wiki-rebuild` or for a fresh import.
+
+## Data Sources
+
+Ranked by knowledge value:
+
+| Priority | Source | Content |
+|:--------:|--------|---------|
+| 1 (Highest) | `~/.hermes/memories/*.md` | Curated persistent agent knowledge |
+| 2 | `~/.hermes/sessions/**/*.jsonl` | Structured turn-by-turn transcripts |
+| 3 (Lowest) | `~/.hermes/config.yaml` | Metadata only (model prefs, paths) |
+
+Skip: `.hub/` internals, `skills/` directory (source material, not user knowledge).
+
+## Workflow
+
+1. **Survey**: Scan `HERMES_HISTORY_PATH` and compare against `.manifest.json`
+2. **Classify**: Mark each file as New, Modified, or Unchanged
+3. **Extract**: Mine durable knowledge from new/modified files
+4. **Distill**: Write to Obsidian wiki with proper links and tags
+5. **Update**: Update `.manifest.json` with new `ingested_at` timestamps
+
+## Verification
+
+After running:
+- Check `.manifest.json` for updated timestamps
+- Verify new wiki pages in Obsidian vault
+- Confirm no duplicate entries from previous runs
 
 ## Related Skills
 
-- [wiki-history-ingest](/hermes/skills/catalog/wiki-history-ingest-setup/) — Unified agent history ingestion router
-- [openclaw-history-ingest](/hermes/skills/catalog/openclaw-history-ingest-setup/) — OpenClaw agent history ingestion
-- [Skills Catalog](/hermes/skills/catalog/)
+- [Agent Memory Setup](/hermes/skills/catalog/agentmemory-setup/)
+- [Memory Merger (GitHub Copilot)](/hermes/skills/catalog/awesome-copilot-setup/)
