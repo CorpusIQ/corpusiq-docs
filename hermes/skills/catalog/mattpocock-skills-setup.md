@@ -1,5 +1,5 @@
 ---
-title: "19 Matt Pocock TypeScript Skills for AI Agents"
+title: "19 Matt Pocock TypeScript Skills for Hermes Agent"
 description: "Install 19 Matt Pocock TypeScript and React skills for AI agents. Code review, refactoring, and implementation workflows. 1.7M+ combined installs."
 ---
 

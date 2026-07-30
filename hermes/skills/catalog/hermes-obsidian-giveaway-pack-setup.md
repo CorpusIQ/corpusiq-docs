@@ -1,5 +1,5 @@
 ---
-title: "Self-Organizing Obsidian Vault with an AI Agent"
+title: "Hermes Obsidian Integration: Self-Organizing Vault Setup"
 description: "Connect Obsidian to an always-on AI agent. Self-organizing vault, phone-to-vault capture, and VPS setup across four repos. Step-by-step configuration."
 skill_name: hermes-obsidian-giveaway-pack
 author: david-internal
@@ -9,7 +9,7 @@ created: June 22, 2026
 last_updated: June 22, 2026
 ---
 
-# Self-Organizing Obsidian Vault with an AI Agent
+# Hermes Obsidian Integration: Self-Organizing Vault Setup
 
 **Author:** [david-internal](https://github.com/david-internal)
 **Total stars:** 36 across 4 repos
