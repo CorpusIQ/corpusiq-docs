@@ -7851,5 +7851,54 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-30T07:07:06.439807+00:00"
+  },
+  {
+    "repo": "siwaht/Argus",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T08:08:02.765778+00:00"
+  },
+  {
+    "repo": "kotnisofiane-bit/dubsar-agent-skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T08:08:02.765793+00:00"
+  },
+  {
+    "repo": "sandeep-devarapalli/helm",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T08:08:02.765795+00:00"
+  },
+  {
+    "repo": "arashkdz01/hermesbackup",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T08:08:02.765797+00:00"
+  },
+  {
+    "repo": "devcomfort/hermes-agent-installer",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T08:08:02.765799+00:00"
+  },
+  {
+    "repo": "dieutx/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T08:08:02.765801+00:00"
+  },
+  {
+    "repo": "praveen221/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T08:08:02.765803+00:00"
   }
 ]
