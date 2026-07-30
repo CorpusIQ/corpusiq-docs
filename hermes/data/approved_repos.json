@@ -4763,5 +4763,28 @@
     "discovered_at": "2026-07-27T05:04:07.714668+00:00",
     "status": "approved",
     "approved_at": "2026-07-27T05:06:44.079539+00:00"
+  },
+  {
+    "name": "ahmadrosid/nakama",
+    "url": "https://github.com/ahmadrosid/nakama",
+    "description": "It's like Hermes Agent & OpenClaw but designed to work nicely with teams.",
+    "stars": 161,
+    "forks": 16,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-30T04:58:25Z",
+    "category": "core",
+    "score": 72,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "moderate_stars_100+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T05:03:22.443311+00:00",
+    "status": "approved",
+    "approved_at": "2026-07-30T05:06:00.652247+00:00"
   }
 ]

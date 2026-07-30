@@ -29997,5 +29997,377 @@
     ],
     "discovered_at": "2026-07-29T08:05:57.748744+00:00",
     "status": "pending"
+  },
+  {
+    "name": "epicsagas/AgentGlance",
+    "url": "https://github.com/epicsagas/AgentGlance",
+    "description": "\ud83d\udcfa Turn a GeekMagic SmallTV (SD_RU/SDPro ESP8266) into a live agent status monitor \u2014 WORKING / APPROVAL / DONE + model, context %, and token counts. Multi-host plugin for Claude Code, Codex, agy & hermes.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-monitor",
+      "agy",
+      "claude-code",
+      "claude-code-plugin",
+      "codex",
+      "developer-tools",
+      "esp8266",
+      "geekmagic",
+      "hermes",
+      "hooks",
+      "iot-display",
+      "python",
+      "smalltv",
+      "status-monitor"
+    ],
+    "updated_at": "2026-07-30T05:00:51Z",
+    "category": "core",
+    "score": 48,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "Romanescu11/hermes-skill-factory",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "kaankacar/stellar-agent-kit",
+      "tale-project/tale",
+      "ruvnet/metaharness",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "WEIFENG2333/phistory",
+      "Intelligent-Internet/zenith",
+      "stephenschoettler/hermes-lcm"
+    ],
+    "discovered_at": "2026-07-30T05:03:13.437190+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "comedy1024/hermes-agent-desktop",
+    "url": "https://github.com/comedy1024/hermes-agent-desktop",
+    "description": "Hermes Agent + webui in Linux GUI Desktop",
+    "stars": 12,
+    "forks": 2,
+    "language": "HTML",
+    "topics": [
+      "ai-agent",
+      "docker",
+      "hermes-agent",
+      "i18n",
+      "linux-desktop",
+      "novnc",
+      "pan-ui"
+    ],
+    "updated_at": "2026-07-30T04:59:07Z",
+    "category": "core",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T05:03:16.439531+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "deglan-rivas/custom-hermes-agent",
+    "url": "https://github.com/deglan-rivas/custom-hermes-agent",
+    "description": "personalizar hermes agent para tareas diarias",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-30T04:58:25Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T05:03:19.441410+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "RANJIANG23/codex-hermes-worker",
+    "url": "https://github.com/RANJIANG23/codex-hermes-worker",
+    "description": "Windows-first Codex MCP bridge to Hermes Agent and a local Qwen worker",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "codex",
+      "hermes-agent",
+      "local-llm",
+      "mcp",
+      "qwen",
+      "windows"
+    ],
+    "updated_at": "2026-07-30T04:56:23Z",
+    "category": "mcp",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "mlennie/hermes-mcp",
+      "Bo1202/Aivy-OS",
+      "liaohch3/claude-tap"
+    ],
+    "discovered_at": "2026-07-30T05:03:32.043312+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jpmoo/hermesnotes",
+    "url": "https://github.com/jpmoo/hermesnotes",
+    "description": "Self-hosted, block-first personal knowledge base: notes, tasks & projects that connect \u2014 collections (kanban/canvas/calendar), semantic search, local AI, an MCP server, and Obsidian export.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "drizzle",
+      "fastify",
+      "mcp",
+      "note-taking",
+      "ollama",
+      "personal-knowledge-management",
+      "pgvector",
+      "pkm",
+      "postgres",
+      "react",
+      "second-brain",
+      "self-hosted",
+      "tiptap",
+      "typescript"
+    ],
+    "updated_at": "2026-07-30T01:39:40Z",
+    "category": "mcp",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Sibyl-Labs/Sibyl-Memory",
+      "mlennie/hermes-mcp",
+      "cx2002302-lang/zettelkasten-second-memory"
+    ],
+    "discovered_at": "2026-07-30T05:03:35.047053+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "988hj7tczd-oss/skill-tool",
+    "url": "https://github.com/988hj7tczd-oss/skill-tool",
+    "description": "AI Agent Skill \u84b8\u998f\u5de5\u574a \u2014 \u4ece\u5404\u5927\u5e73\u53f0\uff08Claude Code / Cursor / GPTs / MCP / Dify / Coze\uff09\u84b8\u998f\u9ad8\u8d28\u91cf skill\uff0c\u9002\u914d Hermes Agent \u683c\u5f0f\u3002\u6280\u80fd\u5e02\u573a\u548c\u9ad8\u8d28\u91cf AI Agent \u6280\u80fd\u96c6\u5408\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": "TeX",
+    "topics": [],
+    "updated_at": "2026-07-30T01:02:26Z",
+    "category": "mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/superpowers-zh",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-07-30T05:03:38.050549+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hermes-gadget/ForgeDeck",
+    "url": "https://github.com/hermes-gadget/ForgeDeck",
+    "description": "Persistent Codex session dashboard and MCP server \u2014 launch, monitor, and control AI coding agents that survive disconnects.",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-30T00:45:26Z",
+    "category": "mcp",
+    "score": 27,
+    "tier": "LOW_PRIORITY",
+    "score_reasons": [
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T05:03:41.053962+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "plow-pbc/seed-hermes-ph-gateway",
+    "url": "https://github.com/plow-pbc/seed-hermes-ph-gateway",
+    "description": "Hermes seed: Product Hunt gateway client (plugin + skill). Install into seed-hermes; shared ph-gateway is external.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-30T00:39:48Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T05:03:50.784855+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "prantikmedhi/notion-cli-agent",
+    "url": "https://github.com/prantikmedhi/notion-cli-agent",
+    "description": "Standalone Notion CLI plugin + multi-skill pack for Hermes and other AI agents",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-29T18:30:13Z",
+    "category": "skills",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "uzairansaruzi/robinhood-agent-skill"
+    ],
+    "discovered_at": "2026-07-30T05:03:53.787676+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cadugevaerd/hermes-skills",
+    "url": "https://github.com/cadugevaerd/hermes-skills",
+    "description": "Skills p\u00fablicos para Hermes Agent, espelhados e adaptados dos plugins Codex e Claude Code.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-29T14:40:00Z",
+    "category": "skills",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Undermybelt/hermes-skills-research",
+      "BBridgeers/hermes-skills"
+    ],
+    "discovered_at": "2026-07-30T05:03:56.791216+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "nicai77585213/hermes-mobile",
+    "url": "https://github.com/nicai77585213/hermes-mobile",
+    "description": "Self-contained ARM64 Android app for running Hermes Agent locally with a mobile interface.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-30T05:03:30Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T05:04:06.394405+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "TEAM-MMM01/hermes-agent",
+    "url": "https://github.com/TEAM-MMM01/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-30T05:02:59Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-30T05:04:09.397934+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yoropico/hermes-skill-loop",
+    "url": "https://github.com/yoropico/hermes-skill-loop",
+    "description": "A closed learning loop for Claude Code: distills reusable procedures from your sessions into ~/.claude/skills/, tracks usage, and curates them (archive stale, pin proven, never delete). Ships a JSONL run log and a --dry-run preview. Curator design ported from NousResearch's Hermes Agent; code independent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-30T01:23:37Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "luluthehermeticcrabBot/phronesis"
+    ],
+    "discovered_at": "2026-07-30T05:05:31.683800+00:00",
+    "status": "pending"
   }
 ]

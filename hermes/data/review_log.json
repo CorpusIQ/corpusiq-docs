@@ -7634,5 +7634,103 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-29T08:07:49.446306+00:00"
+  },
+  {
+    "repo": "epicsagas/AgentGlance",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T05:06:00.652260+00:00"
+  },
+  {
+    "repo": "comedy1024/hermes-agent-desktop",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T05:06:00.652264+00:00"
+  },
+  {
+    "repo": "deglan-rivas/custom-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T05:06:00.652266+00:00"
+  },
+  {
+    "repo": "ahmadrosid/nakama",
+    "score": 72,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-30T05:06:00.652268+00:00"
+  },
+  {
+    "repo": "RANJIANG23/codex-hermes-worker",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T05:06:00.652270+00:00"
+  },
+  {
+    "repo": "jpmoo/hermesnotes",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T05:06:00.652272+00:00"
+  },
+  {
+    "repo": "988hj7tczd-oss/skill-tool",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T05:06:00.652273+00:00"
+  },
+  {
+    "repo": "hermes-gadget/ForgeDeck",
+    "score": 27,
+    "tier": "LOW_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T05:06:00.652275+00:00"
+  },
+  {
+    "repo": "plow-pbc/seed-hermes-ph-gateway",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T05:06:00.652277+00:00"
+  },
+  {
+    "repo": "prantikmedhi/notion-cli-agent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T05:06:00.652278+00:00"
+  },
+  {
+    "repo": "cadugevaerd/hermes-skills",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T05:06:00.652281+00:00"
+  },
+  {
+    "repo": "nicai77585213/hermes-mobile",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T05:06:00.652283+00:00"
+  },
+  {
+    "repo": "TEAM-MMM01/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T05:06:00.652285+00:00"
+  },
+  {
+    "repo": "yoropico/hermes-skill-loop",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T05:06:00.652286+00:00"
   }
 ]

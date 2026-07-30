@@ -1,21 +1,21 @@
 ---
 title: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem — 140+ repos, tools, skills, and integrations
-last_updated: 2026-07-27
+description: Comprehensive directory of the Hermes Agent ecosystem — 156+ repos, tools, skills, and integrations
+last_updated: 2026-07-29
 ---
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **155+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **156+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **155+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **156+ repos indexed.**
 
 ## 📊 Category Overview
 
 | Category | Repos | Description |
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
-| 🧠 Core Framework | 7 | Core Hermes Agent repos, official builds |
+| 🧠 Core Framework | 8 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 10 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 6 | Community forks with significant changes |
 || 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
@@ -100,6 +100,14 @@ _Core Hermes Agent repos, official builds_
 >🦭 A cross-device desktop AI agent with memory, autonomous goals, dynamic workflows, and headless deployment — compatible with Hermes Agent, OpenClaw, Claude Code, Codex, and more.
 
 **Language:** Rust | **Topics:** agent, ai, ai-assistant, cross-device, desktop-app, hermes-agent, mcp, openclaw, personal | **Score:** 75/100
+
+---
+
+### [ahmadrosid/nakama](https://github.com/ahmadrosid/nakama) ⭐ 161
+
+>It's like Hermes Agent & OpenClaw but designed to work nicely with teams.
+
+**Language:** TypeScript | **Topics:** agent, ai-agent, hermes-agent, multi-agent, team-collaboration | **Score:** 72/100
 
 ---
 
@@ -1296,6 +1304,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*155+ repositories in the Hermes ecosystem. Last updated: 2026-07-29. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*156+ repositories in the Hermes ecosystem. Last updated: 2026-07-29. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

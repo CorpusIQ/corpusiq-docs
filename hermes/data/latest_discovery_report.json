@@ -1,70 +1,35 @@
 {
-  "run_time": "2026-07-27T05:06:44.105619+00:00",
+  "run_time": "2026-07-30T05:06:00.676279+00:00",
   "new_approved": [
     {
-      "name": "liaohch3/claude-tap",
-      "url": "https://github.com/liaohch3/claude-tap",
-      "description": "Intercept and inspect Coding Agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, Kimi/Kimi Code, Pi, and Hermes in a local trace viewer.",
-      "stars": 2863,
-      "forks": 250,
-      "language": "Python",
-      "topics": [
-        "agent-debugging",
-        "agent-observability",
-        "ai-agents",
-        "ai-tools",
-        "api-debugging",
-        "claude-code",
-        "codex",
-        "codex-cli",
-        "cursor-cli",
-        "developer-tools",
-        "gemini-cli",
-        "hermes-agent",
-        "kimi",
-        "llm",
-        "llm-proxy",
-        "opencode",
-        "pi-coding-agent",
-        "proxy",
-        "trace",
-        "trace-viewer"
-      ],
-      "updated_at": "2026-07-27T05:02:13Z",
+      "name": "ahmadrosid/nakama",
+      "url": "https://github.com/ahmadrosid/nakama",
+      "description": "It's like Hermes Agent & OpenClaw but designed to work nicely with teams.",
+      "stars": 161,
+      "forks": 16,
+      "language": "TypeScript",
+      "topics": [],
+      "updated_at": "2026-07-30T04:58:25Z",
       "category": "core",
-      "score": 76,
+      "score": 72,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
-        "hermes_mention",
-        "high_stars_1000+",
-        "detailed_description",
-        "active_week"
+        "direct_hermes_reference",
+        "moderate_stars_100+",
+        "active_week",
+        "has_homepage"
       ],
-      "near_duplicates": [
-        "farion1231/cc-switch",
-        "colbymchenry/codegraph",
-        "iOfficeAI/AionUi",
-        "longyunfeigu/learn-hermes-agent",
-        "itechmeat/open-second-brain",
-        "ZeroPointRepo/awesome-hermes-skills",
-        "mlennie/hermes-mcp",
-        "ahonore42/logios-brain",
-        "tale-project/tale",
-        "CodeAbra/iai-personal-memory-engine",
-        "AVIDS2/memorix",
-        "agent-of-empires/agent-of-empires",
-        "xintaofei/codeg"
-      ],
-      "discovered_at": "2026-07-27T05:04:07.714668+00:00",
+      "near_duplicates": [],
+      "discovered_at": "2026-07-30T05:03:22.443311+00:00",
       "status": "approved",
-      "approved_at": "2026-07-27T05:06:44.079539+00:00"
+      "approved_at": "2026-07-30T05:06:00.652247+00:00"
     }
   ],
   "stats": {
-    "total_found": 11,
+    "total_found": 14,
     "auto_approved": 1,
-    "pending_review": 10,
-    "total_approved": 155,
-    "total_pending": 984
+    "pending_review": 13,
+    "total_approved": 156,
+    "total_pending": 1070
   }
 }
