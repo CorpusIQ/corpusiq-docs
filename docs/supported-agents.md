@@ -190,7 +190,7 @@ A: Ask your agent: 'What data sources are connected to CorpusIQ?' It should list
 - **[AI Chat Users Guide](/docs/ai-chat-users)**  --  Natural language queries at demo.corpusiq.io  
 - **[Supported AI Agents](/docs/supported-agents)**  --  MCP config for Claude, Cursor, Hermes, Windsurf  
 - **[CorpusIQ Quick Start](/docs/quick-start)**  --  Get running in under 5 minutes  
-- **[CorpusIQ Connectors Directory](/docs/connectors)**  --  All 50+ data source integrations  
+- **[CorpusIQ Connectors Directory](/docs/connectors)**  --  All 37+ data source integrations  
 - **[Enterprise AI Data Access](/docs/enterprise-ai-data-access)**  --  SSO, SAML, SOC 2 compliance  
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*

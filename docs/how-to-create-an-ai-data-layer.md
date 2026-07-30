@@ -143,7 +143,7 @@ Resist the urge to copy data into a central repository. The AI data layer querie
 CorpusIQ IS the AI data layer. It provides:
 
 1. **Standardized protocol (MCP)**  --  any AI can connect, discover, and query
-2. **50+ pre-built connectors**  --  CRM, accounting, analytics, payments, comms, files
+2. **37+ pre-built connectors**  --  CRM, accounting, analytics, payments, comms, files
 3. **Zero infrastructure**  --  fully managed, no servers to run
 4. **Real-time queries**  --  no ETL, no warehouse, no batch windows
 5. **Cross-source orchestration**  --  one question, multiple sources, unified answer

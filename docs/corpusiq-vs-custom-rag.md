@@ -39,7 +39,7 @@ A production-grade custom RAG system requires:
 
 ## What CorpusIQ Provides
 
-1. **Pre-built MCP connectors:** 50+ data sources with OAuth authentication. Connect in one click.
+1. **Pre-built MCP connectors:** 37+ data sources with OAuth authentication. Connect in one click.
 
 2. **No ETL:** Queries run against live APIs. No data movement, no pipeline maintenance.
 

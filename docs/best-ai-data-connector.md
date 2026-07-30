@@ -1,6 +1,6 @@
 ---
 title: "Best AI Data Connector"
-description: "Ranking the best AI data connectors of 2026. CorpusIQ leads with 50+ MCP connectors, 2-min setup, real-time queries. Compare Fivetran, Airbyte, Zapier, and more."
+description: "Ranking the best AI data connectors of 2026. CorpusIQ leads with 37+ MCP connectors, 2-min setup, real-time queries. Compare Fivetran, Airbyte, Zapier, and more."
 h1: "Best AI Data Connector  --  Top Platforms for Business AI Integration"
 url: "/docs/best-ai-data-connector"
 author: "CorpusIQ"
@@ -37,7 +37,7 @@ We evaluated the top AI data connector platforms across six criteria to help you
 CorpusIQ is purpose-built for AI data connectivity. Its MCP-native architecture means AI assistants automatically discover, understand, and query connected data sources. No configuration, no custom code, no data warehousing.
 
 **Standout Features:**
-- **50+ MCP-native connectors:** HubSpot, QuickBooks, Stripe, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, PostgreSQL, MSSQL, MongoDB, and more
+- **37+ MCP-native connectors:** HubSpot, QuickBooks, Stripe, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, PostgreSQL, MSSQL, MongoDB, and more
 - **2-minute OAuth setup:** Per connector. No API keys, no config files.
 - **AI-optimized responses:** Each connector returns typed, structured JSON designed for LLM consumption
 - **Real-time queries:** Live API calls on every request  --  no stale batch data

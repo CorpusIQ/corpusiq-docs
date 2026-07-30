@@ -43,7 +43,7 @@ CorpusIQ uses the Model Context Protocol (MCP) to create a live bridge between C
 
 **Advantages:**
 - **Real-time data:** Queries live APIs  --  no exports, no uploads
-- **50+ sources:** CRM, accounting, analytics, payments, email, and more
+- **37+ sources:** CRM, accounting, analytics, payments, email, and more
 - **Cross-source queries:** "Compare HubSpot pipeline to QuickBooks revenue"
 - **Enterprise security:** Read-only, OAuth, no data storage
 - **Zero maintenance:** Fully managed platform
