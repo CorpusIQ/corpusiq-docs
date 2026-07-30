@@ -31,7 +31,11 @@ mcp_servers:
   corpusiq:
     url: "https://mcp2.corpusiq.io/mcp"
     transport: "streamable-http"
+    headers:
+      Authorization: "Bearer <jwt>"
 ```
+
+The `Authorization` header carries the JWT obtained during device authentication. The transport must be `streamable-http` (not `sse` or `stdio`).
 
 Or if using `hermes mcp` CLI:
 
@@ -41,9 +45,52 @@ hermes mcp add corpusiq --url https://mcp2.corpusiq.io/mcp --transport streamabl
 
 ## 4. Authenticate
 
-Hermes will open a device auth link. Open it in a browser, approve the connection. The JWT token auto-saves.
+CorpusIQ uses OAuth 2.0 Device Authorization Grant for CLI tools and agent loops. The flow:
 
-## 5. Ask questions
+1. Generate a device code: `POST https://mcp2.corpusiq.io/oauth/device/authorize`
+2. Open the verification URL in a browser and approve
+3. Exchange the device code for tokens: `POST https://mcp2.corpusiq.io/oauth/token` with form data containing ONLY `grant_type=urn:ietf:params:oauth:grant-type:device_code` and `device_code=<code>`. Do NOT include `client_id`.
+4. Save both `access_token` (60-min expiry) and `refresh_token` (30-day expiry) to `mcp_tokens.json`
+5. Set the JWT in config: `headers.Authorization: Bearer <access_token>`
+
+For the Python device login script, see `device_login.py` in the corpusiq-docs repository.
+
+When the access token expires, refresh silently:
+```bash
+curl -X POST https://mcp2.corpusiq.io/oauth/token \
+  -d "grant_type=refresh_token&refresh_token=<saved_refresh_token>"
+```
+
+The refresh token flow is live in production. One device OAuth reconnect after July 28, 2026 mints the 30-day refresh credential. No hourly babysitting required.
+
+## 5. Call tools correctly
+
+All CorpusIQ MCP tool calls must nest query parameters inside the `params` key:
+
+```python
+# CORRECT — params nested
+await session.call_tool("search_console_connector", {
+    "action": "get_performance",
+    "params": {
+        "site_url": "sc-domain:corpusiq.io",
+        "start_date": "2026-07-01",
+        "end_date": "2026-07-28",
+        "dimensions": ["query"],
+        "row_limit": 10
+    }
+})
+
+# WRONG — flat params silently return empty or fail
+await session.call_tool("search_console_connector", {
+    "action": "get_performance",
+    "site_url": "...",
+    ...
+})
+```
+
+The tool inputSchema defines `action` and `params` as the only two properties. All query parameters go inside `params`. Flat parameters alongside `action` will produce zero results or `Tool execution failed` errors.
+
+## 6. Ask questions
 
 Now your Hermes Agent can answer business questions from live data:
 
@@ -55,7 +102,7 @@ Now your Hermes Agent can answer business questions from live data:
 
 ## Tools available
 
-CorpusIQ exposes all 37+ connectors as MCP tools. Hermes auto-discovers them. No code. No SDK. Just connect and ask.
+CorpusIQ exposes 40+ connectors as MCP tools. Hermes auto-discovers them. No code. No SDK. Just connect and ask.
 
 ## Read-only guarantee
 
@@ -63,13 +110,15 @@ All CorpusIQ connections are read-only by design. OAuth scopes only request read
 
 ## Token refresh for crons
 
-If you're running Hermes crons with CorpusIQ, the JWT expires hourly. Use the token refresh guard:
+The refresh token (30-day expiry) is now available in production. Save both `access_token` and `refresh_token` from the device OAuth response. When the access token expires, POST `grant_type=refresh_token` to `/oauth/token` for a new one. Never overwrite the refresh token when updating the access token.
+
+For cron jobs, run the refresh guard before every execution:
 
 ```bash
-python3 token_refresh_guard.py && hermes run "your task"
+python3 refresh_mcp_jwt.py && hermes run "your task"
 ```
 
-This checks token validity before every run and auto-refreshes if needed.
+The guard script checks token validity, refreshes using the saved refresh token if expired, and updates `config.yaml` automatically.
 
 ---
 

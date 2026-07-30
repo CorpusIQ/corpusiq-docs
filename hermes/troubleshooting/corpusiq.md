@@ -11,15 +11,54 @@ Common issues when connecting CorpusIQ to Hermes Agent.
 
 **Symptom:** Crons that use CorpusIQ fail with 401 or "Chat not found" delivery errors.
 
-**Root cause:** The CorpusIQ JWT token expires after 1 hour. Cron jobs that run infrequently will have an expired token.
+**Root cause:** The CorpusIQ JWT access token expires after 60 minutes. Cron jobs that run infrequently will have an expired token.
 
-**Fix:** Use the token refresh guard before every cron run:
+**Fix:** Use the refresh token flow. The server now mints a 30-day refresh token alongside the 60-minute access token. Save both from the device OAuth response. When the access token expires, POST `grant_type=refresh_token` to `/oauth/token`:
 
 ```bash
-python3 /path/to/token_refresh_guard.py && hermes run "your cron task"
+curl -X POST https://mcp2.corpusiq.io/oauth/token \
+  -d "grant_type=refresh_token&refresh_token=<saved_value>"
 ```
 
-The guard script checks token validity and refreshes if needed.
+For crons, run the refresh guard:
+```bash
+python3 refresh_mcp_jwt.py && hermes run "your cron task"
+```
+
+The guard script refreshes using the saved refresh token and updates `config.yaml` automatically.
+
+If you are still on an older JWT obtained before July 28, 2026, do one device OAuth reconnect to receive the refresh token.
+
+## Tool calls return empty or "Tool execution failed"
+
+**Symptom:** CorpusIQ tools return "Retrieved 0 results" or "Tool execution failed" even when data exists on other clients (e.g., Claude.ai).
+
+**Root cause:** Tool call parameters are passed flat alongside `action` instead of nested inside `params`.
+
+**Fix:** All CorpusIQ MCP tool calls must nest query parameters inside the `params` key:
+
+```python
+# CORRECT
+await session.call_tool("search_console_connector", {
+    "action": "get_performance",
+    "params": {
+        "site_url": "sc-domain:corpusiq.io",
+        "start_date": "2026-07-01",
+        "end_date": "2026-07-28",
+        "dimensions": ["query"],
+        "row_limit": 10
+    }
+})
+
+# WRONG — flat params silently fail
+await session.call_tool("search_console_connector", {
+    "action": "get_performance",
+    "site_url": "sc-domain:corpusiq.io",
+    ...
+})
+```
+
+The tool inputSchema defines only `action` and `params` as properties. All query parameters go inside `params`.
 
 ## "mcpServer not found"
 
