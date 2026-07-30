@@ -36,8 +36,7 @@ The repo is actively maintained with daily automated updates:
 
 ## Ongoing doc gaps
 
-- **Connector count inconsistency (July 28, 2026):** ~15 pages still use "50+ connectors" while the canonical number is "37+". Fixed in `docs/index.md` and `docs/connectors.md` this cycle. Remaining pages needing sweep: `docs/best-ai-data-connector.md`, `docs/corpusiq-vs-custom-rag.md`, `docs/how-to-connect-business-data-to-chatgpt.md`, `docs/how-to-use-ai-with-business-data.md`, `docs/hubspot-business-intelligence.md`, `docs/security.md`, `docs/ai-for-business-intelligence.md`, `docs/best-mcp-server-for-business.md`, `docs/how-to-create-an-ai-data-layer.md`.
-- **ai-agent-users.md:** Uses "38+" — should be "37+" for consistency.
+- **Connector count consistency ✅ (July 30, 2026):** All 18 pages (27 instances) normalized to canonical "37+". Full sweep complete — zero remaining "50+ connector" or "38+ connector" references in docs/. Audit verified by grep.
 - **Screenshots:** Quickstart screenshots pending — low priority, no user complaints.
 - **DOC-GAP connectors:** 7 connectors (amazon_seller, gohighlevel, google_workspace, gunbroker, mongodb, postgres, postscript) in the connector registry need verified vendor setup steps — tracked in connector registry, not docs repo.
 
