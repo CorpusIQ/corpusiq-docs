@@ -4828,5 +4828,37 @@
     "discovered_at": "2026-07-30T06:04:09.057298+00:00",
     "status": "approved",
     "approved_at": "2026-07-30T06:06:02.845983+00:00"
+  },
+  {
+    "name": "uzairansaruzi/hermex",
+    "url": "https://github.com/uzairansaruzi/hermex",
+    "description": "Native iPhone app for your Hermes agent",
+    "stars": 953,
+    "forks": 112,
+    "language": "Swift",
+    "topics": [
+      "hermes",
+      "hermes-agent",
+      "hermex",
+      "ios",
+      "llm",
+      "self-hosted",
+      "swift",
+      "swiftui"
+    ],
+    "updated_at": "2026-07-30T07:02:40Z",
+    "category": "core",
+    "score": 77,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "moderate_stars_100+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T07:04:40.216151+00:00",
+    "status": "approved",
+    "approved_at": "2026-07-30T07:07:06.439775+00:00"
   }
 ]

@@ -6,9 +6,9 @@ last_updated: 2026-07-30
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **157+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **158+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **157+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **158+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -27,7 +27,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **157+ reposit
 | 📦 SDKs & Libraries | 1 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 1 | Security tools, compliance, audit |
 | 🔧 Skills & Plugins | 36 | Reusable skills, plugins, extensions, tools |
-| 🖥️ Interfaces & UI | 26 | Desktop apps, web UIs, dashboards, terminals |
+| 🖥️ Interfaces & UI | 27 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
 
@@ -1169,6 +1169,14 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
+### [uzairansaruzi/hermex](https://github.com/uzairansaruzi/hermex) ⭐ 953
+
+>Native iPhone app for your Hermes agent
+
+**Score:** 77/100
+
+---
+
 ### [unmodeled-tyler/vessel-browser](https://github.com/unmodeled-tyler/vessel-browser) ⭐ 94
 
 >Built from the ground-up for agents, Vessel Browser is an open source AI browser for Linux/Mac/Windows that provides a durable state, MCP control, and BYOK with full autonomous browsing. Use with Hermes Agent, OpenClaw, or connect to your favorite API provider.
@@ -1312,6 +1320,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*156+ repositories in the Hermes ecosystem. Last updated: 2026-07-29. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*158+ repositories in the Hermes ecosystem. Last updated: 2026-07-30. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

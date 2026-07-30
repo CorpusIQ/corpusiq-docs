@@ -7788,5 +7788,68 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-30T06:06:02.846013+00:00"
+  },
+  {
+    "repo": "Stobee/HermesAgentNPC_Plugin",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T07:07:06.439789+00:00"
+  },
+  {
+    "repo": "zhchxiao123/coderfleet",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T07:07:06.439793+00:00"
+  },
+  {
+    "repo": "uzairansaruzi/hermex",
+    "score": 77,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-07-30T07:07:06.439796+00:00"
+  },
+  {
+    "repo": "itr-del/context-switcher",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T07:07:06.439798+00:00"
+  },
+  {
+    "repo": "volschin/voip-agent",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T07:07:06.439799+00:00"
+  },
+  {
+    "repo": "dawn-jg/hermesbee",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T07:07:06.439801+00:00"
+  },
+  {
+    "repo": "k-antwi/hermes-agent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T07:07:06.439803+00:00"
+  },
+  {
+    "repo": "robertlee2014/hermes-tos",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T07:07:06.439805+00:00"
+  },
+  {
+    "repo": "frankupup/enikk",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-30T07:07:06.439807+00:00"
   }
 ]

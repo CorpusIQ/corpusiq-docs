@@ -30563,5 +30563,192 @@
     "near_duplicates": [],
     "discovered_at": "2026-07-30T06:04:11.060597+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Stobee/HermesAgentNPC_Plugin",
+    "url": "https://github.com/Stobee/HermesAgentNPC_Plugin",
+    "description": "AI Generated UE5 Plugin",
+    "stars": 0,
+    "forks": 0,
+    "language": "C++",
+    "topics": [],
+    "updated_at": "2026-07-30T07:03:34Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T07:04:34.210047+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "zhchxiao123/coderfleet",
+    "url": "https://github.com/zhchxiao123/coderfleet",
+    "description": "\u9762\u5411 UI \u7aef\u7f16\u7a0b\u7684\u591a\u8d26\u53f7 AI \u5f00\u53d1\u5de5\u4f5c\u53f0\u3002\u5728 Web \u63a7\u5236\u53f0\u91cc\u63d0\u4ea4\u4efb\u52a1\u3001\u8ddf\u8e2a\u65e5\u5fd7\u3001\u7ba1\u7406\u9879\u76ee\u548c\u8d26\u53f7\uff0c\u628a Codex CLI\u3001Claude Code \u3001Hermes Agent\u4ee5\u53ca OpenCode \u8d26\u53f7\u7ec4\u7ec7\u6210\u4e00\u5957\u53ef\u89c6\u5316\u5f00\u53d1\u8c03\u5ea6\u7cfb\u7edf\u3002",
+    "stars": 8,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "claudecode",
+      "codex",
+      "opencode"
+    ],
+    "updated_at": "2026-07-30T07:02:29Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T07:04:37.213144+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "itr-del/context-switcher",
+    "url": "https://github.com/itr-del/context-switcher",
+    "description": "Context switcher skill for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-30T07:01:53Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T07:04:43.219208+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "volschin/voip-agent",
+    "url": "https://github.com/volschin/voip-agent",
+    "description": "German-language voice AI agent \u2014 Fritzbox SIP + PJSIP + Qwen3-ASR/TTS + Nous Hermes on DGX Spark",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-30T07:00:42Z",
+    "category": "core",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T07:04:46.222670+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "dawn-jg/hermesbee",
+    "url": "https://github.com/dawn-jg/hermesbee",
+    "description": "Web Scraping Tools for Developers & AI Agents. Local API (ScrapeBox) + MCP Servers.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-30T06:56:23Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server"
+    ],
+    "discovered_at": "2026-07-30T07:04:55.803755+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "k-antwi/hermes-agent",
+    "url": "https://github.com/k-antwi/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-26T11:39:23Z",
+    "category": "forks",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_quarter",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-30T07:05:12.099271+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "robertlee2014/hermes-tos",
+    "url": "https://github.com/robertlee2014/hermes-tos",
+    "description": "Hermes AI Agent (NousResearch/hermes-agent) + Hermes WebUI (nesquena/hermes-webui) - \u6574\u5408\u6253\u5305\u4e3a TOS \u539f\u751f .tpk \u5e94\u7528\uff0c\u7eaf\u539f\u751f\u65e0 Docker\uff0c\u652f\u6301\u5728\u7ebf\u81ea\u5347\u7ea7",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-07-30T07:04:58Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T07:05:15.102397+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "frankupup/enikk",
+    "url": "https://github.com/frankupup/enikk",
+    "description": "Self-improving GUI Agent for desktop automation. Progressive perception, natural language teachable, 100% open source. Powered by Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-30T07:02:27Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T07:05:18.105992+00:00",
+    "status": "pending"
   }
 ]
