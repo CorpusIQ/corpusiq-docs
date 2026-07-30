@@ -30369,5 +30369,199 @@
     ],
     "discovered_at": "2026-07-30T05:05:31.683800+00:00",
     "status": "pending"
+  },
+  {
+    "name": "MartyYao/research-media-skill",
+    "url": "https://github.com/MartyYao/research-media-skill",
+    "description": "\u641c\u7d22\u7ecf\u7ba1\u4e4b\u5bb6(bbs.pinggu.org)\u7b49\u4e2d\u6587\u8bba\u575b\u83b7\u53d6\u5b9e\u8bc1\u5b9e\u64cd\u65b9\u6848\u7684 Hermes Agent Skill",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-30T05:49:45Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T06:03:36.082046+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "xdCloudy/Hermes-Local",
+    "url": "https://github.com/xdCloudy/Hermes-Local",
+    "description": "Configurable Windows-native, loopback-only Hermes Agent workstation with CPU/CUDA llama.cpp and Hermes Launcher",
+    "stars": 2,
+    "forks": 0,
+    "language": "PowerShell",
+    "topics": [
+      "ai-agent",
+      "cuda",
+      "electron",
+      "hermes-agent",
+      "llama-cpp",
+      "local-ai",
+      "offline-first",
+      "privacy",
+      "windows"
+    ],
+    "updated_at": "2026-07-30T06:02:02Z",
+    "category": "core",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T06:03:38.084511+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "s4w3d0ff/hermes-agent",
+    "url": "https://github.com/s4w3d0ff/hermes-agent",
+    "description": "Backup repo for hermes skills and profiles",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-30T06:01:36Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-30T06:03:40.086940+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wolfgangyu/content-writer",
+    "url": "https://github.com/wolfgangyu/content-writer",
+    "description": "\u878d\u5408 Hermes Agent \u7814\u7a76\u8207 Claude Code \u5beb\u4f5c\u7684\u96d9\u6280\u80fd\u5167\u5bb9\u5275\u4f5c\u5957\u4ef6\uff0c\u5c08\u6ce8\u53f0\u7063\u7e41\u9ad4\u4e2d\u6587\u5e02\u5834\u3002\u5f9e\u77e5\u8b58\u5eab\u63d0\u8b70\u4e3b\u984c \u2192 \u5354\u4f5c\u5beb\u4f5c \u2192 \u5171\u9cf4\u8a3a\u65b7 \u2192 Hugo/Hinode + X/Threads \u591a\u5e73\u53f0\u8f38\u51fa\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "ai-writing",
+      "claude-code",
+      "content-creation",
+      "hermes-agent",
+      "hugo",
+      "multi-agent",
+      "obsidian",
+      "skill-system",
+      "taiwan",
+      "threads-social",
+      "tw-content",
+      "x-threads"
+    ],
+    "updated_at": "2026-07-30T05:59:30Z",
+    "category": "core",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T06:03:42.089194+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "csorodrigo/papiro-agents-ci",
+    "url": "https://github.com/csorodrigo/papiro-agents-ci",
+    "description": "Trusted isolated CI and draft-PR broker for Hermes agents",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-07-30T05:57:19Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T06:03:44.091070+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "macchiato-chat/macchiato",
+    "url": "https://github.com/macchiato-chat/macchiato",
+    "description": "Chat with your own AI agent, from anywhere. Connector for Hermes (source-available).",
+    "stars": 1,
+    "forks": 2,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-30T05:55:34Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "unmodeled-tyler/vessel-browser"
+    ],
+    "discovered_at": "2026-07-30T06:03:46.093420+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "gl00mt1t4n/loom-kg",
+    "url": "https://github.com/gl00mt1t4n/loom-kg",
+    "description": "Linked Obsidian Operating Memory Knowledge Graph: a cloneable Obsidian + agent knowledge graph foundation",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-memory",
+      "ai-agents",
+      "claude-code",
+      "hermes-agent",
+      "knowledge-graph",
+      "markdown",
+      "obsidian",
+      "personal-knowledge-management"
+    ],
+    "updated_at": "2026-07-30T06:02:10Z",
+    "category": "forks",
+    "score": 41,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T06:04:11.060597+00:00",
+    "status": "pending"
   }
 ]

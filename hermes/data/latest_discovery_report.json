@@ -1,35 +1,54 @@
 {
-  "run_time": "2026-07-30T05:06:00.676279+00:00",
+  "run_time": "2026-07-30T06:06:02.870311+00:00",
   "new_approved": [
     {
-      "name": "ahmadrosid/nakama",
-      "url": "https://github.com/ahmadrosid/nakama",
-      "description": "It's like Hermes Agent & OpenClaw but designed to work nicely with teams.",
-      "stars": 161,
-      "forks": 16,
-      "language": "TypeScript",
-      "topics": [],
-      "updated_at": "2026-07-30T04:58:25Z",
-      "category": "core",
+      "name": "EverMind-AI/Raven",
+      "url": "https://github.com/EverMind-AI/Raven",
+      "description": "The memory-first, self-improving agent harness built on EverOS, with MiroThinker-powered deep research and reasoning.",
+      "stars": 3228,
+      "forks": 53,
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "codex",
+        "deep-research",
+        "deep-research-agent",
+        "evermind",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "openai",
+        "openclaw",
+        "openhuman",
+        "self-evolving",
+        "self-improving"
+      ],
+      "updated_at": "2026-07-30T06:01:50Z",
+      "category": "forks",
       "score": 72,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
-        "direct_hermes_reference",
-        "moderate_stars_100+",
+        "hermes_topic",
+        "high_stars_1000+",
+        "detailed_description",
         "active_week",
         "has_homepage"
       ],
       "near_duplicates": [],
-      "discovered_at": "2026-07-30T05:03:22.443311+00:00",
+      "discovered_at": "2026-07-30T06:04:09.057298+00:00",
       "status": "approved",
-      "approved_at": "2026-07-30T05:06:00.652247+00:00"
+      "approved_at": "2026-07-30T06:06:02.845983+00:00"
     }
   ],
   "stats": {
-    "total_found": 14,
+    "total_found": 8,
     "auto_approved": 1,
-    "pending_review": 13,
-    "total_approved": 156,
-    "total_pending": 1070
+    "pending_review": 7,
+    "total_approved": 157,
+    "total_pending": 1077
   }
 }

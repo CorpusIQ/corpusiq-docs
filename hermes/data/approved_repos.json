@@ -4786,5 +4786,47 @@
     "discovered_at": "2026-07-30T05:03:22.443311+00:00",
     "status": "approved",
     "approved_at": "2026-07-30T05:06:00.652247+00:00"
+  },
+  {
+    "name": "EverMind-AI/Raven",
+    "url": "https://github.com/EverMind-AI/Raven",
+    "description": "The memory-first, self-improving agent harness built on EverOS, with MiroThinker-powered deep research and reasoning.",
+    "stars": 3228,
+    "forks": 53,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "codex",
+      "deep-research",
+      "deep-research-agent",
+      "evermind",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "openai",
+      "openclaw",
+      "openhuman",
+      "self-evolving",
+      "self-improving"
+    ],
+    "updated_at": "2026-07-30T06:01:50Z",
+    "category": "forks",
+    "score": 72,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_topic",
+      "high_stars_1000+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-30T06:04:09.057298+00:00",
+    "status": "approved",
+    "approved_at": "2026-07-30T06:06:02.845983+00:00"
   }
 ]

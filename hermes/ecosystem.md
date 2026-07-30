@@ -1,14 +1,14 @@
 ---
 title: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem — 156+ repos, tools, skills, and integrations
-last_updated: 2026-07-29
+description: Comprehensive directory of the Hermes Agent ecosystem — 157+ repos, tools, skills, and integrations
+last_updated: 2026-07-30
 ---
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **156+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **157+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **156+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **157+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -17,7 +17,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **156+ reposit
 | 🎬 Content & Media | 1 | Video, social media, content generation |
 | 🧠 Core Framework | 8 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 10 | Docker, Kubernetes, production hosting |
-| 🍴 Forks & Derivatives | 6 | Community forks with significant changes |
+| 🍴 Forks & Derivatives | 7 | Community forks with significant changes |
 || 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 6 | Model Context Protocol servers & integrations |
 | 💾 Memory & Knowledge | 37 | Persistent memory, knowledge graphs, context systems |
@@ -242,6 +242,14 @@ _Community forks with significant changes_
 >Real-time token, cost, and AI limits widget with multi-device sync for Claude Code, Codex, OpenCode, Hermes, OpenClaw, Cursor, and more.
 
 **Language:** JavaScript | **Topics:** ai, ai-tools, claude-code, codex, cursor | **Score:** 76/100
+
+---
+
+### [EverMind-AI/Raven](https://github.com/EverMind-AI/Raven) ⭐ 3,228
+
+>The memory-first, self-improving agent harness built on EverOS, with MiroThinker-powered deep research and reasoning.
+
+**Language:** Python | **Topics:** ai, ai-agents, anthropic, claude, deep-research, hermes, hermes-agent, llm, self-evolving | **Score:** 72/100
 
 ---
 
