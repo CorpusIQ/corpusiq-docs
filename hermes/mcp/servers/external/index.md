@@ -7,7 +7,18 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 29, 2026 (afternoon sweep) · **Sources:** mcp.so (22,680+ servers), mcpservers.org (10,377+ servers), SSR + sitemap scanning · **Catalog:** 123 servers (+23 guides)
+> **Last updated:** July 30, 2026 (morning sweep) · **Sources:** mcp.so (18,065+ servers), mcpservers.org (10,377+ servers), sitemap + SSR scanning · **Catalog:** 124 servers (+24 guides)
+
+---
+
+## 🆕 July 30, 2026 — Morning Sweep (1 New, 1 Guide)
+
+Sweep of mcpservers.org sitemaps (1-6 + priority) and mcp.so /servers page (76 featured). Firecrawl + web_extract DOWN — used curl-based sitemap + SSR scanning. 1 business-relevant find; 300+ sitemap re-indexes noted. Slow day — last major sweep was only 20 hours ago. [Full sweep report →](/hermes/mcp/sweeps/sweep-july30-2026-morning/)
+
+### IBANforge MCP ★★ — July 30
+IBAN validation, BIC/SWIFT lookup, Swiss clearing, and EMI/vIBAN classification via MCP. AI agents validate international bank details before initiating payments. 6 tools, remote Streamable HTTP, free tier. First dedicated banking-compliance MCP server. `github.com/cammac-creator/ibanforge` (2⭐) · [Guide →](/hermes/mcp/servers/external/ibanforge-mcp/)
+
+**Also identified (not catalogued):** Orders of Magnitude x402 API Catalog (1000+ pay-per-call endpoints via USDC on Base — infrastructure layer), Termany (agent-native terminal — dev tool), Floors.live (event floor plans — niche), Glasswarp (Windows PC remote control — IT/devops). ~300+ sitemap re-indexes on mcpservers.org for July 30 (chrome-devtools, context7, github, stripe, etc.) — all existing servers re-crawled, not new creations. The mcpservers.org `lastmod` field does NOT equal creation date.
 
 ---
 
