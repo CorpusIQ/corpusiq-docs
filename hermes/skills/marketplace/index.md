@@ -11,6 +11,8 @@ The Skills Marketplace is the community hub for discovering, installing, and sha
 
 ## Recent Sweeps
 
+- [🆕 July 30, 2026 — HTML/Cyber Terminal, X/Twitter Automation, Agent Dashboard, Telegram Guides (11 new skills, 204 scanned)](/hermes/skills/marketplace/new-july30-2026/)
+
 - [🆕 July 29, 2026 — Media Use Skill (182.7K installs) — Agent Media OS for HyperFrames](/hermes/skills/marketplace/new-july29-2026/)
 
 - [🆕 July 28, 2026 (Skills) — Dogfood QA, History Ingest, Imports, Marketing Dashboard, Skill Vetter, OpenClaw Backup (6 new skills, 34.4K+ installs)](/hermes/skills/marketplace/new-july28-2026-skills/)
