@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 30, 2026 (morning sweep) · **Sources:** mcp.so (18,065+ servers), mcpservers.org (10,377+ servers), sitemap + SSR scanning · **Catalog:** 124 servers (+24 guides)
+> **Last updated:** July 30, 2026 (afternoon sweep) · **Sources:** mcp.so (18,065+ servers), mcpservers.org (10,377+ servers), sitemap + SSR + GitHub issues scanning · **Catalog:** 125 servers (+25 guides)
 
 ---
 
@@ -19,6 +19,18 @@ Sweep of mcpservers.org sitemaps (1-6 + priority) and mcp.so /servers page (76 f
 IBAN validation, BIC/SWIFT lookup, Swiss clearing, and EMI/vIBAN classification via MCP. AI agents validate international bank details before initiating payments. 6 tools, remote Streamable HTTP, free tier. First dedicated banking-compliance MCP server. `github.com/cammac-creator/ibanforge` (2⭐) · [Guide →](/hermes/mcp/servers/external/ibanforge-mcp/)
 
 **Also identified (not catalogued):** Orders of Magnitude x402 API Catalog (1000+ pay-per-call endpoints via USDC on Base — infrastructure layer), Termany (agent-native terminal — dev tool), Floors.live (event floor plans — niche), Glasswarp (Windows PC remote control — IT/devops). ~300+ sitemap re-indexes on mcpservers.org for July 30 (chrome-devtools, context7, github, stripe, etc.) — all existing servers re-crawled, not new creations. The mcpservers.org `lastmod` field does NOT equal creation date.
+
+---
+
+## 🆕 July 30, 2026 — Afternoon Sweep (1 New, 1 Guide)
+
+Sweep of mcp.so /servers page (76 featured + page 2), mcp.so GitHub issues (`chatmcp/mcpso` — 10 most recent), and mcpservers.org sitemaps (1-6 + priority). Cross-referenced 279 existing catalog entries. Firecrawl + web_extract DOWN — used curl-based SSR + GitHub API. 1 business-critical find submitted since morning sweep. [Full sweep report →](/hermes/mcp/sweeps/sweep-july30-2026-afternoon/)
+
+### AfterLaunch MCP ★★★ — July 30 afternoon
+
+Agentic growth marketing MCP — 29 tools for AI answer visibility across ChatGPT, Gemini, Perplexity, and Google AI Overviews; ranked growth backlog; drafted deliverables; and ship actions. Remote MCP at `https://afterlaunch.io/api/mcp`. Anonymous discovery tier (no key needed). The first MCP server that gives AI agents direct GEO capabilities — monitor what AI answer engines say about your brand, generate prioritized growth moves, and ship them. MCP registry: `io.afterlaunch/agentic-growth-marketing` v1.0.0. `github.com/afterlaunch/mcp` (0⭐, created today) · [Guide →](/hermes/mcp/servers/external/afterlaunch-mcp/)
+
+**Also identified (not catalogued):** Quant Data MCP (measured market statistics for trading agents — 4 tools, remote MCP, 10 calls/day free — `quantdata.uk`), SQLGuard (SQL execution certificate firewall — security), Doc Bridge (deterministic repository handoffs for coding agents — dev tool), htmldrop (publish HTML/Markdown to live URL — dev tool), Tokenscope (token analysis — dev tool), liquefy-ui (React components — dev tool). Plus ~400+ sitemap re-indexes on mcpservers.org — all existing servers re-crawled.
 
 ---
 
