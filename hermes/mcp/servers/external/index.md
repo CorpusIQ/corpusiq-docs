@@ -7,7 +7,24 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 30, 2026 (afternoon sweep) · **Sources:** mcp.so (18,065+ servers), mcpservers.org (10,377+ servers), sitemap + SSR + GitHub issues scanning · **Catalog:** 125 servers (+25 guides)
+> **Last updated:** July 31, 2026 (early morning sweep) · **Sources:** mcp.so (18,065+ servers), mcpservers.org (10,377+ servers), sitemap + SSR + GitHub issues scanning · **Catalog:** 128 servers (+28 guides)
+
+---
+
+## 🆕 July 31, 2026 — Early Morning Sweep (3 New, 3 Guides)
+
+Sweep of mcp.so GitHub issues (15 most recent), mcp.so /servers SSR, and mcpservers.org sitemaps. 3 business-relevant finds submitted since yesterday afternoon's sweep. [Full sweep report →](/hermes/mcp/sweeps/sweep-july31-2026-early/)
+
+### The Bot Wire ★★★ — July 31
+40 real-time primary-source data wires — SEC EDGAR, Federal Register, federal court opinions, congressional bills, SEC/FTC enforcement, FDA approvals, Federal Reserve/FOMC, BLS/BEA, CISA CVEs. Reads original documents directly, not news coverage. AI agents answer post-cutoff questions with primary-source citations. First MCP for regulatory/legal/economic primary-source intelligence. `github.com/ArasPasha/botwire-mcp` (0⭐) · [Guide →](/hermes/mcp/servers/external/botwire-mcp/)
+
+### Pangolinfo Amazon Data MCP ★★ — July 31
+19 e-commerce and IP-compliance tools — Amazon product/review/search/niche/bestseller data, AI SERP/keyword trends, WIPO trademark search, PACER patent litigation. Consolidates marketplace intelligence + IP legal tools in one MCP. `github.com/Pangolin-spg/pangolinfo-mcp` (0⭐) · [Guide →](/hermes/mcp/servers/external/pangolinfo-mcp/)
+
+### Primate Intelligence ★★ — July 31
+Video scene understanding for AI agents via predictive world models. Register videos by URL, ask natural-language questions, get deterministic yes/no/indeterminate answers with confidence scores and clip timestamps. No hallucinated descriptions. First MCP for AI video understanding. `github.com/Primate-Intelligence/primate-intelligence-mcp` (0⭐) · [Guide →](/hermes/mcp/servers/external/primate-intelligence-mcp/)
+
+**Also identified (not catalogued):** ClawJob (agent task marketplace — dev tool), GoodMemory (local-first memory — dev tool), bomly (dependency graphs — dev tool), plori (cloud computers for agents — dev tool), NameWhisper (ENS intelligence — crypto niche). Plus ~25+ mcpservers.org sitemap re-indexes for July 31 — all well-known existing servers (Storybook, Microsoft, Qdrant, ClickUp, Metabase, Sentry, Stripe, StackOverflow, etc.).
 
 ---
 
