@@ -7963,5 +7963,33 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-31T05:05:53.332526+00:00"
+  },
+  {
+    "repo": "subinium/agf",
+    "score": 68,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T06:05:21.545825+00:00"
+  },
+  {
+    "repo": "tawaresachin/hermes-mobile",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T06:05:21.545837+00:00"
+  },
+  {
+    "repo": "getumbrel/hermes-agent-umbrel",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T06:05:21.545840+00:00"
+  },
+  {
+    "repo": "jajabong/hermes-fleet",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T06:05:21.545842+00:00"
   }
 ]
