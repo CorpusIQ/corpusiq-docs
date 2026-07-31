@@ -8047,5 +8047,61 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-31T07:07:36.303997+00:00"
+  },
+  {
+    "repo": "huang2025511/one-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T08:08:07.105401+00:00"
+  },
+  {
+    "repo": "samajesteduroyaume/Hermes-Studio",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T08:08:07.105413+00:00"
+  },
+  {
+    "repo": "686f6c61/Hermes-Research-PRISMA",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T08:08:07.105415+00:00"
+  },
+  {
+    "repo": "tinstep/hermes-anaplan-mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T08:08:07.105417+00:00"
+  },
+  {
+    "repo": "WATNYTMRZRMADOF/NestLabJarvis",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T08:08:07.105419+00:00"
+  },
+  {
+    "repo": "cuongpham2107/skills-trading-agent-hermes",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T08:08:07.105421+00:00"
+  },
+  {
+    "repo": "Martian-Engineering/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T08:08:07.105422+00:00"
+  },
+  {
+    "repo": "wrouter/hermes-wrouter-provider",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T08:08:07.105424+00:00"
   }
 ]

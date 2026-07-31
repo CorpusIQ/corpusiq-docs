@@ -31490,5 +31490,221 @@
     "near_duplicates": [],
     "discovered_at": "2026-07-31T07:05:47.194981+00:00",
     "status": "pending"
+  },
+  {
+    "name": "huang2025511/one-agent",
+    "url": "https://github.com/huang2025511/one-agent",
+    "description": "Athena Agent - Fusion of OpenClaw + Hermes + OpenSquilla design. Token-efficient, microkernel-event-driven AI agent with 3-tier memory and MetaSkill ecosystem.",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-31T08:04:50Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Lethe044/hermes-incident-commander",
+      "samrusani/AliceBot",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-07-31T08:05:38.176981+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "samajesteduroyaume/Hermes-Studio",
+    "url": "https://github.com/samajesteduroyaume/Hermes-Studio",
+    "description": "Hermes Studio is the fastest local AI engine for Apple Silicon, powered by MLX. It offers drop-in OpenAI & Anthropic API compatibility, native Hermes Agent integration with 262k context, subagent workflows, and multimodal support\u2014performing 2\u20134\u00d7 faster than Ollama.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-31T08:03:05Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "EKKOLearnAI/hermes-studio",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "CYC2002tommy/Deep-Research-Agent",
+      "mudrii/hermes-agent-docs",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "hugocarreira/agentrc",
+      "smfworks/smf-notebooklm-video-pipeline",
+      "kaankacar/stellar-agent-kit",
+      "varunlakshmaiah/hermes-compose",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "ahonore42/logios-brain",
+      "zakahadi/llm-eval-cli",
+      "anomaliagent007-hue/hermes-mimo-bridge",
+      "mrbooboo1987-creator/hermes-grok-trading-system",
+      "Bo1202/Aivy-OS",
+      "awesome-hermes-usecases",
+      "hermeshub",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem",
+      "ruvnet/metaharness",
+      "ruvnet/ruflo"
+    ],
+    "discovered_at": "2026-07-31T08:05:41.180449+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "686f6c61/Hermes-Research-PRISMA",
+    "url": "https://github.com/686f6c61/Hermes-Research-PRISMA",
+    "description": "A reproducible Hermes Agent research runtime for systematic literature reviews, full-text evidence extraction, methodological routing, and auditable publication artifacts.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "docker",
+      "docling",
+      "hermes-agent",
+      "latex",
+      "literature-review",
+      "prisma",
+      "reproducible-research",
+      "research-automation",
+      "systematic-review"
+    ],
+    "updated_at": "2026-07-31T08:02:59Z",
+    "category": "core",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "zakahadi/llm-eval-cli",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-31T08:05:44.183590+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "tinstep/hermes-anaplan-mcp",
+    "url": "https://github.com/tinstep/hermes-anaplan-mcp",
+    "description": null,
+    "stars": 0,
+    "forks": 1,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-31T07:47:32Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-31T08:05:53.791628+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "WATNYTMRZRMADOF/NestLabJarvis",
+    "url": "https://github.com/WATNYTMRZRMADOF/NestLabJarvis",
+    "description": "Local-first autonomous AI assistant integrating Ollama, Hermes, MCP tools, voice, workers, safety approvals, and NestLabserver.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-31T07:33:01Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-31T08:05:56.794636+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cuongpham2107/skills-trading-agent-hermes",
+    "url": "https://github.com/cuongpham2107/skills-trading-agent-hermes",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-31T08:06:08Z",
+    "category": "forks",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-31T08:06:13.376591+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Martian-Engineering/gbrain",
+    "url": "https://github.com/Martian-Engineering/gbrain",
+    "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-31T08:04:03Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "garrytan/gbrain"
+    ],
+    "discovered_at": "2026-07-31T08:06:16.379418+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wrouter/hermes-wrouter-provider",
+    "url": "https://github.com/wrouter/hermes-wrouter-provider",
+    "description": "WRouter model-provider plugin for Hermes (NousResearch/hermes-agent) \u2014 OpenAI-compatible AI gateway",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-31T07:37:27Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-31T08:07:38.130552+00:00",
+    "status": "pending"
   }
 ]
