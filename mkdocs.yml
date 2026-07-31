@@ -288,8 +288,16 @@ nav:
   - Skills:
     - Catalog: hermes/skills/catalog/index.md
     - Creating Skills: hermes/skills/creating-skills.md
-    - Marketplaces: hermes/skills/skill-marketplaces.md
-    - Marketplace Updates: hermes/skills/marketplace/index.md
+    
+  - SEO Content:
+    - CorpusIQ vs Viktor: hermes/compare/corpusiq-vs-viktor.md
+    - Consistent AI Answers: hermes/seo/consistent-ai-answers.md
+  - Marketplaces: hermes/skills/skill-marketplaces.md
+    
+  - SEO Content:
+    - CorpusIQ vs Viktor: hermes/compare/corpusiq-vs-viktor.md
+    - Consistent AI Answers: hermes/seo/consistent-ai-answers.md
+  - Marketplace Updates: hermes/skills/marketplace/index.md
   - MCP Servers:
     - Overview: hermes/mcp/servers/index.md
     - External Catalog: hermes/mcp/servers/external/index.md
