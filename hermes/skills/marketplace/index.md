@@ -11,6 +11,8 @@ The Skills Marketplace is the community hub for discovering, installing, and sha
 
 ## Recent Sweeps
 
+- [🆕 July 31, 2026 — Hermes Dojo (138⭐), Manim Animations (2,443⭐), Workflow Framework, Obsidian Kanban, Mission Control + 23 more (28 new skills)](/hermes/skills/marketplace/new-july31-2026/)
+
 - [🆕 July 30, 2026 — HTML/Cyber Terminal, X/Twitter Automation, Agent Dashboard, Telegram Guides (11 new skills, 204 scanned)](/hermes/skills/marketplace/new-july30-2026/)
 
 - [🆕 July 29, 2026 — Media Use Skill (182.7K installs) — Agent Media OS for HyperFrames](/hermes/skills/marketplace/new-july29-2026/)
