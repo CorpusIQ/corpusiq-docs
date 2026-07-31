@@ -30940,5 +30940,195 @@
     ],
     "discovered_at": "2026-07-30T08:06:14.357741+00:00",
     "status": "pending"
+  },
+  {
+    "name": "BrightCloud05/DAAT",
+    "url": "https://github.com/BrightCloud05/DAAT",
+    "description": "HERMES AGENT + OBSIDIAN",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-31T05:02:21Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-31T05:03:20.868969+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "omiinaya/hermes-proxy-relay",
+    "url": "https://github.com/omiinaya/hermes-proxy-relay",
+    "description": "Lightweight SOCKS5 proxy rotation relay for Hermes Agent \u2014 pool-based round-robin through user-provided proxies with dynamic 429 cooldown",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-31T05:01:22Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-31T05:03:23.872006+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rodrigogs/hermes-office-web",
+    "url": "https://github.com/rodrigogs/hermes-office-web",
+    "description": "Hermes One Office 3D \u2014 web port. Renders your agent fleet as a live 3D office.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-31T05:00:54Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "aiunlocked1412/hermes-agent-pixel"
+    ],
+    "discovered_at": "2026-07-31T05:03:26.875056+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "frdndo/omniroute-rs",
+    "url": "https://github.com/frdndo/omniroute-rs",
+    "description": "test hermes agent omniroute rs version dummy",
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-07-31T05:03:30Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-31T05:03:49.951343+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "KiberSlesar/hermes-agent-MongoDB-private",
+    "url": "https://github.com/KiberSlesar/hermes-agent-MongoDB-private",
+    "description": "WIP \u2014 NOT READY. Hermes + remote MongoDB / multi-PC. Based on NousResearch/hermes-agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-30T23:08:44Z",
+    "category": "official",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-31T05:05:12.205006+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "keamtitjp7s/hermes-lite-core",
+    "url": "https://github.com/keamtitjp7s/hermes-lite-core",
+    "description": "Minimal modular AI agent loop + pluggable skills + long-term memory + self-improvement. Upgraded from NousResearch/hermes-agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-30T22:29:49Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-31T05:05:15.207689+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "FazGPT/hermes-agent-2-agent-acp",
+    "url": "https://github.com/FazGPT/hermes-agent-2-agent-acp",
+    "description": "ACP (Agent Context Protocol) plugin for NousResearch's Hermes agent -- capability-based discovery and task routing between independently-run agents.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-30T21:45:28Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Sibyl-Labs/Sibyl-Memory"
+    ],
+    "discovered_at": "2026-07-31T05:05:18.210544+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "DJ3317/hermes-mobile",
+    "url": "https://github.com/DJ3317/hermes-mobile",
+    "description": "Hermes Mobile APP - \u57fa\u4e8e NousResearch/hermes-agent \u7684\u79fb\u52a8\u7aef\u5ba2\u6237\u7aef",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-07-30T16:10:15Z",
+    "category": "official",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-31T05:05:21.213717+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "TsiantosD/Hermes-Docker-Compose-Setup",
+    "url": "https://github.com/TsiantosD/Hermes-Docker-Compose-Setup",
+    "description": "This is an unofficial Docker Compose setup for Hermes Agent by Nousresearch.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-07-30T13:17:17Z",
+    "category": "official",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-31T05:05:24.216395+00:00",
+    "status": "pending"
   }
 ]

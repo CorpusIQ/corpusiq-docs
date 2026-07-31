@@ -7900,5 +7900,68 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-07-30T08:08:02.765803+00:00"
+  },
+  {
+    "repo": "BrightCloud05/DAAT",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T05:05:53.332501+00:00"
+  },
+  {
+    "repo": "omiinaya/hermes-proxy-relay",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T05:05:53.332512+00:00"
+  },
+  {
+    "repo": "rodrigogs/hermes-office-web",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T05:05:53.332515+00:00"
+  },
+  {
+    "repo": "frdndo/omniroute-rs",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T05:05:53.332517+00:00"
+  },
+  {
+    "repo": "KiberSlesar/hermes-agent-MongoDB-private",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T05:05:53.332519+00:00"
+  },
+  {
+    "repo": "keamtitjp7s/hermes-lite-core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T05:05:53.332521+00:00"
+  },
+  {
+    "repo": "FazGPT/hermes-agent-2-agent-acp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T05:05:53.332522+00:00"
+  },
+  {
+    "repo": "DJ3317/hermes-mobile",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T05:05:53.332524+00:00"
+  },
+  {
+    "repo": "TsiantosD/Hermes-Docker-Compose-Setup",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T05:05:53.332526+00:00"
   }
 ]
