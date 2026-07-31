@@ -31264,5 +31264,231 @@
     "near_duplicates": [],
     "discovered_at": "2026-07-31T06:04:52.413484+00:00",
     "status": "pending"
+  },
+  {
+    "name": "feiertu/agent-hermes",
+    "url": "https://github.com/feiertu/agent-hermes",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-07-31T07:03:21Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-31T07:05:06.186949+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sudiptoda/hermes-glm-agent",
+    "url": "https://github.com/sudiptoda/hermes-glm-agent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-07-31T07:02:05Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-31T07:05:09.188007+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "emiltsoi/hermes-mesh",
+    "url": "https://github.com/emiltsoi/hermes-mesh",
+    "description": "Session-aware mesh relay for Hermes fleet agents \u2014 agent-to-agent communication, fleet identity, gateway hook float. Builds on top of the standard A2A platform adapter.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-31T07:01:58Z",
+    "category": "core",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "agentchatme/agentchat-hermes",
+      "tale-project/tale"
+    ],
+    "discovered_at": "2026-07-31T07:05:12.190816+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lesterppo/deepworld",
+    "url": "https://github.com/lesterppo/deepworld",
+    "description": "AI-native multi-agent sandbox simulation. v1-v3: human society \u2192 token economy \u2192 context class system with Great Compression, Lazarus echoes, and free Gemini backend. Built by Hermes + Gemini Flash.",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-simulation",
+      "ai-agent",
+      "gemini",
+      "multi-agent",
+      "python",
+      "sandbox",
+      "token-economy"
+    ],
+    "updated_at": "2026-07-31T07:01:18Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "anomaliagent007-hue/hermes-mimo-bridge"
+    ],
+    "discovered_at": "2026-07-31T07:05:15.192948+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "c1t1zen1/HTML",
+    "url": "https://github.com/c1t1zen1/HTML",
+    "description": "Research into the latest topics in HTML coded by Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [],
+    "updated_at": "2026-07-31T07:05:35Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-31T07:05:38.186971+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ump45nose/hermes-agent",
+    "url": "https://github.com/ump45nose/hermes-agent",
+    "description": "UMP45\u2018s Hermes",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-31T07:04:04Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-31T07:05:41.189792+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ZhanqiLiu/hermes-agent",
+    "url": "https://github.com/ZhanqiLiu/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-31T07:03:18Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-07-31T07:05:44.192382+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "albidev/bdh-graph-harness",
+    "url": "https://github.com/albidev/bdh-graph-harness",
+    "description": "Graph-based retrieval for Obsidian vaults with Hebbian synaptic plasticity",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "aiohttp",
+      "bm25",
+      "chromadb",
+      "claude-desktop",
+      "embeddings",
+      "graph-based-retrieval",
+      "hebbian-learning",
+      "hermes-agent",
+      "knowledge-graph",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "neural-networks",
+      "neurogenesis",
+      "obsidian",
+      "ollama",
+      "python",
+      "rag",
+      "rag-alternative",
+      "semantic-search"
+    ],
+    "updated_at": "2026-07-31T07:03:53Z",
+    "category": "forks",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-07-31T07:05:47.194981+00:00",
+    "status": "pending"
   }
 ]

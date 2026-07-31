@@ -7991,5 +7991,61 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-07-31T06:05:21.545842+00:00"
+  },
+  {
+    "repo": "feiertu/agent-hermes",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T07:07:36.303973+00:00"
+  },
+  {
+    "repo": "sudiptoda/hermes-glm-agent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T07:07:36.303985+00:00"
+  },
+  {
+    "repo": "emiltsoi/hermes-mesh",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T07:07:36.303988+00:00"
+  },
+  {
+    "repo": "lesterppo/deepworld",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T07:07:36.303990+00:00"
+  },
+  {
+    "repo": "c1t1zen1/HTML",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T07:07:36.303992+00:00"
+  },
+  {
+    "repo": "ump45nose/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T07:07:36.303993+00:00"
+  },
+  {
+    "repo": "ZhanqiLiu/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T07:07:36.303995+00:00"
+  },
+  {
+    "repo": "albidev/bdh-graph-harness",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-07-31T07:07:36.303997+00:00"
   }
 ]
