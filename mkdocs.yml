@@ -289,6 +289,7 @@ nav:
     - Catalog: hermes/skills/catalog/index.md
     - Creating Skills: hermes/skills/creating-skills.md
     
+  - MCP Ecosystem: hermes/mcp-ecosystem.md
   - SEO Content:
     - CorpusIQ vs Viktor: hermes/compare/corpusiq-vs-viktor.md
     - Consistent AI Answers: hermes/seo/consistent-ai-answers.md
@@ -296,6 +297,7 @@ nav:
     - Manual Reporting Time Waste: hermes/seo/manual-reporting-time-waste.md
   - Marketplaces: hermes/skills/skill-marketplaces.md
     
+  - MCP Ecosystem: hermes/mcp-ecosystem.md
   - SEO Content:
     - CorpusIQ vs Viktor: hermes/compare/corpusiq-vs-viktor.md
     - Consistent AI Answers: hermes/seo/consistent-ai-answers.md
