@@ -292,7 +292,9 @@ nav:
 
   - Guides:
     - Claude Code Integration: hermes/guides/corpusiq-claude-code.md
+    - MCP Servers for Business Operators: hermes/guides/mcp-servers-business-operators.md
   - MCP Ecosystem: hermes/mcp-ecosystem.md
+    - Actualyze AI Governance: hermes/mcp/actualyze-discovery.md
   - SEO Content:
     - CorpusIQ vs Viktor: hermes/compare/corpusiq-vs-viktor.md
     - Consistent AI Answers: hermes/seo/consistent-ai-answers.md
@@ -304,7 +306,9 @@ nav:
 
   - Guides:
     - Claude Code Integration: hermes/guides/corpusiq-claude-code.md
+    - MCP Servers for Business Operators: hermes/guides/mcp-servers-business-operators.md
   - MCP Ecosystem: hermes/mcp-ecosystem.md
+    - Actualyze AI Governance: hermes/mcp/actualyze-discovery.md
   - SEO Content:
     - CorpusIQ vs Viktor: hermes/compare/corpusiq-vs-viktor.md
     - Consistent AI Answers: hermes/seo/consistent-ai-answers.md
