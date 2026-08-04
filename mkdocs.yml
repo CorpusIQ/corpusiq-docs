@@ -357,3 +357,6 @@ theme:
       icon: material/brightness-4
       name: Switch to light mode
 use_directory_urls: true
+
+  - Reports:
+    - reports/seo/gsc-july-2026.md
