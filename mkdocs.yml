@@ -289,6 +289,9 @@ nav:
     - Catalog: hermes/skills/catalog/index.md
     - Creating Skills: hermes/skills/creating-skills.md
     
+
+  - Guides:
+    - Claude Code Integration: hermes/guides/corpusiq-claude-code.md
   - MCP Ecosystem: hermes/mcp-ecosystem.md
   - SEO Content:
     - CorpusIQ vs Viktor: hermes/compare/corpusiq-vs-viktor.md
@@ -298,6 +301,9 @@ nav:
     - Connect Business Tools to AI: hermes/seo/connect-business-tools-to-ai.md
   - Marketplaces: hermes/skills/skill-marketplaces.md
     
+
+  - Guides:
+    - Claude Code Integration: hermes/guides/corpusiq-claude-code.md
   - MCP Ecosystem: hermes/mcp-ecosystem.md
   - SEO Content:
     - CorpusIQ vs Viktor: hermes/compare/corpusiq-vs-viktor.md
