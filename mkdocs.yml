@@ -288,33 +288,13 @@ nav:
   - Skills:
     - Catalog: hermes/skills/catalog/index.md
     - Creating Skills: hermes/skills/creating-skills.md
-    
+    - Guides:
+      - Claude Code Integration: hermes/guides/corpusiq-claude-code.md
+    - MCP Ecosystem: hermes/mcp-ecosystem.md
+    - SEO Content:
+      - Consistent AI Answers: hermes/seo/consistent-ai-answers.md
+    - Marketplaces: hermes/skills/skill-marketplaces.md
 
-  - Guides:
-    - Claude Code Integration: hermes/guides/corpusiq-claude-code.md
-    - MCP Servers for Business Operators: hermes/guides/mcp-servers-business-operators.md
-  - MCP Ecosystem: hermes/mcp-ecosystem.md
-    - Actualyze AI Governance: hermes/mcp/actualyze-discovery.md
-  - SEO Content:
-    - CorpusIQ vs Viktor: hermes/compare/corpusiq-vs-viktor.md
-    - Consistent AI Answers: hermes/seo/consistent-ai-answers.md
-    - AI Data Consistency: hermes/seo/ai-data-consistency.md
-    - Manual Reporting Time Waste: hermes/seo/manual-reporting-time-waste.md
-    - Connect Business Tools to AI: hermes/seo/connect-business-tools-to-ai.md
-  - Marketplaces: hermes/skills/skill-marketplaces.md
-    
-
-  - Guides:
-    - Claude Code Integration: hermes/guides/corpusiq-claude-code.md
-    - MCP Servers for Business Operators: hermes/guides/mcp-servers-business-operators.md
-  - MCP Ecosystem: hermes/mcp-ecosystem.md
-    - Actualyze AI Governance: hermes/mcp/actualyze-discovery.md
-  - SEO Content:
-    - CorpusIQ vs Viktor: hermes/compare/corpusiq-vs-viktor.md
-    - Consistent AI Answers: hermes/seo/consistent-ai-answers.md
-    - AI Data Consistency: hermes/seo/ai-data-consistency.md
-    - Manual Reporting Time Waste: hermes/seo/manual-reporting-time-waste.md
-    - Connect Business Tools to AI: hermes/seo/connect-business-tools-to-ai.md
   - Marketplace Updates: hermes/skills/marketplace/index.md
   - MCP Servers:
     - Overview: hermes/mcp/servers/index.md
@@ -357,6 +337,3 @@ theme:
       icon: material/brightness-4
       name: Switch to light mode
 use_directory_urls: true
-
-  - Reports:
-    - reports/seo/gsc-july-2026.md
