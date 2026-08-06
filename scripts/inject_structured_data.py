@@ -11,28 +11,27 @@ COUNT = {"faq": 0, "article": 0, "breadcrumb": 0}
 
 def extract_faq_pairs(html_content):
     """Extract Q&A pairs from HTML FAQ sections."""
-    # Match patterns like <strong>Q:</strong> or <b>Q:</b> followed by answer
     pairs = []
-    # Find all Q: / A: pairs in rendered HTML
-    pattern = r'<(?:strong|b)>\s*(?:Q|Question)[:.]?\s*</(?:strong|b)>\s*(.*?)(?=<(?:strong|b)>\s*(?:Q|Question)|<(?:h[234])|\Z)'
+    # MkDocs renders FAQ as: <p><strong>Q: question</strong><br />A: answer</p>
+    pattern = r'<strong>Q:\s*(.*?)</strong>\s*<br\s*/?>\s*A:\s*(.*?)</p>'
     matches = re.findall(pattern, html_content, re.DOTALL)
-    
-    for match in matches:
-        q_part = re.search(r'^(.*?)<(?:strong|b)>\s*(?:A|Answer)[:.]?\s*</(?:strong|b)>\s*(.*)', match, re.DOTALL)
-        if q_part:
-            question = re.sub(r'<[^>]+>', '', q_part.group(1)).strip()[:200]
-            answer = re.sub(r'<[^>]+>', '', q_part.group(2)).strip()[:500]
-            if question and answer:
-                pairs.append((question, answer))
-        else:
-            # Simpler format: Q: text A: text without strong tags
-            simple = re.search(r'^(.*?)(?:A|Answer)[:.]?\s*(.*)', match, re.DOTALL)
-            if simple:
-                question = re.sub(r'<[^>]+>', '', simple.group(1)).strip()[:200]
-                answer = re.sub(r'<[^>]+>', '', simple.group(2)).strip()[:500]
-                if question and answer:
-                    pairs.append((question, answer))
-    
+
+    for question, answer in matches:
+        q_clean = re.sub(r'<[^>]+>', '', question).strip()[:200]
+        a_clean = re.sub(r'<[^>]+>', '', answer).strip()[:500]
+        if q_clean and a_clean:
+            pairs.append((q_clean, a_clean))
+
+    # Also try alternative format: <strong>Question:</strong>
+    if not pairs:
+        pattern2 = r'<strong>Question:\s*(.*?)</strong>\s*<br\s*/?>\s*Answer:\s*(.*?)</p>'
+        matches2 = re.findall(pattern2, html_content, re.DOTALL)
+        for question, answer in matches2:
+            q_clean = re.sub(r'<[^>]+>', '', question).strip()[:200]
+            a_clean = re.sub(r'<[^>]+>', '', answer).strip()[:500]
+            if q_clean and a_clean:
+                pairs.append((q_clean, a_clean))
+
     return pairs
 
 def extract_title(html_content):
