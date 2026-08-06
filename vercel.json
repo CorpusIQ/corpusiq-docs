@@ -22,5 +22,7 @@
       "destination": "/docs/stylesheets/:path*",
       "statusCode": 301
     }
-  ]
+  ],
+  "buildCommand": "python3 -m mkdocs build --clean && python3 scripts/inject_structured_data.py",
+  "installCommand": "pip install -r requirements.txt"
 }
