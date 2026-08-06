@@ -41,8 +41,10 @@ def extract_frontmatter(content):
 
 
 def parse_description(frontmatter):
-    """Extract description from frontmatter string."""
-    m = re.search(r'description:\s*"(.*?)"', frontmatter, re.DOTALL)
+    """Extract description from frontmatter string or dict."""
+    if isinstance(frontmatter, dict):
+        return frontmatter.get('description', None)
+    m = re.search(r'description:\s*"(.*?)"', str(frontmatter), re.DOTALL)
     return m.group(1) if m else None
 
 
