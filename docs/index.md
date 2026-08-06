@@ -1,15 +1,15 @@
 ---
-title: "CorpusIQ Documentation"
-description: "CorpusIQ is a private AI acceleration layer connecting 37+ business tools to ChatGPT, Claude, and AI agents. Real-time, read-only access to CRM, accounting, analytics, and more via MCP."
+title: "CorpusIQ Documentation — Connect Business Data to ChatGPT, Claude & Perplexity"
+description: "CorpusIQ connects 40+ business tools (QuickBooks, Shopify, Stripe, HubSpot, GA4) to ChatGPT, Claude, and Perplexity via MCP. Read-only OAuth. Source-cited answers. Zero data stored. Free trial at corpusiq.io."
 category: "Documentation"
-tags: ["corpusiq docs", "mcp documentation", "business data ai", "chatgpt integration", "claude integration", "ai data access", "mcp platform"]
-last_updated: "2026-06-16"
+tags: ["corpusiq docs", "mcp documentation", "business data ai", "chatgpt integration", "claude integration", "ai data access", "mcp platform", "connect business data to chatgpt", "ai business intelligence"]
+last_updated: "2026-08-06"
 canonical: "https://www.corpusiq.io/docs/index"
 robots: "index,follow"
 ---
-# CorpusIQ Documentation
+# CorpusIQ — Connect Your Business Data to ChatGPT, Claude, and Perplexity
 
-One connector. 37+ business tools. Ask a plain-English question inside ChatGPT, Claude, or Perplexity and get a single verified answer sourced from QuickBooks, Shopify, HubSpot, Gmail, Stripe, GA4, and 31+ more  --  with citations tracing every number back to its origin. No dashboards, no CSV exports, no switching tabs. Read-only. Zero data stored.
+**CorpusIQ gives every AI the same verified answer.** Connect QuickBooks, Shopify, Stripe, HubSpot, GA4, and 35+ more business tools through one MCP endpoint. Read-only OAuth. Source-cited answers. Zero customer data stored. Ask a plain-English question inside ChatGPT, Claude, or Perplexity and get a single answer with citations tracing every number back to its origin. No dashboards. No CSV exports. No switching tabs.
 
 ## Quick Links
 
