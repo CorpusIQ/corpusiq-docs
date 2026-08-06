@@ -1,15 +1,15 @@
 ---
-title: "CorpusIQ Quick Start — Connect Business Data to AI"
-description: "Get your first CorpusIQ query running in under 5 minutes. Step-by-step guide: sign up, connect business tools via OAuth, get API token, and query CRM, accounting, or analytics with natural language."
+title: "How to Connect Business Data to ChatGPT — CorpusIQ Quick Start Guide"
+description: "Connect QuickBooks, Shopify, Stripe, or HubSpot to ChatGPT in under 5 minutes. Step-by-step CorpusIQ setup: sign up, connect tools via OAuth, get API token, ask natural-language questions. Read-only. Zero data stored."
 category: "Documentation"
-tags: ["corpusiq quick start", "setup guide", "connect data to ai", "mcp setup", "oauth connection", "api token", "first query"]
-last_updated: "2026-06-16"
+tags: ["corpusiq quick start", "connect data to chatgpt", "setup guide", "mcp setup", "oauth connection", "how to connect business data to ai", "first query", "chatgpt integration"]
+last_updated: "2026-08-06"
 canonical: "https://www.corpusiq.io/docs/quick-start"
 robots: "index,follow"
 ---
-# Quick Start
+# How to Connect Your Business Data to ChatGPT in Under 5 Minutes
 
-Get your first CorpusIQ query running in under five minutes.
+Get your first CorpusIQ query running in under five minutes. Connect QuickBooks, Shopify, Stripe, or HubSpot via OAuth, ask a plain-English question, and get a source-cited answer from your live data. Read-only. Zero data stored.
 
 ## Prerequisites
 

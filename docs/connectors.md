@@ -1,18 +1,15 @@
 ---
-description: >-
-  CorpusIQ integrates with 37+ business tools through read-only OAuth  -- 
-  email, CRM, e-commerce, analytics, and databases  --  for natural-language
-  queries across your entire data stack.
----
-
-title: "CorpusIQ Connectors  --  37+ Business Data Integrations for AI"
-description: "Complete directory of CorpusIQ connectors: CRM (HubSpot, Salesforce), accounting (QuickBooks), payments (Stripe), analytics (GA4), marketing (Klaviyo, Meta Ads), databases, and 37+ more read-only integrations."
+title: "CorpusIQ Connectors — 40+ Business Tools for ChatGPT, Claude & Perplexity"
+description: "Complete directory of 40+ CorpusIQ connectors: QuickBooks, Shopify, Stripe, HubSpot, GA4, Google Ads, Meta Ads, Salesforce, Slack, Gmail, Notion, and more. Read-only OAuth on every connection. Connect any business tool to ChatGPT, Claude, or Perplexity."
 category: "Documentation"
-tags: ["corpusiq connectors", "data integrations", "business tools ai", "oauth connectors", "crm integration", "accounting integration", "analytics connectors"]
-last_updated: "2026-06-16"
+tags: ["corpusiq connectors", "business tools ai", "chatgpt business data", "oauth connectors", "crm integration", "accounting integration", "analytics connectors", "connect business data to chatgpt", "mcp connectors"]
+last_updated: "2026-08-06"
 canonical: "https://www.corpusiq.io/docs/connectors"
 robots: "index,follow"
 ---
+# CorpusIQ Connectors — 40+ Business Tools, One MCP Endpoint
+
+Connect QuickBooks, Shopify, Stripe, HubSpot, GA4, and 35+ more business tools to ChatGPT, Claude, and Perplexity. Every connector uses read-only OAuth. Zero customer data stored. Source-cited answers across every AI. Browse the complete directory below.
 # Connectors
 
 CorpusIQ integrates with 37+ business tools through read-only OAuth connections. Each connector maps to a specific SaaS application or database, enabling natural-language queries across your entire data stack.
