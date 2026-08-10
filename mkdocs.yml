@@ -290,6 +290,7 @@ nav:
     - Creating Skills: hermes/skills/creating-skills.md
     - Guides:
       - Claude Code Integration: hermes/guides/corpusiq-claude-code.md
+      - AI Agent Memory Landscape (Aug 2026): hermes/guides/ai-agent-memory-landscape-aug2026.md
     - MCP Ecosystem: hermes/mcp-ecosystem.md
     - SEO Content:
       - Consistent AI Answers: hermes/seo/consistent-ai-answers.md
