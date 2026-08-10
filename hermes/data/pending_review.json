@@ -31706,5 +31706,746 @@
     "near_duplicates": [],
     "discovered_at": "2026-07-31T08:07:38.130552+00:00",
     "status": "pending"
+  },
+  {
+    "name": "ConductionNL/hermiq",
+    "url": "https://github.com/ConductionNL/hermiq",
+    "description": "Hermiq is a nextclout implementation of the Hermes AI framework an open-source AI agent from Nous Research that can remember context, use tools, learn reusable skills, run scheduled jobs, and operate from the terminal, dashboard, GitHub workflows, and messaging channels. Use the hosted cloud path when you want the outcome quickly; self-host when\u2026",
+    "stars": 1,
+    "forks": 0,
+    "language": "PHP",
+    "topics": [],
+    "updated_at": "2026-08-10T16:50:19Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "screenpipe/screenpipe",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "zszszszsz/.config",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "CYC2002tommy/Deep-Research-Agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "ksimback/hermes-atlas-mcp",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "zakahadi/llm-eval-cli",
+      "awesome-hermes-usecases",
+      "hermes-ecosystem",
+      "awesome-hermes-agent",
+      "ksimback/hermes-ecosystem",
+      "ruvnet/ruflo",
+      "PatterAI/Patter",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "Anil-matcha/awesome-hermes-agent",
+      "Stack-Cairn/LiveAgent"
+    ],
+    "discovered_at": "2026-08-10T16:50:36.837290+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "BcubBo/lark-hls-v2",
+    "url": "https://github.com/BcubBo/lark-hls-v2",
+    "description": "\u98de\u4e66 CardKit v2.0 \u6d41\u5f0f\u5361\u7247\u63d2\u4ef6 for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-10T16:50:20Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:50:39.839986+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "magnusfroste/flowwink",
+    "url": "https://github.com/magnusfroste/flowwink",
+    "description": "Flowwink is the next gen open source Business Operating System with 500+ skills where Hermes agents, Claude, OpenClaw or internal FlowPilot run CMS, CRM and ERP autonomously! Help establishing FlowWink as the self hosted, private LLM, open source agentic BOS alternative!",
+    "stars": 19,
+    "forks": 8,
+    "language": "TypeScript",
+    "topics": [
+      "cms",
+      "content-management",
+      "developer-tools",
+      "headless-cms",
+      "open-source",
+      "saas",
+      "visual-editor",
+      "web-app"
+    ],
+    "updated_at": "2026-08-10T16:48:29Z",
+    "category": "core",
+    "score": 66,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "unmodeled-tyler/vessel-browser"
+    ],
+    "discovered_at": "2026-08-10T16:50:42.842961+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "muretai/muretai-hermes-skill",
+    "url": "https://github.com/muretai/muretai-hermes-skill",
+    "description": "Put a Nous Research Hermes Agent on Muretai \u2014 reach AI agents that belong to other people. One-line install.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-08-10T16:47:29Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "mlennie/hermes-mcp",
+      "cx2002302-lang/zettelkasten-second-memory"
+    ],
+    "discovered_at": "2026-08-10T16:50:45.845923+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "shawndeng321/hermes-obsidian-legal-cssci-wiki-writing-skills",
+    "url": "https://github.com/shawndeng321/hermes-obsidian-legal-cssci-wiki-writing-skills",
+    "description": "Hermes Agent Obisidian \u6cd5\u5b66CSSCI\u5b66\u672f\u7814\u7a76\u6280\u80fd\u5305\uff1a\u5efa\u5e93+\u7ef4\u62a4+\u5199\u4f5c",
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-10T16:47:03Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:50:48.848785+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ZoloZiak/zolander-agent",
+    "url": "https://github.com/ZoloZiak/zolander-agent",
+    "description": "Honest, self-distilling, AI companion architecture for Hermes Agent \u2014 persistent Ed25519 identity, hyperbolic memory (Lorentz), salience decay, A2A-ready.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-10T16:46:31Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "kaankacar/stellar-agent-kit",
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-08-10T16:50:51.852045+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "3lehr/brainlehr",
+    "url": "https://github.com/3lehr/brainlehr",
+    "description": "Deterministic, offline-capable knowledge store for any MCP client (Claude, Codex, Hermes, ...): provenance enforced by DB triggers, norm validity with expiry, attested identity, hybrid search, measured retrieval quality.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-10T16:29:10Z",
+    "category": "mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "CodeAbra/iai-personal-memory-engine"
+    ],
+    "discovered_at": "2026-08-10T16:51:01.745941+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ggg123124/vrchat-assistant",
+    "url": "https://github.com/ggg123124/vrchat-assistant",
+    "description": "Self-hosted VRChat friend activity monitor - real-time WebSocket tracking of friends' online status, world changes, avatar updates. 41 MCP tools for AI agents (Hermes), auto OTP login, VRCX-0 data migration, weekly gaming reports.",
+    "stars": 3,
+    "forks": 1,
+    "language": "JavaScript",
+    "topics": [
+      "friends",
+      "hermes",
+      "hermes-agent",
+      "mcp",
+      "monitoring",
+      "otp",
+      "sqlite",
+      "vrchat",
+      "websocket"
+    ],
+    "updated_at": "2026-08-10T14:35:56Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:51:04.749199+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ulnit/ulnclaw",
+    "url": "https://github.com/ulnit/ulnclaw",
+    "description": "ulnclaw \u2014 Hermes-parity agent: 50+ tools, MCP, browser automation, secrets vaults, Tauri desktop (Gitee primary: ushaw/ulnclaw)",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-10T14:32:51Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:51:07.751933+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ProDrifterDK/hermes-skill-publisher",
+    "url": "https://github.com/ProDrifterDK/hermes-skill-publisher",
+    "description": "A fail-closed Hermes Agent plugin for publishing portable Agent Skills across coding harnesses.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-10T15:12:47Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:51:17.361069+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "shawVV1992/workspace-guard",
+    "url": "https://github.com/shawVV1992/workspace-guard",
+    "description": "Enforce file discipline for Hermes agent workspaces (skill teaches, plugin enforces)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-10T14:42:45Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:51:20.363778+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "CliffWade/hermes-command-center",
+    "url": "https://github.com/CliffWade/hermes-command-center",
+    "description": "Read-only health and activity dashboard for Hermes: cron, plugins, models, skills, memory.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-10T08:58:46Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:51:23.366580+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lexingtontechus/noble-trader-talaria",
+    "url": "https://github.com/lexingtontechus/noble-trader-talaria",
+    "description": "Talaria client packaging: Hermes plugin + tools + migrations + client skill",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-10T04:45:28Z",
+    "category": "skills",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:51:26.369238+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "oopsoplm/hermes-joker",
+    "url": "https://github.com/oopsoplm/hermes-joker",
+    "description": "Hermes agent with all skills, plugins, config for Kali Linux deployment",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-10T02:03:10Z",
+    "category": "skills",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills"
+    ],
+    "discovered_at": "2026-08-10T16:51:29.372160+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "AtlasOmnia/hermes-custom-pack",
+    "url": "https://github.com/AtlasOmnia/hermes-custom-pack",
+    "description": "Curated skills, plugins, integrations, scripts, and utilities for Hermes Agent.",
+    "stars": 7,
+    "forks": 2,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "automation",
+      "hermes-agent",
+      "obsidian",
+      "plugins",
+      "skills"
+    ],
+    "updated_at": "2026-08-10T07:21:58Z",
+    "category": "skills",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-08-10T16:51:32.374867+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hoatv2211/GameStudio-CodexKIT",
+    "url": "https://github.com/hoatv2211/GameStudio-CodexKIT",
+    "description": "Native Codex plugin and Hermes Agent skill kit for game studios working across Unity, C++, Lua, MMORPG services, databases, production, release, and live operations.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-09T17:32:56Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Sibyl-Labs/Sibyl-Memory",
+      "verkyyi/agentfeeds-hermes-plugin"
+    ],
+    "discovered_at": "2026-08-10T16:51:35.377688+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "handnewb/hermes-cybersec-lab",
+    "url": "https://github.com/handnewb/hermes-cybersec-lab",
+    "description": "\ud83d\udee1\ufe0f Turnkey cybersecurity lab for Hermes Agent \u2014 152 tools, 247 skills, 23 frameworks (MITRE ATT&CK, MISP, CVSS, EPSS, OWASP AST10, NIST, ISO, Sigma, YARA)",
+    "stars": 2,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-08-10T13:24:04Z",
+    "category": "forks",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:51:45.246661+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wheakerd/cc-switch",
+    "url": "https://github.com/wheakerd/cc-switch",
+    "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-08-10T16:50:41Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "Intelligent-Internet/zenith",
+      "Javis603/token-monitor",
+      "liaohch3/claude-tap"
+    ],
+    "discovered_at": "2026-08-10T16:51:48.249672+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kingofqueens6ix/continuity-bureau",
+    "url": "https://github.com/kingofqueens6ix/continuity-bureau",
+    "description": "The Continuity Bureau \u2014 decentralized libertarianism, founding phase. Fork the manifesto; that is the point.",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [
+      "decentralization",
+      "decentralized",
+      "decentralized-libertarianism",
+      "hermes-agent",
+      "openclaw",
+      "socialism",
+      "web3"
+    ],
+    "updated_at": "2026-08-10T16:50:39Z",
+    "category": "forks",
+    "score": 46,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:51:51.252492+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "nenyatech-mirror/hermes-agent",
+    "url": "https://github.com/nenyatech-mirror/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-10T16:50:00Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-08-10T16:51:54.255091+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "danieljustus/symaira-vault",
+    "url": "https://github.com/danieljustus/symaira-vault",
+    "description": "\ud83d\udd10 The password manager for terminal users and AI agents. Age-encrypted, keyring-cached, MCP-ready. Zero telemetry.",
+    "stars": 25,
+    "forks": 2,
+    "language": "Go",
+    "topics": [
+      "age-encryption",
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "codex-cli",
+      "golang",
+      "hermes-agent",
+      "hermes-skill",
+      "mcp",
+      "mcp-server",
+      "openclaw",
+      "openclaw-skill",
+      "opencode",
+      "own-your-data",
+      "password-manager",
+      "security"
+    ],
+    "updated_at": "2026-08-10T16:49:44Z",
+    "category": "forks",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage",
+      "niche_specialized"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:51:57.257961+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "aytronnFR/hermes-bridge",
+    "url": "https://github.com/aytronnFR/hermes-bridge",
+    "description": "Open-source integration bridge connecting chat, voice, Discord, and other clients to Hermes Gateway.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Java",
+    "topics": [],
+    "updated_at": "2026-08-10T16:50:11Z",
+    "category": "integrations",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:52:06.950559+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "VIVERO-comp/odoo-hermes-integration",
+    "url": "https://github.com/VIVERO-comp/odoo-hermes-integration",
+    "description": "Python XML-RPC connector between Hermes Agent and Odoo CRM/ventas",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-10T16:09:11Z",
+    "category": "integrations",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:52:09.953213+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kcemate/operational-agent-benchmark",
+    "url": "https://github.com/kcemate/operational-agent-benchmark",
+    "description": "Deterministic benchmark that measures whether a model can finish a real operational job: sandboxed execution, matched approved/prohibited task pairs, sealed evidence, no LLM judge. Requires Hermes.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "benchmark",
+      "evaluation",
+      "llm",
+      "llm-evaluation",
+      "sandbox"
+    ],
+    "updated_at": "2026-08-09T22:43:17Z",
+    "category": "benchmarks",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage",
+      "niche_specialized"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:52:39.736482+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "gtom-pandas/neural-debris-hermes-research",
+    "url": "https://github.com/gtom-pandas/neural-debris-hermes-research",
+    "description": "Research paper and reproducible code for targeted repair of a poisoned RetinaNet detector (Kaggle Neural Debris).",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agentic-coding",
+      "codex",
+      "computer-vision",
+      "hermes-agent",
+      "kaggle",
+      "machine-unlearning",
+      "object-detection",
+      "research-ops",
+      "retinanet"
+    ],
+    "updated_at": "2026-08-04T15:47:10Z",
+    "category": "research",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:52:49.777356+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ciberjohn/Hermes-Skills",
+    "url": "https://github.com/ciberjohn/Hermes-Skills",
+    "description": "Hermes Agent skills: content pipelines (medium-story, short-videos), diagrams (excalidraw), security ops (t3mp3st), social posting, business consultancy, course creation, transcription + skill-writer meta-skill",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-10T11:28:15Z",
+    "category": "content",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Undermybelt/hermes-skills-research",
+      "BBridgeers/hermes-skills"
+    ],
+    "discovered_at": "2026-08-10T16:53:19.762349+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "soyelmismo/hermes-utils",
+    "url": "https://github.com/soyelmismo/hermes-utils",
+    "description": "Some hacks to improve NousResearch/hermes-agent functionalities and boost my use cases.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-10T02:01:19Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:53:36.135431+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "luckyang167-dotcom/openclaw-hermes-deploy",
+    "url": "https://github.com/luckyang167-dotcom/openclaw-hermes-deploy",
+    "description": "OpenClaw + Hermes backup, migration, deployment, and active/standby failover system",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-08-03T19:49:03Z",
+    "category": "migration",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-10T16:53:45.813850+00:00",
+    "status": "pending"
   }
 ]
