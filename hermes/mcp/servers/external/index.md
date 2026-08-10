@@ -7,11 +7,29 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** July 31, 2026 (early morning sweep) · **Sources:** mcp.so (18,065+ servers), mcpservers.org (10,377+ servers), sitemap + SSR + GitHub issues scanning · **Catalog:** 128 servers (+28 guides)
+> **Last updated:** August 10, 2026 (evening sweep) · **Sources:** mcp.so (~22,000+ servers), mcpservers.org (10,811+ servers), sitemap + SSR + GitHub issues scanning · **Catalog:** 137 servers (+37 guides)
 
 ---
 
-## 🆕 July 31, 2026 — Early Morning Sweep (3 New, 3 Guides)
+## 🆕 August 10, 2026 — Evening Sweep (4 New, 4 Guides)
+
+Follow-up to the morning sweep. Deep scan of mcp.so pages 1-3 and mcpservers.org /all. 4 additional business-relevant servers found — including one that appeared 4 hours after the morning sweep. [Full sweep report →](/hermes/mcp/sweeps/sweep-august10-2026-evening/)
+
+### Perfex CRM MCP ★★★ — August 10 evening
+Self-hosted MCP server for Perfex CRM — leads, customers, invoices, tickets, projects, contracts, subscriptions exposed as typed MCP tools. Staff-scoped API keys, read-only mode, granular tool control, full request logging. First self-hosted CRM MCP server. Data stays on your server — no third-party relay. `themesic/perfex-rest-api-examples` (MIT) · [Guide →](/hermes/mcp/servers/external/perfex-crm-mcp/)
+
+### FCA Handbook MCP (Metis Harness) ★★★ — August 10 evening
+UK Financial Conduct Authority Handbook MCP — 10,000+ regulatory entries with verbatim citations and binding-level classifications (R=Rule, G=Guidance). Stateless, one-shot design aligned with OWASP Top 10 for Agentic Applications. First regulatory compliance MCP server. `github.com/99blakeD99/the-metis-fca-handbook-ai-harness-mcp-files` (MIT) · [Guide →](/hermes/mcp/servers/external/fca-handbook-mcp/)
+
+### Stoxly ★★ — August 10 evening
+Free stock & ETF fundamental analysis — 10-point score, verdict, and metrics for any ticker. No API key, no account required. Lightweight complement to heavier financial MCPs. Brand new (added to mcp.so ~4 hours before this sweep). Author: wizard-exe. · [Guide →](/hermes/mcp/servers/external/stoxly-mcp/)
+
+### Fund Momentum MCP ★★ — August 10 evening
+VC intelligence for AI assistants — 920+ active VC funds, live investor signals, AI-powered startup matching. First dedicated VC/fundraising intelligence MCP. Remote MCP with API key. `schneidavie/fundmomentum` · [Guide →](/hermes/mcp/servers/external/fund-momentum-mcp/)
+
+**Also identified (not catalogued):** Trimtab AIS (ship/port data, free, logistics niche), Goalie Trademark Search (14M+ USPTO trademarks, IP legal niche), Pickle (ClickUp/Slack/Teams ops manager), Anomalia (marketing content planning), Exchangerate.dev (keyless FX rates). 20+ other servers were developer tools, consumer apps, or regional niche.
+
+---
 
 Sweep of mcp.so GitHub issues (15 most recent), mcp.so /servers SSR, and mcpservers.org sitemaps. 3 business-relevant finds submitted since yesterday afternoon's sweep. [Full sweep report →](/hermes/mcp/sweeps/sweep-july31-2026-early/)
 
