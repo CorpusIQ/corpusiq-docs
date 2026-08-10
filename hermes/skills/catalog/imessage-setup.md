@@ -34,9 +34,9 @@ After install, reload skills:
 
 | Capability | Trigger | Output |
 |-----------|---------|--------|
-| Send message | "Send an iMessage to Benoit: build is green" | Message delivered |
+| Send message | "Send an iMessage to team: build is green" | Message delivered |
 | Read messages | "Check my latest iMessages" | Recent messages list |
-| Conversation search | "Find messages from Brandon about deployment" | Matching messages |
+| Conversation search | "Find messages from team about deployment" | Matching messages |
 | Attachment handling | "Send the Q3 report PDF via iMessage" | File attachment sent |
 | Group chat | "Notify the engineering group" | Group message sent |
 | Auto-reply | "Auto-reply to iMessages containing 'status'" | Automated response |
@@ -63,8 +63,8 @@ ORDER BY m.date DESC LIMIT 10;
 
 ## CorpusIQ Use Cases
 
-1. **Founder alerts** — Critical notifications to Benoit via iMessage (build failures, auth expirations)
-2. **Team pings** — Quick status updates to Brandon and the ops team
+1. **Founder alerts** — Critical notifications to the founder via iMessage (build failures, auth expirations)
+2. **Team pings** — Quick status updates to the ops team
 3. **Automated check-ins** — Daily summary delivery via iMessage
 4. **iOS notification bridge** — Route agent alerts to founders' iPhones
 5. **Client communication** — Automated client status updates for enterprise accounts

@@ -34,7 +34,7 @@ Commander runs as the master controller. Every task enters through Commander fir
 - Read entire message before acting
 - No branches on CorpusIQ repos
 - Browser-verify all LinkedIn posts
-- Search knowledge stores before asking Benoit
+- Search knowledge stores before asking the team
 - Check both email accounts
 - No CID-embedded images in emails
 

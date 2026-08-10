@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Hermes Agent v0.20.0 (v2026.8.3) — The Herald Release. Streaming conversational voice with barge-in, A2A v1.0 agent protocol, signed outbound webhooks, grounded research citations, desktop artifacts & plugin SDK, CLI power commands, tool self-recovery, and smarter compression. ~3,650 commits, 647 contributors. August 3, 2026.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hermes Agent v0.20.0 — The Herald Release - CorpusIQ Docs">
+<meta property="og:description" content="Streaming conversational voice with barge-in, A2A v1.0 agent protocol, signed outbound webhooks, grounded research citations, desktop artifacts & plugin SDK, CLI power commands, tool self-recovery, and smarter compression.">
+<title>Hermes Agent v0.20.0 — The Herald Release - CorpusIQ Docs</title>
+<link rel="canonical" href="https://corpusiq.github.io/corpusiq-docs/hermes/changelog/v0.20.0/">
+</head>
+<body>
+<main>
+<h1>Hermes Agent v0.20.0 (v2026.8.3)</h1>
+<p><strong>Release Date:</strong> August 3, 2026 · <strong>Since v0.19.1:</strong> ~945 commits · ~300 files changed · 82 contributors</p>
+<blockquote><strong>The Herald Release.</strong> Voice becomes conversational, Hermes talks to other agents, research gets citations you can verify, the desktop becomes a platform, and the CLI gets a power-user upgrade.</blockquote>
+
+<h2>Highlights</h2>
+<ul>
+<li><strong>Streaming Conversational Voice with Barge-In</strong> — Clause-by-clause TTS synthesis, interrupt by voice mid-sentence, busy-aware silence detection.</li>
+<li><strong>Wake Words & Hands-Free Control</strong> — Open-vocabulary wake phrases, on-device detection, multi-profile voice routing.</li>
+<li><strong>Voice on Every Platform</strong> — Voice notes on WhatsApp, Feishu, DingTalk, LINE, QQ, Photon, Weixin with auto-TTS replies.</li>
+<li><strong>Grounded Citations & Fact-Checking</strong> — Matches quotes against actual page text, links citations to exact evidence.</li>
+<li><strong>Outbound Webhooks</strong> — Push signed lifecycle events to any HTTP endpoint with HMAC signatures.</li>
+<li><strong>Desktop Becomes a Platform</strong> — Artifacts (sandboxed live preview), plugin SDK (Kanban founding plugin), global-hotkey quick-entry.</li>
+<li><strong>Agent-to-Agent Protocol (A2A v1.0)</strong> — Bundled plugin. Hermes discovers, talks to, and is driven by other A2A-compatible agents.</li>
+<li><strong>CLI Power-User Wave</strong> — <code>!</code> shell mode, <code>/init</code>, <code>/diff</code>, <code>/context</code>, <code>/focus</code>, Ctrl+S stash, <code>hermes import-agent</code>.</li>
+<li><strong>Mid-Turn Redirects</strong> — Correct the agent while it works without losing context.</li>
+<li><strong>Tools That Fix Themselves</strong> — Truncated output recovery, patch no-op detection, search near-miss probes, write verification.</li>
+<li><strong>Smarter Compression</strong> — Proactive tool-result pruning, per-turn micro-compaction, N-user-message tail guarantee.</li>
+<li><strong>Smart Approvals</strong> — <code>hermes approvals suggest</code>, consecutive-denial circuit breaker, operator-customizable policies.</li>
+<li><strong>Faster Everywhere</strong> — Cold start ~14s → ~1.8s, config reads 54× faster, desktop 60fps at scale.</li>
+</ul>
+
+<h2>Voice & Speech</h2>
+<ul>
+<li>Streaming conversational TTS with barge-in across all surfaces</li>
+<li>On-device wake words with open-vocabulary phrases + multi-profile voice routing</li>
+<li>Fully configurable STT with <code>hermes tools</code> category, GUI toggles, OpenAI gpt-transcribe</li>
+<li>Platform-aware auto-TTS on WhatsApp, Feishu, DingTalk, LINE, QQ, Photon, Weixin</li>
+</ul>
+
+<h2>Core Agent & Architecture</h2>
+<ul>
+<li>Proactive tool-result pruning, per-turn micro-compaction, N-user tail guarantee</li>
+<li>Prompt caching on native Anthropic, DeepSeek, and OpenCode gateways</li>
+<li>Cold-start ~14s GIL stall mitigated; turn flush batched into one SQLite transaction</li>
+<li>Default tool iteration limit 90 → 500; tool_search validates blind tool_call args</li>
+<li>Terminal truncation recovery, patch already-applied detection, search near-miss recovery</li>
+</ul>
+
+<h2>Desktop App — The Platform Wave</h2>
+<ul>
+<li>Artifacts: versioned cards, sandboxed live preview, right-rail viewer</li>
+<li>Plugin SDK: Kanban founding plugin, ctx.download, widget-app SDK</li>
+<li>Quick-entry window via global hotkey; multiple GUI windows; floating pane placement</li>
+<li>60fps streaming independent of transcript length; idle CPU near zero in background</li>
+</ul>
+
+<h2>CLI, TUI & Dashboard</h2>
+<ul>
+<li><code>!</code> shell mode, <code>/init</code>, <code>/diff</code>, <code>/context</code>, <code>/focus</code>, Ctrl+S stash</li>
+<li><code>hermes import-agent</code> — one-command migration from Claude Code/Codex CLI</li>
+<li>Dashboard with lazy-loaded routes + GROUP BY session stats</li>
+</ul>
+
+<h2>Contributors</h2>
+<p><strong>647 contributors</strong> shipped this release. Core: @teknium1, @OutThisLife, @kshitijk4poor, @ethernet8023, @benbarclay.</p>
+
+<p><a href="/hermes/changelog/v0.19.1/">← v0.19.1</a> | <a href="/hermes/changelog/">Changelog Home</a></p>
+
+<hr>
+<p><em>View the <a href="index.md">full markdown changelog</a> for all details.</em></p>
+</main>
+</body>
+</html>
