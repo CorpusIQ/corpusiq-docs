@@ -1,134 +1,154 @@
 ---
 title: "Competitor Tracker & Co. MCP — Integration Guide"
-description: "Connect AI agents to Competitor Tracker & Co. for automated competitor website monitoring. Weekly crawls, change detection, and ranked changelogs directly in your AI workflows."
+description: "Agentic competitor intelligence — ~50 tools for tracking competitor pricing, product, messaging, and corporate changes via weekly crawls, exposed as MCP tools for AI agents."
 category: mcp
-tags: [mcp-server, competitive-intelligence, competitor-monitoring, marketing, product-management]
-last_updated: 2026-07-18
+tags: [mcp-server, competitive-intelligence, competitor-tracking, market-research, growth-operations, hermes-agent]
+last_updated: 2026-08-10
 ---
 
-# Competitor Tracker & Co. MCP — Integration Guide
+# Competitor Tracker & Co. MCP — Agentic Competitive Intelligence
 
-**Source:** mcp.so listing  
-**Author:** Slobodan Stojanović (founder, Vacation Tracker — 35K+ users)  
-**Transport:** Local stdio (MCP server)  
-**Auth:** API key (Competitor Tracker & Co. account required)  
-**Website:** [competitortracker.co](https://competitortracker.co)
+**Rating:** ★★★ | **Category:** Growth & Market Intelligence | **Transport:** Streamable HTTP
 
 ## What It Does
 
-Competitor Tracker & Co. watches your competitors' websites and tells you what changed. Every week it crawls their pricing, product, messaging, and corporate pages, detects the changes that matter, and files a tagged, ranked changelog.
+Competitor Tracker & Co. watches your competitors' websites and tells you what changed. Every week it crawls their pricing, product, messaging, and corporate pages, detects the changes that matter, and files a tagged, ranked dossier. The MCP server puts that same intelligence inside your AI assistant — subscribe to competitors, read the change feed, and pull page snapshots without leaving chat.
 
-The MCP server brings this competitive intelligence directly into your AI agent's conversation — instead of checking a dashboard, you ask your assistant "what changed with our competitors this week?"
+## Why Business Operators Need This
 
-The MCP server enables:
-- **Product managers** to track competitor feature launches and pricing changes without manual monitoring
-- **Marketing operators** to spot messaging pivots and positioning shifts instantly
-- **Founders/CEOs** to maintain competitive awareness as a conversational habit, not a calendar task
-- **Sales teams** to prepare competitive battle cards with fresh intelligence
+Competitive intelligence typically lives in a separate dashboard you check quarterly. Competitor Tracker & Co. makes it an agent-native capability: ask "what changed across my competitors this week?" and get a ranked answer with specific page snapshots showing before/after. For growth operators, product managers, and founders, this means competitive awareness becomes continuous and conversational — not a quarterly research project. ~50 tools covering reads, writes, and destructive operations with confirm-gates for safety.
 
-## Why This Matters for Operators
+**Competitive landscape:** The only MCP server purpose-built for competitive website intelligence. Closest analog is Competitor Tracker & Co.'s own web dashboard; this MCP server brings that data into agent workflows. Not a traditional SEO tool (Ahrefs, SEMrush) — focuses on website change detection, not keyword rankings.
 
-1. **Competitive intelligence becomes a conversation:** Instead of a separate dashboard login, operators fold competitor tracking into their daily AI workflow.
+## Quick Start
 
-2. **Structured, not noisy:** The tool detects, tags, and ranks changes — operators don't wade through raw crawls looking for signal.
+### Connection Details
 
-3. **Proven founder:** Slobodan Stojanović built Vacation Tracker to 35K+ users. This is a founder who understands operator workflows.
+| Field | Value |
+|-------|-------|
+| **Transport** | Streamable HTTP (Remote) |
+| **Endpoint** | `https://mcp.competitortracker.io/mcp` |
+| **Authentication** | OAuth (sign in on first tool call) or `X-API-Key` header |
+| **Tools** | ~50 (read, write, destructive with confirm gates) |
+| **GitHub** | `CofounderGPT/competitor-tracker-mcp` (0★, created Jul 15, 2026) |
 
-4. **Weekly cadence:** Weekly rather than real-time monitoring reduces noise and matches the rhythm of strategic decision-making.
-
-## Setup
-
-### Prerequisites
-
-- A Competitor Tracker & Co. account at [competitortracker.co](https://competitortracker.co)
-- Competitor URLs configured in your dashboard
-- Node.js 18+ (for local stdio server)
-
-### Installation
-
-The MCP server is likely distributed as an npm package. Install locally:
-
-```bash
-npm install -g @competitortracker/mcp-server
-```
-
-Or run directly with npx:
-
-```bash
-npx @competitortracker/mcp-server
-```
-
-### MCP Client Configuration
-
-Add this to your MCP client's server configuration:
+### Add to Hermes Agent
 
 ```json
 {
   "mcpServers": {
     "competitor-tracker": {
-      "command": "npx",
-      "args": ["-y", "@competitortracker/mcp-server"],
-      "env": {
-        "CT_API_KEY": "your-api-key"
+      "transport": "http",
+      "url": "https://mcp.competitortracker.io/mcp"
+    }
+  }
+}
+```
+
+### Claude Code
+
+```bash
+claude mcp add --transport http competitor-tracker https://mcp.competitortracker.io/mcp
+```
+
+### Headless / Automated (API Key)
+
+```json
+{
+  "mcpServers": {
+    "competitor-tracker": {
+      "transport": "http",
+      "url": "https://mcp.competitortracker.io/mcp",
+      "headers": {
+        "X-API-Key": "ct_your_key_here"
       }
     }
   }
 }
 ```
 
-For Claude Code:
-```bash
-claude mcp add competitor-tracker -- npx -y @competitortracker/mcp-server
-```
+## Key Tools
 
-For Hermes Agent (config.yaml):
-```yaml
-mcp_servers:
-  competitor-tracker:
-    transport: stdio
-    command: npx
-    args: ["-y", "@competitortracker/mcp-server"]
-    env:
-      CT_API_KEY: "${CT_API_KEY}"
-```
+The server exposes ~50 tools across three permission tiers:
 
-### Usage
-
-Once connected, ask your AI assistant:
-
-- *"What changed with our competitors this week?"*
-- *"Show me any pricing changes from [competitor] in the last month"*
-- *"Compare our product messaging against our top 3 competitors"*
-- *"Which competitor made the most significant product changes this quarter?"*
-- *"Summarize the top 5 competitive moves I should be aware of"*
-
-## Tools Available
-
-Based on mcp.so listing data, Competitor Tracker & Co. provides:
+### Read Tools (No Confirm Required)
 
 | Tool | Description |
 |------|-------------|
-| `get_changelog` | Get the latest weekly changelog for all tracked competitors |
-| `get_competitor_changes` | Get changes for a specific competitor within a date range |
-| `get_pricing_changes` | Filter changelog to pricing-related changes only |
-| `get_product_changes` | Filter changelog to product/feature changes only |
-| `get_messaging_changes` | Filter changelog to messaging/positioning changes |
-| `compare_competitors` | Side-by-side comparison of recent changes across competitors |
-| `list_tracked_competitors` | List all competitors currently being tracked |
+| `list_competitors` | List all competitors your organization tracks |
+| `get_competitor` | Fetch one competitor's details, categories, and labels |
+| `get_competitor_timeline` | Chronological activity for a competitor |
+| `list_org_changes` | Organization-wide change feed with filters |
+| `list_competitor_changes` | Changes for a single competitor |
+| `get_snapshot` | Retrieve a snapshot with HTML, markdown, and screenshot assets |
+| `list_snapshots` | List snapshots for a tracked page |
+| `list_snapshot_changes` | Changes attributed to a specific snapshot |
+| `list_pages` | List tracked pages, optionally filtered by type |
+| `get_balance` | Coin balance and renewal summary |
 
-## Limitations
+### Write Tools
 
-- **Website-only:** Tracks public website changes, not private product betas or internal strategy
-- **Weekly cadence:** Not real-time — changes appear in the next weekly crawl
-- **Page-level detection:** May miss subtle copy changes if the page structure is complex
-- **Paid product:** Competitor Tracker & Co. is a commercial product (pricing TBD)
+| Tool | Description |
+|------|-------------|
+| `subscribe_competitor` | Start tracking a competitor by URL |
+| `update_competitor` | Change display name or tracked categories |
+| `create_label` / `update_label` | Manage labeling system |
+| `assign_label` / `unassign_label` | Apply/detach labels from competitors |
+| `mint_api_key` | Generate new API keys with scopes |
+| `create_webhook` | Register webhook endpoints for change notifications |
+| `create_dispatch` | Create notification with label scoping |
 
-## Complementary Tools
+### Destructive Tools (Require `confirm: true`)
 
-- **Octolens MCP:** Real-time brand monitoring across 15+ social/news platforms for competitor mentions
-- **TofuBofu AI Visibility MCP:** Measure competitor presence across AI platforms (ChatGPT, Claude, Gemini)
-- **CrustAPI MCP:** Live Google Search for ad-hoc competitive research
+| Tool | Description |
+|------|-------------|
+| `unsubscribe_competitor` | Stop tracking a competitor |
+| `delete_label` | Remove a label from all competitors |
+| `revoke_api_key` | Disable an API key permanently |
+| `delete_org` | Delete the organization (owner only) |
 
----
+Full tool catalog: [competitortracker.io/docs/mcp/tools](https://competitortracker.io/docs/mcp/tools/)
 
-*← [Back to External MCP Catalog](/hermes/mcp/servers/external/) | [Previous: TofuBofu AI Visibility](/hermes/mcp/servers/external/tofubofu-mcp/) →*
+## Example Usage
+
+### Weekly Competitive Brief
+
+Ask your agent: *"What changed across our competitors this week?"*
+
+The agent calls `list_org_changes` with a date filter, returns ranked changes with page snapshots, and synthesizes a brief — pricing moves, new product pages, messaging shifts.
+
+### Subscribe to a New Competitor
+
+Ask your agent: *"Start tracking acme.com — pricing and product pages."*
+
+The agent calls `subscribe_competitor` with the URL and category filters. Weekly crawls begin automatically.
+
+### Pull a Pricing Page Snapshot
+
+Ask your agent: *"Show me what Competitor X's pricing page looks like right now."*
+
+The agent calls `get_snapshot` for the pricing page, returning HTML, markdown, and screenshot.
+
+## Pricing
+
+Competitor Tracker & Co. operates on a coin-based system. Coins cover competitor subscriptions, page tracking, and snapshot retrieval. Check [competitortracker.io](https://competitortracker.io) for current pricing.
+
+## Repository & Resources
+
+| Resource | URL |
+|----------|-----|
+| **GitHub** | [github.com/CofounderGPT/competitor-tracker-mcp](https://github.com/CofounderGPT/competitor-tracker-mcp) |
+| **Website** | [competitortracker.io](https://competitortracker.io) |
+| **Docs** | [competitortracker.io/docs/mcp](https://competitortracker.io/docs/mcp/) |
+| **Demo** | [competitortracker.io/demo/agent](https://competitortracker.io/demo/agent/) |
+| **MCP Endpoint** | `https://mcp.competitortracker.io/mcp` |
+
+## Verdict: ★★★ — Essential for Growth & Product Operators
+
+Competitor Tracker & Co. is the first MCP server that makes competitive website intelligence an agent-native capability. For any operator running product or growth through AI agents, this removes the context-switch between "working in your agent" and "checking what competitors are doing." The ~50-tool surface with read/write/destructive tiers and confirm gates shows mature API design.
+
+**Strengths:** ~50 tools covering full CI workflow, OAuth + API key auth, confirm-gated destructive operations, weekly automated crawls, page snapshots with HTML/markdown/screenshots, webhook support for programmatic alerts.
+
+**Limitations:** Brand new (0 stars, created Jul 2026), coin-based pricing unclear at free tier, relies on website crawling (JavaScript-heavy sites may produce incomplete snapshots), no social media or ad monitoring (website-only).
+
+**Best for:** Founders, product managers, growth operators, and competitive intelligence teams who want competitor monitoring integrated into their AI agent workflows rather than a separate dashboard.
