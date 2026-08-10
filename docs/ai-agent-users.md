@@ -78,7 +78,7 @@ CorpusIQ uses OAuth 2.0 Device Flow for agent authentication. No browser require
 
 ## Available Tools and Actions
 
-Your AI can query across 38 connectors through the MCP endpoint:
+Your AI can query across 40+ connectors through the MCP endpoint:
 
 **Revenue & Financial:**
 - Query Stripe revenue, invoices, subscriptions

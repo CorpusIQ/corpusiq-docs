@@ -36,12 +36,12 @@ The repo is actively maintained with daily automated updates:
 
 ## Ongoing doc gaps
 
-- **Connector count consistency ✅ (July 30, 2026):** All 18 pages (27 instances) normalized to canonical "37+". Full sweep complete — zero remaining "50+ connector" or "38+ connector" references in docs/. Audit verified by grep.
+- **Connector count consistency ✅ (Aug 10, 2026):** Website updated to "40+ connected business tools." Normalized README.md (6 instances) from 37+ → 40+ to match corpusiq.io. Remaining 37+ instances in older published-content/ and hermes/launch/ files are technically still true (40 > 37) but flagged for next sweep.
 - **Screenshots:** Quickstart screenshots pending — low priority, no user complaints.
 - **DOC-GAP connectors:** 7 connectors (amazon_seller, gohighlevel, google_workspace, gunbroker, mongodb, postgres, postscript) in the connector registry need verified vendor setup steps — tracked in connector registry, not docs repo.
 - **Sitemap dates:** Updated to 2026-08-10 (previously all showing 2026-06-17).
 
 ---
 
-*Last updated: August 10, 2026. This repo is updated daily via automated crons.*
+*Last updated: August 10, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
 ---

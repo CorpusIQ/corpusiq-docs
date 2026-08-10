@@ -17,11 +17,11 @@ Desktop app that records on-screen work sessions and converts them into reusable
 The workflow that Claude Fable 5 used, distilled into model-agnostic skills. Key principles:
 
 1. **Read the whole context before acting** — matches our Aug 5 hard rule
-2. **Assert, don't explain** — matches Benoit's communication philosophy
+2. **Assert, don't explain** — matches the corpusiq-content-writing-system communication philosophy
 3. **Start with the point** — the argument proves itself
 4. **End on a line that stands alone** — the mic drop
 
-**Application to Hermes**: The Fable method aligns with every content rule Benoit has given. It should be integrated into the corpusiq-content-writing-system skill as a foundational framework.
+**Application to Hermes**: The Fable method aligns with every content rule established for CorpusIQ. It should be integrated into the corpusiq-content-writing-system skill as a foundational framework.
 
 ## Human Writing ⭐2,254
 

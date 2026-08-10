@@ -17,7 +17,7 @@ CorpusIQ owns the entire pipeline:
 - Anti-drift  --  stops AI from inventing metrics
 - Source citations  --  every answer traceable to origin
 
-37 connectors. 133 skills. 30-day free trial. No credit card.
+41 connectors. 133 skills. 30-day free trial. No credit card.
 
 ## First Comment
 I built CorpusIQ because every AI tool that connects to business data has the same problem  --  they outsource the connector layer. When you don't own the data pipeline, you can't validate anything. The output looks good but the numbers might be wrong. For financial decisions, that's unacceptable. So we built the entire intelligence layer ourselves. Validation. Normalization. Entity resolution. Anti-drift. Every single piece. Happy to answer questions.

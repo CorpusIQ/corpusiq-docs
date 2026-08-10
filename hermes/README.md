@@ -8,7 +8,7 @@ tags:
   - production-deployment
   - ai-agent-architecture
   - mcp-ecosystem
-last_updated: 2026-07-08
+last_updated: 2026-08-10
 ---
 
 <p align="center">

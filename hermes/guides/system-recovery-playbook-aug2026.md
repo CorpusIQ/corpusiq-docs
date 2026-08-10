@@ -5,7 +5,7 @@ What happened when the DGX Spark needed a hard restart after the agent went unre
 ## Timeline
 
 - Aug 6-9: System dark. MCP JWT silently expired. Gateway timer out. No watchdog detected the outage for 2 days.
-- Aug 9 evening: Agent watchdog fired. Benoit received alert. Daily report missed.
+- Aug 9 evening: Agent watchdog fired. Team received alert. Daily report missed.
 - Aug 10 9:34 AM: Spark restarted. Agent came back online.
 - Aug 10 9:40 AM: Session started. Gateway healthy (NRestarts=0). State DB at 4.8GB.
 

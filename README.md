@@ -3,12 +3,12 @@
 [![MCP Toplist](https://mcptoplist.com/badge/glama%2FCorpusIQ%2Fcorpusiq-docs.svg)](https://mcptoplist.com/server/glama%2FCorpusIQ%2Fcorpusiq-docs)
 
 [![MCP Platform](https://img.shields.io/badge/MCP-Platform-0a2540?style=flat-square&logo=anthropic&logoColor=white)](https://www.corpusiq.io)
-[![Connectors](https://img.shields.io/badge/Connectors-37+-c9a961?style=flat-square)](https://www.corpusiq.io/connectors)
+[![Connectors](https://img.shields.io/badge/Connectors-40+-c9a961?style=flat-square)](https://www.corpusiq.io/connectors)
 [![Stars](https://img.shields.io/github/stars/CorpusIQ/corpusiq-docs?style=flat-square&color=c9a961)](https://github.com/CorpusIQ/corpusiq-docs)
 [![Contributors](https://img.shields.io/badge/Contributors-welcome-0a2540?style=flat-square)](https://github.com/CorpusIQ/corpusiq-docs/blob/main/CONTRIBUTING.md)
 [![License](https://img.shields.io/badge/License-MIT-627d98?style=flat-square)](LICENSE)
 
-**CorpusIQ is the live-data brain you plug into ChatGPT, Claude, or any AI assistant.** Connect the tools you already use — QuickBooks, Shopify, Stripe, HubSpot, GA4, Klaviyo, Slack, and 30+ more — then ask plain-English questions and get answers grounded in your actual business data. No dashboards. No reports. No waiting on someone to pull the numbers.
+**CorpusIQ is the live-data brain you plug into ChatGPT, Claude, or any AI assistant.** Connect the tools you already use — QuickBooks, Shopify, Stripe, HubSpot, GA4, Klaviyo, Slack, and 35+ more — then ask plain-English questions and get answers grounded in your actual business data. No dashboards. No reports. No waiting on someone to pull the numbers.
 
 > "How much did we make last month across Shopify and Stripe?" — answered in seconds.
 
@@ -36,7 +36,7 @@
 
 ---
 
-## 37+ live-data connectors
+## 40+ live-data connectors
 
 | Category | What you can query |
 |----------|-------------------|
@@ -50,7 +50,7 @@
 | **Databases** | PostgreSQL, MSSQL, Cosmos DB, MongoDB |
 | **Files** | Google Drive, OneDrive, Dropbox, Airtable, Notion |
 
-[Browse all 37+ connectors →](https://www.corpusiq.io/connectors)
+[Browse all 40+ connectors →](https://www.corpusiq.io/connectors)
 
 ---
 
@@ -70,7 +70,7 @@
 |---------|---------------|
 | **[Quickstart](https://www.corpusiq.io/docs/quick-start/)** | Create account → connect AI → first query in 5 minutes |
 | **[Prompt Library](/hermes/prompts/)** | Battle-tested prompts for executives, marketers, operators |
-| **[Connector Guides](/connectors/)** | Setup walkthroughs for all 37+ integrations |
+|| **[Connector Guides](/connectors/)** | Setup walkthroughs for all 40+ integrations |
 | **[How It Works](https://www.corpusiq.io/docs/how-it-works/)** | MCP architecture, privacy, rate limits, skills system |
 | **[Hermes Community Hub](/hermes/)** | 130+ pages: autonomous agents, skills catalog, infrastructure |
 | **[Troubleshooting](https://www.corpusiq.io/docs/troubleshooting/)** | Common issues, error codes, OAuth fixes |
@@ -94,7 +94,7 @@ CorpusIQ is built on the [Model Context Protocol (MCP)](https://modelcontextprot
 }
 ```
 
-Your AI assistant gets 37+ live data tools instantly. No SDK. No custom integration. Just works.
+Your AI assistant gets 40+ live data tools instantly. No SDK. No custom integration. Just works.
 
 ---
 
