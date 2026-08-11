@@ -377,3 +377,8 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [just-scrape — AI-Powered Web Scraping CLI Setup](/docs/hermes/skills/catalog/just-scrape-setup.html)
 - [Terminal Skills — System Administration Pack Setup](/docs/hermes/skills/catalog/terminal-skills-setup.html)
 - [Finance Skills — Financial Analysis for Agents Setup](/docs/hermes/skills/catalog/finance-skills-setup.html)
+- [Songwriting & AI Music — Creative Music Generation Setup](/docs/hermes/skills/catalog/songwriting-and-ai-music-setup.html)
+- [Debugging Hermes TUI Commands — Slash Command Troubleshooting Setup](/docs/hermes/skills/catalog/debugging-hermes-tui-commands-setup.html)
+- [Hermes Attestation Guardian — Security Verification Setup](/docs/hermes/skills/catalog/hermes-attestation-guardian-setup.html)
+- [Research Paper Writing Pipeline — Academic ML/AI Paper Production Setup](/docs/hermes/skills/catalog/research-paper-writing-setup.html)
+- [Plan Mode — Plan-Only Execution Mode Setup](/docs/hermes/skills/catalog/plan-mode-setup.html)
