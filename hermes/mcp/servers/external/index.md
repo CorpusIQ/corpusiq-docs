@@ -3124,3 +3124,9 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Stock Market MCP Server — Real-Time Financial Data](/docs/hermes/mcp/servers/external/stock-market-mcp-server/index.html)
 - [Trello MCP Server — Project Management for AI Agents](/docs/hermes/mcp/servers/external/trello-mcp/index.html)
 - [Yapp](/docs/hermes/mcp/servers/external/yapp.html)
+
+### 3 new servers from mcp.so Homepage + GitHub Issues — Aug 11, 2026 (afternoon sweep)
+
+- [NERAI Risk Intelligence MCP — Geopolitical Intelligence for AI Agents](/docs/hermes/mcp/servers/external/nerai-risk-intelligence-mcp/index.html)
+- [Data Studio Agent MCP — 70+ SQL & NoSQL Databases for AI Agents](/docs/hermes/mcp/servers/external/data-studio-agent-mcp/index.html)
+- [FLINT Network MCP — Agent Identity Verification Before Transactions](/docs/hermes/mcp/servers/external/flint-network-mcp/index.html)
