@@ -7,7 +7,24 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 11, 2026 (overnight sweep) · **Sources:** mcp.so (~22,000+ servers), mcpservers.org (10,811+ servers), sitemap + SSR + GitHub issues scanning · **Catalog:** 140 servers (+40 guides)
+> **Last updated:** August 11, 2026 (midday sweep) · **Sources:** mcp.so (~22,000+ servers), mcpservers.org (10,856+ servers), sitemap + SSR + homepage scanning · **Catalog:** 143 servers (+43 guides)
+
+---
+
+## 🆕 August 11, 2026 — Midday Sweep (3 New, 3 Guides)
+
+Follow-up to the overnight sweep (~6 hours later). Scanned mcp.so homepage + /servers?sort=latest (50 most recent) and mcpservers.org /all (30 newest). 3 new business-relevant servers found — with a notable trend: "no dashboard required" is becoming the explicit pitch for MCP-native marketing tools. [Full sweep report →](/hermes/mcp/sweeps/sweep-august11-2026-midday/)
+
+### AdMake AI MCP ★★★ — August 11 midday
+Remote MCP (OAuth 2.1) for AI ad creative generation + Meta Ad Library competitor research + publishing to Meta/TikTok/Pinterest. First MCP that connects the full ad creative lifecycle (research → generate → publish) in a single agent-accessible flow. Plans from $39/mo, 5 free ads. `admakeai.com/api/mcp` (commercial) · [Guide →](/hermes/mcp/servers/external/admake-ai-mcp/)
+
+### JaxSuite AI MCP ★★★ — August 11 midday
+AI-native cold outreach + CRM platform — 27 MCP tools covering campaign lifecycle, multi-step content writing with spintax, contact management, and deliverability analytics. 300M+ verified B2B contacts. Remote Streamable HTTP with API token auth. First end-to-end cold outreach MCP with built-in deliverability. `jaxsuite.com/api/v1/mcp` (commercial) · [Guide →](/hermes/mcp/servers/external/jaxsuite-ai-mcp/)
+
+### DripRaven MCP ★★ — August 11 midday
+WhatsApp Business campaign automation for AI agents — import contacts, send approved templates, schedule broadcasts, read delivery rates via official WhatsApp API. First WhatsApp-specific marketing MCP. Starter $49/mo (5K msgs). `dripraven.com` (commercial) · [Guide →](/hermes/mcp/servers/external/dripraven-mcp/)
+
+**Also identified (not catalogued):** Syncro MCP (IT management, official), LocalCan MCP (ngrok alternative, 82⭐), LinkedIn API MCP (browser session approach), Bastion (attack surface monitoring), wecallio (outbound phone calls for agents), Klarefi (legal intake), and 6 others. 12 total identified, most were dev tools, security/legal niche, or crypto-adjacent.
 
 ---
 
