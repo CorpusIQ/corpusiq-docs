@@ -47,7 +47,7 @@ For the full interactive connector list with real-time status indicators, visit 
 |-----------|-------------|
 | **Google Analytics 4 (GA4)** | Query web and app traffic metrics, user counts, sessions, conversions, real-time visitors, and ecommerce revenue. |
 | **Google Search Console** | Retrieve search performance data, clicks, impressions, CTR, average position, sitemaps, and indexed URL status. |
-| **Google Ads** | Access campaign performance, ad groups, keywords, search terms, quality scores, device and geographic breakdowns, and spend metrics. |
+| **[Google Ads](connectors/google-ads-for-agencies.md)** | Access campaign performance, ad groups, keywords, search terms, quality scores, device and geographic breakdowns, and spend metrics. Agencies can connect one MCC identity and automatically discover linked client accounts. |
 | **Meta Ads (Facebook & Instagram)** | Query Facebook and Instagram ad account performance, campaigns, ad sets, individual ads, audience insights, and lead forms. |
 | **LinkedIn Ads** | B2B paid-social reporting: sponsored ad accounts, campaigns, creatives, and daily performance analytics. |
 | **Ahrefs** | Domain rating, backlink analysis, organic keywords, referring domains, competitor research, and keyword difficulty scores. Superior for backlink data. |

@@ -36,7 +36,9 @@ nav:
   - Rate Limits: api/rate-limits.md
   - Errors: api/errors.md
   - OpenAPI: api/openapi.md
-- Connectors: connectors.md
+- Connectors:
+  - Directory: connectors.md
+  - Google Ads for Agencies: connectors/google-ads-for-agencies.md
 - Architecture:
   - Overview: architecture/README.md
 - How It Works:
