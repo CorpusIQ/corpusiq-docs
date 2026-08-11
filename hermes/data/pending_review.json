@@ -33160,5 +33160,1361 @@
     ],
     "discovered_at": "2026-08-11T07:05:01.015211+00:00",
     "status": "pending"
+  },
+  {
+    "name": "xmbshwll/hermes-agent-docker",
+    "url": "https://github.com/xmbshwll/hermes-agent-docker",
+    "description": "Simple docker sandbox image for Hermes Agent",
+    "stars": 47,
+    "forks": 9,
+    "language": "Dockerfile",
+    "topics": [],
+    "updated_at": "2026-08-07T17:09:43Z",
+    "score": 57,
+    "tier": "PENDING",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "good_description",
+      "has_language",
+      "not_archived",
+      "active_week",
+      "some_stars_20+",
+      "specialty"
+    ],
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00",
+    "category": "xmbshwll",
+    "status": "pending"
+  },
+  {
+    "name": "0xrsydn/nix-hermes-agent",
+    "url": "https://github.com/0xrsydn/nix-hermes-agent",
+    "description": "Nix package and NixOS module for Hermes Agent by Nous Research",
+    "stars": 38,
+    "forks": 7,
+    "language": "Nix",
+    "topics": [],
+    "updated_at": "2026-08-07T16:21:37Z",
+    "score": 57,
+    "tier": "PENDING",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "good_description",
+      "has_language",
+      "not_archived",
+      "active_week",
+      "some_stars_20+",
+      "specialty"
+    ],
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00",
+    "category": "0xrsydn",
+    "status": "pending"
+  },
+  {
+    "name": "mrpeter2025/clawsocial-hermes-plugin",
+    "url": "https://github.com/mrpeter2025/clawsocial-hermes-plugin",
+    "description": "Claw-Social Hermes Plugin \u2014 social discovery for AI agents",
+    "stars": 5,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "claw-social",
+      "clawsocial",
+      "hermes",
+      "hermes-agent",
+      "hermes-plugin",
+      "messaging",
+      "nous-research",
+      "openclaw",
+      "plugin",
+      "real-time",
+      "social-discovery",
+      "social-network",
+      "websocket"
+    ],
+    "updated_at": "2026-06-27T18:52:43Z",
+    "score": 44,
+    "tier": "PENDING",
+    "score_reasons": [
+      "hermes_mention",
+      "good_description",
+      "has_language",
+      "well_tagged",
+      "not_archived",
+      "active_quarter",
+      "few_stars_5+",
+      "specialty"
+    ],
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00",
+    "category": "mrpeter2025",
+    "status": "pending"
+  },
+  {
+    "name": "beardthelion/hermes-skill-distillation",
+    "url": "https://github.com/beardthelion/hermes-skill-distillation",
+    "description": "Hermes Agent Hackathon: RealWorldTaskEnv \u2014 generate agentic training trajectories from real-world tasks for Hermes 4 fine-tuning",
+    "stars": 12,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-07-29T21:53:24Z",
+    "score": 54,
+    "tier": "PENDING",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "good_description",
+      "has_language",
+      "not_archived",
+      "active_month",
+      "few_stars_5+",
+      "multi_specialty"
+    ],
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00",
+    "category": "beardthelion",
+    "status": "pending"
+  },
+  {
+    "name": "Alexeyisme/hermes-spotify-skill",
+    "url": "https://github.com/Alexeyisme/hermes-spotify-skill",
+    "description": "Spotify playback control skill for Hermes Agent \u2014 search, play, pause, skip, volume, transfer between devices. Linux & Raspberry Pi 4/5. Works with raspotify for Pi-as-speaker. Have fun!",
+    "stars": 10,
+    "forks": 3,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "hermes-agent",
+      "hermes-skill",
+      "linux",
+      "music",
+      "openclaw",
+      "raspberry-pi",
+      "raspotify",
+      "smart-home",
+      "spotify",
+      "spotify-api",
+      "spotipy",
+      "voice-assistant"
+    ],
+    "updated_at": "2026-07-13T02:04:28Z",
+    "score": 54,
+    "tier": "PENDING",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "good_description",
+      "has_language",
+      "well_tagged",
+      "not_archived",
+      "active_month",
+      "few_stars_5+",
+      "specialty"
+    ],
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00",
+    "category": "Alexeyisme",
+    "status": "pending"
+  },
+  {
+    "name": "nativ3ai/hermes-agent-camel",
+    "url": "https://github.com/nativ3ai/hermes-agent-camel",
+    "description": "Hermes Agent fork with integrated CaMeL trust boundaries",
+    "stars": 194,
+    "forks": 18,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-11T04:21:56Z",
+    "score": 63,
+    "tier": "PENDING",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "good_description",
+      "has_language",
+      "not_archived",
+      "active_week",
+      "moderate_stars_100+",
+      "some_forks"
+    ],
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00",
+    "category": "nativ3ai",
+    "status": "pending"
+  },
+  {
+    "name": "jasperan/orahermes-agent",
+    "url": "https://github.com/jasperan/orahermes-agent",
+    "description": "Oracle AI Agent Harness \u2014 fork of NousResearch/hermes-agent powered by OCI GenAI and Oracle 26ai Free",
+    "stars": 4,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "autonomous-agent",
+      "genai",
+      "grok",
+      "hermes-agent",
+      "oci",
+      "openai-compatible",
+      "oracle",
+      "oracle-26ai",
+      "oracle-cloud",
+      "oracle-database",
+      "oracle-text",
+      "python",
+      "tool-calling",
+      "xai"
+    ],
+    "updated_at": "2026-08-09T16:51:56Z",
+    "score": 48,
+    "tier": "PENDING",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "good_description",
+      "has_language",
+      "well_tagged",
+      "not_archived",
+      "active_week",
+      "no_stars"
+    ],
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00",
+    "category": "jasperan",
+    "status": "pending"
+  },
+  {
+    "name": "anpicasso/hermes-plugin-chrome-profiles",
+    "url": "https://github.com/anpicasso/hermes-plugin-chrome-profiles",
+    "description": "Hermes Agent plugin \u2014 switch browser tools between Chrome profiles via CDP",
+    "stars": 6,
+    "forks": 5,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-09T16:59:52Z",
+    "score": 54,
+    "tier": "PENDING",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "good_description",
+      "has_language",
+      "not_archived",
+      "active_week",
+      "few_stars_5+",
+      "specialty"
+    ],
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00",
+    "category": "anpicasso",
+    "status": "pending"
+  },
+  {
+    "name": "ahmdngi/consensus-mcp-hermes",
+    "url": "https://github.com/ahmdngi/consensus-mcp-hermes",
+    "description": "Connect Consensus (200M+ research papers) to Hermes Agent via MCP. OAuth setup guide with mcp-remote bridge.",
+    "stars": 1,
+    "forks": 0,
+    "language": "",
+    "topics": [
+      "consensus",
+      "hermes-agent",
+      "mcp",
+      "mcp-server",
+      "oauth",
+      "research"
+    ],
+    "updated_at": "2026-07-18T14:36:00Z",
+    "score": 51,
+    "tier": "PENDING",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "good_description",
+      "well_tagged",
+      "not_archived",
+      "active_month",
+      "no_stars",
+      "multi_specialty"
+    ],
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00",
+    "category": "ahmdngi",
+    "status": "pending"
+  },
+  {
+    "name": "FahrenheitResearch/hermes-wxtrain-plugin",
+    "url": "https://github.com/FahrenheitResearch/hermes-wxtrain-plugin",
+    "description": "Hermes Agent ML pipeline plugin \u2014 build training datasets from HRRR/GFS/ERA5. Powered by wxforge (all Rust).",
+    "stars": 4,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-06-27T18:51:48Z",
+    "score": 47,
+    "tier": "PENDING",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "good_description",
+      "has_language",
+      "not_archived",
+      "active_quarter",
+      "no_stars",
+      "multi_specialty"
+    ],
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00",
+    "category": "FahrenheitResearch",
+    "status": "pending"
+  },
+  {
+    "name": "FahrenheitResearch/hermes-weather-plugin",
+    "url": "https://github.com/FahrenheitResearch/hermes-weather-plugin",
+    "description": "Hermes Agent weather plugin \u2014 NWS-grade model imagery, NEXRAD radar, and verified meteorological calculations. Pure Rust stack.",
+    "stars": 44,
+    "forks": 3,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-04T18:25:00Z",
+    "score": 57,
+    "tier": "PENDING",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "good_description",
+      "has_language",
+      "not_archived",
+      "active_week",
+      "some_stars_20+",
+      "specialty"
+    ],
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00",
+    "category": "FahrenheitResearch",
+    "status": "pending"
+  },
+  {
+    "name": "Agent-Analytics/agent-analytics-hermes-plugin",
+    "url": "https://github.com/Agent-Analytics/agent-analytics-hermes-plugin",
+    "description": "Hermes dashboard plugin for Agent Analytics \u2014 account connection, project selection, and read-only analytics inside Hermes.",
+    "stars": 26,
+    "forks": 5,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-09T17:00:50Z",
+    "score": 53,
+    "tier": "PENDING",
+    "score_reasons": [
+      "hermes_mention",
+      "good_description",
+      "has_language",
+      "not_archived",
+      "active_week",
+      "some_stars_20+",
+      "multi_specialty"
+    ],
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00",
+    "category": "Agent-Analytics",
+    "status": "pending"
+  },
+  {
+    "name": "1ilkhamov/opencode-hermes-multiagent",
+    "url": "https://github.com/1ilkhamov/opencode-hermes-multiagent",
+    "description": "Hermes \u2014 a multi-agent system for OpenCode AI. 17 specialized agents for research, planning, implementation, quality, and infrastructure.",
+    "stars": 176,
+    "forks": 21,
+    "language": "",
+    "topics": [],
+    "updated_at": "2026-08-10T03:52:59Z",
+    "score": 59,
+    "tier": "PENDING",
+    "score_reasons": [
+      "hermes_mention",
+      "good_description",
+      "not_archived",
+      "active_week",
+      "moderate_stars_100+",
+      "some_forks",
+      "specialty"
+    ],
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00",
+    "category": "1ilkhamov",
+    "status": "pending"
+  },
+  {
+    "name": "teknium1/hermes-miniverse",
+    "url": "https://github.com/teknium1/hermes-miniverse",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 22,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "rodmarkun/anihermes",
+    "url": "https://github.com/rodmarkun/anihermes",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 22,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "robbyczgw-cla/hermes-web-search-plus",
+    "url": "https://github.com/robbyczgw-cla/hermes-web-search-plus",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 22,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "raulvidis/hermes-cloudflare",
+    "url": "https://github.com/raulvidis/hermes-cloudflare",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 22,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "ogallotti/rtk-hermes",
+    "url": "https://github.com/ogallotti/rtk-hermes",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 22,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "nativ3ai/hermes-payguard",
+    "url": "https://github.com/nativ3ai/hermes-payguard",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 22,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "metantonio/hermes-wsl-ubuntu",
+    "url": "https://github.com/metantonio/hermes-wsl-ubuntu",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 22,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "gizdusum/hermes-blockchain-oracle",
+    "url": "https://github.com/gizdusum/hermes-blockchain-oracle",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 22,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "ellickjohnson/portainer-stack-hermes",
+    "url": "https://github.com/ellickjohnson/portainer-stack-hermes",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 22,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "bigph00t/hermescraft",
+    "url": "https://github.com/bigph00t/hermescraft",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 22,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "amanning3390/hermeshub",
+    "url": "https://github.com/amanning3390/hermeshub",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 22,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "Yonkoo11/hermes-dojo",
+    "url": "https://github.com/Yonkoo11/hermes-dojo",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 22,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "Snehal707/Hermes-mars-rover",
+    "url": "https://github.com/Snehal707/Hermes-mars-rover",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 22,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "Hmbown/NemoHermes",
+    "url": "https://github.com/Hmbown/NemoHermes",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 22,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "Cranot/super-hermes",
+    "url": "https://github.com/Cranot/super-hermes",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 22,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "smartcontractkit/chainlink-agent-skills",
+    "url": "https://github.com/smartcontractkit/chainlink-agent-skills",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 18,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "cablate/Agentic-MCP-Skill",
+    "url": "https://github.com/cablate/Agentic-MCP-Skill",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 18,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "black-forest-labs/skills",
+    "url": "https://github.com/black-forest-labs/skills",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 18,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "bin1874/before-you-build-skill",
+    "url": "https://github.com/bin1874/before-you-build-skill",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 15,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "beiyuii/personal-api-skill",
+    "url": "https://github.com/beiyuii/personal-api-skill",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 15,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "wordbricks/skills",
+    "url": "https://github.com/wordbricks/skills",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "wondelai/skills",
+    "url": "https://github.com/wondelai/skills",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "tlehman/litprog-skill",
+    "url": "https://github.com/tlehman/litprog-skill",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "tiann/execplan-skill",
+    "url": "https://github.com/tiann/execplan-skill",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "snyk/agent-scan",
+    "url": "https://github.com/snyk/agent-scan",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "resemble-ai/detect-skill",
+    "url": "https://github.com/resemble-ai/detect-skill",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "mukul975/Anthropic-Cybersecurity-Skills",
+    "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "chigwell/skilldock.io",
+    "url": "https://github.com/chigwell/skilldock.io",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "armelhbobdad/bmad-module-skill-forge",
+    "url": "https://github.com/armelhbobdad/bmad-module-skill-forge",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "ZeroPointRepo/zillow-skills",
+    "url": "https://github.com/ZeroPointRepo/zillow-skills",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "ZeroPointRepo/youtube-skills",
+    "url": "https://github.com/ZeroPointRepo/youtube-skills",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "TheColonyCC/colony-skill",
+    "url": "https://github.com/TheColonyCC/colony-skill",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "PederHP/skillsdotnet",
+    "url": "https://github.com/PederHP/skillsdotnet",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "Merit-Systems/agentcash-skills",
+    "url": "https://github.com/Merit-Systems/agentcash-skills",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "DougTrajano/pydantic-ai-skills",
+    "url": "https://github.com/DougTrajano/pydantic-ai-skills",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "Andrew-Girgis/microsoft-workspace-skill",
+    "url": "https://github.com/Andrew-Girgis/microsoft-workspace-skill",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "AMAP-ML/SkillClaw",
+    "url": "https://github.com/AMAP-ML/SkillClaw",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 10,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "unitedideas/nothumansearch-mcp",
+    "url": "https://github.com/unitedideas/nothumansearch-mcp",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 8,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "Xquik-dev/tweetclaw",
+    "url": "https://github.com/Xquik-dev/tweetclaw",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 8,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "42-evey/evey-bridge-plugin",
+    "url": "https://github.com/42-evey/evey-bridge-plugin",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 8,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "builderz-labs/mission-control",
+    "url": "https://github.com/builderz-labs/mission-control",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 5,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "bergside/typeui",
+    "url": "https://github.com/bergside/typeui",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 5,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "42-evey/evey-setup",
+    "url": "https://github.com/42-evey/evey-setup",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 5,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "vectorize-io/hindsight",
+    "url": "https://github.com/vectorize-io/hindsight",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 0,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "roli-lpci/lintlang",
+    "url": "https://github.com/roli-lpci/lintlang",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 0,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "plur-ai/plur",
+    "url": "https://github.com/plur-ai/plur",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 0,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "hxsteric/mercury",
+    "url": "https://github.com/hxsteric/mercury",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 0,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "elkimek/honcho-self-hosted",
+    "url": "https://github.com/elkimek/honcho-self-hosted",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 0,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "avansaber/erpclaw",
+    "url": "https://github.com/avansaber/erpclaw",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 0,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "amanning3390/flowstate-qmd",
+    "url": "https://github.com/amanning3390/flowstate-qmd",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 0,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "aivanelabs/ai-rpa",
+    "url": "https://github.com/aivanelabs/ai-rpa",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 0,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "ReinaMacCredy/maestro",
+    "url": "https://github.com/ReinaMacCredy/maestro",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 0,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "KYC-rip/ripley-xmr-gateway",
+    "url": "https://github.com/KYC-rip/ripley-xmr-gateway",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 0,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
+  },
+  {
+    "name": "Hmbown/Wizards-of-the-Ghosts",
+    "url": "https://github.com/Hmbown/Wizards-of-the-Ghosts",
+    "description": "",
+    "stars": 0,
+    "forks": 0,
+    "language": "",
+    "topics": [],
+    "updated_at": "",
+    "score": 0,
+    "tier": "PENDING",
+    "score_reasons": [
+      "name_based_quick_score"
+    ],
+    "category": "",
+    "status": "pending",
+    "discovered_at": "2026-08-11T08:08:53.055170+00:00"
   }
 ]

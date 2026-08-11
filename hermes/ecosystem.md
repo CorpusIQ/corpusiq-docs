@@ -1,14 +1,14 @@
 ---
 title: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem — 157+ repos, tools, skills, and integrations
-last_updated: 2026-08-10
+description: Comprehensive directory of the Hermes Agent ecosystem — 164+ repos, tools, skills, and integrations
+last_updated: 2026-08-11
 ---
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **158+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **164+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **158+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **164+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -16,7 +16,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **158+ reposit
 |----------|-------|-------------|
 | 🎬 Content & Media | 1 | Video, social media, content generation |
 | 🧠 Core Framework | 8 | Core Hermes Agent repos, official builds |
-| 🚀 Deployment | 10 | Docker, Kubernetes, production hosting |
+| 🚀 Deployment | 11 | Docker, Kubernetes, production hosting |
 | 🍴 Forks & Derivatives | 7 | Community forks with significant changes |
 || 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 6 | Model Context Protocol servers & integrations |
@@ -26,8 +26,8 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **158+ reposit
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
 | 📦 SDKs & Libraries | 1 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 1 | Security tools, compliance, audit |
-| 🔧 Skills & Plugins | 36 | Reusable skills, plugins, extensions, tools |
-| 🖥️ Interfaces & UI | 27 | Desktop apps, web UIs, dashboards, terminals |
+| 🔧 Skills & Plugins | 37 | Reusable skills, plugins, extensions, tools |
+| 🖥️ Interfaces & UI | 31 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
 
@@ -190,6 +190,14 @@ _Docker, Kubernetes, production hosting_
 ### [mrbooboo1987-creator/hermes-grok-trading-system](https://github.com/mrbooboo1987-creator/hermes-grok-trading-system) ⭐ 0
 
 >Autonomous 24/7 AI trading agent powered by Grok 4.20 — the model that won Alpha Arena Season 1.5. Complete production-ready system with risk management, paper trading, cron/systemd support.
+
+---
+
+### [aivrar/portable-hermes-agent](https://github.com/aivrar/portable-hermes-agent) ⭐ 205
+
+>Hermes Agent made portable desktop for Windows — 100 tools, GUI, local models via LM Studio, TTS, Music, ComfyUI, workflows, tool maker. No install. No Docker. No admin rights.
+
+**Language:** Python | **Topics:** hermes-agent, portable, windows, desktop | **Score:** 74/100
 
 ---
 
@@ -1101,6 +1109,14 @@ _Reusable skills, plugins, extensions, tools_
 
 ---
 
+### [42-evey/hermes-plugins](https://github.com/42-evey/hermes-plugins) ⭐ 387
+
+>Custom plugins for hermes-agent — goal management, inter-agent bridge, model selection, cost control
+
+**Language:** Python | **Topics:** ai-agent, autonomous-agent, hermes-agent, open-source, plugins | **Score:** 77/100
+
+---
+
 ## 🖥️ Interfaces & UI
 
 _Desktop apps, web UIs, dashboards, terminals_
@@ -1317,9 +1333,41 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
+### [dodo-reach/hermes-desktop](https://github.com/dodo-reach/hermes-desktop) ⭐ 1,991
+
+>The safest, simplest way to manage Hermes from your Mac. Pure SSH. No gateways, no exposed ports, no browser layer.
+
+**Language:** Swift | **Topics:** agent-tools, apple-silicon, developer-tools, hermes, hermes-agent, macos, remote-development, ssh, swift, swiftui, terminal | **Score:** 73/100
 
 ---
 
-*158+ repositories in the Hermes ecosystem. Last updated: 2026-08-10. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+### [raulvidis/hermes-android](https://github.com/raulvidis/hermes-android) ⭐ 452
+
+>Android device control for hermes-agent — bridge app + Python toolset
+
+**Language:** Python | **Score:** 71/100
+
+---
+
+### [pyrate-llama/hermes-ui](https://github.com/pyrate-llama/hermes-ui) ⭐ 195
+
+>The command center for Hermes Agent — chat, steer, browse files, manage skills, and monitor everything from a single glassmorphic HTML app.
+
+**Language:** HTML | **Topics:** ai, ai-assistant, chat-interface, dashboard, glassmorphism, hermes, hermes-agent, llm, mcp, python, react, self-hosted, single-file, tailscale, web-ui | **Score:** 74/100
+
+---
+
+### [sanchomuzax/hermes-webui](https://github.com/sanchomuzax/hermes-webui) ⭐ 113
+
+>Process monitoring and configuration dashboard for Hermes Agent
+
+**Language:** Python | **Topics:** ai-agent, dashboard, fastapi, hermes-agent, monitoring, react, webui | **Score:** 77/100
+
+---
+
+
+---
+
+*164+ repositories in the Hermes ecosystem. Last updated: 2026-08-11. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
