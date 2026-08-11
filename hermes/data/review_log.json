@@ -8299,5 +8299,145 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-10T16:54:08.193168+00:00"
+  },
+  {
+    "repo": "qiushile/AgentTeam",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746081+00:00"
+  },
+  {
+    "repo": "smaryl2634/phoenix",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746095+00:00"
+  },
+  {
+    "repo": "liujun2051/winux",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746097+00:00"
+  },
+  {
+    "repo": "Shermanxwz/hermes-amazon-ads-automation",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746099+00:00"
+  },
+  {
+    "repo": "painbaba/unified-agent",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746101+00:00"
+  },
+  {
+    "repo": "justusvaltonen/hermes-buzz-bridge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746102+00:00"
+  },
+  {
+    "repo": "LittlePeter52012/agent-sync",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746104+00:00"
+  },
+  {
+    "repo": "tertiarycourses/C1871-AI-Agent-with-Hermes-Agent",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746106+00:00"
+  },
+  {
+    "repo": "Viscoo/CoAgent",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746108+00:00"
+  },
+  {
+    "repo": "rajatkb/agent-skillz",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746110+00:00"
+  },
+  {
+    "repo": "vanderstark/hermes-skills-backup",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746112+00:00"
+  },
+  {
+    "repo": "jjdejong/hermes-patent-skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746113+00:00"
+  },
+  {
+    "repo": "gittensor-model-hub/Spark-Hermes",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746115+00:00"
+  },
+  {
+    "repo": "coolifystealthagents/hireassistantnearme",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746116+00:00"
+  },
+  {
+    "repo": "nblicb/hermes-agent-template",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746118+00:00"
+  },
+  {
+    "repo": "Asaakii/Build-my-own-Hermes-Agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746119+00:00"
+  },
+  {
+    "repo": "HMS091/hermes-skills",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746121+00:00"
+  },
+  {
+    "repo": "dongwei6688/weread-notes-export-skill",
+    "score": 41,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746122+00:00"
+  },
+  {
+    "repo": "Setsuna-Yukirin/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746124+00:00"
+  },
+  {
+    "repo": "MYZ8088/NousResearch__hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T06:05:42.746126+00:00"
   }
 ]
