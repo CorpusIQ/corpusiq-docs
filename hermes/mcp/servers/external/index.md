@@ -7,7 +7,24 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 10, 2026 (evening sweep) · **Sources:** mcp.so (~22,000+ servers), mcpservers.org (10,811+ servers), sitemap + SSR + GitHub issues scanning · **Catalog:** 137 servers (+37 guides)
+> **Last updated:** August 11, 2026 (overnight sweep) · **Sources:** mcp.so (~22,000+ servers), mcpservers.org (10,811+ servers), sitemap + SSR + GitHub issues scanning · **Catalog:** 140 servers (+40 guides)
+
+---
+
+## 🆕 August 11, 2026 — Overnight Sweep (3 New, 3 Guides)
+
+Follow-up to the Aug 10 evening sweep. Scanned mcp.so homepage SSR (7 recent servers), mcp.so/feed (30 servers), and 15 mcp.so GitHub issues. 3 new business-relevant servers found — forming a complete "operator visibility stack" (social listening + LinkedIn content + SEO audit). [Full sweep report →](/hermes/mcp/sweeps/sweep-august11-2026-overnight/)
+
+### SiteGuru MCP ★★★ — August 11 overnight
+Remote MCP connecting SiteGuru's full SEO dataset — crawl audits, Google Search Console rankings, Google Analytics traffic, backlink profiles, and indexation status — to AI agents. Operational SEO: ask "What should I fix first?" and get prioritized, actionable answers. One-click OAuth setup. `mcp.siteguru.co` (commercial, no public repo) · [Guide →](/hermes/mcp/servers/external/siteguru-mcp/)
+
+### LinkedMash MCP ★★★ — August 11 overnight
+Hosted MCP for LinkedIn saved posts — search, organize, draft, schedule, publish, and analyze. Turns passive saved-post libraries into AI-powered content engines. Chrome extension import, then any MCP client connects. Full content lifecycle from inspiration to publishing. `mcp.linkedmash.com` (commercial, no public repo) · [Guide →](/hermes/mcp/servers/external/linkedmash-mcp/)
+
+### Xpoz MCP ★★★ — August 11 overnight
+Social media intelligence MCP — 3B+ posts across Twitter/X, Instagram, Reddit, TikTok. Brand monitoring, social listening, lead gen, competitive intel. No platform API keys required. Remote MCP with OAuth 2.1. 2-min setup. `github.com/xpozpublic/xpoz-mcp` (MIT, 10⭐) · [Guide →](/hermes/mcp/servers/external/xpoz-mcp/)
+
+**Also identified (not catalogued):** DocuQueue MCP (PDF gen/form filling, 1⭐, early-stage), Data Studio Agent (unified DB MCP, unverified), SV Number (SMS verification numbers, niche). 12+ other GitHub submissions were dev tools (mcp-x, MeshMarket, gandr-mcp, crosscode-cli), consumer apps (oura-mcp, SportsTrackLive), infrastructure (scvd.store, FLINT Network, FiatDock), or niche (UAPDrop, Poliety, InstaSeer, HokAI, Redbark). 17+ feed entries were dev tools, consumer apps, or regional niche.
 
 ---
 
