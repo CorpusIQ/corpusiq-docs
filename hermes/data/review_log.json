@@ -8439,5 +8439,54 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-11T06:05:42.746126+00:00"
+  },
+  {
+    "repo": "Dadmin88/hermes-fleet",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T07:06:52.128196+00:00"
+  },
+  {
+    "repo": "cmeyke/hermes-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T07:06:52.128210+00:00"
+  },
+  {
+    "repo": "pasogott/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T07:06:52.128213+00:00"
+  },
+  {
+    "repo": "MatheusCarvalho12/my-hermes-agents",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T07:06:52.128215+00:00"
+  },
+  {
+    "repo": "ANG-Ventures/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T07:06:52.128217+00:00"
+  },
+  {
+    "repo": "pooya79/AionUi",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T07:06:52.128218+00:00"
+  },
+  {
+    "repo": "kidclone3/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-11T07:06:52.128220+00:00"
   }
 ]
