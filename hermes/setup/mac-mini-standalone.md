@@ -1,12 +1,12 @@
 ---
-title: "Mac Mini M4 Hermes Agent Setup"
-description: Step-by-step Mac Mini M4 setup guide for Hermes Agent. Run local LLMs with Ollama/MLX, browser automation with Playwright, and persistent crons on a single silent machine. $599+ hardware, free local inference.
+title: "Mac Mini M4 AI Server Setup: Ollama, MLX, Playwright"
+description: "Run local LLMs on a Mac Mini M4 with Ollama and MLX, plus Playwright browser automation and persistent crons. One silent box, no worker nodes, free inference."
 category: setup
 tags: [mac-mini, hermes-agent, setup-guide, ollama, mlx, browser-automation, standalone, apple-silicon]
 last_updated: 2026-07-08
 ---
 
-# Mac Mini M4 Hermes Agent Setup  --  Standalone AI Workstation
+# Mac Mini M4 AI Server Setup: Ollama, MLX, Playwright
 
 The Mac Mini M4 is the ideal single-machine Hermes Agent host for solo founders and developers. Everything runs on one box: LLM inference with Ollama and MLX, browser automation with Playwright, cron scheduling, and messaging  --  no worker nodes, no SSH keys, no multi-machine complexity.
 
