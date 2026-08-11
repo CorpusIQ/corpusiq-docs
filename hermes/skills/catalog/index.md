@@ -382,3 +382,6 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Hermes Attestation Guardian — Security Verification Setup](/docs/hermes/skills/catalog/hermes-attestation-guardian-setup.html)
 - [Research Paper Writing Pipeline — Academic ML/AI Paper Production Setup](/docs/hermes/skills/catalog/research-paper-writing-setup.html)
 - [Plan Mode — Plan-Only Execution Mode Setup](/docs/hermes/skills/catalog/plan-mode-setup.html)
+- [Godmode — Autonomous Execution Mode Setup](/docs/hermes/skills/catalog/godmode-setup.html)
+- [p5js — Creative Coding & Generative Art Setup](/docs/hermes/skills/catalog/p5js-setup.html)
+- [Polymarket — Prediction Market Integration Setup](/docs/hermes/skills/catalog/polymarket-setup.html)
