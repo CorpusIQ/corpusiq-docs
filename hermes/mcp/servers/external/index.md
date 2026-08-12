@@ -7,7 +7,47 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 11, 2026 (evening sweep) · **Sources:** mcp.so (~22,000+ servers), mcpservers.org (10,857+ servers), sitemap + SSR + homepage scanning · **Catalog:** 146 servers (+46 guides)
+> **Last updated:** August 12, 2026 (afternoon sweep) · **Sources:** mcpservers.org /all pages 1–3 (90 servers scanned), mcp.so Feed (30 submissions), mcp.so server detail pages · **Catalog:** 162 servers (+58 guides)
+
+---
+
+## 🆕 August 12, 2026 — Afternoon Sweep (10 New, 6 Guides)
+
+Follow-up to the Aug 12 morning sweep (~6 hours later). Scanned mcpservers.org /all pages 1-3 (90 newest servers) and mcp.so Feed (30 newest submissions). 10 new business-relevant servers found — content quality tooling, finance, sales intelligence, and AI-engine visibility. [Full sweep report →](/hermes/mcp/sweeps/sweep-august12-2026-afternoon.md)
+
+### Prose Coach MCP ★★★ — August 12 afternoon
+Deterministic AI-writing filter — 43 AI-writing patterns flagged with the triggering line quoted and the fix attached. Remote Streamable HTTP, no auth, one URL. Free tier: 3 drafts/day at 12K chars; PRO $5/mo. First MCP purpose-built to de-AI content before it ships. `prose.coach/mcp` (commercial) · [Guide →](/hermes/mcp/servers/external/prose-coach-mcp/)
+
+### ROIC.ai MCP Server ★★★ — August 12 afternoon
+Financial data MCP — stock prices, income statements, earnings call transcripts, fundamentals, ratios, and valuation multiples for 60,000+ public companies. One server covers statements + earnings + fundamentals. Streamable HTTP with API key. `mcp.roic.ai/mcp` (commercial) · [Guide →](/hermes/mcp/servers/external/roic-ai-mcp-server/)
+
+### cloro MCP ★★★ — August 12 afternoon
+Live access to AI answer engines as agent tools — runs prompts through ChatGPT, Gemini, Perplexity, Copilot, Grok, and Google AI Mode, returning each answer with cited sources; plus Google Search/News with country/state geo-targeting. Purpose-built for brand monitoring and GEO/AEO. API key. `mcp.cloro.dev` (commercial) · [Guide →](/hermes/mcp/servers/external/cloro-mcp/)
+
+### Stratyfix MCP ★★★ — August 12 afternoon
+Sales intelligence connector — 10 read-only tools over live pipeline data (deal forecasts, pace-to-target, coaching queue, team coverage, gap ledger). OAuth per-user permissions. Honesty rule: withholds numbers it can't defend instead of guessing. `app.stratyfix.com/api/mcp` (commercial) · [Guide →](/hermes/mcp/servers/external/stratyfix-mcp/)
+
+### FlowyTeam OKR MCP ★★ — August 12 afternoon
+Native OKR MCP — connect Claude, ChatGPT, or n8n to objectives, key results, and tasks; post check-ins and move KR progress from chat. MIT, OAuth. `github.com/flowy-team/okr-mcp-server` · [Guide →](/hermes/mcp/servers/external/flowyteam-okr-mcp/)
+
+### QuestDB MCP Server ★★ — August 12 afternoon
+Official QuestDB MCP — connects coding agents to a running QuestDB Web Console with tools for notebook cells, queries, and charts. First official time-series database MCP. Apache-2.0. `npx @questdb/mcp-server-questdb setup` · [Guide →](/hermes/mcp/servers/external/questdb-mcp/)
+
+### Plainpaper MCP ★★ — August 12 afternoon (catalog entry)
+AI marketing canvas for MCP agents — 54 tools drafting campaigns as cards on a shared board, briefed by brand rules, human-approved before execution. OAuth, 7-day trial, Starter $29/mo. `mcp.plainpaper.io/mcp` (commercial)
+
+### Contio MeetingOS MCP ★★ — August 12 afternoon (catalog entry)
+Meeting workspace MCP — agendas, transcripts, AI notes, and action items from planning to follow-through, without recording audio/video. OAuth. `mcp.contio.ai/mcp` (commercial)
+
+### MachineTranslation.com MCP ★★ — August 12 afternoon (catalog entry)
+Multilingual translation via multi-model consensus over MCP — connects AI agents to professional-grade translation. Useful for global content ops. `tomedes-org/machinetranslation.com-mcp` (commercial)
+
+### BanProof AI ★★ — August 12 afternoon (catalog entry)
+Audits TikTok Shop and Amazon affiliate video scripts for policy violations before creators record or publish. Exposes `audit_script` tool. `banproof.io` (commercial)
+
+**Also identified (not catalogued):** Canvas API MCP (education niche — per Aug 11 decision), MoodleMCP (LMS), React SEO Skills (dev-tool adjacent), Faxer (fax ops utility), Constants (overlaps catalogued ad MCPs), LabTestSuperstore (lab supplies), GetLulu 6-pack (micro-utilities: crypto price, domain RDAP, FX, holidays, registry, weather), Conqueror, CR8 Agent Commons (agent message board), x402 Merchant Check (crypto), GoLeasy (German leasing), Departi (travel), Andrii Co Notary (WA notary), plus ~25 dev-tool/utility entries from mcpservers.org /all (bunkerweb, humanpen, lobu, mercury-cortex, strata, sonaprompt, ohm, sshmng, etc.). A ~30-entry single-author burst (rudrendupaul: haltproof, shimguard, toolgovern, tokentrust…) showed classic AI-generated catalog-spam signals and was excluded entirely. **Morning sweep note:** the Aug 12 morning sweep's 6 servers (Orcha, Clipkit, FiatDock, Apiosk, directree, LocalCan) have guides but were never added to this catalog body — see `/hermes/mcp/sweeps/sweep-august12-2026.md`. Catalog totals above include them.
+
+**Key observation:** Two patterns this sweep — (1) human-gate content tooling is arriving: Prose Coach (deterministic de-AI filter), BanProof (script compliance), and Plainpaper (human-approved campaigns) all put a human gate or deterministic check between the agent and the publish button; (2) the finance stack keeps deepening — ROIC.ai joins 5+ financial-data MCPs already catalogued, and AI-engine visibility (cloro) is emerging as its own measurement category for GEO/AEO programs.
 
 ---
 
@@ -2983,6 +3023,7 @@ Full details: [scan-results-2026-07-02-update.md](/hermes/mcp/servers/external/s
 - **CorpusIQ connectors:** 37+ (the most comprehensive business data MCP server)
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
 - **New this sweep (July 4 morning):** 19 new MCP servers — from mcp.so Feed (25 scanned, 22 genuinely new, 3 already catalogued)
+- **New this sweep (Aug 12 afternoon):** 10 new MCP servers (6 guides) — from mcpservers.org /all pages 1–3 (90 scanned) + mcp.so Feed (30 scanned). Also: 4 catalog entries, ~40 dev-tool/niche identified-not-catalogued, 1 spam burst (~30 entries) excluded
 - **Cumulative since June 9:** 502 MCP servers catalogued across 36 sweeps
 
 ---
@@ -3166,3 +3207,12 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [NERAI Risk Intelligence MCP — Geopolitical Intelligence for AI Agents](/docs/hermes/mcp/servers/external/nerai-risk-intelligence-mcp/index.html)
 - [Data Studio Agent MCP — 70+ SQL & NoSQL Databases for AI Agents](/docs/hermes/mcp/servers/external/data-studio-agent-mcp/index.html)
 - [FLINT Network MCP — Agent Identity Verification Before Transactions](/docs/hermes/mcp/servers/external/flint-network-mcp/index.html)
+
+### 6 new servers from mcpservers.org /all + mcp.so Feed — Aug 12, 2026 (afternoon sweep)
+
+- [Prose Coach MCP — Deterministic AI-Writing Filter for AI Agents](/docs/hermes/mcp/servers/external/prose-coach-mcp/index.html)
+- [ROIC.ai MCP Server — Financial Data & Stock Market Intelligence](/docs/hermes/mcp/servers/external/roic-ai-mcp-server/index.html)
+- [cloro MCP — AI Answer Engine Monitoring & GEO Intelligence](/docs/hermes/mcp/servers/external/cloro-mcp/index.html)
+- [Stratyfix MCP — Sales Intelligence for AI Agents](/docs/hermes/mcp/servers/external/stratyfix-mcp/index.html)
+- [FlowyTeam OKR MCP — Objectives & Key Results for AI Agents](/docs/hermes/mcp/servers/external/flowyteam-okr-mcp/index.html)
+- [QuestDB MCP Server — Time-Series Database Queries for AI Agents](/docs/hermes/mcp/servers/external/questdb-mcp/index.html)
