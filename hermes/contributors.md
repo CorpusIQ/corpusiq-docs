@@ -1,7 +1,7 @@
 ---
 title: Ecosystem Contributors
 description: Community contributors to the Hermes Ecosystem Directory
-last_updated: 2026-08-11
+last_updated: 2026-08-12
 ---
 
 # Ecosystem Contributors
@@ -12,7 +12,7 @@ Thank you to everyone who has contributed to the Hermes Ecosystem Directory — 
 
 | Contributor | Submissions | Approved | Role | First Contribution | Last Active |
 |-------------|-------------|----------|------|--------------------|-------------|
-| [CorpusIQ](https://github.com/CorpusIQ) | 232 | 159 | maintainer | 2026-06-16 | 2026-08-11 |
+| [CorpusIQ](https://github.com/CorpusIQ) | 240 | 159 | maintainer | 2026-06-16 | 2026-08-12 |
 
 ## Contributors
 
@@ -31,4 +31,4 @@ Thank you to everyone who has contributed to the Hermes Ecosystem Directory — 
 
 ---
 
-*Last updated: 2026-08-11. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Last updated: 2026-08-12. Powered by [CorpusIQ](https://www.corpusiq.io).*
