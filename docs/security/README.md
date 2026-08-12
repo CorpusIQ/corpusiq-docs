@@ -9,7 +9,7 @@ title: "CorpusIQ Security Overview  --  Authentication, Encryption, and Read-Onl
 description: "CorpusIQ security overview: OAuth 2.0 authentication for agents and chat users, TLS 1.3 encryption, read-only data access policy, audit logging, data handling, and security best practices."
 category: "Documentation"
 tags: ["corpusiq security overview", "authentication", "encryption", "read-only access", "oauth security", "data handling", "audit logging"]
-last_updated: "2026-06-16"
+last_updated: "2026-08-12"
 canonical: "https://www.corpusiq.io/docs/security"
 robots: "index,follow"
 ---
