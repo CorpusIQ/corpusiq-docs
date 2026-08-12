@@ -1,3 +1,9 @@
+---
+title: Trending AI Agent Tools — August 2026
+description: "Weekly scan of new open-source AI agent tools worth investigating for Hermes and CorpusIQ."
+last_updated: 2026-08-12
+---
+
 # Trending AI Agent Tools — August 2026
 
 Weekly scan of new open-source AI agent tools worth investigating for Hermes and CorpusIQ.

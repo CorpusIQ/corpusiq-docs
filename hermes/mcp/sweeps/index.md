@@ -1,3 +1,9 @@
+---
+title: MCP Ecosystem Sweeps
+description: "Automated discovery of MCP servers and tools from across the ecosystem. Daily sweeps catalog new MCP servers, their capabilities, and integration potential."
+last_updated: 2026-08-12
+---
+
 # MCP Ecosystem Sweeps
 
 Automated discovery of MCP servers and tools from across the ecosystem. These sweeps run daily and catalog new MCP servers, their capabilities, and integration potential.

@@ -126,7 +126,7 @@ journalctl -u hermes-gateway.service -f --since "10 minutes ago"
 
 ## CorpusIQ Use Cases
 
-1. **Gateway Service:** The CorpusIQ Hermes gateway runs as `hermes-gateway-corpusiq.service` on DGX Spark. `Restart=on-failure` prevents death loops from CLI `--replace` conflicts.
+1. **Gateway Service:** Run the Hermes gateway as a systemd service (e.g., `hermes-gateway.service` on your agent workstation). `Restart=on-failure` prevents death loops from CLI `--replace` conflicts.
 
 2. **Cron Workers:** Long-running monitor workers (email, social) can run as systemd services instead of cron, giving better logging and restart behavior.
 

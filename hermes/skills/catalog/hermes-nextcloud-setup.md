@@ -74,7 +74,7 @@ Create a "Product Review" event for Friday 2-3 PM.
 ### Contact search
 
 ```
-Find the contact for "Brandon Belot" in my Nextcloud contacts.
+Find the contact for "Jane Smith" in my Nextcloud contacts.
 ```
 
 ## Verification

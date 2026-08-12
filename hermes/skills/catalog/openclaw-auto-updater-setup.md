@@ -89,7 +89,7 @@ auto-updater schedule          Show/change update schedule
 
 ## CorpusIQ Use Cases
 
-- **Long-running production agents:** Zero-touch maintenance for agents running 24/7 on DGX/Mac Mini
+- **Long-running production agents:** Zero-touch maintenance for agents running 24/7 on Linux or macOS hosts
 - **Multi-agent deployments:** Keep all worker agents at the same version across nodes
 - **Cron-based agents:** Ensure nightly-scheduled agents always run the latest code
 - **Security patching:** Automatic application of security fixes as they're released

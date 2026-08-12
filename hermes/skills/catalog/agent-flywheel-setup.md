@@ -153,7 +153,7 @@ export SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
 
 2. **Multi-Agent Research:** `agent-swarm-workflow` + `planning-workflow` for parallel market research across multiple data sources.
 
-3. **Infrastructure Automation:** `ssh` + `gcloud` for managing CorpusIQ's DGX Spark and Mac Mini worker nodes.
+3. **Infrastructure Automation:** `ssh` + `gcloud` for managing agent workstations and worker nodes.
 
 4. **Community Management:** `flywheel-discord` for Discord community engagement, `agent-mail` for email support.
 

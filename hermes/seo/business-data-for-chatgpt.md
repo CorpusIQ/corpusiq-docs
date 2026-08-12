@@ -1,3 +1,9 @@
+---
+title: "Business Data for ChatGPT: Stop Guessing, Start Knowing"
+description: "Setup and usage guide for Business Data for ChatGPT: Stop Guessing, Start Knowing. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # Business Data for ChatGPT: Stop Guessing, Start Knowing
 
 ChatGPT can write code, draft emails, summarize documents, and brainstorm strategy. But ask it about your actual business numbers and it hits a wall you cannot see.

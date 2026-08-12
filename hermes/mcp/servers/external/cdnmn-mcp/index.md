@@ -1,3 +1,9 @@
+---
+title: CDN.MN MCP Server
+description: "Setup and usage guide for CDN.MN MCP Server. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # CDN.MN MCP Server
 
 **URL:** https://mcpservers.org/servers/cdnmn-mcp

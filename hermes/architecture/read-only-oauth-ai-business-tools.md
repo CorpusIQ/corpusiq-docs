@@ -1,3 +1,9 @@
+---
+title: "Read-Only OAuth: Why AI Should Never Write to Your Business Tools"
+description: "Setup and usage guide for Read-Only OAuth: Why AI Should Never Write to Your Business Tools. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # Read-Only OAuth: Why AI Should Never Write to Your Business Tools
 
 Every business tool you use contains data that should never be modified by AI. Your QuickBooks general ledger. Your Shopify orders. Your Stripe transactions. Your HubSpot CRM records.

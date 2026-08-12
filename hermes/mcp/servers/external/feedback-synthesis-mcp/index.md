@@ -1,3 +1,9 @@
+---
+title: Feedback Synthesis MCP
+description: "Setup and usage guide for Feedback Synthesis MCP. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # Feedback Synthesis MCP
 
 **Source:** mcp.so submission #3282 (July 23, 2026) · GitHub: [sapph1re/feedback-synthesis-mcp](https://github.com/sapph1re/feedback-synthesis-mcp)

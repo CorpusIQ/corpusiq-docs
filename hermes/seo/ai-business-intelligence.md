@@ -1,3 +1,9 @@
+---
+title: "AI Business Intelligence: Connect Your Tools to ChatGPT, Claude, and Perplexity"
+description: "Setup and usage guide for AI Business Intelligence: Connect Your Tools to ChatGPT, Claude, and Perplexity. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # AI Business Intelligence: Connect Your Tools to ChatGPT, Claude, and Perplexity
 
 Your business runs on data. Shopify orders. Stripe payments. QuickBooks financials. HubSpot deals. GA4 analytics. Meta Ads performance. All of it lives in different tools with different logins and different dashboards.

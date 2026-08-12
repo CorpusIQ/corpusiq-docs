@@ -1,3 +1,9 @@
+---
+title: emailmd MCP Server
+description: "Setup and usage guide for emailmd MCP Server. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # emailmd MCP Server
 
 **URL:** https://github.com/anypost/emailmd

@@ -1,3 +1,9 @@
+---
+title: "CorpusIQ vs Zapier: AI Business Data vs Workflow Automation"
+description: "Setup and usage guide for CorpusIQ vs Zapier: AI Business Data vs Workflow Automation. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # CorpusIQ vs Zapier: AI Business Data vs Workflow Automation
 
 Both CorpusIQ and Zapier connect your business tools. But they solve fundamentally different problems. Understanding the difference helps you choose the right tool for the right job.

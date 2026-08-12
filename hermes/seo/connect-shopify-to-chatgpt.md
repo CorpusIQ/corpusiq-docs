@@ -1,3 +1,9 @@
+---
+title: "Connect Shopify to ChatGPT: Real-Time Business Answers Without Dashboards"
+description: "Setup and usage guide for Connect Shopify to ChatGPT: Real-Time Business Answers Without Dashboards. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # Connect Shopify to ChatGPT: Real-Time Business Answers Without Dashboards
 
 Your Shopify store generates dozens of reports. Sales over time. Average order value. Customer acquisition. Product performance. You can see all of it in the Shopify dashboard.

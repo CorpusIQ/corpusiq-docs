@@ -1,3 +1,9 @@
+---
+title: byakugan MCP Server
+description: "Setup and usage guide for byakugan MCP Server. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # byakugan MCP Server
 
 **URL:** https://github.com/JayOfemi/byakugan

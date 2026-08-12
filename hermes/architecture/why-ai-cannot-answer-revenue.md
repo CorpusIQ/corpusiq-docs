@@ -1,3 +1,9 @@
+---
+title: Why Your AI Cannot Answer Current Revenue — And How to Fix It
+description: "Why no AI platform can answer 'what was our revenue last month' out of the box — and how a read-only data layer with source-cited answers fixes it."
+last_updated: 2026-08-12
+---
+
 # Why Your AI Cannot Answer Current Revenue — And How to Fix It
 
 Every AI platform on the market can write code, summarize documents, and draft emails. But ask any of them "what was our revenue last month" and they all fail the same way.

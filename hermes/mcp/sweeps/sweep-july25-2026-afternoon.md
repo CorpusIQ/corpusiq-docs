@@ -1,3 +1,9 @@
+---
+title: "MCP Sweep — July 25, 2026 Afternoon (11:00 AM MST)"
+description: "1. **GitHub token:** The current token has been flagged for search spam. Consider rotating to a new classic PAT or using a different account for search queries."
+last_updated: 2026-08-12
+---
+
 # MCP Sweep — July 25, 2026 Afternoon (11:00 AM MST)
 
 ## Summary

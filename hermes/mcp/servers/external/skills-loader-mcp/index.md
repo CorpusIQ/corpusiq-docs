@@ -1,3 +1,9 @@
+---
+title: Skills Loader
+description: "Setup and usage guide for Skills Loader. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # Skills Loader
 
 **Source:** mcp.so submission #3293 (July 24, 2026) · Website: [skls.to](https://skls.to) · MCP Endpoint: `https://skills.agentsandswarms.ai/mcp`

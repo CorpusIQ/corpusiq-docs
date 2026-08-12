@@ -83,7 +83,7 @@ Edit `config.yaml`:
 meshtastic:
   port: "/dev/ttyUSB0"          # Serial port for device
   # or use TCP for network-connected devices:
-  # host: "192.168.1.100"
+  # host: "10.0.0.100"
   
 hermes:
   message_format: "plain"        # "plain" or "json"

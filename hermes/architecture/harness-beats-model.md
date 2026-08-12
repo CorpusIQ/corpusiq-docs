@@ -1,3 +1,9 @@
+---
+title: The Harness Beats the Model — Why AI Infrastructure Matters More Than AI Models
+description: "The biggest insight in AI right now is not about models. It is about harnesses."
+last_updated: 2026-08-12
+---
+
 # The Harness Beats the Model — Why AI Infrastructure Matters More Than AI Models
 
 The biggest insight in AI right now is not about models. It is about harnesses.

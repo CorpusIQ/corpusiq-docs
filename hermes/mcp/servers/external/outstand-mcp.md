@@ -1,3 +1,9 @@
+---
+title: Outstand MCP
+description: "Setup and usage guide for Outstand MCP. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # Outstand MCP
 
 **Category:** Social Media / Marketing  

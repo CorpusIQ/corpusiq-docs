@@ -92,7 +92,7 @@ npx skills add alphaonedev/openclaw-graph/linux-systemd
 ```
 
 ### Hermes/CorpusIQ Relevance
-CorpusIQ runs Hermes agents on DGX Spark (Linux). This skill provides canonical patterns for systemd service management — directly applicable to the gateway service, cron workers, and long-running agent processes.
+Hermes agents running on Linux hosts. This skill provides canonical patterns for systemd service management — directly applicable to the gateway service, cron workers, and long-running agent processes.
 
 **Setup guide:** [linux-systemd-setup.md](/hermes/skills/catalog/linux-systemd-setup/)
 

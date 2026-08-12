@@ -1,3 +1,9 @@
+---
+title: MartinLoop MCP
+description: "Setup and usage guide for MartinLoop MCP. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # MartinLoop MCP
 
 **Category:** Developer Tools / AI Governance / Safety  

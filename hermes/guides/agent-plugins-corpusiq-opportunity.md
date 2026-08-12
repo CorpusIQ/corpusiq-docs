@@ -1,3 +1,9 @@
+---
+title: Agent Plugins 1.0 — The Portable Skill Standard
+description: "Setup and usage guide for Agent Plugins 1.0 — The Portable Skill Standard. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # Agent Plugins 1.0 — The Portable Skill Standard
 
 On August 6, 2026, OpenAI, Vercel, AWS, Microsoft, Google, and Cursor published Agent Plugins 1.0: an open, vendor-neutral standard for packaging AI agent skills and MCP servers into portable plugins. Build once. Deploy everywhere.

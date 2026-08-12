@@ -1,3 +1,9 @@
+---
+title: Peil MCP — Freelance Time Tracking & Invoicing
+description: "Setup and usage guide for Peil MCP — Freelance Time Tracking & Invoicing. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # Peil MCP — Freelance Time Tracking & Invoicing
 
 **Priority:** HIGH | **Category:** Finance / Freelance Operations  

@@ -1,3 +1,9 @@
+---
+title: PingCheck MCP — Status Page Monitoring for AI Agents
+description: "Setup and usage guide for PingCheck MCP — Status Page Monitoring for AI Agents. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # PingCheck MCP — Status Page Monitoring for AI Agents
 
 **Priority:** HIGH | **Category:** DevOps / Monitoring  

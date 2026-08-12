@@ -1,3 +1,9 @@
+---
+title: Pathix MCP — Microsoft Dynamics 365 Forensics
+description: "Setup and usage guide for Pathix MCP — Microsoft Dynamics 365 Forensics. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # Pathix MCP — Microsoft Dynamics 365 Forensics
 
 **Priority:** MEDIUM | **Category:** Enterprise / ERP / Compliance  

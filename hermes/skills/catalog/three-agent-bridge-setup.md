@@ -169,8 +169,8 @@ hermes -s three-agent-bridge "Check bridge for messages since last read"
 
 | Use Case | Why This Protocol |
 |----------|-------------------|
-| **Mac Mini + Hermes server coordination** | Desktop Hermes (Mac Mini) syncs with VPS Hermes (cloud) — CorpusIQ's exact architecture |
-| **Multi-profile state sharing** | CorpusIQ growth agent profile shares state with other profiles via bridge |
+| **Desktop + server coordination** | Desktop Hermes (macOS) syncs with VPS Hermes (cloud) |
+| **Multi-profile state sharing** | A growth agent profile shares state with other profiles via bridge |
 | **Cron job coordination** | Prevent two agents running the same cron simultaneously |
 | **Escalation chain** | Desktop escalates to VPS agent, VPS escalates to human via priority levels |
 | **Session handoff** | Bridge file serves as shared context between agent profiles |

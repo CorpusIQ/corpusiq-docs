@@ -1,3 +1,9 @@
+---
+title: MCP Billing Gateway
+description: "Setup and usage guide for MCP Billing Gateway. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # MCP Billing Gateway
 
 **Source:** mcp.so submission #3281 (July 23, 2026) · GitHub: [sapph1re/mcp-billing-gateway-sdk](https://github.com/sapph1re/mcp-billing-gateway-sdk)

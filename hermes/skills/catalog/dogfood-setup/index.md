@@ -90,5 +90,5 @@ After running, verify:
 ## Related Skills
 
 - [Agent Browser Setup](/hermes/skills/catalog/agent-browser-setup/)
-- [Browser Use Automation](/hermes/skills/catalog/browser-use-automation-setup/)
+- [Browser Use Automation](/hermes/skills/catalog/browser-use-automation-setup)
 - [Browser Act Setup](/hermes/skills/catalog/browser-act-setup/)

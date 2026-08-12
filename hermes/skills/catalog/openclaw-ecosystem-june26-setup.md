@@ -95,7 +95,7 @@ Implements a self-improving agent loop: execute → reflect → adapt → repeat
 
 | Use Case | Skills | Value |
 |---|---|---|
-| DGX/Spark security hardening | `openclaw-secure-linux-cloud` | Production-grade agent infrastructure security |
+| Linux server security hardening | `openclaw-secure-linux-cloud` | Production-grade agent infrastructure security |
 | Chinese market expansion | `xiaohongshu` | Reach 300M+ Chinese users |
 | Autonomous agent improvement | `proactive-self-improving-agent`, `openclaw-self-healing` | Self-healing and self-improving agent loops |
 | Data pipeline enrichment | `playwright-scraper`, `exa-web-search-free`, `finance-news` | Web data extraction without paid APIs |

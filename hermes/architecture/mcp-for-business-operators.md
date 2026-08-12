@@ -1,3 +1,9 @@
+---
+title: MCP for Business Operators — What It Means and Why It Matters
+description: "Setup and usage guide for MCP for Business Operators — What It Means and Why It Matters. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # MCP for Business Operators — What It Means and Why It Matters
 
 The Model Context Protocol (MCP) is the fastest-growing standard in AI infrastructure. Over 40,000 MCP servers now exist. Amazon, Google, and Microsoft all support it. But most business owners have never heard of it.

@@ -1,3 +1,9 @@
+---
+title: Opportunity Exchange MCP — Saskatchewan Labour-Market Data
+description: "Setup and usage guide for Opportunity Exchange MCP — Saskatchewan Labour-Market Data. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # Opportunity Exchange MCP — Saskatchewan Labour-Market Data
 
 **Priority:** HIGH | **Category:** Government / Procurement / HR  

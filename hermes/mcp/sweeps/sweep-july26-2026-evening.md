@@ -1,3 +1,9 @@
+---
+title: "MCP Sweep — July 26, 2026 (Evening — ~22:00 UTC)"
+description: "Homepage SSR scrape showed 8 recent servers. All were either:"
+last_updated: 2026-08-12
+---
+
 # MCP Sweep — July 26, 2026 (Evening — ~22:00 UTC)
 
 ## Summary

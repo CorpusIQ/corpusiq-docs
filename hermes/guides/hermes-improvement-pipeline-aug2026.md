@@ -1,3 +1,9 @@
+---
+title: Hermes Improvement Pipeline — August 2026
+description: "Tools and methodologies that can make Hermes agents faster, smarter, and more reliable. Discovered through proactive GitHub research."
+last_updated: 2026-08-12
+---
+
 # Hermes Improvement Pipeline — August 2026
 
 Tools and methodologies that can make Hermes agents faster, smarter, and more reliable. Discovered through proactive GitHub research.

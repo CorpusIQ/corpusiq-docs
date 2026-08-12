@@ -8,7 +8,7 @@ tags:
   - production-deployment
   - ai-agent-architecture
   - mcp-ecosystem
-last_updated: 2026-08-10
+last_updated: 2026-08-12
 ---
 
 <p align="center">
@@ -35,8 +35,8 @@ last_updated: 2026-08-10
 |---|---|---|---|
 | [agents](agents/) — Agent personalities | [architecture](architecture/) — Design patterns | [best-practices](best-practices/) — Guidelines | [blueprints](blueprints/) — Workflows |
 | [changelog](changelog/) — Version history | [community](community/) — Links & projects | [content-ops](content-ops/) — Content tools | [data](data/) — Data handling |
-| [governance](governance/) — Ops & monitoring | [infrastructure](infrastructure/) — Deploy guides | [integrations](integrations/) — Connectors | [knowledge](knowledge/) — Memory systems |
-| [launch](launch/) — Launch helpers | [mcp](mcp/) — MCP servers catalog | [orchestration](orchestration/) — Multi-agent | [outputs](outputs/) — Templates |
+| [governance](governance/) — Ops & monitoring | [guides](guides/) — Patterns & research | [infrastructure](infrastructure/) — Deploy guides | [integrations](integrations/) — Connectors |
+| [knowledge](knowledge/) — Memory systems | [mcp](mcp/) — MCP servers catalog | [orchestration](orchestration/) — Multi-agent | [outputs](outputs/) — Templates |
 | [prompts](prompts/) — Prompt library | [scripts](scripts/) — Utility scripts | [setup](setup/) — Installation guides | [skills](skills/) — Agent skills |
 | [tools](tools/) — Auxiliary tools | [troubleshooting](troubleshooting/) — Fixes |
 

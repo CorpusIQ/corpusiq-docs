@@ -1,3 +1,9 @@
+---
+title: AI Consensus Connector
+description: "Setup and usage guide for AI Consensus Connector. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # AI Consensus Connector
 
 **URL:** https://mcpservers.org/servers/thestevenjohnstone/ai-consensus-connector

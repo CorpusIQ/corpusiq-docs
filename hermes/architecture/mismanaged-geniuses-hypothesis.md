@@ -1,3 +1,9 @@
+---
+title: The Mismanaged Geniuses Hypothesis — Why Your AI Underperforms
+description: "Your AI model is not the problem. The scaffold around it is."
+last_updated: 2026-08-12
+---
+
 # The Mismanaged Geniuses Hypothesis — Why Your AI Underperforms
 
 Your AI model is not the problem. The scaffold around it is.

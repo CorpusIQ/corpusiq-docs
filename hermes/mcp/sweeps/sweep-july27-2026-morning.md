@@ -1,3 +1,9 @@
+---
+title: MCP Server Sweep — July 27, 2026 (Morning)
+description: "MCP server discovery sweep from July 27, 2026 (morning run). New MCP servers cataloged from across the ecosystem."
+last_updated: 2026-08-12
+---
+
 # MCP Server Sweep — July 27, 2026 (Morning)
 
 **Run:** 2026-07-27T10:05 UTC  

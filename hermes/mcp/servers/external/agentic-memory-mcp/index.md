@@ -1,3 +1,9 @@
+---
+title: Agentic Memory MCP — Persistent Memory for AI Agents
+description: "Setup and usage guide for Agentic Memory MCP — Persistent Memory for AI Agents. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # Agentic Memory MCP — Persistent Memory for AI Agents
 
 **Priority:** MEDIUM | **Category:** Knowledge & Memory / Infrastructure  

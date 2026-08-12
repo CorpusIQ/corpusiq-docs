@@ -89,8 +89,8 @@ The access and refresh tokens are stored securely in `~/.hermes/secrets/microsof
 ### Email operations
 
 ```
-Check my Outlook inbox for unread emails from @corpusiq.io.
-Send an email to brandon.b@corpusiq.io with subject "Q3 Planning Update".
+Check my Outlook inbox for unread emails from @example.com.
+Send an email to user@example.com with subject "Q3 Planning Update".
 ```
 
 ### Calendar

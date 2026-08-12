@@ -48,9 +48,9 @@ bridge:
   protocol: "stdio"       # or "http" for remote agents
   peer_agents:
     - name: "dev-hermes"
-      endpoint: "http://192.168.1.50:9090"
+      endpoint: "http://10.0.0.50:9090"
     - name: "ops-hermes"
-      endpoint: "http://192.168.1.51:9090"
+      endpoint: "http://10.0.0.51:9090"
   auth_token: "${BRIDGE_AUTH_TOKEN}"
 ```
 
@@ -126,7 +126,7 @@ hermes chat -q "/hermes-plugins bridge-status"
 ## See Also
 
 - [42-evey/hermes-plugins repo](https://github.com/42-evey/hermes-plugins)
-- [CorpusIQ Agent Optimization Skill](/hermes/skills/catalog/corpusiq-agent-optimization/)
+- [CorpusIQ Agent Optimization Skill](/hermes/skills/growth-operations/)
 - [Hermes Agent Skill Authoring](/hermes/skills/catalog/hermes-agent-skill-authoring-setup/)
 
 ---

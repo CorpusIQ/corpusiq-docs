@@ -255,7 +255,7 @@ npx playwright install --dry-run
 cat ~/.agent-browser/config.json
 ```
 
-**Fix (ARM64/DGX):**
+**Fix (ARM64/Linux):**
 
 ```json
 // ~/.agent-browser/config.json

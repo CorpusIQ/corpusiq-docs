@@ -28,6 +28,7 @@ nav:
 - Home: index.md
 - Quick Start: quick-start.md
 - API:
+  - api/index.md
   - Overview: api/overview.md
   - Authentication: api/authentication.md
   - Endpoints: api/endpoints.md
@@ -291,14 +292,12 @@ nav:
     - Catalog: hermes/skills/catalog/index.md
     - Creating Skills: hermes/skills/creating-skills.md
     - Guides:
+      - Guides Index: hermes/guides/index.md
       - Claude Code Integration: hermes/guides/corpusiq-claude-code.md
       - AI Agent Memory Landscape (Aug 2026): hermes/guides/ai-agent-memory-landscape-aug2026.md
-      - Affiliate Link Attribution with Dub: hermes/guides/affiliate-link-attribution-dub.md
+      - MCP Servers for Business Operators: hermes/guides/mcp-servers-business-operators.md
       - Trending AI Agent Tools (Aug 2026): hermes/guides/trending-ai-agent-tools-aug2026.md
-      - Affiliate Distribution Strategy: hermes/guides/affiliate-distribution-strategy.md
       - Hermes Improvement Pipeline (Aug 2026): hermes/guides/hermes-improvement-pipeline-aug2026.md
-      - System Recovery Playbook (Aug 2026): hermes/guides/system-recovery-playbook-aug2026.md
-      - Affiliate Outreach Playbook: hermes/guides/affiliate-outreach-playbook.md
       - Agent Plugins 1.0 Opportunity: hermes/guides/agent-plugins-corpusiq-opportunity.md
     - MCP Ecosystem: hermes/mcp-ecosystem.md
     - SEO Content:

@@ -196,4 +196,4 @@ npx skills run coreyhaines31/marketingskills@lead-magnets \
 - [clawfu-skills](/hermes/skills/catalog/clawfu-skills-setup/) — 175 marketing methodologies as MCP server
 - [firecrawl-workflows](/hermes/skills/catalog/firecrawl-workflows-setup/) — Web research & SEO workflows (120K installs)
 - [corpusiq-content-strategy](/hermes/skills/) — CorpusIQ's belief-bridge content framework
-- [seo-geo](/hermes/skills/catalog/seo-geo-setup/) — Generative Engine Optimization
+- [seo-geo](/hermes/skills/catalog/platform/seo-geo) — Generative Engine Optimization

@@ -3,9 +3,7 @@ title: CorpusIQ vs Viktor — Which AI Business Platform Is Right for You?
 description: Compare CorpusIQ and Viktor for AI business intelligence. Cross-platform answers vs Slack-based AI employee. Read-only OAuth, source-cited data, zero data stored.
 ---
 
-# CorpusIQ vs Viktor — Comparison Page Draft
-## For: corpusiq.io/compare/viktor or /blog/corpusiq-vs-viktor
-## Date: July 30, 2026
+# CorpusIQ vs Viktor — Which AI Business Platform Is Right for You?
 
 ### Overview
 Viktor is an AI employee that lives in Slack and Microsoft Teams. It connects to 3,200+ tools and automates workflows — generating reports, running campaigns, writing code. The pitch is "not a tool, a hire."

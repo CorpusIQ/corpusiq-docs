@@ -1,3 +1,9 @@
+---
+title: The AI Consistency Problem No One Is Talking About
+description: "Setup and usage guide for The AI Consistency Problem No One Is Talking About. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # The AI Consistency Problem No One Is Talking About
 
 Every business owner who has used AI tools has hit this. You ask ChatGPT for this month's revenue. It gives you a number. Then you ask Claude the same question. Different number. Perplexity. A third number.

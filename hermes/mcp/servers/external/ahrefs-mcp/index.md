@@ -1,3 +1,9 @@
+---
+title: Ahrefs MCP Server ★★★ Official
+description: "Setup and usage guide for Ahrefs MCP Server ★★★ Official. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # Ahrefs MCP Server ★★★ Official
 
 **Source:** mcpservers.org · **Last updated:** July 26, 2026 (evening sweep)  

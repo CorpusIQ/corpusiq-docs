@@ -1,3 +1,9 @@
+---
+title: n8n MCP Server ★★★
+description: "Setup and usage guide for n8n MCP Server ★★★. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # n8n MCP Server ★★★
 
 **Source:** mcpservers.org · **Last updated:** July 26, 2026 (evening sweep)  

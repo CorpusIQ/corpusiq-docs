@@ -1,3 +1,9 @@
+---
+title: Metabase MCP Server ★★★ Official
+description: "This is the first major BI platform to ship MCP natively — a paradigm shift for how operators interact with business data."
+last_updated: 2026-08-12
+---
+
 # Metabase MCP Server ★★★ Official
 
 **Source:** mcpservers.org · **Last updated:** July 27, 2026 (early morning sweep)  

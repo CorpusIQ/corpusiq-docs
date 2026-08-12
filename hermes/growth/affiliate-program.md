@@ -1,3 +1,9 @@
+---
+title: "CorpusIQ Affiliate Program: 25% Recurring Commission for 3 Years"
+description: "You recommend tools to your audience. You should get paid for the ones that deliver real value."
+last_updated: 2026-08-12
+---
+
 # CorpusIQ Affiliate Program: 25% Recurring Commission for 3 Years
 
 You recommend tools to your audience. You should get paid for the ones that deliver real value.

@@ -1,3 +1,9 @@
+---
+title: Index One MCP
+description: "Setup and usage guide for Index One MCP. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # Index One MCP
 
 **Category:** Finance / Fintech / Investment  

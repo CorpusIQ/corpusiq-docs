@@ -154,7 +154,7 @@ Agent: [pulls account 360 view across objects, returns briefing summary]
 
 ## See Also
 
-- [Attio MCP Guide](/hermes/mcp/servers/external/attio-mcp-server/) — AI-native CRM alternative
+- [MCP Server Guides](/hermes/mcp/servers/external/) — AI-native CRM alternatives
 - [Apollo.io MCP Guide](/hermes/mcp/servers/external/apollo-io-mcp/) — B2B contact enrichment
 - [LinkedIn MCP Guide](/hermes/mcp/servers/external/linkedin-mcp-gtm/) — Social selling complement
 - [Salesforce REST API Docs](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/)

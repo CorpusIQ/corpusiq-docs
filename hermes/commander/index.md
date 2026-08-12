@@ -1,3 +1,9 @@
+---
+title: Commander Common Sense Gate
+description: "Setup and usage guide for Commander Common Sense Gate. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # Commander Common Sense Gate
 
 Commander is a judgment and verification layer that inspects every proposed Hermes action before execution. It identifies missing context, predicts consequences, and decides whether to approve, modify, clarify, escalate, or block.

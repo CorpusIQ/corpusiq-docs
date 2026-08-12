@@ -1,3 +1,9 @@
+---
+title: "Connect QuickBooks to AI: Ask ChatGPT About Your Financials"
+description: "QuickBooks holds your financial truth. Revenue. Expenses. Profit. Cash flow. Every number that matters to your business lives in QuickBooks."
+last_updated: 2026-08-12
+---
+
 # Connect QuickBooks to AI: Ask ChatGPT About Your Financials
 
 QuickBooks holds your financial truth. Revenue. Expenses. Profit. Cash flow. Every number that matters to your business lives in QuickBooks.

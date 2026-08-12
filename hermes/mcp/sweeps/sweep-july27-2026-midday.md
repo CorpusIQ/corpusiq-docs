@@ -1,3 +1,9 @@
+---
+title: MCP Server Sweep — July 27, 2026 (Mid-Day)
+description: "The morning sweep (10:05 UTC) processed mcpservers.org /all, mcpso issues up to #3319, and the awesome-mcp-servers PR queue. This mid-day sweep found:"
+last_updated: 2026-08-12
+---
+
 # MCP Server Sweep — July 27, 2026 (Mid-Day)
 
 **Run:** 2026-07-27T18:05 UTC  

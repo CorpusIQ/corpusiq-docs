@@ -1,66 +1,60 @@
 ---
 title: Browser Automation Architecture
-description: Production browser automation for Hermes agents using Playwright stealth and persistent contexts
+description: "Production browser automation for Hermes agents using Playwright stealth and persistent contexts."
 ---
 
 # Browser Automation Architecture
 
-The platform runs browser-use on the Mac Mini worker node with Playwright, enabling robust web interaction while minimizing detection risk.
+The platform runs browser-use on a dedicated worker node with Playwright, enabling robust web interaction while minimizing detection risk.
 
 ## Architecture
 
 The primary compute node orchestrates tasks. A dedicated worker node executes browser operations. This separation prevents browser processes from competing with inference workloads on the primary compute node.
 
-## Playwright Setup
+### Why Isolate Browsers?
 
-```bash
-pip install playwright
-playwright install chromium
-```
+- **Memory leaks**: Long-running browser sessions accumulate memory; isolation contains the damage
+- **Crash containment**: A crashed browser takes down nothing but itself
+- **Anti-bot considerations**: Browser fingerprinting runs from the worker's network context
+- **Resource scheduling**: Video, inference, and browser workloads don't compete
 
-## Stealth Configuration
+## Key Components
+
+### Playwright with Stealth
 
 ```python
-from playwright.sync_api import sync_playwright
-browser = p.chromium.launch(
+from playwright_stealth import Stealth
+
+stealth = Stealth()
+await stealth.apply_stealth_async(page)
+```
+
+- Disables automation signals (`--disable-blink-features=AutomationControlled`)
+- Realistic user agents per platform
+- Human-like timing delays between actions
+
+### Persistent Contexts
+
+```python
+browser = await p.chromium.launch_persistent_context(
+    user_data_dir="~/.agent_browser",
     headless=False,
-    args=['--disable-blink-features=AutomationControlled']
-)
-context = browser.new_context(
-    user_agent='Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)...',
-    viewport={'width': 1280, 'height': 720}
 )
 ```
 
-## Persistent Contexts
+- Login sessions survive restarts
+- Cookies + crypto-bound keys stored together (critical for anti-bot platforms)
+- One profile per platform to avoid cross-contamination
 
-Browser sessions persist across agent runs. Cookies, local storage, and authentication states survive restarts. Essential for platforms that enforce login sessions (LinkedIn, TikTok, Instagram).
+## Platform Notes
 
-## Detection Avoidance
+| Platform | Approach |
+|----------|----------|
+| Cloudflare-protected | headful + residential context |
+| Google OAuth flows | persistent context, never fresh incognito |
+| React-heavy SPAs | vision-driven automation over selectors |
+| Simple forms | plain Playwright, no LLM overhead |
 
-| Technique | Purpose |
-|-----------|---------|
-| Custom user agent | Avoid default automation UA flags |
-| Disable automation flags | Hide WebDriver markers |
-| Human-like timing | Random delays between actions |
-| Viewport variety | Match real device dimensions |
-| Cookie persistence | Maintain login sessions across runs |
+## Cost Discipline
 
-## Supported Platforms
-
-LinkedIn, TikTok, Instagram, Product Hunt, web forms, and application submissions. Each platform has its own automation profile with platform-specific timing and interaction patterns.
-
-## DGX Workaround
-
-For aarch64 systems without Chrome, Playwright chromium-1223 with explicit executable path in `~/.agent-browser/config.json` provides a fallback. Curl-based DuckDuckGo Lite search fills in when full browser automation is unavailable.
-
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
-
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
----
-
-*
-
----
-
-*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+Vision-driven browser automation bills per LLM call. Use it only where selector automation fails. Everything else runs on plain Playwright — free.

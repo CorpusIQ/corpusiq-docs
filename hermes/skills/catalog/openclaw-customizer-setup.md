@@ -101,7 +101,7 @@ Shared MCP server configuration — add CorpusIQ MCP endpoint here:
 
 ## CorpusIQ Use Cases
 
-1. **Multi-Machine Agent Consistency:** CorpusIQ runs agents on both DGX Spark (Linux) and Mac Mini (macOS). A shared Git-backed config ensures both machines use identical skills, MCP servers, and settings.
+1. **Multi-Machine Agent Consistency:** Agents running on both Linux and macOS hosts. A shared Git-backed config ensures both machines use identical skills, MCP servers, and settings.
 
 2. **Team Onboarding:** New team members clone the config repo, run `./setup.sh`, and instantly have the full CorpusIQ agent toolkit — no manual skill installation needed.
 

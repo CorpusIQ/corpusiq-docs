@@ -1,3 +1,9 @@
+---
+title: MCP Scan Results — July 24, 2026 (Evening)
+description: "Setup and usage guide for MCP Scan Results — July 24, 2026 (Evening). Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # MCP Scan Results — July 24, 2026 (Evening)
 
 **Scan time:** 19:04 MST, Friday July 24, 2026

@@ -17,9 +17,9 @@ Routine daily sweep of the skills.sh marketplace. After cross-referencing agains
 
 | # | Skill | Installs | Source | Setup Guide |
 |---|-------|----------|--------|-------------|
-| 1 | `songwriting-and-ai-music` | 324 | nousresearch/hermes-agent | [songwriting-and-ai-music-setup.md](/hermes/skills/catalog/songwriting-and-ai-music-setup.html) ✍️ |
-| 2 | `debugging-hermes-tui-commands` | 76 | nousresearch/hermes-agent | [debugging-hermes-tui-commands-setup.md](/hermes/skills/catalog/debugging-hermes-tui-commands-setup.html) ✍️ |
-| 3 | `hermes-attestation-guardian` | 94 | prompt-security/clawsec | [hermes-attestation-guardian-setup.md](/hermes/skills/catalog/hermes-attestation-guardian-setup.html) ✍️ |
+| 1 | `songwriting-and-ai-music` | 324 | nousresearch/hermes-agent | [songwriting-and-ai-music-setup.md](/hermes/skills/catalog/songwriting-and-ai-music-setup) ✍️ |
+| 2 | `debugging-hermes-tui-commands` | 76 | nousresearch/hermes-agent | [debugging-hermes-tui-commands-setup.md](/hermes/skills/catalog/debugging-hermes-tui-commands-setup) ✍️ |
+| 3 | `hermes-attestation-guardian` | 94 | prompt-security/clawsec | [hermes-attestation-guardian-setup.md](/hermes/skills/catalog/hermes-attestation-guardian-setup) ✍️ |
 
 ---
 
@@ -27,8 +27,8 @@ Routine daily sweep of the skills.sh marketplace. After cross-referencing agains
 
 | # | Skill | Installs | Source | Setup Guide |
 |---|-------|----------|--------|-------------|
-| 4 | `research-paper-writing` | 396 | nousresearch/hermes-agent | [research-paper-writing-setup.md](/hermes/skills/catalog/research-paper-writing-setup.html) ✍️ |
-| 5 | `plan` | 309 | nousresearch/hermes-agent | [plan-mode-setup.md](/hermes/skills/catalog/plan-mode-setup.html) ✍️ |
+| 4 | `research-paper-writing` | 396 | nousresearch/hermes-agent | [research-paper-writing-setup.md](/hermes/skills/catalog/research-paper-writing-setup) ✍️ |
+| 5 | `plan` | 309 | nousresearch/hermes-agent | [plan-mode-setup.md](/hermes/skills/catalog/plan-mode-setup) ✍️ |
 
 ---
 

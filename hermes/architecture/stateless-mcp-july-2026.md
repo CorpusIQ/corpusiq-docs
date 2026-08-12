@@ -1,3 +1,9 @@
+---
+title: Stateless MCP — What the July 2026 Spec Means for Business AI
+description: "Setup and usage guide for Stateless MCP — What the July 2026 Spec Means for Business AI. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # Stateless MCP — What the July 2026 Spec Means for Business AI
 
 The MCP specification update on July 28, 2026 eliminated sessions, handshakes, and persistent connections. MCP is now fully stateless — every request carries its own protocol version, method, and authentication.

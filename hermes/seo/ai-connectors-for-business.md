@@ -1,3 +1,9 @@
+---
+title: "AI Connectors for Business: Connect ChatGPT to Shopify, QuickBooks, Stripe"
+description: "Your AI cannot answer basic questions about your business. Not because it is not smart enough. Because it cannot reach your data."
+last_updated: 2026-08-12
+---
+
 # AI Connectors for Business: Connect ChatGPT to Shopify, QuickBooks, Stripe
 
 Your AI cannot answer basic questions about your business. Not because it is not smart enough. Because it cannot reach your data.

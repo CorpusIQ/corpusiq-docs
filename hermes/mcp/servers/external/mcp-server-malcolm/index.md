@@ -1,3 +1,9 @@
+---
+title: mcp-server-malcolm (Malcolm Network Traffic Analysis)
+description: "Setup and usage guide for mcp-server-malcolm (Malcolm Network Traffic Analysis). Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # mcp-server-malcolm (Malcolm Network Traffic Analysis)
 
 **URL:** https://github.com/nagameTW/mcp-server-malcolm

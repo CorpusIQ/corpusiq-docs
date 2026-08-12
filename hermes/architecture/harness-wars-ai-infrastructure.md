@@ -1,3 +1,9 @@
+---
+title: The Harness Wars — Why AI Infrastructure Will Define the Next Two Years
+description: "Setup and usage guide for The Harness Wars — Why AI Infrastructure Will Define the Next Two Years. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # The Harness Wars — Why AI Infrastructure Will Define the Next Two Years
 
 For two years, AI companies competed on models. GPT versus Claude. Opus versus Sonnet. Bigger parameters. Better benchmarks. The model wars dominated headlines and funding rounds.

@@ -1,3 +1,9 @@
+---
+title: MCP Server Sweep — July 24, 2026 (Cron)
+description: "All 1 new server has an integration guide at `servers/external/`:"
+last_updated: 2026-08-12
+---
+
 # MCP Server Sweep — July 24, 2026 (Cron)
 
 **Sweep time:** 2026-07-24T18:00 UTC (cron)

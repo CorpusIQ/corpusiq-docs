@@ -1,3 +1,9 @@
+---
+title: MCP Server Sweep — August 11, 2026 (Midday)
+description: "Setup and usage guide for MCP Server Sweep — August 11, 2026 (Midday). Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # MCP Server Sweep — August 11, 2026 (Midday)
 
 **Timestamp:** 2026-08-11T16:00:00+0000  

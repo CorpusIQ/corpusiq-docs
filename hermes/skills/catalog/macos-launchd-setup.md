@@ -131,7 +131,7 @@ launchctl kickstart gui/$(id -u)/com.corpusiq.hermes-gateway
 
 ## CorpusIQ Use Cases
 
-1. **Mac Mini Worker:** The Mac Mini runs Hermes processes for video generation, email monitoring, and docs management. Launchd provides proper process supervision — agents restart on crash, logs are captured to files, and environment variables are managed centrally.
+1. **Dedicated Agent Host:** A macOS workstation running Hermes processes for video generation, email monitoring, and docs management. Launchd provides proper process supervision — agents restart on crash, logs are captured to files, and environment variables are managed centrally.
 
 2. **Multi-Profile Management:** Each Hermes profile gets its own LaunchAgent plist with isolated environment variables and log files.
 

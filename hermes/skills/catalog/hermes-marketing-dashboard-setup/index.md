@@ -99,4 +99,4 @@ After setup:
 
 - [Hermes Agent Framework](/hermes/skills/catalog/hermes-agent-framework-setup/)
 - [OpenClaw Ecosystem (June 26)](/hermes/skills/catalog/openclaw-ecosystem-june26-setup/)
-- [Marketing Skills Collection](/hermes/skills/catalog/coreyhaines31-marketing-skills-setup/)
+- [Marketing Skills Collection](/hermes/skills/catalog/marketingskills-setup)

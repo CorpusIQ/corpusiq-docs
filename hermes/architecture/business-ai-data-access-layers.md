@@ -1,3 +1,9 @@
+---
+title: How Business AI Agents Handle Data Access — The Infrastructure Layer
+description: "Setup and usage guide for How Business AI Agents Handle Data Access — The Infrastructure Layer. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # How Business AI Agents Handle Data Access — The Infrastructure Layer
 
 Every business owner who has tried asking ChatGPT about their revenue has hit the same wall. The AI is capable. The data is there. But there is no pipe between them.

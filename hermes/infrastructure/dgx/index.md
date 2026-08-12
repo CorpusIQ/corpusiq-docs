@@ -1,11 +1,11 @@
 ---
-title: NVIDIA DGX Spark  --  Primary Compute
-description: Running Hermes Agent on NVIDIA DGX Spark for production inference, model routing, and 24/7 autonomous operations
+title: NVIDIA DGX Spark — Primary Compute Pattern
+description: "Running Hermes Agent on an NVIDIA DGX Spark for production inference, model routing, and 24/7 autonomous operations."
 ---
 
-# NVIDIA DGX Spark  --  Primary Compute
+# NVIDIA DGX Spark — Primary Compute Pattern
 
-The DGX Spark serves as the primary inference and orchestration node for the CorpusIQ agent platform. It handles model inference, cron scheduling, memory management, and the majority of operational workloads.
+The DGX Spark is a compact GPU workstation well suited as the primary inference and orchestration node for an agent platform. It handles model inference, cron scheduling, memory management, and the majority of operational workloads.
 
 ## Hardware
 
@@ -13,38 +13,30 @@ NVIDIA GPU with CUDA support. Local inference eliminates API latency and cost fo
 
 ## Software Stack
 
-### Hermes Agent
-Primary orchestration framework. Upgraded from v0.15.1 to v0.16.0, incorporating 426 commits of new capabilities: model switching, fallback chains, browser tooling, skill bundles, and gateway integrations.
+| Layer | Component | Purpose |
+|-------|-----------|---------|
+| OS | Ubuntu Linux | Base system, NVIDIA drivers |
+| Runtime | Python 3.11+ | Agent and script execution |
+| Inference | Ollama | Local LLMs for routine tasks |
+| Scheduling | cron + systemd | 24/7 job execution |
+| Process guard | systemd `Restart=on-failure` | Auto-recovery of agent processes |
 
-### Ollama Local Inference
-```
-ollama pull qwen3.6:27b
-ollama pull deepseek-r1:32b
-```
-Local models handle routine tasks at zero cost with sub-100ms latency.
+## Workloads
 
-### Multi-Model Router
-Task complexity determines model selection. Defaults to local models (Qwen, Ollama). Escalates to DeepSeek for complex reasoning and Claude Opus for strategic decisions. Approximately 65% cost savings compared to premium-model-only routing.
+### Model Routing
+Local Ollama models handle routine execution at zero API cost. Complex reasoning escalates to premium APIs. This hybrid approach keeps the monthly API bill low while preserving quality on hard tasks.
 
-### GBrain Memory
-Persistent knowledge layer: 729 indexed files, pglite database, nomic-embed-text embeddings at 768 dimensions. Nightly dream cycle consolidates knowledge at 03:00.
+### Cron Scheduling
+All recurring jobs run from the primary node. Each cron references standalone wrapper scripts — never inline shell with complex quoting.
 
-### Cron Infrastructure
-24 scheduled processes: email monitoring, social publishing, video generation, knowledge consolidation, GitHub monitoring, reporting, and self-improvement cycles.
+### Memory Management
+Session state and knowledge stores live on local disk. Regular pruning keeps databases lean.
 
-## Why DGX Spark
-- Zero-cost local inference for routine tasks
-- Data privacy  --  sensitive operations never leave the machine
-- Sub-100ms latency for local models
-- Silent 24/7 operation in workspace environment
+### Multi-Profile Isolation
+Multiple agent profiles run on one machine. Each profile gets its own directory tree, environment, and token storage.
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
+## Lessons Learned
 
-*Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
----
-
-*
-
----
-
-*This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
+1. **Wrapper scripts over inline cron commands.** A cron Script field that points to a script file survives environment changes; inline pipelines break silently.
+2. **Watchdog everything.** If the agent goes dark, something must notice. A watchdog cron that checks gateway health catches silent failures.
+3. **Token expiry is a silent killer.** JWT/API tokens expire without warning. Schedule proactive refresh checks rather than waiting for failures.

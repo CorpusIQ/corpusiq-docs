@@ -1,3 +1,9 @@
+---
+title: AI Agent Memory Systems — August 2026 Landscape
+description: "Tencent open-sourced DB Agent Memory in August 2026. A local AI memory system that mimics human-like recall patterns."
+last_updated: 2026-08-12
+---
+
 # AI Agent Memory Systems — August 2026 Landscape
 
 ## Tencent DB Agent Memory

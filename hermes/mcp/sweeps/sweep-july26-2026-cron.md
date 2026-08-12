@@ -1,3 +1,9 @@
+---
+title: "MCP Sweep — July 26, 2026 (Cron — ~12:00 UTC)"
+description: "Setup and usage guide for MCP Sweep — July 26, 2026 (Cron — ~12:00 UTC). Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # MCP Sweep — July 26, 2026 (Cron — ~12:00 UTC)
 
 ## Summary

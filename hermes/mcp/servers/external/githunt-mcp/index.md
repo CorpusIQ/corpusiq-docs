@@ -1,3 +1,9 @@
+---
+title: githunt-mcp Server
+description: "Setup and usage guide for githunt-mcp Server. Part of the Hermes resource directory."
+last_updated: 2026-08-12
+---
+
 # githunt-mcp Server
 
 **URL:** https://github.com/githunt-agent/githunt-mcp

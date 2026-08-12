@@ -1,3 +1,9 @@
+---
+title: The Source of Truth Problem — Why Every Business Dashboard Lies
+description: "Every business runs on numbers. Revenue. Margin. Churn. CAC. LTV. These numbers determine budgets, hiring, strategy, and survival."
+last_updated: 2026-08-12
+---
+
 # The Source of Truth Problem — Why Every Business Dashboard Lies
 
 Every business runs on numbers. Revenue. Margin. Churn. CAC. LTV. These numbers determine budgets, hiring, strategy, and survival.

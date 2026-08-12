@@ -85,7 +85,7 @@ One-page reference of all Ponytail modes and skills with one-liner descriptions.
 ## 4. CorpusIQ Use Cases
 
 - **Agent skill development**  --  Use `ponytail-review` when reviewing new skill SKILL.md files before publishing
-- **Infrastructure code**  --  `ponytail-audit` on the Mac Mini and DGX Spark automation scripts
+- **Infrastructure code**  --  `ponytail-audit` on workstation and automation scripts
 - **Growth ops**  --  Keep automation scripts minimal; `ponytail` mindset prevents over-engineered workflows
 - **Docs management**  --  Audit the corpusiq-docs repo structure for unnecessary complexity
 

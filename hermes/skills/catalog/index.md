@@ -374,6 +374,8 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [SERP Downloaders — Content Downloader Skills Setup](/docs/hermes/skills/catalog/serpdownloaders-setup.html)
 - [Skills Collective AI Media — Image & Video Gen Setup](/docs/hermes/skills/catalog/skills-collective-ai-media-setup.html)
 - [Midscene Skills — AI-Powered Visual Browser Automation Setup](/docs/hermes/skills/catalog/midscene-skills-setup.html)
+- [Browser-Use Automation — AI Browser for Anti-Bot Sites Setup](/docs/hermes/skills/catalog/browser-use-automation-setup.html)
+- [Playwright Social Media Automation — API-First Browser Fallback Setup](/docs/hermes/skills/catalog/playwright-social-media-automation-setup.html)
 - [Ruflo — Multi-Agent Orchestration Platform Setup](/docs/hermes/skills/catalog/ruflo-setup.html)
 - [Stitch Skills — Google Design-to-Code Pipeline Setup](/docs/hermes/skills/catalog/stitch-skills-setup.html)
 - [just-scrape — AI-Powered Web Scraping CLI Setup](/docs/hermes/skills/catalog/just-scrape-setup.html)
