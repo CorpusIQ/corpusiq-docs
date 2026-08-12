@@ -1,6 +1,6 @@
 ---
 title: Volces Hermes & OpenClaw Skills — ByteDance Registry Cluster Setup Guide
-description: Install and use the Hermes/OpenClaw skill cluster from skills.volces.com (ByteDance Volces registry mirror): hermes-installer, openclaw-reference, openclaw-plugin-workbench, hermes-memory-bridge, and 5 more.
+description: "Install and use the Hermes/OpenClaw skill cluster from skills.volces.com (ByteDance Volces registry mirror): hermes-installer, openclaw-reference, openclaw-plugin-workbench, hermes-memory-bridge, and 5 more."
 ---
 
 # Volces Hermes & OpenClaw Skills — Setup Guide
