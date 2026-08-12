@@ -141,9 +141,9 @@ ChatGPT without MCP can only answer from its training data  --  it can't access 
 - [MCP for Sales: Pipeline and Forecasting](/docs/mcp-for-sales)
 - [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *

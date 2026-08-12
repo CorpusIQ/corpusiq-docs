@@ -153,9 +153,9 @@ While MCP is primarily an on-demand query interface, you can create saved prompt
 - [MCP for Small Business: Quick Setup](/docs/mcp-for-small-business)
 - [MCP for Agencies: Multi-Client Management](/docs/mcp-for-agencies)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *

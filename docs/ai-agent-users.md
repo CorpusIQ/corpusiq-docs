@@ -15,7 +15,7 @@ ChatGPT. Claude. Perplexity. A local Ollama model. OpenRouter. Any MCP-compatibl
 
 You don't need a ChatGPT Plus subscription. You don't need a Claude account. CorpusIQ is a standalone MCP server at `https://mcp2.corpusiq.io/mcp`  --  connect any AI that supports the Model Context Protocol.
 
-37 connectors. 150+ pre-built skills. Nearly 500 tools. All through one MCP endpoint.
+40+ connectors. 150+ pre-built skills. Nearly 500 tools. All through one MCP endpoint.
 
 ## One Endpoint. Every AI.
 

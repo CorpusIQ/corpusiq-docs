@@ -148,9 +148,9 @@ Yes. CorpusIQ's canonical facts feature lets you define how key metrics should b
 - [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 - [MCP for Ecommerce: Order and Revenue Analytics](/docs/mcp-for-ecommerce)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *

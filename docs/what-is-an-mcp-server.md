@@ -185,9 +185,9 @@ Yes. MCP servers can be deployed on-premise and connect to internal databases, E
 - [Explore MCP for small business intelligence](/docs/mcp-for-small-business)
 - [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *
