@@ -3,7 +3,7 @@ title: "CorpusIQ API Schemas  --  Data Models and JSON Reference"
 description: "Complete CorpusIQ API schemas and data models. Request/response JSON structures for query, deep_search, connectors, chunks, metadata, errors, and webhook payload formats."
 category: "API Reference"
 tags: ["corpusiq schemas", "api data models", "json schemas", "api reference", "response format", "request format", "data structures"]
-last_updated: "2026-06-16"
+last_updated: "2026-08-12"
 canonical: "https://www.corpusiq.io/docs/api/schemas"
 robots: "index,follow"
 ---

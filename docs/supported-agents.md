@@ -1,9 +1,9 @@
 ---
 title: "Supported AI Agents"
-description: "Complete MCP configuration guides for all supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, Roo Code, OpenClaw. Copy-paste JSON config blocks for instant CorpusIQ connection."
+description: "Complete MCP configuration guides for all supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, Roo Code. Copy-paste JSON config blocks for instant CorpusIQ connection."
 category: "Documentation"
 tags: ["supported ai agents", "mcp configuration", "claude desktop mcp", "cursor mcp", "hermes agent", "windsurf mcp", "roo code"]
-last_updated: "2026-06-16"
+last_updated: "2026-08-12"
 canonical: "https://www.corpusiq.io/docs/supported-agents"
 robots: "index,follow"
 ---
@@ -33,23 +33,9 @@ Add this to your Hermes `config.yaml` under `mcp.servers`. Restart Hermes and ru
 
 ---
 
-### OpenClaw
+### OpenClaw (deprecated)
 
-[OpenClaw](#repo-unavailable) by NiceGUI.
-
-**Setup:**
-```json
-{
-  "mcp_servers": {
-    "corpusiq": {
-      "url": "https://www.corpusiq.io/mcp/direct-connection",
-      "transport": "http"
-    }
-  }
-}
-```
-
-Add to your OpenClaw configuration. Use OAuth device flow for authentication.
+OpenClaw by NiceGUI was shut down. The repository is no longer available. Users are recommended to migrate to [Hermes](/docs/hermes/) or Claude Desktop.
 
 ---
 
@@ -175,7 +161,7 @@ Your agent should list all 36 available business data sources.
 ## Frequently Asked Questions
 
 **Q: Which AI agents work with CorpusIQ?**  
-A: CorpusIQ has verified compatibility with Hermes (Nous Research), OpenClaw (NiceGUI), Claude Desktop (Anthropic), Cursor, Windsurf (Codeium), and Roo Code. Any MCP-compatible agent can connect using the standard endpoint.
+A: CorpusIQ has verified compatibility with Hermes (Nous Research), Claude Desktop (Anthropic), Cursor, Windsurf (Codeium), and Roo Code. Any MCP-compatible agent can connect using the standard endpoint.
 
 **Q: How do I configure my agent to connect to CorpusIQ?**  
 A: Add the CorpusIQ MCP endpoint (https://www.corpusiq.io/mcp/direct-connection) to your agent's MCP servers config. Use 'http' transport for direct connections or 'mcp-remote' for agents requiring a local proxy. See the config blocks for each agent above.

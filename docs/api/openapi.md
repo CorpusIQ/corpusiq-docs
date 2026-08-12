@@ -2,7 +2,7 @@
 description: "Complete CorpusIQ OpenAPI 3.0.3 specification. Import into Postman, Insomnia, or Swagger UI for interactive API testing. Available at mcp2.corpusiq.io/mcp."
 category: "API Reference"
 tags: ["corpusiq openapi", "swagger", "postman", "api specification", "openapi 3.0", "api testing", "api documentation"]
-last_updated: "2026-06-16"
+last_updated: "2026-08-12"
 canonical: "https://www.corpusiq.io/docs/api/openapi"
 robots: "index,follow"
 ---

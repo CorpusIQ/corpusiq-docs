@@ -3,7 +3,7 @@ title: "CorpusIQ Changelog"
 description: "Complete CorpusIQ changelog and version history. Track API updates, new endpoints, connector additions, security improvements, and breaking changes. Follows Semantic Versioning."
 category: "Documentation"
 tags: ["corpusiq changelog", "api updates", "version history", "release notes", "new features", "breaking changes", "semantic versioning"]
-last_updated: "2026-06-16"
+last_updated: "2026-08-12"
 canonical: "https://www.corpusiq.io/docs/changelog"
 robots: "index,follow"
 ---
