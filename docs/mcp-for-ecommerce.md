@@ -157,9 +157,9 @@ Those tools focus on marketing attribution. MCP provides broader access  --  mar
 - [Learn about MCP for financial reporting and compliance](/docs/mcp-for-finance)
 - [MCP for Small Business: Quick Setup](/docs/mcp-for-small-business)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *

@@ -1,6 +1,6 @@
 ---
 title: "How to Connect Business Data to ChatGPT"
-description: "Connect your business data to ChatGPT in under 2 minutes with CorpusIQ MCP. Step-by-step guide for HubSpot, QuickBooks, Stripe, GA4, and 37+ sources."
+description: "Connect your business data to ChatGPT in under 2 minutes with CorpusIQ MCP. Step-by-step guide for HubSpot, QuickBooks, Stripe, GA4, and 40+ sources."
 h1: "How to Connect Business Data to ChatGPT"
 url: "/docs/how-to-connect-business-data-to-chatgpt"
 author: "CorpusIQ"
@@ -17,7 +17,7 @@ You have critical business data spread across multiple tools  --  HubSpot for CR
 
 ## The Solution: CorpusIQ MCP
 
-CorpusIQ bridges this gap using the **Model Context Protocol (MCP)**  --  an open standard developed by Anthropic that lets AI assistants discover and use external tools. CorpusIQ provides pre-built MCP connectors for 37+ business data sources. Connect in 2 minutes, start asking ChatGPT about your business data immediately.
+CorpusIQ bridges this gap using the **Model Context Protocol (MCP)**  --  an open standard developed by Anthropic that lets AI assistants discover and use external tools. CorpusIQ provides pre-built MCP connectors for 40+ business data sources. Connect in 2 minutes, start asking ChatGPT about your business data immediately.
 
 ## What You'll Need
 
@@ -125,7 +125,7 @@ A: MCP support is available on ChatGPT Plus, Team, and Enterprise plans. The fre
 A: You can refine your question  --  just like any conversation. Be specific about what data you want and which source to query.
 
 **Q: How many data sources can I connect?**  
-A: CorpusIQ supports 37+ connectors, and you can connect as many as you need. Multi-source queries work seamlessly.
+A: CorpusIQ supports 40+ connectors, and you can connect as many as you need. Multi-source queries work seamlessly.
 
 **Q: Can other team members use the same connection?**  
 A: Each team member should create their own CorpusIQ account and connect their own data sources. This ensures proper permission inheritance.

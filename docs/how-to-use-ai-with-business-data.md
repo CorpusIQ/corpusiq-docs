@@ -154,7 +154,7 @@ RECOMMENDED ACTIONS:
 
 | Requirement | CorpusIQ's Role |
 |------------|----------------|
-| Data connectivity | 37+ MCP connectors, 2-min OAuth setup |
+| Data connectivity | 40+ MCP connectors, 2-min OAuth setup |
 | AI interface | Any MCP-compatible assistant (ChatGPT, Claude, custom) |
 | Query execution | Parallel API calls across sources |
 | Security | OAuth, read-only, no data storage |

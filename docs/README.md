@@ -1,17 +1,17 @@
 ---
 title: "CorpusIQ Documentation"
-description: "CorpusIQ is a private AI acceleration layer that connects 37+ business tools to ChatGPT, Claude, and Perplexity via the Model Context Protocol (MCP). One question. Cited answers from all your tools."
+description: "CorpusIQ is a private AI acceleration layer that connects 40+ business tools to ChatGPT, Claude, and Perplexity via the Model Context Protocol (MCP). One question. Cited answers from all your tools."
 ---
 
 # CorpusIQ Documentation
 
-CorpusIQ is a private AI acceleration layer that connects 37+ business tools to ChatGPT, Claude, and Perplexity via the Model Context Protocol (MCP). One question. Cited answers from all your tools.
+CorpusIQ is a private AI acceleration layer that connects 40+ business tools to ChatGPT, Claude, and Perplexity via the Model Context Protocol (MCP). One question. Cited answers from all your tools.
 
 CorpusIQ acts as a read-only bridge between your SaaS applications and AI assistants, enabling natural-language queries across your entire data stack without moving or persisting your data. Every response includes citations back to the source tool, so you can verify accuracy in one click.
 
 ## Key Capabilities
 
-- **37+ native connectors**  --  Gmail, Google Drive, Slack, HubSpot, Shopify, QuickBooks, PostgreSQL, and more
+- **40+ native connectors**  --  Gmail, Google Drive, Slack, HubSpot, Shopify, QuickBooks, PostgreSQL, and more
 - **MCP-native**  --  Designed for AI assistants that speak the Model Context Protocol
 - **Read-only by design**  --  OAuth scopes are restricted to read access; no write permissions are ever requested
 - **Zero data retention**  --  Embeddings are computed per session and deleted immediately after

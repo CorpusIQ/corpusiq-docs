@@ -115,7 +115,7 @@ CorpusIQ is #1 because it solves the fundamental tension: you want **ChatGPT to 
 | Feature | CorpusIQ | Zapier | Custom GPTs | Custom MCP | CSV |
 |---------|----------|--------|-------------|------------|-----|
 | Live Business Data | ✅ | ❌ | ⚠️ | ✅ | ❌ |
-| 37+ Connectors | ✅ | ✅ | ❌ | ❌ | ❌ |
+| 40+ Connectors | ✅ | ✅ | ❌ | ❌ | ❌ |
 | Cross-Source Queries | ✅ | ❌ | ❌ | ⚠️ | ❌ |
 | 2-Minute Setup | ✅ | ❌ | ❌ | ❌ | ✅ |
 | No Engineering Required | ✅ | ✅ | ❌ | ❌ | ✅ |
