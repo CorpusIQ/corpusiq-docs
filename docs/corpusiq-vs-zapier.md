@@ -74,7 +74,7 @@ Every answer reflects the current state of your systems. There's no batch window
 ## Strengths of Zapier
 
 ### 1. Mature Ecosystem
-Zapier connects to 7,000+ apps, far more than CorpusIQ's 37+ connectors. For niche tools, Zapier is likely to have an integration.
+Zapier connects to 7,000+ apps, far more than CorpusIQ's 40+ connectors. For niche tools, Zapier is likely to have an integration.
 
 ### 2. Write Capabilities
 Zapier can create, update, and delete data across apps. CorpusIQ is read-only by design. If you need to automate record creation  --  e.g., "When a Typeform submission comes in, create a HubSpot contact"  --  Zapier is the tool.

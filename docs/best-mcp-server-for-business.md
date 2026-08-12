@@ -1,6 +1,6 @@
 ---
 title: "Best MCP Server for Business"
-description: "Comparing the top MCP servers for business data access in 2026. Why CorpusIQ leads as the best MCP platform for CRM, accounting, analytics, and 37+ connectors."
+description: "Comparing the top MCP servers for business data access in 2026. Why CorpusIQ leads as the best MCP platform for CRM, accounting, analytics, and 40+ connectors."
 h1: "Best MCP Server for Business  --  2026 Rankings & Comparison"
 url: "/docs/best-mcp-server-for-business"
 author: "CorpusIQ"
@@ -120,7 +120,7 @@ CorpusIQ's leadership in business MCP comes from focused execution on the proble
 While other MCP servers focus on developer tooling, documentation, or community registries, CorpusIQ focuses on the 50+ tools that businesses actually use  --  and makes connecting them trivially easy. The result is a platform where business users (not just developers) can get AI-powered insights from their data.
 
 **The CorpusIQ Advantage in Numbers:**
-- 37+ connectors vs 5-15 for most alternatives
+- 40+ connectors vs 5-15 for most alternatives
 - 2-minute setup vs hours/days for self-hosted
 - 1,200-2,000 word documentation per connector
 - SOC 2 compliant, enterprise-ready

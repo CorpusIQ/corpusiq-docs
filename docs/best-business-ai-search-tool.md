@@ -33,7 +33,7 @@ We evaluated the top business AI search tools on their ability to unify search a
 
 **Score: 9.2/10**
 
-CorpusIQ provides AI search across 37+ business tools  --  not just documents, but live CRM data, financial records, analytics, emails, Slack messages, and more. It doesn't index your data; it queries live sources, ensuring results are always current.
+CorpusIQ provides AI search across 40+ business tools  --  not just documents, but live CRM data, financial records, analytics, emails, Slack messages, and more. It doesn't index your data; it queries live sources, ensuring results are always current.
 
 **What Makes It #1:**
 - **Unified search across all business tools:** CRM + accounting + analytics + email + Slack + documents
@@ -142,7 +142,7 @@ A: Not with CorpusIQ  --  it queries live APIs. Indexed solutions (Glean, Elasti
 A: CorpusIQ inherits permissions from each source. Users only search data they're authorized to access.
 
 **Q: How many sources can AI search handle?**  
-A: CorpusIQ: 37+ sources, searched simultaneously. Indexed solutions are limited by what's been ingested.
+A: CorpusIQ: 40+ sources, searched simultaneously. Indexed solutions are limited by what's been ingested.
 
 **Q: Is AI search expensive?**  
 A: CorpusIQ: per-seat SaaS pricing. Glean: enterprise pricing (typically $50K+/year). Elastic: infrastructure costs + engineering. Pricing varies dramatically.

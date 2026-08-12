@@ -132,7 +132,7 @@ See the [MCP Integration Guide](https://corpusiq.io/mcp) for setup instructions.
 
 - [API Overview](/docs/api/overview)  --  Understand the full API surface
 - [Endpoints Reference](/docs/api/endpoints)  --  Detailed request/response schemas
-- [Connectors](/docs/connectors)  --  Browse all 37+ integrations
+- [Connectors](/docs/connectors)  --  Browse all 40+ integrations
 - [Authentication](/docs/api/authentication)  --  Token management and best practices
 - [Rate Limits](/docs/api/rate-limits)  --  Understand quotas and how to stay within them
 

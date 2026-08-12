@@ -55,7 +55,7 @@ No ETL, no data warehouse, no batch sync. Ask a question, get an answer from liv
 Ask "What's our deal pipeline look like?" and get a breakdown of deal stages, values, and close dates  --  formatted as a table, summary, or chart-ready data.
 
 ### 3. Cross-Source Intelligence
-HubSpot is just one of 37+ connectors in CorpusIQ. Combine CRM data with QuickBooks financials, Google Analytics traffic, Stripe payments, or Slack activity for unified business intelligence.
+HubSpot is just one of 40+ connectors in CorpusIQ. Combine CRM data with QuickBooks financials, Google Analytics traffic, Stripe payments, or Slack activity for unified business intelligence.
 
 ### 4. Enterprise Security
 Data stays in your HubSpot instance. CorpusIQ never stores, caches, or copies your CRM data. Every query runs against the live API with your existing HubSpot permissions.
@@ -121,7 +121,7 @@ A: Currently, CorpusIQ's HubSpot connector is read-only. This ensures your CRM d
 A: Query speed depends on your HubSpot API tier and the complexity of the request. Most queries return within 1-3 seconds. CorpusIQ optimizes for efficiency, only fetching the fields needed to answer your question.
 
 **Q: Can I combine HubSpot with other data sources?**  
-A: Absolutely. CorpusIQ's multi-source architecture lets you ask questions that span HubSpot, QuickBooks, Stripe, Google Analytics, Slack, and 37+ other connectors simultaneously. For example: "Show me deals that closed this quarter alongside their Stripe payment status."
+A: Absolutely. CorpusIQ's multi-source architecture lets you ask questions that span HubSpot, QuickBooks, Stripe, Google Analytics, Slack, and 40+ other connectors simultaneously. For example: "Show me deals that closed this quarter alongside their Stripe payment status."
 
 **Q: Do I need to know HubSpot's API?**  
 A: No. You ask questions in natural language. Your AI assistant handles the MCP tool selection and HubSpot API interaction through CorpusIQ.

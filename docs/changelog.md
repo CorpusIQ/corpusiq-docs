@@ -63,7 +63,7 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 
 ### Connectors
 
-- 37+ native connectors spanning email, calendar, file storage, analytics, CRM, ecommerce, marketing, financial, social media, and databases
+- 40+ native connectors spanning email, calendar, file storage, analytics, CRM, ecommerce, marketing, financial, social media, and databases
 - Read-only OAuth for all cloud services
 - Direct database connectors for PostgreSQL, SQL Server, MySQL, Azure Cosmos DB, and MongoDB
 
@@ -94,7 +94,7 @@ A: CorpusIQ follows Semantic Versioning (SemVer). Major versions (X.0) indicate 
 A: CorpusIQ provides at least 90 days' notice before deprecating any API version. Deprecated versions continue to function with a Deprecation header on responses during the notice period.
 
 **Q: How many connectors does CorpusIQ currently support?**  
-A: As of the v1.0 release (March 2026), CorpusIQ supports 37+ native connectors across email, calendar, file storage, analytics, CRM, ecommerce, marketing, financial, social media, and databases.
+A: As of the v1.0 release (March 2026), CorpusIQ supports 40+ native connectors across email, calendar, file storage, analytics, CRM, ecommerce, marketing, financial, social media, and databases.
 
 ## Internal Links
 

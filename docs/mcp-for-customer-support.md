@@ -151,9 +151,9 @@ Yes. A support manager can quickly query "show me the history and full context f
 - [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
 - [MCP for Enterprise: Multi-Department Deployment](/docs/mcp-for-enterprise)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *

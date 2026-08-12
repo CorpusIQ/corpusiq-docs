@@ -55,7 +55,7 @@ AI doesn't just answer questions  --  it can proactively surface insights. Ask C
 
 The CorpusIQ MCP platform is purpose-built for AI-powered business intelligence. Here's what makes it different from traditional BI approaches:
 
-1. **Universal connector library.** Pre-built, secure connectors to 37+ business tools  --  CRM, ERP, analytics, marketing, finance, e-commerce. Connect in minutes, not months.
+1. **Universal connector library.** Pre-built, secure connectors to 40+ business tools  --  CRM, ERP, analytics, marketing, finance, e-commerce. Connect in minutes, not months.
 
 2. **MCP-native architecture.** Built on the Model Context Protocol, an open standard for AI-to-tool communication. Any MCP-compatible AI (Claude, ChatGPT, and others) can use CorpusIQ connectors.
 
@@ -137,7 +137,7 @@ A: No  --  it amplifies them. AI handles routine queries, freeing analysts to fo
 A: All connections are read-only OAuth. Data is never stored. You can disconnect any source at any time. SOC 2 compliant infrastructure.
 
 **Q: What if my data sources don't have APIs?**
-A: CorpusIQ supports 37+ pre-built connectors. If a source isn't available, database connectors (PostgreSQL, MSSQL, MongoDB) and file storage connectors (Google Drive, OneDrive, SharePoint) provide alternative access paths.
+A: CorpusIQ supports 40+ pre-built connectors. If a source isn't available, database connectors (PostgreSQL, MSSQL, MongoDB) and file storage connectors (Google Drive, OneDrive, SharePoint) provide alternative access paths.
 
 **Q: Can I define custom metrics that span multiple sources?**
 A: Yes. CorpusIQ's metric specs let you define canonical calculations (MRR, CAC, etc.) that pull from multiple data sources with a single query.

@@ -161,9 +161,9 @@ Yes. MCP for agencies supports multi-account management. See our [See how agenci
 - [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
 - [MCP for Customer Support: Ticket Analytics](/docs/mcp-for-customer-support)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *

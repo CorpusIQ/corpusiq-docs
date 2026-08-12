@@ -144,7 +144,7 @@ A: Report to security@corpusiq.io. CorpusIQ follows coordinated disclosure and a
 
 - **[CorpusIQ Quick Start Guide](/docs/quick-start)**  --  Go from zero to first query in 5 minutes  
 - **[API Reference](/docs/api/overview)**  --  Full REST API documentation  
-- **[CorpusIQ Connectors](/docs/connectors)**  --  All 37+ supported integrations  
+- **[CorpusIQ Connectors](/docs/connectors)**  --  All 40+ supported integrations  
 - **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SOC 2, data residency  
 - **[CorpusIQ Security Documentation](/docs/security)**  --  Certifications, encryption, and compliance  
 - **[CorpusIQ Changelog](/docs/changelog)**  --  API updates and version history  

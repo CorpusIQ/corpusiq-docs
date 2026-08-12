@@ -299,9 +299,9 @@ The base MCP protocol is request-response oriented. However, the HTTP+SSE transp
 - [Learn about MCP for enterprise-scale deployments](/docs/mcp-for-enterprise)
 - [Explore MCP for business operations automation](/docs/mcp-for-operations)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *

@@ -33,7 +33,7 @@ info:
   title: "CorpusIQ API"
   version: "1.0.0"
   description: |
-    Private AI acceleration layer connecting 37+ business tools to ChatGPT, Claude,
+    Private AI acceleration layer connecting 40+ business tools to ChatGPT, Claude,
     and Perplexity via MCP. Read-only queries across your entire data stack with
     cited results  --  no data storage, no data movement.
   contact:
