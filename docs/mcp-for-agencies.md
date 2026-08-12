@@ -154,9 +154,9 @@ Agency pricing is designed to scale predictably. Contact CorpusIQ for agency-spe
 - [See how executives use MCP for AI-powered dashboards](/docs/mcp-for-executives)
 - [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *

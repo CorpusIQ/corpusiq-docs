@@ -150,9 +150,9 @@ Enterprise customers receive 99.9% uptime SLA for the MCP query layer, with fina
 - [Learn about MCP for financial reporting and compliance](/docs/mcp-for-finance)
 - [Explore MCP for business operations automation](/docs/mcp-for-operations)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *

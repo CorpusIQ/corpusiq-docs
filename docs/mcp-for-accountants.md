@@ -168,9 +168,9 @@ CorpusIQ supports QuickBooks today. Support for additional accounting platforms 
 - [Read our complete MCP security best practices guide](/docs/mcp-security-best-practices)
 - [MCP for Agencies: Client Management](/docs/mcp-for-agencies)
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
-*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 37 business tools to AI.*
+*Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 ---
 
 *
