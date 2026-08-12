@@ -1,6 +1,6 @@
 ---
 title: "Hermes Skills Catalog — Quality-Tiered Directory"
-description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 473+ skills catalogued."
+description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation instructions. 550+ skills catalogued."
 ---
 
 # Skills Catalog
@@ -393,4 +393,10 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Creative Ideation — Constraint-Driven Brainstorming Setup](/docs/hermes/skills/catalog/ideation-setup.html)
 - [Linear Integration — Issue & Project Management Setup](/docs/hermes/skills/catalog/linear-setup.html)
 - [Webhook Subscriptions — External Service Trigger Setup](/docs/hermes/skills/catalog/webhook-subscriptions-setup.html)
+- [OpenClaw Carapace — Design System Skills Setup](/docs/hermes/skills/catalog/openclaw-carapace-setup.html)
+- [OpenClaw Graph New Skills — Procedural Generation, ARKit, Testing Setup](/docs/hermes/skills/catalog/openclaw-graph-new-skills-setup.html)
+- [MCP OAuth Remote Gateway — Official Hermes Skill Setup](/docs/hermes/skills/catalog/hermes-mcp-oauth-remote-gateway-setup.html)
+- [Mnemosyne Hermes Memory Providers — Local-First Agent Memory Setup](/docs/hermes/skills/catalog/mnemosyne-hermes-memory-providers-setup.html)
+- [Audit Hermes Agent Skills — Skill Usage Audit & Cleanup Setup](/docs/hermes/skills/catalog/cnife-audit-hermes-agent-skills-setup.html)
+- [Volces Hermes & OpenClaw Skills — ByteDance Registry Cluster Setup](/docs/hermes/skills/catalog/volces-hermes-openclaw-skills-setup.html)
 - [Grounded Citations — Verifiable Source Citations Setup](/docs/hermes/skills/catalog/grounded-citations-setup.html)

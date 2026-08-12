@@ -7,11 +7,12 @@ description: Discover and install community skills from skills.sh  --  290+ cura
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**531+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**608+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
 
 - [🆕 August 12, 2026 (RunComfy) — RunComfy Agent Skills (61.1K installs, 30 skills) — AI video generation, avatar video, image-to-video, video editing](/hermes/skills/marketplace/new-aug12-2026-runcomfy/)
+- [🆕 August 12, 2026 (OpenClaw Ecosystem) — Carapace Design System (2.3K installs), Volces Hermes Skills, Official MCP OAuth, Mnemosyne Memory, Honcho Integrations (78 new skills, 62 publishers)](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/)
 
 - [🆕 July 31, 2026 — Hermes Dojo (138⭐), Manim Animations (2,443⭐), Workflow Framework, Obsidian Kanban, Mission Control + 23 more (28 new skills)](/hermes/skills/marketplace/new-july31-2026/)
 
@@ -245,7 +246,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 582+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 659+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 
