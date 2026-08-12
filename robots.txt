@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /cdn-cgi/
+
+Sitemap: https://www.corpusiq.io/docs/sitemap.xml
