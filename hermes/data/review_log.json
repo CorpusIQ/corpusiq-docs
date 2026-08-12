@@ -8488,5 +8488,117 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-11T07:06:52.128220+00:00"
+  },
+  {
+    "repo": "coolgeekme/hermes-topic-dashboard",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400001+00:00"
+  },
+  {
+    "repo": "ks91/acamp-robots-hermes-skill",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400016+00:00"
+  },
+  {
+    "repo": "steggdev/aside-browser-mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400018+00:00"
+  },
+  {
+    "repo": "nexuslinkproductions/browserlink",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400020+00:00"
+  },
+  {
+    "repo": "zzzjjack/chatgpt-deepseek-bridge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400022+00:00"
+  },
+  {
+    "repo": "wakbijok/dm-lite",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400023+00:00"
+  },
+  {
+    "repo": "smfworks/hermes-lofoten-challenge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400025+00:00"
+  },
+  {
+    "repo": "smfworks/hermes-extension-forge",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400027+00:00"
+  },
+  {
+    "repo": "smfworks/lofoten-challenge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400029+00:00"
+  },
+  {
+    "repo": "lawmight/hermes-cursor",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400030+00:00"
+  },
+  {
+    "repo": "HermesZum/hermes-tool-forge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400032+00:00"
+  },
+  {
+    "repo": "kennyko2002/hermes-everos-memory",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400034+00:00"
+  },
+  {
+    "repo": "betterLitao/cc-switch",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400035+00:00"
+  },
+  {
+    "repo": "ksenan7/Hermes-agentic-CorvinOS",
+    "score": 46,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400037+00:00"
+  },
+  {
+    "repo": "api-evangelist/nous-research",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400038+00:00"
+  },
+  {
+    "repo": "monthop-gmail/hermes-okmd",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-12T05:05:44.400040+00:00"
   }
 ]
