@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Complete MCP configuration guides for all supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, Roo Code, OpenClaw. Copy-paste JSON config blocks">
+        <meta name="description" content="Complete MCP configuration guides for all supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, Roo Code. Copy-paste JSON config blocks for instant">
       
       
       
@@ -75,13 +75,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/supported-agents/">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Supported AI Agents">
-  <meta property="og:description" content="Complete MCP configuration guides for all supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, Roo Code, OpenClaw. Copy-paste JSON config blocks">
+  <meta property="og:description" content="Complete MCP configuration guides for all supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, Roo Code. Copy-paste JSON config blocks for instant">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Supported AI Agents">
-  <meta name="twitter:description" content="Complete MCP configuration guides for all supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, Roo Code, OpenClaw. Copy-paste JSON config blocks">
+  <meta name="twitter:description" content="Complete MCP configuration guides for all supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, Roo Code. Copy-paste JSON config blocks for instant">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
 
   </head>
@@ -1491,10 +1491,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#openclaw" class="md-nav__link">
+  <a href="#openclaw-deprecated" class="md-nav__link">
     <span class="md-ellipsis">
       
-        OpenClaw
+        OpenClaw (deprecated)
       
     </span>
   </a>
@@ -9942,10 +9942,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#openclaw" class="md-nav__link">
+  <a href="#openclaw-deprecated" class="md-nav__link">
     <span class="md-ellipsis">
       
-        OpenClaw
+        OpenClaw (deprecated)
       
     </span>
   </a>
@@ -10093,19 +10093,8 @@
 </code></pre></div></p>
 <p>Add this to your Hermes <code>config.yaml</code> under <code>mcp.servers</code>. Restart Hermes and run the device login flow when prompted.</p>
 <hr />
-<h3 id="openclaw">OpenClaw<a class="headerlink" href="#openclaw" title="Anchor link to this section">&para;</a></h3>
-<p><a href="#repo-unavailable">OpenClaw</a> by NiceGUI.</p>
-<p><strong>Setup:</strong>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcp_servers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;corpusiq&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.corpusiq.io/mcp/direct-connection&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;transport&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div></p>
-<p>Add to your OpenClaw configuration. Use OAuth device flow for authentication.</p>
+<h3 id="openclaw-deprecated">OpenClaw (deprecated)<a class="headerlink" href="#openclaw-deprecated" title="Anchor link to this section">&para;</a></h3>
+<p>OpenClaw by NiceGUI was shut down. The repository is no longer available. Users are recommended to migrate to <a href="/docs/hermes/">Hermes</a> or Claude Desktop.</p>
 <hr />
 <h3 id="claude-desktop">Claude Desktop<a class="headerlink" href="#claude-desktop" title="Anchor link to this section">&para;</a></h3>
 <p><a href="https://claude.ai/download">Claude Desktop</a> by Anthropic.</p>
@@ -10221,7 +10210,7 @@
 </table>
 <h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: Which AI agents work with CorpusIQ?</strong><br />
-A: CorpusIQ has verified compatibility with Hermes (Nous Research), OpenClaw (NiceGUI), Claude Desktop (Anthropic), Cursor, Windsurf (Codeium), and Roo Code. Any MCP-compatible agent can connect using the standard endpoint.</p>
+A: CorpusIQ has verified compatibility with Hermes (Nous Research), Claude Desktop (Anthropic), Cursor, Windsurf (Codeium), and Roo Code. Any MCP-compatible agent can connect using the standard endpoint.</p>
 <p><strong>Q: How do I configure my agent to connect to CorpusIQ?</strong><br />
 A: Add the CorpusIQ MCP endpoint (https://www.corpusiq.io/mcp/direct-connection) to your agent's MCP servers config. Use 'http' transport for direct connections or 'mcp-remote' for agents requiring a local proxy. See the config blocks for each agent above.</p>
 <p><strong>Q: How do I verify my agent is connected?</strong><br />
