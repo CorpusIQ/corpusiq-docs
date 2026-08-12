@@ -3,7 +3,7 @@ title: "MCP for Agencies: AI-Powered Data Access"
 description: "How agencies teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access without coding."
 category: MCP Education
 tags: ["MCP for agencies", "agencies AI analytics", "AI for agencies teams", "connect business data to ChatGPT", "no-code AI business intelligence", "agencies data integration"]
-last_updated: 2026-07-08
+last_updated: 2026-08-11
 canonical: https://www.corpusiq.io/docs/mcp-for-agencies
 robots: index,follow
 ---
@@ -38,6 +38,14 @@ CorpusIQ's architecture supports agency multi-account management through:
 **Account manager access controls.** Assign specific clients to specific account managers. An account manager responsible for five clients sees only those five clients' data sources. Senior leadership can see the full portfolio.
 
 **Client-specific contexts.** Each client connection can have its own canonical definitions. "Active customer" might mean something different for a B2B SaaS client than for a D2C ecommerce client. CorpusIQ maintains these definitions per client.
+
+### Google Ads uses a manager hierarchy
+
+Google Ads is the important exception to the "one separate connection per client" pattern. An ad agency should create a Google Ads Manager Account (MCC), link each client advertiser account beneath it, and give one agency-controlled Google identity access at the manager level. The agency then connects that identity to CorpusIQ once.
+
+Do not create a new Google email and password for every client. The client keeps its own account and users. The MCC link gives the agency's designated identity inherited access, while CorpusIQ automatically discovers linked sub-managers and advertiser accounts.
+
+See [Google Ads for agencies: manager account setup](connectors/google-ads-for-agencies.md) for the requirements, Google click path, verification prompt, and troubleshooting steps.
 
 ## Automated Client Reporting
 
