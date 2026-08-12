@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Agent infrastructure setup: DGX Spark, Mac Mini, browser automation, authentication, and model routing.">
+        <meta name="description" content="Production agent deployment pattern: a GPU primary node for inference and scheduling, plus a worker node for browser automation and content operations.">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Infrastructure</title>
+    <title>Multi-Machine Deployment Architecture</title>
   
 
     
@@ -70,14 +70,14 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/infrastructure/">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Infrastructure">
-  <meta property="og:description" content="Agent infrastructure setup: DGX Spark, Mac Mini, browser automation, authentication, and model routing.">
+  <meta property="og:title" content="Multi-Machine Deployment Architecture">
+  <meta property="og:description" content="Production agent deployment pattern: a GPU primary node for inference and scheduling, plus a worker node for browser automation and content operations.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Infrastructure">
-  <meta name="twitter:description" content="Agent infrastructure setup: DGX Spark, Mac Mini, browser automation, authentication, and model routing.">
+  <meta name="twitter:title" content="Multi-Machine Deployment Architecture">
+  <meta name="twitter:description" content="Production agent deployment pattern: a GPU primary node for inference and scheduling, plus a worker node for browser automation and content operations.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
 
   </head>
@@ -135,7 +135,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Infrastructure
+              Multi-Machine Deployment Architecture
             
           </span>
         </div>
@@ -340,6 +340,10 @@
     
       
         
+          
+        
+      
+        
       
         
       
@@ -373,8 +377,9 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../../api/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -388,8 +393,14 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
@@ -401,6 +412,8 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -8894,9 +8907,7 @@
     
       
         
-      
-        
-      
+          
         
       
         
@@ -8926,8 +8937,9 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10_3" >
         
           
-          <label class="md-nav__link" for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../guides/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -8941,8 +8953,14 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10_3">
@@ -8954,6 +8972,8 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -9018,14 +9038,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides/affiliate-link-attribution-dub/" class="md-nav__link">
+      <a href="../guides/mcp-servers-business-operators/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Affiliate Link Attribution with Dub
+    MCP Servers for Business Operators
   
 
     
@@ -9074,34 +9094,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides/affiliate-distribution-strategy/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Affiliate Distribution Strategy
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../guides/hermes-improvement-pipeline-aug2026/" class="md-nav__link">
         
   
@@ -9110,62 +9102,6 @@
     
   
     Hermes Improvement Pipeline (Aug 2026)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../guides/system-recovery-playbook-aug2026/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    System Recovery Playbook (Aug 2026)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../guides/affiliate-outreach-playbook/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Affiliate Outreach Playbook
   
 
     
@@ -9752,160 +9688,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#primary-node-setup" class="md-nav__link">
+  <a href="#node-pages" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Primary Node Setup
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Primary Node Setup">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-base-installation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. Base Installation
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-profile-setup" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. Profile Setup
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-gateway" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. Gateway
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#worker-node-setup" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Worker Node Setup
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Worker Node Setup">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-base" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1. Base
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-ssh-key-setup" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. SSH Key Setup
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-worker-scripts" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. Worker Scripts
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#orchestration-patterns" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Orchestration Patterns
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Orchestration Patterns">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pattern-1-video-pipeline" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Pattern 1: Video Pipeline
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pattern-2-social-publishing" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Pattern 2: Social Publishing
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pattern-3-browser-automation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Pattern 3: Browser Automation
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#model-routing-strategy" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Model Routing Strategy
+        Node Pages
       
     </span>
   </a>
@@ -9913,99 +9699,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#monitoring" class="md-nav__link">
+  <a href="#key-decisions" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Monitoring
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Monitoring">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#health-check-10-pm-daily" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Health Check (10 PM daily)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#disk-memory" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Disk &amp; Memory
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#recovery-procedures" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Recovery Procedures
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Recovery Procedures">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#gateway-crash" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Gateway Crash
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#worker-node-unreachable" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Worker Node Unreachable
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#oauth-token-expired" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OAuth Token Expired
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lessons-learned" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Lessons Learned
+        Key Decisions
       
     </span>
   </a>
@@ -10058,7 +9755,7 @@
 <tr>
 <td>Browser automation crashes</td>
 <td>Takes down your agent</td>
-<td>Isolated on worker  --  agent stays up</td>
+<td>Isolated on worker — agent stays up</td>
 </tr>
 <tr>
 <td>Video rendering pegs CPU</td>
@@ -10080,15 +9777,15 @@
 <h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>┌─────────────────────────────────────────────────────────────────┐
 │                    PRIMARY COMPUTE NODE                          │
-│  OS: Linux · RAM: 128GB · GPU: NVIDIA                           │
+│  OS: Linux · GPU: NVIDIA                                         │
 │                                                                  │
 │  Services:                                                       │
 │  ├── Hermes Gateway (production instance)                        │
 │  ├── Production crons (multi-category scheduling)                │
-│  ├── Honcho MCP (peer memory)                                    │
-│  ├── CorpusIQ MCP (business tool connectors)                     │
-│  ├── GBrain (knowledge graph, vector search)                     │
-│  ├── memcore-cloud (cross-session context)                       │
+│  ├── Session memory (peer context sharing)                       │
+│  ├── Business tool connectors (MCP)                              │
+│  ├── Knowledge graph (vector search)                             │
+│  ├── Cross-session context store                                 │
 │  ├── Ollama (local embeddings, lightweight inference)            │
 │  └── LLM provider (primary inference via API)                    │
 │                                                                  │
@@ -10102,184 +9799,57 @@
                     SSH (key-based auth)
                             │
 ┌───────────────────────────┴──────────────────────────────────────┐
-│                  MAC MINI M4 (Worker)                             │
-│  OS: macOS (ARM64) · RAM: 16GB                                   │
+│                  WORKER NODE (macOS, ARM64)                       │
+│  OS: macOS (ARM64)                                                │
 │                                                                  │
 │  Services:                                                       │
-│  ├── Postiz CLI (social publishing  --  X, LinkedIn, TikTok, IG)    │
+│  ├── Postiz CLI (social publishing — X, LinkedIn, TikTok, IG)    │
 │  ├── Playwright (browser automation, stealth)                    │
 │  ├── FFmpeg (video post-production)                              │
 │  ├── patchright (Cloudflare bypass)                              │
-│  └── Instagram DM outreach (instagrapi)                          │
+│  └── Content pipelines (video, docs, media)                      │
 │                                                                  │
 └──────────────────────────────────────────────────────────────────┘
 </code></pre></div>
 <hr />
-<h2 id="primary-node-setup">Primary Node Setup<a class="headerlink" href="#primary-node-setup" title="Anchor link to this section">&para;</a></h2>
-<h3 id="1-base-installation">1. Base Installation<a class="headerlink" href="#1-base-installation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Hermes Agent</span>
-pip<span class="w"> </span>install<span class="w"> </span>hermes-agent
-
-<span class="c1"># Memory stack</span>
-pip<span class="w"> </span>install<span class="w"> </span>memcore-cloud
-git<span class="w"> </span>clone<span class="w"> </span>https://github.com/garrytan/gbrain<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="nb">cd</span><span class="w"> </span>gbrain<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>./setup.sh
-
-<span class="c1"># MCP servers</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>corpusiq<span class="w"> </span>--<span class="w"> </span>url<span class="w"> </span>https://mcp2.corpusiq.io/mcp
-hermes<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>honcho<span class="w"> </span>--<span class="w"> </span>npx<span class="w"> </span>mcp-remote<span class="w"> </span>https://mcp.honcho.dev
-
-<span class="c1"># Local inference (optional, for embeddings and lightweight tasks)</span>
-curl<span class="w"> </span>-fsSL<span class="w"> </span>https://ollama.com/install.sh<span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
-ollama<span class="w"> </span>pull<span class="w"> </span>nomic-embed-text
-</code></pre></div>
-<h3 id="2-profile-setup">2. Profile Setup<a class="headerlink" href="#2-profile-setup" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>hermes<span class="w"> </span>profile<span class="w"> </span>create<span class="w"> </span>corpusiq
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>deepseek/deepseek-v4-pro
-hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.fallback<span class="w"> </span><span class="s2">&quot;openrouter/qwen/qwen3-235b-a22b:free,anthropic/claude-opus-4&quot;</span>
-</code></pre></div>
-<h3 id="3-gateway">3. Gateway<a class="headerlink" href="#3-gateway" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Start the gateway (background, auto-restart on crash)</span>
-hermes<span class="w"> </span>gateway<span class="w"> </span>run<span class="w"> </span>--replace
-
-<span class="c1"># Verify</span>
-hermes<span class="w"> </span>gateway<span class="w"> </span>status
-</code></pre></div>
-<hr />
-<h2 id="worker-node-setup">Worker Node Setup<a class="headerlink" href="#worker-node-setup" title="Anchor link to this section">&para;</a></h2>
-<h3 id="1-base">1. Base<a class="headerlink" href="#1-base" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Hermes Agent (same version)</span>
-pip<span class="w"> </span>install<span class="w"> </span>hermes-agent
-
-<span class="c1"># Postiz (social publishing)</span>
-npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>postiz-cli
-postiz<span class="w"> </span>auth
-
-<span class="c1"># Playwright (browser automation)</span>
-pip<span class="w"> </span>install<span class="w"> </span>playwright
-playwright<span class="w"> </span>install<span class="w"> </span>chromium
-
-<span class="c1"># FFmpeg (video)</span>
-brew<span class="w"> </span>install<span class="w"> </span>ffmpeg
-</code></pre></div>
-<h3 id="2-ssh-key-setup">2. SSH Key Setup<a class="headerlink" href="#2-ssh-key-setup" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># On primary node</span>
-ssh-keygen<span class="w"> </span>-t<span class="w"> </span>ed25519<span class="w"> </span>-f<span class="w"> </span>~/.ssh/worker-key
-ssh-copy-id<span class="w"> </span>-i<span class="w"> </span>~/.ssh/worker-key.pub<span class="w"> </span>user@worker-node.local
-
-<span class="c1"># Test</span>
-ssh<span class="w"> </span>user@worker-node.local<span class="w"> </span><span class="s2">&quot;echo connected&quot;</span>
-</code></pre></div>
-<h3 id="3-worker-scripts">3. Worker Scripts<a class="headerlink" href="#3-worker-scripts" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Deploy video pipeline workers</span>
-scp<span class="w"> </span>~/worker/videos/*<span class="w"> </span>user@worker-node.local:~/worker/videos/
-
-<span class="c1"># Deploy Postiz scripts</span>
-scp<span class="w"> </span>~/worker/social/*<span class="w"> </span>user@worker-node.local:~/worker/social/
-</code></pre></div>
-<hr />
-<h2 id="orchestration-patterns">Orchestration Patterns<a class="headerlink" href="#orchestration-patterns" title="Anchor link to this section">&para;</a></h2>
-<h3 id="pattern-1-video-pipeline">Pattern 1: Video Pipeline<a class="headerlink" href="#pattern-1-video-pipeline" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># On primary node:</span>
-<span class="c1"># 1. Generate video with HeyGen API</span>
-python3<span class="w"> </span>heygen-video-generator.py
-
-<span class="c1"># 2. Post-produce with FFmpeg</span>
-ffmpeg<span class="w"> </span>-i<span class="w"> </span>input.mp4<span class="w"> </span>-vf<span class="w"> </span><span class="s2">&quot;zoompan=...&quot;</span><span class="w"> </span>-c:a<span class="w"> </span>copy<span class="w"> </span>output.mp4
-
-<span class="c1"># 3. Transfer to worker</span>
-scp<span class="w"> </span>output.mp4<span class="w"> </span>user@worker-node.local:~/worker/videos/
-
-<span class="c1"># 4. Publish via Postiz (on worker)</span>
-ssh<span class="w"> </span>user@worker-node.local<span class="w"> </span><span class="s2">&quot;postiz upload ~/worker/videos/output.mp4 &amp;&amp; postiz posts:create --platform tiktok --video output.mp4&quot;</span>
-</code></pre></div>
-<h3 id="pattern-2-social-publishing">Pattern 2: Social Publishing<a class="headerlink" href="#pattern-2-social-publishing" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># On primary node (or via cron):</span>
-ssh<span class="w"> </span>user@worker-node.local<span class="w"> </span><span class="s2">&quot;postiz posts:create \</span>
-<span class="s2">  --platform x \</span>
-<span class="s2">  --connector cmpoar9y201icl70y7iof708s \</span>
-<span class="s2">  --content &#39;Your post text here&#39;&quot;</span>
-</code></pre></div>
-<h3 id="pattern-3-browser-automation">Pattern 3: Browser Automation<a class="headerlink" href="#pattern-3-browser-automation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># On worker (via SSH from primary):</span>
-ssh<span class="w"> </span>user@worker-node.local<span class="w"> </span><span class="s2">&quot;python3 ~/worker/browser/task.py&quot;</span>
-</code></pre></div>
-<hr />
-<h2 id="model-routing-strategy">Model Routing Strategy<a class="headerlink" href="#model-routing-strategy" title="Anchor link to this section">&para;</a></h2>
-<p>Not every task needs Claude Opus. Here's how we route:</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Intelligent model switching based on task complexity</span>
-
-<span class="k">def</span> <span class="nf">route_model</span><span class="p">(</span><span class="n">task</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">task</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="s2">&quot;lightweight&quot;</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">&quot;openrouter/qwen/qwen3-235b-a22b:free&quot;</span>  <span class="c1"># ~$0.001</span>
-
-    <span class="k">if</span> <span class="n">task</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="s2">&quot;embedding&quot;</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">&quot;ollama/nomic-embed-text&quot;</span>  <span class="c1"># Free, local</span>
-
-    <span class="k">if</span> <span class="n">task</span><span class="o">.</span><span class="n">type</span> <span class="ow">in</span> <span class="p">(</span><span class="s2">&quot;research&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">,</span> <span class="s2">&quot;coding&quot;</span><span class="p">,</span> <span class="s2">&quot;social&quot;</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;deepseek/deepseek-v4-pro&quot;</span>  <span class="c1"># ~$0.01/task</span>
-
-    <span class="k">if</span> <span class="n">task</span><span class="o">.</span><span class="n">type</span> <span class="ow">in</span> <span class="p">(</span><span class="s2">&quot;strategy&quot;</span><span class="p">,</span> <span class="s2">&quot;architecture&quot;</span><span class="p">,</span> <span class="s2">&quot;contracts&quot;</span><span class="p">):</span>
-        <span class="k">return</span> <span class="s2">&quot;anthropic/claude-opus-4&quot;</span>  <span class="c1"># ~$0.05/task</span>
-</code></pre></div>
-<p><strong>Cost savings:</strong> ~65% vs running everything on Claude Opus.</p>
-<hr />
-<h2 id="monitoring">Monitoring<a class="headerlink" href="#monitoring" title="Anchor link to this section">&para;</a></h2>
-<h3 id="health-check-10-pm-daily">Health Check (10 PM daily)<a class="headerlink" href="#health-check-10-pm-daily" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># On primary node</span>
-hermes<span class="w"> </span>cron<span class="w"> </span>list<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;active&quot;</span>
-hermes<span class="w"> </span>mcp<span class="w"> </span><span class="nb">test</span><span class="w"> </span>corpusiq
-hermes<span class="w"> </span>mcp<span class="w"> </span><span class="nb">test</span><span class="w"> </span>honcho
-
-<span class="c1"># On worker</span>
-ssh<span class="w"> </span>user@worker-node.local<span class="w"> </span><span class="s2">&quot;postiz list&quot;</span>
-ssh<span class="w"> </span>user@worker-node.local<span class="w"> </span><span class="s2">&quot;pgrep -f playwright&quot;</span>
-</code></pre></div>
-<h3 id="disk-memory">Disk &amp; Memory<a class="headerlink" href="#disk-memory" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># On both nodes</span>
-df<span class="w"> </span>-h<span class="w"> </span>/
-free<span class="w"> </span>-h<span class="w">  </span><span class="c1"># Linux</span>
-vm_stat<span class="w">  </span><span class="c1"># macOS</span>
-</code></pre></div>
-<hr />
-<h2 id="recovery-procedures">Recovery Procedures<a class="headerlink" href="#recovery-procedures" title="Anchor link to this section">&para;</a></h2>
-<h3 id="gateway-crash">Gateway Crash<a class="headerlink" href="#gateway-crash" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Check if running</span>
-hermes<span class="w"> </span>gateway<span class="w"> </span>status
-
-<span class="c1"># Restart</span>
-hermes<span class="w"> </span>gateway<span class="w"> </span>run<span class="w"> </span>--replace
-
-<span class="c1"># Check logs</span>
-journalctl<span class="w"> </span>--user<span class="w"> </span>-u<span class="w"> </span>hermes-gateway<span class="w"> </span>-n<span class="w"> </span><span class="m">100</span>
-</code></pre></div>
-<h3 id="worker-node-unreachable">Worker Node Unreachable<a class="headerlink" href="#worker-node-unreachable" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Ping test</span>
-ping<span class="w"> </span>worker-node.local
-
-<span class="c1"># If down: Postiz and browser automation will queue</span>
-<span class="c1"># Crons will skip with error → retry on next tick</span>
-</code></pre></div>
-<h3 id="oauth-token-expired">OAuth Token Expired<a class="headerlink" href="#oauth-token-expired" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="c1"># Gmail</span>
-python3<span class="w"> </span>refresh_gmail_token.py
-
-<span class="c1"># GitHub (classic PAT  --  never expires)</span>
-<span class="c1"># Verify: curl -H &quot;Authorization: token $(cat secrets/github.token)&quot; https://api.github.com/user</span>
-</code></pre></div>
-<hr />
-<h2 id="lessons-learned">Lessons Learned<a class="headerlink" href="#lessons-learned" title="Anchor link to this section">&para;</a></h2>
+<h2 id="node-pages">Node Pages<a class="headerlink" href="#node-pages" title="Anchor link to this section">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Page</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="dgx/">Primary Compute (DGX Spark)</a></td>
+<td>GPU workstation as inference + scheduling hub</td>
+</tr>
+<tr>
+<td><a href="mac-mini/">Worker Node (Mac Mini M4)</a></td>
+<td>Dedicated worker for browser + content ops</td>
+</tr>
+<tr>
+<td><a href="auth/">Authentication Management</a></td>
+<td>OAuth tokens, API keys, rotation patterns</td>
+</tr>
+<tr>
+<td><a href="browser/">Browser Automation Architecture</a></td>
+<td>Playwright stealth + persistent contexts</td>
+</tr>
+<tr>
+<td><a href="routing/">Multi-Model Routing</a></td>
+<td>Cost-optimized model selection</td>
+</tr>
+</tbody>
+</table>
+<h2 id="key-decisions">Key Decisions<a class="headerlink" href="#key-decisions" title="Anchor link to this section">&para;</a></h2>
 <ol>
-<li><strong>Browser automation is fragile</strong>  --  offload it. Playwright crashes shouldn't take down your agent.</li>
-<li><strong>Key-based SSH is mandatory</strong>  --  password auth fails silently in cron environments.</li>
-<li><strong>Postiz on worker is stable</strong>  --  better than running social publishing directly from the agent.</li>
-<li><strong>Model routing saves real money</strong>  --  ~65% savings compounds at 24/7 operation.</li>
-<li><strong>Monitor both machines</strong>  --  the health check must verify the worker node too.</li>
-<li><strong>Keep Hermes versions synced</strong>  --  primary and worker nodes must run the same version.</li>
+<li><strong>Two machines beat one big one.</strong> Isolation between inference and browser/video workloads prevents cascade failures.</li>
+<li><strong>Primary node never runs browsers.</strong> Browsers leak memory and crash; keep them off the inference box.</li>
+<li><strong>Worker node handles all external publishing.</strong> Social APIs, browser automation, and media processing live on the worker.</li>
+<li><strong>SSH key auth between nodes.</strong> Agent-to-agent automation needs key-based SSH, never passwords.</li>
 </ol>
-<hr />
-<p>*</p>
-<hr />
-<p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
 <h2 id="all-pages">All Pages<a class="headerlink" href="#all-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>
@@ -10289,10 +9859,10 @@ python3<span class="w"> </span>refresh_gmail_token.py
 <p><a href="browser/index.html">Browser Automation Architecture</a></p>
 </li>
 <li>
-<p><a href="dgx/index.html">NVIDIA DGX Spark  --  Primary Compute</a></p>
+<p><a href="dgx/index.html">NVIDIA DGX Spark — Primary Compute Pattern</a></p>
 </li>
 <li>
-<p><a href="mac-mini/index.html">Mac Mini M4  --  Worker Node</a></p>
+<p><a href="mac-mini/index.html">Mac Mini M4 — Worker Node Pattern</a></p>
 </li>
 <li>
 <p><a href="routing/index.html">Multi-Model Routing</a></p>

@@ -340,6 +340,10 @@
     
       
         
+          
+        
+      
+        
       
         
       
@@ -373,8 +377,9 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../api/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -388,8 +393,14 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
@@ -401,6 +412,8 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -8894,9 +8907,7 @@
     
       
         
-      
-        
-      
+          
         
       
         
@@ -8926,8 +8937,9 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10_3" >
         
           
-          <label class="md-nav__link" for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../guides/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -8941,8 +8953,14 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10_3">
@@ -8954,6 +8972,8 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -9018,14 +9038,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../guides/affiliate-link-attribution-dub/" class="md-nav__link">
+      <a href="../../../guides/mcp-servers-business-operators/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Affiliate Link Attribution with Dub
+    MCP Servers for Business Operators
   
 
     
@@ -9074,34 +9094,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../guides/affiliate-distribution-strategy/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Affiliate Distribution Strategy
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../../guides/hermes-improvement-pipeline-aug2026/" class="md-nav__link">
         
   
@@ -9110,62 +9102,6 @@
     
   
     Hermes Improvement Pipeline (Aug 2026)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../guides/system-recovery-playbook-aug2026/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    System Recovery Playbook (Aug 2026)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../guides/affiliate-outreach-playbook/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Affiliate Outreach Playbook
   
 
     
@@ -10083,7 +10019,7 @@ mkdir<span class="w"> </span>-p<span class="w"> </span>~/hermes-bridge
 <h3 id="conversation-mirroring">Conversation Mirroring<a class="headerlink" href="#conversation-mirroring" title="Anchor link to this section">&para;</a></h3>
 <p>Each agent mirrors its Telegram conversation to the bridge:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Pseudocode for conversation mirroring</span>
-<span class="k">def</span> <span class="nf">on_telegram_message</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">on_telegram_message</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
     <span class="n">bridge_entry</span> <span class="o">=</span> <span class="p">{</span>
         <span class="s2">&quot;sender&quot;</span><span class="p">:</span> <span class="n">AGENT_NAME</span><span class="p">,</span>
         <span class="s2">&quot;level&quot;</span><span class="p">:</span> <span class="n">infer_priority</span><span class="p">(</span><span class="n">msg</span><span class="p">),</span>
@@ -10113,12 +10049,12 @@ hermes<span class="w"> </span>-s<span class="w"> </span>three-agent-bridge<span 
 </thead>
 <tbody>
 <tr>
-<td><strong>Mac Mini + Hermes server coordination</strong></td>
-<td>Desktop Hermes (Mac Mini) syncs with VPS Hermes (cloud) — CorpusIQ's exact architecture</td>
+<td><strong>Desktop + server coordination</strong></td>
+<td>Desktop Hermes (macOS) syncs with VPS Hermes (cloud)</td>
 </tr>
 <tr>
 <td><strong>Multi-profile state sharing</strong></td>
-<td>CorpusIQ growth agent profile shares state with other profiles via bridge</td>
+<td>A growth agent profile shares state with other profiles via bridge</td>
 </tr>
 <tr>
 <td><strong>Cron job coordination</strong></td>

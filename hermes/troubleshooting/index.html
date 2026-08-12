@@ -344,6 +344,10 @@
     
       
         
+          
+        
+      
+        
       
         
       
@@ -377,8 +381,9 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../../api/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -392,8 +397,14 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
@@ -405,6 +416,8 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -8898,9 +8911,7 @@
     
       
         
-      
-        
-      
+          
         
       
         
@@ -8930,8 +8941,9 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10_3" >
         
           
-          <label class="md-nav__link" for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../guides/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -8945,8 +8957,14 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10_3">
@@ -8958,6 +8976,8 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -9022,14 +9042,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides/affiliate-link-attribution-dub/" class="md-nav__link">
+      <a href="../guides/mcp-servers-business-operators/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Affiliate Link Attribution with Dub
+    MCP Servers for Business Operators
   
 
     
@@ -9078,34 +9098,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../guides/affiliate-distribution-strategy/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Affiliate Distribution Strategy
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../guides/hermes-improvement-pipeline-aug2026/" class="md-nav__link">
         
   
@@ -9114,62 +9106,6 @@
     
   
     Hermes Improvement Pipeline (Aug 2026)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../guides/system-recovery-playbook-aug2026/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    System Recovery Playbook (Aug 2026)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../guides/affiliate-outreach-playbook/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Affiliate Outreach Playbook
   
 
     
@@ -10826,13 +10762,13 @@ hermes<span class="w"> </span>cron<span class="w"> </span><span class="nb">histo
 </code></pre></div>
 <p><strong>Fix:</strong> Every cron job must include an outcome validation step:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Bad: Just tracks exit code</span>
-<span class="k">def</span> <span class="nf">my_cron_job</span><span class="p">():</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">my_cron_job</span><span class="p">():</span>
     <span class="n">result</span> <span class="o">=</span> <span class="n">do_something</span><span class="p">()</span>
     <span class="c1"># If do_something() returned None due to an error it caught,</span>
     <span class="c1"># cron sees exit 0 and marks success</span>
 
 <span class="c1"># Good: Validates actual output</span>
-<span class="k">def</span> <span class="nf">my_cron_job</span><span class="p">():</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">my_cron_job</span><span class="p">():</span>
     <span class="n">result</span> <span class="o">=</span> <span class="n">do_something</span><span class="p">()</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">result</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;success&quot;</span><span class="p">):</span>
         <span class="k">raise</span> <span class="n">CronFailureError</span><span class="p">(</span><span class="s2">&quot;Job produced no valid output&quot;</span><span class="p">)</span>
@@ -10895,7 +10831,7 @@ npx<span class="w"> </span>playwright<span class="w"> </span>install<span class=
 <span class="c1"># Check current config</span>
 cat<span class="w"> </span>~/.agent-browser/config.json
 </code></pre></div>
-<p><strong>Fix (ARM64/DGX):</strong></p>
+<p><strong>Fix (ARM64/Linux):</strong></p>
 <div class="highlight"><pre><span></span><code><span class="c1">// ~/.agent-browser/config.json</span>
 <span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;executablePath&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;/path/to/chromium-1223/chrome&quot;</span><span class="p">,</span>
@@ -10939,7 +10875,7 @@ nslookup<span class="w"> </span>target-site.com
 <h3 id="symptom-target-closed-mid-operation">Symptom: "Target closed" mid-operation<a class="headerlink" href="#symptom-target-closed-mid-operation" title="Anchor link to this section">&para;</a></h3>
 <p>The page navigated away or closed unexpectedly.</p>
 <p><strong>Fix:</strong> Re-navigate and snapshot before interacting:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">safe_interact</span><span class="p">(</span><span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">action</span><span class="p">:</span> <span class="nb">callable</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">safe_interact</span><span class="p">(</span><span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">action</span><span class="p">:</span> <span class="nb">callable</span><span class="p">):</span>
     <span class="k">for</span> <span class="n">attempt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="n">page</span> <span class="o">=</span> <span class="n">browser</span><span class="o">.</span><span class="n">navigate</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>

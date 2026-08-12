@@ -342,6 +342,10 @@
     
       
         
+          
+        
+      
+        
       
         
       
@@ -375,8 +379,9 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../api/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -390,8 +395,14 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
@@ -403,6 +414,8 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -8896,9 +8909,7 @@
     
       
         
-      
-        
-      
+          
         
       
         
@@ -8928,8 +8939,9 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10_3" >
         
           
-          <label class="md-nav__link" for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../guides/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -8943,8 +8955,14 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10_3">
@@ -8956,6 +8974,8 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -9020,14 +9040,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../guides/affiliate-link-attribution-dub/" class="md-nav__link">
+      <a href="../../../guides/mcp-servers-business-operators/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Affiliate Link Attribution with Dub
+    MCP Servers for Business Operators
   
 
     
@@ -9076,34 +9096,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../guides/affiliate-distribution-strategy/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Affiliate Distribution Strategy
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../../guides/hermes-improvement-pipeline-aug2026/" class="md-nav__link">
         
   
@@ -9112,62 +9104,6 @@
     
   
     Hermes Improvement Pipeline (Aug 2026)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../guides/system-recovery-playbook-aug2026/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    System Recovery Playbook (Aug 2026)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../guides/affiliate-outreach-playbook/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Affiliate Outreach Playbook
   
 
     
@@ -9925,12 +9861,12 @@ npm<span class="w"> </span>install<span class="w"> </span>mcp-use
 <p>mcp-use unlocks three categories of MCP development:</p>
 <h3 id="1-mcp-apps-agent-facing-ui">1. MCP Apps (Agent-facing UI)<a class="headerlink" href="#1-mcp-apps-agent-facing-ui" title="Anchor link to this section">&para;</a></h3>
 <p>Build interactive apps that agents can use — dashboards, forms, visualizations. Think of these as "websites for AI agents."</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">mcp_use</span> <span class="kn">import</span> <span class="n">MCPApp</span><span class="p">,</span> <span class="n">ui</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">mcp_use</span><span class="w"> </span><span class="kn">import</span> <span class="n">MCPApp</span><span class="p">,</span> <span class="n">ui</span>
 
 <span class="n">app</span> <span class="o">=</span> <span class="n">MCPApp</span><span class="p">(</span><span class="s2">&quot;my-dashboard&quot;</span><span class="p">)</span>
 
 <span class="nd">@app</span><span class="o">.</span><span class="n">page</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">dashboard</span><span class="p">():</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">dashboard</span><span class="p">():</span>
     <span class="k">return</span> <span class="n">ui</span><span class="o">.</span><span class="n">Card</span><span class="p">(</span>
         <span class="n">ui</span><span class="o">.</span><span class="n">Text</span><span class="p">(</span><span class="s2">&quot;System Status&quot;</span><span class="p">),</span>
         <span class="n">ui</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">metrics</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;line&quot;</span><span class="p">)</span>
@@ -9938,12 +9874,12 @@ npm<span class="w"> </span>install<span class="w"> </span>mcp-use
 </code></pre></div>
 <h3 id="2-mcp-servers-tool-providers">2. MCP Servers (Tool Providers)<a class="headerlink" href="#2-mcp-servers-tool-providers" title="Anchor link to this section">&para;</a></h3>
 <p>Build servers that expose tools, resources, and prompts to MCP clients.</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">mcp_use</span> <span class="kn">import</span> <span class="n">MCPServer</span><span class="p">,</span> <span class="n">tool</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">mcp_use</span><span class="w"> </span><span class="kn">import</span> <span class="n">MCPServer</span><span class="p">,</span> <span class="n">tool</span>
 
 <span class="n">server</span> <span class="o">=</span> <span class="n">MCPServer</span><span class="p">(</span><span class="s2">&quot;my-tools&quot;</span><span class="p">)</span>
 
 <span class="nd">@server</span><span class="o">.</span><span class="n">tool</span><span class="p">()</span>
-<span class="k">def</span> <span class="nf">search_knowledge_base</span><span class="p">(</span><span class="n">query</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">search_knowledge_base</span><span class="p">(</span><span class="n">query</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Search the company knowledge base.&quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="n">kb</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">query</span><span class="p">)</span>
 </code></pre></div>

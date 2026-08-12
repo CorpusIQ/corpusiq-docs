@@ -340,6 +340,10 @@
     
       
         
+          
+        
+      
+        
       
         
       
@@ -373,8 +377,9 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../api/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -388,8 +393,14 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
@@ -401,6 +412,8 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -8894,9 +8907,7 @@
     
       
         
-      
-        
-      
+          
         
       
         
@@ -8926,8 +8937,9 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10_3" >
         
           
-          <label class="md-nav__link" for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../guides/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -8941,8 +8953,14 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10_3">
@@ -8954,6 +8972,8 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -9018,14 +9038,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../guides/affiliate-link-attribution-dub/" class="md-nav__link">
+      <a href="../../../guides/mcp-servers-business-operators/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Affiliate Link Attribution with Dub
+    MCP Servers for Business Operators
   
 
     
@@ -9074,34 +9094,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../guides/affiliate-distribution-strategy/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Affiliate Distribution Strategy
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../../guides/hermes-improvement-pipeline-aug2026/" class="md-nav__link">
         
   
@@ -9110,62 +9102,6 @@
     
   
     Hermes Improvement Pipeline (Aug 2026)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../guides/system-recovery-playbook-aug2026/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    System Recovery Playbook (Aug 2026)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../../guides/affiliate-outreach-playbook/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Affiliate Outreach Playbook
   
 
     
@@ -10303,7 +10239,7 @@
 <p>Pitfall surfaced on Mailchimp: a fix correctly made the inline <code>server.py</code> loader async-aware, and a separate PR migrated the TokenManager to sync helpers. But <code>auth/mailchimp_auth.py</code> had THREE helper methods doing <code>await self.token_manager.load_token(...)</code>  --  a parallel code path the inline fix never touched. Every tool call hit <code>TypeError: object dict can't be used in 'await' expression</code>.</p>
 <p>Recurred on a metric-spec ship: PR added contract strings to <code>server.py</code>'s data-contract render path. CI green, dev deploy green. First smoke against the deployed surface showed the directive MISSING  --  because the Claude-shaped render path is a near-duplicate in <code>openai_app/response_formatter.py</code> with its own override map. Server.py path was instrumented; openai_app path wasn't.</p>
 <p><strong>Mitigation pattern (generalizable):</strong> when intentional duplication can't be collapsed to a single source without architectural lift, add a lockstep equality test that asserts the two copies are equal. Drift becomes a static problem (CI red on edit-one-copy) instead of a runtime one (silent ship, customer-visible).</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">test_X_constants_in_lockstep_across_render_paths</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_X_constants_in_lockstep_across_render_paths</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;server.py and openai_app must carry IDENTICAL X strings.</span>
 
 <span class="sd">    They&#39;re duplicated by design (different render paths, can&#39;t share a</span>
@@ -10311,8 +10247,8 @@
 <span class="sd">    drift is a test that pins equality. If you edit one, the test forces</span>
 <span class="sd">    you to edit the other.</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="kn">from</span> <span class="nn">server</span> <span class="kn">import</span> <span class="n">_X_CONSTANT_A</span><span class="p">,</span> <span class="n">_X_CONSTANT_B</span>
-    <span class="kn">from</span> <span class="nn">openai_app.response_formatter</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">server</span><span class="w"> </span><span class="kn">import</span> <span class="n">_X_CONSTANT_A</span><span class="p">,</span> <span class="n">_X_CONSTANT_B</span>
+    <span class="kn">from</span><span class="w"> </span><span class="nn">openai_app.response_formatter</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
         <span class="n">_OPENAI_X_CONSTANT_A</span><span class="p">,</span> <span class="n">_OPENAI_X_CONSTANT_B</span><span class="p">,</span>
     <span class="p">)</span>
     <span class="k">assert</span> <span class="n">_X_CONSTANT_A</span> <span class="o">==</span> <span class="n">_OPENAI_X_CONSTANT_A</span>

@@ -785,6 +785,10 @@
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-n8n/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
@@ -853,27 +857,15 @@
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/growth/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/growth/affiliate-program/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://www.corpusiq.io/docs/hermes/growth/mcp-directory-submission-tracker/</loc>
-         <lastmod>2026-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://www.corpusiq.io/docs/hermes/growth/reddit-automation/</loc>
-         <lastmod>2026-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://www.corpusiq.io/docs/hermes/guides/affiliate-distribution-strategy/</loc>
-         <lastmod>2026-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://www.corpusiq.io/docs/hermes/guides/affiliate-link-attribution-dub/</loc>
-         <lastmod>2026-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://www.corpusiq.io/docs/hermes/guides/affiliate-outreach-playbook/</loc>
+         <loc>https://www.corpusiq.io/docs/hermes/guides/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
@@ -897,19 +889,7 @@
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
-         <loc>https://www.corpusiq.io/docs/hermes/guides/system-recovery-playbook-aug2026/</loc>
-         <lastmod>2026-08-12</lastmod>
-    </url>
-    <url>
          <loc>https://www.corpusiq.io/docs/hermes/guides/trending-ai-agent-tools-aug2026/</loc>
-         <lastmod>2026-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://www.corpusiq.io/docs/hermes/guides/user-signup-growth-strategy-aug2026/</loc>
-         <lastmod>2026-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://www.corpusiq.io/docs/hermes/guides/worldwide-affiliate-channels-aug2026/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
@@ -962,22 +942,6 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/knowledge/session-handoff/</loc>
-         <lastmod>2026-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://www.corpusiq.io/docs/hermes/launch/</loc>
-         <lastmod>2026-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://www.corpusiq.io/docs/hermes/launch/email-templates/</loc>
-         <lastmod>2026-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://www.corpusiq.io/docs/hermes/launch/plan/</loc>
-         <lastmod>2026-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://www.corpusiq.io/docs/hermes/launch/producthunt/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
@@ -1717,6 +1681,10 @@
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/cloro-mcp/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/codicil-mcp/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
@@ -2077,6 +2045,14 @@
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/prose-coach-mcp/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/questdb-mcp/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/quickbooks-mcp/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
@@ -2090,6 +2066,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/retasc-mcp/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/roic-ai-mcp-server/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
@@ -2146,6 +2126,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/stoxly-mcp/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/stratyfix-mcp/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
@@ -2226,6 +2210,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august11-2026-overnight/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august12-2026-afternoon/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
@@ -2334,10 +2322,6 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july30-2026-afternoon/</loc>
-         <lastmod>2026-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://www.corpusiq.io/docs/hermes/operations/mcp-token-autorefresh/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
@@ -2514,6 +2498,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/scripts/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/seo/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
@@ -2729,6 +2717,10 @@
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/browser-use-automation-setup/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/build-mcp-server-setup/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
@@ -2798,6 +2790,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/cloudflare-skills-setup/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/cnife-audit-hermes-agent-skills-setup/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
@@ -3022,6 +3018,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-marketing-dashboard-setup/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-mcp-oauth-remote-gateway-setup/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
@@ -3281,6 +3281,10 @@
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/mnemosyne-hermes-memory-providers-setup/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/mongodb-agent-skills-setup/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
@@ -3345,6 +3349,10 @@
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-carapace-setup/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-control-center-setup/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
@@ -3354,6 +3362,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-ecosystem-june26-setup/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-graph-new-skills-setup/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
@@ -3418,6 +3430,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/planetscale-database-skills-setup/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/playwright-social-media-automation-setup/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
@@ -3630,6 +3646,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-agent-skills-setup/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/volces-hermes-openclaw-skills-setup/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
@@ -4169,6 +4189,10 @@
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/</loc>
+         <lastmod>2026-08-12</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug12-2026-runcomfy/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
@@ -4606,10 +4630,6 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/reporting/</loc>
-         <lastmod>2026-08-12</lastmod>
-    </url>
-    <url>
-         <loc>https://www.corpusiq.io/docs/reports/seo/gsc-july-2026/</loc>
          <lastmod>2026-08-12</lastmod>
     </url>
     <url>

@@ -344,6 +344,10 @@
     
       
         
+          
+        
+      
+        
       
         
       
@@ -377,8 +381,9 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../api/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -392,8 +397,14 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
@@ -405,6 +416,8 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -9044,9 +9057,7 @@
     
       
         
-      
-        
-      
+          
         
       
         
@@ -9076,8 +9087,9 @@
         <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_28_10_3" >
         
           
-          <label class="md-nav__link" for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../hermes/guides/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -9091,8 +9103,14 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_28_10_3" id="__nav_28_10_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_28_10_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_28_10_3">
@@ -9104,6 +9122,8 @@
 
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
             
               
                 
@@ -9168,14 +9188,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../hermes/guides/affiliate-link-attribution-dub/" class="md-nav__link">
+      <a href="../hermes/guides/mcp-servers-business-operators/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Affiliate Link Attribution with Dub
+    MCP Servers for Business Operators
   
 
     
@@ -9224,34 +9244,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../hermes/guides/affiliate-distribution-strategy/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Affiliate Distribution Strategy
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../hermes/guides/hermes-improvement-pipeline-aug2026/" class="md-nav__link">
         
   
@@ -9260,62 +9252,6 @@
     
   
     Hermes Improvement Pipeline (Aug 2026)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../hermes/guides/system-recovery-playbook-aug2026/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    System Recovery Playbook (Aug 2026)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../hermes/guides/affiliate-outreach-playbook/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Affiliate Outreach Playbook
   
 
     
@@ -10028,9 +9964,9 @@
 <h2 id="code-comparison-mcp-vs-traditional-api">Code Comparison: MCP vs Traditional API<a class="headerlink" href="#code-comparison-mcp-vs-traditional-api" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Traditional approach</strong>  --  what a developer must build for a simple "show me recent orders" question:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Custom code for each integration</span>
-<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
 
-<span class="k">def</span> <span class="nf">get_shopify_orders</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="s2">&quot;any&quot;</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">50</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_shopify_orders</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="s2">&quot;any&quot;</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">50</span><span class="p">):</span>
     <span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;https://</span><span class="si">{</span><span class="n">SHOPIFY_STORE</span><span class="si">}</span><span class="s2">.myshopify.com/admin/api/2024-01/orders.json&quot;</span>
     <span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;X-Shopify-Access-Token&quot;</span><span class="p">:</span> <span class="n">SHOPIFY_TOKEN</span><span class="p">}</span>
     <span class="n">params</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;status&quot;</span><span class="p">:</span> <span class="n">status</span><span class="p">,</span> <span class="s2">&quot;limit&quot;</span><span class="p">:</span> <span class="n">limit</span><span class="p">}</span>
@@ -10039,7 +9975,7 @@
     <span class="c1"># Parse, normalize, format for AI consumption</span>
     <span class="k">return</span> <span class="n">format_orders_for_ai</span><span class="p">(</span><span class="n">orders</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">get_quickbooks_invoices</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="s2">&quot;open&quot;</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">50</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_quickbooks_invoices</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="s2">&quot;open&quot;</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">50</span><span class="p">):</span>
     <span class="c1"># Completely different auth, URL structure, and parsing</span>
     <span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;https://quickbooks.api.intuit.com/v3/company/</span><span class="si">{</span><span class="n">REALM_ID</span><span class="si">}</span><span class="s2">/query&quot;</span>
     <span class="c1"># ... custom auth header ...</span>
