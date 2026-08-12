@@ -7,7 +7,7 @@ description: Curated catalog of notable third-party MCP servers for business ope
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 11, 2026 (midday sweep) · **Sources:** mcp.so (~22,000+ servers), mcpservers.org (10,856+ servers), sitemap + SSR + homepage scanning · **Catalog:** 143 servers (+43 guides)
+> **Last updated:** August 11, 2026 (evening sweep) · **Sources:** mcp.so (~22,000+ servers), mcpservers.org (10,857+ servers), sitemap + SSR + homepage scanning · **Catalog:** 146 servers (+46 guides)
 
 ---
 
@@ -25,6 +25,25 @@ AI-native cold outreach + CRM platform — 27 MCP tools covering campaign lifecy
 WhatsApp Business campaign automation for AI agents — import contacts, send approved templates, schedule broadcasts, read delivery rates via official WhatsApp API. First WhatsApp-specific marketing MCP. Starter $49/mo (5K msgs). `dripraven.com` (commercial) · [Guide →](/hermes/mcp/servers/external/dripraven-mcp/)
 
 **Also identified (not catalogued):** Syncro MCP (IT management, official), LocalCan MCP (ngrok alternative, 82⭐), LinkedIn API MCP (browser session approach), Bastion (attack surface monitoring), wecallio (outbound phone calls for agents), Klarefi (legal intake), and 6 others. 12 total identified, most were dev tools, security/legal niche, or crypto-adjacent.
+
+---
+
+## 🆕 August 11, 2026 — Evening Sweep (3 New, 3 Guides)
+
+Follow-up to the midday sweep (~6 hours later). Scanned mcp.so homepage (Featured, Trending, New Arrivals) and mcpservers.org homepage + /all (30 newest). 3 new business-relevant servers found — completing a "marketing MCP stack" across ads, referrals, and video production. [Full sweep report →](/hermes/mcp/sweeps/sweep-august11-2026-evening/)
+
+### Cello MCP ★★★ — August 11 evening
+Remote MCP for referral, partner, and affiliate program management. Ask AI agents about top referrer revenue, churn risk, attribution health, and program benchmarks in plain language. OAuth, Streamable HTTP at `https://mcp.cello.so/mcp`. First dedicated referral program intelligence MCP. Free with Cello account. · [Guide →](/hermes/mcp/servers/external/cello-mcp/)
+
+### AdWhispr MCP ★★★ — August 11 evening
+Complete ad workflow MCP — research any brand's live Facebook/TikTok ads (ranked by days running), clone proven winners, and launch real campaigns on Google, TikTok, and Meta. First MCP that closes the full ad lifecycle (research → clone → launch). OAuth, free tier, Pro $39/mo. `https://adwhispr.com/api/mcp` (commercial, OAuth) · [Guide →](/hermes/mcp/servers/external/adwhispr-mcp/)
+
+### ViewMade MCP ★★ — August 11 evening
+YouTube research, SEO, and finished video production for AI agents. Listed in mcpservers.org's Latest MCPs (Marketing category). Agent-native video production from research through publishing. Early-stage — public MCP documentation is thin. `viewmade.com` (commercial) · [Guide →](/hermes/mcp/servers/external/viewmade-mcp/)
+
+**Also identified (not catalogued):** Medplum (healthcare, 2.5K⭐), PLUR (agent memory, 226⭐, 98% R@5 benchmark), Termany (agent terminal, 174⭐), LocalCan (82⭐ — already noted midday), BetterBugs (dev tool), AI Video MCP by AITuber (content niche), directree (software directory), scvd.store (x402 infra), crosscode-cli (dev tool), SportsTrackLive (consumer), Sightseer MCP (travel), and 6 dev/ML tools from mcpservers.org. 
+
+**Key observation:** With AdWhispr + AdMake AI + Cello + JaxSuite AI + DripRaven — all catalogued on the same day — the MCP ecosystem now covers the full marketing stack. An operator could theoretically run their entire growth function through MCP-connected agents.
 
 ---
 
