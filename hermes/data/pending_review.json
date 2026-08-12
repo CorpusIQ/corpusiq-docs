@@ -35278,5 +35278,249 @@
     ],
     "discovered_at": "2026-08-12T07:04:56.279442+00:00",
     "status": "pending"
+  },
+  {
+    "name": "DEH-Codex/Hermes-Agent",
+    "url": "https://github.com/DEH-Codex/Hermes-Agent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-12T08:08:42Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-12T08:10:30.907436+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "zouzhenglu/hermes-skills",
+    "url": "https://github.com/zouzhenglu/hermes-skills",
+    "description": "Hermes Agent skills backup",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-12T08:08:26Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Undermybelt/hermes-skills-research",
+      "BBridgeers/hermes-skills"
+    ],
+    "discovered_at": "2026-08-12T08:10:32.914981+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "rayjun/nexus",
+    "url": "https://github.com/rayjun/nexus",
+    "description": "Mobile control surface for Hermes Agent, built with KMP and Compose Multiplatform",
+    "stars": 2,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "agent-control-plane",
+      "android",
+      "compose-multiplatform",
+      "hermes-agent",
+      "kmp"
+    ],
+    "updated_at": "2026-08-12T08:08:26Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "unmodeled-tyler/vessel-browser"
+    ],
+    "discovered_at": "2026-08-12T08:10:34.917790+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sepivip/hermes-ambient-watch",
+    "url": "https://github.com/sepivip/hermes-ambient-watch",
+    "description": "Ambient mode for Hermes Agent \u2014 a self-hosted Claude Tag alternative. Watches a Slack channel, uses a model (not a regex) to judge whether it can help, and answers in-thread untagged. USD spend caps, once-per-thread, reaction-gated handoff to a full-toolset session.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "ambient-agent",
+      "claude-tag",
+      "hermes-agent",
+      "slack"
+    ],
+    "updated_at": "2026-08-12T08:07:07Z",
+    "category": "core",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "CYC2002tommy/Deep-Research-Agent",
+      "mlennie/hermes-mcp",
+      "kaankacar/stellar-agent-kit",
+      "zakahadi/llm-eval-cli",
+      "Bo1202/Aivy-OS",
+      "PatterAI/Patter",
+      "Intelligent-Internet/zenith",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-12T08:10:36.921158+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "XibalbaTechSol/xibalba-cortex",
+    "url": "https://github.com/XibalbaTechSol/xibalba-cortex",
+    "description": "Local, provenance-aware graph memory MCP server for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-12T08:03:55Z",
+    "category": "mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "itechmeat/open-second-brain"
+    ],
+    "discovered_at": "2026-08-12T08:10:46.088399+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "szyrain/codegraph",
+    "url": "https://github.com/szyrain/codegraph",
+    "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent \u2014 fewer tokens, fewer tool calls, 100% local",
+    "stars": 0,
+    "forks": 0,
+    "language": "C",
+    "topics": [],
+    "updated_at": "2026-08-12T08:10:33Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "NousResearch/hermes-agent-self-evolution",
+      "codejunkie99/agentic-stack",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "longyunfeigu/learn-hermes-agent",
+      "KSroido/Kagi-Session2API-MCP",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "codegraphtheory/chainforge",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "Intelligent-Internet/zenith",
+      "Javis603/token-monitor",
+      "liaohch3/claude-tap",
+      "aivrar/portable-hermes-agent",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-12T08:11:02.298975+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "runzhliu/aik8s",
+    "url": "https://github.com/runzhliu/aik8s",
+    "description": "AI/LLM on Kubernetes \u57fa\u7840\u8bbe\u65bd\u77e5\u8bc6\u5e93\uff1a\u6db5\u76d6 GPU\u3001\u5927\u6570\u636e\u3001\u8c03\u5ea6\u3001\u5206\u5e03\u5f0f\u8bad\u7ec3\u3001LLM \u63a8\u7406\u3001RAG\u3001Agent \u4e0e\u751f\u4ea7\u8fd0\u7ef4\u3002",
+    "stars": 2,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "ai",
+      "aibrix",
+      "cephfs",
+      "claude-code",
+      "codexcli",
+      "containerd",
+      "cuda",
+      "docker",
+      "harness",
+      "hermes-agent",
+      "kubernetes",
+      "llm",
+      "openclaw",
+      "sglang",
+      "skills",
+      "spark",
+      "vllm",
+      "vm"
+    ],
+    "updated_at": "2026-08-12T08:10:29Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-12T08:11:04.301858+00:00",
+    "status": "pending"
   }
 ]
