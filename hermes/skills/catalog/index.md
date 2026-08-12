@@ -49,6 +49,8 @@ Community-tier skills are shared in good faith but haven't completed formal vali
 
 These skills are valuable for the community but require due diligence before relying on them. Look for the 🔵 indicator.
 
+| [RunComfy Agent Skills](/hermes/skills/catalog/runcomfy-agent-skills-setup/) | 🟡 Beta | 30 | 61.1K | AI video, image-to-video, avatar video, video editing, music generation | `prime-skills/runcomfy-agent-skills` |
+
 ## How to Evaluate a Skill Before Installing
 
 Before you trust a skill with your data and credentials, do this five-minute review:

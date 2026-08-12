@@ -11,6 +11,8 @@ The Skills Marketplace is the community hub for discovering, installing, and sha
 
 ## Recent Sweeps
 
+- [🆕 August 12, 2026 (RunComfy) — RunComfy Agent Skills (61.1K installs, 30 skills) — AI video generation, avatar video, image-to-video, video editing](/hermes/skills/marketplace/new-aug12-2026-runcomfy/)
+
 - [🆕 July 31, 2026 — Hermes Dojo (138⭐), Manim Animations (2,443⭐), Workflow Framework, Obsidian Kanban, Mission Control + 23 more (28 new skills)](/hermes/skills/marketplace/new-july31-2026/)
 
 - [🆕 July 30, 2026 — HTML/Cyber Terminal, X/Twitter Automation, Agent Dashboard, Telegram Guides (11 new skills, 204 scanned)](/hermes/skills/marketplace/new-july30-2026/)
