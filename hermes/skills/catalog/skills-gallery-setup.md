@@ -26,7 +26,7 @@ Skills Gallery is the largest single collection of AI agent skills ever publishe
 
 - Node.js 18+ (for npm/yarn/pnpm/bun install)
 - **OR** Python 3.11+ (for pip/uv install)
-- Hermes Agent v0.17.0+ (for Hermes-native integration)
+- Hermes Agent v0.20.0+ (for Hermes-native integration)
 
 ---
 

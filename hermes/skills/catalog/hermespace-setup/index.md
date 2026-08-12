@@ -6,7 +6,7 @@ description: "Install and configure hermespace (PabloTheThinker/hermespace) for 
 # Hermespace Setup Guide
 
 **Repo:** [PabloTheThinker/hermespace](https://github.com/PabloTheThinker/hermespace)
-**Version:** v0.18.3
+**Version:** v0.20.0
 **Stars:** 46
 **License:** MIT
 **Skill:** `npx skills add PabloTheThinker/hermespace --skill hermespace -g -y`

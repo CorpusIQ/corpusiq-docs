@@ -3,7 +3,7 @@ title: Hermes A2A Bridge Setup Guide
 description: Set up the Agent-to-Agent Protocol bridge for Hermes Agent — enable multi-agent collaboration across instances with standardized HTTP+JSON messaging.
 skill_name: hermes-a2a-bridge
 repo: asimons81/hermes-a2a-bridge
-compatibility: Hermes Agent v0.17.0+
+compatibility: Hermes Agent v0.20.0+
 installs: New (June 2026)
 ---
 
@@ -25,7 +25,7 @@ The Hermes A2A Bridge gives Hermes Agent the ability to communicate with other A
 ## Prerequisites
 
 - Python 3.11 or newer
-- Hermes Agent v0.17.0+
+- Hermes Agent v0.20.0+
 - Git
 
 ---
@@ -46,7 +46,7 @@ python -m pip install -e .
 hermes plugins enable a2a-bridge
 ```
 
-> **Note:** If `hermes plugins list` doesn't show the plugin due to a host-side UI gap in v0.17.0, manually add `a2a-bridge` to `plugins.enabled` in `~/.hermes/config.yaml`:
+> **Note:** If `hermes plugins list` doesn't show the plugin due to a host-side UI gap in v0.20.0, manually add `a2a-bridge` to `plugins.enabled` in `~/.hermes/config.yaml`:
 
 ```yaml
 plugins:
@@ -218,7 +218,7 @@ hermes a2a card --json
 
 - **Not full A2A compliance:** This implements the HTTP+JSON subset only
 - **Local-first:** Default bind is `127.0.0.1` — network access requires explicit config
-- **v0.17.0 UI gap:** Plugin discovery in `hermes plugins list` may require manual config.yaml edit
+- **v0.20.0 UI gap:** Plugin discovery in `hermes plugins list` may require manual config.yaml edit
 - **No streaming tasks:** Tasks are submitted and polled, not streamed
 
 ---
