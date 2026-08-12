@@ -1,14 +1,14 @@
 ---
-title: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem — 164+ repos, tools, skills, and integrations
+name: Hermes Ecosystem Directory
+description: Comprehensive directory of the Hermes Agent ecosystem — 165+ repos, tools, skills, and integrations
 last_updated: 2026-08-11
 ---
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **164+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **165+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **164+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **165+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -20,7 +20,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **164+ reposit
 | 🍴 Forks & Derivatives | 7 | Community forks with significant changes |
 || 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 6 | Model Context Protocol servers & integrations |
-| 💾 Memory & Knowledge | 37 | Persistent memory, knowledge graphs, context systems |
+|| 💾 Memory & Knowledge | 38 | Persistent memory, knowledge graphs, context systems |
 | 🏛️ Official Resources | 1 | Official NousResearch & partner projects |
 | 📋 Other | 3 | General discoveries, misc tools |
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
@@ -446,6 +446,14 @@ _Persistent memory, knowledge graphs, context systems_
 >The Zero-Dependency, Sub-Millisecond AI Memory System for Hermes Agents and Everyone Else!
 
 **Language:** Python | **Topics:** agents, ai, hermes, hermes-agent, ml
+
+---
+
+### [MemTensor/memmy-agent](https://github.com/MemTensor/memmy-agent) ⭐ 652
+
+>🍙 A personal AI agent & local memory hub for all AI agents, gives every AI one shared, fully controlled memory and persistent context — all AI remember the same you. Now supports Claude Code, Codex, OpenClaw and Hermes Agent etc.
+
+**Language:** TypeScript | **Topics:** agent, agentic-ai, ai, ai-agents, hermes-agent, long-term-memory, mcp, memory, personal-ai, tui | **Score:** 88/100
 
 ---
 

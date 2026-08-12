@@ -34979,5 +34979,90 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-12T05:05:15.096897+00:00",
     "status": "pending"
+  },
+  {
+    "name": "dyiapanis/centipede",
+    "url": "https://github.com/dyiapanis/centipede",
+    "description": "Camofox-based anti-detection web extraction for Hermes Agent. Extract layer of a self-hosted SearXNG + Camofox + browser-tools stack.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-12T06:03:36Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-12T06:05:06.820386+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "xtr0928/Multi-Agent",
+    "url": "https://github.com/xtr0928/Multi-Agent",
+    "description": "\u4e00\u5957\u57fa\u4e8e Hermes Agent \u7684\u591a\u6a21\u578b\u534f\u4f5c\u67b6\u6784\uff0c\u5305\u542b\u4ee3\u7801\u7f16\u5199\u4e0e\u6570\u5b66\u5efa\u6a21\u7684\u5de5\u4f5c\u6d41",
+    "stars": 1,
+    "forks": 0,
+    "language": "TeX",
+    "topics": [],
+    "updated_at": "2026-08-12T06:02:38Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-12T06:05:09.823348+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "gustavomello9600/hermes-agent-skills",
+    "url": "https://github.com/gustavomello9600/hermes-agent-skills",
+    "description": "Skills repository for Hermes Agent \u2014 skill-by-skill catalog, index, consolidation cycle, and interactive D3 graph",
+    "stars": 1,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-12T06:02:18Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "0451-software/research-skills"
+    ],
+    "discovered_at": "2026-08-12T06:05:12.826178+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "shanelord01/hermes-mempalace-sharedbrain",
+    "url": "https://github.com/shanelord01/hermes-mempalace-sharedbrain",
+    "description": "Hermes memory-provider plugin for MemPalace's shared-brain hub (multi-machine, multi-agent shared memory over MCP/HTTP)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-12T05:59:03Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-12T06:05:22.420596+00:00",
+    "status": "pending"
   }
 ]
