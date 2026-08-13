@@ -9688,6 +9688,28 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#verification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verification
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#config-template" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Config Template
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#cron-template" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -9749,7 +9771,7 @@
 </table>
 <h2 id="skill-template">Skill Template<a class="headerlink" href="#skill-template" title="Anchor link to this section">&para;</a></h2>
 <p>Create a <code>SKILL.md</code> file with this structure:</p>
-<p><div class="highlight"><pre><span></span><code>---
+<div class="highlight"><pre><span></span><code>---
 name: your-skill-name
 title: Your Skill Title
 description: One-line description of what this skill does
@@ -9777,36 +9799,30 @@ Brief overview of what this skill covers.
 
 <span class="k">-</span><span class="w"> </span>Common mistake and how to avoid it
 <span class="k">-</span><span class="w"> </span>Another pitfall to watch for
-
-<span class="gu">## Verification</span>
-
-How to confirm everything works:
-
-```bash
-your-verification-command
 </code></pre></div>
-<div class="highlight"><pre><span></span><code>## Config Template
+<h2 id="verification">Verification<a class="headerlink" href="#verification" title="Anchor link to this section">&para;</a></h2>
+<p>How to confirm everything works:</p>
+<div class="highlight"><pre><span></span><code>your-verification-command
+</code></pre></div>
+<h2 id="config-template">Config Template<a class="headerlink" href="#config-template" title="Anchor link to this section">&para;</a></h2>
+<p>Minimal <code>config.yaml</code> for a new Hermes Agent setup:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">model</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">sonnet</span>
+<span class="nt">provider</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">anthropic</span>
 
-Minimal `config.yaml` for a new Hermes Agent setup:
+<span class="nt">tools</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">shell</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">web_search</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">web_extract</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">read_file</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">write_file</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">patch</span>
 
-```yaml
-model: sonnet
-provider: anthropic
+<span class="nt">cron</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 
-tools:
-  - shell
-  - web_search
-  - web_extract
-  - read_file
-  - write_file
-  - patch
-
-cron:
-  enabled: true
-
-memory:
-  backend: sqlite
-</code></pre></div></p>
+<span class="nt">memory</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">backend</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">sqlite</span>
+</code></pre></div>
 <h2 id="cron-template">Cron Template<a class="headerlink" href="#cron-template" title="Anchor link to this section">&para;</a></h2>
 <p>Schedule recurring tasks with <code>cronjob</code>:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Daily at 9 AM</span>
