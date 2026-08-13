@@ -1,6 +1,6 @@
 ---
-title: rigorpilot-skills — Scientific AI Research for Hermes (140K installs)
-description: Install and use lllllllama/rigorpilot-skills — deep literature reviews, hypothesis generation, experiment reproduction, and methodology validation with academic-grade rigor.
+title: RigorPilot Skills — AI Research & Paper Reproduction Setup Guide for Hermes Agents
+description: Install llllllllama/rigorpilot-skills (2.6M combined installs) — 12 skills for AI research exploration, paper reproduction, code exploration, safe debugging, and ML training runs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rigorpilot-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -8,30 +8,48 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
-# rigorpilot-skills — Setup Guide
+# RigorPilot Skills — Setup Guide
 
-**Source:** [lllllllama/rigorpilot-skills](https://github.com/lllllllama/rigorpilot-skills) (140,100 installs)
-**Category:** Research / AI
-**Languages:** Python
+**Source:** [lllllllama/rigorpilot-skills](https://www.skills.sh/lllllllama/rigorpilot-skills) (2.6M combined installs)
+**GitHub:** [github.com/lllllllama/rigorpilot-skills](https://github.com/lllllllama/rigorpilot-skills)
+**Category:** Research / ML Engineering
+**First Seen:** August 12, 2026
+**Quality Tier:** 🟡 Beta (high install volume, young publisher)
 
-Scientific-grade AI research skills for coding agents. Two complementary capabilities: `ai-research-explore` (140.1K) performs deep literature reviews, hypothesis generation, and gap analysis across academic and technical domains. `ai-research-reproduction` (139.8K) validates research claims by reproducing experiments, checking methodologies, and verifying statistical results. Built on arXiv, PubMed, Semantic Scholar, and Papers With Code APIs.
+RigorPilot packages the full AI-research loop as twelve agent skills: explore a research area, resolve paper context, reproduce experiments, run training, and audit the result — all with safety-first debugging. Every skill carries ~234K installs, making this one of the highest-volume research clusters on skills.sh.
 
 ---
 
 ## Installation
 
 ```bash
-# Deep literature review & research exploration
-npx skills add lllllllama/rigorpilot-skills@ai-research-explore
+# Install the full repo
+npx skills add llllllllama/rigorpilot-skills
 
-# Experiment reproduction & methodology validation
-npx skills add lllllllama/rigorpilot-skills@ai-research-reproduction
+# Or install individually
+npx skills add llllllllama/rigorpilot-skills --skill ai-research-explore
+npx skills add llllllllama/rigorpilot-skills --skill paper-context-resolver
+npx skills add llllllllama/rigorpilot-skills --skill safe-debug
 ```
 
-Verify:
-```bash
-npx skills list | grep rigorpilot
-```
+---
+
+## Core Skills
+
+| Skill | Installs | Use For |
+|---|---|---|
+| `ai-research-explore` | 235.2K | Systematic exploration of a research area |
+| `analyze-project` | 234.8K | Project structure and goals analysis |
+| `ai-research-reproduction` | 234.6K | Reproducing published AI research |
+| `explore-code` | 234.5K | Codebase exploration for research repos |
+| `paper-context-resolver` | 234.5K | Resolving paper references and context |
+| `safe-debug` | 234.5K | Debugging without breaking experiments |
+| `repo-intake-and-plan` | 234.5K | Intake a repo and produce an execution plan |
+| `minimal-run-and-audit` | 234.4K | Minimal run + result audit loop |
+| `run-train` | 234.4K | Training run execution |
+| `env-and-assets-bootstrap` | 234.4K | Environment and dataset/asset setup |
+| `explore-run` | 234.4K | Exploratory run management |
+| `ai-paper-reproduction` | 0 | End-to-end paper reproduction (newest) |
 
 ---
 
@@ -39,204 +57,35 @@ npx skills list | grep rigorpilot
 
 | Requirement | Details |
 |---|---|
-| **Python** | 3.10+ |
-| **Hermes Agent** | Any version |
-| **arXiv API** | Free, no key required |
-| **Semantic Scholar API** | Free, rate-limited (100 req/5min) |
-| **Papers With Code** | Free, no key required |
-| **Git** | For cloning paper repositories during reproduction |
+| Node.js + npx | For the skills.sh CLI install path |
+| Python ML stack | PyTorch/HF ecosystem for the training-oriented skills |
+| GPU access | For `run-train` and reproduction workloads (local or cloud) |
+| Git | Repos under study are cloned locally |
 
 ---
 
-## Key Capabilities
+## CorpusIQ Use Cases
 
-### ai-research-explore: Deep Literature Review
-
-```
-┌──────────────────┐     ┌───────────────────┐     ┌──────────────────┐
-│  Research Question│ ──▶ │  Multi-Source     │ ──▶ │  Synthesized     │
-│  "How do AI       │     │  Search & Analysis │     │  Report + Gaps   │
-│   agents reason?" │     │  (5+ databases)    │     │  + Hypotheses    │
-└──────────────────┘     └───────────────────┘     └──────────────────┘
-```
-
-```bash
-# Comprehensive literature review
-rigorpilot explore \
-  --query "retrieval augmented generation for enterprise knowledge bases" \
-  --sources "arxiv,semantic-scholar,paperswithcode,pubmed" \
-  --years "2022-2026" \
-  --min-citations 5 \
-  --output "research/rag-enterprise-review.md"
-
-# Hypothesis generation from research gaps
-rigorpilot explore \
-  --query "multi-agent coordination protocols" \
-  --mode "gap-analysis" \
-  --output "research/multi-agent-gaps.md"
-```
-
-**Search sources:**
-- arXiv (CS, AI, ML, stats)
-- Semantic Scholar (all disciplines, citation graph)
-- Papers With Code (implementation + benchmarks)
-- PubMed (biomedical, clinical AI)
-- dblp (computer science bibliography)
-
-**Output includes:**
-- Executive summary (3-5 paragraphs)
-- Key papers (ranked by citations + relevance)
-- Timeline of idea development (citation graph)
-- Research gaps (underexplored areas with supporting evidence)
-- Testable hypotheses (formatted for grant proposals)
-- Full bibliography (BibTeX-ready)
-
-### ai-research-reproduction: Validate Research Claims
-
-```bash
-# Reproduce a published experiment
-rigorpilot reproduce \
-  --paper "https://arxiv.org/abs/2305.12345" \
-  --repo "https://github.com/authors/paper-code" \
-  --output "research/reproduction-2305.12345/"
-
-# Audit methodology without running code
-rigorpilot reproduce \
-  --paper "https://arxiv.org/abs/2401.67890" \
-  --mode "methodology-audit" \
-  --output "research/audit-2401.67890.md"
-```
-
-**Reproduction workflow:**
-1. Clone repository + install dependencies
-2. Locate experiment entry points (training scripts, eval scripts)
-3. Run with original parameters on available hardware
-4. Compare results to paper claims (within tolerance)
-5. Flag discrepancies: missing hyperparameters, cherry-picked results, unreported failures
-6. Generate reproducibility report with pass/fail on each claim
-
-**Methodology audit checks:**
-- Statistical validity (p-values, effect sizes, confidence intervals)
-- Sample size adequacy (power analysis)
-- Confounding variables (controlled for? discussed?)
-- Ablation completeness (all components tested?)
-- Benchmark contamination (training data in test set?)
-- Generalization claims (tested beyond original dataset?)
-
-### Citation Graph Analysis
-
-```bash
-# Map influence of a seminal paper
-rigorpilot explore \
-  --paper "https://arxiv.org/abs/1706.03762" \
-  --mode "citation-graph" \
-  --depth 2 \
-  --output "research/attention-is-all-you-need-graph.md"
-```
-
-Outputs:
-- Direct citations (papers that cite this work)
-- Idea lineage (papers this work builds on → papers that build on this)
-- Influence score (weighted by citation count and venue prestige)
-- Field impact (which subfields cite this most)
+| Use Case | How |
+|---|---|
+| **Model evaluation research** | `ai-research-explore` + `paper-context-resolver` for surveying techniques before evals |
+| **Agent skill upgrades** | `repo-intake-and-plan` + `explore-code` when assessing new tooling repos for the stack |
+| **Safe experimentation** | `minimal-run-and-audit` + `safe-debug` pattern for local AI infrastructure work |
 
 ---
 
-## Common Workflows for CorpusIQ
+## Limitations / Verification
 
-### Competitive AI Tool Research
-
-```bash
-# Research papers behind competitor tools
-rigorpilot explore \
-  --query "autonomous agent frameworks production deployment" \
-  --sources "arxiv,paperswithcode,semantic-scholar" \
-  --years "2024-2026" \
-  --output "research/agent-frameworks-landscape.md"
-
-# Check if competitor claims reproduce
-rigorpilot reproduce \
-  --paper "https://arxiv.org/abs/competitor-paper" \
-  --mode "methodology-audit" \
-  --output "research/competitor-audit.md"
-```
-
-### Technology Evaluation for Product Roadmap
-
-```bash
-# Literature review before choosing a tech stack
-rigorpilot explore \
-  --query "vector database performance comparison production workloads" \
-  --sources "arxiv,semantic-scholar" \
-  --min-citations 10 \
-  --output "research/vector-db-comparison.md"
-
-# Reproduce benchmark claims from vendors
-rigorpilot reproduce \
-  --paper "https://arxiv.org/abs/vector-db-benchmark" \
-  --output "research/vendor-benchmark-validation/"
-```
-
-### Content Authority Building
-
-```bash
-# Generate research-backed blog content
-rigorpilot explore \
-  --query "AI impact on business operations productivity" \
-  --mode "executive-summary" \
-  --output "blog/research/ai-operations-productivity.md"
-```
+- Newest skill (`ai-paper-reproduction`) has zero installs — treat as alpha
+- Verify install: `npx skills list | grep -E "research|rigor"` shows installed entries
+- Training skills assume a working GPU environment; they orchestrate, they don't provision hardware
 
 ---
 
-## Integration with CorpusIQ Research Stack
+## Related
 
-| Tool | Role | When to Use |
-|---|---|---|
-| **rigorpilot-skills** (this) | Academic/scientific research | Deep literature reviews, claim validation |
-| **firecrawl-deep-research** (30.5K) | Web research synthesis | Market research, competitive analysis |
-| **firecrawl-market-research** (29.4K) | Competitive landscape | Feature comparison, pricing analysis |
-| **web-search-duckduckgo** | Quick lookups | Fact checking, current events |
-| **arxiv** (built-in) | Paper search | Quick arXiv paper retrieval |
+- [Research Paper Writing Pipeline Setup](/hermes/skills/catalog/research-paper-writing-setup/)
+- [Grounded Citations Setup](/hermes/skills/catalog/grounded-citations-setup/)
+- [Skills Catalog](/hermes/skills/catalog/)
 
-**Recommendation:** Use rigorpilot for "what does the science say?" — validation before making product claims. Use firecrawl-workflows for "what is the market doing?" — competitive positioning. Together they provide both scientific rigor and market awareness.
-
----
-
-## Comparison: rigorpilot vs firecrawl-deep-research
-
-| Feature | rigorpilot-skills | firecrawl-deep-research |
-|---|---|---|
-| **Scope** | Academic papers, preprints, journals | Web pages, blogs, documentation |
-| **Sources** | arXiv, PubMed, Semantic Scholar, dblp | Web (Firecrawl index) |
-| **Citation tracking** | ✅ Full citation graph | ❌ Not applicable |
-| **Reproduction** | ✅ Experiment reproduction | ❌ Not applicable |
-| **Methodology audit** | ✅ Statistical validation | ❌ Not applicable |
-| **Speed** | Slower (academic depth) | Faster (web breadth) |
-| **Output format** | Academic (BibTeX, LaTeX-ready) | Business (exec summaries, bullet points) |
-| **Install base** | 140K | 30.5K |
-| **CorpusIQ use case** | Validate competitor tech claims | Find competitor positioning |
-
-**Recommendation:** Use both. rigorpilot for "is their AI actually better?" — firecrawl for "how do they position it?"
-
----
-
-## Troubleshooting
-
-| Symptom | Cause | Fix |
-|---|---|---|
-| arXiv API rate limited | Too many rapid requests | Add `--delay 5` between requests |
-| Paper reproduction fails | Missing dependencies | Check paper repo for `requirements.txt` or `environment.yml` |
-| Semantic Scholar returns 0 results | Query too specific | Broaden query, remove filters, try different keywords |
-| Methodology audit incomplete | Paper paywalled | Use preprint version (arXiv), or `--use-preprint` flag |
-| Citation graph slow | High-depth traverse | Reduce `--depth` to 1, or limit to top-50 cited papers |
-| GPU out of memory on reproduction | Paper used A100, you have T4 | Set `--tolerance-gpu` to skip GPU-bound experiments |
-
----
-
-## See Also
-
-- [firecrawl-workflows](/hermes/skills/catalog/firecrawl-workflows-setup/) — Web research & market analysis (120K installs)
-- [arxiv](/hermes/skills/catalog/) — Built-in arXiv paper search for Hermes
-- [web-search-duckduckgo](/hermes/skills/catalog/) — Quick web search for fact checking
-- [corpusiq-research-intelligence-framework](/hermes/skills/catalog/) — CorpusIQ's research methodology
+*Powered by CorpusIQ*
