@@ -25,10 +25,14 @@ def get_token():
         d = yaml.safe_load(f)
     return d["github.com"]["oauth_token"]
 
-def run(cmd, cwd=REPO_DIR):
+def run(cmd, cwd=REPO_DIR, fatal=False):
     r = subprocess.run(cmd, shell=True, cwd=cwd, capture_output=True, text=True)
-    if r.returncode != 0 and "up to date" not in r.stderr and "up to date" not in r.stdout:
+    ok = r.returncode == 0 or "up to date" in r.stderr or "up to date" in r.stdout
+    if not ok:
         print(f"CMD FAILED: {cmd}\n{r.stderr[:300]}")
+        if fatal:
+            print("FATAL: aborting deploy — critical step failed")
+            sys.exit(1)
     return r.stdout + r.stderr
 
 
@@ -63,8 +67,10 @@ def main():
 
     # 1. Pull latest main
     print("1. Pulling main...")
-    run("git checkout main")
-    run("git pull --rebase origin main")
+    # Generated feed files may be dirty from a previous partial run — discard so pull can rebase
+    run("git checkout -- llms.txt llms-full.txt")
+    run("git checkout main", fatal=True)
+    run("git pull --rebase origin main", fatal=True)
 
     # 2. Regenerate GEO feeds (llms.txt / llms-full.txt)
     print("2. Regenerating llms.txt...")
@@ -85,7 +91,7 @@ def main():
         run(f"git -C {wt} fetch origin gh-pages")
         run(f"git -C {wt} reset --hard origin/gh-pages")
     else:
-        run(f"git worktree add {wt} gh-pages")
+        run(f"git worktree add {wt} gh-pages", fatal=True)
 
     # Clear old content, copy new build
     run(f"cd {wt} && find . -not -path './.git*' -not -name '.git' -delete")
