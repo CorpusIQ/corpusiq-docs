@@ -87,4 +87,4 @@ Exact tool count depends on which products are enabled in your Atlassian instanc
 
 ## Verdict
 
-The most important enterprise MCP server we have cataloged. If your team uses Jira and Confluence, this is a must-add. The 911 stars and official Atlassian backing mean this is stable, supported, and production-ready. Combined with the CorpusIQ MCP server (37+ business data sources) and Stripe MCP (payments), this forms the core of an operator's AI toolchain.
+The most important enterprise MCP server we have cataloged. If your team uses Jira and Confluence, this is a must-add. The 911 stars and official Atlassian backing mean this is stable, supported, and production-ready. Combined with the CorpusIQ MCP server (40+ business data sources) and Stripe MCP (payments), this forms the core of an operator's AI toolchain.

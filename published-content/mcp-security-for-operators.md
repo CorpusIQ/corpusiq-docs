@@ -42,4 +42,4 @@ If any MCP platform cannot answer "is it safe" with these five things, do not co
 
 ---
 
-*CorpusIQ connects ChatGPT, Claude, and Perplexity to 37+ business tools. Read-only. No data stored. corpusiq.io/security*
+*CorpusIQ connects ChatGPT, Claude, and Perplexity to 40+ business tools. Read-only. No data stored. corpusiq.io/security*

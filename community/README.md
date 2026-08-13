@@ -31,9 +31,9 @@ instead. That keeps concrete requests aligned with the issue workflow in
 Ideas support **upvotes.** If you see an existing Idea that matches what you
 want, upvote it instead of opening a duplicate — that's the single most useful
 thing you can do. Upvotes are one of the real inputs into what we build next
-(see the [Roadmap](../roadmap/) for how priorities get set).
+(see the [Roadmap](https://github.com/CorpusIQ/corpusiq-docs/tree/main/roadmap) for how priorities get set).
 
-Before you post: skim the [Roadmap](../roadmap/) first. The thing you want might
+Before you post: skim the [Roadmap](https://github.com/CorpusIQ/corpusiq-docs/tree/main/roadmap) first. The thing you want might
 already be in flight.
 
 ### 🙋 Q&A — "How do I…" / "Why is this…"
@@ -89,7 +89,7 @@ information.
 
 We read all of it. Ideas with traction get pulled into roadmap planning. Q&A
 gets answered. We can't promise every request gets built — the
-[Roadmap](../roadmap/) is honest about what's prioritized, planned, and parked —
+[Roadmap](https://github.com/CorpusIQ/corpusiq-docs/tree/main/roadmap) is honest about what's prioritized, planned, and parked —
 but nothing posted here disappears into a void.
 
 Announcements and the public-facing release voice are handled by our team

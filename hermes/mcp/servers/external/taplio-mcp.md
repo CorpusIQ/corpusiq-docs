@@ -62,7 +62,7 @@ claude mcp add taplio --url https://mcp.taplio.com
 ```python
 # Example: Agent drafts a LinkedIn post from product update
 post = mcp_taplio_draft_post(
-    topic="CorpusIQ now supports 37+ business platforms through one MCP server",
+    topic="CorpusIQ now supports 40+ business platforms through one MCP server",
     tone="technical, operator-focused",
     length="medium"
 )

@@ -383,7 +383,7 @@ GitHub's official community-contributed instructions, agents, skills, and config
 ### CorpusIQ/corpusiq-docs/hermes ← YOU ARE HERE
 ⭐ **[Star this repo →](https://github.com/CorpusIQ/corpusiq-docs)**
 
-The most comprehensive Hermes production resource: 36+ pages, 326+ repos indexed, 133+ skills cataloged, 37+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
+The most comprehensive Hermes production resource: 36+ pages, 326+ repos indexed, 133+ skills cataloged, 40+ MCP connectors, production-cron reference architecture, memory stack deep-dives, deployment patterns. Everything the official docs don't cover.
 
 **Related:** [Architecture →](/hermes/architecture/) · [Knowledge →](/hermes/knowledge/) · [Crons →](/hermes/governance/scheduling/) · [MCP →](/hermes/mcp/)
 
@@ -899,10 +899,10 @@ Model Context Protocol servers and integration bridges for Hermes.
 ### CorpusIQ MCP Server
 [CorpusIQ](https://corpusiq.io)
 
-One OAuth flow. 53 tools. 37+ business platforms. Connect Hermes to Gmail, GA4, Stripe, HubSpot, QuickBooks, Meta Ads, Google Ads, Shopify, Klaviyo, and more through a single MCP server.
+One OAuth flow. 53 tools. 40+ business platforms. Connect Hermes to Gmail, GA4, Stripe, HubSpot, QuickBooks, Meta Ads, Google Ads, Shopify, Klaviyo, and more through a single MCP server.
 
 **Maintainer:** CorpusIQ  
-**Key capabilities:** 37+ business connectors, single OAuth, cross-source analysis, device login flow  
+**Key capabilities:** 40+ business connectors, single OAuth, cross-source analysis, device login flow  
 **Related:** [MCP Guide →](/hermes/mcp/) · [Connector Reference →](/hermes/mcp/connectors/)
 
 ---
@@ -4123,7 +4123,7 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 - [Agent Library  --  9 Role Configurations](/hermes/agents/)
 - [Community Contributors  --  Join the Directory](/hermes/contributors/)
 - [Skills Catalog  --  133+ Production Skills](/hermes/skills/catalog/)
-- [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors/)
 - [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)
 ---
 

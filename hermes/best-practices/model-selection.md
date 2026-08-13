@@ -48,9 +48,9 @@ Ask three questions before every model selection:
 
 ## Local vs Cloud: The Real Tradeoffs
 
-**Local models (Ollama) win when:** data privacy is non-negotiable, latency must be sub-50ms, high volume makes fixed hardware cost cheaper than per-token pricing. See [gaming PC setup](/docs/hermes/setup/gaming-pc.html) or [Mac Mini setup](/docs/hermes/setup/mac-mini-standalone.html).
+**Local models (Ollama) win when:** data privacy is non-negotiable, latency must be sub-50ms, high volume makes fixed hardware cost cheaper than per-token pricing. See [gaming PC setup](/docs/hermes/setup/gaming-pc/) or [Mac Mini setup](/docs/hermes/setup/mac-mini-standalone/).
 
-**Cloud models (OpenRouter/Anthropic/OpenAI) win when:** you need frontier reasoning, zero infrastructure maintenance, elastic scaling. See [cloud VPS setup](/docs/hermes/setup/cloud-vps.html).
+**Cloud models (OpenRouter/Anthropic/OpenAI) win when:** you need frontier reasoning, zero infrastructure maintenance, elastic scaling. See [cloud VPS setup](/docs/hermes/setup/cloud-vps/).
 
 **Hybrid for most teams:** Classify/extract with local models (free, private); reason/generate with cloud models. Configure Hermes Agent with [Ollama as primary and OpenRouter as fallback](/hermes/setup/).
 

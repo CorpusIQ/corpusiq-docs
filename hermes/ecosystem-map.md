@@ -50,7 +50,7 @@ graph TB
     end
 
     subgraph MCP[MCP & Integrations]
-        CORPUSIQ_MCP[CorpusIQ MCP<br/>53 tools · 37+ platforms]
+        CORPUSIQ_MCP[CorpusIQ MCP<br/>53 tools · 40+ platforms]
         KINDLY[Kindly Search<br/>⭐345]
         KAGI[Kagi MCP<br/>⭐137]
         ANUBIS[Anubis MCP<br/>⭐147]

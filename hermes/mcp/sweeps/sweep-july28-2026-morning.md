@@ -37,7 +37,7 @@ Since Firecrawl is down, this sweep used:
 - **Transport:** Streamable HTTP at `https://api.retasc.com/mcp`
 - **Auth:** API key
 - **Pricing:** Free tier ($10 metered usage included), ~$9/month for their own busiest agent
-- **Guide:** [retasc-mcp/index.md](/hermes/mcp/servers/external/retasc-mcp/index.md)
+- **Guide:** [retasc-mcp/index.md](/hermes/mcp/servers/external/retasc-mcp/)
 
 ### Santiment MCP ★★ — Crypto Market Intelligence
 - **Source:** mcpservers.org /all (position #26), confirmed via curl of academy.santiment.net/mcp-connector/
@@ -46,7 +46,7 @@ Since Firecrawl is down, this sweep used:
 - **Transport:** Streamable HTTP at `https://api.santiment.net/mcp`
 - **Auth:** OAuth 2.0 with PKCE
 - **Pricing:** Free tier, Pro via SanAPI subscriptions
-- **Guide:** [santiment-mcp/index.md](/hermes/mcp/servers/external/santiment-mcp/index.md)
+- **Guide:** [santiment-mcp/index.md](/hermes/mcp/servers/external/santiment-mcp/)
 
 ## Also Identified (No Guides)
 

@@ -52,7 +52,7 @@ authenticated. Recommended starter set by business type:
 | Agency | QuickBooks, HubSpot, Google Workspace, Slack, Monday |
 | Marketplace seller | Shopify or eBay or Amazon Seller or GunBroker, QuickBooks, Google Workspace |
 
-Each connector has its own page under [connectors/](../connectors/) with
+Each connector has its own page under [connectors/](../connectors/README.md) with
 specific click-paths.
 
 ## Next

@@ -96,7 +96,7 @@ Distribute formatted internal communications with permanent URLs.
 
 Yapp + CorpusIQ = data-to-published-page pipeline:
 
-1. **CorpusIQ connectors** → pull data from 37+ business platforms
+1. **CorpusIQ connectors** → pull data from 40+ business platforms
 2. **AI agent** → analyze, format, create content
 3. **Yapp** → publish as a live URL
 

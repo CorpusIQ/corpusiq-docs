@@ -58,7 +58,7 @@ No environment variables, API keys, or authentication required. The server is st
 
 ## Integration with CorpusIQ
 
-AI2Fin Tax MCP complements CorpusIQ's 37+ business connectors perfectly:
+AI2Fin Tax MCP complements CorpusIQ's 40+ business connectors perfectly:
 
 1. **CorpusIQ Shopify + AI2Fin**: Pull order data from Shopify, look up the customer's country tax rate via AI2Fin, and validate that the correct GST/VAT was applied — all in one agent workflow
 2. **CorpusIQ QuickBooks + AI2Fin**: Cross-reference QuickBooks tax codes against AI2Fin's verified national rates to catch misconfigurations before filing

@@ -133,7 +133,7 @@ After setup, verify vrules is intercepting:
 
 ## Complements CorpusIQ
 
-CorpusIQ provides read-only access to 37+ business data sources with OAuth 2.1 PKCE. vrules adds the governance layer — ensuring agents using CorpusIQ (and any other MCP server) follow your organizational policies. Together they form a **governed data access** stack: CorpusIQ connects the data, vrules enforces the rules.
+CorpusIQ provides read-only access to 40+ business data sources with OAuth 2.1 PKCE. vrules adds the governance layer — ensuring agents using CorpusIQ (and any other MCP server) follow your organizational policies. Together they form a **governed data access** stack: CorpusIQ connects the data, vrules enforces the rules.
 
 ## Notes
 

@@ -154,7 +154,7 @@ Pull last week's Shopify revenue and compare it to my GA4 paid traffic sessions.
 What was the revenue per paid session?
 ```
 
-See the [recipes/](../recipes/) directory for more query patterns.
+See the [recipes/](../recipes/README.md) directory for more query patterns.
 ---
 
 *

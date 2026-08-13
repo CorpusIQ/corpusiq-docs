@@ -104,7 +104,7 @@ Combines CRM segmentation, usage analytics, and support history.
 ## Related Resources
 
 - [External MCP Server Catalog](/hermes/mcp/servers/external/) — full curated catalog
-- [CorpusIQ MCP Connectors](/hermes/mcp/connectors/) — 37+ native business data connectors
+- [CorpusIQ MCP Connectors](/hermes/mcp/connectors/) — 40+ native business data connectors
 - [MCP Documentation](/hermes/mcp/)
 
 ---

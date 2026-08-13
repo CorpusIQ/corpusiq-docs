@@ -124,7 +124,7 @@ A: Yes. Connect Google Analytics (organic data) and Google Ads (paid data) and C
 
 - [Connect Google Ads to Claude](https://corpusiq.io/connectors/google_ads/)
 - [Connect Facebook Ads to Claude](https://corpusiq.io/connectors/facebook_marketing/)
-- [Connect Google Analytics to Claude](connect-google-analytics-to-claude)
+- [Connect Google Analytics to Claude](connect-google-analytics-to-claude.md)
 - [Connect Klaviyo to Claude](https://corpusiq.io/connectors/klaviyo/)
 - [AI for Business Intelligence](/docs/ai-for-business-intelligence)
 - [AI for Revenue Operations](/docs/ai-for-revenue-operations)

@@ -8,7 +8,7 @@ tags:
   - production-deployment
   - ai-agent-architecture
   - mcp-ecosystem
-last_updated: 2026-08-12
+last_updated: "2026-08-13"
 canonical: "https://www.corpusiq.io/docs/hermes/"
 robots: "index,follow"
 
@@ -26,7 +26,7 @@ robots: "index,follow"
 
 <p align="center">
   <a href="https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml"><img src="https://img.shields.io/badge/Submit_a_Repo-Add_your_resource-brightgreen" alt="Submit"></a>
-  <a href="https://github.com/CorpusIQ/corpusiq-docs/blob/main/docs/hermes/ecosystem.html"><img src="https://img.shields.io/badge/Ecosystem-670+_repos-blue" alt="Ecosystem"></a>
+  <a href="https://github.com/CorpusIQ/corpusiq-docs/blob/main/docs/hermes/ecosystem/"><img src="https://img.shields.io/badge/Ecosystem-670+_repos-blue" alt="Ecosystem"></a>
   <a href="https://github.com/CorpusIQ/corpusiq-docs"><img src="https://img.shields.io/badge/Star_us-Contribute-gold" alt="Star"></a>
 </p>
 
@@ -148,7 +148,7 @@ Model Context Protocol (MCP) servers extend Hermes with structured tools.
 
 | Server | Description |
 |--------|-------------|
-| **[CorpusIQ MCP](https://corpusiq.io)** | 37+ business APIs — Shopify, Stripe, QuickBooks, HubSpot, GA4, Meta Ads, Gmail, Slack. Single OAuth. Read-only. CASA Tier 2 certified. |
+| **[CorpusIQ MCP](https://corpusiq.io)** | 40+ business APIs — Shopify, Stripe, QuickBooks, HubSpot, GA4, Meta Ads, Gmail, Slack. Single OAuth. Read-only. CASA Tier 2 certified. |
 | **[Stripe MCP](https://github.com/stripe/agent-toolkit)** | Payment processing, charges, customers, payouts |
 | **[GitHub MCP](https://github.com/github/github-mcp-server)** | Repository management, issues, PRs, code review |
 | **[Postgres MCP](https://github.com/modelcontextprotocol/servers)** | Direct database access with SQL |

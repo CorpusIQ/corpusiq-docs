@@ -39,7 +39,7 @@ Since Firecrawl remains DOWN, this sweep used:
 - **Auth:** API key (GTM API platform)
 - **Pricing:** Freemium with paid tiers for volume
 - **Business relevance:** Critical for B2B operators — AI agents can now do lead gen, relationship management, and competitive research on LinkedIn without human copy-paste workflows.
-- **Guide:** [linkedin-mcp-gtm/index.md](/hermes/mcp/servers/external/linkedin-mcp-gtm/index.md)
+- **Guide:** [linkedin-mcp-gtm/index.md](/hermes/mcp/servers/external/linkedin-mcp-gtm/)
 
 ### Apollo.io MCP ★★★ Major Find
 - **Source:** mcpservers.org sitemap 5 (lastmod: 2026-07-28T01:10:28Z)
@@ -50,7 +50,7 @@ Since Firecrawl remains DOWN, this sweep used:
 - **Auth:** Apollo.io API key
 - **Pricing:** Requires Apollo.io plan (Free: limited, Basic: $59/mo, Professional: $99/mo)
 - **Business relevance:** Essential for operators doing any B2B outbound — AI agents can now qualify leads against firmographics, pull direct dials/emails, and push to sequences.
-- **Guide:** [apollo-io-mcp/index.md](/hermes/mcp/servers/external/apollo-io-mcp/index.md)
+- **Guide:** [apollo-io-mcp/index.md](/hermes/mcp/servers/external/apollo-io-mcp/)
 
 ### Browserless MCP ★★ Official
 - **Source:** mcpservers.org sitemap 5 (lastmod: 2026-07-28T09:45:08Z)
@@ -61,7 +61,7 @@ Since Firecrawl remains DOWN, this sweep used:
 - **Auth:** Browserless API token
 - **Pricing:** Free tier (1,000 sessions/mo), paid from $49/mo
 - **Business relevance:** Operators can now ask AI agents to "check if our competitor changed pricing" or "screenshot the top 10 Google results for X" and get browser-automated results.
-- **Guide:** [browserless-mcp/index.md](/hermes/mcp/servers/external/browserless-mcp/index.md)
+- **Guide:** [browserless-mcp/index.md](/hermes/mcp/servers/external/browserless-mcp/)
 
 ### FXMacroData MCP ★★
 - **Source:** mcpservers.org sitemap 5 (lastmod: 2026-07-28T08:29:36Z)
@@ -72,7 +72,7 @@ Since Firecrawl remains DOWN, this sweep used:
 - **Auth:** API key (free tier available)
 - **Pricing:** Free tier, Pro tier with historical data
 - **Business relevance:** Essential for operators in finance, import/export, treasury management, or any business exposed to FX risk.
-- **Guide:** [fxmacrodata-mcp/index.md](/hermes/mcp/servers/external/fxmacrodata-mcp/index.md)
+- **Guide:** [fxmacrodata-mcp/index.md](/hermes/mcp/servers/external/fxmacrodata-mcp/)
 
 ### OpenOSINT MCP ★★
 - **Source:** mcpservers.org sitemap 5 (lastmod: 2026-07-28T12:47:39Z)
@@ -83,7 +83,7 @@ Since Firecrawl remains DOWN, this sweep used:
 - **Auth:** None required (uses public APIs)
 - **Pricing:** Free and open source (MIT)
 - **Business relevance:** Vendor due diligence, competitive intelligence, domain research, and security assessments — all invocable from an AI agent without context-switching.
-- **Guide:** [openosint-mcp/index.md](/hermes/mcp/servers/external/openosint-mcp/index.md)
+- **Guide:** [openosint-mcp/index.md](/hermes/mcp/servers/external/openosint-mcp/)
 
 ## Also Identified (No Guides)
 

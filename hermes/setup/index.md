@@ -104,12 +104,12 @@ Choose your hardware:
 
 Once Hermes Agent is running, add capabilities:
 
-- **[MCP Integration](/hermes/mcp/)**  --  Connect to Gmail, Slack, databases, and 37+ platforms
-- **[CorpusIQ MCP Setup](corpusiq-mcp.md)**  --  Connect 37+ business tools to Hermes in 5 minutes
+- **[MCP Integration](/hermes/mcp/)**  --  Connect to Gmail, Slack, databases, and 40+ platforms
+- **[CorpusIQ MCP Setup](corpusiq-mcp.md)**  --  Connect 40+ business tools to Hermes in 5 minutes
 - **[CorpusIQ Cron Patterns](corpusiq-cron-patterns.md)**  --  Autonomous business monitoring with Hermes + CorpusIQ
-- **[CorpusIQ Troubleshooting](/docs/hermes/troubleshooting/corpusiq.html)**  --  Token refresh, 401 errors, fork restrictions
-- **[Cron Scheduling](/hermes/governance/scheduling/)**  --  Schedule autonomous tasks with [cron design best practices](/docs/hermes/best-practices/cron-design.html)
-- **[Skills Marketplace](/hermes/skills/)**  --  Add community-built capabilities and [create custom skills](/docs/hermes/skills/creating-skills.html)
+- **[CorpusIQ Troubleshooting](/docs/hermes/troubleshooting/corpusiq/)**  --  Token refresh, 401 errors, fork restrictions
+- **[Cron Scheduling](/hermes/governance/scheduling/)**  --  Schedule autonomous tasks with [cron design best practices](/docs/hermes/best-practices/cron-design/)
+- **[Skills Marketplace](/hermes/skills/)**  --  Add community-built capabilities and [create custom skills](/docs/hermes/skills/creating-skills/)
 - **[Memory Architecture](/hermes/knowledge/)**  --  Honcho, GBrain, memcore-cloud triple stack
 - **[Blueprints](/hermes/blueprints/)**  --  End-to-end automation workflows for business processes
 - **[Prompt Library](/hermes/prompts/)**  --  Curated templates for code generation, analysis, content, and more
@@ -126,7 +126,7 @@ Yes. Install Hermes Agent on your existing hardware, pull free models from Ollam
 The [Mac Mini M4](mac-mini-standalone.md) is the recommended all-in-one platform. For budget 24/7 operation, a [cloud VPS](cloud-vps.md) at $5–20/month works well. For maximum GPU performance, use a [gaming PC](gaming-pc.md) with CUDA.
 
 ### How do I connect Hermes Agent to business data?
-Use the [MCP Integration Guide](/hermes/mcp/) to connect 37+ business platforms  --  CRM, email, analytics, databases, advertising, and more  --  through a single OAuth flow with CorpusIQ MCP.
+Use the [MCP Integration Guide](/hermes/mcp/) to connect 40+ business platforms  --  CRM, email, analytics, databases, advertising, and more  --  through a single OAuth flow with CorpusIQ MCP.
 
 ### What's the difference between Ollama and OpenRouter?
 Ollama runs models locally on your hardware (free, private, limited to smaller models). OpenRouter provides API access to 200+ models including frontier models like Claude and GPT-4o (pay-per-use, no hardware requirements).
@@ -135,15 +135,15 @@ Ollama runs models locally on your hardware (free, private, limited to smaller m
 Use a [cloud VPS](cloud-vps.md), [Raspberry Pi](raspberry-pi.md), or an always-on desktop with `caffeinate` (macOS) or power settings adjusted. Configure the Hermes gateway as a systemd or launchd service for automatic restart.
 
 ### How do I add new capabilities after setup?
-Extend Hermes Agent through [MCP servers](/hermes/mcp/) for external tools, [skills](/docs/hermes/skills/creating-skills.html) for reusable workflows, [crons](/docs/hermes/best-practices/cron-design.html) for scheduled automation, and [memory systems](/hermes/knowledge/) for persistent context.
+Extend Hermes Agent through [MCP servers](/hermes/mcp/) for external tools, [skills](/docs/hermes/skills/creating-skills/) for reusable workflows, [crons](/docs/hermes/best-practices/cron-design/) for scheduled automation, and [memory systems](/hermes/knowledge/) for persistent context.
 
 ## Related Pages
 
 - [Mac Mini M4 Setup](mac-mini-standalone.md)  --  Recommended standalone platform
 - [Cloud VPS Setup](cloud-vps.md)  --  Budget always-on deployment
-- [Model Selection Guide](/docs/hermes/best-practices/model-selection.html)  --  Choose the right AI model
+- [Model Selection Guide](/docs/hermes/best-practices/model-selection/)  --  Choose the right AI model
 - [MCP Integration Guide](/hermes/mcp/)  --  Connect external tools and data
-- [Cron Design Best Practices](/docs/hermes/best-practices/cron-design.html)  --  Reliable scheduled automation
+- [Cron Design Best Practices](/docs/hermes/best-practices/cron-design/)  --  Reliable scheduled automation
 - [Troubleshooting Guide](/hermes/troubleshooting/)  --  Common issues and fixes
 ---
 

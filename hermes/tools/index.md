@@ -24,7 +24,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 | Messaging | 20 | Telegram, Discord, Slack, WhatsApp, Signal, Matrix, Feishu, WeCom, QQ, Yuanbao, Teams, iMessage, Photon, Mattermost, Ntfy, Webhook, Email |
 | Model Providers | 10 | Anthropic, OpenAI, DeepSeek, Grok, Gemini, Ollama, Bedrock, OpenRouter, MiniMax, Z.ai |
 | Memory | 8 | Honcho, GBrain, EverOS, memcore-cloud, claude-mem, mnemosyne, memtrace, YantrikDB |
-| MCP Servers | 37+ | CorpusIQ (37+ connectors), Kindly Search, Kagi, Anubis, and more |
+| MCP Servers | 40+ | CorpusIQ (40+ connectors), Kindly Search, Kagi, Anubis, and more |
 | Deployment | 7 | Docker, Kubernetes, Modal, Daytona, Vercel Sandbox, systemd, SSH |
 | Video Generation | 3 | HeyGen, HyperFrames, Remotion |
 | Image Generation | 5 | FAL, DALL-E, Stable Diffusion, Midjourney (API), Flux |
@@ -132,7 +132,7 @@ Hermes supports these model providers natively:
 
 [Full MCP Guide →](/hermes/mcp/) · [Ecosystem →](/hermes/ecosystem/)
 
-CorpusIQ MCP alone provides 53 tools across 37+ business platforms. Additional MCP servers listed in the [ecosystem page](/hermes/ecosystem/#-mcp--integrations).
+CorpusIQ MCP alone provides 53 tools across 40+ business platforms. Additional MCP servers listed in the [ecosystem page](/hermes/ecosystem/#-mcp--integrations).
 
 ---
 

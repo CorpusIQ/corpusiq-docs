@@ -1,4 +1,4 @@
-# Real Questions CorpusIQ Answers — From 37+ Tools at Once
+# Real Questions CorpusIQ Answers — From 40+ Tools at Once
 
 No demoware. No cherry-picked dashboards. Here are five real questions CorpusIQ answers by reading across multiple business systems simultaneously.
 

@@ -89,7 +89,7 @@ Add to `.cursor/mcp.json` or VS Code MCP settings:
 
 ## CorpusIQ Integration
 
-Sugra API MCP complements CorpusIQ's 37+ business connectors by providing external market and economic context. Use cases:
+Sugra API MCP complements CorpusIQ's 40+ business connectors by providing external market and economic context. Use cases:
 
 1. **Competitive Analysis:** Pull company fundamentals + market data alongside your internal financials
 2. **Market Research:** Combine Sugra's economic indicators with your GA4/Stripe revenue data

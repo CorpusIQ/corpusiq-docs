@@ -307,7 +307,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## COMPARISON WITH EXISTING CATALOG
 
-Our catalog at `/corpusiq-docs/docs/hermes/mcp/servers/external/index.html` (updated June 25, 2026) already contains many of the financial servers found (Alpha Vantage, Tradingview, Tossinvest, AlphaAI, Infrawise, Costory, Cloudability, GoodVat, Lovie, etc.)
+Our catalog at `/corpusiq-docs/docs/hermes/mcp/servers/external/` (updated June 25, 2026) already contains many of the financial servers found (Alpha Vantage, Tradingview, Tossinvest, AlphaAI, Infrawise, Costory, Cloudability, GoodVat, Lovie, etc.)
 
 ### NEW SERVERS NOT IN OUR CATALOG (High Priority)
 

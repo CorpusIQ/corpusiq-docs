@@ -60,7 +60,7 @@ npm install
 
 ## Integration with CorpusIQ
 
-Velarion's corporate governance data complements CorpusIQ's 37+ business connectors by adding a governance layer to financial analysis. Combine Velarion's executive pay data with CorpusIQ's QuickBooks or Xero connectors for a complete picture of company health — financial performance plus governance quality in one AI-powered workflow.
+Velarion's corporate governance data complements CorpusIQ's 40+ business connectors by adding a governance layer to financial analysis. Combine Velarion's executive pay data with CorpusIQ's QuickBooks or Xero connectors for a complete picture of company health — financial performance plus governance quality in one AI-powered workflow.
 
 For investor operators, pair Velarion with CorpusIQ's Stripe and GA4 connectors to correlate governance quality with revenue performance and customer acquisition efficiency across portfolio companies.
 

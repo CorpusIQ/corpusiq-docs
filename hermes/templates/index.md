@@ -16,7 +16,7 @@ Ready-to-use templates for Hermes Agent and CorpusIQ setups.
 
 | Template | Description |
 |---|---|
-| [Trial Onboarding Email](/hermes/templates/trial-onboarding-email.html) | HTML email template for SaaS trial onboarding flows |
+| [Trial Onboarding Email](https://github.com/CorpusIQ/corpusiq-docs/blob/main/hermes/templates/trial-onboarding-email.html) | HTML email template for SaaS trial onboarding flows |
 | [Hermes Skill Template](#skill-template) | Standard SKILL.md template with frontmatter, triggers, and pitfalls |
 | [Hermes Config Template](#config-template) | Minimal config.yaml template for getting started |
 | [Cron Job Template](#cron-template) | Template for scheduling recurring agent tasks |

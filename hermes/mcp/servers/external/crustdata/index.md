@@ -114,7 +114,7 @@ Cross-references job postings, social activity, and company updates for competit
 ## Related Resources
 
 - [External MCP Server Catalog](/hermes/mcp/servers/external/) — full curated catalog
-- [CorpusIQ MCP Connectors](/hermes/mcp/connectors/) — 37+ native business data connectors
+- [CorpusIQ MCP Connectors](/hermes/mcp/connectors/) — 40+ native business data connectors
 - [ENTIA Entity Verification](/hermes/mcp/servers/external/#entia-entity-verification) — complementary business verification MCP
 
 ---

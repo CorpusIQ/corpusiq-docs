@@ -32,7 +32,7 @@ Unlike one-off web searches, the Research Agent maintains **persistent monitorin
 | **News monitoring** | Topic-based news aggregation, sentiment analysis, emerging narrative detection |
 | **Patent tracking** | Patent filing alerts by company or technology area, IP landscape mapping |
 
-> **See also:** [Agent Library Overview](/hermes/agents/) · [Marketing Agent](/docs/hermes/agents/marketing-agent.html) · [Legal Agent](/docs/hermes/agents/legal-agent.html)
+> **See also:** [Agent Library Overview](/hermes/agents/) · [Marketing Agent](/docs/hermes/agents/marketing-agent/) · [Legal Agent](/docs/hermes/agents/legal-agent/)
 
 ## How It Works
 
@@ -137,9 +137,9 @@ Yes. The **literature review skill** sweeps academic databases (arXiv, Semantic 
 ## Related Pages
 
 - [Agent Library  --  All 9 Role Configurations](/hermes/agents/)
-- [Marketing Agent  --  SEO & Competitive Analysis](/docs/hermes/agents/marketing-agent.html)
-- [Legal Agent  --  Regulatory & Compliance Research](/docs/hermes/agents/legal-agent.html)
-- [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
+- [Marketing Agent  --  SEO & Competitive Analysis](/docs/hermes/agents/marketing-agent/)
+- [Legal Agent  --  Regulatory & Compliance Research](/docs/hermes/agents/legal-agent/)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors/)
 - [Ahrefs Connector  --  SEO & Backlink Data](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 

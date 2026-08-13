@@ -27,7 +27,7 @@ Hermes Agent provides a [triple-stack memory architecture](/hermes/knowledge/): 
 | **Organizational** | [GBrain](/hermes/knowledge/) | File/code indexing, project relationships | Cross-session |
 | **Cross-Session** | [memcore-cloud](/hermes/knowledge/) | Full conversation recall with source tracking | Cross-session |
 | **Conversation** | In-session context | Task continuity within current chat | Ephemeral |
-| **Procedural** | [Skills](/docs/hermes/skills/creating-skills.html) | Reusable workflows, tool chains | Versioned |
+| **Procedural** | [Skills](/docs/hermes/skills/creating-skills/) | Reusable workflows, tool chains | Versioned |
 
 ## When to Add Memory
 
@@ -36,7 +36,7 @@ Ask these questions before storing:
 - **Does this fact change rarely?** Stable preferences → memory. Current task focus → conversation context.
 - **Is it referenced across sessions?** Multi-session project → memory. One-off question → don't store.
 - **Does it save meaningful context tokens?** If storing saves re-explaining each session, it's worth it.
-- **Is it factual or procedural?** Facts → memories. Workflows → [skills](/docs/hermes/skills/creating-skills.html). Config → [env vars](/docs/hermes/best-practices/security.html).
+- **Is it factual or procedural?** Facts → memories. Workflows → [skills](/docs/hermes/skills/creating-skills/). Config → [env vars](/docs/hermes/best-practices/security/).
 
 ## Compaction Strategies
 
@@ -54,7 +54,7 @@ When context windows fill up:
 | Memory as dumping ground | 500 stale entries = noise | Prune periodically |
 | Contradictory memories | Confusion across sessions | Audit for conflicts |
 | No expiration | "Working on Q2 report" stale in Q3 | Add implicit/project expiry |
-| Memory replacing config | API keys in memory = breach | Use [secrets manager](/docs/hermes/best-practices/security.html) |
+| Memory replacing config | API keys in memory = breach | Use [secrets manager](/docs/hermes/best-practices/security/) |
 
 ## Benefits
 

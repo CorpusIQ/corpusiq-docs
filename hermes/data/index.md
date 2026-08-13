@@ -28,4 +28,4 @@ Data files powering the Hermes ecosystem discovery engine — approved repositor
 
 ## All Data Files
 
-- [Ecosystem Inclusion Criteria](/docs/hermes/data/inclusion_criteria.html)
+- [Ecosystem Inclusion Criteria](/docs/hermes/data/inclusion_criteria/)

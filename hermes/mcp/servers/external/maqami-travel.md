@@ -56,7 +56,7 @@ hermes mcp add maqami-travel --url https://mcp.maqami.co/
 
 ## Integration with CorpusIQ
 
-Maqami Travel complements CorpusIQ's 37+ business connectors by opening the travel vertical — the first hotel-booking capability in the CorpusIQ ecosystem. Combined with CorpusIQ's email automation (Gmail/Outlook), CRM tools (Attio, OnePageCRM), and document generation (PandaDoc), operators can build end-to-end travel booking workflows:
+Maqami Travel complements CorpusIQ's 40+ business connectors by opening the travel vertical — the first hotel-booking capability in the CorpusIQ ecosystem. Combined with CorpusIQ's email automation (Gmail/Outlook), CRM tools (Attio, OnePageCRM), and document generation (PandaDoc), operators can build end-to-end travel booking workflows:
 
 - AI agent searches hotels → books optimal option → sends confirmation email → creates CRM record → generates invoice
 

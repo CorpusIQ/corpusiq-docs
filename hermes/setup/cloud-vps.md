@@ -23,7 +23,7 @@ A cloud VPS is the best budget option for always-on Hermes Agent operation. For 
 |---|---|
 | **Models** | OpenRouter API (200+ models) or direct provider APIs |
 | **Persistence** | systemd service with `Restart=always` |
-| **Crons** | [Hermes cron scheduler](/docs/hermes/best-practices/cron-design.html)  --  24/7 execution |
+| **Crons** | [Hermes cron scheduler](/docs/hermes/best-practices/cron-design/)  --  24/7 execution |
 | **Memory** | [Honcho](/hermes/knowledge/) + GBrain + memcore-cloud |
 | **Security** | UFW firewall, SSH key-only auth, unattended upgrades |
 
@@ -79,7 +79,7 @@ hermes config set model.default openrouter/qwen/qwen3-235b-a22b:free
 hermes config set model.fallback openrouter/anthropic/claude-sonnet-4
 ```
 
-See our [model selection guide](/docs/hermes/best-practices/model-selection.html) for tiered routing strategies.
+See our [model selection guide](/docs/hermes/best-practices/model-selection/) for tiered routing strategies.
 
 ### Step 5: Docker Option
 
@@ -186,8 +186,8 @@ The systemd service with `Restart=always` ensures Hermes Agent restarts automati
 - [Hermes Agent Setup Overview](/hermes/setup/)  --  All platform options
 - [Docker Setup](docker.md)  --  Containerized cloud deployment
 - [Raspberry Pi Setup](raspberry-pi.md)  --  Alternative low-cost 24/7 option
-- [Model Selection Guide](/docs/hermes/best-practices/model-selection.html)  --  API model tiering
-- [Cron Design Best Practices](/docs/hermes/best-practices/cron-design.html)  --  24/7 automation
+- [Model Selection Guide](/docs/hermes/best-practices/model-selection/)  --  API model tiering
+- [Cron Design Best Practices](/docs/hermes/best-practices/cron-design/)  --  24/7 automation
 - [Troubleshooting Guide](/hermes/troubleshooting/)  --  VPS-specific issues
 ---
 

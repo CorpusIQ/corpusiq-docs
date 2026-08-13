@@ -65,7 +65,7 @@ npx skills add dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations
 npx skills add dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations --skill claude-chrome
 ```
 
-**Full setup guide:** [agent-flywheel-setup.md](/docs/hermes/skills/catalog/agent-flywheel-setup.html)
+**Full setup guide:** [agent-flywheel-setup.md](/docs/hermes/skills/catalog/agent-flywheel-setup/)
 
 ---
 
@@ -100,7 +100,7 @@ npx skills add m1heng/clawdbot-feishu --skill feishu-drive
 npx skills add m1heng/clawdbot-feishu --skill feishu-message
 ```
 
-**Full setup guide:** [clawdbot-feishu-setup.md](/docs/hermes/skills/catalog/clawdbot-feishu-setup.html)
+**Full setup guide:** [clawdbot-feishu-setup.md](/docs/hermes/skills/catalog/clawdbot-feishu-setup/)
 
 ---
 
@@ -176,8 +176,8 @@ npx skills add 1018466411/openclaw-stock-data-skill --skill openclaw-stock-skill
 ---
 
 **Setup guides created:**
-- [Agent Flywheel Mega-Toolkit](/docs/hermes/skills/catalog/agent-flywheel-setup.html)
-- [ClawDBot Feishu Suite](/docs/hermes/skills/catalog/clawdbot-feishu-setup.html)
+- [Agent Flywheel Mega-Toolkit](/docs/hermes/skills/catalog/agent-flywheel-setup/)
+- [ClawDBot Feishu Suite](/docs/hermes/skills/catalog/clawdbot-feishu-setup/)
 
 *← [Previous Discovery: June 28 Update 2](/hermes/skills/marketplace/new-june28-2026-update2/) | [Marketplace Home](/hermes/skills/marketplace/) →*
 

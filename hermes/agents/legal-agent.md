@@ -32,7 +32,7 @@ This agent does **not provide legal advice** or replace qualified counsel. It ac
 | **Audit preparation** | Organizes evidence collection, tracks control testing, generates readiness reports |
 | **Document management** | Contract repository organization, version tracking, expiry and renewal calendar |
 
-> **See also:** [Agent Library Overview](/hermes/agents/) · [Finance Agent](/docs/hermes/agents/finance-agent.html) · [Research Agent](/docs/hermes/agents/research-agent.html)
+> **See also:** [Agent Library Overview](/hermes/agents/) · [Finance Agent](/docs/hermes/agents/finance-agent/) · [Research Agent](/docs/hermes/agents/research-agent/)
 
 ## How It Works
 
@@ -136,9 +136,9 @@ Each morning the agent scans regulatory agency feeds, filters updates by your co
 ## Related Pages
 
 - [Agent Library  --  All 9 Role Configurations](/hermes/agents/)
-- [Finance Agent  --  Reconciliation & Financial Controls](/docs/hermes/agents/finance-agent.html)
-- [Research Agent  --  Competitive & Market Intelligence](/docs/hermes/agents/research-agent.html)
-- [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
+- [Finance Agent  --  Reconciliation & Financial Controls](/docs/hermes/agents/finance-agent/)
+- [Research Agent  --  Competitive & Market Intelligence](/docs/hermes/agents/research-agent/)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors/)
 - [Governance & Compliance Overview](/hermes/governance/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 

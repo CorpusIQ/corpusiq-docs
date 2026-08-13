@@ -64,7 +64,7 @@ The skill integrates with Hermes' file tools:
 
 1. **corpusiq-docs expansion** — Auto-generate documentation pages for new features
 2. **Internal knowledge base** — Wiki for agent operating procedures
-3. **Connector documentation** — Standardized docs for each of 37+ connectors
+3. **Connector documentation** — Standardized docs for each of 40+ connectors
 4. **Onboarding wiki** — Structured onboarding for new team members
 5. **API reference** — Auto-generated from MCP server tool definitions
 

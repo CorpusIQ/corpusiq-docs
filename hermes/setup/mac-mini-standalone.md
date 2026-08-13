@@ -74,7 +74,7 @@ hermes config set model.default openrouter/anthropic/claude-sonnet-4
 hermes config set model.fallback "openrouter/qwen/qwen3-235b-a22b:free"
 ```
 
-**Strategy:** Use local models for cron tasks and embeddings (free), cloud models for complex reasoning (pay-as-you-go). Set Ollama as primary and OpenRouter as fallback, or vice versa depending on budget. See our [model selection guide](/docs/hermes/best-practices/model-selection.html) for detailed tiering strategies.
+**Strategy:** Use local models for cron tasks and embeddings (free), cloud models for complex reasoning (pay-as-you-go). Set Ollama as primary and OpenRouter as fallback, or vice versa depending on budget. See our [model selection guide](/docs/hermes/best-practices/model-selection/) for detailed tiering strategies.
 
 ### Step 4: Browser Automation
 
@@ -131,7 +131,7 @@ hermes cron create \
   --schedule "0 18 * * *"
 ```
 
-See [cron design best practices](/docs/hermes/best-practices/cron-design.html) for production-grade scheduling patterns.
+See [cron design best practices](/docs/hermes/best-practices/cron-design/) for production-grade scheduling patterns.
 
 **Keep Alive:**
 
@@ -200,9 +200,9 @@ Add a [gaming PC worker node](gaming-pc.md) via SSH for GPU-heavy inference, or 
 
 - [Hermes Agent Setup Overview](/hermes/setup/)  --  Compare all hardware platforms
 - [Gaming PC Setup](gaming-pc.md)  --  Maximum GPU performance
-- [Model Selection Guide](/docs/hermes/best-practices/model-selection.html)  --  Tiered model routing
+- [Model Selection Guide](/docs/hermes/best-practices/model-selection/)  --  Tiered model routing
 - [Memory Architecture](/hermes/knowledge/)  --  Triple-stack agent memory
-- [MCP Integration Guide](/hermes/mcp/)  --  Connect 37+ business platforms
+- [MCP Integration Guide](/hermes/mcp/)  --  Connect 40+ business platforms
 - [Troubleshooting Guide](/hermes/troubleshooting/)  --  Common Mac Mini issues
 ---
 

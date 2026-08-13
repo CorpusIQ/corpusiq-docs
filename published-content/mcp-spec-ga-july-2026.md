@@ -28,4 +28,4 @@ That is the question we built CorpusIQ to answer.
 
 ---
 
-*MCP spec GA: July 28, 2026. CorpusIQ supports 37+ read-only connectors today.*
+*MCP spec GA: July 28, 2026. CorpusIQ supports 40+ read-only connectors today.*

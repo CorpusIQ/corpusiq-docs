@@ -162,7 +162,7 @@ Open Shopify and GA4 in parallel tabs. Pick a single metric (e.g., "orders place
 
 Now that you have 2+ connectors:
 
-- **[Browse the prompts library](../prompts/)** — See 60+ copy-paste questions organized by business impact. Many use 2–3 connectors.
+- **[Browse the prompts library](../prompts/index.md)** — See 60+ copy-paste questions organized by business impact. Many use 2–3 connectors.
 - **[Read about skills](../how-it-works/skills-explained.md)** — Learn why complex questions work reliably.
 - **[Check rate limits](../how-it-works/rate-limits-and-quotas.md)** — If you're running production queries, know the bounds.
 - **[Explore advanced usage](#)** (coming soon) — Custom questions, canonical facts, skill invocation.
@@ -187,9 +187,9 @@ A: CorpusIQ will do its best to match them (by date, by customer ID, etc.). Some
 
 You've finished the quickstart. From here:
 
-- **Run one of the [prompts](../prompts/)** that matches your business type.
-- **Read [how it works](../how-it-works/)** to understand the substrate.
-- **Troubleshoot** with [troubleshooting guide](../troubleshooting/).
+- **Run one of the [prompts](../prompts/index.md)** that matches your business type.
+- **Read [how it works](../how-it-works/README.md)** to understand the substrate.
+- **Troubleshoot** with [troubleshooting guide](../troubleshooting/README.md).
 ---
 
 *

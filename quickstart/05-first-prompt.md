@@ -41,7 +41,7 @@ just a missing connector. Connect it and re-run the prompt.
 
 ## Now explore
 
-The [Prompts library](../prompts/) has 60+ curated prompts grouped by category.
+The [Prompts library](../prompts/index.md) has 60+ curated prompts grouped by category.
 A few to try next:
 
 - **Money:** [What's blocking our cash flow?](../prompts/revenue-and-finance.md)

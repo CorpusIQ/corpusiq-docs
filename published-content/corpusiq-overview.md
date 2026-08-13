@@ -26,7 +26,7 @@ Every connector uses read-only OAuth. Zero file storage. No model training. CASA
 - "Which customers haven't ordered in 60+ days?"
 - "Are my Shopify payouts matching QuickBooks deposits?"
 
-37+ connectors. One intelligence layer. Zero dashboards.
+40+ connectors. One intelligence layer. Zero dashboards.
 
 🔗 https://corpusiq.io
 🎮 https://demo.corpusiq.io

@@ -18,4 +18,4 @@ Product marketing content and cross-source attribution examples for CorpusIQ.
 | [angle4-readonly-oauth-security](angle4-readonly-oauth-security.md) | Read-Only OAuth Security |
 | [angle5-real-cross-source-questions](angle5-real-cross-source-questions.md) | Real Cross-Source Questions |
 
-These marketing angles highlight CorpusIQ's cross-source attribution capabilities — connecting 37+ business tools to answer questions ChatGPT can't answer alone.
+These marketing angles highlight CorpusIQ's cross-source attribution capabilities — connecting 40+ business tools to answer questions ChatGPT can't answer alone.

@@ -63,7 +63,7 @@ npm run build
 
 ## Integration with CorpusIQ
 
-SocialBu MCP pairs naturally with CorpusIQ's content strategy tools and Postiz publishing pipeline. Ask your AI agent to review SocialBu analytics alongside CorpusIQ's 37+ business connectors — cross-reference social performance with Google Analytics traffic, Shopify sales data, or HubSpot lead conversions to build a complete picture of content ROI.
+SocialBu MCP pairs naturally with CorpusIQ's content strategy tools and Postiz publishing pipeline. Ask your AI agent to review SocialBu analytics alongside CorpusIQ's 40+ business connectors — cross-reference social performance with Google Analytics traffic, Shopify sales data, or HubSpot lead conversions to build a complete picture of content ROI.
 
 For teams already using CorpusIQ's Postiz integration for automated posting, SocialBu MCP adds a conversational management layer — schedule posts, check analytics, and adjust strategy without leaving your AI workflow.
 

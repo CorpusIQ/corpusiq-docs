@@ -32,7 +32,7 @@ This agent connects to your observability stack, CI/CD pipelines, cloud provider
 | **Log analysis** | Error pattern detection, cross-service correlation, spike detection, slow-query surfacing |
 | **SSL certificate monitoring** | Expiration tracking with renewal reminders |
 
-> **See also:** [Agent Library Overview](/hermes/agents/) · [Finance Agent](/docs/hermes/agents/finance-agent.html) · [Support Agent](/docs/hermes/agents/support-agent.html)
+> **See also:** [Agent Library Overview](/hermes/agents/) · [Finance Agent](/docs/hermes/agents/finance-agent/) · [Support Agent](/docs/hermes/agents/support-agent/)
 
 ## How It Works
 
@@ -137,9 +137,9 @@ Every Friday, the agent scans for **idle load balancers, oversized instances, un
 ## Related Pages
 
 - [Agent Library  --  All 9 Role Configurations](/hermes/agents/)
-- [Finance Agent  --  Reconciliation & Financial Reporting](/docs/hermes/agents/finance-agent.html)
-- [Support Agent  --  Ticket Triage & SLA Monitoring](/docs/hermes/agents/support-agent.html)
-- [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
+- [Finance Agent  --  Reconciliation & Financial Reporting](/docs/hermes/agents/finance-agent/)
+- [Support Agent  --  Ticket Triage & SLA Monitoring](/docs/hermes/agents/support-agent/)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors/)
 - [Database Connectors  --  PostgreSQL, MSSQL, MongoDB](/hermes/mcp/servers/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 

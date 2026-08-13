@@ -216,7 +216,7 @@ Start with the **Daily Executive Summary** (report generation) to replace your m
 
 ### Do these templates work with any MCP connector?
 
-Yes. The templates use standard Hermes skill references. Replace the `skill` name with your actual skill filename, and ensure your connectors are authenticated via `hermes setup connectors`. The [CorpusIQ MCP connectors](/hermes/mcp/connectors/) provide 37+ business tool integrations through a single OAuth flow.
+Yes. The templates use standard Hermes skill references. Replace the `skill` name with your actual skill filename, and ensure your connectors are authenticated via `hermes setup connectors`. The [CorpusIQ MCP connectors](/hermes/mcp/connectors/) provide 40+ business tool integrations through a single OAuth flow.
 
 ### How do I customize thresholds and schedules?
 
@@ -227,7 +227,7 @@ Edit the YAML `schedule` field with standard cron expressions, and adjust thresh
 - [Outputs Overview  --  Industry Case Studies](/hermes/outputs/)
 - [Cron Scheduling Guide  --  38 Production Crons](/hermes/governance/scheduling/)
 - [Agent Library  --  9 Role Configurations](/hermes/agents/)
-- [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors/)
 - [Architecture  --  6-Layer Production Model](/hermes/architecture/)
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*

@@ -53,7 +53,7 @@ Any MCP-compatible AI client (Claude, Cursor, Codex, etc.) can now operate Oracl
 
 | Feature | Oracle MCP (datagrout) | SAP MCPs (abapilot/capforge) | CorpusIQ (general) |
 |---------|------------------------|------------------------------|--------------------|
-| Tools | 1,000+ | ~30-50 (ABAP-focused) | 37+ (multi-source) |
+| Tools | 1,000+ | ~30-50 (ABAP-focused) | 40+ (multi-source) |
 | Platform | Oracle Fusion Cloud | SAP ECC / S/4HANA | 36+ platforms |
 | Write support | ✅ (opt-in) | ✅ (ABAP native) | ❌ (read-only) |
 | Auth | OAuth 2.0 | SAP-specific | OAuth 2.1 |

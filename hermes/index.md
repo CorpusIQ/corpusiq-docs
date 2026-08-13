@@ -1,7 +1,7 @@
 ---
 title: "Hermes Community Hub — 440+ Tools & Resources"
 description: "The largest structured Hermes Agent knowledge base
-last_updated: 2026-08-12 — 440+ tools, skills, MCP servers, agents, blueprints, and case studies. Built by the community. Updated daily."
+last_updated: "2026-08-13" — 440+ tools, skills, MCP servers, agents, blueprints, and case studies. Built by the community. Updated daily."
 canonical: "https://www.corpusiq.io/docs/hermes/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]

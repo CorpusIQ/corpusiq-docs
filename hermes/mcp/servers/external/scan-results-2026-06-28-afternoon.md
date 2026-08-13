@@ -17,7 +17,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ### Methodology
 - Extracted from mcp.so/feed page
-- Identified 18 servers NOT in our catalog (checked against ~/corpusiq-docs/docs/hermes/mcp/servers/external/index.html)
+- Identified 18 servers NOT in our catalog (checked against ~/corpusiq-docs/docs/hermes/mcp/servers/external/)
 - Filtered for business relevance
 
 ---

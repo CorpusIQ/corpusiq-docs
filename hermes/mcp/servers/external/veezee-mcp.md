@@ -38,7 +38,7 @@ Essential for operators who need cross-platform social intelligence without main
 
 ## Integration with CorpusIQ
 
-Veezee complements CorpusIQ's 37+ business connectors by adding social media intelligence. Pair Veezee's social data with CorpusIQ's CRM (HubSpot), analytics (GA4), and email (Gmail) for full-funnel operator intelligence:
+Veezee complements CorpusIQ's 40+ business connectors by adding social media intelligence. Pair Veezee's social data with CorpusIQ's CRM (HubSpot), analytics (GA4), and email (Gmail) for full-funnel operator intelligence:
 
 ```
 Veezee → Discover prospects on LinkedIn/Reddit/X

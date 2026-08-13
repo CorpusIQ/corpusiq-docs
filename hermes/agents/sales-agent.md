@@ -32,7 +32,7 @@ This agent runs on the [Hermes Agent framework](/hermes/) by Nous Research and i
 | **Meeting preparation** | Pulls deal history, contact notes, and recent comms before every call |
 | **Competitor intelligence** | Surfaces competitive insights when a competitor appears in a deal record |
 
-> **See also:** [Agent Library Overview](/hermes/agents/) · [Marketing Agent](/docs/hermes/agents/marketing-agent.html) · [Executive Agent](/docs/hermes/agents/executive-agent.html)
+> **See also:** [Agent Library Overview](/hermes/agents/) · [Marketing Agent](/docs/hermes/agents/marketing-agent/) · [Executive Agent](/docs/hermes/agents/executive-agent/)
 
 ## How It Works
 
@@ -126,14 +126,14 @@ Store your deal stage definitions, activity thresholds, and ICP criteria in [can
 
 ### What's the difference between the sales agent and the marketing agent?
 
-The [Sales Agent](/docs/hermes/agents/sales-agent.html) focuses on **pipeline management, lead qualification, and deal progression**. The [Marketing Agent](/docs/hermes/agents/marketing-agent.html) focuses on **traffic analytics, SEO monitoring, campaign performance, and content operations**. They complement each other  --  marketing generates leads, sales converts them.
+The [Sales Agent](/docs/hermes/agents/sales-agent/) focuses on **pipeline management, lead qualification, and deal progression**. The [Marketing Agent](/docs/hermes/agents/marketing-agent/) focuses on **traffic analytics, SEO monitoring, campaign performance, and content operations**. They complement each other  --  marketing generates leads, sales converts them.
 
 ## Related Pages
 
 - [Agent Library  --  All 9 Role Configurations](/hermes/agents/)
-- [Marketing Agent  --  Campaign & SEO Automation](/docs/hermes/agents/marketing-agent.html)
-- [Executive Agent  --  Calendar & Inbox Management](/docs/hermes/agents/executive-agent.html)
-- [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
+- [Marketing Agent  --  Campaign & SEO Automation](/docs/hermes/agents/marketing-agent/)
+- [Executive Agent  --  Calendar & Inbox Management](/docs/hermes/agents/executive-agent/)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 - [Canonical Facts  --  Store Business Definitions](/hermes/governance/)
 

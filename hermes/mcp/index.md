@@ -1,6 +1,6 @@
 ---
 title: "MCP Integration Guide for Hermes Agent"
-description: Complete Hermes Agent MCP integration guide. Connect 37+ business platforms through one CorpusIQ OAuth flow. CRM, email, analytics, advertising, databases, ecommerce, payments. Custom MCP server development and cross-source analysis.
+description: Complete Hermes Agent MCP integration guide. Connect 40+ business platforms through one CorpusIQ OAuth flow. CRM, email, analytics, advertising, databases, ecommerce, payments. Custom MCP server development and cross-source analysis.
 category: mcp
 tags: [hermes-agent, mcp, model-context-protocol, integration, corpusiq, crm, analytics, email, database, cross-source]
 last_updated: 2026-07-08
@@ -9,9 +9,9 @@ robots: "index,follow"
 
 ---
 
-# MCP Integration Guide  --  Connect 37+ Business Platforms to Hermes Agent
+# MCP Integration Guide  --  Connect 40+ Business Platforms to Hermes Agent
 
-## The CorpusIQ MCP  --  One OAuth, 53 Tools, 37+ Platforms
+## The CorpusIQ MCP  --  One OAuth, 53 Tools, 40+ Platforms
 
 The biggest pain point in agent operations: managing 37 different API keys across 37 different platforms. The CorpusIQ MCP server solves this with a single OAuth flow.
 
@@ -352,7 +352,7 @@ MCP servers run as subprocesses managed by Hermes. Each server:
 - **HTTP transport:** Remote, supports OAuth, good for shared servers (CorpusIQ, Honcho)
 - **Tool registration:** Automatic  --  Hermes discovers tools on connect
 
-**The CorpusIQ advantage:** 37+ business platforms through ONE MCP server. No managing 37 API keys, no 37 different auth flows. One OAuth, one server, 53 tools.
+**The CorpusIQ advantage:** 40+ business platforms through ONE MCP server. No managing 37 API keys, no 37 different auth flows. One OAuth, one server, 53 tools.
 ---
 
 *

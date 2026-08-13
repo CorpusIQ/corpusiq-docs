@@ -32,7 +32,7 @@ This agent is built for finance teams, fractional CFOs, and business owners who 
 | **AR aging** | Receivables aging report, overdue alerts, customer payment trend analysis |
 | **Financial reporting** | Monthly P&L, balance sheet snapshot, cash flow summary, budget vs. actual |
 
-> **See also:** [Agent Library Overview](/hermes/agents/) · [DevOps Agent](/docs/hermes/agents/devops-agent.html) · [QuickBooks Connector](/hermes/mcp/connectors/)
+> **See also:** [Agent Library Overview](/hermes/agents/) · [DevOps Agent](/docs/hermes/agents/devops-agent/) · [QuickBooks Connector](/hermes/mcp/connectors/)
 
 ## How It Works
 
@@ -136,9 +136,9 @@ The agent generates **P&L statements, balance sheet snapshots, cash flow summari
 ## Related Pages
 
 - [Agent Library  --  All 9 Role Configurations](/hermes/agents/)
-- [DevOps Agent  --  Infrastructure & Cost Optimization](/docs/hermes/agents/devops-agent.html)
-- [Executive Agent  --  Daily Briefings & Metrics](/docs/hermes/agents/executive-agent.html)
-- [CorpusIQ MCP Connectors  --  37+ Business Tools](/hermes/mcp/connectors/)
+- [DevOps Agent  --  Infrastructure & Cost Optimization](/docs/hermes/agents/devops-agent/)
+- [Executive Agent  --  Daily Briefings & Metrics](/docs/hermes/agents/executive-agent/)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors/)
 - [Cron Scheduling Guide](/hermes/governance/scheduling/)
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*

@@ -49,7 +49,7 @@ All from any MCP-compatible AI client (Claude, Cursor, Codex, etc.).
 
 | Feature | QuickBooks MCP (datagrout) | CorpusIQ QuickBooks | Xero MCP (Official) | Laravel QuickBooks MCP |
 |---------|---------------------------|---------------------|---------------------|------------------------|
-| Tools | 550+ | 37+ (read-only) | ~30 (read+write) | ~10 (read+write) |
+| Tools | 550+ | 40+ (read-only) | ~30 (read+write) | ~10 (read+write) |
 | Write support | ✅ (opt-in) | ❌ (read-only) | ✅ | ✅ |
 | Auth | OAuth 2.0 | OAuth 2.1 PKCE | OAuth 2.0 | API key |
 | Transport | Remote HTTP | Remote HTTP | Remote HTTP | Local stdio |

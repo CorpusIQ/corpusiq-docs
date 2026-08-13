@@ -76,7 +76,7 @@ If the CLI rejects site-registry sources, clone the skill definitions directly f
 ## Related
 
 - [Popular Web Designs Setup](/hermes/skills/catalog/popular-web-designs-setup/)
-- [Web Design Guidelines Setup](/hermes/skills/catalog/web-design-guidelines-setup/)
+- [Web Design Guidelines Setup](/hermes/skills/catalog/popular-web-designs-setup/)
 - [Skills Catalog](/hermes/skills/catalog/)
 
 *Powered by CorpusIQ*

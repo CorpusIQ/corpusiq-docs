@@ -72,7 +72,7 @@ Microsoft 365 (OneDrive, Outlook), Dropbox, Slack.
 Databases: PostgreSQL, MSSQL, MongoDB, Cosmos DB.
 
 The full per-connector setup guides are in
-[../connectors/](../connectors/).
+[../connectors/](../connectors/README.md).
 
 ## When a connector isn't enough
 

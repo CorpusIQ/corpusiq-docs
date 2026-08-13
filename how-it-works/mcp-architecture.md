@@ -295,7 +295,7 @@ parameter names.
   runbook/skills engine.
 - [Prompts: MCP developer queries](../prompts/mcp-developer-queries.md)
   — 20+ example prompts for developers.
-- [Quickstart](../quickstart/) — fastest path from zero to first answer.
+- [Quickstart](../quickstart/README.md) — fastest path from zero to first answer.
 ---
 
 *

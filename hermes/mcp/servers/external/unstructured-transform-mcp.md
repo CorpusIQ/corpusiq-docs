@@ -33,7 +33,7 @@ Every operator deals with documents — invoices from vendors, contracts from cl
 
 ## Integration with CorpusIQ
 
-Transform MCP fills a critical gap in the business operator stack: unstructured document intelligence. While CorpusIQ provides structured data from 37+ business connectors (QuickBooks, Shopify, HubSpot, etc.), Transform MCP handles the documents those systems generate — parsed invoices, extracted contract terms, and digitized reports become queryable alongside live business metrics. Combined workflow: CorpusIQ pulls live financial data → Transform MCP parses the corresponding PDF invoices → AI agent reconciles and flags discrepancies.
+Transform MCP fills a critical gap in the business operator stack: unstructured document intelligence. While CorpusIQ provides structured data from 40+ business connectors (QuickBooks, Shopify, HubSpot, etc.), Transform MCP handles the documents those systems generate — parsed invoices, extracted contract terms, and digitized reports become queryable alongside live business metrics. Combined workflow: CorpusIQ pulls live financial data → Transform MCP parses the corresponding PDF invoices → AI agent reconciles and flags discrepancies.
 
 ## Limitations
 

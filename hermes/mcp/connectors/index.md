@@ -142,7 +142,7 @@ To connect a new source, run `get_connector_status` to check availability, then 
 | Databases | 4 |
 | Platform Management | 6 |
 | Knowledge & Governance | 5 |
-| **Total** | **37+** |
+| **Total** | **54** |
 
 ---
 
