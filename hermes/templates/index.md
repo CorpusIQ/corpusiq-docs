@@ -49,6 +49,7 @@ Brief overview of what this skill covers.
 
 - Common mistake and how to avoid it
 - Another pitfall to watch for
+```
 
 ## Verification
 
@@ -56,7 +57,6 @@ How to confirm everything works:
 
 ```bash
 your-verification-command
-```
 ```
 
 ## Config Template
