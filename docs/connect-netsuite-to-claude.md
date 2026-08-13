@@ -1,6 +1,6 @@
 ---
 title: "Connect NetSuite to Claude via MCP -- Live Data, No Code"
-description: "Connect your NetSuite account to Claude through CorpusIQ MCP. Ask natural language questions about your netsuite data and get real-time, source-cited answers  --  no exports, no coding required."
+description: "Connect your NetSuite account to Claude through CorpusIQ MCP. Ask natural language questions about your netsuite data and get real-time, source-cited"
 category: Claude Integrations
 tags: ["connect NetSuite to Claude", "NetSuite Claude integration", "MCP NetSuite connector", "NetSuite data to Claude", "AI for NetSuite", "CorpusIQ MCP"]
 last_updated: 2026-07-08

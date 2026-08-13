@@ -4,6 +4,9 @@ description: "Connect AI agents to Monday.com via the official MCP server. Manag
 category: mcp
 tags: [mcp-server]
 last_updated: 2026-07-15
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mondaycom-mcp/"
+robots: "index,follow"
+
 ---
 
 # Monday.com MCP — Project Management for AI Agents

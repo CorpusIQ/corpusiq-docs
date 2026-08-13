@@ -7,6 +7,9 @@ last_updated: 2026-07-15
 mcp_server: ai-zerolab/mcp-email-server
 stars: 281
 source: mcpservers.org
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mcp-email-server/"
+robots: "index,follow"
+
 ---
 
 # MCP Email Server — IMAP/SMTP Email for AI Agents

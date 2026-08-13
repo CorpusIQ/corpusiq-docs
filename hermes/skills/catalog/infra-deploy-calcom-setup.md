@@ -1,6 +1,11 @@
 ---
 title: Infra Deploy (Cal.com) — GCP Cloud Run deployment for Hermes Agent infrastructure
 description: Deploy Cal.com self-hosted to GCP Cloud Run with Supabase PostgreSQL. 108+ installs from terrylica/cc-skills.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/infra-deploy-calcom-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Infra Deploy (Cal.com) — Setup Guide

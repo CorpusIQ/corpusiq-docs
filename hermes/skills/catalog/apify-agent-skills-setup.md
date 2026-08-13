@@ -1,6 +1,11 @@
 ---
 title: Apify Agent Skills — Full Setup Guide for Hermes Agents
 description: Install and use Apify's production-grade web scraping skills. 5 skills, 30K+ pre-built Actors, MCP-compatible. 2.2K+ GitHub stars.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/apify-agent-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Apify Agent Skills — Setup Guide

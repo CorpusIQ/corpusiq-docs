@@ -1,6 +1,11 @@
 ---
 title: Deep Agents Memory — LangChain Persistent Memory for Hermes Agents
 description: Pluggable memory backends for LangChain Deep Agents. StateBackend (ephemeral), StoreBackend (persistent), FilesystemMiddleware, and CompositeBackend for routing. 12.8K+ installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/deep-agents-memory-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Deep Agents Memory — Setup Guide

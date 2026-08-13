@@ -4,6 +4,9 @@ description: "Late-evening MCP server discoveries from mcpservers.org. 8 new ser
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers, evening-scan]
 last_updated: 2026-07-17
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-17-supplement/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Scan — July 17, 2026 (Evening Supplement)

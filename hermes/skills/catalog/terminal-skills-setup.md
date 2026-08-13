@@ -1,6 +1,11 @@
 ---
 title: Terminal Skills — System Administration Skill Pack for Hermes Agents
 description: Collection of terminal-focused skills (cron, systemd, network-tools, VPN) with 2.4K+ combined installs. Gives Hermes agents structured knowledge for Linux system administration, cron job management, and network operations.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/terminal-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Terminal Skills — Setup Guide

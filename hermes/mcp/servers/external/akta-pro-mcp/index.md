@@ -4,6 +4,9 @@ description: "Private company intelligence MCP — company search, structured pr
 category: mcp
 tags: [mcp-server, company-intelligence, market-research, business-intelligence, due-diligence, hermes-agent]
 last_updated: 2026-08-10
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/akta-pro-mcp/"
+robots: "index,follow"
+
 ---
 
 # akta.pro MCP — Private Company Intelligence for AI Agents

@@ -1,6 +1,11 @@
 ---
 title: "Multi Source"
-description: "Multi-source query prompts for Hermes agents. Ask questions that span multiple business tools simultaneously — cross-reference CRM data with billing, analytics with ads, support tickets with product usage."
+description: "Multi-source query prompts for Hermes agents. Ask questions that span multiple business tools simultaneously — cross-reference CRM data with billing"
+canonical: "https://www.corpusiq.io/docs/hermes/prompts/multi-source/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes prompt", "prompt engineering", "ai prompt"]
+
 ---
 
 # Multi-source prompts  --  the moat

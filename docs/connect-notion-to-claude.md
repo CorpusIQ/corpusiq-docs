@@ -22,6 +22,8 @@ tags:
 - claude-notion-mcp
 - claude-ai-notion-connector
 - how-to-connect-notion-to-claude-ai
+robots: "index,follow"
+
 ---
 
 # Connect Notion to Claude: Your Wiki as an AI Knowledge Base

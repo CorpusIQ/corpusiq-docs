@@ -1,6 +1,11 @@
 ---
 title: Threads Growth Skill — Full Setup Guide for Hermes Agents
 description: Install, configure, and use the threads-growth-skill from aradotso/marketing-skills. Automate Threads growth strategies, content publishing, and audience engagement with 745+ installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/threads-growth-skill-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Threads Growth Skill — Setup Guide

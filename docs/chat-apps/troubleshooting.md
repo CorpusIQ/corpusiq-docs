@@ -2,6 +2,12 @@
 description: >-
   Fixes for the common things that stop CorpusIQ answering in Slack or Teams:
   not linked, no AI key, a tool that isn't connected, or the wrong account.
+canonical: "https://www.corpusiq.io/docs/chat-apps/troubleshooting/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Troubleshooting"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # Troubleshooting

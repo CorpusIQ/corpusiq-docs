@@ -7,6 +7,10 @@ author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
 tags: ["ai-business-data", "mcp-implementation", "business-ai", "data-ai-integration"]
+canonical: "https://www.corpusiq.io/docs/how-to-use-ai-with-business-data/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # How to Use AI with Business Data

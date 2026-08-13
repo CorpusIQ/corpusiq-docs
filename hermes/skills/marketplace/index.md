@@ -1,6 +1,11 @@
 ---
 title: Skills Marketplace
 description: Discover and install community skills from skills.sh  --  290+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # Skills Marketplace

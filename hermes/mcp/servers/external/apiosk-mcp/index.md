@@ -1,12 +1,17 @@
 ---
 title: "Apiosk MCP — AI-Native Payments for Tools & APIs"
-description: "Discover, pay for, execute, and publish monetized APIs directly from AI agents. Per-call settlement in USDC over x402. 42 tools including wallet management, API discovery, and publishing."
+description: "Discover, pay for, execute, and publish monetized APIs directly from AI agents. Per-call settlement in USDC over x402. 42 tools including wallet management"
 date: 2026-08-12
 source: mcp.so
 source_url: https://mcp.so/servers/apiosk
 category: Developer Tools / Commerce
 rating: ★★
 status: active
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/apiosk-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Apiosk MCP Server

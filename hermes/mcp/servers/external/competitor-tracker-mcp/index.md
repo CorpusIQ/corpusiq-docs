@@ -1,9 +1,12 @@
 ---
 title: "Competitor Tracker & Co. MCP — Integration Guide"
-description: "Agentic competitor intelligence — ~50 tools for tracking competitor pricing, product, messaging, and corporate changes via weekly crawls, exposed as MCP tools for AI agents."
+description: "Agentic competitor intelligence — ~50 tools for tracking competitor pricing, product, messaging, and corporate changes via weekly crawls, exposed as MCP"
 category: mcp
 tags: [mcp-server, competitive-intelligence, competitor-tracking, market-research, growth-operations, hermes-agent]
 last_updated: 2026-08-10
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/competitor-tracker-mcp/"
+robots: "index,follow"
+
 ---
 
 # Competitor Tracker & Co. MCP — Agentic Competitive Intelligence

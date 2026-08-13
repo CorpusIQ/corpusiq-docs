@@ -9,6 +9,9 @@ tags:
   - crm-automation
   - ai-sales-assistant
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/agents/sales-agent/"
+robots: "index,follow"
+
 ---
 
 # Hermes Sales Agent  --  Autonomous Pipeline Management & AI Outreach

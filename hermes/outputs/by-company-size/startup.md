@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent for Startups"
-description: "Get 5-10 hours back per week with Hermes Agent AI automation for startups. Customer onboarding, daily metrics, payment recovery, and market monitoring  --  running in under an hour."
+description: "Get 5-10 hours back per week with Hermes Agent AI automation for startups. Customer onboarding, daily metrics, payment recovery, and market monitoring"
 category: "Company Size"
 tags:
   - startup
@@ -11,6 +11,9 @@ tags:
   - AI agent
   - early stage
 last_updated: "2026-08-12"
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/by-company-size/startup/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent for Startups

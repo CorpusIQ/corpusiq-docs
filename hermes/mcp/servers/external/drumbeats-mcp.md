@@ -1,9 +1,12 @@
 ---
 title: "Drumbeats MCP — Uptime & Cron Monitoring for AI Agents"
-description: "Operate Drumbeats monitoring from any AI client — create cron/heartbeat monitors, triage incidents, and manage status pages without leaving your agent. DevOps observability over MCP."
+description: "Operate Drumbeats monitoring from any AI client — create cron/heartbeat monitors, triage incidents, and manage status pages without leaving your agent"
 category: mcp
 tags: [mcp-server, monitoring, uptime, cron, heartbeat, devops, sre, observability]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/drumbeats-mcp/"
+robots: "index,follow"
+
 ---
 
 # Drumbeats MCP — Uptime & Cron Monitoring

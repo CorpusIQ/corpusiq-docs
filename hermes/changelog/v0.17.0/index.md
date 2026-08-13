@@ -1,6 +1,11 @@
 ---
 title: Hermes Agent v0.17.0  --  The Reach Release
 description: iMessage via Photon, Raft agent network, background subagents, image editing, Automation Blueprints, desktop app overhaul, Skills Hub rehaul, WhatsApp Cloud API, Telegram rich text. June 19, 2026.
+canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.17.0/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Hermes Agent v0.17.0 (v2026.6.19)  --  The Reach Release

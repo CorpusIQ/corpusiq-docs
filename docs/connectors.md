@@ -1,6 +1,6 @@
 ---
-title: "CorpusIQ Connectors — 40+ Business Tools for ChatGPT, Claude & Perplexity"
-description: "Complete directory of 40+ CorpusIQ connectors: QuickBooks, Shopify, Stripe, HubSpot, GA4, Google Ads, Meta Ads, Salesforce, Slack, Gmail, Notion, and more. Read-only OAuth on every connection. Connect any business tool to ChatGPT, Claude, or Perplexity."
+title: "CorpusIQ Connectors — 40+ Business Tools for ChatGPT,"
+description: "Complete directory of 40+ CorpusIQ connectors: QuickBooks, Shopify, Stripe, HubSpot, GA4, Google Ads, Meta Ads, Salesforce, Slack, Gmail, Notion, and more"
 category: "Documentation"
 tags: ["corpusiq connectors", "business tools ai", "chatgpt business data", "oauth connectors", "crm integration", "accounting integration", "analytics connectors", "connect business data to chatgpt", "mcp connectors"]
 last_updated: "2026-08-06"

@@ -1,6 +1,6 @@
 ---
 title: "Hermes Cron Templates"
-description: "Ready-to-deploy cron templates for Hermes Agent: email triage, report generation, data sync, anomaly detection, SLA monitoring, and more. Copy, adapt, deploy in minutes."
+description: "Ready-to-deploy cron templates for Hermes Agent: email triage, report generation, data sync, anomaly detection, SLA monitoring, and more. Copy, adapt"
 category: Outputs
 tags:
   - cron-templates
@@ -9,6 +9,9 @@ tags:
   - autonomous-agents
   - deployment-blueprints
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/workflows/templates/"
+robots: "index,follow"
+
 ---
 
 # Copy-Paste Cron Templates  --  12 Ready-to-Deploy Autonomous Workflows

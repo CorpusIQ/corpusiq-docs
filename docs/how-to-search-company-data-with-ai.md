@@ -7,6 +7,10 @@ author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
 tags: ["ai-search", "company-data", "natural-language-search", "business-intelligence"]
+canonical: "https://www.corpusiq.io/docs/how-to-search-company-data-with-ai/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # How to Search Company Data with AI

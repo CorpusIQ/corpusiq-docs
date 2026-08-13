@@ -1,6 +1,11 @@
 ---
 title: Troubleshooting Guide
 description: Common failures and fixes  --  MCP connections, OAuth tokens, cron jobs, browser automation, model routing, gateway crashes
+canonical: "https://www.corpusiq.io/docs/hermes/troubleshooting/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Troubleshooting Guide

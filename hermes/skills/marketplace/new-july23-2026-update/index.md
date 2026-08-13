@@ -1,6 +1,11 @@
 ---
 title: "New Skills — July 23, 2026 Marketplace Sweep (Update)"
 description: "5 new Hermes-relevant publishers discovered on skills.sh — 21 skills, 136K+ combined installs. Afternoon sweep update."
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july23-2026-update/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills — July 23, 2026 (Update)

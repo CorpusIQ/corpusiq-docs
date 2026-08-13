@@ -1,6 +1,11 @@
 ---
 title: "New Skills — July 24, 2026 Evening Marketplace Sweep"
 description: "3 new publishers, 3 setup guides created, 255.9K+ combined installs. Evening cron sweep of skills.sh marketplace for Hermes-relevant skills."
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july24-2026-evening/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills — July 24, 2026 (Evening)

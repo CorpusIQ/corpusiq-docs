@@ -1,6 +1,11 @@
 ---
 title: Cloudflare Skills — Edge Computing & Workers Platform for Hermes Agents
 description: Cloudflare's official agent skills — Wrangler CLI, Workers, Durable Objects, web performance, and Turnstile. 100K+ combined installs across 11 skills for building on the edge.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cloudflare-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Cloudflare Skills — Setup Guide

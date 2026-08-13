@@ -4,6 +4,9 @@ description: "Connect AI agents to LaunchDarkly via the official MCP server. Tog
 category: mcp
 tags: [mcp-server]
 last_updated: 2026-07-15
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/launchdarkly-mcp/"
+robots: "index,follow"
+
 ---
 
 # LaunchDarkly MCP — Feature Flag Management for AI Agents

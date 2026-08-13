@@ -1,6 +1,11 @@
 ---
 title: Automated Social Publishing
 description: Multi-platform social media publishing pipeline  --  strategy, scheduling, content rotation, engagement tracking, and rate limit handling
+canonical: "https://www.corpusiq.io/docs/hermes/content-ops/social/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Automated Social Publishing

@@ -1,6 +1,11 @@
 ---
 title: Metamask OpenClaw Desktop Security Analysis — Setup Guide
 description: Security analysis skill for evaluating Metamask OpenClaw desktop executable distributions. Detects cryptocurrency scams, impersonation, and malware red flags.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/metamask-openclaw-security-analysis-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Metamask OpenClaw Desktop Security Analysis — Setup Guide

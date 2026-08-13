@@ -1,7 +1,11 @@
 ---
 title: "MCP Sweep — July 25, 2026 Afternoon (11:00 AM MST)"
-description: "1. **GitHub token:** The current token has been flagged for search spam. Consider rotating to a new classic PAT or using a different account for search queries."
+description: "1. **GitHub token:** The current token has been flagged for search spam. Consider rotating to a new classic PAT or using a different account for search"
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july25-2026-afternoon/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MCP Sweep — July 25, 2026 Afternoon (11:00 AM MST)

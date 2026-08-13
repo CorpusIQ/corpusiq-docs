@@ -1,6 +1,6 @@
 ---
 title: "MailFixture — Email & SMS Testing MCP for Automated QA"
-description: "Receive-only email and SMS inboxes for automated testing. Wait-for-OTP and wait-for-link tools let AI agents complete verification flows without human intervention."
+description: "Receive-only email and SMS inboxes for automated testing. Wait-for-OTP and wait-for-link tools let AI agents complete verification flows without human"
 source: mailfixture.com
 stars: 0
 language: N/A (Hosted)
@@ -8,6 +8,10 @@ transport: Streamable HTTP
 auth: API Key
 category: Development & QA
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mailfixture-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MailFixture — Email & SMS Testing MCP for Automated QA

@@ -1,6 +1,11 @@
 ---
-title: "July 18, 2026 — Design Judge Skills, Loremaster PM, Agent Skill Stack"
-description: "4 new Hermes-relevant skill repos discovered: SeanJ1ang design-judge-skills (25★, 5 skills for design award workflows), loremaster-ai PM skill pack (11 skills), agent-skill-stack (skill discovery tool), and MongrelDB-Hermes (hybrid memory backend)."
+title: "July 18, 2026 — Design Judge Skills, Loremaster PM,"
+description: "4 new Hermes-relevant skill repos discovered: SeanJ1ang design-judge-skills (25★, 5 skills for design award workflows), loremaster-ai PM skill pack (11"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july18-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # 🆕 July 18, 2026 — 4 New Hermes-Agent Skill Repos

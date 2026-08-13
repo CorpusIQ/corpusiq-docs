@@ -6,6 +6,11 @@ sources: [mcp.so, chatmcp/mcpso, mcpservers.org]
 status: complete
 finds: 3
 guides: 3
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july31-2026-early/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MCP Server Discovery Sweep — July 31, 2026 Early Morning

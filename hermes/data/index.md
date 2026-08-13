@@ -2,6 +2,10 @@
 title: Ecosystem Data
 description: Discovery data, repository approvals, and inclusion criteria for the Hermes ecosystem
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/data/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Ecosystem Data

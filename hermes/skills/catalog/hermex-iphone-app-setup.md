@@ -1,9 +1,12 @@
 ---
 title: "Hermex iPhone App — Setup Guide for Hermes Agent"
-description: "Step-by-step guide to install and configure Hermex — the native iPhone app for your self-hosted Hermes agent. App Store install, server pairing, Tailscale setup, and troubleshooting."
+description: "Step-by-step guide to install and configure Hermex — the native iPhone app for your self-hosted Hermes agent. App Store install, server pairing, Tailscale"
 category: mobile
 tags: [hermes-agent, hermex, ios, iphone, mobile, self-hosted, swiftui]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermex-iphone-app-setup/"
+robots: "index,follow"
+
 ---
 
 # Hermex iPhone App — Setup Guide

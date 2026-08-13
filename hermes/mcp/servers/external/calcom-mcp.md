@@ -1,9 +1,12 @@
 ---
 title: "Cal.com MCP — Scheduling Automation for AI Agents"
-description: "Connect Cal.com scheduling to Hermes Agent. Create, manage, and query bookings, availability, and event types directly from any AI agent. Official MCP from Cal.com."
+description: "Connect Cal.com scheduling to Hermes Agent. Create, manage, and query bookings, availability, and event types directly from any AI agent. Official MCP from"
 category: mcp
 tags: [mcp-server, calcom, scheduling, calendar, productivity, booking, automation]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/calcom-mcp/"
+robots: "index,follow"
+
 ---
 
 # Cal.com MCP Server ★ New (July 3)

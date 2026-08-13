@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ Reporting"
-description: "CorpusIQ reporting capabilities: instant reports, comparative analysis, trend tracking across 36 data sources. Generate P&L summaries, revenue comparisons, and growth trends with natural language queries."
+description: "CorpusIQ reporting capabilities: instant reports, comparative analysis, trend tracking across 36 data sources. Generate P&L summaries, revenue comparisons"
 category: "Documentation"
 tags: ["corpusiq reporting", "business reports", "revenue reporting", "trend analysis", "comparative reports", "financial reporting", "kpi tracking"]
 last_updated: "2026-08-12"

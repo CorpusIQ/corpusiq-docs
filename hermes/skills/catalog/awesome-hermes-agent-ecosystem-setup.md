@@ -1,6 +1,11 @@
 ---
 title: Awesome Hermes Agent Ecosystem — Comprehensive Ecosystem Navigation
 description: Navigate the entire Hermes Agent ecosystem — skills, tools, integrations, deployment, and multi-agent orchestration. 161+ installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/awesome-hermes-agent-ecosystem-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Awesome Hermes Agent Ecosystem — Setup Guide

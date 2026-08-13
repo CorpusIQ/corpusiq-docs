@@ -8,6 +8,10 @@ transport: Streamable HTTP
 auth: API Key
 category: Marketing & Lead Gen
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/basedonbusiness-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # BasedOnBusiness — Google Maps Business Leads MCP

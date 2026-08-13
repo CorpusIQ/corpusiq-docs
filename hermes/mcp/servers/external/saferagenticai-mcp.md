@@ -1,9 +1,12 @@
 ---
-title: "SaferAgenticAI MCP — AI Safety Governance for Agentic Coding"
-description: "Apply the Safer Agentic AI safety framework to coding assistants over MCP. Governance guardrails, safety checks, and policy enforcement for agentic workflows."
+title: "SaferAgenticAI MCP — AI Safety Governance for Agentic"
+description: "Apply the Safer Agentic AI safety framework to coding assistants over MCP. Governance guardrails, safety checks, and policy enforcement for agentic"
 category: mcp
 tags: [mcp-server, ai-safety, agentic-ai, governance, security, guardrails]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/saferagenticai-mcp/"
+robots: "index,follow"
+
 ---
 
 # SaferAgenticAI MCP — AI Safety Framework

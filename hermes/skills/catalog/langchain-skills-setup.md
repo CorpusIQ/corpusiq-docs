@@ -1,6 +1,11 @@
 ---
 title: LangChain Agent Skills — Memory, RAG, Persistence, and Middleware for Hermes Agents
 description: LangChain's official agent skills — deep agents memory, LangGraph persistence, RAG, fundamentals, human-in-the-loop, and middleware. 71K+ combined installs across 6 skills. Essential for Hermes agents building production AI workflows.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/langchain-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # LangChain Agent Skills — Setup Guide

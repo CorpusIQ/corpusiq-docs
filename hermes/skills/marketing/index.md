@@ -1,6 +1,11 @@
 ---
 title: Marketing Skills
 description: 45+ production marketing workflows  --  SEO audits, CRO, copywriting, ad creative, content strategy, community growth, and cold outreach. Powered by skills.sh marketingskills pack with 1.8M+ installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketing/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Marketing Skills

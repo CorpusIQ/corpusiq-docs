@@ -2,6 +2,10 @@
 title: "Business Data for ChatGPT: Stop Guessing, Start Knowing"
 description: "Setup and usage guide for Business Data for ChatGPT: Stop Guessing, Start Knowing. Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/seo/business-data-for-chatgpt/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Business Data for ChatGPT: Stop Guessing, Start Knowing

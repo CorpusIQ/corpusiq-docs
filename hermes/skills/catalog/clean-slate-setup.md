@@ -1,6 +1,11 @@
 ---
 title: Clean Slate — Session-End Verification Skill Setup Guide
 description: Install and configure clean-slate, the session-end verification skill that turns "looks done" into "is actually done." Works with Hermes, Claude Code, Codex, and OpenClaw.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clean-slate-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Clean Slate — Setup Guide

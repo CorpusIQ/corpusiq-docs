@@ -1,7 +1,11 @@
 ---
-title: "CorpusIQ vs n8n: AI Business Intelligence vs Workflow Automation"
+title: "CorpusIQ vs n8n: AI Business Intelligence vs Workflow"
 description: "Both CorpusIQ and n8n connect your business tools. But they serve different purposes. Here is how to choose."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-n8n/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # CorpusIQ vs n8n: AI Business Intelligence vs Workflow Automation

@@ -1,5 +1,5 @@
 ---
-title: "Agent360 Browser MCP — Real Chrome Automation for AI Agents"
+title: "Agent360 Browser MCP — Real Chrome Automation for AI"
 description: "Integration guide for agent360dk/browser-mcp. Drive real logged-in Chrome from AI agents — CAPTCHA solving, Gmail OTP reading, 34 tools. MIT license."
 category: mcp
 tags: [mcp-server, browser-automation, captcha, chrome, web-scraping, hermes-agent]
@@ -7,6 +7,9 @@ last_updated: 2026-07-16
 mcp_server: agent360dk/browser-mcp
 stars: 22
 source: mcpservers.org
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/browser-mcp-agent360/"
+robots: "index,follow"
+
 ---
 
 # Agent360 Browser MCP — Real Chrome Where Headless Dies

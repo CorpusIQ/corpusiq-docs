@@ -1,6 +1,11 @@
 ---
 title: Community Engagement Automation
 description: Help-first community engagement strategy  --  platform-specific approaches, response patterns, sentiment detection, and measurement
+canonical: "https://www.corpusiq.io/docs/hermes/content-ops/engagement/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Community Engagement Automation

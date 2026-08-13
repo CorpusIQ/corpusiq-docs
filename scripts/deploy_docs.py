@@ -42,16 +42,20 @@ def main():
     run("git checkout main")
     run("git pull --rebase origin main")
 
-    # 2. Build
-    print("2. Building mkdocs...")
+    # 2. Regenerate GEO feeds (llms.txt / llms-full.txt)
+    print("2. Regenerating llms.txt...")
+    run("python3 scripts/generate_llms_txt.py")
+
+    # 3. Build
+    print("3. Building mkdocs...")
     out = run("python3 -m mkdocs build --clean")
     if "Documentation built" not in out:
         print("BUILD FAILED")
         sys.exit(1)
     print("   Build OK")
 
-    # 3. Deploy to gh-pages
-    print("3. Deploying to gh-pages...")
+    # 4. Deploy to gh-pages
+    print("4. Deploying to gh-pages...")
     wt = "/tmp/gh-pages-deploy"
     if os.path.exists(os.path.join(wt, ".git")):
         run(f"git -C {wt} fetch origin gh-pages")
@@ -62,6 +66,8 @@ def main():
     # Clear old content, copy new build
     run(f"cd {wt} && find . -not -path './.git*' -not -name '.git' -delete")
     run(f"cp -r {REPO_DIR}/site/. {wt}/")
+    # GEO feeds at site root
+    run(f"cp {REPO_DIR}/llms.txt {REPO_DIR}/llms-full.txt {wt}/")
     run(f"touch {wt}/.nojekyll")
 
     # Commit

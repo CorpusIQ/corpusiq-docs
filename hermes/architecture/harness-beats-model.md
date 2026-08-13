@@ -2,6 +2,10 @@
 title: The Harness Beats the Model — Why AI Infrastructure Matters More Than AI Models
 description: "The biggest insight in AI right now is not about models. It is about harnesses."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/architecture/harness-beats-model/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # The Harness Beats the Model — Why AI Infrastructure Matters More Than AI Models

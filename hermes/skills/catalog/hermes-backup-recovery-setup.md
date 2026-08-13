@@ -1,6 +1,11 @@
 ---
-title: "Hermes Backup Recovery — Encrypted Backup Skill for Hermes Agent"
+title: "Hermes Backup Recovery — Encrypted Backup Skill for"
 description: "Back up, verify, restore, and health-check your Hermes Agent deployment state with age encryption."
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-backup-recovery-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Backup Recovery Setup Guide

@@ -1,6 +1,6 @@
 ---
 title: "PLUR MCP — Persistent Memory for AI Agents"
-description: "Open, local-first memory for AI agents. Store corrections, preferences, and conventions as plain-text engrams on your own machine — memory you can read, correct, and carry across sessions."
+description: "Open, local-first memory for AI agents. Store corrections, preferences, and conventions as plain-text engrams on your own machine — memory you can read"
 category: mcp
 tags: [mcp, memory, knowledge, agent-memory, local-first, plur, hermes-agent]
 github: https://github.com/plur-ai/plur
@@ -9,6 +9,10 @@ verified: true
 source: mcp.so
 discovered: 2026-07-24
 pricing: Free · Open Source (MIT)
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/plur-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # PLUR MCP — Persistent Memory for AI Agents

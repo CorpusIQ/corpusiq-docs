@@ -1,6 +1,11 @@
 ---
 title: "New Skills — July 23, 2026 Marketplace Sweep"
-description: "9 new Hermes-relevant skill publishers discovered on skills.sh — Google ADK, Better Auth, Stitch, Knowledge Work Plugins, Lenny Skills, Sanity Toolkit, GTM Agents, SERP Downloaders, and Skills Collective AI Media. 1M+ combined installs across 47 skills."
+description: "9 new Hermes-relevant skill publishers discovered on skills.sh — Google ADK, Better Auth, Stitch, Knowledge Work Plugins, Lenny Skills, Sanity Toolkit, GTM"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july23-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills — July 23, 2026

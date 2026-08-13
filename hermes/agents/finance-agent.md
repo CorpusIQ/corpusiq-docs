@@ -9,6 +9,9 @@ tags:
   - reconciliation
   - ai-finance-assistant
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/agents/finance-agent/"
+robots: "index,follow"
+
 ---
 
 # Hermes Finance Agent  --  Autonomous Accounting & Financial Reconciliation

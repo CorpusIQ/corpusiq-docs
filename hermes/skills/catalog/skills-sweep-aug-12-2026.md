@@ -6,6 +6,11 @@ sweep_id: aug-12-2026-cron
 total_discovered: 215
 new_skills: 7
 guides_drafted: 7
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skills-sweep-aug-12-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Skills.sh Sweep — August 12, 2026 (Cron Update)

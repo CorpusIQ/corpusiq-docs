@@ -6,6 +6,11 @@ publisher: mukul975
 skills_count: 750+
 maturity: production
 source: https://github.com/mukul975/Anthropic-Cybersecurity-Skills
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/anthropic-cybersecurity-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Anthropic Cybersecurity Skills — Setup Guide

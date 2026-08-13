@@ -1,6 +1,11 @@
 ---
 title: CorpusIQ vs Viktor — Which AI Business Platform Is Right for You?
 description: Compare CorpusIQ and Viktor for AI business intelligence. Cross-platform answers vs Slack-based AI employee. Read-only OAuth, source-cited data, zero data stored.
+canonical: "https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-viktor/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # CorpusIQ vs Viktor — Which AI Business Platform Is Right for You?

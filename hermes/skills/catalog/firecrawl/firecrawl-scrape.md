@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: firecrawl
 setup: npx skills add firecrawl/cli@firecrawl-scrape
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl/firecrawl-scrape/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Firecrawl Scrape"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Firecrawl Scrape

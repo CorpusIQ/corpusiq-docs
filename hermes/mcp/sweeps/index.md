@@ -2,6 +2,10 @@
 title: MCP Ecosystem Sweeps
 description: "Automated discovery of MCP servers and tools from across the ecosystem. Daily sweeps catalog new MCP servers, their capabilities, and integration potential."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MCP Ecosystem Sweeps

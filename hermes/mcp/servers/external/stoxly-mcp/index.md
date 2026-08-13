@@ -7,6 +7,12 @@ transport: Remote HTTP
 auth: None (free)
 added: 2026-08-10
 source: mcp.so
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/stoxly-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+description: "Stoxly is a free remote MCP server providing stock and ETF fundamental analysis."
+
 ---
 
 # Stoxly MCP — Integration Guide

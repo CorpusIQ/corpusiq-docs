@@ -3,6 +3,12 @@ title: "Sweep Report — July 29, 2026 (Morning)"
 date: 2026-07-29
 sources: mcpservers.org sitemaps, mcp.so SSR
 status: complete
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july29-2026-morning/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+description: "Sweep of mcpservers.org sitemaps (servers/1-6.xml + priority-servers.xml) and mcp.so SSR extraction."
+
 ---
 
 # MCP Directory Sweep — July 29, 2026 (Morning)

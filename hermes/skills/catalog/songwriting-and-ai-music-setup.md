@@ -1,6 +1,11 @@
 ---
 title: Songwriting & AI Music Generation — Hermes Skill Setup Guide
 description: Install and configure songwriting-and-ai-music, the official Hermes Agent skill for AI-assisted songwriting, music generation, and audio production — 324 installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/songwriting-and-ai-music-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Songwriting & AI Music Generation — Setup Guide

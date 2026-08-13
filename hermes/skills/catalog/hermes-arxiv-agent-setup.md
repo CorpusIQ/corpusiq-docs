@@ -5,6 +5,11 @@ skill_name: hermes-arxiv-agent
 category: research
 difficulty: Medium
 platforms: [Linux, macOS]
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-arxiv-agent-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes ArXiv Agent — Full Setup Guide

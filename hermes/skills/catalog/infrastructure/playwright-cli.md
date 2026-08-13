@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: infrastructure
 setup: npx skills add microsoft/playwright-cli
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/infrastructure/playwright-cli/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Playwright Cli"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Playwright Cli

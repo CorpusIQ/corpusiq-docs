@@ -23,6 +23,8 @@ tags:
 - ai-powered-business-intelligence
 - business-intelligence-artificial-intelligence
 - how-to-use-ai-for-business-intelligence
+robots: "index,follow"
+
 ---
 
 # AI for Business Intelligence: From Dashboards to Conversations

@@ -11,6 +11,9 @@ tags:
   - AI agent
   - help desk automation
 last_updated: "2026-08-12"
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/customer-support/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Customer Support Automation

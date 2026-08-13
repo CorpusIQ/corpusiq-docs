@@ -1,6 +1,11 @@
 ---
 title: metric-spec-registry
 description: Pattern for a canonical-layer metric subsystem  --  store KPI definitions, not data; resolve live; surface drift between sources; never cache; provenance every answer.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/metric-spec-registry/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Metric Spec Registry

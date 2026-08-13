@@ -7,6 +7,11 @@ created: 2026-07-22
 category: Finance/Tax
 stars: 0
 tags: [vat, vies, eu, tax, compliance, ecommerce]
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/honest-vies-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+description: "No API keys needed. Calls the public EU VIES SOAP API directly."
+
 ---
 
 # EU VAT VIES MCP Server

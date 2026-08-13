@@ -1,9 +1,12 @@
 ---
 title: "Webotee Amazon MCP — Amazon Seller Intelligence"
-description: "Connect Webotee Amazon MCP to Hermes Agent. Research Amazon products, analyze buy-box history, identify competing sellers, and discover under-competed niches. Built for Amazon sellers and ecommerce operators."
+description: "Connect Webotee Amazon MCP to Hermes Agent. Research Amazon products, analyze buy-box history, identify competing sellers, and discover under-competed"
 category: mcp
 tags: [mcp-server, webotee, amazon, ecommerce, seller-intelligence, product-research, niche-analysis]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/webotee-amazon-mcp/"
+robots: "index,follow"
+
 ---
 
 # Webotee Amazon MCP Server ★ New (July 3)

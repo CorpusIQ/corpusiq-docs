@@ -1,6 +1,11 @@
 ---
 title: Multi-Agent Orchestration — PM-style parallel worker management for Hermes Agents
 description: PM-style multi-agent orchestration with worktree isolation, tmux sessions, and Wave-based task dispatch. 32+ installs from cat-xierluo/legal-skills.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/multi-agent-orchestration-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Multi-Agent Orchestration — Setup Guide

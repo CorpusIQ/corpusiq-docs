@@ -7,6 +7,11 @@ created: 2026-07-22
 category: Fintech / Payments
 stars: 0
 tags: [payments, machine-economy, fintech, api, settlement]
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/general-liquidity-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+description: "MCP server for the **General Liquidity machine economy API**."
+
 ---
 
 # General Liquidity MCP Server

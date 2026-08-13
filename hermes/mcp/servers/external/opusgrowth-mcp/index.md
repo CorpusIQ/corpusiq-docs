@@ -5,6 +5,11 @@ severity: ★★★ (high business value)
 source: mcpservers.org · GitHub
 created: 2026-07-25
 topics: ads, ppc, marketing, google-ads, linkedin-ads, tiktok-ads, microsoft-advertising
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/opusgrowth-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # OpusGrowth MCP — Ad Platform Connector

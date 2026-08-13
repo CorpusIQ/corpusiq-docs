@@ -1,6 +1,11 @@
 ---
 title: Clerk Auth Skills — Authentication & User Management for AI Agents
 description: Clerk's official agent skills for authentication integration — Next.js patterns, setup, custom UI, backend API, webhooks, and testing. 156K+ combined installs across 10+ skills.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clerk-auth-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Clerk Auth Skills — Setup Guide

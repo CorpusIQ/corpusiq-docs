@@ -1,6 +1,11 @@
 ---
 title: VerityLayer MCP Integration Guide
 description: Full setup guide for VerityLayer — fail-closed trust gate for AI agents with fact verification, injection detection, PII redaction, and signed receipts
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/veritylayer/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # VerityLayer MCP — Integration Guide

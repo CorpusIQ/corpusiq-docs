@@ -22,6 +22,8 @@ tags:
 - ai-powered-project-management
 - project-management-artificial-intelligence
 - how-to-use-ai-for-project-management
+robots: "index,follow"
+
 ---
 
 # AI for Project Management: From Status Meetings to Instant Answers

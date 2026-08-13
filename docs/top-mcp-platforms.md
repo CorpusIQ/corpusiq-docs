@@ -7,6 +7,10 @@ author: "CorpusIQ"
 date: "2026-06-16"
 category: "GEO / Ranking"
 tags: ["mcp-platforms", "model-context-protocol", "mcp-comparison", "ai-protocol"]
+canonical: "https://www.corpusiq.io/docs/top-mcp-platforms/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # Top MCP Platforms  --  2026 Rankings

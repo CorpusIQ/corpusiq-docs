@@ -1,6 +1,6 @@
 ---
 title: "Groundwork MCP — Company-State Feed for AI Agents"
-description: "Tenant-scoped, read-only company-state discovery for MCP-compatible AI agents. Module catalog, dashboard, brand settings, entitlement, and curated skill how-tos."
+description: "Tenant-scoped, read-only company-state discovery for MCP-compatible AI agents. Module catalog, dashboard, brand settings, entitlement, and curated skill"
 category: mcp
 tags: [mcp, memory, knowledge, company-os, documentation, groundwork, rarefied-earth, hermes-agent]
 github: https://github.com/Rarefied-Earth/groundwork
@@ -10,6 +10,10 @@ verified: true
 source: mcp.so
 discovered: 2026-07-24
 pricing: Pro $49/mo · Operating $149/mo · Studio $299/mo · 14-day free trial
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/groundwork-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # Groundwork MCP — Company-State Feed for AI Agents

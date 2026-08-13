@@ -2,6 +2,10 @@
 title: Outputs by Company Size
 description: AI agent output examples segmented by company size — enterprise, mid-market, startup
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/by-company-size/"
+robots: "index,follow"
+tags: ["hermes output", "ai output", "case study"]
+
 ---
 
 # Outputs by Company Size

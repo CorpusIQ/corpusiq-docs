@@ -4,6 +4,9 @@ description: Field-service dispatch for AI agents — instant quotes, tracked wo
 category: mcp
 tags: [mcp, field-service, dispatch, work-orders, quotes, trade-operations, hermes-agent]
 last_updated: 2026-07-26
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/steadywrk-dispatch-mcp/"
+robots: "index,follow"
+
 ---
 
 # STEADYWRK Dispatch MCP — Field-Service Operations for Hermes Agent

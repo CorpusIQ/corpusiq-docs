@@ -1,6 +1,11 @@
 ---
 title: openclaw-release-maintainer — Setup Guide
 description: Automate OpenClaw skill releases with semantic versioning, changelog generation, tag creation, and GitHub release publishing. Part of the Clawdis ecosystem.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-release-maintainer-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # openclaw-release-maintainer — Setup Guide

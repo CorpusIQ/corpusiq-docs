@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: platform
 setup: npx skills add intellectronica/agent-skills
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/platform/notion-api/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Notion Api"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Notion Api

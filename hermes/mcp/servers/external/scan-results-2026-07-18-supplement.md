@@ -1,9 +1,12 @@
 ---
 title: "MCP Server Scan Supplement — July 18, 2026 (Evening)"
-description: "Evening supplement to the daily MCP server discovery scan. 4 new integration guides created: SocialBu (social media management), Velarion (executive compensation), Backengine (customer context), Docker MCP (container management)."
+description: "Evening supplement to the daily MCP server discovery scan. 4 new integration guides created: SocialBu (social media management), Velarion (executive"
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
 last_updated: 2026-07-18
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-18-supplement/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Scan Supplement — July 18, 2026 (Evening)

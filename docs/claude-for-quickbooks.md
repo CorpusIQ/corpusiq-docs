@@ -15,6 +15,10 @@ last_updated: '2026-06-16'
 category: QuickBooks
 cluster: 5
 canonical_url: https://www.corpusiq.io/docs/claude-for-quickbooks
+canonical: "https://www.corpusiq.io/docs/claude-for-quickbooks/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # Claude for QuickBooks: Advanced AI Financial Analysis with Anthropic's Claude

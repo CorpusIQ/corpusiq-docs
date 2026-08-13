@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent Library"
-description: "Complete library of 9 role-specific Hermes agent configurations: sales, marketing, devops, support, finance, HR, research, legal, and executive. Deploy in minutes with cron schedules and MCP connectors."
+description: "Complete library of 9 role-specific Hermes agent configurations: sales, marketing, devops, support, finance, HR, research, legal, and executive. Deploy in"
 category: Agents
 tags:
   - agent-library
@@ -9,6 +9,9 @@ tags:
   - role-configurations
   - production-agents
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/agents/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Library  --  9 Production-Ready AI Agent Blueprints

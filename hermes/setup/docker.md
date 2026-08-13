@@ -4,6 +4,9 @@ description: Deploy Hermes Agent as a Docker container for reproducible AI autom
 category: setup
 tags: [docker, hermes-agent, setup-guide, container, docker-compose, reproducible, cicd, deployment]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/setup/docker/"
+robots: "index,follow"
+
 ---
 
 # Docker Hermes Agent Setup  --  Reproducible Container Deployment

@@ -11,6 +11,9 @@ tags:
   - AI agent
   - public sector
 last_updated: "2026-08-12"
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/government/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Government Automation

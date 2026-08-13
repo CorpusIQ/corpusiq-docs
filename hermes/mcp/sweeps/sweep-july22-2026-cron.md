@@ -1,9 +1,12 @@
 ---
 title: "MCP Server Sweep — July 22-23, 2026 (Cron Discovery)"
-description: "Cron-triggered sweep of mcp.so and mcpservers.org. 14 net-new servers discovered (8 not in any prior sweep). 8 integration guides drafted for business-operator-relevant servers. Headline finds: Goalie Trademark Search (14M USPTO records), FeatureBoard (agentic governance), Routara LLM Gateway (787+ models), Confluence2MD (offline Confluence search)."
+description: "Cron-triggered sweep of mcp.so and mcpservers.org. 14 net-new servers discovered (8 not in any prior sweep). 8 integration guides drafted for"
 category: mcp
 tags: [mcp-servers, discovery, sweep, catalog, 2026, cron]
 last_updated: 2026-07-22
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july22-2026-cron/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Sweep — July 22-23, 2026 (Cron Discovery)

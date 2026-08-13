@@ -22,6 +22,8 @@ tags:
 - ai-powered-executive-reporting
 - executive-reporting-artificial-intelligence
 - how-to-use-ai-for-executive-reporting
+robots: "index,follow"
+
 ---
 
 # AI for Executive Reporting: Instant Board-Ready Intelligence

@@ -22,6 +22,8 @@ tags:
 - ai-powered-kpi-monitoring
 - kpi-monitoring-artificial-intelligence
 - how-to-use-ai-for-kpi-monitoring
+robots: "index,follow"
+
 ---
 
 # AI for KPI Monitoring: Real-Time Metrics at Your Fingertips

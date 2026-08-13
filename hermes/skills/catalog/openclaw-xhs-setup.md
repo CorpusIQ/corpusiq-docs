@@ -4,6 +4,11 @@ description: Install and configure zhjiang22/openclaw-xhs — Xiaohongshu (Littl
 author: zhjiang22
 repo: https://github.com/zhjiang22/openclaw-xhs
 stars: 113
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-xhs-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # OpenClaw XHS (Xiaohongshu) Setup Guide

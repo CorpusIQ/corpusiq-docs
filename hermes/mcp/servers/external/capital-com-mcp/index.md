@@ -8,6 +8,10 @@ discovered: 2026-07-22
 stars: 4
 author: capital-com-sv
 github: https://github.com/capital-com-sv
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/capital-com-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # Capital.com MCP

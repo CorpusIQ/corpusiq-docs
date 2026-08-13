@@ -16,6 +16,10 @@ last_updated: '2026-06-16'
 category: QuickBooks
 cluster: 5
 canonical_url: https://www.corpusiq.io/docs/quickbooks-dashboard-with-chatgpt
+canonical: "https://www.corpusiq.io/docs/quickbooks-dashboard-with-chatgpt/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # QuickBooks Dashboard with ChatGPT: Real-Time Financial Visibility at Your Fingertips

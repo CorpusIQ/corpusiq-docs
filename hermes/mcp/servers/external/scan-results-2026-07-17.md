@@ -1,9 +1,12 @@
 ---
 title: "MCP Server Scan Results — July 17, 2026"
-description: "Daily MCP server discovery scan from mcp.so + mcpservers.org. 1 major new server found, 1 guide created. 1Password ships official MCP — landmark moment for agent security."
+description: "Daily MCP server discovery scan from mcp.so + mcpservers.org. 1 major new server found, 1 guide created. 1Password ships official MCP — landmark moment for"
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
 last_updated: 2026-07-17
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-17/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Scan — July 17, 2026

@@ -2,6 +2,10 @@
 title: byakugan MCP Server
 description: "Setup and usage guide for byakugan MCP Server. Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/byakugan/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # byakugan MCP Server

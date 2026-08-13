@@ -1,6 +1,11 @@
 ---
 title: "June 30, 2026 (Update) — Matt Pocock Engineering Skills"
-description: "7 additional Hermes skills discovered June 30, 2026 late sweep: 5 Matt Pocock engineering skills (1.3M+ combined installs), ChromaDB integration, OpenClaw skill loader."
+description: "7 additional Hermes skills discovered June 30, 2026 late sweep: 5 Matt Pocock engineering skills (1.3M+ combined installs), ChromaDB integration, OpenClaw"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june30-2026-update/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # 🆕 June 30, 2026 — Update: 7 Additional Skills

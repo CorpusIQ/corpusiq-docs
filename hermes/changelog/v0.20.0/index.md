@@ -1,6 +1,11 @@
 ---
 title: Hermes Agent v0.20.0 — The Herald Release
 description: Hermes Agent v0.20.0 (v2026.8.3) — The Herald Release. Streaming conversational voice with barge-in, A2A v1.0 agent protocol, signed outbound webhooks, grounded research citations, desktop artifacts & plugin SDK, CLI power commands, tool self-recovery, and smarter compression. ~3,650 commits, 647 contributors. August 3, 2026.
+canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.20.0/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Hermes Agent v0.20.0 (v2026.8.3)

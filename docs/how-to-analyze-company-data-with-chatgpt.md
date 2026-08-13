@@ -7,6 +7,10 @@ author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
 tags: ["chatgpt-analytics", "company-data-analysis", "ai-business-analytics", "mcp-chatgpt"]
+canonical: "https://www.corpusiq.io/docs/how-to-analyze-company-data-with-chatgpt/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # How to Analyze Company Data with ChatGPT

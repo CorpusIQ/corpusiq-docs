@@ -7,6 +7,11 @@ created: 2026-07-21
 category: Industrial
 stars: 0
 tags: [industrial, automation, factory, iot, plc, scada]
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ft-optix-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+description: "FT Optix Studio credentials (username/password). Requires network access to the FT Optix server."
+
 ---
 
 # FT Optix MCP Server

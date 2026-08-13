@@ -1,6 +1,11 @@
 ---
 title: Cron Design Workflow — Full Setup Guide for Hermes Agents
 description: Install and configure the Cron Design Workflow skill from lovenps85/hermes-cron-design-workflow-skill. Reusable workflow for designing and improving Hermes cron jobs, scheduled automations, and recurring operations.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cron-design-workflow-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Cron Design Workflow — Setup Guide

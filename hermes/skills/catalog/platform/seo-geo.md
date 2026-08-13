@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: platform
 setup: npx skills add resciencelab/opc-skills
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/platform/seo-geo/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Seo Geo"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Seo Geo

@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: elevenlabs
 setup: npx skills add elevenlabs/skills@speech-to-text
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/elevenlabs/speech-to-text/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Speech To Text"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Speech To Text

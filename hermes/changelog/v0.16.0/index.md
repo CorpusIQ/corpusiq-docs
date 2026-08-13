@@ -1,6 +1,11 @@
 ---
 title: Hermes Agent v0.16.0  --  The Surface Release
 description: Desktop app, remote gateway, web admin panel, fuzzy model picker, /undo, Simplified Chinese translation, leaner skills, NVIDIA/skills tap. June 5, 2026.
+canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.16.0/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Hermes Agent v0.16.0 (v2026.6.5)  --  The Surface Release

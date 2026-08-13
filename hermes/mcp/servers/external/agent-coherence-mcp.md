@@ -1,9 +1,12 @@
 ---
-title: "Agent Coherence MCP — Multi-Agent File Conflict Prevention"
+title: "Agent Coherence MCP — Multi-Agent File Conflict"
 description: "Stop AI agents from silently overwriting each other's shared files — a single-host coherence guard, TLA+-verified."
 category: mcp
 tags: [mcp-server, agent-infrastructure, coherence, multi-agent, filesystem]
 last_updated: 2026-07-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/agent-coherence-mcp/"
+robots: "index,follow"
+
 ---
 
 # Agent Coherence MCP Server ★ New (July 12)

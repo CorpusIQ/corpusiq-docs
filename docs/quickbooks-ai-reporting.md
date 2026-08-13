@@ -17,6 +17,10 @@ last_updated: '2026-06-16'
 category: QuickBooks
 cluster: 5
 canonical_url: https://www.corpusiq.io/docs/quickbooks-ai-reporting
+canonical: "https://www.corpusiq.io/docs/quickbooks-ai-reporting/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # QuickBooks AI Reporting: Automated Financial Intelligence at Conversation Speed

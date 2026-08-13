@@ -7,6 +7,11 @@ source_repo: lesterppo/hermes-agel-comp
 stars: 0
 language: Python
 platforms: [Linux, macOS]
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agel-comp-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # AGEL-Comp Safety Framework — Full Setup Guide

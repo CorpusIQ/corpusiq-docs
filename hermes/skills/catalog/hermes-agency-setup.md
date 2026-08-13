@@ -7,6 +7,10 @@ stars: 0
 license: Apache 2.0
 created: June 22, 2026
 last_updated: June 22, 2026
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agency-setup/"
+robots: "index,follow"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Agency — P2P Agent Collaboration Setup Guide

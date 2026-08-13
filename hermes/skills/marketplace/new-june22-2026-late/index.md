@@ -1,6 +1,11 @@
 ---
 title: "New Hermes Skill Repo"
-description: "12 newly discovered Hermes Agent skills from aawobdev/hermes-skills  --  a complete multi-agent blueprint orchestration system: Architect, Developer, Tester, Designer, DevOps, Security Auditor, End-User, Researcher, Orchestrator, Model Routing, Prompting Standards"
+description: "12 newly discovered Hermes Agent skills from aawobdev/hermes-skills  --  a complete multi-agent blueprint orchestration system: Architect, Developer"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june22-2026-late/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills: June 22, 2026 (Late Sweep)  --  aawobdev/hermes-skills

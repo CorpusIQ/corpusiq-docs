@@ -1,6 +1,11 @@
 ---
 title: Founders OS MCP Integration Guide
 description: Full setup guide for Founders OS — open-source MCP server connecting CRM, financials, tasks, and memory for founders and business operators
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/founders-os/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Founders OS MCP — Integration Guide

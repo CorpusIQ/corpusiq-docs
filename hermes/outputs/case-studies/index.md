@@ -2,6 +2,10 @@
 title: Case Studies
 description: Real-world Hermes Agent deployment case studies across 13 industries
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/"
+robots: "index,follow"
+tags: ["hermes output", "ai output", "case study"]
+
 ---
 
 # Case Studies

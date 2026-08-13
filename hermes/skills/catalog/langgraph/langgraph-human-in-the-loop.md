@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: langgraph
 setup: pip install langgraph
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/langgraph/langgraph-human-in-the-loop/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Langgraph Human In The Loop"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Langgraph Human In The Loop

@@ -11,6 +11,9 @@ tags:
   - client onboarding
   - AI agent
 last_updated: "2026-08-12"
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/professional-services/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Professional Services Automation

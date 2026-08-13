@@ -1,7 +1,12 @@
 ---
 title: "Blogwatcher — RSS/Atom Feed Monitoring for Hermes"
-description: "Install and configure the blogwatcher-cli skill for RSS/Atom feed monitoring on Hermes Agent. Monitor blogs, news feeds, and content sources without API keys."
+description: "Install and configure the blogwatcher-cli skill for RSS/Atom feed monitoring on Hermes Agent. Monitor blogs, news feeds, and content sources without API"
 category: catalog
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/blogwatcher-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Blogwatcher — RSS/Atom Feed Monitoring Setup Guide

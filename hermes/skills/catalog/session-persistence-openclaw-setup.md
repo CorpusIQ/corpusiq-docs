@@ -1,6 +1,11 @@
 ---
 title: Session Persistence (OpenClaw) — SQLite message history for Hermes Agent memory
 description: Import session transcripts into SQLite with FTS5 full-text search — agent never loses messages across compaction or rollover. 28+ installs from archieindian/openclaw-superpowers.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/session-persistence-openclaw-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Session Persistence (OpenClaw) — Setup Guide

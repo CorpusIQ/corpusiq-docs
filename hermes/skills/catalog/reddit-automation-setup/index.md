@@ -1,6 +1,11 @@
 ---
 title: Reddit Automation — Setup Guide for Hermes Agents
 description: Find high-intent Reddit threads and draft honest, helpful replies — 112.9K+ installs from doany.ai
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/reddit-automation-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Reddit Automation — Setup Guide

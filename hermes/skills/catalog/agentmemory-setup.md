@@ -5,6 +5,11 @@ author: rohitg00
 repo: https://github.com/rohitg00/agentmemory
 stars: 25,207
 license: MIT
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentmemory-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # AgentMemory Setup Guide

@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: shopify
 setup: npx skills add shopify/shopify-ai-toolkit@shopify-admin
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/shopify/shopify-admin/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Shopify Admin"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Shopify Admin

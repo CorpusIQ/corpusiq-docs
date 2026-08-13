@@ -1,6 +1,11 @@
 ---
 title: Phuryn PM Skills — Competitive Strategy for Hermes Agents
 description: Competitive analysis, business model generation, and privacy policy creation with 7K+ combined installs. Structured competitive intelligence with differentiation mapping and strategic synthesis.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/phuryn-pm-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Phuryn PM Skills — Setup Guide

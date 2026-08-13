@@ -1,6 +1,11 @@
 ---
 title: openclaw-grok-search — Setup Guide
 description: Integrate xAI Grok search into Hermes agents. Real-time web search with AI-powered analysis and synthesis for competitive research and market monitoring.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-grok-search-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # openclaw-grok-search — Setup Guide

@@ -1,6 +1,6 @@
 ---
-title: "openInvest — Research-Grade Investment Decision Engine MCP"
-description: "Multi-agent investment committee for AI agents — isolated agents debate each position, auditable verdicts with lookahead-protected backtests, published negative results. 63⭐. Python."
+title: "openInvest — Research-Grade Investment Decision Engine"
+description: "Multi-agent investment committee for AI agents — isolated agents debate each position, auditable verdicts with lookahead-protected backtests, published"
 source: github.com/longsizhuo/openInvest
 stars: 63
 language: Python
@@ -8,6 +8,10 @@ transport: stdio
 auth: None (bring your own data sources)
 category: Finance & Fintech
 last_updated: 2026-07-20
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/openinvest-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # openInvest — Research-Grade Investment Decision Engine

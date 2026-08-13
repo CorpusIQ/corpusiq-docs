@@ -1,6 +1,11 @@
 ---
 title: Hermes Tools & SDK Reference
 description: Complete directory of 140+ tools and SDKs compatible with Hermes Agent  --  browsers, search, code execution, media, deployment, and more.
+canonical: "https://www.corpusiq.io/docs/hermes/tools/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Hermes Tools & SDK Reference

@@ -11,6 +11,12 @@ relevance: "HIGH — UK business data, property, verification"
 date_added: "2026-07-26"
 source: "mcp.so (Jul 23, 2026) + direct API discovery"
 status: "active"
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/oromi-agent-services/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+description: "The npx package auto-handles x402 micropayments. All 25 tools are discovered automatically from the live OpenAPI spec — no manual tool registration needed."
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Oromi Agent Services MCP

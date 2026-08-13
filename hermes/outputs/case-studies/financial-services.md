@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent Financial Services Automation"
-description: "Automate portfolio monitoring, transaction reconciliation, fraud detection, and regulatory filing with Hermes Agent AI workflows for financial services firms."
+description: "Automate portfolio monitoring, transaction reconciliation, fraud detection, and regulatory filing with Hermes Agent AI workflows for financial services"
 category: "Case Study"
 tags:
   - financial services
@@ -11,6 +11,9 @@ tags:
   - AI agent
   - fintech automation
 last_updated: "2026-08-12"
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/financial-services/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Financial Services Automation

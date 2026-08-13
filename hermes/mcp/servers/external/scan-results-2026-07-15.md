@@ -4,6 +4,9 @@ description: "Automated scan of mcpservers.org (sitemap) + mcp.so. 11 new server
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
 last_updated: 2026-07-15
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-15/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Scan — July 15, 2026

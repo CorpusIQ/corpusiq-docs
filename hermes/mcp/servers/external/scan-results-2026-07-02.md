@@ -1,6 +1,11 @@
 ---
 title: "MCP Server Scan Results — 2026-07-02"
-description: "July 2 MCP server discovery scan. 18 new business-relevant servers found — finance vertical explodes, pipeworx-io industrializes MCP wrapping, GraphRAG memory arrives."
+description: "July 2 MCP server discovery scan. 18 new business-relevant servers found — finance vertical explodes, pipeworx-io industrializes MCP wrapping, GraphRAG"
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-02/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MCP Server Directory Scan — July 2, 2026

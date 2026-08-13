@@ -5,6 +5,11 @@ skill_name: hermes-a2a-bridge
 repo: asimons81/hermes-a2a-bridge
 compatibility: Hermes Agent v0.20.0+
 installs: New (June 2026)
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-a2a-bridge-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes A2A Bridge — Setup Guide

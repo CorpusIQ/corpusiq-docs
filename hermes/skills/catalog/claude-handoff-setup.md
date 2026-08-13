@@ -1,6 +1,11 @@
 ---
 title: Claude Handoff — Session Handoff Pattern for Hermes Agents
 description: Hand the current conversation off to a fresh background agent that picks up work immediately. 63.5K+ installs. Essential pattern for long-running multi-session agent workflows.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-handoff-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Claude Handoff — Setup Guide

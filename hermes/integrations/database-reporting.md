@@ -4,6 +4,9 @@ description: Connect databases (PostgreSQL, MySQL, SQL Server, MongoDB) to Herme
 category: integrations
 tags: [hermes-agent, integration, database, reporting, postgresql, mysql, mongodb, dashboards, anomaly-detection, cron]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/integrations/database-reporting/"
+robots: "index,follow"
+
 ---
 
 # Database + Reporting Integration  --  Automated Queries & Dashboards

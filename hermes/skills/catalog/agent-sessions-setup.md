@@ -1,10 +1,15 @@
 ---
 title: "agent-sessions — macOS Agent Session Browser Setup"
-description: "Install and configure agent-sessions (683⭐) — a local-first macOS app for browsing, searching, and resuming AI coding-agent session histories across Hermes Agent, Claude Code, Codex, and Cursor."
+description: "Install and configure agent-sessions (683⭐) — a local-first macOS app for browsing, searching, and resuming AI coding-agent session histories across Hermes"
 skill_name: agent-sessions
 category: session-management
 difficulty: Easy
 platforms: [macOS]
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-sessions-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # agent-sessions — Full Setup Guide

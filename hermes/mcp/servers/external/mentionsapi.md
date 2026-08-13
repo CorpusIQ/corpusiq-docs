@@ -4,6 +4,9 @@ description: Track brand mentions across AI platforms (ChatGPT, Claude, Gemini, 
 category: mcp
 tags: [mcp, mentionsapi, brand-monitoring, geo, ai-visibility, hermes-agent]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mentionsapi/"
+robots: "index,follow"
+
 ---
 
 # MentionsAPI MCP — AI Brand Monitoring for Hermes Agent

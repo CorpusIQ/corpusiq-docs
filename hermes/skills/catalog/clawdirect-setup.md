@@ -1,6 +1,11 @@
 ---
 title: "napoleond/clawdirect — Agent Self-Direction Framework"
-description: "Complete setup guide for clawdirect and clawdirect-dev: structured agent task execution, work trees, directives, and development mode for Hermes/OpenClaw agents."
+description: "Complete setup guide for clawdirect and clawdirect-dev: structured agent task execution, work trees, directives, and development mode for Hermes/OpenClaw"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/clawdirect-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Setup Guide: napoleond/clawdirect

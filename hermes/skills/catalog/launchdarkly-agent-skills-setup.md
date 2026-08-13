@@ -1,6 +1,11 @@
 ---
 title: "LaunchDarkly Agent Skills Setup Guide"
 description: "Install and configure LaunchDarkly agent skills for feature flags, experiments, metrics, and AI agent control — 25+ skills, ~26K installs"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/launchdarkly-agent-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # LaunchDarkly Agent Skills

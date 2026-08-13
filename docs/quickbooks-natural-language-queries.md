@@ -17,6 +17,10 @@ last_updated: '2026-06-16'
 category: QuickBooks
 cluster: 5
 canonical_url: https://www.corpusiq.io/docs/quickbooks-natural-language-queries
+canonical: "https://www.corpusiq.io/docs/quickbooks-natural-language-queries/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # QuickBooks Natural Language Queries: Ask Your Financial Data Anything

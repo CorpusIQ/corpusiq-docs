@@ -1,6 +1,6 @@
 ---
 title: "Orbiads GAM MCP — Google Ad Manager for AI Agents"
-description: "Hosted MCP server for Google Ad Manager — 200+ tools across campaign management, line items, creatives (image/video/HTML5/native), interactive reporting, inventory exploration, and ad-ops compliance audits. OAuth on-behalf-of-user."
+description: "Hosted MCP server for Google Ad Manager — 200+ tools across campaign management, line items, creatives (image/video/HTML5/native), interactive reporting"
 source: github.com/OrbiAds/Orbiads-GAM-MCP
 stars: 3
 language: Python
@@ -8,6 +8,10 @@ transport: Streamable HTTP (hosted)
 auth: OAuth 2.0 (Google Ad Manager)
 category: Marketing/AdTech
 last_updated: 2026-07-20
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/orbiads-gam-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Orbiads GAM MCP — Google Ad Manager for AI Agents

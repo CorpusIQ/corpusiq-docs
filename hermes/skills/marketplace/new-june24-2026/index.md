@@ -1,6 +1,11 @@
 ---
 title: June 24, 2026 — Skills Discovery Roundup
 description: 22 new Hermes skill repos discovered on June 24, 2026 including Ashima orchestration router, SG Arrival Card automation, Perfectloop design framework, and Three-Agent Bridge Protocol
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june24-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # 🆕 June 24, 2026 — Skills Discovery Roundup

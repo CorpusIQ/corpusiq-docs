@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: langgraph
 setup: pip install langgraph langgraph-checkpoint
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/langgraph/deep-agents-memory/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Deep Agents Memory"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Deep Agents Memory

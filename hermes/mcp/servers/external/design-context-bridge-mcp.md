@@ -1,9 +1,12 @@
 ---
-title: "Design Context Bridge MCP — Figma-to-Code for Hermes Agent"
-description: "Turn any AI agent into a frontend developer that reads Figma files natively. Components, colors, type scale, routes, icons — faithful design-to-code, not screenshot guessing."
+title: "Design Context Bridge MCP — Figma-to-Code for Hermes"
+description: "Turn any AI agent into a frontend developer that reads Figma files natively. Components, colors, type scale, routes, icons — faithful design-to-code, not"
 category: mcp
 tags: [mcp-server, design, figma, frontend, design-to-code, components, product-design]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/design-context-bridge-mcp/"
+robots: "index,follow"
+
 ---
 
 # Design Context Bridge MCP Server ★ New (July 4)

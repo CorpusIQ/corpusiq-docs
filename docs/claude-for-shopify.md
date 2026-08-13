@@ -16,6 +16,10 @@ last_updated: '2026-06-16'
 category: Shopify
 cluster: 6
 canonical_url: https://www.corpusiq.io/docs/claude-for-shopify
+canonical: "https://www.corpusiq.io/docs/claude-for-shopify/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # Claude for Shopify: Deep Ecommerce Intelligence with Anthropic's AI

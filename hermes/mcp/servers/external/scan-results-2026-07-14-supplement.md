@@ -4,6 +4,9 @@ description: "Supplemental scan from mcpservers.org (newly accessible) + mcp.so 
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
 last_updated: 2026-07-14
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-14-supplement/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Scan Supplement — July 14, 2026 (Evening)

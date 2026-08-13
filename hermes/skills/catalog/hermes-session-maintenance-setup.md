@@ -4,6 +4,11 @@ description: Zero-token monthly cleanup for Hermes Agent  --  close zombie sessi
 author: salt-vrn (Leonid Zolotarev, NeiroHost.ru)
 repo: https://github.com/salt-vrn/hermes-session-maintenance
 license: MIT
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-session-maintenance-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Session Maintenance Setup

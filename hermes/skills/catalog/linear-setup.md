@@ -1,6 +1,11 @@
 ---
 title: Linear Integration — Skill Setup Guide
 description: Install and configure linear, the Hermes Agent skill for managing Linear.app issues, projects, and teams via GraphQL API — no OAuth, no MCP server — 80 installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/linear-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Linear — Issue & Project Management Setup Guide

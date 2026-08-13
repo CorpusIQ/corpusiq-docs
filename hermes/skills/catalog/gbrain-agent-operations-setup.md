@@ -1,6 +1,11 @@
 ---
 title: GBrain Agent Operations — Full Setup Guide for Hermes Agents
 description: Install, configure, and use GBrain operational skills for Hermes Agents — cross-modal review, soul audit, cron scheduling, minion orchestration, and daily task preparation.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/gbrain-agent-operations-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # GBrain Agent Operations — Setup Guide

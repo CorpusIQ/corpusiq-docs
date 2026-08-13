@@ -1,6 +1,11 @@
 ---
 title: "June 11, 2026  --  Update #2 (28 New Skills)"
-description: "Evening sweep: 23 OpenClaw ecosystem skills from aradotso/hermes-skills plus 5 new standalone Hermes skills. Agent control centers, Chinese platform integrations, deployment tooling, PPT generation, QQ bot, and marketing dashboard."
+description: "Evening sweep: 23 OpenClaw ecosystem skills from aradotso/hermes-skills plus 5 new standalone Hermes skills. Agent control centers, Chinese platform"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june11-2026-update2/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # June 11, 2026  --  Update #2: 28 New Skills

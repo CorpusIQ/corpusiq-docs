@@ -1,6 +1,11 @@
 ---
 title: Addy Osmani — Production-Grade Agent Skills for Hermes
 description: 20 engineering skills from Google Chrome's Addy Osmani covering CI/CD, code review, performance optimization, security hardening, debugging, test-driven development, and shipping best practices. 80.5K GitHub stars, 14.1K+ installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/addyosmani-agent-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Addy Osmani — Agent Skills Setup Guide

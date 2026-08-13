@@ -1,6 +1,11 @@
 ---
 title: Debugging Hermes TUI Commands — Skill Setup Guide
 description: Install and configure debugging-hermes-tui-commands, the official Hermes Agent skill for troubleshooting TUI slash command issues — 76 installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/debugging-hermes-tui-commands-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Debugging Hermes TUI Slash Commands — Setup Guide

@@ -4,6 +4,9 @@ description: End-to-end Hermes Agent content pipeline blueprint. Research, ideat
 category: blueprints
 tags: [hermes-agent, blueprint, content-pipeline, content-production, seo, editorial-workflow, publishing]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/blueprints/content-pipeline/"
+robots: "index,follow"
+
 ---
 
 # Content Pipeline Blueprint  --  Automated Content Production

@@ -7,6 +7,11 @@ source_url: https://mcp.so/servers/clipkit
 category: Content & Media
 rating: ★★★
 status: active
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/clipkit-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Clipkit MCP Server

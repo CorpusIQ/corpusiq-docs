@@ -1,6 +1,11 @@
 ---
 title: StepFun (阶跃星辰) — Full Setup Guide for Hermes Agents
 description: Install and configure the StepFun API skills from fengjunlu618/stepfun-skills. First Chinese LLM provider for Hermes Agent — multimodal reasoning, TTS, ASR, image generation, real-time voice, and RAG via Step Plan subscription.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stepfun-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # StepFun (阶跃星辰) — Setup Guide

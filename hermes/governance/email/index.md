@@ -1,6 +1,11 @@
 ---
 title: Email Operations
 description: Autonomous email management for dual-account operations. Monitoring, send checklist, HTML templates, response standards.
+canonical: "https://www.corpusiq.io/docs/hermes/governance/email/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Email Operations

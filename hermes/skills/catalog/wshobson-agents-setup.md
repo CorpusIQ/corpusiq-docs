@@ -1,6 +1,11 @@
 ---
 title: wshobson/agents — Agent Plugin Marketplace for Hermes
 description: Access 94 plugins, 203 agents, 175 skills, and 109 commands from the wshobson/agents marketplace. Multi-harness support for Claude Code, Codex CLI, Cursor, OpenCode, Gemini CLI, and GitHub Copilot — all from a single source.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wshobson-agents-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # wshobson/agents — Agent Plugin Marketplace

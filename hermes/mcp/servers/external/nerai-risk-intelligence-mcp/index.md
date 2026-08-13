@@ -1,6 +1,6 @@
 ---
-title: "NERAI Risk Intelligence MCP — Geopolitical grounding layer for AI agents"
-description: "Connect NERAI's geopolitical risk intelligence — 60 countries, calibrated forecasts, maritime chokepoint tracking, sanctions, and trade-control data — directly to AI agents via MCP. Remote Streamable HTTP, instant free key."
+title: "NERAI Risk Intelligence MCP — Geopolitical grounding"
+description: "Connect NERAI's geopolitical risk intelligence — 60 countries, calibrated forecasts, maritime chokepoint tracking, sanctions, and trade-control data"
 category: mcp
 tags: [mcp-server, risk-intelligence, geopolitics, supply-chain, compliance, procurement, trading]
 source: mcp.so
@@ -11,6 +11,10 @@ github: https://github.com/serkvay13/nerai-mcp
 mcp_endpoint: https://nerai-mcp.neraicorp.workers.dev/mcp
 transport: Streamable HTTP
 auth: Bearer token (instant free key via POST /register)
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/nerai-risk-intelligence-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # NERAI Risk Intelligence MCP Server

@@ -1,9 +1,12 @@
 ---
 title: "VoIP.ms MCP — Business Telephony for AI Agents"
-description: "Manage business phone numbers, send/receive SMS, handle voicemail, configure call flows, and access billing — all from AI agents. Complete VoIP.ms platform operations over MCP."
+description: "Manage business phone numbers, send/receive SMS, handle voicemail, configure call flows, and access billing — all from AI agents. Complete VoIP.ms platform"
 category: mcp
 tags: [mcp-server, voip, telephony, sms, communication, phone-numbers, call-flows, business-phone]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/voipms-mcp/"
+robots: "index,follow"
+
 ---
 
 # VoIP.ms MCP Server ★ New (July 2 PM)

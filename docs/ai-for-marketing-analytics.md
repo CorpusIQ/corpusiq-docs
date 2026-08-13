@@ -22,6 +22,8 @@ tags:
 - ai-powered-marketing-analytics
 - marketing-analytics-artificial-intelligence
 - how-to-use-ai-for-marketing-analytics
+robots: "index,follow"
+
 ---
 
 # AI for Marketing Analytics: Campaign Intelligence in Real Time

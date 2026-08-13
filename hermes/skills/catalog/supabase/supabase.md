@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: supabase
 setup: npx skills add supabase/agent-skills@supabase
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/supabase/supabase/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Supabase"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Supabase

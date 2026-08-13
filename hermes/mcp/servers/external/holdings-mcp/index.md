@@ -4,6 +4,9 @@ description: "Agentic invoicing and payments — let your AI send invoices and t
 category: mcp
 tags: [mcp-server, invoicing, payments, finance-operations, accounts-receivable, hermes-agent]
 last_updated: 2026-08-10
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/holdings-mcp/"
+robots: "index,follow"
+
 ---
 
 # Holdings MCP — Agentic Invoicing & Payments

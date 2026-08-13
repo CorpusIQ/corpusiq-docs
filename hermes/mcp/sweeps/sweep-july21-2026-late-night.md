@@ -1,9 +1,12 @@
 ---
 title: "MCP Server Sweep — July 21, 2026 (Late Night)"
-description: "30 brand-new MCP servers discovered from mcpservers.org /all page (newest-first listing). 6 integration guides drafted for business-operator-relevant servers. Headline finds: FreshBooks MCP, Google Ads MCP, Google Analytics MCP, BuiltWith, KPI Depot, 1ClickReport."
+description: "30 brand-new MCP servers discovered from mcpservers.org /all page (newest-first listing). 6 integration guides drafted for business-operator-relevant"
 category: mcp
 tags: [mcp-servers, discovery, sweep, catalog, 2026]
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july21-2026-late-night/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Sweep — July 21, 2026 (Late Night)

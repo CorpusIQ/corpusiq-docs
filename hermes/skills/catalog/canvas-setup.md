@@ -1,6 +1,11 @@
 ---
 title: Canvas LMS — Full Setup Guide for Hermes Agents
 description: Install, configure, and use the Canvas LMS skill from NousResearch. Read-only access to courses, assignments, and grades for student agents.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/canvas-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Canvas LMS — Setup Guide

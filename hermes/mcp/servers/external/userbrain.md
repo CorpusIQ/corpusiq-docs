@@ -4,6 +4,9 @@ description: "Explore user testing data, summarize session feedback, and uncover
 category: mcp
 tags: [mcp-server, ux-research, usability-testing, user-testing, product-research]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/userbrain/"
+robots: "index,follow"
+
 ---
 
 # Userbrain MCP — UX Research Connector

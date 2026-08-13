@@ -1,6 +1,11 @@
 ---
 title: Agent Governance
 description: Production governance for autonomous agents  --  system registry, email ops, cron management, monitoring
+canonical: "https://www.corpusiq.io/docs/hermes/governance/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Agent Governance

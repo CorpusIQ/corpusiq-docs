@@ -2,6 +2,10 @@
 title: IMAP/SMTP Email — OpenClaw Email Integration Setup Guide
 description: Setup guide for the imap-smtp-email skill — bring email reading and sending capabilities to your OpenClaw agent. IMAP for inbox access, SMTP for sending.
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/imap-smtp-email-setup/"
+robots: "index,follow"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # IMAP/SMTP Email — OpenClaw Email Integration

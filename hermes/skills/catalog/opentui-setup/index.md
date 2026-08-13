@@ -1,6 +1,11 @@
 ---
 title: OpenTUI — Setup Guide for Hermes Agents
 description: Build terminal user interfaces with Core, React, or Solid APIs — 52.8K+ installs
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/opentui-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # OpenTUI — Setup Guide

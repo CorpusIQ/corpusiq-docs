@@ -1,7 +1,11 @@
 ---
-title: "Connect Shopify to ChatGPT: Real-Time Business Answers Without Dashboards"
+title: "Connect Shopify to ChatGPT: Real-Time Business Answers"
 description: "Setup and usage guide for Connect Shopify to ChatGPT: Real-Time Business Answers Without Dashboards. Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/seo/connect-shopify-to-chatgpt/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Connect Shopify to ChatGPT: Real-Time Business Answers Without Dashboards

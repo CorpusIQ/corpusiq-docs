@@ -1,6 +1,11 @@
 ---
 title: Matt Pocock TypeScript Developer Toolkit — Setup Guide
 description: Install and configure 19 Matt Pocock skills for Hermes Agent — complete TypeScript/React development lifecycle automation with 1.7M+ combined installs. Writing, refactoring, code review, implementation workflows, and decision mapping.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mattpocock-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Matt Pocock TypeScript Developer Toolkit

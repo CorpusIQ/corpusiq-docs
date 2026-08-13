@@ -1,6 +1,11 @@
 ---
 title: TimesFM Forecasting — Full Setup Guide for Hermes Agents
 description: Install and use Google's TimesFM for zero-shot time series forecasting from Hermes agents. Predict revenue, usage, growth — no training required.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/timesfm-forecasting-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # TimesFM Forecasting — Setup Guide

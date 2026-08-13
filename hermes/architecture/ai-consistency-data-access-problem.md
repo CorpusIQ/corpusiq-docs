@@ -2,6 +2,10 @@
 title: The AI Consistency Problem No One Is Talking About
 description: "Setup and usage guide for The AI Consistency Problem No One Is Talking About. Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/architecture/ai-consistency-data-access-problem/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # The AI Consistency Problem No One Is Talking About

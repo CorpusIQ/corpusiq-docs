@@ -11,6 +11,9 @@ tags:
   - AI agent
   - fundraising automation
 last_updated: "2026-08-12"
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/nonprofit/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Nonprofit Automation

@@ -1,12 +1,17 @@
 ---
 title: "Orcha MCP — Unified Context Layer for Organizations"
-description: "Store, index, and expose organizational knowledge to AI agents. Files, structured databases, and connected sources in one workspace with permissions, citations, and provenance."
+description: "Store, index, and expose organizational knowledge to AI agents. Files, structured databases, and connected sources in one workspace with permissions"
 date: 2026-08-12
 source: mcp.so
 source_url: https://mcp.so/servers/orcha
 category: Memory & Knowledge
 rating: ★★★
 status: active
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/orcha-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Orcha MCP Server

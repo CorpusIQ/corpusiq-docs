@@ -1,6 +1,6 @@
 ---
-title: "Patsnap Patent Literature Search MCP — Global IP Research for AI Agents"
-description: "Professional MCP tool for searching Patsnap's global patent and literature databases using natural language, semantic, or keyword queries. Markdown-formatted bibliographic data."
+title: "Patsnap Patent Literature Search MCP — Global IP"
+description: "Professional MCP tool for searching Patsnap's global patent and literature databases using natural language, semantic, or keyword queries"
 category: mcp
 tags: [mcp-server, patent-search, ip-research, competitive-intelligence, literature-search]
 source: mcp.so
@@ -8,6 +8,10 @@ discovered: 2026-07-22
 stars: 1
 author: patsnap
 github: https://github.com/patsnap
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/patsnap-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # Patsnap Patent Literature Search MCP

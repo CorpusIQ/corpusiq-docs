@@ -16,6 +16,10 @@ last_updated: '2026-06-16'
 category: Shopify
 cluster: 6
 canonical_url: https://www.corpusiq.io/docs/shopify-business-intelligence
+canonical: "https://www.corpusiq.io/docs/shopify-business-intelligence/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # Shopify Business Intelligence: Turn Your Store Data into Strategic Advantage

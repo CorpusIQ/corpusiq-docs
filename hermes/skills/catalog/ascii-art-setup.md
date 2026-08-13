@@ -1,6 +1,11 @@
 ---
 title: ascii-art — Setup Guide
 description: Generate ASCII art, banners, and text-based graphics — terminal-native visual output for Hermes agents.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ascii-art-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # ascii-art — Setup Guide

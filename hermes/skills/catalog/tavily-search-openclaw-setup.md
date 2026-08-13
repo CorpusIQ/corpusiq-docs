@@ -2,6 +2,10 @@
 title: Tavily Search — Web Search for OpenClaw Setup Guide
 description: Setup guide for the tavily-search skill — AI-optimized web search for OpenClaw agents. Real-time search with source attribution, topic extraction, and structured results.
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tavily-search-openclaw-setup/"
+robots: "index,follow"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Tavily Search — Web Search for OpenClaw

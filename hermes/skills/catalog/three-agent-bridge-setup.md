@@ -1,6 +1,11 @@
 ---
 title: Three-Agent Bridge Protocol Setup Guide
 description: Install and configure airbrushbones-afk/hermes-skills/three-agent-bridge — real-time sync protocol for multi-agent Hermes deployments across separate machines
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/three-agent-bridge-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Three-Agent Bridge Protocol Setup

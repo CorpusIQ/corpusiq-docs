@@ -1,6 +1,11 @@
 ---
 title: "Agent Flywheel Mega-Toolkit Setup Guide"
-description: "Install and configure the Agent Flywheel — 25+ production-grade ClawDBot/Hermes skills covering SSH, deployment, browser automation, multi-agent orchestration, Discord, email, and terminal workflows."
+description: "Install and configure the Agent Flywheel — 25+ production-grade ClawDBot/Hermes skills covering SSH, deployment, browser automation, multi-agent"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agent-flywheel-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Agent Flywheel Mega-Toolkit Setup Guide

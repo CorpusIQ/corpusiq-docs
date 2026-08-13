@@ -1,6 +1,11 @@
 ---
 title: Hermes Agent Skill Authoring — Official Guide for Writing SKILL.md
 description: Official Nous Research guide for writing high-quality SKILL.md files for the Hermes Agent ecosystem. Templates, best practices, validation, and publishing workflow. 230+ installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-skill-authoring-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Agent Skill Authoring — Setup Guide

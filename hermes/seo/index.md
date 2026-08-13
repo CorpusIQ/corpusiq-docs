@@ -2,6 +2,10 @@
 title: SEO Pages — AI Business Intelligence Content
 description: "SEO content pages on AI business intelligence: connecting ChatGPT, Claude, and Perplexity to Shopify, QuickBooks, and Stripe."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/seo/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # SEO Content — AI Business Intelligence

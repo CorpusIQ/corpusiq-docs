@@ -1,6 +1,11 @@
 ---
 title: xurl (X/Twitter) — Full Setup Guide for Hermes Agents
 description: Install, configure, and use the xurl skill from nousresearch/hermes-agent. Post, search, DM, and manage media on X/Twitter from Hermes agents.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/xurl-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # xurl (X/Twitter Integration) — Setup Guide

@@ -1,6 +1,11 @@
 ---
 title: 8 Hours a Week Wasted on Manual Reports — What Business Owners Need Instead
 description: Business owners spend 8 hours weekly pulling data from multiple tools. An AI intelligence layer replaces manual reporting with source-cited answers from live data. Read-only. Zero data stored.
+canonical: "https://www.corpusiq.io/docs/hermes/seo/manual-reporting-time-waste/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # The 8-Hour Tax Nobody Talks About

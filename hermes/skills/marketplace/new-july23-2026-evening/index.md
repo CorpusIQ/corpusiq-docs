@@ -1,6 +1,11 @@
 ---
 title: "New Skills — July 23, 2026 Marketplace Sweep (Evening)"
-description: "7 new Hermes-relevant publishers discovered on skills.sh — Microsoft Azure AI Foundry, Nexscope Amazon, Samber Go, Dean Peters PM, Brad Automates Content, Ognjen Founder, and Phuryn PM. 643K+ combined installs across 27 skills."
+description: "7 new Hermes-relevant publishers discovered on skills.sh — Microsoft Azure AI Foundry, Nexscope Amazon, Samber Go, Dean Peters PM, Brad Automates Content"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july23-2026-evening/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills — July 23, 2026 (Evening)

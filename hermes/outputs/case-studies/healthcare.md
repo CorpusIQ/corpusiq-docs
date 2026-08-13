@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent Healthcare Automation"
-description: "Automate patient record management, appointment scheduling, insurance verification, and lab notifications with HIPAA-compliant Hermes Agent AI workflows for healthcare."
+description: "Automate patient record management, appointment scheduling, insurance verification, and lab notifications with HIPAA-compliant Hermes Agent AI workflows for"
 category: "Case Study"
 tags:
   - healthcare
@@ -11,6 +11,9 @@ tags:
   - AI agent
   - medical automation
 last_updated: "2026-08-12"
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/healthcare/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Healthcare Automation

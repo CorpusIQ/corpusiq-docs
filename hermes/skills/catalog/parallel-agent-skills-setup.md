@@ -1,6 +1,11 @@
 ---
 title: parallel-web/parallel-agent-skills — Web Intelligence for Hermes Agents
 description: Install parallel-web/parallel-agent-skills@parallel-monitor (9.2K installs) for agent-native web search, content extraction, deep research, and data enrichment. Works with Claude Code, Cursor, Codex CLI, and GitHub Copilot.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/parallel-agent-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # parallel-web/parallel-agent-skills — Setup Guide

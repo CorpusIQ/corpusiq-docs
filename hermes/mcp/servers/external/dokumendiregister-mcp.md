@@ -6,6 +6,12 @@ source: "mcp.so"
 discovered: "2026-07-23"
 verified: false
 repository: "https://github.com/dokumendiregister/dokumendiregister"
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/dokumendiregister-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "dokumendiregister MCP — Estonian Public Document Search"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # dokumendiregister MCP — Estonian Public Document Search

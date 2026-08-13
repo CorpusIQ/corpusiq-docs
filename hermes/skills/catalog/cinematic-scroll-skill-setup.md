@@ -1,10 +1,15 @@
 ---
-title: "cinematic-scroll-skill — Scroll-Driven Website Builder Setup"
+title: "cinematic-scroll-skill — Scroll-Driven Website Builder"
 description: "Set up the cinematic-scroll-skill (9⭐) to generate cinematic, scroll-driven websites from briefs using your Hermes agent."
 skill_name: cinematic-scroll-skill
 category: web-design
 difficulty: Medium
 platforms: [Linux, macOS, Windows]
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cinematic-scroll-skill-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # cinematic-scroll-skill — Full Setup Guide

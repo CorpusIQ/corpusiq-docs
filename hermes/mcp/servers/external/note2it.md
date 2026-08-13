@@ -4,6 +4,9 @@ description: AI agent knowledge management with notebooks, meeting transcripts, 
 category: mcp
 tags: [mcp, note2it, knowledge-management, meetings, notebooks, hermes-agent]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/note2it/"
+robots: "index,follow"
+
 ---
 
 # Note2IT MCP — AI Agent Knowledge Management for Hermes Agent

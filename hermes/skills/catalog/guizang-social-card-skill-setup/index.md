@@ -1,6 +1,11 @@
 ---
 title: Guizang Social Card Skill — Setup Guide for Hermes Agents
 description: Generate polished social card images for Xiaohongshu, WeChat, and platform thumbnails — 3.7K+ installs
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/guizang-social-card-skill-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Guizang Social Card Skill — Setup Guide

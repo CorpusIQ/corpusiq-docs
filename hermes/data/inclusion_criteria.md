@@ -1,6 +1,11 @@
 ---
 title: "Ecosystem Inclusion Criteria"
 description: "Criteria for including repositories and tools in the Hermes Ecosystem Directory."
+canonical: "https://www.corpusiq.io/docs/hermes/data/inclusion_criteria/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Hermes Repository Inclusion Criteria

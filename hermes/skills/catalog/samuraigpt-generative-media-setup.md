@@ -1,6 +1,11 @@
 ---
 title: Generative Media Skills — AI Video, Logo & Design Generation for Hermes Agents
 description: Six generative media skills for brand-aware video creation, logo design, UI generation, cinema direction, and social media video production. 10K+ combined installs. Uses Seedance 2.0 for video.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/samuraigpt-generative-media-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Generative Media Skills — Setup Guide

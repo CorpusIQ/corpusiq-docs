@@ -1,6 +1,11 @@
 ---
 title: OpenClaw Ecosystem Expansion — June 2026 Setup Guide
 description: Install and configure 17 new OpenClaw/ClawPilot agent skills — Linux security, Chinese social media, stock markets, browser automation, and self-improving agents. 295K combined installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-ecosystem-june26-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # OpenClaw Ecosystem — June 2026 Expansion

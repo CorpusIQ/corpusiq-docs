@@ -1,6 +1,11 @@
 ---
 title: "Community Share Card"
-description: "Share card template for promoting Hermes across social media. Standardized visual template for showcasing agents, skills, and MCP servers on X, LinkedIn, Reddit, and developer communities."
+description: "Share card template for promoting Hermes across social media. Standardized visual template for showcasing agents, skills, and MCP servers on X, LinkedIn"
+canonical: "https://www.corpusiq.io/docs/hermes/community/share-card/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Social Share Card

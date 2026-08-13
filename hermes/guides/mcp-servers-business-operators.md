@@ -1,6 +1,11 @@
 ---
 title: 7 MCP Servers Every Business Operator Should Know — August 2026
 description: Business-focused MCP servers that connect AI to real tools. CorpusIQ for business data, Exa for search, Browserbase for web automation, and more. Updated August 2026.
+canonical: "https://www.corpusiq.io/docs/hermes/guides/mcp-servers-business-operators/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # 7 MCP Servers for Business Operators — August 2026

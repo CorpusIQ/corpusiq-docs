@@ -1,6 +1,11 @@
 ---
 title: "New Skills Discovered — June 28, 2026 (Update 3)"
-description: "9 new skills discovered — Agent Flywheel mega-toolkit (25+ skills), ClawDBot Feishu suite (11 skills), plus 7 standalone skills spanning email, health, mission control, search, stock data, and PDF parsing."
+description: "9 new skills discovered — Agent Flywheel mega-toolkit (25+ skills), ClawDBot Feishu suite (11 skills), plus 7 standalone skills spanning email, health"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june28-2026-update3/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills Discovered — June 28, 2026 (Update 3)

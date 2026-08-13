@@ -1,6 +1,11 @@
 ---
 title: New Skills — August 12, 2026
 description: 7 newly discovered Hermes Agent skills from skills.sh marketplace sweep — HeartMuLa music generation, simplify-code parallel review, ideation brainstorming, subagent-driven development, Linear integration, webhook subscriptions, and grounded citations.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug12-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills — August 12, 2026

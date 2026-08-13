@@ -1,6 +1,11 @@
 ---
 title: "New Skills — July 27, 2026 Marketplace Sweep"
 description: "4 new publishers discovered on skills.sh — Netlify, HuggingFace, Alireza Rezvani, Kostja94. 28+ skills, 32K+ combined installs, 34.8K GitHub stars."
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july27-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills — July 27, 2026

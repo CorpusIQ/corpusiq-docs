@@ -1,6 +1,11 @@
 ---
 title: Midscene — AI-Powered Visual Browser Automation for Hermes Agents
 description: Configure Midscene (14K+ GitHub stars) for vision-driven UI automation — browser-use, computer-use, and phone-use with natural language commands. Works with Hermes for web testing, scraping, and autonomous interaction.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/midscene-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Midscene Skills — Setup Guide

@@ -4,6 +4,9 @@ description: "Connect AI tools to Nexly product analytics via MCP. Read-only acc
 category: mcp
 tags: [mcp-server, analytics, nexly, product-analytics, read-only]
 last_updated: 2026-07-17
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/nexly-mcp/"
+robots: "index,follow"
+
 ---
 
 # Nexly Analytics MCP Server

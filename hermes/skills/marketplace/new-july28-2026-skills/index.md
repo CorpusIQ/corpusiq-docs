@@ -1,6 +1,11 @@
 ---
-title: "July 28, 2026 — Hermes Skills Sweep: Dogfood QA, History Ingest, Imports, Marketing Dashboard, Skill Vetter, OpenClaw Backup (6 new skills, 34.4K+ installs)"
-description: "6 new Hermes-relevant skills discovered: Dogfood (4.9K), Skill Vetter (20.6K), OpenClaw Backup (3.1K), Hermes History Ingest (2.1K), Hermes Imports (2.7K), Hermes Marketing Dashboard (970). Combined 34.4K+ installs across 6 sources."
+title: "July 28, 2026 — Hermes Skills Sweep: Dogfood QA, History"
+description: "6 new Hermes-relevant skills discovered: Dogfood (4.9K), Skill Vetter (20.6K), OpenClaw Backup (3.1K), Hermes History Ingest (2.1K), Hermes Imports (2.7K)"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july28-2026-skills/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # July 28, 2026 — Hermes Skills Sweep

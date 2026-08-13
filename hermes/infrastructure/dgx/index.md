@@ -1,6 +1,11 @@
 ---
 title: NVIDIA DGX Spark — Primary Compute Pattern
 description: "Running Hermes Agent on an NVIDIA DGX Spark for production inference, model routing, and 24/7 autonomous operations."
+canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/dgx/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # NVIDIA DGX Spark — Primary Compute Pattern

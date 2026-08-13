@@ -1,6 +1,11 @@
 ---
 title: Agent Orchestration
 description: How agents are structured, coordinated, and improved. Hermes execution kernel, CrewAI multi-agent coordination, LangGraph workflows, Reflexion self-improvement.
+canonical: "https://www.corpusiq.io/docs/hermes/orchestration/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes orchestration", "multi-agent", "agent workflow"]
+
 ---
 
 # Orchestration

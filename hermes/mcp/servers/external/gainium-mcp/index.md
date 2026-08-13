@@ -1,6 +1,6 @@
 ---
 title: "Gainium MCP — AI-Powered Crypto Trading Automation"
-description: "Open-source crypto trading automation platform with MCP integration. Build, test, and automate trading strategies without coding. Multi-exchange support with Docker Compose deployment."
+description: "Open-source crypto trading automation platform with MCP integration. Build, test, and automate trading strategies without coding. Multi-exchange support"
 category: mcp
 tags: [mcp, finance, trading, crypto, automation, gainium, docker, hermes-agent]
 github: https://github.com/Gainium/docker-sh
@@ -9,6 +9,10 @@ verified: true
 source: mcp.so
 discovered: 2026-07-24
 pricing: Free · Open Source (Apache 2.0)
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/gainium-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # Gainium MCP — AI-Powered Crypto Trading Automation

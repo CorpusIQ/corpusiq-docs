@@ -1,6 +1,11 @@
 ---
 title: Hermes Agent  --  Orchestration Engine
 description: Hermes Agent as the primary execution kernel  --  capabilities, configuration, and production patterns
+canonical: "https://www.corpusiq.io/docs/hermes/orchestration/hermes/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes orchestration", "multi-agent", "agent workflow"]
+
 ---
 
 # Hermes Agent  --  Orchestration Engine

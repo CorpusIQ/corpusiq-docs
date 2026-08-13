@@ -1,6 +1,6 @@
 ---
-title: "license-verify MCP Server — Contractor License & Insurance Verification"
-description: "Integration guide for lmaniraruta/license-verify-mcp: verify US contractor licenses, surety bonds, and insurance from official state data. WA L&I live, CA CSLB beta. Agent-payable pay-per-success."
+title: "license-verify MCP Server — Contractor License &"
+description: "Integration guide for lmaniraruta/license-verify-mcp: verify US contractor licenses, surety bonds, and insurance from official state data. WA L&I live, CA"
 category: legal
 tags: [mcp, contractor-verification, license, insurance, compliance, operations]
 source: awesome-mcp-servers
@@ -8,6 +8,9 @@ repo: lmaniraruta/license-verify-mcp
 stars: 0
 discovered: 2026-07-23
 last_updated: 2026-07-23
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/license-verify-mcp/"
+robots: "index,follow"
+
 ---
 
 # license-verify MCP Server — Contractor Verification

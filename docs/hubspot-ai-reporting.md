@@ -17,6 +17,10 @@ last_updated: '2026-06-16'
 category: HubSpot
 cluster: 7
 canonical_url: https://www.corpusiq.io/docs/hubspot-ai-reporting
+canonical: "https://www.corpusiq.io/docs/hubspot-ai-reporting/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # HubSpot AI Reporting: Automated CRM Intelligence at Conversation Speed

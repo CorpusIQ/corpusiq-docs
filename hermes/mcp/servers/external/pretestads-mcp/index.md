@@ -1,6 +1,6 @@
 ---
 title: "PreTestAds — Ad Creative Scoring MCP for AI Agents"
-description: "Score video and image ads before you spend. AI-powered creative testing benchmarked against 76 top TikTok ads. $5 USDC per run via x402 or account credits via OAuth."
+description: "Score video and image ads before you spend. AI-powered creative testing benchmarked against 76 top TikTok ads. $5 USDC per run via x402 or account credits"
 source: github.com/krecicki/pretestads-agent-scripts
 stars: 0
 language: Unknown
@@ -8,6 +8,10 @@ transport: Streamable HTTP (Remote) + stdio
 auth: x402 (USDC payment) or OAuth
 category: Marketing & Advertising
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/pretestads-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # PreTestAds — Ad Creative Scoring MCP for AI Agents

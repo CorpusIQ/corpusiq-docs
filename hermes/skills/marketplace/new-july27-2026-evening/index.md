@@ -1,6 +1,11 @@
 ---
-title: "New Skills — July 27, 2026 (Evening Sweep) — Resend Email Skills for Hermes Agents"
-description: "Resend agent skills discovered on skills.sh — transactional email API, agent inboxes, React Email templates — 28.8K+ installs across 5 skills. Plus confirmed: Cloudflare (154.8K), Figma MCP (17.5K), Grafana (15.1K) already cataloged from prior sweeps."
+title: "New Skills — July 27, 2026 (Evening Sweep) — Resend"
+description: "Resend agent skills discovered on skills.sh — transactional email API, agent inboxes, React Email templates — 28.8K+ installs across 5 skills. Plus"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july27-2026-evening/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills — July 27, 2026 (Evening)

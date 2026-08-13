@@ -1,6 +1,11 @@
 ---
 title: native-mcp  --  Full Setup Guide for Hermes Agents
 description: Install and configure the native-mcp skill from nousresearch/hermes-agent. Connect Hermes Agent to MCP servers over stdio and HTTP, auto-discover tools, and manage server lifecycles.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/native-mcp-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # native-mcp  --  Setup Guide

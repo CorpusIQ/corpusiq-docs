@@ -5,6 +5,11 @@ category: hermes-skills
 publisher: nousresearch
 installs: 138
 source: https://skills.sh/nousresearch/hermes-agent/godmode
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/godmode-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Godmode — Setup Guide

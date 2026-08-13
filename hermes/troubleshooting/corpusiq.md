@@ -1,6 +1,11 @@
 ---
 title: "CorpusIQ MCP Troubleshooting"
 description: "Common troubleshooting steps for CorpusIQ MCP with Hermes Agent — token expiry, mcpServer errors, OAuth device links, rate limits, and fork restrictions."
+canonical: "https://www.corpusiq.io/docs/hermes/troubleshooting/corpusiq/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # CorpusIQ MCP Troubleshooting

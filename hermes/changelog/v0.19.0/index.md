@@ -1,6 +1,11 @@
 ---
 title: Hermes Agent v0.19.0 — The Quicksilver Release
 description: Hermes Agent v0.19.0 (v2026.7.20) — The Quicksilver Release. ~80% first-token speed improvement, terminal billing, Bitwarden/1Password integration, smart approvals, durable delivery, live subagent transcripts, new frontier models, and 2,245 commits from 450+ contributors. July 20, 2026.
+canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.19.0/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Hermes Agent v0.19.0 (v2026.7.20)

@@ -5,6 +5,11 @@ skill_name: skills-gallery
 repo: uthumany/Skills-Gallery
 compatibility: Hermes Agent, Claude Code, Codex, Gemini CLI, OpenClaw, Cursor, Windsurf, and 50+ more
 installs: New (June 2026)
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skills-gallery-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Skills Gallery — Setup Guide

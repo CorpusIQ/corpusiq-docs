@@ -3,6 +3,12 @@ description: >-
   Start using CorpusIQ in Slack in three steps: link your account with
   /corpusiq-login, add your AI key in the dashboard, and ask your first
   question.
+canonical: "https://www.corpusiq.io/docs/chat-apps/getting-started-slack/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Getting started in Slack"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # Getting started in Slack

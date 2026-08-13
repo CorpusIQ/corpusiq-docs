@@ -4,6 +4,9 @@ description: Run Hermes Agent on your gaming PC with NVIDIA CUDA acceleration. L
 category: setup
 tags: [gaming-pc, hermes-agent, setup-guide, nvidia, cuda, ollama, gpu-acceleration, local-models]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/setup/gaming-pc/"
+robots: "index,follow"
+
 ---
 
 # Gaming PC Hermes Agent Setup  --  CUDA-Accelerated AI Workstation

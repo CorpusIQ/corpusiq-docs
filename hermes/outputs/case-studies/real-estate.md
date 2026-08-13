@@ -11,6 +11,9 @@ tags:
   - AI agent
   - property automation
 last_updated: "2026-08-12"
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/real-estate/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Real Estate Automation

@@ -4,6 +4,11 @@ description: Bridge Hermes Agent with Obsidian vaults for Kanban-style task mana
 publisher: aradotso/hermes-skills
 installs: 136
 quality_tier: 🔵 Community
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-kanban-obsidian-integration-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Kanban Obsidian Integration — Task Management Setup Guide

@@ -7,6 +7,11 @@ source_repo: edouardleroy/hermes-full-backup
 stars: 1
 language: Python
 platforms: [Linux, macOS, Windows]
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-full-backup-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Full Backup — Full Setup Guide

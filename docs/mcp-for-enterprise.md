@@ -1,6 +1,6 @@
 ---
 title: "MCP for Enterprise: AI-Powered Data Access"
-description: "How enterprise teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access without coding."
+description: "How enterprise teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access"
 category: MCP Education
 tags: ["MCP for enterprise", "enterprise AI analytics", "AI for enterprise teams", "connect business data to ChatGPT", "no-code AI business intelligence", "enterprise data integration"]
 last_updated: 2026-07-08

@@ -2,6 +2,10 @@
 title: Automation Scripts
 description: Utility scripts for ecosystem discovery, agent stack installation, submission processing, and link auditing
 last_updated: 2026-07-14
+canonical: "https://www.corpusiq.io/docs/hermes/scripts/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Automation Scripts

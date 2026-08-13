@@ -6,6 +6,12 @@ source: "mcpservers.org"
 discovered: "2026-07-23"
 verified: true
 remote_endpoint: "https://i-gaming.tools/docs/mcp/"
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/igaming-tools-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "iGaming Tools MCP — Gaming Industry Reference Data"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # iGaming Tools MCP — Gaming Industry Reference Data

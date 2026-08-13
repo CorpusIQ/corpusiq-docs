@@ -1,6 +1,6 @@
 ---
-title: "CorpusIQ Documentation — Connect Business Data to ChatGPT, Claude & Perplexity"
-description: "CorpusIQ connects 40+ business tools (QuickBooks, Shopify, Stripe, HubSpot, GA4) to ChatGPT, Claude, and Perplexity via MCP. Read-only OAuth. Source-cited answers. Zero data stored. Free trial at corpusiq.io."
+title: "CorpusIQ Documentation — Connect Business Data to"
+description: "CorpusIQ connects 40+ business tools (QuickBooks, Shopify, Stripe, HubSpot, GA4) to ChatGPT, Claude, and Perplexity via MCP. Read-only OAuth. Source-cited"
 category: "Documentation"
 tags: ["corpusiq docs", "mcp documentation", "business data ai", "chatgpt integration", "claude integration", "ai data access", "mcp platform", "connect business data to chatgpt", "ai business intelligence"]
 last_updated: "2026-08-06"

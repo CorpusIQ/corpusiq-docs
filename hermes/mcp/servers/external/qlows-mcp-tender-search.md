@@ -1,9 +1,12 @@
 ---
 title: "qlows MCP — Tender & RFP Search for AI Agents"
-description: "Real-time tender and RFP search across 35 WTO-GPA countries (US, EU, Australia). Ground AI proposals in live procurement data — find, analyze, and respond to tenders from any MCP client."
+description: "Real-time tender and RFP search across 35 WTO-GPA countries (US, EU, Australia). Ground AI proposals in live procurement data — find, analyze, and respond"
 category: mcp
 tags: [mcp-server, procurement, tender, rfp, government-contracts, business-development]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/qlows-mcp-tender-search/"
+robots: "index,follow"
+
 ---
 
 # qlows MCP — Tender & RFP Search

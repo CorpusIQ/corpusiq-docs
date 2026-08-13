@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: google-workspace
 setup: npx skills add googleworkspace/cli@gws-workflow-email-to-task
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-workspace/gws-workflow-email-to-task/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Gws Workflow Email To Task"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Gws Workflow Email To Task

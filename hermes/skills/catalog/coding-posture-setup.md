@@ -1,6 +1,11 @@
 ---
 title: Coding Posture — Task-Aware Working Modes Setup Guide
 description: Install and configure coding-posture, a single SKILL.md that gives Hermes agents task-aware working modes (debug, fix, review, migrate). 9★, works across Claude Code, Codex, Cursor, and Pi.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/coding-posture-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Coding Posture — Setup Guide

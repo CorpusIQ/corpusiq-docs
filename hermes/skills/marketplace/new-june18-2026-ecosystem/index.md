@@ -1,6 +1,11 @@
 ---
 title: "New Skills"
 description: 12 newly catalogued Hermes ecosystem skills from plastic-labs/honcho (memory/context) and garrytan/gbrain (agent brain operations)  --  essential infrastructure for production Hermes agents.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june18-2026-ecosystem/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills  --  June 18, 2026 (Ecosystem Tools)

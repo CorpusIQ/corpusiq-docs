@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT for Shopify -- AI Ecommerce Analytics & Management"
+title: "ChatGPT for Shopify -- AI Ecommerce Analytics &"
 url: /docs/chatgpt-for-shopify
 h1: 'ChatGPT for Shopify: Your AI-Powered Ecommerce Command Center'
 description: Connect ChatGPT directly to your Shopify store via CorpusIQ MCP. Ask questions about sales, orders, customers, products, and inventory in plain English  --  get real-time answers from live
@@ -17,6 +17,10 @@ last_updated: '2026-06-16'
 category: Shopify
 cluster: 6
 canonical_url: https://www.corpusiq.io/docs/chatgpt-for-shopify
+canonical: "https://www.corpusiq.io/docs/chatgpt-for-shopify/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # ChatGPT for Shopify: Your AI-Powered Ecommerce Command Center

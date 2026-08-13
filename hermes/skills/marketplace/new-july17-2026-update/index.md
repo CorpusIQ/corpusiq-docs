@@ -1,6 +1,11 @@
 ---
-title: "July 17, 2026 (Evening Update) — Security, Apify Growth, Sentry Monitoring"
-description: "7 additional Hermes-relevant skills discovered in evening sweep: addyosmani security-hardening (13.1K), Apify growth triad (18.7K combined), and Sentry AI monitoring suite (6K combined)."
+title: "July 17, 2026 (Evening Update) — Security, Apify Growth,"
+description: "7 additional Hermes-relevant skills discovered in evening sweep: addyosmani security-hardening (13.1K), Apify growth triad (18.7K combined), and Sentry AI"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july17-2026-update/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # 🆕 July 17, 2026 — Evening Update: 7 Additional Skills

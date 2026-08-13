@@ -1,6 +1,11 @@
 ---
 title: MCP OAuth Remote Gateway — Official Hermes Skill Setup Guide
 description: Install and use mcp-oauth-remote-gateway, the official Hermes Agent skill for completing MCP OAuth flows on remote gateways (containers, VPS, bots) where the loopback redirect never reaches the server.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-mcp-oauth-remote-gateway-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # MCP OAuth Remote Gateway — Setup Guide

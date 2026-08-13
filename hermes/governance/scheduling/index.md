@@ -1,6 +1,11 @@
 ---
 title: "Index"
-description: "Hermes agent scheduling and governance reference. Configure cron jobs, task queues, and automated workflows with guardrails for production AI agent deployments."
+description: "Hermes agent scheduling and governance reference. Configure cron jobs, task queues, and automated workflows with guardrails for production AI agent"
+canonical: "https://www.corpusiq.io/docs/hermes/governance/scheduling/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Production Cron Reference Architecture

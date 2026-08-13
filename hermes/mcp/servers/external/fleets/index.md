@@ -1,6 +1,11 @@
 ---
 title: Fleets MCP Integration Guide
 description: Full setup guide for Fleets MCP — multi-site analytics dashboard for AI agents with GA4, Search Console, Cloudflare, and PageSpeed data
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/fleets/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Fleets MCP — Integration Guide

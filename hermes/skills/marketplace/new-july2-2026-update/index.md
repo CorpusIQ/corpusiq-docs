@@ -1,6 +1,11 @@
 ---
 title: "🆕 July 2, 2026 (Update) — 8 OpenClaw Ecosystem Skills"
-description: "8 new OpenClaw-relevant skills discovered July 2, 2026: Blackbox Browser integration (5,931⭐), Alibaba Cloud AI suite (5 skills), independent browser-use, and video generation."
+description: "8 new OpenClaw-relevant skills discovered July 2, 2026: Blackbox Browser integration (5,931⭐), Alibaba Cloud AI suite (5 skills), independent browser-use"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july2-2026-update/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # 🆕 July 2, 2026 (Update) — 8 New Skills Discovered

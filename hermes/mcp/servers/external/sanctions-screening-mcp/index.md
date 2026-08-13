@@ -7,6 +7,11 @@ created: 2026-07-22
 category: Compliance
 stars: 0
 tags: [sanctions, ofac, compliance, aml, kyc, fintech]
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/sanctions-screening-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+description: "MCP server for **OFAC, EU, UK, and UN sanctions screening**."
+
 ---
 
 # Sanctions Screening MCP Server

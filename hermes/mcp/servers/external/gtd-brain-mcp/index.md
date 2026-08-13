@@ -2,6 +2,10 @@
 title: GTD Brain MCP — GTD Task Manager for AI Agents
 description: "Setup and usage guide for GTD Brain MCP — GTD Task Manager for AI Agents. Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/gtd-brain-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # GTD Brain MCP — GTD Task Manager for AI Agents

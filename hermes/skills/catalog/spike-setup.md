@@ -1,6 +1,11 @@
 ---
 title: Spike  --  Full Setup Guide for Hermes Agents
 description: Install, configure, and use the spike skill from nousresearch/hermes-agent. Throwaway experiments to validate growth hypotheses before building.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/spike-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Spike  --  Setup Guide

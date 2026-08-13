@@ -1,6 +1,11 @@
 ---
 title: "Executive Summary"
-description: "Executive summary prompts for Hermes agents. Generate board-ready business overviews combining revenue data, KPIs, market trends, and operational metrics from all connected business tools."
+description: "Executive summary prompts for Hermes agents. Generate board-ready business overviews combining revenue data, KPIs, market trends, and operational metrics"
+canonical: "https://www.corpusiq.io/docs/hermes/prompts/executive-summary/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes prompt", "prompt engineering", "ai prompt"]
+
 ---
 
 # Executive summary prompts

@@ -1,6 +1,6 @@
 ---
 title: "MCP for Agencies: AI-Powered Data Access"
-description: "How agencies teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access without coding."
+description: "How agencies teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access"
 category: MCP Education
 tags: ["MCP for agencies", "agencies AI analytics", "AI for agencies teams", "connect business data to ChatGPT", "no-code AI business intelligence", "agencies data integration"]
 last_updated: 2026-08-11

@@ -4,6 +4,9 @@ description: "Connect AI agents to Eleata E-Invoice MCP for Peppol, XRechnung, F
 category: mcp
 tags: [mcp, einvoice, eu-compliance, peppol, xrechnung, factur-x, ubl, electa]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/eleata-einvoice/"
+robots: "index,follow"
+
 ---
 
 # Eleata E-Invoice MCP — EU E-Invoice Validation for AI Agents

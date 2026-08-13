@@ -7,6 +7,10 @@ stars: 0
 license: Not specified
 created: June 19, 2026
 last_updated: June 22, 2026
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/herman-skill-playbook-setup/"
+robots: "index,follow"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Herman's Skill Playbook — Setup Guide

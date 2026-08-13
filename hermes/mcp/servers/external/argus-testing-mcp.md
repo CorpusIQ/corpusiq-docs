@@ -7,6 +7,12 @@ discovered: "2026-07-23"
 stars: 2
 verified: true
 repository: "https://github.com/chriswu727/argus"
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/argus-testing-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Argus Testing MCP — Autonomous QA for Web & macOS"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Argus Testing MCP — Autonomous QA for Web & macOS

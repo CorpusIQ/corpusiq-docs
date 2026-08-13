@@ -2,6 +2,11 @@
 title: "Codex — Delegate Coding Tasks to OpenAI Codex CLI"
 description: "Install and configure the Codex skill to delegate coding tasks from Hermes to OpenAI Codex CLI. Offload features, PRs, and complex refactors."
 category: catalog
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/codex-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Codex — OpenAI Codex CLI Delegation Setup Guide

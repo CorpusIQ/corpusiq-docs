@@ -1,12 +1,17 @@
 ---
-title: "LocalCan MCP — Public URLs & Traffic Inspection for Localhost"
-description: "Give AI agents public URLs (tunnels) for localhost, live HTTP traffic inspection, snapshot publishing, and access control. ngrok alternative for Mac, Windows, Linux."
+title: "LocalCan MCP — Public URLs & Traffic Inspection for"
+description: "Give AI agents public URLs (tunnels) for localhost, live HTTP traffic inspection, snapshot publishing, and access control. ngrok alternative for Mac"
 date: 2026-08-12
 source: mcp.so
 source_url: https://mcp.so/servers/localcan
 category: Developer Tools
 rating: ★
 status: active
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/localcan-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # LocalCan MCP Server

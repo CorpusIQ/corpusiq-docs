@@ -1,6 +1,11 @@
 ---
 title: New Hermes Skills — June 23, 2026
 description: 15 new Hermes Agent repos discovered June 23, 2026 — Engineering Curation (104 skills, 10 profiles), Ghostwriter autonomous email, Cron Design Workflow, Machinations game economy, StepFun Chinese LLM, and 10 more
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june23-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills: June 23, 2026

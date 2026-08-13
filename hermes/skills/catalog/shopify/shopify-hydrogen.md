@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: shopify
 setup: npx skills add shopify/shopify-ai-toolkit@shopify-hydrogen
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/shopify/shopify-hydrogen/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Shopify Hydrogen"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Shopify Hydrogen

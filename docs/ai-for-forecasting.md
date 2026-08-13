@@ -23,6 +23,8 @@ tags:
 - ai-powered-forecasting
 - forecasting-artificial-intelligence
 - how-to-use-ai-for-forecasting
+robots: "index,follow"
+
 ---
 
 # AI for Forecasting: Predictive Intelligence from Live Data

@@ -6,6 +6,9 @@ tags: [mcp-server, mowgli, product-design, design-to-code, ux, product-developme
 last_updated: 2026-07-08
 source: https://mcpservers.org
 source_repo: app.mowgli.ai/mcp
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mowgli-mcp/"
+robots: "index,follow"
+
 ---
 
 # Mowgli MCP — Integration Guide

@@ -1,9 +1,12 @@
 ---
-title: "fastCRW MCP — Open-Source Rust Web Crawler and Search API for AI Agents"
-description: "fastCRW is an open-source (AGPL-3.0), self-hostable Rust web crawler and search API. Single ~6MB static binary exposing search and crawl endpoints for AI agents. No API keys, no cloud dependency."
+title: "fastCRW MCP — Open-Source Rust Web Crawler and Search"
+description: "fastCRW is an open-source (AGPL-3.0), self-hostable Rust web crawler and search API. Single ~6MB static binary exposing search and crawl endpoints for AI"
 category: mcp
 tags: [mcp-server, web-crawler, search, rust, self-hosted, open-source, data-extraction]
 last_updated: 2026-07-19
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/fastcrw/"
+robots: "index,follow"
+
 ---
 
 # fastCRW MCP Server — Rust Web Crawler for Agents

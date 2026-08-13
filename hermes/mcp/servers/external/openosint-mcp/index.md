@@ -1,11 +1,16 @@
 ---
 title: "OpenOSINT MCP — Integration Guide"
-description: "MCP-native OSINT framework — 9 intelligence tools for email enumeration, breach checks, WHOIS, IP intel, subdomain discovery, dorks, and more. Free and open source."
+description: "MCP-native OSINT framework — 9 intelligence tools for email enumeration, breach checks, WHOIS, IP intel, subdomain discovery, dorks, and more. Free and open"
 category: "Security & Intelligence"
 stars: "★★"
 source: mcpservers.org
 github: https://github.com/OpenOSINT/OpenOSINT
 date_added: 2026-07-28
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/openosint-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # OpenOSINT MCP

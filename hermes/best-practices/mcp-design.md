@@ -4,6 +4,9 @@ description: MCP server design best practices for Hermes Agent. Tool design prin
 category: best-practices
 tags: [hermes-agent, mcp-design, mcp-server, tool-design, model-context-protocol, error-handling, testing]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/best-practices/mcp-design/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Design Guide  --  Build Custom AI Agent Tools

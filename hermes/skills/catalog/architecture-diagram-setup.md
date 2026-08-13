@@ -1,6 +1,11 @@
 ---
 title: Architecture Diagram — Full Setup Guide for Hermes Agents
 description: Generate professional dark-themed technical architecture diagrams as standalone HTML files with inline SVG. No external tools, no API keys, no rendering libraries.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/architecture-diagram-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Architecture Diagram — Setup Guide

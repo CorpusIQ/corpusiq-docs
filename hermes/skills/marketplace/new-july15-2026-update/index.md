@@ -1,6 +1,11 @@
 ---
 title: New Skills — July 15, 2026 (Supplement)
 description: 5 additional OpenClaw ecosystem skills discovered in follow-up sweep — Grok search, release maintenance, skill vetting, and Apple Calendar integration.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july15-2026-update/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills Discovery — July 15, 2026 (Supplement)

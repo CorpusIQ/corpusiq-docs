@@ -1,6 +1,11 @@
 ---
 title: Security Hardening for AI Agents — Full Setup Guide
 description: Install and use addyosmani/agent-skills security-and-hardening. 12 hardening domains for production AI agent deployments by Addy Osmani (Google Chrome). 13,100+ installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/security-and-hardening-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Security Hardening for AI Agents — Setup Guide

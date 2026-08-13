@@ -4,6 +4,9 @@ description: "Find brands that sponsor podcasts like yours. Reveal the buyer by 
 category: mcp
 tags: [mcp-server, marketing, sales, lead-generation, podcast, sponsorship, outreach]
 last_updated: 2026-07-14
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/podcast-sponsorship-mcp/"
+robots: "index,follow"
+
 ---
 
 # Podcast Sponsorship Discovery MCP Server ★ New (July 14)

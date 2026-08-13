@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: platform
 setup: npx skills add expo/skills
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/platform/expo-deployment/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Expo Deployment"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Expo Deployment

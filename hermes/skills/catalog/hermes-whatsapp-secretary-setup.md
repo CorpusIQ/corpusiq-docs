@@ -1,6 +1,11 @@
 ---
 title: Hermes WhatsApp Secretary — Setup Guide
 description: Install and configure the WhatsApp secretary skill for Hermes Agent — read, summarize, draft-and-confirm replies, and schedule messages via WhatsApp.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-whatsapp-secretary-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes WhatsApp Secretary — Setup Guide

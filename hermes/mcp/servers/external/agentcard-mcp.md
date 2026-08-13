@@ -1,9 +1,12 @@
 ---
-title: "Agentcard MCP — Prepaid Virtual Cards for AI Agent Spending"
+title: "Agentcard MCP — Prepaid Virtual Cards for AI Agent"
 description: "Prepaid virtual cards for AI agents with spend caps, one-time cards, and human approval workflows. Control AI agent spending via MCP."
 category: mcp
 tags: [mcp-server, finance, ai-agents, spend-control, payments, operations]
 last_updated: 2026-07-16
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/agentcard-mcp/"
+robots: "index,follow"
+
 ---
 
 # Agentcard MCP Server ★ New (July 15)

@@ -1,6 +1,11 @@
 ---
 title: Web Scraping (Gooseworks) — Multi-engine scraping for Hermes Agent data extraction
 description: Scrape websites, extract structured data, and automate browsers via Scrapegraph, Olostep, Riveter, Brand.dev, and Notte. 35+ installs from gooseworks-ai.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/web-scraping-gooseworks-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Web Scraping (Gooseworks) — Setup Guide

@@ -57,6 +57,31 @@
   <meta name="twitter:title" content="{{ social_title }}">
   <meta name="twitter:description" content="{{ social_desc }}">
   <meta name="twitter:image" content="{{ social_image }}">
+  {# AEO/GEO structured data: Organization + WebSite site-wide, WebPage per page. #}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "{{ social_title }}",
+    "description": "{{ social_desc }}",
+    "url": "{{ page.canonical_url }}",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "{{ config.site_name }}",
+      "url": "https://www.corpusiq.io/docs/"
+    },
+    "about": {
+      "@type": "Organization",
+      "name": "CorpusIQ",
+      "url": "https://www.corpusiq.io",
+      "sameAs": [
+        "https://github.com/CorpusIQ",
+        "https://www.linkedin.com/company/corpusiq",
+        "https://x.com/corpusiq"
+      ]
+    }
+  }
+  </script>
 {% endblock %}
 
 {% block scripts %}

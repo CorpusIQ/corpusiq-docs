@@ -1,6 +1,11 @@
 ---
 title: "prisma Skills"
 description: "Hermes skills for prisma integration and automation. Part of the Hermes Skills Library."
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/prisma/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # prisma Skills

@@ -4,6 +4,11 @@ description: Install and configure Minions Hermes Mission Control for coordinati
 publisher: aradotso/hermes-skills
 installs: 173
 quality_tier: 🔵 Community
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/minions-hermes-mission-control-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Minions Hermes Mission Control — Multi-Agent Coordination Setup Guide

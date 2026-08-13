@@ -1,6 +1,11 @@
 ---
 title: Neon Agent Skills — Serverless Postgres Platform for Hermes Agents
 description: Neon's official agent skills — Serverless Postgres, branching, AI Gateway, Functions, Object Storage. 75K+ combined installs across 8 skills for database-driven agent applications.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/neon-agent-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Neon Agent Skills — Setup Guide

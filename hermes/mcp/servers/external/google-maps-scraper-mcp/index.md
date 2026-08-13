@@ -1,6 +1,6 @@
 ---
 title: "Google Maps Scraper MCP — Live Maps Data for AI Agents"
-description: "Give your AI agent live Google Maps search, review, and photo data through one secure MCP connection. Lead generation, competitor research, and local business intelligence."
+description: "Give your AI agent live Google Maps search, review, and photo data through one secure MCP connection. Lead generation, competitor research, and local"
 source: gmapsextractor.com
 stars: 0
 language: N/A (Hosted SaaS)
@@ -8,6 +8,10 @@ transport: Streamable HTTP
 auth: API Key
 category: Lead Generation & Web Scraping
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/google-maps-scraper-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Google Maps Scraper MCP — Live Maps Data for AI Agents

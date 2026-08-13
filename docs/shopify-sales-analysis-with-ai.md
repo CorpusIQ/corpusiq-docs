@@ -17,6 +17,10 @@ last_updated: '2026-06-16'
 category: Shopify
 cluster: 6
 canonical_url: https://www.corpusiq.io/docs/shopify-sales-analysis-with-ai
+canonical: "https://www.corpusiq.io/docs/shopify-sales-analysis-with-ai/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # Shopify Sales Analysis with AI: Turn Raw Order Data into Revenue Intelligence

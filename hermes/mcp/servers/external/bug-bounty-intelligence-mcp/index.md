@@ -1,5 +1,5 @@
 ---
-title: "bug-bounty-intelligence-mcp — Smart Contract Security Analysis"
+title: "bug-bounty-intelligence-mcp — Smart Contract Security"
 description: "AI-powered smart contract security analysis trained on 27,681 real Sherlock/Code4rena findings. USDC/scan via x402 on Base."
 source: github.com/holistis/bug-bounty-intelligence-mcp
 stars: 0
@@ -8,6 +8,10 @@ transport: stdio
 auth: x402 micropayments (USDC on Base)
 category: Security
 last_updated: 2026-07-20
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/bug-bounty-intelligence-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # bug-bounty-intelligence-mcp — Smart Contract Security

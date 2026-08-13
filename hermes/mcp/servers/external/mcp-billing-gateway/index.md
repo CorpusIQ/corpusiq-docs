@@ -2,6 +2,10 @@
 title: MCP Billing Gateway
 description: "Setup and usage guide for MCP Billing Gateway. Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mcp-billing-gateway/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MCP Billing Gateway

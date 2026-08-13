@@ -1,6 +1,6 @@
 ---
 title: "Mermail — Privacy-First Email Inboxes for AI Agents"
-description: "Privacy-first email inboxes built for AI agents. Read, search, draft, send, and triage mail over Streamable HTTP MCP. Give your AI agent its own email address."
+description: "Privacy-first email inboxes built for AI agents. Read, search, draft, send, and triage mail over Streamable HTTP MCP. Give your AI agent its own email"
 source: docs.mermail.app
 stars: 0
 language: N/A (Hosted)
@@ -8,6 +8,10 @@ transport: Streamable HTTP
 auth: API Key
 category: Communication & Email
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mermail-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Mermail — Privacy-First Email Inboxes for AI Agents

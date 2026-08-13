@@ -1,5 +1,5 @@
 ---
-title: "MailStream — Physical Mail MCP: Postcards & Letters from AI Agents"
+title: "MailStream — Physical Mail MCP: Postcards & Letters from"
 description: "The first MCP server for physical mail. Send postcards and letters, manage mailing lists and campaigns — all through AI agent commands."
 source: mailstream.app
 stars: 0
@@ -8,6 +8,10 @@ transport: Streamable HTTP
 auth: API Key
 category: Marketing & Direct Mail
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mailstream-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MailStream — Physical Mail MCP for AI Agents

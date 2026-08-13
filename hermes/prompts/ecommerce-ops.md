@@ -1,6 +1,11 @@
 ---
 title: "Ecommerce Ops"
-description: "Ecommerce operations prompts for Hermes agents. Monitor Shopify sales, track inventory, analyze customer segments, and optimize pricing using AI connected to your ecommerce stack."
+description: "Ecommerce operations prompts for Hermes agents. Monitor Shopify sales, track inventory, analyze customer segments, and optimize pricing using AI connected"
+canonical: "https://www.corpusiq.io/docs/hermes/prompts/ecommerce-ops/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes prompt", "prompt engineering", "ai prompt"]
+
 ---
 
 # Ecommerce and marketplace prompts

@@ -1,6 +1,11 @@
 ---
 title: "MCP Server Scan Results — 2026-06-28 (Evening)"
-description: "Evening MCP server discovery scan for June 28, 2026. Newly discovered servers, integration health status, and availability metrics from the automated Hermes ecosystem scanner."
+description: "Evening MCP server discovery scan for June 28, 2026. Newly discovered servers, integration health status, and availability metrics from the automated Hermes"
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-06-28-evening/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MCP Server Directory Scan — June 28, 2026 (Evening Sweep)

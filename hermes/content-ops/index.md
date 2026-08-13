@@ -1,6 +1,11 @@
 ---
 title: Content Operations
 description: Automated content production with Hermes  --  HeyGen video, Postiz publishing, social automation, community engagement
+canonical: "https://www.corpusiq.io/docs/hermes/content-ops/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Content Operations

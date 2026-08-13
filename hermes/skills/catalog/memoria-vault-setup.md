@@ -1,10 +1,15 @@
 ---
-title: "memoria-vault — Multi-Agent Research OS for Obsidian Setup"
-description: "Deploy memoria-vault (4⭐) — seven specialized AI agents that read, enrich, and write inside your Obsidian vault. Turn your notes into an active research laboratory."
+title: "memoria-vault — Multi-Agent Research OS for Obsidian"
+description: "Deploy memoria-vault (4⭐) — seven specialized AI agents that read, enrich, and write inside your Obsidian vault. Turn your notes into an active research"
 skill_name: memoria-vault
 category: research-pkm
 difficulty: Medium
 platforms: [Linux, macOS, Windows]
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/memoria-vault-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # memoria-vault — Full Setup Guide

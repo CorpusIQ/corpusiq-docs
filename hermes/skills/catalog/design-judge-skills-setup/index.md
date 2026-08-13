@@ -1,6 +1,11 @@
 ---
 title: "Design Judge Skills — Full Setup Guide for Hermes Agent"
-description: "Install and configure SeanJ1ang/design-judge-skills — 5 evidence-driven agent skills for design award research, evaluation, matching, entry writing, and submission readiness. Works across Hermes Agent, Claude Code, Codex, OpenClaw, and OpenCode."
+description: "Install and configure SeanJ1ang/design-judge-skills — 5 evidence-driven agent skills for design award research, evaluation, matching, entry writing, and"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/design-judge-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Design Judge Skills — Setup Guide

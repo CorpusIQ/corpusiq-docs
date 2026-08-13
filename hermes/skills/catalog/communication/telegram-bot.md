@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: communication
 setup: npx skills add claude-office-skills/skills@telegram-bot
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/communication/telegram-bot/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Telegram Bot"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Telegram Bot

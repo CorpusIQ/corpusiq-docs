@@ -4,6 +4,11 @@ description: Workspace rules and memory management for Hermes AI agents  --  str
 author: salt-vrn (Leonid Zolotarev, NeiroHost.ru)
 repo: https://github.com/salt-vrn/hermes-advanced-memory
 license: MIT
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-advanced-memory-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Advanced Memory Setup

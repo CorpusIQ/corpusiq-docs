@@ -5,6 +5,11 @@ source: github.com/DealMachine/dealmachine-cli
 category: Marketing / Real Estate
 stars: new (July 2026)
 added: 2026-07-29
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/dealmachine-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # DealMachine MCP

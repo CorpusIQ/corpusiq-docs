@@ -1,6 +1,11 @@
 ---
 title: OpenCode CLI — Full Setup Guide for Hermes Agents
 description: Use OpenCode as an autonomous coding worker orchestrated by Hermes. Provider-agnostic, open-source AI coding agent with TUI and CLI for parallel task execution.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/opencode-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # OpenCode CLI — Setup Guide

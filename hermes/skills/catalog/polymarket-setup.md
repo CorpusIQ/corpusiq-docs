@@ -5,6 +5,11 @@ category: hermes-skills
 publisher: nousresearch
 installs: 273
 source: https://skills.sh/nousresearch/hermes-agent/polymarket
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/polymarket-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Polymarket — Setup Guide

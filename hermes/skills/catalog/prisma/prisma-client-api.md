@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: prisma
 setup: npx skills add prisma/skills@prisma-client-api
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/prisma/prisma-client-api/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Prisma Client Api"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Prisma Client Api

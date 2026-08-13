@@ -1,6 +1,6 @@
 ---
 title: Hermes Agent Resources — Tools, Skills, MCP Servers & Deployment Knowledge
-description: "A curated collection of Hermes Agent resources: MCP servers, skills, memory systems, deployment patterns, and community tools. Everything you need to build production autonomous AI agents."
+description: "A curated collection of Hermes Agent resources: MCP servers, skills, memory systems, deployment patterns, and community tools. Everything you need to build"
 category: Documentation
 tags:
   - hermes-agent
@@ -9,6 +9,9 @@ tags:
   - ai-agent-architecture
   - mcp-ecosystem
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/"
+robots: "index,follow"
+
 ---
 
 <p align="center">

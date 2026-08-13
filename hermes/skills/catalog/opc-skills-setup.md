@@ -1,6 +1,11 @@
 ---
 title: OPC Skills — Solopreneur Toolkit for AI Agents (SEO, Social, Branding, Launch)
 description: resciencelab's OPC skills — solopreneur-focused agent skills for SEO-GEO, Reddit marketing, logo creation, product launches, and social media. 50K+ combined installs across 6 skills. Built for solo operators who need AI agents to handle growth work.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/opc-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # OPC Skills — Setup Guide

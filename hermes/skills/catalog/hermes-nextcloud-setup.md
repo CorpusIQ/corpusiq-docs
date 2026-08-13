@@ -5,6 +5,11 @@ category: integration
 publisher: adnw-vinc
 maturity: beta
 source: https://github.com/adnw-vinc/hermes-nextcloud
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-nextcloud-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Nextcloud Integration — Setup Guide

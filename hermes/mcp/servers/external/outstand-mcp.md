@@ -2,6 +2,10 @@
 title: Outstand MCP
 description: "Setup and usage guide for Outstand MCP. Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/outstand-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Outstand MCP

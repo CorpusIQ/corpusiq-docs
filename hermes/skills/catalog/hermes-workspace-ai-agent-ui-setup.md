@@ -1,6 +1,11 @@
 ---
-title: "Hermes Workspace AI Agent UI — Native Web Workspace for Hermes Agent Setup"
-description: "196+ installs. Full-featured web workspace for Hermes Agent with chat, terminal, memory browser, skills catalog, swarm mode, and multi-agent orchestration. Setup guide for Hermes agents."
+title: "Hermes Workspace AI Agent UI — Native Web Workspace for"
+description: "196+ installs. Full-featured web workspace for Hermes Agent with chat, terminal, memory browser, skills catalog, swarm mode, and multi-agent orchestration"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-workspace-ai-agent-ui-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Workspace AI Agent UI — Setup Guide

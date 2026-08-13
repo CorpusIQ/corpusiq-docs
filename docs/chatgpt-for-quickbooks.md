@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT for QuickBooks -- AI Accounting & Financial Analysis"
+title: "ChatGPT for QuickBooks -- AI Accounting & Financial"
 url: /docs/chatgpt-for-quickbooks
 h1: 'ChatGPT for QuickBooks: Transform Your Accounting Workflow with AI'
 description: Connect ChatGPT to QuickBooks with CorpusIQ. Ask questions in plain English, generate P&L reports, analyze cash flow, and automate financial reporting with AI.
@@ -16,6 +16,10 @@ last_updated: '2026-06-16'
 category: QuickBooks
 cluster: 5
 canonical_url: https://www.corpusiq.io/docs/chatgpt-for-quickbooks
+canonical: "https://www.corpusiq.io/docs/chatgpt-for-quickbooks/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # ChatGPT for QuickBooks: Transform Your Accounting Workflow with AI

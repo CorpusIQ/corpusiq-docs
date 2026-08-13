@@ -1,6 +1,11 @@
 ---
 title: "Neuron MCP Server"
-description: "Neuron MCP server integration guide for Hermes. Connect autonomous AI agents to enterprise data sources through the Neuron protocol — reference setup, configuration, and usage patterns."
+description: "Neuron MCP server integration guide for Hermes. Connect autonomous AI agents to enterprise data sources through the Neuron protocol — reference setup"
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/neuron/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Neuron — WhatsApp MCP Integration Guide

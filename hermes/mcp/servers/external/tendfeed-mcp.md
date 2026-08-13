@@ -4,6 +4,9 @@ description: Bid/no-bid intelligence for EU public tenders — competition densi
 category: mcp
 tags: [mcp, procurement, eu-tenders, bid-intelligence, public-contracts, ted, hermes-agent]
 last_updated: 2026-07-26
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/tendfeed-mcp/"
+robots: "index,follow"
+
 ---
 
 # TendFeed MCP — EU Procurement Intelligence for Hermes Agent

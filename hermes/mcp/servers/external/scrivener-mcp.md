@@ -4,6 +4,9 @@ description: "Connect Scrivener manuscripts to AI assistants. 53+ tools for docu
 category: mcp
 tags: [mcp-server, writing, productivity, content-creation, document-management]
 last_updated: 2026-07-14
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scrivener-mcp/"
+robots: "index,follow"
+
 ---
 
 # Scrivener MCP Server

@@ -1,6 +1,6 @@
 ---
-title: "Scalix Cloud — Agent-Operable Cloud Platform MCP (50 Tools)"
-description: "Agent-operable cloud platform: database, AI, functions, containers, storage and auth over one remote MCP endpoint with 50+ tools. Deploy and manage cloud infrastructure through AI agents."
+title: "Scalix Cloud — Agent-Operable Cloud Platform MCP (50"
+description: "Agent-operable cloud platform: database, AI, functions, containers, storage and auth over one remote MCP endpoint with 50+ tools. Deploy and manage cloud"
 source: github.com/scalixworld/scalix-mcp
 stars: 0
 language: TypeScript
@@ -8,6 +8,10 @@ transport: Streamable HTTP (Remote)
 auth: OAuth
 category: Cloud & DevOps
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scalix-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Scalix Cloud — Agent-Operable Cloud Platform MCP

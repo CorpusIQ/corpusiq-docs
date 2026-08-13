@@ -4,6 +4,9 @@ description: Curated Hermes Agent prompt templates for code generation, content 
 category: prompts
 tags: [hermes-agent, prompts, prompt-templates, code-generation, content-creation, data-analysis, ai-prompts]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/prompts/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Prompt Library  --  Curated AI Prompt Templates

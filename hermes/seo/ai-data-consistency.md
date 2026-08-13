@@ -1,6 +1,11 @@
 ---
 title: Why Your AI Gives Different Answers to the Same Business Question — And How to Fix It
 description: ChatGPT, Claude, and Perplexity all give different answers to the same revenue question. Fix it with a single source of truth for AI — read-only, source-cited, zero data stored.
+canonical: "https://www.corpusiq.io/docs/hermes/seo/ai-data-consistency/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Why Your AI Gives Different Answers

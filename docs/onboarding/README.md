@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ Onboarding Guide"
-description: "Complete CorpusIQ onboarding guide for new users. Step-by-step AI chat setup (5 min) and AI agent MCP configuration (10 min). Connect Stripe, Shopify, QuickBooks, and HubSpot to your AI."
+description: "Complete CorpusIQ onboarding guide for new users. Step-by-step AI chat setup (5 min) and AI agent MCP configuration (10 min). Connect Stripe, Shopify"
 category: "Documentation"
 tags: ["corpusiq onboarding", "setup guide", "ai chat setup", "ai agent setup", "mcp configuration", "first query", "getting started"]
 last_updated: "2026-08-12"

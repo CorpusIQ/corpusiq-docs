@@ -1,5 +1,5 @@
 ---
-title: "InvestSights — Indian Stock Research MCP (NSE/BSE, 6000+ Stocks)"
+title: "InvestSights — Indian Stock Research MCP (NSE/BSE, 6000+"
 description: "Research-grade Indian stock data for AI agents. Fundamentals, forensic accounting scores, DCF valuation, screening, prices & news for 6000+ NSE/BSE stocks."
 source: github.com/InvestSights/investsights-indian-stock-research-mcp
 stars: 0
@@ -8,6 +8,10 @@ transport: stdio
 auth: None (open data)
 category: Finance & Fintech
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/investsights-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # InvestSights — Indian Stock Research MCP (6000+ NSE/BSE Stocks)

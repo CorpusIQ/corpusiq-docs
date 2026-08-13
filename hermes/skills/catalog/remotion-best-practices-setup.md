@@ -1,6 +1,11 @@
 ---
 title: Remotion Best Practices — Setup Guide for Hermes Video Automation
 description: Install and use remotion-dev/skills@remotion-best-practices (430K installs) for programmatic video creation in Hermes. Composition patterns, rendering optimization, audio sync, and caption generation.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/remotion-best-practices-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Remotion Best Practices — Setup Guide

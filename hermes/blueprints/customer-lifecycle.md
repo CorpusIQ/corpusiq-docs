@@ -4,6 +4,9 @@ description: Multi-stage Hermes Agent customer lifecycle blueprint. Automate onb
 category: blueprints
 tags: [hermes-agent, blueprint, customer-lifecycle, onboarding, retention, churn-prevention, crm-automation]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/blueprints/customer-lifecycle/"
+robots: "index,follow"
+
 ---
 
 # Customer Lifecycle Automation Blueprint  --  Onboarding to Win-Back

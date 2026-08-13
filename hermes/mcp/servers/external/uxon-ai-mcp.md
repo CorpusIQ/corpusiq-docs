@@ -1,9 +1,12 @@
 ---
-title: "UXON AI MCP — AI-Powered Landing Page Creation for Operators"
-description: "MCP server and API that lets AI agents create landing pages and websites. Essential for marketing operators who want AI-assisted web presence without leaving their AI workflow."
+title: "UXON AI MCP — AI-Powered Landing Page Creation for"
+description: "MCP server and API that lets AI agents create landing pages and websites. Essential for marketing operators who want AI-assisted web presence without"
 category: mcp
 tags: [mcp-server, marketing, landing-pages, web-development, content-creation, design]
 last_updated: 2026-07-16
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/uxon-ai-mcp/"
+robots: "index,follow"
+
 ---
 
 # UXON AI MCP Server ★ New (July 16)

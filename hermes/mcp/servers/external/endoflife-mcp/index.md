@@ -4,6 +4,9 @@ description: "Connect AI agents to endoflife.ai for software end-of-life intelli
 category: mcp
 tags: [mcp-server, devops, security, eol, risk-management]
 last_updated: 2026-07-19
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/endoflife-mcp/"
+robots: "index,follow"
+
 ---
 
 # endoflife.ai MCP — Integration Guide

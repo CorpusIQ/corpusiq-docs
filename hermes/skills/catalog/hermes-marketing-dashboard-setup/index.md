@@ -1,6 +1,11 @@
 ---
 title: Hermes Marketing Dashboard — Setup Guide for Hermes Agents
 description: Open-source marketing operations control center for AI agent teams. CRM, outreach sequencing, content ops, analytics powered by OpenClaw + SQLite. 970+ installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-marketing-dashboard-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Marketing Dashboard — Setup Guide

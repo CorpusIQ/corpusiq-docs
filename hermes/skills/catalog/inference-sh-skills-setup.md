@@ -1,6 +1,11 @@
 ---
 title: inference.sh/skills — Full Setup Guide for Hermes Agents
 description: Install and configure inference.sh agent skills — 85 skills for AI image/video generation, web search, Twitter automation, LLM access, and growth tools. 706K installs across halt-catch-fire/skills.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/inference-sh-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # inference.sh/skills — Setup Guide

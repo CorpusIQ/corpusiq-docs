@@ -4,6 +4,11 @@ description: Install and configure the Oh-My-Hermes workflow framework that prov
 publisher: aradotso/hermes-skills
 installs: 182
 quality_tier: 🔵 Community
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/oh-my-hermes-workflow-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Oh-My-Hermes Workflow — Agent Orchestration Framework Setup Guide

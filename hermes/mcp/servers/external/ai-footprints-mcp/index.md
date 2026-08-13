@@ -1,5 +1,5 @@
 ---
-title: "ai-footprints-mcp — Agent-First Bookmark & Knowledge Manager"
+title: "ai-footprints-mcp — Agent-First Bookmark & Knowledge"
 description: "Let AI agents manage your digital footprints — bookmarks, reading history, and knowledge trails. Chinese (AI 足迹) + English."
 source: github.com/Piccolo123/ai-footprints-mcp
 stars: 0
@@ -7,6 +7,10 @@ language: TypeScript
 transport: stdio
 category: Knowledge & Memory
 last_updated: 2026-07-20
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ai-footprints-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # ai-footprints-mcp — Agent-First Bookmark Manager

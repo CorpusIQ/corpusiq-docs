@@ -20,6 +20,10 @@ keywords:
 - AI data platform vs zapier
 - best alternative to zapier
 - CorpusIQ zapier pricing comparison
+canonical: "https://www.corpusiq.io/docs/corpusiq-vs-zapier/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # CorpusIQ vs Zapier  --  MCP Real-Time AI-Native vs Workflow Automation

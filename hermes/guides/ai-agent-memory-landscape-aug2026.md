@@ -2,6 +2,10 @@
 title: AI Agent Memory Systems — August 2026 Landscape
 description: "Tencent open-sourced DB Agent Memory in August 2026. A local AI memory system that mimics human-like recall patterns."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/guides/ai-agent-memory-landscape-aug2026/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # AI Agent Memory Systems — August 2026 Landscape

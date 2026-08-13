@@ -1,6 +1,11 @@
 ---
 title: External MCP Server Catalog
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # External MCP Server Catalog

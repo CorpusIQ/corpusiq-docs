@@ -1,12 +1,16 @@
 ---
 title: "pacs008-mcp — ISO 20022 Credit Transfer Generator MCP"
-description: "Generate, validate, parse & audit ISO 20022 pacs.008 credit transfers from MCP clients. 10 tools, scheme-aware (CBPR+/HVPS+/Fedwire/CHAPS/T2/SCT-Inst). Part of ISO 20022 MCP Suite."
+description: "Generate, validate, parse & audit ISO 20022 pacs.008 credit transfers from MCP clients. 10 tools, scheme-aware (CBPR+/HVPS+/Fedwire/CHAPS/T2/SCT-Inst). Part"
 source: github.com/sebastienrousseau/pacs008-mcp
 stars: 0
 language: Python
 transport: stdio
 category: Finance & Fintech
 last_updated: 2026-07-20
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/pacs008-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # pacs008-mcp — ISO 20022 Credit Transfer Generator

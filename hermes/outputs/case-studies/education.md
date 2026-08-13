@@ -11,6 +11,9 @@ tags:
   - AI agent
   - edtech
 last_updated: "2026-08-12"
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/education/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Education Automation

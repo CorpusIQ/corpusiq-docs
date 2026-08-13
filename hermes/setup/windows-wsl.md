@@ -4,6 +4,9 @@ description: Run Hermes Agent on Windows 11 with full Linux compatibility via WS
 category: setup
 tags: [windows, wsl2, hermes-agent, setup-guide, nvidia, gpu-passthrough, ollama, linux-on-windows]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/setup/windows-wsl/"
+robots: "index,follow"
+
 ---
 
 # Windows 11 WSL2 Hermes Agent Setup  --  Linux AI Agent on Windows

@@ -1,6 +1,11 @@
 ---
 title: New Skills Discovery — July 12, 2026
 description: 9 new Hermes and OpenClaw ecosystem skills discovered via skills.sh API sweep. OpenClaw plugin testing tools, skill distribution utility, Solana plugins, WeChat integration, and more.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july12-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills Discovery — July 12, 2026

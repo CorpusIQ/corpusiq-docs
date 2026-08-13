@@ -5,6 +5,11 @@ category: blockchain
 publisher: smartcontractkit
 maturity: production
 source: https://github.com/smartcontractkit/chainlink-agent-skills
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/chainlink-agent-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Chainlink Agent Skills — Setup Guide

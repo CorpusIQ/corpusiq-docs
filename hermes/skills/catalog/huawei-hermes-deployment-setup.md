@@ -1,6 +1,11 @@
 ---
 title: Huawei Cloud Hermes Deployment — Full Setup Guide
 description: Deploy Hermes Agent on Huawei Cloud Flexus L-series servers using the huaweicloud-skills deployment template (43 installs). Production Docker Compose with ARM64 support.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/huawei-hermes-deployment-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Huawei Cloud Flexus — Hermes Deployment Guide

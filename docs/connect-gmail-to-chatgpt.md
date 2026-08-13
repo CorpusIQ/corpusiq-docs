@@ -1,6 +1,6 @@
 ---
 title: "Connect Gmail to ChatGPT via MCP -- Live Data, No Code"
-description: "Connect your Gmail account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your gmail data and get real-time, source-cited answers  --  no exports, no coding required."
+description: "Connect your Gmail account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your gmail data and get real-time, source-cited answers"
 category: ChatGPT Integrations
 tags: ["connect Gmail to ChatGPT", "Gmail ChatGPT integration", "MCP Gmail connector", "Gmail data to ChatGPT", "AI for Gmail", "CorpusIQ MCP"]
 last_updated: 2026-07-08

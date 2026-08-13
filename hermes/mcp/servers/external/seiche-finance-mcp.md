@@ -4,6 +4,9 @@ description: "Free open source funding stress terminal for US money markets. 22 
 category: mcp
 tags: [mcp-server, finance, money-markets, stress-testing, fed, treasury]
 last_updated: 2026-07-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/seiche-finance-mcp/"
+robots: "index,follow"
+
 ---
 
 # Seiche Finance MCP Server ★ New (July 12)

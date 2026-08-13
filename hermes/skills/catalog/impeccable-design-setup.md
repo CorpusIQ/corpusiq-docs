@@ -1,6 +1,11 @@
 ---
 title: impeccable — Full Setup Guide for Hermes Agents
 description: Install and configure pbakaus/impeccable — design quality skills for AI agents. 24 skills, 1.7M installs. Polish, critique, audit, animate, and more.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/impeccable-design-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # impeccable — Setup Guide

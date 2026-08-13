@@ -1,6 +1,11 @@
 ---
 title: Samber Go Skills — Golang Engineering Standards for Hermes Agents
 description: Golang code style, error handling, testing, naming, and design patterns with 35K+ combined installs. Enforce idiomatic Go standards across agent-generated code.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/samber-golang-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Samber Go Skills — Setup Guide

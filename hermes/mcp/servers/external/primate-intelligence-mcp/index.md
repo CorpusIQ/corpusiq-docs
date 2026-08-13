@@ -1,9 +1,12 @@
 ---
 title: "Primate Intelligence MCP — Integration Guide"
-description: "Real-time video analysis and scene understanding for AI agents via predictive world models — register videos by URL, ask questions in plain English, get deterministic answers with confidence scores and timestamps."
+description: "Real-time video analysis and scene understanding for AI agents via predictive world models — register videos by URL, ask questions in plain English, get"
 category: mcp
 tags: [mcp-server, video-analysis, content-monitoring, media-intelligence, video-understanding, agent-tools, hermes-agent]
 last_updated: 2026-07-31
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/primate-intelligence-mcp/"
+robots: "index,follow"
+
 ---
 
 # Primate Intelligence MCP — Video Scene Understanding for AI Agents

@@ -1,6 +1,11 @@
 ---
 title: Linux Systemd Agent Deployment — Setup Guide
 description: Deploy OpenClaw/Hermes agents as Linux systemd services with supervision, logging, restart policies, and resource limits.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/linux-systemd-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Linux Systemd Agent Deployment — Setup Guide

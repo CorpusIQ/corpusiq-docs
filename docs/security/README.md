@@ -3,6 +3,12 @@ description: >-
   CorpusIQ security: read-only access to every connected tool, AES-256
   encryption, ephemeral by design, and source citations on every answer.
   We never write to your systems.
+canonical: "https://www.corpusiq.io/docs/security/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Security"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 title: "CorpusIQ Security Overview  --  Authentication, Encryption, and Read-Only Access"

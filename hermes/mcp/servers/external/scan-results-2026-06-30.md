@@ -1,6 +1,11 @@
 ---
 title: "MCP Server Scan Results — 2026-06-30"
-description: "MCP server discovery scan results for June 30, 2026. Includes newly discovered MCP integrations, health status checks, and availability metrics for the growing Hermes server catalog."
+description: "MCP server discovery scan results for June 30, 2026. Includes newly discovered MCP integrations, health status checks, and availability metrics for the"
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-06-30/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MCP Server Directory Scan — June 30, 2026

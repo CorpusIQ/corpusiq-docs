@@ -4,6 +4,9 @@ description: "Connect AI agents to AppAmbit — mobile app analytics, crash repo
 category: mcp
 tags: [mcp-server, mobile-analytics, crash-reporting, build-distribution, app-development]
 last_updated: 2026-07-13
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/appambit-mcp/"
+robots: "index,follow"
+
 ---
 
 # AppAmbit MCP — Integration Guide

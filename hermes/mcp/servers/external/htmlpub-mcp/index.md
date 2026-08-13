@@ -4,6 +4,9 @@ description: "Publish AI-generated HTML to live pages on your own domain. MCP se
 category: mcp
 tags: [mcp-server, content-publishing, html, leadpages, cms]
 last_updated: 2026-07-13
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/htmlpub-mcp/"
+robots: "index,follow"
+
 ---
 
 # HTML Pub MCP — Integration Guide

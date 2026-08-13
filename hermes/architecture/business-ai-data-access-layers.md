@@ -2,6 +2,10 @@
 title: How Business AI Agents Handle Data Access — The Infrastructure Layer
 description: "Setup and usage guide for How Business AI Agents Handle Data Access — The Infrastructure Layer. Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/architecture/business-ai-data-access-layers/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # How Business AI Agents Handle Data Access — The Infrastructure Layer

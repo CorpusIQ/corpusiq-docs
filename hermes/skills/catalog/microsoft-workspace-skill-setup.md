@@ -5,6 +5,11 @@ category: integration
 publisher: Andrew-Girgis
 maturity: beta
 source: https://github.com/Andrew-Girgis/microsoft-workspace-skill
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/microsoft-workspace-skill-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Microsoft Workspace Skill — Setup Guide

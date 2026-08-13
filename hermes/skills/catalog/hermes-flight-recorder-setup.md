@@ -5,6 +5,11 @@ skill_name: hermes-flight-recorder
 repo: zwright8/hermes-flight-recorder
 compatibility: Hermes Agent
 installs: New (June 2026)
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-flight-recorder-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Flight Recorder — Setup Guide

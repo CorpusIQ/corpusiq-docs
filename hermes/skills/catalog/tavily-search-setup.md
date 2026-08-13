@@ -1,6 +1,11 @@
 ---
 title: Tavily Search — Official LLM-Optimized Web Search CLI
 description: Web search returning LLM-optimized results via the official Tavily CLI. Content snippets, relevance scores, domain filtering, and multiple search depths. 25.7K+ installs. The authoritative Tavily integration for Hermes agents.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tavily-search-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Tavily Search — Setup Guide

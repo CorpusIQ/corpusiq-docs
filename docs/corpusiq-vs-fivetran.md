@@ -20,6 +20,10 @@ keywords:
 - AI data platform vs fivetran
 - best alternative to fivetran
 - CorpusIQ fivetran pricing comparison
+canonical: "https://www.corpusiq.io/docs/corpusiq-vs-fivetran/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # CorpusIQ vs Fivetran  --  MCP Live Query vs ETL Batch Pipelines

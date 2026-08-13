@@ -1,6 +1,11 @@
 ---
 title: New June 25, 2026 (Update) — 3 New Hermes Skills
 description: 3 newly discovered Hermes Agent skills — CLI-Anything Hermes orchestration (43K⭐ parent), Hermes Client Web UI, and X/Twitter Scraper (148 installs). Cross-platform automation, chat interface, and social data tools.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june25-2026-update/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills Discovered — June 25, 2026 (Update)

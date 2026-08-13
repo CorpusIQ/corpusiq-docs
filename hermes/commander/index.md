@@ -2,6 +2,10 @@
 title: Commander Common Sense Gate
 description: "Setup and usage guide for Commander Common Sense Gate. Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/commander/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Commander Common Sense Gate

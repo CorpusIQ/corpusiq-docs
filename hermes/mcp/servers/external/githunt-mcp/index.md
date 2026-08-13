@@ -2,6 +2,10 @@
 title: githunt-mcp Server
 description: "Setup and usage guide for githunt-mcp Server. Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/githunt-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # githunt-mcp Server

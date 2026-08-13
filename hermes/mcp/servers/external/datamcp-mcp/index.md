@@ -1,5 +1,5 @@
 ---
-title: "datamcp — Hosted MCP Gateway for PostgreSQL, MySQL & OpenAPI"
+title: "datamcp — Hosted MCP Gateway for PostgreSQL, MySQL &"
 description: "Hosted MCP gateway that connects AI agents to PostgreSQL, MySQL, and OpenAPI endpoints. Server-side credentials, scoped access links, zero local setup."
 source: datamcp.app
 stars: 0
@@ -8,6 +8,10 @@ transport: Streamable HTTP
 auth: API Key / scoped links
 category: Database & Data Engineering
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/datamcp-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # datamcp — Hosted MCP Gateway for Databases & APIs

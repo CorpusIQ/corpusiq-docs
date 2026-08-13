@@ -1,6 +1,11 @@
 ---
 title: "Productivity And Files"
-description: "Productivity and file management prompts for Hermes agents. Search, organize, and analyze documents across Google Drive, Dropbox, OneDrive, and SharePoint using natural language queries."
+description: "Productivity and file management prompts for Hermes agents. Search, organize, and analyze documents across Google Drive, Dropbox, OneDrive, and SharePoint"
+canonical: "https://www.corpusiq.io/docs/hermes/prompts/productivity-and-files/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes prompt", "prompt engineering", "ai prompt"]
+
 ---
 
 # Productivity, inbox, and files

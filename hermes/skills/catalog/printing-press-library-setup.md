@@ -1,6 +1,11 @@
 ---
 title: printing-press-library — Setup Guide
 description: Library of print-ready document templates (reports, proposals, invoices, certificates) via mvanhorn/printing-press-library — 679 installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/printing-press-library-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # printing-press-library — Setup Guide

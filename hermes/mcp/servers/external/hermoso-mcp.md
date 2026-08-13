@@ -1,6 +1,6 @@
 ---
 title: "hermoso MCP Server — AI Ad Studio for Agents"
-description: "Integration guide for hermoso-ai/hermoso: 52-tool AI ad studio that generates video/image/UGC ads and researches competitor ad libraries across Meta, Google, LinkedIn, TikTok, Instagram, and YouTube."
+description: "Integration guide for hermoso-ai/hermoso: 52-tool AI ad studio that generates video/image/UGC ads and researches competitor ad libraries across Meta"
 category: marketing
 tags: [mcp, advertising, video-generation, ugc, competitor-research, meta-ads, google-ads, linkedin-ads]
 source: awesome-mcp-servers
@@ -8,6 +8,9 @@ repo: hermoso-ai/hermoso
 stars: 0
 discovered: 2026-07-23
 last_updated: 2026-07-23
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/hermoso-mcp/"
+robots: "index,follow"
+
 ---
 
 # hermoso MCP Server — AI Ad Studio

@@ -5,6 +5,11 @@ category: hermes-skills
 publisher: nousresearch
 installs: 321
 source: https://skills.sh/nousresearch/hermes-agent/p5js
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/p5js-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # p5js — Creative Coding Setup Guide

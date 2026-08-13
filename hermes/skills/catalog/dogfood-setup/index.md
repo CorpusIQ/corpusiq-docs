@@ -1,6 +1,11 @@
 ---
 title: Dogfood — Setup Guide for Hermes Agents
 description: Systematic exploratory QA testing of web applications using browser tools. 5-phase workflow for finding bugs, capturing evidence, and producing structured reports. 4.9K+ installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dogfood-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Dogfood — Setup Guide

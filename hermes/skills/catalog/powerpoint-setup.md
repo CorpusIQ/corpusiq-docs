@@ -1,6 +1,11 @@
 ---
 title: "powerpoint — Setup Guide"
 description: "Create, read, and edit .pptx decks, slides, notes, and templates. Official Hermes skill. 393+ installs on skills.sh."
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/powerpoint-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # powerpoint

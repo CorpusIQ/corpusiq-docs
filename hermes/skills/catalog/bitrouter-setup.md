@@ -1,6 +1,11 @@
 ---
 title: "BitRouter — Self-Improving LLM Router for Agent Workflows"
 description: "Install and configure BitRouter to optimize LLM routing for Hermes Agent, OpenClaw, Claude Code, and other agent harnesses."
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/bitrouter-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # BitRouter Setup Guide

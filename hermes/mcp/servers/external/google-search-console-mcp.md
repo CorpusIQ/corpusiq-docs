@@ -1,9 +1,12 @@
 ---
 title: "Google Search Console MCP — Integration Guide"
-description: "Hosted MCP server for Google Search Console analytics. Connect Claude, Cursor, or any MCP client to query clicks, impressions, rankings, indexing status, and sitemaps."
+description: "Hosted MCP server for Google Search Console analytics. Connect Claude, Cursor, or any MCP client to query clicks, impressions, rankings, indexing status"
 category: mcp
 tags: [mcp-server, seo, google-search-console, marketing, analytics]
 last_updated: 2026-07-14
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/google-search-console-mcp/"
+robots: "index,follow"
+
 ---
 
 # Google Search Console MCP Server

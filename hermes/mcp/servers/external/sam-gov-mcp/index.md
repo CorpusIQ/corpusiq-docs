@@ -1,6 +1,6 @@
 ---
 title: "mcp-sam-gov — US Government Contracting MCP Server"
-description: "150-tool keyless MCP server for US federal + state/local government contracting, spending, regulation, and partner vetting. SAM.gov, USAspending, Grants.gov, OFAC, FDIC, EPA, CourtListener + 45 more sources."
+description: "150-tool keyless MCP server for US federal + state/local government contracting, spending, regulation, and partner vetting. SAM.gov, USAspending"
 source: github.com/cliwant/mcp-sam-gov
 stars: 4
 language: TypeScript
@@ -8,6 +8,10 @@ transport: stdio
 auth: None (keyless — uses public APIs)
 category: Government/Procurement
 last_updated: 2026-07-20
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/sam-gov-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # mcp-sam-gov — US Government Contracting MCP

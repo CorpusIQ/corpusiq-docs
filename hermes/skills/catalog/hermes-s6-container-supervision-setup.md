@@ -1,6 +1,11 @@
 ---
 title: hermes-s6-container-supervision Setup Guide
 description: Production-grade s6 supervision for Hermes agent containers  --  health checks, auto-restarts, logging, and process management.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-s6-container-supervision-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # hermes-s6-container-supervision

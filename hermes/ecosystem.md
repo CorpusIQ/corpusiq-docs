@@ -2,6 +2,11 @@
 name: Hermes Ecosystem Directory
 description: Comprehensive directory of the Hermes Agent ecosystem — 165+ repos, tools, skills, and integrations
 last_updated: 2026-08-11
+canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
+robots: "index,follow"
+title: "Hermes Ecosystem Directory"
+tags: ["hermes ecosystem", "agent ecosystem", "community"]
+
 ---
 
 # Hermes Ecosystem Directory

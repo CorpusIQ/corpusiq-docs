@@ -1,6 +1,11 @@
 ---
 title: Playwright Social Media Automation — API-First, Browser Fallback
 description: Automate social posting and comment monitoring with Playwright when APIs are unavailable. Reddit, Discord, and generic web forms — with anti-bot patterns, reliability waits, and a fallback decision tree.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/playwright-social-media-automation-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Playwright Social Media Automation — Setup Guide

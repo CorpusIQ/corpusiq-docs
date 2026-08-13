@@ -1,6 +1,11 @@
 ---
 title: "Marketing Roas"
-description: "Marketing ROAS analysis prompts for Hermes agents. Natural language queries to analyze ad spend efficiency, cross-channel performance, and campaign ROI across connected marketing platforms."
+description: "Marketing ROAS analysis prompts for Hermes agents. Natural language queries to analyze ad spend efficiency, cross-channel performance, and campaign ROI"
+canonical: "https://www.corpusiq.io/docs/hermes/prompts/marketing-roas/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes prompt", "prompt engineering", "ai prompt"]
+
 ---
 
 # Marketing and ROAS prompts

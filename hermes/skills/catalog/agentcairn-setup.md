@@ -1,6 +1,11 @@
 ---
 title: "AgentCairn — Obsidian-Based Long-Term Agent Memory"
 description: "Set up AgentCairn to give Hermes agents persistent cross-project memory using your Obsidian vault as the source of truth."
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentcairn-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # AgentCairn Setup Guide

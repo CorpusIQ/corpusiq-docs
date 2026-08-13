@@ -6,6 +6,9 @@ tags: [mcp-server, microsoft-planner, task-management, enterprise, microsoft-365
 last_updated: 2026-07-08
 source: https://mcpservers.org
 source_repo: github.com/aixolotl/microsoft-planner-mcp
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/microsoft-planner-mcp/"
+robots: "index,follow"
+
 ---
 
 # Microsoft Planner MCP — Integration Guide

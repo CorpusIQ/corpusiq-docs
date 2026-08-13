@@ -1,9 +1,12 @@
 ---
 title: "Google Maps Email Extractor — Maps-to-Leads Pipeline"
-description: "Search businesses on Google Maps and extract verified contact emails for outreach. Turn any Google Maps search into a qualified lead list with verified email addresses — directly from AI agents."
+description: "Search businesses on Google Maps and extract verified contact emails for outreach. Turn any Google Maps search into a qualified lead list with verified"
 category: mcp
 tags: [mcp-server, lead-generation, google-maps, email-extraction, sales, outreach, prospecting, business-intelligence]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/google-maps-email-extractor/"
+robots: "index,follow"
+
 ---
 
 # Google Maps Email Extractor MCP Server ★ New (July 2 PM)

@@ -1,6 +1,11 @@
 ---
-title: "July 20, 2026 — Official Skills, Self-Evolution, Marketing Dashboard + 13 GitHub Repos"
-description: "15 skills.sh skills (9,500+ installs) + 13 GitHub repos (288+ stars) — largest single-day Hermes ecosystem expansion. Nous Research official skills, aradotso ecosystem, community tools, and new GitHub repos."
+title: "July 20, 2026 — Official Skills, Self-Evolution,"
+description: "15 skills.sh skills (9,500+ installs) + 13 GitHub repos (288+ stars) — largest single-day Hermes ecosystem expansion. Nous Research official skills"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july20-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # 🆕 July 20, 2026 — Two Sweeps: 15 Skills.sh Skills + 13 GitHub Repos

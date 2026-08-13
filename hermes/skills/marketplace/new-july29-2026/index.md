@@ -1,6 +1,11 @@
 ---
-title: "July 29, 2026 — Media Use Skill (182.7K installs) + 1 marketplace discovery"
-description: "1 new Hermes-relevant skill discovered: media-use from heygen-com/hyperframes. 182.7K+ installs. Also noted ai-paper-reproduction-skill@minimal-run-and-audit (139.9K) as marketplace-listed (S3)."
+title: "July 29, 2026 — Media Use Skill (182.7K installs) + 1"
+description: "1 new Hermes-relevant skill discovered: media-use from heygen-com/hyperframes. 182.7K+ installs. Also noted"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july29-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # July 29, 2026 — Skills.sh Sweep

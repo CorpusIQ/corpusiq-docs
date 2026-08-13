@@ -1,6 +1,11 @@
 ---
 title: Hermes Agent Changelog
 description: Version history and release notes for NousResearch Hermes Agent. Track new features, breaking changes, and upgrades.
+canonical: "https://www.corpusiq.io/docs/hermes/changelog/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Hermes Agent Changelog

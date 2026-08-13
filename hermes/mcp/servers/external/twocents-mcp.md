@@ -7,6 +7,12 @@ discovered: "2026-07-23"
 verified: true
 repository: "https://github.com/twocents-page/twocents"
 remote_endpoint: "https://twocents.page/mcp"
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/twocents-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "twocents MCP — Human Feedback Loop for AI Agents"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # twocents MCP — Human Feedback Loop for AI Agents

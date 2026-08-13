@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: stripe
 setup: npx skills add stripe/ai@stripe-best-practices
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stripe/stripe-best-practices/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Stripe Best Practices"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Stripe Best Practices

@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: claude-office
 setup: npx skills add claude-office-skills/skills@pdf-extraction
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-office/pdf-extraction/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Pdf Extraction"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Pdf Extraction

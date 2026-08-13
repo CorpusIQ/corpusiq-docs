@@ -5,6 +5,11 @@ author: manufact.com
 repo: https://github.com/mcp-use/mcp-use
 stars: 10,317
 license: Apache 2.0
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mcp-use-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # MCP Use Setup Guide

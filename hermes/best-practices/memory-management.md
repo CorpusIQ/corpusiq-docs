@@ -4,6 +4,9 @@ description: Hermes Agent memory management guide. Honcho peer memory, GBrain or
 category: best-practices
 tags: [hermes-agent, memory-management, honcho, gbrain, memcore-cloud, context-optimization, persistent-memory, graphrag]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/best-practices/memory-management/"
+robots: "index,follow"
+
 ---
 
 # Memory Management Best Practices  --  Persistent AI Agent Context

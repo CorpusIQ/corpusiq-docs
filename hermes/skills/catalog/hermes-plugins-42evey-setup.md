@@ -5,6 +5,11 @@ category: hermes-native
 publisher: 42-evey
 maturity: beta
 source: https://github.com/42-evey/hermes-plugins
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-plugins-42evey-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Plugins (42-evey) — Setup Guide

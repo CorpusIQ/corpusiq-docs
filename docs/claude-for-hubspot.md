@@ -15,6 +15,10 @@ last_updated: '2026-06-16'
 category: HubSpot
 cluster: 7
 canonical_url: https://www.corpusiq.io/docs/claude-for-hubspot
+canonical: "https://www.corpusiq.io/docs/claude-for-hubspot/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # Claude for HubSpot: Deep CRM Intelligence with Anthropic's AI

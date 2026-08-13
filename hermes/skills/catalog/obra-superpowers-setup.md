@@ -1,6 +1,11 @@
 ---
 title: Obra Superpowers — Engineering Workflow Skills for Hermes Agents
 description: Brainstorming, systematic debugging, planning, code review, and test-driven development — 1.2M+ combined installs across 6 skills. Production-grade engineering workflows trusted by 295K+ developers.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/obra-superpowers-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Obra Superpowers — Setup Guide

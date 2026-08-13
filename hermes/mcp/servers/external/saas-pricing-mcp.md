@@ -4,6 +4,9 @@ description: "Free REST API and MCP server for verified SaaS, AI, and LLM pricin
 category: mcp
 tags: [mcp-server, business-intelligence, saas, pricing, competitive-research, market-intelligence]
 last_updated: 2026-07-14
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/saas-pricing-mcp/"
+robots: "index,follow"
+
 ---
 
 # SaaS & AI Pricing API MCP Server ★ New (July 14)

@@ -4,6 +4,9 @@ description: Step-by-step Mac Mini M4 setup guide for Hermes Agent. Run local LL
 category: setup
 tags: [mac-mini, hermes-agent, setup-guide, ollama, mlx, browser-automation, standalone, apple-silicon]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/setup/mac-mini-standalone/"
+robots: "index,follow"
+
 ---
 
 # Mac Mini M4 Hermes Agent Setup  --  Standalone AI Workstation

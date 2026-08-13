@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent Outputs"
-description: "Field manual of Hermes Agent implementations: industry case studies, company-size guides, and copy-paste cron templates. Real automations for compliance, healthcare, finance, manufacturing, and more."
+description: "Field manual of Hermes Agent implementations: industry case studies, company-size guides, and copy-paste cron templates. Real automations for compliance"
 category: Outputs
 tags:
   - case-studies
@@ -9,6 +9,9 @@ tags:
   - industry-examples
   - hermes-outputs
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Outputs & Implementation Guide  --  Real-World Patterns That Work

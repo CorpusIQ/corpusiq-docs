@@ -2,6 +2,12 @@
 description: >-
   Use CorpusIQ inside Slack and Microsoft Teams. Link your account, bring your
   own AI key, and ask questions about your business data without leaving chat.
+canonical: "https://www.corpusiq.io/docs/chat-apps/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "CorpusIQ in Slack and Teams"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # CorpusIQ in Slack and Teams

@@ -1,9 +1,12 @@
 ---
 title: "Backengine MCP — Customer Context Layer for Revenue Teams"
-description: "Query customer and prospect context (Slack, email, call transcripts, support tickets) from any MCP client. Multi-tenant SaaS platform that gives AI agents the full customer picture before every conversation."
+description: "Query customer and prospect context (Slack, email, call transcripts, support tickets) from any MCP client. Multi-tenant SaaS platform that gives AI agents"
 category: mcp
 tags: [mcp-server, sales, revenue-operations, customer-context, crm, revenue-intelligence]
 last_updated: 2026-07-18
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/backengine-mcp/"
+robots: "index,follow"
+
 ---
 
 # Backengine MCP Server ★ New (July 18)

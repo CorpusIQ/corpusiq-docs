@@ -12,6 +12,9 @@ tags:
   - AI agent
   - law firm
 last_updated: "2026-08-12"
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/legal-firms/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Legal Automation

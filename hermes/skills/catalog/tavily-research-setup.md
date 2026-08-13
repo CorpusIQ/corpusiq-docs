@@ -1,6 +1,11 @@
 ---
 title: Tavily Research — AI-Powered Deep Research with Citations
 description: Comprehensive AI-powered research that gathers sources, analyzes them, and produces cited reports. 14.1K+ installs. Takes 30-120 seconds. For comparisons, market analysis, and literature reviews.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/tavily-research-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Tavily Research — Setup Guide

@@ -1,6 +1,11 @@
 ---
 title: "langgraph Skills"
 description: "Hermes skills for langgraph integration and automation. Part of the Hermes Skills Library."
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/langgraph/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # langgraph Skills

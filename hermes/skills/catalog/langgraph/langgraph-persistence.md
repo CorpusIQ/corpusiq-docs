@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: langgraph
 setup: pip install langgraph langgraph-checkpoint
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/langgraph/langgraph-persistence/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Langgraph Persistence"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Langgraph Persistence

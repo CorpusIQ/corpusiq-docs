@@ -1,9 +1,12 @@
 ---
-title: "Competitor Tracker & Co. MCP — Automated Competitor Website Monitoring"
+title: "Competitor Tracker & Co. MCP — Automated Competitor"
 description: "Weekly competitor website crawling — pricing, product, messaging changes detected and filed as tagged reports. MCP-native for AI agents."
 category: mcp
 tags: [mcp-server, competitive-intelligence, market-research, business-intelligence, monitoring]
 last_updated: 2026-07-16
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/competitor-tracker-mcp/"
+robots: "index,follow"
+
 ---
 
 # Competitor Tracker & Co. MCP Server ★ New (July 16)

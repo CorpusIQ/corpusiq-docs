@@ -1,9 +1,12 @@
 ---
-title: "Bolthub MCP — Bitcoin Lightning L402 Paid-API Marketplace for AI Agents"
-description: "Bolthub is an API marketplace where AI agents discover and pay for tools per call over Bitcoin Lightning using L402. Agents autonomously purchase API access without credit cards or subscriptions."
+title: "Bolthub MCP — Bitcoin Lightning L402 Paid-API"
+description: "Bolthub is an API marketplace where AI agents discover and pay for tools per call over Bitcoin Lightning using L402. Agents autonomously purchase API access"
 category: mcp
 tags: [mcp-server, bitcoin, lightning, l402, api-marketplace, payments, agent-economy]
 last_updated: 2026-07-19
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/bolthub/"
+robots: "index,follow"
+
 ---
 
 # Bolthub MCP — L402 Paid-API Marketplace

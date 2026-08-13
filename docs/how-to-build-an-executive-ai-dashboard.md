@@ -7,6 +7,10 @@ author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
 tags: ["executive-dashboard", "ai-dashboard", "business-intelligence", "kpi-tracking"]
+canonical: "https://www.corpusiq.io/docs/how-to-build-an-executive-ai-dashboard/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # How to Build an Executive AI Dashboard

@@ -4,6 +4,9 @@ description: Practical Hermes Agent integration guides connecting Slack, GitHub,
 category: integrations
 tags: [hermes-agent, integrations, slack, github, email, calendar, crm, analytics, database, mcp-server, automation]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/integrations/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Integration Examples  --  Connect Your Business Tools

@@ -1,6 +1,11 @@
 ---
 title: Grounded Citations — Skill Setup Guide
 description: Install and configure grounded-citations, the Hermes Agent skill for inline numbered citations with verifiable source chains — Perplexity-style fact-checking for research and documents — 22 installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/grounded-citations-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Grounded Citations — Setup Guide

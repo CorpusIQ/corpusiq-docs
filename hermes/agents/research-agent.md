@@ -9,6 +9,9 @@ tags:
   - literature-review
   - ai-research-assistant
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/agents/research-agent/"
+robots: "index,follow"
+
 ---
 
 # Hermes Research Agent  --  Autonomous Market Intelligence & Competitive Research

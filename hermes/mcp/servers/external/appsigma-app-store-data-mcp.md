@@ -4,6 +4,9 @@ description: "Full public App Store search results as users see them — ranking
 category: mcp
 tags: [mcp-server, app-store, aso, ios, app-analytics, keyword-research, app-marketing]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/appsigma-app-store-data-mcp/"
+robots: "index,follow"
+
 ---
 
 # AppSigma App Store Data MCP — ASO Intelligence

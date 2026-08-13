@@ -1,6 +1,11 @@
 ---
 title: New Hermes Skills  --  June 20-22, 2026
 description: 15 newly discovered Hermes Agent repos  --  Hermes Bible (169-page community KB), Steroids Image Gen, Ershov Memory Engine, Obsidian integration bundles, P2P Agent Agency, and 9 new plugin stubs from jligato
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june20-22-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills: June 20-22, 2026

@@ -4,6 +4,9 @@ description: SLA-driven Hermes Agent incident response blueprint. Automated dete
 category: blueprints
 tags: [hermes-agent, blueprint, incident-response, monitoring, sla, triage, remediation, postmortem, devops]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/blueprints/incident-response/"
+robots: "index,follow"
+
 ---
 
 # Incident Response Blueprint  --  Automated Detection & Remediation

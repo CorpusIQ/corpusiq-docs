@@ -4,6 +4,9 @@ description: "SQL database connectors for CorpusIQ MCP. Query PostgreSQL, MySQL,
 category: mcp
 tags: [corpusiq, mcp-connector]
 last_updated: 2026-07-15
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/connectors/database/"
+robots: "index,follow"
+
 ---
 
 # CorpusIQ Database Connectors

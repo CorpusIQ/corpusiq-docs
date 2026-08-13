@@ -1,6 +1,11 @@
 ---
 title: Research Paper Writing Pipeline — Hermes Skill Setup Guide
 description: Install and configure research-paper-writing, the official Hermes Agent skill for end-to-end ML/AI research paper production targeting NeurIPS, ICML, ICLR, ACL, AAAI, and COLM — 396 installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/research-paper-writing-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Research Paper Writing Pipeline — Setup Guide

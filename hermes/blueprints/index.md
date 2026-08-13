@@ -4,6 +4,9 @@ description: Production-ready Hermes Agent automation blueprints for daily opera
 category: blueprints
 tags: [hermes-agent, blueprints, automation, workflows, cron, daily-operations, customer-lifecycle, content-pipeline, financial-close, incident-response]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/blueprints/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Automation Blueprints  --  End-to-End AI Workflows

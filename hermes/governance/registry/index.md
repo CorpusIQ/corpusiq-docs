@@ -1,6 +1,11 @@
 ---
 title: System Registry
 description: Preventing duplication and sprawl in autonomous agent systems through component registration
+canonical: "https://www.corpusiq.io/docs/hermes/governance/registry/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # System Registry

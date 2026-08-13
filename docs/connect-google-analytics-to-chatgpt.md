@@ -1,6 +1,6 @@
 ---
 title: "Connect Google Analytics to ChatGPT via MCP"
-description: "Connect your Google Analytics account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your google analytics data and get real-time, source-cited answers  --  no exports, no coding required."
+description: "Connect your Google Analytics account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your google analytics data and get real-time"
 category: ChatGPT Integrations
 tags: ["connect Google Analytics to ChatGPT", "Google Analytics ChatGPT integration", "MCP Google Analytics connector", "Google Analytics data to ChatGPT", "AI for Google Analytics", "CorpusIQ MCP"]
 last_updated: 2026-07-08

@@ -7,6 +7,11 @@ created: 2026-07-23
 category: IP/Legal
 stars: 0
 tags: [trademark, uspto, ip, legal, brand-protection, search]
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/goalie-trademark-search-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+description: "MCP server for searching **14M+ USPTO trademark records** directly from AI agents."
+
 ---
 
 # Goalie Trademark Search MCP Server

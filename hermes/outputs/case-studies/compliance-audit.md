@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent Compliance & Audit Automation"
-description: "Automate SOC 2, HIPAA, and GDPR compliance with Hermes Agent. Continuous evidence collection, audit trails, and regulatory reporting using cron-driven AI skills."
+description: "Automate SOC 2, HIPAA, and GDPR compliance with Hermes Agent. Continuous evidence collection, audit trails, and regulatory reporting using cron-driven AI"
 category: "Case Study"
 tags:
   - compliance
@@ -11,6 +11,9 @@ tags:
   - automation
   - AI agent
 last_updated: "2026-08-12"
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/compliance-audit/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Compliance & Audit Automation

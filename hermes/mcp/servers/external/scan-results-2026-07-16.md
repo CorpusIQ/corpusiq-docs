@@ -4,6 +4,9 @@ description: "Daily MCP server discovery scan from mcp.so + mcpservers.org. 15 n
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
 last_updated: 2026-07-16
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-16/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Scan — July 16, 2026

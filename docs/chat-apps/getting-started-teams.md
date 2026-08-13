@@ -2,6 +2,12 @@
 description: >-
   Start using CorpusIQ in Microsoft Teams: sign in with your Microsoft account,
   add your AI key in the dashboard, and ask your first question.
+canonical: "https://www.corpusiq.io/docs/chat-apps/getting-started-teams/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Getting started in Microsoft Teams"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # Getting started in Microsoft Teams

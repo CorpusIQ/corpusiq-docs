@@ -1,6 +1,11 @@
 ---
 title: New Skills — July 14, 2026
 description: 2 new OpenClaw ecosystem skills discovered July 14, 2026 — openclaw-workspace (143 installs) and pymupdf-pdf (47 installs).
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july14-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills Discovery — July 14, 2026

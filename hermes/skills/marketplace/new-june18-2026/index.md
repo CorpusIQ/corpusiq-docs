@@ -1,6 +1,11 @@
 ---
 title: "New Skills"
 description: 32 new Hermes Agent skills discovered June 18, 2026 from nousresearch/hermes-agent  --  macOS desktop automation, Node.js/Python debugging, smart home control, subagent workflows, music generation, and more.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june18-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills  --  June 18, 2026

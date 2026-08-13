@@ -22,6 +22,10 @@ keywords:
 - HubSpot AI dashboard
 - HubSpot AI reporting
 - HubSpot conversational CRM
+canonical: "https://www.corpusiq.io/docs/hubspot-business-intelligence/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # HubSpot Business Intelligence  --  Connect Your CRM to AI

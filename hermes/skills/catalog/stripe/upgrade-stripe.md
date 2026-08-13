@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: stripe
 setup: npx skills add stripe/ai@upgrade-stripe
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stripe/upgrade-stripe/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Upgrade Stripe"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Upgrade Stripe

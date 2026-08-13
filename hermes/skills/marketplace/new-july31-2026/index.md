@@ -1,6 +1,11 @@
 ---
 title: New Skills — July 31, 2026
 description: 28 newly discovered Hermes Agent skills from skills.sh marketplace sweep — including Hermes Dojo self-improvement system, Manim animation learning, workflow framework, Obsidian integration, and educational skills.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july31-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills — July 31, 2026

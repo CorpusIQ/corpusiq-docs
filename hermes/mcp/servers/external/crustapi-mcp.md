@@ -4,6 +4,9 @@ description: "Live Google Search, Maps, News, Images and Reviews for AI agents. 
 category: mcp
 tags: [mcp-server, search, google, maps, news, research]
 last_updated: 2026-07-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/crustapi-mcp/"
+robots: "index,follow"
+
 ---
 
 # CrustAPI MCP Server ★ New (July 12)

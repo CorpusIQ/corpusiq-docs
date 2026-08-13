@@ -11,6 +11,9 @@ tags:
   - AI agent
   - retail automation
 last_updated: "2026-08-12"
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/ecommerce/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Ecommerce Automation

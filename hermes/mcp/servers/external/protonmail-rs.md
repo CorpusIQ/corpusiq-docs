@@ -1,6 +1,11 @@
 ---
 title: "Protonmail-rs — Proton Mail MCP Server Integration Guide"
 description: "Connect AI agents to Proton Mail via MCP with end-to-end OpenPGP encryption. Pure-Rust library, CLI, and MCP server for secure email operations."
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/protonmail-rs/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Protonmail-rs — Proton Mail MCP Server

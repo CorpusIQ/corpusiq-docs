@@ -23,6 +23,8 @@ tags:
 - ai-powered-data-analysis
 - data-analysis-artificial-intelligence
 - how-to-use-ai-for-data-analysis
+robots: "index,follow"
+
 ---
 
 # AI for Data Analysis: From SQL Queries to Natural Conversations

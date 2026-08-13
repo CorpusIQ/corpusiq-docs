@@ -4,6 +4,9 @@ description: "Connect Co-Invest to Hermes Agent. Research, analyze, and manage i
 category: mcp
 tags: [mcp-server, co-invest, finance, investing, trading, portfolio-management, ai-agent]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/coinvest-mcp/"
+robots: "index,follow"
+
 ---
 
 # Co-Invest MCP Server ★ New (July 3)

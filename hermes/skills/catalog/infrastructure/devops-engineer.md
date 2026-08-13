@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: infrastructure
 setup: npx skills add jeffallan/claude-skills
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/infrastructure/devops-engineer/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Devops Engineer"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Devops Engineer

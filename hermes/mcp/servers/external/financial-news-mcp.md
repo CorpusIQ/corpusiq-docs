@@ -4,6 +4,9 @@ description: "Real-time financial news search by ticker, source, and language wi
 category: mcp
 tags: [mcp-server, finance, news, sentiment, market-data]
 last_updated: 2026-07-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/financial-news-mcp/"
+robots: "index,follow"
+
 ---
 
 # Financial News MCP Server ★ New (July 12)

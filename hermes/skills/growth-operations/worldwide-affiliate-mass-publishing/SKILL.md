@@ -3,6 +3,12 @@ name: worldwide-affiliate-mass-publishing
 description: Mass-publish CorpusIQ affiliate program pages in 100+ languages via Rentry.co API. Proven to drive signups (12 users acquired). No auth required — pure API POST. Use whenever pushing affiliate program worldwide.
 category: growth-operations
 trigger: Affiliate program promotion at scale, worldwide content push, driving signups through multilingual SEO
+canonical: "https://www.corpusiq.io/docs/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/SKILL/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Worldwide Affiliate Mass Publishing"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Worldwide Affiliate Mass Publishing

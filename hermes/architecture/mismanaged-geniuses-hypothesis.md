@@ -2,6 +2,10 @@
 title: The Mismanaged Geniuses Hypothesis — Why Your AI Underperforms
 description: "Your AI model is not the problem. The scaffold around it is."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/architecture/mismanaged-geniuses-hypothesis/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # The Mismanaged Geniuses Hypothesis — Why Your AI Underperforms

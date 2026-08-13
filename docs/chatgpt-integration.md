@@ -3,6 +3,12 @@ description: >-
   Use CorpusIQ inside ChatGPT  --  available on the ChatGPT app store. Ask
   natural-language questions across your connected business tools and get
   cited answers without leaving the chat.
+canonical: "https://www.corpusiq.io/docs/chatgpt-integration/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "ChatGPT Integration"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 title: "ChatGPT Integration with CorpusIQ  --  Connect Business Data to ChatGPT"

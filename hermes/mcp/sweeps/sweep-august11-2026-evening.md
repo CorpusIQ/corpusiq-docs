@@ -1,11 +1,16 @@
 ---
 title: "MCP Sweep — August 11, 2026 (Evening)"
-description: "Evening sweep following midday sweep. 3 new business-relevant MCP servers discovered — referral/affiliate program management, full ad workflow, and video production for AI agents."
+description: "Evening sweep following midday sweep. 3 new business-relevant MCP servers discovered — referral/affiliate program management, full ad workflow, and video"
 date: 2026-08-11T22:00:00-07:00
 sources: [mcp.so, mcpservers.org]
 status: complete
 finds: 3
 guides: 3
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august11-2026-evening/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MCP Server Discovery Sweep — August 11, 2026 (Evening)

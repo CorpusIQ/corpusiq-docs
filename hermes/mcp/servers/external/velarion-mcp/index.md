@@ -1,9 +1,12 @@
 ---
-title: "Velarion MCP — Executive Compensation & Corporate Governance Intelligence"
-description: "Deterministic executive-compensation and governance intelligence for ~3,000 US public companies as callable MCP tools. Sourced from SEC proxy filings, not LLM guesses. 8 tools, self-serve token."
+title: "Velarion MCP — Executive Compensation & Corporate"
+description: "Deterministic executive-compensation and governance intelligence for ~3,000 US public companies as callable MCP tools. Sourced from SEC proxy filings, not"
 category: mcp
 tags: [mcp-server, finance, executive-compensation, corporate-governance, sec-data, investor-tools]
 last_updated: 2026-07-18
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/velarion-mcp/"
+robots: "index,follow"
+
 ---
 
 # Velarion MCP Server ★ New (July 18)

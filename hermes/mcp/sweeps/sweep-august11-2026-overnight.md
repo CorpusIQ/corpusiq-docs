@@ -1,11 +1,16 @@
 ---
 title: "MCP Sweep — August 11, 2026 (Overnight)"
-description: "Overnight sweep following Aug 10 evening sweep. 3 new business-relevant MCP servers discovered — social media intelligence, LinkedIn content ops, and SEO audit."
+description: "Overnight sweep following Aug 10 evening sweep. 3 new business-relevant MCP servers discovered — social media intelligence, LinkedIn content ops, and SEO"
 date: 2026-08-11T03:00:00-07:00
 sources: [mcp.so, mcp.so GitHub issues]
 status: complete
 finds: 3
 guides: 3
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august11-2026-overnight/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MCP Server Discovery Sweep — August 11, 2026 (Overnight)

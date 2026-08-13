@@ -1,6 +1,11 @@
 ---
 title: Kostja94 Marketing Skills — Copywriting, SEO, ads, and content for Hermes Agents
 description: 7+ marketing-focused skills covering copywriting (3K), programmatic SEO (1.7K), Meta ads (1.7K), Google Search Console (1.3K), TikTok ads (1K), legal pages, and website structure. 7.6K+ combined installs, 760⭐.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/kostja94-marketing-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Kostja94 Marketing Skills — Setup Guide

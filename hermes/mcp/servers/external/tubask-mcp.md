@@ -1,9 +1,12 @@
 ---
 title: "Tubask MCP — Hosted YouTube Intelligence for AI Agents"
-description: "Search YouTube videos, extract transcripts, analyze content, and retrieve metadata — all from a hosted MCP endpoint. Designed for Claude & Cursor with zero infrastructure management."
+description: "Search YouTube videos, extract transcripts, analyze content, and retrieve metadata — all from a hosted MCP endpoint. Designed for Claude & Cursor with zero"
 category: mcp
 tags: [mcp-server, youtube, transcripts, content-analysis, video-search, research, content-marketing]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/tubask-mcp/"
+robots: "index,follow"
+
 ---
 
 # Tubask MCP Server ★ New (July 2 PM)

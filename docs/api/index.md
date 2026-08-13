@@ -1,10 +1,12 @@
 ---
 title: "CorpusIQ API Reference — REST, Auth, and SDKs"
-description: "Complete CorpusIQ API reference: authentication, endpoints, rate limits, error codes, OpenAPI spec, schemas, and webhooks. Everything you need to integrate with the CorpusIQ API."
+description: "Complete CorpusIQ API reference: authentication, endpoints, rate limits, error codes, OpenAPI spec, schemas, and webhooks. Everything you need to integrate"
 category: "API Reference"
 tags: ["corpusiq api", "rest api", "api documentation", "api authentication", "api endpoints", "api reference", "openapi"]
 last_updated: "2026-08-12"
 robots: "index,follow"
+canonical: "https://www.corpusiq.io/docs/api/"
+
 ---
 
 # CorpusIQ API Reference

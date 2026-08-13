@@ -1,6 +1,11 @@
 ---
 title: "Readme"
-description: "Hermes prompts directory — ready-to-use AI prompts for business operations, code generation, content creation, data analysis, research, and creative workflows powered by your connected data sources."
+description: "Hermes prompts directory — ready-to-use AI prompts for business operations, code generation, content creation, data analysis, research, and creative"
+canonical: "https://www.corpusiq.io/docs/hermes/prompts/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes prompt", "prompt engineering", "ai prompt"]
+
 ---
 
 # Prompts library

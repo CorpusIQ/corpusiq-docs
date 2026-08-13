@@ -1,6 +1,11 @@
 ---
 title: Creative Ideation — Skill Setup Guide
 description: Install and configure ideation, the Hermes Agent skill for generating creative project ideas through constraint-driven brainstorming — 111 installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ideation-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Creative Ideation — Setup Guide

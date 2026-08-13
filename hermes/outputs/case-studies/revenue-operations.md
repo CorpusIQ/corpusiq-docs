@@ -11,6 +11,9 @@ tags:
   - revenue reconciliation
   - AI agent
 last_updated: "2026-08-12"
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/revenue-operations/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Revenue Operations Automation

@@ -7,6 +7,11 @@ created: 2026-07-22
 category: Data Governance
 stars: 0
 tags: [collibra, data-governance, enterprise, metadata, power-bi]
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/collibra-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+description: "Collibra Core REST API 2.0 uses basic auth (username/password). The MCP server reads credentials from environment variables."
+
 ---
 
 # Collibra MCP Server

@@ -4,6 +4,9 @@ description: Hermes Agent data analysis prompts for SQL query generation, report
 category: prompts
 tags: [hermes-agent, prompts, data-analysis, sql, reporting, visualization, metrics, business-intelligence]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/prompts/data-analysis/"
+robots: "index,follow"
+
 ---
 
 # Data Analysis Prompts  --  SQL, Reporting & Visualization

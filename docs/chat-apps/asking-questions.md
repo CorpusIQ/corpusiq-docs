@@ -3,6 +3,12 @@ description: >-
   How to ask CorpusIQ good questions in Slack and Teams, what the answers look
   like, and a set of prompts worth trying across finance, ads, ecommerce, and
   more.
+canonical: "https://www.corpusiq.io/docs/chat-apps/asking-questions/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Asking questions"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # Asking questions

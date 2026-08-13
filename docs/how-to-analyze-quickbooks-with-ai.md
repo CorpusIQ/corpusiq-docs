@@ -16,6 +16,10 @@ last_updated: '2026-06-16'
 category: QuickBooks
 cluster: 5
 canonical_url: https://www.corpusiq.io/docs/how-to-analyze-quickbooks-with-ai
+canonical: "https://www.corpusiq.io/docs/how-to-analyze-quickbooks-with-ai/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # How to Analyze QuickBooks Data with AI: A Complete Step-by-Step Guide

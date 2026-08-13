@@ -22,6 +22,8 @@ tags:
 - ai-powered-sales-reporting
 - sales-reporting-artificial-intelligence
 - how-to-use-ai-for-sales-reporting
+robots: "index,follow"
+
 ---
 
 # AI for Sales Reporting: Pipeline Intelligence in Real Time

@@ -1,6 +1,6 @@
 ---
-title: "LinkedMash MCP — LinkedIn saved posts as an AI agent content engine"
-description: "Connect your LinkedIn saved-post library to AI agents. Search, organize, draft, schedule, publish, and analyze LinkedIn content — all through MCP. Hosted at mcp.linkedmash.com."
+title: "LinkedMash MCP — LinkedIn saved posts as an AI agent"
+description: "Connect your LinkedIn saved-post library to AI agents. Search, organize, draft, schedule, publish, and analyze LinkedIn content — all through MCP. Hosted at"
 category: mcp
 tags: [mcp-server, social-media, linkedin, content-marketing, scheduling]
 source: mcp.so GitHub issues (#3516)
@@ -11,6 +11,10 @@ github: null
 mcp_endpoint: https://mcp.linkedmash.com/api/mcp
 transport: Streamable HTTP
 auth: Bearer token (API key)
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/linkedmash-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # LinkedMash MCP Server

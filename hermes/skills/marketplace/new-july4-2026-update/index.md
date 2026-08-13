@@ -1,6 +1,11 @@
 ---
 title: "July 4, 2026 (Update) — hermes-top Dashboard"
-description: "5 new Hermes-relevant repos discovered in late July 4 sweep: hermes-top terminal dashboard (1⭐), Neo Desktop Theme (2⭐), Hermes Full Backup (1⭐), IC-sd Agent Skills (1⭐), AGEL-Comp Safety Framework."
+description: "5 new Hermes-relevant repos discovered in late July 4 sweep: hermes-top terminal dashboard (1⭐), Neo Desktop Theme (2⭐), Hermes Full Backup (1⭐), IC-sd"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july4-2026-update/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # 🆕 July 4, 2026 (Update) — 5 New Repos (Late Sweep)

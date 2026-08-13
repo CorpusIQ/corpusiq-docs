@@ -1,9 +1,12 @@
 ---
 title: "MCP Server Sweep — July 22, 2026 (Evening)"
-description: "GitHub API sweep — 47 net-new MCP servers created July 22. 6 integration guides drafted for business-operator-relevant servers. Headline finds: Collibra Data Governance, Sanctions Screening (OFAC/EU/UK/UN), EU VAT VIES, SAP CAP/CDS (Capforge), SAP ECC (abapilot), General Liquidity."
+description: "GitHub API sweep — 47 net-new MCP servers created July 22. 6 integration guides drafted for business-operator-relevant servers. Headline finds: Collibra"
 category: mcp
 tags: [mcp-servers, discovery, sweep, catalog, 2026, github]
 last_updated: 2026-07-22
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july22-2026-evening/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Sweep — July 22, 2026 (Evening)

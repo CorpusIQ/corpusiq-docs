@@ -1,6 +1,11 @@
 ---
 title: June 24, 2026 (Evening) — Skills Discovery Roundup
 description: Evening sweep — 28 new Hermes repos discovered including ContextForge RAG profile, Math via Code skill, Memory Stack OS, Loop Maker, Skywork Skills Hub (18 skills), and 18+ more integrations and tools
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june24-2026-evening/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # 🆕 June 24, 2026 (Evening) — Skills Discovery Roundup

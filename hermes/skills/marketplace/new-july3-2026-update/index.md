@@ -1,6 +1,11 @@
 ---
-title: "July 3, 2026 (Update) — Hermes Hybrid Memory + 5 More Skills"
-description: "6 additional Hermes-relevant repos discovered in the late July 3 sweep: Hybrid Memory plugin (graph+vector+holographic), MCP ChatGPT bridge, Agent Bookmarks for Notion, MoA Synthesis decision discipline, BDH Graph Harness, and RedSeek Rescue."
+title: "July 3, 2026 (Update) — Hermes Hybrid Memory + 5 More"
+description: "6 additional Hermes-relevant repos discovered in the late July 3 sweep: Hybrid Memory plugin (graph+vector+holographic), MCP ChatGPT bridge, Agent Bookmarks"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july3-2026-update/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # 🆕 July 3, 2026 (Update) — 6 Additional Repos Discovered

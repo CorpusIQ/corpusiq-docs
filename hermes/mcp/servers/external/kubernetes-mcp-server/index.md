@@ -1,5 +1,5 @@
 ---
-title: "Kubernetes MCP Server — Manage Clusters, Pods, Deployments"
+title: "Kubernetes MCP Server — Manage Clusters, Pods,"
 description: "Integration guide for Manusa/kubernetes-mcp-server. MCP server for Kubernetes and OpenShift — native binary, npm, Python, or Docker. 1,814 stars."
 category: mcp
 tags: [mcp-server, kubernetes, devops, cloud, infrastructure, hermes-agent]
@@ -7,6 +7,9 @@ last_updated: 2026-07-16
 mcp_server: Manusa/kubernetes-mcp-server
 stars: 1814
 source: mcpservers.org
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/kubernetes-mcp-server/"
+robots: "index,follow"
+
 ---
 
 # Kubernetes MCP Server — Manage K8s/OpenShift via MCP

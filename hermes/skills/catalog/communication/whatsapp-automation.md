@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: communication
 setup: npx skills add claude-office-skills/skills@whatsapp-automation
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/communication/whatsapp-automation/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Whatsapp Automation"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Whatsapp Automation

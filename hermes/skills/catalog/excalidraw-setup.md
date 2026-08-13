@@ -1,6 +1,11 @@
 ---
 title: excalidraw — Setup Guide
 description: Generate Excalidraw diagrams, sketches, and wireframes from text descriptions — visual thinking for Hermes agents.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/excalidraw-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # excalidraw — Setup Guide

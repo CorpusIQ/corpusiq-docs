@@ -1,6 +1,11 @@
 ---
 title: Hermes Skills
 description: 445+ skills for Hermes agents  --  90 native CorpusIQ skills, 350+ marketplace skills from skills.sh. Reusable, executable agent capabilities.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Hermes Skills

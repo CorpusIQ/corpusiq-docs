@@ -1,6 +1,11 @@
 ---
 title: "Hermespace — Persistent Agent World Setup"
-description: "Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent — a persistent world model with limited working-memory desk, dual decode channels, skill fabric, and append-only archive."
+description: "Install and configure hermespace (PabloTheThinker/hermespace) for Hermes Agent — a persistent world model with limited working-memory desk, dual decode"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermespace-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermespace Setup Guide

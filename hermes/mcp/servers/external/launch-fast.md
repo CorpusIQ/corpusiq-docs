@@ -1,9 +1,12 @@
 ---
 title: "Launch Fast MCP — Amazon FBA Analytics for AI Agents"
-description: "Amazon seller analytics directly from any MCP client — product research, seller analytics, Brand Analytics, and ads diagnostics. Zero-setup remote MCP server for FBA operators."
+description: "Amazon seller analytics directly from any MCP client — product research, seller analytics, Brand Analytics, and ads diagnostics. Zero-setup remote MCP"
 category: mcp
 tags: [mcp-server, amazon-fba, ecommerce, seller-tools, amazon-ads, product-research, keyword-research]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/launch-fast/"
+robots: "index,follow"
+
 ---
 
 # Launch Fast MCP — Amazon FBA Analytics

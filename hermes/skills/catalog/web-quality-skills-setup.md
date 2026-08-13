@@ -1,6 +1,11 @@
 ---
 title: web-quality-skills — Google-Grade Web Quality Audits for Hermes (37K installs)
 description: Install and use addyosmani/web-quality-skills — accessibility, SEO, performance, and comprehensive web quality audits from Google Chrome's engineering lead. WCAG 2.1, Core Web Vitals, structured data validation.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/web-quality-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # web-quality-skills — Setup Guide

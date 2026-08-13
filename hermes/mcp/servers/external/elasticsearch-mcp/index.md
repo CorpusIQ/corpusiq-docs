@@ -4,6 +4,9 @@ description: "Connect AI agents to Elasticsearch via the official Elastic MCP se
 category: mcp
 tags: [mcp-server]
 last_updated: 2026-07-15
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/elasticsearch-mcp/"
+robots: "index,follow"
+
 ---
 
 # Elasticsearch MCP — Full-Text Search & Observability for AI Agents

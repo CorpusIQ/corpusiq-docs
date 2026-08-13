@@ -1,6 +1,6 @@
 ---
-title: "LLM Prices CN MCP Server — Daily-Verified LLM Pricing Dataset"
-description: "Integration guide for szp2005/llm-prices-cn: 44+ LLM models, daily-verified pricing (CN & global), hosted MCP server for live price queries and token cost estimation."
+title: "LLM Prices CN MCP Server — Daily-Verified LLM Pricing"
+description: "Integration guide for szp2005/llm-prices-cn: 44+ LLM models, daily-verified pricing (CN & global), hosted MCP server for live price queries and token cost"
 category: finance
 tags: [mcp, llm-pricing, cost-optimization, api, token-estimation]
 source: awesome-mcp-servers
@@ -8,6 +8,9 @@ repo: szp2005/llm-prices-cn
 stars: 0
 discovered: 2026-07-23
 last_updated: 2026-07-23
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/llm-prices-cn-mcp/"
+robots: "index,follow"
+
 ---
 
 # LLM Prices CN MCP Server — LLM API Pricing Dataset

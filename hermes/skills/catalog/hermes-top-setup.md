@@ -7,6 +7,11 @@ source_repo: markmnl/hermes-top
 stars: 1
 language: Go
 platforms: [Linux, macOS, Windows]
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-top-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # hermes-top — Full Setup Guide

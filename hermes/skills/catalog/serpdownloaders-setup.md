@@ -1,6 +1,11 @@
 ---
 title: SERP Downloaders — Universal Content & Media Downloader Skills for Hermes
 description: Download content from Instagram, TikTok, Vimeo, Bilibili, Unsplash, and SERP images. 6.6K+ combined installs across 6 platform-specific downloader skills.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/serpdownloaders-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # SERP Downloaders — Setup Guide

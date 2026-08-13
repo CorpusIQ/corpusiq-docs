@@ -2,6 +2,10 @@
 title: Fulcru MCP — AI Search Visibility with Execution Arm
 description: "Setup and usage guide for Fulcru MCP — AI Search Visibility with Execution Arm. Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/fulcru-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Fulcru MCP — AI Search Visibility with Execution Arm

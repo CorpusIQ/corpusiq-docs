@@ -1,6 +1,6 @@
 ---
 title: "Fullstory MCP Plugin — Behavioral Analytics for AI Agents"
-description: "Integration guide for fullstorydev/fullstory-skills: Query session data, user behavior, funnel metrics, and CX insights directly from Claude or Cursor. Official MCP plugin from Fullstory."
+description: "Integration guide for fullstorydev/fullstory-skills: Query session data, user behavior, funnel metrics, and CX insights directly from Claude or Cursor"
 category: analytics
 tags: [mcp, fullstory, behavioral-analytics, session-replay, funnel-analysis, customer-experience, product-analytics]
 source: mcp.so
@@ -8,6 +8,9 @@ repo: fullstorydev/fullstory-skills
 stars: 9
 discovered: 2026-07-23
 last_updated: 2026-07-23
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/fullstory-mcp/"
+robots: "index,follow"
+
 ---
 
 # Fullstory MCP Plugin — Behavioral Analytics for AI Agents

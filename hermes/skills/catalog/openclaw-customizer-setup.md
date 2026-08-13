@@ -1,6 +1,11 @@
 ---
 title: OpenClaw Customizer — Setup Guide
 description: Portable, version-controlled configuration for Claude Code and OpenAI Codex. Symlink-based skill syncing across machines with Git version control.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-customizer-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # OpenClaw Customizer — Setup Guide

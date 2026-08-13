@@ -1,9 +1,12 @@
 ---
-title: "Linksee Memory MCP — 6-Layer Cross-Agent Memory with Forgetting Curve"
-description: "Linksee Memory MCP server — local-first cross-agent memory with 6-layer structure, Ebbinghaus-style forgetting curve, and drift detection. Catches when code diverges from past decisions."
+title: "Linksee Memory MCP — 6-Layer Cross-Agent Memory with"
+description: "Linksee Memory MCP server — local-first cross-agent memory with 6-layer structure, Ebbinghaus-style forgetting curve, and drift detection. Catches when code"
 category: mcp
 tags: [mcp-server, memory, knowledge-management, cross-agent, local-first]
 last_updated: 2026-07-19
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/linksee-memory/"
+robots: "index,follow"
+
 ---
 
 # Linksee Memory MCP Server

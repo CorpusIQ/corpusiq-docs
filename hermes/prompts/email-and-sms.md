@@ -1,6 +1,11 @@
 ---
 title: "Email And Sms"
-description: "Email and SMS campaign prompts for Hermes agents. Analyze open rates, click-through, and conversion data across Gmail, Outlook, Klaviyo, and Twilio using natural language queries."
+description: "Email and SMS campaign prompts for Hermes agents. Analyze open rates, click-through, and conversion data across Gmail, Outlook, Klaviyo, and Twilio using"
+canonical: "https://www.corpusiq.io/docs/hermes/prompts/email-and-sms/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes prompt", "prompt engineering", "ai prompt"]
+
 ---
 
 # Email and SMS marketing prompts

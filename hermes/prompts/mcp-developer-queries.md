@@ -1,6 +1,11 @@
 ---
 title: "Mcp Developer Queries"
-description: "MCP developer query prompts for building and debugging MCP servers. Test queries, schema discovery patterns, and performance diagnostics for developers integrating custom MCP tools."
+description: "MCP developer query prompts for building and debugging MCP servers. Test queries, schema discovery patterns, and performance diagnostics for developers"
+canonical: "https://www.corpusiq.io/docs/hermes/prompts/mcp-developer-queries/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes prompt", "prompt engineering", "ai prompt"]
+
 ---
 
 # MCP developer prompts

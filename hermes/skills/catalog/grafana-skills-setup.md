@@ -1,6 +1,11 @@
 ---
 title: Grafana Skills — Observability & Monitoring Platform for Hermes Agents
 description: Grafana's official agent skills — dashboarding, PromQL, Loki, Mimir, Pyroscope, Beyla, alerting, infrastructure monitoring. 16K+ combined installs across 8 skills for agent infrastructure observability.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/grafana-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Grafana Skills — Setup Guide

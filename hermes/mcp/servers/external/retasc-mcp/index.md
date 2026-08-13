@@ -4,6 +4,9 @@ description: "The issue tracker for AI agents over MCP. Atomic claims, dependenc
 category: mcp
 tags: [mcp-server, agent-orchestration, task-management, multi-agent, issue-tracker, claude-code, hermes-agent]
 last_updated: 2026-07-28
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/retasc-mcp/"
+robots: "index,follow"
+
 ---
 
 # Retasc MCP — AI Agent Task Orchestration for Hermes Agent

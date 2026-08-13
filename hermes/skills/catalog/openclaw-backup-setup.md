@@ -1,6 +1,11 @@
 ---
 title: OpenClaw Backup — Encrypted Agent Workspace Backup for Hermes
 description: Automated AES-256-CBC encrypted backup and restore for Hermes/OpenClaw agent workspace files. Upload to soul-upload.com with auto-generated passwords per backup.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-backup-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # OpenClaw Backup — Setup Guide

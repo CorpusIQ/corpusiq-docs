@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: google-workspace
 setup: npx skills add googleworkspace/cli@recipe-draft-email-from-doc
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-workspace/gws-draft-email-from-doc/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Gws Draft Email From Doc"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Gws Draft Email From Doc

@@ -1,6 +1,6 @@
 ---
 title: "Sugra API MCP — Comprehensive Business Data for AI Agents"
-description: "Official MCP server for the Sugra API — 1,500+ endpoints across 36 data domains from 160+ primary sources. Markets, economics, company fundamentals, government, news, climate."
+description: "Official MCP server for the Sugra API — 1,500+ endpoints across 36 data domains from 160+ primary sources. Markets, economics, company fundamentals"
 category: mcp
 tags: [mcp-server, data-analytics, business-intelligence, finance, economics]
 source: mcp.so
@@ -8,6 +8,10 @@ discovered: 2026-07-22
 stars: 1
 author: Sugra Systems, Inc.
 github: https://github.com/SugraSystems
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/sugra-api-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # Sugra API MCP

@@ -1,6 +1,11 @@
 ---
 title: "Revenue And Finance"
-description: "Revenue and finance prompts for Hermes agents. Query ARR, MRR, churn, cash flow, P&L, and budget vs actuals in plain English using AI connected to your accounting and billing systems."
+description: "Revenue and finance prompts for Hermes agents. Query ARR, MRR, churn, cash flow, P&L, and budget vs actuals in plain English using AI connected to your"
+canonical: "https://www.corpusiq.io/docs/hermes/prompts/revenue-and-finance/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes prompt", "prompt engineering", "ai prompt"]
+
 ---
 
 # Revenue and finance prompts

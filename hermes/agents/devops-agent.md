@@ -9,6 +9,9 @@ tags:
   - incident-response
   - ai-devops-assistant
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/agents/devops-agent/"
+robots: "index,follow"
+
 ---
 
 # Hermes DevOps Agent  --  Autonomous Infrastructure Monitoring & SRE

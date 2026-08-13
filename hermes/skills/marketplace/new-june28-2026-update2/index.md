@@ -1,7 +1,11 @@
 ---
 title: "New Skills Discovered — June 28, 2026 (Update 2)"
-description: "9 new skills discovered — sundial-org OpenClaw collection (news-summary, ffmpeg-video-editor, Jina Reader, reminders, proactive agent, topic monitor, financial analysis), plus aradotso marketing skill and prompt-security audit watchdog."
+description: "9 new skills discovered — sundial-org OpenClaw collection (news-summary, ffmpeg-video-editor, Jina Reader, reminders, proactive agent, topic monitor"
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june28-2026-update2/"
+robots: "index,follow"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills Discovered — June 28, 2026 (Update 2)

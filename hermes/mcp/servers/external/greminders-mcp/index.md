@@ -1,6 +1,6 @@
 ---
 title: "GReminders — Scheduling & CRM MCP for Professional Firms"
-description: "Connect AI agents to your firm's scheduling, calendar, CRM, and client data. Claude can book meetings, retrieve CRM records, and answer client questions through one MCP endpoint."
+description: "Connect AI agents to your firm's scheduling, calendar, CRM, and client data. Claude can book meetings, retrieve CRM records, and answer client questions"
 source: api.greminders.com
 stars: 0
 language: N/A (Hosted SaaS)
@@ -8,6 +8,10 @@ transport: Streamable HTTP
 auth: OAuth / API Key
 category: Business Operations
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/greminders-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # GReminders — Scheduling & CRM MCP for Professional Firms

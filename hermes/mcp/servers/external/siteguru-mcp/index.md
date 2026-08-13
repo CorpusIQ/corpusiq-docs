@@ -1,6 +1,6 @@
 ---
-title: "SiteGuru MCP — SEO audit, ranking, and backlink data for AI agents"
-description: "Connect SiteGuru's full SEO dataset — prioritized to-do lists, audit data, rankings, backlinks, and indexation status — directly to AI agents via MCP. Remote MCP with OAuth or API key auth."
+title: "SiteGuru MCP — SEO audit, ranking, and backlink data for"
+description: "Connect SiteGuru's full SEO dataset — prioritized to-do lists, audit data, rankings, backlinks, and indexation status — directly to AI agents via MCP"
 category: mcp
 tags: [mcp-server, seo, marketing, analytics, google-search-console]
 source: mcp.so
@@ -11,6 +11,10 @@ github: null
 mcp_endpoint: https://mcp.siteguru.co/mcp
 transport: Streamable HTTP
 auth: OAuth (one-click) or Bearer API key
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/siteguru-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # SiteGuru MCP Server

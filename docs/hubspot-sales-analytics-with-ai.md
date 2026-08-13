@@ -17,6 +17,10 @@ last_updated: '2026-06-16'
 category: HubSpot
 cluster: 7
 canonical_url: https://www.corpusiq.io/docs/hubspot-sales-analytics-with-ai
+canonical: "https://www.corpusiq.io/docs/hubspot-sales-analytics-with-ai/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # HubSpot Sales Analytics with AI: Turn Pipeline Data into Revenue Intelligence

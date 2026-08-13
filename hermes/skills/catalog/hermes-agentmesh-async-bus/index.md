@@ -4,6 +4,11 @@ description: Deploy a peer-to-peer, 0-SSH, Redis-backed async message bus for mu
 category: Agent Infrastructure
 source: seleman66eeddwegger3-art/hermes-agentmesh
 installs: 1/day trending
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agentmesh-async-bus/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes AgentMesh Async Bus

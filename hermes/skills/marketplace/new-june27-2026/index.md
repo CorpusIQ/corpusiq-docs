@@ -1,6 +1,11 @@
 ---
 title: "June 27, 2026 — Skills Gallery (1,672"
-description: "9 newly discovered Hermes Agent repos — Skills Gallery mega-collection (1,672+ skills across 49 categories), Agent-to-Agent Protocol bridge, autonomy flight recorder, WeChat plugin, Coolify ARM64 deploy, Walkie-Talkie, ztk context compressor, Robert Greene skill, and Gruvbox skin"
+description: "9 newly discovered Hermes Agent repos — Skills Gallery mega-collection (1,672+ skills across 49 categories), Agent-to-Agent Protocol bridge, autonomy flight"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june27-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills Discovered — June 27, 2026

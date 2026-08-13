@@ -1,6 +1,11 @@
 ---
 title: "popular-web-designs — Setup Guide"
-description: "54 real-world design systems (Stripe, Linear, Vercel) as HTML/CSS templates. Official Hermes skill for generating branded web UIs. 451+ installs on skills.sh."
+description: "54 real-world design systems (Stripe, Linear, Vercel) as HTML/CSS templates. Official Hermes skill for generating branded web UIs. 451+ installs on"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/popular-web-designs-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # popular-web-designs

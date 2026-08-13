@@ -1,6 +1,11 @@
 ---
-title: "vrules — Agent Governance & LLM Guardrails Integration Guide"
-description: "Connect AI agents to vrules for policy-as-code governance, guardrail enforcement, and programmable agent fleet control. Vendor-neutral, open-source framework for production AI deployments."
+title: "vrules — Agent Governance & LLM Guardrails Integration"
+description: "Connect AI agents to vrules for policy-as-code governance, guardrail enforcement, and programmable agent fleet control. Vendor-neutral, open-source"
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/vrules/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # vrules — Agent Governance & LLM Guardrails

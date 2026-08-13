@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT for HubSpot -- AI CRM Analytics & Sales Intelligence"
+title: "ChatGPT for HubSpot -- AI CRM Analytics & Sales"
 url: /docs/chatgpt-for-hubspot
 h1: 'ChatGPT for HubSpot: Your AI-Powered CRM Command Center'
 description: Connect ChatGPT directly to HubSpot via CorpusIQ MCP. Ask questions about your pipeline, deals, contacts, and campaigns in plain English  --  get real-time answers from your live CRM data.
@@ -16,6 +16,10 @@ last_updated: '2026-06-16'
 category: HubSpot
 cluster: 7
 canonical_url: https://www.corpusiq.io/docs/chatgpt-for-hubspot
+canonical: "https://www.corpusiq.io/docs/chatgpt-for-hubspot/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # ChatGPT for HubSpot: Your AI-Powered CRM Command Center

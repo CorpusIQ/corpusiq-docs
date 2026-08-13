@@ -1,6 +1,11 @@
 ---
 title: Media Use — Setup Guide for Hermes Agents
 description: Install and use the media-use skill from heygen-com/hyperframes. Agent Media OS — resolve, generate, and operate on BGM, SFX, images, icons, voice, and color grades. 182.7K+ installs on skills.sh.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/media-use-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Media Use — Setup Guide

@@ -1,6 +1,11 @@
 ---
 title: Development Skills
 description: Software development workflows for Hermes agents  --  GitHub PRs, code review, CI/CD, testing, codebase inspection, and project management. 10+ production skills.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/development/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Development Skills

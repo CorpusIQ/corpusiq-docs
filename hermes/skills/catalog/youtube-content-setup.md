@@ -1,6 +1,11 @@
 ---
 title: YouTube Content  --  Full Setup Guide for Hermes Agents
 description: Extract transcripts from YouTube videos and transform them into summaries, threaded posts, blog articles, and more. Native Hermes Agent media skill with 160+ installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/youtube-content-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # YouTube Content  --  Setup Guide

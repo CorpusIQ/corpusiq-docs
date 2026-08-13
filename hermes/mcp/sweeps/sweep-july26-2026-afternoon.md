@@ -2,6 +2,10 @@
 title: "MCP Sweep — July 26, 2026 (Afternoon Cron — ~18:00 UTC)"
 description: "The following servers appeared in today's scans but were already in our catalog from July 21 or earlier sweeps:"
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july26-2026-afternoon/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MCP Sweep — July 26, 2026 (Afternoon Cron — ~18:00 UTC)

@@ -4,6 +4,9 @@ description: Hermes Agent best practices for production AI automation. Anti-patt
 category: best-practices
 tags: [hermes-agent, best-practices, ai-automation, maturity-model, anti-patterns, production, reliability]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/best-practices/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Best Practices  --  Build Reliable AI Automation

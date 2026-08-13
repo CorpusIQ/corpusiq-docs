@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: firebase
 setup: npx skills add firebase/agent-skills@firebase-basics
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firebase/firebase-basics/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Firebase Basics"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Firebase Basics

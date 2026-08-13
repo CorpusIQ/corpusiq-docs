@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: infrastructure
 setup: npx skills add currents-dev/playwright-best-practices-skill
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/infrastructure/playwright-best-practices/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Playwright Best Practices"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Playwright Best Practices

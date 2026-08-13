@@ -1,7 +1,11 @@
 ---
-title: "Read-Only OAuth: Why AI Should Never Write to Your Business Tools"
+title: "Read-Only OAuth: Why AI Should Never Write to Your"
 description: "Setup and usage guide for Read-Only OAuth: Why AI Should Never Write to Your Business Tools. Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/architecture/read-only-oauth-ai-business-tools/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Read-Only OAuth: Why AI Should Never Write to Your Business Tools

@@ -1,6 +1,11 @@
 ---
 title: "Seo And Content"
-description: "SEO and content marketing prompts for Hermes agents. Analyze Search Console data, track keyword rankings, and generate content insights by connecting SEO tools to AI assistants."
+description: "SEO and content marketing prompts for Hermes agents. Analyze Search Console data, track keyword rankings, and generate content insights by connecting SEO"
+canonical: "https://www.corpusiq.io/docs/hermes/prompts/seo-and-content/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes prompt", "prompt engineering", "ai prompt"]
+
 ---
 
 # SEO and content prompts

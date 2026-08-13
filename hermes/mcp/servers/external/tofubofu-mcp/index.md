@@ -1,9 +1,12 @@
 ---
 title: "TofuBofu AI Visibility MCP — Integration Guide"
-description: "Connect AI agents to TofuBofu for AI visibility scanning — measure how your brand appears across ChatGPT, Claude, Gemini, Perplexity, and Google AI Overviews."
+description: "Connect AI agents to TofuBofu for AI visibility scanning — measure how your brand appears across ChatGPT, Claude, Gemini, Perplexity, and Google AI"
 category: mcp
 tags: [mcp-server, ai-visibility, brand-monitoring, marketing, seo]
 last_updated: 2026-07-18
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/tofubofu-mcp/"
+robots: "index,follow"
+
 ---
 
 # TofuBofu AI Visibility MCP — Integration Guide

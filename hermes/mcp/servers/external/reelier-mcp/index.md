@@ -7,6 +7,11 @@ created: 2026-07-22
 category: AI Operations
 stars: 0
 tags: [agent-workflow, replay, deterministic, testing, audit, developer-tools]
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/reelier-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+description: "MCP server for **recording agent tool-call workflows and replaying them deterministically at zero tokens**."
+
 ---
 
 # Reelier MCP Server

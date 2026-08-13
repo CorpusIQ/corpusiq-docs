@@ -1,6 +1,11 @@
 ---
 title: Google Agents CLI — Google's Official Agent Development Kit for Hermes
 description: Build, evaluate, deploy, and observe AI agents with Google's ADK. 357K+ combined installs across 6 skills on skills.sh. Official Google agent infrastructure.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-agents-cli-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Google Agents CLI — Setup Guide

@@ -1,6 +1,11 @@
 ---
 title: Hermes Agent — Core Official Skill Setup Guide
 description: Official Nous Research Hermes Agent skill. CLI invocation, subagent delegation, persistent memory, self-improving skills, MCP integration, browser automation. 400+ installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Agent — Core Skill Setup Guide

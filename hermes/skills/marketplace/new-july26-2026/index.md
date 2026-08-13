@@ -1,6 +1,11 @@
 ---
 title: "New Skills — July 26, 2026 Marketplace Sweep"
-description: "6 new enterprise publishers, 6 setup guides created, ~146K+ combined installs. Enterprise platform sweep of skills.sh for Hermes-relevant skills from Cloudflare, AWS, Google, HashiCorp, MongoDB, and Databricks."
+description: "6 new enterprise publishers, 6 setup guides created, ~146K+ combined installs. Enterprise platform sweep of skills.sh for Hermes-relevant skills from"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july26-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills — July 26, 2026

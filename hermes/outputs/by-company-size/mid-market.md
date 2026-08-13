@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent for Mid-Market"
-description: "Deploy cross-department AI automation for mid-market companies (50-500 employees). Marketing, sales, finance, and CS profiles with approval workflows and shared infrastructure."
+description: "Deploy cross-department AI automation for mid-market companies (50-500 employees). Marketing, sales, finance, and CS profiles with approval workflows and"
 category: "Company Size"
 tags:
   - mid-market
@@ -11,6 +11,9 @@ tags:
   - AI agent
   - operations
 last_updated: "2026-08-12"
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/by-company-size/mid-market/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent for Mid-Market

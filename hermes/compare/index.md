@@ -2,6 +2,10 @@
 title: Comparison Pages — CorpusIQ vs Alternatives
 description: "Side-by-side comparisons of CorpusIQ with n8n, Zapier, and Viktor. AI business intelligence vs workflow automation: how to choose the right tool."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/compare/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Comparisons

@@ -1,6 +1,11 @@
 ---
 title: Knowledge Work Plugins — Anthropic Official Productivity Skills for Hermes
-description: "14 production-grade skills from Anthropic: data viz, docs, code review, dashboards, tasks, memory, Slack, content creation, knowledge synthesis, search strategy, MCP design, Zoom API, and scribe. 66K+ combined installs."
+description: "14 production-grade skills from Anthropic: data viz, docs, code review, dashboards, tasks, memory, Slack, content creation, knowledge synthesis, search"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/knowledge-work-plugins-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Knowledge Work Plugins — Setup Guide

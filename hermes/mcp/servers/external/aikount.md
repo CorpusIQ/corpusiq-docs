@@ -4,6 +4,9 @@ description: Spanish accounting for AI agents — issue invoices, OCR expense PD
 category: mcp
 tags: [mcp, aikount, accounting, spanish, iva, modelo-303, invoices, expenses, autónomo, hermes-agent]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/aikount/"
+robots: "index,follow"
+
 ---
 
 # Aikount MCP — Spanish Accounting Automation for Hermes Agent

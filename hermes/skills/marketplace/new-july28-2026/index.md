@@ -1,6 +1,11 @@
 ---
 title: "New Skills — July 28, 2026 Marketplace Sweep"
-description: "8 new skills discovered from Anthropic Knowledge Work Plugins — content creation, Slack messaging/search, knowledge synthesis, search strategy, and MCP/Zoom integrations. 23.5K additional installs across 1 expanded publisher."
+description: "8 new skills discovered from Anthropic Knowledge Work Plugins — content creation, Slack messaging/search, knowledge synthesis, search strategy, and MCP/Zoom"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july28-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills — July 28, 2026

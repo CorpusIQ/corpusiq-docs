@@ -1,5 +1,5 @@
 ---
-title: "QuickBooks Business Intelligence -- AI-Powered BI Platform"
+title: "QuickBooks Business Intelligence -- AI-Powered BI"
 url: /docs/quickbooks-business-intelligence
 h1: 'QuickBooks Business Intelligence: Turn Accounting Data into Strategic Advantage'
 description: Upgrade QuickBooks to an enterprise BI platform with CorpusIQ MCP. Combine financial data with CRM, ecommerce, and marketing sources for unified business intelligence powered by AI.
@@ -16,6 +16,10 @@ last_updated: '2026-06-16'
 category: QuickBooks
 cluster: 5
 canonical_url: https://www.corpusiq.io/docs/quickbooks-business-intelligence
+canonical: "https://www.corpusiq.io/docs/quickbooks-business-intelligence/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # QuickBooks Business Intelligence: Turn Accounting Data into Strategic Advantage

@@ -4,6 +4,9 @@ description: "Official Atlassian Trello MCP server. Cloud-hosted bridge for AI t
 category: mcp
 tags: [mcp-server, trello, atlassian, project-management, official]
 last_updated: 2026-07-17
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/trello-mcp/"
+robots: "index,follow"
+
 ---
 
 # Trello MCP Server

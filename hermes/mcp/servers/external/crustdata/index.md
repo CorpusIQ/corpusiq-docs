@@ -1,6 +1,11 @@
 ---
 title: Crustdata MCP Integration Guide
 description: Full setup guide for Crustdata MCP — real-time B2B company and people intelligence with 15+ live data sources covering 1B+ people and 100M+ companies
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/crustdata/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Crustdata MCP — Integration Guide

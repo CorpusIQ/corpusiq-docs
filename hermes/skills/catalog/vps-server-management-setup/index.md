@@ -1,6 +1,11 @@
 ---
 title: vps-server-management Setup Guide
 description: Complete setup guide for vps-server-management — manage VPS servers and the AI agents running on them, including Hermes Agent Discord gateway deployments.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vps-server-management-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # vps-server-management Setup Guide

@@ -1,6 +1,11 @@
 ---
 title: "New Skills"
 description: 6 newly catalogued skills  --  the official Hermes Agent hyperframes skill (nousresearch) plus 5 HyperFrames SDK skills from heygen-com/hyperframes (103K+ installs each)  --  enabling agentic HTML-based video creation.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june18-2026-update2/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills  --  June 18, 2026 Update 2 (HyperFrames Ecosystem)

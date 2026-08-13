@@ -1,6 +1,11 @@
 ---
 title: agentiko-hermes — Setup Guide
 description: Hermes Agent features guide for the agentiko Telegram setup — cron, delegation, memory, automation, YOLO mode, dual-agent hunting, and slash commands.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentiko-hermes-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # agentiko-hermes — Setup Guide

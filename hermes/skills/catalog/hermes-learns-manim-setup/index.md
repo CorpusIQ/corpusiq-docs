@@ -5,6 +5,11 @@ publisher: harleycoops/math-to-manim
 stars: 2443
 installs: 10
 quality_tier: 🔵 Community
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-learns-manim-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Learns Manim — Math Animation Setup Guide

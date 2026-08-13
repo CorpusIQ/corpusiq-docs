@@ -1,6 +1,11 @@
 ---
 title: "New Skills"
 description: 8 newly discovered skills from aradotso/hermes-skills  --  QQ bot, MemX memory plugin, executive assistant suite, and agent building tutorial. Final sweep of the day.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june18-2026-final-sweep/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills  --  June 18, 2026 (Final Sweep)

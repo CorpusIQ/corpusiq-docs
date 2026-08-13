@@ -1,12 +1,16 @@
 ---
 title: "Subtext — Agent Session Replay MCP"
-description: "Session replay built for AI agents. Captures production sessions and connects them to your coding agent for debugging and analysis. 9 GitHub stars. By Fullstory."
+description: "Session replay built for AI agents. Captures production sessions and connects them to your coding agent for debugging and analysis. 9 GitHub stars. By"
 category: mcp
 tags: [mcp-server, agent-analytics, session-replay, debugging, monitoring]
 source: mcp.so
 discovered: 2026-07-22
 stars: 9
 author: Subtext by Fullstory
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/subtext-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # Subtext MCP

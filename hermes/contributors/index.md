@@ -9,6 +9,9 @@ tags:
   - submit-repo
   - ecosystem
 last_updated: 2026-07-14T07:10Z
+canonical: "https://www.corpusiq.io/docs/hermes/contributors/"
+robots: "index,follow"
+
 ---
 
 # Hermes Community Contributors  --  Help Build the Largest Hermes Resource Directory

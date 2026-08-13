@@ -1,6 +1,11 @@
 ---
 title: Hermes Ecosystem Map
 description: Visual map of the entire Hermes Agent ecosystem  --  122+ repos, 14 categories, all connections visualized.
+canonical: "https://www.corpusiq.io/docs/hermes/ecosystem-map/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes ecosystem", "agent ecosystem", "community"]
+
 ---
 
 # Hermes Ecosystem Map

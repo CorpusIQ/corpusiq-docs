@@ -23,6 +23,8 @@ tags:
 - claude-sharepoint-mcp
 - claude-ai-sharepoint-connector
 - how-to-connect-sharepoint-to-claude-ai
+robots: "index,follow"
+
 ---
 
 # Connect SharePoint to Claude: Enterprise Documents Meet AI Intelligence

@@ -4,6 +4,9 @@ description: "Token cost math for LLM API calls: 69 models across 17 providers, 
 category: mcp
 tags: [mcp-server, finance, llm, cost-management, ai-operations]
 last_updated: 2026-07-14
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/comparedge-llm-cost-mcp/"
+robots: "index,follow"
+
 ---
 
 # ComparEdge LLM Cost MCP Server

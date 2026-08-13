@@ -1,9 +1,12 @@
 ---
 title: "OpenTweet MCP — Twitter/X Management for AI Agents"
-description: "Connect OpenTweet to Hermes Agent. Manage X (Twitter) accounts — post, search, engage, and analyze — directly from AI agents. Marketing automation for X/Twitter operators."
+description: "Connect OpenTweet to Hermes Agent. Manage X (Twitter) accounts — post, search, engage, and analyze — directly from AI agents. Marketing automation for"
 category: mcp
 tags: [mcp-server, opentweet, twitter, x, social-media, marketing, posting, engagement]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/opentweet-mcp/"
+robots: "index,follow"
+
 ---
 
 # OpenTweet MCP Server ★ New (July 3)

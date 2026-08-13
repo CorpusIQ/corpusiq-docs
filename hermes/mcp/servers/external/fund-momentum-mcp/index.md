@@ -7,6 +7,12 @@ transport: Remote HTTP
 auth: API Key
 added: 2026-08-10
 source: mcp.so
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/fund-momentum-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+description: "Fund Momentum MCP gives AI assistants access to a database of 920+ active VC funds with live investor signals and AI-powered startup matching."
+
 ---
 
 # Fund Momentum MCP — Integration Guide

@@ -1,6 +1,11 @@
 ---
 title: hermes-studio-dashboard — Setup Guide
 description: Web dashboard for Hermes Agent with multi-platform AI chat, session management, scheduled jobs, and usage analytics. From aradotso/hermes-skills.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-studio-dashboard-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # hermes-studio-dashboard — Setup Guide

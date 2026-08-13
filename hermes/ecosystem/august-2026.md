@@ -1,7 +1,11 @@
 ---
 title: Hermes Ecosystem Discovery — August 2026
-description: "Discoveries from a GitHub ecosystem scan: BrowserWing (browser as MCP), shellfirm (terminal safety), cordum (agent action firewall), and other tools for AI agent stacks."
+description: "Discoveries from a GitHub ecosystem scan: BrowserWing (browser as MCP), shellfirm (terminal safety), cordum (agent action firewall), and other tools for AI"
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/august-2026/"
+robots: "index,follow"
+tags: ["hermes ecosystem", "agent ecosystem", "community"]
+
 ---
 
 # Hermes Ecosystem Discovery — August 2026

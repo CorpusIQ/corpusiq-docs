@@ -4,6 +4,9 @@ description: Accounting automation for AI agents — manage clients, invoices, e
 category: mcp
 tags: [mcp, freshbooks, accounting, invoicing, expenses, payments, small-business, hermes-agent]
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/freshbooks-mcp/"
+robots: "index,follow"
+
 ---
 
 # FreshBooks MCP — Accounting Automation for Hermes Agent

@@ -1,6 +1,11 @@
 ---
 title: Hermes Agent v0.19.1 Patch Release
 description: Hermes Agent v0.19.1 (v2026.7.30) — Patch release rolling up ~3,087 commits since v0.19.0. Gateway fixes, voice subsystem stabilisation, Telegram media reliability, FLUX3 video pipeline, and Buzz/Nostr channel support. July 30, 2026.
+canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.19.1/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Hermes Agent v0.19.1 (v2026.7.30)

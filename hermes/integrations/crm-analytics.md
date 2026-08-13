@@ -4,6 +4,9 @@ description: Connect CRM (HubSpot, Salesforce, Close) with analytics (GA4, PostH
 category: integrations
 tags: [hermes-agent, integration, crm, analytics, hubspot, ga4, lead-scoring, pipeline-forecasting, attribution]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/integrations/crm-analytics/"
+robots: "index,follow"
+
 ---
 
 # CRM + Analytics Integration  --  Lead Scoring & Pipeline Forecasting

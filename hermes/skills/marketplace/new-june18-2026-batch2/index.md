@@ -1,6 +1,11 @@
 ---
 title: New Skills  --  June 18, 2026 (Batch 2  --  Full Catalog Sweep)
 description: 107 newly discovered Hermes Agent skills from nousresearch/hermes-agent  --  comprehensive sweep covering AI/ML training, developer tools, creative & design, finance & business, security, agent infrastructure, and more.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june18-2026-batch2/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills  --  June 18, 2026 (Batch 2)

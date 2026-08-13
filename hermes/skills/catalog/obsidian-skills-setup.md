@@ -8,6 +8,11 @@ maturity: production
 license: MIT
 skills_sh: https://skills.sh/kepano/obsidian-skills
 source: https://github.com/kepano/obsidian-skills
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/obsidian-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Obsidian Agent Skills — Setup Guide

@@ -4,6 +4,9 @@ description: KPI intelligence for AI agents — access 20,000+ corporate KPI def
 category: mcp
 tags: [mcp, kpi, benchmarks, business-intelligence, strategy, analytics, metrics, hermes-agent]
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/kpidepot-mcp/"
+robots: "index,follow"
+
 ---
 
 # KPI Depot MCP — KPI Intelligence for Hermes Agent

@@ -7,6 +7,10 @@ added: 2026-08-12
 source: mcp.so
 relevance: ★★★
 tags: [finance, stocks, market-data, earnings-calls, fundamentals, fintech, remote-mcp]
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/roic-ai-mcp-server/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # ROIC.ai MCP Server

@@ -1,5 +1,5 @@
 ---
-title: "How to Create an AI Data Layer  --  MCP Architecture Guide"
+title: "How to Create an AI Data Layer  --  MCP Architecture"
 description: "Create an AI-accessible data layer with CorpusIQ MCP. Connect all business data sources to AI without ETL, warehouses, or custom code. Architecture guide."
 h1: "How to Create an AI Data Layer"
 url: "/docs/how-to-create-an-ai-data-layer"
@@ -7,6 +7,10 @@ author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
 tags: ["ai-data-layer", "mcp-architecture", "data-fabric", "ai-infrastructure"]
+canonical: "https://www.corpusiq.io/docs/how-to-create-an-ai-data-layer/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # How to Create an AI Data Layer

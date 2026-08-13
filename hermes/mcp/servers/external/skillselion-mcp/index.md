@@ -7,6 +7,10 @@ language: TypeScript
 transport: stdio
 category: Aggregators
 last_updated: 2026-07-20
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/skillselion-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # skillselion-mcp — Skills & MCP Marketplace Search

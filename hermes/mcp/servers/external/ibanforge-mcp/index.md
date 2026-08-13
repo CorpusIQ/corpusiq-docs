@@ -5,6 +5,11 @@ category: Finance
 rating: ★★
 source: mcp.so + GitHub
 date: 2026-07-30
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ibanforge-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # IBANforge MCP Server

@@ -1,11 +1,16 @@
 ---
 title: "FXMacroData MCP — Integration Guide"
-description: "Macroeconomic and FX data MCP server — 18 currencies, central bank announcements, COT data, commodities, and forex. AI agents get real-time economic intelligence."
+description: "Macroeconomic and FX data MCP server — 18 currencies, central bank announcements, COT data, commodities, and forex. AI agents get real-time economic"
 category: "Finance & Data"
 stars: "★★"
 source: mcpservers.org
 github: https://github.com/fxmacrodata/fxmacrodata
 date_added: 2026-07-28
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/fxmacrodata-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # FXMacroData MCP

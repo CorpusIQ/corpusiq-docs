@@ -1,11 +1,16 @@
 ---
 title: "MCP Sweep — August 12, 2026"
-description: "Sweep following Aug 11 evening sweep. 6 new business-relevant MCP servers discovered — video production, organizational knowledge, agent commerce, payments, software directory, and local tunneling."
+description: "Sweep following Aug 11 evening sweep. 6 new business-relevant MCP servers discovered — video production, organizational knowledge, agent commerce, payments"
 date: 2026-08-12
 sources: [mcp.so, mcpservers.org]
 status: complete
 finds: 6
 guides: 6
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august12-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MCP Server Discovery Sweep — August 12, 2026

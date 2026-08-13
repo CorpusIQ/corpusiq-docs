@@ -1,6 +1,11 @@
 ---
 title: Hermes Imports — Convert Hermes Workflows to ECC Skills
 description: Sanitize and convert local Hermes operator workflows into reusable ECC skills. Strip private state, credentials, and local paths. 2.4K+ installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-imports-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Imports — Setup Guide

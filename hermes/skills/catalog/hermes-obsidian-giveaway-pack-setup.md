@@ -7,6 +7,10 @@ stars: 36 total across repos
 license: Not specified
 created: June 22, 2026
 last_updated: June 22, 2026
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-obsidian-giveaway-pack-setup/"
+robots: "index,follow"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes + Obsidian Giveaway Pack — Setup Guide

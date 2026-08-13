@@ -1,6 +1,11 @@
 ---
 title: Skill Vetter — Security Audit for Hermes Skills (useai-pro)
 description: Security-first vetting for OpenClaw/Hermes skills before installation. Checks for red flags, permission scope, and suspicious patterns. 20.5K+ installs.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skill-vetter-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Skill Vetter — Setup Guide

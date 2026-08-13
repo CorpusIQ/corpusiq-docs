@@ -1,6 +1,6 @@
 ---
 title: "camt053-mcp — ISO 20022 Bank Statement Parser MCP"
-description: "Parse & reconcile ISO 20022 camt.053 bank-to-customer statements from MCP clients. 19 tools, CBPR+/HVPS+ readiness, SLSA-L3 provenance. Part of the ISO 20022 MCP Suite by sebastienrousseau."
+description: "Parse & reconcile ISO 20022 camt.053 bank-to-customer statements from MCP clients. 19 tools, CBPR+/HVPS+ readiness, SLSA-L3 provenance. Part of the ISO"
 source: github.com/sebastienrousseau/camt053-mcp
 stars: 1
 language: Python
@@ -8,6 +8,10 @@ transport: stdio
 auth: None (processes local files)
 category: Finance & Fintech
 last_updated: 2026-07-20
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/camt053-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # camt053-mcp — ISO 20022 Bank Statement Parser

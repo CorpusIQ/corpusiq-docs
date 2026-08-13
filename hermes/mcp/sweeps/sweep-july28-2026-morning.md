@@ -6,6 +6,11 @@ type: sweep
 sources: ["mcpservers.org/all", "mcp.so/servers"]
 new_servers: 2
 new_guides: 2
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july28-2026-morning/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MCP Server Sweep — July 28, 2026 Morning

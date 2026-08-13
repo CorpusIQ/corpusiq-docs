@@ -1,6 +1,11 @@
 ---
 title: "browser-harness Setup Guide"
-description: "Complete setup guide for browser-harness — AI agent browser automation skill from David Ondrej's skills collection. Control browsers through your agent on VPS and remote servers."
+description: "Complete setup guide for browser-harness — AI agent browser automation skill from David Ondrej's skills collection. Control browsers through your agent on"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/browser-harness-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # browser-harness Setup Guide

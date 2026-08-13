@@ -1,6 +1,11 @@
 ---
 title: rigorpilot-skills — Scientific AI Research for Hermes (140K installs)
 description: Install and use lllllllama/rigorpilot-skills — deep literature reviews, hypothesis generation, experiment reproduction, and methodology validation with academic-grade rigor.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rigorpilot-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # rigorpilot-skills — Setup Guide

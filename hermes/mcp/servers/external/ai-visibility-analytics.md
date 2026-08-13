@@ -1,9 +1,12 @@
 ---
 title: "AI Visibility Analytics MCP — Brand Monitoring"
-description: "Monitor brand visibility across 15+ AI providers (ChatGPT, Perplexity, Gemini, AI Overviews). MCP connector for competitive intelligence and AI search tracking."
+description: "Monitor brand visibility across 15+ AI providers (ChatGPT, Perplexity, Gemini, AI Overviews). MCP connector for competitive intelligence and AI search"
 category: mcp
 tags: [mcp-server, marketing, seo, brand-monitoring, ai-search, competitive-intelligence]
 last_updated: 2026-07-14
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ai-visibility-analytics/"
+robots: "index,follow"
+
 ---
 
 # AI Visibility Analytics MCP Server ★ New (July 14)

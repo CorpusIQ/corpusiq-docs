@@ -7,6 +7,11 @@ created: 2026-07-22
 category: Enterprise / SAP
 stars: 0
 tags: [sap, cap, cds, fiori, ui5, enterprise, development]
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/capforge-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+description: "Requires `@sap/cds` (CDS compiler) installed locally."
+
 ---
 
 # Capforge — SAP CAP/CDS MCP Server

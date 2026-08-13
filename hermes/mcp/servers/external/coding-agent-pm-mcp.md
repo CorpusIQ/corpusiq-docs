@@ -1,9 +1,12 @@
 ---
 title: "Coding Agent Project Management MCP — 71 Tools"
-description: "Project management for coding agents — bugs, features, sprints, cross-tenant contracts. 71 MCP tools for operators managing AI-assisted development workflows."
+description: "Project management for coding agents — bugs, features, sprints, cross-tenant contracts. 71 MCP tools for operators managing AI-assisted development"
 category: mcp
 tags: [mcp-server, operations, project-management, development, coding-agents, agile]
 last_updated: 2026-07-14
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/coding-agent-pm-mcp/"
+robots: "index,follow"
+
 ---
 
 # Coding Agent Project Management MCP Server ★ New (July 14)

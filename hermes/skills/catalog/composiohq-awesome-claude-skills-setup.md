@@ -1,6 +1,11 @@
 ---
 title: Composio — Awesome Claude Skills (28-Skill Suite for Hermes Agents)
 description: Production-ready Claude Skills collection with 28 skills for lead research, invoice management, content creation, YouTube downloading, developer analytics, and more. 70.9K GitHub stars, 16.1K+ combined installs on skills.sh.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/composiohq-awesome-claude-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Composio — Awesome Claude Skills Setup Guide

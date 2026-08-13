@@ -1,7 +1,11 @@
 ---
-title: "Connect QuickBooks to AI: Ask ChatGPT About Your Financials"
+title: "Connect QuickBooks to AI: Ask ChatGPT About Your"
 description: "QuickBooks holds your financial truth. Revenue. Expenses. Profit. Cash flow. Every number that matters to your business lives in QuickBooks."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/seo/connect-quickbooks-to-ai/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Connect QuickBooks to AI: Ask ChatGPT About Your Financials

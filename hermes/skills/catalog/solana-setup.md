@@ -1,6 +1,11 @@
 ---
 title: Solana Blockchain — Full Setup Guide for Hermes Agents
 description: Query Solana on-chain data with USD pricing via CoinGecko. 8 commands for wallet portfolios, tokens, transactions, NFTs, whale detection, network stats, and price lookup. No API key needed.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/solana-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Solana Blockchain — Setup Guide

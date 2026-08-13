@@ -4,6 +4,9 @@ description: Hermes Agent model selection best practices. Task-to-model mapping,
 category: best-practices
 tags: [hermes-agent, model-selection, ai-models, cost-optimization, ollama, openrouter, local-models, cloud-models]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/best-practices/model-selection/"
+robots: "index,follow"
+
 ---
 
 # Model Selection Guide  --  Choose the Right AI Model Every Time

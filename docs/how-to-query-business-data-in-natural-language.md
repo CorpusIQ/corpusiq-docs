@@ -7,6 +7,10 @@ author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
 tags: ["natural-language-query", "nlq", "ai-analytics", "business-intelligence"]
+canonical: "https://www.corpusiq.io/docs/how-to-query-business-data-in-natural-language/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # How to Query Business Data in Natural Language

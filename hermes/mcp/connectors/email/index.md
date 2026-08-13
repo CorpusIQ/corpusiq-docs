@@ -4,6 +4,9 @@ description: "Gmail and Outlook email connectors for CorpusIQ MCP. Read, search,
 category: mcp
 tags: [corpusiq, mcp-connector]
 last_updated: 2026-07-15
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/connectors/email/"
+robots: "index,follow"
+
 ---
 
 # CorpusIQ Email Connectors

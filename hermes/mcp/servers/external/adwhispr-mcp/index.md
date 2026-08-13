@@ -7,6 +7,10 @@ added: 2026-08-11
 source: mcp.so
 relevance: ★★★
 tags: [ads, meta, google-ads, tiktok-ads, competitor-research, ad-creative, campaign-launch, marketing]
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/adwhispr-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # AdWhispr MCP

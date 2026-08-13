@@ -2,6 +2,10 @@
 title: The Harness Wars — Why AI Infrastructure Will Define the Next Two Years
 description: "Setup and usage guide for The Harness Wars — Why AI Infrastructure Will Define the Next Two Years. Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/architecture/harness-wars-ai-infrastructure/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # The Harness Wars — Why AI Infrastructure Will Define the Next Two Years

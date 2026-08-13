@@ -1,6 +1,11 @@
 ---
 title: "MCP Server Scan Results — 2026-07-01 (PM Update)"
 description: "Afternoon update to the July 1 MCP server discovery scan. 2 new business-relevant servers found after the morning scan."
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-01-update/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MCP Server Directory Scan — July 1, 2026 (PM Update)

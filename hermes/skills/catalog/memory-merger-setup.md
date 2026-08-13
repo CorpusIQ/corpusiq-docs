@@ -4,6 +4,11 @@ description: Install and configure GitHub's memory-merger skill from awesome-cop
 author: github/awesome-copilot
 repo: https://github.com/github/awesome-copilot
 stars: 36,652
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/memory-merger-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Memory Merger Setup Guide

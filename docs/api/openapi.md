@@ -5,6 +5,8 @@ tags: ["corpusiq openapi", "swagger", "postman", "api specification", "openapi 3
 last_updated: "2026-08-12"
 canonical: "https://www.corpusiq.io/docs/api/openapi"
 robots: "index,follow"
+title: "OpenAPI Specification"
+
 ---
 # OpenAPI Specification
 

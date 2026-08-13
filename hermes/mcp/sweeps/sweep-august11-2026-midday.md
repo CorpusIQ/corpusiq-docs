@@ -2,6 +2,10 @@
 title: MCP Server Sweep — August 11, 2026 (Midday)
 description: "Setup and usage guide for MCP Server Sweep — August 11, 2026 (Midday). Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august11-2026-midday/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MCP Server Sweep — August 11, 2026 (Midday)

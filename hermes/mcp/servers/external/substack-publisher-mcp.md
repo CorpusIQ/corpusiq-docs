@@ -4,6 +4,9 @@ description: "Query Substack posts, engagement analytics, subscriber counts, and
 category: mcp
 tags: [mcp-server, substack, content-marketing, analytics, publishing]
 last_updated: 2026-07-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/substack-publisher-mcp/"
+robots: "index,follow"
+
 ---
 
 # Substack Publisher MCP Server ★ New (July 12)

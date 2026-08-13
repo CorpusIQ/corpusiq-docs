@@ -1,11 +1,16 @@
 ---
 title: "MCP Sweep — August 12, 2026 (Afternoon)"
-description: "Follow-up to the Aug 12 morning sweep (~6 hours later). 10 new business-relevant MCP servers catalogued, 6 integration guides written — content quality tooling, finance, sales intelligence, and AI-engine visibility."
+description: "Follow-up to the Aug 12 morning sweep (~6 hours later). 10 new business-relevant MCP servers catalogued, 6 integration guides written — content quality"
 date: 2026-08-12
 sources: [mcpservers.org, mcp.so]
 status: complete
 finds: 10
 guides: 6
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august12-2026-afternoon/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # MCP Server Discovery Sweep — August 12, 2026 (Afternoon)

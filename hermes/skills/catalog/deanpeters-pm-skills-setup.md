@@ -1,6 +1,11 @@
 ---
 title: Dean Peters PM Skills — Product Management Workflows for Hermes Agents
 description: Structured product management skills with 8.8K+ combined installs. PRD development, user story creation, and roadmap planning for agent-driven product development.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/deanpeters-pm-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Dean Peters PM Skills — Setup Guide

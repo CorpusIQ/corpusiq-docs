@@ -22,6 +22,8 @@ tags:
 - ai-powered-customer-support
 - customer-support-artificial-intelligence
 - how-to-use-ai-for-customer-support
+robots: "index,follow"
+
 ---
 
 # AI for Customer Support: Smarter, Faster Customer Intelligence

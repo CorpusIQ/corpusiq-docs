@@ -1,9 +1,12 @@
 ---
-title: "Engram MCP — Git-Backed Shared Memory Dashboard for AI Agents"
-description: "Engram MCP server — self-hosted memory with dashboard UI backed by a git repository of markdown files. Authoritative search ensures agents always get the latest version. Docker-deployable."
+title: "Engram MCP — Git-Backed Shared Memory Dashboard for AI"
+description: "Engram MCP server — self-hosted memory with dashboard UI backed by a git repository of markdown files. Authoritative search ensures agents always get the"
 category: mcp
 tags: [mcp-server, memory, knowledge-management, git-backed, self-hosted, dashboard]
 last_updated: 2026-07-19
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/engram-mcp/"
+robots: "index,follow"
+
 ---
 
 # Engram MCP Server — Git-Backed Memory Dashboard

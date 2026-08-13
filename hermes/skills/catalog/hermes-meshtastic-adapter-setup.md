@@ -6,6 +6,11 @@ category: iot-hardware
 difficulty: Medium
 platforms: [Linux]
 hardware_required: true
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-meshtastic-adapter-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Meshtastic Adapter — Full Setup Guide

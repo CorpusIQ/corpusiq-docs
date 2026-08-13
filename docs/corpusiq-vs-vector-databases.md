@@ -20,6 +20,10 @@ keywords:
 - AI data platform vs vector databases
 - best alternative to vector databases
 - CorpusIQ vector databases pricing comparison
+canonical: "https://www.corpusiq.io/docs/corpusiq-vs-vector-databases/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # CorpusIQ vs Vector Databases  --  MCP Retrieval vs Vector Search

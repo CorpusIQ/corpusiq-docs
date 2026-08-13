@@ -4,6 +4,9 @@ description: Multi-cloud pricing for AI agents — AWS, GCP, Azure real-time pri
 category: mcp
 tags: [mcp, opencloudcosts, finops, cloud, aws, gcp, azure, pricing, cost-optimization, hermes-agent]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/opencloudcosts/"
+robots: "index,follow"
+
 ---
 
 # Opencloudcosts MCP — Credentialless Cloud Pricing for Hermes Agent

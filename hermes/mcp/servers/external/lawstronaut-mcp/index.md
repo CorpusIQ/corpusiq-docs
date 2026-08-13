@@ -4,6 +4,9 @@ description: "Legal research infrastructure for AI agents — 50M+ laws and cour
 category: mcp
 tags: [mcp-server, legal-research, compliance, regulatory, legal-data, governance, hermes-agent]
 last_updated: 2026-08-10
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/lawstronaut-mcp/"
+robots: "index,follow"
+
 ---
 
 # Lawstronaut MCP — Legal Research for AI Agents

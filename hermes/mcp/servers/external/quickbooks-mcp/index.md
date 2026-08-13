@@ -5,6 +5,11 @@ source: datagrout.ai
 category: Finance / Accounting
 stars: N/A (hosted platform)
 added: 2026-07-29
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/quickbooks-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # QuickBooks MCP Server (datagrout)

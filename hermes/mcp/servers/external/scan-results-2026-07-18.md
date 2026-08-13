@@ -1,9 +1,12 @@
 ---
 title: "MCP Server Scan Results — July 18, 2026"
-description: "Daily MCP server discovery scan from mcp.so + mcpservers.org. 4 new servers found, 2 guides created: Vibgrate MCP (dependency drift/CVE intelligence) and Octolens (brand monitoring across 15+ platforms)."
+description: "Daily MCP server discovery scan from mcp.so + mcpservers.org. 4 new servers found, 2 guides created: Vibgrate MCP (dependency drift/CVE intelligence) and"
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
 last_updated: 2026-07-18
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-18/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Scan — July 18, 2026

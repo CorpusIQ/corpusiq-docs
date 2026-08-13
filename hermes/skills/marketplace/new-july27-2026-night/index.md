@@ -1,6 +1,11 @@
 ---
-title: "July 27, 2026 (Night) — Reddit Automation, OpenTUI, Monitoring Expert, Guizang Social Cards (4 new skills, 172K+ installs)"
-description: "Late-night sweep: 4 new Hermes-relevant skills discovered — Reddit Automation (112.9K), OpenTUI (52.8K), DBS Content (17.6K), Monitoring Expert (3.9K), Guizang Social Cards (3.7K). 172K+ combined installs across 5 publishers."
+title: "July 27, 2026 (Night) — Reddit Automation, OpenTUI,"
+description: "Late-night sweep: 4 new Hermes-relevant skills discovered — Reddit Automation (112.9K), OpenTUI (52.8K), DBS Content (17.6K), Monitoring Expert (3.9K)"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july27-2026-night/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # July 27, 2026 (Night) — 4 New Skill Setup Guides

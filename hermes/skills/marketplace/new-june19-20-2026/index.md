@@ -1,6 +1,11 @@
 ---
 title: New Hermes Skills  --  June 19-20, 2026
 description: 12 newly discovered Hermes Agent skills across 6 repos  --  Ponytail lazy-senior-dev, SkillSpector security vetting, AgentMint subagent routing, Herman's execution playbook, and 3 new aradotso/hermes-skills additions
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june19-20-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills: June 19-20, 2026

@@ -23,6 +23,8 @@ tags:
 - ai-powered-knowledge-management
 - knowledge-management-artificial-intelligence
 - how-to-use-ai-for-knowledge-management
+robots: "index,follow"
+
 ---
 
 # AI for Knowledge Management: Unlock Your Organization's Brain

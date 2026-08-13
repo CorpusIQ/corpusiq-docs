@@ -9,6 +9,9 @@ tags:
   - ai-chief-of-staff
   - daily-briefing
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/agents/executive-agent/"
+robots: "index,follow"
+
 ---
 
 # Hermes Executive Agent  --  Autonomous Calendar, Inbox & Daily Briefings

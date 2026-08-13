@@ -1,6 +1,11 @@
 ---
 title: claude-design — Setup Guide
 description: Apply Claude/Apple design philosophy to any project — interface design, fluid physics, and animation principles for Hermes agents.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-design-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # claude-design — Setup Guide

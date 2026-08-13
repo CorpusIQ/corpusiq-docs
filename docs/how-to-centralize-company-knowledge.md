@@ -7,6 +7,10 @@ author: "CorpusIQ"
 date: "2026-06-16"
 category: "How-To Guide"
 tags: ["knowledge-centralization", "company-knowledge", "ai-knowledge-base", "knowledge-management"]
+canonical: "https://www.corpusiq.io/docs/how-to-centralize-company-knowledge/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # How to Centralize Company Knowledge

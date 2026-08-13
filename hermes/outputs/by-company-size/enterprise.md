@@ -13,6 +13,9 @@ tags:
   - compliance
   - AI agent
 last_updated: "2026-08-12"
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/by-company-size/enterprise/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent for Enterprise

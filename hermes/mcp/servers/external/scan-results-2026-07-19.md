@@ -1,9 +1,12 @@
 ---
 title: "MCP Server Scan — July 19, 2026"
-description: "Daily MCP server discovery scan. 1 integration guide created: endoflife.ai (EOL intelligence). 3 GitHub-origin servers noted for future tracking. mcpservers.org yielded no new additions beyond mcp.so feed."
+description: "Daily MCP server discovery scan. 1 integration guide created: endoflife.ai (EOL intelligence). 3 GitHub-origin servers noted for future tracking"
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
 last_updated: 2026-07-19
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-19/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Scan — July 19, 2026

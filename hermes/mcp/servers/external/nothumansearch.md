@@ -4,6 +4,9 @@ description: "Connect NotHumanSearch MCP to understand how AI agents discover an
 category: mcp
 tags: [mcp, geo, ai-search, agentic-seo, nothumansearch, visibility]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/nothumansearch/"
+robots: "index,follow"
+
 ---
 
 # NotHumanSearch — AI Agent Search Engine for Operators

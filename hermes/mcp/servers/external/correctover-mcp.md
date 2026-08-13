@@ -1,6 +1,6 @@
 ---
-title: "Correctover MCP Server — Contract Validation & LLM API Failover"
-description: "Integration guide for Correctover/mcp-server: 6-dimension contract validation, self-healing LLM API failover with 87 rules across 9 providers. 22μs P50 validation, 949ms E2E failover."
+title: "Correctover MCP Server — Contract Validation & LLM API"
+description: "Integration guide for Correctover/mcp-server: 6-dimension contract validation, self-healing LLM API failover with 87 rules across 9 providers. 22μs P50"
 category: legal
 tags: [mcp, contract-validation, llm-api, failover, self-healing, api-gateway]
 source: awesome-mcp-servers
@@ -8,6 +8,9 @@ repo: Correctover/mcp-server
 stars: 0
 discovered: 2026-07-23
 last_updated: 2026-07-23
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/correctover-mcp/"
+robots: "index,follow"
+
 ---
 
 # Correctover MCP Server — Contract Validation & API Failover

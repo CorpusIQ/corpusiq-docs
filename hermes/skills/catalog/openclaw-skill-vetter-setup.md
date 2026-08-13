@@ -1,6 +1,11 @@
 ---
 title: openclaw-skill-vetter — Setup Guide
 description: Automated skill quality validation for Hermes agents. Scan installed skills for missing dependencies, trigger conflicts, security anti-patterns, and structural issues.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-skill-vetter-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # openclaw-skill-vetter — Setup Guide

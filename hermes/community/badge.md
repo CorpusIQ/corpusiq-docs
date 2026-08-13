@@ -1,6 +1,11 @@
 ---
 title: "Community Badge"
 description: "Shareable badge for Hermes ecosystem contributors and community members."
+canonical: "https://www.corpusiq.io/docs/hermes/community/badge/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Hermes Community Hub Badge

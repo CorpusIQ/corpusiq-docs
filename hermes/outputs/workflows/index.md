@@ -2,6 +2,10 @@
 title: Output Workflows
 description: Reusable agent output workflow templates and patterns
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/outputs/workflows/"
+robots: "index,follow"
+tags: ["hermes output", "ai output", "case study"]
+
 ---
 
 # Output Workflows

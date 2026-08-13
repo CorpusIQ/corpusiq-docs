@@ -4,6 +4,9 @@ description: AI-powered Google Ads campaign management — create, monitor, and 
 category: mcp
 tags: [mcp, google-ads, advertising, ppc, campaigns, marketing, sem, hermes-agent]
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/google-ads-mcp/"
+robots: "index,follow"
+
 ---
 
 # Google Ads MCP — Ad Campaign Management for Hermes Agent

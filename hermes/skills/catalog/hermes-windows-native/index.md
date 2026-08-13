@@ -4,6 +4,11 @@ description: Run Hermes Agent + WebUI on Windows without Docker or WSL2. One-cli
 category: Platform
 source: markwang2658/hermes-windows-native
 stars: 20
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-windows-native/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Windows Native

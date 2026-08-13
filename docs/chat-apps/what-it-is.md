@@ -3,6 +3,12 @@ description: >-
   The CorpusIQ Slack and Teams app answers questions about your connected
   business data from inside chat, using your own AI key. Here's what it does and
   when to use it.
+canonical: "https://www.corpusiq.io/docs/chat-apps/what-it-is/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "What the chat app is"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # What the chat app is

@@ -1,9 +1,12 @@
 ---
-title: "Flash Props API MCP — Live Sports Betting Player Props Data"
-description: "Flash Props API MCP server provides live sports betting player props data across NBA, MLB, NFL, NHL, NCAA, and soccer leagues. Unified format across all sports. Hosted remote server."
+title: "Flash Props API MCP — Live Sports Betting Player Props"
+description: "Flash Props API MCP server provides live sports betting player props data across NBA, MLB, NFL, NHL, NCAA, and soccer leagues. Unified format across all"
 category: mcp
 tags: [mcp-server, sports, betting, data, nba, nfl, mlb, nhl, ncaa, soccer]
 last_updated: 2026-07-19
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/flash-props-api/"
+robots: "index,follow"
+
 ---
 
 # Flash Props API MCP Server — Live Sports Props Data

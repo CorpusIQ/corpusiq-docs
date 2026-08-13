@@ -1,6 +1,11 @@
 ---
 title: Hermes Agent v0.18.0 — The Judgment Release
 description: P0/P1 clean sweep (692 items, 100% closed). Mixture-of-Agents as first-class model, verification & completion contracts, /learn distillation, /journey timeline, background fan-out, desktop coding Projects, scale-to-zero gateway, Google Vertex AI, security hardening. July 1, 2026.
+canonical: "https://www.corpusiq.io/docs/hermes/changelog/v0.18.0/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Hermes Agent v0.18.0 (v2026.7.1) — The Judgment Release

@@ -1,6 +1,11 @@
 ---
 title: "June 30, 2026 (Update 2) — xurl X/Twitter"
-description: "12 additional Hermes-relevant skills discovered June 30, 2026 evening sweep: xurl (X/Twitter from Nous Research), TimesFM forecasting (Google), and 10 ClawSec security skills for the OpenClaw ecosystem."
+description: "12 additional Hermes-relevant skills discovered June 30, 2026 evening sweep: xurl (X/Twitter from Nous Research), TimesFM forecasting (Google), and 10"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june30-2026-update2/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # 🆕 June 30, 2026 — Update 2: 12 Additional Skills

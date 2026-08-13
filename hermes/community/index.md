@@ -2,6 +2,10 @@
 title: Community
 description: Community resources, badges, and share cards for the Hermes ecosystem
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/community/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Community

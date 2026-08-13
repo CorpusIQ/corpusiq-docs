@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: claude-office
 setup: npx skills add claude-office-skills/skills@airtable-automation
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-office/airtable-automation/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Airtable Automation"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Airtable Automation

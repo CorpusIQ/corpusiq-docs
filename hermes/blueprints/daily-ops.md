@@ -4,6 +4,9 @@ description: End-to-end Hermes Agent daily operations blueprint. Morning briefin
 category: blueprints
 tags: [hermes-agent, blueprint, daily-operations, morning-briefing, task-triage, cron, workflow-automation]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/blueprints/daily-ops/"
+robots: "index,follow"
+
 ---
 
 # Daily Operations Blueprint  --  Automate Your Business Day with Hermes Agent

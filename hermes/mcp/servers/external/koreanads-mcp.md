@@ -6,6 +6,12 @@ source: "mcpservers.org"
 discovered: "2026-07-23"
 verified: true
 website: "https://koreanads.com"
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/koreanads-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "KoreanAds MCP — Korean Advertising Plans"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # KoreanAds MCP — Korean Advertising Plans

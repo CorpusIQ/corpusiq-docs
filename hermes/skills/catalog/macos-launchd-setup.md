@@ -1,6 +1,11 @@
 ---
 title: macOS Launchd Agent Deployment — Setup Guide
 description: Deploy OpenClaw/Hermes agents as macOS launchd services with KeepAlive, log routing, and environment variable management.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/macos-launchd-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # macOS Launchd Agent Deployment — Setup Guide

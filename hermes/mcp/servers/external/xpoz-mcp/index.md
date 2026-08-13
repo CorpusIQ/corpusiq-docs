@@ -1,6 +1,6 @@
 ---
-title: "Xpoz MCP — Social media intelligence for AI agents (Twitter/X, Instagram, Reddit, TikTok)"
-description: "3B+ posts indexed across Twitter/X, Instagram, Reddit, and TikTok. Brand monitoring, social listening, lead generation, and competitive intelligence — no platform API keys needed. Remote MCP with OAuth 2.1."
+title: "Xpoz MCP — Social media intelligence for AI agents"
+description: "3B+ posts indexed across Twitter/X, Instagram, Reddit, and TikTok. Brand monitoring, social listening, lead generation, and competitive intelligence — no"
 category: mcp
 tags: [mcp-server, social-media, brand-monitoring, lead-generation, competitive-intelligence]
 source: mcp.so GitHub issues (#3507)
@@ -11,6 +11,10 @@ github: github.com/xpozpublic/xpoz-mcp
 mcp_endpoint: https://mcp.xpoz.ai/mcp
 transport: Streamable HTTP
 auth: OAuth 2.1
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/xpoz-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # Xpoz MCP Server

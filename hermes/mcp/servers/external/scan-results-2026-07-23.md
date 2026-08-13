@@ -4,6 +4,9 @@ description: "Daily MCP server discovery scan. 22 newly merged awesome-mcp-serve
 category: mcp
 tags: [mcp-scan, discovery, awesome-mcp-servers]
 last_updated: 2026-07-23
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-23/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Scan — July 23, 2026

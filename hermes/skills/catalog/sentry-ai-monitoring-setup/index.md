@@ -1,6 +1,11 @@
 ---
 title: Sentry AI Monitoring — Full Setup Guide for Hermes Agents
 description: Error tracking and monitoring for AI agent deployments. Sentry feature setup (2.7K), Node.js SDK (2.6K), and AI monitoring dashboard (616). From getsentry — the industry-standard error tracking platform.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/sentry-ai-monitoring-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Sentry AI Monitoring — Setup Guide

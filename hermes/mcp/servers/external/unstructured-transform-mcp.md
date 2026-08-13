@@ -1,9 +1,12 @@
 ---
 title: "Transform MCP (Unstructured) — Document Parsing"
-description: "Connect Unstructured Transform MCP to Hermes Agent. Parse PDFs, CSVs, images, and documents into structured AI-ready data — turns raw files into queryable intelligence."
+description: "Connect Unstructured Transform MCP to Hermes Agent. Parse PDFs, CSVs, images, and documents into structured AI-ready data — turns raw files into queryable"
 category: mcp
 tags: [mcp-server, document-processing, unstructured, pdf-parsing, data-extraction]
 last_updated: 2026-07-15
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/unstructured-transform-mcp/"
+robots: "index,follow"
+
 ---
 
 # Transform MCP (Unstructured) ★ New (July 15)

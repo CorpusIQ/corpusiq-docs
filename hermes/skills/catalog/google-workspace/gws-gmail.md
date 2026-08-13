@@ -9,6 +9,12 @@ triggers:
   - "read inbox"
 source: googleworkspace/cli
 installs: 34900
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-workspace/gws-gmail/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "GWS Gmail"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # GWS Gmail

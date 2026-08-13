@@ -1,6 +1,11 @@
 ---
 title: Anti-Detect Browser — Undetectable Playwright Browsers for Hermes Agents
 description: Launch Chromium instances with real-device fingerprints via standard Playwright APIs. 29.9K+ installs. Anti-detect browser profiles with MCP server mode for AI agent automation, web scraping, and multi-account management.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/antibrow-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Anti-Detect Browser — Setup Guide

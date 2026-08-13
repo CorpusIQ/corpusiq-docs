@@ -1,6 +1,11 @@
 ---
 title: "July 3, 2026 — Hermex iPhone App"
-description: "7 new Hermes-relevant repos discovered July 3, 2026: Hermex native iPhone app (286⭐), Hermes Crypto Radar, Da7-Tech/mind memory engine, Obsidian plugin, n8n workflow engineer, Hermes skins, and Nick's Stack template."
+description: "7 new Hermes-relevant repos discovered July 3, 2026: Hermex native iPhone app (286⭐), Hermes Crypto Radar, Da7-Tech/mind memory engine, Obsidian plugin, n8n"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july3-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # 🆕 July 3, 2026 — 7 New Repos Discovered

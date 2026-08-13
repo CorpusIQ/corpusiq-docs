@@ -6,6 +6,12 @@ triggers:
 source: skills.sh marketplace
 category: stripe
 setup: npx skills add stripe/ai@stripe-projects
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stripe/stripe-projects/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+title: "Stripe Projects"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Stripe Projects

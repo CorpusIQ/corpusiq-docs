@@ -7,6 +7,11 @@ created: 2026-07-22
 category: Enterprise / SAP
 stars: 0
 tags: [sap, abap, ecc, s4hana, enterprise, erp]
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/abapilot-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+description: "SAP ECC runs 70%+ of global enterprise transactions."
+
 ---
 
 # abapilot — SAP ECC / S4HANA MCP Server

@@ -1,6 +1,11 @@
 ---
 title: New in MCP — Actualyze, AI Governance Layer ($7M Raised)
 description: Actualyze joins the MCP ecosystem with an AI governance platform. Govern, secure, route, and audit every AI call. $7M from top investors. August 2026.
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/actualyze-discovery/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Actualyze — AI Governance Layer Joins MCP Ecosystem

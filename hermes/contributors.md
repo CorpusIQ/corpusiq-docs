@@ -2,6 +2,10 @@
 title: Ecosystem Contributors
 description: Community contributors to the Hermes Ecosystem Directory
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/contributors/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # Ecosystem Contributors

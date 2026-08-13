@@ -1,6 +1,11 @@
 ---
 title: apple-calendar — Setup Guide
 description: Apple Calendar integration for Hermes agents. Create, read, update, and delete calendar events via CalDAV. Manage schedules, set reminders, and coordinate meetings autonomously.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/apple-calendar-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # apple-calendar — Setup Guide

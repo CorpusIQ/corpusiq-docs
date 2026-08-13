@@ -1,6 +1,6 @@
 ---
-title: "Charming MCP — Generate & Host Interactive Web Apps via AI Agents"
-description: "Hosted MCP server that generates, hosts, and updates interactive web apps. Connect any MCP-compatible AI client, ask it to build an app, and get a live URL in seconds."
+title: "Charming MCP — Generate & Host Interactive Web Apps via"
+description: "Hosted MCP server that generates, hosts, and updates interactive web apps. Connect any MCP-compatible AI client, ask it to build an app, and get a live URL"
 category: mcp
 tags: [mcp, development, web-apps, hosted, ui-generation, charming, tambo-labs, hermes-agent]
 github: https://github.com/tambo-labs/charming-mcp
@@ -9,6 +9,10 @@ verified: true
 source: mcp.so
 discovered: 2026-07-24
 pricing: Free tier available · OAuth with Dynamic Client Registration
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/charming-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # Charming MCP — Generate & Host Interactive Web Apps via AI Agents

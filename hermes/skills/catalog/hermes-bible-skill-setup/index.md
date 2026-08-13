@@ -1,6 +1,11 @@
 ---
 title: Hermes Bible Skill Setup
 description: Install and configure the Hermes Bible community knowledge base  --  169 pages of unofficial docs, 25+ real-world flows, SOUL.md patterns, and intent-based routing
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-bible-skill-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Bible Skill Setup

@@ -1,9 +1,12 @@
 ---
 title: "Memory Architecture Guide for Hermes Agent"
-description: "Hermes Agent memory architecture guide covering the triple stack: Honcho peer memory, GBrain organizational knowledge, memcore-cloud cross-session recall, GraphRAG, and Session DB. Production-tested persistent AI agent memory."
+description: "Hermes Agent memory architecture guide covering the triple stack: Honcho peer memory, GBrain organizational knowledge, memcore-cloud cross-session recall"
 category: knowledge
 tags: [hermes-agent, memory, honcho, gbrain, memcore-cloud, graphrag, persistent-memory, knowledge-management]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/knowledge/"
+robots: "index,follow"
+
 ---
 
 # Hermes Agent Memory Architecture  --  The Triple Stack for Persistent AI Memory

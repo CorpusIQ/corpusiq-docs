@@ -9,6 +9,9 @@ tags:
   - content-automation
   - ai-marketing-assistant
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/agents/marketing-agent/"
+robots: "index,follow"
+
 ---
 
 # Hermes Marketing Agent  --  Autonomous SEO, Content & Campaign Analytics

@@ -8,6 +8,10 @@ transport: stdio
 auth: None
 category: SEO & Web Development
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/squirrelscan-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # squirrelscan — SEO & Performance Audit MCP for AI Agents

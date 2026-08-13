@@ -2,6 +2,10 @@
 title: Skills Loader
 description: "Setup and usage guide for Skills Loader. Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/skills-loader-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Skills Loader

@@ -7,6 +7,10 @@ added: 2026-08-11
 source: mcp.so
 relevance: ★★★
 tags: [referrals, affiliates, partners, growth, saas, marketing, analytics]
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/cello-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # Cello MCP

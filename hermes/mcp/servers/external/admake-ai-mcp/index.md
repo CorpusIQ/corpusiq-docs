@@ -7,6 +7,10 @@ added: 2026-08-11
 source: mcpservers.org
 relevance: ★★★
 tags: [ads, meta, tiktok, pinterest, creative, ugc, marketing, ecommerce]
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/admake-ai-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # AdMake AI MCP

@@ -1,5 +1,5 @@
 ---
-title: "FCA Handbook MCP (Metis Harness) — UK Financial Regulatory Compliance"
+title: "FCA Handbook MCP (Metis Harness) — UK Financial"
 server: fca-handbook-mcp
 rating: ★★★
 category: Finance / Regulatory Compliance
@@ -7,6 +7,12 @@ transport: stdio
 auth: Metis API Key
 added: 2026-08-10
 source: mcp.so
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/fca-handbook-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+description: "The primary tool — evaluates which FCA Handbook entries apply to an entity."
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # FCA Handbook MCP — Integration Guide

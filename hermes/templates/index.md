@@ -1,6 +1,11 @@
 ---
 title: Templates
 description: Ready-to-use templates for Hermes Agent configurations, skills, and deployment patterns. Part of the Hermes Skills Library.
+canonical: "https://www.corpusiq.io/docs/hermes/templates/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes template", "agent template", "skill template"]
+
 ---
 
 # Templates

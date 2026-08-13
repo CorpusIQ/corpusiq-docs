@@ -1,9 +1,12 @@
 ---
 title: "MCP Server Scan — July 18, 2026 (Late Night Sweep)"
-description: "Late-night MCP server discovery sweep. 2 new guides created: TofuBofu AI Visibility (AI-brand monitoring) and Competitor Tracker & Co. (competitive intelligence)."
+description: "Late-night MCP server discovery sweep. 2 new guides created: TofuBofu AI Visibility (AI-brand monitoring) and Competitor Tracker & Co. (competitive"
 category: mcp
 tags: [mcp-scan, discovery, mcp-servers]
 last_updated: 2026-07-18
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-07-18-late-night/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Scan — July 18, 2026 (Late Night Sweep)

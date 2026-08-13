@@ -1,6 +1,11 @@
 ---
 title: Steroids OpenAI Image Gen  --  Hermes Plugin Setup Guide
 description: Install and configure the steroids-openai-image-gen provider plugin for Hermes Agent  --  OpenAI-compatible endpoints or direct Codex Auth image generation.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/steroids-openai-image-gen-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Steroids OpenAI Image Gen  --  Setup Guide

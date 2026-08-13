@@ -4,6 +4,9 @@ description: Zero-connection SQL analysis for PostgreSQL and MySQL — paste que
 category: mcp
 tags: [mcp, sixta, sql, database, postgresql, mysql, analysis, optimization, hermes-agent]
 last_updated: 2026-07-08
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/sixta-connect/"
+robots: "index,follow"
+
 ---
 
 # SIXTA Connect MCP — Zero-Connection SQL Analysis for Hermes Agent

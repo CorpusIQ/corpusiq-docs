@@ -23,6 +23,8 @@ tags:
 - ai-powered-document-search
 - document-search-artificial-intelligence
 - how-to-use-ai-for-document-search
+robots: "index,follow"
+
 ---
 
 # AI for Document Search: Find Answers, Not Just Files

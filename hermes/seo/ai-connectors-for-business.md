@@ -1,7 +1,11 @@
 ---
-title: "AI Connectors for Business: Connect ChatGPT to Shopify, QuickBooks, Stripe"
+title: "AI Connectors for Business: Connect ChatGPT to Shopify,"
 description: "Your AI cannot answer basic questions about your business. Not because it is not smart enough. Because it cannot reach your data."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/seo/ai-connectors-for-business/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "nous research"]
+
 ---
 
 # AI Connectors for Business: Connect ChatGPT to Shopify, QuickBooks, Stripe

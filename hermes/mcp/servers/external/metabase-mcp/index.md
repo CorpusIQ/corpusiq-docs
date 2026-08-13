@@ -2,6 +2,10 @@
 title: Metabase MCP Server ★★★ Official
 description: "This is the first major BI platform to ship MCP natively — a paradigm shift for how operators interact with business data."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/metabase-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Metabase MCP Server ★★★ Official

@@ -1,6 +1,11 @@
 ---
 title: OpenClaw Graph New Skills — Procedural Generation, ARKit, Testing Setup Guide
-description: "Install and use three newly catalogued skills from alphaonedev/openclaw-graph: procedural-generation (noise terrains, BSP dungeons), arkit-advanced (scene reconstruction), and testing-integration (Supertest, Testcontainers, Pact)."
+description: "Install and use three newly catalogued skills from alphaonedev/openclaw-graph: procedural-generation (noise terrains, BSP dungeons), arkit-advanced (scene"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-graph-new-skills-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # OpenClaw Graph — New Skills Setup Guide

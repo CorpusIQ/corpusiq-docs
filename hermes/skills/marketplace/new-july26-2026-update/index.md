@@ -1,6 +1,11 @@
 ---
 title: "New Skills — July 26, 2026 Marketplace Sweep (Update)"
-description: "5 new publishers, 5 setup guides created, ~190K+ combined installs. Second sweep of skills.sh for Hermes-relevant skills from Neon, Anthropic, Figma, Grafana, and PlanetScale."
+description: "5 new publishers, 5 setup guides created, ~190K+ combined installs. Second sweep of skills.sh for Hermes-relevant skills from Neon, Anthropic, Figma"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july26-2026-update/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills — July 26, 2026 (Update)

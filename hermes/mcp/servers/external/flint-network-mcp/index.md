@@ -1,6 +1,6 @@
 ---
-title: "FLINT Network MCP — Agent identity and authority verification before transactions"
-description: "Verify an AI agent's identity, integrity, and authority before it moves money. FLINT's MCP server exposes the verify-before-pay loop — issue passports, authorize actions, verify at transaction time, and record outcomes. Remote Streamable HTTP."
+title: "FLINT Network MCP — Agent identity and authority"
+description: "Verify an AI agent's identity, integrity, and authority before it moves money. FLINT's MCP server exposes the verify-before-pay loop — issue passports"
 category: mcp
 tags: [mcp-server, agent-identity, fraud-prevention, financial-transactions, agent-commerce, verification]
 source: mcp.so
@@ -11,6 +11,10 @@ github: https://github.com/thefraudfather/flint-plugin
 mcp_endpoint: https://flint.network/mcp
 transport: Streamable HTTP
 auth: None required to start (free verification)
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/flint-network-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # FLINT Network MCP Server

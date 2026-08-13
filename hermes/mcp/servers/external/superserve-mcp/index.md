@@ -7,6 +7,9 @@ last_updated: 2026-07-16
 mcp_server: superserve-ai/superserve
 stars: 413
 source: mcpservers.org
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/superserve-mcp/"
+robots: "index,follow"
+
 ---
 
 # Superserve MCP — Sandbox Infrastructure for AI Agents

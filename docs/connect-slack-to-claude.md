@@ -23,6 +23,8 @@ tags:
 - claude-slack-mcp
 - claude-ai-slack-connector
 - how-to-connect-slack-to-claude-ai
+robots: "index,follow"
+
 ---
 
 # Connect Slack to Claude: Unlock Your Team's Knowledge Base

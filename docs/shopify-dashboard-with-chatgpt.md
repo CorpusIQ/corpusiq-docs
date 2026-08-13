@@ -17,6 +17,10 @@ last_updated: '2026-06-16'
 category: Shopify
 cluster: 6
 canonical_url: https://www.corpusiq.io/docs/shopify-dashboard-with-chatgpt
+canonical: "https://www.corpusiq.io/docs/shopify-dashboard-with-chatgpt/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # Shopify Dashboard with ChatGPT: Your Real-Time Ecommerce Command Center

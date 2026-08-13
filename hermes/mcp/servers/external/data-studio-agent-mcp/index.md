@@ -1,6 +1,6 @@
 ---
-title: "Data Studio Agent MCP — 70+ SQL & NoSQL databases for AI coding agents"
-description: "Connect 70+ SQL databases (PostgreSQL, MySQL, SQL Server, ClickHouse, Snowflake, BigQuery) and NoSQL (Elasticsearch, MongoDB, DynamoDB) to AI agents via MCP. Local-first, open source, read-safe by default."
+title: "Data Studio Agent MCP — 70+ SQL & NoSQL databases for AI"
+description: "Connect 70+ SQL databases (PostgreSQL, MySQL, SQL Server, ClickHouse, Snowflake, BigQuery) and NoSQL (Elasticsearch, MongoDB, DynamoDB) to AI agents via"
 category: mcp
 tags: [mcp-server, database, sql, nosql, postgresql, mysql, mongodb, elasticsearch, data-platform]
 source: mcp.so
@@ -11,6 +11,10 @@ github: https://github.com/geek-fun/data-studio-agent
 mcp_endpoint: localhost (bridges via SqlKit + DocKit desktop apps)
 transport: stdio (local)
 auth: None (local-first, credentials never leave your machine)
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/data-studio-agent-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # Data Studio Agent MCP Server

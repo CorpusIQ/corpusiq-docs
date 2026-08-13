@@ -1,9 +1,12 @@
 ---
 title: "MCP Server Sweep — July 20, 2026"
-description: "8 new business-operator-relevant MCP servers discovered from awesome-mcp-servers (punkpeye/awesome-mcp-servers) since last sweep on July 19. Headline finds: mcp-sam-gov (150-tool government contracting), openInvest (63⭐ multi-agent investment engine), Orbiads GAM (200+ tool Google Ad Manager), camt053/pacs008 (ISO 20022 banking suite)."
+description: "8 new business-operator-relevant MCP servers discovered from awesome-mcp-servers (punkpeye/awesome-mcp-servers) since last sweep on July 19. Headline finds"
 category: mcp
 tags: [mcp-servers, discovery, sweep, catalog, 2026]
 last_updated: 2026-07-20
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july20-2026/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Sweep — July 20, 2026

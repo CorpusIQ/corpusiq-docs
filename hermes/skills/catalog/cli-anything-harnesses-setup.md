@@ -1,6 +1,11 @@
 ---
 title: CLI-Anything GUI Harnesses — Setup Guide
 description: Install and configure 9 CLI-Anything harness skills for Hermes Agent — make Blender, Audacity, ComfyUI, Ollama, NotebookLM, and other GUI apps agent-controllable. 43K⭐ parent ecosystem.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cli-anything-harnesses-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # CLI-Anything GUI Harnesses

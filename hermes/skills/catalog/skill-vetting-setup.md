@@ -1,6 +1,11 @@
 ---
 title: Skill Vetting Setup Guide
 description: Install NVIDIA SkillSpector-based security vetting for Hermes skills  --  scan-before-install, risk gating, marketplace catalog, and weekly re-audits
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skill-vetting-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Skill Vetting  --  Setup Guide

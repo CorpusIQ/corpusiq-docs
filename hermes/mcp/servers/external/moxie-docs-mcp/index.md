@@ -7,6 +7,11 @@ created: 2026-07-21
 category: Documentation
 stars: 1
 tags: [documentation, github, codebase, drift-detection, developer-tools]
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/moxie-docs-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+description: "GitHub personal access token with repo scope required for PR creation and repository access."
+
 ---
 
 # Moxie Docs MCP Server

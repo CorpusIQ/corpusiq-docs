@@ -7,6 +7,11 @@ source_repo: Neo-bot1998/hermes-desktop-neo-theme
 stars: 2
 language: TypeScript/CSS
 platforms: [macOS, Linux, Windows]
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-desktop-neo-theme-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Hermes Desktop Neo Theme — Full Setup Guide

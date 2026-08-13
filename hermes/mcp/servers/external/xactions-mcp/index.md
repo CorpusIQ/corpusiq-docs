@@ -7,6 +7,9 @@ last_updated: 2026-07-15
 mcp_server: nirholas/xactions
 stars: 384
 source: mcpservers.org
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/xactions-mcp/"
+robots: "index,follow"
+
 ---
 
 # XActions MCP — X/Twitter Automation Without API Fees

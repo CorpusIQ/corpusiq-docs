@@ -5,6 +5,11 @@ category: media-ai
 publisher: runapi-ai
 maturity: beta
 source: https://github.com/runapi-ai/cli-skill
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/runapi-cli-skill-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # RunAPI CLI Skill — Setup Guide

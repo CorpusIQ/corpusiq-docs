@@ -1,9 +1,12 @@
 ---
 title: "MCP Server Sweep — July 21, 2026 (Evening)"
-description: "28 new MCP servers discovered from mcpservers.org direct submissions. 15 business-operator-relevant integration guides drafted. Headline finds: Fintel (hosted financial MCP), GReminders (scheduling+CRM), BasedOnBusiness (Google Maps leads), datamcp (PostgreSQL/MySQL gateway), Scalix Cloud (50-tool cloud platform)."
+description: "28 new MCP servers discovered from mcpservers.org direct submissions. 15 business-operator-relevant integration guides drafted. Headline finds: Fintel"
 category: mcp
 tags: [mcp-servers, discovery, sweep, catalog, 2026]
 last_updated: 2026-07-21
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july21-2026-evening/"
+robots: "index,follow"
+
 ---
 
 # MCP Server Sweep — July 21, 2026 (Evening)

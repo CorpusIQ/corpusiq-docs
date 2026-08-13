@@ -7,6 +7,10 @@ added: 2026-08-12
 source: mcp.so
 relevance: ★★★
 tags: [sales, sales-intelligence, crm, forecasting, pipeline, b2b, remote-mcp]
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/stratyfix-mcp/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+
 ---
 
 # Stratyfix MCP

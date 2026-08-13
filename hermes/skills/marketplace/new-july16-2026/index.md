@@ -1,6 +1,11 @@
 ---
 title: New Skills Discovery — July 16, 2026
 description: 4 new skills discovered via skills.sh batch sweep. Agent Browser (38K⭐), Vercel Agent Skills (29K⭐), Apify Agent Skills (2.2K⭐), and ClawFu Skills (134⭐) — browser automation, development quality, web scraping, and marketing methodologies.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july16-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills — July 16, 2026

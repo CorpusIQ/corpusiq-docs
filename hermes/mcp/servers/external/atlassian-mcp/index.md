@@ -11,6 +11,10 @@ repository: "https://github.com/atlassian/atlassian-mcp-server"
 category: "Enterprise / Project Management"
 priority: "★★★"
 last_updated: 2026-07-27
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/atlassian-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Atlassian MCP Server ★★★ Official

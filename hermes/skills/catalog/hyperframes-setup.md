@@ -1,6 +1,11 @@
 ---
 title: HyperFrames  --  Full Setup Guide for Hermes Agents
 description: Install, configure, and use the hyperframes skill from nousresearch/hermes-agent. Create HTML-based video compositions, animated title cards, social overlays, and audio-reactive visuals directly from Hermes.
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hyperframes-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # HyperFrames  --  Setup Guide

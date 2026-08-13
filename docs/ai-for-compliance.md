@@ -23,6 +23,8 @@ tags:
 - ai-powered-compliance
 - compliance-artificial-intelligence
 - how-to-use-ai-for-compliance
+robots: "index,follow"
+
 ---
 
 # AI for Compliance: Real-Time Regulatory Intelligence

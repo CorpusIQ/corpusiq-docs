@@ -2,6 +2,10 @@
 title: Stripe MCP Server ★★★ Official
 description: "Setup and usage guide for Stripe MCP Server ★★★ Official. Part of the Hermes resource directory."
 last_updated: 2026-08-12
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/stripe-mcp/"
+robots: "index,follow"
+tags: ["mcp server", "model context protocol", "hermes mcp"]
+
 ---
 
 # Stripe MCP Server ★★★ Official

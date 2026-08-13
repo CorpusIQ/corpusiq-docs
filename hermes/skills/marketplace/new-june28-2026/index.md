@@ -1,6 +1,11 @@
 ---
 title: "June 28, 2026 — Threads Growth Skill"
-description: "3 newly discovered skills — Threads growth automation (745 installs), NemoClaw security user guide (99 installs), Huawei Cloud Hermes deployment (43 installs)"
+description: "3 newly discovered skills — Threads growth automation (745 installs), NemoClaw security user guide (99 installs), Huawei Cloud Hermes deployment (43"
+canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june28-2026/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "skill marketplace", "skills.sh"]
+
 ---
 
 # New Skills Discovered — June 28, 2026

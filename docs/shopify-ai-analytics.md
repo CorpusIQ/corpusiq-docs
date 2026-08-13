@@ -17,6 +17,10 @@ last_updated: '2026-06-16'
 category: Shopify
 cluster: 6
 canonical_url: https://www.corpusiq.io/docs/shopify-ai-analytics
+canonical: "https://www.corpusiq.io/docs/shopify-ai-analytics/"
+robots: "index,follow"
+tags: ["hermes agent", "ai agent", "documentation"]
+
 ---
 
 # Shopify AI Analytics: Automated Ecommerce Intelligence at Conversation Speed

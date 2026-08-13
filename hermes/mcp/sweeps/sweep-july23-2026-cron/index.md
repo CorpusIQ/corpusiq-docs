@@ -4,6 +4,9 @@ description: "Automated cron sweep of mcp.so and mcpservers.org. 43 new servers 
 category: mcp-sweep
 tags: [mcp-sweep, cron, discovery]
 last_updated: 2026-07-23
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july23-2026-cron/"
+robots: "index,follow"
+
 ---
 
 # MCP Cron Sweep — July 23, 2026

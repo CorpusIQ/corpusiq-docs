@@ -1,6 +1,11 @@
 ---
 title: "Customer & CRM Prompts"
 description: "Prompt templates for customer data analysis, CRM operations, and business intelligence."
+canonical: "https://www.corpusiq.io/docs/hermes/prompts/customer-and-crm/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes prompt", "prompt engineering", "ai prompt"]
+
 ---
 
 # Customer and CRM prompts

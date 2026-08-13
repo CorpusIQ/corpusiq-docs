@@ -1,9 +1,12 @@
 ---
 title: "Vibgrate MCP — Integration Guide"
-description: "Connect AI agents to Vibgrate Cloud for dependency drift, vulnerability (CVE), and migration intelligence. 51 tools for DriftScores, EOL runtimes, upgrade paths, and org catalog management."
+description: "Connect AI agents to Vibgrate Cloud for dependency drift, vulnerability (CVE), and migration intelligence. 51 tools for DriftScores, EOL runtimes, upgrade"
 category: mcp
 tags: [mcp-server, devops, security, drift-detection, cve, dependency-management]
 last_updated: 2026-07-18
+canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/vibgrate-mcp/"
+robots: "index,follow"
+
 ---
 
 # Vibgrate MCP — Integration Guide

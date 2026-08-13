@@ -1,6 +1,11 @@
 ---
 title: "Skill Repo Manager — Hermes Repository Setup Guide"
 description: Install and configure Victor-F-M-A-R/skywork-skill-skill-repo-manager — manage the complete lifecycle of Hermes skill GitHub repositories with sync, audit, and update detection
+canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skill-repo-manager-setup/"
+robots: "index,follow"
+last_updated: "2026-08-12"
+tags: ["hermes skill", "agent skill", "skill setup"]
+
 ---
 
 # Skill Repo Manager — Setup Guide
