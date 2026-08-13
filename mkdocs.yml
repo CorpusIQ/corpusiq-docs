@@ -311,6 +311,7 @@ nav:
   - More:
     - MCP Guide: hermes/mcp/index.md
     - MCP '26 Stateless Migration: hermes/mcp/spec/mcp-26-stateless-migration.md
+    - MCP Directory Submission Guide: hermes/mcp/directories/submission-guide-2026.md
     - Knowledge: hermes/knowledge/index.md
     - Troubleshooting: hermes/troubleshooting/index.md
     - Contributors: hermes/contributors.md
