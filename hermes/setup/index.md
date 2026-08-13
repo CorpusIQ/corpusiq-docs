@@ -81,6 +81,19 @@ hermes doctor
 
 That's it. You can now use Hermes Agent interactively. For persistent operation (crons, gateway, messaging), continue to the setup guide for your platform.
 
+### Option: Hermes Desktop App (macOS / Windows / Linux)
+
+Prefer a graphical interface over the terminal? The official **Hermes Desktop** app ships with the Surface Release (v0.16.0+, June 2026) — a native Electron application, not a terminal wrapper:
+
+- One-click install from [hermes-agent.nousresearch.com](https://hermes-agent.nousresearch.com/) with in-app self-update
+- Proper chat window with streaming, drag-and-drop files, clipboard image paste
+- Cmd+K command palette, inline model picker, session archive/search
+- Remote gateway support — point at a Hermes running on a VPS or workstation over OAuth
+- Concurrent multi-profile sessions with cross-profile `@session` links
+- Full Simplified Chinese UI (switchable in Appearance settings)
+
+The Desktop app wraps the same Hermes Agent core, so everything below (crons, MCP, skills, memory) works identically. Note: the official desktop app is distinct from third-party companion projects like `fathah/hermes-desktop`; install the official build from the Nous Research site.
+
 ## Benefits of Hermes Agent
 
 - **Provider-agnostic**: Switch between Anthropic, OpenAI, DeepSeek, Ollama, and 200+ models without changing your code
