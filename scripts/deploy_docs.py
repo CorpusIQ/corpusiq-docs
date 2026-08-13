@@ -31,6 +31,30 @@ def run(cmd, cwd=REPO_DIR):
         print(f"CMD FAILED: {cmd}\n{r.stderr[:300]}")
     return r.stdout + r.stderr
 
+
+def deploy_vercel():
+    """Deploy the site/ build to the Vercel docs project (docs.corpusiq.io).
+
+    Independent of GitHub Actions - the GitHub Pages pipeline is blocked
+    (Ben-Home account flagged), so Vercel CLI is the production path.
+    """
+    import json
+    secret_path = os.path.expanduser("~/.hermes/profiles/corpusiq/secrets/vercel.json")
+    with open(secret_path) as f:
+        v = json.load(f)
+    token = v["token"]
+    team = v["team"]
+    # Copy GEO feeds into the build
+    run("cp llms.txt llms-full.txt site/")
+    out = run(
+        f"npx --yes vercel@latest deploy site --yes --token {token} --team {team} --prod"
+    )
+    print(out[-500:] if out else "vercel deploy: no output")
+    if "Error" in out:
+        print("VERCEL DEPLOY FAILED")
+        sys.exit(1)
+    print("   Vercel deploy OK -> https://docs.corpusiq.io")
+
 def main():
     commit_msg = None
     if "--commit-msg" in sys.argv:
@@ -76,6 +100,8 @@ def main():
         commit_msg = f"Deployed {sha} with MkDocs version: 1.6.1 - manual legacy deploy"
     run(f"cd {wt} && git add -A && git commit -m '{commit_msg}'")
     run(f"cd {wt} && git push origin gh-pages")
+    print("4b. Deploying to Vercel...")
+    deploy_vercel()
 
     # 4. Trigger Pages build via API
     print("4. Triggering Pages build...")
