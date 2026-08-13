@@ -12,9 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**806+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**814+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+
+- [🆕 August 13, 2026 — Extract Design System (127.3K), App Store Connect CLI (53.5K), GenMedia AI Media (42.5K), Pika Plugins (20.1K), FlowKit Reddit (5.4K), HumanLayer HITL (2.7K) — 8 publishers, 101 skills, 253K+ installs](/hermes/skills/marketplace/new-aug13-2026/)
 
 - [🆕 August 12, 2026 (Evening) — Lark/Feishu Office Suite (25M), RigorPilot (2.6M), Caveman (2.2M), Warp Common Skills (411K), Uizze UI (395K), Stably Orca (318K), Skills-101 Superpowers (488K) — 7 publishers, 198 skills, 31M+ installs](/hermes/skills/marketplace/new-aug12-2026-evening/)
 
@@ -253,7 +255,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 857+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 865+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 
