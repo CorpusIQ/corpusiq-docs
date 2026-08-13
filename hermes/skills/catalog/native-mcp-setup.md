@@ -30,7 +30,7 @@ hermes skills list | grep native-mcp
 
 | Requirement | Details |
 |---|---|
-| **Hermes Agent** | v0.16.0+ (uses built-in MCP transport layer) |
+| **Hermes Agent** | v0.20.0+ (uses built-in MCP transport layer) |
 | **MCP Server** | Any MCP-compatible server (stdio or HTTP) |
 | **Python 3.11+** | Required for the MCP client runtime |
 

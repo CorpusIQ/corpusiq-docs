@@ -9,7 +9,7 @@ robots: "index,follow"
 ---
 # CorpusIQ — Connect Your Business Data to ChatGPT, Claude, and Perplexity
 
-**CorpusIQ gives every AI the same verified answer.** Connect QuickBooks, Shopify, Stripe, HubSpot, GA4, and 35+ more business tools through one MCP endpoint. Read-only OAuth. Source-cited answers. Zero customer data stored. Ask a plain-English question inside ChatGPT, Claude, or Perplexity and get a single answer with citations tracing every number back to its origin. No dashboards. No CSV exports. No switching tabs.
+**CorpusIQ gives every AI the same verified answer.** Connect QuickBooks, Shopify, Stripe, HubSpot, GA4, and 35+ more business tools through one MCP endpoint. Read-only OAuth. Source-cited answers. Zero customer data stored. Ask a plain-English question inside ChatGPT, Claude, or Perplexity and get a single answer with citations tracing every number back to its origin. No dashboards. No CSV exports. No switching tabs. Available in the Claude connector directory for one-click install.
 
 ## Quick Links
 

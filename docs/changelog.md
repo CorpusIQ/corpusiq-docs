@@ -13,6 +13,18 @@ All notable changes to the CorpusIQ API are documented here. This project follow
 
 ---
 
+## August 2026  --  Distribution Milestones
+
+### Listed in the Claude Connector Directory
+
+CorpusIQ is now listed in Anthropic's Connector Directory inside claude.ai. Claude Pro, Max, Team, and Enterprise users can install CorpusIQ with one click from the built-in directory. No manual MCP configuration required.
+
+### MCP Auth Refresh (silent, no re-login)
+
+The MCP server now mints a 30-day refresh token after a successful device or Google OAuth reconnect. Token refresh is silent: expired access tokens rotate automatically without user interaction.
+
+---
+
 ## v1.0  --  March 2026
 
 ### Initial API Release

@@ -113,7 +113,7 @@ Generated plans follow this structure:
 
 | Requirement | Details |
 |-------------|---------|
-| Hermes Agent | v0.14.0+ |
+| Hermes Agent | v0.20.0+ |
 | Workspace | Must be inside a project directory (for `.hermes/plans/` output) |
 
 ---

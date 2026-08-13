@@ -19,7 +19,7 @@ npx skills add nousresearch/hermes-agent --skill subagent-driven-development
 
 | Requirement | Details |
 |-------------|---------|
-| Hermes Agent | v0.16.0+ with `delegate_task` tool enabled |
+| Hermes Agent | v0.20.0+ with `delegate_task` tool enabled |
 | Subagent config | `delegation.max_concurrent_children` set in config.yaml |
 | No external API keys | Both skills are local-only |
 

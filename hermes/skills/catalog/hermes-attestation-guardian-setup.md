@@ -72,7 +72,7 @@ hermes attestation self-check
 
 | Requirement | Details |
 |-------------|---------|
-| Hermes Agent | v0.16.0+ (CLI/Gateway/profile-managed) |
+| Hermes Agent | v0.20.0+ (CLI/Gateway/profile-managed) |
 | ClawSec release key | Bundled with the skill |
 | Internet access | For fetching release manifests |
 

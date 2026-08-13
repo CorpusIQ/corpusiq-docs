@@ -46,7 +46,7 @@ npx skills add DJLougen/autolora
 |-------------|---------|
 | **RunPod account** | API key with GPU access ([runpod.io](https://runpod.io)) |
 | **Stripe account** | Payment method for training costs |
-| **Hermes Agent** | v0.16.0+ with LoRA adapter support |
+| **Hermes Agent** | v0.20.0+ with LoRA adapter support |
 | **Training data** | At least 50+ successful agent sessions for meaningful fine-tuning |
 
 ```bash

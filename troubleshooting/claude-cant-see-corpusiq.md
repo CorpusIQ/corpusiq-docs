@@ -5,7 +5,7 @@ happens. No tools available. Claude doesn't mention CorpusIQ. Or you
 get an error in the Claude sidebar about a missing MCP server.
 
 The happy path is documented in
-[../quickstart/02-connect-claude.md](../quickstart/02-connect-claude.md).
+[../quick-start.md](../quick-start.md).
 This page is for when the happy path didn't work.
 
 ## Cause 1: Claude Desktop wasn't restarted
@@ -57,7 +57,7 @@ command in your config doesn't match what the CorpusIQ team gave you,
 Claude can't connect.
 
 **How to check:** Compare your config entry to the exact snippet in
-[../quickstart/02-connect-claude.md](../quickstart/02-connect-claude.md).
+[../quick-start.md](../quick-start.md).
 Character by character. URLs, ports, paths, and tokens must match
 exactly.
 

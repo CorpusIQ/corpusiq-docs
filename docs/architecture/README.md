@@ -9,7 +9,7 @@ robots: "index,follow"
 ---
 # Architecture
 
-CorpusIQ connects AI agents and chat interfaces to 36 business data sources through a single MCP endpoint.
+CorpusIQ connects AI agents and chat interfaces to 40+ business data sources through a single MCP endpoint.
 
 ## System Architecture
 

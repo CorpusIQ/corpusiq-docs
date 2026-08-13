@@ -31,7 +31,7 @@ git clone https://github.com/github/awesome-copilot.git
 
 | Requirement | Details |
 |---|---|
-| **Hermes Agent** | v0.16.0+ |
+| **Hermes Agent** | v0.20.0+ |
 | **Skills CLI** | `npx skills` must be available |
 | **Existing memory** | Works best with agents that already have session memory (AgentMemory, Honcho, or native Hermes memory) |
 

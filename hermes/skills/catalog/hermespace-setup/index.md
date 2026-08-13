@@ -28,7 +28,7 @@ It does **not** replace Hermes tools, skills, memory, gateway, or the agent loop
 ## Prerequisites
 
 - Python 3.10+
-- Hermes Agent v0.17+ (v0.18+ recommended)
+- Hermes Agent v0.20.0+ (v0.20.0+ recommended)
 - Git
 - pip or uv for Python package management
 

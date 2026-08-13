@@ -97,7 +97,7 @@ It should list all your connected sources with available query tools.
 
 ### Step 5: Start Using It
 
-Your agent now has access to 36 business data sources. Use it for:
+Your agent now has access to 40+ business data sources. Use it for:
 
 - Revenue analysis from Stripe
 - Order management from Shopify
@@ -109,7 +109,7 @@ Your agent now has access to 36 business data sources. Use it for:
 
 - [Available MCP tools](../ai-agent-users.md)
 - [Security considerations](../security/README.md)
-- [Troubleshooting agent connections](../ai-agent-users.md#troubleshooting-procedures)
+- [Troubleshooting agent connections](../ai-agent-users.md#troubleshooting)
 
 ---
 

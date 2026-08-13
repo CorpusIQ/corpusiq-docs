@@ -25,7 +25,7 @@ After install, reload skills:
 
 | Requirement | Details |
 |-------------|---------|
-| Hermes Agent | v0.16.0+ |
+| Hermes Agent | v0.20.0+ |
 | Terminal | Unicode-capable terminal for best results |
 | Python (optional) | For FIGlet/pyfiglet integration: `pip install pyfiglet` |
 

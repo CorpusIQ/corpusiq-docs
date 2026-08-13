@@ -39,7 +39,7 @@ npx skills add treyxu23/safari-web-agent
 | **macOS** | macOS 14+ (Sonoma or later) |
 | **Safari** | Safari 17+ with "Allow Remote Automation" enabled |
 | **Accessibility permissions** | Terminal/Hermes needs Accessibility access (System Settings → Privacy) |
-| **Hermes Agent** | v0.16.0+ running on macOS |
+| **Hermes Agent** | v0.20.0+ running on macOS |
 
 ### macOS Permissions Setup
 

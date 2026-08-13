@@ -25,7 +25,7 @@ After install, reload skills:
 
 | Requirement | Details |
 |-------------|---------|
-| Hermes Agent | v0.16.0+ |
+| Hermes Agent | v0.20.0+ |
 | Canvas | Diagram concept or architecture to visualize |
 
 ## Capabilities

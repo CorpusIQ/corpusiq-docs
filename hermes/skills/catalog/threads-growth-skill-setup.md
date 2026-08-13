@@ -26,7 +26,7 @@ npx skills add aradotso/marketing-skills --skill threads-growth-skill
 |---|---|
 | **Threads Account** | Meta Threads account with professional/creator dashboard access |
 | **Meta Developer App** | For API-based automation: register at [developers.facebook.com](https://developers.facebook.com) |
-| **Hermes Agent** | v0.16.0+ (for skill system compatibility) |
+| **Hermes Agent** | v0.20.0+ (for skill system compatibility) |
 | **Instagram Account** | Threads is linked to Instagram — same credentials |
 
 Environment variables (if using API mode):

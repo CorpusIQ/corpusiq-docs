@@ -33,7 +33,7 @@ belt app store
 
 | Requirement | Details |
 |---|---|
-| **Hermes Agent** | v0.16.0+ |
+| **Hermes Agent** | v0.20.0+ |
 | **Node.js** | v18+ for `npx` install |
 | **inference.sh CLI** | Required for image/video generation skills |
 | **X/Twitter API** | Required for `twitter-automation` |

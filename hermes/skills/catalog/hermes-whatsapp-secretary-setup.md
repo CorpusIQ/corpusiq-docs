@@ -38,7 +38,7 @@ npx skills add ricktechmecha/hermes-whatsapp-secretary
 |-------------|---------|
 | **WhatsApp account** | Active WhatsApp with WhatsApp Web capability |
 | **whatsapp-web.js** or **Baileys** | WhatsApp Web API library (installed automatically) |
-| **Hermes Agent** | v0.16.0+ |
+| **Hermes Agent** | v0.20.0+ |
 | **QR scan** | One-time WhatsApp Web QR authentication |
 
 ### Configuration

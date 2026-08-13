@@ -56,7 +56,10 @@ def on_page_markdown(markdown, page, config, files):
         if item.suffix == ".md":
             # Extract title from frontmatter
             title = _extract_title(item)
-            slug = item.stem + ".html"
+            # use_directory_urls: true (mkdocs.yml line 348) builds each page
+            # as <stem>/index.html, so the canonical link is the directory
+            # form — "<stem>/", never "<stem>.html". The .html form 404s.
+            slug = item.stem + "/"
             children.append((title, slug))
         elif item.is_dir():
             child_index = None
@@ -66,7 +69,7 @@ def on_page_markdown(markdown, page, config, files):
                 child_index = item / "README.md"
             if child_index is not None:
                 title = _extract_title(child_index)
-                slug = item.name + "/index.html"
+                slug = item.name + "/"
                 children.append((title, slug))
 
     if not children:

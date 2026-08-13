@@ -41,7 +41,7 @@ npx skills add trailofbits/skills
 
 | Requirement | Details |
 |---|---|
-| **Hermes Agent** | v0.16.0+ |
+| **Hermes Agent** | v0.20.0+ |
 | **Claude Code or Codex** | Plugin marketplace required for plugin install |
 | **GitHub repo** | For supply-chain and workflow auditing |
 

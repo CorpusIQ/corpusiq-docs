@@ -27,7 +27,7 @@ After install, reload skills:
 |-------------|---------|
 | macOS | iMessage is macOS-only |
 | Signed into iMessage | Messages.app logged in with Apple ID |
-| Hermes Agent | v0.16.0+ running on Mac |
+| Hermes Agent | v0.20.0+ running on Mac |
 | Accessibility permissions | System Settings → Privacy → Accessibility (for Messages.app automation) |
 
 ## Capabilities

@@ -11,7 +11,7 @@ tags:
   - conflict checking
   - AI agent
   - law firm
-last_updated: "2026-06-16"
+last_updated: "2026-08-12"
 ---
 
 # Hermes Agent Legal Automation

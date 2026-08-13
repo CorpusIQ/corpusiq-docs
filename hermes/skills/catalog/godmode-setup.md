@@ -12,7 +12,7 @@ source: https://skills.sh/nousresearch/hermes-agent/godmode
 **Source:** [nousresearch/hermes-agent](https://skills.sh/nousresearch/hermes-agent/godmode) (138 installs)
 **Category:** Autonomous Execution
 **License:** MIT · **Platforms:** Linux, macOS, Windows
-**Dependencies:** Hermes Agent v0.14.0+
+**Dependencies:** Hermes Agent v0.20.0+
 
 Godmode switches Hermes into fully autonomous execution — bypassing confirmation gates, approval prompts, and safety checks. Designed for trusted, isolated environments where the operator wants Hermes to execute without interruption.
 

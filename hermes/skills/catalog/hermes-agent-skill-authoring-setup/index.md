@@ -26,7 +26,7 @@ npx skills add nousresearch/hermes-agent --skill hermes-agent-skill-authoring -g
 
 | Requirement | Details |
 |---|---|
-| **Hermes Agent** | v0.16.0+ |
+| **Hermes Agent** | v0.20.0+ |
 | **Text Editor** | Any — VS Code recommended for YAML frontmatter validation |
 | **GitHub Account** | For publishing to skills.sh marketplace |
 

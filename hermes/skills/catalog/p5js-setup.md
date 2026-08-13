@@ -92,7 +92,7 @@ Create a p5.js sketch that draws a recursive tree fractal that grows with mouse 
 
 | Requirement | Details |
 |-------------|---------|
-| Hermes Agent | v0.14.0+ |
+| Hermes Agent | v0.20.0+ |
 | Node.js | 18+ |
 | Browser or p5.js runtime | For rendering output |
 

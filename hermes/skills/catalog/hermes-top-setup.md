@@ -18,7 +18,7 @@ A read-only, `htop`/`btop`-style live terminal dashboard for [Hermes Agent](http
 ## Prerequisites
 
 - **Go 1.26+** (build only — binary is self-contained)
-- **Hermes Agent v0.18 or newer** — must have run at least once so `state.db` exists
+- **Hermes Agent v0.20.0 or newer** — must have run at least once so `state.db` exists
 - Terminal with 256-color support (most modern terminals)
 
 The SQLite driver is [`modernc.org/sqlite`](https://modernc.org/sqlite) — a pure Go implementation. **No CGO, no system libsqlite3.** Single static binary, cross-compiles trivially.

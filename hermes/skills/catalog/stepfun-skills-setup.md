@@ -40,7 +40,7 @@ Individual skills:
 | **StepFun Account** | Register at [platform.stepfun.com](https://platform.stepfun.com) |
 | **Step Plan Subscription** | Required — calls go through Step Plan (not standard API credit) |
 | **STEPFUN_API_KEY** | Set in `~/.hermes/.env`: `STEPFUN_API_KEY=sk-...` |
-| **Hermes Agent** | v0.15.0+ |
+| **Hermes Agent** | v0.20.0+ |
 
 ---
 

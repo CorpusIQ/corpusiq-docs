@@ -46,7 +46,7 @@ hermes skills install https://raw.githubusercontent.com/lovenps85/hermes-cron-de
 
 | Requirement | Details |
 |---|---|
-| **Hermes Agent** | v0.14.0+ (skill loading support) |
+| **Hermes Agent** | v0.20.0+ (skill loading support) |
 | **Git** | For clone install (Option A) |
 
 ---

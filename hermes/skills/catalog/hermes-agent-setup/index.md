@@ -30,7 +30,7 @@ git clone https://github.com/NousResearch/hermes-agent.git
 
 | Requirement | Details |
 |---|---|
-| **Hermes Agent** | v0.16.0+ |
+| **Hermes Agent** | v0.20.0+ |
 | **Shell Access** | `hermes` CLI must be in PATH |
 | **API Keys** | At least one LLM provider configured in `config.yaml` |
 

@@ -34,7 +34,7 @@ git clone https://github.com/rohitg00/agentmemory.git
 | Requirement | Details |
 |---|---|
 | **Node.js** | 18+ (for npx install) |
-| **Hermes Agent** | v0.16.0+ |
+| **Hermes Agent** | v0.20.0+ |
 | **MCP support** | Required for MCP-based memory backends |
 
 ---

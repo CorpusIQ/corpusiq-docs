@@ -36,22 +36,22 @@ The marketplace organizes skills into functional categories. Click any category 
 
 | Category | Skills | Top Picks |
 |----------|:------:|-----------|
-| [Marketing & Growth](#marketing--growth) | 45 | `seo-audit` (132K), `copywriting` (122K), `content-strategy` (86K) |
-| [Development & GitHub](#development--github) | 10 | `requesting-code-review` (121K), `github-actions-docs` (206K) |
-| [Agent Infrastructure](#agent-infrastructure) | 8 | `agent-browser` (432K), `web-design-guidelines` (377K) |
-| [MCP & API Integration](#mcp--api-integration) | 5 | `mcp-builder` (71K), `claude-api` (37K) |
-| [Code Quality & Review](#code-quality--review) | 4 | `code-review-excellence` (22K), `python-testing-patterns` (24K) |
-| [Testing & QA](#testing--qa) | 4 | `webapp-testing` (92K), `e2e-testing-patterns` (18K) |
-| [Content & Social](#content--social) | 5 | `persona-content-creator` (17K), `social-publisher` (3K) |
-| [AI Media](#ai-media) | 5 | `frontend-design` (521K), `video-edit` (217K) |
-| [Operations & Productivity](#operations--productivity) | 5 | `email-to-task` (18K), `changelog-automation` (9K) |
-| [Orchestration & RAG](#orchestration--rag) | 6 | `rag-implementation` (9.5K), `langchain-rag` (8.6K) |
-| [Infrastructure & DevOps](#infrastructure--devops) | 5 | `neon-postgres` (40.3K), `docker-expert` (18.9K) |
-| [Platform Integrations](#platform-integrations) | 11 | `notion-api` (42.1K), `agent-email-inbox` (3.3K) |
-| [Communication Bots](#communication-bots) | 4 | `whatsapp-automation` (3.4K), `telegram-bot` (3.1K) |
-| [Hermes Agent Variants](#hermes-agent-variants) | 30 | `dogfood` (3.6K), `claude-code` (131) |
-| [Hermes Ecosystem](#hermes-ecosystem) | 53 | `hermes-webui-agent` (193), `hermes-desktop-companion` (152) |
-| [Security Suite](#security-suite) | 16 | `skill-auditor` (590), `setup-auditor` (384) |
+| [Marketing & Growth](/hermes/skills/catalog/) | 45 | `seo-audit` (132K), `copywriting` (122K), `content-strategy` (86K) |
+| [Development & GitHub](/hermes/skills/catalog/) | 10 | `requesting-code-review` (121K), `github-actions-docs` (206K) |
+| [Agent Infrastructure](/hermes/skills/catalog/) | 8 | `agent-browser` (432K), `web-design-guidelines` (377K) |
+| [MCP & API Integration](/hermes/skills/catalog/) | 5 | `mcp-builder` (71K), `claude-api` (37K) |
+| [Code Quality & Review](/hermes/skills/catalog/) | 4 | `code-review-excellence` (22K), `python-testing-patterns` (24K) |
+| [Testing & QA](/hermes/skills/catalog/) | 4 | `webapp-testing` (92K), `e2e-testing-patterns` (18K) |
+| [Content & Social](/hermes/skills/catalog/) | 5 | `persona-content-creator` (17K), `social-publisher` (3K) |
+| [AI Media](/hermes/skills/catalog/) | 5 | `frontend-design` (521K), `video-edit` (217K) |
+| [Operations & Productivity](/hermes/skills/catalog/) | 5 | `email-to-task` (18K), `changelog-automation` (9K) |
+| [Orchestration & RAG](/hermes/skills/catalog/) | 6 | `rag-implementation` (9.5K), `langchain-rag` (8.6K) |
+| [Infrastructure & DevOps](/hermes/skills/catalog/) | 5 | `neon-postgres` (40.3K), `docker-expert` (18.9K) |
+| [Platform Integrations](/hermes/skills/catalog/) | 11 | `notion-api` (42.1K), `agent-email-inbox` (3.3K) |
+| [Communication Bots](/hermes/skills/catalog/) | 4 | `whatsapp-automation` (3.4K), `telegram-bot` (3.1K) |
+| [Hermes Agent Variants](/hermes/skills/catalog/) | 30 | `dogfood` (3.6K), `claude-code` (131) |
+| [Hermes Ecosystem](/hermes/skills/catalog/) | 53 | `hermes-webui-agent` (193), `hermes-desktop-companion` (152) |
+| [Security Suite](/hermes/skills/catalog/) | 16 | `skill-auditor` (590), `setup-auditor` (384) |
 
 ### Check Trending Skills
 

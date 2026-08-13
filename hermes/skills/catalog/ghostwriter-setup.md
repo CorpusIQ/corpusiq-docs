@@ -40,7 +40,7 @@ Or inside Hermes:
 | Requirement | Details |
 |---|---|
 | **Google Workspace Auth** | Gmail API access must be configured. Verify with: `GAPI="$HOME/.hermes/hermes-agent/venv/bin/python3 $HOME/.hermes/skills/productivity/google-workspace/scripts/gmail.py"` |
-| **Hermes Agent** | v0.14.0+ for cron-based watchdog support |
+| **Hermes Agent** | v0.20.0+ for cron-based watchdog support |
 | **Target Contact** | Email address of the VIP contact to auto-reply to |
 
 ---

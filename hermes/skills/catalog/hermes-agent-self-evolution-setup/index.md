@@ -26,7 +26,7 @@ npx skills add aradotso/hermes-skills --skill hermes-agent-self-evolution -g -y
 
 | Requirement | Details |
 |---|---|
-| **Hermes Agent** | v0.16.0+ |
+| **Hermes Agent** | v0.20.0+ |
 | **Skill Directory** | `~/.hermes/profiles/<profile>/skills/` must be writable |
 | **Session DB** | Active session database with at least 5 past sessions |
 

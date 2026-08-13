@@ -35,7 +35,7 @@ npm install mcp-use
 |---|---|
 | **Python** | 3.10+ for Python SDK |
 | **Node.js** | 18+ for TypeScript SDK |
-| **Hermes Agent** | v0.16.0+ with MCP support |
+| **Hermes Agent** | v0.20.0+ with MCP support |
 | **MCP Inspector** | Optional — for debugging MCP servers |
 
 ---

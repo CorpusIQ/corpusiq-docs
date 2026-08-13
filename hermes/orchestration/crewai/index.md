@@ -41,7 +41,7 @@ CrewAI defines *who* does *what*. Hermes provides *how*  --  model selection, to
 
 ### Prerequisites
 
-- Hermes v0.16.0 or later installed and configured
+- Hermes v0.20.0 or later installed and configured
 - Python 3.11+
 - CrewAI package (`crewai` and `crewai[tools]`)
 - At least one configured LLM provider in Hermes

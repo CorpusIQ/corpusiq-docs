@@ -10,7 +10,7 @@ tags:
   - approval workflows
   - AI agent
   - operations
-last_updated: "2026-06-16"
+last_updated: "2026-08-12"
 ---
 
 # Hermes Agent for Mid-Market

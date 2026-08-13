@@ -6,7 +6,7 @@ Either the connector isn't listed, or it's listed but every query
 fails.
 
 The happy path is in
-[../quickstart/03-connect-chatgpt.md](../quickstart/03-connect-chatgpt.md).
+[../quick-start.md](../quick-start.md).
 This page covers what to do when it didn't work.
 
 ## Cause 1: The custom GPT was saved without the action
@@ -26,7 +26,7 @@ gave you, ChatGPT can't reach the server.
 
 **How to check:** Compare the URL in your action config to the exact
 URL in
-[../quickstart/03-connect-chatgpt.md](../quickstart/03-connect-chatgpt.md).
+[../quick-start.md](../quick-start.md).
 Character for character. Trailing slashes matter. `http` vs `https`
 matters.
 

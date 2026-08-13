@@ -47,7 +47,7 @@ npx skills add garrytan/gbrain/concept-synthesis
 | **GBrain installed** | `git clone https://github.com/garrytan/gbrain.git ~/corpusiq-brain && cd ~/corpusiq-brain && bun install` |
 | **Bun runtime** | GBrain requires Bun. Install: `curl -fsSL https://bun.sh/install | bash` |
 | **OpenAI-compatible endpoint** | For cross-modal-review: any OpenAI-compatible API (local Ollama, DeepSeek, Anthropic via proxy) |
-| **Hermes Agent** | v0.16.0+ recommended for full skill compatibility |
+| **Hermes Agent** | v0.20.0+ recommended for full skill compatibility |
 | **Perplexity API key** | Required for perplexity-research skill only. Set `PERPLEXITY_API_KEY` in env. |
 
 ---

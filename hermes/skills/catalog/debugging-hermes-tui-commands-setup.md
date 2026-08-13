@@ -95,7 +95,7 @@ curl -s http://localhost:$(hermes gateway port)/health
 
 | Requirement | Details |
 |-------------|---------|
-| Hermes Agent | v0.16.0+ (TUI-enabled) |
+| Hermes Agent | v0.20.0+ (TUI-enabled) |
 | Node.js | 18+ (for Ink/TypeScript frontend) |
 | Terminal | TUI-capable (iTerm2, Kitty, WezTerm, Windows Terminal) |
 

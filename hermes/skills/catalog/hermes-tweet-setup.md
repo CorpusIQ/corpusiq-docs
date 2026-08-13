@@ -22,7 +22,7 @@ Hermes Tweet is a native Hermes Agent plugin for X/Twitter automation built on X
 
 ## Prerequisites
 
-- Hermes Agent v0.15.0+
+- Hermes Agent v0.20.0+
 - Python 3.10+
 - X/Twitter account with API access (via Xquik)
 

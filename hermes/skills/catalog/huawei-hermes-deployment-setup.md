@@ -26,7 +26,7 @@ npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-flexus-l-serv
 |---|---|
 | **Huawei Cloud Account** | Flexus L-series instance with at least 4 vCPUs, 8GB RAM |
 | **Docker & Docker Compose** | Installed on the Flexus instance |
-| **Hermes Agent** | v0.16.0+ |
+| **Hermes Agent** | v0.20.0+ |
 | **Domain (optional)** | For HTTPS access to Hermes Web UI |
 | **ARM64 or x86_64** | Template supports both architectures |
 

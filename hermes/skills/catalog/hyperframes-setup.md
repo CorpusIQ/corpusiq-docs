@@ -29,7 +29,7 @@ The HyperFrames ecosystem dependencies (gsap, media, registry, CLI) are bundled 
 
 | Requirement | Details |
 |---|---|
-| **Hermes Agent** | v0.16.0+ (June 2026 release) |
+| **Hermes Agent** | v0.20.0+ (June 2026 release) |
 | **HyperFrames SDK** | Bundled  --  no separate install needed |
 | **Browser runtime** | Chromium-based browser for HTML canvas rendering (bundled or system) |
 | **FFmpeg** | For video encoding/export (system install: `apt install ffmpeg` or `brew install ffmpeg`) |

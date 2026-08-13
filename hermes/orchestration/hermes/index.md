@@ -9,7 +9,7 @@ Hermes serves as the platform's primary orchestration framework and execution en
 
 ## Version History
 
-Deployed from v0.15.1 to v0.16.0, incorporating 426 commits:
+Deployed from v0.20.0 to v0.20.0, incorporating 426 commits:
 
 - Model switching with fallback chains
 - Browser and computer-use tooling

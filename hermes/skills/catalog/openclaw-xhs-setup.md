@@ -33,7 +33,7 @@ npm install
 | Requirement | Details |
 |---|---|
 | **Node.js** | 18+ |
-| **Hermes Agent** or **OpenClaw** | v0.16.0+ (Hermes) or latest OpenClaw |
+| **Hermes Agent** or **OpenClaw** | v0.20.0+ (Hermes) or latest OpenClaw |
 | **Xiaohongshu account** | Required for authenticated API access |
 | **MCP support** | Both Hermes and OpenClaw support MCP natively |
 

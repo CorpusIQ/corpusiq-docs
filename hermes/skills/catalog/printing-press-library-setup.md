@@ -26,7 +26,7 @@ After install, reload skills:
 
 | Requirement | Details |
 |-------------|---------|
-| Hermes Agent | v0.16.0+ |
+| Hermes Agent | v0.20.0+ |
 | wkhtmltopdf (optional) | For PDF rendering: `apt install wkhtmltopdf` |
 | Puppeteer (optional) | Alternative PDF engine: `npm install puppeteer` |
 

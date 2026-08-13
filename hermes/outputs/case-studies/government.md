@@ -10,7 +10,7 @@ tags:
   - compliance reporting
   - AI agent
   - public sector
-last_updated: "2026-06-16"
+last_updated: "2026-08-12"
 ---
 
 # Hermes Agent Government Automation

@@ -23,7 +23,7 @@ AgentCairn provides long-term, cross-project memory for AI coding agents. Instea
 
 ## Prerequisites
 
-- Hermes Agent v0.15.0+
+- Hermes Agent v0.20.0+
 - Python 3.10+
 - Obsidian vault (existing or new)
 - 500MB+ free disk space

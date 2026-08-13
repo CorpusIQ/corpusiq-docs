@@ -43,7 +43,7 @@ Rough Idea
 
 ## Prerequisites
 
-- Hermes Agent v0.16.0 or later
+- Hermes Agent v0.20.0 or later
 - Node.js 18+ (for `npx skills`)
 - An active project/idea to spec out
 

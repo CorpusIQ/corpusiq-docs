@@ -12,7 +12,7 @@ tags:
   - SOX
   - compliance
   - AI agent
-last_updated: "2026-06-16"
+last_updated: "2026-08-12"
 ---
 
 # Hermes Agent for Enterprise

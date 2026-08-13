@@ -26,7 +26,7 @@ npx skills add nousresearch/hermes-agent --skill yuanbao -g -y
 
 | Requirement | Details |
 |---|---|
-| **Hermes Agent** | v0.16.0+ |
+| **Hermes Agent** | v0.20.0+ |
 | **Yuanbao Gateway** | Configured in `config.yaml` under `gateway.platforms.yuanbao` |
 | **Group Access** | The bot must be a member of the target Yuanbao group |
 

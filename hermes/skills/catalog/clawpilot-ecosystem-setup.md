@@ -34,7 +34,7 @@ npx skills add rethinking-studio/clawpilot-skills --skill clawpilot-doctor
 | Requirement | Details |
 |---|---|
 | **PocketClaw iOS app** | Install from App Store on iPhone/iPad |
-| **Hermes Agent** | v0.16.0+ with API server enabled |
+| **Hermes Agent** | v0.20.0+ with API server enabled |
 | **API server key** | Set in `~/.hermes/.env`: `API_SERVER_ENABLED=true`, `API_SERVER_KEY=<your-key>` |
 | **Network** | Host and phone on same local network, or use Tailscale for remote access |
 

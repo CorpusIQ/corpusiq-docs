@@ -65,7 +65,7 @@ cp -r /tmp/hermes-agent/skills/research/research-paper-writing ~/.hermes/skills/
 
 | Requirement | Details |
 |-------------|---------|
-| Hermes Agent | v0.14.0+ |
+| Hermes Agent | v0.20.0+ |
 | Python | 3.10+ with numpy, scipy, matplotlib |
 | LaTeX | texlive-full (recommended for PDF output) |
 | GPU access | Optional — for experiment execution |

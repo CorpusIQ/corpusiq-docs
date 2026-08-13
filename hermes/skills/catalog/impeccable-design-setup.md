@@ -36,7 +36,7 @@ After install:
 
 | Requirement | Details |
 |---|---|
-| **Hermes Agent** | v0.16.0+ |
+| **Hermes Agent** | v0.20.0+ |
 | **Node.js** | v18+ for `npx` install |
 | **Browser** | Required for live mode visual iteration |
 

@@ -24,7 +24,7 @@ npx skills add nvidia/skills --skill nemoclaw-user-guide
 
 | Requirement | Details |
 |---|---|
-| **Hermes Agent** | v0.16.0+ with OpenClaw runtime support |
+| **Hermes Agent** | v0.20.0+ with OpenClaw runtime support |
 | **NemoClaw Runtime** | Installed alongside the skill — provides the hardened execution layer |
 | **Audit Log Storage** | Local directory or S3 bucket for agent audit trails |
 

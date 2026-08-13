@@ -70,7 +70,7 @@ The skill activates when Hermes encounters songwriting, music composition, or ly
 
 | Requirement | Details |
 |-------------|---------|
-| Hermes Agent | v0.14.0+ |
+| Hermes Agent | v0.20.0+ |
 | Optional: AI music tool | Suno, Udio, or similar for audio generation |
 
 ---

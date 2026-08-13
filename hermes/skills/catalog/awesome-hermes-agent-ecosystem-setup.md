@@ -40,7 +40,7 @@ git clone https://github.com/0xNyk/awesome-hermes-agent.git
 ## What Makes Hermes Agent Unique
 
 - **Built-in learning loop** — creates skills from experience and improves them during use
-- **Autonomous Curator (v0.12.0+)** — maintains its own skill library with 7-day grade/consolidate/prune cycles
+- **Autonomous Curator (v0.20.0+)** — maintains its own skill library with 7-day grade/consolidate/prune cycles
 - **18 messaging platforms** — Telegram, Discord, Slack, WhatsApp, Signal, Feishu/Lark, WeCom, QQBot, Yuanbao, and more
 - **7 terminal backends** — local, Docker, SSH, Singularity, Modal, Daytona, Vercel Sandbox
 - **Conversational memory** — searches past conversations and builds user model across sessions

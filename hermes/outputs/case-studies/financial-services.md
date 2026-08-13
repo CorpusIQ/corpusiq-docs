@@ -10,7 +10,7 @@ tags:
   - regulatory filing
   - AI agent
   - fintech automation
-last_updated: "2026-06-16"
+last_updated: "2026-08-12"
 ---
 
 # Hermes Agent Financial Services Automation
