@@ -35522,5 +35522,250 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-12T08:11:04.301858+00:00",
     "status": "pending"
+  },
+  {
+    "name": "liujun2051/tinux",
+    "url": "https://github.com/liujun2051/tinux",
+    "description": "AI-Agent Friendly Linux Shell for Windows, where Claude Code, Codex, OpenClaw, Hermes run smoothly.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-13T05:03:00Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "farion1231/cc-switch",
+      "iOfficeAI/AionUi",
+      "itechmeat/open-second-brain",
+      "uzairansaruzi/robinhood-agent-skill",
+      "tale-project/tale",
+      "AVIDS2/memorix"
+    ],
+    "discovered_at": "2026-08-13T05:03:55.136062+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Neal86/Hermes-Control-Center",
+    "url": "https://github.com/Neal86/Hermes-Control-Center",
+    "description": "A standalone control center for Hermes Agent \u2014 manage Agents, Tasks, Projects, WeChat Desktop, runtime health, and automation from one dashboard.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-13T04:59:54Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-13T05:03:58.138678+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Manojmelattur/trading-toolkit",
+    "url": "https://github.com/Manojmelattur/trading-toolkit",
+    "description": "Unified trading toolkit: delta-cli, Delta-MCP, xausd, hermes_toolkit, delta_SMA_RSI",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-13T04:56:25Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-13T05:04:07.889938+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "techroy23/mcp_kitsune",
+    "url": "https://github.com/techroy23/mcp_kitsune",
+    "description": "A Docker Compose stack that gives AI agents (and scripts) two things they usually cannot get with a plain HTTP library: **search results that are not CAPTCHA-blocked** and **page text from sites that block scrapers**. It runs locally, exposes everything over one MCP endpoint, and works with Hermes, Claude Code, and OpenCode out of the box.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-13T04:40:03Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "1Panel-dev/1Panel",
+      "MervinPraison/PraisonAI",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "CYC2002tommy/Deep-Research-Agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "ahonore42/logios-brain",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-13T05:04:10.894168+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "xXLODXx/hermes-skill-router",
+    "url": "https://github.com/xXLODXx/hermes-skill-router",
+    "description": "Hermes plugin: task-aware, self-learning skill discovery \u2014 injects relevant skills, learns from tool results & LLM replies (flag-gated), dashboard with causal lift visualization",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "hermes",
+      "hermes-plugin",
+      "plugin",
+      "skill-routing",
+      "skills"
+    ],
+    "updated_at": "2026-08-12T20:49:49Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-13T05:04:20.678042+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "e8kor/agentic-foundation",
+    "url": "https://github.com/e8kor/agentic-foundation",
+    "description": "Portable, dependency-free agent skill framework: self-managing skills/memory/profile + open plugin extensions. Copilot/Claude/Codex/Hermes compatible.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-12T20:28:34Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-13T05:04:23.681833+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Ai-Whisperers/infrastructure",
+    "url": "https://github.com/Ai-Whisperers/infrastructure",
+    "description": "AI Whisperers infrastructure documentation \u2014 Hermes Agent, Docker Swarm, Hostinger VPS, MCPs, plugins, skills, cron, configurations, and community improvements",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-08-12T19:52:29Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills"
+    ],
+    "discovered_at": "2026-08-13T05:04:26.685472+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "xujfcn/crazyrouter-hermes",
+    "url": "https://github.com/xujfcn/crazyrouter-hermes",
+    "description": "Use Hermes Agent (NousResearch) with Crazyrouter \u2014 600+ AI models, 30-50% cheaper than OpenRouter",
+    "stars": 6,
+    "forks": 2,
+    "language": "Shell",
+    "topics": [
+      "ai-agent",
+      "crazyrouter",
+      "crazyrouter-integration",
+      "hermes-agent",
+      "llm",
+      "nousresearch"
+    ],
+    "updated_at": "2026-08-13T03:07:15Z",
+    "category": "official",
+    "score": 68,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-13T05:05:56.704054+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Jeagermeister/Hermes-Cpp",
+    "url": "https://github.com/Jeagermeister/Hermes-Cpp",
+    "description": "Fast local-first agent supervisor in C/C++ for Ollama models doing filesystem work. Inspired by NousResearch Hermes Agent, not a port of it.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-13T01:11:08Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "awesome-hermes-agent",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-08-13T05:05:59.707594+00:00",
+    "status": "pending"
   }
 ]

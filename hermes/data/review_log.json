@@ -8740,5 +8740,68 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-12T08:13:01.358790+00:00"
+  },
+  {
+    "repo": "liujun2051/tinux",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T05:06:29.103785+00:00"
+  },
+  {
+    "repo": "Neal86/Hermes-Control-Center",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T05:06:29.103798+00:00"
+  },
+  {
+    "repo": "Manojmelattur/trading-toolkit",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T05:06:29.103801+00:00"
+  },
+  {
+    "repo": "techroy23/mcp_kitsune",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T05:06:29.103803+00:00"
+  },
+  {
+    "repo": "xXLODXx/hermes-skill-router",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T05:06:29.103805+00:00"
+  },
+  {
+    "repo": "e8kor/agentic-foundation",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T05:06:29.103807+00:00"
+  },
+  {
+    "repo": "Ai-Whisperers/infrastructure",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T05:06:29.103809+00:00"
+  },
+  {
+    "repo": "xujfcn/crazyrouter-hermes",
+    "score": 68,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T05:06:29.103811+00:00"
+  },
+  {
+    "repo": "Jeagermeister/Hermes-Cpp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T05:06:29.103813+00:00"
   }
 ]
