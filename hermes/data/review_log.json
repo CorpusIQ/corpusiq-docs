@@ -8803,5 +8803,54 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-13T05:06:29.103813+00:00"
+  },
+  {
+    "repo": "falke-ai-circuit/probe",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T06:14:05.846563+00:00"
+  },
+  {
+    "repo": "coolifystealthagents/virtualassistantcallcenter",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T06:14:05.846576+00:00"
+  },
+  {
+    "repo": "coolifystealthagents/outsourcingassistant",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T06:14:05.846578+00:00"
+  },
+  {
+    "repo": "phongsun01/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T06:14:05.846580+00:00"
+  },
+  {
+    "repo": "TKaxv-7S/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T06:14:05.846582+00:00"
+  },
+  {
+    "repo": "dot-agi/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T06:14:05.846584+00:00"
+  },
+  {
+    "repo": "NI-SW/hermes-webui",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-13T06:14:05.846586+00:00"
   }
 ]
