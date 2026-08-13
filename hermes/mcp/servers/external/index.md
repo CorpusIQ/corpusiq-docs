@@ -12,7 +12,29 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 12, 2026 (afternoon sweep) · **Sources:** mcpservers.org /all pages 1–3 (90 servers scanned), mcp.so Feed (30 submissions), mcp.so server detail pages · **Catalog:** 162 servers (+58 guides)
+> **Last updated:** August 12, 2026 (evening sweep) · **Sources:** mcpservers.org /all page 1, mcp.so Feed (33 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 166 servers (+61 guides)
+
+---
+
+## 🆕 August 12, 2026 — Evening Sweep (4 New, 3 Guides)
+
+Follow-up to the afternoon sweep (~3 hours later). Scanned mcpservers.org /all page 1 (30 newest) and mcp.so Feed (33 newest submissions). 4 new business-relevant servers found — consulting-grade deliverable generation, field-service ERP with a write-capable MCP surface, AI-search-visibility tooling, and self-hosted task management. [Full sweep report →](/hermes/mcp/sweeps/sweep-august12-2026-evening.md)
+
+### EM+x MCP ★★★ — August 12 evening
+Board-ready deliverables from chat — steering-committee readouts, executive briefs, market scans, and QBR decks built by an agentic consulting team on your own templates. Storyline approved before drafting; deterministic quality gates + adversarial partner review before delivery; native .pptx/.docx on your slide masters, palette, and fonts. 33 tools, Streamable HTTP, OAuth. Free: 1 project + 5 revisions/mo; paid from $8/mo. `emplusx.com/api/mcp` (commercial) · [Guide →](/hermes/mcp/servers/external/em-x-mcp/)
+
+### ATLASS OS MCP ★★★ — August 12 evening
+Field-service business platform (CRM, scheduling, jobs, double-entry books, banking, GST, payables, payroll, inventory) with a native hosted MCP surface — 58 tools, 35 write-capable, 32 permission scopes. Tokens minted in-app; every financial write posts balanced double-entry to an append-only audit log; no payment rail by design. First field-service platform with a working MCP surface. `app.atlass-os.com/mcp` (commercial, founding-stage) · [Guide →](/hermes/mcp/servers/external/atlass-os-mcp/)
+
+### CiteRank MCP ★★★ — August 12 evening
+AI search visibility platform — audits why AI answer engines won't cite a brand, then hands the fix. 5 tools: URL AI-visibility audits (schema, E-E-A-T, agentic readiness), brand citation checks across Google AI Overviews/Gemini, JSON-LD schema generation, agentic-readiness tests, and agent-journey simulation. Purpose-built for GEO/AEO programs. `citerankscore.com/api/mcp-server` (commercial) · [Guide →](/hermes/mcp/servers/external/citerank-mcp/)
+
+### QTask MCP ★★ — August 12 evening (catalog entry)
+Open-source task/project management with a built-in MCP server — list/create/update tasks and projects, staged write approval (AI proposes, human approves), semantic search. Self-hosted with Docker + Ollama; hosted qtask.dev available. OAuth/JWT. `github.com/dbeasty/qtask` (open source)
+
+**Also identified (not catalogued):** SceneF (SF movie showtimes — consumer), LabTestSuperstore (lab supplies — noted afternoon), AgentBrink (agent identity infra), swag2mcp (OpenAPI→MCP bridge — dev tool), US Stocks & Market Data (gino.im — overlaps catalogued ROIC.ai), PyPI MCP, King Crimson MCP, plus ~10 dev-tool/utility entries. The ~30-entry single-author rudrendupaul burst on mcpservers.org /all page 1 was excluded per the catalog-spam doctrine. Clipkit (Feed, 12h) was already covered by the Aug 12 morning sweep's guide.
+
+**Key observation:** The ecosystem is splitting into two layers — (1) executive-output tools (EM+x) that turn raw agent conversation into board-ready artifacts behind human approval gates, and (2) vertical ERP surfaces (ATLASS OS) where the write path and the audit trail are the product. Both extend the human-gate pattern the afternoon sweep spotted (Prose Coach, BanProof, Plainpaper) from content to deliverables and money.
 
 ---
 
@@ -3221,3 +3243,9 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Stratyfix MCP — Sales Intelligence for AI Agents](/docs/hermes/mcp/servers/external/stratyfix-mcp/index.html)
 - [FlowyTeam OKR MCP — Objectives & Key Results for AI Agents](/docs/hermes/mcp/servers/external/flowyteam-okr-mcp/index.html)
 - [QuestDB MCP Server — Time-Series Database Queries for AI Agents](/docs/hermes/mcp/servers/external/questdb-mcp/index.html)
+
+### 3 new servers from mcpservers.org /all + mcp.so Feed — Aug 12, 2026 (evening sweep)
+
+- [EM+x MCP — Board-Ready Consulting Deliverables from Chat](/docs/hermes/mcp/servers/external/em-x-mcp/index.html)
+- [ATLASS OS MCP — Field-Service ERP with Double-Entry Books for AI Agents](/docs/hermes/mcp/servers/external/atlass-os-mcp/index.html)
+- [CiteRank MCP — AI Search Visibility & GEO Audits for AI Agents](/docs/hermes/mcp/servers/external/citerank-mcp/index.html)
