@@ -9997,7 +9997,7 @@
 <h2 id="pattern-1-output-quality-reflexion">Pattern 1: Output Quality Reflexion<a class="headerlink" href="#pattern-1-output-quality-reflexion" title="Anchor link to this section">&para;</a></h2>
 <p>The most common pattern. After generating output, evaluate it against criteria, and refine if needed.</p>
 <h3 id="implementation">Implementation<a class="headerlink" href="#implementation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">reflexion_loop</span><span class="p">(</span><span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">criteria</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">max_iterations</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">reflexion_loop</span><span class="p">(</span><span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">criteria</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">max_iterations</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Execute a task with Reflexion-based quality improvement.</span>
 
@@ -10076,7 +10076,7 @@
 </code></pre></div>
 <h2 id="pattern-2-factual-verification-reflexion">Pattern 2: Factual Verification Reflexion<a class="headerlink" href="#pattern-2-factual-verification-reflexion" title="Anchor link to this section">&para;</a></h2>
 <p>For outputs where factual accuracy is critical  --  claims must be verified against sources.</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">factual_reflexion</span><span class="p">(</span><span class="n">claim</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">sources</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">factual_reflexion</span><span class="p">(</span><span class="n">claim</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">sources</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Verify claims against sources and refine if necessary.</span>
 <span class="sd">    Returns: {&quot;output&quot;: str, &quot;verified&quot;: bool, &quot;issues&quot;: list}</span>
@@ -10125,7 +10125,7 @@
 <p>Factual verification adds 1-2 additional LLM calls per iteration. For high-stakes content, this is negligible compared to the cost of publishing incorrect information.</p>
 <h2 id="pattern-3-strategy-adjustment-reflexion">Pattern 3: Strategy Adjustment Reflexion<a class="headerlink" href="#pattern-3-strategy-adjustment-reflexion" title="Anchor link to this section">&para;</a></h2>
 <p>Instead of just fixing the output, the agent changes <em>how</em> it approaches the task.</p>
-<div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">StrategyReflexion</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">class</span><span class="w"> </span><span class="nc">StrategyReflexion</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    The agent maintains a strategy stack. On failure, it doesn&#39;t just</span>
 <span class="sd">    tweak the output  --  it changes the strategy.</span>
@@ -10141,7 +10141,7 @@
         <span class="s2">&quot;counterfactual&quot;</span><span class="p">,</span>       <span class="c1"># Explore what-if scenarios</span>
     <span class="p">]</span>
 
-    <span class="k">def</span> <span class="nf">execute</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">execute</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
         <span class="n">attempted_strategies</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="n">best_output</span> <span class="o">=</span> <span class="kc">None</span>
         <span class="n">best_score</span> <span class="o">=</span> <span class="mi">0</span>
@@ -10180,7 +10180,7 @@
         <span class="k">return</span> <span class="n">best_output</span>
 </code></pre></div>
 <h3 id="strategy-selection-logic">Strategy Selection Logic<a class="headerlink" href="#strategy-selection-logic" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">_select_strategy</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">history</span><span class="p">:</span> <span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">_select_strategy</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">history</span><span class="p">:</span> <span class="nb">list</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
     <span class="n">tried</span> <span class="o">=</span> <span class="p">{</span><span class="n">h</span><span class="p">[</span><span class="s2">&quot;strategy&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">h</span> <span class="ow">in</span> <span class="n">history</span><span class="p">}</span>
 
     <span class="c1"># Analyze the task to determine appropriate strategies</span>
@@ -10217,7 +10217,7 @@
     <span class="s2">&quot;actionability&quot;</span><span class="p">:</span> <span class="s2">&quot;Evaluate actionability. Can the reader act on this information?&quot;</span><span class="p">,</span>
 <span class="p">}</span>
 
-<span class="k">def</span> <span class="nf">multi_evaluator_reflexion</span><span class="p">(</span><span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">active_evaluators</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">multi_evaluator_reflexion</span><span class="p">(</span><span class="n">task</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">active_evaluators</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Run Reflexion with multiple evaluator perspectives.&quot;&quot;&quot;</span>
     <span class="k">for</span> <span class="n">iteration</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
         <span class="n">output</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>

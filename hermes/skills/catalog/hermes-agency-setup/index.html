@@ -10410,12 +10410,12 @@ agentanycast<span class="w"> </span>discover<span class="w"> </span>translate
 <hr />
 <h2 id="framework-adapters">Framework Adapters<a class="headerlink" href="#framework-adapters" title="Anchor link to this section">&para;</a></h2>
 <p>Turn existing frameworks into P2P agents with one function call:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">agentanycast.adapters.crewai</span> <span class="kn">import</span> <span class="n">serve_crew</span>
-<span class="kn">from</span> <span class="nn">agentanycast.adapters.langgraph</span> <span class="kn">import</span> <span class="n">serve_graph</span>
-<span class="kn">from</span> <span class="nn">agentanycast.adapters.adk</span> <span class="kn">import</span> <span class="n">serve_adk_agent</span>
-<span class="kn">from</span> <span class="nn">agentanycast.adapters.openai_agents</span> <span class="kn">import</span> <span class="n">serve_openai_agent</span>
-<span class="kn">from</span> <span class="nn">agentanycast.adapters.claude_agent</span> <span class="kn">import</span> <span class="n">serve_claude_agent</span>
-<span class="kn">from</span> <span class="nn">agentanycast.adapters.strands</span> <span class="kn">import</span> <span class="n">serve_strands_agent</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.adapters.crewai</span><span class="w"> </span><span class="kn">import</span> <span class="n">serve_crew</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.adapters.langgraph</span><span class="w"> </span><span class="kn">import</span> <span class="n">serve_graph</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.adapters.adk</span><span class="w"> </span><span class="kn">import</span> <span class="n">serve_adk_agent</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.adapters.openai_agents</span><span class="w"> </span><span class="kn">import</span> <span class="n">serve_openai_agent</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.adapters.claude_agent</span><span class="w"> </span><span class="kn">import</span> <span class="n">serve_claude_agent</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.adapters.strands</span><span class="w"> </span><span class="kn">import</span> <span class="n">serve_strands_agent</span>
 
 <span class="k">await</span> <span class="n">serve_crew</span><span class="p">(</span><span class="n">crew</span><span class="p">,</span> <span class="n">card</span><span class="o">=</span><span class="n">card</span><span class="p">,</span> <span class="n">relay</span><span class="o">=</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
 <span class="k">await</span> <span class="n">serve_graph</span><span class="p">(</span><span class="n">graph</span><span class="p">,</span> <span class="n">card</span><span class="o">=</span><span class="n">card</span><span class="p">,</span> <span class="n">relay</span><span class="o">=</span><span class="s2">&quot;...&quot;</span><span class="p">)</span>
@@ -10427,20 +10427,20 @@ agentanycast<span class="w"> </span>discover<span class="w"> </span>translate
 <hr />
 <h2 id="interoperability">Interoperability<a class="headerlink" href="#interoperability" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># W3C DID</span>
-<span class="kn">from</span> <span class="nn">agentanycast.did</span> <span class="kn">import</span> <span class="n">peer_id_to_did_key</span><span class="p">,</span> <span class="n">did_key_to_peer_id</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.did</span><span class="w"> </span><span class="kn">import</span> <span class="n">peer_id_to_did_key</span><span class="p">,</span> <span class="n">did_key_to_peer_id</span>
 <span class="n">did</span> <span class="o">=</span> <span class="n">peer_id_to_did_key</span><span class="p">(</span><span class="s2">&quot;12D3KooW...&quot;</span><span class="p">)</span>      <span class="c1"># &quot;did:key:z6Mk...&quot;</span>
 <span class="n">pid</span> <span class="o">=</span> <span class="n">did_key_to_peer_id</span><span class="p">(</span><span class="s2">&quot;did:key:z6Mk...&quot;</span><span class="p">)</span>  <span class="c1"># &quot;12D3KooW...&quot;</span>
 
 <span class="c1"># MCP Tool ↔ A2A Skill mapping</span>
-<span class="kn">from</span> <span class="nn">agentanycast.mcp</span> <span class="kn">import</span> <span class="n">mcp_tools_to_agent_card</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.mcp</span><span class="w"> </span><span class="kn">import</span> <span class="n">mcp_tools_to_agent_card</span>
 <span class="n">card</span> <span class="o">=</span> <span class="n">mcp_tools_to_agent_card</span><span class="p">(</span><span class="n">mcp_tools</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;MCPAgent&quot;</span><span class="p">)</span>
 
 <span class="c1"># A2A v1.0 JSON format</span>
-<span class="kn">from</span> <span class="nn">agentanycast.compat.a2a_v1</span> <span class="kn">import</span> <span class="n">task_to_a2a_json</span><span class="p">,</span> <span class="n">task_from_a2a_json</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.compat.a2a_v1</span><span class="w"> </span><span class="kn">import</span> <span class="n">task_to_a2a_json</span><span class="p">,</span> <span class="n">task_from_a2a_json</span>
 
 <span class="c1"># OASF / AGNTCY Directory</span>
-<span class="kn">from</span> <span class="nn">agentanycast.compat.oasf</span> <span class="kn">import</span> <span class="n">card_to_oasf_record</span>
-<span class="kn">from</span> <span class="nn">agentanycast.compat.agntcy</span> <span class="kn">import</span> <span class="n">AGNTCYDirectory</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.compat.oasf</span><span class="w"> </span><span class="kn">import</span> <span class="n">card_to_oasf_record</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">agentanycast.compat.agntcy</span><span class="w"> </span><span class="kn">import</span> <span class="n">AGNTCYDirectory</span>
 </code></pre></div>
 <hr />
 <h2 id="validation">Validation<a class="headerlink" href="#validation" title="Anchor link to this section">&para;</a></h2>

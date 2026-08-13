@@ -10817,13 +10817,13 @@ hermes<span class="w"> </span>cron<span class="w"> </span><span class="nb">histo
 </code></pre></div>
 <p><strong>Fix:</strong> Every cron job must include an outcome validation step:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Bad: Just tracks exit code</span>
-<span class="k">def</span> <span class="nf">my_cron_job</span><span class="p">():</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">my_cron_job</span><span class="p">():</span>
     <span class="n">result</span> <span class="o">=</span> <span class="n">do_something</span><span class="p">()</span>
     <span class="c1"># If do_something() returned None due to an error it caught,</span>
     <span class="c1"># cron sees exit 0 and marks success</span>
 
 <span class="c1"># Good: Validates actual output</span>
-<span class="k">def</span> <span class="nf">my_cron_job</span><span class="p">():</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">my_cron_job</span><span class="p">():</span>
     <span class="n">result</span> <span class="o">=</span> <span class="n">do_something</span><span class="p">()</span>
     <span class="k">if</span> <span class="ow">not</span> <span class="n">result</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">result</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;success&quot;</span><span class="p">):</span>
         <span class="k">raise</span> <span class="n">CronFailureError</span><span class="p">(</span><span class="s2">&quot;Job produced no valid output&quot;</span><span class="p">)</span>
@@ -10930,7 +10930,7 @@ nslookup<span class="w"> </span>target-site.com
 <h3 id="symptom-target-closed-mid-operation">Symptom: "Target closed" mid-operation<a class="headerlink" href="#symptom-target-closed-mid-operation" title="Anchor link to this section">&para;</a></h3>
 <p>The page navigated away or closed unexpectedly.</p>
 <p><strong>Fix:</strong> Re-navigate and snapshot before interacting:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">safe_interact</span><span class="p">(</span><span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">action</span><span class="p">:</span> <span class="nb">callable</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">safe_interact</span><span class="p">(</span><span class="n">url</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">action</span><span class="p">:</span> <span class="nb">callable</span><span class="p">):</span>
     <span class="k">for</span> <span class="n">attempt</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
         <span class="k">try</span><span class="p">:</span>
             <span class="n">page</span> <span class="o">=</span> <span class="n">browser</span><span class="o">.</span><span class="n">navigate</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
