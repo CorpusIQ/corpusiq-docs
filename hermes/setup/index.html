@@ -9807,6 +9807,23 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Quick Start (Any Machine)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#option-hermes-desktop-app-macos-windows-linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Option: Hermes Desktop App (macOS / Windows / Linux)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -10108,6 +10125,17 @@ hermes<span class="w"> </span>--version
 hermes<span class="w"> </span>doctor
 </code></pre></div>
 <p>That's it. You can now use Hermes Agent interactively. For persistent operation (crons, gateway, messaging), continue to the setup guide for your platform.</p>
+<h3 id="option-hermes-desktop-app-macos-windows-linux">Option: Hermes Desktop App (macOS / Windows / Linux)<a class="headerlink" href="#option-hermes-desktop-app-macos-windows-linux" title="Anchor link to this section">&para;</a></h3>
+<p>Prefer a graphical interface over the terminal? The official <strong>Hermes Desktop</strong> app ships with the Surface Release (v0.16.0+, June 2026) — a native Electron application, not a terminal wrapper:</p>
+<ul>
+<li>One-click install from <a href="https://hermes-agent.nousresearch.com/">hermes-agent.nousresearch.com</a> with in-app self-update</li>
+<li>Proper chat window with streaming, drag-and-drop files, clipboard image paste</li>
+<li>Cmd+K command palette, inline model picker, session archive/search</li>
+<li>Remote gateway support — point at a Hermes running on a VPS or workstation over OAuth</li>
+<li>Concurrent multi-profile sessions with cross-profile <code>@session</code> links</li>
+<li>Full Simplified Chinese UI (switchable in Appearance settings)</li>
+</ul>
+<p>The Desktop app wraps the same Hermes Agent core, so everything below (crons, MCP, skills, memory) works identically. Note: the official desktop app is distinct from third-party companion projects like <code>fathah/hermes-desktop</code>; install the official build from the Nous Research site.</p>
 <h2 id="benefits-of-hermes-agent">Benefits of Hermes Agent<a class="headerlink" href="#benefits-of-hermes-agent" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Provider-agnostic</strong>: Switch between Anthropic, OpenAI, DeepSeek, Ollama, and 200+ models without changing your code</li>
