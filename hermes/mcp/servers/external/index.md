@@ -3,7 +3,7 @@ title: External MCP Server Catalog
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-08-13"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,49 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 37+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 12, 2026 (evening sweep) · **Sources:** mcpservers.org /all page 1, mcp.so Feed (33 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 166 servers (+61 guides)
+> **Last updated:** August 13, 2026 (midday sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (33 submissions), mcp.so + mcpservers.org + GitHub server detail pages · **Catalog:** 174 servers (+68 guides)
+
+---
+
+## 🆕 August 13, 2026 — Midday Sweep (8 New, 7 Guides)
+
+Follow-up to the Aug 13 morning sweep. Scanned mcpservers.org /all pages 1-3 (newest submissions) and mcp.so Feed (33 newest submissions). 8 new business-relevant servers found — social publishing, voice AI, product-marketing automation, human-gated email, EU procurement, domain ops, Polish accounting, and source-grounded video content. [Full sweep report →](/hermes/mcp/sweeps/sweep-august13-2026-midday.md)
+
+### OnePostly MCP ★★★ — August 13 midday
+
+Nine-platform social publishing over MCP — publish, schedule, and read normalized insights across X, Instagram, Facebook, Threads, LinkedIn, TikTok, YouTube, Pinterest, and Reddit. Bearer API keys with read_only variants; wallet-debited X pass-through billing; 9 tools with per-platform validation. `mcp.onepostly.com` (commercial) · [Guide →](/hermes/mcp/servers/external/onepostly-mcp/)
+
+### Shipstar MCP ★★★ — August 13 midday
+
+Product-marketing automation from commits — 21 tools generate changelogs, blog posts, feature pages, KB articles, release emails, X threads, and LinkedIn posts, then route every draft through review, approval, and publish. OAuth 2.1 with per-project scoping. `mcp.shipstar.ai/mcp` (commercial) · [Guide →](/hermes/mcp/servers/external/shipstar-mcp/)
+
+### DialNexa MCP ★★★ — August 13 midday
+
+Voice AI agent platform over MCP — create and manage voice agents, place confirmed outbound calls, run campaigns and batch calls, search and buy numbers, and read dashboard metrics. Every tool classified read-only/state-changing/destructive/billable with approval required before calls or spend. OAuth 2.1 PKCE, workspace-scoped consent. `api.dialnexa.com/v1/mcp` (commercial) · [Guide →](/hermes/mcp/servers/external/dialnexa-mcp/)
+
+### Just Domain MCP ★★ — August 13 midday
+
+Domain availability and pricing checks for AI assistants — first-year AND renewal prices plus a checkout link for justdomain.ai. Read-only by design: no purchase in chat. No auth, Streamable HTTP. `mcp.justdomain.ai` (commercial) · [Guide →](/hermes/mcp/servers/external/just-domain-mcp/)
+
+### Fakto.app wFirma MCP ★★ — August 13 midday
+
+The only MCP for wFirma.pl (Polish accounting) — full read-write across ~45 tools: invoices, contractors, expenses, warehouse, KPiR and ZUS, cashflow forecasts, payment reminders. OAuth 2.0 (RFC 7591). Sister server for Fakturownia.pl. `fakto.app/wfirma/stream` (commercial) · [Guide →](/hermes/mcp/servers/external/fakto-wfirma-mcp/)
+
+### BusyMail MCP ★★ — August 13 midday
+
+IMAP email over MCP with the strongest approval gate observed: a token can never send — it queues, and approval happens while signed in, so the writer and approver can never be the same session. Scoped read/organize/send tokens; accounts stay where they are. Invite-only. `busymail.app/mcp` (commercial) · [Guide →](/hermes/mcp/servers/external/busymail-mcp/)
+
+### TED Tender Monitor ★★ — August 13 midday
+
+EU TED procurement monitoring via an Apify Actor — search notices by CPV, country, keyword, value, or type; persistent tasks deliver only new or changed tenders with dedup state. $0.005 per new tender. 13 example tasks + n8n and Make templates included. `github.com/Telemark-Digital/apify-monitoring-workflows` (unofficial community tool) · [Guide →](/hermes/mcp/servers/external/ted-tender-monitor/)
+
+### KPainter MCP ★★ — August 13 midday (catalog entry)
+
+Source-grounded videos, slides, and interactive knowledge content from your own materials — read-aloud explainer videos from documents. stdio MCP (`kp-mcp` CLI) with API key; `kp_*` tools (kp_me, kp_get_catalog, kp_create_creation, kp_get_job_status, kp_get_creation, kp_edit_creation with scene-level edits). `kpainter.ai` (commercial)
+
+**Also identified (not catalogued):** ViewMade (YouTube research/SEO/video production — listing page is only a support page, no MCP endpoint or tool docs), TrueSend (email marketing ESP — listing page is homepage marketing copy, no MCP surface documented), Folklore Variant Evidence (helena.bio genomics variant classification — healthcare niche), AgentBrink (agent identity infra — already noted Aug 12 evening), plus the usual dev-tool/consumer entries (PyPI MCP, x402 tooling, GetLulu micro-utilities — previously noted). One junk slug on /all page 2 (exposed-port OpenClaw host dump) excluded.
+
+**Key observation:** The human-approval-gate pattern the Aug 12 sweeps flagged in content tools (Prose Coach, BanProof) is now the default architecture across new production MCPs in every domain — BusyMail (token can never send), Shipstar (approve before publish), OnePostly (read_only keys), DialNexa (safety-level classification with approvals before billable or destructive calls). Approval gates moved from content into email, marketing, social, and voice. Second, voice AI gained its first full-platform MCP (DialNexa). Third, EU public procurement surfaced as a vertical (TED Tender Monitor) — the first procurement entry in the catalog.
 
 ---
 
@@ -3249,3 +3291,13 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [EM+x MCP — Board-Ready Consulting Deliverables from Chat](/docs/hermes/mcp/servers/external/em-x-mcp/index.html)
 - [ATLASS OS MCP — Field-Service ERP with Double-Entry Books for AI Agents](/docs/hermes/mcp/servers/external/atlass-os-mcp/index.html)
 - [CiteRank MCP — AI Search Visibility & GEO Audits for AI Agents](/docs/hermes/mcp/servers/external/citerank-mcp/index.html)
+
+### 8 new servers from mcpservers.org /all + mcp.so Feed — Aug 13, 2026 (midday sweep)
+
+- [Just Domain MCP — Domain Availability & Pricing for AI Assistants](/docs/hermes/mcp/servers/external/just-domain-mcp/index.html)
+- [Fakto.app wFirma MCP — Polish Accounting for AI Agents](/docs/hermes/mcp/servers/external/fakto-wfirma-mcp/index.html)
+- [OnePostly MCP — Multi-Platform Social Publishing for AI Agents](/docs/hermes/mcp/servers/external/onepostly-mcp/index.html)
+- [BusyMail MCP — Human-Approval Email over MCP](/docs/hermes/mcp/servers/external/busymail-mcp/index.html)
+- [Shipstar MCP — Product Marketing Automation from Commits](/docs/hermes/mcp/servers/external/shipstar-mcp/index.html)
+- [DialNexa MCP — Voice AI Agent Platform over MCP](/docs/hermes/mcp/servers/external/dialnexa-mcp/index.html)
+- [TED Tender Monitor — EU Procurement Monitoring for AI Agents](/docs/hermes/mcp/servers/external/ted-tender-monitor/index.html)
