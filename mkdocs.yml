@@ -310,6 +310,7 @@ nav:
     - External Catalog: hermes/mcp/servers/external/index.md
   - More:
     - MCP Guide: hermes/mcp/index.md
+    - MCP '26 Stateless Migration: hermes/mcp/spec/mcp-26-stateless-migration.md
     - Knowledge: hermes/knowledge/index.md
     - Troubleshooting: hermes/troubleshooting/index.md
     - Contributors: hermes/contributors.md
