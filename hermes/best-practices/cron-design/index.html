@@ -9697,6 +9697,8 @@
       
         
       
+        
+      
     
     
     
@@ -9765,6 +9767,34 @@
     
   
     MCP '26 Stateless Migration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mcp/directories/submission-guide-2026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MCP Directory Submission Guide
   
 
     
@@ -10127,7 +10157,7 @@
 <h2 id="error-handling-fail-loudly-recover-gracefully">Error Handling: Fail Loudly, Recover Gracefully<a class="headerlink" href="#error-handling-fail-loudly-recover-gracefully" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Retry with backoff.</strong> Transient failures (network timeouts, rate limits) should retry with exponential backoff. Cap at 3-5 attempts with jitter.</p>
 <p><strong>Dead-letter queue.</strong> After all retries exhausted, route failed work to a dead-letter queue or structured log. Never silently discard work.</p>
-<p><strong>Alert on persistent failure.</strong> If your cron fails for more than N consecutive runs, trigger an alert through <a href="/docs/hermes/integrations/slack-github.html">Slack</a>, email, or PagerDuty.</p>
+<p><strong>Alert on persistent failure.</strong> If your cron fails for more than N consecutive runs, trigger an alert through <a href="/docs/hermes/integrations/slack-github/">Slack</a>, email, or PagerDuty.</p>
 <p><strong>Partial success handling.</strong> Handle individual failures within a batch without aborting the entire batch. Log failed records and continue processing.</p>
 <h2 id="rate-limiting-and-delivery-targets">Rate Limiting and Delivery Targets<a class="headerlink" href="#rate-limiting-and-delivery-targets" title="Anchor link to this section">&para;</a></h2>
 <p>Define explicit throughput targets. Implement token-bucket or sliding-window rate limiting. Maintain separate rate-limit budgets per API integration.</p>
@@ -10205,7 +10235,7 @@
 <li><a href="/hermes/best-practices/">Best Practices Overview</a>  --  All best practices guides</li>
 <li><a href="../model-selection/">Model Selection</a>  --  Use the right model for each cron</li>
 <li><a href="../security/">Security</a>  --  Credential management for scheduled tasks</li>
-<li><a href="/hermes/setup/">Setup Guides</a>  --  Run crons on <a href="/docs/hermes/setup/cloud-vps.html">cloud VPS</a> or <a href="/docs/hermes/setup/raspberry-pi.html">Raspberry Pi</a></li>
+<li><a href="/hermes/setup/">Setup Guides</a>  --  Run crons on <a href="/docs/hermes/setup/cloud-vps/">cloud VPS</a> or <a href="/docs/hermes/setup/raspberry-pi/">Raspberry Pi</a></li>
 <li><a href="/hermes/blueprints/">Blueprints</a>  --  End-to-end cron-anchored workflows</li>
 </ul>
 <hr />

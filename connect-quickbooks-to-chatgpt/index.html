@@ -9697,6 +9697,8 @@
       
         
       
+        
+      
     
     
     
@@ -9765,6 +9767,34 @@
     
   
     MCP '26 Stateless Migration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hermes/mcp/directories/submission-guide-2026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MCP Directory Submission Guide
   
 
     
@@ -10137,7 +10167,7 @@ Yes, entirely read-only. CorpusIQ requests read-only OAuth scopes from Intuit. C
 <details>
 <summary><strong>Does this work with QuickBooks Desktop?</strong></summary>
 
-No. CorpusIQ connects to QuickBooks Online (QBO) only. QuickBooks Desktop does not expose the API endpoints required for MCP integration. If you're on QuickBooks Desktop, consider migrating to QuickBooks Online  --  or see our [QuickBooks connector reference](connect-quickbooks-to-chatgpt) for the full compatibility list.
+No. CorpusIQ connects to QuickBooks Online (QBO) only. QuickBooks Desktop does not expose the API endpoints required for MCP integration. If you're on QuickBooks Desktop, consider migrating to QuickBooks Online  --  or see our [QuickBooks connector reference](connect-quickbooks-to-chatgpt.md) for the full compatibility list.
 </details>
 
 <details>
@@ -10161,7 +10191,7 @@ CorpusIQ queries QuickBooks through the live API. When you ask a question, the a
 <details>
 <summary><strong>Can I compare QuickBooks data with data from other tools?</strong></summary>
 
-Yes  --  this is one of MCP's strongest capabilities. "Does our Shopify revenue match what QuickBooks shows for the same period?" queries both platforms simultaneously. "Show me Stripe payouts that haven't been reconciled in QuickBooks" is a single cross-source question. See our [Benefits of MCP for Business](benefits-of-mcp-for-business) for more on cross-source analytics.
+Yes  --  this is one of MCP's strongest capabilities. "Does our Shopify revenue match what QuickBooks shows for the same period?" queries both platforms simultaneously. "Show me Stripe payouts that haven't been reconciled in QuickBooks" is a single cross-source question. See our [Benefits of MCP for Business](benefits-of-mcp-for-business.md) for more on cross-source analytics.
 </details>
 
 <details>
@@ -10203,7 +10233,7 @@ CorpusIQ uses your QuickBooks default reporting basis. If your company is set to
 <p><strong>Financial visibility without financial software expertise.</strong> Your operations lead, sales manager, or CEO can ask about cash position, overdue invoices, and revenue trends without knowing how to navigate QuickBooks reports. The interface is natural language  --  the same interface they already use every day with ChatGPT.</p>
 <p><strong>Faster financial close.</strong> Instead of running a dozen reports at month-end and manually compiling them, ask ChatGPT: "Give me the month-end snapshot  --  P&amp;L, balance sheet, AR aging, and top 5 overdue invoices." One question replaces 20 minutes of report generation.</p>
 <p><strong>Real-time cash management.</strong> Daily cash position questions become trivial. "What's our current cash across all bank accounts?" "Show me payments received today." No login required, just ask ChatGPT.</p>
-<p><strong>Cross-source reconciliation.</strong> Match QuickBooks data against Stripe payouts, Shopify orders, and bank transactions. The <a href="benefits-of-mcp-for-business">multi-source MCP architecture</a> makes reconciliation a conversational task instead of a spreadsheet marathon.</p>
+<p><strong>Cross-source reconciliation.</strong> Match QuickBooks data against Stripe payouts, Shopify orders, and bank transactions. The <a href="../benefits-of-mcp-for-business/">multi-source MCP architecture</a> makes reconciliation a conversational task instead of a spreadsheet marathon.</p>
 <p><strong>Audit-ready provenance.</strong> Every answer includes a source citation  --  which connector, which query, and when. If your auditor asks where a number came from, you have a traceable path back to the source.</p>
 <h2 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="daily-cash-monitoring">Daily Cash Monitoring<a class="headerlink" href="#daily-cash-monitoring" title="Anchor link to this section">&para;</a></h3>
@@ -10277,23 +10307,23 @@ CorpusIQ uses your QuickBooks default reporting basis. If your company is set to
 <ol>
 <li><strong>Sign up</strong> at <a href="https://www.corpusiq.io">corpusiq.io</a>  --  free 30-day trial with full QuickBooks access.</li>
 <li><strong>Connect QuickBooks.</strong> Dashboard → Connections → QuickBooks → sign into Intuit → select company file → authorize.</li>
-<li><strong>Connect ChatGPT.</strong> Add the CorpusIQ MCP server to ChatGPT. See our <a href="quick-start">Quick Start guide</a> for step-by-step instructions.</li>
+<li><strong>Connect ChatGPT.</strong> Add the CorpusIQ MCP server to ChatGPT. See our <a href="../quick-start/">Quick Start guide</a> for step-by-step instructions.</li>
 <li><strong>Verify.</strong> Ask "What's my company name per QuickBooks?"  --  the answer confirms you're connected to the right company file.</li>
 <li><strong>Explore.</strong> Try "Show me this month's P&amp;L" or "List my overdue invoices."</li>
 </ol>
 <p>Setup takes under 5 minutes. No code. No CSV exports. No data warehouse configuration.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="connect-shopify-to-chatgpt">Connect Shopify to ChatGPT</a>  --  ecommerce data in ChatGPT</li>
-<li><a href="connect-stripe-to-chatgpt">Connect Stripe to ChatGPT</a>  --  payment data in ChatGPT</li>
-<li><a href="connect-hubspot-to-chatgpt">Connect HubSpot to ChatGPT</a>  --  CRM data in ChatGPT</li>
-<li><a href="connect-netsuite-to-chatgpt">Connect NetSuite to ChatGPT</a>  --  enterprise ERP data in ChatGPT</li>
-<li><a href="connect-google-analytics-to-chatgpt">Connect Google Analytics to ChatGPT</a>  --  web analytics in ChatGPT</li>
-<li><a href="chatgpt-integration">ChatGPT Integration Overview</a>  --  how the full integration works</li>
-<li><a href="benefits-of-mcp-for-business">Benefits of MCP for Business</a>  --  why MCP is the right architecture</li>
-<li><a href="mcp-vs-api-integrations">MCP vs. API Integrations</a>  --  detailed comparison</li>
-<li><a href="connect-quickbooks-to-chatgpt">QuickBooks Connector Reference</a>  --  technical connector details</li>
-<li><a href="mcp-for-finance">MCP for Finance</a>  --  MCP for finance teams</li>
+<li><a href="../connect-shopify-to-chatgpt/">Connect Shopify to ChatGPT</a>  --  ecommerce data in ChatGPT</li>
+<li><a href="../connect-stripe-to-chatgpt/">Connect Stripe to ChatGPT</a>  --  payment data in ChatGPT</li>
+<li><a href="../connect-hubspot-to-chatgpt/">Connect HubSpot to ChatGPT</a>  --  CRM data in ChatGPT</li>
+<li><a href="../connect-netsuite-to-chatgpt/">Connect NetSuite to ChatGPT</a>  --  enterprise ERP data in ChatGPT</li>
+<li><a href="../connect-google-analytics-to-chatgpt/">Connect Google Analytics to ChatGPT</a>  --  web analytics in ChatGPT</li>
+<li><a href="../chatgpt-integration/">ChatGPT Integration Overview</a>  --  how the full integration works</li>
+<li><a href="../benefits-of-mcp-for-business/">Benefits of MCP for Business</a>  --  why MCP is the right architecture</li>
+<li><a href="../mcp-vs-api-integrations/">MCP vs. API Integrations</a>  --  detailed comparison</li>
+<li><a href="./">QuickBooks Connector Reference</a>  --  technical connector details</li>
+<li><a href="../mcp-for-finance/">MCP for Finance</a>  --  MCP for finance teams</li>
 </ul>
 <p><em>Connect Connect QuickBooks to ChatGPT via MCP  --  Live Data, No Cod... with CorpusIQ → <a href="https://www.corpusiq.io">corpusiq.io</a></em></p>
 <h2 id="connect-connect-quickbooks-to-chatgpt-via-mcp-live-data-no-cod-with-corpusiq-corpusiqio"><em>Connect Connect QuickBooks to ChatGPT via MCP  --  Live Data, No Cod... with CorpusIQ → <a href="https://www.corpusiq.io">corpusiq.io</a></em><a class="headerlink" href="#connect-connect-quickbooks-to-chatgpt-via-mcp-live-data-no-cod-with-corpusiq-corpusiqio" title="Anchor link to this section">&para;</a></h2>

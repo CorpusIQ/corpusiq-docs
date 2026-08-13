@@ -9692,6 +9692,8 @@
       
         
       
+        
+      
     
     
     
@@ -9760,6 +9762,34 @@
     
   
     MCP '26 Stateless Migration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mcp/directories/submission-guide-2026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MCP Directory Submission Guide
   
 
     
@@ -10109,7 +10139,7 @@
 <h3 id="when-to-build-vs-when-to-buy">When to Build vs When to Buy<a class="headerlink" href="#when-to-build-vs-when-to-buy" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Build when:</strong> No existing MCP server exists for your data source, you need custom behavior, strict security demands self-hosting, or you're integrating an internal system.</p>
 <p><strong>Use existing when:</strong> It covers your use case and is actively maintained. Search the <a href="/hermes/mcp/">MCP ecosystem</a> and <a href="/hermes/skills/">skills catalog</a> first.</p>
-<p><strong>Avoid building when:</strong> A simple REST API call from a <a href="/docs/hermes/skills/creating-skills.html">skill</a> would work. Not every integration needs an MCP server.</p>
+<p><strong>Avoid building when:</strong> A simple REST API call from a <a href="/docs/hermes/skills/creating-skills/">skill</a> would work. Not every integration needs an MCP server.</p>
 <h3 id="tool-design-principles">Tool Design Principles<a class="headerlink" href="#tool-design-principles" title="Anchor link to this section">&para;</a></h3>
 <table>
 <thead>
@@ -10172,7 +10202,7 @@
 </ul>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="do-i-need-to-build-an-mcp-server-for-every-api-integration">Do I need to build an MCP server for every API integration?<a class="headerlink" href="#do-i-need-to-build-an-mcp-server-for-every-api-integration" title="Anchor link to this section">&para;</a></h3>
-<p>No. If the integration is a single API call with simple parameters, a <a href="/docs/hermes/skills/creating-skills.html">skill step</a> is simpler. Build an MCP server when you need multiple tools, state management, authentication handling, or want to share with the community.</p>
+<p>No. If the integration is a single API call with simple parameters, a <a href="/docs/hermes/skills/creating-skills/">skill step</a> is simpler. Build an MCP server when you need multiple tools, state management, authentication handling, or want to share with the community.</p>
 <h3 id="how-do-i-handle-pagination-in-mcp-server-tools">How do I handle pagination in MCP server tools?<a class="headerlink" href="#how-do-i-handle-pagination-in-mcp-server-tools" title="Anchor link to this section">&para;</a></h3>
 <p>Always support <code>limit</code>/<code>offset</code> or cursor-based pagination for any tool that can return more than 50 items. Return pagination metadata (total count, next cursor) so callers know when more data is available.</p>
 <h3 id="how-do-i-test-an-mcp-server-before-publishing">How do I test an MCP server before publishing?<a class="headerlink" href="#how-do-i-test-an-mcp-server-before-publishing" title="Anchor link to this section">&para;</a></h3>
@@ -10183,7 +10213,7 @@
 <li><a href="/hermes/mcp/">MCP Integration Guide</a>  --  Connect existing MCP servers</li>
 <li><a href="../skill-development/">Skill Development</a>  --  Skills that call MCP tools</li>
 <li><a href="../security/">Security</a>  --  Secure MCP server auth patterns</li>
-<li><a href="/docs/hermes/skills/creating-skills.html">Creating Custom Skills</a>  --  When skills are better than MCP servers</li>
+<li><a href="/docs/hermes/skills/creating-skills/">Creating Custom Skills</a>  --  When skills are better than MCP servers</li>
 </ul>
 <hr />
 <p>*</p>

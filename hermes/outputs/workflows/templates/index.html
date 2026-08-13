@@ -9914,6 +9914,8 @@
       
         
       
+        
+      
     
     
     
@@ -9982,6 +9984,34 @@
     
   
     MCP '26 Stateless Migration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../mcp/directories/submission-guide-2026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MCP Directory Submission Guide
   
 
     
@@ -10708,7 +10738,7 @@
 <h3 id="which-template-should-i-deploy-first">Which template should I deploy first?<a class="headerlink" href="#which-template-should-i-deploy-first" title="Anchor link to this section">&para;</a></h3>
 <p>Start with the <strong>Daily Executive Summary</strong> (report generation) to replace your morning dashboard check, then <strong>Anomaly Detection</strong> (alerting) to catch issues before customers report them, then <strong>System Health Check</strong> (monitoring) to ensure critical endpoints stay up.</p>
 <h3 id="do-these-templates-work-with-any-mcp-connector">Do these templates work with any MCP connector?<a class="headerlink" href="#do-these-templates-work-with-any-mcp-connector" title="Anchor link to this section">&para;</a></h3>
-<p>Yes. The templates use standard Hermes skill references. Replace the <code>skill</code> name with your actual skill filename, and ensure your connectors are authenticated via <code>hermes setup connectors</code>. The <a href="/hermes/mcp/connectors/">CorpusIQ MCP connectors</a> provide 37+ business tool integrations through a single OAuth flow.</p>
+<p>Yes. The templates use standard Hermes skill references. Replace the <code>skill</code> name with your actual skill filename, and ensure your connectors are authenticated via <code>hermes setup connectors</code>. The <a href="/hermes/mcp/connectors/">CorpusIQ MCP connectors</a> provide 40+ business tool integrations through a single OAuth flow.</p>
 <h3 id="how-do-i-customize-thresholds-and-schedules">How do I customize thresholds and schedules?<a class="headerlink" href="#how-do-i-customize-thresholds-and-schedules" title="Anchor link to this section">&para;</a></h3>
 <p>Edit the YAML <code>schedule</code> field with standard cron expressions, and adjust threshold values in your skill file. Start with <strong>generous thresholds</strong> (fewer false positives), monitor for a week, then tighten as you build confidence in the automation.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
@@ -10716,7 +10746,7 @@
 <li><a href="/hermes/outputs/">Outputs Overview  --  Industry Case Studies</a></li>
 <li><a href="/hermes/governance/scheduling/">Cron Scheduling Guide  --  38 Production Crons</a></li>
 <li><a href="/hermes/agents/">Agent Library  --  9 Role Configurations</a></li>
-<li><a href="/hermes/mcp/connectors/">CorpusIQ MCP Connectors  --  37+ Business Tools</a></li>
+<li><a href="/hermes/mcp/connectors/">CorpusIQ MCP Connectors  --  40+ Business Tools</a></li>
 <li><a href="/hermes/architecture/">Architecture  --  6-Layer Production Model</a></li>
 </ul>
 <p><em>From the <a href="https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies">Hermes Case Studies</a>  --  real-world agent deployments. Powered by <a href="https://www.corpusiq.io">CorpusIQ</a>.</em></p>

@@ -9747,6 +9747,8 @@
       
         
       
+        
+      
     
     
     
@@ -9815,6 +9817,34 @@
     
   
     MCP '26 Stateless Migration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mcp/directories/submission-guide-2026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MCP Directory Submission Guide
   
 
     
@@ -10214,7 +10244,7 @@
 <h1 id="gaming-pc-hermes-agent-setup-cuda-accelerated-ai-workstation">Gaming PC Hermes Agent Setup  --  CUDA-Accelerated AI Workstation<a class="headerlink" href="#gaming-pc-hermes-agent-setup-cuda-accelerated-ai-workstation" title="Anchor link to this section">&para;</a></h1>
 <p>Got a gaming rig with an NVIDIA GPU? It's a perfect Hermes Agent host for developers and power users. Run models locally at full speed with CUDA acceleration  --  no per-token API costs, no latency, no rate limits. This gaming PC setup guide covers everything from NVIDIA drivers to persistent operation.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>A gaming PC delivers the highest raw inference performance for local AI models. With 8–24GB of VRAM and CUDA acceleration, you can run models from 7B to 70B parameters locally at 50–200 tokens per second. Combined with Hermes Agent's <a href="/docs/hermes/best-practices/model-selection.html">model selection</a> capabilities, you get a powerful AI workstation.</p>
+<p>A gaming PC delivers the highest raw inference performance for local AI models. With 8–24GB of VRAM and CUDA acceleration, you can run models from 7B to 70B parameters locally at 50–200 tokens per second. Combined with Hermes Agent's <a href="/docs/hermes/best-practices/model-selection/">model selection</a> capabilities, you get a powerful AI workstation.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10340,7 +10370,7 @@ sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> <
 <h3 id="can-my-gaming-pc-run-hermes-agent-while-im-gaming">Can my gaming PC run Hermes Agent while I'm gaming?<a class="headerlink" href="#can-my-gaming-pc-run-hermes-agent-while-im-gaming" title="Anchor link to this section">&para;</a></h3>
 <p>Yes. Set <code>OLLAMA_KEEP_ALIVE=10m</code> so models unload from VRAM when idle. During gaming, Hermes Agent can use cloud fallback models or wait until you're done.</p>
 <h3 id="what-vram-do-i-need-for-local-llms">What VRAM do I need for local LLMs?<a class="headerlink" href="#what-vram-do-i-need-for-local-llms" title="Anchor link to this section">&para;</a></h3>
-<p>6–8GB VRAM handles 7B models. 12–16GB handles 13–14B models. 24GB handles 32B models. See our <a href="/docs/hermes/best-practices/model-selection.html">model selection guide</a> for detailed recommendations.</p>
+<p>6–8GB VRAM handles 7B models. 12–16GB handles 13–14B models. 24GB handles 32B models. See our <a href="/docs/hermes/best-practices/model-selection/">model selection guide</a> for detailed recommendations.</p>
 <h3 id="which-gpu-is-best-for-hermes-agent">Which GPU is best for Hermes Agent?<a class="headerlink" href="#which-gpu-is-best-for-hermes-agent" title="Anchor link to this section">&para;</a></h3>
 <p>Any RTX 30-series or newer works well. The RTX 4090 (24GB VRAM) is ideal for running 32B+ models. Multiple GPUs can be combined with NVLink.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
@@ -10348,7 +10378,7 @@ sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> <
 <li><a href="/hermes/setup/">Hermes Agent Setup Overview</a>  --  Compare all platforms</li>
 <li><a href="../windows-wsl/">Windows WSL2 Setup</a>  --  GPU passthrough on Windows</li>
 <li><a href="../mac-mini-standalone/">Mac Mini M4 Setup</a>  --  Silent alternative</li>
-<li><a href="/docs/hermes/best-practices/model-selection.html">Model Selection Guide</a>  --  Choose the right model</li>
+<li><a href="/docs/hermes/best-practices/model-selection/">Model Selection Guide</a>  --  Choose the right model</li>
 <li><a href="/hermes/troubleshooting/">Troubleshooting Guide</a>  --  Common GPU issues</li>
 </ul>
 <hr />

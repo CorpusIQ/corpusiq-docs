@@ -9708,6 +9708,8 @@
       
         
       
+        
+      
     
     
     
@@ -9776,6 +9778,34 @@
     
   
     MCP '26 Stateless Migration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mcp/directories/submission-guide-2026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MCP Directory Submission Guide
   
 
     
@@ -10233,7 +10263,7 @@ docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">ex
 <span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Check inbox. Summarize unread.&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;*/15 * * * *&quot;</span>
 </code></pre></div>
-<p>Crons survive container restarts and image updates because they're stored in the <code>hermes_data</code> volume. Follow <a href="/docs/hermes/best-practices/cron-design.html">cron design best practices</a> for production-grade scheduling.</p>
+<p>Crons survive container restarts and image updates because they're stored in the <code>hermes_data</code> volume. Follow <a href="/docs/hermes/best-practices/cron-design/">cron design best practices</a> for production-grade scheduling.</p>
 <h2 id="production-checklist">Production Checklist<a class="headerlink" href="#production-checklist" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="c1"># 1. Resource limits</span>
 <span class="c1"># Add to docker-compose.yml:</span>
@@ -10295,14 +10325,14 @@ docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">ex
 <h3 id="can-i-run-gpu-accelerated-models-in-docker">Can I run GPU-accelerated models in Docker?<a class="headerlink" href="#can-i-run-gpu-accelerated-models-in-docker" title="Anchor link to this section">&para;</a></h3>
 <p>Yes, if the host has an NVIDIA GPU and the NVIDIA Container Toolkit installed. Pass <code>--gpus all</code> to <code>docker run</code> or add <code>deploy.resources.reservations.devices</code> in Compose.</p>
 <h3 id="how-do-i-add-custom-skills-to-docker-hermes">How do I add custom skills to Docker Hermes?<a class="headerlink" href="#how-do-i-add-custom-skills-to-docker-hermes" title="Anchor link to this section">&para;</a></h3>
-<p>Mount your skills directory: <code>- ./skills:/home/hermes/skills:ro</code>. New skills are immediately available. See the <a href="/docs/hermes/skills/creating-skills.html">custom skills guide</a>.</p>
+<p>Mount your skills directory: <code>- ./skills:/home/hermes/skills:ro</code>. New skills are immediately available. See the <a href="/docs/hermes/skills/creating-skills/">custom skills guide</a>.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="/hermes/setup/">Hermes Agent Setup Overview</a>  --  All platform options</li>
 <li><a href="../cloud-vps/">Cloud VPS Setup</a>  --  Docker on cloud</li>
 <li><a href="../gaming-pc/">Gaming PC Setup</a>  --  Docker with GPU passthrough</li>
 <li><a href="/hermes/mcp/">MCP Integration Guide</a>  --  Connect tools inside containers</li>
-<li><a href="/docs/hermes/skills/creating-skills.html">Creating Custom Skills</a>  --  Mount skills in Docker</li>
+<li><a href="/docs/hermes/skills/creating-skills/">Creating Custom Skills</a>  --  Mount skills in Docker</li>
 </ul>
 <hr />
 <p>*</p>

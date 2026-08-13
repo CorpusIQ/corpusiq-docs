@@ -9747,6 +9747,8 @@
       
         
       
+        
+      
     
     
     
@@ -9815,6 +9817,34 @@
     
   
     MCP '26 Stateless Migration
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mcp/directories/submission-guide-2026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MCP Directory Submission Guide
   
 
     
@@ -10281,7 +10311,7 @@ hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>openrouter/anthropic/claude-sonnet-4
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.fallback<span class="w"> </span><span class="s2">&quot;openrouter/qwen/qwen3-235b-a22b:free&quot;</span>
 </code></pre></div>
-<p><strong>Strategy:</strong> Use local models for cron tasks and embeddings (free), cloud models for complex reasoning (pay-as-you-go). Set Ollama as primary and OpenRouter as fallback, or vice versa depending on budget. See our <a href="/docs/hermes/best-practices/model-selection.html">model selection guide</a> for detailed tiering strategies.</p>
+<p><strong>Strategy:</strong> Use local models for cron tasks and embeddings (free), cloud models for complex reasoning (pay-as-you-go). Set Ollama as primary and OpenRouter as fallback, or vice versa depending on budget. See our <a href="/docs/hermes/best-practices/model-selection/">model selection guide</a> for detailed tiering strategies.</p>
 <h3 id="step-4-browser-automation">Step 4: Browser Automation<a class="headerlink" href="#step-4-browser-automation" title="Anchor link to this section">&para;</a></h3>
 <p>Playwright runs directly on the Mac. No worker node needed.</p>
 <div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>playwright
@@ -10320,7 +10350,7 @@ hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w">
 <span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Summarize today&#39;s activity. What happened? What&#39;s pending?&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;0 18 * * *&quot;</span>
 </code></pre></div>
-<p>See <a href="/docs/hermes/best-practices/cron-design.html">cron design best practices</a> for production-grade scheduling patterns.</p>
+<p>See <a href="/docs/hermes/best-practices/cron-design/">cron design best practices</a> for production-grade scheduling patterns.</p>
 <p><strong>Keep Alive:</strong></p>
 <p>Prevent macOS sleep during operation:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Keep system awake while Hermes runs</span>
@@ -10394,9 +10424,9 @@ pip<span class="w"> </span>install<span class="w"> </span>memcore-cloud<span cla
 <ul>
 <li><a href="/hermes/setup/">Hermes Agent Setup Overview</a>  --  Compare all hardware platforms</li>
 <li><a href="../gaming-pc/">Gaming PC Setup</a>  --  Maximum GPU performance</li>
-<li><a href="/docs/hermes/best-practices/model-selection.html">Model Selection Guide</a>  --  Tiered model routing</li>
+<li><a href="/docs/hermes/best-practices/model-selection/">Model Selection Guide</a>  --  Tiered model routing</li>
 <li><a href="/hermes/knowledge/">Memory Architecture</a>  --  Triple-stack agent memory</li>
-<li><a href="/hermes/mcp/">MCP Integration Guide</a>  --  Connect 37+ business platforms</li>
+<li><a href="/hermes/mcp/">MCP Integration Guide</a>  --  Connect 40+ business platforms</li>
 <li><a href="/hermes/troubleshooting/">Troubleshooting Guide</a>  --  Common Mac Mini issues</li>
 </ul>
 <hr />
