@@ -8943,5 +8943,75 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-13T08:07:06.426995+00:00"
+  },
+  {
+    "repo": "saiGou-14H/a2amesh",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T05:05:43.228403+00:00"
+  },
+  {
+    "repo": "acidrefluxdisease/signal-cli-hermes-bridge",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T05:05:43.228416+00:00"
+  },
+  {
+    "repo": "EntangledQuantum/Life_OS",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T05:05:43.228418+00:00"
+  },
+  {
+    "repo": "mdziegiel/mrdtech-hermes-stack",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T05:05:43.228420+00:00"
+  },
+  {
+    "repo": "kitepon/HermesAgent",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T05:05:43.228422+00:00"
+  },
+  {
+    "repo": "sandeshkini/agent-tools",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T05:05:43.228424+00:00"
+  },
+  {
+    "repo": "RyosukeSAMA/github-ai",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T05:05:43.228425+00:00"
+  },
+  {
+    "repo": "GenialCare/hermes-profile-genial",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T05:05:43.228427+00:00"
+  },
+  {
+    "repo": "hyls9527/dsh-plugins",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T05:05:43.228429+00:00"
+  },
+  {
+    "repo": "monthop-gmail/hermes-free-model",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T05:05:43.228430+00:00"
   }
 ]
