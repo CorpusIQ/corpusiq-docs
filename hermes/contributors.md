@@ -1,7 +1,7 @@
 ---
 title: Ecosystem Contributors
 description: Community contributors to the Hermes Ecosystem Directory
-last_updated: 2026-08-13
+last_updated: 2026-08-14
 canonical: "https://www.corpusiq.io/docs/hermes/contributors/"
 robots: "index,follow"
 tags: ["hermes agent", "ai agent", "nous research"]
@@ -16,7 +16,7 @@ Thank you to everyone who has contributed to the Hermes Ecosystem Directory — 
 
 | Contributor | Submissions | Approved | Role | First Contribution | Last Active |
 |-------------|-------------|----------|------|--------------------|-------------|
-| [CorpusIQ](https://github.com/CorpusIQ) | 255 | 159 | maintainer | 2026-06-16 | 2026-08-13 |
+| [CorpusIQ](https://github.com/CorpusIQ) | 263 | 159 | maintainer | 2026-06-16 | 2026-08-14 |
 
 ## Contributors
 
@@ -35,4 +35,4 @@ Thank you to everyone who has contributed to the Hermes Ecosystem Directory — 
 
 ---
 
-*Last updated: 2026-08-13. Powered by [CorpusIQ](https://www.corpusiq.io).*
+*Last updated: 2026-08-14. Powered by [CorpusIQ](https://www.corpusiq.io).*

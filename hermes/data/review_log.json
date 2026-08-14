@@ -9048,5 +9048,61 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-14T06:07:46.327524+00:00"
+  },
+  {
+    "repo": "rahlquist/hmem",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T07:06:35.095075+00:00"
+  },
+  {
+    "repo": "YZZHA/resume-auto-apply",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T07:06:35.095087+00:00"
+  },
+  {
+    "repo": "dab00gieman/Lisa",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T07:06:35.095090+00:00"
+  },
+  {
+    "repo": "ashah360/hermes-cursor",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T07:06:35.095092+00:00"
+  },
+  {
+    "repo": "mbj733/dsh-hermes-memory",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T07:06:35.095094+00:00"
+  },
+  {
+    "repo": "fucheng-guo-sun/cc-switch",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T07:06:35.095096+00:00"
+  },
+  {
+    "repo": "caozuohua/codegraph",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T07:06:35.095098+00:00"
+  },
+  {
+    "repo": "liustack/modlens",
+    "score": 67,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T07:06:35.095100+00:00"
   }
 ]
