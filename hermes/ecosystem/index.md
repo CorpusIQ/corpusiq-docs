@@ -2455,8 +2455,8 @@ Terminal neurovisualizer with 42 themes. Visualize agent thought processes in th
 
 ---
 
-### roli-lpci/lintlang
-⭐ **community** · `Python` · [github.com/roli-lpci/lintlang](https://github.com/roli-lpci/lintlang)
+### hermes-labs-ai/lintlang
+⭐ **community** · `Python` · [github.com/hermes-labs-ai/lintlang](https://github.com/hermes-labs-ai/lintlang)
 
 Static linter for agent configs and prompts. Validate agent configurations before deployment.
 
