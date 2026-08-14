@@ -10189,7 +10189,7 @@
 <p>Monitor engagement by type. If educational content underperforms, your audience might want more actionable content. If promotional content drives unfollows, pull back.</p>
 <h2 id="scheduling-engine">Scheduling Engine<a class="headerlink" href="#scheduling-engine" title="Anchor link to this section">&para;</a></h2>
 <h3 id="optimal-post-time-calculation">Optimal Post Time Calculation<a class="headerlink" href="#optimal-post-time-calculation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">calculate_schedule</span><span class="p">(</span><span class="n">content_calendar</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">],</span> <span class="n">audience_data</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">]:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">calculate_schedule</span><span class="p">(</span><span class="n">content_calendar</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">],</span> <span class="n">audience_data</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">]:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Calculate optimal posting times based on platform analytics.</span>
 
@@ -10211,7 +10211,7 @@
 
     <span class="k">return</span> <span class="n">scheduled</span>
 
-<span class="k">def</span> <span class="nf">_best_times</span><span class="p">(</span><span class="n">data</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="o">**</span><span class="n">preferences</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">_best_times</span><span class="p">(</span><span class="n">data</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="o">**</span><span class="n">preferences</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Rank posting hours by historical engagement.&quot;&quot;&quot;</span>
     <span class="n">hourly_engagement</span> <span class="o">=</span> <span class="p">{}</span>
 
@@ -10308,17 +10308,17 @@
 </tbody>
 </table>
 <h3 id="rate-limit-manager">Rate Limit Manager<a class="headerlink" href="#rate-limit-manager" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">time</span>
-<span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
-<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timedelta</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">time</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">collections</span><span class="w"> </span><span class="kn">import</span> <span class="n">defaultdict</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">datetime</span><span class="w"> </span><span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timedelta</span>
 
-<span class="k">class</span> <span class="nc">RateLimitManager</span><span class="p">:</span>
+<span class="k">class</span><span class="w"> </span><span class="nc">RateLimitManager</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Tracks and enforces per-platform rate limits.&quot;&quot;&quot;</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">windows</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>  <span class="c1"># platform -&gt; list of timestamps</span>
 
-    <span class="k">def</span> <span class="nf">can_post</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">can_post</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;Check if posting is allowed right now.&quot;&quot;&quot;</span>
         <span class="n">limits</span> <span class="o">=</span> <span class="p">{</span>
             <span class="s2">&quot;linkedin&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;max_per_hour&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="s2">&quot;max_per_day&quot;</span><span class="p">:</span> <span class="mi">100</span><span class="p">},</span>
@@ -10347,7 +10347,7 @@
 
         <span class="k">return</span> <span class="kc">True</span>
 
-    <span class="k">def</span> <span class="nf">record_post</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">record_post</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;Record a successful post.&quot;&quot;&quot;</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">windows</span><span class="p">[</span><span class="n">platform</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">())</span>
 
@@ -10357,7 +10357,7 @@
             <span class="n">ts</span> <span class="k">for</span> <span class="n">ts</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">windows</span><span class="p">[</span><span class="n">platform</span><span class="p">]</span> <span class="k">if</span> <span class="n">ts</span> <span class="o">&gt;</span> <span class="n">cutoff</span>
         <span class="p">]</span>
 
-    <span class="k">def</span> <span class="nf">wait_until_available</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">timeout_seconds</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3600</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="nf">wait_until_available</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">timeout_seconds</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">3600</span><span class="p">):</span>
 <span class="w">        </span><span class="sd">&quot;&quot;&quot;Block until the platform accepts posts, or timeout.&quot;&quot;&quot;</span>
         <span class="n">start</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span>
         <span class="k">while</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">can_post</span><span class="p">(</span><span class="n">platform</span><span class="p">):</span>
@@ -10366,7 +10366,7 @@
             <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>  <span class="c1"># Check every minute</span>
 </code></pre></div>
 <h3 id="handling-rate-limit-429s">Handling Rate Limit 429s<a class="headerlink" href="#handling-rate-limit-429s" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">post_with_retry</span><span class="p">(</span><span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">content</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">max_retries</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">5</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">post_with_retry</span><span class="p">(</span><span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">content</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">max_retries</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">5</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Post content with exponential backoff on rate limits.&quot;&quot;&quot;</span>
 
     <span class="n">rate_limiter</span> <span class="o">=</span> <span class="n">RateLimitManager</span><span class="p">()</span>
@@ -10395,7 +10395,7 @@
 </code></pre></div>
 <h2 id="engagement-tracking">Engagement Tracking<a class="headerlink" href="#engagement-tracking" title="Anchor link to this section">&para;</a></h2>
 <h3 id="real-time-monitoring">Real-Time Monitoring<a class="headerlink" href="#real-time-monitoring" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">track_post_engagement</span><span class="p">(</span><span class="n">post_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">duration_hours</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">24</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">track_post_engagement</span><span class="p">(</span><span class="n">post_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">duration_hours</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">24</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Track post engagement for a specified duration.&quot;&quot;&quot;</span>
 
     <span class="n">checkpoints</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">24</span><span class="p">]</span>  <span class="c1"># Hours to check</span>
@@ -10468,7 +10468,7 @@
 <span class="w">      </span><span class="nt">exit_rate</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">0.10</span>
 </code></pre></div>
 <h3 id="weekly-performance-report">Weekly Performance Report<a class="headerlink" href="#weekly-performance-report" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">generate_weekly_report</span><span class="p">(</span><span class="n">start_date</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">generate_weekly_report</span><span class="p">(</span><span class="n">start_date</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate a weekly social media performance report.&quot;&quot;&quot;</span>
 
     <span class="n">platforms</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;linkedin&quot;</span><span class="p">,</span> <span class="s2">&quot;twitter&quot;</span><span class="p">,</span> <span class="s2">&quot;instagram&quot;</span><span class="p">,</span> <span class="s2">&quot;tiktok&quot;</span><span class="p">]</span>
@@ -10501,7 +10501,7 @@
 <h2 id="content-calendar-management">Content Calendar Management<a class="headerlink" href="#content-calendar-management" title="Anchor link to this section">&para;</a></h2>
 <h3 id="google-sheets-notion-integration">Google Sheets / Notion Integration<a class="headerlink" href="#google-sheets-notion-integration" title="Anchor link to this section">&para;</a></h3>
 <p>Store your content calendar in a tool your team can review:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">sync_content_calendar</span><span class="p">():</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">sync_content_calendar</span><span class="p">():</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Sync the content calendar between Hermes and a reviewable source.&quot;&quot;&quot;</span>
 
     <span class="c1"># Fetch next week&#39;s plan from Notion</span>
@@ -10525,7 +10525,7 @@
 </code></pre></div>
 <h2 id="emergency-content-pauses">Emergency Content Pauses<a class="headerlink" href="#emergency-content-pauses" title="Anchor link to this section">&para;</a></h2>
 <p>Sometimes you need to pause all scheduled content  --  product issues, PR situations, or world events:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">emergency_pause_all</span><span class="p">(</span><span class="n">reason</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">emergency_pause_all</span><span class="p">(</span><span class="n">reason</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Immediately pause all scheduled social media posts.&quot;&quot;&quot;</span>
 
     <span class="c1"># Cancel all queued posts</span>

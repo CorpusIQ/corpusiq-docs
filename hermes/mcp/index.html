@@ -10309,12 +10309,12 @@ mcp_corpusiq_calendar_connector
 <h2 id="adding-your-own-mcp-server">Adding Your Own MCP Server<a class="headerlink" href="#adding-your-own-mcp-server" title="Anchor link to this section">&para;</a></h2>
 <h3 id="option-a-fastmcp-python">Option A: FastMCP (Python)<a class="headerlink" href="#option-a-fastmcp-python" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># my_server.py</span>
-<span class="kn">from</span> <span class="nn">fastmcp</span> <span class="kn">import</span> <span class="n">FastMCP</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">fastmcp</span><span class="w"> </span><span class="kn">import</span> <span class="n">FastMCP</span>
 
 <span class="n">mcp</span> <span class="o">=</span> <span class="n">FastMCP</span><span class="p">(</span><span class="s2">&quot;My Server&quot;</span><span class="p">)</span>
 
 <span class="nd">@mcp</span><span class="o">.</span><span class="n">tool</span><span class="p">()</span>
-<span class="k">def</span> <span class="nf">get_dashboard_metrics</span><span class="p">():</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_dashboard_metrics</span><span class="p">():</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Return key business metrics&quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;mrr&quot;</span><span class="p">:</span> <span class="mi">12500</span><span class="p">,</span> <span class="s2">&quot;users&quot;</span><span class="p">:</span> <span class="mi">843</span><span class="p">,</span> <span class="s2">&quot;churn&quot;</span><span class="p">:</span> <span class="mf">0.02</span><span class="p">}</span>
 

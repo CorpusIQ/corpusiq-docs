@@ -101,8 +101,8 @@
 - [YouTube](https://www.corpusiq.io/docs/connectors/youtube/): 
 
 ## Hermes Hub
-- [🫡 Hermes Community Hub](https://www.corpusiq.io/docs/hermes/): The largest structured Hermes Agent knowledge base
-- [Hermes Ecosystem Directory](https://www.corpusiq.io/docs/hermes/ecosystem/): Comprehensive directory of the Hermes Agent ecosystem — 165+ repos, tools, skills, and integrations
+- [🫡 Hermes Community Hub](https://www.corpusiq.io/docs/hermes/): The largest structured Hermes Agent knowledge base — 440+ tools, skills, MCP servers, agents, blueprints, and case studies. Built by the community. Up
+- [Hermes Ecosystem Directory](https://www.corpusiq.io/docs/hermes/ecosystem/): Comprehensive directory of the Hermes Agent ecosystem — 166+ repos, tools, skills, and integrations
 - [Skills Marketplace](https://www.corpusiq.io/docs/hermes/skills/marketplace/): Discover and install community skills from skills.sh  --  290+ curated skills across 22 categories. Browse by category, check trending skills, submit 
 - [Hermes Agent Library  --  9 Production-Ready AI Agent Blueprints](https://www.corpusiq.io/docs/hermes/agents/): Complete library of 9 role-specific Hermes agent configurations: sales, marketing, devops, support, finance, HR, research, legal, and executive. Deplo
 - [Templates](https://www.corpusiq.io/docs/hermes/templates/): Ready-to-use templates for Hermes Agent configurations, skills, and deployment patterns. Part of the Hermes Skills Library.
