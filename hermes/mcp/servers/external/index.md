@@ -3,7 +3,7 @@ title: External MCP Server Catalog
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-13"
+last_updated: "2026-08-14"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,57 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 13, 2026 (evening sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 179 servers (+72 guides)
+> **Last updated:** August 14, 2026 (morning sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 189 servers (+80 guides)
+
+---
+
+## 🆕 August 14, 2026 — Morning Sweep (10 New, 8 Guides)
+
+Scanned mcpservers.org /all pages 1-3 (newest submissions) and mcp.so Feed (30 newest submissions). 10 new business-relevant servers found — procurement and SaaS spend, ad intelligence and AI ad creation, cost segregation, knowledge bases, and Telegram operations.
+
+### Vertice AI MCP ★★★ — August 14 morning
+
+Official procurement-platform MCP from Vertice — query contracts, vendors, and SaaS spend in natural language, then trigger Vertice workflows with the same RBAC as the web app. OAuth 2.1 PKCE (S256), Streamable HTTP; Preview access through your Vertice Account Manager. The first major procurement platform with an official MCP connector. · [Guide →](/hermes/mcp/servers/external/vertice-ai-mcp/)
+
+### Waldo MCP ★★★ — August 14 morning
+
+Live marketing intelligence for AI agents — ad libraries across Meta, Google, LinkedIn and TikTok, social listening, share of voice, audience insights and category landscapes, with every answer linked to its source. OAuth 2.1 auto or API key; per-workspace tool toggling; strategy plugin at /strategy. `mcp.waldo.fyi` (commercial) · [Guide →](/hermes/mcp/servers/external/waldo-mcp/)
+
+### Hermoso AI MCP ★★★ — August 14 morning
+
+AI ad studio over MCP — 415 tools over one OAuth'd endpoint covering ad research (Meta/Google/LinkedIn libraries), creative generation with 50+ image and video models on a single credit meter, publishing, and campaign management. Open-source MCP server + CLI + Claude skills. `hermoso.ai` (commercial) · [Guide →](/hermes/mcp/servers/external/hermoso-ai-mcp/)
+
+### Viral Outliers MCP ★★ — August 14 morning
+
+Continuously-crawled database of viral social outliers — search overperforming posts on TikTok, Instagram and YouTube, pull creator stats, generate transcripts, and crawl profiles on demand. Bearer API key, credit-metered (search 1 credit, transcript 10, crawl 40), REST + MCP parity, openapi.json + llms.txt published. `viraloutliers.com/api/mcp` (commercial) · [Guide →](/hermes/mcp/servers/external/viral-outliers-mcp/)
+
+### Shhots AI MCP ★★ — August 14 morning
+
+AI UGC ads, cinematic product films, and studio product photography over MCP — avatars speak your script in 12 languages, multi-variant batches, photoshoots from one reference image. Account sign-in; Pro & Scale plans; live for Claude and ChatGPT. `mcp.shhots.ai/mcp/` (commercial) · [Guide →](/hermes/mcp/servers/external/shhots-ai-mcp/)
+
+### Cost Seg Smart MCP ★★ — August 14 morning
+
+Cost segregation study pricing and Stripe checkout for US real estate — `get_cost_seg_quote` returns study cost, year-1 accelerated depreciation, tax savings and ROI; `get_cost_seg_payment_link` generates the checkout URL. No auth, Streamable HTTP, 21 property types. Example: $750K STR at 37% bracket → $995 study, $184.5K year-1 deduction, $68K savings, 69x ROI. `costsegsmart.com/mcp` (commercial) · [Guide →](/hermes/mcp/servers/external/cost-seg-smart-mcp/)
+
+### HelpDocs MCP ★★ — August 14 morning
+
+Official knowledge-base connector — search and read articles, draft and update content, reorganize categories, and pull analytics on what readers search for. Per-account URL (Settings → AI → MCP Access), authorization flow, certain plans. `helpdocs.io` (commercial) · [Guide →](/hermes/mcp/servers/external/helpdocs-mcp/)
+
+### Graspil MCP ★★ — August 14 morning
+
+Telegram analytics, broadcast, and automation over MCP — reports, funnels, referral stats, broadcasts and automations from chat, without the dashboard. API key; thin layer on the Graspil API with the same permissions. `graspil.com` (commercial) · [Guide →](/hermes/mcp/servers/external/graspil-mcp/)
+
+### Customer Intelligence & Segmentation MCP ★★ — August 14 morning (catalog entry)
+
+Which next customer to call, and how much it will be worth — read-only customer tiering and value estimation. Endpoint `customer-tiering-mcp-latest.saifs.ai`. Thin docs (no tool list published); classified Marketing. (commercial)
+
+### Citation Check MCP ★★ — August 14 morning (catalog entry)
+
+Mechanical citation and claim checks for AI-generated documents — seven checks (enumeration, internal references, arithmetic, count-vs-list, declared bounds, ordinal sequences, self-consistency) with located verdicts per line. No model on the free path, documents never stored. `holoweave.org` (free tier)
+
+**Also identified (not catalogued):** PolymarketScan (Polymarket prediction-market analytics — crypto), CoinLobster (whale-trade signals — crypto), FARPY (GPU Blender rendering — dev infra), AI Image Cleaner and EraseText (consumer photo/text-removal tools), GOJI (single-agency AEO/SEO knowledge base), Picorn (generic image/video project tool), Teai.io (MCP monetization gateway — a listing venue, not a server; worth revisiting as a directory target for CorpusIQ itself). Folklore variant evidence was already noted Aug 13.
+
+**Key observation:** Ad creative moved fully onto MCP this cycle — Hermoso (415 tools, 50+ models, generation not just scheduling), Shhots (UGC/cinematic/photoshoot generation), and Waldo (ad-library research) now form a complete research → generate → publish → measure loop across separate vendors. Second, Vertice's official connector is the first procurement-platform MCP, extending the platform-MCP pattern (Atlassian, Apollo, Monday) into SaaS spend. Third, vertical tax tooling surfaced with Cost Seg Smart — quoting with ROI math before the study is sold, the same pay-per-outcome pattern seen in x402 and credit-metered servers.
 
 ---
 
@@ -3356,3 +3406,14 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [easydocforms MCP — PHI-Safe Healthcare Intake Forms for AI Agents](/docs/hermes/mcp/servers/external/easydocforms-mcp/)
 - [AgenticRail Gate MCP — Step-Order Enforcement with Compliance Receipts](/docs/hermes/mcp/servers/external/agenticrail-gate-mcp/)
 - [glc PromptGuard MCP — Prompt-Injection Gate for User Prompts, RAG Chunks, and Tool Outputs](/docs/hermes/mcp/servers/external/glc-promptguard-mcp/)
+
+### 10 new servers from mcpservers.org /all + mcp.so Feed — Aug 14, 2026 (morning sweep)
+
+- [Vertice AI MCP — Procurement, Contracts & SaaS Spend for AI Agents](/docs/hermes/mcp/servers/external/vertice-ai-mcp/)
+- [Waldo MCP — Live Marketing Intelligence & Ad Libraries for AI Agents](/docs/hermes/mcp/servers/external/waldo-mcp/)
+- [Hermoso AI MCP — AI Ad Studio: Research, Generate, Publish & Run Campaigns](/docs/hermes/mcp/servers/external/hermoso-ai-mcp/)
+- [Viral Outliers MCP — Viral Post Discovery & Creator Stats](/docs/hermes/mcp/servers/external/viral-outliers-mcp/)
+- [Shhots AI MCP — AI UGC & Cinematic Ad Generation](/docs/hermes/mcp/servers/external/shhots-ai-mcp/)
+- [Cost Seg Smart MCP — Cost Segregation Pricing for Real Estate](/docs/hermes/mcp/servers/external/cost-seg-smart-mcp/)
+- [HelpDocs MCP — Knowledge Base Search, Editing & Analytics](/docs/hermes/mcp/servers/external/helpdocs-mcp/)
+- [Graspil MCP — Telegram Analytics, Broadcast & Automation](/docs/hermes/mcp/servers/external/graspil-mcp/)
