@@ -9167,5 +9167,33 @@
     "tier": "AUTO_APPROVE",
     "action": "auto_approved",
     "timestamp": "2026-08-14T08:07:50.593427+00:00"
+  },
+  {
+    "repo": "prateekrajgautam/hermes-agent-docker",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T09:17:41.068497+00:00"
+  },
+  {
+    "repo": "maksimryzhov614/hermes-vscode",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T09:17:41.068509+00:00"
+  },
+  {
+    "repo": "sawaichi9527/hermes-agent-opc-deploy",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T09:17:41.068510+00:00"
+  },
+  {
+    "repo": "alex-ht/hermes-skills-mcp-server",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T09:17:41.068512+00:00"
   }
 ]

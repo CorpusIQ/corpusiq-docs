@@ -37398,5 +37398,112 @@
     ],
     "discovered_at": "2026-08-14T08:05:59.267109+00:00",
     "status": "pending"
+  },
+  {
+    "name": "prateekrajgautam/hermes-agent-docker",
+    "url": "https://github.com/prateekrajgautam/hermes-agent-docker",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-08-14T09:15:21Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-14T09:15:23.843401+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "maksimryzhov614/hermes-vscode",
+    "url": "https://github.com/maksimryzhov614/hermes-vscode",
+    "description": "VS Code chat panel for self-hosted Hermes Agent \u2014 pair via Telegram, attach files, paste screenshots, apply edits with diff preview",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "agent",
+      "ai",
+      "chat",
+      "copilot",
+      "cursor",
+      "hermes",
+      "llm",
+      "telegram",
+      "vscode-extension"
+    ],
+    "updated_at": "2026-08-03T15:04:47Z",
+    "category": "core",
+    "score": 56,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_month",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-14T09:15:26.846375+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sawaichi9527/hermes-agent-opc-deploy",
+    "url": "https://github.com/sawaichi9527/hermes-agent-opc-deploy",
+    "description": "Private deployment companion for Hermes Agent OPC-style profile usage.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-08-14T09:15:18Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-14T09:15:29.848941+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "alex-ht/hermes-skills-mcp-server",
+    "url": "https://github.com/alex-ht/hermes-skills-mcp-server",
+    "description": "Python MCP server exposing Hermes-style skills_list, skill_view, and skill_manage tools. Designed for consumption by OpenClaw, Hermes, Claude Desktop, Cursor and other MCP clients. Supports the standard agentskills.io SKILL.md format with progressive disclosure.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-14T09:04:40Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "EverMind-AI/EverOS",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "KSroido/Kagi-Session2API-MCP",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "ksimback/hermes-atlas-mcp",
+      "ahonore42/logios-brain",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor"
+    ],
+    "discovered_at": "2026-08-14T09:15:39.472253+00:00",
+    "status": "pending"
   }
 ]
