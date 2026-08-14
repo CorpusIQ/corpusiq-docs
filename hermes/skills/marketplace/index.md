@@ -16,6 +16,8 @@ The Skills Marketplace is the community hub for discovering, installing, and sha
 
 ## Recent Sweeps
 
+- [🆕 August 14, 2026 — Chrome DevTools MCP Skills (8.5K installs, official Google), Oh My Hermes Suite (9-skill Hermes-native multi-agent orchestration) — 2 publisher clusters, 11 skills, 2 setup guides](/hermes/skills/marketplace/new-aug14-2026/)
+
 - [🆕 August 13, 2026 (Evening) — Emil Kowalski Design (694K), Convex Backend (757K), UI/UX Pro Max (611K), Higgsfield AI Video (577K), OSINT (286K), Wind Financial (133K), Momentic QA (119K), Planning With Files (91K), Wonda (75K), SquirrelScan (71K), Solana (58K), Genkit (57K) — 12 publishers, 244 skills, 3.5M+ installs](/hermes/skills/marketplace/new-aug13-2026-evening/)
 
 - [🆕 August 13, 2026 — Extract Design System (127.3K), App Store Connect CLI (53.5K), GenMedia AI Media (42.5K), Pika Plugins (20.1K), FlowKit Reddit (5.4K), HumanLayer HITL (2.7K) — 8 publishers, 101 skills, 253K+ installs](/hermes/skills/marketplace/new-aug13-2026/)
