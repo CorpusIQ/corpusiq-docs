@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog — Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-08-14"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -436,3 +436,8 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [SquirrelScan Skills — Website Audit Tool Setup](/docs/hermes/skills/catalog/squirrelscan-skills-setup/)
 - [Solana Dev Skill — Blockchain Development Setup](/docs/hermes/skills/catalog/solana-dev-skill-setup/)
 - [Genkit Skills — Firebase Genkit AI Framework Setup](/docs/hermes/skills/catalog/genkit-skills-setup/)
+- [Firecrawl Skills — Web Scraping, Research & Workflow Suite Setup](/docs/hermes/skills/catalog/firecrawl-skills-setup/)
+- [Nexscope E-Commerce Skills — Shopify, Etsy, TikTok Shop & Marketplace Growth Setup](/docs/hermes/skills/catalog/nexscope-ecommerce-skills-setup/)
+- [SEO GEO Claude Skills — SEO & Generative Engine Optimization Suite Setup](/docs/hermes/skills/catalog/seo-geo-claude-skills-setup/)
+- [n8n Skills — Workflow Automation for Business Operators Setup](/docs/hermes/skills/catalog/n8n-skills-setup/)
+- [Review Loop Skill — Continuous Code Review Discipline Setup](/docs/hermes/skills/catalog/review-loop-skill-setup/)

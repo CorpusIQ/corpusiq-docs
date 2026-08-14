@@ -3,7 +3,7 @@ title: Skills Marketplace
 description: Discover and install community skills from skills.sh  --  290+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-08-14"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
@@ -12,9 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**826+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**832+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+
+- [🆕 August 14, 2026 (Afternoon) — Firecrawl Official Skills (1.47M installs, 4 repos), Nexscope E-Commerce (126K, 121 skills), SEO GEO Claude Skills (126K, 20 skills), n8n Skills (58K, 29 skills), Review Loop (24.6K, #1 hot) — 6 publisher clusters, 241 skills, 5 setup guides](/hermes/skills/marketplace/new-aug14-2026-afternoon/)
 
 - [🆕 August 14, 2026 — Chrome DevTools MCP Skills (8.5K installs, official Google), Oh My Hermes Suite (9-skill Hermes-native multi-agent orchestration) — 2 publisher clusters, 11 skills, 2 setup guides](/hermes/skills/marketplace/new-aug14-2026/)
 
@@ -259,7 +261,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 877+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 883+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 
