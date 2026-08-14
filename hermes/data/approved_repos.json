@@ -5178,5 +5178,63 @@
     "discovered_at": "2026-08-12T06:05:38.765824+00:00",
     "status": "approved",
     "approved_at": "2026-08-12T06:07:27.020159+00:00"
+  },
+  {
+    "name": "Devin-AXIS/iPolloWork",
+    "url": "https://github.com/Devin-AXIS/iPolloWork",
+    "description": "A next-generation, source-available AI workspace with a self-evolving agent runtime for editable code, design, presentations, websites, and video\u2014a Codex alternative that integrates DeepSeek Harness for subagent delegation, combining iPolloWork\u2019s complete AI workbench with DSH\u2019s specialized agents and both plugin ecosystems in one workflow.",
+    "stars": 3806,
+    "forks": 791,
+    "language": "HTML",
+    "topics": [
+      "agent-collaboration",
+      "agent-skills",
+      "ai-agents",
+      "ai-work",
+      "claude-code",
+      "codex",
+      "deepseek-harness",
+      "dsh-plugin",
+      "enterprise-agent-workspace",
+      "hermes-agent",
+      "openclaw",
+      "opencode",
+      "opencode-plugin",
+      "self-evolving-ai",
+      "visual-editor"
+    ],
+    "updated_at": "2026-08-14T08:05:30Z",
+    "category": "forks",
+    "score": 72,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_topic",
+      "high_stars_1000+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "MervinPraison/PraisonAI",
+      "EverMind-AI/EverOS",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "yang1989haoa-gif/synapse-studio",
+      "kaankacar/stellar-agent-kit",
+      "ahonore42/logios-brain",
+      "ruvnet/metaharness",
+      "PatterAI/Patter",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "liaohch3/claude-tap",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-14T08:06:02.270695+00:00",
+    "status": "approved",
+    "approved_at": "2026-08-14T08:07:50.593404+00:00"
   }
 ]

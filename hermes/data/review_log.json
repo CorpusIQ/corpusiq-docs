@@ -9104,5 +9104,68 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-14T07:06:35.095100+00:00"
+  },
+  {
+    "repo": "hew150/ha-addons",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T08:07:50.593417+00:00"
+  },
+  {
+    "repo": "djmcnay/araminta-skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T08:07:50.593420+00:00"
+  },
+  {
+    "repo": "liusencomic-cyber/douyin-agent-kit",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T08:07:50.593421+00:00"
+  },
+  {
+    "repo": "hawkxdev/hermes-deploy",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T08:07:50.593422+00:00"
+  },
+  {
+    "repo": "starroyhq/agentkib",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T08:07:50.593423+00:00"
+  },
+  {
+    "repo": "shawVV1992/dir-whip",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T08:07:50.593424+00:00"
+  },
+  {
+    "repo": "Fractera/Agent-Engineering-Infrastructure",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T08:07:50.593425+00:00"
+  },
+  {
+    "repo": "unixwzrd/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T08:07:50.593426+00:00"
+  },
+  {
+    "repo": "Devin-AXIS/iPolloWork",
+    "score": 72,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-08-14T08:07:50.593427+00:00"
   }
 ]

@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem — 165+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem — 166+ repos, tools, skills, and integrations
 last_updated: 2026-08-14
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **165+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **166+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **165+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **166+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -22,7 +22,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **165+ reposit
 | 🎬 Content & Media | 1 | Video, social media, content generation |
 | 🧠 Core Framework | 8 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 11 | Docker, Kubernetes, production hosting |
-| 🍴 Forks & Derivatives | 7 | Community forks with significant changes |
+| 🍴 Forks & Derivatives | 8 | Community forks with significant changes |
 || 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 6 | Model Context Protocol servers & integrations |
 || 💾 Memory & Knowledge | 38 | Persistent memory, knowledge graphs, context systems |
@@ -263,6 +263,14 @@ _Community forks with significant changes_
 >The memory-first, self-improving agent harness built on EverOS, with MiroThinker-powered deep research and reasoning.
 
 **Language:** Python | **Topics:** ai, ai-agents, anthropic, claude, deep-research, hermes, hermes-agent, llm, self-evolving | **Score:** 72/100
+
+---
+
+### [Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork) ⭐ 3,806
+
+>A next-generation, source-available AI workspace with a self-evolving agent runtime for editable code, design, presentations, websites, and video. A Codex alternative that integrates DeepSeek Harness for subagent delegation, combining iPolloWork's AI workbench with DSH's specialized agents and both plugin ecosystems in one workflow.
+
+**Language:** HTML | **Topics:** agent-collaboration, agent-skills, ai-agents, ai-work, claude-code, codex, deepseek-harness, dsh-plugin, enterprise-agent-workspace, hermes-agent, openclaw, opencode, opencode-plugin, self-evolving-ai, visual-editor | **Score:** 72/100
 
 ---
 
@@ -1381,6 +1389,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*165+ repositories in the Hermes ecosystem. Last updated: 2026-08-14. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*166+ repositories in the Hermes ecosystem. Last updated: 2026-08-14. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
