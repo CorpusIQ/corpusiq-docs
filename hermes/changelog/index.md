@@ -3,7 +3,7 @@ title: Hermes Agent Changelog
 description: Version history and release notes for NousResearch Hermes Agent. Track new features, breaking changes, and upgrades.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-08-14"
 tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
@@ -16,6 +16,7 @@ Track every Hermes Agent release. New versions are auto-detected and documented 
 
 | Version | Date | Name | Highlights |
 |---------|------|------|------------|
+| [v0.20.1](/hermes/changelog/v0.20.1/) | August 13, 2026 | Patch Release | 1,444 commits, ~656 PRs: stabilization across desktop app, gateway platforms, installers, tool system, provider catalogs — full notes with v0.21.0 |
 | [v0.20.0](/hermes/changelog/v0.20.0/) | August 3, 2026 | The Herald Release | Streaming conversational voice, A2A v1.0, grounded citations, desktop artifacts + plugin SDK, CLI power commands, tool self-recovery, smarter compression — 3,650 commits, 647 contributors |
 | [v0.19.1](/hermes/changelog/v0.19.1/) | July 30, 2026 | Patch Release | ~3,087 commits: gateway stability, voice fixes, Telegram media, FLUX3 video, Buzz/Nostr, installer patches |
 | [v0.19.0](/hermes/changelog/v0.19.0/) | July 20, 2026 | The Quicksilver Release | ~80% first-token speed improvement, terminal billing, Bitwarden/1Password secrets, smart approvals, durable delivery ledger, live subagent transcripts, GPT-5.6/grok-4.5/kimi-k3, 450+ contributors |
