@@ -53,9 +53,9 @@ bridge:
   protocol: "stdio"       # or "http" for remote agents
   peer_agents:
     - name: "dev-hermes"
-      endpoint: "http://10.0.0.50:9090"
+      endpoint: "http://agent-a.local:9090"
     - name: "ops-hermes"
-      endpoint: "http://10.0.0.51:9090"
+      endpoint: "http://agent-b.local:9090"
   auth_token: "${BRIDGE_AUTH_TOKEN}"
 ```
 

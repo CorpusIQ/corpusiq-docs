@@ -39,7 +39,9 @@ The repo is actively maintained with daily automated updates:
 - **Connector count consistency ✅ (Aug 10, 2026):** Website updated to "40+ connected business tools." Normalized README.md (6 instances) from 37+ → 40+ to match corpusiq.io. Remaining 37+ instances in older published-content/ and hermes/launch/ files are technically still true (40 > 37) but flagged for next sweep.
 - **Screenshots:** Quickstart screenshots pending — low priority, no user complaints.
 - **DOC-GAP connectors:** 7 connectors (amazon_seller, gohighlevel, google_workspace, gunbroker, mongodb, postgres, postscript) in the connector registry need verified vendor setup steps — tracked in connector registry, not docs repo.
-- **Sitemap dates:** Updated to 2026-08-10 (previously all showing 2026-06-17).
+- **Sitemap dates ✅ (Aug 14, 2026):** Updated hermes-sitemap.xml (193 URLs) + sitemap-index.xml from 2026-06-17 to 2026-08-14.
+- **Stale dates ✅ (Aug 14, 2026):** 43 top-level docs/ SEO pages refreshed from 2026-07 → 2026-08-14.
+- **Sanitization ✅ (Aug 14, 2026):** Removed invented 10.0.0.50/51 example IPs from hermes-plugins-42evey-setup.md (not in upstream repo) → replaced with agent-a.local/agent-b.local. Meshtastic 10.0.0.100 example verified as upstream content, kept.
 
 ---
 

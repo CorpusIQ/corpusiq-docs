@@ -3,7 +3,7 @@ title: "Connect SharePoint to ChatGPT via MCP -- Live Data, No"
 description: "Connect your SharePoint account to ChatGPT through CorpusIQ MCP. Ask natural language questions about your sharepoint data and get real-time, source-cited"
 category: ChatGPT Integrations
 tags: ["connect SharePoint to ChatGPT", "SharePoint ChatGPT integration", "MCP SharePoint connector", "SharePoint data to ChatGPT", "AI for SharePoint", "CorpusIQ MCP"]
-last_updated: 2026-07-08
+last_updated: "2026-08-14"
 canonical: https://www.corpusiq.io/docs/connect-sharepoint-to-chatgpt
 robots: index,follow
 ---

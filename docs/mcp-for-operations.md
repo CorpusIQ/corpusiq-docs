@@ -3,7 +3,7 @@ title: "MCP for Operations: AI-Powered Data Access"
 description: "How operations teams use MCP servers to connect QuickBooks, CRMs, and analytics to AI assistants like ChatGPT and Claude. Real-time business data access"
 category: MCP Education
 tags: ["MCP for operations", "operations AI analytics", "AI for operations teams", "connect business data to ChatGPT", "no-code AI business intelligence", "operations data integration"]
-last_updated: 2026-07-08
+last_updated: "2026-08-14"
 canonical: https://www.corpusiq.io/docs/mcp-for-operations
 robots: index,follow
 ---

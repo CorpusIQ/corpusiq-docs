@@ -3,7 +3,7 @@ title: "Connect Stripe to Claude via MCP -- Live Data, No Code"
 description: "Connect your Stripe account to Claude through CorpusIQ MCP. Ask natural language questions about your stripe data and get real-time, source-cited answers"
 category: Claude Integrations
 tags: ["connect Stripe to Claude", "Stripe Claude integration", "MCP Stripe connector", "Stripe data to Claude", "AI for Stripe", "CorpusIQ MCP"]
-last_updated: 2026-07-08
+last_updated: "2026-08-14"
 canonical: https://www.corpusiq.io/docs/connect-stripe-to-claude
 robots: index,follow
 ---
