@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 13, 2026 (midday sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (33 submissions), mcp.so + mcpservers.org + GitHub server detail pages · **Catalog:** 174 servers (+68 guides)
+> **Last updated:** August 13, 2026 (evening sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 179 servers (+72 guides)
 
 ---
 
@@ -55,6 +55,36 @@ Source-grounded videos, slides, and interactive knowledge content from your own 
 **Also identified (not catalogued):** ViewMade (YouTube research/SEO/video production — listing page is only a support page, no MCP endpoint or tool docs), TrueSend (email marketing ESP — listing page is homepage marketing copy, no MCP surface documented), Folklore Variant Evidence (helena.bio genomics variant classification — healthcare niche), AgentBrink (agent identity infra — already noted Aug 12 evening), plus the usual dev-tool/consumer entries (PyPI MCP, x402 tooling, GetLulu micro-utilities — previously noted). One junk slug on /all page 2 (exposed-port OpenClaw host dump) excluded.
 
 **Key observation:** The human-approval-gate pattern the Aug 12 sweeps flagged in content tools (Prose Coach, BanProof) is now the default architecture across new production MCPs in every domain — BusyMail (token can never send), Shipstar (approve before publish), OnePostly (read_only keys), DialNexa (safety-level classification with approvals before billable or destructive calls). Approval gates moved from content into email, marketing, social, and voice. Second, voice AI gained its first full-platform MCP (DialNexa). Third, EU public procurement surfaced as a vertical (TED Tender Monitor) — the first procurement entry in the catalog.
+
+---
+
+## 🆕 August 13, 2026 — Evening Sweep (5 New, 4 Guides)
+
+Follow-up to the Aug 13 midday sweep. Scanned mcpservers.org /all pages 1-3 (newest slugs) and mcp.so Feed (30 newest submissions, 2 hours to 6 days old). 5 new business-relevant servers found — ad creative intelligence, PHI-safe healthcare forms, agent sequence enforcement, a prompt-injection gate, and biotech process economics. [Full sweep report →](/hermes/mcp/sweeps/sweep-august13-2026-evening/)
+
+### Alison AI MCP ★★★ — August 13 evening
+
+Creative intelligence from your ad accounts inside any MCP client — spend and KPIs, creative tags, competitor intelligence (SensorTower/Pathmatics), and creative previews. 14 read-only tools; OAuth 2.1 PKCE with server-side grant scoping — the grant decides what the client can see, and revocation is immediate. `evo.alison.ai/mcp` (commercial) · [Guide →](/hermes/mcp/servers/external/alison-ai-mcp/)
+
+### easydocforms MCP ★★ — August 13 evening
+
+Healthcare intake forms over MCP with a PHI-minimization design — the agent imports a blank PDF, hands the patient a hosted fill link, and retrieves the completed PDF; PHI never enters agent context. Docker-hosted (ghcr.io/easydocforms/easydocforms-mcp), API key auth, MIT. `github.com/easydocforms/easydocforms-mcp` · [Guide →](/hermes/mcp/servers/external/easydocforms-mcp/)
+
+### AgenticRail Gate MCP ★★ — August 13 evening
+
+Deterministic step-order enforcement for AI agents — evaluate_step returns ALLOW/DENY before a step runs and every ALLOW writes an Ed25519-signed, hash-chained receipt stored as a tamper-evident compliance record; verify_receipt proves chain integrity. Public demo key, no auth required. `mcp.agenticrail.nz` · [Guide →](/hermes/mcp/servers/external/agenticrail-gate-mcp/)
+
+### glc PromptGuard ★★ — August 13 evening
+
+Eight-layer source-aware prompt-injection gate — checks user prompts, RAG chunks, and tool outputs before they reach the model or tool loop. Intent × source × impact scoring with typed verdicts; agent self-registration tokens. `mcp.glc-rag.hu/mcp` · [Guide →](/hermes/mcp/servers/external/glc-promptguard-mcp/)
+
+### Untangle Bio MCP ★ — August 13 evening (catalog entry)
+
+Self-serve biotech process design — generate downstream purification routes, simulate separations, and run techno-economic analysis (CAPEX/OPEX/payback) from Claude via MCP or the web app. Vertical niche; notable as the TEA-over-MCP pattern. `untangle.bio` (commercial)
+
+**Also identified (not catalogued):** Imag8 Studio (style-locked image generation — listing is a one-liner with no MCP tool docs), AppaTools MCP Studio (no-code MCP server builder — dev tool), plus repeats already skipped in prior sweeps (Syncro, LabTestSuperstore, SceneF, FLINT Network, Constants, Faxer, Departi, LocalCan, x402 tooling, GetLulu micro-utilities, exposed-port junk slugs on /all pages 2-3). **Catalog fix:** NERAI Risk Intelligence has had a guide and docs link since Aug 11 but no catalog body entry — added under Compliance & Regulatory.
+
+**Key observation:** The five servers split into three patterns. (1) Platform MCPs now expose read-only analytics warehouses with server-side grant scoping — Alison Evo's "the grant decides, not the client" is the enforcement philosophy CorpusIQ ships natively. (2) Data-minimization is becoming a product feature — easydocforms' PHI-never-enters-context design extends the approval-gate pattern from actions to data itself. (3) The verify-before-act layer keeps thickening — AgenticRail's signed receipt chains and glc PromptGuard's source-aware injection gate join VerityLayer and FLINT as agent-governance rails, making this the fastest-growing new segment in the ecosystem.
 
 ---
 
@@ -914,6 +944,9 @@ Trading-focused MCP server. Provides AI agents with trading data, market access,
 
 ## Document Intelligence
 
+### easydocforms MCP ★ New (Aug 13)
+Healthcare intake forms over MCP with a PHI-minimization design — import a blank PDF, hand the patient a hosted fill link, retrieve the completed PDF; PHI never enters agent context. Docker-hosted, API key auth, MIT. [Integration Guide](/hermes/mcp/servers/external/easydocforms-mcp/)
+
 ### Sifter
 Extracts structured, typed records from documents (PDFs, scans, contracts, invoices) using natural-language field specs. Agents can query and aggregate  --  exact counts, sums, filters, with source-page citations. Unlike RAG, answers collection-wide questions.
 
@@ -1237,6 +1270,15 @@ Give AI agents their own local mailbox to read, send, and triage email via MCP. 
 ---
 
 ## Compliance & Regulatory
+
+### AgenticRail Gate MCP ★ New (Aug 13)
+Deterministic step-order enforcement for AI agents — evaluate_step returns ALLOW/DENY before each step; every ALLOW writes an Ed25519-signed, hash-chained receipt stored as a tamper-evident compliance record. verify_receipt proves chain integrity. Public demo key, no auth. `mcp.agenticrail.nz`. [Integration Guide](/hermes/mcp/servers/external/agenticrail-gate-mcp/)
+
+### glc PromptGuard ★ New (Aug 13)
+Eight-layer source-aware prompt-injection gate — checks user prompts, RAG chunks, and tool outputs before they reach the model or tool loop. Intent × source × impact scoring with typed verdicts (injection true/false, score, intent, policy). Agent self-registration tokens. `mcp.glc-rag.hu/mcp`. [Integration Guide](/hermes/mcp/servers/external/glc-promptguard-mcp/)
+
+### NERAI Risk Intelligence MCP ★ New (Aug 11)
+Geopolitical grounding layer for AI agents — 60 countries, calibrated forecasts, maritime risk — exposed as a tool call. For procurement, trading, and compliance agents. [Integration Guide](/hermes/mcp/servers/external/nerai-risk-intelligence-mcp/)
 
 ### Threat Modeling and Security Scanning MCP ★ New (July 14)
 Threat modeling, code, cloud and pipeline scanning, shadow-AI discovery, compliance checks and fixes from your AI assistant. Overlaps with SaferAgenticAI. INDEX ONLY.
@@ -1923,12 +1965,18 @@ Generate finished, on-brand designs — logos, social posts, app-store screensho
 
 ## Manufacturing & Hardware
 
+### Untangle Bio MCP ★ New (Aug 13)
+Self-serve biotech process design — generates downstream purification routes, simulates separations, and runs techno-economic analysis (CAPEX/OPEX/payback) from Claude via MCP or the web app. Vertical niche; notable as the TEA-over-MCP pattern. `untangle.bio` (commercial)
+
 ### Bambu Printer MCP ★ New (July 1)
 Control Bambu Lab 3D printers, edit STL files, and manage 3MF print workflows via MCP. AI agents can start prints, monitor progress, edit models. Compatible with Bambu CLI, Bambu Studio, Klipper, OctoPrint, Moonraker, and other 3D printing ecosystems. Essential for manufacturing and prototyping operators with Bambu Lab printers who want to automate print workflows through AI agents. Niche but growing — Bambu Lab is the fastest-growing 3D printer brand in consumer and prosumer markets. `github.com/offthehook-implication870/bambu-printer-mcp`
 
 ---
 
 ## Marketing
+
+### Alison AI MCP ★ New (Aug 13)
+Creative intelligence from your ad accounts inside any MCP client — spend and KPIs, creative tags, competitor intelligence (SensorTower/Pathmatics), and creative previews. 14 read-only tools; OAuth 2.1 PKCE with server-side grant scoping — the grant is the ceiling, revocation is immediate. `evo.alison.ai/mcp` (commercial). [Integration Guide](/hermes/mcp/servers/external/alison-ai-mcp/)
 
 ### OpenAI Ads MCP Server ★ New
 OpenAI Ads and ChatGPT Ads MCP server for the OpenAI Advertiser API  --  typed tools for campaigns, creatives, audiences, and insights. Advertising campaign management for operators running paid acquisition on OpenAI/ChatGPT platforms.
@@ -3301,3 +3349,10 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Shipstar MCP — Product Marketing Automation from Commits](/docs/hermes/mcp/servers/external/shipstar-mcp/)
 - [DialNexa MCP — Voice AI Agent Platform over MCP](/docs/hermes/mcp/servers/external/dialnexa-mcp/)
 - [TED Tender Monitor — EU Procurement Monitoring for AI Agents](/docs/hermes/mcp/servers/external/ted-tender-monitor/)
+
+### 4 new servers from mcpservers.org /all + mcp.so Feed — Aug 13, 2026 (evening sweep)
+
+- [Alison AI MCP — Creative Intelligence for Ad Accounts](/docs/hermes/mcp/servers/external/alison-ai-mcp/)
+- [easydocforms MCP — PHI-Safe Healthcare Intake Forms for AI Agents](/docs/hermes/mcp/servers/external/easydocforms-mcp/)
+- [AgenticRail Gate MCP — Step-Order Enforcement with Compliance Receipts](/docs/hermes/mcp/servers/external/agenticrail-gate-mcp/)
+- [glc PromptGuard MCP — Prompt-Injection Gate for User Prompts, RAG Chunks, and Tool Outputs](/docs/hermes/mcp/servers/external/glc-promptguard-mcp/)
