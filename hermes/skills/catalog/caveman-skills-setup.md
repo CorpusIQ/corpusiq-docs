@@ -1,6 +1,6 @@
 ---
 title: Caveman Skills — Agent Coding Workflow Suite Setup Guide for Hermes Agents
-description: Install juliusbrussee/caveman (2.2M combined installs) — 23 skills for caveman-style agent coding: commits, reviews, context compression, stats, multi-agent crews, and evidence-driven fixes.
+description: "Install juliusbrussee/caveman (2.2M combined installs) — 23 skills for caveman-style agent coding: commits, reviews, context compression, stats, multi-agent crews, and evidence-driven fixes."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/caveman-skills-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"

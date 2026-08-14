@@ -1,6 +1,6 @@
 ---
 title: New Skills — August 12, 2026 (Evening)
-description: Evening skills.sh sweep — 7 new publisher clusters, 198 skills, 31M+ installs: Lark/Feishu office suite (25M), RigorPilot research (2.6M), Caveman workflow (2.2M), Skills-101 Superpowers (488K), Warp Common Skills (411K), Uizze UI quality (395K), Stably Orca (318K).
+description: "Evening skills.sh sweep — 7 new publisher clusters, 198 skills, 31M+ installs: Lark/Feishu office suite (25M), RigorPilot research (2.6M), Caveman workflow (2.2M), Skills-101 Superpowers (488K), Warp Common Skills (411K), Uizze UI quality (395K), Stably Orca (318K)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug12-2026-evening/"
 robots: "index,follow"
 last_updated: "2026-08-12"

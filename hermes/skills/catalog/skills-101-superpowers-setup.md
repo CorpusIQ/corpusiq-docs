@@ -1,6 +1,6 @@
 ---
 title: Skills-101 Superpowers — AI Media & Automation Pack Setup Guide for Hermes Agents
-description: Install skills-101/superpowers (488.4K combined installs) — 86 skills: AI video/image/avatar generation, ElevenLabs audio cluster, twitter automation, agent browser, Remotion rendering, and growth playbooks.
+description: "Install skills-101/superpowers (488.4K combined installs) — 86 skills: AI video/image/avatar generation, ElevenLabs audio cluster, twitter automation, agent browser, Remotion rendering, and growth playbooks."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skills-101-superpowers-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"
