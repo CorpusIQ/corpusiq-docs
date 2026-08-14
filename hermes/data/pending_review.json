@@ -36767,5 +36767,137 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-14T05:05:12.675471+00:00",
     "status": "pending"
+  },
+  {
+    "name": "justinbowes/hermes-mnemosyne",
+    "url": "https://github.com/justinbowes/hermes-mnemosyne",
+    "description": "Thin derived image: Hermes Agent with the Mnemosyne memory provider baked in",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-14T06:02:43Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-14T06:05:25.275440+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "LoveMaker-art/liveware-tavern",
+    "url": "https://github.com/LoveMaker-art/liveware-tavern",
+    "description": "Open-source multi-character Tavern Liveware for Hermes Agent and ClawChat, with verified in-place updates.",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-14T06:01:44Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-14T06:05:28.277896+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "gutomec/nirvana-os-engine",
+    "url": "https://github.com/gutomec/nirvana-os-engine",
+    "description": "Nirvana-OS \u2014 source-available engine for agentic work (squads, businesses, mind-clones). Developed in the open. Runtime-agnostic: Claude Code, Codex, Gemini-CLI, Antigravity, Hermes.",
+    "stars": 55,
+    "forks": 17,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-14T06:05:25Z",
+    "category": "forks",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "tale-project/tale",
+      "ruvnet/metaharness",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-14T06:05:51.464907+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "justinbowes/hermes-agent",
+    "url": "https://github.com/justinbowes/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-14T06:04:31Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-14T06:05:54.468259+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "darker2016/WorkbuddySkillGroups4DSH",
+    "url": "https://github.com/darker2016/WorkbuddySkillGroups4DSH",
+    "description": "WorkBuddy \u4e13\u5bb6\u56e2 Skill \u5f00\u6e90\u5305 \u2192 DeepSeek Harness (dsh) \u63d2\u4ef6\u5f0f skillgroups \u5305\uff1a44 \u4e2a\u591a\u89d2\u8272\u4e13\u5bb6\u56e2\u961f SKILL.md bundle\uff0c\u652f\u6301 ~/.dsh/skills \u5b89\u88c5\u4e0e Cordis \u63d2\u4ef6\u6ce8\u518c\u3002WorkBuddy expert-team skill groups repackaged as a DeepSeek Harness plugin skillgroups pack (44 SKILL.md bundles).",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "claude-code",
+      "deepseek-harness",
+      "dsh-plugin",
+      "hermes-agent",
+      "meta-skill",
+      "openclaw",
+      "skill-generator"
+    ],
+    "updated_at": "2026-08-14T06:04:21Z",
+    "category": "forks",
+    "score": 41,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-14T06:05:57.471720+00:00",
+    "status": "pending"
   }
 ]

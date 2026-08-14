@@ -9013,5 +9013,40 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-14T05:05:43.228430+00:00"
+  },
+  {
+    "repo": "justinbowes/hermes-mnemosyne",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T06:07:46.327505+00:00"
+  },
+  {
+    "repo": "LoveMaker-art/liveware-tavern",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T06:07:46.327518+00:00"
+  },
+  {
+    "repo": "gutomec/nirvana-os-engine",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T06:07:46.327521+00:00"
+  },
+  {
+    "repo": "justinbowes/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T06:07:46.327523+00:00"
+  },
+  {
+    "repo": "darker2016/WorkbuddySkillGroups4DSH",
+    "score": 41,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-14T06:07:46.327524+00:00"
   }
 ]
