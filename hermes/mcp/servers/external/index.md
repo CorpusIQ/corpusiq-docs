@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 14, 2026 (morning sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 189 servers (+80 guides)
+> **Last updated:** August 14, 2026 (midday sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 191 servers (+82 guides)
 
 ---
 
@@ -63,6 +63,26 @@ Mechanical citation and claim checks for AI-generated documents — seven checks
 **Also identified (not catalogued):** PolymarketScan (Polymarket prediction-market analytics — crypto), CoinLobster (whale-trade signals — crypto), FARPY (GPU Blender rendering — dev infra), AI Image Cleaner and EraseText (consumer photo/text-removal tools), GOJI (single-agency AEO/SEO knowledge base), Picorn (generic image/video project tool), Teai.io (MCP monetization gateway — a listing venue, not a server; worth revisiting as a directory target for CorpusIQ itself). Folklore variant evidence was already noted Aug 13.
 
 **Key observation:** Ad creative moved fully onto MCP this cycle — Hermoso (415 tools, 50+ models, generation not just scheduling), Shhots (UGC/cinematic/photoshoot generation), and Waldo (ad-library research) now form a complete research → generate → publish → measure loop across separate vendors. Second, Vertice's official connector is the first procurement-platform MCP, extending the platform-MCP pattern (Atlassian, Apollo, Monday) into SaaS spend. Third, vertical tax tooling surfaced with Cost Seg Smart — quoting with ROI math before the study is sold, the same pay-per-outcome pattern seen in x402 and credit-metered servers.
+
+---
+
+## 🆕 August 14, 2026 — Midday Sweep (2 New, 2 Guides)
+
+Scanned mcpservers.org /all pages 1-3 (newest submissions) and mcp.so Feed (30 newest submissions). 2 new business-relevant servers found — a social-media-management platform MCP and an official CDN-ops server. Plus one catalog fix (Holdings body entry).
+
+### RADAAR MCP ★★★ — August 14 midday
+
+Official social media management MCP from RADAAR — publish, schedule, unified inbox, listening, and analytics across 20+ channels (Instagram, X, LinkedIn, TikTok, YouTube, Threads, Pinterest, Bluesky, Mastodon, Google Business Profile, WordPress) from any MCP client. Six tool modules (publishing_*, inbox_*, monitoring_*, analytics_*, utilities_*, settings_*/subscriptions_*); OAuth, Streamable HTTP. `mcp.radaar.io` (commercial) · [Guide →](/hermes/mcp/servers/external/radaar-mcp/)
+
+### BlazingCDN MCP ★★ — August 14 midday
+
+Official MCP server for BlazingCDN — 52 tools for Anycast CDN, cache operations, bandwidth metrics, custom domains, Cloud Storage and Video CDN, self-hosted via npx. API token auth; write tools gated by `BLAZINGCDN_ALLOW_WRITE=1`. MIT. `github.com/BlazingCDN/BlazingCDN-MCP` · [Guide →](/hermes/mcp/servers/external/blazingcdn-mcp/)
+
+**Catalog fix:** Holdings MCP (agentic invoicing/payments) — guide written Aug 10, body entry never landed. Added under Financial Data (no count change, unindexed-guides rule).
+
+**Also identified (not catalogued):** MarkupBase (secure versioned workspace for agent-published artifacts — vendor MCP page is a JS-only shell with no tools, auth, or endpoint published; thin-docs rule). Feed repeats already catalogued this cycle: Vertice, Waldo, Hermoso, Shhots, Cost Seg Smart, HelpDocs, Graspil, OnePostly, Just Domain, Fakto wFirma, BusyMail, KPainter, EM+x, Prose Coach, ROIC.ai, cloro, BanProof, Stoxly, TED Tender Monitor, Citation Check, Customer Intelligence & Segmentation, Viral Outliers, easydocforms, NERAI. Previously skipped repeats: Syncro, LabTestSuperstore, SceneF, Faxer, Departi, Conqueror, CR8 Agent Commons, x402 tooling, directree, crosscode-cli, SportsTrackLive, scvd.store, FARPY, CoinLobster, PolymarketScan, AI Image Cleaner, EraseText, GOJI, Picorn, Teai.io, Snipara.
+
+**Key observation:** The social-management platform category gained its second full MCP in five days — RADAAR joins OnePostly (Aug 13) with an official connector covering scheduling, inbox, listening, and analytics. The publish layer of social ops is now fully agent-addressable end to end. CDN operations (BlazingCDN) followed the official-vendor-MCP pattern on the infra side.
 
 ---
 
@@ -743,6 +763,9 @@ Dedicated MCP server for PortEden's Google Sheets data firewall. Read, write, an
 ## Financial Data
 
 
+### Holdings MCP ★★★ — Aug 14 (midday, catalog fix)
+Agentic invoicing and payments — draft invoices, preview, send on confirmation; clients pay by card or ACH. stdio (`npx -y @getholdings/mcp`) or Streamable HTTP (`mcp.getholdings.com/mcp`), API key. Free, no monthly fee. Guide written Aug 10; body entry added now (unindexed-guides fix). [Integration Guide](/hermes/mcp/servers/external/holdings-mcp/)
+
 ### CarDossier MCP Server ★ New (June 30)
 MCP Server for CarDossier Poland Market API — real-time used car market data: valuations, price history, liquidity metrics, and market trends. Essential for automotive operators, fleet managers, and insurance in the Polish and broader EU used-car market. `github.com/Joyall-au/cardossier-mcp-server`
 
@@ -1395,6 +1418,9 @@ AI legal counsel research MCP — frontier-lab commercial commitments, safety-fr
 ## Development & Infrastructure
 
 
+### BlazingCDN MCP ★★ — Aug 14 (midday)
+Official MCP server for BlazingCDN — 52 tools for Anycast CDN, cache operations, bandwidth metrics, custom domains, Cloud Storage and Video CDN. Self-hosted via `npx -y @blazingcdn/mcp`; API token auth; write tools gated by `BLAZINGCDN_ALLOW_WRITE=1`. MIT. `github.com/BlazingCDN/BlazingCDN-MCP`. [Integration Guide](/hermes/mcp/servers/external/blazingcdn-mcp/)
+
 ### Bothread MCP ★ New (July 13)
 Local room where AI coding agents collaborate on one codebase via MCP — collisions prevented, human in command. By AdamACE9. Developer tool for multi-agent coding workflows.
 
@@ -2024,6 +2050,9 @@ Control Bambu Lab 3D printers, edit STL files, and manage 3MF print workflows vi
 ---
 
 ## Marketing
+
+### RADAAR MCP ★★★ — Aug 14 (midday)
+Official social-media-management MCP from RADAAR — publish, schedule, unified inbox, listening, and analytics across 20+ channels (Instagram, X, LinkedIn, TikTok, YouTube, Threads, Bluesky, Mastodon, Google Business Profile, WordPress) from any MCP client. Six tool modules (publishing_*, inbox_*, monitoring_*, analytics_*, utilities_*, settings_*/subscriptions_*); OAuth, Streamable HTTP at `mcp.radaar.io`. [Integration Guide](/hermes/mcp/servers/external/radaar-mcp/)
 
 ### Alison AI MCP ★ New (Aug 13)
 Creative intelligence from your ad accounts inside any MCP client — spend and KPIs, creative tags, competitor intelligence (SensorTower/Pathmatics), and creative previews. 14 read-only tools; OAuth 2.1 PKCE with server-side grant scoping — the grant is the ceiling, revocation is immediate. `evo.alison.ai/mcp` (commercial). [Integration Guide](/hermes/mcp/servers/external/alison-ai-mcp/)
@@ -3417,3 +3446,9 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Cost Seg Smart MCP — Cost Segregation Pricing for Real Estate](/docs/hermes/mcp/servers/external/cost-seg-smart-mcp/)
 - [HelpDocs MCP — Knowledge Base Search, Editing & Analytics](/docs/hermes/mcp/servers/external/helpdocs-mcp/)
 - [Graspil MCP — Telegram Analytics, Broadcast & Automation](/docs/hermes/mcp/servers/external/graspil-mcp/)
+
+### 2 new servers from mcpservers.org /all + mcp.so Feed — Aug 14, 2026 (midday sweep)
+
+- [RADAAR MCP — Social Media Management Across 20+ Channels](/docs/hermes/mcp/servers/external/radaar-mcp/)
+- [BlazingCDN MCP — CDN Operations, Cache & Bandwidth for AI Agents](/docs/hermes/mcp/servers/external/blazingcdn-mcp/)
+- [Holdings MCP — Agentic Invoicing & Payments (catalog fix)](/docs/hermes/mcp/servers/external/holdings-mcp/)
