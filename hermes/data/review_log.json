@@ -9195,5 +9195,159 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-14T09:17:41.068512+00:00"
+  },
+  {
+    "repo": "PerkOS-xyz/PerkOS",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281639+00:00"
+  },
+  {
+    "repo": "ShugokiFable/Ultimate-AI-Starter-Bundle",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281651+00:00"
+  },
+  {
+    "repo": "uthumany/hermes-skillforge",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281653+00:00"
+  },
+  {
+    "repo": "ruiatelsevier/codex-project-manager",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281655+00:00"
+  },
+  {
+    "repo": "novkien/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281657+00:00"
+  },
+  {
+    "repo": "Qiskdbwob/Hermes-Mobile",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281659+00:00"
+  },
+  {
+    "repo": "jazzzzmaybe/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281661+00:00"
+  },
+  {
+    "repo": "vancity-in/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281663+00:00"
+  },
+  {
+    "repo": "lancecheney/hermes-feishu",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281664+00:00"
+  },
+  {
+    "repo": "mustafacem/hermes-budget-explore",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281666+00:00"
+  },
+  {
+    "repo": "minglong51/agent-usage-manager",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T06:04:43.495513+00:00"
+  },
+  {
+    "repo": "back1992/hermes-plugin-ai-company",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T06:04:43.495526+00:00"
+  },
+  {
+    "repo": "SialkiLabs/Suno-Hmnn-MCP",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T06:04:43.495527+00:00"
+  },
+  {
+    "repo": "dexi/hermes-plugin",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T06:04:43.495528+00:00"
+  },
+  {
+    "repo": "sub4biz/gbrain",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T06:04:43.495529+00:00"
+  },
+  {
+    "repo": "timothybrush/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T06:04:43.495530+00:00"
+  },
+  {
+    "repo": "0xphuong/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T07:05:08.960836+00:00"
+  },
+  {
+    "repo": "ykoh42/async-hermes-agent",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T07:05:08.960850+00:00"
+  },
+  {
+    "repo": "DECRUX9812/Hermes-Bot-Mode",
+    "score": 43,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T07:05:08.960853+00:00"
+  },
+  {
+    "repo": "pgill/hermes-agent-template",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T07:05:08.960855+00:00"
+  },
+  {
+    "repo": "hermeshunt99/hermes-render",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T08:05:19.048307+00:00"
+  },
+  {
+    "repo": "transpara-ai/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T08:05:19.048320+00:00"
   }
 ]
