@@ -73,7 +73,7 @@ Tokens are created under Settings → MCP. An account is required, and BusyMail 
 
 ## Integration with CorpusIQ
 
-BusyMail and CorpusIQ occupy different halves of the email problem and compose cleanly. CorpusIQ's Gmail connectors (Google Workspace) are the business data layer — the dual media@/info@ inbox monitoring, the metrics, the CRM writes. BusyMail is the operator's personal execution layer with the approval gate. An operator can run both: CorpusIQ watches the business inboxes and feeds leads into HubSpot or Close, while BusyMail gives the same operator an approval-gated assistant over personal IMAP mail. Two different trust models, one clear boundary.
+BusyMail and CorpusIQ occupy different halves of the email problem and compose cleanly. CorpusIQ's Gmail connectors (Google Workspace) are the business data layer — business inbox monitoring, the metrics, the CRM writes. BusyMail is the operator's personal execution layer with the approval gate. An operator can run both: CorpusIQ watches the business inboxes and feeds leads into HubSpot or Close, while BusyMail gives the same operator an approval-gated assistant over personal IMAP mail. Two different trust models, one clear boundary.
 
 ## Limitations
 

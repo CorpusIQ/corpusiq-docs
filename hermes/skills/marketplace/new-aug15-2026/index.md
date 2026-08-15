@@ -114,6 +114,6 @@ Carry-over queue from prior sweeps (not re-drafted this cycle): amazonappdev/dev
 
 ## Sweep Notes
 
-- Mac Mini unreachable this cycle (SSH timeout on `medias-mac-mini.local`); sweep ran entirely from the Spark clone `~/corpusiq-docs` with push auth verified at `CorpusIQ/corpusiq-docs`
+- Sweep ran from a local clone with push auth verified at `CorpusIQ/corpusiq-docs` (no remote worker available this cycle)
 - Publisher-page install counts used everywhere; API sums undercount (e.g. jackwener/opencli 22.4K API vs 97.8K publisher page; liarjsdev 13.2K API vs 51.9K publisher page)
 - HOT leaderboard (1H delta) surfaced agent-pulse as the freshest new cluster

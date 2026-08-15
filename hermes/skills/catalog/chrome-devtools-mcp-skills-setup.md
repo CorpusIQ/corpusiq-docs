@@ -73,7 +73,7 @@ The server starts Chrome automatically on first tool call using a persistent pro
 chrome-devtools list_pages
 chrome-devtools take_snapshot          # uid-based element snapshot
 chrome-devtools click --uid 1_3
-chrome-devtools fill --uid 1_4 --value "hello@corpusiq.io"
+chrome-devtools fill --uid 1_4 --value "hello@example.com"
 chrome-devtools navigate_page --url https://www.corpusiq.io/docs/
 chrome-devtools evaluate_script --function "() => document.title"
 ```

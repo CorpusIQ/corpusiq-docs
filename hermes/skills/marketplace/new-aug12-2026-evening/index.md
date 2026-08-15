@@ -88,7 +88,7 @@ Smaller clusters surfaced by the trending/hot leaderboards, tracked for future s
 
 1. Pulled the skills.sh homepage (all-time), `/trending` (24h), and `/hot` leaderboards
 2. Extracted ~35 candidate publishers from leaderboard entries
-3. Cross-referenced each against the full 1,500+ file corpusiq-docs tree on the Mac Mini
+3. Cross-referenced each against the full 1,500+ file corpusiq-docs tree in the local clone
 4. Zero-hit publishers → publisher page fetch → install counts + skill inventory
 5. 7 setup guides drafted for clusters at 300K+ installs; smaller clusters logged above
 
