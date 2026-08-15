@@ -3,7 +3,7 @@ title: Skills Marketplace
 description: Discover and install community skills from skills.sh  --  290+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
-last_updated: "2026-08-14"
+last_updated: "2026-08-15"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
@@ -12,9 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**840+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**850+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+
+- [🆕 August 15, 2026 — CaffeineLabs Extensions (259.4K, 39 skills), OpenCLI (97.8K), CMUX (76.3K), Agentix CEO (52.0K), LiarJS Fingerprint (51.9K), Huashu Design (42.9K), Replicas Agent (34.7K), Design Doc Mermaid (34.2K), Agent Pulse (32.4K), Academic Research (26.4K) — 10 publisher clusters, 88 skills, 10 setup guides](/hermes/skills/marketplace/new-aug15-2026/)
 
 - [🆕 August 14, 2026 (Evening) — Flutter Agent Plugins (538.2K, official), ECC Engineering Suite (466.2K, 292 skills), Sentry CLI (127.3K, official), Awesome LLM Apps (79.7K), Pexo Video (62.5K), SEOJuice (51.8K), Better UI (51.3K), CodeRabbit (15.9K, official) — 8 publisher clusters, 458 skills, 8 setup guides](/hermes/skills/marketplace/new-aug14-2026-evening/)
 
@@ -263,7 +265,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 891+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 901+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 

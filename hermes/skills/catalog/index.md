@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog — Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-08-14"
+last_updated: "2026-08-15"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -449,3 +449,13 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Better UI Skills — Interface Polish Suite Setup](/docs/hermes/skills/catalog/better-ui-skills-setup/)
 - [CodeRabbit Skills — AI Code Review Setup](/docs/hermes/skills/catalog/coderabbit-skills-setup/)
 - [Awesome LLM Apps Skills — Role-Based Agent Skills Setup](/docs/hermes/skills/catalog/awesome-llm-apps-skills-setup/)
+- [CaffeineLabs Extension Skills — Agent Platform Extensions Setup](/docs/hermes/skills/catalog/caffeinelabs-extension-skills-setup/)
+- [OpenCLI Skills — Agent CLI with Browser Automation Setup](/docs/hermes/skills/catalog/opencli-skills-setup/)
+- [CMUX Skills — Agent Terminal Multiplexer Setup](/docs/hermes/skills/catalog/cmux-skills-setup/)
+- [Agentix CEO Skill — AI Worker Team Orchestration Setup](/docs/hermes/skills/catalog/agentix-ceo-skill-setup/)
+- [LiarJS Skills — Browser Fingerprint & Playwright Stealth Setup](/docs/hermes/skills/catalog/liarjs-fingerprint-skills-setup/)
+- [Huashu Design Skill — HTML-First Agent Design Setup](/docs/hermes/skills/catalog/huashu-design-setup/)
+- [Replicas Agent Skill — Cloud Workspace Coding Agent Setup](/docs/hermes/skills/catalog/replicas-agent-skill-setup/)
+- [Design Doc Mermaid Skill — Diagram & Documentation Setup](/docs/hermes/skills/catalog/design-doc-mermaid-setup/)
+- [Agent Pulse Skill — Local AI Agent Activity Monitor Setup](/docs/hermes/skills/catalog/agent-pulse-skill-setup/)
+- [Academic Research Skills — Paper Pipeline for Agents Setup](/docs/hermes/skills/catalog/academic-research-skills-setup/)
