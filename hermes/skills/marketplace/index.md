@@ -12,9 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**832+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**840+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+
+- [🆕 August 14, 2026 (Evening) — Flutter Agent Plugins (538.2K, official), ECC Engineering Suite (466.2K, 292 skills), Sentry CLI (127.3K, official), Awesome LLM Apps (79.7K), Pexo Video (62.5K), SEOJuice (51.8K), Better UI (51.3K), CodeRabbit (15.9K, official) — 8 publisher clusters, 458 skills, 8 setup guides](/hermes/skills/marketplace/new-aug14-2026-evening/)
 
 - [🆕 August 14, 2026 (Afternoon) — Firecrawl Official Skills (1.47M installs, 4 repos), Nexscope E-Commerce (126K, 121 skills), SEO GEO Claude Skills (126K, 20 skills), n8n Skills (58K, 29 skills), Review Loop (24.6K, #1 hot) — 6 publisher clusters, 241 skills, 5 setup guides](/hermes/skills/marketplace/new-aug14-2026-afternoon/)
 
@@ -261,7 +263,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 883+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 891+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 
