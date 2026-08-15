@@ -3,7 +3,7 @@ title: External MCP Server Catalog
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-14"
+last_updated: "2026-08-15"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,57 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 14, 2026 (evening sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 194 servers (+85 guides)
+> **Last updated:** August 15, 2026 (morning cron sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 204 servers (+94 guides)
+
+---
+
+## 🆕 August 15, 2026 — Morning Cron Sweep (10 New, 9 Guides)
+
+Scanned mcpservers.org /all pages 1-3 (newest submissions) and mcp.so Feed (30 newest submissions). 10 new business-relevant servers found — a 63-tool global-intelligence platform, crypto and prediction-market data procurement, index monitoring with an honesty flag, structural GEO auditing, free e-signature, multilingual content ops, tamper-evident agent logging, the official Datadog observability bridge, the official Loops email MCP, and agency operations.
+
+### World Monitor MCP ★★★ — August 15 morning
+
+Live global-intelligence platform over MCP — 63 read-only tools spanning markets, geopolitical risk, conflicts, aviation, maritime, energy, climate, cyber threats, supply chains, sanctions, public health, and procurement, all source-attributed with `cached_at`/`stale` freshness stamps. OAuth 2.1 or API key, Streamable HTTP at `worldmonitor.app/mcp`. AGPL-3.0 (`github.com/koala73/worldmonitor`). (commercial, free + Pro) · [Guide →](/hermes/mcp/servers/external/world-monitor-mcp/)
+
+### CryptoStruct Market Data MCP ★★ — August 15 morning
+
+Historical crypto and prediction-market data — ~500K instruments across 35 venues, live OHLC/VWAP/depth/slippage statistics, free sample files, and Stripe-checkout data procurement at €1 per instrument-day. Keyless catalog and stats; optional OAuth for account tools. Streamable HTTP at `cryptostruct.com/mcp`, MIT. (commercial, free tier + €20/mo Premium) · [Guide →](/hermes/mcp/servers/external/cryptostruct-mcp/)
+
+### Seomely MCP ★★★ — August 15 morning
+
+Google index monitoring with history — which pages are indexed, which dropped out and when, and why the rest are not. Every diagnosis carries a `submission_helps` honesty flag; `investigate_indexing` correlates regressions with their shared cause. Bearer API key, Streamable HTTP at `seomely.com/api/mcp`. Free 1K / Pro 25K / Agency 250K calls per month. (commercial) · [Guide →](/hermes/mcp/servers/external/seomely-mcp/)
+
+### SignSimple MCP ★★ — August 15 morning
+
+Free e-signature workflow over MCP — send a PDF by URL, recipients get emailed signing links, poll status, download the certified result with a certificate page (signer list, timestamps, SHA-256 of the original). Four tools; ESIGN-act binding; no per-document fees. `signsimple.app/mcp`. (commercial, free) · [Guide →](/hermes/mcp/servers/external/signsimple-mcp/)
+
+### AIO.GEO MCP ★★★ — August 15 morning
+
+Structural AI Search Readiness — audit what AI engines can see, dry-run fixes, rescore, doctor. Explicitly sells receipts, not LLM rankings. Self-hosted via `npx -y @aio-geo/mcp-server` plus CLI and public audit API; publishes a well-known server card, api-catalog, and agent-skills index. (commercial, free CLI) · [Guide →](/hermes/mcp/servers/external/aio-geo-mcp/)
+
+### Polyblog MCP ★★ — August 15 morning
+
+Multilingual content operations over MCP — manage articles, localization coverage, and editorial plans through OAuth. Streamable HTTP at `mcp.polyblog.io/mcp`; parallel REST API at api.polyblog.io; publishes an ai-catalog.json and an agent plugin. (commercial) · [Guide →](/hermes/mcp/servers/external/polyblog-mcp/)
+
+### Arcaeon Ledger MCP ★★ — August 15 morning
+
+Tamper-evident action logging for AI agents — hash-chained `ledger_append`/`ledger_verify` over one JSONL file with artifact binding and an optional external witness; built toward EU AI Act Article 12 logging. Self-hosted via `pip install arcaeon-ledger`; names its own non-proofs in the README. (free, open source) · [Guide →](/hermes/mcp/servers/external/arcaeon-ledger-mcp/)
+
+### Datadog MCP Server ★★ — August 15 morning
+
+Official observability bridge — APM, logs, metrics, monitors, dashboards, and security signals for MCP-capable agents. OAuth via the coterm CLI installer; toolsets scoped at connection time; every MCP action lands in Datadog's Audit Trail. Fair-use 50 req/10s burst, 50K monthly tool calls. (commercial, included with Datadog) · [Guide →](/hermes/mcp/servers/external/datadog-mcp/)
+
+### Loops MCP Server ★★★ — August 15 morning
+
+Official Loops email-platform MCP — contacts, mailing lists, campaigns, transactional email, and account data, paired with a CLI, agent skills, and a Claude plugin marketplace entry. Connection flow documented for Claude Code and Claude Desktop. `loops.so` (commercial) · [Guide →](/hermes/mcp/servers/external/loops-mcp/)
+
+### Corcava MCP ★★ — August 15 morning (catalog entry)
+
+Agency operations over MCP — projects, tasks, and time tracking through Corcava's remote endpoint at `app.corcava.com/mcp`. Thin docs (no published tool list or auth detail); classified Productivity. (commercial)
+
+**Also identified (not catalogued):** Pixero (AI marketing agent for Meta ads — docs are a JS-only shell with no tools, auth, or endpoint published; thin-docs rule), Duvo (grocery/retail execution runs with approvals — vertical niche), WEM Price Compare (cross-retailer price comparison, disclosed affiliate — consumer), Wakelog (hosted changelog publishing — niche utility), Daily Studio (iPhone teleprompter — consumer), Routebase (OpenAPI design/mock/testing — dev tool), Hamptons Verified (hyperlocal fact-checking — consumer). Feed repeats already catalogued or previously skipped this cycle: RADAAR, BlazingCDN, Cost Seg Smart, API Direct, NexusTrade, JobYap, easydocforms, Just Domain, Fakto wFirma, EM+x, Prose Coach, ROIC.ai, cloro, BanProof, NERAI, Citation Check, Customer Intelligence & Segmentation, Viral Outliers, Holdings, Kin, Snipara, Syncro, CoinLobster, FARPY, SceneF, LabTestSuperstore, CR8 Agent Commons, x402 Merchant Check, directree, Conqueror, Clipkit.
+
+**Key observation:** This sweep filled the last two structural gaps in the operator stack — observability (Datadog official) and email execution (Loops official) both landed vendor-first-party MCPs — and the GEO/SEO layer thickened with two anti-theater products (Seomely's `submission_helps` flag, AIO.GEO's no-LLM-rankings stance). Second, World Monitor is the first full-spectrum geopolitical-intelligence MCP: the NERAI class grew from calibrated forecasts into a 63-tool operating picture with procurement and sanctions surfaces. Third, compliance tooling keeps moving down-market — Arcaeon ships EU AI Act-style tamper-evident logging as a pip-installable stdio server with named non-proofs.
 
 ---
 
@@ -788,6 +838,9 @@ Dedicated MCP server for PortEden's Google Sheets data firewall. Read, write, an
 ### NexusTrade Financial MCP ★★★ — Aug 14 (evening)
 Hosted quant-trading platform MCP — 125 tools covering stock screening, historical and fundamental data, multi-regime backtesting, portfolio and risk analysis, managed compute, creator strategy discovery, and paper/live copy trading with brokerage execution behind platform risk controls. OAuth 2.1 PKCE with dynamic client registration; Streamable HTTP at `nexustrade.io/api/mcp`. `github.com/austin-starks/nexustrade-ts` (commercial) · [Guide →](/hermes/mcp/servers/external/nexustrade-financial-mcp/)
 
+### CryptoStruct Market Data MCP ★★ — Aug 15 (morning)
+Historical crypto and prediction-market data — ~500K instruments across 35 venues, live OHLC/VWAP/depth/slippage statistics, free sample files, and Stripe-checkout data procurement (€1 per instrument-day). Keyless catalog/stats; OAuth optional for account tools. Streamable HTTP at `cryptostruct.com/mcp`, MIT. (commercial, free tier + €20/mo Premium) · [Guide →](/hermes/mcp/servers/external/cryptostruct-mcp/)
+
 ### Holdings MCP ★★★ — Aug 14 (midday, catalog fix)
 Agentic invoicing and payments — draft invoices, preview, send on confirmation; clients pay by card or ACH. stdio (`npx -y @getholdings/mcp`) or Streamable HTTP (`mcp.getholdings.com/mcp`), API key. Free, no monthly fee. Guide written Aug 10; body entry added now (unindexed-guides fix). [Integration Guide](/hermes/mcp/servers/external/holdings-mcp/)
 
@@ -1045,6 +1098,9 @@ Trading-focused MCP server. Provides AI agents with trading data, market access,
 ### easydocforms MCP ★ New (Aug 13)
 Healthcare intake forms over MCP with a PHI-minimization design — import a blank PDF, hand the patient a hosted fill link, retrieve the completed PDF; PHI never enters agent context. Docker-hosted, API key auth, MIT. [Integration Guide](/hermes/mcp/servers/external/easydocforms-mcp/)
 
+### SignSimple MCP ★★ — Aug 15 (morning)
+Free e-signature workflow over MCP — `send_for_signature`, `get_document_status`, `list_documents`, `list_templates`. Emailed signing links, status polling, certified PDF with signer list, timestamps, and SHA-256 of the original. ESIGN-act binding, no per-document fees. Streamable HTTP at `signsimple.app/mcp`. (commercial, free) · [Guide →](/hermes/mcp/servers/external/signsimple-mcp/)
+
 ### Sifter
 Extracts structured, typed records from documents (PDFs, scans, contracts, invoices) using natural-language field specs. Agents can query and aggregate  --  exact counts, sums, filters, with source-page citations. Unlike RAG, answers collection-wide questions.
 
@@ -1112,6 +1168,9 @@ Keyword, vector, hybrid, and SQL retrieval over data on object storage, for AI a
 ---
 
 ## Content & Research
+
+### World Monitor MCP ★★★ — Aug 15 (morning)
+Live global-intelligence platform — 63 read-only tools across markets, geopolitical risk, conflicts, aviation, maritime, energy, climate, cyber threats, supply chains, sanctions, and procurement, all source-attributed with `cached_at`/`stale` freshness stamps. OAuth 2.1 or API key; Streamable HTTP at `worldmonitor.app/mcp`. AGPL-3.0. (commercial, free + Pro) · [Guide →](/hermes/mcp/servers/external/world-monitor-mcp/)
 
 ### AI Localization Agent MCP ★ New (July 13)
 Stop wasting AI tokens on localization. MCP server by l10n.dev connecting AI agents to dedicated translation infrastructure. 3 GitHub stars. Essential for operators managing multi-language content who want AI-driven localization without burning LLM tokens. [Integration Guide](/hermes/mcp/servers/external/ai-localization-agent/)
@@ -1378,6 +1437,9 @@ Eight-layer source-aware prompt-injection gate — checks user prompts, RAG chun
 ### NERAI Risk Intelligence MCP ★ New (Aug 11)
 Geopolitical grounding layer for AI agents — 60 countries, calibrated forecasts, maritime risk — exposed as a tool call. For procurement, trading, and compliance agents. [Integration Guide](/hermes/mcp/servers/external/nerai-risk-intelligence-mcp/)
 
+### Arcaeon Ledger MCP ★★ — Aug 15 (morning)
+Tamper-evident, hash-chained action logging for AI agents — `ledger_append`/`ledger_verify` over one JSONL file, artifact binding, optional external witness; built toward EU AI Act Article 12 logging. Self-hosted via `pip install arcaeon-ledger`; names its own non-proofs in the README. (free, open source) · [Guide →](/hermes/mcp/servers/external/arcaeon-ledger-mcp/)
+
 ### Threat Modeling and Security Scanning MCP ★ New (July 14)
 Threat modeling, code, cloud and pipeline scanning, shadow-AI discovery, compliance checks and fixes from your AI assistant. Overlaps with SaferAgenticAI. INDEX ONLY.
 
@@ -1445,6 +1507,9 @@ AI legal counsel research MCP — frontier-lab commercial commitments, safety-fr
 
 ### BlazingCDN MCP ★★ — Aug 14 (midday)
 Official MCP server for BlazingCDN — 52 tools for Anycast CDN, cache operations, bandwidth metrics, custom domains, Cloud Storage and Video CDN. Self-hosted via `npx -y @blazingcdn/mcp`; API token auth; write tools gated by `BLAZINGCDN_ALLOW_WRITE=1`. MIT. `github.com/BlazingCDN/BlazingCDN-MCP`. [Integration Guide](/hermes/mcp/servers/external/blazingcdn-mcp/)
+
+### Datadog MCP Server ★★ — Aug 15 (morning)
+Official observability bridge — APM, logs, metrics, monitors, dashboards, and security signals for MCP-capable agents. OAuth via the coterm CLI installer; toolset scoping at connection time; every MCP action lands in Datadog's Audit Trail. Fair-use 50 req/10s, 50K monthly tool calls. (commercial, included with Datadog) · [Guide →](/hermes/mcp/servers/external/datadog-mcp/)
 
 ### Bothread MCP ★ New (July 13)
 Local room where AI coding agents collaborate on one codebase via MCP — collisions prevented, human in command. By AdamACE9. Developer tool for multi-agent coding workflows.
@@ -1780,6 +1845,9 @@ MCP server for AI agent data flow orchestration. Connect AI agents to data pipel
 ### JobYap MCP ★★ — Aug 14 (evening)
 Job postings aggregated from tech companies' official career sites, each with a public discussion thread — salaries, locations, full descriptions, interview notes, and team signal. 8 read-only tools (search_jobs, get_job, get_job_comments, search_locations, list_companies, get_job_stats, search, fetch); no auth, Streamable HTTP at `mcp.jobyap.com/mcp`. (commercial, free) · [Guide →](/hermes/mcp/servers/external/jobyap-mcp/)
 
+### Corcava MCP ★★ — Aug 15 (morning, catalog entry)
+Agency operations over MCP — projects, tasks, and time tracking through the remote endpoint at `app.corcava.com/mcp`. Thin docs (no published tool list or auth detail). (commercial)
+
 ### Asana MCP V2 ★★★ Official — New July 17
 Official Asana project management MCP V2 server. Tasks, projects, and workspaces via OAuth 2.0. Hosted at `https://mcp.asana.com/v2/mcp`. Requires pre-registered OAuth app credentials. Joins Atlassian (Jira/Confluence), Linear, and Notion in the PM MCP ecosystem. Claude Code has native OAuth support; other clients use `mcp-remote`. [Full integration guide →](/hermes/mcp/servers/external/asana-mcp/)
 
@@ -2084,6 +2152,18 @@ Public-data search across 13 platforms (LinkedIn, X, Facebook, Reddit, YouTube, 
 
 ### RADAAR MCP ★★★ — Aug 14 (midday)
 Official social-media-management MCP from RADAAR — publish, schedule, unified inbox, listening, and analytics across 20+ channels (Instagram, X, LinkedIn, TikTok, YouTube, Threads, Bluesky, Mastodon, Google Business Profile, WordPress) from any MCP client. Six tool modules (publishing_*, inbox_*, monitoring_*, analytics_*, utilities_*, settings_*/subscriptions_*); OAuth, Streamable HTTP at `mcp.radaar.io`. [Integration Guide](/hermes/mcp/servers/external/radaar-mcp/)
+
+### Seomely MCP ★★★ — Aug 15 (morning)
+Google index monitoring with history — indexed, dropped, and why-not-indexed, with a `submission_helps` honesty flag on every diagnosis. Bearer API key; Streamable HTTP at `seomely.com/api/mcp`; Free 1K / Pro 25K / Agency 250K calls per month. (commercial) · [Guide →](/hermes/mcp/servers/external/seomely-mcp/)
+
+### AIO.GEO MCP ★★★ — Aug 15 (morning)
+Structural AI Search Readiness — audit, dry-run fixes, rescore, doctor; receipts instead of LLM rankings. Self-hosted via `npx -y @aio-geo/mcp-server`; CLI plus public audit API; publishes a well-known server card, api-catalog, and agent-skills index. (commercial, free CLI) · [Guide →](/hermes/mcp/servers/external/aio-geo-mcp/)
+
+### Loops MCP Server ★★★ — Aug 15 (morning)
+Official Loops email-platform MCP — contacts, mailing lists, campaigns, transactional email, account data; paired with CLI, agent skills, and a Claude plugin marketplace entry. Connection flow documented for Claude Code and Claude Desktop. `loops.so` (commercial) · [Guide →](/hermes/mcp/servers/external/loops-mcp/)
+
+### Polyblog MCP ★★ — Aug 15 (morning)
+Multilingual content ops — articles, localization coverage, and editorial plans through OAuth. Streamable HTTP at `mcp.polyblog.io/mcp`; REST API at api.polyblog.io; publishes ai-catalog.json and an agent plugin. (commercial) · [Guide →](/hermes/mcp/servers/external/polyblog-mcp/)
 
 ### Alison AI MCP ★ New (Aug 13)
 Creative intelligence from your ad accounts inside any MCP client — spend and KPIs, creative tags, competitor intelligence (SensorTower/Pathmatics), and creative previews. 14 read-only tools; OAuth 2.1 PKCE with server-side grant scoping — the grant is the ceiling, revocation is immediate. `evo.alison.ai/mcp` (commercial). [Integration Guide](/hermes/mcp/servers/external/alison-ai-mcp/)
@@ -3489,3 +3569,15 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [API Direct MCP — 13-Platform Public-Data Search with Lead-Gen Playbooks](/docs/hermes/mcp/servers/external/api-direct-mcp/)
 - [NexusTrade Financial MCP — Quant Research, Backtesting & Copy Trading](/docs/hermes/mcp/servers/external/nexustrade-financial-mcp/)
 - [JobYap MCP — Job Aggregation & Discussion Threads for AI Agents](/docs/hermes/mcp/servers/external/jobyap-mcp/)
+
+### 10 new servers from mcpservers.org /all + mcp.so Feed — Aug 15, 2026 (morning cron sweep)
+
+- [World Monitor MCP — Global Intelligence: Markets, Risk, Supply Chains & Procurement](/docs/hermes/mcp/servers/external/world-monitor-mcp/)
+- [CryptoStruct Market Data MCP — Historical Crypto & Prediction-Market Data](/docs/hermes/mcp/servers/external/cryptostruct-mcp/)
+- [Seomely MCP — Google Index Monitoring with History](/docs/hermes/mcp/servers/external/seomely-mcp/)
+- [SignSimple MCP — Free E-Signature Workflow for AI Agents](/docs/hermes/mcp/servers/external/signsimple-mcp/)
+- [AIO.GEO MCP — Structural AI Search Readiness Audits](/docs/hermes/mcp/servers/external/aio-geo-mcp/)
+- [Polyblog MCP — Multilingual Content Operations](/docs/hermes/mcp/servers/external/polyblog-mcp/)
+- [Arcaeon Ledger MCP — Tamper-Evident Agent Action Logging](/docs/hermes/mcp/servers/external/arcaeon-ledger-mcp/)
+- [Datadog MCP Server — Observability for AI Agents](/docs/hermes/mcp/servers/external/datadog-mcp/)
+- [Loops MCP Server — Email Marketing & Transactional Email](/docs/hermes/mcp/servers/external/loops-mcp/)
