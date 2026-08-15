@@ -12,7 +12,21 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 15, 2026 (morning cron sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 204 servers (+94 guides)
+> **Last updated:** August 15, 2026 (midday cron sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 205 servers (+95 guides)
+
+---
+
+## 🆕 August 15, 2026 — Midday Cron Sweep (1 New, 1 Guide)
+
+Scanned mcpservers.org /all pages 1-3 (newest submissions) and mcp.so Feed (30 newest submissions). 1 new business-relevant server found — a deterministic AI-writing-tell detector with trainable brand voices and CI support, the local/self-hosted complement to Prose Coach.
+
+### Etincel MCP ★★★ — August 15 midday
+
+Deterministic AI-writing-tell detector — 20 tools that audit non-fiction prose for AI patterns (banned hype vocabulary, chatbot fingerprints, structural tells like uniform paragraphs and em-dash overuse), train brand voices from real writing samples, and measure drafts against a voice baseline. Local stdio install via `npx etincel serve`, MIT, dictionary-as-code in `.etincelrc`; GitHub Action for CI. Optional hosted API at `etincel.ai/api/mcp` for the one model-based tool (`second_read`). (open source, free; hosted model call billed) · [Guide →](/hermes/mcp/servers/external/etincel-mcp/)
+
+**Also identified (not catalogued):** Feed repeats already catalogued or previously skipped this cycle: CryptoStruct, World Monitor, API Direct, JobYap, Kin (dev tool), NexusTrade, Snipara (previously skipped), RADAAR, BlazingCDN, Cost Seg Smart, easydocforms, Just Domain, Fakto wFirma, FARPY (dev infra), CoinLobster (crypto), EM+x, SceneF (consumer), LabTestSuperstore (lab supplies), Prose Coach, Clipkit, CR8 Agent Commons, x402 Merchant Check, directree, Syncro, ROIC.ai, Conqueror, NERAI. A raw-IP Chinese listing (shenshaoyin, endpoint on 121.40.18.232) excluded as junk signal. mcpservers.org /all pages 1-3 carried no other new business-relevant slugs — the holoweave slug resolves to Citation Check (already catalogued Aug 14); a trycloudflare exposed-port slug excluded as host-dump noise.
+
+**Key observation:** The de-AI content stack now has both delivery models — Prose Coach as the no-auth remote filter and Etincel as the local, CI-runnable install with trainable voice profiles. Etincel's loop (train from samples → check drafts against the measured baseline) turns brand-voice compliance from reviewer eyeballing into a measurable gate, and `audit_text`'s strengths counter-signal guards against the fix-everything-into-flat-prose failure mode.
 
 ---
 
@@ -1168,6 +1182,9 @@ Keyword, vector, hybrid, and SQL retrieval over data on object storage, for AI a
 ---
 
 ## Content & Research
+
+### Etincel MCP ★★★ — Aug 15 (midday)
+Deterministic AI-writing-tell detector — 20 tools: `audit_text` scans prose for AI tells (banned hype vocabulary, chatbot fingerprints, structural patterns) with a tiered verdict plus a strengths counter-signal; `train_style` builds brand voices from real writing samples; `check_voice_match` measures a draft against a voice baseline. Local stdio via `npx etincel serve`, MIT, dictionary-as-code in `.etincelrc`; optional hosted `second_read` at `etincel.ai/api/mcp`. (open source, free) · [Guide →](/hermes/mcp/servers/external/etincel-mcp/)
 
 ### World Monitor MCP ★★★ — Aug 15 (morning)
 Live global-intelligence platform — 63 read-only tools across markets, geopolitical risk, conflicts, aviation, maritime, energy, climate, cyber threats, supply chains, sanctions, and procurement, all source-attributed with `cached_at`/`stale` freshness stamps. OAuth 2.1 or API key; Streamable HTTP at `worldmonitor.app/mcp`. AGPL-3.0. (commercial, free + Pro) · [Guide →](/hermes/mcp/servers/external/world-monitor-mcp/)
@@ -3581,3 +3598,7 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Arcaeon Ledger MCP — Tamper-Evident Agent Action Logging](/docs/hermes/mcp/servers/external/arcaeon-ledger-mcp/)
 - [Datadog MCP Server — Observability for AI Agents](/docs/hermes/mcp/servers/external/datadog-mcp/)
 - [Loops MCP Server — Email Marketing & Transactional Email](/docs/hermes/mcp/servers/external/loops-mcp/)
+
+### 1 new server from mcp.so Feed — Aug 15, 2026 (midday cron sweep)
+
+- [Etincel MCP — Deterministic AI-Writing-Tell Detector with Voice Training](/docs/hermes/mcp/servers/external/etincel-mcp/)
