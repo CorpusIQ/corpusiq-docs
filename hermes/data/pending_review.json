@@ -38069,5 +38069,128 @@
     ],
     "discovered_at": "2026-08-15T06:02:51.850392+00:00",
     "status": "pending"
+  },
+  {
+    "name": "0xphuong/hermes-agent",
+    "url": "https://github.com/0xphuong/hermes-agent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-08-15T07:02:41Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-15T07:02:51.439274+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ykoh42/async-hermes-agent",
+    "url": "https://github.com/ykoh42/async-hermes-agent",
+    "description": "Async-first Hermes agent core for training, trajectories, tools, skills, MCP, and service integration",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "codex",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "nous-research",
+      "openai"
+    ],
+    "updated_at": "2026-08-15T07:02:25Z",
+    "category": "core",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-08-15T07:02:54.443285+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "DECRUX9812/Hermes-Bot-Mode",
+    "url": "https://github.com/DECRUX9812/Hermes-Bot-Mode",
+    "description": "Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-15T07:03:16Z",
+    "category": "forks",
+    "score": 43,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "tale-project/tale",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-08-15T07:03:18.004864+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pgill/hermes-agent-template",
+    "url": "https://github.com/pgill/hermes-agent-template",
+    "description": null,
+    "stars": 0,
+    "forks": 1,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-15T07:01:08Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-15T07:03:21.006288+00:00",
+    "status": "pending"
   }
 ]
