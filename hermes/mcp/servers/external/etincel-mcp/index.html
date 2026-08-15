@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Human-approval email over MCP — read, organize, and send from your existing IMAP accounts, with nothing sent until you approve it">
+        <meta name="description" content="Deterministic AI-writing-tell detector for operators — 20 tools that audit prose for AI patterns, train brand voices from real writing samples, and run as a">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/busymail-mcp/">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/etincel-mcp/">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>BusyMail MCP</title>
+    <title>Etincel MCP</title>
   
 
     
@@ -68,25 +68,25 @@
   
   <!-- Open Graph — LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/busymail-mcp/">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/etincel-mcp/">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="BusyMail MCP">
-  <meta property="og:description" content="Human-approval email over MCP — read, organize, and send from your existing IMAP accounts, with nothing sent until you approve it">
+  <meta property="og:title" content="Etincel MCP">
+  <meta property="og:description" content="Deterministic AI-writing-tell detector for operators — 20 tools that audit prose for AI patterns, train brand voices from real writing samples, and run as a">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="BusyMail MCP">
-  <meta name="twitter:description" content="Human-approval email over MCP — read, organize, and send from your existing IMAP accounts, with nothing sent until you approve it">
+  <meta name="twitter:title" content="Etincel MCP">
+  <meta name="twitter:description" content="Deterministic AI-writing-tell detector for operators — 20 tools that audit prose for AI patterns, train brand voices from real writing samples, and run as a">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "BusyMail MCP",
-    "description": "Human-approval email over MCP — read, organize, and send from your existing IMAP accounts, with nothing sent until you approve it",
-    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/busymail-mcp/",
+    "name": "Etincel MCP",
+    "description": "Deterministic AI-writing-tell detector for operators — 20 tools that audit prose for AI patterns, train brand voices from real writing samples, and run as a",
+    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/etincel-mcp/",
     "isPartOf": {
       "@type": "WebSite",
       "name": "CorpusIQ Docs",
@@ -124,7 +124,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#busymail-mcp" class="md-skip">
+        <a href="#etincel-mcp" class="md-skip">
           Skip to content
         </a>
       
@@ -160,7 +160,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              BusyMail MCP
+              Etincel MCP
             
           </span>
         </div>
@@ -9858,75 +9858,105 @@
   
 
 
-<h1 id="busymail-mcp">BusyMail MCP<a class="headerlink" href="#busymail-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Remote MCP server (Streamable HTTP or local script, token auth) from BusyMail.</strong> An email client for the IMAP accounts you already have, exposed over MCP — the assistant reads, searches, tidies, and writes replies, and every outbound message sits in an Approvals queue until you approve or reject it. It is not a mailbox you move to: your accounts stay where they are.</p>
-<div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP) or local Node script
-Auth: Bearer token with per-token permissions (read / organize / send)
-Endpoint: https://busymail.app/mcp
-Tools: Read + search + summarize, organize (archive, unarchive, pin), send (queued for approval)
-Pricing: Invite-only during rollout
-Category: Email / Productivity
-Built by: BusyMail (busymail.app)
+<h1 id="etincel-mcp">Etincel MCP<a class="headerlink" href="#etincel-mcp" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Self-hosted MCP server (stdio, no auth) — plus an optional hosted API</strong> — Etincel finds the AI tells in non-fiction prose deterministically, on your own machine: 20 tools that audit text for chatbot fingerprints, train brand voices from real writing samples, and measure drafts against a voice baseline, with a CLI, MCP server, and GitHub Action sharing one codebase (MIT).</p>
+<div class="highlight"><pre><span></span><code>Server type: Local (stdio) + optional hosted API
+Auth: None for stdio; account only for the model-based `second_read` tool
+Endpoint: npx etincel serve (local) · https://etincel.ai/api/mcp (hosted)
+Tools: 20 (audit, voice training, style management, dictionaries)
+Pricing: Free, open source (MIT); hosted second_read is a billed model call
+Category: Content / Writing Quality
+Built by: AIStoryHub (github.com/AIStoryHub/etincel, etincel.ai)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Email assistants have existed for years; the failure mode has always been the same — the assistant sends, and you find out later. BusyMail's design answer is absolute: <strong>a token can never send mail.</strong> It can only queue. Approval happens while you are signed in, so the token that wrote a message can never approve it. That separation — writer and approver can never be the same session — is the strongest email-safety architecture yet observed in an MCP server.</p>
-<p><strong>Scoped tokens make delegation safe.</strong> You pick read, organize, or send per token; no token can touch settings, passwords, two-factor, or account management. Revoke one token without affecting the others.</p>
+<p>Every operator shipping AI-drafted content faces the same risk: copy that reads synthetic destroys trust before the message lands. Etincel turns that risk into a deterministic check — <code>audit_text</code> scans for banned hype vocabulary, chatbot fingerprints, and structural patterns (uniform paragraph length, stacked transitions, em-dash overuse, rule-of-three compulsion) and returns a tiered verdict with each finding located by line. Because it is deterministic, the same text always gets the same verdict, which is what makes it safe to gate commits and CI runs on it.</p>
+<p><strong>The differentiator is the voice-training loop.</strong> <code>train_style</code> measures a real writer's habits — sentence length and variance, paragraph rhythm, contraction rate, em-dash and semicolon use, structural entropy — and persists them as a named voice. Drafts can then be checked against that baseline with <code>check_voice_match</code>, so brand voice stops being something reviewers eyeball and becomes something an agent can measure before content ships. The <code>.etincelrc</code> file makes the banned-words and house-style dictionary reviewable, versioned code, not a hidden vendor config.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Capability</th>
-<th>What the assistant can do</th>
+<th>Tool</th>
+<th>Purpose</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Read</td>
-<td>Message content, summaries, search, sent mail — every token has this</td>
+<td><code>audit_text</code></td>
+<td>Deterministic scan for AI-writing tells; tiered verdict (green/yellow/orange/red), scored findings with severity and location, plus a strengths counter-signal</td>
 </tr>
 <tr>
-<td>Organize</td>
-<td>Archive, unarchive, pin — real moves on your mail server, visible in every other client</td>
+<td><code>train_style</code></td>
+<td>Train a persistent brand voice from real writing samples (rhythm, contractions, punctuation habits, recurring phrasing)</td>
 </tr>
 <tr>
-<td>Send</td>
-<td>Queue mail for your approval; also reads everything already queued on the account</td>
+<td><code>check_voice_match</code></td>
+<td>Measure a draft's rhythm against a trained voice baseline — verdict, match score, and per-dial drift notes</td>
+</tr>
+<tr>
+<td><code>check_self_repetition</code></td>
+<td>Detect a writer's own recurring openings and characteristic phrases across recent pieces</td>
+</tr>
+<tr>
+<td><code>list_styles</code> / <code>get_style_guide</code></td>
+<td>Enumerate presets and trained voices; fetch the full drafting guide for a style</td>
+</tr>
+<tr>
+<td><code>create_style_from_dials</code></td>
+<td>Build a voice from explicit dials (formality, warmth, directness) plus 8 mechanical dials — no samples needed</td>
+</tr>
+<tr>
+<td><code>update_style</code> / <code>fork_style</code> / <code>delete_style</code> / <code>set_default_style</code></td>
+<td>Rename or retune voices, fork public community styles, manage defaults</td>
+</tr>
+<tr>
+<td><code>add_banned_word</code> / <code>remove_banned_word</code></td>
+<td>Extend the banned-words list globally or per style</td>
+</tr>
+<tr>
+<td><code>add_custom_word</code> / <code>remove_custom_word</code> / <code>list_dictionary</code></td>
+<td>Maintain the allowed-words list (corporate dictionary: acronyms, house terms)</td>
+</tr>
+<tr>
+<td><code>set_style_instructions</code> / <code>clear_style_instructions</code> / <code>get_style_instructions</code></td>
+<td>Layer free-text drafting rules (required CTAs, forbidden topics) on top of any voice</td>
+</tr>
+<tr>
+<td><code>second_read</code></td>
+<td>One model call reading a draft like a careful human editor — hosted only, unscored, never a silent rewrite</td>
 </tr>
 </tbody>
 </table>
-<p>File attachments via the local script path never pass through the AI client — the script reads the file from disk and sends it on.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>busymail<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://busymail.app/mcp<span class="w"> </span>--header<span class="w"> </span><span class="s2">&quot;Authorization: Bearer YOUR_TOKEN&quot;</span>
+<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>etincel<span class="w"> </span>--<span class="w"> </span>npx<span class="w"> </span>-y<span class="w"> </span>etincel<span class="w"> </span>serve
 </code></pre></div>
-<p>Clients that can run a local script (Node + curl + POSIX shell) get the full experience including path-based attachments; the script is fetched fresh each start, so it always matches BusyMail and nothing is cached.</p>
+<p>The CLI doubles as a linter for files in CI: <code>npx etincel lint README.md</code>, and the GitHub Action runs as <code>AIStoryHub/etincel@main</code> against pull requests.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;busymail&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://busymail.app/mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">        </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer YOUR_TOKEN&quot;</span>
-<span class="w">      </span><span class="p">}</span>
+<span class="w">    </span><span class="nt">&quot;etincel-nonfiction&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;etincel&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;serve&quot;</span><span class="p">]</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>Tokens are created under Settings → MCP. An account is required, and BusyMail is invite-only right now.</p>
+<p>No keys or accounts are needed for the local install — audit, training, and voice checks all run offline. The only hosted dependency is <code>second_read</code>, which requires an account at etincel.ai because it bills a model call; a <code>.etincelrc</code> at the repo root carries the shared team dictionary and style instructions (dictionary as code, reviewable and versioned).</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Founders and operators</strong> get an inbox assistant that physically cannot send without them — the first safe delegation.</li>
-<li><strong>Executive assistants (human or agentic)</strong> triage and draft in bulk, with the principal approving only what matters.</li>
-<li><strong>Teams on shared inboxes</strong> scope tokens so different agents get read-only vs organize vs send.</li>
+<li><strong>Content operators</strong> get a pre-publish gate that flags AI tells with line references before copy reaches customers — tiered verdicts instead of binary detector scores.</li>
+<li><strong>Brand and marketing teams</strong> can encode a real founder's voice from samples and check every draft against it, including drift warnings per dial.</li>
+<li><strong>Engineering teams</strong> run the same checks in CI via the GitHub Action or <code>npx etincel lint</code>, so style gates survive the human reviewer's absence.</li>
+<li><strong>Agencies</strong> can fork and reuse public community styles, then retrain them on client samples — voice work becomes a versioned asset, not a per-project retelling.</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>BusyMail and CorpusIQ occupy different halves of the email problem and compose cleanly. CorpusIQ's Gmail connectors (Google Workspace) are the business data layer — business inbox monitoring, the metrics, the CRM writes. BusyMail is the operator's personal execution layer with the approval gate. An operator can run both: CorpusIQ watches the business inboxes and feeds leads into HubSpot or Close, while BusyMail gives the same operator an approval-gated assistant over personal IMAP mail. Two different trust models, one clear boundary.</p>
+<p>Etincel pairs with CorpusIQ as the quality gate on the content pipeline's output side. CorpusIQ connectors (GA4, Search Console, Stripe, Klaviyo) surface the performance data that tells you what to publish; Etincel checks the copy itself before it ships. The workflow composes cleanly: an agent drafts X posts, outreach emails, or docs pages, calls <code>audit_text</code> against the CorpusIQ house dictionary in <code>.etincelrc</code> (banned hype vocabulary, no em-dash rules, approved product terms), and only content that passes a green or yellow tier proceeds to publishing. Prose Coach (also in this catalog) covers the same problem as a no-auth remote service — Etincel is the self-hosted, CI-friendly complement when copy must stay in-house. For voice work, <code>train_style</code> can be fed real approved writing samples so future drafts are measured against the actual operator voice, not a generic tone prompt.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Invite-only during rollout — not open to signup yet</li>
-<li>Attachments via remote HTTP are limited to base64-encoded payloads, well below what BusyMail accepts locally</li>
-<li>No settings, password, 2FA, or account management over MCP (by design)</li>
-<li>Low-volume inboxes gain less — the approval queue is for volume triage</li>
+<li><strong>Brand new</strong> — submitted to mcp.so August 15, 2026; no track record or community adoption yet.</li>
+<li>Local-first: trained voices and self-repetition history live on the installing machine — a hosted/remote connection reports zero history today.</li>
+<li><code>second_read</code> is the only model-based tool and requires a paid etincel.ai account; it fails with a clear explanation on pure stdio installs.</li>
+<li><code>check_voice_match</code> measures rhythm and mechanics — it is explicitly not an authorship or AI-detection proof, and short inputs return low-confidence verdicts.</li>
+<li>Stdio transport means per-machine setup; there is no multi-user OAuth model like CorpusIQ's connectors.</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
