@@ -9195,5 +9195,75 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-14T09:17:41.068512+00:00"
+  },
+  {
+    "repo": "PerkOS-xyz/PerkOS",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281639+00:00"
+  },
+  {
+    "repo": "ShugokiFable/Ultimate-AI-Starter-Bundle",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281651+00:00"
+  },
+  {
+    "repo": "uthumany/hermes-skillforge",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281653+00:00"
+  },
+  {
+    "repo": "ruiatelsevier/codex-project-manager",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281655+00:00"
+  },
+  {
+    "repo": "novkien/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281657+00:00"
+  },
+  {
+    "repo": "Qiskdbwob/Hermes-Mobile",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281659+00:00"
+  },
+  {
+    "repo": "jazzzzmaybe/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281661+00:00"
+  },
+  {
+    "repo": "vancity-in/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281663+00:00"
+  },
+  {
+    "repo": "lancecheney/hermes-feishu",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281664+00:00"
+  },
+  {
+    "repo": "mustafacem/hermes-budget-explore",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T05:05:30.281666+00:00"
   }
 ]
