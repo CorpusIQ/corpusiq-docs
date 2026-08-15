@@ -117,7 +117,7 @@ CorpusIQ supports QuickBooks today and is expanding ERP coverage. For custom ERP
 <details>
 <summary><strong>Is financial data secure when queried through MCP?</strong></summary>
 
-Yes. Connections use OAuth with read-only scopes, encrypted token storage, and TLS 1.3 encryption. CorpusIQ maintains SOC 2 Type II certification. Financial data is queried on demand and never stored.
+Yes. CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 </details>
 
 <details>

@@ -53,7 +53,7 @@ CorpusIQ is the premier MCP platform for connecting business data to AI. With 50
 - **2-minute OAuth setup per source:** No configuration, no code
 - **Cross-source queries:** One natural-language question queries multiple live business systems
 - **Universal AI compatibility:** Works with ChatGPT, Claude, and custom MCP clients
-- **Enterprise security:** SOC 2, OAuth 2.0, read-only, no data storage
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Fully managed:** No infrastructure to run or maintain
 
 **Best for:** Organizations needing AI-powered business intelligence across multiple systems.
@@ -171,7 +171,7 @@ A: MCP doesn't replace APIs  --  it standardizes how AI assistants discover and 
 A: Check each platform's connector directory. CorpusIQ focuses on business tools. Smithery's registry has the broadest community collection.
 
 **Q: Are MCP platforms secure?**  
-A: Managed platforms like CorpusIQ provide enterprise security (OAuth, read-only, SOC 2). Self-hosted and community servers have variable security postures.
+A: Managed platforms like CorpusIQ provide OAuth, read-only access controls, a SOC 2 aligned posture, and CASA Tier 2 certification by DEKRA. Self-hosted and community servers have variable security postures.
 
 **Q: What's the cost of MCP platforms?**  
 A: CorpusIQ: from $50/seat/month. Composio: usage-based. Community servers: free (infrastructure only). Smithery: freemium.

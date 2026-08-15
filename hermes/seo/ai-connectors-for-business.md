@@ -59,7 +59,7 @@ Every connector uses read-only OAuth. The AI can see your data but never change 
 
 Each connector authenticates independently. Shopify has its own token. QuickBooks has its own. Stripe has its own. No shared credentials. No master key.
 
-Data is fetched for each query and discarded. Nothing is stored between questions. Nothing is used for AI training. The connectors are ephemeral.
+Data is fetched live for each query. Direct MCP does not retain raw customer files or full connector response payloads. Scoped operational logs may be retained for up to 30 days, and optional indexed search has a separate embeddings and minimal-metadata lifecycle. CorpusIQ does not use customer data for AI training; conversation handling follows the selected AI provider's plan and settings.
 
 ## Getting Started
 

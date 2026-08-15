@@ -85,43 +85,6 @@ All API errors follow a consistent format regardless of the HTTP status code.
 }
 ```
 
----
-
-## Webhook Event
-
-Webhook deliveries use the following envelope format. See [Webhooks](/docs/api/webhooks) for delivery and verification details.
-
-```json
-{
-  "event_id": "evt_a1b2c3",
-  "event_type": "user.deleted",
-  "created_at": "2026-06-16T14:22:00Z",
-  "data": {
-    "user_id": "usr_x9y8z7",
-    "details": {
-      "oauth_tokens_revoked": 12,
-      "archive_entries_removed": 847
-    }
-  }
-}
-```
-
-| Field | Type | Description |
-|-------|------|-------------|
-| `event_id` | string | Unique identifier for this event delivery |
-| `event_type` | string | Event type; currently only `user.deleted` |
-| `created_at` | string | ISO 8601 timestamp of when the event was generated |
-| `data.user_id` | string | The CorpusIQ user ID associated with the event |
-| `data.details` | object | Event-specific payload fields |
-
-### Supported Event Types
-
-| Event Type | Description |
-|------------|-------------|
-| `user.deleted` | Fired when a user's data is permanently deleted via `/delete_my_data` |
-
-Additional event types will be added in future releases. Subscribe to the [Changelog](/docs/changelog) for updates.
-
 ## Frequently Asked Questions
 
 **Q: What JSON structure does a /query response follow?**  
@@ -139,7 +102,7 @@ A: Errors use a consistent format: {"error": {"type": "error_category", "message
 - **[API Authentication Guide](/docs/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
 - **[API Endpoints Reference](/docs/api/endpoints)**  --  Complete request/response schemas and code examples  
 - **[API Rate Limits](/docs/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Event notifications and HMAC signature verification  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Current webhook-contract availability
 - **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SAML, SOC 2, and data residency  
 - **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption, network security, and compliance  
 

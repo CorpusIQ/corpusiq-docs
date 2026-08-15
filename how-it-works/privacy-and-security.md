@@ -1,7 +1,7 @@
 # Privacy and security
 
 The short version: CorpusIQ reads your business data when you ask it to,
-stores nothing it doesn't need, and lets you disconnect at any moment.
+uses scoped retention, and lets you disconnect at any moment.
 It never writes to your vendor accounts. It never sells or resells your
 data to anyone.
 
@@ -12,15 +12,18 @@ authentication and architecture docs.
 
 - It does **not** sell your data. There is no advertising business, no
   third-party data resale, no aggregated-anonymized-data side business.
-- It does **not** train AI models on your data. Your tokens and your
-  query results stay scoped to your account.
+- It does **not** use customer data to train CorpusIQ models. Your tokens and
+  query results stay scoped to your account, while conversation handling follows
+  the selected AI provider's plan and settings.
 - It does **not** write to your vendor accounts. Every connector is
   authenticated with **read-only** scopes. CorpusIQ cannot place an
   order in Shopify, send an email in Klaviyo, or post a message in
   Slack.
-- It does **not** copy your data into a giant warehouse. When you ask a
-  question, CorpusIQ queries your tools live, uses the result to answer
-  you, and discards it.
+- It does **not** retain raw customer files or full connector response
+  payloads for direct MCP requests. Query text, per-user tool-call
+  metadata, and bounded outcome summaries remain in operational logs for
+  up to 30 days. Optional indexed search has a separate embeddings and
+  minimal-metadata lifecycle.
 - It does **not** share data across tenants. Your tokens and data are
   isolated to your user account. Other CorpusIQ users cannot see them.
 
@@ -52,8 +55,8 @@ authorization from their own admin panel.
 
 ## Where the data is
 
-CorpusIQ runs on Microsoft Azure. Tokens are in Azure Key Vault. Logs
-are in Azure with standard retention. The infrastructure is multi-tenant
+CorpusIQ runs on Microsoft Azure. Tokens are in Azure Key Vault. Operational
+MCP logs are retained for up to 30 days. The infrastructure is multi-tenant
 but the data is single-tenant per user — every read uses your user
 identity to scope the query.
 
@@ -101,7 +104,10 @@ through CorpusIQ's server, which enforces the read-only contract.
 
 This is the bottom line: CorpusIQ only works for as long as you let it.
 Pull the plug on any connector at any time and it stops reading that
-tool immediately. No retention. No "but we already have a copy."
+tool immediately. Optional indexed-search embeddings and minimal metadata
+are removed on connector revocation or account deletion; operational logs
+expire within 30 days, and deletion/compliance receipts may remain for up
+to 24 months.
 
 That's the deal.
 ---

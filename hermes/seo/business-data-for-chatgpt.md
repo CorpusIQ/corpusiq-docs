@@ -45,7 +45,7 @@ Each tool connects independently:
 - GA4 via Google Analytics API for traffic data
 - HubSpot via OAuth for CRM data
 
-When you ask a question, ChatGPT queries the relevant tools in real time. The data is fetched, used to answer your question, and then discarded. Nothing is stored in ChatGPT. Nothing is used for training. The connection is ephemeral.
+When you ask a question, ChatGPT queries the relevant tools in real time. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days. Data handling inside ChatGPT follows the policy of the ChatGPT plan and settings you choose.
 
 ## Why This Works Better Than Dashboards
 

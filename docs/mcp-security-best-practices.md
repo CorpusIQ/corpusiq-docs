@@ -20,7 +20,7 @@ MCP's security model rests on several architectural decisions:
 
 **OAuth 2.0 authentication.** Every connection to a third-party platform uses OAuth 2.0, the industry standard for delegated authorization. Users grant CorpusIQ specific, scoped permissions rather than sharing credentials.
 
-**Stateless architecture.** MCP servers do not store business data. Each query executes against the live source system and returns results that are immediately discarded. There's no persistent copy of your data to protect.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **Encryption in transit.** All communication between the MCP client, server, and source APIs uses TLS 1.3 encryption. Data is never transmitted in cleartext.
 
@@ -40,7 +40,7 @@ CorpusIQ's approach:
 
 OAuth tokens are the keys to your data. Managing them securely is critical:
 
-**Short-lived access tokens.** Access tokens issued by most OAuth providers expire after 1 hour. CorpusIQ uses these tokens for API calls and never stores them persistently.
+**Short-lived access tokens.** Access tokens issued by most OAuth providers expire after about one hour and are used only while valid. Refresh tokens, when provided, follow the encrypted-at-rest lifecycle described below.
 
 **Encrypted refresh token storage.** Refresh tokens (which can obtain new access tokens) are stored encrypted at rest using AES-256 with per-user key derivation. Even our operations team cannot extract raw refresh tokens.
 
@@ -87,13 +87,13 @@ Audit logs are retained according to the user's plan and can be exported for int
 
 MCP's stateless architecture naturally enforces data minimization  --  the principle that you should only process the data you need, for as long as you need it.
 
-**No persistent storage.** Query results are held in memory only long enough to return them to the AI model, then discarded. There's no database of your business data sitting on CorpusIQ's servers.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **No data aggregation across customers.** Each customer's queries are processed in isolation. CorpusIQ does not aggregate, analyze, or learn from customer data.
 
 **Minimal metadata.** The only persistent data CorpusIQ maintains is: authentication tokens (encrypted), connector configuration (which platforms are connected, with what scopes), and audit logs (which tools were called, when, and by whom).
 
-This data minimization approach has concrete compliance benefits. Under GDPR, for example, CorpusIQ's lack of business data storage simplifies data subject access requests  --  there's no corpus of stored customer data to search and delete.
+This data minimization approach narrows the retained data classes that must be handled in a data subject request. Requests still account for operational logs retained for 30 days and optional indexed-search records until revocation or account deletion.
 
 ## Network Security
 
@@ -107,9 +107,9 @@ This data minimization approach has concrete compliance benefits. Under GDPR, fo
 
 ## Compliance Considerations
 
-**SOC 2.** CorpusIQ maintains SOC 2 Type II certification, covering the security, availability, and confidentiality trust service criteria. The audit trail, access controls, and encryption practices described above support this certification.
+**SOC 2.** CorpusIQ maintains a SOC 2 aligned security posture; formal SOC 2 Type II certification is not claimed.
 
-**GDPR.** CorpusIQ's data minimization approach  --  no persistent business data storage, minimal metadata collection  --  simplifies GDPR compliance. Data processing is limited to what's necessary for the service (answering queries against connected platforms).
+**GDPR.** CorpusIQ's data-minimization approach scopes retention by product path. Direct MCP does not retain raw customer files or full connector response payloads; operational logs are retained for up to 30 days, while optional indexed search and compliance records have separate lifecycles.
 
 **HIPAA.** CorpusIQ is not designed for protected health information (PHI) and should not be used with healthcare data subject to HIPAA without a Business Associate Agreement (BAA).
 
@@ -136,31 +136,31 @@ Beyond what CorpusIQ provides, users should follow these practices:
 <details>
 <summary><strong>Can CorpusIQ employees see my business data?</strong></summary>
 
-No. Query results are held in memory and discarded after returning to the AI model. CorpusIQ's operations team has no access to query contents. The stateless architecture means there's nothing to see.
+CorpusIQ restricts production access through least-privilege controls. Direct MCP does not retain raw customer files or full connector response payloads, while operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 </details>
 
 <details>
 <summary><strong>What happens to my data if I cancel my CorpusIQ account?</strong></summary>
 
-All authentication tokens, configuration data, and audit logs are permanently deleted within 30 days of account cancellation. Since CorpusIQ doesn't store business data, there's no additional data to delete.
+To request deletion of account data, contact privacy@corpusiq.io. CorpusIQ responds to privacy requests within 30 days. Operational logs remain subject to the 30-day Azure Log Analytics retention window.
 </details>
 
 <details>
 <summary><strong>How do you prevent AI models from leaking data across customers?</strong></summary>
 
-Each query is processed in isolation. The AI model receives only the data from the current user's query. CorpusIQ does not use customer data to train or fine-tune models.
+Each query is processed in isolation. The AI model receives only the data from the current user's query. CorpusIQ does not use customer data to train or fine-tune models; conversation handling follows the selected AI provider's plan and settings.
 </details>
 
 <details>
 <summary><strong>Can I use CorpusIQ with on-premise data sources?</strong></summary>
 
-Yes. MCP servers can be deployed on-premise and connect to internal systems. In this configuration, data never leaves your network  --  the MCP server queries internal systems and returns results directly to the AI client.
+Yes. MCP servers can be deployed on-premise and connect to internal systems. If both the MCP server and AI client run inside your network, provider data can remain within that boundary; otherwise the chosen AI client's processing path and retention policy also apply.
 </details>
 
 <details>
 <summary><strong>What security certifications does CorpusIQ hold?</strong></summary>
 
-CorpusIQ maintains SOC 2 Type II certification. Additional certifications are available for Enterprise customers with specific requirements.
+CorpusIQ maintains a SOC 2 aligned security posture and is CASA Tier 2 certified by DEKRA. Formal SOC 2 Type II certification is not claimed.
 </details>
 
 ## Internal Links

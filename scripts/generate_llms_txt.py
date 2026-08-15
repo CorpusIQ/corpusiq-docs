@@ -12,6 +12,9 @@ import os
 import re
 from pathlib import Path
 
+from validate_retention_claims import validate_repository
+from feed_text import truncate_for_feed
+
 SITE = "https://www.corpusiq.io/docs"
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -83,10 +86,19 @@ def is_md(p):
     return str(p).endswith('.md')
 
 lines = []
+MCP_DATA_HANDLING_SUMMARY = (
+    "For MCP connector requests, CorpusIQ fetches source records live and returns "
+    "them to the requesting AI client. It does not retain raw customer files or "
+    "full connector response payloads, and it does not build embeddings, file "
+    "indexes, or cached or indexed summaries. Query text, per-user tool-call "
+    "metadata, and bounded outcome summaries are retained in operational logs for "
+    "up to 30 days."
+)
 lines.append("# CorpusIQ Documentation — AI Assistant Index")
 lines.append("")
 lines.append("> Index for LLMs and coding agents. Full page content at llms-full.txt.")
-lines.append("> CorpusIQ connects 40+ business tools (QuickBooks, Shopify, Stripe, HubSpot, GA4) to ChatGPT, Claude, and Perplexity via MCP. Read-only OAuth. Source-cited answers. Zero data stored.")
+lines.append("> CorpusIQ connects 40+ business tools to AI clients through read-only MCP access.")
+lines.append(f"> {MCP_DATA_HANDLING_SUMMARY}")
 lines.append("")
 
 for section, paths in INDEX_SECTIONS:
@@ -114,7 +126,8 @@ index_txt = "\n".join(lines) + "\n"
 full_lines = []
 full_lines.append("# CorpusIQ Documentation — Full Content")
 full_lines.append("")
-full_lines.append("> Complete page content for LLM ingestion. Read-only access, cited answers, zero data stored.")
+full_lines.append("> Complete page content for LLM ingestion. Read-only access and cited answers.")
+full_lines.append(f"> Canonical direct-MCP disclosure: {MCP_DATA_HANDLING_SUMMARY}")
 full_lines.append("")
 
 full_paths = sorted(ROOT.glob("docs/**/*.md"))
@@ -125,10 +138,18 @@ for path in full_paths:
     h1 = re.search(r'^# (.+)$', body, re.M)
     title = h1.group(1).strip() if h1 else (meta.get('title') or path.stem.replace('-', ' ').title())
     full_lines.append(f"\n---\n# {title}\nURL: {url}\n")
-    # Cap each page at 12k chars for the full file
-    full_lines.append(body[:12000])
+    # Cap each page without splitting words or Markdown tokens mid-fragment.
+    full_lines.append(truncate_for_feed(body))
 
 (ROOT / "llms-full.txt").write_text("\n".join(full_lines), encoding='utf-8')
+
+retention_findings = validate_repository(ROOT)
+if retention_findings:
+    print(
+        "ERROR: generated feeds contain unscoped data-retention claims; "
+        "run scripts/validate_retention_claims.py for details."
+    )
+    raise SystemExit(1)
 
 print(f"llms.txt: {len(index_txt)} chars, {sum(1 for l in index_txt.splitlines() if l.startswith('- '))} entries")
 print(f"llms-full.txt: {len(full_paths)} pages ingested")

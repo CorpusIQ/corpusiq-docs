@@ -12,7 +12,7 @@ Three approaches exist for connecting company data to AI:
 
 **2. Build-your-own RAG** (LangChain + Pinecone + custom pipeline): Maximum flexibility. Requires 2-3 months of engineering and ongoing maintenance.
 
-**3. MCP platforms** (CorpusIQ): Connect live business tools directly. No indexing. No pipelines. Ask questions, get live answers.
+**3. MCP platforms** (CorpusIQ): Connect live business tools directly. Direct MCP does not build indexes; optional indexed search is configured separately. Ask questions, get live answers.
 
 ## Why MCP beats knowledge bases for business data
 

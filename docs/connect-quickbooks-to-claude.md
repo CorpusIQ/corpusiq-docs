@@ -84,8 +84,8 @@ Once connected, Claude becomes your always-available financial analyst:
 Financial data is among the most sensitive information in any organization. CorpusIQ's QuickBooks integration is built with that sensitivity in mind:
 
 - **Read-only OAuth 2.0.** Claude can query financial data but can never create journal entries, modify invoices, or delete transactions.
-- **SOC 2 compliance.** CorpusIQ's infrastructure meets enterprise security standards.
-- **No data storage.** Your QuickBooks data is never persisted on CorpusIQ servers. Each query is a direct, live API call.
+- **Documented controls.** CorpusIQ maintains a SOC 2 aligned posture and is CASA Tier 2 certified by DEKRA; formal SOC 2 certification is not claimed.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Instant revocability.** Disconnect QuickBooks from CorpusIQ or revoke the Intuit token at any time.
 - **Audit trail.** All queries through CorpusIQ are logged, giving your compliance team visibility into who asked what and when.
 
@@ -157,7 +157,7 @@ OAuth scopes are configured during connection. You can choose to grant only spec
 <details>
 <summary><strong>Is this suitable for publicly traded companies with SOX requirements?</strong></summary>
 
-CorpusIQ is SOC 2 compliant, and the read-only architecture means no transactions can be modified. However, companies with specific SOX controls should evaluate the integration within their compliance framework.
+CorpusIQ maintains a SOC 2 aligned posture; formal SOC 2 Type II certification is not claimed. QuickBooks access is read-only. Companies with specific SOX controls should evaluate the integration within their compliance framework.
 </details>
 
 <details>

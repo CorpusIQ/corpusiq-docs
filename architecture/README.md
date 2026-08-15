@@ -1,6 +1,6 @@
 # Architecture
 
-CorpusIQ connects your business tools to AI platforms through a read-only MCP server. No data is moved, copied, or stored.
+CorpusIQ connects your business tools to AI platforms through a read-only MCP server. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days.
 
 ## How It Works
 

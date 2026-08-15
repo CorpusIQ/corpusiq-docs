@@ -1,13 +1,13 @@
 # Security
 
-CorpusIQ is built on the principle that your business data should never leave your tools.
+CorpusIQ reads authorized business records live and limits what it retains.
 
 ## Data Handling
 
 - **Read-only access** — We request the minimum permissions needed from each connector
-- **No data storage** — Query results are passed directly to your AI tool and discarded
-- **No data copying** — Your data stays in Shopify, Stripe, QuickBooks, etc.
-- **No training** — Your data is never used to train AI models
+- **Scoped retention** — Direct MCP does not retain raw customer files or full connector response payloads; operational logs may persist for up to 30 days
+- **No raw-data warehouse** — Source systems remain authoritative; optional indexed search has a separate embeddings and minimal-metadata lifecycle
+- **No CorpusIQ model training** — CorpusIQ does not use customer data to train models; the selected AI client's policy applies to its conversation
 
 ## Authentication
 

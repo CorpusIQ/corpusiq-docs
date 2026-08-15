@@ -138,7 +138,7 @@ Yes. Connect Amazon advertising data alongside order data to analyze which campa
 <details>
 <summary><strong>Is this secure for my store data?</strong></summary>
 
-Yes. All connections use OAuth with read-only scopes. CorpusIQ cannot modify your products, orders, or customer data. Your store data stays in your platforms and is queried on demand.
+Yes. All connections use OAuth with read-only scopes. CorpusIQ cannot modify your products, orders, or customer data. Connected commerce platforms remain authoritative; direct-MCP and operational-log retention follow the published lifecycles.
 </details>
 
 <details>

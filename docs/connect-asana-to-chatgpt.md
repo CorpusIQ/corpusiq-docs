@@ -130,10 +130,10 @@ The Asana integration is read-only at every layer:
 
 - **OAuth 2.0** with read-only scopes. No write, create, update, or delete permissions are requested.
 - **Workspace Permission Respect.** ChatGPT can only access projects and tasks within workspaces the authenticated user has access to.
-- **No Data Persistence.** Project and task data is queried live from Asana and discarded after the response.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **TLS 1.3 Encryption.** All data in transit is encrypted.
 
-For teams handling sensitive project data  --  product roadmaps, client deliverables, confidential initiatives  --  this read-only architecture ensures project data stays in Asana while remaining accessible through ChatGPT for status and reporting.
+For teams handling sensitive project data, Asana remains the authoritative source. CorpusIQ retrieves permitted project records through direct MCP; the retention classes and lifecycles described above still apply.
 
 ## Comparison: MCP vs. Direct Asana API Integration
 

@@ -4,7 +4,7 @@ CorpusIQ connects to 37+ business tools through a single MCP server. Each connec
 
 ## How Connectors Work
 
-You authenticate once. After that, CorpusIQ keeps a read-only token and your AI tools can query live data from all your connected services simultaneously. No data warehouses, no ETL pipelines, no copies of your data anywhere.
+You authenticate once. CorpusIQ retains an encrypted read-only token while the connection is active, then queries connected services live. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days.
 
 ## Available Connectors
 

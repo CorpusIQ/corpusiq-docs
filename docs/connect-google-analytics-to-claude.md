@@ -76,7 +76,7 @@ The integration supports all standard GA4 dimensions and metrics: traffic source
 ### Security
 
 - **Read-only OAuth 2.0.** Claude can query GA4 data but can never modify properties, views, or settings.
-- **No data storage.** Live API queries only.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Property-level isolation.** You control which GA4 properties are accessible.
 
 ### Comparison: MCP vs. GA4 Data API Direct

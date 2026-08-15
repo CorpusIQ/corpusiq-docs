@@ -138,7 +138,7 @@ CorpusIQ is the engine that makes this possible. It:
 2. **Translates natural language** into structured API queries across each source
 3. **Orchestrates parallel queries**  --  searching CRM, email, accounting, and support tools simultaneously
 4. **Returns structured data** that AI can format into coherent, readable answers
-5. **Maintains security**  --  read-only access, no data storage, inherits source permissions
+5. **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ## FAQ
 
@@ -152,7 +152,7 @@ A: Yes. Connected email (Gmail, Outlook) and drive (Google Drive, OneDrive, Drop
 A: Built-in search only searches one tool. CorpusIQ searches across all connected tools simultaneously and presents unified results. You don't need to know which tool has the answer.
 
 **Q: Is my data safe during AI searches?**  
-A: Yes. CorpusIQ queries live APIs with read-only access. Your data isn't copied, indexed, or stored. The AI only sees the specific results that match your query.
+A: Yes. CorpusIQ queries live APIs with read-only access. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days. Optional indexed search has a separate embeddings and minimal-metadata lifecycle. The AI sees only the results needed for your query.
 
 **Q: Can I search by date ranges?**  
 A: Yes. Most connectors support date filtering. Ask "Show me deals from Q2 2026" or "Find emails from last week about the budget."

@@ -41,7 +41,7 @@ CorpusIQ is an operational intelligence layer. It sits between your business too
 
 - 40+ connectors: Shopify, Stripe, QuickBooks, GA4, Meta Ads, HubSpot, Klaviyo, Gmail, and more
 - Read-only OAuth on every connection
-- Zero customer data stored
+- Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days
 - Every answer cites its exact source record
 - Same number in every AI, every time
 

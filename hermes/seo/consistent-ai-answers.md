@@ -34,7 +34,7 @@ By the time you have an answer, you could have just done the math yourself.
 
 Connect your tools once. Let every AI inherit the connections.
 
-CorpusIQ sits between your business tools and every AI you use. It does not store your data. It does not write to your systems. It connects with read-only OAuth to Shopify, Stripe, QuickBooks, GA4, Meta Ads, HubSpot, and thirty-five more.
+CorpusIQ sits between your business tools and every AI you use. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days. It does not write to your systems. It connects with read-only OAuth to Shopify, Stripe, QuickBooks, GA4, Meta Ads, HubSpot, and thirty-five more.
 
 Ask ChatGPT a question. It routes to your live data. It returns an answer with the exact source record cited — order number, transaction ID, campaign name. You can verify it instead of trusting it blind.
 
@@ -48,6 +48,6 @@ The AI changes. The answer does not.
 
 Stop being the bridge between your data and your AI. Connect once. Ask any AI. Get the same verified answer every time.
 
-Zero data stored. Read-only OAuth on every connection. Five-minute setup.
+Live retrieval with scoped retention. Read-only OAuth on every connection. Five-minute setup.
 
 [Connect your tools](https://corpusiq.io)

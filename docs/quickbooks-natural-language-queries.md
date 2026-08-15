@@ -138,7 +138,7 @@ Yes, on the Enterprise plan. You can ask questions like "Compare Q2 revenue acro
 The AI discovers your chart of accounts and custom fields dynamically. It doesn't rely on a predefined schema  --  it reads what's actually in your QuickBooks. Custom fields are exposed as filterable dimensions.
 
 ### How secure are my queries? Does the AI store my financial data?
-Queries are processed in real time. CorpusIQ does not store your QuickBooks data or query history on its servers beyond the duration of the API call. ChatGPT and Claude's data usage policies apply to the conversation itself. Enterprise customers can configure additional data retention controls.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ## Get Started with QuickBooks Natural Language Queries
 

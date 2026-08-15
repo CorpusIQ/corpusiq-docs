@@ -42,7 +42,7 @@ Each answer: 15 seconds. The whole close: 30 minutes instead of 3 days.
 
 Every connection is read-only. The AI can query QuickBooks but cannot create a journal entry. It can pull Stripe data but cannot issue a refund. It can check HubSpot but cannot modify a deal.
 
-For finance teams handling SOX compliance or external audits, this is non-negotiable. The AI leaves no footprint. It reads and answers. That's it.
+For finance teams handling SOX compliance or external audits, this is non-negotiable. The connector reads without writing back to the source. Operational query text, per-user tool-call metadata, and bounded outcome summaries may remain for up to 30 days; deletion and compliance receipts may remain for up to 24 months.
 
 ## Reconciliations that used to take hours
 
@@ -82,4 +82,4 @@ That's the shift. Not faster reports. A different job.
 
 ---
 
-*CorpusIQ connects 37+ business tools to AI assistants. QuickBooks + Stripe native. Read-only. SOC 2 compliant. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ connects 37+ business tools to AI assistants. QuickBooks + Stripe native. Read-only. SOC 2 aligned. [corpusiq.io](https://www.corpusiq.io)*

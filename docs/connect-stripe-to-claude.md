@@ -34,7 +34,7 @@ Stripe manages your revenue  --  and understanding that revenue means understand
 3. **CorpusIQ executes** Stripe API calls using your key  --  charges, customers, subscriptions, payouts, refunds, disputes, balance.
 4. **Claude presents** the results with analysis, calculations, and actionable insights.
 
-Every query is a live API call. Data is never cached or stored by CorpusIQ.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ### Setup Steps
 
@@ -78,7 +78,7 @@ Every query is a live API call. Data is never cached or stored by CorpusIQ.
 
 - **Restricted API key.** Use a read-only Stripe key with only the permissions Claude needs.
 - **No write access.** Claude can query but never charge, refund, or modify.
-- **No data storage.** Live API queries only.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Key encryption.** Your Stripe API key is encrypted at rest.
 
 ### Comparison: MCP vs. Stripe API Direct

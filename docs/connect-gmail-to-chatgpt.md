@@ -75,7 +75,7 @@ Gmail's built-in search is keyword-based and returns message lists. It doesn't r
 <details>
 <summary><strong>What about privacy  --  can ChatGPT see all my emails?</strong></summary>
 
-ChatGPT can search and read emails in response to specific questions you ask. It doesn't proactively scan your inbox. The read-only scope means it cannot modify anything. Google's OAuth consent screen shows exactly which permissions are granted. You can revoke access at any time from your Google Account security settings. The MCP connection queries live  --  your email data is not stored, cached, or retained by CorpusIQ after a query completes.
+ChatGPT reads emails only in response to questions you ask. Google's OAuth consent screen shows the exact read-only permissions, and you can revoke access from Google Account security settings at any time. Direct MCP requests fetch Gmail records live; CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 </details>
 
 ## How It Works
@@ -129,12 +129,12 @@ No Gmail search syntax required. No inbox scrolling. No manual thread reading.
 The Gmail integration's security is enforced by Google's own permission system:
 
 - **OAuth 2.0** with gmail.readonly scope. This scope explicitly excludes any write, send, delete, or modify capabilities.
-- **No Data Persistence.** Email content is queried live from Gmail and discarded after the response. CorpusIQ does not store, cache, or retain your emails.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **TLS 1.3 Encryption.** All data in transit between Gmail, CorpusIQ, and ChatGPT is encrypted.
 - **Google Account Controls.** Revoke access at any time from your Google Account → Security → Third-party apps with account access.
 - **Consent Screen Transparency.** Google's OAuth consent screen shows exactly which permissions are granted  --  gmail.readonly only.
 
-For individuals and organizations concerned about email privacy, this architecture means your Gmail data stays in Gmail. The MCP layer provides ephemeral, read-only, auditable access that you can revoke instantly.
+For individuals and organizations concerned about email privacy, Gmail remains the authoritative source. CorpusIQ retrieves permitted email content through direct MCP; scoped operational retention applies and access can be revoked.
 
 ## Comparison: MCP vs. Gmail Built-in Search
 

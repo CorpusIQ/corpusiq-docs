@@ -130,10 +130,10 @@ The HubSpot integration is read-only at every layer:
 
 - **OAuth Scopes:** Read-only access to contacts, companies, deals, and account metadata. No write, create, update, or delete permissions.
 - **MCP Tools:** Only query tools are exposed  --  contact search, deal listing, company retrieval. No tools exist to create, modify, or delete HubSpot records.
-- **No Data Persistence:** CorpusIQ does not store your CRM data. Queries execute, responses are delivered, data is discarded.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Encryption:** All data in transit is encrypted via TLS 1.3 between HubSpot, CorpusIQ, and ChatGPT.
 
-For sales organizations with strict data governance requirements, this architecture means your CRM data stays in HubSpot. The MCP layer provides governed, auditable access without data duplication.
+For sales organizations with strict data-governance requirements, HubSpot remains the authoritative source. CorpusIQ retrieves permitted CRM records through direct MCP; the retention classes and lifecycles described above still apply.
 
 ## Comparison: MCP vs. Direct HubSpot API Integration
 

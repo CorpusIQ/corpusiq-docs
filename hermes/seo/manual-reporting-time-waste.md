@@ -1,6 +1,6 @@
 ---
 title: 8 Hours a Week Wasted on Manual Reports — What Business Owners Need Instead
-description: Business owners spend 8 hours weekly pulling data from multiple tools. An AI intelligence layer replaces manual reporting with source-cited answers from live data. Read-only. Zero data stored.
+description: Business owners spend hours pulling data from multiple tools. An AI intelligence layer replaces manual reporting with source-cited answers from live data.
 canonical: "https://www.corpusiq.io/docs/hermes/seo/manual-reporting-time-waste/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -40,7 +40,7 @@ You already use AI. ChatGPT, Claude, Perplexity. You ask them questions all day.
 
 But they cannot see your actual business data. They are brilliant but blind.
 
-Connect your tools once. Read-only OAuth. Zero data stored. Every AI you use inherits the connections.
+Connect your tools once with read-only OAuth. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days. Every AI you use inherits the connections.
 
 Ask ChatGPT about weekly revenue. It pulls from Stripe, cross-checks against Shopify, flags discrepancies against QuickBooks, and returns a source-cited answer. Same number in Claude. Same number in Perplexity.
 

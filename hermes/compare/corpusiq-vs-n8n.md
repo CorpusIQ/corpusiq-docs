@@ -46,7 +46,7 @@ CorpusIQ requires no workflow building. You connect your tools once. Then you as
 
 ## Self-Hosted vs Cloud
 
-n8n can be self-hosted, which appeals to teams with strict data residency requirements. CorpusIQ is cloud-based with read-only access, meaning your data never leaves your tools and is never stored by CorpusIQ between queries.
+n8n can be self-hosted, which appeals to teams with strict data residency requirements. CorpusIQ is cloud-based with read-only access. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days.
 
 ## Pricing and Trial
 

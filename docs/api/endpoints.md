@@ -245,69 +245,6 @@ response = requests.post(
 )
 ```
 
----
-
-## DELETE /delete_my_data
-
-Permanently delete all data associated with the authenticated user. This action is irreversible.
-
-### Request
-
-```http
-DELETE /v1/delete_my_data
-Authorization: Bearer <token>
-```
-
-No request body is required. The API returns a confirmation payload before executing deletion.
-
-### Response
-
-```json
-{
-  "status": "deletion_confirmed",
-  "details": {
-    "oauth_tokens_revoked": 12,
-    "query_history_deleted": true,
-    "archive_entries_removed": 847,
-    "webhooks_unregistered": 2,
-    "profile_deleted": true
-  },
-  "message": "All user data has been permanently deleted. This action cannot be undone."
-}
-```
-
-### Code Examples
-
-**cURL**
-
-```bash
-curl -X DELETE https://mcp2.corpusiq.io/mcp \
-  -H "Authorization: Bearer <token>"
-```
-
-**JavaScript**
-
-```javascript
-const response = await fetch("https://mcp2.corpusiq.io/mcp", {
-  method: "DELETE",
-  headers: { Authorization: `Bearer ${token}` },
-});
-const result = await response.json();
-console.log(result.message);
-```
-
-**Python**
-
-```python
-import requests
-
-response = requests.delete(
-    "https://mcp2.corpusiq.io/mcp",
-    headers={"Authorization": f"Bearer {token}"},
-)
-print(response.json()["message"])
-```
-
 ## Frequently Asked Questions
 
 **Q: What is the POST /query endpoint used for?**  
@@ -316,8 +253,6 @@ A: POST /query searches across all your connected business data sources with nat
 **Q: What does POST /deep_search do?**  
 A: POST /deep_search searches the encrypted archive of previously executed queries and their results. It does NOT make live API calls  --  it searches only your query history for pattern discovery and auditing.
 
-**Q: What happens when I call DELETE /delete_my_data?**  
-A: This endpoint permanently deletes all user data: OAuth tokens, query history, archive entries, webhook registrations, and user profile. The action is irreversible and triggers a user.deleted webhook event.
 
 **Q: How do I scope queries to specific connectors?**  
 A: Pass a 'connectors' array in your /query request body specifying which data sources to search. Example: {"query": "revenue this month", "connectors": ["stripe", "quickbooks"]}.
@@ -328,7 +263,7 @@ A: Pass a 'connectors' array in your /query request body specifying which data s
 - **[API Authentication Guide](/docs/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
 - **[API Endpoints Reference](/docs/api/endpoints)**  --  Complete request/response schemas and code examples  
 - **[API Rate Limits](/docs/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Event notifications and HMAC signature verification  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Current webhook-contract availability
 - **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SAML, SOC 2, and data residency  
 - **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption, network security, and compliance  
 

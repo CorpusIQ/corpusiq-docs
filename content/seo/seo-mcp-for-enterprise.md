@@ -23,9 +23,9 @@ Meanwhile, the CEO wants to know "how are we doing this quarter?" and nobody can
 
 **OAuth-native, per-user:** Each user authenticates via their own OAuth. No shared API keys. Revoke access instantly. Audit trail shows who queried what.
 
-**No data movement:** Data stays in source systems. It's queried on demand, flows into the AI's context window, and is gone after the response. No second copy to secure. No new attack surface.
+**No ETL warehouse:** Source systems remain authoritative. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days.
 
-**SOC 2, CASA Tier 2:** Independent certification for security-conscious procurement teams.
+**Security posture:** SOC 2 aligned, with CASA Tier 2 certification by DEKRA. Formal SOC 2 certification is not claimed.
 
 ## What enterprise teams ask
 
@@ -50,7 +50,7 @@ Meanwhile, the CEO wants to know "how are we doing this quarter?" and nobody can
 |------------|-----------------|
 | Read-only access | Architectural — no write path exists |
 | OAuth-native | Per-user auth, instant revoke, audit trail |
-| No data storage | Data queried live, never cached or stored |
+| Scoped retention | Data queried live without retaining raw customer files or full connector payloads; operational logs may persist up to 30 days |
 | SOC 2 | Enterprise-grade security posture |
 | CASA Tier 2 | Independent security certification |
 | No API keys | OAuth only — nothing to leak or rotate |
@@ -58,4 +58,4 @@ Meanwhile, the CEO wants to know "how are we doing this quarter?" and nobody can
 
 ---
 
-*CorpusIQ: Enterprise-grade MCP platform. SOC 2 + CASA Tier 2. Read-only by design. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Enterprise-grade MCP platform. SOC 2 aligned and CASA Tier 2 certified. Read-only by design. [corpusiq.io](https://www.corpusiq.io)*

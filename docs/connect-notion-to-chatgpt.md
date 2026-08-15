@@ -132,7 +132,7 @@ The Notion integration provides layered security:
 
 - **Integration Token** with read-only capabilities. No content creation, editing, or deletion.
 - **Page-Level Sharing.** You explicitly share each top-level page and database with the integration. Unshared pages are inaccessible regardless of workspace membership.
-- **No Data Persistence.** Page content is queried live from Notion and discarded after the response.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **TLS 1.3 Encryption.** All data in transit is encrypted.
 - **Token Revocation.** Revoke the integration token from Notion at any time to immediately cut off access.
 

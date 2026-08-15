@@ -93,7 +93,7 @@ Each answer draws from live data. No exports. No pivots. No "let me check and ge
 
 Every connection is read-only. The AI can query your data but cannot modify it. No accidental refunds. No deleted orders. No changed invoices.
 
-Data flows directly from the source tool into the AI's response. It's not stored, cached, or used to train models. Once the response is generated, the data is gone from the context window.
+Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days. CorpusIQ does not train models on customer data; conversation handling follows the AI-provider plan and settings you choose.
 
 ## The tools you can connect
 

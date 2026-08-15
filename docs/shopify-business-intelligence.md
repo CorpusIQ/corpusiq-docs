@@ -96,7 +96,7 @@ A founder preparing for fundraising asks: "Build the investor data pack: revenue
 Shopify Plus analytics and apps like Triple Whale or Northbeam focus on a subset of data  --  primarily marketing attribution. CorpusIQ BI connects your entire business stack: ecommerce, marketing, financial, CRM, and operations. It's a general-purpose business intelligence layer, not a single-use analytics tool.
 
 ### Do I need a data warehouse?
-No. CorpusIQ queries your data in-place through direct API connections. No data migration, no warehouse costs, no ETL pipelines, no data engineering team. Your data stays in its source systems and is queried on demand.
+No warehouse is required for direct MCP. CorpusIQ queries source APIs on demand rather than maintaining a replicated business-data warehouse. Operational logs may persist up to 30 days, and optional indexed search has a separate lifecycle.
 
 ### What if my business uses platforms not listed?
 CorpusIQ supports 30+ platforms and is continuously adding more. Custom API integrations are available on the Enterprise plan for proprietary or niche platforms. Contact our sales team to discuss your specific stack.
@@ -114,7 +114,7 @@ Yes. CorpusIQ BI is designed for businesses processing millions in revenue acros
 A BI hire costs $80K-150K/year plus tooling costs, and takes months to become productive. CorpusIQ BI provides immediate, conversational access to cross-source intelligence at a fraction of the cost. Many businesses use both: AI for day-to-day intelligence and analysts for custom modeling and strategic projects.
 
 ### What about data privacy and security?
-Each connected platform authenticates independently through OAuth 2.0 or API keys with scoped permissions. CorpusIQ enforces per-user, per-source access controls. Data is transmitted over TLS 1.3 and never stored on CorpusIQ servers beyond the duration of the query. Enterprise customers can configure additional security controls.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ### Can I share insights with my team who don't use CorpusIQ?
 Yes. Insights can be exported, shared via Slack, delivered by email, or saved to Google Drive/OneDrive/Dropbox. Scheduled reports can go to distribution lists including non-CorpusIQ users.

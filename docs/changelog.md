@@ -15,9 +15,9 @@ All notable changes to the CorpusIQ API are documented here. This project follow
 
 ## August 2026  --  Distribution Milestones
 
-### Listed in the Claude Connector Directory
+### Claude Custom Connector Support
 
-CorpusIQ is now listed in Anthropic's Connector Directory inside claude.ai. Claude Pro, Max, Team, and Enterprise users can install CorpusIQ with one click from the built-in directory. No manual MCP configuration required.
+Claude users can add the public CorpusIQ MCP endpoint through Claude's custom connector flow. CorpusIQ is not yet listed in Anthropic's Connector Directory, so setup currently requires entering the endpoint manually.
 
 ### MCP Auth Refresh (silent, no re-login)
 
@@ -37,7 +37,6 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 
 - **`POST /v1/deep_search`**  --  Search the encrypted archive of previously executed queries and their results. Supports date-range filtering and returns similarity-scored matches.
 
-- **`DELETE /v1/delete_my_data`**  --  Permanently delete all user data, including OAuth tokens, query history, archive entries, webhook registrations, and user profile. Triggers a `user.deleted` webhook event.
 
 ### Authentication
 
@@ -52,12 +51,6 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 - Importable into Postman, Insomnia, and Swagger UI
 - Interactive documentation at `https://mcp2.corpusiq.io/mcp`
 
-### Webhooks
-
-- Webhook delivery framework with HMAC-SHA256 signature verification
-- `user.deleted` event type fired on data deletion
-- Retry with exponential backoff: 60s → 5m → 15m → 1h
-- Signed payloads via `CorpusIQ-Signature` header
 
 ### Rate Limiting
 
@@ -68,7 +61,7 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 ### Security
 
 - Read-only OAuth scopes across all connectors
-- Zero data retention: embeddings deleted after each session
+- Scoped data handling: direct MCP live retrieval plus optional indexed-search embeddings
 - TLS 1.3 for all API traffic
 - AES-256-GCM encryption at rest
 - SOC 2 Type II compliance program initiated
@@ -81,7 +74,7 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 
 ### Documentation
 
-- Published [CorpusIQ Documentation](/docs/) covering API reference, authentication, rate limits, webhooks, security, and quick start
+- Published [CorpusIQ Documentation](/docs/) covering API reference, authentication, rate limits, security, and quick start
 - Connector catalog with descriptions for all supported integrations
 - Code examples in cURL, JavaScript, and Python for all endpoints
 

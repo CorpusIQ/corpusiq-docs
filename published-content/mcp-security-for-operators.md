@@ -12,15 +12,15 @@ The MCP servers that connect to business tools are read-only. An AI connected to
 
 This is not a setting you toggle. It is a property of how the connection is built. The OAuth tokens granted to the MCP server request read-only scopes. Stripe sees a request for read access and only grants read access. If the AI tried to create a charge, Stripe would reject it at the API level.
 
-## No data stored
+## Scoped retention
 
-When you ask your AI a question, it queries your tools live and returns the answer. The data passes through the MCP server in memory and is discarded. Nothing is written to a database. Nothing is cached on a server. Nothing is stored for training.
+When you ask your AI a question, it queries your tools live and returns the answer. Direct MCP does not retain raw customer files or full connector response payloads. Operational query text, per-user tool-call metadata, and bounded outcome summaries may be retained for up to 30 days. CorpusIQ does not use customer data to train models; the selected AI client's policy applies to its conversation.
 
-This is fundamentally different from how most AI tools work. A typical "upload your CSV and ask questions" tool copies your data to its servers. An MCP connection does not. The data stays where it is. The AI gets a live answer from a live source.
+This differs from maintaining a replicated raw-data warehouse. Direct MCP retrieves live source records without retaining raw customer files or full connector response payloads. Operational logs, optional indexed search, compliance receipts, and the selected AI provider still have their documented processing and retention paths.
 
 ## Audit logging
 
-Every question you ask and every tool the AI queries is logged. You can see exactly what data was accessed, by whom, and when. If someone asks "what were last month's sales by customer," that question and its answer are in the audit log.
+Operational query text and per-user tool-call metadata may be logged for up to 30 days, together with bounded outcome summaries. Raw customer files and full connector response payloads are not written into that operational log.
 
 For teams on business plans, this audit trail is essential for compliance. SOX, SOC 2, GDPR — auditors want to know who accessed what data and when. MCP connections provide that trail.
 
@@ -36,10 +36,10 @@ CorpusIQ runs on Microsoft Azure with DEKRA CASA Tier 2 certification. For enter
 
 ## The bottom line
 
-The security model is straightforward. Read-only access to your tools. No data stored. OAuth authentication. Audit logging. Certified infrastructure.
+The security model is straightforward. Read-only access to your tools. Scoped retention. OAuth authentication. Audit logging. Certified infrastructure.
 
 If any MCP platform cannot answer "is it safe" with these five things, do not connect your business to it.
 
 ---
 
-*CorpusIQ connects ChatGPT, Claude, and Perplexity to 40+ business tools. Read-only. No data stored. corpusiq.io/security*
+*CorpusIQ connects ChatGPT, Claude, and Perplexity to 40+ business tools. Read-only. Live retrieval with scoped retention. corpusiq.io/security*

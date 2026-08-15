@@ -36,8 +36,10 @@ info:
   version: "1.0.0"
   description: |
     Private AI acceleration layer connecting 40+ business tools to ChatGPT, Claude,
-    and Perplexity via MCP. Read-only queries across your entire data stack with
-    cited results  --  no data storage, no data movement.
+    and Perplexity via MCP. Direct MCP uses read-only live retrieval and does not
+    retain raw customer files or full connector response payloads. Operational logs
+    retain query text, per-user tool-call metadata, and bounded outcome summaries
+    for up to 30 days.
   contact:
     name: "CorpusIQ API Support"
     email: "api@corpusiq.io"
@@ -148,24 +150,6 @@ paths:
           $ref: "#/components/responses/RateLimited"
         "500":
           $ref: "#/components/responses/ServerError"
-  /delete_my_data:
-    delete:
-      summary: "Delete all user data"
-      description: |
-        Permanently delete all data associated with the authenticated user.
-        This action is irreversible and triggers a user.deleted webhook event.
-      operationId: "deleteMyData"
-      responses:
-        "200":
-          description: "Deletion confirmed and executed"
-          content:
-            application/json:
-              schema:
-                $ref: "#/components/schemas/DeleteResponse"
-        "401":
-          $ref: "#/components/responses/Unauthorized"
-        "500":
-          $ref: "#/components/responses/ServerError"
 components:
   securitySchemes:
     BearerAuth:
@@ -263,27 +247,6 @@ components:
           type: "integer"
         duration_ms:
           type: "integer"
-    DeleteResponse:
-      type: "object"
-      properties:
-        status:
-          type: "string"
-          example: "deletion_confirmed"
-        details:
-          type: "object"
-          properties:
-            oauth_tokens_revoked:
-              type: "integer"
-            query_history_deleted:
-              type: "boolean"
-            archive_entries_removed:
-              type: "integer"
-            webhooks_unregistered:
-              type: "integer"
-            profile_deleted:
-              type: "boolean"
-        message:
-          type: "string"
     ApiError:
       type: "object"
       properties:
@@ -363,7 +326,7 @@ A: Yes. The OpenAPI spec is importable into Postman, Insomnia, Swagger UI, and a
 - **[API Authentication Guide](/docs/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
 - **[API Endpoints Reference](/docs/api/endpoints)**  --  Complete request/response schemas and code examples  
 - **[API Rate Limits](/docs/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Event notifications and HMAC signature verification  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Current webhook-contract availability
 - **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SAML, SOC 2, and data residency  
 - **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption, network security, and compliance  
 

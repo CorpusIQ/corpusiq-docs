@@ -33,7 +33,7 @@ Running a Shopify store generates a firehose of data: orders, customers, product
 
 CorpusIQ's MCP platform creates a secure, real-time bridge between ChatGPT and your Shopify admin:
 
-1. **One-Click Shopify Connection**  --  Authenticate your Shopify store through CorpusIQ's OAuth flow. The platform establishes a read-only connection that can access orders, products, customers, inventory, and store analytics. Your store data is queried on-demand and never stored by CorpusIQ.
+1. **One-Click Shopify Connection**  --  Authenticate your Shopify store through CorpusIQ's OAuth flow. The resulting read-only direct MCP connection fetches live Shopify records. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 2. **Structured Data Access**  --  CorpusIQ exposes Shopify as a set of structured tools: order lookups, product searches, customer queries, inventory checks, and sales analytics. ChatGPT selects the right tool for each question automatically.
 
@@ -81,7 +81,7 @@ A product manager asks: "Show me the first 30 days of sales for our three most r
 ## Frequently Asked Questions
 
 ### Is my Shopify data secure when using ChatGPT?
-Yes. CorpusIQ uses OAuth 2.0 with read-only access to your Shopify admin. Your store data is queried in real time and never persisted on CorpusIQ servers. All data transmission is encrypted with TLS 1.3. ChatGPT processes the data in your conversation session  --  consult OpenAI's data usage policies for ChatGPT-specific privacy details.
+Yes. CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ### Can ChatGPT modify my Shopify store?
 No. The CorpusIQ-Shopify connection is strictly read-only. ChatGPT can analyze your data and make recommendations, but it cannot create products, modify orders, change inventory, adjust prices, or alter any store settings. Your store remains fully under your control.

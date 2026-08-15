@@ -1,7 +1,7 @@
 ---
 description: >-
-  CorpusIQ security: read-only access to every connected tool, AES-256
-  encryption, ephemeral by design, and source citations on every answer.
+  CorpusIQ security: read-only access to connected tools, AES-256 encryption,
+  documented retention lifecycles, and source citations on every answer.
   We never write to your systems.
 canonical: "https://www.corpusiq.io/docs/security/"
 robots: "index,follow"
@@ -53,10 +53,10 @@ CorpusIQ is strictly read-only. We:
 - Never initiate transactions or changes
 
 ### Data Handling
-- Data retrieved on-demand, not cached persistently
-- Query results delivered directly to the requesting client
-- No data warehousing or long-term storage of query results
-- Transient processing only
+- Direct MCP retrieves source records on demand and delivers scoped results to the requesting client
+- Raw customer files and full connector response payloads are not retained by the direct path
+- Operational query text, per-user tool-call metadata, and bounded outcome summaries may be retained for up to 30 days
+- Optional indexed search retains embeddings and minimal metadata until connector revocation or account deletion
 
 ## Encryption
 

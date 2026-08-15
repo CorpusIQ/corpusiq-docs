@@ -93,7 +93,7 @@ Notion is where your company's written knowledge lives. But Notion's search, whi
 
 - **Page-level access control.** Claude can only access pages and databases you've explicitly shared with the integration.
 - **Read-only token.** Claude can read content but can never create, update, or delete Notion pages.
-- **No data storage.** Content is never persisted on CorpusIQ servers.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Token revocation.** Revoke the Notion integration token at any time.
 
 ## Comparison: MCP vs. Notion API Direct

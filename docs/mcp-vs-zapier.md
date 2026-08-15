@@ -42,7 +42,7 @@ MCP queries are context-aware because the AI model maintains the full conversati
 
 Zapier moves data. When a Zap fires, it copies data from the trigger app to the action app  --  creating a new row, updating a record, sending a notification. This data movement creates copies, which means data can fall out of sync. The QuickBooks invoice created by a Zap may not reflect a subsequent price adjustment in Shopify.
 
-MCP accesses data without moving it. The MCP server queries the source system directly and returns results. The data stays in place  --  there's no copy to fall out of sync, no synchronization errors to debug. This read-only access pattern is inherently safer and more reliable for business intelligence.
+MCP servers can query source systems on demand rather than relying on a replicated ETL warehouse. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational retention applies. This read-only access pattern reduces warehouse synchronization work for business intelligence.
 
 ## Setup Complexity
 

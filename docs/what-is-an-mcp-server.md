@@ -100,7 +100,7 @@ The entire round trip takes seconds, and the data is always current  --  no stal
 
 **AI-native interface.** The AI model understands what tools are available and how to use them. You don't need to know which endpoint to call or what parameters to pass.
 
-**Security by design.** MCP servers default to read-only access. Your data stays in your systems  --  the MCP server queries it on demand but doesn't store or cache it.
+**Security by design.** MCP servers can default to read-only access and query source records on demand instead of maintaining a warehouse copy. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs follow the published retention schedule.
 
 **Open standard.** MCP is an open protocol. Any AI platform can implement MCP client support, and any developer can build MCP servers. You're not locked into a single vendor.
 
@@ -129,7 +129,7 @@ No. While Anthropic created MCP, it's an open protocol. Any AI model or platform
 <details>
 <summary><strong>Does an MCP server store my data?</strong></summary>
 
-No. MCP servers query your data sources on demand and return results. They do not store, cache, or persist your business data. CorpusIQ's architecture is stateless by design  --  each query is a fresh request against your live systems.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 </details>
 
 <details>

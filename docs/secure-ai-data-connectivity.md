@@ -1,6 +1,6 @@
 ---
 title: "Secure AI Data Connectivity -- Zero-Trust Business AI"
-description: The most secure way to connect AI assistants to business data. TLS 1.3, AES-256, read-only OAuth, HMAC signatures, and zero data retention. CASA Tier 2 certified.
+description: Connect AI assistants to authorized business data with scoped OAuth, encrypted transport, explicit retention classes, and source-aware results. CASA Tier 2 certified.
 category: Security
 tags: [secure AI connectivity, zero-trust AI, business AI security, read-only OAuth, MCP security, encrypted AI access, AI data governance]
 last_updated: "2026-08-14"
@@ -12,32 +12,32 @@ robots: index,follow
 
 Connecting AI assistants to business data introduces security risks that traditional SaaS integrations never faced. AI models can hallucinate, leak data across sessions, and create attack surfaces that didn't exist before. Secure AI data connectivity is the practice of enabling AI assistants to query business systems while maintaining zero-trust security principles, data minimization, and full auditability.
 
-CorpusIQ provides the most secure way to connect ChatGPT, Claude, and other AI assistants to your business tools  --  using read-only OAuth, ephemeral embeddings, and military-grade encryption at every layer.
+CorpusIQ connects ChatGPT, Claude, and other AI assistants to business tools using scoped OAuth, explicit data-handling boundaries, and encrypted transport.
 
 ---
 
 ## FAQ
 
 ### What is secure AI data connectivity?
-Secure AI data connectivity is the architectural practice of connecting AI models to business data sources through encrypted, authenticated, and audited channels. It ensures AI assistants can query data without ever storing it, training on it, or exposing it to unauthorized parties.
+Secure AI data connectivity is the architectural practice of connecting AI models to business data sources through encrypted, authenticated, and audited channels. It limits retrieval to authorized requests and makes retention explicit by product path. CorpusIQ does not use customer data to train models; conversation handling follows the selected AI provider's plan and settings.
 
 ### How does CorpusIQ keep my data secure?
-CorpusIQ uses TLS 1.3 for all data in transit, AES-256 encryption at rest, read-only OAuth scopes on every connector (no write permissions), per-session ephemeral embeddings that are deleted immediately after each query, and HMAC-SHA256 signed webhooks for all external notifications. CorpusIQ is CASA Tier 2 certified by DEKRA and OWASP Top 10 verified.
+CorpusIQ uses HTTPS/TLS for data in transit and Azure-managed encryption for persisted service data. External source connectors use read-only vendor access where that is the documented connector contract. Direct MCP requests use live retrieval without building embeddings or file indexes; optional indexed-search features use embeddings and minimal metadata. CorpusIQ is CASA Tier 2 certified by DEKRA.
 
 ### Does the AI model see my raw data?
-No. CorpusIQ sits between your tools and the AI assistant. It fetches data via read-only API calls, generates temporary embeddings for semantic ranking, and returns cited results. The AI model only sees the final answer with source citations  --  never raw data, never file contents directly, and never with persistent access.
+CorpusIQ sits between your tools and the AI assistant. It sends the requesting AI client the source data needed for the requested tool result and citations; it does not give the model persistent provider access. Direct MCP requests do not build embeddings or file indexes.
 
 ### Can CorpusIQ modify my data?
-No. Every connector uses read-only OAuth scopes exclusively. CorpusIQ cannot create, modify, or delete records in any connected system. You can verify the exact scopes on the OAuth authorization screen.
+External source connectors are designed for read-only retrieval and do not write back to those connected vendor systems. CorpusIQ control-plane tools can update user-declared CorpusIQ state or revoke credentials when the user explicitly requests those actions. Review the exact vendor scopes on each OAuth authorization screen and the safety annotations on the selected tool.
 
 ### What encryption standards does CorpusIQ use?
-TLS 1.3 with forward secrecy for all data in transit. AES-256-GCM with managed keys and 90-day key rotation for data at rest. Per-user encryption keys for the deep search archive. HMAC-SHA256 signatures verified on every webhook delivery.
+CorpusIQ uses HTTPS/TLS for data in transit and the encryption-at-rest controls of its managed Azure services. Customer-specific requirements for keys, rotation, residency, backups, or dedicated infrastructure should be validated during an enterprise security review rather than inferred from this overview.
 
 ### What happens to my data after a query?
-Embeddings are generated in-memory for semantic ranking and deleted immediately when the session completes. No query results, derived data, or intermediate representations are persisted on CorpusIQ servers. The encrypted archive stores only vector fingerprints  --  not raw data.
+Direct MCP requests do not retain raw customer files or full connector response payloads. Query text, per-user tool-call metadata, and bounded outcome summaries remain in operational logs for up to 30 days. Optional indexed-search features may retain embeddings and minimal metadata while the connector remains active.
 
 ### How does token security work?
-API tokens expire after 60 minutes with server-side refresh detection. Tokens are never embedded in client-side code. Revocation takes effect immediately across all active sessions. OAuth tokens are encrypted at rest with per-tenant keys.
+Short-lived access tokens and server-side refresh handling limit long-lived bearer exposure. OAuth credentials are kept out of public client bundles and stored in managed server-side secret storage. Revocation and refresh behavior depend on the credential type and provider contract.
 
 ---
 
@@ -46,59 +46,59 @@ API tokens expire after 60 minutes with server-side refresh detection. Tokens ar
 CorpusIQ acts as a secure proxy between AI assistants and your business data:
 
 ```
-AI Assistant → CorpusIQ MCP Server → TLS 1.3 → Read-Only OAuth → Business Tools
+AI Assistant → CorpusIQ MCP Server → HTTPS/TLS → Scoped OAuth → Business Tools
                     ↓
-           Ephemeral Embeddings (in-memory, deleted after session)
+           Live Tool Result (no direct-MCP file index)
                     ↓
-           HMAC-Signed Response with Source Citations
+           Tool Result with Source Citations
 ```
 
-1. **Authentication:** The user authenticates via OAuth, granting read-only scopes. No write permissions are ever requested.
-2. **Query Processing:** When an AI assistant asks a question, CorpusIQ translates it into read-only API calls to the relevant connected tools.
-3. **Temporary Processing:** Results are fetched in real time, ranked using in-memory embeddings, and formatted with source citations.
-4. **Immediate Cleanup:** All embeddings and intermediate processing data are deleted the moment the session completes.
-5. **Audit Trail:** Every query is logged with an immutable audit ID for compliance and debugging.
+1. **Authentication:** The user authenticates through the connector's documented OAuth flow and reviews the requested vendor scopes.
+2. **Query Processing:** When an AI assistant asks a question, CorpusIQ routes it to the relevant authorized source tools. External-source retrieval tools do not write back to those vendor systems; explicit CorpusIQ control-plane tools have separate safety annotations.
+3. **Direct MCP Processing:** Results are fetched in real time and returned with source citations without building embeddings or file indexes; optional indexed search is the separate mode described next.
+4. **Optional Indexed Search:** Separate indexed-search features may use embeddings and minimal metadata in a per-user namespace.
+5. **Audit Trail:** Local AUDIT logs record raw query text and tool parameters plus bounded result summaries. The Azure Log Analytics workspace retains those logs for 30 days.
 
 ---
 
 ## Benefits
 
-### Read-Only by Design
-No write permissions on any connector. You can verify this on every OAuth authorization screen. Even if an AI assistant were compromised, CorpusIQ's architecture prevents data modification.
+### Read-Only External Retrieval
+External source connectors are designed not to write back to connected vendor systems. CorpusIQ control-plane operations, including credential revocation and user-declared state changes, remain explicit and separately annotated.
 
-### Zero Data Storage
-Query results exist only in memory during the active session. Once the answer is delivered, all embeddings are purged. There is no database of your business data on CorpusIQ servers.
+### Scoped Data Handling
+Direct MCP requests use live retrieval without retaining raw customer files or full connector response payloads. Operational query logs are retained for up to 30 days. Optional indexed-search features have a separate embeddings-and-metadata lifecycle.
 
 ### Ephemeral Context
-Only short-lived query context is passed to your AI client. The model never receives a persistent copy of your data, never trains on it, and never retains it beyond the current conversation turn.
+The requesting AI client receives the tool result needed for the current request. CorpusIQ does not use customer data for model training and does not grant the model persistent provider access.
 
-### End-to-End Encryption
-TLS 1.3 protects data in transit between all components. AES-256-GCM encrypts tokens and archive vectors at rest. HMAC-SHA256 secures all webhook deliveries.
+### Encryption in Transit and at Rest
+HTTPS/TLS protects supported network paths. Managed Azure services provide encryption at rest for persisted service data; customer-specific cryptographic and residency requirements require deployment review.
 
 ### Granular Access Control
-Per-user OAuth scopes mean each user only accesses the data their own account can see. No cross-user data leakage. No shared credentials. No service accounts with broad access.
+Per-user OAuth and connector identity mapping scope requests to the authorized user's source accounts. CorpusIQ's isolation controls are designed to prevent cross-user credential reuse; enterprise reviews should validate any provider-side shared-account or service-account configuration separately.
 
 ### Verified Security Posture
-CASA Tier 2 certified by DEKRA. OWASP Top 10 verified. SOC 2 ready with quarterly control checks. Independent penetration testing annually. GDPR aligned.
+CASA Tier 2 certified by DEKRA. CorpusIQ maintains a SOC 2 aligned posture; formal SOC 2 certification is not claimed.
 
 ---
 
 ## Use Cases
 
 ### Financial Services Compliance
-Banks and fintech companies use CorpusIQ to enable AI-powered financial analysis while maintaining PCI-DSS and SOX compliance. Read-only access to QuickBooks and Stripe means AI can analyze cash flow without ever touching live transactions.
+Financial teams can use CorpusIQ for analysis against authorized QuickBooks and Stripe data. CorpusIQ does not confer PCI DSS or SOX compliance; each organization must validate its own controls, source scopes, AI-provider plan, and deployment.
 
 ### Healthcare Data Privacy
-Healthcare organizations connect EHR systems and practice management tools to AI assistants for scheduling optimization and revenue cycle analysis  --  all without moving PHI outside the secure environment.
+Healthcare organizations must evaluate any EHR connection, CorpusIQ retention class, and selected AI-provider plan against their own PHI and regulatory requirements. CorpusIQ does not claim that every processing path remains inside a healthcare boundary.
 
 ### Enterprise Knowledge Management
-Large enterprises connect SharePoint, Google Drive, and Notion to ChatGPT while maintaining data residency requirements and internal access controls. Employees can ask natural language questions across all documents without data ever leaving the corporate boundary.
+Large enterprises can connect SharePoint, Google Drive, and Notion while preserving source permissions. Data processing and residency still depend on CorpusIQ's documented retention classes, deployment region, and the selected AI-provider plan.
 
 ### Ecommerce Analytics
-Shopify merchants connect their stores to AI assistants for real-time sales analysis, inventory forecasting, and customer segmentation  --  all with read-only access that eliminates the risk of accidental order modification.
+Shopify merchants can connect stores to AI assistants for sales analysis, inventory forecasting, and customer segmentation through the connector's read-only external-source retrieval contract.
 
 ### Agency Client Reporting
-Marketing agencies connect client accounts (Google Analytics, Meta Ads, HubSpot) to Claude for cross-client reporting without exposing one client's data to another. Per-user OAuth scoping ensures strict data isolation.
+Marketing agencies can connect authorized Google Analytics, Meta Ads, and HubSpot accounts to Claude for reporting. Per-user OAuth and connector identity mapping are part of the isolation boundary; agencies remain responsible for configuring distinct client identities and permissions.
 
 ---
 
@@ -122,7 +122,7 @@ Marketing agencies connect client accounts (Google Analytics, Meta Ads, HubSpot)
   "@context": "https://schema.org",
   "@type": "TechArticle",
   "headline": "Secure AI Data Connectivity  --  Zero-Trust Business AI Access",
-  "description": "How CorpusIQ enables the most secure way to connect AI assistants to business data using read-only OAuth, TLS 1.3, AES-256 encryption, and zero data retention.",
+  "description": "How CorpusIQ connects AI assistants to authorized business data using scoped OAuth, encrypted transport, explicit retention classes, and source-aware results.",
   "about": {
     "@type": "Thing",
     "name": "Secure AI Data Connectivity"

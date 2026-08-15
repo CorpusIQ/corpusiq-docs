@@ -42,10 +42,10 @@ CorpusIQ redefines "knowledge platform" by connecting AI to ALL company knowledg
 **Key Strengths:**
 - **Unified knowledge access:** Documents (Drive, Notion, OneDrive) + live data (HubSpot, QuickBooks, GA4, Stripe) + communications (Gmail, Slack)
 - **Real-time accuracy:** Queries live sources  --  policies from Drive are current, customer data from CRM is live
-- **2-minute setup per source:** OAuth, no configuration, no indexing
+- **2-minute direct-MCP setup per source:** OAuth; optional indexed search is configured separately
 - **Cross-source answers:** "What's our Q2 revenue AND which customers contributed most AND what's in the pipeline?"
-- **Enterprise security:** Read-only, inherits source permissions, SOC 2 compliant
-- **No data duplication:** Knowledge stays in source systems
+- **Enterprise security:** Read-only, inherited source permissions, SOC 2 aligned
+- **Scoped live retrieval:** Direct queries avoid a raw-file/full-payload warehouse while retaining bounded operational logs
 
 **Best for:** Organizations that need AI to answer questions spanning documents, business data, and communications.
 
@@ -125,7 +125,7 @@ Traditional AI knowledge platforms are document-centric  --  they index your fil
 | Analytics (live) | ❌ | ❌ | ❌ | ❌ | ✅ |
 | Email/Slack | ⚠️ | ❌ | ❌ | ❌ | ✅ |
 | Cross-Source Answers | ❌ | ❌ | ❌ | ❌ | ✅ |
-| Real-Time (no indexing) | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Live direct-MCP mode | ❌ | ❌ | ❌ | ❌ | ✅ |
 
 Only CorpusIQ covers the full spectrum of company knowledge.
 

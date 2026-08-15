@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ Security"
-description: "Complete CorpusIQ security documentation: SOC 2 Type II, CASA Tier 2 certified by DEKRA, AES-256 encryption, TLS 1.3, read-only OAuth, zero data storage"
+description: "CorpusIQ security documentation: CASA Tier 2, SOC 2 aligned controls, AES-256, TLS 1.3, read-only OAuth, and scoped data handling"
 category: "Documentation"
 tags: ["corpusiq security", "soc 2", "casa tier 2", "data privacy", "encryption", "oauth security", "gdpr compliance", "ai security"]
 last_updated: "2026-08-12"
@@ -16,7 +16,7 @@ CorpusIQ is designed with data privacy as a foundational principle. This page do
 | Standard | Status |
 |----------|--------|
 | **CASA Tier 2** | Certified by DEKRA  --  OWASP Top 10 Verified |
-| **SOC 2** | Ready  --  quarterly control checks, independent pen-testing annually |
+| **SOC 2** | Aligned  --  formal certification is not claimed; controls are reviewed quarterly |
 | **GDPR** | Aligned  --  data minimization, user consent, deletion rights |
 | **Encryption** | AES-256 at rest, TLS 1.3 in transit |
 | **Access Model** | Read-only OAuth  --  no write permissions ever |
@@ -29,9 +29,9 @@ Contact: security@corpusiq.io · privacy@corpusiq.io
 
 **Outputs:** In-chat answers, ranked references, and optional deep search results.
 
-**Storage:** Embeddings and minimal metadata. No raw file bodies stored. Read-only access to connected data.
+**Storage:** Direct MCP connector requests use live retrieval and do not build embeddings or file indexes. Optional indexed-search features use embeddings and minimal metadata. No raw file bodies are retained.
 
-**Controls:** Per-user namespace, immediate deletion endpoint, immutable audit trail.
+**Controls:** Per-user namespace, connector revocation, privacy-request handling, and structured audit logging. The Azure Log Analytics workspace retains operational logs for 30 days.
 
 ## 2. Data Inventory and Flow
 
@@ -40,12 +40,13 @@ CorpusIQ sits between your tools and the AI assistant. Read-only on one side. So
 | Data Class | Examples | Encryption | Retention |
 |------------|----------|------------|-----------|
 | Account | Email, OAuth subject | AES-256 at rest | Until account deletion |
-| Derived | Embeddings, chunk IDs | AES-256 at rest | Until connector revocation or account deletion |
-| Operational | Audit logs, deletion receipts | AES-256 at rest | 24 months, security only |
+| Optional indexed search | Embeddings, chunk IDs | AES-256 at rest | Until connector revocation or account deletion |
+| Operational MCP query logs | Query text, tool metadata, bounded outcome summaries | AES-256 at rest | Up to 30 days |
+
 
 - **Encrypted retrieval:** Data is encrypted in transit and at rest, scoped per user.
 - **User-scoped isolation:** Each account operates in a separate namespace with no cross-access.
-- **Ephemeral context:** Only short-lived query context is passed to your AI client (ChatGPT, Claude, Perplexity), never persisted.
+- **Scoped MCP logging:** Direct MCP does not retain raw customer files or full connector response payloads. Query text, tool-call metadata, and bounded outcome summaries are kept in operational logs for up to 30 days.
 
 ## 3. Security Controls
 
@@ -65,26 +66,26 @@ Read-only OAuth scopes only. No write permissions on any connector. The specific
 API tokens have 60-minute expiry with server-side refresh detection. Tokens are never embedded in client-side code  --  server-side usage only. Token revocation takes effect immediately across all active sessions.
 
 ### Webhook Security
-All webhook deliveries are signed with HMAC-SHA256 using a per-endpoint signing secret. The signature is included in the `CorpusIQ-Signature` header. See [Webhooks](/docs/api/webhooks) for verification code examples.
+CorpusIQ does not currently publish a customer-facing webhook event contract. Event schemas, authentication, and delivery guarantees will be documented only after their production routes are verified.
 
 ## 4. Privacy and Lawful Basis
 
 CorpusIQ processes data under the lawful basis of user consent and legitimate interest (service provision):
 
 - **Data Minimization:** Only data necessary to answer a query is retrieved
-- **Purpose Limitation:** Data is used exclusively to fulfill the user's query
-- **No Data Sale:** CorpusIQ does not sell, share, or monetize user data
-- **No Model Training:** User data is never used to train AI models
+- **Purpose Limitation:** Retrieved records fulfill the user's request; retained operational metadata supports service security, reliability, and compliance under the published schedule
+- **No Data Sale:** CorpusIQ does not sell or monetize user data; scoped data is shared only with processors required to fulfill the request
+- **No CorpusIQ Model Training:** CorpusIQ does not use customer data to train models; each selected AI client's policy applies to its conversation
 - **No Background Collection:** Every API call to a connected tool is triggered by an explicit user query. There is no periodic syncing or scheduled polling.
 
 ## 5. Retention and Deletion
 
 1. A query is received and translated into read-only API calls
 2. Results are fetched from connected tools in real time
-3. Temporary embeddings are generated for semantic ranking within the session
-4. All embeddings are deleted immediately after the session completes
+3. Direct MCP requests return the result without building embeddings or file indexes; optional indexed search separately retains embeddings and minimal metadata
+4. Optional indexed-search features may retain embeddings and minimal metadata while the connector remains active
 
-The `/delete_my_data` endpoint permanently removes all OAuth tokens, query history, archive entries, webhook registrations, and profile data. Connector revocation removes all associated embeddings and tokens immediately. Audit receipts retained for 24 months for security purposes only.
+To request deletion of account data, contact privacy@corpusiq.io. CorpusIQ responds to privacy requests within 30 days. Operational MCP query logs remain subject to the 30-day Azure Log Analytics retention window.
 
 ## 6. Subprocessors
 
@@ -108,7 +109,7 @@ Infrastructure: Microsoft Azure (US-based). Enterprise cloud infrastructure. For
 
 Users can:
 - Revoke OAuth tokens at any time via account settings
-- Delete all data via `/delete_my_data` endpoint
+- Request deletion of account data by contacting privacy@corpusiq.io
 - Request a data inventory by contacting privacy@corpusiq.io
 - Export account data via the dashboard
 
@@ -117,7 +118,7 @@ Users can:
 - REST API at `https://mcp2.corpusiq.io/mcp`
 - Bearer token authentication with 60-minute expiry
 - Rate-limited endpoints with documented quotas
-- HMAC-signed webhook delivery
+- No public webhook event contract is currently published
 
 ## 11. Reporting Vulnerabilities
 
@@ -126,13 +127,13 @@ If you discover a security vulnerability, report to security@corpusiq.io. We fol
 ## Frequently Asked Questions
 
 **Q: What security certifications does CorpusIQ hold?**  
-A: CorpusIQ is CASA Tier 2 certified by DEKRA (OWASP Top 10 verified) and maintains SOC 2 Type II compliance. The platform uses AES-256 encryption at rest, TLS 1.3 in transit, and read-only OAuth for all data source connections.
+A: CorpusIQ is CASA Tier 2 certified by DEKRA (OWASP Top 10 verified) and maintains a SOC 2 aligned security posture. The platform uses AES-256 encryption at rest, TLS 1.3 in transit, and read-only OAuth for all data source connections.
 
 **Q: Does CorpusIQ store my business data?**  
-A: No. CorpusIQ queries your data sources on demand and discards results after returning them to the AI model. There is no persistent copy of your business data  --  no data warehouse, no embedding store, no cache.
+A: Direct MCP requests retrieve source records live without retaining raw customer files or full connector response payloads. Operational query text, tool-call metadata, and bounded outcome summaries are retained for up to 30 days. Optional indexed-search features may retain embeddings and minimal metadata while the connector remains active.
 
-**Q: How does CorpusIQ handle data deletion?**  
-A: The /delete_my_data endpoint permanently removes all OAuth tokens, query history, archive entries, webhook registrations, and profile data. Connector revocation removes all associated data immediately. Audit receipts are retained for 24 months.
+**Q: How does CorpusIQ handle data deletion?**
+A: Contact privacy@corpusiq.io to request deletion of account data. CorpusIQ responds to privacy requests within 30 days. Operational MCP query logs remain subject to the 30-day Azure Log Analytics retention window.
 
 **Q: Where is CorpusIQ infrastructure hosted?**  
 A: Infrastructure runs on Microsoft Azure (US-based). Enterprise customers can request data residency options for specific geographic regions. Contact sales@corpusiq.io for details.

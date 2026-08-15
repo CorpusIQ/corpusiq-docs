@@ -12,9 +12,11 @@ know what the warnings mean when they show up.
 
 ## What is a metric spec?
 
-A metric spec describes **how to compute** a number. It does not store the
-number, and it does not store any of the underlying data. The next call
-runs against fresh vendor responses. There is no warehouse and no cache.
+A metric spec describes **how to compute** a number. The next resolve call
+runs against fresh vendor responses rather than a stored metric value.
+CorpusIQ does not retain raw customer files or full connector response
+payloads; operational logs retain query text, per-user tool-call metadata,
+and bounded outcome summaries for up to 30 days.
 
 A spec has a key (`mrr`), a label (`Monthly Recurring Revenue`), a
 description (the paragraph you wrote so future-you remembers what counted),
@@ -38,7 +40,7 @@ report dereferences the same definition. They call the absence of
 ambiguity "no drift."
 
 We can't ship that architecture. CorpusIQ doesn't have a warehouse, by
-design — we never copy your data. We talk to 30+ vendor APIs live, on
+design — direct MCP resolves against 30+ vendor APIs live, on
 every request. Two of those vendors will sometimes disagree about a
 number (your Stripe MRR and your QuickBooks recurring revenue won't
 always reconcile, and that's interesting), and we want to surface that
@@ -81,7 +83,7 @@ Every field annotated.
 | `description` | Free-text paragraph. Write it for a teammate joining six months from now who has to know what counted. |
 | `expression` | The DSL recipe. See the grammar section below. |
 | `expected_unit` | One of `USD`, `count`, `ratio`, `percent`, `days`. Drives how the value is formatted in answers. |
-| `expected_freshness` | One of `realtime`, `daily`, `monthly`. **Metadata only**. The resolver does not cache anything and does not enforce freshness — the field exists so a future drift check can flag "your spec says daily but the underlying vendor is 11 days stale." |
+| `expected_freshness` | One of `realtime`, `daily`, `monthly`. **Metadata only**. The resolver computes the value live instead of reusing a prior resolution, and does not enforce freshness — the field exists so a future drift check can flag "your spec says daily but the underlying vendor is 11 days stale." |
 | `cross_source_checks` | Other spec keys whose result should agree with this one within `tolerance_percent`. Triggers automatic drift detection. |
 | `tolerance_percent` | How much disagreement is acceptable before drift is flagged. `2.0` means "within 2% is fine." |
 | `owner_email` | Who's responsible for this definition. Surfaces in audits. |
@@ -353,7 +355,7 @@ The third sometimes means a connector is down for everyone.
 
 ## What metric specs do NOT do
 
-- **No data warehouse.** We don't copy Stripe / QuickBooks / Shopify / anything else into our own store. Every resolve hits live vendor APIs.
+- **No replicated source-data warehouse.** Every resolve hits live vendor APIs. Direct MCP does not retain raw customer files or full connector response payloads; operational logs follow the published retention schedule.
 - **No result caching.** Two calls 30 seconds apart will both hit Stripe. `expected_freshness` is metadata; it does not implement a TTL.
 - **No semantic correctness guarantee.** The system honors the recipe you wrote. If you defined MRR wrong, the resolver will faithfully compute a wrong number. That's why the description field, the `last_reviewed_at` re-attestation, and the eval gate exist — they push the responsibility back to the human who knows the business.
 - **No team sharing in v0.** Specs are per-user. Multi-user sharing is a v1.5 design discussion and the data model leaves room for it.

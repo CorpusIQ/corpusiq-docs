@@ -1,0 +1,766 @@
+{
+  "forbidden_families": {
+    "regional_residency": [
+      {
+        "label": "regional_boundary_guarantee",
+        "text": "CorpusIQ keeps data processing within regional boundaries."
+      },
+      {
+        "label": "same_region_infrastructure_guarantee",
+        "text": "Queries against a platform in a specific region are processed by infrastructure in that region."
+      },
+      {
+        "label": "specified_boundary_guarantee",
+        "text": "Data processing must stay within specified geographic boundaries."
+      },
+      {
+        "label": "eu_infrastructure_guarantee",
+        "text": "A query against EU-hosted CRM data must be processed by infrastructure in the EU."
+      }
+    ],
+    "webhooks": [
+      {
+        "label": "webhook_event_intro",
+        "text": "CorpusIQ webhooks notify your application when specific events occur."
+      },
+      {
+        "label": "webhook_callback_intro",
+        "text": "CorpusIQ can send HTTP callbacks to your server when account events happen."
+      },
+      {
+        "label": "webhook_registration_ui",
+        "text": "Navigate to Settings → Webhooks and copy the signing secret."
+      },
+      {
+        "label": "webhook_retry_contract",
+        "text": "Failed deliveries are retried with exponential backoff."
+      },
+      {
+        "label": "webhook_signature_contract",
+        "text": "Every webhook delivery is signed in the CorpusIQ-Signature header."
+      },
+      {
+        "label": "webhook_link_contract",
+        "text": "CorpusIQ Webhooks -- Event notifications and HMAC signature verification."
+      },
+      {
+        "label": "hmac_signed_tool_response",
+        "text": "CorpusIQ returns an HMAC-signed response with source citations."
+      },
+      {
+        "label": "hmac_security_description",
+        "text": "CorpusIQ secures the integration with HMAC signatures."
+      }
+    ],
+    "retention": [
+      {
+        "label": "review_raw_files_never_stored",
+        "text": "Raw files are never stored."
+      },
+      {
+        "label": "review_raw_files_table",
+        "text": "| Data handling | Raw files are never stored |"
+      },
+      {
+        "label": "not_one_left",
+        "text": "The platform leaves behind not one customer record."
+      },
+      {
+        "label": "carry_forward_none",
+        "text": "After answering, the service carries forward none of your information."
+      },
+      {
+        "label": "expire_completely",
+        "text": "Your prompts expire completely when the response ends."
+      },
+      {
+        "label": "clean_slate",
+        "text": "Every reply begins from a clean slate with no prior customer content."
+      },
+      {
+        "label": "memory_only",
+        "text": "Customer payloads are memory-only and never durable."
+      },
+      {
+        "label": "evaporates",
+        "text": "The answer is returned, then all request material evaporates."
+      },
+      {
+        "label": "systems_empty",
+        "text": "CorpusIQ systems are empty of customer records between calls."
+      },
+      {
+        "label": "outlives_request",
+        "text": "No customer information outlives a request."
+      },
+      {
+        "label": "no_footprint",
+        "text": "The request has no durable footprint."
+      },
+      {
+        "label": "neither_hold",
+        "text": "We hold onto neither prompts nor results."
+      },
+      {
+        "label": "released",
+        "text": "All customer material is released when processing finishes."
+      },
+      {
+        "label": "zero_artifacts",
+        "text": "A response completes with zero artifacts left behind."
+      },
+      {
+        "label": "independent_carries_nothing_forward",
+        "text": "The platform carries nothing forward from one request to the next."
+      },
+      {
+        "label": "independent_blank_memory",
+        "text": "Every answer begins with a blank memory of prior customer content."
+      },
+      {
+        "label": "independent_payloads_evaporate",
+        "text": "Customer payloads evaporate when the reply is delivered."
+      },
+      {
+        "label": "independent_ceases_to_exist",
+        "text": "At the end of each response, prior query material ceases to exist."
+      },
+      {
+        "label": "independent_memory_only",
+        "text": "The service is memory-only; customer content is never durable."
+      },
+      {
+        "label": "independent_no_material_left",
+        "text": "No customer material is left behind."
+      },
+      {
+        "label": "independent_response_cannot_outlive",
+        "text": "A response cannot outlive the request that produced it."
+      },
+      {
+        "label": "independent_forgets_prompts",
+        "text": "The platform forgets every prompt once it answers."
+      },
+      {
+        "label": "independent_hold_onto_none",
+        "text": "We hold onto none of the customer material we process."
+      },
+      {
+        "label": "independent_state_dies",
+        "text": "All request state dies with the response."
+      },
+      {
+        "label": "ai_leaves_no_footprint_live_copy",
+        "text": "The AI leaves no footprint."
+      }
+    ],
+    "source_boundary": [
+      {
+        "label": "review_data_stays_where_it_is",
+        "text": "Your data stays where it is."
+      },
+      {
+        "label": "salesforce_alone",
+        "text": "Salesforce alone ever holds your records."
+      },
+      {
+        "label": "sole_location",
+        "text": "QuickBooks remains the sole location for financial information."
+      },
+      {
+        "label": "never_travels",
+        "text": "Customer content never travels outside Microsoft 365."
+      },
+      {
+        "label": "confined_aws",
+        "text": "All processing is confined to your AWS account."
+      },
+      {
+        "label": "inside_vendor",
+        "text": "The connector keeps every record inside the vendor tenant."
+      },
+      {
+        "label": "jurisdiction",
+        "text": "Your data cannot cross jurisdictional borders."
+      },
+      {
+        "label": "wholly_source",
+        "text": "Requests are answered wholly within the system of record."
+      },
+      {
+        "label": "only_source_sees",
+        "text": "Only the source application sees the payload."
+      },
+      {
+        "label": "phi_stays",
+        "text": "PHI stays on the hospital network at all times."
+      },
+      {
+        "label": "never_enters",
+        "text": "Connector output never enters CorpusIQ infrastructure."
+      },
+      {
+        "label": "geo_confined",
+        "text": "Customer data is geographically confined to its home region."
+      },
+      {
+        "label": "nothing_traverses",
+        "text": "Nothing from your tenant traverses an external service."
+      },
+      {
+        "label": "independent_remains_home",
+        "text": "Your data remains home in Salesforce."
+      },
+      {
+        "label": "independent_never_travel",
+        "text": "Records never travel beyond Microsoft 365."
+      },
+      {
+        "label": "independent_all_processing_inside",
+        "text": "All processing happens inside your tenant."
+      },
+      {
+        "label": "independent_confined_to_saas",
+        "text": "Customer content is confined to the original SaaS account."
+      }
+    ],
+    "training": [
+      {
+        "label": "review_zero_learning",
+        "text": "Zero learning from customer records."
+      },
+      {
+        "label": "model_learns_nothing",
+        "text": "Our model learns nothing from your files."
+      },
+      {
+        "label": "zero_learning_signal",
+        "text": "Customer records contribute zero learning signal."
+      },
+      {
+        "label": "weights",
+        "text": "Prompts cannot influence model weights."
+      },
+      {
+        "label": "gain_no_knowledge",
+        "text": "Models gain no knowledge from connector output."
+      },
+      {
+        "label": "learning_process",
+        "text": "Every file is excluded from any learning process."
+      },
+      {
+        "label": "responses_improve",
+        "text": "Responses never improve an AI system."
+      },
+      {
+        "label": "feedback_signal",
+        "text": "Your content supplies no feedback signal to a model."
+      },
+      {
+        "label": "no_adaptation",
+        "text": "No model adapts based on customer messages."
+      },
+      {
+        "label": "weights_untouched",
+        "text": "AI weights are untouched by business information."
+      },
+      {
+        "label": "fine_tuning",
+        "text": "Customer prompts cannot be used for fine-tuning."
+      },
+      {
+        "label": "no_contribution",
+        "text": "Business records make no contribution to model improvement."
+      },
+      {
+        "label": "forgets_examples",
+        "text": "The model forgets every customer example."
+      },
+      {
+        "label": "independent_models_learn_nothing",
+        "text": "Models learn nothing from your files."
+      },
+      {
+        "label": "independent_gain_no_knowledge",
+        "text": "Our models gain no knowledge from your uploads."
+      },
+      {
+        "label": "independent_conversations_never_improve",
+        "text": "Customer conversations never improve any model."
+      },
+      {
+        "label": "independent_qualified_regardless",
+        "text": "CorpusIQ does not train models on customer data, regardless of the selected AI provider's plan and settings."
+      },
+      {
+        "label": "independent_qualifier_contrast",
+        "text": "The selected AI provider's policy may differ, but no model can learn from customer records."
+      }
+    ],
+    "soc2": [
+      {
+        "label": "table",
+        "text": "| **SOC 2** | Ready |"
+      },
+      {
+        "label": "colon",
+        "text": "SOC 2: certified"
+      },
+      {
+        "label": "emdash",
+        "text": "SOC 2 — attested"
+      },
+      {
+        "label": "html",
+        "text": "<strong>SOC 2</strong>: compliant"
+      },
+      {
+        "label": "slash",
+        "text": "SOC 2 / Type II / verified"
+      },
+      {
+        "label": "badge",
+        "text": "SOC 2 ✅ Certified"
+      },
+      {
+        "label": "hyphen",
+        "text": "SOC2-ready"
+      },
+      {
+        "label": "reverse",
+        "text": "Certified: SOC 2 Type II"
+      },
+      {
+        "label": "attested_under",
+        "text": "Attested under SOC 2"
+      },
+      {
+        "label": "assurance_complete",
+        "text": "Independent SOC 2 assurance is complete."
+      },
+      {
+        "label": "passed",
+        "text": "Our controls have passed SOC 2."
+      },
+      {
+        "label": "audit_complete",
+        "text": "The SOC 2 audit was successfully completed."
+      },
+      {
+        "label": "independent_markdown_table_ready",
+        "text": "| **SOC 2** | Ready |"
+      },
+      {
+        "label": "independent_colon_bold_certified",
+        "text": "SOC 2: **Certified**"
+      },
+      {
+        "label": "independent_dash_attested",
+        "text": "SOC 2 — attested"
+      },
+      {
+        "label": "independent_assurance_complete",
+        "text": "Independent SOC 2 assurance is complete."
+      }
+    ],
+    "deletion": [
+      {
+        "label": "review_immediate_user_deletion",
+        "text": "User-initiated deletion is immediate."
+      },
+      {
+        "label": "closure_nothing",
+        "text": "Account closure leaves nothing behind."
+      },
+      {
+        "label": "eliminates_artifact",
+        "text": "Cancellation eliminates every customer artifact."
+      },
+      {
+        "label": "clear_footprint",
+        "text": "We clear the complete customer footprint at close."
+      },
+      {
+        "label": "expunges_history",
+        "text": "Termination expunges the entire account history."
+      },
+      {
+        "label": "traces_vanish",
+        "text": "All traces vanish when you disconnect."
+      },
+      {
+        "label": "unrecoverable",
+        "text": "A deletion request makes the account unrecoverable immediately."
+      },
+      {
+        "label": "revocation_wipes",
+        "text": "Revocation wipes the complete record."
+      },
+      {
+        "label": "fully_destroyed",
+        "text": "Your footprint is fully destroyed on cancellation."
+      },
+      {
+        "label": "copies_disappear",
+        "text": "Every copy disappears at account close."
+      },
+      {
+        "label": "cleans_100",
+        "text": "The delete action cleans out 100% of customer material."
+      },
+      {
+        "label": "systems_empty",
+        "text": "After closure, our systems are empty of your information."
+      },
+      {
+        "label": "total_instant",
+        "text": "Erasure is total and instantaneous."
+      },
+      {
+        "label": "independent_closure_no_footprint",
+        "text": "Closing an account leaves no customer footprint."
+      },
+      {
+        "label": "independent_revocation_disappear",
+        "text": "Revocation makes every user record disappear at once."
+      },
+      {
+        "label": "independent_clean_slate",
+        "text": "Account closure returns the system to a clean slate."
+      },
+      {
+        "label": "independent_immediate_total",
+        "text": "Removal is immediate and total."
+      }
+    ],
+    "indexing": [
+      {
+        "label": "review_no_search_corpus_created",
+        "text": "No search corpus is created."
+      },
+      {
+        "label": "zero_indexes",
+        "text": "Search creates zero indexes."
+      },
+      {
+        "label": "neither_index",
+        "text": "The platform maintains neither vectors nor a search index."
+      },
+      {
+        "label": "no_step",
+        "text": "Files are queried with no indexing step."
+      },
+      {
+        "label": "never_index",
+        "text": "There is never an index of customer records."
+      },
+      {
+        "label": "no_vectorization",
+        "text": "No vectorization occurs."
+      },
+      {
+        "label": "zero_embeddings",
+        "text": "Customer content produces zero embeddings."
+      },
+      {
+        "label": "bypass",
+        "text": "All answers bypass search indexes."
+      },
+      {
+        "label": "unindexed",
+        "text": "Records remain completely unindexed."
+      },
+      {
+        "label": "no_representation",
+        "text": "The system has no indexed representation of your files."
+      },
+      {
+        "label": "impossible",
+        "text": "Index creation is impossible in CorpusIQ."
+      },
+      {
+        "label": "without_corpus",
+        "text": "We answer without constructing any searchable corpus."
+      },
+      {
+        "label": "no_retrieval_db",
+        "text": "No retrieval database is populated."
+      },
+      {
+        "label": "independent_no_search_corpus",
+        "text": "CorpusIQ has no search corpus."
+      },
+      {
+        "label": "independent_no_vectors",
+        "text": "We create no vector representation of your files."
+      },
+      {
+        "label": "independent_live_not_indexed",
+        "text": "Every lookup is live rather than indexed."
+      },
+      {
+        "label": "no_embeddings_live_copy",
+        "text": "No embeddings."
+      }
+    ],
+    "faq": [
+      {
+        "label": "div_abs",
+        "text": "Do you keep customer records?\n<div>Absolutely not</div>"
+      },
+      {
+        "label": "br_no",
+        "text": "Are prompts saved?<br>No,"
+      },
+      {
+        "label": "details_never",
+        "text": "<details><summary>Is customer data retained?</summary><p>Never</p></details>"
+      },
+      {
+        "label": "italic_abs",
+        "text": "Does anything persist?\n_Absolutely not._"
+      },
+      {
+        "label": "a_no_bang",
+        "text": "Is a copy stored?\nA: No!"
+      },
+      {
+        "label": "dash_no",
+        "text": "Do you retain query text?\nNo — nothing survives."
+      },
+      {
+        "label": "html_span",
+        "text": "Does CorpusIQ cache responses? <span>No</span>"
+      },
+      {
+        "label": "bold_never",
+        "text": "Are records kept? **Never.**"
+      },
+      {
+        "label": "yes_no",
+        "text": "Is information saved?\nAnswer: No"
+      },
+      {
+        "label": "unicode",
+        "text": "Do results remain? — No."
+      },
+      {
+        "label": "summary_no_comma",
+        "text": "<summary>Does data persist?</summary><p>No, it does not.</p>"
+      },
+      {
+        "label": "colon_abs",
+        "text": "Do you retain anything?: Absolutely not."
+      }
+    ],
+    "scoped_composition": [
+      {
+        "label": "allowed_then_universal",
+        "text": "Direct MCP does not retain raw customer files or full connector response payloads; everything else vanishes after answering."
+      },
+      {
+        "label": "allowed_then_empty",
+        "text": "Direct MCP does not retain raw customer files or full connector response payloads, leaving our servers empty between calls."
+      },
+      {
+        "label": "allowed_then_neither",
+        "text": "Direct MCP does not retain raw customer files or full connector response payloads and holds onto neither prompts nor results."
+      },
+      {
+        "label": "provider_regardless",
+        "text": "CorpusIQ never trains on customer data, regardless of the selected AI provider's plan policy."
+      },
+      {
+        "label": "provider_contrast",
+        "text": "The AI provider plan may differ, but no model learns from your files."
+      },
+      {
+        "label": "provider_unrelated",
+        "text": "CorpusIQ does not train on customer data; review the selected AI provider's plan settings for billing."
+      },
+      {
+        "label": "index_irrelevant",
+        "text": "Direct MCP indexes nothing; optional indexed search is irrelevant to that guarantee."
+      },
+      {
+        "label": "index_contrast",
+        "text": "Direct MCP has no indexes, although optional indexed search exists elsewhere."
+      },
+      {
+        "label": "index_universal",
+        "text": "Direct MCP builds no indexes at all; optional indexed search has a separate lifecycle."
+      },
+      {
+        "label": "soc_roadmap",
+        "text": "CorpusIQ is SOC 2 certified; the security roadmap is documented."
+      },
+      {
+        "label": "soc_aligned",
+        "text": "SOC 2 Ready and GDPR aligned."
+      },
+      {
+        "label": "soc_progress",
+        "text": "CorpusIQ is SOC 2 Type II certified, with another requirement in progress."
+      },
+      {
+        "label": "independent_all_other_vanishes",
+        "text": "Direct MCP does not retain raw customer files or full connector response payloads; all other material vanishes."
+      }
+    ]
+  },
+  "legitimate_controls": [
+    {
+      "label": "read_only_writeback",
+      "text": "Nothing is written back to connected tools."
+    },
+    {
+      "label": "payment_card_scope",
+      "text": "Payment data is processed by Stripe. We do not store card numbers or full payment details."
+    },
+    {
+      "label": "storage_cost",
+      "text": "No data storage cost is added to your invoice."
+    },
+    {
+      "label": "storage_cost_plural",
+      "text": "There are no data storage costs on this plan."
+    },
+    {
+      "label": "provision",
+      "text": "There is no storage to provision for direct MCP."
+    },
+    {
+      "label": "preparing_soc",
+      "text": "CorpusIQ is preparing for SOC 2 certification."
+    },
+    {
+      "label": "pursuing_soc",
+      "text": "CorpusIQ is pursuing SOC 2 certification and does not claim certification."
+    },
+    {
+      "label": "aligned_not_certified",
+      "text": "CorpusIQ maintains a SOC 2 aligned posture; formal certification is not claimed."
+    },
+    {
+      "label": "roadmap_soc",
+      "text": "The roadmap includes work toward SOC 2 certification."
+    },
+    {
+      "label": "provider_control",
+      "text": "CorpusIQ does not use customer data to train models; conversation handling follows the selected AI provider's plan and settings."
+    },
+    {
+      "label": "provider_terms",
+      "text": "Review the selected AI provider's plan terms to understand conversation handling."
+    },
+    {
+      "label": "direct_index",
+      "text": "Direct MCP does not build embeddings or file indexes; optional indexed search separately retains embeddings and minimal metadata until revocation or account deletion."
+    },
+    {
+      "label": "direct_stale_index",
+      "text": "Direct MCP uses no stale index; optional indexed search is a separate mode with its own lifecycle."
+    },
+    {
+      "label": "scoped_retention",
+      "text": "Direct MCP does not retain raw customer files or full connector response payloads; operational logs may persist for up to 30 days."
+    },
+    {
+      "label": "raw_file_only",
+      "text": "Raw customer files are not retained by direct MCP."
+    },
+    {
+      "label": "payload_only",
+      "text": "Full connector response payloads are not retained by direct MCP."
+    },
+    {
+      "label": "source_authoritative",
+      "text": "The source system remains authoritative."
+    },
+    {
+      "label": "regional_validation",
+      "text": "Regional deployment requires customer validation across storage, network paths, provider processing, and backups."
+    },
+    {
+      "label": "region_option",
+      "text": "Enterprise customers can choose a deployment region, subject to validation of the complete processing path."
+    },
+    {
+      "label": "positive_logs",
+      "text": "Query text and bounded outcome summaries may remain in operational logs for up to 30 days."
+    },
+    {
+      "label": "positive_index",
+      "text": "Optional indexed search retains embeddings and minimal metadata until revocation or account deletion."
+    },
+    {
+      "label": "critical_quote",
+      "text": "Avoid saying “nothing is stored” because operational logs can persist for up to 30 days."
+    },
+    {
+      "label": "critical_never_leaves",
+      "text": "Do not claim that data never leaves its source; results traverse CorpusIQ and the selected AI client."
+    },
+    {
+      "label": "third_party",
+      "text": "A competitor advertises “zero data retention”; compare its contract with CorpusIQ’s documented 30-day operational logs."
+    },
+    {
+      "label": "no_sales",
+      "text": "No sales data is shown in this example."
+    },
+    {
+      "label": "cached_stale",
+      "text": "The report compares live results with cached or stale dashboards."
+    },
+    {
+      "label": "historical_limit",
+      "text": "Historical data has no retention limit when the customer explicitly chooses archival storage."
+    },
+    {
+      "label": "tokens",
+      "text": "Revoking tokens prevents future connector access."
+    },
+    {
+      "label": "no_record_edit",
+      "text": "Read-only access means no record creation, editing, or deletion."
+    },
+    {
+      "label": "log_scope",
+      "text": "Scoped operational logs are not a raw-file or full-payload warehouse."
+    },
+    {
+      "label": "quote_soc",
+      "text": "The phrase “SOC 2 Ready” must not appear as a certification claim."
+    },
+    {
+      "label": "quote_index",
+      "text": "Avoid the blanket phrase “nothing is indexed”; optional indexed search exists."
+    },
+    {
+      "label": "independent_cost",
+      "text": "No data storage cost is added to your invoice."
+    },
+    {
+      "label": "independent_editorial_warning",
+      "text": "Avoid saying that data never leaves the source system."
+    },
+    {
+      "label": "independent_soc2_roadmap",
+      "text": "CorpusIQ is preparing for SOC 2 certification."
+    },
+    {
+      "label": "independent_canonical_direct_mcp",
+      "text": "Direct MCP does not retain raw customer files or full connector response payloads. Operational logs may persist for up to 30 days."
+    },
+    {
+      "label": "independent_canonical_training",
+      "text": "CorpusIQ does not train models on customer data; conversation handling follows the selected AI provider's plan and settings."
+    },
+    {
+      "label": "independent_canonical_indexing",
+      "text": "Direct MCP does not build embeddings or file indexes; optional indexed search separately retains embeddings and minimal metadata until revocation or account deletion."
+    }
+  ]
+}

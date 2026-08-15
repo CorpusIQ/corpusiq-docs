@@ -16,7 +16,7 @@ This is the moment enterprise adoption unlocks. Compliance teams can audit a sta
 
 Your AI still cannot write to your tools. Read-only access remains the default. CorpusIQ has never allowed agents to create Stripe charges, modify QuickBooks invoices, or adjust Shopify orders. The GA spec reinforces this boundary, it does not remove it.
 
-Your data still stays where it is. MCP is a protocol, not a warehouse. No data is copied, stored, or cached. Your AI gets live answers from your live tools.
+Source systems remain authoritative. MCP is a protocol, not a warehouse. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days. Your AI gets live answers from your live tools.
 
 ## The practical effect
 

@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent Healthcare Automation"
-description: "Automate patient record management, appointment scheduling, insurance verification, and lab notifications with HIPAA-compliant Hermes Agent AI workflows for"
+description: "Explore customer-managed healthcare automation patterns for patient records, scheduling, insurance verification, lab notifications, and HIPAA control programs."
 category: "Case Study"
 tags:
   - healthcare
@@ -18,7 +18,7 @@ robots: "index,follow"
 
 # Hermes Agent Healthcare Automation
 
-Hermes Agent provides HIPAA-compliant AI workflows that automate patient record management, appointment scheduling, insurance verification, and lab result notifications for medical practices. Built with minimum-necessary access controls and immutable audit trails, it reduces administrative burden while maintaining full regulatory compliance.
+Hermes Agent can support customer-managed healthcare workflows for patient records, scheduling, insurance verification, and lab notifications. A deployment does not itself confer HIPAA compliance; healthcare organizations must configure, validate, and operate their own technical, contractual, and administrative controls.
 
 ## Overview
 
@@ -126,7 +126,7 @@ This skill queries the lab interface for new results, parses abnormal flags, and
 - **Reduced administrative burden**  --  staff reclaim hours spent on manual verification and data entry
 - **Faster patient throughput**  --  automated chart reviews catch gaps before appointments begin
 - **Improved revenue cycle**  --  insurance verification catches coverage issues before claims are submitted
-- **HIPAA compliance by design**  --  minimum necessary access, audit trails, and encrypted storage
+- **HIPAA control support**  --  patterns for minimum-necessary access, audit evidence, and encrypted storage
 - **Better patient outcomes**  --  critical lab results routed immediately to providers
 - **Scalable practice operations**  --  same automations work for solo practice or multi-location group
 
@@ -142,9 +142,9 @@ The outcome: staff spend less time on administrative verification and more time 
 
 ## FAQ
 
-### Is Hermes Agent HIPAA compliant?
+### Can Hermes Agent support a HIPAA compliance program?
 
-Hermes Agent supports HIPAA compliance through profile isolation, minimum necessary access controls, encrypted storage, immutable audit trails, and the ability to sign Business Associate Agreements (BAAs) with cloud infrastructure providers. Healthcare organizations must configure these controls appropriately for their environment.
+Hermes can support controls such as profile isolation, minimum-necessary access, encrypted storage, and audit evidence. Hermes itself does not confer HIPAA compliance. Healthcare organizations must evaluate the complete deployment, AI-provider plan, agreements, and operating controls with their compliance and legal teams.
 
 ### What EHR systems can Hermes connect to?
 
@@ -166,7 +166,7 @@ Hermes can draft patient communications for staff review but should not send dir
 
 - [Hermes Agent Compliance & Audit Automation](../case-studies/compliance-audit.md)  --  Continuous SOC 2, HIPAA, and GDPR evidence collection
 - [Hermes Agent for Financial Services](../case-studies/financial-services.md)  --  Portfolio monitoring and regulatory filing
-- [Hermes Agent for Enterprise](../by-company-size/enterprise.md)  --  Security architecture and HIPAA compliance at scale
+- [Hermes Agent for Enterprise](../by-company-size/enterprise.md)  --  Security architecture and compliance-control patterns at scale
 - [Hermes Agent Customer Support Automation](../case-studies/customer-support.md)  --  Patient inquiry triage and SLA management
 - [Hermes Agent Overview](../../index.md)  --  Core platform capabilities and connector ecosystem
 

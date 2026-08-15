@@ -20,7 +20,7 @@ Open ChatGPT. Type:
 
 No dashboards. No tab shuffle. No reconciliation spreadsheets. Just ask your AI the question you actually want answered — and get a real answer from your live business data.
 
-CorpusIQ connects 40+ business tools to your AI assistant. Read-only. Zero data stored.
+CorpusIQ connects 40+ business tools to your AI assistant. Read-only. Live retrieval with scoped retention.
 
 🔗 https://corpusiq.io
 🎮 Demo: https://demo.corpusiq.io

@@ -108,7 +108,7 @@ No. Hermes flags potential exemption material and cites the statutory basis, but
 
 ### How does Hermes handle constituent PII?
 
-Hermes enforces minimum necessary access, pseudonymizes identifiers where possible, and never retains PII in persistent logs or model context. All data handling must comply with FISMA and agency-specific privacy requirements.
+Government deployments should enforce minimum-necessary access, pseudonymize identifiers where possible, configure approved retention for logs and optional indexes, and evaluate the selected AI-provider plan. Agencies remain responsible for FISMA and agency-specific privacy requirements.
 
 ### Can Hermes make benefits eligibility determinations?
 

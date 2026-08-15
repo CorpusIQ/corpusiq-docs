@@ -45,7 +45,7 @@ CorpusIQ is the only platform purpose-built for AI data access through the MCP p
 - **2-minute OAuth setup:** Per source. No configuration files, no API keys.
 - **Real-time live queries:** Every answer reflects current business state
 - **Cross-source intelligence:** "Compare Google Ads ROAS to HubSpot pipeline value by week"
-- **Enterprise security:** Read-only, OAuth, SOC 2, no data storage
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Zero maintenance:** Fully managed platform
 
 **Best for:** Any organization wanting ChatGPT to work with real business data.
@@ -139,7 +139,7 @@ A: Yes. ChatGPT can connect to multiple MCP servers. Use CorpusIQ for business d
 A: ChatGPT Plus, Team, and Enterprise support MCP. The free tier has limited MCP support.
 
 **Q: How secure is my data when integrated with ChatGPT?**  
-A: CorpusIQ uses read-only OAuth access and never stores data. Data passes through CorpusIQ's server to ChatGPT in-memory during your session.
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **Q: Can I control what data ChatGPT can access?**  
 A: Yes. CorpusIQ inherits permissions from source systems. Connect only the sources you want ChatGPT to access.

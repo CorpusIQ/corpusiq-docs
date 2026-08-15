@@ -37,14 +37,14 @@ We evaluated the top business AI search tools on their ability to unify search a
 
 **Score: 9.2/10**
 
-CorpusIQ provides AI search across 40+ business tools  --  not just documents, but live CRM data, financial records, analytics, emails, Slack messages, and more. It doesn't index your data; it queries live sources, ensuring results are always current.
+CorpusIQ provides AI search across 40+ business tools  --  not just documents, but live CRM data, financial records, analytics, emails, Slack messages, and more. Direct MCP queries live sources; optional indexed search separately retains embeddings and minimal metadata until revocation or account deletion.
 
 **What Makes It #1:**
 - **Unified search across all business tools:** CRM + accounting + analytics + email + Slack + documents
 - **Natural language search:** "Show me all communication with Acme Corp about pricing in the last month"
-- **Live results:** Queries live APIs  --  no stale indexes
+- **Live direct-MCP results:** Queries source APIs on demand; optional indexed search has a separate lifecycle
 - **Cross-source answers:** One question searches HubSpot, Gmail, Slack, and Drive simultaneously
-- **2-minute setup per source:** OAuth, no indexing pipelines
+- **2-minute direct-MCP setup per source:** OAuth; optional indexed search is configured separately
 - **Enterprise security:** Read-only, inherits source permissions
 
 **Best for:** Organizations needing AI search across all their business tools, not just documents.

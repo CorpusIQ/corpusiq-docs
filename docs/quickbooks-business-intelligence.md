@@ -115,7 +115,7 @@ Traditional BI tools show you what happened. AI-powered BI projects what will ha
 Traditional BI tools require you to build data pipelines, model data, and create dashboards  --  a weeks-to-months implementation. CorpusIQ BI is conversational: connect your sources and ask questions. There's no ETL, no data modeling, no dashboard building. It's BI at conversation speed.
 
 ### Do I need to move my data to a data warehouse?
-No. CorpusIQ queries your data in-place  --  it connects to QuickBooks, HubSpot, Shopify, and other platforms directly through their APIs. No data migration, no warehouse costs, no data duplication. Your data stays where it is.
+No warehouse is required for direct MCP queries. CorpusIQ calls QuickBooks, HubSpot, Shopify, and other source APIs live without retaining raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days.
 
 ### What sources can I connect alongside QuickBooks?
 CorpusIQ supports 30+ business platforms including CRM (HubSpot, Close, LeadConnector), ecommerce (Shopify, Amazon Seller, eBay), marketing (Google Ads, Meta Ads, Klaviyo, Mailchimp, Constant Contact, ActiveCampaign, LinkedIn Ads), payments (Stripe), analytics (GA4, PostHog), project management (Monday.com, Notion), databases (PostgreSQL, MSSQL, MongoDB, Cosmos DB), and communication (Slack, Gmail, Outlook, Google Calendar).

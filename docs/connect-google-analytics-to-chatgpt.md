@@ -130,7 +130,7 @@ The GA4 integration is inherently safe:
 
 - **Google Analytics API is read-only.** There is no write path to modify your analytics data or property configuration.
 - **OAuth 2.0** with Google's analytics read scopes. No admin or edit scopes are requested.
-- **No data persistence.** Queries execute live; results are not stored.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **TLS 1.3** encryption for all data in transit.
 
 For organizations concerned about data access, the GA4 integration provides analytics data without exposing property configuration  --  a clean separation of data access and administrative control.

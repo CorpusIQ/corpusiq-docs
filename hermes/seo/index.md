@@ -17,7 +17,7 @@ Educational pages on connecting AI to business data. Written for operators askin
 | [AI Business Intelligence](ai-business-intelligence.md) | Connect your tools to ChatGPT, Claude, and Perplexity |
 | [AI Connectors for Business](ai-connectors-for-business.md) | Connect ChatGPT to Shopify, QuickBooks, Stripe |
 | [Business Data for ChatGPT](business-data-for-chatgpt.md) | Stop guessing, start knowing |
-| [Connect Business Tools to AI](connect-business-tools-to-ai.md) | 40+ read-only connectors, zero data stored |
+| [Connect Business Tools to AI](connect-business-tools-to-ai.md) | 40+ read-only connectors with scoped retention |
 | [Connect QuickBooks to AI](connect-quickbooks-to-ai.md) | Ask ChatGPT about your financials |
 | [Connect Shopify to ChatGPT](connect-shopify-to-chatgpt.md) | Real-time business answers without dashboards |
 | [Why Your AI Gives Different Answers](ai-data-consistency.md) | The single-source-of-truth problem |

@@ -137,7 +137,7 @@ HubSpot dashboards are pre-configured with specific widgets. ChatGPT dashboards 
 Yes. Schedule dashboards for automated delivery via email, Slack, or file storage. "Send me the morning pipeline dashboard at 7 AM" or "Post the weekly sales report to the #sales Slack channel every Monday at 9 AM." Available on Pro and Enterprise plans.
 
 ### How real-time is the data?
-Fully real-time. Every dashboard pull queries HubSpot's API live at the moment of request. There's no data warehouse delay, no ETL window, no cache. If a deal was updated 30 seconds ago, you see the update.
+Every dashboard pull queries HubSpot's API live at the moment of request. Direct MCP does not retain raw customer files or full connector response payloads; operational logs may remain for up to 30 days. If a deal was updated 30 seconds ago, the live source query can return the update.
 
 ### Can I create dashboards for my entire team?
 Yes. Each team member can have personalized dashboards with role-appropriate data. Sales reps see their own pipeline. Managers see their team. Executives see the full picture. All configured through simple natural language templates.

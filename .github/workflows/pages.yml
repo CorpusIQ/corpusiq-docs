@@ -58,6 +58,13 @@ jobs:
         # rendering a parse banner on GitHub. This step refuses to deploy that.
         run: python scripts/validate_frontmatter.py
 
+      - name: Validate public retention claims and generated feeds
+        run: |
+          python scripts/validate_retention_claims.py
+          python -m unittest scripts/test_validate_retention_claims.py
+          python scripts/generate_llms_txt.py
+          git diff --exit-code -- llms.txt llms-full.txt
+
       - name: Build site
         # Non-strict: the docs content currently has a handful of cross-file
         # relative links that MkDocs flags as warnings. Strict mode aborts on

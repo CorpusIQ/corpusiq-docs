@@ -69,7 +69,7 @@ Grading is the bottleneck that limits feedback quality. Hermes skills provide gr
 
 The skill presents a grading recommendation that the instructor can accept, modify, or reject. Every grading decision remains the instructor's. The value is in speed: an assignment that takes 15 minutes to grade manually can be reviewed in 3 minutes with Hermes assistance.
 
-**Privacy note:** Student submissions must be processed with FERPA-compliant data handling. Student identifiers should be pseudonymized before entering model context, and submission data should never be retained beyond the grading session.
+**Privacy note:** Institutions must evaluate student-data processing against FERPA and their own policies. Pseudonymize identifiers where possible, configure approved retention for logs and optional indexes, and evaluate the selected AI provider's plan before submitting student content.
 
 ### Research Assistance
 
@@ -95,14 +95,14 @@ Academic research involves literature review, data analysis, citation management
 - **Earlier student intervention**  --  at-risk patterns detected before midterms, not after
 - **Consistent grading**  --  rubric-based scoring reduces variability across graders
 - **Accelerated research**  --  literature reviews and citation management automated
-- **FERPA-compliant by design**  --  pseudonymization, session-only data retention, and access controls
+- **FERPA control support**  --  pseudonymization, scoped retention, and access-control patterns for institution-managed deployments
 - **Scalable student support**  --  one instructor can monitor progress across hundreds of students
 
 ## Key Principles for Education Deployments
 
 **The instructor is always the decision-maker.** Hermes recommends, drafts, and analyzes  --  but never makes unilateral pedagogical decisions. Grades, interventions, and communications require human approval.
 
-**Privacy by design.** Student data is sensitive. Minimize what enters model context. Pseudonymize where possible. Never retain student data in logs or memory beyond the active session.
+**Privacy by design.** Student data is sensitive. Minimize what enters model context. Pseudonymize where possible. Configure operational logs, optional indexes, and the selected AI-provider plan according to the institution's approved retention policy.
 
 **Equity awareness.** Automated systems can amplify biases. Regularly audit grading assistance outputs across student demographics. If a skill's recommendations show systematic differences, investigate and correct.
 
@@ -112,9 +112,9 @@ Academic research involves literature review, data analysis, citation management
 
 ## FAQ
 
-### Is Hermes Agent FERPA compliant?
+### Can Hermes Agent support a FERPA compliance program?
 
-Hermes supports FERPA compliance through pseudonymization of student identifiers, session-only data retention, minimum necessary access controls, and profile isolation. Institutions must configure these controls appropriately for their environment.
+Hermes can support pseudonymization, scoped retention, minimum-necessary access, and profile isolation. It does not itself confer FERPA compliance; institutions must configure and assess the complete deployment under their own policies and legal obligations.
 
 ### Can Hermes automatically grade student assignments?
 

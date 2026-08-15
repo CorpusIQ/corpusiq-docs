@@ -1,6 +1,6 @@
 ---
 title: "AI for Financial Analysis"
-description: Transform financial analysis with AI. Query QuickBooks, Stripe, NetSuite in natural language. Instant P&L, cash flow, and variance analysis. Read-only, SOC 2 compliant MCP platform.
+description: Transform financial analysis with AI. Query QuickBooks, Stripe, and NetSuite in natural language. Instant P&L, cash flow, and variance analysis on a read-only, SOC 2 aligned MCP platform.
 url: /docs/ai-for-financial-analysis
 h1: 'AI for Financial Analysis: Real-Time Finance Intelligence'
 category: Business Use Cases
@@ -116,7 +116,7 @@ A: Yes. Claude can perform financial calculations when provided with the underly
 A: CorpusIQ complements FP&A tools by providing on-demand, conversational access to live financial data across all systems. FP&A tools excel at planning and modeling; CorpusIQ excels at instant answers and cross-source intelligence.
 
 **Q: Is this suitable for publicly traded companies with SOX requirements?**
-A: CorpusIQ is SOC 2 compliant with read-only architecture. No transactions can be modified. Companies should evaluate within their SOX control framework, but the read-only nature of all integrations means no financial data can be altered.
+A: CorpusIQ maintains a SOC 2 aligned posture; formal SOC 2 Type II certification is not claimed. Connected source access is read-only. Companies should still evaluate the service within their SOX control framework.
 
 **Q: Can I restrict which team members can query financial data?**
 A: Yes. CorpusIQ supports team-level access controls. Finance leadership can control who has access to financial connectors.

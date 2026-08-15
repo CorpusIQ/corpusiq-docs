@@ -130,11 +130,11 @@ The Slack integration is designed for security-conscious organizations:
 
 - **OAuth 2.0** with read-only scopes: channels:read, channels:history, search:read, files:read, users:read, team:read. No write scopes are requested.
 - **Permission Model Respect.** ChatGPT can only access channels and conversations the authorizing user has access to. Private channels and DMs are only accessible if the user is a member.
-- **No Data Persistence.** Messages are queried live and discarded after the response. CorpusIQ does not store your Slack history.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **TLS 1.3 Encryption.** All data in transit is encrypted.
 - **Workspace Admin Visibility.** Slack workspace admins can see which scopes were authorized and can revoke access at any time from the Slack admin dashboard.
 
-For organizations with sensitive internal communications, this architecture means Slack data stays in Slack. The MCP layer provides governed, permission-respecting, ephemeral access.
+For organizations with sensitive internal communications, Slack remains the authoritative source. CorpusIQ retrieves permitted messages through direct MCP; the retention classes and lifecycles described above still apply.
 
 ## Comparison: MCP vs. Slack Built-in Search
 

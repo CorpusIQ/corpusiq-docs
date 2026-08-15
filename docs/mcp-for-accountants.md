@@ -116,7 +116,7 @@ The real value of MCP for accountants is transforming the client relationship fr
 
 **Query history and reusability.** Common queries can be saved and reused across clients. The "monthly P&L with variance analysis" query that took time to perfect works for every client with one click.
 
-**Data stays in QuickBooks.** MCP queries live data  --  there's no duplicate financial data to manage, sync, or secure. Your clients' financial data stays in QuickBooks where it belongs.
+**QuickBooks remains authoritative.** Direct MCP queries live financial records rather than maintaining a replicated financial-data warehouse. Scoped operational retention and any optional indexed-search lifecycle still apply.
 
 **Collaboration.** Multiple team members  --  partners, managers, staff accountants  --  can query the same client data simultaneously, each getting answers to their specific questions.
 
@@ -143,7 +143,7 @@ CPA firms connect each client's QuickBooks as a separate, isolated connection. Y
 <details>
 <summary><strong>Is this secure enough for financial data?</strong></summary>
 
-Yes. All connections use OAuth 2.0 with read-only scopes, encrypted token storage, and TLS 1.3 encryption in transit. CorpusIQ maintains SOC 2 Type II certification. Financial data is never stored  --  only queried and returned.
+Yes. CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 </details>
 
 <details>

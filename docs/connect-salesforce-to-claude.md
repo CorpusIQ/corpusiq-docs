@@ -34,7 +34,7 @@ Salesforce is powerful but complex. The average enterprise Salesforce org has hu
 3. **CorpusIQ translates** your question into Salesforce REST API calls and executes them.
 4. **Claude presents** the results with analysis, trends, and recommendations.
 
-All queries are live. CorpusIQ never caches or stores your Salesforce data.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ### Setup Steps
 
@@ -69,8 +69,8 @@ All queries are live. CorpusIQ never caches or stores your Salesforce data.
 ### Enterprise Security
 
 - **Read-only OAuth 2.0.** Zero write capability.
-- **SOC 2 compliant infrastructure.**
-- **No data storage.** Live API calls only.
+- **SOC 2 aligned security posture.**
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Field-level security respected.** Salesforce's native field permissions are honored.
 - **Audit logging.** All queries logged for compliance.
 
@@ -113,7 +113,7 @@ Yes  --  sandbox and production orgs can be connected separately.
 <details>
 <summary><strong>Is this suitable for regulated industries (finance, healthcare)?</strong></summary>
 
-CorpusIQ is SOC 2 compliant. The read-only architecture means no data can be modified. Evaluate within your specific regulatory framework.
+CorpusIQ maintains a SOC 2 aligned posture; formal SOC 2 Type II certification is not claimed. Connected Salesforce access is read-only. Evaluate the service within your specific regulatory framework.
 </details>
 
 ---

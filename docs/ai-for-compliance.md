@@ -108,10 +108,10 @@ When an auditor asks "Show me the approval chain for this transaction," finding 
 A: CorpusIQ complements GRC platforms by providing on-demand access to evidence and live system data. GRC platforms manage the compliance framework; CorpusIQ provides the data connectivity to verify controls.
 
 **Q: Is this suitable for SOX compliance?**
-A: CorpusIQ can support SOX evidence gathering and control testing through read-only access to financial systems. The platform is SOC 2 compliant. Companies should evaluate within their SOX control framework.
+A: CorpusIQ can support SOX evidence gathering and control testing through read-only access to financial systems. The platform maintains a SOC 2 aligned posture; formal SOC 2 Type II certification is not claimed. Companies should evaluate it within their SOX control framework.
 
 **Q: How is compliance data secured?**
-A: All connections are read-only OAuth. Data is never stored. Access is controlled by user permissions. All queries are logged for audit trail purposes.
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **Q: Can AI make compliance decisions?**
 A: No. AI provides data and analysis to support compliance decisions, but compliance determinations and regulatory judgments should always be made by qualified compliance professionals.
