@@ -12,9 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**850+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**865+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+
+- [🆕 August 15, 2026 (Midday) — Argent Mobile Agent Skills (154.0K, 20 skills), Oh Story ClaudeCode (146.6K, 13), VueJS AI Skills (129.2K, 11), Rivet Skills (65.3K, 22), Interface Design (23.6K), Feature-Sliced Design (16.6K), RampStack Claude Skills (15.7K, 103), Tailwind 4 Docs (10.1K), Claude Video Watch (10.1K), Tiangong AI Skills (9.0K, 58), RKnall (8.5K), Superdesign (8.0K), Motion Principles (7.8K), Swift Testing Pro (7.5K), Trail of Bits Curated (2.4K, 31) — 15 publisher clusters, 273 skills, 15 setup guides](/hermes/skills/marketplace/new-aug15-2026-midday/)
 
 - [🆕 August 15, 2026 — CaffeineLabs Extensions (259.4K, 39 skills), OpenCLI (97.8K), CMUX (76.3K), Agentix CEO (52.0K), LiarJS Fingerprint (51.9K), Huashu Design (42.9K), Replicas Agent (34.7K), Design Doc Mermaid (34.2K), Agent Pulse (32.4K), Academic Research (26.4K) — 10 publisher clusters, 88 skills, 10 setup guides](/hermes/skills/marketplace/new-aug15-2026/)
 
@@ -265,7 +267,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 901+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 916+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 
