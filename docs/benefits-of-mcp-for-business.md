@@ -52,14 +52,14 @@ Compare this to traditional AI interactions where the model might generate a pla
 
 ## 5. Zero Infrastructure Overhead
 
-MCP servers don't store data. They query source systems on demand and return results. This stateless architecture means:
-- **No storage costs.** Your data stays in the systems you already manage.
+Direct MCP servers query source systems on demand instead of maintaining a replicated business-data warehouse. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days. This architecture means:
+- **No customer-managed warehouse.** Source systems remain authoritative; scoped operational retention still applies.
 - **No ETL pipelines.** Nothing to build, schedule, monitor, or fix.
 - **No schema management.** No intermediate data models to design and maintain.
-- **No data duplication.** One less place where sensitive business data lives.
-- **No refresh latency.** No waiting for warehouse refreshes or cache invalidation.
+- **No raw-data warehouse.** Direct MCP does not retain raw customer files or full connector response payloads.
+- **No warehouse refresh latency.** Live source queries avoid waiting for ETL refreshes; scoped operational logs follow the published retention schedule.
 
-For organizations tired of the infrastructure burden of traditional BI  --  maintaining data warehouses, debugging ETL failures, managing schema evolution  --  MCP's zero-storage model is liberating.
+For organizations tired of the infrastructure burden of traditional BI  --  maintaining data warehouses, debugging ETL failures, managing schema evolution  --  MCP's live-query model with scoped retention is liberating.
 
 ## 6. Cross-Source Intelligence
 
@@ -73,7 +73,7 @@ This cross-source capability is what turns MCP from a data access tool into a bu
 
 MCP servers scale horizontally  --  add more server instances behind a load balancer and they handle more concurrent queries. But unlike traditional BI systems, scaling MCP doesn't require scaling storage, managing data partitioning, or tuning query performance.
 
-Because MCP servers are stateless (they don't store data) and lightweight (they proxy queries to source APIs), scaling is operationally simple. The complexity lives in the source systems where it belongs  --  your Shopify store already handles order volume, your QuickBooks instance already manages financial data. MCP just makes that data accessible.
+Because direct-query MCP servers avoid a replicated business-data warehouse and remain lightweight, scaling is operationally simple. The complexity lives in the source systems where it belongs  --  your Shopify store already handles order volume, your QuickBooks instance already manages financial data. MCP makes that data accessible while CorpusIQ applies the scoped log-retention policy above.
 
 ## 8. Open Standard, No Vendor Lock-In
 
@@ -122,7 +122,7 @@ Technically yes  --  MCP is a protocol for tool discovery and execution. But the
 <details>
 <summary><strong>Is MCP compliant with regulations like SOC 2 and GDPR?</strong></summary>
 
-CorpusIQ's platform is built with compliance in mind. The stateless architecture (no data storage) simplifies GDPR compliance. The audit logging supports SOC 2 requirements. See our security documentation for details.
+CorpusIQ's scoped direct-MCP retention reduces the secondary-data footprint: it fetches source records live and does not retain raw customer files or full connector response payloads. Operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days. See the security documentation for the separate optional indexed-search and compliance lifecycles.
 </details>
 
 <details>

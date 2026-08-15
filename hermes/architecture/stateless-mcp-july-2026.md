@@ -44,9 +44,9 @@ This is the same pattern REST APIs have used for decades. Any HTTP server can se
 
 Stateless MCP means business data connectors can be:
 
-**Read-only and ephemeral.** Each request authenticates independently. No data is stored on the MCP server between calls. The connector fetches live data, returns it, and forgets.
+**Read-only and request-scoped.** Each request authenticates independently. Direct MCP does not retain raw customer files or full connector response payloads. Operational query metadata and bounded outcome summaries may be retained for up to 30 days.
 
-**Per-user scoped.** Each user's OAuth token travels with the request. Shopify data stays in Shopify's tenant. QuickBooks data stays in QuickBooks. The MCP layer never aggregates or stores.
+**Per-user scoped.** Each user's OAuth token travels with the request. Shopify and QuickBooks remain the authoritative systems. Raw customer files and full connector response payloads are not aggregated into a CorpusIQ warehouse; scoped operational retention still applies.
 
 **Infrastructure-independent.** No WebSocket servers to maintain. No session state to manage. Standard HTTP infrastructure works — Cloudflare, AWS ALB, nginx.
 
@@ -60,7 +60,7 @@ Stateless MCP solves the transport problem. But business operators need more tha
 - **Metric definitions** that ensure revenue means the same thing across every AI and every connector
 - **Source-of-truth validation** that traces every answer back to the original system
 - **Read-only OAuth** so no AI can modify your business data
-- **Zero data storage** — the connectors fetch and return, nothing persists
+- **Scoped retention** — connectors fetch live data without retaining raw customer files or full response payloads; operational logs may persist for up to 30 days
 
 The stateless MCP spec makes this architecture possible at scale. No connection pools. No session affinity. No state to lose.
 

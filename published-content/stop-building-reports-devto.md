@@ -35,7 +35,7 @@ I have not built a report since.
 
 ## How to set this up
 
-If you want to try this yourself, the platform I use is called CorpusIQ. It is an MCP server that connects ChatGPT, Claude, and Perplexity to 40+ business tools. Read-only access. No data stored. Five-minute setup. Free plan available.
+If you want to try this yourself, the platform I use is called CorpusIQ. It is an MCP server that connects ChatGPT, Claude, and Perplexity to 40+ business tools. Read-only access. Live retrieval with scoped retention. Five-minute setup. Free plan available.
 
 But more importantly: the protocol itself is open. The MCP specification goes stable on July 28, 2026. Any AI that supports MCP can connect to any tool that exposes an MCP server. This is not a CorpusIQ thing. This is the direction the industry is moving.
 

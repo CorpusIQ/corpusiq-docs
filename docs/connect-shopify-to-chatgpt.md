@@ -134,7 +134,7 @@ For organizations with strict compliance requirements, CorpusIQ's security archi
 
 - **OAuth 2.0** authentication  --  no shared credentials, no API keys stored in plaintext.
 - **TLS 1.3** encryption in transit.
-- **No data persistence**  --  CorpusIQ does not store, cache, or retain your Shopify data after a query completes.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Scoped access**  --  each connector requests only the permissions it needs, and you can verify exact scopes during authorization.
 
 ## Comparison: MCP vs. Direct Shopify API Integration

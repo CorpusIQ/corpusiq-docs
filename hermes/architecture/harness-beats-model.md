@@ -62,7 +62,7 @@ A harness that defines metrics once and applies them everywhere. Revenue means t
 
 A harness that cites sources. Every number traces back to the original system. No guessing. No hallucination. Verified answers from live data.
 
-A harness that never stores your data. Read-only access. Per-source authentication. Every query is independent and ephemeral.
+A harness with scoped retention. Direct MCP does not retain raw customer files or full connector response payloads. Operational logs may be retained for up to 30 days. Read-only access. Per-source authentication.
 
 This is not a better dashboard. It is not a better spreadsheet. It is a better harness.
 

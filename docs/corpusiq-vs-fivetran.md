@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ vs Fivetran"
-description: CorpusIQ's MCP real-time query vs Fivetran's ETL batch pipelines. No data movement, no warehouse costs, instant access. Fair feature comparison.
+description: Compare CorpusIQ live MCP queries and scoped retention with Fivetran ETL pipelines and persistent warehouse replication.
 h1: CorpusIQ vs Fivetran  --  MCP Live Query vs ETL Batch Pipelines
 url: /docs/corpusiq-vs-fivetran
 author: CorpusIQ
@@ -46,19 +46,19 @@ This architectural difference has cascading implications for cost, speed, freshn
 |---------|----------|----------|
 | **Approach** | Real-time API query (MCP) | Batch ETL pipelines |
 | **Data Freshness** | Instant  --  queries live source | 5 min to 24 hours (sync frequency) |
-| **Data Movement** | None | Full replication to warehouse |
+| **Source-data replication** | No raw-file/full-payload warehouse | Full replication to warehouse |
 | **Infrastructure Required** | None | Data warehouse (Snowflake, BigQuery, etc.) |
 | **Setup Complexity** | 2-minute OAuth | Hours to days (connector + warehouse config) |
 | **AI Integration** | Native MCP protocol | Indirect (SQL queries via warehouse) |
 | **Cost Model** | Per-seat subscription | Per-row (MAR) + warehouse costs |
-| **Data Storage** | None  --  ephemeral access | Permanent warehouse copy |
+| **Data Storage** | No replicated source-data warehouse; scoped operational logs up to 30 days | Permanent warehouse copy |
 | **Schema Management** | Automatic (API-driven) | Manual schema changes, dbt transforms |
 | **Use Case** | AI-powered business questions | Centralized analytics and reporting |
 
 ## CorpusIQ's Advantages
 
-### 1. No Data Movement  --  No Data Gravity
-Every piece of data you copy creates a governance, security, and freshness burden. CorpusIQ eliminates data movement entirely. Your data stays in its source system  --  HubSpot, Salesforce, QuickBooks, Stripe  --  and queries run against the live API.
+### 1. No ETL Warehouse
+Every source-data copy creates a governance, security, and freshness burden. CorpusIQ queries HubSpot, Salesforce, QuickBooks, Stripe, and other source APIs live without building a raw-file or full-payload warehouse. Scoped operational logs may persist for up to 30 days.
 
 **Why this matters:** GDPR compliance, SOC 2 audits, and internal data governance all become simpler when you don't maintain additional copies of sensitive business data.
 
@@ -108,7 +108,7 @@ If your goal is a "single source of truth" in a centralized warehouse for regula
 | Data team needs 5-year trend analysis | **Fivetran + Warehouse** |
 | Need cross-source answer in <10 seconds | **CorpusIQ** |
 | Powering Tableau/Power BI dashboards | **Fivetran + Warehouse** |
-| Compliance requires no data copies | **CorpusIQ** |
+| Compliance favors no raw-file/full-payload warehouse and scoped logs | **CorpusIQ** |
 | Running machine learning on unified data | **Fivetran + Warehouse** |
 
 ## The Combined Approach
@@ -126,7 +126,7 @@ These tools serve different purposes, but for the use case of "ask questions abo
 ## FAQ
 
 **Q: Does CorpusIQ store my data like Fivetran does?**  
-A: No. CorpusIQ never stores, caches, or copies your data. Every query runs against the live source API.
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **Q: Can CorpusIQ handle the data volumes Fivetran processes?**  
 A: CorpusIQ is designed for business intelligence queries, not bulk data extraction. For terabyte-scale analytics, a warehouse approach is more appropriate.
@@ -144,7 +144,7 @@ A: CorpusIQ  --  queries complete in 1-5 seconds against live APIs. Fivetran req
 A: For AI-powered business questions  --  yes. For formal BI reporting, historical analysis, and ML workloads  --  no. They complement each other.
 
 **Q: How does security compare?**  
-A: Both platforms are enterprise-grade. CorpusIQ's advantage: no data copies means fewer surfaces to secure. Fivetran's advantage: warehouse-level encryption and access controls for the centralized copy.
+A: Both platforms address different enterprise needs. CorpusIQ avoids a raw-file/full-payload warehouse while retaining scoped operational logs. Fivetran provides warehouse-level encryption and access controls for a centralized copy.
 
 **Q: Which is easier to implement?**  
 A: CorpusIQ  --  2 minutes to connect, instant AI access. Fivetran  --  hours to days for connector setup, warehouse configuration, schema management, and transformation logic.

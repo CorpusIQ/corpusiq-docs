@@ -132,11 +132,11 @@ The Stripe integration's security model is enforced by Stripe's own permission s
 
 - **Restricted API Key.** You create a key in Stripe with only the specific read permissions needed. No write permissions, no admin access. If the key is ever compromised, its scope is limited to reading the specific Stripe resources you granted.
 - **No PCI Data.** The restricted key cannot access card numbers, bank account details, or other PCI-sensitive information. CorpusIQ never touches payment credentials.
-- **No Data Persistence.** Queries execute live. Results are not stored. Stripe data stays in Stripe.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **TLS 1.3 Encryption.** All data in transit is encrypted.
 - **Key Rotation.** You can rotate the API key at any time from your Stripe Dashboard. Old keys are immediately invalidated.
 
-For finance teams in regulated industries, this architecture means your payment data stays within Stripe's infrastructure. The MCP layer provides governed, ephemeral, read-only access.
+For finance teams in regulated industries, Stripe remains the authoritative source. CorpusIQ retrieves permitted payment records through direct MCP; the retention classes and lifecycles described above still apply.
 
 ## Comparison: MCP vs. Direct Stripe API Integration
 

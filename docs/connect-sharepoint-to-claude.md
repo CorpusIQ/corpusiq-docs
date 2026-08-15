@@ -101,7 +101,7 @@ SharePoint contains some of your organization's most sensitive documents. Corpus
 - **Read-only OAuth 2.0.** Claude can search and read documents but can never modify, delete, create, or upload files.
 - **SharePoint permissions respected.** Claude only sees documents the authenticated user has permission to access.
 - **Conditional Access support.** Works with Microsoft Entra ID Conditional Access policies including MFA requirements, device compliance, and location-based restrictions.
-- **No document storage.** File contents are never persisted on CorpusIQ servers. Every query streams content directly from SharePoint.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Audit logging.** All queries are logged in CorpusIQ for compliance visibility.
 
 ## Enterprise Deployment Considerations
@@ -111,7 +111,7 @@ For large organizations deploying SharePoint integration across teams:
 - **Admin consent workflow.** IT administrators can pre-authorize the integration for the entire tenant using Microsoft Entra admin consent.
 - **Site collection scoping.** Administrators can configure which SharePoint site collections are accessible.
 - **Sensitivity label awareness.** Documents with Microsoft Information Protection sensitivity labels retain their classification metadata.
-- **Compliance with data residency.** All data processing respects your Microsoft 365 data residency configuration.
+- **Residency review.** Microsoft 365 remains the authoritative source, while CorpusIQ processing, retained operational classes, and the selected AI-provider plan must be evaluated separately against your residency requirements.
 
 ## Comparison: MCP vs. SharePoint API Direct
 

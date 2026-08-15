@@ -80,7 +80,7 @@ A CEO asks: "Board metrics  --  Q3 pipeline generated, closed-won revenue, avera
 ## Frequently Asked Questions
 
 ### Is my HubSpot data secure?
-Yes. CorpusIQ uses OAuth 2.0 with read-only access to your HubSpot portal. Your CRM data is queried in real time and never stored on CorpusIQ servers. All communication is encrypted with TLS 1.3.
+Yes. CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ### Can ChatGPT modify my HubSpot data?
 No. The connection is read-only. ChatGPT can analyze your pipeline, identify risks, and recommend actions  --  but it cannot create deals, modify contacts, update stages, or change any CRM data. Your team retains full control.

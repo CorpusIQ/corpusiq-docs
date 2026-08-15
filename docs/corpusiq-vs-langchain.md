@@ -16,7 +16,7 @@ last_updated: "2026-08-12"
 | **Approach** | MCP-native AI queries | Traditional data pipeline |
 | **Speed** | Under 5 seconds | Minutes to hours |
 | **MCP** | ✅ Standard protocol | ❌ |
-| **Data Storage** | ✅ Zero  --  read-only OAuth | ❌ Stores your data |
+| **Data Storage** | Live retrieval; no raw-file/full-payload warehouse; scoped logs | Depends on the application design |
 | **Setup** | 5 minutes, one OAuth | Days to weeks |
 
 [30-day free trial  --  no credit card →](https://www.corpusiq.io)

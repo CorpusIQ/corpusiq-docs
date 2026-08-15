@@ -69,7 +69,7 @@ NetSuite is powerful but notoriously difficult to query  --  especially for non-
 ### Security
 
 - **TBA with read-only role.** Create a dedicated NetSuite role with only read permissions.
-- **No data storage.** Live API queries only.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Token encryption.** All credentials encrypted at rest.
 
 ### Comparison: MCP vs. NetSuite API Direct

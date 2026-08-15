@@ -321,7 +321,7 @@ plugins:
 - meta
 repo_name: CorpusIQ/corpusiq-docs
 repo_url: https://github.com/CorpusIQ/corpusiq-docs
-site_description: CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your data stack. No data moved or stored.
+site_description: CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.
 site_name: CorpusIQ Docs
 site_url: https://www.corpusiq.io/docs/
 theme:

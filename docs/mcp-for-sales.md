@@ -124,7 +124,7 @@ MCP provides data access for forecasting  --  pipeline values, historical conver
 <details>
 <summary><strong>Is pipeline data secure when queried through MCP?</strong></summary>
 
-Yes. CRM connections use OAuth with read-only scopes. All queries are logged for audit purposes. Pipeline data is queried on demand and never stored.
+Yes. CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 </details>
 
 <details>

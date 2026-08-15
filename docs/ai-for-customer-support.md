@@ -116,7 +116,7 @@ A: CorpusIQ supports ticketing data through database connectors and API integrat
 A: CorpusIQ is an analysis and intelligence tool, not a customer-facing chatbot. It provides agents with information to support their responses.
 
 **Q: How does this handle PII and sensitive customer data?**
-A: All connections are read-only OAuth. Customer data is never stored by CorpusIQ. Access is controlled by the permissions of the authenticated user.
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **Q: Can we restrict which support agents can query which data?**
 A: Yes. Team-level access controls determine which connectors each user can query.

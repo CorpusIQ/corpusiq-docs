@@ -1,9 +1,9 @@
 ---
 title: "MCP vs Data Warehouse: Live Query vs Batch ETL"
-description: "Compare MCP servers vs traditional data warehouses. MCP queries live business data with zero storage overhead, while data warehouses require batch ETL"
+description: "Compare MCP servers with traditional data warehouses: live source queries and scoped operational retention versus batch ETL and persistent analytical storage."
 category: MCP Education
-tags: ["MCP vs data warehouse", "live query vs ETL", "real-time vs batch analytics", "AI business intelligence platform", "zero storage data access", "data warehouse alternative"]
-last_updated: "2026-08-14"
+tags: ["MCP vs data warehouse", "live query vs ETL", "real-time vs batch analytics", "AI business intelligence platform", "scoped retention", "data warehouse alternative"]
+last_updated: 2026-07-08
 canonical: https://www.corpusiq.io/docs/mcp-vs-data-warehouse
 robots: index,follow
 ---
@@ -16,7 +16,7 @@ For decades, the **data warehouse** has been the cornerstone of business intelli
 
 A data warehouse operates on a **store-then-query** model. Data flows from source systems through ETL pipelines into the warehouse, where it sits waiting to be queried. The warehouse is a copy of your operational data, maintained at significant infrastructure cost. Every new data source means new ETL pipelines, new schema design, and new storage requirements.
 
-MCP operates on a **query-directly** model. The MCP server doesn't store data  --  it queries source systems on demand and returns results. There's no ETL pipeline, no schema to maintain, no storage to provision. When you ask about today's sales, the MCP server queries your ecommerce platform directly. The data is always current because there's no copy to fall out of sync.
+MCP operates on a **query-directly** model. Direct MCP queries source systems on demand instead of maintaining a replicated business-data warehouse. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs are retained for up to 30 days. There's no customer-managed ETL pipeline, warehouse schema, or warehouse storage to provision. When you ask about today's sales, the MCP server queries your ecommerce platform directly, avoiding a warehouse replica that can fall out of sync.
 
 ## Data Freshness: Real-Time vs Batch Windows
 
@@ -30,11 +30,11 @@ This real-time access matters in specific scenarios:
 - **Campaign optimization**  --  adjusting ad spend based on today's performance, not yesterday's
 - **Cash position**  --  understanding real-time liquidity for payment decisions
 
-## Zero Storage vs Persistent Storage
+## Scoped Retention vs Persistent Analytical Storage
 
 Data warehouses store everything. This is both their strength and their weakness. Storage enables historical analysis, trend detection, and complex aggregations that would be impractical to compute on demand. But storage also means infrastructure costs, data governance overhead, and the risk of storing sensitive data in yet another system.
 
-MCP servers store nothing. They're stateless query proxies  --  each request is a fresh query against the source system. This eliminates storage costs entirely and reduces the data security surface area. Your business data stays in the systems you already trust, and the MCP server accesses it on demand without persisting it.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 The trade-off is that MCP can't do what data warehouses do best: run complex analytical queries across years of historical data. For that, you still need a warehouse. But for the vast majority of business questions  --  "how are we doing this week?", "what's in our pipeline?", "which campaigns are performing?"  --  live query access is not just sufficient, it's superior.
 
@@ -50,7 +50,7 @@ Standing up a data warehouse integration requires:
 
 This process typically takes weeks or months per data source, even with modern tools like Fivetran and dbt streamlining parts of the pipeline.
 
-Setting up MCP through CorpusIQ takes minutes. Authenticate each data source through OAuth  --  that's it. There's no schema to design because the MCP server queries the source API directly. There are no ETL jobs to monitor because there's no data movement. The AI model handles the "transformation" by understanding the tool descriptions and constructing appropriate queries.
+Setting up MCP through CorpusIQ takes minutes. Authenticate each data source through OAuth, then query the source API directly. There is no replicated ETL warehouse or scheduled pipeline to monitor; scoped operational logs follow the published retention schedule.
 
 ## Schema Management
 
@@ -100,7 +100,7 @@ MCP is designed for operational queries against live data. It can handle multi-s
 <details>
 <summary><strong>Does MCP store any data at all?</strong></summary>
 
-CorpusIQ's MCP architecture is stateless for business data. Query results are returned to the AI model and discarded. Tool definitions and metadata may be cached for performance, but your actual business data is never stored.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 </details>
 
 <details>

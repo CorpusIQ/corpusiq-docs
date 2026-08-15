@@ -56,9 +56,9 @@ CorpusIQ: Works with ChatGPT, Claude, Perplexity, and any MCP-compatible client.
 
 Some platforms cache your data on their servers. Some use it to train models (check the fine print). Some route it through third-party processors.
 
-The best approach: data flows directly from the source tool into the AI's context window. It's not stored, cached, or used for training. When the response is generated, the data is gone.
+The best approach is live, scoped retrieval with a clear retention policy. Direct MCP should avoid retaining raw customer files or full connector response payloads, while disclosing any operational logs and the AI client's own data policy.
 
-CorpusIQ: No data storage. No model training. No third-party processors. Live query → response → gone.
+CorpusIQ: live retrieval without retaining raw customer files or full connector response payloads. Scoped operational logs may be retained for up to 30 days; the selected AI client's policy applies to its conversation.
 
 ## Quick comparison
 
@@ -69,7 +69,7 @@ CorpusIQ: No data storage. No model training. No third-party processors. Live qu
 | Setup time? | Under 5 minutes = you'll actually use it |
 | Cross-tool queries? | The whole point of MCP |
 | Works with your AI? | ChatGPT, Claude, not a locked interface |
-| Data handling? | No storage, no training, no third parties |
+| Data handling? | Scoped retention, disclosed processors, and clear AI-client policy |
 
 ## The bottom line
 

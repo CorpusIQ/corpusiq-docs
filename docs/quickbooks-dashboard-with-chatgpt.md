@@ -169,7 +169,7 @@ Through CorpusIQ's multi-source capabilities, you can combine QuickBooks data wi
 Practical limits depend on the AI model's context window. ChatGPT can handle dashboards with 15-25 metrics comfortably. Claude's 200K window can accommodate extremely detailed dashboards with 50+ metrics and deep historical comparisons.
 
 ### How secure is my dashboard data?
-Dashboard queries are processed in real time with data traveling over encrypted connections. CorpusIQ does not persist your QuickBooks data. The dashboard output exists only in your conversation session.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ## Get Started with QuickBooks Dashboard with ChatGPT
 

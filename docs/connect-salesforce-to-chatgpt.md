@@ -100,7 +100,7 @@ No Salesforce reports to build. No SOQL to write. No data exports to manage. Jus
 
 **Cross-source intelligence.** Combine Salesforce data with data from other connected tools. "Show me opportunities for accounts with overdue invoices in QuickBooks" or "Which marketing campaigns generated the most Salesforce opportunities this quarter?" The cross-source capability is unique to [MCP platforms like CorpusIQ](benefits-of-mcp-for-business.md).
 
-**Enterprise governance.** Read-only access, field-level security respect, audit trails, and no data duplication. Your Salesforce data stays in Salesforce. The MCP layer provides governed, ephemeral access that meets enterprise compliance requirements.
+**Enterprise governance.** Read-only access, field-level security respect, and audit trails. Direct MCP avoids a raw-file/full-payload warehouse while scoped operational logs may persist for up to 30 days.
 
 ## Use Cases
 
@@ -131,11 +131,11 @@ The Salesforce integration is designed for enterprise security requirements:
 - **OAuth 2.0** with read-only scopes. No write, create, update, or delete permissions.
 - **Field-Level Security Respect.** Salesforce field permissions are honored. Users only see what their connected account can see.
 - **Encrypted Field Handling.** Salesforce Shield encrypted fields remain encrypted in transit and at rest.
-- **No Data Persistence.** CorpusIQ does not store your Salesforce data. Queries execute, responses are delivered, data is discarded.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Audit Trail.** Every query is logged with timestamp and source. Your Salesforce admin can track exactly what data was accessed.
 - **TLS 1.3 Encryption.** All data in transit between Salesforce, CorpusIQ, and ChatGPT is encrypted.
 
-For enterprises in regulated industries (financial services, healthcare, government), this architecture meets the core requirements: no data duplication, governed access, and complete visibility into data access patterns. See our [security documentation](../security/) for the full compliance framework.
+For enterprises in regulated industries, this architecture provides governed source access and an auditable, scoped retention model. Organizations must evaluate it against their own regulatory requirements. See our [security documentation](../security/) for details.
 
 ## Comparison: MCP vs. Direct Salesforce API Integration
 

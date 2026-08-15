@@ -24,4 +24,4 @@ They're complementary. Your handbook shouldn't be in QuickBooks. Your P&L should
 
 ---
 
-*CorpusIQ: AI knowledge base for live business data. No uploads. No embeddings. Just answers. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: AI knowledge base for live business data. Direct MCP uses live retrieval; optional indexed search has a separate embeddings lifecycle. [corpusiq.io](https://www.corpusiq.io)*

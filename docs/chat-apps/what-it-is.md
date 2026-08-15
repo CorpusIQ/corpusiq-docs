@@ -64,7 +64,7 @@ connect it — it doesn't invent an answer.
 The app is read-only against your business tools. It looks things up and reports
 them back. It does not move money, send emails, change records, or post on your
 behalf. Answers are drawn live from your connected tools each time you ask —
-nothing is copied into a separate store.
+direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days.
 
 ## Next
 

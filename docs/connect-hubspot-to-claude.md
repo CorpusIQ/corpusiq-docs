@@ -33,7 +33,7 @@ HubSpot is the system of record for your customer relationships, sales pipeline,
 3. **CorpusIQ executes** the appropriate HubSpot API calls using your stored credentials.
 4. **Claude presents** the answer in natural language, with context and actionable recommendations.
 
-All communication is encrypted. CorpusIQ never stores your CRM data  --  every query is a live API call.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ### Setup Steps
 
@@ -72,7 +72,7 @@ All communication is encrypted. CorpusIQ never stores your CRM data  --  every q
 ### Security
 
 - **Read-only OAuth 2.0.** Claude can query contacts, companies, and deals but cannot create, update, or delete CRM records.
-- **No data storage.** Your HubSpot data never lives on CorpusIQ servers.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Instant disconnect.** Revoke access from HubSpot or CorpusIQ at any time.
 
 ### Comparison: MCP vs. HubSpot API Direct

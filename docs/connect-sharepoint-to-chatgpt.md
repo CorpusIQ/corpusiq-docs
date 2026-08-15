@@ -130,12 +130,12 @@ The SharePoint integration is built for enterprise security:
 
 - **Microsoft Graph OAuth 2.0** with delegated permissions. Read-only scopes: Sites.Read.All, Files.Read.All, User.Read.
 - **SharePoint Permission Respect.** ChatGPT can only access content the authenticated user has permission to view. Document-level, library-level, and site-level permissions are fully enforced.
-- **No Data Persistence.** Document content is queried live and discarded after the response.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **TLS 1.3 Encryption.** All data in transit is encrypted.
 - **Azure AD / Entra ID Integration.** Authentication flows through your Microsoft 365 identity provider. Conditional access policies, MFA, and other identity controls apply.
 - **Admin Revocation.** Microsoft 365 admins can revoke the application consent at any time from the Azure AD / Entra ID admin center.
 
-For enterprises in regulated industries, this architecture ensures SharePoint content stays within your Microsoft 365 tenant. The MCP layer provides governed, permission-respecting, ephemeral access.
+For enterprises in regulated industries, Microsoft 365 remains the authoritative source. CorpusIQ retrieves permitted SharePoint content through direct MCP; the retention classes and lifecycles described above still apply.
 
 ## Comparison: MCP vs. SharePoint Native Search
 

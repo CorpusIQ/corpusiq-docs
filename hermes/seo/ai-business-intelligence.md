@@ -30,7 +30,7 @@ AI business intelligence eliminates the dashboard entirely. You ask questions in
 
 **No dashboards to build.** You do not need a BI team. You do not need to learn Tableau or Looker. You ask questions. You get answers.
 
-**No data to move.** Your data stays in your tools. Read-only access. Nothing is copied, stored, or warehoused. Every query fetches live data and returns it. Nothing persists between questions.
+**No raw-data warehouse.** Direct MCP does not retain raw customer files or full connector response payloads. Every query fetches live data, while scoped operational logs may be retained for up to 30 days. Optional indexed search has a separate embeddings and minimal-metadata lifecycle.
 
 **No reconciliation sessions.** When every AI pulls from the same sources using the same definitions, the numbers match. Revenue means the same thing in ChatGPT as it does in Claude as it does in Perplexity.
 

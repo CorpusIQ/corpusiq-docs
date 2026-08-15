@@ -130,17 +130,17 @@ The Jira integration is read-only at every layer:
 
 - **OAuth 2.0 / PAT** with read-only permissions. No write, create, transition, or delete permissions.
 - **Project Permission Respect.** ChatGPT can only see projects and issues the authenticated user has permission to view in Jira.
-- **No Data Persistence.** Issue and project data is queried live from Jira and discarded after the response.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **TLS 1.3 Encryption.** All data in transit is encrypted.
 
-For engineering organizations with sensitive code repositories and project data, this architecture ensures Jira data stays in Jira while remaining accessible for status, reporting, and cross-functional visibility.
+For engineering organizations with sensitive project data, Jira remains the authoritative source. CorpusIQ retrieves permitted Jira records through direct MCP; the retention classes and lifecycles described above still apply.
 
 ## Comparison: MCP vs. JQL and Jira API
 
 | Aspect | JQL + Jira Interface | CorpusIQ MCP + ChatGPT |
 |--------|---------------------|------------------------|
 | **Query method** | JQL syntax with field reference knowledge | Natural language |
-| **Learning curve** | JQL syntax, field names, operators | No training required |
+| **Learning curve** | JQL syntax, field names, operators | No JQL syntax to learn |
 | **Multi-project** | Separate queries with manual combination | One question across all projects |
 | **Cross-source** | Jira-only data | Combine with CRM, ecommerce, support tools |
 | **Ad-hoc queries** | Write and run each JQL query individually | Conversational  --  ask and get answers |

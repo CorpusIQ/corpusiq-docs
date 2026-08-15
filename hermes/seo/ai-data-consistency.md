@@ -1,6 +1,6 @@
 ---
 title: Why Your AI Gives Different Answers to the Same Business Question — And How to Fix It
-description: ChatGPT, Claude, and Perplexity all give different answers to the same revenue question. Fix it with a single source of truth for AI — read-only, source-cited, zero data stored.
+description: ChatGPT, Claude, and Perplexity can give different answers to the same revenue question. Fix it with read-only, source-cited live retrieval.
 canonical: "https://www.corpusiq.io/docs/hermes/seo/ai-data-consistency/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -38,7 +38,7 @@ A better AI model will still not have access to your Stripe account. Or your Sho
 
 The fix is the connection layer between your data and your AI.
 
-When your tools are connected once — with read-only OAuth, zero data stored — every AI you use pulls from the same live data. The same Shopify orders. The same Stripe transactions. The same QuickBooks entries.
+When your tools are connected once with read-only OAuth, every AI you use pulls from the same live data. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days.
 
 The AI becomes a window into your actual numbers, not a guess generator.
 

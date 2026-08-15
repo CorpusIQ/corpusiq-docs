@@ -170,7 +170,7 @@ A: Yes. CorpusIQ inherits permissions from each connected source. HR documents i
 A: The AI can search Slack conversations and email threads where tribal knowledge is discussed. But truly undocumented knowledge still needs to be captured somewhere.
 
 **Q: How do I handle sensitive company information?**  
-A: CorpusIQ is read-only and never stores data. Sensitive information remains in its source system with existing access controls.
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **Q: Can this replace our intranet?**  
 A: For question-answering  --  yes. For browseable, curated content  --  you may still want a lightweight intranet. They serve different consumption modes.

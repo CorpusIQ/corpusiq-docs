@@ -33,7 +33,7 @@ Whether you're a business owner checking financial health, an accountant prepari
 Before diving into analysis, you need to connect QuickBooks to an AI assistant through CorpusIQ's MCP platform. Here's the setup process:
 
 ### 1. Connect QuickBooks to CorpusIQ
-Navigate to your CorpusIQ dashboard and select "Connect QuickBooks." You'll be redirected to Intuit's OAuth 2.0 authorization page. Sign in to your QuickBooks account and authorize the read-only connection. **Your data stays in QuickBooks**  --  CorpusIQ accesses it on-demand but never stores it.
+Navigate to your CorpusIQ dashboard and select "Connect QuickBooks." Sign in on Intuit's OAuth page and authorize the read-only connection. Direct MCP requests then fetch QuickBooks records live; CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ### 2. Configure Your AI Assistant
 CorpusIQ supports both ChatGPT and Claude as AI backends. Choose based on your analysis needs:

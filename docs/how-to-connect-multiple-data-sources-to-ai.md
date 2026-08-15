@@ -23,7 +23,7 @@ Traditional approaches require data warehousing, ETL pipelines, and months of en
 
 ## The Solution
 
-CorpusIQ's MCP platform connects multiple data sources to AI simultaneously. One question can query five different tools, and the AI combines the results into a coherent answer  --  all in seconds, with zero data movement.
+CorpusIQ's MCP platform connects multiple data sources to AI simultaneously. One question can query five different tools, and the AI combines the results into a coherent answer  --  all in seconds, without building an ETL warehouse of raw customer files or full connector payloads.
 
 ## What You'll Need
 
@@ -171,7 +171,7 @@ A: Yes  --  specify in your question. "Using only HubSpot and QuickBooks, show m
 A: The limit is practical, not technical. Questions spanning 5-7 sources work well. Beyond that, results become harder to present coherently.
 
 **Q: Do I need a data warehouse for cross-source queries?**  
-A: No. That's the key advantage. CorpusIQ queries live APIs  --  no warehouse, no ETL, no data duplication.
+A: No warehouse is required for direct MCP queries. CorpusIQ calls live APIs without retaining raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days.
 
 **Q: How does the AI know which source has which data?**  
 A: MCP tools are self-describing. Each connector advertises what it can do, and the AI maps your question to the right tools automatically.

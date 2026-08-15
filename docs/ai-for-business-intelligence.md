@@ -65,7 +65,7 @@ The CorpusIQ MCP platform is purpose-built for AI-powered business intelligence.
 
 4. **Cross-source query engine.** Ask one question that spans five tools. "How did our Facebook ad spend correlate with Shopify revenue and Google Analytics traffic last month?"  --  answered in a single response.
 
-5. **Zero data storage.** No data warehouse required. Every query is a live API call to your tools. Data stays where it is.
+5. **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ## Example BI Queries Through CorpusIQ MCP
 
@@ -136,7 +136,7 @@ A: No. CorpusIQ queries live data from your tools directly. No ETL, no data ware
 A: No  --  it amplifies them. AI handles routine queries, freeing analysts to focus on strategic analysis, modeling, and insight generation.
 
 **Q: How secure is this approach?**
-A: All connections are read-only OAuth. Data is never stored. You can disconnect any source at any time. SOC 2 compliant infrastructure.
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **Q: What if my data sources don't have APIs?**
 A: CorpusIQ supports 40+ pre-built connectors. If a source isn't available, database connectors (PostgreSQL, MSSQL, MongoDB) and file storage connectors (Google Drive, OneDrive, SharePoint) provide alternative access paths.

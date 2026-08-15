@@ -111,7 +111,7 @@ CorpusIQ exposes 40+ connectors as MCP tools. Hermes auto-discovers them. No cod
 
 ## Read-only guarantee
 
-All CorpusIQ connections are read-only by design. OAuth scopes only request read access. There is no write path. Your data stays in your tools.
+All CorpusIQ connections are read-only by design. OAuth scopes only request read access. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days.
 
 ## Token refresh for crons
 

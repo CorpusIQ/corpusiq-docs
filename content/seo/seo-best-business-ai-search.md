@@ -14,7 +14,7 @@ This question spans 4+ tools. Traditional search can't join them.
 
 ## How MCP search is different
 
-MCP doesn't index your data. It queries source systems live. When you ask about the Acme account, the AI queries QuickBooks for financials, HubSpot for deals, Gmail for emails, and Stripe for payments — simultaneously.
+Direct MCP does not build embeddings or file indexes. It queries source systems live. Optional indexed search is separate and retains embeddings plus minimal metadata until revocation or deletion.
 
 The result: one answer from five data sources in 15 seconds.
 

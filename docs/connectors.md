@@ -9,7 +9,7 @@ robots: "index,follow"
 ---
 # CorpusIQ Connectors — 40+ Business Tools, One MCP Endpoint
 
-Connect QuickBooks, Shopify, Stripe, HubSpot, GA4, and 35+ more business tools to ChatGPT, Claude, and Perplexity. Every connector uses read-only OAuth. Zero customer data stored. Source-cited answers across every AI. Browse the complete directory below.
+Connect QuickBooks, Shopify, Stripe, HubSpot, GA4, and 35+ more business tools to ChatGPT, Claude, and Perplexity through read-only direct MCP live retrieval. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days. Browse the complete directory below.
 # Connectors
 
 CorpusIQ integrates with 40+ business tools through read-only OAuth connections. Each connector maps to a specific SaaS application or database, enabling natural-language queries across your entire data stack.

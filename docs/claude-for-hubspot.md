@@ -94,7 +94,7 @@ Claude distinguishes between factual data retrieval (deal amounts, close dates, 
 Yes, through CorpusIQ's multi-source capabilities. Claude can combine HubSpot pipeline data with: marketing spend from Google/Meta Ads for CAC analysis, revenue data from QuickBooks for deal-to-cash tracking, customer engagement from Klaviyo/Mailchimp for full customer journey analysis, and support data for customer health scoring.
 
 ### Is my sales data private when using Claude?
-Yes. Claude is developed by Anthropic with strong data privacy commitments. Combined with CorpusIQ's read-only HubSpot connection and encrypted transport, your CRM data is protected. Anthropic does not train on API-sourced data by default.
+CorpusIQ uses a read-only HubSpot connection and encrypted transport. Data handling inside Claude follows the terms and settings of the Anthropic plan you choose; review Anthropic's current policy before sending sensitive CRM data.
 
 ### Can Claude replace my sales analyst?
 Claude augments  --  it dramatically accelerates analysis and can handle the heavy lifting of data processing and pattern identification. However, human judgment remains essential for strategic interpretation, contextual understanding, and decision-making. Most organizations find Claude eliminates 80%+ of the manual analysis work while improving the quality of strategic decisions.

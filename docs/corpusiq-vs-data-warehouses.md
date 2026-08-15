@@ -54,7 +54,7 @@ This model works for: centralized analytics, historical analysis, complex SQL, r
 AI Assistant → MCP Protocol → CorpusIQ → Live API → Source
 ```
 
-This model works for: instant business questions, AI-powered analysis, cross-source intelligence, and non-technical user access. It requires no infrastructure, no data movement, and no engineering.
+This model works for instant business questions, AI-powered analysis, cross-source intelligence, and non-technical user access. It avoids a customer-managed ETL warehouse while using live source queries and scoped operational retention.
 
 ## Quick Comparison
 
@@ -70,7 +70,7 @@ This model works for: instant business questions, AI-powered analysis, cross-sou
 | **Cost** | Per-seat subscription | $10K-100K+/month (total stack) |
 | **Users** | Business users, executives | Analysts, data engineers |
 | **Complex Transformations** | Not supported | Full SQL/dbt transformations |
-| **Compliance/Governance** | Data stays in source | Centralized control |
+| **Compliance/Governance** | Source remains authoritative; scoped retention applies | Centralized control |
 
 ## When Warehouses Are Essential
 
@@ -102,7 +102,7 @@ CorpusIQ is superior for:
 
 5. **Cost efficiency:** For AI-powered business questions, CorpusIQ's per-seat pricing is a fraction of the total warehouse stack cost.
 
-6. **No data duplication:** Fewer copies of sensitive data means simpler compliance and lower security risk.
+6. **Smaller retained-data surface:** Direct MCP avoids a raw-file/full-payload warehouse while retaining scoped operational logs.
 
 ## The Modern Data Stack
 

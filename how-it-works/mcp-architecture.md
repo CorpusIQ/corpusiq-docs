@@ -152,9 +152,11 @@ persist across sessions.
   enforced at the connector layer, not just by policy.
 - **Per-user token isolation.** OAuth tokens are stored encrypted and
   scoped per user account. One user's token cannot be used by another.
-- **No data retention.** CorpusIQ does not store API responses. Each
-  tool call fetches live data from the vendor and returns it directly.
-  Nothing is cached on CorpusIQ's servers beyond the OAuth token itself.
+- **Scoped direct-MCP retention.** Each tool call fetches live vendor data.
+  CorpusIQ does not retain raw customer files or full connector response
+  payloads; operational logs retain query text, per-user tool-call metadata,
+  and bounded outcome summaries for up to 30 days. Optional indexed search
+  has a separate embeddings and minimal-metadata lifecycle.
 - **Revocable at any time.** Disconnect a connector from CorpusIQ's
   settings panel. The token is deleted immediately. You can also revoke
   from the vendor's side (Shopify admin, Google account settings, etc.).

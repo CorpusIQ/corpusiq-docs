@@ -74,11 +74,11 @@ def main():
 
     # 2. Regenerate GEO feeds (llms.txt / llms-full.txt)
     print("2. Regenerating llms.txt...")
-    run("python3 scripts/generate_llms_txt.py")
+    run("python3 scripts/generate_llms_txt.py", fatal=True)
 
     # 3. Build
     print("3. Building mkdocs...")
-    out = run("python3 -m mkdocs build --clean")
+    out = run("python3 -m mkdocs build --clean", fatal=True)
     if "Documentation built" not in out:
         print("BUILD FAILED")
         sys.exit(1)

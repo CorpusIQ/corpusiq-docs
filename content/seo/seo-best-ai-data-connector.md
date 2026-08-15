@@ -17,7 +17,7 @@ This is the whole point. "Compare Shopify revenue to Meta Ads spend" requires da
 You already use ChatGPT or Claude. The connector should work there — not force you into a new interface.
 
 **5. What happens to your data?**
-Data should flow directly from source to AI response. No storage. No training. No third parties.
+Look for live retrieval, disclosed processors, scoped operational retention, and clear terms for the AI client and plan you choose.
 
 ## How CorpusIQ compares
 
@@ -27,9 +27,9 @@ Data should flow directly from source to AI response. No storage. No training. N
 | Core connectors | All five + 32 more |
 | Cross-tool queries | Native — ask across any combination |
 | AI compatibility | ChatGPT, Claude, Perplexity, any MCP client |
-| Data handling | No storage. No training. Gone after response. |
+| Data handling | Live retrieval; no raw-file/full-payload warehouse; scoped logs; AI-client policy applies |
 | Setup | 30 seconds per tool via OAuth |
-| Security | CASA Tier 2, SOC 2 |
+| Security | CASA Tier 2 certified, SOC 2 aligned |
 
 ---
 

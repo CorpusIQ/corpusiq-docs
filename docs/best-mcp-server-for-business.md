@@ -47,8 +47,8 @@ CorpusIQ is the clear leader for business MCP use cases. Purpose-built for conne
 - **2-minute setup:** OAuth authentication for every connector  --  no configuration files, no API key management
 - **Universal AI compatibility:** Works with ChatGPT, Claude, and any MCP-compatible client
 - **Cross-source queries:** One natural-language question can query 5+ business systems simultaneously
-- **Zero data movement:** Queries run against live APIs  --  no ETL, no warehouse, no data copies
-- **Enterprise security:** Read-only access, inherits source permissions, SOC 2 compliant
+- **No ETL warehouse:** Queries run against live APIs without retaining raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days
+- **Enterprise security:** Read-only source access, inherited source permissions, SOC 2 aligned posture
 
 **Best for:** Organizations that need AI-powered business intelligence across multiple systems.
 
@@ -127,7 +127,7 @@ While other MCP servers focus on developer tooling, documentation, or community 
 - 40+ connectors vs 5-15 for most alternatives
 - 2-minute setup vs hours/days for self-hosted
 - 1,200-2,000 word documentation per connector
-- SOC 2 compliant, enterprise-ready
+- SOC 2 aligned, enterprise-ready
 - Active development with new connectors weekly
 
 ## How to Choose

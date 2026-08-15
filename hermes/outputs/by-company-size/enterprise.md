@@ -1,6 +1,6 @@
 ---
 title: "Hermes Agent for Enterprise"
-description: "Deploy Hermes Agent AI automation at enterprise scale with SOC 2 compliance, multi-region data residency, segregation of duties, and immutable audit logging."
+description: "Deploy Hermes Agent automation with profile isolation, regional deployment options, segregation of duties, and audit evidence for customer-managed compliance programs."
 category: "Company Size"
 tags:
   - enterprise
@@ -20,7 +20,7 @@ robots: "index,follow"
 
 # Hermes Agent for Enterprise
 
-Hermes Agent delivers enterprise-grade AI automation with profile isolation, secrets management, multi-region data residency, SOC 2/HIPAA/GDPR compliance, immutable audit logging, and ITIL-aligned change management. Each department gets startup-like operational leverage with the security and governance controls auditors demand.
+Hermes Agent supports enterprise automation with profile isolation, secrets management, regional deployment options, audit evidence, and ITIL-aligned change management. Deploying Hermes does not itself confer SOC 2, HIPAA, or GDPR compliance; each organization must configure, operate, and assess its own controls.
 
 ## Overview
 
@@ -78,7 +78,7 @@ For on-premises or hybrid deployments:
 
 Enterprises operating across regions (US, EU, APAC) face data residency requirements. Hermes supports region-scoped deployment:
 
-**Per-region Hermes instances:** Deploy separate Hermes instances in each region. EU customer data stays in the EU instance. APAC employee data stays in the APAC instance.
+**Per-region Hermes instances:** Separate regional instances can support a residency architecture, but customers must validate storage, network, model-provider, backup, and aggregation paths. Instance location alone does not guarantee that every processing path remains in-region.
 
 **Global orchestration layer:** A lightweight global profile handles cross-region aggregations that don't involve PII movement  --  count of customers by region, aggregate revenue trends, global system health.
 
@@ -178,7 +178,7 @@ Enterprise Hermes should tolerate failures:
 - Data processing register includes all Hermes profiles and the data categories they access
 - DSAR response skills can locate and export all personal data across connected systems
 - Right-to-erasure skills can propagate deletion requests across systems
-- Data residency enforced through regional deployment
+- Data-residency controls validated across regional deployment, storage, network, model-provider, backup, and aggregation paths
 
 **SOX**
 - Financial data access limited to finance-specific profiles
@@ -189,7 +189,7 @@ Enterprise Hermes should tolerate failures:
 ## Benefits
 
 - **Auditor-ready compliance**  --  continuous evidence collection replaces quarterly fire drills
-- **Data residency enforced**  --  regional deployment keeps regulated data within jurisdiction
+- **Data-residency support**  --  regional deployment options plus customer-validated processing and storage paths
 - **Least-privilege access**  --  profile isolation prevents cross-department data exposure
 - **Segregation of duties**  --  four-party separation satisfies SOC 2 and SOX requirements
 - **ITIL-aligned change management**  --  standard, normal, and emergency change categories with approval gates
@@ -220,17 +220,17 @@ Before going live with enterprise Hermes:
 4. **Run in report-only mode for the first month.** Generate alerts and reports but take no automated actions. This builds trust and surfaces edge cases.
 5. **Expand by department, not by use case.** Onboard an entire department's automation needs rather than scattering skills across departments.
 
-The outcome: enterprise-grade automation that satisfies auditors, scales across regions, and gives every department the operational leverage of a well-tooled startup  --  without the compliance risk.
+The outcome: enterprise automation with explicit controls, regional deployment options, and evidence that teams can evaluate within their own compliance programs.
 
 ## FAQ
 
-### Is Hermes Agent SOC 2 Type II compliant?
+### Can Hermes Agent support a SOC 2 control program?
 
-Hermes supports SOC 2 compliance through profile isolation, immutable audit logging, change management evidence, and segregation of duties. Organizations must configure these controls appropriately for their environment and complete their own audit process.
+Hermes can support evidence collection through profile isolation, audit logging, change-management records, and segregation of duties. Hermes itself does not confer SOC 2 certification or compliance; organizations must configure, operate, and audit their own control environment.
 
 ### How does Hermes handle data residency requirements?
 
-Hermes supports per-region deployment with separate instances for US, EU, and APAC. Data residency verification skills monitor that regulated data stays within regional boundaries. Global aggregations avoid PII movement.
+Hermes supports separate regional instances for US, EU, and APAC deployments. Organizations must still validate storage, network, model-provider, and aggregation paths against their residency requirements; a regional instance alone is not a residency guarantee.
 
 ### What secrets management does Hermes support?
 

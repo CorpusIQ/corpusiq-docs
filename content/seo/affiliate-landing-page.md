@@ -21,7 +21,7 @@ CorpusIQ connects 37+ business data sources to AI assistants. Operators connect 
 
 The tagline: "Stop building reports. Just ask your AI."
 
-It takes 5 minutes to set up. Read-only. CASA Tier 2 + SOC 2.
+It takes 5 minutes to set up. Read-only. CASA Tier 2 certified and SOC 2 aligned.
 
 ## Who should apply
 

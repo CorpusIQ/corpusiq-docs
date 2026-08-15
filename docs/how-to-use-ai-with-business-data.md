@@ -161,7 +161,7 @@ RECOMMENDED ACTIONS:
 | Data connectivity | 40+ MCP connectors, 2-min OAuth setup |
 | AI interface | Any MCP-compatible assistant (ChatGPT, Claude, custom) |
 | Query execution | Parallel API calls across sources |
-| Security | OAuth, read-only, no data storage |
+| Security | Read-only direct MCP live retrieval; raw customer files and full connector response payloads are not retained; operational logs are retained for up to 30 days |
 | Scalability | Add sources and users incrementally |
 
 ## FAQ

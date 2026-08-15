@@ -1,4 +1,4 @@
-# Your AI Should Read Your Data — Not Store It
+# How CorpusIQ Scopes Data Retention
 
 ## The Security Question Every Business Owner Should Ask
 
@@ -16,9 +16,9 @@ CorpusIQ's security model is fundamentally different:
 
 **Read-Only Access** — Every connector uses OAuth with read-only scopes. CorpusIQ can fetch your data to answer a question, but it can never modify, delete, or write anything back.
 
-**Zero File Storage** — CorpusIQ doesn't store your files, emails, spreadsheets, or reports. Data is read live when you ask a question, and discarded after the answer is returned.
+**Scoped Retention** — Direct MCP does not retain raw customer files or full connector response payloads. Scoped operational logs may be retained for up to 30 days.
 
-**No Model Training** — Your business data is never used to train AI models. Period.
+**No CorpusIQ Model Training** — CorpusIQ does not use customer data to train models; the policy of the AI client and plan you choose applies to its conversation.
 
 **Audit-Ready** — Every answer cites its sources. You can trace any number back to the exact Gmail message, QuickBooks entry, or Shopify order it came from.
 
@@ -28,7 +28,7 @@ CorpusIQ's security model is fundamentally different:
 
 You wouldn't hand your accountant the keys to edit your bank account. Don't give your AI write access to your business either.
 
-CorpusIQ: Read. Answer. Discard. Nothing stored.
+CorpusIQ: live retrieval, cited answers, scoped retention.
 
 🔗 https://corpusiq.io
 🔒 Security details: https://corpusiq.io/security

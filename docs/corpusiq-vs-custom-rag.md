@@ -45,7 +45,7 @@ A production-grade custom RAG system requires:
 
 1. **Pre-built MCP connectors:** 40+ data sources with OAuth authentication. Connect in one click.
 
-2. **No ETL:** Queries run against live APIs. No data movement, no pipeline maintenance.
+2. **No ETL warehouse:** Queries run against live APIs without building a replicated raw-data pipeline. Scoped operational logs follow the published retention schedule.
 
 3. **No chunking/embedding needed:** CorpusIQ doesn't use vector search for structured data. It makes typed API calls that return exact, structured results.
 
@@ -131,7 +131,7 @@ A: For structured business data queries, CorpusIQ's exact API calls are more acc
 A: CorpusIQ queries live APIs  --  data is always current. Custom RAG requires re-indexing to stay fresh, which adds cost and complexity.
 
 **Q: What about data privacy?**  
-A: CorpusIQ never stores your data. Custom RAG systems often copy data to vector stores, creating additional privacy and compliance considerations.
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **Q: Can I extend CorpusIQ with custom logic?**  
 A: CorpusIQ is a managed platform. For custom logic, you can combine CorpusIQ (for data access) with a framework like LangChain (for custom application logic).

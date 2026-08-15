@@ -102,7 +102,7 @@ No SuiteScript. No saved searches to build. No CSV exports to analyze in Excel.
 
 **Reduced SuiteScript dependency.** Every ad-hoc data question that would normally require a custom SuiteScript becomes a ChatGPT conversation. Free your NetSuite developers for higher-value work.
 
-**Enterprise governance.** Read-only by role design. No data duplication. Full audit trail. Your NetSuite data stays in NetSuite  --  the MCP layer provides governed, ephemeral access.
+**Enterprise governance.** Read-only by role design with an audit trail. Direct MCP avoids a raw-file/full-payload warehouse; scoped operational logs may persist for up to 30 days.
 
 ## Use Cases
 
@@ -132,11 +132,11 @@ The NetSuite integration's security model is enforced by NetSuite's own permissi
 
 - **Token-Based Authentication (TBA).** Industry-standard NetSuite API authentication. No passwords, no session cookies.
 - **Role-Based Permissions.** The NetSuite role assigned to the integration determines exactly which records and fields are accessible. Create a read-only role and grant only the record types you need.
-- **No Data Persistence.** CorpusIQ does not store your NetSuite data. Queries execute live against your NetSuite instance.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **TLS 1.3 Encryption.** All data in transit is encrypted.
 - **Audit Trail.** NetSuite's built-in audit trail logs all API access, providing visibility into exactly what data was queried and when.
 
-For enterprises with strict compliance requirements (SOX, GDPR, SOC 2), this architecture means your ERP data stays within your NetSuite instance. The MCP layer provides governed, read-only, auditable access.
+For enterprises with strict compliance requirements, NetSuite remains the authoritative source. CorpusIQ retrieves permitted ERP records through direct MCP; the retention classes and lifecycles described above still apply.
 
 ## Comparison: MCP vs. SuiteScript Development
 

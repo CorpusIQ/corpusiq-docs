@@ -26,4 +26,4 @@ Every answer: live data from the source system. Complete audit trail. Nothing mo
 
 ---
 
-*CorpusIQ: 37+ connectors. Read-only. SOC 2 + CASA Tier 2. Audit-ready. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 37+ connectors. Read-only. SOC 2 aligned and CASA Tier 2 certified. Audit-ready. [corpusiq.io](https://www.corpusiq.io)*

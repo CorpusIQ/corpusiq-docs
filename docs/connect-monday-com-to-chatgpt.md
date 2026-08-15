@@ -130,10 +130,10 @@ The Monday.com integration is read-only at every layer:
 
 - **OAuth 2.0** with read-only scopes. No write, create, update, or delete permissions.
 - **Permission-Respecting.** ChatGPT can only see boards and items that the authenticated user has access to in Monday.com.
-- **No Data Persistence.** Board data is queried live and discarded after the response.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **TLS 1.3 Encryption.** All data in transit is encrypted.
 
-For organizations with sensitive project data, this architecture means your Monday.com data stays in Monday.com. The MCP layer provides ephemeral, governed, read-only access.
+For organizations with sensitive project data, Monday.com remains the authoritative source. CorpusIQ retrieves permitted project data through direct MCP; the retention classes and lifecycles described above still apply.
 
 ## Comparison: MCP vs. Direct Monday.com API Integration
 

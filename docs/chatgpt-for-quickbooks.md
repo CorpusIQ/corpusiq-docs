@@ -80,7 +80,7 @@ A procurement manager asks: "Who are our top 10 vendors by total spend this fisc
 ## Frequently Asked Questions
 
 ### Is my QuickBooks data secure when using ChatGPT?
-Yes. CorpusIQ uses OAuth 2.0 authentication with read-only access to your QuickBooks data. The platform never stores your financial records  --  data is retrieved on-demand and passed directly to ChatGPT within your secure session. All connections are encrypted with TLS 1.3.
+Yes. CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ### Does ChatGPT modify anything in my QuickBooks?
 No. CorpusIQ configures a read-only connection to QuickBooks. ChatGPT can query and analyze your data but cannot create, update, or delete any records, invoices, payments, or accounts. Your books remain fully under your control.

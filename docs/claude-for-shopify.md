@@ -89,7 +89,7 @@ Claude's 200K token context can hold approximately 150,000 words  --  equivalent
 Yes. Claude's outputs include methodology descriptions, data source citations, and confidence qualifiers. You can trace every finding back to the underlying Shopify data and the analytical steps Claude applied. This transparency is valuable for board presentations, investor reporting, and internal decision documentation.
 
 ### How does Claude handle data privacy?
-Claude is developed by Anthropic with strong data privacy commitments. Combined with CorpusIQ's read-only Shopify connection and encrypted transport, your store data is protected. Anthropic does not train Claude on user data by default. Enterprise customers can negotiate additional data processing terms.
+CorpusIQ uses a read-only Shopify connection and encrypted transport. Data handling inside Claude follows the terms and settings of the Anthropic plan you choose; review Anthropic's current policy before sending sensitive store data.
 
 ### Can Claude make changes to my Shopify store?
 No. The Shopify connection through CorpusIQ is read-only. Claude can analyze data and make strategic recommendations, but it cannot execute changes in your Shopify admin  --  no product modifications, order changes, or setting adjustments. Human implementation is always required.

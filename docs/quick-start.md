@@ -9,7 +9,7 @@ robots: "index,follow"
 ---
 # How to Connect Your Business Data to ChatGPT in Under 5 Minutes
 
-Get your first CorpusIQ query running in under five minutes. Connect QuickBooks, Shopify, Stripe, or HubSpot via OAuth, ask a plain-English question, and get a source-cited answer from your live data. Read-only. Zero data stored.
+Get your first CorpusIQ query running in under five minutes. Connect QuickBooks, Shopify, Stripe, or HubSpot via OAuth, ask a plain-English question, and get a source-cited answer from live data. Direct MCP retrieval is read-only and does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.
 
 ## Prerequisites
 

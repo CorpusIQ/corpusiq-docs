@@ -28,9 +28,9 @@ Vector DBs can't handle:
 
 ## How MCP is different
 
-MCP queries source tools directly. No indexing. No embeddings. No staleness.
+Direct MCP queries source tools without building embeddings or file indexes; optional indexed search is a separate mode with its own embeddings and minimal-metadata lifecycle.
 
-When you ask "what's our MRR?" the AI queries Stripe live. When you ask "how does that compare to the P&L?" it queries QuickBooks simultaneously. The data is always current because it's never stored — it's queried on demand.
+When you ask "what's our MRR?" the AI queries Stripe live. When you ask "how does that compare to the P&L?" it queries QuickBooks simultaneously. Direct MCP queries the source on demand, so answers use current records without retaining raw customer files or full connector response payloads. Scoped operational logs may be retained for up to 30 days.
 
 ## When to use each
 
@@ -48,4 +48,4 @@ Many companies use both. Vector DB for company wiki and docs. MCP for live busin
 
 ---
 
-*CorpusIQ: Live business data for AI assistants. No embeddings. No indexing. Just live answers. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Live direct-MCP answers, plus optional indexed search with a documented lifecycle. [corpusiq.io](https://www.corpusiq.io)*

@@ -38,7 +38,7 @@ Every query is:
 1. Authenticated independently
 2. Executed against live QuickBooks data
 3. Returned with source citations
-4. Discarded after the response — nothing is stored
+4. Returned without retaining raw customer files or the full connector response; scoped operational logs may persist for up to 30 days
 
 ## Why Read-Only Matters
 

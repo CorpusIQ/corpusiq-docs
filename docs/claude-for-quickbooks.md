@@ -85,7 +85,7 @@ Claude excels at deep, multi-report analysis that requires sustained reasoning a
 The context window is how much information the AI can "hold in mind" at once. Claude's 200K tokens (roughly 150,000 words or 500 pages) means it can process an entire year of detailed financial reports simultaneously without losing track of earlier data  --  essential for cross-period analysis.
 
 ### Is Claude safe to use with sensitive financial data?
-Yes. Claude is developed by Anthropic with a strong emphasis on safety and data privacy. Combined with CorpusIQ's read-only QuickBooks connection and encrypted data transport, your financial data is protected at every layer. Claude does not train on your data.
+CorpusIQ uses a read-only QuickBooks connection and encrypted transport. Data handling inside Claude follows the terms and settings of the Anthropic plan you choose; review Anthropic's current policy before sending sensitive financial data.
 
 ### Can Claude create QuickBooks journal entries?
 No. Like all CorpusIQ AI integrations, the QuickBooks connection is read-only. Claude can identify needed adjustments and draft journal entry recommendations, but a human must approve and enter them into QuickBooks. This separation of analysis from execution is a deliberate safety feature.

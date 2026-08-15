@@ -47,8 +47,9 @@ skills, and writes the answer in your chat. You can ask follow-ups.
 It's not a dashboard. There's no UI to click around in. You ask
 questions; you get answers.
 
-It's not a data warehouse. CorpusIQ doesn't copy your data into a giant
-database. It queries your tools live when you ask.
+It's not a replicated source-data warehouse. CorpusIQ queries your tools live
+when you ask, does not retain raw customer files or full connector response
+payloads, and keeps operational logs under the published retention schedule.
 
 It's not a replacement for your SaaS tools. Shopify is still the source
 of truth for orders. QuickBooks is still the source of truth for books.

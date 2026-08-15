@@ -131,11 +131,11 @@ The Outlook integration's security is enforced by Microsoft's permission framewo
 - **Microsoft Graph OAuth 2.0** with Mail.Read delegated permission. This permission explicitly excludes send, delete, move, or modify capabilities.
 - **Azure AD / Entra ID Integration.** Authentication flows through your Microsoft 365 identity provider. Conditional access policies, MFA, and device compliance policies apply.
 - **Permission Model Respect.** ChatGPT can only access mailboxes and folders the authenticated user has permission to access. Shared mailboxes, delegated mailboxes, and folder-level permissions are honored.
-- **No Data Persistence.** Email content is queried live from Exchange Online and discarded after the response. CorpusIQ does not store, cache, or retain emails.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **TLS 1.3 Encryption.** All data in transit is encrypted.
 - **Admin Revocation.** Microsoft 365 admins can revoke the application consent at any time from the Azure AD / Entra ID admin center.
 
-For enterprises in regulated industries with strict email governance requirements, this architecture ensures email data stays within your Microsoft 365 tenant. The MCP layer provides governed, permission-respecting, ephemeral access.
+For enterprises with strict email-governance requirements, Microsoft 365 remains the authoritative source. CorpusIQ retrieves permitted Outlook content through direct MCP; the retention classes and lifecycles described above still apply.
 
 ## Comparison: MCP vs. Outlook Built-in Search
 

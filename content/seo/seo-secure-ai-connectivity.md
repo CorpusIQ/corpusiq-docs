@@ -14,13 +14,13 @@ This isn't a setting you can accidentally change. It's architectural. The OAuth 
 
 **OAuth-native authentication:** No API keys to manage, rotate, or leak. Each user authenticates via their own OAuth flow. Revoke access instantly from your Google/QuickBooks/admin console.
 
-**No data storage:** Data flows directly from the source tool into the AI's context window. It's not stored, cached, or used for training. When the response is generated, the data is gone.
+**Scoped retention:** Direct MCP does not retain raw customer files or full connector response payloads; operational logs may persist for up to 30 days.
 
-**No third-party processors:** The MCP server runs as a direct bridge between your tools and your AI assistant. There's no intermediary server processing or storing your data.
+**Disclosed processors:** CorpusIQ runs on Microsoft Azure and uses the selected AI client to answer the request. Each provider's published data policy applies to its part of the flow.
 
 **CASA Tier 2 certified:** Independent security certification verifying read-only access controls, OAuth security, and data handling practices.
 
-**SOC 2 compliant:** Enterprise-grade security posture for companies that need it.
+**SOC 2 aligned:** Security controls mapped to the framework; formal SOC 2 Type II certification is not claimed.
 
 ## The questions to ask any AI data platform
 
@@ -35,7 +35,7 @@ This isn't a setting you can accidentally change. It's architectural. The OAuth 
 
 ## The bottom line
 
-Connecting business data to AI doesn't have to be scary. Read-only design, OAuth-native auth, no data storage, and independent certification make it safer than giving an intern a CSV export.
+Connecting business data to AI doesn't have to be scary. Read-only design, OAuth-native auth, scoped retention, and independent certification make it safer than giving an intern a CSV export.
 
 ---
 

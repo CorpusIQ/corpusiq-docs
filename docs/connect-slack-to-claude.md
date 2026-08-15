@@ -93,7 +93,7 @@ Claude can search across public channels and private channels it has been added 
 
 - **Read-only OAuth.** Claude can search and read messages but can never send messages, create channels, or modify workspace settings.
 - **No direct message access.** Claude can only search public channels and private channels it has been explicitly invited to.
-- **No data storage.** Messages are never persisted on CorpusIQ servers.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Workspace admin control.** Slack workspace admins can revoke access at any time.
 
 ## Comparison: MCP vs. Slack API Direct

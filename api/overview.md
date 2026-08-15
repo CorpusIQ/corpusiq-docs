@@ -28,7 +28,7 @@ For programmatic access, see the sections below:
 - [Authentication](authentication.md) — API keys and OAuth
 - [Endpoints](endpoints.md) — Available API endpoints
 - [Schemas](schemas.md) — Data models and types
-- [Webhooks](webhooks.md) — Event subscriptions
+- [Webhooks](webhooks.md) — Current webhook-contract availability
 - [Rate Limits](rate-limits.md) — Usage limits and throttling
 - [Errors](errors.md) — Error codes and handling
 - [OpenAPI](openapi.md) — OpenAPI specification

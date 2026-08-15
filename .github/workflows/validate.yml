@@ -45,3 +45,8 @@ jobs:
 
       - name: Validate frontmatter
         run: python scripts/validate_frontmatter.py
+
+      - name: Reject blanket data-retention claims
+        run: |
+          python scripts/validate_retention_claims.py
+          python -m unittest scripts/test_validate_retention_claims.py

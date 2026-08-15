@@ -17,7 +17,7 @@ Every morning, you open 7 tabs. Shopify. QuickBooks. Google Analytics. Meta Ads.
 
 ## Read-Only OAuth Security
 
-Every connector uses read-only OAuth. Zero file storage. No model training. CASA Tier 2 certified.
+Every connector uses read-only OAuth. Direct MCP does not retain raw customer files or full connector response payloads. CorpusIQ does not use customer data to train models; conversation handling follows the selected AI provider's plan and settings. CASA Tier 2 certified by DEKRA.
 
 ## Real Questions
 

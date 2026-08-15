@@ -46,7 +46,7 @@ CorpusIQ is purpose-built for AI data connectivity. Its MCP-native architecture 
 - **AI-optimized responses:** Each connector returns typed, structured JSON designed for LLM consumption
 - **Real-time queries:** Live API calls on every request  --  no stale batch data
 - **Cross-source analysis:** One question can query CRM + accounting + analytics + ads simultaneously
-- **Zero data storage:** Ephemeral access  --  data never persists in CorpusIQ
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **Best for:** Organizations wanting instant AI access to business data across multiple systems.
 
@@ -139,7 +139,7 @@ A: Yes. Many organizations use CorpusIQ for AI queries alongside Fivetran/Airbyt
 A: Not with CorpusIQ. It queries live APIs directly. Data warehouses are still useful for formal BI and historical analysis.
 
 **Q: How secure are AI data connectors?**  
-A: CorpusIQ is read-only, uses OAuth, and never stores data. Always verify the security posture of any connector you use.
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **Q: What's the difference between an AI data connector and an ETL tool?**  
 A: ETL tools move data to warehouses. AI data connectors make data queryable by AI in real time, without movement.

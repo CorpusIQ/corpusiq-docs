@@ -114,13 +114,13 @@ CorpusIQ handles everything between ChatGPT and your data sources:
 2. **Tool Discovery:** MCP protocol implementation so ChatGPT knows what data is available
 3. **Query Execution:** Translating AI tool calls into API requests
 4. **Data Formatting:** Structuring API responses for AI consumption
-5. **Security:** Read-only access, no data storage, inherits source permissions
+5. **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 6. **Rate Limiting:** Managing API quotas and retries transparently
 
 ## FAQ
 
 **Q: Is my data secure when connecting to ChatGPT?**  
-A: CorpusIQ never stores your data. Queries run against live APIs with read-only access. You control which data sources are connected and can revoke access at any time.
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **Q: Do I need ChatGPT Plus or Enterprise?**  
 A: MCP support is available on ChatGPT Plus, Team, and Enterprise plans. The free tier of ChatGPT has limited MCP capabilities.

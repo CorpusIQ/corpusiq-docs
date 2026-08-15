@@ -62,7 +62,7 @@ Ask "What's our deal pipeline look like?" and get a breakdown of deal stages, va
 HubSpot is just one of 40+ connectors in CorpusIQ. Combine CRM data with QuickBooks financials, Google Analytics traffic, Stripe payments, or Slack activity for unified business intelligence.
 
 ### 4. Enterprise Security
-Data stays in your HubSpot instance. CorpusIQ never stores, caches, or copies your CRM data. Every query runs against the live API with your existing HubSpot permissions.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ## Benefits
 
@@ -74,7 +74,7 @@ Data stays in your HubSpot instance. CorpusIQ never stores, caches, or copies yo
 | **Real-Time Accuracy** | Every answer reflects the current state of your CRM, not last night's batch sync |
 | **No SQL Required** | Business users ask questions in plain English; the AI translates to API calls |
 | **Cross-Platform** | Combine HubSpot with 50+ other data sources for holistic business answers |
-| **Secure by Design** | Read-only access, no data storage, inherits HubSpot's native permission model |
+| **Secure by Design** | Read-only direct MCP live retrieval; raw customer files and full connector response payloads are not retained; operational logs are retained for up to 30 days |
 
 ## Use Cases
 
@@ -113,7 +113,7 @@ CorpusIQ sits between your AI and HubSpot as a **protocol translation layer**. T
 ## FAQ
 
 **Q: Is my HubSpot data secure with CorpusIQ?**  
-A: Yes. CorpusIQ uses OAuth 2.0 for authentication and never stores your CRM data. Every query runs against the live HubSpot API with read-only access. You can revoke access at any time from your HubSpot account.
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **Q: Does this work with the free version of HubSpot?**  
 A: Yes. CorpusIQ's HubSpot connector works with all HubSpot plans  --  free, starter, professional, and enterprise. The available data depends on your plan's API access, not CorpusIQ.

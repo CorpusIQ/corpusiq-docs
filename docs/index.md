@@ -9,7 +9,7 @@ robots: "index,follow"
 ---
 # CorpusIQ — Connect Your Business Data to ChatGPT, Claude, and Perplexity
 
-**CorpusIQ gives every AI the same verified answer.** Connect QuickBooks, Shopify, Stripe, HubSpot, GA4, and 35+ more business tools through one MCP endpoint. Read-only OAuth. Source-cited answers. Zero customer data stored. Ask a plain-English question inside ChatGPT, Claude, or Perplexity and get a single answer with citations tracing every number back to its origin. No dashboards. No CSV exports. No switching tabs. Available in the Claude connector directory for one-click install.
+**CorpusIQ gives every AI the same verified answer.** Connect QuickBooks, Shopify, Stripe, HubSpot, GA4, and 35+ more business tools through one MCP endpoint. Read-only OAuth. Source-cited answers. No raw customer files or full connector response payloads retained. Ask a plain-English question inside ChatGPT, Claude, or Perplexity and get a single answer with citations tracing every number back to its origin. No dashboards. No CSV exports. No switching tabs. In Claude, add CorpusIQ through the custom connector flow using the public MCP endpoint.
 
 ## Quick Links
 
@@ -26,7 +26,7 @@ robots: "index,follow"
 ## Frequently Asked Questions
 
 **Q: What is CorpusIQ?**  
-A: CorpusIQ is a private AI acceleration layer that connects 40+ business tools (HubSpot, QuickBooks, Stripe, Shopify, GA4, Slack, and more) to ChatGPT, Claude, and AI agents via the Model Context Protocol (MCP). It enables real-time, natural-language queries across your entire data stack without moving or storing your data.
+A: CorpusIQ is a private AI acceleration layer that connects 40+ business tools (HubSpot, QuickBooks, Stripe, Shopify, GA4, Slack, and more) to ChatGPT, Claude, and AI agents via the Model Context Protocol (MCP). It enables real-time, natural-language queries across your data stack without storing raw customer files or full connector response payloads.
 
 **Q: How does CorpusIQ connect my business data to AI?**  
 A: CorpusIQ uses MCP (Model Context Protocol)  --  an open standard that lets AI assistants discover and use external tools. Connect your data sources via OAuth, and the AI can query them live through CorpusIQ's MCP endpoint with read-only access.
@@ -35,7 +35,7 @@ A: CorpusIQ uses MCP (Model Context Protocol)  --  an open standard that lets AI
 A: CorpusIQ supports 40+ business tools including HubSpot, Salesforce, QuickBooks, Stripe, Shopify, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, Notion, PostgreSQL, MSSQL, MongoDB, and more  --  see the full connectors directory.
 
 **Q: Is my data secure with CorpusIQ?**  
-A: Yes. CorpusIQ is read-only by default, never stores your business data, uses TLS 1.3 encryption, and is SOC 2 compliant. All data source connections use OAuth with minimum required scopes.
+A: Yes. CorpusIQ is read-only by default, does not retain raw customer files or full connector response payloads, uses TLS 1.3 encryption, and is SOC 2 aligned. Operational query and audit logs are retained for up to 30 days. All data source connections use OAuth with minimum required scopes.
 
 **Q: How quickly can I start using CorpusIQ?**  
 A: Sign up at corpusiq.io, connect your first data source via OAuth (60 seconds), and start asking natural-language questions. Full setup takes under 5 minutes. See the Quick Start guide for step-by-step instructions.

@@ -142,7 +142,7 @@ Hermes can search legal databases for relevant cases, summarize holdings, and ru
 
 ### How does Hermes protect attorney-client privilege?
 
-Hermes enforces matter-level isolation, never retains client confidences in persistent model context, and supports separate profiles per matter or practice area. Privilege review skills surface likely privileged documents but never make privilege determinations.
+Hermes supports matter-level isolation and separate profiles per matter or practice area. Firms must configure approved retention for operational logs and optional indexes and evaluate the selected AI-provider plan before processing client confidences. Privilege review skills surface likely privileged documents but never make privilege determinations.
 
 ### Can Hermes calculate court deadlines automatically?
 

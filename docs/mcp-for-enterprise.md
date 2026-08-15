@@ -22,7 +22,7 @@ CorpusIQ's enterprise deployment model is built for organizations with thousands
 
 **Horizontal scaling.** As query volume grows, additional MCP server instances are added automatically. The stateless architecture means scaling is purely a matter of adding compute  --  no data migration, no schema changes, no downtime.
 
-**Global deployment.** For multinational enterprises, CorpusIQ can deploy in multiple geographic regions, keeping data processing within regional boundaries and reducing query latency for global teams.
+**Regional deployment planning.** Enterprise customers can request a deployment region. Storage, network paths, source-provider processing, the selected AI client, logs, and backups must be validated together before making a residency commitment.
 
 ## Single Sign-On and Identity Management
 
@@ -54,17 +54,17 @@ Large organizations don't have one set of data  --  they have many, each owned b
 
 Enterprise compliance requirements are non-negotiable. CorpusIQ supports:
 
-**SOC 2 Type II.** CorpusIQ maintains SOC 2 Type II certification covering security, availability, and confidentiality criteria. Enterprise customers receive access to the latest audit report.
+**SOC 2 posture.** CorpusIQ maintains a SOC 2 aligned security posture; formal SOC 2 Type II certification is not claimed.
 
 **Comprehensive audit logging.** Every tool call is logged with full context: who made the query, which data source was accessed, what parameters were used, when it happened, and what the result was. Audit logs are immutable and retained according to the customer's compliance requirements.
 
 **Audit log export.** Export audit logs to your SIEM (Splunk, Sumo Logic, Datadog) or compliance management platform for integration with existing monitoring and alerting infrastructure.
 
-**Data residency.** For enterprises with data sovereignty requirements, CorpusIQ can deploy in specific geographic regions and ensure that query processing stays within those boundaries.
+**Data residency.** Region-specific deployment options can support an enterprise residency design. Customers must still validate CorpusIQ storage, network paths, selected AI-provider processing, backups, and operational controls against their requirements; a deployment region alone is not a residency guarantee.
 
 **Custom data retention policies.** Configure how long audit logs and metadata are retained according to your internal policies and regulatory requirements.
 
-**GDPR compliance.** CorpusIQ's stateless architecture  --  no persistent business data storage  --  simplifies GDPR compliance. Data processing is limited to the duration of each query.
+**GDPR compliance.** Direct MCP does not retain raw customer files or full connector response payloads. Operational query logs are retained for up to 30 days, while optional indexed search and compliance records have separate lifecycles. This scoped model supports data minimization without pretending the service retains nothing.
 
 ## Integration with Enterprise Architecture
 
@@ -113,7 +113,7 @@ Yes. CorpusIQ supports SAML 2.0 and OpenID Connect, integrating with Okta, Azure
 <details>
 <summary><strong>How do you handle data from different regions for global enterprises?</strong></summary>
 
-CorpusIQ can deploy in multiple geographic regions with data processing staying within regional boundaries. Queries against platforms in a specific region are processed by infrastructure in that region.
+Enterprise customers can request a deployment region, subject to validation of the complete processing path: storage, network transit, source-provider processing, the selected AI client, logs, and backups. Contact sales@corpusiq.io for a customer-specific assessment.
 </details>
 
 <details>

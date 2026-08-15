@@ -23,6 +23,6 @@
       "statusCode": 301
     }
   ],
-  "buildCommand": "python3 -m mkdocs build --clean && python3 scripts/inject_structured_data.py",
+  "buildCommand": "python3 scripts/validate_frontmatter.py && python3 -m unittest scripts/test_validate_retention_claims.py && python3 scripts/generate_llms_txt.py && git diff --exit-code -- llms.txt llms-full.txt && python3 scripts/validate_retention_claims.py && python3 -m mkdocs build --clean && python3 scripts/inject_structured_data.py",
   "installCommand": "pip install -r requirements.txt"
 }

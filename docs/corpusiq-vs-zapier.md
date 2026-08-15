@@ -43,7 +43,7 @@ CorpusIQ and Zapier both connect business tools  --  but they do so in fundament
 | **Setup Time** | Under 2 minutes | 5-30 minutes per Zap |
 | **Real-Time Queries** | Yes  --  live, on-demand | No  --  event-triggered only |
 | **Cross-Source Analysis** | Multi-source queries in one prompt | Sequential Zaps with delays |
-| **Data Storage** | None  --  queries run live | May store data in Zapier Tables |
+| **Data Storage** | No replicated source-data warehouse; scoped operational logs up to 30 days | May store data in Zapier Tables |
 | **Pricing Model** | Per-seat subscription | Per-task / per-Zap |
 
 ## How CorpusIQ Works
@@ -63,8 +63,8 @@ Zapier excels at automation: moving data between apps, triggering notifications,
 ### 1. AI-Native Architecture
 CorpusIQ is built from the ground up for AI. Every connector is an MCP tool designed to be discovered, described, and invoked by language models. The AI understands what data is available, how to query it, and how to present results  --  without custom configuration.
 
-### 2. Zero Data Movement
-CorpusIQ queries your data where it lives. No copying to a data warehouse. No synchronization lag. No duplicate data to manage. This is critical for compliance, security, and data freshness.
+### 2. No ETL Warehouse
+CorpusIQ queries source APIs on demand rather than maintaining a replicated business-data warehouse. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational retention applies.
 
 ### 3. Natural Language Interface
 Ask "What were our top 5 customers by revenue last month?" and get an answer that draws from QuickBooks, Stripe, or your database  --  whichever source you've connected. No building reports, no writing SQL, no setting up dashboards.

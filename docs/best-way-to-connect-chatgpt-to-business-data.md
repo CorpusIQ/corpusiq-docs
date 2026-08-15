@@ -49,7 +49,7 @@ CorpusIQ uses the Model Context Protocol (MCP) to create a live bridge between C
 - **Real-time data:** Queries live APIs  --  no exports, no uploads
 - **40+ sources:** CRM, accounting, analytics, payments, email, and more
 - **Cross-source queries:** "Compare HubSpot pipeline to QuickBooks revenue"
-- **Enterprise security:** Read-only, OAuth, no data storage
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Zero maintenance:** Fully managed platform
 
 **Limitations:** Requires ChatGPT plan with MCP support (Plus, Team, Enterprise).
@@ -152,7 +152,7 @@ A: For one-off questions, it works. For ongoing business intelligence, it's inef
 A: CorpusIQ works with any MCP-compatible AI assistant, including Claude, not just ChatGPT.
 
 **Q: How secure is the MCP connection?**  
-A: CorpusIQ uses OAuth 2.0, read-only access, and never stores your data. It's more secure than exporting data to CSV files.
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **Q: Can I connect multiple ChatGPT accounts to the same data?**  
 A: Each user should have their own CorpusIQ account connected to their own data sources, ensuring proper permission inheritance.

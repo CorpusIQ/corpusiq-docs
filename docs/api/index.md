@@ -24,7 +24,7 @@ Full REST API documentation for programmatic access to CorpusIQ. Authenticate wi
 | [Error Codes](errors.md) | HTTP status codes, error types, troubleshooting guidance |
 | [OpenAPI Spec](openapi.md) | OpenAPI 3.0.3 specification for Postman, Insomnia, and Swagger UI |
 | [Schemas](schemas.md) | Data models, JSON structures for requests and responses |
-| [Webhooks](webhooks.md) | Event notifications, HMAC-SHA256 signature verification, retry with exponential backoff |
+| [Webhooks](webhooks.md) | Current webhook-contract availability |
 
 ## Base URL
 
@@ -51,9 +51,6 @@ POST /query
 
 # Deep search across encrypted archives
 POST /deep_search
-
-# Delete your data and account
-DELETE /delete_my_data
 ```
 
 Full endpoint documentation with request/response examples: [Endpoints](endpoints.md)

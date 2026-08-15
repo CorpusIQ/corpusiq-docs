@@ -182,7 +182,7 @@ A: For most business analysis tasks  --  trends, comparisons, segmentation, anom
 A: ChatGPT queries live data through CorpusIQ  --  the numbers are exact. The interpretation (identifying problems, suggesting actions) is AI-generated and should be reviewed.
 
 **Q: Can it handle sensitive financial data?**  
-A: Yes. CorpusIQ queries are read-only and never store data. ChatGPT processes the data in-memory during your session.
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 **Q: What's the difference between this and uploading a CSV to ChatGPT?**  
 A: CSV uploads are static  --  the data is already old. CorpusIQ provides live data that reflects your current business state. No exports, no uploads.

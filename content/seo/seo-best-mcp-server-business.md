@@ -12,7 +12,7 @@ You need to connect business data to AI. Multiple MCP servers exist. Here's how 
 
 **Setup time:** OAuth-based, 30 seconds per tool. No API keys to manage.
 
-**Data handling:** Data flows directly from source to AI response. No storage. No training. Gone after the response.
+**Data handling:** Direct MCP does not retain raw customer files or full connector response payloads. Scoped operational logs may persist for up to 30 days, and the selected AI client's policy applies to its conversation.
 
 ## The comparison
 

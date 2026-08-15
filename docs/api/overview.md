@@ -25,7 +25,6 @@ All endpoint paths are relative to this base. The API version (`v1`) is part of 
 |--------|------|-------------|
 | `POST` | `/query` | Search across all connected data sources |
 | `POST` | `/deep_search` | Search the encrypted archive of past queries and results |
-| `DELETE` | `/delete_my_data` | Permanently delete all user data and tokens |
 
 ### POST /query
 
@@ -38,17 +37,6 @@ Each `/query` request generates a unique `query_id` that can be used for idempot
 Searches the encrypted archive of previously executed queries and their results. This endpoint is useful for retrieving historical answers, auditing past queries, and discovering patterns across previous searches. The archive is encrypted at rest and indexed by embedding vectors.
 
 Unlike `/query`, this endpoint does not make live calls to connected tools  --  it searches only the archive.
-
-### DELETE /delete_my_data
-
-Permanently deletes all data associated with the authenticated user, including:
-
-- All OAuth tokens for connected services
-- Query history and encrypted archive entries
-- User profile and configuration
-- Webhook registrations
-
-This action is irreversible. A confirmation prompt is returned before deletion is executed.
 
 ## Response Format
 
@@ -77,8 +65,8 @@ A: All CorpusIQ API endpoints are accessed at https://mcp2.corpusiq.io/mcp. The 
 **Q: How do I authenticate with the CorpusIQ API?**  
 A: Authentication uses Bearer tokens passed in the Authorization header. Tokens are generated from the CorpusIQ Dashboard and expire after 60 minutes with server-side refresh detection.
 
-**Q: What endpoints does the CorpusIQ API offer?**  
-A: The API offers POST /query for searching connected data sources, POST /deep_search for searching the encrypted query archive, and DELETE /delete_my_data for permanent data deletion.
+**Q: What endpoints does the CorpusIQ API offer?**
+A: The API offers POST /query for connected-source search and POST /deep_search for the encrypted query archive.
 
 **Q: What response format does the API use?**  
 A: All successful responses return HTTP 200 with a JSON body. Errors follow a consistent format with 'type' and 'message' fields. See the errors reference for complete error codes.
@@ -95,7 +83,7 @@ A: Most queries return results in 1–5 seconds. Cross-source queries spanning m
 - **[API Authentication Guide](/docs/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
 - **[API Endpoints Reference](/docs/api/endpoints)**  --  Complete request/response schemas and code examples  
 - **[API Rate Limits](/docs/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Event notifications and HMAC signature verification  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Current webhook-contract availability
 - **[Enterprise AI Data Access Guide](/docs/enterprise-ai-data-access)**  --  SSO, SAML, SOC 2, and data residency  
 - **[Secure AI Data Connectivity](/docs/secure-ai-data-connectivity)**  --  Encryption, network security, and compliance  
 

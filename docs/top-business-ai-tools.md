@@ -40,7 +40,7 @@ CorpusIQ connects business data to AI assistants, enabling natural-language busi
 **Why It's #1:**
 - **Instant AI access to business data:** 40+ connectors, 2-min setup each
 - **Cross-source intelligence:** One question queries CRM + accounting + analytics + marketing
-- **No data movement:** Live API queries  --  no ETL, no warehouse
+- **No ETL warehouse:** Live API queries without a replicated raw-file/full-payload store; scoped operational logs apply
 - **Universal AI compatibility:** Works with ChatGPT, Claude, and custom MCP clients
 - **Democratized analytics:** Business users ask questions in natural language
 

@@ -12,15 +12,15 @@ tags: ["hermes agent", "ai agent", "documentation"]
 
 CorpusIQ is a private AI acceleration layer that connects 40+ business tools to ChatGPT, Claude, and Perplexity via the Model Context Protocol (MCP). One question. Cited answers from all your tools.
 
-CorpusIQ acts as a read-only bridge between your SaaS applications and AI assistants, enabling natural-language queries across your entire data stack without moving or persisting your data. Every response includes citations back to the source tool, so you can verify accuracy in one click.
+CorpusIQ acts as a read-only bridge between your SaaS applications and AI assistants. Direct MCP requests retrieve source records live without retaining raw customer files or full connector response payloads. Operational query text, tool-call metadata, and bounded outcome summaries are retained for up to 30 days. Every response includes citations back to the source tool, so you can verify accuracy in one click.
 
 ## Key Capabilities
 
 - **40+ native connectors**  --  Gmail, Google Drive, Slack, HubSpot, Shopify, QuickBooks, PostgreSQL, and more
 - **MCP-native**  --  Designed for AI assistants that speak the Model Context Protocol
 - **Read-only by design**  --  OAuth scopes are restricted to read access; no write permissions are ever requested
-- **Zero data retention**  --  Embeddings are computed per session and deleted immediately after
-- **SOC 2 Ready & CASA Tier 2 Certified**  --  DEKRA-assessed, GDPR aligned, OWASP Top 10 verified
+- **Scoped data handling**  --  Direct MCP uses live retrieval; optional indexed-search features use embeddings and minimal metadata
+- **SOC 2 aligned & CASA Tier 2 certified**  --  formal SOC 2 certification is not claimed; CASA was assessed by DEKRA
 
 ## Quick Links
 
@@ -33,7 +33,7 @@ CorpusIQ acts as a read-only bridge between your SaaS applications and AI assist
 | [Connectors](/docs/connectors) | Complete list of supported integrations |
 | [Security](/docs/security) | Architecture, compliance, and data handling |
 | [Rate Limits](/docs/api/rate-limits) | Per-endpoint rate limits and quotas |
-| [Webhooks](/docs/api/webhooks) | Event subscriptions and signature verification |
+| [Webhooks](/docs/api/webhooks) | Current webhook-contract availability |
 | [OpenAPI Spec](/docs/api/openapi) | Importable OpenAPI 3.0.3 specification |
 | [Changelog](/docs/changelog) | Release history and version notes |
 
@@ -48,7 +48,7 @@ CorpusIQ acts as a read-only bridge between your SaaS applications and AI assist
 └──────────────┘     └──────────────┘     └──────────────────┘
 ```
 
-CorpusIQ never stores your data. It translates AI assistant queries into read-only API calls, retrieves matching information from your connected tools, generates temporary embeddings for semantic ranking, and returns cited results. Once the session ends, all embeddings are purged.
+CorpusIQ translates AI assistant queries into read-only API calls and returns cited results. Direct MCP requests use live retrieval and do not build embeddings or file indexes. Optional indexed-search features use embeddings and minimal metadata in a per-user namespace. Local AUDIT logs record raw query text and tool parameters plus bounded result summaries; the Azure Log Analytics workspace retains those logs for 30 days.
 
 ## Getting Help
 

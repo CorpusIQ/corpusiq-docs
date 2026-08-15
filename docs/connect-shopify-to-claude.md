@@ -35,7 +35,7 @@ CorpusIQ acts as the secure bridge between Claude and Shopify. Here's the archit
 3. **CorpusIQ translates** your natural language question into the appropriate Shopify API calls, executes them with your stored credentials, and returns only the relevant data.
 4. **Claude synthesizes** the response from the returned data, presenting it in natural language with context and recommendations.
 
-All of this happens in seconds. The connection is stateless  --  CorpusIQ never stores your Shopify data, only your encrypted OAuth token. Every query is a fresh API call, so Claude always works with live information.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ### Setup Steps
 
@@ -83,7 +83,7 @@ CorpusIQ uses OAuth 2.0 with read-only scope for the Shopify integration. This m
 - **Claude can read** your orders, products, customers, and analytics.
 - **Claude can never write**  --  it cannot create, update, or delete anything in your Shopify store.
 - **You can revoke access** at any time from Shopify's admin panel or from CorpusIQ's connector management page.
-- **Your data is never stored** by CorpusIQ. Each query is a fresh API call.
+- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Token encryption** ensures your Shopify credentials are protected at rest.
 
 ### Comparison: MCP Integration vs. Direct API
@@ -142,7 +142,7 @@ Yes. The OAuth scope is read-only across orders, products, customers, and analyt
 <details>
 <summary><strong>Is my data stored or used for training?</strong></summary>
 
-No. CorpusIQ never stores your Shopify data. Claude (Anthropic) does not train on customer data submitted through the API. Your business data remains private.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days. Anthropic's data-usage and retention policy applies separately to content submitted to Claude.
 </details>
 
 <details>

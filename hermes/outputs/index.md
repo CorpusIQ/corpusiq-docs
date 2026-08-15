@@ -49,7 +49,7 @@ Each case study covers specific workflows, compliance requirements, and tool int
 | Case Study | What You'll Learn |
 |------------|-------------------|
 | [Compliance & Audit](case-studies/compliance-audit.md) | SOC 2 evidence collection, HIPAA audit trails, GDPR checks, change management monitoring |
-| [Healthcare](case-studies/healthcare.md) | Patient record management, appointment scheduling, insurance verification, HIPAA-compliant workflows |
+| [Healthcare](case-studies/healthcare.md) | Patient record management, scheduling, insurance verification, and HIPAA-control patterns |
 | [Financial Services](case-studies/financial-services.md) | Portfolio monitoring, transaction reconciliation, fraud detection, regulatory filing automation |
 | [Manufacturing](case-studies/manufacturing.md) | Supply chain monitoring, inventory reorder, quality control with SPC rules, IoT sensor integration |
 | [Real Estate](case-studies/real-estate.md) | Multi-platform listing syndication, lead qualification, market analysis, transaction tracking |
