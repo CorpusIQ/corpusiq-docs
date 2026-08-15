@@ -9265,5 +9265,47 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-15T05:05:30.281666+00:00"
+  },
+  {
+    "repo": "minglong51/agent-usage-manager",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T06:04:43.495513+00:00"
+  },
+  {
+    "repo": "back1992/hermes-plugin-ai-company",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T06:04:43.495526+00:00"
+  },
+  {
+    "repo": "SialkiLabs/Suno-Hmnn-MCP",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T06:04:43.495527+00:00"
+  },
+  {
+    "repo": "dexi/hermes-plugin",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T06:04:43.495528+00:00"
+  },
+  {
+    "repo": "sub4biz/gbrain",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T06:04:43.495529+00:00"
+  },
+  {
+    "repo": "timothybrush/gbrain",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-15T06:04:43.495530+00:00"
   }
 ]

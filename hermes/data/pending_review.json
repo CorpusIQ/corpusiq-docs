@@ -37873,5 +37873,201 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-15T05:05:01.297898+00:00",
     "status": "pending"
+  },
+  {
+    "name": "minglong51/agent-usage-manager",
+    "url": "https://github.com/minglong51/agent-usage-manager",
+    "description": "htop for AI agents \u2014 liveness, CPU/RAM/GPU usage, and a kill switch for headless agents (openclaw, hermes, ollama, vllm, claude-code).",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-monitoring",
+      "ai-agents",
+      "claude-code",
+      "gpu",
+      "htop",
+      "llm",
+      "llmops",
+      "localllama",
+      "monitoring",
+      "observability",
+      "ollama",
+      "prometheus",
+      "vllm"
+    ],
+    "updated_at": "2026-08-15T06:02:17Z",
+    "category": "core",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "MervinPraison/PraisonAI",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-08-15T06:02:20.829790+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "back1992/hermes-plugin-ai-company",
+    "url": "https://github.com/back1992/hermes-plugin-ai-company",
+    "description": "AI Company workflow plugin for Hermes Agent \u2014 wave-based sub-agent orchestration",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-15T06:00:24Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "thestark77/cobalt-agent",
+      "kaankacar/stellar-agent-kit"
+    ],
+    "discovered_at": "2026-08-15T06:02:22.835049+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SialkiLabs/Suno-Hmnn-MCP",
+    "url": "https://github.com/SialkiLabs/Suno-Hmnn-MCP",
+    "description": "The ultimate production-grade Suno AI MCP server (v5.5 Pro/v5/v4) v2.0 for Hermes Agent, Antigravity IDE, Cursor, Claude Desktop, and VS Code. Created by Sialki Labs.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "ai-music-generator",
+      "antigravity-ide",
+      "claude-desktop",
+      "cursor-ide",
+      "fastmcp",
+      "hermes-agent",
+      "mcp-server",
+      "model-context-protocol",
+      "music-generation",
+      "open-source",
+      "python-mcp",
+      "stem-separation",
+      "suno-ai",
+      "suno-api",
+      "suno-mcp",
+      "suno-premier",
+      "suno-song-generator",
+      "suno-v4",
+      "wav-exporter"
+    ],
+    "updated_at": "2026-08-15T05:57:58Z",
+    "category": "mcp",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "yoloshii/ClawMem",
+      "KSroido/Kagi-Session2API-MCP",
+      "jnMetaCode/shellward",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "ksimback/hermes-atlas-mcp",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-15T06:02:31.764174+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "dexi/hermes-plugin",
+    "url": "https://github.com/dexi/hermes-plugin",
+    "description": "Dexi memory provider for Hermes Agent \u2014 your notes library as agent memory over Dexi's MCP server (OAuth, no API key)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-15T05:09:47Z",
+    "category": "mcp",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "KSroido/Kagi-Session2API-MCP",
+      "jnMetaCode/shellward",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "yantrikos/yantrikdb-hermes-plugin",
+      "verkyyi/agentfeeds-hermes-plugin",
+      "42-evey/hermes-plugins"
+    ],
+    "discovered_at": "2026-08-15T06:02:33.767157+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sub4biz/gbrain",
+    "url": "https://github.com/sub4biz/gbrain",
+    "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-04T14:52:40Z",
+    "category": "forks",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_month"
+    ],
+    "near_duplicates": [
+      "garrytan/gbrain"
+    ],
+    "discovered_at": "2026-08-15T06:02:49.847680+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "timothybrush/gbrain",
+    "url": "https://github.com/timothybrush/gbrain",
+    "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-15T06:02:22Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "garrytan/gbrain"
+    ],
+    "discovered_at": "2026-08-15T06:02:51.850392+00:00",
+    "status": "pending"
   }
 ]
