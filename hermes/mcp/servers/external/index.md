@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 14, 2026 (midday sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 191 servers (+82 guides)
+> **Last updated:** August 14, 2026 (evening sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 194 servers (+85 guides)
 
 ---
 
@@ -83,6 +83,28 @@ Official MCP server for BlazingCDN — 52 tools for Anycast CDN, cache operation
 **Also identified (not catalogued):** MarkupBase (secure versioned workspace for agent-published artifacts — vendor MCP page is a JS-only shell with no tools, auth, or endpoint published; thin-docs rule). Feed repeats already catalogued this cycle: Vertice, Waldo, Hermoso, Shhots, Cost Seg Smart, HelpDocs, Graspil, OnePostly, Just Domain, Fakto wFirma, BusyMail, KPainter, EM+x, Prose Coach, ROIC.ai, cloro, BanProof, Stoxly, TED Tender Monitor, Citation Check, Customer Intelligence & Segmentation, Viral Outliers, easydocforms, NERAI. Previously skipped repeats: Syncro, LabTestSuperstore, SceneF, Faxer, Departi, Conqueror, CR8 Agent Commons, x402 tooling, directree, crosscode-cli, SportsTrackLive, scvd.store, FARPY, CoinLobster, PolymarketScan, AI Image Cleaner, EraseText, GOJI, Picorn, Teai.io, Snipara.
 
 **Key observation:** The social-management platform category gained its second full MCP in five days — RADAAR joins OnePostly (Aug 13) with an official connector covering scheduling, inbox, listening, and analytics. The publish layer of social ops is now fully agent-addressable end to end. CDN operations (BlazingCDN) followed the official-vendor-MCP pattern on the infra side.
+
+---
+
+## 🆕 August 14, 2026 — Evening Sweep (3 New, 3 Guides)
+
+Scanned mcpservers.org /all pages 1-3 (newest submissions) and mcp.so Feed (30 newest submissions). 3 new business-relevant servers found — a 13-platform public-data search MCP with ready-made lead-gen playbooks, a hosted quant-trading platform MCP, and a job-posting aggregator with community discussion threads.
+
+### API Direct MCP ★★★ — August 14 evening
+
+Public-data search across 13 platforms (LinkedIn, X, Facebook, Reddit, YouTube, Instagram, Threads, TikTok, Truth Social, forums, news, web search, Google Maps) with 68 tools plus 60+ ready-made skill playbooks (lead-gen, competitor conquest, recruiting, OSINT due diligence, brand monitoring). API key, Streamable HTTP, pay-as-you-go per request. `apidirect.io/mcp` (commercial) · [Guide →](/hermes/mcp/servers/external/api-direct-mcp/)
+
+### NexusTrade Financial MCP ★★★ — August 14 evening
+
+Hosted quant-trading platform MCP — 125 tools covering stock screening, historical and fundamental data, multi-regime backtesting, portfolio and risk analysis, managed compute, creator strategy discovery, and paper/live copy trading with brokerage execution behind platform risk controls. OAuth 2.1 PKCE with dynamic client registration; Streamable HTTP. `nexustrade.io/api/mcp`, github.com/austin-starks/nexustrade-ts (commercial) · [Guide →](/hermes/mcp/servers/external/nexustrade-financial-mcp/)
+
+### JobYap MCP ★★ — August 14 evening
+
+Job postings aggregated from companies' official career sites, each with a public discussion thread — salaries, locations, full descriptions, interview notes, and team signal. 8 read-only tools (search_jobs, get_job, get_job_comments, search_locations, list_companies, get_job_stats, search, fetch); no auth, Streamable HTTP. `mcp.jobyap.com/mcp` (commercial, free) · [Guide →](/hermes/mcp/servers/external/jobyap-mcp/)
+
+**Also identified (not catalogued):** Kin (firelock-ai/kin — provenance graph billed as "the system of record for AI-written software," stdio via `npx -y @kinlab/kin-mcp`, Apache-2.0; dev tool, not business-ops). Feed repeats already catalogued or previously skipped this cycle: RADAAR, BlazingCDN, Cost Seg Smart, easydocforms, Just Domain, Fakto wFirma, FARPY (dev infra), CoinLobster (crypto), EM+x, SceneF (consumer), LabTestSuperstore (lab supplies), Prose Coach, Clipkit (Aug 12 guide), CR8 Agent Commons, x402 Merchant Check, directree, Syncro, ROIC.ai, Conqueror, NERAI, BanProof, cloro, scvd.store, Faxer, Snipara. mcpservers.org /all pages 1-3 carried no other new business-relevant slugs — remaining slugs were repeats already catalogued or skipped in prior sweeps (MarkupBase, AppaTools, MyDart, Imag8, Sightseer, SonaPrompt, TrueSend, Teai.io, GOJI, Picorn, PolymarketScan, AI Image Cleaner, EraseText, Folklore Variant Evidence).
+
+**Key observation:** The playbook layer is now a product. API Direct ships 60+ ready-made skills (competitor conquest, layoff-wave interception, due-diligence dossiers) that chain 68 raw tools into outcome-shaped calls, and NexusTrade formalizes the strategy marketplace with fork-and-copy-trade primitives (`fork_shared_portfolio`, `copy_trade_shared`). Both point the same direction: MCP servers are graduating from tool bundles to workflow products with opinionated entry points.
 
 ---
 
@@ -762,6 +784,9 @@ Dedicated MCP server for PortEden's Google Sheets data firewall. Read, write, an
 
 ## Financial Data
 
+
+### NexusTrade Financial MCP ★★★ — Aug 14 (evening)
+Hosted quant-trading platform MCP — 125 tools covering stock screening, historical and fundamental data, multi-regime backtesting, portfolio and risk analysis, managed compute, creator strategy discovery, and paper/live copy trading with brokerage execution behind platform risk controls. OAuth 2.1 PKCE with dynamic client registration; Streamable HTTP at `nexustrade.io/api/mcp`. `github.com/austin-starks/nexustrade-ts` (commercial) · [Guide →](/hermes/mcp/servers/external/nexustrade-financial-mcp/)
 
 ### Holdings MCP ★★★ — Aug 14 (midday, catalog fix)
 Agentic invoicing and payments — draft invoices, preview, send on confirmation; clients pay by card or ACH. stdio (`npx -y @getholdings/mcp`) or Streamable HTTP (`mcp.getholdings.com/mcp`), API key. Free, no monthly fee. Guide written Aug 10; body entry added now (unindexed-guides fix). [Integration Guide](/hermes/mcp/servers/external/holdings-mcp/)
@@ -1752,6 +1777,9 @@ MCP server for AI agent data flow orchestration. Connect AI agents to data pipel
 
 ## Productivity
 
+### JobYap MCP ★★ — Aug 14 (evening)
+Job postings aggregated from tech companies' official career sites, each with a public discussion thread — salaries, locations, full descriptions, interview notes, and team signal. 8 read-only tools (search_jobs, get_job, get_job_comments, search_locations, list_companies, get_job_stats, search, fetch); no auth, Streamable HTTP at `mcp.jobyap.com/mcp`. (commercial, free) · [Guide →](/hermes/mcp/servers/external/jobyap-mcp/)
+
 ### Asana MCP V2 ★★★ Official — New July 17
 Official Asana project management MCP V2 server. Tasks, projects, and workspaces via OAuth 2.0. Hosted at `https://mcp.asana.com/v2/mcp`. Requires pre-registered OAuth app credentials. Joins Atlassian (Jira/Confluence), Linear, and Notion in the PM MCP ecosystem. Claude Code has native OAuth support; other clients use `mcp-remote`. [Full integration guide →](/hermes/mcp/servers/external/asana-mcp/)
 
@@ -2050,6 +2078,9 @@ Control Bambu Lab 3D printers, edit STL files, and manage 3MF print workflows vi
 ---
 
 ## Marketing
+
+### API Direct MCP ★★★ — Aug 14 (evening)
+Public-data search across 13 platforms (LinkedIn, X, Facebook, Reddit, YouTube, Instagram, Threads, TikTok, Truth Social, forums, news, web search, Google Maps) with 68 tools plus 60+ ready-made skill playbooks (lead-gen, competitor conquest, recruiting, OSINT due diligence, brand monitoring). API key, Streamable HTTP, pay-as-you-go per request. `apidirect.io/mcp` (commercial) · [Guide →](/hermes/mcp/servers/external/api-direct-mcp/)
 
 ### RADAAR MCP ★★★ — Aug 14 (midday)
 Official social-media-management MCP from RADAAR — publish, schedule, unified inbox, listening, and analytics across 20+ channels (Instagram, X, LinkedIn, TikTok, YouTube, Threads, Bluesky, Mastodon, Google Business Profile, WordPress) from any MCP client. Six tool modules (publishing_*, inbox_*, monitoring_*, analytics_*, utilities_*, settings_*/subscriptions_*); OAuth, Streamable HTTP at `mcp.radaar.io`. [Integration Guide](/hermes/mcp/servers/external/radaar-mcp/)
@@ -3452,3 +3483,9 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [RADAAR MCP — Social Media Management Across 20+ Channels](/docs/hermes/mcp/servers/external/radaar-mcp/)
 - [BlazingCDN MCP — CDN Operations, Cache & Bandwidth for AI Agents](/docs/hermes/mcp/servers/external/blazingcdn-mcp/)
 - [Holdings MCP — Agentic Invoicing & Payments (catalog fix)](/docs/hermes/mcp/servers/external/holdings-mcp/)
+
+### 3 new servers from mcpservers.org /all + mcp.so Feed — Aug 14, 2026 (evening sweep)
+
+- [API Direct MCP — 13-Platform Public-Data Search with Lead-Gen Playbooks](/docs/hermes/mcp/servers/external/api-direct-mcp/)
+- [NexusTrade Financial MCP — Quant Research, Backtesting & Copy Trading](/docs/hermes/mcp/servers/external/nexustrade-financial-mcp/)
+- [JobYap MCP — Job Aggregation & Discussion Threads for AI Agents](/docs/hermes/mcp/servers/external/jobyap-mcp/)
