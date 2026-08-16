@@ -39,7 +39,7 @@ Show me real-time active users right now broken down by device.
 2. Click **Google Analytics 4**
 3. Sign in with the Google account that has access to your GA4 property
 4. Select the GA4 property you want to connect
-5. Done — CorpusIQ is read-only and never modifies your Analytics data
+5. Done — the GA4 connection is read-only and never modifies your Analytics data
 
 ## What data CorpusIQ can see
 

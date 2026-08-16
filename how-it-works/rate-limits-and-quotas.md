@@ -39,7 +39,7 @@ These apply to all queries, regardless of connector.
 | **Daily API call limit** | None; instead, rate-limited by second | Not a concern for typical use. |
 | **Historical data retention** | Orders: 6 months (standard); 3 years (Plus) | Ask for recent orders. For older data, you'll get no results. |
 | **Result limit per API call** | 250 records | If you need >250 orders, paginate. CorpusIQ handles this automatically. |
-| **Webhook limits** | Not applicable (CorpusIQ is read-only) | — |
+| **Webhook limits** | No customer-facing webhook event contract is currently published | Use the documented request/response APIs. |
 
 **Optimization:** Asking "Orders from last 30 days" is much faster than "All orders ever."
 

@@ -89,7 +89,7 @@ With these five categories connected, a small business owner can answer virtuall
 
 **Self-service onboarding.** No implementation calls, no consulting engagements. The setup is designed to be completed by a business owner, not an IT team.
 
-**Read-only safety.** Small business owners can connect their financial systems without worrying about the AI accidentally modifying data. Read-only defaults mean zero risk of unintended changes.
+**Read-only external retrieval.** Small business owners can query connected financial systems without the connector tools writing back to those vendor records. Explicit CorpusIQ control-plane changes are separately annotated.
 
 **Mobile-friendly queries.** Ask questions from your phone through any MCP-compatible AI client. Check business health during your morning coffee without opening a laptop.
 
@@ -110,7 +110,7 @@ CorpusIQ offers plans starting at accessible SMB price points. Visit the CorpusI
 <details>
 <summary><strong>Is my data secure? Can the AI accidentally delete something?</strong></summary>
 
-CorpusIQ defaults to read-only access for all connectors. The AI cannot modify, delete, or create data. It can only read and report. For small businesses, this means zero risk of the AI making unintended changes to your QuickBooks or Shopify data.
+CorpusIQ external-source connector tools use read-only retrieval and do not modify, delete, or create records in connected vendor systems such as QuickBooks or Shopify. Explicit CorpusIQ control-plane tools operate only on user-declared CorpusIQ state and carry separate safety annotations.
 </details>
 
 <details>

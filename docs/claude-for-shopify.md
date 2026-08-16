@@ -92,7 +92,7 @@ Yes. Claude's outputs include methodology descriptions, data source citations, a
 CorpusIQ uses a read-only Shopify connection and encrypted transport. Data handling inside Claude follows the terms and settings of the Anthropic plan you choose; review Anthropic's current policy before sending sensitive store data.
 
 ### Can Claude make changes to my Shopify store?
-No. The Shopify connection through CorpusIQ is read-only. Claude can analyze data and make strategic recommendations, but it cannot execute changes in your Shopify admin  --  no product modifications, order changes, or setting adjustments. Human implementation is always required.
+No. The Shopify connector uses read-only vendor retrieval. Claude can analyze data and make strategic recommendations, but it cannot execute changes in your Shopify admin  --  no product modifications, order changes, or setting adjustments. Human implementation is always required.
 
 ### What types of analysis is Claude best for?
 Claude excels at: multi-year trend analysis, full customer base analysis, product portfolio optimization, complex cohort modeling, inventory optimization at scale, attribution modeling, competitive analysis, strategic planning, and any analysis requiring sustained reasoning across large datasets.

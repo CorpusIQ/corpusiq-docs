@@ -46,7 +46,7 @@ OAuth tokens are the keys to your data. Managing them securely is critical:
 
 **Automatic token rotation.** When a refresh token is used to obtain a new access token, some providers also rotate the refresh token. CorpusIQ handles this rotation transparently, ensuring the latest refresh token is always stored.
 
-**Token revocation.** Users can revoke access to any connected platform at any time through the CorpusIQ dashboard. Revocation immediately deletes all stored tokens for that platform and terminates any in-flight requests.
+**Token revocation.** Users can disconnect a connected platform through the CorpusIQ dashboard. The service commits an inactive state before credential cleanup; cleanup failures are surfaced for retry rather than reported as successful deletion. Provider-side revocation remains available through the connected platform.
 
 **Cross-user isolation.** Each user's tokens are cryptographically isolated. User A's Shopify token cannot be used to access User B's data, even if both users are in the same CorpusIQ organization. This isolation extends to the database layer  --  tokens are stored with user-scoped encryption keys.
 

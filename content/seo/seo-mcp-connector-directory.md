@@ -74,7 +74,7 @@ This is the definitive directory of business data connectors available through M
 
 ## What Makes These Connectors Different
 
-**Read-only by design:** Every connector is read-only. The AI can query data but cannot create, modify, or delete anything.
+**Read-only external retrieval:** Connector tools can query vendor data but do not create, modify, or delete records in those connected systems. Separately annotated CorpusIQ control-plane tools operate on user-declared CorpusIQ state.
 
 **OAuth-native:** No API keys to manage. Each connector uses OAuth — 30 seconds to connect, instant to revoke.
 

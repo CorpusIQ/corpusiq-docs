@@ -69,9 +69,9 @@ A dashboard tells you revenue is up 12%. That's a "what." The AI, connected to y
 
 ## The Read-Only Safety Net
 
-Every connector is read-only. The AI can query your QuickBooks P&L but it can't cut a check. It can search HubSpot deals but it can't close one. It can pull Stripe charges but it can't issue a refund.
+External-source connector tools are read-only. The AI can query a QuickBooks P&L without cutting a check, search HubSpot deals without closing one, and retrieve Stripe charges without issuing a refund. Separately annotated CorpusIQ control-plane tools operate only on user-declared CorpusIQ state.
 
-This matters for two reasons. First, security teams stop objecting once they understand it's read-only. Second, you stop worrying about what the AI might do. It can only read. It can only answer.
+This gives security teams a concrete boundary: vendor-system retrieval does not write back, while the small set of CorpusIQ control-plane mutations is explicit and separately annotated.
 
 ## The Tool Stack That Actually Works
 

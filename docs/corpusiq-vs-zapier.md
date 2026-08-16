@@ -81,7 +81,7 @@ Every answer reflects the current state of your systems. There's no batch window
 Zapier connects to 7,000+ apps, far more than CorpusIQ's 40+ connectors. For niche tools, Zapier is likely to have an integration.
 
 ### 2. Write Capabilities
-Zapier can create, update, and delete data across apps. CorpusIQ is read-only by design. If you need to automate record creation  --  e.g., "When a Typeform submission comes in, create a HubSpot contact"  --  Zapier is the tool.
+Zapier can create, update, and delete data across apps. CorpusIQ external-source connector tools use read-only retrieval and do not write records back to those apps; its separately annotated control-plane tools operate on user-declared CorpusIQ state. If you need to automate vendor-record creation  --  e.g., "When a Typeform submission comes in, create a HubSpot contact"  --  Zapier is the tool.
 
 ### 3. Multi-Step Logic
 Zapier supports branching paths, filters, delays, and conditional logic within workflows. Complex automations with decision trees are Zapier's strength.

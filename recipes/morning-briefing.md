@@ -23,7 +23,7 @@ Your AI queries all five tools, pulls the numbers, compares against the previous
 ## Setup
 
 1. Connect your daily-check tools in CorpusIQ
-2. Read-only OAuth for all. Your AI reads data, never modifies.
+2. Use the connectors' read-only external-source retrieval. Your AI can read the briefing data without writing back to those vendor systems.
 3. Ask your morning question.
 
 ## Example briefing

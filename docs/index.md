@@ -35,7 +35,7 @@ A: CorpusIQ uses MCP (Model Context Protocol)  --  an open standard that lets AI
 A: CorpusIQ supports 40+ business tools including HubSpot, Salesforce, QuickBooks, Stripe, Shopify, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, Notion, PostgreSQL, MSSQL, MongoDB, and more  --  see the full connectors directory.
 
 **Q: Is my data secure with CorpusIQ?**  
-A: Yes. CorpusIQ is read-only by default, does not retain raw customer files or full connector response payloads, uses TLS 1.3 encryption, and is SOC 2 aligned. Operational query and audit logs are retained for up to 30 days. All data source connections use OAuth with minimum required scopes.
+A: Yes. External-source connector tools use read-only retrieval, while explicit CorpusIQ control-plane tools are separately annotated. Direct MCP does not retain raw customer files or full connector response payloads, uses TLS encryption, and follows a SOC 2 aligned posture. Operational query and audit logs are retained for up to 30 days. Data-source connections use documented OAuth scopes.
 
 **Q: How quickly can I start using CorpusIQ?**  
 A: Sign up at corpusiq.io, connect your first data source via OAuth (60 seconds), and start asking natural-language questions. Full setup takes under 5 minutes. See the Quick Start guide for step-by-step instructions.

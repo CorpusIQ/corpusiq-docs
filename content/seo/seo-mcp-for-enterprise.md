@@ -19,9 +19,9 @@ Meanwhile, the CEO wants to know "how are we doing this quarter?" and nobody can
 
 ## How MCP solves enterprise access without breaking security
 
-**Read-only by design:** Every connector is read-only. Finance knows Sales can query P&L data without modifying a single entry. IT knows the AI can pull support tickets without closing any.
+**Read-only external retrieval:** Finance can query P&L data without modifying vendor entries, and IT can retrieve support tickets without closing them. Explicit CorpusIQ control-plane operations are separate and annotated.
 
-**OAuth-native, per-user:** Each user authenticates via their own OAuth. No shared API keys. Revoke access instantly. Audit trail shows who queried what.
+**OAuth-native, per-user:** Each user authenticates via their own OAuth. No shared API keys. Disconnects commit a durable inactive state; credential-cleanup failures are surfaced instead of hidden. Operational logs record scoped query activity.
 
 **No ETL warehouse:** Source systems remain authoritative. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days.
 

@@ -28,9 +28,9 @@
 
 ## How it works — 3 steps
 
-1. **Connect** — Plug in your existing tools (30-second OAuth, read-only, no data leaves your control)
+1. **Connect** — Authorize external-source retrieval through each provider's documented OAuth flow
 2. **Ask** — Type a question in ChatGPT, Claude, or any MCP-compatible assistant
-3. **Get answers** — Live data flows directly into the AI's response. No middleman.
+3. **Get answers** — Source data passes through CorpusIQ to the requesting AI client with citations; that client's conversation policy applies after receipt.
 
 **Read the full docs:** [corpusiq.io/docs](https://www.corpusiq.io/docs/) — Quickstart, API reference, connector guides, troubleshooting.
 

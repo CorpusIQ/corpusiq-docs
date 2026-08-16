@@ -19,7 +19,7 @@ CorpusIQ is designed with data privacy as a foundational principle. This page do
 | **SOC 2** | Aligned  --  formal certification is not claimed; controls are reviewed quarterly |
 | **GDPR** | Aligned  --  data minimization, user consent, deletion rights |
 | **Encryption** | AES-256 at rest, TLS 1.3 in transit |
-| **Access Model** | Read-only OAuth  --  no write permissions ever |
+| **Access Model** | Read-only external-source retrieval; explicit CorpusIQ control-plane writes are separately annotated |
 
 Contact: security@corpusiq.io · privacy@corpusiq.io
 
@@ -60,10 +60,10 @@ AES-256, managed keys, key rotation every 90 days.
 Private subnets, deny-by-default, WAF and rate limits on all public endpoints.
 
 ### Access
-Read-only OAuth scopes only. No write permissions on any connector. The specific scopes requested are visible on the OAuth authorization screen during connection setup.
+External-source connectors use the documented retrieval scopes and do not write back to vendor systems. Explicit CorpusIQ control-plane tools that mutate user-declared CorpusIQ state are separately annotated. Vendor scopes remain visible on the OAuth authorization screen during connection setup.
 
 ### Authentication
-API tokens have 60-minute expiry with server-side refresh detection. Tokens are never embedded in client-side code  --  server-side usage only. Token revocation takes effect immediately across all active sessions.
+API tokens have 60-minute expiry with server-side refresh detection. Tokens are never embedded in client-side code  --  server-side usage only. Disconnect commits an inactive state before credential cleanup; cleanup failures are surfaced for retry.
 
 ### Webhook Security
 CorpusIQ does not currently publish a customer-facing webhook event contract. Event schemas, authentication, and delivery guarantees will be documented only after their production routes are verified.

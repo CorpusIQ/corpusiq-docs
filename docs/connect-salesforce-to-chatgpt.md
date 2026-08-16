@@ -21,7 +21,7 @@ This page covers the architecture, what you can ask, enterprise security conside
 <details>
 <summary><strong>What Salesforce data can ChatGPT access?</strong></summary>
 
-CorpusIQ provides MCP tools that map to core Salesforce objects: Accounts, Contacts, Leads, Opportunities, Cases, and custom objects. ChatGPT can search across these objects, retrieve individual records, list records with filters, and combine data across multiple objects. All access is read-only  --  no create, update, or delete operations exist.
+CorpusIQ provides MCP tools that map to core Salesforce objects: Accounts, Contacts, Leads, Opportunities, Cases, and custom objects. ChatGPT can search across these objects, retrieve individual records, list records with filters, and combine data across multiple objects. Salesforce connector retrieval is read-only  --  no create, update, or delete operations exist for that source.
 </details>
 
 <details>

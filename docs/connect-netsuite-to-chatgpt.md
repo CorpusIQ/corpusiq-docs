@@ -21,7 +21,7 @@ This page covers the architecture, what you can ask, enterprise security, and ho
 <details>
 <summary><strong>What NetSuite data can ChatGPT access?</strong></summary>
 
-CorpusIQ's NetSuite integration provides access to core ERP objects: sales orders, customers, invoices, inventory, items, financial reports, and project data. ChatGPT can retrieve individual records, list records with filters, and aggregate data across objects. All access is read-only  --  no record creation, editing, or deletion.
+CorpusIQ's NetSuite integration provides access to core ERP objects: sales orders, customers, invoices, inventory, items, financial reports, and project data. ChatGPT can retrieve individual records, list records with filters, and aggregate data across objects. NetSuite connector retrieval is read-only  --  no record creation, editing, or deletion in that source.
 </details>
 
 <details>
