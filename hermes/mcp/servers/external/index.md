@@ -12,7 +12,25 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 15, 2026 (midday cron sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 205 servers (+95 guides)
+> **Last updated:** August 15, 2026 (evening cron sweep) · **Sources:** mcpservers.org /all pages 1-2 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 207 servers (+97 guides)
+
+---
+
+## 🆕 August 15, 2026 — Evening Cron Sweep (2 New, 2 Guides)
+
+Scanned mcpservers.org /all pages 1-2 (newest submissions) and mcp.so Feed (30 newest submissions). 2 new business-relevant servers found — both financial data: a congressional-trading disclosure server with per-trade anomaly scoring, and an options-analytics stack with a published agent-sized API reference.
+
+### GovTrade MCP ★★ — August 15 evening
+
+Congressional trading disclosures over MCP — STOCK Act filings (House and Senate) with pre-computed anomaly signals per trade (signal strength, Low/Medium/High label, natural-language reasoning covering unusual size versus the politician's own history, committee overlap, and federal contract ties) plus per-politician baselines (trade count, average size, buy/sell ratio, top sector). Self-hosted stdio via `node index.js` with a funded EVM wallet; paid per call via x402 (USDC on Base), no subscription. `github.com/iamdarcie/govtrade-mcp`. (commercial, pay-per-call) · [Guide →](/hermes/mcp/servers/external/govtrade-mcp/)
+
+### ApexVol Options Analytics MCP ★★★ — August 15 evening
+
+Options analytics over MCP — options chains (live, historical, simulated), IV rank and crush, Greeks and GEX (market, cross-index, portfolio level), expected moves, skew and term structure, screeners, mispricing and relative-value scans, strategy build/optimize/stress-testing. 43 tools over 56 published REST endpoints; one Pro bearer token drives both the self-hosted `apexvol-mcp` client and direct REST calls. MIT, `github.com/ryansilk/apexvol-mcp`. (commercial, Pro plan) · [Guide →](/hermes/mcp/servers/external/apexvol-mcp/)
+
+**Also identified (not catalogued):** PDI Bridge for Claude (ServiceNow PDI dev-instance bridge — query tables, review Business Rules/ACLs/client scripts; dev tool, not business ops), Picorn (image/video creative projects — one-liner listing with no MCP tool depth), GOJI (Melbourne agency knowledge bot answering AEO/SEO questions from its own published material — agency marketing surface), apix402 (onchain governance/vesting/oracle checks — x402 infra, consistent with prior skips), WEM Price Compare (repeat of the Aug 15 morning skip — consumer/affiliate), EraseText and AI Image Cleaner (consumer image utilities), a Chinese raw-IP listing (shenshaoyin, endpoint on 121.40.18.232) and a trycloudflare exposed-port slug (host-dump noise). Feed repeats already catalogued or previously skipped this cycle: Etincel, CryptoStruct, World Monitor, API Direct, JobYap, Kin, NexusTrade, Snipara, RADAAR, BlazingCDN, Cost Seg Smart, easydocforms, Just Domain, Fakto wFirma, FARPY, CoinLobster, EM+x, SceneF, LabTestSuperstore, Prose Coach, Clipkit, CR8 Agent Commons, x402 Merchant Check, directree, Syncro.
+
+**Key observation:** Both entries confirm the pattern of financial-data vendors shipping a published, agent-sized API reference alongside the MCP surface — ApexVol's single-file `apexvol-api.md` is the cleanest example yet of docs designed for agent consumption (explicit 401/403/426/429 semantics so an agent can tell revoked-token from tier-entitlement from rate-limit failures). GovTrade extends the x402 pay-per-call model from infrastructure into disclosure-grade financial data, with anomaly reasoning attached to every signal.
 
 ---
 
@@ -854,6 +872,12 @@ Hosted quant-trading platform MCP — 125 tools covering stock screening, histor
 
 ### CryptoStruct Market Data MCP ★★ — Aug 15 (morning)
 Historical crypto and prediction-market data — ~500K instruments across 35 venues, live OHLC/VWAP/depth/slippage statistics, free sample files, and Stripe-checkout data procurement (€1 per instrument-day). Keyless catalog/stats; OAuth optional for account tools. Streamable HTTP at `cryptostruct.com/mcp`, MIT. (commercial, free tier + €20/mo Premium) · [Guide →](/hermes/mcp/servers/external/cryptostruct-mcp/)
+
+### ApexVol Options Analytics MCP ★★★ — Aug 15 (evening)
+Options analytics via a self-hosted Python MCP client — chains (live, historical, simulated), IV rank/crush, Greeks and GEX at market and portfolio level, expected moves, skew, term structure, screeners, mispricing and relative-value scans, strategy build/optimize/stress-test. 43 tools over 56 REST endpoints; one Pro bearer token for both the client and direct REST calls (60/min, 1000/hr). MIT, `github.com/ryansilk/apexvol-mcp`. (commercial, Pro plan) · [Guide →](/hermes/mcp/servers/external/apexvol-mcp/)
+
+### GovTrade MCP ★★ — Aug 15 (evening)
+Congressional trading disclosures with anomaly scoring — STOCK Act filings (House and Senate) with signal strength, Low/Medium/High labels, and natural-language reasoning per trade, plus per-politician baselines. Self-hosted stdio (`node index.js`, EVM private key); pay-per-call via x402 (USDC on Base). `github.com/iamdarcie/govtrade-mcp`. (commercial, pay-per-call) · [Guide →](/hermes/mcp/servers/external/govtrade-mcp/)
 
 ### Holdings MCP ★★★ — Aug 14 (midday, catalog fix)
 Agentic invoicing and payments — draft invoices, preview, send on confirmation; clients pay by card or ACH. stdio (`npx -y @getholdings/mcp`) or Streamable HTTP (`mcp.getholdings.com/mcp`), API key. Free, no monthly fee. Guide written Aug 10; body entry added now (unindexed-guides fix). [Integration Guide](/hermes/mcp/servers/external/holdings-mcp/)
@@ -3602,3 +3626,8 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 ### 1 new server from mcp.so Feed — Aug 15, 2026 (midday cron sweep)
 
 - [Etincel MCP — Deterministic AI-Writing-Tell Detector with Voice Training](/docs/hermes/mcp/servers/external/etincel-mcp/)
+
+### 2 new servers from mcp.so Feed — Aug 15, 2026 (evening cron sweep)
+
+- [ApexVol Options Analytics MCP — Options Chains, Greeks, GEX & Screeners](/docs/hermes/mcp/servers/external/apexvol-mcp/)
+- [GovTrade MCP — Congressional Trading Disclosures with Anomaly Signals](/docs/hermes/mcp/servers/external/govtrade-mcp/)
