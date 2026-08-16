@@ -40,7 +40,7 @@ MCP uses JSON-RPC over Streamable HTTP. Every interaction follows the same patte
 | **Discovery** | Hard-code tool definitions | Auto-discovered by client |
 | **Maintenance** | Update when APIs change | Server handles updates |
 | **Cross-tool** | Write custom join logic | Multiple tools, one protocol |
-| **Security** | Keys can leak, be misused | OAuth scopes, read-only possible |
+| **Security** | Keys can leak or be misused | Operation-level annotations and provider-specific authentication |
 
 ## One server, many tools
 

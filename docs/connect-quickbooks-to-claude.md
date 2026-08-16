@@ -25,7 +25,7 @@ QuickBooks contains your company's financial truth  --  profit and loss, balance
 - **AR/AP visibility.** Ask "Which customers owe us more than $5,000?" or "What bills are due next week?" without digging through QuickBooks screens.
 - **Cross-source financial intelligence.** Combine QuickBooks data with Shopify revenue, Stripe payments, or Salesforce pipeline for a complete financial picture.
 - **Cash flow at your fingertips.** Claude can analyze your balance sheet, AR aging, and AP aging together to give you an instant cash position assessment.
-- **Read-only security.** OAuth 2.0 with read-only scope. Claude can analyze your financial data but can never create, modify, or delete transactions.
+- **Operation-level safety.** QuickBooks retrieval tools are marked read-only; write-capable tools, when present, are separately named and annotated.
 
 ### How It Works
 
@@ -36,7 +36,7 @@ The CorpusIQ MCP architecture for QuickBooks follows the same secure pattern as 
 3. **CorpusIQ translates** your question into the appropriate QuickBooks API calls and executes them with your stored credentials.
 4. **Claude presents** the results in natural language, with calculated metrics, trend observations, and actionable context.
 
-The connection is always live  --  every question triggers a fresh API call, so you're never looking at stale financial data.
+Each question requests current QuickBooks data. Freshness follows QuickBooks and CorpusIQ cache behavior; verify time-sensitive values against cited records.
 
 ### Setup Steps
 
@@ -85,8 +85,8 @@ Financial data is among the most sensitive information in any organization. Corp
 
 - **Read-only OAuth 2.0.** Claude can query financial data but can never create journal entries, modify invoices, or delete transactions.
 - **Documented controls.** CorpusIQ maintains a SOC 2 aligned posture and is CASA Tier 2 certified by DEKRA; formal SOC 2 certification is not claimed.
-- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
-- **Instant revocability.** Disconnect QuickBooks from CorpusIQ or revoke the Intuit token at any time.
+- **Scoped direct-MCP retention.** QuickBooks retrieval tools are marked read-only. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **Disconnect behavior.** CorpusIQ disconnect commits inactive connection state and requires reauthorization; provider authorization remains governed by Intuit.
 - **Audit trail.** All queries through CorpusIQ are logged, giving your compliance team visibility into who asked what and when.
 
 ### Comparison: MCP vs. Direct QuickBooks API
@@ -133,7 +133,7 @@ The integration supports QuickBooks Online. QuickBooks Desktop is not currently 
 <details>
 <summary><strong>Can Claude create invoices or journal entries?</strong></summary>
 
-No. The integration is strictly read-only. Claude can analyze and report on financial data but cannot create, modify, or delete anything in QuickBooks.
+The advertised QuickBooks retrieval tools are read-only and do not create, modify, or delete records. Write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>

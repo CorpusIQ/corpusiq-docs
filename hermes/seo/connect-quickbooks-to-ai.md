@@ -32,7 +32,7 @@ With a direct connection:
 
 ## How the Connection Works
 
-The connection uses read-only OAuth through Intuit's API. You authorize once through your QuickBooks login. The AI gains permission to query your company data. It cannot create transactions. Cannot modify accounts. Cannot send invoices or process payments.
+The connection uses read-only external-source retrieval through Intuit's API. You authorize once through your QuickBooks login. The AI gains permission to query your company data. It cannot create transactions. Cannot modify accounts. Cannot send invoices or process payments.
 
 Every query is:
 1. Authenticated independently

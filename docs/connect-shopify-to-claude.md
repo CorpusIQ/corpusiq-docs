@@ -78,7 +78,7 @@ Once connected, Claude can answer an enormous range of Shopify questions. Here a
 
 ### Security and Permissions
 
-CorpusIQ uses OAuth 2.0 with read-only scope for the Shopify integration. This means:
+Shopify provider scopes vary by documented operation. The retrieval tools described here are marked read-only:
 
 - **Claude can read** your orders, products, customers, and analytics.
 - **Claude can never write**  --  it cannot create, update, or delete anything in your Shopify store.
@@ -118,13 +118,13 @@ No. The OAuth flow is point-and-click. Anyone with Shopify admin access can conn
 <details>
 <summary><strong>Can Claude modify my Shopify store  --  create products, update orders, or change prices?</strong></summary>
 
-No. The integration is strictly read-only. Claude can query your data but cannot make any changes to your Shopify store.
+The advertised Shopify retrieval tools are read-only and do not change the store. Write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>
 <summary><strong>How current is the data Claude sees?</strong></summary>
 
-Real-time. Every question you ask triggers a fresh API call to Shopify. Claude always works with live data, not cached snapshots.
+Each question requests current Shopify data. Freshness follows Shopify and CorpusIQ cache behavior; use cited source records for time-sensitive verification.
 </details>
 
 <details>
@@ -136,7 +136,7 @@ The integration works with any Shopify plan that includes API access. Most plans
 <details>
 <summary><strong>Can I limit which data Claude can access?</strong></summary>
 
-Yes. The OAuth scope is read-only across orders, products, customers, and analytics. You can further restrict access by only granting specific scopes during authorization.
+Yes. The advertised Shopify retrieval tools for orders, products, customers, and analytics are marked read-only; write-capable tools, when available, are separately named and annotated. You can further restrict access by only granting specific scopes during authorization.
 </details>
 
 <details>

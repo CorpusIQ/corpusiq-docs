@@ -33,7 +33,7 @@ CorpusIQ connects to HubSpot via OAuth 2.0 and exposes HubSpot's CRM objects as 
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. CorpusIQ requests read-only scopes from HubSpot. ChatGPT can see contacts, deals, and companies. It cannot create contacts, move deals between stages, modify company properties, or change anything in your CRM. The read-only guarantee is enforced at both the OAuth scope level and the MCP tool level.
+The advertised HubSpot retrieval tools are read-only and expose contacts, deals, and companies without modifying them. Write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>
@@ -126,10 +126,10 @@ Instead of building a pipeline report in HubSpot: "Show me all deals by stage wi
 
 ## Security: Read-Only by Design
 
-The HubSpot integration is read-only at every layer:
+The advertised HubSpot retrieval surface is read-only:
 
-- **OAuth Scopes:** Read-only access to contacts, companies, deals, and account metadata. No write, create, update, or delete permissions.
-- **MCP Tools:** Only query tools are exposed  --  contact search, deal listing, company retrieval. No tools exist to create, modify, or delete HubSpot records.
+- **Retrieval tools:** Contact search, deal listing, and company retrieval are marked read-only.
+- **Other operations:** Write-capable tools, when available, are separately named and annotated.
 - **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Encryption:** All data in transit is encrypted via TLS 1.3 between HubSpot, CorpusIQ, and ChatGPT.
 

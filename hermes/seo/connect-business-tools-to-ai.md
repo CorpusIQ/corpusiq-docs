@@ -1,6 +1,6 @@
 ---
 title: Connect Your Business Tools to AI — 40+ Read-Only Connectors
-description: Connect Shopify, Stripe, QuickBooks, GA4, and Meta Ads to ChatGPT, Claude, Perplexity, and Slack with read-only OAuth and source-cited answers.
+description: Connect Shopify, Stripe, QuickBooks, GA4, and Meta Ads to ChatGPT, Claude, Perplexity, and Slack with read-only external-source retrieval and source-cited answers.
 canonical: "https://www.corpusiq.io/docs/hermes/seo/connect-business-tools-to-ai/"
 robots: "index,follow"
 last_updated: "2026-08-12"

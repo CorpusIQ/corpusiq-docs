@@ -12,7 +12,7 @@ tags: ["hermes agent", "ai agent", "documentation"]
 ---
 
 title: "CorpusIQ Security Overview  --  Authentication, Encryption, and Read-Only Access"
-description: "CorpusIQ security overview: OAuth 2.0 authentication for agents and chat users, TLS 1.3 encryption, read-only data access policy, audit logging, data handling, and security best practices."
+description: "CorpusIQ security overview: OAuth 2.0 authentication, operation-level permissions, encryption, audit logging, data handling, and security best practices."
 category: "Documentation"
 tags: ["corpusiq security overview", "authentication", "encryption", "read-only access", "oauth security", "data handling", "audit logging"]
 last_updated: "2026-08-12"
@@ -21,7 +21,7 @@ robots: "index,follow"
 ---
 # Security
 
-CorpusIQ is designed with security as a foundational requirement. External-source connector access is read-only and does not write back to vendor systems. Explicit CorpusIQ control-plane tools can update or remove user-declared CorpusIQ state and carry separate safety annotations.
+CorpusIQ is designed with security as a foundational requirement. External-source retrieval tools are marked read-only. Write-capable connector and CorpusIQ control-plane tools are separately named and carry behavior-matched safety annotations.
 
 ## Authentication
 
@@ -35,18 +35,18 @@ CorpusIQ is designed with security as a foundational requirement. External-sourc
 - No browser required for ongoing agent access
 - Refresh token rotation
 - Device verification prevents unauthorized access
-- Tokens can be revoked from the dashboard at any time
+- Dashboard disconnect removes CorpusIQ connection state and requires reauthorization before reuse; provider authorization remains provider-governed
 
 ### Data Source Connections
 - OAuth 2.0 authorization for each connected source
 - Scoped access: CorpusIQ requests minimum required permissions
-- Connections can be revoked individually
-- No raw API keys stored or exposed
+- CorpusIQ connections can be disconnected individually
+- Credential-based connectors store required secrets encrypted; public responses do not expose them
 
 ## Data Access
 
 ### Scoped Access Policy
-External-source connector tools use read-only retrieval: they query connected sources, normalize results, and do not write back to those vendor systems or initiate vendor transactions. Explicit CorpusIQ control-plane tools can update or remove user-declared facts, decisions, metric specifications, and source manifests and carry separate safety annotations.
+External-source retrieval tools query connected sources, normalize results, and do not write back. Write-capable connector and CorpusIQ control-plane tools are separately named and carry behavior-matched safety annotations.
 
 ### Data Handling
 - Direct MCP retrieves source records on demand and delivers scoped results to the requesting client
@@ -82,7 +82,7 @@ Report security concerns to security@corpusiq.io. We respond within 24 hours.
 ## Frequently Asked Questions
 
 **Q: How does CorpusIQ authenticate users?**  
-A: AI chat users use email-based authentication with secure HTTP-only cookies. AI agent users use OAuth 2.0 Device Authorization Grant (RFC 8628) with refresh token rotation. Data source connections use OAuth 2.0 with scoped, read-only permissions.
+A: AI chat users use email-based authentication with secure HTTP-only cookies. AI agent users use OAuth 2.0 Device Authorization Grant (RFC 8628) with refresh token rotation. Data-source provider scopes vary by connector and documented operation.
 
 **Q: Is CorpusIQ data access read-only?**
 A: External-source retrieval is read-only and does not write back to connected vendor systems. Explicit CorpusIQ control-plane tools can modify user-declared CorpusIQ state and are separately annotated.

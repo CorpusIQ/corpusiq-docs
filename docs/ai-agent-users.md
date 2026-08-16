@@ -146,7 +146,7 @@ A: Any MCP-compatible client. Claude, ChatGPT, Perplexity, local Ollama models, 
 A: No. CorpusIQ is a standalone MCP server. You can use it with a local LLM, any API provider, or any MCP-compatible tool. No vendor lock.
 
 **Q: What data operations can my AI agent perform?**  
-A: Your agent can query ~500 tools across 34 business connectors  --  Stripe revenue, QuickBooks P&L, HubSpot deals, Shopify orders, Meta Ads campaigns, GA4 analytics, PostgreSQL/MSSQL/MongoDB queries  --  all read-only.
+A: Your agent can use the reviewer-visible CorpusIQ tool catalog across business connectors. External-source retrieval tools are marked read-only; write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated.
 
 ---
 

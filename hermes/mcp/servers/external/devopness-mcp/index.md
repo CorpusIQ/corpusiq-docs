@@ -123,7 +123,7 @@ Devopness uses a **credential firewall** architecture:
 3. Devopness API executes against your cloud using server-side credentials
 4. AI agent receives only results and status — never sees or touches credentials
 
-This is complementary to CorpusIQ's read-only OAuth model — CorpusIQ reads business data, Devopness executes infrastructure actions.
+This is complementary to CorpusIQ's read-only external-source retrieval model — CorpusIQ reads business data, Devopness executes infrastructure actions.
 
 ## Pitfalls
 

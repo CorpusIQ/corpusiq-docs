@@ -25,7 +25,7 @@ Salesforce is powerful but complex. The average enterprise Salesforce org has hu
 - **Cross-source enterprise intelligence.** Combine Salesforce pipeline with NetSuite financials, Stripe billing, or Snowflake analytics.
 - **Meeting intelligence.** Before any customer call, ask Claude for the account's full history  --  opportunities, cases, recent activity.
 - **Forecasting support.** Claude can analyze pipeline velocity, historical close rates, and current opportunities to support forecast discussions.
-- **Read-only security.** OAuth 2.0 with read-only scope. Claude can never modify your Salesforce data.
+- **Operation-level safety.** Retrieval tools are marked read-only; write-capable tools, when present, are separately named and annotated.
 
 ### How It Works
 
@@ -95,7 +95,7 @@ CorpusIQ queries standard Salesforce REST API endpoints. Custom objects accessib
 <details>
 <summary><strong>Can Claude modify Salesforce records?</strong></summary>
 
-No. The integration is strictly read-only.
+The advertised Salesforce retrieval tools are read-only. Write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>

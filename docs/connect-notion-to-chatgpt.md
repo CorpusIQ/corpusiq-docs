@@ -132,11 +132,11 @@ The Notion integration provides layered security:
 
 - **Integration Token** with read-only capabilities. No content creation, editing, or deletion.
 - **Page-Level Sharing.** You explicitly share each top-level page and database with the integration. Unshared pages are inaccessible regardless of workspace membership.
-- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **Scoped direct-MCP retention.** Notion retrieval tools are marked read-only. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **TLS 1.3 Encryption.** All data in transit is encrypted.
-- **Token Revocation.** Revoke the integration token from Notion at any time to immediately cut off access.
+- **Provider authorization.** Manage the integration token through Notion; provider-side timing remains governed by Notion.
 
-For organizations with sensitive documentation  --  IP, strategy, customer data  --  this architecture provides granular access control: expose only the pages you want ChatGPT to access, and revoke access instantly if needed.
+For organizations with sensitive documentation  --  IP, strategy, customer data  --  this architecture provides granular access control: expose only the pages you want ChatGPT to access, and manage provider authorization in Notion when needed.
 
 ## Comparison: MCP vs. Notion Built-in Search
 

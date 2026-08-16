@@ -10,7 +10,7 @@ Connect Google Sheets to ChatGPT and ask:
 
 > "What's the average deal size by sales rep? Who's above the team average?"
 
-Setup: corpusiq.io → Connect Google Sheets (read-only OAuth) → ChatGPT → Ask.
+Setup: corpusiq.io → Connect Google Sheets (read-only external-source retrieval) → ChatGPT → Ask.
 
 ---
 

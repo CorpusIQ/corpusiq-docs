@@ -46,7 +46,7 @@ Each answer takes 15 seconds instead of 30 minutes.
 
 ## Read-only means safe
 
-Every connection is read-only. The AI can query QuickBooks but cannot create a transaction, modify an entry, or change a single number.
+External-source retrieval tools are marked read-only; write-capable connector and CorpusIQ control-plane tools are separately named and annotated. The AI can query QuickBooks but cannot create a transaction, modify an entry, or change a single number.
 
 For accountants who handle sensitive financial data, this is non-negotiable. And it's built in from the start.
 

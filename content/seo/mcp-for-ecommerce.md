@@ -93,7 +93,7 @@ The AI queries Shopify for order data, Meta for ad spend and conversions, then c
 
 ## The read-only guarantee
 
-Every connection is read-only. The AI can see your Shopify orders but can't modify them. It can read your Klaviyo campaign stats but can't send an email. It can pull Meta Ads data but can't change your budgets.
+External-source retrieval tools are marked read-only; write-capable connector and CorpusIQ control-plane tools are separately named and annotated. The AI can see your Shopify orders but can't modify them. It can read your Klaviyo campaign stats but can't send an email. It can pull Meta Ads data but can't change your budgets.
 
 This matters because the fear is real: "what if the AI messes something up?" It can't. It can only read. It can only answer.
 

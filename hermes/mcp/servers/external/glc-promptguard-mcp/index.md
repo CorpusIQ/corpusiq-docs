@@ -70,7 +70,7 @@ Self-register as an agent at `mcp.glc-rag.hu/guide/agent` with `account_type=age
 
 ## Integration with CorpusIQ
 
-PromptGuard is the guard layer for the CorpusIQ data plane. A composed workflow: an operator's agent grounds answers on CorpusIQ connector data (QuickBooks, HubSpot, Stripe), and PromptGuard screens both the user's prompt and any RAG chunks from external documents before the model sees them. CorpusIQ's read-only OAuth model already limits what data can be exfiltrated; PromptGuard limits what a malicious prompt can make the model do with the data it does see.
+PromptGuard is the guard layer for the CorpusIQ data plane. A composed workflow: an operator's agent grounds answers on CorpusIQ connector data (QuickBooks, HubSpot, Stripe), and PromptGuard screens both the user's prompt and any RAG chunks from external documents before the model sees them. CorpusIQ's read-only external-source retrieval model already limits what data can be exfiltrated; PromptGuard limits what a malicious prompt can make the model do with the data it does see.
 
 For agent builders offering CorpusIQ-powered assistants to their own users, the pair is the standard sandwich: scoped data access underneath, injection gate on top.
 

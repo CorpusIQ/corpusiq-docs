@@ -40,7 +40,7 @@ CorpusIQ is an AI intelligence layer connecting 40+ business tools to every AI a
 CorpusIQ is an operational intelligence layer. It sits between your business tools and every AI you use, giving you the same verified answer in ChatGPT, Claude, Perplexity, or Slack.
 
 - 40+ connectors: Shopify, Stripe, QuickBooks, GA4, Meta Ads, HubSpot, Klaviyo, Gmail, and more
-- Read-only OAuth on every connection
+- Read-only external-source retrieval with separately annotated management/control-plane writes
 - Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days
 - Every answer cites its exact source record
 - Same number in every AI, every time

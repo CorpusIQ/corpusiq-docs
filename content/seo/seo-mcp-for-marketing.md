@@ -60,7 +60,7 @@ Each answer: 15 seconds. Live data from every connected platform. No spreadsheet
 
 ## The read-only guarantee
 
-Every connection is read-only. The AI can query your ad accounts but can't change budgets, pause campaigns, or modify anything. It reads and answers. That's it.
+External-source retrieval tools are marked read-only; write-capable connector and CorpusIQ control-plane tools are separately named and annotated. The AI can query your ad accounts but can't change budgets, pause campaigns, or modify anything. It reads and answers. That's it.
 
 ## What marketing teams tell us
 

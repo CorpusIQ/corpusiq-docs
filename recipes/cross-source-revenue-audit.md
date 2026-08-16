@@ -23,7 +23,7 @@ Your AI queries all three tools live and gives you the answer with sources cited
 ## Setup
 
 1. Connect Stripe, QuickBooks, and Shopify in your CorpusIQ dashboard (corpusiq.io/connectors)
-2. Each connection uses read-only OAuth. Your AI can read data, never write or spend.
+2. Each connection uses read-only external-source retrieval. Your AI can read data, never write or spend.
 3. That's it. No API keys to manage. No code to write.
 
 ## Example: Find unmatched Stripe charges

@@ -50,7 +50,7 @@ The CorpusIQ AI chat provides natural language access to your connected business
 ## Search and Retrieval Capabilities
 
 - Natural language search across all connected sources
-- Real-time data queries (no cached or stale data)
+- Live source queries; provider and transport caching behavior may vary
 - Cross-source correlation (e.g., Stripe revenue vs Shopify orders)
 - Date range filtering
 - Aggregation and summarization

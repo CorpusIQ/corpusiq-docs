@@ -30,7 +30,7 @@ All CorpusIQ API errors follow a consistent JSON structure with a machine-readab
 | **401** | `unauthorized` | The Bearer token is missing, invalid, or expired. Obtain a new token. An `X-Token-Expired: true` header accompanies expired tokens. |
 | **403** | `forbidden` | The authenticated user does not have permission to access the requested resource or connector. Verify connector OAuth scopes. |
 | **404** | `not_found` | The requested resource (query ID, connector, or endpoint) does not exist. Check the URL and resource identifiers. |
-| **409** | `conflict` | The request conflicts with the current state. Common for duplicate `Idempotency-Key` submissions with different request bodies. |
+| **409** | `conflict` | The request conflicts with the current resource state. Inspect the response details before retrying. |
 | **413** | `payload_too_large` | The request body exceeds the maximum allowed size of 1 MB. Reduce `max_results` or split the query. |
 | **429** | `rate_limited` | The rate limit for the endpoint has been exceeded. A `retry_after_seconds` field indicates when to retry. See [Rate Limits](/docs/api/rate-limits). |
 | **500** | `server_error` | An unexpected internal error occurred on the CorpusIQ side. Retry with exponential backoff. If errors persist, contact api@corpusiq.io. |
@@ -85,9 +85,9 @@ for attempt in range(max_retries):
         time.sleep(wait)
 ```
 
-## Idempotency and 409 Conflicts
+## 409 Conflicts
 
-A `409 Conflict` with `Idempotency-Key` means the same key was used with a different request body. Generate a new key for each unique request. If the request body is identical, the API returns the cached response with a `200` status.
+A `409 Conflict` means the request conflicts with current resource state. Inspect the response details and do not assume a retry is safe.
 
 ## Frequently Asked Questions
 

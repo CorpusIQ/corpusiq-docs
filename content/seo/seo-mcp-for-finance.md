@@ -40,7 +40,7 @@ Each answer: 15 seconds. The whole close: 30 minutes instead of 3 days.
 
 ## Read-only means audit-safe
 
-Every connection is read-only. The AI can query QuickBooks but cannot create a journal entry. It can pull Stripe data but cannot issue a refund. It can check HubSpot but cannot modify a deal.
+External-source retrieval tools are marked read-only; write-capable connector and CorpusIQ control-plane tools are separately named and annotated. The AI can query QuickBooks but cannot create a journal entry. It can pull Stripe data but cannot issue a refund. It can check HubSpot but cannot modify a deal.
 
 For finance teams handling SOX compliance or external audits, this is non-negotiable. The connector reads without writing back to the source. Operational query text, per-user tool-call metadata, and bounded outcome summaries may remain for up to 30 days; deletion and compliance receipts may remain for up to 24 months.
 

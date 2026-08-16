@@ -20,15 +20,15 @@ This real-time capability eliminates the decision latency that plagues tradition
 
 Consider a retail business monitoring Black Friday performance. With a data warehouse, they're looking at data that's hours old. With MCP, they can ask "what's selling fastest right now?" and get an answer drawn from live Shopify data. That timeliness translates to better decisions about inventory reallocation, promotional adjustments, and staffing.
 
-## 2. Security by Design: Read-Only Access
+## 2. Security by Design: Explicit Tool Boundaries
 
-MCP servers, as implemented by CorpusIQ, default to read-only access. This is not an accident  --  it's a deliberate architectural choice that eliminates the largest category of integration risk: unintended data modification.
+CorpusIQ separates external-source retrieval from write-capable connector-management and CorpusIQ control-plane operations. Tool names, schemas, and safety annotations make that boundary visible before invocation.
 
 Every other integration approach  --  direct API access, RPA bots, database connections  --  requires careful permission management to prevent write operations. A developer with a database connection string can potentially modify or delete records. An RPA bot with user credentials can perform any action the user can. Even a well-intentioned API integration can have bugs that modify production data.
 
-MCP's read-only default means even a misconfigured query or an erroneous AI suggestion cannot modify your data. The worst that can happen is an incorrect answer  --  not an incorrect database update. This property is particularly valuable for financial systems, CRM platforms, and other mission-critical data sources where data integrity is paramount.
+Retrieval tools marked read-only cannot execute write operations. Write-capable tools are separately named and limited to their declared actions. This reduces unintended-change risk for financial systems, CRM platforms, and other mission-critical sources without claiming that the whole product is read-only.
 
-For organizations that do need write capabilities, CorpusIQ supports scoped write operations with explicit opt-in at both the OAuth and server configuration levels. But the default is safety.
+AI clients can use the published safety annotations when deciding whether to request confirmation. The exact confirmation behavior remains governed by the selected client's interface and policy.
 
 ## 3. AI-Native Simplicity
 

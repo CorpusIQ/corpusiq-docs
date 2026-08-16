@@ -16,7 +16,7 @@ AI connectors solve this. They create a read-only bridge between your business t
 
 ## What AI Connectors Do
 
-An AI connector authenticates to one business tool. Shopify. QuickBooks. Stripe. HubSpot. GA4. Using read-only OAuth. The AI can query data. It cannot modify anything.
+An AI connector authenticates to one business tool. Shopify. QuickBooks. Stripe. HubSpot. GA4. Using read-only external-source retrieval. The AI can query data. It cannot modify anything.
 
 When you ask ChatGPT "what was revenue last month," the connectors query your actual tools:
 - Shopify connector returns order data
@@ -55,7 +55,7 @@ Ask "what is our cash runway" and the system queries QuickBooks (current balance
 
 ## Security and Privacy
 
-Every connector uses read-only OAuth. The AI can see your data but never change it. No orders can be modified. No financials can be edited. No customer records can be altered.
+External-source retrieval tools are marked read-only and do not write records back to the connected source. Write-capable connector-management and CorpusIQ control-plane tools are separately named and safety-annotated.
 
 Each connector authenticates independently. Shopify has its own token. QuickBooks has its own. Stripe has its own. No shared credentials. No master key.
 

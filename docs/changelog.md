@@ -33,7 +33,7 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 
 ### New Endpoints
 
-- **`POST /v1/query`**  --  Search across all connected business tools with natural-language queries. Supports connector scoping via the `connectors` parameter and idempotent submissions via the `Idempotency-Key` header. Returns semantically ranked, cited results from each matching connector.
+- **`POST /v1/query`**  --  Search across all connected business tools with natural-language queries. Supports connector scoping via the `connectors` parameter and returns semantically ranked, cited results from each matching connector.
 
 - **`POST /v1/deep_search`**  --  Search the encrypted archive of previously executed queries and their results. Supports date-range filtering and returns similarity-scored matches.
 
@@ -43,7 +43,7 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 - Bearer token authentication via `Authorization` header
 - 60-minute token expiry with server-side refresh detection
 - Token issuance through the CorpusIQ Dashboard and ChatGPT Actions
-- Immediate token revocation from the Dashboard
+- Dashboard disconnect commits inactive CorpusIQ connection state; provider-side authorization remains governed by the provider
 
 ### OpenAPI Specification
 
@@ -60,7 +60,7 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 
 ### Security
 
-- Read-only OAuth scopes across all connectors
+- Operation-level safety annotations distinguish external-source retrieval from write-capable management/control-plane tools
 - Scoped data handling: direct MCP live retrieval plus optional indexed-search embeddings
 - TLS 1.3 for all API traffic
 - AES-256-GCM encryption at rest
@@ -69,7 +69,7 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 ### Connectors
 
 - 40+ native connectors spanning email, calendar, file storage, analytics, CRM, ecommerce, marketing, financial, social media, and databases
-- Read-only OAuth for all cloud services
+- Provider scopes match each connector's documented operations
 - Direct database connectors for PostgreSQL, SQL Server, MySQL, Azure Cosmos DB, and MongoDB
 
 ### Documentation

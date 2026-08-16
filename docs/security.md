@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ Security"
-description: "CorpusIQ security documentation: CASA Tier 2, SOC 2 aligned controls, AES-256, TLS 1.3, read-only OAuth, and scoped data handling"
+description: "CorpusIQ security documentation: CASA Tier 2, SOC 2 aligned controls, AES-256, TLS 1.3, read-only external-source retrieval, and scoped data handling"
 category: "Documentation"
 tags: ["corpusiq security", "soc 2", "casa tier 2", "data privacy", "encryption", "oauth security", "gdpr compliance", "ai security"]
 last_updated: "2026-08-12"
@@ -75,12 +75,12 @@ CorpusIQ processes data under the lawful basis of user consent and legitimate in
 - **Data Minimization:** Only data necessary to answer a query is retrieved
 - **Purpose Limitation:** Retrieved records fulfill the user's request; retained operational metadata supports service security, reliability, and compliance under the published schedule
 - **No Data Sale:** CorpusIQ does not sell or monetize user data; scoped data is shared only with processors required to fulfill the request
-- **No CorpusIQ Model Training:** CorpusIQ does not use customer data to train models; each selected AI client's policy applies to its conversation
+- **No CorpusIQ Model Training:** CorpusIQ does not use customer data to train models; conversation handling follows the selected AI provider's plan and settings
 - **No Background Collection:** Every API call to a connected tool is triggered by an explicit user query. There is no periodic syncing or scheduled polling.
 
 ## 5. Retention and Deletion
 
-1. A query is received and translated into read-only API calls
+1. A query is received and routed to the separately named operations required for the request
 2. Results are fetched from connected tools in real time
 3. Direct MCP requests return the result without building embeddings or file indexes; optional indexed search separately retains embeddings and minimal metadata
 4. Optional indexed-search features may retain embeddings and minimal metadata while the connector remains active
@@ -89,7 +89,7 @@ To request deletion of account data, contact privacy@corpusiq.io. CorpusIQ respo
 
 ## 6. Subprocessors
 
-Infrastructure: Microsoft Azure (US-based). Enterprise cloud infrastructure. For enterprise customers, data residency options are available  --  contact sales@corpusiq.io.
+Infrastructure: Microsoft Azure (US-based). Residency requirements must be validated against the complete customer-specific processing path, including source providers, selected AI clients, logs, and backups.
 
 ## 7. Incident Response
 
@@ -127,7 +127,7 @@ If you discover a security vulnerability, report to security@corpusiq.io. We fol
 ## Frequently Asked Questions
 
 **Q: What security certifications does CorpusIQ hold?**  
-A: CorpusIQ is CASA Tier 2 certified by DEKRA (OWASP Top 10 verified) and maintains a SOC 2 aligned security posture. The platform uses AES-256 encryption at rest, TLS 1.3 in transit, and read-only OAuth for all data source connections.
+A: CorpusIQ is CASA Tier 2 certified by DEKRA (OWASP Top 10 verified) and maintains a SOC 2 aligned security posture. The platform uses AES-256 encryption at rest, TLS 1.3 in transit, and operation-level safety annotations for retrieval and write-capable tools.
 
 **Q: Does CorpusIQ store my business data?**  
 A: Direct MCP requests retrieve source records live without retaining raw customer files or full connector response payloads. Operational query text, tool-call metadata, and bounded outcome summaries are retained for up to 30 days. Optional indexed-search features may retain embeddings and minimal metadata while the connector remains active.
@@ -136,7 +136,7 @@ A: Direct MCP requests retrieve source records live without retaining raw custom
 A: Contact privacy@corpusiq.io to request deletion of account data. CorpusIQ responds to privacy requests within 30 days. Operational MCP query logs remain subject to the 30-day Azure Log Analytics retention window.
 
 **Q: Where is CorpusIQ infrastructure hosted?**  
-A: Infrastructure runs on Microsoft Azure (US-based). Enterprise customers can request data residency options for specific geographic regions. Contact sales@corpusiq.io for details.
+A: Infrastructure runs on Microsoft Azure. Regional deployment terms are not part of the current public contract; contact sales@corpusiq.io for current availability.
 
 **Q: How do I report a security vulnerability?**  
 A: Report to security@corpusiq.io. CorpusIQ follows coordinated disclosure and aims to acknowledge reports within 24 hours. Do not publicly disclose before the team has addressed the issue.

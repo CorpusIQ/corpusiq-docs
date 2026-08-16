@@ -63,7 +63,7 @@ CorpusIQ is designed for structured business data where accuracy, freshness, and
 | **Completeness** | Returns all matching records | Returns top-k similar results |
 | **Aggregation** | Native (SUM, COUNT, AVG via API) | Not supported |
 | **Setup** | 2-minute OAuth | Hours to days (chunking, embedding, indexing) |
-| **Data Movement** | None (queries source) | Full copy to vector store |
+| **Data path** | Direct MCP queries sources live; optional indexed search is separate | Full copy to vector store |
 | **Cost** | Per-seat subscription | Per-vector storage + compute |
 
 ## When Vector Databases Excel

@@ -53,7 +53,7 @@ Each answer is live data, cross-referenced across tools. Not a dashboard. Not a 
 
 ## The read-only guarantee
 
-Every connection is read-only. The AI can query Stripe but can't issue a refund. It can pull HubSpot data but can't close a deal. It can read QuickBooks but can't modify a single transaction.
+External-source retrieval tools are marked read-only; write-capable connector and CorpusIQ control-plane tools are separately named and annotated. The AI can query Stripe but can't issue a refund. It can pull HubSpot data but can't close a deal. It can read QuickBooks but can't modify a single transaction.
 
 For founders who've been burned by automation gone wrong, this is the feature that makes it safe.
 

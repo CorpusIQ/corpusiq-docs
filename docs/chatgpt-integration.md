@@ -64,7 +64,7 @@ All 36 CorpusIQ connectors are available through the ChatGPT integration. See th
 ## Frequently Asked Questions
 
 **Q: How do I connect CorpusIQ to ChatGPT?**  
-A: Open ChatGPT, search for 'CorpusIQ', click Connect to authorize via OAuth, and link your CorpusIQ account. ChatGPT will have immediate read-only access to all your connected business data sources.
+A: Open ChatGPT, search for 'CorpusIQ', click Connect, and authorize your CorpusIQ account. External-source retrieval tools are marked read-only; write-capable and CorpusIQ control-plane tools are separately named and annotated.
 
 **Q: What can I ask ChatGPT with CorpusIQ connected?**  
 A: Ask about MRR, revenue trends, top customers, marketing ROAS, order volumes, P&L statements, pipeline value, and more. Example: 'What was our MRR last month?' or 'Compare this month's revenue to last month.'

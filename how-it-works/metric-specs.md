@@ -436,10 +436,10 @@ reaches your specs.
 
 The provenance footer reports the moment the resolve ran (implicit in
 its `computed_at` field on the underlying `MetricSpecResult`) and tells
-you how many rows came from each connector. There is no "last cache
-update" because there is no cache. If you want to know how stale the
-underlying vendor data is, ask the AI to surface the most recent row
-timestamp alongside the value — that's a one-line addition to the
+you how many rows came from each connector. Metric resolution requests
+current source data; freshness follows each provider and CorpusIQ cache
+behavior. To assess vendor freshness, ask the AI to surface the most
+recent row timestamp alongside the value — that's a one-line addition to the
 question.
 
 **Can I version a spec?**

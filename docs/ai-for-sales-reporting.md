@@ -62,7 +62,7 @@ CorpusIQ connects AI to your CRM and related systems:
 - **HubSpot integration:** Contacts, companies, deals, pipeline stages, and activity history.
 - **Close CRM integration:** Leads, opportunities, activities, and sales rep performance.
 - **Cross-source correlation:** CRM + ERP + billing + marketing  --  unified revenue intelligence.
-- **Read-only security:** OAuth 2.0 with read-only scope. AI can analyze CRM data but can never modify records.
+- **Operation-level safety:** Retrieval tools are marked read-only; write-capable connector and control-plane tools are separately named and annotated.
 
 ## Example Sales Reporting Queries
 
@@ -120,7 +120,7 @@ A: Yes. CorpusIQ queries the standard REST API, so custom objects and fields acc
 A: Real-time. Every query triggers a live API call to your CRM.
 
 **Q: Can AI create opportunities or update CRM records?**
-A: No. All integrations are read-only.
+A: The CRM retrieval tools documented here do not create opportunities or update source CRM records. Separately named CorpusIQ control-plane tools can update user-declared CorpusIQ state.
 
 ## Internal Links
 

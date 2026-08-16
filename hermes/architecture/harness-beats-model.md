@@ -40,7 +40,7 @@ This insight applies directly to business intelligence. Your AI cannot answer yo
 
 ChatGPT is strong enough to calculate margins, forecast cash flow, and analyze trends. It cannot reach your QuickBooks. It cannot query your Shopify. It cannot pull from your Stripe. The model is ready. The harness does not exist.
 
-CorpusIQ is that harness for business data. The connector layer. The read-only OAuth. The metric definitions. The source citations. The cross-AI compatibility. This is the harness that turns a general-purpose AI into a business operating system.
+CorpusIQ is that harness for business data. The connector layer. The read-only external-source retrieval. The metric definitions. The source citations. The cross-AI compatibility. This is the harness that turns a general-purpose AI into a business operating system.
 
 ## The Industry Shift
 

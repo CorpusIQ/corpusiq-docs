@@ -84,7 +84,7 @@ A product manager asks: "Show me the first 30 days of sales for our three most r
 Yes. CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ### Can ChatGPT modify my Shopify store?
-No. The CorpusIQ-Shopify connection is strictly read-only. ChatGPT can analyze your data and make recommendations, but it cannot create products, modify orders, change inventory, adjust prices, or alter any store settings. Your store remains fully under your control.
+The advertised Shopify retrieval tools are read-only and support analysis and recommendations without changing store records. Write-capable tools, when available, are separately named and annotated.
 
 ### What Shopify data can ChatGPT access?
 ChatGPT can access orders, products, customers, inventory levels, discount codes, refund data, and store analytics. It can query across all these data types and perform calculations  --  revenue analysis, customer segmentation, product performance, inventory forecasting  --  using your live data.

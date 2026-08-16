@@ -10,7 +10,7 @@ Connect Salesforce to ChatGPT and ask:
 
 > "Which accounts haven't had activity in 30 days? Rank by ARR."
 
-Setup: corpusiq.io → Connect Salesforce (read-only OAuth) → ChatGPT → Ask.
+Setup: corpusiq.io → Connect Salesforce (read-only external-source retrieval) → ChatGPT → Ask.
 
 ---
 

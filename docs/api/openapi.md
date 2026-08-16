@@ -58,14 +58,6 @@ paths:
         Execute a natural-language query across all or specified connected business
         tools. Returns semantically ranked, cited results from each connector.
       operationId: "searchQuery"
-      parameters:
-        - name: "Idempotency-Key"
-          in: "header"
-          required: false
-          schema:
-            type: "string"
-            format: "uuid"
-          description: "Unique key for idempotent requests. Prevents duplicate query records."
       requestBody:
         required: true
         content:

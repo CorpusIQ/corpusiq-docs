@@ -36,7 +36,7 @@ Fivetran is the leading managed ETL (Extract, Transform, Load) platform, automat
 
 **Fivetran's model:** Extract data from source → transform it → load it into a warehouse → query the warehouse with SQL or BI tools.
 
-**CorpusIQ's model:** AI asks a question → CorpusIQ queries the live source via API → AI presents the answer. No intermediate copy.
+**CorpusIQ's model:** AI asks a question → CorpusIQ queries the live source via API → AI presents the answer. Direct MCP does not retain raw customer files or full connector response payloads; optional indexed search is separate.
 
 This architectural difference has cascading implications for cost, speed, freshness, and complexity.
 
@@ -45,13 +45,13 @@ This architectural difference has cascading implications for cost, speed, freshn
 | Feature | CorpusIQ | Fivetran |
 |---------|----------|----------|
 | **Approach** | Real-time API query (MCP) | Batch ETL pipelines |
-| **Data Freshness** | Instant  --  queries live source | 5 min to 24 hours (sync frequency) |
+| **Data Freshness** | Requested from the provider; freshness follows provider and cache behavior | 5 min to 24 hours (sync frequency) |
 | **Source-data replication** | No raw-file/full-payload warehouse | Full replication to warehouse |
 | **Infrastructure Required** | None | Data warehouse (Snowflake, BigQuery, etc.) |
 | **Setup Complexity** | 2-minute OAuth | Hours to days (connector + warehouse config) |
 | **AI Integration** | Native MCP protocol | Indirect (SQL queries via warehouse) |
 | **Cost Model** | Per-seat subscription | Per-row (MAR) + warehouse costs |
-| **Data Storage** | No replicated source-data warehouse; scoped operational logs up to 30 days | Permanent warehouse copy |
+| **Data Storage** | Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist up to 30 days | Permanent warehouse copy |
 | **Schema Management** | Automatic (API-driven) | Manual schema changes, dbt transforms |
 | **Use Case** | AI-powered business questions | Centralized analytics and reporting |
 
@@ -63,7 +63,7 @@ Every source-data copy creates a governance, security, and freshness burden. Cor
 **Why this matters:** GDPR compliance, SOC 2 audits, and internal data governance all become simpler when you don't maintain additional copies of sensitive business data.
 
 ### 2. Real-Time Freshness
-Fivetran syncs on a schedule  --  every 5 minutes, every hour, every 24 hours. That means your warehouse data is always slightly stale. CorpusIQ queries live APIs on every request, so you always get the current state of your business.
+Fivetran syncs on a schedule  --  every 5 minutes, every hour, every 24 hours. That means your warehouse data is always slightly stale. CorpusIQ requests current provider data for each query; freshness follows provider behavior and any documented CorpusIQ caching.
 
 **Example:** You just closed a $50K deal in HubSpot. With CorpusIQ, an AI query 30 seconds later reflects that deal. With Fivetran, you wait until the next sync  --  potentially hours.
 

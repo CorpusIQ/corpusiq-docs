@@ -60,7 +60,7 @@ Individual adapters for each of the 36 supported business data sources. Each con
 
 ## Security Model
 
-- Read-only access to all connected data sources
+- Read-only external-source retrieval with separately annotated management/control-plane writes
 - OAuth 2.0 with refresh token rotation
 - Device flow prevents credential exposure
 - HTTPS/TLS for all connections

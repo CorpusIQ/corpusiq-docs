@@ -106,7 +106,7 @@ Not entirely  --  they serve different purposes. Zapier excels at automated acti
 <details>
 <summary><strong>Does MCP support triggering actions?</strong></summary>
 
-The base MCP protocol supports write operations, but CorpusIQ defaults to read-only for data safety. For automation workflows that require write operations, Zapier or Make are better choices today. CorpusIQ focuses on the intelligence layer.
+The base MCP protocol supports reads and writes. CorpusIQ marks external-source retrieval tools read-only and exposes write-capable management/control-plane operations separately; Zapier and Make remain focused on multi-step vendor automation.
 </details>
 
 <details>

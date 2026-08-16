@@ -62,7 +62,7 @@ CorpusIQ connects AI to your financial systems through the Model Context Protoco
 - **Stripe integration:** Charges, subscriptions, MRR, refunds, disputes, payouts, balance  --  your payment data becomes conversational.
 - **NetSuite integration:** Enterprise ERP data  --  financials, inventory, orders, procurement  --  accessible through AI.
 - **Cross-source correlation:** Compare QuickBooks to Stripe, NetSuite to Salesforce, Shopify to your accounting system  --  all in one conversation.
-- **Read-only security:** OAuth 2.0 with read-only scope. AI can analyze financial data but can never create, modify, or delete transactions.
+- **Operation-level safety:** Retrieval tools are marked read-only; write-capable connector and control-plane tools are separately named and annotated.
 
 ## Example Financial Analysis Queries
 

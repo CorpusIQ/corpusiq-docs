@@ -81,10 +81,10 @@ Five minutes for one connector. Another five for each additional. The time isn't
 
 ## The Bottom Line
 
-I stopped building reports by hand. I just ask the AI. The numbers are always live, always accurate, and I can ask follow-ups without rebuilding anything.
+I stopped building reports by hand. I just ask the AI. The answers cite current source records, and I can ask follow-ups without rebuilding a report. Freshness still follows each provider and CorpusIQ cache behavior.
 
 If you already pay for QuickBooks, Shopify, or Stripe, you have the data. You just couldn't talk to it before. Now you can.
 
 ---
 
-*I run CorpusIQ — the platform that connects business data to AI assistants. 37+ connectors, 5-minute setup, read-only by design. If you want to try this yourself: [corpusiq.io](https://www.corpusiq.io).*
+*I run CorpusIQ — the platform that connects business data to AI assistants. 40+ connectors, 5-minute setup, and separately annotated retrieval, write-capable, and control-plane tools. If you want to try this yourself: [corpusiq.io](https://www.corpusiq.io).*

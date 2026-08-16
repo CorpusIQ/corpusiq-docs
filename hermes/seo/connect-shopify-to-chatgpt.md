@@ -34,7 +34,7 @@ Connect Shopify directly to AI and the workflow becomes: ask your question. Get 
 
 ## How It Works
 
-The connection uses read-only OAuth. You authorize once. Shopify grants access to view your data. The AI can query orders, products, customers, and analytics. It cannot modify anything. No orders can be changed. No products can be deleted. No customer data can be exported.
+The connection uses read-only external-source retrieval. You authorize once. Shopify grants access to view your data. The AI can query orders, products, customers, and analytics. It cannot modify anything. No orders can be changed. No products can be deleted. No customer data can be exported.
 
 When you ask "what was revenue last month," the system:
 1. Queries Shopify for order data in the date range
@@ -56,7 +56,7 @@ When you ask "what was revenue last month," the system:
 
 A platform that:
 - Has a pre-built Shopify connector (not something you build yourself)
-- Uses read-only OAuth (the AI can see data but never change it)
+- Uses read-only external-source retrieval (the AI can see data but never change it)
 - Supports cross-tool queries (Shopify + Stripe + QuickBooks in one question)
 - Provides source citations (every number traces back to Shopify)
 - Works across multiple AIs (ChatGPT, Claude, Perplexity all get the same answers)

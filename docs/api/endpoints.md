@@ -23,7 +23,6 @@ Search across all connected data sources with a natural-language query.
 POST /v1/query
 Content-Type: application/json
 Authorization: Bearer <token>
-Idempotency-Key: <unique-key>  (optional)
 ```
 
 | Field | Type | Required | Description |
@@ -74,14 +73,6 @@ Idempotency-Key: <unique-key>  (optional)
 }
 ```
 
-### Idempotency
-
-Pass an `Idempotency-Key` header to safely retry `/query` requests without creating duplicate query records. The key must be unique per request. Subsequent requests with the same key within 24 hours return the cached response.
-
-```http
-Idempotency-Key: req_2026-06-16_sales_report
-```
-
 ### Code Examples
 
 **cURL**
@@ -90,7 +81,6 @@ Idempotency-Key: req_2026-06-16_sales_report
 curl -X POST https://mcp2.corpusiq.io/mcp \
   -H "Authorization: Bearer <token>" \
   -H "Content-Type: application/json" \
-  -H "Idempotency-Key: $(uuidgen)" \
   -d '{
     "query": "Show me recent HubSpot deals over $10,000",
     "connectors": ["hubspot"],
@@ -106,7 +96,6 @@ const response = await fetch("https://mcp2.corpusiq.io/mcp", {
   headers: {
     Authorization: `Bearer ${token}`,
     "Content-Type": "application/json",
-    "Idempotency-Key": crypto.randomUUID(),
   },
   body: JSON.stringify({
     query: "Show me recent HubSpot deals over $10,000",
@@ -123,14 +112,12 @@ console.log(data.results);
 
 ```python
 import requests
-import uuid
 
 response = requests.post(
     "https://mcp2.corpusiq.io/mcp",
     headers={
         "Authorization": f"Bearer {token}",
         "Content-Type": "application/json",
-        "Idempotency-Key": str(uuid.uuid4()),
     },
     json={
         "query": "Show me recent HubSpot deals over $10,000",

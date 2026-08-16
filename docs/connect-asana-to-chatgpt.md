@@ -33,7 +33,7 @@ CorpusIQ connects to your Asana account via OAuth 2.0. You authorize read-only a
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. CorpusIQ requests read-only OAuth scopes from Asana. ChatGPT can see projects, tasks, sections, assignees, and custom fields. It cannot create tasks, reassign work, change due dates, modify projects, or alter anything in your Asana workspace. The read-only guarantee is enforced at both the OAuth permission and MCP tool layers.
+Yes. CorpusIQ requests read-only external-source retrieval scopes from Asana. ChatGPT can see projects, tasks, sections, assignees, and custom fields. It cannot create tasks, reassign work, change due dates, modify projects, or alter anything in your Asana workspace. The read-only guarantee is enforced at both the OAuth permission and MCP tool layers.
 </details>
 
 <details>

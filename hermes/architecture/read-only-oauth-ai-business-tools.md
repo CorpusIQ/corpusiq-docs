@@ -1,6 +1,6 @@
 ---
-title: "Read-Only OAuth: Why AI Should Never Write to Your"
-description: "Setup and usage guide for Read-Only OAuth: Why AI Should Never Write to Your Business Tools. Part of the Hermes resource directory."
+title: "Read-Only External-Source Retrieval: Why AI Should Never Write to Your"
+description: "Setup and usage guide for Read-Only External-Source Retrieval: Why AI Should Never Write to Your Business Tools. Part of the Hermes resource directory."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/read-only-oauth-ai-business-tools/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
 
-# Read-Only OAuth: Why AI Should Never Write to Your Business Tools
+# Read-Only External-Source Retrieval: Why AI Should Never Write to Your Business Tools
 
 Every business tool you use contains data that should never be modified by AI. Your QuickBooks general ledger. Your Shopify orders. Your Stripe transactions. Your HubSpot CRM records.
 
@@ -28,7 +28,7 @@ Write access risks include:
 
 **Security exposure**: Write access is a broader attack surface. If an AI with write access is compromised, every tool it can write to is compromised.
 
-## How Read-Only OAuth Works
+## How Read-Only External-Source Retrieval Works
 
 Read-only OAuth gives AI permission to query data but blocks all write operations. The authorization flow is:
 
@@ -41,7 +41,7 @@ Even if the AI tries to modify data, the tool itself blocks the operation. The b
 
 ## Per-Source Authentication
 
-Each tool gets its own read-only OAuth token. Shopify has one token. QuickBooks has another. Stripe has a third. No shared credentials. No master key.
+Each tool gets its own read-only external-source retrieval token. Shopify has one token. QuickBooks has another. Stripe has a third. No shared credentials. No master key.
 
 This means:
 - Compromising one connector does not compromise others
@@ -67,7 +67,7 @@ The promise of AI business intelligence is that you can ask any question about y
 
 Read-only access means:
 - Verified answers from live data
-- Zero risk of data modification
+- Retrieval operations do not modify their source records
 - Complete audit trail of every query
 - Per-source security boundaries
 
@@ -75,7 +75,7 @@ This is not a feature. It is the foundation of trust between AI and business dat
 
 ## What to Look For
 
-When evaluating AI data access platforms, verify that every connector uses read-only OAuth. Ask whether the platform stores your data between queries. Check whether you can see audit logs of what was accessed.
+When evaluating AI data access platforms, inspect provider scopes and tool-level safety metadata separately. Confirm that retrieval operations are marked read-only, identify any write-capable management or control-plane operations, ask what the platform retains, and check whether access is auditable.
 
 If a platform cannot answer these questions clearly, it does not have the security boundary your business data requires.
 

@@ -30,7 +30,7 @@ Each answer draws from live data. Each follow-up question gets an instant answer
 
 **Depth:** Executives ask follow-up questions instead of accepting surface-level data.
 
-**Accuracy:** No more "the dashboard says X but I think it's actually Y" because the data is always live.
+**Verifiability:** Answers cite source records so leaders can check time-sensitive figures against the originating system.
 
 **Adoption:** Everyone uses it because it answers real questions, not pre-built ones.
 

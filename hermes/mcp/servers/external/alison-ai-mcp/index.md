@@ -83,7 +83,7 @@ The client's first call returns `401` with a `WWW-Authenticate` header pointing 
 
 ## Integration with CorpusIQ
 
-Alison AI and CorpusIQ answer the two halves of the same question. CorpusIQ connectors — Meta Ads, Google Ads, LinkedIn Ads — pull cross-channel spend and revenue into one view with CorpusIQ's read-only OAuth model. Evo's MCP adds the creative layer those connectors don't carry: which tags, hooks, and formats are moving the numbers, plus SensorTower/Pathmatics competition metrics.
+Alison AI and CorpusIQ answer the two halves of the same question. CorpusIQ connectors — Meta Ads, Google Ads, LinkedIn Ads — pull cross-channel spend and revenue into one view with CorpusIQ's read-only external-source retrieval model. Evo's MCP adds the creative layer those connectors don't carry: which tags, hooks, and formats are moving the numbers, plus SensorTower/Pathmatics competition metrics.
 
 The composed workflow: CorpusIQ resolves "what did we spend and what did it return across Meta, Google, and LinkedIn," while the Evo MCP inside the same agent session resolves "which creatives drove it, which tags repeat across winners, and what competitors are running." Both surfaces are read-only and grant-scoped, so a growth analyst can be given both without handing over campaign edit rights or spend capability.
 

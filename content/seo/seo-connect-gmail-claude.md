@@ -10,7 +10,7 @@ Connect Gmail to Claude and ask:
 
 > "Which clients haven't been contacted in 30 days?"
 
-Setup: corpusiq.io → Connect Gmail (read-only OAuth, 30s) → Add MCP config → Ask Claude.
+Setup: corpusiq.io → Connect Gmail (read-only external-source retrieval, 30s) → Add MCP config → Ask Claude.
 
 ---
 

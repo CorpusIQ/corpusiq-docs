@@ -15,9 +15,9 @@ Every morning, you open 7 tabs. Shopify. QuickBooks. Google Analytics. Meta Ads.
 2. **Messaging** — Slack (Teams coming soon)
 3. **MCP Server** — For developers and custom agents
 
-## Read-Only OAuth Security
+## Operation-Level Security
 
-Every connector uses read-only OAuth. Direct MCP does not retain raw customer files or full connector response payloads. CorpusIQ does not use customer data to train models; conversation handling follows the selected AI provider's plan and settings. CASA Tier 2 certified by DEKRA.
+External-source retrieval tools are marked read-only; write-capable connector-management and CorpusIQ control-plane tools are separately named and safety-annotated. Direct MCP does not retain raw customer files or full connector response payloads. CorpusIQ does not use customer data to train models; conversation handling follows the selected AI provider's plan and settings. CASA Tier 2 certified by DEKRA.
 
 ## Real Questions
 

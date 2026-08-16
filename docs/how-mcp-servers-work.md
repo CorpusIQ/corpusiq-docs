@@ -205,7 +205,7 @@ CorpusIQ's authentication model:
 
 **OAuth 2.0 for cloud services.** Each business platform (Shopify, QuickBooks, HubSpot, etc.) is connected through OAuth 2.0. Users authorize CorpusIQ to access their data with explicitly scoped permissions. Tokens are stored encrypted at rest and rotated automatically.
 
-**Read-only by default.** Every connector defaults to read-only access. Write operations require explicit opt-in at both the OAuth scope level and the MCP server configuration level. This dual-gate approach prevents accidental data modification.
+**Operation-level safety metadata.** External-source retrieval tools carry read-only annotations. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated for their actual behavior.
 
 **Token isolation.** Each user's OAuth tokens are cryptographically isolated. No user can access another user's data, even within the same CorpusIQ organization.
 

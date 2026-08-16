@@ -32,7 +32,7 @@ Connect your tools. Then ask:
 
 ## Read-only means safe
 
-Every connection is read-only. The AI can query inventory levels but can't create POs. It can check order status but can't modify shipments. You stay in control.
+External-source retrieval tools are marked read-only; write-capable connector and CorpusIQ control-plane tools are separately named and annotated. The AI can query inventory levels but can't create POs. It can check order status but can't modify shipments. You stay in control.
 
 ---
 

@@ -30,7 +30,7 @@ All endpoint paths are relative to this base. The API version (`v1`) is part of 
 
 The primary endpoint for querying connected business tools. Accepts a natural-language question and an optional list of connector IDs to scope the search. CorpusIQ translates the query into read-only API calls, retrieves matching records, ranks them semantically, and returns cited results.
 
-Each `/query` request generates a unique `query_id` that can be used for idempotency and debugging. The `Idempotency-Key` header protects against duplicate submissions.
+Each `/query` request generates a unique `query_id` for tracing and debugging.
 
 ### POST /deep_search
 
@@ -72,7 +72,7 @@ A: The API offers POST /query for connected-source search and POST /deep_search 
 A: All successful responses return HTTP 200 with a JSON body. Errors follow a consistent format with 'type' and 'message' fields. See the errors reference for complete error codes.
 
 **Q: Is the CorpusIQ API read-only?**  
-A: Yes. All API endpoints are read-only. The platform never writes, modifies, or deletes your business data. This is enforced at the protocol, connector, and OAuth scope levels.
+A: External-source retrieval endpoints are read-only. Connector-management and CorpusIQ control-plane endpoints can change CorpusIQ-owned state and are documented separately.
 
 **Q: How fast are API query responses?**  
 A: Most queries return results in 1–5 seconds. Cross-source queries spanning multiple business tools may take slightly longer depending on the number of API calls required.

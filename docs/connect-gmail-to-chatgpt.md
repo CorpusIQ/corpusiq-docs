@@ -33,7 +33,7 @@ CorpusIQ connects to your Gmail account via Google OAuth 2.0 with read-only scop
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. CorpusIQ requests read-only Gmail scopes: gmail.readonly. ChatGPT can search, list, and read emails. It cannot send emails, delete messages, modify labels, change settings, or perform any write operation in your Gmail account. The read-only guarantee is enforced by the Google OAuth scope  --  Gmail's readonly scope does not include any write capabilities.
+Yes. CorpusIQ requests read-only Gmail scopes: gmail.readonly. ChatGPT can search, list, and read emails. It cannot send emails, delete messages, modify labels, change settings, or perform any write operation in your Gmail account. The advertised Gmail retrieval tools are marked read-only. Write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>

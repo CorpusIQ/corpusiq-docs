@@ -18,7 +18,7 @@ CorpusIQ provides read-only external-source retrieval between authorized SaaS ap
 
 - **40+ native connectors**  --  Gmail, Google Drive, Slack, HubSpot, Shopify, QuickBooks, PostgreSQL, and more
 - **MCP-native**  --  Designed for AI assistants that speak the Model Context Protocol
-- **Read-only by design**  --  OAuth scopes are restricted to read access; no write permissions are ever requested
+- **Operation-level permissions**  --  External-source retrieval tools are marked read-only; write-capable and CorpusIQ control-plane tools are separately named and annotated
 - **Scoped data handling**  --  Direct MCP uses live retrieval; optional indexed-search features use embeddings and minimal metadata
 - **SOC 2 aligned & CASA Tier 2 certified**  --  formal SOC 2 certification is not claimed; CASA was assessed by DEKRA
 
