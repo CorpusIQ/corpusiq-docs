@@ -1,0 +1,113 @@
+name: Deploy docs to production Vercel
+
+# Issue #99: production docs live at https://docs.corpusiq.io (Vercel project
+# prj_sKOYMEdaQZjCcJwYDgfb4KN61na2), proxied from https://www.corpusiq.io/docs/*.
+# GitHub Pages (pages.yml) is staging-only and must not be reported as
+# production publication. This workflow makes a merge to main the production
+# publication path: build MkDocs, copy the llms feeds into site/, deploy to
+# the existing Vercel project, then probe both public URLs for a known marker.
+#
+# Required repository secrets:
+#   VERCEL_TOKEN      — Vercel API token (from ~/.hermes/profiles/corpusiq/secrets/vercel.json)
+#   VERCEL_ORG_ID     — team slug/id ("corpus-iq")
+#   VERCEL_PROJECT_ID — prj_sKOYMEdaQZjCcJwYDgfb4KN61na2
+#
+# Deployment failures are loud: any failed step or failed probe fails this
+# workflow, so a green Pages run alone can never be mistaken for production.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'mkdocs.yml'
+      - 'requirements.txt'
+      - 'docs/**'
+      - '**/*.md'
+      - 'assets/**'
+      - 'llms.txt'
+      - 'llms-full.txt'
+      - 'vercel.json'
+      - '.github/workflows/pages.yml'
+      - '.github/workflows/vercel-deploy.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Serialize production deploys; never cancel one in flight.
+concurrency:
+  group: vercel-prod
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Validate frontmatter
+        run: python scripts/validate_frontmatter.py
+
+      - name: Validate public retention claims and generated feeds
+        run: |
+          python scripts/validate_retention_claims.py
+          python -m unittest scripts/test_validate_retention_claims.py
+          python scripts/generate_llms_txt.py
+          git diff --exit-code -- llms.txt llms-full.txt
+
+      - name: Build site
+        run: mkdocs build --site-dir ./site
+
+      - name: Copy llms feeds into site
+        run: cp llms.txt llms-full.txt site/
+
+      - name: Deploy to Vercel production
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: |
+          npx --yes vercel@latest deploy site --yes --prod \
+            --token "$VERCEL_TOKEN" \
+            --team "$VERCEL_ORG_ID"
+
+      - name: Probe production markers
+        run: |
+          python - <<'EOF'
+          import urllib.request
+
+          # Marker: truthful directory disclosure wording shipped by PR #98.
+          marker = "control-plane"
+          urls = [
+              "https://docs.corpusiq.io/security/",
+              "https://www.corpusiq.io/docs/security/",
+              "https://docs.corpusiq.io/llms.txt",
+          ]
+          failed = []
+          for url in urls:
+              try:
+                  body = urllib.request.urlopen(url, timeout=30).read().decode("utf-8", "ignore")
+                  ok = ("security" in body) if url.endswith("llms.txt") else (marker in body)
+              except Exception as exc:
+                  ok = False
+                  print(f"PROBE FAIL {url}: {exc}")
+              print(f"PROBE {'OK  ' if ok else 'FAIL'} {url}")
+              if not ok:
+                  failed.append(url)
+          if failed:
+              raise SystemExit(f"Production probe failed for: {', '.join(failed)}")
+          EOF
