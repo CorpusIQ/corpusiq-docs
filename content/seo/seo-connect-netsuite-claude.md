@@ -10,7 +10,7 @@ Connect NetSuite to Claude and ask:
 
 > "What's our order backlog? Which customers are waiting?"
 
-Setup: corpusiq.io → Connect NetSuite (read-only OAuth) → Claude → Ask.
+Setup: corpusiq.io → Connect NetSuite (read-only external-source retrieval) → Claude → Ask.
 
 ---
 

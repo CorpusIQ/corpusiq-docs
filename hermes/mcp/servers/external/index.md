@@ -842,7 +842,7 @@ Also discovered but not yet with full guides: MemeBoat MCP (meme generation), Pr
 
 ## Data Firewall Suite (PortEden)
 
-The **PortEden Secure*** family puts a data firewall between AI agents and your Google/Microsoft accounts. Every action is permission-gated, content-redacted, and audit-logged. One-click revoke. Complementary to CorpusIQ's read-only OAuth model.
+The **PortEden Secure*** family puts a data firewall between AI agents and your Google/Microsoft accounts. Every action is permission-gated, content-redacted, and audit-logged. One-click revoke. Complementary to CorpusIQ's read-only external-source retrieval model.
 
 ### Secure Calendar (Google Calendar & Outlook)
 Search schedule, check availability, create/reschedule/cancel events, RSVP. AI held to permissions you grant. Every change logged.

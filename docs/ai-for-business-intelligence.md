@@ -61,7 +61,7 @@ The CorpusIQ MCP platform is purpose-built for AI-powered business intelligence.
 
 2. **MCP-native architecture.** Built on the Model Context Protocol, an open standard for AI-to-tool communication. Any MCP-compatible AI (Claude, ChatGPT, and others) can use CorpusIQ connectors.
 
-3. **Read-only security model.** OAuth 2.0 with read-only scope across all integrations. AI can query data but can never modify systems of record.
+3. **Operation-level security model.** External-source retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane tools are separately named and safety-annotated.
 
 4. **Cross-source query engine.** Ask one question that spans five tools. "How did our Facebook ad spend correlate with Shopify revenue and Google Analytics traffic last month?"  --  answered in a single response.
 

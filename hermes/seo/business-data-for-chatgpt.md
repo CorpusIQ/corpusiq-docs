@@ -39,7 +39,7 @@ ChatGPT can answer general versions of these questions. It cannot answer them fo
 The approach is not to move your data into ChatGPT. ChatGPT is not a database and should not become one. The approach is to create a read-only bridge between ChatGPT and your business tools.
 
 Each tool connects independently:
-- Shopify via read-only OAuth for order and product data
+- Shopify via read-only external-source retrieval for order and product data
 - QuickBooks via Intuit API for financial data
 - Stripe via restricted API key for payment data
 - GA4 via Google Analytics API for traffic data

@@ -38,7 +38,7 @@ A better AI model will still not have access to your Stripe account. Or your Sho
 
 The fix is the connection layer between your data and your AI.
 
-When your tools are connected once with read-only OAuth, every AI you use pulls from the same live data. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days.
+When your tools are connected once with read-only external-source retrieval, every AI you use pulls from the same live data. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days.
 
 The AI becomes a window into your actual numbers, not a guess generator.
 

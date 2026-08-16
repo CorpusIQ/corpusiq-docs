@@ -37,7 +37,7 @@ Connect your HR tools. Then ask:
 
 ## The read-only guarantee
 
-Every connection is read-only. The AI can query headcount data but cannot modify employee records. It can pull compensation data but cannot change salaries. HR data is sensitive — read-only access is non-negotiable.
+External-source retrieval tools are marked read-only; write-capable connector and CorpusIQ control-plane tools are separately named and annotated. The AI can query headcount data but cannot modify employee records. It can pull compensation data but cannot change salaries. HR data is sensitive — read-only access is non-negotiable.
 
 ---
 

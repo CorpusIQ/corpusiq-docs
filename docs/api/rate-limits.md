@@ -74,9 +74,9 @@ if remaining < 5:
     time.sleep(10)  # Let the rate limit window catch up
 ```
 
-### Use Idempotency Keys
+### Retry Explicitly
 
-For `/query`, use `Idempotency-Key` headers to safely retry without consuming additional rate limit quota. Duplicate requests with the same key within 24 hours return a cached response and do not count against your limit.
+Retry only after an explicit transient error, and follow the response status and retry guidance.
 
 ### Batch Questions
 

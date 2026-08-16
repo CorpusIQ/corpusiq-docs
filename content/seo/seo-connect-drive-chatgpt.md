@@ -10,7 +10,7 @@ Connect Google Drive to ChatGPT and ask:
 
 > "What contracts are expiring this quarter? Find them in Drive."
 
-Setup: corpusiq.io → Connect Google Drive (read-only OAuth) → ChatGPT → Ask.
+Setup: corpusiq.io → Connect Google Drive (read-only external-source retrieval) → ChatGPT → Ask.
 
 ---
 

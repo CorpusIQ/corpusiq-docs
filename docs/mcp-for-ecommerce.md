@@ -101,7 +101,7 @@ Ecommerce success depends on understanding customers:
 
 **Unified connector library.** CorpusIQ connects to Shopify, Amazon, eBay, Klaviyo, Mailchimp, Google Ads, Meta Ads, Google Analytics, QuickBooks, Stripe, and more  --  all through a single MCP server.
 
-**Read-only access.** All ecommerce connectors default to read-only. You can analyze order data, inventory levels, and customer information without any risk of modifying products, orders, or settings.
+**Explicit operation boundaries.** Ecommerce retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane operations are separately named and safety-annotated.
 
 **Real-time queries.** Ask about today's orders and get today's data  --  not yesterday's export. Critical for inventory decisions, fulfillment monitoring, and flash sale performance tracking.
 
@@ -138,7 +138,7 @@ Yes. Connect Amazon advertising data alongside order data to analyze which campa
 <details>
 <summary><strong>Is this secure for my store data?</strong></summary>
 
-Yes. All connections use OAuth with read-only scopes. CorpusIQ cannot modify your products, orders, or customer data. Connected commerce platforms remain authoritative; direct-MCP and operational-log retention follow the published lifecycles.
+Provider scopes vary by connection. The ecommerce retrieval tools documented here do not write products, orders, or customer records back to their sources; write-capable management/control-plane operations are separate. Connected commerce platforms remain authoritative, and retention follows the published lifecycles.
 </details>
 
 <details>

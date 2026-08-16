@@ -28,7 +28,7 @@ Create an account at [corpusiq.io/register](https://corpusiq.io/register). You c
 3. Click **Add Connection** on any service you want to connect
 4. Complete the OAuth authorization flow
 
-CorpusIQ uses **read-only OAuth scopes**  --  it can search your data but never modify it. The exact permissions are displayed on the authorization screen.
+Provider scopes vary by connector and are displayed on the authorization screen. External-source retrieval tools are marked read-only; write-capable management/control-plane tools are separately named and annotated.
 
 Popular first connections:
 - **Gmail**  --  Search your email history
@@ -114,7 +114,6 @@ curl -X POST https://mcp2.corpusiq.io/mcp \
 curl -X POST https://mcp2.corpusiq.io/mcp \
   -H "Authorization: Bearer $CORPUSIQ_TOKEN" \
   -H "Content-Type: application/json" \
-  -H "Idempotency-Key: $(uuidgen)" \
   -d '{"query": "How many HubSpot deals closed this quarter?"}'
 ```
 

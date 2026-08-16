@@ -143,7 +143,7 @@ Shopify's dashboard shows a fixed set of widgets with limited customization and 
 Yes. Through CorpusIQ, schedule dashboard delivery via email, Slack, or file storage (Google Drive, OneDrive, Dropbox). "Send me the morning dashboard at 8 AM daily" or "Deliver the weekly performance report to the ecommerce Slack channel every Monday at 9 AM."
 
 ### How current is the dashboard data?
-Live. Every dashboard query fetches data from Shopify's API in real time at the moment you ask. There's no batch processing, no cache delay, no ETL window. If an order just came in, it's reflected.
+Dashboard queries request current Shopify data. Freshness follows Shopify and CorpusIQ cache behavior; verify time-sensitive orders against the cited source record.
 
 ### Can multiple team members have their own dashboards?
 Yes. Each team member can have personalized dashboard templates. Marketing sees marketing KPIs. Operations sees fulfillment metrics. The CEO sees the executive summary. All draw from the same live Shopify data.

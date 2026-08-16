@@ -26,7 +26,7 @@ An MCP server is a lightweight program that sits between an AI model and your da
 
 The server then executes the request against your live data  --  your Shopify store, your Salesforce CRM, your Google Analytics  --  and returns structured results the AI can understand and explain in natural language.
 
-Critically, MCP servers are **read-only by design** for business intelligence use cases. They don't modify data, create records, or execute destructive operations unless explicitly configured to do so. This architecture makes MCP inherently safer than traditional API integrations, where a misconfigured call could modify production data.
+MCP servers advertise operation-level annotations rather than a universal read-only guarantee. CorpusIQ marks external-source retrieval tools read-only and separately names and annotates write-capable and control-plane operations.
 
 ## How Tool Discovery Works
 
@@ -74,13 +74,13 @@ CorpusIQ's MCP implementation adds critical enterprise features on top of the ba
 
 **Unified authentication**  --  connect all your data sources once through OAuth, not once per server
 **Cross-source queries**  --  ask questions that span multiple data sources in a single conversation
-**Read-only guardrails**  --  every connector defaults to read-only, with explicit opt-in for write operations
+**Operation-level guardrails**  --  retrieval and write-capable operations use separate names and behavior-matched safety annotations
 **Audit logging**  --  every tool call is logged for compliance and debugging
 **Canonical facts**  --  declare business definitions once and have them applied consistently across all queries
 
 ## How It Works: A Step-by-Step Walkthrough
 
-**Step 1: Connection.** You connect your business data sources to CorpusIQ through OAuth. Each connection is scoped to read-only access by default. CorpusIQ stores your tokens securely and never shares them with third parties.
+**Step 1: Connection.** You connect business data sources through provider authorization. Provider scopes vary by documented operation; retrieval and write-capable tools are separately named and annotated. CorpusIQ stores required credentials encrypted and does not expose them in tool responses.
 
 **Step 2: Discovery.** When you start a conversation with an MCP-enabled AI assistant, the client queries your CorpusIQ MCP server and discovers every available tool  --  "list Shopify orders," "get QuickBooks profit and loss," "search HubSpot contacts," and hundreds more.
 

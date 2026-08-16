@@ -75,7 +75,7 @@ Traditional ROAS analysis requires:
 - Building a spreadsheet with VLOOKUPs
 - Manual updates every time you want to check
 
-With CorpusIQ, it's one question. Every time. The data is always live.
+With CorpusIQ, it's one question. Every time. The analysis requests current provider data; freshness follows each provider and CorpusIQ cache behavior.
 
 ## Next Steps
 

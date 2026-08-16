@@ -88,7 +88,7 @@ The context window is how much information the AI can "hold in mind" at once. Cl
 CorpusIQ uses a read-only QuickBooks connection and encrypted transport. Data handling inside Claude follows the terms and settings of the Anthropic plan you choose; review Anthropic's current policy before sending sensitive financial data.
 
 ### Can Claude create QuickBooks journal entries?
-No. Like all CorpusIQ AI integrations, the QuickBooks connection is read-only. Claude can identify needed adjustments and draft journal entry recommendations, but a human must approve and enter them into QuickBooks. This separation of analysis from execution is a deliberate safety feature.
+The QuickBooks retrieval tools documented here are read-only and can identify adjustments or draft recommendations. Write-capable connector and CorpusIQ control-plane tools, when present, are separately named and annotated.
 
 ### Does Claude work with QuickBooks Desktop?
 Claude through CorpusIQ connects to QuickBooks Online via the QuickBooks API. QuickBooks Desktop is not directly supported, though enterprise customers can arrange for batch data imports. Contact our sales team for Desktop integration options.

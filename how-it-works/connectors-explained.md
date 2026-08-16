@@ -84,10 +84,7 @@ don't have to know that — the skills engine handles it. See
 ## When you want it off
 
 Disconnect any connector from the CorpusIQ status panel. The token is
-deleted from CorpusIQ's storage. The vendor's side will also show the
-app as removed once the token expires (most fire-and-forget tokens are
-gone within an hour; refresh tokens are wiped immediately on
-disconnect).
+removed from CorpusIQ's active connection state, which requires reauthorization before reuse. Provider-side authorization and token expiration remain governed by the provider; manage them in the provider's controls.
 
 You can reconnect at any time. There is no penalty for switching off and
 back on.

@@ -1,5 +1,31 @@
 {
   "forbidden_families": {
+    "reviewer_semantic_probes": [
+      {"label": "whole_product_lookup_only", "text": "CorpusIQ is lookup-only across every connector."},
+      {"label": "whole_product_non_mutating", "text": "The CorpusIQ platform is non-mutating."},
+      {"label": "whole_product_only_observes", "text": "CorpusIQ only observes connected business systems."},
+      {"label": "whole_product_observation_only", "text": "Every connector is observation-only."},
+      {"label": "provider_scope_intuit", "text": "The Intuit grant is read-only."},
+      {"label": "provider_scope_quickbooks_grant", "text": "QuickBooks OAuth grants read access only."},
+      {"label": "no_storage_forgotten", "text": "CorpusIQ forgets every customer record after answering."},
+      {"label": "no_storage_durable_footprint", "text": "A completed request leaves no durable footprint."},
+      {"label": "no_copy_shadow", "text": "CorpusIQ creates no shadow copy of customer data."},
+      {"label": "no_cache_always_origin", "text": "Every query always hits the provider origin."},
+      {"label": "immediate_credential_disconnect", "text": "Disconnect immediately deletes the provider token."},
+      {"label": "immediate_provider_cutoff", "text": "Provider access is cut off instantly on disconnect."},
+      {"label": "webhook_signed", "text": "CorpusIQ webhooks are HMAC-signed."},
+      {"label": "webhook_callback", "text": "CorpusIQ webhooks deliver signed HTTP callbacks to your server."},
+      {"label": "webhook_retry", "text": "Failed webhooks are automatically retried."},
+      {"label": "idempotency_key", "text": "Use an Idempotency-Key for idempotent requests."},
+      {"label": "idempotency_cached", "text": "The same key within 24 hours returns the cached response."},
+      {"label": "residency", "text": "Enterprise data residency options are available."},
+      {"label": "human_confirmation", "text": "Every write operation requires human confirmation."},
+      {"label": "deletion_receipt", "text": "Account deletion returns a timestamped deletion receipt."},
+      {"label": "credential_revocation", "text": "CorpusIQ revokes provider credentials on disconnect."},
+      {"label": "storage_cost_prefix_poison", "text": "No data storage cost is added, and CorpusIQ stores no customer data."},
+      {"label": "payment_scope_prefix_poison", "text": "We do not store card numbers or full payment details; CorpusIQ stores no customer data."},
+      {"label": "editorial_prefix_poison", "text": "Avoid saying data never leaves the source; CorpusIQ stores no customer data."}
+    ],
     "regional_residency": [
       {
         "label": "regional_boundary_guarantee",
@@ -98,6 +124,10 @@
         "text": "Revoke tokens immediately from the dashboard."
       },
       {
+        "label": "immediate_token_revocation",
+        "text": "Immediate token revocation from the Dashboard."
+      },
+      {
         "label": "strictly_read_only_product",
         "text": "CorpusIQ is strictly read-only."
       },
@@ -110,12 +140,212 @@
         "text": "MCP tool definitions are registered as read-only."
       },
       {
+        "label": "all_presented_tools_read_only",
+        "text": "All MCP tool definitions presented to the AI describe read-only capabilities."
+      },
+      {
+        "label": "presented_model_tools_read_only",
+        "text": "The MCP tool definitions presented to the AI model describe read-only capabilities."
+      },
+      {
+        "label": "all_connectors_use_read_only_oauth",
+        "text": "All connectors use read-only OAuth scopes."
+      },
+      {
+        "label": "every_connector_defaults_read_only",
+        "text": "Every connector defaults to read-only."
+      },
+      {
+        "label": "all_integrations_read_only",
+        "text": "All integrations are read-only."
+      },
+      {
+        "label": "whole_mcp_endpoint_read_only",
+        "text": "The AI can query them live through CorpusIQ's MCP endpoint with read-only access."
+      },
+      {
+        "label": "read_only_oauth_across_all_connectors",
+        "text": "Read-only OAuth scopes across all connectors."
+      },
+      {
+        "label": "all_api_endpoints_read_only",
+        "text": "All API endpoints are read-only."
+      },
+      {
+        "label": "read_only_scope_all_integrations",
+        "text": "OAuth uses read-only scope across all integrations."
+      },
+      {
+        "label": "all_ecommerce_read_only",
+        "text": "All ecommerce connectors default to read-only."
+      },
+      {
+        "label": "all_connections_read_only_scopes",
+        "text": "All connections use OAuth with read-only scopes."
+      },
+      {
+        "label": "read_only_all_systems",
+        "text": "Read-only across all systems."
+      },
+      {
+        "label": "read_only_all_connected_sources",
+        "text": "Read-only access to all connected data sources."
+      },
+      {
+        "label": "oauth_every_connection",
+        "text": "Read-only OAuth on every connection."
+      },
+      {
+        "label": "zero_modification_risk",
+        "text": "Zero risk of data modification."
+      },
+      {
+        "label": "never_requests_write_permissions",
+        "text": "CorpusIQ never requests write permissions."
+      },
+      {
         "label": "no_connector_write_permissions",
         "text": "No write permissions on any connector."
       },
       {
         "label": "architecturally_impossible_modification",
         "text": "Accidental data modification is architecturally impossible."
+      },
+      {
+        "label": "architecturally_prevented_modification",
+        "text": "Accidental data modification is architecturally prevented."
+      },
+      {
+        "label": "unsupported_human_confirmation_gate",
+        "text": "CorpusIQ can require human confirmation before executing write operations."
+      },
+      {
+        "label": "unsupported_human_confirmation_before_execution",
+        "text": "CorpusIQ can require human confirmation before execution."
+      },
+      {
+        "label": "unsupported_generic_scoped_writes",
+        "text": "CorpusIQ supports scoped write operations with explicit opt-in."
+      },
+      {
+        "label": "unsupported_additional_scope_approval",
+        "text": "Users must explicitly approve additional scopes."
+      },
+      {
+        "label": "unsupported_scope_dashboard_visibility",
+        "text": "Users can see exactly which scopes are granted through the CorpusIQ dashboard."
+      },
+      {
+        "label": "unsupported_cross_connector_scope_isolation",
+        "text": "Granting write access to one platform doesn't grant write access to another."
+      },
+      {
+        "label": "unsupported_scope_independent_read_only_enforcement",
+        "text": "Tools marked as read-only cannot execute writes regardless of granted OAuth scopes."
+      },
+      {
+        "label": "unsupported_configurable_connector_writes",
+        "text": "An API call that would modify data is blocked unless the connector is explicitly configured."
+      },
+      {
+        "label": "unsupported_read_only_business_intelligence_scope",
+        "text": "Provider scopes are the minimum necessary for read-only business intelligence."
+      },
+      {
+        "label": "unsupported_external_connector_blanket_read_only",
+        "text": "External-source connector access is read-only."
+      },
+      {
+        "label": "unsupported_data_source_permissions_blanket",
+        "text": "Data source connections use OAuth with scoped, read-only permissions."
+      },
+      {
+        "label": "unsupported_dashboard_revocation",
+        "text": "Tokens can be revoked from the dashboard at any time."
+      },
+      {
+        "label": "unsupported_individual_revocation",
+        "text": "Connections can be revoked individually."
+      },
+      {
+        "label": "unsupported_no_api_keys_stored",
+        "text": "No raw API keys stored or exposed."
+      },
+      {
+        "label": "unsupported_immediate_disconnect",
+        "text": "CorpusIQ honors disconnect immediately."
+      },
+      {
+        "label": "unsupported_disconnect_deletes_token",
+        "text": "When you disconnect a connector, CorpusIQ deletes the stored token."
+      },
+      {
+        "label": "unsupported_disconnect_token_gone",
+        "text": "Disconnect from the status panel and the token is gone."
+      },
+      {
+        "label": "unsupported_immediate_stop_reading",
+        "text": "Pull the plug and it stops reading that tool immediately."
+      },
+      {
+        "label": "unsupported_nothing_moved_or_stored",
+        "text": "Nothing about your files is moved or stored."
+      },
+      {
+        "label": "unsupported_residency_options_available",
+        "text": "Data residency options are available."
+      },
+      {
+        "label": "unsupported_read_only_contract",
+        "text": "The server enforces the read-only contract."
+      },
+      {
+        "label": "unsupported_every_connection_read_only",
+        "text": "Every connection is read-only."
+      },
+      {
+        "label": "unsupported_connectors_read_only_design",
+        "text": "Connectors are read-only by design."
+      },
+      {
+        "label": "unsupported_read_only_everywhere",
+        "text": "Read-only everywhere."
+      },
+      {
+        "label": "unsupported_each_connection_default",
+        "text": "Each connection is scoped to read-only access by default."
+      },
+      {
+        "label": "unsupported_intuit_read_scopes",
+        "text": "CorpusIQ requests read-only OAuth scopes from Intuit."
+      },
+      {
+        "label": "unsupported_intuit_only_read_permissions",
+        "text": "Only read permissions are requested from Intuit."
+      },
+      {
+        "label": "unsupported_no_intermediate_copy",
+        "text": "CorpusIQ queries the source with no intermediate copy."
+      },
+      {
+        "label": "unsupported_no_cached_data",
+        "text": "Results contain no cached or stale data."
+      },
+      {
+        "label": "unsupported_instant_disconnect",
+        "text": "Instant disconnect from CorpusIQ."
+      },
+      {
+        "label": "unsupported_immediate_cutoff",
+        "text": "Revoke the token to immediately cut off access."
+      },
+      {
+        "label": "unsupported_revoke_instantly",
+        "text": "You can revoke access instantly."
+      },
+      {
+        "label": "nonexistent_quickbooks_read_scope",
+        "text": "QuickBooks uses com.intuit.quickbooks.accounting.read."
       },
       {
         "label": "all_access_read_only",
@@ -693,8 +923,8 @@
   },
   "legitimate_controls": [
     {
-      "label": "read_only_writeback",
-      "text": "Nothing is written back to connected tools."
+      "label": "operation_level_boundary",
+      "text": "External-source retrieval tools are marked read-only; write-capable tools are separately named and annotated."
     },
     {
       "label": "payment_card_scope",

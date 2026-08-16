@@ -112,7 +112,7 @@ Claude can search across public channels and private channels it has been added 
 A: Claude can only access public channels and private channels it has been explicitly added to. Direct messages are never accessible.
 
 **Q: Can Claude send messages to Slack?**
-A: No. The integration is strictly read-only.
+A: The advertised Slack retrieval tools are read-only and do not send messages. Write-capable tools, when available, are separately named and annotated.
 
 **Q: How far back can Claude search?**
 A: Claude can search your entire message history, subject to your Slack workspace's retention settings.

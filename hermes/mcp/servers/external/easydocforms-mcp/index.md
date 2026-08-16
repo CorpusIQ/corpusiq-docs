@@ -71,7 +71,7 @@ Or point any MCP client at the published Docker config. Source: `github.com/easy
 
 easydocforms pairs naturally with CorpusIQ's document-intelligence and CRM connectors. A composed workflow: the agent retrieves the completed intake PDF, CorpusIQ's document connectors structure it into fields, and the HubSpot or CRM connector records the patient record and follow-up task — while the raw PHI stays in the form platform's storage, not in the agent transcript.
 
-The philosophy matches CorpusIQ's own read-only OAuth model: the agent orchestrates, the platform holds the sensitive data, and the operator stays in control of every system of record.
+The philosophy matches CorpusIQ's own read-only external-source retrieval model: the agent orchestrates, the platform holds the sensitive data, and the operator stays in control of every system of record.
 
 ## Limitations
 

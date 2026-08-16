@@ -14,7 +14,7 @@ AI-powered HubSpot reporting means asking:
 
 Connect HubSpot to AI via MCP. Live pipeline data. Instant answers.
 
-Setup: corpusiq.io → HubSpot (read-only OAuth, 30s) → ChatGPT/Claude → Ask.
+Setup: corpusiq.io → HubSpot (read-only external-source retrieval, 30s) → ChatGPT/Claude → Ask.
 
 ---
 

@@ -4,8 +4,8 @@ You want to connect your business data to an AI assistant. You're comparing plat
 
 ## The 5 questions that matter
 
-**1. Is it read-only?**
-If a connector can write to your QuickBooks or Stripe, it's a liability. The AI should query your data, not modify it. Read-only should be architectural — not a setting you can accidentally toggle.
+**1. Are permissions operation-specific?**
+Retrieval and write operations should be separately named and annotated. A blanket read-only label is not enough.
 
 **2. How many connectors do you actually need?**
 Don't count connectors. Count the ones you'll use. Most businesses need five: accounting (QuickBooks/Xero), payments (Stripe), CRM (HubSpot/Salesforce), ecommerce (Shopify), analytics (GA4). If a platform has those five, it covers 90% of questions.
@@ -23,7 +23,7 @@ Look for live retrieval, disclosed processors, scoped operational retention, and
 
 | Criteria | CorpusIQ |
 |----------|----------|
-| Read-only | Architectural — no write path exists |
+| Permissions | Retrieval tools marked read-only; write-capable and control-plane tools separately annotated |
 | Core connectors | All five + 32 more |
 | Cross-tool queries | Native — ask across any combination |
 | AI compatibility | ChatGPT, Claude, Perplexity, any MCP client |
@@ -33,4 +33,4 @@ Look for live retrieval, disclosed processors, scoped operational retention, and
 
 ---
 
-*CorpusIQ: 37+ connectors. Read-only. Cross-tool queries built in. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors, operation-level permissions, and cross-tool queries. [corpusiq.io](https://www.corpusiq.io)*

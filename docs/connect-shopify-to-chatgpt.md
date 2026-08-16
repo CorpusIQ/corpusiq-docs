@@ -33,7 +33,7 @@ CorpusIQ uses the Model Context Protocol (MCP)  --  an open standard for connect
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. CorpusIQ requests read-only OAuth scopes from Shopify. ChatGPT can see orders, products, customers, and store analytics. It cannot create orders, modify products, issue refunds, change prices, or alter anything in your store. The worst that can happen is an incorrect answer  --  never an incorrect database update.
+Yes. CorpusIQ requests read-only external-source retrieval scopes from Shopify. ChatGPT can see orders, products, customers, and store analytics. It cannot create orders, modify products, issue refunds, change prices, or alter anything in your store. The worst that can happen is an incorrect answer  --  never an incorrect database update.
 </details>
 
 <details>
@@ -82,7 +82,7 @@ CorpusIQ offers a free 30-day trial that includes the Shopify connector. After t
 
 The architecture is straightforward. CorpusIQ acts as a secure MCP bridge between ChatGPT and your Shopify store. Here's the flow:
 
-1. **Connect Shopify to CorpusIQ.** You authorize CorpusIQ to access your Shopify store via read-only OAuth. This takes about 2 minutes  --  enter your store's myshopify.com domain, sign into Shopify, and approve the requested scopes.
+1. **Connect Shopify to CorpusIQ.** You authorize CorpusIQ to access your Shopify store via read-only external-source retrieval. This takes about 2 minutes  --  enter your store's myshopify.com domain, sign into Shopify, and approve the requested scopes.
 
 2. **Connect CorpusIQ to ChatGPT.** In ChatGPT, you add the CorpusIQ MCP server as a connected app. ChatGPT discovers all your connected data sources automatically. See our [ChatGPT integration guide](chatgpt-integration.md) for step-by-step instructions.
 

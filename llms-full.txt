@@ -125,7 +125,7 @@ CorpusIQ provides read-only external-source retrieval between authorized SaaS ap
 
 - **40+ native connectors**  --  Gmail, Google Drive, Slack, HubSpot, Shopify, QuickBooks, PostgreSQL, and more
 - **MCP-native**  --  Designed for AI assistants that speak the Model Context Protocol
-- **Read-only by design**  --  OAuth scopes are restricted to read access; no write permissions are ever requested
+- **Operation-level permissions**  --  External-source retrieval tools are marked read-only; write-capable and CorpusIQ control-plane tools are separately named and annotated
 - **Scoped data handling**  --  Direct MCP uses live retrieval; optional indexed-search features use embeddings and minimal metadata
 - **SOC 2 aligned & CASA Tier 2 certified**  --  formal SOC 2 certification is not claimed; CASA was assessed by DEKRA
 
@@ -320,7 +320,7 @@ A: Any MCP-compatible client. Claude, ChatGPT, Perplexity, local Ollama models, 
 A: No. CorpusIQ is a standalone MCP server. You can use it with a local LLM, any API provider, or any MCP-compatible tool. No vendor lock.
 
 **Q: What data operations can my AI agent perform?**  
-A: Your agent can query ~500 tools across 34 business connectors  --  Stripe revenue, QuickBooks P&L, HubSpot deals, Shopify orders, Meta Ads campaigns, GA4 analytics, PostgreSQL/MSSQL/MongoDB queries  --  all read-only.
+A: Your agent can use the reviewer-visible CorpusIQ tool catalog across business connectors. External-source retrieval tools are marked read-only; write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated.
 
 ---
 
@@ -373,7 +373,7 @@ The CorpusIQ AI chat provides natural language access to your connected business
 ## Search and Retrieval Capabilities
 
 - Natural language search across all connected sources
-- Real-time data queries (no cached or stale data)
+- Live source queries; provider and transport caching behavior may vary
 - Cross-source correlation (e.g., Stripe revenue vs Shopify orders)
 - Date range filtering
 - Aggregation and summarization
@@ -606,7 +606,7 @@ The CorpusIQ MCP platform is purpose-built for AI-powered business intelligence.
 
 2. **MCP-native architecture.** Built on the Model Context Protocol, an open standard for AI-to-tool communication. Any MCP-compatible AI (Claude, ChatGPT, and others) can use CorpusIQ connectors.
 
-3. **Read-only security model.** OAuth 2.0 with read-only scope across all integrations. AI can query data but can never modify systems of record.
+3. **Operation-level security model.** External-source retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane tools are separately named and safety-annotated.
 
 4. **Cross-source query engine.** Ask one question that spans five tools. "How did our Facebook ad spend correlate with Shopify revenue and Google Analytics traffic last month?"  --  answered in a single response.
 
@@ -1390,7 +1390,7 @@ CorpusIQ connects AI to your financial systems through the Model Context Protoco
 - **Stripe integration:** Charges, subscriptions, MRR, refunds, disputes, payouts, balance  --  your payment data becomes conversational.
 - **NetSuite integration:** Enterprise ERP data  --  financials, inventory, orders, procurement  --  accessible through AI.
 - **Cross-source correlation:** Compare QuickBooks to Stripe, NetSuite to Salesforce, Shopify to your accounting system  --  all in one conversation.
-- **Read-only security:** OAuth 2.0 with read-only scope. AI can analyze financial data but can never create, modify, or delete transactions.
+- **Operation-level safety:** Retrieval tools are marked read-only; write-capable connector and control-plane tools are separately named and annotated.
 
 ## Example Financial Analysis Queries
 
@@ -2069,7 +2069,7 @@ Status meetings can be shorter and more productive when AI has already gathered 
 A: Monday.com is supported natively. Jira, Asana, and Linear can be accessed via database connectors or API. Direct connectors for additional PM tools are in development.
 
 **Q: Can AI create or update tasks?**
-A: No. All integrations are read-only. AI analyzes and reports on project data but cannot modify it.
+A: The project-management retrieval tools documented here analyze and report on project data; they do not create or update source tasks. Separately named CorpusIQ control-plane tools can update user-declared CorpusIQ state.
 
 **Q: How does AI handle complex project dependencies?**
 A: Claude can analyze task relationships and dependencies when they're represented in your project management tool's data model and identify at-risk dependency chains.
@@ -2144,7 +2144,7 @@ The CorpusIQ platform provides the connective tissue that makes unified RevOps p
 - **Billing connectors:** Stripe, QuickBooks, NetSuite.
 - **Analytics connectors:** GA4, PostHog, database connectors (PostgreSQL, MSSQL, MongoDB).
 - **Unified querying:** Ask one question that spans five tools.
-- **Read-only across all systems:** Zero risk of modifying production data.
+- **Explicit tool boundaries:** Retrieval tools are marked read-only; write-capable management/control-plane tools are separately named and annotated.
 
 ## Example RevOps Queries
 
@@ -2271,7 +2271,7 @@ CorpusIQ connects AI to your CRM and related systems:
 - **HubSpot integration:** Contacts, companies, deals, pipeline stages, and activity history.
 - **Close CRM integration:** Leads, opportunities, activities, and sales rep performance.
 - **Cross-source correlation:** CRM + ERP + billing + marketing  --  unified revenue intelligence.
-- **Read-only security:** OAuth 2.0 with read-only scope. AI can analyze CRM data but can never modify records.
+- **Operation-level safety:** Retrieval tools are marked read-only; write-capable connector and control-plane tools are separately named and annotated.
 
 ## Example Sales Reporting Queries
 
@@ -2329,7 +2329,7 @@ A: Yes. CorpusIQ queries the standard REST API, so custom objects and fields acc
 A: Real-time. Every query triggers a live API call to your CRM.
 
 **Q: Can AI create opportunities or update CRM records?**
-A: No. All integrations are read-only.
+A: The CRM retrieval tools documented here do not create opportunities or update source CRM records. Separately named CorpusIQ control-plane tools can update user-declared CorpusIQ state.
 
 ## Internal Links
 
@@ -2419,7 +2419,7 @@ Your backend forwards authenticated user requests to CorpusIQ. The API token nev
 
 ### Token Revocation
 
-Tokens can be revoked from the Dashboard (**Settings → API → Revoke All Tokens**). The service commits an inactive state before credential cleanup and surfaces cleanup failures for retry. If a token is compromised, revoke it through CorpusIQ and the provider, then generate a new one.
+The Dashboard can clear CorpusIQ MCP session state so a fresh token is required at the next login. This does not revoke authorization held by a connected provider; manage provider-side authorization in the provider's controls.
 
 ## Header Reference
 
@@ -2427,7 +2427,6 @@ Tokens can be revoked from the Dashboard (**Settings → API → Revoke All Toke
 |--------|----------|-------------|
 | `Authorization` | Yes | `Bearer <token>` |
 | `Content-Type` | Yes (POST) | Must be `application/json` |
-| `Idempotency-Key` | Optional | Unique key for idempotent `/query` requests |
 
 ## Testing Authentication
 
@@ -2496,7 +2495,6 @@ Search across all connected data sources with a natural-language query.
 POST /v1/query
 Content-Type: application/json
 Authorization: Bearer <token>
-Idempotency-Key: <unique-key>  (optional)
 ```
 
 | Field | Type | Required | Description |
@@ -2547,14 +2545,6 @@ Idempotency-Key: <unique-key>  (optional)
 }
 ```
 
-### Idempotency
-
-Pass an `Idempotency-Key` header to safely retry `/query` requests without creating duplicate query records. The key must be unique per request. Subsequent requests with the same key within 24 hours return the cached response.
-
-```http
-Idempotency-Key: req_2026-06-16_sales_report
-```
-
 ### Code Examples
 
 **cURL**
@@ -2563,7 +2553,6 @@ Idempotency-Key: req_2026-06-16_sales_report
 curl -X POST https://mcp2.corpusiq.io/mcp \
   -H "Authorization: Bearer <token>" \
   -H "Content-Type: application/json" \
-  -H "Idempotency-Key: $(uuidgen)" \
   -d '{
     "query": "Show me recent HubSpot deals over $10,000",
     "connectors": ["hubspot"],
@@ -2579,7 +2568,6 @@ const response = await fetch("https://mcp2.corpusiq.io/mcp", {
   headers: {
     Authorization: `Bearer ${token}`,
     "Content-Type": "application/json",
-    "Idempotency-Key": crypto.randomUUID(),
   },
   body: JSON.stringify({
     query: "Show me recent HubSpot deals over $10,000",
@@ -2596,14 +2584,12 @@ console.log(data.results);
 
 ```python
 import requests
-import uuid
 
 response = requests.post(
     "https://mcp2.corpusiq.io/mcp",
     headers={
         "Authorization": f"Bearer {token}",
         "Content-Type": "application/json",
-        "Idempotency-Key": str(uuid.uuid4()),
     },
     json={
         "query": "Show me recent HubSpot deals over $10,000",
@@ -2776,7 +2762,7 @@ All CorpusIQ API errors follow a consistent JSON structure with a machine-readab
 | **401** | `unauthorized` | The Bearer token is missing, invalid, or expired. Obtain a new token. An `X-Token-Expired: true` header accompanies expired tokens. |
 | **403** | `forbidden` | The authenticated user does not have permission to access the requested resource or connector. Verify connector OAuth scopes. |
 | **404** | `not_found` | The requested resource (query ID, connector, or endpoint) does not exist. Check the URL and resource identifiers. |
-| **409** | `conflict` | The request conflicts with the current state. Common for duplicate `Idempotency-Key` submissions with different request bodies. |
+| **409** | `conflict` | The request conflicts with the current resource state. Inspect the response details before retrying. |
 | **413** | `payload_too_large` | The request body exceeds the maximum allowed size of 1 MB. Reduce `max_results` or split the query. |
 | **429** | `rate_limited` | The rate limit for the endpoint has been exceeded. A `retry_after_seconds` field indicates when to retry. See [Rate Limits](/docs/api/rate-limits). |
 | **500** | `server_error` | An unexpected internal error occurred on the CorpusIQ side. Retry with exponential backoff. If errors persist, contact api@corpusiq.io. |
@@ -2831,9 +2817,9 @@ for attempt in range(max_retries):
         time.sleep(wait)
 ```
 
-## Idempotency and 409 Conflicts
+## 409 Conflicts
 
-A `409 Conflict` with `Idempotency-Key` means the same key was used with a different request body. Generate a new key for each unique request. If the request body is identical, the API returns the cached response with a `200` status.
+A `409 Conflict` means the request conflicts with current resource state. Inspect the response details and do not assume a retry is safe.
 
 ## Frequently Asked Questions
 
@@ -2974,14 +2960,6 @@ paths:
         Execute a natural-language query across all or specified connected business
         tools. Returns semantically ranked, cited results from each connector.
       operationId: "searchQuery"
-      parameters:
-        - name: "Idempotency-Key"
-          in: "header"
-          required: false
-          schema:
-            type: "string"
-            format: "uuid"
-          description: "Unique key for idempotent requests. Prevents duplicate query records."
       requestBody:
         required: true
         content:
@@ -3282,7 +3260,7 @@ All endpoint paths are relative to this base. The API version (`v1`) is part of 
 
 The primary endpoint for querying connected business tools. Accepts a natural-language question and an optional list of connector IDs to scope the search. CorpusIQ translates the query into read-only API calls, retrieves matching records, ranks them semantically, and returns cited results.
 
-Each `/query` request generates a unique `query_id` that can be used for idempotency and debugging. The `Idempotency-Key` header protects against duplicate submissions.
+Each `/query` request generates a unique `query_id` for tracing and debugging.
 
 ### POST /deep_search
 
@@ -3324,7 +3302,7 @@ A: The API offers POST /query for connected-source search and POST /deep_search 
 A: All successful responses return HTTP 200 with a JSON body. Errors follow a consistent format with 'type' and 'message' fields. See the errors reference for complete error codes.
 
 **Q: Is the CorpusIQ API read-only?**  
-A: Yes. All API endpoints are read-only. The platform never writes, modifies, or deletes your business data. This is enforced at the protocol, connector, and OAuth scope levels.
+A: External-source retrieval endpoints are read-only. Connector-management and CorpusIQ control-plane endpoints can change CorpusIQ-owned state and are documented separately.
 
 **Q: How fast are API query responses?**  
 A: Most queries return results in 1–5 seconds. Cross-source queries spanning multiple business tools may take slightly longer depending on the number of API calls required.
@@ -3419,9 +3397,9 @@ if remaining < 5:
     time.sleep(10)  # Let the rate limit window catch up
 ```
 
-### Use Idempotency Keys
+### Retry Explicitly
 
-For `/query`, use `Idempotency-Key` headers to safely retry without consuming additional rate limit quota. Duplicate requests with the same key within 24 hours return a cached response and do not count against your limit.
+Retry only after an explicit transient error, and follow the response status and retry guidance.
 
 ### Batch Questions
 
@@ -3648,7 +3626,7 @@ Individual adapters for each of the 36 supported business data sources. Each con
 
 ## Security Model
 
-- Read-only access to all connected data sources
+- Read-only external-source retrieval with separately annotated management/control-plane writes
 - OAuth 2.0 with refresh token rotation
 - Device flow prevents credential exposure
 - HTTPS/TLS for all connections
@@ -3707,15 +3685,15 @@ This real-time capability eliminates the decision latency that plagues tradition
 
 Consider a retail business monitoring Black Friday performance. With a data warehouse, they're looking at data that's hours old. With MCP, they can ask "what's selling fastest right now?" and get an answer drawn from live Shopify data. That timeliness translates to better decisions about inventory reallocation, promotional adjustments, and staffing.
 
-## 2. Security by Design: Read-Only Access
+## 2. Security by Design: Explicit Tool Boundaries
 
-MCP servers, as implemented by CorpusIQ, default to read-only access. This is not an accident  --  it's a deliberate architectural choice that eliminates the largest category of integration risk: unintended data modification.
+CorpusIQ separates external-source retrieval from write-capable connector-management and CorpusIQ control-plane operations. Tool names, schemas, and safety annotations make that boundary visible before invocation.
 
 Every other integration approach  --  direct API access, RPA bots, database connections  --  requires careful permission management to prevent write operations. A developer with a database connection string can potentially modify or delete records. An RPA bot with user credentials can perform any action the user can. Even a well-intentioned API integration can have bugs that modify production data.
 
-MCP's read-only default means even a misconfigured query or an erroneous AI suggestion cannot modify your data. The worst that can happen is an incorrect answer  --  not an incorrect database update. This property is particularly valuable for financial systems, CRM platforms, and other mission-critical data sources where data integrity is paramount.
+Retrieval tools marked read-only cannot execute write operations. Write-capable tools are separately named and limited to their declared actions. This reduces unintended-change risk for financial systems, CRM platforms, and other mission-critical sources without claiming that the whole product is read-only.
 
-For organizations that do need write capabilities, CorpusIQ supports scoped write operations with explicit opt-in at both the OAuth and server configuration levels. But the default is safety.
+AI clients can use the published safety annotations when deciding whether to request confirmation. The exact confirmation behavior remains governed by the selected client's interface and policy.
 
 ## 3. AI-Native Simplicity
 
@@ -4855,7 +4833,7 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 
 ### New Endpoints
 
-- **`POST /v1/query`**  --  Search across all connected business tools with natural-language queries. Supports connector scoping via the `connectors` parameter and idempotent submissions via the `Idempotency-Key` header. Returns semantically ranked, cited results from each matching connector.
+- **`POST /v1/query`**  --  Search across all connected business tools with natural-language queries. Supports connector scoping via the `connectors` parameter and returns semantically ranked, cited results from each matching connector.
 
 - **`POST /v1/deep_search`**  --  Search the encrypted archive of previously executed queries and their results. Supports date-range filtering and returns similarity-scored matches.
 
@@ -4865,7 +4843,7 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 - Bearer token authentication via `Authorization` header
 - 60-minute token expiry with server-side refresh detection
 - Token issuance through the CorpusIQ Dashboard and ChatGPT Actions
-- Immediate token revocation from the Dashboard
+- Dashboard disconnect commits inactive CorpusIQ connection state; provider-side authorization remains governed by the provider
 
 ### OpenAPI Specification
 
@@ -4882,7 +4860,7 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 
 ### Security
 
-- Read-only OAuth scopes across all connectors
+- Operation-level safety annotations distinguish external-source retrieval from write-capable management/control-plane tools
 - Scoped data handling: direct MCP live retrieval plus optional indexed-search embeddings
 - TLS 1.3 for all API traffic
 - AES-256-GCM encryption at rest
@@ -4891,7 +4869,7 @@ The first public release of the CorpusIQ API, providing programmatic access to t
 ### Connectors
 
 - 40+ native connectors spanning email, calendar, file storage, analytics, CRM, ecommerce, marketing, financial, social media, and databases
-- Read-only OAuth for all cloud services
+- Provider scopes match each connector's documented operations
 - Direct database connectors for PostgreSQL, SQL Server, MySQL, Azure Cosmos DB, and MongoDB
 
 ### Documentation
@@ -5614,7 +5592,7 @@ Instead of navigating QuickBooks' report menus or exporting CSV files for analys
 
 CorpusIQ's MCP platform acts as the secure middleware layer between ChatGPT and QuickBooks Online. Here's the workflow:
 
-1. **Connect Your QuickBooks Account**  --  Authenticate via OAuth 2.0 in under 60 seconds. CorpusIQ establishes a read-only connection to your QuickBooks company file, ensuring your financial data can be queried but never modified by the AI.
+1. **Connect Your QuickBooks Account**  --  Authenticate via OAuth 2.0 in under 60 seconds. CorpusIQ exposes separately named QuickBooks retrieval tools that are marked read-only; write-capable tools, when present, are separately annotated.
 
 2. **ChatGPT Gains Financial Context**  --  Once connected, CorpusIQ exposes QuickBooks as a set of structured tools that ChatGPT can invoke. These include profit & loss reports, balance sheets, accounts receivable aging, invoice lookups, customer searches, and vendor lists.
 
@@ -5796,7 +5774,7 @@ A product manager asks: "Show me the first 30 days of sales for our three most r
 Yes. CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ### Can ChatGPT modify my Shopify store?
-No. The CorpusIQ-Shopify connection is strictly read-only. ChatGPT can analyze your data and make recommendations, but it cannot create products, modify orders, change inventory, adjust prices, or alter any store settings. Your store remains fully under your control.
+The advertised Shopify retrieval tools are read-only and support analysis and recommendations without changing store records. Write-capable tools, when available, are separately named and annotated.
 
 ### What Shopify data can ChatGPT access?
 ChatGPT can access orders, products, customers, inventory levels, discount codes, refund data, and store analytics. It can query across all these data types and perform calculations  --  revenue analysis, customer segmentation, product performance, inventory forecasting  --  using your live data.
@@ -5918,7 +5896,7 @@ All 36 CorpusIQ connectors are available through the ChatGPT integration. See th
 ## Frequently Asked Questions
 
 **Q: How do I connect CorpusIQ to ChatGPT?**  
-A: Open ChatGPT, search for 'CorpusIQ', click Connect to authorize via OAuth, and link your CorpusIQ account. ChatGPT will have immediate read-only access to all your connected business data sources.
+A: Open ChatGPT, search for 'CorpusIQ', click Connect, and authorize your CorpusIQ account. External-source retrieval tools are marked read-only; write-capable and CorpusIQ control-plane tools are separately named and annotated.
 
 **Q: What can I ask ChatGPT with CorpusIQ connected?**  
 A: Ask about MRR, revenue trends, top customers, marketing ROAS, order volumes, P&L statements, pipeline value, and more. Example: 'What was our MRR last month?' or 'Compare this month's revenue to last month.'
@@ -6150,7 +6128,7 @@ The context window is how much information the AI can "hold in mind" at once. Cl
 CorpusIQ uses a read-only QuickBooks connection and encrypted transport. Data handling inside Claude follows the terms and settings of the Anthropic plan you choose; review Anthropic's current policy before sending sensitive financial data.
 
 ### Can Claude create QuickBooks journal entries?
-No. Like all CorpusIQ AI integrations, the QuickBooks connection is read-only. Claude can identify needed adjustments and draft journal entry recommendations, but a human must approve and enter them into QuickBooks. This separation of analysis from execution is a deliberate safety feature.
+The QuickBooks retrieval tools documented here are read-only and can identify adjustments or draft recommendations. Write-capable connector and CorpusIQ control-plane tools, when present, are separately named and annotated.
 
 ### Does Claude work with QuickBooks Desktop?
 Claude through CorpusIQ connects to QuickBooks Online via the QuickBooks API. QuickBooks Desktop is not directly supported, though enterprise customers can arrange for batch data imports. Contact our sales team for Desktop integration options.
@@ -6369,7 +6347,7 @@ CorpusIQ connects to your Asana account via OAuth 2.0. You authorize read-only a
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. CorpusIQ requests read-only OAuth scopes from Asana. ChatGPT can see projects, tasks, sections, assignees, and custom fields. It cannot create tasks, reassign work, change due dates, modify projects, or alter anything in your Asana workspace. The read-only guarantee is enforced at both the OAuth permission and MCP tool layers.
+Yes. CorpusIQ requests read-only external-source retrieval scopes from Asana. ChatGPT can see projects, tasks, sections, assignees, and custom fields. It cannot create tasks, reassign work, change due dates, modify projects, or alter anything in your Asana workspace. The read-only guarantee is enforced at both the OAuth permission and MCP tool layers.
 </details>
 
 <details>
@@ -6527,7 +6505,7 @@ CorpusIQ connects to your Gmail account via Google OAuth 2.0 with read-only scop
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. CorpusIQ requests read-only Gmail scopes: gmail.readonly. ChatGPT can search, list, and read emails. It cannot send emails, delete messages, modify labels, change settings, or perform any write operation in your Gmail account. The read-only guarantee is enforced by the Google OAuth scope  --  Gmail's readonly scope does not include any write capabilities.
+Yes. CorpusIQ requests read-only Gmail scopes: gmail.readonly. ChatGPT can search, list, and read emails. It cannot send emails, delete messages, modify labels, change settings, or perform any write operation in your Gmail account. The advertised Gmail retrieval tools are marked read-only. Write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>
@@ -6955,7 +6933,7 @@ CorpusIQ connects to HubSpot via OAuth 2.0 and exposes HubSpot's CRM objects as 
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. CorpusIQ requests read-only scopes from HubSpot. ChatGPT can see contacts, deals, and companies. It cannot create contacts, move deals between stages, modify company properties, or change anything in your CRM. The read-only guarantee is enforced at both the OAuth scope level and the MCP tool level.
+The advertised HubSpot retrieval tools are read-only and expose contacts, deals, and companies without modifying them. Write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>
@@ -7048,10 +7026,10 @@ Instead of building a pipeline report in HubSpot: "Show me all deals by stage wi
 
 ## Security: Read-Only by Design
 
-The HubSpot integration is read-only at every layer:
+The advertised HubSpot retrieval surface is read-only:
 
-- **OAuth Scopes:** Read-only access to contacts, companies, deals, and account metadata. No write, create, update, or delete permissions.
-- **MCP Tools:** Only query tools are exposed  --  contact search, deal listing, company retrieval. No tools exist to create, modify, or delete HubSpot records.
+- **Retrieval tools:** Contact search, deal listing, and company retrieval are marked read-only.
+- **Other operations:** Write-capable tools, when available, are separately named and annotated.
 - **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Encryption:** All data in transit is encrypted via TLS 1.3 between HubSpot, CorpusIQ, and ChatGPT.
 
@@ -7150,9 +7128,9 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
 
 ### Security
 
-- **Read-only OAuth 2.0.** Claude can query contacts, companies, and deals but cannot create, update, or delete CRM records.
-- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
-- **Instant disconnect.** Revoke access from HubSpot or CorpusIQ at any time.
+- **Operation-level safety.** HubSpot retrieval tools are marked read-only; write-capable tools, when present, are separately named and annotated.
+- **Scoped direct-MCP retention.** Direct MCP does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **Disconnect behavior.** CorpusIQ disconnect requires reauthorization before reuse; provider authorization remains governed by HubSpot.
 
 ### Comparison: MCP vs. HubSpot API Direct
 
@@ -7405,7 +7383,7 @@ CorpusIQ connects to your Monday.com account via OAuth 2.0. You authorize read-o
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. CorpusIQ requests read-only OAuth scopes from Monday.com. ChatGPT can see boards, items, statuses, owners, and due dates. It cannot create items, update statuses, reassign tasks, or modify anything in your Monday.com account. The read-only guarantee is enforced at the OAuth scope level.
+Yes. CorpusIQ requests read-only external-source retrieval scopes from Monday.com. ChatGPT can see boards, items, statuses, owners, and due dates. It cannot create items, update statuses, reassign tasks, or modify anything in your Monday.com account. The advertised Monday.com retrieval tools are marked read-only; write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>
@@ -7530,19 +7508,6 @@ Direct API integration is appropriate for building custom Monday.com apps, autom
 5. **Explore.** Try "Show me my open tasks across all boards" or "What's due this week?"
 
 Setup takes under 5 minutes. No API keys to manage. No GraphQL to write.
-
-## Related Pages
-
-- [Connect Asana to ChatGPT](connect-asana-to-chatgpt.md)  --  alternative work management in ChatGPT
-- [Connect Jira to ChatGPT](connect-jira-to-chatgpt.md)  --  software development tracking in ChatGPT
-- [Connect Notion to ChatGPT](connect-notion-to-chatgpt.md)  --  documentation and wiki in ChatGPT
-- [Connect Slack to ChatGPT](connect-slack-to-chatgpt.md)  --  team communication in ChatGPT
-- [Connect HubSpot to ChatGPT](connect-hubspot-to-chatgpt.md)  --  CRM data in ChatGPT
-- [ChatGPT Integration Overview](chatgpt-integration.md)  --  the full integration
-- [Benefits of MCP for Business](benefits-of-mcp-for-business.md)  --  why MCP wins
-- [MCP for Operations](mcp-for-operations.md)  --  MCP for ops teams
-- [Monday.com Connector Reference](connect-monday-com-to-chatgpt.md)  --  technical details
-- [MCP vs. API Integrations](mcp-vs-api-integrations.md)  --  detailed comparison
 
 [Content truncated; see the canonical page for the complete text.]
 
@@ -7951,11 +7916,11 @@ The Notion integration provides layered security:
 
 - **Integration Token** with read-only capabilities. No content creation, editing, or deletion.
 - **Page-Level Sharing.** You explicitly share each top-level page and database with the integration. Unshared pages are inaccessible regardless of workspace membership.
-- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **Scoped direct-MCP retention.** Notion retrieval tools are marked read-only. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **TLS 1.3 Encryption.** All data in transit is encrypted.
-- **Token Revocation.** Revoke the integration token from Notion at any time to immediately cut off access.
+- **Provider authorization.** Manage the integration token through Notion; provider-side timing remains governed by Notion.
 
-For organizations with sensitive documentation  --  IP, strategy, customer data  --  this architecture provides granular access control: expose only the pages you want ChatGPT to access, and revoke access instantly if needed.
+For organizations with sensitive documentation  --  IP, strategy, customer data  --  this architecture provides granular access control: expose only the pages you want ChatGPT to access, and manage provider authorization in Notion when needed.
 
 [Content truncated; see the canonical page for the complete text.]
 
@@ -8250,7 +8215,7 @@ CorpusIQ connects to your QuickBooks Online company file via OAuth 2.0. You auth
 <details>
 <summary><strong>Is this read-only? Can ChatGPT modify my books?</strong></summary>
 
-Yes, entirely read-only. CorpusIQ requests read-only OAuth scopes from Intuit. ChatGPT can view your P&L, balance sheet, invoices, payments, customers, vendors, and chart of accounts. It cannot create invoices, record payments, modify journal entries, or alter anything in your QuickBooks file. The read-only guarantee is enforced at the OAuth permission layer and at the MCP server tool level.
+The QuickBooks retrieval tools documented here are marked read-only and cover reports, invoices, payments, customers, vendors, and accounts. Provider scopes are those required by Intuit for the documented operations; write-capable tools, when present, are separately named and annotated.
 </details>
 
 <details>
@@ -8305,7 +8270,7 @@ CorpusIQ uses your QuickBooks default reporting basis. If your company is set to
 
 The architecture is clean and secure:
 
-1. **Connect QuickBooks to CorpusIQ.** Click Connections → QuickBooks in your CorpusIQ dashboard. Sign into Intuit, select your company file, and approve read-only access. Takes 2 minutes.
+1. **Connect QuickBooks to CorpusIQ.** Click Connections → QuickBooks in your CorpusIQ dashboard. Sign into Intuit, select your company file, and review and approve the provider scopes. Takes 2 minutes.
 
 2. **Connect CorpusIQ to ChatGPT.** Add the CorpusIQ MCP server as a connected app in ChatGPT. The server advertises its available financial tools to ChatGPT automatically.
 
@@ -8351,11 +8316,11 @@ Start every morning by asking ChatGPT: "What's our cash position today?" "Any pa
 
 ## Security: Read-Only by Design
 
-CorpusIQ's QuickBooks integration is read-only at every layer:
+CorpusIQ publishes operation-level permissions for QuickBooks:
 
-- **OAuth Scopes:** Only read permissions are requested from Intuit  --  no write, modify, or delete scopes.
-- **MCP Tools:** The QuickBooks connector tools are query-only  --  P&L report, invoice list, balance sheet, AR aging, customer list. There is no tool to create, update, or delete anything.
-- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **Provider scopes:** CorpusIQ requests the Intuit scopes required for documented operations.
+- **MCP tools:** Retrieval and write-capable operations are separately named and safety-annotated.
+- **Scoped direct-MCP retention.** QuickBooks retrieval tools are marked read-only. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Encrypted in Transit:** All data between QuickBooks, CorpusIQ, and ChatGPT is encrypted via TLS 1.3.
 
 For organizations in regulated industries, this read-only architecture eliminates the most common financial data risk: unintended modification. Even a misdirected query cannot change your books.
@@ -8398,7 +8363,7 @@ QuickBooks contains your company's financial truth  --  profit and loss, balance
 - **AR/AP visibility.** Ask "Which customers owe us more than $5,000?" or "What bills are due next week?" without digging through QuickBooks screens.
 - **Cross-source financial intelligence.** Combine QuickBooks data with Shopify revenue, Stripe payments, or Salesforce pipeline for a complete financial picture.
 - **Cash flow at your fingertips.** Claude can analyze your balance sheet, AR aging, and AP aging together to give you an instant cash position assessment.
-- **Read-only security.** OAuth 2.0 with read-only scope. Claude can analyze your financial data but can never create, modify, or delete transactions.
+- **Operation-level safety.** QuickBooks retrieval tools are marked read-only; write-capable tools, when present, are separately named and annotated.
 
 ### How It Works
 
@@ -8409,7 +8374,7 @@ The CorpusIQ MCP architecture for QuickBooks follows the same secure pattern as 
 3. **CorpusIQ translates** your question into the appropriate QuickBooks API calls and executes them with your stored credentials.
 4. **Claude presents** the results in natural language, with calculated metrics, trend observations, and actionable context.
 
-The connection is always live  --  every question triggers a fresh API call, so you're never looking at stale financial data.
+Each question requests current QuickBooks data. Freshness follows QuickBooks and CorpusIQ cache behavior; verify time-sensitive values against cited records.
 
 ### Setup Steps
 
@@ -8458,8 +8423,8 @@ Financial data is among the most sensitive information in any organization. Corp
 
 - **Read-only OAuth 2.0.** Claude can query financial data but can never create journal entries, modify invoices, or delete transactions.
 - **Documented controls.** CorpusIQ maintains a SOC 2 aligned posture and is CASA Tier 2 certified by DEKRA; formal SOC 2 certification is not claimed.
-- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
-- **Instant revocability.** Disconnect QuickBooks from CorpusIQ or revoke the Intuit token at any time.
+- **Scoped direct-MCP retention.** QuickBooks retrieval tools are marked read-only. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **Disconnect behavior.** CorpusIQ disconnect commits inactive connection state and requires reauthorization; provider authorization remains governed by Intuit.
 - **Audit trail.** All queries through CorpusIQ are logged, giving your compliance team visibility into who asked what and when.
 
 ### Comparison: MCP vs. Direct QuickBooks API
@@ -8506,7 +8471,7 @@ The integration supports QuickBooks Online. QuickBooks Desktop is not currently 
 <details>
 <summary><strong>Can Claude create invoices or journal entries?</strong></summary>
 
-No. The integration is strictly read-only. Claude can analyze and report on financial data but cannot create, modify, or delete anything in QuickBooks.
+The advertised QuickBooks retrieval tools are read-only and do not create, modify, or delete records. Write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>
@@ -8726,7 +8691,7 @@ Salesforce is powerful but complex. The average enterprise Salesforce org has hu
 - **Cross-source enterprise intelligence.** Combine Salesforce pipeline with NetSuite financials, Stripe billing, or Snowflake analytics.
 - **Meeting intelligence.** Before any customer call, ask Claude for the account's full history  --  opportunities, cases, recent activity.
 - **Forecasting support.** Claude can analyze pipeline velocity, historical close rates, and current opportunities to support forecast discussions.
-- **Read-only security.** OAuth 2.0 with read-only scope. Claude can never modify your Salesforce data.
+- **Operation-level safety.** Retrieval tools are marked read-only; write-capable tools, when present, are separately named and annotated.
 
 ### How It Works
 
@@ -8796,7 +8761,7 @@ CorpusIQ queries standard Salesforce REST API endpoints. Custom objects accessib
 <details>
 <summary><strong>Can Claude modify Salesforce records?</strong></summary>
 
-No. The integration is strictly read-only.
+The advertised Salesforce retrieval tools are read-only. Write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>
@@ -9145,7 +9110,7 @@ CorpusIQ uses the Model Context Protocol (MCP)  --  an open standard for connect
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. CorpusIQ requests read-only OAuth scopes from Shopify. ChatGPT can see orders, products, customers, and store analytics. It cannot create orders, modify products, issue refunds, change prices, or alter anything in your store. The worst that can happen is an incorrect answer  --  never an incorrect database update.
+Yes. CorpusIQ requests read-only external-source retrieval scopes from Shopify. ChatGPT can see orders, products, customers, and store analytics. It cannot create orders, modify products, issue refunds, change prices, or alter anything in your store. The worst that can happen is an incorrect answer  --  never an incorrect database update.
 </details>
 
 <details>
@@ -9194,7 +9159,7 @@ CorpusIQ offers a free 30-day trial that includes the Shopify connector. After t
 
 The architecture is straightforward. CorpusIQ acts as a secure MCP bridge between ChatGPT and your Shopify store. Here's the flow:
 
-1. **Connect Shopify to CorpusIQ.** You authorize CorpusIQ to access your Shopify store via read-only OAuth. This takes about 2 minutes  --  enter your store's myshopify.com domain, sign into Shopify, and approve the requested scopes.
+1. **Connect Shopify to CorpusIQ.** You authorize CorpusIQ to access your Shopify store via read-only external-source retrieval. This takes about 2 minutes  --  enter your store's myshopify.com domain, sign into Shopify, and approve the requested scopes.
 
 2. **Connect CorpusIQ to ChatGPT.** In ChatGPT, you add the CorpusIQ MCP server as a connected app. ChatGPT discovers all your connected data sources automatically. See our [ChatGPT integration guide](chatgpt-integration.md) for step-by-step instructions.
 
@@ -9342,7 +9307,7 @@ Once connected, Claude can answer an enormous range of Shopify questions. Here a
 
 ### Security and Permissions
 
-CorpusIQ uses OAuth 2.0 with read-only scope for the Shopify integration. This means:
+Shopify provider scopes vary by documented operation. The retrieval tools described here are marked read-only:
 
 - **Claude can read** your orders, products, customers, and analytics.
 - **Claude can never write**  --  it cannot create, update, or delete anything in your Shopify store.
@@ -9382,13 +9347,13 @@ No. The OAuth flow is point-and-click. Anyone with Shopify admin access can conn
 <details>
 <summary><strong>Can Claude modify my Shopify store  --  create products, update orders, or change prices?</strong></summary>
 
-No. The integration is strictly read-only. Claude can query your data but cannot make any changes to your Shopify store.
+The advertised Shopify retrieval tools are read-only and do not change the store. Write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>
 <summary><strong>How current is the data Claude sees?</strong></summary>
 
-Real-time. Every question you ask triggers a fresh API call to Shopify. Claude always works with live data, not cached snapshots.
+Each question requests current Shopify data. Freshness follows Shopify and CorpusIQ cache behavior; use cited source records for time-sensitive verification.
 </details>
 
 <details>
@@ -9400,7 +9365,7 @@ The integration works with any Shopify plan that includes API access. Most plans
 <details>
 <summary><strong>Can I limit which data Claude can access?</strong></summary>
 
-Yes. The OAuth scope is read-only across orders, products, customers, and analytics. You can further restrict access by only granting specific scopes during authorization.
+Yes. The advertised Shopify retrieval tools for orders, products, customers, and analytics are marked read-only; write-capable tools, when available, are separately named and annotated. You can further restrict access by only granting specific scopes during authorization.
 </details>
 
 <details>
@@ -9466,7 +9431,7 @@ CorpusIQ connects to your Slack workspace via OAuth 2.0. You authorize read-only
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. CorpusIQ requests read-only OAuth scopes from Slack. ChatGPT can read channels, search messages, retrieve threads, and access workspace analytics. It cannot send messages, create channels, modify workspace settings, or perform any write operation. The read-only guarantee is enforced by the Slack OAuth scopes requested during authorization.
+Yes. CorpusIQ requests read-only external-source retrieval scopes from Slack. ChatGPT can read channels, search messages, retrieve threads, and access workspace analytics. It cannot send messages, create channels, modify workspace settings, or perform any write operation. The advertised Slack retrieval tools are marked read-only; write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>
@@ -9661,7 +9626,7 @@ Claude can search across public channels and private channels it has been added 
 A: Claude can only access public channels and private channels it has been explicitly added to. Direct messages are never accessible.
 
 **Q: Can Claude send messages to Slack?**
-A: No. The integration is strictly read-only.
+A: The advertised Slack retrieval tools are read-only and do not send messages. Write-capable tools, when available, are separately named and annotated.
 
 **Q: How far back can Claude search?**
 A: Claude can search your entire message history, subject to your Slack workspace's retention settings.
@@ -9945,7 +9910,7 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
 <details>
 <summary><strong>Can Claude create charges or modify subscriptions?</strong></summary>
 
-No. The integration is strictly read-only. Use a restricted API key with only read permissions.
+The advertised Stripe retrieval tools use restricted read access and do not create charges or modify subscriptions. Write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>
@@ -9996,7 +9961,7 @@ URL: https://www.corpusiq.io/docs/connectors/
 Connect QuickBooks, Shopify, Stripe, HubSpot, GA4, and 35+ more business tools to ChatGPT, Claude, and Perplexity through read-only direct MCP live retrieval. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days. Browse the complete directory below.
 # Connectors
 
-CorpusIQ integrates with 40+ business tools through read-only OAuth connections. Each connector maps to a specific SaaS application or database, enabling natural-language queries across your entire data stack.
+CorpusIQ integrates with 40+ business tools through source-specific authorization. Each connector maps to a SaaS application or database, and each published operation declares whether it is read-only or write-capable.
 
 For the full interactive connector list with real-time status indicators, visit [corpusiq.io/connectors](https://corpusiq.io/connectors).
 
@@ -10101,14 +10066,14 @@ For the full interactive connector list with real-time status indicators, visit 
 
 ## Connecting a New Service
 
-All connectors use read-only OAuth scopes. To connect a new service:
+Each connector requests the provider scopes needed for its documented operations. To connect a new service:
 
 1. Log in to the [CorpusIQ Dashboard](https://corpusiq.io/dashboard)
 2. Navigate to **Connections**
 3. Click the service you want to connect
 4. Complete the OAuth authorization flow
 
-CorpusIQ never requests write permissions. You can verify the exact OAuth scopes requested on the authorization screen.
+You can verify the exact provider scopes requested on the authorization screen and inspect each MCP tool's safety annotations.
 
 ## Connector Status
 
@@ -10119,13 +10084,13 @@ For the latest connector count and status, visit [corpusiq.io/connectors](https:
 ## Frequently Asked Questions
 
 **Q: How many connectors does CorpusIQ support?**  
-A: CorpusIQ supports 40+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. All connectors are read-only via OAuth.
+A: CorpusIQ supports 40+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. External-source retrieval and write-capable management/control-plane operations are separately named and annotated.
 
 **Q: How do I connect a new data source?**  
 A: Log into the CorpusIQ Dashboard, navigate to Connections, click the service you want to connect, and complete the OAuth authorization flow. Each connection takes under 60 seconds.
 
 **Q: Are CorpusIQ connectors read-only?**  
-A: Yes. All connectors use read-only OAuth scopes. CorpusIQ never requests write permissions. You can verify the exact scopes on the OAuth authorization screen during connection setup.
+A: External-source retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated. Provider scopes vary by connector and are shown during authorization.
 
 **Q: Does CorpusIQ support database connections?**  
 A: Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), MySQL, Azure Cosmos DB, and MongoDB  --  all with read-only SQL/query access.
@@ -10500,7 +10465,7 @@ Fivetran is the leading managed ETL (Extract, Transform, Load) platform, automat
 
 **Fivetran's model:** Extract data from source → transform it → load it into a warehouse → query the warehouse with SQL or BI tools.
 
-**CorpusIQ's model:** AI asks a question → CorpusIQ queries the live source via API → AI presents the answer. No intermediate copy.
+**CorpusIQ's model:** AI asks a question → CorpusIQ queries the live source via API → AI presents the answer. Direct MCP does not retain raw customer files or full connector response payloads; optional indexed search is separate.
 
 This architectural difference has cascading implications for cost, speed, freshness, and complexity.
 
@@ -10509,13 +10474,13 @@ This architectural difference has cascading implications for cost, speed, freshn
 | Feature | CorpusIQ | Fivetran |
 |---------|----------|----------|
 | **Approach** | Real-time API query (MCP) | Batch ETL pipelines |
-| **Data Freshness** | Instant  --  queries live source | 5 min to 24 hours (sync frequency) |
+| **Data Freshness** | Requested from the provider; freshness follows provider and cache behavior | 5 min to 24 hours (sync frequency) |
 | **Source-data replication** | No raw-file/full-payload warehouse | Full replication to warehouse |
 | **Infrastructure Required** | None | Data warehouse (Snowflake, BigQuery, etc.) |
 | **Setup Complexity** | 2-minute OAuth | Hours to days (connector + warehouse config) |
 | **AI Integration** | Native MCP protocol | Indirect (SQL queries via warehouse) |
 | **Cost Model** | Per-seat subscription | Per-row (MAR) + warehouse costs |
-| **Data Storage** | No replicated source-data warehouse; scoped operational logs up to 30 days | Permanent warehouse copy |
+| **Data Storage** | Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist up to 30 days | Permanent warehouse copy |
 | **Schema Management** | Automatic (API-driven) | Manual schema changes, dbt transforms |
 | **Use Case** | AI-powered business questions | Centralized analytics and reporting |
 
@@ -10527,7 +10492,7 @@ Every source-data copy creates a governance, security, and freshness burden. Cor
 **Why this matters:** GDPR compliance, SOC 2 audits, and internal data governance all become simpler when you don't maintain additional copies of sensitive business data.
 
 ### 2. Real-Time Freshness
-Fivetran syncs on a schedule  --  every 5 minutes, every hour, every 24 hours. That means your warehouse data is always slightly stale. CorpusIQ queries live APIs on every request, so you always get the current state of your business.
+Fivetran syncs on a schedule  --  every 5 minutes, every hour, every 24 hours. That means your warehouse data is always slightly stale. CorpusIQ requests current provider data for each query; freshness follows provider behavior and any documented CorpusIQ caching.
 
 **Example:** You just closed a $50K deal in HubSpot. With CorpusIQ, an AI query 30 seconds later reflects that deal. With Fivetran, you wait until the next sync  --  potentially hours.
 
@@ -10887,7 +10852,7 @@ CorpusIQ is designed for structured business data where accuracy, freshness, and
 | **Completeness** | Returns all matching records | Returns top-k similar results |
 | **Aggregation** | Native (SUM, COUNT, AVG via API) | Not supported |
 | **Setup** | 2-minute OAuth | Hours to days (chunking, embedding, indexing) |
-| **Data Movement** | None (queries source) | Full copy to vector store |
+| **Data path** | Direct MCP queries sources live; optional indexed search is separate | Full copy to vector store |
 | **Cost** | Per-seat subscription | Per-vector storage + compute |
 
 ## When Vector Databases Excel
@@ -11083,18 +11048,18 @@ CorpusIQ and Zapier both connect business tools  --  but they do so in fundament
 | **Core Paradigm** | AI-native data access (MCP) | Event-driven workflow automation |
 | **Primary Use Case** | Natural-language business queries | Automating repetitive tasks |
 | **AI Integration** | Native (MCP protocol) | Limited (ChatGPT plugin, webhooks) |
-| **Data Flow** | Read-only, real-time query | Write/trigger actions between apps |
+| **Data Flow** | Retrieval and write-capable operations are separately named and annotated | Write/trigger actions between apps |
 | **Setup Time** | Under 2 minutes | 5-30 minutes per Zap |
 | **Real-Time Queries** | Yes  --  live, on-demand | No  --  event-triggered only |
 | **Cross-Source Analysis** | Multi-source queries in one prompt | Sequential Zaps with delays |
-| **Data Storage** | No replicated source-data warehouse; scoped operational logs up to 30 days | May store data in Zapier Tables |
+| **Data Storage** | Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist up to 30 days | May store data in Zapier Tables |
 | **Pricing Model** | Per-seat subscription | Per-task / per-Zap |
 
 ## How CorpusIQ Works
 
 CorpusIQ implements the **Model Context Protocol (MCP)**  --  an open standard developed by Anthropic that lets AI models discover and invoke tools. When you connect a data source to CorpusIQ (HubSpot, QuickBooks, Stripe, Google Analytics, etc.), the platform exposes that data as typed MCP tools that AI assistants can call.
 
-The AI never sees your raw data unless you ask it to  --  it sees structured function signatures and results, which it interprets and presents in natural language. Every query runs against the live source.
+The AI receives the tool definitions and results needed for the request. Retrieval requests current provider data; freshness follows provider behavior and documented CorpusIQ caching.
 
 ## How Zapier Works
 
@@ -11241,7 +11206,7 @@ Giving an AI assistant access to enterprise business data sounds simple: connect
 
 - **Data residency.** Global enterprises should validate the complete processing path: storage, network transit, source-provider processing, the selected AI client, logs, and backups. Choosing a regional CorpusIQ deployment alone does not guarantee that every dependency remains in-region.
 
-- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **Scoped direct-MCP retention.** External-source retrieval tools are marked read-only. The direct MCP path does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 - **Compliance certifications.** The solution must hold relevant certifications  --  SOC 2 Type II at minimum  --  and support the enterprise's own compliance frameworks including GDPR, CCPA, and industry-specific regulations.
 
@@ -11261,7 +11226,7 @@ CorpusIQ's enterprise AI data access architecture is built on five pillars:
 
 **Multi-factor authentication enforcement.** MFA is enforced at the identity provider level. CorpusIQ inherits the MFA policies already configured in Okta or Azure AD  --  including hardware token requirements, biometric authentication, and conditional access policies.
 
-**Per-user OAuth scoping.** When a user connects a data source through OAuth, the scopes granted are the minimum necessary for read-only business intelligence. Each user authenticates individually  --  there are no shared service accounts that would obscure who accessed what data.
+**Per-user OAuth scoping.** When a user connects a data source through OAuth, CorpusIQ requests provider scopes required for the documented operations. Retrieval and write-capable tools remain separately named and annotated regardless of provider scope grouping. Each user authenticates individually  --  there are no shared service accounts that would obscure who accessed what data.
 
 ### 2. Read-Only External Retrieval with Explicit Control-Plane Writes
 
@@ -11269,13 +11234,13 @@ CorpusIQ separates external-source retrieval from writes to user-declared Corpus
 
 - **Protocol level.** External-source retrieval tools carry read-only annotations. Explicit control-plane tools that update or remove user-declared facts, decisions, metric specifications, and source manifests carry separate non-read-only and destructive annotations where applicable.
 
-- **OAuth scope level.** External-source connectors request the documented retrieval scopes. For QuickBooks, `com.intuit.quickbooks.accounting.read`. For Shopify, `read_orders`, `read_products`, `read_customers`. For HubSpot, read-only access to contacts, deals, and companies.
+- **OAuth scope level.** External-source connectors request the provider scopes required for their documented operations. When a provider groups permissions into a broader scope, CorpusIQ still exposes retrieval and write-capable operations as separately named, safety-annotated tools.
 
-- **Connector level.** External-source connector implementations validate operations against a capability matrix and block write-back operations to connected vendor systems.
+- **Connector level.** External-source retrieval implementations validate operations against a capability matrix and block write-back. Write-capable connector operations, when exposed, are separately named and annotated.
 
 - **AI model level.** External connector descriptions identify retrieval behavior, while CorpusIQ control-plane descriptions state the supported state mutation explicitly.
 
-This defense-in-depth approach prevents external connector tools from writing back to connected vendor systems. Supported CorpusIQ control-plane mutations remain explicit, user-invoked, separately annotated, and auditable.
+This defense-in-depth approach keeps retrieval tools from writing back. Supported write-capable connector and CorpusIQ control-plane mutations remain explicit, separately named, and safety-annotated.
 
 ### 3. Comprehensive Audit Trails
 
@@ -11308,13 +11273,13 @@ Operational logs are protected from user edits and retained for up to 30 days un
 
 CorpusIQ's direct MCP path uses live retrieval with scoped operational retention:
 
-- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **Scoped direct-MCP retention.** External-source retrieval tools are marked read-only. The direct MCP path does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 - **Direct-MCP index scope.** The direct path uses typed API calls and does not build embeddings or file indexes; optional indexed search is separate and retains embeddings plus minimal metadata until connector revocation or account deletion.
 
 - **Fresh direct queries.** Each direct MCP query requests current source data rather than serving a persisted full-response cache.
 
-- **No cross-tenant data mixing.** Each enterprise customer's queries are processed in isolated compute environments. Data from one customer is never co-located with data from another.
+- **Tenant isolation.** Authentication and token lookup are user-scoped; multi-tenant infrastructure does not imply shared authorization or cross-tenant result access.
 
 CorpusIQ stores encrypted authentication tokens and connector configuration while connections are active. Local AUDIT logs record raw query text and tool parameters plus bounded result summaries; the Azure Log Analytics workspace retains those logs for 30 days. Optional indexed search has a separate embeddings and minimal-metadata lifecycle.
 
@@ -11339,8 +11304,6 @@ The question every enterprise faces: build an AI data access layer in-house or a
 **Read-only enforcement.** Build a capability matrix that validates every API call against allowed operations. Implement at the API gateway, service, and connector levels. **Engineering effort: 2–3 weeks.**
 
 **Audit logging.** Build an audit logging system with immutable storage, structured log format, SIEM export, configurable retention, and real-time streaming. **Engineering effort: 3–5 weeks.**
-
-**AI model integration.** Build the tool discovery, function calling, and response synthesis layer that connects AI models to your data connectors. Handle prompt engineering, context window management, tool selection logic. **Engineering effort: 6–12 weeks.**
 
 [Content truncated; see the canonical page for the complete text.]
 
@@ -11650,7 +11613,7 @@ CorpusIQ's authentication model:
 
 **OAuth 2.0 for cloud services.** Each business platform (Shopify, QuickBooks, HubSpot, etc.) is connected through OAuth 2.0. Users authorize CorpusIQ to access their data with explicitly scoped permissions. Tokens are stored encrypted at rest and rotated automatically.
 
-**Read-only by default.** Every connector defaults to read-only access. Write operations require explicit opt-in at both the OAuth scope level and the MCP server configuration level. This dual-gate approach prevents accidental data modification.
+**Operation-level safety metadata.** External-source retrieval tools carry read-only annotations. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated for their actual behavior.
 
 **Token isolation.** Each user's OAuth tokens are cryptographically isolated. No user can access another user's data, even within the same CorpusIQ organization.
 
@@ -11908,7 +11871,7 @@ Whether you're a business owner checking financial health, an accountant prepari
 Before diving into analysis, you need to connect QuickBooks to an AI assistant through CorpusIQ's MCP platform. Here's the setup process:
 
 ### 1. Connect QuickBooks to CorpusIQ
-Navigate to your CorpusIQ dashboard and select "Connect QuickBooks." Sign in on Intuit's OAuth page and authorize the read-only connection. Direct MCP requests then fetch QuickBooks records live; CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+Navigate to your CorpusIQ dashboard and select "Connect QuickBooks." Sign in on Intuit's OAuth page and review and approve the provider scopes. Direct MCP requests then fetch QuickBooks records live; CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 
 ### 2. Configure Your AI Assistant
 CorpusIQ supports both ChatGPT and Claude as AI backends. Choose based on your analysis needs:
@@ -13892,7 +13855,7 @@ URL: https://www.corpusiq.io/docs/hubspot-business-intelligence/
 
 HubSpot is one of the world's most widely adopted CRM platforms, used by over 200,000 businesses to manage contacts, deals, companies, and customer relationships. But while HubSpot excels at storing and organizing data, extracting real-time business intelligence from that data often requires exporting to spreadsheets, building custom dashboards, or relying on HubSpot's built-in reporting  --  which, while capable, can't answer free-form business questions in natural language.
 
-CorpusIQ changes that. Using the **Model Context Protocol (MCP)**  --  the open standard for connecting data to AI  --  CorpusIQ enables any MCP-compatible AI assistant to query your HubSpot CRM live, in real time, without moving, copying, or duplicating your data.
+CorpusIQ changes that. Using the **Model Context Protocol (MCP)**  --  the open standard for connecting data to AI  --  CorpusIQ enables any MCP-compatible AI assistant to query HubSpot through live retrieval. Direct MCP does not retain raw customer files or full connector response payloads; operational logs and optional indexed search follow their published lifecycles.
 
 ## How It Works
 
@@ -14070,7 +14033,7 @@ Different stakeholders need different views:
 - **Sales Ops Dashboard**: Deal hygiene, process adherence, data quality, system health
 
 ### 3. Real-Time Data Refresh
-Every dashboard pull queries HubSpot live. If a rep updated a deal 30 seconds ago, it's reflected in your dashboard now. No batch delays, no cache staleness, no waiting for overnight refreshes. This is critical during end-of-quarter when deal statuses change minute by minute.
+Every dashboard pull queries HubSpot live. If a rep updated a deal 30 seconds ago, it's reflected in your dashboard now. Queries request current HubSpot data. Freshness follows HubSpot and CorpusIQ cache behavior. This is critical during end-of-quarter when deal statuses change minute by minute.
 
 ### 4. Intelligent Alerting
 ChatGPT doesn't just display numbers  --  it interprets them against your targets and historical patterns. "Pipeline coverage is 2.8x, below our 3x target. However, the shortfall is concentrated in early-stage pipeline  --  late-stage coverage is healthy at 1.4x. Recommended action: focus reps on prospecting this week." Context-aware alerts make dashboards actionable, not just informational.
@@ -14433,7 +14396,7 @@ URL: https://www.corpusiq.io/docs/
 A: CorpusIQ is a private AI acceleration layer that connects 40+ business tools (HubSpot, QuickBooks, Stripe, Shopify, GA4, Slack, and more) to ChatGPT, Claude, and AI agents via the Model Context Protocol (MCP). It enables real-time, natural-language queries across your data stack without storing raw customer files or full connector response payloads.
 
 **Q: How does CorpusIQ connect my business data to AI?**  
-A: CorpusIQ uses MCP (Model Context Protocol)  --  an open standard that lets AI assistants discover and use external tools. Connect your data sources via OAuth, and the AI can query them live through CorpusIQ's MCP endpoint with read-only access.
+A: CorpusIQ uses MCP (Model Context Protocol)  --  an open standard that lets AI assistants discover and use external tools. Connect your data sources through their documented authorization flows, and the AI can invoke CorpusIQ tools with operation-specific names and safety annotations.
 
 **Q: What data sources does CorpusIQ support?**  
 A: CorpusIQ supports 40+ business tools including HubSpot, Salesforce, QuickBooks, Stripe, Shopify, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, Notion, PostgreSQL, MSSQL, MongoDB, and more  --  see the full connectors directory.
@@ -15066,7 +15029,7 @@ Ecommerce success depends on understanding customers:
 
 **Unified connector library.** CorpusIQ connects to Shopify, Amazon, eBay, Klaviyo, Mailchimp, Google Ads, Meta Ads, Google Analytics, QuickBooks, Stripe, and more  --  all through a single MCP server.
 
-**Read-only access.** All ecommerce connectors default to read-only. You can analyze order data, inventory levels, and customer information without any risk of modifying products, orders, or settings.
+**Explicit operation boundaries.** Ecommerce retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane operations are separately named and safety-annotated.
 
 **Real-time queries.** Ask about today's orders and get today's data  --  not yesterday's export. Critical for inventory decisions, fulfillment monitoring, and flash sale performance tracking.
 
@@ -15103,7 +15066,7 @@ Yes. Connect Amazon advertising data alongside order data to analyze which campa
 <details>
 <summary><strong>Is this secure for my store data?</strong></summary>
 
-Yes. All connections use OAuth with read-only scopes. CorpusIQ cannot modify your products, orders, or customer data. Connected commerce platforms remain authoritative; direct-MCP and operational-log retention follow the published lifecycles.
+Provider scopes vary by connection. The ecommerce retrieval tools documented here do not write products, orders, or customer records back to their sources; write-capable management/control-plane operations are separate. Connected commerce platforms remain authoritative, and retention follows the published lifecycles.
 </details>
 
 <details>
@@ -16280,7 +16243,7 @@ The setup process for a small business using CorpusIQ:
 
 **1. Create an account.** Sign up through the CorpusIQ platform. No credit card required to start.
 
-**2. Connect QuickBooks.** Authorize CorpusIQ to access your QuickBooks data through OAuth. The connection is read-only by default  --  CorpusIQ can read your financial data but cannot modify it.
+**2. Connect QuickBooks.** Authorize CorpusIQ to access your QuickBooks data through OAuth. The advertised financial-data retrieval tools are marked read-only. Write-capable tools, when available, are separately named and annotated.
 
 **3. Connect your CRM.** Authorize HubSpot, Salesforce, or your preferred CRM. Again, read-only access for querying contacts, deals, and pipeline data.
 
@@ -16406,7 +16369,7 @@ Security is the first question every business leader asks about AI data integrat
 
 MCP's security model rests on several architectural decisions:
 
-**Read-only by default.** The protocol itself supports both read and write operations, but the secure default  --  and the approach CorpusIQ takes  --  is to implement all business intelligence connectors as read-only. The AI model can query data but cannot modify it.
+**Operation-level safety.** MCP supports reads and writes. CorpusIQ marks external-source retrieval tools read-only and exposes write-capable connector-management and CorpusIQ control-plane tools separately with behavior-matched annotations.
 
 **OAuth 2.0 authentication.** Every connection to a third-party platform uses OAuth 2.0, the industry standard for delegated authorization. Users grant CorpusIQ specific, scoped permissions rather than sharing credentials.
 
@@ -16421,10 +16384,10 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
 OAuth 2.0 scopes determine what an MCP server can do with a connected platform. Best practice is to request the minimum scopes necessary for the intended use case.
 
 CorpusIQ's approach:
-- **Read-only scopes by default.** For QuickBooks, we request `com.intuit.quickbooks.accounting.read`  --  not the broader scope that includes write access. For Shopify, we request `read_orders`, `read_products`, `read_customers`  --  not `write_orders` or `write_products`.
-- **Explicit opt-in for write operations.** If a use case requires write access (for example, creating draft invoices), the user must explicitly approve additional scopes. This is a deliberate friction point  --  it ensures write access is never granted accidentally.
-- **Per-connector scope configuration.** Each connected platform has independently configured scopes. Granting write access to your email marketing platform doesn't grant write access to your accounting system.
-- **Scope visibility.** Users can see exactly which scopes are granted to each connection at any time through the CorpusIQ dashboard.
+- **Source-specific scopes.** CorpusIQ requests the provider scopes needed for each documented operation. Read-only retrieval tools and write-capable connector-management or control-plane tools remain separately named and safety-annotated even when a provider groups permissions into broader scopes.
+- **Explicit operation boundaries.** Read-only retrieval tools and write-capable connector-management or CorpusIQ control-plane tools are separately named and carry explicit safety annotations.
+- **Per-connector scope configuration.** Each connected platform has independently configured scopes. One connector's authorization does not widen another connector's access.
+- **Scope visibility.** The provider authorization screen displays the requested source scopes. CorpusIQ tool names and annotations disclose whether each published operation is read-only or write-capable.
 
 ## Token Management
 
@@ -16440,19 +16403,19 @@ OAuth tokens are the keys to your data. Managing them securely is critical:
 
 **Cross-user isolation.** Each user's tokens are cryptographically isolated. User A's Shopify token cannot be used to access User B's data, even if both users are in the same CorpusIQ organization. This isolation extends to the database layer  --  tokens are stored with user-scoped encryption keys.
 
-## Read-Only Architecture Deep Dive
+## Tool Boundary Architecture Deep Dive
 
-The read-only default deserves deeper examination because it's the most important security property of the system.
+The distinction between read-only retrieval and write-capable CorpusIQ-owned state changes deserves deeper examination.
 
-**Protocol-level enforcement.** CorpusIQ's MCP server validates every tool call against a capability matrix. Tools marked as read-only cannot be used to execute write operations, regardless of what OAuth scopes are granted.
+**Protocol-level enforcement.** CorpusIQ's MCP server validates every tool call against a capability matrix. Tools marked as read-only cannot execute write operations. Write-capable connector-management and control-plane tools are separately named and annotated.
 
-**API-level guardrails.** Even with write OAuth scopes, CorpusIQ's connector implementations include additional validation. An API call that would modify data is blocked at the connector level unless the connector is explicitly configured to allow writes.
+**API-level guardrails.** Connector implementations validate the requested operation and source-specific authorization. A write-capable tool can execute only its declared action; it does not silently widen a read-only retrieval call.
 
-**AI model guardrails.** The MCP tool definitions presented to the AI model describe read-only capabilities. The model sees "List Shopify Orders"  --  not "Create Shopify Order." This means the AI model itself cannot request write operations unless they've been explicitly exposed.
+**AI-client visibility.** MCP tool definitions expose operation-specific names, descriptions, schemas, and safety annotations. Clients can distinguish retrieval tools from write-capable connector-management and CorpusIQ control-plane tools before invocation.
 
-**Human approval for writes.** In the rare cases where write operations are enabled, CorpusIQ can require human confirmation before execution. The AI model proposes the action, and a human user must approve it before the MCP server executes it.
+**Invocation remains explicit.** A write-capable operation runs only when that separately named tool is invoked with valid parameters and authorization. Client confirmation behavior is governed by the selected AI client's interface and policy.
 
-This defense-in-depth approach  --  protocol, API, AI model, and human approval  --  means that write operations require multiple deliberate choices to enable. Accidental data modification is architecturally prevented.
+This defense-in-depth approach makes write-capable operations visible and bounded. It reduces unintended-change risk without claiming that modification is architecturally impossible.
 
 ## Audit Trails
 
@@ -16702,7 +16665,7 @@ Key CorpusIQ features that go beyond raw API access:
 
 **Canonical definitions.** Declare how key business terms should be interpreted, and the AI model applies those definitions consistently across all data sources.
 
-**Read-only guardrails.** Every connector defaults to read-only. No accidental data modification, no matter what the AI model requests.
+**Explicit tool boundaries.** External-source retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane operations are separately named and safety-annotated.
 
 **Audit trail.** Every tool call is logged, giving you complete visibility into what data was accessed and when.
 
@@ -16723,7 +16686,7 @@ Yes. MCP tool definitions include rich parameter schemas that support pagination
 <details>
 <summary><strong>What if I need to write data, not just read it?</strong></summary>
 
-MCP supports write operations, but CorpusIQ defaults to read-only for safety. Write operations require explicit opt-in. For most business intelligence use cases, read-only is exactly what you need.
+A: MCP supports both reads and writes. CorpusIQ exposes retrieval and write-capable operations as separately named tools with behavior-matched safety annotations.
 </details>
 
 <details>
@@ -17119,7 +17082,7 @@ Not entirely  --  they serve different purposes. Zapier excels at automated acti
 <details>
 <summary><strong>Does MCP support triggering actions?</strong></summary>
 
-The base MCP protocol supports write operations, but CorpusIQ defaults to read-only for data safety. For automation workflows that require write operations, Zapier or Make are better choices today. CorpusIQ focuses on the intelligence layer.
+The base MCP protocol supports reads and writes. CorpusIQ marks external-source retrieval tools read-only and exposes write-capable management/control-plane operations separately; Zapier and Make remain focused on multi-step vendor automation.
 </details>
 
 <details>
@@ -17337,7 +17300,7 @@ Create an account at [corpusiq.io/register](https://corpusiq.io/register). You c
 3. Click **Add Connection** on any service you want to connect
 4. Complete the OAuth authorization flow
 
-CorpusIQ uses **read-only OAuth scopes**  --  it can search your data but never modify it. The exact permissions are displayed on the authorization screen.
+Provider scopes vary by connector and are displayed on the authorization screen. External-source retrieval tools are marked read-only; write-capable management/control-plane tools are separately named and annotated.
 
 Popular first connections:
 - **Gmail**  --  Search your email history
@@ -17423,7 +17386,6 @@ curl -X POST https://mcp2.corpusiq.io/mcp \
 curl -X POST https://mcp2.corpusiq.io/mcp \
   -H "Authorization: Bearer $CORPUSIQ_TOKEN" \
   -H "Content-Type: application/json" \
-  -H "Idempotency-Key: $(uuidgen)" \
   -d '{"query": "How many HubSpot deals closed this quarter?"}'
 ```
 
@@ -17796,7 +17758,7 @@ Through CorpusIQ, you define what matters to your business. Create dashboard tem
 - **Operations Dashboard**: Expense trends, vendor spend, inventory metrics
 
 ### 3. Real-Time Data Refresh
-Every dashboard pull queries QuickBooks live  --  there's no stale cache. The numbers you see reflect the current state of your books, not last week's export. This is critical for cash flow monitoring and AR management where hour-level freshness matters.
+Dashboard pulls query QuickBooks at request time. Freshness follows QuickBooks and CorpusIQ cache behavior, so verify time-sensitive figures against the cited source record.
 
 ### 4. Anomaly Highlighting
 ChatGPT doesn't just present numbers  --  it flags what needs attention. "Your gross margin dropped 3.2 percentage points this month  --  the largest one-month decline in 18 months. The primary driver was a 15% increase in COGS for the Widget product line." These contextual alerts turn raw data into actionable intelligence.
@@ -18207,7 +18169,7 @@ CorpusIQ provides natural language search across all 36 connected business data 
 
 - Natural language queries (no SQL required)
 - Cross-source search (query Stripe AND Shopify in one question)
-- Real-time results (no cached or stale data)
+- Live source queries; provider and transport caching behavior may vary
 - Date range filtering
 - Aggregation and summarization
 - Trend analysis
@@ -18426,7 +18388,7 @@ URL: https://www.corpusiq.io/docs/security/
 
 
 title: "CorpusIQ Security Overview  --  Authentication, Encryption, and Read-Only Access"
-description: "CorpusIQ security overview: OAuth 2.0 authentication for agents and chat users, TLS 1.3 encryption, read-only data access policy, audit logging, data handling, and security best practices."
+description: "CorpusIQ security overview: OAuth 2.0 authentication, operation-level permissions, encryption, audit logging, data handling, and security best practices."
 category: "Documentation"
 tags: ["corpusiq security overview", "authentication", "encryption", "read-only access", "oauth security", "data handling", "audit logging"]
 last_updated: "2026-08-12"
@@ -18435,7 +18397,7 @@ robots: "index,follow"
 ---
 # Security
 
-CorpusIQ is designed with security as a foundational requirement. External-source connector access is read-only and does not write back to vendor systems. Explicit CorpusIQ control-plane tools can update or remove user-declared CorpusIQ state and carry separate safety annotations.
+CorpusIQ is designed with security as a foundational requirement. External-source retrieval tools are marked read-only. Write-capable connector and CorpusIQ control-plane tools are separately named and carry behavior-matched safety annotations.
 
 ## Authentication
 
@@ -18449,18 +18411,18 @@ CorpusIQ is designed with security as a foundational requirement. External-sourc
 - No browser required for ongoing agent access
 - Refresh token rotation
 - Device verification prevents unauthorized access
-- Tokens can be revoked from the dashboard at any time
+- Dashboard disconnect removes CorpusIQ connection state and requires reauthorization before reuse; provider authorization remains provider-governed
 
 ### Data Source Connections
 - OAuth 2.0 authorization for each connected source
 - Scoped access: CorpusIQ requests minimum required permissions
-- Connections can be revoked individually
-- No raw API keys stored or exposed
+- CorpusIQ connections can be disconnected individually
+- Credential-based connectors store required secrets encrypted; public responses do not expose them
 
 ## Data Access
 
 ### Scoped Access Policy
-External-source connector tools use read-only retrieval: they query connected sources, normalize results, and do not write back to those vendor systems or initiate vendor transactions. Explicit CorpusIQ control-plane tools can update or remove user-declared facts, decisions, metric specifications, and source manifests and carry separate safety annotations.
+External-source retrieval tools query connected sources, normalize results, and do not write back. Write-capable connector and CorpusIQ control-plane tools are separately named and carry behavior-matched safety annotations.
 
 ### Data Handling
 - Direct MCP retrieves source records on demand and delivers scoped results to the requesting client
@@ -18496,7 +18458,7 @@ Report security concerns to security@corpusiq.io. We respond within 24 hours.
 ## Frequently Asked Questions
 
 **Q: How does CorpusIQ authenticate users?**  
-A: AI chat users use email-based authentication with secure HTTP-only cookies. AI agent users use OAuth 2.0 Device Authorization Grant (RFC 8628) with refresh token rotation. Data source connections use OAuth 2.0 with scoped, read-only permissions.
+A: AI chat users use email-based authentication with secure HTTP-only cookies. AI agent users use OAuth 2.0 Device Authorization Grant (RFC 8628) with refresh token rotation. Data-source provider scopes vary by connector and documented operation.
 
 **Q: Is CorpusIQ data access read-only?**
 A: External-source retrieval is read-only and does not write back to connected vendor systems. Explicit CorpusIQ control-plane tools can modify user-declared CorpusIQ state and are separately annotated.
@@ -18594,12 +18556,12 @@ CorpusIQ processes data under the lawful basis of user consent and legitimate in
 - **Data Minimization:** Only data necessary to answer a query is retrieved
 - **Purpose Limitation:** Retrieved records fulfill the user's request; retained operational metadata supports service security, reliability, and compliance under the published schedule
 - **No Data Sale:** CorpusIQ does not sell or monetize user data; scoped data is shared only with processors required to fulfill the request
-- **No CorpusIQ Model Training:** CorpusIQ does not use customer data to train models; each selected AI client's policy applies to its conversation
+- **No CorpusIQ Model Training:** CorpusIQ does not use customer data to train models; conversation handling follows the selected AI provider's plan and settings
 - **No Background Collection:** Every API call to a connected tool is triggered by an explicit user query. There is no periodic syncing or scheduled polling.
 
 ## 5. Retention and Deletion
 
-1. A query is received and translated into read-only API calls
+1. A query is received and routed to the separately named operations required for the request
 2. Results are fetched from connected tools in real time
 3. Direct MCP requests return the result without building embeddings or file indexes; optional indexed search separately retains embeddings and minimal metadata
 4. Optional indexed-search features may retain embeddings and minimal metadata while the connector remains active
@@ -18608,7 +18570,7 @@ To request deletion of account data, contact privacy@corpusiq.io. CorpusIQ respo
 
 ## 6. Subprocessors
 
-Infrastructure: Microsoft Azure (US-based). Enterprise cloud infrastructure. For enterprise customers, data residency options are available  --  contact sales@corpusiq.io.
+Infrastructure: Microsoft Azure (US-based). Residency requirements must be validated against the complete customer-specific processing path, including source providers, selected AI clients, logs, and backups.
 
 ## 7. Incident Response
 
@@ -18646,7 +18608,7 @@ If you discover a security vulnerability, report to security@corpusiq.io. We fol
 ## Frequently Asked Questions
 
 **Q: What security certifications does CorpusIQ hold?**  
-A: CorpusIQ is CASA Tier 2 certified by DEKRA (OWASP Top 10 verified) and maintains a SOC 2 aligned security posture. The platform uses AES-256 encryption at rest, TLS 1.3 in transit, and read-only OAuth for all data source connections.
+A: CorpusIQ is CASA Tier 2 certified by DEKRA (OWASP Top 10 verified) and maintains a SOC 2 aligned security posture. The platform uses AES-256 encryption at rest, TLS 1.3 in transit, and operation-level safety annotations for retrieval and write-capable tools.
 
 **Q: Does CorpusIQ store my business data?**  
 A: Direct MCP requests retrieve source records live without retaining raw customer files or full connector response payloads. Operational query text, tool-call metadata, and bounded outcome summaries are retained for up to 30 days. Optional indexed-search features may retain embeddings and minimal metadata while the connector remains active.
@@ -18655,7 +18617,7 @@ A: Direct MCP requests retrieve source records live without retaining raw custom
 A: Contact privacy@corpusiq.io to request deletion of account data. CorpusIQ responds to privacy requests within 30 days. Operational MCP query logs remain subject to the 30-day Azure Log Analytics retention window.
 
 **Q: Where is CorpusIQ infrastructure hosted?**  
-A: Infrastructure runs on Microsoft Azure (US-based). Enterprise customers can request data residency options for specific geographic regions. Contact sales@corpusiq.io for details.
+A: Infrastructure runs on Microsoft Azure. Regional deployment terms are not part of the current public contract; contact sales@corpusiq.io for current availability.
 
 **Q: How do I report a security vulnerability?**  
 A: Report to security@corpusiq.io. CorpusIQ follows coordinated disclosure and aims to acknowledge reports within 24 hours. Do not publicly disclose before the team has addressed the issue.
@@ -19091,7 +19053,7 @@ Shopify's dashboard shows a fixed set of widgets with limited customization and 
 Yes. Through CorpusIQ, schedule dashboard delivery via email, Slack, or file storage (Google Drive, OneDrive, Dropbox). "Send me the morning dashboard at 8 AM daily" or "Deliver the weekly performance report to the ecommerce Slack channel every Monday at 9 AM."
 
 ### How current is the dashboard data?
-Live. Every dashboard query fetches data from Shopify's API in real time at the moment you ask. There's no batch processing, no cache delay, no ETL window. If an order just came in, it's reflected.
+Dashboard queries request current Shopify data. Freshness follows Shopify and CorpusIQ cache behavior; verify time-sensitive orders against the cited source record.
 
 ### Can multiple team members have their own dashboards?
 Yes. Each team member can have personalized dashboard templates. Marketing sees marketing KPIs. Operations sees fulfillment metrics. The CEO sees the executive summary. All draw from the same live Shopify data.
@@ -19933,7 +19895,7 @@ An MCP server is a lightweight program that sits between an AI model and your da
 
 The server then executes the request against your live data  --  your Shopify store, your Salesforce CRM, your Google Analytics  --  and returns structured results the AI can understand and explain in natural language.
 
-Critically, MCP servers are **read-only by design** for business intelligence use cases. They don't modify data, create records, or execute destructive operations unless explicitly configured to do so. This architecture makes MCP inherently safer than traditional API integrations, where a misconfigured call could modify production data.
+MCP servers advertise operation-level annotations rather than a universal read-only guarantee. CorpusIQ marks external-source retrieval tools read-only and separately names and annotates write-capable and control-plane operations.
 
 ## How Tool Discovery Works
 
@@ -19981,13 +19943,13 @@ CorpusIQ's MCP implementation adds critical enterprise features on top of the ba
 
 **Unified authentication**  --  connect all your data sources once through OAuth, not once per server
 **Cross-source queries**  --  ask questions that span multiple data sources in a single conversation
-**Read-only guardrails**  --  every connector defaults to read-only, with explicit opt-in for write operations
+**Operation-level guardrails**  --  retrieval and write-capable operations use separate names and behavior-matched safety annotations
 **Audit logging**  --  every tool call is logged for compliance and debugging
 **Canonical facts**  --  declare business definitions once and have them applied consistently across all queries
 
 ## How It Works: A Step-by-Step Walkthrough
 
-**Step 1: Connection.** You connect your business data sources to CorpusIQ through OAuth. Each connection is scoped to read-only access by default. CorpusIQ stores your tokens securely and never shares them with third parties.
+**Step 1: Connection.** You connect business data sources through provider authorization. Provider scopes vary by documented operation; retrieval and write-capable tools are separately named and annotated. CorpusIQ stores required credentials encrypted and does not expose them in tool responses.
 
 **Step 2: Discovery.** When you start a conversation with an MCP-enabled AI assistant, the client queries your CorpusIQ MCP server and discovers every available tool  --  "list Shopify orders," "get QuickBooks profit and loss," "search HubSpot contacts," and hundreds more.
 

@@ -4,10 +4,10 @@ CorpusIQ reads authorized business records live and limits what it retains.
 
 ## Data Handling
 
-- **Read-only access** — We request the minimum permissions needed from each connector
+- **Operation-level permissions** — Retrieval and write-capable tools are separately named and safety-annotated; provider scopes vary by documented operation
 - **Scoped retention** — Direct MCP does not retain raw customer files or full connector response payloads; operational logs may persist for up to 30 days
 - **No raw-data warehouse** — Source systems remain authoritative; optional indexed search has a separate embeddings and minimal-metadata lifecycle
-- **No CorpusIQ model training** — CorpusIQ does not use customer data to train models; the selected AI client's policy applies to its conversation
+- **No CorpusIQ model training** — CorpusIQ does not use customer data to train models; conversation handling follows the selected AI provider's plan and settings
 
 ## Authentication
 

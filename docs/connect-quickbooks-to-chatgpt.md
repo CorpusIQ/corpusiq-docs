@@ -33,7 +33,7 @@ CorpusIQ connects to your QuickBooks Online company file via OAuth 2.0. You auth
 <details>
 <summary><strong>Is this read-only? Can ChatGPT modify my books?</strong></summary>
 
-Yes, entirely read-only. CorpusIQ requests read-only OAuth scopes from Intuit. ChatGPT can view your P&L, balance sheet, invoices, payments, customers, vendors, and chart of accounts. It cannot create invoices, record payments, modify journal entries, or alter anything in your QuickBooks file. The read-only guarantee is enforced at the OAuth permission layer and at the MCP server tool level.
+The QuickBooks retrieval tools documented here are marked read-only and cover reports, invoices, payments, customers, vendors, and accounts. Provider scopes are those required by Intuit for the documented operations; write-capable tools, when present, are separately named and annotated.
 </details>
 
 <details>
@@ -88,7 +88,7 @@ CorpusIQ uses your QuickBooks default reporting basis. If your company is set to
 
 The architecture is clean and secure:
 
-1. **Connect QuickBooks to CorpusIQ.** Click Connections → QuickBooks in your CorpusIQ dashboard. Sign into Intuit, select your company file, and approve read-only access. Takes 2 minutes.
+1. **Connect QuickBooks to CorpusIQ.** Click Connections → QuickBooks in your CorpusIQ dashboard. Sign into Intuit, select your company file, and review and approve the provider scopes. Takes 2 minutes.
 
 2. **Connect CorpusIQ to ChatGPT.** Add the CorpusIQ MCP server as a connected app in ChatGPT. The server advertises its available financial tools to ChatGPT automatically.
 
@@ -134,11 +134,11 @@ Start every morning by asking ChatGPT: "What's our cash position today?" "Any pa
 
 ## Security: Read-Only by Design
 
-CorpusIQ's QuickBooks integration is read-only at every layer:
+CorpusIQ publishes operation-level permissions for QuickBooks:
 
-- **OAuth Scopes:** Only read permissions are requested from Intuit  --  no write, modify, or delete scopes.
-- **MCP Tools:** The QuickBooks connector tools are query-only  --  P&L report, invoice list, balance sheet, AR aging, customer list. There is no tool to create, update, or delete anything.
-- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **Provider scopes:** CorpusIQ requests the Intuit scopes required for documented operations.
+- **MCP tools:** Retrieval and write-capable operations are separately named and safety-annotated.
+- **Scoped direct-MCP retention.** QuickBooks retrieval tools are marked read-only. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - **Encrypted in Transit:** All data between QuickBooks, CorpusIQ, and ChatGPT is encrypted via TLS 1.3.
 
 For organizations in regulated industries, this read-only architecture eliminates the most common financial data risk: unintended modification. Even a misdirected query cannot change your books.

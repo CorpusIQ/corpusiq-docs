@@ -28,7 +28,7 @@ Three things happened in 2026 that shifted the competitive landscape:
 
 In coding agents, the harness manages tools, context, memory, and verification. In business AI, the harness does the same thing for business data:
 
-**Tools**: Connectors to Shopify, QuickBooks, Stripe, HubSpot, GA4, and 35 more business platforms. Each with read-only OAuth. Each authenticating independently.
+**Tools**: Connectors to Shopify, QuickBooks, Stripe, HubSpot, GA4, and 35 more business platforms. Each with read-only external-source retrieval. Each authenticating independently.
 
 **Context**: Metric definitions that mean the same thing across every AI and every tool. Revenue defined once. Applied everywhere. No reconciliation required.
 

@@ -96,7 +96,7 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
 <details>
 <summary><strong>Can Claude create charges or modify subscriptions?</strong></summary>
 
-No. The integration is strictly read-only. Use a restricted API key with only read permissions.
+The advertised Stripe retrieval tools use restricted read access and do not create charges or modify subscriptions. Write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>

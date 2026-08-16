@@ -64,7 +64,7 @@ The CorpusIQ platform provides the connective tissue that makes unified RevOps p
 - **Billing connectors:** Stripe, QuickBooks, NetSuite.
 - **Analytics connectors:** GA4, PostHog, database connectors (PostgreSQL, MSSQL, MongoDB).
 - **Unified querying:** Ask one question that spans five tools.
-- **Read-only across all systems:** Zero risk of modifying production data.
+- **Explicit tool boundaries:** Retrieval tools are marked read-only; write-capable management/control-plane tools are separately named and annotated.
 
 ## Example RevOps Queries
 

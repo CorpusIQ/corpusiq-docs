@@ -1,42 +1,42 @@
-# Secure AI Data Connectivity — Read-Only Changes Everything
+# Secure AI Data Connectivity — Operation-Level Permissions
 
-The #1 objection to connecting business data to AI: "What if it messes something up?"
+The first question when connecting business data to AI is reasonable: "What can each tool change?"
 
-Fair question. Here's why read-only design makes that impossible — and what else you should look for.
+The honest answer belongs in each advertised operation's permissions, not in one product-wide slogan.
 
-## The read-only guarantee
+## The permission model
 
-Every CorpusIQ connector is read-only by design. The AI can query your QuickBooks P&L but cannot create a transaction. It can pull Stripe charges but cannot issue a refund. It can search HubSpot but cannot modify a deal.
+CorpusIQ marks external-source retrieval tools read-only. Write-capable connector operations and CorpusIQ control-plane tools are separately named and annotated so clients and reviewers can distinguish retrieval from mutation.
 
-This isn't a setting you can accidentally change. It's architectural. The OAuth scopes only request read access. The API calls only use GET methods. There is no write path.
+Provider authorization varies by connector. OAuth is used where supported; other connectors use encrypted credentials or restricted roles. The effective permission remains bounded by both the provider grant and the specific advertised tool.
 
 ## What else matters for security
 
-**OAuth-native authentication:** No API keys to manage, rotate, or leak. Each user authenticates via their own OAuth flow. Revoke access instantly from your Google/QuickBooks/admin console.
+**Provider authentication:** CorpusIQ uses provider OAuth where supported and stores required credential-based connector secrets encrypted. Manage provider authorization through the relevant provider controls; provider-side timing follows each provider's lifecycle.
 
 **Scoped retention:** Direct MCP does not retain raw customer files or full connector response payloads; operational logs may persist for up to 30 days.
 
 **Disclosed processors:** CorpusIQ runs on Microsoft Azure and uses the selected AI client to answer the request. Each provider's published data policy applies to its part of the flow.
 
-**CASA Tier 2 certified:** Independent security certification verifying read-only access controls, OAuth security, and data handling practices.
+**CASA Tier 2 certified:** CorpusIQ completed the DEKRA-assessed CASA Tier 2 process. The certification does not replace operation-level permission review.
 
-**SOC 2 aligned:** Security controls mapped to the framework; formal SOC 2 Type II certification is not claimed.
+**SOC 2 aligned:** Security controls are mapped to the framework; formal SOC 2 Type II certification is not claimed.
 
 ## The questions to ask any AI data platform
 
 | Question | Why it matters |
 |----------|---------------|
-| Is it read-only by default? | Can't accidentally modify your data |
-| Where does my data go? | Should flow directly to AI, not stored |
-| How is auth handled? | OAuth > API keys. Per-user > shared. |
-| Is it independently audited? | CASA, SOC 2, or equivalent |
-| Can I revoke access? | Should be instant from your admin console |
-| Who processes my data? | No third parties between you and the AI |
+| Are retrieval and write operations separately named and annotated? | Prevents a blanket label from hiding mutation capability |
+| What data is retained, indexed, or logged? | Distinguishes request payloads from operational records |
+| How is authentication handled for each provider? | OAuth, restricted credentials, and roles have different contracts |
+| What has been independently assessed? | Certification scope should match the claim being made |
+| How do disconnect and provider revocation differ? | CorpusIQ and provider-side lifecycles are separate |
+| Which processors receive request context? | The complete flow matters for policy review |
 
 ## The bottom line
 
-Connecting business data to AI doesn't have to be scary. Read-only design, OAuth-native auth, scoped retention, and independent certification make it safer than giving an intern a CSV export.
+Secure connectivity needs operation-level permissions, truthful retention disclosures, provider-specific authorization, and independently assessed controls. Shorter slogans are easier to print. They are also where the trouble starts.
 
 ---
 
-*CorpusIQ: 37+ connectors, read-only by design, CASA Tier 2 certified. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors, operation-level permissions, scoped retention, and CASA Tier 2 certification. [corpusiq.io](https://www.corpusiq.io)*

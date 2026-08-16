@@ -50,7 +50,7 @@ Different stakeholders need different views:
 - **Sales Ops Dashboard**: Deal hygiene, process adherence, data quality, system health
 
 ### 3. Real-Time Data Refresh
-Every dashboard pull queries HubSpot live. If a rep updated a deal 30 seconds ago, it's reflected in your dashboard now. No batch delays, no cache staleness, no waiting for overnight refreshes. This is critical during end-of-quarter when deal statuses change minute by minute.
+Every dashboard pull queries HubSpot live. If a rep updated a deal 30 seconds ago, it's reflected in your dashboard now. Queries request current HubSpot data. Freshness follows HubSpot and CorpusIQ cache behavior. This is critical during end-of-quarter when deal statuses change minute by minute.
 
 ### 4. Intelligent Alerting
 ChatGPT doesn't just display numbers  --  it interprets them against your targets and historical patterns. "Pipeline coverage is 2.8x, below our 3x target. However, the shortfall is concentrated in early-stage pipeline  --  late-stage coverage is healthy at 1.4x. Recommended action: focus reps on prospecting this week." Context-aware alerts make dashboards actionable, not just informational.

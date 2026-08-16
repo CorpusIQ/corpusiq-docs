@@ -12,7 +12,7 @@ robots: "index,follow"
 Connect QuickBooks, Shopify, Stripe, HubSpot, GA4, and 35+ more business tools to ChatGPT, Claude, and Perplexity through read-only direct MCP live retrieval. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days. Browse the complete directory below.
 # Connectors
 
-CorpusIQ integrates with 40+ business tools through read-only OAuth connections. Each connector maps to a specific SaaS application or database, enabling natural-language queries across your entire data stack.
+CorpusIQ integrates with 40+ business tools through source-specific authorization. Each connector maps to a SaaS application or database, and each published operation declares whether it is read-only or write-capable.
 
 For the full interactive connector list with real-time status indicators, visit [corpusiq.io/connectors](https://corpusiq.io/connectors).
 
@@ -117,14 +117,14 @@ For the full interactive connector list with real-time status indicators, visit 
 
 ## Connecting a New Service
 
-All connectors use read-only OAuth scopes. To connect a new service:
+Each connector requests the provider scopes needed for its documented operations. To connect a new service:
 
 1. Log in to the [CorpusIQ Dashboard](https://corpusiq.io/dashboard)
 2. Navigate to **Connections**
 3. Click the service you want to connect
 4. Complete the OAuth authorization flow
 
-CorpusIQ never requests write permissions. You can verify the exact OAuth scopes requested on the authorization screen.
+You can verify the exact provider scopes requested on the authorization screen and inspect each MCP tool's safety annotations.
 
 ## Connector Status
 
@@ -135,13 +135,13 @@ For the latest connector count and status, visit [corpusiq.io/connectors](https:
 ## Frequently Asked Questions
 
 **Q: How many connectors does CorpusIQ support?**  
-A: CorpusIQ supports 40+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. All connectors are read-only via OAuth.
+A: CorpusIQ supports 40+ native connectors spanning CRM, accounting, payments, analytics, marketing, ecommerce, file storage, communication, databases, and more. External-source retrieval and write-capable management/control-plane operations are separately named and annotated.
 
 **Q: How do I connect a new data source?**  
 A: Log into the CorpusIQ Dashboard, navigate to Connections, click the service you want to connect, and complete the OAuth authorization flow. Each connection takes under 60 seconds.
 
 **Q: Are CorpusIQ connectors read-only?**  
-A: Yes. All connectors use read-only OAuth scopes. CorpusIQ never requests write permissions. You can verify the exact scopes on the OAuth authorization screen during connection setup.
+A: External-source retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated. Provider scopes vary by connector and are shown during authorization.
 
 **Q: Does CorpusIQ support database connections?**  
 A: Yes. CorpusIQ supports PostgreSQL, MSSQL (SQL Server), MySQL, Azure Cosmos DB, and MongoDB  --  all with read-only SQL/query access.

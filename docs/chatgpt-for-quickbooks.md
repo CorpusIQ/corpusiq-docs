@@ -32,7 +32,7 @@ Instead of navigating QuickBooks' report menus or exporting CSV files for analys
 
 CorpusIQ's MCP platform acts as the secure middleware layer between ChatGPT and QuickBooks Online. Here's the workflow:
 
-1. **Connect Your QuickBooks Account**  --  Authenticate via OAuth 2.0 in under 60 seconds. CorpusIQ establishes a read-only connection to your QuickBooks company file, ensuring your financial data can be queried but never modified by the AI.
+1. **Connect Your QuickBooks Account**  --  Authenticate via OAuth 2.0 in under 60 seconds. CorpusIQ exposes separately named QuickBooks retrieval tools that are marked read-only; write-capable tools, when present, are separately annotated.
 
 2. **ChatGPT Gains Financial Context**  --  Once connected, CorpusIQ exposes QuickBooks as a set of structured tools that ChatGPT can invoke. These include profit & loss reports, balance sheets, accounts receivable aging, invoice lookups, customer searches, and vendor lists.
 

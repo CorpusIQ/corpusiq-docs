@@ -125,7 +125,7 @@ Key CorpusIQ features that go beyond raw API access:
 
 **Canonical definitions.** Declare how key business terms should be interpreted, and the AI model applies those definitions consistently across all data sources.
 
-**Read-only guardrails.** Every connector defaults to read-only. No accidental data modification, no matter what the AI model requests.
+**Explicit tool boundaries.** External-source retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane operations are separately named and safety-annotated.
 
 **Audit trail.** Every tool call is logged, giving you complete visibility into what data was accessed and when.
 
@@ -146,7 +146,7 @@ Yes. MCP tool definitions include rich parameter schemas that support pagination
 <details>
 <summary><strong>What if I need to write data, not just read it?</strong></summary>
 
-MCP supports write operations, but CorpusIQ defaults to read-only for safety. Write operations require explicit opt-in. For most business intelligence use cases, read-only is exactly what you need.
+A: MCP supports both reads and writes. CorpusIQ exposes retrieval and write-capable operations as separately named tools with behavior-matched safety annotations.
 </details>
 
 <details>

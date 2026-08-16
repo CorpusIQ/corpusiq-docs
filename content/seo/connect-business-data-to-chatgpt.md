@@ -91,7 +91,7 @@ Each answer draws from live data. No exports. No pivots. No "let me check and ge
 
 ## What about security?
 
-Every connection is read-only. The AI can query your data but cannot modify it. No accidental refunds. No deleted orders. No changed invoices.
+External-source retrieval tools are marked read-only; write-capable connector and CorpusIQ control-plane tools are separately named and annotated. The AI can query your data but cannot modify it. No accidental refunds. No deleted orders. No changed invoices.
 
 Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days. CorpusIQ does not train models on customer data; conversation handling follows the AI-provider plan and settings you choose.
 

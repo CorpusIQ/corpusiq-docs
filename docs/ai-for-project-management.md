@@ -111,7 +111,7 @@ Status meetings can be shorter and more productive when AI has already gathered 
 A: Monday.com is supported natively. Jira, Asana, and Linear can be accessed via database connectors or API. Direct connectors for additional PM tools are in development.
 
 **Q: Can AI create or update tasks?**
-A: No. All integrations are read-only. AI analyzes and reports on project data but cannot modify it.
+A: The project-management retrieval tools documented here analyze and report on project data; they do not create or update source tasks. Separately named CorpusIQ control-plane tools can update user-declared CorpusIQ state.
 
 **Q: How does AI handle complex project dependencies?**
 A: Claude can analyze task relationships and dependencies when they're represented in your project management tool's data model and identify at-risk dependency chains.

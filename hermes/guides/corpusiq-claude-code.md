@@ -40,7 +40,7 @@ Before Claude Code can answer business questions, connect your tools once:
 
 1. Go to [corpusiq.io/dashboard](https://corpusiq.io)
 2. Connect Shopify, Stripe, QuickBooks, GA4, Meta Ads — or any of the 40+ supported tools
-3. Each connection uses read-only OAuth with no write access; direct MCP does not retain raw customer files or full connector response payloads
+3. Each connection uses read-only external-source retrieval with no write access; direct MCP does not retain raw customer files or full connector response payloads
 
 ## Ask Business Questions
 
@@ -86,7 +86,7 @@ With CorpusIQ as the MCP server, every AI you use — Claude Code, ChatGPT, Perp
 
 Shopify. Stripe. QuickBooks. Google Analytics 4. Meta Ads. HubSpot. Klaviyo. Gmail. Google Drive. Dropbox. YouTube. Google Ads. eBay. Microsoft OneDrive. Outlook. And 25 more.
 
-Read-only OAuth on every connection. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days. Every answer cites its exact source.
+External-source retrieval tools are marked read-only; write-capable management/control-plane tools are separate. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days. Every answer cites its exact source.
 
 ## Get Started
 

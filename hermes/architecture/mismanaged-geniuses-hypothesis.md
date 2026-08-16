@@ -36,7 +36,7 @@ A proper harness for business AI is not a dashboard. It is not a CSV export. It 
 
 It is:
 
-**Connectors that reach your actual tools.** Shopify for orders. Stripe for payments. QuickBooks for financials. HubSpot for CRM. GA4 for analytics. Each with read-only OAuth. Each authenticating independently.
+**Connectors that reach your actual tools.** Shopify for orders. Stripe for payments. QuickBooks for financials. HubSpot for CRM. GA4 for analytics. Each with read-only external-source retrieval. Each authenticating independently.
 
 **Metric definitions that mean the same thing everywhere.** Revenue defined once. Applied across every AI. Same number in ChatGPT, Claude, and Perplexity. Every time.
 

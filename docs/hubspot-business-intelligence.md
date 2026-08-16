@@ -34,7 +34,7 @@ last_updated: "2026-08-12"
 
 HubSpot is one of the world's most widely adopted CRM platforms, used by over 200,000 businesses to manage contacts, deals, companies, and customer relationships. But while HubSpot excels at storing and organizing data, extracting real-time business intelligence from that data often requires exporting to spreadsheets, building custom dashboards, or relying on HubSpot's built-in reporting  --  which, while capable, can't answer free-form business questions in natural language.
 
-CorpusIQ changes that. Using the **Model Context Protocol (MCP)**  --  the open standard for connecting data to AI  --  CorpusIQ enables any MCP-compatible AI assistant to query your HubSpot CRM live, in real time, without moving, copying, or duplicating your data.
+CorpusIQ changes that. Using the **Model Context Protocol (MCP)**  --  the open standard for connecting data to AI  --  CorpusIQ enables any MCP-compatible AI assistant to query HubSpot through live retrieval. Direct MCP does not retain raw customer files or full connector response payloads; operational logs and optional indexed search follow their published lifecycles.
 
 ## How It Works
 

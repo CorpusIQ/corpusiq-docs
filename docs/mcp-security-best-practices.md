@@ -16,7 +16,7 @@ Security is the first question every business leader asks about AI data integrat
 
 MCP's security model rests on several architectural decisions:
 
-**Read-only by default.** The protocol itself supports both read and write operations, but the secure default  --  and the approach CorpusIQ takes  --  is to implement all business intelligence connectors as read-only. The AI model can query data but cannot modify it.
+**Operation-level safety.** MCP supports reads and writes. CorpusIQ marks external-source retrieval tools read-only and exposes write-capable connector-management and CorpusIQ control-plane tools separately with behavior-matched annotations.
 
 **OAuth 2.0 authentication.** Every connection to a third-party platform uses OAuth 2.0, the industry standard for delegated authorization. Users grant CorpusIQ specific, scoped permissions rather than sharing credentials.
 
@@ -31,10 +31,10 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
 OAuth 2.0 scopes determine what an MCP server can do with a connected platform. Best practice is to request the minimum scopes necessary for the intended use case.
 
 CorpusIQ's approach:
-- **Read-only scopes by default.** For QuickBooks, we request `com.intuit.quickbooks.accounting.read`  --  not the broader scope that includes write access. For Shopify, we request `read_orders`, `read_products`, `read_customers`  --  not `write_orders` or `write_products`.
-- **Explicit opt-in for write operations.** If a use case requires write access (for example, creating draft invoices), the user must explicitly approve additional scopes. This is a deliberate friction point  --  it ensures write access is never granted accidentally.
-- **Per-connector scope configuration.** Each connected platform has independently configured scopes. Granting write access to your email marketing platform doesn't grant write access to your accounting system.
-- **Scope visibility.** Users can see exactly which scopes are granted to each connection at any time through the CorpusIQ dashboard.
+- **Source-specific scopes.** CorpusIQ requests the provider scopes needed for each documented operation. Read-only retrieval tools and write-capable connector-management or control-plane tools remain separately named and safety-annotated even when a provider groups permissions into broader scopes.
+- **Explicit operation boundaries.** Read-only retrieval tools and write-capable connector-management or CorpusIQ control-plane tools are separately named and carry explicit safety annotations.
+- **Per-connector scope configuration.** Each connected platform has independently configured scopes. One connector's authorization does not widen another connector's access.
+- **Scope visibility.** The provider authorization screen displays the requested source scopes. CorpusIQ tool names and annotations disclose whether each published operation is read-only or write-capable.
 
 ## Token Management
 
@@ -50,19 +50,19 @@ OAuth tokens are the keys to your data. Managing them securely is critical:
 
 **Cross-user isolation.** Each user's tokens are cryptographically isolated. User A's Shopify token cannot be used to access User B's data, even if both users are in the same CorpusIQ organization. This isolation extends to the database layer  --  tokens are stored with user-scoped encryption keys.
 
-## Read-Only Architecture Deep Dive
+## Tool Boundary Architecture Deep Dive
 
-The read-only default deserves deeper examination because it's the most important security property of the system.
+The distinction between read-only retrieval and write-capable CorpusIQ-owned state changes deserves deeper examination.
 
-**Protocol-level enforcement.** CorpusIQ's MCP server validates every tool call against a capability matrix. Tools marked as read-only cannot be used to execute write operations, regardless of what OAuth scopes are granted.
+**Protocol-level enforcement.** CorpusIQ's MCP server validates every tool call against a capability matrix. Tools marked as read-only cannot execute write operations. Write-capable connector-management and control-plane tools are separately named and annotated.
 
-**API-level guardrails.** Even with write OAuth scopes, CorpusIQ's connector implementations include additional validation. An API call that would modify data is blocked at the connector level unless the connector is explicitly configured to allow writes.
+**API-level guardrails.** Connector implementations validate the requested operation and source-specific authorization. A write-capable tool can execute only its declared action; it does not silently widen a read-only retrieval call.
 
-**AI model guardrails.** The MCP tool definitions presented to the AI model describe read-only capabilities. The model sees "List Shopify Orders"  --  not "Create Shopify Order." This means the AI model itself cannot request write operations unless they've been explicitly exposed.
+**AI-client visibility.** MCP tool definitions expose operation-specific names, descriptions, schemas, and safety annotations. Clients can distinguish retrieval tools from write-capable connector-management and CorpusIQ control-plane tools before invocation.
 
-**Human approval for writes.** In the rare cases where write operations are enabled, CorpusIQ can require human confirmation before execution. The AI model proposes the action, and a human user must approve it before the MCP server executes it.
+**Invocation remains explicit.** A write-capable operation runs only when that separately named tool is invoked with valid parameters and authorization. Client confirmation behavior is governed by the selected AI client's interface and policy.
 
-This defense-in-depth approach  --  protocol, API, AI model, and human approval  --  means that write operations require multiple deliberate choices to enable. Accidental data modification is architecturally prevented.
+This defense-in-depth approach makes write-capable operations visible and bounded. It reduces unintended-change risk without claiming that modification is architecturally impossible.
 
 ## Audit Trails
 

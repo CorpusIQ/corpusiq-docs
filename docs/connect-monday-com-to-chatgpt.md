@@ -33,7 +33,7 @@ CorpusIQ connects to your Monday.com account via OAuth 2.0. You authorize read-o
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. CorpusIQ requests read-only OAuth scopes from Monday.com. ChatGPT can see boards, items, statuses, owners, and due dates. It cannot create items, update statuses, reassign tasks, or modify anything in your Monday.com account. The read-only guarantee is enforced at the OAuth scope level.
+Yes. CorpusIQ requests read-only external-source retrieval scopes from Monday.com. ChatGPT can see boards, items, statuses, owners, and due dates. It cannot create items, update statuses, reassign tasks, or modify anything in your Monday.com account. The advertised Monday.com retrieval tools are marked read-only; write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>

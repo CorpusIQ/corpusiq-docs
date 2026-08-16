@@ -14,7 +14,7 @@ AI-powered Shopify analytics means asking questions instead:
 
 ## Setup
 
-corpusiq.io → Connect Shopify (read-only OAuth, 30s) → Add MCP to ChatGPT/Claude → Ask.
+corpusiq.io → Connect Shopify (read-only external-source retrieval, 30s) → Add MCP to ChatGPT/Claude → Ask.
 
 Live store data. Every question. No reports.
 

@@ -80,6 +80,5 @@ sales or marketing data:
 - "What payment terms are in the latest invoice in Dropbox?"
 - "Find the renewal date in the lease PDF on OneDrive."
 
-The answer comes back with the source file cited, read-only, pulled live
-when you ask — nothing about your files is moved or stored. See
+The answer comes back with the source file cited through a read-only retrieval tool. Direct MCP does not retain raw customer files or full connector response payloads; operational logs and optional indexed search follow their published lifecycles. See
 [privacy-and-security.md](privacy-and-security.md) for what that means.

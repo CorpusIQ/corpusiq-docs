@@ -25,7 +25,7 @@ CorpusIQ works everywhere. Connect your data once. Ask questions in ChatGPT, Cla
 ### Integrations: Breadth vs Trust
 Viktor claims 3,200+ managed connectors. Impressive scale. But managed connectors mean Viktor's team handles the integration — you hand over credentials and trust their pipeline.
 
-CorpusIQ takes the opposite approach. Forty deep native connectors. Read-only OAuth on every connection. You authorize access to Shopify, Stripe, QuickBooks, GA4, and Meta Ads. OAuth credentials are encrypted while the connection is active. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days. Every answer cites its source record.
+CorpusIQ takes the opposite approach. Forty deep native connectors with source-specific authorization and operation-level safety metadata. You authorize access to Shopify, Stripe, QuickBooks, GA4, and Meta Ads. OAuth credentials are encrypted while the connection is active. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days. Every answer cites its source record.
 
 ### The Data Question
 Ask Viktor to pull revenue numbers and it will execute the query. What query did it run? Which system did it hit? Did it cross-check Stripe against QuickBooks to catch the timing discrepancy? You do not know. The AI employee did it.

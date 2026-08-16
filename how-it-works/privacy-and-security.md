@@ -48,10 +48,7 @@ CorpusIQ uses the refresh-token flow (where the vendor provides one) so
 you don't have to re-authenticate constantly. The refresh token is also
 encrypted at rest.
 
-**Honors disconnect immediately.** When you disconnect a connector,
-CorpusIQ deletes the stored token. Future requests to that connector
-fail until you reconnect. Most vendors also let you revoke the
-authorization from their own admin panel.
+**Disconnects fail closed.** When a disconnect tombstone commits, CorpusIQ stops selecting the stored grant and requires reauthorization before reuse. Credential cleanup is attempted after the tombstone; provider authorization remains provider-governed and can be managed from the provider admin panel.
 
 ## Where the data is
 
@@ -71,8 +68,7 @@ ChatGPT carries that identity so CorpusIQ knows it's you.
 
 **Layer 2 — CorpusIQ's link to each vendor.** Separately, each connector
 holds its own OAuth token scoped to your CorpusIQ identity. When you
-ask a question, CorpusIQ looks up the right vendor token, makes the
-read-only call, and returns the result.
+ask a question, CorpusIQ looks up the right vendor token, invokes the documented operation and returns the result.
 
 If Layer 1 fails, you can't use CorpusIQ at all. If Layer 2 fails for a
 specific connector (token expired, vendor revoked, scopes changed),
@@ -88,13 +84,11 @@ assistant only sees:
 
 The assistant does not see your raw tokens. It does not have direct
 network access to Shopify or QuickBooks. Every external call goes
-through CorpusIQ's server, which enforces the read-only contract.
+through CorpusIQ's server, which enforces operation-level routing and safety annotations.
 
 ## What to do if something feels wrong
 
-- **Disconnect first, ask questions later.** Disconnect from the
-  CorpusIQ status panel and the token is gone. You can reconnect any
-  time.
+- **Disconnect first, ask questions later.** Disconnecting in CorpusIQ commits inactive connection state and requires reauthorization before reuse. Provider authorization remains provider-governed.
 - **Revoke from the vendor side too.** Google, Microsoft, Shopify, and
   most other vendors have a "Connected apps" page where you can revoke
   CorpusIQ's access directly. That's belt and suspenders.
@@ -103,8 +97,7 @@ through CorpusIQ's server, which enforces the read-only contract.
 ## Disconnect anytime
 
 This is the bottom line: CorpusIQ only works for as long as you let it.
-Pull the plug on any connector at any time and it stops reading that
-tool immediately. Optional indexed-search embeddings and minimal metadata
+After a disconnect tombstone commits, CorpusIQ stops selecting that connector grant and requires reauthorization before reuse. Optional indexed-search embeddings and minimal metadata
 are removed on connector revocation or account deletion; operational logs
 expire within 30 days, and deletion/compliance receipts may remain for up
 to 24 months.

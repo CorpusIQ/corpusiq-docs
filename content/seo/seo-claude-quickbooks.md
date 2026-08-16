@@ -8,7 +8,7 @@ Claude can query your real QuickBooks data. P&L, invoices, expenses, AR aging �
 
 > "What's our cash runway at current burn rate?"
 
-Setup: corpusiq.io → Connect QuickBooks (read-only OAuth, 30s) → Add MCP config → Ask Claude.
+Setup: corpusiq.io → Connect QuickBooks (read-only external-source retrieval, 30s) → Add MCP config → Ask Claude.
 
 ---
 

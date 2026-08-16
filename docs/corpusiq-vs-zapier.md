@@ -39,18 +39,18 @@ CorpusIQ and Zapier both connect business tools  --  but they do so in fundament
 | **Core Paradigm** | AI-native data access (MCP) | Event-driven workflow automation |
 | **Primary Use Case** | Natural-language business queries | Automating repetitive tasks |
 | **AI Integration** | Native (MCP protocol) | Limited (ChatGPT plugin, webhooks) |
-| **Data Flow** | Read-only, real-time query | Write/trigger actions between apps |
+| **Data Flow** | Retrieval and write-capable operations are separately named and annotated | Write/trigger actions between apps |
 | **Setup Time** | Under 2 minutes | 5-30 minutes per Zap |
 | **Real-Time Queries** | Yes  --  live, on-demand | No  --  event-triggered only |
 | **Cross-Source Analysis** | Multi-source queries in one prompt | Sequential Zaps with delays |
-| **Data Storage** | No replicated source-data warehouse; scoped operational logs up to 30 days | May store data in Zapier Tables |
+| **Data Storage** | Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist up to 30 days | May store data in Zapier Tables |
 | **Pricing Model** | Per-seat subscription | Per-task / per-Zap |
 
 ## How CorpusIQ Works
 
 CorpusIQ implements the **Model Context Protocol (MCP)**  --  an open standard developed by Anthropic that lets AI models discover and invoke tools. When you connect a data source to CorpusIQ (HubSpot, QuickBooks, Stripe, Google Analytics, etc.), the platform exposes that data as typed MCP tools that AI assistants can call.
 
-The AI never sees your raw data unless you ask it to  --  it sees structured function signatures and results, which it interprets and presents in natural language. Every query runs against the live source.
+The AI receives the tool definitions and results needed for the request. Retrieval requests current provider data; freshness follows provider behavior and documented CorpusIQ caching.
 
 ## How Zapier Works
 

@@ -71,9 +71,9 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
 
 ### Security
 
-- **Read-only OAuth 2.0.** Claude can query contacts, companies, and deals but cannot create, update, or delete CRM records.
-- **Scoped direct-MCP retention.** CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
-- **Instant disconnect.** Revoke access from HubSpot or CorpusIQ at any time.
+- **Operation-level safety.** HubSpot retrieval tools are marked read-only; write-capable tools, when present, are separately named and annotated.
+- **Scoped direct-MCP retention.** Direct MCP does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
+- **Disconnect behavior.** CorpusIQ disconnect requires reauthorization before reuse; provider authorization remains governed by HubSpot.
 
 ### Comparison: MCP vs. HubSpot API Direct
 

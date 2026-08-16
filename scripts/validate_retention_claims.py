@@ -99,11 +99,45 @@ FORBIDDEN_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
             r"\bCorpusIQ\s+is\s+strictly\s+read[- ]only\b|"
             r"\bCorpusIQ\s+defaults?\s+to\s+read[- ]only\s+access\s+for\s+all\s+connectors\b|"
             r"\bMCP\s+tool\s+definitions\s+are\s+registered\s+as\s+read[- ]only\b|"
+            r"\b(?:all\s+)?MCP\s+tool\s+definitions\s+presented\s+to\s+the\s+AI(?:\s+model)?\s+"
+            r"describe\s+read[- ]only\s+capabilities\b|"
+            r"\ball\s+MCP\s+tool\s+definitions\s+presented\s+to\s+the\s+AI\s+"
+            r"describe\s+read[- ]only\s+capabilities\b|"
+            r"\b(?:all|every)\s+connectors?\s+(?:use|uses|are|is|defaults?\s+to)\s+"
+            r"read[- ]only\b|"
+            r"\ball\s+integrations?\s+(?:are|is|use|uses)\s+read[- ]only\b|"
+            r"\bevery\s+connector\s+uses\s+OAuth\s+with\s+read[- ]only\s+scopes\b|"
+            r"\bCorpusIQ['’]s\s+MCP\s+endpoint\s+with\s+read[- ]only\s+access\b|"
+            r"\bCorpusIQ\s+integrates\s+with\s+[^.\n]{0,80}\bthrough\s+read[- ]only\s+OAuth\b|"
+            r"\bMCP\s+servers?,?\s+as\s+implemented\s+by\s+CorpusIQ,?\s+"
+            r"defaults?\s+to\s+read[- ]only\s+access\b|"
+            r"\bread[- ]only\s+OAuth\s+(?:scopes?\s+across|for)\s+all\b|"
+            r"\bevery\s+connection\s+is\s+read[- ]only\b|"
+            r"\bconnectors?\s+are\s+read[- ]only\s+by\s+design\b|"
+            r"\bread[- ]only\s+everywhere\b|"
+            r"\beach\s+connection\s+is\s+scoped\s+to\s+read[- ]only\s+access\b|"
+            r"\bconnected\s+third[- ]party\s+business\s+systems\s+are\s+read[- ]only\b|"
+            r"\blike\s+all\s+CorpusIQ\s+AI\s+integrations\b[^.\n]{0,120}\bread[- ]only\b|"
+            r"\bread[- ]only\s+OAuth\s+on\s+every\s+connection\b|"
+            r"\ball\s+API\s+endpoints\s+are\s+read[- ]only\b|"
+            r"\bread[- ]only\s+scope\s+across\s+all\s+integrations\b|"
+            r"\ball\s+business\s+intelligence\s+connectors\s+as\s+read[- ]only\b|"
+            r"\ball\s+ecommerce\s+connectors\s+defaults?\s+to\s+read[- ]only\b|"
+            r"\ball\s+connections\s+use\s+OAuth\s+with\s+read[- ]only\s+scopes\b|"
+            r"\bread[- ]only\s+across\s+all\s+systems\b|"
+            r"\bread[- ]only\s+access\s+to\s+all\s+connected\s+data\s+sources\b|"
+            r"\ball\s+CorpusIQ\s+connections\s+are\s+read[- ]only\b|"
+            r"\b(?:approximately|about|roughly)?\s*\d+\s+tools?[^.\n]{0,120}\ball\s+read[- ]only\b|"
+            r"\bMCP['’]s\s+read[- ]only\s+default\b[^.\n]{0,140}"
+            r"\bcannot\s+modify\s+your\s+data\b|"
+            r"\bzero\s+risk\s+of\s+data\s+modification\b|"
+            r"\bCorpusIQ\s+never\s+requests?\s+write\s+permissions\b|"
             r"\bno\s+write\s+permissions\s+on\s+any\s+connector\b|"
             r"\ball\s+access\s+is\s+read[- ]only\b|"
             r"\bno\s+write\s+permissions\s+ever\b|"
             r"\bzero\s+risk\s+of\s+unintended\s+changes\b|"
-            r"\baccidental\s+data\s+modification\s+is\s+architecturally\s+impossible\b|"
+            r"\baccidental\s+data\s+modification\s+is\s+architecturally\s+"
+            r"(?:impossible|prevented)\b|"
             r"\bCorpusIQ\s+provides\s+(?:a\s+)?read[- ]only\s+"
             r"(?:abstraction(?:\s+layer)?|platform|service|system)\b|"
             r"\b(?:the\s+)?AI\s+can\s+only\s+read\b",
@@ -130,13 +164,67 @@ FORBIDDEN_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
         ),
     ),
     (
+        "unsupported built-in human confirmation claim",
+        re.compile(
+            r"\bCorpusIQ\s+can\s+require\s+human\s+confirmation\b[^.\n]{0,120}"
+            r"(?:\bwrite\s+operations?\b|\bbefore\s+execution\b)",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "unsupported generic write-enable contract",
+        re.compile(
+            r"\bCorpusIQ\s+supports?\s+scoped\s+write\s+operations?\s+with\s+explicit\s+opt[- ]in\b|"
+            r"\brequests?\s+read[- ]only\s+OAuth\s+scopes?\s+from\s+Intuit\b|"
+            r"\bonly\s+read\s+permissions\s+are\s+requested\s+from\s+Intuit\b|"
+            r"\busers?\s+must\s+explicitly\s+approve\s+additional\s+scopes\b|"
+            r"\busers?\s+can\s+see\s+exactly\s+which\s+scopes\s+are\s+granted\b[^.\n]{0,100}\bdashboard\b|"
+            r"\bgranting\s+write\s+access\b[^.\n]{0,160}\bdoes(?:n['’]t|\s+not)\s+grant\s+write\s+access\b|"
+            r"\btools?\s+marked\s+as\s+read[- ]only\b[^.\n]{0,160}\bregardless\s+of\b[^.\n]{0,80}\bOAuth\s+scopes\b|"
+            r"\bAPI\s+call\b[^.\n]{0,100}\bmodify\s+data\b[^.\n]{0,120}"
+            r"\bunless\s+the\s+connector\s+is\s+explicitly\s+configured\b",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "nonexistent QuickBooks read scope",
+        re.compile(r"\bcom\.intuit\.quickbooks\.accounting\.read\b", re.IGNORECASE),
+    ),
+    (
         "unsupported immediate credential deletion claim",
         re.compile(
             r"\brevocation\s+immediately\s+deletes\s+all\s+stored\s+tokens\b|"
             r"\brevoke\s+tokens\s+immediately\b|"
             r"\brevocation\s+takes\s+effect\s+immediately\s+across\s+all\s+active\s+sessions\b|"
+            r"\bimmediate\s+token\s+revocation\b|"
             r"\b(?:the\s+)?token\s+is\s+deleted\s+immediately\b|"
             r"\bimmediately\s+deletes\s+all\s+stored\s+tokens\b",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "additional unsupported public security claim",
+        re.compile(
+            r"\bminimum\s+necessary\s+for\s+read[- ]only\s+business\s+intelligence\b|"
+            r"\bexternal[- ]source\s+connector\s+access\s+is\s+read[- ]only\b|"
+            r"\bdata\s+source\s+connections\s+use\s+OAuth\b[^.\n]{0,80}\bread[- ]only\s+permissions\b|"
+            r"\btokens?\s+can\s+be\s+revoked\s+from\s+the\s+dashboard\b|"
+            r"\bconnections?\s+can\s+be\s+revoked\s+individually\b|"
+            r"\bno\s+raw\s+API\s+keys?\s+stored\s+or\s+exposed\b|"
+            r"\bhonors?\s+disconnect\s+immediately\b|"
+            r"\bdisconnect\b[^.\n]{0,100}\bdeletes?\s+the\s+stored\s+token\b|"
+            r"\bdisconnect\b[^.\n]{0,120}\btoken\s+is\s+gone\b|"
+            r"\bstops?\s+reading\b[^.\n]{0,100}\bimmediately\b|"
+            r"\bnothing\s+about\s+your\s+files\s+is\s+moved\s+or\s+stored\b|"
+            r"\bwithout\s+moving,?\s+copying,?\s+or\s+duplicating\s+your\s+data\b|"
+            r"\bno\s+intermediate\s+copy\b|"
+            r"\bdata\s+movement\b[^.\n|]{0,40}\bnone\b|"
+            r"\bno\s+cached\s+or\s+stale\s+data\b|"
+            r"\binstant\s+(?:revocability|disconnect|revocation)\b|"
+            r"\bimmediately\s+cut\s+off\s+access\b|"
+            r"\brevoke\s+access\s+instantly\b|"
+            r"\bdata\s+residency\s+options\s+are\s+available\b|"
+            r"\benforces?\s+the\s+read[- ]only\s+contract\b",
             re.IGNORECASE,
         ),
     ),
@@ -534,7 +622,6 @@ def _is_safe_non_retention_control(sentence: str) -> bool:
     lower = " ".join(plain.split()).lower()
     return bool(
         re.search(
-            r"\bnothing\s+is\s+written\s+back\s+to\s+(?:connected\s+)?tools\b|"
             r"\b(?:we|corpusiq)\s+do(?:es)?\s+not\s+store\s+"
             r"(?:card\s+numbers?|full\s+payment\s+details?|"
             r"card\s+numbers?\s+or\s+full\s+payment\s+details?)\b",
@@ -574,6 +661,50 @@ def _broad_semantic_family(sentence: str) -> str | None:
     plain = " ".join(plain.split())
     lower = plain.lower()
 
+    canonical_training_pair = bool(
+        re.search(
+            r"\bcorpusiq\s+does\s+not\s+(?:use\s+customer\s+data\s+to\s+train|"
+            r"train\s+models?\s+on\s+customer\s+data)\b[^.]{0,160}\b"
+            r"conversation\s+handling\s+(?:follows|is\s+governed\s+by)\s+"
+            r"(?:the\s+)?(?:selected\s+)?(?:ai[- ]?)?provider(?:['’]s)?\s+"
+            r"(?:plan|policy|terms|settings)",
+            lower,
+        )
+    )
+    canonical_indexing_pair = bool(
+        re.search(
+            r"\bdirect\s+mcp\b[^.]{0,180}\bwithout\s+building\s+"
+            r"(?:embeddings|file\s+indexes?)\b[^.]{0,180}\boptional\s+"
+            r"indexed[- ]search\b[^.]{0,160}\b(?:separate|retains?|lifecycle|"
+            r"uses?\s+embeddings|minimal\s+metadata)\b",
+            lower,
+        )
+    )
+
+    # Evaluate independently asserted clauses independently. A safe or
+    # repudiating prefix must not launder a blanket guarantee after a semicolon
+    # or conjunction (for example: "We do not store card numbers; CorpusIQ
+    # stores no customer data").
+    clauses = [
+        clause.strip(" ,")
+        for clause in re.split(
+            r"\s*;\s*|,\s+(?:and|but|however)\s+|\s+but\s+|\s+however,?\s+",
+            plain,
+            flags=re.IGNORECASE,
+        )
+        if clause.strip(" ,")
+    ]
+    if len(clauses) > 1:
+        for clause in clauses:
+            family = _broad_semantic_family(clause)
+            if canonical_training_pair and family == "broad semantic training guarantee":
+                continue
+            if canonical_indexing_pair and family == "broad semantic indexing guarantee":
+                continue
+            if family:
+                return family
+        return None
+
     # Public docs sometimes quote a bad phrase to reject it or compare another
     # vendor's claim with CorpusIQ's contract. Those are commentary, not a
     # CorpusIQ promise. Keep this exception subject- and intent-specific.
@@ -581,6 +712,111 @@ def _broad_semantic_family(sentence: str) -> str | None:
         return None
     if _is_safe_non_retention_control(sentence):
         return None
+
+    safe_operation_boundary = bool(
+        re.search(r"\b(?:external[- ]source\s+)?retrieval\s+tools?\b", lower)
+        and re.search(
+            r"\bwrite[- ]capable\b[^.]{0,100}\b(?:separately|individually)\b",
+            lower,
+        )
+    )
+    if not safe_operation_boundary and re.search(
+        r"\b(?:corpusiq|the\s+platform|the\s+integration|every\s+connector|"
+        r"all\s+connectors?|mcp\s+servers?)\b[^.]{0,120}\b(?:read[- ]only\s+by\s+design|"
+        r"strictly\s+read[- ]only|lookup[- ]only|observation[- ]only|"
+        r"non[- ]mutating|only\s+observes?|"
+        r"can\s+only\s+read|no\s+write\s+path|never\s+writes?\s+back|"
+        r"cannot\s+(?:write|modify|delete|move))\b|"
+        r"\bread[- ]only\s+by\s+design\b[^.]{0,100}\b(?:no\s+write|"
+        r"cannot\s+(?:write|modify|delete|move))\b",
+        lower,
+    ):
+        return "whole-product read-only guarantee"
+
+    if re.search(
+        r"\b(?:oauth|intuit|quickbooks|provider)\s+(?:scopes?|grants?)\b"
+        r"[^.]{0,70}\b(?:read[- ]only|read\s+access\s+only|no\s+write\s+permissions?)\b|"
+        r"\b(?:read[- ]only|read\s+access\s+only)\b[^.]{0,70}\b"
+        r"(?:oauth\s+scopes?|intuit\s+grant|quickbooks\s+oauth)\b",
+        lower,
+    ):
+        return "unsupported provider-scope guarantee"
+
+    if re.search(
+        r"\b(?:no|never|without)\b[^.]{0,40}\b(?:shadow\s+copy|second\s+copy|"
+        r"replica|replicated\s+(?:copy|data))\b|\b(?:replica|shadow\s+copy|second\s+copy)\b"
+        r"[^.]{0,40}\b(?:does\s+not|never)\s+exist\b",
+        lower,
+    ):
+        return "broad semantic no-copy guarantee"
+
+    if re.search(
+        r"\b(?:no\s+(?:stale\s+)?cache|no\s+cache\s+delay|not\s+cached\s+snapshots?|"
+        r"always\s+(?:live|fresh|from\s+the\s+origin)|every\s+(?:request|query)\s+"
+        r"(?:always\s+)?hits?\s+the\s+(?:origin|provider))\b",
+        lower,
+    ):
+        return "unsupported cache/freshness guarantee"
+
+    if re.search(
+        r"\b(?:disconnect|revocation|revoke|removal)\b[^.]{0,80}\b(?:immediate|"
+        r"immediately|instant|instantly|wipes?|deletes?|cuts?\s+off)\b[^.]{0,60}"
+        r"\b(?:token|credential|provider\s+access|access)\b|"
+        r"\b(?:token|credential|provider\s+access|access)\b[^.]{0,60}\b(?:wiped|"
+        r"deleted|revoked|cut\s+off)\b[^.]{0,40}\b(?:immediate|immediately|"
+        r"instant|instantly|on\s+disconnect)\b",
+        lower,
+    ):
+        return "unsupported immediate credential lifecycle guarantee"
+
+    if re.search(
+        r"\b(?:idempotency[- ]key|idempotent\s+(?:request|submission)|"
+        r"same\s+key\s+within\s+24\s+hours|duplicate\s+requests?\s+return\s+"
+        r"(?:the\s+)?cached\s+response)\b",
+        lower,
+    ):
+        return "unsupported idempotency contract"
+
+    if re.search(
+        r"\b(?:webhooks?\s+(?:are\s+)?(?:hmac[- ]?)?(?:signed|delivered)|"
+        r"webhooks?\s+(?:deliver|send)\s+(?:hmac[- ]?)?signed\s+"
+        r"(?:http\s+)?callbacks?|"
+        r"webhooks?\s+(?:are\s+)?(?:automatically\s+)?retried|"
+        r"webhook\s+(?:hmac|signature|retry|delivery)\b|"
+        r"(?:hmac[- ]signed|automatically\s+retried)\s+webhooks?)\b",
+        lower,
+    ):
+        return "unsupported webhook contract"
+
+    if re.search(
+        r"\b(?:data\s+residency\s+options?|customer[- ]selectable\s+regions?|"
+        r"keeps?\s+(?:data|processing)\s+in[- ]region|regional\s+boundary\s+"
+        r"guarantee|processing\s+stays?\s+within\s+the\s+selected\s+region)\b",
+        lower,
+    ):
+        return "unsupported residency guarantee"
+
+    if re.search(
+        r"\b(?:all|every)\s+(?:write|destructive|mutating)\s+(?:tool|operation|action)s?\b"
+        r"[^.]{0,80}\b(?:requires?|has)\b[^.]{0,40}\b(?:human|user)\s+"
+        r"(?:confirmation|approval|review)\b",
+        lower,
+    ):
+        return "unsupported universal human-confirmation guarantee"
+
+    if re.search(
+        r"\b(?:deletion|erasure)\s+(?:receipt|certificate)\b|"
+        r"\btimestamped\s+(?:deletion|erasure)\s+receipt\b",
+        lower,
+    ):
+        return "unsupported deletion-receipt guarantee"
+
+    if re.search(
+        r"\bcorpusiq\b[^.]{0,80}\b(?:revokes?|invalidates?|deletes?)\b"
+        r"[^.]{0,60}\bprovider\s+(?:credentials?|tokens?|authorization)\b",
+        lower,
+    ):
+        return "unsupported provider-credential revocation guarantee"
 
     # Broad paraphrase families. These patterns intentionally express semantic
     # combinations rather than one approved wording so simple copy edits cannot
@@ -606,7 +842,16 @@ def _broad_semantic_family(sentence: str) -> str | None:
         r"response\s+cannot\s+outlive\s+the\s+request|"
         r"forgets?\s+every\s+prompt\s+once\s+it\s+answers|"
         r"hold\s+onto\s+none\s+of\s+the\s+customer\s+material|"
-        r"all\s+request\s+state\s+dies\s+with\s+the\s+response)\b",
+        r"all\s+request\s+state\s+dies\s+with\s+the\s+response|"
+        r"(?:everything\s+else|all\s+other\s+material)\s+vanishes)\b",
+        lower,
+    ):
+        return "broad semantic retention guarantee"
+
+    if re.search(
+        r"\b(?:corpusiq\s+)?forgets?\s+(?:every|all)\s+(?:customer\s+)?"
+        r"(?:data|content|records?|prompts?)\b|"
+        r"\b(?:request|response|answer)\b[^.]{0,40}\bleaves?\s+no\s+durable\s+footprint\b",
         lower,
     ):
         return "broad semantic retention guarantee"
@@ -695,7 +940,7 @@ def _broad_semantic_family(sentence: str) -> str | None:
 
     direct_index_control = (
         "direct mcp" in lower
-        and "optional indexed search" in lower
+        and bool(re.search(r"\boptional\s+indexed[- ]search\b", lower))
         and bool(
             re.search(
                 r"\b(?:does\s+not\s+build\s+embeddings\s+or\s+file\s+indexes|"

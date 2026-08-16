@@ -66,7 +66,7 @@ Your backend forwards authenticated user requests to CorpusIQ. The API token nev
 
 ### Token Revocation
 
-Tokens can be revoked from the Dashboard (**Settings → API → Revoke All Tokens**). The service commits an inactive state before credential cleanup and surfaces cleanup failures for retry. If a token is compromised, revoke it through CorpusIQ and the provider, then generate a new one.
+The Dashboard can clear CorpusIQ MCP session state so a fresh token is required at the next login. This does not revoke authorization held by a connected provider; manage provider-side authorization in the provider's controls.
 
 ## Header Reference
 
@@ -74,7 +74,6 @@ Tokens can be revoked from the Dashboard (**Settings → API → Revoke All Toke
 |--------|----------|-------------|
 | `Authorization` | Yes | `Bearer <token>` |
 | `Content-Type` | Yes (POST) | Must be `application/json` |
-| `Idempotency-Key` | Optional | Unique key for idempotent `/query` requests |
 
 ## Testing Authentication
 

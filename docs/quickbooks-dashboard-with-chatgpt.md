@@ -52,7 +52,7 @@ Through CorpusIQ, you define what matters to your business. Create dashboard tem
 - **Operations Dashboard**: Expense trends, vendor spend, inventory metrics
 
 ### 3. Real-Time Data Refresh
-Every dashboard pull queries QuickBooks live  --  there's no stale cache. The numbers you see reflect the current state of your books, not last week's export. This is critical for cash flow monitoring and AR management where hour-level freshness matters.
+Dashboard pulls query QuickBooks at request time. Freshness follows QuickBooks and CorpusIQ cache behavior, so verify time-sensitive figures against the cited source record.
 
 ### 4. Anomaly Highlighting
 ChatGPT doesn't just present numbers  --  it flags what needs attention. "Your gross margin dropped 3.2 percentage points this month  --  the largest one-month decline in 18 months. The primary driver was a 15% increase in COGS for the Widget product line." These contextual alerts turn raw data into actionable intelligence.

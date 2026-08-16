@@ -80,9 +80,7 @@ Each of CorpusIQ's 31 connectors is an isolated module that:
 3. Translates MCP tool calls into vendor API calls, handles pagination,
    and normalizes the response into consistent JSON.
 
-Connectors are **read-only by design**. CorpusIQ requests read scopes
-only during OAuth and has no write paths in any connector. This is not
-a configuration option — it is an architectural constraint.
+External-source retrieval tools are marked read-only. Write-capable connector and CorpusIQ control-plane tools are separately named and carry behavior-matched safety annotations. Provider scopes vary by connector and documented operation.
 
 When you call a tool like `get_orders`, the flow is:
 
@@ -148,8 +146,7 @@ persist across sessions.
 
 ## Security model
 
-- **Read-only everywhere.** No connector has write access. This is
-  enforced at the connector layer, not just by policy.
+- **Operation-level permissions.** Retrieval tools are marked read-only; write-capable connector and CorpusIQ control-plane tools are separately named and annotated.
 - **Per-user token isolation.** OAuth tokens are stored encrypted and
   scoped per user account. One user's token cannot be used by another.
 - **Scoped direct-MCP retention.** Each tool call fetches live vendor data.

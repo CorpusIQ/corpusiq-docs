@@ -22,7 +22,7 @@ Connect your tools. Then ask:
 
 > "Which users accessed financial data this month? Show me the access log."
 
-Every answer: live data from the source system. Complete audit trail. Nothing modified — read-only by design.
+Answers use cited source data. External-source retrieval tools are marked read-only; write-capable and control-plane tools are separately named and annotated.
 
 ---
 

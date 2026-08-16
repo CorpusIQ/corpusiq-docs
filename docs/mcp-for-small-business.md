@@ -39,7 +39,7 @@ The setup process for a small business using CorpusIQ:
 
 **1. Create an account.** Sign up through the CorpusIQ platform. No credit card required to start.
 
-**2. Connect QuickBooks.** Authorize CorpusIQ to access your QuickBooks data through OAuth. The connection is read-only by default  --  CorpusIQ can read your financial data but cannot modify it.
+**2. Connect QuickBooks.** Authorize CorpusIQ to access your QuickBooks data through OAuth. The advertised financial-data retrieval tools are marked read-only. Write-capable tools, when available, are separately named and annotated.
 
 **3. Connect your CRM.** Authorize HubSpot, Salesforce, or your preferred CRM. Again, read-only access for querying contacts, deals, and pipeline data.
 

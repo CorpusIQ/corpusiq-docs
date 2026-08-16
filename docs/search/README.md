@@ -15,7 +15,7 @@ CorpusIQ provides natural language search across all 36 connected business data 
 
 - Natural language queries (no SQL required)
 - Cross-source search (query Stripe AND Shopify in one question)
-- Real-time results (no cached or stale data)
+- Live source queries; provider and transport caching behavior may vary
 - Date range filtering
 - Aggregation and summarization
 - Trend analysis

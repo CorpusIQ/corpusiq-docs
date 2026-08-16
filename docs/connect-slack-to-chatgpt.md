@@ -33,7 +33,7 @@ CorpusIQ connects to your Slack workspace via OAuth 2.0. You authorize read-only
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. CorpusIQ requests read-only OAuth scopes from Slack. ChatGPT can read channels, search messages, retrieve threads, and access workspace analytics. It cannot send messages, create channels, modify workspace settings, or perform any write operation. The read-only guarantee is enforced by the Slack OAuth scopes requested during authorization.
+Yes. CorpusIQ requests read-only external-source retrieval scopes from Slack. ChatGPT can read channels, search messages, retrieve threads, and access workspace analytics. It cannot send messages, create channels, modify workspace settings, or perform any write operation. The advertised Slack retrieval tools are marked read-only; write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>

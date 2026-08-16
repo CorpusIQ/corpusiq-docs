@@ -4,7 +4,7 @@ CorpusIQ is designed for business data security. We query authorized records liv
 
 ## Key Security Features
 
-- **Read-only access** — Minimum permissions on every connector
+- **Operation-level permissions** — Retrieval and write-capable tools are separately named and safety-annotated
 - **No raw-data warehouse** — Direct MCP does not retain raw customer files or full connector response payloads; operational logs may persist for up to 30 days
 - **Per-user authentication** — Each connection is scoped to the authenticating user
 - **Source citation** — Every answer shows where the data came from

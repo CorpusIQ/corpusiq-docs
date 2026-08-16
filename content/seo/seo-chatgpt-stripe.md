@@ -8,7 +8,7 @@ ChatGPT can query your real Stripe data. MRR, revenue, churn, customers — live
 
 > "Show me revenue by plan. Which plans drive the most growth?"
 
-Setup: corpusiq.io → Connect Stripe (read-only OAuth, 30s) → Add MCP config → Ask.
+Setup: corpusiq.io → Connect Stripe (read-only external-source retrieval, 30s) → Add MCP config → Ask.
 
 ---
 
