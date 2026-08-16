@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 16, 2026 (daily cron sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 216 servers (+106 guides)
+> **Last updated:** August 16, 2026 (evening cron sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 218 servers (+108 guides)
 
 ---
 
@@ -77,6 +77,24 @@ Auto-expiring share links for agent output — diffs, logs, reports, and self-co
 **Also identified (not catalogued):** DreamThreads DreamGraph (dream-thread consumer novelty — unclear niche), Croncool (cron scheduling for developers — dev tool), Studex Portal (education/study portal — education niche per Aug 11 decision), Tutorializer (docs-to-tutorials — dev content utility), Wapiworld (one-line listing, no MCP depth), Agent Utility (Cloudflare workers.dev exposed-port listing — host-dump class), FDE Lessons API (education). Feed repeats already catalogued or previously skipped this cycle: GovTrade, ApexVol, Etincel, CryptoStruct, World Monitor, API Direct, JobYap, Kin, NexusTrade, Snipara, RADAAR, BlazingCDN, Cost Seg Smart, easydocforms, Just Domain, Fakto wFirma, FARPY, CoinLobster, EM+x, SceneF, LabTestSuperstore, Prose Coach, Clipkit, CR8 Agent Commons, x402 Merchant Check, directree, WEM Price Compare (repeat of the Aug 15 morning skip — consumer/affiliate). Page 3 of /all carried only repeats (hermoso, holoweave, polymarketscan, graspi, shhots, markupbase, helpdocs, teai, waldo, customer-tiering, emx, folklore).
 
 **Key observation:** The email category went from gap to crowded in 48 hours — Loops (Aug 15 morning) added execution, Mektup adds agent-owned inboxes, and Lumail ships the most complete confirmation-gate implementation documented yet with dual safety profiles. Second, established web-data vendors are entering MCP directly — Import.io's hosted scraping engine with per-call pricing and spend caps extends the vendor-first-party pattern from observability and email into data acquisition. Third, commerce operations gained its first approval-gated store + ads bridge (Mercopilot), pairing with the RADAAR/OnePostly social layer toward an agent-addressable commerce stack with human approval at the write path.
+
+---
+
+## 🆕 August 16, 2026 — Evening Cron Sweep (2 New, 2 Guides)
+
+Scanned mcpservers.org /all pages 1-3 (newest submissions) and mcp.so Feed (30 newest submissions). 2 new business-relevant servers found — verified-revenue mobile app acquisition data with a live valuation model, and a hosted database-to-MCP gateway with per-tool access control and audit logging.
+
+### Kaiva Bridge MCP ★★ — August 16 evening
+
+Hosted database-to-MCP gateway — point it at any Postgres database or OpenAPI spec and get a secure, hosted MCP endpoint with per-tool access control and every call written to an audit log. Schema read, typed tools generated; no server to write, nothing to host. The listing is a live read-only demo of a synthetic commerce dataset (6 tools: `list_products`, `get_order`, `get_product`, `list_customers`, `list_orders`, `get_inventory`). Streamable HTTP at `api-demo.kaiv.ai/api/bridge/mcp/commerce-demo`; create your own at `kaiv.ai/bridge`. (commercial) · [Guide →](/hermes/mcp/servers/external/kaiva-bridge-mcp/)
+
+### MobileMRR MCP ★★ — August 16 evening
+
+Mobile app acquisition marketplace data over MCP — search and filter listings by MRR, asking price, category, and platform; compare candidates on price, profit multiple, and verification status; view provider-backed revenue (direct RevenueCat/Superwall connections, not self-reported screenshots); estimate valuations with a live model. 5 tools (`search_listings`, `get_listing`, `get_leaderboard`, `compare_listings`, `estimate_valuation`), no auth, Streamable HTTP at `mobilemrr.com/mcp`. (commercial, free) · [Guide →](/hermes/mcp/servers/external/mobilemrr-mcp/)
+
+**Also identified (not catalogued):** Feed and /all repeats already catalogued or previously skipped this cycle: Ignatius The Younger AI slug resolves to FDE Lessons API (education — repeat of the Aug 16 daily skip), WEM Price Compare (repeat of the Aug 15 morning skip — consumer/affiliate), Presidential Agenda trycloudflare slug (host-dump noise). AIO.GEO confirmed already catalogued with guide (Aug 15 morning).
+
+**Key observation:** Verified-revenue marketplaces are now MCP-addressable — MobileMRR extends the marketplace-data pattern to mobile apps with provider-backed verification and a live valuation endpoint, the first acquisition-marketplace server in the catalog. Second, Kaiva Bridge lands on the agent-governance segment the Aug 13 evening sweep flagged as fastest-growing: per-tool access control plus a full audit log turns "give the agent your database" from a credentials handoff into a scoped, audited connection.
 
 ---
 
@@ -913,6 +931,9 @@ Dedicated MCP server for PortEden's Google Sheets data firewall. Read, write, an
 ## Financial Data
 
 
+### MobileMRR MCP ★★ — Aug 16 (evening)
+Mobile app acquisition marketplace data over MCP — search listings by MRR, asking price, category, and platform; side-by-side comparison on price, profit multiple, and verification status; provider-backed revenue via direct RevenueCat/Superwall connections; live valuation estimates. 5 tools, no auth, Streamable HTTP at `mobilemrr.com/mcp`. (commercial, free) · [Guide →](/hermes/mcp/servers/external/mobilemrr-mcp/)
+
 ### MainBook MCP ★★ — Aug 16
 PDF bank statements to checked Excel, CSV, or JSON with balance validation — 5 tools, folder-scoped local access, page-credit pricing, no account-mutation tools. Local stdio via `uvx mainbook-mcp` with a `MAINBOOK_API_KEY`; 1 page = 1 credit, 20-page signup grant. (commercial) · [Guide →](/hermes/mcp/servers/external/mainbook-mcp/)
 
@@ -1606,6 +1627,9 @@ AI legal counsel research MCP — frontier-lab commercial commitments, safety-fr
 
 ## Development & Infrastructure
 
+
+### Kaiva Bridge MCP ★★ — Aug 16 (evening)
+Any Postgres database or OpenAPI spec into a secure, hosted MCP server — schema read, typed tools generated, per-tool access control, every call audited. No server to write, nothing to host. Streamable HTTP; the mcp.so listing is a live read-only demo (synthetic commerce dataset, 6 tools). `kaiv.ai/bridge`. (commercial) · [Guide →](/hermes/mcp/servers/external/kaiva-bridge-mcp/)
 
 ### ctxt.io MCP ★★ — Aug 16
 Auto-expiring share links for agent output — diffs, logs, reports, and self-contained HTML with `read_context` and token-authorized deletion. Stateless, no auth, free up to 1-day TTL; $1 per 30-day Pro link via ACP programmatic checkout. `ctxt.io/mcp`. (freemium) · [Guide →](/hermes/mcp/servers/external/ctxt-io-mcp/)
@@ -3716,3 +3740,8 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [MagicSlides MCP — Presentations & Documents from Chat](/docs/hermes/mcp/servers/external/magicslides-mcp/)
 - [APITube News MCP — News Search with Sentiment & Entity Filters](/docs/hermes/mcp/servers/external/apitube-news-mcp/)
 - [ctxt.io MCP — Auto-Expiring Share Links for Agent Output](/docs/hermes/mcp/servers/external/ctxt-io-mcp/)
+
+### 2 new servers from mcpservers.org /all + mcp.so Feed — Aug 16, 2026 (evening cron sweep)
+
+- [Kaiva Bridge MCP — Secure Hosted Database-to-MCP Gateway](/docs/hermes/mcp/servers/external/kaiva-bridge-mcp/)
+- [MobileMRR MCP — Verified-Revenue Mobile App Acquisition Data](/docs/hermes/mcp/servers/external/mobilemrr-mcp/)
