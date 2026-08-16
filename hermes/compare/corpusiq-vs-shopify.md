@@ -10,7 +10,7 @@ Shopify runs your store. CorpusIQ is the layer that gives AI assistants live acc
 | Data access | Your store's own data | Reads Shopify AND 40+ other tools in one prompt |
 | AI surface | Shopify Magic, AI inside the admin | Any AI you already use, via MCP |
 | Answer format | Shopify-native reports | Source-cited plain-English answers |
-| Data stored | Your store records | Zero. Read-only OAuth, scoped retention |
+| Data stored | Your store records | Live retrieval with scoped operational retention; no retained raw customer files or full connector payloads. |
 
 ## When to use Shopify alone
 
@@ -26,7 +26,7 @@ CorpusIQ connects Shopify to those systems and exposes all of them to ChatGPT, C
 
 ### Does CorpusIQ replace Shopify?
 
-No. Shopify stays your storefront and order system. CorpusIQ reads from it with read-only OAuth. Nothing is written back.
+No. Shopify stays your storefront and order system. CorpusIQ reads from it with read-only OAuth. External-source retrieval tools are read-only; write-capable and control-plane tools are separately named and annotated.
 
 ### Can I use Shopify data in ChatGPT today?
 
@@ -34,7 +34,7 @@ Yes. Connect Shopify once, then ask ChatGPT business questions with live, cited 
 
 ### Is my store data safe?
 
-Read-only access, scoped operational retention, zero stored customer files. CASA Tier 2 certified by DEKRA, hosted on Microsoft Azure.
+Read-only OAuth. No retained raw customer files or full connector payloads; operational logs and indexes are disclosed separately. CASA Tier 2 certified by DEKRA, hosted on Microsoft Azure.
 
 ## Try it
 

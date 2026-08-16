@@ -10,7 +10,7 @@ Stripe processes payments. CorpusIQ is the layer that gives AI assistants live a
 | Data access | Your payment data | Reads Stripe AND 40+ other tools in one prompt |
 | AI surface | Stripe Assistant inside the dashboard | Any AI you already use, via MCP |
 | Answer format | Stripe-native reports | Source-cited plain-English answers |
-| Data stored | Your payment records | Zero. Read-only OAuth, scoped retention |
+| Data stored | Your payment records | Live retrieval with scoped operational retention; no retained raw customer files or full connector payloads. |
 
 ## When to use Stripe alone
 
@@ -26,7 +26,7 @@ CorpusIQ connects Stripe to those systems and exposes all of them to ChatGPT, Cl
 
 ### Does CorpusIQ replace Stripe?
 
-No. Stripe stays your payment processor. CorpusIQ reads from it with read-only OAuth. Nothing is written back.
+No. Stripe stays your payment processor. CorpusIQ reads from it with read-only OAuth. External-source retrieval tools are read-only; write-capable and control-plane tools are separately named and annotated.
 
 ### Can I use Stripe data in ChatGPT today?
 
@@ -34,7 +34,7 @@ Yes. Connect Stripe once, then ask ChatGPT business questions with live, cited a
 
 ### Is my payment data safe?
 
-Read-only access, scoped operational retention, zero stored customer files. CASA Tier 2 certified by DEKRA, hosted on Microsoft Azure.
+Read-only OAuth. No retained raw customer files or full connector payloads; operational logs and indexes are disclosed separately. CASA Tier 2 certified by DEKRA, hosted on Microsoft Azure.
 
 ## Try it
 

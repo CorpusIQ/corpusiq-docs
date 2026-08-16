@@ -10,7 +10,7 @@ HubSpot runs your CRM. CorpusIQ is the layer that gives AI assistants live acces
 | Data access | Its own data | Reads HubSpot AND 40+ other tools in one prompt |
 | AI surface | HubSpot AI tools inside the CRM | Any AI you already use, via MCP |
 | Answer format | Native reports | Source-cited plain-English answers |
-| Data stored | Your records | Zero. Read-only OAuth, scoped retention |
+| Data stored | Your records | Live retrieval with scoped operational retention; no retained raw customer files or full connector payloads. |
 
 ## When to use HubSpot alone
 
@@ -26,7 +26,7 @@ CorpusIQ connects HubSpot to those systems and exposes all of them to ChatGPT, C
 
 ### Does CorpusIQ replace HubSpot?
 
-No. HubSpot stays your system of record for its job. CorpusIQ reads from it with read-only OAuth. Nothing is written back.
+No. HubSpot stays your system of record for its job. CorpusIQ reads from it with read-only OAuth. External-source retrieval tools are read-only; write-capable and control-plane tools are separately named and annotated.
 
 ### Can I use HubSpot data in ChatGPT today?
 
@@ -34,7 +34,7 @@ Yes. Connect HubSpot once, then ask ChatGPT business questions with live, cited 
 
 ### Is my data safe?
 
-Read-only access, scoped operational retention, zero stored customer files. CASA Tier 2 certified by DEKRA, hosted on Microsoft Azure.
+Read-only OAuth. No retained raw customer files or full connector payloads; operational logs and indexes are disclosed separately. CASA Tier 2 certified by DEKRA, hosted on Microsoft Azure.
 
 ## Try it
 

@@ -10,7 +10,7 @@ QuickBooks is accounting software. CorpusIQ is the layer that gives AI assistant
 | Data access | Its own ledgers and reports | Reads QuickBooks AND 40+ other tools in one prompt |
 | AI surface | QuickBooks AI assistant inside the product | Any AI you already use, via MCP |
 | Answer format | QuickBooks-native reports | Source-cited plain-English answers |
-| Data stored | Your financial records | Zero. Read-only OAuth, scoped retention |
+| Data stored | Your financial records | Live retrieval with scoped operational retention; no retained raw customer files or full connector payloads. |
 
 ## When to use QuickBooks alone
 
@@ -26,7 +26,7 @@ CorpusIQ connects QuickBooks to those systems and exposes all of them to ChatGPT
 
 ### Does CorpusIQ replace QuickBooks?
 
-No. QuickBooks stays your system of record. CorpusIQ reads from it with read-only OAuth. Nothing is written back.
+No. QuickBooks stays your system of record. CorpusIQ reads from it with read-only OAuth. External-source retrieval tools are read-only; write-capable and control-plane tools are separately named and annotated.
 
 ### Can I use QuickBooks data in ChatGPT today?
 
@@ -34,7 +34,7 @@ Yes. Connect QuickBooks once, then ask ChatGPT business questions with live, cit
 
 ### Is my financial data safe?
 
-Read-only access, scoped operational retention, zero stored customer files. CASA Tier 2 certified by DEKRA, hosted on Microsoft Azure.
+Read-only OAuth. No retained raw customer files or full connector payloads; operational logs and indexes are disclosed separately. CASA Tier 2 certified by DEKRA, hosted on Microsoft Azure.
 
 ## Try it
 

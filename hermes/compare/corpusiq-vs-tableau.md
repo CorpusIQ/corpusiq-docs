@@ -10,7 +10,7 @@ Tableau builds dashboards. CorpusIQ is the layer that gives AI assistants live a
 | Data access | Its own data | Reads Tableau AND 40+ other tools in one prompt |
 | AI surface | Tableau AI features inside the dashboard builder | Any AI you already use, via MCP |
 | Answer format | Native reports | Source-cited plain-English answers |
-| Data stored | Your records | Zero. Read-only OAuth, scoped retention |
+| Data stored | Your records | Live retrieval with scoped operational retention; no retained raw customer files or full connector payloads. |
 
 ## When to use Tableau alone
 
@@ -26,7 +26,7 @@ CorpusIQ connects Tableau to those systems and exposes all of them to ChatGPT, C
 
 ### Does CorpusIQ replace Tableau?
 
-No. Tableau stays your system of record for its job. CorpusIQ reads from it with read-only OAuth. Nothing is written back.
+No. Tableau stays your system of record for its job. CorpusIQ reads from it with read-only OAuth. External-source retrieval tools are read-only; write-capable and control-plane tools are separately named and annotated.
 
 ### Can I use Tableau data in ChatGPT today?
 
@@ -34,7 +34,7 @@ Yes. Connect Tableau once, then ask ChatGPT business questions with live, cited 
 
 ### Is my data safe?
 
-Read-only access, scoped operational retention, zero stored customer files. CASA Tier 2 certified by DEKRA, hosted on Microsoft Azure.
+Read-only OAuth. No retained raw customer files or full connector payloads; operational logs and indexes are disclosed separately. CASA Tier 2 certified by DEKRA, hosted on Microsoft Azure.
 
 ## Try it
 
