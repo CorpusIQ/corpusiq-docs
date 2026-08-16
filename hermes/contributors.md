@@ -16,7 +16,7 @@ Thank you to everyone who has contributed to the Hermes Ecosystem Directory — 
 
 | Contributor | Submissions | Approved | Role | First Contribution | Last Active |
 |-------------|-------------|----------|------|--------------------|-------------|
-| [CorpusIQ](https://github.com/CorpusIQ) | 310 | 160 | maintainer | 2026-06-16 | 2026-08-15 |
+| [CorpusIQ](https://github.com/CorpusIQ) | 317 | 160 | maintainer | 2026-06-16 | 2026-08-15 |
 
 ## Contributors
 

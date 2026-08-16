@@ -38620,5 +38620,221 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-16T05:04:56.626546+00:00",
     "status": "pending"
+  },
+  {
+    "name": "NousResearch/Hermes-Bot-Mode",
+    "url": "https://github.com/NousResearch/Hermes-Bot-Mode",
+    "description": "Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.",
+    "stars": 521,
+    "forks": 74,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-16T06:02:37Z",
+    "category": "core",
+    "score": 68,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "tale-project/tale",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-08-16T06:02:52.969793+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "beimianism/Hermes-to-DSH",
+    "url": "https://github.com/beimianism/Hermes-to-DSH",
+    "description": "\u6d4f\u89c8\u672c\u673a Hermes \u7684 \u6280\u80fd / MCP \u670d\u52a1 / \u5bf9\u8bdd\u5386\u53f2,\u5e76\u628a\u9009\u4e2d\u7684\u6280\u80fd\u4e0e MCP \u914d\u7f6e\u6ce8\u5165\u5230\u5f53\u524d agent\u3002",
+    "stars": 2,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "dsh-plugin",
+      "dsh-plugin-market",
+      "dsh-plugins"
+    ],
+    "updated_at": "2026-08-16T05:32:33Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-16T06:03:02.598796+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "LyutikovSergey/GadgetLink",
+    "url": "https://github.com/LyutikovSergey/GadgetLink",
+    "description": "Owner-operated, visible Windows diagnostics bridge for Hermes/MCP without elevation or hidden persistence.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "updated_at": "2026-08-16T05:31:06Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-16T06:03:05.601754+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cnlangzi/nightme",
+    "url": "https://github.com/cnlangzi/nightme",
+    "description": "Sleep tight. NightMe codes all night. A remote-pair developer agent. No more babysitting AI\u2014stay in the loop from your phone while  AI Coding Agent(claude/codex/opencode/pi/dsh...) takes the wheel.",
+    "stars": 2,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-coding",
+      "ai-coding-assistant",
+      "cc-connect",
+      "claude-code",
+      "codex",
+      "coding-agent",
+      "happy-coder",
+      "hermes",
+      "hermes-agent",
+      "openclaw",
+      "opencode",
+      "pi-coding-agent",
+      "vibe-coding"
+    ],
+    "updated_at": "2026-08-16T06:01:43Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "PatterAI/Patter"
+    ],
+    "discovered_at": "2026-08-16T06:03:21.897316+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "anyth-agent/hermes-agent",
+    "url": "https://github.com/anyth-agent/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-16T06:02:02Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-16T06:03:24.900471+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "RealEphemeralEuphoria/hermes-agent",
+    "url": "https://github.com/RealEphemeralEuphoria/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-16T06:01:14Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-16T06:03:27.903259+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "asimons81/hermes-a2a-bridge",
+    "url": "https://github.com/asimons81/hermes-a2a-bridge",
+    "description": "Archived \u2014 superseded by built-in Hermes A2A (https://hermes-agent.nousresearch.com/docs/user-guide/messaging/a2a)",
+    "stars": 49,
+    "forks": 6,
+    "language": "Python",
+    "topics": [
+      "a2a",
+      "agent-bridge",
+      "agent-to-agent",
+      "ai-agents",
+      "google-a2a",
+      "hermes-agent",
+      "local-first",
+      "open-source",
+      "python"
+    ],
+    "updated_at": "2026-08-16T05:16:26Z",
+    "category": "official",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-16T06:04:49.917892+00:00",
+    "status": "pending"
   }
 ]
