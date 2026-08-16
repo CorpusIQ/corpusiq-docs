@@ -10095,7 +10095,7 @@
 <li><strong>Community Feedback:</strong> Analyze comments and engagement for direct audience signals</li>
 </ul>
 <h3 id="hermes-implementation">Hermes Implementation<a class="headerlink" href="#hermes-implementation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">research_video_topics</span><span class="p">(</span><span class="n">channel_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">competitors</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">]:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">research_video_topics</span><span class="p">(</span><span class="n">channel_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">competitors</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">]:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Research video topics using Hermes tools and knowledge base.&quot;&quot;&quot;</span>
 
     <span class="c1"># Analyze own channel performance</span>
@@ -10161,7 +10161,7 @@
 </code></pre></div>
 <h3 id="script-generation-with-reflexion">Script Generation with Reflexion<a class="headerlink" href="#script-generation-with-reflexion" title="Anchor link to this section">&para;</a></h3>
 <p>Use Reflexion to ensure script quality before rendering:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">generate_video_script</span><span class="p">(</span><span class="n">topic</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">target_duration_seconds</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">360</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">generate_video_script</span><span class="p">(</span><span class="n">topic</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">target_duration_seconds</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">360</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate a video script with quality refinement.&quot;&quot;&quot;</span>
 
     <span class="n">script</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
@@ -10257,7 +10257,7 @@
 <h2 id="stage-3-media-creation-avatar-rendering">Stage 3: Media Creation / Avatar Rendering<a class="headerlink" href="#stage-3-media-creation-avatar-rendering" title="Anchor link to this section">&para;</a></h2>
 <h3 id="option-a-heygen-avatar-videos">Option A: HeyGen Avatar Videos<a class="headerlink" href="#option-a-heygen-avatar-videos" title="Anchor link to this section">&para;</a></h3>
 <p>For talking-head style content without filming:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">create_avatar_video</span><span class="p">(</span><span class="n">script</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">output_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">create_avatar_video</span><span class="p">(</span><span class="n">script</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">output_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate an AI avatar video using HeyGen.&quot;&quot;&quot;</span>
 
     <span class="c1"># Prepare the script for HeyGen</span>
@@ -10328,7 +10328,7 @@ ffmpeg<span class="w"> </span><span class="se">\</span>
 </code></pre></div>
 <h2 id="stage-4-post-production">Stage 4: Post-Production<a class="headerlink" href="#stage-4-post-production" title="Anchor link to this section">&para;</a></h2>
 <h3 id="automated-caption-generation">Automated Caption Generation<a class="headerlink" href="#automated-caption-generation" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">generate_captions</span><span class="p">(</span><span class="n">video_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">generate_captions</span><span class="p">(</span><span class="n">video_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate and burn captions into the video.&quot;&quot;&quot;</span>
 
     <span class="c1"># Extract audio and transcribe</span>
@@ -10350,7 +10350,7 @@ ffmpeg<span class="w"> </span><span class="se">\</span>
 </code></pre></div>
 <h3 id="thumbnail-generation">Thumbnail Generation<a class="headerlink" href="#thumbnail-generation" title="Anchor link to this section">&para;</a></h3>
 <p>Thumbnails drive click-through rate. Automate A/B thumbnail testing:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">generate_thumbnails</span><span class="p">(</span><span class="n">video_title</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">script</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">generate_thumbnails</span><span class="p">(</span><span class="n">video_title</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">script</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate multiple thumbnail options for A/B testing.&quot;&quot;&quot;</span>
 
     <span class="n">thumbnails</span> <span class="o">=</span> <span class="p">[]</span>
@@ -10422,7 +10422,7 @@ ffmpeg<span class="w"> </span><span class="se">\</span>
 </ol>
 <h3 id="scheduling-optimization">Scheduling Optimization<a class="headerlink" href="#scheduling-optimization" title="Anchor link to this section">&para;</a></h3>
 <p>Post times matter. Analyze your audience data:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">get_optimal_post_time</span><span class="p">(</span><span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">channel_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">get_optimal_post_time</span><span class="p">(</span><span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">channel_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Determine best posting time based on historical engagement data.&quot;&quot;&quot;</span>
 
     <span class="n">analytics</span> <span class="o">=</span> <span class="n">hermes_tools</span><span class="o">.</span><span class="n">get_youtube_analytics</span><span class="p">(</span>
@@ -10438,7 +10438,7 @@ ffmpeg<span class="w"> </span><span class="se">\</span>
 </code></pre></div>
 <h3 id="performance-tracking">Performance Tracking<a class="headerlink" href="#performance-tracking" title="Anchor link to this section">&para;</a></h3>
 <p>Automate post-publish monitoring:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">track_video_performance</span><span class="p">(</span><span class="n">video_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">platforms</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]):</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">track_video_performance</span><span class="p">(</span><span class="n">video_id</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">platforms</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">str</span><span class="p">]):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Track video performance for the first 72 hours.&quot;&quot;&quot;</span>
 
     <span class="c1"># Schedule hourly checks for the first 24 hours</span>

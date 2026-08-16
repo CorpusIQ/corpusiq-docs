@@ -6,17 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Complete guide to CorpusIQ API rate limits. Per-endpoint quotas, rate limit headers, retry strategies, 429 handling, fair-use policies, and how to request">
+        <meta name="description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/api/rate-limits/">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-shopify/">
       
       
-        <link rel="prev" href="../webhooks/">
-      
-      
-        <link rel="next" href="../errors/">
       
       
         
@@ -27,7 +23,7 @@
     
     
   
-    <title>CorpusIQ API Rate Limits</title>
+    <title>CorpusIQ vs Shopify: What Each One Does</title>
   
 
     
@@ -55,7 +51,7 @@
     
       <link rel="stylesheet" href="/docs/stylesheets/extra-v2.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -72,25 +68,25 @@
   
   <!-- Open Graph — LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/api/rate-limits/">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-shopify/">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="CorpusIQ API Rate Limits">
-  <meta property="og:description" content="Complete guide to CorpusIQ API rate limits. Per-endpoint quotas, rate limit headers, retry strategies, 429 handling, fair-use policies, and how to request">
+  <meta property="og:title" content="CorpusIQ vs Shopify: What Each One Does">
+  <meta property="og:description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="CorpusIQ API Rate Limits">
-  <meta name="twitter:description" content="Complete guide to CorpusIQ API rate limits. Per-endpoint quotas, rate limit headers, retry strategies, 429 handling, fair-use policies, and how to request">
+  <meta name="twitter:title" content="CorpusIQ vs Shopify: What Each One Does">
+  <meta name="twitter:description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "CorpusIQ API Rate Limits",
-    "description": "Complete guide to CorpusIQ API rate limits. Per-endpoint quotas, rate limit headers, retry strategies, 429 handling, fair-use policies, and how to request",
-    "url": "https://www.corpusiq.io/docs/api/rate-limits/",
+    "name": "CorpusIQ vs Shopify: What Each One Does",
+    "description": "CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.",
+    "url": "https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-shopify/",
     "isPartOf": {
       "@type": "WebSite",
       "name": "CorpusIQ Docs",
@@ -128,7 +124,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#rate-limits" class="md-skip">
+        <a href="#corpusiq-vs-shopify-what-each-one-does" class="md-skip">
           Skip to content
         </a>
       
@@ -144,7 +140,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../.." title="CorpusIQ Docs" class="md-header__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -164,7 +160,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              CorpusIQ API Rate Limits
+              CorpusIQ vs Shopify: What Each One Does
             
           </span>
         </div>
@@ -282,7 +278,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
+    <a href="../../.." title="CorpusIQ Docs" class="md-nav__button md-logo" aria-label="CorpusIQ Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -312,7 +308,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -339,7 +335,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quick-start/" class="md-nav__link">
+      <a href="../../../quick-start/" class="md-nav__link">
         
   
   
@@ -363,8 +359,6 @@
       
   
   
-    
-  
   
   
     
@@ -399,15 +393,17 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../../api/" class="md-nav__link ">
               
   
   
@@ -431,7 +427,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -451,7 +447,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../overview/" class="md-nav__link">
+      <a href="../../../api/overview/" class="md-nav__link">
         
   
   
@@ -479,7 +475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../authentication/" class="md-nav__link">
+      <a href="../../../api/authentication/" class="md-nav__link">
         
   
   
@@ -507,7 +503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../endpoints/" class="md-nav__link">
+      <a href="../../../api/endpoints/" class="md-nav__link">
         
   
   
@@ -535,7 +531,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../schemas/" class="md-nav__link">
+      <a href="../../../api/schemas/" class="md-nav__link">
         
   
   
@@ -563,7 +559,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../webhooks/" class="md-nav__link">
+      <a href="../../../api/webhooks/" class="md-nav__link">
         
   
   
@@ -588,37 +584,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Rate Limits
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../api/rate-limits/" class="md-nav__link">
         
   
   
@@ -634,164 +603,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#limit-tiers" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Limit Tiers
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rate-limit-headers" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rate Limit Headers
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exceeding-limits" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Exceeding Limits
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#best-practices" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Best Practices
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Best Practices">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#monitor-header-usage" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Monitor Header Usage
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#retry-explicitly" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Retry Explicitly
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#batch-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Batch Questions
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#plan-for-daily-quotas" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Plan for Daily Quotas
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rate-limit-increases" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Rate Limit Increases
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Frequently Asked Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-links" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Links
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Powered by CorpusIQ -- the leading MCP platform for business data and AI.
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -804,7 +615,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../errors/" class="md-nav__link">
+      <a href="../../../api/errors/" class="md-nav__link">
         
   
   
@@ -832,7 +643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../openapi/" class="md-nav__link">
+      <a href="../../../api/openapi/" class="md-nav__link">
         
   
   
@@ -927,7 +738,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connectors/" class="md-nav__link">
+      <a href="../../../connectors/" class="md-nav__link">
         
   
   
@@ -955,7 +766,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connectors/google-ads-for-agencies/" class="md-nav__link">
+      <a href="../../../connectors/google-ads-for-agencies/" class="md-nav__link">
         
   
   
@@ -1015,7 +826,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../architecture/" class="md-nav__link ">
+            <a href="../../../architecture/" class="md-nav__link ">
               
   
   
@@ -1102,7 +913,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../how-it-works/" class="md-nav__link ">
+            <a href="../../../how-it-works/" class="md-nav__link ">
               
   
   
@@ -1146,7 +957,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-it-works/what-is-corpusiq/" class="md-nav__link">
+      <a href="../../../how-it-works/what-is-corpusiq/" class="md-nav__link">
         
   
   
@@ -1174,7 +985,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-it-works/mcp-architecture/" class="md-nav__link">
+      <a href="../../../how-it-works/mcp-architecture/" class="md-nav__link">
         
   
   
@@ -1202,7 +1013,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-it-works/connectors-explained/" class="md-nav__link">
+      <a href="../../../how-it-works/connectors-explained/" class="md-nav__link">
         
   
   
@@ -1230,7 +1041,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-it-works/skills-explained/" class="md-nav__link">
+      <a href="../../../how-it-works/skills-explained/" class="md-nav__link">
         
   
   
@@ -1258,7 +1069,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-it-works/metric-specs/" class="md-nav__link">
+      <a href="../../../how-it-works/metric-specs/" class="md-nav__link">
         
   
   
@@ -1286,7 +1097,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-it-works/privacy-and-security/" class="md-nav__link">
+      <a href="../../../how-it-works/privacy-and-security/" class="md-nav__link">
         
   
   
@@ -1314,7 +1125,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-it-works/rate-limits-and-quotas/" class="md-nav__link">
+      <a href="../../../how-it-works/rate-limits-and-quotas/" class="md-nav__link">
         
   
   
@@ -1342,7 +1153,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-it-works/reading-files-and-pdfs/" class="md-nav__link">
+      <a href="../../../how-it-works/reading-files-and-pdfs/" class="md-nav__link">
         
   
   
@@ -1404,7 +1215,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../security/" class="md-nav__link ">
+            <a href="../../../security/" class="md-nav__link ">
               
   
   
@@ -1448,7 +1259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../security/" class="md-nav__link">
+      <a href="../../../security/" class="md-nav__link">
         
   
   
@@ -1547,7 +1358,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chatgpt-integration/" class="md-nav__link">
+      <a href="../../../chatgpt-integration/" class="md-nav__link">
         
   
   
@@ -1575,7 +1386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-agent-users/" class="md-nav__link">
+      <a href="../../../ai-agent-users/" class="md-nav__link">
         
   
   
@@ -1603,7 +1414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-chat-users/" class="md-nav__link">
+      <a href="../../../ai-chat-users/" class="md-nav__link">
         
   
   
@@ -1631,7 +1442,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../supported-agents/" class="md-nav__link">
+      <a href="../../../supported-agents/" class="md-nav__link">
         
   
   
@@ -1703,7 +1514,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../chat-apps/" class="md-nav__link ">
+            <a href="../../../chat-apps/" class="md-nav__link ">
               
   
   
@@ -1747,7 +1558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chat-apps/what-it-is/" class="md-nav__link">
+      <a href="../../../chat-apps/what-it-is/" class="md-nav__link">
         
   
   
@@ -1775,7 +1586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chat-apps/getting-started-slack/" class="md-nav__link">
+      <a href="../../../chat-apps/getting-started-slack/" class="md-nav__link">
         
   
   
@@ -1803,7 +1614,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chat-apps/getting-started-teams/" class="md-nav__link">
+      <a href="../../../chat-apps/getting-started-teams/" class="md-nav__link">
         
   
   
@@ -1831,7 +1642,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chat-apps/asking-questions/" class="md-nav__link">
+      <a href="../../../chat-apps/asking-questions/" class="md-nav__link">
         
   
   
@@ -1859,7 +1670,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chat-apps/commands-and-account/" class="md-nav__link">
+      <a href="../../../chat-apps/commands-and-account/" class="md-nav__link">
         
   
   
@@ -1887,7 +1698,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chat-apps/troubleshooting/" class="md-nav__link">
+      <a href="../../../chat-apps/troubleshooting/" class="md-nav__link">
         
   
   
@@ -1922,7 +1733,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../search/" class="md-nav__link">
+      <a href="../../../search/" class="md-nav__link">
         
   
   
@@ -1949,7 +1760,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reporting/" class="md-nav__link">
+      <a href="../../../reporting/" class="md-nav__link">
         
   
   
@@ -1976,7 +1787,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../onboarding/" class="md-nav__link">
+      <a href="../../../onboarding/" class="md-nav__link">
         
   
   
@@ -2003,7 +1814,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../governance/" class="md-nav__link">
+      <a href="../../../governance/" class="md-nav__link">
         
   
   
@@ -2030,7 +1841,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../changelog/" class="md-nav__link">
+      <a href="../../../changelog/" class="md-nav__link">
         
   
   
@@ -2094,7 +1905,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../troubleshooting/" class="md-nav__link ">
+            <a href="../../../troubleshooting/" class="md-nav__link ">
               
   
   
@@ -2138,7 +1949,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../troubleshooting/error-codes-reference/" class="md-nav__link">
+      <a href="../../../troubleshooting/error-codes-reference/" class="md-nav__link">
         
   
   
@@ -2166,7 +1977,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../troubleshooting/mcp-connection-errors/" class="md-nav__link">
+      <a href="../../../troubleshooting/mcp-connection-errors/" class="md-nav__link">
         
   
   
@@ -2194,7 +2005,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../troubleshooting/connector-auth-failed/" class="md-nav__link">
+      <a href="../../../troubleshooting/connector-auth-failed/" class="md-nav__link">
         
   
   
@@ -2222,7 +2033,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../troubleshooting/connector-shows-no-data/" class="md-nav__link">
+      <a href="../../../troubleshooting/connector-shows-no-data/" class="md-nav__link">
         
   
   
@@ -2250,7 +2061,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../troubleshooting/claude-cant-see-corpusiq/" class="md-nav__link">
+      <a href="../../../troubleshooting/claude-cant-see-corpusiq/" class="md-nav__link">
         
   
   
@@ -2278,7 +2089,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../troubleshooting/chatgpt-cant-see-corpusiq/" class="md-nav__link">
+      <a href="../../../troubleshooting/chatgpt-cant-see-corpusiq/" class="md-nav__link">
         
   
   
@@ -2411,7 +2222,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../what-is-an-mcp-server/" class="md-nav__link">
+      <a href="../../../what-is-an-mcp-server/" class="md-nav__link">
         
   
   
@@ -2439,7 +2250,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-spec-ga-july-2026/" class="md-nav__link">
+      <a href="../../../mcp-spec-ga-july-2026/" class="md-nav__link">
         
   
   
@@ -2467,7 +2278,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-mcp-servers-work/" class="md-nav__link">
+      <a href="../../../how-mcp-servers-work/" class="md-nav__link">
         
   
   
@@ -2495,7 +2306,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-vs-zapier/" class="md-nav__link">
+      <a href="../../../mcp-vs-zapier/" class="md-nav__link">
         
   
   
@@ -2523,7 +2334,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-vs-data-warehouse/" class="md-nav__link">
+      <a href="../../../mcp-vs-data-warehouse/" class="md-nav__link">
         
   
   
@@ -2551,7 +2362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-vs-api-integrations/" class="md-nav__link">
+      <a href="../../../mcp-vs-api-integrations/" class="md-nav__link">
         
   
   
@@ -2579,7 +2390,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-vs-rpa/" class="md-nav__link">
+      <a href="../../../mcp-vs-rpa/" class="md-nav__link">
         
   
   
@@ -2607,7 +2418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../benefits-of-mcp-for-business/" class="md-nav__link">
+      <a href="../../../benefits-of-mcp-for-business/" class="md-nav__link">
         
   
   
@@ -2635,7 +2446,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-security-best-practices/" class="md-nav__link">
+      <a href="../../../mcp-security-best-practices/" class="md-nav__link">
         
   
   
@@ -2663,7 +2474,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-small-business/" class="md-nav__link">
+      <a href="../../../mcp-for-small-business/" class="md-nav__link">
         
   
   
@@ -2691,7 +2502,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-enterprise/" class="md-nav__link">
+      <a href="../../../mcp-for-enterprise/" class="md-nav__link">
         
   
   
@@ -2719,7 +2530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-agencies/" class="md-nav__link">
+      <a href="../../../mcp-for-agencies/" class="md-nav__link">
         
   
   
@@ -2747,7 +2558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-accountants/" class="md-nav__link">
+      <a href="../../../mcp-for-accountants/" class="md-nav__link">
         
   
   
@@ -2775,7 +2586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-real-estate/" class="md-nav__link">
+      <a href="../../../mcp-for-real-estate/" class="md-nav__link">
         
   
   
@@ -2803,7 +2614,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-ecommerce/" class="md-nav__link">
+      <a href="../../../mcp-for-ecommerce/" class="md-nav__link">
         
   
   
@@ -2831,7 +2642,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-finance/" class="md-nav__link">
+      <a href="../../../mcp-for-finance/" class="md-nav__link">
         
   
   
@@ -2859,7 +2670,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-marketing/" class="md-nav__link">
+      <a href="../../../mcp-for-marketing/" class="md-nav__link">
         
   
   
@@ -2887,7 +2698,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-sales/" class="md-nav__link">
+      <a href="../../../mcp-for-sales/" class="md-nav__link">
         
   
   
@@ -2915,7 +2726,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-operations/" class="md-nav__link">
+      <a href="../../../mcp-for-operations/" class="md-nav__link">
         
   
   
@@ -2943,7 +2754,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-customer-support/" class="md-nav__link">
+      <a href="../../../mcp-for-customer-support/" class="md-nav__link">
         
   
   
@@ -2971,7 +2782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp-for-executives/" class="md-nav__link">
+      <a href="../../../mcp-for-executives/" class="md-nav__link">
         
   
   
@@ -3092,7 +2903,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-shopify-to-chatgpt/" class="md-nav__link">
+      <a href="../../../connect-shopify-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -3120,7 +2931,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-quickbooks-to-chatgpt/" class="md-nav__link">
+      <a href="../../../connect-quickbooks-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -3148,7 +2959,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-hubspot-to-chatgpt/" class="md-nav__link">
+      <a href="../../../connect-hubspot-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -3176,7 +2987,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-salesforce-to-chatgpt/" class="md-nav__link">
+      <a href="../../../connect-salesforce-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -3204,7 +3015,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-google-analytics-to-chatgpt/" class="md-nav__link">
+      <a href="../../../connect-google-analytics-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -3232,7 +3043,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-stripe-to-chatgpt/" class="md-nav__link">
+      <a href="../../../connect-stripe-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -3260,7 +3071,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-netsuite-to-chatgpt/" class="md-nav__link">
+      <a href="../../../connect-netsuite-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -3288,7 +3099,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-monday-com-to-chatgpt/" class="md-nav__link">
+      <a href="../../../connect-monday-com-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -3316,7 +3127,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-asana-to-chatgpt/" class="md-nav__link">
+      <a href="../../../connect-asana-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -3344,7 +3155,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-jira-to-chatgpt/" class="md-nav__link">
+      <a href="../../../connect-jira-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -3372,7 +3183,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-slack-to-chatgpt/" class="md-nav__link">
+      <a href="../../../connect-slack-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -3400,7 +3211,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-notion-to-chatgpt/" class="md-nav__link">
+      <a href="../../../connect-notion-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -3428,7 +3239,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-sharepoint-to-chatgpt/" class="md-nav__link">
+      <a href="../../../connect-sharepoint-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -3456,7 +3267,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-gmail-to-chatgpt/" class="md-nav__link">
+      <a href="../../../connect-gmail-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -3484,7 +3295,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-outlook-to-chatgpt/" class="md-nav__link">
+      <a href="../../../connect-outlook-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -3595,7 +3406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-shopify-to-claude/" class="md-nav__link">
+      <a href="../../../connect-shopify-to-claude/" class="md-nav__link">
         
   
   
@@ -3623,7 +3434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-quickbooks-to-claude/" class="md-nav__link">
+      <a href="../../../connect-quickbooks-to-claude/" class="md-nav__link">
         
   
   
@@ -3651,7 +3462,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-hubspot-to-claude/" class="md-nav__link">
+      <a href="../../../connect-hubspot-to-claude/" class="md-nav__link">
         
   
   
@@ -3679,7 +3490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-salesforce-to-claude/" class="md-nav__link">
+      <a href="../../../connect-salesforce-to-claude/" class="md-nav__link">
         
   
   
@@ -3707,7 +3518,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-google-analytics-to-claude/" class="md-nav__link">
+      <a href="../../../connect-google-analytics-to-claude/" class="md-nav__link">
         
   
   
@@ -3735,7 +3546,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-stripe-to-claude/" class="md-nav__link">
+      <a href="../../../connect-stripe-to-claude/" class="md-nav__link">
         
   
   
@@ -3763,7 +3574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-netsuite-to-claude/" class="md-nav__link">
+      <a href="../../../connect-netsuite-to-claude/" class="md-nav__link">
         
   
   
@@ -3791,7 +3602,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-slack-to-claude/" class="md-nav__link">
+      <a href="../../../connect-slack-to-claude/" class="md-nav__link">
         
   
   
@@ -3819,7 +3630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-notion-to-claude/" class="md-nav__link">
+      <a href="../../../connect-notion-to-claude/" class="md-nav__link">
         
   
   
@@ -3847,7 +3658,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../connect-sharepoint-to-claude/" class="md-nav__link">
+      <a href="../../../connect-sharepoint-to-claude/" class="md-nav__link">
         
   
   
@@ -3968,7 +3779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-business-intelligence/" class="md-nav__link">
+      <a href="../../../ai-for-business-intelligence/" class="md-nav__link">
         
   
   
@@ -3996,7 +3807,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-financial-analysis/" class="md-nav__link">
+      <a href="../../../ai-for-financial-analysis/" class="md-nav__link">
         
   
   
@@ -4024,7 +3835,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-sales-reporting/" class="md-nav__link">
+      <a href="../../../ai-for-sales-reporting/" class="md-nav__link">
         
   
   
@@ -4052,7 +3863,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-revenue-operations/" class="md-nav__link">
+      <a href="../../../ai-for-revenue-operations/" class="md-nav__link">
         
   
   
@@ -4080,7 +3891,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-customer-support/" class="md-nav__link">
+      <a href="../../../ai-for-customer-support/" class="md-nav__link">
         
   
   
@@ -4108,7 +3919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-project-management/" class="md-nav__link">
+      <a href="../../../ai-for-project-management/" class="md-nav__link">
         
   
   
@@ -4136,7 +3947,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-marketing-analytics/" class="md-nav__link">
+      <a href="../../../ai-for-marketing-analytics/" class="md-nav__link">
         
   
   
@@ -4164,7 +3975,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-executive-reporting/" class="md-nav__link">
+      <a href="../../../ai-for-executive-reporting/" class="md-nav__link">
         
   
   
@@ -4192,7 +4003,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-forecasting/" class="md-nav__link">
+      <a href="../../../ai-for-forecasting/" class="md-nav__link">
         
   
   
@@ -4220,7 +4031,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-kpi-monitoring/" class="md-nav__link">
+      <a href="../../../ai-for-kpi-monitoring/" class="md-nav__link">
         
   
   
@@ -4248,7 +4059,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-compliance/" class="md-nav__link">
+      <a href="../../../ai-for-compliance/" class="md-nav__link">
         
   
   
@@ -4276,7 +4087,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-audit-readiness/" class="md-nav__link">
+      <a href="../../../ai-for-audit-readiness/" class="md-nav__link">
         
   
   
@@ -4304,7 +4115,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-document-search/" class="md-nav__link">
+      <a href="../../../ai-for-document-search/" class="md-nav__link">
         
   
   
@@ -4332,7 +4143,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-knowledge-management/" class="md-nav__link">
+      <a href="../../../ai-for-knowledge-management/" class="md-nav__link">
         
   
   
@@ -4360,7 +4171,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ai-for-data-analysis/" class="md-nav__link">
+      <a href="../../../ai-for-data-analysis/" class="md-nav__link">
         
   
   
@@ -4465,7 +4276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chatgpt-for-quickbooks/" class="md-nav__link">
+      <a href="../../../chatgpt-for-quickbooks/" class="md-nav__link">
         
   
   
@@ -4493,7 +4304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../claude-for-quickbooks/" class="md-nav__link">
+      <a href="../../../claude-for-quickbooks/" class="md-nav__link">
         
   
   
@@ -4521,7 +4332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quickbooks-ai-reporting/" class="md-nav__link">
+      <a href="../../../quickbooks-ai-reporting/" class="md-nav__link">
         
   
   
@@ -4549,7 +4360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quickbooks-natural-language-queries/" class="md-nav__link">
+      <a href="../../../quickbooks-natural-language-queries/" class="md-nav__link">
         
   
   
@@ -4577,7 +4388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-analyze-quickbooks-with-ai/" class="md-nav__link">
+      <a href="../../../how-to-analyze-quickbooks-with-ai/" class="md-nav__link">
         
   
   
@@ -4605,7 +4416,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quickbooks-dashboard-with-chatgpt/" class="md-nav__link">
+      <a href="../../../quickbooks-dashboard-with-chatgpt/" class="md-nav__link">
         
   
   
@@ -4633,7 +4444,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../quickbooks-business-intelligence/" class="md-nav__link">
+      <a href="../../../quickbooks-business-intelligence/" class="md-nav__link">
         
   
   
@@ -4736,7 +4547,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chatgpt-for-shopify/" class="md-nav__link">
+      <a href="../../../chatgpt-for-shopify/" class="md-nav__link">
         
   
   
@@ -4764,7 +4575,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../claude-for-shopify/" class="md-nav__link">
+      <a href="../../../claude-for-shopify/" class="md-nav__link">
         
   
   
@@ -4792,7 +4603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shopify-ai-analytics/" class="md-nav__link">
+      <a href="../../../shopify-ai-analytics/" class="md-nav__link">
         
   
   
@@ -4820,7 +4631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shopify-sales-analysis-with-ai/" class="md-nav__link">
+      <a href="../../../shopify-sales-analysis-with-ai/" class="md-nav__link">
         
   
   
@@ -4848,7 +4659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shopify-dashboard-with-chatgpt/" class="md-nav__link">
+      <a href="../../../shopify-dashboard-with-chatgpt/" class="md-nav__link">
         
   
   
@@ -4876,7 +4687,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../shopify-business-intelligence/" class="md-nav__link">
+      <a href="../../../shopify-business-intelligence/" class="md-nav__link">
         
   
   
@@ -4979,7 +4790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../chatgpt-for-hubspot/" class="md-nav__link">
+      <a href="../../../chatgpt-for-hubspot/" class="md-nav__link">
         
   
   
@@ -5007,7 +4818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../claude-for-hubspot/" class="md-nav__link">
+      <a href="../../../claude-for-hubspot/" class="md-nav__link">
         
   
   
@@ -5035,7 +4846,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hubspot-ai-reporting/" class="md-nav__link">
+      <a href="../../../hubspot-ai-reporting/" class="md-nav__link">
         
   
   
@@ -5063,7 +4874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hubspot-sales-analytics-with-ai/" class="md-nav__link">
+      <a href="../../../hubspot-sales-analytics-with-ai/" class="md-nav__link">
         
   
   
@@ -5091,7 +4902,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hubspot-dashboard-with-chatgpt/" class="md-nav__link">
+      <a href="../../../hubspot-dashboard-with-chatgpt/" class="md-nav__link">
         
   
   
@@ -5119,7 +4930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hubspot-business-intelligence/" class="md-nav__link">
+      <a href="../../../hubspot-business-intelligence/" class="md-nav__link">
         
   
   
@@ -5230,7 +5041,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-zapier/" class="md-nav__link">
+      <a href="../../../corpusiq-vs-zapier/" class="md-nav__link">
         
   
   
@@ -5258,7 +5069,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-fivetran/" class="md-nav__link">
+      <a href="../../../corpusiq-vs-fivetran/" class="md-nav__link">
         
   
   
@@ -5286,7 +5097,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-airbyte/" class="md-nav__link">
+      <a href="../../../corpusiq-vs-airbyte/" class="md-nav__link">
         
   
   
@@ -5314,7 +5125,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-langchain/" class="md-nav__link">
+      <a href="../../../corpusiq-vs-langchain/" class="md-nav__link">
         
   
   
@@ -5342,7 +5153,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-vector-databases/" class="md-nav__link">
+      <a href="../../../corpusiq-vs-vector-databases/" class="md-nav__link">
         
   
   
@@ -5370,7 +5181,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-data-warehouses/" class="md-nav__link">
+      <a href="../../../corpusiq-vs-data-warehouses/" class="md-nav__link">
         
   
   
@@ -5398,7 +5209,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-custom-rag/" class="md-nav__link">
+      <a href="../../../corpusiq-vs-custom-rag/" class="md-nav__link">
         
   
   
@@ -5426,7 +5237,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-traditional-bi/" class="md-nav__link">
+      <a href="../../../corpusiq-vs-traditional-bi/" class="md-nav__link">
         
   
   
@@ -5454,7 +5265,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-supermetrics/" class="md-nav__link">
+      <a href="../../../corpusiq-vs-supermetrics/" class="md-nav__link">
         
   
   
@@ -5482,7 +5293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../corpusiq-vs-viktor/" class="md-nav__link">
+      <a href="../../../corpusiq-vs-viktor/" class="md-nav__link">
         
   
   
@@ -5593,7 +5404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-connect-business-data-to-chatgpt/" class="md-nav__link">
+      <a href="../../../how-to-connect-business-data-to-chatgpt/" class="md-nav__link">
         
   
   
@@ -5621,7 +5432,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-search-company-data-with-ai/" class="md-nav__link">
+      <a href="../../../how-to-search-company-data-with-ai/" class="md-nav__link">
         
   
   
@@ -5649,7 +5460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-build-an-ai-knowledge-base/" class="md-nav__link">
+      <a href="../../../how-to-build-an-ai-knowledge-base/" class="md-nav__link">
         
   
   
@@ -5677,7 +5488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-connect-multiple-data-sources-to-ai/" class="md-nav__link">
+      <a href="../../../how-to-connect-multiple-data-sources-to-ai/" class="md-nav__link">
         
   
   
@@ -5705,7 +5516,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-create-an-ai-data-layer/" class="md-nav__link">
+      <a href="../../../how-to-create-an-ai-data-layer/" class="md-nav__link">
         
   
   
@@ -5733,7 +5544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-query-business-data-in-natural-language/" class="md-nav__link">
+      <a href="../../../how-to-query-business-data-in-natural-language/" class="md-nav__link">
         
   
   
@@ -5761,7 +5572,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-build-an-executive-ai-dashboard/" class="md-nav__link">
+      <a href="../../../how-to-build-an-executive-ai-dashboard/" class="md-nav__link">
         
   
   
@@ -5789,7 +5600,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-analyze-company-data-with-chatgpt/" class="md-nav__link">
+      <a href="../../../how-to-analyze-company-data-with-chatgpt/" class="md-nav__link">
         
   
   
@@ -5817,7 +5628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-use-ai-with-business-data/" class="md-nav__link">
+      <a href="../../../how-to-use-ai-with-business-data/" class="md-nav__link">
         
   
   
@@ -5845,7 +5656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-centralize-company-knowledge/" class="md-nav__link">
+      <a href="../../../how-to-centralize-company-knowledge/" class="md-nav__link">
         
   
   
@@ -5911,7 +5722,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../examples/" class="md-nav__link ">
+            <a href="../../../examples/" class="md-nav__link ">
               
   
   
@@ -5955,7 +5766,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../examples/cross-source-roas-analysis/" class="md-nav__link">
+      <a href="../../../examples/cross-source-roas-analysis/" class="md-nav__link">
         
   
   
@@ -5983,7 +5794,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../examples/claude-desktop-config/" class="md-nav__link">
+      <a href="../../../examples/claude-desktop-config/" class="md-nav__link">
         
   
   
@@ -6011,7 +5822,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../examples/mcp-starter/" class="md-nav__link">
+      <a href="../../../examples/mcp-starter/" class="md-nav__link">
         
   
   
@@ -6091,7 +5902,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../recipes/" class="md-nav__link ">
+            <a href="../../../recipes/" class="md-nav__link ">
               
   
   
@@ -6135,7 +5946,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../recipes/ai-agent-mcp-setup/" class="md-nav__link">
+      <a href="../../../recipes/ai-agent-mcp-setup/" class="md-nav__link">
         
   
   
@@ -6163,7 +5974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../recipes/cross-source-revenue-audit/" class="md-nav__link">
+      <a href="../../../recipes/cross-source-revenue-audit/" class="md-nav__link">
         
   
   
@@ -6191,7 +6002,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../recipes/hubspot-klaviyo-pipeline/" class="md-nav__link">
+      <a href="../../../recipes/hubspot-klaviyo-pipeline/" class="md-nav__link">
         
   
   
@@ -6219,7 +6030,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../recipes/meta-ads-shopify-roas/" class="md-nav__link">
+      <a href="../../../recipes/meta-ads-shopify-roas/" class="md-nav__link">
         
   
   
@@ -6247,7 +6058,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../recipes/monthly-close/" class="md-nav__link">
+      <a href="../../../recipes/monthly-close/" class="md-nav__link">
         
   
   
@@ -6275,7 +6086,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../recipes/morning-briefing/" class="md-nav__link">
+      <a href="../../../recipes/morning-briefing/" class="md-nav__link">
         
   
   
@@ -6303,7 +6114,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../recipes/shopify-quickbooks-reconciliation/" class="md-nav__link">
+      <a href="../../../recipes/shopify-quickbooks-reconciliation/" class="md-nav__link">
         
   
   
@@ -6331,7 +6142,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../recipes/universal-business-search/" class="md-nav__link">
+      <a href="../../../recipes/universal-business-search/" class="md-nav__link">
         
   
   
@@ -6359,7 +6170,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../recipes/weekly-ad-roi-report/" class="md-nav__link">
+      <a href="../../../recipes/weekly-ad-roi-report/" class="md-nav__link">
         
   
   
@@ -6387,7 +6198,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../recipes/indexnow-auto-submit/" class="md-nav__link">
+      <a href="../../../recipes/indexnow-auto-submit/" class="md-nav__link">
         
   
   
@@ -6498,7 +6309,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../best-mcp-server-for-business/" class="md-nav__link">
+      <a href="../../../best-mcp-server-for-business/" class="md-nav__link">
         
   
   
@@ -6526,7 +6337,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../best-ai-data-connector/" class="md-nav__link">
+      <a href="../../../best-ai-data-connector/" class="md-nav__link">
         
   
   
@@ -6554,7 +6365,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../best-way-to-connect-chatgpt-to-business-data/" class="md-nav__link">
+      <a href="../../../best-way-to-connect-chatgpt-to-business-data/" class="md-nav__link">
         
   
   
@@ -6582,7 +6393,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../best-ai-knowledge-platform/" class="md-nav__link">
+      <a href="../../../best-ai-knowledge-platform/" class="md-nav__link">
         
   
   
@@ -6610,7 +6421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../best-business-ai-search-tool/" class="md-nav__link">
+      <a href="../../../best-business-ai-search-tool/" class="md-nav__link">
         
   
   
@@ -6638,7 +6449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../best-chatgpt-integration-platform/" class="md-nav__link">
+      <a href="../../../best-chatgpt-integration-platform/" class="md-nav__link">
         
   
   
@@ -6666,7 +6477,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../top-business-ai-tools/" class="md-nav__link">
+      <a href="../../../top-business-ai-tools/" class="md-nav__link">
         
   
   
@@ -6694,7 +6505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../top-mcp-platforms/" class="md-nav__link">
+      <a href="../../../top-mcp-platforms/" class="md-nav__link">
         
   
   
@@ -6722,7 +6533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../enterprise-ai-data-access/" class="md-nav__link">
+      <a href="../../../enterprise-ai-data-access/" class="md-nav__link">
         
   
   
@@ -6750,7 +6561,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../secure-ai-data-connectivity/" class="md-nav__link">
+      <a href="../../../secure-ai-data-connectivity/" class="md-nav__link">
         
   
   
@@ -6834,7 +6645,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../hermes/" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   
@@ -6878,7 +6689,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/ecosystem/" class="md-nav__link">
+      <a href="../../ecosystem/" class="md-nav__link">
         
   
   
@@ -6946,7 +6757,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../hermes/agents/" class="md-nav__link ">
+            <a href="../../agents/" class="md-nav__link ">
               
   
   
@@ -6990,7 +6801,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/agents/sales-agent/" class="md-nav__link">
+      <a href="../../agents/sales-agent/" class="md-nav__link">
         
   
   
@@ -7018,7 +6829,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/agents/marketing-agent/" class="md-nav__link">
+      <a href="../../agents/marketing-agent/" class="md-nav__link">
         
   
   
@@ -7046,7 +6857,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/agents/devops-agent/" class="md-nav__link">
+      <a href="../../agents/devops-agent/" class="md-nav__link">
         
   
   
@@ -7074,7 +6885,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/agents/support-agent/" class="md-nav__link">
+      <a href="../../agents/support-agent/" class="md-nav__link">
         
   
   
@@ -7102,7 +6913,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/agents/finance-agent/" class="md-nav__link">
+      <a href="../../agents/finance-agent/" class="md-nav__link">
         
   
   
@@ -7130,7 +6941,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/agents/executive-agent/" class="md-nav__link">
+      <a href="../../agents/executive-agent/" class="md-nav__link">
         
   
   
@@ -7158,7 +6969,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/agents/research-agent/" class="md-nav__link">
+      <a href="../../agents/research-agent/" class="md-nav__link">
         
   
   
@@ -7186,7 +6997,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/agents/legal-agent/" class="md-nav__link">
+      <a href="../../agents/legal-agent/" class="md-nav__link">
         
   
   
@@ -7214,7 +7025,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/agents/hr-agent/" class="md-nav__link">
+      <a href="../../agents/hr-agent/" class="md-nav__link">
         
   
   
@@ -7306,7 +7117,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../hermes/outputs/" class="md-nav__link ">
+            <a href="../../outputs/" class="md-nav__link ">
               
   
   
@@ -7350,7 +7161,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/case-studies/compliance-audit/" class="md-nav__link">
+      <a href="../../outputs/case-studies/compliance-audit/" class="md-nav__link">
         
   
   
@@ -7378,7 +7189,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/case-studies/healthcare/" class="md-nav__link">
+      <a href="../../outputs/case-studies/healthcare/" class="md-nav__link">
         
   
   
@@ -7406,7 +7217,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/case-studies/financial-services/" class="md-nav__link">
+      <a href="../../outputs/case-studies/financial-services/" class="md-nav__link">
         
   
   
@@ -7434,7 +7245,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/case-studies/manufacturing/" class="md-nav__link">
+      <a href="../../outputs/case-studies/manufacturing/" class="md-nav__link">
         
   
   
@@ -7462,7 +7273,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/case-studies/real-estate/" class="md-nav__link">
+      <a href="../../outputs/case-studies/real-estate/" class="md-nav__link">
         
   
   
@@ -7490,7 +7301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/case-studies/ecommerce/" class="md-nav__link">
+      <a href="../../outputs/case-studies/ecommerce/" class="md-nav__link">
         
   
   
@@ -7518,7 +7329,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/case-studies/education/" class="md-nav__link">
+      <a href="../../outputs/case-studies/education/" class="md-nav__link">
         
   
   
@@ -7546,7 +7357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/case-studies/nonprofit/" class="md-nav__link">
+      <a href="../../outputs/case-studies/nonprofit/" class="md-nav__link">
         
   
   
@@ -7574,7 +7385,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/case-studies/government/" class="md-nav__link">
+      <a href="../../outputs/case-studies/government/" class="md-nav__link">
         
   
   
@@ -7602,7 +7413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/case-studies/legal-firms/" class="md-nav__link">
+      <a href="../../outputs/case-studies/legal-firms/" class="md-nav__link">
         
   
   
@@ -7630,7 +7441,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/case-studies/customer-support/" class="md-nav__link">
+      <a href="../../outputs/case-studies/customer-support/" class="md-nav__link">
         
   
   
@@ -7658,7 +7469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/case-studies/revenue-operations/" class="md-nav__link">
+      <a href="../../outputs/case-studies/revenue-operations/" class="md-nav__link">
         
   
   
@@ -7686,7 +7497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/case-studies/professional-services/" class="md-nav__link">
+      <a href="../../outputs/case-studies/professional-services/" class="md-nav__link">
         
   
   
@@ -7714,7 +7525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/by-company-size/startup/" class="md-nav__link">
+      <a href="../../outputs/by-company-size/startup/" class="md-nav__link">
         
   
   
@@ -7742,7 +7553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/by-company-size/mid-market/" class="md-nav__link">
+      <a href="../../outputs/by-company-size/mid-market/" class="md-nav__link">
         
   
   
@@ -7770,7 +7581,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/by-company-size/enterprise/" class="md-nav__link">
+      <a href="../../outputs/by-company-size/enterprise/" class="md-nav__link">
         
   
   
@@ -7798,7 +7609,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/outputs/workflows/templates/" class="md-nav__link">
+      <a href="../../outputs/workflows/templates/" class="md-nav__link">
         
   
   
@@ -7868,7 +7679,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../hermes/setup/" class="md-nav__link ">
+            <a href="../../setup/" class="md-nav__link ">
               
   
   
@@ -7912,7 +7723,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/setup/mac-mini-standalone/" class="md-nav__link">
+      <a href="../../setup/mac-mini-standalone/" class="md-nav__link">
         
   
   
@@ -7940,7 +7751,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/setup/gaming-pc/" class="md-nav__link">
+      <a href="../../setup/gaming-pc/" class="md-nav__link">
         
   
   
@@ -7968,7 +7779,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/setup/cloud-vps/" class="md-nav__link">
+      <a href="../../setup/cloud-vps/" class="md-nav__link">
         
   
   
@@ -7996,7 +7807,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/setup/raspberry-pi/" class="md-nav__link">
+      <a href="../../setup/raspberry-pi/" class="md-nav__link">
         
   
   
@@ -8024,7 +7835,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/setup/docker/" class="md-nav__link">
+      <a href="../../setup/docker/" class="md-nav__link">
         
   
   
@@ -8052,7 +7863,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/setup/windows-wsl/" class="md-nav__link">
+      <a href="../../setup/windows-wsl/" class="md-nav__link">
         
   
   
@@ -8122,7 +7933,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../hermes/best-practices/" class="md-nav__link ">
+            <a href="../../best-practices/" class="md-nav__link ">
               
   
   
@@ -8166,7 +7977,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/best-practices/cron-design/" class="md-nav__link">
+      <a href="../../best-practices/cron-design/" class="md-nav__link">
         
   
   
@@ -8194,7 +8005,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/best-practices/model-selection/" class="md-nav__link">
+      <a href="../../best-practices/model-selection/" class="md-nav__link">
         
   
   
@@ -8222,7 +8033,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/best-practices/memory-management/" class="md-nav__link">
+      <a href="../../best-practices/memory-management/" class="md-nav__link">
         
   
   
@@ -8250,7 +8061,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/best-practices/security/" class="md-nav__link">
+      <a href="../../best-practices/security/" class="md-nav__link">
         
   
   
@@ -8278,7 +8089,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/best-practices/skill-development/" class="md-nav__link">
+      <a href="../../best-practices/skill-development/" class="md-nav__link">
         
   
   
@@ -8306,7 +8117,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/best-practices/mcp-design/" class="md-nav__link">
+      <a href="../../best-practices/mcp-design/" class="md-nav__link">
         
   
   
@@ -8374,7 +8185,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../hermes/blueprints/" class="md-nav__link ">
+            <a href="../../blueprints/" class="md-nav__link ">
               
   
   
@@ -8418,7 +8229,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/blueprints/daily-ops/" class="md-nav__link">
+      <a href="../../blueprints/daily-ops/" class="md-nav__link">
         
   
   
@@ -8446,7 +8257,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/blueprints/customer-lifecycle/" class="md-nav__link">
+      <a href="../../blueprints/customer-lifecycle/" class="md-nav__link">
         
   
   
@@ -8474,7 +8285,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/blueprints/content-pipeline/" class="md-nav__link">
+      <a href="../../blueprints/content-pipeline/" class="md-nav__link">
         
   
   
@@ -8502,7 +8313,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/blueprints/financial-close/" class="md-nav__link">
+      <a href="../../blueprints/financial-close/" class="md-nav__link">
         
   
   
@@ -8530,7 +8341,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/blueprints/incident-response/" class="md-nav__link">
+      <a href="../../blueprints/incident-response/" class="md-nav__link">
         
   
   
@@ -8596,7 +8407,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../hermes/integrations/" class="md-nav__link ">
+            <a href="../../integrations/" class="md-nav__link ">
               
   
   
@@ -8640,7 +8451,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/integrations/slack-github/" class="md-nav__link">
+      <a href="../../integrations/slack-github/" class="md-nav__link">
         
   
   
@@ -8668,7 +8479,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/integrations/email-calendar/" class="md-nav__link">
+      <a href="../../integrations/email-calendar/" class="md-nav__link">
         
   
   
@@ -8696,7 +8507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/integrations/crm-analytics/" class="md-nav__link">
+      <a href="../../integrations/crm-analytics/" class="md-nav__link">
         
   
   
@@ -8724,7 +8535,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/integrations/database-reporting/" class="md-nav__link">
+      <a href="../../integrations/database-reporting/" class="md-nav__link">
         
   
   
@@ -8794,7 +8605,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../hermes/prompts/" class="md-nav__link ">
+            <a href="../../prompts/" class="md-nav__link ">
               
   
   
@@ -8838,7 +8649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/prompts/code-generation/" class="md-nav__link">
+      <a href="../../prompts/code-generation/" class="md-nav__link">
         
   
   
@@ -8866,7 +8677,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/prompts/content-creation/" class="md-nav__link">
+      <a href="../../prompts/content-creation/" class="md-nav__link">
         
   
   
@@ -8894,7 +8705,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/prompts/data-analysis/" class="md-nav__link">
+      <a href="../../prompts/data-analysis/" class="md-nav__link">
         
   
   
@@ -8922,7 +8733,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/prompts/business-operations/" class="md-nav__link">
+      <a href="../../prompts/business-operations/" class="md-nav__link">
         
   
   
@@ -8950,7 +8761,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/prompts/research/" class="md-nav__link">
+      <a href="../../prompts/research/" class="md-nav__link">
         
   
   
@@ -8978,7 +8789,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/prompts/creative/" class="md-nav__link">
+      <a href="../../prompts/creative/" class="md-nav__link">
         
   
   
@@ -9046,7 +8857,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../hermes/skills/catalog/" class="md-nav__link ">
+            <a href="../../skills/catalog/" class="md-nav__link ">
               
   
   
@@ -9090,7 +8901,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/skills/creating-skills/" class="md-nav__link">
+      <a href="../../skills/creating-skills/" class="md-nav__link">
         
   
   
@@ -9152,7 +8963,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../hermes/guides/" class="md-nav__link ">
+            <a href="../../guides/" class="md-nav__link ">
               
   
   
@@ -9196,7 +9007,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/guides/corpusiq-claude-code/" class="md-nav__link">
+      <a href="../../guides/corpusiq-claude-code/" class="md-nav__link">
         
   
   
@@ -9224,7 +9035,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/guides/ai-agent-memory-landscape-aug2026/" class="md-nav__link">
+      <a href="../../guides/ai-agent-memory-landscape-aug2026/" class="md-nav__link">
         
   
   
@@ -9252,7 +9063,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/guides/mcp-servers-business-operators/" class="md-nav__link">
+      <a href="../../guides/mcp-servers-business-operators/" class="md-nav__link">
         
   
   
@@ -9280,7 +9091,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/guides/trending-ai-agent-tools-aug2026/" class="md-nav__link">
+      <a href="../../guides/trending-ai-agent-tools-aug2026/" class="md-nav__link">
         
   
   
@@ -9308,7 +9119,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/guides/hermes-improvement-pipeline-aug2026/" class="md-nav__link">
+      <a href="../../guides/hermes-improvement-pipeline-aug2026/" class="md-nav__link">
         
   
   
@@ -9336,7 +9147,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/guides/agent-plugins-corpusiq-opportunity/" class="md-nav__link">
+      <a href="../../guides/agent-plugins-corpusiq-opportunity/" class="md-nav__link">
         
   
   
@@ -9372,7 +9183,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/mcp-ecosystem/" class="md-nav__link">
+      <a href="../../mcp-ecosystem/" class="md-nav__link">
         
   
   
@@ -9455,7 +9266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/seo/consistent-ai-answers/" class="md-nav__link">
+      <a href="../../seo/consistent-ai-answers/" class="md-nav__link">
         
   
   
@@ -9491,7 +9302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/skills/skill-marketplaces/" class="md-nav__link">
+      <a href="../../skills/skill-marketplaces/" class="md-nav__link">
         
   
   
@@ -9527,7 +9338,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/skills/marketplace/" class="md-nav__link">
+      <a href="../../skills/marketplace/" class="md-nav__link">
         
   
   
@@ -9579,7 +9390,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../hermes/mcp/servers/" class="md-nav__link ">
+            <a href="../../mcp/servers/" class="md-nav__link ">
               
   
   
@@ -9623,7 +9434,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/mcp/servers/external/" class="md-nav__link">
+      <a href="../../mcp/servers/external/" class="md-nav__link">
         
   
   
@@ -9693,7 +9504,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../hermes/mcp/" class="md-nav__link ">
+            <a href="../../mcp/" class="md-nav__link ">
               
   
   
@@ -9737,7 +9548,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/mcp/spec/mcp-26-stateless-migration/" class="md-nav__link">
+      <a href="../../mcp/spec/mcp-26-stateless-migration/" class="md-nav__link">
         
   
   
@@ -9765,7 +9576,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/mcp/directories/submission-guide-2026/" class="md-nav__link">
+      <a href="../../mcp/directories/submission-guide-2026/" class="md-nav__link">
         
   
   
@@ -9793,7 +9604,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/knowledge/" class="md-nav__link">
+      <a href="../../knowledge/" class="md-nav__link">
         
   
   
@@ -9821,7 +9632,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/troubleshooting/" class="md-nav__link">
+      <a href="../../troubleshooting/" class="md-nav__link">
         
   
   
@@ -9849,7 +9660,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/contributors/" class="md-nav__link">
+      <a href="../../contributors/" class="md-nav__link">
         
   
   
@@ -9877,7 +9688,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../hermes/changelog/" class="md-nav__link">
+      <a href="../../changelog/" class="md-nav__link">
         
   
   
@@ -9940,10 +9751,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#limit-tiers" class="md-nav__link">
+  <a href="#quick-comparison" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Limit Tiers
+        Quick comparison
       
     </span>
   </a>
@@ -9951,10 +9762,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#rate-limit-headers" class="md-nav__link">
+  <a href="#when-to-use-shopify-alone" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Rate Limit Headers
+        When to use Shopify alone
       
     </span>
   </a>
@@ -9962,10 +9773,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#exceeding-limits" class="md-nav__link">
+  <a href="#when-to-add-corpusiq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Exceeding Limits
+        When to add CorpusIQ
       
     </span>
   </a>
@@ -9973,22 +9784,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#best-practices" class="md-nav__link">
+  <a href="#faq" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Best Practices
+        FAQ
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Best Practices">
+    <nav class="md-nav" aria-label="FAQ">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#monitor-header-usage" class="md-nav__link">
+  <a href="#does-corpusiq-replace-shopify" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Monitor Header Usage
+        Does CorpusIQ replace Shopify?
       
     </span>
   </a>
@@ -9996,10 +9807,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#retry-explicitly" class="md-nav__link">
+  <a href="#can-i-use-shopify-data-in-chatgpt-today" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Retry Explicitly
+        Can I use Shopify data in ChatGPT today?
       
     </span>
   </a>
@@ -10007,21 +9818,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#batch-questions" class="md-nav__link">
+  <a href="#is-my-store-data-safe" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Batch Questions
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#plan-for-daily-quotas" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Plan for Daily Quotas
+        Is my store data safe?
       
     </span>
   </a>
@@ -10034,43 +9834,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#rate-limit-increases" class="md-nav__link">
+  <a href="#try-it" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Rate Limit Increases
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Frequently Asked Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-links" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Links
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Powered by CorpusIQ -- the leading MCP platform for business data and AI.
+        Try it
       
     </span>
   </a>
@@ -10097,134 +9864,65 @@
   
 
 
-<h1 id="rate-limits">Rate Limits<a class="headerlink" href="#rate-limits" title="Anchor link to this section">&para;</a></h1>
-<p>CorpusIQ enforces per-endpoint rate limits to ensure fair usage and system stability. Limits are applied per authenticated user and are measured in requests per minute and requests per day.</p>
-<h2 id="limit-tiers">Limit Tiers<a class="headerlink" href="#limit-tiers" title="Anchor link to this section">&para;</a></h2>
+<h1 id="corpusiq-vs-shopify-what-each-one-does">CorpusIQ vs Shopify: What Each One Does<a class="headerlink" href="#corpusiq-vs-shopify-what-each-one-does" title="Anchor link to this section">&para;</a></h1>
+<p>Shopify runs your store. CorpusIQ is the layer that gives AI assistants live access to Shopify data, alongside QuickBooks, Stripe, Google Ads, GA4, and 40+ other business tools.</p>
+<h2 id="quick-comparison">Quick comparison<a class="headerlink" href="#quick-comparison" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Endpoint</th>
-<th>Per Minute</th>
-<th>Per Day</th>
+<th>Capability</th>
+<th>Shopify</th>
+<th>CorpusIQ</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>POST /query</code></td>
-<td>60</td>
-<td>6,000</td>
+<td>Primary job</td>
+<td>Ecommerce storefront, orders, inventory, payments</td>
+<td>Cross-source business answers in ChatGPT, Claude, Perplexity</td>
 </tr>
 <tr>
-<td><code>POST /deep_search</code></td>
-<td>30</td>
-<td>3,000</td>
+<td>Data access</td>
+<td>Your store's own data</td>
+<td>Reads Shopify AND 40+ other tools in one prompt</td>
+</tr>
+<tr>
+<td>AI surface</td>
+<td>Shopify Magic, AI inside the admin</td>
+<td>Any AI you already use, via MCP</td>
+</tr>
+<tr>
+<td>Answer format</td>
+<td>Shopify-native reports</td>
+<td>Source-cited plain-English answers</td>
+</tr>
+<tr>
+<td>Data stored</td>
+<td>Your store records</td>
+<td>Live retrieval with scoped operational retention; no retained raw customer files or full connector payloads.</td>
 </tr>
 </tbody>
 </table>
-<p>Rate limits are evaluated independently for each endpoint. A burst on <code>/query</code> does not affect your <code>/deep_search</code> allowance.</p>
-<h2 id="rate-limit-headers">Rate Limit Headers<a class="headerlink" href="#rate-limit-headers" title="Anchor link to this section">&para;</a></h2>
-<p>Every API response includes rate limit headers indicating your current usage:</p>
-<div class="highlight"><pre><span></span><code><span class="err">X-RateLimit-Limit-Minute: 60</span>
-<span class="err">X-RateLimit-Remaining-Minute: 42</span>
-<span class="err">X-RateLimit-Reset-Minute: 1718551800</span>
-<span class="err">X-RateLimit-Limit-Day: 6000</span>
-<span class="err">X-RateLimit-Remaining-Day: 5891</span>
-<span class="err">X-RateLimit-Reset-Day: 1718582400</span>
-</code></pre></div>
-<table>
-<thead>
-<tr>
-<th>Header</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>X-RateLimit-Limit-Minute</code></td>
-<td>Maximum requests allowed in the current minute window</td>
-</tr>
-<tr>
-<td><code>X-RateLimit-Remaining-Minute</code></td>
-<td>Requests remaining in the current minute window</td>
-</tr>
-<tr>
-<td><code>X-RateLimit-Reset-Minute</code></td>
-<td>Unix timestamp when the minute window resets</td>
-</tr>
-<tr>
-<td><code>X-RateLimit-Limit-Day</code></td>
-<td>Maximum requests allowed in the current day window</td>
-</tr>
-<tr>
-<td><code>X-RateLimit-Remaining-Day</code></td>
-<td>Requests remaining in the current day window</td>
-</tr>
-<tr>
-<td><code>X-RateLimit-Reset-Day</code></td>
-<td>Unix timestamp when the day window resets</td>
-</tr>
-</tbody>
-</table>
-<h2 id="exceeding-limits">Exceeding Limits<a class="headerlink" href="#exceeding-limits" title="Anchor link to this section">&para;</a></h2>
-<p>When you exceed a rate limit, the API returns a <code>429 Too Many Requests</code> response:</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;error&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;rate_limited&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Rate limit exceeded for /query. Try again in 34 seconds.&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;retry_after_seconds&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">34</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-<p>The <code>retry_after_seconds</code> field tells you exactly how long to wait before retrying. All subsequent requests within the cooldown period will also receive <code>429</code> responses.</p>
-<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Anchor link to this section">&para;</a></h2>
-<h3 id="monitor-header-usage">Monitor Header Usage<a class="headerlink" href="#monitor-header-usage" title="Anchor link to this section">&para;</a></h3>
-<p>Check <code>X-RateLimit-Remaining-Minute</code> before making burst requests. If remaining is low, pace your requests or wait for the window to reset.</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">time</span>
-
-<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">)</span>
-<span class="n">remaining</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">headers</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;X-RateLimit-Remaining-Minute&quot;</span><span class="p">,</span> <span class="mi">60</span><span class="p">))</span>
-
-<span class="k">if</span> <span class="n">remaining</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
-    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>  <span class="c1"># Let the rate limit window catch up</span>
-</code></pre></div>
-<h3 id="retry-explicitly">Retry Explicitly<a class="headerlink" href="#retry-explicitly" title="Anchor link to this section">&para;</a></h3>
-<p>Retry only after an explicit transient error, and follow the response status and retry guidance.</p>
-<h3 id="batch-questions">Batch Questions<a class="headerlink" href="#batch-questions" title="Anchor link to this section">&para;</a></h3>
-<p>Rather than making many small queries, combine related questions into a single well-structured query when possible. A single <code>/query</code> with <code>max_results: 20</code> is more efficient than four queries with <code>max_results: 5</code>.</p>
-<h3 id="plan-for-daily-quotas">Plan for Daily Quotas<a class="headerlink" href="#plan-for-daily-quotas" title="Anchor link to this section">&para;</a></h3>
-<p>The daily limits reset at midnight UTC. For high-volume use cases, distribute queries throughout the day. If you consistently approach daily limits, contact sales@corpusiq.io to discuss higher-tier plans.</p>
-<h2 id="rate-limit-increases">Rate Limit Increases<a class="headerlink" href="#rate-limit-increases" title="Anchor link to this section">&para;</a></h2>
-<p>Enterprise plans include higher rate limits and custom quotas. For details, contact sales@corpusiq.io.</p>
-<h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Q: What are the CorpusIQ API rate limits?</strong><br />
-A: Rate limits are per-endpoint with minute and daily windows. Exact limits are documented per endpoint and returned in response headers (X-RateLimit-*) for self-monitoring.</p>
-<p><strong>Q: How do I check my current rate limit status?</strong><br />
-A: Every API response includes rate limit headers: X-RateLimit-Limit, X-RateLimit-Remaining, and X-RateLimit-Reset showing your current quota consumption.</p>
-<p><strong>Q: Can I get higher rate limits for enterprise use?</strong><br />
-A: Yes. Enterprise plans include increased rate limits. Contact CorpusIQ sales for custom quota configurations tailored to your organization's query volume.</p>
-<h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li><strong><a href="/docs/api/overview">CorpusIQ API Overview</a></strong>  --  Full REST API documentation and base URL reference  </li>
-<li><strong><a href="/docs/api/authentication">API Authentication Guide</a></strong>  --  Bearer tokens, OAuth 2.0, and security best practices  </li>
-<li><strong><a href="/docs/api/endpoints">API Endpoints Reference</a></strong>  --  Complete request/response schemas and code examples  </li>
-<li><strong><a href="/docs/api/rate-limits">API Rate Limits</a></strong>  --  Per-endpoint quotas and retry strategies  </li>
-<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Current webhook-contract availability</li>
-<li><strong><a href="/docs/enterprise-ai-data-access">Enterprise AI Data Access Guide</a></strong>  --  SSO, SAML, SOC 2, and data residency  </li>
-<li><strong><a href="/docs/secure-ai-data-connectivity">Secure AI Data Connectivity</a></strong>  --  Encryption, network security, and compliance  </li>
-</ul>
-<h2 id="powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai"><em>Powered by CorpusIQ  --  the leading MCP platform for business data and AI.</em><a class="headerlink" href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" title="Anchor link to this section">&para;</a></h2>
-<p>*</p>
-<hr />
-<p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
+<h2 id="when-to-use-shopify-alone">When to use Shopify alone<a class="headerlink" href="#when-to-use-shopify-alone" title="Anchor link to this section">&para;</a></h2>
+<p>Shopify is the right system for running your store: catalog, checkout, orders, inventory, and Shopify Payments all live there. If your only need is selling, Shopify is the answer.</p>
+<h2 id="when-to-add-corpusiq">When to add CorpusIQ<a class="headerlink" href="#when-to-add-corpusiq" title="Anchor link to this section">&para;</a></h2>
+<p>The pain starts when you need the full picture. Revenue sits in Shopify. Ad spend sits in Google Ads and Meta. Costs sit in QuickBooks. Customer lifetime value sits across all of them.</p>
+<p>CorpusIQ connects Shopify to those systems and exposes all of them to ChatGPT, Claude, and Perplexity. Ask "what is our true ROAS when Shopify revenue is netted against Google Ads spend and QuickBooks COGS" and get one source-cited answer.</p>
+<h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
+<h3 id="does-corpusiq-replace-shopify">Does CorpusIQ replace Shopify?<a class="headerlink" href="#does-corpusiq-replace-shopify" title="Anchor link to this section">&para;</a></h3>
+<p>No. Shopify stays your storefront and order system. CorpusIQ reads from it with read-only OAuth. External-source retrieval tools are read-only; write-capable and control-plane tools are separately named and annotated.</p>
+<h3 id="can-i-use-shopify-data-in-chatgpt-today">Can I use Shopify data in ChatGPT today?<a class="headerlink" href="#can-i-use-shopify-data-in-chatgpt-today" title="Anchor link to this section">&para;</a></h3>
+<p>Yes. Connect Shopify once, then ask ChatGPT business questions with live, cited answers.</p>
+<h3 id="is-my-store-data-safe">Is my store data safe?<a class="headerlink" href="#is-my-store-data-safe" title="Anchor link to this section">&para;</a></h3>
+<p>Read-only OAuth. No retained raw customer files or full connector payloads; operational logs and indexes are disclosed separately. CASA Tier 2 certified by DEKRA, hosted on Microsoft Azure.</p>
+<h2 id="try-it">Try it<a class="headerlink" href="#try-it" title="Anchor link to this section">&para;</a></h2>
+<p>30-day free trial, no credit card, all 40+ connectors: corpusiq.io/pricing</p>
 
 
 
 
 
 
-
-  
-  
 
 
 
@@ -10268,7 +9966,7 @@ A: Yes. Enterprise plans include increased rate limits. Contact CorpusIQ sales f
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.sections", "navigation.expand", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
   
