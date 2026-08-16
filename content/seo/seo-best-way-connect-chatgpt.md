@@ -53,7 +53,7 @@ MCP (Model Context Protocol) is the open standard for connecting AI assistants t
 
 **Why it's better:**
 - 5-minute setup (not 3 months)
-- 37+ pre-built connectors (not custom code)
+- 40+ pre-built connectors (not custom code)
 - Read-only by design (can't accidentally modify data)
 - Zero maintenance (connectors auto-update)
 - Cross-tool queries built in (ask across QuickBooks + Stripe + Shopify in one question)
@@ -77,4 +77,4 @@ Don't copy-paste. Don't build custom pipelines. Connect via MCP and start asking
 
 ---
 
-*CorpusIQ: The fastest way to connect ChatGPT to your business data. 37+ connectors. Read-only. Free trial. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: The fastest way to connect ChatGPT to your business data. 40+ connectors. Read-only. Free trial. [corpusiq.io](https://www.corpusiq.io)*

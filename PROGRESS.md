@@ -37,7 +37,8 @@ The repo is actively maintained with daily automated updates:
 ## Ongoing doc gaps
 
 - **Stale .html duplicates ✅ (Aug 15, 2026):** Removed 202 stale static .html files in hermes/ (22.8 MB) superseded by .md builds. They were copied into the site output as orphan pages with broken relative links (../../../quick-start.html → 404) and duplicate content. All had .md twins; none referenced in nav, sitemap, or .md content.
-- **Sanitization ✅ (Aug 15, 2026):** Removed 5 internal-info instances: medias-mac-mini.local hostname + sweep ops note (new-aug15-2026 sweep page), Benoit personal name (etincel-mcp page), media@/info@ inbox handles (busymail-mcp page), hello@corpusiq.io demo value → hello@example.com (chrome-devtools setup), "on the Mac Mini" sweep note (new-aug12-2026-evening page).
+- **Sanitization ✅ (Aug 15, 2026):** Removed 5 internal-info instances: internal hostname + sweep ops note (new-aug15-2026 sweep page), personal name (etincel-mcp page), media@/info@ inbox handles (busymail-mcp page), hello@corpusiq.io demo value → hello@example.com (chrome-devtools setup), "on an internal worker" sweep note (new-aug12-2026-evening page).
+- **Maintenance ✅ (Aug 16, 2026):** 103 user-facing files normalized 37+ → 40+ connectors (zero stragglers). Refreshed 2 stale dates (mcp-vs-data-warehouse, enterprise-ai-data-access). Removed internal outreach tracker (hermes/data/directory_submissions.json) + unreferenced demo asset; restored demo.mp4 (still linked from 2 pages). Sanitized historical PROGRESS.md identifiers. Internal links: 0 broken.
 - **Root-level .html legacy files (119, ~12 MB):** Still in repo root but auto-excluded from MkDocs build (404 in production). Dead weight only; candidate for a future dedicated sweep.
 - **Connector count consistency ✅ (Aug 10, 2026):** Website updated to "40+ connected business tools." Normalized README.md (6 instances) from 37+ → 40+ to match corpusiq.io. Remaining 37+ instances in older published-content/ and hermes/launch/ files are technically still true (40 > 37) but flagged for next sweep.
 - **Screenshots:** Quickstart screenshots pending — low priority, no user complaints.
@@ -48,5 +49,5 @@ The repo is actively maintained with daily automated updates:
 
 ---
 
-*Last updated: August 15, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
+*Last updated: August 16, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
 ---

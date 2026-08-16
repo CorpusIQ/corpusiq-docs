@@ -41,4 +41,4 @@ External-source retrieval tools are marked read-only; write-capable connector an
 
 ---
 
-*CorpusIQ: 37+ connectors. Read-only by design. HR data stays secure. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors. Read-only by design. HR data stays secure. [corpusiq.io](https://www.corpusiq.io)*

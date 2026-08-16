@@ -52,4 +52,4 @@ Connect HubSpot. Connect Stripe. Connect QuickBooks. Connect Gmail. Five minutes
 
 ---
 
-*CorpusIQ: 37+ connectors for sales teams. Live pipeline + revenue data. Read-only. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors for sales teams. Live pipeline + revenue data. Read-only. [corpusiq.io](https://www.corpusiq.io)*

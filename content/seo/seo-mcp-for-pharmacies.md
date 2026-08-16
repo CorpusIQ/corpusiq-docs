@@ -18,4 +18,4 @@ Connect your tools. Then ask:
 
 ---
 
-*CorpusIQ: Pharmacy analytics. 37+ connectors. Read-only. HIPAA-aware. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Pharmacy analytics. 40+ connectors. Read-only. HIPAA-aware. [corpusiq.io](https://www.corpusiq.io)*

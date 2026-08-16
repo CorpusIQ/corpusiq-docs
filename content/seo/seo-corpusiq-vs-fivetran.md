@@ -56,4 +56,4 @@ The warehouse is for looking backward. MCP is for operating in the present.
 
 ---
 
-*CorpusIQ: 37+ connectors, live queries, 5-minute setup. Works alongside your data warehouse. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors, live queries, 5-minute setup. Works alongside your data warehouse. [corpusiq.io](https://www.corpusiq.io)*

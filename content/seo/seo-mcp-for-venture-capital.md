@@ -18,4 +18,4 @@ Connect each portfolio company's tools. Then ask:
 
 ---
 
-*CorpusIQ: Venture capital portfolio analytics. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Venture capital portfolio analytics. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

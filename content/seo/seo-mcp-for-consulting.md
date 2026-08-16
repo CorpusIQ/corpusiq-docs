@@ -30,4 +30,4 @@ One question. Multiple clients. Live data. No reports to build.
 
 ---
 
-*CorpusIQ: Multi-client MCP platform. 37+ connectors. 5-minute setup per client. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Multi-client MCP platform. 40+ connectors. 5-minute setup per client. [corpusiq.io](https://www.corpusiq.io)*

@@ -63,4 +63,4 @@ That's the job you signed up for.
 
 ---
 
-*CorpusIQ connects 37+ business tools to AI assistants. Multi-system ready. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ connects 40+ business tools to AI assistants. Multi-system ready. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*

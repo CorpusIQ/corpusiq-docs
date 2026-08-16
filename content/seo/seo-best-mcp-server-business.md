@@ -18,7 +18,7 @@ You need to connect business data to AI. Multiple MCP servers exist. Here's how 
 
 | Server | Connectors | Read-only | Cross-tool | Setup | Best For |
 |--------|:----------:|:---------:|:----------:|-------|----------|
-| **CorpusIQ** | 37+ | Architectural | Yes | 5 min OAuth | Business operators |
+| **CorpusIQ** | 40+ | Architectural | Yes | 5 min OAuth | Business operators |
 | Smithery | 7,000+ | Varies | No | CLI | Developers |
 | Arcade | Catalog | Varies | No | Developer | Agent builders |
 | Nango | 250+ APIs | Configurable | No | Developer | Developers |
@@ -35,4 +35,4 @@ Four things that matter for actual business operators:
 
 ---
 
-*CorpusIQ: Purpose-built MCP server for business data. 37+ connectors. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Purpose-built MCP server for business data. 40+ connectors. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*

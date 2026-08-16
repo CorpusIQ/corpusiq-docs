@@ -36,4 +36,4 @@ Connect your tools. Then ask:
 
 ---
 
-*CorpusIQ: Multi-property hospitality analytics. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Multi-property hospitality analytics. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

@@ -38,4 +38,4 @@ Live data. Every day. Not once a month.
 
 ---
 
-*CorpusIQ: 37+ connectors. Real-time KPI monitoring without building dashboards. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors. Real-time KPI monitoring without building dashboards. [corpusiq.io](https://www.corpusiq.io)*

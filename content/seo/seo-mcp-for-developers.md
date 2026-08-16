@@ -29,7 +29,7 @@ For developers, this means:
 }
 ```
 
-That's it. 37+ tools available to your agent. No SDK. No custom integration code. The tools appear in your MCP client and your agent can call them immediately.
+That's it. 40+ tools available to your agent. No SDK. No custom integration code. The tools appear in your MCP client and your agent can call them immediately.
 
 ## What you can build
 
@@ -47,4 +47,4 @@ CorpusIQ maintains the largest Hermes Agent resource hub on GitHub: 670+ repos, 
 
 ---
 
-*CorpusIQ: MCP platform for developers. 37+ connectors. Open protocol. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: MCP platform for developers. 40+ connectors. Open protocol. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*

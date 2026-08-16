@@ -8,7 +8,7 @@ Go to [corpusiq.io](https://corpusiq.io) and create an account. Free 30-day tria
 
 ## 2. Connect Your First Data Source
 
-From the dashboard, click **Add Connector** and choose your first data source. We support 37+ tools:
+From the dashboard, click **Add Connector** and choose your first data source. We support 40+ tools:
 
 - Stripe for payments and subscriptions
 - Shopify for ecommerce data

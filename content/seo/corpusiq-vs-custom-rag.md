@@ -41,7 +41,7 @@ When you ask "what's our revenue this month?" the AI queries Stripe live. When y
 | **Setup time** | 2-3 months | 5 minutes |
 | **Data freshness** | Depends on ETL schedule (hours to days old) | Live, every query |
 | **Cross-tool queries** | Requires separate pipelines for each combination | Built-in — query any combination of tools |
-| **New connector** | Weeks of engineering per source | Already built (37+ connectors) |
+| **New connector** | Weeks of engineering per source | Already built (40+ connectors) |
 | **Schema changes** | Break pipelines, need re-indexing | Handled transparently by MCP tools |
 | **Cost** | $30K-$80K+ in engineering time | Free trial, then subscription |
 | **Maintenance** | Ongoing — pipelines, vectors, embeddings | Zero — connectors stay connected |
@@ -66,4 +66,4 @@ Connect your existing tools to an AI assistant. Ask questions. Get live answers.
 
 ---
 
-*CorpusIQ connects 37+ business tools to AI assistants via MCP. Read-only. 5-minute setup. No vector databases required. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ connects 40+ business tools to AI assistants via MCP. Read-only. 5-minute setup. No vector databases required. [corpusiq.io](https://www.corpusiq.io)*

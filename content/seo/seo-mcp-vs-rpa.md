@@ -37,4 +37,4 @@ Use MCP for: any system with an API, cross-tool questions, getting answers inste
 
 ---
 
-*CorpusIQ: MCP for 37+ business tools. No bots. No scripts. Just answers. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: MCP for 40+ business tools. No bots. No scripts. Just answers. [corpusiq.io](https://www.corpusiq.io)*

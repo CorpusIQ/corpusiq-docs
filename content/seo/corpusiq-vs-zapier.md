@@ -71,4 +71,4 @@ Connect your tools to CorpusIQ once. Ask anything. Then use Zapier for the repet
 
 ---
 
-*CorpusIQ connects 37+ business tools to ChatGPT, Claude, and any MCP-compatible AI assistant. Read-only access. 5-minute setup. Free trial — no credit card. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ connects 40+ business tools to ChatGPT, Claude, and any MCP-compatible AI assistant. Read-only access. 5-minute setup. Free trial — no credit card. [corpusiq.io](https://www.corpusiq.io)*

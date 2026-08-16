@@ -46,4 +46,4 @@ The analyst's job shifts from "pull the data" to "interpret the data and recomme
 
 ---
 
-*CorpusIQ: AI-powered data analysis across 37+ business tools. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: AI-powered data analysis across 40+ business tools. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*

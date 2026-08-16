@@ -33,4 +33,4 @@ All read-only. All OAuth. All connected in 5 minutes.
 
 ---
 
-*CorpusIQ: MCP for ecommerce. 37+ connectors. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: MCP for ecommerce. 40+ connectors. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*

@@ -17,7 +17,7 @@ Most SaaS affiliate programs cap at 12 months. By month 13, your commission stop
 
 ## What you're promoting
 
-CorpusIQ connects 37+ business data sources to AI assistants. Operators connect QuickBooks, Stripe, HubSpot, Shopify, GA4, and ask questions in plain English. No reports. No dashboards. Just answers.
+CorpusIQ connects 40+ business data sources to AI assistants. Operators connect QuickBooks, Stripe, HubSpot, Shopify, GA4, and ask questions in plain English. No reports. No dashboards. Just answers.
 
 The tagline: "Stop building reports. Just ask your AI."
 

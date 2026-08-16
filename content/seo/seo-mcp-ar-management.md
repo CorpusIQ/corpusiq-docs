@@ -18,4 +18,4 @@ No more running AR reports manually. No more chasing customers blind. Daily visi
 
 ---
 
-*CorpusIQ: AR management. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: AR management. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

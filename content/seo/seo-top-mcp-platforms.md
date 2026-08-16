@@ -18,7 +18,7 @@ MCP (Model Context Protocol) is the open standard for connecting AI assistants t
 
 | Platform | Focus | Connectors | Read-only | Setup |
 |----------|-------|:----------:|:---------:|-------|
-| **CorpusIQ** | Business data for AI assistants | 37+ | Yes, by design | 5 min, OAuth |
+| **CorpusIQ** | Business data for AI assistants | 40+ | Yes, by design | 5 min, OAuth |
 | **Arcade** | MCP runtime for production agents | Tool catalog | Varies | Developer-focused |
 | **Smithery** | MCP marketplace + managed runtime | 7,000+ servers | Varies | CLI + web |
 | **Nango** | Unified API (open-source) | 250+ APIs | Configurable | Developer setup |
@@ -32,4 +32,4 @@ The difference: developer platforms give you building blocks. CorpusIQ gives you
 
 ---
 
-*CorpusIQ: Business data for AI assistants. 37+ connectors. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Business data for AI assistants. 40+ connectors. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*

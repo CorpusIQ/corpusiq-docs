@@ -82,4 +82,4 @@ That's the shift. Not faster reports. A different job.
 
 ---
 
-*CorpusIQ connects 37+ business tools to AI assistants. QuickBooks + Stripe native. Read-only. SOC 2 aligned. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ connects 40+ business tools to AI assistants. QuickBooks + Stripe native. Read-only. SOC 2 aligned. [corpusiq.io](https://www.corpusiq.io)*

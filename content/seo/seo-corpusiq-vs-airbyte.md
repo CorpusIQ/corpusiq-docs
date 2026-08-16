@@ -42,4 +42,4 @@ The pipeline moves data. MCP answers questions. Different jobs.
 
 ---
 
-*CorpusIQ: 37+ connectors, live queries, 5-minute setup. Works alongside your data stack. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors, live queries, 5-minute setup. Works alongside your data stack. [corpusiq.io](https://www.corpusiq.io)*

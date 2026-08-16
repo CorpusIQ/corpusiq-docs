@@ -3,7 +3,7 @@ title: "Enterprise AI Data Access: Security, SSO & Audit"
 description: "How enterprises can securely give AI access to business data with SSO/SAML, read-only external-source retrieval, audit trails, live retrieval, and scoped retention."
 category: Enterprise Security
 tags: [Enterprise AI Data Access, SSO, SAML, SOC 2, CASA Tier 2, Data Residency, Audit Trails, Read-Only External-Source Retrieval, Scoped Data Retention]
-last_updated: 2026-07-08
+last_updated: "2026-08-16"
 canonical: https://www.corpusiq.io/docs/enterprise-ai-data-access
 robots: index,follow
 ---

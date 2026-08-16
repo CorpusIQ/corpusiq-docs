@@ -88,4 +88,4 @@ The answer changes how you run your company.
 
 ---
 
-*CorpusIQ connects 37+ business tools to AI assistants. Read-only. 5-minute setup. Free trial — no credit card. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ connects 40+ business tools to AI assistants. Read-only. 5-minute setup. Free trial — no credit card. [corpusiq.io](https://www.corpusiq.io)*

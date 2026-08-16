@@ -50,4 +50,4 @@ Connect your tools once. Then ask whatever matters today:
 
 ---
 
-*CorpusIQ: 37+ business tools, live queries, read-only. The fastest path from question to answer. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ business tools, live queries, read-only. The fastest path from question to answer. [corpusiq.io](https://www.corpusiq.io)*

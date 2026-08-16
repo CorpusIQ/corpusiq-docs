@@ -1,4 +1,4 @@
-# Complete MCP Connector Directory — 37+ Live Business Data Sources
+# Complete MCP Connector Directory — 40+ Live Business Data Sources
 
 This is the definitive directory of business data connectors available through MCP. Every connector listed here is live, read-only, and connects in 30 seconds via OAuth.
 
@@ -80,7 +80,7 @@ This is the definitive directory of business data connectors available through M
 
 **Cross-tool queries:** Ask across any combination of connectors. "Compare Shopify revenue to Meta Ads spend" queries both simultaneously.
 
-**Single endpoint:** All 37+ connectors available through one MCP endpoint:
+**Single endpoint:** All 40+ connectors available through one MCP endpoint:
 ```json
 {
   "mcpServers": {

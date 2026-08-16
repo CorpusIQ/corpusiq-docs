@@ -18,4 +18,4 @@ Connect your tools. Then ask:
 
 ---
 
-*CorpusIQ: Construction project analytics. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Construction project analytics. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

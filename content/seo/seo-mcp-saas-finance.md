@@ -14,4 +14,4 @@ Reconcile them with one question:
 
 ---
 
-*CorpusIQ: SaaS finance automation. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: SaaS finance automation. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

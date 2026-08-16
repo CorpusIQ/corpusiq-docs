@@ -18,4 +18,4 @@ Connect each location's tools. Then ask:
 
 ---
 
-*CorpusIQ: Multi-unit franchise analytics. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Multi-unit franchise analytics. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

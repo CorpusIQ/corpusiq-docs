@@ -39,17 +39,17 @@ It's also MCP-native. MCP is the open protocol for connecting AI assistants to e
 | **What it is** | Developer framework | MCP platform |
 | **Who it's for** | Developers building AI apps | Operators running businesses |
 | **Setup** | Write Python/JS code | 30-second OAuth per tool |
-| **Connectors** | Build your own tools | 37+ pre-built, read-only |
+| **Connectors** | Build your own tools | 40+ pre-built, read-only |
 | **Maintenance** | You maintain your tools | Zero — connectors auto-maintained |
 | **MCP-native** | Can consume MCP servers | Built on MCP from day one |
 | **Best for** | Building custom AI workflows | Getting answers from your business data |
 
 ## They can work together
 
-You can use both. Build a custom LangChain agent that consumes the CorpusIQ MCP server as a tool. Your agent gets instant access to 37+ business data connectors without writing any integration code.
+You can use both. Build a custom LangChain agent that consumes the CorpusIQ MCP server as a tool. Your agent gets instant access to 40+ business data connectors without writing any integration code.
 
 This is the pattern we see: developers use LangChain for the agent logic, CorpusIQ for the business data layer. The framework handles the orchestration. The platform handles the data.
 
 ---
 
-*CorpusIQ: 37+ connectors, MCP-native, 5-minute setup. Works with LangChain, CrewAI, and any MCP-compatible agent. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors, MCP-native, 5-minute setup. Works with LangChain, CrewAI, and any MCP-compatible agent. [corpusiq.io](https://www.corpusiq.io)*

@@ -42,4 +42,4 @@ Same questions. Same data. Zero exports. Zero reconciliation.
 
 ---
 
-*CorpusIQ: MCP for business operators. 37+ connectors. Read-only. 5 minutes. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: MCP for business operators. 40+ connectors. Read-only. 5 minutes. [corpusiq.io](https://www.corpusiq.io)*

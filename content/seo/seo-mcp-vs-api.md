@@ -38,4 +38,4 @@ The MCP server handles auth, API calls, rate limiting, error handling, and data 
 
 ---
 
-*CorpusIQ: 37+ tools through one MCP endpoint. Zero custom integration code. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ tools through one MCP endpoint. Zero custom integration code. [corpusiq.io](https://www.corpusiq.io)*

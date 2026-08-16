@@ -56,4 +56,4 @@ That second shift is where the money is.
 
 ---
 
-*CorpusIQ: Natural language queries across 37+ business tools. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Natural language queries across 40+ business tools. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*

@@ -13,7 +13,7 @@ CorpusIQ connects your business tools to AI platforms through a read-only MCP se
 
 - **Read-only by default** — CorpusIQ never writes to your business tools
 - **No data warehouse** — Queries run against live APIs, not stale copies
-- **Single MCP server** — One endpoint for all 37+ connectors
+- **Single MCP server** — One endpoint for all 40+ connectors
 - **Source citation** — Every answer includes which tool and field the data came from
 
 ## Technical Details

@@ -45,7 +45,7 @@ We maintain the largest structured collection of Hermes resources on GitHub: 670
 
 Production Hermes agents running today:
 - Autonomous growth engines managing SEO, social, and outreach
-- Business data agents querying 37+ live connectors via MCP
+- Business data agents querying 40+ live connectors via MCP
 - Multi-agent fleets with specialized worker nodes
 - Persistent agents with cross-session memory
 
@@ -53,4 +53,4 @@ The ecosystem moves fast. New skills and MCP servers appear daily. The hub track
 
 ---
 
-*The Hermes Community Hub is maintained by [CorpusIQ](https://www.corpusiq.io) — the MCP platform connecting 37+ business tools to AI assistants.*
+*The Hermes Community Hub is maintained by [CorpusIQ](https://www.corpusiq.io) — the MCP platform connecting 40+ business tools to AI assistants.*

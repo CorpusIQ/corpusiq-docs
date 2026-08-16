@@ -34,4 +34,4 @@ These are the questions executives actually ask. They currently take days to ans
 
 ---
 
-*CorpusIQ: Conversational BI for operators. 37+ connectors. Live answers. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Conversational BI for operators. 40+ connectors. Live answers. [corpusiq.io](https://www.corpusiq.io)*

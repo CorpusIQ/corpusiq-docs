@@ -18,4 +18,4 @@ Connect Stripe to AI via MCP. Live subscription data. Instant answers.
 
 ---
 
-*CorpusIQ: Subscription analytics. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Subscription analytics. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

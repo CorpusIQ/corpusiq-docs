@@ -16,4 +16,4 @@ Connect your tools via MCP and ask:
 
 ---
 
-*CorpusIQ: Wholesale analytics. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Wholesale analytics. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

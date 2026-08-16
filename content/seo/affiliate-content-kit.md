@@ -36,7 +36,7 @@ Most SaaS affiliate programs cap your commission at 12 months. We just changed t
 
 25% recurring for 3 full years. If you refer a company paying $200/month, you earn up to $1,800 from one link.
 
-The product: CorpusIQ connects 37+ business tools to AI assistants. Operators ask questions in plain English and get answers from live QuickBooks, Stripe, HubSpot, Shopify data. No dashboards. No reports. Just answers.
+The product: CorpusIQ connects 40+ business tools to AI assistants. Operators ask questions in plain English and get answers from live QuickBooks, Stripe, HubSpot, Shopify data. No dashboards. No reports. Just answers.
 
 If you have an audience of founders, operators, or finance leaders — this converts.
 

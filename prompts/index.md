@@ -19,7 +19,7 @@ Battle-tested prompts for operators using CorpusIQ with Claude and ChatGPT.
 ## Getting Started
 
 1. [Create a CorpusIQ account](https://corpusiq.io) (free 30-day trial, no credit card)
-2. [Connect your data sources](/connectors/) — one-click OAuth for 37+ platforms
+2. [Connect your data sources](/connectors/) — one-click OAuth for 40+ platforms
 3. Ask questions in plain English using the prompts above as templates
 
 ## Hermes Agent Prompts

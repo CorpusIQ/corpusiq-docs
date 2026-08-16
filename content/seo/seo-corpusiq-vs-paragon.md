@@ -22,8 +22,8 @@ Great for: operators who want answers from their data without building anything.
 | Output | Integrations in your product | Answers to your questions |
 | AI-native | No | Yes — MCP-native |
 | Setup | Developer implementation | 5-minute OAuth |
-| Connectors | Pre-built for embedding | 37+ pre-built for querying |
+| Connectors | Pre-built for embedding | 40+ pre-built for querying |
 
 ---
 
-*CorpusIQ: MCP for business operators. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: MCP for business operators. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

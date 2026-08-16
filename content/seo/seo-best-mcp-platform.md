@@ -24,7 +24,7 @@ Most platforms list "50+ integrations." Count how many you'd actually use. The c
 
 If a platform has those five plus Slack, Gmail, and your ad platforms (Meta, Google), it covers 90% of business questions.
 
-CorpusIQ has 37+ connectors covering all of these plus databases (PostgreSQL, MSSQL), analytics (PostHog), and SEO tools (Ahrefs, Semrush).
+CorpusIQ has 40+ connectors covering all of these plus databases (PostgreSQL, MSSQL), analytics (PostHog), and SEO tools (Ahrefs, Semrush).
 
 ### 3. Setup time
 
@@ -79,4 +79,4 @@ Try the core five connectors (Stripe, QuickBooks, HubSpot, Shopify, GA4). If tho
 
 ---
 
-*CorpusIQ: 37+ connectors, read-only, 5-minute setup, works with ChatGPT and Claude. Free trial — no credit card. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors, read-only, 5-minute setup, works with ChatGPT and Claude. Free trial — no credit card. [corpusiq.io](https://www.corpusiq.io)*

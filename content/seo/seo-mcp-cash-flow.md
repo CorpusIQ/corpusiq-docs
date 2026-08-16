@@ -16,4 +16,4 @@ Real-time cash visibility. No spreadsheets. No surprises.
 
 ---
 
-*CorpusIQ: Cash flow visibility. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Cash flow visibility. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

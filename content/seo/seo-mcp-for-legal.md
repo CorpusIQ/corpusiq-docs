@@ -16,4 +16,4 @@ Connect your tools. Then ask:
 
 ---
 
-*CorpusIQ: Unified legal practice management. 37+ connectors. Read-only. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Unified legal practice management. 40+ connectors. Read-only. [corpusiq.io](https://www.corpusiq.io)*

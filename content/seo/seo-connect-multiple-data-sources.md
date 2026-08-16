@@ -77,4 +77,4 @@ That shift — from reporting to understanding — is where the value lives.
 
 ---
 
-*CorpusIQ: 37+ connectors, multi-source queries, read-only, 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors, multi-source queries, read-only, 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*

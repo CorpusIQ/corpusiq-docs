@@ -3,7 +3,7 @@ title: "MCP vs Data Warehouse: Live Query vs Batch ETL"
 description: "Compare MCP servers with traditional data warehouses: live source queries and scoped operational retention versus batch ETL and persistent analytical storage."
 category: MCP Education
 tags: ["MCP vs data warehouse", "live query vs ETL", "real-time vs batch analytics", "AI business intelligence platform", "scoped retention", "data warehouse alternative"]
-last_updated: 2026-07-08
+last_updated: "2026-08-16"
 canonical: https://www.corpusiq.io/docs/mcp-vs-data-warehouse
 robots: index,follow
 ---

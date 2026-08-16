@@ -120,4 +120,4 @@ That shift — from what to why — is where the money is.
 
 ---
 
-*Connect your business data to ChatGPT in 5 minutes. 37+ tools. Read-only. Free trial. [corpusiq.io](https://www.corpusiq.io)*
+*Connect your business data to ChatGPT in 5 minutes. 40+ tools. Read-only. Free trial. [corpusiq.io](https://www.corpusiq.io)*

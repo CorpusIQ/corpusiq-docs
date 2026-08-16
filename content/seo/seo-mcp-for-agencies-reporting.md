@@ -22,4 +22,4 @@ Connect each client's tools. Then ask across all of them:
 
 ---
 
-*CorpusIQ: Agency analytics. Multi-client. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Agency analytics. Multi-client. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

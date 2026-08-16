@@ -14,4 +14,4 @@ Connect QuickBooks via MCP and stay on top of AP:
 
 ---
 
-*CorpusIQ: AP management. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: AP management. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

@@ -14,4 +14,4 @@ Connect all locations via MCP and ask across everything:
 
 ---
 
-*CorpusIQ: Multi-location analytics. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Multi-location analytics. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

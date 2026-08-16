@@ -16,4 +16,4 @@ Connect your tools. Then ask:
 
 ---
 
-*CorpusIQ: Veterinary analytics. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Veterinary analytics. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

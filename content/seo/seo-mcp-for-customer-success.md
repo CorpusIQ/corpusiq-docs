@@ -34,4 +34,4 @@ Connect your tools. Then ask:
 
 ---
 
-*CorpusIQ: 37+ connectors for CS teams. One question. Every system. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors for CS teams. One question. Every system. [corpusiq.io](https://www.corpusiq.io)*

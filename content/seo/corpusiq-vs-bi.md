@@ -84,4 +84,4 @@ Connect your tools to an AI assistant. Ask questions. Get live answers. Stop pre
 
 ---
 
-*CorpusIQ connects 37+ business tools to AI assistants. Stop building dashboards. Start asking questions. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ connects 40+ business tools to AI assistants. Stop building dashboards. Start asking questions. [corpusiq.io](https://www.corpusiq.io)*

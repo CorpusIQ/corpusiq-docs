@@ -14,7 +14,7 @@ Et si vous pouviez simplement demander ?
 
 CorpusIQ connecte vos outils business à ChatGPT, Claude, ou n'importe quel assistant IA compatible MCP. Une seule authentification OAuth (lecture seule). Une seule configuration.
 
-## 37+ connecteurs disponibles
+## 40+ connecteurs disponibles
 
 | Catégorie | Outils |
 |-----------|--------|
@@ -41,4 +41,4 @@ CorpusIQ connecte vos outils business à ChatGPT, Claude, ou n'importe quel assi
 
 ## Essayez gratuitement
 
-https://www.corpusiq.io — Essai gratuit, sans carte bancaire. 5 minutes. 37+ connecteurs. Lecture seule.
+https://www.corpusiq.io — Essai gratuit, sans carte bancaire. 5 minutes. 40+ connecteurs. Lecture seule.

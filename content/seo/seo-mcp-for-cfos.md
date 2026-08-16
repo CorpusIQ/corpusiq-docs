@@ -35,4 +35,4 @@ Connect your tools. Then:
 
 ---
 
-*CorpusIQ: Real-time financial answers for CFOs. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Real-time financial answers for CFOs. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

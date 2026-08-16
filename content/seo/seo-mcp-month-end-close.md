@@ -24,4 +24,4 @@ Connect your tools. Then ask:
 
 ---
 
-*CorpusIQ: Month-end close automation. 37+ connectors. Read-only. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Month-end close automation. 40+ connectors. Read-only. [corpusiq.io](https://www.corpusiq.io)*

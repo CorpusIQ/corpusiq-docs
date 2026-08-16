@@ -14,4 +14,4 @@ Connect all clients via MCP and ask:
 
 ---
 
-*CorpusIQ: Multi-client bookkeeping. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Multi-client bookkeeping. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

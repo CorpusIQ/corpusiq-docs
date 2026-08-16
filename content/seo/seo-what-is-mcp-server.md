@@ -17,7 +17,7 @@ No API keys to manage. No custom code. Just connect and ask.
 
 MCP servers exist for: QuickBooks, Stripe, Shopify, HubSpot, GA4, Google Ads, Meta Ads, Slack, Gmail, PostgreSQL, Snowflake, and 250+ more platforms.
 
-Some MCP servers expose a single tool (like Stripe). Others — like CorpusIQ — expose 37+ tools through one server. One OAuth. One endpoint. All your business data.
+Some MCP servers expose a single tool (like Stripe). Others — like CorpusIQ — expose 40+ tools through one server. One OAuth. One endpoint. All your business data.
 
 ## Why it matters
 
@@ -27,4 +27,4 @@ After MCP: 37 tools = one MCP server. 5-minute setup. Zero maintenance.
 
 ---
 
-*CorpusIQ: One MCP server, 37+ business tools. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: One MCP server, 40+ business tools. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*

@@ -30,4 +30,4 @@ Connect your tools. Then ask:
 
 ---
 
-*CorpusIQ: Unified client view for insurance agencies. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Unified client view for insurance agencies. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

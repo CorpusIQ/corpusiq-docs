@@ -18,4 +18,4 @@ Connect your tools. Then ask:
 
 ---
 
-*CorpusIQ: Unified education analytics. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Unified education analytics. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

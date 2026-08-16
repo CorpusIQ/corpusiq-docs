@@ -32,4 +32,4 @@ All read-only. All OAuth. 5-minute setup.
 
 ---
 
-*CorpusIQ: DTC analytics in one question. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: DTC analytics in one question. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

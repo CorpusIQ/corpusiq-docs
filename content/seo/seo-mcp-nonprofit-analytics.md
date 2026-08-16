@@ -20,4 +20,4 @@ Connect your tools. Then ask:
 
 ---
 
-*CorpusIQ: Non-profit analytics. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Non-profit analytics. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

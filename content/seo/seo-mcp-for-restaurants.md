@@ -18,4 +18,4 @@ Connect your tools. Then ask:
 
 ---
 
-*CorpusIQ: Restaurant analytics. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Restaurant analytics. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

@@ -119,4 +119,4 @@ That shift — from what to why — is where the money is.
 
 ---
 
-*Connect your ecommerce tools to AI assistants. 37+ connectors. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*
+*Connect your ecommerce tools to AI assistants. 40+ connectors. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*

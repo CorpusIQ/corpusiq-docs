@@ -77,4 +77,4 @@ Then ask your first question: "Show me everything I need to know for month-end c
 
 ---
 
-*CorpusIQ connects 37+ business tools to AI assistants. QuickBooks-native. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ connects 40+ business tools to AI assistants. QuickBooks-native. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*

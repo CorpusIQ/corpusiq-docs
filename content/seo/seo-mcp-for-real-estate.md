@@ -62,4 +62,4 @@ One portfolio manager with 35 units switched 2 months ago:
 
 ---
 
-*CorpusIQ connects 37+ business tools to AI assistants. Multi-property ready. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ connects 40+ business tools to AI assistants. Multi-property ready. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*

@@ -42,4 +42,4 @@ Connect your tools. Then ask:
 
 ---
 
-*CorpusIQ: 37+ connectors for founders. Investor-ready answers in seconds. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors for founders. Investor-ready answers in seconds. [corpusiq.io](https://www.corpusiq.io)*

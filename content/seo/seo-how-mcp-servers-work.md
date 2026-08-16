@@ -57,8 +57,8 @@ The most powerful pattern: one MCP server exposing multiple business tools. Inst
 }
 ```
 
-This single endpoint gives the AI access to 37+ business tools. One OAuth. One config. All your data.
+This single endpoint gives the AI access to 40+ business tools. One OAuth. One config. All your data.
 
 ---
 
-*CorpusIQ: 37+ business tools through one MCP endpoint. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ business tools through one MCP endpoint. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*

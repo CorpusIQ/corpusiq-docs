@@ -80,4 +80,4 @@ Connect your tools. Ask questions. Get live answers. Save the warehouse for the 
 
 ---
 
-*CorpusIQ: 37+ connectors, live data queries, 5-minute setup. Works alongside your existing data stack. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors, live data queries, 5-minute setup. Works alongside your existing data stack. [corpusiq.io](https://www.corpusiq.io)*

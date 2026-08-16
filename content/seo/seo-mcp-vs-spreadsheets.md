@@ -28,4 +28,4 @@ Every question that currently requires exporting to Excel can be answered in sec
 
 ---
 
-*CorpusIQ: Answers instead of spreadsheets. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Answers instead of spreadsheets. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

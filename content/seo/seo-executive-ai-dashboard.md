@@ -57,4 +57,4 @@ A CEO at a 200-person company told us:
 
 ---
 
-*CorpusIQ: Executive answers without the dashboard industrial complex. 37+ connectors. Read-only. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Executive answers without the dashboard industrial complex. 40+ connectors. Read-only. [corpusiq.io](https://www.corpusiq.io)*

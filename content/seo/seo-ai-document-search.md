@@ -31,4 +31,4 @@ Google Drive for the contract. QuickBooks for invoices. Gmail for emails. One qu
 
 ---
 
-*CorpusIQ: AI search across 37+ business tools. One question. Every system. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: AI search across 40+ business tools. One question. Every system. [corpusiq.io](https://www.corpusiq.io)*

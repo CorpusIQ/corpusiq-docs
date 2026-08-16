@@ -77,4 +77,4 @@ That's the shift. Not a better dashboard. A different job.
 
 ---
 
-*CorpusIQ connects 37+ business tools to AI assistants. Multi-client ready. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ connects 40+ business tools to AI assistants. Multi-client ready. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*

@@ -22,4 +22,4 @@ Connect each client's tools once. Then ask across all of them:
 
 ---
 
-*CorpusIQ: Multi-client accounting analytics. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Multi-client accounting analytics. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*

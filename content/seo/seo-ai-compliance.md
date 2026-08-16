@@ -26,4 +26,4 @@ Answers use cited source data. External-source retrieval tools are marked read-o
 
 ---
 
-*CorpusIQ: 37+ connectors. Read-only. SOC 2 aligned and CASA Tier 2 certified. Audit-ready. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors. Read-only. SOC 2 aligned and CASA Tier 2 certified. Audit-ready. [corpusiq.io](https://www.corpusiq.io)*

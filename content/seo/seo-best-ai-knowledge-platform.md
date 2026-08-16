@@ -34,4 +34,4 @@ Use a knowledge base for company docs. Use MCP for business data. They're comple
 
 ---
 
-*CorpusIQ: Live business data platform. 37+ connectors. Read-only. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Live business data platform. 40+ connectors. Read-only. [corpusiq.io](https://www.corpusiq.io)*

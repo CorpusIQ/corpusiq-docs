@@ -72,4 +72,4 @@ That's the shift. Not faster reporting. More time doing the actual job.
 
 ---
 
-*CorpusIQ connects 37+ business tools to AI assistants. All major ad platforms + analytics. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ connects 40+ business tools to AI assistants. All major ad platforms + analytics. Read-only. 5-minute setup. [corpusiq.io](https://www.corpusiq.io)*

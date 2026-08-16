@@ -35,4 +35,4 @@ Connect your tools. Then ask:
 
 ---
 
-*CorpusIQ: 37+ connectors for RevOps. Reconcile pipeline to revenue in seconds. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors for RevOps. Reconcile pipeline to revenue in seconds. [corpusiq.io](https://www.corpusiq.io)*

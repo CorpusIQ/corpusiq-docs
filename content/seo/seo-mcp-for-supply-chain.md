@@ -36,4 +36,4 @@ External-source retrieval tools are marked read-only; write-capable connector an
 
 ---
 
-*CorpusIQ: 37+ connectors for supply chain. Real-time visibility. Read-only. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors for supply chain. Real-time visibility. Read-only. [corpusiq.io](https://www.corpusiq.io)*

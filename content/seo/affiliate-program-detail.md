@@ -26,7 +26,7 @@ Compare that to a one-time CPA payout of $100-200. Three years of recurring comm
 
 ## What you're promoting
 
-CorpusIQ connects business data to AI assistants. QuickBooks, Stripe, HubSpot, Shopify, GA4, Slack — 37+ tools, all queryable through ChatGPT or Claude in plain English.
+CorpusIQ connects business data to AI assistants. QuickBooks, Stripe, HubSpot, Shopify, GA4, Slack — 40+ tools, all queryable through ChatGPT or Claude in plain English.
 
 The pitch is simple: "Stop building reports. Just ask your AI."
 

@@ -31,4 +31,4 @@ They're not replacing their warehouse. They're replacing the 45-minute data pull
 
 ---
 
-*CorpusIQ: Conversational BI. 37+ connectors. Live answers. No dashboards. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Conversational BI. 40+ connectors. Live answers. No dashboards. [corpusiq.io](https://www.corpusiq.io)*

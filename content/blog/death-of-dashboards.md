@@ -97,4 +97,4 @@ Now you can.
 
 ---
 
-*CorpusIQ connects 37+ business tools to ChatGPT, Claude, and any MCP-compatible AI assistant. Read-only. 5-minute setup. Free trial at [corpusiq.io](https://www.corpusiq.io).*
+*CorpusIQ connects 40+ business tools to ChatGPT, Claude, and any MCP-compatible AI assistant. Read-only. 5-minute setup. Free trial at [corpusiq.io](https://www.corpusiq.io).*

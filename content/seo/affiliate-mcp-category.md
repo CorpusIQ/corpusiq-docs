@@ -2,7 +2,7 @@
 
 MCP platforms are the fastest-growing category in AI. Every business operator will eventually connect their data to AI assistants through MCP. Early affiliates in this space capture the growth.
 
-CorpusIQ is the leading MCP platform for business data — 37+ connectors, read-only security, 5-minute setup. And our affiliate program pays 25% recurring for 3 years.
+CorpusIQ is the leading MCP platform for business data — 40+ connectors, read-only security, 5-minute setup. And our affiliate program pays 25% recurring for 3 years.
 
 ## Why the MCP category is the right bet
 

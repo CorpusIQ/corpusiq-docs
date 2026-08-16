@@ -18,4 +18,4 @@ Connect your tools. Then ask:
 
 ---
 
-*CorpusIQ: Dental practice analytics. 37+ connectors. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: Dental practice analytics. 40+ connectors. [corpusiq.io](https://www.corpusiq.io)*
