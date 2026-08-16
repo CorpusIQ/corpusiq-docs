@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog — Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-08-15"
+last_updated: "2026-08-16"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -485,3 +485,9 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Mintlify Docs Skills — Documentation Platform Setup](/docs/hermes/skills/catalog/mintlify-docs-skills-setup/)
 - [Motion Design Skill — LottieFiles Animation Setup](/docs/hermes/skills/catalog/lottiefiles-motion-design-skill-setup/)
 - [Mobile App UI Design Skill — Mobile Interface Setup](/docs/hermes/skills/catalog/mobile-app-ui-design-skill-setup/)
+- [Cursor Plugins Skills — Engineering Discipline Suite Setup](/docs/hermes/skills/catalog/cursor-plugins-skills-setup/)
+- [Vercel AI SDK Skills — TypeScript AI Development Setup](/docs/hermes/skills/catalog/vercel-ai-skills-setup/)
+- [Angular Skills — Framework Development Setup](/docs/hermes/skills/catalog/angular-skills-setup/)
+- [Inngest Skills — Durable Workflow Orchestration Setup](/docs/hermes/skills/catalog/inngest-skills-setup/)
+- [OXC Project Skills — Linter & Formatter Migration Setup](/docs/hermes/skills/catalog/oxc-project-skills-setup/)
+- [Alibaba Open Code Review — AI Code Review CLI Setup](/docs/hermes/skills/catalog/alibaba-open-code-review-setup/)
