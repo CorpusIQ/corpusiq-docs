@@ -3,7 +3,7 @@ title: External MCP Server Catalog
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-15"
+last_updated: "2026-08-16"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 15, 2026 (evening cron sweep) · **Sources:** mcpservers.org /all pages 1-2 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 207 servers (+97 guides)
+> **Last updated:** August 16, 2026 (daily cron sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 216 servers (+106 guides)
 
 ---
 
@@ -31,6 +31,52 @@ Options analytics over MCP — options chains (live, historical, simulated), IV 
 **Also identified (not catalogued):** PDI Bridge for Claude (ServiceNow PDI dev-instance bridge — query tables, review Business Rules/ACLs/client scripts; dev tool, not business ops), Picorn (image/video creative projects — one-liner listing with no MCP tool depth), GOJI (Melbourne agency knowledge bot answering AEO/SEO questions from its own published material — agency marketing surface), apix402 (onchain governance/vesting/oracle checks — x402 infra, consistent with prior skips), WEM Price Compare (repeat of the Aug 15 morning skip — consumer/affiliate), EraseText and AI Image Cleaner (consumer image utilities), a Chinese raw-IP listing (shenshaoyin, endpoint on 121.40.18.232) and a trycloudflare exposed-port slug (host-dump noise). Feed repeats already catalogued or previously skipped this cycle: Etincel, CryptoStruct, World Monitor, API Direct, JobYap, Kin, NexusTrade, Snipara, RADAAR, BlazingCDN, Cost Seg Smart, easydocforms, Just Domain, Fakto wFirma, FARPY, CoinLobster, EM+x, SceneF, LabTestSuperstore, Prose Coach, Clipkit, CR8 Agent Commons, x402 Merchant Check, directree, Syncro.
 
 **Key observation:** Both entries confirm the pattern of financial-data vendors shipping a published, agent-sized API reference alongside the MCP surface — ApexVol's single-file `apexvol-api.md` is the cleanest example yet of docs designed for agent consumption (explicit 401/403/426/429 semantics so an agent can tell revoked-token from tier-entitlement from rate-limit failures). GovTrade extends the x402 pay-per-call model from infrastructure into disclosure-grade financial data, with anomaly reasoning attached to every signal.
+
+---
+
+## 🆕 August 16, 2026 — Daily Cron Sweep (9 New, 9 Guides)
+
+Scanned mcpservers.org /all pages 1-3 (newest submissions) and mcp.so Feed (30 newest submissions). 9 new business-relevant servers found — the largest single-day sweep since August 15 morning: agent-owned email mailboxes, a hosted scraping engine from an established data vendor, the official Lumail email-marketing MCP with confirmation gates, a Shopify + Google Ads operating bridge, free legal research across 44 jurisdictions, bank-statement conversion, presentation generation, news intelligence, and auto-expiring share links.
+
+### Mektup MCP ★★★ — August 16
+
+Email infrastructure for AI agents — register domains, create mailboxes, send and receive mail, and manage threads, drafts, and folders through 41 tools. A real inbox, not a one-way sending API. Remote Streamable HTTP at `mcp.usemektup.com/mcp` with a Bearer token (`mek_live_...`); MIT, `github.com/WeeCi/mektup-mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/mektup-mcp/)
+
+### Import.io MCP ★★★ — August 16
+
+Hosted web scraping from an established data vendor (Import.io, Aperture pricing intelligence) — render pages in a real browser, extract structured fields, capture screenshots, with proxy routing, country targeting, and CAPTCHA handling. OAuth or Bearer key, Streamable HTTP at `mcp.import.io/mcp`. 10,000 free successful calls, then $0.0002 per successful call with a monthly spend cap; blocked and failed requests never billed. (commercial) · [Guide →](/hermes/mcp/servers/external/import-io-mcp/)
+
+### Mercopilot MCP ★★★ — August 16
+
+Shopify store + Google Ads account over MCP — plain-English questions about revenue and ad spend, a ranked fix list with estimated value per fix, and approval-gated changes applied directly in Shopify or Google Ads. OAuth, no API key, Streamable HTTP at `api.mercopilot.com/mcp`; 9 tools. (commercial) · [Guide →](/hermes/mcp/servers/external/mercopilot-mcp/)
+
+### Lumail MCP ★★★ — August 16
+
+Official Lumail email-marketing MCP — subscribers, campaigns, graph-based Workflows, tags, segments, and analytics over dual endpoints: an OAuth catalog that cannot send, publish, or delete, and an API-token catalog with every high-impact action behind a five-digit, single-use confirmation code. `lumail.io/mcp` (OAuth) · `lumail.io/api/mcp/sse` (token). (commercial) · [Guide →](/hermes/mcp/servers/external/lumail-mcp/)
+
+### Legalcode MCP ★★ — August 16
+
+Free legal research over MCP — statutes, case law, and regulatory guidance across 44 jurisdictions with 299 packaged legal skills (NDA review, DPIA generation, contract analysis). Searches processed, never stored; EU-hosted. No API key on the free tier (30 requests/day); Pro $25/mo. `mcp.legalcode.md/mcp`. (commercial, free tier) · [Guide →](/hermes/mcp/servers/external/legalcode-mcp/)
+
+### MainBook MCP ★★ — August 16
+
+PDF bank statements to checked Excel, CSV, or JSON with balance validation — 5 tools (`convert_bank_statement`, `get_conversion`, `list_conversions`, `get_balance`, `output_folder`), folder-scoped local access, no account-mutation tools. Local stdio via `uvx mainbook-mcp` with a `MAINBOOK_API_KEY`; 1 page = 1 credit, 20-page signup grant. (commercial) · [Guide →](/hermes/mcp/servers/external/mainbook-mcp/)
+
+### MagicSlides MCP ★★ — August 16
+
+Presentations, documents, spreadsheets, and meeting notes from chat — 70+ templates, hosted share links, an editor, and PPTX/PDF export, with agentic in-place revision of existing docs. No API key (account sign-in); early access free. (commercial) · [Guide →](/hermes/mcp/servers/external/magicslides-mcp/)
+
+### APITube News MCP ★★ — August 16
+
+News intelligence over MCP — 500,000+ sources in 60+ languages filtered by sentiment, entities, topics, and source quality. Hosted JSON-RPC at `mcp.apitube.io/` with a Bearer key; `search_news` + `suggest` tools and four ready-made prompts (`monitor_company`, `topic_sentiment`, `breaking_news`, `compare_coverage`). (commercial) · [Guide →](/hermes/mcp/servers/external/apitube-news-mcp/)
+
+### ctxt.io MCP ★★ — August 16
+
+Auto-expiring share links for agent output — diffs, logs, reports, and self-contained HTML (inline CSS/SVG, scripts stripped) with `read_context` and token-authorized deletion. Stateless, no auth, free up to 1-day TTL; $1 per 30-day Pro link with an ACP programmatic-checkout path via Stripe Shared Payment Token. `ctxt.io/mcp`. (freemium) · [Guide →](/hermes/mcp/servers/external/ctxt-io-mcp/)
+
+**Also identified (not catalogued):** DreamThreads DreamGraph (dream-thread consumer novelty — unclear niche), Croncool (cron scheduling for developers — dev tool), Studex Portal (education/study portal — education niche per Aug 11 decision), Tutorializer (docs-to-tutorials — dev content utility), Wapiworld (one-line listing, no MCP depth), Agent Utility (Cloudflare workers.dev exposed-port listing — host-dump class), FDE Lessons API (education). Feed repeats already catalogued or previously skipped this cycle: GovTrade, ApexVol, Etincel, CryptoStruct, World Monitor, API Direct, JobYap, Kin, NexusTrade, Snipara, RADAAR, BlazingCDN, Cost Seg Smart, easydocforms, Just Domain, Fakto wFirma, FARPY, CoinLobster, EM+x, SceneF, LabTestSuperstore, Prose Coach, Clipkit, CR8 Agent Commons, x402 Merchant Check, directree, WEM Price Compare (repeat of the Aug 15 morning skip — consumer/affiliate). Page 3 of /all carried only repeats (hermoso, holoweave, polymarketscan, graspi, shhots, markupbase, helpdocs, teai, waldo, customer-tiering, emx, folklore).
+
+**Key observation:** The email category went from gap to crowded in 48 hours — Loops (Aug 15 morning) added execution, Mektup adds agent-owned inboxes, and Lumail ships the most complete confirmation-gate implementation documented yet with dual safety profiles. Second, established web-data vendors are entering MCP directly — Import.io's hosted scraping engine with per-call pricing and spend caps extends the vendor-first-party pattern from observability and email into data acquisition. Third, commerce operations gained its first approval-gated store + ads bridge (Mercopilot), pairing with the RADAAR/OnePostly social layer toward an agent-addressable commerce stack with human approval at the write path.
 
 ---
 
@@ -867,6 +913,9 @@ Dedicated MCP server for PortEden's Google Sheets data firewall. Read, write, an
 ## Financial Data
 
 
+### MainBook MCP ★★ — Aug 16
+PDF bank statements to checked Excel, CSV, or JSON with balance validation — 5 tools, folder-scoped local access, page-credit pricing, no account-mutation tools. Local stdio via `uvx mainbook-mcp` with a `MAINBOOK_API_KEY`; 1 page = 1 credit, 20-page signup grant. (commercial) · [Guide →](/hermes/mcp/servers/external/mainbook-mcp/)
+
 ### NexusTrade Financial MCP ★★★ — Aug 14 (evening)
 Hosted quant-trading platform MCP — 125 tools covering stock screening, historical and fundamental data, multi-regime backtesting, portfolio and risk analysis, managed compute, creator strategy discovery, and paper/live copy trading with brokerage execution behind platform risk controls. OAuth 2.1 PKCE with dynamic client registration; Streamable HTTP at `nexustrade.io/api/mcp`. `github.com/austin-starks/nexustrade-ts` (commercial) · [Guide →](/hermes/mcp/servers/external/nexustrade-financial-mcp/)
 
@@ -1149,6 +1198,12 @@ Parse PDFs, CSVs, images, and documents into structured AI-ready data via the Un
 
 ## Analytics & Business Intelligence
 
+### Import.io MCP ★★★ — Aug 16
+Hosted web scraping from an established data vendor — browser rendering, structured extraction, screenshots, proxy routing, country targeting, CAPTCHA handling. OAuth or Bearer, Streamable HTTP at `mcp.import.io/mcp`; 10,000 free successful calls, then $0.0002 per successful call with a monthly spend cap. (commercial) · [Guide →](/hermes/mcp/servers/external/import-io-mcp/)
+
+### APITube News MCP ★★ — Aug 16
+News intelligence over MCP — 500,000+ sources in 60+ languages filtered by sentiment, entities, topics, and source quality. Hosted JSON-RPC at `mcp.apitube.io/` with a Bearer key; `search_news` + `suggest` tools and four monitoring prompts. (commercial) · [Guide →](/hermes/mcp/servers/external/apitube-news-mcp/)
+
 ### SIXTA Connect ★ New (June 28)
 DBRE-grade SQL analysis inside any MCP client — no connection, no install required. Paste a query, EXPLAIN plan, migration, or error → get named findings with severity, rationale, and ready-to-run fixes for PostgreSQL and MySQL. Essential for operators running database workloads who need instant SQL review and optimization without connecting to production.
 
@@ -1393,6 +1448,9 @@ Authoritative EOL database for AI agents — end-of-life dates, CVE risk scores,
 
 ## Commerce & E-Commerce
 
+### Mercopilot MCP ★★★ — Aug 16
+Shopify store + Google Ads account over MCP — plain-English questions, ranked fix list with estimated value, approval-gated changes applied directly in Shopify or Google Ads. OAuth, no API key, Streamable HTTP at `api.mercopilot.com/mcp`; 9 tools. (commercial) · [Guide →](/hermes/mcp/servers/external/mercopilot-mcp/)
+
 ### Monday.com MCP ★ New (July 15)
 Official Monday.com MCP — project management, workflows, boards, and automations accessible to AI agents. First major PM platform with dedicated MCP. Essential for operators running cross-team projects and workflows. `npx -y @mondaycom/mcp` · [Integration Guide](/hermes/mcp/servers/external/mondaycom-mcp/)
 
@@ -1468,6 +1526,9 @@ Give AI agents their own local mailbox to read, send, and triage email via MCP. 
 ---
 
 ## Compliance & Regulatory
+
+### Legalcode MCP ★★ — Aug 16
+Free legal research over MCP — statutes, case law, and regulatory guidance across 44 jurisdictions with 299 packaged legal skills. Searches processed, never stored; EU-hosted. No API key on the free tier (30 requests/day); Pro $25/mo. `mcp.legalcode.md/mcp`. (commercial, free tier) · [Guide →](/hermes/mcp/servers/external/legalcode-mcp/)
 
 ### AgenticRail Gate MCP ★ New (Aug 13)
 Deterministic step-order enforcement for AI agents — evaluate_step returns ALLOW/DENY before each step; every ALLOW writes an Ed25519-signed, hash-chained receipt stored as a tamper-evident compliance record. verify_receipt proves chain integrity. Public demo key, no auth. `mcp.agenticrail.nz`. [Integration Guide](/hermes/mcp/servers/external/agenticrail-gate-mcp/)
@@ -1545,6 +1606,9 @@ AI legal counsel research MCP — frontier-lab commercial commitments, safety-fr
 
 ## Development & Infrastructure
 
+
+### ctxt.io MCP ★★ — Aug 16
+Auto-expiring share links for agent output — diffs, logs, reports, and self-contained HTML with `read_context` and token-authorized deletion. Stateless, no auth, free up to 1-day TTL; $1 per 30-day Pro link via ACP programmatic checkout. `ctxt.io/mcp`. (freemium) · [Guide →](/hermes/mcp/servers/external/ctxt-io-mcp/)
 
 ### BlazingCDN MCP ★★ — Aug 14 (midday)
 Official MCP server for BlazingCDN — 52 tools for Anycast CDN, cache operations, bandwidth metrics, custom domains, Cloud Storage and Video CDN. Self-hosted via `npx -y @blazingcdn/mcp`; API token auth; write tools gated by `BLAZINGCDN_ALLOW_WRITE=1`. MIT. `github.com/BlazingCDN/BlazingCDN-MCP`. [Integration Guide](/hermes/mcp/servers/external/blazingcdn-mcp/)
@@ -1883,6 +1947,9 @@ MCP server for AI agent data flow orchestration. Connect AI agents to data pipel
 
 ## Productivity
 
+### MagicSlides MCP ★★ — Aug 16
+Presentations, documents, spreadsheets, and meeting notes from chat — 70+ templates, hosted share links, PPTX/PDF export, agentic in-place revision. No API key (account sign-in); early access free. (commercial) · [Guide →](/hermes/mcp/servers/external/magicslides-mcp/)
+
 ### JobYap MCP ★★ — Aug 14 (evening)
 Job postings aggregated from tech companies' official career sites, each with a public discussion thread — salaries, locations, full descriptions, interview notes, and team signal. 8 read-only tools (search_jobs, get_job, get_job_comments, search_locations, list_companies, get_job_stats, search, fetch); no auth, Streamable HTTP at `mcp.jobyap.com/mcp`. (commercial, free) · [Guide →](/hermes/mcp/servers/external/jobyap-mcp/)
 
@@ -2073,6 +2140,9 @@ Feeds AI agents your brand's real logos, colors, fonts, and approved slide layou
 
 ## Communication
 
+### Mektup MCP ★★★ — Aug 16
+Email infrastructure for AI agents — register domains, create mailboxes, send and receive mail, and manage threads, drafts, and folders through 41 tools. Remote Streamable HTTP at `mcp.usemektup.com/mcp` with a Bearer token; MIT. (commercial) · [Guide →](/hermes/mcp/servers/external/mektup-mcp/)
+
 ### PostAgent ★ Official ★ New
 Print and send physical mail and postcards to US addresses (USPS), paid per call in USDC on Base via x402 or credit card. Official MCP server for physical mail automation  --  essential for operators who need to trigger postal mail from AI workflows.
 
@@ -2187,6 +2257,9 @@ Control Bambu Lab 3D printers, edit STL files, and manage 3MF print workflows vi
 ---
 
 ## Marketing
+
+### Lumail MCP ★★★ — Aug 16
+Official Lumail email-marketing MCP — subscribers, campaigns, graph-based Workflows, tags, segments, and analytics over dual endpoints: an OAuth catalog that cannot send, publish, or delete, and an API-token catalog with five-digit confirmation codes on every high-impact action. `lumail.io/mcp` (OAuth) · `lumail.io/api/mcp/sse` (token). (commercial) · [Guide →](/hermes/mcp/servers/external/lumail-mcp/)
 
 ### API Direct MCP ★★★ — Aug 14 (evening)
 Public-data search across 13 platforms (LinkedIn, X, Facebook, Reddit, YouTube, Instagram, Threads, TikTok, Truth Social, forums, news, web search, Google Maps) with 68 tools plus 60+ ready-made skill playbooks (lead-gen, competitor conquest, recruiting, OSINT due diligence, brand monitoring). API key, Streamable HTTP, pay-as-you-go per request. `apidirect.io/mcp` (commercial) · [Guide →](/hermes/mcp/servers/external/api-direct-mcp/)
@@ -3631,3 +3704,15 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 
 - [ApexVol Options Analytics MCP — Options Chains, Greeks, GEX & Screeners](/docs/hermes/mcp/servers/external/apexvol-mcp/)
 - [GovTrade MCP — Congressional Trading Disclosures with Anomaly Signals](/docs/hermes/mcp/servers/external/govtrade-mcp/)
+
+### 9 new servers from mcpservers.org /all + mcp.so Feed — Aug 16, 2026 (daily cron sweep)
+
+- [Mektup MCP — Email Mailboxes & Domains for AI Agents](/docs/hermes/mcp/servers/external/mektup-mcp/)
+- [Import.io MCP — Hosted Web Scraping with Proxy & CAPTCHA Handling](/docs/hermes/mcp/servers/external/import-io-mcp/)
+- [Mercopilot MCP — Shopify & Google Ads Operating Bridge](/docs/hermes/mcp/servers/external/mercopilot-mcp/)
+- [Lumail MCP — Email Marketing Automation with Confirmation Gates](/docs/hermes/mcp/servers/external/lumail-mcp/)
+- [Legalcode MCP — Free Legal Research Across 44 Jurisdictions](/docs/hermes/mcp/servers/external/legalcode-mcp/)
+- [MainBook MCP — PDF Bank Statement Conversion](/docs/hermes/mcp/servers/external/mainbook-mcp/)
+- [MagicSlides MCP — Presentations & Documents from Chat](/docs/hermes/mcp/servers/external/magicslides-mcp/)
+- [APITube News MCP — News Search with Sentiment & Entity Filters](/docs/hermes/mcp/servers/external/apitube-news-mcp/)
+- [ctxt.io MCP — Auto-Expiring Share Links for Agent Output](/docs/hermes/mcp/servers/external/ctxt-io-mcp/)
