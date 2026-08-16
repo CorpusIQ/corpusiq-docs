@@ -5174,10 +5174,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-zero-data-movement" class="md-nav__link">
+  <a href="#2-no-etl-warehouse" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Zero Data Movement
+        2. No ETL Warehouse
       
     </span>
   </a>
@@ -10114,10 +10114,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-zero-data-movement" class="md-nav__link">
+  <a href="#2-no-etl-warehouse" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Zero Data Movement
+        2. No ETL Warehouse
       
     </span>
   </a>
@@ -10339,7 +10339,7 @@
 </tr>
 <tr>
 <td><strong>Data Flow</strong></td>
-<td>Read-only, real-time query</td>
+<td>Retrieval and write-capable operations are separately named and annotated</td>
 <td>Write/trigger actions between apps</td>
 </tr>
 <tr>
@@ -10359,7 +10359,7 @@
 </tr>
 <tr>
 <td><strong>Data Storage</strong></td>
-<td>None  --  queries run live</td>
+<td>Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist up to 30 days</td>
 <td>May store data in Zapier Tables</td>
 </tr>
 <tr>
@@ -10371,15 +10371,15 @@
 </table>
 <h2 id="how-corpusiq-works">How CorpusIQ Works<a class="headerlink" href="#how-corpusiq-works" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ implements the <strong>Model Context Protocol (MCP)</strong>  --  an open standard developed by Anthropic that lets AI models discover and invoke tools. When you connect a data source to CorpusIQ (HubSpot, QuickBooks, Stripe, Google Analytics, etc.), the platform exposes that data as typed MCP tools that AI assistants can call.</p>
-<p>The AI never sees your raw data unless you ask it to  --  it sees structured function signatures and results, which it interprets and presents in natural language. Every query runs against the live source.</p>
+<p>The AI receives the tool definitions and results needed for the request. Retrieval requests current provider data; freshness follows provider behavior and documented CorpusIQ caching.</p>
 <h2 id="how-zapier-works">How Zapier Works<a class="headerlink" href="#how-zapier-works" title="Anchor link to this section">&para;</a></h2>
 <p>Zapier connects apps through <strong>Zaps</strong>  --  automated workflows with a trigger ("When a new row is added to Google Sheets") and one or more actions ("Send an email via Gmail" and "Create a Slack message"). Zaps run on Zapier's infrastructure, polling for triggers or receiving webhooks, then executing actions sequentially.</p>
 <p>Zapier excels at automation: moving data between apps, triggering notifications, creating records. It does not provide AI-powered analysis or natural-language querying of your data.</p>
 <h2 id="strengths-of-corpusiq">Strengths of CorpusIQ<a class="headerlink" href="#strengths-of-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <h3 id="1-ai-native-architecture">1. AI-Native Architecture<a class="headerlink" href="#1-ai-native-architecture" title="Anchor link to this section">&para;</a></h3>
 <p>CorpusIQ is built from the ground up for AI. Every connector is an MCP tool designed to be discovered, described, and invoked by language models. The AI understands what data is available, how to query it, and how to present results  --  without custom configuration.</p>
-<h3 id="2-zero-data-movement">2. Zero Data Movement<a class="headerlink" href="#2-zero-data-movement" title="Anchor link to this section">&para;</a></h3>
-<p>CorpusIQ queries your data where it lives. No copying to a data warehouse. No synchronization lag. No duplicate data to manage. This is critical for compliance, security, and data freshness.</p>
+<h3 id="2-no-etl-warehouse">2. No ETL Warehouse<a class="headerlink" href="#2-no-etl-warehouse" title="Anchor link to this section">&para;</a></h3>
+<p>CorpusIQ queries source APIs on demand rather than maintaining a replicated business-data warehouse. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational retention applies.</p>
 <h3 id="3-natural-language-interface">3. Natural Language Interface<a class="headerlink" href="#3-natural-language-interface" title="Anchor link to this section">&para;</a></h3>
 <p>Ask "What were our top 5 customers by revenue last month?" and get an answer that draws from QuickBooks, Stripe, or your database  --  whichever source you've connected. No building reports, no writing SQL, no setting up dashboards.</p>
 <h3 id="4-multi-source-intelligence">4. Multi-Source Intelligence<a class="headerlink" href="#4-multi-source-intelligence" title="Anchor link to this section">&para;</a></h3>
@@ -10390,7 +10390,7 @@
 <h3 id="1-mature-ecosystem">1. Mature Ecosystem<a class="headerlink" href="#1-mature-ecosystem" title="Anchor link to this section">&para;</a></h3>
 <p>Zapier connects to 7,000+ apps, far more than CorpusIQ's 40+ connectors. For niche tools, Zapier is likely to have an integration.</p>
 <h3 id="2-write-capabilities">2. Write Capabilities<a class="headerlink" href="#2-write-capabilities" title="Anchor link to this section">&para;</a></h3>
-<p>Zapier can create, update, and delete data across apps. CorpusIQ is read-only by design. If you need to automate record creation  --  e.g., "When a Typeform submission comes in, create a HubSpot contact"  --  Zapier is the tool.</p>
+<p>Zapier can create, update, and delete data across apps. CorpusIQ external-source connector tools use read-only retrieval and do not write records back to those apps; its separately annotated control-plane tools operate on user-declared CorpusIQ state. If you need to automate vendor-record creation  --  e.g., "When a Typeform submission comes in, create a HubSpot contact"  --  Zapier is the tool.</p>
 <h3 id="3-multi-step-logic">3. Multi-Step Logic<a class="headerlink" href="#3-multi-step-logic" title="Anchor link to this section">&para;</a></h3>
 <p>Zapier supports branching paths, filters, delays, and conditional logic within workflows. Complex automations with decision trees are Zapier's strength.</p>
 <h3 id="4-scheduling-and-triggers">4. Scheduling and Triggers<a class="headerlink" href="#4-scheduling-and-triggers" title="Anchor link to this section">&para;</a></h3>

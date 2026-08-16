@@ -9828,10 +9828,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#read-only-guarantee" class="md-nav__link">
+  <a href="#operation-level-safety" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Read-only guarantee
+        Operation-level safety
       
     </span>
   </a>
@@ -9940,8 +9940,8 @@
 </blockquote>
 <h2 id="tools-available">Tools available<a class="headerlink" href="#tools-available" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ exposes 40+ connectors as MCP tools. Hermes auto-discovers them. No code. No SDK. Just connect and ask.</p>
-<h2 id="read-only-guarantee">Read-only guarantee<a class="headerlink" href="#read-only-guarantee" title="Anchor link to this section">&para;</a></h2>
-<p>All CorpusIQ connections are read-only by design. OAuth scopes only request read access. There is no write path. Your data stays in your tools.</p>
+<h2 id="operation-level-safety">Operation-level safety<a class="headerlink" href="#operation-level-safety" title="Anchor link to this section">&para;</a></h2>
+<p>External-source retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated; provider scopes vary by connector. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days.</p>
 <h2 id="token-refresh-for-crons">Token refresh for crons<a class="headerlink" href="#token-refresh-for-crons" title="Anchor link to this section">&para;</a></h2>
 <p>The refresh token (30-day expiry) is now available in production. Save both <code>access_token</code> and <code>refresh_token</code> from the device OAuth response. When the access token expires, POST <code>grant_type=refresh_token</code> to <code>/oauth/token</code> for a new one. Never overwrite the refresh token when updating the access token.</p>
 <p>For cron jobs, run the refresh guard before every execution:</p>

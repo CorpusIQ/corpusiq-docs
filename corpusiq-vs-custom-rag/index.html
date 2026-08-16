@@ -10057,7 +10057,7 @@
 <p><strong>Pre-built MCP connectors:</strong> 40+ data sources with OAuth authentication. Connect in one click.</p>
 </li>
 <li>
-<p><strong>No ETL:</strong> Queries run against live APIs. No data movement, no pipeline maintenance.</p>
+<p><strong>No ETL warehouse:</strong> Queries run against live APIs without building a replicated raw-data pipeline. Scoped operational logs follow the published retention schedule.</p>
 </li>
 <li>
 <p><strong>No chunking/embedding needed:</strong> CorpusIQ doesn't use vector search for structured data. It makes typed API calls that return exact, structured results.</p>
@@ -10223,7 +10223,7 @@ A: For structured business data queries, CorpusIQ's exact API calls are more acc
 <p><strong>Q: How do I handle data that changes frequently?</strong><br />
 A: CorpusIQ queries live APIs  --  data is always current. Custom RAG requires re-indexing to stay fresh, which adds cost and complexity.</p>
 <p><strong>Q: What about data privacy?</strong><br />
-A: CorpusIQ never stores your data. Custom RAG systems often copy data to vector stores, creating additional privacy and compliance considerations.</p>
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <p><strong>Q: Can I extend CorpusIQ with custom logic?</strong><br />
 A: CorpusIQ is a managed platform. For custom logic, you can combine CorpusIQ (for data access) with a framework like LangChain (for custom application logic).</p>
 <h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>

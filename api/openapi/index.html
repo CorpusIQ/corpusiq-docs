@@ -10077,8 +10077,10 @@
 <span class="w">  </span><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;1.0.0&quot;</span>
 <span class="w">  </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span>
 <span class="w">    </span><span class="no">Private AI acceleration layer connecting 40+ business tools to ChatGPT, Claude,</span>
-<span class="w">    </span><span class="no">and Perplexity via MCP. Read-only queries across your entire data stack with</span>
-<span class="w">    </span><span class="no">cited results  --  no data storage, no data movement.</span>
+<span class="w">    </span><span class="no">and Perplexity via MCP. Direct MCP uses read-only live retrieval and does not</span>
+<span class="w">    </span><span class="no">retain raw customer files or full connector response payloads. Operational logs</span>
+<span class="w">    </span><span class="no">retain query text, per-user tool-call metadata, and bounded outcome summaries</span>
+<span class="w">    </span><span class="no">for up to 30 days.</span>
 <span class="w">  </span><span class="nt">contact</span><span class="p">:</span>
 <span class="w">    </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;CorpusIQ</span><span class="nv"> </span><span class="s">API</span><span class="nv"> </span><span class="s">Support&quot;</span>
 <span class="w">    </span><span class="nt">email</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;api@corpusiq.io&quot;</span>
@@ -10097,14 +10099,6 @@
 <span class="w">        </span><span class="no">Execute a natural-language query across all or specified connected business</span>
 <span class="w">        </span><span class="no">tools. Returns semantically ranked, cited results from each connector.</span>
 <span class="w">      </span><span class="nt">operationId</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;searchQuery&quot;</span>
-<span class="w">      </span><span class="nt">parameters</span><span class="p">:</span>
-<span class="w">        </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Idempotency-Key&quot;</span>
-<span class="w">          </span><span class="nt">in</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;header&quot;</span>
-<span class="w">          </span><span class="nt">required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span>
-<span class="w">          </span><span class="nt">schema</span><span class="p">:</span>
-<span class="w">            </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
-<span class="w">            </span><span class="nt">format</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;uuid&quot;</span>
-<span class="w">          </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Unique</span><span class="nv"> </span><span class="s">key</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">idempotent</span><span class="nv"> </span><span class="s">requests.</span><span class="nv"> </span><span class="s">Prevents</span><span class="nv"> </span><span class="s">duplicate</span><span class="nv"> </span><span class="s">query</span><span class="nv"> </span><span class="s">records.&quot;</span>
 <span class="w">      </span><span class="nt">requestBody</span><span class="p">:</span>
 <span class="w">        </span><span class="nt">required</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span>
 <span class="w">        </span><span class="nt">content</span><span class="p">:</span>
@@ -10187,24 +10181,6 @@
 <span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/responses/Unauthorized&quot;</span>
 <span class="w">        </span><span class="s">&quot;429&quot;</span><span class="p p-Indicator">:</span>
 <span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/responses/RateLimited&quot;</span>
-<span class="w">        </span><span class="s">&quot;500&quot;</span><span class="p p-Indicator">:</span>
-<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/responses/ServerError&quot;</span>
-<span class="w">  </span><span class="nt">/delete_my_data</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">delete</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">summary</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Delete</span><span class="nv"> </span><span class="s">all</span><span class="nv"> </span><span class="s">user</span><span class="nv"> </span><span class="s">data&quot;</span>
-<span class="w">      </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">|</span>
-<span class="w">        </span><span class="no">Permanently delete all data associated with the authenticated user.</span>
-<span class="w">        </span><span class="no">This action is irreversible and triggers a user.deleted webhook event.</span>
-<span class="w">      </span><span class="nt">operationId</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;deleteMyData&quot;</span>
-<span class="w">      </span><span class="nt">responses</span><span class="p">:</span>
-<span class="w">        </span><span class="s">&quot;200&quot;</span><span class="p p-Indicator">:</span>
-<span class="w">          </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Deletion</span><span class="nv"> </span><span class="s">confirmed</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">executed&quot;</span>
-<span class="w">          </span><span class="nt">content</span><span class="p">:</span>
-<span class="w">            </span><span class="nt">application/json</span><span class="p">:</span>
-<span class="w">              </span><span class="nt">schema</span><span class="p">:</span>
-<span class="w">                </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/schemas/DeleteResponse&quot;</span>
-<span class="w">        </span><span class="s">&quot;401&quot;</span><span class="p p-Indicator">:</span>
-<span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/responses/Unauthorized&quot;</span>
 <span class="w">        </span><span class="s">&quot;500&quot;</span><span class="p p-Indicator">:</span>
 <span class="w">          </span><span class="nt">$ref</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;#/components/responses/ServerError&quot;</span>
 <span class="nt">components</span><span class="p">:</span>
@@ -10304,27 +10280,6 @@
 <span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;integer&quot;</span>
 <span class="w">        </span><span class="nt">duration_ms</span><span class="p">:</span>
 <span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;integer&quot;</span>
-<span class="w">    </span><span class="nt">DeleteResponse</span><span class="p">:</span>
-<span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
-<span class="w">      </span><span class="nt">properties</span><span class="p">:</span>
-<span class="w">        </span><span class="nt">status</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
-<span class="w">          </span><span class="nt">example</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;deletion_confirmed&quot;</span>
-<span class="w">        </span><span class="nt">details</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
-<span class="w">          </span><span class="nt">properties</span><span class="p">:</span>
-<span class="w">            </span><span class="nt">oauth_tokens_revoked</span><span class="p">:</span>
-<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;integer&quot;</span>
-<span class="w">            </span><span class="nt">query_history_deleted</span><span class="p">:</span>
-<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;boolean&quot;</span>
-<span class="w">            </span><span class="nt">archive_entries_removed</span><span class="p">:</span>
-<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;integer&quot;</span>
-<span class="w">            </span><span class="nt">webhooks_unregistered</span><span class="p">:</span>
-<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;integer&quot;</span>
-<span class="w">            </span><span class="nt">profile_deleted</span><span class="p">:</span>
-<span class="w">              </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;boolean&quot;</span>
-<span class="w">        </span><span class="nt">message</span><span class="p">:</span>
-<span class="w">          </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;string&quot;</span>
 <span class="w">    </span><span class="nt">ApiError</span><span class="p">:</span>
 <span class="w">      </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;object&quot;</span>
 <span class="w">      </span><span class="nt">properties</span><span class="p">:</span>
@@ -10397,7 +10352,7 @@ A: Yes. The OpenAPI spec is importable into Postman, Insomnia, Swagger UI, and a
 <li><strong><a href="/docs/api/authentication">API Authentication Guide</a></strong>  --  Bearer tokens, OAuth 2.0, and security best practices  </li>
 <li><strong><a href="/docs/api/endpoints">API Endpoints Reference</a></strong>  --  Complete request/response schemas and code examples  </li>
 <li><strong><a href="/docs/api/rate-limits">API Rate Limits</a></strong>  --  Per-endpoint quotas and retry strategies  </li>
-<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Event notifications and HMAC signature verification  </li>
+<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Current webhook-contract availability</li>
 <li><strong><a href="/docs/enterprise-ai-data-access">Enterprise AI Data Access Guide</a></strong>  --  SSO, SAML, SOC 2, and data residency  </li>
 <li><strong><a href="/docs/secure-ai-data-connectivity">Secure AI Data Connectivity</a></strong>  --  Encryption, network security, and compliance  </li>
 </ul>

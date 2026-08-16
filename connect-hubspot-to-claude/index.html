@@ -10017,7 +10017,7 @@
 <li><strong>CorpusIQ executes</strong> the appropriate HubSpot API calls using your stored credentials.</li>
 <li><strong>Claude presents</strong> the answer in natural language, with context and actionable recommendations.</li>
 </ol>
-<p>All communication is encrypted. CorpusIQ never stores your CRM data  --  every query is a live API call.</p>
+<p>CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <h3 id="setup-steps">Setup Steps<a class="headerlink" href="#setup-steps" title="Anchor link to this section">&para;</a></h3>
 <ol>
 <li><strong>Log into CorpusIQ</strong> and go to Connectors.</li>
@@ -10049,9 +10049,9 @@
 - "Match HubSpot companies to Shopify customers  --  who buys through both channels?" (requires Shopify)</p>
 <h3 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li><strong>Read-only OAuth 2.0.</strong> Claude can query contacts, companies, and deals but cannot create, update, or delete CRM records.</li>
-<li><strong>No data storage.</strong> Your HubSpot data never lives on CorpusIQ servers.</li>
-<li><strong>Instant disconnect.</strong> Revoke access from HubSpot or CorpusIQ at any time.</li>
+<li><strong>Operation-level safety.</strong> HubSpot retrieval tools are marked read-only; write-capable tools, when present, are separately named and annotated.</li>
+<li><strong>Scoped direct-MCP retention.</strong> Direct MCP does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</li>
+<li><strong>Disconnect behavior.</strong> CorpusIQ disconnect requires reauthorization before reuse; provider authorization remains governed by HubSpot.</li>
 </ul>
 <h3 id="comparison-mcp-vs-hubspot-api-direct">Comparison: MCP vs. HubSpot API Direct<a class="headerlink" href="#comparison-mcp-vs-hubspot-api-direct" title="Anchor link to this section">&para;</a></h3>
 <table>

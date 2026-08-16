@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="How enterprises can securely give AI access to business data: SSO/SAML, SOC 2, CASA Tier 2, data residency, read-only OAuth, audit trails, and zero data">
+        <meta name="description" content="How enterprises can securely give AI access to business data with SSO/SAML, read-only external-source retrieval, audit trails, live retrieval, and scoped">
       
       
       
@@ -75,13 +75,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/enterprise-ai-data-access/">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Enterprise AI Data Access: Security, SSO & Audit">
-  <meta property="og:description" content="How enterprises can securely give AI access to business data: SSO/SAML, SOC 2, CASA Tier 2, data residency, read-only OAuth, audit trails, and zero data">
+  <meta property="og:description" content="How enterprises can securely give AI access to business data with SSO/SAML, read-only external-source retrieval, audit trails, live retrieval, and scoped">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Enterprise AI Data Access: Security, SSO & Audit">
-  <meta name="twitter:description" content="How enterprises can securely give AI access to business data: SSO/SAML, SOC 2, CASA Tier 2, data residency, read-only OAuth, audit trails, and zero data">
+  <meta name="twitter:description" content="How enterprises can securely give AI access to business data with SSO/SAML, read-only external-source retrieval, audit trails, live retrieval, and scoped">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -89,7 +89,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Enterprise AI Data Access: Security, SSO & Audit",
-    "description": "How enterprises can securely give AI access to business data: SSO/SAML, SOC 2, CASA Tier 2, data residency, read-only OAuth, audit trails, and zero data",
+    "description": "How enterprises can securely give AI access to business data with SSO/SAML, read-only external-source retrieval, audit trails, live retrieval, and scoped",
     "url": "https://www.corpusiq.io/docs/enterprise-ai-data-access/",
     "isPartOf": {
       "@type": "WebSite",
@@ -6631,10 +6631,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-read-only-by-default-architecture" class="md-nav__link">
+  <a href="#2-read-only-external-retrieval-with-explicit-control-plane-writes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Read-Only by Default Architecture
+        2. Read-Only External Retrieval with Explicit Control-Plane Writes
       
     </span>
   </a>
@@ -6653,10 +6653,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-zero-persistent-data-storage" class="md-nav__link">
+  <a href="#4-scoped-direct-mcp-retention" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4. Zero Persistent Data Storage
+        4. Scoped Direct-MCP Retention
       
     </span>
   </a>
@@ -9996,10 +9996,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-read-only-by-default-architecture" class="md-nav__link">
+  <a href="#2-read-only-external-retrieval-with-explicit-control-plane-writes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Read-Only by Default Architecture
+        2. Read-Only External Retrieval with Explicit Control-Plane Writes
       
     </span>
   </a>
@@ -10018,10 +10018,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-zero-persistent-data-storage" class="md-nav__link">
+  <a href="#4-scoped-direct-mcp-retention" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4. Zero Persistent Data Storage
+        4. Scoped Direct-MCP Retention
       
     </span>
   </a>
@@ -10157,10 +10157,10 @@
 <p><strong>Audit trails.</strong> Every data access must be logged in detail: who queried what, when, from where, with what parameters, and what result was returned. These logs must be immutable, exportable to SIEM systems, and retained according to compliance requirements.</p>
 </li>
 <li>
-<p><strong>Data residency.</strong> For global enterprises with data sovereignty obligations, data processing must stay within specified geographic boundaries. A query against EU-hosted CRM data must be processed by infrastructure in the EU.</p>
+<p><strong>Data residency.</strong> Global enterprises should validate the complete processing path: storage, network transit, source-provider processing, the selected AI client, logs, and backups. Choosing a regional CorpusIQ deployment alone does not guarantee that every dependency remains in-region.</p>
 </li>
 <li>
-<p><strong>No persistent storage.</strong> The AI access layer must not create a secondary copy of enterprise data. Business data must remain in the source systems. Any intermediate processing or caching creates a new compliance surface that must be governed and protected.</p>
+<p><strong>Scoped direct-MCP retention.</strong> External-source retrieval tools are marked read-only. The direct MCP path does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 </li>
 <li>
 <p><strong>Compliance certifications.</strong> The solution must hold relevant certifications  --  SOC 2 Type II at minimum  --  and support the enterprise's own compliance frameworks including GDPR, CCPA, and industry-specific regulations.</p>
@@ -10174,24 +10174,24 @@
 <p><strong>Role-based access control (RBAC).</strong> Administrators define roles mapped to directory groups. A "Marketing Analyst" role might have access to Google Analytics, Meta Ads, and HubSpot marketing tools. A "Finance Analyst" role might have access to QuickBooks, Stripe, and NetSuite. A "Sales Operations" role might access Salesforce, HubSpot CRM, and LinkedIn Ads. Users only see and can query the data sources their role permits.</p>
 <p><strong>Just-in-time provisioning.</strong> When a new employee joins a directory group with CorpusIQ access, their account is automatically provisioned. When they leave the group  --  or leave the organization  --  access is automatically revoked. No manual account management. No lingering access for departed employees.</p>
 <p><strong>Multi-factor authentication enforcement.</strong> MFA is enforced at the identity provider level. CorpusIQ inherits the MFA policies already configured in Okta or Azure AD  --  including hardware token requirements, biometric authentication, and conditional access policies.</p>
-<p><strong>Per-user OAuth scoping.</strong> When a user connects a data source through OAuth, the scopes granted are the minimum necessary for read-only business intelligence. Each user authenticates individually  --  there are no shared service accounts that would obscure who accessed what data.</p>
-<h3 id="2-read-only-by-default-architecture">2. Read-Only by Default Architecture<a class="headerlink" href="#2-read-only-by-default-architecture" title="Anchor link to this section">&para;</a></h3>
-<p>The most important security property of CorpusIQ's enterprise AI data access layer is that it is read-only by default. This is enforced at multiple levels:</p>
+<p><strong>Per-user OAuth scoping.</strong> When a user connects a data source through OAuth, CorpusIQ requests provider scopes required for the documented operations. Retrieval and write-capable tools remain separately named and annotated regardless of provider scope grouping. Each user authenticates individually  --  there are no shared service accounts that would obscure who accessed what data.</p>
+<h3 id="2-read-only-external-retrieval-with-explicit-control-plane-writes">2. Read-Only External Retrieval with Explicit Control-Plane Writes<a class="headerlink" href="#2-read-only-external-retrieval-with-explicit-control-plane-writes" title="Anchor link to this section">&para;</a></h3>
+<p>CorpusIQ separates external-source retrieval from writes to user-declared CorpusIQ control-plane state. The boundary is enforced at multiple levels:</p>
 <ul>
 <li>
-<p><strong>Protocol level.</strong> MCP tool definitions are registered as read-only. The AI model cannot call a "create" or "update" operation because those tools are not exposed.</p>
+<p><strong>Protocol level.</strong> External-source retrieval tools carry read-only annotations. Explicit control-plane tools that update or remove user-declared facts, decisions, metric specifications, and source manifests carry separate non-read-only and destructive annotations where applicable.</p>
 </li>
 <li>
-<p><strong>OAuth scope level.</strong> Connectors request read-only scopes. For QuickBooks, <code>com.intuit.quickbooks.accounting.read</code>. For Shopify, <code>read_orders</code>, <code>read_products</code>, <code>read_customers</code>. For HubSpot, read-only access to contacts, deals, and companies.</p>
+<p><strong>OAuth scope level.</strong> External-source connectors request the provider scopes required for their documented operations. When a provider groups permissions into a broader scope, CorpusIQ still exposes retrieval and write-capable operations as separately named, safety-annotated tools.</p>
 </li>
 <li>
-<p><strong>Connector level.</strong> Even if broader OAuth scopes were granted, CorpusIQ's connector implementations validate operations against a capability matrix and block write operations.</p>
+<p><strong>Connector level.</strong> External-source retrieval implementations validate operations against a capability matrix and block write-back. Write-capable connector operations, when exposed, are separately named and annotated.</p>
 </li>
 <li>
-<p><strong>AI model level.</strong> The tool descriptions the AI model sees describe read-only capabilities  --  "List Salesforce Opportunities" not "Create Salesforce Opportunity."</p>
+<p><strong>AI model level.</strong> External connector descriptions identify retrieval behavior, while CorpusIQ control-plane descriptions state the supported state mutation explicitly.</p>
 </li>
 </ul>
-<p>This defense-in-depth approach means that accidental data modification is architecturally impossible. The system cannot write data unless an administrator explicitly enables write operations at all four levels  --  a deliberate, multi-step process that creates an audit trail at each step.</p>
+<p>This defense-in-depth approach keeps retrieval tools from writing back. Supported write-capable connector and CorpusIQ control-plane mutations remain explicit, separately named, and safety-annotated.</p>
 <h3 id="3-comprehensive-audit-trails">3. Comprehensive Audit Trails<a class="headerlink" href="#3-comprehensive-audit-trails" title="Anchor link to this section">&para;</a></h3>
 <p>Every tool call through CorpusIQ is logged with full context:</p>
 <table>
@@ -10251,28 +10251,28 @@
 <p><strong>Operational debugging.</strong> Trace why a particular answer was returned by reviewing the exact tool calls, parameters, and source responses.</p>
 </li>
 </ul>
-<p>Audit logs are immutable  --  once written, they cannot be modified or deleted by any user, including CorpusIQ administrators. Retention periods are configurable by the enterprise customer.</p>
-<h3 id="4-zero-persistent-data-storage">4. Zero Persistent Data Storage<a class="headerlink" href="#4-zero-persistent-data-storage" title="Anchor link to this section">&para;</a></h3>
-<p>CorpusIQ's MCP architecture is fundamentally stateless with respect to business data:</p>
+<p>Operational logs are protected from user edits and retained for up to 30 days under the published schedule. They contain query text, per-user tool-call metadata, and bounded outcome summaries rather than raw customer files or full connector response payloads.</p>
+<h3 id="4-scoped-direct-mcp-retention">4. Scoped Direct-MCP Retention<a class="headerlink" href="#4-scoped-direct-mcp-retention" title="Anchor link to this section">&para;</a></h3>
+<p>CorpusIQ's direct MCP path uses live retrieval with scoped operational retention:</p>
 <ul>
 <li>
-<p><strong>No data warehouse.</strong> Queries execute against live source APIs. Results are held in memory only long enough to return them to the AI model, then discarded. There is no persistent copy of your business data on CorpusIQ infrastructure.</p>
+<p><strong>Scoped direct-MCP retention.</strong> External-source retrieval tools are marked read-only. The direct MCP path does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 </li>
 <li>
-<p><strong>No embedding store.</strong> Unlike RAG systems that chunk, embed, and store documents in vector databases, CorpusIQ makes typed API calls that return exact, structured results. No secondary data store to govern.</p>
+<p><strong>Direct-MCP index scope.</strong> The direct path uses typed API calls and does not build embeddings or file indexes; optional indexed search is separate and retains embeddings plus minimal metadata until connector revocation or account deletion.</p>
 </li>
 <li>
-<p><strong>No cache.</strong> Each query is a fresh request against the source system. There is no query result cache that could serve stale data or create a compliance exposure.</p>
+<p><strong>Fresh direct queries.</strong> Each direct MCP query requests current source data rather than serving a persisted full-response cache.</p>
 </li>
 <li>
-<p><strong>No cross-tenant data mixing.</strong> Each enterprise customer's queries are processed in isolated compute environments. Data from one customer is never co-located with data from another.</p>
+<p><strong>Tenant isolation.</strong> Authentication and token lookup are user-scoped; multi-tenant infrastructure does not imply shared authorization or cross-tenant result access.</p>
 </li>
 </ul>
-<p>What CorpusIQ does store  --  encrypted authentication tokens, connector configuration, and audit logs  --  contains no business data. This data minimization approach simplifies compliance under GDPR (no corpus of stored business data to search and delete for data subject access requests) and reduces the attack surface.</p>
+<p>CorpusIQ stores encrypted authentication tokens and connector configuration while connections are active. Local AUDIT logs record raw query text and tool parameters plus bounded result summaries; the Azure Log Analytics workspace retains those logs for 30 days. Optional indexed search has a separate embeddings and minimal-metadata lifecycle.</p>
 <h3 id="5-enterprise-compliance-framework">5. Enterprise Compliance Framework<a class="headerlink" href="#5-enterprise-compliance-framework" title="Anchor link to this section">&para;</a></h3>
-<p><strong>SOC 2 Type II.</strong> CorpusIQ maintains SOC 2 Type II certification covering the Security, Availability, and Confidentiality trust service criteria. Enterprise customers receive access to the latest audit report and can schedule additional reviews through their vendor risk management process.</p>
+<p><strong>SOC 2 posture.</strong> CorpusIQ maintains a SOC 2 aligned security posture; formal SOC 2 Type II certification is not claimed.</p>
 <p><strong>CASA Tier 2.</strong> CorpusIQ has achieved CASA (Cloud Application Security Assessment) Tier 2, the highest tier in the Google-recognized cloud security assessment framework. This certification validates that CorpusIQ meets the security requirements of the most demanding enterprise cloud deployments.</p>
-<p><strong>GDPR compliance.</strong> CorpusIQ's stateless architecture  --  no persistent business data storage, minimal metadata collection, processing limited to the duration of each query  --  aligns with GDPR's data minimization and purpose limitation principles. Data processing infrastructure can be deployed in EU regions for organizations with data residency requirements.</p>
+<p><strong>GDPR alignment.</strong> Direct MCP retrieval does not retain raw customer files or full connector response payloads. Operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days; optional indexed search has a separate lifecycle. This scoped model supports data-minimization and purpose-limitation assessments. Regional deployment requests require customer-specific validation of the complete processing path.</p>
 <p><strong>Custom compliance frameworks.</strong> Enterprise customers with specific compliance needs  --  PCI DSS, HIPAA (with BAA), SOX, FedRAMP  --  can work with CorpusIQ on custom deployment configurations including dedicated infrastructure, enhanced audit capabilities, and additional compliance documentation.</p>
 <h2 id="enterprise-ai-data-access-build-vs-buy">Enterprise AI Data Access: Build vs Buy<a class="headerlink" href="#enterprise-ai-data-access-build-vs-buy" title="Anchor link to this section">&para;</a></h2>
 <p>The question every enterprise faces: build an AI data access layer in-house or adopt a platform like CorpusIQ. Here's what building in-house entails:</p>
@@ -10284,10 +10284,10 @@
 <p><strong>Infrastructure and operations.</strong> Provision and manage cloud infrastructure, implement high availability, configure monitoring and alerting, handle scaling. <strong>Engineering effort: ongoing.</strong></p>
 <p><strong>Compliance certification.</strong> Go through SOC 2 audit (6–12 months), CASA assessment, customer security reviews. <strong>Timeline: 12+ months.</strong></p>
 <p><strong>Total in-house build: 12–18 months of engineering, $500K–$1.5M in engineering cost, plus ongoing maintenance.</strong></p>
-<p>CorpusIQ provides this entire stack  --  50+ enterprise connectors, SSO integration, RBAC, read-only enforcement, immutable audit trails, SOC 2 Type II, CASA Tier 2, zero infrastructure management  --  available in days, not months.</p>
+<p>CorpusIQ provides this stack  --  50+ enterprise connectors, SSO integration, RBAC, read-only enforcement, audit trails, a SOC 2 aligned posture, CASA Tier 2 certification by DEKRA, and managed infrastructure  --  without requiring customers to build the connector layer themselves.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Step 1: SSO configuration.</strong> Integrate CorpusIQ with your identity provider (Okta, Azure AD, Ping Identity, etc.) through SAML 2.0 or OpenID Connect. Configure role mappings to your existing directory groups. Typical setup: 1–2 hours with your IT team.</p>
-<p><strong>Step 2: Data source connections.</strong> Business users connect their platforms through OAuth. Each connection is scoped to read-only access by default. The user sees exactly which permissions are being granted and can revoke access at any time. Typical setup: 2–5 minutes per data source.</p>
+<p><strong>Step 2: Data source connections.</strong> Business users connect their platforms through OAuth. Provider scopes vary by connector and documented operation; retrieval and write-capable tools remain separately named and annotated. Typical setup: 2–5 minutes per data source.</p>
 <p><strong>Step 3: Department-level governance.</strong> Administrators configure which roles can access which data sources. Marketing connects its analytics stack. Finance connects its accounting platforms. Sales connects its CRM. Cross-department queries respect these boundaries  --  a marketing user cannot accidentally query financial data.</p>
 <p><strong>Step 4: AI-powered querying.</strong> Users ask natural-language questions through any MCP-enabled AI assistant. The AI discovers available tools, selects the right ones, and queries live data sources. Answers arrive in seconds with full source citation and audit trail.</p>
 <h2 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Anchor link to this section">&para;</a></h2>
@@ -10300,19 +10300,19 @@
 <p><strong>Q: How does CorpusIQ integrate with our existing SSO provider?</strong>
 A: CorpusIQ supports SAML 2.0 and OpenID Connect, integrating with Okta, Azure AD (Entra ID), Ping Identity, OneLogin, Google Workspace, and any standards-compliant identity provider. Configuration typically takes 1–2 hours and maps your existing directory groups to CorpusIQ roles.</p>
 <p><strong>Q: Does CorpusIQ store our business data?</strong>
-A: No. CorpusIQ queries your data sources on demand and returns results to the AI model. Query results are held in memory and discarded immediately. There is no persistent copy of your business data  --  no data warehouse, no embedding store, no cache.</p>
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <p><strong>Q: What compliance certifications does CorpusIQ hold?</strong>
-A: CorpusIQ maintains SOC 2 Type II certification and CASA Tier 2 assessment. Enterprise customers receive access to the latest audit report. Custom compliance configurations are available for organizations with specific regulatory requirements.</p>
+A: CorpusIQ maintains a SOC 2 aligned security posture and is CASA Tier 2 certified by DEKRA. Formal SOC 2 Type II certification is not claimed.</p>
 <p><strong>Q: How do you enforce that users can only access data they're authorized to see?</strong>
 A: Through role-based access control (RBAC) mapped to your existing directory groups. Each role has specific data source permissions. OAuth connections are per-user, so each user authenticates individually and inherits their own permissions from the source platform.</p>
 <p><strong>Q: Can CorpusIQ write data to our business systems?</strong>
-A: CorpusIQ is read-only by default  --  enforced at the protocol, OAuth scope, connector, and AI model levels. Write operations require explicit enablement by an administrator and are only available for specific use cases (e.g., creating draft invoices in QuickBooks). Accidental data modification is architecturally prevented.</p>
+A: External-source retrieval tools do not write back. Write-capable connector and CorpusIQ control-plane tools are separately named and safety-annotated.</p>
 <p><strong>Q: Where is CorpusIQ infrastructure located, and can we control data residency?</strong>
-A: CorpusIQ deploys in multiple geographic regions. Enterprise customers can specify which regions their query processing infrastructure runs in, ensuring data sovereignty compliance. Queries against source platforms in a specific region are processed by infrastructure in that region.</p>
+A: Enterprise customers can request a deployment region, subject to validation of storage, network transit, source-provider processing, the selected AI client, logs, and backups. Contact sales@corpusiq.io for a customer-specific residency assessment.</p>
 <p><strong>Q: How long are audit logs retained?</strong>
-A: Audit log retention is configurable by the enterprise customer. Default retention is 12 months. Extended retention periods, real-time SIEM streaming, and custom log export schedules are available for enterprise deployments.</p>
+A: The Azure Log Analytics workspace retains operational MCP logs for 30 days.</p>
 <p><strong>Q: How is this different from giving employees direct API access to our systems?</strong>
-A: Direct API access requires granting credentials that can potentially read, write, or modify data  --  and those credentials can be leaked, misused, or forgotten. CorpusIQ provides a read-only abstraction layer with per-user authentication, granular RBAC, full audit trails, and no persistent credentials for end users to manage.</p>
+A: Direct API access requires granting credentials that can potentially read, write, or modify data  --  and those credentials can be leaked, misused, or forgotten. CorpusIQ provides read-only external-source retrieval with separately annotated CorpusIQ control-plane operations, per-user authentication, granular RBAC, and audit trails.</p>
 <p><strong>Q: What's the deployment timeline for an enterprise rollout?</strong>
 A: A departmental pilot can be operational in days  --  SSO configuration takes 1–2 hours, and data source connections take minutes each. Full enterprise deployment with governance policies, role mappings, and multi-department rollout typically takes 2–4 weeks.</p>
 <p><strong>Q: Can we build custom connectors for proprietary internal systems?</strong>
@@ -10332,7 +10332,7 @@ A: Yes. CorpusIQ's enterprise offering includes support for custom MCP connector
 <span class="w">  </span><span class="nt">&quot;@context&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://schema.org&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Article&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;headline&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Enterprise AI Data Access: Security, SSO, Audit Trails, and Compliance&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;How enterprises can securely give AI access to business data: SSO/SAML, SOC 2, CASA Tier 2, data residency, read-only OAuth, audit trails, and zero data storage.&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;description&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;How enterprises can securely give AI access to business data: SSO/SAML, SOC 2, CASA Tier 2, data residency, read-only external-source retrieval, audit trails, and scoped direct-MCP retention.&quot;</span><span class="p">,</span>
 <span class="w">  </span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;@type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Organization&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;CorpusIQ&quot;</span><span class="p">},</span>
 <span class="w">  </span><span class="nt">&quot;datePublished&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-06-16&quot;</span>
 <span class="p">}</span>

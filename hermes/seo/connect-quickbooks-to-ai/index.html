@@ -9837,12 +9837,12 @@
 <p><strong>Expense questions</strong>: "What are our top 5 expense categories and are any trending up?" The AI analyzes your chart of accounts, identifies trends, and flags anomalies. In real time. From your actual data.</p>
 <p><strong>Tax preparation</strong>: "What were our total contractor payments last year?" The AI queries your vendor payments, filters by 1099 classification, and returns the total. With a list of every payee and amount.</p>
 <h2 id="how-the-connection-works">How the Connection Works<a class="headerlink" href="#how-the-connection-works" title="Anchor link to this section">&para;</a></h2>
-<p>The connection uses read-only OAuth through Intuit's API. You authorize once through your QuickBooks login. The AI gains permission to query your company data. It cannot create transactions. Cannot modify accounts. Cannot send invoices or process payments.</p>
+<p>The connection uses read-only external-source retrieval through Intuit's API. You authorize once through your QuickBooks login. The AI gains permission to query your company data. It cannot create transactions. Cannot modify accounts. Cannot send invoices or process payments.</p>
 <p>Every query is:
 1. Authenticated independently
 2. Executed against live QuickBooks data
 3. Returned with source citations
-4. Discarded after the response — nothing is stored</p>
+4. Returned without retaining raw customer files or the full connector response; scoped operational logs may persist for up to 30 days</p>
 <h2 id="why-read-only-matters">Why Read-Only Matters<a class="headerlink" href="#why-read-only-matters" title="Anchor link to this section">&para;</a></h2>
 <p>Giving AI write access to your books is dangerous. Even if the AI is 99% accurate, that 1% error could mean a wrong invoice, a miscategorized expense, or a payment applied to the wrong account.</p>
 <p>Read-only means the AI can answer any question about your financials but can never change them. You get the intelligence without the risk.</p>

@@ -10071,7 +10071,7 @@ A: CorpusIQ uses native search APIs (Microsoft Graph, Google Drive API) for effi
 <p><strong>Q: Can AI search scanned documents or images?</strong>
 A: AI can search OCR'd text in PDFs. Purely image-based content without embedded text is not searchable.</p>
 <p><strong>Q: Is document content stored by CorpusIQ?</strong>
-A: No. Document content is streamed directly from the source system for each query and never persisted.</p>
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="/docs/connect-sharepoint-to-claude">Connect SharePoint to Claude</a></li>

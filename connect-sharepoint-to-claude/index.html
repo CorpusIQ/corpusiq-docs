@@ -10103,7 +10103,7 @@
 <li><strong>Read-only OAuth 2.0.</strong> Claude can search and read documents but can never modify, delete, create, or upload files.</li>
 <li><strong>SharePoint permissions respected.</strong> Claude only sees documents the authenticated user has permission to access.</li>
 <li><strong>Conditional Access support.</strong> Works with Microsoft Entra ID Conditional Access policies including MFA requirements, device compliance, and location-based restrictions.</li>
-<li><strong>No document storage.</strong> File contents are never persisted on CorpusIQ servers. Every query streams content directly from SharePoint.</li>
+<li><strong>Scoped direct-MCP retention.</strong> CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</li>
 <li><strong>Audit logging.</strong> All queries are logged in CorpusIQ for compliance visibility.</li>
 </ul>
 <h2 id="enterprise-deployment-considerations">Enterprise Deployment Considerations<a class="headerlink" href="#enterprise-deployment-considerations" title="Anchor link to this section">&para;</a></h2>
@@ -10112,7 +10112,7 @@
 <li><strong>Admin consent workflow.</strong> IT administrators can pre-authorize the integration for the entire tenant using Microsoft Entra admin consent.</li>
 <li><strong>Site collection scoping.</strong> Administrators can configure which SharePoint site collections are accessible.</li>
 <li><strong>Sensitivity label awareness.</strong> Documents with Microsoft Information Protection sensitivity labels retain their classification metadata.</li>
-<li><strong>Compliance with data residency.</strong> All data processing respects your Microsoft 365 data residency configuration.</li>
+<li><strong>Residency review.</strong> Microsoft 365 remains the authoritative source, while CorpusIQ processing, retained operational classes, and the selected AI-provider plan must be evaluated separately against your residency requirements.</li>
 </ul>
 <h2 id="comparison-mcp-vs-sharepoint-api-direct">Comparison: MCP vs. SharePoint API Direct<a class="headerlink" href="#comparison-mcp-vs-sharepoint-api-direct" title="Anchor link to this section">&para;</a></h2>
 <table>

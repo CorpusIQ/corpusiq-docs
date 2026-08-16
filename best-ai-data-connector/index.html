@@ -10133,7 +10133,7 @@
 - <strong>AI-optimized responses:</strong> Each connector returns typed, structured JSON designed for LLM consumption
 - <strong>Real-time queries:</strong> Live API calls on every request  --  no stale batch data
 - <strong>Cross-source analysis:</strong> One question can query CRM + accounting + analytics + ads simultaneously
-- <strong>Zero data storage:</strong> Ephemeral access  --  data never persists in CorpusIQ</p>
+- <strong>Scoped direct-MCP retention.</strong> CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <p><strong>Best for:</strong> Organizations wanting instant AI access to business data across multiple systems.</p>
 <h3 id="2-fivetran-best-for-data-warehouse-pipelines">#2: Fivetran  --  Best for Data Warehouse Pipelines<a class="headerlink" href="#2-fivetran-best-for-data-warehouse-pipelines" title="Anchor link to this section">&para;</a></h3>
 <p><strong>Score: 7.8/10 | Pricing: Consumption-based (MAR)</strong></p>
@@ -10253,7 +10253,7 @@ A: Yes. Many organizations use CorpusIQ for AI queries alongside Fivetran/Airbyt
 <p><strong>Q: Do I need a data warehouse to use AI with business data?</strong><br />
 A: Not with CorpusIQ. It queries live APIs directly. Data warehouses are still useful for formal BI and historical analysis.</p>
 <p><strong>Q: How secure are AI data connectors?</strong><br />
-A: CorpusIQ is read-only, uses OAuth, and never stores data. Always verify the security posture of any connector you use.</p>
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <p><strong>Q: What's the difference between an AI data connector and an ETL tool?</strong><br />
 A: ETL tools move data to warehouses. AI data connectors make data queryable by AI in real time, without movement.</p>
 <p><strong>Q: How many connectors do I need?</strong><br />

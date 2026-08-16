@@ -10313,7 +10313,7 @@ MCP Server (HTTP Service)
 <p>MCP itself doesn't mandate a specific authentication scheme  --  it's a transport-level concern that each implementation handles. However, the protocol provides a standard pattern for authentication through the <code>initialize</code> response, where servers can advertise their authentication requirements.</p>
 <p>CorpusIQ's authentication model:</p>
 <p><strong>OAuth 2.0 for cloud services.</strong> Each business platform (Shopify, QuickBooks, HubSpot, etc.) is connected through OAuth 2.0. Users authorize CorpusIQ to access their data with explicitly scoped permissions. Tokens are stored encrypted at rest and rotated automatically.</p>
-<p><strong>Read-only by default.</strong> Every connector defaults to read-only access. Write operations require explicit opt-in at both the OAuth scope level and the MCP server configuration level. This dual-gate approach prevents accidental data modification.</p>
+<p><strong>Operation-level safety metadata.</strong> External-source retrieval tools carry read-only annotations. Write-capable connector-management and CorpusIQ control-plane tools are separately named and annotated for their actual behavior.</p>
 <p><strong>Token isolation.</strong> Each user's OAuth tokens are cryptographically isolated. No user can access another user's data, even within the same CorpusIQ organization.</p>
 <p><strong>Audit logging.</strong> Every tool call is logged with timestamp, user identity, tool name, and parameters. This creates a complete audit trail for compliance and debugging.</p>
 <h2 id="how-corpusiq-extends-the-mcp-standard">How CorpusIQ Extends the MCP Standard<a class="headerlink" href="#how-corpusiq-extends-the-mcp-standard" title="Anchor link to this section">&para;</a></h2>

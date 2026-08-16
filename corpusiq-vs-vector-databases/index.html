@@ -10131,8 +10131,8 @@
 <td>Hours to days (chunking, embedding, indexing)</td>
 </tr>
 <tr>
-<td><strong>Data Movement</strong></td>
-<td>None (queries source)</td>
+<td><strong>Data path</strong></td>
+<td>Direct MCP queries sources live; optional indexed search is separate</td>
 <td>Full copy to vector store</td>
 </tr>
 <tr>
@@ -10187,8 +10187,8 @@ A: No. CorpusIQ uses structured API calls, not vector similarity search. This gi
 A: CorpusIQ  --  queries complete in 1-5 seconds with exact results. Vector databases require pre-indexing and return approximate top-k results.</p>
 <p><strong>Q: Can I use both together?</strong><br />
 A: Yes, and this is a recommended architecture. Vector DB handles unstructured content; CorpusIQ handles structured business data. The AI routes queries to the right system.</p>
-<p><strong>Q: Do I need to re-index data with CorpusIQ?</strong><br />
-A: No. CorpusIQ queries live sources  --  there's no indexing step. Data is always current.</p>
+<p><strong>Q: Do I need to re-index data with CorpusIQ?</strong>
+A: Not for direct MCP, which queries live sources without building an index. Optional indexed search is a separate mode with an embeddings and minimal-metadata lifecycle.</p>
 <p><strong>Q: What about hybrid search (vector + keyword)?</strong><br />
 A: Vector databases support hybrid search for text. CorpusIQ isn't a search engine  --  it's a protocol layer for structured data access. They're different categories.</p>
 <p><strong>Q: Which is more expensive?</strong><br />

@@ -10091,7 +10091,7 @@
 <p><strong>Lifetime value trends.</strong> "Has average customer LTV increased or decreased this year? Break it down by acquisition channel."</p>
 <h2 id="how-corpusiq-powers-ecommerce-intelligence">How CorpusIQ Powers Ecommerce Intelligence<a class="headerlink" href="#how-corpusiq-powers-ecommerce-intelligence" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Unified connector library.</strong> CorpusIQ connects to Shopify, Amazon, eBay, Klaviyo, Mailchimp, Google Ads, Meta Ads, Google Analytics, QuickBooks, Stripe, and more  --  all through a single MCP server.</p>
-<p><strong>Read-only access.</strong> All ecommerce connectors default to read-only. You can analyze order data, inventory levels, and customer information without any risk of modifying products, orders, or settings.</p>
+<p><strong>Explicit operation boundaries.</strong> Ecommerce retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane operations are separately named and safety-annotated.</p>
 <p><strong>Real-time queries.</strong> Ask about today's orders and get today's data  --  not yesterday's export. Critical for inventory decisions, fulfillment monitoring, and flash sale performance tracking.</p>
 <p><strong>Cross-source correlation.</strong> The ecommerce value proposition is in the connections between platforms  --  how ad spend translates to orders, how email campaigns drive revenue, how inventory levels align with sales velocity. MCP makes these connections queryable.</p>
 <p><strong>Scalable across channels.</strong> Add new sales channels without adding new reporting complexity. Whether you sell on two platforms or ten, the query interface remains the same  --  one question, one answer, drawing from all connected sources.</p>
@@ -10123,7 +10123,7 @@ Yes. Connect Amazon advertising data alongside order data to analyze which campa
 <details>
 <summary><strong>Is this secure for my store data?</strong></summary>
 
-Yes. All connections use OAuth with read-only scopes. CorpusIQ cannot modify your products, orders, or customer data. Your store data stays in your platforms and is queried on demand.
+Provider scopes vary by connection. The ecommerce retrieval tools documented here do not write products, orders, or customer records back to their sources; write-capable management/control-plane operations are separate. Connected commerce platforms remain authoritative, and retention follows the published lifecycles.
 </details>
 
 <details>

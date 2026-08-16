@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="CorpusIQ security: read-only access to every connected tool, AES-256 encryption, ephemeral by design, and source citations on every answer. We never write">
+        <meta name="description" content="CorpusIQ security: read-only access to connected tools, AES-256 encryption, documented retention lifecycles, and source citations on every answer. We never">
       
       
       
@@ -75,13 +75,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/security/">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Security">
-  <meta property="og:description" content="CorpusIQ security: read-only access to every connected tool, AES-256 encryption, ephemeral by design, and source citations on every answer. We never write">
+  <meta property="og:description" content="CorpusIQ security: read-only access to connected tools, AES-256 encryption, documented retention lifecycles, and source citations on every answer. We never">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Security">
-  <meta name="twitter:description" content="CorpusIQ security: read-only access to every connected tool, AES-256 encryption, ephemeral by design, and source citations on every answer. We never write">
+  <meta name="twitter:description" content="CorpusIQ security: read-only access to connected tools, AES-256 encryption, documented retention lifecycles, and source citations on every answer. We never">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -89,7 +89,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Security",
-    "description": "CorpusIQ security: read-only access to every connected tool, AES-256 encryption, ephemeral by design, and source citations on every answer. We never write",
+    "description": "CorpusIQ security: read-only access to connected tools, AES-256 encryption, documented retention lifecycles, and source citations on every answer. We never",
     "url": "https://www.corpusiq.io/docs/security/",
     "isPartOf": {
       "@type": "WebSite",
@@ -9817,10 +9817,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#read-only-policy" class="md-nav__link">
+  <a href="#scoped-access-policy" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Read-Only Policy
+        Scoped Access Policy
       
     </span>
   </a>
@@ -9941,7 +9941,7 @@
 
 
 <p>title: "CorpusIQ Security Overview  --  Authentication, Encryption, and Read-Only Access"
-description: "CorpusIQ security overview: OAuth 2.0 authentication for agents and chat users, TLS 1.3 encryption, read-only data access policy, audit logging, data handling, and security best practices."
+description: "CorpusIQ security overview: OAuth 2.0 authentication, operation-level permissions, encryption, audit logging, data handling, and security best practices."
 category: "Documentation"
 tags: ["corpusiq security overview", "authentication", "encryption", "read-only access", "oauth security", "data handling", "audit logging"]
 last_updated: "2026-08-12"
@@ -9949,7 +9949,7 @@ canonical: "https://www.corpusiq.io/docs/security"
 robots: "index,follow"</p>
 <hr />
 <h1 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h1>
-<p>CorpusIQ is designed with security as a foundational requirement. All access is read-only. We never write to your systems.</p>
+<p>CorpusIQ is designed with security as a foundational requirement. External-source retrieval tools are marked read-only. Write-capable connector and CorpusIQ control-plane tools are separately named and carry behavior-matched safety annotations.</p>
 <h2 id="authentication">Authentication<a class="headerlink" href="#authentication" title="Anchor link to this section">&para;</a></h2>
 <h3 id="ai-chat-users">AI Chat Users<a class="headerlink" href="#ai-chat-users" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -9963,28 +9963,24 @@ robots: "index,follow"</p>
 <li>No browser required for ongoing agent access</li>
 <li>Refresh token rotation</li>
 <li>Device verification prevents unauthorized access</li>
-<li>Tokens can be revoked from the dashboard at any time</li>
+<li>Dashboard disconnect removes CorpusIQ connection state and requires reauthorization before reuse; provider authorization remains provider-governed</li>
 </ul>
 <h3 id="data-source-connections">Data Source Connections<a class="headerlink" href="#data-source-connections" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li>OAuth 2.0 authorization for each connected source</li>
 <li>Scoped access: CorpusIQ requests minimum required permissions</li>
-<li>Connections can be revoked individually</li>
-<li>No raw API keys stored or exposed</li>
+<li>CorpusIQ connections can be disconnected individually</li>
+<li>Credential-based connectors store required secrets encrypted; public responses do not expose them</li>
 </ul>
 <h2 id="data-access">Data Access<a class="headerlink" href="#data-access" title="Anchor link to this section">&para;</a></h2>
-<h3 id="read-only-policy">Read-Only Policy<a class="headerlink" href="#read-only-policy" title="Anchor link to this section">&para;</a></h3>
-<p>CorpusIQ is strictly read-only. We:
-- Query data from your connected sources
-- Normalize and present results
-- Never write, modify, or delete data
-- Never initiate transactions or changes</p>
+<h3 id="scoped-access-policy">Scoped Access Policy<a class="headerlink" href="#scoped-access-policy" title="Anchor link to this section">&para;</a></h3>
+<p>External-source retrieval tools query connected sources, normalize results, and do not write back. Write-capable connector and CorpusIQ control-plane tools are separately named and carry behavior-matched safety annotations.</p>
 <h3 id="data-handling">Data Handling<a class="headerlink" href="#data-handling" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li>Data retrieved on-demand, not cached persistently</li>
-<li>Query results delivered directly to the requesting client</li>
-<li>No data warehousing or long-term storage of query results</li>
-<li>Transient processing only</li>
+<li>Direct MCP retrieves source records on demand and delivers scoped results to the requesting client</li>
+<li>Raw customer files and full connector response payloads are not retained by the direct path</li>
+<li>Operational query text, per-user tool-call metadata, and bounded outcome summaries may be retained for up to 30 days</li>
+<li>Optional indexed search retains embeddings and minimal metadata until connector revocation or account deletion</li>
 </ul>
 <h2 id="encryption">Encryption<a class="headerlink" href="#encryption" title="Anchor link to this section">&para;</a></h2>
 <ul>
@@ -10011,9 +10007,9 @@ robots: "index,follow"</p>
 <p>Report security concerns to security@corpusiq.io. We respond within 24 hours.</p>
 <h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: How does CorpusIQ authenticate users?</strong><br />
-A: AI chat users use email-based authentication with secure HTTP-only cookies. AI agent users use OAuth 2.0 Device Authorization Grant (RFC 8628) with refresh token rotation. Data source connections use OAuth 2.0 with scoped, read-only permissions.</p>
-<p><strong>Q: Is CorpusIQ data access read-only?</strong><br />
-A: Yes. CorpusIQ is strictly read-only. It queries data from connected sources, normalizes and presents results, but never writes, modifies, or deletes data, and never initiates transactions or changes.</p>
+A: AI chat users use email-based authentication with secure HTTP-only cookies. AI agent users use OAuth 2.0 Device Authorization Grant (RFC 8628) with refresh token rotation. Data-source provider scopes vary by connector and documented operation.</p>
+<p><strong>Q: Is CorpusIQ data access read-only?</strong>
+A: External-source retrieval is read-only and does not write back to connected vendor systems. Explicit CorpusIQ control-plane tools can modify user-declared CorpusIQ state and are separately annotated.</p>
 <p><strong>Q: What encryption does CorpusIQ use?</strong><br />
 A: HTTPS/TLS 1.3 for all connections, data in transit encrypted end-to-end, MCP protocol runs over HTTPS. All connections are encrypted with forward secrecy.</p>
 <h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>

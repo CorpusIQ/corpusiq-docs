@@ -555,17 +555,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#delete-delete_my_data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DELETE /delete_my_data
-      
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -9973,17 +9962,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#delete-delete_my_data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DELETE /delete_my_data
-      
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -10101,28 +10079,14 @@
 <td><code>/deep_search</code></td>
 <td>Search the encrypted archive of past queries and results</td>
 </tr>
-<tr>
-<td><code>DELETE</code></td>
-<td><code>/delete_my_data</code></td>
-<td>Permanently delete all user data and tokens</td>
-</tr>
 </tbody>
 </table>
 <h3 id="post-query">POST /query<a class="headerlink" href="#post-query" title="Anchor link to this section">&para;</a></h3>
 <p>The primary endpoint for querying connected business tools. Accepts a natural-language question and an optional list of connector IDs to scope the search. CorpusIQ translates the query into read-only API calls, retrieves matching records, ranks them semantically, and returns cited results.</p>
-<p>Each <code>/query</code> request generates a unique <code>query_id</code> that can be used for idempotency and debugging. The <code>Idempotency-Key</code> header protects against duplicate submissions.</p>
+<p>Each <code>/query</code> request generates a unique <code>query_id</code> for tracing and debugging.</p>
 <h3 id="post-deep_search">POST /deep_search<a class="headerlink" href="#post-deep_search" title="Anchor link to this section">&para;</a></h3>
 <p>Searches the encrypted archive of previously executed queries and their results. This endpoint is useful for retrieving historical answers, auditing past queries, and discovering patterns across previous searches. The archive is encrypted at rest and indexed by embedding vectors.</p>
 <p>Unlike <code>/query</code>, this endpoint does not make live calls to connected tools  --  it searches only the archive.</p>
-<h3 id="delete-delete_my_data">DELETE /delete_my_data<a class="headerlink" href="#delete-delete_my_data" title="Anchor link to this section">&para;</a></h3>
-<p>Permanently deletes all data associated with the authenticated user, including:</p>
-<ul>
-<li>All OAuth tokens for connected services</li>
-<li>Query history and encrypted archive entries</li>
-<li>User profile and configuration</li>
-<li>Webhook registrations</li>
-</ul>
-<p>This action is irreversible. A confirmation prompt is returned before deletion is executed.</p>
 <h2 id="response-format">Response Format<a class="headerlink" href="#response-format" title="Anchor link to this section">&para;</a></h2>
 <p>All successful responses return HTTP <code>200</code> with a JSON body. Errors follow a consistent format with a <code>type</code> field identifying the error category and a <code>message</code> field with a human-readable description. See <a href="/docs/api/errors">Errors</a> for the complete error reference.</p>
 <h2 id="content-type">Content Type<a class="headerlink" href="#content-type" title="Anchor link to this section">&para;</a></h2>
@@ -10141,12 +10105,12 @@
 A: All CorpusIQ API endpoints are accessed at https://mcp2.corpusiq.io/mcp. The API version (v1) is part of the URL path, and all requests must use HTTPS.</p>
 <p><strong>Q: How do I authenticate with the CorpusIQ API?</strong><br />
 A: Authentication uses Bearer tokens passed in the Authorization header. Tokens are generated from the CorpusIQ Dashboard and expire after 60 minutes with server-side refresh detection.</p>
-<p><strong>Q: What endpoints does the CorpusIQ API offer?</strong><br />
-A: The API offers POST /query for searching connected data sources, POST /deep_search for searching the encrypted query archive, and DELETE /delete_my_data for permanent data deletion.</p>
+<p><strong>Q: What endpoints does the CorpusIQ API offer?</strong>
+A: The API offers POST /query for connected-source search and POST /deep_search for the encrypted query archive.</p>
 <p><strong>Q: What response format does the API use?</strong><br />
 A: All successful responses return HTTP 200 with a JSON body. Errors follow a consistent format with 'type' and 'message' fields. See the errors reference for complete error codes.</p>
 <p><strong>Q: Is the CorpusIQ API read-only?</strong><br />
-A: Yes. All API endpoints are read-only. The platform never writes, modifies, or deletes your business data. This is enforced at the protocol, connector, and OAuth scope levels.</p>
+A: External-source retrieval endpoints are read-only. Connector-management and CorpusIQ control-plane endpoints can change CorpusIQ-owned state and are documented separately.</p>
 <p><strong>Q: How fast are API query responses?</strong><br />
 A: Most queries return results in 1–5 seconds. Cross-source queries spanning multiple business tools may take slightly longer depending on the number of API calls required.</p>
 <h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>
@@ -10155,7 +10119,7 @@ A: Most queries return results in 1–5 seconds. Cross-source queries spanning m
 <li><strong><a href="/docs/api/authentication">API Authentication Guide</a></strong>  --  Bearer tokens, OAuth 2.0, and security best practices  </li>
 <li><strong><a href="/docs/api/endpoints">API Endpoints Reference</a></strong>  --  Complete request/response schemas and code examples  </li>
 <li><strong><a href="/docs/api/rate-limits">API Rate Limits</a></strong>  --  Per-endpoint quotas and retry strategies  </li>
-<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Event notifications and HMAC signature verification  </li>
+<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Current webhook-contract availability</li>
 <li><strong><a href="/docs/enterprise-ai-data-access">Enterprise AI Data Access Guide</a></strong>  --  SSO, SAML, SOC 2, and data residency  </li>
 <li><strong><a href="/docs/secure-ai-data-connectivity">Secure AI Data Connectivity</a></strong>  --  Encryption, network security, and compliance  </li>
 </ul>

@@ -9852,12 +9852,12 @@
 <h2 id="how-to-connect-your-business-data">How to Connect Your Business Data<a class="headerlink" href="#how-to-connect-your-business-data" title="Anchor link to this section">&para;</a></h2>
 <p>The approach is not to move your data into ChatGPT. ChatGPT is not a database and should not become one. The approach is to create a read-only bridge between ChatGPT and your business tools.</p>
 <p>Each tool connects independently:
-- Shopify via read-only OAuth for order and product data
+- Shopify via read-only external-source retrieval for order and product data
 - QuickBooks via Intuit API for financial data
 - Stripe via restricted API key for payment data
 - GA4 via Google Analytics API for traffic data
 - HubSpot via OAuth for CRM data</p>
-<p>When you ask a question, ChatGPT queries the relevant tools in real time. The data is fetched, used to answer your question, and then discarded. Nothing is stored in ChatGPT. Nothing is used for training. The connection is ephemeral.</p>
+<p>When you ask a question, ChatGPT queries the relevant tools in real time. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days. Data handling inside ChatGPT follows the policy of the ChatGPT plan and settings you choose.</p>
 <h2 id="why-this-works-better-than-dashboards">Why This Works Better Than Dashboards<a class="headerlink" href="#why-this-works-better-than-dashboards" title="Anchor link to this section">&para;</a></h2>
 <p>Dashboards solve the human viewing problem. They put multiple data sources on one screen. But they do not solve the AI access problem. ChatGPT still cannot see the dashboard.</p>
 <p>And dashboards create their own issues. Each tool defines metrics differently. The Shopify revenue number and the QuickBooks revenue number are different numbers. The dashboard shows both but cannot tell you which one is right or why they differ.</p>

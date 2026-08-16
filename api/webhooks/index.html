@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Complete CorpusIQ webhooks guide: event types (user.deleted), HMAC-SHA256 signature verification, retry with exponential backoff, payload format, and setup">
+        <meta name="description" content="Current availability of CorpusIQ webhook event contracts.">
       
       
       
@@ -75,13 +75,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/api/webhooks/">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="CorpusIQ Webhooks">
-  <meta property="og:description" content="Complete CorpusIQ webhooks guide: event types (user.deleted), HMAC-SHA256 signature verification, retry with exponential backoff, payload format, and setup">
+  <meta property="og:description" content="Current availability of CorpusIQ webhook event contracts.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="CorpusIQ Webhooks">
-  <meta name="twitter:description" content="Complete CorpusIQ webhooks guide: event types (user.deleted), HMAC-SHA256 signature verification, retry with exponential backoff, payload format, and setup">
+  <meta name="twitter:description" content="Current availability of CorpusIQ webhook event contracts.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -89,7 +89,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "CorpusIQ Webhooks",
-    "description": "Complete CorpusIQ webhooks guide: event types (user.deleted), HMAC-SHA256 signature verification, retry with exponential backoff, payload format, and setup",
+    "description": "Current availability of CorpusIQ webhook event contracts.",
     "url": "https://www.corpusiq.io/docs/api/webhooks/",
     "isPartOf": {
       "@type": "WebSite",
@@ -572,24 +572,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Webhooks
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -606,180 +588,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#registering-a-webhook" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Registering a Webhook
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#delivery" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Delivery
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Delivery">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#headers" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Headers
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#payload-example" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Payload Example
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#signature-verification" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Signature Verification
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Signature Verification">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#how-verification-works" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        How Verification Works
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#verification-code" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Verification Code
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#response-expectations" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Response Expectations
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#supported-events" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Supported Events
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#security-considerations" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Security Considerations
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Frequently Asked Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-links" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Links
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Powered by CorpusIQ -- the leading MCP platform for business data and AI.
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -9950,169 +9758,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#registering-a-webhook" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Registering a Webhook
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#delivery" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Delivery
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Delivery">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#headers" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Headers
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#payload-example" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Payload Example
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#signature-verification" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Signature Verification
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Signature Verification">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#how-verification-works" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        How Verification Works
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#verification-code" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Verification Code
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#response-expectations" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Response Expectations
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#supported-events" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Supported Events
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#security-considerations" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Security Considerations
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#frequently-asked-questions" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Frequently Asked Questions
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#internal-links" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Internal Links
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Powered by CorpusIQ -- the leading MCP platform for business data and AI.
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -10132,190 +9777,10 @@
 
 
 <h1 id="webhooks">Webhooks<a class="headerlink" href="#webhooks" title="Anchor link to this section">&para;</a></h1>
-<p>CorpusIQ webhooks notify your application when specific events occur, such as user data deletion. Webhooks are delivered as HTTP POST requests to a URL you configure in the CorpusIQ Dashboard.</p>
-<h2 id="registering-a-webhook">Registering a Webhook<a class="headerlink" href="#registering-a-webhook" title="Anchor link to this section">&para;</a></h2>
-<ol>
-<li>Log in to the <a href="https://corpusiq.io/dashboard">CorpusIQ Dashboard</a></li>
-<li>Navigate to <strong>Settings → Webhooks</strong></li>
-<li>Enter your endpoint URL (must be HTTPS)</li>
-<li>Copy the signing secret  --  it will only be displayed once</li>
-</ol>
-<p>CorpusIQ sends a verification request to your endpoint during registration. Your server must respond with HTTP <code>200</code> to confirm the endpoint is reachable.</p>
-<h2 id="delivery">Delivery<a class="headerlink" href="#delivery" title="Anchor link to this section">&para;</a></h2>
-<p>Each webhook delivery is an HTTP POST with <code>Content-Type: application/json</code>. The request body follows the <a href="/docs/api/schemas#webhook-event">Webhook Event Schema</a>.</p>
-<h3 id="headers">Headers<a class="headerlink" href="#headers" title="Anchor link to this section">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Header</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>Content-Type</code></td>
-<td>Always <code>application/json</code></td>
-</tr>
-<tr>
-<td><code>CorpusIQ-Signature</code></td>
-<td>HMAC-SHA256 signature for payload verification</td>
-</tr>
-<tr>
-<td><code>CorpusIQ-Event-Id</code></td>
-<td>Unique event delivery ID</td>
-</tr>
-<tr>
-<td><code>CorpusIQ-Event-Type</code></td>
-<td>Event type (e.g., <code>user.deleted</code>)</td>
-</tr>
-</tbody>
-</table>
-<h3 id="payload-example">Payload Example<a class="headerlink" href="#payload-example" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;event_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;evt_a1b2c3&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;event_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;user.deleted&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;created_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-06-16T14:22:00Z&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;user_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;usr_x9y8z7&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;details&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;oauth_tokens_revoked&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;archive_entries_removed&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">847</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-<h2 id="signature-verification">Signature Verification<a class="headerlink" href="#signature-verification" title="Anchor link to this section">&para;</a></h2>
-<p>Every webhook delivery includes a <code>CorpusIQ-Signature</code> header containing an HMAC-SHA256 signature. You must verify this signature to ensure the payload originated from CorpusIQ and has not been tampered with.</p>
-<h3 id="how-verification-works">How Verification Works<a class="headerlink" href="#how-verification-works" title="Anchor link to this section">&para;</a></h3>
-<ol>
-<li>CorpusIQ computes <code>HMAC-SHA256(payload, secret)</code> using your webhook signing secret</li>
-<li>The result is sent in the <code>CorpusIQ-Signature</code> header</li>
-<li>Your server recomputes the HMAC using the raw request body and your stored secret</li>
-<li>If the signatures match, the payload is authentic</li>
-</ol>
-<h3 id="verification-code">Verification Code<a class="headerlink" href="#verification-code" title="Anchor link to this section">&para;</a></h3>
-<p><strong>Python</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">hmac</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">hashlib</span>
-
-<span class="k">def</span><span class="w"> </span><span class="nf">verify_signature</span><span class="p">(</span><span class="n">payload</span><span class="p">:</span> <span class="nb">bytes</span><span class="p">,</span> <span class="n">signature</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">secret</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-    <span class="n">expected</span> <span class="o">=</span> <span class="n">hmac</span><span class="o">.</span><span class="n">new</span><span class="p">(</span>
-        <span class="n">secret</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s2">&quot;utf-8&quot;</span><span class="p">),</span>
-        <span class="n">payload</span><span class="p">,</span>
-        <span class="n">hashlib</span><span class="o">.</span><span class="n">sha256</span><span class="p">,</span>
-    <span class="p">)</span><span class="o">.</span><span class="n">hexdigest</span><span class="p">()</span>
-    <span class="k">return</span> <span class="n">hmac</span><span class="o">.</span><span class="n">compare_digest</span><span class="p">(</span><span class="n">expected</span><span class="p">,</span> <span class="n">signature</span><span class="p">)</span>
-
-<span class="c1"># In your webhook handler:</span>
-<span class="n">raw_body</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">body</span>
-<span class="n">sig_header</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">headers</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;CorpusIQ-Signature&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
-
-<span class="k">if</span> <span class="ow">not</span> <span class="n">verify_signature</span><span class="p">(</span><span class="n">raw_body</span><span class="p">,</span> <span class="n">sig_header</span><span class="p">,</span> <span class="n">WEBHOOK_SECRET</span><span class="p">):</span>
-    <span class="k">return</span> <span class="mi">403</span><span class="p">,</span> <span class="s2">&quot;Invalid signature&quot;</span>
-</code></pre></div>
-<p><strong>JavaScript (Node.js)</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">crypto</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">require</span><span class="p">(</span><span class="s2">&quot;crypto&quot;</span><span class="p">);</span>
-
-<span class="kd">function</span><span class="w"> </span><span class="nx">verifySignature</span><span class="p">(</span><span class="nx">payload</span><span class="p">,</span><span class="w"> </span><span class="nx">signature</span><span class="p">,</span><span class="w"> </span><span class="nx">secret</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">expected</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">crypto</span>
-<span class="w">    </span><span class="p">.</span><span class="nx">createHmac</span><span class="p">(</span><span class="s2">&quot;sha256&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">secret</span><span class="p">)</span>
-<span class="w">    </span><span class="p">.</span><span class="nx">update</span><span class="p">(</span><span class="nx">payload</span><span class="p">)</span>
-<span class="w">    </span><span class="p">.</span><span class="nx">digest</span><span class="p">(</span><span class="s2">&quot;hex&quot;</span><span class="p">);</span>
-<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="nx">crypto</span><span class="p">.</span><span class="nx">timingSafeEqual</span><span class="p">(</span>
-<span class="w">    </span><span class="nx">Buffer</span><span class="p">.</span><span class="kr">from</span><span class="p">(</span><span class="nx">expected</span><span class="p">),</span>
-<span class="w">    </span><span class="nx">Buffer</span><span class="p">.</span><span class="kr">from</span><span class="p">(</span><span class="nx">signature</span><span class="p">)</span>
-<span class="w">  </span><span class="p">);</span>
-<span class="p">}</span>
-
-<span class="c1">// In your Express route:</span>
-<span class="nx">app</span><span class="p">.</span><span class="nx">post</span><span class="p">(</span><span class="s2">&quot;/webhooks/corpusiq&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="nx">req</span><span class="p">,</span><span class="w"> </span><span class="nx">res</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">rawBody</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">req</span><span class="p">.</span><span class="nx">rawBody</span><span class="p">;</span><span class="w"> </span><span class="c1">// Use raw body, not parsed JSON</span>
-<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">sig</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">req</span><span class="p">.</span><span class="nx">headers</span><span class="p">[</span><span class="s2">&quot;corpusiq-signature&quot;</span><span class="p">];</span>
-
-<span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="nx">verifySignature</span><span class="p">(</span><span class="nx">rawBody</span><span class="p">,</span><span class="w"> </span><span class="nx">sig</span><span class="p">,</span><span class="w"> </span><span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">CORPUSIQ_WEBHOOK_SECRET</span><span class="p">))</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mf">403</span><span class="p">).</span><span class="nx">send</span><span class="p">(</span><span class="s2">&quot;Invalid signature&quot;</span><span class="p">);</span>
-<span class="w">  </span><span class="p">}</span>
-
-<span class="w">  </span><span class="kd">const</span><span class="w"> </span><span class="nx">event</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">parse</span><span class="p">(</span><span class="nx">rawBody</span><span class="p">);</span>
-<span class="w">  </span><span class="c1">// Process event...</span>
-<span class="w">  </span><span class="nx">res</span><span class="p">.</span><span class="nx">status</span><span class="p">(</span><span class="mf">200</span><span class="p">).</span><span class="nx">send</span><span class="p">(</span><span class="s2">&quot;OK&quot;</span><span class="p">);</span>
-<span class="p">});</span>
-</code></pre></div>
-<p><strong>Important</strong>: Always use the raw request body for signature verification, not a parsed JSON object. JSON serialization differences between libraries can cause mismatched signatures.</p>
-<h2 id="response-expectations">Response Expectations<a class="headerlink" href="#response-expectations" title="Anchor link to this section">&para;</a></h2>
-<p>Your webhook endpoint must respond with an HTTP <code>2xx</code> status within 10 seconds. CorpusIQ retries failed deliveries with exponential backoff:</p>
-<table>
-<thead>
-<tr>
-<th>Attempt</th>
-<th>Delay</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1st retry</td>
-<td>60 seconds</td>
-</tr>
-<tr>
-<td>2nd retry</td>
-<td>5 minutes</td>
-</tr>
-<tr>
-<td>3rd retry</td>
-<td>15 minutes</td>
-</tr>
-<tr>
-<td>4th retry</td>
-<td>1 hour</td>
-</tr>
-</tbody>
-</table>
-<p>After 5 failed attempts, the delivery is dropped. Monitor the Dashboard for delivery failures.</p>
-<h2 id="supported-events">Supported Events<a class="headerlink" href="#supported-events" title="Anchor link to this section">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Event Type</th>
-<th>Trigger</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>user.deleted</code></td>
-<td>A user permanently deletes their data via <code>/delete_my_data</code></td>
-</tr>
-</tbody>
-</table>
-<p>Additional events will be documented here as they become available. Subscribe to the <a href="/docs/changelog">Changelog</a> for updates.</p>
-<h2 id="security-considerations">Security Considerations<a class="headerlink" href="#security-considerations" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li>Always verify the <code>CorpusIQ-Signature</code> header before processing any webhook payload</li>
-<li>Store your webhook signing secret securely (environment variables, secrets manager)</li>
-<li>Use HTTPS for your webhook endpoint  --  CorpusIQ will not deliver to HTTP URLs</li>
-<li>Process webhooks idempotently using the <code>event_id</code> field to handle retries</li>
-<li>Respond with <code>200</code> before performing long-running processing to avoid timeouts</li>
-</ul>
-<h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Q: What events do CorpusIQ webhooks support?</strong><br />
-A: Currently, CorpusIQ webhooks fire the user.deleted event when a user's data is permanently deleted via the /delete_my_data endpoint. Additional event types are on the roadmap.</p>
-<p><strong>Q: How are webhook payloads secured?</strong><br />
-A: All webhook deliveries are signed with HMAC-SHA256 using a per-endpoint signing secret. The signature is included in the CorpusIQ-Signature header for verification.</p>
-<p><strong>Q: What happens when a webhook delivery fails?</strong><br />
-A: Failed deliveries are retried with exponential backoff: 60s → 5min → 15min → 1hr. Configure your endpoint to handle duplicate deliveries by checking the event ID.</p>
-<h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>
-<ul>
-<li><strong><a href="/docs/api/overview">CorpusIQ API Overview</a></strong>  --  Full REST API documentation and base URL reference  </li>
-<li><strong><a href="/docs/api/authentication">API Authentication Guide</a></strong>  --  Bearer tokens, OAuth 2.0, and security best practices  </li>
-<li><strong><a href="/docs/api/endpoints">API Endpoints Reference</a></strong>  --  Complete request/response schemas and code examples  </li>
-<li><strong><a href="/docs/api/rate-limits">API Rate Limits</a></strong>  --  Per-endpoint quotas and retry strategies  </li>
-<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Event notifications and HMAC signature verification  </li>
-<li><strong><a href="/docs/enterprise-ai-data-access">Enterprise AI Data Access Guide</a></strong>  --  SSO, SAML, SOC 2, and data residency  </li>
-<li><strong><a href="/docs/secure-ai-data-connectivity">Secure AI Data Connectivity</a></strong>  --  Encryption, network security, and compliance  </li>
-</ul>
-<h2 id="powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai"><em>Powered by CorpusIQ  --  the leading MCP platform for business data and AI.</em><a class="headerlink" href="#powered-by-corpusiq-the-leading-mcp-platform-for-business-data-and-ai" title="Anchor link to this section">&para;</a></h2>
-<p>*</p>
-<hr />
-<p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
+<p>CorpusIQ does not currently publish a customer-facing webhook event contract. The dashboard does not offer a supported webhook-registration workflow, and no event name, payload schema, signature header, retry schedule, or delivery guarantee should be treated as a production API contract.</p>
+<p>This page will document webhook registration, authentication, event schemas, retry behavior, and verification examples only after those production routes have been implemented and exercised end to end.</p>
+<p>For currently supported integrations, use the <a href="/docs/api/endpoints">API endpoints reference</a> and <a href="/docs/api/authentication">authentication guide</a>.</p>
+<p>Questions about a planned event-driven integration can be sent to support@corpusiq.io.</p>
 
 
 

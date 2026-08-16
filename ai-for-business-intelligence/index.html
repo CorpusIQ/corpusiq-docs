@@ -10022,13 +10022,13 @@
 <p><strong>MCP-native architecture.</strong> Built on the Model Context Protocol, an open standard for AI-to-tool communication. Any MCP-compatible AI (Claude, ChatGPT, and others) can use CorpusIQ connectors.</p>
 </li>
 <li>
-<p><strong>Read-only security model.</strong> OAuth 2.0 with read-only scope across all integrations. AI can query data but can never modify systems of record.</p>
+<p><strong>Operation-level security model.</strong> External-source retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane tools are separately named and safety-annotated.</p>
 </li>
 <li>
 <p><strong>Cross-source query engine.</strong> Ask one question that spans five tools. "How did our Facebook ad spend correlate with Shopify revenue and Google Analytics traffic last month?"  --  answered in a single response.</p>
 </li>
 <li>
-<p><strong>Zero data storage.</strong> No data warehouse required. Every query is a live API call to your tools. Data stays where it is.</p>
+<p><strong>Scoped direct-MCP retention.</strong> CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 </li>
 </ol>
 <h2 id="example-bi-queries-through-corpusiq-mcp">Example BI Queries Through CorpusIQ MCP<a class="headerlink" href="#example-bi-queries-through-corpusiq-mcp" title="Anchor link to this section">&para;</a></h2>
@@ -10082,7 +10082,7 @@ A: No. CorpusIQ queries live data from your tools directly. No ETL, no data ware
 <p><strong>Q: Can this replace my analytics team?</strong>
 A: No  --  it amplifies them. AI handles routine queries, freeing analysts to focus on strategic analysis, modeling, and insight generation.</p>
 <p><strong>Q: How secure is this approach?</strong>
-A: All connections are read-only OAuth. Data is never stored. You can disconnect any source at any time. SOC 2 compliant infrastructure.</p>
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <p><strong>Q: What if my data sources don't have APIs?</strong>
 A: CorpusIQ supports 40+ pre-built connectors. If a source isn't available, database connectors (PostgreSQL, MSSQL, MongoDB) and file storage connectors (Google Drive, OneDrive, SharePoint) provide alternative access paths.</p>
 <p><strong>Q: Can I define custom metrics that span multiple sources?</strong>

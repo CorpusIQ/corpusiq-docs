@@ -751,10 +751,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#idempotency-and-409-conflicts" class="md-nav__link">
+  <a href="#409-conflicts" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Idempotency and 409 Conflicts
+        409 Conflicts
       
     </span>
   </a>
@@ -9990,10 +9990,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#idempotency-and-409-conflicts" class="md-nav__link">
+  <a href="#409-conflicts" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Idempotency and 409 Conflicts
+        409 Conflicts
       
     </span>
   </a>
@@ -10096,7 +10096,7 @@
 <tr>
 <td><strong>409</strong></td>
 <td><code>conflict</code></td>
-<td>The request conflicts with the current state. Common for duplicate <code>Idempotency-Key</code> submissions with different request bodies.</td>
+<td>The request conflicts with the current resource state. Inspect the response details before retrying.</td>
 </tr>
 <tr>
 <td><strong>413</strong></td>
@@ -10153,8 +10153,8 @@
         <span class="n">wait</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">**</span> <span class="n">attempt</span>
         <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="n">wait</span><span class="p">)</span>
 </code></pre></div>
-<h2 id="idempotency-and-409-conflicts">Idempotency and 409 Conflicts<a class="headerlink" href="#idempotency-and-409-conflicts" title="Anchor link to this section">&para;</a></h2>
-<p>A <code>409 Conflict</code> with <code>Idempotency-Key</code> means the same key was used with a different request body. Generate a new key for each unique request. If the request body is identical, the API returns the cached response with a <code>200</code> status.</p>
+<h2 id="409-conflicts">409 Conflicts<a class="headerlink" href="#409-conflicts" title="Anchor link to this section">&para;</a></h2>
+<p>A <code>409 Conflict</code> means the request conflicts with current resource state. Inspect the response details and do not assume a retry is safe.</p>
 <h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: What does a 401 error mean on the CorpusIQ API?</strong><br />
 A: A 401 Unauthorized error means your API token is missing, expired, or invalid. Generate a new token from the Dashboard or refresh your session. Tokens expire after 60 minutes.</p>
@@ -10168,7 +10168,7 @@ A: A 400 error means your request body or parameters are malformed. Check that r
 <li><strong><a href="/docs/api/authentication">API Authentication Guide</a></strong>  --  Bearer tokens, OAuth 2.0, and security best practices  </li>
 <li><strong><a href="/docs/api/endpoints">API Endpoints Reference</a></strong>  --  Complete request/response schemas and code examples  </li>
 <li><strong><a href="/docs/api/rate-limits">API Rate Limits</a></strong>  --  Per-endpoint quotas and retry strategies  </li>
-<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Event notifications and HMAC signature verification  </li>
+<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Current webhook-contract availability</li>
 <li><strong><a href="/docs/enterprise-ai-data-access">Enterprise AI Data Access Guide</a></strong>  --  SSO, SAML, SOC 2, and data residency  </li>
 <li><strong><a href="/docs/secure-ai-data-connectivity">Secure AI Data Connectivity</a></strong>  --  Encryption, network security, and compliance  </li>
 </ul>

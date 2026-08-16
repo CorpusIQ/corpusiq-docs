@@ -5732,10 +5732,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-no-data-duplication" class="md-nav__link">
+  <a href="#4-avoid-a-raw-data-warehouse-for-direct-queries" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4. No Data Duplication
+        4. Avoid a Raw-Data Warehouse for Direct Queries
       
     </span>
   </a>
@@ -10153,10 +10153,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#4-no-data-duplication" class="md-nav__link">
+  <a href="#4-avoid-a-raw-data-warehouse-for-direct-queries" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4. No Data Duplication
+        4. Avoid a Raw-Data Warehouse for Direct Queries
       
     </span>
   </a>
@@ -10359,8 +10359,8 @@
 <p>Different systems may have different versions of the same metric. Document which source is authoritative for which metric. Example: "Revenue for financial reporting comes from QuickBooks, not Stripe."</p>
 <h3 id="3-permission-propagation">3. Permission Propagation<a class="headerlink" href="#3-permission-propagation" title="Anchor link to this section">&para;</a></h3>
 <p>Your AI data layer should respect source permissions. If a user can't access certain HubSpot deals, the AI shouldn't see them either. CorpusIQ inherits permissions from connected sources.</p>
-<h3 id="4-no-data-duplication">4. No Data Duplication<a class="headerlink" href="#4-no-data-duplication" title="Anchor link to this section">&para;</a></h3>
-<p>Resist the urge to copy data into a central repository. The AI data layer queries live sources. Duplication creates staleness, governance, and cost problems.</p>
+<h3 id="4-avoid-a-raw-data-warehouse-for-direct-queries">4. Avoid a Raw-Data Warehouse for Direct Queries<a class="headerlink" href="#4-avoid-a-raw-data-warehouse-for-direct-queries" title="Anchor link to this section">&para;</a></h3>
+<p>The direct-query path can call live sources without a raw-file/full-payload warehouse. Scoped operational logs still apply, and optional indexed search has a separate lifecycle.</p>
 <h2 id="corpusiqs-role">CorpusIQ's Role<a class="headerlink" href="#corpusiqs-role" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ IS the AI data layer. It provides:</p>
 <ol>
@@ -10369,11 +10369,11 @@
 <li><strong>Zero infrastructure</strong>  --  fully managed, no servers to run</li>
 <li><strong>Real-time queries</strong>  --  no ETL, no warehouse, no batch windows</li>
 <li><strong>Cross-source orchestration</strong>  --  one question, multiple sources, unified answer</li>
-<li><strong>Enterprise security</strong>  --  OAuth, read-only, no data storage</li>
+<li><strong>Scoped direct-MCP retention.</strong> CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</li>
 </ol>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: How is this different from a data warehouse?</strong><br />
-A: A data warehouse stores copies of data for analytics. An AI data layer provides live, read-only access for AI queries  --  no copies, no ETL.</p>
+A: A data warehouse stores copies for analytics. A direct-query AI data layer uses live, read-only access without a raw-file/full-payload warehouse; scoped operational logs may still be retained.</p>
 <p><strong>Q: Do I still need a data warehouse?</strong><br />
 A: For formal BI reporting, historical analysis, and ML  --  yes. For AI-powered business queries  --  the AI data layer may be sufficient.</p>
 <p><strong>Q: Can I add custom data sources?</strong><br />
@@ -10385,7 +10385,7 @@ A: For AI access to data  --  yes. For application-to-application integration  -
 <p><strong>Q: How does this work with multiple AI assistants?</strong><br />
 A: The same CorpusIQ MCP server works with ChatGPT, Claude, and custom MCP clients simultaneously. One data layer, many AI consumers.</p>
 <p><strong>Q: What about data privacy regulations?</strong><br />
-A: Data never leaves its source system. CorpusIQ doesn't store data. This simplifies GDPR, CCPA, and SOC 2 compliance compared to warehouse-based approaches.</p>
+A: Direct MCP retrieves required records from the source and sends the result through CorpusIQ to the requesting AI client. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs are retained for up to 30 days. This avoids a replicated warehouse while keeping the actual processing path and retention schedule explicit.</p>
 <h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="/docs/how-to-connect-multiple-data-sources-to-ai">How to Connect Multiple Data Sources to AI</a></li>

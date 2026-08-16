@@ -10171,7 +10171,7 @@
 <details>
 <summary><strong>What NetSuite data can ChatGPT access?</strong></summary>
 
-CorpusIQ's NetSuite integration provides access to core ERP objects: sales orders, customers, invoices, inventory, items, financial reports, and project data. ChatGPT can retrieve individual records, list records with filters, and aggregate data across objects. All access is read-only  --  no record creation, editing, or deletion.
+CorpusIQ's NetSuite integration provides access to core ERP objects: sales orders, customers, invoices, inventory, items, financial reports, and project data. ChatGPT can retrieve individual records, list records with filters, and aggregate data across objects. NetSuite connector retrieval is read-only  --  no record creation, editing, or deletion in that source.
 </details>
 
 <details>
@@ -10252,7 +10252,7 @@ CorpusIQ can query across subsidiaries. Specify the subsidiary in your question 
 <p><strong>Faster operational decisions.</strong> "Do we have enough inventory to fulfill this week's open orders?"  --  a question that could require checking three NetSuite screens  --  becomes one ChatGPT query.</p>
 <p><strong>Cross-department visibility.</strong> "Show me NetSuite customers with open opportunities in HubSpot" combines ERP and CRM data. "Match NetSuite revenue against Stripe payouts" combines ERP and payment data. Only <a href="../benefits-of-mcp-for-business/">MCP platforms like CorpusIQ</a> provide this cross-source context.</p>
 <p><strong>Reduced SuiteScript dependency.</strong> Every ad-hoc data question that would normally require a custom SuiteScript becomes a ChatGPT conversation. Free your NetSuite developers for higher-value work.</p>
-<p><strong>Enterprise governance.</strong> Read-only by role design. No data duplication. Full audit trail. Your NetSuite data stays in NetSuite  --  the MCP layer provides governed, ephemeral access.</p>
+<p><strong>Enterprise governance.</strong> Read-only by role design with an audit trail. Direct MCP avoids a raw-file/full-payload warehouse; scoped operational logs may persist for up to 30 days.</p>
 <h2 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Anchor link to this section">&para;</a></h2>
 <h3 id="financial-operations">Financial Operations<a class="headerlink" href="#financial-operations" title="Anchor link to this section">&para;</a></h3>
 <p>"Show me this month's P&amp;L by department." "What's our AR aging summary?" "Which vendors have invoices due this week?" "Show me cash position across all bank accounts." Financial operations teams get ERP answers instantly.</p>
@@ -10269,11 +10269,11 @@ CorpusIQ can query across subsidiaries. Specify the subsidiary in your question 
 <ul>
 <li><strong>Token-Based Authentication (TBA).</strong> Industry-standard NetSuite API authentication. No passwords, no session cookies.</li>
 <li><strong>Role-Based Permissions.</strong> The NetSuite role assigned to the integration determines exactly which records and fields are accessible. Create a read-only role and grant only the record types you need.</li>
-<li><strong>No Data Persistence.</strong> CorpusIQ does not store your NetSuite data. Queries execute live against your NetSuite instance.</li>
+<li><strong>Scoped direct-MCP retention.</strong> CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</li>
 <li><strong>TLS 1.3 Encryption.</strong> All data in transit is encrypted.</li>
 <li><strong>Audit Trail.</strong> NetSuite's built-in audit trail logs all API access, providing visibility into exactly what data was queried and when.</li>
 </ul>
-<p>For enterprises with strict compliance requirements (SOX, GDPR, SOC 2), this architecture means your ERP data stays within your NetSuite instance. The MCP layer provides governed, read-only, auditable access.</p>
+<p>For enterprises with strict compliance requirements, NetSuite remains the authoritative source. CorpusIQ retrieves permitted ERP records through direct MCP; the retention classes and lifecycles described above still apply.</p>
 <h2 id="comparison-mcp-vs-suitescript-development">Comparison: MCP vs. SuiteScript Development<a class="headerlink" href="#comparison-mcp-vs-suitescript-development" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>

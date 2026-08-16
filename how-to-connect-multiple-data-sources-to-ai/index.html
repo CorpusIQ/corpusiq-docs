@@ -10126,7 +10126,7 @@
 <p>Your business runs on multiple systems. HubSpot for CRM, QuickBooks for accounting, Stripe for payments, Google Analytics for web traffic, Google Ads for marketing spend, Slack for communication. Each tool provides valuable data  --  but in isolation. The real insights come from connecting the dots: How does marketing spend translate to pipeline? Which customers with open deals have overdue invoices? How does website traffic correlate with revenue?</p>
 <p>Traditional approaches require data warehousing, ETL pipelines, and months of engineering. That's too slow, too expensive, and too complex for most teams.</p>
 <h2 id="the-solution">The Solution<a class="headerlink" href="#the-solution" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ's MCP platform connects multiple data sources to AI simultaneously. One question can query five different tools, and the AI combines the results into a coherent answer  --  all in seconds, with zero data movement.</p>
+<p>CorpusIQ's MCP platform connects multiple data sources to AI simultaneously. One question can query five different tools, and the AI combines the results into a coherent answer  --  all in seconds, without building an ETL warehouse of raw customer files or full connector payloads.</p>
 <h2 id="what-youll-need">What You'll Need<a class="headerlink" href="#what-youll-need" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>CorpusIQ account</li>
@@ -10289,7 +10289,7 @@ A: Yes  --  specify in your question. "Using only HubSpot and QuickBooks, show m
 <p><strong>Q: Is there a limit on cross-source query complexity?</strong><br />
 A: The limit is practical, not technical. Questions spanning 5-7 sources work well. Beyond that, results become harder to present coherently.</p>
 <p><strong>Q: Do I need a data warehouse for cross-source queries?</strong><br />
-A: No. That's the key advantage. CorpusIQ queries live APIs  --  no warehouse, no ETL, no data duplication.</p>
+A: No warehouse is required for direct MCP queries. CorpusIQ calls live APIs without retaining raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days.</p>
 <p><strong>Q: How does the AI know which source has which data?</strong><br />
 A: MCP tools are self-describing. Each connector advertises what it can do, and the AI maps your question to the right tools automatically.</p>
 <p><strong>Q: Can I save multi-source query templates?</strong><br />

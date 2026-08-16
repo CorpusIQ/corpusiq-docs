@@ -10020,7 +10020,7 @@
 <li><strong>HubSpot integration:</strong> Contacts, companies, deals, pipeline stages, and activity history.</li>
 <li><strong>Close CRM integration:</strong> Leads, opportunities, activities, and sales rep performance.</li>
 <li><strong>Cross-source correlation:</strong> CRM + ERP + billing + marketing  --  unified revenue intelligence.</li>
-<li><strong>Read-only security:</strong> OAuth 2.0 with read-only scope. AI can analyze CRM data but can never modify records.</li>
+<li><strong>Operation-level safety:</strong> Retrieval tools are marked read-only; write-capable connector and control-plane tools are separately named and annotated.</li>
 </ul>
 <h2 id="example-sales-reporting-queries">Example Sales Reporting Queries<a class="headerlink" href="#example-sales-reporting-queries" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Pipeline Management:</strong>
@@ -10068,7 +10068,7 @@ A: Yes. CorpusIQ queries the standard REST API, so custom objects and fields acc
 <p><strong>Q: How current is the pipeline data?</strong>
 A: Real-time. Every query triggers a live API call to your CRM.</p>
 <p><strong>Q: Can AI create opportunities or update CRM records?</strong>
-A: No. All integrations are read-only.</p>
+A: The CRM retrieval tools documented here do not create opportunities or update source CRM records. Separately named CorpusIQ control-plane tools can update user-declared CorpusIQ state.</p>
 <h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><a href="/docs/connect-salesforce-to-claude">Connect Salesforce to Claude</a>  --  Salesforce in AI.</li>

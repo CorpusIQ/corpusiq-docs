@@ -1917,10 +1917,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#listed-in-the-claude-connector-directory" class="md-nav__link">
+  <a href="#claude-custom-connector-support" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Listed in the Claude Connector Directory
+        Claude Custom Connector Support
       
     </span>
   </a>
@@ -1993,17 +1993,6 @@
     <span class="md-ellipsis">
       
         OpenAPI Specification
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#webhooks" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Webhooks
       
     </span>
   </a>
@@ -10013,10 +10002,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#listed-in-the-claude-connector-directory" class="md-nav__link">
+  <a href="#claude-custom-connector-support" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Listed in the Claude Connector Directory
+        Claude Custom Connector Support
       
     </span>
   </a>
@@ -10089,17 +10078,6 @@
     <span class="md-ellipsis">
       
         OpenAPI Specification
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#webhooks" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Webhooks
       
     </span>
   </a>
@@ -10223,8 +10201,8 @@
 <p>All notable changes to the CorpusIQ API are documented here. This project follows <a href="https://semver.org/">Semantic Versioning</a>.</p>
 <hr />
 <h2 id="august-2026-distribution-milestones">August 2026  --  Distribution Milestones<a class="headerlink" href="#august-2026-distribution-milestones" title="Anchor link to this section">&para;</a></h2>
-<h3 id="listed-in-the-claude-connector-directory">Listed in the Claude Connector Directory<a class="headerlink" href="#listed-in-the-claude-connector-directory" title="Anchor link to this section">&para;</a></h3>
-<p>CorpusIQ is now listed in Anthropic's Connector Directory inside claude.ai. Claude Pro, Max, Team, and Enterprise users can install CorpusIQ with one click from the built-in directory. No manual MCP configuration required.</p>
+<h3 id="claude-custom-connector-support">Claude Custom Connector Support<a class="headerlink" href="#claude-custom-connector-support" title="Anchor link to this section">&para;</a></h3>
+<p>Claude users can add the public CorpusIQ MCP endpoint through Claude's custom connector flow. CorpusIQ is not yet listed in Anthropic's Connector Directory, so setup currently requires entering the endpoint manually.</p>
 <h3 id="mcp-auth-refresh-silent-no-re-login">MCP Auth Refresh (silent, no re-login)<a class="headerlink" href="#mcp-auth-refresh-silent-no-re-login" title="Anchor link to this section">&para;</a></h3>
 <p>The MCP server now mints a 30-day refresh token after a successful device or Google OAuth reconnect. Token refresh is silent: expired access tokens rotate automatically without user interaction.</p>
 <hr />
@@ -10234,13 +10212,10 @@
 <h3 id="new-endpoints">New Endpoints<a class="headerlink" href="#new-endpoints" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li>
-<p><strong><code>POST /v1/query</code></strong>  --  Search across all connected business tools with natural-language queries. Supports connector scoping via the <code>connectors</code> parameter and idempotent submissions via the <code>Idempotency-Key</code> header. Returns semantically ranked, cited results from each matching connector.</p>
+<p><strong><code>POST /v1/query</code></strong>  --  Search across all connected business tools with natural-language queries. Supports connector scoping via the <code>connectors</code> parameter and returns semantically ranked, cited results from each matching connector.</p>
 </li>
 <li>
 <p><strong><code>POST /v1/deep_search</code></strong>  --  Search the encrypted archive of previously executed queries and their results. Supports date-range filtering and returns similarity-scored matches.</p>
-</li>
-<li>
-<p><strong><code>DELETE /v1/delete_my_data</code></strong>  --  Permanently delete all user data, including OAuth tokens, query history, archive entries, webhook registrations, and user profile. Triggers a <code>user.deleted</code> webhook event.</p>
 </li>
 </ul>
 <h3 id="authentication">Authentication<a class="headerlink" href="#authentication" title="Anchor link to this section">&para;</a></h3>
@@ -10248,20 +10223,13 @@
 <li>Bearer token authentication via <code>Authorization</code> header</li>
 <li>60-minute token expiry with server-side refresh detection</li>
 <li>Token issuance through the CorpusIQ Dashboard and ChatGPT Actions</li>
-<li>Immediate token revocation from the Dashboard</li>
+<li>Dashboard disconnect commits inactive CorpusIQ connection state; provider-side authorization remains governed by the provider</li>
 </ul>
 <h3 id="openapi-specification">OpenAPI Specification<a class="headerlink" href="#openapi-specification" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li>Complete OpenAPI 3.0.3 spec published at <code>https://mcp2.corpusiq.io/mcp</code></li>
 <li>Importable into Postman, Insomnia, and Swagger UI</li>
 <li>Interactive documentation at <code>https://mcp2.corpusiq.io/mcp</code></li>
-</ul>
-<h3 id="webhooks">Webhooks<a class="headerlink" href="#webhooks" title="Anchor link to this section">&para;</a></h3>
-<ul>
-<li>Webhook delivery framework with HMAC-SHA256 signature verification</li>
-<li><code>user.deleted</code> event type fired on data deletion</li>
-<li>Retry with exponential backoff: 60s → 5m → 15m → 1h</li>
-<li>Signed payloads via <code>CorpusIQ-Signature</code> header</li>
 </ul>
 <h3 id="rate-limiting">Rate Limiting<a class="headerlink" href="#rate-limiting" title="Anchor link to this section">&para;</a></h3>
 <ul>
@@ -10271,8 +10239,8 @@
 </ul>
 <h3 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li>Read-only OAuth scopes across all connectors</li>
-<li>Zero data retention: embeddings deleted after each session</li>
+<li>Operation-level safety annotations distinguish external-source retrieval from write-capable management/control-plane tools</li>
+<li>Scoped data handling: direct MCP live retrieval plus optional indexed-search embeddings</li>
 <li>TLS 1.3 for all API traffic</li>
 <li>AES-256-GCM encryption at rest</li>
 <li>SOC 2 Type II compliance program initiated</li>
@@ -10280,12 +10248,12 @@
 <h3 id="connectors">Connectors<a class="headerlink" href="#connectors" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li>40+ native connectors spanning email, calendar, file storage, analytics, CRM, ecommerce, marketing, financial, social media, and databases</li>
-<li>Read-only OAuth for all cloud services</li>
+<li>Provider scopes match each connector's documented operations</li>
 <li>Direct database connectors for PostgreSQL, SQL Server, MySQL, Azure Cosmos DB, and MongoDB</li>
 </ul>
 <h3 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Anchor link to this section">&para;</a></h3>
 <ul>
-<li>Published <a href="/docs/">CorpusIQ Documentation</a> covering API reference, authentication, rate limits, webhooks, security, and quick start</li>
+<li>Published <a href="/docs/">CorpusIQ Documentation</a> covering API reference, authentication, rate limits, security, and quick start</li>
 <li>Connector catalog with descriptions for all supported integrations</li>
 <li>Code examples in cURL, JavaScript, and Python for all endpoints</li>
 </ul>

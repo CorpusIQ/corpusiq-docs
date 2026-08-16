@@ -707,10 +707,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#use-idempotency-keys" class="md-nav__link">
+  <a href="#retry-explicitly" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Use Idempotency Keys
+        Retry Explicitly
       
     </span>
   </a>
@@ -9996,10 +9996,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#use-idempotency-keys" class="md-nav__link">
+  <a href="#retry-explicitly" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Use Idempotency Keys
+        Retry Explicitly
       
     </span>
   </a>
@@ -10119,11 +10119,6 @@
 <td>30</td>
 <td>3,000</td>
 </tr>
-<tr>
-<td><code>DELETE /delete_my_data</code></td>
-<td>10</td>
-<td>100</td>
-</tr>
 </tbody>
 </table>
 <p>Rate limits are evaluated independently for each endpoint. A burst on <code>/query</code> does not affect your <code>/deep_search</code> allowance.</p>
@@ -10192,8 +10187,8 @@
 <span class="k">if</span> <span class="n">remaining</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
     <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>  <span class="c1"># Let the rate limit window catch up</span>
 </code></pre></div>
-<h3 id="use-idempotency-keys">Use Idempotency Keys<a class="headerlink" href="#use-idempotency-keys" title="Anchor link to this section">&para;</a></h3>
-<p>For <code>/query</code>, use <code>Idempotency-Key</code> headers to safely retry without consuming additional rate limit quota. Duplicate requests with the same key within 24 hours return a cached response and do not count against your limit.</p>
+<h3 id="retry-explicitly">Retry Explicitly<a class="headerlink" href="#retry-explicitly" title="Anchor link to this section">&para;</a></h3>
+<p>Retry only after an explicit transient error, and follow the response status and retry guidance.</p>
 <h3 id="batch-questions">Batch Questions<a class="headerlink" href="#batch-questions" title="Anchor link to this section">&para;</a></h3>
 <p>Rather than making many small queries, combine related questions into a single well-structured query when possible. A single <code>/query</code> with <code>max_results: 20</code> is more efficient than four queries with <code>max_results: 5</code>.</p>
 <h3 id="plan-for-daily-quotas">Plan for Daily Quotas<a class="headerlink" href="#plan-for-daily-quotas" title="Anchor link to this section">&para;</a></h3>
@@ -10213,7 +10208,7 @@ A: Yes. Enterprise plans include increased rate limits. Contact CorpusIQ sales f
 <li><strong><a href="/docs/api/authentication">API Authentication Guide</a></strong>  --  Bearer tokens, OAuth 2.0, and security best practices  </li>
 <li><strong><a href="/docs/api/endpoints">API Endpoints Reference</a></strong>  --  Complete request/response schemas and code examples  </li>
 <li><strong><a href="/docs/api/rate-limits">API Rate Limits</a></strong>  --  Per-endpoint quotas and retry strategies  </li>
-<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Event notifications and HMAC signature verification  </li>
+<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Current webhook-contract availability</li>
 <li><strong><a href="/docs/enterprise-ai-data-access">Enterprise AI Data Access Guide</a></strong>  --  SSO, SAML, SOC 2, and data residency  </li>
 <li><strong><a href="/docs/secure-ai-data-connectivity">Secure AI Data Connectivity</a></strong>  --  Encryption, network security, and compliance  </li>
 </ul>

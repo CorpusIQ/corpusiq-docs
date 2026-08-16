@@ -10116,7 +10116,7 @@
 <h2 id="what-an-mcp-server-actually-is">What an MCP Server Actually Is<a class="headerlink" href="#what-an-mcp-server-actually-is" title="Anchor link to this section">&para;</a></h2>
 <p>An MCP server is a lightweight program that sits between an AI model and your data sources. It exposes <strong>tools</strong>  --  specific, well-defined functions the AI can call  --  along with <strong>resources</strong> (structured data) and <strong>prompts</strong> (reusable interaction templates). When you ask an MCP-enabled AI assistant "what were our top-selling products last month?", the assistant discovers the available tools from connected MCP servers, selects the right one, and calls it with the appropriate parameters.</p>
 <p>The server then executes the request against your live data  --  your Shopify store, your Salesforce CRM, your Google Analytics  --  and returns structured results the AI can understand and explain in natural language.</p>
-<p>Critically, MCP servers are <strong>read-only by design</strong> for business intelligence use cases. They don't modify data, create records, or execute destructive operations unless explicitly configured to do so. This architecture makes MCP inherently safer than traditional API integrations, where a misconfigured call could modify production data.</p>
+<p>MCP servers advertise operation-level annotations rather than a universal read-only guarantee. CorpusIQ marks external-source retrieval tools read-only and separately names and annotates write-capable and control-plane operations.</p>
 <h2 id="how-tool-discovery-works">How Tool Discovery Works<a class="headerlink" href="#how-tool-discovery-works" title="Anchor link to this section">&para;</a></h2>
 <p>When an MCP client (such as Claude Desktop or an AI-enabled application) connects to an MCP server, the first thing that happens is <strong>tool discovery</strong>. The server publishes a manifest describing every tool it offers, including:</p>
 <ul>
@@ -10144,11 +10144,11 @@
 <p>CorpusIQ's MCP implementation adds critical enterprise features on top of the base protocol:</p>
 <p><strong>Unified authentication</strong>  --  connect all your data sources once through OAuth, not once per server
 <strong>Cross-source queries</strong>  --  ask questions that span multiple data sources in a single conversation
-<strong>Read-only guardrails</strong>  --  every connector defaults to read-only, with explicit opt-in for write operations
+<strong>Operation-level guardrails</strong>  --  retrieval and write-capable operations use separate names and behavior-matched safety annotations
 <strong>Audit logging</strong>  --  every tool call is logged for compliance and debugging
 <strong>Canonical facts</strong>  --  declare business definitions once and have them applied consistently across all queries</p>
 <h2 id="how-it-works-a-step-by-step-walkthrough">How It Works: A Step-by-Step Walkthrough<a class="headerlink" href="#how-it-works-a-step-by-step-walkthrough" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Step 1: Connection.</strong> You connect your business data sources to CorpusIQ through OAuth. Each connection is scoped to read-only access by default. CorpusIQ stores your tokens securely and never shares them with third parties.</p>
+<p><strong>Step 1: Connection.</strong> You connect business data sources through provider authorization. Provider scopes vary by documented operation; retrieval and write-capable tools are separately named and annotated. CorpusIQ stores required credentials encrypted and does not expose them in tool responses.</p>
 <p><strong>Step 2: Discovery.</strong> When you start a conversation with an MCP-enabled AI assistant, the client queries your CorpusIQ MCP server and discovers every available tool  --  "list Shopify orders," "get QuickBooks profit and loss," "search HubSpot contacts," and hundreds more.</p>
 <p><strong>Step 3: Query.</strong> You ask a question in natural language: "Show me revenue by product category for the last quarter, and which customers drove the most revenue." The AI model reads the available tool descriptions, selects the appropriate tools, and constructs function calls with the right parameters.</p>
 <p><strong>Step 4: Execution.</strong> The MCP server receives the tool calls, executes them against your live data, and returns structured results. For cross-source queries, CorpusIQ orchestrates multiple tool calls and returns a unified response.</p>
@@ -10158,7 +10158,7 @@
 <p><strong>Real-time answers.</strong> MCP queries your live data, not a stale snapshot. When you ask about today's sales, you get today's numbers.</p>
 <p><strong>Zero integration code.</strong> You don't need a developer to build a connector. Connect your data sources through OAuth once, and any MCP-enabled AI assistant can query them.</p>
 <p><strong>AI-native interface.</strong> The AI model understands what tools are available and how to use them. You don't need to know which endpoint to call or what parameters to pass.</p>
-<p><strong>Security by design.</strong> MCP servers default to read-only access. Your data stays in your systems  --  the MCP server queries it on demand but doesn't store or cache it.</p>
+<p><strong>Security by design.</strong> MCP servers can default to read-only access and query source records on demand instead of maintaining a warehouse copy. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs follow the published retention schedule.</p>
 <p><strong>Open standard.</strong> MCP is an open protocol. Any AI platform can implement MCP client support, and any developer can build MCP servers. You're not locked into a single vendor.</p>
 <p><strong>Scalable.</strong> MCP servers can handle thousands of concurrent connections, making them suitable for both individual users and enterprise deployments.</p>
 <h2 id="use-cases">Use Cases<a class="headerlink" href="#use-cases" title="Anchor link to this section">&para;</a></h2>
@@ -10177,7 +10177,7 @@ No. While Anthropic created MCP, it's an open protocol. Any AI model or platform
 <details>
 <summary><strong>Does an MCP server store my data?</strong></summary>
 
-No. MCP servers query your data sources on demand and return results. They do not store, cache, or persist your business data. CorpusIQ's architecture is stateless by design  --  each query is a fresh request against your live systems.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 </details>
 
 <details>

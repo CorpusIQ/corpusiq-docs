@@ -10161,7 +10161,7 @@ CorpusIQ connects to your Asana account via OAuth 2.0. You authorize read-only a
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. CorpusIQ requests read-only OAuth scopes from Asana. ChatGPT can see projects, tasks, sections, assignees, and custom fields. It cannot create tasks, reassign work, change due dates, modify projects, or alter anything in your Asana workspace. The read-only guarantee is enforced at both the OAuth permission and MCP tool layers.
+Yes. CorpusIQ requests read-only external-source retrieval scopes from Asana. ChatGPT can see projects, tasks, sections, assignees, and custom fields. It cannot create tasks, reassign work, change due dates, modify projects, or alter anything in your Asana workspace. The read-only guarantee is enforced at both the OAuth permission and MCP tool layers.
 </details>
 
 <details>
@@ -10244,10 +10244,10 @@ Yes. "Give me a summary of what my team accomplished this week, what's overdue, 
 <ul>
 <li><strong>OAuth 2.0</strong> with read-only scopes. No write, create, update, or delete permissions are requested.</li>
 <li><strong>Workspace Permission Respect.</strong> ChatGPT can only access projects and tasks within workspaces the authenticated user has access to.</li>
-<li><strong>No Data Persistence.</strong> Project and task data is queried live from Asana and discarded after the response.</li>
+<li><strong>Scoped direct-MCP retention.</strong> CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</li>
 <li><strong>TLS 1.3 Encryption.</strong> All data in transit is encrypted.</li>
 </ul>
-<p>For teams handling sensitive project data  --  product roadmaps, client deliverables, confidential initiatives  --  this read-only architecture ensures project data stays in Asana while remaining accessible through ChatGPT for status and reporting.</p>
+<p>For teams handling sensitive project data, Asana remains the authoritative source. CorpusIQ retrieves permitted project records through direct MCP; the retention classes and lifecycles described above still apply.</p>
 <h2 id="comparison-mcp-vs-direct-asana-api-integration">Comparison: MCP vs. Direct Asana API Integration<a class="headerlink" href="#comparison-mcp-vs-direct-asana-api-integration" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>

@@ -601,17 +601,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#idempotency" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Idempotency
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#code-examples" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -663,56 +652,6 @@
         
           <li class="md-nav__item">
   <a href="#code-examples_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Code Examples
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#delete-delete_my_data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DELETE /delete_my_data
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="DELETE /delete_my_data">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#request_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Request
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#response_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Response
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-examples_2" class="md-nav__link">
     <span class="md-ellipsis">
       
         Code Examples
@@ -10030,17 +9969,6 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#idempotency" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Idempotency
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#code-examples" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10092,56 +10020,6 @@
         
           <li class="md-nav__item">
   <a href="#code-examples_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Code Examples
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#delete-delete_my_data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        DELETE /delete_my_data
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="DELETE /delete_my_data">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#request_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Request
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#response_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Response
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#code-examples_2" class="md-nav__link">
     <span class="md-ellipsis">
       
         Code Examples
@@ -10218,7 +10096,6 @@
 <div class="highlight"><pre><span></span><code><span class="err">POST /v1/query</span>
 <span class="err">Content-Type: application/json</span>
 <span class="err">Authorization: Bearer &lt;token&gt;</span>
-<span class="err">Idempotency-Key: &lt;unique-key&gt;  (optional)</span>
 </code></pre></div>
 <table>
 <thead>
@@ -10287,16 +10164,11 @@
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<h3 id="idempotency">Idempotency<a class="headerlink" href="#idempotency" title="Anchor link to this section">&para;</a></h3>
-<p>Pass an <code>Idempotency-Key</code> header to safely retry <code>/query</code> requests without creating duplicate query records. The key must be unique per request. Subsequent requests with the same key within 24 hours return the cached response.</p>
-<div class="highlight"><pre><span></span><code><span class="err">Idempotency-Key: req_2026-06-16_sales_report</span>
-</code></pre></div>
 <h3 id="code-examples">Code Examples<a class="headerlink" href="#code-examples" title="Anchor link to this section">&para;</a></h3>
 <p><strong>cURL</strong></p>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer &lt;token&gt;&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Idempotency-Key: </span><span class="k">$(</span>uuidgen<span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{</span>
 <span class="s1">    &quot;query&quot;: &quot;Show me recent HubSpot deals over $10,000&quot;,</span>
 <span class="s1">    &quot;connectors&quot;: [&quot;hubspot&quot;],</span>
@@ -10309,7 +10181,6 @@
 <span class="w">  </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="p">,</span>
 <span class="w">    </span><span class="s2">&quot;Content-Type&quot;</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="s2">&quot;Idempotency-Key&quot;</span><span class="o">:</span><span class="w"> </span><span class="nx">crypto</span><span class="p">.</span><span class="nx">randomUUID</span><span class="p">(),</span>
 <span class="w">  </span><span class="p">},</span>
 <span class="w">  </span><span class="nx">body</span><span class="o">:</span><span class="w"> </span><span class="nb">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span>
 <span class="w">    </span><span class="nx">query</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Show me recent HubSpot deals over $10,000&quot;</span><span class="p">,</span>
@@ -10323,14 +10194,12 @@
 </code></pre></div>
 <p><strong>Python</strong></p>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">uuid</span>
 
 <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span>
     <span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
     <span class="n">headers</span><span class="o">=</span><span class="p">{</span>
         <span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
         <span class="s2">&quot;Content-Type&quot;</span><span class="p">:</span> <span class="s2">&quot;application/json&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;Idempotency-Key&quot;</span><span class="p">:</span> <span class="nb">str</span><span class="p">(</span><span class="n">uuid</span><span class="o">.</span><span class="n">uuid4</span><span class="p">()),</span>
     <span class="p">},</span>
     <span class="n">json</span><span class="o">=</span><span class="p">{</span>
         <span class="s2">&quot;query&quot;</span><span class="p">:</span> <span class="s2">&quot;Show me recent HubSpot deals over $10,000&quot;</span><span class="p">,</span>
@@ -10452,56 +10321,11 @@
     <span class="p">},</span>
 <span class="p">)</span>
 </code></pre></div>
-<hr />
-<h2 id="delete-delete_my_data">DELETE /delete_my_data<a class="headerlink" href="#delete-delete_my_data" title="Anchor link to this section">&para;</a></h2>
-<p>Permanently delete all data associated with the authenticated user. This action is irreversible.</p>
-<h3 id="request_2">Request<a class="headerlink" href="#request_2" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="err">DELETE /v1/delete_my_data</span>
-<span class="err">Authorization: Bearer &lt;token&gt;</span>
-</code></pre></div>
-<p>No request body is required. The API returns a confirmation payload before executing deletion.</p>
-<h3 id="response_2">Response<a class="headerlink" href="#response_2" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;deletion_confirmed&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;details&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;oauth_tokens_revoked&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;query_history_deleted&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;archive_entries_removed&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">847</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;webhooks_unregistered&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;profile_deleted&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span>
-<span class="w">  </span><span class="p">},</span>
-<span class="w">  </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;All user data has been permanently deleted. This action cannot be undone.&quot;</span>
-<span class="p">}</span>
-</code></pre></div>
-<h3 id="code-examples_2">Code Examples<a class="headerlink" href="#code-examples_2" title="Anchor link to this section">&para;</a></h3>
-<p><strong>cURL</strong></p>
-<div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>DELETE<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer &lt;token&gt;&quot;</span>
-</code></pre></div>
-<p><strong>JavaScript</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kd">const</span><span class="w"> </span><span class="nx">response</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">fetch</span><span class="p">(</span><span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
-<span class="w">  </span><span class="nx">method</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;DELETE&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nx">headers</span><span class="o">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Authorization</span><span class="o">:</span><span class="w"> </span><span class="sb">`Bearer </span><span class="si">${</span><span class="nx">token</span><span class="si">}</span><span class="sb">`</span><span class="w"> </span><span class="p">},</span>
-<span class="p">});</span>
-<span class="kd">const</span><span class="w"> </span><span class="nx">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">await</span><span class="w"> </span><span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">();</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">.</span><span class="nx">message</span><span class="p">);</span>
-</code></pre></div>
-<p><strong>Python</strong></p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
-
-<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span>
-    <span class="s2">&quot;https://mcp2.corpusiq.io/mcp&quot;</span><span class="p">,</span>
-    <span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;Authorization&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Bearer </span><span class="si">{</span><span class="n">token</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">},</span>
-<span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()[</span><span class="s2">&quot;message&quot;</span><span class="p">])</span>
-</code></pre></div>
 <h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: What is the POST /query endpoint used for?</strong><br />
 A: POST /query searches across all your connected business data sources with natural-language queries. It supports connector scoping, idempotency keys, and returns semantically ranked, cited results.</p>
 <p><strong>Q: What does POST /deep_search do?</strong><br />
 A: POST /deep_search searches the encrypted archive of previously executed queries and their results. It does NOT make live API calls  --  it searches only your query history for pattern discovery and auditing.</p>
-<p><strong>Q: What happens when I call DELETE /delete_my_data?</strong><br />
-A: This endpoint permanently deletes all user data: OAuth tokens, query history, archive entries, webhook registrations, and user profile. The action is irreversible and triggers a user.deleted webhook event.</p>
 <p><strong>Q: How do I scope queries to specific connectors?</strong><br />
 A: Pass a 'connectors' array in your /query request body specifying which data sources to search. Example: {"query": "revenue this month", "connectors": ["stripe", "quickbooks"]}.</p>
 <h2 id="internal-links">Internal Links<a class="headerlink" href="#internal-links" title="Anchor link to this section">&para;</a></h2>
@@ -10510,7 +10334,7 @@ A: Pass a 'connectors' array in your /query request body specifying which data s
 <li><strong><a href="/docs/api/authentication">API Authentication Guide</a></strong>  --  Bearer tokens, OAuth 2.0, and security best practices  </li>
 <li><strong><a href="/docs/api/endpoints">API Endpoints Reference</a></strong>  --  Complete request/response schemas and code examples  </li>
 <li><strong><a href="/docs/api/rate-limits">API Rate Limits</a></strong>  --  Per-endpoint quotas and retry strategies  </li>
-<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Event notifications and HMAC signature verification  </li>
+<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Current webhook-contract availability</li>
 <li><strong><a href="/docs/enterprise-ai-data-access">Enterprise AI Data Access Guide</a></strong>  --  SSO, SAML, SOC 2, and data residency  </li>
 <li><strong><a href="/docs/secure-ai-data-connectivity">Secure AI Data Connectivity</a></strong>  --  Encryption, network security, and compliance  </li>
 </ul>

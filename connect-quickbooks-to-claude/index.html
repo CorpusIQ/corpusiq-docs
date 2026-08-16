@@ -10031,7 +10031,7 @@
 <li><strong>AR/AP visibility.</strong> Ask "Which customers owe us more than $5,000?" or "What bills are due next week?" without digging through QuickBooks screens.</li>
 <li><strong>Cross-source financial intelligence.</strong> Combine QuickBooks data with Shopify revenue, Stripe payments, or Salesforce pipeline for a complete financial picture.</li>
 <li><strong>Cash flow at your fingertips.</strong> Claude can analyze your balance sheet, AR aging, and AP aging together to give you an instant cash position assessment.</li>
-<li><strong>Read-only security.</strong> OAuth 2.0 with read-only scope. Claude can analyze your financial data but can never create, modify, or delete transactions.</li>
+<li><strong>Operation-level safety.</strong> QuickBooks retrieval tools are marked read-only; write-capable tools, when present, are separately named and annotated.</li>
 </ul>
 <h3 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h3>
 <p>The CorpusIQ MCP architecture for QuickBooks follows the same secure pattern as all integrations:</p>
@@ -10041,7 +10041,7 @@
 <li><strong>CorpusIQ translates</strong> your question into the appropriate QuickBooks API calls and executes them with your stored credentials.</li>
 <li><strong>Claude presents</strong> the results in natural language, with calculated metrics, trend observations, and actionable context.</li>
 </ol>
-<p>The connection is always live  --  every question triggers a fresh API call, so you're never looking at stale financial data.</p>
+<p>Each question requests current QuickBooks data. Freshness follows QuickBooks and CorpusIQ cache behavior; verify time-sensitive values against cited records.</p>
 <h3 id="setup-steps">Setup Steps<a class="headerlink" href="#setup-steps" title="Anchor link to this section">&para;</a></h3>
 <ol>
 <li><strong>Navigate to Connectors</strong> in your CorpusIQ dashboard.</li>
@@ -10079,9 +10079,9 @@
 <p>Financial data is among the most sensitive information in any organization. CorpusIQ's QuickBooks integration is built with that sensitivity in mind:</p>
 <ul>
 <li><strong>Read-only OAuth 2.0.</strong> Claude can query financial data but can never create journal entries, modify invoices, or delete transactions.</li>
-<li><strong>SOC 2 compliance.</strong> CorpusIQ's infrastructure meets enterprise security standards.</li>
-<li><strong>No data storage.</strong> Your QuickBooks data is never persisted on CorpusIQ servers. Each query is a direct, live API call.</li>
-<li><strong>Instant revocability.</strong> Disconnect QuickBooks from CorpusIQ or revoke the Intuit token at any time.</li>
+<li><strong>Documented controls.</strong> CorpusIQ maintains a SOC 2 aligned posture and is CASA Tier 2 certified by DEKRA; formal SOC 2 certification is not claimed.</li>
+<li><strong>Scoped direct-MCP retention.</strong> QuickBooks retrieval tools are marked read-only. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</li>
+<li><strong>Disconnect behavior.</strong> CorpusIQ disconnect commits inactive connection state and requires reauthorization; provider authorization remains governed by Intuit.</li>
 <li><strong>Audit trail.</strong> All queries through CorpusIQ are logged, giving your compliance team visibility into who asked what and when.</li>
 </ul>
 <h3 id="comparison-mcp-vs-direct-quickbooks-api">Comparison: MCP vs. Direct QuickBooks API<a class="headerlink" href="#comparison-mcp-vs-direct-quickbooks-api" title="Anchor link to this section">&para;</a></h3>
@@ -10153,7 +10153,7 @@ The integration supports QuickBooks Online. QuickBooks Desktop is not currently 
 <details>
 <summary><strong>Can Claude create invoices or journal entries?</strong></summary>
 
-No. The integration is strictly read-only. Claude can analyze and report on financial data but cannot create, modify, or delete anything in QuickBooks.
+The advertised QuickBooks retrieval tools are read-only and do not create, modify, or delete records. Write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>
@@ -10177,7 +10177,7 @@ OAuth scopes are configured during connection. You can choose to grant only spec
 <details>
 <summary><strong>Is this suitable for publicly traded companies with SOX requirements?</strong></summary>
 
-CorpusIQ is SOC 2 compliant, and the read-only architecture means no transactions can be modified. However, companies with specific SOX controls should evaluate the integration within their compliance framework.
+CorpusIQ maintains a SOC 2 aligned posture; formal SOC 2 Type II certification is not claimed. QuickBooks access is read-only. Companies with specific SOX controls should evaluate the integration within their compliance framework.
 </details>
 
 <details>

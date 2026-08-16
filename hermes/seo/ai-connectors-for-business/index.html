@@ -9840,7 +9840,7 @@
 <p>Your AI cannot answer basic questions about your business. Not because it is not smart enough. Because it cannot reach your data.</p>
 <p>AI connectors solve this. They create a read-only bridge between your business tools and the AI you already use. Ask a question. Get a verified answer with every source cited.</p>
 <h2 id="what-ai-connectors-do">What AI Connectors Do<a class="headerlink" href="#what-ai-connectors-do" title="Anchor link to this section">&para;</a></h2>
-<p>An AI connector authenticates to one business tool. Shopify. QuickBooks. Stripe. HubSpot. GA4. Using read-only OAuth. The AI can query data. It cannot modify anything.</p>
+<p>An AI connector authenticates to one business tool. Shopify. QuickBooks. Stripe. HubSpot. GA4. Using read-only external-source retrieval. The AI can query data. It cannot modify anything.</p>
 <p>When you ask ChatGPT "what was revenue last month," the connectors query your actual tools:
 - Shopify connector returns order data
 - Stripe connector returns payment data
@@ -9861,9 +9861,9 @@
 <p>Ask "which customers are at risk of churning" and the system queries Stripe (payment failures), HubSpot (low engagement), and Intercom (support ticket volume). Returns a ranked list with the evidence.</p>
 <p>Ask "what is our cash runway" and the system queries QuickBooks (current balance, burn rate), Stripe (upcoming payments), and your bank (available credit). Returns actual numbers with projections.</p>
 <h2 id="security-and-privacy">Security and Privacy<a class="headerlink" href="#security-and-privacy" title="Anchor link to this section">&para;</a></h2>
-<p>Every connector uses read-only OAuth. The AI can see your data but never change it. No orders can be modified. No financials can be edited. No customer records can be altered.</p>
+<p>External-source retrieval tools are marked read-only and do not write records back to the connected source. Write-capable connector-management and CorpusIQ control-plane tools are separately named and safety-annotated.</p>
 <p>Each connector authenticates independently. Shopify has its own token. QuickBooks has its own. Stripe has its own. No shared credentials. No master key.</p>
-<p>Data is fetched for each query and discarded. Nothing is stored between questions. Nothing is used for AI training. The connectors are ephemeral.</p>
+<p>Data is fetched live for each query. Direct MCP does not retain raw customer files or full connector response payloads. Scoped operational logs may be retained for up to 30 days, and optional indexed search has a separate embeddings and minimal-metadata lifecycle. CorpusIQ does not use customer data for AI training; conversation handling follows the selected AI provider's plan and settings.</p>
 <h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Anchor link to this section">&para;</a></h2>
 <p>The first three connectors are the most important: Shopify, QuickBooks, Stripe. Connect those and you can answer 80% of your business questions.</p>
 <p>Each connection takes minutes. Authorize read-only access. Ask your first question. Verify against the source tool. The numbers should match.</p>

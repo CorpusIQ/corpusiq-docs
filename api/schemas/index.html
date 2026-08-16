@@ -634,34 +634,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#webhook-event" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Webhook Event
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Webhook Event">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#supported-event-types" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Supported Event Types
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#frequently-asked-questions" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -9941,34 +9913,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#webhook-event" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Webhook Event
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Webhook Event">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#supported-event-types" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Supported Event Types
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#frequently-asked-questions" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -10134,74 +10078,6 @@
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<hr />
-<h2 id="webhook-event">Webhook Event<a class="headerlink" href="#webhook-event" title="Anchor link to this section">&para;</a></h2>
-<p>Webhook deliveries use the following envelope format. See <a href="/docs/api/webhooks">Webhooks</a> for delivery and verification details.</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;event_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;evt_a1b2c3&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;event_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;user.deleted&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;created_at&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;2026-06-16T14:22:00Z&quot;</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;data&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;user_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;usr_x9y8z7&quot;</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;details&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;oauth_tokens_revoked&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;archive_entries_removed&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">847</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-<table>
-<thead>
-<tr>
-<th>Field</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>event_id</code></td>
-<td>string</td>
-<td>Unique identifier for this event delivery</td>
-</tr>
-<tr>
-<td><code>event_type</code></td>
-<td>string</td>
-<td>Event type; currently only <code>user.deleted</code></td>
-</tr>
-<tr>
-<td><code>created_at</code></td>
-<td>string</td>
-<td>ISO 8601 timestamp of when the event was generated</td>
-</tr>
-<tr>
-<td><code>data.user_id</code></td>
-<td>string</td>
-<td>The CorpusIQ user ID associated with the event</td>
-</tr>
-<tr>
-<td><code>data.details</code></td>
-<td>object</td>
-<td>Event-specific payload fields</td>
-</tr>
-</tbody>
-</table>
-<h3 id="supported-event-types">Supported Event Types<a class="headerlink" href="#supported-event-types" title="Anchor link to this section">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Event Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>user.deleted</code></td>
-<td>Fired when a user's data is permanently deleted via <code>/delete_my_data</code></td>
-</tr>
-</tbody>
-</table>
-<p>Additional event types will be added in future releases. Subscribe to the <a href="/docs/changelog">Changelog</a> for updates.</p>
 <h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: What JSON structure does a /query response follow?</strong><br />
 A: A /query response includes query_id, query (echo), results array with connector/chunks, and search_summary with connectors_searched, total_chunks_found, and duration_ms.</p>
@@ -10215,7 +10091,7 @@ A: Errors use a consistent format: {"error": {"type": "error_category", "message
 <li><strong><a href="/docs/api/authentication">API Authentication Guide</a></strong>  --  Bearer tokens, OAuth 2.0, and security best practices  </li>
 <li><strong><a href="/docs/api/endpoints">API Endpoints Reference</a></strong>  --  Complete request/response schemas and code examples  </li>
 <li><strong><a href="/docs/api/rate-limits">API Rate Limits</a></strong>  --  Per-endpoint quotas and retry strategies  </li>
-<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Event notifications and HMAC signature verification  </li>
+<li><strong><a href="/docs/api/webhooks">CorpusIQ Webhooks</a></strong>  --  Current webhook-contract availability</li>
 <li><strong><a href="/docs/enterprise-ai-data-access">Enterprise AI Data Access Guide</a></strong>  --  SSO, SAML, SOC 2, and data residency  </li>
 <li><strong><a href="/docs/secure-ai-data-connectivity">Secure AI Data Connectivity</a></strong>  --  Encryption, network security, and compliance  </li>
 </ul>

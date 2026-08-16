@@ -10048,7 +10048,7 @@
 <h3 id="security">Security<a class="headerlink" href="#security" title="Anchor link to this section">&para;</a></h3>
 <ul>
 <li><strong>TBA with read-only role.</strong> Create a dedicated NetSuite role with only read permissions.</li>
-<li><strong>No data storage.</strong> Live API queries only.</li>
+<li><strong>Scoped direct-MCP retention.</strong> CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</li>
 <li><strong>Token encryption.</strong> All credentials encrypted at rest.</li>
 </ul>
 <h3 id="comparison-mcp-vs-netsuite-api-direct">Comparison: MCP vs. NetSuite API Direct<a class="headerlink" href="#comparison-mcp-vs-netsuite-api-direct" title="Anchor link to this section">&para;</a></h3>

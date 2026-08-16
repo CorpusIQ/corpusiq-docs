@@ -10161,7 +10161,7 @@ CorpusIQ connects to your Slack workspace via OAuth 2.0. You authorize read-only
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. CorpusIQ requests read-only OAuth scopes from Slack. ChatGPT can read channels, search messages, retrieve threads, and access workspace analytics. It cannot send messages, create channels, modify workspace settings, or perform any write operation. The read-only guarantee is enforced by the Slack OAuth scopes requested during authorization.
+Yes. CorpusIQ requests read-only external-source retrieval scopes from Slack. ChatGPT can read channels, search messages, retrieve threads, and access workspace analytics. It cannot send messages, create channels, modify workspace settings, or perform any write operation. The advertised Slack retrieval tools are marked read-only; write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>
@@ -10244,11 +10244,11 @@ ChatGPT can list channels and narrow searches to specific channels or date range
 <ul>
 <li><strong>OAuth 2.0</strong> with read-only scopes: channels:read, channels:history, search:read, files:read, users:read, team:read. No write scopes are requested.</li>
 <li><strong>Permission Model Respect.</strong> ChatGPT can only access channels and conversations the authorizing user has access to. Private channels and DMs are only accessible if the user is a member.</li>
-<li><strong>No Data Persistence.</strong> Messages are queried live and discarded after the response. CorpusIQ does not store your Slack history.</li>
+<li><strong>Scoped direct-MCP retention.</strong> CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</li>
 <li><strong>TLS 1.3 Encryption.</strong> All data in transit is encrypted.</li>
 <li><strong>Workspace Admin Visibility.</strong> Slack workspace admins can see which scopes were authorized and can revoke access at any time from the Slack admin dashboard.</li>
 </ul>
-<p>For organizations with sensitive internal communications, this architecture means Slack data stays in Slack. The MCP layer provides governed, permission-respecting, ephemeral access.</p>
+<p>For organizations with sensitive internal communications, Slack remains the authoritative source. CorpusIQ retrieves permitted messages through direct MCP; the retention classes and lifecycles described above still apply.</p>
 <h2 id="comparison-mcp-vs-slack-built-in-search">Comparison: MCP vs. Slack Built-in Search<a class="headerlink" href="#comparison-mcp-vs-slack-built-in-search" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>

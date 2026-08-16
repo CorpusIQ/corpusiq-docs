@@ -10040,7 +10040,7 @@
 <li><strong>CorpusIQ translates</strong> your natural language question into the appropriate Shopify API calls, executes them with your stored credentials, and returns only the relevant data.</li>
 <li><strong>Claude synthesizes</strong> the response from the returned data, presenting it in natural language with context and recommendations.</li>
 </ol>
-<p>All of this happens in seconds. The connection is stateless  --  CorpusIQ never stores your Shopify data, only your encrypted OAuth token. Every query is a fresh API call, so Claude always works with live information.</p>
+<p>CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <h3 id="setup-steps">Setup Steps<a class="headerlink" href="#setup-steps" title="Anchor link to this section">&para;</a></h3>
 <p>Setting up the Shopify-to-Claude connection through CorpusIQ takes less than five minutes:</p>
 <ol>
@@ -10073,12 +10073,12 @@
 - "What's the conversion rate from Google Analytics sessions to Shopify orders?" (requires GA4 connected)
 - "Which Klaviyo email campaigns drove the most Shopify revenue?" (requires Klaviyo connected)</p>
 <h3 id="security-and-permissions">Security and Permissions<a class="headerlink" href="#security-and-permissions" title="Anchor link to this section">&para;</a></h3>
-<p>CorpusIQ uses OAuth 2.0 with read-only scope for the Shopify integration. This means:</p>
+<p>Shopify provider scopes vary by documented operation. The retrieval tools described here are marked read-only:</p>
 <ul>
 <li><strong>Claude can read</strong> your orders, products, customers, and analytics.</li>
 <li><strong>Claude can never write</strong>  --  it cannot create, update, or delete anything in your Shopify store.</li>
 <li><strong>You can revoke access</strong> at any time from Shopify's admin panel or from CorpusIQ's connector management page.</li>
-<li><strong>Your data is never stored</strong> by CorpusIQ. Each query is a fresh API call.</li>
+<li><strong>Scoped direct-MCP retention.</strong> CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</li>
 <li><strong>Token encryption</strong> ensures your Shopify credentials are protected at rest.</li>
 </ul>
 <h3 id="comparison-mcp-integration-vs-direct-api">Comparison: MCP Integration vs. Direct API<a class="headerlink" href="#comparison-mcp-integration-vs-direct-api" title="Anchor link to this section">&para;</a></h3>
@@ -10142,13 +10142,13 @@ No. The OAuth flow is point-and-click. Anyone with Shopify admin access can conn
 <details>
 <summary><strong>Can Claude modify my Shopify store  --  create products, update orders, or change prices?</strong></summary>
 
-No. The integration is strictly read-only. Claude can query your data but cannot make any changes to your Shopify store.
+The advertised Shopify retrieval tools are read-only and do not change the store. Write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>
 <summary><strong>How current is the data Claude sees?</strong></summary>
 
-Real-time. Every question you ask triggers a fresh API call to Shopify. Claude always works with live data, not cached snapshots.
+Each question requests current Shopify data. Freshness follows Shopify and CorpusIQ cache behavior; use cited source records for time-sensitive verification.
 </details>
 
 <details>
@@ -10160,13 +10160,13 @@ The integration works with any Shopify plan that includes API access. Most plans
 <details>
 <summary><strong>Can I limit which data Claude can access?</strong></summary>
 
-Yes. The OAuth scope is read-only across orders, products, customers, and analytics. You can further restrict access by only granting specific scopes during authorization.
+Yes. The advertised Shopify retrieval tools for orders, products, customers, and analytics are marked read-only; write-capable tools, when available, are separately named and annotated. You can further restrict access by only granting specific scopes during authorization.
 </details>
 
 <details>
 <summary><strong>Is my data stored or used for training?</strong></summary>
 
-No. CorpusIQ never stores your Shopify data. Claude (Anthropic) does not train on customer data submitted through the API. Your business data remains private.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days. Anthropic's data-usage and retention policy applies separately to content submitted to Claude.
 </details>
 
 <details>

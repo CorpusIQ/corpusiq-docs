@@ -10153,7 +10153,7 @@
 - <strong>Real-time data:</strong> Queries live APIs  --  no exports, no uploads
 - <strong>40+ sources:</strong> CRM, accounting, analytics, payments, email, and more
 - <strong>Cross-source queries:</strong> "Compare HubSpot pipeline to QuickBooks revenue"
-- <strong>Enterprise security:</strong> Read-only, OAuth, no data storage
+- <strong>Scoped direct-MCP retention.</strong> CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 - <strong>Zero maintenance:</strong> Fully managed platform</p>
 <p><strong>Limitations:</strong> Requires ChatGPT plan with MCP support (Plus, Team, Enterprise).</p>
 <h3 id="2-csv-upload-best-for-quick-one-off-analysis">#2: CSV Upload  --  Best for Quick One-Off Analysis<a class="headerlink" href="#2-csv-upload-best-for-quick-one-off-analysis" title="Anchor link to this section">&para;</a></h3>
@@ -10264,7 +10264,7 @@ A: For one-off questions, it works. For ongoing business intelligence, it's inef
 <p><strong>Q: What about Claude?</strong><br />
 A: CorpusIQ works with any MCP-compatible AI assistant, including Claude, not just ChatGPT.</p>
 <p><strong>Q: How secure is the MCP connection?</strong><br />
-A: CorpusIQ uses OAuth 2.0, read-only access, and never stores your data. It's more secure than exporting data to CSV files.</p>
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <p><strong>Q: Can I connect multiple ChatGPT accounts to the same data?</strong><br />
 A: Each user should have their own CorpusIQ account connected to their own data sources, ensuring proper permission inheritance.</p>
 <p><strong>Q: What happens when my data changes?</strong><br />

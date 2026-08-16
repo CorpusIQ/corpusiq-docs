@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Deploy Hermes Agent AI automation at enterprise scale with SOC 2 compliance, multi-region data residency, segregation of duties, and immutable audit logging.">
+        <meta name="description" content="Deploy Hermes Agent automation with profile isolation, regional deployment options, segregation of duties, and audit evidence for customer-managed">
       
       
       
@@ -75,13 +75,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/outputs/by-company-size/enterprise/">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Hermes Agent for Enterprise">
-  <meta property="og:description" content="Deploy Hermes Agent AI automation at enterprise scale with SOC 2 compliance, multi-region data residency, segregation of duties, and immutable audit logging.">
+  <meta property="og:description" content="Deploy Hermes Agent automation with profile isolation, regional deployment options, segregation of duties, and audit evidence for customer-managed">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Hermes Agent for Enterprise">
-  <meta name="twitter:description" content="Deploy Hermes Agent AI automation at enterprise scale with SOC 2 compliance, multi-region data residency, segregation of duties, and immutable audit logging.">
+  <meta name="twitter:description" content="Deploy Hermes Agent automation with profile isolation, regional deployment options, segregation of duties, and audit evidence for customer-managed">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -89,7 +89,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Hermes Agent for Enterprise",
-    "description": "Deploy Hermes Agent AI automation at enterprise scale with SOC 2 compliance, multi-region data residency, segregation of duties, and immutable audit logging.",
+    "description": "Deploy Hermes Agent automation with profile isolation, regional deployment options, segregation of duties, and audit evidence for customer-managed",
     "url": "https://www.corpusiq.io/docs/hermes/outputs/by-company-size/enterprise/",
     "isPartOf": {
       "@type": "WebSite",
@@ -7784,10 +7784,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#is-hermes-agent-soc-2-type-ii-compliant" class="md-nav__link">
+  <a href="#can-hermes-agent-support-a-soc-2-control-program" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Is Hermes Agent SOC 2 Type II compliant?
+        Can Hermes Agent support a SOC 2 control program?
       
     </span>
   </a>
@@ -10162,10 +10162,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#is-hermes-agent-soc-2-type-ii-compliant" class="md-nav__link">
+  <a href="#can-hermes-agent-support-a-soc-2-control-program" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Is Hermes Agent SOC 2 Type II compliant?
+        Can Hermes Agent support a SOC 2 control program?
       
     </span>
   </a>
@@ -10264,7 +10264,7 @@
 
 
 <h1 id="hermes-agent-for-enterprise">Hermes Agent for Enterprise<a class="headerlink" href="#hermes-agent-for-enterprise" title="Anchor link to this section">&para;</a></h1>
-<p>Hermes Agent delivers enterprise-grade AI automation with profile isolation, secrets management, multi-region data residency, SOC 2/HIPAA/GDPR compliance, immutable audit logging, and ITIL-aligned change management. Each department gets startup-like operational leverage with the security and governance controls auditors demand.</p>
+<p>Hermes Agent supports enterprise automation with profile isolation, secrets management, regional deployment options, audit evidence, and ITIL-aligned change management. Deploying Hermes does not itself confer SOC 2, HIPAA, or GDPR compliance; each organization must configure, operate, and assess its own controls.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
 <p>Enterprises don't adopt automation to save a few hours per week  --  they adopt it to manage complexity at scale. With thousands of employees, hundreds of systems, and regulatory obligations across jurisdictions, the question isn't "can we automate this?" but "can we automate this safely, demonstrably, and in a way that satisfies our compliance, security, and audit requirements?" Hermes addresses these concerns through profile isolation, credential management, audit logging, and deployment patterns that keep data where it belongs.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
@@ -10305,7 +10305,7 @@
 - All outbound connections should be documented and reviewed</p>
 <h3 id="multi-region-deployment">Multi-Region Deployment<a class="headerlink" href="#multi-region-deployment" title="Anchor link to this section">&para;</a></h3>
 <p>Enterprises operating across regions (US, EU, APAC) face data residency requirements. Hermes supports region-scoped deployment:</p>
-<p><strong>Per-region Hermes instances:</strong> Deploy separate Hermes instances in each region. EU customer data stays in the EU instance. APAC employee data stays in the APAC instance.</p>
+<p><strong>Per-region Hermes instances:</strong> Separate regional instances can support a residency architecture, but customers must validate storage, network, model-provider, backup, and aggregation paths. Instance location alone does not guarantee that every processing path remains in-region.</p>
 <p><strong>Global orchestration layer:</strong> A lightweight global profile handles cross-region aggregations that don't involve PII movement  --  count of customers by region, aggregate revenue trends, global system health.</p>
 <p><strong>Data residency verification skills:</strong></p>
 <div class="highlight"><pre><span></span><code><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">data-residency-verification</span>
@@ -10374,7 +10374,7 @@
 - Data processing register includes all Hermes profiles and the data categories they access
 - DSAR response skills can locate and export all personal data across connected systems
 - Right-to-erasure skills can propagate deletion requests across systems
-- Data residency enforced through regional deployment</p>
+- Data-residency controls validated across regional deployment, storage, network, model-provider, backup, and aggregation paths</p>
 <p><strong>SOX</strong>
 - Financial data access limited to finance-specific profiles
 - Segregation of duties enforced for any skill touching financial reporting
@@ -10383,7 +10383,7 @@
 <h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Auditor-ready compliance</strong>  --  continuous evidence collection replaces quarterly fire drills</li>
-<li><strong>Data residency enforced</strong>  --  regional deployment keeps regulated data within jurisdiction</li>
+<li><strong>Data-residency support</strong>  --  regional deployment options plus customer-validated processing and storage paths</li>
 <li><strong>Least-privilege access</strong>  --  profile isolation prevents cross-department data exposure</li>
 <li><strong>Segregation of duties</strong>  --  four-party separation satisfies SOC 2 and SOX requirements</li>
 <li><strong>ITIL-aligned change management</strong>  --  standard, normal, and emergency change categories with approval gates</li>
@@ -10413,12 +10413,12 @@
 <li><strong>Run in report-only mode for the first month.</strong> Generate alerts and reports but take no automated actions. This builds trust and surfaces edge cases.</li>
 <li><strong>Expand by department, not by use case.</strong> Onboard an entire department's automation needs rather than scattering skills across departments.</li>
 </ol>
-<p>The outcome: enterprise-grade automation that satisfies auditors, scales across regions, and gives every department the operational leverage of a well-tooled startup  --  without the compliance risk.</p>
+<p>The outcome: enterprise automation with explicit controls, regional deployment options, and evidence that teams can evaluate within their own compliance programs.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
-<h3 id="is-hermes-agent-soc-2-type-ii-compliant">Is Hermes Agent SOC 2 Type II compliant?<a class="headerlink" href="#is-hermes-agent-soc-2-type-ii-compliant" title="Anchor link to this section">&para;</a></h3>
-<p>Hermes supports SOC 2 compliance through profile isolation, immutable audit logging, change management evidence, and segregation of duties. Organizations must configure these controls appropriately for their environment and complete their own audit process.</p>
+<h3 id="can-hermes-agent-support-a-soc-2-control-program">Can Hermes Agent support a SOC 2 control program?<a class="headerlink" href="#can-hermes-agent-support-a-soc-2-control-program" title="Anchor link to this section">&para;</a></h3>
+<p>Hermes can support evidence collection through profile isolation, audit logging, change-management records, and segregation of duties. Hermes itself does not confer SOC 2 certification or compliance; organizations must configure, operate, and audit their own control environment.</p>
 <h3 id="how-does-hermes-handle-data-residency-requirements">How does Hermes handle data residency requirements?<a class="headerlink" href="#how-does-hermes-handle-data-residency-requirements" title="Anchor link to this section">&para;</a></h3>
-<p>Hermes supports per-region deployment with separate instances for US, EU, and APAC. Data residency verification skills monitor that regulated data stays within regional boundaries. Global aggregations avoid PII movement.</p>
+<p>Hermes supports separate regional instances for US, EU, and APAC deployments. Organizations must still validate storage, network, model-provider, and aggregation paths against their residency requirements; a regional instance alone is not a residency guarantee.</p>
 <h3 id="what-secrets-management-does-hermes-support">What secrets management does Hermes support?<a class="headerlink" href="#what-secrets-management-does-hermes-support" title="Anchor link to this section">&para;</a></h3>
 <p>Hermes integrates with HashiCorp Vault, AWS Secrets Manager, and Azure Key Vault. Credentials should never be stored in skill files or configuration. Service accounts use minimum required permissions with scheduled rotation.</p>
 <h3 id="how-does-change-management-work-for-hermes-skills">How does change management work for Hermes skills?<a class="headerlink" href="#how-does-change-management-work-for-hermes-skills" title="Anchor link to this section">&para;</a></h3>

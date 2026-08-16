@@ -10786,7 +10786,7 @@
 <li><strong>Operations Dashboard</strong>: Expense trends, vendor spend, inventory metrics</li>
 </ul>
 <h3 id="3-real-time-data-refresh">3. Real-Time Data Refresh<a class="headerlink" href="#3-real-time-data-refresh" title="Anchor link to this section">&para;</a></h3>
-<p>Every dashboard pull queries QuickBooks live  --  there's no stale cache. The numbers you see reflect the current state of your books, not last week's export. This is critical for cash flow monitoring and AR management where hour-level freshness matters.</p>
+<p>Dashboard pulls query QuickBooks at request time. Freshness follows QuickBooks and CorpusIQ cache behavior, so verify time-sensitive figures against the cited source record.</p>
 <h3 id="4-anomaly-highlighting">4. Anomaly Highlighting<a class="headerlink" href="#4-anomaly-highlighting" title="Anchor link to this section">&para;</a></h3>
 <p>ChatGPT doesn't just present numbers  --  it flags what needs attention. "Your gross margin dropped 3.2 percentage points this month  --  the largest one-month decline in 18 months. The primary driver was a 15% increase in COGS for the Widget product line." These contextual alerts turn raw data into actionable intelligence.</p>
 <h2 id="key-benefits">Key Benefits<a class="headerlink" href="#key-benefits" title="Anchor link to this section">&para;</a></h2>
@@ -10881,7 +10881,7 @@
 <h3 id="is-there-a-limit-to-dashboard-complexity">Is there a limit to dashboard complexity?<a class="headerlink" href="#is-there-a-limit-to-dashboard-complexity" title="Anchor link to this section">&para;</a></h3>
 <p>Practical limits depend on the AI model's context window. ChatGPT can handle dashboards with 15-25 metrics comfortably. Claude's 200K window can accommodate extremely detailed dashboards with 50+ metrics and deep historical comparisons.</p>
 <h3 id="how-secure-is-my-dashboard-data">How secure is my dashboard data?<a class="headerlink" href="#how-secure-is-my-dashboard-data" title="Anchor link to this section">&para;</a></h3>
-<p>Dashboard queries are processed in real time with data traveling over encrypted connections. CorpusIQ does not persist your QuickBooks data. The dashboard output exists only in your conversation session.</p>
+<p>CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <h2 id="get-started-with-quickbooks-dashboard-with-chatgpt">Get Started with QuickBooks Dashboard with ChatGPT<a class="headerlink" href="#get-started-with-quickbooks-dashboard-with-chatgpt" title="Anchor link to this section">&para;</a></h2>
 <p>Ready to put AI to work on your quickbooks dashboard with chatgpt data? </p>
 <ol>

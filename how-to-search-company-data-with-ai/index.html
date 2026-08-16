@@ -10233,7 +10233,7 @@ Support (HubSpot tickets):
 <li><strong>Translates natural language</strong> into structured API queries across each source</li>
 <li><strong>Orchestrates parallel queries</strong>  --  searching CRM, email, accounting, and support tools simultaneously</li>
 <li><strong>Returns structured data</strong> that AI can format into coherent, readable answers</li>
-<li><strong>Maintains security</strong>  --  read-only access, no data storage, inherits source permissions</li>
+<li><strong>Scoped direct-MCP retention.</strong> CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</li>
 </ol>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: Is this like Google for my company but with AI?</strong><br />
@@ -10243,7 +10243,7 @@ A: Yes. Connected email (Gmail, Outlook) and drive (Google Drive, OneDrive, Drop
 <p><strong>Q: How is this different from each tool's built-in search?</strong><br />
 A: Built-in search only searches one tool. CorpusIQ searches across all connected tools simultaneously and presents unified results. You don't need to know which tool has the answer.</p>
 <p><strong>Q: Is my data safe during AI searches?</strong><br />
-A: Yes. CorpusIQ queries live APIs with read-only access. Your data isn't copied, indexed, or stored. The AI only sees the specific results that match your query.</p>
+A: Yes. CorpusIQ queries live APIs with read-only access. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days. Optional indexed search has a separate embeddings and minimal-metadata lifecycle. The AI sees only the results needed for your query.</p>
 <p><strong>Q: Can I search by date ranges?</strong><br />
 A: Yes. Most connectors support date filtering. Ask "Show me deals from Q2 2026" or "Find emails from last week about the budget."</p>
 <p><strong>Q: What if the search returns too many results?</strong><br />

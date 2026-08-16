@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your data stack. No data moved or stored.">
+        <meta name="description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
       
       
       
@@ -75,13 +75,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/how-it-works/metric-specs/">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Metric Specs">
-  <meta property="og:description" content="CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your data stack. No data moved or stored.">
+  <meta property="og:description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Metric Specs">
-  <meta name="twitter:description" content="CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your data stack. No data moved or stored.">
+  <meta name="twitter:description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -89,7 +89,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Metric Specs",
-    "description": "CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your data stack. No data moved or stored.",
+    "description": "CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.",
     "url": "https://www.corpusiq.io/docs/how-it-works/metric-specs/",
     "isPartOf": {
       "@type": "WebSite",
@@ -10395,9 +10395,11 @@ vendor data, with a one-line audit trail attached.</p>
 your first spec, ask Claude for its value, read the provenance footer, and
 know what the warnings mean when they show up.</p>
 <h2 id="what-is-a-metric-spec">What is a metric spec?<a class="headerlink" href="#what-is-a-metric-spec" title="Anchor link to this section">&para;</a></h2>
-<p>A metric spec describes <strong>how to compute</strong> a number. It does not store the
-number, and it does not store any of the underlying data. The next call
-runs against fresh vendor responses. There is no warehouse and no cache.</p>
+<p>A metric spec describes <strong>how to compute</strong> a number. The next resolve call
+runs against fresh vendor responses rather than a stored metric value.
+CorpusIQ does not retain raw customer files or full connector response
+payloads; operational logs retain query text, per-user tool-call metadata,
+and bounded outcome summaries for up to 30 days.</p>
 <p>A spec has a key (<code>mrr</code>), a label (<code>Monthly Recurring Revenue</code>), a
 description (the paragraph you wrote so future-you remembers what counted),
 an expression in the mini-DSL (the actual recipe), an expected unit, and
@@ -10416,7 +10418,7 @@ layer is the only place "MRR" is defined; every dashboard, prompt, and
 report dereferences the same definition. They call the absence of
 ambiguity "no drift."</p>
 <p>We can't ship that architecture. CorpusIQ doesn't have a warehouse, by
-design — we never copy your data. We talk to 30+ vendor APIs live, on
+design — direct MCP resolves against 30+ vendor APIs live, on
 every request. Two of those vendors will sometimes disagree about a
 number (your Stripe MRR and your QuickBooks recurring revenue won't
 always reconcile, and that's interesting), and we want to surface that
@@ -10475,7 +10477,7 @@ Every field annotated.</p>
 </tr>
 <tr>
 <td><code>expected_freshness</code></td>
-<td>One of <code>realtime</code>, <code>daily</code>, <code>monthly</code>. <strong>Metadata only</strong>. The resolver does not cache anything and does not enforce freshness — the field exists so a future drift check can flag "your spec says daily but the underlying vendor is 11 days stale."</td>
+<td>One of <code>realtime</code>, <code>daily</code>, <code>monthly</code>. <strong>Metadata only</strong>. The resolver computes the value live instead of reusing a prior resolution, and does not enforce freshness — the field exists so a future drift check can flag "your spec says daily but the underlying vendor is 11 days stale."</td>
 </tr>
 <tr>
 <td><code>cross_source_checks</code></td>
@@ -10707,7 +10709,7 @@ against fixtures" (infra-level). The first two are usually informative.
 The third sometimes means a connector is down for everyone.</p>
 <h2 id="what-metric-specs-do-not-do">What metric specs do NOT do<a class="headerlink" href="#what-metric-specs-do-not-do" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>No data warehouse.</strong> We don't copy Stripe / QuickBooks / Shopify / anything else into our own store. Every resolve hits live vendor APIs.</li>
+<li><strong>No replicated source-data warehouse.</strong> Every resolve hits live vendor APIs. Direct MCP does not retain raw customer files or full connector response payloads; operational logs follow the published retention schedule.</li>
 <li><strong>No result caching.</strong> Two calls 30 seconds apart will both hit Stripe. <code>expected_freshness</code> is metadata; it does not implement a TTL.</li>
 <li><strong>No semantic correctness guarantee.</strong> The system honors the recipe you wrote. If you defined MRR wrong, the resolver will faithfully compute a wrong number. That's why the description field, the <code>last_reviewed_at</code> re-attestation, and the eval gate exist — they push the responsibility back to the human who knows the business.</li>
 <li><strong>No team sharing in v0.</strong> Specs are per-user. Multi-user sharing is a v1.5 design discussion and the data model leaves room for it.</li>
@@ -10769,10 +10771,10 @@ reaches your specs.</p>
 <p><strong>How do I know if my number is fresh?</strong></p>
 <p>The provenance footer reports the moment the resolve ran (implicit in
 its <code>computed_at</code> field on the underlying <code>MetricSpecResult</code>) and tells
-you how many rows came from each connector. There is no "last cache
-update" because there is no cache. If you want to know how stale the
-underlying vendor data is, ask the AI to surface the most recent row
-timestamp alongside the value — that's a one-line addition to the
+you how many rows came from each connector. Metric resolution requests
+current source data; freshness follows each provider and CorpusIQ cache
+behavior. To assess vendor freshness, ask the AI to surface the most
+recent row timestamp alongside the value — that's a one-line addition to the
 question.</p>
 <p><strong>Can I version a spec?</strong></p>
 <p>Yes — every <code>metric_spec_set</code> commit increments the spec's version.

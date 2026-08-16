@@ -10037,7 +10037,7 @@
 <h2 id="quick-setup-from-zero-to-insights-in-minutes">Quick Setup: From Zero to Insights in Minutes<a class="headerlink" href="#quick-setup-from-zero-to-insights-in-minutes" title="Anchor link to this section">&para;</a></h2>
 <p>The setup process for a small business using CorpusIQ:</p>
 <p><strong>1. Create an account.</strong> Sign up through the CorpusIQ platform. No credit card required to start.</p>
-<p><strong>2. Connect QuickBooks.</strong> Authorize CorpusIQ to access your QuickBooks data through OAuth. The connection is read-only by default  --  CorpusIQ can read your financial data but cannot modify it.</p>
+<p><strong>2. Connect QuickBooks.</strong> Authorize CorpusIQ to access your QuickBooks data through OAuth. The advertised financial-data retrieval tools are marked read-only. Write-capable tools, when available, are separately named and annotated.</p>
 <p><strong>3. Connect your CRM.</strong> Authorize HubSpot, Salesforce, or your preferred CRM. Again, read-only access for querying contacts, deals, and pipeline data.</p>
 <p><strong>4. Connect your ecommerce platform.</strong> Authorize Shopify, Amazon Seller Central, or your sales channels.</p>
 <p><strong>5. Connect analytics.</strong> Authorize Google Analytics, Meta Ads, or your marketing platforms.</p>
@@ -10062,7 +10062,7 @@
 <p><strong>Flat pricing, not per-seat.</strong> Small businesses don't need to count users. CorpusIQ's pricing is based on platform access tier, not per-user licensing.</p>
 <p><strong>No minimum commitment.</strong> Month-to-month plans let small businesses try the platform without long-term contracts.</p>
 <p><strong>Self-service onboarding.</strong> No implementation calls, no consulting engagements. The setup is designed to be completed by a business owner, not an IT team.</p>
-<p><strong>Read-only safety.</strong> Small business owners can connect their financial systems without worrying about the AI accidentally modifying data. Read-only defaults mean zero risk of unintended changes.</p>
+<p><strong>Read-only external retrieval.</strong> Small business owners can query connected financial systems without the connector tools writing back to those vendor records. Explicit CorpusIQ control-plane changes are separately annotated.</p>
 <p><strong>Mobile-friendly queries.</strong> Ask questions from your phone through any MCP-compatible AI client. Check business health during your morning coffee without opening a laptop.</p>
 <h2 id="faq-common-questions">FAQ: Common Questions<a class="headerlink" href="#faq-common-questions" title="Anchor link to this section">&para;</a></h2>
 <details>
@@ -10080,7 +10080,7 @@ CorpusIQ offers plans starting at accessible SMB price points. Visit the CorpusI
 <details>
 <summary><strong>Is my data secure? Can the AI accidentally delete something?</strong></summary>
 
-CorpusIQ defaults to read-only access for all connectors. The AI cannot modify, delete, or create data. It can only read and report. For small businesses, this means zero risk of the AI making unintended changes to your QuickBooks or Shopify data.
+CorpusIQ external-source connector tools use read-only retrieval and do not modify, delete, or create records in connected vendor systems such as QuickBooks or Shopify. Explicit CorpusIQ control-plane tools operate only on user-declared CorpusIQ state and carry separate safety annotations.
 </details>
 
 <details>

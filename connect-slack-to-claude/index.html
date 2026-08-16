@@ -10075,7 +10075,7 @@
 <ul>
 <li><strong>Read-only OAuth.</strong> Claude can search and read messages but can never send messages, create channels, or modify workspace settings.</li>
 <li><strong>No direct message access.</strong> Claude can only search public channels and private channels it has been explicitly invited to.</li>
-<li><strong>No data storage.</strong> Messages are never persisted on CorpusIQ servers.</li>
+<li><strong>Scoped direct-MCP retention.</strong> CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</li>
 <li><strong>Workspace admin control.</strong> Slack workspace admins can revoke access at any time.</li>
 </ul>
 <h2 id="comparison-mcp-vs-slack-api-direct">Comparison: MCP vs. Slack API Direct<a class="headerlink" href="#comparison-mcp-vs-slack-api-direct" title="Anchor link to this section">&para;</a></h2>
@@ -10119,7 +10119,7 @@
 <p><strong>Q: Can Claude read direct messages or private channels?</strong>
 A: Claude can only access public channels and private channels it has been explicitly added to. Direct messages are never accessible.</p>
 <p><strong>Q: Can Claude send messages to Slack?</strong>
-A: No. The integration is strictly read-only.</p>
+A: The advertised Slack retrieval tools are read-only and do not send messages. Write-capable tools, when available, are separately named and annotated.</p>
 <p><strong>Q: How far back can Claude search?</strong>
 A: Claude can search your entire message history, subject to your Slack workspace's retention settings.</p>
 <p><strong>Q: Does this work with Slack Enterprise Grid?</strong>

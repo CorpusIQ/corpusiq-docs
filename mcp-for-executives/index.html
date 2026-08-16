@@ -10093,7 +10093,7 @@ Yes. CorpusIQ's canonical facts feature lets you define how key metrics should b
 <details>
 <summary><strong>Is this secure enough for sensitive board-level data?</strong></summary>
 
-Yes. All connections use OAuth with read-only scopes. Data is queried on demand and never stored. Audit logs track every query. CorpusIQ maintains SOC 2 Type II certification.
+Yes. CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 </details>
 
 <details>

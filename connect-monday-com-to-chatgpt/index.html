@@ -10161,7 +10161,7 @@ CorpusIQ connects to your Monday.com account via OAuth 2.0. You authorize read-o
 <details>
 <summary><strong>Is the connection read-only?</strong></summary>
 
-Yes. CorpusIQ requests read-only OAuth scopes from Monday.com. ChatGPT can see boards, items, statuses, owners, and due dates. It cannot create items, update statuses, reassign tasks, or modify anything in your Monday.com account. The read-only guarantee is enforced at the OAuth scope level.
+Yes. CorpusIQ requests read-only external-source retrieval scopes from Monday.com. ChatGPT can see boards, items, statuses, owners, and due dates. It cannot create items, update statuses, reassign tasks, or modify anything in your Monday.com account. The advertised Monday.com retrieval tools are marked read-only; write-capable tools, when available, are separately named and annotated.
 </details>
 
 <details>
@@ -10244,10 +10244,10 @@ Yes. "Give me a standup summary  --  tasks completed yesterday, tasks planned fo
 <ul>
 <li><strong>OAuth 2.0</strong> with read-only scopes. No write, create, update, or delete permissions.</li>
 <li><strong>Permission-Respecting.</strong> ChatGPT can only see boards and items that the authenticated user has access to in Monday.com.</li>
-<li><strong>No Data Persistence.</strong> Board data is queried live and discarded after the response.</li>
+<li><strong>Scoped direct-MCP retention.</strong> CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</li>
 <li><strong>TLS 1.3 Encryption.</strong> All data in transit is encrypted.</li>
 </ul>
-<p>For organizations with sensitive project data, this architecture means your Monday.com data stays in Monday.com. The MCP layer provides ephemeral, governed, read-only access.</p>
+<p>For organizations with sensitive project data, Monday.com remains the authoritative source. CorpusIQ retrieves permitted project data through direct MCP; the retention classes and lifecycles described above still apply.</p>
 <h2 id="comparison-mcp-vs-direct-mondaycom-api-integration">Comparison: MCP vs. Direct Monday.com API Integration<a class="headerlink" href="#comparison-mcp-vs-direct-mondaycom-api-integration" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>

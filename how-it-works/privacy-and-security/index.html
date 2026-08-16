@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your data stack. No data moved or stored.">
+        <meta name="description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
       
       
       
@@ -75,13 +75,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/how-it-works/privacy-and-security/">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="Privacy & Security">
-  <meta property="og:description" content="CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your data stack. No data moved or stored.">
+  <meta property="og:description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Privacy & Security">
-  <meta name="twitter:description" content="CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your data stack. No data moved or stored.">
+  <meta name="twitter:description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -89,7 +89,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Privacy & Security",
-    "description": "CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your data stack. No data moved or stored.",
+    "description": "CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.",
     "url": "https://www.corpusiq.io/docs/how-it-works/privacy-and-security/",
     "isPartOf": {
       "@type": "WebSite",
@@ -9999,7 +9999,7 @@
 
 <h1 id="privacy-and-security">Privacy and security<a class="headerlink" href="#privacy-and-security" title="Anchor link to this section">&para;</a></h1>
 <p>The short version: CorpusIQ reads your business data when you ask it to,
-stores nothing it doesn't need, and lets you disconnect at any moment.
+uses scoped retention, and lets you disconnect at any moment.
 It never writes to your vendor accounts. It never sells or resells your
 data to anyone.</p>
 <p>This page is plain English. The technical version lives in the
@@ -10008,15 +10008,18 @@ authentication and architecture docs.</p>
 <ul>
 <li>It does <strong>not</strong> sell your data. There is no advertising business, no
   third-party data resale, no aggregated-anonymized-data side business.</li>
-<li>It does <strong>not</strong> train AI models on your data. Your tokens and your
-  query results stay scoped to your account.</li>
+<li>It does <strong>not</strong> use customer data to train CorpusIQ models. Your tokens and
+  query results stay scoped to your account, while conversation handling follows
+  the selected AI provider's plan and settings.</li>
 <li>It does <strong>not</strong> write to your vendor accounts. Every connector is
   authenticated with <strong>read-only</strong> scopes. CorpusIQ cannot place an
   order in Shopify, send an email in Klaviyo, or post a message in
   Slack.</li>
-<li>It does <strong>not</strong> copy your data into a giant warehouse. When you ask a
-  question, CorpusIQ queries your tools live, uses the result to answer
-  you, and discards it.</li>
+<li>It does <strong>not</strong> retain raw customer files or full connector response
+  payloads for direct MCP requests. Query text, per-user tool-call
+  metadata, and bounded outcome summaries remain in operational logs for
+  up to 30 days. Optional indexed search has a separate embeddings and
+  minimal-metadata lifecycle.</li>
 <li>It does <strong>not</strong> share data across tenants. Your tokens and data are
   isolated to your user account. Other CorpusIQ users cannot see them.</li>
 </ul>
@@ -10036,13 +10039,10 @@ Nothing more.</p>
 CorpusIQ uses the refresh-token flow (where the vendor provides one) so
 you don't have to re-authenticate constantly. The refresh token is also
 encrypted at rest.</p>
-<p><strong>Honors disconnect immediately.</strong> When you disconnect a connector,
-CorpusIQ deletes the stored token. Future requests to that connector
-fail until you reconnect. Most vendors also let you revoke the
-authorization from their own admin panel.</p>
+<p><strong>Disconnects fail closed.</strong> When a disconnect tombstone commits, CorpusIQ stops selecting the stored grant and requires reauthorization before reuse. Credential cleanup is attempted after the tombstone; provider authorization remains provider-governed and can be managed from the provider admin panel.</p>
 <h2 id="where-the-data-is">Where the data is<a class="headerlink" href="#where-the-data-is" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ runs on Microsoft Azure. Tokens are in Azure Key Vault. Logs
-are in Azure with standard retention. The infrastructure is multi-tenant
+<p>CorpusIQ runs on Microsoft Azure. Tokens are in Azure Key Vault. Operational
+MCP logs are retained for up to 30 days. The infrastructure is multi-tenant
 but the data is single-tenant per user — every read uses your user
 identity to scope the query.</p>
 <h2 id="authentication-in-two-layers">Authentication, in two layers<a class="headerlink" href="#authentication-in-two-layers" title="Anchor link to this section">&para;</a></h2>
@@ -10053,8 +10053,7 @@ gives you an identity token. Every request you make from Claude or
 ChatGPT carries that identity so CorpusIQ knows it's you.</p>
 <p><strong>Layer 2 — CorpusIQ's link to each vendor.</strong> Separately, each connector
 holds its own OAuth token scoped to your CorpusIQ identity. When you
-ask a question, CorpusIQ looks up the right vendor token, makes the
-read-only call, and returns the result.</p>
+ask a question, CorpusIQ looks up the right vendor token, invokes the documented operation and returns the result.</p>
 <p>If Layer 1 fails, you can't use CorpusIQ at all. If Layer 2 fails for a
 specific connector (token expired, vendor revoked, scopes changed),
 only that connector stops working — the others are unaffected.</p>
@@ -10067,12 +10066,10 @@ assistant only sees:</p>
 </ul>
 <p>The assistant does not see your raw tokens. It does not have direct
 network access to Shopify or QuickBooks. Every external call goes
-through CorpusIQ's server, which enforces the read-only contract.</p>
+through CorpusIQ's server, which enforces operation-level routing and safety annotations.</p>
 <h2 id="what-to-do-if-something-feels-wrong">What to do if something feels wrong<a class="headerlink" href="#what-to-do-if-something-feels-wrong" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Disconnect first, ask questions later.</strong> Disconnect from the
-  CorpusIQ status panel and the token is gone. You can reconnect any
-  time.</li>
+<li><strong>Disconnect first, ask questions later.</strong> Disconnecting in CorpusIQ commits inactive connection state and requires reauthorization before reuse. Provider authorization remains provider-governed.</li>
 <li><strong>Revoke from the vendor side too.</strong> Google, Microsoft, Shopify, and
   most other vendors have a "Connected apps" page where you can revoke
   CorpusIQ's access directly. That's belt and suspenders.</li>
@@ -10080,8 +10077,10 @@ through CorpusIQ's server, which enforces the read-only contract.</p>
 </ul>
 <h2 id="disconnect-anytime">Disconnect anytime<a class="headerlink" href="#disconnect-anytime" title="Anchor link to this section">&para;</a></h2>
 <p>This is the bottom line: CorpusIQ only works for as long as you let it.
-Pull the plug on any connector at any time and it stops reading that
-tool immediately. No retention. No "but we already have a copy."</p>
+After a disconnect tombstone commits, CorpusIQ stops selecting that connector grant and requires reauthorization before reuse. Optional indexed-search embeddings and minimal metadata
+are removed on connector revocation or account deletion; operational logs
+expire within 30 days, and deletion/compliance receipts may remain for up
+to 24 months.</p>
 <h2 id="thats-the-deal">That's the deal.<a class="headerlink" href="#thats-the-deal" title="Anchor link to this section">&para;</a></h2>
 <p>*</p>
 <hr />

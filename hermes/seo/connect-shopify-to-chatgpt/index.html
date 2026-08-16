@@ -9841,7 +9841,7 @@
 <p>Then do the same for Stripe. Then QuickBooks. Then GA4. By the time you have all the numbers, 45 minutes have passed and the data is already stale.</p>
 <p>Connect Shopify directly to AI and the workflow becomes: ask your question. Get the answer.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
-<p>The connection uses read-only OAuth. You authorize once. Shopify grants access to view your data. The AI can query orders, products, customers, and analytics. It cannot modify anything. No orders can be changed. No products can be deleted. No customer data can be exported.</p>
+<p>The connection uses read-only external-source retrieval. You authorize once. Shopify grants access to view your data. The AI can query orders, products, customers, and analytics. It cannot modify anything. No orders can be changed. No products can be deleted. No customer data can be exported.</p>
 <p>When you ask "what was revenue last month," the system:
 1. Queries Shopify for order data in the date range
 2. Applies your revenue definition (gross, net, excluding tax/shipping, etc.)
@@ -9855,7 +9855,7 @@
 <h2 id="what-you-need">What You Need<a class="headerlink" href="#what-you-need" title="Anchor link to this section">&para;</a></h2>
 <p>A platform that:
 - Has a pre-built Shopify connector (not something you build yourself)
-- Uses read-only OAuth (the AI can see data but never change it)
+- Uses read-only external-source retrieval (the AI can see data but never change it)
 - Supports cross-tool queries (Shopify + Stripe + QuickBooks in one question)
 - Provides source citations (every number traces back to Shopify)
 - Works across multiple AIs (ChatGPT, Claude, Perplexity all get the same answers)</p>

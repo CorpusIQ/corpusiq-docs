@@ -10247,11 +10247,11 @@ Yes. Notion databases are structured collections with typed properties  --  text
 <ul>
 <li><strong>Integration Token</strong> with read-only capabilities. No content creation, editing, or deletion.</li>
 <li><strong>Page-Level Sharing.</strong> You explicitly share each top-level page and database with the integration. Unshared pages are inaccessible regardless of workspace membership.</li>
-<li><strong>No Data Persistence.</strong> Page content is queried live from Notion and discarded after the response.</li>
+<li><strong>Scoped direct-MCP retention.</strong> Notion retrieval tools are marked read-only. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</li>
 <li><strong>TLS 1.3 Encryption.</strong> All data in transit is encrypted.</li>
-<li><strong>Token Revocation.</strong> Revoke the integration token from Notion at any time to immediately cut off access.</li>
+<li><strong>Provider authorization.</strong> Manage the integration token through Notion; provider-side timing remains governed by Notion.</li>
 </ul>
-<p>For organizations with sensitive documentation  --  IP, strategy, customer data  --  this architecture provides granular access control: expose only the pages you want ChatGPT to access, and revoke access instantly if needed.</p>
+<p>For organizations with sensitive documentation  --  IP, strategy, customer data  --  this architecture provides granular access control: expose only the pages you want ChatGPT to access, and manage provider authorization in Notion when needed.</p>
 <h2 id="comparison-mcp-vs-notion-built-in-search">Comparison: MCP vs. Notion Built-in Search<a class="headerlink" href="#comparison-mcp-vs-notion-built-in-search" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>

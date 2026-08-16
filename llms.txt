@@ -1,7 +1,8 @@
 # CorpusIQ Documentation — AI Assistant Index
 
 > Index for LLMs and coding agents. Full page content at llms-full.txt.
-> CorpusIQ connects 40+ business tools (QuickBooks, Shopify, Stripe, HubSpot, GA4) to ChatGPT, Claude, and Perplexity via MCP. Read-only OAuth. Source-cited answers. Zero data stored.
+> CorpusIQ connects 40+ business tools to AI clients through read-only MCP access.
+> For MCP connector requests, CorpusIQ fetches source records live and returns them to the requesting AI client. It does not retain raw customer files or full connector response payloads, and it does not build embeddings, file indexes, or cached or indexed summaries. Query text, per-user tool-call metadata, and bounded outcome summaries are retained in operational logs for up to 30 days.
 
 ## Core
 - [CorpusIQ — Connect Your Business Data to ChatGPT, Claude, and Perplexity](https://www.corpusiq.io/docs/): CorpusIQ connects 40+ business tools (QuickBooks, Shopify, Stripe, HubSpot, GA4) to ChatGPT, Claude, and Perplexity via MCP. Read-only OAuth. Source-c
@@ -24,7 +25,7 @@
 - [AI for Data Analysis: From SQL Queries to Natural Conversations](https://www.corpusiq.io/docs/ai-for-data-analysis/): Transform data analysis with AI. Query databases, spreadsheets, and business tools in natural language. Instant SQL-free analysis, cross-source correl
 - [AI for Document Search: Find Answers, Not Just Files](https://www.corpusiq.io/docs/ai-for-document-search/): Transform document search with AI. Find information across SharePoint, Google Drive, OneDrive, and Notion in natural language. Read document contents,
 - [AI for Executive Reporting: Instant Board-Ready Intelligence](https://www.corpusiq.io/docs/ai-for-executive-reporting/): Transform executive reporting with AI. Generate board-ready reports from live data across all business systems. Instant business health summaries, fin
-- [AI for Financial Analysis: Real-Time Finance Intelligence](https://www.corpusiq.io/docs/ai-for-financial-analysis/): Transform financial analysis with AI. Query QuickBooks, Stripe, NetSuite in natural language. Instant P&L, cash flow, and variance analysis. Read-only
+- [AI for Financial Analysis: Real-Time Finance Intelligence](https://www.corpusiq.io/docs/ai-for-financial-analysis/): Transform financial analysis with AI. Query QuickBooks, Stripe, and NetSuite in natural language. Instant P&L, cash flow, and variance analysis on a r
 - [AI for Forecasting: Predictive Intelligence from Live Data](https://www.corpusiq.io/docs/ai-for-forecasting/): Transform business forecasting with AI. Combine historical data, pipeline, and market signals for accurate predictions. Revenue forecasting, cash flow
 - [AI for Knowledge Management: Unlock Your Organization's Brain](https://www.corpusiq.io/docs/ai-for-knowledge-management/): Transform knowledge management with AI. Query wikis, docs, Slack, and project tools in natural language. Surface institutional knowledge, accelerate o
 - [AI for KPI Monitoring: Real-Time Metrics at Your Fingertips](https://www.corpusiq.io/docs/ai-for-kpi-monitoring/): Transform KPI monitoring with AI. Track key performance indicators across all business systems in real time. Automated alerts, trend detection, and cr

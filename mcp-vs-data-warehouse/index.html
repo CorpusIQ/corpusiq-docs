@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Compare MCP servers vs traditional data warehouses. MCP queries live business data with zero storage overhead, while data warehouses require batch ETL">
+        <meta name="description" content="Compare MCP servers with traditional data warehouses: live source queries and scoped operational retention versus batch ETL and persistent analytical storage.">
       
       
       
@@ -75,13 +75,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/mcp-vs-data-warehouse/">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="MCP vs Data Warehouse: Live Query vs Batch ETL">
-  <meta property="og:description" content="Compare MCP servers vs traditional data warehouses. MCP queries live business data with zero storage overhead, while data warehouses require batch ETL">
+  <meta property="og:description" content="Compare MCP servers with traditional data warehouses: live source queries and scoped operational retention versus batch ETL and persistent analytical storage.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="MCP vs Data Warehouse: Live Query vs Batch ETL">
-  <meta name="twitter:description" content="Compare MCP servers vs traditional data warehouses. MCP queries live business data with zero storage overhead, while data warehouses require batch ETL">
+  <meta name="twitter:description" content="Compare MCP servers with traditional data warehouses: live source queries and scoped operational retention versus batch ETL and persistent analytical storage.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -89,7 +89,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "MCP vs Data Warehouse: Live Query vs Batch ETL",
-    "description": "Compare MCP servers vs traditional data warehouses. MCP queries live business data with zero storage overhead, while data warehouses require batch ETL",
+    "description": "Compare MCP servers with traditional data warehouses: live source queries and scoped operational retention versus batch ETL and persistent analytical storage.",
     "url": "https://www.corpusiq.io/docs/mcp-vs-data-warehouse/",
     "isPartOf": {
       "@type": "WebSite",
@@ -2420,10 +2420,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#zero-storage-vs-persistent-storage" class="md-nav__link">
+  <a href="#scoped-retention-vs-persistent-analytical-storage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Zero Storage vs Persistent Storage
+        Scoped Retention vs Persistent Analytical Storage
       
     </span>
   </a>
@@ -9945,10 +9945,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#zero-storage-vs-persistent-storage" class="md-nav__link">
+  <a href="#scoped-retention-vs-persistent-analytical-storage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Zero Storage vs Persistent Storage
+        Scoped Retention vs Persistent Analytical Storage
       
     </span>
   </a>
@@ -10067,7 +10067,7 @@
 <p>For decades, the <strong>data warehouse</strong> has been the cornerstone of business intelligence  --  extract data from operational systems, transform it, load it into a central repository, and run reports against the copy. The <strong>Model Context Protocol</strong> challenges this model by querying source systems directly, eliminating ETL pipelines, storage costs, and batch latency entirely. Understanding when to use MCP's live query approach versus a traditional data warehouse is critical for building an efficient modern data strategy.</p>
 <h2 id="the-architecture-gap">The Architecture Gap<a class="headerlink" href="#the-architecture-gap" title="Anchor link to this section">&para;</a></h2>
 <p>A data warehouse operates on a <strong>store-then-query</strong> model. Data flows from source systems through ETL pipelines into the warehouse, where it sits waiting to be queried. The warehouse is a copy of your operational data, maintained at significant infrastructure cost. Every new data source means new ETL pipelines, new schema design, and new storage requirements.</p>
-<p>MCP operates on a <strong>query-directly</strong> model. The MCP server doesn't store data  --  it queries source systems on demand and returns results. There's no ETL pipeline, no schema to maintain, no storage to provision. When you ask about today's sales, the MCP server queries your ecommerce platform directly. The data is always current because there's no copy to fall out of sync.</p>
+<p>MCP operates on a <strong>query-directly</strong> model. Direct MCP queries source systems on demand instead of maintaining a replicated business-data warehouse. CorpusIQ does not retain raw customer files or full connector response payloads; operational logs are retained for up to 30 days. There's no customer-managed ETL pipeline, warehouse schema, or warehouse storage to provision. When you ask about today's sales, the MCP server queries your ecommerce platform directly, avoiding a warehouse replica that can fall out of sync.</p>
 <h2 id="data-freshness-real-time-vs-batch-windows">Data Freshness: Real-Time vs Batch Windows<a class="headerlink" href="#data-freshness-real-time-vs-batch-windows" title="Anchor link to this section">&para;</a></h2>
 <p>Data warehouses are inherently batch-oriented. ETL jobs run on schedules  --  hourly, daily, or weekly depending on data volume and infrastructure capacity. A typical setup refreshes the warehouse overnight, meaning the data you query at 10 AM is already hours stale. For rapidly changing operational data like order volumes, inventory levels, or ad spend, this latency directly impacts decision quality.</p>
 <p>MCP queries execute against live production systems. There's no batch window, no refresh delay. When you ask "what's our revenue so far today?", the answer reflects the current state of your accounting or ecommerce platform  --  not last night's snapshot.</p>
@@ -10076,9 +10076,9 @@
 - <strong>Fraud monitoring</strong>  --  detecting unusual transaction patterns as they develop
 - <strong>Campaign optimization</strong>  --  adjusting ad spend based on today's performance, not yesterday's
 - <strong>Cash position</strong>  --  understanding real-time liquidity for payment decisions</p>
-<h2 id="zero-storage-vs-persistent-storage">Zero Storage vs Persistent Storage<a class="headerlink" href="#zero-storage-vs-persistent-storage" title="Anchor link to this section">&para;</a></h2>
+<h2 id="scoped-retention-vs-persistent-analytical-storage">Scoped Retention vs Persistent Analytical Storage<a class="headerlink" href="#scoped-retention-vs-persistent-analytical-storage" title="Anchor link to this section">&para;</a></h2>
 <p>Data warehouses store everything. This is both their strength and their weakness. Storage enables historical analysis, trend detection, and complex aggregations that would be impractical to compute on demand. But storage also means infrastructure costs, data governance overhead, and the risk of storing sensitive data in yet another system.</p>
-<p>MCP servers store nothing. They're stateless query proxies  --  each request is a fresh query against the source system. This eliminates storage costs entirely and reduces the data security surface area. Your business data stays in the systems you already trust, and the MCP server accesses it on demand without persisting it.</p>
+<p>CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <p>The trade-off is that MCP can't do what data warehouses do best: run complex analytical queries across years of historical data. For that, you still need a warehouse. But for the vast majority of business questions  --  "how are we doing this week?", "what's in our pipeline?", "which campaigns are performing?"  --  live query access is not just sufficient, it's superior.</p>
 <h2 id="setup-time-days-vs-minutes">Setup Time: Days vs Minutes<a class="headerlink" href="#setup-time-days-vs-minutes" title="Anchor link to this section">&para;</a></h2>
 <p>Standing up a data warehouse integration requires:
@@ -10089,7 +10089,7 @@
 5. Testing data quality and consistency
 6. Building reporting layers on top</p>
 <p>This process typically takes weeks or months per data source, even with modern tools like Fivetran and dbt streamlining parts of the pipeline.</p>
-<p>Setting up MCP through CorpusIQ takes minutes. Authenticate each data source through OAuth  --  that's it. There's no schema to design because the MCP server queries the source API directly. There are no ETL jobs to monitor because there's no data movement. The AI model handles the "transformation" by understanding the tool descriptions and constructing appropriate queries.</p>
+<p>Setting up MCP through CorpusIQ takes minutes. Authenticate each data source through OAuth, then query the source API directly. There is no replicated ETL warehouse or scheduled pipeline to monitor; scoped operational logs follow the published retention schedule.</p>
 <h2 id="schema-management">Schema Management<a class="headerlink" href="#schema-management" title="Anchor link to this section">&para;</a></h2>
 <p>Data warehouses require explicit schema design. You must decide what tables to create, what columns each contains, what data types to use, and how to handle relationships between tables. When the source system's schema changes (and it will), someone must update the ETL pipelines and possibly the warehouse schema. Schema drift is a constant maintenance burden.</p>
 <p>MCP servers have no schema  --  they present the source system's API as a set of discoverable tools. When the source API changes, the MCP server connector is updated to match. There's no intermediate schema to maintain, no transformation logic to update, no downstream impacts to manage.</p>
@@ -10125,7 +10125,7 @@ MCP is designed for operational queries against live data. It can handle multi-s
 <details>
 <summary><strong>Does MCP store any data at all?</strong></summary>
 
-CorpusIQ's MCP architecture is stateless for business data. Query results are returned to the AI model and discarded. Tool definitions and metadata may be cached for performance, but your actual business data is never stored.
+CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.
 </details>
 
 <details>

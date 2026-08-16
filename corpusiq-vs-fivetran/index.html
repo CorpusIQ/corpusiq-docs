@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="CorpusIQ's MCP real-time query vs Fivetran's ETL batch pipelines. No data movement, no warehouse costs, instant access. Fair feature comparison.">
+        <meta name="description" content="Compare CorpusIQ live MCP queries and scoped retention with Fivetran ETL pipelines and persistent warehouse replication.">
       
       
         <meta name="author" content="CorpusIQ">
@@ -77,13 +77,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/corpusiq-vs-fivetran/">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="CorpusIQ vs Fivetran">
-  <meta property="og:description" content="CorpusIQ's MCP real-time query vs Fivetran's ETL batch pipelines. No data movement, no warehouse costs, instant access. Fair feature comparison.">
+  <meta property="og:description" content="Compare CorpusIQ live MCP queries and scoped retention with Fivetran ETL pipelines and persistent warehouse replication.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="CorpusIQ vs Fivetran">
-  <meta name="twitter:description" content="CorpusIQ's MCP real-time query vs Fivetran's ETL batch pipelines. No data movement, no warehouse costs, instant access. Fair feature comparison.">
+  <meta name="twitter:description" content="Compare CorpusIQ live MCP queries and scoped retention with Fivetran ETL pipelines and persistent warehouse replication.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -91,7 +91,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "CorpusIQ vs Fivetran",
-    "description": "CorpusIQ's MCP real-time query vs Fivetran's ETL batch pipelines. No data movement, no warehouse costs, instant access. Fair feature comparison.",
+    "description": "Compare CorpusIQ live MCP queries and scoped retention with Fivetran ETL pipelines and persistent warehouse replication.",
     "url": "https://www.corpusiq.io/docs/corpusiq-vs-fivetran/",
     "isPartOf": {
       "@type": "WebSite",
@@ -5180,10 +5180,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-no-data-movement-no-data-gravity" class="md-nav__link">
+  <a href="#1-no-etl-warehouse" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. No Data Movement -- No Data Gravity
+        1. No ETL Warehouse
       
     </span>
   </a>
@@ -10092,10 +10092,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-no-data-movement-no-data-gravity" class="md-nav__link">
+  <a href="#1-no-etl-warehouse" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. No Data Movement -- No Data Gravity
+        1. No ETL Warehouse
       
     </span>
   </a>
@@ -10314,7 +10314,7 @@
 <p>Fivetran is the leading managed ETL (Extract, Transform, Load) platform, automating data pipelines from hundreds of sources into cloud data warehouses. CorpusIQ takes a fundamentally different approach: instead of moving data into a warehouse for analysis, it queries data where it lives  --  in real time, through the MCP protocol. Both approaches have legitimate use cases, but for AI-powered business intelligence, the difference in architecture creates dramatically different experiences.</p>
 <h2 id="the-fundamental-difference-move-vs-query">The Fundamental Difference: Move vs Query<a class="headerlink" href="#the-fundamental-difference-move-vs-query" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Fivetran's model:</strong> Extract data from source → transform it → load it into a warehouse → query the warehouse with SQL or BI tools.</p>
-<p><strong>CorpusIQ's model:</strong> AI asks a question → CorpusIQ queries the live source via API → AI presents the answer. No intermediate copy.</p>
+<p><strong>CorpusIQ's model:</strong> AI asks a question → CorpusIQ queries the live source via API → AI presents the answer. Direct MCP does not retain raw customer files or full connector response payloads; optional indexed search is separate.</p>
 <p>This architectural difference has cascading implications for cost, speed, freshness, and complexity.</p>
 <h2 id="quick-comparison">Quick Comparison<a class="headerlink" href="#quick-comparison" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10333,12 +10333,12 @@
 </tr>
 <tr>
 <td><strong>Data Freshness</strong></td>
-<td>Instant  --  queries live source</td>
+<td>Requested from the provider; freshness follows provider and cache behavior</td>
 <td>5 min to 24 hours (sync frequency)</td>
 </tr>
 <tr>
-<td><strong>Data Movement</strong></td>
-<td>None</td>
+<td><strong>Source-data replication</strong></td>
+<td>No raw-file/full-payload warehouse</td>
 <td>Full replication to warehouse</td>
 </tr>
 <tr>
@@ -10363,7 +10363,7 @@
 </tr>
 <tr>
 <td><strong>Data Storage</strong></td>
-<td>None  --  ephemeral access</td>
+<td>Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist up to 30 days</td>
 <td>Permanent warehouse copy</td>
 </tr>
 <tr>
@@ -10379,11 +10379,11 @@
 </tbody>
 </table>
 <h2 id="corpusiqs-advantages">CorpusIQ's Advantages<a class="headerlink" href="#corpusiqs-advantages" title="Anchor link to this section">&para;</a></h2>
-<h3 id="1-no-data-movement-no-data-gravity">1. No Data Movement  --  No Data Gravity<a class="headerlink" href="#1-no-data-movement-no-data-gravity" title="Anchor link to this section">&para;</a></h3>
-<p>Every piece of data you copy creates a governance, security, and freshness burden. CorpusIQ eliminates data movement entirely. Your data stays in its source system  --  HubSpot, Salesforce, QuickBooks, Stripe  --  and queries run against the live API.</p>
+<h3 id="1-no-etl-warehouse">1. No ETL Warehouse<a class="headerlink" href="#1-no-etl-warehouse" title="Anchor link to this section">&para;</a></h3>
+<p>Every source-data copy creates a governance, security, and freshness burden. CorpusIQ queries HubSpot, Salesforce, QuickBooks, Stripe, and other source APIs live without building a raw-file or full-payload warehouse. Scoped operational logs may persist for up to 30 days.</p>
 <p><strong>Why this matters:</strong> GDPR compliance, SOC 2 audits, and internal data governance all become simpler when you don't maintain additional copies of sensitive business data.</p>
 <h3 id="2-real-time-freshness">2. Real-Time Freshness<a class="headerlink" href="#2-real-time-freshness" title="Anchor link to this section">&para;</a></h3>
-<p>Fivetran syncs on a schedule  --  every 5 minutes, every hour, every 24 hours. That means your warehouse data is always slightly stale. CorpusIQ queries live APIs on every request, so you always get the current state of your business.</p>
+<p>Fivetran syncs on a schedule  --  every 5 minutes, every hour, every 24 hours. That means your warehouse data is always slightly stale. CorpusIQ requests current provider data for each query; freshness follows provider behavior and any documented CorpusIQ caching.</p>
 <p><strong>Example:</strong> You just closed a $50K deal in HubSpot. With CorpusIQ, an AI query 30 seconds later reflects that deal. With Fivetran, you wait until the next sync  --  potentially hours.</p>
 <h3 id="3-no-warehouse-required">3. No Warehouse Required<a class="headerlink" href="#3-no-warehouse-required" title="Anchor link to this section">&para;</a></h3>
 <p>Fivetran requires a destination data warehouse: Snowflake, BigQuery, Redshift, or Databricks. That's an additional cost, additional maintenance, and additional expertise required. CorpusIQ needs no warehouse  --  it queries sources directly.</p>
@@ -10439,7 +10439,7 @@ Fivetran:  Source → Fivetran → Warehouse → BI Tool → Analyst
 <td><strong>Fivetran + Warehouse</strong></td>
 </tr>
 <tr>
-<td>Compliance requires no data copies</td>
+<td>Compliance favors no raw-file/full-payload warehouse and scoped logs</td>
 <td><strong>CorpusIQ</strong></td>
 </tr>
 <tr>
@@ -10457,7 +10457,7 @@ Fivetran:  Source → Fivetran → Warehouse → BI Tool → Analyst
 <p>These tools serve different purposes, but for the use case of "ask questions about your business data," CorpusIQ is dramatically more cost-effective.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: Does CorpusIQ store my data like Fivetran does?</strong><br />
-A: No. CorpusIQ never stores, caches, or copies your data. Every query runs against the live source API.</p>
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <p><strong>Q: Can CorpusIQ handle the data volumes Fivetran processes?</strong><br />
 A: CorpusIQ is designed for business intelligence queries, not bulk data extraction. For terabyte-scale analytics, a warehouse approach is more appropriate.</p>
 <p><strong>Q: What if my data source goes down? Does CorpusIQ work offline?</strong><br />
@@ -10469,7 +10469,7 @@ A: CorpusIQ  --  queries complete in 1-5 seconds against live APIs. Fivetran req
 <p><strong>Q: Can CorpusIQ replace my data warehouse?</strong><br />
 A: For AI-powered business questions  --  yes. For formal BI reporting, historical analysis, and ML workloads  --  no. They complement each other.</p>
 <p><strong>Q: How does security compare?</strong><br />
-A: Both platforms are enterprise-grade. CorpusIQ's advantage: no data copies means fewer surfaces to secure. Fivetran's advantage: warehouse-level encryption and access controls for the centralized copy.</p>
+A: Both platforms address different enterprise needs. CorpusIQ avoids a raw-file/full-payload warehouse while retaining scoped operational logs. Fivetran provides warehouse-level encryption and access controls for a centralized copy.</p>
 <p><strong>Q: Which is easier to implement?</strong><br />
 A: CorpusIQ  --  2 minutes to connect, instant AI access. Fivetran  --  hours to days for connector setup, warehouse configuration, schema management, and transformation logic.</p>
 <h2 id="get-started-with-corpusiq-vs-fivetran-mcp-live-query-vs-etl-batch-pipelines">Get Started with CorpusIQ vs Fivetran  --  MCP Live Query vs ETL Batch Pipelines<a class="headerlink" href="#get-started-with-corpusiq-vs-fivetran-mcp-live-query-vs-etl-batch-pipelines" title="Anchor link to this section">&para;</a></h2>

@@ -9945,7 +9945,7 @@
 </ol>
 <h2 id="security-model">Security Model<a class="headerlink" href="#security-model" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>Read-only access to all connected data sources</li>
+<li>Read-only external-source retrieval with separately annotated management/control-plane writes</li>
 <li>OAuth 2.0 with refresh token rotation</li>
 <li>Device flow prevents credential exposure</li>
 <li>HTTPS/TLS for all connections</li>
@@ -9957,7 +9957,7 @@
 <p>The <a href="https://demo.corpusiq.io">demo.corpusiq.io</a> chat interface is a web application that connects to the same MCP endpoint used by AI agents.</p>
 <h2 id="frequently-asked-questions">Frequently Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: What is the CorpusIQ system architecture?</strong><br />
-A: CorpusIQ uses a three-layer architecture: AI clients (Claude, ChatGPT, Cursor) connect via MCP protocol to the CorpusIQ MCP endpoint, which routes queries through the connector layer to 36+ business data sources. All access is read-only via OAuth 2.0.</p>
+A: CorpusIQ uses a three-layer architecture: AI clients (Claude, ChatGPT, Cursor) connect via MCP protocol to the CorpusIQ MCP endpoint, which routes queries through the connector layer to business data sources. External-source retrieval uses documented OAuth scopes and does not write back to vendor systems; explicit CorpusIQ control-plane writes are separately annotated.</p>
 <p><strong>Q: How does data flow through CorpusIQ?</strong><br />
 A: AI agent sends query via MCP → MCP endpoint authenticates request → Tool registry maps query to connectors → Connector retrieves data from source API → Data is normalized and returned → Agent presents answer to user. All steps are logged for audit.</p>
 <p><strong>Q: Is CorpusIQ self-hosted or a managed service?</strong><br />

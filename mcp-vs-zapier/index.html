@@ -10124,7 +10124,7 @@
 <p>MCP queries are context-aware because the AI model maintains the full conversation. Ask "what were our sales yesterday?" and then follow up with "which marketing campaigns drove those?" The model understands that "those" refers to yesterday's sales, queries the appropriate tools, and connects the dots. This conversational context is impossible with Zapier's stateless trigger model.</p>
 <h2 id="data-access-vs-data-movement">Data Access vs Data Movement<a class="headerlink" href="#data-access-vs-data-movement" title="Anchor link to this section">&para;</a></h2>
 <p>Zapier moves data. When a Zap fires, it copies data from the trigger app to the action app  --  creating a new row, updating a record, sending a notification. This data movement creates copies, which means data can fall out of sync. The QuickBooks invoice created by a Zap may not reflect a subsequent price adjustment in Shopify.</p>
-<p>MCP accesses data without moving it. The MCP server queries the source system directly and returns results. The data stays in place  --  there's no copy to fall out of sync, no synchronization errors to debug. This read-only access pattern is inherently safer and more reliable for business intelligence.</p>
+<p>MCP servers can query source systems on demand rather than relying on a replicated ETL warehouse. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational retention applies. This read-only access pattern reduces warehouse synchronization work for business intelligence.</p>
 <h2 id="setup-complexity">Setup Complexity<a class="headerlink" href="#setup-complexity" title="Anchor link to this section">&para;</a></h2>
 <p>Setting up a Zap requires understanding both the trigger and action apps, configuring field mappings, testing the workflow, and monitoring for errors. For simple workflows (new form submission → add to spreadsheet), this takes minutes. For complex multi-step Zaps with conditional logic, it can take hours.</p>
 <p>Setting up MCP through CorpusIQ takes one step: authenticate your data source through OAuth. That's it. No field mappings, no workflow configuration, no testing cycles. Once authenticated, the AI model can query your data immediately. The complexity shifts from configuration to capability  --  you get access to the full surface area of each data source, not just the specific workflows you configured.</p>
@@ -10168,7 +10168,7 @@ Not entirely  --  they serve different purposes. Zapier excels at automated acti
 <details>
 <summary><strong>Does MCP support triggering actions?</strong></summary>
 
-The base MCP protocol supports write operations, but CorpusIQ defaults to read-only for data safety. For automation workflows that require write operations, Zapier or Make are better choices today. CorpusIQ focuses on the intelligence layer.
+The base MCP protocol supports reads and writes. CorpusIQ marks external-source retrieval tools read-only and exposes write-capable management/control-plane operations separately; Zapier and Make remain focused on multi-step vendor automation.
 </details>
 
 <details>

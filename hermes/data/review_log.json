@@ -9349,5 +9349,138 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-15T08:05:19.048320+00:00"
+  },
+  {
+    "repo": "unsupportedpastels/Hermes-Agent-Mobile-HAM",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T05:05:25.921332+00:00"
+  },
+  {
+    "repo": "thanvish21/cartoon-network-skins",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T05:05:25.921345+00:00"
+  },
+  {
+    "repo": "techysy/yangyu-hermes-skills",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T05:05:25.921348+00:00"
+  },
+  {
+    "repo": "HarnessRouter/harnessrouter",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T05:05:25.921349+00:00"
+  },
+  {
+    "repo": "demi-hl/oracle",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T05:05:25.921351+00:00"
+  },
+  {
+    "repo": "freezetheworld/hermes-agent-search",
+    "score": 61,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T05:05:25.921353+00:00"
+  },
+  {
+    "repo": "CommanderTurtle/leetcoder",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T05:05:25.921355+00:00"
+  },
+  {
+    "repo": "whoisdhana/HermesNag",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T05:05:25.921357+00:00"
+  },
+  {
+    "repo": "DTALEX66/WORK-LAB",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T05:05:25.921359+00:00"
+  },
+  {
+    "repo": "LoftySeas/cc-switch",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T05:05:25.921360+00:00"
+  },
+  {
+    "repo": "Zhang6177/hermes-ai-papers",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T05:05:25.921362+00:00"
+  },
+  {
+    "repo": "nuttaruj/hermes-homeassistant",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T05:05:25.921364+00:00"
+  },
+  {
+    "repo": "NousResearch/Hermes-Bot-Mode",
+    "score": 68,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T06:05:18.911273+00:00"
+  },
+  {
+    "repo": "beimianism/Hermes-to-DSH",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T06:05:18.911288+00:00"
+  },
+  {
+    "repo": "LyutikovSergey/GadgetLink",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T06:05:18.911291+00:00"
+  },
+  {
+    "repo": "cnlangzi/nightme",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T06:05:18.911293+00:00"
+  },
+  {
+    "repo": "anyth-agent/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T06:05:18.911295+00:00"
+  },
+  {
+    "repo": "RealEphemeralEuphoria/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T06:05:18.911297+00:00"
+  },
+  {
+    "repo": "asimons81/hermes-a2a-bridge",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-16T06:05:18.911299+00:00"
   }
 ]

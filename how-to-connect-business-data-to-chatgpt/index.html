@@ -10203,12 +10203,12 @@ Pipeline Velocity: $305,000 closed this quarter vs $280,000 same period last qua
 <li><strong>Tool Discovery:</strong> MCP protocol implementation so ChatGPT knows what data is available</li>
 <li><strong>Query Execution:</strong> Translating AI tool calls into API requests</li>
 <li><strong>Data Formatting:</strong> Structuring API responses for AI consumption</li>
-<li><strong>Security:</strong> Read-only access, no data storage, inherits source permissions</li>
+<li><strong>Scoped direct-MCP retention.</strong> CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</li>
 <li><strong>Rate Limiting:</strong> Managing API quotas and retries transparently</li>
 </ol>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: Is my data secure when connecting to ChatGPT?</strong><br />
-A: CorpusIQ never stores your data. Queries run against live APIs with read-only access. You control which data sources are connected and can revoke access at any time.</p>
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <p><strong>Q: Do I need ChatGPT Plus or Enterprise?</strong><br />
 A: MCP support is available on ChatGPT Plus, Team, and Enterprise plans. The free tier of ChatGPT has limited MCP capabilities.</p>
 <p><strong>Q: What if ChatGPT misunderstands my question?</strong><br />

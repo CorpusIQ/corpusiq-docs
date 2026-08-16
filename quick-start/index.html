@@ -10120,7 +10120,7 @@
 
 
 <h1 id="how-to-connect-your-business-data-to-chatgpt-in-under-5-minutes">How to Connect Your Business Data to ChatGPT in Under 5 Minutes<a class="headerlink" href="#how-to-connect-your-business-data-to-chatgpt-in-under-5-minutes" title="Anchor link to this section">&para;</a></h1>
-<p>Get your first CorpusIQ query running in under five minutes. Connect QuickBooks, Shopify, Stripe, or HubSpot via OAuth, ask a plain-English question, and get a source-cited answer from your live data. Read-only. Zero data stored.</p>
+<p>Get your first CorpusIQ query running in under five minutes. Connect QuickBooks, Shopify, Stripe, or HubSpot via OAuth, ask a plain-English question, and get a source-cited answer from live data. Direct MCP retrieval is read-only and does not retain raw customer files or full connector response payloads; operational query logs are retained for up to 30 days.</p>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>A <a href="https://corpusiq.io/register">CorpusIQ account</a></li>
@@ -10136,7 +10136,7 @@
 <li>Click <strong>Add Connection</strong> on any service you want to connect</li>
 <li>Complete the OAuth authorization flow</li>
 </ol>
-<p>CorpusIQ uses <strong>read-only OAuth scopes</strong>  --  it can search your data but never modify it. The exact permissions are displayed on the authorization screen.</p>
+<p>Provider scopes vary by connector and are displayed on the authorization screen. External-source retrieval tools are marked read-only; write-capable management/control-plane tools are separately named and annotated.</p>
 <p>Popular first connections:
 - <strong>Gmail</strong>  --  Search your email history
 - <strong>Google Drive</strong>  --  Query across documents and spreadsheets
@@ -10204,7 +10204,6 @@
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://mcp2.corpusiq.io/mcp<span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="nv">$CORPUSIQ_TOKEN</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Idempotency-Key: </span><span class="k">$(</span>uuidgen<span class="k">)</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;query&quot;: &quot;How many HubSpot deals closed this quarter?&quot;}&#39;</span>
 </code></pre></div>
 <h2 id="using-with-ai-assistants">Using with AI Assistants<a class="headerlink" href="#using-with-ai-assistants" title="Anchor link to this section">&para;</a></h2>

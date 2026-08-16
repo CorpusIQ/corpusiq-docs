@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your data stack. No data moved or stored.">
+        <meta name="description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
       
       
       
@@ -75,13 +75,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/how-it-works/mcp-architecture/">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="MCP Architecture">
-  <meta property="og:description" content="CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your data stack. No data moved or stored.">
+  <meta property="og:description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="MCP Architecture">
-  <meta name="twitter:description" content="CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your data stack. No data moved or stored.">
+  <meta name="twitter:description" content="CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -89,7 +89,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "MCP Architecture",
-    "description": "CorpusIQ connects your business tools to ChatGPT, Claude, and Perplexity via MCP. Read-only, cited answers across your data stack. No data moved or stored.",
+    "description": "CorpusIQ connects business tools to ChatGPT, Claude, and Perplexity through read-only MCP with cited answers, live retrieval, and scoped retention.",
     "url": "https://www.corpusiq.io/docs/how-it-works/mcp-architecture/",
     "isPartOf": {
       "@type": "WebSite",
@@ -10169,9 +10169,7 @@ https://mcp2.corpusiq.io/mcp   &lt;-- CorpusIQ MCP server
 <li>Translates MCP tool calls into vendor API calls, handles pagination,
    and normalizes the response into consistent JSON.</li>
 </ol>
-<p>Connectors are <strong>read-only by design</strong>. CorpusIQ requests read scopes
-only during OAuth and has no write paths in any connector. This is not
-a configuration option — it is an architectural constraint.</p>
+<p>External-source retrieval tools are marked read-only. Write-capable connector and CorpusIQ control-plane tools are separately named and carry behavior-matched safety annotations. Provider scopes vary by connector and documented operation.</p>
 <p>When you call a tool like <code>get_orders</code>, the flow is:</p>
 <div class="highlight"><pre><span></span><code>MCP tool call  --&gt;  CorpusIQ connector  --&gt;  Shopify REST API
                                          &lt;--  JSON orders array
@@ -10221,16 +10219,18 @@ persist across sessions.</p>
 <hr />
 <h2 id="security-model">Security model<a class="headerlink" href="#security-model" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Read-only everywhere.</strong> No connector has write access. This is
-  enforced at the connector layer, not just by policy.</li>
+<li><strong>Operation-level permissions.</strong> Retrieval tools are marked read-only; write-capable connector and CorpusIQ control-plane tools are separately named and annotated.</li>
 <li><strong>Per-user token isolation.</strong> OAuth tokens are stored encrypted and
   scoped per user account. One user's token cannot be used by another.</li>
-<li><strong>No data retention.</strong> CorpusIQ does not store API responses. Each
-  tool call fetches live data from the vendor and returns it directly.
-  Nothing is cached on CorpusIQ's servers beyond the OAuth token itself.</li>
-<li><strong>Revocable at any time.</strong> Disconnect a connector from CorpusIQ's
-  settings panel. The token is deleted immediately. You can also revoke
-  from the vendor's side (Shopify admin, Google account settings, etc.).</li>
+<li><strong>Scoped direct-MCP retention.</strong> Each tool call fetches live vendor data.
+  CorpusIQ does not retain raw customer files or full connector response
+  payloads; operational logs retain query text, per-user tool-call metadata,
+  and bounded outcome summaries for up to 30 days. Optional indexed search
+  has a separate embeddings and minimal-metadata lifecycle.</li>
+<li><strong>Revocable at any time.</strong> Disconnecting a connector commits a durable
+  inactive state before credential cleanup. Cleanup failures are surfaced for
+  retry rather than reported as successful deletion. You can also revoke from
+  the vendor's side (Shopify admin, Google account settings, etc.).</li>
 </ul>
 <hr />
 <h2 id="connecting-claude-desktop">Connecting Claude Desktop<a class="headerlink" href="#connecting-claude-desktop" title="Anchor link to this section">&para;</a></h2>

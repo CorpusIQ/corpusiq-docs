@@ -10740,7 +10740,7 @@
 <li><strong>Sales Ops Dashboard</strong>: Deal hygiene, process adherence, data quality, system health</li>
 </ul>
 <h3 id="3-real-time-data-refresh">3. Real-Time Data Refresh<a class="headerlink" href="#3-real-time-data-refresh" title="Anchor link to this section">&para;</a></h3>
-<p>Every dashboard pull queries HubSpot live. If a rep updated a deal 30 seconds ago, it's reflected in your dashboard now. No batch delays, no cache staleness, no waiting for overnight refreshes. This is critical during end-of-quarter when deal statuses change minute by minute.</p>
+<p>Every dashboard pull queries HubSpot live. If a rep updated a deal 30 seconds ago, it's reflected in your dashboard now. Queries request current HubSpot data. Freshness follows HubSpot and CorpusIQ cache behavior. This is critical during end-of-quarter when deal statuses change minute by minute.</p>
 <h3 id="4-intelligent-alerting">4. Intelligent Alerting<a class="headerlink" href="#4-intelligent-alerting" title="Anchor link to this section">&para;</a></h3>
 <p>ChatGPT doesn't just display numbers  --  it interprets them against your targets and historical patterns. "Pipeline coverage is 2.8x, below our 3x target. However, the shortfall is concentrated in early-stage pipeline  --  late-stage coverage is healthy at 1.4x. Recommended action: focus reps on prospecting this week." Context-aware alerts make dashboards actionable, not just informational.</p>
 <h2 id="key-benefits">Key Benefits<a class="headerlink" href="#key-benefits" title="Anchor link to this section">&para;</a></h2>
@@ -10812,7 +10812,7 @@
 <h3 id="can-i-automate-dashboard-delivery">Can I automate dashboard delivery?<a class="headerlink" href="#can-i-automate-dashboard-delivery" title="Anchor link to this section">&para;</a></h3>
 <p>Yes. Schedule dashboards for automated delivery via email, Slack, or file storage. "Send me the morning pipeline dashboard at 7 AM" or "Post the weekly sales report to the #sales Slack channel every Monday at 9 AM." Available on Pro and Enterprise plans.</p>
 <h3 id="how-real-time-is-the-data">How real-time is the data?<a class="headerlink" href="#how-real-time-is-the-data" title="Anchor link to this section">&para;</a></h3>
-<p>Fully real-time. Every dashboard pull queries HubSpot's API live at the moment of request. There's no data warehouse delay, no ETL window, no cache. If a deal was updated 30 seconds ago, you see the update.</p>
+<p>Every dashboard pull queries HubSpot's API live at the moment of request. Direct MCP does not retain raw customer files or full connector response payloads; operational logs may remain for up to 30 days. If a deal was updated 30 seconds ago, the live source query can return the update.</p>
 <h3 id="can-i-create-dashboards-for-my-entire-team">Can I create dashboards for my entire team?<a class="headerlink" href="#can-i-create-dashboards-for-my-entire-team" title="Anchor link to this section">&para;</a></h3>
 <p>Yes. Each team member can have personalized dashboards with role-appropriate data. Sales reps see their own pipeline. Managers see their team. Executives see the full picture. All configured through simple natural language templates.</p>
 <h3 id="can-i-combine-hubspot-with-other-data-sources-in-my-dashboard">Can I combine HubSpot with other data sources in my dashboard?<a class="headerlink" href="#can-i-combine-hubspot-with-other-data-sources-in-my-dashboard" title="Anchor link to this section">&para;</a></h3>

@@ -10268,7 +10268,7 @@
 <h1 id="hubspot-business-intelligence-connect-your-crm-to-ai">HubSpot Business Intelligence  --  Connect Your CRM to AI<a class="headerlink" href="#hubspot-business-intelligence-connect-your-crm-to-ai" title="Anchor link to this section">&para;</a></h1>
 <h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Anchor link to this section">&para;</a></h2>
 <p>HubSpot is one of the world's most widely adopted CRM platforms, used by over 200,000 businesses to manage contacts, deals, companies, and customer relationships. But while HubSpot excels at storing and organizing data, extracting real-time business intelligence from that data often requires exporting to spreadsheets, building custom dashboards, or relying on HubSpot's built-in reporting  --  which, while capable, can't answer free-form business questions in natural language.</p>
-<p>CorpusIQ changes that. Using the <strong>Model Context Protocol (MCP)</strong>  --  the open standard for connecting data to AI  --  CorpusIQ enables any MCP-compatible AI assistant to query your HubSpot CRM live, in real time, without moving, copying, or duplicating your data.</p>
+<p>CorpusIQ changes that. Using the <strong>Model Context Protocol (MCP)</strong>  --  the open standard for connecting data to AI  --  CorpusIQ enables any MCP-compatible AI assistant to query HubSpot through live retrieval. Direct MCP does not retain raw customer files or full connector response payloads; operational logs and optional indexed search follow their published lifecycles.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <p>CorpusIQ's HubSpot connector creates a direct, authenticated bridge between your HubSpot instance and any AI assistant that speaks the MCP protocol  --  including ChatGPT, Claude, and custom AI applications.</p>
 <p><strong>The process is three steps:</strong></p>
@@ -10292,7 +10292,7 @@
 <h3 id="3-cross-source-intelligence">3. Cross-Source Intelligence<a class="headerlink" href="#3-cross-source-intelligence" title="Anchor link to this section">&para;</a></h3>
 <p>HubSpot is just one of 40+ connectors in CorpusIQ. Combine CRM data with QuickBooks financials, Google Analytics traffic, Stripe payments, or Slack activity for unified business intelligence.</p>
 <h3 id="4-enterprise-security">4. Enterprise Security<a class="headerlink" href="#4-enterprise-security" title="Anchor link to this section">&para;</a></h3>
-<p>Data stays in your HubSpot instance. CorpusIQ never stores, caches, or copies your CRM data. Every query runs against the live API with your existing HubSpot permissions.</p>
+<p>CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <h2 id="benefits">Benefits<a class="headerlink" href="#benefits" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10328,7 +10328,7 @@
 </tr>
 <tr>
 <td><strong>Secure by Design</strong></td>
-<td>Read-only access, no data storage, inherits HubSpot's native permission model</td>
+<td>Read-only direct MCP live retrieval; raw customer files and full connector response payloads are not retained; operational logs are retained for up to 30 days</td>
 </tr>
 </tbody>
 </table>
@@ -10358,7 +10358,7 @@ A one-question executive briefing, powered by live data.</p>
 <p>CorpusIQ sits between your AI and HubSpot as a <strong>protocol translation layer</strong>. The AI doesn't need to know HubSpot's API  --  it only needs to know how to use MCP tools. CorpusIQ handles authentication, rate limiting, pagination, and error handling transparently.</p>
 <h2 id="faq">FAQ<a class="headerlink" href="#faq" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Q: Is my HubSpot data secure with CorpusIQ?</strong><br />
-A: Yes. CorpusIQ uses OAuth 2.0 for authentication and never stores your CRM data. Every query runs against the live HubSpot API with read-only access. You can revoke access at any time from your HubSpot account.</p>
+A: CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain raw customer files or full connector response payloads; operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <p><strong>Q: Does this work with the free version of HubSpot?</strong><br />
 A: Yes. CorpusIQ's HubSpot connector works with all HubSpot plans  --  free, starter, professional, and enterprise. The available data depends on your plan's API access, not CorpusIQ.</p>
 <p><strong>Q: Can I write data back to HubSpot through CorpusIQ?</strong><br />

@@ -10491,7 +10491,7 @@
 <h2 id="setting-up-ai-analysis-for-quickbooks">Setting Up AI Analysis for QuickBooks<a class="headerlink" href="#setting-up-ai-analysis-for-quickbooks" title="Anchor link to this section">&para;</a></h2>
 <p>Before diving into analysis, you need to connect QuickBooks to an AI assistant through CorpusIQ's MCP platform. Here's the setup process:</p>
 <h3 id="1-connect-quickbooks-to-corpusiq">1. Connect QuickBooks to CorpusIQ<a class="headerlink" href="#1-connect-quickbooks-to-corpusiq" title="Anchor link to this section">&para;</a></h3>
-<p>Navigate to your CorpusIQ dashboard and select "Connect QuickBooks." You'll be redirected to Intuit's OAuth 2.0 authorization page. Sign in to your QuickBooks account and authorize the read-only connection. <strong>Your data stays in QuickBooks</strong>  --  CorpusIQ accesses it on-demand but never stores it.</p>
+<p>Navigate to your CorpusIQ dashboard and select "Connect QuickBooks." Sign in on Intuit's OAuth page and review and approve the provider scopes. Direct MCP requests then fetch QuickBooks records live; CorpusIQ does not retain raw customer files or full connector response payloads. Operational logs retain query text, per-user tool-call metadata, and bounded outcome summaries for up to 30 days.</p>
 <h3 id="2-configure-your-ai-assistant">2. Configure Your AI Assistant<a class="headerlink" href="#2-configure-your-ai-assistant" title="Anchor link to this section">&para;</a></h3>
 <p>CorpusIQ supports both ChatGPT and Claude as AI backends. Choose based on your analysis needs:
 - <strong>ChatGPT</strong>: Best for quick, iterative analysis and conversational exploration
