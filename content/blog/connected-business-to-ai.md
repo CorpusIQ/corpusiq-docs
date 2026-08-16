@@ -69,9 +69,9 @@ That shift — from asking what's easy to asking what matters — is the real va
 
 ## The Setup Nobody Tells You About
 
-Every connector is read-only. The AI can see your data but can't change it. No accidental charges, no deleted orders, no modified invoices. This matters more than you'd think — once you know the AI can only read, you stop worrying about what it might do.
+External-source connector tools are designed for read-only retrieval. They can return vendor data to the requesting AI client but do not write charges, orders, or invoices back to those systems. Separately annotated CorpusIQ control-plane tools can update or remove user-declared CorpusIQ state.
 
-Also: your data never goes through some third-party server for "processing." The connectors run as MCP tools and the data flows directly into the AI's context window. It's like copy-pasting, but automatic.
+Connector results pass through CorpusIQ to the requesting AI client. Direct MCP retrieval does not build a separate customer-file index; the selected AI client's conversation and retention policies still apply.
 
 ## What I'd Do Differently
 

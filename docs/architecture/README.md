@@ -76,7 +76,7 @@ The [demo.corpusiq.io](https://demo.corpusiq.io) chat interface is a web applica
 ## Frequently Asked Questions
 
 **Q: What is the CorpusIQ system architecture?**  
-A: CorpusIQ uses a three-layer architecture: AI clients (Claude, ChatGPT, Cursor) connect via MCP protocol to the CorpusIQ MCP endpoint, which routes queries through the connector layer to 36+ business data sources. All access is read-only via OAuth 2.0.
+A: CorpusIQ uses a three-layer architecture: AI clients (Claude, ChatGPT, Cursor) connect via MCP protocol to the CorpusIQ MCP endpoint, which routes queries through the connector layer to business data sources. External-source retrieval uses documented OAuth scopes and does not write back to vendor systems; explicit CorpusIQ control-plane writes are separately annotated.
 
 **Q: How does data flow through CorpusIQ?**  
 A: AI agent sends query via MCP → MCP endpoint authenticates request → Tool registry maps query to connectors → Connector retrieves data from source API → Data is normalized and returned → Agent presents answer to user. All steps are logged for audit.

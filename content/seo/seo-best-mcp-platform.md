@@ -10,7 +10,7 @@ Here's what actually matters — and what's just marketing.
 
 If a platform can write to your QuickBooks or Stripe, walk away. The AI should query your data, not modify it. Look for platforms that are read-only by design, not read-only by request.
 
-CorpusIQ: Every connector is read-only. The AI can't create transactions, modify entries, or change anything. CASA Tier 2 certified.
+CorpusIQ: External-source connector tools use read-only retrieval and do not write transactions or entries back to vendor systems. Explicit CorpusIQ control-plane operations are separately annotated. CASA Tier 2 certified.
 
 ### 2. How many connectors you actually need
 

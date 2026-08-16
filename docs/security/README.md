@@ -21,7 +21,7 @@ robots: "index,follow"
 ---
 # Security
 
-CorpusIQ is designed with security as a foundational requirement. All access is read-only. We never write to your systems.
+CorpusIQ is designed with security as a foundational requirement. External-source connector access is read-only and does not write back to vendor systems. Explicit CorpusIQ control-plane tools can update or remove user-declared CorpusIQ state and carry separate safety annotations.
 
 ## Authentication
 
@@ -45,12 +45,8 @@ CorpusIQ is designed with security as a foundational requirement. All access is 
 
 ## Data Access
 
-### Read-Only Policy
-CorpusIQ is strictly read-only. We:
-- Query data from your connected sources
-- Normalize and present results
-- Never write, modify, or delete data
-- Never initiate transactions or changes
+### Scoped Access Policy
+External-source connector tools use read-only retrieval: they query connected sources, normalize results, and do not write back to those vendor systems or initiate vendor transactions. Explicit CorpusIQ control-plane tools can update or remove user-declared facts, decisions, metric specifications, and source manifests and carry separate safety annotations.
 
 ### Data Handling
 - Direct MCP retrieves source records on demand and delivers scoped results to the requesting client
@@ -88,8 +84,8 @@ Report security concerns to security@corpusiq.io. We respond within 24 hours.
 **Q: How does CorpusIQ authenticate users?**  
 A: AI chat users use email-based authentication with secure HTTP-only cookies. AI agent users use OAuth 2.0 Device Authorization Grant (RFC 8628) with refresh token rotation. Data source connections use OAuth 2.0 with scoped, read-only permissions.
 
-**Q: Is CorpusIQ data access read-only?**  
-A: Yes. CorpusIQ is strictly read-only. It queries data from connected sources, normalizes and presents results, but never writes, modifies, or deletes data, and never initiates transactions or changes.
+**Q: Is CorpusIQ data access read-only?**
+A: External-source retrieval is read-only and does not write back to connected vendor systems. Explicit CorpusIQ control-plane tools can modify user-declared CorpusIQ state and are separately annotated.
 
 **Q: What encryption does CorpusIQ use?**  
 A: HTTPS/TLS 1.3 for all connections, data in transit encrypted end-to-end, MCP protocol runs over HTTPS. All connections are encrypted with forward secrecy.

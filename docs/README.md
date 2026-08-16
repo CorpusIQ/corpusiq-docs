@@ -12,7 +12,7 @@ tags: ["hermes agent", "ai agent", "documentation"]
 
 CorpusIQ is a private AI acceleration layer that connects 40+ business tools to ChatGPT, Claude, and Perplexity via the Model Context Protocol (MCP). One question. Cited answers from all your tools.
 
-CorpusIQ acts as a read-only bridge between your SaaS applications and AI assistants. Direct MCP requests retrieve source records live without retaining raw customer files or full connector response payloads. Operational query text, tool-call metadata, and bounded outcome summaries are retained for up to 30 days. Every response includes citations back to the source tool, so you can verify accuracy in one click.
+CorpusIQ provides read-only external-source retrieval between authorized SaaS applications and AI assistants. Explicit CorpusIQ control-plane tools that update or remove user-declared state are separately annotated. Direct MCP requests retrieve source records live without retaining raw customer files or full connector response payloads. Operational query text, tool-call metadata, and bounded outcome summaries are retained for up to 30 days. Every response includes citations back to the source tool, so you can verify accuracy in one click.
 
 ## Key Capabilities
 

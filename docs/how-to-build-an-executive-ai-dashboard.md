@@ -174,7 +174,7 @@ A: Traditional dashboards show predefined views. This answers ANY question in re
 A: Yes. Each executive can have their own CorpusIQ account or share a team account.
 
 **Q: How secure is executive data?**  
-A: CorpusIQ is read-only and inherits source permissions. Financial data in QuickBooks is only visible to users authorized in QuickBooks.
+A: CorpusIQ external-source retrieval is read-only and inherits source permissions. Financial data in QuickBooks is only visible to users authorized in QuickBooks. Separately annotated CorpusIQ control-plane tools operate on user-declared CorpusIQ state.
 
 **Q: Can I get alerts when metrics cross thresholds?**  
 A: Not natively  --  CorpusIQ is query-on-demand. You can set up reminders to check key metrics at regular intervals.

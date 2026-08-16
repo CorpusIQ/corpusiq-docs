@@ -157,9 +157,10 @@ persist across sessions.
   payloads; operational logs retain query text, per-user tool-call metadata,
   and bounded outcome summaries for up to 30 days. Optional indexed search
   has a separate embeddings and minimal-metadata lifecycle.
-- **Revocable at any time.** Disconnect a connector from CorpusIQ's
-  settings panel. The token is deleted immediately. You can also revoke
-  from the vendor's side (Shopify admin, Google account settings, etc.).
+- **Revocable at any time.** Disconnecting a connector commits a durable
+  inactive state before credential cleanup. Cleanup failures are surfaced for
+  retry rather than reported as successful deletion. You can also revoke from
+  the vendor's side (Shopify admin, Google account settings, etc.).
 
 ---
 

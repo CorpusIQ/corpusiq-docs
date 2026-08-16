@@ -66,7 +66,7 @@ Your backend forwards authenticated user requests to CorpusIQ. The API token nev
 
 ### Token Revocation
 
-Tokens can be revoked at any time from the Dashboard (**Settings → API → Revoke All Tokens**). Revocation takes effect immediately across all active sessions. If a token is compromised, revoke it and generate a new one.
+Tokens can be revoked from the Dashboard (**Settings → API → Revoke All Tokens**). The service commits an inactive state before credential cleanup and surfaces cleanup failures for retry. If a token is compromised, revoke it through CorpusIQ and the provider, then generate a new one.
 
 ## Header Reference
 
@@ -102,7 +102,7 @@ A: API tokens expire after 60 minutes with server-side refresh detection. Use re
 A: AI agents use OAuth 2.0 Device Authorization Grant (RFC 8628). The agent receives a device code, you verify once via browser, and the agent gets a persistent refresh token  --  no browser needed for ongoing access.
 
 **Q: How do I revoke a CorpusIQ API token?**  
-A: Revoke tokens immediately from the CorpusIQ Dashboard. Revocation takes effect across active sessions. To request deletion of account data, contact privacy@corpusiq.io; CorpusIQ responds to privacy requests within 30 days.
+A: Disconnect the connector from the CorpusIQ Dashboard. The service commits an inactive state before credential cleanup and surfaces cleanup failures for retry; provider-side revocation is also available through the source platform. To request deletion of account data, contact privacy@corpusiq.io; CorpusIQ responds to privacy requests within 30 days.
 
 ## Internal Links
 

@@ -52,6 +52,88 @@
         "text": "CorpusIQ secures the integration with HMAC signatures."
       }
     ],
+    "surface_scope": [
+      {
+        "label": "every_connector_read_only",
+        "text": "Every connector is read-only."
+      },
+      {
+        "label": "whole_product_read_only_abstraction",
+        "text": "CorpusIQ provides a read-only abstraction layer."
+      },
+      {
+        "label": "ai_can_only_read",
+        "text": "The AI can only read."
+      },
+      {
+        "label": "no_third_party_transfer",
+        "text": "Your data never goes through any third-party server."
+      },
+      {
+        "label": "unsupported_control_plane_revocation",
+        "text": "CorpusIQ control-plane tools can revoke credentials."
+      },
+      {
+        "label": "whole_product_is_read_only",
+        "text": "CorpusIQ is read-only by default."
+      },
+      {
+        "label": "whole_product_read_only_bridge",
+        "text": "CorpusIQ acts as a read-only bridge."
+      },
+      {
+        "label": "no_data_leaves_control",
+        "text": "No data leaves your control."
+      },
+      {
+        "label": "no_middleman",
+        "text": "Live data flows directly into the AI's response. No middleman."
+      },
+      {
+        "label": "instant_token_deletion",
+        "text": "Revocation immediately deletes all stored tokens."
+      },
+      {
+        "label": "instant_token_revocation_instruction",
+        "text": "Revoke tokens immediately from the dashboard."
+      },
+      {
+        "label": "strictly_read_only_product",
+        "text": "CorpusIQ is strictly read-only."
+      },
+      {
+        "label": "all_connectors_read_only_default",
+        "text": "CorpusIQ defaults to read-only access for all connectors."
+      },
+      {
+        "label": "all_mcp_tools_registered_read_only",
+        "text": "MCP tool definitions are registered as read-only."
+      },
+      {
+        "label": "no_connector_write_permissions",
+        "text": "No write permissions on any connector."
+      },
+      {
+        "label": "architecturally_impossible_modification",
+        "text": "Accidental data modification is architecturally impossible."
+      },
+      {
+        "label": "all_access_read_only",
+        "text": "All access is read-only."
+      },
+      {
+        "label": "no_write_permissions_ever",
+        "text": "Read-only OAuth means no write permissions ever."
+      },
+      {
+        "label": "zero_risk_changes",
+        "text": "Read-only defaults mean zero risk of unintended changes."
+      },
+      {
+        "label": "instant_revocation_sessions",
+        "text": "Revocation takes effect immediately across all active sessions."
+      }
+    ],
     "retention": [
       {
         "label": "review_raw_files_never_stored",
@@ -761,6 +843,18 @@
     {
       "label": "independent_canonical_indexing",
       "text": "Direct MCP does not build embeddings or file indexes; optional indexed search separately retains embeddings and minimal metadata until revocation or account deletion."
+    },
+    {
+      "label": "scoped_external_retrieval",
+      "text": "External-source connector tools use read-only retrieval and do not write back to vendor systems."
+    },
+    {
+      "label": "supported_control_plane_classes",
+      "text": "Explicit CorpusIQ control-plane tools can update or remove user-declared facts, decisions, metric specifications, and source manifests."
+    },
+    {
+      "label": "truthful_transfer_boundary",
+      "text": "Connector results pass through CorpusIQ to the requesting AI client."
     }
   ]
 }

@@ -44,6 +44,6 @@ All 37+ connectors are available through ChatGPT:
 
 ## Security
 
-CorpusIQ is read-only. ChatGPT can query your data but cannot modify anything. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days.
+CorpusIQ external-source connector tools use read-only retrieval and do not write back to vendor systems. Explicit CorpusIQ control-plane tools can update or remove user-declared CorpusIQ state and carry separate safety annotations. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may be retained for up to 30 days.
 
 See our [ChatGPT connector guide](connectors/chatgpt-business-data-connector.md) for detailed setup.

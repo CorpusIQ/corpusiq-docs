@@ -28,7 +28,7 @@ CorpusIQ uses HTTPS/TLS for data in transit and Azure-managed encryption for per
 CorpusIQ sits between your tools and the AI assistant. It sends the requesting AI client the source data needed for the requested tool result and citations; it does not give the model persistent provider access. Direct MCP requests do not build embeddings or file indexes.
 
 ### Can CorpusIQ modify my data?
-External source connectors are designed for read-only retrieval and do not write back to those connected vendor systems. CorpusIQ control-plane tools can update user-declared CorpusIQ state or revoke credentials when the user explicitly requests those actions. Review the exact vendor scopes on each OAuth authorization screen and the safety annotations on the selected tool.
+External source connectors are designed for read-only retrieval and do not write back to those connected vendor systems. Explicit CorpusIQ control-plane tools can update or remove user-declared facts, decisions, metric specifications, and source manifests when the user requests those actions. Review the exact vendor scopes on each OAuth authorization screen and the safety annotations on the selected tool.
 
 ### What encryption standards does CorpusIQ use?
 CorpusIQ uses HTTPS/TLS for data in transit and the encryption-at-rest controls of its managed Azure services. Customer-specific requirements for keys, rotation, residency, backups, or dedicated infrastructure should be validated during an enterprise security review rather than inferred from this overview.
@@ -64,7 +64,7 @@ AI Assistant → CorpusIQ MCP Server → HTTPS/TLS → Scoped OAuth → Business
 ## Benefits
 
 ### Read-Only External Retrieval
-External source connectors are designed not to write back to connected vendor systems. CorpusIQ control-plane operations, including credential revocation and user-declared state changes, remain explicit and separately annotated.
+External source connectors are designed not to write back to connected vendor systems. CorpusIQ control-plane operations that update or remove user-declared facts, decisions, metric specifications, and source manifests remain explicit and separately annotated.
 
 ### Scoped Data Handling
 Direct MCP requests use live retrieval without retaining raw customer files or full connector response payloads. Operational query logs are retained for up to 30 days. Optional indexed-search features have a separate embeddings-and-metadata lifecycle.

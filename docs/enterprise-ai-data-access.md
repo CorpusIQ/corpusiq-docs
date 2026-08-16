@@ -48,19 +48,19 @@ CorpusIQ's enterprise AI data access architecture is built on five pillars:
 
 **Per-user OAuth scoping.** When a user connects a data source through OAuth, the scopes granted are the minimum necessary for read-only business intelligence. Each user authenticates individually  --  there are no shared service accounts that would obscure who accessed what data.
 
-### 2. Read-Only by Default Architecture
+### 2. Read-Only External Retrieval with Explicit Control-Plane Writes
 
-The most important security property of CorpusIQ's enterprise AI data access layer is that it is read-only by default. This is enforced at multiple levels:
+CorpusIQ separates external-source retrieval from writes to user-declared CorpusIQ control-plane state. The boundary is enforced at multiple levels:
 
-- **Protocol level.** MCP tool definitions are registered as read-only. The AI model cannot call a "create" or "update" operation because those tools are not exposed.
+- **Protocol level.** External-source retrieval tools carry read-only annotations. Explicit control-plane tools that update or remove user-declared facts, decisions, metric specifications, and source manifests carry separate non-read-only and destructive annotations where applicable.
 
-- **OAuth scope level.** Connectors request read-only scopes. For QuickBooks, `com.intuit.quickbooks.accounting.read`. For Shopify, `read_orders`, `read_products`, `read_customers`. For HubSpot, read-only access to contacts, deals, and companies.
+- **OAuth scope level.** External-source connectors request the documented retrieval scopes. For QuickBooks, `com.intuit.quickbooks.accounting.read`. For Shopify, `read_orders`, `read_products`, `read_customers`. For HubSpot, read-only access to contacts, deals, and companies.
 
-- **Connector level.** Even if broader OAuth scopes were granted, CorpusIQ's connector implementations validate operations against a capability matrix and block write operations.
+- **Connector level.** External-source connector implementations validate operations against a capability matrix and block write-back operations to connected vendor systems.
 
-- **AI model level.** The tool descriptions the AI model sees describe read-only capabilities  --  "List Salesforce Opportunities" not "Create Salesforce Opportunity."
+- **AI model level.** External connector descriptions identify retrieval behavior, while CorpusIQ control-plane descriptions state the supported state mutation explicitly.
 
-This defense-in-depth approach means that accidental data modification is architecturally impossible. The system cannot write data unless an administrator explicitly enables write operations at all four levels  --  a deliberate, multi-step process that creates an audit trail at each step.
+This defense-in-depth approach prevents external connector tools from writing back to connected vendor systems. Supported CorpusIQ control-plane mutations remain explicit, user-invoked, separately annotated, and auditable.
 
 ### 3. Comprehensive Audit Trails
 
@@ -172,7 +172,7 @@ A: CorpusIQ maintains a SOC 2 aligned security posture and is CASA Tier 2 certif
 A: Through role-based access control (RBAC) mapped to your existing directory groups. Each role has specific data source permissions. OAuth connections are per-user, so each user authenticates individually and inherits their own permissions from the source platform.
 
 **Q: Can CorpusIQ write data to our business systems?**
-A: Connected third-party business systems are read-only by design. CorpusIQ control-plane tools may update user-declared CorpusIQ state or revoke credentials, but they do not write back to connected source systems.
+A: Connected third-party business systems are read-only by design. Explicit CorpusIQ control-plane tools may update or remove user-declared facts, decisions, metric specifications, and source manifests, but they do not write back to connected source systems.
 
 **Q: Where is CorpusIQ infrastructure located, and can we control data residency?**
 A: Enterprise customers can request a deployment region, subject to validation of storage, network transit, source-provider processing, the selected AI client, logs, and backups. Contact sales@corpusiq.io for a customer-specific residency assessment.
@@ -181,7 +181,7 @@ A: Enterprise customers can request a deployment region, subject to validation o
 A: The Azure Log Analytics workspace retains operational MCP logs for 30 days.
 
 **Q: How is this different from giving employees direct API access to our systems?**
-A: Direct API access requires granting credentials that can potentially read, write, or modify data  --  and those credentials can be leaked, misused, or forgotten. CorpusIQ provides a read-only abstraction layer with per-user authentication, granular RBAC, full audit trails, and no persistent credentials for end users to manage.
+A: Direct API access requires granting credentials that can potentially read, write, or modify data  --  and those credentials can be leaked, misused, or forgotten. CorpusIQ provides read-only external-source retrieval with separately annotated CorpusIQ control-plane operations, per-user authentication, granular RBAC, and audit trails.
 
 **Q: What's the deployment timeline for an enterprise rollout?**
 A: A departmental pilot can be operational in days  --  SSO configuration takes 1–2 hours, and data source connections take minutes each. Full enterprise deployment with governance policies, role mappings, and multi-department rollout typically takes 2–4 weeks.

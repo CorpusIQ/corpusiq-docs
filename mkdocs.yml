@@ -1,4 +1,15 @@
 edit_uri: edit/main/docs/
+# This repository still contains legacy prebuilt HTML/search artifacts from an
+# older deployment model. Publishing them alongside Markdown causes MkDocs to
+# prefer stale `api/foo.html` files over current `api/foo.md` pages. Exclude all
+# generated HTML and the generated root search index; keep only intentional
+# first-party email templates that are distributed as raw HTML examples.
+exclude_docs: |
+  *.html
+  **/*.html
+  !hermes/templates/*.html
+  !community/tokens-saved-widget.html
+  search/search_index.json
 extra_css:
 - stylesheets/extra-v2.css
 extra_javascript:

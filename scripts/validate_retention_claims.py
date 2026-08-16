@@ -90,6 +90,56 @@ FORBIDDEN_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
             re.IGNORECASE,
         ),
     ),
+    (
+        "blanket whole-product read-only claim",
+        re.compile(
+            r"\bevery\s+connector\s+is\s+read[- ]only\b|"
+            r"\bCorpusIQ\s+is\s+read[- ]only(?:\s+by\s+(?:default|design))?\b|"
+            r"\bCorpusIQ\s+(?:acts\s+as|provides)\s+(?:a\s+)?read[- ]only\s+bridge\b|"
+            r"\bCorpusIQ\s+is\s+strictly\s+read[- ]only\b|"
+            r"\bCorpusIQ\s+defaults?\s+to\s+read[- ]only\s+access\s+for\s+all\s+connectors\b|"
+            r"\bMCP\s+tool\s+definitions\s+are\s+registered\s+as\s+read[- ]only\b|"
+            r"\bno\s+write\s+permissions\s+on\s+any\s+connector\b|"
+            r"\ball\s+access\s+is\s+read[- ]only\b|"
+            r"\bno\s+write\s+permissions\s+ever\b|"
+            r"\bzero\s+risk\s+of\s+unintended\s+changes\b|"
+            r"\baccidental\s+data\s+modification\s+is\s+architecturally\s+impossible\b|"
+            r"\bCorpusIQ\s+provides\s+(?:a\s+)?read[- ]only\s+"
+            r"(?:abstraction(?:\s+layer)?|platform|service|system)\b|"
+            r"\b(?:the\s+)?AI\s+can\s+only\s+read\b",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "unsupported no-transfer claim",
+        re.compile(
+            r"\b(?:your\s+)?data\s+never\s+(?:goes|passes|moves)\s+through\s+"
+            r"(?:a|any|some)\s+third[- ]party\s+server\b|"
+            r"\bno\s+data\s+leaves\s+your\s+control\b|"
+            r"\blive\s+data\s+flows\s+directly\s+into\s+the\s+AI['’]s\s+response\b|"
+            r"\bno\s+middleman\b",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "unsupported control-plane credential revocation claim",
+        re.compile(
+            r"\b(?:CorpusIQ\s+)?control[- ]plane\b[^.\n]{0,180}"
+            r"\brevok(?:e|es|ed|ing|ation)\s+(?:credentials?|tokens?)\b",
+            re.IGNORECASE,
+        ),
+    ),
+    (
+        "unsupported immediate credential deletion claim",
+        re.compile(
+            r"\brevocation\s+immediately\s+deletes\s+all\s+stored\s+tokens\b|"
+            r"\brevoke\s+tokens\s+immediately\b|"
+            r"\brevocation\s+takes\s+effect\s+immediately\s+across\s+all\s+active\s+sessions\b|"
+            r"\b(?:the\s+)?token\s+is\s+deleted\s+immediately\b|"
+            r"\bimmediately\s+deletes\s+all\s+stored\s+tokens\b",
+            re.IGNORECASE,
+        ),
+    ),
     ("additional blanket lifecycle claim", ADDITIONAL_BLANKET_PATTERN),
     (
         "zero/no data storage",
