@@ -2506,6 +2506,26 @@
       "source": "/outputs/case-studies/legal-firms",
       "destination": "/hermes/outputs/case-studies/legal-firms/",
       "statusCode": 301
+    },
+    {
+      "source": "/mcp-starter",
+      "destination": "/examples/mcp-starter/",
+      "statusCode": 301
+    },
+    {
+      "source": "/hermes/servers/external",
+      "destination": "/hermes/mcp/servers/external/",
+      "statusCode": 301
+    },
+    {
+      "source": "/indexnow-submission-urls.txt",
+      "destination": "/recipes/indexnow-submission-urls.txt",
+      "statusCode": 301
+    },
+    {
+      "source": "/indexnow-submission-urls.txt/",
+      "destination": "/recipes/indexnow-submission-urls.txt",
+      "statusCode": 301
     }
   ],
   "outputDirectory": "."
