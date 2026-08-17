@@ -1,6 +1,13 @@
+# CorpusIQ docs robots.txt
+# Public documentation site - everything crawlable.
+# NOTE: /api/ is the PUBLIC API reference documentation section (api/index.md,
+# authentication, endpoints, schemas, webhooks, etc. in mkdocs.yml nav).
+# It is NOT a live API endpoint and MUST remain crawlable. Do not re-add
+# a /api/ Disallow - it blocked the API reference from Google and triggered
+# GSC "Indexed, though blocked by robots.txt" alerts (Aug 17, 2026).
 User-agent: *
 Allow: /
-Disallow: /api/
+
 Disallow: /admin/
 Disallow: /cdn-cgi/
 

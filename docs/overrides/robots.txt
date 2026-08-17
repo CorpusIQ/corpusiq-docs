@@ -1,6 +1,10 @@
+# CorpusIQ docs robots.txt (theme override)
+# Public documentation site - everything crawlable.
+# NOTE: /api/ is the PUBLIC API reference documentation section. It is NOT a
+# live API endpoint and MUST remain crawlable. Do not re-add a /api/ Disallow.
 User-agent: *
 Allow: /
-Disallow: /api/
+
 Disallow: /admin/
 Disallow: /cdn-cgi/
 
