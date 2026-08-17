@@ -12,7 +12,61 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 17, 2026 (cron sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 229 servers (+119 guides)
+> **Last updated:** August 17, 2026 (midday cron sweep) · **Sources:** mcp.so Feed (30 newest submissions), mcpservers.org /all page 1, mcp.so + mcpservers.org server detail pages · **Catalog:** 240 servers (+130 guides)
+
+---
+
+## 🆕 August 17, 2026 — Midday Cron Sweep (11 New, 11 Guides)
+
+Scanned mcp.so Feed (30 newest submissions) and mcpservers.org /all page 1 (newest submissions) — a same-day sweep eight hours after the morning run. 11 new business-relevant servers found: company signal intelligence, a nine-network social publisher with render-accurate previews, two multi-agent coordination layers, a Magento commerce bridge, Taiwan legal research, WhatsApp/Telegram bot operations, Korean market measurements, keyless web retrieval, an agent-fleet CLI adapter, privacy-first short links, and Tenable MSSP orchestration.
+
+### Bounce Watch MCP ★★★ — August 17 (midday)
+
+Company signal intelligence over MCP — 3 million dated events across 39 types (funding rounds, senior hires, office openings, partnerships, named customer wins, certifications, layoffs, distress indicators), each weighted 1 to 10, plus coverage blocks on every response and webhook-pushed standing watches. OAuth 2.1 or `X-API-Key`, Streamable HTTP at `api.bouncewatch.com/api/v1/mcp`; 10 tools, five ready-made workflow prompts, 2,500 free credits, paid from 99 EUR/month. (commercial) · [Guide →](/hermes/mcp/servers/external/bounce-watch-mcp/)
+
+### Ravenpost MCP ★★★ — August 17 (midday)
+
+Social publishing across nine networks over MCP — Instagram, TikTok, X, LinkedIn, Facebook, Telegram, Threads, Bluesky, and YouTube — with `preview_post` rendering each post exactly as the network will show it before anything goes live. OAuth or personal token, Streamable HTTP at `api.ravenpo.st/mcp`; 21 tools, workspace-scoping refusal built in, registry `st.ravenpo/ravenpost`. (commercial) · [Guide →](/hermes/mcp/servers/external/ravenpost-mcp/)
+
+### Ledgenter MCP ★★★ — August 17 (midday)
+
+The shared work-management office for AI agents — projects, dependency-ordered tasks with atomic leased claims, append-only decisions, a semantic knowledge wiki, and a cross-agent handoff inbox. stdio via `npx @ledgenter/mcp` with a per-actor API key against the hosted service; registry `com.ledgenter/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/ledgenter-mcp/)
+
+### WisWes Magento MCP ★★ — August 17 (midday)
+
+Magento 2 over MCP — 22 typed tools across catalog, cart, checkout, customer, sales, and wishlist served from the store's own web server at `/mcp`, nightly vector-index catalogue push, tiered auth (catalog public, cart and orders identified). Composer `wiswes/magento-mcp` v1.0.7, GPL-3.0, Magento 2.4.4–2.4.7. (open source module) · [Guide →](/hermes/mcp/servers/external/wiswes-magento-mcp/)
+
+### Taiwan Law MCP ★★ — August 17 (midday)
+
+Taiwan legal research against official sources — Ministry of Justice statutes, Judicial Yuan judgments, constitutional interpretations, and Legislative Yuan history, 14 tools with a source URL on every result and an intent-analysis gate. Free, no key, Streamable HTTP at `legaltech.org.tw/mcp`; self-host via npx or Docker. (free) · [Guide →](/hermes/mcp/servers/external/taiwan-law-mcp/)
+
+### DOS AI MCP ★★ — August 17 (midday)
+
+WhatsApp and Telegram AI assistants over MCP — projects, prompts, conversations, leads, analytics, and balance through 13 tools with no destructive operations by design and project-scoped keys. Bearer key, Streamable HTTP at `dosai.pro/api/mcp`; OpenAPI spec and llms.txt published. (commercial) · [Guide →](/hermes/mcp/servers/external/dos-ai-mcp/)
+
+### Cliometry MCP ★★ — August 17 (midday)
+
+Measured Korean market data — SK Hynix ADR premium, realized leverage multiples for KODEX/SOXL/TQQQ, VIX regime labels, and Korean semiconductor relative rotation, all pre-computed daily with source URLs and as-of dates. No auth, Streamable HTTP at `mcp.cliometry.com`; CC BY 4.0. (free) · [Guide →](/hermes/mcp/servers/external/cliometry-mcp/)
+
+### mcp-retrieval ★★ — August 17 (midday)
+
+Keyless web retrieval in Go — parallel DuckDuckGo Lite search, Bing image search, and page-to-Markdown scraping with per-item status semantics and browser-grade TLS fingerprints. stdio or HTTP, MIT, Docker or prebuilt binaries. (open source, free) · [Guide →](/hermes/mcp/servers/external/mcp-retrieval/)
+
+### 5dive MCP ★★ — August 17 (midday)
+
+Agent-fleet operations over MCP — file tasks, inspect and message agents, and read the daily standup digest by shelling out to the local 5dive CLI's JSON surface, inheriting its auth and audit log. stdio via `npx @5dive/mcp`, MIT. (open source) · [Guide →](/hermes/mcp/servers/external/5dive-mcp/)
+
+### Linkonda MCP ★★ — August 17 (midday)
+
+Privacy-first short links — shorten, bulk-shorten, list, update, and delete with total redirect counts only and no visitor data collected. stdio via `npx -y @veranoapp/linkonda-mcp`; anonymous free tier (10 links, 30-day expiry), persistent links on a paid plan. (commercial, free tier) · [Guide →](/hermes/mcp/servers/external/linkonda-mcp/)
+
+### Tenable MSSP MCP ★★ — August 17 (midday)
+
+Tenable MSSP orchestration over MCP — Hexa AI tool runs across child containers behind an explicit allowlist, bulk CVE queries across up to 10 tenants concurrently, CSV finding reports. Python 3.14 stdio, MIT, MSSP Portal admin keys required. (open source) · [Guide →](/hermes/mcp/servers/external/tenable-mssp-mcp/)
+
+**Also identified (not catalogued):** Raccha AI (early-access agent utility toolbox — KV storage, FIFO queue, JWT/hash utilities; manifest-only repo with no live tool list, dev infra rather than operator tooling), adb-mcp (Android debug bridge — device-level dev tool), Runemap (ASCII weather-radar maps — consumer utility), Hermitsh Texts (classical literature search — not business tooling), Lodging Decision MCP (travel lodging decision kernel — consumer, unauthenticated alpha). Feed and /all repeats already catalogued or previously skipped this cycle: Lemon.io, ListingGood, TravelAnimator, Roamzy, AuraNet Omni-Oracle Engine, Kaiva Bridge, MobileMRR, Mektup, PDI Bridge, GovTrade, ApexVol, Etincel, CryptoStruct, World Monitor, API Direct, JobYap, Kin, NexusTrade, Snipara, RADAAR, BlazingCDN, Cost Seg Smart, easydocforms, Just Domain, Fakto wFirma.
+
+**Key observation:** The agent-orchestration layer is productizing from both directions in a single day — Ledgenter's durable shared office and 5dive's fleet CLI adapter attack the same stateless-agent problem from hosted-service and local-CLI directions. Second, the honesty-handle pattern keeps spreading: Bounce Watch's coverage blocks (absence must mean something before "quiet" is reported) extend Candor's evidence handles from finance into sales intelligence, and Ravenpost's write-nothing previews apply the approval-gate doctrine to publishing. Third, commerce and compliance are going vertical-specific — WisWes Magento and Taiwan Law both bet that deep coverage of one platform or one jurisdiction beats broad but shallow tooling.
 
 ---
 
@@ -985,6 +1039,10 @@ Dedicated MCP server for PortEden's Google Sheets data firewall. Read, write, an
 ## Financial Data
 
 
+### Cliometry MCP ★★ — Aug 17 (midday)
+
+Measured Korean market data — SK Hynix ADR premium, realized leverage multiples for KODEX/SOXL/TQQQ, VIX regime, Korean semiconductor RRG; pre-computed daily, every response with source URL and as-of date. No auth, Streamable HTTP at `mcp.cliometry.com`; CC BY 4.0. (free) · [Guide →](/hermes/mcp/servers/external/cliometry-mcp/)
+
 ### Candor Finance MCP ★ New (Aug 17)
 Personal-finance workspace for AI agents — accounts, transactions, budgets, goals, and investments with freshness, coverage, and evidence handles on every number; read-only toward banks, no money-moving tools. OAuth 2.1 with DCR; Streamable HTTP at `api.candor.money/mcp`; `money.candor/candor-finance` on the official MCP Registry. (commercial) · [Guide →](/hermes/mcp/servers/external/candor-finance-mcp/)
 
@@ -1349,6 +1407,10 @@ Keyword, vector, hybrid, and SQL retrieval over data on object storage, for AI a
 
 ## Content & Research
 
+### mcp-retrieval ★★ — Aug 17 (midday)
+
+Keyless web retrieval in Go — parallel web search (DuckDuckGo Lite), image search (Bing Images), and page-to-Markdown scraping with per-item success/failed/timeout status. stdio or HTTP, MIT, browser-grade TLS fingerprints via uTLS, optional proxy rotation. (open source, free) · [Guide →](/hermes/mcp/servers/external/mcp-retrieval/)
+
 ### Etincel MCP ★★★ — Aug 15 (midday)
 Deterministic AI-writing-tell detector — 20 tools: `audit_text` scans prose for AI tells (banned hype vocabulary, chatbot fingerprints, structural patterns) with a tiered verdict plus a strengths counter-signal; `train_style` builds brand voices from real writing samples; `check_voice_match` measures a draft against a voice baseline. Local stdio via `npx etincel serve`, MIT, dictionary-as-code in `.etincelrc`; optional hosted `second_read` at `etincel.ai/api/mcp`. (open source, free) · [Guide →](/hermes/mcp/servers/external/etincel-mcp/)
 
@@ -1535,6 +1597,10 @@ Authoritative EOL database for AI agents — end-of-life dates, CVE risk scores,
 
 ## Commerce & E-Commerce
 
+### WisWes Magento MCP ★★ — Aug 17 (midday)
+
+Magento 2 store over MCP — 22 typed tools across catalog, cart, checkout, customer, sales, and wishlist served from the store's own web server at `/mcp`, plus a nightly vector-index catalogue push powering the WisWes AI shopping assistant. Composer `wiswes/magento-mcp` v1.0.7, GPL-3.0, Magento 2.4.4+, shared-secret admin handshake. (open source module) · [Guide →](/hermes/mcp/servers/external/wiswes-magento-mcp/)
+
 ### ListingGood MCP ★ New (Aug 17)
 Amazon AI Recommendation Engine — free AI-readiness and compliance checks, A9 and shopping-agent-tuned listing copy for US/UK/EU/JP, and POA suspension rescue. API key, Streamable HTTP at `listinggood.com/mcp`; free tier unlimited checks, paid from $10/mo. (commercial) · [Guide →](/hermes/mcp/servers/external/listinggood-mcp/)
 
@@ -1617,6 +1683,10 @@ Give AI agents their own local mailbox to read, send, and triage email via MCP. 
 
 ## Compliance & Regulatory
 
+### Taiwan Law MCP ★★ — Aug 17 (midday)
+
+Taiwan legal research against official sources — statutes (MOJ), court judgments (Judicial Yuan), constitutional interpretations, and legislative history, 14 tools with a source URL on every result. Free, no API key, Streamable HTTP at `legaltech.org.tw/mcp`; self-hostable via npx or Docker. Registry `tw.org.legaltech/taiwan-law`. (free) · [Guide →](/hermes/mcp/servers/external/taiwan-law-mcp/)
+
 ### Legalcode MCP ★★ — Aug 16
 Free legal research over MCP — statutes, case law, and regulatory guidance across 44 jurisdictions with 299 packaged legal skills. Searches processed, never stored; EU-hosted. No API key on the free tier (30 requests/day); Pro $25/mo. `mcp.legalcode.md/mcp`. (commercial, free tier) · [Guide →](/hermes/mcp/servers/external/legalcode-mcp/)
 
@@ -1696,6 +1766,14 @@ AI legal counsel research MCP — frontier-lab commercial commitments, safety-fr
 
 ## Development & Infrastructure
 
+
+### 5dive MCP ★★ — Aug 17 (midday)
+
+Agent-fleet operations over MCP — file tasks in the shared queue, inspect and message agents, read the daily standup digest, all by shelling out to the local 5dive CLI's JSON surface with inherited auth and audit. stdio via `npx @5dive/mcp`, MIT, Node 18+. (open source) · [Guide →](/hermes/mcp/servers/external/5dive-mcp/)
+
+### Tenable MSSP MCP ★★ — Aug 17 (midday)
+
+Tenable MSSP portal orchestration — run Hexa AI MCP tools across child containers with an explicit allowlist, bulk-query CVEs across up to 10 tenants concurrently, and collect CSV finding reports. Python 3.14 stdio server, MIT, requires MSSP Portal admin keys plus hexa/vm licenses. (open source) · [Guide →](/hermes/mcp/servers/external/tenable-mssp-mcp/)
 
 ### Kaiva Bridge MCP ★★ — Aug 16 (evening)
 Any Postgres database or OpenAPI spec into a secure, hosted MCP server — schema read, typed tools generated, per-tool access control, every call audited. No server to write, nothing to host. Streamable HTTP; the mcp.so listing is a live read-only demo (synthetic commerce dataset, 6 tools). `kaiv.ai/bridge`. (commercial) · [Guide →](/hermes/mcp/servers/external/kaiva-bridge-mcp/)
@@ -2040,6 +2118,10 @@ MCP server for AI agent data flow orchestration. Connect AI agents to data pipel
 
 ## Productivity
 
+### Ledgenter MCP ★★★ — Aug 17 (midday)
+
+Shared work-management office for AI agents — projects, dependency-ordered tasks with atomic claims, append-only decisions, a semantic knowledge wiki, and cross-agent handoffs, all durable and multi-tenant. stdio via `npx @ledgenter/mcp` with a per-actor API key against the hosted service; registry `com.ledgenter/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/ledgenter-mcp/)
+
 ### Lemon.io MCP ★ New (Aug 17)
 Hire vetted senior developers from chat — job descriptions, technical interview prep, and engineer requests. `github.com/lemon-io/lemon-io-mcp`; no parseable config block published (tools served from the endpoint). (commercial marketplace) · [Guide →](/hermes/mcp/servers/external/lemon-io-mcp/)
 
@@ -2239,6 +2321,10 @@ Feeds AI agents your brand's real logos, colors, fonts, and approved slide layou
 
 ## Communication
 
+### DOS AI MCP ★★ — Aug 17 (midday)
+
+WhatsApp and Telegram AI-assistant operations — projects, prompts, conversations, leads, analytics, and balance through 13 tools with no destructive operations by design; project-scoped and read-only keys available. Bearer key, Streamable HTTP at `dosai.pro/api/mcp`; OpenAPI spec, llms.txt, and full public corpus published. (commercial) · [Guide →](/hermes/mcp/servers/external/dos-ai-mcp/)
+
 ### Mektup MCP ★★★ — Aug 16
 Email infrastructure for AI agents — register domains, create mailboxes, send and receive mail, and manage threads, drafts, and folders through 41 tools. Remote Streamable HTTP at `mcp.usemektup.com/mcp` with a Bearer token; MIT. (commercial) · [Guide →](/hermes/mcp/servers/external/mektup-mcp/)
 
@@ -2362,6 +2448,18 @@ Control Bambu Lab 3D printers, edit STL files, and manage 3MF print workflows vi
 ---
 
 ## Marketing
+
+### Bounce Watch MCP ★★★ — Aug 17 (midday)
+
+Company signal intelligence — three million dated events across 39 types (funding, hires, offices, partnerships, customer wins, layoffs, distress), weighted 1 to 10, with coverage blocks on every response and webhook-pushed watches. OAuth 2.1 or `X-API-Key`, Streamable HTTP at `api.bouncewatch.com/api/v1/mcp`; 2,500 free credits, paid from 99 EUR/month. (commercial) · [Guide →](/hermes/mcp/servers/external/bounce-watch-mcp/)
+
+### Ravenpost MCP ★★★ — Aug 17 (midday)
+
+Multi-platform social publishing over MCP — schedule and publish to Instagram, TikTok, X, LinkedIn, Facebook, Telegram, Threads, Bluesky, and YouTube, with network-accurate `preview_post` renders before anything goes live and per-tool read-only/destructive hints. OAuth or personal token, Streamable HTTP at `api.ravenpo.st/mcp`; registry `st.ravenpo/ravenpost`. (commercial) · [Guide →](/hermes/mcp/servers/external/ravenpost-mcp/)
+
+### Linkonda MCP ★★ — Aug 17 (midday)
+
+Privacy-first short links — 7 tools (shorten, bulk shorten up to 100, list, update, delete, stats, quota) with total redirect counts only; no IP, device, or referrer data collected. stdio via `npx -y @veranoapp/linkonda-mcp`; anonymous tier free (10 links, 30-day expiry), persistent links on a paid plan. (commercial, free tier) · [Guide →](/hermes/mcp/servers/external/linkonda-mcp/)
 
 ### SnitchFeed MCP ★ New (Aug 17)
 Intent-based keyword monitoring across LinkedIn, X, Reddit, Hacker News, and Bluesky — 33 tools for sales, marketing, product research, and reporting. OAuth, Streamable HTTP at `api.snitchfeed.com/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/snitchfeed-mcp/)
@@ -3846,3 +3944,17 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Lemon.io MCP — Hire Vetted Senior Developers from Chat](/docs/hermes/mcp/servers/external/lemon-io-mcp/)
 - [ViewMax MCP — AI Video, Image, Music & Speech Generation](/docs/hermes/mcp/servers/external/viewmax-mcp/)
 - [Arc Research MCP — Commodities Research & Knowledge Graph](/docs/hermes/mcp/servers/external/arc-research-mcp/)
+### 11 new servers from mcp.so Feed + mcpservers.org /all — Aug 17, 2026 (midday cron sweep)
+
+- [Bounce Watch MCP — Company Signal Intelligence with Dated Events](/docs/hermes/mcp/servers/external/bounce-watch-mcp/)
+- [Ravenpost MCP — Nine-Network Social Publishing with Render-Accurate Previews](/docs/hermes/mcp/servers/external/ravenpost-mcp/)
+- [Ledgenter MCP — Shared Work-Management Office for AI Agents](/docs/hermes/mcp/servers/external/ledgenter-mcp/)
+- [WisWes Magento MCP — Magento 2 Store Operations for AI Shopping Assistants](/docs/hermes/mcp/servers/external/wiswes-magento-mcp/)
+- [Taiwan Law MCP — Official-Source Taiwan Legal Research](/docs/hermes/mcp/servers/external/taiwan-law-mcp/)
+- [DOS AI MCP — WhatsApp & Telegram Assistant Operations](/docs/hermes/mcp/servers/external/dos-ai-mcp/)
+- [Cliometry MCP — Measured Korean Market Data](/docs/hermes/mcp/servers/external/cliometry-mcp/)
+- [mcp-retrieval — Keyless Web Search & Scraping in Go](/docs/hermes/mcp/servers/external/mcp-retrieval/)
+- [5dive MCP — Agent-Fleet Task Queue & Digests](/docs/hermes/mcp/servers/external/5dive-mcp/)
+- [Linkonda MCP — Privacy-First Short Links](/docs/hermes/mcp/servers/external/linkonda-mcp/)
+- [Tenable MSSP MCP — Bulk CVE Orchestration Across Tenants](/docs/hermes/mcp/servers/external/tenable-mssp-mcp/)
+
