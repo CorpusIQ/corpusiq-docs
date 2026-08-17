@@ -3,7 +3,7 @@ title: External MCP Server Catalog
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-16"
+last_updated: "2026-08-17"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,61 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 16, 2026 (evening cron sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 218 servers (+108 guides)
+> **Last updated:** August 17, 2026 (cron sweep) · **Sources:** mcpservers.org /all pages 1-3 (newest slugs), mcp.so Feed (30 submissions), mcp.so + mcpservers.org server detail pages · **Catalog:** 229 servers (+119 guides)
+
+---
+
+## 🆕 August 17, 2026 — Cron Sweep (11 New, 11 Guides)
+
+Scanned mcpservers.org /all pages 1-3 (newest submissions) and mcp.so Feed (30 newest submissions). 11 new business-relevant servers found — a spread across listening, commerce, content, finance, memory, compliance, and operations: intent-based social listening, Amazon AI-readiness scoring, approval-gated short-form content production, a personal-finance workspace with evidence handles, a local-first memory substrate, pay-per-call compliance endpoints, Italian tax tooling, asset management, developer hiring, media generation, and commodities research.
+
+### SnitchFeed MCP ★★★ — August 17
+
+Intent-based keyword monitoring over MCP — 33 tools covering LinkedIn, X, Reddit, Hacker News, and Bluesky with OAuth, Streamable HTTP at `api.snitchfeed.com/mcp`, for sales, marketing, product research, and reporting. (commercial) · [Guide →](/hermes/mcp/servers/external/snitchfeed-mcp/)
+
+### ListingGood MCP ★★ — August 17
+
+Amazon AI Recommendation Engine over MCP — free AI-readiness and compliance scoring for listings, A9- and shopping-agent-tuned copywriting for US/UK/EU/JP, and POA suspension rescue. API key, Streamable HTTP at `listinggood.com/mcp`; free tier unlimited checks, paid from $10/mo. (commercial) · [Guide →](/hermes/mcp/servers/external/listinggood-mcp/)
+
+### ReelsFarm MCP ★★ — August 17
+
+AI short-form social content over MCP — avatars, product scenes, UGC videos, slideshows, scheduling, and publishing across ~30 tools in seven groups, with Review-mode `confirm_action` gates before any mutation. OAuth or API key, Streamable HTTP at `mcp.reelsfarm.com/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/reelsfarm-mcp/)
+
+### Candor Finance MCP ★★ — August 17
+
+Personal-finance workspace for AI agents — accounts, balances, transactions, budgets, goals, holdings, and debts, every number carrying freshness, coverage, and evidence handles. OAuth 2.1 with dynamic client registration; Streamable HTTP at `api.candor.money/mcp`; read-only toward banks, no money-moving tools; registered as `money.candor/candor-finance` on the official MCP Registry. (commercial) · [Guide →](/hermes/mcp/servers/external/candor-finance-mcp/)
+
+### Exomem ★★ — August 17
+
+Local-first memory substrate for MCP agents — hybrid FTS5 + vector search over your own Markdown/Obsidian vault, governed review queues, evidence and supersession history in plain files, measured at 864 ms across 50,000 notes. AGPL-3.0, `pip install exomem`, self-hosted, no account. (open source) · [Guide →](/hermes/mcp/servers/external/exomem-mcp/)
+
+### Invoket MCP ★★ — August 17
+
+68 pay-per-call verification endpoints as typed MCP tools — IBAN validation, sanctions screening, phone validation, French and EU law in force, weather, and medication data — paid in USDC on Base over x402 with non-custodial BYOK signing and per-call/per-session spend caps. stdio via `@invoket/mcp`; discovery-only mode free. (commercial, pay-per-call) · [Guide →](/hermes/mcp/servers/external/invoket-mcp/)
+
+### Imperio MCP ★★ — August 17
+
+Italian tax and compliance tooling over MCP — Codice Fiscale, P.IVA, IBAN, ATECO, IVA (reverse charge and split payment), IMU, forfettario, F24, FatturaPA/SDI, INTRASTAT, NIS2 scope, and VIES-live anti-fraud payee verification, all deterministic official algorithms with no LLM inference. JSON-RPC 2.0, stateless, `imperioutils.com/api/mcp`; anonymous and free; registered `com.imperioutils/fisco-it`. (free) · [Guide →](/hermes/mcp/servers/external/imperio-mcp/)
+
+### A4B CMMS MCP ★★ — August 17
+
+Asset and maintenance management over MCP — 24 tools covering assets, workspaces, maintenance tasks, users, invites, and QR codes, plus 9 read-only `a4b://` resource templates. OAuth 2.1 + PKCE, multi-tenant, full audit logging; Streamable HTTP at `a4b.ai/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/a4b-cmms-mcp/)
+
+### Lemon.io MCP ★★ — August 17
+
+Hire vetted senior developers from chat — write job descriptions, prepare technical interviews, and request engineers without leaving the conversation. `github.com/lemon-io/lemon-io-mcp`; no parseable config block published (tools served from the endpoint). (commercial marketplace) · [Guide →](/hermes/mcp/servers/external/lemon-io-mcp/)
+
+### ViewMax MCP ★★ — August 17
+
+AI video, image, music, and speech generation over MCP — Sora-class video models via `generate_video`, plus image, music, and speech tools with OAuth (Claude) or API-key auth and credit-based billing. Streamable HTTP at `viewmax.studio/api/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/viewmax-mcp/)
+
+### Arc Research MCP ★★ — August 17
+
+Commodities research over MCP — knowledge-graph search, CFTC COT positioning with week-over-week flows and oscillators, EIA storage and NOAA/GFS/ECMWF weather, futures quotes, and private stories/journals. Bearer token included with Arc Research Starter; Streamable HTTP at `getarcresearch.com/mcp`; registry name `com.getarcresearch/arc-research`. (commercial, subscription) · [Guide →](/hermes/mcp/servers/external/arc-research-mcp/)
+
+**Also identified (not catalogued):** Kashif by BottleTech (free 0-100 website audit scoring SEO/AI-readiness/mobile speed — agency lead funnel with no published MCP endpoint or tool list; GOJI-class skip), Marian Coach Mentoring AI (one-person engineering-coaching sales agent — personal sales surface, not operator tooling), Claix (AI document extraction — REST API docs page with no MCP endpoint or tools; thin-docs rule), YourImageShare MCP (free image/video hosting upload/list/delete — consumer utility), Roamzy (crypto-paid eSIM — consumer), TravelAnimator (travel videos — consumer), AuraNet Omni-Oracle Engine (repeat — REST-first x402 oracle pack already evaluated and skipped Aug 16 night), a Chinese raw-IP listing (shenshaoyin, endpoint on 121.40.18.232 — junk signal, repeat). Feed and /all repeats already catalogued or previously skipped this cycle: Kaiva Bridge, MobileMRR, Mektup, PDI Bridge, GovTrade, ApexVol, Etincel, CryptoStruct, World Monitor, API Direct, JobYap, Kin, NexusTrade, Snipara, RADAAR, BlazingCDN, Cost Seg Smart, easydocforms, Just Domain, Fakto wFirma, FARPY, CoinLobster, EM+x, Mercopilot, DreamThreads, MagicSlides, Wapiworld, Agent Utility, Ignatius, ctxt.io, APITube, Legalcode, Lumail, MainBook, Studex, Croncool, Import.io, Tutorializer, Daily Studio, Datadog, Loops, a trycloudflare host-dump slug, Pixero, Routebase, Seomely, WEM Price Compare, Polyblog.
+
+**Key observation:** The approval-gate pattern is now the default across three distinct domains — ReelsFarm's Review-mode `confirm_action` on publishing, Candor's permission-only workspace changes, and Invoket's pre-signature spend caps all encode the same doctrine CorpusIQ ships natively: the agent proposes, the human confirms, the audit trail records. Second, evidence-handle design is spreading from financial data into memory — Candor's freshness/coverage handles and Exomem's file-native evidence and supersession history both make the record distinguishable from the conclusion. Third, AI-readiness has become a service category of its own: ListingGood scores listings for Amazon's AI and shopping agents the way Seomely scores pages for Google indexation.
 
 ---
 
@@ -931,6 +985,18 @@ Dedicated MCP server for PortEden's Google Sheets data firewall. Read, write, an
 ## Financial Data
 
 
+### Candor Finance MCP ★ New (Aug 17)
+Personal-finance workspace for AI agents — accounts, transactions, budgets, goals, and investments with freshness, coverage, and evidence handles on every number; read-only toward banks, no money-moving tools. OAuth 2.1 with DCR; Streamable HTTP at `api.candor.money/mcp`; `money.candor/candor-finance` on the official MCP Registry. (commercial) · [Guide →](/hermes/mcp/servers/external/candor-finance-mcp/)
+
+### Arc Research MCP ★ New (Aug 17)
+Commodities research over MCP — knowledge graph, CFTC COT positioning, natural gas storage and weather, futures quotes, and private research journals. Bearer token via Account → MCP access, included with Arc Research Starter; Streamable HTTP at `getarcresearch.com/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/arc-research-mcp/)
+
+### Invoket MCP ★ New (Aug 17)
+68 pay-per-call verification endpoints as typed tools — IBAN validation, sanctions screening, phone validation, EU legal data, weather, medication — paid in USDC on Base with non-custodial local signing and MAX_PRICE_USD/SESSION_BUDGET_USD spend caps. stdio via `@invoket/mcp`. (commercial, pay-per-call) · [Guide →](/hermes/mcp/servers/external/invoket-mcp/)
+
+### Imperio MCP ★ New (Aug 17)
+Italian tax and compliance — Codice Fiscale, P.IVA, IBAN, ATECO, IVA, IMU, forfettario, F24, FatturaPA/SDI, INTRASTAT, NIS2 scope, VIES anti-fraud payee checks; deterministic official algorithms. JSON-RPC 2.0 streamable HTTP at `imperioutils.com/api/mcp`; anonymous and free. (free) · [Guide →](/hermes/mcp/servers/external/imperio-mcp/)
+
 ### MobileMRR MCP ★★ — Aug 16 (evening)
 Mobile app acquisition marketplace data over MCP — search listings by MRR, asking price, category, and platform; side-by-side comparison on price, profit multiple, and verification status; provider-backed revenue via direct RevenueCat/Superwall connections; live valuation estimates. 5 tools, no auth, Streamable HTTP at `mobilemrr.com/mcp`. (commercial, free) · [Guide →](/hermes/mcp/servers/external/mobilemrr-mcp/)
 
@@ -1469,6 +1535,9 @@ Authoritative EOL database for AI agents — end-of-life dates, CVE risk scores,
 
 ## Commerce & E-Commerce
 
+### ListingGood MCP ★ New (Aug 17)
+Amazon AI Recommendation Engine — free AI-readiness and compliance checks, A9 and shopping-agent-tuned listing copy for US/UK/EU/JP, and POA suspension rescue. API key, Streamable HTTP at `listinggood.com/mcp`; free tier unlimited checks, paid from $10/mo. (commercial) · [Guide →](/hermes/mcp/servers/external/listinggood-mcp/)
+
 ### Mercopilot MCP ★★★ — Aug 16
 Shopify store + Google Ads account over MCP — plain-English questions, ranked fix list with estimated value, approval-gated changes applied directly in Shopify or Google Ads. OAuth, no API key, Streamable HTTP at `api.mercopilot.com/mcp`; 9 tools. (commercial) · [Guide →](/hermes/mcp/servers/external/mercopilot-mcp/)
 
@@ -1971,6 +2040,12 @@ MCP server for AI agent data flow orchestration. Connect AI agents to data pipel
 
 ## Productivity
 
+### Lemon.io MCP ★ New (Aug 17)
+Hire vetted senior developers from chat — job descriptions, technical interview prep, and engineer requests. `github.com/lemon-io/lemon-io-mcp`; no parseable config block published (tools served from the endpoint). (commercial marketplace) · [Guide →](/hermes/mcp/servers/external/lemon-io-mcp/)
+
+### A4B CMMS MCP ★ New (Aug 17)
+Asset and maintenance management — 24 tools for assets, workspaces, maintenance tasks, users, invites, and QR codes with OAuth 2.1 + PKCE, multi-tenancy, and audit logging. Streamable HTTP at `a4b.ai/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/a4b-cmms-mcp/)
+
 ### MagicSlides MCP ★★ — Aug 16
 Presentations, documents, spreadsheets, and meeting notes from chat — 70+ templates, hosted share links, PPTX/PDF export, agentic in-place revision. No API key (account sign-in); early access free. (commercial) · [Guide →](/hermes/mcp/servers/external/magicslides-mcp/)
 
@@ -2216,6 +2291,12 @@ Multi-inbox email management for AI agents via MCP. Read, search, send, organize
 
 ## Content Creation & Creative
 
+### ReelsFarm MCP ★ New (Aug 17)
+AI short-form social content — avatars, product scenes, UGC videos, slideshows, scheduling, and publishing across seven tool groups, with Review-mode confirmation gates on every mutation. OAuth or API key; Streamable HTTP at `mcp.reelsfarm.com/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/reelsfarm-mcp/)
+
+### ViewMax MCP ★ New (Aug 17)
+AI video, image, music, and speech generation — Sora-class video models with OAuth or API-key auth, credit-based billing. Streamable HTTP at `viewmax.studio/api/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/viewmax-mcp/)
+
 ### Pepys MCP ★ New (July 4)
 Pay-as-you-go audio and video transcription with diarization + AI. Transcribe, podcast feeds, SRT/VTT export, search — BYO key or hosted OAuth connector. Never trains on your audio. Essential for content operators, podcasters, and media teams who need AI-driven transcription and content extraction from audio/video files through their existing MCP workflow.
 
@@ -2281,6 +2362,9 @@ Control Bambu Lab 3D printers, edit STL files, and manage 3MF print workflows vi
 ---
 
 ## Marketing
+
+### SnitchFeed MCP ★ New (Aug 17)
+Intent-based keyword monitoring across LinkedIn, X, Reddit, Hacker News, and Bluesky — 33 tools for sales, marketing, product research, and reporting. OAuth, Streamable HTTP at `api.snitchfeed.com/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/snitchfeed-mcp/)
 
 ### Lumail MCP ★★★ — Aug 16
 Official Lumail email-marketing MCP — subscribers, campaigns, graph-based Workflows, tags, segments, and analytics over dual endpoints: an OAuth catalog that cannot send, publish, or delete, and an API-token catalog with five-digit confirmation codes on every high-impact action. `lumail.io/mcp` (OAuth) · `lumail.io/api/mcp/sse` (token). (commercial) · [Guide →](/hermes/mcp/servers/external/lumail-mcp/)
@@ -2495,6 +2579,9 @@ AI content detection with naturalness scoring and AI-template pattern flagging. 
 ---
 
 ## Memory & Knowledge
+
+### Exomem ★ New (Aug 17)
+Local-first memory substrate for MCP agents — hybrid FTS5 + vector search over your own Markdown/Obsidian vault, governed review queues, evidence and supersession in plain files; measured 864 ms hybrid find at 50,000 notes. AGPL-3.0, `pip install exomem`, no account. (open source) · [Guide →](/hermes/mcp/servers/external/exomem-mcp/)
 
 ### Persistent Memory for Coding Assistants MCP ★ New (July 14)
 Persistent memory and cross-session learning for AI coding assistants. Cloud-based context management via MCP. Redundant category (3+ memory MCPs already catalogued). INDEX ONLY.
@@ -3745,3 +3832,17 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 
 - [Kaiva Bridge MCP — Secure Hosted Database-to-MCP Gateway](/docs/hermes/mcp/servers/external/kaiva-bridge-mcp/)
 - [MobileMRR MCP — Verified-Revenue Mobile App Acquisition Data](/docs/hermes/mcp/servers/external/mobilemrr-mcp/)
+
+### 11 new servers from mcpservers.org /all + mcp.so Feed — Aug 17, 2026 (cron sweep)
+
+- [SnitchFeed MCP — Intent-Based Social Listening Across Five Platforms](/docs/hermes/mcp/servers/external/snitchfeed-mcp/)
+- [ListingGood MCP — Amazon AI-Readiness & Listing Optimization](/docs/hermes/mcp/servers/external/listinggood-mcp/)
+- [ReelsFarm MCP — AI Short-Form Content with Approval-Gated Publishing](/docs/hermes/mcp/servers/external/reelsfarm-mcp/)
+- [Candor Finance MCP — Personal Finance Workspace with Evidence Handles](/docs/hermes/mcp/servers/external/candor-finance-mcp/)
+- [Exomem MCP — Local Markdown Memory Substrate with Hybrid Search](/docs/hermes/mcp/servers/external/exomem-mcp/)
+- [Invoket MCP — Pay-Per-Call Compliance & Verification Endpoints](/docs/hermes/mcp/servers/external/invoket-mcp/)
+- [Imperio MCP — Italian Tax & Compliance Tools](/docs/hermes/mcp/servers/external/imperio-mcp/)
+- [A4B CMMS MCP — Asset & Maintenance Management](/docs/hermes/mcp/servers/external/a4b-cmms-mcp/)
+- [Lemon.io MCP — Hire Vetted Senior Developers from Chat](/docs/hermes/mcp/servers/external/lemon-io-mcp/)
+- [ViewMax MCP — AI Video, Image, Music & Speech Generation](/docs/hermes/mcp/servers/external/viewmax-mcp/)
+- [Arc Research MCP — Commodities Research & Knowledge Graph](/docs/hermes/mcp/servers/external/arc-research-mcp/)
