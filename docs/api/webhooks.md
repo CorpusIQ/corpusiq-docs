@@ -1,6 +1,6 @@
 ---
 title: "CorpusIQ Webhooks"
-description: "Current availability of CorpusIQ webhook event contracts."
+description: "CorpusIQ does not currently publish a customer-facing webhook event contract. The dashboard does not offer a supported webhook-registration workflow, and n."
 category: "API Reference"
 tags: ["corpusiq webhooks", "api events", "contract availability"]
 last_updated: "2026-08-15"

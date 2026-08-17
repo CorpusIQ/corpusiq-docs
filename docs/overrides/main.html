@@ -70,8 +70,8 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "{{ social_title }}",
-    "description": "{{ social_desc }}",
+    "name": {{ social_title | tojson }},
+    "description": {{ social_desc | tojson }},
     "url": "{{ page.canonical_url.rstrip('/') if page.canonical_url else config.site_url.rstrip('/') }}",
     "isPartOf": {
       "@type": "WebSite",
