@@ -10054,7 +10054,7 @@
 <li><strong>Can this be answered from existing knowledge?</strong> (FAQ, docs, known solutions = yes → auto)</li>
 <li><strong>Does this require judgment, empathy, or authority?</strong> (Sensitive topics, complaints, legal = yes → human)</li>
 </ol>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">classify_inbound</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">classify_inbound</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Classify an inbound community message.&quot;&quot;&quot;</span>
 
     <span class="n">classification</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
@@ -10141,7 +10141,7 @@
 </table>
 <h2 id="response-patterns">Response Patterns<a class="headerlink" href="#response-patterns" title="Anchor link to this section">&para;</a></h2>
 <h3 id="faq-auto-response">FAQ Auto-Response<a class="headerlink" href="#faq-auto-response" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">handle_faq</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">handle_faq</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Auto-respond to FAQ using knowledge base retrieval.&quot;&quot;&quot;</span>
 
     <span class="c1"># Search knowledge base for relevant answers</span>
@@ -10182,7 +10182,7 @@
 </code></pre></div>
 <h3 id="complaint-handling">Complaint Handling<a class="headerlink" href="#complaint-handling" title="Anchor link to this section">&para;</a></h3>
 <p>Complaints require care. The goal is de-escalation and resolution:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">handle_complaint</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">handle_complaint</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Draft a complaint response for human review before sending.&quot;&quot;&quot;</span>
 
     <span class="c1"># Analyze complaint sentiment and specifics</span>
@@ -10231,7 +10231,7 @@
 </code></pre></div>
 <h3 id="conversation-engagement">Conversation Engagement<a class="headerlink" href="#conversation-engagement" title="Anchor link to this section">&para;</a></h3>
 <p>Not every message needs a solution  --  some just need engagement:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">engage_conversation</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">context</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">engage_conversation</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">context</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Engage with general conversation naturally.&quot;&quot;&quot;</span>
 
     <span class="n">response</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
@@ -10319,7 +10319,7 @@
 - Address constructive criticism professionally</p>
 <h2 id="sentiment-detection">Sentiment Detection<a class="headerlink" href="#sentiment-detection" title="Anchor link to this section">&para;</a></h2>
 <p>Monitor overall community sentiment, not just individual messages:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">analyze_community_sentiment</span><span class="p">(</span><span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">lookback_hours</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">24</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">analyze_community_sentiment</span><span class="p">(</span><span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">lookback_hours</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">24</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Analyze sentiment trends across community interactions.&quot;&quot;&quot;</span>
 
     <span class="n">messages</span> <span class="o">=</span> <span class="n">fetch_recent_messages</span><span class="p">(</span><span class="n">platform</span><span class="p">,</span> <span class="n">lookback_hours</span><span class="p">)</span>
@@ -10441,7 +10441,7 @@
 </tbody>
 </table>
 <h3 id="weekly-community-health-dashboard">Weekly Community Health Dashboard<a class="headerlink" href="#weekly-community-health-dashboard" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">community_health_report</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">community_health_report</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate weekly community health dashboard.&quot;&quot;&quot;</span>
 
     <span class="n">platforms</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;linkedin&quot;</span><span class="p">,</span> <span class="s2">&quot;twitter&quot;</span><span class="p">,</span> <span class="s2">&quot;reddit&quot;</span><span class="p">,</span> <span class="s2">&quot;youtube&quot;</span><span class="p">]</span>
@@ -10506,7 +10506,7 @@
     <span class="sa">r</span><span class="s2">&quot;(?i)(security breach|hacked|vulnerability|exploit)&quot;</span><span class="p">,</span>
 <span class="p">]</span>
 
-<span class="k">def</span><span class="w"> </span><span class="nf">check_escalation_triggers</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+<span class="k">def</span> <span class="nf">check_escalation_triggers</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Check if a message triggers mandatory human escalation.&quot;&quot;&quot;</span>
     <span class="k">for</span> <span class="n">pattern</span> <span class="ow">in</span> <span class="n">MUST_ESCALATE_PATTERNS</span><span class="p">:</span>
         <span class="k">if</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">pattern</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
@@ -10516,7 +10516,7 @@
 <h2 id="continuous-improvement">Continuous Improvement<a class="headerlink" href="#continuous-improvement" title="Anchor link to this section">&para;</a></h2>
 <h3 id="feedback-loop">Feedback Loop<a class="headerlink" href="#feedback-loop" title="Anchor link to this section">&para;</a></h3>
 <p>Every week, review auto-responses that received follow-up questions (indicating incomplete answers) and those that received no further engagement (indicating resolved issues):</p>
-<h2 id="def-review_response_quality-analyze-which-responses-are-working-and-which-arent-find-responses-that-led-to-follow-ups-incomplete-follow_up_threads-fetch_threads_with_follow_upsdays7-find-responses-that-resolved-the-conversation-resolved_threads-fetch_resolved_threadsdays7-compare-patterns-analysis-hermes_llmcomplete-messages-role-system-content-analyze-these-support-threads-what-patterns-make-responses-effective-vs-ineffective-role-user-content-f-responses-needing-follow-up-lenfollow_up_threads-jsondumpsfollow_up_threads10-responses-that-resolved-cleanly-lenresolved_threads-jsondumpsresolved_threads10-tierpremium-update-response-templates-based-on-findings-update_response_templatesanalysis"><div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">review_response_quality</span><span class="p">():</span>
+<h2 id="def-review_response_quality-analyze-which-responses-are-working-and-which-arent-find-responses-that-led-to-follow-ups-incomplete-follow_up_threads-fetch_threads_with_follow_upsdays7-find-responses-that-resolved-the-conversation-resolved_threads-fetch_resolved_threadsdays7-compare-patterns-analysis-hermes_llmcomplete-messages-role-system-content-analyze-these-support-threads-what-patterns-make-responses-effective-vs-ineffective-role-user-content-f-responses-needing-follow-up-lenfollow_up_threads-jsondumpsfollow_up_threads10-responses-that-resolved-cleanly-lenresolved_threads-jsondumpsresolved_threads10-tierpremium-update-response-templates-based-on-findings-update_response_templatesanalysis"><div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">review_response_quality</span><span class="p">():</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Analyze which responses are working and which aren&#39;t.&quot;&quot;&quot;</span>
 
     <span class="c1"># Find responses that led to follow-ups (incomplete)</span>

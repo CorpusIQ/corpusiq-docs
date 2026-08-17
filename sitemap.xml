@@ -1045,6 +1045,22 @@
          <lastmod>2026-08-17</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/ai-data-integration/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-composio/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-databox/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-glean/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-google-ads/</loc>
          <lastmod>2026-08-17</lastmod>
     </url>
@@ -1057,7 +1073,19 @@
          <lastmod>2026-08-17</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-make-com/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-microsoft-copilot/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-n8n/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-northbeam/</loc>
          <lastmod>2026-08-17</lastmod>
     </url>
     <url>
@@ -1086,6 +1114,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-zapier/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/mcp-server-for-business/</loc>
          <lastmod>2026-08-17</lastmod>
     </url>
     <url>
@@ -1853,6 +1885,10 @@
          <lastmod>2026-08-17</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/5dive-mcp/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/a4b-cmms-mcp/</loc>
          <lastmod>2026-08-17</lastmod>
     </url>
@@ -1973,6 +2009,10 @@
          <lastmod>2026-08-17</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/bounce-watch-mcp/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/browser-mcp-agent360/</loc>
          <lastmod>2026-08-17</lastmod>
     </url>
@@ -2022,6 +2062,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/citerank-mcp/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/cliometry-mcp/</loc>
          <lastmod>2026-08-17</lastmod>
     </url>
     <url>
@@ -2098,6 +2142,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/docker-mcp/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/dos-ai-mcp/</loc>
          <lastmod>2026-08-17</lastmod>
     </url>
     <url>
@@ -2325,6 +2373,10 @@
          <lastmod>2026-08-17</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/ledgenter-mcp/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/legalcode-mcp/</loc>
          <lastmod>2026-08-17</lastmod>
     </url>
@@ -2338,6 +2390,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/linkedmash-mcp/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/linkonda-mcp/</loc>
          <lastmod>2026-08-17</lastmod>
     </url>
     <url>
@@ -2382,6 +2438,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/mcp-notify/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/mcp-retrieval/</loc>
          <lastmod>2026-08-17</lastmod>
     </url>
     <url>
@@ -2549,6 +2609,10 @@
          <lastmod>2026-08-17</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/ravenpost-mcp/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/reelier-mcp/</loc>
          <lastmod>2026-08-17</lastmod>
     </url>
@@ -2665,7 +2729,15 @@
          <lastmod>2026-08-17</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/taiwan-law-mcp/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/ted-tender-monitor/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/tenable-mssp-mcp/</loc>
          <lastmod>2026-08-17</lastmod>
     </url>
     <url>
@@ -2706,6 +2778,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/waldo-mcp/</loc>
+         <lastmod>2026-08-17</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/wiswes-magento-mcp/</loc>
          <lastmod>2026-08-17</lastmod>
     </url>
     <url>
