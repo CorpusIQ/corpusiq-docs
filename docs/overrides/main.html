@@ -18,6 +18,14 @@
 {% endblock %}
 
 {% block extrahead %}
+  {# Canonical: the proxy serves pages WITHOUT trailing slash (docs.corpusiq.io/hermes
+     serves 200; .../hermes/ 308s). The base theme emits canonical with trailing
+     slash, which Ahrefs flags as "Canonical points to redirect". Emit the
+     no-slash form AFTER the theme's tag so ours wins (later tag = effective). #}
+  {% if page %}
+  {% set canon_url = page.canonical_url.rstrip('/') if page.canonical_url else config.site_url.rstrip('/') %}
+  <link rel="canonical" href="{{ canon_url }}">
+  {% endif %}
   {{ super() }}
   {#
     Social-share head tags, emitted on EVERY page with fallbacks so no page is
@@ -46,7 +54,7 @@
   {% endif %}
   <!-- Open Graph — LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.canonical_url }}">
+  <meta property="og:url" content="{{ page.canonical_url.rstrip('/') if page.canonical_url else config.site_url.rstrip('/') }}">
   <meta property="og:site_name" content="{{ config.site_name }}">
   <meta property="og:title" content="{{ social_title }}">
   <meta property="og:description" content="{{ social_desc }}">
@@ -64,7 +72,7 @@
     "@type": "WebPage",
     "name": "{{ social_title }}",
     "description": "{{ social_desc }}",
-    "url": "{{ page.canonical_url }}",
+    "url": "{{ page.canonical_url.rstrip('/') if page.canonical_url else config.site_url.rstrip('/') }}",
     "isPartOf": {
       "@type": "WebSite",
       "name": "{{ config.site_name }}",

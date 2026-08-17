@@ -86,6 +86,35 @@ def main():
         sys.exit(1)
     print("   Build OK")
 
+    # 3b. Normalize sitemap + canonicals: the proxy serves pages WITHOUT trailing
+    #     slash (docs.corpusiq.io/hermes serves 200; .../hermes/ 308s). Ahrefs
+    #     flagged 1,406 sitemap URLs and 1,404 canonicals as redirects for this.
+    sm = os.path.join(REPO_DIR, "site", "sitemap.xml")
+    if os.path.exists(sm):
+        with open(sm, encoding="utf-8") as f:
+            xml = f.read()
+        import re as _re
+        new_xml = _re.sub(r"<loc>(.*?)</loc>", lambda m: f"<loc>{m.group(1).rstrip('/')}</loc>", xml)
+        with open(sm, "w", encoding="utf-8") as f:
+            f.write(new_xml)
+        print("   Sitemap normalized (trailing slashes stripped)")
+
+    # 3c. Remove the base theme's trailing-slash canonical tag; keep our
+    #     no-slash override from extrahead (search engines use the first tag).
+    import glob as _glob
+    patched = 0
+    for html in _glob.glob(os.path.join(REPO_DIR, "site", "**", "*.html"), recursive=True):
+        with open(html, encoding="utf-8") as f:
+            text = f.read()
+        def _keep(m):
+            return m.group(0) if not m.group(1).endswith("/") else ""
+        new = _re.sub(r'<link rel="canonical" href="([^"]+)">', _keep, text, count=1)
+        if new != text:
+            with open(html, "w", encoding="utf-8") as f:
+                f.write(new)
+            patched += 1
+    print(f"   Canonical tags normalized ({patched} pages)")
+
     # 4. Deploy to gh-pages
     print("4. Deploying to gh-pages...")
     wt = "/tmp/gh-pages-deploy"
