@@ -10007,7 +10007,7 @@ npm<span class="w"> </span>install<span class="w"> </span>deepagents
 <hr />
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <h3 id="python">Python<a class="headerlink" href="#python" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">deepagents</span> <span class="kn">import</span> <span class="n">create_deep_agent</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">deepagents</span><span class="w"> </span><span class="kn">import</span> <span class="n">create_deep_agent</span>
 
 <span class="c1"># Default: StateBackend (ephemeral, within thread)</span>
 <span class="n">agent</span> <span class="o">=</span> <span class="n">create_deep_agent</span><span class="p">()</span>
@@ -10017,11 +10017,11 @@ npm<span class="w"> </span>install<span class="w"> </span>deepagents
 <span class="c1"># /draft.txt is lost when thread ends</span>
 
 <span class="c1"># StoreBackend: persistent across threads</span>
-<span class="kn">from</span> <span class="nn">deepagents.backends</span> <span class="kn">import</span> <span class="n">StoreBackend</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">deepagents.backends</span><span class="w"> </span><span class="kn">import</span> <span class="n">StoreBackend</span>
 <span class="n">agent</span> <span class="o">=</span> <span class="n">create_deep_agent</span><span class="p">(</span><span class="n">backend</span><span class="o">=</span><span class="n">StoreBackend</span><span class="p">())</span>
 
 <span class="c1"># CompositeBackend: route paths to different backends</span>
-<span class="kn">from</span> <span class="nn">deepagents.backends</span> <span class="kn">import</span> <span class="n">CompositeBackend</span><span class="p">,</span> <span class="n">StateBackend</span><span class="p">,</span> <span class="n">StoreBackend</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">deepagents.backends</span><span class="w"> </span><span class="kn">import</span> <span class="n">CompositeBackend</span><span class="p">,</span> <span class="n">StateBackend</span><span class="p">,</span> <span class="n">StoreBackend</span>
 <span class="n">agent</span> <span class="o">=</span> <span class="n">create_deep_agent</span><span class="p">(</span><span class="n">backend</span><span class="o">=</span><span class="n">CompositeBackend</span><span class="p">({</span>
     <span class="s2">&quot;/tmp/&quot;</span><span class="p">:</span> <span class="n">StateBackend</span><span class="p">(),</span>      <span class="c1"># Ephemeral temp files</span>
     <span class="s2">&quot;/data/&quot;</span><span class="p">:</span> <span class="n">StoreBackend</span><span class="p">(),</span>     <span class="c1"># Persistent data</span>
