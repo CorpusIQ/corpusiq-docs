@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem — 166+ repos, tools, skills, and integrations
-last_updated: 2026-08-14
+description: Comprehensive directory of the Hermes Agent ecosystem — 167+ repos, tools, skills, and integrations
+last_updated: 2026-08-16
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **166+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **167+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **166+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **167+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -32,7 +32,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **166+ reposit
 | 📦 SDKs & Libraries | 1 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 1 | Security tools, compliance, audit |
 | 🔧 Skills & Plugins | 37 | Reusable skills, plugins, extensions, tools |
-| 🖥️ Interfaces & UI | 31 | Desktop apps, web UIs, dashboards, terminals |
+| 🖥️ Interfaces & UI | 32 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
 
@@ -1214,6 +1214,14 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
+### [criptogus/HermesOffice](https://github.com/criptogus/HermesOffice) ⭐ 504
+
+>AI-native office suite (Docs, Sheets, Slides, PDF) where the Hermes Agent is the brain: open standards, byte-preserving round-trip, 100% local.
+
+**Language:** TypeScript | **Topics:** agent, ai-native, electron, hermes, local-first, mcp, office-suite, univer | **Score:** 83/100
+
+---
+
 ### [unmodeled-tyler/vessel-browser](https://github.com/unmodeled-tyler/vessel-browser) ⭐ 94
 
 >Built from the ground-up for agents, Vessel Browser is an open source AI browser for Linux/Mac/Windows that provides a durable state, MCP control, and BYOK with full autonomous browsing. Use with Hermes Agent, OpenClaw, or connect to your favorite API provider.
@@ -1389,6 +1397,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*166+ repositories in the Hermes ecosystem. Last updated: 2026-08-14. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*167+ repositories in the Hermes ecosystem. Last updated: 2026-08-16. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

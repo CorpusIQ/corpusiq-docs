@@ -5236,5 +5236,45 @@
     "discovered_at": "2026-08-14T08:06:02.270695+00:00",
     "status": "approved",
     "approved_at": "2026-08-14T08:07:50.593404+00:00"
+  },
+  {
+    "name": "criptogus/HermesOffice",
+    "url": "https://github.com/criptogus/HermesOffice",
+    "description": "AI-native office suite (Docs, Sheets, Slides, PDF) where the Hermes Agent is the brain - open standards, byte-preserving round-trip, 100% local.",
+    "stars": 504,
+    "forks": 65,
+    "language": "TypeScript",
+    "topics": [
+      "agent",
+      "ai-native",
+      "docx",
+      "electron",
+      "hermes",
+      "local-first",
+      "mcp",
+      "office-suite",
+      "open-source",
+      "pdf",
+      "pptx",
+      "react",
+      "typescript",
+      "univer",
+      "xlsx"
+    ],
+    "updated_at": "2026-08-16T23:11:53Z",
+    "category": "interfaces-ui",
+    "score": 83,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-17T06:14:42.330109+00:00",
+    "status": "approved",
+    "approved_at": "2026-08-17T06:14:42.330109+00:00"
   }
 ]
