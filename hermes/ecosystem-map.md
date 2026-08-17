@@ -1,9 +1,9 @@
 ---
 title: Hermes Ecosystem Map
-description: Visual map of the entire Hermes Agent ecosystem  --  122+ repos, 14 categories, all connections visualized.
+description: Visual map of the entire Hermes Agent ecosystem  --  169+ repos, 14 categories, all connections visualized.
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem-map/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-08-17"
 tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 ---
@@ -88,7 +88,7 @@ graph TB
     end
 
     subgraph CORPUSIQ_HUB[CorpusIQ Hermes Hub]
-        ECOSYSTEM[Ecosystem Directory<br/>121+ repos]
+        ECOSYSTEM[Ecosystem Directory<br/>169+ repos]
         ARCHITECTURE[Architecture Guide]
         KNOWLEDGE[Memory Guide]
         CRONS[Cron Reference]
@@ -161,7 +161,7 @@ xychart-beta
 | 9 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | 28,359 | Orchestration |
 | 10 | [garrytan/gbrain](https://github.com/garrytan/gbrain) | 22,991 | Memory |
 
-[Full 121+ repo directory →](/hermes/ecosystem/)
+[Full 169+ repo directory →](/hermes/ecosystem/)
 
 ## Data Flow
 
