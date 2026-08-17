@@ -74,7 +74,7 @@ curl -X POST https://<your-magento>/mcp \
 
 ## Integration with CorpusIQ
 
-WisWes Magento pairs with the CorpusIQ analytics stack to close the loop between assistant conversations and store economics. CorpusIQ GA4 reads the traffic and conversion the WisWes widget drives; the CorpusIQ Stripe connector reads the settled revenue; the cross-source view tells the merchant whether the AI assistant lifts basket size or just shifts browsing. For operators running Shopify and Magento stores side by side, WisWes Magento gives the Magento side an assistant parity path with the Shopify tooling CorpusIQ already indexes. The commerce data stays in the store — WisWes holds only the embedded search payload, while CorpusIQ connectors read the financial truth.
+WisWes Magento pairs with the CorpusIQ analytics stack to close the loop between assistant conversations and store economics. CorpusIQ GA4 reads the traffic and conversion the WisWes widget drives; the CorpusIQ Stripe connector reads the settled revenue; the cross-source view tells the merchant whether the AI assistant lifts basket size or just shifts browsing. For operators running Shopify and Magento stores side by side, WisWes Magento gives the Magento side an assistant parity path with the Shopify tooling CorpusIQ already indexes. WisWes indexes only the embedded search payload it needs for semantic lookup. The authoritative commerce data lives in the merchant's Magento store, and CorpusIQ connectors read the financial truth directly from the connected sources.
 
 ## Limitations
 
