@@ -1,6 +1,6 @@
 ---
 title: emailmd MCP Server
-description: "Setup and usage guide for emailmd MCP Server. Part of the Hermes resource directory."
+description: "Setup and usage guide for emailmd MCP Server. Part of the Hermes resource directory. URL: https://github.com/anypost/emailmd."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/emailmd-mcp/"
 robots: "index,follow"

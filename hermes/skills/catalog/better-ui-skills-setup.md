@@ -1,5 +1,5 @@
 ---
-title: Better UI Skills — Interface Polish Suite Setup Guide for Hermes Agents
+title: "Better UI Skills — Interface Polish Suite Setup Guide"
 description: "jakubkrehel/skills — 13 skills, 51.3K total installs. better-ui (8.6K), better-typography (8.3K), better-colors (8.0K), better-interface (6.2K), better-layout (6.2K), better-accessibility (6.1K), better-writing (6.1K), interface-review (1.6K), oklch color skills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/better-ui-skills-setup/"
 robots: "index,follow"

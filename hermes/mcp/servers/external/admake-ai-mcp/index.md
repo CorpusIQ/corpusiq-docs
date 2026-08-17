@@ -1,5 +1,5 @@
 ---
-title: AdMake AI MCP
+title: "AdMake AI MCP - CorpusIQ Docs"
 description: AI-powered ad creative generation, competitor research, and publishing to Meta, TikTok, and Pinterest — all from MCP-compatible AI agents
 category: Marketing
 stars: 0 (brand new)

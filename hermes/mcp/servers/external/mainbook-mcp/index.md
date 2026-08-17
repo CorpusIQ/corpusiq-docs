@@ -1,5 +1,5 @@
 ---
-title: MainBook MCP
+title: "MainBook MCP - CorpusIQ Docs"
 description: Bank-statement conversion over MCP — turn PDF bank statements into checked Excel, CSV or JSON with balance validation. One job, five tools, folder-scoped local access, page-credit pricing.
 category: Finance / Accounting
 stars: n/a (new listing)

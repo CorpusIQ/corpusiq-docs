@@ -1,5 +1,5 @@
 ---
-title: Mercopilot MCP
+title: "Mercopilot MCP - CorpusIQ Docs"
 description: Shopify and Google Ads over MCP — connect your store and ad account to an AI assistant, ask plain-English questions about revenue and spend, get a ranked fix list, and approve changes applied directly in Shopify or Google Ads.
 category: Marketing / Advertising
 stars: n/a (new listing)

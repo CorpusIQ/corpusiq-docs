@@ -1,5 +1,5 @@
 ---
-title: MCP Integration — Connect MCP servers to agent plugins for Hermes Agents
+title: "MCP Integration — Connect MCP servers to agent plugins"
 description: Comprehensive guide for integrating Model Context Protocol servers into Claude Code plugins. 78+ installs from anthropics/claude-plugins-public.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mcp-integration-setup/"
 robots: "index,follow"

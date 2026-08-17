@@ -1,5 +1,5 @@
 ---
-title: App Store Connect CLI Skills — Mobile Release Automation Setup Guide for Hermes Agents
+title: "App Store Connect CLI Skills — Mobile Release"
 description: Install the rorkai/app-store-connect-cli-skills cluster (53.5K installs, 33 skills) — release flow, submission health, metadata sync, ASO audit, TestFlight orchestration, crash triage, notarization, Apple Ads, plus a Google Play Developer cluster.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/app-store-connect-cli-skills-setup/"
 robots: "index,follow"

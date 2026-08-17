@@ -1,5 +1,5 @@
 ---
-title: Wind Skills — 82-Skill Financial Terminal Cluster Setup Guide for Hermes Agents
+title: "Wind Skills — 82-Skill Financial Terminal Cluster"
 description: "wind-information-co-ltd/wind-skills — 82 skills, 132.6K combined installs. The official agent skill set for Wind, China's dominant financial data terminal — MCP data access plus 79 investment research workflows."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wind-skills-setup/"
 robots: "index,follow"

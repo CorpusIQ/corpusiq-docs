@@ -9,7 +9,7 @@ setup: npx skills add shopify/shopify-ai-toolkit@shopify-admin
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/shopify/shopify-admin/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Shopify Admin"
+title: "Shopify Admin - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

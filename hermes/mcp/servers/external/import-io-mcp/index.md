@@ -1,5 +1,5 @@
 ---
-title: Import.io MCP
+title: "Import.io MCP - CorpusIQ Docs"
 description: Hosted web scraping over MCP — render pages in a real browser, extract structured data, capture screenshots, with proxy routing, country targeting and CAPTCHA handling. 10,000 free calls, then $0.0002 per successful call.
 category: Lead Generation & Web Scraping
 stars: n/a (new listing)

@@ -1,6 +1,6 @@
 ---
 title: Feedback Synthesis MCP
-description: "Setup and usage guide for Feedback Synthesis MCP. Part of the Hermes resource directory."
+description: "Setup and usage guide for Feedback Synthesis MCP. Part of the Hermes resource directory. Source: mcp.so submission #3282 (July 23, 2026) GitHub: sapph1re/f."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/feedback-synthesis-mcp/"
 robots: "index,follow"

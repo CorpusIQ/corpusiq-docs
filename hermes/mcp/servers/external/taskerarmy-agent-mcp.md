@@ -1,6 +1,6 @@
 ---
 name: "TaskerArmy Agent MCP"
-description: "Check pending Shopify theme optimization tasks from AI agents"
+description: "TaskerArmy Agent is a remote MCP server that connects AI assistants to TaskerArmy's Shopify theme optimization platform. Agents can query pending tasks, ch."
 category: "Development"
 source: "mcpservers.org"
 discovered: "2026-07-23"

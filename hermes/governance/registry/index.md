@@ -1,6 +1,6 @@
 ---
 title: System Registry
-description: Preventing duplication and sprawl in autonomous agent systems through component registration
+description: "Preventing duplication and sprawl in autonomous agent systems through component registration. systems, uncontrolled creation leads chaos. The System Regist."
 canonical: "https://www.corpusiq.io/docs/hermes/governance/registry/"
 robots: "index,follow"
 last_updated: "2026-08-12"
@@ -42,7 +42,7 @@ title: Email Operations
 description: Autonomous email monitoring, routing, and response for production agent operations
 ---
 
-# Email Operations
+## Email Operations
 
 The platform autonomously monitors two inboxes (`team@` and `info@`) handling lead qualification, internal routing, research, draft generation, and escalation.
 
@@ -81,7 +81,7 @@ title: Autonomous Scheduling
 description: 24 scheduled processes for 24/7 autonomous operations  --  monitoring, publishing, and maintenance
 ---
 
-# Autonomous Scheduling
+## Autonomous Scheduling
 
 The platform operates 24 scheduled processes executing on a 24/7 basis: email monitoring, social publishing, video generation, knowledge consolidation, reporting, and self-improvement cycles.
 
@@ -116,7 +116,7 @@ title: Operational Monitoring
 description: System health checks, process verification, and anomaly detection for autonomous agent operations
 ---
 
-# Operational Monitoring
+## Operational Monitoring
 
 A 10 PM daily system health check runs across all 24 crons, verifying execution status, output quality, and system resources.
 

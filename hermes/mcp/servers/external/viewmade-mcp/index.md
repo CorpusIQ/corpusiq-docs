@@ -1,5 +1,5 @@
 ---
-title: ViewMade MCP
+title: "ViewMade MCP - CorpusIQ Docs"
 description: YouTube research, SEO, and finished video production for AI assistants — agent-native video marketing from research through publishing
 category: Marketing / Content
 stars: early

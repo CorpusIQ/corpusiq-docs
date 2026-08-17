@@ -1,5 +1,5 @@
 ---
-title: UI/UX Pro Max — 19-Skill Design System Pack Setup Guide for Hermes Agents
+title: "UI/UX Pro Max — 19-Skill Design System Pack Setup"
 description: "nextlevelbuilder/ui-ux-pro-max-skill — 19 skills, 611.4K combined installs. Design systems, brand, banner design, and slides for agents building production interfaces."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ui-ux-pro-max-setup/"
 robots: "index,follow"

@@ -1,6 +1,6 @@
 ---
 name: "Taplio MCP"
-description: "Draft, schedule, publish, and analyze LinkedIn posts from any AI assistant"
+description: "Draft, schedule, publish, and analyze LinkedIn posts from any AI assistant. Taplio's official MCP server lets assistants (Claude, Cursor, Codex, Hermes Age."
 category: "Marketing"
 source: "mcp.so"
 discovered: "2026-07-23"

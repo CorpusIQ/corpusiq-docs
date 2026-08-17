@@ -1,5 +1,5 @@
 ---
-title: Flutter Agent Plugins — Official Flutter Skills Setup Guide for Hermes Agents
+title: "Flutter Agent Plugins — Official Flutter Skills Setup"
 description: "flutter/agent-plugins — the official Flutter team skills: 86 skills, 538.2K total installs. flutter-apply-architecture-best-practices (29.9K), flutter-build-responsive-layout (29.0K), flutter-fix-layout-issues (27.8K), widget/integration testing, routing, localization, plus dart-* and general best-practice skills."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/flutter-agent-plugins-setup/"
 robots: "index,follow"

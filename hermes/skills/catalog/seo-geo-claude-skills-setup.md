@@ -1,5 +1,5 @@
 ---
-title: "SEO GEO Claude Skills — 20-Skill SEO & Generative Engine Optimization Suite Setup for Hermes Agents"
+title: "SEO GEO Claude Skills — 20-Skill SEO & Generative"
 description: "aaron-he-zhu/seo-geo-claude-skills — 20 skills, 126.6K installs. Backlink analysis (26.1K), keyword research, competitor analysis, technical/on-page SEO, GEO content optimization for AI answer engines, schema markup, SERP analysis, rank tracking, entity optimization."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/seo-geo-claude-skills-setup/"
 robots: "index,follow"

@@ -1,5 +1,5 @@
 ---
-title: "Email And Sms"
+title: "Email And Sms - CorpusIQ Docs"
 description: "Email and SMS campaign prompts for Hermes agents. Analyze open rates, click-through, and conversion data across Gmail, Outlook, Klaviyo, and Twilio using"
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/email-and-sms/"
 robots: "index,follow"

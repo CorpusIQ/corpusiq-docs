@@ -10,7 +10,7 @@ tags: [sap, abap, ecc, s4hana, enterprise, erp]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/abapilot-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-description: "SAP ECC runs 70%+ of global enterprise transactions."
+description: "In-system ABAP MCP server for SAP ECC and on-premise S/4HANA. No BTP, no ADT, no RISE required. Runs directly inside the SAP system, giving AI agents nativ."
 
 ---
 

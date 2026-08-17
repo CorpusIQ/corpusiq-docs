@@ -1,5 +1,5 @@
 ---
-title: ECC Engineering Skills — Enterprise Engineering Suite Setup Guide for Hermes Agents
+title: "ECC Engineering Skills — Enterprise Engineering Suite"
 description: "affaan-m/ecc — 292 skills, 466.2K total installs. Enterprise engineering suite: frontend-patterns, backend-patterns, security-review, api-design, coding-standards, tdd-workflow, docker-patterns, postgres-patterns, deep-research, article-writing, seo, brand-voice, architecture-decision-records, living-docs-governance."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ecc-engineering-skills-setup/"
 robots: "index,follow"

@@ -1,5 +1,5 @@
 ---
-title: Content Strategy — Full Planning Framework for Hermes Content Operations
+title: "Content Strategy — Full Planning Framework for Hermes"
 description: Plan content that drives traffic, builds authority, and generates leads. Covers searchable vs shareable frameworks, topic clusters, editorial calendars, and content roadmaps. 110.2K+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/content-strategy-setup/"
 robots: "index,follow"

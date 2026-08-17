@@ -1,6 +1,6 @@
 ---
 title: "supabase Skills"
-description: "Hermes skills for supabase integration and automation. Part of the Hermes Skills Library."
+description: "Hermes skills for supabase integration and automation. Part of the Hermes Skills Library. integrating Agent with supabase. These enable autonomous workflow."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/supabase/"
 robots: "index,follow"
 last_updated: "2026-08-12"

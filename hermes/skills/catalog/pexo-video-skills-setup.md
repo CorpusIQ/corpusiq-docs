@@ -1,5 +1,5 @@
 ---
-title: Pexo Video Skills — AI Video Generation Suite Setup Guide for Hermes Agents
+title: "Pexo Video Skills — AI Video Generation Suite Setup"
 description: "pexoai/pexo-skills — 24 skills, 62.5K total installs. pexo-agent (39.4K), videoagent-video-studio (10.4K), image-studio, audio-studio, Seedance and Veo 3.2 prompters, plus ad/short-form video skills (youtube-short-maker, tiktok-video-ad, saas-video, startup-video, launch-video)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pexo-video-skills-setup/"
 robots: "index,follow"

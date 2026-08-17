@@ -1,5 +1,5 @@
 ---
-title: HumanLayer Skills — Human-in-the-Loop Patterns Setup Guide for Hermes Agents
+title: "HumanLayer Skills — Human-in-the-Loop Patterns Setup"
 description: Install the humanlayer/skills cluster (2.7K installs, 5 skills) — show-me, improve-claude-md, design-control-loop, build-iterated-agentic-loop for building agent systems with human approval gates.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/humanlayer-skills-setup/"
 robots: "index,follow"

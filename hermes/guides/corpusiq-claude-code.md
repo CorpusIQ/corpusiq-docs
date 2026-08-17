@@ -1,5 +1,5 @@
 ---
-title: Use CorpusIQ with Claude Code — Ask Business Questions from Your Terminal
+title: "Use CorpusIQ with Claude Code — Ask Business Questions"
 description: Connect CorpusIQ to Claude Code via MCP. Ask revenue, orders, and margin questions against live Shopify, Stripe, and QuickBooks data. Source-cited answers in your terminal.
 canonical: "https://www.corpusiq.io/docs/hermes/guides/corpusiq-claude-code/"
 robots: "index,follow"

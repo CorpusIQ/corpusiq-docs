@@ -1,5 +1,5 @@
 ---
-title: Dockerize and Deploy — Containerize any repo for Hermes Agent deployment
+title: "Dockerize and Deploy — Containerize any repo for"
 description: Dockerfile, docker-compose with volumes, and preflight script generation. 44+ installs from rockclaver/systemcraft.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/dockerize-and-deploy-setup/"
 robots: "index,follow"

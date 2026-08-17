@@ -1,5 +1,5 @@
 ---
-title: Hermoso AI MCP
+title: "Hermoso AI MCP - CorpusIQ Docs"
 description: AI ad studio over MCP. Research the ads winning in your market, generate finished on-brand image and video ads with 50+ models, publish them, and run campaigns across ten ad platforms.
 category: Content
 stars: n/a (new listing)

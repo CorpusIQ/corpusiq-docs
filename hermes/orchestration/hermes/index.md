@@ -64,7 +64,7 @@ title: CrewAI  --  Multi-Agent Orchestration
 description: Multi-agent coordination with CrewAI  --  specialized agents, parallel execution, and domain delegation
 ---
 
-# CrewAI  --  Multi-Agent Orchestration
+## CrewAI  --  Multi-Agent Orchestration
 
 CrewAI provides multi-agent orchestration. Instead of a single agent managing everything, specialized agents handle specific domains in parallel.
 
@@ -104,7 +104,7 @@ title: LangGraph  --  Stateful Workflows
 description: Graph-based execution with conditional routing, persistent state, and recovery paths for Hermes agents
 ---
 
-# LangGraph  --  Stateful Workflows
+## LangGraph  --  Stateful Workflows
 
 LangGraph introduces stateful graph-based execution  --  conditional routing, multi-step workflows, persistent state management, branching decision trees, and recovery paths. The result: deterministic workflow execution, not linear prompt chains.
 
@@ -137,7 +137,7 @@ title: Reflexion  --  Self-Improving Agents
 description: Self-evaluation loops for autonomous agent improvement without human correction
 ---
 
-# Reflexion  --  Self-Improving Agents
+## Reflexion  --  Self-Improving Agents
 
 Reflexion introduces self-evaluation loops. Instead of waiting for human correction, agents evaluate their own output and self-correct.
 

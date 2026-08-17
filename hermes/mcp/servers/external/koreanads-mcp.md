@@ -1,6 +1,6 @@
 ---
 name: "KoreanAds MCP"
-description: "Find advertising plans and opportunities in Korea"
+description: "KoreanAds helps advertisers find advertising plans and opportunities in the Korean market. The MCP server provides programmatic access to Korean advertisin."
 category: "Marketing"
 source: "mcpservers.org"
 discovered: "2026-07-23"

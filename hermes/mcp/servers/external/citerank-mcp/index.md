@@ -1,5 +1,5 @@
 ---
-title: CiteRank MCP
+title: "CiteRank MCP - CorpusIQ Docs"
 description: AI search visibility platform as MCP tools — audits why AI answer engines won't cite your brand, checks brand citations in AI Overviews and Gemini, and generates the fixes
 category: SEO
 stars: n/a (no public repo)

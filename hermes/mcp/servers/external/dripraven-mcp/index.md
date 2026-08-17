@@ -1,5 +1,5 @@
 ---
-title: DripRaven MCP
+title: "DripRaven MCP - CorpusIQ Docs"
 description: WhatsApp Business campaign automation for AI agents — import contacts, send approved templates, schedule broadcasts, and read delivery rates via the official WhatsApp Business API
 category: Marketing
 stars: 0 (brand new)

@@ -1,5 +1,5 @@
 ---
-title: AdWhispr MCP
+title: "AdWhispr MCP - CorpusIQ Docs"
 description: Complete ad workflow MCP — research any brand's live Facebook/TikTok ads, clone the proven winners, and launch real campaigns on Google, TikTok, and Meta — all from AI chat
 category: Marketing / Advertising
 stars: featured

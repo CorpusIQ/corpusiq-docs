@@ -1,5 +1,5 @@
 ---
-title: github/awesome-copilot — MCP Server Generators & GitHub Automation for Hermes
+title: "github/awesome-copilot — MCP Server Generators &"
 description: Install skills from github/awesome-copilot (13.1K+ installs) — MCP server generators (TypeScript/Python), GitHub workflow automation, and documentation tools. Works with GitHub Copilot and adaptable to Hermes agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/awesome-copilot-setup/"
 robots: "index,follow"

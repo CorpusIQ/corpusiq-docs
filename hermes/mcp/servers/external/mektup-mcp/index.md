@@ -1,5 +1,5 @@
 ---
-title: Mektup MCP
+title: "Mektup MCP - CorpusIQ Docs"
 description: Email infrastructure over MCP — register domains, create mailboxes, send and receive mail, and manage threads, drafts and folders through 41 agent tools. A real mailbox for AI agents, not a one-way sending API.
 category: Communication & Email
 stars: n/a (new listing)

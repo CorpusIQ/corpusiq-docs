@@ -10,7 +10,7 @@ tags: [industrial, automation, factory, iot, plc, scada]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ft-optix-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-description: "FT Optix Studio credentials (username/password). Requires network access to the FT Optix server."
+description: "FT Optix Studio credentials (username/password). Requires network access to the FT Optix server. MCP for connecting LLMs. factory/industrial automation pla."
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: "iGaming Tools MCP"
-description: "Structured iGaming reference data — slot specs, RTP variants, providers, regulators, news and jobs"
+description: "Structured iGaming reference data — slot specs, RTP variants, providers, regulators, news and jobs. MCP server providing data: specifications, (Return Play."
 category: "Database"
 source: "mcpservers.org"
 discovered: "2026-07-23"

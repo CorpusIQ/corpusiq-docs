@@ -1,5 +1,5 @@
 ---
-title: BusyMail MCP
+title: "BusyMail MCP - CorpusIQ Docs"
 description: Human-approval email over MCP — read, organize, and send from your existing IMAP accounts, with nothing sent until you approve it
 category: Productivity
 stars: n/a (new listing)

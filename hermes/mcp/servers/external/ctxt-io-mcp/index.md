@@ -1,5 +1,5 @@
 ---
-title: ctxt.io MCP
+title: "ctxt.io MCP - CorpusIQ Docs"
 description: Auto-expiring share links over MCP — turn agent-produced diffs, logs, reports and HTML into links that expire on their own, with read-back and delete tools. No account, no API key, free for links up to one day.
 category: Developer Tools
 stars: n/a (new listing)

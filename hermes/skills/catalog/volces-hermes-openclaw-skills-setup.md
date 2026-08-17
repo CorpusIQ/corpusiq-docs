@@ -1,5 +1,5 @@
 ---
-title: Volces Hermes & OpenClaw Skills — ByteDance Registry Cluster Setup Guide
+title: "Volces Hermes & OpenClaw Skills — ByteDance Registry"
 description: "Install and use the Hermes/OpenClaw skill cluster from skills.volces.com (ByteDance Volces registry mirror): hermes-installer, openclaw-reference"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/volces-hermes-openclaw-skills-setup/"
 robots: "index,follow"

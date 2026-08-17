@@ -1,6 +1,6 @@
 ---
 title: Ahrefs MCP Server ★★★ Official
-description: "Setup and usage guide for Ahrefs MCP Server ★★★ Official. Part of the Hermes resource directory."
+description: "Setup and usage guide for Ahrefs MCP Server ★★★ Official. Part of the Hermes resource directory. Source: mcpservers.org Last updated: July 26, 2026 (evenin."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ahrefs-mcp/"
 robots: "index,follow"

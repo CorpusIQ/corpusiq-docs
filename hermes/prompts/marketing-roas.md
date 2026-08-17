@@ -1,5 +1,5 @@
 ---
-title: "Marketing Roas"
+title: "Marketing Roas - CorpusIQ Docs"
 description: "Marketing ROAS analysis prompts for Hermes agents. Natural language queries to analyze ad spend efficiency, cross-channel performance, and campaign ROI"
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/marketing-roas/"
 robots: "index,follow"

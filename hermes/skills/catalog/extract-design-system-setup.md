@@ -1,5 +1,5 @@
 ---
-title: Extract Design System — UI Extraction Skill Setup Guide for Hermes Agents
+title: "Extract Design System — UI Extraction Skill Setup"
 description: Install arvindrk/extract-design-system (127.3K installs) — extracts a reusable design system (tokens, components, typography, spacing) from any existing website or interface for agent-driven UI work.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/extract-design-system-setup/"
 robots: "index,follow"

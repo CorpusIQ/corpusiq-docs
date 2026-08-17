@@ -1,6 +1,6 @@
 ---
-title: "shopify Skills"
-description: "Hermes skills for shopify integration and automation. Part of the Hermes Skills Library."
+title: "shopify Skills - CorpusIQ Docs"
+description: "Hermes skills for shopify integration and automation. Part of the Hermes Skills Library. integrating Agent with shopify. These enable autonomous workflows,."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/shopify/"
 robots: "index,follow"
 last_updated: "2026-08-12"

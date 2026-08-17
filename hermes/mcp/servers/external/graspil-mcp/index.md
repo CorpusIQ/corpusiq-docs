@@ -1,5 +1,5 @@
 ---
-title: Graspil MCP
+title: "Graspil MCP - CorpusIQ Docs"
 description: Telegram analytics, broadcast, and automation over MCP. Build reports, read funnels and referral stats, and manage broadcasts without opening the dashboard.
 category: Marketing
 stars: n/a (new listing)

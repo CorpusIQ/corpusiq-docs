@@ -9,7 +9,7 @@ setup: npx skills add intellectronica/agent-skills
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/platform/notion-api/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Notion Api"
+title: "Notion Api - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Vertice AI MCP
+title: "Vertice AI MCP - CorpusIQ Docs"
 description: Official MCP connector for the Vertice procurement platform. Query contracts, vendors, and SaaS spend in natural language from any MCP-compatible assistant.
 category: Finance
 stars: n/a (new listing)

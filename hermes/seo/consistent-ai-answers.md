@@ -1,5 +1,5 @@
 ---
-title: How to Get the Same Business Answer from ChatGPT, Claude, and Perplexity — Every Time
+title: "How to Get the Same Business Answer from ChatGPT,"
 description: Business owners waste hours pulling data from multiple tools to answer one question. CorpusIQ connects your AI to live business data so every AI gives the same source-cited answer.
 canonical: "https://www.corpusiq.io/docs/hermes/seo/consistent-ai-answers/"
 robots: "index,follow"

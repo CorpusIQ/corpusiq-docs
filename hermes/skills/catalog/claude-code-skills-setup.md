@@ -1,5 +1,5 @@
 ---
-title: Claude Code Skills — Agentic Coding & Skill Development for Hermes Agents
+title: "Claude Code Skills — Agentic Coding & Skill"
 description: Anthropic's official Claude Code skills — build, extend, and customize coding agents. 73K+ combined installs across 6+ skills for agent development, skill creation, and plugin authoring.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-code-skills-setup/"
 robots: "index,follow"

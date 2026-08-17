@@ -1,5 +1,5 @@
 ---
-title: "New Skills"
+title: "New Skills - CorpusIQ Docs"
 description: 6 newly discovered Hermes skill repos  --  36-skill ECC pack, NVIDIA SkillSpector vetting pipeline, AgentMint subagent routing, devops/scraping skills, SEO/WordPress marketing pack, and Herman's execution playbook.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june19-2026-update/"
 robots: "index,follow"

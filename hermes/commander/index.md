@@ -1,6 +1,6 @@
 ---
 title: Commander Common Sense Gate
-description: "Setup and usage guide for Commander Common Sense Gate. Part of the Hermes resource directory."
+description: "Setup and usage guide for Commander Common Sense Gate. Part of the Hermes resource directory. judgment verification layer that inspects every proposed acti."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/commander/"
 robots: "index,follow"

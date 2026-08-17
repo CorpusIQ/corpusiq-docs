@@ -1,6 +1,6 @@
 ---
 title: "Hermes Tweet — X/Twitter Automation Plugin for Hermes"
-description: "Install and configure the hermes-tweet plugin for native X/Twitter automation through Hermes Agent."
+description: "Install and configure the hermes-tweet plugin for native X/Twitter automation through Hermes Agent. Repo: Xquik-dev/hermes-tweet."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-tweet-setup/"
 robots: "index,follow"
 last_updated: "2026-08-12"

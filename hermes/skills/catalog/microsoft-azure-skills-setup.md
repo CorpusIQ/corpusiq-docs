@@ -1,5 +1,5 @@
 ---
-title: Microsoft Azure AI Foundry Skills — Enterprise Agent Infrastructure for Hermes Agents
+title: "Microsoft Azure AI Foundry Skills — Enterprise Agent"
 description: Microsoft's official Azure AI Foundry agent skills with 478K+ combined installs. Deploy, manage, and optimize AI agents on Azure with enterprise-grade infrastructure, CI/CD, observability, and fine-tuning.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/microsoft-azure-skills-setup/"
 robots: "index,follow"

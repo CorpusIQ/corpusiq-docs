@@ -1,5 +1,5 @@
 ---
-title: HuggingFace Agent Skills — Datasets, papers, vision, and ML tools for Hermes Agents
+title: "HuggingFace Agent Skills — Datasets, papers, vision,"
 description: 6 ML/AI skills from HuggingFace covering datasets API, papers research, Transformers.js, vision training, and tool building. 7.9K+ combined installs, 10.8K GitHub stars.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/huggingface-agent-skills-setup/"
 robots: "index,follow"

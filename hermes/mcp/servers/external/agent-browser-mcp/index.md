@@ -1,6 +1,6 @@
 ---
 title: Agent Browser MCP Server
-description: "Setup and usage guide for Agent Browser MCP Server. Part of the Hermes resource directory."
+description: "Setup and usage guide for Agent Browser MCP Server. Part of the Hermes resource directory. URL: https://github.com/codeChap/mcp-server-agent-browser."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/agent-browser-mcp/"
 robots: "index,follow"

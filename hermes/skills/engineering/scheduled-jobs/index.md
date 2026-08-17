@@ -1,5 +1,5 @@
 ---
-title: scheduled-jobs
+title: "scheduled-jobs - CorpusIQ Docs"
 description: Operate, debug, and verify recurring agent work  --  daily audits, inbox monitors, watchdogs, no-agent scripts. Covers the profile vs default-profile split, server-local time semantics, and the discipline that keeps cron from rotting silently.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/scheduled-jobs/"
 robots: "index,follow"

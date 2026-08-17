@@ -1,6 +1,6 @@
 ---
 name: "Fixou MCP"
-description: "Create and track quote requests to local French tradespeople — 80 trades, remote MCP"
+description: "Create and track quote requests to local French tradespeople — 80 trades, remote MCP. Fixou provides access its platform for creating tracking across diffe."
 category: "Other"
 source: "mcpservers.org"
 discovered: "2026-07-23"

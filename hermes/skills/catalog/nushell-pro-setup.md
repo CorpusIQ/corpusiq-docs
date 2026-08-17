@@ -1,5 +1,5 @@
 ---
-title: NuShell Pro — Structured Shell Scripting Skill Setup Guide for Hermes Agents
+title: "NuShell Pro — Structured Shell Scripting Skill Setup"
 description: "Install hustcer/nushell-pro (1.1K installs) — NuShell scripting expertise for agents: structured data pipelines, custom commands, and typed shell automation."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/nushell-pro-setup/"
 robots: "index,follow"

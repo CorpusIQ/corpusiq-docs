@@ -1,5 +1,5 @@
 ---
-title: "Multi Source"
+title: "Multi Source - CorpusIQ Docs"
 description: "Multi-source query prompts for Hermes agents. Ask questions that span multiple business tools simultaneously — cross-reference CRM data with billing"
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/multi-source/"
 robots: "index,follow"

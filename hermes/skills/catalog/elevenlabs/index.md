@@ -1,6 +1,6 @@
 ---
 title: "elevenlabs Skills"
-description: "Hermes skills for elevenlabs integration and automation. Part of the Hermes Skills Library."
+description: "Hermes skills for elevenlabs integration and automation. Part of the Hermes Skills Library. integrating Agent with elevenlabs. These enable autonomous work."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/elevenlabs/"
 robots: "index,follow"
 last_updated: "2026-08-12"

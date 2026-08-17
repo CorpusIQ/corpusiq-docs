@@ -1,6 +1,6 @@
 ---
 title: Index One MCP Server
-description: "Setup and usage guide for Index One MCP Server. Part of the Hermes resource directory."
+description: "Setup and usage guide for Index One MCP Server. Part of the Hermes resource directory. URL: https://mcpservers.org/servers/indexone-io-docs-mcp."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/index-one-mcp/"
 robots: "index,follow"

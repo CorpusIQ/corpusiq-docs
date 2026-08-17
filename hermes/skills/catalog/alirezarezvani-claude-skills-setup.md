@@ -1,5 +1,5 @@
 ---
-title: Alireza Rezvani Claude Skills — 341 production engineering, marketing, and agent skills for Hermes Agents
+title: "Alireza Rezvani Claude Skills — 341 production"
 description: Massive collection of 341+ skills across engineering (37 advanced), marketing, design, analytics, and agent workflows. 23.3K GitHub stars, 9K+ installs. Covers MCP servers, RAG, CI/CD, agent loops, SEO, A/B testing, and more.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/alirezarezvani-claude-skills-setup/"
 robots: "index,follow"

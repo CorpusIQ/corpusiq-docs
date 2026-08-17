@@ -10,7 +10,7 @@ tags: [vat, vies, eu, tax, compliance, ecommerce]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/honest-vies-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-description: "No API keys needed. Calls the public EU VIES SOAP API directly."
+description: "Part of the Honest MCP suite. Validates EU VAT numbers through the official VIES (VAT Information Exchange System) and includes a consultation number for l."
 
 ---
 

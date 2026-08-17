@@ -1,5 +1,5 @@
 ---
-title: Netlify Agent Skills — Serverless deployment, edge functions, and platform ops for Hermes Agents
+title: "Netlify Agent Skills — Serverless deployment, edge"
 description: 6 deployment-focused skills from Netlify covering functions, config, frameworks, edge functions, and forms. 7.9K+ combined installs. Essential for Hermes agents managing Netlify deployments.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/netlify-agent-skills-setup/"
 robots: "index,follow"

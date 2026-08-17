@@ -1,6 +1,6 @@
 ---
 title: "infrastructure Skills"
-description: "Hermes skills for infrastructure integration and automation. Part of the Hermes Skills Library."
+description: "Hermes skills for infrastructure integration and automation. Part of the Hermes Skills Library. integrating Agent with infrastructure. These enable autonom."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/infrastructure/"
 robots: "index,follow"
 last_updated: "2026-08-12"

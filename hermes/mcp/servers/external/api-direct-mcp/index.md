@@ -1,5 +1,5 @@
 ---
-title: API Direct MCP
+title: "API Direct MCP - CorpusIQ Docs"
 description: Search public social, news, and local-business data across 13 platforms with 68 MCP tools and 60+ ready-made playbooks for lead-gen, recruiting, and due diligence. Pay-as-you-go per request.
 category: Marketing
 stars: n/a (new listing)

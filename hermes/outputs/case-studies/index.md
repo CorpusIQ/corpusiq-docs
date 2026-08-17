@@ -1,5 +1,5 @@
 ---
-title: Case Studies
+title: "Case Studies - CorpusIQ Docs"
 description: Real-world Hermes Agent deployment case studies across 13 industries
 last_updated: 2026-07-08
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/"

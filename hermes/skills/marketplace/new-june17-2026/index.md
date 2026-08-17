@@ -1,5 +1,5 @@
 ---
-title: "New Skills"
+title: "New Skills - CorpusIQ Docs"
 description: 6 new Hermes Agent skills discovered June 17, 2026 from nousresearch/hermes-agent  --  native MCP client, office document generation, DuckDuckGo search, meme generation, vLLM serving, and Excel authoring.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june17-2026/"
 robots: "index,follow"

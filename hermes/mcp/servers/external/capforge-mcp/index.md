@@ -10,7 +10,7 @@ tags: [sap, cap, cds, fiori, ui5, enterprise, development]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/capforge-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-description: "Requires `@sap/cds` (CDS compiler) installed locally."
+description: "MCP server that makes AI agents get SAP CAP/CDS and UI5 right. Combines modern scaffolding with a real validation loop against cds compile. First dedicated."
 
 ---
 

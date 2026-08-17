@@ -1,6 +1,6 @@
 ---
 name: "dokumendiregister MCP"
-description: "Free, no-API-key MCP server for Estonian public-authority document registers"
+description: "Free, no-API-key MCP server for Estonian public-authority document registers. no-authentication that searches (dokumendiregistrid). One search across all a."
 category: "Data & Analytics"
 source: "mcp.so"
 discovered: "2026-07-23"

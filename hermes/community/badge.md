@@ -1,6 +1,6 @@
 ---
 title: "Community Badge"
-description: "Shareable badge for Hermes ecosystem contributors and community members."
+description: "Shareable badge for Hermes ecosystem contributors and community members. Add this your project README:."
 canonical: "https://www.corpusiq.io/docs/hermes/community/badge/"
 robots: "index,follow"
 last_updated: "2026-08-12"

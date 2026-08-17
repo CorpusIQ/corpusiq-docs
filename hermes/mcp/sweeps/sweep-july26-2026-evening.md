@@ -1,6 +1,6 @@
 ---
 title: "MCP Sweep — July 26, 2026 (Evening — ~22:00 UTC)"
-description: "Homepage SSR scrape showed 8 recent servers. All were either:"
+description: "- Method: mcpservers.org priority-servers sitemap (1,190+ entries, sorted by lastmod) + sitemaps 2-6 sampled."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-july26-2026-evening/"
 robots: "index,follow"

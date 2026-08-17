@@ -9,7 +9,7 @@ setup: npx skills add neondatabase/agent-skills
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/infrastructure/neon-postgres/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Neon Postgres"
+title: "Neon Postgres - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

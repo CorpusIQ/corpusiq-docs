@@ -1,6 +1,6 @@
 ---
 title: "Atlassian MCP Server"
-description: "Official Atlassian MCP server for Jira, Confluence, Bitbucket, Compass, and Jira Service Management"
+description: "Official Atlassian MCP server for Jira, Confluence, Bitbucket, Compass, and Jira Service Management. The remote from Atlassian. Connects agents (Claude, Ch."
 stars: 911
 language: JavaScript
 auth: "OAuth 2.1, API Token"

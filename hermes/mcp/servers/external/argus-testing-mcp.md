@@ -1,6 +1,6 @@
 ---
 name: "Argus Testing MCP"
-description: "Autonomous QA that tests web and macOS apps like a real engineer — and verifies every bug"
+description: "Autonomous QA that tests web and macOS apps like a real engineer — and verifies every bug. Argus MCP server performs quality assurance testing applications."
 category: "Development"
 source: "mcp.so"
 discovered: "2026-07-23"

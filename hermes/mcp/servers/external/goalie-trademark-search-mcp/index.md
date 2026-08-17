@@ -10,7 +10,7 @@ tags: [trademark, uspto, ip, legal, brand-protection, search]
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/goalie-trademark-search-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-description: "MCP server for searching **14M+ USPTO trademark records** directly from AI agents."
+description: "MCP server for searching **14M+ USPTO trademark records** directly from AI agents. 14M+ records agents. Not TSDR lookup this dedicated search tool optimize."
 
 ---
 

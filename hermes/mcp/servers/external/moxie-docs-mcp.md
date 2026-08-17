@@ -1,6 +1,6 @@
 ---
 name: "Moxie Docs MCP"
-description: "Automated codebase documentation for GitHub — searchable docs, MCP context for AI agents, doc drift detection"
+description: "GitHub personal access token with repo scope required for PR creation and repository access. Moxie Docs generates maintains searchable documentation reposi."
 category: "Developer Tools"
 source: "mcp.so"
 discovered: "2026-07-23"

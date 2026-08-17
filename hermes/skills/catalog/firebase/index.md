@@ -1,6 +1,6 @@
 ---
 title: "firebase Skills"
-description: "Hermes skills for firebase integration and automation. Part of the Hermes Skills Library."
+description: "Hermes skills for firebase integration and automation. Part of the Hermes Skills Library. integrating Agent with firebase. These enable autonomous workflow."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firebase/"
 robots: "index,follow"
 last_updated: "2026-08-12"

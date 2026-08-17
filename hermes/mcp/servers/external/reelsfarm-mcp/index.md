@@ -1,5 +1,5 @@
 ---
-title: ReelsFarm MCP
+title: "ReelsFarm MCP - CorpusIQ Docs"
 description: AI short-form social content operations — avatars, product scenes, UGC videos and slideshows, with scheduling and approval-gated publishing over MCP.
 category: Content
 stars: n/a (new listing)

@@ -1,5 +1,5 @@
 ---
-title: Shipstar MCP
+title: "Shipstar MCP - CorpusIQ Docs"
 description: Product marketing automation from your commits — generate, review, publish, and email changelogs, blog posts, and release notes over OAuth 2.1
 category: Content
 stars: n/a (new listing)

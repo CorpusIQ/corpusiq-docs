@@ -1,5 +1,5 @@
 ---
-title: JobYap MCP
+title: "JobYap MCP - CorpusIQ Docs"
 description: Job postings aggregated from tech companies' official careers sites with public discussion threads — search jobs, salaries, locations, and community signal over MCP with no API key.
 category: Productivity
 stars: n/a (new listing)

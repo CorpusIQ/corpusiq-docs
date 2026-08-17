@@ -1,5 +1,5 @@
 ---
-title: Emil Kowalski Skills — Design Engineering Suite Setup Guide for Hermes Agents
+title: "Emil Kowalski Skills — Design Engineering Suite Setup"
 description: "10 design-engineering skills from Emil Kowalski (Sonner, vaul) — 694.4K combined installs. Interface polish, animation review, Apple-design vocabulary, UI library selection, and prototyping for agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/emilkowalski-skills-setup/"
 robots: "index,follow"

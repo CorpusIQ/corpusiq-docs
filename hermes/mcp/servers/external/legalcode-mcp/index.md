@@ -1,5 +1,5 @@
 ---
-title: Legalcode MCP
+title: "Legalcode MCP - CorpusIQ Docs"
 description: Free legal research over MCP — statutes, case law, regulatory guidance and agreements across 44 jurisdictions, with 299 reusable legal workflows. Searches are processed, never stored; EU-hosted and privacy-by-design.
 category: IP/Legal
 stars: n/a (new listing)

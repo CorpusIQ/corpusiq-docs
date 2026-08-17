@@ -1,6 +1,6 @@
 ---
 name: "twocents MCP"
-description: "Human feedback for AI agents — share pages and collect structured feedback"
+description: "Human feedback for AI agents — share pages and collect structured feedback. twocents gives direct channel request feedback. can generated content, designs,."
 category: "Productivity"
 source: "mcp.so"
 discovered: "2026-07-23"

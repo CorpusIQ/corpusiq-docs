@@ -1,5 +1,5 @@
 ---
-title: Polyblog MCP
+title: "Polyblog MCP - CorpusIQ Docs"
 description: Manage multilingual articles, localization coverage, and editorial plans over MCP with OAuth — the content-ops layer for international sites.
 category: Content
 stars: n/a (new listing)

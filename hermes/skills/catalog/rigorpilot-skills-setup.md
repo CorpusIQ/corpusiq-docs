@@ -1,5 +1,5 @@
 ---
-title: RigorPilot Skills — AI Research & Paper Reproduction Setup Guide for Hermes Agents
+title: "RigorPilot Skills — AI Research & Paper Reproduction"
 description: Install llllllllama/rigorpilot-skills (2.6M combined installs) — 12 skills for AI research exploration, paper reproduction, code exploration, safe debugging, and ML training runs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rigorpilot-skills-setup/"
 robots: "index,follow"

@@ -1,5 +1,5 @@
 ---
-title: RADAAR MCP
+title: "RADAAR MCP - CorpusIQ Docs"
 description: Social media management for AI agents. Publish, schedule, inbox and analytics across 20+ channels including Instagram, X, LinkedIn, TikTok and YouTube from Claude or ChatGPT.
 category: Marketing
 stars: n/a (new listing)
