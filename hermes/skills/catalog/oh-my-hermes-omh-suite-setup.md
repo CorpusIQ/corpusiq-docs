@@ -134,7 +134,7 @@ hermes skills list | grep omh-
 ## Security
 
 - [witt3rd/oh-my-hermes repo](https://github.com/witt3rd/oh-my-hermes) — review SKILL.md files before install (standard practice)
-- [Hermes skills security](/hermes/security/) — skill trust guidance
+- [Hermes skills security](/hermes/best-practices/security/) — skill trust guidance
 - [Hermes plugin docs](https://hermes-agent.nousresearch.com/docs) — plugin permission model
 
 ## Related

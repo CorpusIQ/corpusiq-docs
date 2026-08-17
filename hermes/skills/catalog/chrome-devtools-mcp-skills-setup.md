@@ -114,7 +114,7 @@ chrome-devtools navigate_page --url "https://example.com" && chrome-devtools tak
 
 ## Security
 
-- [MCP security best practices](/hermes/security/) — official guidance on MCP tool exposure
+- [MCP security best practices](/hermes/best-practices/security/) — official guidance on MCP tool exposure
 - [chrome-devtools-mcp security policy](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/SECURITY.md) — Google's vulnerability reporting
 - [MCP auth docs](https://modelcontextprotocol.io/docs/learn/security) — server trust boundaries
 
