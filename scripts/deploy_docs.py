@@ -50,6 +50,8 @@ def deploy_vercel():
     team = v["team"]
     # Copy GEO feeds into the build
     run("cp llms.txt llms-full.txt site/")
+    # Copy vercel.json INTO the deployed directory so redirects ship with the build
+    run("cp vercel.json site/vercel.json")
     out = run(
         f"npx --yes vercel@latest deploy site --yes --token {token} --team {team} --prod"
     )
