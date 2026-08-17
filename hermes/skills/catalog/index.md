@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog — Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-08-16"
+last_updated: "2026-08-17"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -491,3 +491,9 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Inngest Skills — Durable Workflow Orchestration Setup](/docs/hermes/skills/catalog/inngest-skills-setup/)
 - [OXC Project Skills — Linter & Formatter Migration Setup](/docs/hermes/skills/catalog/oxc-project-skills-setup/)
 - [Alibaba Open Code Review — AI Code Review CLI Setup](/docs/hermes/skills/catalog/alibaba-open-code-review-setup/)
+- [Brian Lovin Agent Config — Design Engineering Suite Setup](/docs/hermes/skills/catalog/brianlovin-agent-config-setup/)
+- [last30days Skill — Recent-Activity Research Setup](/docs/hermes/skills/catalog/last30days-skill-setup/)
+- [Herdr Skills — Terminal Workspace Orchestration Setup](/docs/hermes/skills/catalog/herdr-skills-setup/)
+- [Web Access Skill — Unified Browsing & Scraping Setup](/docs/hermes/skills/catalog/web-access-skill-setup/)
+- [Stop Slop — AI-Prose Pattern Cleaner Setup](/docs/hermes/skills/catalog/stop-slop-setup/)
+- [Avoid AI Writing — AI-Pattern Audit & Rewrite Setup](/docs/hermes/skills/catalog/avoid-ai-writing-setup/)
