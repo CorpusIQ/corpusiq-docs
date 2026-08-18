@@ -10042,5 +10042,33 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-18T06:11:08.527936+00:00"
+  },
+  {
+    "repo": "realizer-1966/agent-dev-company",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T07:04:29.741229+00:00"
+  },
+  {
+    "repo": "adamotte/iris-dashboard",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T07:04:29.741243+00:00"
+  },
+  {
+    "repo": "hypnosis/ssh-mcp-server",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T07:04:29.741245+00:00"
+  },
+  {
+    "repo": "justinhuangai/deepseek-harness-agent",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T07:04:29.741248+00:00"
   }
 ]
