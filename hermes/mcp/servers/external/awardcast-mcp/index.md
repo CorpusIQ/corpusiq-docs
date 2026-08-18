@@ -4,7 +4,7 @@ description: "US federal contracting data for AI agents: SAM.gov solicitations, 
 category: Analytics & Business Intelligence
 stars: n/a (new listing)
 added: 2026-08-17
-source: mcp.so GitHub issue #3609
+source: "mcp.so GitHub issue #3609"
 relevance: ★★★
 tags: [govcon, federal-contracting, sam-gov, usaspending, procurement, public-data, remote-mcp, no-auth]
 ---

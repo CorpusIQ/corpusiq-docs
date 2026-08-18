@@ -4,7 +4,7 @@ description: Search Facebook Marketplace, eBay, Depop, and Poshmark from any MCP
 category: Commerce & E-Commerce
 stars: n/a (new listing)
 added: 2026-08-17
-source: mcp.so GitHub issue #3613
+source: "mcp.so GitHub issue #3613"
 relevance: ★★
 tags: [resale, marketplace-search, ebay, poshmark, depop, facebook-marketplace, pricing-comps, remote-mcp]
 ---

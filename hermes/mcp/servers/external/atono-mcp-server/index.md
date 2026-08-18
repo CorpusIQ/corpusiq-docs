@@ -4,7 +4,7 @@ description: "Atono project management over MCP: backlogs, bugs, sprints, and ep
 category: Productivity
 stars: n/a (new listing)
 added: 2026-08-17
-source: mcp.so GitHub issue #3621
+source: "mcp.so GitHub issue #3621"
 relevance: ★★
 tags: [project-management, agile, backlog, sprints, bug-tracking, atono, stdio-mcp, docker]
 ---

@@ -4,7 +4,7 @@ description: Rewrite AI-generated text to read as human in a chosen voice for Li
 category: Marketing
 stars: n/a (new listing)
 added: 2026-08-17
-source: mcp.so GitHub issue #3611
+source: "mcp.so GitHub issue #3611"
 relevance: ★★
 tags: [content, ai-detection, de-ai, voice, copywriting, linkedin, cold-email, remote-mcp]
 ---

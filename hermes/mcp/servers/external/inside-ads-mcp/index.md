@@ -4,7 +4,7 @@ description: "Pre-campaign audience validation for new products: reach and CPC e
 category: Marketing
 stars: n/a (new listing)
 added: 2026-08-17
-source: mcp.so GitHub issue #3618
+source: "mcp.so GitHub issue #3618"
 relevance: ★★
 tags: [advertising, audience-validation, cpc, media-planning, launch, remote-mcp, streamable-http]
 ---

@@ -4,7 +4,7 @@ description: "Run an app portfolio across Google Play and the App Store from one
 category: Commerce & E-Commerce
 stars: n/a (new listing)
 added: 2026-08-17
-source: mcp.so GitHub issue #3607
+source: "mcp.so GitHub issue #3607"
 relevance: ★★★
 tags: [app-store, google-play, app-store-connect, aso, app-operations, vitals, stdio-mcp, open-source]
 ---

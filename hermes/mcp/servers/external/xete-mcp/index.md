@@ -4,7 +4,7 @@ description: "Encrypted agent messaging with non-custodial Solana settlement: dr
 category: Communication
 stars: n/a (new listing)
 added: 2026-08-17
-source: mcp.so GitHub issue #3614
+source: "mcp.so GitHub issue #3614"
 relevance: ★★
 tags: [agent-messaging, encryption, solana, payments, non-custodial, agent-identity, stdio-mcp]
 ---

@@ -4,7 +4,7 @@ description: "Apartment building intelligence from public records for NYC, LA, a
 category: Financial Data
 stars: n/a (new listing)
 added: 2026-08-17
-source: mcp.so GitHub issue #3612
+source: "mcp.so GitHub issue #3612"
 relevance: ★★★
 tags: [real-estate, property-data, landlord, rental-intelligence, public-records, remote-mcp, no-auth]
 ---
