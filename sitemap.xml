@@ -293,7 +293,27 @@
          <lastmod>2026-08-18</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/how-to-analyze-ga4-with-ai</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/how-to-analyze-google-ads-with-ai</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/how-to-analyze-hubspot-with-ai</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/how-to-analyze-klaviyo-with-ai</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/how-to-analyze-quickbooks-with-ai</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/how-to-analyze-shopify-with-ai</loc>
          <lastmod>2026-08-18</lastmod>
     </url>
     <url>
@@ -1049,11 +1069,31 @@
          <lastmod>2026-08-18</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-chatgpt-enterprise</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-chatgpt-plugins</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-claude-enterprise</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-composio</loc>
          <lastmod>2026-08-18</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-coupler-io</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-databox</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-funnel-io</loc>
          <lastmod>2026-08-18</lastmod>
     </url>
     <url>
@@ -1106,6 +1146,22 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-tableau</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-viktor-channels</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-viktor-migration</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-viktor-pricing</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-viktor-security</loc>
          <lastmod>2026-08-18</lastmod>
     </url>
     <url>
@@ -1282,6 +1338,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/connectors/email</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/directories</loc>
          <lastmod>2026-08-18</lastmod>
     </url>
     <url>
@@ -2697,6 +2757,10 @@
          <lastmod>2026-08-18</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/screenpipe-mcp</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/secondhand-mcp</loc>
          <lastmod>2026-08-18</lastmod>
     </url>
@@ -2801,7 +2865,15 @@
          <lastmod>2026-08-18</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/tokportal-mcp</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/trello-mcp</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/unrealugc-mcp</loc>
          <lastmod>2026-08-18</lastmod>
     </url>
     <url>
@@ -2865,6 +2937,10 @@
          <lastmod>2026-08-18</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/spec</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/spec/mcp-26-stateless-migration</loc>
          <lastmod>2026-08-18</lastmod>
     </url>
@@ -2918,6 +2994,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august17-2026-evening</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august18-2026-afternoon</loc>
          <lastmod>2026-08-18</lastmod>
     </url>
     <url>

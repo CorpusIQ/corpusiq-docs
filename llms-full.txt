@@ -11856,6 +11856,170 @@ A: Copy ChatGPT's responses to a document or note. Each query runs fresh against
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
+# How to Analyze GA4 with AI (Ask Website Traffic Questions in Plain English)
+URL: https://www.corpusiq.io/docs/how-to-analyze-ga4-with-ai/
+
+
+## How to analyze GA4 with AI
+
+GA4 is powerful and complicated. The dashboard shows sessions and events, but answering "what actually drove revenue last week" still means crossing GA4 with Shopify and Google Ads by hand.
+
+CorpusIQ connects GA4 to your AI assistant and lets you ask:
+
+- "What were our top traffic sources last week?"
+- "Which pages converted best this month?"
+- "How did organic traffic change after the site update?"
+
+## What you can ask
+
+**Traffic and channels**
+- "Show me sessions by channel for the last 14 days"
+- "Which landing pages have the highest engagement rate?"
+- "What was our bounce trend over the last quarter?"
+
+**Cross-source questions**
+- "Which channels drove actual revenue, not just sessions?" (needs Shopify)
+- "Did the traffic spike convert into orders?" (needs Shopify)
+- "How does our GA4 revenue compare to Stripe?" (needs Stripe)
+
+## How it works
+
+1. Sign up at corpusiq.io.
+2. Connect GA4 with read-only OAuth.
+3. Ask. Answers are source-cited from your live property.
+
+## Security
+
+Read-only. CorpusIQ cannot change tracking or settings. No raw customer files or full connector payloads are retained; operational logs and indexes are disclosed separately.
+
+## Try it
+
+corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
+
+---
+# How to Analyze Google Ads with AI (Ask Campaign Questions in Plain English)
+URL: https://www.corpusiq.io/docs/how-to-analyze-google-ads-with-ai/
+
+
+## How to analyze Google Ads with AI
+
+Google Ads reports are built to show Google's numbers. Your real question is whether the spend made money, and that answer lives in Shopify, GA4, and QuickBooks, not in Google Ads alone.
+
+CorpusIQ connects Google Ads to your AI assistant, then cross-references it with the rest of your stack:
+
+- "Which campaign had the best ROAS last month?"
+- "How much did we spend per conversion this week?"
+- "Is our Google Ads spend actually profitable after COGS?"
+
+## What you can ask
+
+**Campaigns and spend**
+- "Show me spend by campaign for the last 30 days"
+- "Which keywords drove the most conversions?"
+- "What is our cost per acquisition by campaign?"
+
+**Cross-source questions**
+- "What is true ROAS when Google Ads revenue is matched to Shopify orders?" (needs Shopify)
+- "Does our ad spend reconcile with QuickBooks?" (needs QuickBooks)
+- "Which channel drives real profit: Google or Meta?" (needs Meta Ads)
+
+## How it works
+
+1. Sign up at corpusiq.io.
+2. Connect Google Ads with read-only OAuth.
+3. Ask. Answers are source-cited from your live account.
+
+## Security
+
+Read-only. CorpusIQ cannot change bids, budgets, or campaigns. No raw customer files or full connector payloads are retained; operational logs and indexes are disclosed separately.
+
+## Try it
+
+corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
+
+---
+# How to Analyze HubSpot with AI (Ask CRM Questions in Plain English)
+URL: https://www.corpusiq.io/docs/how-to-analyze-hubspot-with-ai/
+
+
+## How to analyze HubSpot with AI
+
+Your CRM holds the pipeline, but the question every founder actually asks, "which deals will close this quarter and what revenue will they bring," still means filtering, exporting, and guessing.
+
+CorpusIQ connects HubSpot to your AI assistant:
+
+- "Which deals are stuck in negotiation?"
+- "What is our pipeline value by owner?"
+- "How many deals closed last month and at what average size?"
+
+## What you can ask
+
+**Pipeline and deals**
+- "Show me open deals by stage"
+- "What is our win rate this quarter?"
+- "Which sales owner has the strongest pipeline?"
+
+**Cross-source questions**
+- "Do closed-won deals match revenue in QuickBooks?" (needs QuickBooks)
+- "Which marketing channels produced our best customers?" (needs GA4 or Google Ads)
+- "What is customer lifetime value for deals closed this year?" (needs Stripe)
+
+## How it works
+
+1. Sign up at corpusiq.io.
+2. Connect HubSpot with read-only OAuth.
+3. Ask. Answers are source-cited from your live CRM.
+
+## Security
+
+Read-only. CorpusIQ cannot edit contacts, deals, or pipelines. No raw customer files or full connector payloads are retained; operational logs and indexes are disclosed separately.
+
+## Try it
+
+corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
+
+---
+# How to Analyze Klaviyo with AI (Ask Email Marketing Questions in Plain English)
+URL: https://www.corpusiq.io/docs/how-to-analyze-klaviyo-with-ai/
+
+
+## How to analyze Klaviyo with AI
+
+Email revenue is the quiet engine of most ecommerce businesses, but the numbers live in Klaviyo while the revenue lives in Shopify. Connecting them is the hard part.
+
+CorpusIQ connects Klaviyo to your AI assistant:
+
+- "Which flows generate the most revenue?"
+- "What is our email list growth this month?"
+- "Which campaigns had the best ROI?"
+
+## What you can ask
+
+**Campaigns and flows**
+- "Show me revenue by flow for the last 30 days"
+- "Which email campaigns had the highest open rate?"
+- "How many subscribers did we gain this week?"
+
+**Cross-source questions**
+- "Which email campaigns actually drove Shopify orders?" (needs Shopify)
+- "What is email revenue as a share of total?" (needs Shopify)
+- "Is our email spend visible in QuickBooks?" (needs QuickBooks)
+
+## How it works
+
+1. Sign up at corpusiq.io.
+2. Connect Klaviyo with read-only OAuth.
+3. Ask. Answers are source-cited from your live account.
+
+## Security
+
+Read-only. CorpusIQ cannot send emails or edit campaigns. No raw customer files or full connector payloads are retained; operational logs and indexes are disclosed separately.
+
+## Try it
+
+corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
+
+---
 # How to Analyze QuickBooks Data with AI: A Complete Step-by-Step Guide
 URL: https://www.corpusiq.io/docs/how-to-analyze-quickbooks-with-ai/
 
@@ -12059,6 +12223,64 @@ AI-powered QuickBooks analysis turns hours of manual spreadsheet work into secon
 *
 
 [Content truncated; see the canonical page for the complete text.]
+
+---
+# How to Analyze Shopify with AI (Ask Revenue Questions in Plain English)
+URL: https://www.corpusiq.io/docs/how-to-analyze-shopify-with-ai/
+
+
+## How to analyze Shopify with AI
+
+Shopify has a dashboard, but the dashboard only shows what Shopify shows. The moment you need revenue by product, orders across channels, or a number that matches QuickBooks, you export CSVs and rebuild the picture by hand.
+
+CorpusIQ changes that. Connect Shopify once, then ask your AI assistant in plain English:
+
+- "What was our revenue by product last week?"
+- "How many orders came from each channel this month?"
+- "Which products drove the most profit after fees?"
+
+Every answer is pulled live from Shopify and source-cited, so you can verify it. No CSV exports. No dashboard to build. No workflows to design.
+
+## What you can ask
+
+**Revenue and orders**
+- "Show me daily revenue for the last 30 days"
+- "What is our average order value this quarter?"
+- "Which products had the highest return rate?"
+
+**Inventory and products**
+- "Which SKUs are below reorder point?"
+- "What is the sell-through rate for our top 10 products?"
+
+**Cross-source questions (the part Shopify alone cannot answer)**
+- "What is our true profit after Shopify fees and ad spend?" (needs Google Ads or Meta Ads connected)
+- "Does our Shopify revenue match our QuickBooks income?" (needs QuickBooks connected)
+- "What is our ROAS including returns?" (needs Meta Ads or Google Ads connected)
+
+## How it works
+
+1. Sign up at corpusiq.io (30-day free trial, no credit card).
+2. Connect Shopify with read-only OAuth. CorpusIQ never writes to your store.
+3. Ask your AI assistant. The answer comes with citations showing exactly where each number came from.
+
+## Security
+
+External-source retrieval tools are read-only; write-capable and control-plane tools are separately named and annotated. No raw customer files or full connector payloads are retained; operational logs and indexes are disclosed separately.
+
+## FAQ
+
+### Does this replace my Shopify dashboard?
+No. Shopify stays your system of record. CorpusIQ reads from it and answers questions across Shopify and your other tools.
+
+### Which AI assistants work?
+ChatGPT, Claude, and Perplexity, all through the same connector.
+
+### How is this different from Shopify's built-in analytics?
+Shopify's analytics answer questions about Shopify. CorpusIQ answers questions that span Shopify plus QuickBooks, Stripe, GA4, Google Ads, and 35+ other tools in one prompt.
+
+## Try it
+
+corpusiq.io/pricing — 30-day free trial, all 40+ connectors.
 
 ---
 # How to Build an AI Knowledge Base
