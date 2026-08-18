@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-17"
+last_updated: "2026-08-18"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,9 +12,45 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 17, 2026 (evening cron sweep) · **Sources:** mcp.so homepage new arrivals, chatmcp/mcpso GitHub issues (Aug 17 submissions), mcpservers.org homepage · **Catalog:** 249 servers (+139 guides)
+> **Last updated:** August 18, 2026 (morning cron sweep) · **Sources:** mcp.so homepage new arrivals, chatmcp/mcpso GitHub issues (Aug 17 evening–Aug 18 submissions), mcpservers.org homepage · **Catalog:** 256 servers (+146 guides)
 
 ---
+
+## 🆕 August 18, 2026 — Morning Cron Sweep (7 New, 7 Guides)
+
+Morning sweep sourced from the mcp.so homepage new-arrivals list, chatmcp/mcpso submission issues filed after the Aug 17 evening sweep (Aug 17 evening through Aug 18 07:43 UTC), and the mcpservers.org homepage (no new business-relevant slugs this cycle). 7 new business-relevant servers found: a hosted QuickBooks Online connector with write tools and Canadian coverage, agent-run cold-email infrastructure, a PII-redaction privacy layer with audit logging, an ASO tool suite for both app stores, a GitLab engineering-operations server, Thailand Post shipping for agents, and a 14-server business-math suite.
+
+### Caribooks MCP ★★★ — August 18 (morning)
+
+Hosted QuickBooks Online over MCP with 160+ read and write tools — invoices, payments, bills, journal entries, aged receivables, P&L — covering Canada and the US, where Intuit's official Claude connector is US-only. OAuth 2.1, Streamable HTTP at `caribooks.com/api/mcp`; CA$39 per company/month, free 14-day trial, ledger data passes through and is never stored. (commercial) · [Guide →](/hermes/mcp/servers/external/caribooks-mcp/)
+
+### Coldrig MCP (agent-cold-email) ★★★ — August 18 (morning)
+
+Agent-native cold-email infrastructure as 28 MCP tools: buy domains, provision mailboxes, run warmup, launch sequences, handle replies, monitor deliverability. Bearer token remote at `agent-cold-email-api.yaakovscher.workers.dev/mcp` or stdio via `npx agent-cold-email`; sandbox free, live sending $99/month. (commercial) · [Guide →](/hermes/mcp/servers/external/agent-cold-email-mcp/)
+
+### Waqi — AI Privacy Layer MCP ★★ — August 18 (morning)
+
+Hosted PII-redaction layer between business tools and AI: Stripe, Xero, CRM, and 13 more connectors fetched read-only, redacted before the model sees anything, with a post-redaction audit log and per-person tokens. HTTP at `waqi.bilazann.com/api/mcp/YOUR_TOKEN`; from £99/month. (commercial) · [Guide →](/hermes/mcp/servers/external/waqi-mcp/)
+
+### Sonar ASO MCP ★★ — August 18 (morning)
+
+App Store Optimization for AI agents across iOS and Google Play: keyword research with difficulty and popularity, daily rank tracking, review mining, ASO audits, and revenue estimates — 25 tools on real Apple/Google store data. stdio via `npx -y @sonarapp/mcp`; free rate-limited mode, prepaid credits from $10, Indie $19/month. (commercial, free tier) · [Guide →](/hermes/mcp/servers/external/sonar-aso-mcp/)
+
+### GitLab MCP (zereight) ★★ — August 18 (morning)
+
+GitLab engineering operations over MCP: projects, merge requests, issues, pipelines, wiki, releases, tags, and milestones via stdio, SSE, or Streamable HTTP with PAT, OAuth, or read-only auth. 1,898★, `npx -y @zereight/mcp-gitlab`. (open source) · [Guide →](/hermes/mcp/servers/external/gitlab-mcp/)
+
+### ProShip MCP ★ — August 18 (morning)
+
+Thailand Post fulfillment for AI agents: create shipments, print PDF labels, track Thai-carrier parcels, and manage orders through ProShip's order-management platform, with in-chat account signup. MIT, Streamable HTTP at `mcp.proship.me/mcp`. (open source) · [Guide →](/hermes/mcp/servers/external/proship-mcp/)
+
+### Moltline Studio MCP Suite ★★ — August 18 (morning)
+
+Fourteen audited remote MCP servers for business math: merchant fees and charge-to-net, paste-your-data CSV analytics and A/B tests, business-day/SLA math, and MCP agent governance, plus a supporting eight-server set. Streamable HTTP at `mcp.moltlinestudio.com/<endpoint>`, anonymous free tier. (commercial, free tier) · [Guide →](/hermes/mcp/servers/external/moltline-studio-mcp/)
+
+### Also identified (not catalogued)
+
+GitHub submissions reviewed and skipped this cycle: VisionGemma (local single-tool vision OCR — Windows-only, thin surface), otto (0-star paper-trading testbed for auditable agent finance — experiment-stage), 402oracle (x402 attestation infra — consistent with prior x402 skips), opengist-mcp (self-hosted gists — dev tool), livetennisapi-mcp (consumer sports data), traderspy (crypto signals), designesy-org (design-QA dev tool), dsh-verify (browser acceptance testing — dev tool). Feed repeats already catalogued or previously skipped: Bitroad, Lemon.io, ListingGood, TravelAnimator, AuraNet Omni-Oracle Engine, MeshMarket.
 
 ## 🆕 August 17, 2026 — Evening Cron Sweep (9 New, 9 Guides)
 
@@ -3734,7 +3770,7 @@ Full details: [scan-results-2026-07-02-update.md](/hermes/mcp/servers/external/s
 - **Categories represented:** 30+ (Finance, Analytics, CRM, Commerce, Dev, Marketing, Content Creation, Gov/Intelligence, Media, Legal, HR, Security/Compliance, Memory, etc.)
 - **New this sweep (July 4 morning):** 19 new MCP servers — from mcp.so Feed (25 scanned, 22 genuinely new, 3 already catalogued)
 - **New this sweep (Aug 12 afternoon):** 10 new MCP servers (6 guides) — from mcpservers.org /all pages 1–3 (90 scanned) + mcp.so Feed (30 scanned). Also: 4 catalog entries, ~40 dev-tool/niche identified-not-catalogued, 1 spam burst (~30 entries) excluded
-- **Cumulative since June 9:** 502 MCP servers catalogued across 36 sweeps
+- **Cumulative since June 9:** 509 MCP servers catalogued across 37 sweeps
 
 ---
 
@@ -4046,4 +4082,14 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Atono MCP Server — Agile Project Management for Agents](/docs/hermes/mcp/servers/external/atono-mcp-server/)
 - [xete MCP — Encrypted Agent Messaging with Gated Settlement](/docs/hermes/mcp/servers/external/xete-mcp/)
 - [Personhood MCP — Persona-Voiced Content Humanization](/docs/hermes/mcp/servers/external/personhood-mcp/)
+### 7 new servers from mcp.so homepage + chatmcp/mcpso issues — Aug 18, 2026 (morning cron sweep)
+
+- [Caribooks MCP — Hosted QuickBooks Online with Write Tools for Canada + US](/docs/hermes/mcp/servers/external/caribooks-mcp/)
+- [Coldrig MCP — Agent-Run Cold Email Infrastructure](/docs/hermes/mcp/servers/external/agent-cold-email-mcp/)
+- [Waqi MCP — PII Redaction Layer with Audit Log](/docs/hermes/mcp/servers/external/waqi-mcp/)
+- [Sonar ASO MCP — App Store Optimization for AI Agents](/docs/hermes/mcp/servers/external/sonar-aso-mcp/)
+- [GitLab MCP — Engineering Operations over MCP](/docs/hermes/mcp/servers/external/gitlab-mcp/)
+- [ProShip MCP — Thailand Post Fulfillment for Agents](/docs/hermes/mcp/servers/external/proship-mcp/)
+- [Moltline Studio MCP Suite — Business Math and Agent Governance](/docs/hermes/mcp/servers/external/moltline-studio-mcp/)
+
 
