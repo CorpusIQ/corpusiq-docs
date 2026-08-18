@@ -12,11 +12,29 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 18, 2026 (morning cron sweep) · **Sources:** mcp.so homepage new arrivals, chatmcp/mcpso GitHub issues (Aug 17 evening–Aug 18 submissions), mcpservers.org homepage · **Catalog:** 256 servers (+146 guides)
+> **Last updated:** August 18, 2026 (afternoon cron sweep) · **Sources:** chatmcp/mcpso GitHub issues (Aug 18 11:54–13:33 UTC submissions), mcp.so homepage new arrivals, mcpservers.org homepage · **Catalog:** 259 servers (+149 guides)
 
 ---
 
-## 🆕 August 18, 2026 — Morning Cron Sweep (7 New, 7 Guides)
+## 🆕 August 18, 2026 — Afternoon Cron Sweep (3 New, 3 Guides)
+
+Afternoon sweep following the morning run, sourced from chatmcp/mcpso submission issues filed after the morning sweep cutoff (Aug 18 11:54 UTC through 13:33 UTC) plus the mcp.so homepage new-arrivals list. 3 new business-relevant servers found: local-first workflow memory for AI agents from a YC S26 company, managed social-account infrastructure with 91 tools, and AI UGC video-ad generation. mcpservers.org homepage carried no new business-relevant slugs this cycle.
+
+### Screenpipe MCP ★★★ — August 18 (afternoon)
+
+Local-first workflow memory for AI agents: screen, audio, app and meeting context recorded on-device 24/7, exposed to Claude, Codex and Cursor through a searchable MCP server against the local API at localhost:3030. YC S26, 21,061★. stdio via `npx -y screenpipe-mcp`; source-available license. (open source, free desktop app) · [Guide →](/hermes/mcp/servers/external/screenpipe-mcp/)
+
+### TokPortal MCP ★★★ — August 18 (afternoon)
+
+Managed social infrastructure API: real TikTok, Instagram and YouTube accounts created, warmed and operated by human account managers in 16+ countries, with 91 MCP tools for account bundles, video upload and scheduling at scale, analytics, ban lifecycle and webhooks. OAuth 2.1 Streamable HTTP at `app.tokportal.com/api/ext/mcp` or stdio via `npx -y tokportal-mcp`; credit-based. (commercial) · [Guide →](/hermes/mcp/servers/external/tokportal-mcp/)
+
+### UnrealUGC MCP ★★ — August 18 (afternoon)
+
+AI UGC video ads from eleven typed MCP tools: browse video models, creators and voices, estimate credit cost before spending, start async generations and poll for output. stdio via `npx -y @unrealugc/mcp` or hosted HTTP at `unrealugc.com/api/mcp`, MIT. (commercial) · [Guide →](/hermes/mcp/servers/external/unrealugc-mcp/)
+
+### Also identified (not catalogued)
+
+GitHub submissions reviewed and skipped this cycle: moodle-mcp-server-aql (education-niche LMS, consistent with the Aug 11 Canvas/Moodle skip). Homepage arrival skipped: 3gpp-mcp (telecom specification access for LLMs, engineering niche). Feed repeats already catalogued or previously skipped: Waqi, Bitroad, FineData.ai, Sonar ASO, Lemon.io, TravelAnimator, ListingGood.
 
 Morning sweep sourced from the mcp.so homepage new-arrivals list, chatmcp/mcpso submission issues filed after the Aug 17 evening sweep (Aug 17 evening through Aug 18 07:43 UTC), and the mcpservers.org homepage (no new business-relevant slugs this cycle). 7 new business-relevant servers found: a hosted QuickBooks Online connector with write tools and Canadian coverage, agent-run cold-email infrastructure, a PII-redaction privacy layer with audit logging, an ASO tool suite for both app stores, a GitLab engineering-operations server, Thailand Post shipping for agents, and a 14-server business-math suite.
 
@@ -2218,6 +2236,10 @@ MCP server for AI agent data flow orchestration. Connect AI agents to data pipel
 
 ## Productivity
 
+### Screenpipe MCP ★★★ — Aug 18 (afternoon)
+
+Local-first workflow memory for AI agents — screen, audio, app and meeting context recorded on-device 24/7 and exposed through a searchable MCP server against the local API at `localhost:3030`. YC S26, 21,061★. stdio via `npx -y screenpipe-mcp`; source-available license. (open source, free desktop app) · [Guide →](/hermes/mcp/servers/external/screenpipe-mcp/)
+
 ### Atono MCP Server ★★ — Aug 17 (evening)
 
 Atono agile project management over MCP: backlog, bugs, sprints, epics, and timeboxes with AI-generated investigation context, plus work-item creation and updates. Docker image `atonoio/atono-mcp-server`, Apache-2.0. (open source) [Integration Guide](/hermes/mcp/servers/external/atono-mcp-server/)
@@ -2556,6 +2578,14 @@ Control Bambu Lab 3D printers, edit STL files, and manage 3MF print workflows vi
 ---
 
 ## Marketing
+
+### TokPortal MCP ★★★ — Aug 18 (afternoon)
+
+Managed social infrastructure API — real TikTok, Instagram and YouTube accounts created, warmed and operated by human account managers in 16+ countries, with 91 MCP tools for account bundles, video upload and scheduling at scale, analytics, ban lifecycle and webhooks. OAuth 2.1 Streamable HTTP at `app.tokportal.com/api/ext/mcp` or stdio via `npx -y tokportal-mcp`; credit-based. (commercial) · [Guide →](/hermes/mcp/servers/external/tokportal-mcp/)
+
+### UnrealUGC MCP ★★ — Aug 18 (afternoon)
+
+AI UGC video ads from eleven typed MCP tools — browse video models, creators and voices, estimate credit cost before spending, start async generations and poll for output. stdio via `npx -y @unrealugc/mcp` or hosted HTTP at `unrealugc.com/api/mcp`, MIT. (commercial) · [Guide →](/hermes/mcp/servers/external/unrealugc-mcp/)
 
 ### Inside Ads MCP ★★ — Aug 17 (evening)
 
@@ -4091,5 +4121,10 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [GitLab MCP — Engineering Operations over MCP](/docs/hermes/mcp/servers/external/gitlab-mcp/)
 - [ProShip MCP — Thailand Post Fulfillment for Agents](/docs/hermes/mcp/servers/external/proship-mcp/)
 - [Moltline Studio MCP Suite — Business Math and Agent Governance](/docs/hermes/mcp/servers/external/moltline-studio-mcp/)
+### 3 new servers from chatmcp/mcpso issues — Aug 18, 2026 (afternoon cron sweep)
+
+- [Screenpipe MCP — Local-First Workflow Memory for AI Agents](/docs/hermes/mcp/servers/external/screenpipe-mcp/)
+- [TokPortal MCP — Managed Social Account Infrastructure with 91 Tools](/docs/hermes/mcp/servers/external/tokportal-mcp/)
+- [UnrealUGC MCP — AI UGC Video Ad Generation](/docs/hermes/mcp/servers/external/unrealugc-mcp/)
 
 
