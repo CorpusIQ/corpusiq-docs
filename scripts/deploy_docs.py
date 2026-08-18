@@ -52,6 +52,17 @@ def deploy_vercel():
     run("cp llms.txt llms-full.txt site/")
     # Copy vercel.json INTO the deployed directory so redirects ship with the build
     run("cp vercel.json site/vercel.json")
+    # Re-link the deploy directory to the corpusiq-docs project. mkdocs build --clean
+    # wipes site/.vercel/project.json, and without it the CLI creates a NEW project
+    # (site-one-henna-67) instead of deploying to docs.corpusiq.io.
+    os.makedirs("site/.vercel", exist_ok=True)
+    with open("site/.vercel/project.json", "w") as f:
+        json.dump(
+            {"projectId": "prj_sKOYMEdaQZjCcJwYDgfb4KN61na2",
+             "orgId": "team_btwsQPaxGRECjJjdKQOMcMUQ",
+             "projectName": "corpusiq-docs"},
+            f,
+        )
     out = run(
         f"npx --yes vercel@latest deploy site --yes --token {token} --team {team} --prod"
     )
