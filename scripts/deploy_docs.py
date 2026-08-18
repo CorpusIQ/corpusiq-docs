@@ -121,6 +121,9 @@ def main():
                 return f'href="{href[:-1]}"'
             return m.group(0)
         new = _re.sub(r'href="([^"]+)"', _fix, text)
+        # absolute www.corpusiq.io/docs links: strip trailing slash (the main-site
+        # proxy 301s slashed docs URLs -> Ahrefs counts them as "links to redirect")
+        new = _re.sub(r'(https://www\.corpusiq\.io/docs/[^"\s]+?)/"', r'\1"', new)
         # canonical: strip trailing slash in the href value
         new = _re.sub(r'(<link rel="canonical" href="[^"]+)/">', r'\1">', new)
         if new != text:
