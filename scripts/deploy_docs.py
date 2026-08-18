@@ -120,7 +120,7 @@ def main():
         with open(html, encoding="utf-8") as f:
             text = f.read()
         def _fix(m):
-            global link_count
+            nonlocal link_count
             href = m.group(1)
             if (href.startswith("http") or href.startswith("mailto:") or href.startswith("tel:")
                 or href.startswith("javascript:") or href.startswith("#") or href.startswith("/assets")
