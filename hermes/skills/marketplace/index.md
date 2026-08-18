@@ -12,10 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**888+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**891+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
 
+- [🆕 August 17, 2026 (Evening) — M. Collina Node Skills (52.4K, 12 skills), Zhaono1 Agent Playbook (50.4K, 24), Nx AI Agents Config (44.7K, 10) — 3 publisher clusters, 46 skills, 3 setup guides](/hermes/skills/marketplace/new-aug17-2026-evening/)
 - [🆕 August 17, 2026 — Brian Lovin Agent Config (33.6K, 19 skills), last30days (32.7K, 3), Herdr (28.1K, 5), Web Access (15.7K), Stop Slop (10.6K), Avoid AI Writing (1.6K, locally installed) — 6 publisher clusters, 30 skills, 6 setup guides](/hermes/skills/marketplace/new-aug17-2026/)
 - [🆕 August 16, 2026 — Cursor Plugins (72.0K, 79 skills), Vercel AI SDK (51.1K, 3), Angular Skills (40.1K, 2), Inngest Skills (19.3K, 14), OXC Project (9.9K, 4), Alibaba Open Code Review (4.3K, 2) — 6 publisher clusters, 104 skills, 6 setup guides](/hermes/skills/marketplace/new-aug16-2026/)
 - [🆕 August 15, 2026 (Evening) — Sentry Agent Skills (85.3K, 31), Three.js Agent Skills (80.0K, 10), Emblem Company Agent Skills (78.6K, 9), CTF Security Skills (71.6K, 12), Bright Data Agent Skills (26.9K, 22), Claude Code Video Toolkit (14.5K, 13), Langfuse (13.1K, 6), Deep Research (9.4K), Mintlify Docs (9.2K), Motion Design (8.1K), Mobile App UI Design (6.7K) — 11 publisher clusters, 111 skills, 11 setup guides](/hermes/skills/marketplace/new-aug15-2026-evening/)
@@ -270,7 +271,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 939+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 942+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 

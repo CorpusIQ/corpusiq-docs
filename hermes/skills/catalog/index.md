@@ -497,3 +497,6 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Web Access Skill — Unified Browsing & Scraping Setup](/docs/hermes/skills/catalog/web-access-skill-setup/)
 - [Stop Slop — AI-Prose Pattern Cleaner Setup](/docs/hermes/skills/catalog/stop-slop-setup/)
 - [Avoid AI Writing — AI-Pattern Audit & Rewrite Setup](/docs/hermes/skills/catalog/avoid-ai-writing-setup/)
+- [M. Collina Node Skills — Fastify & Node.js Agent Suite Setup](/docs/hermes/skills/catalog/mcollina-node-skills-setup/)
+- [Zhaono1 Agent Playbook — 24-Role Agent Workflow Suite Setup](/docs/hermes/skills/catalog/zhaono1-agent-playbook-setup/)
+- [Nx AI Agents Config — Monorepo Agent Skills Setup](/docs/hermes/skills/catalog/nx-ai-agents-config-skills-setup/)
