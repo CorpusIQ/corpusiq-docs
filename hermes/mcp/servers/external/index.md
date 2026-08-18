@@ -12,9 +12,53 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 17, 2026 (midday cron sweep) · **Sources:** mcp.so Feed (30 newest submissions), mcpservers.org /all page 1, mcp.so + mcpservers.org server detail pages · **Catalog:** 240 servers (+130 guides)
+> **Last updated:** August 17, 2026 (evening cron sweep) · **Sources:** mcp.so homepage new arrivals, chatmcp/mcpso GitHub issues (Aug 17 submissions), mcpservers.org homepage · **Catalog:** 249 servers (+139 guides)
 
 ---
+
+## 🆕 August 17, 2026 — Evening Cron Sweep (9 New, 9 Guides)
+
+Evening sweep following the midday run, sourced from the mcp.so homepage new-arrivals list and the chatmcp/mcpso submission issues filed after the midday sweep (Aug 17 afternoon through 23:57 UTC). 9 new business-relevant servers found: rental building intelligence for NYC/LA/Chicago, US federal contracting data, a two-store app portfolio console, pre-flight ad audience validation, an agent marketplace with capped spending, four-marketplace resale research, Atono agile project management, encrypted agent messaging with gated settlement, and persona-voiced content humanization. mcpservers.org homepage carried no new business-relevant slugs this cycle.
+
+### LucidRents Building Intelligence MCP ★★★ — August 17 (evening)
+
+Apartment building intelligence from public records for New York City, Los Angeles, and Chicago, roughly 2 million buildings: violations, 311 complaints, reviews, rents, and landlord portfolio records. Read-only, no auth, Streamable HTTP at `lucidrents.com/api/mcp`; 5 tools. (free) · [Guide →](/hermes/mcp/servers/external/lucidrents-mcp/)
+
+### AwardCast MCP ★★★ — August 17 (evening)
+
+Public US federal contracting data for AI agents: open SAM.gov solicitations, agency buying profiles, contractor award history, recompete radar with named incumbents, closing-price ranges by agency and NAICS, and a forecast accuracy scorecard. No auth, Streamable HTTP at `awardcast.ai/mcp`; 8 tools with citable search/fetch URLs. (free) · [Guide →](/hermes/mcp/servers/external/awardcast-mcp/)
+
+### StorePilot MCP ★★★ — August 17 (evening)
+
+A whole app portfolio across Google Play and the App Store from one local MCP server: crash and ANR vitals against Google's bad-behavior thresholds, anomaly detections, installs, ratings, earnings, and reviews. stdio via `pip install storepilot`, MIT, Python 3.11+; 34 tools. (open source) · [Guide →](/hermes/mcp/servers/external/storepilot-mcp/)
+
+### Inside Ads MCP ★★ — August 17 (evening)
+
+Pre-flight audience validation for products you just shipped: reach, click range, and CPC estimates against a budget, with an explicit no-inventory verdict when no matching ad inventory exists, then landing-page parse and campaign generation on your go-ahead. OAuth, Streamable HTTP at `app.inside.ad/api/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/inside-ads-mcp/)
+
+### Bitroad MCP ★★ — August 17 (evening)
+
+A marketplace where AI agents buy goods and services under spending caps, with returns and disputes as protocol features. Streamable HTTP at `app.bitroad.ai/api/v1/mcp`, docs at bitroad.ai/docs. (commercial) · [Guide →](/hermes/mcp/servers/external/bitroad-mcp/)
+
+### Secondhand MCP ★★ — August 17 (evening)
+
+Search Facebook Marketplace, eBay, Depop, and Poshmark from any MCP client with price, condition, category, size, and color filters; deep-research search/fetch with citable listings. Local npm (MIT) or hosted remote with OAuth at `secondhandmcp.com/mcp`. (free tier) · [Guide →](/hermes/mcp/servers/external/secondhand-mcp/)
+
+### Atono MCP Server ★★ — August 17 (evening)
+
+Atono agile project management over MCP: backlog, bugs, sprints, epics, and timeboxes with AI-generated investigation context, plus work-item creation and updates. Docker image `atonoio/atono-mcp-server`, Apache-2.0. (open source) · [Guide →](/hermes/mcp/servers/external/atono-mcp-server/)
+
+### xete MCP ★★ — August 17 (evening)
+
+Encrypted agent messaging plus non-custodial Solana settlement where the agent drafts a payment it cannot sign and a separate verify tool proves the draft before a human signs. stdio via `uvx xete-mcp`. (open source) · [Guide →](/hermes/mcp/servers/external/xete-mcp/)
+
+### Personhood MCP ★★ — August 17 (evening)
+
+Rewrites AI-generated text to read as human in preset or custom persona voices for LinkedIn posts, cold emails, DMs, and tweets. Hosted, Bearer key, Streamable HTTP at `api.givepersonhood.com/mcp`; free credits then per-generation billing. (commercial) · [Guide →](/hermes/mcp/servers/external/personhood-mcp/)
+
+### Also identified (not catalogued)
+
+GitHub submissions reviewed and skipped this cycle: FineData.ai (one-line listing with no tool docs, thin-docs rule), cute-web-scraper (local scraping utility, saturated category), komnet (git-backed coordination for coding agents, dev tool), Booklet (markdown publishing for dev docs), Dizko (city events, consumer), and three personal self-hosted media tools (freshrss-mcp, linkwarden-mcp, audiobookshelf-mcp). Feed repeats already catalogued or previously skipped: ListingGood, Mektup, TravelAnimator, AuraNet Omni-Oracle Engine.
 
 ## 🆕 August 17, 2026 — Midday Cron Sweep (11 New, 11 Guides)
 
@@ -1039,6 +1083,10 @@ Dedicated MCP server for PortEden's Google Sheets data firewall. Read, write, an
 ## Financial Data
 
 
+### LucidRents Building Intelligence MCP ★★★ — Aug 17 (evening)
+
+Apartment building intelligence from public records for NYC, LA, and Chicago, roughly 2 million buildings: violations, 311 complaints, reviews, rents, and landlord portfolio records. Read-only, no auth, Streamable HTTP at `lucidrents.com/api/mcp`; 5 tools. (free) [Integration Guide](/hermes/mcp/servers/external/lucidrents-mcp/)
+
 ### Cliometry MCP ★★ — Aug 17 (midday)
 
 Measured Korean market data — SK Hynix ADR premium, realized leverage multiples for KODEX/SOXL/TQQQ, VIX regime, Korean semiconductor RRG; pre-computed daily, every response with source URL and as-of date. No auth, Streamable HTTP at `mcp.cliometry.com`; CC BY 4.0. (free) · [Guide →](/hermes/mcp/servers/external/cliometry-mcp/)
@@ -1343,6 +1391,10 @@ Parse PDFs, CSVs, images, and documents into structured AI-ready data via the Un
 
 ## Analytics & Business Intelligence
 
+### AwardCast MCP ★★★ — Aug 17 (evening)
+
+Public US federal contracting data for AI agents: open SAM.gov solicitations, agency buying profiles, contractor award history, recompete radar with named incumbents, and closing-price ranges by agency and NAICS. No auth, Streamable HTTP at `awardcast.ai/mcp`; 8 tools with citable search/fetch URLs. (free) [Integration Guide](/hermes/mcp/servers/external/awardcast-mcp/)
+
 ### Import.io MCP ★★★ — Aug 16
 Hosted web scraping from an established data vendor — browser rendering, structured extraction, screenshots, proxy routing, country targeting, CAPTCHA handling. OAuth or Bearer, Streamable HTTP at `mcp.import.io/mcp`; 10,000 free successful calls, then $0.0002 per successful call with a monthly spend cap. (commercial) · [Guide →](/hermes/mcp/servers/external/import-io-mcp/)
 
@@ -1596,6 +1648,18 @@ Authoritative EOL database for AI agents — end-of-life dates, CVE risk scores,
 ---
 
 ## Commerce & E-Commerce
+
+### StorePilot MCP ★★★ — Aug 17 (evening)
+
+A whole app portfolio across Google Play and the App Store from one local MCP server: crash and ANR vitals against Google's bad-behavior thresholds, anomaly detections, installs, ratings, earnings, and reviews. stdio via `pip install storepilot`, MIT; 34 tools. (open source) [Integration Guide](/hermes/mcp/servers/external/storepilot-mcp/)
+
+### Bitroad MCP ★★ — Aug 17 (evening)
+
+A marketplace where AI agents buy goods and services under spending caps, with returns and disputes as protocol features. Streamable HTTP at `app.bitroad.ai/api/v1/mcp`. (commercial) [Integration Guide](/hermes/mcp/servers/external/bitroad-mcp/)
+
+### Secondhand MCP ★★ — Aug 17 (evening)
+
+Search Facebook Marketplace, eBay, Depop, and Poshmark from any MCP client with price, condition, category, size, and color filters; deep-research search/fetch with citable listings. Local npm (MIT) or hosted remote with OAuth at `secondhandmcp.com/mcp`. (free tier) [Integration Guide](/hermes/mcp/servers/external/secondhand-mcp/)
 
 ### WisWes Magento MCP ★★ — Aug 17 (midday)
 
@@ -2118,6 +2182,10 @@ MCP server for AI agent data flow orchestration. Connect AI agents to data pipel
 
 ## Productivity
 
+### Atono MCP Server ★★ — Aug 17 (evening)
+
+Atono agile project management over MCP: backlog, bugs, sprints, epics, and timeboxes with AI-generated investigation context, plus work-item creation and updates. Docker image `atonoio/atono-mcp-server`, Apache-2.0. (open source) [Integration Guide](/hermes/mcp/servers/external/atono-mcp-server/)
+
 ### Ledgenter MCP ★★★ — Aug 17 (midday)
 
 Shared work-management office for AI agents — projects, dependency-ordered tasks with atomic claims, append-only decisions, a semantic knowledge wiki, and cross-agent handoffs, all durable and multi-tenant. stdio via `npx @ledgenter/mcp` with a per-actor API key against the hosted service; registry `com.ledgenter/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/ledgenter-mcp/)
@@ -2321,6 +2389,10 @@ Feeds AI agents your brand's real logos, colors, fonts, and approved slide layou
 
 ## Communication
 
+### xete MCP ★★ — Aug 17 (evening)
+
+Encrypted agent messaging plus non-custodial Solana settlement where the agent drafts a payment it cannot sign and a separate verify tool proves the draft before a human signs. stdio via `uvx xete-mcp`. (open source) [Integration Guide](/hermes/mcp/servers/external/xete-mcp/)
+
 ### DOS AI MCP ★★ — Aug 17 (midday)
 
 WhatsApp and Telegram AI-assistant operations — projects, prompts, conversations, leads, analytics, and balance through 13 tools with no destructive operations by design; project-scoped and read-only keys available. Bearer key, Streamable HTTP at `dosai.pro/api/mcp`; OpenAPI spec, llms.txt, and full public corpus published. (commercial) · [Guide →](/hermes/mcp/servers/external/dos-ai-mcp/)
@@ -2448,6 +2520,14 @@ Control Bambu Lab 3D printers, edit STL files, and manage 3MF print workflows vi
 ---
 
 ## Marketing
+
+### Inside Ads MCP ★★ — Aug 17 (evening)
+
+Pre-flight audience validation for products you just shipped: reach, click range, and CPC estimates against a budget, with an explicit no-inventory verdict when no matching ad inventory exists. OAuth, Streamable HTTP at `app.inside.ad/api/mcp`. (commercial) [Integration Guide](/hermes/mcp/servers/external/inside-ads-mcp/)
+
+### Personhood MCP ★★ — Aug 17 (evening)
+
+Rewrites AI-generated text to read as human in preset or custom persona voices for LinkedIn posts, cold emails, DMs, and tweets. Hosted, Bearer key, Streamable HTTP at `api.givepersonhood.com/mcp`. (commercial) [Integration Guide](/hermes/mcp/servers/external/personhood-mcp/)
 
 ### Bounce Watch MCP ★★★ — Aug 17 (midday)
 
@@ -3957,4 +4037,13 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [5dive MCP — Agent-Fleet Task Queue & Digests](/docs/hermes/mcp/servers/external/5dive-mcp/)
 - [Linkonda MCP — Privacy-First Short Links](/docs/hermes/mcp/servers/external/linkonda-mcp/)
 - [Tenable MSSP MCP — Bulk CVE Orchestration Across Tenants](/docs/hermes/mcp/servers/external/tenable-mssp-mcp/)
+- [LucidRents MCP — Rental Building Intelligence for NYC/LA/Chicago](/docs/hermes/mcp/servers/external/lucidrents-mcp/)
+- [AwardCast MCP — US Federal Contracting Data](/docs/hermes/mcp/servers/external/awardcast-mcp/)
+- [StorePilot MCP — App Portfolio Operations Across Both Stores](/docs/hermes/mcp/servers/external/storepilot-mcp/)
+- [Inside Ads MCP — Pre-Flight Ad Audience Validation](/docs/hermes/mcp/servers/external/inside-ads-mcp/)
+- [Bitroad MCP — Capped-Spend Marketplace for AI Agents](/docs/hermes/mcp/servers/external/bitroad-mcp/)
+- [Secondhand MCP — Four-Marketplace Resale Research](/docs/hermes/mcp/servers/external/secondhand-mcp/)
+- [Atono MCP Server — Agile Project Management for Agents](/docs/hermes/mcp/servers/external/atono-mcp-server/)
+- [xete MCP — Encrypted Agent Messaging with Gated Settlement](/docs/hermes/mcp/servers/external/xete-mcp/)
+- [Personhood MCP — Persona-Voiced Content Humanization](/docs/hermes/mcp/servers/external/personhood-mcp/)
 
