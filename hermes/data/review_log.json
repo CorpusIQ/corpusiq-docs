@@ -10070,5 +10070,33 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-18T07:04:29.741248+00:00"
+  },
+  {
+    "repo": "westsource/agentctxsync",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T08:04:24.855238+00:00"
+  },
+  {
+    "repo": "in-th3-l00p/vega",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T08:04:24.855252+00:00"
+  },
+  {
+    "repo": "vision1989/hermes-agent-showcase",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T08:04:24.855254+00:00"
+  },
+  {
+    "repo": "cryolithic/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T08:04:24.855256+00:00"
   }
 ]

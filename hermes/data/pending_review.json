@@ -41297,5 +41297,105 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-18T07:04:21.143985+00:00",
     "status": "pending"
+  },
+  {
+    "name": "westsource/agentctxsync",
+    "url": "https://github.com/westsource/agentctxsync",
+    "description": "Cross-device, cross-agent session sync for AI assistants (Hermes / Codex / opencode / Reasonix / OpenClaw / WorkBuddy). Official site: http://www.agentctxsync.com",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-18T08:03:43Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-18T08:04:04.549606+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "in-th3-l00p/vega",
+    "url": "https://github.com/in-th3-l00p/vega",
+    "description": "Delta V's showcase of AI agent development: a Hermes agent profile, chat webapp, and mock data APIs",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-18T08:00:57Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory"
+    ],
+    "discovered_at": "2026-08-18T08:04:07.552037+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "vision1989/hermes-agent-showcase",
+    "url": "https://github.com/vision1989/hermes-agent-showcase",
+    "description": "Hermes Agent \u516c\u5f00\u4ea4\u4e92\u5c55\u793a\u7ad9",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-18T08:02:51Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-18T08:04:10.555327+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cryolithic/hermes-agent",
+    "url": "https://github.com/cryolithic/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-18T08:02:23Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-18T08:04:15.725760+00:00",
+    "status": "pending"
   }
 ]
