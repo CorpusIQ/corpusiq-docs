@@ -1,3 +1,7 @@
+---
+title: "Postscript - CorpusIQ Docs - CorpusIQ"
+description: "Bring your Postscript SMS marketing data into conversation with the rest of your stack. Ask about subscriber growth, opt-in keywords, and how SMS comp."
+---
 # Postscript
 
 ## What it unlocks

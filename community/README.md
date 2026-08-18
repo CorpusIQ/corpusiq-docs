@@ -1,3 +1,7 @@
+---
+title: "Community and Contributions - CorpusIQ Docs"
+description: "Join the CorpusIQ community: contribute connectors, submit skills, request features, and help build the data trust layer for AI agents."
+---
 # Community
 
 CorpusIQ development happens in the open. If you want a new connector, hit a

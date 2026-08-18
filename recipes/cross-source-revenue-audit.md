@@ -1,3 +1,7 @@
+---
+title: "Cross-Source Revenue Audit - CorpusIQ Docs"
+description: "Cross-source revenue audit recipe: reconcile Shopify orders, Stripe charges, and QuickBooks revenue into one cited number in minutes."
+---
 # Recipe: Cross-Source Revenue Audit
 
 **Time to value:** 5 minutes setup, instant answers after that.

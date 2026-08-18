@@ -1,3 +1,7 @@
+---
+title: "ActiveCampaign - CorpusIQ Docs"
+description: "ActiveCampaign holds your email contacts, automations, and pipeline deals — the moment-by-moment record of how prospects move from a first open to a c."
+---
 # ActiveCampaign
 
 ## What it unlocks

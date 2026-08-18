@@ -1,3 +1,7 @@
+---
+title: "Rate Limits & Quotas - CorpusIQ Docs"
+description: "Every connector has constraints. This page maps them so you know what to expect in production and how to optimize queries.."
+---
 # Rate limits & quotas
 
 Every connector has constraints. This page maps them so you know what to expect in production and how to optimize queries.

@@ -1,4 +1,4 @@
-# How to Connect GA4 to Claude (Ask Your Website Traffic in Plain English)
+# How to Connect GA4 to Claude (Ask Website Traffic in Plain English)
 
 GA4 is powerful and complicated. CorpusIQ connects it to Claude so you can skip the interface entirely and just ask.
 

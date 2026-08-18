@@ -1,3 +1,7 @@
+---
+title: "CorpusIQ Connectors - 40+ Business Tools"
+description: "CorpusIQ connects 40+ business tools to ChatGPT, Claude, and Perplexity with read-only OAuth. Browse every connector: Shopify, QuickBooks, Stripe, GA4, HubSpot, and more."
+---
 # Connectors
 
 CorpusIQ connects to your business tools through read-only MCP connectors.

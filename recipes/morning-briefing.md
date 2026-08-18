@@ -1,3 +1,7 @@
+---
+title: "Morning Briefing - CorpusIQ Docs"
+description: "A daily morning briefing prompt that pulls yesterday revenue, orders, ad spend, and cash position from every connected tool into one source-cited summary. 5 minute setup."
+---
 # Recipe: Replace Your Morning Dashboard Check With One Question
 
 **Time to value:** 5 minutes setup.

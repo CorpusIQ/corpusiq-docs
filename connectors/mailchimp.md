@@ -1,3 +1,7 @@
+---
+title: "Mailchimp - CorpusIQ Docs - CorpusIQ"
+description: "Pull your Mailchimp campaign performance into the same conversation as your store revenue, ad spend, and customer list. Ask whether your last newslett."
+---
 # Mailchimp
 
 ## What it unlocks

@@ -1,3 +1,7 @@
+---
+title: "PostHog — Product Analytics - CorpusIQ Docs"
+description: "Connect PostHog to CorpusIQ and ask plain-English questions about user behavior, product events, funnels, and retention — inside Claude or ChatGPT.."
+---
 # PostHog — Product Analytics
 
 Connect PostHog to CorpusIQ and ask plain-English questions about user behavior, product events, funnels, and retention — inside Claude or ChatGPT.

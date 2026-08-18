@@ -1,3 +1,7 @@
+---
+title: "GA4 — Google Analytics 4 - CorpusIQ Docs"
+description: "Connect GA4 to CorpusIQ and ask plain-English questions about your website traffic, conversions, acquisition sources, and revenue — without leaving Cl."
+---
 # GA4 — Google Analytics 4
 
 Connect GA4 to CorpusIQ and ask plain-English questions about your website traffic, conversions, acquisition sources, and revenue — without leaving Claude or ChatGPT.

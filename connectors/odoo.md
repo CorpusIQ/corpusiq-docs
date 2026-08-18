@@ -1,3 +1,7 @@
+---
+title: "Odoo - CorpusIQ Docs - CorpusIQ"
+description: "Pull your Odoo ERP into conversation — sales orders, invoices, CRM pipeline, inventory, projects, employees — without clicking through twenty Odoo scr."
+---
 # Odoo
 
 ## What it unlocks

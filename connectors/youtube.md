@@ -1,3 +1,7 @@
+---
+title: "YouTube - CorpusIQ Docs - CorpusIQ"
+description: "Bring your YouTube channel analytics into conversation alongside your other marketing data. Ask which videos drove traffic, where viewers are coming f."
+---
 # YouTube
 
 ## What it unlocks

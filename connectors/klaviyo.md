@@ -1,3 +1,7 @@
+---
+title: "Klaviyo - CorpusIQ Docs - CorpusIQ"
+description: "For ecommerce brands, Klaviyo is where email and SMS revenue actually gets attributed. Connecting it lets CorpusIQ pull campaign performance, flow rev."
+---
 # Klaviyo
 
 ## What it unlocks

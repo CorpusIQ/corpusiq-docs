@@ -1,3 +1,7 @@
+---
+title: "Connector Auth Failed - CorpusIQ Docs"
+description: "You clicked Connect, the OAuth flow started, and then it failed. Here is how to diagnose and fix connector authentication errors in CorpusIQ step by step."
+---
 # Connector authentication failed
 
 You clicked "Connect Shopify" (or any other connector). The browser

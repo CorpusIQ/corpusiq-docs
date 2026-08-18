@@ -1,6 +1,6 @@
 ---
-title: CorpusIQ Prompt Library
-description: Battle-tested prompts for business operators — copy, paste, get answers from your data
+title: "CorpusIQ Prompt Library - CorpusIQ Docs"
+description: "Battle-tested prompts for business operators — copy, paste, get answers from your data. using CorpusIQ with Claude and ChatGPT."
 ---
 
 # CorpusIQ Prompt Library

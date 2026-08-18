@@ -1,3 +1,7 @@
+---
+title: "HubSpot + Klaviyo Pipeline - CorpusIQ Docs"
+description: "Connectors: hubspot, klaviyo. Revenue and marketing teams need understand whether email engagement drives."
+---
 # Recipe: HubSpot Deal Pipeline Correlated with Klaviyo Email Engagement
 
 **Connectors:** hubspot, klaviyo

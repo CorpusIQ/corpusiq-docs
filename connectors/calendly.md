@@ -1,3 +1,7 @@
+---
+title: "Calendly - CorpusIQ Docs - CorpusIQ"
+description: "Your calendar tells one story; your booking link tells another. Calendly knows which prospects actually booked, who showed up, who canceled, and what."
+---
 # Calendly
 
 ## What it unlocks

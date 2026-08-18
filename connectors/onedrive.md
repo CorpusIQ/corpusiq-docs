@@ -1,3 +1,7 @@
+---
+title: "OneDrive - CorpusIQ Docs - CorpusIQ"
+description: "Let CorpusIQ read your OneDrive files when answering questions — contracts, spreadsheets, board decks, prior reports. Stop digging through folders to."
+---
 # OneDrive
 
 ## What it unlocks

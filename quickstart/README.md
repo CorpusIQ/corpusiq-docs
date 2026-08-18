@@ -1,3 +1,7 @@
+---
+title: "Quickstart - Get Started With CorpusIQ"
+description: "Get started with CorpusIQ in minutes: create an account, connect your first business tools, and ask your first cross-source question with cited answers."
+---
 # Quickstart
 
 Get up and running in 30 minutes. Five steps from signup to your first real question.

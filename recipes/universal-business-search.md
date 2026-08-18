@@ -1,3 +1,7 @@
+---
+title: "Universal Business Search - CorpusIQ Docs"
+description: "One prompt that searches every connected business tool at once. Set up in 5 minutes, then ask anything across Shopify, QuickBooks, Stripe, GA4, and more with cited answers."
+---
 # Recipe: Search Your Entire Business From One Question
 
 **Time to value:** 5 minutes setup.

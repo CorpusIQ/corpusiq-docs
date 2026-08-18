@@ -1,3 +1,7 @@
+---
+title: "Monday.com - CorpusIQ Docs - CorpusIQ"
+description: "Bring your Monday.com boards into conversations about how the business is actually running. Ask which projects are blocked, who owns what, and what's."
+---
 # Monday.com
 
 ## What it unlocks

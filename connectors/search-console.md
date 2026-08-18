@@ -1,3 +1,7 @@
+---
+title: "Google Search Console - CorpusIQ Docs"
+description: "Google Search Console is the ground truth for how your site performs in Google Search — clicks, impressions, average position, and the queries that dr."
+---
 # Google Search Console
 
 ## What it unlocks

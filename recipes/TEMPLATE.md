@@ -1,3 +1,7 @@
+---
+title: "Recipe: [Title] - CorpusIQ Docs"
+description: "Template for building your own CorpusIQ recipes. Copy the structure, fill in the connectors and prompts, and turn any recurring business question into a repeatable recipe."
+---
 # Recipe: [Title]
 
 **Connectors:** [connector-1, connector-2, ...]

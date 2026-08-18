@@ -1,3 +1,7 @@
+---
+title: "Privacy & Security - CorpusIQ Docs"
+description: "The short version: CorpusIQ reads your business data when you ask, returns cited answers, and retains no raw customer files. Full privacy model, scopes, and compliance details here."
+---
 # Privacy and security
 
 The short version: CorpusIQ reads your business data when you ask it to,

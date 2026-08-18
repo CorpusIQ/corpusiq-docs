@@ -1,3 +1,7 @@
+---
+title: "Google Ads - CorpusIQ Docs - CorpusIQ"
+description: "Google Ads is often the single largest acquisition channel, and the platform's reported conversions rarely match what GA4 or your CRM actually see. Co."
+---
 # Google Ads
 
 ## What it unlocks

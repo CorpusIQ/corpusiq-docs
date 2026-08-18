@@ -1,3 +1,7 @@
+---
+title: "Stripe - CorpusIQ Docs - CorpusIQ"
+description: "See your payment activity inside the conversation. Ask which customers paid this month, what your charge history looks like, why your last payout does."
+---
 # Stripe
 
 ## What it unlocks

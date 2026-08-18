@@ -1,3 +1,7 @@
+---
+title: "2. Connect CorpusIQ to Claude - CorpusIQ Docs"
+description: "CorpusIQ runs as an MCP server, which is the standard way AI assistants get tool access. This guide connects Claude to CorpusIQ in minutes with a working config."
+---
 # 2. Connect CorpusIQ to Claude
 
 CorpusIQ runs as an **MCP server** — a standard way for AI assistants to talk

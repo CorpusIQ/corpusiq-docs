@@ -1,3 +1,7 @@
+---
+title: "IndexNow Auto-Submit - CorpusIQ Docs"
+description: "Automatically notify Bing, Yandex, Seznam, and other engines when you publish. This recipe wires IndexNow submission into your CorpusIQ workflow with Shopify, GA4, and Search Console."
+---
 # Recipe: Auto-submit changed URLs to IndexNow
 
 **Connectors:** indexnow, shopify, ga4, search-console, semrush

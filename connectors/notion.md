@@ -1,3 +1,7 @@
+---
+title: "Notion - CorpusIQ Docs - CorpusIQ"
+description: "Notion holds a surprising amount of business data that lives outside your SaaS tools — project plans, meeting notes, hiring trackers, product specs. C."
+---
 # Notion
 
 ## What it unlocks

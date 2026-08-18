@@ -1,3 +1,7 @@
+---
+title: "Constant Contact - CorpusIQ Docs"
+description: "If Constant Contact is where your email lives, this connector pulls campaign performance and contact lists into the same view as your Shopify revenue."
+---
 # Constant Contact
 
 ## What it unlocks

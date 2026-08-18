@@ -1,3 +1,7 @@
+---
+title: "Azure Cosmos DB - CorpusIQ Docs"
+description: "Cosmos DB is often where the unglamorous-but-critical data lives: event logs, telemetry, user activity, IoT readings. Connecting it lets CorpusIQ run."
+---
 # Azure Cosmos DB
 
 ## What it unlocks

@@ -1,3 +1,7 @@
+---
+title: "Troubleshooting - CorpusIQ Docs"
+description: "The six most common CorpusIQ problems and their fixes: connection errors, missing data, authentication failures, and assistants that cannot see your connectors."
+---
 # Troubleshooting
 
 Six pages for the most common things that go sideways.

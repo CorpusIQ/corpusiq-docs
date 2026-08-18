@@ -1,3 +1,7 @@
+---
+title: "Slack - CorpusIQ Docs - CorpusIQ"
+description: "Pull Slack conversations into the answer. Ask what your team discussed about a customer, what was decided in #leadership last Tuesday, or who's been t."
+---
 # Slack
 
 ## What it unlocks

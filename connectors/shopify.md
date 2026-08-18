@@ -1,3 +1,7 @@
+---
+title: "Shopify - CorpusIQ Docs - CorpusIQ"
+description: "Make your store answerable in plain English. Revenue, orders, AOV, top products, refunds, customer LTV — and the same numbers joined to QuickBooks, yo."
+---
 # Shopify
 
 ## What it unlocks

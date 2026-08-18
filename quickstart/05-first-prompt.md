@@ -1,3 +1,7 @@
+---
+title: "5. Fire your first prompt - CorpusIQ Docs"
+description: "You are connected. Now ask your first real business question and watch CorpusIQ return a cited answer pulled live across all your tools."
+---
 # 5. Fire your first prompt
 
 You're connected. Now ask something useful.

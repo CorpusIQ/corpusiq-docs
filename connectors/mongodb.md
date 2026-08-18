@@ -1,3 +1,7 @@
+---
+title: "MongoDB - CorpusIQ Docs - CorpusIQ"
+description: "Point CorpusIQ at your own MongoDB and ask questions about your application data in plain English. No more pulling engineers off feature work to write."
+---
 # MongoDB
 
 ## What it unlocks

@@ -1,5 +1,5 @@
 ---
-title: Multi-Source Prompts
+title: "Multi-Source Prompts - CorpusIQ Docs"
 description: CorpusIQ prompts that span multiple data sources — board updates, investor reports, cross-department analysis
 ---
 

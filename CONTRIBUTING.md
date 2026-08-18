@@ -1,5 +1,5 @@
 ---
-title: "Contributing to CorpusIQ Docs"
+title: "Contributing to CorpusIQ Docs - CorpusIQ Docs"
 description: "Contribution guide for the CorpusIQ docs repository. How to submit connector documentation, recipes, examples, and fixes. Community guidelines and review process."
 category: "Documentation"
 tags: ["contribute", "open source", "docs", "community"]

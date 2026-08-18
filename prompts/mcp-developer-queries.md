@@ -1,5 +1,5 @@
 ---
-title: MCP Developer Query Prompts
+title: "MCP Developer Query Prompts - CorpusIQ Docs"
 description: CorpusIQ prompts for MCP developers — build, debug, and deploy Model Context Protocol servers connected to business data
 ---
 

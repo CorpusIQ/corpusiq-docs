@@ -1,3 +1,7 @@
+---
+title: "TikTok - CorpusIQ Docs - CorpusIQ"
+description: "Bring your TikTok account analytics into the same view as your other channels. Ask which videos are driving the most engagement and how TikTok stacks."
+---
 # TikTok
 
 ## What it unlocks

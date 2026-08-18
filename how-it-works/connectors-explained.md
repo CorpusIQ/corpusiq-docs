@@ -1,3 +1,7 @@
+---
+title: "Connectors Explained - CorpusIQ Docs"
+description: "A connector is a one-way, read-only link between CorpusIQ and your business tools. This page explains how connectors work, what scopes mean, and why nothing is ever written back."
+---
 # Connectors, explained
 
 A **connector** is a one-way, read-only link between CorpusIQ and one of

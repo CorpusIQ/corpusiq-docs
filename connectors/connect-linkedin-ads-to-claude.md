@@ -1,4 +1,4 @@
-# How to Connect LinkedIn Ads to Claude (Ask Your Campaign Data in Plain English)
+# How to Connect LinkedIn Ads to Claude (Ask Campaign Data in English)
 
 Stop exporting LinkedIn Ads reports into spreadsheets. Connect LinkedIn Ads to Claude through CorpusIQ and ask your campaign questions directly.
 

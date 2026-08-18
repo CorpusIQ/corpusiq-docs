@@ -1,3 +1,7 @@
+---
+title: "Examples and Templates - CorpusIQ Docs"
+description: "Runnable examples and templates: Claude Desktop config, cross-source ROAS analysis, and the MCP starter for developers building on CorpusIQ."
+---
 # Examples
 
 Examples are runnable code samples, configs, and integrations for CorpusIQ.

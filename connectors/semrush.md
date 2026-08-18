@@ -1,3 +1,7 @@
+---
+title: "Semrush - CorpusIQ Docs - CorpusIQ"
+description: "Bring SEO and competitive search data into the conversation. Ask which keywords your competitors rank for, what your backlink profile looks like, and."
+---
 # Semrush
 
 ## What it unlocks

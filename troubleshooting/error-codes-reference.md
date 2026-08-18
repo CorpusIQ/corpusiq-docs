@@ -1,3 +1,7 @@
+---
+title: "Error Codes Reference - CorpusIQ Docs"
+description: "When something goes wrong, CorpusIQ or a vendor returns an error code or message. This page maps those errors to causes and fixes.."
+---
 # Error codes & troubleshooting reference
 
 When something goes wrong, CorpusIQ or a vendor returns an error code or message. This page maps those errors to causes and fixes.

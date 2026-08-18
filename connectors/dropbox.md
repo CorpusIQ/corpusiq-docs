@@ -1,3 +1,7 @@
+---
+title: "Dropbox - CorpusIQ Docs - CorpusIQ"
+description: "A lot of operating context — contracts, past board updates, vendor invoices, design files — lives in Dropbox folders. Connecting Dropbox lets CorpusIQ."
+---
 # Dropbox
 
 ## What it unlocks
