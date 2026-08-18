@@ -2521,11 +2521,6 @@
       "source": "/indexnow-submission-urls.txt",
       "destination": "/recipes/indexnow-submission-urls.txt",
       "statusCode": 301
-    },
-    {
-      "source": "/indexnow-submission-urls.txt/",
-      "destination": "/recipes/indexnow-submission-urls.txt",
-      "statusCode": 301
     }
   ],
   "outputDirectory": "."
