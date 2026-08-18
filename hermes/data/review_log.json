@@ -9986,5 +9986,61 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-18T05:07:02.860005+00:00"
+  },
+  {
+    "repo": "joinName177/sl-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T06:05:10.343868+00:00"
+  },
+  {
+    "repo": "trulytuhin/quiet-hermes",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T06:05:10.343882+00:00"
+  },
+  {
+    "repo": "eyeonall/hermes-agent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T06:05:10.343884+00:00"
+  },
+  {
+    "repo": "dp-pcs/ogp",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T06:07:16.102705+00:00"
+  },
+  {
+    "repo": "favurr/vps-hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T06:11:08.527916+00:00"
+  },
+  {
+    "repo": "goldsonhwy/hermes-oneclick",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T06:11:08.527931+00:00"
+  },
+  {
+    "repo": "RebornForPower/cc-switch",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T06:11:08.527934+00:00"
+  },
+  {
+    "repo": "sirendhead/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-18T06:11:08.527936+00:00"
   }
 ]
