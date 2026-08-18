@@ -76,7 +76,7 @@ npx -y @ledgenter/mcp
 
 ## Integration with CorpusIQ
 
-Ledgenter is the coordination fabric that makes CorpusIQ's own multi-agent doctrine durable. Where CorpusIQ provides the data connectors — HubSpot, Stripe, QuickBooks, GA4 through one OAuth — Ledgenter provides the shared office: a CorpusIQ agent working a lead pipeline can claim the next task, log the pricing decision with rationale, link the commit or the report, and hand off anything that needs Benoit's or a human operator's call instead of stalling. The append-only decision log parallels the CorpusIQ canonical decisions record: Ledgenter keeps the working trail inside a project, CorpusIQ keeps the company-wide truth. Slack notifications from the CorpusIQ connector can carry handoff events, so the human inbox and the agent inbox stay in sync.
+Ledgenter is the coordination fabric that makes CorpusIQ's own multi-agent doctrine durable. Where CorpusIQ provides the data connectors — HubSpot, Stripe, QuickBooks, GA4 through one OAuth — Ledgenter provides the shared office: a CorpusIQ agent working a lead pipeline can claim the next task, log the pricing decision with rationale, link the commit or the report, and hand off anything that needs a human operator's call instead of stalling. The append-only decision log parallels the CorpusIQ canonical decisions record: Ledgenter keeps the working trail inside a project, CorpusIQ keeps the company-wide truth. Slack notifications from the CorpusIQ connector can carry handoff events, so the human inbox and the agent inbox stay in sync.
 
 ## Limitations
 

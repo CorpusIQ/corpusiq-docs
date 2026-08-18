@@ -1,3 +1,8 @@
+---
+title: "Sweep Report — August 18, 2026 (Morning Cron Sweep)"
+description: "- mcp.so homepage SSR (`recentServers` with createdAt) — 8 fresh entries (Aug 17–18)"
+---
+
 # Sweep Report — August 18, 2026 (Morning Cron Sweep)
 
 **Shift:** Morning (10:05 UTC)

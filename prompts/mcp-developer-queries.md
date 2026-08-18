@@ -53,4 +53,4 @@ Combine any of these queries. CorpusIQ handles multi-source analysis natively �
 
 ---
 
-*← [Prompt Library](/prompts/) | [MCP Architecture →](/docs/how-it-works/mcp-architecture/)*
+*← [Prompt Library](/prompts/) | [MCP Architecture →](/docs/how-it-works/mcp-architecture)*

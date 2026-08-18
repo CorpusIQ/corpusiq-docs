@@ -1,3 +1,8 @@
+---
+title: "Hermes Bot Mode (Desktop Plugin)"
+description: "Bot Mode turns your Hermes agent profiles into a roster of named bots. Each bot gets its own chat, avatar, personality, routine schedule, and the abilit..."
+---
+
 # Hermes Bot Mode (Desktop Plugin)
 
 **Status:** Early beta — announced Aug 16, 2026 by Nous Research

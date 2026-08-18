@@ -1,3 +1,8 @@
+---
+title: "AI Data Integration: Connect Business Tools to AI Assistants"
+description: "A practical guide to AI data integration, and how CorpusIQ handles it."
+---
+
 # AI Data Integration: Connect Business Tools to AI Assistants
 
 A practical guide to AI data integration, and how CorpusIQ handles it.

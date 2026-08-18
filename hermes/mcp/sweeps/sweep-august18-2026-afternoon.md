@@ -1,3 +1,8 @@
+---
+title: "Sweep Report — August 18, 2026 (Afternoon Cron Sweep)"
+description: "- chatmcp/mcpso GitHub issues — 30 most recent submissions (filed Aug 16 10:22 through Aug 18 13:33 UTC)"
+---
+
 # Sweep Report — August 18, 2026 (Afternoon Cron Sweep)
 
 **Shift:** Afternoon (14:05 UTC)

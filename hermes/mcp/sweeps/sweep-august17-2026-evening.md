@@ -1,3 +1,8 @@
+---
+title: "MCP Server Discovery Sweep — August 17, 2026 (Evening)"
+description: "- **9 new business-relevant servers** since the August 17 midday sweep"
+---
+
 # MCP Server Discovery Sweep — August 17, 2026 (Evening)
 
 ## Summary

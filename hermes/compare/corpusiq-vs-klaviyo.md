@@ -1,3 +1,8 @@
+---
+title: "CorpusIQ vs Klaviyo: What Each One Does"
+description: "Klaviyo runs your email and SMS. CorpusIQ is the layer that gives AI assistants live access to Klaviyo data, alongside Shopify, QuickBooks, Stripe, GA4,..."
+---
+
 # CorpusIQ vs Klaviyo: What Each One Does
 
 Klaviyo runs your email and SMS. CorpusIQ is the layer that gives AI assistants live access to Klaviyo data, alongside Shopify, QuickBooks, Stripe, GA4, and 40+ other business tools.

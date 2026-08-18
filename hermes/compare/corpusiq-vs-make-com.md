@@ -1,3 +1,8 @@
+---
+title: "CorpusIQ vs Make.com: What Each One Does"
+description: "Make.com automates workflows visually. CorpusIQ is the layer that gives AI assistants live access to your business data, alongside 40+ connected tools,..."
+---
+
 # CorpusIQ vs Make.com: What Each One Does
 
 Make.com automates workflows visually. CorpusIQ is the layer that gives AI assistants live access to your business data, alongside 40+ connected tools, in ChatGPT, Claude, and Perplexity.

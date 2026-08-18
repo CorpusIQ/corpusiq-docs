@@ -64,7 +64,7 @@ Reference files (`references/phrases.md`, `references/structures.md`) carry the 
 | Use Case | How |
 |---|---|
 | **Public content gate** | Pairs with our content-voice rules and slop scoring — a second pass before anything ships publicly |
-| **Email quality** | Benoit-facing and outreach emails read human at first pass |
+| **Email quality** | Executive-facing and outreach emails read human at first pass |
 | **UGC script cleanup** | Video scripts and captions lose the AI rhythm before recording |
 
 ## Limitations / Verification

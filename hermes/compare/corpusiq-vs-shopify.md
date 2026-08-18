@@ -1,3 +1,8 @@
+---
+title: "CorpusIQ vs Shopify: What Each One Does"
+description: "Shopify runs your store. CorpusIQ is the layer that gives AI assistants live access to Shopify data, alongside QuickBooks, Stripe, Google Ads, GA4, and..."
+---
+
 # CorpusIQ vs Shopify: What Each One Does
 
 Shopify runs your store. CorpusIQ is the layer that gives AI assistants live access to Shopify data, alongside QuickBooks, Stripe, Google Ads, GA4, and 40+ other business tools.

@@ -1,3 +1,8 @@
+---
+title: "CorpusIQ vs Composio: What Each One Does"
+description: "Composio gives agents tool access to 250+ apps. CorpusIQ is the layer that gives AI assistants governed access to business data, with validation, citati..."
+---
+
 # CorpusIQ vs Composio: What Each One Does
 
 Composio gives agents tool access to 250+ apps. CorpusIQ is the layer that gives AI assistants governed access to business data, with validation, citations, and read-only scopes.
