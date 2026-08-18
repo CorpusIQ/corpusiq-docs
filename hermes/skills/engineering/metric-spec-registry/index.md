@@ -1,6 +1,6 @@
 ---
 title: "metric-spec-registry - CorpusIQ Docs"
-description: Pattern for a canonical-layer metric subsystem  --  store KPI definitions, not data; resolve live; surface drift between sources; never cache; provenance every answer.
+description: Pattern for a canonical-layer metric subsystem  --  store KPI definitions, resolve live, surface drift between sources; no raw-file/full-payload warehouse, scoped operational logs only; provenance every answer.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/metric-spec-registry/"
 robots: "index,follow"
 last_updated: "2026-08-12"
