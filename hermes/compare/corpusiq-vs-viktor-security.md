@@ -52,7 +52,7 @@ Viktor's own documentation states that all integrations are shared at the worksp
 
 ### Is CorpusIQ read-only really safer?
 
-Read-only OAuth means CorpusIQ cannot modify your tools even if it wanted to. An assistant that only reads cannot accidentally delete a product, change a price, or send an email. Validation happens before answers, not after damage.
+Read-only OAuth means the retrieval tools CorpusIQ uses cannot modify your tools. External-source retrieval tools are read-only; write-capable and control-plane tools are separately named and annotated. An assistant that only reads cannot accidentally delete a product, change a price, or send an email. Validation happens before answers, not after damage.
 
 ### What happens when Viktor ships Private Mode?
 
