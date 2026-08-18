@@ -1,11 +1,11 @@
 {
-  "run_time": "2026-08-17T08:11:02.470539+00:00",
+  "run_time": "2026-08-18T05:07:46.529477+00:00",
   "new_approved": [],
   "stats": {
-    "total_found": 15,
+    "total_found": 14,
     "auto_approved": 0,
-    "pending_review": 15,
+    "pending_review": 14,
     "total_approved": 169,
-    "total_pending": 1439
+    "total_pending": 1453
   }
 }
