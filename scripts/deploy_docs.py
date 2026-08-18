@@ -88,6 +88,17 @@ def main():
     # 2. Regenerate GEO feeds (llms.txt / llms-full.txt)
     print("2. Regenerating llms.txt...")
     run("python3 scripts/generate_llms_txt.py", fatal=True)
+    # 2b. Commit regenerated feeds so the NEXT deploy starts with a clean tree.
+    #     Without this, a stale llms.txt leaves the tree dirty and the next
+    #     `git pull --rebase` fails with "cannot pull with rebase: You have
+    #     unstaged changes" (recurring failure: Aug 13, Aug 18).
+    dirty_feeds = run("git status --porcelain -- llms.txt llms-full.txt").strip()
+    if dirty_feeds:
+        run(
+            "git add llms.txt llms-full.txt && "
+            "git commit -m 'chore: regenerate llms feeds (auto, deploy)'"
+        )
+        print(f"   Committed regenerated feeds ({len(dirty_feeds.splitlines())} file(s))")
 
     # 3. Build
     print("3. Building mkdocs...")
