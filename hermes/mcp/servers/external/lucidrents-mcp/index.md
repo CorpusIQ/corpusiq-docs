@@ -1,6 +1,6 @@
 ---
 title: "LucidRents Building Intelligence MCP - CorpusIQ Docs - CorpusIQ Docs"
-description: Apartment building intelligence from public records for NYC, LA, and Chicago: violations, 311 complaints, rents, landlord records, and more via MCP
+description: "Apartment building intelligence from public records for NYC, LA, and Chicago: violations, 311 complaints, rents, landlord records, and more via MCP"
 category: Financial Data
 stars: n/a (new listing)
 added: 2026-08-17

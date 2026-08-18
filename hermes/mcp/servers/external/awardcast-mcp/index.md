@@ -1,6 +1,6 @@
 ---
 title: "AwardCast MCP - CorpusIQ Docs - CorpusIQ Docs"
-description: US federal contracting data for AI agents: SAM.gov solicitations, agency buying profiles, award history, and recompete forecasts via MCP
+description: "US federal contracting data for AI agents: SAM.gov solicitations, agency buying profiles, award history, and recompete forecasts via MCP"
 category: Analytics & Business Intelligence
 stars: n/a (new listing)
 added: 2026-08-17

@@ -1,6 +1,6 @@
 ---
 title: "Atono MCP Server - CorpusIQ Docs - CorpusIQ Docs"
-description: Atono project management over MCP: backlogs, bugs, sprints, and epics with AI-generated investigation context for your agents
+description: "Atono project management over MCP: backlogs, bugs, sprints, and epics with AI-generated investigation context for your agents"
 category: Productivity
 stars: n/a (new listing)
 added: 2026-08-17

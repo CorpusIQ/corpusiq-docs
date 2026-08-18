@@ -1,6 +1,6 @@
 ---
 title: "Bitroad MCP - CorpusIQ Docs - CorpusIQ Docs"
-description: Marketplace for AI agents over MCP: buy goods and services under spending caps with returns and disputes built into the protocol
+description: "Marketplace for AI agents over MCP: buy goods and services under spending caps with returns and disputes built into the protocol"
 category: Commerce & E-Commerce
 stars: n/a (new listing)
 added: 2026-08-17
