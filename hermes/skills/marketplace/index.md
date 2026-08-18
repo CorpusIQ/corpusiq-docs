@@ -3,7 +3,7 @@ title: "Skills Marketplace - CorpusIQ Docs"
 description: Discover and install community skills from skills.sh  --  290+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
-last_updated: "2026-08-17"
+last_updated: "2026-08-18"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
@@ -12,10 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**891+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**895+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
 
+- [🆕 August 18, 2026 — WeCom CLI Skills (153.4K, 28 skills), Mastra AI Skills (32.6K, 5), Strix Security Skills (9.6K, 8), WeCom Unified (4.4K, 1) — 4 publisher clusters, 42 skills, 4 setup guides](/hermes/skills/marketplace/new-aug18-2026/)
 - [🆕 August 17, 2026 (Evening) — M. Collina Node Skills (52.4K, 12 skills), Zhaono1 Agent Playbook (50.4K, 24), Nx AI Agents Config (44.7K, 10) — 3 publisher clusters, 46 skills, 3 setup guides](/hermes/skills/marketplace/new-aug17-2026-evening/)
 - [🆕 August 17, 2026 — Brian Lovin Agent Config (33.6K, 19 skills), last30days (32.7K, 3), Herdr (28.1K, 5), Web Access (15.7K), Stop Slop (10.6K), Avoid AI Writing (1.6K, locally installed) — 6 publisher clusters, 30 skills, 6 setup guides](/hermes/skills/marketplace/new-aug17-2026/)
 - [🆕 August 16, 2026 — Cursor Plugins (72.0K, 79 skills), Vercel AI SDK (51.1K, 3), Angular Skills (40.1K, 2), Inngest Skills (19.3K, 14), OXC Project (9.9K, 4), Alibaba Open Code Review (4.3K, 2) — 6 publisher clusters, 104 skills, 6 setup guides](/hermes/skills/marketplace/new-aug16-2026/)
@@ -271,7 +272,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 942+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 946+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 

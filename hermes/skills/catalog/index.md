@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog — Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-08-17"
+last_updated: "2026-08-18"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -500,3 +500,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [M. Collina Node Skills — Fastify & Node.js Agent Suite Setup](/docs/hermes/skills/catalog/mcollina-node-skills-setup/)
 - [Zhaono1 Agent Playbook — 24-Role Agent Workflow Suite Setup](/docs/hermes/skills/catalog/zhaono1-agent-playbook-setup/)
 - [Nx AI Agents Config — Monorepo Agent Skills Setup](/docs/hermes/skills/catalog/nx-ai-agents-config-skills-setup/)
+- [WeCom CLI Skills — Enterprise WeChat Agent Suite Setup](/docs/hermes/skills/catalog/wecom-cli-skills-setup/)
+- [WeCom Unified Skill — WeChat Work Routing Suite Setup](/docs/hermes/skills/catalog/wecom-unified-skills-setup/)
+- [Mastra AI Skills — TypeScript Agent Framework Setup](/docs/hermes/skills/catalog/mastra-ai-skills-setup/)
+- [Strix Security Skills — Autonomous Pentesting Suite Setup](/docs/hermes/skills/catalog/strix-security-skills-setup/)
