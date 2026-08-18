@@ -34,7 +34,7 @@ CorpusIQ connects GA4 to your AI assistant and lets you ask:
 
 ## Security
 
-Read-only. CorpusIQ cannot change tracking or settings. No raw data retained.
+Read-only. CorpusIQ cannot change tracking or settings. No raw customer files or full connector payloads are retained; operational logs and indexes are disclosed separately.
 
 ## Try it
 

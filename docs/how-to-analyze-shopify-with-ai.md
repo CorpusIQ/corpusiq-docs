@@ -40,7 +40,7 @@ Every answer is pulled live from Shopify and source-cited, so you can verify it.
 
 ## Security
 
-Read-only access. CorpusIQ cannot modify products, change prices, or touch customer data. No raw customer files are retained.
+External-source retrieval tools are read-only; write-capable and control-plane tools are separately named and annotated. No raw customer files or full connector payloads are retained; operational logs and indexes are disclosed separately.
 
 ## FAQ
 

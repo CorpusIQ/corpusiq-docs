@@ -34,7 +34,7 @@ CorpusIQ connects Google Ads to your AI assistant, then cross-references it with
 
 ## Security
 
-Read-only. CorpusIQ cannot change bids, budgets, or campaigns. No raw files retained.
+Read-only. CorpusIQ cannot change bids, budgets, or campaigns. No raw customer files or full connector payloads are retained; operational logs and indexes are disclosed separately.
 
 ## Try it
 

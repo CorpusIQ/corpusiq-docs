@@ -34,7 +34,7 @@ CorpusIQ connects Klaviyo to your AI assistant:
 
 ## Security
 
-Read-only. CorpusIQ cannot send emails or edit campaigns. No raw files retained.
+Read-only. CorpusIQ cannot send emails or edit campaigns. No raw customer files or full connector payloads are retained; operational logs and indexes are disclosed separately.
 
 ## Try it
 

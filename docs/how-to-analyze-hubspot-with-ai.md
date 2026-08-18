@@ -34,7 +34,7 @@ CorpusIQ connects HubSpot to your AI assistant:
 
 ## Security
 
-Read-only. CorpusIQ cannot edit contacts, deals, or pipelines. No raw files retained.
+Read-only. CorpusIQ cannot edit contacts, deals, or pipelines. No raw customer files or full connector payloads are retained; operational logs and indexes are disclosed separately.
 
 ## Try it
 
