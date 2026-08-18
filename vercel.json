@@ -38,11 +38,6 @@
       "statusCode": 301
     },
     {
-      "source": "/hermes/mcp/spec",
-      "destination": "/hermes/mcp/",
-      "statusCode": 301
-    },
-    {
       "source": "/hermes/skills/catalog/excel-automation",
       "destination": "/hermes/skills/catalog/claude-office/excel-automation/",
       "statusCode": 301
@@ -685,11 +680,6 @@
     {
       "source": "/agent-marketplace",
       "destination": "/hermes/agent-marketplace/",
-      "statusCode": 301
-    },
-    {
-      "source": "/hermes/mcp/directories",
-      "destination": "/hermes/mcp/",
       "statusCode": 301
     },
     {
