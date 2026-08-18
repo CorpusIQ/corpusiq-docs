@@ -1,5 +1,5 @@
 ---
-title: FeatureBoard MCP Server
+title: "FeatureBoard MCP Server - CorpusIQ Docs"
 subtitle: Agentic governance, management, orchestration, task planning for AI agents
 source: mcpservers.org
 github: https://github.com/valentil/featureboard-mcp

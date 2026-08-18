@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent for Mid-Market"
+title: "Hermes Agent for Mid-Market - CorpusIQ Docs"
 description: "Deploy cross-department AI automation for mid-market companies (50-500 employees). Marketing, sales, finance, and CS profiles with approval workflows and"
 category: "Company Size"
 tags:

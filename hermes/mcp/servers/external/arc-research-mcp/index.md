@@ -1,5 +1,5 @@
 ---
-title: Arc Research MCP
+title: "Arc Research MCP - CorpusIQ Docs"
 description: Commodities research over MCP — a knowledge graph, CFTC positioning, natural gas and weather data, futures quotes and private research journals.
 category: Finance
 stars: n/a (new listing)

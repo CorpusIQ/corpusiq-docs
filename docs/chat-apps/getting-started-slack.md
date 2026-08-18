@@ -6,7 +6,7 @@ description: >-
 canonical: "https://www.corpusiq.io/docs/chat-apps/getting-started-slack/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Getting started in Slack"
+title: "Getting started in Slack - CorpusIQ Docs"
 tags: ["hermes agent", "ai agent", "documentation"]
 
 ---

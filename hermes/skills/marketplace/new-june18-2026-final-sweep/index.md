@@ -1,5 +1,5 @@
 ---
-title: "New Skills - CorpusIQ Docs"
+title: "New Skills - CorpusIQ Docs - CorpusIQ Docs"
 description: 8 newly discovered skills from aradotso/hermes-skills  --  QQ bot, MemX memory plugin, executive assistant suite, and agent building tutorial. Final sweep of the day.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june18-2026-final-sweep/"
 robots: "index,follow"

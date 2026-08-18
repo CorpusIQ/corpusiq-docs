@@ -1,5 +1,5 @@
 ---
-title: "A4B CMMS MCP - CorpusIQ Docs"
+title: "A4B CMMS MCP - CorpusIQ Docs - CorpusIQ Docs"
 description: Asset and maintenance management over MCP — 24 tools for assets, workspaces, maintenance tasks, users and QR codes, with OAuth 2.1, multi-tenancy and audit logging.
 category: ERP
 stars: n/a (new listing)

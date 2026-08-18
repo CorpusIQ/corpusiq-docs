@@ -1,5 +1,5 @@
 ---
-title: "Atlassian MCP Server"
+title: "Atlassian MCP Server - CorpusIQ Docs"
 description: "Official Atlassian MCP server for Jira, Confluence, Bitbucket, Compass, and Jira Service Management. The remote from Atlassian. Connects agents (Claude, Ch."
 stars: 911
 language: JavaScript

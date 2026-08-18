@@ -1,6 +1,6 @@
 ---
 name: discord-bot
-description: Discord server bots. Build and deploy Discord bots for community management. 2.8K installs.
+description: "Discord server bots. Build and deploy Discord bots for community management. 2.8K installs. npx skills add claude-office-skills/skills@discord-bot."
 triggers:
   - "discord bot"
 source: skills.sh marketplace
@@ -9,7 +9,7 @@ setup: npx skills add claude-office-skills/skills@discord-bot
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/communication/discord-bot/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Discord Bot - CorpusIQ Docs"
+title: "Discord Bot - CorpusIQ Docs - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

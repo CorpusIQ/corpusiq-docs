@@ -1,6 +1,6 @@
 ---
 name: whatsapp-automation
-description: WhatsApp bot and automation. Build WhatsApp messaging workflows and bots. 3.4K installs.
+description: "WhatsApp bot and automation. Build WhatsApp messaging workflows and bots. 3.4K installs. npx skills add claude-office-skills/skills@whatsapp-automation."
 triggers:
   - "whatsapp automation"
 source: skills.sh marketplace
@@ -9,7 +9,7 @@ setup: npx skills add claude-office-skills/skills@whatsapp-automation
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/communication/whatsapp-automation/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Whatsapp Automation"
+title: "Whatsapp Automation - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

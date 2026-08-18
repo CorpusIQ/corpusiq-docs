@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent for Enterprise"
+title: "Hermes Agent for Enterprise - CorpusIQ Docs"
 description: "Deploy Hermes Agent automation with profile isolation, regional deployment options, segregation of duties, and audit evidence for customer-managed compliance programs."
 category: "Company Size"
 tags:

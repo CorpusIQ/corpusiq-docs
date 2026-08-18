@@ -1,5 +1,5 @@
 ---
-title: "Shhots AI MCP - CorpusIQ Docs"
+title: "Shhots AI MCP - CorpusIQ Docs - CorpusIQ Docs"
 description: Generate AI UGC ads, cinematic product films, and studio-quality product photos from chat. The full Shhots engine over MCP, live on Pro and Scale plans.
 category: Content
 stars: n/a (new listing)

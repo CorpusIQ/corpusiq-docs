@@ -1,5 +1,5 @@
 ---
-title: 5dive MCP
+title: "5dive MCP - CorpusIQ Docs - CorpusIQ"
 description: Agent-fleet operations over MCP — file tasks, message agents and read daily digests from a fleet of autonomous coding agents through the 5dive CLI.
 category: Development
 stars: n/a (new listing)

@@ -1,5 +1,5 @@
 ---
-title: "Hermes Legal Agent"
+title: "Hermes Legal Agent - CorpusIQ Docs"
 description: Deploy an AI legal operations agent for contract review, regulatory monitoring, policy enforcement, audit preparation, and document management. Complete Hermes configuration blueprint.
 category: Agents
 tags:

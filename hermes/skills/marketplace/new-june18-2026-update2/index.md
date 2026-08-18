@@ -1,5 +1,5 @@
 ---
-title: "New Skills - CorpusIQ Docs"
+title: "New Skills - CorpusIQ Docs - CorpusIQ Docs"
 description: 6 newly catalogued skills  --  the official Hermes Agent hyperframes skill (nousresearch) plus 5 HyperFrames SDK skills from heygen-com/hyperframes (103K+ installs each)  --  enabling agentic HTML-based video creation.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june18-2026-update2/"
 robots: "index,follow"

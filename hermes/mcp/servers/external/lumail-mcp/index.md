@@ -1,5 +1,5 @@
 ---
-title: "Lumail MCP - CorpusIQ Docs"
+title: "Lumail MCP - CorpusIQ Docs - CorpusIQ Docs"
 description: Email marketing automation over MCP — read and manage subscribers, campaigns, workflow automation, tags, segments and analytics. Dual endpoints with a curated OAuth catalog and a full API-token catalog behind five-digit confirmation gates.
 category: Marketing
 stars: n/a (new listing)

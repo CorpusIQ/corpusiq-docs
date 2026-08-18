@@ -1,5 +1,5 @@
 ---
-title: "Google Workspace Skills"
+title: "Google Workspace Skills - CorpusIQ Docs"
 description: "Hermes skills for Google Workspace integration and automation. Part of the Hermes Skills Library. integrating Agent with Workspace. These enable autonomous."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-workspace/"
 robots: "index,follow"

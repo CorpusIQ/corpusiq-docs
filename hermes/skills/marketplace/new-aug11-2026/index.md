@@ -1,5 +1,5 @@
 ---
-title: New Skills — August 11, 2026
+title: "New Skills — August 11, 2026 - CorpusIQ Docs"
 description: 5 newly discovered Hermes Agent skills from skills.sh marketplace sweep — songwriting & AI music, TUI debugging, attestation guardian, research paper writing pipeline, and plan mode.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug11-2026/"
 robots: "index,follow"

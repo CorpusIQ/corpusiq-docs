@@ -1,5 +1,5 @@
 ---
-title: "Exomem MCP - CorpusIQ Docs"
+title: "Exomem MCP - CorpusIQ Docs - CorpusIQ Docs"
 description: Local Markdown and Obsidian memory substrate for MCP agents — hybrid FTS5 and vector search, governed review queues, and evidence that stays in plain files.
 category: Productivity
 stars: n/a (new listing)

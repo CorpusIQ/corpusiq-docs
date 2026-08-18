@@ -1,5 +1,5 @@
 ---
-title: api-development
+title: "api-development - CorpusIQ Docs"
 description: Pattern for operating a FastAPI backend on Cloud Run as the single token issuer to a multi-service stack. Test fixture traps, self-destructing admin migrations for live DB changes, the JWT JWKS contract with consumers, and how to verify a deploy actually went out.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/api-development/"
 robots: "index,follow"

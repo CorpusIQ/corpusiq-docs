@@ -1,5 +1,5 @@
 ---
-title: CryptoStruct Market Data MCP
+title: "CryptoStruct Market Data MCP - CorpusIQ Docs"
 description: Remote MCP for historical crypto and prediction-market data — a catalog of 500K instruments across 35 venues, live market statistics, free samples, and Stripe-checkout data procurement.
 category: Finance
 stars: n/a (new listing)

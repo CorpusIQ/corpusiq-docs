@@ -1,5 +1,5 @@
 ---
-title: Just Domain MCP
+title: "Just Domain MCP - CorpusIQ Docs"
 description: Domain availability and pricing checks for AI assistants — first-year and renewal costs from justdomain.ai, the domain registrar for businesses built with AI
 category: Productivity
 stars: n/a (new listing)

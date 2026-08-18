@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ vs Fivetran"
+title: "CorpusIQ vs Fivetran - CorpusIQ Docs"
 description: Compare CorpusIQ live MCP queries and scoped retention with Fivetran ETL pipelines and persistent warehouse replication.
 h1: CorpusIQ vs Fivetran  --  MCP Live Query vs ETL Batch Pipelines
 url: /docs/corpusiq-vs-fivetran

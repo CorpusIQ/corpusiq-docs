@@ -1,5 +1,5 @@
 ---
-title: "AI for Document Search"
+title: "AI for Document Search - CorpusIQ Docs"
 description: Transform document search with AI. Find information across SharePoint, Google Drive, OneDrive, and Notion in natural language. Read document contents, not just file names. Enterprise-grade
   security.
 url: /docs/ai-for-document-search

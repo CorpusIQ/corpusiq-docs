@@ -1,5 +1,5 @@
 ---
-title: Reelier MCP Server
+title: "Reelier MCP Server - CorpusIQ Docs"
 subtitle: Agent workflow recording and deterministic replay at zero tokens
 source: mcp.so
 github: https://github.com/maximehoule/reelier

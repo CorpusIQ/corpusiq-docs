@@ -1,5 +1,5 @@
 ---
-title: WisWes Magento MCP
+title: "WisWes Magento MCP - CorpusIQ Docs"
 description: Magento 2 store operations over MCP — catalog, cart, checkout, customer, sales and wishlist tools served from the store's own web server, powering an AI shopping assistant.
 category: Commerce
 stars: n/a (new listing)

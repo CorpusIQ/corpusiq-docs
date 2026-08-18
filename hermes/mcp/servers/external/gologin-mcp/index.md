@@ -1,5 +1,5 @@
 ---
-title: "GoLogin MCP Server"
+title: "GoLogin MCP Server - CorpusIQ Docs"
 description: "Browser profile management for multi-account operations — create, configure, and control GoLogin profiles through AI"
 stars: 18
 language: JavaScript

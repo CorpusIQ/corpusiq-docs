@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Outputs"
+title: "Hermes Agent Outputs - CorpusIQ Docs"
 description: "Field manual of Hermes Agent implementations: industry case studies, company-size guides, and copy-paste cron templates. Real automations for compliance"
 category: Outputs
 tags:

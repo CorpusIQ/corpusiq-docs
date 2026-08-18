@@ -1,5 +1,5 @@
 ---
-title: "Imperio MCP - CorpusIQ Docs"
+title: "Imperio MCP - CorpusIQ Docs - CorpusIQ Docs"
 description: Italian tax and compliance tools over MCP — Codice Fiscale, P.IVA, VAT, F24 and FatturaPA from deterministic official algorithms, free and anonymous.
 category: Finance
 stars: n/a (new listing)

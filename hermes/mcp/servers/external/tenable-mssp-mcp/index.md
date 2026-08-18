@@ -1,5 +1,5 @@
 ---
-title: Tenable MSSP MCP
+title: "Tenable MSSP MCP - CorpusIQ Docs"
 description: Tenable MSSP portal orchestration over MCP — bulk CVE queries, scoped Hexa AI tool runs and child-container management across managed security tenants.
 category: Development
 stars: n/a (new listing)

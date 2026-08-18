@@ -1,5 +1,5 @@
 ---
-title: "Hermes Executive Agent"
+title: "Hermes Executive Agent - CorpusIQ Docs"
 description: Deploy an autonomous executive assistant agent for daily briefings, calendar management, inbox triage, meeting preparation, and task follow-up. Complete Hermes blueprint.
 category: Agents
 tags:

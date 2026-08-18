@@ -1,5 +1,5 @@
 ---
-title: NexusTrade Financial MCP
+title: "NexusTrade Financial MCP - CorpusIQ Docs"
 description: Hosted MCP server for quantitative research, backtesting, and copy trading on the NexusTrade platform — 125 tools with OAuth 2.1 and brokerage execution behind platform risk controls.
 category: Finance
 stars: n/a (new listing)

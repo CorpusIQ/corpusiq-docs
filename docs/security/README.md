@@ -6,7 +6,7 @@ description: >-
 canonical: "https://www.corpusiq.io/docs/security/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Security"
+title: "CorpusIQ Security and Compliance"
 tags: ["hermes agent", "ai agent", "documentation"]
 
 ---

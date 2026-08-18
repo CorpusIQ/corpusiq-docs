@@ -1,5 +1,5 @@
 ---
-title: "Hermes DevOps Agent"
+title: "Hermes DevOps Agent - CorpusIQ Docs"
 description: Deploy an autonomous DevOps/SRE agent for infrastructure health checks, deployment monitoring, incident response, log analysis, and cost optimization. Complete Hermes blueprint.
 category: Agents
 tags:

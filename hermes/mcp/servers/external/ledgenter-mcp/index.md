@@ -1,5 +1,5 @@
 ---
-title: Ledgenter MCP
+title: "Ledgenter MCP - CorpusIQ Docs - CorpusIQ"
 description: Shared work-management office for AI agents — projects, dependency-ordered tasks, append-only decisions, a semantic knowledge wiki and cross-agent handoffs over MCP.
 category: Productivity
 stars: n/a (new listing)

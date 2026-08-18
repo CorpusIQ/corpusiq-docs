@@ -1,5 +1,5 @@
 ---
-title: Bounce Watch MCP
+title: "Bounce Watch MCP - CorpusIQ Docs"
 description: Company signal intelligence over MCP — dated funding, hiring, partnership and distress events across three million records, so agents know what changed at a company and when.
 category: Marketing
 stars: n/a (new listing)

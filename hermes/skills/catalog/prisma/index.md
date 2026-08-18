@@ -1,5 +1,5 @@
 ---
-title: "prisma Skills - CorpusIQ Docs"
+title: "prisma Skills - CorpusIQ Docs - CorpusIQ Docs"
 description: "Hermes skills for prisma integration and automation. Part of the Hermes Skills Library. integrating Agent with prisma. These enable autonomous workflows, d."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/prisma/"
 robots: "index,follow"

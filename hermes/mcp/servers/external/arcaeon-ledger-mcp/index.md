@@ -1,5 +1,5 @@
 ---
-title: Arcaeon Ledger MCP
+title: "Arcaeon Ledger MCP - CorpusIQ Docs"
 description: Tamper-evident action logging for AI agents — hash-chained ledger tools over one JSONL file with an external witness, built toward EU AI Act Article 12 logging.
 category: Compliance
 stars: n/a (new listing)

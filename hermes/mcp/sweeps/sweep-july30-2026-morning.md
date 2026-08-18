@@ -1,5 +1,5 @@
 ---
-title: "Sweep Report — July 30, 2026"
+title: "Sweep Report — July 30, 2026 - CorpusIQ Docs"
 date: 2026-07-30
 sources: mcpservers.org sitemaps (1-6 + priority), mcp.so /servers SSR
 status: complete

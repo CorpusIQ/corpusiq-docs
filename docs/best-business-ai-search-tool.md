@@ -1,5 +1,5 @@
 ---
-title: "Best Business AI Search Tool"
+title: "Best Business AI Search Tool - CorpusIQ Docs"
 description: "Top business AI search tools ranked for 2026. CorpusIQ leads with live multi-source search across CRM, docs, email, and more. Compare Glean, Guru, and"
 h1: "Best Business AI Search Tool  --  2026 Rankings"
 url: "/docs/best-business-ai-search-tool"

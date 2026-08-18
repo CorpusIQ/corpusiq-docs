@@ -1,5 +1,5 @@
 ---
-title: "New Skills - CorpusIQ Docs"
+title: "New Skills - CorpusIQ Docs - CorpusIQ Docs"
 description: 12 newly catalogued Hermes ecosystem skills from plastic-labs/honcho (memory/context) and garrytan/gbrain (agent brain operations)  --  essential infrastructure for production Hermes agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june18-2026-ecosystem/"
 robots: "index,follow"

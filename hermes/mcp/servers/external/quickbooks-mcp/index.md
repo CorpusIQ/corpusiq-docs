@@ -1,5 +1,5 @@
 ---
-title: QuickBooks MCP Server
+title: "QuickBooks MCP Server - CorpusIQ Docs"
 description: QuickBooks MCP integration guide — connect AI agents to QuickBooks Online via OAuth2 with 550+ tools for invoicing, billing, reporting, and inventory.
 source: datagrout.ai
 category: Finance / Accounting

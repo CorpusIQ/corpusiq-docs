@@ -1,5 +1,5 @@
 ---
-title: ascii-art — Setup Guide
+title: "ascii-art — Setup Guide - CorpusIQ Docs"
 description: Generate ASCII art, banners, and text-based graphics — terminal-native visual output for Hermes agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ascii-art-setup/"
 robots: "index,follow"

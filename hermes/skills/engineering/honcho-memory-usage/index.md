@@ -1,5 +1,5 @@
 ---
-title: honcho-memory-usage
+title: "honcho-memory-usage - CorpusIQ Docs"
 description: When and how to read/write Honcho via the honcho MCP server  --  server-side semantic memory that complements (does not replace) MEMORY.md and USER.md. The cold-storage pattern that survives session reset.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/honcho-memory-usage/"
 robots: "index,follow"

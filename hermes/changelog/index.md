@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent Changelog
+title: "Hermes Agent Changelog - CorpusIQ Docs"
 description: Version history and release notes for NousResearch Hermes Agent. Track new features, breaking changes, and upgrades.
 canonical: "https://www.corpusiq.io/docs/hermes/changelog/"
 robots: "index,follow"

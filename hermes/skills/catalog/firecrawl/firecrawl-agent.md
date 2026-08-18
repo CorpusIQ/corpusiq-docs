@@ -9,7 +9,7 @@ setup: npx skills add firecrawl/cli@firecrawl-agent
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl/firecrawl-agent/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Firecrawl Agent"
+title: "Firecrawl Agent - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

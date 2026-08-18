@@ -1,6 +1,7 @@
 ---
-name: "Moxie Docs MCP"
-description: "GitHub personal access token with repo scope required for PR creation and repository access. Moxie Docs generates maintains searchable documentation reposi."
+name: "Moxie Docs MCP Server Setup Guide"
+title: "Moxie Docs MCP Server Setup Guide"
+description: "GitHub personal access token with repo scope is required for PR workflows. Setup guide for the Moxie Docs MCP server, including token scopes and repo permissions."
 category: "Developer Tools"
 source: "mcp.so"
 discovered: "2026-07-23"
@@ -10,7 +11,7 @@ repository: "https://github.com/Jackalope-Dev/moxie-docs"
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/moxie-docs-mcp/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Moxie Docs MCP — Automated Codebase Documentation"
+title: "Moxie Docs MCP Server Setup Guide"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: "New Skills — August 15, 2026"
+title: "New Skills — August 15, 2026 - CorpusIQ Docs"
 description: "skills.sh morning sweep — 10 new publisher clusters with setup guides: CaffeineLabs Extensions (259.4K, 39 skills), OpenCLI (97.8K, 14 skills), CMUX (76.3K, 22 skills), Agentix CEO (52.0K), LiarJS Fingerprint (51.9K), Huashu Design (42.9K), Replicas Agent (34.7K), Design Doc Mermaid (34.2K), Agent Pulse (32.4K), Academic Research (26.4K)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug15-2026/"
 robots: "index,follow"

@@ -1,5 +1,5 @@
 ---
-title: Fakto.app wFirma MCP
+title: "Fakto.app wFirma MCP - CorpusIQ Docs"
 description: Full read-write MCP server for wFirma.pl Polish accounting — invoices, contractors, expenses, warehouse, KPiR and ZUS, with reports and cashflow forecasts
 category: Finance
 stars: n/a (new listing)

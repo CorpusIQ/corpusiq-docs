@@ -1,5 +1,5 @@
 ---
-title: Outside Agent MCP Server
+title: "Outside Agent MCP Server - CorpusIQ Docs"
 subtitle: Build and publish production-ready AI agents for web, SMS, and phone
 source: mcpservers.org
 github: https://github.com/santasailab/outside-agent-claude-plugin

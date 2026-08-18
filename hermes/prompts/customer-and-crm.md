@@ -1,5 +1,5 @@
 ---
-title: "Customer & CRM Prompts"
+title: "Customer & CRM Prompts - CorpusIQ Docs"
 description: "Prompt templates for customer data analysis, CRM operations, and business intelligence. HubSpot LeadConnector (GoHighLevel) pipelines. Add Email."
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/customer-and-crm/"
 robots: "index,follow"

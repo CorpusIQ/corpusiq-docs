@@ -1,5 +1,5 @@
 ---
-title: "New Skills - CorpusIQ Docs"
+title: "New Skills - CorpusIQ Docs - CorpusIQ Docs"
 description: 32 new Hermes Agent skills discovered June 18, 2026 from nousresearch/hermes-agent  --  macOS desktop automation, Node.js/Python debugging, smart home control, subagent workflows, music generation, and more.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june18-2026/"
 robots: "index,follow"

@@ -1,5 +1,5 @@
 ---
-title: "Lemon.io MCP - CorpusIQ Docs"
+title: "Lemon.io MCP - CorpusIQ Docs - CorpusIQ Docs"
 description: Hire vetted senior developers from chat — draft job descriptions, prepare technical interviews and request engineers through the Lemon.io MCP server.
 category: Productivity
 stars: n/a (new listing)

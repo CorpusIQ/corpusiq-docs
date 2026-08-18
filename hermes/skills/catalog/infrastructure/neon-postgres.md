@@ -1,6 +1,6 @@
 ---
 name: neon-postgres
-description: Serverless Postgres for agent state storage. Ideal database backend for AI agents. 40.4K installs.
+description: "Serverless Postgres for agent state storage. Setup guide for Neon databases with connection pooling, branching, and scaling for agent workloads."
 triggers:
   - "neon postgres"
 source: skills.sh marketplace
@@ -9,7 +9,7 @@ setup: npx skills add neondatabase/agent-skills
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/infrastructure/neon-postgres/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Neon Postgres - CorpusIQ Docs"
+title: "Neon Postgres - CorpusIQ Docs - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

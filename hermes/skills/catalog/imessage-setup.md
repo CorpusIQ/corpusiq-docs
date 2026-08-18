@@ -1,5 +1,5 @@
 ---
-title: imessage — Setup Guide
+title: "imessage — Setup Guide - CorpusIQ Docs"
 description: Send, receive, and automate iMessage conversations via Hermes Agent — 331 installs from nousresearch/hermes-agent.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/imessage-setup/"
 robots: "index,follow"

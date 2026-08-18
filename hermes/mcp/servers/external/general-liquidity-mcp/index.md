@@ -1,5 +1,5 @@
 ---
-title: General Liquidity MCP Server
+title: "General Liquidity MCP Server - CorpusIQ Docs"
 subtitle: Machine economy API — resolve, pay, verify, disclose
 source: general-liquidity-mcp
 github: https://github.com/general-liquidity/general-liquidity-mcp

@@ -1,5 +1,5 @@
 ---
-title: "OnePostly MCP - CorpusIQ Docs"
+title: "OnePostly MCP - CorpusIQ Docs - CorpusIQ Docs"
 description: Publish, schedule, and measure posts across X, Instagram, Facebook, Threads, LinkedIn, TikTok, YouTube, Pinterest, and Reddit from any MCP client
 category: Content
 stars: n/a (new listing)

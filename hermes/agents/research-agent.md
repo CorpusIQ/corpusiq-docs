@@ -1,5 +1,5 @@
 ---
-title: "Hermes Research Agent"
+title: "Hermes Research Agent - CorpusIQ Docs"
 description: Deploy an AI research agent for competitor monitoring, market intelligence, academic literature reviews, patent tracking, and news aggregation. Complete Hermes configuration blueprint.
 category: Agents
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Hermes A2A Bridge Setup Guide
+title: "Hermes A2A Bridge Setup Guide - CorpusIQ Docs"
 description: Set up the Agent-to-Agent Protocol bridge for Hermes Agent — enable multi-agent collaboration across instances with standardized HTTP+JSON messaging.
 skill_name: hermes-a2a-bridge
 repo: asimons81/hermes-a2a-bridge

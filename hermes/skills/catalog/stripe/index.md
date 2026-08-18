@@ -1,5 +1,5 @@
 ---
-title: "stripe Skills - CorpusIQ Docs"
+title: "stripe Skills - CorpusIQ Docs - CorpusIQ Docs"
 description: "Hermes skills for stripe integration and automation. Part of the Hermes Skills Library. integrating Agent with stripe. These enable autonomous workflows, d."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/stripe/"
 robots: "index,follow"

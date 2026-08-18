@@ -1,5 +1,5 @@
 ---
-title: EU VAT VIES MCP Server
+title: "EU VAT VIES MCP Server - CorpusIQ Docs"
 subtitle: EU VAT number validation with legal audit trail
 source: honest-vies-mcp
 github: https://github.com/bartosz-kuc/honest-vies-mcp

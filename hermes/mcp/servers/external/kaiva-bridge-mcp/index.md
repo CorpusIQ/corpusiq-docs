@@ -1,5 +1,5 @@
 ---
-title: Kaiva Bridge MCP
+title: "Kaiva Bridge MCP - CorpusIQ Docs"
 description: Turn any Postgres database or OpenAPI spec into a secure, hosted MCP server with per-tool access control and a full audit log. No server to write, nothing to host.
 category: DevOps
 stars: n/a (new listing)

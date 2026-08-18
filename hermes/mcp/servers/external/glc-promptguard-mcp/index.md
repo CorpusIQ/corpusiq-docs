@@ -1,5 +1,5 @@
 ---
-title: glc PromptGuard MCP
+title: "glc PromptGuard MCP - CorpusIQ Docs"
 description: Source-aware prompt-injection gate for user prompts, RAG chunks, and tool outputs — intent-aware scoring before anything reaches the model
 category: Security
 stars: n/a (new listing)

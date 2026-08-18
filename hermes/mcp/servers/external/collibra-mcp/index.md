@@ -1,5 +1,5 @@
 ---
-title: Collibra MCP Server
+title: "Collibra MCP Server - CorpusIQ Docs"
 subtitle: Enterprise Data Governance through MCP
 source: mcp-collibra
 github: https://github.com/rajivdatta/mcp-collibra

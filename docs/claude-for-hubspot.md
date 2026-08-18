@@ -1,5 +1,5 @@
 ---
-title: "Claude for HubSpot"
+title: "Claude for HubSpot - CorpusIQ Docs"
 url: /docs/claude-for-hubspot
 h1: 'Claude for HubSpot: Deep CRM Intelligence with Anthropic''s AI'
 description: Use Anthropic's Claude with HubSpot via CorpusIQ MCP. Extended context enables comprehensive pipeline analysis, multi-quarter forecasting, territory optimization, and deep win-loss intelligence.

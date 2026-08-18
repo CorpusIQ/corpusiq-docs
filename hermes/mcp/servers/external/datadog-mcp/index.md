@@ -1,5 +1,5 @@
 ---
-title: Datadog MCP Server
+title: "Datadog MCP Server - CorpusIQ Docs"
 description: Official Datadog MCP server bridging observability data — APM, logs, metrics, monitors, dashboards, and security signals — into any MCP-capable AI agent.
 category: DevOps
 stars: n/a (no public repo for the server)

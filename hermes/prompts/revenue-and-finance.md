@@ -1,5 +1,5 @@
 ---
-title: "Revenue And Finance"
+title: "Revenue And Finance - CorpusIQ Docs"
 description: "Revenue and finance prompts for Hermes agents. Query ARR, MRR, churn, cash flow, P&L, and budget vs actuals in plain English using AI connected to your"
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/revenue-and-finance/"
 robots: "index,follow"

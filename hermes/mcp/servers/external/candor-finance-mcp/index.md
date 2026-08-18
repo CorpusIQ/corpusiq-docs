@@ -1,5 +1,5 @@
 ---
-title: Candor Finance MCP
+title: "Candor Finance MCP - CorpusIQ Docs"
 description: Personal finance workspace for AI agents — accounts, budgets, goals and investments with evidence behind every number, read-only toward banks with OAuth 2.1.
 category: Finance
 stars: n/a (new listing)

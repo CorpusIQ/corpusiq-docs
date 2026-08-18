@@ -1,5 +1,5 @@
 ---
-title: AI Consensus Connector
+title: "AI Consensus Connector - CorpusIQ Docs"
 description: "Setup and usage guide for AI Consensus Connector. Part of the Hermes resource directory. URL: https://mcpservers.org/servers/thestevenjohnstone/ai-consensu."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/ai-consensus-mcp/"

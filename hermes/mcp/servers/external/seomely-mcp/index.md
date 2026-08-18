@@ -1,5 +1,5 @@
 ---
-title: "Seomely MCP - CorpusIQ Docs"
+title: "Seomely MCP - CorpusIQ Docs - CorpusIQ Docs"
 description: Google index monitoring with history over MCP — which pages are indexed, which dropped out and when, and why the rest are not, with an honesty flag on every submission recommendation.
 category: SEO
 stars: n/a (new listing)

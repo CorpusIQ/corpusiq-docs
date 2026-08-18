@@ -1,5 +1,5 @@
 ---
-title: Cost Seg Smart MCP
+title: "Cost Seg Smart MCP - CorpusIQ Docs"
 description: Price cost segregation studies and generate Stripe checkout links for US real estate. Year-1 depreciation acceleration estimates for CPAs, fractional CFOs, and investors.
 category: Finance
 stars: n/a (new listing)

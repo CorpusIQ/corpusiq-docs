@@ -1,5 +1,5 @@
 ---
-title: JaxSuite AI MCP
+title: "JaxSuite AI MCP - CorpusIQ Docs"
 description: AI-native cold outreach and CRM platform — 27 MCP tools for campaign lifecycle, content writing, contact management, and deliverability analytics
 category: Marketing / Sales
 stars: 0 (brand new)

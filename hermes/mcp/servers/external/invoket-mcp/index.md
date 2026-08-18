@@ -1,5 +1,5 @@
 ---
-title: "Invoket MCP - CorpusIQ Docs"
+title: "Invoket MCP - CorpusIQ Docs - CorpusIQ Docs"
 description: 68 pay-per-call verification endpoints — IBAN validation, sanctions screening, phone validation and EU legal data — as typed MCP tools, paid in USDC on Base with non-custodial spend caps.
 category: Finance
 stars: n/a (new listing)

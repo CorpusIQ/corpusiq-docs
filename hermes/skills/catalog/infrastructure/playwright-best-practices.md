@@ -9,7 +9,7 @@ setup: npx skills add currents-dev/playwright-best-practices-skill
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/infrastructure/playwright-best-practices/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Playwright Best Practices"
+title: "Playwright Best Practices - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

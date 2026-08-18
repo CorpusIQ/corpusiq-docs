@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ vs Viktor AI"
+title: "CorpusIQ vs Viktor AI - CorpusIQ Docs"
 description: "CorpusIQ owns the full intelligence layer  --  validation, normalization, entity resolution, anti-drift. Viktor outsources its connector layer so it cannot"
 category: "Comparison"
 tags: ["corpusiq vs viktor", "viktor alternative", "ai validation layer", "business ai accuracy", "viktor outsourced connectors", "ai business intelligence"]

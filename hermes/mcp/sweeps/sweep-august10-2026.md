@@ -1,5 +1,5 @@
 ---
-title: "MCP Sweep — August 10, 2026"
+title: "MCP Sweep — August 10, 2026 - CorpusIQ Docs"
 description: "Post-July 31 sweep. 10 days of MCP server growth on mcp.so and mcpservers.org. 5 new business-relevant servers catalogued with integration guides."
 date: 2026-08-10T12:00:00-07:00
 sources: [mcp.so, mcpservers.org, github.com]

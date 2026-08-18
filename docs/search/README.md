@@ -1,6 +1,6 @@
 ---
-title: "CorpusIQ Search"
-description: "CorpusIQ search capabilities: natural language queries, cross-source search, real-time results, date filtering, aggregation, trend analysis. Query Stripe"
+title: "Search CorpusIQ Documentation Library"
+description: "Search the full CorpusIQ documentation library: connectors, recipes, troubleshooting, and developer guides for the data trust layer."
 category: "Documentation"
 tags: ["corpusiq search", "natural language search", "cross-source queries", "business data search", "real-time queries", "trend analysis", "data aggregation"]
 last_updated: "2026-08-12"

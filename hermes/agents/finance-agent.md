@@ -1,5 +1,5 @@
 ---
-title: "Hermes Finance Agent"
+title: "Hermes Finance Agent - CorpusIQ Docs"
 description: Deploy an AI finance agent for invoice processing, expense tracking, bank reconciliation, AR aging, and financial reporting. Complete Hermes blueprint with QuickBooks and Stripe.
 category: Agents
 tags:

@@ -1,5 +1,5 @@
 ---
-title: Oracle MCP Server
+title: "Oracle MCP Server - CorpusIQ Docs"
 description: Oracle MCP integration guide — connect AI agents to Oracle Fusion Cloud via OAuth2 with 1000+ tools for Financials, Procurement, Inventory, Suppliers, Tax, and Workforce.
 source: datagrout.ai
 category: Cloud Service / ERP

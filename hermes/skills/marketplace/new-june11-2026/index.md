@@ -1,5 +1,5 @@
 ---
-title: June 11, 2026 Discoveries
+title: "June 11, 2026 Discoveries - CorpusIQ Docs"
 description: 38 new high-value skills discovered across 5 new repositories. Hermes agent ecosystem, platform integrations, and communication bots.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-june11-2026/"
 robots: "index,follow"

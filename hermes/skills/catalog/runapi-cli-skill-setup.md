@@ -1,5 +1,5 @@
 ---
-title: RunAPI CLI Skill Setup Guide
+title: "RunAPI CLI Skill Setup Guide - CorpusIQ Docs"
 description: Install and configure runapi-ai/cli-skill — unified CLI for AI image, video, music/audio, and model API jobs from Hermes Agent.
 category: media-ai
 publisher: runapi-ai

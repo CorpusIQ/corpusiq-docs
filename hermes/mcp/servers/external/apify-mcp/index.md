@@ -1,5 +1,5 @@
 ---
-title: Apify MCP Server ★★★ Official
+title: "Apify MCP Server ★★★ Official - CorpusIQ Docs"
 description: "Setup and usage guide for Apify MCP Server ★★★ Official. Part of the Hermes resource directory. Source: mcpservers.org Last updated: July 26, 2026 (evening."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/apify-mcp/"

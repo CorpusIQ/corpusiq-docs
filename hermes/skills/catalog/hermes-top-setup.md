@@ -1,5 +1,5 @@
 ---
-title: "hermes-top — Setup Guide"
+title: "hermes-top — Setup Guide - CorpusIQ Docs"
 description: "Install and run hermes-top, a live htop/btop-style terminal dashboard for Hermes Agent that reads state.db directly."
 skill_name: hermes-top
 category: Monitoring

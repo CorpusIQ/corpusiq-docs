@@ -1,5 +1,5 @@
 ---
-title: "MCP Direct Connection"
+title: "MCP Direct Connection - CorpusIQ Docs"
 description: "Connect any AI model  --  Claude, ChatGPT, Perplexity, local LLMs, or API-only models  --  to 40+ business data sources via CorpusIQ MCP. One endpoint"
 category: "Documentation"
 tags: ["mcp direct connection", "connect any llm to business data", "local llm business data", "mcp endpoint", "oauth device flow", "claude mcp", "chatgpt mcp", "ollama mcp", "openrouter mcp"]

@@ -1,6 +1,6 @@
 ---
-title: Troubleshooting Guide
-description: Common failures and fixes  --  MCP connections, OAuth tokens, cron jobs, browser automation, model routing, gateway crashes
+title: "Troubleshooting Guide - CorpusIQ Docs"
+description: "The six most common CorpusIQ problems and their fixes: connection errors, missing data, authentication failures, and assistants that cannot see your connectors."
 canonical: "https://www.corpusiq.io/docs/hermes/troubleshooting/"
 robots: "index,follow"
 last_updated: "2026-08-12"

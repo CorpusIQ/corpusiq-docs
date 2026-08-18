@@ -1,5 +1,5 @@
 ---
-title: HeartMuLa — Skill Setup Guide
+title: "HeartMuLa — Skill Setup Guide - CorpusIQ Docs"
 description: Install and configure heartmula, the Hermes Agent skill for open-source AI music generation with HeartMuLa models — Apache 2.0 licensed, Suno alternative — 224 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/heartmula-setup/"
 robots: "index,follow"

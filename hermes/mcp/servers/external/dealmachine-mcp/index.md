@@ -1,5 +1,5 @@
 ---
-title: DealMachine MCP
+title: "DealMachine MCP - CorpusIQ Docs"
 description: DealMachine MCP integration guide — connect AI agents to real estate property intelligence for sales, marketing, prospecting, enrichment, and lead generation.
 source: github.com/DealMachine/dealmachine-cli
 category: Marketing / Real Estate

@@ -1,5 +1,5 @@
 ---
-title: "Oromi Agent Services MCP"
+title: "Oromi Agent Services MCP - CorpusIQ Docs"
 server_name: "Oromi Agent Services"
 repo_url: "https://agents.oromi.co.uk"
 mcp_endpoint: "https://agents.oromi.co.uk/mcp"

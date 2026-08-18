@@ -1,5 +1,5 @@
 ---
-title: Content Operations
+title: "Content Operations - CorpusIQ Docs"
 description: Automated content production with Hermes  --  HeyGen video, Postiz publishing, social automation, community engagement
 canonical: "https://www.corpusiq.io/docs/hermes/content-ops/"
 robots: "index,follow"

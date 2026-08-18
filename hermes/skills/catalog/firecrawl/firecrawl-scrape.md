@@ -1,6 +1,6 @@
 ---
 name: firecrawl-scrape
-description: Single-page web extraction. Fast, focused page scraping for quick data retrieval. 55.2K installs.
+description: "Single-page web extraction. Fast, focused page scraping for quick data retrieval. 55.2K installs. npx skills add firecrawl/cli@firecrawl-scrape."
 triggers:
   - "firecrawl scrape"
 source: skills.sh marketplace
@@ -9,7 +9,7 @@ setup: npx skills add firecrawl/cli@firecrawl-scrape
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl/firecrawl-scrape/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Firecrawl Scrape"
+title: "Firecrawl Scrape - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

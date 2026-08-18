@@ -1,5 +1,5 @@
 ---
-title: agentiko-hermes — Setup Guide
+title: "agentiko-hermes — Setup Guide - CorpusIQ Docs"
 description: Hermes Agent features guide for the agentiko Telegram setup — cron, delegation, memory, automation, YOLO mode, dual-agent hunting, and slash commands.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/agentiko-hermes-setup/"
 robots: "index,follow"

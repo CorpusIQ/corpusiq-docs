@@ -9,7 +9,7 @@ setup: npx skills add jeffallan/claude-skills
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/infrastructure/monitoring-expert/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Monitoring Expert"
+title: "Monitoring Expert - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

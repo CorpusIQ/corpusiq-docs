@@ -1,5 +1,5 @@
 ---
-title: CorpusIQ MCP Connectors
+title: "CorpusIQ MCP Connectors - CorpusIQ Docs"
 description: Complete catalog of all available CorpusIQ MCP connectors for Hermes agents. Updated as connectors are added.
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/connectors/"
 robots: "index,follow"

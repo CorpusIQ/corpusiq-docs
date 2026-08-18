@@ -1,5 +1,5 @@
 ---
-title: LLM-OPS — Setup Guide
+title: "LLM-OPS — Setup Guide - CorpusIQ Docs"
 description: LLM Operations skill covering RAG, embeddings, vector databases, fine-tuning, prompt engineering, cost management, and production AI architectures.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/llm-ops-setup/"
 robots: "index,follow"

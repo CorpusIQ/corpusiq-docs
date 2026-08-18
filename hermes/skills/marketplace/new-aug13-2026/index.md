@@ -1,5 +1,5 @@
 ---
-title: New Skills — August 13, 2026
+title: "New Skills — August 13, 2026 - CorpusIQ Docs"
 description: "skills.sh sweep — 8 new publisher clusters, 101 skills, 253K+ installs: Extract Design System (127.3K), App Store Connect CLI (53.5K), GenMedia AI media (42.5K), Pika Plugins (20.1K), FlowKit Reddit (5.4K), HumanLayer HITL (2.7K), Fetcher social APIs (971), NuShell Pro (1.1K)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug13-2026/"
 robots: "index,follow"

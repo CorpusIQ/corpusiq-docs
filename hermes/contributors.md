@@ -1,5 +1,5 @@
 ---
-title: Ecosystem Contributors
+title: "Hermes Contributors - CorpusIQ Docs"
 description: Community contributors to the Hermes Ecosystem Directory
 last_updated: 2026-08-17
 canonical: "https://www.corpusiq.io/docs/hermes/contributors/"

@@ -1,11 +1,6 @@
 ---
-title: "CorpusIQ Reporting"
-description: "CorpusIQ reporting capabilities: instant reports, comparative analysis, trend tracking across 36 data sources. Generate P&L summaries, revenue comparisons"
-category: "Documentation"
-tags: ["corpusiq reporting", "business reports", "revenue reporting", "trend analysis", "comparative reports", "financial reporting", "kpi tracking"]
-last_updated: "2026-08-12"
-canonical: "https://www.corpusiq.io/docs/reporting"
-robots: "index,follow"
+title: "Reporting Guide - CorpusIQ Docs"
+description: "Reporting with CorpusIQ: ask revenue, ROAS, cash flow, and operational questions across connected tools and get one source-cited answer every time. No dashboards needed."
 ---
 # Reporting
 

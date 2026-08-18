@@ -5,7 +5,7 @@ description: >-
 canonical: "https://www.corpusiq.io/docs/chat-apps/commands-and-account/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Commands and your account"
+title: "Commands and your account - CorpusIQ Docs"
 tags: ["hermes agent", "ai agent", "documentation"]
 
 ---

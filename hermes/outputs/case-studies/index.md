@@ -1,6 +1,6 @@
 ---
-title: "Case Studies - CorpusIQ Docs"
-description: Real-world Hermes Agent deployment case studies across 13 industries
+title: "Case Studies - CorpusIQ Docs - CorpusIQ Docs"
+description: "Real-world Hermes Agent deployment case studies across 13 industries: what was deployed, what broke, and what the measurable outcomes were."
 last_updated: 2026-07-08
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/case-studies/"
 robots: "index,follow"

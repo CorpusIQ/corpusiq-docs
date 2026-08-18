@@ -1,5 +1,5 @@
 ---
-title: Automation Scripts
+title: "Automation Scripts - CorpusIQ Docs"
 description: Utility scripts for ecosystem discovery, agent stack installation, submission processing, and link auditing
 last_updated: 2026-07-14
 canonical: "https://www.corpusiq.io/docs/hermes/scripts/"

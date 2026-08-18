@@ -1,6 +1,6 @@
 ---
 name: airtable-automation
-description: Airtable base operations. Create, read, update Airtable records programmatically. 2.7K installs.
+description: "Airtable base operations. Create, read, update Airtable records programmatically. 2.7K installs. npx skills add claude-office-skills/skills@airtable-automa."
 triggers:
   - "airtable automation"
 source: skills.sh marketplace
@@ -9,7 +9,7 @@ setup: npx skills add claude-office-skills/skills@airtable-automation
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-office/airtable-automation/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Airtable Automation"
+title: "Airtable Automation - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

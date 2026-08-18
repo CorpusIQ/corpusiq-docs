@@ -1,5 +1,5 @@
 ---
-title: "platform Skills"
+title: "platform Skills - CorpusIQ Docs"
 description: "Hermes skills for platform integration and automation. Part of the Hermes Skills Library. integrating Agent with platform. These enable autonomous workflow."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/platform/"
 robots: "index,follow"

@@ -1,5 +1,5 @@
 ---
-title: New Skills — August 14, 2026
+title: "New Skills — August 14, 2026 - CorpusIQ Docs"
 description: "skills.sh sweep — 2 new publisher clusters with setup guides: Chrome DevTools MCP skills (chromedevtools/chrome-devtools-mcp, 8.5K installs) and Oh My Hermes suite (witt3rd/oh-my-hermes, 9 skills, ~800 installs)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug14-2026/"
 robots: "index,follow"

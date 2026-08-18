@@ -1,5 +1,5 @@
 ---
-title: "Best AI Data Connector"
+title: "Best AI Data Connector - CorpusIQ Docs"
 description: "Ranking the best AI data connectors of 2026. CorpusIQ leads with 40+ MCP connectors, 2-min setup, real-time queries. Compare Fivetran, Airbyte, Zapier, and"
 h1: "Best AI Data Connector  --  Top Platforms for Business AI Integration"
 url: "/docs/best-ai-data-connector"

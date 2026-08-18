@@ -1,5 +1,5 @@
 ---
-title: "powerpoint — Setup Guide"
+title: "powerpoint — Setup Guide - CorpusIQ Docs"
 description: "Create, read, and edit .pptx decks, slides, notes, and templates. Official Hermes skill. 393+ installs on skills.sh."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/powerpoint-setup/"
 robots: "index,follow"

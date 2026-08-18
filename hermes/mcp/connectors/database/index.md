@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ Database Connectors"
+title: "CorpusIQ Database Connectors - CorpusIQ Docs"
 description: "SQL database connectors for CorpusIQ MCP. Query PostgreSQL, MySQL, and other databases through AI agents with connection-level access control."
 category: mcp
 tags: [corpusiq, mcp-connector]

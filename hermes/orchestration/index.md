@@ -1,5 +1,5 @@
 ---
-title: Agent Orchestration
+title: "Agent Orchestration - CorpusIQ Docs"
 description: How agents are structured, coordinated, and improved. Hermes execution kernel, CrewAI multi-agent coordination, LangGraph workflows, Reflexion self-improvement.
 canonical: "https://www.corpusiq.io/docs/hermes/orchestration/"
 robots: "index,follow"

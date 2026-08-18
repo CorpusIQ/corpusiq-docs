@@ -9,7 +9,7 @@ setup: npx skills add firebase/agent-skills@firebase-auth-basics
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firebase/firebase-auth-basics/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Firebase Auth Basics"
+title: "Firebase Auth Basics - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

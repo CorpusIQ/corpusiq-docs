@@ -1,5 +1,5 @@
 ---
-title: "Executive Summary"
+title: "Executive Summary - CorpusIQ Docs"
 description: "Executive summary prompts for Hermes agents. Generate board-ready business overviews combining revenue data, KPIs, market trends, and operational metrics"
 canonical: "https://www.corpusiq.io/docs/hermes/prompts/executive-summary/"
 robots: "index,follow"

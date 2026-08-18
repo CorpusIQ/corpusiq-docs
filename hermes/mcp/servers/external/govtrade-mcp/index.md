@@ -1,5 +1,5 @@
 ---
-title: "GovTrade MCP - CorpusIQ Docs"
+title: "GovTrade MCP - CorpusIQ Docs - CorpusIQ Docs"
 description: Congressional trading disclosures over MCP — STOCK Act filings with anomaly signals and per-politician trading baselines, paid per call via x402 in USDC on Base.
 category: Finance
 stars: n/a (new listing)

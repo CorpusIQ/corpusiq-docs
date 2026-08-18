@@ -9,7 +9,7 @@ setup: npx skills add googleworkspace/cli@gws-workflow-email-to-task
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/google-workspace/gws-workflow-email-to-task/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Gws Workflow Email To Task"
+title: "Gws Workflow Email To Task - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

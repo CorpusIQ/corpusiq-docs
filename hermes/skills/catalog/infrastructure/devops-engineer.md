@@ -1,6 +1,6 @@
 ---
 name: devops-engineer
-description: DevOps patterns for agent systems. CI/CD, infrastructure as code, monitoring setup. 6K installs.
+description: "DevOps patterns for agent systems: CI/CD, infrastructure as code, monitoring, and deployment automation that keep agent pipelines stable and observable."
 triggers:
   - "devops engineer"
 source: skills.sh marketplace
@@ -9,7 +9,7 @@ setup: npx skills add jeffallan/claude-skills
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/infrastructure/devops-engineer/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Devops Engineer"
+title: "Devops Engineer - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ Security"
+title: "Security - CorpusIQ Docs - CorpusIQ"
 description: "CorpusIQ security documentation: CASA Tier 2, SOC 2 aligned controls, AES-256, TLS 1.3, read-only external-source retrieval, and scoped data handling"
 category: "Documentation"
 tags: ["corpusiq security", "soc 2", "casa tier 2", "data privacy", "encryption", "oauth security", "gdpr compliance", "ai security"]

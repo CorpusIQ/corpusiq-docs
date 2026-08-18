@@ -1,5 +1,5 @@
 ---
-title: "MCP Sweep — August 12, 2026"
+title: "MCP Sweep — August 12, 2026 - CorpusIQ Docs"
 description: "Sweep following Aug 11 evening sweep. 6 new business-relevant MCP servers discovered — video production, organizational knowledge, agent commerce, payments"
 date: 2026-08-12
 sources: [mcp.so, mcpservers.org]

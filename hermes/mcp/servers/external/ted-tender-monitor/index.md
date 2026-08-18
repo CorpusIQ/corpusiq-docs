@@ -1,5 +1,5 @@
 ---
-title: TED Tender Monitor
+title: "TED Tender Monitor - CorpusIQ Docs"
 description: EU TED procurement monitoring for AI agents — search and track tender notices by CPV code, country, keyword, value, and type via Apify
 category: Sales
 stars: n/a (new listing)

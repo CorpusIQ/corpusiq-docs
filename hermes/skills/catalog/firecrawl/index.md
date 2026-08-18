@@ -1,5 +1,5 @@
 ---
-title: "firecrawl Skills"
+title: "firecrawl Skills - CorpusIQ Docs"
 description: "Hermes skills for firecrawl integration and automation. Part of the Hermes Skills Library. integrating Agent with firecrawl. These enable autonomous workfl."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/firecrawl/"
 robots: "index,follow"

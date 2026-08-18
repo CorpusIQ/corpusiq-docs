@@ -1,6 +1,6 @@
 ---
 name: pdf-extraction
-description: Extract and parse PDF content. Pull text, tables, and data from PDF documents. 5.8K installs.
+description: "Extract and parse PDF content. Pull text, tables, and data from PDF documents. 5.8K installs. npx skills add claude-office-skills/skills@pdf-extraction."
 triggers:
   - "pdf extraction"
 source: skills.sh marketplace

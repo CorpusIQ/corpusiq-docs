@@ -1,5 +1,5 @@
 ---
-title: Skills Gallery Setup Guide
+title: "Skills Gallery Setup Guide - CorpusIQ Docs"
 description: Install and configure the Skills Gallery — 1,672+ AI agent skills across 49 categories, compatible with Hermes Agent and 60+ other tools. One command, every skill.
 skill_name: skills-gallery
 repo: uthumany/Skills-Gallery

@@ -1,5 +1,5 @@
 ---
-title: IBANforge MCP Server
+title: "IBANforge MCP Server - CorpusIQ Docs"
 description: IBAN validation, BIC/SWIFT lookup, Swiss clearing, and EMI/vIBAN classification via MCP for AI agents
 category: Finance
 rating: ★★

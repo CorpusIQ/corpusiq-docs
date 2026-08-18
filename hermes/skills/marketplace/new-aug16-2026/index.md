@@ -1,5 +1,5 @@
 ---
-title: "New Skills — August 16, 2026"
+title: "New Skills — August 16, 2026 - CorpusIQ Docs"
 description: "skills.sh sweep: Vercel AI SDK (51.1K, 3), Cursor Plugins (72.0K, 79), Angular Skills (40.1K, 2), Inngest Skills (19.3K, 14), OXC Project (9.9K, 4), Alibaba Open Code Review (4.3K, 2) — 6 publisher clusters, 104 skills, 6 setup guides."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug16-2026/"
 robots: "index,follow"

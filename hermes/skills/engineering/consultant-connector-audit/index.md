@@ -1,5 +1,5 @@
 ---
-title: consultant-connector-audit
+title: "consultant-connector-audit - CorpusIQ Docs"
 description: Full-stack audit pass that MUST run before shipping any fix on a connector authored by a non-core contributor. Replaces the fix-forward-on-symptom anti-pattern with one inventory + one PR. The single highest-leverage skill for any team running a multi-connector substrate.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/consultant-connector-audit/"
 robots: "index,follow"

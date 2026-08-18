@@ -1,5 +1,5 @@
 ---
-title: Ravenpost MCP
+title: "Ravenpost MCP - CorpusIQ Docs - CorpusIQ"
 description: Multi-platform social publishing over MCP — schedule and publish to Instagram, TikTok, X, LinkedIn, Facebook, Telegram, Threads, Bluesky and YouTube with network-accurate previews before anything goes live.
 category: Marketing
 stars: n/a (new listing)

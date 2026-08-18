@@ -5,7 +5,7 @@ description: >-
 canonical: "https://www.corpusiq.io/docs/chat-apps/troubleshooting/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Troubleshooting"
+title: "Troubleshooting - CorpusIQ Docs"
 tags: ["hermes agent", "ai agent", "documentation"]
 
 ---

@@ -1,5 +1,5 @@
 ---
-title: "communication Skills"
+title: "communication Skills - CorpusIQ Docs"
 description: "Hermes skills for communication integration and automation. Part of the Hermes Skills Library. integrating Agent with communication. These enable autonomou."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/communication/"
 robots: "index,follow"

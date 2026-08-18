@@ -1,5 +1,5 @@
 ---
-title: FlowyTeam OKR MCP
+title: "FlowyTeam OKR MCP - CorpusIQ Docs"
 description: Native OKR MCP server — connect Claude, ChatGPT, or n8n to objectives, key results, and tasks; post check-ins and move KR progress
 category: Productivity
 stars: n/a (new)

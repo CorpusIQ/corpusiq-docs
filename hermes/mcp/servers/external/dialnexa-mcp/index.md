@@ -1,5 +1,5 @@
 ---
-title: "DialNexa MCP - CorpusIQ Docs"
+title: "DialNexa MCP - CorpusIQ Docs - CorpusIQ Docs"
 description: Voice AI agent platform over MCP — create and manage voice agents, place outbound calls, run campaigns, and read metrics with OAuth 2.1
 category: Communication
 stars: n/a (new listing)

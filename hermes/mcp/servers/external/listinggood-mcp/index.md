@@ -1,5 +1,5 @@
 ---
-title: ListingGood MCP
+title: "ListingGood MCP - CorpusIQ Docs"
 description: Amazon AI Recommendation Engine — AI-readiness and compliance checks, A9-tuned listing writing for US, UK, EU and JP, and POA suspension rescue over MCP.
 category: E-Commerce
 stars: n/a (new listing)

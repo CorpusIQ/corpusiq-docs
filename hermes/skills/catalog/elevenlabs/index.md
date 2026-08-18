@@ -1,5 +1,5 @@
 ---
-title: "elevenlabs Skills"
+title: "elevenlabs Skills - CorpusIQ Docs"
 description: "Hermes skills for elevenlabs integration and automation. Part of the Hermes Skills Library. integrating Agent with elevenlabs. These enable autonomous work."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/elevenlabs/"
 robots: "index,follow"

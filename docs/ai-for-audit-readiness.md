@@ -1,5 +1,5 @@
 ---
-title: "AI for Audit Readiness"
+title: "AI for Audit Readiness - CorpusIQ Docs"
 description: Transform audit preparation with AI. Query financial records, policies, and controls across systems in natural language. Instant evidence gathering, continuous readiness, and automated
   control testing.
 url: /docs/ai-for-audit-readiness

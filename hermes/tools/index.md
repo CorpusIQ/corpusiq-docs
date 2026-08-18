@@ -1,5 +1,5 @@
 ---
-title: Hermes Tools & SDK Reference
+title: "Hermes Tools & SDK Reference - CorpusIQ Docs"
 description: Complete directory of 140+ tools and SDKs compatible with Hermes Agent  --  browsers, search, code execution, media, deployment, and more.
 canonical: "https://www.corpusiq.io/docs/hermes/tools/"
 robots: "index,follow"

@@ -1,5 +1,5 @@
 ---
-title: MCP Billing Gateway
+title: "MCP Billing Gateway - CorpusIQ Docs"
 description: "Setup and usage guide for MCP Billing Gateway. Part of the Hermes resource directory. Source: mcp.so submission #3281 (July 23, 2026) GitHub: sapph1re/mcp-."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/mcp-billing-gateway/"

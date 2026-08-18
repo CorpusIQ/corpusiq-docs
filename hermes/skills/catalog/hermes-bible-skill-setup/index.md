@@ -1,5 +1,5 @@
 ---
-title: Hermes Bible Skill Setup
+title: "Hermes Bible Skill Setup - CorpusIQ Docs"
 description: Install and configure the Hermes Bible community knowledge base  --  169 pages of unofficial docs, 25+ real-world flows, SOUL.md patterns, and intent-based routing
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-bible-skill-setup/"
 robots: "index,follow"

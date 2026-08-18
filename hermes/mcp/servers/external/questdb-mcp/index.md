@@ -1,5 +1,5 @@
 ---
-title: QuestDB MCP Server
+title: "QuestDB MCP Server - CorpusIQ Docs"
 description: Official QuestDB MCP — connects coding agents to a running QuestDB Web Console with tools for notebook cells, queries, and charts
 category: Database
 stars: n/a (official, new)

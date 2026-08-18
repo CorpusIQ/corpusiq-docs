@@ -1,5 +1,5 @@
 ---
-title: llm-wiki — Setup Guide
+title: "llm-wiki — Setup Guide - CorpusIQ Docs"
 description: Generate wiki-style documentation from any codebase or knowledge source using LLMs — 369 installs from nousresearch/hermes-agent.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/llm-wiki-setup/"
 robots: "index,follow"

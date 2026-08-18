@@ -1,5 +1,5 @@
 ---
-title: Multi-Model Routing
+title: "Multi-Model Routing - CorpusIQ Docs"
 description: "Intelligent model routing for Hermes agents — cost optimization, task classification, and provider fallback chains."
 canonical: "https://www.corpusiq.io/docs/hermes/infrastructure/routing/"
 robots: "index,follow"

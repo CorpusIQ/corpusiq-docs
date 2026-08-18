@@ -1,5 +1,5 @@
 ---
-title: easydocforms MCP
+title: "easydocforms MCP - CorpusIQ Docs"
 description: Healthcare intake forms over MCP — the agent hands patients a hosted fill link and retrieves completed PDFs without PHI ever entering agent context
 category: Document Intelligence
 stars: n/a (new listing)

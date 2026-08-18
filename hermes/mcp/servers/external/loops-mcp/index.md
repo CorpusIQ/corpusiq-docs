@@ -1,5 +1,5 @@
 ---
-title: Loops MCP Server
+title: "Loops MCP Server - CorpusIQ Docs"
 description: Official Loops MCP for AI agents — manage contacts, mailing lists, campaigns, transactional email, and account data, paired with a CLI and agent skills.
 category: Marketing
 stars: n/a (new listing)

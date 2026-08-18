@@ -1,5 +1,5 @@
 ---
-title: Prose Coach MCP
+title: "Prose Coach MCP - CorpusIQ Docs"
 description: Deterministic AI-writing filter for MCP agents — flags 43 AI-writing patterns with quoted evidence and fixes before content ships
 category: Content
 stars: 0 (brand new)

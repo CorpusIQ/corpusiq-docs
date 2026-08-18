@@ -1,5 +1,5 @@
 ---
-title: "Fintel — Financial MCP Server"
+title: "Fintel — Financial MCP Server - CorpusIQ Docs"
 description: "Hosted MCP server for financial data. Connect AI agents to real-time and historical market data through a single endpoint."
 source: mcp.fintel.io
 stars: 0

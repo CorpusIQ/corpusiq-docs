@@ -1,5 +1,5 @@
 ---
-title: AgenticRail Gate MCP
+title: "AgenticRail Gate MCP - CorpusIQ Docs"
 description: Deterministic step-order enforcement for AI agents — ALLOW or DENY before every step, with Ed25519-signed, hash-chained compliance receipts
 category: Compliance
 stars: n/a (no public repo)

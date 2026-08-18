@@ -1,5 +1,5 @@
 ---
-title: "AI for KPI Monitoring"
+title: "AI for KPI Monitoring - CorpusIQ Docs"
 description: Transform KPI monitoring with AI. Track key performance indicators across all business systems in real time. Automated alerts, trend detection, and cross-source metric validation.
 url: /docs/ai-for-kpi-monitoring
 h1: 'AI for KPI Monitoring: Real-Time Metrics at Your Fingertips'

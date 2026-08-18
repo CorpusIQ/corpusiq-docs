@@ -1,5 +1,5 @@
 ---
-title: byakugan MCP Server
+title: "byakugan MCP Server - CorpusIQ Docs"
 description: "Setup and usage guide for byakugan MCP Server. Part of the Hermes resource directory. URL: https://github.com/JayOfemi/byakugan."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/byakugan/"

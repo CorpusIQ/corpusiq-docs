@@ -1,5 +1,5 @@
 ---
-title: "Connect SharePoint to Claude"
+title: "Connect SharePoint to Claude - CorpusIQ Docs"
 description: Connect SharePoint to Claude using CorpusIQ's MCP platform. Search documents, libraries, and enterprise content in natural language. Read-only OAuth, Microsoft 365 integration, enterprise-grade
   security.
 url: /docs/connect-sharepoint-to-claude

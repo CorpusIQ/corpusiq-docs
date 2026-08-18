@@ -1,5 +1,5 @@
 ---
-title: FT Optix MCP Server
+title: "FT Optix MCP Server - CorpusIQ Docs"
 subtitle: Industrial automation connectivity — FT Optix Studio to LLMs
 source: mcp.so
 github: https://github.com/asqi-carter/ft-optix-mcp

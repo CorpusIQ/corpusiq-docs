@@ -1,5 +1,5 @@
 ---
-title: Development Skills
+title: "Development Skills - CorpusIQ Docs"
 description: Software development workflows for Hermes agents  --  GitHub PRs, code review, CI/CD, testing, codebase inspection, and project management. 10+ production skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/development/"
 robots: "index,follow"

@@ -1,5 +1,5 @@
 ---
-title: Linkonda MCP
+title: "Linkonda MCP - CorpusIQ Docs - CorpusIQ"
 description: Privacy-first short links over MCP — shorten, list, update and delete links with total redirect counts only, no visitor tracking data ever collected.
 category: Marketing
 stars: n/a (new listing)

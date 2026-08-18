@@ -1,5 +1,5 @@
 ---
-title: "Connect Slack to Claude"
+title: "Connect Slack to Claude - CorpusIQ Docs"
 description: Connect Slack to Claude using CorpusIQ's MCP platform. Search messages, analyze channels, and surface knowledge from team conversations in natural language. Read-only OAuth, enterprise-grade
   security.
 url: /docs/connect-slack-to-claude

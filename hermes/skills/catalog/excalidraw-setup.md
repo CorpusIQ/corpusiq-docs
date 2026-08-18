@@ -1,5 +1,5 @@
 ---
-title: excalidraw — Setup Guide
+title: "excalidraw — Setup Guide - CorpusIQ Docs"
 description: Generate Excalidraw diagrams, sketches, and wireframes from text descriptions — visual thinking for Hermes agents.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/excalidraw-setup/"
 robots: "index,follow"

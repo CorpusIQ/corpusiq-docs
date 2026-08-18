@@ -1,6 +1,6 @@
 ---
 title: "MCP Server Scan Results — 2026-06-28 (Afternoon)"
-description: "Automated MCP server discovery scan results for 2026-06-28 (Afternoon)."
+description: "Automated MCP server discovery scan results for 2026-06-28 (Afternoon). Extracted from mcp.so/feed page."
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/scan-results-2026-06-28-afternoon/"
 robots: "index,follow"
 last_updated: "2026-08-12"

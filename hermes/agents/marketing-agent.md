@@ -1,5 +1,5 @@
 ---
-title: "Hermes Marketing Agent"
+title: "Hermes Marketing Agent - CorpusIQ Docs"
 description: Deploy an AI marketing agent for SEO monitoring, campaign analytics, content performance, competitive intelligence, and social scheduling. Complete Hermes blueprint with cron and connectors.
 category: Agents
 tags:

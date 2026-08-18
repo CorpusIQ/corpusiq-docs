@@ -1,5 +1,5 @@
 ---
-title: "langgraph Skills"
+title: "langgraph Skills - CorpusIQ Docs"
 description: "Hermes skills for langgraph integration and automation. Part of the Hermes Skills Library. integrating Agent with langgraph. These enable autonomous workfl."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/langgraph/"
 robots: "index,follow"

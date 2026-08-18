@@ -1,5 +1,5 @@
 ---
-title: "Connect Notion to Claude"
+title: "Connect Notion to Claude - CorpusIQ Docs"
 description: Connect Notion to Claude using CorpusIQ's MCP platform. Search pages, query databases, and surface institutional knowledge in natural language. Read-only integration, no-code setup.
 url: /docs/connect-notion-to-claude
 h1: 'Connect Notion to Claude: Your Wiki as an AI Knowledge Base'

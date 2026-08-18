@@ -6,7 +6,7 @@ description: >-
 canonical: "https://www.corpusiq.io/docs/chat-apps/what-it-is/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "What the chat app is"
+title: "What the chat app is - CorpusIQ Docs"
 tags: ["hermes agent", "ai agent", "documentation"]
 
 ---

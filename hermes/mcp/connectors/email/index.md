@@ -1,5 +1,5 @@
 ---
-title: "CorpusIQ Email Connectors"
+title: "CorpusIQ Email Connectors - CorpusIQ Docs"
 description: "Gmail and Outlook email connectors for CorpusIQ MCP. Read, search, send, and manage email through AI agents with OAuth authentication."
 category: mcp
 tags: [corpusiq, mcp-connector]

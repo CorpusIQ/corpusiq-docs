@@ -1,5 +1,5 @@
 ---
-title: Viral Outliers MCP
+title: "Viral Outliers MCP - CorpusIQ Docs"
 description: Search a continuously-crawled database of viral social media outliers, pull creator stats, generate transcripts, and crawl TikTok, Instagram or YouTube profiles on demand.
 category: Content
 stars: n/a (new listing)

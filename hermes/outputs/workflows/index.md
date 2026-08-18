@@ -1,5 +1,5 @@
 ---
-title: Output Workflows
+title: "Output Workflows - CorpusIQ Docs"
 description: "Reusable workflow templates for Hermes Agent outputs — report generation, data pipelines, and multi-step automation patterns."
 last_updated: 2026-07-08
 canonical: "https://www.corpusiq.io/docs/hermes/outputs/workflows/"

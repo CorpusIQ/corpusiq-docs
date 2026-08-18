@@ -1,5 +1,5 @@
 ---
-title: "Hermes Skills - CorpusIQ Docs"
+title: "Hermes Skills - CorpusIQ Docs - CorpusIQ Docs"
 description: 445+ skills for Hermes agents  --  90 native CorpusIQ skills, 350+ marketplace skills from skills.sh. Reusable, executable agent capabilities.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/"
 robots: "index,follow"

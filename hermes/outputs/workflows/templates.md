@@ -1,5 +1,5 @@
 ---
-title: "Hermes Cron Templates"
+title: "Hermes Cron Templates - CorpusIQ Docs"
 description: "Ready-to-deploy cron templates for Hermes Agent: email triage, report generation, data sync, anomaly detection, SLA monitoring, and more. Copy, adapt"
 category: Outputs
 tags:

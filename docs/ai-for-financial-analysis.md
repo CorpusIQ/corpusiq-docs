@@ -1,5 +1,5 @@
 ---
-title: "AI for Financial Analysis"
+title: "AI for Financial Analysis - CorpusIQ Docs"
 description: Transform financial analysis with AI. Query QuickBooks, Stripe, and NetSuite in natural language. Instant P&L, cash flow, and variance analysis on a read-only, SOC 2 aligned MCP platform.
 url: /docs/ai-for-financial-analysis
 h1: 'AI for Financial Analysis: Real-Time Finance Intelligence'

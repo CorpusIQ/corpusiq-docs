@@ -1,5 +1,5 @@
 ---
-title: "Alison AI MCP - CorpusIQ Docs"
+title: "Alison AI MCP - CorpusIQ Docs - CorpusIQ Docs"
 description: Read creative-performance analytics from your ad accounts — spend, KPIs, creative tags, and competitor intelligence — inside any MCP client
 category: Marketing
 stars: n/a (new listing)

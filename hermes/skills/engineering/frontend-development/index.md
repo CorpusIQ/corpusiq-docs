@@ -1,5 +1,5 @@
 ---
-title: frontend-development
+title: "frontend-development - CorpusIQ Docs"
 description: Pattern for a Next.js + Tailwind frontend that serves BOTH a public marketing site and an authenticated customer dashboard from the same repo. Vercel auto-deploy, the canonical-constant rule for shared values, npm build's public/ writeback gotcha, and the deploy-verification boundary.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/engineering/frontend-development/"
 robots: "index,follow"

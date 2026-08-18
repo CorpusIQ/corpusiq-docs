@@ -1,6 +1,6 @@
 ---
 name: expo-deployment
-description: React Native deployment via Expo. Build and deploy mobile apps with Expo. 33.6K installs.
+description: "React Native deployment via Expo: build, configure, and ship mobile apps with EAS builds, environment profiles, and automated release flows for agent workflows."
 triggers:
   - "expo deployment"
 source: skills.sh marketplace
@@ -9,7 +9,7 @@ setup: npx skills add expo/skills
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/platform/expo-deployment/"
 robots: "index,follow"
 last_updated: "2026-08-12"
-title: "Expo Deployment"
+title: "Expo Deployment - CorpusIQ Docs"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
