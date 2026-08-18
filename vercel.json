@@ -2521,6 +2521,191 @@
       "source": "/indexnow-submission-urls.txt",
       "destination": "/recipes/indexnow-submission-urls.txt",
       "statusCode": 301
+    },
+    {
+      "source": "/docs/04-first-connector",
+      "destination": "/docs/quickstart/04-first-connector/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/05-first-prompt",
+      "destination": "/docs/quickstart/05-first-prompt/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/06-first-cross-source-query",
+      "destination": "/docs/quickstart/06-first-cross-source-query/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/ahrefs",
+      "destination": "/docs/connectors/ahrefs/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/ai-mcp-server-for-business-data",
+      "destination": "/docs/connectors/ai-mcp-server-for-business-data/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/airtable",
+      "destination": "/docs/connectors/airtable/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/amazon_seller",
+      "destination": "/docs/connectors/amazon_seller/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/authentication",
+      "destination": "/docs/api/authentication/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/calendly",
+      "destination": "/docs/connectors/calendly/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/chatgpt-business-data-connector",
+      "destination": "/docs/connectors/chatgpt-business-data-connector/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/close",
+      "destination": "/docs/connectors/close/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/connect-airtable-to-claude",
+      "destination": "/docs/connectors/connect-airtable-to-claude/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/connect-google-ads-to-claude",
+      "destination": "/docs/connectors/connect-google-ads-to-claude/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/connect-klaviyo-to-chatgpt",
+      "destination": "/docs/connectors/connect-klaviyo-to-chatgpt/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/connect-klaviyo-to-claude",
+      "destination": "/docs/connectors/connect-klaviyo-to-claude/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/connect-linkedin-ads-to-claude",
+      "destination": "/docs/connectors/connect-linkedin-ads-to-claude/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/connect-meta-ads-to-claude",
+      "destination": "/docs/connectors/connect-meta-ads-to-claude/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/cosmosdb",
+      "destination": "/docs/connectors/cosmosdb/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/ebay",
+      "destination": "/docs/connectors/ebay/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/gohighlevel",
+      "destination": "/docs/connectors/gohighlevel/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/gunbroker",
+      "destination": "/docs/connectors/gunbroker/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/imap",
+      "destination": "/docs/connectors/imap/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/linkedin-ads",
+      "destination": "/docs/connectors/linkedin-ads/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/mailchimp",
+      "destination": "/docs/connectors/mailchimp/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/mcp-server-shopify-quickbooks",
+      "destination": "/docs/connectors/mcp-server-shopify-quickbooks/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/notion",
+      "destination": "/docs/connectors/notion/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/onedrive",
+      "destination": "/docs/connectors/onedrive/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/openapi",
+      "destination": "/docs/api/openapi/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/overview",
+      "destination": "/docs/api/overview/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/perplexity-business-data-mcp",
+      "destination": "/docs/connectors/perplexity-business-data-mcp/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/postscript",
+      "destination": "/docs/connectors/postscript/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/rate-limits",
+      "destination": "/docs/api/rate-limits/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/schemas",
+      "destination": "/docs/api/schemas/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/semrush",
+      "destination": "/docs/connectors/semrush/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/TEMPLATE",
+      "destination": "/docs/recipes/TEMPLATE/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/webhooks",
+      "destination": "/docs/api/webhooks/",
+      "statusCode": 301
+    },
+    {
+      "source": "/docs/windsor-ai-alternative",
+      "destination": "/docs/connectors/windsor-ai-alternative/",
+      "statusCode": 301
     }
   ],
   "outputDirectory": "."
