@@ -14,7 +14,7 @@
 - [What Is an MCP Server? How the Model Context Protocol Powers AI Data Access](https://www.corpusiq.io/docs/what-is-an-mcp-server/): Learn what an MCP server is and how Anthropic's Model Context Protocol powers AI-to-business-data connections. Discover real-time natural language que
 - [Benefits of MCP for Business: 9 Reasons to Connect Your Data to AI](https://www.corpusiq.io/docs/benefits-of-mcp-for-business/): Discover the 9 key benefits of MCP servers for business: real-time data access, read-only security defaults, AI-native simplicity, source-cited answer
 - [Architecture](https://www.corpusiq.io/docs/architecture/): Complete CorpusIQ system architecture: MCP endpoint, OAuth 2.0 authentication layer, 36+ connector adapters, data flow from AI agent to business sourc
-- [Onboarding Guide](https://www.corpusiq.io/docs/onboarding/): Complete CorpusIQ onboarding guide for new users. Step-by-step AI chat setup (5 min) and AI agent MCP configuration (10 min). Connect Stripe, Shopify
+- [Onboarding Guide](https://www.corpusiq.io/docs/onboarding/): First time using CorpusIQ? This guide walks through account setup, connecting your first business tools, and asking your first cross-source question i
 - [CorpusIQ API Reference](https://www.corpusiq.io/docs/api/): Complete CorpusIQ API reference: authentication, endpoints, rate limits, error codes, OpenAPI spec, schemas, and webhooks. Everything you need to inte
 
 ## Market Pages
@@ -40,66 +40,66 @@
 - [CorpusIQ vs Viktor AI: Who Actually Controls the Data?](https://www.corpusiq.io/docs/corpusiq-vs-viktor/): CorpusIQ owns the full intelligence layer  --  validation, normalization, entity resolution, anti-drift. Viktor outsources its connector layer so it c
 
 ## Connectors
-- [Connectors](https://www.corpusiq.io/docs/connectors/): 
-- [ActiveCampaign](https://www.corpusiq.io/docs/connectors/activecampaign/): 
+- [Connectors](https://www.corpusiq.io/docs/connectors/): CorpusIQ connects 40+ business tools to ChatGPT, Claude, and Perplexity with read-only OAuth. Browse every connector: Shopify, QuickBooks, Stripe, GA4
+- [ActiveCampaign](https://www.corpusiq.io/docs/connectors/activecampaign/): ActiveCampaign holds your email contacts, automations, and pipeline deals — the moment-by-moment record of how prospects move from a first open to a c
 - [Adzviser Alternative: CorpusIQ for Business AI Data](https://www.corpusiq.io/docs/connectors/adzviser-alternative/): 
-- [Ahrefs](https://www.corpusiq.io/docs/connectors/ahrefs/): 
+- [Ahrefs](https://www.corpusiq.io/docs/connectors/ahrefs/): Ahrefs is one of the most trusted platforms for backlink analysis and domain authority scoring. Connecting it lets CorpusIQ pull domain ratings, organ
 - [The Best MCP Server for Business Data (2026)](https://www.corpusiq.io/docs/connectors/ai-mcp-server-for-business-data/): 
-- [Airtable](https://www.corpusiq.io/docs/connectors/airtable/): 
-- [Amazon Seller](https://www.corpusiq.io/docs/connectors/amazon_seller/): 
-- [Calendly](https://www.corpusiq.io/docs/connectors/calendly/): 
+- [Airtable](https://www.corpusiq.io/docs/connectors/airtable/): Airtable holds operating data that never makes it into your BI tools. Connect it read-only and ask questions across Airtable and your other systems wi
+- [Amazon Seller](https://www.corpusiq.io/docs/connectors/amazon_seller/): If you sell on Amazon, your real revenue picture is split across Shopify (your own store) and Seller Central (the marketplace). Connecting Amazon Sell
+- [Calendly](https://www.corpusiq.io/docs/connectors/calendly/): Your calendar tells one story; your booking link tells another. Calendly knows which prospects actually booked, who showed up, who canceled, and what.
 - [How to Connect ChatGPT to Your Business Data (2026 Guide)](https://www.corpusiq.io/docs/connectors/chatgpt-business-data-connector/): 
-- [Close](https://www.corpusiq.io/docs/connectors/close/): 
+- [Close](https://www.corpusiq.io/docs/connectors/close/): Close is where your outbound sales motion lives — leads, opportunities, and the calls and emails that move them forward. Connecting it lets CorpusIQ p
 - [Connect Airtable to Claude (Ask Your Databases in Plain English)](https://www.corpusiq.io/docs/connectors/connect-airtable-to-claude/): 
-- [How to Connect GA4 to Claude (Ask Your Website Traffic in Plain English)](https://www.corpusiq.io/docs/connectors/connect-ga4-to-claude/): 
+- [How to Connect GA4 to Claude (Ask Website Traffic in Plain English)](https://www.corpusiq.io/docs/connectors/connect-ga4-to-claude/): 
 - [How to Connect Google Ads to Claude (Real ROAS, Real Answers)](https://www.corpusiq.io/docs/connectors/connect-google-ads-to-claude/): 
 - [How to Connect HubSpot to Claude (Ask Your CRM in Plain English)](https://www.corpusiq.io/docs/connectors/connect-hubspot-to-claude/): 
 - [Connect Klaviyo to ChatGPT (Live Email Data, No Exports)](https://www.corpusiq.io/docs/connectors/connect-klaviyo-to-chatgpt/): 
 - [How to Connect Klaviyo to Claude (Ask Your Email Data Directly)](https://www.corpusiq.io/docs/connectors/connect-klaviyo-to-claude/): 
-- [How to Connect LinkedIn Ads to Claude (Ask Your Campaign Data in Plain English)](https://www.corpusiq.io/docs/connectors/connect-linkedin-ads-to-claude/): 
+- [How to Connect LinkedIn Ads to Claude (Ask Campaign Data in English)](https://www.corpusiq.io/docs/connectors/connect-linkedin-ads-to-claude/): 
 - [Connect Meta Ads (Facebook + Instagram) to Claude](https://www.corpusiq.io/docs/connectors/connect-meta-ads-to-claude/): 
 - [How to Connect QuickBooks to Claude (Ask Your Books in Plain English)](https://www.corpusiq.io/docs/connectors/connect-quickbooks-to-claude/): 
 - [How to Connect Shopify to Claude (Live Data, No CSV Exports)](https://www.corpusiq.io/docs/connectors/connect-shopify-to-claude/): 
 - [Connect Slack to Claude (Search and Analyze Your Workspace)](https://www.corpusiq.io/docs/connectors/connect-slack-to-claude/): 
 - [Connect Stripe to Claude (Ask Your Payments in Plain English)](https://www.corpusiq.io/docs/connectors/connect-stripe-to-claude/): 
-- [Constant Contact](https://www.corpusiq.io/docs/connectors/constantcontact/): 
-- [Azure Cosmos DB](https://www.corpusiq.io/docs/connectors/cosmosdb/): 
-- [Dropbox](https://www.corpusiq.io/docs/connectors/dropbox/): 
-- [eBay](https://www.corpusiq.io/docs/connectors/ebay/): 
+- [Constant Contact](https://www.corpusiq.io/docs/connectors/constantcontact/): If Constant Contact is where your email lives, this connector pulls campaign performance and contact lists into the same view as your Shopify revenue.
+- [Azure Cosmos DB](https://www.corpusiq.io/docs/connectors/cosmosdb/): Cosmos DB is often where the unglamorous-but-critical data lives: event logs, telemetry, user activity, IoT readings. Connecting it lets CorpusIQ run.
+- [Dropbox](https://www.corpusiq.io/docs/connectors/dropbox/): A lot of operating context — contracts, past board updates, vendor invoices, design files — lives in Dropbox folders. Connecting Dropbox lets CorpusIQ
+- [eBay](https://www.corpusiq.io/docs/connectors/ebay/): For eBay sellers, the financial truth sits inside Seller Hub — orders, transactions, fees, seller standards, traffic. Connecting eBay lets CorpusIQ fo
 - [Meta Ads (Facebook & Instagram)](https://www.corpusiq.io/docs/connectors/facebook_marketing/): 
-- [GA4 — Google Analytics 4](https://www.corpusiq.io/docs/connectors/ga4/): 
-- [GoHighLevel (LeadConnector)](https://www.corpusiq.io/docs/connectors/gohighlevel/): 
+- [GA4 — Google Analytics 4](https://www.corpusiq.io/docs/connectors/ga4/): Connect GA4 to CorpusIQ and ask plain-English questions about your website traffic, conversions, acquisition sources, and revenue — without leaving Cl
+- [GoHighLevel (LeadConnector)](https://www.corpusiq.io/docs/connectors/gohighlevel/): If you run an agency or service business on GoHighLevel, this is where contacts, pipelines, appointments, and payments all converge. Connecting it let
 - [Google Ads for agencies: one manager account, one connection](https://www.corpusiq.io/docs/connectors/google-ads-for-agencies/): Set up one Google Ads Manager Account and one agency-controlled Google identity so CorpusIQ can report across linked client accounts.
-- [Google Ads](https://www.corpusiq.io/docs/connectors/google_ads/): 
+- [Google Ads](https://www.corpusiq.io/docs/connectors/google_ads/): Google Ads is often the single largest acquisition channel, and the platform's reported conversions rarely match what GA4 or your CRM actually see. Co
 - [Google Workspace (Gmail, Calendar, Drive, Docs, Sheets)](https://www.corpusiq.io/docs/connectors/google_workspace/): 
-- [GunBroker](https://www.corpusiq.io/docs/connectors/gunbroker/): 
-- [HubSpot](https://www.corpusiq.io/docs/connectors/hubspot/): 
-- [IMAP Email](https://www.corpusiq.io/docs/connectors/imap/): 
-- [IndexNow](https://www.corpusiq.io/docs/connectors/indexnow/): 
-- [Klaviyo](https://www.corpusiq.io/docs/connectors/klaviyo/): 
-- [LinkedIn Ads](https://www.corpusiq.io/docs/connectors/linkedin-ads/): 
-- [Mailchimp](https://www.corpusiq.io/docs/connectors/mailchimp/): 
+- [GunBroker](https://www.corpusiq.io/docs/connectors/gunbroker/): GunBroker is the primary marketplace for firearms sellers, and its data — active listings, watchers, sold revenue, fraud claims — lives nowhere else..
+- [HubSpot](https://www.corpusiq.io/docs/connectors/hubspot/): HubSpot is where your sales pipeline, customer relationships, and deal history live. Connecting it lets CorpusIQ answer \"how is my pipeline doing?\" 
+- [IMAP Email](https://www.corpusiq.io/docs/connectors/imap/): Not every mailbox is Gmail or Outlook. If you run email on Fastmail, ProtonMail Bridge, your own domain, or a hosted IMAP provider, this connector let
+- [IndexNow](https://www.corpusiq.io/docs/connectors/indexnow/): Automatically notify Bing, Yandex, Seznam, and other engines when you publish content. The IndexNow connector keeps search engines in sync with your s
+- [Klaviyo](https://www.corpusiq.io/docs/connectors/klaviyo/): For ecommerce brands, Klaviyo is where email and SMS revenue actually gets attributed. Connecting it lets CorpusIQ pull campaign performance, flow rev
+- [LinkedIn Ads](https://www.corpusiq.io/docs/connectors/linkedin-ads/): LinkedIn Ads is the primary paid-acquisition channel for B2B. Connecting it lets CorpusIQ pull campaign performance, creative analytics, and account-l
+- [Mailchimp](https://www.corpusiq.io/docs/connectors/mailchimp/): Pull your Mailchimp campaign performance into the same conversation as your store revenue, ad spend, and customer list. Ask whether your last newslett
 - [MCP Server for Shopify and QuickBooks: Ask Both at Once](https://www.corpusiq.io/docs/connectors/mcp-server-shopify-quickbooks/): 
-- [Monday.com](https://www.corpusiq.io/docs/connectors/monday/): 
-- [MongoDB](https://www.corpusiq.io/docs/connectors/mongodb/): 
-- [Microsoft SQL Server (MSSQL)](https://www.corpusiq.io/docs/connectors/mssql/): 
-- [Notion](https://www.corpusiq.io/docs/connectors/notion/): 
-- [Odoo](https://www.corpusiq.io/docs/connectors/odoo/): 
-- [OneDrive](https://www.corpusiq.io/docs/connectors/onedrive/): 
-- [Outlook](https://www.corpusiq.io/docs/connectors/outlook/): 
+- [Monday.com](https://www.corpusiq.io/docs/connectors/monday/): Bring your Monday.com boards into conversations about how the business is actually running. Ask which projects are blocked, who owns what, and what's.
+- [MongoDB](https://www.corpusiq.io/docs/connectors/mongodb/): Point CorpusIQ at your own MongoDB and ask questions about your application data in plain English. No more pulling engineers off feature work to write
+- [Microsoft SQL Server (MSSQL)](https://www.corpusiq.io/docs/connectors/mssql/): Connect a SQL Server or Azure SQL database and ask questions about your operational data without writing SQL. Useful for internal systems — ERPs, line
+- [Notion](https://www.corpusiq.io/docs/connectors/notion/): Notion holds a surprising amount of business data that lives outside your SaaS tools — project plans, meeting notes, hiring trackers, product specs. C
+- [Odoo](https://www.corpusiq.io/docs/connectors/odoo/): Pull your Odoo ERP into conversation — sales orders, invoices, CRM pipeline, inventory, projects, employees — without clicking through twenty Odoo scr
+- [OneDrive](https://www.corpusiq.io/docs/connectors/onedrive/): Let CorpusIQ read your OneDrive files when answering questions — contracts, spreadsheets, board decks, prior reports. Stop digging through folders to.
+- [Outlook](https://www.corpusiq.io/docs/connectors/outlook/): Pull your Outlook inbox and calendar into the conversation. Ask what's on your plate this week, what a customer last emailed you, or what's blocking a
 - [Connect Perplexity to Your Business Data via MCP](https://www.corpusiq.io/docs/connectors/perplexity-business-data-mcp/): 
-- [PostgreSQL](https://www.corpusiq.io/docs/connectors/postgres/): 
-- [PostHog — Product Analytics](https://www.corpusiq.io/docs/connectors/posthog/): 
-- [Postscript](https://www.corpusiq.io/docs/connectors/postscript/): 
-- [QuickBooks](https://www.corpusiq.io/docs/connectors/quickbooks/): 
-- [Google Search Console](https://www.corpusiq.io/docs/connectors/search-console/): 
-- [Semrush](https://www.corpusiq.io/docs/connectors/semrush/): 
-- [Shopify](https://www.corpusiq.io/docs/connectors/shopify/): 
-- [Slack](https://www.corpusiq.io/docs/connectors/slack/): 
-- [Stripe](https://www.corpusiq.io/docs/connectors/stripe/): 
-- [TikTok](https://www.corpusiq.io/docs/connectors/tiktok/): 
+- [PostgreSQL](https://www.corpusiq.io/docs/connectors/postgres/): Point CorpusIQ at your production or analytics Postgres database and ask questions about your real data in plain English. Skip the JIRA ticket to engi
+- [PostHog — Product Analytics](https://www.corpusiq.io/docs/connectors/posthog/): Connect PostHog to CorpusIQ and ask plain-English questions about user behavior, product events, funnels, and retention — inside Claude or ChatGPT..
+- [Postscript](https://www.corpusiq.io/docs/connectors/postscript/): Bring your Postscript SMS marketing data into conversation with the rest of your stack. Ask about subscriber growth, opt-in keywords, and how SMS comp
+- [QuickBooks](https://www.corpusiq.io/docs/connectors/quickbooks/): Make your books answerable in plain English. Cash position, P&L, overdue invoices, AR aging, customer balances — without opening QuickBooks Online and
+- [Google Search Console](https://www.corpusiq.io/docs/connectors/search-console/): Google Search Console is the ground truth for how your site performs in Google Search — clicks, impressions, average position, and the queries that dr
+- [Semrush](https://www.corpusiq.io/docs/connectors/semrush/): Bring SEO and competitive search data into the conversation. Ask which keywords your competitors rank for, what your backlink profile looks like, and.
+- [Shopify](https://www.corpusiq.io/docs/connectors/shopify/): Make your store answerable in plain English. Revenue, orders, AOV, top products, refunds, customer LTV — and the same numbers joined to QuickBooks, yo
+- [Slack](https://www.corpusiq.io/docs/connectors/slack/): Pull Slack conversations into the answer. Ask what your team discussed about a customer, what was decided in #leadership last Tuesday, or who's been t
+- [Stripe](https://www.corpusiq.io/docs/connectors/stripe/): See your payment activity inside the conversation. Ask which customers paid this month, what your charge history looks like, why your last payout does
+- [TikTok](https://www.corpusiq.io/docs/connectors/tiktok/): Bring your TikTok account analytics into the same view as your other channels. Ask which videos are driving the most engagement and how TikTok stacks.
 - [Windsor.ai Alternative: CorpusIQ for Business AI Data](https://www.corpusiq.io/docs/connectors/windsor-ai-alternative/): 
-- [YouTube](https://www.corpusiq.io/docs/connectors/youtube/): 
+- [YouTube](https://www.corpusiq.io/docs/connectors/youtube/): Bring your YouTube channel analytics into conversation alongside your other marketing data. Ask which videos drove traffic, where viewers are coming f
 
 ## Hermes Hub
 - [🫡 Hermes Community Hub](https://www.corpusiq.io/docs/hermes/): The largest structured Hermes Agent knowledge base — 440+ tools, skills, MCP servers, agents, blueprints, and case studies. Built by the community. Up
