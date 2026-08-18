@@ -1,5 +1,5 @@
 ---
-title: CorpusIQ vs Viktor — Which AI Business Platform Is Right for You?
+title: CorpusIQ vs Viktor - Which AI Business Platform Is Right for You?
 description: Compare CorpusIQ and Viktor for AI business intelligence. Cross-platform answers vs Slack-based AI employee. Read-only OAuth and source-cited live data.
 canonical: "https://www.corpusiq.io/docs/hermes/compare/corpusiq-vs-viktor/"
 robots: "index,follow"
@@ -8,10 +8,10 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 ---
 
-# CorpusIQ vs Viktor — Which AI Business Platform Is Right for You?
+# CorpusIQ vs Viktor - Which AI Business Platform Is Right for You?
 
 ### Overview
-Viktor is an AI employee that lives in Slack and Microsoft Teams. It connects to 3,200+ tools and automates workflows — generating reports, running campaigns, writing code. The pitch is "not a tool, a hire."
+Viktor is an AI employee that lives in Slack and Microsoft Teams. It connects to 3,200+ tools and automates workflows - generating reports, running campaigns, writing code. The pitch is "not a tool, a hire."
 
 CorpusIQ is an operational intelligence layer. It sits between your business tools and every AI you use, giving you the same verified answer in ChatGPT, Claude, Perplexity, Slack, or Microsoft Teams. The pitch is "consistent business answers you can trust."
 
@@ -23,7 +23,7 @@ Viktor exists inside Slack and Microsoft Teams. Your team talks to it in channel
 CorpusIQ works everywhere. Connect your data once. Ask questions in ChatGPT, Claude, Perplexity, Slack, Teams, or any MCP-compatible client. The same question returns the same answer regardless of where you ask it. The intelligence layer is the constant. The AI frontend is your choice.
 
 ### Integrations: Breadth vs Trust
-Viktor claims 3,200+ managed connectors. Impressive scale. But managed connectors mean Viktor's team handles the integration — you hand over credentials and trust their pipeline.
+Viktor claims 3,200+ managed connectors. Impressive scale. But managed connectors mean Viktor's team handles the integration - you hand over credentials and trust their pipeline.
 
 CorpusIQ takes the opposite approach. Forty deep native connectors with source-specific authorization and operation-level safety metadata. You authorize access to Shopify, Stripe, QuickBooks, GA4, and Meta Ads. OAuth credentials are encrypted while the connection is active. Direct MCP does not retain raw customer files or full connector response payloads; scoped operational logs may persist for up to 30 days. Every answer cites its source record.
 
@@ -43,3 +43,10 @@ Pick CorpusIQ if you use multiple AI tools and need them all to agree on the sam
 Viktor is an employee. It does things so you do not have to.
 
 CorpusIQ is infrastructure. It makes sure every AI you use has the same verified data, so when you ask about revenue, margin, or churn, you get one answer. The right answer. Every time.
+
+### Deep Dives
+
+- [CorpusIQ vs Viktor Pricing](corpusiq-vs-viktor-pricing.md): flat plans vs credit metering
+- [CorpusIQ vs Viktor Security](corpusiq-vs-viktor-security.md): per-user scoping vs workspace-shared access
+- [CorpusIQ vs Viktor Channels](corpusiq-vs-viktor-channels.md): every assistant vs Slack and Teams only
+- [CorpusIQ vs Viktor Migration](corpusiq-vs-viktor-migration.md): moving from a Slack AI employee to a data layer
