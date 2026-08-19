@@ -167,4 +167,4 @@ metadata:
 
 - [Hermes Agent Core](/hermes/skills/catalog/hermes-agent-setup/) — Official core skill
 - [Hermes Agent Skill Authoring](/hermes/skills/catalog/hermes-agent-skill-authoring-setup/) — Writing SKILL.md files
-- [Aradotso Hermes Skills Collection](https://skills.sh/aradotso/hermes-skills)
+- [Aradotso Hermes Skills Collection](https://github.com/aradotso/hermes-skills)

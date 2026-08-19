@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Awesome Hermes Agent Ecosystem — Setup Guide
 
-**Source:** [aradotso/ai-agent-skills](https://skills.sh/aradotso/ai-agent-skills/awesome-hermes-agent-ecosystem) (161+ installs)
+**Source:** [aradotso/ai-agent-skills](https://github.com/aradotso/ai-agent-skills) (161+ installs)
 **Category:** Hermes Ecosystem / Discovery
 **Quality Tier:** 🔵 Community
 

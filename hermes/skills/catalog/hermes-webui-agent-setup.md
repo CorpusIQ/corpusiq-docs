@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Hermes WebUI Agent — Setup Guide
 
-**Source:** [aradotso/hermes-skills](https://skills.sh/aradotso/hermes-skills/hermes-webui-agent) (240+ installs)
+**Source:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills) (240+ installs)
 **Category:** Hermes Agent / UI & Deployment
 **Quality Tier:** 🟡 Beta
 

@@ -12,7 +12,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 Marketing automation skill for Hermes and OpenClaw agents. Enables campaign management, audience targeting, content scheduling, and marketing analytics — all from agent commands.
 
-**Publisher:** [aradotso/marketing-skills](https://github.com/aradotso/marketing-skills) | **Installs:** 714 | **Source:** [skills.sh](https://skills.sh/aradotso/marketing-skills/openclaw-marketing-skills)
+**Publisher:** [aradotso/marketing-skills](https://github.com/aradotso/marketing-skills) | **Installs:** 714 | **Source:** [skills.sh](https://github.com/aradotso/marketing-skills)
 
 ## 1. Prerequisites
 

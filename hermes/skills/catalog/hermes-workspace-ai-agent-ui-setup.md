@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Hermes Workspace AI Agent UI — Setup Guide
 
-**Source:** [aradotso/hermes-skills](https://skills.sh/aradotso/hermes-skills/hermes-workspace-ai-agent-ui) (196+ installs)
+**Source:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills) (196+ installs)
 **Category:** Hermes Agent / UI & Workspace
 **Quality Tier:** 🟡 Beta
 

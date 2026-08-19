@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # OpenClaw Control Center — Setup Guide
 
-**Source:** [aradotso/trending-skills](https://skills.sh/aradotso/trending-skills/openclaw-control-center) (4,300+ installs)
+**Source:** [aradotso/trending-skills](https://github.com/aradotso/trending-skills) (4,300+ installs)
 **Category:** Agent Infrastructure / Monitoring
 **Quality Tier:** 🟢 Production
 

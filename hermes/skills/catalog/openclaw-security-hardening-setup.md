@@ -10,9 +10,9 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # OpenClaw Security Hardening — Security Suite
 
-**Publisher:** [aradotso/security-skills](https://skills.sh/aradotso/security-skills) | **Installs:** 874 | **Category:** Security
+**Publisher:** [aradotso/security-skills](https://github.com/aradotso/security-skills) | **Installs:** 874 | **Category:** Security
 
-Automated security hardening for OpenClaw agents. Audits file permissions, network exposure, environment variables, and skill configurations — then applies security best practices. Ships with companion [openclaw-security-watchdog](https://skills.sh/aradotso/security-skills/openclaw-security-watchdog) (761 installs) for continuous monitoring.
+Automated security hardening for OpenClaw agents. Audits file permissions, network exposure, environment variables, and skill configurations — then applies security best practices. Ships with companion [openclaw-security-watchdog](https://github.com/aradotso/security-skills) (761 installs) for continuous monitoring.
 
 ## Prerequisites
 

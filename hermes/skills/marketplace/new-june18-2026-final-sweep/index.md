@@ -10,7 +10,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 # New Skills  --  June 18, 2026 (Final Sweep)
 
-**Source:** [aradotso/hermes-skills](https://skills.sh/aradotso/hermes-skills) via [skills.sh](https://skills.sh)
+**Source:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills) via [skills.sh](https://skills.sh)
 **Date:** June 18, 2026 (PM  --  final sweep)
 **Total new:** 8 skills
 

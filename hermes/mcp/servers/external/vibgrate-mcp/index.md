@@ -16,7 +16,7 @@ robots: "index,follow"
 **License:** Apache-2.0  
 **Endpoint:** `https://mcp.vibgrate.com`  
 **Docs:** [vibgrate.com/mcp](https://vibgrate.com/mcp)  
-**Trust & Security:** [vibgrate.com/mcp-trust](https://vibgrate.com/mcp-trust)
+**Trust & Security:** [vibgrate.com/trust](https://vibgrate.com/trust)  
 
 ## What It Does
 

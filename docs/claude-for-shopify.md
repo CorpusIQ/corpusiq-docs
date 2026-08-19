@@ -12,7 +12,7 @@ keywords:
 - deep ecommerce analytics
 - MCP Shopify Claude
 - Claude AI Shopify store
-last_updated: '2026-06-16'
+last_updated: "2026-08-19"
 category: Shopify
 cluster: 6
 canonical_url: https://www.corpusiq.io/docs/claude-for-shopify

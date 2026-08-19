@@ -10,7 +10,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 # New Skills Discovered — June 25, 2026 (Update)
 
-**Sources:** [hkuds/cli-anything](https://skills.sh/hkuds/cli-anything), [aradotso/devtools-skills](https://skills.sh/aradotso/devtools-skills), [sickn33/antigravity-awesome-skills](https://skills.sh/sickn33/antigravity-awesome-skills) via [skills.sh](https://skills.sh)
+**Sources:** [hkuds/cli-anything](https://skills.sh/hkuds/cli-anything), [aradotso/devtools-skills](https://github.com/aradotso/devtools-skills), [sickn33/antigravity-awesome-skills](https://skills.sh/sickn33/antigravity-awesome-skills) via [skills.sh](https://skills.sh)
 **Total new:** 3 skills | **Combined installs:** 275+
 **Date:** June 25, 2026
 

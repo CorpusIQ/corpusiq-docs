@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Hermes Client Web UI — Setup Guide
 
-**Source:** [aradotso/devtools-skills](https://skills.sh/aradotso/devtools-skills) (59 installs) | [GitHub](https://github.com/lotsoftick/hermes_client)
+**Source:** [aradotso/devtools-skills](https://github.com/aradotso/devtools-skills) (59 installs) | [GitHub](https://github.com/lotsoftick/hermes_client)
 **Category:** interface, dashboard
 
 A web-based chat interface for the Hermes Agent by Nous Research. Manages multiple Hermes profiles as separate "agents", runs conversations with full streaming via SSE, and provides an interactive terminal for setup commands. Each UI agent maps 1:1 to a Hermes profile with its own home directory, config, and sessions.

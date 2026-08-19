@@ -101,7 +101,7 @@ npx skills add sundial-org/awesome-openclaw-skills --skill financial-market-anal
 
 ### OpenClaw Marketing Skills (714 installs)
 
-**Publisher:** [aradotso/marketing-skills](https://skills.sh/aradotso/marketing-skills) | **Installs:** 714
+**Publisher:** [aradotso/marketing-skills](https://github.com/aradotso/marketing-skills) | **Installs:** 714
 
 Marketing automation for OpenClaw/Hermes agents — campaign management, audience targeting, content scheduling. From the same publisher behind the hermes-skills ecosystem (50+ Hermes-native skills).
 

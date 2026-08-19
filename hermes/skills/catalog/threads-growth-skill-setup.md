@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Threads Growth Skill — Setup Guide
 
-**Source:** [aradotso/marketing-skills](https://skills.sh/aradotso/marketing-skills) (745 installs)
+**Source:** [aradotso/marketing-skills](https://github.com/aradotso/marketing-skills) (745 installs)
 **Category:** Social Media & Growth
 
 A Threads growth and marketing automation skill for Hermes agents. Published by aradotso — the same organization behind the hermes-skills ecosystem (50+ Hermes-native skills). Enables agents to execute Threads growth strategies, content scheduling, audience engagement, and analytics — closing the Meta social stack gap alongside existing X/Twitter, LinkedIn, and Instagram skills.

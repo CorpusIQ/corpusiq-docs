@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Codex MCP Server Integration — Setup Guide
 
-**Source:** [aradotso/mcp-skills](https://skills.sh/aradotso/mcp-skills/codex-mcp-server-integration) (129+ installs)
+**Source:** [aradotso/mcp-skills](https://github.com/aradotso/mcp-skills) (129+ installs)
 **Category:** Agent Infrastructure / MCP Integration
 **Quality Tier:** 🟡 Beta
 

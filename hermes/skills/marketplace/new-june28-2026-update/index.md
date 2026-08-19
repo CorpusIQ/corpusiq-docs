@@ -22,9 +22,9 @@ Sweep date: **June 28, 2026** | Source: [skills.sh API](https://skills.sh) | Met
 |-------|----------|-----------|----------|
 | [imap-smtp-email](https://skills.sh/boomsystel-code/openclaw-workspace/imap-smtp-email) | 1,207 | boomsystel-code | Email |
 | [auto-updater](https://skills.sh/teylersf/openclaw-auto-updater/auto-updater) | 1,148 | teylersf | DevOps |
-| [openclaw-security-hardening](https://skills.sh/aradotso/security-skills/openclaw-security-hardening) | 874 | aradotso | Security |
+| [openclaw-security-hardening](https://github.com/aradotso/security-skills) | 874 | aradotso | Security |
 | [tavily-search](https://skills.sh/framix-team/openclaw-tavily/tavily-search) | 797 | framix-team | Search |
-| [openclaw-security-watchdog](https://skills.sh/aradotso/security-skills/openclaw-security-watchdog) | 761 | aradotso | Security |
+| [openclaw-security-watchdog](https://github.com/aradotso/security-skills) | 761 | aradotso | Security |
 | [daily-hot-news](https://skills.sh/one-box-u/openclaw-daily-hot-news/daily-hot-news) | 648 | one-box-u | News |
 | [stock-trade-journal](https://skills.sh/kirkluokun/awesome-a-stock-openclawskills/stock-trade-journal) | 563 | kirkluokun | Finance |
 | [bankr](https://skills.sh/bankrbot/openclaw-skills/bankr) | 540 | bankrbot | Finance |

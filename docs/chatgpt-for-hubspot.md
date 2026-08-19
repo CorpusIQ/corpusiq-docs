@@ -12,7 +12,7 @@ keywords:
 - MCP platform HubSpot
 - HubSpot conversational AI
 - AI pipeline analysis
-last_updated: '2026-06-16'
+last_updated: "2026-08-19"
 category: HubSpot
 cluster: 7
 canonical_url: https://www.corpusiq.io/docs/chatgpt-for-hubspot

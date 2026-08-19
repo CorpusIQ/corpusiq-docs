@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Hermes Marketing Dashboard — Setup Guide
 
-**Source:** [aradotso/marketing-skills](https://skills.sh/aradotso/marketing-skills/hermes-marketing-dashboard) (966+ installs)
+**Source:** [aradotso/marketing-skills](https://github.com/aradotso/marketing-skills) (966+ installs)
 **Category:** Growth Operations / Marketing
 **Quality Tier:** 🟡 Beta
 

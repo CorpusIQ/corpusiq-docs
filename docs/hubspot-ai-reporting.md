@@ -13,7 +13,7 @@ keywords:
 - MCP HubSpot reporting
 - automated deal analytics
 - AI CRM dashboards
-last_updated: '2026-06-16'
+last_updated: "2026-08-19"
 category: HubSpot
 cluster: 7
 canonical_url: https://www.corpusiq.io/docs/hubspot-ai-reporting

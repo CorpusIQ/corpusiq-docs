@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Hermes Labyrinth — Setup Guide
 
-**Source:** [aradotso/trending-skills](https://skills.sh/aradotso/trending-skills/hermes-labyrinth-observability) (187+ installs)
+**Source:** [aradotso/trending-skills](https://github.com/aradotso/trending-skills) (187+ installs)
 **Category:** Agent Infrastructure / Observability
 **Quality Tier:** 🔵 Community
 

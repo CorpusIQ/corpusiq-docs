@@ -10,7 +10,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # Hermes Agent Framework — Setup Guide
 
-**Source:** [aradotso/ai-agent-skills](https://skills.sh/aradotso/ai-agent-skills/hermes-agent-framework) (176+ installs)
+**Source:** [aradotso/ai-agent-skills](https://github.com/aradotso/ai-agent-skills) (176+ installs)
 **Category:** Hermes Agent / Core Framework
 **Quality Tier:** 🟡 Beta
 
