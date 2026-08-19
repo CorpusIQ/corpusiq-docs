@@ -41397,5 +41397,253 @@
     ],
     "discovered_at": "2026-08-18T08:04:15.725760+00:00",
     "status": "pending"
+  },
+  {
+    "name": "torchkatt/hermes-agent-config",
+    "url": "https://github.com/torchkatt/hermes-agent-config",
+    "description": "Hermes Agent profile distribution for TorchKatt \u2014 DeepSeek V4, codebase-search-toolkit, SOUL.md",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-08-19T05:02:27Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-19T05:02:55.809355+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "NehoraiHadad/hermes-business",
+    "url": "https://github.com/NehoraiHadad/hermes-business",
+    "description": "A friendly Windows desktop business assistant powered by a single Hermes Agent runtime",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-19T05:01:29Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-19T05:02:58.811667+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hendragon4637/conductor",
+    "url": "https://github.com/hendragon4637/conductor",
+    "description": "Local-first multi-CLI agent orchestration. Projects are git repos, sessions are branches, work is plan DAGs in isolated worktrees. Spawns OpenCode/Hermes agents, watches via polled signals, gates work through a 4-layer meta-evaluator (L1 deterministic, L2 rubric, L3 jury, L4 persona) plus a ratchet, over a RabbitMQ event bus.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-19T04:57:52Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-19T05:03:01.814266+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "saekulhadi12-design/nexus-parallel-memory",
+    "url": "https://github.com/saekulhadi12-design/nexus-parallel-memory",
+    "description": "Nexus Memory AI Plugin: OpenClaw & Hermes MCP Integration for Persistent Context 2026",
+    "stars": 0,
+    "forks": 0,
+    "language": "HTML",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "cursor",
+      "embeddings",
+      "hermes",
+      "knowledge-graph",
+      "mcp",
+      "memory",
+      "openclaw",
+      "persistent-memory",
+      "qdrant",
+      "semantic-search",
+      "vector-search"
+    ],
+    "updated_at": "2026-08-19T04:50:43Z",
+    "category": "mcp",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Sibyl-Labs/Sibyl-Memory",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-19T05:03:05.416713+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "vutranquangminh/ai-agent-configs",
+    "url": "https://github.com/vutranquangminh/ai-agent-configs",
+    "description": "Optimized configuration files for OpenCode and Hermes AI coding agents with token optimization, environment variable support, and MCP server integration",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-19T04:47:52Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "yoloshii/ClawMem",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "hugocarreira/agentrc",
+      "Bo1202/Aivy-OS",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness"
+    ],
+    "discovered_at": "2026-08-19T05:03:08.418744+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "kuaiyukuaikuai/dsh-agent-sync",
+    "url": "https://github.com/kuaiyukuaikuai/dsh-agent-sync",
+    "description": "DSH plugin: scan other AI agents (Codex, Claude Code, cc-switch, Hermes, opencode, Gemini, Grok, Kimi, CodeBuddy, Trae, OpenClaw, Qoder, WorkBuddy, Cursor, ...) and one-click sync their MCP servers and skills into DSH.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-19T03:53:46Z",
+    "category": "mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "codejunkie99/agentic-stack",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "kenryu42/cc-safety-net"
+    ],
+    "discovered_at": "2026-08-19T05:03:11.421137+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "worldnine/gyazo-agent-skills",
+    "url": "https://github.com/worldnine/gyazo-agent-skills",
+    "description": "Gyazo agent plugin: fetch (OCR metadata), full-text search, upload. Agent Skills standard compatible (Claude Code / pi / Hermes / Codex etc.), Gyazo Teams support, no MCP required.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-19T01:42:55Z",
+    "category": "skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-19T05:03:15.362354+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ElissonSvensson/hermes-sync",
+    "url": "https://github.com/ElissonSvensson/hermes-sync",
+    "description": "Sync Hermes Agent config, plugins, skills and secrets across machines via Google Drive",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-18T21:15:50Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-19T05:03:18.364677+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "agenticrens/hermes-agent",
+    "url": "https://github.com/agenticrens/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-19T05:03:11Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-19T05:03:26.696652+00:00",
+    "status": "pending"
   }
 ]
