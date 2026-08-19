@@ -12,10 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**895+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**902+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
 
+- [🆕 August 18, 2026 (Evening) — Claude for Legal (54.4K, 118 skills), PCL Domain Experts (36.2K, 104), VTEX Skills (32.6K, 51), Genshijin (19.2K, 7), Hono Skill (11.7K, 1), Capawesome (11.4K, 37), Wyatt Walsh Agents (2.1K, 85) — 7 publisher clusters, 403 skills, 7 setup guides](/hermes/skills/marketplace/new-aug18-2026-evening/)
 - [🆕 August 18, 2026 — WeCom CLI Skills (153.4K, 28 skills), Mastra AI Skills (32.6K, 5), Strix Security Skills (9.6K, 8), WeCom Unified (4.4K, 1) — 4 publisher clusters, 42 skills, 4 setup guides](/hermes/skills/marketplace/new-aug18-2026/)
 - [🆕 August 17, 2026 (Evening) — M. Collina Node Skills (52.4K, 12 skills), Zhaono1 Agent Playbook (50.4K, 24), Nx AI Agents Config (44.7K, 10) — 3 publisher clusters, 46 skills, 3 setup guides](/hermes/skills/marketplace/new-aug17-2026-evening/)
 - [🆕 August 17, 2026 — Brian Lovin Agent Config (33.6K, 19 skills), last30days (32.7K, 3), Herdr (28.1K, 5), Web Access (15.7K), Stop Slop (10.6K), Avoid AI Writing (1.6K, locally installed) — 6 publisher clusters, 30 skills, 6 setup guides](/hermes/skills/marketplace/new-aug17-2026/)
@@ -272,7 +273,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 946+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 953+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 
