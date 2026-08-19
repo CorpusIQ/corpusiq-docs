@@ -10189,5 +10189,40 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-19T07:03:58.170166+00:00"
+  },
+  {
+    "repo": "ChenZhouUC/HermesAgentWorkspace",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-19T08:03:45.799700+00:00"
+  },
+  {
+    "repo": "Jekx-geidi/TourMate-AI-Game-Agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-19T08:03:45.799718+00:00"
+  },
+  {
+    "repo": "yunyminaya/perfex-crm-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-19T08:03:45.799721+00:00"
+  },
+  {
+    "repo": "prapaa-ai/agav",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-19T08:03:45.799723+00:00"
+  },
+  {
+    "repo": "August-Icekimo/hermes-podman",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-19T08:05:54.634381+00:00"
   }
 ]
