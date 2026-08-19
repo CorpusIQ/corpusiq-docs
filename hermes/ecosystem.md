@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem — 169+ repos, tools, skills, and integrations
-last_updated: 2026-08-17
+description: Comprehensive directory of the Hermes Agent ecosystem — 170+ repos, tools, skills, and integrations
+last_updated: 2026-08-19
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **169+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **170+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **169+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 — community review welcome. **170+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -31,7 +31,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **169+ reposit
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
 | 📦 SDKs & Libraries | 1 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 2 | Security tools, compliance, audit |
-| 🔧 Skills & Plugins | 37 | Reusable skills, plugins, extensions, tools |
+| 🔧 Skills & Plugins | 38 | Reusable skills, plugins, extensions, tools |
 | 🖥️ Interfaces & UI | 33 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
@@ -868,6 +868,14 @@ _Reusable skills, plugins, extensions, tools_
 
 ---
 
+### [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) ⭐ 23,449
+
+>dot-skill (同事.skill): distill how a person thinks into a portable agent skill. Capture a colleague's knowledge, style, and context before they leave, and carry it into Claude Code, Hermes Agent, OpenClaw, Codex, and DeepSeek Harness
+
+**Language:** Python | **Topics:** agent-skills, skill-generator, knowledge-distillation, meta-skill, hermes-agent, claude-code-skills, codex-skills, openclaw | **Score:** 75/100
+
+---
+
 ### [jnMetaCode/superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) ⭐ 5,450
 
 >🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活
@@ -1413,6 +1421,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*169+ repositories in the Hermes ecosystem. Last updated: 2026-08-17. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*170+ repositories in the Hermes ecosystem. Last updated: 2026-08-19. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

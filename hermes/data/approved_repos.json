@@ -5407,5 +5407,48 @@
     "discovered_at": "2026-08-17T07:07:41.424395+00:00",
     "status": "approved",
     "approved_at": "2026-08-17T07:08:43.673957+00:00"
+  },
+  {
+    "name": "titanwings/colleague-skill",
+    "url": "https://github.com/titanwings/colleague-skill",
+    "description": "\u5c06\u51b0\u51b7\u7684\u79bb\u522b\u5316\u4e3a\u6e29\u6696\u7684 Skill\uff0c\u6b22\u8fce\u52a0\u5165\u6570\u5b57\u751f\u547d1.0\uff01Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. \ud83e\udef6",
+    "stars": 23449,
+    "forks": 2085,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "agentic-ai",
+      "ai-agent",
+      "ai-persona",
+      "claude-code",
+      "claude-code-skills",
+      "codex",
+      "codex-skills",
+      "deepseek-harness",
+      "digital-human",
+      "dsh-plugin",
+      "hermes-agent",
+      "knowledge-distillation",
+      "llm-agent",
+      "meta-skill",
+      "openclaw",
+      "prompt-engineering",
+      "skill-generator"
+    ],
+    "updated_at": "2026-08-19T07:03:02Z",
+    "category": "forks",
+    "score": 75,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_topic",
+      "agent_ecosystem",
+      "high_stars_1000+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-19T07:03:46.450034+00:00",
+    "status": "approved",
+    "approved_at": "2026-08-19T07:03:58.170143+00:00"
   }
 ]
