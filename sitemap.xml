@@ -2585,6 +2585,18 @@
          <lastmod>2026-08-19</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/misarblog-mcp</loc>
+         <lastmod>2026-08-19</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/misarmail-mcp</loc>
+         <lastmod>2026-08-19</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/misarreach-mcp</loc>
+         <lastmod>2026-08-19</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/mobilemrr-mcp</loc>
          <lastmod>2026-08-19</lastmod>
     </url>
@@ -2778,6 +2790,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/sanctions-screening-mcp</loc>
+         <lastmod>2026-08-19</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/sandbase-cli</loc>
          <lastmod>2026-08-19</lastmod>
     </url>
     <url>
@@ -3038,6 +3054,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august18-2026-morning</loc>
+         <lastmod>2026-08-19</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august19-2026-morning</loc>
          <lastmod>2026-08-19</lastmod>
     </url>
     <url>
@@ -4409,6 +4429,10 @@
          <lastmod>2026-08-19</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-agent-skills-setup</loc>
+         <lastmod>2026-08-19</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-audit-watchdog-setup</loc>
          <lastmod>2026-08-19</lastmod>
     </url>
@@ -5486,6 +5510,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug18-2026-evening</loc>
+         <lastmod>2026-08-19</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/skills/marketplace/new-aug19-2026</loc>
          <lastmod>2026-08-19</lastmod>
     </url>
     <url>
