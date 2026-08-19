@@ -12,7 +12,35 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 18, 2026 (afternoon cron sweep) · **Sources:** chatmcp/mcpso GitHub issues (Aug 18 11:54–13:33 UTC submissions), mcp.so homepage new arrivals, mcpservers.org homepage · **Catalog:** 259 servers (+149 guides)
+> **Last updated:** August 18, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso GitHub issues (Aug 18 19:22 through Aug 19 01:18 UTC submissions), mcp.so homepage new arrivals, mcpservers.org homepage · **Catalog:** 264 servers (+154 guides)
+## 🆕 August 18, 2026 — Evening Cron Sweep (5 New, 5 Guides)
+
+Evening sweep sourced from chatmcp/mcpso submission issues filed after the afternoon cutoff (Aug 18 19:22 through Aug 19 01:18 UTC) plus the mcpservers.org homepage. 5 new business-relevant servers found: SEC financial intelligence with insider and 13F tools, keyless spatial answers from Overture Maps, live Austin MLS data, headless form infrastructure, and fail-closed listing verification for commerce agents. The mcp.so homepage carried no new arrivals this cycle (all repeats already catalogued or skipped).
+
+### Profitelligence MCP ★★ — August 18 (evening)
+
+Hosted remote MCP server for financial intelligence on first-party SEC data: seven read-only tools covering market snapshots, company and insider deep dives, multi-signal screening, position health checks, 13F holdings and manager activity, semantic search across filings, and account state. Stateless pass-through design, no trade execution. Streamable HTTP at `mcp.profitelligence.com/mcp` with OAuth 2.1 or API key; free tier. Registry `io.github.profitelligence/mcp-server`. (commercial, free tier) · [Guide →](/hermes/mcp/servers/external/profitelligence-mcp/)
+
+### PlaceRoot MCP ★★ — August 18 (evening)
+
+Free, keyless MCP server grounding agents in open map data: place search, geocoding, neighborhood analysis, street-graph routing, and isochrones with 29 tools, anywhere on Earth. MIT, self-hostable via `uvx placeroot` or `npx placeroot`; registry `io.github.chuofringer/placeroot`. (open source) · [Guide →](/hermes/mcp/servers/external/placeroot-mcp/)
+
+### Austin MLS MCP ★★ — August 18 (evening)
+
+Live Austin-area MLS listings in any MCP assistant: active listing search by neighborhood, price, beds, and schools, closed-sale comps within a radius, and market stats (median price, inventory, days-on-market) by city, ZIP, or school district. Free remote server at `mls.neuhausre.com/mcp`, updated every few minutes, built by NeuhausRE.com. (free) · [Guide →](/hermes/mcp/servers/external/austin-mls-mcp/)
+
+### Fillo MCP ★★ — August 18 (evening)
+
+Headless form infrastructure over MCP: provision a workspace, build and publish forms, and read responses. Forms render natively via `@usefillo/react` and `@usefillo/dom` SDKs instead of iframes; file uploads go browser-direct to customer-owned storage. MIT, remote at `fillo.so/api/mcp` or stdio via `npx -y @usefillo/mcp`; registry `io.github.jacobfunch/usefillo`. (open source) · [Guide →](/hermes/mcp/servers/external/fillo-mcp/)
+
+### Live Listing Proof MCP ★★ — August 18 (evening)
+
+Fail-closed listing verification for commerce agents: verify a public product, marketplace, classified, or auction listing against a claim before citing it, returning explicit removed, blocked, unreachable, unsupported, or insufficient-evidence states instead of invented facts. Streamable HTTP MCP at `live-listing-proof.mattskowronis.workers.dev/mcp`, $0.02 USDC per check via x402 on Base, no key. Registry `dev.workers.mattskowronis.live-listing-proof/verify-listing`. (commercial, micropayments) · [Guide →](/hermes/mcp/servers/external/live-listing-proof-mcp/)
+
+### Also identified (not catalogued)
+
+GitHub submissions reviewed and skipped this cycle: calibreweb-mcp (personal ebook library, consistent with the freshrss/linkwarden/audiobookshelf media skips), rustpad-mcp (collaborative text-editor dev tool), Saymon RU Data API (Russian-market entity data with x402 micropayments and no license — niche geography), osm-mcp (consumer travel planning, consistent with the TravelAnimator skip), mealie-mcp (personal recipe manager), Polyrama (prediction-market trading research, consistent with the traderspy skip), FeedRecall (memory category saturated after screenpipe and prior memory servers). ABAPilot (SAP ECC MCP, issue #3638) already catalogued. mcpservers.org slugs reviewed and skipped: My AskAI (vendor documentation search, thin surface), a9n9 Deep Research (paid research utility), eCourts India (India-specific legal niche).
+
 
 ---
 
@@ -4121,6 +4149,14 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [GitLab MCP — Engineering Operations over MCP](/docs/hermes/mcp/servers/external/gitlab-mcp/)
 - [ProShip MCP — Thailand Post Fulfillment for Agents](/docs/hermes/mcp/servers/external/proship-mcp/)
 - [Moltline Studio MCP Suite — Business Math and Agent Governance](/docs/hermes/mcp/servers/external/moltline-studio-mcp/)
+### 5 new servers from chatmcp/mcpso issues + mcpservers.org — Aug 18, 2026 (evening cron sweep)
+
+- [Profitelligence MCP — Financial Intelligence from First-Party SEC Data](/docs/hermes/mcp/servers/external/profitelligence-mcp/)
+- [PlaceRoot MCP — Keyless Spatial Answers from Overture Maps](/docs/hermes/mcp/servers/external/placeroot-mcp/)
+- [Austin MLS MCP — Live Austin Real Estate Listings for AI Assistants](/docs/hermes/mcp/servers/external/austin-mls-mcp/)
+- [Fillo MCP — Headless Form Infrastructure for AI Agents](/docs/hermes/mcp/servers/external/fillo-mcp/)
+- [Live Listing Proof MCP — Fail-Closed Listing Verification for Agents](/docs/hermes/mcp/servers/external/live-listing-proof-mcp/)
+
 ### 3 new servers from chatmcp/mcpso issues — Aug 18, 2026 (afternoon cron sweep)
 
 - [Screenpipe MCP — Local-First Workflow Memory for AI Agents](/docs/hermes/mcp/servers/external/screenpipe-mcp/)
