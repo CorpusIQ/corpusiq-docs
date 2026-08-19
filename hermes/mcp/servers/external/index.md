@@ -12,7 +12,31 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 19, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso GitHub issues (Aug 19 03:07 through 07:45 UTC submissions), mcp.so homepage new arrivals (all repeats), mcpservers.org homepage (no new slugs) · **Catalog:** 268 servers (+158 guides)
+> **Last updated:** August 19, 2026 (afternoon cron sweep) · **Sources:** chatmcp/mcpso GitHub issues (Aug 19 10:55 through 16:03 UTC submissions), mcp.so homepage new arrivals (all repeats), mcpservers.org homepage (no new slugs) · **Catalog:** 272 servers (+162 guides)
+## 🆕 August 19, 2026 — Afternoon Cron Sweep (4 New, 4 Guides)
+
+Afternoon sweep sourced from chatmcp/mcpso submission issues filed after the morning cutoff (Aug 19 10:55 through 16:03 UTC). 4 new business-relevant servers found: an OAuth 2.1 connectivity gateway for 30+ business apps, the official WaveSpeed media-generation server, a pay-per-query real estate data refinery settled in USDC on Base, and a verified multi-source intelligence mesh with signed, source-declared verdicts. mcp.so homepage arrivals were repeats (CSOAI org previously noted; Waqi, Bitroad, FineData, TravelAnimator repeats); mcpservers.org homepage showed no new slugs.
+
+### MCPGRAM MCP ★★ — August 19 (afternoon)
+
+One OAuth 2.1 gateway connecting Slack, GitHub, Google, Salesforce, and 30+ business apps to any MCP client: per-workspace consent, per-user token isolation, and dual paths (OAuth for Claude/Cursor, bearer workspace key for HTTP clients). Remote at `mcpgram-mcp-server.vercel.app/mcp` or stdio self-host. (no license declared) · [Guide →](/hermes/mcp/servers/external/mcpgram-mcp/)
+
+### WaveSpeed MCP ★★ — August 19 (afternoon)
+
+Official media-generation server for the WaveSpeed platform: run any image, video, audio, or 3D model on the live catalog with schema introspection, `@path` local-file upload, honest pre-spend price quotes (`unpriced_inputs` disclosure), and balance checks. `npx -y @wavespeed/mcp` with `WAVESPEED_API_KEY`; registry `ai.wavespeed/mcp`. (MIT, 30★) · [Guide →](/hermes/mcp/servers/external/wavespeed-mcp/)
+
+### RE Data Refinery MCP ★★ — August 19 (afternoon)
+
+Pay-per-query real estate intelligence: live Zillow listings enriched with county GIS, tax delinquency, sheriff sales, permits, and probate records, scored for flip/wholesale/rental-yield/market-heat across 14 Columbus metro cities. $0.25–$0.50 USDC per lookup via x402 on Base, no subscription. Python stdio/SSE at `github.com/areshms/re-refinery-mcp`. (MIT) · [Guide →](/hermes/mcp/servers/external/re-data-refinery-mcp/)
+
+### SYNTHORA MCP ★★ — August 19 (afternoon)
+
+Intelligence agency for AI agents: 30 verified multi-source tools (sanctions screening, crypto market data, prediction markets, maritime chokepoint intel, WHO and macro data) with Ed25519-signed, source-declared verdicts and pay-per-call x402 USDC settlement on Base. Remote at `mcp.hergertsynthora.com/mcp`; browse free, pay per call. (hosted, no key to browse) · [Guide →](/hermes/mcp/servers/external/synthora-mcp/)
+
+### Also identified (not catalogued)
+
+GitHub submissions reviewed and skipped this cycle: footballcharts-mcp (sports data — league tables and model probabilities for 93 football leagues; consistent with the livetennisapi consumer-sports skip). Homepage arrival skipped: CSOAI GSPC measurement (csoai-org compliance infrastructure, previously noted in the July 3 scan). Feed repeats already catalogued or previously skipped: Waqi, Bitroad, FineData.ai, TravelAnimator.
+
 ## 🆕 August 19, 2026 — Morning Cron Sweep (4 New, 4 Guides)
 
 Morning sweep sourced from chatmcp/mcpso submission issues filed after the Aug 18 evening cutoff (Aug 19 03:07 through 07:45 UTC). 4 new business-relevant servers found: the Misar family of sales, email, and blog-publishing servers plus a local MCP bridge to a 2,000+ model catalog. mcp.so homepage arrivals were all repeats of already-catalogued or skipped servers; mcpservers.org homepage showed no new slugs.
@@ -4191,4 +4215,12 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [MisarMail MCP — Transactional Email and Campaigns for AI Agents](/docs/hermes/mcp/servers/external/misarmail-mcp/)
 - [Misar.Blog MCP — Publish and Manage Blog Content from AI Agents](/docs/hermes/mcp/servers/external/misarblog-mcp/)
 - [SandBase CLI — MCP Bridge to 2,000 Plus AI Models and APIs](/docs/hermes/mcp/servers/external/sandbase-cli/)
+
+### 4 new servers from chatmcp/mcpso issues — Aug 19, 2026 (afternoon cron sweep)
+
+- [MCPGRAM MCP — OAuth Connectivity Gateway for AI Agents](/docs/hermes/mcp/servers/external/mcpgram-mcp/)
+- [WaveSpeed MCP — Media Generation for AI Agents](/docs/hermes/mcp/servers/external/wavespeed-mcp/)
+- [RE Data Refinery MCP — Pay-Per-Query Real Estate Intelligence](/docs/hermes/mcp/servers/external/re-data-refinery-mcp/)
+- [SYNTHORA MCP — Verified Multi-Source Intelligence Mesh](/docs/hermes/mcp/servers/external/synthora-mcp/)
+
 
