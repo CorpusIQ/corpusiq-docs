@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-18"
+last_updated: "2026-08-19"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,27 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 18, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso GitHub issues (Aug 18 19:22 through Aug 19 01:18 UTC submissions), mcp.so homepage new arrivals, mcpservers.org homepage · **Catalog:** 264 servers (+154 guides)
+> **Last updated:** August 19, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso GitHub issues (Aug 19 03:07 through 07:45 UTC submissions), mcp.so homepage new arrivals (all repeats), mcpservers.org homepage (no new slugs) · **Catalog:** 268 servers (+158 guides)
+## 🆕 August 19, 2026 — Morning Cron Sweep (4 New, 4 Guides)
+
+Morning sweep sourced from chatmcp/mcpso submission issues filed after the Aug 18 evening cutoff (Aug 19 03:07 through 07:45 UTC). 4 new business-relevant servers found: the Misar family of sales, email, and blog-publishing servers plus a local MCP bridge to a 2,000+ model catalog. mcp.so homepage arrivals were all repeats of already-catalogued or skipped servers; mcpservers.org homepage showed no new slugs.
+
+### MisarReach MCP ★★ — August 19 (morning)
+
+Outbound sales from any MCP client: 27 tools for lead list building and qualification, email verification, multi-step multi-channel outreach sequences, deliverability checks, and pipeline review. Optional API key with browser login tool; remote at `api.misar.io/reach/mcp` or `npx -y @misarreach/mcp`. (MIT, free tier) · [Guide →](/hermes/mcp/servers/external/misarreach-mcp/)
+
+### MisarMail MCP ★★ — August 19 (morning)
+
+Email operations from any MCP client: 54 tools for transactional sends, multi-step campaigns, contacts and segments, automations, A/B testing, domain warmup, and deliverability audits. Remote at `mail.misar.io/api/mcp` or `npx -y @misarmail/mcp`. (MIT, free tier) · [Guide →](/hermes/mcp/servers/external/misarmail-mcp/)
+
+### Misar.Blog MCP ★★ — August 19 (morning)
+
+Blog publishing from any MCP client: 23 tools for articles, series, analytics, comments and reactions, newsletter subscribers, and AI-assisted writing, with readOnly/destructive/idempotent annotations on every tool. Remote at `api.misar.io/blog/mcp` or `npx -y @misarblog/mcp`. (MIT, free tier) · [Guide →](/hermes/mcp/servers/external/misarblog-mcp/)
+
+### SandBase CLI ★★ — August 19 (morning)
+
+Local MCP bridge connecting 25 AI client targets to a catalog of 2,000+ AI models and APIs: discovery, schema and pricing inspection, execution with async polling, and per-run cost tracking. `npx -y @sandbaseai/cli connect`. (Apache-2.0) · [Guide →](/hermes/mcp/servers/external/sandbase-cli/)
+
 ## 🆕 August 18, 2026 — Evening Cron Sweep (5 New, 5 Guides)
 
 Evening sweep sourced from chatmcp/mcpso submission issues filed after the afternoon cutoff (Aug 18 19:22 through Aug 19 01:18 UTC) plus the mcpservers.org homepage. 5 new business-relevant servers found: SEC financial intelligence with insider and 13F tools, keyless spatial answers from Overture Maps, live Austin MLS data, headless form infrastructure, and fail-closed listing verification for commerce agents. The mcp.so homepage carried no new arrivals this cycle (all repeats already catalogued or skipped).
@@ -4163,4 +4183,12 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [TokPortal MCP — Managed Social Account Infrastructure with 91 Tools](/docs/hermes/mcp/servers/external/tokportal-mcp/)
 - [UnrealUGC MCP — AI UGC Video Ad Generation](/docs/hermes/mcp/servers/external/unrealugc-mcp/)
 
+
+
+### 4 new servers from chatmcp/mcpso issues — Aug 19, 2026 (morning cron sweep)
+
+- [MisarReach MCP — Outbound Sales and Lead Pipeline for AI Agents](/docs/hermes/mcp/servers/external/misarreach-mcp/)
+- [MisarMail MCP — Transactional Email and Campaigns for AI Agents](/docs/hermes/mcp/servers/external/misarmail-mcp/)
+- [Misar.Blog MCP — Publish and Manage Blog Content from AI Agents](/docs/hermes/mcp/servers/external/misarblog-mcp/)
+- [SandBase CLI — MCP Bridge to 2,000 Plus AI Models and APIs](/docs/hermes/mcp/servers/external/sandbase-cli/)
 
