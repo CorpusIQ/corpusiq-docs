@@ -2,7 +2,7 @@
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated August 17, 2026)
+## File count (updated August 19, 2026)
 
 - **Total Markdown files:** 1,742
 - **Total HTML files:** 1,641 (MkDocs build output)
@@ -36,6 +36,7 @@ The repo is actively maintained with daily automated updates:
 
 ## Ongoing doc gaps
 
+- **Maintenance ✅ (Aug 19, 2026):** Refreshed 21 stale `last_updated` dates (18 docs/*.md SEO pages stuck on 2026-06-16 + docs/index.md, hermes/index.md, hermes/README.md). Repointed 19 dead `skills.sh/aradotso/*` links to live GitHub repos (aradotso profile 404s on skills.sh) across 17 catalog/marketplace files. Fixed vibgrate trust link (`/mcp-trust` → `/trust`, was 404). Sanitized example private IP (10.0.0.100 → agent-a.local in meshtastic setup, verified absent upstream). Refreshed hermes-sitemap.xml (193 URLs) + sitemap-index.xml lastmod → 2026-08-19. Internal links: 0 broken. Deployed to Vercel, all changed pages HTTP 200.
 - **Maintenance ✅ (Aug 17, 2026):** Fixed 2 broken internal links in skills catalog (chrome-devtools + oh-my-hermes setup guides → /hermes/best-practices/security/). Refreshed all 3 sitemaps (sitemap.xml 323 URLs + hermes-sitemap.xml 193 URLs + sitemap-index.xml) from 2026-08-10/2026-06-17 → 2026-08-17. Refreshed PROGRESS.md stats (1,742 MD files, 473 skills, 423 MCP servers).
 - **Stale .html duplicates ✅ (Aug 15, 2026):** Removed 202 stale static .html files in hermes/ (22.8 MB) superseded by .md builds. They were copied into the site output as orphan pages with broken relative links (../../../quick-start.html → 404) and duplicate content. All had .md twins; none referenced in nav, sitemap, or .md content.
 - **Sanitization ✅ (Aug 15, 2026):** Removed 5 internal-info instances: internal hostname + sweep ops note (new-aug15-2026 sweep page), personal name (etincel-mcp page), media@/info@ inbox handles (busymail-mcp page), hello@corpusiq.io demo value → hello@example.com (chrome-devtools setup), "on an internal worker" sweep note (new-aug12-2026-evening page).
