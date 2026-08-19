@@ -3,7 +3,7 @@ title: "Hermes Skills Catalog — Quality-Tiered Directory"
 description: "Curated directory of community-validated Hermes agent skills. Quality tiers (Production/Beta/Community), starter pack, evaluation guide, and installation"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/"
 robots: "index,follow"
-last_updated: "2026-08-18"
+last_updated: "2026-08-19"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -311,6 +311,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Native Mcp Setup](/docs/hermes/skills/catalog/native-mcp-setup/)
 - [Nemoclaw User Guide Setup](/docs/hermes/skills/catalog/nemoclaw-user-guide-setup/)
 - [Netlify Agent Skills — Serverless Deployment for Hermes Setup](/docs/hermes/skills/catalog/netlify-agent-skills-setup/)
+- [OpenClaw Agent Skills — Official OpenClaw Org Skill Suite Setup](/docs/hermes/skills/catalog/openclaw-agent-skills-setup/)
 - [OpenClaw on Android — Full Setup Guide](/docs/hermes/skills/catalog/openclaw-android-setup/)
 - [OpenClaw Audit Watchdog — Setup Guide](/docs/hermes/skills/catalog/openclaw-audit-watchdog-setup/)
 - [Openclaw Auto Updater Setup](/docs/hermes/skills/catalog/openclaw-auto-updater-setup/)
