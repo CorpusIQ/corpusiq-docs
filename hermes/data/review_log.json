@@ -10098,5 +10098,68 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-18T08:04:24.855256+00:00"
+  },
+  {
+    "repo": "torchkatt/hermes-agent-config",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-19T05:03:47.221834+00:00"
+  },
+  {
+    "repo": "NehoraiHadad/hermes-business",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-19T05:03:47.221847+00:00"
+  },
+  {
+    "repo": "hendragon4637/conductor",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-19T05:03:47.221850+00:00"
+  },
+  {
+    "repo": "saekulhadi12-design/nexus-parallel-memory",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-19T05:03:47.221852+00:00"
+  },
+  {
+    "repo": "vutranquangminh/ai-agent-configs",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-19T05:03:47.221854+00:00"
+  },
+  {
+    "repo": "kuaiyukuaikuai/dsh-agent-sync",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-19T05:03:47.221856+00:00"
+  },
+  {
+    "repo": "worldnine/gyazo-agent-skills",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-19T05:03:47.221857+00:00"
+  },
+  {
+    "repo": "ElissonSvensson/hermes-sync",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-19T05:03:47.221859+00:00"
+  },
+  {
+    "repo": "agenticrens/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-19T05:03:47.221860+00:00"
   }
 ]
