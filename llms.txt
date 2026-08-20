@@ -13,7 +13,7 @@
 - [Supported AI Agents](https://www.corpusiq.io/docs/supported-agents/): Complete MCP configuration guides for all supported AI agents: Claude Desktop, Cursor, Hermes, Windsurf, Roo Code. Copy-paste JSON config blocks for i
 - [What Is an MCP Server? How the Model Context Protocol Powers AI Data Access](https://www.corpusiq.io/docs/what-is-an-mcp-server/): Learn what an MCP server is and how Anthropic's Model Context Protocol powers AI-to-business-data connections. Discover real-time natural language que
 - [Benefits of MCP for Business: 9 Reasons to Connect Your Data to AI](https://www.corpusiq.io/docs/benefits-of-mcp-for-business/): Discover the 9 key benefits of MCP servers for business: real-time data access, read-only security defaults, AI-native simplicity, source-cited answer
-- [Architecture](https://www.corpusiq.io/docs/architecture/): Complete CorpusIQ system architecture: MCP endpoint, OAuth 2.0 authentication layer, 36+ connector adapters, data flow from AI agent to business sourc
+- [Architecture](https://www.corpusiq.io/docs/architecture/): Complete CorpusIQ system architecture: MCP endpoint, OAuth 2.0 authentication layer, 40+ connector adapters, data flow from AI agent to business sourc
 - [Onboarding Guide](https://www.corpusiq.io/docs/onboarding/): First time using CorpusIQ? This guide walks through account setup, connecting your first business tools, and asking your first cross-source question i
 - [CorpusIQ API Reference](https://www.corpusiq.io/docs/api/): Complete CorpusIQ API reference: authentication, endpoints, rate limits, error codes, OpenAPI spec, schemas, and webhooks. Everything you need to inte
 

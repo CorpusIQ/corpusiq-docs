@@ -10259,7 +10259,7 @@ mkdir<span class="w"> </span>-p<span class="w"> </span>~/hermes-bridge
 <h3 id="conversation-mirroring">Conversation Mirroring<a class="headerlink" href="#conversation-mirroring" title="Anchor link to this section">&para;</a></h3>
 <p>Each agent mirrors its Telegram conversation to the bridge:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Pseudocode for conversation mirroring</span>
-<span class="k">def</span> <span class="nf">on_telegram_message</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">on_telegram_message</span><span class="p">(</span><span class="n">msg</span><span class="p">):</span>
     <span class="n">bridge_entry</span> <span class="o">=</span> <span class="p">{</span>
         <span class="s2">&quot;sender&quot;</span><span class="p">:</span> <span class="n">AGENT_NAME</span><span class="p">,</span>
         <span class="s2">&quot;level&quot;</span><span class="p">:</span> <span class="n">infer_priority</span><span class="p">(</span><span class="n">msg</span><span class="p">),</span>

@@ -10226,10 +10226,10 @@
 <h2 id="core-concepts">Core Concepts<a class="headerlink" href="#core-concepts" title="Anchor link to this section">&para;</a></h2>
 <h3 id="state">State<a class="headerlink" href="#state" title="Anchor link to this section">&para;</a></h3>
 <p>The shared data structure that flows through the graph. Every node reads from state, modifies it, and passes it forward.</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">TypedDict</span><span class="p">,</span> <span class="n">Annotated</span>
-<span class="kn">from</span> <span class="nn">langgraph.graph.message</span> <span class="kn">import</span> <span class="n">add_messages</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">TypedDict</span><span class="p">,</span> <span class="n">Annotated</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">langgraph.graph.message</span><span class="w"> </span><span class="kn">import</span> <span class="n">add_messages</span>
 
-<span class="k">class</span> <span class="nc">AgentState</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
+<span class="k">class</span><span class="w"> </span><span class="nc">AgentState</span><span class="p">(</span><span class="n">TypedDict</span><span class="p">):</span>
     <span class="n">messages</span><span class="p">:</span> <span class="n">Annotated</span><span class="p">[</span><span class="nb">list</span><span class="p">,</span> <span class="n">add_messages</span><span class="p">]</span>  <span class="c1"># Conversation history (appends)</span>
     <span class="n">research_findings</span><span class="p">:</span> <span class="nb">str</span>                   <span class="c1"># Accumulated research</span>
     <span class="n">action_plan</span><span class="p">:</span> <span class="nb">dict</span>                        <span class="c1"># Next steps to execute</span>
@@ -10238,7 +10238,7 @@
 </code></pre></div>
 <h3 id="nodes">Nodes<a class="headerlink" href="#nodes" title="Anchor link to this section">&para;</a></h3>
 <p>Python functions (or Hermes agent calls) that transform state:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">research_node</span><span class="p">(</span><span class="n">state</span><span class="p">:</span> <span class="n">AgentState</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgentState</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">research_node</span><span class="p">(</span><span class="n">state</span><span class="p">:</span> <span class="n">AgentState</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgentState</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Research phase  --  gather information about the topic.&quot;&quot;&quot;</span>
     <span class="n">query</span> <span class="o">=</span> <span class="n">state</span><span class="p">[</span><span class="s2">&quot;messages&quot;</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">content</span>
     <span class="c1"># Use Hermes tool ecosystem via the MCP bridge</span>
@@ -10248,7 +10248,7 @@
         <span class="s2">&quot;messages&quot;</span><span class="p">:</span> <span class="p">[{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Research complete: </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">results</span><span class="p">)</span><span class="si">}</span><span class="s2"> sources found&quot;</span><span class="p">}]</span>
     <span class="p">}</span>
 
-<span class="k">def</span> <span class="nf">analyze_node</span><span class="p">(</span><span class="n">state</span><span class="p">:</span> <span class="n">AgentState</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgentState</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">analyze_node</span><span class="p">(</span><span class="n">state</span><span class="p">:</span> <span class="n">AgentState</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">AgentState</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Analysis phase  --  synthesize findings.&quot;&quot;&quot;</span>
     <span class="n">synthesis</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
         <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
@@ -10265,7 +10265,7 @@
 <li><strong>Normal edges:</strong> Always transition from A to B</li>
 <li><strong>Conditional edges:</strong> Choose next node based on state</li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">should_retry</span><span class="p">(</span><span class="n">state</span><span class="p">:</span> <span class="n">AgentState</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">should_retry</span><span class="p">(</span><span class="n">state</span><span class="p">:</span> <span class="n">AgentState</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Decide whether to retry or finish.&quot;&quot;&quot;</span>
     <span class="k">if</span> <span class="n">state</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;retry_count&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">3</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">state</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;final_output&quot;</span><span class="p">):</span>
         <span class="k">return</span> <span class="s2">&quot;research&quot;</span>  <span class="c1"># Go back to research</span>
@@ -10273,11 +10273,11 @@
 </code></pre></div>
 <h2 id="production-pattern-1-research-analyze-validate-loop">Production Pattern 1: Research-Analyze-Validate Loop<a class="headerlink" href="#production-pattern-1-research-analyze-validate-loop" title="Anchor link to this section">&para;</a></h2>
 <p>The most common production pattern  --  research until confident, then proceed.</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">langgraph.graph</span> <span class="kn">import</span> <span class="n">StateGraph</span><span class="p">,</span> <span class="n">END</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">langgraph.graph</span><span class="w"> </span><span class="kn">import</span> <span class="n">StateGraph</span><span class="p">,</span> <span class="n">END</span>
 
 <span class="c1"># ── Define nodes ────────────────────────────────────</span>
 
-<span class="k">def</span> <span class="nf">research</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">research</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Gather information from multiple sources.&quot;&quot;&quot;</span>
     <span class="n">topic</span> <span class="o">=</span> <span class="n">state</span><span class="p">[</span><span class="s2">&quot;messages&quot;</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">content</span>
     <span class="n">web_results</span> <span class="o">=</span> <span class="n">hermes_tools</span><span class="o">.</span><span class="n">web_search</span><span class="p">(</span><span class="n">topic</span><span class="p">)</span>
@@ -10287,7 +10287,7 @@
         <span class="s2">&quot;retry_count&quot;</span><span class="p">:</span> <span class="n">state</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;retry_count&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span>
     <span class="p">}</span>
 
-<span class="k">def</span> <span class="nf">analyze</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">analyze</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Synthesize findings into insights.&quot;&quot;&quot;</span>
     <span class="n">analysis</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
         <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
@@ -10298,7 +10298,7 @@
     <span class="p">)</span>
     <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;action_plan&quot;</span><span class="p">:</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">analysis</span><span class="p">)}</span>
 
-<span class="k">def</span> <span class="nf">validate</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">validate</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Check if confidence threshold is met.&quot;&quot;&quot;</span>
     <span class="n">confidence</span> <span class="o">=</span> <span class="n">state</span><span class="p">[</span><span class="s2">&quot;action_plan&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;confidence&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">confidence</span> <span class="o">&gt;=</span> <span class="mf">0.8</span><span class="p">:</span>
@@ -10307,7 +10307,7 @@
 
 <span class="c1"># ── Conditional routing ─────────────────────────────</span>
 
-<span class="k">def</span> <span class="nf">route_after_validate</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">route_after_validate</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
     <span class="k">if</span> <span class="n">state</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;final_output&quot;</span><span class="p">):</span>
         <span class="k">return</span> <span class="s2">&quot;finish&quot;</span>
     <span class="k">if</span> <span class="n">state</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;retry_count&quot;</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">3</span><span class="p">:</span>
@@ -10344,7 +10344,7 @@
 <p><strong>State accumulation:</strong> Every node appends to state. The full execution trace is preserved, which is invaluable for debugging and audit trails.</p>
 <h2 id="production-pattern-2-conditional-multi-path-router">Production Pattern 2: Conditional Multi-Path Router<a class="headerlink" href="#production-pattern-2-conditional-multi-path-router" title="Anchor link to this section">&para;</a></h2>
 <p>Route incoming requests to different processing paths based on intent classification:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">classify_intent</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">classify_intent</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Classify the incoming request to determine processing path.&quot;&quot;&quot;</span>
     <span class="n">message</span> <span class="o">=</span> <span class="n">state</span><span class="p">[</span><span class="s2">&quot;messages&quot;</span><span class="p">][</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">content</span>
     <span class="n">classification</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
@@ -10356,7 +10356,7 @@
     <span class="p">)</span>
     <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;route&quot;</span><span class="p">:</span> <span class="n">classification</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">lower</span><span class="p">()}</span>
 
-<span class="k">def</span> <span class="nf">route_by_intent</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">route_by_intent</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
     <span class="k">return</span> <span class="n">state</span><span class="p">[</span><span class="s2">&quot;route&quot;</span><span class="p">]</span>
 
 <span class="c1"># Add specialized nodes for each path</span>
@@ -10390,7 +10390,7 @@
 </code></pre></div>
 <h3 id="sqlite-checkpointer-production">SQLite Checkpointer (Production)<a class="headerlink" href="#sqlite-checkpointer-production" title="Anchor link to this section">&para;</a></h3>
 <p>State saved to SQLite after every node transition. Survives process restarts.</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">langgraph.checkpoint.sqlite</span> <span class="kn">import</span> <span class="n">SqliteSaver</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">langgraph.checkpoint.sqlite</span><span class="w"> </span><span class="kn">import</span> <span class="n">SqliteSaver</span>
 
 <span class="n">checkpointer</span> <span class="o">=</span> <span class="n">SqliteSaver</span><span class="o">.</span><span class="n">from_conn_string</span><span class="p">(</span><span class="s2">&quot;hermes_langgraph.db&quot;</span><span class="p">)</span>
 <span class="n">workflow</span> <span class="o">=</span> <span class="n">graph</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">checkpointer</span><span class="o">=</span><span class="n">checkpointer</span><span class="p">)</span>
@@ -10402,7 +10402,7 @@
 <p><strong>When to use:</strong> Production deployments where workflows may run for minutes or hours, and you need recovery from crashes or the ability to inspect execution history.</p>
 <h3 id="postgres-checkpointer-multi-node">Postgres Checkpointer (Multi-Node)<a class="headerlink" href="#postgres-checkpointer-multi-node" title="Anchor link to this section">&para;</a></h3>
 <p>For multi-node deployments where multiple Hermes instances share state:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">langgraph.checkpoint.postgres</span> <span class="kn">import</span> <span class="n">PostgresSaver</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">langgraph.checkpoint.postgres</span><span class="w"> </span><span class="kn">import</span> <span class="n">PostgresSaver</span>
 
 <span class="n">checkpointer</span> <span class="o">=</span> <span class="n">PostgresSaver</span><span class="o">.</span><span class="n">from_conn_string</span><span class="p">(</span>
     <span class="s2">&quot;postgresql://user@worker-node.local:5432/hermes_state&quot;</span>
@@ -10425,7 +10425,7 @@
 </code></pre></div>
 <h2 id="production-pattern-3-human-in-the-loop">Production Pattern 3: Human-in-the-Loop<a class="headerlink" href="#production-pattern-3-human-in-the-loop" title="Anchor link to this section">&para;</a></h2>
 <p>LangGraph supports interrupting execution for human approval:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">sensitive_action</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">sensitive_action</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Action that requires human approval before execution.&quot;&quot;&quot;</span>
     <span class="c1"># This node will interrupt and wait</span>
     <span class="k">pass</span>
@@ -10450,14 +10450,14 @@
 <p><strong>Threshold-based:</strong> Interrupt only when confidence is below a threshold. High-confidence actions proceed automatically.</p>
 <h2 id="production-pattern-4-parallel-fan-out-fan-in">Production Pattern 4: Parallel Fan-Out / Fan-In<a class="headerlink" href="#production-pattern-4-parallel-fan-out-fan-in" title="Anchor link to this section">&para;</a></h2>
 <p>Execute multiple independent branches in parallel, then merge:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">langgraph.graph</span> <span class="kn">import</span> <span class="n">StateGraph</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span><span class="w"> </span><span class="nn">langgraph.graph</span><span class="w"> </span><span class="kn">import</span> <span class="n">StateGraph</span>
 
-<span class="k">def</span> <span class="nf">fan_out</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">fan_out</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Create parallel tasks from a list.&quot;&quot;&quot;</span>
     <span class="n">tasks</span> <span class="o">=</span> <span class="n">state</span><span class="p">[</span><span class="s2">&quot;action_plan&quot;</span><span class="p">][</span><span class="s2">&quot;parallel_tasks&quot;</span><span class="p">]</span>
     <span class="k">return</span> <span class="p">[{</span><span class="s2">&quot;task&quot;</span><span class="p">:</span> <span class="n">t</span><span class="p">}</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tasks</span><span class="p">]</span>  <span class="c1"># One state per parallel branch</span>
 
-<span class="k">def</span> <span class="nf">process_task</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">process_task</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Process a single task (runs in parallel for each task).&quot;&quot;&quot;</span>
     <span class="n">result</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
         <span class="n">messages</span><span class="o">=</span><span class="p">[{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">state</span><span class="p">[</span><span class="s2">&quot;task&quot;</span><span class="p">]}],</span>
@@ -10465,7 +10465,7 @@
     <span class="p">)</span>
     <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;result&quot;</span><span class="p">:</span> <span class="n">result</span><span class="p">}</span>
 
-<span class="k">def</span> <span class="nf">fan_in</span><span class="p">(</span><span class="n">results</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">fan_in</span><span class="p">(</span><span class="n">results</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Merge parallel results.&quot;&quot;&quot;</span>
     <span class="n">merged</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\n\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">r</span><span class="p">[</span><span class="s2">&quot;result&quot;</span><span class="p">]</span> <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">results</span><span class="p">])</span>
     <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;final_output&quot;</span><span class="p">:</span> <span class="n">merged</span><span class="p">}</span>
