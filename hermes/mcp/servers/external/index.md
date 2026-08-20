@@ -12,7 +12,59 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 20, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso GitHub issues #3654–#3655 (Aug 20 09:06–09:46 UTC submissions), mcp.so homepage new arrival (Xverum) · **Catalog:** 280 servers (+170 guides)
+> **Last updated:** August 20, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso GitHub issues #3656–#3663 (Aug 20 10:44–16:42 UTC), mcpservers.org /all page 1 (JSON-LD, 30 newest), mcp.so + mcpservers.org homepages · **Catalog:** 291 servers (+177 guides)
+## 🆕 August 20, 2026 — Evening Cron Sweep (11 New, 7 Guides)
+
+Evening sweep sourced from chatmcp/mcpso submission issues filed after the morning cutoff (Aug 20 10:44 through 16:42 UTC), the mcpservers.org /all JSON-LD page (30 newest), and both directory homepages. 11 new business-relevant servers found: an AI phone receptionist for small businesses, the official UK Pay by Bank payments MCP, dependency license verdicts computed against your distribution model, competitor ad creative intelligence, landing pages built and measured from chat, email verification with catch-all detection, and Northeast Ohio construction opportunity intelligence — plus four catalog entries covering US job-posting search, a natural-language data platform, a 254-tool education platform surface, and a database intelligence layer.
+
+### Upfirst MCP ★★★ — August 20 (evening)
+
+First-party MCP server for Upfirst, the AI phone receptionist for small businesses: nine tools to review call transcripts (`list_calls`, `get_call_details`, `get_call_transcript`), audit and fix receptionist knowledge (`get_agent_knowledge`, `create_agent_knowledge`, `update_agent_knowledge`), and manage skills, transfer rules, schedules, and agent settings (`create_agent_skill`, `update_agent_skill`, `update_agent_by_id`). Hosted remote with an in-app OAuth connector flow — the endpoint URL is provisioned from the Upfirst app. (commercial, free tier) · [Guide →](/hermes/mcp/servers/external/upfirst-mcp/)
+
+### Atoa MCP ★★★ — August 20 (evening)
+
+First-party payments MCP from Atoa, the FCA-authorised UK payments platform: `process_payment`, `get_payment`, `capture_payment`, `cancel_payment`, full customer CRUD (`create/get/update/delete_customer`, `list_customers`), `initiate_refund`/`cancel_refund`, `get_transactions`, `create_webhook`/`delete_webhook`, plus bank feeds and human-approval flows for the money-out path. Hosted at `mcp.atoa.me/mcp` with a Bearer SDK token and `X-Atoa-Env` sandbox/production header; local npx mode available. (commercial, PCI DSS / ISO 27001 / SOC 2) · [Guide →](/hermes/mcp/servers/external/atoa-mcp/)
+
+### LicenseGuard MCP ★★★ — August 20 (evening)
+
+License-compliance verdicts computed against your distribution model — the same AGPL dependency is blocked for SaaS, allowed for internal use, and allowed as a build-time devDependency. Three tools (`check_dependency_license`, `check_manifest_licenses`, `explain_license`) with clause-cited verdicts, transitive lockfile audits across npm, PyPI, Go and crates.io, and a guarantee that incomplete scans are never reported clean. Hosted keyless at `license-guard.rcc-aoki.workers.dev/mcp` plus a local stdio Docker image. (Apache-2.0, free) · [Guide →](/hermes/mcp/servers/external/license-guard-mcp/)
+
+### AdMapix MCP ★★ — August 20 (evening)
+
+Competitor ad creative intelligence over the AdMapix API: `search_creatives` by keyword, app name, advertiser, category, or ad copy with creative-type, country, and date-range filters and sorting by first seen, relevance, estimated impressions, or days active — raw structured records with media URLs and metrics. Local stdio via `uvx --from admapix-mcp` (PyPI v1.0.0) with an `ADMAPIX_API_KEY`. (commercial API, open-source server) · [Guide →](/hermes/mcp/servers/external/admapix-mcp/)
+
+### Simplepages MCP ★★ — August 20 (evening)
+
+Landing pages built, edited, and measured from chat: describe a page and it builds one in your workspace, edit headlines in place, list pages and sites with status, and pull visitors, leads, and revenue per page or workspace. Hosted remote with an OAuth connect flow scoped to one workspace; publishing stays a human action. (commercial) · [Guide →](/hermes/mcp/servers/external/simplepages-mcp/)
+
+### Giggal.ai MCP ★★ — August 20 (evening)
+
+Email verification with catch-all detection inside any MCP client: deep mailbox existence checks that resolve catch-all, accept-all, and SEG-protected addresses, plus credit and verification-history lookup. Hosted at `mcp.giggal.ai/mcp` with an API key scoped to `verify:read`. (commercial, credit-based) · [Guide →](/hermes/mcp/servers/external/giggal-mcp/)
+
+### Opportunity Atlas MCP ★★ — August 20 (evening)
+
+Verified Northeast Ohio construction opportunity intelligence for AI agents: free `scout_capabilities` and `scout_preview` tools keyless, with a registered-agent surface for the full pipeline at capped rates (20 req/min, 100/day) and hashed 90-day keys. Supabase-hosted remote at `zmxwkvmxcfjgwbrtxxhl.supabase.co/functions/v1/scout-mcp`. (free public beta) · [Guide →](/hermes/mcp/servers/external/opportunity-atlas-mcp/)
+
+### Magnificent Jobs MCP ★★ — August 20 (evening) (catalog entry)
+
+Semantic search over 3.5M+ live US job postings pulled hourly straight from company ATS boards — positions LinkedIn and Indeed miss — with 211K+ added the day of listing. Free, read-only, no key; `npx magnificentjobs`. (free)
+
+### DPF MCP ★★ — August 20 (evening) (catalog entry)
+
+Natural-language data ingestion, transformation, and analytics platform with an operator-safe access model: DPF holds no standing credentials — access runs through a revocable AWS IAM role you control, and SFTP connections use a generated RSA-4096 keypair whose private half is never returned by any API call. (commercial)
+
+### Teachfluence MCP ★★ — August 20 (evening) (catalog entry)
+
+Production MCP server for Teachfluence, the all-in-one platform for online educators: 254 tools across 29 families covering courses, community, forms, CRM, support, and revenue behind OAuth 2.1 with per-organization default-deny and an audit row on every call. (commercial)
+
+### Terno MCP ★★ — August 20 (evening) (catalog entry)
+
+Database intelligence layer that bridges AI agents and enterprise data with strict access controls and LLM-optimized schema context for warehouse-scale databases; hosted OAuth connection or embedded directly into Django projects. (open source)
+
+### Also identified (not catalogued)
+
+GitHub submissions reviewed and skipped this cycle: Proactive Vault (personal CRM for macOS — GitHub repo 404 at evaluation time), Wondel Skills (skill-loader dev tool), AI Developer Toolkit (AI-dev guide search), 2anki (consumer Anki-deck converter), Fine Structure (full-stack app builder — dev). mcpservers.org /all slugs reviewed and skipped: Clio for Creatio (platform dev tool), GlianaAI (x402 model-gateway infrastructure), RiverScript (transcript-fetching niche), MarkIt (personal bookmarking), FaceSign (step-up verification dev flows), POB (Path of Exile gaming), Chamnan (Claude Code security plugin), AST MCP (TypeScript project access — dev), AgentTrust (XRPL blockchain referee), Agentic HIL (embedded-hardware dev), Seedfast (synthetic test data), HTTP 402 AI Tollbooth (x402 infrastructure), QR Planet (QR-code design utility). Repeats already catalogued or previously skipped: Booking.com Hotel Search (FlightPowers thin vendor surface), Football Charts (sports skip precedent), 60fps, MindMap AI, Vital Care Finder, CSOAI GSPC, Waqi, Bitroad, 3gpp-mcp, RADAAR.
+
 ## 🆕 August 20, 2026 — Morning Cron Sweep (3 New, 3 Guides)
 
 Morning sweep sourced from chatmcp/mcpso submission issues filed after the overnight cutoff (Aug 20 02:00 through 09:46 UTC) plus both directory homepages. 3 new business-relevant servers found: a Romanian official-registry lead-generation server with contact extraction and domain audits, a self-hosted YouTube research server with local semantic corpora, and a 750M-profile people search with job-change prediction. Skipped: Vital Care Finder (consumer healthcare appointment booking).
@@ -4284,6 +4336,17 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Leadgen MCP — Romanian Business Registry & Contact Enrichment](/docs/hermes/mcp/servers/external/leadgen-mcp/)
 - [tube-bridge MCP — Self-Hosted YouTube Research and Transcript Corpora](/docs/hermes/mcp/servers/external/tube-bridge-mcp/)
 - [Xverum MCP — People Search Across 750M Professional Profiles](/docs/hermes/mcp/servers/external/xverum-mcp/)
+
+### 7 new servers from chatmcp/mcpso issues + mcpservers.org /all — Aug 20, 2026 (evening cron sweep)
+
+- [Upfirst MCP — AI Phone Receptionist for Small Businesses](/docs/hermes/mcp/servers/external/upfirst-mcp/)
+- [Atoa MCP — UK Pay by Bank Payments for AI Agents](/docs/hermes/mcp/servers/external/atoa-mcp/)
+- [LicenseGuard MCP — License Compliance Verdicts by Distribution Model](/docs/hermes/mcp/servers/external/license-guard-mcp/)
+- [AdMapix MCP — Competitor Ad Creative Intelligence](/docs/hermes/mcp/servers/external/admapix-mcp/)
+- [Simplepages MCP — Landing Pages Built and Measured from Chat](/docs/hermes/mcp/servers/external/simplepages-mcp/)
+- [Giggal.ai MCP — Email Verification with Catch-All Detection](/docs/hermes/mcp/servers/external/giggal-mcp/)
+- [Opportunity Atlas MCP — Northeast Ohio Construction Opportunity Intelligence](/docs/hermes/mcp/servers/external/opportunity-atlas-mcp/)
+
 
 
 
