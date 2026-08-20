@@ -10336,5 +10336,47 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-20T06:05:13.059553+00:00"
+  },
+  {
+    "repo": "uhyuuuuu/hermes-timeanchor",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-20T07:04:38.909212+00:00"
+  },
+  {
+    "repo": "mintychochip/token-usage",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-20T07:04:38.909226+00:00"
+  },
+  {
+    "repo": "kuailexiaozixin/hermes-desktop",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-20T07:04:38.909228+00:00"
+  },
+  {
+    "repo": "njay-pro/hermes-archetype-subagent",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-20T07:04:38.909230+00:00"
+  },
+  {
+    "repo": "lincotalk/linco-bridge",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-20T07:04:38.909232+00:00"
+  },
+  {
+    "repo": "CardSorting/LUMI-JOY",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-20T07:04:38.909234+00:00"
   }
 ]
