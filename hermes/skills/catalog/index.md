@@ -512,3 +512,6 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Hono Skill — Edge Web Framework Setup by the Hono Author](/docs/hermes/skills/catalog/hono-skill-setup/)
 - [Capawesome Skills — Capacitor and Ionic Ecosystem Suite Setup](/docs/hermes/skills/catalog/capawesome-skills-setup/)
 - [Wyatt Walsh Agents — Skill Governance and Orchestration Suite Setup](/docs/hermes/skills/catalog/wyattowalsh-agents-setup/)
+- [Hermes Field Kit — Field-Tested Hermes Operations Skill Suite Setup](/docs/hermes/skills/catalog/hermes-field-kit-setup/)
+- [AtlasOmnia Hermes Custom Pack — 60+ Skill Independent Pack Setup](/docs/hermes/skills/catalog/atlasomnia-hermes-custom-pack-setup/)
+- [Buzz Skills — Hermes Agent on Nostr via Block's Buzz Setup](/docs/hermes/skills/catalog/buzz-skills-setup/)
