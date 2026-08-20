@@ -67,7 +67,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ## CorpusIQ Angle
 
-datamcp is complementary to CorpusIQ for operators who need direct database access. While CorpusIQ provides 36+ pre-built business connectors (QuickBooks, Shopify, HubSpot), datamcp gives operators the ability to connect custom databases and APIs that CorpusIQ doesn't natively support. Together: CorpusIQ for turnkey business data + datamcp for custom database/API access.
+datamcp is complementary to CorpusIQ for operators who need direct database access. While CorpusIQ provides 40+ pre-built business connectors (QuickBooks, Shopify, HubSpot), datamcp gives operators the ability to connect custom databases and APIs that CorpusIQ doesn't natively support. Together: CorpusIQ for turnkey business data + datamcp for custom database/API access.
 
 ## Limitations
 

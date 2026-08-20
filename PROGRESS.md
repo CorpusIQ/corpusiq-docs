@@ -2,15 +2,15 @@
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated August 19, 2026)
+## File count (updated August 20, 2026)
 
-- **Total Markdown files:** 1,742
-- **Total HTML files:** 1,641 (MkDocs build output)
+- **Total Markdown files:** 1,852
+- **Total HTML files:** 1,769 (MkDocs build output)
 - **Hermes subdirectory:** 29 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 20 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
-- **Skills catalog:** 473 setup guides for Hermes skills
-- **MCP servers:** 423 server listing markdown pages (+ HTML companions)
-- **SEO pages:** 121 programmatic landing pages targeting high-intent operator keywords
+- **Skills catalog:** 491 setup guides for Hermes skills
+- **MCP servers:** 488 server listing markdown pages (+ HTML companions)
+- **SEO pages:** 126 programmatic landing pages targeting high-intent operator keywords
 
 ## Site architecture
 
@@ -23,19 +23,20 @@ Current state and ongoing work for the public docs repository.
 
 - **No separate FAQ.** Folded into `how-it-works/` and `troubleshooting/` — a formal FAQ page can be added if user questions warrant it.
 
-## Current status — August 17, 2026
+## Current status — August 20, 2026
 
 The repo is actively maintained with daily automated updates:
 
 - **Ecosystem discovery:** Nightly GitHub scan finds new Hermes-related repos.
-- **MCP server scans:** MCP.so + mcpservers.org scanned daily. 423 servers listed with integration guides.
-- **Skills.sh marketplace:** Daily scan for new Hermes skills. 473 setup guides published.
-- **SEO pages:** 121 programmatic landing pages targeting operator search intent.
+- **MCP server scans:** MCP.so + mcpservers.org scanned daily. 488 servers listed with integration guides.
+- **Skills.sh marketplace:** Daily scan for new Hermes skills. 491 setup guides published.
+- **SEO pages:** 126 programmatic landing pages targeting operator search intent.
 - **Content ops:** Automated internal linking, meta descriptions, OG tags, and sitemap generation.
 - **Broken link repair:** Proactive weekly audit.
 
 ## Ongoing doc gaps
 
+- **Maintenance ✅ (Aug 20, 2026):** Normalized 5 connector-count stragglers (36+ → 40+) across docs/architecture/README.md, odoo-mcp.md (x2), datamcp-mcp, and refreshed stale ecosystem stats (36+ pages → 1,700+, 326+ repos → 450+, 133+ skills → 490+). Refreshed PROGRESS.md stats (1,852 MD files, 491 skills, 488 MCP servers, 126 SEO pages). Internal links: 0 broken. Frontmatter: all valid. Deployed to Vercel, changed pages verified HTTP 200.
 - **Maintenance ✅ (Aug 19, 2026):** Refreshed 21 stale `last_updated` dates (18 docs/*.md SEO pages stuck on 2026-06-16 + docs/index.md, hermes/index.md, hermes/README.md). Repointed 19 dead `skills.sh/aradotso/*` links to live GitHub repos (aradotso profile 404s on skills.sh) across 17 catalog/marketplace files. Fixed vibgrate trust link (`/mcp-trust` → `/trust`, was 404). Sanitized example private IP (10.0.0.100 → agent-a.local in meshtastic setup, verified absent upstream). Refreshed hermes-sitemap.xml (193 URLs) + sitemap-index.xml lastmod → 2026-08-19. Internal links: 0 broken. Deployed to Vercel, all changed pages HTTP 200.
 - **Maintenance ✅ (Aug 17, 2026):** Fixed 2 broken internal links in skills catalog (chrome-devtools + oh-my-hermes setup guides → /hermes/best-practices/security/). Refreshed all 3 sitemaps (sitemap.xml 323 URLs + hermes-sitemap.xml 193 URLs + sitemap-index.xml) from 2026-08-10/2026-06-17 → 2026-08-17. Refreshed PROGRESS.md stats (1,742 MD files, 473 skills, 423 MCP servers).
 - **Stale .html duplicates ✅ (Aug 15, 2026):** Removed 202 stale static .html files in hermes/ (22.8 MB) superseded by .md builds. They were copied into the site output as orphan pages with broken relative links (../../../quick-start.html → 404) and duplicate content. All had .md twins; none referenced in nav, sitemap, or .md content.
@@ -51,5 +52,5 @@ The repo is actively maintained with daily automated updates:
 
 ---
 
-*Last updated: August 17, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
+*Last updated: August 20, 2026. This repo is updated daily via automated crons. Canonical connector count: 40+ per corpusiq.io.*
 ---

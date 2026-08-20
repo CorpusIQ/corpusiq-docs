@@ -41,7 +41,7 @@ ODOO_URL={your-odoo-url} ODOO_DB={database-name} ODOO_USERNAME={user} ODOO_PASSW
 
 | Feature | Odoo MCP | CorpusIQ (QuickBooks, Stripe, Shopify) |
 |---------|----------|----------------------------------------|
-| ERP scope | Odoo-only | Multi-platform (36+ connectors) |
+| ERP scope | Odoo-only | Multi-platform (40+ connectors) |
 | Setup | Zero Odoo-side setup | OAuth 2.1, one-time connect |
 | Write access | Read-only (current) | Read-only |
 | Auth model | User/password XML-RPC | OAuth 2.1 PKCE |
@@ -57,6 +57,6 @@ ODOO_URL={your-odoo-url} ODOO_DB={database-name} ODOO_USERNAME={user} ODOO_PASSW
 
 ## See Also
 
-- [CorpusIQ MCP Connectors — 36+ business data sources](/hermes/mcp/connectors/)
+- [CorpusIQ MCP Connectors — 40+ business data sources](/hermes/mcp/connectors/)
 - [MCP Servers Index](/hermes/mcp/servers/external/)
 - [QuickBooks Integration via CorpusIQ](/hermes/mcp/connectors/#quickbooks)
