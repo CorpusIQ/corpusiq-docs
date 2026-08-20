@@ -41854,5 +41854,343 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-19T08:05:49.599570+00:00",
     "status": "pending"
+  },
+  {
+    "name": "jaswanthsai1/jacky-cli",
+    "url": "https://github.com/jaswanthsai1/jacky-cli",
+    "description": "Jacky CLI \u2014 an AI agent CLI with dual local/cloud model support and a built-in bug-bounty hunt-loop methodology. A personalized fork of Nous Research's Hermes Agent.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-20T05:00:27Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "MervinPraison/PraisonAI",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "kaankacar/stellar-agent-kit",
+      "anomaliagent007-hue/hermes-mimo-bridge",
+      "Bo1202/Aivy-OS",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "Anil-matcha/awesome-hermes-agent",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net"
+    ],
+    "discovered_at": "2026-08-20T05:02:56.924866+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sushiHex/hermes-jack-in",
+    "url": "https://github.com/sushiHex/hermes-jack-in",
+    "description": "Safely project Hermes Agent skills into Claude Code",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "claude-code",
+      "hermes-agent",
+      "python",
+      "windows"
+    ],
+    "updated_at": "2026-08-20T05:01:26Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-20T05:02:59.927913+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "veenyi/fnos-hermes-agent-web",
+    "url": "https://github.com/veenyi/fnos-hermes-agent-web",
+    "description": "fnOS Hermes Agent Web",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-20T04:59:26Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-20T05:03:02.930626+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "azascloud-cell/hermes-ondemand",
+    "url": "https://github.com/azascloud-cell/hermes-ondemand",
+    "description": "Hermes Agent on-demand via GitHub Actions + Pterodactyl listener",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-08-20T04:57:54Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-20T05:03:05.933358+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "FCSA45/welding-business-service",
+    "url": "https://github.com/FCSA45/welding-business-service",
+    "description": "\u710a\u63a5\u90e8\u4e0e\u6cb9\u6f06\u90e8\u667a\u80fd\u4f53\u4e1a\u52a1\u670d\u52a1\uff0c\u63d0\u4f9b\u4f01\u4e1a\u5fae\u4fe1\u63a5\u5165\u3001\u90e8\u95e8\u6743\u9650\u9694\u79bb\u3001\u7b80\u9053\u4e91\u6570\u636e\u67e5\u8be2\u3001Hermes MCP \u5de5\u5177\u548c\u5b9a\u65f6\u65e5\u62a5\u80fd\u529b\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-20T03:41:52Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-20T05:03:09.607224+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Knuckles92/pdash",
+    "url": "https://github.com/Knuckles92/pdash",
+    "description": "Private dashboards that Hermes, OpenClaw, and other agents can create & manage via MCP",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "dashboard",
+      "fastapi",
+      "homelab",
+      "mcp",
+      "nextjs",
+      "self-hosted",
+      "tailscale"
+    ],
+    "updated_at": "2026-08-20T03:15:38Z",
+    "category": "mcp",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-20T05:03:12.612599+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "psthi/browseros-skill",
+    "url": "https://github.com/psthi/browseros-skill",
+    "description": "Universal AI Agent Skill for BrowserOS browser automation and 40+ SaaS integrations via Streamable HTTP MCP (Antigravity, Claude Code, Gemini CLI, PicoClaw, Nanobot, Hermes)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "agentic-ai",
+      "agentskills",
+      "ai-agents",
+      "antigravity",
+      "browser-automation",
+      "browseros",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "gemini-cli",
+      "hermes-agent",
+      "mcp",
+      "model-context-protocol",
+      "nanobot",
+      "picoclaw",
+      "skills",
+      "web-scraping"
+    ],
+    "updated_at": "2026-08-20T01:54:03Z",
+    "category": "mcp",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "yoloshii/ClawMem",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "liaohch3/claude-tap",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net"
+    ],
+    "discovered_at": "2026-08-20T05:03:15.616035+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Unjuno/hermes-adaptive-evolution",
+    "url": "https://github.com/Unjuno/hermes-adaptive-evolution",
+    "description": "Research framework and Hermes Agent plugin for adaptive multi-agent organization, probabilistic interaction modeling, self-repair, skill evolution, and model specialization.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-20T03:41:56Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thestark77/cobalt-agent",
+      "verkyyi/agentfeeds-hermes-plugin"
+    ],
+    "discovered_at": "2026-08-20T05:03:19.272466+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "christopher-s/hermes-superpowers-gate",
+    "url": "https://github.com/christopher-s/hermes-superpowers-gate",
+    "description": "Compaction-proof companion gate for obra/superpowers on Hermes Agent: re-injects skill discipline after context compaction strips the official plugin bootstrap",
+    "stars": 1,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [
+      "hermes-agent",
+      "hooks",
+      "skills",
+      "superpowers"
+    ],
+    "updated_at": "2026-08-19T22:23:31Z",
+    "category": "skills",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-20T05:03:22.276185+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "trevor-commits/hermes-agent",
+    "url": "https://github.com/trevor-commits/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-20T05:01:22Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-20T05:03:26.128597+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "bkarthik2299/socialsuite-agent-tools",
+    "url": "https://github.com/bkarthik2299/socialsuite-agent-tools",
+    "description": "SocialSuite MCP connector and Hermes skill for agent integrations",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-08-19T10:02:53Z",
+    "category": "integrations",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-20T05:03:30.105169+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "satan9394/dsh-self-improving-agent",
+    "url": "https://github.com/satan9394/dsh-self-improving-agent",
+    "description": "DSH skill: \u81ea\u6539\u8fdb AI agent\uff08\u95ed\u73af\u5b66\u4e60\u56de\u8def\u3001\u6280\u80fd\u81ea\u521b\u5efa\u81ea\u6539\u8fdb\u3001\u8de8\u4f1a\u8bdd\u56de\u5fc6\u3001Honcho \u7528\u6237\u5efa\u6a21\u3001\u8de8\u5e73\u53f0\u7f51\u5173\u3001cron \u8c03\u5ea6\u3001serverless \u4f11\u7720\uff09\uff08\u53d7 NousResearch/hermes-agent 154k\u2605 \u542f\u53d1\uff09",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "dsh-plugin"
+    ],
+    "updated_at": "2026-08-20T00:48:56Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-20T05:06:59.961605+00:00",
+    "status": "pending"
   }
 ]
