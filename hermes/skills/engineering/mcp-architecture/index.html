@@ -10157,9 +10157,9 @@ grep<span class="w"> </span>-c<span class="w"> </span><span class="s2">&quot;asy
 </table>
 <p>Adding a render directive to one path and not the other ships a feature that's invisible to half your customers.</p>
 <p><strong>The fix is architectural debt management, not code:</strong> when intentional duplication can't be collapsed to a single source, add a <strong>lockstep equality test</strong> that asserts the two copies are equal. CI red on edit-one-copy is the durable fix. Pattern below; full discussion in the <a href="../consultant-connector-audit/#96-parallel-code-path-trap-refactor-missed-sibling">consultant-connector-audit §9.6</a>.</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">test_X_constants_in_lockstep_across_render_paths</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-    <span class="kn">from</span><span class="w"> </span><span class="nn">server</span><span class="w"> </span><span class="kn">import</span> <span class="n">_X_CONSTANT_A</span><span class="p">,</span> <span class="n">_X_CONSTANT_B</span>
-    <span class="kn">from</span><span class="w"> </span><span class="nn">openai_app.response_formatter</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">test_X_constants_in_lockstep_across_render_paths</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">server</span> <span class="kn">import</span> <span class="n">_X_CONSTANT_A</span><span class="p">,</span> <span class="n">_X_CONSTANT_B</span>
+    <span class="kn">from</span> <span class="nn">openai_app.response_formatter</span> <span class="kn">import</span> <span class="p">(</span>
         <span class="n">_OPENAI_X_CONSTANT_A</span><span class="p">,</span> <span class="n">_OPENAI_X_CONSTANT_B</span><span class="p">,</span>
     <span class="p">)</span>
     <span class="k">assert</span> <span class="n">_X_CONSTANT_A</span> <span class="o">==</span> <span class="n">_OPENAI_X_CONSTANT_A</span>
