@@ -12,7 +12,27 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 20, 2026 (overnight cron sweep) · **Sources:** chatmcp/mcpso GitHub issues (Aug 19 16:03 through Aug 20 02:00 UTC submissions), mcp.so homepage new arrival (SavePropTax), mcpservers.org homepage (TradeBrite pair + Taskfolk) · **Catalog:** 277 servers (+167 guides)
+> **Last updated:** August 20, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso GitHub issues #3654–#3655 (Aug 20 09:06–09:46 UTC submissions), mcp.so homepage new arrival (Xverum) · **Catalog:** 280 servers (+170 guides)
+## 🆕 August 20, 2026 — Morning Cron Sweep (3 New, 3 Guides)
+
+Morning sweep sourced from chatmcp/mcpso submission issues filed after the overnight cutoff (Aug 20 02:00 through 09:46 UTC) plus both directory homepages. 3 new business-relevant servers found: a Romanian official-registry lead-generation server with contact extraction and domain audits, a self-hosted YouTube research server with local semantic corpora, and a 750M-profile people search with job-change prediction. Skipped: Vital Care Finder (consumer healthcare appointment booking).
+
+### Leadgen MCP ★★ — August 20 (morning)
+
+Romanian business data and lead enrichment for AI agents: official ONRC registry lookup across 4.2M+ firms, director and legal-representative search (diacritic-insensitive), website contact extraction, and WHOIS/DNS/SPF-DMARC domain audits — 4 tools verified live via JSON-RPC probe. Remote at `hermes.adrianhomelab.com/mcp` (no auth, validation phase); registry `io.github.darksider4all/leadgen-mcp`. (MIT) · [Guide →](/hermes/mcp/servers/external/leadgen-mcp/)
+
+### tube-bridge MCP ★★ — August 20 (morning)
+
+Self-hosted YouTube research for AI agents: 17 tools for video and channel discovery, timestamped transcripts, comments, playlists, ephemeral frames at exact milliseconds, and private local semantic-search corpora (SQLite + sqlite-vec + local embeddings). 14 tools keyless via `uvx tube-bridge`; optional YouTube API key for 3 tools; Docker and self-hosted HTTP options. (MIT, PyPI v1.1.6) · [Guide →](/hermes/mcp/servers/external/tube-bridge-mcp/)
+
+### Xverum MCP ★★ — August 20 (morning)
+
+People search and enrichment across 750M professional profiles: plain-English search by role, seniority, skills, industry, and location, full profile pulls with work history, and Next Move Signal job-change prediction. Hosted remote at `mcp.xverum.com/mcp` with x-api-key header (OAuth in progress); registry `com.xverum/mcp`. (MIT) · [Guide →](/hermes/mcp/servers/external/xverum-mcp/)
+
+### Also identified (not catalogued)
+
+GitHub submissions reviewed and skipped this cycle: none beyond the overnight set. mcpservers.org homepage slug skipped: Vital Care Finder MCP (consumer doctor/dentist appointment booking — consistent with the MindMap AI consumer-niche skip).
+
 ## 🆕 August 20, 2026 — Overnight Cron Sweep (5 New, 5 Guides)
 
 Overnight sweep sourced from chatmcp/mcpso submission issues filed after the afternoon cutoff (Aug 19 16:03 through Aug 20 02:00 UTC) plus both directory homepages. 5 new business-relevant servers found: SAP analytics market intelligence with citation URLs and day-rate benchmarks, a California Proposition 8 property tax appeal service, the TradeBrite Dutch property and vehicle context pair built on official open registers, and the Taskfolk project-management MCP. Skipped: soccer prediction-market odds, x402 agent-infra tooling, an unpublished npm grant-search package, and consumer/design niches.
@@ -4258,6 +4278,13 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Dutch Property Context MCP — Netherlands Property Reports by Address](/docs/hermes/mcp/servers/external/dutch-property-context/)
 - [Dutch Vehicle Context MCP — Netherlands Vehicle Reports by Plate](/docs/hermes/mcp/servers/external/dutch-vehicle-context/)
 - [Taskfolk MCP — Project Management for Teams and AI Agents](/docs/hermes/mcp/servers/external/taskfolk-mcp/)
+
+### 3 new servers from chatmcp/mcpso issues + mcp.so homepage — Aug 20, 2026 (morning cron sweep)
+
+- [Leadgen MCP — Romanian Business Registry & Contact Enrichment](/docs/hermes/mcp/servers/external/leadgen-mcp/)
+- [tube-bridge MCP — Self-Hosted YouTube Research and Transcript Corpora](/docs/hermes/mcp/servers/external/tube-bridge-mcp/)
+- [Xverum MCP — People Search Across 750M Professional Profiles](/docs/hermes/mcp/servers/external/xverum-mcp/)
+
 
 
 
