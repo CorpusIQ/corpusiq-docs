@@ -10464,12 +10464,12 @@ mcp_corpusiq_calendar_connector
 <h2 id="adding-your-own-mcp-server">Adding Your Own MCP Server<a class="headerlink" href="#adding-your-own-mcp-server" title="Anchor link to this section">&para;</a></h2>
 <h3 id="option-a-fastmcp-python">Option A: FastMCP (Python)<a class="headerlink" href="#option-a-fastmcp-python" title="Anchor link to this section">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># my_server.py</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">fastmcp</span><span class="w"> </span><span class="kn">import</span> <span class="n">FastMCP</span>
+<span class="kn">from</span> <span class="nn">fastmcp</span> <span class="kn">import</span> <span class="n">FastMCP</span>
 
 <span class="n">mcp</span> <span class="o">=</span> <span class="n">FastMCP</span><span class="p">(</span><span class="s2">&quot;My Server&quot;</span><span class="p">)</span>
 
 <span class="nd">@mcp</span><span class="o">.</span><span class="n">tool</span><span class="p">()</span>
-<span class="k">def</span><span class="w"> </span><span class="nf">get_dashboard_metrics</span><span class="p">():</span>
+<span class="k">def</span> <span class="nf">get_dashboard_metrics</span><span class="p">():</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Return key business metrics&quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;mrr&quot;</span><span class="p">:</span> <span class="mi">12500</span><span class="p">,</span> <span class="s2">&quot;users&quot;</span><span class="p">:</span> <span class="mi">843</span><span class="p">,</span> <span class="s2">&quot;churn&quot;</span><span class="p">:</span> <span class="mf">0.02</span><span class="p">}</span>
 
@@ -10563,10 +10563,19 @@ hermes<span class="w"> </span>mcp<span class="w"> </span>auth<span class="w"> </
 <p><a href="actualyze-discovery">Actualyze — AI Governance Layer Joins MCP Ecosystem</a></p>
 </li>
 <li>
+<p><a href="ask-corpusiq">ask_corpusiq: Deterministic Single-Tool Access to Business Data</a></p>
+</li>
+<li>
 <p><a href="connectors">CorpusIQ MCP Connectors - CorpusIQ Docs</a></p>
 </li>
 <li>
 <p><a href="directories">MCP Directories - CorpusIQ Docs</a></p>
+</li>
+<li>
+<p><a href="mcp-apps-interactive-ui">MCP Apps: Interactive UIs Inside Claude and ChatGPT</a></p>
+</li>
+<li>
+<p><a href="mcp-spec-2026-07-28">MCP 2026-07-28 Spec: JSON Schema 2020-12, Stateless Protocol, and What Changed</a></p>
 </li>
 <li>
 <p><a href="runbook-governance">Prompt Compliance Is Not Governance</a></p>
