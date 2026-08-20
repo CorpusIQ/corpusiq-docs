@@ -44,8 +44,19 @@ def parse_description(frontmatter):
     """Extract description from frontmatter string or dict."""
     if isinstance(frontmatter, dict):
         return frontmatter.get('description', None)
+    try:
+        import yaml
+        data = yaml.safe_load(frontmatter)
+        if isinstance(data, dict) and data.get('description'):
+            return str(data['description'])
+    except Exception:
+        pass
+    # Fallback regexes: quoted first, then unquoted single-line (valid YAML)
     m = re.search(r'description:\s*"(.*?)"', str(frontmatter), re.DOTALL)
-    return m.group(1) if m else None
+    if m:
+        return m.group(1)
+    m = re.search(r'description:\s*([^\n].*)$', str(frontmatter), re.MULTILINE)
+    return m.group(1).strip().strip('"\'') if m else None
 
 
 def parse_title(frontmatter):
