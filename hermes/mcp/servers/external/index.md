@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-19"
+last_updated: "2026-08-20"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,35 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 19, 2026 (afternoon cron sweep) · **Sources:** chatmcp/mcpso GitHub issues (Aug 19 10:55 through 16:03 UTC submissions), mcp.so homepage new arrivals (all repeats), mcpservers.org homepage (no new slugs) · **Catalog:** 272 servers (+162 guides)
+> **Last updated:** August 20, 2026 (overnight cron sweep) · **Sources:** chatmcp/mcpso GitHub issues (Aug 19 16:03 through Aug 20 02:00 UTC submissions), mcp.so homepage new arrival (SavePropTax), mcpservers.org homepage (TradeBrite pair + Taskfolk) · **Catalog:** 277 servers (+167 guides)
+## 🆕 August 20, 2026 — Overnight Cron Sweep (5 New, 5 Guides)
+
+Overnight sweep sourced from chatmcp/mcpso submission issues filed after the afternoon cutoff (Aug 19 16:03 through Aug 20 02:00 UTC) plus both directory homepages. 5 new business-relevant servers found: SAP analytics market intelligence with citation URLs and day-rate benchmarks, a California Proposition 8 property tax appeal service, the TradeBrite Dutch property and vehicle context pair built on official open registers, and the Taskfolk project-management MCP. Skipped: soccer prediction-market odds, x402 agent-infra tooling, an unpublished npm grant-search package, and consumer/design niches.
+
+### Analytics Legends MCP ★★ — August 20 (overnight)
+
+Hosted read-only market intelligence for the SAP analytics services market: consulting firm directory searchable by country and SAP module, day-rate benchmarks (P25/P50/P75 by geography, stack and seniority with sample sizes), contract radar, and curated market news — every row carrying a `citation_url` and every response stating its population size. Remote at `analyticslegends.ai/mcp`; 14 tools keyless, 6 subscriber. (MIT) · [Guide →](/hermes/mcp/servers/external/analytics-legends-mcp/)
+
+### SavePropTax MCP ★★ — August 20 (overnight)
+
+California Proposition 8 property tax appeals from any MCP client: free over-assessment checks against recent comparable sales with estimated annual savings, county form preparation, and a signing link emailed to the homeowner — the agent never handles signatures or money. Keyless remote at `saveproptax.com/mcp`, flat $29 filing fee paid by the owner. (MIT) · [Guide →](/hermes/mcp/servers/external/saveproptax-mcp/)
+
+### Dutch Property Context MCP ★★ — August 20 (overnight)
+
+One verified property report per Dutch address, linking nine official open sources (BAG construction year and floor area, energy label, CBS neighbourhood stats, noise and air quality, monument status, schools) with explicit match-confidence and observation-only signals. Free keyless remote at `property-context.tradebrite.nl/mcp`. (MIT) · [Guide →](/hermes/mcp/servers/external/dutch-property-context/)
+
+### Dutch Vehicle Context MCP ★★ — August 20 (overnight)
+
+One verified vehicle report per Dutch licence plate from eleven official registers: APK/MOT history with readable defects, odometer verdict, full recall chain with risk and remedy, and severity-sorted buyer signals; theft status deliberately excluded and stated in every answer. Free keyless remote at `vehicle-context.tradebrite.nl/mcp`. (MIT) · [Guide →](/hermes/mcp/servers/external/dutch-vehicle-context/)
+
+### Taskfolk MCP ★★ — August 20 (overnight)
+
+First-party project-management MCP mirroring Taskfolk's roughly 180-operation REST API (issues, projects, sprints, comments, agents) with scoped API keys, webhooks, and per-call usage and audit views. Remote at `taskfolk.ai/api/mcp/v1`. (commercial, developer surface on workspace plans) · [Guide →](/hermes/mcp/servers/external/taskfolk-mcp/)
+
+### Also identified (not catalogued)
+
+GitHub submissions reviewed and skipped this cycle: Front of Goal Odds Agent (soccer prediction-market data — consistent with the footballcharts and livetennisapi sports skips), Vibes-Coded (x402 pay-per-call agent utilities — consistent with the 402oracle infrastructure skip), Krimskrams Paid APIs (npm package not yet published, mixed grant-search and marketplace-admin scope, x402 wallet setup). mcpservers.org slugs reviewed and skipped: 60fps Design (motion-reference design niche), MindMap AI (consumer mind-mapping), FlightPowers hotel support (thin vendor support surface). mcp.so homepage arrival skipped: CSOAI GSPC measurement (already noted in prior sweeps).
+
 ## 🆕 August 19, 2026 — Afternoon Cron Sweep (4 New, 4 Guides)
 
 Afternoon sweep sourced from chatmcp/mcpso submission issues filed after the morning cutoff (Aug 19 10:55 through 16:03 UTC). 4 new business-relevant servers found: an OAuth 2.1 connectivity gateway for 30+ business apps, the official WaveSpeed media-generation server, a pay-per-query real estate data refinery settled in USDC on Base, and a verified multi-source intelligence mesh with signed, source-declared verdicts. mcp.so homepage arrivals were repeats (CSOAI org previously noted; Waqi, Bitroad, FineData, TravelAnimator repeats); mcpservers.org homepage showed no new slugs.
@@ -4222,5 +4250,14 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [WaveSpeed MCP — Media Generation for AI Agents](/docs/hermes/mcp/servers/external/wavespeed-mcp/)
 - [RE Data Refinery MCP — Pay-Per-Query Real Estate Intelligence](/docs/hermes/mcp/servers/external/re-data-refinery-mcp/)
 - [SYNTHORA MCP — Verified Multi-Source Intelligence Mesh](/docs/hermes/mcp/servers/external/synthora-mcp/)
+
+### 5 new servers from chatmcp/mcpso issues + directory homepages — Aug 20, 2026 (overnight cron sweep)
+
+- [Analytics Legends MCP — SAP Analytics Market Intelligence](/docs/hermes/mcp/servers/external/analytics-legends-mcp/)
+- [SavePropTax MCP — California Proposition 8 Property Tax Appeals](/docs/hermes/mcp/servers/external/saveproptax-mcp/)
+- [Dutch Property Context MCP — Netherlands Property Reports by Address](/docs/hermes/mcp/servers/external/dutch-property-context/)
+- [Dutch Vehicle Context MCP — Netherlands Vehicle Reports by Plate](/docs/hermes/mcp/servers/external/dutch-vehicle-context/)
+- [Taskfolk MCP — Project Management for Teams and AI Agents](/docs/hermes/mcp/servers/external/taskfolk-mcp/)
+
 
 
