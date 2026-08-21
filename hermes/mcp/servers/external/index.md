@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-20"
+last_updated: "2026-08-21"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,31 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 20, 2026 (evening cron sweep) · **Sources:** chatmcp/mcpso GitHub issues #3656–#3663 (Aug 20 10:44–16:42 UTC), mcpservers.org /all page 1 (JSON-LD, 30 newest), mcp.so + mcpservers.org homepages · **Catalog:** 291 servers (+177 guides)
+> **Last updated:** August 21, 2026 (overnight cron sweep) · **Sources:** chatmcp/mcpso GitHub issues #3665–#3668 (Aug 20 20:13–Aug 21 00:48 UTC), mcpservers.org /all page 1 (TanStack SSR, 30 newest), mcp.so + mcpservers.org homepages · **Catalog:** 295 servers (+181 guides)
+
+## 🆕 August 21, 2026 — Overnight Cron Sweep (4 New, 4 Guides)
+
+Overnight sweep sourced from chatmcp/mcpso submission issues filed after the evening cutoff (Aug 20 20:13 through Aug 21 00:48 UTC), the mcpservers.org /all TanStack state (30 newest), and both directory homepages. 4 new business-relevant servers found: a keyless 13-tool website QA and AI-visibility toolkit, a carbide grade cross-reference for machining procurement, the official Webz.io news search MCP, and LiveSend document publishing with read analytics.
+
+### Superflow Free Tools MCP ★★ — August 21 (overnight)
+
+Thirteen keyless website QA and AI-visibility tools on one remote endpoint: `check_ai_visibility` (ChatGPT, Claude, Perplexity, Google AI reach), `check_robots_txt_for_ai`, `generate_llms_txt` per the llmstxt.org convention, `validate_json_ld`/`generate_json_ld`, `check_social_preview`, `detect_tech_stack`, `capture_full_page_screenshot`, `generate_alt_text`, `build_utm_url`, `page_to_markdown`, `check_favicon`, `hash_md5`. Hosted keyless at `usesuperflow.ai/api/mcp`; live-probed Aug 21 (server v1.0.0, 13 tools). (free) · [Guide →](/hermes/mcp/servers/external/superflow-free-tools/)
+
+### CuttingToolsAI MCP ★★ — August 21 (overnight)
+
+Brand-neutral carbide grade cross-reference for machining: one read-only `grade_xref` tool returns catalog-verified comparable insert grades across manufacturers at the same ISO application position, with provenance per row; unknown codes return empty rather than a guess. Keyless Cloudflare Worker endpoint; backed by the public cuttingtoolsai.eu/api/xref REST API. (MIT, free) · [Guide →](/hermes/mcp/servers/external/cuttingtoolsai-mcp/)
+
+### Webz.io News Search MCP ★★ — August 21 (overnight)
+
+Official vendor MCP from Webz.io: `news_search_by_webz` natural-language global news search with domain, country, language, sentiment, and 17-category filters, a 30-day recency window, and k up to 50 — results carry title, URL, publish date, and excerpt for citable research. Hosted at `news-search-mcp.webz.io/mcp` with a Bearer token (free key); ships an Agent Skill file. (commercial, free tier) · [Guide →](/hermes/mcp/servers/external/webz-news-search/)
+
+### LiveSend MCP ★★ — August 21 (overnight)
+
+Publish LLM-written reports to permanent, trackable, password-protected links: 12 tools across five intentions — publish (`create_document`, `add_version`), revise (`edit_document`, `list_versions`, `restore_version`), protect (`set_password`), measure (`get_analytics`, `get_comments`), and find (`list_documents`, `get_document`, `list_team_documents`, `share_document`). Hosted remote with a one-time browser approval flow; readers get a plain browser link. (freemium, 3 docs free) · [Guide →](/hermes/mcp/servers/external/livesend-mcp/)
+
+**Also identified (not catalogued):** no_human (local stdio coding-task bridge, dev tool — #3665), klo-mcp (native macOS video editor, creator tool — #3667), The Fomite (agent community memory/message-board infra), ego lite browser and kogiQA (browser tooling for coding agents), RADAAR (already catalogued), plus repeats already evaluated in prior sweeps (QR Planet, Xverum, SavePropTax, CSOAI GSPC, 3gpp-mcp, Waqi, Bitroad, Alpha Vantage, Arcaeon Ledger, and the /all and homepage slugs covered by the Aug 20 evening report).
+
+
 ## 🆕 August 20, 2026 — Evening Cron Sweep (11 New, 7 Guides)
 
 Evening sweep sourced from chatmcp/mcpso submission issues filed after the morning cutoff (Aug 20 10:44 through 16:42 UTC), the mcpservers.org /all JSON-LD page (30 newest), and both directory homepages. 11 new business-relevant servers found: an AI phone receptionist for small businesses, the official UK Pay by Bank payments MCP, dependency license verdicts computed against your distribution model, competitor ad creative intelligence, landing pages built and measured from chat, email verification with catch-all detection, and Northeast Ohio construction opportunity intelligence — plus four catalog entries covering US job-posting search, a natural-language data platform, a 254-tool education platform surface, and a database intelligence layer.
@@ -4346,6 +4370,14 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Simplepages MCP — Landing Pages Built and Measured from Chat](/docs/hermes/mcp/servers/external/simplepages-mcp/)
 - [Giggal.ai MCP — Email Verification with Catch-All Detection](/docs/hermes/mcp/servers/external/giggal-mcp/)
 - [Opportunity Atlas MCP — Northeast Ohio Construction Opportunity Intelligence](/docs/hermes/mcp/servers/external/opportunity-atlas-mcp/)
+
+### 4 new servers from chatmcp/mcpso issues + directory homepages — Aug 21, 2026 (overnight cron sweep)
+
+- [Superflow Free Tools MCP — Website QA and AI-Visibility Checks](/docs/hermes/mcp/servers/external/superflow-free-tools/)
+- [CuttingToolsAI MCP — Carbide Grade Cross-Reference for Machining](/docs/hermes/mcp/servers/external/cuttingtoolsai-mcp/)
+- [Webz.io News Search MCP — Global News Monitoring for AI Agents](/docs/hermes/mcp/servers/external/webz-news-search/)
+- [LiveSend MCP — Client Reports as Trackable Protected Links](/docs/hermes/mcp/servers/external/livesend-mcp/)
+
 
 
 
