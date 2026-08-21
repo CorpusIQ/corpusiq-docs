@@ -12,7 +12,57 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 21, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso GitHub issues #3669–#3672 (Aug 21 07:22–09:47 UTC), mcp.so + mcpservers.org homepages · **Catalog:** 298 servers (+184 guides)
+> **Last updated:** August 21, 2026 (afternoon cron sweep) · **Sources:** mcp.so Feed + mcpservers.org /all (Aug 21 12:00–18:00 UTC window), chatmcp/mcpso issues #3673–#3679 · **Catalog:** 309 servers (+195 guides)
+
+## 🆕 August 21, 2026 — Afternoon Cron Sweep (11 New, 11 Guides)
+
+Afternoon sweep sourced from the mcp.so Feed (newest 30 submissions), chatmcp/mcpso issues #3673–#3679 (Aug 21 11:08–17:36 UTC), and the mcpservers.org /all TanStack state. 11 new business-relevant servers found: a read-only Rent Manager portfolio intelligence server, primary-source SEC intelligence priced per call, a multi-app OAuth integration platform, the official Riddle interactive-content MCP, a scope-gated social publishing server, and six more covering docs publishing, LinkedIn voice content, website conversion provisioning, TomTicket helpdesk, Shopify App Store intelligence and Mobbin design research. 7 skipped (x402/crypto/dev-infra/geo-niche classes).
+
+### AskRentAI MCP ★★★ — August 21 (afternoon)
+
+Hosted read-only MCP for Rent Manager portfolios: plain-English NOI, rent roll, delinquency, vacancy, lease-expiration, work-order, vendor-spend and financial-report questions answered from live data. OAuth, Streamable HTTP at `api.askrentai.com/mcp`; $10/user/mo, 7-day trial; read-only by design — no write path back to the property system. (commercial, trial) · [Guide →](/hermes/mcp/servers/external/askrentai-mcp/)
+
+### Signal Nodus SEC Filings MCP ★★★ — August 21 (afternoon)
+
+Primary-source SEC intelligence, priced per call: 27 tools including sentence-level year-over-year 10-K/10-Q diffs, 8-K events, 13D/13G activist stakes, Form 4 insider trades, 13F holdings, IPO pipeline, full-text EDGAR search since 2001, XBRL financials with numeric claim verification, plus federal awards and lobbying. Endpoint `mcp.signalnodus.ai`; prepaid Bearer key or x402 per-call on Base; `lookup_company` free. (pay-per-call) · [Guide →](/hermes/mcp/servers/external/signal-nodus-mcp/)
+
+### One MCP ★★★ — August 21 (afternoon)
+
+One hosted MCP server for Gmail, Slack, Stripe, Shopify, HubSpot, Notion, Linear, Salesforce, QuickBooks and more: four tools — list integrations, search platform actions, read action knowledge docs, execute — over OAuth with per-connection scoped grants. `mcp.withone.ai/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/one-mcp/)
+
+### Riddle Quiz Maker MCP ★★★ — August 21 (afternoon)
+
+Official Riddle.com MCP: 62 tools to create and manage quizzes, polls, surveys, personality tests, forms, predictors, minigames and leaderboards with branching logic, custom design, live stats, lead capture and embed code. OAuth at `riddle.com/creator/api/v3/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/riddle-mcp/)
+
+### Maeve Social MCP ★★★ — August 21 (afternoon)
+
+Social publishing with scope-gated agent access: planning, scheduling, media and analytics reads are open, drafting needs permission, and anything public requires by-name confirmation (`publish_now:cnt_...`). Hosted at `api.maevesocial.com/mcp` (live-probed HTTP 401 auth gate). (commercial, 3-day trial) · [Guide →](/hermes/mcp/servers/external/maeve-social-mcp/)
+
+### lucid.page MCP ★★ — August 21 (afternoon)
+
+Publish Markdown as a typeset shareable page from any agent: `publish_doc` works anonymously with a claim-token flow; an `lp_` key adds updates with revisions, private docs, listing/deletion and multi-chapter bundles. Seven tools at `lucid.page/mcp`. (free; Pro analytics) · [Guide →](/hermes/mcp/servers/external/lucid-page-mcp/)
+
+### LinkedIn Ghostwriter MCP ★★ — August 21 (afternoon)
+
+ContentIn's voice-preserving LinkedIn writer: `write_post_in_my_voice` drafts from VoiceDNA trained on your posts, with schedule/publish via LinkedIn's official API and honest analytics read-back (unmeasured ≠ zero). Eight tools at `mcp.contentin.io/mcp-server` with an X-MCP-Key header. (commercial) · [Guide →](/hermes/mcp/servers/external/linkedin-ghostwriter-mcp/)
+
+### ClaraConverts MCP ★★ — August 21 (afternoon)
+
+MCP provisioning for a 24/7 website conversion agent: 9 tools cover pricing, trial-tenant creation, embed snippet, site-knowledge refresh, integration config, Cal.com event types and upgrade links. Public tools keyless; Bearer token after `create_trial_tenant`. `claraconverts.com/mcp`. (freemium, from $49/mo) · [Guide →](/hermes/mcp/servers/external/claraconverts-mcp/)
+
+### TomTicket MCP ★★ — August 21 (afternoon)
+
+TomTicket helpdesk over stdio: list and read tickets, reply as operator with work time, internal comments, transfers, status transitions and finish, plus customers, organizations, chats, departments and KB. `npx -y mcp-tomticket` with a `TOMTICKET_TOKEN`. (open source) · [Guide →](/hermes/mcp/servers/external/tomticket-mcp/)
+
+### BestAppify MCP ★★ — August 21 (afternoon)
+
+Shopify App Store intelligence for AI clients: 40 tools covering keyword rankings, opportunities, competitor tracking, review intelligence, forum mentions, listing changes, revenue and churn. Bearer key at `bestappify.app/api/mcp`; free tier 100 req/day, no card. (freemium) · [Guide →](/hermes/mcp/servers/external/bestappify-mcp/)
+
+### Mobbin MCP ★★ — August 21 (afternoon)
+
+Official Mobbin MCP: natural-language search over 600,000+ real product screens — screens, multi-step flows and website sections — with inline images and canonical mobbin_url citation. Three tools, OAuth at `api.mobbin.com/mcp`. (commercial) · [Guide →](/hermes/mcp/servers/external/mobbin-mcp/)
+
+**Also identified (not catalogued):** TaskMarket (x402 worker-market infra — #3673), rasterly (Firecrawl alternative, saturated web-scraping category — #3676), Magpie Capital (Solana lending — crypto, #3677), Skycloak (128-tool Keycloak IAM management — dev/IT infra), Parse.bot (browser-automation API builder — saturated category), AdminLanding (France/Switzerland rental-compliance — geo-niche, consistent with Saymon RU and eCourts India skips), Roboterradar RadarScore (humanoid-robot ratings dataset — research niche), plus mcpservers.org /all slugs reviewed and skipped (HostDeFi, ToolYour, DeepSearch, Melt, Registly, Signal Sprint, MaxCrawl — dev/niche tools) and Feed repeats already catalogued or previously skipped (Hermoso, RADAAR, Upfirst, Webz.io, Simplepages, DPF, Xverum, SavePropTax, Waqi, Bitroad, QR Planet, 3gpp-mcp, CSOAI GSPC, FineData.ai, Sonar ASO, Raccha AI, My AskAI).
 
 ## 🆕 August 21, 2026 - Morning Cron Sweep (3 New, 3 Guides)
 
@@ -4401,6 +4451,21 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [your-mail-mcp - Self-Hosted Read-Only IMAP Email for MCP Clients](/docs/hermes/mcp/servers/external/your-mail-mcp/)
 - [Newsmind MCP - RSS Semantic Search and News Digests for Agents](/docs/hermes/mcp/servers/external/newsmind-mcp/)
 - [den MCP - Korean AEC Standards with Clause References](/docs/hermes/mcp/servers/external/den-archi-mcp/)
+
+### 11 new servers from mcp.so Feed + mcpservers.org /all + mcpso issues — Aug 21, 2026 (afternoon cron sweep)
+
+- [AskRentAI MCP — Property Portfolio Intelligence for Rent Manager Operators](/docs/hermes/mcp/servers/external/askrentai-mcp/)
+- [Signal Nodus SEC Filings MCP — Primary-Source SEC Intelligence for AI Agents](/docs/hermes/mcp/servers/external/signal-nodus-mcp/)
+- [One MCP — One Hosted Server for Gmail, Slack, Stripe, Shopify, HubSpot and More](/docs/hermes/mcp/servers/external/one-mcp/)
+- [Riddle Quiz Maker MCP — Interactive Content and Lead Generation from AI Clients](/docs/hermes/mcp/servers/external/riddle-mcp/)
+- [Maeve Social MCP — Social Publishing with Scope-Gated Agent Access](/docs/hermes/mcp/servers/external/maeve-social-mcp/)
+- [lucid.page MCP — Publish Markdown Pages Instantly from Any Agent](/docs/hermes/mcp/servers/external/lucid-page-mcp/)
+- [LinkedIn Ghostwriter MCP — LinkedIn Posts in Your Voice](/docs/hermes/mcp/servers/external/linkedin-ghostwriter-mcp/)
+- [ClaraConverts MCP — Website Conversion Agent Provisioned Over MCP](/docs/hermes/mcp/servers/external/claraconverts-mcp/)
+- [TomTicket MCP — Helpdesk Operations from Any MCP Client](/docs/hermes/mcp/servers/external/tomticket-mcp/)
+- [BestAppify MCP — Shopify App Store Intelligence](/docs/hermes/mcp/servers/external/bestappify-mcp/)
+- [Mobbin MCP — 600,000 Real Product Screens for AI Design Research](/docs/hermes/mcp/servers/external/mobbin-mcp/)
+
 
 
 
