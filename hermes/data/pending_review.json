@@ -43027,5 +43027,162 @@
     ],
     "discovered_at": "2026-08-21T06:05:34.197280+00:00",
     "status": "pending"
+  },
+  {
+    "name": "ghbhiee/skills",
+    "url": "https://github.com/ghbhiee/skills",
+    "description": "Agent skills for Claude Code, Codex, OpenClaw, Hermes: temporary file-share links, layout-preserving PDF translation, PDF\u2192Markdown extraction, and book search/download",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "claude-code",
+      "codex",
+      "pdf-extraction",
+      "pdf-translation"
+    ],
+    "updated_at": "2026-08-21T07:01:02Z",
+    "category": "core",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "iOfficeAI/AionUi",
+      "EverMind-AI/EverOS",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "izillionways/academic-research-skills-hermes",
+      "Undermybelt/hermes-skills-research",
+      "0451-software/research-skills",
+      "BBridgeers/hermes-skills",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "WEIFENG2333/phistory",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net"
+    ],
+    "discovered_at": "2026-08-21T07:04:19.772790+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sinach9995/Text-editor",
+    "url": "https://github.com/sinach9995/Text-editor",
+    "description": "Text editor app by hermes agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-21T06:58:26Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-21T07:04:22.776144+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pestoura/hermes-mcp-bridge",
+    "url": "https://github.com/pestoura/hermes-mcp-bridge",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-21T06:38:45Z",
+    "category": "mcp",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-21T07:04:26.407468+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jasonwu-ai/hermes-agent",
+    "url": "https://github.com/jasonwu-ai/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-21T07:02:40Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-21T07:04:31.001076+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yxsyzht-pixel/hermes-agent",
+    "url": "https://github.com/yxsyzht-pixel/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-21T07:02:31Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-21T07:04:34.004057+00:00",
+    "status": "pending"
   }
 ]
