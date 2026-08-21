@@ -12,7 +12,25 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 21, 2026 (overnight cron sweep) · **Sources:** chatmcp/mcpso GitHub issues #3665–#3668 (Aug 20 20:13–Aug 21 00:48 UTC), mcpservers.org /all page 1 (TanStack SSR, 30 newest), mcp.so + mcpservers.org homepages · **Catalog:** 295 servers (+181 guides)
+> **Last updated:** August 21, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso GitHub issues #3669–#3672 (Aug 21 07:22–09:47 UTC), mcp.so + mcpservers.org homepages · **Catalog:** 298 servers (+184 guides)
+
+## 🆕 August 21, 2026 - Morning Cron Sweep (3 New, 3 Guides)
+
+Morning sweep sourced from chatmcp/mcpso submission issues filed after the overnight cutoff (#3669 through #3672, Aug 21 07:22-09:47 UTC) plus both directory homepages (all homepage candidates were repeats already evaluated). 3 new business-relevant servers found: a read-only self-hosted IMAP email server, a hosted RSS semantic-search and digest service, and Korean AEC standards with clause references. 1 skipped (Kura, x402 agent-wallet infrastructure, consistent with prior x402-infra decisions).
+
+### your-mail-mcp ★★ - August 21 (morning)
+
+Read-only, self-hosted IMAP email for MCP clients: ten read-only tools (`search`, `ids`, `files`, `count`, `show`, `thread`, `text`, `folders`, `refresh`, `attachment`) over a one-way mbsync mirror indexed by notmuch, served through OAuth 2.0 with Dynamic Client Registration. No send, delete, move or tag exists in the process. Docker or static Go binaries; junk and trash excluded by default; prompt-injection markers on all mail text. (self-hosted, free) · [Guide →](/hermes/mcp/servers/external/your-mail-mcp/)
+
+### Newsmind MCP ★★ - August 21 (morning)
+
+Hosted RSS for AI clients: 29 tools for reading and briefing, full-text and semantic search, story clustering and dedupe, keyword watches with scheduled email digests, subscriptions and OPML import/export. OAuth 2.1 in Claude, ChatGPT and Gemini, Bearer PATs for other clients; 14-day trial then from $24/year. Endpoint live at `newsmind.app/mcp` (HTTP 401 to anonymous probes, the expected gate). (paid, trial) · [Guide →](/hermes/mcp/servers/external/newsmind-mcp/)
+
+### den MCP ★ - August 21 (morning)
+
+Korean AEC standards (KDS, KCS, KS, building statutes) answered with the clause citation attached; abstains when it has no grounds and labels snippet scope (domestic norm vs foreign reference vs analysis). Ten tools including `k_snippets`, `compare`, `scenario`, `site_context` and `review_plan`, plus `as_of` for historical standards. Bearer token, free beta at den.archi; endpoint live (HTTP 401 unauthenticated, the expected gate). (free beta) · [Guide →](/hermes/mcp/servers/external/den-archi-mcp/)
+
+
 
 ## 🆕 August 21, 2026 — Overnight Cron Sweep (4 New, 4 Guides)
 
@@ -4377,6 +4395,13 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [CuttingToolsAI MCP — Carbide Grade Cross-Reference for Machining](/docs/hermes/mcp/servers/external/cuttingtoolsai-mcp/)
 - [Webz.io News Search MCP — Global News Monitoring for AI Agents](/docs/hermes/mcp/servers/external/webz-news-search/)
 - [LiveSend MCP — Client Reports as Trackable Protected Links](/docs/hermes/mcp/servers/external/livesend-mcp/)
+
+### 3 new servers from chatmcp/mcpso issues - Aug 21, 2026 (morning cron sweep)
+
+- [your-mail-mcp - Self-Hosted Read-Only IMAP Email for MCP Clients](/docs/hermes/mcp/servers/external/your-mail-mcp/)
+- [Newsmind MCP - RSS Semantic Search and News Digests for Agents](/docs/hermes/mcp/servers/external/newsmind-mcp/)
+- [den MCP - Korean AEC Standards with Clause References](/docs/hermes/mcp/servers/external/den-archi-mcp/)
+
 
 
 
