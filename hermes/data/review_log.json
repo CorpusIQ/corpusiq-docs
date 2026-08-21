@@ -10427,5 +10427,40 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-20T08:05:23.956585+00:00"
+  },
+  {
+    "repo": "SuperInstance/cns-bridge",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-21T05:03:45.996150+00:00"
+  },
+  {
+    "repo": "JerryLiu369/agent-web-search",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-21T05:03:45.996164+00:00"
+  },
+  {
+    "repo": "ghively/lifeops",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-21T05:03:45.996166+00:00"
+  },
+  {
+    "repo": "DaveTheAve/AgentRecall",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-21T05:03:45.996168+00:00"
+  },
+  {
+    "repo": "ngpestelos-mirrors/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-21T05:06:48.064467+00:00"
   }
 ]
