@@ -10462,5 +10462,33 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-08-21T05:06:48.064467+00:00"
+  },
+  {
+    "repo": "jakobbjelver/hermes-ui",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-21T06:05:42.849371+00:00"
+  },
+  {
+    "repo": "duthaho/lona",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-21T06:05:42.849386+00:00"
+  },
+  {
+    "repo": "rafaji2010/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-21T06:05:42.849389+00:00"
+  },
+  {
+    "repo": "leighton-tidwell/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-21T06:05:42.849391+00:00"
   }
 ]
