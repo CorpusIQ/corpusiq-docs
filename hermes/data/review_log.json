@@ -10525,5 +10525,47 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-21T07:04:42.720836+00:00"
+  },
+  {
+    "repo": "donniechublog/hermes-content-agent-team",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-21T08:03:41.645255+00:00"
+  },
+  {
+    "repo": "gyeolhwi/hermes-agent-setup",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-21T08:03:41.645270+00:00"
+  },
+  {
+    "repo": "denisrasulev/hermes-reddit-integration",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-21T08:03:41.645272+00:00"
+  },
+  {
+    "repo": "sh0tn1k/telegram-ads",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-21T08:03:41.645274+00:00"
+  },
+  {
+    "repo": "lmou7758258/skill-gardener",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-21T08:03:41.645275+00:00"
+  },
+  {
+    "repo": "eikarna/kerux",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-21T08:03:41.645277+00:00"
   }
 ]

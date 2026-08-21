@@ -43184,5 +43184,179 @@
     ],
     "discovered_at": "2026-08-21T07:04:34.004057+00:00",
     "status": "pending"
+  },
+  {
+    "name": "donniechublog/hermes-content-agent-team",
+    "url": "https://github.com/donniechublog/hermes-content-agent-team",
+    "description": "daily social post ",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-21T08:01:07Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-21T08:03:15.730293+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "gyeolhwi/hermes-agent-setup",
+    "url": "https://github.com/gyeolhwi/hermes-agent-setup",
+    "description": "Hermes Agent \uc138\ud305 \uac00\uc774\ub4dc",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "hermes-agent"
+    ],
+    "updated_at": "2026-08-21T07:59:49Z",
+    "category": "core",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-21T08:03:18.732454+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "denisrasulev/hermes-reddit-integration",
+    "url": "https://github.com/denisrasulev/hermes-reddit-integration",
+    "description": "Personal, read-only Reddit integration for a self-hosted Hermes Agent - documentation for Reddit Data API access review.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-21T07:58:36Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-21T08:03:21.734536+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sh0tn1k/telegram-ads",
+    "url": "https://github.com/sh0tn1k/telegram-ads",
+    "description": "Agent plugin for ads.telegram.org (Hermes + Claude Code). Local stdio MCP, not a hosted server.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-21T07:54:47Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-21T08:03:25.503182+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "lmou7758258/skill-gardener",
+    "url": "https://github.com/lmou7758258/skill-gardener",
+    "description": "Automated health audits for Hermes Agent skills: deduplication, staleness detection, and candidate mining \u2014 with a cron + plugin delivery pipeline.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "automation",
+      "cron",
+      "deduplication",
+      "hermes",
+      "hermes-agent",
+      "python",
+      "skill-management",
+      "skills"
+    ],
+    "updated_at": "2026-08-21T07:19:30Z",
+    "category": "skills",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent-self-evolution",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "jnMetaCode/shellward",
+      "Sibyl-Labs/Sibyl-Memory",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "kaankacar/stellar-agent-kit",
+      "zakahadi/llm-eval-cli",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "stephenschoettler/hermes-lcm",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-08-21T08:03:29.153256+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "eikarna/kerux",
+    "url": "https://github.com/eikarna/kerux",
+    "description": "A high-performance Rust implementation orchestration loop for LLM-driven tool execution.",
+    "stars": 66,
+    "forks": 10,
+    "language": "Rust",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-coding",
+      "ai-tools",
+      "automation",
+      "autonomous-agents",
+      "claude-code",
+      "clawdbot",
+      "codex",
+      "hermes-agent",
+      "hermes-rs",
+      "nous-research",
+      "openai",
+      "openclaw",
+      "orchestration",
+      "rust",
+      "rust-cli",
+      "rust-crate",
+      "rust-lang",
+      "rust-library"
+    ],
+    "updated_at": "2026-08-21T08:02:01Z",
+    "category": "forks",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_topic",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-21T08:03:32.838711+00:00",
+    "status": "pending"
   }
 ]
