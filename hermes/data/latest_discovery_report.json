@@ -1,55 +1,48 @@
 {
-  "run_time": "2026-08-19T07:03:58.207065+00:00",
+  "run_time": "2026-08-22T07:05:33.928083+00:00",
   "new_approved": [
     {
-      "name": "titanwings/colleague-skill",
-      "url": "https://github.com/titanwings/colleague-skill",
-      "description": "\u5c06\u51b0\u51b7\u7684\u79bb\u522b\u5316\u4e3a\u6e29\u6696\u7684 Skill\uff0c\u6b22\u8fce\u52a0\u5165\u6570\u5b57\u751f\u547d1.0\uff01Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. \ud83e\udef6",
-      "stars": 23449,
-      "forks": 2085,
+      "name": "Eynzof/Hermes-CN-Core",
+      "url": "https://github.com/Eynzof/Hermes-CN-Core",
+      "description": "Chinese community fork of Hermes Agent with CN provider metadata and signed desktop runtime releases",
+      "stars": 68,
+      "forks": 16,
       "language": "Python",
       "topics": [
-        "agent-skills",
-        "agentic-ai",
         "ai-agent",
-        "ai-persona",
-        "claude-code",
-        "claude-code-skills",
-        "codex",
-        "codex-skills",
-        "deepseek-harness",
-        "digital-human",
-        "dsh-plugin",
+        "chinese-community",
+        "cli",
+        "desktop-runtime",
         "hermes-agent",
-        "knowledge-distillation",
-        "llm-agent",
-        "meta-skill",
-        "openclaw",
-        "prompt-engineering",
-        "skill-generator"
+        "mcp",
+        "python",
+        "tui"
       ],
-      "updated_at": "2026-08-19T07:03:02Z",
+      "updated_at": "2026-08-22T07:01:53Z",
       "category": "forks",
-      "score": 75,
+      "score": 76,
       "tier": "AUTO_APPROVE",
       "score_reasons": [
-        "hermes_topic",
+        "direct_hermes_reference",
         "agent_ecosystem",
-        "high_stars_1000+",
+        "some_stars_10+",
         "detailed_description",
-        "active_week"
+        "active_week",
+        "has_homepage"
       ],
-      "near_duplicates": [],
-      "discovered_at": "2026-08-19T07:03:46.450034+00:00",
+      "near_duplicates": [
+        "Eynzof/Hermes-CN-Desktop"
+      ],
+      "discovered_at": "2026-08-22T07:03:43.762401+00:00",
       "status": "approved",
-      "approved_at": "2026-08-19T07:03:58.170143+00:00"
+      "approved_at": "2026-08-22T07:05:33.888899+00:00"
     }
   ],
   "stats": {
-    "total_found": 4,
+    "total_found": 5,
     "auto_approved": 1,
-    "pending_review": 3,
-    "total_approved": 170,
-    "total_pending": 1481
+    "pending_review": 4,
+    "total_approved": 171,
+    "total_pending": 1555
   }
 }
