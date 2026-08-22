@@ -133,7 +133,7 @@ The question every enterprise faces: build an AI data access layer in-house or a
 
 **Total in-house build: 12–18 months of engineering, $500K–$1.5M in engineering cost, plus ongoing maintenance.**
 
-CorpusIQ provides this stack  --  50+ enterprise connectors, SSO integration, RBAC, read-only enforcement, audit trails, a SOC 2 aligned posture, CASA Tier 2 certification by DEKRA, and managed infrastructure  --  without requiring customers to build the connector layer themselves.
+CorpusIQ provides this stack  --  40+ enterprise connectors, SSO integration, RBAC, read-only enforcement, audit trails, a SOC 2 aligned posture, CASA Tier 2 certification by DEKRA, and managed infrastructure  --  without requiring customers to build the connector layer themselves.
 
 ## How It Works
 

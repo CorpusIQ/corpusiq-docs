@@ -128,7 +128,7 @@ A: Many organizations use both. Zapier automates processes; CorpusIQ provides in
 A: Zapier charges per task executed. CorpusIQ charges per seat. For analysis-heavy use cases, CorpusIQ is typically more cost-effective. For automation-heavy use cases, Zapier's pricing model may be more suitable.
 
 **Q: Does CorpusIQ support as many apps as Zapier?**  
-A: No. Zapier has 7,000+ integrations. CorpusIQ has 50+ and growing. CorpusIQ focuses on depth (rich, AI-queryable data) rather than breadth (simple trigger-action connections).
+A: No. Zapier has 7,000+ integrations. CorpusIQ has 40+ and growing. CorpusIQ focuses on depth (rich, AI-queryable data) rather than breadth (simple trigger-action connections).
 
 **Q: Can I trigger CorpusIQ queries from Zapier?**  
 A: Yes. You can use Zapier's webhook or API actions to call CorpusIQ endpoints, combining automated triggers with AI-powered analysis.

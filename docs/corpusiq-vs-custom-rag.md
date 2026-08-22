@@ -63,7 +63,7 @@ A production-grade custom RAG system requires:
 |--------|-----------|----------|
 | **Time to First Query** | 3-12 months | 2 minutes |
 | **Engineering Required** | Senior ML/Data engineers | None |
-| **Data Sources** | Whatever you build | 50+ pre-built |
+| **Data Sources** | Whatever you build | 40+ pre-built |
 | **Query Accuracy** | Approximate (similarity search) | Exact (API calls) |
 | **Data Freshness** | Batch-dependent | Real-time (live API) |
 | **Aggregations** | Difficult (post-retrieval) | Native (API-level) |

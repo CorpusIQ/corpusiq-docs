@@ -96,7 +96,7 @@ mcp_servers:
 
 | Use Case | How |
 |---|---|
-| **CorpusIQ MCP integration** | Connect Hermes agents to the CorpusIQ MCP server (54+ data connectors) for live business data access |
+| **CorpusIQ MCP integration** | Connect Hermes agents to the CorpusIQ MCP server (40+ data connectors) for live business data access |
 | **Multi-server orchestration** | Connect to 3+ MCP servers simultaneously  --  analytics, CRM, and email  --  for cross-source workflow automation |
 | **Development toolchain** | Connect to local MCP servers (filesystem, git, database) for agent-powered development workflows |
 | **Customer deployments** | Configure customer-specific MCP servers with scoped tool access for white-label agent deployments |

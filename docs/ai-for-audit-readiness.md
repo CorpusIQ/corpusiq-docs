@@ -5,7 +5,7 @@ description: Transform audit preparation with AI. Query financial records, polic
 url: /docs/ai-for-audit-readiness
 h1: 'AI for Audit Readiness: Always Prepared, Never Scrambling'
 category: Business Use Cases
-last_updated: '2025-06-16'
+last_updated: '2026-08-22'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-audit-readiness
 keywords:

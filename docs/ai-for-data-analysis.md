@@ -1,11 +1,10 @@
 ---
-title: AI for Data Analysis  --  Transform Analytics with CorpusIQ MCP
 title: AI for Data Analysis | CorpusIQ MCP Platform for Analytics
 description: Transform data analysis with AI. Query databases, spreadsheets, and business tools in natural language. Instant SQL-free analysis, cross-source correlation, and automated insight generation.
 url: /docs/ai-for-data-analysis
 h1: 'AI for Data Analysis: From SQL Queries to Natural Conversations'
 category: Business Use Cases
-last_updated: '2025-06-16'
+last_updated: '2026-08-22'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-data-analysis
 keywords:
@@ -59,7 +58,7 @@ In traditional analytics, ad-hoc questions require filing a ticket and waiting d
 
 - **Database connectors:** PostgreSQL, MSSQL, MongoDB, Azure Cosmos DB  --  direct query access.
 - **Spreadsheets:** Google Sheets, Excel files in Drive/OneDrive/SharePoint  --  structured data access.
-- **Business systems:** 50+ pre-built connectors to CRM, ERP, analytics, marketing, and billing tools.
+- **Business systems:** 40+ pre-built connectors to CRM, ERP, analytics, marketing, and billing tools.
 - **Cross-source analysis:** Query multiple systems in a single natural language request.
 - **Read-only security:** All database connections are read-only. No risk of data modification.
 

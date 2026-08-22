@@ -8,7 +8,7 @@
 [![Contributors](https://img.shields.io/badge/Contributors-welcome-0a2540?style=flat-square)](https://github.com/CorpusIQ/corpusiq-docs/blob/main/CONTRIBUTING.md)
 [![License](https://img.shields.io/badge/License-MIT-627d98?style=flat-square)](LICENSE)
 
-**CorpusIQ is the live-data brain you plug into ChatGPT, Claude, or any AI assistant.** Connect the tools you already use — QuickBooks, Shopify, Stripe, HubSpot, GA4, Klaviyo, Slack, and 35+ more — then ask plain-English questions and get answers grounded in your actual business data. No dashboards. No reports. No waiting on someone to pull the numbers.
+**CorpusIQ is the live-data brain you plug into ChatGPT, Claude, or any AI assistant.** Connect the tools you already use — QuickBooks, Shopify, Stripe, HubSpot, GA4, Klaviyo, Slack, and 40+ more — then ask plain-English questions and get answers grounded in your actual business data. No dashboards. No reports. No waiting on someone to pull the numbers.
 
 > "How much did we make last month across Shopify and Stripe?" — answered in seconds.
 

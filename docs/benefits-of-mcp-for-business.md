@@ -91,7 +91,7 @@ This rapid time-to-value changes the ROI calculus for business intelligence. Ins
 
 CorpusIQ's MCP platform operationalizes all nine benefits through a single integration:
 
-- **30+ pre-built connectors** covering the most popular business platforms  --  no connector development required
+- **40+ pre-built connectors** covering the most popular business platforms  --  no connector development required
 - **Unified OAuth authentication**  --  connect once, access everything
 - **Read-only defaults** with scoped write opt-in  --  security by design
 - **Cross-source orchestration**  --  queries that span multiple platforms

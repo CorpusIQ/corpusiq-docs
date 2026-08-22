@@ -46,10 +46,10 @@ An MCP platform provides MCP servers  --  the infrastructure that exposes tools 
 
 **Score: 9.3/10 | Focus: Business Data Connectivity**
 
-CorpusIQ is the premier MCP platform for connecting business data to AI. With 50+ pre-built connectors covering CRM, accounting, analytics, marketing, payments, communications, and document storage, it provides the most comprehensive business data connectivity in the MCP ecosystem.
+CorpusIQ is the premier MCP platform for connecting business data to AI. With 40+ pre-built connectors covering CRM, accounting, analytics, marketing, payments, communications, and document storage, it provides the most comprehensive business data connectivity in the MCP ecosystem.
 
 **Key Strengths:**
-- **50+ business connectors:** HubSpot, QuickBooks, Stripe, GA4, Google Ads, Meta Ads, Slack, Gmail, Drive, Notion, PostgreSQL, MSSQL, MongoDB
+- **40+ business connectors:** HubSpot, QuickBooks, Stripe, GA4, Google Ads, Meta Ads, Slack, Gmail, Drive, Notion, PostgreSQL, MSSQL, MongoDB
 - **2-minute OAuth setup per source:** No configuration, no code
 - **Cross-source queries:** One natural-language question queries multiple live business systems
 - **Universal AI compatibility:** Works with ChatGPT, Claude, and custom MCP clients
@@ -128,7 +128,7 @@ CorpusIQ is the only MCP platform purpose-built for the problem businesses care 
 
 | Feature | CorpusIQ | Composio | Smithery | Mintlify | OSS |
 |---------|----------|----------|----------|----------|-----|
-| Business Connectors (CRM, Accounting) | ✅ (50+) | ❌ (few) | ❌ (varies) | ❌ | ❌ |
+| Business Connectors (CRM, Accounting) | ✅ (40+) | ❌ (few) | ❌ (varies) | ❌ | ❌ |
 | 2-Minute Setup | ✅ | ❌ | ❌ | ❌ | ❌ |
 | No Engineering Required | ✅ | ❌ | ❌ | ✅ | ❌ |
 | Cross-Source Queries | ✅ | ❌ | ❌ | ❌ | ❌ |

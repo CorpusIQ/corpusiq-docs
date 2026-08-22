@@ -51,7 +51,7 @@ No. Shopify stays your system of record. CorpusIQ reads from it and answers ques
 ChatGPT, Claude, and Perplexity, all through the same connector.
 
 ### How is this different from Shopify's built-in analytics?
-Shopify's analytics answer questions about Shopify. CorpusIQ answers questions that span Shopify plus QuickBooks, Stripe, GA4, Google Ads, and 35+ other tools in one prompt.
+Shopify's analytics answer questions about Shopify. CorpusIQ answers questions that span Shopify plus QuickBooks, Stripe, GA4, Google Ads, and 40+ other tools in one prompt.
 
 ## Try it
 

@@ -22,7 +22,7 @@ MCP is built on a layered architecture that separates concerns cleanly:
 
 **Layer 3: MCP Primitives**  --  The domain objects. Tools, resources, prompts, and sampling. These are the abstractions that make MCP useful for AI integration rather than just another RPC framework.
 
-**Layer 4: Application Logic**  --  The actual data connectors. This is where CorpusIQ's 30+ business integrations live  --  the code that translates MCP tool calls into QuickBooks API requests, Shopify GraphQL queries, or Google Analytics reports.
+**Layer 4: Application Logic**  --  The actual data connectors. This is where CorpusIQ's 40+ business integrations live  --  the code that translates MCP tool calls into QuickBooks API requests, Shopify GraphQL queries, or Google Analytics reports.
 
 ## Transport Layer in Detail
 
@@ -215,7 +215,7 @@ CorpusIQ's authentication model:
 
 While the base MCP protocol provides the foundation, CorpusIQ adds several enterprise-grade features:
 
-**Unified server architecture.** Instead of running separate MCP server processes for each data source, CorpusIQ runs a single MCP server that manages 30+ connectors. This reduces operational complexity and enables cross-source queries.
+**Unified server architecture.** Instead of running separate MCP server processes for each data source, CorpusIQ runs a single MCP server that manages 40+ connectors. This reduces operational complexity and enables cross-source queries.
 
 **Cross-source orchestration.** When a user asks a question that spans multiple data sources  --  like "compare ad spend from Meta with revenue from Shopify"  --  CorpusIQ orchestrates multiple tool calls, normalizes the responses, and presents unified results to the AI model.
 

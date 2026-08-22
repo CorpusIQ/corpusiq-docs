@@ -40,7 +40,7 @@ MCP takes a fundamentally different approach:
 
 **4. Structured Responses by Default.** MCP tool responses follow a consistent format regardless of the underlying API. The AI model receives structured data it can interpret without custom parsing logic.
 
-**5. Maintenance Handled Upstream.** When an API changes, the MCP server connector is updated  --  not your integration code. CorpusIQ maintains connectors for 30+ platforms, absorbing the maintenance burden so you don't have to.
+**5. Maintenance Handled Upstream.** When an API changes, the MCP server connector is updated  --  not your integration code. CorpusIQ maintains connectors for 40+ platforms, absorbing the maintenance burden so you don't have to.
 
 ## Tool Discovery: The Killer Feature
 
@@ -113,11 +113,11 @@ With MCP, each new data source adds:
 - Zero new code
 - Zero new maintenance
 
-This scalability difference is why MCP can support 30+ business connectors through a single platform. Each connector is built once and works with any MCP-compatible AI client.
+This scalability difference is why MCP can support 40+ business connectors through a single platform. Each connector is built once and works with any MCP-compatible AI client.
 
 ## The CorpusIQ Difference
 
-CorpusIQ has built the world's most comprehensive MCP server for business systems. Instead of running separate MCP servers for each platform, CorpusIQ provides a single MCP server that manages 30+ connectors  --  unified authentication, consistent tool naming, and cross-source query capabilities.
+CorpusIQ has built the world's most comprehensive MCP server for business systems. Instead of running separate MCP servers for each platform, CorpusIQ provides a single MCP server that manages 40+ connectors  --  unified authentication, consistent tool naming, and cross-source query capabilities.
 
 Key CorpusIQ features that go beyond raw API access:
 

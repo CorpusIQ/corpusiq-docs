@@ -23,7 +23,7 @@ Go to your CorpusIQ dashboard. Connect tools via OAuth:
 - Stripe (read-only)
 - HubSpot (read-only)
 - Shopify (read-only)
-- GA4, Google Ads, Meta Ads, and 30+ more
+- GA4, Google Ads, Meta Ads, and 40+ more
 
 Each takes 30 seconds. One click. No API keys to manage.
 

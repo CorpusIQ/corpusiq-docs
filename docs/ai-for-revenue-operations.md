@@ -1,11 +1,10 @@
 ---
-title: AI for Revenue Operations  --  Unify Your Revenue Stack with CorpusIQ MCP
 title: AI for Revenue Operations | CorpusIQ MCP Platform for RevOps
 description: Transform Revenue Operations with AI. Connect CRM, marketing, billing, and analytics for unified revenue intelligence. Cross-source analysis, real-time metrics, read-only MCP integration.
 url: /docs/ai-for-revenue-operations
 h1: 'AI for Revenue Operations: Unify Your Revenue Data'
 category: Business Use Cases
-last_updated: '2025-06-16'
+last_updated: '2026-08-22'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-revenue-operations
 keywords:
@@ -116,7 +115,7 @@ The CorpusIQ platform provides the connective tissue that makes unified RevOps p
 A: No. CorpusIQ queries live systems directly. No data replication needed. For organizations with existing data warehouses, database connectors can include warehouse data in queries.
 
 **Q: How many systems can be connected?**
-A: CorpusIQ supports 50+ pre-built connectors. Unlimited connections per account.
+A: CorpusIQ supports 40+ pre-built connectors. Unlimited connections per account.
 
 **Q: Can I build RevOps dashboards with this?**
 A: CorpusIQ provides conversational intelligence  --  on-demand answers and analysis. For dashboards, complement with BI tools. For ad-hoc questions and cross-source analysis, CorpusIQ is the fastest path.

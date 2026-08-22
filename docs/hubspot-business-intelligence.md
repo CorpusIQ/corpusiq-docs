@@ -73,7 +73,7 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
 | **AI-Agnostic** | Works with any MCP-compatible assistant  --  ChatGPT, Claude, custom builds, or embedded AI |
 | **Real-Time Accuracy** | Every answer reflects the current state of your CRM, not last night's batch sync |
 | **No SQL Required** | Business users ask questions in plain English; the AI translates to API calls |
-| **Cross-Platform** | Combine HubSpot with 50+ other data sources for holistic business answers |
+| **Cross-Platform** | Combine HubSpot with 40+ other data sources for holistic business answers |
 | **Secure by Design** | Read-only direct MCP live retrieval; raw customer files and full connector response payloads are not retained; operational logs are retained for up to 30 days |
 
 ## Use Cases

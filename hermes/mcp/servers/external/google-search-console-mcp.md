@@ -71,7 +71,7 @@ Requires a Google Cloud OAuth 2.0 client ID configured for the Search Console AP
 
 ## Integration with CorpusIQ
 
-CorpusIQ can connect to this MCP server alongside its existing 36+ business data sources. Operators using CorpusIQ for Shopify/QuickBooks/GA4 analytics can add GSC data for a unified view of business + search performance.
+CorpusIQ can connect to this MCP server alongside its existing 40+ business data sources. Operators using CorpusIQ for Shopify/QuickBooks/GA4 analytics can add GSC data for a unified view of business + search performance.
 
 ## Limitations
 

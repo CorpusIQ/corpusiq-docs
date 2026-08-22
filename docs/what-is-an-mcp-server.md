@@ -153,7 +153,7 @@ MCP uses OAuth 2.0 for authentication, supports scoped access tokens, and encryp
 <details>
 <summary><strong>What data sources does MCP support?</strong></summary>
 
-Any data source with an API can be exposed through an MCP server. CorpusIQ provides pre-built connectors for 30+ business platforms including Shopify, QuickBooks, HubSpot, Google Analytics, Stripe, Meta Ads, and more. Custom connectors can be built for proprietary systems.
+Any data source with an API can be exposed through an MCP server. CorpusIQ provides pre-built connectors for 40+ business platforms including Shopify, QuickBooks, HubSpot, Google Analytics, Stripe, Meta Ads, and more. Custom connectors can be built for proprietary systems.
 </details>
 
 <details>

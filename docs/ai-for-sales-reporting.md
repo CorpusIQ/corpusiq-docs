@@ -4,7 +4,7 @@ description: Transform sales reporting with AI. Query Salesforce, HubSpot, Close
 url: /docs/ai-for-sales-reporting
 h1: 'AI for Sales Reporting: Pipeline Intelligence in Real Time'
 category: Business Use Cases
-last_updated: '2025-06-16'
+last_updated: '2026-08-22'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-sales-reporting
 keywords:

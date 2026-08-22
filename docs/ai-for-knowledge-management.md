@@ -1,11 +1,10 @@
 ---
-title: AI for Knowledge Management  --  Institutional Intelligence with CorpusIQ MCP
 title: AI for Knowledge Management | CorpusIQ MCP Platform for KM
 description: Transform knowledge management with AI. Query wikis, docs, Slack, and project tools in natural language. Surface institutional knowledge, accelerate onboarding, and prevent knowledge loss.
 url: /docs/ai-for-knowledge-management
 h1: 'AI for Knowledge Management: Unlock Your Organization''s Brain'
 category: Business Use Cases
-last_updated: '2025-06-16'
+last_updated: '2026-08-22'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-knowledge-management
 keywords:

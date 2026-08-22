@@ -156,7 +156,7 @@ CorpusIQ makes multi-source AI queries possible by:
 ## FAQ
 
 **Q: How many sources can I connect simultaneously?**  
-A: All 50+ CorpusIQ connectors can be active at once. Your AI assistant can query any combination of them.
+A: All 40+ CorpusIQ connectors can be active at once. Your AI assistant can query any combination of them.
 
 **Q: Does querying multiple sources slow down responses?**  
 A: Minimally. CorpusIQ executes queries in parallel. A 5-source query typically completes in 3-8 seconds.

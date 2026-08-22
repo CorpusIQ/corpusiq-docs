@@ -4,7 +4,7 @@ description: Connect Notion to Claude using CorpusIQ's MCP platform. Search page
 url: /docs/connect-notion-to-claude
 h1: 'Connect Notion to Claude: Your Wiki as an AI Knowledge Base'
 category: Claude Integrations
-last_updated: '2025-06-16'
+last_updated: '2026-08-22'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/connect-notion-to-claude
 keywords:

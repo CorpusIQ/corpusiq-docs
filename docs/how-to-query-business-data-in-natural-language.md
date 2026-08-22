@@ -128,7 +128,7 @@ Top Performing Reps:
 
 | What You Need | How CorpusIQ Provides It |
 |--------------|-------------------------|
-| **Data connectivity** | 50+ pre-built MCP connectors |
+| **Data connectivity** | 40+ pre-built MCP connectors |
 | **Query translation** | AI translates natural language to API calls |
 | **Cross-source capability** | Parallel queries across multiple APIs |
 | **Real-time data** | Queries run against live sources |

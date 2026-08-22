@@ -35,7 +35,7 @@ Read-only. CorpusIQ never creates or modifies your ad campaigns.
 
 LinkedIn Ads alone tells you CPL. LinkedIn Ads plus your CRM tells you which leads actually converted. LinkedIn Ads plus QuickBooks tells you revenue per dollar spent.
 
-CorpusIQ connects LinkedIn Ads alongside HubSpot, Salesforce, Shopify, Google Ads, and 50+ other sources so you can ask the full picture question in one query.
+CorpusIQ connects LinkedIn Ads alongside HubSpot, Salesforce, Shopify, Google Ads, and 40+ other sources so you can ask the full picture question in one query.
 
 "What is our fully loaded customer acquisition cost from LinkedIn Ads including sales follow-up time?" — that needs LinkedIn Ads, your CRM, and operational data together. CorpusIQ handles it.
 

@@ -5,7 +5,7 @@ description: Connect Slack to Claude using CorpusIQ's MCP platform. Search messa
 url: /docs/connect-slack-to-claude
 h1: 'Connect Slack to Claude: Unlock Your Team''s Knowledge Base'
 category: Claude Integrations
-last_updated: '2025-06-16'
+last_updated: '2026-08-22'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/connect-slack-to-claude
 keywords:

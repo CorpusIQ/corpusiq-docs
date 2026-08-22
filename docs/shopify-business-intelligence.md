@@ -99,7 +99,7 @@ Shopify Plus analytics and apps like Triple Whale or Northbeam focus on a subset
 No warehouse is required for direct MCP. CorpusIQ queries source APIs on demand rather than maintaining a replicated business-data warehouse. Operational logs may persist up to 30 days, and optional indexed search has a separate lifecycle.
 
 ### What if my business uses platforms not listed?
-CorpusIQ supports 30+ platforms and is continuously adding more. Custom API integrations are available on the Enterprise plan for proprietary or niche platforms. Contact our sales team to discuss your specific stack.
+CorpusIQ supports 40+ platforms and is continuously adding more. Custom API integrations are available on the Enterprise plan for proprietary or niche platforms. Contact our sales team to discuss your specific stack.
 
 ### How does cross-source data accuracy work?
 CorpusIQ's data accuracy contract ensures every number is traceable to its source. When comparing Shopify to Stripe, the AI explains that Shopify reports gross sales while Stripe reports net (after fees)  --  and performs the explicit reconciliation. You always know where each number came from and how it was computed.

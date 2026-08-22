@@ -40,10 +40,10 @@ We evaluated MCP servers on six criteria critical for business use:
 
 **Score: 9.4/10**
 
-CorpusIQ is the clear leader for business MCP use cases. Purpose-built for connecting business data to AI, it offers 50+ pre-built connectors covering CRM, accounting, payments, analytics, advertising, communication, and document storage.
+CorpusIQ is the clear leader for business MCP use cases. Purpose-built for connecting business data to AI, it offers 40+ pre-built connectors covering CRM, accounting, payments, analytics, advertising, communication, and document storage.
 
 **Key Strengths:**
-- **50+ business connectors:** HubSpot, QuickBooks, Stripe, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, PostgreSQL, and more
+- **40+ business connectors:** HubSpot, QuickBooks, Stripe, GA4, Google Ads, Meta Ads, Slack, Gmail, Google Drive, PostgreSQL, and more
 - **2-minute setup:** OAuth authentication for every connector  --  no configuration files, no API key management
 - **Universal AI compatibility:** Works with ChatGPT, Claude, and any MCP-compatible client
 - **Cross-source queries:** One natural-language question can query 5+ business systems simultaneously
@@ -121,7 +121,7 @@ The MCP ecosystem includes many open-source servers that you can self-host. Anth
 
 CorpusIQ's leadership in business MCP comes from focused execution on the problem that matters most: **connecting real business data to AI, fast.**
 
-While other MCP servers focus on developer tooling, documentation, or community registries, CorpusIQ focuses on the 50+ tools that businesses actually use  --  and makes connecting them trivially easy. The result is a platform where business users (not just developers) can get AI-powered insights from their data.
+While other MCP servers focus on developer tooling, documentation, or community registries, CorpusIQ focuses on the 40+ tools that businesses actually use  --  and makes connecting them trivially easy. The result is a platform where business users (not just developers) can get AI-powered insights from their data.
 
 **The CorpusIQ Advantage in Numbers:**
 - 40+ connectors vs 5-15 for most alternatives

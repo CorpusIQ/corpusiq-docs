@@ -37,11 +37,11 @@ We evaluated the top ChatGPT integration platforms on real-time data access, con
 
 **Score: 9.4/10**
 
-CorpusIQ is the only platform purpose-built for AI data access through the MCP protocol  --  the open standard for AI-tool communication. It provides a managed bridge between ChatGPT and 50+ business data sources.
+CorpusIQ is the only platform purpose-built for AI data access through the MCP protocol  --  the open standard for AI-tool communication. It provides a managed bridge between ChatGPT and 40+ business data sources.
 
 **Why It's #1:**
 - **Native ChatGPT MCP support:** ChatGPT discovers CorpusIQ tools automatically
-- **50+ business connectors:** HubSpot, QuickBooks, Stripe, GA4, Google Ads, Meta Ads, Slack, Gmail, Drive, Notion, PostgreSQL, and more
+- **40+ business connectors:** HubSpot, QuickBooks, Stripe, GA4, Google Ads, Meta Ads, Slack, Gmail, Drive, Notion, PostgreSQL, and more
 - **2-minute OAuth setup:** Per source. No configuration files, no API keys.
 - **Real-time live queries:** Every answer reflects current business state
 - **Cross-source intelligence:** "Compare Google Ads ROAS to HubSpot pipeline value by week"

@@ -12,7 +12,21 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 22, 2026 (evening cron sweep) · **Sources:** mcp.so Feed (newest 30), mcpservers.org /all pages 1-3, live endpoint probes · **Catalog:** 318 servers (+204 guides)
+> **Last updated:** August 22, 2026 (docs maintenance sweep) · **Sources:** mcp.so Feed (newest 30), mcpservers.org /all pages 1-3, chatmcp/mcpso issues #3689-#3698, live endpoint probes · **Catalog:** 320 servers (+206 guides)
+
+## 🆕 August 22, 2026 - Docs Maintenance Sweep (2 New, 2 Guides)
+
+Docs maintenance sweep sourced from chatmcp/mcpso issues #3689-#3698 (Aug 22 06:24-18:02 UTC). 2 new business-relevant servers found: Corpus Law, a remote legal-search and business-formation server (551,201+ provisions of US federal, state and municipal law across 18 jurisdictions with verbatim citations, plus agent-native LLC/nonprofit intake checklists, NAICS lookup and prefilled filing handoffs; anonymous free tier, live-probed v1.2.1, 7 tools confirmed); and Breakreach, an AI-native social scheduling server covering 12 platforms with best-time slots, media upload and unified analytics (live HTTP 401 auth gate confirmed). 6 skipped: Mangii (manga image generator, consumer media), CCS Runtime Evidence (local security runtime verification, dev tool), Secret MCP (GDWEB design analysis, dev utility), Adtivity (analytics SDK installer into codebases, dev tool), a11y-toolkit (local WCAG accessibility suite, dev tool), Lachesis (compiler-precise code property graph, dev infrastructure - same class as the Lachesis skip in the morning sweep).
+
+### Corpus Law MCP ★★★ - August 22 (docs maintenance)
+
+US legal search and business formation over MCP: 551,201+ provisions of federal, state and municipal law across 18 jurisdictions (16 fully searchable), vector + full-text searchable with verbatim citations and full-text lookup. Formation tools collect the exact state-specific LLC/nonprofit intake checklist, map plain-English descriptions to NAICS codes, and generate prefilled filing handoffs. 7 tools at `corpuslaw.us/api/mcp` (live-probed, anonymous tools/list returned all 7; server v1.2.1). Free tier: 100 searches/month per IP, no OAuth, no session state. (freemium) · [Guide →](/hermes/mcp/servers/external/corpus-law-mcp/)
+
+### Breakreach MCP ★★★ - August 22 (docs maintenance)
+
+AI-native social media scheduling across 12 platforms (X, Instagram, TikTok, LinkedIn, Bluesky, Reddit, Telegram, Discord and more): 9 tools to create, schedule and analyze posts, with best-time slots, media upload and unified analytics. `api.breakreach.com/mcp` (live HTTP 401 auth gate confirmed for anonymous callers). Bearer API key required. (commercial) · [Guide →](/hermes/mcp/servers/external/breakreach-mcp/)
+
+**Also identified (not catalogued):** Mangii (remote manga image generator - consumer media, same class as UnificAlly skip), CCS Runtime Evidence (npx security runtime verification - local dev tool), Secret MCP (evidence-grounded web design analysis - dev utility), Adtivity (analytics SDK installer + churn prediction for founders - installs into codebases, dev tool), a11y-toolkit (local WCAG 2.2 accessibility suite - dev tool), Lachesis (compiler-precise code property graph - dev infrastructure).
 
 ## 🆕 August 22, 2026 - Evening Cron Sweep (4 New, 4 Guides)
 

@@ -5,7 +5,7 @@ description: Discover how AI transforms business intelligence. Query data across
 url: /docs/ai-for-business-intelligence
 h1: 'AI for Business Intelligence: From Dashboards to Conversations'
 category: Business Use Cases
-last_updated: '2025-06-16'
+last_updated: '2026-08-22'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-business-intelligence
 keywords:

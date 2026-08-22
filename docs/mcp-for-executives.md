@@ -83,7 +83,7 @@ Beyond metrics, MCP helps executives understand the business at a strategic leve
 
 ## How CorpusIQ Delivers Executive Intelligence
 
-**Comprehensive connector library.** CorpusIQ's 30+ business connectors span the full executive data landscape  --  finance, sales, marketing, customer, and operations systems.
+**Comprehensive connector library.** CorpusIQ's 40+ business connectors span the full executive data landscape  --  finance, sales, marketing, customer, and operations systems.
 
 **Cross-source queries.** The executive value proposition is in the connections. Revenue from QuickBooks correlated with pipeline from Salesforce correlated with marketing spend from ad platforms. CorpusIQ makes these multi-source queries possible through a single interface.
 

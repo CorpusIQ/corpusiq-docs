@@ -58,7 +58,7 @@ The skill provides a reference guide. Key patterns documented:
 ## CorpusIQ Use Cases
 
 1. **Telegram agent operations** — Reference guide for CorpusIQ agents operating via Telegram Topic 2
-2. **Cron management** — Best practices for CorpusIQ's 30+ cron jobs
+2. **Cron management** — Best practices for multi-cron agent operations
 3. **Delegation patterns** — Multi-agent workflows for parallel task execution
 4. **Memory architecture** — Persistent memory patterns across CorpusIQ agent sessions
 5. **New team onboarding** — Training reference for new Hermes agent operators

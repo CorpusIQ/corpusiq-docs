@@ -53,7 +53,7 @@ The entire process takes 10-15 minutes. There's no technical expertise required 
 
 ## Essential Connectors for Small Business
 
-Not every small business needs 30+ connectors. The essential ones for most SMBs are:
+Not every small business needs 40+ connectors. The essential ones for most SMBs are:
 
 **QuickBooks (or Xero).** Financial data is the foundation of business intelligence. Revenue, expenses, profit margins, cash position, accounts receivable  --  these are the numbers every business owner needs.
 
