@@ -5450,5 +5450,41 @@
     "discovered_at": "2026-08-19T07:03:46.450034+00:00",
     "status": "approved",
     "approved_at": "2026-08-19T07:03:58.170143+00:00"
+  },
+  {
+    "name": "Eynzof/Hermes-CN-Core",
+    "url": "https://github.com/Eynzof/Hermes-CN-Core",
+    "description": "Chinese community fork of Hermes Agent with CN provider metadata and signed desktop runtime releases",
+    "stars": 68,
+    "forks": 16,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "chinese-community",
+      "cli",
+      "desktop-runtime",
+      "hermes-agent",
+      "mcp",
+      "python",
+      "tui"
+    ],
+    "updated_at": "2026-08-22T07:01:53Z",
+    "category": "forks",
+    "score": 76,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "Eynzof/Hermes-CN-Desktop"
+    ],
+    "discovered_at": "2026-08-22T07:03:43.762401+00:00",
+    "status": "approved",
+    "approved_at": "2026-08-22T07:05:33.888899+00:00"
   }
 ]

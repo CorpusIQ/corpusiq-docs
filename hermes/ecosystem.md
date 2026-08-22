@@ -22,7 +22,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **170+ reposit
 | 🎬 Content & Media | 1 | Video, social media, content generation |
 | 🧠 Core Framework | 8 | Core Hermes Agent repos, official builds |
 | 🚀 Deployment | 11 | Docker, Kubernetes, production hosting |
-| 🍴 Forks & Derivatives | 8 | Community forks with significant changes |
+| 🍴 Forks & Derivatives | 9 | Community forks with significant changes |
 | 🔗 Integrations | 5 | Platform connectors, bridges, adapters |
 | 🔌 MCP Servers | 6 | Model Context Protocol servers & integrations |
 | 💾 Memory & Knowledge | 38 | Persistent memory, knowledge graphs, context systems |
@@ -271,6 +271,14 @@ _Community forks with significant changes_
 >A next-generation, source-available AI workspace with a self-evolving agent runtime for editable code, design, presentations, websites, and video. A Codex alternative that integrates DeepSeek Harness for subagent delegation, combining iPolloWork's AI workbench with DSH's specialized agents and both plugin ecosystems in one workflow.
 
 **Language:** HTML | **Topics:** agent-collaboration, agent-skills, ai-agents, ai-work, claude-code, codex, deepseek-harness, dsh-plugin, enterprise-agent-workspace, hermes-agent, openclaw, opencode, opencode-plugin, self-evolving-ai, visual-editor | **Score:** 72/100
+
+---
+
+### [Eynzof/Hermes-CN-Core](https://github.com/Eynzof/Hermes-CN-Core) ⭐ 68
+
+>Chinese community fork of Hermes Agent with CN provider metadata and signed desktop runtime releases
+
+**Language:** Python | **Topics:** ai-agent, chinese-community, cli, desktop-runtime, hermes-agent, mcp, python, tui | **Score:** 76/100
 
 ---
 
@@ -1421,6 +1429,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*170+ repositories in the Hermes ecosystem. Last updated: 2026-08-20. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*170+ repositories in the Hermes ecosystem. Last updated: 2026-08-22. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

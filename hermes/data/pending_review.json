@@ -43841,5 +43841,138 @@
     ],
     "discovered_at": "2026-08-22T06:07:21.766923+00:00",
     "status": "pending"
+  },
+  {
+    "name": "thomasjosh1981/Hyper-Spherical-Systems",
+    "url": "https://github.com/thomasjosh1981/Hyper-Spherical-Systems",
+    "description": "Multi Tiered Memory management and security stack for ai harnesses such as open claw and hermes agent. Allows near unlimited context tokens and uses a substitution compression to assist in minimizing data volume. End game should allow an rtx4070ti to run a 130b model locally faster than a 31b currently. Uses pcie4/5 nvme as virtual vram kinda.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-22T07:01:12Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "yang1989haoa-gif/synapse-studio",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "PatterAI/Patter",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-22T07:03:11.800209+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "AgentDraven/merit-agent-skills",
+    "url": "https://github.com/AgentDraven/merit-agent-skills",
+    "description": "Free MERIT agent skills + merit CLI \u2014 Cursor, Claude Code, Codex, VS Code, Hermes, OpenClaw, Grok Bot, Devin. One-stop OSS cold start (Merit-Hub.ps1).",
+    "stars": 1,
+    "forks": 0,
+    "language": "PowerShell",
+    "topics": [],
+    "updated_at": "2026-08-22T06:57:18Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "jnMetaCode/shellward",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "kenryu42/cc-safety-net"
+    ],
+    "discovered_at": "2026-08-22T07:03:14.803192+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "shilp26/hermes-go",
+    "url": "https://github.com/shilp26/hermes-go",
+    "description": "Hermes Go \u2014 a mobile client for self-hosted Hermes Agent. Site + release assets.",
+    "stars": 11,
+    "forks": 1,
+    "language": "HTML",
+    "topics": [
+      "ai-agent",
+      "android",
+      "expo",
+      "hermes",
+      "hermes-agent",
+      "mobile-client",
+      "react-native",
+      "self-hosted",
+      "tailscale"
+    ],
+    "updated_at": "2026-08-22T06:56:49Z",
+    "category": "core",
+    "score": 62,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "some_stars_10+",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-22T07:03:17.805158+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "cori/hermes-agent",
+    "url": "https://github.com/cori/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-22T07:01:39Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-22T07:03:40.759511+00:00",
+    "status": "pending"
   }
 ]
