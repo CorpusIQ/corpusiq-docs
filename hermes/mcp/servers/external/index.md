@@ -12,7 +12,23 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 22, 2026 (overnight cron sweep) · **Sources:** chatmcp/mcpso issues #3680-#3682 (Aug 21 19:05-23:20 UTC), mcp.so homepage, mcpservers.org homepage · **Catalog:** 311 servers (+197 guides)
+> **Last updated:** August 22, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso issues #3683-#3690 (Aug 22 03:54-07:49 UTC), mcp.so homepage, mcpservers.org homepage, mcp.so Feed · **Catalog:** 314 servers (+200 guides)
+
+## 🆕 August 22, 2026 - Morning Cron Sweep (3 New, 3 Guides)
+
+Morning sweep sourced from chatmcp/mcpso issues #3683-#3690 (Aug 22 03:54-07:49 UTC) plus both directory homepages and the mcp.so Feed (all homepage and feed candidates were repeats already evaluated, except html-css-to-image, a dev utility in the skip class). 3 new business-relevant servers found: Crisphive, a hosted field-service dispatch and technician scheduling server with 43 OpenAPI-generated tools and preview/commit safety on every mutation; Dados B3, an auditable Brazilian stock fundamentals server with point-in-time multiples and public methodology; and Staddress AI, a Japanese address normalization server returning structured components, coordinates and confidence scores. Crisphive's endpoint verified live via its HTTP 401 auth gate; Dados B3 live-probed with all 14 tools confirmed. 2 skipped: Lachesis (compiler-precise code property graph, dev infrastructure) and x402 Bazaar Doctor (x402 payment diagnostics, same class as the 402oracle skip).
+
+### Crisphive MCP ★★★ - August 22 (morning)
+
+Field-service dispatch and technician scheduling over MCP: 43 tools generated from the same OpenAPI spec as the REST SDKs, covering customers, service catalog, live availability, job booking, work orders, dispatch, CRM and fleet. Preview/commit pairs on every mutation, idempotency keys and typed error codes; deterministic sub-3-second cascade rescheduling. OAuth 2.1 (DCR + PKCE) or API key at `api.crisphive.com/mcp`; `chsk_test_` keys hit an isolated sandbox. (commercial, sandbox keys) · [Guide →](/hermes/mcp/servers/external/crisphive-mcp/)
+
+### Dados B3 MCP ★★★ - August 22 (morning)
+
+Auditable Brazilian stock (B3) fundamentals, 2010-today: 14 tools covering 402 listed companies plus Brazilian REIT (FII) rankings. Point-in-time multiples priced on the first session after each filing's publication, Piotroski F-Scores with every criterion auditable, republication tracking and CVM source accounts for every figure. Public methodology, no auth on the free tier at `dadosb3.com/mcp/` (live-probed v1.29.0). (free tier; keys for full coverage) · [Guide →](/hermes/mcp/servers/external/dados-b3-mcp/)
+
+### Staddress AI MCP ★★ - August 22 (morning)
+
+Japanese address normalization over stdio: parse unstructured Japanese addresses into structured components with latitude/longitude, confidence score and address code, batch parsing up to 100, and API usage checks. `npx -y @staddress/mcp` with a `STADDRESS_API_KEY`. (commercial API, MIT client) · [Guide →](/hermes/mcp/servers/external/staddress-mcp/)
 
 ## 🆕 August 22, 2026 - Overnight Cron Sweep (2 New, 2 Guides)
 
@@ -4474,6 +4490,12 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 
 - [FinalPeace MCP - US Estate Document Requirements for Agents](/docs/hermes/mcp/servers/external/finalpeace-mcp/)
 - [Pocket Drives MCP - Luxury and Exotic Vehicle Rental Marketplace](/docs/hermes/mcp/servers/external/pocket-drives-mcp/)
+
+### 3 new servers from chatmcp/mcpso issues - Aug 22, 2026 (morning cron sweep)
+
+- [Crisphive MCP - Field Service Dispatch and Scheduling](/docs/hermes/mcp/servers/external/crisphive-mcp/)
+- [Dados B3 MCP - Auditable Brazilian Stock Fundamentals](/docs/hermes/mcp/servers/external/dados-b3-mcp/)
+- [Staddress AI MCP - Japanese Address Normalization](/docs/hermes/mcp/servers/external/staddress-mcp/)
 
 
 
