@@ -43974,5 +43974,26 @@
     ],
     "discovered_at": "2026-08-22T07:03:40.759511+00:00",
     "status": "pending"
+  },
+  {
+    "name": "hkjang/AgentHub",
+    "url": "https://github.com/hkjang/AgentHub",
+    "description": "Enterprise AI Agent Runtime Platform. \uac01 \uc0ac\uc6a9\uc790\uc640 \uc601\uc18d Workspace\ub9c8\ub2e4 \uaca9\ub9ac\ub41c OpenCode \ubc0f Hermes \ub4f1 \uc5d0\uc774\uc804\ud2b8 \ub7f0\ud0c0\uc784\uc744 \uc81c\uacf5\ud558\ub294 \uc5d4\ud130\ud504\ub77c\uc774\uc988 \uc81c\uc5b4",
+    "stars": 1,
+    "forks": 0,
+    "language": "Go",
+    "topics": [],
+    "updated_at": "2026-08-22T08:02:00Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-22T08:02:27.162877+00:00",
+    "status": "pending"
   }
 ]
