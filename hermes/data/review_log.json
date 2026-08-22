@@ -10644,5 +10644,40 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-22T05:05:25.136088+00:00"
+  },
+  {
+    "repo": "conorbronsdon/agent-context-os",
+    "score": 66,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T06:09:26.111596+00:00"
+  },
+  {
+    "repo": "vivekgoquest/hermes-agent-stable",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T06:09:26.111613+00:00"
+  },
+  {
+    "repo": "igor-holt/rtptpa-openclaw-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T06:09:26.111616+00:00"
+  },
+  {
+    "repo": "deepeet-git/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T06:09:26.111619+00:00"
+  },
+  {
+    "repo": "airmonitor/memory-os",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T06:09:26.111621+00:00"
   }
 ]
