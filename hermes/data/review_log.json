@@ -10567,5 +10567,82 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-08-21T08:03:41.645277+00:00"
+  },
+  {
+    "repo": "hazeion/agent-os",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T05:03:10.504228+00:00"
+  },
+  {
+    "repo": "remembervictorchatbot-vip/AI_Token_Saving",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T05:03:10.504241+00:00"
+  },
+  {
+    "repo": "1deat0r/hermes-agent-rust",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T05:03:10.504244+00:00"
+  },
+  {
+    "repo": "dataaispark-spec/hermes-skandashield-bots",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T05:03:10.504246+00:00"
+  },
+  {
+    "repo": "newt-foundation/isaac-hermes-plugin",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T05:03:10.504248+00:00"
+  },
+  {
+    "repo": "IotA-asce/minecraft-mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T05:03:10.504249+00:00"
+  },
+  {
+    "repo": "dsactivi-2/dr-frankenstein-plugin",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T05:03:10.504251+00:00"
+  },
+  {
+    "repo": "imrightguy/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T05:03:10.504253+00:00"
+  },
+  {
+    "repo": "frankji-groundcontrol/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T05:03:10.504255+00:00"
+  },
+  {
+    "repo": "MaraClaw/Beehive",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T05:03:10.504256+00:00"
+  },
+  {
+    "repo": "Bum-Boo/Himmel",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-08-22T05:05:25.136088+00:00"
   }
 ]

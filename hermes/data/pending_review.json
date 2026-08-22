@@ -43358,5 +43358,313 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-21T08:03:32.838711+00:00",
     "status": "pending"
+  },
+  {
+    "name": "hazeion/agent-os",
+    "url": "https://github.com/hazeion/agent-os",
+    "description": "local web dashboard for planning projects, managing tasks, and working with Hermes Agent.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-22T04:59:08Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-22T05:02:32.642793+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "remembervictorchatbot-vip/AI_Token_Saving",
+    "url": "https://github.com/remembervictorchatbot-vip/AI_Token_Saving",
+    "description": "Quality-preserving token & credit savings for AI agents: dedup, context compression, markdown normalization, tool-surface audit, output economics. Portable stdlib toolkit + skills for WorkBuddy/Hermes. little lovely planet \ud83c\udf0d",
+    "stars": 0,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "context-compression",
+      "llm",
+      "mcp",
+      "prompt-optimization",
+      "token-saving"
+    ],
+    "updated_at": "2026-08-22T04:59:07Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-22T05:02:35.645766+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "1deat0r/hermes-agent-rust",
+    "url": "https://github.com/1deat0r/hermes-agent-rust",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-08-22T04:56:51Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-22T05:02:38.647822+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "dataaispark-spec/hermes-skandashield-bots",
+    "url": "https://github.com/dataaispark-spec/hermes-skandashield-bots",
+    "description": "Hermes Agent + Bot Mode deployment kit for SkandaShield-style AI cybersecurity platform: SOUL.md templates, Neo4j schema, MCP skeleton, Docker Compose",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-22T04:52:52Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "jnMetaCode/shellward",
+      "varunlakshmaiah/hermes-compose"
+    ],
+    "discovered_at": "2026-08-22T05:02:42.275934+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "newt-foundation/isaac-hermes-plugin",
+    "url": "https://github.com/newt-foundation/isaac-hermes-plugin",
+    "description": "Newton Isaac skills and MCP integration for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-08-22T04:49:42Z",
+    "category": "mcp",
+    "score": 44,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-22T05:02:45.278674+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "IotA-asce/minecraft-mcp",
+    "url": "https://github.com/IotA-asce/minecraft-mcp",
+    "description": "MCP server for Minecraft - lets AI harnesses (Codex, Claude Code, Hermes) perform all player actions and more",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-22T02:43:36Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "EverMind-AI/EverOS",
+      "yoloshii/ClawMem",
+      "jnMetaCode/shellward",
+      "itechmeat/open-second-brain",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-22T05:02:48.285058+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "dsactivi-2/dr-frankenstein-plugin",
+    "url": "https://github.com/dsactivi-2/dr-frankenstein-plugin",
+    "description": "Multi-platform Dr. Frankenstein \u2014 give AI agents a soul via 11 hormonal pills. Plugin + skill for Grok, Hermes, Codex, and OpenClaw. Fork of Gustavo Brancante's original.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "ai-agents",
+      "codex",
+      "cron",
+      "grok",
+      "hermes",
+      "hormones",
+      "openclaw",
+      "skills",
+      "soul"
+    ],
+    "updated_at": "2026-08-22T03:24:20Z",
+    "category": "skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "longyunfeigu/learn-hermes-agent",
+      "CYC2002tommy/Deep-Research-Agent",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "tale-project/tale",
+      "ruvnet/metaharness",
+      "PatterAI/Patter",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork"
+    ],
+    "discovered_at": "2026-08-22T05:02:51.905195+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "imrightguy/hermes-agent",
+    "url": "https://github.com/imrightguy/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-22T05:00:41Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-22T05:02:55.765280+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "frankji-groundcontrol/hermes-agent",
+    "url": "https://github.com/frankji-groundcontrol/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-22T04:59:01Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-08-22T05:02:58.768065+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "MaraClaw/Beehive",
+    "url": "https://github.com/MaraClaw/Beehive",
+    "description": "A personal knowledge management, AI second brain, and durable OpenClaw / ZeroClaw / Hermes memory",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-08-21T13:27:55Z",
+    "category": "memory",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "cx2002302-lang/zettelkasten-second-memory",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-08-22T05:03:04.128059+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Bum-Boo/Himmel",
+    "url": "https://github.com/Bum-Boo/Himmel",
+    "description": "Himmel Hermes \u2014 a privacy-safe downstream of NousResearch/hermes-agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent",
+      "downstream",
+      "hermes-agent",
+      "telegram"
+    ],
+    "updated_at": "2026-08-21T10:03:57Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-08-22T05:05:20.255854+00:00",
+    "status": "pending"
   }
 ]
