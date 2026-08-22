@@ -10190,7 +10190,7 @@
 <p><strong>2. Authentication Handled Once.</strong> You authenticate each data source through OAuth one time. The MCP server manages tokens, refresh cycles, and security. No authentication code to write or maintain.</p>
 <p><strong>3. No Query Construction Code.</strong> The AI model reads the tool descriptions and constructs the appropriate tool calls dynamically. You don't write code to translate "show me top customers" into API calls  --  the AI model does that at query time based on the available tool definitions.</p>
 <p><strong>4. Structured Responses by Default.</strong> MCP tool responses follow a consistent format regardless of the underlying API. The AI model receives structured data it can interpret without custom parsing logic.</p>
-<p><strong>5. Maintenance Handled Upstream.</strong> When an API changes, the MCP server connector is updated  --  not your integration code. CorpusIQ maintains connectors for 30+ platforms, absorbing the maintenance burden so you don't have to.</p>
+<p><strong>5. Maintenance Handled Upstream.</strong> When an API changes, the MCP server connector is updated  --  not your integration code. CorpusIQ maintains connectors for 40+ platforms, absorbing the maintenance burden so you don't have to.</p>
 <h2 id="tool-discovery-the-killer-feature">Tool Discovery: The Killer Feature<a class="headerlink" href="#tool-discovery-the-killer-feature" title="Anchor link to this section">&para;</a></h2>
 <p>The most transformative difference between MCP and raw APIs is tool discovery. With traditional APIs, the calling application must know exactly which endpoints exist, what parameters they accept, and how to authenticate. This knowledge must be baked into code at development time.</p>
 <p>With MCP, the AI model discovers available tools at runtime. When a user asks "what's our inventory status for product X?", the model:
@@ -10204,9 +10204,9 @@
 <h2 id="code-comparison-mcp-vs-traditional-api">Code Comparison: MCP vs Traditional API<a class="headerlink" href="#code-comparison-mcp-vs-traditional-api" title="Anchor link to this section">&para;</a></h2>
 <p><strong>Traditional approach</strong>  --  what a developer must build for a simple "show me recent orders" question:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Custom code for each integration</span>
-<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">requests</span>
 
-<span class="k">def</span> <span class="nf">get_shopify_orders</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="s2">&quot;any&quot;</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">50</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_shopify_orders</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="s2">&quot;any&quot;</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">50</span><span class="p">):</span>
     <span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;https://</span><span class="si">{</span><span class="n">SHOPIFY_STORE</span><span class="si">}</span><span class="s2">.myshopify.com/admin/api/2024-01/orders.json&quot;</span>
     <span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;X-Shopify-Access-Token&quot;</span><span class="p">:</span> <span class="n">SHOPIFY_TOKEN</span><span class="p">}</span>
     <span class="n">params</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;status&quot;</span><span class="p">:</span> <span class="n">status</span><span class="p">,</span> <span class="s2">&quot;limit&quot;</span><span class="p">:</span> <span class="n">limit</span><span class="p">}</span>
@@ -10215,7 +10215,7 @@
     <span class="c1"># Parse, normalize, format for AI consumption</span>
     <span class="k">return</span> <span class="n">format_orders_for_ai</span><span class="p">(</span><span class="n">orders</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">get_quickbooks_invoices</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="s2">&quot;open&quot;</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">50</span><span class="p">):</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">get_quickbooks_invoices</span><span class="p">(</span><span class="n">status</span><span class="o">=</span><span class="s2">&quot;open&quot;</span><span class="p">,</span> <span class="n">limit</span><span class="o">=</span><span class="mi">50</span><span class="p">):</span>
     <span class="c1"># Completely different auth, URL structure, and parsing</span>
     <span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;https://quickbooks.api.intuit.com/v3/company/</span><span class="si">{</span><span class="n">REALM_ID</span><span class="si">}</span><span class="s2">/query&quot;</span>
     <span class="c1"># ... custom auth header ...</span>
@@ -10245,9 +10245,9 @@
 - One OAuth authentication flow (minutes)
 - Zero new code
 - Zero new maintenance</p>
-<p>This scalability difference is why MCP can support 30+ business connectors through a single platform. Each connector is built once and works with any MCP-compatible AI client.</p>
+<p>This scalability difference is why MCP can support 40+ business connectors through a single platform. Each connector is built once and works with any MCP-compatible AI client.</p>
 <h2 id="the-corpusiq-difference">The CorpusIQ Difference<a class="headerlink" href="#the-corpusiq-difference" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ has built the world's most comprehensive MCP server for business systems. Instead of running separate MCP servers for each platform, CorpusIQ provides a single MCP server that manages 30+ connectors  --  unified authentication, consistent tool naming, and cross-source query capabilities.</p>
+<p>CorpusIQ has built the world's most comprehensive MCP server for business systems. Instead of running separate MCP servers for each platform, CorpusIQ provides a single MCP server that manages 40+ connectors  --  unified authentication, consistent tool naming, and cross-source query capabilities.</p>
 <p>Key CorpusIQ features that go beyond raw API access:</p>
 <p><strong>Cross-source queries.</strong> Ask a question that spans Shopify, QuickBooks, and HubSpot in a single natural language request. CorpusIQ orchestrates the tool calls and normalizes responses.</p>
 <p><strong>Canonical definitions.</strong> Declare how key business terms should be interpreted, and the AI model applies those definitions consistently across all data sources.</p>

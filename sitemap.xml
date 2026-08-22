@@ -2057,6 +2057,10 @@
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/antwork-mcp</loc>
+         <lastmod>2026-08-22</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/apexvol-mcp</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
@@ -2149,6 +2153,10 @@
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/breakreach-mcp</loc>
+         <lastmod>2026-08-22</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/browser-mcp-agent360</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
@@ -2238,6 +2246,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/confluent-mcp</loc>
+         <lastmod>2026-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/corpus-law-mcp</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
@@ -2426,6 +2438,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/general-liquidity-mcp</loc>
+         <lastmod>2026-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/gex-live-mcp</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
@@ -2961,6 +2977,10 @@
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/ship-page-mcp</loc>
+         <lastmod>2026-08-22</lastmod>
+    </url>
+    <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/shipstar-mcp</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
@@ -3002,6 +3022,10 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/sonar-aso-mcp</loc>
+         <lastmod>2026-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/servers/external/sprkly-mcp</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
@@ -3278,6 +3302,14 @@
     </url>
     <url>
          <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august21-2026-overnight</loc>
+         <lastmod>2026-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august22-2026-docs-maintenance</loc>
+         <lastmod>2026-08-22</lastmod>
+    </url>
+    <url>
+         <loc>https://www.corpusiq.io/docs/hermes/mcp/sweeps/sweep-august22-2026-evening</loc>
          <lastmod>2026-08-22</lastmod>
     </url>
     <url>
