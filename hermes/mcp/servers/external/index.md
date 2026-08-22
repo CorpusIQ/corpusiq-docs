@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-08-21"
+last_updated: "2026-08-22"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,29 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 22, 2026 (morning cron sweep) · **Sources:** chatmcp/mcpso issues #3683-#3690 (Aug 22 03:54-07:49 UTC), mcp.so homepage, mcpservers.org homepage, mcp.so Feed · **Catalog:** 314 servers (+200 guides)
+> **Last updated:** August 22, 2026 (evening cron sweep) · **Sources:** mcp.so Feed (newest 30), mcpservers.org /all pages 1-3, live endpoint probes · **Catalog:** 318 servers (+204 guides)
+
+## 🆕 August 22, 2026 - Evening Cron Sweep (4 New, 4 Guides)
+
+Evening sweep sourced from the mcp.so Feed (newest 30 submissions) and mcpservers.org /all pages 1-3 (newest ~50 slugs). 4 new business-relevant servers found: Antwork, a hosted social publishing server with 35 tools across 8 platforms and OAuth 2.1 scopes; Gex Live, a measurement-only SPX dealer-positioning server with a plain-English backtesting Lab; Sprkly, a shortform publishing server with queue-based approval gates and scoped keys; and ship.page, a zero-config HTML deployment server from the lucid.page team. All four endpoints live-probed (Antwork HTTP 401 auth gate as expected; Gex, Sprkly and ship.page returned full tool lists to anonymous tools/list calls). 10 skipped (see the skip paragraph below).
+
+### Antwork MCP ★★★ - August 22 (evening)
+
+Hosted social publishing for LinkedIn, X, Instagram, Facebook, Threads, TikTok, Pinterest and YouTube: 35 tools across identity, workspaces, social accounts, voice profiles, posts, publishing, analytics and media. Per-platform voice profiles learned from existing content; OAuth 2.1 with PKCE and DCR, granular read/write/publish/media scopes; publish_post returns per-platform status. `api.antwork.io/mcp` (live-probed HTTP 401 auth gate). Free plan; Pro and Business tiers. (commercial) · [Guide →](/hermes/mcp/servers/external/antwork-mcp/)
+
+### Gex Live MCP ★★ - August 22 (evening)
+
+Measurement-only SPX dealer positioning from the 0DTE tape: zero-gamma flip, call/put walls and hold band for 1,000+ finished sessions. Three free keyless tools (`list_sessions`, `get_session`, `get_levels`) plus a five-tool Lab that compiles plain-English ideas into rules, backtests and quant-optimizes them. `mcp.gex.live/mcp` (live-probed, anonymous tools/list returned the 3 free tools). No signals by design; Lab runs cost credits. (freemium) · [Guide →](/hermes/mcp/servers/external/gex-live-mcp/)
+
+### Sprkly MCP ★★ - August 22 (evening)
+
+Shortform publishing to TikTok, Facebook, Instagram, YouTube and Threads through a queue-based approval model: 16 tools for media, drafts, scheduling, account listing, analytics and approval requests. No publish-now tool, published posts are agent-read-only, keys scoped per account and per action. `sprkly.app/api/mcp` (live-probed, anonymous tools/list returned all 16 tools). OAuth or `sk_live_` key; MCP included in paid plans and trial. (commercial) · [Guide →](/hermes/mcp/servers/external/sprkly-mcp/)
+
+### ship.page MCP ★★ - August 22 (evening)
+
+Zero-config HTML deployment from any agent: `deploy_html` and `deploy_files` return live unguessable URLs with no signup; claim tokens attach anonymous drops to an account; Pro adds named drops and 30-day expiry. 7 tools at `ship.page/mcp` (live-probed, anonymous tools/list returned all 7). From the lucid.page team; free anonymous tier, Pro $4/mo. (freemium) · [Guide →](/hermes/mcp/servers/external/ship-page-mcp/)
+
+**Also identified (not catalogued):** Taskfolk (already catalogued Aug 20 overnight), BCMS (mcp.so client listing with no MCP server surface - thin docs), Atoa (GitHub org slug listing SDK repos with no MCP endpoint or tool list - thin docs), Gifi (AI-text-watermark inspection and rewriting), Agent Conductor and CodeSentinel (AGENTS.md/skill-registry and codebase-health dev tools from a single author - dev infra), FaceSign (step-up verification SDK for developers), Booking.com Hotel Search (consumer travel), Seedfast (PostgreSQL synthetic test-data generator - dev tool), Opportunity Atlas (Northeast Ohio construction opportunity data - geo-niche).
 
 ## 🆕 August 22, 2026 - Morning Cron Sweep (3 New, 3 Guides)
 
@@ -4496,6 +4518,13 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Crisphive MCP - Field Service Dispatch and Scheduling](/docs/hermes/mcp/servers/external/crisphive-mcp/)
 - [Dados B3 MCP - Auditable Brazilian Stock Fundamentals](/docs/hermes/mcp/servers/external/dados-b3-mcp/)
 - [Staddress AI MCP - Japanese Address Normalization](/docs/hermes/mcp/servers/external/staddress-mcp/)
+
+### 4 new servers from mcp.so Feed and mcpservers.org /all - Aug 22, 2026 (evening cron sweep)
+
+- [Antwork MCP - Social Publishing with Learned Brand Voice](/docs/hermes/mcp/servers/external/antwork-mcp/)
+- [Gex Live MCP - SPX Dealer Positioning for AI Agents](/docs/hermes/mcp/servers/external/gex-live-mcp/)
+- [Sprkly MCP - Shortform Publishing with Approval Gates](/docs/hermes/mcp/servers/external/sprkly-mcp/)
+- [ship.page MCP - Deploy HTML Pages from Any Agent](/docs/hermes/mcp/servers/external/ship-page-mcp/)
 
 
 
