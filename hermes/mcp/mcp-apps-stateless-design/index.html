@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Help-first community engagement strategy  --  platform-specific approaches, response patterns, sentiment detection, and measurement">
+        <meta name="description" content="Practical pattern for building stateless MCP Apps that render correctly on every host. Why host state replay fails, and how to design apps that re-render">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/content-ops/engagement">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/mcp-apps-stateless-design">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Community Engagement Automation</title>
+    <title>MCP Apps Stateless Design Pattern: Surviving ChatGPT and Claude Hosts</title>
   
 
     
@@ -60,7 +60,7 @@
   
   
   
-  <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/content-ops/engagement">
+  <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/mcp-apps-stateless-design">
   
   
   
@@ -73,25 +73,25 @@
   
   <!-- Open Graph — LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/content-ops/engagement">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/mcp-apps-stateless-design">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Community Engagement Automation">
-  <meta property="og:description" content="Help-first community engagement strategy  --  platform-specific approaches, response patterns, sentiment detection, and measurement">
+  <meta property="og:title" content="MCP Apps Stateless Design Pattern: Surviving ChatGPT and Claude Hosts">
+  <meta property="og:description" content="Practical pattern for building stateless MCP Apps that render correctly on every host. Why host state replay fails, and how to design apps that re-render">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Community Engagement Automation">
-  <meta name="twitter:description" content="Help-first community engagement strategy  --  platform-specific approaches, response patterns, sentiment detection, and measurement">
+  <meta name="twitter:title" content="MCP Apps Stateless Design Pattern: Surviving ChatGPT and Claude Hosts">
+  <meta name="twitter:description" content="Practical pattern for building stateless MCP Apps that render correctly on every host. Why host state replay fails, and how to design apps that re-render">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Community Engagement Automation",
-    "description": "Help-first community engagement strategy  --  platform-specific approaches, response patterns, sentiment detection, and measurement",
-    "url": "https://www.corpusiq.io/docs/hermes/content-ops/engagement",
+    "name": "MCP Apps Stateless Design Pattern: Surviving ChatGPT and Claude Hosts",
+    "description": "Practical pattern for building stateless MCP Apps that render correctly on every host. Why host state replay fails, and how to design apps that re-render",
+    "url": "https://www.corpusiq.io/docs/hermes/mcp/mcp-apps-stateless-design",
     "isPartOf": {
       "@type": "WebSite",
       "name": "CorpusIQ Docs",
@@ -129,7 +129,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#community-engagement-automation" class="md-skip">
+        <a href="#mcp-apps-stateless-design-pattern" class="md-skip">
           Skip to content
         </a>
       
@@ -165,7 +165,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Community Engagement Automation
+              MCP Apps Stateless Design Pattern: Surviving ChatGPT and Claude Hosts
             
           </span>
         </div>
@@ -9545,7 +9545,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../mcp/servers" class="md-nav__link ">
+            <a href="../servers" class="md-nav__link ">
               
   
   
@@ -9589,7 +9589,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp/servers/external" class="md-nav__link">
+      <a href="../servers/external" class="md-nav__link">
         
   
   
@@ -9659,7 +9659,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../mcp" class="md-nav__link ">
+            <a href=".." class="md-nav__link ">
               
   
   
@@ -9703,7 +9703,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp/spec/mcp-26-stateless-migration" class="md-nav__link">
+      <a href="../spec/mcp-26-stateless-migration" class="md-nav__link">
         
   
   
@@ -9731,7 +9731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../mcp/directories/submission-guide-2026" class="md-nav__link">
+      <a href="../directories/submission-guide-2026" class="md-nav__link">
         
   
   
@@ -9906,227 +9906,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#the-help-first-strategy" class="md-nav__link">
+  <a href="#why-stateless" class="md-nav__link">
     <span class="md-ellipsis">
       
-        The Help-First Strategy
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="The Help-First Strategy">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#decision-framework" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Decision Framework
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#routing-matrix" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Routing Matrix
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#response-patterns" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Response Patterns
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Response Patterns">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#faq-auto-response" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        FAQ Auto-Response
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#complaint-handling" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Complaint Handling
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#conversation-engagement" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Conversation Engagement
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#platform-specific-approaches" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Platform-Specific Approaches
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Platform-Specific Approaches">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#linkedin" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        LinkedIn
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#xtwitter" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        X/Twitter
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#reddit" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Reddit
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#youtube-comments" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        YouTube Comments
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sentiment-detection" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Sentiment Detection
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Sentiment Detection">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#sentiment-alert-thresholds" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Sentiment Alert Thresholds
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#measurement-framework" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Measurement Framework
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Measurement Framework">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#key-metrics" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Key Metrics
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#weekly-community-health-dashboard" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Weekly Community Health Dashboard
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#human-escalation-rules" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Human Escalation Rules
+        Why stateless
       
     </span>
   </a>
@@ -10134,38 +9917,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#continuous-improvement" class="md-nav__link">
+  <a href="#the-pattern" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Continuous Improvement
+        The pattern
       
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Continuous Improvement">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#feedback-loop" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Feedback Loop
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#def-review_response_quality-analyze-which-responses-are-working-and-which-arent-find-responses-that-led-to-follow-ups-incomplete-follow_up_threads-fetch_threads_with_follow_upsdays7-find-responses-that-resolved-the-conversation-resolved_threads-fetch_resolved_threadsdays7-compare-patterns-analysis-hermes_llmcomplete-messages-role-system-content-analyze-these-support-threads-what-patterns-make-responses-effective-vs-ineffective-role-user-content-f-responses-needing-follow-up-lenfollow_up_threads-jsondumpsfollow_up_threads10-responses-that-resolved-cleanly-lenresolved_threads-jsondumpsresolved_threads10-tierpremium-update-response-templates-based-on-findings-update_response_templatesanalysis" class="md-nav__link">
+  <a href="#example-flow" class="md-nav__link">
     <span class="md-ellipsis">
       
-        def review_response_quality(): &quot;&quot;&quot;Analyze which responses are working and which aren&#39;t.&quot;&quot;&quot; # Find responses that led to follow-ups (incomplete) follow_up_threads = fetch_threads_with_follow_ups(days=7) # Find responses that resolved the conversation resolved_threads = fetch_resolved_threads(days=7) # Compare patterns analysis = hermes_llm.complete( messages=[ {&quot;role&quot;: &quot;system&quot;, &quot;content&quot;: &quot;Analyze these support threads. What patterns make responses effective vs ineffective?&quot;}, {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: f&quot;&quot;&quot; Responses needing follow-up ({len(follow_up_threads)}): {json.dumps(follow_up_threads[:10])} Responses that resolved cleanly ({len(resolved_threads)}): {json.dumps(resolved_threads[:10])} &quot;&quot;&quot;} ], tier=&quot;premium&quot; ) # Update response templates based on findings update_response_templates(analysis)
+        Example flow
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-matters-for-business-answers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why this matters for business answers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-pages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related pages
       
     </span>
   </a>
@@ -10192,515 +9980,57 @@
   
 
 
-<h1 id="community-engagement-automation">Community Engagement Automation<a class="headerlink" href="#community-engagement-automation" title="Anchor link to this section">&para;</a></h1>
-<p>Community engagement is the difference between broadcasting into a void and building an audience that trusts you. But genuine engagement at scale requires systems that can listen, classify, respond, and escalate  --  without sounding like a bot.</p>
-<p>This guide covers building an automated community engagement system with Hermes: help-first strategy, platform-specific response patterns, sentiment detection, escalation rules, and measurement frameworks.</p>
-<h2 id="the-help-first-strategy">The Help-First Strategy<a class="headerlink" href="#the-help-first-strategy" title="Anchor link to this section">&para;</a></h2>
-<p>Every community interaction falls on a spectrum:</p>
-<div class="highlight"><pre><span></span><code>Ignore ─── Auto-Respond ─── Agent-Assisted ─── Human Required
-   ↑              ↑                ↑                ↑
-  Spam         Common Qs       Complex Qs        Crisis/Sensitive
-</code></pre></div>
-<p>The help-first strategy means: when in doubt, be helpful. An imperfect helpful response beats a perfect silence. But "being helpful" doesn't mean answering everything  --  it means routing correctly.</p>
-<h3 id="decision-framework">Decision Framework<a class="headerlink" href="#decision-framework" title="Anchor link to this section">&para;</a></h3>
-<p>For every inbound message, ask three questions:</p>
+<h1 id="mcp-apps-stateless-design-pattern">MCP Apps Stateless Design Pattern<a class="headerlink" href="#mcp-apps-stateless-design-pattern" title="Anchor link to this section">&para;</a></h1>
+<p>MCP Apps lets tools return interactive UIs that render inside the AI
+conversation. The pattern is powerful, but host implementations differ.
+One rule makes the app work everywhere: design it stateless.</p>
+<h2 id="why-stateless">Why stateless<a class="headerlink" href="#why-stateless" title="Anchor link to this section">&para;</a></h2>
+<p>Two host behaviors break stateful apps:</p>
 <ol>
-<li><strong>Does this need a response?</strong> (Spam, bots, pure negativity without substance = no)</li>
-<li><strong>Can this be answered from existing knowledge?</strong> (FAQ, docs, known solutions = yes → auto)</li>
-<li><strong>Does this require judgment, empathy, or authority?</strong> (Sensitive topics, complaints, legal = yes → human)</li>
+<li>Metadata stripping. Some clients do not pass the full tool result
+   metadata to the app layer. If your app depends on data carried in
+   <code>_meta</code>, it silently breaks on those hosts.</li>
+<li>No replay after refresh. When the user refreshes the app view, the
+   host does not replay the original tool call. A widget that waits for
+   a second round trip gets stuck loading forever.</li>
 </ol>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">classify_inbound</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Classify an inbound community message.&quot;&quot;&quot;</span>
-
-    <span class="n">classification</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
-        <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;&quot;Classify this community message into exactly one category:</span>
-
-<span class="s2">            - spam: Unsolicited promotion, bot-like, irrelevant links</span>
-<span class="s2">            - faq: Common question answerable from documentation</span>
-<span class="s2">            - technical_support: Specific technical issue needing troubleshooting</span>
-<span class="s2">            - feedback: Product feedback, feature request, suggestion</span>
-<span class="s2">            - complaint: Negative experience, needs empathy and resolution</span>
-<span class="s2">            - praise: Positive feedback, testimonial</span>
-<span class="s2">            - sensitive: Contains legal, safety, or PR risk implications</span>
-<span class="s2">            - conversation: General discussion, doesn&#39;t need a specific answer</span>
-
-<span class="s2">            Return ONLY the category name.&quot;&quot;&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">message</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]}</span>
-        <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;lightweight&quot;</span>
-    <span class="p">)</span>
-
-    <span class="k">return</span> <span class="n">classification</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
-</code></pre></div>
-<h3 id="routing-matrix">Routing Matrix<a class="headerlink" href="#routing-matrix" title="Anchor link to this section">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Category</th>
-<th>Auto-Response</th>
-<th>Agent-Assisted</th>
-<th>Human Review</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>spam</td>
-<td>Ignore + hide</td>
-<td>-</td>
-<td>Weekly audit</td>
-</tr>
-<tr>
-<td>faq</td>
-<td>Answer from knowledge base</td>
-<td>-</td>
-<td>Spot-check 5%</td>
-</tr>
-<tr>
-<td>technical_support</td>
-<td>Initial troubleshooting</td>
-<td>Escalate if unresolved</td>
-<td>Complex cases</td>
-</tr>
-<tr>
-<td>feedback</td>
-<td>Acknowledge + log</td>
-<td>Summarize trends</td>
-<td>Product decision</td>
-</tr>
-<tr>
-<td>complaint</td>
-<td>Empathetic acknowledgment</td>
-<td>Draft response</td>
-<td>Must approve before send</td>
-</tr>
-<tr>
-<td>praise</td>
-<td>Thank + engage</td>
-<td>-</td>
-<td>-</td>
-</tr>
-<tr>
-<td>sensitive</td>
-<td>Only acknowledge receipt</td>
-<td>-</td>
-<td>Must handle</td>
-</tr>
-<tr>
-<td>conversation</td>
-<td>Engage naturally</td>
-<td>Monitor tone</td>
-<td>Check sentiment weekly</td>
-</tr>
-</tbody>
-</table>
-<h2 id="response-patterns">Response Patterns<a class="headerlink" href="#response-patterns" title="Anchor link to this section">&para;</a></h2>
-<h3 id="faq-auto-response">FAQ Auto-Response<a class="headerlink" href="#faq-auto-response" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">handle_faq</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Auto-respond to FAQ using knowledge base retrieval.&quot;&quot;&quot;</span>
-
-    <span class="c1"># Search knowledge base for relevant answers</span>
-    <span class="n">results</span> <span class="o">=</span> <span class="n">hermes_tools</span><span class="o">.</span><span class="n">query_knowledge_base</span><span class="p">(</span>
-        <span class="n">query</span><span class="o">=</span><span class="n">message</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">],</span>
-        <span class="n">top_k</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
-        <span class="n">min_score</span><span class="o">=</span><span class="mf">0.7</span>
-    <span class="p">)</span>
-
-    <span class="k">if</span> <span class="ow">not</span> <span class="n">results</span><span class="p">:</span>
-        <span class="c1"># Can&#39;t answer confidently  --  escalate</span>
-        <span class="k">return</span> <span class="n">escalate_to_support</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
-
-    <span class="c1"># Generate a helpful, human-sounding response</span>
-    <span class="n">response</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
-        <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;&quot;You are a helpful community manager. </span>
-<span class="s2">            Answer this question using the provided knowledge base results. </span>
-
-<span class="s2">            Rules:</span>
-<span class="s2">            - Be concise but complete</span>
-<span class="s2">            - Use a friendly, conversational tone</span>
-<span class="s2">            - Include a link to the full documentation if applicable</span>
-<span class="s2">            - Ask if they need further clarification</span>
-<span class="s2">            - Never make up information not in the knowledge base</span>
-<span class="s2">            - If the answer is uncertain, say so and offer to escalate&quot;&quot;&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;&quot;&quot;</span>
-<span class="s2">            Question: </span><span class="si">{</span><span class="n">message</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">]</span><span class="si">}</span>
-
-<span class="s2">            Knowledge base results:</span>
-<span class="s2">            </span><span class="si">{</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">results</span><span class="p">)</span><span class="si">}</span>
-<span class="s2">            &quot;&quot;&quot;</span><span class="p">}</span>
-        <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;standard&quot;</span>
-    <span class="p">)</span>
-
-    <span class="k">return</span> <span class="n">response</span>
-</code></pre></div>
-<h3 id="complaint-handling">Complaint Handling<a class="headerlink" href="#complaint-handling" title="Anchor link to this section">&para;</a></h3>
-<p>Complaints require care. The goal is de-escalation and resolution:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">handle_complaint</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Draft a complaint response for human review before sending.&quot;&quot;&quot;</span>
-
-    <span class="c1"># Analyze complaint sentiment and specifics</span>
-    <span class="n">analysis</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
-        <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;&quot;Analyze this complaint:</span>
-<span class="s2">            1. What specifically is the user upset about?</span>
-<span class="s2">            2. How severe is this? (1-10)</span>
-<span class="s2">            3. Is this a one-off issue or systemic?</span>
-<span class="s2">            4. What would resolve this for the user?</span>
-<span class="s2">            5. Does this pose any PR or legal risk?</span>
-
-<span class="s2">            Return as JSON.&quot;&quot;&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">message</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]}</span>
-        <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;standard&quot;</span>
-    <span class="p">)</span>
-
-    <span class="n">analysis_data</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">analysis</span><span class="p">)</span>
-
-    <span class="c1"># Draft response</span>
-    <span class="n">draft</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
-        <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;&quot;Draft a response to this complaint.</span>
-
-<span class="s2">            Structure:</span>
-<span class="s2">            1. Acknowledge and validate their frustration</span>
-<span class="s2">            2. Apologize for the specific issue (not generic &quot;sorry for inconvenience&quot;)</span>
-<span class="s2">            3. Explain what happened (if known) or what you&#39;ll do to find out</span>
-<span class="s2">            4. Offer a concrete next step or resolution</span>
-<span class="s2">            5. Provide a way to follow up directly</span>
-
-<span class="s2">            Tone: Empathetic, professional, action-oriented. Never defensive.&quot;&quot;&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">message</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">]}</span>
-        <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;premium&quot;</span>  <span class="c1"># Complaints deserve the best model</span>
-    <span class="p">)</span>
-
-    <span class="k">return</span> <span class="p">{</span>
-        <span class="s2">&quot;action&quot;</span><span class="p">:</span> <span class="s2">&quot;hold_for_review&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;severity&quot;</span><span class="p">:</span> <span class="n">analysis_data</span><span class="p">[</span><span class="s2">&quot;severity&quot;</span><span class="p">],</span>
-        <span class="s2">&quot;draft_response&quot;</span><span class="p">:</span> <span class="n">draft</span><span class="p">,</span>
-        <span class="s2">&quot;requires_human&quot;</span><span class="p">:</span> <span class="n">analysis_data</span><span class="p">[</span><span class="s2">&quot;severity&quot;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">7</span><span class="p">,</span>
-        <span class="s2">&quot;analysis&quot;</span><span class="p">:</span> <span class="n">analysis_data</span>
-    <span class="p">}</span>
-</code></pre></div>
-<h3 id="conversation-engagement">Conversation Engagement<a class="headerlink" href="#conversation-engagement" title="Anchor link to this section">&para;</a></h3>
-<p>Not every message needs a solution  --  some just need engagement:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">engage_conversation</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">context</span><span class="p">:</span> <span class="nb">dict</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Engage with general conversation naturally.&quot;&quot;&quot;</span>
-
-    <span class="n">response</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
-        <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;&quot;You&#39;re participating in a community conversation.</span>
-
-<span class="s2">            Guidelines:</span>
-<span class="s2">            - Be genuinely interested and engaging</span>
-<span class="s2">            - Add value  --  insight, humor, or a useful question</span>
-<span class="s2">            - Keep it brief (2-3 sentences typically)</span>
-<span class="s2">            - Match the tone of the community</span>
-<span class="s2">            - Never be argumentative or dismissive</span>
-<span class="s2">            - Don&#39;t force product mentions unless natural</span>
-<span class="s2">            - If they share something personal, acknowledge it warmly&quot;&quot;&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;&quot;&quot;</span>
-<span class="s2">            Community context: </span><span class="si">{</span><span class="n">context</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;channel_description&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;General discussion&#39;</span><span class="p">)</span><span class="si">}</span>
-<span class="s2">            Message: </span><span class="si">{</span><span class="n">message</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">]</span><span class="si">}</span>
-<span class="s2">            Recent thread context: </span><span class="si">{</span><span class="n">context</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;recent_messages&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">[])</span><span class="si">}</span>
-<span class="s2">            &quot;&quot;&quot;</span><span class="p">}</span>
-        <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;standard&quot;</span>
-    <span class="p">)</span>
-
-    <span class="k">return</span> <span class="n">response</span>
-</code></pre></div>
-<h2 id="platform-specific-approaches">Platform-Specific Approaches<a class="headerlink" href="#platform-specific-approaches" title="Anchor link to this section">&para;</a></h2>
-<h3 id="linkedin">LinkedIn<a class="headerlink" href="#linkedin" title="Anchor link to this section">&para;</a></h3>
-<p><strong>Audience:</strong> Professional, business-focused.
-<strong>Response style:</strong> Substantive, adds professional insight.
-<strong>Best practices:</strong>
-- Respond within 4 hours during business days
-- Add value to the discussion, not just "great post!"
-- Share relevant experience or data
-- Keep responses professional but personable
-- Tag relevant connections sparingly and only when genuinely relevant</p>
-<div class="highlight"><pre><span></span><code><span class="n">linkedin_voice</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
-<span class="s2">Tone: Professional, insightful, collaborative</span>
-<span class="s2">Do: Share industry perspective, ask thoughtful questions, cite experience</span>
-<span class="s2">Don&#39;t: Overly casual, self-promotional in others&#39; threads, engage with controversial topics</span>
-<span class="s2">Response time target: 4 business hours</span>
-<span class="s2">&quot;&quot;&quot;</span>
-</code></pre></div>
-<h3 id="xtwitter">X/Twitter<a class="headerlink" href="#xtwitter" title="Anchor link to this section">&para;</a></h3>
-<p><strong>Audience:</strong> Fast-moving, opinionated, rewards wit.
-<strong>Response style:</strong> Concise, timely, authentic.
-<strong>Best practices:</strong>
-- Respond within 1-2 hours (the platform moves fast)
-- Be concise  --  threads are for depth, replies are for engagement
-- Authenticity matters more than polish
-- Don't engage with obvious trolls
-- Quote-tweet for adding substantial commentary</p>
-<div class="highlight"><pre><span></span><code><span class="n">twitter_voice</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
-<span class="s2">Tone: Concise, authentic, sometimes playful</span>
-<span class="s2">Do: Respond quickly, be helpful, show personality</span>
-<span class="s2">Don&#39;t: Overly formal, ignore legitimate questions, feed trolls</span>
-<span class="s2">Response time target: 2 hours</span>
-<span class="s2">&quot;&quot;&quot;</span>
-</code></pre></div>
-<h3 id="reddit">Reddit<a class="headerlink" href="#reddit" title="Anchor link to this section">&para;</a></h3>
-<p><strong>Audience:</strong> Skeptical, values substance over marketing.
-<strong>Response style:</strong> Thorough, transparent, helpful.
-<strong>Best practices:</strong>
-- Disclose affiliation transparently
-- Provide genuine value  --  tutorials, explanations, data
-- Never astroturf or use fake accounts
-- Accept criticism gracefully
-- Follow subreddit rules meticulously
-- Upvote good content from others</p>
-<div class="highlight"><pre><span></span><code><span class="n">reddit_voice</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
-<span class="s2">Tone: Transparent, helpful, humble</span>
-<span class="s2">Do: Disclose affiliation, provide deep value, respect community norms</span>
-<span class="s2">Don&#39;t: Market or sell, argue defensively, brigade or manipulate votes</span>
-<span class="s2">Response time target: 6 hours</span>
-<span class="s2">CRITICAL: Always disclose you&#39;re representing the product.</span>
-<span class="s2">&quot;&quot;&quot;</span>
-</code></pre></div>
-<h3 id="youtube-comments">YouTube Comments<a class="headerlink" href="#youtube-comments" title="Anchor link to this section">&para;</a></h3>
-<p><strong>Audience:</strong> Engaged viewers, often asking follow-up questions.
-<strong>Response style:</strong> Appreciative, informative, community-building.
-<strong>Best practices:</strong>
-- Heart and reply to thoughtful comments
-- Answer questions from the video content
-- Pin helpful FAQs or updates
-- Thank supporters genuinely
-- Address constructive criticism professionally</p>
-<h2 id="sentiment-detection">Sentiment Detection<a class="headerlink" href="#sentiment-detection" title="Anchor link to this section">&para;</a></h2>
-<p>Monitor overall community sentiment, not just individual messages:</p>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">analyze_community_sentiment</span><span class="p">(</span><span class="n">platform</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">lookback_hours</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">24</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Analyze sentiment trends across community interactions.&quot;&quot;&quot;</span>
-
-    <span class="n">messages</span> <span class="o">=</span> <span class="n">fetch_recent_messages</span><span class="p">(</span><span class="n">platform</span><span class="p">,</span> <span class="n">lookback_hours</span><span class="p">)</span>
-
-    <span class="k">if</span> <span class="ow">not</span> <span class="n">messages</span><span class="p">:</span>
-        <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;status&quot;</span><span class="p">:</span> <span class="s2">&quot;no_data&quot;</span><span class="p">}</span>
-
-    <span class="c1"># Classify sentiment for each message</span>
-    <span class="n">sentiment_distribution</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;positive&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;neutral&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;negative&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">}</span>
-    <span class="n">topics</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="k">lambda</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;positive&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;negative&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;mentions&quot;</span><span class="p">:</span> <span class="p">[]})</span>
-
-    <span class="k">for</span> <span class="n">msg</span> <span class="ow">in</span> <span class="n">messages</span><span class="p">:</span>
-        <span class="n">sentiment</span> <span class="o">=</span> <span class="n">classify_sentiment</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
-        <span class="n">sentiment_distribution</span><span class="p">[</span><span class="n">sentiment</span><span class="p">[</span><span class="s2">&quot;label&quot;</span><span class="p">]]</span> <span class="o">+=</span> <span class="mi">1</span>
-
-        <span class="k">for</span> <span class="n">topic</span> <span class="ow">in</span> <span class="n">sentiment</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;topics&quot;</span><span class="p">,</span> <span class="p">[]):</span>
-            <span class="n">topics</span><span class="p">[</span><span class="n">topic</span><span class="p">][</span><span class="n">sentiment</span><span class="p">[</span><span class="s2">&quot;label&quot;</span><span class="p">]]</span> <span class="o">+=</span> <span class="mi">1</span>
-            <span class="n">topics</span><span class="p">[</span><span class="n">topic</span><span class="p">][</span><span class="s2">&quot;mentions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">msg</span><span class="p">[</span><span class="s2">&quot;text&quot;</span><span class="p">][:</span><span class="mi">200</span><span class="p">])</span>
-
-    <span class="c1"># Calculate trend (comparing to previous period)</span>
-    <span class="n">prev_distribution</span> <span class="o">=</span> <span class="n">get_sentiment_distribution</span><span class="p">(</span><span class="n">platform</span><span class="p">,</span> <span class="n">lookback_hours</span> <span class="o">*</span> <span class="mi">2</span><span class="p">,</span> <span class="n">lookback_hours</span><span class="p">)</span>
-
-    <span class="n">trend</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="k">for</span> <span class="n">label</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;positive&quot;</span><span class="p">,</span> <span class="s2">&quot;neutral&quot;</span><span class="p">,</span> <span class="s2">&quot;negative&quot;</span><span class="p">]:</span>
-        <span class="n">current_pct</span> <span class="o">=</span> <span class="n">sentiment_distribution</span><span class="p">[</span><span class="n">label</span><span class="p">]</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">messages</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
-        <span class="n">prev_pct</span> <span class="o">=</span> <span class="n">prev_distribution</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">label</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="o">/</span> <span class="nb">max</span><span class="p">(</span><span class="n">prev_distribution</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;total&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
-        <span class="n">trend</span><span class="p">[</span><span class="n">label</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
-            <span class="s2">&quot;current&quot;</span><span class="p">:</span> <span class="nb">round</span><span class="p">(</span><span class="n">current_pct</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>
-            <span class="s2">&quot;change&quot;</span><span class="p">:</span> <span class="nb">round</span><span class="p">(</span><span class="n">current_pct</span> <span class="o">-</span> <span class="n">prev_pct</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
-        <span class="p">}</span>
-
-    <span class="c1"># Flag concerning patterns</span>
-    <span class="n">alerts</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="k">if</span> <span class="n">trend</span><span class="p">[</span><span class="s2">&quot;negative&quot;</span><span class="p">][</span><span class="s2">&quot;change&quot;</span><span class="p">]</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="p">:</span>
-        <span class="n">alerts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;⚠️ Negative sentiment spiking (+</span><span class="si">{</span><span class="n">trend</span><span class="p">[</span><span class="s1">&#39;negative&#39;</span><span class="p">][</span><span class="s1">&#39;change&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">%)&quot;</span><span class="p">)</span>
-
-    <span class="c1"># Identify hot topics</span>
-    <span class="n">hot_topics</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span>
-        <span class="n">topics</span><span class="o">.</span><span class="n">items</span><span class="p">(),</span>
-        <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="s2">&quot;negative&quot;</span><span class="p">]</span> <span class="o">-</span> <span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="s2">&quot;positive&quot;</span><span class="p">],</span>
-        <span class="n">reverse</span><span class="o">=</span><span class="kc">True</span>
-    <span class="p">)[:</span><span class="mi">3</span><span class="p">]</span>
-
-    <span class="k">return</span> <span class="p">{</span>
-        <span class="s2">&quot;period&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;Last </span><span class="si">{</span><span class="n">lookback_hours</span><span class="si">}</span><span class="s2">h&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;total_messages&quot;</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">messages</span><span class="p">),</span>
-        <span class="s2">&quot;sentiment_distribution&quot;</span><span class="p">:</span> <span class="n">sentiment_distribution</span><span class="p">,</span>
-        <span class="s2">&quot;trend&quot;</span><span class="p">:</span> <span class="n">trend</span><span class="p">,</span>
-        <span class="s2">&quot;alerts&quot;</span><span class="p">:</span> <span class="n">alerts</span><span class="p">,</span>
-        <span class="s2">&quot;top_concerns&quot;</span><span class="p">:</span> <span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;topic&quot;</span><span class="p">:</span> <span class="n">t</span><span class="p">,</span> <span class="s2">&quot;sentiment_ratio&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">d</span><span class="p">[</span><span class="s1">&#39;positive&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">/</span><span class="si">{</span><span class="n">d</span><span class="p">[</span><span class="s1">&#39;negative&#39;</span><span class="p">]</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">}</span>
-            <span class="k">for</span> <span class="n">t</span><span class="p">,</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">hot_topics</span>
-        <span class="p">]</span>
-    <span class="p">}</span>
-</code></pre></div>
-<h3 id="sentiment-alert-thresholds">Sentiment Alert Thresholds<a class="headerlink" href="#sentiment-alert-thresholds" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="nt">sentiment_alerts</span><span class="p">:</span>
-<span class="w">  </span><span class="nt">negative_spike</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">threshold</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;+10%</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">24</span><span class="nv"> </span><span class="s">hours&quot;</span>
-<span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Alert</span><span class="nv"> </span><span class="s">community</span><span class="nv"> </span><span class="s">team,</span><span class="nv"> </span><span class="s">review</span><span class="nv"> </span><span class="s">recent</span><span class="nv"> </span><span class="s">posts</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">trigger&quot;</span>
-<span class="w">  </span><span class="nt">positive_spike</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">threshold</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;+20%</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">24</span><span class="nv"> </span><span class="s">hours&quot;</span>
-<span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Identify</span><span class="nv"> </span><span class="s">what&#39;s</span><span class="nv"> </span><span class="s">working,</span><span class="nv"> </span><span class="s">consider</span><span class="nv"> </span><span class="s">amplifying&quot;</span>
-<span class="w">  </span><span class="nt">sustained_negative</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">threshold</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;&gt;30%</span><span class="nv"> </span><span class="s">negative</span><span class="nv"> </span><span class="s">for</span><span class="nv"> </span><span class="s">48</span><span class="nv"> </span><span class="s">hours&quot;</span>
-<span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Escalate</span><span class="nv"> </span><span class="s">to</span><span class="nv"> </span><span class="s">leadership,</span><span class="nv"> </span><span class="s">pause</span><span class="nv"> </span><span class="s">scheduled</span><span class="nv"> </span><span class="s">posts,</span><span class="nv"> </span><span class="s">investigate&quot;</span>
-<span class="w">  </span><span class="nt">topic_emergence</span><span class="p">:</span>
-<span class="w">    </span><span class="nt">threshold</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;New</span><span class="nv"> </span><span class="s">topic</span><span class="nv"> </span><span class="s">with</span><span class="nv"> </span><span class="s">&gt;10</span><span class="nv"> </span><span class="s">mentions</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">&gt;50%</span><span class="nv"> </span><span class="s">negative&quot;</span>
-<span class="w">    </span><span class="nt">action</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Investigate</span><span class="nv"> </span><span class="s">immediately</span><span class="nv">  </span><span class="s">--</span><span class="nv">  </span><span class="s">may</span><span class="nv"> </span><span class="s">indicate</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">product</span><span class="nv"> </span><span class="s">issue&quot;</span>
-</code></pre></div>
-<h2 id="measurement-framework">Measurement Framework<a class="headerlink" href="#measurement-framework" title="Anchor link to this section">&para;</a></h2>
-<h3 id="key-metrics">Key Metrics<a class="headerlink" href="#key-metrics" title="Anchor link to this section">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Metric</th>
-<th>Definition</th>
-<th>Target</th>
-<th>Alert Threshold</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Response Rate</td>
-<td>% of legitimate comments receiving a response</td>
-<td>&gt;90%</td>
-<td>&lt;80%</td>
-</tr>
-<tr>
-<td>Response Time</td>
-<td>Median time to first response</td>
-<td>&lt;2 hours</td>
-<td>&gt;6 hours</td>
-</tr>
-<tr>
-<td>Sentiment Ratio</td>
-<td>Positive / (Positive + Negative)</td>
-<td>&gt;0.80</td>
-<td>&lt;0.70</td>
-</tr>
-<tr>
-<td>Resolution Rate</td>
-<td>% of support issues resolved in-thread</td>
-<td>&gt;60%</td>
-<td>&lt;40%</td>
-</tr>
-<tr>
-<td>Escalation Rate</td>
-<td>% of interactions escalated to human</td>
-<td>&lt;10%</td>
-<td>&gt;25%</td>
-</tr>
-<tr>
-<td>Community Growth</td>
-<td>Net new followers/subscribers</td>
-<td>Platform-dependent</td>
-<td>Negative for 2+ weeks</td>
-</tr>
-</tbody>
-</table>
-<h3 id="weekly-community-health-dashboard">Weekly Community Health Dashboard<a class="headerlink" href="#weekly-community-health-dashboard" title="Anchor link to this section">&para;</a></h3>
-<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">community_health_report</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="nb">dict</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate weekly community health dashboard.&quot;&quot;&quot;</span>
-
-    <span class="n">platforms</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;linkedin&quot;</span><span class="p">,</span> <span class="s2">&quot;twitter&quot;</span><span class="p">,</span> <span class="s2">&quot;reddit&quot;</span><span class="p">,</span> <span class="s2">&quot;youtube&quot;</span><span class="p">]</span>
-    <span class="n">report</span> <span class="o">=</span> <span class="p">{}</span>
-    <span class="n">overall</span> <span class="o">=</span> <span class="p">{</span>
-        <span class="s2">&quot;total_interactions&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-        <span class="s2">&quot;total_responses&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-        <span class="s2">&quot;avg_response_time_minutes&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
-        <span class="s2">&quot;sentiment_ratio&quot;</span><span class="p">:</span> <span class="mi">0</span>
-    <span class="p">}</span>
-
-    <span class="k">for</span> <span class="n">platform</span> <span class="ow">in</span> <span class="n">platforms</span><span class="p">:</span>
-        <span class="n">data</span> <span class="o">=</span> <span class="n">fetch_platform_engagement_data</span><span class="p">(</span><span class="n">platform</span><span class="p">,</span> <span class="n">days</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
-
-        <span class="n">report</span><span class="p">[</span><span class="n">platform</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span>
-            <span class="s2">&quot;interactions&quot;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;total_messages&quot;</span><span class="p">],</span>
-            <span class="s2">&quot;responses_sent&quot;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;responses&quot;</span><span class="p">],</span>
-            <span class="s2">&quot;response_rate&quot;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;responses&quot;</span><span class="p">]</span> <span class="o">/</span> <span class="nb">max</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s2">&quot;total_messages&quot;</span><span class="p">],</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span><span class="p">,</span>
-            <span class="s2">&quot;avg_response_time_min&quot;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;avg_response_time&quot;</span><span class="p">],</span>
-            <span class="s2">&quot;sentiment&quot;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;sentiment_distribution&quot;</span><span class="p">],</span>
-            <span class="s2">&quot;top_issues&quot;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;top_topics&quot;</span><span class="p">][:</span><span class="mi">5</span><span class="p">],</span>
-            <span class="s2">&quot;human_escalations&quot;</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;escalation_count&quot;</span><span class="p">]</span>
-        <span class="p">}</span>
-
-        <span class="n">overall</span><span class="p">[</span><span class="s2">&quot;total_interactions&quot;</span><span class="p">]</span> <span class="o">+=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;total_messages&quot;</span><span class="p">]</span>
-        <span class="n">overall</span><span class="p">[</span><span class="s2">&quot;total_responses&quot;</span><span class="p">]</span> <span class="o">+=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;responses&quot;</span><span class="p">]</span>
-
-    <span class="n">overall</span><span class="p">[</span><span class="s2">&quot;response_rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">overall</span><span class="p">[</span><span class="s2">&quot;total_responses&quot;</span><span class="p">]</span> <span class="o">/</span> <span class="nb">max</span><span class="p">(</span><span class="n">overall</span><span class="p">[</span><span class="s2">&quot;total_interactions&quot;</span><span class="p">],</span> <span class="mi">1</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
-
-    <span class="c1"># Generate executive summary</span>
-    <span class="n">summary</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
-        <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;Summarize this community health report in 3-5 bullet points for leadership. Focus on trends, concerns, and wins.&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">({</span><span class="s2">&quot;overall&quot;</span><span class="p">:</span> <span class="n">overall</span><span class="p">,</span> <span class="s2">&quot;by_platform&quot;</span><span class="p">:</span> <span class="n">report</span><span class="p">})}</span>
-        <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;premium&quot;</span>
-    <span class="p">)</span>
-
-    <span class="k">return</span> <span class="p">{</span>
-        <span class="s2">&quot;period&quot;</span><span class="p">:</span> <span class="s2">&quot;Last 7 days&quot;</span><span class="p">,</span>
-        <span class="s2">&quot;summary&quot;</span><span class="p">:</span> <span class="n">summary</span><span class="p">,</span>
-        <span class="s2">&quot;overall&quot;</span><span class="p">:</span> <span class="n">overall</span><span class="p">,</span>
-        <span class="s2">&quot;by_platform&quot;</span><span class="p">:</span> <span class="n">report</span>
-    <span class="p">}</span>
-</code></pre></div>
-<h2 id="human-escalation-rules">Human Escalation Rules<a class="headerlink" href="#human-escalation-rules" title="Anchor link to this section">&para;</a></h2>
-<p>Some things should never be automated:</p>
-<div class="highlight"><pre><span></span><code><span class="n">MUST_ESCALATE_PATTERNS</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="c1"># Legal risks</span>
-    <span class="sa">r</span><span class="s2">&quot;(?i)(sue|lawsuit|legal action|attorney|lawyer)&quot;</span><span class="p">,</span>
-    <span class="sa">r</span><span class="s2">&quot;(?i)(GDPR|CCPA|data privacy violation|personal data)&quot;</span><span class="p">,</span>
-
-    <span class="c1"># Safety concerns</span>
-    <span class="sa">r</span><span class="s2">&quot;(?i)(threat|harm|danger|emergency|suicide|self-harm)&quot;</span><span class="p">,</span>
-
-    <span class="c1"># Serious product failures</span>
-    <span class="sa">r</span><span class="s2">&quot;(?i)(data loss|corrupted|deleted all|lost everything)&quot;</span><span class="p">,</span>
-    <span class="sa">r</span><span class="s2">&quot;(?i)(billing fraud|unauthorized charge|stolen)&quot;</span><span class="p">,</span>
-
-    <span class="c1"># PR risks</span>
-    <span class="sa">r</span><span class="s2">&quot;(?i)(discrimination|harassment|hate speech)&quot;</span><span class="p">,</span>
-    <span class="sa">r</span><span class="s2">&quot;(?i)(security breach|hacked|vulnerability|exploit)&quot;</span><span class="p">,</span>
-<span class="p">]</span>
-
-<span class="k">def</span> <span class="nf">check_escalation_triggers</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Check if a message triggers mandatory human escalation.&quot;&quot;&quot;</span>
-    <span class="k">for</span> <span class="n">pattern</span> <span class="ow">in</span> <span class="n">MUST_ESCALATE_PATTERNS</span><span class="p">:</span>
-        <span class="k">if</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">pattern</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
-            <span class="k">return</span> <span class="kc">True</span>
-    <span class="k">return</span> <span class="kc">False</span>
-</code></pre></div>
-<h2 id="continuous-improvement">Continuous Improvement<a class="headerlink" href="#continuous-improvement" title="Anchor link to this section">&para;</a></h2>
-<h3 id="feedback-loop">Feedback Loop<a class="headerlink" href="#feedback-loop" title="Anchor link to this section">&para;</a></h3>
-<p>Every week, review auto-responses that received follow-up questions (indicating incomplete answers) and those that received no further engagement (indicating resolved issues):</p>
-<h2 id="def-review_response_quality-analyze-which-responses-are-working-and-which-arent-find-responses-that-led-to-follow-ups-incomplete-follow_up_threads-fetch_threads_with_follow_upsdays7-find-responses-that-resolved-the-conversation-resolved_threads-fetch_resolved_threadsdays7-compare-patterns-analysis-hermes_llmcomplete-messages-role-system-content-analyze-these-support-threads-what-patterns-make-responses-effective-vs-ineffective-role-user-content-f-responses-needing-follow-up-lenfollow_up_threads-jsondumpsfollow_up_threads10-responses-that-resolved-cleanly-lenresolved_threads-jsondumpsresolved_threads10-tierpremium-update-response-templates-based-on-findings-update_response_templatesanalysis"><div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">review_response_quality</span><span class="p">():</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Analyze which responses are working and which aren&#39;t.&quot;&quot;&quot;</span>
-
-    <span class="c1"># Find responses that led to follow-ups (incomplete)</span>
-    <span class="n">follow_up_threads</span> <span class="o">=</span> <span class="n">fetch_threads_with_follow_ups</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
-
-    <span class="c1"># Find responses that resolved the conversation</span>
-    <span class="n">resolved_threads</span> <span class="o">=</span> <span class="n">fetch_resolved_threads</span><span class="p">(</span><span class="n">days</span><span class="o">=</span><span class="mi">7</span><span class="p">)</span>
-
-    <span class="c1"># Compare patterns</span>
-    <span class="n">analysis</span> <span class="o">=</span> <span class="n">hermes_llm</span><span class="o">.</span><span class="n">complete</span><span class="p">(</span>
-        <span class="n">messages</span><span class="o">=</span><span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;system&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;Analyze these support threads. What patterns make responses effective vs ineffective?&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="sa">f</span><span class="s2">&quot;&quot;&quot;</span>
-<span class="s2">            Responses needing follow-up (</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">follow_up_threads</span><span class="p">)</span><span class="si">}</span><span class="s2">):</span>
-<span class="s2">            </span><span class="si">{</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">follow_up_threads</span><span class="p">[:</span><span class="mi">10</span><span class="p">])</span><span class="si">}</span>
-
-<span class="s2">            Responses that resolved cleanly (</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="n">resolved_threads</span><span class="p">)</span><span class="si">}</span><span class="s2">):</span>
-<span class="s2">            </span><span class="si">{</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">resolved_threads</span><span class="p">[:</span><span class="mi">10</span><span class="p">])</span><span class="si">}</span>
-<span class="s2">            &quot;&quot;&quot;</span><span class="p">}</span>
-        <span class="p">],</span>
-        <span class="n">tier</span><span class="o">=</span><span class="s2">&quot;premium&quot;</span>
-    <span class="p">)</span>
-
-    <span class="c1"># Update response templates based on findings</span>
-    <span class="n">update_response_templates</span><span class="p">(</span><span class="n">analysis</span><span class="p">)</span>
-</code></pre></div><a class="headerlink" href="#def-review_response_quality-analyze-which-responses-are-working-and-which-arent-find-responses-that-led-to-follow-ups-incomplete-follow_up_threads-fetch_threads_with_follow_upsdays7-find-responses-that-resolved-the-conversation-resolved_threads-fetch_resolved_threadsdays7-compare-patterns-analysis-hermes_llmcomplete-messages-role-system-content-analyze-these-support-threads-what-patterns-make-responses-effective-vs-ineffective-role-user-content-f-responses-needing-follow-up-lenfollow_up_threads-jsondumpsfollow_up_threads10-responses-that-resolved-cleanly-lenresolved_threads-jsondumpsresolved_threads10-tierpremium-update-response-templates-based-on-findings-update_response_templatesanalysis" title="Anchor link to this section">&para;</a></h2>
-<p>*</p>
-<hr />
-<p><em>This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by <a href="https://www.corpusiq.io">www.CorpusIQ.io</a>.</em></p>
+<p>A stateless app never depends on either behavior. It renders
+completely from the data already present in the tool result.</p>
+<h2 id="the-pattern">The pattern<a class="headerlink" href="#the-pattern" title="Anchor link to this section">&para;</a></h2>
+<ol>
+<li>Return everything the UI needs in the tool result itself. Values,
+   labels, deltas, and source references live in the result payload,
+   not in a follow-up call.</li>
+<li>Render from the result. The app receives the result and renders.
+   No state initialization call, no re-fetch, no host round trip.</li>
+<li>Treat refresh as re-render. A refresh just re-renders from the same
+   result data. It cannot hang because there is nothing to wait for.</li>
+<li>Keep navigation internal. Drill-downs filter the data already in
+   the result. Do not call back to the server for sub-views.</li>
+</ol>
+<h2 id="example-flow">Example flow<a class="headerlink" href="#example-flow" title="Anchor link to this section">&para;</a></h2>
+<p>User asks a business question.</p>
+<ol>
+<li>The tool executes and returns the answer: metrics, deltas, sources,
+   and a reconciliation summary, all in one structured result.</li>
+<li>The app view renders the dashboard from that result.</li>
+<li>The user clicks a metric card. The app expands the detail from the
+   same result payload. No server call.</li>
+<li>The user refreshes. The host re-renders the view from the last
+   result. Nothing to replay, nothing to wait for.</li>
+</ol>
+<h2 id="why-this-matters-for-business-answers">Why this matters for business answers<a class="headerlink" href="#why-this-matters-for-business-answers" title="Anchor link to this section">&para;</a></h2>
+<p>For business intelligence the pattern is not just a compatibility
+trick. A stateless, result-driven app makes every answer reproducible.
+The rendered dashboard is a direct function of the verified tool
+result, so the same question always renders the same answer, on any
+host, after any refresh.</p>
+<h2 id="related-pages">Related pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li><a href="/hermes/mcp/mcp-apps-interactive-ui">MCP Apps: Interactive UIs</a></li>
+<li><a href="/hermes/mcp/mcp-apps-enterprise-adoption">MCP Apps Enterprise Adoption</a></li>
+<li><a href="/hermes/mcp/mcp-spec-2026-07-28">MCP 2026-07-28 Spec</a></li>
+</ul>
 
 
 
