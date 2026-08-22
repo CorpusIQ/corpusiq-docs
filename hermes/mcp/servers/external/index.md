@@ -12,7 +12,11 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** August 21, 2026 (afternoon cron sweep) · **Sources:** mcp.so Feed + mcpservers.org /all (Aug 21 12:00–18:00 UTC window), chatmcp/mcpso issues #3673–#3679 · **Catalog:** 309 servers (+195 guides)
+> **Last updated:** August 22, 2026 (overnight cron sweep) · **Sources:** chatmcp/mcpso issues #3680-#3682 (Aug 21 19:05-23:20 UTC), mcp.so homepage, mcpservers.org homepage · **Catalog:** 311 servers (+197 guides)
+
+## 🆕 August 22, 2026 - Overnight Cron Sweep (2 New, 2 Guides)
+
+Overnight sweep sourced from chatmcp/mcpso issues #3680-#3682 (Aug 21 19:05-23:20 UTC) plus the mcp.so and mcpservers.org homepages. 2 new business-relevant servers found: FinalPeace, a statute-cited US estate document requirements server with 50-state execution rules, an urgency-ordered after-a-loss checklist and a planning-gap assessment, and Pocket Drives, a read-only P2P marketplace for luxury, exotic and EV rentals with line-item quotes, availability calendars and host showrooms. Both endpoints live-probed before publishing. 5 skipped: LatticeNet (agent-publishing community infra, same class as The Fomite), UnificAlly (AI media model aggregator, dev utility), Claude News (niche Claude/Anthropic news feed), 2328 Documentation (vendor docs surface), Bifrost Gateway (self-hosted AI gateway infra).
 
 ## 🆕 August 21, 2026 — Afternoon Cron Sweep (11 New, 11 Guides)
 
@@ -4465,6 +4469,12 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [TomTicket MCP — Helpdesk Operations from Any MCP Client](/docs/hermes/mcp/servers/external/tomticket-mcp/)
 - [BestAppify MCP — Shopify App Store Intelligence](/docs/hermes/mcp/servers/external/bestappify-mcp/)
 - [Mobbin MCP — 600,000 Real Product Screens for AI Design Research](/docs/hermes/mcp/servers/external/mobbin-mcp/)
+
+### 2 new servers from chatmcp/mcpso issues - Aug 22, 2026 (overnight cron sweep)
+
+- [FinalPeace MCP - US Estate Document Requirements for Agents](/docs/hermes/mcp/servers/external/finalpeace-mcp/)
+- [Pocket Drives MCP - Luxury and Exotic Vehicle Rental Marketplace](/docs/hermes/mcp/servers/external/pocket-drives-mcp/)
+
 
 
 
