@@ -516,3 +516,4 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [AtlasOmnia Hermes Custom Pack — 60+ Skill Independent Pack Setup](/docs/hermes/skills/catalog/atlasomnia-hermes-custom-pack-setup/)
 - [Buzz Skills — Hermes Agent on Nostr via Block's Buzz Setup](/docs/hermes/skills/catalog/buzz-skills-setup/)
 - [design-review — Visual UI Audit & Fix Setup](/docs/hermes/skills/catalog/design-review-setup/)
+- [Agentic Awesome Skills — 2,000+ Skill Catalog Setup](/docs/hermes/skills/catalog/agentic-awesome-skills-setup/)

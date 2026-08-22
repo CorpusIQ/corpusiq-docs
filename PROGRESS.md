@@ -8,7 +8,7 @@ Current state and ongoing work for the public docs repository.
 - **Total HTML files:** 1,769 (MkDocs build output)
 - **Hermes subdirectory:** 29 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 20 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
-- **Skills catalog:** 491 setup guides for Hermes skills
+- **Skills catalog:** 493 setup guides for Hermes skills
 - **MCP servers:** 488 server listing markdown pages (+ HTML companions)
 - **SEO pages:** 126 programmatic landing pages targeting high-intent operator keywords
 
@@ -29,13 +29,14 @@ The repo is actively maintained with daily automated updates:
 
 - **Ecosystem discovery:** Nightly GitHub scan finds new Hermes-related repos.
 - **MCP server scans:** MCP.so + mcpservers.org scanned daily. 488 servers listed with integration guides.
-- **Skills.sh marketplace:** Daily scan for new Hermes skills. 491 setup guides published.
+- **Skills.sh marketplace:** Daily scan for new Hermes skills. 493 setup guides published.
 - **SEO pages:** 126 programmatic landing pages targeting operator search intent.
 - **Content ops:** Automated internal linking, meta descriptions, OG tags, and sitemap generation.
 - **Broken link repair:** Proactive weekly audit.
 
 ## Ongoing doc gaps
 
+- **Skills sweep ✅ (Aug 21, 2026, evening):** 15-query skills.sh sweep (607 unique skills). 94 NEW flags all below the 100-install bar (max 89) — parked. Verified rejections: `skill-composer-studio` (onewave-ai/claude-skills, 259 — Claude Code only), `mercury-ui-skills` (ihlamury/design-skills, 195 — Claude/Cursor/Copilot), `azure-chaos-studio` + `azure-lab-services` (microsoftdocs/agent-skills, 115/108 — Azure platform), `pp-mercury` (mvanhorn/printing-press-library, 123 — OpenClaw banking CLI). High-value gap found: `sickn33/agentic-awesome-skills` (45K⭐, 2,025 skills) — 37 generic engineering playbooks at 100 to 13,215 installs were flagged "covered" on Aug 14 but had zero tree hits. Added cluster setup guide `agentic-awesome-skills-setup.md` + catalog index entry (493 setup guides).
 - **Maintenance ✅ (Aug 21, 2026):** Skills sweep found 1 high-value gap: `design-review` (nexu-io/open-design, 2,369 installs, 90K⭐) — added catalog setup guide + index entry (492 setup guides). MCP sweeps current through issue #3679 (309 servers, 195 guides). Internal links: 0 broken. No stale last_updated dates in docs/. Frontmatter validated. Pushed to main, new page verified HTTP 200.
 - **Maintenance ✅ (Aug 20, 2026):** Normalized 5 connector-count stragglers (36+ → 40+) across docs/architecture/README.md, odoo-mcp.md (x2), datamcp-mcp, and refreshed stale ecosystem stats (36+ pages → 1,700+, 326+ repos → 450+, 133+ skills → 490+). Refreshed PROGRESS.md stats (1,852 MD files, 491 skills, 488 MCP servers, 126 SEO pages). Internal links: 0 broken. Frontmatter: all valid. Deployed to Vercel, changed pages verified HTTP 200.
 - **Maintenance ✅ (Aug 19, 2026):** Refreshed 21 stale `last_updated` dates (18 docs/*.md SEO pages stuck on 2026-06-16 + docs/index.md, hermes/index.md, hermes/README.md). Repointed 19 dead `skills.sh/aradotso/*` links to live GitHub repos (aradotso profile 404s on skills.sh) across 17 catalog/marketplace files. Fixed vibgrate trust link (`/mcp-trust` → `/trust`, was 404). Sanitized example private IP (10.0.0.100 → agent-a.local in meshtastic setup, verified absent upstream). Refreshed hermes-sitemap.xml (193 URLs) + sitemap-index.xml lastmod → 2026-08-19. Internal links: 0 broken. Deployed to Vercel, all changed pages HTTP 200.
