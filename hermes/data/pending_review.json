@@ -43995,5 +43995,161 @@
     "near_duplicates": [],
     "discovered_at": "2026-08-22T08:02:27.162877+00:00",
     "status": "pending"
+  },
+  {
+    "name": "huytieu/COG-second-brain",
+    "url": "https://github.com/huytieu/COG-second-brain",
+    "description": "Self-evolving second brain with 33 AI skills, 10 agents, and people CRM. Closed-loop harness: a V-model verification lifecycle where the worker never grades its own homework. Plus paired anti-slop design skills for marketing and product UI. Works with Claude Code, Cursor, Kiro, Gemini CLI, Codex.",
+    "stars": 931,
+    "forks": 110,
+    "language": "HTML",
+    "topics": [
+      "agent-loop",
+      "agent-plugins",
+      "agent-skills",
+      "agentic",
+      "ai-agents",
+      "claude-code",
+      "closed-loop",
+      "cursor",
+      "garry-tan",
+      "gbrain",
+      "gstack",
+      "knowledge-management",
+      "loop-engineering",
+      "obsidian",
+      "people-crm",
+      "productivity",
+      "second-brain",
+      "self-evolving",
+      "verification-harness",
+      "worker-agents"
+    ],
+    "updated_at": "2026-08-22T10:04:10Z",
+    "category": "governance",
+    "score": 0,
+    "tier": "UNREVIEWED",
+    "score_reasons": [
+      "benoit_approved_2026-08-22"
+    ],
+    "near_duplicates": [],
+    "source": "ecosystem-discovery-2026-08-22",
+    "added_at": "2026-08-22T13:52:06Z"
+  },
+  {
+    "name": "w8123/EnterpriseAgentFramework",
+    "url": "https://github.com/w8123/EnterpriseAgentFramework",
+    "description": "\u9762\u5411 OA\u3001ERP\u3001CRM\u3001\u5de5\u5355\u7b49\u4f01\u4e1a\u7cfb\u7edf\u5feb\u901f\u6784\u5efa\u667a\u80fd\u4f53\uff0c\u8ba9 AI \u5728\u6743\u9650\u3001\u5ba1\u8ba1\u4e0e\u6cbb\u7406\u7ea6\u675f\u4e0b\u5b89\u5168\u8c03\u7528\u771f\u5b9e\u4e1a\u52a1\u80fd\u529b\u3002Build agents quickly for enterprise systems such as OA, ERP, CRM, and ticketing, enabling AI to safely call real business capabilities under permissions, audit, and governance controls.",
+    "stars": 581,
+    "forks": 44,
+    "language": "Java",
+    "topics": [
+      "a2a",
+      "agent-framework",
+      "ai-agents",
+      "ai-capability",
+      "ai-gateway",
+      "ai-platform",
+      "enterprise-ai",
+      "java",
+      "langgraph",
+      "llmops",
+      "llmops-platform",
+      "mcp",
+      "milvus",
+      "openai-compatible",
+      "rag",
+      "spring-ai",
+      "spring-boot",
+      "tool-calling",
+      "vue",
+      "workflow"
+    ],
+    "updated_at": "2026-08-21T14:58:46Z",
+    "category": "governance",
+    "score": 0,
+    "tier": "UNREVIEWED",
+    "score_reasons": [
+      "benoit_approved_2026-08-22"
+    ],
+    "near_duplicates": [],
+    "source": "ecosystem-discovery-2026-08-22",
+    "added_at": "2026-08-22T13:52:07Z"
+  },
+  {
+    "name": "EvolvingAgentsLabs/evolving-agents",
+    "url": "https://github.com/EvolvingAgentsLabs/evolving-agents",
+    "description": "Your toolkit for autonomous, evolving agent ecosystems. Create, execute, govern, and evolve agents that learn from experience, collaborate, build new capabilities, and operate safely within defined guardrails.",
+    "stars": 453,
+    "forks": 34,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "ai",
+      "aiagents",
+      "evolution",
+      "evolutionary-algorithm",
+      "governance"
+    ],
+    "updated_at": "2026-08-06T09:58:26Z",
+    "category": "governance",
+    "score": 0,
+    "tier": "UNREVIEWED",
+    "score_reasons": [
+      "benoit_approved_2026-08-22"
+    ],
+    "near_duplicates": [],
+    "source": "ecosystem-discovery-2026-08-22",
+    "added_at": "2026-08-22T13:52:07Z"
+  },
+  {
+    "name": "zjp1997720/zhijian-skills",
+    "url": "https://github.com/zjp1997720/zhijian-skills",
+    "description": "Canonical source and governance toolkit for Zhijian AI public Agent Skills",
+    "stars": 389,
+    "forks": 37,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-08-22T13:40:05Z",
+    "category": "governance",
+    "score": 0,
+    "tier": "UNREVIEWED",
+    "score_reasons": [
+      "benoit_approved_2026-08-22"
+    ],
+    "near_duplicates": [],
+    "source": "ecosystem-discovery-2026-08-22",
+    "added_at": "2026-08-22T13:52:08Z"
+  },
+  {
+    "name": "harnessclaw/harnessclaw",
+    "url": "https://github.com/harnessclaw/harnessclaw",
+    "description": "Harnessclaw is a powerful, Electron-based desktop application designed to manage, chat with, and operate AI agents and skills seamlessly.",
+    "stars": 309,
+    "forks": 98,
+    "language": "TypeScript",
+    "topics": [
+      "agent",
+      "ai-agents",
+      "astron-community",
+      "chatbot",
+      "desktop-app",
+      "electron-app",
+      "harness",
+      "harness-engineering",
+      "iflytek-astron",
+      "open",
+      "openclaw"
+    ],
+    "updated_at": "2026-08-17T16:55:03Z",
+    "category": "core",
+    "score": 0,
+    "tier": "UNREVIEWED",
+    "score_reasons": [
+      "benoit_approved_2026-08-22"
+    ],
+    "near_duplicates": [],
+    "source": "ecosystem-discovery-2026-08-22",
+    "added_at": "2026-08-22T13:52:08Z"
   }
 ]
