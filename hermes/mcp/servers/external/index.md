@@ -1943,7 +1943,7 @@ News intelligence over MCP — 500,000+ sources in 60+ languages filtered by sen
 DBRE-grade SQL analysis inside any MCP client — no connection, no install required. Paste a query, EXPLAIN plan, migration, or error → get named findings with severity, rationale, and ready-to-run fixes for PostgreSQL and MySQL. Essential for operators running database workloads who need instant SQL review and optimization without connecting to production.
 
 ### Sparkient MCP ★ New (June 30)
-Sub-100ms Decision Intelligence API via MCP. Instant structured decisions for content moderation, fraud detection, ticket triage, and approval workflows. Real-time AI decision-making at production latency. Essential for operators running high-volume decision workflows. `mcpservers.org: sparkient/sparkient-mcp-server`
+MCP tools for defining, training, deploying, and querying repeated structured decisions such as moderation, triage, routing, scoring, and approval workflows. Sparkient's compiled cloud path targets under 100ms, but latency and quality are workload dependent and must be measured for each deployment; optional low-confidence escalation depends on the configured live model. The remote server uses API-key header authentication. `github.com/Sparkient/sparkient-mcp-server`
 
 ### Clamp Analytics MCP
 Analyze and manage traffic, funnels, cohorts, revenue, errors. Web/app analytics via MCP. Complementary to GA4 for product analytics use cases.
