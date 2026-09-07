@@ -2377,8 +2377,8 @@ Read-only investment portfolio access via MCP  --  holdings, performance metrics
 ### PubFi MCP ★ New (June 26)
 Route crypto data needs through PubFi capability and gateway tools. MCP-native crypto data orchestration for AI agents. Essential for operators managing multi-chain crypto data workflows.
 
-### zopnight ★ New (June 26)
-Query and govern your AWS, GCP & Azure cloud estate (and AI runtimes like Bedrock & Vertex AI) from Claude Code or Cursor. Surfaces waste, cost, ownership, and 400+ audit findings across 200+ resource types. Essential for FinOps operators managing multi-cloud infrastructure.
+### ZopDev MCP ★ New (June 26)
+Query and govern your AWS, Azure, GCP, Databricks & Snowflake estate (and AI runtimes like Bedrock & Vertex AI) from Claude Code or Cursor. 263 tools (155 read, 108 write) across cost, inventory, schedules, recommendations, budgets and governance; read-only by default with optional scoped writes. Surfaces waste, cost, ownership, and 400+ audit findings across 200+ resource types. Essential for FinOps operators managing multi-cloud infrastructure.
 
 ### Opencloudcosts ★ New (June 28)
 Anchor AI FinOps to real, live cloud pricing. Multi-cloud MCP server for AWS, GCP & Azure - public list prices AND enterprise negotiated rates (Reserved Instances, Savings Plans, CUDs, EDPs). No credentials needed to query pricing data. Essential for FinOps operators who need AI agents to reason about cloud costs with real pricing data.
