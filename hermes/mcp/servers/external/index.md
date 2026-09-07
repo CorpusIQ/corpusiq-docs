@@ -12,7 +12,33 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 7, 2026 (day cron sweep) · **Sources:** mcp.so feed + mcpservers.org /all page 1 via r.jina.ai reader proxy · **Catalog:** 561 servers (+447 guides)
+> **Last updated:** September 7, 2026 (midday cron sweep) · **Sources:** chatmcp/mcpso issues #3938-#3990 + mcp.so feed and homepage recentServers + mcpservers.org /all page 1 via r.jina.ai reader proxy · **Catalog:** 580 servers (+466 guides)
+
+## 🆕 September 7, 2026 - Midday Cron Sweep (19 New, 19 Guides)
+
+Midday sweep over chatmcp/mcpso issues #3938-#3990 (the window past the highest previously evaluated issue #3937), the mcp.so feed and homepage recentServers, and mcpservers.org /all page 1. 19 new business-relevant servers catalogued with guides: LoomaScale Google Ads (42-tool Google Ads management with budget caps, a no-silent-activation design and a MIT self-host build; hosted endpoint api.loomascale.com/mcp probe-verified 401), Beamtrace (Elfsight's AI-visibility analysis - score, topics, competitor gaps and the fixes behind them, 5 tools), AuraCite (hosted GEO data - AI-engine mentions, citations, share of voice, crawler access and GSC performance over OAuth 2.1 PKCE, endpoint auracite.de/mcp/rpc probe-verified), PropRaven (191.3M US parcels with ownership, permits, hazard scores and valuations, free 1,000 monthly lookups, paid x402 deal screens), RealUptime (status pages, multi-region monitors and outage intelligence with a keyless public endpoint - 7 tools probe-captured), RankCLI (local 280-check SEO and GEO battery with robots, schema and header generators, no signup), CuePrecise (evidence-linked YouTube analysis with timestamped citations back to the source video), smtp-mcp (ni-c outbound mail with a required recipient allowlist, default-off send switch and per-message human approval), caldav-mcp and carddav-mcp (ni-c calendar and address book operations with read-only modes, calendar fencing and If-Match guarded writes), Ambassly (affiliate program administration - programs, commission review, approvals and payout batches with company and affiliate scoped keys), PendPost (local-first publishing across 11 platforms behind a human approval gate, credentials never leave the machine), TimeToPost (social scheduling with draft approval queues, engagement metrics and AutoSEO workflows), Chirpie (unified posting across 14 platforms with OAuth-from-the-agent account connections), marketplaces-mcp-ru (Wildberries, Ozon, Yandex Market and Avito seller operations - 793 schema-driven methods with write confirmation gates), LinkDigest (social post URLs to LLM-readable text across Xiaohongshu, Douyin, TikTok, YouTube and X), VetAgent (keyless pre-trade token risk verdicts that fail closed and publish measured error rates), Crawdar (qualified prospect research with criterion-level match explanations and durable async lead-search jobs, 9 tools probe-captured) and the Kuudo Amazon MCP suite (Selling Partner and Vendor Central operations deployed in the operator's own cloud).
+
+- [LoomaScale Google Ads MCP - Google Ads Management with Guardrails](/hermes/mcp/servers/external/loomascale-google-ads-mcp/) · 42 tools, budget caps, no silent activation, MIT self-host.
+- [Beamtrace MCP - AI Visibility Score Analysis for Agents](/hermes/mcp/servers/external/beamtrace-mcp/) · 5 tools, score and gap fixes, built by Elfsight.
+- [AuraCite MCP - AI Visibility and GEO Data for Agents](/hermes/mcp/servers/external/auracite-mcp/) · OAuth 2.1 PKCE, read-only GEO data, per-engine breakdowns.
+- [PropRaven MCP - US Parcel and Property Intelligence for Agents](/hermes/mcp/servers/external/propraven-mcp/) · 8 tools, 191.3M parcels, x402 deal screens.
+- [RealUptime MCP - Uptime, Status and Outage Intelligence for Agents](/hermes/mcp/servers/external/realuptime-mcp/) · keyless public endpoint, 7 probe-verified outage tools.
+- [RankCLI MCP - Local SEO and GEO Audits for AI Agents](/hermes/mcp/servers/external/rankcli-mcp/) · 280+ local checks, no signup, generators included.
+- [CuePrecise MCP - Evidence-Linked YouTube Video Analysis](/hermes/mcp/servers/external/cueprecise-mcp/) · 10 tools, local evidence bundles, timestamp citations.
+- [smtp-mcp - Guardrailed Outbound Email over SMTP for Agents](/hermes/mcp/servers/external/smtp-mcp/) · allowlist plus human approval, default-off send, STARTTLS enforced.
+- [caldav-mcp - Calendar Operations over CalDAV for Agents](/hermes/mcp/servers/external/caldav-mcp/) · 22 tools, read-only mode, calendar fencing.
+- [carddav-mcp - Address Book Operations over CardDAV for Agents](/hermes/mcp/servers/external/carddav-mcp/) · 17 tools, group-convention aware, If-Match guarded writes.
+- [Ambassly MCP - Affiliate Program Operations for Agents](/hermes/mcp/servers/external/ambassly-mcp/) · company and affiliate scoped keys, payout batches.
+- [PendPost MCP - Local-First Social Publishing with Approval Gates](/hermes/mcp/servers/external/pendpost-mcp/) · 11 platforms, local-first, approval-gated publishing.
+- [TimeToPost MCP - Social Scheduling with Draft Approval and AutoSEO](/hermes/mcp/servers/external/timetopost-mcp/) · 30+ tools, draft approvals, AutoSEO, engagement metrics.
+- [Chirpie MCP - Unified Social Posting Across 14 Platforms](/hermes/mcp/servers/external/chirpie-mcp/) · 22 tools, browser OAuth per account, analytics.
+- [marketplaces-mcp-ru - Russian Marketplace Seller Operations for Agents](/hermes/mcp/servers/external/marketplaces-mcp-ru/) · 793 methods across WB, Ozon, YM and Avito, write confirmation.
+- [LinkDigest MCP - Social Post to LLM-Readable Text](/hermes/mcp/servers/external/linkdigest-mcp/) · 1 tool, 7 platforms, transcript plus OCR plus captions.
+- [VetAgent MCP - Pre-Trade Token Risk Intelligence for Agents](/hermes/mcp/servers/external/vetagent-mcp/) · keyless, fail-closed verdicts, published error rates.
+- [Crawdar MCP - Qualified Prospect Research for Agents](/hermes/mcp/servers/external/crawdar-mcp/) · 9 tools, reason-carrying prospects, async lead jobs.
+- [Kuudo Amazon MCP Suite - Selling Partner and Vendor Central Operations](/hermes/mcp/servers/external/amazon-kuudo-mcp-suite/) · SP-API plus Vendor Central catalogs, BYOC deployment.
+
+**Also identified (not catalogued):** create-prints (consumer wall art), Synergy #3973 (x402 language and public-data gateway - treg.to class), AgentBIT #3968 (x402 pay-per-call gateway), AllNewsAPI #3974 (media news class), loci #3967 (personal second-brain RAG), Pain in the Agent #3983 (AI-text rewrite QA class), dataset-mcp #3981 (sample dataset dev utility), PersonalKnowHow #3988 (personal knowledge graph), rebuild-dossier #3957 (app rebuild-spec dev tool), fr-legal-kit #3985 (endpoint dead at probe time - Cloudflare Error 1042, worker not deployed; premature listing), Solana Sniper #3945/#3939 and UK Premises #3944 (prior dispositions), assistantmail-mcp #3952 and Antwork #3986 (resubmissions of already-catalogued entries), ContextStream #3954, Pod #3948, Wyrm #3965, OrcaReplay #3979, Flow Agent Bus #3984, optigate #3989, MCPX #3976 (agent memory, dev and gateway infra classes), Codex Cursor Subagent #3949, hdply #3946, Ritwik Joshi #3942 (dev and personal classes), plus page-1 class skips notifyd, NarcoScope, LiquiLens, Undertow, ZettaQuant, AskAgent, HTML Table Maker, Toolfound, AIm Workout Journal, jira-alerts, NavisCoord, Council of AI GSPC, Tetrees, InvokeWorks, docs2mcp, Otito, getdeck (infra, dev utility, directory and niche classes). Catch-up candidates recorded for a future sweep: reddapi.dev MCP (Reddit lead discovery with free tier), BlackForge and SnowSignals TrendVane (crypto market data), Undertow (liquidity research).
 
 ## 🆕 September 7, 2026 - Day Cron Sweep (2 New, 2 Guides)
 
@@ -5590,3 +5616,25 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 
 - [PostNitro MCP - AI Carousels and Social Publishing for Agents](/hermes/mcp/servers/external/postnitro-mcp/)
 - [Yocoolab MCP - Visual Feedback to PR Workflow for Agents](/hermes/mcp/servers/external/yocoolab-mcp/)
+
+### 19 new servers from chatmcp/mcpso issues + mcp.so feed + mcpservers.org /all - Sep 7, 2026 (midday cron sweep)
+
+- [LoomaScale Google Ads MCP - Google Ads Management with Guardrails](/hermes/mcp/servers/external/loomascale-google-ads-mcp/)
+- [Beamtrace MCP - AI Visibility Score Analysis for Agents](/hermes/mcp/servers/external/beamtrace-mcp/)
+- [AuraCite MCP - AI Visibility and GEO Data for Agents](/hermes/mcp/servers/external/auracite-mcp/)
+- [PropRaven MCP - US Parcel and Property Intelligence for Agents](/hermes/mcp/servers/external/propraven-mcp/)
+- [RealUptime MCP - Uptime, Status and Outage Intelligence for Agents](/hermes/mcp/servers/external/realuptime-mcp/)
+- [RankCLI MCP - Local SEO and GEO Audits for AI Agents](/hermes/mcp/servers/external/rankcli-mcp/)
+- [CuePrecise MCP - Evidence-Linked YouTube Video Analysis](/hermes/mcp/servers/external/cueprecise-mcp/)
+- [smtp-mcp - Guardrailed Outbound Email over SMTP for Agents](/hermes/mcp/servers/external/smtp-mcp/)
+- [caldav-mcp - Calendar Operations over CalDAV for Agents](/hermes/mcp/servers/external/caldav-mcp/)
+- [carddav-mcp - Address Book Operations over CardDAV for Agents](/hermes/mcp/servers/external/carddav-mcp/)
+- [Ambassly MCP - Affiliate Program Operations for Agents](/hermes/mcp/servers/external/ambassly-mcp/)
+- [PendPost MCP - Local-First Social Publishing with Approval Gates](/hermes/mcp/servers/external/pendpost-mcp/)
+- [TimeToPost MCP - Social Scheduling with Draft Approval and AutoSEO](/hermes/mcp/servers/external/timetopost-mcp/)
+- [Chirpie MCP - Unified Social Posting Across 14 Platforms](/hermes/mcp/servers/external/chirpie-mcp/)
+- [marketplaces-mcp-ru - Russian Marketplace Seller Operations for Agents](/hermes/mcp/servers/external/marketplaces-mcp-ru/)
+- [LinkDigest MCP - Social Post to LLM-Readable Text](/hermes/mcp/servers/external/linkdigest-mcp/)
+- [VetAgent MCP - Pre-Trade Token Risk Intelligence for Agents](/hermes/mcp/servers/external/vetagent-mcp/)
+- [Crawdar MCP - Qualified Prospect Research for Agents](/hermes/mcp/servers/external/crawdar-mcp/)
+- [Kuudo Amazon MCP Suite - Selling Partner and Vendor Central Operations](/hermes/mcp/servers/external/amazon-kuudo-mcp-suite/)
