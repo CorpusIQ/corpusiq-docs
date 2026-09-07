@@ -2,13 +2,13 @@
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated September 6, 2026)
+## File count (updated September 7, 2026)
 
-- **Total Markdown files:** 2,204
+- **Total Markdown files:** 2,209
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 21 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 - **Skills catalog:** 412 setup guides for Hermes skills (measured: *setup*.md under hermes/skills)
-- **MCP servers:** 796 total .md under hermes/mcp/; external catalog 555 servers (+441 guides) per Sep 6 morning sweep
+- **MCP servers:** 824 total .md under hermes/mcp/; external catalog 580 servers (+466 guides) per Sep 7 midday sweep
 - **SEO pages:** 126 top-level landing pages targeting high-intent operator keywords
 
 ## Site architecture
@@ -35,6 +35,7 @@ The repo is actively maintained with daily automated updates:
 
 ## Ongoing doc gaps
 
+- **Maintenance ✅ (Sep 7, 2026, docs mgmt cron):** Removed 16 stale root-level .md duplicates (legacy twins of live docs/ pages, last touched Aug 22-24 while docs twins were maintained through Aug 31/Sep 3; excluded from MkDocs build, 404 in production — same dead-weight class as the 126 root .html removed Sep 5; root connectors/ mirror of 60 identical files still present for a future pass). Committed scripts/weekly_seo_audit.py false-positive reduction (skip preconnect/dns-prefetch/canonical link rels, GitHub/Google asset CDNs). Full internal link audit: 0 broken. PII scan clean. Frontmatter quote defects: 0 (single PROGRESS.md hit is descriptive log text from Aug 26 entry, not a defect). Stale docs top-level dates: 0. Connector count prose: 0 stragglers (canonical 40+, verified live on corpusiq.io). PROGRESS.md stats refreshed (2,209 MD, 824 hermes/mcp .md, 580 external servers +466 guides). Sitemap lastmod → 2026-09-07. Deploy-gap closure: Sep 7 sweeps (2 morning + 19 midday servers, ZopDev rename) pushed 03:07/11:23 were NOT live (loomascale-google-ads-mcp 404 pre-deploy) — deployed to Vercel, all 21 new server slugs + renamed ZopDev verified HTTP 200.
 - **Maintenance ✅ (Sep 6, 2026, docs mgmt cron):** Bumped 24 stale `last_updated` dates in docs/ top-level SEO pages (2026-08-27/28 → 2026-09-06, quote state preserved, 0 quote defects after). Full internal link audit: 12,609 links checked, 0 broken (4 documented SKIP placeholders). Retention-claims gate: PASS. Frontmatter quote defects: 0/0. PII scan clean (4 hits all false positives: third-party `hermes-worker-qxun` skill name in marketplace pages, DGX Spark hardware pages). PROGRESS.md stats refreshed (2,204 MD, 796 hermes/mcp .md, 555 external servers +441 guides). Deploy-gap closure: 18 content commits pushed since last deploy (Sep 3 12:34) — 30+ MCP catalog pages (Sep 4-6 sweeps incl. 11 Sep 6 morning servers, YouSpot), ecosystem nightly updates, AllMCPs badge, 126 stale .html removal — deployed to Vercel and verified HTTP 200.
 - **Maintenance ✅ (Sep 3, 2026, docs mgmt cron):** Bumped 3 stale `last_updated` dates in docs/ top-level SEO pages (chatgpt-integration, enterprise-ai-data-access, mcp-vs-data-warehouse — 2026-08-26 → 2026-09-03, both frontmatter blocks on chatgpt-integration). Refreshed docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod → 2026-09-03. Full internal link audit: 12,051 links checked, 0 broken (4 documented SKIP placeholders). Frontmatter quote defects: 0/0. PII scan clean. Connector count prose: 0 stragglers (canonical 40+). PROGRESS.md stats refreshed (2,152 MD, 744 hermes/mcp .md).
 - **Maintenance ✅ (Sep 2, 2026, docs mgmt cron):** Fixed 1 production 404 image link (`/docs/chat-apps/assets/teams-answer-sessions.png` → `/chat-apps/assets/teams-answer-sessions.png`, live 200 verified). Production link audit: 1,418 absolute links, 11 → 0 after fix + deploy (10 were Sep 2 MCP catalog pages pushed to main but never deployed: marketcode, osir-domain, finbridge, campaignstack, koongo, postmcp, prognosite, openbase, zensched, staats). Internal link audit: 11,783 links checked, 0 broken (3 documented SKIP placeholders). Frontmatter validation: 3,796 files all valid. Frontmatter quote defects: 0/0. PII scan clean. Connector count prose: 0 stragglers. Stale top-level docs pages: 0. No draft/empty/orphan files. Refreshed docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod → 2026-09-02. PROGRESS.md stats refreshed (2,128 MD, 720 hermes/mcp .md).

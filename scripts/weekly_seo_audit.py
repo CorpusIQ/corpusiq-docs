@@ -37,12 +37,23 @@ class LinkExtractor(HTMLParser):
         self.title = None
         self.in_title = False
 
+    # <link rel> values that are performance hints or metadata, not links
+    # a user navigates — checking them yields false 404/403 positives on
+    # CDN bare roots (e.g. fonts.gstatic.com preconnect).
+    NON_LINK_RELS = {
+        "preconnect", "dns-prefetch", "preload", "prefetch",
+        "modulepreload", "canonical", "alternate", "icon",
+        "apple-touch-icon", "manifest", "search", "license",
+    }
+
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         if tag == "a" and "href" in attrs:
             self.links.append(("a", attrs["href"]))
         elif tag == "link" and "href" in attrs:
-            self.links.append(("link", attrs["href"]))
+            rel = attrs.get("rel", "").lower()
+            if rel not in self.NON_LINK_RELS:
+                self.links.append(("link", attrs["href"]))
         elif tag == "script" and "src" in attrs:
             self.links.append(("script", attrs["src"]))
         elif tag == "meta" and attrs.get("name") == "description":
@@ -193,7 +204,13 @@ def main():
     print(f"\n[3/5] Checking external links (sample of {args.check_external})...")
     broken_count = 0
     skip_domains = {"github.com", "linkedin.com", "twitter.com", "x.com",
-                     "youtube.com", "reddit.com", "wikipedia.org"}
+                     "youtube.com", "reddit.com", "wikipedia.org",
+                     # GitHub/Google asset CDNs — auto-injected chrome or
+                     # font infrastructure; bare roots legitimately 404/403.
+                     "github.githubassets.com", "github-cloud.s3.amazonaws.com",
+                     "user-images.githubusercontent.com", "avatars.githubusercontent.com",
+                     "objects.githubusercontent.com", "raw.githubusercontent.com",
+                     "fonts.gstatic.com", "fonts.googleapis.com"}
     check_links = [url for url in external_links
                    if not any(d in url for d in skip_domains)]
 
