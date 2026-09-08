@@ -12,7 +12,17 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 7, 2026 (evening cron sweep) · **Sources:** mcp.so feed (30 server blocks) + mcpservers.org /all page 1 via r.jina.ai reader proxy · **Catalog:** 585 servers (+471 guides)
+> **Last updated:** September 8, 2026 (morning cron sweep) · **Sources:** mcp.so feed (30 server blocks) + mcpservers.org /all page 1 via r.jina.ai reader proxy · **Catalog:** 588 servers (+474 guides)
+
+## 🆕 September 8, 2026 - Morning Cron Sweep (3 New, 3 Guides)
+
+Morning sweep over the mcp.so feed (30 server blocks) plus mcpservers.org /all page 1 via the r.jina.ai reader proxy. Three new business-relevant servers catalogued with guides: Mailercloud MCP (official email marketing platform connector - campaigns, contacts, lists, templates and sending plus AI-powered campaign analysis and deliverability audits; endpoint mcp.mailercloud.com/mcp API-key gated and probe-verified live with HTTP 401, Verified + Featured on mcp.so), InstantClips MCP (e-commerce short-form video ads for TikTok, Instagram Reels and Stories - 10 tools covering brand identity with brand-decision guardrails, product import from URL or photos, creative-direction drafting and credit-based rendering; endpoint app.instantclips.ai/mcp over OAuth 2.1, repo InstantStudioAI/instantclips-mcp), JsonCut MCP (video and image authoring for agents - jsoncut_v2_* tool family with durable projects, one-shot upload tickets, bounded edits, visual review frames and pinned renders; endpoint mcp.jsoncut.com/mcp with X-API-Key auth, V1 legacy endpoint frozen, docs at jsoncut.com/docs/mcp-tools).
+
+- [Mailercloud MCP - Email Marketing Operations for Agents](/hermes/mcp/servers/external/mailercloud-mcp/) · campaigns, contacts, templates, sends, deliverability audits.
+- [InstantClips MCP - E-Commerce Short-Form Video Ads](/hermes/mcp/servers/external/instantclips-mcp/) · 10 tools, OAuth 2.1, brand guardrails, credit renders.
+- [JsonCut MCP - Video and Image Authoring for Agents](/hermes/mcp/servers/external/jsoncut-mcp/) · v2 authoring loop, upload tickets, review frames.
+
+**Also identified (not catalogued):** Mailercloud second listing (mailercloud-ab7bcd - duplicate slug of the same product, thin tagline-only entry; one guide covers both), dxpert UNS tools (feed re-check - industrial IoT namespace validation, disposed Sep 7 evening), feed repeats already catalogued (Fundz, Countersignatory, Fruit Stand, Beamtrace, LoomaScale) or already disposed by prior sweeps (GoBuy, Create Prints, Tessryx, Saaskly, PostNitro, Yocoolab, TrueClicks, YouSpot, VeriRoute, DB Planner, Dealwize, PriceMyRepair, Factanker, miniOrange, Nizh, Lawstronaut, agent.social, studiofromthesea, Alien Probe). mcpservers.org /all page-1 slugs returned 404 shells or were already disposed (cartonpliant, rakutentech, maxweb4u and author-slug pages georgi-petkov, kolganovr, oscardvs, xkallex, zsadigzade) - the Datapika, Advisors AI, Memra, MCP ADMIN and other page-1 families were already ruled by the Sep 7 evening sweep.
 
 ## 🆕 September 7, 2026 - Evening Cron Sweep (5 New, 5 Guides)
 
@@ -5659,3 +5669,8 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Treza MCP - AI Video Pipelines to Social Channels](/hermes/mcp/servers/external/treza-mcp/)
 - [Formdall MCP - GDPR Form Backend for Agents](/hermes/mcp/servers/external/formdall-mcp/)
 
+### 3 new servers from mcp.so feed + mcpservers.org /all - Sep 8, 2026 (morning cron sweep)
+
+- [Mailercloud MCP - Email Marketing Operations for Agents](/hermes/mcp/servers/external/mailercloud-mcp/)
+- [InstantClips MCP - E-Commerce Short-Form Video Ads](/hermes/mcp/servers/external/instantclips-mcp/)
+- [JsonCut MCP - Video and Image Authoring for Agents](/hermes/mcp/servers/external/jsoncut-mcp/)
