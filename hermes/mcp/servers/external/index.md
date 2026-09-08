@@ -606,7 +606,7 @@ Evening sweep sourced from the mcp.so feed (newest 30 submissions) and mcpserver
 
 [Ice Juice Trading MCP - Automated Trading on Your Alpaca Account](/hermes/mcp/servers/external/ice-juice-trading/) · 401-verified auth gate, human-only rails, free paper tier.
 
-[Agentic Atlas MCP - Field-Tested Agent-System Design Patterns](/hermes/mcp/servers/external/agentic-atlas/) · 8 tools live-probed, keyless, stateless v3.4.7.
+[Agentic Atlas MCP - Field-Tested Agent-System Design Patterns](/hermes/mcp/servers/external/agentic-atlas/) · 5 tools live-probed, keyless, stateless (Release v1.0.6, refreshed Sep 8 2026).
 
 **Also identified (not catalogued):** uxgen (e-commerce conversion component library for coding agents - vendor states tool execution is not switched on yet and every call returns an explicit refusal; $29/mo, no trial - dev-asset class), OAIA Arena (AI trading-agent track-record scoring against 2,048 coin-flipping monkeys - no published tool list, crypto/verification class), ReactVision MCP (44-tool ViroReact XR renderer for coding agents - dev tool class). Feed repeats already evaluated in Aug 21-24 sweeps (RE Data Refinery, Truth Bear GAUGE, Agent Conductor, CodeSentinel, BitBrowser, Mangii, Hypnothera, Shotstack, Agency AI, TEOS WARN Act, Routebase, SecondSim, Context.dev, Dados B3, AskRentAI, Signal Nodus, lucid.page, Hermoso, QR Planet, HTML/CSS to Image).
 

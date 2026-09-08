@@ -1,23 +1,25 @@
 ---
 title: "Agentic Atlas MCP - Field-Tested Agent-System Design Patterns"
-description: "Read-only MCP consultation surface for field-tested agent-system design patterns. Eight keyless tools for orientation, card and section reads, relationship traversal, provenance, glossary terms and publication decisions, live-probed at agentic-atlas.dev/mcp with revision-coherence markers that refuse stale reads."
+description: "Read-only MCP consultation surface for field-tested agent-system design patterns. Five keyless tools (orient, cards, read, links, navigate) over one versioned Release v1.0.6, served stateless at agentic-atlas.dev/mcp."
 category: AI Agents
 stars: n/a (new listing)
 added: 2026-08-24
-source: "mcp.so feed + live endpoint probe (8 tools verified)"
+source: "mcp.so feed + live endpoint probe — refreshed 2026-09-08 for Release v1.0.6 (5 tools verified)"
 relevance: ★★
 tags: [agents, design-patterns, architecture, knowledge, agent-engineering, read-only, remote-mcp]
 ---
 
 # Agentic Atlas MCP
 
-**Public, read-only consultation surface for field-tested agent-system design patterns** - a hosted knowledge corpus that both people and agents can read. Eight keyless tools map ordinary design vocabulary to canonical patterns, read the corpus at card, section, or full-node depth, and traverse relationships, provenance, glossary terms and publication decisions. Live-probed stateless endpoint at `https://agentic-atlas.dev/mcp/` (server v3.4.7, protocol 2025-06-18), no account and no credentials.
+**Public, read-only consultation surface for field-tested agent-system design patterns** - a hosted knowledge corpus that both people and agents can read, published by [agentic-atlas.dev](https://agentic-atlas.dev/). Five keyless tools map ordinary design vocabulary to canonical patterns, read the corpus at card, section, or full-node depth, and traverse relationships between nodes. Live-probed Release v1.0.6, served stateless at [https://agentic-atlas.dev/mcp/](https://agentic-atlas.dev/mcp/) (protocol 2025-06-18) - no account, no credentials.
 
 ```
 Server type: Remote (Streamable HTTP, hosted, stateless)
 Auth: None
+Release: v1.0.6 (serverInfo; registry: dev.agentic-atlas/atlas)
+Website: https://agentic-atlas.dev/
 Endpoint: https://agentic-atlas.dev/mcp/
-Tools: 8 (live-probed; server v3.4.7, protocol 2025-06-18)
+Tools: 5 (live-probed 2026-09-08; protocol 2025-06-18)
 Pricing: free
 Category: AI & Agents
 Built by: Avery Jones (github.com/aj604/agentic-atlas-plugin)
@@ -25,24 +27,23 @@ Built by: Avery Jones (github.com/aj604/agentic-atlas-plugin)
 
 ## Why This Matters for Operators
 
-Agent systems fail in predictable ways - unbounded context, unclear ownership of decisions, drift between what was designed and what was shipped. Agentic Atlas is the reference layer for those failures: patterns that have been field-tested, with provenance for every claim and publication decisions kept visible. **The corpus is versioned: every payload carries a coherence marker, and a tool call that carries a stale marker is refused with `revision_changed` instead of silently answering from a different release** - the same read-your-writes discipline operators want in their own systems.
+Agent systems fail in predictable ways - unbounded context, unclear ownership of decisions, drift between what was designed and what was shipped. Agentic Atlas is the reference layer for those failures: patterns that have been field-tested, with every card claim carrying its source address. **The corpus is served as one active Release (v1.0.6): the endpoint serves exactly that release, and a promotion replaces it wholesale** - no silent drift between what a caller read last week and what it reads now.
 
 For a team building or buying agent infrastructure, this is a cheap, keyless way to have an agent consult established design practice before it invents one.
 
 ## Tools & Capabilities
 
-8 read-only tools confirmed by live probe:
+5 read-only tools confirmed by live probe of Release v1.0.6 (2026-09-08):
 
 | Tool | Purpose |
 |---|---|
-| atlas_orient | Entry point: map ordinary design vocabulary (e.g. "context window budget") to canonical node identities; paged results with kind/status filters |
-| atlas_cards | Read 1-4 canonical ids as ordered cards: identity, one-line hook, sealed decision-bearing claims with source addresses |
-| atlas_read | Exact section wording or a complete multi-section node |
-| atlas_links | Traverse relationships between nodes |
-| atlas_provenance | Expanded provenance for a card's claims |
-| atlas_navigate | Walk the canonical tree or the publisher-curated tour |
-| atlas_define | Glossary term lookup |
-| atlas_decisions | Publication decisions for a node |
+| atlas_orient | Entry point: discover canonical identity from an ordinary-language query (e.g. "context window budget") when no canonical id is known; ranks whole-word matches by how few subjects carry them |
+| atlas_cards | Read 1-4 canonical ids as one ordered Card per id: identity, Hook, and sealed claims with source addresses |
+| atlas_read | Read a complete Node - bare id: identity, hierarchy, Hook, and every Section |
+| atlas_links | Page one subject's relationship occurrences, outbound then inbound, with direction and reference context |
+| atlas_navigate | Read "tree" (canonical ordered traversal of every published node) or "tour" (publisher-curated path) |
+
+The former `atlas_provenance`, `atlas_define`, and `atlas_decisions` tools were retired in Release v1.0.6; their capabilities are recovered through this five-tool grammar (provenance and publication decisions surface as source addresses on sealed card claims; glossary terms resolve through `atlas_orient` vocabulary matching). The endpoint also publishes a consultation contract and three companion workflow skills (`designing-agent-systems`, `reviewing-agent-designs`, `applying-a-pattern`) as resources for hosts implementing the draft MCP Skills Extension.
 
 Calls are idempotent and read-only (annotated `readOnlyHint`), and results carry `scope` metadata (total/returned/truncated) with cursor pagination. An empty result is a successful empty payload, not an error.
 
@@ -72,8 +73,8 @@ The server is stateless: initialize returned no session ID and tools/list succee
 ## Business Relevance
 
 - **Operators building agent systems** get a consultation surface for design decisions - when to add memory, how to structure approval gates, which patterns have held up in the field.
-- **Architects reviewing agent stacks** get provenance for every recommendation, so a design choice can be traced to its published evidence.
-- **Teams onboarding agents** get a stable glossary and canonical naming layer that a new agent can read on first contact.
+- **Architects reviewing agent stacks** get a source address on every card claim, so a design choice can be traced to its published evidence.
+- **Teams onboarding agents** get a stable vocabulary and canonical naming layer that a new agent can read on first contact.
 
 ## Integration with CorpusIQ
 
@@ -81,10 +82,10 @@ CorpusIQ is the business-data layer (QuickBooks, Stripe, HubSpot, GA4 and 40+ mo
 
 ## Limitations
 
-- Brand new listing (submitted Aug 24, 2026) - no long-term track record yet.
+- New listing (added Aug 24, 2026; refreshed Sep 8, 2026 for Release v1.0.6) - no long-term track record yet.
 - Read-only consultation surface: it provides design guidance, not transactional APIs or execution.
 - Single-source corpus: patterns reflect the publisher's curation and field testing, not an open contribution pool.
-- No authentication means no personalization - every caller reads the same public release.
+- No authentication means no personalization - every caller reads the same active Release.
 
 ## See Also
 
