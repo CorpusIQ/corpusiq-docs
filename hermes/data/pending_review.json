@@ -56744,5 +56744,357 @@
     ],
     "discovered_at": "2026-09-07T08:04:54.706963+00:00",
     "status": "pending"
+  },
+  {
+    "name": "modpunk/omarchy-agent-launcher",
+    "url": "https://github.com/modpunk/omarchy-agent-launcher",
+    "description": "Omarchy plugin: launch Hermes Agent or OpenClaw locally, in Docker, or on a Fly.io Sprite from a keybinding",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [
+      "ai-agents",
+      "hermes-agent",
+      "omarchy",
+      "omarchy-plugin",
+      "openclaw"
+    ],
+    "updated_at": "2026-09-08T05:02:07Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-08T05:02:23.736872+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "bacnh85/hermes-plugins",
+    "url": "https://github.com/bacnh85/hermes-plugins",
+    "description": "Hermes Agent plugins by bacnh85",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-08T05:01:47Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "42-evey/hermes-plugins"
+    ],
+    "discovered_at": "2026-09-08T05:02:26.740573+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "aa0968111723-prog/hermes-console",
+    "url": "https://github.com/aa0968111723-prog/hermes-console",
+    "description": "\u67ef\u80fd / Bruce \u7684 Hermes Agent \u534a\u5929\u63a7\u5236\u53f0 \u2014 \u804a\u5929\u3001\u5c08\u6848\u76ee\u9304\u3001\u5de5\u5177\u5165\u53e3",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-09-08T04:58:35Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-08T05:02:29.746152+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "aa0968111723-prog/tku-mcp-gateway",
+    "url": "https://github.com/aa0968111723-prog/tku-mcp-gateway",
+    "description": "HTTPS Streamable HTTP packaging of GGQQmax/TKU-MCP for hermes-console (readonly tools)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-08T04:03:29Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-08T05:02:39.411840+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ggttol/embymedia",
+    "url": "https://github.com/ggttol/embymedia",
+    "description": "Private self-hosted EmbyMedia operations with DSH, Hermes, Weixin, 115, and MCP",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-09-08T02:27:32Z",
+    "category": "mcp",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-08T05:02:42.418841+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "3mstecnologia-del/hermes-3ms-skills",
+    "url": "https://github.com/3mstecnologia-del/hermes-3ms-skills",
+    "description": "Community-oriented infrastructure skills and MCPs for Hermes, maintained by 3MS Tecnologia.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-08T02:19:52Z",
+    "category": "mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-08T05:02:45.422594+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mcp-tool-shop-org/ollama-intern-mcp",
+    "url": "https://github.com/mcp-tool-shop-org/ollama-intern-mcp",
+    "description": "The local intern for Claude Code \u2014 42 job-shaped tools with correlation IDs, evidence-first briefs, durable artifacts. Local-first MCP server over Ollama, with optional Ollama Cloud routing (600B-class models, automatic local fallback). Validated Hermes Agent integration on hermes3:8b.",
+    "stars": 1,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "anthropic",
+      "claude",
+      "claude-code",
+      "embeddings",
+      "hermes",
+      "hermes-agent",
+      "local-first",
+      "local-llm",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "nous-research",
+      "ollama",
+      "ollama-cloud"
+    ],
+    "updated_at": "2026-09-08T01:46:50Z",
+    "category": "mcp",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "1Panel-dev/1Panel",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "KSroido/Kagi-Session2API-MCP",
+      "jnMetaCode/shellward",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "agentchatme/agentchat-hermes",
+      "ksimback/hermes-atlas-mcp",
+      "megberts/mcp-hermes-integration",
+      "am423/hermesbenchv0_1",
+      "Bo1202/Aivy-OS",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem",
+      "ruvnet/metaharness",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-09-08T05:02:48.427120+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "AIowa-LLC/hermes-fleet",
+    "url": "https://github.com/AIowa-LLC/hermes-fleet",
+    "description": "Native iPhone control plane for user-owned Hermes Agent fleets.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "ai-agents",
+      "fleet-management",
+      "hermes-agent",
+      "ios",
+      "swift"
+    ],
+    "updated_at": "2026-09-08T05:02:29Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-08T05:03:04.703703+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "fabiofalopes/hermes-agent",
+    "url": "https://github.com/fabiofalopes/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-08T05:00:43Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-09-08T05:03:07.707908+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pasogott/screenpipe",
+    "url": "https://github.com/pasogott/screenpipe",
+    "description": "YC (S26) | Record your screen 24/7 and plug into your agents. Local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps",
+    "stars": 0,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [],
+    "updated_at": "2026-09-08T05:00:38Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "iOfficeAI/AionUi",
+      "screenpipe/screenpipe",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "tale-project/tale"
+    ],
+    "discovered_at": "2026-09-08T05:03:10.712108+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "pasogott/hermes-agent",
+    "url": "https://github.com/pasogott/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-08T05:00:42Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-09-08T05:03:13.715995+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sahilrupani/hermes-agent-railway-template",
+    "url": "https://github.com/sahilrupani/hermes-agent-railway-template",
+    "description": "Self-hosted, self-improving AI agent from Nous Research \u2014 one-click Railway deploy. Persistent memory, 200+ LLMs, Telegram/Discord/Slack.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "ai-agents",
+      "discord",
+      "docker",
+      "llm-agents",
+      "llms",
+      "nous-hermes",
+      "nousresearch",
+      "persistent-storage",
+      "railway-deployment",
+      "selfhosted",
+      "telegram"
+    ],
+    "updated_at": "2026-09-07T18:59:08Z",
+    "category": "official",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "awesome-hermes-usecases"
+    ],
+    "discovered_at": "2026-09-08T05:04:35.904521+00:00",
+    "status": "pending"
   }
 ]

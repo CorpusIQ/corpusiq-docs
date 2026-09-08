@@ -13710,5 +13710,89 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-07T08:04:56.501357+00:00"
+  },
+  {
+    "repo": "modpunk/omarchy-agent-launcher",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005118+00:00"
+  },
+  {
+    "repo": "bacnh85/hermes-plugins",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005130+00:00"
+  },
+  {
+    "repo": "aa0968111723-prog/hermes-console",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005132+00:00"
+  },
+  {
+    "repo": "aa0968111723-prog/tku-mcp-gateway",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005134+00:00"
+  },
+  {
+    "repo": "ggttol/embymedia",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005136+00:00"
+  },
+  {
+    "repo": "3mstecnologia-del/hermes-3ms-skills",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005138+00:00"
+  },
+  {
+    "repo": "mcp-tool-shop-org/ollama-intern-mcp",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005140+00:00"
+  },
+  {
+    "repo": "AIowa-LLC/hermes-fleet",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005142+00:00"
+  },
+  {
+    "repo": "fabiofalopes/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005144+00:00"
+  },
+  {
+    "repo": "pasogott/screenpipe",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005146+00:00"
+  },
+  {
+    "repo": "pasogott/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005148+00:00"
+  },
+  {
+    "repo": "sahilrupani/hermes-agent-railway-template",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005150+00:00"
   }
 ]
