@@ -57096,5 +57096,102 @@
     ],
     "discovered_at": "2026-09-08T05:04:35.904521+00:00",
     "status": "pending"
+  },
+  {
+    "name": "kwang-sub/hermes-agent-devkit",
+    "url": "https://github.com/kwang-sub/hermes-agent-devkit",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-08T06:01:03Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-08T06:01:53.791795+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "barzzly/BarzzLyp_Agent_Skills",
+    "url": "https://github.com/barzzly/BarzzLyp_Agent_Skills",
+    "description": "Automated backup of Hermes Agent skills",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-08T05:58:41Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-08T06:01:56.794935+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "notwitcheer/hermes-recipes",
+    "url": "https://github.com/notwitcheer/hermes-recipes",
+    "description": "tested hermes agent recipes: configs, deploys, mcp, automations. copy, run, build.",
+    "stars": 115,
+    "forks": 8,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-08T05:56:54Z",
+    "category": "core",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "moderate_stars_100+",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-08T06:01:59.797757+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Dannyxlm/hermes-agent",
+    "url": "https://github.com/Dannyxlm/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-08T05:59:56Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-09-08T06:02:04.878589+00:00",
+    "status": "pending"
   }
 ]
