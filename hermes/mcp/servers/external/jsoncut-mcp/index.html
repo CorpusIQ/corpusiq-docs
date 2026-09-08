@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Read-only MCP consultation surface for field-tested agent-system design patterns. Five keyless tools (orient, cards, read, links, navigate) over one">
+        <meta name="description" content="Give an external agent focused access to JsonCut editable projects, media, templates, visual review and rendering. Bounded edits, upload tickets, review">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/agentic-atlas">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/jsoncut-mcp">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Agentic Atlas MCP - Field-Tested Agent-System Design Patterns</title>
+    <title>JsonCut MCP - Video and Image Authoring for Agents</title>
   
 
     
@@ -69,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/agentic-atlas">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/jsoncut-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Agentic Atlas MCP - Field-Tested Agent-System Design Patterns">
-  <meta property="og:description" content="Read-only MCP consultation surface for field-tested agent-system design patterns. Five keyless tools (orient, cards, read, links, navigate) over one">
+  <meta property="og:title" content="JsonCut MCP - Video and Image Authoring for Agents">
+  <meta property="og:description" content="Give an external agent focused access to JsonCut editable projects, media, templates, visual review and rendering. Bounded edits, upload tickets, review">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Agentic Atlas MCP - Field-Tested Agent-System Design Patterns">
-  <meta name="twitter:description" content="Read-only MCP consultation surface for field-tested agent-system design patterns. Five keyless tools (orient, cards, read, links, navigate) over one">
+  <meta name="twitter:title" content="JsonCut MCP - Video and Image Authoring for Agents">
+  <meta name="twitter:description" content="Give an external agent focused access to JsonCut editable projects, media, templates, visual review and rendering. Bounded edits, upload tickets, review">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,9 +107,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Agentic Atlas MCP - Field-Tested Agent-System Design Patterns",
-    "description": "Read-only MCP consultation surface for field-tested agent-system design patterns. Five keyless tools (orient, cards, read, links, navigate) over one",
-    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/agentic-atlas",
+    "name": "JsonCut MCP - Video and Image Authoring for Agents",
+    "description": "Give an external agent focused access to JsonCut editable projects, media, templates, visual review and rendering. Bounded edits, upload tickets, review",
+    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/jsoncut-mcp",
     
     "author": {
       "@type": "Organization",
@@ -173,7 +173,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#agentic-atlas-mcp" class="md-skip">
+        <a href="#jsoncut-mcp" class="md-skip">
           Skip to content
         </a>
       
@@ -209,7 +209,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Agentic Atlas MCP - Field-Tested Agent-System Design Patterns
+              JsonCut MCP - Video and Image Authoring for Agents
             
           </span>
         </div>
@@ -10057,90 +10057,100 @@
   
 
 
-<h1 id="agentic-atlas-mcp">Agentic Atlas MCP<a class="headerlink" href="#agentic-atlas-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Public, read-only consultation surface for field-tested agent-system design patterns</strong> - a hosted knowledge corpus that both people and agents can read, published by <a href="https://agentic-atlas.dev/">agentic-atlas.dev</a>. Five keyless tools map ordinary design vocabulary to canonical patterns, read the corpus at card, section, or full-node depth, and traverse relationships between nodes. Live-probed Release v1.0.6, served stateless at <a href="https://agentic-atlas.dev/mcp/">https://agentic-atlas.dev/mcp/</a> (protocol 2025-06-18) - no account, no credentials.</p>
-<div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP, hosted, stateless)
-Auth: None
-Release: v1.0.6 (serverInfo; registry: dev.agentic-atlas/atlas)
-Website: https://agentic-atlas.dev/
-Endpoint: https://agentic-atlas.dev/mcp/
-Tools: 5 (live-probed 2026-09-08; protocol 2025-06-18)
-Pricing: free
-Category: AI &amp; Agents
-Built by: Avery Jones (github.com/aj604/agentic-atlas-plugin)
+<h1 id="jsoncut-mcp">JsonCut MCP<a class="headerlink" href="#jsoncut-mcp" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Remote MCP server (Streamable HTTP, API key)</strong> - JsonCut gives an external agent focused access to editable projects, media, templates, visual review and rendering. The V2 tool family (jsoncut_v2_*) carries a full authoring loop: read the authoring guide, work in durable projects, upload media through short-lived tickets, make bounded edits, review visual frames, then render the pinned final version.</p>
+<div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
+Auth: API key (X-API-Key header)
+Endpoint: https://mcp.jsoncut.com/mcp
+Tools: jsoncut_v2_* authoring set (projects, templates, media, review, render)
+Pricing: JsonCut platform plans
+Category: Content
+Built by: JsonCut (jsoncut.com)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Agent systems fail in predictable ways - unbounded context, unclear ownership of decisions, drift between what was designed and what was shipped. Agentic Atlas is the reference layer for those failures: patterns that have been field-tested, with every card claim carrying its source address. <strong>The corpus is served as one active Release (v1.0.6): the endpoint serves exactly that release, and a promotion replaces it wholesale</strong> - no silent drift between what a caller read last week and what it reads now.</p>
-<p>For a team building or buying agent infrastructure, this is a cheap, keyless way to have an agent consult established design practice before it invents one.</p>
+<p>Video and image production for agents usually means handing a prompt to a generator and hoping the output survives review. <strong>JsonCut MCP gives the agent an editing surface instead</strong>: a project holds the media and its optimistic version, edits are bounded to what changed, and visual review frames or a contact sheet come back before anything is committed to a render. The agent can repair only visible problems and pin the final version - the loop a human editor would run, compressed into tool calls.</p>
+<p>The upload-ticket design matters for operators with private assets. Large or private local files go through a one-shot ticket scoped to a single project or template that expires in 60 to 900 seconds and reveals no object-storage credentials - so a production asset never leaves a controlled path.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
-<p>5 read-only tools confirmed by live probe of Release v1.0.6 (2026-09-08):</p>
 <table>
 <thead>
 <tr>
-<th>Tool</th>
-<th>Purpose</th>
+<th>Area</th>
+<th>Capability</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>atlas_orient</td>
-<td>Entry point: discover canonical identity from an ordinary-language query (e.g. "context window budget") when no canonical id is known; ranks whole-word matches by how few subjects carry them</td>
+<td>Authoring guide</td>
+<td><code>jsoncut_v2_get_authoring_guide</code> - read once at the start of a creation task</td>
 </tr>
 <tr>
-<td>atlas_cards</td>
-<td>Read 1-4 canonical ids as one ordered Card per id: identity, Hook, and sealed claims with source addresses</td>
+<td>Projects</td>
+<td>Create and work in durable projects for iterative image or video work</td>
 </tr>
 <tr>
-<td>atlas_read</td>
-<td>Read a complete Node - bare id: identity, hierarchy, Hook, and every Section</td>
+<td>Templates</td>
+<td>Search templates and read <code>jsoncut_v2_get_template_inputs</code> to satisfy the discovered contract</td>
 </tr>
 <tr>
-<td>atlas_links</td>
-<td>Page one subject's relationship occurrences, outbound then inbound, with direction and reference context</td>
+<td>Media</td>
+<td>Bounded Base64 upload for small files; <code>jsoncut_v2_create_upload_ticket</code> for large or private files</td>
 </tr>
 <tr>
-<td>atlas_navigate</td>
-<td>Read "tree" (canonical ordered traversal of every published node) or "tour" (publisher-curated path)</td>
+<td>Editing</td>
+<td>Bounded edits preserving the current optimistic version</td>
+</tr>
+<tr>
+<td>Review</td>
+<td>Request visual review frames or a contact sheet before rendering</td>
+</tr>
+<tr>
+<td>Rendering</td>
+<td>Render the pinned final version</td>
 </tr>
 </tbody>
 </table>
-<p>The former <code>atlas_provenance</code>, <code>atlas_define</code>, and <code>atlas_decisions</code> tools were retired in Release v1.0.6; their capabilities are recovered through this five-tool grammar (provenance and publication decisions surface as source addresses on sealed card claims; glossary terms resolve through <code>atlas_orient</code> vocabulary matching). The endpoint also publishes a consultation contract and three companion workflow skills (<code>designing-agent-systems</code>, <code>reviewing-agent-designs</code>, <code>applying-a-pattern</code>) as resources for hosts implementing the draft MCP Skills Extension.</p>
-<p>Calls are idempotent and read-only (annotated <code>readOnlyHint</code>), and results carry <code>scope</code> metadata (total/returned/truncated) with cursor pagination. An empty result is a successful empty payload, not an error.</p>
+<p>A legacy V1 endpoint (https://mcp.jsoncut.com/legacy/mcp) remains frozen for JSON-job compatibility - new integrations should use the V2 endpoint only, never both.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>agentic-atlas<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://agentic-atlas.dev/mcp/
+<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>jsoncut<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://mcp.jsoncut.com/mcp
 </code></pre></div>
-<p>No local installation, no account, no credentials. Works with Claude Code, Cursor, VS Code, Codex and any MCP-compatible client.</p>
+<p>Full V2 tool reference and recommended agent loops: https://jsoncut.com/docs/mcp-tools/</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;agentic-atlas&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="nt">&quot;jsoncut&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://agentic-atlas.dev/mcp/&quot;</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://mcp.jsoncut.com/mcp&quot;</span><span class="p">,</span>
+<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="nt">&quot;X-API-Key&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;${JSONCUT_API_KEY}&quot;</span>
+<span class="w">      </span><span class="p">}</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>The server is stateless: initialize returned no session ID and tools/list succeeds without one (MCP '26-style stateless transport). No API key of any kind.</p>
+<p>Send the JsonCut API key as the X-API-Key header and grant only the scopes needed for projects, templates, media, renders and resource discovery.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Operators building agent systems</strong> get a consultation surface for design decisions - when to add memory, how to structure approval gates, which patterns have held up in the field.</li>
-<li><strong>Architects reviewing agent stacks</strong> get a source address on every card claim, so a design choice can be traced to its published evidence.</li>
-<li><strong>Teams onboarding agents</strong> get a stable vocabulary and canonical naming layer that a new agent can read on first contact.</li>
+<li><strong>Creative teams</strong> get an agent that edits inside real projects instead of generating throwaway one-shots</li>
+<li><strong>Marketing operators</strong> reuse brand templates by contract, with render values validated against discovered template inputs</li>
+<li><strong>E-commerce teams</strong> iterate product visuals with review frames before paying for final renders</li>
+<li><strong>Agencies</strong> keep client work separated by scoped API keys and durable projects</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ is the business-data layer (QuickBooks, Stripe, HubSpot, GA4 and 40+ more connectors); Agentic Atlas is the design-practice layer. A Hermes agent composing a workflow can consult Agentic Atlas for the pattern (how should approval gates and read-only contracts be structured?) and then execute against CorpusIQ for the data (what do the numbers say?). Design wisdom from Agentic Atlas, business truth from CorpusIQ.</p>
+<p>JsonCut complements the CorpusIQ analytics and commerce connectors: GA4 and Shopify surface the products and campaigns worth creative investment, and JsonCut turns that signal into edited, reviewed, rendered assets. The composed workflow is pick-a-winner-then-produce-the-asset - CorpusIQ reads the business to find the product or angle, JsonCut executes the creative edit loop, and the review-frame step keeps a human in control of what ships.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>New listing (added Aug 24, 2026; refreshed Sep 8, 2026 for Release v1.0.6) - no long-term track record yet.</li>
-<li>Read-only consultation surface: it provides design guidance, not transactional APIs or execution.</li>
-<li>Single-source corpus: patterns reflect the publisher's curation and field testing, not an open contribution pool.</li>
-<li>No authentication means no personalization - every caller reads the same active Release.</li>
+<li>Brand new listing (September 7, 2026) - no track record yet</li>
+<li>API-key auth with scoping discipline required per integration</li>
+<li>Hosted only - no self-host option</li>
+<li>V1/V2 endpoint split can confuse legacy clients (V1 is frozen, feature development is V2-only)</li>
+<li>Render and media costs sit on the JsonCut platform plans</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/mcp/servers/external">External MCP Server Catalog</a> - curated third-party MCP servers for operators</li>
-<li><a href="/hermes/mcp">MCP Integration Guide</a> - connecting MCP servers to Hermes Agent</li>
-<li><a href="/hermes/mcp/servers/external/truth-bear-gauge">Truth Bear GAUGE MCP</a> - verifiable government data with the same proof-first discipline</li>
+<li><a href="/hermes/mcp/servers/external">MCP Servers Index</a></li>
+<li><a href="/hermes/mcp/connectors">CorpusIQ Connectors</a></li>
+<li><a href="/hermes/mcp/servers/external/shotstack-mcp">Shotstack MCP - Video Editing API for AI Agents</a></li>
+<li><a href="/hermes/mcp/servers/external/treza-mcp">Treza MCP - AI Video Pipelines to Social Channels</a></li>
 </ul>
 
 

@@ -6,11 +6,11 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Read-only MCP consultation surface for field-tested agent-system design patterns. Five keyless tools (orient, cards, read, links, navigate) over one">
+        <meta name="description" content="Hosted video pipeline platform for agents. Build a pipeline from a brief, run renders on Treza's workers, follow per-node results, and publish finished">
       
       
       
-        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/agentic-atlas">
+        <link rel="canonical" href="https://www.corpusiq.io/docs/hermes/mcp/servers/external/treza-mcp">
       
       
       
@@ -23,7 +23,7 @@
     
     
   
-    <title>Agentic Atlas MCP - Field-Tested Agent-System Design Patterns</title>
+    <title>Treza MCP - AI Video Pipelines to Social Channels</title>
   
 
     
@@ -69,16 +69,16 @@
   
   <!-- Open Graph - LinkedIn / X / Facebook / Slack share previews -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/agentic-atlas">
+  <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/treza-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Agentic Atlas MCP - Field-Tested Agent-System Design Patterns">
-  <meta property="og:description" content="Read-only MCP consultation surface for field-tested agent-system design patterns. Five keyless tools (orient, cards, read, links, navigate) over one">
+  <meta property="og:title" content="Treza MCP - AI Video Pipelines to Social Channels">
+  <meta property="og:description" content="Hosted video pipeline platform for agents. Build a pipeline from a brief, run renders on Treza's workers, follow per-node results, and publish finished">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Agentic Atlas MCP - Field-Tested Agent-System Design Patterns">
-  <meta name="twitter:description" content="Read-only MCP consultation surface for field-tested agent-system design patterns. Five keyless tools (orient, cards, read, links, navigate) over one">
+  <meta name="twitter:title" content="Treza MCP - AI Video Pipelines to Social Channels">
+  <meta name="twitter:description" content="Hosted video pipeline platform for agents. Build a pipeline from a brief, run renders on Treza's workers, follow per-node results, and publish finished">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -107,9 +107,9 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Agentic Atlas MCP - Field-Tested Agent-System Design Patterns",
-    "description": "Read-only MCP consultation surface for field-tested agent-system design patterns. Five keyless tools (orient, cards, read, links, navigate) over one",
-    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/agentic-atlas",
+    "name": "Treza MCP - AI Video Pipelines to Social Channels",
+    "description": "Hosted video pipeline platform for agents. Build a pipeline from a brief, run renders on Treza\u0027s workers, follow per-node results, and publish finished",
+    "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/treza-mcp",
     
     "author": {
       "@type": "Organization",
@@ -173,7 +173,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#agentic-atlas-mcp" class="md-skip">
+        <a href="#treza-mcp-ai-video-pipelines-to-social-channels" class="md-skip">
           Skip to content
         </a>
       
@@ -209,7 +209,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Agentic Atlas MCP - Field-Tested Agent-System Design Patterns
+              Treza MCP - AI Video Pipelines to Social Channels
             
           </span>
         </div>
@@ -10057,90 +10057,81 @@
   
 
 
-<h1 id="agentic-atlas-mcp">Agentic Atlas MCP<a class="headerlink" href="#agentic-atlas-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Public, read-only consultation surface for field-tested agent-system design patterns</strong> - a hosted knowledge corpus that both people and agents can read, published by <a href="https://agentic-atlas.dev/">agentic-atlas.dev</a>. Five keyless tools map ordinary design vocabulary to canonical patterns, read the corpus at card, section, or full-node depth, and traverse relationships between nodes. Live-probed Release v1.0.6, served stateless at <a href="https://agentic-atlas.dev/mcp/">https://agentic-atlas.dev/mcp/</a> (protocol 2025-06-18) - no account, no credentials.</p>
-<div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP, hosted, stateless)
-Auth: None
-Release: v1.0.6 (serverInfo; registry: dev.agentic-atlas/atlas)
-Website: https://agentic-atlas.dev/
-Endpoint: https://agentic-atlas.dev/mcp/
-Tools: 5 (live-probed 2026-09-08; protocol 2025-06-18)
-Pricing: free
-Category: AI &amp; Agents
-Built by: Avery Jones (github.com/aj604/agentic-atlas-plugin)
+<h1 id="treza-mcp-ai-video-pipelines-to-social-channels">Treza MCP - AI Video Pipelines to Social Channels<a class="headerlink" href="#treza-mcp-ai-video-pipelines-to-social-channels" title="Anchor link to this section">&para;</a></h1>
+<p><strong>Remote MCP server (Streamable HTTP, OAuth)</strong> - a hosted video pipeline platform from Treza Labs (trezalabs.com) that gives an assistant a full production workflow: build a pipeline from a brief on a node canvas, run it, follow the render, and publish the result to a connected social channel. Every tool maps to a step a producer takes, scoped to the account that signed in.</p>
+<div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
+Auth: OAuth browser sign-in on first use, or a scoped API key as a bearer token (pipelines:read, pipelines:run, pipelines:write, keys:provision scopes)
+Endpoint: https://www.trezalabs.com/api/mcp
+Tools: 16 (authoring, running, budgeting, publishing)
+Pricing: Prepaid credits; estimate_run_cost prices a run against the balance before anything renders
+Category: Content
+Built by: Treza Labs (trezalabs.com)
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
-<p>Agent systems fail in predictable ways - unbounded context, unclear ownership of decisions, drift between what was designed and what was shipped. Agentic Atlas is the reference layer for those failures: patterns that have been field-tested, with every card claim carrying its source address. <strong>The corpus is served as one active Release (v1.0.6): the endpoint serves exactly that release, and a promotion replaces it wholesale</strong> - no silent drift between what a caller read last week and what it reads now.</p>
-<p>For a team building or buying agent infrastructure, this is a cheap, keyless way to have an agent consult established design practice before it invents one.</p>
+<p>Recurring video content - podcast clips, product announcements, weekly shorts - dies on the calendar because a human has to cut, caption, render and upload every time. Treza turns that into a pipeline an agent can own: the assistant drafts the graph from a template or node vocabulary, fixes validation issues before anything runs, and the published snapshot fires on a schedule without a human touching the canvas.</p>
+<p><strong>Cost and channels are first-class</strong>: <code>estimate_run_cost</code> prices one run against the current balance before spending credits, and <code>list_connected_channels</code> returns the YouTube, TikTok and Instagram accounts the operator connected once in settings, so a pipeline can end with the video uploaded without the agent ever holding channel credentials. The endpoint is live and OAuth-gated - an unauthenticated probe returns 401 as expected.</p>
 <h2 id="tools-capabilities">Tools &amp; Capabilities<a class="headerlink" href="#tools-capabilities" title="Anchor link to this section">&para;</a></h2>
-<p>5 read-only tools confirmed by live probe of Release v1.0.6 (2026-09-08):</p>
 <table>
 <thead>
 <tr>
-<th>Tool</th>
-<th>Purpose</th>
+<th>Group</th>
+<th>Tools</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>atlas_orient</td>
-<td>Entry point: discover canonical identity from an ordinary-language query (e.g. "context window budget") when no canonical id is known; ranks whole-word matches by how few subjects carry them</td>
+<td>Authoring (pipelines:write)</td>
+<td><code>list_pipeline_templates</code> (ready-made pipelines, e.g. Podcast Clip Factory), <code>list_node_types</code>, <code>get_node_type</code> (ports, config schema, live model catalog), <code>create_pipeline</code>, <code>update_pipeline</code> (error-level issues block the write), <code>publish_pipeline</code> (snapshot as immutable deployed version)</td>
 </tr>
 <tr>
-<td>atlas_cards</td>
-<td>Read 1-4 canonical ids as one ordered Card per id: identity, Hook, and sealed claims with source addresses</td>
+<td>Running (pipelines:run)</td>
+<td><code>list_pipelines</code>, <code>get_pipeline</code>, <code>run_pipeline</code> (background run, returns a run id at once), <code>get_run</code> (per-node results and output URLs; poll until status leaves running), <code>list_runs</code>, <code>set_schedule_paused</code> (pause or resume without touching the published graph)</td>
 </tr>
 <tr>
-<td>atlas_read</td>
-<td>Read a complete Node - bare id: identity, hierarchy, Hook, and every Section</td>
+<td>Budgeting (read-only)</td>
+<td><code>estimate_run_cost</code> (what one run will charge and whether the balance covers it), <code>get_credit_balance</code> (prepaid balance, plan usage, top-up link)</td>
 </tr>
 <tr>
-<td>atlas_links</td>
-<td>Page one subject's relationship occurrences, outbound then inbound, with direction and reference context</td>
-</tr>
-<tr>
-<td>atlas_navigate</td>
-<td>Read "tree" (canonical ordered traversal of every published node) or "tour" (publisher-curated path)</td>
+<td>Publishing and access (keys:provision)</td>
+<td><code>list_connected_channels</code> (channel ids for upload nodes), <code>create_api_key</code> (mint a durable scoped treza_live_ key, shown once)</td>
 </tr>
 </tbody>
 </table>
-<p>The former <code>atlas_provenance</code>, <code>atlas_define</code>, and <code>atlas_decisions</code> tools were retired in Release v1.0.6; their capabilities are recovered through this five-tool grammar (provenance and publication decisions surface as source addresses on sealed card claims; glossary terms resolve through <code>atlas_orient</code> vocabulary matching). The endpoint also publishes a consultation contract and three companion workflow skills (<code>designing-agent-systems</code>, <code>reviewing-agent-designs</code>, <code>applying-a-pattern</code>) as resources for hosts implementing the draft MCP Skills Extension.</p>
-<p>Calls are idempotent and read-only (annotated <code>readOnlyHint</code>), and results carry <code>scope</code> metadata (total/returned/truncated) with cursor pagination. An empty result is a successful empty payload, not an error.</p>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>agentic-atlas<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>https://agentic-atlas.dev/mcp/
+<div class="highlight"><pre><span></span><code>claude<span class="w"> </span>mcp<span class="w"> </span>add<span class="w"> </span>--transport<span class="w"> </span>http<span class="w"> </span>treza<span class="w"> </span>https://www.trezalabs.com/api/mcp
 </code></pre></div>
-<p>No local installation, no account, no credentials. Works with Claude Code, Cursor, VS Code, Codex and any MCP-compatible client.</p>
+<p>On first use the client opens a browser window to sign in to Treza and approve the scopes it asked for - no key touches the chat or a config file. A Cursor walkthrough is published at trezalabs.com/blog/how-to-connect-cursor-to-a-video-pipeline-mcp.</p>
 <h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
 <span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;agentic-atlas&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://agentic-atlas.dev/mcp/&quot;</span>
+<span class="w">    </span><span class="nt">&quot;treza&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://www.trezalabs.com/api/mcp&quot;</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>The server is stateless: initialize returned no session ID and tools/list succeeds without one (MCP '26-style stateless transport). No API key of any kind.</p>
+<p>For headless use, a scoped API key with <code>pipelines:read</code> and <code>pipelines:run</code> permissions can be sent in the Authorization header; minting one requires the <code>keys:provision</code> scope, which only an OAuth consent or first-party session carries.</p>
 <h2 id="business-relevance">Business Relevance<a class="headerlink" href="#business-relevance" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Operators building agent systems</strong> get a consultation surface for design decisions - when to add memory, how to structure approval gates, which patterns have held up in the field.</li>
-<li><strong>Architects reviewing agent stacks</strong> get a source address on every card claim, so a design choice can be traced to its published evidence.</li>
-<li><strong>Teams onboarding agents</strong> get a stable vocabulary and canonical naming layer that a new agent can read on first contact.</li>
+<li><strong>Content teams</strong> turn a podcast feed into a weekly captioned vertical short with a schedule trigger and zero manual editing.</li>
+<li><strong>Social media managers</strong> run the same pipeline across YouTube, TikTok and Instagram channels from one connected account.</li>
+<li><strong>Marketing operations</strong> get credit estimation before every render, so agent-driven video never silently drains a balance.</li>
+<li><strong>Agencies</strong> mint scoped keys per client pipeline and let headless systems drive production without sharing channel logins.</li>
 </ul>
 <h2 id="integration-with-corpusiq">Integration with CorpusIQ<a class="headerlink" href="#integration-with-corpusiq" title="Anchor link to this section">&para;</a></h2>
-<p>CorpusIQ is the business-data layer (QuickBooks, Stripe, HubSpot, GA4 and 40+ more connectors); Agentic Atlas is the design-practice layer. A Hermes agent composing a workflow can consult Agentic Atlas for the pattern (how should approval gates and read-only contracts be structured?) and then execute against CorpusIQ for the data (what do the numbers say?). Design wisdom from Agentic Atlas, business truth from CorpusIQ.</p>
+<p>Treza extends CorpusIQ's content automation stack: the CorpusIQ agent writes the weekly video brief, calls <code>create_pipeline</code> from a template, points the upload node at the connected YouTube channel, and lets <code>run_pipeline</code> plus <code>get_run</code> handle render and delivery while the agent reports the finished URL back into the campaign record. The schedule trigger replaces a cron for recurring content, and <code>estimate_run_cost</code> feeds CorpusIQ's budget tracking so video spend is visible alongside ad spend in the operator's monthly report. Channel connections stay with the operator's Treza account - CorpusIQ never sees social credentials.</p>
 <h2 id="limitations">Limitations<a class="headerlink" href="#limitations" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>New listing (added Aug 24, 2026; refreshed Sep 8, 2026 for Release v1.0.6) - no long-term track record yet.</li>
-<li>Read-only consultation surface: it provides design guidance, not transactional APIs or execution.</li>
-<li>Single-source corpus: patterns reflect the publisher's curation and field testing, not an open contribution pool.</li>
-<li>No authentication means no personalization - every caller reads the same active Release.</li>
+<li>Hosted platform with prepaid credits; no self-host build.</li>
+<li>OAuth sign-in requires a browser flow on first connection.</li>
+<li>Video output quality depends on the models wired into the node canvas.</li>
+<li>The raw key shown by <code>create_api_key</code> appears once; store it immediately.</li>
+<li>Brand new listing in this catalog (listed Sep 2026 on mcpservers.org).</li>
 </ul>
 <h2 id="see-also">See Also<a class="headerlink" href="#see-also" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="/hermes/mcp/servers/external">External MCP Server Catalog</a> - curated third-party MCP servers for operators</li>
-<li><a href="/hermes/mcp">MCP Integration Guide</a> - connecting MCP servers to Hermes Agent</li>
-<li><a href="/hermes/mcp/servers/external/truth-bear-gauge">Truth Bear GAUGE MCP</a> - verifiable government data with the same proof-first discipline</li>
+<li><a href="/hermes/mcp/servers/external">MCP Servers Index</a></li>
+<li><a href="/hermes/mcp/connectors">CorpusIQ Connectors</a></li>
 </ul>
 
 

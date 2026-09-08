@@ -13710,5 +13710,187 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-07T08:04:56.501357+00:00"
+  },
+  {
+    "repo": "modpunk/omarchy-agent-launcher",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005118+00:00"
+  },
+  {
+    "repo": "bacnh85/hermes-plugins",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005130+00:00"
+  },
+  {
+    "repo": "aa0968111723-prog/hermes-console",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005132+00:00"
+  },
+  {
+    "repo": "aa0968111723-prog/tku-mcp-gateway",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005134+00:00"
+  },
+  {
+    "repo": "ggttol/embymedia",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005136+00:00"
+  },
+  {
+    "repo": "3mstecnologia-del/hermes-3ms-skills",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005138+00:00"
+  },
+  {
+    "repo": "mcp-tool-shop-org/ollama-intern-mcp",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005140+00:00"
+  },
+  {
+    "repo": "AIowa-LLC/hermes-fleet",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005142+00:00"
+  },
+  {
+    "repo": "fabiofalopes/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005144+00:00"
+  },
+  {
+    "repo": "pasogott/screenpipe",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005146+00:00"
+  },
+  {
+    "repo": "pasogott/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005148+00:00"
+  },
+  {
+    "repo": "sahilrupani/hermes-agent-railway-template",
+    "score": 60,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T05:05:05.005150+00:00"
+  },
+  {
+    "repo": "kwang-sub/hermes-agent-devkit",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T06:02:13.584373+00:00"
+  },
+  {
+    "repo": "barzzly/BarzzLyp_Agent_Skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T06:02:13.584386+00:00"
+  },
+  {
+    "repo": "notwitcheer/hermes-recipes",
+    "score": 69,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T06:02:13.584389+00:00"
+  },
+  {
+    "repo": "Dannyxlm/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T06:02:13.584390+00:00"
+  },
+  {
+    "repo": "debzroot/Debz-AI---Agent",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T08:04:52.358548+00:00"
+  },
+  {
+    "repo": "sh1un/hermes-agentcore-plugin",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T08:04:52.358562+00:00"
+  },
+  {
+    "repo": "paraflu/hermes-skill-xiaomi-lua-watchface",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T08:04:52.358565+00:00"
+  },
+  {
+    "repo": "Orillion-Almodova/hermes-agent-captcha-solver-mcp",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T08:04:52.358567+00:00"
+  },
+  {
+    "repo": "Bergmann89/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T08:04:52.358569+00:00"
+  },
+  {
+    "repo": "Zombie-W33D/hermes_voice_client",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T09:02:32.265349+00:00"
+  },
+  {
+    "repo": "agentifickit/fliphq-hermes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T09:02:32.265364+00:00"
+  },
+  {
+    "repo": "wenyh97/wecom-ai-customer-service",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T09:02:32.265367+00:00"
+  },
+  {
+    "repo": "apoapostolov/hermes-agent-awesome-plugins",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T09:02:32.265369+00:00"
+  },
+  {
+    "repo": "ayase0307/ego-browser-hermes",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T09:02:32.265371+00:00"
   }
 ]
