@@ -36,6 +36,7 @@ Both skills pass all three skills.sh security audits (Gen Agent Trust Hub / Sock
 | 101-skills/superpowers | 25,090 | Republished inference.sh mirror (ai-video-generation, agent-browser) - covered by inference-sh-skills-setup.md |
 | magentosh/superpowers | 16,145 | Republished inference.sh mirror (same 2 skills, identical README) - covered by inference-sh-skills-setup.md |
 | qu-skills/superpowers | 11,747 | Republished inference.sh mirror (same 2 skills, identical README) - covered by inference-sh-skills-setup.md |
+| skills-shell/superpowers | 9,039 | Republished inference.sh mirror #4 (created Sep 2, 0★, same 2 skills, README verbatim inference.sh text) - covered by inference-sh-skills-setup.md. Recorded Sep 8 PM sweep |
 
 All other sweep candidates (67 NEW flags) mapped to the standing-rejection roster recorded in the corpusiq-docs-management skill reference (daily-skills-sweep-cron.md, Sep 7 morning entry); no overturns, no bar-clearers.
 
