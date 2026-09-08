@@ -12,7 +12,16 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 8, 2026 (morning cron sweep) · **Sources:** mcp.so feed (30 server blocks) + mcpservers.org /all page 1 via r.jina.ai reader proxy · **Catalog:** 588 servers (+474 guides)
+> **Last updated:** September 8, 2026 (evening cron sweep) · **Sources:** mcp.so feed (30 server blocks) + mcpservers.org /all page 1 via r.jina.ai reader proxy · **Catalog:** 590 servers (+476 guides)
+
+## 🆕 September 8, 2026 - Evening Cron Sweep (2 New, 2 Guides)
+
+Evening sweep over the mcp.so feed (30 server blocks) plus mcpservers.org /all page 1 via the r.jina.ai reader proxy. Two new business-relevant servers catalogued with guides: Expired Domains MCP (Karma.Domains domain intelligence across auctions, expired, backorder and buy-now inventory - 31 tools on one hosted endpoint at mcp.karma.domains/mcp with Pro-plan OAuth or API key auth, SEO enrich jobs with Ahrefs, Moz and SimilarWeb data, guest share links, saved filters, annotations and 13 live checkers at 1 credit per domain; x402 USDC credit packs for agent access, health endpoint probe-verified, well-known manifest v2.4.0, repo karma-domains/expired-domains-mcp) and VarynForge MCP (agent-native SEO research - a 57-tool OAuth 2.1 endpoint at app.varynforge.com/api/mcp with project creation, niche analysis, competitor tracking, keyword and page dossiers, opportunity clusters, per-channel writer-ready briefs, draft linting, a distribution ledger and a 30-day market radar; probe-verified live with public tool discovery and RS256-protected calls; free tier for project creation, niche analysis and sitemap mapping, credit-gated research runs).
+
+- [Expired Domains MCP - Karma.Domains Domain Intelligence](/hermes/mcp/servers/external/expired-domains-mcp/) · 31 tools, Pro plan, 13 live checkers, x402 credits.
+- [VarynForge MCP - Agent-Native SEO Research and Briefing](/hermes/mcp/servers/external/varynforge-mcp/) · 57 tools, OAuth 2.1, free tier, credit research runs.
+
+**Also identified (not catalogued):** mcpservers.org /all page-1 slugs unchanged from the morning sweep (Datapika family, Advisors AI, Memra, MCP ADMIN, Ergonia Works, Rendi, SnipperApp, FrameThrower, Carpedia, Wellness Project, BagIQ, Capawesome, Convert3D, marketcode, export-tools as Export Poe Chats - all ruled Sep 7-8; cartonpliant, rakutentech, maxweb4u and the author-slug pages georgi-petkov, kolganovr, oscardvs, xkallex, zsadigzade are 404 shells). Feed repeats already catalogued (Mailercloud both slugs, InstantClips, JsonCut, Fundz, Countersignatory, Fruit Stand, Beamtrace, LoomaScale, Velarion Company Intelligence) or already disposed (dxpert UNS, GoBuy, Create Prints, Tessryx, Saaskly, PostNitro, Yocoolab, TrueClicks, YouSpot, VeriRoute, DB Planner, Dealwize, PriceMyRepair, Factanker, miniOrange, agent.social, studiofromthesea, Alien Probe). GitHub search API returned 422 (flagged as spammy) - primary sources were complete, no GitHub pass this sweep. Note: the mcp.so listing tagline for varynforge still reads as flight search - stale copy; the live endpoint serves the SEO research platform.
 
 ## 🆕 September 8, 2026 - Morning Cron Sweep (3 New, 3 Guides)
 
@@ -5674,3 +5683,8 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Mailercloud MCP - Email Marketing Operations for Agents](/hermes/mcp/servers/external/mailercloud-mcp/)
 - [InstantClips MCP - E-Commerce Short-Form Video Ads](/hermes/mcp/servers/external/instantclips-mcp/)
 - [JsonCut MCP - Video and Image Authoring for Agents](/hermes/mcp/servers/external/jsoncut-mcp/)
+
+### 2 new servers from mcp.so feed - Sep 8, 2026 (evening cron sweep)
+
+- [Expired Domains MCP - Karma.Domains Domain Intelligence](/hermes/mcp/servers/external/expired-domains-mcp/)
+- [VarynForge MCP - Agent-Native SEO Research and Briefing](/hermes/mcp/servers/external/varynforge-mcp/)
