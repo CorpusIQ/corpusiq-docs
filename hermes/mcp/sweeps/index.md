@@ -1,7 +1,7 @@
 ---
 title: "MCP Ecosystem Sweeps - CorpusIQ Docs"
 description: "Automated discovery of MCP servers and tools from across the ecosystem. Daily sweeps catalog new MCP servers, their capabilities, and integration potential."
-last_updated: 2026-08-12
+last_updated: 2026-09-08
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/sweeps/"
 robots: "index,follow"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
@@ -15,6 +15,19 @@ Automated discovery of MCP servers and tools from across the ecosystem. These sw
 ## Recent Sweeps
 
 The sweep reports document newly discovered MCP servers, categorized by business function and evaluated for integration with the CorpusIQ platform.
+
+- [MCP Server Discovery - September 8, 2026 (Morning Sweep)](sweep-september8-2026-morning.md)
+- [MCP Server Discovery - September 8, 2026 (Evening Sweep)](sweep-september8-2026-evening.md)
+- [MCP Server Discovery - September 7, 2026 (Night Sweep)](sweep-september7-2026-night.md)
+- [MCP Server Discovery - September 7, 2026 (Midday Sweep)](sweep-september7-2026-midday.md)
+- [MCP Server Discovery - September 7, 2026 (Evening Sweep)](sweep-september7-2026-evening.md)
+- [MCP Server Discovery - September 7, 2026 (Day Sweep)](sweep-september7-2026-day.md)
+- [Sweep Report - September 5, 2026 (Morning) - CorpusIQ Docs](sweep-september5-2026-morning.md)
+- [Sweep Report - September 4, 2026 - CorpusIQ Docs](sweep-september4-2026-night.md)
+- [Sweep Report - September 4, 2026 (Evening) - CorpusIQ Docs](sweep-september4-2026-evening.md)
+- [Sweep Report - September 3, 2026 - CorpusIQ Docs](sweep-september3-2026-morning.md)
+- [Sweep Report - September 3, 2026 - CorpusIQ Docs](sweep-september3-2026-evening.md)
+- [Sweep Report - September 2, 2026 - CorpusIQ Docs](sweep-september2-2026-night.md)
 
 ## Purpose
 
