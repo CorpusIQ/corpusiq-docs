@@ -7,7 +7,7 @@ Current state and ongoing work for the public docs repository.
 - **Total Markdown files:** 2,209
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 21 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
-- **Skills catalog:** 412 setup guides for Hermes skills (measured: *setup*.md under hermes/skills)
+- **Skills catalog:** 414 setup guides for Hermes skills (measured: *setup*.md under hermes/skills)
 - **MCP servers:** 824 total .md under hermes/mcp/; external catalog 580 servers (+466 guides) per Sep 7 midday sweep
 - **SEO pages:** 126 top-level landing pages targeting high-intent operator keywords
 
@@ -28,7 +28,7 @@ The repo is actively maintained with daily automated updates:
 
 - **Ecosystem discovery:** Nightly GitHub scan finds new Hermes-related repos.
 - **MCP server scans:** MCP.so + mcpservers.org scanned daily. 536 servers listed with integration guides.
-- **Skills.sh marketplace:** Daily scan for new Hermes skills. 513 setup guides published.
+- **Skills.sh marketplace:** Daily scan for new Hermes skills. 515 setup guides published.
 - **SEO pages:** 126 programmatic landing pages targeting operator search intent.
 - **Content ops:** Automated internal linking, meta descriptions, OG tags, and sitemap generation.
 - **Broken link repair:** Proactive weekly audit.

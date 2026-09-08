@@ -549,3 +549,5 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Hithink Finance - Tonghuashun A-Share Data Skill Setup](/hermes/skills/catalog/hithink-finance-setup/)
 - [Task Observer - Meta-Skill for Continuous Skill Improvement Setup](/hermes/skills/catalog/task-observer-setup/)
 - [Hermes Agent Official Skills - Bundled Batch Setup](/hermes/skills/catalog/hermes-agent-official-skills-batch-setup/)
+- [Sleek Design Mobile Apps - AI Mobile App Design Skill Setup](/hermes/skills/catalog/sleek-design-mobile-apps-setup/)
+- [Marketing Mindset - B2B Marketing OS for AI Agents Setup](/hermes/skills/catalog/marketing-mindset-setup/)

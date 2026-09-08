@@ -3,7 +3,7 @@ title: "Skills Marketplace - CorpusIQ Docs"
 description: Discover and install community skills from skills.sh  --  290+ curated skills across 22 categories. Browse by category, check trending skills, submit your own. Updated weekly.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/"
 robots: "index,follow"
-last_updated: "2026-08-31"
+last_updated: "2026-09-07"
 tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ---
@@ -12,9 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**929+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**931+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+
+- [🆕 September 7, 2026 (Evening) - Sleek Design Mobile Apps (75.1K, design-mobile-apps) and Marketing Mindset (28.8K, B2B marketing OS for agents) - 2 new publisher clusters, 2 skills, 2 setup guides](/hermes/skills/marketplace/new-sep7-2026/)
 
 - [🆕 September 1, 2026 (PM) - Official Hermes Agent bundled batch: 9 new nousresearch/hermes-agent skills (432 combined installs) - competitor-news-monitor, document-to-action-items, github-issue-to-pr, blocked-page-recovery, email-inbox-triage, weekly-review-planning, meeting-action-items, product-price-monitor, sdlc-review - 1 cluster setup guide](/hermes/skills/marketplace/new-sep1-2026/)
 - [🆕 August 31, 2026 (Evening) - InsForge (144.5K, 7 skills), Matt Pocock Skills zh-CN (138.8K, 54), Owl Listener Designer Skills (124.7K, 107), TanStack Skills (36.6K, 14), Archify (32.5K, 39.2K⭐), QA Skills (25.3K, 50), Paperthin (22.1K, 36), Inkeep Open Knowledge (17.1K, 33), Vigiles (12.3K, 21), Hithink Finance (1.8K, 2) - 10 new publisher clusters, 325 skills, 10 setup guides](/hermes/skills/marketplace/new-aug31-2026-evening/)
@@ -280,7 +282,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 980+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 982+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 
