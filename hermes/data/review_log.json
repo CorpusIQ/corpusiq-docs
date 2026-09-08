@@ -13822,5 +13822,40 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-08T06:02:13.584390+00:00"
+  },
+  {
+    "repo": "debzroot/Debz-AI---Agent",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T08:04:52.358548+00:00"
+  },
+  {
+    "repo": "sh1un/hermes-agentcore-plugin",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T08:04:52.358562+00:00"
+  },
+  {
+    "repo": "paraflu/hermes-skill-xiaomi-lua-watchface",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T08:04:52.358565+00:00"
+  },
+  {
+    "repo": "Orillion-Almodova/hermes-agent-captcha-solver-mcp",
+    "score": 59,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T08:04:52.358567+00:00"
+  },
+  {
+    "repo": "Bergmann89/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T08:04:52.358569+00:00"
   }
 ]
