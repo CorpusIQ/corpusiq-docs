@@ -12,7 +12,19 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 7, 2026 (midday cron sweep) · **Sources:** chatmcp/mcpso issues #3938-#3990 + mcp.so feed and homepage recentServers + mcpservers.org /all page 1 via r.jina.ai reader proxy · **Catalog:** 580 servers (+466 guides)
+> **Last updated:** September 7, 2026 (evening cron sweep) · **Sources:** mcp.so feed (30 server blocks) + mcpservers.org /all page 1 via r.jina.ai reader proxy · **Catalog:** 585 servers (+471 guides)
+
+## 🆕 September 7, 2026 - Evening Cron Sweep (5 New, 5 Guides)
+
+Evening sweep over the mcp.so feed (30 server blocks) plus mcpservers.org /all page 1 via the r.jina.ai reader proxy. 5 new business-relevant servers catalogued with guides: Fundz Agent API (hosted sales trigger intelligence - why_now and events_for_icp return dated funding and SEC 8-K events for companies matching an ICP, each evidence item linked to the SEC filing or announcement it came from, watchlist polling for up to 400 domains and an explicitly experimental forecast; keyless discovery, X-Fundz-Key auth, $0.06 per unit with a $25/month minimum, endpoint api.fundz.net/v1/agent/mcp probe-verified with live tool schemas), Rechnungslotse MCP (German e-invoicing - 18 tools with 7 keyless covering XRechnung and ZUGFeRD validation against EN 16931 plus the full KoSIT rule set with rule IDs and plain-language fixes, § 14 UStG mandatory fields, Leitweg-ID check digits, § 19 UStG small-business thresholds and the staged mandate; 11 OAuth 2.1 account tools create invoices, log work, record payments and prepare VAT returns with ELSTER field numbers, registry de.rechnungslotse/e-rechnung), Countersignatory (spot market for verified human judgment - a quote engine and live spot index with four tiers ranked by responder stake from screened check through consensus, named countersignature to regulated seal, a published $0.25 per minute wage floor, three keyless tools probe-verified, registry com.countersignatory/mcp, market not yet open), Treza MCP (hosted video pipelines - 16 producer-step tools to build a pipeline from a brief, run renders on Treza's workers, follow per-node results and publish to connected YouTube, TikTok and Instagram channels, with schedule triggers, credit estimation and OAuth or scoped-key auth at www.trezalabs.com/api/mcp, 401-verified live) and Formdall MCP (German GDPR form backend - 10 OAuth tools where the agent creates forms, sets field schemas, wires email or webhook notifications and receives the embed snippet; encrypted retention-deleted storage, self-hosted proof-of-work captcha, HMAC-signed webhooks and Article 15/17 handling at app.formdall.de/mcp).
+
+- [Fundz Agent API MCP - SEC-Filing-Linked Sales Triggers](/hermes/mcp/servers/external/fundz-agent-api/) · 4 tools, keyless discovery, $0.06/unit.
+- [Rechnungslotse MCP - German E-Invoicing for Agents](/hermes/mcp/servers/external/rechnungslotse-mcp/) · 18 tools, 7 keyless, KoSIT validation with plain-language fixes.
+- [Countersignatory MCP - Verified Human Judgment Markets](/hermes/mcp/servers/external/countersignatory-mcp/) · 3 keyless tools, spot index, wage floor.
+- [Treza MCP - AI Video Pipelines to Social Channels](/hermes/mcp/servers/external/treza-mcp/) · 16 tools, schedule triggers, channel publishing.
+- [Formdall MCP - GDPR Form Backend for Agents](/hermes/mcp/servers/external/formdall-mcp/) · 10 OAuth tools, DSGVO-by-design.
+
+**Also identified (not catalogued):** Datapika family (four slugs - Meta Ad Library, Jobs, Trustpilot Reviews and Reddit scrapers - one pay-per-call scraping product with OAuth and per-1,000 pricing, fetcher.sh/Cracked precedent), Advisors AI readiness check (services agency page with audit pricing packages, no MCP endpoint or tool list - thin marketing docs), GoBuy Product Trust (thin listing with two consumer shopping tools, broken install config and no verified tool list), dxpert UNS tools (Sparkplug B and UNS namespace validation - industrial IoT niche), Tessryx (chat-built apps on the vendor's cloud - app-builder dev platform class, Huxly precedent), mcp-memorybank and Memra (agent memory infra class, Memwyre/Facthouse precedent), Sorify (agent QA platform - dev class), SnipperApp (macOS snippet manager - dev utility), Convert3D (3D conversion dev utility), Capacitor MCP and Capawesome MCP (docs and dev infra), figma-mcp-bridge (design tool class, Tseha precedent), Rendi FFmpeg API (thin vendor surface), Ergonia Works (agent task marketplace infra), MCP ADMIN MCP (MCP administration infra), BagIQ (disc golf), TrainBud (Garmin fitness data), Wellness Project (Apple Health/Fitbit/Oura aggregator - consumer health class), FrameThrower (film stills), Carpedia (Brazilian vehicle catalog), Export Poe Chats (consumer utility), Zoteus (academic Zotero reference manager). Page-1 prior dispositions: marketcode-ai, personalknowhow, fr-legal-kit. Feed repeats: Fruit Stand Fund Returns (catalogued Aug 25 night) plus the post-boundary block already disposed by the midday/day/night sweeps (create-prints and below).
 
 ## 🆕 September 7, 2026 - Midday Cron Sweep (19 New, 19 Guides)
 
@@ -5638,3 +5650,12 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [VetAgent MCP - Pre-Trade Token Risk Intelligence for Agents](/hermes/mcp/servers/external/vetagent-mcp/)
 - [Crawdar MCP - Qualified Prospect Research for Agents](/hermes/mcp/servers/external/crawdar-mcp/)
 - [Kuudo Amazon MCP Suite - Selling Partner and Vendor Central Operations](/hermes/mcp/servers/external/amazon-kuudo-mcp-suite/)
+
+### 5 new servers from mcp.so feed + mcpservers.org /all - Sep 7, 2026 (evening cron sweep)
+
+- [Fundz Agent API MCP - SEC-Filing-Linked Sales Triggers](/hermes/mcp/servers/external/fundz-agent-api/)
+- [Rechnungslotse MCP - German E-Invoicing for Agents](/hermes/mcp/servers/external/rechnungslotse-mcp/)
+- [Countersignatory MCP - Verified Human Judgment Markets](/hermes/mcp/servers/external/countersignatory-mcp/)
+- [Treza MCP - AI Video Pipelines to Social Channels](/hermes/mcp/servers/external/treza-mcp/)
+- [Formdall MCP - GDPR Form Backend for Agents](/hermes/mcp/servers/external/formdall-mcp/)
+
