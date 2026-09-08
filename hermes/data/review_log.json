@@ -13857,5 +13857,40 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-08T08:04:52.358569+00:00"
+  },
+  {
+    "repo": "Zombie-W33D/hermes_voice_client",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T09:02:32.265349+00:00"
+  },
+  {
+    "repo": "agentifickit/fliphq-hermes",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T09:02:32.265364+00:00"
+  },
+  {
+    "repo": "wenyh97/wecom-ai-customer-service",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T09:02:32.265367+00:00"
+  },
+  {
+    "repo": "apoapostolov/hermes-agent-awesome-plugins",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T09:02:32.265369+00:00"
+  },
+  {
+    "repo": "ayase0307/ego-browser-hermes",
+    "score": 37,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-08T09:02:32.265371+00:00"
   }
 ]

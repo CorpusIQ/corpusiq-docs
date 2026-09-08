@@ -57345,5 +57345,109 @@
     ],
     "discovered_at": "2026-09-08T08:03:02.775305+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Zombie-W33D/hermes_voice_client",
+    "url": "https://github.com/Zombie-W33D/hermes_voice_client",
+    "description": "Fork of lotsoftick/hermes_client (true source) \u2014 adds platform-independent voice: hear agent responses with voice recordings auto-played on the triggering instance only.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-09-08T08:37:15Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-08T09:01:50.967667+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "agentifickit/fliphq-hermes",
+    "url": "https://github.com/agentifickit/fliphq-hermes",
+    "description": "Hermes Agent config as code for the FlipHQ GTM ecosystem",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-09-08T09:01:03Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-08T09:01:57.471288+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wenyh97/wecom-ai-customer-service",
+    "url": "https://github.com/wenyh97/wecom-ai-customer-service",
+    "description": "Hermes Agent \u8fdc\u7a0b Linux \u540e\u7aef\u3001Caddy HTTPS \u53cd\u5411\u4ee3\u7406\u4e0e Windows Desktop \u5ba2\u6237\u7aef\u90e8\u7f72\u6307\u5357\u3002",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-08T08:59:11Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-08T09:02:03.975726+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "apoapostolov/hermes-agent-awesome-plugins",
+    "url": "https://github.com/apoapostolov/hermes-agent-awesome-plugins",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-09-08T08:56:26Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-08T09:02:10.478114+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ayase0307/ego-browser-hermes",
+    "url": "https://github.com/ayase0307/ego-browser-hermes",
+    "description": "Hermes MCP adapter for the ego-lite agent browser \u2014 work in progress",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-09-08T08:44:54Z",
+    "category": "mcp",
+    "score": 37,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "aiunlocked1412/hermes-agent-pixel"
+    ],
+    "discovered_at": "2026-09-08T09:02:17.779638+00:00",
+    "status": "pending"
   }
 ]
