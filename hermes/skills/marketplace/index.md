@@ -12,9 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**931+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**935+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+
+- [🆕 September 9, 2026 (Morning) - Salesforce Skills Library (~500K, 100+ skills), Claude SEO (~160K, 31 skills), Blacktwist Social Media (21.4K, 14), Charlie Hills Social Media (17.2K, 17) - 4 new publisher clusters, 162+ skills, 4 setup guides](/hermes/skills/marketplace/new-sep9-2026/)
 
 - [🆕 September 7, 2026 (Evening) - Sleek Design Mobile Apps (75.1K, design-mobile-apps) and Marketing Mindset (28.8K, B2B marketing OS for agents) - 2 new publisher clusters, 2 skills, 2 setup guides](/hermes/skills/marketplace/new-sep7-2026/)
 
@@ -282,7 +284,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 982+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 986+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 
