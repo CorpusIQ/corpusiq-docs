@@ -343,6 +343,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Security Hardening - AI Agent Security Setup](/hermes/skills/catalog/security-and-hardening-setup/)
 - [Sentry AI Monitoring - Agent Error Tracking Setup](/hermes/skills/catalog/sentry-ai-monitoring-setup/)
 - [Sg Arrival Card Setup](/hermes/skills/catalog/sg-arrival-card-setup/)
+- [Shopify Development - Full Setup Guide for Hermes Agents](/hermes/skills/catalog/shopify-development-setup/)
 - [shopify Skills](/hermes/skills/catalog/shopify/)
 - [Skill Repo Manager Setup](/hermes/skills/catalog/skill-repo-manager-setup/)
 - [Skill Vetting Setup](/hermes/skills/catalog/skill-vetting-setup/)
