@@ -12,7 +12,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 8, 2026 (evening cron sweep) · **Sources:** mcp.so feed (30 server blocks) + mcpservers.org /all page 1 via r.jina.ai reader proxy · **Catalog:** 590 servers (+476 guides)
+> **Last updated:** September 8, 2026 (night cron sweep) · **Sources:** mcp.so feed (30 server blocks) + mcpservers.org /all page 1 via r.jina.ai reader proxy · **Catalog:** 591 servers (+477 guides)
+
+## 🆕 September 8, 2026 - Night Cron Sweep (1 New, 1 Guide)
+
+Night sweep over the mcp.so feed (30 server blocks) plus mcpservers.org /all page 1 via the r.jina.ai reader proxy. One new business-relevant server catalogued with a guide: Fluenta MCP (hosted idea-validation server that scores business ideas on six live market signals - demand, pain, competition, monetisation, timing and distribution - into a Launch Readiness Score (LRS); a free sandbox X-Ray with no credits or writes, a full X-Ray at 2,000 credits on a read_write key, plus search over thousands of scored ideas, pipeline bookmarks, reports and usage tools on one endpoint at fluenta.space/backend/api/v1/mcp; probe-verified live with an HTTP 401 bearer-key challenge carrying OpenAPI resource metadata, docs at fluenta.space/docs/api-and-mcp).
+
+- [Fluenta MCP - Idea Validation with Launch Readiness Scores](/hermes/mcp/servers/external/fluenta-mcp/) · 14 tools, free sandbox X-Ray, 2,000-credit full run, read and read_write scopes.
+
+**Also identified (not catalogued):** mcpservers.org /all page-1 slugs unchanged from the evening sweep (Datapika family, Advisors AI, Memra, MCP ADMIN, Ergonia Works, Rendi, SnipperApp, FrameThrower, Carpedia, Wellness Project, BagIQ, Capawesome, Convert3D, marketcode, export-tools as Export Poe Chats - all ruled Sep 7-8; cartonpliant, rakutentech, maxweb4u and the author-slug pages georgi-petkov, kolganovr, oscardvs, xkallex, zsadigzade are 404 shells). Feed repeats already catalogued (Expired Domains Karma, VarynForge, Mailercloud both slugs, InstantClips, JsonCut, Fundz, Countersignatory, Fruit Stand, Beamtrace, LoomaScale, Velarion, PostNitro, Yocoolab, TrueClicks) or already disposed (agent.social, Alien Probe, Create Prints, Tessryx, Saaskly, YouSpot, VeriRoute, DB Planner, Dealwize, PriceMyRepair, Factanker, miniOrange, dxpert UNS, Onymu, studiofromthesea, GoBuy).
 
 ## 🆕 September 8, 2026 - Evening Cron Sweep (2 New, 2 Guides)
 
@@ -5688,3 +5696,7 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 
 - [Expired Domains MCP - Karma.Domains Domain Intelligence](/hermes/mcp/servers/external/expired-domains-mcp/)
 - [VarynForge MCP - Agent-Native SEO Research and Briefing](/hermes/mcp/servers/external/varynforge-mcp/)
+
+### 1 new server from mcp.so feed - Sep 8, 2026 (night cron sweep)
+
+- [Fluenta MCP - Idea Validation with Launch Readiness Scores](/hermes/mcp/servers/external/fluenta-mcp/)
