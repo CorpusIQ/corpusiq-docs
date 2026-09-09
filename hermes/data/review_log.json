@@ -13997,5 +13997,12 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-09T05:05:20.312051+00:00"
+  },
+  {
+    "repo": "sahilrupani/hermes-agent-railway",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T06:04:59.373319+00:00"
   }
 ]

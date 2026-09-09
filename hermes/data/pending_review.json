@@ -57917,5 +57917,53 @@
     ],
     "discovered_at": "2026-09-09T05:05:18.077899+00:00",
     "status": "pending"
+  },
+  {
+    "name": "sahilrupani/hermes-agent-railway",
+    "url": "https://github.com/sahilrupani/hermes-agent-railway",
+    "description": "Self-hosted Hermes Agent (Nous Research) \u2014 one-click Railway deploy. Self-improving AI agent, 200+ LLMs, persistent memory, Telegram/Discord/Slack/WhatsApp. Open-source OpenClaw & AutoGPT alternative.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "ai-agent",
+      "ai-agents",
+      "autonomous-agent",
+      "discord",
+      "docker",
+      "hermes-agent",
+      "llm",
+      "llm-agents",
+      "nous-hermes",
+      "nous-research",
+      "nousresearch",
+      "openclaw-alternative",
+      "persistent-storage",
+      "railway",
+      "railway-deployment",
+      "self-hosted",
+      "self-hosted-ai",
+      "selfhosted",
+      "telegram",
+      "telegram-bot-with-ai"
+    ],
+    "updated_at": "2026-09-09T05:29:44Z",
+    "category": "messaging",
+    "score": 65,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "qingchencloud/clawpanel",
+      "Bo1202/Aivy-OS",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-09-09T06:04:23.548677+00:00",
+    "status": "pending"
   }
 ]
