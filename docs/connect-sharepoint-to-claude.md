@@ -5,7 +5,7 @@ description: Connect SharePoint to Claude using CorpusIQ's MCP platform. Search 
 url: /docs/connect-sharepoint-to-claude
 h1: 'Connect SharePoint to Claude: Enterprise Documents Meet AI Intelligence'
 category: Claude Integrations
-last_updated: '2026-08-31'
+last_updated: '2026-09-09'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/connect-sharepoint-to-claude
 keywords:

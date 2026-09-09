@@ -4,7 +4,7 @@ description: Transform executive reporting with AI. Generate board-ready reports
 url: /docs/ai-for-executive-reporting
 h1: 'AI for Executive Reporting: Instant Board-Ready Intelligence'
 category: Business Use Cases
-last_updated: '2026-08-31'
+last_updated: '2026-09-09'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-executive-reporting
 keywords:

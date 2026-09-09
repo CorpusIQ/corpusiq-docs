@@ -2,13 +2,13 @@
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated September 8, 2026)
+## File count (updated September 9, 2026)
 
-- **Total Markdown files:** 2,246
+- **Total Markdown files:** 2,255
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 21 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 - **Skills catalog:** 419 setup guides for Hermes skills (measured: *setup*.md under hermes/skills)
-- **MCP servers:** 824 total .md under hermes/mcp/; external catalog 580 servers (+466 guides) per Sep 7 midday sweep
+- **MCP servers:** 854 total .md under hermes/mcp/; external catalog 604 servers (+490 guides) per Sep 9 evening sweep
 - **SEO pages:** 126 top-level landing pages targeting high-intent operator keywords
 
 ## Site architecture
@@ -35,6 +35,7 @@ The repo is actively maintained with daily automated updates:
 
 ## Ongoing doc gaps
 
+- **Maintenance ✅ (Sep 9, 2026, docs mgmt cron):** Bumped 99 stale `last_updated` dates in docs/ top-level SEO pages (2026-08-31 → 2026-09-09, both quote styles preserved, 0 quote defects after). Refreshed docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod → 2026-09-09. Full internal link audit clean. PII scan clean. Frontmatter quote defects: 0/0. PROGRESS.md stats refreshed (2,255 MD, 854 hermes/mcp .md, 604 external servers +490 guides, catalog 419, 126 SEO pages). Deploy-gap closure: Sep 9 evening MCP sweep (8 servers: AgentLedger, Vibe Prospecting, Wafeq, Agent Watch, Ultralayer, TrustScan, Yandex Metrika, Site Passport, pushed 11:15) was NOT live (all 8 slugs 404 pre-deploy) — deployed to Vercel, all 8 new server slugs + Sep 9 morning controls verified HTTP 200.
 - **Skills sweep ✅ (Sep 9, 2026, skills-monitor cron, morning):** 43-query skills.sh API sweep (3,776 unique; 2 queries failed — `social media`, `content` — and the compensation re-fetch surfaced 4 undocumented clusters that had been hiding behind those recurring failures). Four new publisher clusters guided: `forcedotcom/sf-skills` (~500K installs, official Salesforce agent skills library, 334 SKILL.md files, Apache-2.0, 🟡 authority-justified — 2 flagged skills disclosed), `agricidaniel/claude-seo` (~160K, 31 SEO skills, 16.6K⭐, 🟡 — July 23 "Claude-Code-specific" rejection overturned: skills now in open Agent Skills format with broad skills.sh adoption), `blacktwist/social-media-skills` (21.4K, 14 skills, 🟢 all Pass), `charlie947/social-media-skills` (17.2K, 17 skills, Charlie Hills' content system, 🟡 — voice-builder Snyk CRITICAL disclosed). 4 guides + new-sep9-2026 batch page (marketplace header 931+→935+, footer 982+→986+). Hot board clean; tiered crossref 65 NEW all standing rejections. New pitfall recorded: collector FAIL lines must be checked + failed queries compensated. Catalog 415→419.
 - **Maintenance ✅ (Sep 7, 2026, docs mgmt cron):** Removed 16 stale root-level .md duplicates (legacy twins of live docs/ pages, last touched Aug 22-24 while docs twins were maintained through Aug 31/Sep 3; excluded from MkDocs build, 404 in production — same dead-weight class as the 126 root .html removed Sep 5; root connectors/ mirror of 60 identical files still present for a future pass). Committed scripts/weekly_seo_audit.py false-positive reduction (skip preconnect/dns-prefetch/canonical link rels, GitHub/Google asset CDNs). Full internal link audit: 0 broken. PII scan clean. Frontmatter quote defects: 0 (single PROGRESS.md hit is descriptive log text from Aug 26 entry, not a defect). Stale docs top-level dates: 0. Connector count prose: 0 stragglers (canonical 40+, verified live on corpusiq.io). PROGRESS.md stats refreshed (2,209 MD, 824 hermes/mcp .md, 580 external servers +466 guides). Sitemap lastmod → 2026-09-07. Deploy-gap closure: Sep 7 sweeps (2 morning + 19 midday servers, ZopDev rename) pushed 03:07/11:23 were NOT live (loomascale-google-ads-mcp 404 pre-deploy) — deployed to Vercel, all 21 new server slugs + renamed ZopDev verified HTTP 200.
 - **Maintenance ✅ (Sep 6, 2026, docs mgmt cron):** Bumped 24 stale `last_updated` dates in docs/ top-level SEO pages (2026-08-27/28 → 2026-09-06, quote state preserved, 0 quote defects after). Full internal link audit: 12,609 links checked, 0 broken (4 documented SKIP placeholders). Retention-claims gate: PASS. Frontmatter quote defects: 0/0. PII scan clean (4 hits all false positives: third-party `hermes-worker-qxun` skill name in marketplace pages, DGX Spark hardware pages). PROGRESS.md stats refreshed (2,204 MD, 796 hermes/mcp .md, 555 external servers +441 guides). Deploy-gap closure: 18 content commits pushed since last deploy (Sep 3 12:34) — 30+ MCP catalog pages (Sep 4-6 sweeps incl. 11 Sep 6 morning servers, YouSpot), ecosystem nightly updates, AllMCPs badge, 126 stale .html removal — deployed to Vercel and verified HTTP 200.

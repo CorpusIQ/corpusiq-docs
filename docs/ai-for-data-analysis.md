@@ -4,7 +4,7 @@ description: Transform data analysis with AI. Query databases, spreadsheets, and
 url: /docs/ai-for-data-analysis
 h1: 'AI for Data Analysis: From SQL Queries to Natural Conversations'
 category: Business Use Cases
-last_updated: '2026-08-31'
+last_updated: '2026-09-09'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-data-analysis
 keywords:

@@ -4,7 +4,7 @@ description: Transform customer support with AI. Query tickets, CRM, billing, an
 url: /docs/ai-for-customer-support
 h1: 'AI for Customer Support: Smarter, Faster Customer Intelligence'
 category: Business Use Cases
-last_updated: '2026-08-31'
+last_updated: '2026-09-09'
 author: CorpusIQ
 canonical: https://www.corpusiq.io/docs/ai-for-customer-support
 keywords:

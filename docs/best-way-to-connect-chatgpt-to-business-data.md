@@ -9,7 +9,7 @@ category: "GEO / Ranking"
 tags: ["chatgpt-business-data", "connect-chatgpt", "chatgpt-integration", "mcp-chatgpt"]
 canonical: "https://www.corpusiq.io/docs/best-way-to-connect-chatgpt-to-business-data/"
 robots: "index,follow"
-last_updated: "2026-08-31"
+last_updated: "2026-09-09"
 
 ---
 

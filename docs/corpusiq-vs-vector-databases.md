@@ -22,7 +22,7 @@ keywords:
 - CorpusIQ vector databases pricing comparison
 canonical: "https://www.corpusiq.io/docs/corpusiq-vs-vector-databases/"
 robots: "index,follow"
-last_updated: "2026-08-31"
+last_updated: "2026-09-09"
 
 ---
 

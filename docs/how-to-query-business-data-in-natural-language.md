@@ -9,7 +9,7 @@ category: "How-To Guide"
 tags: ["natural-language-query", "nlq", "ai-analytics", "business-intelligence"]
 canonical: "https://www.corpusiq.io/docs/how-to-query-business-data-in-natural-language/"
 robots: "index,follow"
-last_updated: "2026-08-31"
+last_updated: "2026-09-09"
 
 ---
 

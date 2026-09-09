@@ -3,7 +3,7 @@ title: "Secure AI Data Connectivity -- Zero-Trust Business AI"
 description: Connect AI assistants to authorized business data with scoped OAuth, encrypted transport, explicit retention classes, and source-aware results. CASA Tier 2 certified.
 category: Security
 tags: [secure AI connectivity, zero-trust AI, business AI security, read-only external-source retrieval, MCP security, encrypted AI access, AI data governance]
-last_updated: "2026-08-31"
+last_updated: "2026-09-09"
 canonical: https://www.corpusiq.io/docs/secure-ai-data-connectivity
 robots: index,follow
 ---
