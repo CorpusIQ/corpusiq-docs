@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-09-06"
+last_updated: "2026-09-09"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,19 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 8, 2026 (night cron sweep) · **Sources:** mcp.so feed (30 server blocks) + mcpservers.org /all page 1 via r.jina.ai reader proxy · **Catalog:** 591 servers (+477 guides)
+> **Last updated:** September 9, 2026 (morning cron sweep) · **Sources:** mcp.so feed (30 server blocks) + mcpservers.org /all pages 1-3 via r.jina.ai reader proxy · **Catalog:** 596 servers (+482 guides)
+
+## 🆕 September 9, 2026 - Morning Cron Sweep (5 New, 5 Guides)
+
+Morning sweep over the mcp.so feed (30 server blocks) plus mcpservers.org /all pages 1-3 (89 slugs batch-classified through the r.jina.ai reader proxy; page 1 had fully rolled since the Sep 8 night sweep). Five new business-relevant servers catalogued with guides: Artlist MCP (official connector to the Artlist AI creative suite - image, video, music and voice-over generation at mcp.artlist.io/mcp over OAuth, verified + featured mcp.so listing submitted by Artlist itself, Claude/ChatGPT/VS Code support), Ultimate Web Scraper MCP (cloud scraping platform at mcp.ultimatewebscraper.com/mcp - 13 documented tools with dedicated extractors for Shopify, WooCommerce, Magento and Salesforce Commerce Cloud catalogs, contact and map extractors, sitemap mapping, automations and data cleanup; OAuth with bearer alternative, honest free tier), Emailchaser MCP (official cold-email connector at app.emailchaser.com/api/mcp - 67 tools across campaigns, leads, replies, sender accounts, ICPs, autopilot, credits, done-for-you infrastructure, blocklist and webhooks, scoped revocable API keys), DCA Method MCP (free keyless DCA backtesting at dcamethod.com/api/mcp - list_assets, run_dca_backtest and get_method live probe-captured, 15+ years of Yahoo Finance and CoinLore data across 160+ cryptos, 600+ US stocks and ETFs and 15 commodities) and SoundGTM MCP (partner program management at partnertracker.soundgtm.com/api/mcp - 19 tools with read/read_write scopes from the published server card, pipeline and deal tracking, commission authorization without money movement, draft-only partner email; OAuth 2.1 with bearer key alternative, free up to 10 partners).
+
+- [Artlist MCP - AI Creative Suite for Agents](/hermes/mcp/servers/external/artlist-mcp/) · official creative suite, OAuth, 4 generation tools.
+- [Ultimate Web Scraper MCP - Cloud Scraping for Agents](/hermes/mcp/servers/external/ultimate-web-scraper-mcp/) · 13 tools, catalog extractors, OAuth, free tier.
+- [Emailchaser MCP - Cold Email Operations for Agents](/hermes/mcp/servers/external/emailchaser-mcp/) · 67 tools, scoped keys, campaigns to webhooks.
+- [DCA Method MCP - Dollar-Cost Averaging Backtests](/hermes/mcp/servers/external/dca-method-mcp/) · 3 keyless tools, live probe-verified.
+- [SoundGTM MCP - Partner Program Management for Agents](/hermes/mcp/servers/external/soundgtm-mcp/) · 19 scoped tools, OAuth 2.1, free to 10 partners.
+
+**Also identified (not catalogued):** Prove AI (mcp.so client-kind listing - startup research engine, idea-validation class with Fluenta precedent), pulse-verity (signed crypto index prices, 5 read-only tools - crypto class), Perimeter Watch (TLS expiry, dangling DNS and lookalike-domain monitoring with $9-19/mo Stripe plans but no published MCP endpoint or tool list - thin docs), Aave MCP (official Aave listing with no documentation available - thin docs), Emit (RSS-email pipes utility), Emails MCP (IMAP inbox triage - email category saturated, Mailbox MCP precedent), WattScope (energy data in Claude - niche vertical), LinkScale (link-in-bio platform utility), AgentRender (URL-to-screenshot/PDF render API - dev infra class, working-name stage), Collide (agent conflict awareness - dev infra), Kontexta (shared context vault - agent memory class), Rogue (agent base camp - agent infra class), Torquantis (agent work marketplace - agent marketplace class), VitaeContext (career context - dev utility), Lexicon and ContextSwitch (macOS utilities), Flash (flashcard consumer app), Index TTS (voice cloning - creator utility), PRIMAMCP (German-language assistant setup - geo niche), 3DAssets Dev (3D model search - dev/design utility), ARADIA (agentic compute infra), Nullheim (experimental text world), Surli (URL shortener utility), NudiTok, Desaira and tik-tok.porn (adult search - excluded), 404 shells (sanggonboy, siweina, timurrakhmatullin86, artgas1, leek-emperor, explorium-ai, sharp-api, materialmodel, magenestjsc, earthkingmortal-design, ultralayerhq, juansitoai85-hub, johgirard, rulogb, liza-studio, oscardvs, snipperapp, rakutentech, cartonpliant, zsadigzade, maxweb4u, xkallex, capawesome-team, georgi-petkov), four exposed-port railway-app-status host-dump slugs, plus prior dispositions (FlightPowers, Seedance, Wan 3.0, dxpert UNS, ego lite sponsor) and pages 2-3 repeats already ruled by the Sep 8 night sweep (Datapika family, Advisors AI, Memra, MCP ADMIN, Ergonia Works, SnipperApp, FrameThrower, Carpedia, Wellness Project, BagIQ, Capawesome, Convert3D, marketcode, export-tools, Formdall, JsonCut). Feed repeats already catalogued (Fluenta, Beamtrace, Countersignatory, Expired Domains Karma, Fruit Stand, Fundz, InstantClips, LoomaScale, Mailercloud, PostNitro, TrueClicks, VarynForge, Velarion, Yocoolab, VetAgent, Alpha Vantage) or already disposed (agent.social, Alien Probe, Create Prints, Tessryx, Saaskly, YouSpot, VeriRoute, DB Planner, Dealwize, PriceMyRepair, Factanker, miniOrange, dxpert UNS, Onymu, studiofromthesea, GoBuy).
 
 ## 🆕 September 8, 2026 - Night Cron Sweep (1 New, 1 Guide)
 
@@ -5700,3 +5712,11 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 ### 1 new server from mcp.so feed - Sep 8, 2026 (night cron sweep)
 
 - [Fluenta MCP - Idea Validation with Launch Readiness Scores](/hermes/mcp/servers/external/fluenta-mcp/)
+
+### 5 new servers from mcp.so feed + mcpservers.org /all - Sep 9, 2026 (morning cron sweep)
+
+- [Artlist MCP - AI Creative Suite for Agents](/hermes/mcp/servers/external/artlist-mcp/)
+- [Ultimate Web Scraper MCP - Cloud Scraping for Agents](/hermes/mcp/servers/external/ultimate-web-scraper-mcp/)
+- [Emailchaser MCP - Cold Email Operations for Agents](/hermes/mcp/servers/external/emailchaser-mcp/)
+- [DCA Method MCP - Dollar-Cost Averaging Backtests](/hermes/mcp/servers/external/dca-method-mcp/)
+- [SoundGTM MCP - Partner Program Management for Agents](/hermes/mcp/servers/external/soundgtm-mcp/)
