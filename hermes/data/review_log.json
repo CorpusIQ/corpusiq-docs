@@ -13892,5 +13892,110 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-09-08T09:02:32.265371+00:00"
+  },
+  {
+    "repo": "YeXingKe/life-hermes-agents",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T05:04:16.413319+00:00"
+  },
+  {
+    "repo": "fbscotta369/Hermes-Agent-On-Android",
+    "score": 54,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T05:04:16.413335+00:00"
+  },
+  {
+    "repo": "rubezhanin/agent-dep-platform",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T05:04:16.413338+00:00"
+  },
+  {
+    "repo": "buildd0cker/hermes_agent",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T05:04:16.413340+00:00"
+  },
+  {
+    "repo": "satohubai/sato-hub-skill",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T05:04:16.413342+00:00"
+  },
+  {
+    "repo": "josecookai/agent-rewards",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T05:04:16.413344+00:00"
+  },
+  {
+    "repo": "danny-hines/muse-code-bridge",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T05:04:16.413346+00:00"
+  },
+  {
+    "repo": "Aj7Ay/agent-harness-aibom",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T05:04:16.413348+00:00"
+  },
+  {
+    "repo": "luis63e/google-workspace-agent-pack",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T05:04:16.413350+00:00"
+  },
+  {
+    "repo": "JunfXiao/hermes-plugin-skill-openviking-sync",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T05:04:16.413353+00:00"
+  },
+  {
+    "repo": "Synthwave-Solutions/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T05:04:16.413355+00:00"
+  },
+  {
+    "repo": "joyanes97/scarf",
+    "score": 48,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T05:04:16.413356+00:00"
+  },
+  {
+    "repo": "joyanes97/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T05:04:16.413358+00:00"
+  },
+  {
+    "repo": "joyanes97/hermes-webui",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T05:04:16.413360+00:00"
+  },
+  {
+    "repo": "mktest2179-a11y/ulkucu-baba",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-09T05:05:20.312051+00:00"
   }
 ]
