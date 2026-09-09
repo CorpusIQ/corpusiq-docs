@@ -12,7 +12,22 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 9, 2026 (morning cron sweep) · **Sources:** mcp.so feed (30 server blocks) + mcpservers.org /all pages 1-3 via r.jina.ai reader proxy · **Catalog:** 596 servers (+482 guides)
+> **Last updated:** September 9, 2026 (evening cron sweep) · **Sources:** mcp.so feed (30 server blocks) + mcpservers.org /all pages 1-3 via r.jina.ai reader proxy · **Catalog:** 604 servers (+490 guides)
+
+## 🆕 September 9, 2026 - Evening Cron Sweep (8 New, 8 Guides)
+
+Evening sweep over the mcp.so feed (30 server blocks) plus mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy. Eight new business-relevant servers catalogued with guides: AgentLedger MCP (per-agent spend management across x402, MPP and API-key rails at agent-ledger-production-0ff8.up.railway.app/mcp - 5 tools with agent-secret write auth, budget caps enforced with a 402, free beta up to 3 agents, Pro $19/mo), Vibe Prospecting MCP (Explorium's live B2B data at vibeprospecting.explorium.ai/mcp - company search, contact enrichment, firm research and CSV exports with sample-first previews over browser OAuth), Wafeq MCP (community MIT server exposing all 251 Wafeq accounting API endpoints as safety-categorized MCP tools over stdio or Streamable HTTP with idempotency keys and tenant verification), Agent Watch MCP (continuous liveness, latency, schema-drift, auth-posture and price-integrity monitoring for MCP endpoints with a free 5-endpoint tier and an open probe API), Ultralayer MCP (realtime market intelligence at api.ultralayer.ai/v0/mcp - news that separates new information from repeats, impact-scored developments, filing diffs, sentiment and alerts, OAuth or API key), TrustScan MCP (keyless MCP server and AI skill scanner at trust-scan-production.up.railway.app/mcp - invisible Unicode prompt-injection, MCP001-006 dangerous patterns, hardcoded secrets and typosquat detection), Yandex Metrika MCP (community npm server covering all 108 Yandex Metrika Management, Logs and Stat methods with a _meta transparency contract and no silent query rewriting) and Site Passport MCP (keyless WebMCP readiness check at sitepassport.org/.well-known/mcp.json - llms.txt, AI-crawler robots.txt directives, schema.org and WebMCP manifest, live-verified). Three of these supersede the morning sweep's author-slug 404 rulings after full author/name detail fetches resolved rich docs (explorium-ai/vibeprospecting-mcp, artgas1/yandex-metrika-mcp, ultralayerhq/ultralayer-plugin).
+
+- [AgentLedger MCP - Per-Agent Spend Management for Operators](/hermes/mcp/servers/external/agentledger-mcp/) · 5 tools, budget caps, free beta to 3 agents.
+- [Vibe Prospecting MCP - Live B2B Data for Lead Generation](/hermes/mcp/servers/external/vibe-prospecting-mcp/) · Explorium data, OAuth, sample-first exports.
+- [Wafeq MCP - Accounting Books for Agents](/hermes/mcp/servers/external/wafeq-mcp/) · 253 tools, safety categories, MIT.
+- [Agent Watch MCP - Endpoint Monitoring for the Agent Economy](/hermes/mcp/servers/external/agent-watch-mcp/) · liveness to price integrity, free tier.
+- [Ultralayer MCP - Realtime Market Intelligence for Agents](/hermes/mcp/servers/external/ultralayer-mcp/) · evidence-linked news, filings, sentiment.
+- [TrustScan MCP - Security Scanning for MCP Servers and AI Skills](/hermes/mcp/servers/external/trustscan-mcp/) · 2 keyless scan tools, 4 check classes.
+- [Yandex Metrika MCP - Web Analytics for Agents](/hermes/mcp/servers/external/yandex-metrika-mcp/) · 108 methods, transparency contract, npx.
+- [Site Passport MCP - AI-Agent Readiness Checks for Websites](/hermes/mcp/servers/external/site-passport-mcp/) · keyless WebMCP, live checks.
+
+**Also identified (not catalogued):** QuoteOS (keyless insurance-quoting middleware but synthetic sandbox data only - premature per the Krimskrams rule), Magenest Odoo (mcpservers detail page 404 shell), PRIMAMCP (morning disposition as geo niche respected - German-language legal research), Onymu (thin tagline-only mcp.so listing), priostack (agent memory infra class - Memwyre precedent), plus /all and feed repeats already disposed by the morning sweep (LinkScale, WattScope, AgentRender, Collide, Kontexta, Rogue, Torquantis, VitaeContext, Flash, Index TTS, Surli, Nullheim, 3DAssets, ARADIA, FlightPowers, Seedance, dxpert UNS, adult-search trio, remaining 404 shells).
 
 ## 🆕 September 9, 2026 - Morning Cron Sweep (5 New, 5 Guides)
 
@@ -5720,3 +5735,14 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Emailchaser MCP - Cold Email Operations for Agents](/hermes/mcp/servers/external/emailchaser-mcp/)
 - [DCA Method MCP - Dollar-Cost Averaging Backtests](/hermes/mcp/servers/external/dca-method-mcp/)
 - [SoundGTM MCP - Partner Program Management for Agents](/hermes/mcp/servers/external/soundgtm-mcp/)
+
+### 8 new servers from mcp.so feed + mcpservers.org /all - Sep 9, 2026 (evening cron sweep)
+
+- [AgentLedger MCP - Per-Agent Spend Management for Operators](/hermes/mcp/servers/external/agentledger-mcp/)
+- [Vibe Prospecting MCP - Live B2B Data for Lead Generation](/hermes/mcp/servers/external/vibe-prospecting-mcp/)
+- [Wafeq MCP - Accounting Books for Agents](/hermes/mcp/servers/external/wafeq-mcp/)
+- [Agent Watch MCP - Endpoint Monitoring for the Agent Economy](/hermes/mcp/servers/external/agent-watch-mcp/)
+- [Ultralayer MCP - Realtime Market Intelligence for Agents](/hermes/mcp/servers/external/ultralayer-mcp/)
+- [TrustScan MCP - Security Scanning for MCP Servers and AI Skills](/hermes/mcp/servers/external/trustscan-mcp/)
+- [Yandex Metrika MCP - Web Analytics for Agents](/hermes/mcp/servers/external/yandex-metrika-mcp/)
+- [Site Passport MCP - AI-Agent Readiness Checks for Websites](/hermes/mcp/servers/external/site-passport-mcp/)
