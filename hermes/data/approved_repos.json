@@ -5825,5 +5825,62 @@
     "discovered_at": "2026-09-03T07:03:43.773573+00:00",
     "status": "approved",
     "approved_at": "2026-09-03T07:05:34.898126+00:00"
+  },
+  {
+    "name": "conorbronsdon/avoid-ai-writing",
+    "url": "https://github.com/conorbronsdon/avoid-ai-writing",
+    "description": "Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, Codex, and Hermes.",
+    "stars": 4268,
+    "forks": 359,
+    "language": "JavaScript",
+    "topics": [
+      "ai-writing",
+      "claude",
+      "claude-code",
+      "llm",
+      "prompt-engineering",
+      "skill",
+      "writing"
+    ],
+    "updated_at": "2026-09-10T06:59:57Z",
+    "category": "core",
+    "score": 80,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "hermes_mention",
+      "high_stars_1000+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "iOfficeAI/AionUi",
+      "MervinPraison/PraisonAI",
+      "EverMind-AI/EverOS",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "CYC2002tommy/Deep-Research-Agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "smfworks/smf-notebooklm-video-pipeline",
+      "muyezhu/YanCotta-enterprise_challenge_sprint_1_hermes_reply-20251003220334",
+      "Bo1202/Aivy-OS",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "WEIFENG2333/phistory",
+      "Javis603/token-monitor",
+      "Devin-AXIS/iPolloWork",
+      "kenryu42/cc-safety-net",
+      "jazzyalex/agent-sessions",
+      "Infisical/agent-vault"
+    ],
+    "discovered_at": "2026-09-10T07:03:32.388235+00:00",
+    "status": "approved",
+    "approved_at": "2026-09-10T07:05:42.301109+00:00"
   }
 ]

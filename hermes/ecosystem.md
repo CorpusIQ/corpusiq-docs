@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 179+ repos, tools, skills, and integrations
-last_updated: 2026-09-09
+description: Comprehensive directory of the Hermes Agent ecosystem - 180+ repos, tools, skills, and integrations
+last_updated: 2026-09-10
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **179+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **180+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **179+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **180+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -31,7 +31,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **179+ reposit
 | 🔬 Research & Benchmarks | 14 | Evaluations, benchmarks, research papers |
 | 📦 SDKs & Libraries | 2 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 3 | Security tools, compliance, audit |
-| 🔧 Skills & Plugins | 39 | Reusable skills, plugins, extensions, tools |
+| 🔧 Skills & Plugins | 40 | Reusable skills, plugins, extensions, tools |
 | 🖥️ Interfaces & UI | 34 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
@@ -958,6 +958,14 @@ _Reusable skills, plugins, extensions, tools_
 
 ---
 
+### [conorbronsdon/avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) ⭐ 4,268
+
+>Skill that audits and rewrites content to remove AI writing patterns. Use it with your favorite agents including Claude Code, OpenClaw, Codex, and Hermes.
+
+**Language:** JavaScript | **Topics:** ai-writing, claude, claude-code, llm, prompt-engineering, skill, writing | **Score:** 80/100
+
+---
+
 ### [NousResearch/hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution) ⭐ 4,116
 
 >⚒ Evolutionary self-improvement for Hermes Agent - optimize skills, prompts, and code using DSPy + GEPA
@@ -1511,6 +1519,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*179+ repositories in the Hermes ecosystem. Last updated: 2026-09-09. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*180+ repositories in the Hermes ecosystem. Last updated: 2026-09-10. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

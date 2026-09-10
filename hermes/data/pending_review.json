@@ -59010,5 +59010,71 @@
     ],
     "discovered_at": "2026-09-10T06:02:01.454737+00:00",
     "status": "pending"
+  },
+  {
+    "name": "ariuser5/hermes-affect",
+    "url": "https://github.com/ariuser5/hermes-affect",
+    "description": "A Hermes Agent plugin for session-scoped moods, relationships, social influence, conflict, and personality-driven behavior without storing temporary affect as permanent memory.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-10T07:01:16Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "cx2002302-lang/zettelkasten-second-memory"
+    ],
+    "discovered_at": "2026-09-10T07:03:23.378256+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "yeo1220/hermes-agent-yeo",
+    "url": "https://github.com/yeo1220/hermes-agent-yeo",
+    "description": "Personal fork of NousResearch/hermes-agent with local reliability fixes",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-10T07:01:35Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-10T07:03:26.381371+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ahrazzle/team6-kit",
+    "url": "https://github.com/ahrazzle/team6-kit",
+    "description": "Instantiable multi-agent team kit: identity archetypes + orchestration choreography + governance rules + generator. Built on the Hermes engine (MIT); kits layer Apache-2.0. Vertical packs proprietary by contract.",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-10T07:00:49Z",
+    "category": "core",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-10T07:03:29.384496+00:00",
+    "status": "pending"
   }
 ]
