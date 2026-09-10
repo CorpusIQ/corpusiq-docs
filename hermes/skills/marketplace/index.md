@@ -16,6 +16,8 @@ The Skills Marketplace is the community hub for discovering, installing, and sha
 
 ## Recent Sweeps
 
+- [🆕 September 9, 2026 (Evening) - Matt Pocock Workflow Suite: 27 uncatalogued skills (12.2M+ installs: grill-me 1.1M, tdd 873K, handoff 774K) + Open Design impeccable-design-polish - 1 publisher cluster, 28 skills, 4 setup guides](/hermes/skills/marketplace/new-sep9-2026-mattpocock/)
+
 - [🆕 September 9, 2026 (Morning) - Salesforce Skills Library (~500K, 100+ skills), Claude SEO (~160K, 31 skills), Blacktwist Social Media (21.4K, 14), Charlie Hills Social Media (17.2K, 17) - 4 new publisher clusters, 162+ skills, 4 setup guides](/hermes/skills/marketplace/new-sep9-2026/)
 
 - [🆕 September 7, 2026 (Evening) - Sleek Design Mobile Apps (75.1K, design-mobile-apps) and Marketing Mindset (28.8K, B2B marketing OS for agents) - 2 new publisher clusters, 2 skills, 2 setup guides](/hermes/skills/marketplace/new-sep7-2026/)
