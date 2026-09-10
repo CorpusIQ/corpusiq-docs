@@ -59076,5 +59076,120 @@
     "near_duplicates": [],
     "discovered_at": "2026-09-10T07:03:29.384496+00:00",
     "status": "pending"
+  },
+  {
+    "name": "flamerged/hermes-protonpass-plugin",
+    "url": "https://github.com/flamerged/hermes-protonpass-plugin",
+    "description": "Standalone Proton Pass secret-source plugin for Hermes Agent",
+    "stars": 3,
+    "forks": 2,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-10T08:03:46Z",
+    "category": "core",
+    "score": 51,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-10T08:04:05.382285+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "HannoKruger/hermes-agent",
+    "url": "https://github.com/HannoKruger/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-10T08:04:23Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-09-10T08:04:28.690642+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mekenthompson/hermes-fleet",
+    "url": "https://github.com/mekenthompson/hermes-fleet",
+    "description": "Opinionated Docker isolation pattern for running Hermes Agent profiles as separate containers.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "containers",
+      "docker",
+      "hermes-agent"
+    ],
+    "updated_at": "2026-09-10T08:04:13Z",
+    "category": "forks",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-10T08:04:31.693656+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "dr0pp3rZ/hermes-agent",
+    "url": "https://github.com/dr0pp3rZ/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-10T08:02:55Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-09-10T08:04:34.696986+00:00",
+    "status": "pending"
   }
 ]
