@@ -1,0 +1,11 @@
+{
+  "name": "corpusiq",
+  "version": "1.0.0",
+  "description": "Live business data for Gemini CLI: ask questions across 40+ connected tools (QuickBooks, Shopify, Stripe, GA4, HubSpot and more) with read-only, permissioned access.",
+  "mcpServers": {
+    "corpusiq": {
+      "httpUrl": "https://mcp2.corpusiq.io/mcp",
+      "description": "CorpusIQ MCP server (read-only, OAuth 2.1)"
+    }
+  }
+}
