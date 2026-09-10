@@ -1,6 +1,6 @@
 ---
 title: impeccable-design-polish - Post-Generation Design Polish Skill for Hermes Agents
-description: Install and use nexu-io/open-design@impeccable-design-polish (2K+ installs) - follow-up design polish inspired by Impeccable: audit, critique, polish, animate, harden and prep HTML artifacts for live/share.
+description: "Install and use nexu-io/open-design@impeccable-design-polish (2K+ installs) - follow-up design polish inspired by Impeccable: audit, critique, polish, animate, harden and prep HTML artifacts for live/share."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/impeccable-design-polish-setup/"
 robots: "index,follow"
 last_updated: "2026-09-09"

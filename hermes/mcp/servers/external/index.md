@@ -12,7 +12,20 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 9, 2026 (night cron sweep) · **Sources:** mcp.so feed (4 new server blocks above the evening dispositions) + mcpservers.org /all pages 1-2 via r.jina.ai reader proxy · **Catalog:** 614 servers (+500 guides)
+> **Last updated:** September 10, 2026 (night cron sweep) · **Sources:** chatmcp/mcpso issues #3999-#4031 + mcp.so homepage recentServers + mcpservers.org /all pages 1-2 via r.jina.ai reader proxy · **Catalog:** 620 servers (+506 guides)
+
+## 🆕 September 10, 2026 - Night Cron Sweep (6 New, 6 Guides)
+
+Night sweep over chatmcp/mcpso issues #3999-#4031 (the fresh window past the Sep 9 night cutoff), the mcp.so homepage recentServers array (8 blocks, all prior-sweep dispositions) and mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy (pages partially rolled since the Sep 9 night sweep). Six new business-relevant servers catalogued with guides, four live-verified over JSON-RPC: mcp-x MCP (the official X API v2 as 42 Go tools over OAuth 1.0a user context - posts, search, users, lists and media upload with destructive hints and cost-guard tool design; MIT, Official MCP Registry io.github.Role1776/mcp-x 0.1.1), Shop MCP (read-only Shopify catalogue and stock as one stdlib-only Python file - search_products, get_product, check_inventory and low_stock_report over read-only scopes; PyPI shop-mcp 1.0.1, glama-scored A/A/B), WaitingForPower MCP (keyless live-verified tracker of U.S. energy projects stuck in permitting - 41 state utility commissions plus EIA, LBNL, ORNL and the Federal Permitting Dashboard, 6 tools, every project citing its public source), Mellow Hub MCP (hosted publishing to 9 networks with per-channel validation, previews, idempotency keys and scoped autopilot-vs-review keys - endpoint key-challenged live), Parlel MCP (keyless live-verified professional network search - people, companies, jobs and published watch agents with structured JSON and cursor pagination) and Capslane MCP (timestamped YouTube transcripts with native captions, automatic generation and job polling - endpoint key-challenged live, MIT npm package).
+
+- [mcp-x MCP - Official X API v2 Tools for Agents](/hermes/mcp/servers/external/mcp-x/) · 42 tools, OAuth 1.0a, destructive hints, MIT.
+- [Shop MCP - Read-Only Shopify Catalogue and Stock](/hermes/mcp/servers/external/shop-mcp/) · 4 read-only tools, stdlib-only, glama A/A/B.
+- [WaitingForPower MCP - US Energy Permitting Tracker for Agents](/hermes/mcp/servers/external/waitingforpower-mcp/) · keyless, 6 tools live-probed, cited sources.
+- [Mellow Hub MCP - Multi-Network Social Publishing with Guardrails](/hermes/mcp/servers/external/mellow-hub-mcp/) · 9 networks, validate/preview, review-mode keys.
+- [Parlel MCP - Keyless Professional Network Search for Agents](/hermes/mcp/servers/external/parlel-mcp/) · 8 tools live-probed, people/companies/jobs.
+- [Capslane MCP - Timestamped YouTube Transcripts for Agents](/hermes/mcp/servers/external/capslane-mcp/) · native captions, auto-generation, job polling.
+
+**Also identified (not catalogued):** MCPREADY #4029 (MCP-server correctness gate with signed receipts - the submission repo unempyd/mcpready 404s, artifact unverifiable), CCS MCP #4020 (already disposed by a prior sweep as a local security dev tool), Atako #4019 (agent-platform management - agent infra class), Arkon Vault #4022 (agent continuity vault - agent memory class), Caliu Notes #4018 (personal notes - personal-library class), Keyban Agent Wallet #4015 (x402 wallet class, IMBA precedent), dex-data #4021 (crypto DEX data - crypto class), SavingsLast #4007 (consumer retirement calculators), Movie Planner #4017 (consumer), Plugsight #4002 (macOS USB device monitor - desktop utility), ead-factory #4013 (Spanish legal-evidence niche), juudd #4006 (site deployment - dev infra), mumo #4005 (multi-model deliberation - agent infra), sift #4010, 3D Visualizer #4009, schema-bridge #4026, mcp-context-condenser #4025, mcp-smart-git #4024, mcp-doctor #4027 and the AI Developer MCP Pro Suite #4028 (dev utility class), Veriton #3999 (HTML-to-JSON scraping utility), SHAR Production Metadata #4014/#4003 (thin docs - empty issue body plus shell detail page), UK Legislation Changes (thin docs - no tool list published), Business Verify API (thin docs on a personal docs host, no registry record), Telegram Calendar (consumer), Idle9 (persistent agent computer - agent infra), Shiplight (coding-agent browser testing - dev utility), Forge UI (Roblox creator utility), LiftTrack (consumer fitness), Magic Cloud and OmniDome re-listings (prior dispositions), Aikstockdata (Korean geo-niche), RuSender and Htmlkin (Russian geo-niche), /all nav-only shells (aceatdev, sadri-dridi, pennyforgeorg, abstractglitch, themsquared, gotchseo, kleinicke, fitsociety, novalyth, gopisrikrishna, hexahedral-inc, peeroren, adsroid). mcp.so homepage recentServers repeats (Orthogonal, toll402, Loadster, priostack, pulse-verity, dxpert UNS, GoBuy, Yocoolab) all carry prior dispositions.
 
 ## 🆕 September 9, 2026 - Night Cron Sweep (10 New, 10 Guides)
 
@@ -5776,3 +5789,12 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [ToHuman MCP - AI Text Humanization for Content Teams](/hermes/mcp/servers/external/tohuman-mcp/)
 - [Modelglass MCP - Live AI Model Pricing and Routing for Agents](/hermes/mcp/servers/external/modelglass-mcp/)
 - [VenuNite Events MCP - US Live Events Data for Agents](/hermes/mcp/servers/external/venunite-mcp/)
+
+### 6 new servers from chatmcp/mcpso issues + mcpservers.org /all - Sep 10, 2026 (night cron sweep)
+
+- [mcp-x MCP - Official X API v2 Tools for Agents](/hermes/mcp/servers/external/mcp-x/)
+- [Shop MCP - Read-Only Shopify Catalogue and Stock](/hermes/mcp/servers/external/shop-mcp/)
+- [WaitingForPower MCP - US Energy Permitting Tracker for Agents](/hermes/mcp/servers/external/waitingforpower-mcp/)
+- [Mellow Hub MCP - Multi-Network Social Publishing with Guardrails](/hermes/mcp/servers/external/mellow-hub-mcp/)
+- [Parlel MCP - Keyless Professional Network Search for Agents](/hermes/mcp/servers/external/parlel-mcp/)
+- [Capslane MCP - Timestamped YouTube Transcripts for Agents](/hermes/mcp/servers/external/capslane-mcp/)
