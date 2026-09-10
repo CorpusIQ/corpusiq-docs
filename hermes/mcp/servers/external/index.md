@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-09-09"
+last_updated: "2026-09-10"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -1715,7 +1715,7 @@ Multilingual translation via multi-model consensus over MCP - connects AI agents
 ### BanProof AI ★★ - August 12 afternoon (catalog entry)
 Audits TikTok Shop and Amazon affiliate video scripts for policy violations before creators record or publish. Exposes `audit_script` tool. `banproof.io` (commercial)
 
-**Also identified (not catalogued):** Canvas API MCP (education niche - per Aug 11 decision), MoodleMCP (LMS), React SEO Skills (dev-tool adjacent), Faxer (fax ops utility), Constants (overlaps catalogued ad MCPs), LabTestSuperstore (lab supplies), GetLulu 6-pack (micro-utilities: crypto price, domain RDAP, FX, holidays, registry, weather), Conqueror, CR8 Agent Commons (agent message board), x402 Merchant Check (crypto), GoLeasy (German leasing), Departi (travel), Andrii Co Notary (WA notary), plus ~25 dev-tool/utility entries from mcpservers.org /all (bunkerweb, humanpen, lobu, mercury-cortex, strata, sonaprompt, ohm, sshmng, etc.). A ~30-entry single-author burst (rudrendupaul: haltproof, shimguard, toolgovern, tokentrust…) showed classic AI-generated catalog-spam signals and was excluded entirely. **Morning sweep note:** the Aug 12 morning sweep's 6 servers (Orcha, Clipkit, FiatDock, Apiosk, directree, LocalCan) have guides but were never added to this catalog body - see `/hermes/mcp/sweeps/sweep-august12-2026.md`. Catalog totals above include them.
+**Also identified (not catalogued):** Canvas API MCP (education niche - per Aug 11 decision), MoodleMCP (LMS), React SEO Skills (dev-tool adjacent), Faxer (fax ops utility), Constants (overlaps catalogued ad MCPs), LabTestSuperstore (lab supplies), GetLulu 6-pack (micro-utilities: crypto price, domain RDAP, FX, holidays, registry, weather), Conqueror, CR8 Agent Commons (agent message board), x402 Merchant Check (crypto), GoLeasy (German leasing), Departi (travel), Andrii Co Notary (WA notary), plus ~25 dev-tool/utility entries from mcpservers.org /all (bunkerweb, humanpen, lobu, mercury-cortex, strata, sonaprompt, ohm, sshmng, etc.). A ~30-entry single-author burst (rudrendupaul: haltproof, shimguard, toolgovern, tokentrust…) showed classic AI-generated catalog-spam signals and was excluded entirely. **Morning sweep note:** the Aug 12 morning sweep's 6 servers (Orcha, Clipkit, FiatDock, Apiosk, directree, LocalCan) have guides; entries added to the additions log Sep 10, 2026 (see `/hermes/mcp/sweeps/sweep-august12-2026.md`).
 
 **Key observation:** Two patterns this sweep - (1) human-gate content tooling is arriving: Prose Coach (deterministic de-AI filter), BanProof (script compliance), and Plainpaper (human-approved campaigns) all put a human gate or deterministic check between the agent and the publish button; (2) the finance stack keeps deepening - ROIC.ai joins 5+ financial-data MCPs already catalogued, and AI-engine visibility (cloro) is emerging as its own measurement category for GEO/AEO programs.
 
@@ -2581,6 +2581,9 @@ Hosted web scraping from an established data vendor - browser rendering, structu
 
 ### APITube News MCP ★★ - Aug 16
 News intelligence over MCP - 500,000+ sources in 60+ languages filtered by sentiment, entities, topics, and source quality. Hosted JSON-RPC at `mcp.apitube.io/` with a Bearer key; `search_news` + `suggest` tools and four monitoring prompts. (commercial) · [Guide →](/hermes/mcp/servers/external/apitube-news-mcp/)
+
+### akta.pro MCP ★★ - Aug 10 (morning, catalog fix)
+Private company intelligence for due diligence and competitive research - company search, structured profiles, news monitoring, and alternative signals (headcount trends, web traffic, reviews). Remote Streamable HTTP at `mcp.akta.pro/mcp`, published by Wokelo AI. Guide written Aug 10; catalog entry added now (unindexed-guides fix). [Integration Guide](/hermes/mcp/servers/external/akta-pro-mcp/)
 
 ### SIXTA Connect ★ New (June 28)
 DBRE-grade SQL analysis inside any MCP client - no connection, no install required. Paste a query, EXPLAIN plan, migration, or error → get named findings with severity, rationale, and ready-to-run fixes for PostgreSQL and MySQL. Essential for operators running database workloads who need instant SQL review and optimization without connecting to production.
@@ -5114,6 +5117,15 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [NERAI Risk Intelligence MCP - Geopolitical Intelligence for AI Agents](/hermes/mcp/servers/external/nerai-risk-intelligence-mcp/)
 - [Data Studio Agent MCP - 70+ SQL & NoSQL Databases for AI Agents](/hermes/mcp/servers/external/data-studio-agent-mcp/)
 - [FLINT Network MCP - Agent Identity Verification Before Transactions](/hermes/mcp/servers/external/flint-network-mcp/)
+
+### 6 new servers from mcp.so - Aug 12, 2026 (morning sweep)
+
+- [Clipkit MCP - Video Infra for AI Agents](/hermes/mcp/servers/external/clipkit-mcp/)
+- [Orcha MCP - Unified Context Layer for Organizations](/hermes/mcp/servers/external/orcha-mcp/)
+- [FiatDock MCP - Agent Marketplace with x402 Payments](/hermes/mcp/servers/external/fiatdock-mcp/)
+- [Apiosk MCP - AI-Native Payments for Tools & APIs](/hermes/mcp/servers/external/apiosk-mcp/)
+- [directree MCP - Honest Software Directory for AI Agents](/hermes/mcp/servers/external/directree-mcp/)
+- [LocalCan MCP - Public URLs & Traffic Inspection](/hermes/mcp/servers/external/localcan-mcp/)
 
 ### 6 new servers from mcpservers.org /all + mcp.so Feed - Aug 12, 2026 (afternoon sweep)
 
