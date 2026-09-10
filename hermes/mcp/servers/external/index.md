@@ -12,7 +12,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 10, 2026 (night cron sweep) · **Sources:** chatmcp/mcpso issues #3999-#4031 + mcp.so homepage recentServers + mcpservers.org /all pages 1-2 via r.jina.ai reader proxy · **Catalog:** 620 servers (+506 guides)
+> **Last updated:** September 10, 2026 (midday cron sweep) · **Sources:** chatmcp/mcpso issues #4033-#4035 + mcpservers.org /all pages 1-2 via r.jina.ai reader proxy + mcp.so homepage · **Catalog:** 621 servers (+507 guides)
+
+## 🆕 September 10, 2026 - Midday Cron Sweep (1 New, 1 Guide)
+
+Midday sweep over chatmcp/mcpso issues #4033-#4035 (the fresh window past the 03:00 MST sweep's cutoff at #4031; issue #4032 was deleted and never served content) plus mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy (60 slugs re-classified - zero new business-relevant slugs beyond prior dispositions) and the mcp.so homepage (featured/trending surfaces only, no recentServers blocks; all visible names carry prior dispositions). One new business-relevant server catalogued with a guide: APIzone MCP (keyless hosted status and uptime monitoring for 294 popular third-party APIs probed independently every ~5 minutes - list_apis with 19 category filters, get_api_status with latency and last-check stamps, check_apis for batch checks of up to 25 dependencies, get_api_uptime with 24h/7d/30d/90d history plus median and p95 latency, and list_recent_incidents; endpoint https://apizone.io/api/mcp live-verified over JSON-RPC with a live Stripe status call returning structured data).
+
+- [APIzone MCP - Third-Party API Status and Uptime Monitoring](/hermes/mcp/servers/external/apizone-mcp/) · 5 keyless tools live-probed, 294 APIs, 19 categories.
+
+**Also identified (not catalogued):** Hundo #4033 (personal finance ledger for consumers - consumer personal-finance class, SavingsLast/SigVest precedent), Cronjob.de #4034 (hosted web-cron automation - dev infra class, woodpecker-ci/ntfy-mcp precedent), Execution Evidence Lab (Python failure/evidence reproduction utility - dev utility class), OpenIndex (AI-agent knowledge wiki - educational class, Santismm precedent), Synap (long-term agent memory - agent memory infra class, Memwyre precedent), mcp-azure-selfhosted (Azure DevOps self-host - dev infra class), mwemu (binary emulation - dev utility class), Glitch Toolkit (repository guardrail checks - dev utility, abstractglitch shell per the prior sweep), /all page-1 names all carry Sep 9 night dispositions and page-2 names repeat the prior sweep's skip set.
 
 ## 🆕 September 10, 2026 - Night Cron Sweep (6 New, 6 Guides)
 
@@ -5798,3 +5806,7 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [Mellow Hub MCP - Multi-Network Social Publishing with Guardrails](/hermes/mcp/servers/external/mellow-hub-mcp/)
 - [Parlel MCP - Keyless Professional Network Search for Agents](/hermes/mcp/servers/external/parlel-mcp/)
 - [Capslane MCP - Timestamped YouTube Transcripts for Agents](/hermes/mcp/servers/external/capslane-mcp/)
+
+### 1 new server from chatmcp/mcpso issues + mcpservers.org /all - Sep 10, 2026 (midday cron sweep)
+
+- [APIzone MCP - Third-Party API Status and Uptime Monitoring](/hermes/mcp/servers/external/apizone-mcp/)
