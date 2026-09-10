@@ -194,6 +194,7 @@ The catalog is a living resource. Skills are added weekly. Check back often, and
 - [Apify Agent Skills - Web Scraping for Hermes Setup](/hermes/skills/catalog/apify-agent-skills-setup/)
 - [Apify Growth Skills - Lead Gen, Brand Monitoring, Ultimate Scraper Setup](/hermes/skills/catalog/apify-growth-skills-setup/)
 - [Apify Ultimate Scraper - Universal Web Scraping for 15+ Platforms Setup](/hermes/skills/catalog/apify-ultimate-scraper-setup/)
+- [Apidojo Social Media Skills - X/Instagram/TikTok Scraper Suite Setup](/hermes/skills/catalog/apidojo-social-media-skills-setup/)
 - [Apple Calendar Setup](/hermes/skills/catalog/apple-calendar-setup/)
 - [Arxiv Setup](/hermes/skills/catalog/arxiv-setup/)
 - [Ashima Setup](/hermes/skills/catalog/ashima-setup/)

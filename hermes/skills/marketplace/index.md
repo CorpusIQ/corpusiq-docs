@@ -12,9 +12,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 The Skills Marketplace is the community hub for discovering, installing, and sharing Hermes agent skills. Every skill listed here is a production-ready, executable workflow from [skills.sh](https://skills.sh)  --  install with a single command and use immediately.
 
-**935+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
+**936+ curated skill repos across 22 categories.** Updated weekly as new skills are published.
 
 ## Recent Sweeps
+
+- [🆕 September 10, 2026 (Morning) - Apidojo Social Media Skills (8.0K, 3 scraper skills: x-scraper, instagram-scraper, tiktok-scraper via Apify) - 1 new publisher cluster, 3 skills, 1 setup guide](/hermes/skills/marketplace/new-sep10-2026/)
 
 - [🆕 September 9, 2026 (Evening) - Matt Pocock Workflow Suite: 27 uncatalogued skills (12.2M+ installs: grill-me 1.1M, tdd 873K, handoff 774K) + Open Design impeccable-design-polish - 1 publisher cluster, 28 skills, 4 setup guides](/hermes/skills/marketplace/new-sep9-2026-mattpocock/)
 
@@ -286,7 +288,7 @@ New skills are discovered weekly through automated sweeps of skills.sh. Each dis
 
 ---
 
-**Total: 986+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
+**Total: 987+ curated skill repos across 22 categories.** Install any with `npx skills add <owner/repo@skill>`. Updated as new skills are published.
 
 *← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Latest Discoveries →](/hermes/skills/marketplace/new-june29-2026/)*
 
