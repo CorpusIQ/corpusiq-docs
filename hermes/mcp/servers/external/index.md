@@ -12,7 +12,24 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 9, 2026 (evening cron sweep) · **Sources:** mcp.so feed (30 server blocks) + mcpservers.org /all pages 1-3 via r.jina.ai reader proxy · **Catalog:** 604 servers (+490 guides)
+> **Last updated:** September 9, 2026 (night cron sweep) · **Sources:** mcp.so feed (4 new server blocks above the evening dispositions) + mcpservers.org /all pages 1-2 via r.jina.ai reader proxy · **Catalog:** 614 servers (+500 guides)
+
+## 🆕 September 9, 2026 - Night Cron Sweep (10 New, 10 Guides)
+
+Night sweep over the mcp.so feed plus mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy (/all page 1 had fully rolled since the evening sweep — a fresh batch of ~30 submissions landed in the last hour, while page 2 carried the evening sweep's disposed set). Ten new business-relevant servers catalogued with guides: ViralHunt MCP (20-tool trending discovery across 12 networks with a free token — viralhunt_trending, best_time, top_hashtags, trending_sounds, best_communities plus schedule/publish/edit tools, MIT, Official MCP Registry io.github.rodvan/viralhunt-mcp), Comunicate MCP (press-release distribution at app.comunicate.top/mcp — 19 tools from catalogue search to order_publication with two independent spend locks, API key or OAuth 2.1), CourtListener MCP (self-hosted FastMCP server over CourtListener API v4, GovInfo statutes and Regulations.gov — opinions, dockets, courts, judges, oral argument audio and a citation tool family), Soprano Connect MCP (self-hosted multi-channel messaging over the Soprano Connect CPaaS — sms, voice, rcs, whatsapp templates, viber, push and email with per-request pluggable upstream auth, MIT), ConnectMachine MCP (hosted contact CRM at mcp.connectmachine.ai/mcp — contacts, networks, digital cards, meeting-transcript Q&A and action items, 20+ tools), mnemiq MCP (open-source tunable text-to-SQL — enrich/build/ask pipeline with role-scoped queries and grounding shown per answer), Sqemo MCP (governed database schema design — introspect_db, create_erd, check_db_drift, diff_erds and SQL/DBML export, MIT npm), ToHuman MCP (hosted AI text humanizer at tohuman.io/mcp — single humanize tool with minimal/subtle/medium/heavy intensity, free API key), Modelglass MCP (live AI model pricing and routing at modelglass-api.vercel.app/mcp — free Bearer key, Claude Code + VS Code) and VenuNite Events MCP (keyless read-only US live events search at mcp.venunite.com/v1/mcp — 400,000+ events, explicit quota states and applied_filters transparency).
+
+- [ViralHunt MCP - Trending Discovery and Social Publishing for Agents](/hermes/mcp/servers/external/viralhunt-mcp/) · 20 tools, 12 networks, free token.
+- [Comunicate MCP - Press Release Distribution for Agents](/hermes/mcp/servers/external/comunicate-mcp/) · 19 tools, two-lock spend control, OAuth 2.1.
+- [CourtListener MCP - US Legal Research for Agents](/hermes/mcp/servers/external/courtlistener-mcp/) · opinions, dockets, citations, self-hosted.
+- [Soprano Connect MCP - Multi-Channel Business Messaging for Agents](/hermes/mcp/servers/external/soprano-connect-mcp/) · SMS/Voice/RCS/WhatsApp/Viber/email, MIT.
+- [ConnectMachine MCP - Digital Business Cards and Contact CRM for Agents](/hermes/mcp/servers/external/connectmachine-mcp/) · hosted, 20+ contact tools, transcript Q&A.
+- [mnemiq MCP - Tunable Text-to-SQL for Business Databases](/hermes/mcp/servers/external/mnemiq-mcp/) · open-source, role-scoped queries.
+- [Sqemo MCP - Database Schema Design and ERD Governance for Agents](/hermes/mcp/servers/external/sqemo-mcp/) · 15 tools, drift checks, SQL/DBML export.
+- [ToHuman MCP - AI Text Humanization for Content Teams](/hermes/mcp/servers/external/tohuman-mcp/) · 1 tool, 4 intensity levels, free key.
+- [Modelglass MCP - Live AI Model Pricing and Routing for Agents](/hermes/mcp/servers/external/modelglass-mcp/) · free Bearer key, Claude Code + VS Code.
+- [VenuNite Events MCP - US Live Events Data for Agents](/hermes/mcp/servers/external/venunite-mcp/) · keyless trial, 400K+ events, read-only.
+
+**Also identified (not catalogued):** Orthogonal (unified per-request-priced gateway to company data, scraping and financial APIs at mcp.orthogonal.com — tool-marketplace infra class, ToolRouter precedent; no tool list published), Loadster (load-testing platform MCP at api.loadster.com/mcp — dev utility class, no published tool names), mFlow (shared Kanban board for Claude sessions — free Standalone tier but no published MCP endpoint), MarginGlow AI Signal (evidence-based small-business opportunity intelligence — beta with no published endpoint), Dart (agent-orchestration PM tool, no MCP docs surface — /docs/mcp 404), Harmny (detail page returns app source-code dump, not product docs), ToolsMonk (tool-directory search utility — meta-directory class), MiniMax H3 Max (text-to-video model listing — media generation class, official MiniMax MCP already catalogued), Piloxa, OmniDome and Course Profiler (detail-page shells), Open Agent Remote Index (agent index infra), Promptessor (prompt management dev utility), Offensive360 (code SAST dev utility), Keploy (traffic-to-tests dev utility), mcp-multiplexer (MCP aggregation infra), Odysseus Web MCP (saturated web-search wrapper class), skillmem and Material Model (agent memory/coordination infra), AgentMesh.help (open-race task marketplace — TaskMarket class), Online Pizza (consumer novelty), Brixa Studio (design-tool class), Magic Cloud (low-code dev platform), Vocemo (consumer Mac app), Compendio (local docs RAG dev utility), GenToon (consumer art), SendCheck (x402 payment pre-validation — x402 infra class), toll402 (x402 pay-per-call SDK — crypto/x402 class), plus already-catalogued repeats on /all pages 1-2 (Ryze Google Ads under a doc-URL slug, Alpha Vantage, MiniMax, Reflex, VetAgent, Wafeq, Site Passport, Ultralayer) and the evening sweep's disposed set.
 
 ## 🆕 September 9, 2026 - Evening Cron Sweep (8 New, 8 Guides)
 
@@ -5746,3 +5763,16 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 - [TrustScan MCP - Security Scanning for MCP Servers and AI Skills](/hermes/mcp/servers/external/trustscan-mcp/)
 - [Yandex Metrika MCP - Web Analytics for Agents](/hermes/mcp/servers/external/yandex-metrika-mcp/)
 - [Site Passport MCP - AI-Agent Readiness Checks for Websites](/hermes/mcp/servers/external/site-passport-mcp/)
+
+### 10 new servers from mcp.so feed + mcpservers.org /all - Sep 9, 2026 (night cron sweep)
+
+- [ViralHunt MCP - Trending Discovery and Social Publishing for Agents](/hermes/mcp/servers/external/viralhunt-mcp/)
+- [Comunicate MCP - Press Release Distribution for Agents](/hermes/mcp/servers/external/comunicate-mcp/)
+- [CourtListener MCP - US Legal Research for Agents](/hermes/mcp/servers/external/courtlistener-mcp/)
+- [Soprano Connect MCP - Multi-Channel Business Messaging for Agents](/hermes/mcp/servers/external/soprano-connect-mcp/)
+- [ConnectMachine MCP - Digital Business Cards and Contact CRM for Agents](/hermes/mcp/servers/external/connectmachine-mcp/)
+- [mnemiq MCP - Tunable Text-to-SQL for Business Databases](/hermes/mcp/servers/external/mnemiq-mcp/)
+- [Sqemo MCP - Database Schema Design and ERD Governance for Agents](/hermes/mcp/servers/external/sqemo-mcp/)
+- [ToHuman MCP - AI Text Humanization for Content Teams](/hermes/mcp/servers/external/tohuman-mcp/)
+- [Modelglass MCP - Live AI Model Pricing and Routing for Agents](/hermes/mcp/servers/external/modelglass-mcp/)
+- [VenuNite Events MCP - US Live Events Data for Agents](/hermes/mcp/servers/external/venunite-mcp/)
