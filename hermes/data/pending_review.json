@@ -59578,5 +59578,118 @@
     "near_duplicates": [],
     "discovered_at": "2026-09-11T07:04:42.474078+00:00",
     "status": "pending"
+  },
+  {
+    "name": "carterlasalle/system_ir",
+    "url": "https://github.com/carterlasalle/system_ir",
+    "description": "System Context Compiler \u2014 compile code, config, infra, runtime, and intent into an evidence-backed machine model, then emit task-specific context packs for AI coding agents (Claude Code, Codex, Hermes, OpenCode).",
+    "stars": 1,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "ai-agents",
+      "code-intelligence",
+      "context-engineering",
+      "developer-tools",
+      "mcp",
+      "rust",
+      "tree-sitter"
+    ],
+    "updated_at": "2026-09-11T08:02:38Z",
+    "category": "core",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "MervinPraison/PraisonAI",
+      "Romanescu11/hermes-skill-factory",
+      "Shelpuk-AI-Technology-Consulting/kindly-web-search-mcp-server",
+      "itechmeat/open-second-brain",
+      "uzairansaruzi/robinhood-agent-skill",
+      "hugocarreira/agentrc",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "AVIDS2/memorix",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net",
+      "Infisical/agent-vault",
+      "VasiHemanth/tokentelemetry"
+    ],
+    "discovered_at": "2026-09-11T08:02:46.326509+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "sebastian93921/hermes-state-graph-plugin",
+    "url": "https://github.com/sebastian93921/hermes-state-graph-plugin",
+    "description": "State Graph \u2014 a Hermes desktop plugin that shows what the agent is doing, at a glance.",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-09-11T08:01:40Z",
+    "category": "core",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "stephenschoettler/hermes-lcm"
+    ],
+    "discovered_at": "2026-09-11T08:02:49.329524+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "itsaslamopenclawdata/GrowthHermesCompany-VanguardAgent",
+    "url": "https://github.com/itsaslamopenclawdata/GrowthHermesCompany-VanguardAgent",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-11T08:00:50Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-11T08:02:52.330951+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "motse-ai/hermes-agent-deploy",
+    "url": "https://github.com/motse-ai/hermes-agent-deploy",
+    "description": "Hermes Agent deployment config, skills, and MCP servers for \u84dd\u6781AI\u52a9\u624b",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-11T07:59:54Z",
+    "category": "mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-11T08:02:56.091786+00:00",
+    "status": "pending"
   }
 ]
