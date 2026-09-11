@@ -59427,5 +59427,113 @@
     ],
     "discovered_at": "2026-09-11T05:05:06.832895+00:00",
     "status": "pending"
+  },
+  {
+    "name": "loosephoto/space-finder-mcp",
+    "url": "https://github.com/loosephoto/space-finder-mcp",
+    "description": "\u5b87\u5b99\u30fb\u5929\u6587\u30c7\u30fc\u30bf\u3092\u6a2a\u65ad\u691c\u7d22\u3057\u3001\u753b\u50cf\u30fb\u52d5\u753b\u30fb\u97f3\u58f0\u307e\u3067\u30c1\u30e3\u30c3\u30c8\u4e0a\u3067\u8868\u793a\u3067\u304d\u308b Model Context Protocol (MCP) \u30b5\u30fc\u30d0\u30fc\u3067\u3059\u3002  \u60d1\u661f\u30fb\u4eba\u5de5\u885b\u661f\u30fb\u5b87\u5b99\u30df\u30c3\u30b7\u30e7\u30f3\u306e\u30e1\u30c7\u30a3\u30a2\u691c\u7d22\u3001\u30ed\u30b1\u30c3\u30c8\u6253\u3061\u4e0a\u3052\u3001\u5c0f\u60d1\u661f\u63a5\u8fd1\u60c5\u5831\u3001\u300c\u53f2\u4e0a\u521d\u306e\u5b87\u5b99\u671b\u9060\u93e1\u306f\uff1f\u300d\u3068\u3044\u3063\u305f\u9006\u5f15\u304d\u6b74\u53f2Q&A\u3092\u3001AI\u30a8\u30fc\u30b8\u30a7\u30f3\u30c8\uff08Claude / Cursor / Hermes \u7b49\uff09\u304b\u3089\u81ea\u7136\u8a00\u8a9e\u3067\u547c\u3073\u51fa\u305b\u307e\u3059\u3002",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-11T05:48:53Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-11T06:04:01.429698+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ahrazzle/TamaHermes",
+    "url": "https://github.com/ahrazzle/TamaHermes",
+    "description": "TamaHermes \u2014 Tamacodex ported to Hermes Agent: installs as a Hermes pet that grows from real agent activity, in the terminal and floating on the desktop via Petdex. No Codex required.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agent-pet",
+      "codex-pet",
+      "desktop-pet",
+      "hermes-agent",
+      "petdex",
+      "tamagotchi",
+      "tamahermes"
+    ],
+    "updated_at": "2026-09-11T06:04:01Z",
+    "category": "forks",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "1Panel-dev/1Panel",
+      "Romanescu11/hermes-skill-factory",
+      "longyunfeigu/learn-hermes-agent",
+      "AlexAI-MCP/hermes-CCC",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "CYC2002tommy/Deep-Research-Agent",
+      "mlennie/hermes-mcp",
+      "H-Ali13381/hermes-linux-ricing",
+      "aiunlocked1412/hermes-agent-pixel",
+      "ksimback/hermes-atlas-mcp",
+      "romdix/coolify-hermes-stack",
+      "zakahadi/llm-eval-cli",
+      "PatterAI/Patter",
+      "cx2002302-lang/zettelkasten-second-memory",
+      "liaohch3/claude-tap",
+      "aivrar/portable-hermes-agent",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent",
+      "Devin-AXIS/iPolloWork",
+      "kenryu42/cc-safety-net"
+    ],
+    "discovered_at": "2026-09-11T06:04:17.825270+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "whxyw4/hermes-agent",
+    "url": "https://github.com/whxyw4/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-11T06:02:47Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-09-11T06:04:20.829627+00:00",
+    "status": "pending"
   }
 ]
