@@ -59535,5 +59535,48 @@
     ],
     "discovered_at": "2026-09-11T06:04:20.829627+00:00",
     "status": "pending"
+  },
+  {
+    "name": "agent-observatory/agent-session-atlas",
+    "url": "https://github.com/agent-observatory/agent-session-atlas",
+    "description": "Collect and analyze coding-agent sessions across Codex, Claude Code, and Hermes.",
+    "stars": 0,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [],
+    "updated_at": "2026-09-11T06:59:44Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "jazzyalex/agent-sessions"
+    ],
+    "discovered_at": "2026-09-11T07:03:00.115744+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "diverHansun/hermes-docs",
+    "url": "https://github.com/diverHansun/hermes-docs",
+    "description": "https://hermes-agent.nousresearch.com/docs",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-09-11T06:27:26Z",
+    "category": "official",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-11T07:04:42.474078+00:00",
+    "status": "pending"
   }
 ]
