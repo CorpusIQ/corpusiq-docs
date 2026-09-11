@@ -12,7 +12,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 10, 2026 (midday cron sweep) · **Sources:** chatmcp/mcpso issues #4033-#4035 + mcpservers.org /all pages 1-2 via r.jina.ai reader proxy + mcp.so homepage · **Catalog:** 621 servers (+507 guides)
+> **Last updated:** September 10, 2026 (late-night cron sweep) · **Sources:** mcp.so feed (30 blocks) + mcpservers.org /all pages 1-2 via r.jina.ai reader proxy + chatmcp/mcpso issues #4036-#4054 · **Catalog:** 628 servers (+514 guides)
 
 ## 🆕 September 10, 2026 - Midday Cron Sweep (1 New, 1 Guide)
 
@@ -5822,3 +5822,15 @@ Check each server's documentation for specific transport type (streamable HTTP, 
 ### 1 new server from chatmcp/mcpso issues + mcpservers.org /all - Sep 10, 2026 (midday cron sweep)
 
 - [APIzone MCP - Third-Party API Status and Uptime Monitoring](/hermes/mcp/servers/external/apizone-mcp/)
+
+### 7 new servers from mcp.so feed + mcpservers.org /all - Sep 10, 2026 (late-night cron sweep)
+
+- [Reach MCP - Operate a Real LinkedIn Account from Your Agent](/hermes/mcp/servers/external/reach-mcp/)
+- [Nova Amazon MCP - Seller Central Profit Analytics for Agents](/hermes/mcp/servers/external/nova-amazon-mcp/)
+- [Canarics MCP - AI Call Analysis and Voice Agents for Sales Teams](/hermes/mcp/servers/external/canarics-mcp/)
+- [Airside Labs Aviation Tools MCP - Provenance-Backed Aviation Reference Data](/hermes/mcp/servers/external/airside-aviation-mcp/)
+- [YoTrends MCP - Live YouTube and TikTok Trends as Content Packs](/hermes/mcp/servers/external/yotrends-mcp/)
+- [SEOVally MCP - Scoped SEO and AI-Search Audits for Agents](/hermes/mcp/servers/external/seovally-mcp/)
+- [GramClaw MCP - Telegram Outreach Workflow for Agents](/hermes/mcp/servers/external/gramclaw-mcp/)
+
+Late-night sweep sourced from the mcp.so feed (30 blocks, everything above the first prior-disposition name) and mcpservers.org /all pages 1-2 (51 slugs batch-classified). 7 new business-relevant servers catalogued with guides, all 7 endpoints live-probed over JSON-RPC: Reach MCP (operate a real LinkedIn account from an agent - 52 tools across inbox, network, natural-language Sales Navigator search, posts and publishing, with server-side daily quotas, idempotent writes and signed webhooks; OAuth 2.1 at app.reachmcp.com/mcp, 403-verified live), Nova Amazon MCP (Seller Central, Vendor Central and Amazon Ads with SKU-level COGS, VAT and FBM costs writable through the MCP itself so the agent answers contribution-margin questions - 15 tools at mcp.novadata.io/api/mcp, 401-verified live), Canarics MCP (sales-team call analytics and consent-gated AI voice callbacks - keyless initialize captured canarics v1.0.0 with the two signup tools exactly as documented), Airside Labs Aviation Tools MCP (aviation entity resolution with per-field provenance and temporal validity plus a 6,700-case EASA-screened use-case atlas - keyless initialize captured v1.1.0 with all 22 tools), YoTrends MCP (live YouTube and TikTok trends across 9 markets as topic feeds and publish-ready text packs - 8 tools, key-gated 401 with a clear remediation message), SEOVally MCP (scoped SEO and AI-search audits - 4 tools, 403-verified live) and GramClaw MCP (Telegram outreach workflows as agent tools - broadcast with throttling, drip campaigns, pipeline CRM - key-challenge -32001 verified live). Also updated: HasData MCP guide refreshed for the vendor's five new per-connector mcp.so listings and the 57-API docs catalogue (new YouTube, TikTok comments/search, Facebook, Walmart, Google Flights/Images/Scholar families).
