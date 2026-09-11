@@ -5876,3 +5876,7 @@ Night sweep sourced from the mcp.so feed (32 server blocks), mcpservers.org /all
 - [Coderbuds MCP - Engineering Delivery Metrics for Agents](/hermes/mcp/servers/external/coderbuds-mcp/)
 
 Midday sweep sourced from the mcp.so feed (30 server blocks), mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy and chatmcp/mcpso issues #4067-#4070. 3 new business-relevant servers catalogued with guides, all 3 endpoints live-verified over JSON-RPC (401 auth-gated exactly as documented): RedReplier MCP (social lead monitoring with 0-100 lead scoring and saved reply drafts), Draxlr MCP (SQL dashboards, read-only query access and row-level security across 14 databases) and Coderbuds MCP (engineering delivery metrics and change-fit assessment for coding agents).
+
+### VoIPstudio MCP ★★ - September 11, 2026 (docs maintenance)
+
+Backfill guide for a catalog row added August 22: the official VoIPstudio MCP server for call analytics. Agents query recordings, call detail records, live calls and voicemails, with per-user API tokens and the optional CX Addon enriching every recording with transcript, summary, sentiment, action items and a 1-10 CX score. SSE at `mcp.voipstudio.workers.dev/sse` (live 401 auth gate confirmed). No count change - the server was already catalogued; this clears the dead See Also link on the Canarics page. · [Guide →](/hermes/mcp/servers/external/voipstudio-mcp/)
