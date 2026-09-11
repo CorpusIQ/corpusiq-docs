@@ -12,7 +12,17 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 11, 2026 (night cron sweep) · **Sources:** mcp.so feed (32 blocks) + mcpservers.org /all pages 1-2 via r.jina.ai reader proxy + chatmcp/mcpso issues #4055-#4064 · **Catalog:** 634 servers (+520 guides)
+> **Last updated:** September 11, 2026 (midday cron sweep) · **Sources:** mcp.so feed (30 blocks) + mcpservers.org /all pages 1-2 via r.jina.ai reader proxy + chatmcp/mcpso issues #4067-#4070 · **Catalog:** 637 servers (+523 guides)
+
+## 🆕 September 11, 2026 - Midday Cron Sweep (3 New, 3 Guides)
+
+Midday sweep over the mcp.so feed (30 server blocks), mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy (60 slugs batch-classified) and chatmcp/mcpso issues #4067-#4070 (the fresh window past the night sweep's cutoff at #4064). Three new business-relevant servers catalogued with guides, all three endpoints live-probed over JSON-RPC: RedReplier MCP (social lead monitoring - mentions across Reddit, Facebook, Hacker News, X and Bluesky scored 0-100 for lead relevance with per-mention reasoning and a saved drafted reply, plus website, keyword and alert management; OAuth or API key at mcp.redreplier.com/mcp, 401-verified live), Draxlr MCP (SQL BI for agents - schema inspection, read-only SQL, saved queries, dashboards, CSV and Excel export and row-level security across 14 database engines; hosted OAuth at api.draxlr.com/mcp, 401-verified live) and Coderbuds MCP (engineering delivery intelligence - 22 tools over team shipping standards, org map, review turnaround, queue blockers and deploy lag, plus a Work Our Way prompt; OAuth 2.1 at coderbuds.com/mcp/insights, 401-verified live).
+
+- [RedReplier MCP - Social Lead Monitoring and Reply Drafts for Agents](/hermes/mcp/servers/external/redreplier-mcp/) · 6 tools, 5 networks, 401-verified live.
+- [Draxlr MCP - SQL Dashboards and Queries for Agents](/hermes/mcp/servers/external/draxlr-mcp/) · read-only SQL, RLS, 14 databases, 401-verified live.
+- [Coderbuds MCP - Engineering Delivery Metrics for Agents](/hermes/mcp/servers/external/coderbuds-mcp/) · 22 tools, OAuth 2.1, registry namespace.
+
+**Also identified (not catalogued):** prior-sweep dispositions respected (Theyond, TruVerifAI, OpenZiti LLM-Gateway, OpenZiti MCP Gateway, Reach, Airside Labs, Nova Data Analytics, Canarics, Orthogonal, VenuNite, toll402, Loadster, priostack, pulse-verity, Prove AI, Ultimate Web Scraper, Artlist, Fluenta, VarynForge, Expired Domains and the HasData per-connector family - all ruled by earlier sweeps), UmmahAPI (Islamic source data - reference niche), Midpoint Card Prices (trading-card market data - consumer collectibles), Tribeunal (human and AI jury verdicts, 39 tools - decision novelty class), Switchboard (agent call network from Anywhere Intelligence - agent infrastructure, sign-in walled), AANet (agent coordination service - agent infrastructure), MiniMax H3 Max (AI video generator - media generation class), Course Profiler (trail-running and ultramarathon analytics - sports niche), kolourr and offensive360 (/all 404 shells), sikcapri, aceatdev, sadri-dridi and the numbered author slugs (nav-only shells), Resell Pro #4068 (Vinted resale market analytics - HOLD: the vendor's own docs state the MCP publication documents are drafts and not ready for directory submission; re-check next cycle), TERM #4069 (signed agent community and coordination platform - agent coordination class), DeliverKit #4070 (packaging and signing knowledge for agents - dev utility class).
 
 ## 🆕 September 11, 2026 - Night Cron Sweep (6 New, 6 Guides)
 
@@ -5858,3 +5868,11 @@ Late-night sweep sourced from the mcp.so feed (30 blocks, everything above the f
 - [TrendPulse MCP - Google News and Trends Research](/hermes/mcp/servers/external/trendpulse-mcp/)
 
 Night sweep sourced from the mcp.so feed (32 server blocks), mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy and chatmcp/mcpso issues #4055-#4064. 6 new business-relevant servers catalogued with guides, 3 endpoints live-verified over JSON-RPC: CN Evidence MCP (Chinese supplier verification - keyless resolve plus x402 evidence at $0.002/$0.01 USDC, 3 tool schemas captured live), SignalEDI MCP (X12 EDI workflows with profile-gated tools and QuickBooks adapters), Taskade MCP (official 62-tool workspace MCP, hosted OAuth 401-verified), schemagate MCP (identity-scoped schema selection for text-to-SQL), SQL Server MCP (multi-instance DBA console, npm v3.0.0) and TrendPulse MCP (16-tool Google News and Trends research). Prior-sweep dispositions respected (Theyond, MCP DB Wizard, TruVerifAI, OpenZiti, Drop2Run, LoadSnap, ZMS, MirrorFly).
+
+### 3 new servers from mcp.so feed + chatmcp/mcpso issues - Sep 11, 2026 (midday cron sweep)
+
+- [RedReplier MCP - Social Lead Monitoring and Reply Drafts for Agents](/hermes/mcp/servers/external/redreplier-mcp/)
+- [Draxlr MCP - SQL Dashboards and Queries for Agents](/hermes/mcp/servers/external/draxlr-mcp/)
+- [Coderbuds MCP - Engineering Delivery Metrics for Agents](/hermes/mcp/servers/external/coderbuds-mcp/)
+
+Midday sweep sourced from the mcp.so feed (30 server blocks), mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy and chatmcp/mcpso issues #4067-#4070. 3 new business-relevant servers catalogued with guides, all 3 endpoints live-verified over JSON-RPC (401 auth-gated exactly as documented): RedReplier MCP (social lead monitoring with 0-100 lead scoring and saved reply drafts), Draxlr MCP (SQL dashboards, read-only query access and row-level security across 14 databases) and Coderbuds MCP (engineering delivery metrics and change-fit assessment for coding agents).
