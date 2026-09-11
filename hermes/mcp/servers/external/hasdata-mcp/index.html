@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Hosted web-data gateway from HasData: one MCP endpoint exposes connector tools over real estate (Zillow, Redfin), hospitality (Airbnb, Booking), hiring">
+        <meta name="description" content="Hosted web-data gateway from HasData: one MCP endpoint exposes 57 connector APIs over real estate (Zillow, Redfin), hospitality (Airbnb, Booking), hiring">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/hasdata-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="HasData MCP - Marketplace and Web Data Gateway for Agents">
-  <meta property="og:description" content="Hosted web-data gateway from HasData: one MCP endpoint exposes connector tools over real estate (Zillow, Redfin), hospitality (Airbnb, Booking), hiring">
+  <meta property="og:description" content="Hosted web-data gateway from HasData: one MCP endpoint exposes 57 connector APIs over real estate (Zillow, Redfin), hospitality (Airbnb, Booking), hiring">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="HasData MCP - Marketplace and Web Data Gateway for Agents">
-  <meta name="twitter:description" content="Hosted web-data gateway from HasData: one MCP endpoint exposes connector tools over real estate (Zillow, Redfin), hospitality (Airbnb, Booking), hiring">
+  <meta name="twitter:description" content="Hosted web-data gateway from HasData: one MCP endpoint exposes 57 connector APIs over real estate (Zillow, Redfin), hospitality (Airbnb, Booking), hiring">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,7 +108,7 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "HasData MCP - Marketplace and Web Data Gateway for Agents",
-    "description": "Hosted web-data gateway from HasData: one MCP endpoint exposes connector tools over real estate (Zillow, Redfin), hospitality (Airbnb, Booking), hiring",
+    "description": "Hosted web-data gateway from HasData: one MCP endpoint exposes 57 connector APIs over real estate (Zillow, Redfin), hospitality (Airbnb, Booking), hiring",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/hasdata-mcp",
     
     "author": {
@@ -9961,10 +9961,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tool-groups-40-connector-tools" class="md-nav__link">
+  <a href="#tool-groups-57-connector-apis" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tool Groups (40+ connector tools)
+        Tool Groups (57 connector APIs)
       
     </span>
   </a>
@@ -9976,6 +9976,17 @@
     <span class="md-ellipsis">
       
         Verification (Aug 30, 2026)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verification-update-sep-10-2026-night-sweep" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verification Update (Sep 10, 2026 night sweep)
       
     </span>
   </a>
@@ -10025,11 +10036,11 @@
 
 
 <h1 id="hasdata-mcp">HasData MCP<a class="headerlink" href="#hasdata-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>One hosted endpoint, 40+ marketplace and web-data connectors.</strong> HasData is a web-scraping API provider, and its MCP gateway exposes the connector catalogue as MCP tools: Zillow and Redfin real estate, Airbnb and Booking stays, Indeed and Glassdoor hiring, Yelp and YellowPages local business, Shopify and Amazon e-commerce, plus Google SERP, Maps, Trends and Travel. The gateway is the infrastructure; the DATA each connector carries decides what an operator can answer with it.</p>
+<p><strong>One hosted endpoint, 57 marketplace and web-data connector APIs.</strong> HasData is a web-scraping API provider, and its MCP gateway exposes the connector catalogue as MCP tools: Zillow and Redfin real estate, Airbnb and Booking stays, Indeed and Glassdoor hiring, Yelp and YellowPages local business, Shopify, Amazon and Walmart e-commerce, YouTube, TikTok, Instagram and Facebook social data, plus Google SERP, Maps, Trends, Flights, Images, Scholar and Travel. The gateway is the infrastructure; the DATA each connector carries decides what an operator can answer with it.</p>
 <div class="highlight"><pre><span></span><code>Server type: Hosted (Streamable HTTP)
 Endpoint: https://mcp.hasdata.com/mcp (connector selection: https://mcp.hasdata.com/api/mcp?apis=amazon,shopify)
 Auth: API key via the x-api-key header (HASDATA_API_KEY; create keys at app.hasdata.com/api-keys)
-Tools: 40+ connector tools, exposed per the connectors you select
+Tools: 57 connector APIs, exposed per the connectors you select
 Docs: docs.hasdata.com/mcp-server
 Pricing: HasData API credits, per-API pricing (app.hasdata.com/apis)
 Built by: HasData (hasdata.com)
@@ -10039,7 +10050,7 @@ Built by: HasData (hasdata.com)
 <p>First, <strong>real estate and hospitality data.</strong> <code>zillow_listing</code> and <code>zillow_property</code> (plus <code>redfin_listing</code> and <code>redfin_property</code>) cover for-sale, for-rent and sold listings with full property details; <code>airbnb_listing</code>, <code>airbnb_property</code>, <code>booking_place</code> and <code>booking_search</code> cover stays by location and dates. Structured JSON out.</p>
 <p>Second, <strong>hiring and local-business intelligence.</strong> <code>indeed_job</code>, <code>indeed_listing</code>, <code>glassdoor_job</code> and <code>glassdoor_listing</code> answer compensation and demand questions; <code>yelp_place</code>, <code>yelp_reviews</code>, <code>yellowpages_place</code> and <code>yellowpages_search</code> cover local market presence.</p>
 <p>Third, <strong>search and e-commerce surfaces.</strong> The <code>google_serp_*</code> family (news, shopping, product, events, AI-mode and AI overview), <code>google_maps_search</code>, <code>google_trends_search</code>, <code>google_travel_flights</code> and <code>google_travel_hotels</code> give market-signal reads; <code>shopify_collections</code>, <code>shopify_products</code> and the <code>amazon_*</code> family cover competitor catalogues.</p>
-<h2 id="tool-groups-40-connector-tools">Tool Groups (40+ connector tools)<a class="headerlink" href="#tool-groups-40-connector-tools" title="Anchor link to this section">&para;</a></h2>
+<h2 id="tool-groups-57-connector-apis">Tool Groups (57 connector APIs)<a class="headerlink" href="#tool-groups-57-connector-apis" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -10073,8 +10084,20 @@ Built by: HasData (hasdata.com)
 <td><code>google_serp</code> (news, product, shopping, events, AI mode), <code>google_maps_search</code>, <code>google_maps_reviews</code>, <code>google_trends_search</code>, <code>google_travel_flights</code>, <code>google_travel_hotels</code>, <code>bing_serp</code>, <code>duckduckgo_serp</code></td>
 </tr>
 <tr>
+<td>E-commerce (Walmart)</td>
+<td><code>walmart_product</code>, <code>walmart_reviews</code>, <code>walmart_search</code></td>
+</tr>
+<tr>
 <td>Social and media</td>
-<td><code>tiktok_posts</code>, <code>tiktok_profile</code>, <code>instagram_posts</code>, <code>instagram_profile</code>, <code>google_images</code>, <code>web_scraping</code></td>
+<td><code>youtube_channel</code>, <code>youtube_search</code>, <code>youtube_transcript</code>, <code>youtube_video</code>, <code>tiktok_comments</code>, <code>tiktok_posts</code>, <code>tiktok_profile</code>, <code>tiktok_search</code>, <code>instagram_posts</code>, <code>instagram_profile</code>, <code>facebook_profile</code></td>
+</tr>
+<tr>
+<td>Search (more)</td>
+<td><code>google_flights_flights</code>, <code>google_images_images</code>, <code>google_scholar_cite</code>, <code>google_scholar_scholar</code></td>
+</tr>
+<tr>
+<td>Generic</td>
+<td><code>web_scraping</code></td>
 </tr>
 </tbody>
 </table>
@@ -10084,6 +10107,12 @@ Built by: HasData (hasdata.com)
 <li>Vendor docs: docs.hasdata.com/mcp-server documents the endpoint, the x-api-key auth header and per-connector tool names</li>
 <li>Listed on mcpservers.org under hasdata/zillow-mcp, hasdata/airbnb-mcp and hasdata/booking-mcp (and more)</li>
 <li>Recorded as a future catch-up candidate in the Aug 29 midday sweep and resolved by this sweep</li>
+</ul>
+<h2 id="verification-update-sep-10-2026-night-sweep">Verification Update (Sep 10, 2026 night sweep)<a class="headerlink" href="#verification-update-sep-10-2026-night-sweep" title="Anchor link to this section">&para;</a></h2>
+<ul>
+<li>HasData published five per-connector hosted MCP listings on mcp.so: YouTube MCP Server (search, video metadata, channel data, timestamped transcripts - no YouTube API key required), TikTok MCP Server (profiles, videos, comments, creator search), Instagram MCP Server (public profiles and post feeds), Zillow MCP Server and Google Search MCP Server (organic results, AI Overview, People Also Ask, news, shopping). Each carries its own GitHub repo (HasData/youtube-mcp, tiktok-mcp, instagram-mcp, zillow-mcp, google-search-mcp).</li>
+<li>Official docs table now lists 57 connector APIs including the new <code>youtube_*</code> (4 tools), <code>tiktok_comments</code>/<code>tiktok_search</code>, <code>facebook_profile</code>, <code>walmart_*</code> (3 tools), <code>google_flights</code>, <code>google_images</code> and <code>google_scholar</code> families - table above refreshed to match.</li>
+<li>Docs confirm <code>?apis=</code> parameter filtering (e.g. <code>?apis=google_maps_search,web_scraping</code> exposes 2 tools instead of 57) and OAuth sign-in alongside the <code>x-api-key</code> header.</li>
 </ul>
 <h2 id="notes-and-caveats">Notes and Caveats<a class="headerlink" href="#notes-and-caveats" title="Anchor link to this section">&para;</a></h2>
 <ul>
