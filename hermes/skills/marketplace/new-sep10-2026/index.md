@@ -31,8 +31,12 @@ Forty-three-query skills.sh API sweep (3,775 unique skills; 2 queries failed —
 |---|---|---|
 | mathews-tom/armory (`prompt-lab`) | 77 | Claude Code / Claude.ai package collection — adapters generated for Cursor, OpenAI Codex, and Gemini CLI; zero Hermes targeting; no HERMES.md. Claude-family rejection class |
 | vm0-ai/vm0-skills (`arga-labs`) | 9 | Agent Skills format, but install docs target Claude Code Marketplace / GitHub Copilot; no Hermes mention; far below the 40-install floor. Below-bar park (watch) |
+| its-a-skill-issue/superpowers | 9,589 combined (`ai-video-generation` 8,055 / `agent-browser` 1,534) | Republished inference.sh mirror #5 — README is verbatim inference.sh skill repo text (evening-pass verification). Canonical coverage: halt-catch-fire/skills → inference-sh-skills-setup.md. Mirror class: 101-skills, magentosh, qu-skills, skills-shell, its-a-skill-issue |
+| awesome-skills/agent-skills-manager (`agent-skills-manager`) | 5 | Chinese symlink-based multi-agent skills manager (dotey scheme; Claude Code / Codex / Pi / OpenCode / Hermes via symlink + rsync). Hermes named on the badge, but 5 installs is far below the 40-install floor. Below-bar park (watch) |
 
 All 63 other NEW flags from the tiered cross-reference mapped to the standing-rejection roster recorded in the corpusiq-docs-management skill run-log; no other bar-clearers, no overturns.
+
+**Evening pass (Sep 10, 20:00 MST):** 44-query sweep (4,004 unique skills, zero failed queries — collector DEFAULT_QUERIES fix applied: `social media` + `content` split into `social` / `media` / `content marketing`), cluster diff 119 known / 1 candidate, tiered cross-reference 607 unique / 63 NEW / 100 PARTIAL (PARTIAL ≥100 empty), hot board clean (183 ranked / 33 sources, all catalog-covered). No bar-clearers; the two evening-pass records above were added to this table.
 
 ## Security Notes
 
