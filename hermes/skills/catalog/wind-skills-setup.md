@@ -1,18 +1,18 @@
 ---
 title: "Wind Skills - 82-Skill Financial Terminal Cluster"
-description: "wind-information-co-ltd/wind-skills - 82 skills, 132.6K combined installs. The official agent skill set for Wind, China's dominant financial data terminal - MCP data access plus 79 investment research workflows."
+description: "wind-alice/alicemarket - 82 skills, 157K+ combined installs. The official agent skill set for Wind, China's dominant financial data terminal - MCP data access plus 79 investment research workflows."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/wind-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-08-13"
+last_updated: "2026-09-11"
 tags: ["hermes skill", "agent skill", "skill setup", "finance"]
 ---
 
 # Wind Skills - Setup Guide
 
-**Source:** [skills.sh](https://www.skills.sh/wind-information-co-ltd/wind-skills) (132.6K combined installs)
-**GitHub:** [wind-information-co-ltd/wind-skills](https://github.com/wind-information-co-ltd/wind-skills)
+**Source:** [skills.sh](https://www.skills.sh/wind-alice/alicemarket) (157K+ combined installs)
+**GitHub:** [Wind-Alice/AliceMarket](https://github.com/Wind-Alice/AliceMarket) (108⭐, 14 forks, pushed Sep 10, 2026)
 **Category:** Financial Data & Investment Research
-**First Seen:** August 13, 2026 sweep
+**First Seen:** August 13, 2026 sweep (as `wind-information-co-ltd/wind-skills`); publisher renamed Sep 11, 2026 sweep - `github.com/wind-information-co-ltd/wind-skills` now 301-redirects to `Wind-Alice/AliceMarket`
 **Quality Tier:** 🟢 Production (data access) / 🟡 Beta (research skills)
 
 Wind Information is China's Bloomberg-equivalent - the dominant financial data terminal for Chinese markets (A-shares, bonds, funds, macro). This official cluster gives agents two things: MCP-based access to Wind's data feeds, and a large library of investment-research workflows (DCF models, valuation snapshots, backtests, post-market debriefs, earnings analysis). The strongest signal for agent-native institutional finance from an Asian data vendor to date.
@@ -22,16 +22,18 @@ Wind Information is China's Bloomberg-equivalent - the dominant financial data t
 ## Installation
 
 ```bash
-npx skills add wind-information-co-ltd/wind-skills
+npx skills add wind-alice/alicemarket
 ```
+
+> **Publisher rename (Sep 11, 2026):** the skills.sh source and GitHub repo moved from `wind-information-co-ltd/wind-skills` to `wind-alice/alicemarket` (Wind-Alice/AliceMarket). Install commands referencing the old slug should be updated.
 
 ## Core Skills
 
 | Skill | Installs | Use For |
 |---|---|---|
-| wind-mcp-skill | 93.8K | MCP integration for Wind data access |
+| wind-mcp-skill | 151.6K | MCP integration for Wind data access |
 | wind-find-finance-skill | 24.5K | Finding the right Wind financial dataset |
-| wind-alice | 2.2K | Wind's AI assistant (Alice) integration |
+| wind-alice | 3.1K | Wind's AI assistant (Alice) integration |
 | post-market-debrief | 549 | End-of-day market summary generation |
 | equity-investment-thesis | 450 | Thesis construction for equity positions |
 | backtest-expert | 447 | Strategy backtesting workflows |
