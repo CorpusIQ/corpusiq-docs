@@ -1,6 +1,6 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 180+ repos, tools, skills, and integrations
+description: Comprehensive directory of the Hermes Agent ecosystem - 182+ repos, tools, skills, and integrations
 last_updated: 2026-09-10
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **180+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **182+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **180+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **182+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -32,7 +32,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **180+ reposit
 | 📦 SDKs & Libraries | 2 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 3 | Security tools, compliance, audit |
 | 🔧 Skills & Plugins | 40 | Reusable skills, plugins, extensions, tools |
-| 🖥️ Interfaces & UI | 34 | Desktop apps, web UIs, dashboards, terminals |
+| 🖥️ Interfaces & UI | 36 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
 
@@ -1344,6 +1344,22 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
+### [vivekchand/clawmetry](https://github.com/vivekchand/clawmetry) ⭐ 413
+
+>See your agent think. Zero-config observability & governance for 30 AI agent runtimes: Claude Code, OpenAI Codex, Hermes, OpenClaw & 26 more. Live token costs, sessions, tool calls, crons.
+
+**Language:** Python | **Topics:** agent-monitoring, ai-agent, ai-agents, claude-code, codex, cost-tracking, developer-tools, gemini-cli, llm-observability, monitoring, observability, openclaw, opentelemetry | **Score:** 78/100
+
+---
+
+### [VasiHemanth/tokentelemetry](https://github.com/VasiHemanth/tokentelemetry) ⭐ 346
+
+>Token telemetry dashboard for AI autonomous and coding agents - tracks tokens, sessions, tool calls & reasoning across Hermes agent, Claude Code, Antigravity CLI, Codex & more. 100% local.
+
+**Language:** Python | **Topics:** ai-agents, claude-code, codex, cost-tracking, cursor, dashboard, developer-tools, gemini-cli, github-copilot, hermes-agent, llm, llm-monitoring, local-first, observability, token-usage | **Score:** 83/100
+
+---
+
 ### [unmodeled-tyler/vessel-browser](https://github.com/unmodeled-tyler/vessel-browser) ⭐ 94
 
 >Built from the ground-up for agents, Vessel Browser is an open source AI browser for Linux/Mac/Windows that provides a durable state, MCP control, and BYOK with full autonomous browsing. Use with Hermes Agent, OpenClaw, or connect to your favorite API provider.
@@ -1519,6 +1535,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*180+ repositories in the Hermes ecosystem. Last updated: 2026-09-10. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*182+ repositories in the Hermes ecosystem. Last updated: 2026-09-10. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
