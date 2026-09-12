@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-09-10"
+last_updated: "2026-09-11"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,23 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 11, 2026 (midday cron sweep) · **Sources:** mcp.so feed (30 blocks) + mcpservers.org /all pages 1-2 via r.jina.ai reader proxy + chatmcp/mcpso issues #4067-#4070 · **Catalog:** 637 servers (+523 guides)
+> **Last updated:** September 11, 2026 (evening cron sweep) · **Sources:** mcp.so feed (30 blocks) + mcpservers.org /all pages 1-2 via r.jina.ai reader proxy + chatmcp/mcpso issues #4072-#4079 · **Catalog:** 646 servers (+532 guides)
+
+## 🆕 September 11, 2026 - Evening Cron Sweep (9 New, 9 Guides)
+
+Evening sweep over the mcp.so feed (30 server blocks, five fresh names above the midday cutoff), mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy (43 slugs batch-classified) and chatmcp/mcpso issues #4072-#4079 (the fresh window past the midday cutoff at #4070). Nine new business-relevant servers catalogued with guides, seven endpoints live-probed over JSON-RPC: GoodLeads MCP (keyless formation-grade lead intelligence - 13 live-probed tools over the state-filing lead feed, buyer words to priced lists with human-completed Stripe checkout, $0.25-$0.70 per record, no minimums), Recordwire MCP (US business-registry data and change events across seven states - 8 live-probed tools with per-state key restrictions, change subscriptions and signed webhooks, plans from $200/month), MentionAgent MCP (publisher outreach and backlink placements from the agent - 10 documented tools, send_reply with no recipient field, bearer key at mentionagent.ai/mcp 401-verified live), iHatePosting MCP (official social scheduler MCP - 6 live-probed tools with get_platform_rules and validate_post before create_post, 14 platforms, 90 days free), LocationLists MCP (keyless 725-dataset catalog of US business locations - 5 live-probed tools from search to Stripe checkout, 14.2M locations, $9-$199 one-time), ClauseAI MCP (keyless startup legal documents - 12 attorney-drafted General Legal CC0 templates from NDA to BAA, PDF/ODT/Markdown, no account), VerifyAPI MCP (single-tool fact-checking with Ed25519-signed JWS receipts - verdicts supported/contradicted/unverifiable, $0.02 per claim, npm stdio), Unicorn Screener MCP (keyless startup research - 5 live-probed tools, unicorn scores out of 100, public memos, free allowance) and Mobile Text Alerts MCP (official SMS server - send/schedule SMS, subscribers, groups, carrier registration; endpoint 401-verified, tool list account-gated).
+
+- [GoodLeads MCP - New-Business Leads for Agent Outreach](/hermes/mcp/servers/external/goodleads-mcp/) · keyless, 13 tools live-probed, $0.25-$0.70/record.
+- [Recordwire MCP - US Business Registry Data for Agents](/hermes/mcp/servers/external/recordwire-mcp/) · 8 tools live-probed, 7 states, change feed.
+- [MentionAgent MCP - Publisher Outreach and Backlink Placements for Agents](/hermes/mcp/servers/external/mentionagent-mcp/) · 10 tools, approve-before-send, 401-verified.
+- [iHatePosting MCP - Cross-Platform Social Publishing for Agents](/hermes/mcp/servers/external/ihateposting-mcp/) · 6 tools live-probed, validate-first, 14 platforms.
+- [LocationLists MCP - US Business Location Datasets for Agents](/hermes/mcp/servers/external/locationlists-mcp/) · 725 datasets, 5 tools live-probed, keyless.
+- [ClauseAI MCP - Startup Legal Document Generation for Agents](/hermes/mcp/servers/external/clauseai-mcp/) · 12 templates, keyless, PDF/ODT/Markdown.
+- [VerifyAPI MCP - Fact-Checking with Signed Receipts for Agents](/hermes/mcp/servers/external/verifyapi-mcp/) · 1 tool, Ed25519 receipts, $0.02/claim.
+- [Unicorn Screener MCP - Startup Scores and Research Memos for Agents](/hermes/mcp/servers/external/unicorn-screener-mcp/) · 5 tools live-probed, keyless.
+- [Mobile Text Alerts MCP - Official SMS Sending for Agents](/hermes/mcp/servers/external/mobile-text-alerts-mcp/) · official SMS, 401-verified live.
+
+**Also identified (not catalogued):** PipesHub #4078 (permission-aware enterprise RAG - remote per-instance MCP, tool names unpublished, npm README is a client-connection guide only), MCP Selection Lab #4072 (metadata-only MCP tool-selection benchmarks from AgentTrustLab - benchmark infra class, AgentTrustLab sibling), England Works Watch #4073, CQC Provider #4074 and UK Taxi PHV #4075 (ChanghuLiu UK regulatory decision-layer family - UK Premises Licence already disposed Sep 6; UK geo-niche family), SimFuse eSIM Storefront (travel eSIM planner - consumer travel class), SomaCheck Vibecheck (consented phone-gesture body-language signals - consumer novelty), prior-sweep dispositions respected (UmmahAPI, Midpoint Card Prices, Tribeunal, TruVerifAI, Theyond, Reach, Airside Labs, OpenZiti LLM-Gateway, OpenZiti MCP Gateway, Nova Data, Canarics, Orthogonal, VenuNite, toll402, Loadster, priostack, pulse-verity, Prove AI, Resell Pro HOLD, TERM, DeliverKit), HasData per-connector listings (YouTube, TikTok, Instagram, Zillow, Google Search - covered by the HasData 57-API family guide), ilyautov Russian marketplace family (wildberries-mcp-ru, ozon-mcp-ru, sbis-mcp-ru - covered by marketplaces-mcp-ru and the WB/Ozon guides), Playgama (HTML5 game publishing - gamedev niche), snapInsta (consumer Instagram downloader), Briefing Service (hourly LLM-ranked news briefings - media news class, QY-Stream precedent), Open Task Relay (task marketplace class, prior disposition), redfox overseas and content slugs (Chinese-language overseas platform data - geo niche), LEGAION Verifier (Polish ISAP/SAOS/EUR-Lex citation registry - Polish geo-niche legal), bussin-mcp (Azure Service Bus dev utility), Qotien (French fiscal calc - geo niche), ProofCore Notary (TON blockchain provenance - crypto class), Windframe (prior disposition - dev/design class), Keeper.sh (personal calendar sync - personal productivity), Vectorize, TheQRCode.io and offgen.ai (design utilities), Agent Control Agent Meter (x402 address vetting - x402 infra class), Nimo (website performance dev tool), PDF to Markdown pdf2md (PDF2MD class covered), Open Economics (Brazilian economic data - geo-niche regional finance), Browser Forest (captcha-solving scraping infra - saturated scraping class), Heliograph (DB change-run dev infra), knowledgeforagents.com (anonymous problem/solution wiki - knowledge wiki class), Shipi18n (i18n dev tool), infinitebacklog (consumer game tracker), AgentTrustLab (benchmark results infra), Zambo (agent task-execution infra), orbylon readiness (16-check machine-commerce readiness scan - thin docs, no published endpoint), kolourr/midpoint-mcp (prior disposition), plus /all nav-only and author shells (jinmojing, felipegambettadesouza6-jpg, abdullahhasan42, dbhq-uk, zambodotdev).
 
 ## 🆕 September 11, 2026 - Midday Cron Sweep (3 New, 3 Guides)
 
@@ -5880,3 +5896,17 @@ Midday sweep sourced from the mcp.so feed (30 server blocks), mcpservers.org /al
 ### VoIPstudio MCP ★★ - September 11, 2026 (docs maintenance)
 
 Backfill guide for a catalog row added August 22: the official VoIPstudio MCP server for call analytics. Agents query recordings, call detail records, live calls and voicemails, with per-user API tokens and the optional CX Addon enriching every recording with transcript, summary, sentiment, action items and a 1-10 CX score. SSE at `mcp.voipstudio.workers.dev/sse` (live 401 auth gate confirmed). No count change - the server was already catalogued; this clears the dead See Also link on the Canarics page. · [Guide →](/hermes/mcp/servers/external/voipstudio-mcp/)
+
+### 9 new servers from mcp.so feed + mcpservers.org /all + chatmcp/mcpso issues - Sep 11, 2026 (evening cron sweep)
+
+- [GoodLeads MCP - New-Business Leads for Agent Outreach](/hermes/mcp/servers/external/goodleads-mcp/)
+- [Recordwire MCP - US Business Registry Data for Agents](/hermes/mcp/servers/external/recordwire-mcp/)
+- [MentionAgent MCP - Publisher Outreach and Backlink Placements for Agents](/hermes/mcp/servers/external/mentionagent-mcp/)
+- [iHatePosting MCP - Cross-Platform Social Publishing for Agents](/hermes/mcp/servers/external/ihateposting-mcp/)
+- [LocationLists MCP - US Business Location Datasets for Agents](/hermes/mcp/servers/external/locationlists-mcp/)
+- [ClauseAI MCP - Startup Legal Document Generation for Agents](/hermes/mcp/servers/external/clauseai-mcp/)
+- [VerifyAPI MCP - Fact-Checking with Signed Receipts for Agents](/hermes/mcp/servers/external/verifyapi-mcp/)
+- [Unicorn Screener MCP - Startup Scores and Research Memos for Agents](/hermes/mcp/servers/external/unicorn-screener-mcp/)
+- [Mobile Text Alerts MCP - Official SMS Sending for Agents](/hermes/mcp/servers/external/mobile-text-alerts-mcp/)
+
+Evening sweep sourced from the mcp.so feed (30 server blocks, five fresh names above the midday cutoff), mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy (43 slugs batch-classified) and chatmcp/mcpso issues #4072-#4079. 9 new business-relevant servers catalogued with guides, 7 endpoints live-probed over JSON-RPC: GoodLeads MCP (keyless state-filing leads, 13 tools live-probed, human-completed checkout), Recordwire MCP (7-state registry data and change events, 8 tools live-probed), MentionAgent MCP (publisher outreach and placement threads, 401-verified), iHatePosting MCP (validate-first social publishing, 6 tools live-probed), LocationLists MCP (725 location datasets, 5 tools live-probed), ClauseAI MCP (12 keyless legal templates), VerifyAPI MCP (signed-receipt fact-checking), Unicorn Screener MCP (startup scores and memos, 5 tools live-probed) and Mobile Text Alerts MCP (official SMS, 401-verified).
