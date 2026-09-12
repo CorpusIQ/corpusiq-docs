@@ -60048,5 +60048,103 @@
     ],
     "discovered_at": "2026-09-12T05:04:55.403907+00:00",
     "status": "pending"
+  },
+  {
+    "name": "zayn-0101/larkdeck",
+    "url": "https://github.com/zayn-0101/larkdeck",
+    "description": "\u98de\u4e66 / Lark \u6d41\u5f0f\u5361\u7247\u6e32\u67d3\u5668 for Hermes Agent \u2014\u2014 \u96f6\u6e90\u7801\u6539\u5199\u3001\u96f6 monkeypatch\uff0cHermes \u5347\u7ea7\u65e0\u9700\u91cd\u88c5",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-12T06:01:49Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-12T06:02:44.798052+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Furinelle/Mnemosyne",
+    "url": "https://github.com/Furinelle/Mnemosyne",
+    "description": "Mnemosyne is a local-first, agent-agnostic memory kernel. Long-term memories are plain Markdown files on your disk, indexed by SQLite FTS5 hybrid retrieval, shared by every agent you use \u2014 Claude Code, Codex CLI, Cursor, Hermes, or anything that can speak MCP, run a shell command, or read a file.",
+    "stars": 2,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-12T05:50:51Z",
+    "category": "mcp",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "colbymchenry/codegraph",
+      "1Panel-dev/1Panel",
+      "EverMind-AI/EverOS",
+      "codejunkie99/agentic-stack",
+      "AxDSan/mnemosyne",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "itechmeat/open-second-brain",
+      "CYC2002tommy/Deep-Research-Agent",
+      "H-Ali13381/hermes-linux-ricing",
+      "ahonore42/logios-brain",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "mnemosyne-oss/mnemosyne",
+      "ruvnet/metaharness",
+      "agent-of-empires/agent-of-empires",
+      "Intelligent-Internet/zenith",
+      "liaohch3/claude-tap",
+      "MemTensor/memmy-agent",
+      "kenryu42/cc-safety-net"
+    ],
+    "discovered_at": "2026-09-12T06:02:54.454745+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "LLLLJack/hermes-agent",
+    "url": "https://github.com/LLLLJack/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-12T06:01:27Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-09-12T06:03:10.757905+00:00",
+    "status": "pending"
   }
 ]
