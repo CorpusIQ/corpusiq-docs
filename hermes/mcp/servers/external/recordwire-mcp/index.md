@@ -4,7 +4,7 @@ description: "Remote MCP server over official US business registries in seven st
 category: Business Data
 stars: n/a (new listing)
 added: 2026-09-11
-source: mcp.so feed + chatmcp/mcpso issue #4079
+source: "mcp.so feed + chatmcp/mcpso issue #4079"
 relevance: ★★★
 tags: [business-data, company-registry, change-events, due-diligence, compliance, remote-mcp]
 ---

@@ -4,7 +4,7 @@ description: "Keyless remote MCP server that fills attorney-drafted legal templa
 category: Legal
 stars: n/a (new listing)
 added: 2026-09-11
-source: chatmcp/mcpso issue #4077
+source: "chatmcp/mcpso issue #4077"
 relevance: ★★★
 tags: [legal, contracts, nda, privacy-policy, startup, keyless, remote-mcp]
 ---

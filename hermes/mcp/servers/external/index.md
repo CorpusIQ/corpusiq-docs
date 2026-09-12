@@ -12,7 +12,16 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 11, 2026 (evening cron sweep) · **Sources:** mcp.so feed (30 blocks) + mcpservers.org /all pages 1-2 via r.jina.ai reader proxy + chatmcp/mcpso issues #4072-#4079 · **Catalog:** 646 servers (+532 guides)
+> **Last updated:** September 12, 2026 (morning cron sweep) · **Sources:** mcp.so feed (30 blocks) + mcpservers.org /all page 1 via r.jina.ai reader proxy + chatmcp/mcpso issues #4080-#4082 · **Catalog:** 648 servers (+534 guides)
+
+## 🆕 September 12, 2026 - Morning Cron Sweep (2 New, 2 Guides)
+
+Morning sweep over the mcp.so feed (30 server blocks) and mcpservers.org /all page 1 via the r.jina.ai reader proxy (26 slugs batch-classified). Two new business-relevant servers catalogued with guides, both endpoints live-verified over JSON-RPC: Pixelesq MCP (official site-operations server - 62 tools across pages, sections, collections, SEO, Search Console, analytics, redirects and theme, draft-first publishing with OAuth 2.1 PKCE scopes, endpoint 401-verified live) and LandLens One MCP (Tamil Nadu property due diligence from Verified.RealEstate - cited legal answers over land records, 30-check verification reports, 25 years of registered prices, build-scope and change tracking, bearer-challenge verified live).
+
+- [Pixelesq MCP - Website Management and SEO for Agents](/hermes/mcp/servers/external/pixelesq-mcp/) · 62 tools, draft-first publishing, OAuth 2.1 PKCE, 401-verified.
+- [LandLens One MCP - Tamil Nadu Property Due Diligence for Agents](/hermes/mcp/servers/external/landlens-one-mcp/) · 35+ verification tools, cited legal answers, bearer-verified live.
+
+**Also identified (not catalogued):** SlateVM MCP (Apple-silicon VM platform with 45 tools - local macOS app over a Unix socket, desktop-utility class), MatPlotLibNet (local .NET chart rendering - dev tool class), failecho and loudreader slugs (detail pages 404 - listing shells), EU AI Act Compliance #4081 (submission lists no tools, repo unverifiable - thin-docs class), Errand #4082 (Seoul geo-niche errand dispatch service), requisition-audit #4080 (a2awire benchmark fixture - benchmark infra class), plus prior-sweep dispositions respected (Briefing Service media-news class and Open Task Relay task-marketplace class, both disposed in the Sep 11 evening sweep).
 
 ## 🆕 September 11, 2026 - Evening Cron Sweep (9 New, 9 Guides)
 
@@ -5910,3 +5919,10 @@ Backfill guide for a catalog row added August 22: the official VoIPstudio MCP se
 - [Mobile Text Alerts MCP - Official SMS Sending for Agents](/hermes/mcp/servers/external/mobile-text-alerts-mcp/)
 
 Evening sweep sourced from the mcp.so feed (30 server blocks, five fresh names above the midday cutoff), mcpservers.org /all pages 1-2 via the r.jina.ai reader proxy (43 slugs batch-classified) and chatmcp/mcpso issues #4072-#4079. 9 new business-relevant servers catalogued with guides, 7 endpoints live-probed over JSON-RPC: GoodLeads MCP (keyless state-filing leads, 13 tools live-probed, human-completed checkout), Recordwire MCP (7-state registry data and change events, 8 tools live-probed), MentionAgent MCP (publisher outreach and placement threads, 401-verified), iHatePosting MCP (validate-first social publishing, 6 tools live-probed), LocationLists MCP (725 location datasets, 5 tools live-probed), ClauseAI MCP (12 keyless legal templates), VerifyAPI MCP (signed-receipt fact-checking), Unicorn Screener MCP (startup scores and memos, 5 tools live-probed) and Mobile Text Alerts MCP (official SMS, 401-verified).
+
+### 2 new servers from mcp.so feed + mcpservers.org /all - Sep 12, 2026 (morning cron sweep)
+
+- [Pixelesq MCP - Website Management and SEO for Agents](/hermes/mcp/servers/external/pixelesq-mcp/)
+- [LandLens One MCP - Tamil Nadu Property Due Diligence for Agents](/hermes/mcp/servers/external/landlens-one-mcp/)
+
+Morning sweep sourced from the mcp.so feed (30 server blocks) and mcpservers.org /all page 1 via the r.jina.ai reader proxy. 2 new business-relevant servers catalogued with guides, both endpoints live-verified over JSON-RPC (401 auth gates as documented): Pixelesq MCP (official website management with draft-first publishing across 62 tools) and LandLens One MCP (Tamil Nadu property due diligence with cited legal answers and 25 years of registered price history). Also fixed two unquoted source values from the Sep 11 evening sweep (recordwire, clauseai) that the frontmatter gate flagged.
