@@ -14522,5 +14522,12 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-12T06:04:58.723452+00:00"
+  },
+  {
+    "repo": "tenuo-ai/hermes-tenuo",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T07:04:46.890318+00:00"
   }
 ]

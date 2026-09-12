@@ -60146,5 +60146,32 @@
     ],
     "discovered_at": "2026-09-12T06:03:10.757905+00:00",
     "status": "pending"
+  },
+  {
+    "name": "tenuo-ai/hermes-tenuo",
+    "url": "https://github.com/tenuo-ai/hermes-tenuo",
+    "description": "Tenuo authorization plugin for Hermes Agent",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agents",
+      "authorization",
+      "hermes-agent",
+      "security"
+    ],
+    "updated_at": "2026-09-12T07:02:44Z",
+    "category": "forks",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage",
+      "niche_specialized"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-12T07:02:57.965040+00:00",
+    "status": "pending"
   }
 ]
