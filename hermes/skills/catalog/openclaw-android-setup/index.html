@@ -111,8 +111,8 @@
     "description": "Run OpenClaw agents on Android with Termux - no proot-distro, no Linux overhead. Single-command setup, 1,649+ GitHub stars.",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-android-setup",
     
-    "datePublished": "2026-08-12",
-    "dateModified": "2026-08-12",
+    "datePublished": "2026-09-12",
+    "dateModified": "2026-09-12",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-08-12">
+  <meta name="last-updated" content="2026-09-12">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10281,7 +10281,7 @@
 <p><strong>Repo:</strong> <a href="https://github.com/AidanPark/openclaw-android">AidanPark/openclaw-android</a>
 <strong>Stars:</strong> 1,649 | <strong>Author:</strong> Aidan Park
 <strong>Requirements:</strong> Android 7.0+, Termux
-<strong>Skills.sh:</strong> <code>npx skills add aradotso/hermes-skills --skill openclaw-android-setup</code></p>
+<strong>Skills.sh:</strong> <code>npx skills add reason-machines/hermes-skills --skill openclaw-android-setup</code></p>
 <hr />
 <h2 id="what-it-is">What It Is<a class="headerlink" href="#what-it-is" title="Anchor link to this section">&para;</a></h2>
 <p>Run OpenClaw - the autonomous AI agent framework - directly on Android without a full Linux distribution. The standard approach requires proot-distro + Debian/Ubuntu (700MB-1GB overhead). This project installs just the glibc dynamic linker (<code>ld.so</code>), letting Node.js and OpenClaw run natively on Android's Linux kernel through Termux.</p>
@@ -10367,7 +10367,7 @@ openclaw<span class="w"> </span>daemon<span class="w"> </span>stop
 openclaw<span class="w"> </span>skills<span class="w"> </span>list
 
 <span class="c1"># Install a skill from skills.sh</span>
-openclaw<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>aradotso/hermes-skills<span class="w"> </span>--skill<span class="w"> </span>hermes-agent-framework
+openclaw<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>reason-machines/hermes-skills<span class="w"> </span>--skill<span class="w"> </span>hermes-agent-framework
 </code></pre></div>
 <h3 id="running-on-old-android-phones">Running on Old Android Phones<a class="headerlink" href="#running-on-old-android-phones" title="Anchor link to this section">&para;</a></h3>
 <p>This setup is particularly well-suited for repurposing old Android phones:
@@ -10386,11 +10386,11 @@ adb<span class="w"> </span>shell<span class="w"> </span>dumpsys<span class="w"> 
 <h2 id="skills-available">Skills Available<a class="headerlink" href="#skills-available" title="Anchor link to this section">&para;</a></h2>
 <p>Once OpenClaw is running, install Hermes-compatible skills:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Agent infrastructure</span>
-openclaw<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>aradotso/hermes-skills<span class="w"> </span>--skill<span class="w"> </span>hermes-agent-framework
-openclaw<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>aradotso/hermes-skills<span class="w"> </span>--skill<span class="w"> </span>hermes-agent-self-evolution
+openclaw<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>reason-machines/hermes-skills<span class="w"> </span>--skill<span class="w"> </span>hermes-agent-framework
+openclaw<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>reason-machines/hermes-skills<span class="w"> </span>--skill<span class="w"> </span>hermes-agent-self-evolution
 
 <span class="c1"># Communication</span>
-openclaw<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>aradotso/hermes-skills<span class="w"> </span>--skill<span class="w"> </span>hermesclaw-wechat-multi-agent
+openclaw<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>reason-machines/hermes-skills<span class="w"> </span>--skill<span class="w"> </span>hermesclaw-wechat-multi-agent
 
 <span class="c1"># Security</span>
 openclaw<span class="w"> </span>skills<span class="w"> </span>install<span class="w"> </span>prompt-security/clawsec<span class="w"> </span>--skill<span class="w"> </span>soul-guardian

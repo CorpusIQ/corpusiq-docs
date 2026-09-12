@@ -14417,5 +14417,159 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-09-11T08:03:06.158291+00:00"
+  },
+  {
+    "repo": "magnus919/hermes-cashew",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509341+00:00"
+  },
+  {
+    "repo": "tijs/local-model-bench",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509354+00:00"
+  },
+  {
+    "repo": "OxidantData/ctxlake",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509357+00:00"
+  },
+  {
+    "repo": "j5onrf/py-agent",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509359+00:00"
+  },
+  {
+    "repo": "kakyoka/cli_aae5e0cb05b81bd1",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509361+00:00"
+  },
+  {
+    "repo": "Goldlionren/xiaowu-local-agent-stack",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509363+00:00"
+  },
+  {
+    "repo": "HirogaKatageri/hirokata-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509365+00:00"
+  },
+  {
+    "repo": "emrgim/hirehop.skill",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509367+00:00"
+  },
+  {
+    "repo": "ptr1175-ui/hermes-webui",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509368+00:00"
+  },
+  {
+    "repo": "mgoldey/attestation",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509370+00:00"
+  },
+  {
+    "repo": "eaakun/hermes-agent-fork",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509372+00:00"
+  },
+  {
+    "repo": "eaakun/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509373+00:00"
+  },
+  {
+    "repo": "zayn-0101/larkdeck",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T06:04:58.723436+00:00"
+  },
+  {
+    "repo": "Furinelle/Mnemosyne",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T06:04:58.723449+00:00"
+  },
+  {
+    "repo": "LLLLJack/hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T06:04:58.723452+00:00"
+  },
+  {
+    "repo": "tenuo-ai/hermes-tenuo",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T07:04:46.890318+00:00"
+  },
+  {
+    "repo": "amirjundi/ettok-ai",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T08:03:13.479392+00:00"
+  },
+  {
+    "repo": "21stCenturyPharaoh/Hermes-Toth-Agent-",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T08:03:13.479408+00:00"
+  },
+  {
+    "repo": "mhmudsaed/hermes-support-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T08:03:13.479410+00:00"
+  },
+  {
+    "repo": "fyctyf-5grfg/cloudflare-ai",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T08:03:13.479413+00:00"
+  },
+  {
+    "repo": "NousResearch/hermes-plugin-touchdesigner",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T08:03:13.479415+00:00"
+  },
+  {
+    "repo": "nocoo/hermes-on-herdr",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T08:03:13.479416+00:00"
   }
 ]
