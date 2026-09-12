@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-09-11"
+last_updated: "2026-09-12"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,17 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 12, 2026 (morning cron sweep) · **Sources:** mcp.so feed (30 blocks) + mcpservers.org /all page 1 via r.jina.ai reader proxy + chatmcp/mcpso issues #4080-#4082 · **Catalog:** 648 servers (+534 guides)
+> **Last updated:** September 12, 2026 (midday cron sweep) · **Sources:** mcp.so feed (30 blocks) + mcpservers.org /all page 1 via r.jina.ai reader proxy + chatmcp/mcpso issues #4083-#4085 · **Catalog:** 651 servers (+537 guides)
+
+## 🆕 September 12, 2026 - Midday Cron Sweep (3 New, 3 Guides)
+
+Midday sweep over the mcp.so feed (30 server blocks - two fresh names above the morning cutoff), mcpservers.org /all page 1 via the r.jina.ai reader proxy (26 slugs batch-classified) and chatmcp/mcpso issues #4083-#4085 (the fresh window past the morning sweep's cutoff at #4082). Three new business-relevant servers catalogued with guides: B2B Creators MCP (multi-profile LinkedIn content operations with client approval links and profile, page and Ads reporting - endpoint live-probed, 401 auth gate), CraftStory MCP (talking-avatar and UGC video generation with ten documented tools, npm and MIT repo verified) and InstantReply MCP (Instagram, WhatsApp and Messenger inbox with 29 annotated tools and 11 prompt commands, npm verified).
+
+- [B2B Creators MCP - LinkedIn Content Across Every Team Profile](/hermes/mcp/servers/external/b2b-creators-mcp/) · multi-profile publishing, approval links, Ads reporting, 401-verified live.
+- [CraftStory MCP - Talking-Avatar and UGC Video Generation for Agents](/hermes/mcp/servers/external/craftstory-mcp/) · 10 tools, 180+ voices, npm @craftstory/mcp v0.1.3, MIT.
+- [InstantReply MCP - Instagram, WhatsApp and Messenger Inbox for Agents](/hermes/mcp/servers/external/instantreply-mcp/) · 29 tools, 11 prompts, scope-mapped keys, npm v0.2.0.
+
+**Also identified (not catalogued):** RecipeBee MCP #4084 (recipe search, previews and meal plans - consumer food class), MutalaaMCP #4085 (Turkish legislation, court decisions and Constitutional Court rulings - geo-niche legal class, LEGAION/Qotien precedent), plus prior-sweep dispositions respected across the feed and /all repeats (SlateVM, MatPlotLibNet, failecho, loudreader, EU AI Act Compliance #4081, Errand #4082, requisition-audit #4080 - all disposed in the Sep 12 morning sweep).
 
 ## 🆕 September 12, 2026 - Morning Cron Sweep (2 New, 2 Guides)
 
@@ -5926,3 +5936,11 @@ Evening sweep sourced from the mcp.so feed (30 server blocks, five fresh names a
 - [LandLens One MCP - Tamil Nadu Property Due Diligence for Agents](/hermes/mcp/servers/external/landlens-one-mcp/)
 
 Morning sweep sourced from the mcp.so feed (30 server blocks) and mcpservers.org /all page 1 via the r.jina.ai reader proxy. 2 new business-relevant servers catalogued with guides, both endpoints live-verified over JSON-RPC (401 auth gates as documented): Pixelesq MCP (official website management with draft-first publishing across 62 tools) and LandLens One MCP (Tamil Nadu property due diligence with cited legal answers and 25 years of registered price history). Also fixed two unquoted source values from the Sep 11 evening sweep (recordwire, clauseai) that the frontmatter gate flagged.
+
+### 3 new servers from mcp.so feed + mcpservers.org /all + chatmcp/mcpso issues - Sep 12, 2026 (midday cron sweep)
+
+- [B2B Creators MCP - LinkedIn Content Across Every Team Profile](/hermes/mcp/servers/external/b2b-creators-mcp/)
+- [CraftStory MCP - Talking-Avatar and UGC Video Generation for Agents](/hermes/mcp/servers/external/craftstory-mcp/)
+- [InstantReply MCP - Instagram, WhatsApp and Messenger Inbox for Agents](/hermes/mcp/servers/external/instantreply-mcp/)
+
+Midday sweep sourced from the mcp.so feed (30 server blocks), mcpservers.org /all page 1 via the r.jina.ai reader proxy (26 slugs batch-classified) and chatmcp/mcpso issues #4083-#4085. 3 new business-relevant servers catalogued with guides: B2B Creators MCP (multi-profile LinkedIn content operations with client approval links and LinkedIn Ads reporting; endpoint live-probed, 401 auth gate), CraftStory MCP (talking-avatar and UGC video generation, ten documented tools, npm and MIT repo verified) and InstantReply MCP (Instagram, WhatsApp and Messenger inbox, 29 annotated tools and 11 prompts; npm verified).
