@@ -36,10 +36,12 @@ A hot-board discovery sweep: all 7 clusters surfaced through the skills.sh homep
 | Cluster | Installs | Reason |
 |---|---|---|
 | skymavis/skills (decision-records) | 3.4K | Below the 20K bar; 1 skill; official Sky Mavis org (Axie Infinity) but thin content - brand-watch queue. Re-check if installs grow. |
+| transilienceai/communitytools | 5.6K combined (`attack-path-stitcher` 705 / `hackerone` 238 / `osint` 175; 50 skills) | Claude Code security testing suite (CLAUDE.md, `.claude-plugin/`, `Agent()` coordination spawns). Generic Agent Skills frontmatter, but README targets Claude Code only — zero Hermes mentions; coordination layer is Claude-specific. Claude-family rejection class (evening-pass cluster-level verification). Re-check if Hermes support appears. |
+| steelan9199/wechat-publisher | 1.8K combined (`pyautogui-automation` 672 / `wechat-publisher-yashu` 204 / `wechat-title-optimizer` 173 / `wechat-content-optimizer` 105; 20 skills) | 10⭐, no license, Chinese-language collection ("network-collected SKILLs") — WeChat/Windows desktop automation via PyAutoGUI. High install counts but personal scraped collection; below-floor park (watch). |
 
 ## Evening Pass
 
-*(Pending - this sweep is the morning fire.)*
+**Evening pass (Sep 11, 20:10 MST):** 40-query collector (4,002 unique skills, zero failed queries), cluster diff 120 known / 0 candidates, tiered cross-reference 608 unique / 61 NEW / 100 PARTIAL (PARTIAL ≥100 empty), hot board clean (185 ranked / 33 sources, all catalog-covered). No bar-clearers; all 61 NEW flags map to the standing-rejection roster at unchanged counts (two dead sources dropped off the API since Sep 10). Two cluster-level verification records added to the Evaluated and Skipped table above.
 
 ---
 
