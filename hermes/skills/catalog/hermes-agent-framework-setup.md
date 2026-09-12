@@ -3,14 +3,14 @@ title: "Hermes Agent Framework - Core Nous Research Agent"
 description: "176+ installs. Guide to Nous Research's Hermes Agent framework with self-improving learning loops, three-layer memory, and automatic Skill creation. Setup"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-framework-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-12"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
 # Hermes Agent Framework - Setup Guide
 
-**Source:** [aradotso/ai-agent-skills](https://github.com/aradotso/ai-agent-skills) (176+ installs)
+**Source:** [reason-machines/ai-agent-skills](https://github.com/reason-machines/ai-agent-skills) (176+ installs)
 **Category:** Hermes Agent / Core Framework
 **Quality Tier:** 🟡 Beta
 
@@ -21,7 +21,7 @@ Expert knowledge for working with Hermes Agent, the open-source AI Agent framewo
 ## Installation
 
 ```bash
-npx skills add aradotso/ai-agent-skills --skill hermes-agent-framework
+npx skills add reason-machines/ai-agent-skills --skill hermes-agent-framework
 ```
 
 ### Core Hermes Agent Setup

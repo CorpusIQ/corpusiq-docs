@@ -1,12 +1,12 @@
 ---
 title: Oh-My-Hermes Workflow - Agent Orchestration Framework Setup Guide
 description: Install and configure the Oh-My-Hermes workflow framework that provides opinionated patterns for Hermes agent task orchestration, session management, and tool chaining.
-publisher: aradotso/hermes-skills
+publisher: reason-machines/hermes-skills
 installs: 182
 quality_tier: 🔵 Community
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/oh-my-hermes-workflow-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-12"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 Oh-My-Hermes Workflow is an opinionated workflow framework for Hermes Agent inspired by Oh-My-Zsh. It provides consistent patterns for task orchestration, session lifecycle management, and tool chaining - so every Hermes session follows proven, repeatable workflows.
 
-**Publisher:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills)  
+**Publisher:** [reason-machines/hermes-skills](https://github.com/reason-machines/hermes-skills)  
 **Source:** skills.sh  
 **Quality Tier:** 🔵 Community
 
@@ -44,7 +44,7 @@ Oh-My-Hermes Workflow is an opinionated workflow framework for Hermes Agent insp
 ## Installation
 
 ```bash
-npx skills add https://github.com/aradotso/hermes-skills --skill oh-my-hermes-workflow
+npx skills add https://github.com/reason-machines/hermes-skills --skill oh-my-hermes-workflow
 ```
 
 Verify:
@@ -154,4 +154,4 @@ hermes skill invoke oh-my-hermes-workflow --history
 
 ---
 
-*Discovered July 31, 2026 · Published by aradotso/hermes-skills · 182 installs*
+*Discovered July 31, 2026 · Published by reason-machines/hermes-skills · 182 installs*

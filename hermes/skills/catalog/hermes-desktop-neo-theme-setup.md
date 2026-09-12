@@ -9,7 +9,7 @@ language: TypeScript/CSS
 platforms: [macOS, Linux, Windows]
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-desktop-neo-theme-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-12"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -251,7 +251,7 @@ git log --oneline -5
 
 - [hermes-skins](https://github.com/mdgld/hermes-skins) - Monokai-based TUI/CLI skins
 - [hermes-mod](https://github.com/Joello2925/hermes-mod) - Web UI for managing CLI skins
-- [Hermes Desktop Companion](https://github.com/aradotso/hermes-skills) - Desktop agent companion app
+- [Hermes Desktop Companion](https://github.com/reason-machines/hermes-skills) - Desktop agent companion app
 
 ---
 

@@ -10,9 +10,9 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 # OpenClaw Security Hardening - Security Suite
 
-**Publisher:** [aradotso/security-skills](https://github.com/aradotso/security-skills) | **Installs:** 874 | **Category:** Security
+**Publisher:** [reason-machines/security-skills](https://github.com/reason-machines/security-skills) | **Installs:** 874 | **Category:** Security
 
-Automated security hardening for OpenClaw agents. Audits file permissions, network exposure, environment variables, and skill configurations - then applies security best practices. Ships with companion [openclaw-security-watchdog](https://github.com/aradotso/security-skills) (761 installs) for continuous monitoring.
+Automated security hardening for OpenClaw agents. Audits file permissions, network exposure, environment variables, and skill configurations - then applies security best practices. Ships with companion [openclaw-security-watchdog](https://github.com/reason-machines/security-skills) (761 installs) for continuous monitoring.
 
 ## Prerequisites
 
@@ -26,8 +26,8 @@ Automated security hardening for OpenClaw agents. Audits file permissions, netwo
 Install both the hardening tool and watchdog together:
 
 ```bash
-npx skills add aradotso/security-skills/openclaw-security-hardening
-npx skills add aradotso/security-skills/openclaw-security-watchdog
+npx skills add reason-machines/security-skills/openclaw-security-hardening
+npx skills add reason-machines/security-skills/openclaw-security-watchdog
 ```
 
 ## Configuration

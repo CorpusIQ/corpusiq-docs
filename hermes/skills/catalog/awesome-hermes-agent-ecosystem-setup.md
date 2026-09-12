@@ -3,14 +3,14 @@ title: Awesome Hermes Agent Ecosystem - Comprehensive Ecosystem Navigation
 description: Navigate the entire Hermes Agent ecosystem - skills, tools, integrations, deployment, and multi-agent orchestration. 161+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/awesome-hermes-agent-ecosystem-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-12"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
 # Awesome Hermes Agent Ecosystem - Setup Guide
 
-**Source:** [aradotso/ai-agent-skills](https://github.com/aradotso/ai-agent-skills) (161+ installs)
+**Source:** [reason-machines/ai-agent-skills](https://github.com/reason-machines/ai-agent-skills) (161+ installs)
 **Category:** Hermes Ecosystem / Discovery
 **Quality Tier:** 🔵 Community
 
@@ -21,7 +21,7 @@ Comprehensive knowledge of the Hermes Agent ecosystem maintained at [0xNyk/aweso
 ## Installation
 
 ```bash
-npx skills add aradotso/ai-agent-skills --skill awesome-hermes-agent-ecosystem
+npx skills add reason-machines/ai-agent-skills --skill awesome-hermes-agent-ecosystem
 ```
 
 Or clone the awesome list directly:

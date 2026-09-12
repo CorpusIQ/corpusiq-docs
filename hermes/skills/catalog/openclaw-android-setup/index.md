@@ -3,7 +3,7 @@ title: "OpenClaw on Android - Full Setup Guide"
 description: "Run OpenClaw agents on Android with Termux - no proot-distro, no Linux overhead. Single-command setup, 1,649+ GitHub stars."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-android-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-12"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -13,7 +13,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **Repo:** [AidanPark/openclaw-android](https://github.com/AidanPark/openclaw-android)
 **Stars:** 1,649 | **Author:** Aidan Park
 **Requirements:** Android 7.0+, Termux
-**Skills.sh:** `npx skills add aradotso/hermes-skills --skill openclaw-android-setup`
+**Skills.sh:** `npx skills add reason-machines/hermes-skills --skill openclaw-android-setup`
 
 ---
 
@@ -140,7 +140,7 @@ openclaw daemon stop
 openclaw skills list
 
 # Install a skill from skills.sh
-openclaw skills install aradotso/hermes-skills --skill hermes-agent-framework
+openclaw skills install reason-machines/hermes-skills --skill hermes-agent-framework
 ```
 
 ### Running on Old Android Phones
@@ -169,11 +169,11 @@ Once OpenClaw is running, install Hermes-compatible skills:
 
 ```bash
 # Agent infrastructure
-openclaw skills install aradotso/hermes-skills --skill hermes-agent-framework
-openclaw skills install aradotso/hermes-skills --skill hermes-agent-self-evolution
+openclaw skills install reason-machines/hermes-skills --skill hermes-agent-framework
+openclaw skills install reason-machines/hermes-skills --skill hermes-agent-self-evolution
 
 # Communication
-openclaw skills install aradotso/hermes-skills --skill hermesclaw-wechat-multi-agent
+openclaw skills install reason-machines/hermes-skills --skill hermesclaw-wechat-multi-agent
 
 # Security
 openclaw skills install prompt-security/clawsec --skill soul-guardian

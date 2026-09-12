@@ -3,14 +3,14 @@ title: "Hermes WebUI Agent - Browser-Based Hermes Agent"
 description: "240+ installs. Deploy, configure, and use Hermes WebUI - a web interface for Hermes Agent with persistent memory, scheduled jobs, and multi-platform"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-webui-agent-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-12"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
 # Hermes WebUI Agent - Setup Guide
 
-**Source:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills) (240+ installs)
+**Source:** [reason-machines/hermes-skills](https://github.com/reason-machines/hermes-skills) (240+ installs)
 **Category:** Hermes Agent / UI & Deployment
 **Quality Tier:** 🟡 Beta
 
@@ -21,7 +21,7 @@ Expert skill for deploying, configuring, and using Hermes WebUI - a lightweight 
 ## Installation
 
 ```bash
-npx skills add aradotso/hermes-skills --skill hermes-webui-agent
+npx skills add reason-machines/hermes-skills --skill hermes-webui-agent
 ```
 
 ### Native Python (Recommended)

@@ -3,14 +3,14 @@ title: "Hermes Workspace AI Agent UI - Native Web Workspace for"
 description: "196+ installs. Full-featured web workspace for Hermes Agent with chat, terminal, memory browser, skills catalog, swarm mode, and multi-agent orchestration"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-workspace-ai-agent-ui-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-12"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
 # Hermes Workspace AI Agent UI - Setup Guide
 
-**Source:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills) (196+ installs)
+**Source:** [reason-machines/hermes-skills](https://github.com/reason-machines/hermes-skills) (196+ installs)
 **Category:** Hermes Agent / UI & Workspace
 **Quality Tier:** 🟡 Beta
 
@@ -21,7 +21,7 @@ Hermes Workspace is a native web interface for Hermes Agent that goes beyond cha
 ## Installation
 
 ```bash
-npx skills add aradotso/hermes-skills --skill hermes-workspace-ai-agent-ui
+npx skills add reason-machines/hermes-skills --skill hermes-workspace-ai-agent-ui
 ```
 
 ### One-Line Install

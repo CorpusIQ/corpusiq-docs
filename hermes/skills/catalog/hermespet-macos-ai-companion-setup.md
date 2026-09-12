@@ -1,16 +1,16 @@
 ---
 title: HermesPet macOS AI Companion - Setup Guide
-description: Install and configure hermespet-macos-ai-companion, a desktop pet/companion that brings Hermes Agent to your macOS desktop with persistent presence and visual feedback. 38 installs from aradotso/hermes-skills.
+description: Install and configure hermespet-macos-ai-companion, a desktop pet/companion that brings Hermes Agent to your macOS desktop with persistent presence and visual feedback. 38 installs from reason-machines/hermes-skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermespet-macos-ai-companion-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-12"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
 # HermesPet macOS AI Companion - Setup Guide
 
-**Source:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills) · 38 installs
+**Source:** [reason-machines/hermes-skills](https://github.com/reason-machines/hermes-skills) · 38 installs
 **Category:** Hermes Agent Variants / Desktop Integration
 **License:** MIT · **Platform:** macOS · **Published:** June 2026
 
@@ -46,13 +46,13 @@ The companion bridges the gap between a headless agent process and an interactiv
 ### Via skills.sh (Recommended)
 
 ```bash
-npx skills add aradotso/hermes-skills@hermespet-macos-ai-companion
+npx skills add reason-machines/hermes-skills@hermespet-macos-ai-companion
 ```
 
 ### Manual Clone
 
 ```bash
-git clone https://github.com/aradotso/hermes-skills.git
+git clone https://github.com/reason-machines/hermes-skills.git
 cd hermes-skills/hermespet-macos-ai-companion
 npm install
 npm run build

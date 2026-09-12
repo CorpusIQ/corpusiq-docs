@@ -3,7 +3,7 @@ title: "Hermes Browser Extension - Full Setup Guide"
 description: "Install, configure, and use the Hermes Browser Extension side panel for Chrome/Edge/Chromium. Connect active browser context to your local or remote Hermes"
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-browser-extension-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-12"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -13,7 +13,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 **Repo:** [abundantbeing/hermes-browser-extension](https://github.com/abundantbeing/hermes-browser-extension)
 **Stars:** 439 | **Author:** Jon Komet (`@abundantbeing`)
 **Status:** Public alpha - load unpacked, not on Chrome Web Store yet
-**Skills.sh:** `npx skills add aradotso/hermes-skills --skill hermes-browser-extension`
+**Skills.sh:** `npx skills add reason-machines/hermes-skills --skill hermes-browser-extension`
 
 ---
 
@@ -68,7 +68,7 @@ Then in Chrome/Edge:
 ### Method 2: Via skills.sh (When Available)
 
 ```bash
-npx skills add aradotso/hermes-skills --skill hermes-browser-extension
+npx skills add reason-machines/hermes-skills --skill hermes-browser-extension
 ```
 
 ---

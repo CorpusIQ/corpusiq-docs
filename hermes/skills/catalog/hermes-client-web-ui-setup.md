@@ -1,16 +1,16 @@
 ---
 title: Hermes Client Web UI - Full Setup Guide for Hermes Agents
-description: Install, configure, and use the hermes-client-web-ui skill from aradotso/devtools-skills. Web-based chat dashboard for Hermes Agent with multi-profile management, SSE streaming, and terminal integration.
+description: Install, configure, and use the hermes-client-web-ui skill from reason-machines/devtools-skills. Web-based chat dashboard for Hermes Agent with multi-profile management, SSE streaming, and terminal integration.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-client-web-ui-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-12"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
 # Hermes Client Web UI - Setup Guide
 
-**Source:** [aradotso/devtools-skills](https://github.com/aradotso/devtools-skills) (59 installs) | [GitHub](https://github.com/lotsoftick/hermes_client)
+**Source:** [reason-machines/devtools-skills](https://github.com/reason-machines/devtools-skills) (59 installs) | [GitHub](https://github.com/lotsoftick/hermes_client)
 **Category:** interface, dashboard
 
 A web-based chat interface for the Hermes Agent by Nous Research. Manages multiple Hermes profiles as separate "agents", runs conversations with full streaming via SSE, and provides an interactive terminal for setup commands. Each UI agent maps 1:1 to a Hermes profile with its own home directory, config, and sessions.
@@ -21,7 +21,7 @@ A web-based chat interface for the Hermes Agent by Nous Research. Manages multip
 
 ```bash
 # Install the skill
-npx skills add aradotso/devtools-skills --skill hermes-client-web-ui
+npx skills add reason-machines/devtools-skills --skill hermes-client-web-ui
 
 # Clone and start the web UI
 git clone https://github.com/lotsoftick/hermes_client.git

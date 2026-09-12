@@ -1,12 +1,12 @@
 ---
 title: Minions Hermes Mission Control - Multi-Agent Coordination Setup Guide
 description: Install and configure Minions Hermes Mission Control for coordinating swarms of Hermes agents with shared task boards and real-time progress tracking.
-publisher: aradotso/hermes-skills
+publisher: reason-machines/hermes-skills
 installs: 173
 quality_tier: 🔵 Community
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/minions-hermes-mission-control-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-12"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 Minions Hermes Mission Control is a multi-agent coordination dashboard for Hermes. Dispatch tasks to swarms of agents, track progress on shared boards, and aggregate results - all from a single control interface.
 
-**Publisher:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills)  
+**Publisher:** [reason-machines/hermes-skills](https://github.com/reason-machines/hermes-skills)  
 **Source:** skills.sh  
 **Quality Tier:** 🔵 Community
 
@@ -45,7 +45,7 @@ Minions Hermes Mission Control is a multi-agent coordination dashboard for Herme
 ## Installation
 
 ```bash
-npx skills add https://github.com/aradotso/hermes-skills --skill minions-hermes-mission-control
+npx skills add https://github.com/reason-machines/hermes-skills --skill minions-hermes-mission-control
 ```
 
 Verify:
@@ -205,4 +205,4 @@ hermes skill invoke minions-hermes-mission-control --board test-board --aggregat
 
 ---
 
-*Discovered July 31, 2026 · Published by aradotso/hermes-skills · 173 installs*
+*Discovered July 31, 2026 · Published by reason-machines/hermes-skills · 173 installs*

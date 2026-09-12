@@ -1,6 +1,6 @@
 ---
 title: "OpenClaw Marketing Skills - Setup Guide"
-description: "Install and configure the openclaw-marketing-skills from aradotso/marketing-skills - campaign management, audience targeting, and content scheduling for"
+description: "Install and configure the openclaw-marketing-skills from reason-machines/marketing-skills - campaign management, audience targeting, and content scheduling for"
 last_updated: 2026-07-08
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-marketing-skills-setup/"
 robots: "index,follow"
@@ -12,7 +12,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 Marketing automation skill for Hermes and OpenClaw agents. Enables campaign management, audience targeting, content scheduling, and marketing analytics - all from agent commands.
 
-**Publisher:** [aradotso/marketing-skills](https://github.com/aradotso/marketing-skills) | **Installs:** 714 | **Source:** [skills.sh](https://github.com/aradotso/marketing-skills)
+**Publisher:** [reason-machines/marketing-skills](https://github.com/reason-machines/marketing-skills) | **Installs:** 714 | **Source:** [skills.sh](https://github.com/reason-machines/marketing-skills)
 
 ## 1. Prerequisites
 
@@ -24,10 +24,10 @@ Marketing automation skill for Hermes and OpenClaw agents. Enables campaign mana
 
 ```bash
 # Install the full marketing-skills collection
-npx skills add aradotso/marketing-skills
+npx skills add reason-machines/marketing-skills
 
 # Or install just the OpenClaw marketing skill
-npx skills add aradotso/marketing-skills --skill openclaw-marketing-skills
+npx skills add reason-machines/marketing-skills --skill openclaw-marketing-skills
 ```
 
 Verify installation:

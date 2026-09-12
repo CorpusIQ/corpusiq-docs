@@ -1,26 +1,26 @@
 ---
 title: Threads Growth Skill - Full Setup Guide for Hermes Agents
-description: Install, configure, and use the threads-growth-skill from aradotso/marketing-skills. Automate Threads growth strategies, content publishing, and audience engagement with 745+ installs.
+description: Install, configure, and use the threads-growth-skill from reason-machines/marketing-skills. Automate Threads growth strategies, content publishing, and audience engagement with 745+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/threads-growth-skill-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-12"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
 # Threads Growth Skill - Setup Guide
 
-**Source:** [aradotso/marketing-skills](https://github.com/aradotso/marketing-skills) (745 installs)
+**Source:** [reason-machines/marketing-skills](https://github.com/reason-machines/marketing-skills) (745 installs)
 **Category:** Social Media & Growth
 
-A Threads growth and marketing automation skill for Hermes agents. Published by aradotso - the same organization behind the hermes-skills ecosystem (50+ Hermes-native skills). Enables agents to execute Threads growth strategies, content scheduling, audience engagement, and analytics - closing the Meta social stack gap alongside existing X/Twitter, LinkedIn, and Instagram skills.
+A Threads growth and marketing automation skill for Hermes agents. Published by reason-machines - the same organization behind the hermes-skills ecosystem (50+ Hermes-native skills). Enables agents to execute Threads growth strategies, content scheduling, audience engagement, and analytics - closing the Meta social stack gap alongside existing X/Twitter, LinkedIn, and Instagram skills.
 
 ---
 
 ## Installation
 
 ```bash
-npx skills add aradotso/marketing-skills --skill threads-growth-skill
+npx skills add reason-machines/marketing-skills --skill threads-growth-skill
 ```
 
 ---

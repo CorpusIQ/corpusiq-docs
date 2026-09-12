@@ -16,6 +16,8 @@ The Skills Marketplace is the community hub for discovering, installing, and sha
 
 ## Recent Sweeps
 
+- [September 12, 2026 - Aradotso org renamed to reason-machines (7 repos, GitHub 301/200 verified) - 25 catalog setup guides updated in place, no new clusters](/hermes/skills/marketplace/new-sep12-2026/)
+
 - [🆕 September 11, 2026 - Unity Skills (56.8K, 29 skills), Vercel Next.js (44.4K, 5), Tencent WeChat Reading (41.7K, 1), Alibaba Cloud AIOps (30.8K, 270), Apidojo Agent Skills (21.0K, 100), Cline Skills (20.0K, 43), Vercel Eve (6.9K, 4) - 7 new publisher clusters, 452 skills, 7 setup guides + Wind publisher-rename update](/hermes/skills/marketplace/new-sep11-2026/)
 
 - [🆕 September 10, 2026 (Morning) - Apidojo Social Media Skills (8.0K, 3 scraper skills: x-scraper, instagram-scraper, tiktok-scraper via Apify) - 1 new publisher cluster, 3 skills, 1 setup guide](/hermes/skills/marketplace/new-sep10-2026/)

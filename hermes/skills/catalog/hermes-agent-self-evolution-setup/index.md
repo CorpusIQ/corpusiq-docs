@@ -1,16 +1,16 @@
 ---
 title: Hermes Agent Self-Evolution - Auto-Learning Skill Framework
-description: Aradotso community skill for Hermes agent self-evolution. Agents learn from past tasks, auto-create reusable skills, and improve over time. 280+ installs.
+description: reason-machines community skill for Hermes agent self-evolution. Agents learn from past tasks, auto-create reusable skills, and improve over time. 280+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-self-evolution-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-12"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
 
 # Hermes Agent Self-Evolution - Setup Guide
 
-**Source:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills)
+**Source:** [reason-machines/hermes-skills](https://github.com/reason-machines/hermes-skills)
 **Skill:** `hermes-agent-self-evolution` · **Installs:** 280+ · **Category:** Agent Learning / Meta
 **Platform:** Linux, macOS, Windows
 
@@ -22,7 +22,7 @@ A self-improvement framework for Hermes agents that learns from completed tasks,
 
 ```bash
 # Install via skills.sh
-npx skills add aradotso/hermes-skills --skill hermes-agent-self-evolution -g -y
+npx skills add reason-machines/hermes-skills --skill hermes-agent-self-evolution -g -y
 ```
 
 ---
@@ -167,4 +167,4 @@ metadata:
 
 - [Hermes Agent Core](/hermes/skills/catalog/hermes-agent-setup/) - Official core skill
 - [Hermes Agent Skill Authoring](/hermes/skills/catalog/hermes-agent-skill-authoring-setup/) - Writing SKILL.md files
-- [Aradotso Hermes Skills Collection](https://github.com/aradotso/hermes-skills)
+- [reason-machines Hermes Skills Collection](https://github.com/reason-machines/hermes-skills)

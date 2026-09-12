@@ -1,12 +1,12 @@
 ---
 title: Hermes Kanban Obsidian Integration - Task Management Setup Guide
 description: Bridge Hermes Agent with Obsidian vaults for Kanban-style task management - sync agent task boards with your knowledge base.
-publisher: aradotso/hermes-skills
+publisher: reason-machines/hermes-skills
 installs: 136
 quality_tier: 🔵 Community
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-kanban-obsidian-integration-setup/"
 robots: "index,follow"
-last_updated: "2026-08-12"
+last_updated: "2026-09-12"
 tags: ["hermes skill", "agent skill", "skill setup"]
 
 ---
@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup"]
 
 The Hermes Kanban Obsidian Integration bridges Hermes Agent with Obsidian vaults. Hermes agents can read, create, and update Kanban boards stored in Obsidian - syncing agent task management with your personal knowledge base.
 
-**Publisher:** [aradotso/hermes-skills](https://github.com/aradotso/hermes-skills)  
+**Publisher:** [reason-machines/hermes-skills](https://github.com/reason-machines/hermes-skills)  
 **Source:** skills.sh  
 **Quality Tier:** 🔵 Community
 
@@ -54,7 +54,7 @@ In Obsidian:
 ### Step 2: Install the Skill
 
 ```bash
-npx skills add https://github.com/aradotso/hermes-skills --skill hermes-kanban-obsidian-integration
+npx skills add https://github.com/reason-machines/hermes-skills --skill hermes-kanban-obsidian-integration
 ```
 
 ### Step 3: Configure Vault Path
@@ -213,4 +213,4 @@ hermes skill invoke hermes-kanban-obsidian-integration \
 
 ---
 
-*Discovered July 31, 2026 · Published by aradotso/hermes-skills · 136 installs*
+*Discovered July 31, 2026 · Published by reason-machines/hermes-skills · 136 installs*

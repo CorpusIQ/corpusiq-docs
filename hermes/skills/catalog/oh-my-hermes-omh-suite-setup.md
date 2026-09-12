@@ -3,7 +3,7 @@ title: "Oh My Hermes (OMH) Suite - Multi-Agent Orchestration"
 description: "witt3rd/oh-my-hermes - 9 Hermes-native multi-agent orchestration skills (~800 combined installs): consensus planning (ralplan), verified execution (ralph), Socratic requirements interviews, parallel deep research, backlog triage, and end-to-end autopilot. Native Hermes install via hermes skills tap."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/oh-my-hermes-omh-suite-setup/"
 robots: "index,follow"
-last_updated: "2026-08-14"
+last_updated: "2026-09-12"
 tags: ["hermes skill", "agent skill", "skill setup", "multi-agent", "orchestration"]
 ---
 
@@ -18,7 +18,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "multi-agent", "orchestrati
 
 Oh My Hermes (OMH) is a multi-agent orchestration framework for Hermes Agent, inspired by oh-my-claudecode and rebuilt natively for Hermes primitives. It provides composable skills for consensus planning (Planner → Architect → Critic debate), Socratic requirements interviewing, parallel research with citation verification, and evidence-verified execution - plus an optional plugin adding hook-based role injection and atomic state management. Skills work standalone with zero dependencies.
 
-**Note:** distinct from the earlier-documented `oh-my-hermes-workflow` skill (publisher `aradotso/hermes-skills`). This is a different, larger suite from publisher `witt3rd/oh-my-hermes`.
+**Note:** distinct from the earlier-documented `oh-my-hermes-workflow` skill (publisher `reason-machines/hermes-skills`). This is a different, larger suite from publisher `witt3rd/oh-my-hermes`.
 
 ---
 
@@ -140,7 +140,7 @@ hermes skills list | grep omh-
 ## Related
 
 - [Blueprint Orchestration - Multi-Agent Methodology](/hermes/skills/catalog/) - CorpusIQ's complementary multi-agent framework
-- [Oh-My-Hermes Workflow (aradotso) Setup](/hermes/skills/catalog/oh-my-hermes-workflow-setup/) - the separate aradotso-published workflow skill
+- [Oh-My-Hermes Workflow (reason-machines) Setup](/hermes/skills/catalog/oh-my-hermes-workflow-setup/) - the separate reason-machines-published workflow skill
 - [Agent Infrastructure catalog section](/hermes/skills/catalog/)
 
 *← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
