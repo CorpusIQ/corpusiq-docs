@@ -40,7 +40,7 @@ last_updated: 2026-09-11
 
 - **mcpservers.org:** LISTED - r.jina.ai proxy 200, "CorpusIQ MCP Server | Awesome MCP Servers"; direct curl 403 CF wall unchanged.
 - **glama.ai:** LISTED - 200, "corpusiq by CorpusIQ | Glama" on the canonical /mcp/servers/@corpusiq/corpusiq-docs slug.
-- **smithery.ai:** LISTED - registry ?q=corpusiq returns benoit-p/Cprusiq, displayName CorpusIQ, unlisted=false; no flap.
+- **smithery.ai:** LISTED - registry ?q=corpusiq returns Cprusiq, displayName CorpusIQ, unlisted=false; no flap.
 - **mcp.so:** NOT LISTED - SSR "No servers match" plus empty-state; quarantine holds, no resubmit.
 - **PulseMCP:** LISTED - r.jina.ai proxy 200, "Official CorpusIQ MCP Server | PulseMCP".
 
