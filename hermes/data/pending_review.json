@@ -60173,5 +60173,146 @@
     "near_duplicates": [],
     "discovered_at": "2026-09-12T07:02:57.965040+00:00",
     "status": "pending"
+  },
+  {
+    "name": "amirjundi/ettok-ai",
+    "url": "https://github.com/amirjundi/ettok-ai",
+    "description": "Ettok AI - hate speech monitoring agent for minority communities in Iraq. Built on Hermes Agent (Nous Research), MIT.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-12T08:02:38Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-12T08:02:47.721968+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "21stCenturyPharaoh/Hermes-Toth-Agent-",
+    "url": "https://github.com/21stCenturyPharaoh/Hermes-Toth-Agent-",
+    "description": "The Pharaoh Conglomerate's Diamond Standard Autonomous Synthetic Assets Eco-stewardship ",
+    "stars": 1,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [],
+    "updated_at": "2026-09-12T08:01:51Z",
+    "category": "core",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-12T08:02:50.725302+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "mhmudsaed/hermes-support-agent",
+    "url": "https://github.com/mhmudsaed/hermes-support-agent",
+    "description": "Bilingual (EN/AR) customer-support agent \u2014 cited answers from your own docs (RAG), low-confidence questions become structured human tickets.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "automation",
+      "python"
+    ],
+    "updated_at": "2026-09-12T07:59:15Z",
+    "category": "core",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-12T08:02:53.730278+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "fyctyf-5grfg/cloudflare-ai",
+    "url": "https://github.com/fyctyf-5grfg/cloudflare-ai",
+    "description": "Cloudflare Worker: chat AI on the hermes runtime (MCP tools + cf-proxy models), self-healing GHA runtime, persistent skills",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-09-12T07:32:06Z",
+    "category": "mcp",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills"
+    ],
+    "discovered_at": "2026-09-12T08:02:57.407781+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "NousResearch/hermes-plugin-touchdesigner",
+    "url": "https://github.com/NousResearch/hermes-plugin-touchdesigner",
+    "description": "Hermes Agent plugin: drive TouchDesigner via the twozero MCP server, with the touchdesigner-mcp skill bundled (Agent Plugins v1)",
+    "stars": 1,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-09-12T07:26:52Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-12T08:03:00.411023+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "nocoo/hermes-on-herdr",
+    "url": "https://github.com/nocoo/hermes-on-herdr",
+    "description": "\ud83d\udeaa Run Hermes in Herdr with optional monitoring",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "architecture",
+      "chinese-documentation",
+      "design-docs",
+      "gateway",
+      "herdr",
+      "hermes-agent",
+      "plugin"
+    ],
+    "updated_at": "2026-09-12T08:01:23Z",
+    "category": "forks",
+    "score": 42,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-12T08:03:04.739128+00:00",
+    "status": "pending"
   }
 ]
