@@ -14417,5 +14417,89 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-09-11T08:03:06.158291+00:00"
+  },
+  {
+    "repo": "magnus919/hermes-cashew",
+    "score": 57,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509341+00:00"
+  },
+  {
+    "repo": "tijs/local-model-bench",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509354+00:00"
+  },
+  {
+    "repo": "OxidantData/ctxlake",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509357+00:00"
+  },
+  {
+    "repo": "j5onrf/py-agent",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509359+00:00"
+  },
+  {
+    "repo": "kakyoka/cli_aae5e0cb05b81bd1",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509361+00:00"
+  },
+  {
+    "repo": "Goldlionren/xiaowu-local-agent-stack",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509363+00:00"
+  },
+  {
+    "repo": "HirogaKatageri/hirokata-hermes",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509365+00:00"
+  },
+  {
+    "repo": "emrgim/hirehop.skill",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509367+00:00"
+  },
+  {
+    "repo": "ptr1175-ui/hermes-webui",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509368+00:00"
+  },
+  {
+    "repo": "mgoldey/attestation",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509370+00:00"
+  },
+  {
+    "repo": "eaakun/hermes-agent-fork",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509372+00:00"
+  },
+  {
+    "repo": "eaakun/hermes-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-12T05:05:24.509373+00:00"
   }
 ]
