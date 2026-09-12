@@ -12,7 +12,15 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 12, 2026 (midday cron sweep) · **Sources:** mcp.so feed (30 blocks) + mcpservers.org /all page 1 via r.jina.ai reader proxy + chatmcp/mcpso issues #4083-#4085 · **Catalog:** 651 servers (+537 guides)
+> **Last updated:** September 12, 2026 (midday supplement) · **Sources:** mcp.so feed (16 blocks) + mcpservers.org /all page 1 via r.jina.ai reader proxy + chatmcp/mcpso issue #4086 · **Catalog:** 652 servers (+538 guides)
+
+## 🆕 September 12, 2026 - Midday Supplement (1 New, 1 Guide)
+
+Midday supplement over the mcp.so feed (16 server blocks), mcpservers.org /all page 1 via the r.jina.ai reader proxy (30 links batch-classified) and chatmcp/mcpso issue #4086 (the fresh window past the midday sweep's cutoff). One new business-relevant server catalogued with a guide: FormLM MCP (natural-language form, scoring-quiz and evaluation-report app builder - six layered tools plus six SKILL.md domain resources, npm @formlm/cli v0.2.1 verified, MIT).
+
+- [FormLM MCP - AI Form and Assessment Building for Agents](/hermes/mcp/servers/external/formlm-mcp/) · 6 tools + 6 resources, npm verified, MIT.
+
+**Also identified (not catalogued):** Zambo #4086 (agent task-execution infra - resubmission of an entry already disposed in the Sep 12 morning sweep), Gocosmik (MCP client listing with a one-line tagline - client-not-server class), PoYo.ai and APIMart (unified AI model API aggregators - UnificAlly class), Graphiti Local Memory (local temporal knowledge graph - agent memory class, Kontexta precedent), Ontology Atlas (codebase ontology dev tool), FlowSentry (SQL-injection security testing - dev infra class), blowsh-mcp (generic web search, fetch and crawl toolkit - saturated scraping class), license-sentinel (dependency license audit - dev tool class), chuckle (meme template lookup - consumer), DELTA Witness (detail page 404 - listing shell class), plus feed and /all repeats already catalogued (CraftStory, VerifyAPI, Pixelesq, Unicorn Screener, SocialBu, Coderbuds, iHatePosting, GoodLeads, Recordwire, MentionAgent, LocationLists, Mobile Text Alerts, ClauseAI) or previously disposed (SomaCheck Vibecheck, Midpoint Card Prices, TruVerifAI, OpenZiti x2, Nova Data, Roamzy, Prove AI, Onymu, SlateVM, MatPlotLibNet, orbylon, Playgama, snapInsta, Briefing Service, loudreader, Open Task Relay, failecho, redfox, Tribeunal, LEGAION, ilyautov family, bussin-mcp, UK Premises Licence, Browser Forest, Nimo, offgen.ai, Vectorize, TheQRCode.io, heliograph, shipi18n, infinitebacklog, AgentTrustLab, Knowledge for Agents, PDF to Markdown, Open Economics, Keeper.sh, Windframe, CQC, UK Taxi and England Works Watch family, Agent Control Agent Meter, SimFuse, ProofCore, Qotien, LEGAION Verifier).
 
 ## 🆕 September 12, 2026 - Midday Cron Sweep (3 New, 3 Guides)
 
@@ -5944,3 +5952,9 @@ Morning sweep sourced from the mcp.so feed (30 server blocks) and mcpservers.org
 - [InstantReply MCP - Instagram, WhatsApp and Messenger Inbox for Agents](/hermes/mcp/servers/external/instantreply-mcp/)
 
 Midday sweep sourced from the mcp.so feed (30 server blocks), mcpservers.org /all page 1 via the r.jina.ai reader proxy (26 slugs batch-classified) and chatmcp/mcpso issues #4083-#4085. 3 new business-relevant servers catalogued with guides: B2B Creators MCP (multi-profile LinkedIn content operations with client approval links and LinkedIn Ads reporting; endpoint live-probed, 401 auth gate), CraftStory MCP (talking-avatar and UGC video generation, ten documented tools, npm and MIT repo verified) and InstantReply MCP (Instagram, WhatsApp and Messenger inbox, 29 annotated tools and 11 prompts; npm verified).
+
+### 1 new server from mcp.so feed + mcpservers.org /all + chatmcp/mcpso issues - Sep 12, 2026 (midday supplement)
+
+- [FormLM MCP - AI Form and Assessment Building for Agents](/hermes/mcp/servers/external/formlm-mcp/)
+
+Midday supplement sourced from the mcp.so feed (16 server blocks), mcpservers.org /all page 1 via the r.jina.ai reader proxy and chatmcp/mcpso issue #4086. 1 new business-relevant server catalogued with a guide: FormLM MCP (natural-language form, quiz and assessment app builder with 6 MCP tools and 6 SKILL.md resources, npm @formlm/cli verified).
