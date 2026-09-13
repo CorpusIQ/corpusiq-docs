@@ -12,7 +12,21 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 12, 2026 (midday supplement) · **Sources:** mcp.so feed (16 blocks) + mcpservers.org /all page 1 via r.jina.ai reader proxy + chatmcp/mcpso issue #4086 · **Catalog:** 652 servers (+538 guides)
+> **Last updated:** September 12, 2026 (night) · **Sources:** mcp.so feed (30 blocks) + mcp.so homepage + mcpservers.org /all page 1 via r.jina.ai reader proxy (fresh 00:05 UTC crawl) + chatmcp/mcpso issues #4087-#4089 · **Catalog:** 659 servers (+545 guides)
+
+## 🆕 September 12, 2026 - Night Cron Sweep (7 New, 7 Guides)
+
+Night sweep over the mcp.so feed (30 server blocks, two fresh names past the midday cutoff - ux-jobs and a B2B Creators re-list), the mcp.so homepage recentServers (8 blocks, all repeats) and a fresh mcpservers.org /all page-1 crawl (00:05 UTC) via the r.jina.ai reader proxy. 7 new business-relevant servers catalogued with guides: Attensira MCP (AI-search visibility with 33 tools across 8 groups, OAuth or workspace key), StayingAPI MCP (cross-OTA accommodation data across Airbnb, Booking.com, Vrbo and Google Hotels, 7 read-only tools, OAuth 2.1 PKCE), stocks.team MCP (point-in-time SEC filing facts with provenance, 47 OpenAPI operations, local MCP adapter), 0xinsider MCP (real-time Polymarket trader analytics, 57 operations, remote endpoint plus npm stdio client), aiworker-data MCP (x402 pay-per-call data layer, 20 tools live-probed, $0.005-$1 per call), moysklad-mcp-ru (MoySklad Russian ERP with 32 tools over an 892-method catalogue, two-gate writes) and upCampo MCP (Brazilian farm management with permission-mapped themes and confirmed writes).
+
+- [Attensira MCP - AI-Search Visibility Data for Agents](/hermes/mcp/servers/external/attensira-mcp/) · 33 tools, 8 groups, OAuth 2.1 or workspace key.
+- [StayingAPI MCP - Cross-OTA Accommodation Data for Agents](/hermes/mcp/servers/external/stayingapi-mcp/) · 7 read-only tools, OAuth 2.1 PKCE, credit-based.
+- [stocks.team MCP - Point-in-Time SEC Filing Facts for Agents](/hermes/mcp/servers/external/stocks-team-mcp/) · 47 operations, local MCP adapter, from $9.99/mo.
+- [0xinsider MCP - Polymarket Trader Analytics for Agents](/hermes/mcp/servers/external/0xinsider-mcp/) · 57 operations, remote endpoint + npm stdio.
+- [aiworker-data MCP - x402 Pay-Per-Call Market Data for Agents](/hermes/mcp/servers/external/aiworker-data-mcp/) · 20 tools live-probed, USDC pay-per-call.
+- [moysklad-mcp-ru - MoySklad ERP Access for AI Agents](/hermes/mcp/servers/external/moysklad-mcp-ru/) · 32 tools, two-gate writes, uvx stdio.
+- [upCampo MCP - Farm Management Data for AI Agents](/hermes/mcp/servers/external/upcampo-mcp/) · permission-mapped themes, OAuth sign-in.
+
+**Also identified (not catalogued):** chatmcp/mcpso issues #4087-#4089 - VoyageHacks (consumer travel), OwnerSpec (consumer home water treatment) and Sato Hub (onchain agent-tooling index, agent-ecosystem infra class); ux-jobs (job-board consumer class, Theyond precedent); InvisibleAPI (social publishing - MCP endpoint and tool names not yet published, re-check next cycle); WhatsApp Shop Manager (no documentation available); plus utility/consumer classes from /all page 1 - ezpzfile, universal-host-manager, BackBond, ABAP ADT, agent-canary, Tallybook, yueying, MarkuprPlus, Dasha Compute, Omni Flash, Picmovi, Ninjachat, SayLive, DiscFinder, Quran Majeed.
 
 ## 🆕 September 12, 2026 - Midday Supplement (1 New, 1 Guide)
 
@@ -5958,3 +5972,15 @@ Midday sweep sourced from the mcp.so feed (30 server blocks), mcpservers.org /al
 - [FormLM MCP - AI Form and Assessment Building for Agents](/hermes/mcp/servers/external/formlm-mcp/)
 
 Midday supplement sourced from the mcp.so feed (16 server blocks), mcpservers.org /all page 1 via the r.jina.ai reader proxy and chatmcp/mcpso issue #4086. 1 new business-relevant server catalogued with a guide: FormLM MCP (natural-language form, quiz and assessment app builder with 6 MCP tools and 6 SKILL.md resources, npm @formlm/cli verified).
+
+### 7 new servers from mcp.so feed + mcpservers.org /all - Sep 12, 2026 (night cron sweep)
+
+- [Attensira MCP - AI-Search Visibility Data for Agents](/hermes/mcp/servers/external/attensira-mcp/)
+- [StayingAPI MCP - Cross-OTA Accommodation Data for Agents](/hermes/mcp/servers/external/stayingapi-mcp/)
+- [stocks.team MCP - Point-in-Time SEC Filing Facts for Agents](/hermes/mcp/servers/external/stocks-team-mcp/)
+- [0xinsider MCP - Polymarket Trader Analytics for Agents](/hermes/mcp/servers/external/0xinsider-mcp/)
+- [aiworker-data MCP - x402 Pay-Per-Call Market Data for Agents](/hermes/mcp/servers/external/aiworker-data-mcp/)
+- [moysklad-mcp-ru - MoySklad ERP Access for AI Agents](/hermes/mcp/servers/external/moysklad-mcp-ru/)
+- [upCampo MCP - Farm Management Data for AI Agents](/hermes/mcp/servers/external/upcampo-mcp/)
+
+Night sweep sourced from the mcp.so feed (30 server blocks), the mcp.so homepage recentServers (all repeats) and a fresh mcpservers.org /all page-1 crawl (00:05 UTC) via the r.jina.ai reader proxy. 7 new business-relevant servers catalogued with guides: Attensira MCP (33-tool AI-search visibility, vendor-documented tool names), StayingAPI MCP (7 documented read-only tools, OAuth 2.1 PKCE), stocks.team MCP (47 OpenAPI operations, local MCP adapter), 0xinsider MCP (57 operations from the published OpenAPI contract), aiworker-data MCP (20 tools live-probed over JSON-RPC, x402 pay-per-call), moysklad-mcp-ru (32 tools, MIT repo pushed 2026-09-12) and upCampo MCP (capability-level, permission-mapped themes). chatmcp/mcpso issues #4087-#4089 reviewed and disposed.
