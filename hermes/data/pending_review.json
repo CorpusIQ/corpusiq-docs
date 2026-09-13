@@ -60642,5 +60642,111 @@
     "near_duplicates": [],
     "discovered_at": "2026-09-13T05:04:17.864148+00:00",
     "status": "pending"
+  },
+  {
+    "name": "Abderrahm7167/hermes-ui",
+    "url": "https://github.com/Abderrahm7167/hermes-ui",
+    "description": "Control Hermes Agent with a single-file React UI for chat, file browsing, skill management, logs, and memory inspection",
+    "stars": 2,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "ai",
+      "ai-assistant",
+      "ai-workspace",
+      "chat-ui",
+      "claude",
+      "e2e-encryption",
+      "fastapi",
+      "glassmorphism",
+      "hermes",
+      "llm",
+      "multi-model",
+      "multi-platform",
+      "ollama",
+      "openclaw",
+      "pwa",
+      "single-file",
+      "slack-bot",
+      "tailscale",
+      "web-ui",
+      "webui"
+    ],
+    "updated_at": "2026-09-13T06:00:10Z",
+    "category": "core",
+    "score": 53,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "Sibyl-Labs/Sibyl-Memory",
+      "itechmeat/open-second-brain",
+      "ahonore42/logios-brain",
+      "Boatsure/PaperDigest",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-09-13T06:02:09.650258+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SamuelHerrera/hermes-agent",
+    "url": "https://github.com/SamuelHerrera/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-13T06:02:29Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-09-13T06:02:32.657143+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "tengso/triflection-team-builder",
+    "url": "https://github.com/tengso/triflection-team-builder",
+    "description": "Linux Buzz communities managed by Chief of Agents, with prebuilt Buzz and Hermes runtimes",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-13T06:02:15Z",
+    "category": "forks",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-13T06:02:35.660359+00:00",
+    "status": "pending"
   }
 ]
