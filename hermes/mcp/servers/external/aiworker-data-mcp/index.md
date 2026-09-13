@@ -86,7 +86,7 @@ No keys anywhere. The client handles payment; the health endpoint and all docume
 
 ## Integration with CorpusIQ
 
-aiworker-data is a pay-per-call external evidence service that complements CorpusIQ's subscription model: a CorpusIQ agent can spend cents on `news_search` and `social_mentions` when a report needs external market context, while all first-party business data stays in the CorpusIQ connectors. The x402 pattern also demonstrates the no-key model CorpusIQ could offer for metered external data in future.
+aiworker-data is a pay-per-call external evidence service that complements CorpusIQ's subscription model: a CorpusIQ agent can spend cents on `news_search` and `social_mentions` when a report needs external market context, while first-party business data continues to flow through the CorpusIQ connectors. The x402 pattern also demonstrates the no-key model CorpusIQ could offer for metered external data in future.
 
 ## Limitations
 
