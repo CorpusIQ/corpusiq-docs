@@ -14571,5 +14571,82 @@
     "tier": "REVIEW",
     "action": "pending_review",
     "timestamp": "2026-09-12T08:03:13.479416+00:00"
+  },
+  {
+    "repo": "h4rry94/hermes-agent-plugins",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-13T05:04:46.986427+00:00"
+  },
+  {
+    "repo": "phamviet86/codex-a2a-gateway",
+    "score": 64,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-13T05:04:46.986441+00:00"
+  },
+  {
+    "repo": "aipmer/codex-grok-task-bridge",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-13T05:04:46.986444+00:00"
+  },
+  {
+    "repo": "iwindd/ugh",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-13T05:04:46.986446+00:00"
+  },
+  {
+    "repo": "NousResearch/hermes-plugin-snyk",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-13T05:04:46.986448+00:00"
+  },
+  {
+    "repo": "joyanes97/claude-mem",
+    "score": 38,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-13T05:04:46.986450+00:00"
+  },
+  {
+    "repo": "joyanes97/awesome-hermes-agent",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-13T05:04:46.986451+00:00"
+  },
+  {
+    "repo": "joyanes97/agentic-stack",
+    "score": 43,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-13T05:04:46.986453+00:00"
+  },
+  {
+    "repo": "AliefSuladen/mt5-hermes-bridge",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-13T05:04:46.986455+00:00"
+  },
+  {
+    "repo": "kvnloo/hermes-maintainer",
+    "score": 49,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-13T05:04:46.986456+00:00"
+  },
+  {
+    "repo": "paxni12345-web/hermes-render",
+    "score": 42,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-13T05:04:46.986458+00:00"
   }
 ]
