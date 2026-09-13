@@ -60748,5 +60748,161 @@
     "near_duplicates": [],
     "discovered_at": "2026-09-13T06:02:35.660359+00:00",
     "status": "pending"
+  },
+  {
+    "name": "cameronbiggelaar-rgb/llm-smart-router",
+    "url": "https://github.com/cameronbiggelaar-rgb/llm-smart-router",
+    "description": "Data-driven LLM model router for Hermes Agent \u2014 routes tasks to the cheapest capable model, handles rate limits with exponential backoff, circuit breaker, and graceful degradation to local models.",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-13T07:02:50Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "awizemann/scarf",
+      "Romanescu11/hermes-skill-factory",
+      "unmodeled-tyler/vessel-browser",
+      "Sibyl-Labs/Sibyl-Memory",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "mlennie/hermes-mcp",
+      "ksimback/hermes-atlas-mcp",
+      "kaankacar/stellar-agent-kit",
+      "zakahadi/llm-eval-cli",
+      "Bo1202/Aivy-OS",
+      "hermes-ecosystem",
+      "ksimback/hermes-ecosystem",
+      "ruvnet/metaharness",
+      "PatterAI/Patter",
+      "pyrate-llama/hermes-ui",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-09-13T07:03:06.349479+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "handsongice/vibe-rules",
+    "url": "https://github.com/handsongice/vibe-rules",
+    "description": "\u8de8 coding agent\uff08Claude Code/Codex/Cursor/Qoder/Trae/CodeBuddy/Hermes/Kimi/DeepSeek Harness \u7b49\uff09\u5171\u7528\u7684 vibecoding \u89c4\u8303\u5e93\uff0c\u4e00\u6b21\u63a5\u5165\u5168\u5de5\u5177\u751f\u6548\uff0c\u652f\u6301 macOS/Linux/Windows",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [
+      "agent-rules",
+      "agents-md",
+      "ai-coding",
+      "claude-code",
+      "coding-agent",
+      "cursor",
+      "qoder",
+      "rules",
+      "trae",
+      "vibecoding"
+    ],
+    "updated_at": "2026-09-13T07:01:26Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-13T07:03:09.352067+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "egak09/hermes-skills",
+    "url": "https://github.com/egak09/hermes-skills",
+    "description": "\u7136\u7136 (Hermes Agent) \u7684\u6280\u80fd\u5e93\u4e0e\u5b66\u4e60\u8bb0\u5f55 \u2014 Paradigme's AI assistant skill repository",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-13T07:01:07Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "ZeroPointRepo/awesome-hermes-skills",
+      "Undermybelt/hermes-skills-research",
+      "BBridgeers/hermes-skills"
+    ],
+    "discovered_at": "2026-09-13T07:03:12.354210+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Aevonix/PacoMind",
+    "url": "https://github.com/Aevonix/PacoMind",
+    "description": "Persistent Autonomous Cognitive Orchestration: memory, identity and autonomy for Hermes agents.",
+    "stars": 3,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-memory",
+      "hermes-agent",
+      "local-ai",
+      "persistent-agents",
+      "pseudo-agi"
+    ],
+    "updated_at": "2026-09-13T06:59:53Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-13T07:03:15.356785+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "NotRllyRn/index-hermes-bridge",
+    "url": "https://github.com/NotRllyRn/index-hermes-bridge",
+    "description": "A lightweight MCP bridge that sends Pebble Index requests to Hermes through Discord and returns Hermes responses to Index.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Go",
+    "topics": [
+      "discord",
+      "golang",
+      "hermes-agent",
+      "index-01",
+      "mcp",
+      "pebble",
+      "pebble-index",
+      "tailscale"
+    ],
+    "updated_at": "2026-09-13T07:03:00Z",
+    "category": "mcp",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "unmodeled-tyler/vessel-browser",
+      "mlennie/hermes-mcp"
+    ],
+    "discovered_at": "2026-09-13T07:03:24.976307+00:00",
+    "status": "pending"
   }
 ]
