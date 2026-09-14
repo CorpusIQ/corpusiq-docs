@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-09-12"
+last_updated: "2026-09-14"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,20 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 12, 2026 (night) · **Sources:** mcp.so feed (30 blocks) + mcp.so homepage + mcpservers.org /all page 1 via r.jina.ai reader proxy (fresh 00:05 UTC crawl) + chatmcp/mcpso issues #4087-#4089 · **Catalog:** 659 servers (+545 guides)
+> **Last updated:** September 14, 2026 (midday) · **Sources:** mcp.so feed (30 blocks via the r.jina.ai reader proxy) + chatmcp/mcpso issues #4090-#4134 + mcpservers.org /all page 1 via the r.jina.ai reader proxy · **Catalog:** 665 servers (+551 guides)
+
+## 🆕 September 14, 2026 - Midday Cron Sweep (6 New, 6 Guides)
+
+First sweep after the September 13-14 fleet network outage (~31.7h offline; host rebooted 09:30 MST). Midday sweep over the mcp.so feed (30 server blocks via the r.jina.ai reader proxy), chatmcp/mcpso issues #4090-#4134 (the fresh window past the night sweep's #4089 cutoff) and a fresh mcpservers.org /all page-1 crawl via the r.jina.ai reader proxy. 6 new business-relevant servers catalogued with guides, five endpoints live-probed over JSON-RPC: Statable MCP (EU cookieless web analytics, 25 tools over OAuth, endpoint 401-verified), Day Off MCP (PTO and time tracking for 50,000+ companies, 401-verified), Gambot MCP (77 tools for the WhatsApp Business API across messaging, CRM and campaigns, npm package and MIT repo verified), Radicado Uno MCP (Colombian company due diligence, 6 source-linked tools, 401-verified), Statiko MCP (10 read-only Telegram channel intelligence tools, initialize and tools/list open) and Hilead MCP (signal-based B2B prospecting with read-focused OAuth scopes, 401-verified).
+
+- [Statable MCP - Cookieless Web Analytics for Agents](/hermes/mcp/servers/external/statable-mcp/) · 25 tools, OAuth, EU-hosted, 401-verified live.
+- [Day Off MCP - PTO and Time Tracking for Agents](/hermes/mcp/servers/external/day-off-mcp/) · leave, attendance, timesheets, OAuth, 401-verified live.
+- [Gambot MCP - WhatsApp Business Messaging and CRM for Agents](/hermes/mcp/servers/external/gambot-mcp/) · 77 tools, campaigns, CRM, npm and MIT verified.
+- [Radicado Uno MCP - Colombian Company Due Diligence for Agents](/hermes/mcp/servers/external/radicado-uno-mcp/) · 6 tools, SECOP II + RUES + OFAC, bearer key.
+- [Statiko MCP - Telegram Channel Intelligence for Agents](/hermes/mcp/servers/external/statiko-mcp/) · 10 read-only tools, OAuth, Pro from $20/mo.
+- [Hilead MCP - Signal-Based B2B Prospecting for Agents](/hermes/mcp/servers/external/hilead-mcp/) · OAuth 2.1, signal-led leads, from $49/mo.
+
+**Also identified (not catalogued):** fax-plus (Fax.Plus fax send/receive - comms utility), vokse (household budgeting - consumer personal finance), Visual Sandbox (multi-model media generation), PIL (personal Instagram library), SenseFold (personal Markdown memory), Innovalyxx Sovereign Edge (x402 cyber-physical tools, client-listing class), eSIMfly MCP (eSIM business API - communication utility, npm @esimfly/mcp present); from the fresh issue window - AnkusDrive #4090 (FreeCAD 280+ tool CAD suite), Hicortex #4091 (agent fleet memory), design.60fps #4092 (iOS motion library), inferenceindexer #4093 (inference pricing - FinOps/dev), HiringIndex #4094 (job postings from thirteen ATS boards - jobs class, OpenHire sibling), Apify Public Data Scrapers #4095 (Apify family covered), FractalAI #4096 (post-quantum x402 proofs - crypto), EmpirioLabs #4097 (live endpoint, product surface not yet documented - thin docs), snapmcp #4098 (visual captures - dev utility), Dasha Compute #4100 (prior disposition), Utuh watcher #4102 (thin utility), Fee Optimizer #4103 (crypto venue fees), SmartTokenGuard #4104 (AI video credit guard), Microburbs #4126 (Australian property data - geo niche), AssetFare #4127 (crypto routing), Penniless Data Utilities #4128 (x402 tooling), Przypominamy #4129 (Polish SMS/voice - geo niche), mcptask.online #4130 (agent dev infra), OutfitMaker #4131 (consumer), JetAPI #4132 (multi-channel messaging gateway), benchmark fixture #4133, Tegas #4134 (AI video shorts), and the HasData per-connector family #4115-#4125 (covered by the HasData 57-API family guide); plus /all page-1 utility/dev shells (paged-website-upload, anew, GPT Image 2.5, Fidelis local memory, crossplane, statsnet, apify-scrapers, browsermcp, melbis, aria-icons, eaglevirtual, eigma, maxion, data-olympus, gadak-dev, the mcginnis OSS-tool family, captionpipe, paxaver, xfinlab, movie-planner) and feed repeats already catalogued or previously disposed (B2B Creators, CraftStory, LandLens One, Draxlr, RedReplier, Recordwire, VerifyAPI, Mobile Text Alerts, SomaCheck, Midpoint Card Prices, Tribeunal, TruVerifAI, UmmahAPI, SimFuse, UX Jobs, NinjaChat).
 
 ## 🆕 September 12, 2026 - Night Cron Sweep (7 New, 7 Guides)
 
@@ -5984,3 +5997,15 @@ Midday supplement sourced from the mcp.so feed (16 server blocks), mcpservers.or
 - [upCampo MCP - Farm Management Data for AI Agents](/hermes/mcp/servers/external/upcampo-mcp/)
 
 Night sweep sourced from the mcp.so feed (30 server blocks), the mcp.so homepage recentServers (all repeats) and a fresh mcpservers.org /all page-1 crawl (00:05 UTC) via the r.jina.ai reader proxy. 7 new business-relevant servers catalogued with guides: Attensira MCP (33-tool AI-search visibility, vendor-documented tool names), StayingAPI MCP (7 documented read-only tools, OAuth 2.1 PKCE), stocks.team MCP (47 OpenAPI operations, local MCP adapter), 0xinsider MCP (57 operations from the published OpenAPI contract), aiworker-data MCP (20 tools live-probed over JSON-RPC, x402 pay-per-call), moysklad-mcp-ru (32 tools, MIT repo pushed 2026-09-12) and upCampo MCP (capability-level, permission-mapped themes). chatmcp/mcpso issues #4087-#4089 reviewed and disposed.
+
+### 6 new servers from mcp.so feed + mcpservers.org /all + chatmcp/mcpso issues - Sep 14, 2026 (midday cron sweep)
+
+- [Statable MCP - Cookieless Web Analytics for Agents](/hermes/mcp/servers/external/statable-mcp/)
+- [Day Off MCP - PTO and Time Tracking for Agents](/hermes/mcp/servers/external/day-off-mcp/)
+- [Gambot MCP - WhatsApp Business Messaging and CRM for Agents](/hermes/mcp/servers/external/gambot-mcp/)
+- [Radicado Uno MCP - Colombian Company Due Diligence for Agents](/hermes/mcp/servers/external/radicado-uno-mcp/)
+- [Statiko MCP - Telegram Channel Intelligence for Agents](/hermes/mcp/servers/external/statiko-mcp/)
+- [Hilead MCP - Signal-Based B2B Prospecting for Agents](/hermes/mcp/servers/external/hilead-mcp/)
+
+First sweep after the Sep 13-14 network outage. Midday sweep sourced from the mcp.so feed (30 server blocks via the r.jina.ai reader proxy), chatmcp/mcpso issues #4090-#4134 and a fresh mcpservers.org /all page-1 crawl, 6 new business-relevant servers catalogued with guides: Statable MCP (25-tool EU cookieless web analytics, 401-verified endpoint), Day Off MCP (PTO and time tracking, 401-verified), Gambot MCP (77-tool WhatsApp Business messaging and CRM, npm verified), Radicado Uno MCP (Colombian company due diligence, 6 tools, 401-verified), Statiko MCP (Telegram channel intelligence, 10 read-only tools, open initialize) and Hilead MCP (signal-based B2B prospecting, 401-verified).
+
