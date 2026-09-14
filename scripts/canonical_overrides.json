@@ -1,9 +1,11 @@
 {
-  "_comment": "Per-page canonical overrides applied post-build by scripts/deploy_docs.py (step 3b-iii). Purpose: canonicalize docs-site commercial duplicates onto their marketing counterparts so ranking signals consolidate on the commercial pages. Keys are paths relative to site/. Values are the absolute canonical URL to enforce. See data/research/viktor-seo-decision-2026-09-14.md for the measured rationale.",
+  "_comment": "Per-page canonical overrides applied post-build by scripts/deploy_docs.py (step 3b-iii). Purpose: canonicalize docs-site commercial duplicates onto their marketing counterparts so ranking signals consolidate on the commercial pages. Keys are paths relative to site/. Values are the absolute canonical URL to enforce. Targets aligned to the measured-demand surfaces (Sep 14 GSC audit: /alternatives/ carries vendor demand on all four vendors; /connectors is the commercial head-term pool). See data/research/viktor-seo-decision-2026-09-14.md for the measured rationale.",
   "overrides": {
     "connectors/index.html": "https://www.corpusiq.io/connectors",
     "connectors/windsor-ai-alternative/index.html": "https://www.corpusiq.io/alternatives/windsor-ai",
-    "hermes/compare/corpusiq-vs-coupler-io/index.html": "https://www.corpusiq.io/compare/corpusiq-vs-coupler-io",
-    "hermes/compare/corpusiq-vs-funnel-io/index.html": "https://www.corpusiq.io/compare/corpusiq-vs-funnel-io"
+    "hermes/compare/corpusiq-vs-coupler-io/index.html": "https://www.corpusiq.io/alternatives/coupler-io",
+    "hermes/compare/corpusiq-vs-funnel-io/index.html": "https://www.corpusiq.io/alternatives/funnel-io",
+    "corpusiq-vs-supermetrics/index.html": "https://www.corpusiq.io/alternatives/supermetrics",
+    "best-ai-data-connector/index.html": "https://www.corpusiq.io/connectors"
   }
 }
