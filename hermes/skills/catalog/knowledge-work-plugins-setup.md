@@ -5,7 +5,6 @@ canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/knowledge-work-pl
 robots: "index,follow"
 last_updated: "2026-08-12"
 tags: ["hermes skill", "agent skill", "skill setup"]
-
 ---
 
 # Knowledge Work Plugins - Setup Guide
