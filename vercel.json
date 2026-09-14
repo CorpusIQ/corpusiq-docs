@@ -3,6 +3,21 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/connectors.html",
+      "destination": "/connectors",
+      "statusCode": 301
+    },
+    {
+      "source": "/best-ai-data-connector.html",
+      "destination": "/best-ai-data-connector",
+      "statusCode": 301
+    },
+    {
+      "source": "/corpusiq-vs-supermetrics.html",
+      "destination": "https://www.corpusiq.io/compare/corpusiq-vs-supermetrics",
+      "statusCode": 301
+    },
+    {
       "source": "/hermes/actualyze-discovery",
       "destination": "/hermes/mcp/actualyze-discovery/",
       "statusCode": 301

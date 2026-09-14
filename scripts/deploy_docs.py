@@ -171,6 +171,35 @@ def main():
                 f.write(new)
     print(f"   Links normalized ({link_count})")
 
+    # 3b-iii: canonical overrides - docs commercial duplicates point their
+    #        canonical at the marketing counterpart so ranking signals
+    #        consolidate on the commercial pages. Map lives in
+    #        scripts/canonical_overrides.json; applied HERE so the 3c gate
+    #        sees the final values. See data/research/viktor-seo-decision-2026-09-14.md
+    ov_path = os.path.join(REPO_DIR, "scripts", "canonical_overrides.json")
+    if os.path.exists(ov_path):
+        with open(ov_path, encoding="utf-8") as f:
+            overrides = json.load(f).get("overrides", {})
+        ov_count = 0
+        for rel, target in overrides.items():
+            p = os.path.join(REPO_DIR, "site", rel)
+            if not os.path.exists(p):
+                print(f"   [warn] canonical override target missing: {rel}")
+                continue
+            with open(p, encoding="utf-8") as f:
+                text = f.read()
+            new = _re.sub(
+                r'<link rel="canonical" href="[^"]+">',
+                f'<link rel="canonical" href="{target}">',
+                text,
+                count=1,
+            )
+            if new != text:
+                with open(p, "w", encoding="utf-8") as f:
+                    f.write(new)
+                ov_count += 1
+        print(f"   Canonical overrides applied ({ov_count}/{len(overrides)})")
+
     # 3c. VERIFY no-slash invariants - hard fail BEFORE any deploy (guard added
     #     Aug 26 after health score 30 regression: duplicate slashed canonicals
     #     + slashed sitemap/feeds shipped twice). A build that violates any
