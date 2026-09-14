@@ -82,8 +82,22 @@ def main():
     print("1. Pulling main...")
     # Generated feed files may be dirty from a previous partial run — discard so pull can rebase
     run("git checkout -- llms.txt llms-full.txt")
+    # Clear any stale rebase/merge state left by an interrupted previous attempt -
+    # a half-finished rebase makes checkout/pull behave unpredictably.
+    run("git rebase --abort 2>/dev/null; git merge --abort 2>/dev/null; true")
     run("git checkout main", fatal=True)
-    run("git pull --rebase origin main", fatal=True)
+    # Resilient pull (Sep 14): this clone exists only to deploy and holds no unique
+    # work; a failed rebase used to abort the whole deploy (e.g. 7AM cron dead until
+    # re-run). If pull --rebase cannot replay local commits (stale PR-style commits,
+    # dirty refs, interrupted rebase), hard-reset the clone to origin/main and
+    # continue. Previous state is preserved on the auto/reset-backup branch.
+    pull_out = run("git pull --rebase origin main")
+    if "could not apply" in pull_out or "CONFLICT" in pull_out or "cannot pull with rebase" in pull_out:
+        print("   pull --rebase failed; resetting deploy clone to origin/main (backup: auto/reset-backup)")
+        run("git rebase --abort")
+        run("git branch -f auto/reset-backup HEAD")
+        run("git fetch origin main")
+        run("git reset --hard origin/main")
     # 1b. Re-exec self after pull so the RUNNING code is the freshly-pulled
     #     version (the script loads before step 1, so without this every deploy
     #     runs the PREVIOUS commit's deploy script (the Aug 26 verify-gate
