@@ -4,12 +4,12 @@
   "redirects": [
     {
       "source": "/connectors.html",
-      "destination": "/connectors",
+      "destination": "https://www.corpusiq.io/connectors",
       "statusCode": 301
     },
     {
       "source": "/best-ai-data-connector.html",
-      "destination": "/best-ai-data-connector",
+      "destination": "https://www.corpusiq.io/docs/best-ai-data-connector",
       "statusCode": 301
     },
     {
