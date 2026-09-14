@@ -264,21 +264,32 @@ def main():
         run(f"git -C {wt} fetch origin gh-pages")
         run(f"git -C {wt} reset --hard origin/gh-pages")
     else:
-        run(f"git worktree add {wt} gh-pages", fatal=True)
+        # Stale worktree registrations are recurring (Sep 14, 2026): prune first,
+        # and never abort production for the legacy backup path - Vercel is the
+        # production deploy.
+        run("git worktree prune")
+        r = subprocess.run(f"git worktree add -f {wt} gh-pages", shell=True, cwd=REPO_DIR,
+                           capture_output=True, text=True)
+        if r.returncode != 0:
+            print(f"   [warn] gh-pages worktree unavailable - skipping legacy backup: "
+                  f"{(r.stdout + r.stderr).strip()[:160]}")
 
-    # Clear old content, copy new build
-    run(f"cd {wt} && find . -not -path './.git*' -not -name '.git' -delete")
-    run(f"cp -r {REPO_DIR}/site/. {wt}/")
-    # GEO feeds at site root
-    run(f"cp {REPO_DIR}/llms.txt {REPO_DIR}/llms-full.txt {wt}/")
-    run(f"touch {wt}/.nojekyll")
+    if os.path.exists(os.path.join(wt, ".git")):
+        # Clear old content, copy new build
+        run(f"cd {wt} && find . -not -path './.git*' -not -name '.git' -delete")
+        run(f"cp -r {REPO_DIR}/site/. {wt}/")
+        # GEO feeds at site root
+        run(f"cp {REPO_DIR}/llms.txt {REPO_DIR}/llms-full.txt {wt}/")
+        run(f"touch {wt}/.nojekyll")
 
-    # Commit
-    sha = run("git rev-parse HEAD").strip()[:8]
-    if not commit_msg:
-        commit_msg = f"Deployed {sha} with MkDocs version: 1.6.1 - manual legacy deploy"
-    run(f"cd {wt} && git add -A && git commit -m '{commit_msg}'")
-    run(f"cd {wt} && git push origin gh-pages")
+        # Commit
+        sha = run("git rev-parse HEAD").strip()[:8]
+        if not commit_msg:
+            commit_msg = f"Deployed {sha} with MkDocs version: 1.6.1 - manual legacy deploy"
+        run(f"cd {wt} && git add -A && git commit -m '{commit_msg}'")
+        run(f"cd {wt} && git push origin gh-pages")
+    else:
+        print("   gh-pages backup skipped (worktree unavailable)")
     print("4b. Deploying to Vercel...")
     deploy_vercel()
 
