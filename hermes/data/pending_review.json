@@ -61468,5 +61468,186 @@
     "near_duplicates": [],
     "discovered_at": "2026-09-15T05:04:26.012584+00:00",
     "status": "pending"
+  },
+  {
+    "name": "madbikernc/HermesAgentV5",
+    "url": "https://github.com/madbikernc/HermesAgentV5",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-15T06:00:39Z",
+    "category": "core",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-15T06:02:06.304507+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "claude-elwood-shannon/hermes-plugin-quota-governor",
+    "url": "https://github.com/claude-elwood-shannon/hermes-plugin-quota-governor",
+    "description": "Hermes Agent plugin: quota-aware self-governance for autonomous agents \u2014 observe/decide/act, per-model cost ledger, real measurements",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "cost-tracking",
+      "hermes-agent",
+      "multi-agent",
+      "observability",
+      "quota-management"
+    ],
+    "updated_at": "2026-09-15T06:00:15Z",
+    "category": "core",
+    "score": 49,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "agentchatme/agentchat-hermes"
+    ],
+    "discovered_at": "2026-09-15T06:02:09.307976+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "bhpark1013/rn-find",
+    "url": "https://github.com/bhpark1013/rn-find",
+    "description": "Find and tap React Native elements by visible text through Metro's Hermes inspector. No testIDs, no in-app SDK, no MCP server.",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agents",
+      "automation",
+      "expo",
+      "hermes",
+      "idb",
+      "ios-simulator",
+      "metro",
+      "react-native"
+    ],
+    "updated_at": "2026-09-15T05:56:55Z",
+    "category": "mcp",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-15T06:02:19.002874+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ystartgo/portable-hermes-agent",
+    "url": "https://github.com/ystartgo/portable-hermes-agent",
+    "description": "Hermes Agent made portable desktop for Windows \u2014 100 tools, GUI, local models via LM Studio, TTS, Music, ComfyUI, workflows, tool maker. No install. No Docker. No admin rights.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-15T06:02:09Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "colbymchenry/codegraph",
+      "zakahadi/llm-eval-cli",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-09-15T06:02:35.262585+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "tripplen23/hermes-agent",
+    "url": "https://github.com/tripplen23/hermes-agent",
+    "description": "The agent that grows with you",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-15T06:01:44Z",
+    "category": "forks",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "NousResearch/hermes-agent",
+      "alchaincyf/hermes-agent-orange-book",
+      "NousResearch/hermes-agent-self-evolution",
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "longyunfeigu/learn-hermes-agent",
+      "mudrii/hermes-agent-docs",
+      "aiunlocked1412/hermes-agent-pixel",
+      "Panoramar8046/hermes-agent-metaharness",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent",
+      "aivrar/portable-hermes-agent"
+    ],
+    "discovered_at": "2026-09-15T06:02:38.266653+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "hew/hermes-autonomous-stack",
+    "url": "https://github.com/hew/hermes-autonomous-stack",
+    "description": "Production-grade architecture for autonomous Hermes agents: machine-to-machine liquidity, FastMCP tool routing, sandboxed execution, memory synchronization, and self-sovereign state.",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-09-15T05:14:13Z",
+    "category": "production",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-15T06:03:41.060063+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Hellommg/argos-agent",
+    "url": "https://github.com/Hellommg/argos-agent",
+    "description": "Argos Agent \u2014 rebrand of NousResearch/hermes-agent (initial import for rebrand work).",
+    "stars": 0,
+    "forks": 0,
+    "language": null,
+    "topics": [],
+    "updated_at": "2026-09-14T20:56:02Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-15T06:04:03.661134+00:00",
+    "status": "pending"
   }
 ]
