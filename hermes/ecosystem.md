@@ -1551,6 +1551,32 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
+### Benoit 96-finds digest assessment (2026-09-15)
+
+Verdicts from the "Finds for you - 96 new (93 must-see)" digest, per founder directive "assess which one you need and install":
+
+**ADOPTED (installed as corpusiq skills):**
+- [sushegaad/claude-skills-governance-risk-and-compliance](https://github.com/sushegaad/claude-skills-governance-risk-and-compliance) ⭐ 898 — 36 GRC skills (SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, NIST CSF + 30 more), MIT, 89% benchmarked. Folded into the `corpusiq-grc-compliance` skill (enterprise-sales blocker).
+- [obra/superpowers](https://github.com/obra/superpowers) ⭐ 287,077 — agentic dev methodology. `verification-before-completion` + `systematic-debugging` folded into the `corpusiq-verification-discipline` skill.
+
+**PARTIAL ADOPT:**
+- [affaan-m/ecc](https://github.com/affaan-m/ecc) ⭐ 259,082 — agent harness OS; core (gortex) already installed machine-wide. Harness patterns under evaluation for agent-optimization docs.
+- [anthropics/skills](https://github.com/anthropics/skills) ⭐ 176,477 — official Agent Skills repo; skill-authoring patterns under review against skill-library-curation.
+
+**ALREADY INTEGRATED:**
+- [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) ⭐ 245,810 — our own stack.
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐ 180,783 — already wired as the web-extraction backend.
+
+**WATCH:**
+- [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) ⭐ 225,224 — vendor harness (plugins); revisit when model routing expands.
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ 204,392 — workflow automation; product-adjacent, no local install.
+- [mrtooher/fable-mode](https://github.com/mrtooher/fable-mode) ⭐ 861 — planning discipline; overlaps audit-ready-agent-loop; pattern-mine queued.
+- [rampstackco/claude-skills](https://github.com/rampstackco/claude-skills) ⭐ 867 — website-lifecycle skills; content/SEO patterns fold queued.
+
+**SKIP:** snailclimb/javaguide (Chinese Java interview guide — off-mission).
+
+---
+
 *183+ repositories in the Hermes ecosystem. Last updated: 2026-09-15. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
