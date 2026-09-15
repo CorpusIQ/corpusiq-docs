@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="150-tool keyless MCP server for US federal + state/local government contracting, spending, regulation, and partner vetting. SAM.gov, USAspending">
+        <meta name="description" content="152-tool keyless-first MCP server for US federal + state/local government contracting, spending, regulation, and partner vetting. SAM.gov, USAspending">
       
       
       
@@ -72,13 +72,13 @@
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/mcp/servers/external/sam-gov-mcp">
   <meta property="og:site_name" content="CorpusIQ Docs">
   <meta property="og:title" content="mcp-sam-gov - US Government Contracting MCP Server">
-  <meta property="og:description" content="150-tool keyless MCP server for US federal + state/local government contracting, spending, regulation, and partner vetting. SAM.gov, USAspending">
+  <meta property="og:description" content="152-tool keyless-first MCP server for US federal + state/local government contracting, spending, regulation, and partner vetting. SAM.gov, USAspending">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="mcp-sam-gov - US Government Contracting MCP Server">
-  <meta name="twitter:description" content="150-tool keyless MCP server for US federal + state/local government contracting, spending, regulation, and partner vetting. SAM.gov, USAspending">
+  <meta name="twitter:description" content="152-tool keyless-first MCP server for US federal + state/local government contracting, spending, regulation, and partner vetting. SAM.gov, USAspending">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
   <script type="application/ld+json">
@@ -108,11 +108,11 @@
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "mcp-sam-gov - US Government Contracting MCP Server",
-    "description": "150-tool keyless MCP server for US federal + state/local government contracting, spending, regulation, and partner vetting. SAM.gov, USAspending",
+    "description": "152-tool keyless-first MCP server for US federal + state/local government contracting, spending, regulation, and partner vetting. SAM.gov, USAspending",
     "url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/sam-gov-mcp",
     
-    "datePublished": "2026-07-20",
-    "dateModified": "2026-07-20",
+    "datePublished": "2026-09-15",
+    "dateModified": "2026-09-15",
     
     "author": {
       "@type": "Organization",
@@ -136,7 +136,7 @@
     }
   }
   </script>
-  <meta name="last-updated" content="2026-07-20">
+  <meta name="last-updated" content="2026-09-15">
   
   <!-- WebMCP: read-only docs tools registered via navigator.modelContext.registerTool() (webmcp.js) -->
   <script type="text/mcp">
@@ -10061,21 +10061,21 @@
 
 
 <h1 id="mcp-sam-gov-us-government-contracting-mcp">mcp-sam-gov - US Government Contracting MCP<a class="headerlink" href="#mcp-sam-gov-us-government-contracting-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>150 tools for US federal + state/local (SLED) government contracting.</strong> First MCP server purpose-built for the $750B+ US government procurement market. Keyless - zero API keys required, all data from public government APIs.</p>
+<p><strong>152 tools across 54 data sources for US federal + state/local (SLED) government contracting.</strong> First MCP server purpose-built for the $750B+ US government procurement market. Keyless-first - 147 of the 152 tools need no API key; the remaining 5 (Census business patterns, FRED, BEA, DOL data endpoint) take a free key.</p>
 <h2 id="what-it-does-for-operators">What It Does for Operators<a class="headerlink" href="#what-it-does-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>If your business bids on government contracts, seeks grant funding, vets partners against sanctions lists, or monitors regulatory changes - this server gives your AI agents direct access to the primary sources:</p>
 <ul>
-<li><strong>SAM.gov</strong> - Search active federal contract opportunities, entity registrations, exclusions</li>
+<li><strong>SAM.gov</strong> - Search active federal contract opportunities, notice detail and attachments, exclusion/integrity screening, wage determinations</li>
 <li><strong>USAspending.gov</strong> - Track federal spending by agency, recipient, and contract</li>
 <li><strong>Grants.gov</strong> - Find and monitor federal grant opportunities</li>
 <li><strong>OFAC SDN</strong> - Screen entities against US sanctions lists</li>
 <li><strong>FDIC</strong> - BankFind, financial institution data</li>
-<li><strong>EPA</strong> - Environmental data, enforcement, permits</li>
-<li><strong>CourtListener</strong> - Federal and state court records, dockets, opinions</li>
-<li><strong>45+ additional sources</strong> covering all major government data domains</li>
+<li><strong>EPA</strong> - ECHO facility compliance/enforcement, TRI facilities</li>
+<li><strong>CourtListener</strong> - Federal court opinions (case law), via the Free Law Project's public API</li>
+<li><strong>47 additional sources</strong> covering all major government data domains</li>
 </ul>
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>-y<span class="w"> </span>mcp-sam-gov
+<div class="highlight"><pre><span></span><code>npx<span class="w"> </span>-y<span class="w"> </span>@cliwant/mcp-sam-gov
 </code></pre></div>
 <p>Or clone and run locally:</p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/cliwant/mcp-sam-gov.git
@@ -10088,12 +10088,12 @@ npm<span class="w"> </span>run<span class="w"> </span>build
 <span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nt">&quot;sam-gov&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
 <span class="w">      </span><span class="nt">&quot;command&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;npx&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;mcp-sam-gov&quot;</span><span class="p">]</span>
+<span class="w">      </span><span class="nt">&quot;args&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;-y&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;@cliwant/mcp-sam-gov&quot;</span><span class="p">]</span>
 <span class="w">    </span><span class="p">}</span>
 <span class="w">  </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
-<p>No environment variables. No API keys. All data from public <code>.gov</code> endpoints.</p>
+<p>No environment variables or API keys are needed for 147 of the 152 tools. A few sources accept an optional free key that only raises rate limits; the <code>api_key_status</code> tool reports which keys are required, optional, or currently configured.</p>
 <h2 id="key-tools">Key Tools<a class="headerlink" href="#key-tools" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10105,44 +10105,44 @@ npm<span class="w"> </span>run<span class="w"> </span>build
 </thead>
 <tbody>
 <tr>
-<td><code>search_contract_opportunities</code></td>
+<td><code>sam_search_opportunities</code></td>
 <td>SAM.gov</td>
-<td>Find active RFPs/RFQs by NAICS, keyword, agency, set-aside</td>
+<td>Search active federal contracting opportunities; narrow by NAICS, agency, set-aside, state</td>
 </tr>
 <tr>
-<td><code>get_entity_registration</code></td>
+<td><code>sam_check_exclusions</code></td>
 <td>SAM.gov</td>
-<td>Verify vendor registrations, UEI numbers, CAGE codes</td>
+<td>Screen a firm or individual by name, UEI, or CAGE against the SAM exclusions (debarment) index</td>
 </tr>
 <tr>
-<td><code>search_usaspending</code></td>
+<td><code>usas_search_individual_awards</code></td>
 <td>USAspending.gov</td>
-<td>Track federal awards by recipient, agency, CFDA program</td>
+<td>Line-item federal contracts with recipient, dollars, sub-agency, state, and description</td>
 </tr>
 <tr>
-<td><code>search_grants</code></td>
+<td><code>grants_search</code></td>
 <td>Grants.gov</td>
-<td>Find open and forecasted grant opportunities</td>
+<td>Search federal grant opportunities by keyword, CFDA, agency, or opportunity number (forecasted + posted by default)</td>
 </tr>
 <tr>
-<td><code>screen_ofac</code></td>
+<td><code>ofac_screen_entity</code></td>
 <td>OFAC SDN</td>
-<td>Sanctions screening for partner/entity vetting</td>
+<td>Screen a name against the OFAC SDN and Consolidated sanctions lists, including AKAs</td>
 </tr>
 <tr>
-<td><code>search_fdic</code></td>
+<td><code>fdic_search_institutions</code></td>
 <td>FDIC</td>
-<td>BankFind lookup, financial institution data</td>
+<td>Search the FDIC-insured institution directory (BankFind) by name, city, state, or CERT</td>
 </tr>
 <tr>
-<td><code>search_court_records</code></td>
+<td><code>courtlistener_search_opinions</code></td>
 <td>CourtListener</td>
-<td>Federal/state dockets, opinions, party search</td>
+<td>Full-text search of US federal court opinions (case law)</td>
 </tr>
 <tr>
-<td><code>search_epa</code></td>
-<td>EPA</td>
-<td>Enforcement actions, permits, environmental data</td>
+<td><code>echo_search_facilities</code></td>
+<td>EPA ECHO</td>
+<td>Search EPA-regulated facilities by state with compliance and enforcement screening fields</td>
 </tr>
 </tbody>
 </table>
