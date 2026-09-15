@@ -12,7 +12,20 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 15, 2026 (morning) · **Sources:** mcp.so feed (30 blocks via the r.jina.ai reader proxy) + chatmcp/mcpso issues #4140-#4147 + mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy · **Catalog:** 682 servers (+568 guides)
+> **Last updated:** September 15, 2026 (midday) · **Sources:** mcp.so feed (fresh blocks past the morning cutoff via the r.jina.ai reader proxy) + chatmcp/mcpso issues #4148-#4153 + mcpservers.org /all pages 1-3 re-check via the r.jina.ai reader proxy · **Catalog:** 688 servers (+574 guides)
+
+## 🆕 September 15, 2026 - Midday Cron Sweep (6 New, 6 Guides)
+
+Midday sweep over the mcp.so feed (fresh blocks past the 10:13Z morning cutoff: Zenith 5h, StoryStudio 4h, Agent Margin Router 4h, Glasser 3h, CoDesign 1h), the fresh chatmcp/mcpso issue window #4148-#4153 and an mcpservers.org /all pages 1-3 re-check via the r.jina.ai reader proxy (pages 1-3 unchanged since the morning crawl). 6 new business-relevant servers catalogued with guides, four endpoints live-probed over JSON-RPC (all returning HTTP 401 auth gates): Zenith MCP (PSD2 bank sync for European bookkeeping - 2,400+ banks across 30 countries, normalized transactions with EUR conversion, multi-bank and multi-entity, strictly read-only, OAuth at hub.zenith-books.com), Glasser MCP (pay-per-use data APIs behind one hosted endpoint - seven tools with inspect-before-run pricing from a Workspace balance, OAuth or key auth at api.glasser.ai/mcp), AurasPay Merchant MCP (scoped merchant payments - payment requests, receipts, CSV export and review-gated payment links over OAuth 2.0 with PKCE at mcp.auraspay.com/api/mcp), CoDesign MCP (editable design engine via IMG.LY CE.SDK - structured scenes, brand kits, PSD/IDML/PPT/PDF import, print-ready export and batch variants over npx stdio), StoryStudio MCP (image, video, voice and music generation with Cast & World character consistency and MP4 export, free 5-credit plan at storystudio.cc/mcp) and Litescrape MCP (keyless Google, Bing, DuckDuckGo and Google Maps search - eight tools, free daily allowance, npm litescrape-mcp-server 0.1.1 with provenance, official MCP registry entry).
+
+- [Zenith MCP - Live European Bank Data for Agents](/hermes/mcp/servers/external/zenith-mcp/) · 2,400+ banks / 30 countries, normalized transactions, read-only, OAuth.
+- [Glasser MCP - Pay-Per-Use Data APIs for AI Agents](/hermes/mcp/servers/external/glasser-mcp/) · 7 tools, inspect-before-run pricing, Workspace balance, OAuth or key.
+- [AurasPay Merchant MCP - Payment Review and Links for AI Agents](/hermes/mcp/servers/external/auraspay-mcp/) · scoped OAuth 2.0 + PKCE, review-gated payment links, receipts and CSV export.
+- [CoDesign MCP - Editable Design Engine for AI Agents](/hermes/mcp/servers/external/codesign-mcp/) · editable structured designs, brand kits, batch variants, npx stdio.
+- [StoryStudio MCP - AI Film and Media Studio in Your Agent](/hermes/mcp/servers/external/storystudio-mcp/) · image/video/voice/music generation, Cast & World consistency, MP4 export.
+- [Litescrape MCP - Keyless Google, Bing and Maps Search for Agents](/hermes/mcp/servers/external/litescrape-mcp/) · 8 search tools, keyless daily allowance, optional key, npm stdio.
+
+**Also identified (not catalogued):** tillbooks #4148 (pre-alpha Swiss accounting MCP - npm package reserved but unpublished, re-check when installable), toolc #4149 (optimizing compiler for agent tool surfaces - dev utility class), benchmark fixture #4151 (cleo-z37 - benchmark infra class), Litescrape duplicate #4152 (closed by submitter; #4153 is canonical), Agent Margin Router (x402 wallet-funded pay-per-call on an ephemeral railway.app endpoint - integration friction, crypto class), /all pages 1-3 re-check: zero churn vs the morning crawl (all 90 slugs already catalogued or previously disposed).
 
 ## 🆕 September 15, 2026 - Morning Cron Sweep (8 New, 8 Guides)
 
@@ -6067,4 +6080,13 @@ Evening sweep sourced from the mcp.so feed (30 server blocks via the r.jina.ai r
 
 Morning sweep sourced from the mcp.so feed (30 server blocks via the r.jina.ai reader proxy), chatmcp/mcpso issues #4140-#4147 and mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy. 8 new business-relevant servers catalogued with guides: AIsa MCP (950+ data APIs behind one OAuth key with five routing tools and a max_price_usd cap), Aard MCP (macroeconomic data from 170+ official publishers with provenance), Checkout Page MCP (40-tool Stripe-native commerce server), Cite42 MCP (26-tool AI visibility tracker across five answer engines), Umami MCP (official 23-tool read-only analytics server), Get Ads MCP (388 tools across 9 ad sources with confirm-gated writes), Wrenda MCP (per-domain edge MCP with AI citation tracking) and WhatsMCP MCP (WhatsApp numbers for agents, re-check promoted from the Sep 14 evening disposition). Benchmark fixtures, share-link utilities, dev utilities and prior dispositions logged as identified-not-catalogued.
 
+### 6 new servers from mcp.so feed + chatmcp/mcpso issues - Sep 15, 2026 (midday cron sweep)
 
+- [Zenith MCP - Live European Bank Data for Agents](/hermes/mcp/servers/external/zenith-mcp/)
+- [Glasser MCP - Pay-Per-Use Data APIs for AI Agents](/hermes/mcp/servers/external/glasser-mcp/)
+- [AurasPay Merchant MCP - Payment Review and Links for AI Agents](/hermes/mcp/servers/external/auraspay-mcp/)
+- [CoDesign MCP - Editable Design Engine for AI Agents](/hermes/mcp/servers/external/codesign-mcp/)
+- [StoryStudio MCP - AI Film and Media Studio in Your Agent](/hermes/mcp/servers/external/storystudio-mcp/)
+- [Litescrape MCP - Keyless Google, Bing and Maps Search for Agents](/hermes/mcp/servers/external/litescrape-mcp/)
+
+Midday sweep sourced from the mcp.so feed (fresh blocks past the 10:13Z morning cutoff), chatmcp/mcpso issues #4148-#4153 and an mcpservers.org /all pages 1-3 re-check via the r.jina.ai reader proxy. 6 new business-relevant servers catalogued with guides: Zenith MCP (PSD2 bank sync for European bookkeeping, read-only, 401-verified), Glasser MCP (pay-per-use data APIs with inspect-before-run pricing, 401-verified), AurasPay Merchant MCP (scoped payment reads and review-gated payment links, 401-verified), CoDesign MCP (editable design engine via IMG.LY CE.SDK, npx stdio), StoryStudio MCP (image/video/voice/music studio with character consistency, 401-verified) and Litescrape MCP (keyless Google/Bing/DuckDuckGo/Maps search, npm 0.1.1). tillbooks, toolc, Agent Margin Router, a benchmark fixture and the /all repeat set logged as identified-not-catalogued.

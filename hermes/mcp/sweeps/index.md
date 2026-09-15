@@ -16,6 +16,7 @@ Automated discovery of MCP servers and tools from across the ecosystem. These sw
 
 The sweep reports document newly discovered MCP servers, categorized by business function and evaluated for integration with the CorpusIQ platform.
 
+- [MCP Server Discovery - September 15, 2026 (Midday Sweep)](sweep-september15-2026-midday.md)
 - [MCP Server Discovery - September 15, 2026 (Morning Sweep)](sweep-september15-2026-morning.md)
 - [MCP Server Discovery - September 14, 2026 (Evening Sweep)](sweep-september14-2026-evening.md)
 - [MCP Server Discovery - September 14, 2026 (Midday Sweep)](sweep-september14-2026-midday.md)
