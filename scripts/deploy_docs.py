@@ -214,6 +214,84 @@ def main():
                 ov_count += 1
         print(f"   Canonical overrides applied ({ov_count}/{len(overrides)})")
 
+    # 3b-iv: relative-link resolution fix (Sep 15). The docs origin serves pages
+    #        WITHOUT trailing slash while mkdocs computes relative links for
+    #        SLASHED urls; under www.corpusiq.io/docs/* every relative link then
+    #        resolves one level too high: index links skip a level (orphans),
+    #        root-target nav links ESCAPE above /docs (404s: the five
+    #        how-to-analyze pages carried 1,742 escaping inlinks each), and
+    #        others land on redirects. Rewrite every resolvable internal
+    #        relative link to its intended target as an absolute
+    #        https://www.corpusiq.io/docs/... URL (house convention). Links
+    #        whose target is not found in the build are left untouched.
+    import posixpath as _pp
+    _site_root = os.path.join(REPO_DIR, "site")
+    _existing = set()
+    for _r, _ds, _fs in os.walk(_site_root):
+        for _f in _fs:
+            _p = os.path.relpath(os.path.join(_r, _f), _site_root).replace(os.sep, "/")
+            _existing.add(_p)
+            if _f == "index.html":
+                _d = os.path.dirname(_p)
+                if _d:
+                    _existing.add(_d)
+    _skip_ext = (".css", ".js", ".png", ".svg", ".ico", ".jpg", ".jpeg", ".webp",
+                 ".gif", ".woff", ".woff2", ".ttf", ".mp4", ".webm", ".pdf", ".gz", ".zip")
+    _rel_count = 0
+    _rel_files = 0
+    _rel_left = 0
+
+    def _target_exists(rp):
+        rp = rp.strip("/")
+        if not rp:
+            return False
+        return (rp in _existing) or ((rp + "/index.html") in _existing) or ((rp + ".html") in _existing)
+
+    for _html in _glob.glob(os.path.join(_site_root, "**", "*.html"), recursive=True):
+        _rel_html = os.path.relpath(_html, _site_root).replace(os.sep, "/")
+        _pagedir = os.path.dirname(_rel_html)
+        with open(_html, encoding="utf-8") as f:
+            _text = f.read()
+        _changed = 0
+
+        def _rel(m):
+            nonlocal _rel_count, _rel_left, _changed
+            h = m.group(1)
+            if (not h or h.startswith(("http://", "https://", "mailto:", "tel:", "javascript:",
+                                       "data:", "ftp://", "#", "?"))
+                    or "{{" in h or "{%" in h):
+                return m.group(0)
+            path_part, _, frag = h.partition("#")
+            qs = ""
+            if "?" in path_part:
+                path_part, _, qs = path_part.partition("?")
+                qs = "?" + qs
+            low = path_part.lower()
+            if low.endswith(_skip_ext) or "assets/" in low or low.startswith("assets"):
+                return m.group(0)
+            if path_part.startswith("/"):
+                R = _pp.normpath(path_part)
+            else:
+                base = "/" + _pagedir if _pagedir else "/"
+                R = _pp.normpath(base.rstrip("/") + "/" + path_part)
+            if R == "/" or R.startswith("//") or ".." in R.split("/"):
+                _rel_left += 1
+                return m.group(0)
+            rp = R.strip("/")
+            if not _target_exists(rp):
+                _rel_left += 1
+                return m.group(0)
+            _rel_count += 1
+            _changed += 1
+            return 'href="https://www.corpusiq.io/docs/%s%s%s"' % (rp, qs, ("#" + frag) if frag else "")
+
+        _new = _re.sub(r'href="([^"]+)"', _rel, _text)
+        if _changed:
+            _rel_files += 1
+            with open(_html, "w", encoding="utf-8") as f:
+                f.write(_new)
+    print(f"   Relative links absolutized ({_rel_count} across {_rel_files} files; {_rel_left} unresolved left as-is)")
+
     # 3c. VERIFY no-slash invariants - hard fail BEFORE any deploy (guard added
     #     Aug 26 after health score 30 regression: duplicate slashed canonicals
     #     + slashed sitemap/feeds shipped twice). A build that violates any
