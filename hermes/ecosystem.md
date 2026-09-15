@@ -1543,6 +1543,14 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*183+ repositories in the Hermes ecosystem. Last updated: 2026-09-14. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+### [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) ⭐ 34,545
+
+>A photorealistic 3D globe with live aircraft, ships, satellites, earthquakes, traffic, weather and public cameras — with voice control via a realtime AI agent. Runs with zero API keys (keyless satellite basemap default). MIT code with clear third-party data carve-outs.
+
+**Language:** JavaScript | **Topics:** cesium, geospatial, 3d-globe, ai-agent, voice | **Status:** Verified 2026-09-15
+
+---
+
+*183+ repositories in the Hermes ecosystem. Last updated: 2026-09-15. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*
