@@ -41,10 +41,10 @@ Shopify Analytics answers Shopify questions. CorpusIQ answers *business* questio
 
 ## Connect Shopify with
 
-- [QuickBooks](https://www.corpusiq.io/connectors/quickbooks) - reconcile sales vs invoices
+- [QuickBooks](quickbooks.md) - reconcile sales vs invoices
 - [Google Ads](https://www.corpusiq.io/connectors/google-ads) - true ROAS per product
-- [GA4](https://www.corpusiq.io/connectors/ga4) - traffic to purchase funnel
-- [Klaviyo](https://www.corpusiq.io/connectors/klaviyo) - email revenue attribution
+- [GA4](ga4.md) - traffic to purchase funnel
+- [Klaviyo](klaviyo.md) - email revenue attribution
 
 [Start free - connect Shopify to Claude today](https://www.corpusiq.io)
 ---
