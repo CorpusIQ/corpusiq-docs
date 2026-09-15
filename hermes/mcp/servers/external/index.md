@@ -3,7 +3,7 @@ title: "External MCP Server Catalog - CorpusIQ Docs"
 description: Curated catalog of notable third-party MCP servers for business operators  --  finance, analytics, document intelligence, security, and productivity
 canonical: "https://www.corpusiq.io/docs/hermes/mcp/servers/external/"
 robots: "index,follow"
-last_updated: "2026-09-14"
+last_updated: "2026-09-15"
 tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 ---
@@ -12,7 +12,22 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 
 Beyond CorpusIQ's 40+ built-in connectors, the MCP ecosystem now has 22,000+ servers spanning every domain. This catalog tracks the most relevant third-party MCP servers for business operators  --  curated from [mcp.so](https://mcp.so) and [mcpservers.org](https://mcpservers.org).
 
-> **Last updated:** September 14, 2026 (evening) · **Sources:** mcp.so feed (30 blocks via the r.jina.ai reader proxy) + chatmcp/mcpso issues #4135-#4139 + mcpservers.org /all page 1 via the r.jina.ai reader proxy · **Catalog:** 674 servers (+560 guides)
+> **Last updated:** September 15, 2026 (morning) · **Sources:** mcp.so feed (30 blocks via the r.jina.ai reader proxy) + chatmcp/mcpso issues #4140-#4147 + mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy · **Catalog:** 682 servers (+568 guides)
+
+## 🆕 September 15, 2026 - Morning Cron Sweep (8 New, 8 Guides)
+
+Morning sweep over the mcp.so feed (30 server blocks via the r.jina.ai reader proxy — four fresh names above the Sep 14 evening cutoff: AIsa 5h, qrp-mcp 4h, Aard 3h, Checkout Page 2h), chatmcp/mcpso issues #4140-#4147 (the fresh window past the evening sweep's #4139 cutoff) and mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy. 8 new business-relevant servers catalogued with guides: AIsa MCP (hosted GTM data stack — one OAuth key in front of 950+ data APIs across SEO, AI visibility, finance, social, web search, sales and agent mail, five routing tools with a max_price_usd spend cap and 32-84 tool category endpoints), Aard MCP (macroeconomic and official data from 170+ publishers including World Bank, IMF, BIS, ECB, Eurostat and national statistical offices, metadata-graph discovery with per-datapoint provenance, OAuth at api.aard.ai/mcp), Checkout Page MCP (40-tool commerce server — checkout pages, events and tickets, bookings, forms, customers, payments, subscriptions, invoices, coupons, tax rates and webhooks on the merchant's own Stripe account, OAuth at mcp.checkoutpage.com), Cite42 MCP (26-tool AI search visibility tracker — brand rankings, AI citations and competitor presence across ChatGPT, Claude, Perplexity, Gemini and AI Overviews plus SEO keywords, Reddit and YouTube trends and scheduled trackers, npx stdio with CITE42_API_KEY, $1 free start), Umami MCP (official analytics server — 23 read-only tools over the Umami API with web-app permission parity, cloud endpoint cloud.umami.is/mcp or self-hosted with MCP_ENABLED=1), Get Ads MCP (388 tools across Google Ads, Meta Ads, TikTok Ads, Pinterest Ads, Snapchat Ads, Search Console, GA4, Microsoft Advertising and Reddit Ads, free read-only plan with organization-scoped accounts and confirm-gated write previews), Wrenda MCP (per-domain edge MCP for AI visibility — enriched markdown with schema, FAQs and entity expansion, crawler pre-rendering, AI citation tracking across six answer engines with drift alerts and Search Console causal-impact experiments, JSON-RPC at POST /.well-known/mcp) and WhatsMCP MCP (WhatsApp numbers for AI agents — OAuth or workspace-scoped keys at app.whatsmcp.com/mcp, per-number console, inbound webhooks, plan-capped usage; promoted from the Sep 14 evening re-check disposition after vendor docs confirmed the full product surface).
+
+- [AIsa MCP - One Key for 950+ Data APIs for AI Agents](/hermes/mcp/servers/external/aisa-mcp/) · 5 routing tools, category endpoints 32-84 tools, max_price_usd cap, OAuth.
+- [Aard MCP - Macroeconomic Data from 170+ Official Publishers](/hermes/mcp/servers/external/aard-mcp/) · metadata graph + ontology, per-datapoint provenance, OAuth.
+- [Checkout Page MCP - Stripe Payments, Subscriptions and Tickets for AI Agents](/hermes/mcp/servers/external/checkout-page-mcp/) · 40 tools, own Stripe account, OAuth.
+- [Cite42 MCP - AI Search Visibility Tracking for AI Agents](/hermes/mcp/servers/external/cite42-mcp/) · 26 tools, 5 answer engines, npx stdio, $1 free start.
+- [Umami MCP - Official Website Analytics for AI Agents](/hermes/mcp/servers/external/umami-mcp/) · 23 read-only tools, cloud + self-hosted, official @umami/mcp.
+- [Get Ads MCP - 388 Ad Platform Tools for AI Agents](/hermes/mcp/servers/external/get-ads-mcp/) · 9 sources, free read-only, confirm-gated writes.
+- [Wrenda MCP - Edge AI-Visibility Optimization for Websites](/hermes/mcp/servers/external/wrenda-mcp/) · per-domain edge MCP, citation tracking, Search Console experiments.
+- [WhatsMCP MCP - Real WhatsApp Numbers for AI Agents](/hermes/mcp/servers/external/whatsmcp-mcp/) · OAuth or workspace keys, webhooks, plan caps.
+
+**Also identified (not catalogued):** benchmark fixtures #4140/#4144/#4147 (cleo-z37 — benchmark infra class), Plopino #4141 (publish-a-page-and-get-a-link stdio utility — share-link class, ctxt.io precedent), kb #4145 (fetch-once local knowledge base — dev utility class), Statsnet #4143 and ReadyAgents #4146 (prior dispositions respected); from the feed — qrp-mcp (quantum-vulnerability crypto scanner, prior dev-tool disposition), Vivu (prior media-library disposition); from /all pages 2-3 — share/artifacts (thin setup-only page, no tool list), ToolForte (180 utility calculators — dev utility class), Klyf (AI YouTube analyst — creator utility class), OpenRevenue (marketing site, no MCP surface — thin docs), Zens AI (customer support ops, no published tool list — thin docs), TTMT (Telegram-to-MetaTrader — crypto/trading class), Readdit Later (consumer), Brain Protocol (agent memory class), ALPNAI (agent performance metrics — dev class), Automan (x402 micro-task marketplace), IraniWallet (geo-niche rates), signals-x70 AI Trading Signals (prior crypto disposition), plus 404 shells (noteflowai, joinwell52-ai, smartoire) and author-slug shells; /all page 1-3 repeats already catalogued or previously disposed (Helio, geolint, Serp Sidekick, Prism, Nebelus, CherryShot, Foliyo, Convert.Online, RankJot, Statable, Day Off, Gambot, Statiko, Radicado Uno, Hilead, Soprano Connect, B2B Creators, CraftStory, VerifyAPI, SenseFold, eSIMfly, Visual Sandbox, PIL, vokse, fax-plus, Microburbs, MiniMax H3 and the Sep 14 disposed set).
 
 ## 🆕 September 14, 2026 - Evening Cron Sweep (9 New, 9 Guides)
 
@@ -6038,4 +6053,18 @@ First sweep after the Sep 13-14 network outage. Midday sweep sourced from the mc
 - [RankJot MCP - Real Google Rankings for AI Assistants](/hermes/mcp/servers/external/rankjot-mcp/)
 
 Evening sweep sourced from the mcp.so feed (30 server blocks via the r.jina.ai reader proxy), chatmcp/mcpso issues #4135-#4139 (fresh window past the midday cutoff at #4134), the mcp.so homepage recentServers and a fresh mcpservers.org /all page-1 crawl. 9 new business-relevant servers catalogued with guides: Helio MCP (open-source governance proxy for agent tool calls - policy rules, budgets, approvals and a hash-backed audit trail, Apache-2.0, npm @gethelio/proxy 0.14.0 verified), geolint MCP (AI-search readiness linter with 51 rules and 51 crawler tokens, stdio MCP mode, MIT, npm 0.3.2 verified), Serp Sidekick MCP (15 tools of live SEO and AI-visibility data over OAuth, 401-verified), Prism MCP (contract deadline reader, 8 tools, every deadline with consequence and source sentence, 401-verified), Nebelus MCP (~48 tools for governed agent building in regulated industries, EU/KSA residency, 401-verified), CherryShot MCP (product photography and video ads from one photo, 6 tools, 401-verified), Foliyo MCP (branded client reports and proposals with stable share links and PIN gates, 401-verified), Convert.Online MCP (file conversion across 400+ formats, 5 tools, official MCP registry entry) and RankJot MCP (real Google rankings in one tool, free tier with 25 lookups a month, PyPI rankjot-mcp 0.1.0 verified). WhatsMCP, Vivu, Nano Studio Pro, Liner, Featureflip, ProxyCove and other dev/novelty classes logged as identified-not-catalogued.
+
+### 8 new servers from mcp.so feed + mcpservers.org /all + chatmcp/mcpso issues - Sep 15, 2026 (morning cron sweep)
+
+- [AIsa MCP - One Key for 950+ Data APIs for AI Agents](/hermes/mcp/servers/external/aisa-mcp/)
+- [Aard MCP - Macroeconomic Data from 170+ Official Publishers](/hermes/mcp/servers/external/aard-mcp/)
+- [Checkout Page MCP - Stripe Payments, Subscriptions and Tickets for AI Agents](/hermes/mcp/servers/external/checkout-page-mcp/)
+- [Cite42 MCP - AI Search Visibility Tracking for AI Agents](/hermes/mcp/servers/external/cite42-mcp/)
+- [Umami MCP - Official Website Analytics for AI Agents](/hermes/mcp/servers/external/umami-mcp/)
+- [Get Ads MCP - 388 Ad Platform Tools for AI Agents](/hermes/mcp/servers/external/get-ads-mcp/)
+- [Wrenda MCP - Edge AI-Visibility Optimization for Websites](/hermes/mcp/servers/external/wrenda-mcp/)
+- [WhatsMCP MCP - Real WhatsApp Numbers for AI Agents](/hermes/mcp/servers/external/whatsmcp-mcp/)
+
+Morning sweep sourced from the mcp.so feed (30 server blocks via the r.jina.ai reader proxy), chatmcp/mcpso issues #4140-#4147 and mcpservers.org /all pages 1-3 via the r.jina.ai reader proxy. 8 new business-relevant servers catalogued with guides: AIsa MCP (950+ data APIs behind one OAuth key with five routing tools and a max_price_usd cap), Aard MCP (macroeconomic data from 170+ official publishers with provenance), Checkout Page MCP (40-tool Stripe-native commerce server), Cite42 MCP (26-tool AI visibility tracker across five answer engines), Umami MCP (official 23-tool read-only analytics server), Get Ads MCP (388 tools across 9 ad sources with confirm-gated writes), Wrenda MCP (per-domain edge MCP with AI citation tracking) and WhatsMCP MCP (WhatsApp numbers for agents, re-check promoted from the Sep 14 evening disposition). Benchmark fixtures, share-link utilities, dev utilities and prior dispositions logged as identified-not-catalogued.
+
 
