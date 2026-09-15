@@ -11930,7 +11930,7 @@ Read-only. CorpusIQ cannot change bids, budgets, or campaigns. No raw customer f
 corpusiq.io/pricing - 30-day free trial, all 40+ connectors.
 
 ---
-# How to Analyze HubSpot with AI (Ask CRM Questions in Plain English)
+# How to Analyze HubSpot with AI (Plain English Q&A)
 URL: https://www.corpusiq.io/docs/how-to-analyze-hubspot-with-ai
 
 
