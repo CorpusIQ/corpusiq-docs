@@ -28,8 +28,4 @@ Already signed up? Jump to [step 4](04-first-connector.md) (authenticate a conne
 Already have a connector authenticated? Try [step 6](06-first-cross-source-query.md) (multi-connector queries).
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

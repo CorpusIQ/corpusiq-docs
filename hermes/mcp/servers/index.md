@@ -108,8 +108,4 @@ Beyond CorpusIQ's built-in connectors, the MCP ecosystem has 22,000+ third-party
 *Powered by CorpusIQ  --  40+ MCP connectors, unified business intelligence*
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -188,8 +188,4 @@ Email monitoring, system health checks, lightweight cron jobs, IoT automation, a
 - [Troubleshooting Guide](/docs/hermes/troubleshooting)  --  Pi-specific issues
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

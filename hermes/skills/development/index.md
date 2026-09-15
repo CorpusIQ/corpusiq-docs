@@ -113,8 +113,4 @@ hermes execute "Create a branch, add a README fix, and open a PR"
 All development skills include verification steps  --  they confirm `git push` succeeded, CI is actually running, and the PR is visible on GitHub before reporting success. No "fire and forget" assumptions.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

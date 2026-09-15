@@ -125,8 +125,4 @@ CorpusIQ maintains a SOC 2 aligned posture; formal SOC 2 Type II certification i
 *Connect Connect Salesforce to Claude via MCP  --  Live Data, No Code... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

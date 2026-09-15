@@ -1,3 +1,7 @@
+---
+title: "Connect Airtable to Claude (Plain English Q&A)"
+description: "Connect Airtable to Claude through CorpusIQ and ask questions about projects, inventory, and CRM records instead of building views and filters manually."
+---
 # Connect Airtable to Claude (Plain English Q&A)
 
 Airtable holds your operational data - projects, inventory, CRM, content calendars. Connect it to Claude through CorpusIQ and ask questions instead of building views and filters manually.
@@ -26,10 +30,6 @@ Read-only. CorpusIQ never modifies your Airtable bases or records.
 3. Ask your first question
 
 [Connect Airtable to Claude free](https://www.corpusiq.io)
----
-
-*
-
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

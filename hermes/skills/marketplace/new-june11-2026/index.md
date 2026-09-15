@@ -157,8 +157,4 @@ npx skills add ar9av/obsidian-wiki@hermes-history-ingest
 **Catalog update:** Added to `hermes/skills/catalog/index.md` under Hermes Ecosystem (20) and Platform Bots (10) sections. Hermes Variants section updated with 2 new entries.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

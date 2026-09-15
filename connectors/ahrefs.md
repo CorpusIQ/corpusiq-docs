@@ -46,8 +46,4 @@ Read-only. CorpusIQ never consumes Ahrefs API rows beyond the queries you ask fo
 - **Rate limits** - Ahrefs enforces per-token rate limits. If you're querying heavily, space out requests or upgrade your plan.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

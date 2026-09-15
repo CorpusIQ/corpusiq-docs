@@ -1,3 +1,7 @@
+---
+title: "The Best MCP Server for Business Data (2026)"
+description: "Your AI is smart but blind to your actual data. See how an MCP server for business data connects Claude, ChatGPT, and Perplexity to live systems."
+---
 # The Best MCP Server for Business Data (2026)
 
 If you use Claude, ChatGPT, or Perplexity for business questions, you have hit the wall: the AI is smart but it cannot see your actual data. MCP (Model Context Protocol) fixes that.
@@ -40,10 +44,6 @@ Tools: 53 live tools across 40+ connectors
 | Pre-built skills | 133+ | You write your own prompts |
 
 [Start free - 30-day trial, no credit card](https://www.corpusiq.io)
----
-
-*
-
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

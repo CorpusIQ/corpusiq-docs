@@ -46,8 +46,4 @@ Read-only. CorpusIQ never spends Semrush units beyond the queries you ask for.
 - High API unit consumption - each query costs units. Ask narrower questions to control spend.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

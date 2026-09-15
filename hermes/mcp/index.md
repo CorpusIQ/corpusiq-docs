@@ -355,8 +355,4 @@ MCP servers run as subprocesses managed by Hermes. Each server:
 **The CorpusIQ advantage:** 40+ business platforms through ONE MCP server. No managing 37 API keys, no 37 different auth flows. One OAuth, one server, 53 tools.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

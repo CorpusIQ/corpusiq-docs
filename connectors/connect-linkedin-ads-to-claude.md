@@ -1,3 +1,7 @@
+---
+title: "How to Connect LinkedIn Ads to Claude (Plain English)"
+description: "Stop exporting LinkedIn Ads reports into spreadsheets. Connect LinkedIn Ads to Claude through CorpusIQ and ask your campaign questions directly."
+---
 # How to Connect LinkedIn Ads to Claude (Plain English)
 
 Stop exporting LinkedIn Ads reports into spreadsheets. Connect LinkedIn Ads to Claude through CorpusIQ and ask your campaign questions directly.
@@ -55,10 +59,6 @@ CorpusIQ reads both sources directly. Ask the same question from both datasets a
 CorpusIQ normalizes across platforms. Ask for cost per qualified lead across all paid channels and get a unified view.
 
 [Start free - connect LinkedIn Ads to Claude](https://www.corpusiq.io)
----
-
-*
-
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

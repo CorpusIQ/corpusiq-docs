@@ -94,8 +94,4 @@ All operations skills follow three hard rules:
 3. **Self-heal where possible.** For known failure patterns (expired tokens, full disks, stale processes), the skill includes recovery steps. Don't just detect  --  fix.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

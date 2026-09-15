@@ -1,3 +1,7 @@
+---
+title: "Connect Klaviyo to ChatGPT (Live Email Data, No Exports)"
+description: "Stop screenshotting Klaviyo dashboards to paste into ChatGPT. CorpusIQ connects your live Klaviyo account so you get real answers about email performance."
+---
 # Connect Klaviyo to ChatGPT (Live Email Data, No Exports)
 
 Stop screenshotting Klaviyo dashboards to paste into ChatGPT. CorpusIQ connects your live Klaviyo account directly so you can ask questions and get real answers instantly.
@@ -26,10 +30,6 @@ Klaviyo shows email metrics. CorpusIQ shows what your email did to your business
 "Did our last campaign drive more Shopify revenue than our best Google Ads campaign this month?" - one question, answered across both platforms.
 
 [Connect Klaviyo to ChatGPT free](https://www.corpusiq.io)
----
-
-*
-
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

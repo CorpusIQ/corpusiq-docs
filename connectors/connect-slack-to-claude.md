@@ -1,3 +1,7 @@
+---
+title: "Connect Slack to Claude (Search Your Workspace)"
+description: "Stop searching through Slack manually. Connect Slack to Claude through CorpusIQ and ask questions about your workspace activity, channels, and messages."
+---
 # Connect Slack to Claude (Search and Analyze Your Workspace)
 
 Stop searching through Slack manually. Connect Slack to Claude through CorpusIQ and ask questions about your workspace activity, channels, and messages.
@@ -27,10 +31,6 @@ Read-only. CorpusIQ never posts messages or modifies your workspace.
 3. Ask your first question
 
 [Connect Slack to Claude free](https://www.corpusiq.io)
----
-
-*
-
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

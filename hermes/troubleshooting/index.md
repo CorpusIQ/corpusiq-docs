@@ -564,8 +564,4 @@ hermes queue retry --failed-only --since "1 hour ago"
 5. **Escalate:** Some failures genuinely need human intervention. The system is designed to degrade gracefully  --  individual features may fail while the core continues operating.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

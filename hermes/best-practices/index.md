@@ -3,7 +3,7 @@ title: "Hermes Agent Best Practices Guide"
 description: Hermes Agent best practices for production AI automation. Anti-patterns, maturity model, cron design, model selection, memory management, security, skill development, and MCP server design. Community-driven reliability patterns.
 category: best-practices
 tags: [hermes-agent, best-practices, ai-automation, maturity-model, anti-patterns, production, reliability]
-last_updated: 2026-07-08
+last_updated: 2026-09-15
 canonical: "https://www.corpusiq.io/docs/hermes/best-practices/"
 robots: "index,follow"
 
@@ -102,6 +102,7 @@ These patterns cause the majority of production incidents. Avoid them.
 - **[Security](security.md):** Token management, least privilege, approval gates, audit logging
 - **[Skill Development](skill-development.md):** Skill design, testing, documentation, lifecycle management
 - **[MCP Design](mcp-design.md):** MCP server development, tool design, error handling, testing
+- **[Agent Capability Audit](agent-capability-audit.md):** The 4 must-install capabilities test, audited against a production Hermes stack
 
 ## FAQ
 
@@ -125,6 +126,7 @@ Follow [cron design best practices](cron-design.md): make every cron idempotent,
 - [Security Best Practices](security.md)  --  Token management and approval gates
 - [Skill Development](skill-development.md)  --  Building reusable skills
 - [MCP Server Design](mcp-design.md)  --  Custom tool development
+- [Agent Capability Audit](agent-capability-audit.md)  --  The 4 must-install capabilities, audited
 - [Setup Guides](/docs/hermes/setup)  --  Platform-specific installation
 
 ---
@@ -133,10 +135,6 @@ Start where you are, automate what hurts most, and share what you learn. The res
 
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*
----
-
-*
-
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

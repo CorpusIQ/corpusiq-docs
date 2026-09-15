@@ -53,8 +53,4 @@ CorpusIQ never sends campaigns, edits flows, or modifies profiles.
 - **Predictive analytics empty** - Predictive CLV needs a minimum order history. New accounts may not have it populated for weeks.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

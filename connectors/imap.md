@@ -42,8 +42,4 @@ CorpusIQ never sends mail, deletes messages, or marks anything read.
 - **Folder list looks short** - Some providers hide certain folders (Trash, Spam) unless subscribed. Subscribe to them in your mail client first.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

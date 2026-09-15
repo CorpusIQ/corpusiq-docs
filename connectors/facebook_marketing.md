@@ -1,3 +1,7 @@
+---
+title: "Meta (Facebook, Instagram, Ads) Connector"
+description: "Meta Ads is one of the largest line items in a SaaS or ecommerce budget. Connect Meta read-only and compare its numbers honestly to GA4 and Shopify."
+---
 # Meta (Facebook, Instagram, Ads)
 
 ## What it unlocks
@@ -46,10 +50,6 @@ CorpusIQ never creates ads, edits budgets, or pauses campaigns.
 - **"No ad accounts found"** - Your Facebook user must be added as a person on the ad account in Business Manager. Page-level admin isn't enough.
 - **"Permissions error on insights"** - Reconnect and make sure you approved the `ads_read` permission during OAuth.
 - **Spend looks different than Meta UI** - Meta defaults to a 7-day click attribution window in some places and 1-day in others. CorpusIQ pulls raw spend, which always matches Billing & Payments, not the campaign UI's attributed numbers.
----
-
-*
-
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

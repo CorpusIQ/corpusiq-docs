@@ -50,8 +50,4 @@ CorpusIQ never creates campaigns, changes bids, or pauses ads.
 - **Conversion counts seem low** - Google Ads only counts conversions configured in the Ads conversion settings. If you rely on GA4 imported conversions, check that the import is active.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

@@ -32,8 +32,4 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for submission instructions.
 Use [TEMPLATE.md](TEMPLATE.md) as your starting point.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

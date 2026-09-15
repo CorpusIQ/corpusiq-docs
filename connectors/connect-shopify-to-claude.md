@@ -1,3 +1,7 @@
+---
+title: "Connect Shopify to Claude (Live Data, No CSV Exports)"
+description: "Stop exporting CSVs from Shopify to answer basic questions. CorpusIQ connects your live Shopify store to Claude, ChatGPT, and Perplexity for real answers."
+---
 # How to Connect Shopify to Claude (Live Data, No CSV Exports)
 
 Stop exporting CSVs from Shopify to answer basic questions. CorpusIQ connects your live Shopify store to Claude, ChatGPT, or Perplexity - so you can ask plain-English questions and get real answers from your actual store data.
@@ -47,10 +51,6 @@ Shopify Analytics answers Shopify questions. CorpusIQ answers *business* questio
 - [Klaviyo](klaviyo.md) - email revenue attribution
 
 [Start free - connect Shopify to Claude today](https://www.corpusiq.io)
----
-
-*
-
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

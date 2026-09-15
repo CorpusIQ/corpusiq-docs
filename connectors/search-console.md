@@ -47,8 +47,4 @@ CorpusIQ never submits sitemaps, requests indexing, or modifies properties.
 - **Inspect URL says "URL is not on property"** - The URL must belong to the property you're querying. Double-check the site URL and the inspection URL match.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

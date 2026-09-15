@@ -1,3 +1,7 @@
+---
+title: "How to Connect ChatGPT to Your Business Data (2026 Guide)"
+description: "ChatGPT cannot see your Shopify orders, QuickBooks books, Google Ads spend, or HubSpot pipeline. Here is how to connect your business data in 5 minutes."
+---
 # How to Connect ChatGPT to Your Business Data (2026 Guide)
 
 ChatGPT is smart but it is working blind. It cannot see your Shopify orders, QuickBooks books, Google Ads spend, or HubSpot pipeline. Here is how to fix that in 5 minutes.
@@ -32,10 +36,6 @@ ChatGPT supports MCP servers - live data connections that let it query your actu
 40+ connectors. 133+ pre-built reasoning chains. Read-only. 5-minute setup.
 
 [Connect ChatGPT to your business data free](https://www.corpusiq.io)
----
-
-*
-
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

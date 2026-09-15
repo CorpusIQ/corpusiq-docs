@@ -1,3 +1,7 @@
+---
+title: "How to Connect HubSpot to Claude (Plain English Q&A)"
+description: "Stop building HubSpot reports that no one reads. Connect HubSpot to Claude through CorpusIQ and ask your pipeline and deal questions directly."
+---
 # How to Connect HubSpot to Claude (Plain English Q&A)
 
 Stop building HubSpot reports that no one reads. Connect HubSpot to Claude through CorpusIQ and ask your pipeline questions directly.
@@ -35,10 +39,6 @@ Read-only. CorpusIQ never creates or modifies CRM records.
 "Which deals should we focus on this week?" - CorpusIQ pulls deal stage, last activity, close date, and rep notes across your entire pipeline and surfaces the answer in seconds.
 
 [Start free - connect HubSpot to Claude](https://www.corpusiq.io)
----
-
-*
-
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

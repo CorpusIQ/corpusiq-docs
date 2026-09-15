@@ -190,8 +190,4 @@ A: Connect your first 3-5 sources (30 minutes). Start asking questions immediate
 - [Top Business AI Tools  --  Rankings](/compare)
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

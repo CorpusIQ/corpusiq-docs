@@ -48,8 +48,4 @@ CorpusIQ never inserts, updates, or deletes documents.
 - **Cross-partition errors** - Some queries need `cross_partition=true`. Toggle it in the connection settings if your container is partitioned.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

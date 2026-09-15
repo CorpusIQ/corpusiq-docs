@@ -46,8 +46,4 @@ CorpusIQ never sends mail, edits contacts, or changes automations.
 - **Empty campaign list** - Your API user may not have permission for the campaign view; switch to an admin-level key.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

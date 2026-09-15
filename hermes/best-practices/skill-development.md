@@ -100,8 +100,4 @@ Good triggers are specific enough to avoid false positives but broad enough to c
 - [MCP Server Design](mcp-design.md)  --  Build tools your skills call
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

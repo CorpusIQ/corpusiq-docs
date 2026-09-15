@@ -1,3 +1,7 @@
+---
+title: "How to Connect QuickBooks to Claude (Plain English Q&A)"
+description: "Instead of running QuickBooks reports and copy-pasting into a spreadsheet, connect QuickBooks to Claude through CorpusIQ and ask your accounting questions."
+---
 # How to Connect QuickBooks to Claude (Plain English Q&A)
 
 Instead of running reports in QuickBooks and copy-pasting into a spreadsheet, connect QuickBooks to Claude through CorpusIQ and just ask.
@@ -42,10 +46,6 @@ QuickBooks alone tells you what happened. CorpusIQ tells you *why*.
 "Revenue is down 18% - is it fewer orders, lower AOV, or more refunds?" connects QuickBooks + Shopify + Stripe in one answer.
 
 [Start free - connect QuickBooks to Claude](https://www.corpusiq.io)
----
-
-*
-
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

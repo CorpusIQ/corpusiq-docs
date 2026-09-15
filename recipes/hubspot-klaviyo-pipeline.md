@@ -119,8 +119,4 @@ Deal: Epsilon Media - Stage: Qualified - $28,000 - 11 days in stage
 - **Tighter window:** Change email engagement to 7-day window for higher-velocity sales cycles
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

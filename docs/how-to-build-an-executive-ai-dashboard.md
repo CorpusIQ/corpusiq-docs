@@ -203,8 +203,4 @@ A: Copy the AI's structured response into your presentation tool. Direct export 
 - [Best ChatGPT Integration Platform](/compare)
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

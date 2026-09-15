@@ -229,8 +229,4 @@ Then reference the skill by name in your agent profile.
 - See the [June 18 Batch 1](../new-june18-2026/) for the earlier 32 high-install skills
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

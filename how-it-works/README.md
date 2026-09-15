@@ -27,8 +27,4 @@ a question. No deep tech - just enough to know what you're using.
   every time, with a provenance footer and cross-source drift checks.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

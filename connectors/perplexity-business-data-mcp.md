@@ -1,3 +1,7 @@
+---
+title: "Connect Perplexity to Your Business Data via MCP"
+description: "Perplexity answers questions about the world. Connect your actual business data via CorpusIQ MCP and get answers about both at once."
+---
 # Connect Perplexity to Your Business Data via MCP
 
 Perplexity is built for real-time information. Combine it with your actual business data via CorpusIQ MCP and you get an AI that answers questions about the world AND your business simultaneously.
@@ -21,10 +25,6 @@ After: "What is our churn rate vs industry average and which customer segment is
 4. Ask questions that combine your data with world knowledge
 
 [Connect Perplexity to your business data free](https://www.corpusiq.io)
----
-
-*
-
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

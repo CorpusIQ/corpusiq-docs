@@ -1,3 +1,7 @@
+---
+title: "How to Connect Klaviyo to Claude (Plain English)"
+description: "Klaviyo has the data. Claude has the reasoning. CorpusIQ connects them so you can ask plain-English questions about your email marketing performance."
+---
 # How to Connect Klaviyo to Claude (Plain English)
 
 Klaviyo has the data. Claude has the reasoning. CorpusIQ connects them so you can ask plain-English questions about your email marketing performance.
@@ -35,10 +39,6 @@ Read-only. CorpusIQ never sends emails or modifies your lists.
 "Which email campaign drove the most Shopify revenue last month - and what was the ROAS?" connects Klaviyo attribution + Shopify orders in one answer.
 
 [Start free - connect Klaviyo to Claude](https://www.corpusiq.io)
----
-
-*
-
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

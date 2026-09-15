@@ -42,8 +42,4 @@ Layer 3: Quality  --  outputs meeting thresholds, correct channels
 ```
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

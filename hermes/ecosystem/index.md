@@ -4150,10 +4150,6 @@ The directory is maintained by **[CorpusIQ](https://corpusiq.io)** with monitori
 - [Submit a Repo →](https://github.com/CorpusIQ/corpusiq-docs/issues/new?template=submit-repo.yml)
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 115000 | 232 AI agent personalities across 16 divisions - marketing, engineering, design, QA, security, support. One-click install for Claude Code, Copilot, Cursor, Aider, OpenCode. MIT license. | agent-personality, multi-agent, marketing, engineering, design |
 | [dontriskit/awesome-ai-system-prompts](https://github.com/dontriskit/awesome-ai-system-prompts) | 6019 | Curated collection of AI system prompts across multiple platforms - ChatGPT, Claude, Gemini, Copilot. Production-tested prompt engineering patterns. | prompt-engineering, system-prompts, agent-personality |

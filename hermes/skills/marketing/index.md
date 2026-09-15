@@ -113,8 +113,4 @@ npx skills add coreyhaines31/marketingskills
 Skills chain naturally: run `seo-audit` → feed gaps into `content-strategy` → generate content with `copywriting` → optimize conversions with `page-cro`. The agent handles the handoff between skills automatically.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

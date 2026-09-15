@@ -80,8 +80,4 @@ No data warehouse. No ETL pipelines. Direct queries to live data.
 MIT - use this template for anything.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

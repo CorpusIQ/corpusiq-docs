@@ -46,8 +46,4 @@ Read-only. CorpusIQ never confirms orders, posts invoices, or moves stock.
 - A module looks empty - confirm the connected user has access rights to that module's records.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

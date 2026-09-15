@@ -58,8 +58,4 @@ Ready to unlock the real power of CorpusIQ? Move to
 [6. Your first cross-source query](06-first-cross-source-query.md) - connect a second tool and ask questions that span both.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

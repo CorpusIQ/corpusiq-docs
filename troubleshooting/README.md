@@ -26,8 +26,4 @@ bottom of the error codes reference, or email support with: which connector,
 what you asked, what Claude or ChatGPT showed you.
 ---
 
-*
-
----
-
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*

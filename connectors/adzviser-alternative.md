@@ -1,3 +1,7 @@
+---
+title: "Adzviser Alternative: CorpusIQ for Business AI Data"
+description: "Looking for an Adzviser alternative? See how CorpusIQ connects business data to Claude, ChatGPT, and Perplexity with cited answers from live systems."
+---
 # Adzviser Alternative: CorpusIQ for Business AI Data
 
 Looking for an Adzviser alternative? Here is how CorpusIQ compares for connecting your business data to Claude, ChatGPT, and other AI assistants.
@@ -51,10 +55,6 @@ If your team only needs marketing channel data and you never need to cross-refer
 30-day free trial. No credit card. Setup takes under 10 minutes.
 
 [Try CorpusIQ free](https://www.corpusiq.io)
----
-
-*
-
 ---
 
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
