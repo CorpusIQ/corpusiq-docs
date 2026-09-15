@@ -89,5 +89,5 @@ Etincel pairs with CorpusIQ as the quality gate on the content pipeline's output
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

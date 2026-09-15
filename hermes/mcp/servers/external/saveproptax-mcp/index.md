@@ -78,7 +78,7 @@ SavePropTax covers California property tax appeals - a niche CorpusIQ's connecto
 
 ## See Also
 
-- [RE Data Refinery MCP - Pay-Per-Query Real Estate Intelligence](/hermes/mcp/servers/external/re-data-refinery-mcp/)
-- [Austin MLS MCP - Live Austin Real Estate Listings for AI Assistants](/hermes/mcp/servers/external/austin-mls-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [RE Data Refinery MCP - Pay-Per-Query Real Estate Intelligence](/docs/hermes/mcp/servers/external/re-data-refinery-mcp)
+- [Austin MLS MCP - Live Austin Real Estate Listings for AI Assistants](/docs/hermes/mcp/servers/external/austin-mls-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

@@ -103,5 +103,5 @@ head -3 ~/.hermes/skills/aas/telegram-mini-app/SKILL.md   # frontmatter: name, d
 
 ## Related
 
-- [Agentic Awesome Skills - 2,000+ Skill Catalog Setup](/hermes/skills/catalog/agentic-awesome-skills-setup/) - the parent 45.6K-star catalog and its cluster guide
-- [Skills Marketplace](/hermes/skills/marketplace/) - marketplace index for more discovery batches
+- [Agentic Awesome Skills - 2,000+ Skill Catalog Setup](/docs/hermes/skills/catalog/agentic-awesome-skills-setup) - the parent 45.6K-star catalog and its cluster guide
+- [Skills Marketplace](/docs/hermes/skills/marketplace) - marketplace index for more discovery batches

@@ -50,6 +50,6 @@ verifies.
 
 ## Related pages
 
-- [MCP Apps: Interactive UIs](/hermes/mcp/mcp-apps-interactive-ui/)
-- [ask_corpusiq: deterministic single-tool access](/hermes/mcp/ask-corpusiq/)
-- [runbook.v1 governance](/hermes/mcp/runbook-governance/)
+- [MCP Apps: Interactive UIs](/docs/hermes/mcp/mcp-apps-interactive-ui)
+- [ask_corpusiq: deterministic single-tool access](/docs/hermes/mcp/ask-corpusiq)
+- [runbook.v1 governance](/docs/hermes/mcp/runbook-governance)

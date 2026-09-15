@@ -71,8 +71,8 @@ CorpusIQ answers operator questions from live business data. Autype is the last 
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Extend MCP - Document Intelligence with OCR and PDF Forms](/hermes/mcp/servers/external/extend-mcp/)
-- [Gemina MCP - Document Extraction and Tagging for Agents](/hermes/mcp/servers/external/gemina-mcp/)
-- [iFillPDF MCP - AI PDF Form Detection and Filling](/hermes/mcp/servers/external/ifillpdf-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Extend MCP - Document Intelligence with OCR and PDF Forms](/docs/hermes/mcp/servers/external/extend-mcp)
+- [Gemina MCP - Document Extraction and Tagging for Agents](/docs/hermes/mcp/servers/external/gemina-mcp)
+- [iFillPDF MCP - AI PDF Form Detection and Filling](/docs/hermes/mcp/servers/external/ifillpdf-mcp)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

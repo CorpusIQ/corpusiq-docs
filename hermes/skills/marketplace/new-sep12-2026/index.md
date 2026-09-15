@@ -54,5 +54,5 @@ GitHub 301/200 pairs checked via `curl -sI` on all 7 old repos (all 301 with Loc
 
 ---
 
-*← [Marketplace](/hermes/skills/marketplace/) | [Skills Catalog](/hermes/skills/catalog/) →*
+*← [Marketplace](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) →*
 *Powered by CorpusIQ*

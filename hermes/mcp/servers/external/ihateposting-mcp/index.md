@@ -49,6 +49,6 @@ Endpoint live-probed over JSON-RPC: `initialize` returned serverInfo ihatepostin
 
 ## See Also
 
-- [Chirpie MCP - Unified Social Posting Across 14 Platforms](/hermes/mcp/servers/external/chirpie-mcp/)
-- [TimeToPost MCP - Social Scheduling with Draft Approval and AutoSEO](/hermes/mcp/servers/external/timetopost-mcp/)
-- [PostNitro MCP - AI Carousels and Social Publishing for Agents](/hermes/mcp/servers/external/postnitro-mcp/)
+- [Chirpie MCP - Unified Social Posting Across 14 Platforms](/docs/hermes/mcp/servers/external/chirpie-mcp)
+- [TimeToPost MCP - Social Scheduling with Draft Approval and AutoSEO](/docs/hermes/mcp/servers/external/timetopost-mcp)
+- [PostNitro MCP - AI Carousels and Social Publishing for Agents](/docs/hermes/mcp/servers/external/postnitro-mcp)

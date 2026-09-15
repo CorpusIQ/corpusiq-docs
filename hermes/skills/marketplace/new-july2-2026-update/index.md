@@ -15,7 +15,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 Evening sweep across 20 skills.sh API queries (hermes + openclaw + ecosystem terms) surfaced 8 uncatalogued OpenClaw-relevant skills. Highlights: **Blackbox Browser** (5,931⭐ project) gets an OpenClaw wrapper, **Alibaba Cloud's AI suite** adds 5 OpenClaw-specific integration skills, and independent contributions for browser-use and video generation.
 
-*This is an update to the [morning discovery](/hermes/skills/marketplace/new-july2-2026/) (Hermes Browser Extension + OpenClaw on Android).*
+*This is an update to the [morning discovery](/docs/hermes/skills/marketplace/new-july2-2026) (Hermes Browser Extension + OpenClaw on Android).*
 
 ---
 
@@ -51,7 +51,7 @@ OpenClaw wrapper for the **Blackbox Browser** project - a CLI + MCP server that 
 - No headless-mode limitations - uses your real browser
 - OpenClaw integration via skills.sh
 
-**Setup Guide:** [bb-browser-openclaw - Full Setup Guide](/hermes/skills/catalog/bb-browser-openclaw-setup/)
+**Setup Guide:** [bb-browser-openclaw - Full Setup Guide](/docs/hermes/skills/catalog/bb-browser-openclaw-setup)
 
 ```bash
 npx skills add epiral/bb-browser --skill bb-browser-openclaw
@@ -146,8 +146,8 @@ npx skills add evolinkai/video-generation-skill-for-openclaw --skill evolink-vid
 
 ---
 
-*← [Previous Discovery](/hermes/skills/marketplace/new-july2-2026/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+*← [Previous Discovery](/docs/hermes/skills/marketplace/new-july2-2026) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
 
 ---
 
-*Part of the [Hermes Skills Library](/hermes/skills/) - curated by CorpusIQ. This page catalogs skills discovered via automated API sweeps of [skills.sh](https://skills.sh). Content remains attributed to original authors and repositories.*
+*Part of the [Hermes Skills Library](/docs/hermes/skills) - curated by CorpusIQ. This page catalogs skills discovered via automated API sweeps of [skills.sh](https://skills.sh). Content remains attributed to original authors and repositories.*

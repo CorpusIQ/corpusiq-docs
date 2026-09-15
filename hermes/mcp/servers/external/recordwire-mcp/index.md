@@ -52,6 +52,6 @@ Endpoint live-probed over JSON-RPC: keyless `tools/list` returned all 8 tools wi
 
 ## See Also
 
-- [CN Evidence MCP - China Supplier Due Diligence for Agents](/hermes/mcp/servers/external/cn-evidence-mcp/)
-- [Nexlab MCP - Cited Data Across 23 Sources for Agents](/hermes/mcp/servers/external/nexlab-mcp/)
-- [GoodLeads MCP - New-Business Leads for Agent Outreach](/hermes/mcp/servers/external/goodleads-mcp/)
+- [CN Evidence MCP - China Supplier Due Diligence for Agents](/docs/hermes/mcp/servers/external/cn-evidence-mcp)
+- [Nexlab MCP - Cited Data Across 23 Sources for Agents](/docs/hermes/mcp/servers/external/nexlab-mcp)
+- [GoodLeads MCP - New-Business Leads for Agent Outreach](/docs/hermes/mcp/servers/external/goodleads-mcp)

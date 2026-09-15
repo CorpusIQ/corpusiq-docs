@@ -142,13 +142,13 @@ Enterprise customers receive 99.9% uptime SLA for the MCP query layer, with fina
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/what-is-an-mcp-server)
-- [Understand how MCP servers work with a technical deep dive](/how-mcp-servers-work)
-- [Read our complete MCP security best practices guide](/mcp-security-best-practices)
-- [Discover the business benefits of MCP servers](/benefits-of-mcp-for-business)
-- [See how executives use MCP for AI-powered dashboards](/mcp-for-executives)
-- [Learn about MCP for financial reporting and compliance](/mcp-for-finance)
-- [Explore MCP for business operations automation](/mcp-for-operations)
+- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Understand how MCP servers work with a technical deep dive](/mcp)
+- [Read our complete MCP security best practices guide](/mcp)
+- [Discover the business benefits of MCP servers](/mcp)
+- [See how executives use MCP for AI-powered dashboards](/mcp)
+- [Learn about MCP for financial reporting and compliance](/mcp)
+- [Explore MCP for business operations automation](/mcp)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
@@ -163,4 +163,4 @@ Enterprise customers receive 99.9% uptime SLA for the MCP query layer, with fina
 
 ---
 
-**MCP Spec GA - July 28, 2026:** The Model Context Protocol specification reaches general availability on July 28. [Read what this means for business operators](/mcp-spec-ga-july-2026).
+**MCP Spec GA - July 28, 2026:** The Model Context Protocol specification reaches general availability on July 28. [Read what this means for business operators](/docs/mcp-spec-ga-july-2026).

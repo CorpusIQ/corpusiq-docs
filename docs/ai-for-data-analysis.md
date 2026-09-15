@@ -129,12 +129,12 @@ A: No  --  it amplifies them. AI handles routine and ad-hoc analysis, freeing da
 ## Internal Links
 
 - [Connect Your Database to Claude](https://corpusiq.io/connectors/postgres/)
-- [Connect Shopify to Claude](/connect-shopify-to-claude)
-- [Connect QuickBooks to Claude](/connect-quickbooks-to-claude)
-- [AI for Business Intelligence](/ai-for-business-intelligence)
-- [AI for Financial Analysis](/ai-for-financial-analysis)
-- [AI for Forecasting](/ai-for-forecasting)
-- [What is MCP?](/what-is-an-mcp-server)
+- [Connect Shopify to Claude](/connect/shopify-with-claude)
+- [Connect QuickBooks to Claude](/connect/quickbooks-with-claude)
+- [AI for Business Intelligence](/private-ai-for-business)
+- [AI for Financial Analysis](/private-ai-for-business)
+- [AI for Forecasting](/private-ai-for-business)
+- [What is MCP?](/answers/what-is-an-mcp-server)
 
 ---
 

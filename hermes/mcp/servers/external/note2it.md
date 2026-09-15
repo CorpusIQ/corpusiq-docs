@@ -105,6 +105,6 @@ Check [note2it.com/pricing](https://note2it.com) for current plans. MCP access t
 
 ---
 
-*← [External MCP Catalog](/hermes/mcp/servers/external/) | [MCP Overview](/hermes/mcp/)*
+*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Overview](/docs/hermes/mcp)*
 
-*↑ [MCP Documentation](/hermes/mcp/)*
+*↑ [MCP Documentation](/docs/hermes/mcp)*

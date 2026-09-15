@@ -85,7 +85,7 @@ Bynn reads documents and identities; CorpusIQ reads business systems. A composed
 
 ## See Also
 
-- [Strac MCP DLP - Sensitive Data Redaction for AI Agents](/hermes/mcp/servers/external/strac-mcp-dlp/)
-- [Nizh MCP - Compliance Frameworks for AI Agents](/hermes/mcp/servers/external/nizh-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [Strac MCP DLP - Sensitive Data Redaction for AI Agents](/docs/hermes/mcp/servers/external/strac-mcp-dlp)
+- [Nizh MCP - Compliance Frameworks for AI Agents](/docs/hermes/mcp/servers/external/nizh-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

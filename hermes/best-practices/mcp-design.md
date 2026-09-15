@@ -15,7 +15,7 @@ Model Context Protocol (MCP) servers extend Hermes Agent with custom tools and d
 
 ## Overview
 
-MCP servers are how Hermes Agent connects to external systems. Each server exposes tools  --  typed, documented functions that the agent can call. Following [MCP design best practices](/hermes/best-practices/) ensures your server is reliable, performant, and easy for the community to adopt.
+MCP servers are how Hermes Agent connects to external systems. Each server exposes tools  --  typed, documented functions that the agent can call. Following [MCP design best practices](/docs/hermes/best-practices) ensures your server is reliable, performant, and easy for the community to adopt.
 
 ## How It Works
 
@@ -23,9 +23,9 @@ MCP servers are how Hermes Agent connects to external systems. Each server expos
 
 **Build when:** No existing MCP server exists for your data source, you need custom behavior, strict security demands self-hosting, or you're integrating an internal system.
 
-**Use existing when:** It covers your use case and is actively maintained. Search the [MCP ecosystem](/hermes/mcp/) and [skills catalog](/hermes/skills/) first.
+**Use existing when:** It covers your use case and is actively maintained. Search the [MCP ecosystem](/docs/hermes/mcp) and [skills catalog](/docs/hermes/skills) first.
 
-**Avoid building when:** A simple REST API call from a [skill](/hermes/skills/creating-skills/) would work. Not every integration needs an MCP server.
+**Avoid building when:** A simple REST API call from a [skill](/docs/hermes/skills/creating-skills) would work. Not every integration needs an MCP server.
 
 ### Tool Design Principles
 
@@ -65,7 +65,7 @@ MCP servers are how Hermes Agent connects to external systems. Each server expos
 ## FAQ
 
 ### Do I need to build an MCP server for every API integration?
-No. If the integration is a single API call with simple parameters, a [skill step](/hermes/skills/creating-skills/) is simpler. Build an MCP server when you need multiple tools, state management, authentication handling, or want to share with the community.
+No. If the integration is a single API call with simple parameters, a [skill step](/docs/hermes/skills/creating-skills) is simpler. Build an MCP server when you need multiple tools, state management, authentication handling, or want to share with the community.
 
 ### How do I handle pagination in MCP server tools?
 Always support `limit`/`offset` or cursor-based pagination for any tool that can return more than 50 items. Return pagination metadata (total count, next cursor) so callers know when more data is available.
@@ -75,11 +75,11 @@ Validate schema compliance with the MCP validator. Unit test each tool with vali
 
 ## Related Pages
 
-- [Best Practices Overview](/hermes/best-practices/)  --  All guides
-- [MCP Integration Guide](/hermes/mcp/)  --  Connect existing MCP servers
+- [Best Practices Overview](/docs/hermes/best-practices)  --  All guides
+- [MCP Integration Guide](/docs/hermes/mcp)  --  Connect existing MCP servers
 - [Skill Development](skill-development.md)  --  Skills that call MCP tools
 - [Security](security.md)  --  Secure MCP server auth patterns
-- [Creating Custom Skills](/hermes/skills/creating-skills/)  --  When skills are better than MCP servers
+- [Creating Custom Skills](/docs/hermes/skills/creating-skills)  --  When skills are better than MCP servers
 ---
 
 *

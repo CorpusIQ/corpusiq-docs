@@ -81,6 +81,6 @@ HostTracker's check results and incident state pair with CorpusIQ connectors for
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [PingCheck MCP - Status Page Monitoring for Agents](/hermes/mcp/servers/external/pingcheck-mcp/)
-- [World Monitor MCP](/hermes/mcp/servers/external/world-monitor-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [PingCheck MCP - Status Page Monitoring for Agents](/docs/hermes/mcp/servers/external/pingcheck-mcp)
+- [World Monitor MCP](/docs/hermes/mcp/servers/external/world-monitor-mcp)

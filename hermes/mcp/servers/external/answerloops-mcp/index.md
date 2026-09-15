@@ -71,7 +71,7 @@ AGPL-3.0: running a modified version as a network service requires publishing yo
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Asyntai MCP - AI Support Agent for Websites](/hermes/mcp/servers/external/asyntai-mcp/)
-- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/hermes/mcp/servers/external/imap-mcp/)
-- [BusyMail MCP - Human-Approval Email over MCP](/hermes/mcp/servers/external/busymail-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Asyntai MCP - AI Support Agent for Websites](/docs/hermes/mcp/servers/external/asyntai-mcp)
+- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/docs/hermes/mcp/servers/external/imap-mcp)
+- [BusyMail MCP - Human-Approval Email over MCP](/docs/hermes/mcp/servers/external/busymail-mcp)

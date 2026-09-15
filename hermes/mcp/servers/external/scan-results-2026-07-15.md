@@ -27,10 +27,10 @@ mcp.so remains HTML-only (no API). Web tools (Firecrawl) unavailable in cron env
 
 | Server | Source | Stars | Description | Guide |
 |--------|--------|-------|-------------|-------|
-| **MCP Email Server** ★ | mcpservers.org | 281★ | IMAP/SMTP email access for AI agents. Send/receive emails via MCP. Direct competitor to CorpusIQ email connector pattern. | [Guide](/hermes/mcp/servers/external/mcp-email-server/) |
-| **XActions** ★ | mcpservers.org | 384★ | Complete X/Twitter automation toolkit: scrapers, MCP server, CLI, browser scripts. No API fees. Auto follow, like, comment, scrape. | [Guide](/hermes/mcp/servers/external/xactions-mcp/) |
-| **Pretensor** ★ | mcpservers.org | 5★ | Kuzu-backed schema graph from live DB introspection. Creates knowledge graphs and serves MCP tools for AI to retrieve precomputed models. | [Guide](/hermes/mcp/servers/external/pretensor-mcp/) |
-| **MCP Notify** | mcpservers.org | 28★ | Monitor MCP Registry for new/updated/removed servers. Notifications via Discord, Slack, Email, Telegram, Webhooks, RSS. Includes CLI, Go SDK, REST API. | [Guide](/hermes/mcp/servers/external/mcp-notify/) |
+| **MCP Email Server** ★ | mcpservers.org | 281★ | IMAP/SMTP email access for AI agents. Send/receive emails via MCP. Direct competitor to CorpusIQ email connector pattern. | [Guide](/docs/hermes/mcp/servers/external/mcp-email-server) |
+| **XActions** ★ | mcpservers.org | 384★ | Complete X/Twitter automation toolkit: scrapers, MCP server, CLI, browser scripts. No API fees. Auto follow, like, comment, scrape. | [Guide](/docs/hermes/mcp/servers/external/xactions-mcp) |
+| **Pretensor** ★ | mcpservers.org | 5★ | Kuzu-backed schema graph from live DB introspection. Creates knowledge graphs and serves MCP tools for AI to retrieve precomputed models. | [Guide](/docs/hermes/mcp/servers/external/pretensor-mcp) |
+| **MCP Notify** | mcpservers.org | 28★ | Monitor MCP Registry for new/updated/removed servers. Notifications via Discord, Slack, Email, Telegram, Webhooks, RSS. Includes CLI, Go SDK, REST API. | [Guide](/docs/hermes/mcp/servers/external/mcp-notify) |
 
 ### INDEX-ONLY (Niche or Developer-Focused)
 

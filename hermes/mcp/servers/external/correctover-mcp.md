@@ -123,7 +123,7 @@ For operators running AI agents in production, this means contracts are validate
 
 - [Stripe MCP Guide](/hermes/mcp/#stripe)
 - [QuickBooks MCP Guide](/hermes/mcp/#quickbooks)
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
 
 ---
 

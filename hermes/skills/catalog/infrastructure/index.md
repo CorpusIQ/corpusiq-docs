@@ -20,8 +20,8 @@ Skills for integrating Hermes Agent with infrastructure. These skills enable aut
 
 ## Related
 
-- [Skills Catalog →](/hermes/skills/catalog/)
-- [Marketplace →](/hermes/skills/marketplace/)
+- [Skills Catalog →](/docs/hermes/skills/catalog)
+- [Marketplace →](/docs/hermes/skills/marketplace)
 
 ---
 

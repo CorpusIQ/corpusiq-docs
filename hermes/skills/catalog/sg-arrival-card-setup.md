@@ -133,4 +133,4 @@ Setting `.value` via JavaScript does NOT trigger Angular validation. Always use 
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [June 24 Discovery](/hermes/skills/marketplace/new-june24-2026/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [June 24 Discovery](/docs/hermes/skills/marketplace/new-june24-2026) →*

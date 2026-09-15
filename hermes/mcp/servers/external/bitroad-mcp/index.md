@@ -81,5 +81,5 @@ Bitroad is the agent's wallet; CorpusIQ is the operator's ledger. An agent buys 
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

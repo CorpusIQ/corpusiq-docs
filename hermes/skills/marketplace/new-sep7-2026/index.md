@@ -26,8 +26,8 @@ Both skills pass all three skills.sh security audits (Gen Agent Trust Hub / Sock
 
 ## Setup Guides
 
-- [Sleek Design Mobile Apps - Setup Guide](/hermes/skills/catalog/sleek-design-mobile-apps-setup/)
-- [Marketing Mindset - Setup Guide](/hermes/skills/catalog/marketing-mindset-setup/)
+- [Sleek Design Mobile Apps - Setup Guide](/docs/hermes/skills/catalog/sleek-design-mobile-apps-setup)
+- [Marketing Mindset - Setup Guide](/docs/hermes/skills/catalog/marketing-mindset-setup)
 
 ## Evaluated and Skipped
 

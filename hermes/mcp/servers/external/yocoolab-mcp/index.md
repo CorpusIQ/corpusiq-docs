@@ -92,7 +92,7 @@ Yocoolab turns product feedback into shipped fixes; CorpusIQ turns the business 
 
 ## See Also
 
-- [PingRoom MCP - Human Decisions and Notifications for Agents](/hermes/mcp/servers/external/pingroom-mcp/)
-- [Elium MCP - Enterprise Knowledge Base for Agents](/hermes/mcp/servers/external/elium-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [PingRoom MCP - Human Decisions and Notifications for Agents](/docs/hermes/mcp/servers/external/pingroom-mcp)
+- [Elium MCP - Enterprise Knowledge Base for Agents](/docs/hermes/mcp/servers/external/elium-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

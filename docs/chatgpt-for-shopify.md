@@ -123,19 +123,19 @@ Ready to put AI to work on your chatgpt for shopify data?
 
 ## Internal Links
 
-- [Claude for Shopify: Deep Ecommerce Analysis](/claude-for-shopify)
-- [Shopify AI Analytics: Automated Insights](/shopify-ai-analytics)
-- [Shopify Sales Analysis with AI](/shopify-sales-analysis-with-ai)
-- [Shopify Dashboard with ChatGPT](/shopify-dashboard-with-chatgpt)
-- [Shopify Business Intelligence Platform](/shopify-business-intelligence)
-- [ChatGPT for QuickBooks: AI Accounting](/chatgpt-for-quickbooks)
-- [ChatGPT for HubSpot: AI CRM Analytics](/chatgpt-for-hubspot)
+- [Claude for Shopify: Deep Ecommerce Analysis](/connect/shopify-with-claude)
+- [Shopify AI Analytics: Automated Insights](/connect/shopify-with-chatgpt)
+- [Shopify Sales Analysis with AI](/connect/shopify-with-chatgpt)
+- [Shopify Dashboard with ChatGPT](/connect/shopify-with-chatgpt)
+- [Shopify Business Intelligence Platform](/connect/shopify-with-chatgpt)
+- [ChatGPT for QuickBooks: AI Accounting](/connect/quickbooks-with-chatgpt)
+- [ChatGPT for HubSpot: AI CRM Analytics](/connect/hubspot-with-chatgpt)
 
 ## Your Store, Supercharged with AI
 
 ChatGPT for Shopify through CorpusIQ transforms how you interact with your ecommerce data. No more report exports, spreadsheet formulas, or dashboard limitations. Just ask, and receive.
 
-**[Connect your Shopify store to ChatGPT](/quick-start) and ask your first question in under 5 minutes.**
+**[Connect your Shopify store to ChatGPT](/docs) and ask your first question in under 5 minutes.**
 
 *Connect ChatGPT for Shopify  --  AI Ecommerce Analytics & Management... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

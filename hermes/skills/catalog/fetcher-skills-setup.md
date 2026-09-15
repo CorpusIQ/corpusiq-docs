@@ -76,6 +76,6 @@ hermes skills install fetcher-sh/fetcher-skills/twitter-api
 
 ## Related
 
-- [Playwright Social Media Automation Setup](/hermes/skills/catalog/playwright-social-media-automation-setup/)
-- [Content & Social category](/hermes/skills/catalog/)
-- [Skills Catalog](/hermes/skills/catalog/)
+- [Playwright Social Media Automation Setup](/docs/hermes/skills/catalog/playwright-social-media-automation-setup)
+- [Content & Social category](/docs/hermes/skills/catalog)
+- [Skills Catalog](/docs/hermes/skills/catalog)

@@ -87,8 +87,8 @@ Newsmind is the outside-in layer to CorpusIQ's inside-out layer. CorpusIQ connec
 
 ## See Also
 
-- [Webz.io News Search MCP - Global News Monitoring for AI Agents](/hermes/mcp/servers/external/webz-news-search/)
-- [SnitchFeed MCP - Brand and Competitor Mention Tracking](/hermes/mcp/servers/external/snitchfeed-mcp/)
-- [tube-bridge MCP - Self-Hosted YouTube Research and Transcript Corpora](/hermes/mcp/servers/external/tube-bridge-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [Webz.io News Search MCP - Global News Monitoring for AI Agents](/docs/hermes/mcp/servers/external/webz-news-search)
+- [SnitchFeed MCP - Brand and Competitor Mention Tracking](/docs/hermes/mcp/servers/external/snitchfeed-mcp)
+- [tube-bridge MCP - Self-Hosted YouTube Research and Transcript Corpora](/docs/hermes/mcp/servers/external/tube-bridge-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

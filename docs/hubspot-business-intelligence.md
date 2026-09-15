@@ -163,14 +163,14 @@ Ready to put AI to work on your hubspot business intelligence  --  connect your 
 
 ## Internal Links
 
-- [CorpusIQ vs Zapier  --  MCP Real-Time AI vs Workflow Automation](/corpusiq-vs-zapier)
-- [CorpusIQ vs Fivetran  --  Live Query vs ETL Batch Pipelines](/corpusiq-vs-fivetran)
-- [How to Connect Business Data to ChatGPT](/how-to-connect-business-data-to-chatgpt)
-- [Best MCP Server for Business](/best-mcp-server-for-business)
-- [Best Way to Connect ChatGPT to Business Data](/best-way-to-connect-chatgpt-to-business-data)
-- [Enterprise AI Data Access  --  Secure Connectivity](/enterprise-ai-data-access)
-- [How to Query Business Data in Natural Language](/how-to-query-business-data-in-natural-language)
-- [Top Business AI Tools  --  Comparison Guide](/top-business-ai-tools)
+- [CorpusIQ vs Zapier  --  MCP Real-Time AI vs Workflow Automation](/compare/corpusiq-vs-zapier)
+- [CorpusIQ vs Fivetran  --  Live Query vs ETL Batch Pipelines](/compare)
+- [How to Connect Business Data to ChatGPT](/answers)
+- [Best MCP Server for Business](/mcp)
+- [Best Way to Connect ChatGPT to Business Data](/connectors)
+- [Enterprise AI Data Access  --  Secure Connectivity](/enterprise)
+- [How to Query Business Data in Natural Language](/answers)
+- [Top Business AI Tools  --  Comparison Guide](/compare)
 
 ---
 

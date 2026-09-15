@@ -111,4 +111,4 @@ Operators running e-commerce stores, customer support teams, or marketing operat
 ---
 
 *Discovered: July 1, 2026 · Source: GitHub (topic:mcp-server created >2026-06-30)*
-*Part of the [CorpusIQ External MCP Server Catalog](/hermes/mcp/servers/external/)*
+*Part of the [CorpusIQ External MCP Server Catalog](/docs/hermes/mcp/servers/external)*

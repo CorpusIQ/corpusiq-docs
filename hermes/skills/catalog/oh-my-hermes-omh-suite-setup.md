@@ -134,15 +134,15 @@ hermes skills list | grep omh-
 ## Security
 
 - [witt3rd/oh-my-hermes repo](https://github.com/witt3rd/oh-my-hermes) - review SKILL.md files before install (standard practice)
-- [Hermes skills security](/hermes/best-practices/security/) - skill trust guidance
+- [Hermes skills security](/docs/hermes/best-practices/security) - skill trust guidance
 - [Hermes plugin docs](https://hermes-agent.nousresearch.com/docs) - plugin permission model
 
 ## Related
 
-- [Blueprint Orchestration - Multi-Agent Methodology](/hermes/skills/catalog/) - CorpusIQ's complementary multi-agent framework
-- [Oh-My-Hermes Workflow (reason-machines) Setup](/hermes/skills/catalog/oh-my-hermes-workflow-setup/) - the separate reason-machines-published workflow skill
-- [Agent Infrastructure catalog section](/hermes/skills/catalog/)
+- [Blueprint Orchestration - Multi-Agent Methodology](/docs/hermes/skills/catalog) - CorpusIQ's complementary multi-agent framework
+- [Oh-My-Hermes Workflow (reason-machines) Setup](/docs/hermes/skills/catalog/oh-my-hermes-workflow-setup) - the separate reason-machines-published workflow skill
+- [Agent Infrastructure catalog section](/docs/hermes/skills/catalog)
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

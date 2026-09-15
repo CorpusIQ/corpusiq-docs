@@ -109,4 +109,4 @@ Based on mcp.so listing data, TofuBofu provides:
 
 ---
 
-*← [Back to External MCP Catalog](/hermes/mcp/servers/external/) | [Next: Competitor Tracker & Co.](/hermes/mcp/servers/external/competitor-tracker-mcp/) →*
+*← [Back to External MCP Catalog](/docs/hermes/mcp/servers/external) | [Next: Competitor Tracker & Co.](/docs/hermes/mcp/servers/external/competitor-tracker-mcp) →*

@@ -23,9 +23,9 @@ Data files powering the Hermes ecosystem discovery engine - approved repositorie
 
 ---
 
-*← [Hermes Home](/hermes/)*
+*← [Hermes Home](/docs/hermes)*
 
 
 ## All Data Files
 
-- [Ecosystem Inclusion Criteria](/hermes/data/inclusion_criteria/)
+- [Ecosystem Inclusion Criteria](/docs/hermes/data/inclusion_criteria)

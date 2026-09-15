@@ -18,7 +18,7 @@ robots: "index,follow"
 
 The **Hermes Agent Library** is a curated collection of **production-ready agent configurations** for common business roles. Each agent is a complete configuration blueprint  --  not a demo or stub  --  that you can deploy in minutes and customize for your specific stack, workflows, and tools. Every agent includes role description, recommended model, skills to load, MCP connectors, cron schedule, and quick-start command.
 
-Agents in this library run on the [Hermes Agent framework](/hermes/) by Nous Research. They combine **LLM reasoning with persistent memory, scheduled execution, and deep integration with your business tools** through [CorpusIQ MCP connectors](/hermes/mcp/connectors/). An agent isn't just a prompt  --  it's an **always-on teammate** that monitors, analyzes, drafts, alerts, and reports on a schedule you define.
+Agents in this library run on the [Hermes Agent framework](/docs/hermes) by Nous Research. They combine **LLM reasoning with persistent memory, scheduled execution, and deep integration with your business tools** through [CorpusIQ MCP connectors](/docs/hermes/mcp/connectors). An agent isn't just a prompt  --  it's an **always-on teammate** that monitors, analyzes, drafts, alerts, and reports on a schedule you define.
 
 ## Overview
 
@@ -54,7 +54,7 @@ hermes config edit --profile sales
 
 ### 4. Add Your Business Context
 
-Agents work best when they understand your business. Use [canonical facts](/hermes/governance/) to store key definitions:
+Agents work best when they understand your business. Use [canonical facts](/docs/hermes/governance) to store key definitions:
 
 ```bash
 hermes canonical set --profile sales \
@@ -100,7 +100,7 @@ The **Hermes Agent Library** provides 9 production-ready, role-specific agent co
 
 ### Which agent should I deploy first?
 
-Start with the agent that solves your **most painful manual process**. For most businesses, that's the [Sales Agent](/hermes/agents/sales-agent/) (pipeline management), [Marketing Agent](/hermes/agents/marketing-agent/) (SEO monitoring), or [Executive Agent](/hermes/agents/executive-agent/) (daily briefings).
+Start with the agent that solves your **most painful manual process**. For most businesses, that's the [Sales Agent](/docs/hermes/agents/sales-agent) (pipeline management), [Marketing Agent](/docs/hermes/agents/marketing-agent) (SEO monitoring), or [Executive Agent](/docs/hermes/agents/executive-agent) (daily briefings).
 
 ### Can I run multiple agents simultaneously?
 
@@ -108,16 +108,16 @@ Yes. Deploy as many agents as you need. They run as separate Hermes profiles wit
 
 ### How much does running these agents cost?
 
-Cost varies by model and frequency. Lightweight monitoring with **Claude Haiku** costs pennies per day. Full-featured agents with **Claude Sonnet 4** may cost $1-5/day depending on frequency. See the [Model Selection Best Practices](/hermes/best-practices/model-selection/) for optimization tips.
+Cost varies by model and frequency. Lightweight monitoring with **Claude Haiku** costs pennies per day. Full-featured agents with **Claude Sonnet 4** may cost $1-5/day depending on frequency. See the [Model Selection Best Practices](/docs/hermes/best-practices/model-selection) for optimization tips.
 
 ## Related Pages
 
-- [Hermes Knowledge Hub  --  Architecture & Deployment](/hermes/)
-- [Skills Catalog  --  133+ Production Skills](/hermes/skills/catalog/)
-- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors/)
-- [Cron Scheduling Guide](/hermes/governance/scheduling/)
-- [Canonical Facts  --  Store Business Definitions](/hermes/governance/)
-- [Model Selection Best Practices](/hermes/best-practices/model-selection/)
+- [Hermes Knowledge Hub  --  Architecture & Deployment](/docs/hermes)
+- [Skills Catalog  --  133+ Production Skills](/docs/hermes/skills/catalog)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/docs/hermes/mcp/connectors)
+- [Cron Scheduling Guide](/docs/hermes/governance/scheduling)
+- [Canonical Facts  --  Store Business Definitions](/docs/hermes/governance)
+- [Model Selection Best Practices](/docs/hermes/best-practices/model-selection)
 
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*

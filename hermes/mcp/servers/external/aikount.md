@@ -130,6 +130,6 @@ Check [aikount.com](https://aikount.com) for current plans. Typically offers fre
 
 ---
 
-*← [External MCP Catalog](/hermes/mcp/servers/external/) | [MCP Overview](/hermes/mcp/)*
+*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Overview](/docs/hermes/mcp)*
 
-*↑ [MCP Documentation](/hermes/mcp/)*
+*↑ [MCP Documentation](/docs/hermes/mcp)*

@@ -37,31 +37,31 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 ### Agent Infrastructure
 | Publisher | Skills | Combined Installs | Tier | Guide |
 |---|---|---|---|---|
-| **google/agents-cli** | 6 (adk-code, workflow, eval, scaffold, deploy, observability) | 357K | 🟢 | [Setup Guide](/hermes/skills/catalog/google-agents-cli-setup/) |
-| **anthropics/knowledge-work-plugins** | 6 (data-viz, docs, code-review, dashboards, tasks, memory) | 43K | 🟢 | [Setup Guide](/hermes/skills/catalog/knowledge-work-plugins-setup/) |
+| **google/agents-cli** | 6 (adk-code, workflow, eval, scaffold, deploy, observability) | 357K | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/google-agents-cli-setup) |
+| **anthropics/knowledge-work-plugins** | 6 (data-viz, docs, code-review, dashboards, tasks, memory) | 43K | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/knowledge-work-plugins-setup) |
 
 ### Development & Design
 | Publisher | Skills | Combined Installs | Tier | Guide |
 |---|---|---|---|---|
-| **google-labs-code/stitch-skills** | 5 new (design-md, react, enhance-prompt, stitch-loop, shadcn-ui) | 285K | 🟡 | [Setup Guide](/hermes/skills/catalog/stitch-skills-setup/) |
-| **better-auth/skills** | 6 (best-practices, create-auth, email-password, org, 2fa, security) | 203K | 🟢 | [Setup Guide](/hermes/skills/catalog/better-auth-skills-setup/) |
-| **sanity-io/agent-toolkit** | 6 (best-practices, migration, seo-aeo, content-modeling, experimentation, portable-text) | 34K | 🟡 | [Setup Guide](/hermes/skills/catalog/sanity-agent-toolkit-setup/) |
+| **google-labs-code/stitch-skills** | 5 new (design-md, react, enhance-prompt, stitch-loop, shadcn-ui) | 285K | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/stitch-skills-setup) |
+| **better-auth/skills** | 6 (best-practices, create-auth, email-password, org, 2fa, security) | 203K | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/better-auth-skills-setup) |
+| **sanity-io/agent-toolkit** | 6 (best-practices, migration, seo-aeo, content-modeling, experimentation, portable-text) | 34K | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/sanity-agent-toolkit-setup) |
 
 ### Product & Strategy
 | Publisher | Skills | Combined Installs | Tier | Guide |
 |---|---|---|---|---|
-| **refoundai/lenny-skills** | 6 (productivity, competitive-analysis, prds, storytelling, ideation, vibe-coding) | 18K | 🟡 | [Setup Guide](/hermes/skills/catalog/lenny-skills-setup/) |
+| **refoundai/lenny-skills** | 6 (productivity, competitive-analysis, prds, storytelling, ideation, vibe-coding) | 18K | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/lenny-skills-setup) |
 
 ### Growth & Sales
 | Publisher | Skills | Combined Installs | Tier | Guide |
 |---|---|---|---|---|
-| **gtmagents/gtm-agents** | 6 (cold-outreach, scriptwriting, procurement, bids, seo-writing, fraud-detection) | 1.4K | 🔵 | [Setup Guide](/hermes/skills/catalog/gtm-agents-setup/) |
+| **gtmagents/gtm-agents** | 6 (cold-outreach, scriptwriting, procurement, bids, seo-writing, fraud-detection) | 1.4K | 🔵 | [Setup Guide](/docs/hermes/skills/catalog/gtm-agents-setup) |
 
 ### Content & Media
 | Publisher | Skills | Combined Installs | Tier | Guide |
 |---|---|---|---|---|
-| **skills-collective/skills** | 2 new (ai-image-gen, image-to-video) + video-edit | 100K | 🟡 | [Setup Guide](/hermes/skills/catalog/skills-collective-ai-media-setup/) |
-| **serpdownloaders/skills** | 6 (instagram, tiktok, vimeo, bilibili, unsplash, serp-images) | 6.6K | 🔵 | [Setup Guide](/hermes/skills/catalog/serpdownloaders-setup/) |
+| **skills-collective/skills** | 2 new (ai-image-gen, image-to-video) + video-edit | 100K | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/skills-collective-ai-media-setup) |
+| **serpdownloaders/skills** | 6 (instagram, tiktok, vimeo, bilibili, unsplash, serp-images) | 6.6K | 🔵 | [Setup Guide](/docs/hermes/skills/catalog/serpdownloaders-setup) |
 
 ## Already Catalogued Publishers (72 skills matched existing guides)
 Including: Anthropics official skills (frontend-design, skill-creator, pptx, pdf, docx, xlsx), Vercel agent-skills/browser, Firecrawl, Apify, Google Workspace, Stripe, Shopify, Supabase, Expo, Sentry, Matt Pocock, Dart, Flutter, and others.

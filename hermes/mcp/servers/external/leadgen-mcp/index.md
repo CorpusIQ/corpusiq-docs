@@ -83,7 +83,7 @@ Leadgen MCP covers the Romanian registry layer - a country-specific source none 
 
 ## See Also
 
-- [MisarReach MCP - Outbound Sales and Lead Pipeline for AI Agents](/hermes/mcp/servers/external/misarreach-mcp/)
-- [Apollo.io MCP - B2B Contact Data and Sequences](/hermes/mcp/servers/external/apollo-io-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [MisarReach MCP - Outbound Sales and Lead Pipeline for AI Agents](/docs/hermes/mcp/servers/external/misarreach-mcp)
+- [Apollo.io MCP - B2B Contact Data and Sequences](/docs/hermes/mcp/servers/external/apollo-io-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

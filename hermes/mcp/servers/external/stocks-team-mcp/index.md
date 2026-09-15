@@ -81,7 +81,7 @@ stocks.team supplies the external financial evidence layer that CorpusIQ reports
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [SEC EDGAR MCP - Full-Text Filing Search for Agents](/hermes/mcp/servers/external/sec-edgar-mcp/)
-- [Alpha Sophia MCP - US Healthcare Provider and Market Data](/hermes/mcp/servers/external/alpha-sophia-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [SEC EDGAR MCP - Full-Text Filing Search for Agents](/docs/hermes/mcp/servers/external/sec-edgar-mcp)
+- [Alpha Sophia MCP - US Healthcare Provider and Market Data](/docs/hermes/mcp/servers/external/alpha-sophia-mcp)

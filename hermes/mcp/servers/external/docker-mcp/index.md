@@ -69,6 +69,6 @@ For teams running CorpusIQ's MCP endpoint on Docker, this server enables self-ma
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [Kubernetes MCP Server](/hermes/mcp/servers/external/kubernetes-mcp-server/)
-- [Snowflake MCP](/hermes/mcp/servers/external/snowflake-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [Kubernetes MCP Server](/docs/hermes/mcp/servers/external/kubernetes-mcp-server)
+- [Snowflake MCP](/docs/hermes/mcp/servers/external/snowflake-mcp)

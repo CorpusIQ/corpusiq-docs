@@ -121,19 +121,19 @@ Ready to put AI to work on your claude for hubspot data?
 
 ## Internal Links
 
-- [ChatGPT for HubSpot: Conversational CRM AI](/chatgpt-for-hubspot)
-- [HubSpot AI Reporting: Automated Insights](/hubspot-ai-reporting)
-- [HubSpot Sales Analytics with AI](/hubspot-sales-analytics-with-ai)
-- [HubSpot Dashboard with ChatGPT](/hubspot-dashboard-with-chatgpt)
-- [HubSpot Business Intelligence Platform](/hubspot-business-intelligence)
-- [Claude for QuickBooks: Deep Financial Analysis](/claude-for-quickbooks)
-- [Claude for Shopify: Deep Ecommerce Analysis](/claude-for-shopify)
+- [ChatGPT for HubSpot: Conversational CRM AI](/connect/hubspot-with-chatgpt)
+- [HubSpot AI Reporting: Automated Insights](/connect/hubspot-with-chatgpt)
+- [HubSpot Sales Analytics with AI](/connect/hubspot-with-chatgpt)
+- [HubSpot Dashboard with ChatGPT](/connect/hubspot-with-chatgpt)
+- [HubSpot Business Intelligence Platform](/connect/hubspot-with-chatgpt)
+- [Claude for QuickBooks: Deep Financial Analysis](/connect/quickbooks-with-claude)
+- [Claude for Shopify: Deep Ecommerce Analysis](/connect/shopify-with-claude)
 
 ## Deep CRM Intelligence, Within Reach
 
 Claude for HubSpot through CorpusIQ brings enterprise-grade sales analytics to organizations of any size. The combination of Claude's analytical depth, your live CRM data, and CorpusIQ's MCP infrastructure delivers insights that were previously available only to companies with dedicated sales operations and data science teams.
 
-**[Connect Claude to HubSpot](/quick-start) and run your first deep sales analysis today.**
+**[Connect Claude to HubSpot](/docs) and run your first deep sales analysis today.**
 
 *Connect Claude for HubSpot  --  Advanced CRM Intelligence & Sales An... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

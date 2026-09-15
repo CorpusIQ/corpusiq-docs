@@ -209,7 +209,7 @@ Check these in order:
 - [Hermex GitHub Repo](https://github.com/uzairansaruzi/hermex)
 - [Hermex Website](https://hermexapp.com)
 - [Hermes Web UI (server)](https://github.com/nesquena/hermes-webui)
-- [Hermes Skills Marketplace](/hermes/skills/marketplace/)
+- [Hermes Skills Marketplace](/docs/hermes/skills/marketplace)
 
 ---
 

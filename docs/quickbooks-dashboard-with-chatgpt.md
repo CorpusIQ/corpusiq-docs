@@ -184,20 +184,20 @@ Ready to put AI to work on your quickbooks dashboard with chatgpt data?
 
 ## Internal Links
 
-- [ChatGPT for QuickBooks: AI-Powered Accounting](/chatgpt-for-quickbooks)
-- [Claude for QuickBooks: Deep Financial Analysis](/claude-for-quickbooks)
-- [QuickBooks AI Reporting: Automated Reports](/quickbooks-ai-reporting)
-- [QuickBooks Natural Language Queries](/quickbooks-natural-language-queries)
-- [How to Analyze QuickBooks Data with AI](/how-to-analyze-quickbooks-with-ai)
-- [QuickBooks Business Intelligence Platform](/quickbooks-business-intelligence)
-- [Shopify Dashboard with ChatGPT](/shopify-dashboard-with-chatgpt)
-- [HubSpot Dashboard with ChatGPT](/hubspot-dashboard-with-chatgpt)
+- [ChatGPT for QuickBooks: AI-Powered Accounting](/connect/quickbooks-with-chatgpt)
+- [Claude for QuickBooks: Deep Financial Analysis](/connect/quickbooks-with-claude)
+- [QuickBooks AI Reporting: Automated Reports](/connect/quickbooks-with-chatgpt)
+- [QuickBooks Natural Language Queries](/connect/quickbooks-with-chatgpt)
+- [How to Analyze QuickBooks Data with AI](/answers)
+- [QuickBooks Business Intelligence Platform](/connect/quickbooks-with-chatgpt)
+- [Shopify Dashboard with ChatGPT](/connect/shopify-with-chatgpt)
+- [HubSpot Dashboard with ChatGPT](/connect/hubspot-with-chatgpt)
 
 ## Your Financial Command Center
 
 A ChatGPT-powered QuickBooks dashboard is the fastest path to financial visibility. No BI tools, no data warehouses, no implementation projects. Just connect, ask, and receive.
 
-**[Set up your financial dashboard now](/quick-start)  --  connect QuickBooks in 60 seconds and ask for your first dashboard.**
+**[Set up your financial dashboard now](/docs)  --  connect QuickBooks in 60 seconds and ask for your first dashboard.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

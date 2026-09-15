@@ -94,7 +94,7 @@ docker compose exec hermes hermes mcp add honcho -- npx mcp-remote https://mcp.h
   --header "Authorization: Bearer ***"
 ```
 
-See the [MCP Integration Guide](/hermes/mcp/) for all available servers.
+See the [MCP Integration Guide](/docs/hermes/mcp) for all available servers.
 
 ## Crons and Persistence
 
@@ -105,7 +105,7 @@ docker compose exec hermes hermes cron create \
   --schedule "*/15 * * * *"
 ```
 
-Crons survive container restarts and image updates because they're stored in the `hermes_data` volume. Follow [cron design best practices](/hermes/best-practices/cron-design/) for production-grade scheduling.
+Crons survive container restarts and image updates because they're stored in the `hermes_data` volume. Follow [cron design best practices](/docs/hermes/best-practices/cron-design) for production-grade scheduling.
 
 ## Production Checklist
 
@@ -156,15 +156,15 @@ No  --  `docker compose pull` fetches the latest image from Docker Hub. Your con
 Yes, if the host has an NVIDIA GPU and the NVIDIA Container Toolkit installed. Pass `--gpus all` to `docker run` or add `deploy.resources.reservations.devices` in Compose.
 
 ### How do I add custom skills to Docker Hermes?
-Mount your skills directory: `- ./skills:/home/hermes/skills:ro`. New skills are immediately available. See the [custom skills guide](/hermes/skills/creating-skills/).
+Mount your skills directory: `- ./skills:/home/hermes/skills:ro`. New skills are immediately available. See the [custom skills guide](/docs/hermes/skills/creating-skills).
 
 ## Related Pages
 
-- [Hermes Agent Setup Overview](/hermes/setup/)  --  All platform options
+- [Hermes Agent Setup Overview](/docs/hermes/setup)  --  All platform options
 - [Cloud VPS Setup](cloud-vps.md)  --  Docker on cloud
 - [Gaming PC Setup](gaming-pc.md)  --  Docker with GPU passthrough
-- [MCP Integration Guide](/hermes/mcp/)  --  Connect tools inside containers
-- [Creating Custom Skills](/hermes/skills/creating-skills/)  --  Mount skills in Docker
+- [MCP Integration Guide](/docs/hermes/mcp)  --  Connect tools inside containers
+- [Creating Custom Skills](/docs/hermes/skills/creating-skills)  --  Mount skills in Docker
 ---
 
 *

@@ -83,7 +83,7 @@ Google Maps Email Extractor feeds directly into CorpusIQ's lead generation and o
 
 ## See Also
 
-- [Versium Reach - Lead Enrichment](/hermes/mcp/servers/external/)
-- [SyncGTM - B2B Leads & Enrichment](/hermes/mcp/servers/external/)
-- [Emailable MCP - Email Verification](/hermes/mcp/servers/external/pipeworx-business-data/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
+- [Versium Reach - Lead Enrichment](/docs/hermes/mcp/servers/external)
+- [SyncGTM - B2B Leads & Enrichment](/docs/hermes/mcp/servers/external)
+- [Emailable MCP - Email Verification](/docs/hermes/mcp/servers/external/pipeworx-business-data)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)

@@ -66,10 +66,10 @@ npx skills list | grep coderabbit
 
 ## Related
 
-- [Skills Catalog](/hermes/skills/catalog/)
-- [Review Loop Skill Setup](/hermes/skills/catalog/review-loop-skill-setup/) - review → feedback → verify loop
-- [ECC Engineering Skills Setup](/hermes/skills/catalog/ecc-engineering-skills-setup/) - security-review companion
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Review Loop Skill Setup](/docs/hermes/skills/catalog/review-loop-skill-setup) - review → feedback → verify loop
+- [ECC Engineering Skills Setup](/docs/hermes/skills/catalog/ecc-engineering-skills-setup) - security-review companion
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

@@ -26,16 +26,16 @@ CorpusIQ provides read-only external-source retrieval between authorized SaaS ap
 
 | Section | Description |
 |---------|-------------|
-| [Quick Start](/quick-start) | Get up and running in under 5 minutes |
-| [API Overview](/api/overview) | Base URL, endpoints, and core concepts |
-| [API Reference](/api/endpoints) | Full endpoint documentation with request/response schemas |
-| [Authentication](/api/authentication) | Bearer token management and security best practices |
+| [Quick Start](/docs) | Get up and running in under 5 minutes |
+| [API Overview](/docs/api/overview) | Base URL, endpoints, and core concepts |
+| [API Reference](/docs/api/endpoints) | Full endpoint documentation with request/response schemas |
+| [Authentication](/docs/api/authentication) | Bearer token management and security best practices |
 | [Connectors](/connectors) | Complete list of supported integrations |
 | [Security](/security) | Architecture, compliance, and data handling |
-| [Rate Limits](/api/rate-limits) | Per-endpoint rate limits and quotas |
-| [Webhooks](/api/webhooks) | Current webhook-contract availability |
-| [OpenAPI Spec](/api/openapi) | Importable OpenAPI 3.0.3 specification |
-| [Changelog](/changelog) | Release history and version notes |
+| [Rate Limits](/docs/api/rate-limits) | Per-endpoint rate limits and quotas |
+| [Webhooks](/docs/api/webhooks) | Current webhook-contract availability |
+| [OpenAPI Spec](/docs/api/openapi) | Importable OpenAPI 3.0.3 specification |
+| [Changelog](/blog) | Release history and version notes |
 
 ## Architecture at a Glance
 

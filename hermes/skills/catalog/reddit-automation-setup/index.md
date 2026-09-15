@@ -99,9 +99,9 @@ This skill enforces strict ethical rules:
 
 ## Related Skills
 
-- [Reddit Research Setup](/hermes/skills/catalog/reddit-research-setup/) - General Reddit data extraction
-- [Content Strategy Setup](/hermes/skills/catalog/content-strategy-setup/) - Belief-bridge content framework
-- [Social Media Marketing Setup](/hermes/skills/catalog/social-media-marketing-setup/) - Cross-platform social strategy
+- [Reddit Research Setup](/docs/hermes/skills/catalog/reddit-research-setup) - General Reddit data extraction
+- [Content Strategy Setup](/docs/hermes/skills/catalog/content-strategy-setup) - Belief-bridge content framework
+- [Social Media Marketing Setup](/docs/hermes/skills/catalog/social-media-marketing-setup) - Cross-platform social strategy
 
 ## Source
 

@@ -81,8 +81,8 @@ Beamtrace answers "are AI engines citing us"; CorpusIQ answers "did the traffic 
 
 ## See Also
 
-- [Ranki MCP - SEO and AEO Audits](/hermes/mcp/servers/external/ranki-mcp/)
-- [Encited MCP - SEO and AI Visibility for Agents](/hermes/mcp/servers/external/encited-mcp/)
-- [CiteRank MCP - AI Search Visibility Audits](/hermes/mcp/servers/external/citerank-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [Ranki MCP - SEO and AEO Audits](/docs/hermes/mcp/servers/external/ranki-mcp)
+- [Encited MCP - SEO and AI Visibility for Agents](/docs/hermes/mcp/servers/external/encited-mcp)
+- [CiteRank MCP - AI Search Visibility Audits](/docs/hermes/mcp/servers/external/citerank-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

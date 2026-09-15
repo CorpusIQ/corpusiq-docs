@@ -63,7 +63,7 @@ npx skills list | grep skills-collective
 
 ## Notes
 
-- `ai-video-generation` from same publisher already catalogued at [ai-video-generation-setup](/hermes/skills/catalog/ai-video-generation-setup/) (49K installs)
+- `ai-video-generation` from same publisher already catalogued at [ai-video-generation-setup](/docs/hermes/skills/catalog/ai-video-generation-setup) (49K installs)
 - `image-to-video` complements HeyGen/HyperFrames video pipelines for quick animated content
 - `ai-image-generation` useful for social media and blog post images
 - Quality tier 🟡 Beta: 100K+ combined for 2 new skills, 149K+ including ai-video-generation

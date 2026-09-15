@@ -76,6 +76,6 @@ SenderKit's structured results pair with CorpusIQ connectors for attribution: jo
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [LiveSend MCP](/hermes/mcp/servers/external/livesend-mcp/)
-- [MisarMail MCP](/hermes/mcp/servers/external/misarmail-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [LiveSend MCP](/docs/hermes/mcp/servers/external/livesend-mcp)
+- [MisarMail MCP](/docs/hermes/mcp/servers/external/misarmail-mcp)

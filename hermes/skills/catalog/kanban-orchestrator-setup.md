@@ -87,7 +87,7 @@ hermes skills list | grep kanban-orchestrator
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [June 15 Discovery](/hermes/skills/marketplace/new-june15-2026/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [June 15 Discovery](/docs/hermes/skills/marketplace/new-june15-2026) →*
 
 *Powered by CorpusIQ*
 ---

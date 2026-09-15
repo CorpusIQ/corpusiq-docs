@@ -20,9 +20,9 @@ This is a **grab-bag of cron + skill templates** you can copy, adapt, and deploy
 
 ## Overview
 
-**Stop starting from scratch.** These 12 templates cover the most common automation patterns  --  email monitoring, report generation, data sync, anomaly detection, and platform-specific integrations. Each template has been production-tested on a [24/7 Hermes deployment](/hermes/).
+**Stop starting from scratch.** These 12 templates cover the most common automation patterns  --  email monitoring, report generation, data sync, anomaly detection, and platform-specific integrations. Each template has been production-tested on a [24/7 Hermes deployment](/docs/hermes).
 
-> **See also:** [Cron Scheduling Guide](/hermes/governance/scheduling/) · [Outputs Overview](/hermes/outputs/) · [Agent Library](/hermes/agents/)
+> **See also:** [Cron Scheduling Guide](/docs/hermes/governance/scheduling) · [Outputs Overview](/docs/hermes/outputs) · [Agent Library](/docs/hermes/agents)
 
 ## How to Use These Templates
 
@@ -216,7 +216,7 @@ Start with the **Daily Executive Summary** (report generation) to replace your m
 
 ### Do these templates work with any MCP connector?
 
-Yes. The templates use standard Hermes skill references. Replace the `skill` name with your actual skill filename, and ensure your connectors are authenticated via `hermes setup connectors`. The [CorpusIQ MCP connectors](/hermes/mcp/connectors/) provide 40+ business tool integrations through a single OAuth flow.
+Yes. The templates use standard Hermes skill references. Replace the `skill` name with your actual skill filename, and ensure your connectors are authenticated via `hermes setup connectors`. The [CorpusIQ MCP connectors](/docs/hermes/mcp/connectors) provide 40+ business tool integrations through a single OAuth flow.
 
 ### How do I customize thresholds and schedules?
 
@@ -224,11 +224,11 @@ Edit the YAML `schedule` field with standard cron expressions, and adjust thresh
 
 ## Related Pages
 
-- [Outputs Overview  --  Industry Case Studies](/hermes/outputs/)
-- [Cron Scheduling Guide  --  38 Production Crons](/hermes/governance/scheduling/)
-- [Agent Library  --  9 Role Configurations](/hermes/agents/)
-- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors/)
-- [Architecture  --  6-Layer Production Model](/hermes/architecture/)
+- [Outputs Overview  --  Industry Case Studies](/docs/hermes/outputs)
+- [Cron Scheduling Guide  --  38 Production Crons](/docs/hermes/governance/scheduling)
+- [Agent Library  --  9 Role Configurations](/docs/hermes/agents)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/docs/hermes/mcp/connectors)
+- [Architecture  --  6-Layer Production Model](/docs/hermes/architecture)
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

@@ -77,6 +77,6 @@ w0 pairs with CorpusIQ's analytics connectors to close the AI-visibility loop. A
 
 ## See Also
 
-- [CiteRank MCP - AI Search Visibility Audits](/hermes/mcp/servers/external/citerank-mcp/)
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [CiteRank MCP - AI Search Visibility Audits](/docs/hermes/mcp/servers/external/citerank-mcp)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

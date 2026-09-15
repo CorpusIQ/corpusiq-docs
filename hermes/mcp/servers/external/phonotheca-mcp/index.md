@@ -82,7 +82,7 @@ Phonotheca supplies what customers said; CorpusIQ supplies what they did. An age
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/) - curated third-party MCP servers for operators
-- [Feedback Synthesis MCP](/hermes/mcp/servers/external/feedback-synthesis-mcp/) - customer feedback aggregation and analysis
-- [Arc Research MCP](/hermes/mcp/servers/external/arc-research-mcp/) - research workflow tools for agents
-- [Tube Bridge MCP](/hermes/mcp/servers/external/tube-bridge-mcp/) - video content research and extraction
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [Feedback Synthesis MCP](/docs/hermes/mcp/servers/external/feedback-synthesis-mcp) - customer feedback aggregation and analysis
+- [Arc Research MCP](/docs/hermes/mcp/servers/external/arc-research-mcp) - research workflow tools for agents
+- [Tube Bridge MCP](/docs/hermes/mcp/servers/external/tube-bridge-mcp) - video content research and extraction

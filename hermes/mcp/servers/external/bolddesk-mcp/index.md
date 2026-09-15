@@ -83,7 +83,7 @@ BoldDesk covers the conversational layer of support operations; CorpusIQ covers 
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [Drag MCP - Gmail Shared Inbox Operations for AI Agents](/hermes/mcp/servers/external/dragapp-mcp/)
-- [Modem MCP - Customer Feedback Intelligence for AI Agents](/hermes/mcp/servers/external/modem-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Drag MCP - Gmail Shared Inbox Operations for AI Agents](/docs/hermes/mcp/servers/external/dragapp-mcp)
+- [Modem MCP - Customer Feedback Intelligence for AI Agents](/docs/hermes/mcp/servers/external/modem-mcp)

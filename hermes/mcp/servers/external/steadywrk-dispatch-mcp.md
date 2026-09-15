@@ -122,4 +122,4 @@ This replaces the manual "receive email, call trades, get paper quote, type invo
 
 ---
 
-*← [External MCP Catalog](/hermes/mcp/servers/external/) | [MCP Overview](/hermes/mcp/)*
+*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Overview](/docs/hermes/mcp)*

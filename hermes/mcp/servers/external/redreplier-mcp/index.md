@@ -49,5 +49,5 @@ Endpoint live-probed over JSON-RPC: anonymous initialize returned HTTP 401 with 
 
 ## See Also
 
-- [Reach MCP - Operate a Real LinkedIn Account from Your Agent](/hermes/mcp/servers/external/reach-mcp/)
-- [GramClaw MCP - Telegram Outreach Workflow for Agents](/hermes/mcp/servers/external/gramclaw-mcp/)
+- [Reach MCP - Operate a Real LinkedIn Account from Your Agent](/docs/hermes/mcp/servers/external/reach-mcp)
+- [GramClaw MCP - Telegram Outreach Workflow for Agents](/docs/hermes/mcp/servers/external/gramclaw-mcp)

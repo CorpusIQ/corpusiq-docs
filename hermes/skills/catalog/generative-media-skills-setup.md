@@ -109,8 +109,8 @@ Full catalog: `SKILL_INDEX.md` in the repo (153 packages: 25 categories split in
 
 ## Related
 
-- [GPT-Image-2 Style Library Setup](/hermes/skills/catalog/gpt-image-2-style-library-setup/) - style templates for the same image backend
-- [Skills Marketplace](/hermes/skills/marketplace/) - marketplace index for more discovery batches
-- [New Skills - August 26, 2026](/hermes/skills/marketplace/new-aug26-2026/) - discovery page for this sweep
+- [GPT-Image-2 Style Library Setup](/docs/hermes/skills/catalog/gpt-image-2-style-library-setup) - style templates for the same image backend
+- [Skills Marketplace](/docs/hermes/skills/marketplace) - marketplace index for more discovery batches
+- [New Skills - August 26, 2026](/docs/hermes/skills/marketplace/new-aug26-2026) - discovery page for this sweep
 
 *Powered by CorpusIQ*

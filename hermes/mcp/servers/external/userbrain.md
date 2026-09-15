@@ -46,5 +46,5 @@ https://mcp.userbrain.com/mcp
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Analytics Connectors - GA4, PostHog](/hermes/mcp/connectors/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Analytics Connectors - GA4, PostHog](/docs/hermes/mcp/connectors)

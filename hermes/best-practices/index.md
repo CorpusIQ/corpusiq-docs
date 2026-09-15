@@ -125,7 +125,7 @@ Follow [cron design best practices](cron-design.md): make every cron idempotent,
 - [Security Best Practices](security.md)  --  Token management and approval gates
 - [Skill Development](skill-development.md)  --  Building reusable skills
 - [MCP Server Design](mcp-design.md)  --  Custom tool development
-- [Setup Guides](/hermes/setup/)  --  Platform-specific installation
+- [Setup Guides](/docs/hermes/setup)  --  Platform-specific installation
 
 ---
 

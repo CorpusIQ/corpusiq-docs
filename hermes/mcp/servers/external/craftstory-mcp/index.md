@@ -55,6 +55,6 @@ npm `@craftstory/mcp` live at v0.1.3, source repo github.com/itseez3d/craftstory
 
 ## See Also
 
-- [Shhots AI MCP - AI UGC Ads and Avatar Videos](/hermes/mcp/servers/external/shhots-ai-mcp/)
-- [ReelsFarm MCP - Short-Form Social Content Production](/hermes/mcp/servers/external/reelsfarm-mcp/)
-- [ViewMax MCP - AI Video, Image and Speech Generation](/hermes/mcp/servers/external/viewmax-mcp/)
+- [Shhots AI MCP - AI UGC Ads and Avatar Videos](/docs/hermes/mcp/servers/external/shhots-ai-mcp)
+- [ReelsFarm MCP - Short-Form Social Content Production](/docs/hermes/mcp/servers/external/reelsfarm-mcp)
+- [ViewMax MCP - AI Video, Image and Speech Generation](/docs/hermes/mcp/servers/external/viewmax-mcp)

@@ -26,12 +26,12 @@ Both sources remain accessible: mcp.so via curl text-stripping from SPA payloads
 
 | Server | Source | Description | Guide |
 |--------|--------|-------------|-------|
-| **Competitor Tracker & Co.** ★ | mcp.so | Weekly competitor website crawling - pricing, product, messaging changes detected and filed as tagged reports. Submitted July 16. | [competitor-tracker-mcp](/hermes/mcp/servers/external/competitor-tracker-mcp/) |
-| **Lawstronaut** ★ | mcp.so | Millions of legal/regulatory documents from 155+ jurisdictions. Structured legal research via MCP. Submitted July 15. | [lawstronaut-mcp](/hermes/mcp/servers/external/lawstronaut-mcp/) |
-| **Capital.com Public API MCP** ★ | mcpservers.org | Trading account access + market data via MCP. Position checks, trade previews, plain-language queries. Submitted July 16. | [capital-com-mcp](/hermes/mcp/servers/external/capital-com-mcp/) |
-| **Agentcard** ★ | mcpservers.org | Prepaid virtual cards for AI agents with spend caps and human approvals. Submitted July 15. | [agentcard-mcp](/hermes/mcp/servers/external/agentcard-mcp/) |
-| **TranscriptFetch MCP** ★ | mcp.so | YouTube transcript fetching, search, channels, and playlists via MCP. Submitted July 16. | [transcriptfetch-mcp](/hermes/mcp/servers/external/transcriptfetch-mcp/) |
-| **Linkly Link Shortener** ★ | mcpservers.org | Link management with geo redirects, link rotators, and conversion tracking via MCP. Submitted July 16. | [linkly-mcp](/hermes/mcp/servers/external/linkly-mcp/) |
+| **Competitor Tracker & Co.** ★ | mcp.so | Weekly competitor website crawling - pricing, product, messaging changes detected and filed as tagged reports. Submitted July 16. | [competitor-tracker-mcp](/docs/hermes/mcp/servers/external/competitor-tracker-mcp) |
+| **Lawstronaut** ★ | mcp.so | Millions of legal/regulatory documents from 155+ jurisdictions. Structured legal research via MCP. Submitted July 15. | [lawstronaut-mcp](/docs/hermes/mcp/servers/external/lawstronaut-mcp) |
+| **Capital.com Public API MCP** ★ | mcpservers.org | Trading account access + market data via MCP. Position checks, trade previews, plain-language queries. Submitted July 16. | [capital-com-mcp](/docs/hermes/mcp/servers/external/capital-com-mcp) |
+| **Agentcard** ★ | mcpservers.org | Prepaid virtual cards for AI agents with spend caps and human approvals. Submitted July 15. | [agentcard-mcp](/docs/hermes/mcp/servers/external/agentcard-mcp) |
+| **TranscriptFetch MCP** ★ | mcp.so | YouTube transcript fetching, search, channels, and playlists via MCP. Submitted July 16. | [transcriptfetch-mcp](/docs/hermes/mcp/servers/external/transcriptfetch-mcp) |
+| **Linkly Link Shortener** ★ | mcpservers.org | Link management with geo redirects, link rotators, and conversion tracking via MCP. Submitted July 16. | [linkly-mcp](/docs/hermes/mcp/servers/external/linkly-mcp) |
 
 ### INDEX-ONLY (Business-Adjacent, Niche, or Developer-Focused)
 
@@ -76,4 +76,4 @@ Both sources remain accessible: mcp.so via curl text-stripping from SPA payloads
 
 ---
 
-*← [Back to External MCP Catalog](/hermes/mcp/servers/external/) | [Previous Scan (July 14)](/hermes/mcp/servers/external/scan-results-2026-07-14/) →*
+*← [Back to External MCP Catalog](/docs/hermes/mcp/servers/external) | [Previous Scan (July 14)](/docs/hermes/mcp/servers/external/scan-results-2026-07-14) →*

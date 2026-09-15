@@ -84,6 +84,6 @@ If the CLI rejects the multi-skill source, clone [genmedia-labs/skills](https://
 
 ## Related
 
-- [RunComfy Agent Skills Setup](/hermes/skills/catalog/runcomfy-agent-skills-setup/)
-- [Skills-101 Superpowers Setup](/hermes/skills/catalog/skills-101-superpowers-setup/)
-- [Skills Catalog](/hermes/skills/catalog/)
+- [RunComfy Agent Skills Setup](/docs/hermes/skills/catalog/runcomfy-agent-skills-setup)
+- [Skills-101 Superpowers Setup](/docs/hermes/skills/catalog/skills-101-superpowers-setup)
+- [Skills Catalog](/docs/hermes/skills/catalog)

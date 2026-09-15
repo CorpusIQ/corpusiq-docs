@@ -138,14 +138,14 @@ A: CorpusIQ is a managed platform. For custom logic, you can combine CorpusIQ (f
 
 ## Internal Links
 
-- [CorpusIQ vs Vector Databases  --  MCP Retrieval vs Vector Search](/corpusiq-vs-vector-databases)
-- [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/corpusiq-vs-langchain)
-- [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/corpusiq-vs-data-warehouses)
-- [How to Build an AI Knowledge Base](/how-to-build-an-ai-knowledge-base)
-- [How to Create an AI Data Layer](/how-to-create-an-ai-data-layer)
-- [Best MCP Server for Business](/best-mcp-server-for-business)
-- [Best AI Knowledge Platform](/best-ai-knowledge-platform)
-- [Enterprise AI Data Access Guide](/enterprise-ai-data-access)
+- [CorpusIQ vs Vector Databases  --  MCP Retrieval vs Vector Search](/compare)
+- [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/compare)
+- [CorpusIQ vs Data Warehouses  --  Live Query vs Stored Data](/compare)
+- [How to Build an AI Knowledge Base](/answers)
+- [How to Create an AI Data Layer](/answers)
+- [Best MCP Server for Business](/mcp)
+- [Best AI Knowledge Platform](/compare)
+- [Enterprise AI Data Access Guide](/enterprise)
 ---
 
 *

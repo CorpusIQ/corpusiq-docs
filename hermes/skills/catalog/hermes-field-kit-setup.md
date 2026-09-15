@@ -99,9 +99,9 @@ hermes skills install asimons81/hermes-field-kit/hermes-stack-doctor --yes   # v
 
 ## Related
 
-- [Skills Catalog](/hermes/skills/catalog/)
-- [Skills Marketplace](/hermes/skills/marketplace/)
-- [AtlasOmnia Hermes Custom Pack Setup](/hermes/skills/catalog/atlasomnia-hermes-custom-pack-setup/)
-- [Buzz Skills - Hermes on Nostr Setup](/hermes/skills/catalog/buzz-skills-setup/)
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [AtlasOmnia Hermes Custom Pack Setup](/docs/hermes/skills/catalog/atlasomnia-hermes-custom-pack-setup)
+- [Buzz Skills - Hermes on Nostr Setup](/docs/hermes/skills/catalog/buzz-skills-setup)
 
 *Powered by CorpusIQ*

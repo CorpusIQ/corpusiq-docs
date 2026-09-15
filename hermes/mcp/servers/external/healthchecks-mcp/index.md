@@ -92,7 +92,7 @@ healthchecks-mcp gives CorpusIQ-driven workflows an ops feedback loop: a CorpusI
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [HostTracker MCP - Uptime Monitoring from 300+ Locations](/hermes/mcp/servers/external/hosttracker-mcp/)
-- [Centipid ISP Billing MCP - Subscriber and Network Operations Data](/hermes/mcp/servers/external/centipid-billing-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [HostTracker MCP - Uptime Monitoring from 300+ Locations](/docs/hermes/mcp/servers/external/hosttracker-mcp)
+- [Centipid ISP Billing MCP - Subscriber and Network Operations Data](/docs/hermes/mcp/servers/external/centipid-billing-mcp)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

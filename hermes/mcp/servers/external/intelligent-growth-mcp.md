@@ -54,4 +54,4 @@ CorpusIQ Social → Execute positioning through scheduled content (Postiz)
 - Hosted endpoint availability not guaranteed long-term
 - No integration with ad platforms (Google Ads, Meta Ads) - positioning only
 
-*Back to [External MCP Catalog](/hermes/mcp/servers/external/)*
+*Back to [External MCP Catalog](/docs/hermes/mcp/servers/external)*

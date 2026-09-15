@@ -80,8 +80,8 @@ npx skills add hardikpandya/stop-slop   # verify install works
 
 ## Related
 
-- [Avoid AI Writing Setup](/hermes/skills/catalog/avoid-ai-writing-setup/)
-- [Skills Catalog](/hermes/skills/catalog/)
-- [Skills Marketplace](/hermes/skills/marketplace/)
+- [Avoid AI Writing Setup](/docs/hermes/skills/catalog/avoid-ai-writing-setup)
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Skills Marketplace](/docs/hermes/skills/marketplace)
 
 *Powered by CorpusIQ*

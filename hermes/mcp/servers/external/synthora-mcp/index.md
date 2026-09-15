@@ -81,7 +81,7 @@ SYNTHORA is the external-intelligence and compliance layer; CorpusIQ is the inte
 
 ## See Also
 
-- [Profitelligence MCP - Financial Intelligence from SEC Data](/hermes/mcp/servers/external/profitelligence-mcp/)
-- [Live Listing Proof MCP - Fail-Closed Listing Verification](/hermes/mcp/servers/external/live-listing-proof-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [Profitelligence MCP - Financial Intelligence from SEC Data](/docs/hermes/mcp/servers/external/profitelligence-mcp)
+- [Live Listing Proof MCP - Fail-Closed Listing Verification](/docs/hermes/mcp/servers/external/live-listing-proof-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

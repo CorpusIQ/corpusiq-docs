@@ -33,9 +33,9 @@ pip install -U hermes-agent
 
 ---
 
-*← [v0.18.1 - Infrastructure Patch](/hermes/changelog/v0.18.1/) | [Changelog Home](/hermes/changelog/) →*
+*← [v0.18.1 - Infrastructure Patch](/docs/hermes/changelog/v0.18.1) | [Changelog Home](/docs/hermes/changelog) →*
 
-*↑ [Changelog Home](/hermes/changelog/)*
+*↑ [Changelog Home](/docs/hermes/changelog)*
 
 ---
 

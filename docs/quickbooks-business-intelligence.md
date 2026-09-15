@@ -154,20 +154,20 @@ Ready to put AI to work on your quickbooks business intelligence data?
 
 ## Internal Links
 
-- [ChatGPT for QuickBooks: AI-Powered Accounting](/chatgpt-for-quickbooks)
-- [Claude for QuickBooks: Deep Financial Analysis](/claude-for-quickbooks)
-- [QuickBooks AI Reporting: Automated Reports](/quickbooks-ai-reporting)
-- [QuickBooks Natural Language Queries](/quickbooks-natural-language-queries)
-- [How to Analyze QuickBooks Data with AI](/how-to-analyze-quickbooks-with-ai)
-- [QuickBooks Dashboard with ChatGPT](/quickbooks-dashboard-with-chatgpt)
-- [Shopify Business Intelligence Platform](/shopify-business-intelligence)
-- [HubSpot Business Intelligence Platform](/hubspot-business-intelligence)
+- [ChatGPT for QuickBooks: AI-Powered Accounting](/connect/quickbooks-with-chatgpt)
+- [Claude for QuickBooks: Deep Financial Analysis](/connect/quickbooks-with-claude)
+- [QuickBooks AI Reporting: Automated Reports](/connect/quickbooks-with-chatgpt)
+- [QuickBooks Natural Language Queries](/connect/quickbooks-with-chatgpt)
+- [How to Analyze QuickBooks Data with AI](/answers)
+- [QuickBooks Dashboard with ChatGPT](/connect/quickbooks-with-chatgpt)
+- [Shopify Business Intelligence Platform](/connect/shopify-with-chatgpt)
+- [HubSpot Business Intelligence Platform](/connect/hubspot-with-chatgpt)
 
 ## From Accounting System to Intelligence Platform
 
 QuickBooks is where your financial truth lives. CorpusIQ Business Intelligence makes that truth accessible, contextual, and actionable  --  by connecting it to every other system that drives your business. The result is not just better accounting. It's better decision-making.
 
-**[Transform QuickBooks into your BI platform](/quick-start). Connect your sources and ask your first cross-system question in under 5 minutes.**
+**[Transform QuickBooks into your BI platform](/docs). Connect your sources and ask your first cross-system question in under 5 minutes.**
 
 ---
 *AI-powered QuickBooks Business Intelligence  --  AI-Powered BI Platform...  --  [corpusiq.io](https://www.corpusiq.io) validates every answer before your AI sees it.*

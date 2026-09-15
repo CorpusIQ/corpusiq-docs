@@ -18,11 +18,11 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 | # | Repo | Stars | Type | Setup Guide |
 |---|------|:-----:|------|:-----------:|
-| 1 | `codegraphtheory/context-forge-rag` | ⭐1 | Hermes Profile (RAG) | [ContextForge RAG Setup](/hermes/skills/catalog/context-forge-rag-setup/) |
-| 2 | `tommulkins/hermes-skill-math-via-code` | ⭐0 | Skill (Math) | [Math via Code Setup](/hermes/skills/catalog/math-via-code-setup/) |
-| 3 | `Chukwuemeka001/hermes-memory-stack` | ⭐0 | Memory OS | [Memory Stack Setup](/hermes/skills/catalog/hermes-memory-stack-setup/) |
-| 4 | `EricTechPro/loop-maker` | ⭐0 | Loop Scaffolding | [Loop Maker Setup](/hermes/skills/catalog/loop-maker-setup/) |
-| 5 | `Victor-F-M-A-R/skywork-skill-skill-repo-manager` | ⭐0 | Skill Management | [Skill Repo Manager Setup](/hermes/skills/catalog/skill-repo-manager-setup/) |
+| 1 | `codegraphtheory/context-forge-rag` | ⭐1 | Hermes Profile (RAG) | [ContextForge RAG Setup](/docs/hermes/skills/catalog/context-forge-rag-setup) |
+| 2 | `tommulkins/hermes-skill-math-via-code` | ⭐0 | Skill (Math) | [Math via Code Setup](/docs/hermes/skills/catalog/math-via-code-setup) |
+| 3 | `Chukwuemeka001/hermes-memory-stack` | ⭐0 | Memory OS | [Memory Stack Setup](/docs/hermes/skills/catalog/hermes-memory-stack-setup) |
+| 4 | `EricTechPro/loop-maker` | ⭐0 | Loop Scaffolding | [Loop Maker Setup](/docs/hermes/skills/catalog/loop-maker-setup) |
+| 5 | `Victor-F-M-A-R/skywork-skill-skill-repo-manager` | ⭐0 | Skill Management | [Skill Repo Manager Setup](/docs/hermes/skills/catalog/skill-repo-manager-setup) |
 
 ---
 
@@ -169,6 +169,6 @@ The hub includes skills for: animations, architecture design, artifacts building
 
 ---
 
-*← [Marketplace Home](/hermes/skills/marketplace/) | [Skills Catalog](/hermes/skills/catalog/) →*
+*← [Marketplace Home](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) →*
 
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills). Built by [CorpusIQ](https://www.corpusiq.io).*

@@ -80,7 +80,7 @@ CorpusIQ connectors read company records from accounting and CRM systems; regist
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [Factanker MCP - Evidence-Backed Company and Bank Facts](/hermes/mcp/servers/external/factanker-mcp/)
-- [NeuralVerge MCP - B2B People and Company Data](/hermes/mcp/servers/external/neuralverge-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Factanker MCP - Evidence-Backed Company and Bank Facts](/docs/hermes/mcp/servers/external/factanker-mcp)
+- [NeuralVerge MCP - B2B People and Company Data](/docs/hermes/mcp/servers/external/neuralverge-mcp)

@@ -136,18 +136,18 @@ Ready to put AI to work on your quickbooks ai reporting data?
 
 ## Internal Links
 
-- [ChatGPT for QuickBooks: Conversational AI Accounting](/chatgpt-for-quickbooks)
-- [Claude for QuickBooks: Deep Financial Analysis](/claude-for-quickbooks)
-- [QuickBooks Natural Language Queries Guide](/quickbooks-natural-language-queries)
-- [How to Analyze QuickBooks Data with AI](/how-to-analyze-quickbooks-with-ai)
-- [QuickBooks Dashboard with ChatGPT](/quickbooks-dashboard-with-chatgpt)
-- [QuickBooks Business Intelligence Platform](/quickbooks-business-intelligence)
+- [ChatGPT for QuickBooks: Conversational AI Accounting](/connect/quickbooks-with-chatgpt)
+- [Claude for QuickBooks: Deep Financial Analysis](/connect/quickbooks-with-claude)
+- [QuickBooks Natural Language Queries Guide](/connect/quickbooks-with-chatgpt)
+- [How to Analyze QuickBooks Data with AI](/answers)
+- [QuickBooks Dashboard with ChatGPT](/connect/quickbooks-with-chatgpt)
+- [QuickBooks Business Intelligence Platform](/connect/quickbooks-with-chatgpt)
 
 ## Transform Your Reporting Workflow
 
 CorpusIQ's AI Reporting for QuickBooks turns hours of manual report generation into seconds of conversation. Whether you're an accountant closing the books, a CFO preparing investor materials, or a business owner checking financial health, AI-powered reporting gives you instant access to the answers in your data.
 
-**[Start generating AI-powered financial reports](/quick-start)  --  connect QuickBooks in under 60 seconds.**
+**[Start generating AI-powered financial reports](/docs)  --  connect QuickBooks in under 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

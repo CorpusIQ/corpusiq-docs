@@ -27,31 +27,31 @@ Sweep combined the hot (1H delta) and trending (24h) leaderboards with 20 API qu
 
 The largest gap found this sweep. Firecrawl - the engine behind Hermes's own `web_search`/`web_extract` - publishes 4 official skill repos. `firecrawl/cli` (14 skills, 716K) covers core scrape/search/crawl/map/parse/monitor/browser operations; `firecrawl-workflows` (16 skills, 493K) ships end-to-end research pipelines (deep research, market research, SEO audit, lead gen, competitive intel); `firecrawl/skills` (41 skills, 253K) covers integration builds; `firecrawl/anydoc` converts documents to markdown.
 
-**Setup guide:** [Firecrawl Skills Setup](/hermes/skills/catalog/firecrawl-skills-setup/)
+**Setup guide:** [Firecrawl Skills Setup](/docs/hermes/skills/catalog/firecrawl-skills-setup)
 
 ### 2. Nexscope E-Commerce Skills - `nexscope-ai/ecommerce-skills` (121 skills, 126.1K)
 
 The marketplace companion to the already-documented Amazon repo. Flagship `cross-border-ecommerce` (62.2K) plus Shopify/Etsy/TikTok Shop/eBay/Walmart playbooks, dropshipping research, PPC planning, email marketing - the general e-commerce stack for agents serving operators.
 
-**Setup guide:** [Nexscope E-Commerce Skills Setup](/hermes/skills/catalog/nexscope-ecommerce-skills-setup/)
+**Setup guide:** [Nexscope E-Commerce Skills Setup](/docs/hermes/skills/catalog/nexscope-ecommerce-skills-setup)
 
 ### 3. SEO GEO Claude Skills - `aaron-he-zhu/seo-geo-claude-skills` (20 skills, 126.6K)
 
 Complete SEO + GEO (Generative Engine Optimization) toolkit: backlink analysis (26.1K), keyword research, technical/on-page audits, GEO content optimization for AI answer engines, schema markup, SERP analysis, rank tracking, entity optimization.
 
-**Setup guide:** [SEO GEO Claude Skills Setup](/hermes/skills/catalog/seo-geo-claude-skills-setup/)
+**Setup guide:** [SEO GEO Claude Skills Setup](/docs/hermes/skills/catalog/seo-geo-claude-skills-setup)
 
 ### 4. n8n Skills - `czlonkowski/n8n-skills` + official `n8n-io/skills` (29 skills, ~58K)
 
 Workflow automation fluency for agents: design patterns, node configuration, MCP tool integration, JavaScript/Python code nodes, subworkflows, self-hosting, error handling. Community suite (15 skills, 48.4K) + official vendor skills (14 skills).
 
-**Setup guide:** [n8n Skills Setup](/hermes/skills/catalog/n8n-skills-setup/)
+**Setup guide:** [n8n Skills Setup](/docs/hermes/skills/catalog/n8n-skills-setup)
 
 ### 5. Review Loop - `2dmurali/review-loop-skill` (1 skill, 24.6K)
 
 Fastest-rising skill on the marketplace: #1 on the hot leaderboard with +399 installs in a single hour. A focused review → feedback → verify loop for code changes.
 
-**Setup guide:** [Review Loop Skill Setup](/hermes/skills/catalog/review-loop-skill-setup/)
+**Setup guide:** [Review Loop Skill Setup](/docs/hermes/skills/catalog/review-loop-skill-setup)
 
 ---
 

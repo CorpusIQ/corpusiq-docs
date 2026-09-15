@@ -22,13 +22,13 @@ Routine daily sweep of the skills.sh marketplace. After cross-referencing the fu
 
 | # | Skill | Installs | Source | Setup Guide |
 |---|-------|----------|--------|-------------|
-| 1 | `heartmula` | 224 | nousresearch/hermes-agent | [heartmula-setup.md](/hermes/skills/catalog/heartmula-setup) ✍️ |
-| 2 | `simplify-code` | 187 | nousresearch/hermes-agent | [simplify-code-setup.md](/hermes/skills/catalog/simplify-code-setup) ✍️ |
-| 3 | `ideation` | 111 | nousresearch/hermes-agent | [ideation-setup.md](/hermes/skills/catalog/ideation-setup) ✍️ |
-| 4 | `subagent-driven-development` | 88 | nousresearch/hermes-agent | [subagent-driven-development-setup.md](/hermes/skills/catalog/subagent-driven-development-setup) ✍️ |
-| 5 | `linear` | 80 | nousresearch/hermes-agent | [linear-setup.md](/hermes/skills/catalog/linear-setup) ✍️ |
-| 6 | `webhook-subscriptions` | 80 | nousresearch/hermes-agent | [webhook-subscriptions-setup.md](/hermes/skills/catalog/webhook-subscriptions-setup) ✍️ |
-| 7 | `grounded-citations` | 22 | nousresearch/hermes-agent | [grounded-citations-setup.md](/hermes/skills/catalog/grounded-citations-setup) ✍️ |
+| 1 | `heartmula` | 224 | nousresearch/hermes-agent | [heartmula-setup.md](/docs/hermes/skills/catalog/heartmula-setup) ✍️ |
+| 2 | `simplify-code` | 187 | nousresearch/hermes-agent | [simplify-code-setup.md](/docs/hermes/skills/catalog/simplify-code-setup) ✍️ |
+| 3 | `ideation` | 111 | nousresearch/hermes-agent | [ideation-setup.md](/docs/hermes/skills/catalog/ideation-setup) ✍️ |
+| 4 | `subagent-driven-development` | 88 | nousresearch/hermes-agent | [subagent-driven-development-setup.md](/docs/hermes/skills/catalog/subagent-driven-development-setup) ✍️ |
+| 5 | `linear` | 80 | nousresearch/hermes-agent | [linear-setup.md](/docs/hermes/skills/catalog/linear-setup) ✍️ |
+| 6 | `webhook-subscriptions` | 80 | nousresearch/hermes-agent | [webhook-subscriptions-setup.md](/docs/hermes/skills/catalog/webhook-subscriptions-setup) ✍️ |
+| 7 | `grounded-citations` | 22 | nousresearch/hermes-agent | [grounded-citations-setup.md](/docs/hermes/skills/catalog/grounded-citations-setup) ✍️ |
 
 ---
 
@@ -85,6 +85,6 @@ npx skills add nousresearch/hermes-agent --skill grounded-citations
 
 ---
 
-*← [Skills Home](/hermes/skills/) | [Skills Catalog](/hermes/skills/catalog/) | [Previous Sweep →](/hermes/skills/marketplace/new-aug11-2026/)*
+*← [Skills Home](/docs/hermes/skills) | [Skills Catalog](/docs/hermes/skills/catalog) | [Previous Sweep →](/docs/hermes/skills/marketplace/new-aug11-2026)*
 
 *Powered by CorpusIQ*

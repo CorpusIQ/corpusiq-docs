@@ -73,10 +73,10 @@ npx skills add alchaincyf/huashu-design   # verify install works
 
 ## Related
 
-- [Skills Catalog](/hermes/skills/catalog/)
-- [Emil Kowalski Skills - Design Engineering Suite Setup](/hermes/skills/catalog/emilkowalski-skills-setup/)
-- [UI/UX Pro Max - Design System Skill Pack Setup](/hermes/skills/catalog/ui-ux-pro-max-setup/)
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Emil Kowalski Skills - Design Engineering Suite Setup](/docs/hermes/skills/catalog/emilkowalski-skills-setup)
+- [UI/UX Pro Max - Design System Skill Pack Setup](/docs/hermes/skills/catalog/ui-ux-pro-max-setup)
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

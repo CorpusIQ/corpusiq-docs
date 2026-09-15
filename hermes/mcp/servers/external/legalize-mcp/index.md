@@ -78,7 +78,7 @@ Legalize complements CorpusIQ's business data with the regulatory layer: an agen
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Corpus Law MCP](/hermes/mcp/servers/external/corpus-law-mcp/)
-- [Lawstronaut MCP](/hermes/mcp/servers/external/lawstronaut-mcp/)
-- [Taiwan Law MCP](/hermes/mcp/servers/external/taiwan-law-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Corpus Law MCP](/docs/hermes/mcp/servers/external/corpus-law-mcp)
+- [Lawstronaut MCP](/docs/hermes/mcp/servers/external/lawstronaut-mcp)
+- [Taiwan Law MCP](/docs/hermes/mcp/servers/external/taiwan-law-mcp)

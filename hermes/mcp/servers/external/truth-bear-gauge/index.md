@@ -81,6 +81,6 @@ CorpusIQ answers questions about the business's own data (revenue, campaigns, cu
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/) - curated third-party MCP servers for operators
-- [Corpus Law MCP](/hermes/mcp/servers/external/corpus-law-mcp/) - US legal search and business formation over MCP
-- [MCP Integration Guide](/hermes/mcp/) - connecting MCP servers to Hermes Agent
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [Corpus Law MCP](/docs/hermes/mcp/servers/external/corpus-law-mcp) - US legal search and business formation over MCP
+- [MCP Integration Guide](/docs/hermes/mcp) - connecting MCP servers to Hermes Agent

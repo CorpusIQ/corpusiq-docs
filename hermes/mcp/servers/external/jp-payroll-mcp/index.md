@@ -66,6 +66,6 @@ Japan-only coverage. Numbers reflect published government tables as of the packa
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Worklittle Jobs MCP - Job Search and Market Data for AI Agents](/hermes/mcp/servers/external/worklittle-jobs/)
-- [QuickBooks MCP - Business Accounting Data for Agents](/hermes/mcp/servers/external/quickbooks-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Worklittle Jobs MCP - Job Search and Market Data for AI Agents](/docs/hermes/mcp/servers/external/worklittle-jobs)
+- [QuickBooks MCP - Business Accounting Data for Agents](/docs/hermes/mcp/servers/external/quickbooks-mcp)

@@ -90,5 +90,5 @@ DocMake and CorpusIQ fit the data-to-document pipeline end to end. CorpusIQ's re
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

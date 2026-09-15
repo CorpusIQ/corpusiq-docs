@@ -27,28 +27,28 @@ mcp.so changed its frontend from Next.js RSC payloads (`__next_f.push`) to a ful
 
 | Server | Description | Guide |
 |--------|-------------|-------|
-| **Substack Publisher MCP** ★ | Queries Substack posts, engagement analytics, subscriber counts through Publisher API | [Guide](/hermes/mcp/servers/external/substack-publisher-mcp/) |
+| **Substack Publisher MCP** ★ | Queries Substack posts, engagement analytics, subscriber counts through Publisher API | [Guide](/docs/hermes/mcp/servers/external/substack-publisher-mcp) |
 | **Prompt Improver MCP** | Turns rough requests into Role/Task/Context/Format prompts. Thai + English. | INDEX-ONLY |
 
 ### Category: Financial Data
 
 | Server | Description | Guide |
 |--------|-------------|-------|
-| **Financial News MCP** ★ | Real-time financial news: search by ticker, source, language, with sentiment and entity data | [Guide](/hermes/mcp/servers/external/financial-news-mcp/) |
-| **Seiche** ★ | Free open source funding stress terminal for US money markets. 22 engines, backtests. Fed/NY Fed/OFR/Treasury public APIs. | [Guide](/hermes/mcp/servers/external/seiche-finance-mcp/) |
+| **Financial News MCP** ★ | Real-time financial news: search by ticker, source, language, with sentiment and entity data | [Guide](/docs/hermes/mcp/servers/external/financial-news-mcp) |
+| **Seiche** ★ | Free open source funding stress terminal for US money markets. 22 engines, backtests. Fed/NY Fed/OFR/Treasury public APIs. | [Guide](/docs/hermes/mcp/servers/external/seiche-finance-mcp) |
 
 ### Category: Security & Infrastructure
 
 | Server | Description | Guide |
 |--------|-------------|-------|
-| **shieldly-io** ★ | AI-Powered Security Analysis for AWS - IAM policies and CloudFormation templates | [Guide](/hermes/mcp/servers/external/shieldly-aws-mcp/) |
-| **Agent Coherence** ★ | Stop AI agents from silently overwriting shared files - TLA+-verified coherence guard | [Guide](/hermes/mcp/servers/external/agent-coherence-mcp/) |
+| **shieldly-io** ★ | AI-Powered Security Analysis for AWS - IAM policies and CloudFormation templates | [Guide](/docs/hermes/mcp/servers/external/shieldly-aws-mcp) |
+| **Agent Coherence** ★ | Stop AI agents from silently overwriting shared files - TLA+-verified coherence guard | [Guide](/docs/hermes/mcp/servers/external/agent-coherence-mcp) |
 
 ### Category: Research & Search
 
 | Server | Description | Guide |
 |--------|-------------|-------|
-| **CrustAPI MCP** ★ | Live Google Search, Maps, News, Images and Reviews. Pay only for results. | [Guide](/hermes/mcp/servers/external/crustapi-mcp/) |
+| **CrustAPI MCP** ★ | Live Google Search, Maps, News, Images and Reviews. Pay only for results. | [Guide](/docs/hermes/mcp/servers/external/crustapi-mcp) |
 
 ### Category: Compliance & Legal
 

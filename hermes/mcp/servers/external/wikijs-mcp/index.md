@@ -77,6 +77,6 @@ Third, **admin operations are token-gated.** Administering a wiki is not harmles
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [healthchecks-mcp - Cron Job Health and Failure Forensics for Agents](/hermes/mcp/servers/external/healthchecks-mcp/)
-- [Google Search Console MCP (ni-c) - Property Setup and Search Analytics](/hermes/mcp/servers/external/google-search-console-ni-c-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [healthchecks-mcp - Cron Job Health and Failure Forensics for Agents](/docs/hermes/mcp/servers/external/healthchecks-mcp)
+- [Google Search Console MCP (ni-c) - Property Setup and Search Analytics](/docs/hermes/mcp/servers/external/google-search-console-ni-c-mcp)

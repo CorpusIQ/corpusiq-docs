@@ -19,12 +19,12 @@ First skills.sh sweep of August 17. 40 API queries collected 3,944 unique skills
 
 | Cluster | Skills | Installs | Tier | Guide |
 |---|---|---|---|---|
-| brianlovin/agent-config | 19 | 33.6K | 🟢 | [Brian Lovin Agent Config Setup](/hermes/skills/catalog/brianlovin-agent-config-setup/) |
-| mvanhorn/last30days-skill | 3 | 32.7K | 🟡 | [last30days Skill Setup](/hermes/skills/catalog/last30days-skill-setup/) |
-| herdrdev/herdr | 5 | 28.1K | 🟢 | [Herdr Skills Setup](/hermes/skills/catalog/herdr-skills-setup/) |
-| eze-is/web-access | 1 | 15.7K | 🟡 | [Web Access Skill Setup](/hermes/skills/catalog/web-access-skill-setup/) |
-| hardikpandya/stop-slop | 1 | 10.6K | 🟢 | [Stop Slop Setup](/hermes/skills/catalog/stop-slop-setup/) |
-| conorbronsdon/avoid-ai-writing | 1 | 1.6K | 🟡 | [Avoid AI Writing Setup](/hermes/skills/catalog/avoid-ai-writing-setup/) |
+| brianlovin/agent-config | 19 | 33.6K | 🟢 | [Brian Lovin Agent Config Setup](/docs/hermes/skills/catalog/brianlovin-agent-config-setup) |
+| mvanhorn/last30days-skill | 3 | 32.7K | 🟡 | [last30days Skill Setup](/docs/hermes/skills/catalog/last30days-skill-setup) |
+| herdrdev/herdr | 5 | 28.1K | 🟢 | [Herdr Skills Setup](/docs/hermes/skills/catalog/herdr-skills-setup) |
+| eze-is/web-access | 1 | 15.7K | 🟡 | [Web Access Skill Setup](/docs/hermes/skills/catalog/web-access-skill-setup) |
+| hardikpandya/stop-slop | 1 | 10.6K | 🟢 | [Stop Slop Setup](/docs/hermes/skills/catalog/stop-slop-setup) |
+| conorbronsdon/avoid-ai-writing | 1 | 1.6K | 🟡 | [Avoid AI Writing Setup](/docs/hermes/skills/catalog/avoid-ai-writing-setup) |
 
 ## Method Notes
 

@@ -79,8 +79,8 @@ PendPost ships the content; CorpusIQ measures whether it worked. A composed work
 
 ## See Also
 
-- [PostBazooka MCP - Social Publishing with Commit Proof](/hermes/mcp/servers/external/postbazooka-mcp/)
-- [PurrPlan MCP - Agent-Driven Social Scheduling and Inbox](/hermes/mcp/servers/external/purrplan-mcp/)
-- [Antwork MCP - Social Publishing with Learned Brand Voice](/hermes/mcp/servers/external/antwork-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [PostBazooka MCP - Social Publishing with Commit Proof](/docs/hermes/mcp/servers/external/postbazooka-mcp)
+- [PurrPlan MCP - Agent-Driven Social Scheduling and Inbox](/docs/hermes/mcp/servers/external/purrplan-mcp)
+- [Antwork MCP - Social Publishing with Learned Brand Voice](/docs/hermes/mcp/servers/external/antwork-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

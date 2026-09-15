@@ -83,7 +83,7 @@ moysklad-mcp-ru shows the ERP-connector pattern at the safety standard CorpusIQ 
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [marketplaces-mcp-ru - Russian Marketplace Seller Operations for Agents](/hermes/mcp/servers/external/marketplaces-mcp-ru/)
-- [Ozon MCP Server - Marketplace Seller Operations for Agents](/hermes/mcp/servers/external/ozon-mcp-server/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [marketplaces-mcp-ru - Russian Marketplace Seller Operations for Agents](/docs/hermes/mcp/servers/external/marketplaces-mcp-ru)
+- [Ozon MCP Server - Marketplace Seller Operations for Agents](/docs/hermes/mcp/servers/external/ozon-mcp-server)

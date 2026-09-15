@@ -61,6 +61,6 @@ host, after any refresh.
 
 ## Related pages
 
-- [MCP Apps: Interactive UIs](/hermes/mcp/mcp-apps-interactive-ui/)
-- [MCP Apps Enterprise Adoption](/hermes/mcp/mcp-apps-enterprise-adoption/)
-- [MCP 2026-07-28 Spec](/hermes/mcp/mcp-spec-2026-07-28/)
+- [MCP Apps: Interactive UIs](/docs/hermes/mcp/mcp-apps-interactive-ui)
+- [MCP Apps Enterprise Adoption](/docs/hermes/mcp/mcp-apps-enterprise-adoption)
+- [MCP 2026-07-28 Spec](/docs/hermes/mcp/mcp-spec-2026-07-28)

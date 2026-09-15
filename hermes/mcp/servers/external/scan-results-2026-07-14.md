@@ -28,26 +28,26 @@ mcp.so migrated to a client-rendered React SPA. No server data in initial HTML -
 
 | Server | Description | Guide |
 |--------|-------------|-------|
-| **AI Visibility Analytics** ★ | Brand visibility monitoring across 15+ AI providers (ChatGPT, Perplexity, Gemini, AI Overviews). MCP connector for scans, competitor mentions, and brand tracking. Submitted July 14. | [Guide](/hermes/mcp/servers/external/ai-visibility-analytics/) |
-| **Podcast Sponsorship Discovery** ★ | Find brands that sponsor podcasts like yours, reveal the buyer by name and email. Detected from 4M+ podcast sponsorships, updated daily. Submitted July 14. | [Guide](/hermes/mcp/servers/external/podcast-sponsorship-mcp/) |
+| **AI Visibility Analytics** ★ | Brand visibility monitoring across 15+ AI providers (ChatGPT, Perplexity, Gemini, AI Overviews). MCP connector for scans, competitor mentions, and brand tracking. Submitted July 14. | [Guide](/docs/hermes/mcp/servers/external/ai-visibility-analytics) |
+| **Podcast Sponsorship Discovery** ★ | Find brands that sponsor podcasts like yours, reveal the buyer by name and email. Detected from 4M+ podcast sponsorships, updated daily. Submitted July 14. | [Guide](/docs/hermes/mcp/servers/external/podcast-sponsorship-mcp) |
 
 ### Category: DevOps & Infrastructure
 
 | Server | Description | Guide |
 |--------|-------------|-------|
-| **LLM Observability (LangTrace)** ★ | Open source LLM observability and monitoring. Drop-in proxy for OpenAI, Anthropic, and Gemini with request logging, cost tracking, and agent tracing. Self-host with one Docker command. MIT license. Submitted July 14. | [Guide](/hermes/mcp/servers/external/llm-observability-mcp/) |
+| **LLM Observability (LangTrace)** ★ | Open source LLM observability and monitoring. Drop-in proxy for OpenAI, Anthropic, and Gemini with request logging, cost tracking, and agent tracing. Self-host with one Docker command. MIT license. Submitted July 14. | [Guide](/docs/hermes/mcp/servers/external/llm-observability-mcp) |
 
 ### Category: Business Intelligence
 
 | Server | Description | Guide |
 |--------|-------------|-------|
-| **SaaS & AI Pricing API** ★ | Free REST API and MCP server for verified SaaS, AI, and LLM pricing across 490+ tools. OpenAPI 3.1, no API key required. Submitted July 14. | [Guide](/hermes/mcp/servers/external/saas-pricing-mcp/) |
+| **SaaS & AI Pricing API** ★ | Free REST API and MCP server for verified SaaS, AI, and LLM pricing across 490+ tools. OpenAPI 3.1, no API key required. Submitted July 14. | [Guide](/docs/hermes/mcp/servers/external/saas-pricing-mcp) |
 
 ### Category: Operations & Project Management
 
 | Server | Description | Guide |
 |--------|-------------|-------|
-| **Project Management for Coding Agents** ★ | Project management for coding agents - bugs, features, sprints, cross-tenant contracts. 71 MCP tools. Submitted July 14. | [Guide](/hermes/mcp/servers/external/coding-agent-pm-mcp/) |
+| **Project Management for Coding Agents** ★ | Project management for coding agents - bugs, features, sprints, cross-tenant contracts. 71 MCP tools. Submitted July 14. | [Guide](/docs/hermes/mcp/servers/external/coding-agent-pm-mcp) |
 
 ### Category: INDEX-ONLY (business-adjacent but niche or single-use)
 

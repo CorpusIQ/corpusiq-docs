@@ -84,8 +84,8 @@ NeuralVerge feeds the top of the funnel while CorpusIQ tracks what happens after
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [Xverum MCP - People Search Across 750M Professional Profiles](/hermes/mcp/servers/external/xverum-mcp/)
-- [StackScope MCP - Technographic Sales Intelligence for Agents](/hermes/mcp/servers/external/stackscope-mcp/)
-- [Worklittle Jobs MCP - Job Search and Market Data for AI Agents](/hermes/mcp/servers/external/worklittle-jobs/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Xverum MCP - People Search Across 750M Professional Profiles](/docs/hermes/mcp/servers/external/xverum-mcp)
+- [StackScope MCP - Technographic Sales Intelligence for Agents](/docs/hermes/mcp/servers/external/stackscope-mcp)
+- [Worklittle Jobs MCP - Job Search and Market Data for AI Agents](/docs/hermes/mcp/servers/external/worklittle-jobs)

@@ -97,7 +97,7 @@ Tubask MCP enhances CorpusIQ's content and research capabilities, complementing 
 
 ## See Also
 
-- [Scribefy - YouTube Transcripts](/hermes/mcp/servers/external/)
-- [Valossa Assistant - Multimodal Video AI](/hermes/mcp/servers/external/)
-- [Blog2Video - Blog to Video Conversion](/hermes/mcp/servers/external/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
+- [Scribefy - YouTube Transcripts](/docs/hermes/mcp/servers/external)
+- [Valossa Assistant - Multimodal Video AI](/docs/hermes/mcp/servers/external)
+- [Blog2Video - Blog to Video Conversion](/docs/hermes/mcp/servers/external)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)

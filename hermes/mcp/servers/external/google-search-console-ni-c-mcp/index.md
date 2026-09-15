@@ -89,7 +89,7 @@ This server's read side pairs directly with CorpusIQ's SEO surfaces: CorpusIQ ru
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Google Search Console MCP - Integration Guide](/hermes/mcp/servers/external/google-search-console-mcp/)
-- [Otto MCP - Live Marketing Data and Website Operations in Chat](/hermes/mcp/servers/external/otto-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Google Search Console MCP - Integration Guide](/docs/hermes/mcp/servers/external/google-search-console-mcp)
+- [Otto MCP - Live Marketing Data and Website Operations in Chat](/docs/hermes/mcp/servers/external/otto-mcp)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

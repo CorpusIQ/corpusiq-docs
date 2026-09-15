@@ -23,7 +23,7 @@ tags: ["mcp server", "model context protocol", "hermes mcp"]
 - **Description:** 25 pay-per-call tools for UK business operations via MCP - Companies House registry, HM Land Registry property data, agent-readiness audits, domain/email/VAT/IBAN verification, human-in-the-loop tasks. x402 micropayments (USDC on Base). Remote endpoint + npx package.
 - **Category:** Business Intelligence
 - **Business relevance:** HIGH - UK company due diligence, property market intelligence, business name checking, agent-readiness scanning, and verification tools all in one MCP connection. Directly useful for UK-based business operators.
-- **Status:** Full integration guide written → [`oromi-agent-services/index.md`](/hermes/mcp/servers/external/oromi-agent-services/)
+- **Status:** Full integration guide written → [`oromi-agent-services/index.md`](/docs/hermes/mcp/servers/external/oromi-agent-services)
 
 ### 2. ctxfile
 - **Source:** mcp.so (created July 19, 2026)

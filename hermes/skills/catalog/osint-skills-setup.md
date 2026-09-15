@@ -63,5 +63,5 @@ npx skills add useosint/osint-skills
 
 ## Related
 
-- [Solana Dev Skill - Blockchain Development Setup](/hermes/skills/catalog/solana-dev-skill-setup/)
-- [SquirrelScan Skills - Website Audit Setup](/hermes/skills/catalog/squirrelscan-skills-setup/)
+- [Solana Dev Skill - Blockchain Development Setup](/docs/hermes/skills/catalog/solana-dev-skill-setup)
+- [SquirrelScan Skills - Website Audit Setup](/docs/hermes/skills/catalog/squirrelscan-skills-setup)

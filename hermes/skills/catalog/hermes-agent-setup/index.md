@@ -190,7 +190,7 @@ Costs vary by model selection. Sonnet is the cost-efficient default. Opus reserv
 
 ## Related Skills
 
-- [Hermes Agent Skill Authoring](/hermes/skills/catalog/hermes-agent-skill-authoring-setup/) - Writing SKILL.md files
-- [dandacompany/hermes](/hermes/skills/catalog/) - Self-hosting and operations guide
-- [wihy/hermes-agent-skill](/hermes/skills/catalog/) - Portable CLI wrapper v2.0
+- [Hermes Agent Skill Authoring](/docs/hermes/skills/catalog/hermes-agent-skill-authoring-setup) - Writing SKILL.md files
+- [dandacompany/hermes](/docs/hermes/skills/catalog) - Self-hosting and operations guide
+- [wihy/hermes-agent-skill](/docs/hermes/skills/catalog) - Portable CLI wrapper v2.0
 - [Hermes Documentation](https://hermes-agent.nousresearch.com/docs) - Official docs

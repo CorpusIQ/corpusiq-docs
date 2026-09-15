@@ -164,6 +164,6 @@ hermes mcp list | grep pretensor
 
 ## Related Guides
 
-- [CorpusIQ Database Connector](/hermes/mcp/connectors/database/) - SQL query execution
-- [SPM Structured Project Memory](/hermes/mcp/servers/external/spm-structured-project-memory/) - Project-level memory graphs
-- [Coding Agent PM MCP](/hermes/mcp/servers/external/coding-agent-pm-mcp/) - Project management via MCP
+- [CorpusIQ Database Connector](/docs/hermes/mcp/connectors/database) - SQL query execution
+- [SPM Structured Project Memory](/docs/hermes/mcp/servers/external/spm-structured-project-memory) - Project-level memory graphs
+- [Coding Agent PM MCP](/docs/hermes/mcp/servers/external/coding-agent-pm-mcp) - Project management via MCP

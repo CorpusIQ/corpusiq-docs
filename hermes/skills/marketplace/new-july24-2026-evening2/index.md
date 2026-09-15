@@ -28,15 +28,15 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **Claude Code Skills** | anthropics/claude-code | 73K+ | 139K⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/claude-code-skills-setup/) |
-| **OpenAI Codex Skills** | openai/skills | 38K+ | 24K⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/openai-codex-skills-setup/) |
-| **Superpowers** | obra/superpowers | 1.2M+ | 261K⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/superpowers-setup/) |
+| **Claude Code Skills** | anthropics/claude-code | 73K+ | 139K⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/claude-code-skills-setup) |
+| **OpenAI Codex Skills** | openai/skills | 38K+ | 24K⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/openai-codex-skills-setup) |
+| **Superpowers** | obra/superpowers | 1.2M+ | 261K⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/superpowers-setup) |
 
 ### Development
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **Clerk Auth Skills** | clerk/skills | 156K+ | 61⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/clerk-auth-skills-setup/) |
+| **Clerk Auth Skills** | clerk/skills | 156K+ | 61⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/clerk-auth-skills-setup) |
 
 ## 🔑 Standout Find: obra/superpowers (1.2M+ installs, 261K⭐)
 

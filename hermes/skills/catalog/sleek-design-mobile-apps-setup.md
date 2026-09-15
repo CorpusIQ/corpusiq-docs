@@ -87,11 +87,11 @@ All three skills.sh security audits pass (verified Sep 7, 2026):
 
 ## Related
 
-- [HyperFrames - Video Composition Skill](/hermes/skills/catalog/hyperframes-setup/) (visual production pipeline)
-- [Meng To Skills - Frontend & Motion Design Suite Setup](/hermes/skills/catalog/mengto-skills-setup/)
-- [Archify - Interactive Architecture Diagram Skill Setup](/hermes/skills/catalog/archify-setup/)
+- [HyperFrames - Video Composition Skill](/docs/hermes/skills/catalog/hyperframes-setup) (visual production pipeline)
+- [Meng To Skills - Frontend & Motion Design Suite Setup](/docs/hermes/skills/catalog/mengto-skills-setup)
+- [Archify - Interactive Architecture Diagram Skill Setup](/docs/hermes/skills/catalog/archify-setup)
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Discovery Page](/hermes/skills/marketplace/new-sep7-2026/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Discovery Page](/docs/hermes/skills/marketplace/new-sep7-2026) →*
 *Powered by CorpusIQ*

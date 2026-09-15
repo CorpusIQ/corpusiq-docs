@@ -76,6 +76,6 @@ The Central Bank of Russia denylist is not supported (not public). The tool expl
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [World Monitor MCP - Global Intelligence: Markets, Risk, Supply Chains & Procurement](/hermes/mcp/servers/external/world-monitor-mcp/)
-- [PassportCraft MCP - EU Digital Product Passports](/hermes/mcp/servers/external/passportcraft-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [World Monitor MCP - Global Intelligence: Markets, Risk, Supply Chains & Procurement](/docs/hermes/mcp/servers/external/world-monitor-mcp)
+- [PassportCraft MCP - EU Digital Product Passports](/docs/hermes/mcp/servers/external/passportcraft-mcp)

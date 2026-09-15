@@ -64,6 +64,6 @@ npx skills add zernie/vigiles --skill deep-research
 
 ## Related
 
-- [Trail of Bits Skills Curated - Agent Security Suite](/hermes/skills/catalog/trailofbits-skills-curated-setup/)
-- [Review Loop Setup](/hermes/skills/catalog/review-loop-skill-setup/)
-- [Planning With Files Setup](/hermes/skills/catalog/planning-with-files-setup/)
+- [Trail of Bits Skills Curated - Agent Security Suite](/docs/hermes/skills/catalog/trailofbits-skills-curated-setup)
+- [Review Loop Setup](/docs/hermes/skills/catalog/review-loop-skill-setup)
+- [Planning With Files Setup](/docs/hermes/skills/catalog/planning-with-files-setup)

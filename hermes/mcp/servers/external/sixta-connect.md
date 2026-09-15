@@ -120,6 +120,6 @@ Free public service. Check [sixta.dev](https://sixta.dev) for current status and
 
 ---
 
-*← [External MCP Catalog](/hermes/mcp/servers/external/) | [MCP Overview](/hermes/mcp/)*
+*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Overview](/docs/hermes/mcp)*
 
-*↑ [MCP Documentation](/hermes/mcp/)*
+*↑ [MCP Documentation](/docs/hermes/mcp)*

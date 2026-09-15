@@ -122,19 +122,19 @@ Ready to put AI to work on your chatgpt for hubspot data?
 
 ## Internal Links
 
-- [Claude for HubSpot: Deep CRM Intelligence](/claude-for-hubspot)
-- [HubSpot AI Reporting: Automated Insights](/hubspot-ai-reporting)
-- [HubSpot Sales Analytics with AI](/hubspot-sales-analytics-with-ai)
-- [HubSpot Dashboard with ChatGPT](/hubspot-dashboard-with-chatgpt)
-- [HubSpot Business Intelligence Platform](/hubspot-business-intelligence)
-- [ChatGPT for QuickBooks: AI Accounting](/chatgpt-for-quickbooks)
-- [ChatGPT for Shopify: Ecommerce AI](/chatgpt-for-shopify)
+- [Claude for HubSpot: Deep CRM Intelligence](/connect/hubspot-with-claude)
+- [HubSpot AI Reporting: Automated Insights](/connect/hubspot-with-chatgpt)
+- [HubSpot Sales Analytics with AI](/connect/hubspot-with-chatgpt)
+- [HubSpot Dashboard with ChatGPT](/connect/hubspot-with-chatgpt)
+- [HubSpot Business Intelligence Platform](/connect/hubspot-with-chatgpt)
+- [ChatGPT for QuickBooks: AI Accounting](/connect/quickbooks-with-chatgpt)
+- [ChatGPT for Shopify: Ecommerce AI](/connect/shopify-with-chatgpt)
 
 ## Your CRM, Conversationally Intelligent
 
 ChatGPT for HubSpot through CorpusIQ transforms how your team interacts with CRM data. No more waiting for reports, building dashboards, or exporting spreadsheets. Just ask, and receive actionable intelligence from your live pipeline and customer data.
 
-**[Connect HubSpot to ChatGPT](/quick-start) and ask your first CRM question in under 5 minutes.**
+**[Connect HubSpot to ChatGPT](/docs) and ask your first CRM question in under 5 minutes.**
 
 *Connect ChatGPT for HubSpot  --  AI CRM Analytics & Sales Intelligen... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

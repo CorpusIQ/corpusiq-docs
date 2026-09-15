@@ -75,6 +75,6 @@ git merge feature-branch   # create a conflict, then invoke the skill
 
 ## Related
 
-- [codebase-design Setup](/hermes/skills/catalog/codebase-design-setup/)
-- [Matt Pocock Agent Workflow Suite - 20-Skill Setup](/hermes/skills/catalog/mattpocock-agent-workflow-suite-setup/)
-- [Matt Pocock Engineering Skills Setup](/hermes/skills/catalog/matt-pocock-engineering-setup/)
+- [codebase-design Setup](/docs/hermes/skills/catalog/codebase-design-setup)
+- [Matt Pocock Agent Workflow Suite - 20-Skill Setup](/docs/hermes/skills/catalog/mattpocock-agent-workflow-suite-setup)
+- [Matt Pocock Engineering Skills Setup](/docs/hermes/skills/catalog/matt-pocock-engineering-setup)

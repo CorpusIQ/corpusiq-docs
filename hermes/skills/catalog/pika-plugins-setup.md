@@ -84,6 +84,6 @@ hermes skills install pika-labs/pika-plugins/founder-product-video
 
 ## Related
 
-- [GenMedia Skills Setup](/hermes/skills/catalog/genmedia-skills-setup/)
-- [RunComfy Agent Skills Setup](/hermes/skills/catalog/runcomfy-agent-skills-setup/)
-- [Skills Catalog](/hermes/skills/catalog/)
+- [GenMedia Skills Setup](/docs/hermes/skills/catalog/genmedia-skills-setup)
+- [RunComfy Agent Skills Setup](/docs/hermes/skills/catalog/runcomfy-agent-skills-setup)
+- [Skills Catalog](/docs/hermes/skills/catalog)

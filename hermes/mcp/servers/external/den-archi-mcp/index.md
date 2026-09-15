@@ -86,8 +86,8 @@ den is a regional compliance layer that pairs with CorpusIQ's horizontal busines
 
 ## See Also
 
-- [FCA Handbook MCP - UK Financial Regulation for AI Agents](/hermes/mcp/servers/external/fca-handbook-mcp/)
-- [Cliometry MCP - Korean Market Data for Agents](/hermes/mcp/servers/external/cliometry-mcp/)
-- [Opportunity Atlas MCP - Northeast Ohio Construction Opportunity Intelligence](/hermes/mcp/servers/external/opportunity-atlas-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [FCA Handbook MCP - UK Financial Regulation for AI Agents](/docs/hermes/mcp/servers/external/fca-handbook-mcp)
+- [Cliometry MCP - Korean Market Data for Agents](/docs/hermes/mcp/servers/external/cliometry-mcp)
+- [Opportunity Atlas MCP - Northeast Ohio Construction Opportunity Intelligence](/docs/hermes/mcp/servers/external/opportunity-atlas-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

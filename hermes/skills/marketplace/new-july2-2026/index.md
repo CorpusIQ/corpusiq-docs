@@ -45,7 +45,7 @@ Browser-native side panel for Hermes Agent. Load as an unpacked Chrome/Edge/Chro
 - Hermes compatibility panel for older gateways
 - Theme picker with light/dark/system modes
 
-**Setup Guide:** [Hermes Browser Extension - Full Setup Guide](/hermes/skills/catalog/hermes-browser-extension-setup/)
+**Setup Guide:** [Hermes Browser Extension - Full Setup Guide](/docs/hermes/skills/catalog/hermes-browser-extension-setup)
 
 ```bash
 # Clone and load unpacked (Chrome Web Store pending)
@@ -75,7 +75,7 @@ Run OpenClaw agents on Android with a single command. Eliminates the 700MB-1GB o
 - Daemon mode for always-on agents
 - Wake lock support to prevent Android sleep kills
 
-**Setup Guide:** [OpenClaw on Android - Full Setup Guide](/hermes/skills/catalog/openclaw-android-setup/)
+**Setup Guide:** [OpenClaw on Android - Full Setup Guide](/docs/hermes/skills/catalog/openclaw-android-setup)
 
 ```bash
 # In Termux (install from F-Droid, NOT Google Play):
@@ -100,8 +100,8 @@ Old Android phones are the cheapest self-hosted agent hardware available. A used
 ## Setup Guides Added
 
 This sweep produced two new setup guides:
-- **[Hermes Browser Extension Setup](/hermes/skills/catalog/hermes-browser-extension-setup/)** - Load unpacked, connect to Hermes, context modes, troubleshooting
-- **[OpenClaw on Android Setup](/hermes/skills/catalog/openclaw-android-setup/)** - Termux install, one-command setup, daemon mode, battery optimization
+- **[Hermes Browser Extension Setup](/docs/hermes/skills/catalog/hermes-browser-extension-setup)** - Load unpacked, connect to Hermes, context modes, troubleshooting
+- **[OpenClaw on Android Setup](/docs/hermes/skills/catalog/openclaw-android-setup)** - Termux install, one-command setup, daemon mode, battery optimization
 
 ---
 
@@ -116,5 +116,5 @@ This sweep produced two new setup guides:
 
 ---
 
-*← [July 1 Sweep](/hermes/skills/marketplace/new-july1-2026/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+*← [July 1 Sweep](/docs/hermes/skills/marketplace/new-july1-2026) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

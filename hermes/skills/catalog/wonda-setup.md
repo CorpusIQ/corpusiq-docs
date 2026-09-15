@@ -50,5 +50,5 @@ npm install -g wonda-cli   # the underlying CLI
 
 ## Related
 
-- [Higgsfield Skills - AI Video & Image Generation Cluster Setup](/hermes/skills/catalog/higgsfield-skills-setup/)
-- [GenMedia Skills - AI Media Generation Cluster Setup](/hermes/skills/catalog/genmedia-skills-setup/)
+- [Higgsfield Skills - AI Video & Image Generation Cluster Setup](/docs/hermes/skills/catalog/higgsfield-skills-setup)
+- [GenMedia Skills - AI Media Generation Cluster Setup](/docs/hermes/skills/catalog/genmedia-skills-setup)

@@ -70,5 +70,5 @@ hermes skills install flowkit-labs/skills/reddit-automation
 
 ## Related
 
-- [Skills Catalog](/hermes/skills/catalog/)
-- [Content & Social category](/hermes/skills/catalog/)
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Content & Social category](/docs/hermes/skills/catalog)

@@ -123,4 +123,4 @@ For users with existing memory that needs cleanup:
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [June 24 Evening Discovery](/hermes/skills/marketplace/new-june24-2026-evening/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [June 24 Evening Discovery](/docs/hermes/skills/marketplace/new-june24-2026-evening) →*

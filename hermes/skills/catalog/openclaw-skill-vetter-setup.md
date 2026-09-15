@@ -142,8 +142,8 @@ hermes skills vet --all --quiet || echo "⚠️  Skill vetting found issues - ch
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
-*↑ [Skills Home](/hermes/skills/)*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*↑ [Skills Home](/docs/hermes/skills)*
 
 ---
 

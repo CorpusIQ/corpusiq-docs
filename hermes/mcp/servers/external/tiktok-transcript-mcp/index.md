@@ -85,6 +85,6 @@ The transcript MCP turns TikTok into text; CorpusIQ turns that text into busines
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [BulkTranscripts MCP - Hosted YouTube Transcripts and Channel Research](/hermes/mcp/servers/external/bulktranscripts-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [BulkTranscripts MCP - Hosted YouTube Transcripts and Channel Research](/docs/hermes/mcp/servers/external/bulktranscripts-mcp)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

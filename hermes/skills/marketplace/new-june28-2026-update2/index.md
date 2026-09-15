@@ -12,7 +12,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 Sweep date: **June 28, 2026 (evening)** | Source: [skills.sh API](https://skills.sh) | Method: 14-term query sweep → precise cross-reference against all existing catalog
 
-**Summary:** 9 new skills discovered - complements the [morning sweep](/hermes/skills/marketplace/new-june28-2026/) (3 skills) and [afternoon update](/hermes/skills/marketplace/new-june28-2026-update/) (17 skills). This sweep covers the **sundial-org/awesome-openclaw-skills** collection (7 skills), plus an aradotso marketing automation skill and a prompt-security audit watchdog.
+**Summary:** 9 new skills discovered - complements the [morning sweep](/docs/hermes/skills/marketplace/new-june28-2026) (3 skills) and [afternoon update](/docs/hermes/skills/marketplace/new-june28-2026-update) (17 skills). This sweep covers the **sundial-org/awesome-openclaw-skills** collection (7 skills), plus an aradotso marketing automation skill and a prompt-security audit watchdog.
 
 ---
 
@@ -109,7 +109,7 @@ Marketing automation for OpenClaw/Hermes agents - campaign management, audience 
 npx skills add aradotso/marketing-skills --skill openclaw-marketing-skills
 ```
 
-> See [full setup guide →](/hermes/skills/catalog/openclaw-marketing-skills-setup/)
+> See [full setup guide →](/docs/hermes/skills/catalog/openclaw-marketing-skills-setup)
 
 ### OpenClaw Audit Watchdog (665 installs)
 
@@ -121,10 +121,10 @@ Security auditing and monitoring for OpenClaw/Hermes agent deployments. Detects 
 npx skills add prompt-security/clawsec --skill openclaw-audit-watchdog
 ```
 
-> See [full setup guide →](/hermes/skills/catalog/openclaw-audit-watchdog-setup/)
+> See [full setup guide →](/docs/hermes/skills/catalog/openclaw-audit-watchdog-setup)
 
 ---
 
-*This page is part of the [Hermes Skills Marketplace](/hermes/skills/marketplace/). See also: [morning sweep](/hermes/skills/marketplace/new-june28-2026/) and [afternoon update](/hermes/skills/marketplace/new-june28-2026-update/).*
+*This page is part of the [Hermes Skills Marketplace](/docs/hermes/skills/marketplace). See also: [morning sweep](/docs/hermes/skills/marketplace/new-june28-2026) and [afternoon update](/docs/hermes/skills/marketplace/new-june28-2026-update).*
 
-*← [Previous Update](/hermes/skills/marketplace/new-june28-2026-update/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+*← [Previous Update](/docs/hermes/skills/marketplace/new-june28-2026-update) | [Marketplace Home](/docs/hermes/skills/marketplace) →*

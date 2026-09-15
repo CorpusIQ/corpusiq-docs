@@ -75,7 +75,7 @@ CorpusIQ's own MCP surface is read-only and OAuth-gated, but operators commonly 
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/) - curated third-party MCP servers for operators
-- [GLC PromptGuard MCP](/hermes/mcp/servers/external/glc-promptguard-mcp/) - prompt security guardrails for agent pipelines
-- [Routara LLM Gateway MCP](/hermes/mcp/servers/external/routara-llm-gateway-mcp/) - governed LLM gateway routing
-- [Sanctions Screening MCP](/hermes/mcp/servers/external/sanctions-screening-mcp/) - compliance screening for counterparties
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [GLC PromptGuard MCP](/docs/hermes/mcp/servers/external/glc-promptguard-mcp) - prompt security guardrails for agent pipelines
+- [Routara LLM Gateway MCP](/docs/hermes/mcp/servers/external/routara-llm-gateway-mcp) - governed LLM gateway routing
+- [Sanctions Screening MCP](/docs/hermes/mcp/servers/external/sanctions-screening-mcp) - compliance screening for counterparties

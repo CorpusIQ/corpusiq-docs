@@ -110,10 +110,10 @@ Verified Sep 9, 2026 on `seo`, `seo-audit`, `seo-content`:
 
 ## Related
 
-- [SEO GEO Claude Skills Setup](/hermes/skills/catalog/seo-geo-claude-skills-setup/)
-- [AI SEO - Skills Marketplace](/hermes/skills/marketplace/)
+- [SEO GEO Claude Skills Setup](/docs/hermes/skills/catalog/seo-geo-claude-skills-setup)
+- [AI SEO - Skills Marketplace](/docs/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

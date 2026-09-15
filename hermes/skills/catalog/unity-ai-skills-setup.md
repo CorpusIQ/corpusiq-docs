@@ -89,11 +89,11 @@ ls ~/.hermes/skills/unity-cli/SKILL.md
 
 ## Related
 
-- [Three Agent Bridge Setup](/hermes/skills/catalog/three-agent-bridge-setup/)
-- [Cline Skills - Official Cline 43-Skill Collection Setup](/hermes/skills/catalog/cline-skills-setup/)
+- [Three Agent Bridge Setup](/docs/hermes/skills/catalog/three-agent-bridge-setup)
+- [Cline Skills - Official Cline 43-Skill Collection Setup](/docs/hermes/skills/catalog/cline-skills-setup)
 - [CorpusIQ - one MCP endpoint, all your business tools](https://corpusiq.io)
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

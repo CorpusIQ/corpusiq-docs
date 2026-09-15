@@ -71,5 +71,5 @@ npx @substack/mcp-server
 
 ## See Also
 
-- [CrustAPI MCP](/hermes/mcp/servers/external/crustapi-mcp/) - Live Google Search for agent research
-- [Financial News MCP](/hermes/mcp/servers/external/financial-news-mcp/) - Real-time financial news data
+- [CrustAPI MCP](/docs/hermes/mcp/servers/external/crustapi-mcp) - Live Google Search for agent research
+- [Financial News MCP](/docs/hermes/mcp/servers/external/financial-news-mcp) - Real-time financial news data

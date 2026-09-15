@@ -20,4 +20,4 @@ Example outputs from Hermes Agent deployments, segmented by organization size.
 
 ---
 
-*← [Outputs Home](/hermes/outputs/) | [Hermes Home](/hermes/)*
+*← [Outputs Home](/docs/hermes/outputs) | [Hermes Home](/docs/hermes)*

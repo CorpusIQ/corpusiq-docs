@@ -129,4 +129,4 @@ This replaces the "log into 5 platforms, export CSVs, build a spreadsheet, prese
 
 ---
 
-*← [External MCP Catalog](/hermes/mcp/servers/external/) | [MCP Overview](/hermes/mcp/)*
+*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Overview](/docs/hermes/mcp)*

@@ -145,4 +145,4 @@ Returns: group name, owner, member count.
 
 ## Related Skills
 
-- [Hermes Agent Core](/hermes/skills/catalog/hermes-agent-setup/) - Official core Hermes Agent skill
+- [Hermes Agent Core](/docs/hermes/skills/catalog/hermes-agent-setup) - Official core Hermes Agent skill

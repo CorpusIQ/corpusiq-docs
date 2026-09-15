@@ -80,7 +80,7 @@ CorpusIQ's CRM connectors hold the prospect lists; VeriRoute grades the numbers 
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [NeuralVerge MCP - B2B People and Company Data](/hermes/mcp/servers/external/neuralverge-mcp/)
-- [CampaignStack MCP - Safe LinkedIn and Email Outreach](/hermes/mcp/servers/external/campaignstack-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [NeuralVerge MCP - B2B People and Company Data](/docs/hermes/mcp/servers/external/neuralverge-mcp)
+- [CampaignStack MCP - Safe LinkedIn and Email Outreach](/docs/hermes/mcp/servers/external/campaignstack-mcp)

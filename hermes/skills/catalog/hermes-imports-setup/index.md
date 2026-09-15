@@ -77,5 +77,5 @@ After export:
 
 ## Related Skills
 
-- [Claude Handoff Setup](/hermes/skills/catalog/claude-handoff-setup/)
-- [Awesome Hermes Agent Ecosystem](/hermes/skills/catalog/awesome-hermes-agent-ecosystem-setup/)
+- [Claude Handoff Setup](/docs/hermes/skills/catalog/claude-handoff-setup)
+- [Awesome Hermes Agent Ecosystem](/docs/hermes/skills/catalog/awesome-hermes-agent-ecosystem-setup)

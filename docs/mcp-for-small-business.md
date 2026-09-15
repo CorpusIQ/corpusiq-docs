@@ -133,13 +133,13 @@ ChatGPT without MCP can only answer from its training data  --  it can't access 
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/benefits-of-mcp-for-business)
-- [MCP for Accountants: QuickBooks and Financial Analysis](/mcp-for-accountants)
-- [MCP for Ecommerce: Shopify and Order Analytics](/mcp-for-ecommerce)
-- [MCP for Marketing: Campaign Analytics and ROI](/mcp-for-marketing)
-- [MCP for Sales: Pipeline and Forecasting](/mcp-for-sales)
-- [Read our complete MCP security best practices guide](/mcp-security-best-practices)
+- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Discover the business benefits of MCP servers](/mcp)
+- [MCP for Accountants: QuickBooks and Financial Analysis](/mcp)
+- [MCP for Ecommerce: Shopify and Order Analytics](/mcp)
+- [MCP for Marketing: Campaign Analytics and ROI](/mcp)
+- [MCP for Sales: Pipeline and Forecasting](/mcp)
+- [Read our complete MCP security best practices guide](/mcp)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 

@@ -73,6 +73,6 @@ For investor operators, pair Velarion with CorpusIQ's Stripe and GA4 connectors 
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [Financial News MCP](/hermes/mcp/servers/external/financial-news-mcp/)
-- [Alphavantage MCP](/hermes/mcp/servers/external/alphavantage-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [Financial News MCP](/docs/hermes/mcp/servers/external/financial-news-mcp)
+- [Alphavantage MCP](/docs/hermes/mcp/servers/external/alphavantage-mcp)

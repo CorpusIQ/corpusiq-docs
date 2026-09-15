@@ -16,7 +16,7 @@ Skills for automated growth operations with Hermes Agent. These skills handle di
 
 | Skill | Description | Installs |
 |---|---|---|
-| [Worldwide Affiliate Mass Publishing](/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing/) | Mass-publish affiliate program pages in 100+ languages via Rentry.co API | Community |
+| [Worldwide Affiliate Mass Publishing](/docs/hermes/skills/growth-operations/worldwide-affiliate-mass-publishing) | Mass-publish affiliate program pages in 100+ languages via Rentry.co API | Community |
 | [SEO Content Generation](https://skills.sh) | Auto-generate SEO-optimized blog posts and landing pages from product data | Marketplace |
 | [Directory Submission Engine](https://skills.sh) | Submit to 200+ startup and AI directories with domain authority tracking | Marketplace |
 | [Social Cross-Poster](https://skills.sh) | One-click cross-posting to X, Reddit, LinkedIn, and Discord | Marketplace |
@@ -33,15 +33,15 @@ Growth operations skills typically integrate with:
 
 ## Community Skills
 
-Browse the [Skills Marketplace](/hermes/skills/marketplace/) for the full catalog of community-contributed growth and marketing skills. New skills are added daily through automated ecosystem sweeps.
+Browse the [Skills Marketplace](/docs/hermes/skills/marketplace) for the full catalog of community-contributed growth and marketing skills. New skills are added daily through automated ecosystem sweeps.
 
 ---
 
 *More growth operations skills are added as the community contributes new automation patterns.*
 
-*← [Operations Skills](/hermes/skills/operations/) | [Marketing Skills](/hermes/skills/marketing/) →*
+*← [Operations Skills](/docs/hermes/skills/operations) | [Marketing Skills](/docs/hermes/skills/marketing) →*
 
-*↑ [Skills Home](/hermes/skills/)*
+*↑ [Skills Home](/docs/hermes/skills)*
 
 ---
 

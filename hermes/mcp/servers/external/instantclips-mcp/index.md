@@ -88,7 +88,7 @@ InstantClips slots into the e-commerce creative loop that CorpusIQ already reads
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [Abyssale MCP - Ad Creative Production for Agents](/hermes/mcp/servers/external/abyssale-mcp/)
-- [Treza MCP - AI Video Pipelines to Social Channels](/hermes/mcp/servers/external/treza-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Abyssale MCP - Ad Creative Production for Agents](/docs/hermes/mcp/servers/external/abyssale-mcp)
+- [Treza MCP - AI Video Pipelines to Social Channels](/docs/hermes/mcp/servers/external/treza-mcp)

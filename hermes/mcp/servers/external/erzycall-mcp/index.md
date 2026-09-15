@@ -91,7 +91,7 @@ ErzyCall composes with CorpusIQ as the action layer on top of the business data 
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/hermes/mcp/servers/external/imap-mcp/)
-- [Atomic Mail MCP - Programmable Inbox for AI Agents](/hermes/mcp/servers/external/atomic-mail-agentic/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/docs/hermes/mcp/servers/external/imap-mcp)
+- [Atomic Mail MCP - Programmable Inbox for AI Agents](/docs/hermes/mcp/servers/external/atomic-mail-agentic)

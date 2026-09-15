@@ -142,9 +142,9 @@ openssl s_client -connect smtp.gmail.com:587 -starttls smtp -crlf
 
 ---
 
-*← [IMAP/SMTP Setup Guide](/hermes/skills/catalog/imap-smtp-email-setup/) | [Discovery Page](/hermes/skills/marketplace/new-june28-2026/) →*
+*← [IMAP/SMTP Setup Guide](/docs/hermes/skills/catalog/imap-smtp-email-setup) | [Discovery Page](/docs/hermes/skills/marketplace/new-june28-2026) →*
 
-*↑ [Skills Catalog](/hermes/skills/catalog/)*
+*↑ [Skills Catalog](/docs/hermes/skills/catalog)*
 
 ---
 

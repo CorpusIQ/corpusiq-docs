@@ -123,7 +123,7 @@ hermes --skills clawpilot-config "Check if this host is ready for PocketClaw pai
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Discovery Page](/hermes/skills/marketplace/new-june16-2026/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Discovery Page](/docs/hermes/skills/marketplace/new-june16-2026) →*
 
 *Powered by CorpusIQ*
 ---

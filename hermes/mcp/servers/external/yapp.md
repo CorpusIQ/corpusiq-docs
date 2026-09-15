@@ -108,6 +108,6 @@ Free tier available. Check [yapp.page/pricing](#repo-unavailable) for current pl
 
 ---
 
-*← [External MCP Catalog](/hermes/mcp/servers/external/) | [MCP Overview](/hermes/mcp/)*
+*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Overview](/docs/hermes/mcp)*
 
-*↑ [MCP Documentation](/hermes/mcp/)*
+*↑ [MCP Documentation](/docs/hermes/mcp)*

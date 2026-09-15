@@ -132,6 +132,6 @@ Hermes spawns four reviewers concurrently, each searching the codebase for its s
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [nousresearch/hermes-agent on skills.sh](https://skills.sh/nousresearch/hermes-agent)*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [nousresearch/hermes-agent on skills.sh](https://skills.sh/nousresearch/hermes-agent)*
 
 *Powered by CorpusIQ*

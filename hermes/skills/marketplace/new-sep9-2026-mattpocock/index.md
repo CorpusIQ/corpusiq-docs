@@ -69,10 +69,10 @@ The "grill" family is the flagship methodology: relentless interviews that sharp
 
 ## Setup Guides Created
 
-1. [codebase-design - Deep Module Design Vocabulary](/hermes/skills/catalog/codebase-design-setup/) - 584K installs, glossary of module/interface/seam/adapter terms
-2. [resolving-merge-conflicts - 5-Step Merge Protocol](/hermes/skills/catalog/resolving-merge-conflicts-setup/) - 457K installs, always resolve, never abort
-3. [Matt Pocock Agent Workflow Suite - 20 Skills](/hermes/skills/catalog/mattpocock-agent-workflow-suite-setup/) - 11.4M combined installs across interrogation, engineering, planning, and session layers
-4. [impeccable-design-polish - Post-Generation Polish](/hermes/skills/catalog/impeccable-design-polish-setup/) - 2K installs, anti-AI-slop follow-up pass
+1. [codebase-design - Deep Module Design Vocabulary](/docs/hermes/skills/catalog/codebase-design-setup) - 584K installs, glossary of module/interface/seam/adapter terms
+2. [resolving-merge-conflicts - 5-Step Merge Protocol](/docs/hermes/skills/catalog/resolving-merge-conflicts-setup) - 457K installs, always resolve, never abort
+3. [Matt Pocock Agent Workflow Suite - 20 Skills](/docs/hermes/skills/catalog/mattpocock-agent-workflow-suite-setup) - 11.4M combined installs across interrogation, engineering, planning, and session layers
+4. [impeccable-design-polish - Post-Generation Polish](/docs/hermes/skills/catalog/impeccable-design-polish-setup) - 2K installs, anti-AI-slop follow-up pass
 
 ## Quick Install
 

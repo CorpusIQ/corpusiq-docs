@@ -15,7 +15,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "scraping", "social media",
 **First Seen:** Sep 11, 2026 sweep (companion repo to the guided apidojo-io/social-media-skills)
 **Quality Tier:** 🟡 Trusted (Gen Agent Trust Hub Pass / Socket Pass / Snyk Warn on the flagship skill)
 
-The larger companion to the already-guided [apidojo-io/social-media-skills](/hermes/skills/catalog/apidojo-social-media-skills-setup/): 100 agent skills built on apidojo's Apify actors, organized in two layers - 24 primitives (raw platform data access: tweets by keyword, TikTok comments, YouTube trending) and 76 intent skills (named outcomes: "find Instagram creators by location", "build a full social audit for a brand", "find SaaS company leads on Twitter"). Same publisher, same architecture, ten times the workflow surface. Clears the 20K bar on combined installs.
+The larger companion to the already-guided [apidojo-io/social-media-skills](/docs/hermes/skills/catalog/apidojo-social-media-skills-setup): 100 agent skills built on apidojo's Apify actors, organized in two layers - 24 primitives (raw platform data access: tweets by keyword, TikTok comments, YouTube trending) and 76 intent skills (named outcomes: "find Instagram creators by location", "build a full social audit for a brand", "find SaaS company leads on Twitter"). Same publisher, same architecture, ten times the workflow surface. Clears the 20K bar on combined installs.
 
 ---
 
@@ -98,12 +98,12 @@ ls ~/.hermes/skills/finding-instagram-creators-by-location/SKILL.md
 
 ## Related
 
-- [Apidojo Social Media Skills - X/Instagram/TikTok Scraper Suite Setup](/hermes/skills/catalog/apidojo-social-media-skills-setup/)
-- [Apify Growth Skills - Lead Gen, Brand Monitoring, Ultimate Scraper Setup](/hermes/skills/catalog/apify-growth-skills-setup/)
-- [Apify Ultimate Scraper - Universal Web Scraping for 15+ Platforms Setup](/hermes/skills/catalog/apify-ultimate-scraper-setup/)
+- [Apidojo Social Media Skills - X/Instagram/TikTok Scraper Suite Setup](/docs/hermes/skills/catalog/apidojo-social-media-skills-setup)
+- [Apify Growth Skills - Lead Gen, Brand Monitoring, Ultimate Scraper Setup](/docs/hermes/skills/catalog/apify-growth-skills-setup)
+- [Apify Ultimate Scraper - Universal Web Scraping for 15+ Platforms Setup](/docs/hermes/skills/catalog/apify-ultimate-scraper-setup)
 - [CorpusIQ - one MCP endpoint, all your business tools](https://corpusiq.io)
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

@@ -89,6 +89,6 @@ CorpusIQ is the business-data layer (QuickBooks, Stripe, HubSpot, GA4 and 40+ mo
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/) - curated third-party MCP servers for operators
-- [MCP Integration Guide](/hermes/mcp/) - connecting MCP servers to Hermes Agent
-- [Truth Bear GAUGE MCP](/hermes/mcp/servers/external/truth-bear-gauge/) - verifiable government data with the same proof-first discipline
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [MCP Integration Guide](/docs/hermes/mcp) - connecting MCP servers to Hermes Agent
+- [Truth Bear GAUGE MCP](/docs/hermes/mcp/servers/external/truth-bear-gauge) - verifiable government data with the same proof-first discipline

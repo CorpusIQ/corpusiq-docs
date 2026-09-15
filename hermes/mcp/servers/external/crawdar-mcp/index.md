@@ -82,8 +82,8 @@ Crawdar finds the prospects; CorpusIQ verifies the business. A composed workflow
 
 ## See Also
 
-- [Leadgen MCP - Romanian Business Registry & Contact Enrichment](/hermes/mcp/servers/external/leadgen-mcp/)
-- [registry-mcp - Company Registry Data for AI Agents](/hermes/mcp/servers/external/registry-mcp/)
-- [Worklittle Jobs MCP - Job Search and Market Data for AI Agents](/hermes/mcp/servers/external/worklittle-jobs/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [Leadgen MCP - Romanian Business Registry & Contact Enrichment](/docs/hermes/mcp/servers/external/leadgen-mcp)
+- [registry-mcp - Company Registry Data for AI Agents](/docs/hermes/mcp/servers/external/registry-mcp)
+- [Worklittle Jobs MCP - Job Search and Market Data for AI Agents](/docs/hermes/mcp/servers/external/worklittle-jobs)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

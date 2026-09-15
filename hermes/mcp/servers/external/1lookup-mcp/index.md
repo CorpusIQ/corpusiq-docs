@@ -74,6 +74,6 @@ OAuth 2.1 with PKCE, no API key or secret in the config file. Requires a paid pl
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Korea Business Verify - Real-Time Korean Business Verification](/hermes/mcp/servers/external/korea-business-verify/)
-- [Atlas Verified MCP](/hermes/mcp/servers/external/atlas-verified-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Korea Business Verify - Real-Time Korean Business Verification](/docs/hermes/mcp/servers/external/korea-business-verify)
+- [Atlas Verified MCP](/docs/hermes/mcp/servers/external/atlas-verified-mcp)

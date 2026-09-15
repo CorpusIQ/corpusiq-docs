@@ -71,6 +71,6 @@ Read-only by design: nothing can send a simulation. Person-level data is opt-in 
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [VulX Watch MCP - Independent Security Review for AI-Built Apps](/hermes/mcp/servers/external/vulx-watch-mcp/)
-- [Trooth Network MCP - Witnessed Company Trust Records](/hermes/mcp/servers/external/trooth-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [VulX Watch MCP - Independent Security Review for AI-Built Apps](/docs/hermes/mcp/servers/external/vulx-watch-mcp)
+- [Trooth Network MCP - Witnessed Company Trust Records](/docs/hermes/mcp/servers/external/trooth-mcp)

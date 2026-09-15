@@ -94,4 +94,4 @@ This is a landmark MCP server for operators running AI agents in production:
 
 ---
 
-*Discovered in daily MCP scan July 17, 2026. [← Back to External MCP Catalog](/hermes/mcp/servers/external/)*
+*Discovered in daily MCP scan July 17, 2026. [← Back to External MCP Catalog](/docs/hermes/mcp/servers/external)*

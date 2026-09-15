@@ -80,7 +80,7 @@ Exact tool names are enumerated in the repo README; the capability groups above 
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [BusyMail MCP - Human-Approval Email over MCP](/hermes/mcp/servers/external/busymail-mcp/)
-- [MCP Email Server - IMAP/SMTP Email for AI Agents](/hermes/mcp/servers/external/mcp-email-server/)
-- [healthchecks-mcp - Cron Job Health and Failure Forensics for Agents](/hermes/mcp/servers/external/healthchecks-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [BusyMail MCP - Human-Approval Email over MCP](/docs/hermes/mcp/servers/external/busymail-mcp)
+- [MCP Email Server - IMAP/SMTP Email for AI Agents](/docs/hermes/mcp/servers/external/mcp-email-server)
+- [healthchecks-mcp - Cron Job Health and Failure Forensics for Agents](/docs/hermes/mcp/servers/external/healthchecks-mcp)

@@ -129,11 +129,11 @@ gh stack view                              # exit 2 outside a stack = CLI works,
 
 ## Related
 
-- [gh-issue-sync - Local Markdown GitHub Issues Skill Setup](/hermes/skills/catalog/gh-issue-sync-setup/)
-- [Native Development Skills](/hermes/skills/development/) - github-repo-management and other built-in GitHub workflow skills
-- [Skills Marketplace](/hermes/skills/marketplace/) - more discovery batches
+- [gh-issue-sync - Local Markdown GitHub Issues Skill Setup](/docs/hermes/skills/catalog/gh-issue-sync-setup)
+- [Native Development Skills](/docs/hermes/skills/development) - github-repo-management and other built-in GitHub workflow skills
+- [Skills Marketplace](/docs/hermes/skills/marketplace) - more discovery batches
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Skills Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

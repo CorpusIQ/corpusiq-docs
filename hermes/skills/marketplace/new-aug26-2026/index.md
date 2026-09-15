@@ -19,7 +19,7 @@ Fifteen-query skills.sh API sweep (605 unique skills, zero query failures) with 
 
 | Cluster | Skills | Installs | GitHub | Tier | Guide |
 |---|---|---|---|---|---|
-| calesthio/generative-media-skills | 153 (46 indexed) | 2.1K indexed | 137⭐ MIT | 🔵 | [Generative Media Skills Setup](/hermes/skills/catalog/generative-media-skills-setup/) |
+| calesthio/generative-media-skills | 153 (46 indexed) | 2.1K indexed | 137⭐ MIT | 🔵 | [Generative Media Skills Setup](/docs/hermes/skills/catalog/generative-media-skills-setup) |
 
 ## Method Notes
 

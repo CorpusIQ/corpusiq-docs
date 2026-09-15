@@ -86,7 +86,7 @@ Watchgoose watches the automations; CorpusIQ watches the business. When a nightl
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [healthchecks-mcp - Cron Job Health and Failure Forensics for Agents](/hermes/mcp/servers/external/healthchecks-mcp/)
-- [HostTracker MCP - Uptime Monitoring from 300+ Locations](/hermes/mcp/servers/external/hosttracker-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [healthchecks-mcp - Cron Job Health and Failure Forensics for Agents](/docs/hermes/mcp/servers/external/healthchecks-mcp)
+- [HostTracker MCP - Uptime Monitoring from 300+ Locations](/docs/hermes/mcp/servers/external/hosttracker-mcp)

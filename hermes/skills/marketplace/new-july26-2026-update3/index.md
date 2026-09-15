@@ -28,27 +28,27 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **ci-cd-and-automation** | addyosmani/agent-skills | 14,100 | 🟢 | [Setup Guide](/hermes/skills/catalog/addyosmani-agent-skills-setup/) |
-| **code-review-and-quality** | addyosmani/agent-skills | - | 🟢 | [Setup Guide](/hermes/skills/catalog/addyosmani-agent-skills-setup/) |
-| **security-and-hardening** | addyosmani/agent-skills | - | 🟢 | [Setup Guide](/hermes/skills/catalog/addyosmani-agent-skills-setup/) |
-| **performance-optimization** | addyosmani/agent-skills | - | 🟢 | [Setup Guide](/hermes/skills/catalog/addyosmani-agent-skills-setup/) |
-| **debugging-and-error-recovery** | addyosmani/agent-skills | - | 🟢 | [Setup Guide](/hermes/skills/catalog/addyosmani-agent-skills-setup/) |
-| **test-driven-development** | addyosmani/agent-skills | - | 🟢 | [Setup Guide](/hermes/skills/catalog/addyosmani-agent-skills-setup/) |
+| **ci-cd-and-automation** | addyosmani/agent-skills | 14,100 | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/addyosmani-agent-skills-setup) |
+| **code-review-and-quality** | addyosmani/agent-skills | - | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/addyosmani-agent-skills-setup) |
+| **security-and-hardening** | addyosmani/agent-skills | - | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/addyosmani-agent-skills-setup) |
+| **performance-optimization** | addyosmani/agent-skills | - | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/addyosmani-agent-skills-setup) |
+| **debugging-and-error-recovery** | addyosmani/agent-skills | - | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/addyosmani-agent-skills-setup) |
+| **test-driven-development** | addyosmani/agent-skills | - | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/addyosmani-agent-skills-setup) |
 
 ### Agent Tools / Multi-Utility
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **lead-research-assistant** | composiohq/awesome-claude-skills | 4,200 | 🟢 | [Setup Guide](/hermes/skills/catalog/composiohq-awesome-claude-skills-setup/) |
-| **youtube-downloader** | composiohq/awesome-claude-skills | 4,700 | 🟢 | [Setup Guide](/hermes/skills/catalog/composiohq-awesome-claude-skills-setup/) |
-| **invoice-organizer** | composiohq/awesome-claude-skills | 3,900 | 🟢 | [Setup Guide](/hermes/skills/catalog/composiohq-awesome-claude-skills-setup/) |
-| **developer-growth-analysis** | composiohq/awesome-claude-skills | 3,300 | 🟢 | [Setup Guide](/hermes/skills/catalog/composiohq-awesome-claude-skills-setup/) |
-| **content-research-writer** | composiohq/awesome-claude-skills | - | 🟢 | [Setup Guide](/hermes/skills/catalog/composiohq-awesome-claude-skills-setup/) |
-| **mcp-builder** | composiohq/awesome-claude-skills | - | 🟢 | [Setup Guide](/hermes/skills/catalog/composiohq-awesome-claude-skills-setup/) |
-| **notion-api** | intellectronica/agent-skills | 60,000 | 🟡 | [Setup Guide](/hermes/skills/catalog/intellectronica-agent-skills-setup/) |
-| **youtube-transcript** | intellectronica/agent-skills | 3,100 | 🟡 | [Setup Guide](/hermes/skills/catalog/intellectronica-agent-skills-setup/) |
-| **context7** | intellectronica/agent-skills | - | 🟡 | [Setup Guide](/hermes/skills/catalog/intellectronica-agent-skills-setup/) |
-| **tavily** | intellectronica/agent-skills | - | 🟡 | [Setup Guide](/hermes/skills/catalog/intellectronica-agent-skills-setup/) |
+| **lead-research-assistant** | composiohq/awesome-claude-skills | 4,200 | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/composiohq-awesome-claude-skills-setup) |
+| **youtube-downloader** | composiohq/awesome-claude-skills | 4,700 | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/composiohq-awesome-claude-skills-setup) |
+| **invoice-organizer** | composiohq/awesome-claude-skills | 3,900 | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/composiohq-awesome-claude-skills-setup) |
+| **developer-growth-analysis** | composiohq/awesome-claude-skills | 3,300 | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/composiohq-awesome-claude-skills-setup) |
+| **content-research-writer** | composiohq/awesome-claude-skills | - | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/composiohq-awesome-claude-skills-setup) |
+| **mcp-builder** | composiohq/awesome-claude-skills | - | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/composiohq-awesome-claude-skills-setup) |
+| **notion-api** | intellectronica/agent-skills | 60,000 | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/intellectronica-agent-skills-setup) |
+| **youtube-transcript** | intellectronica/agent-skills | 3,100 | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/intellectronica-agent-skills-setup) |
+| **context7** | intellectronica/agent-skills | - | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/intellectronica-agent-skills-setup) |
+| **tavily** | intellectronica/agent-skills | - | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/intellectronica-agent-skills-setup) |
 
 ## Discovery Method
 

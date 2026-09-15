@@ -14,10 +14,10 @@ Safety rails, monitoring, and operational rules for autonomous agents. Eleven go
 
 | Page | What You'll Learn |
 |------|-------------------|
-| [System Registry](/hermes/governance/registry/) | Configuration registry, environment variables, service inventory, canonical facts |
-| [Email Operations](/hermes/governance/email/) | Dual-account management, send checklist, response standards, HTML templates |
-| [Cron Scheduling](/hermes/governance/scheduling/) | Job management, scheduling patterns, chain jobs, delivery channels |
-| [System Monitoring](/hermes/governance/monitoring/) | Health checks, drift detection, alerting, self-healing crons, audits |
+| [System Registry](/docs/hermes/governance/registry) | Configuration registry, environment variables, service inventory, canonical facts |
+| [Email Operations](/docs/hermes/governance/email) | Dual-account management, send checklist, response standards, HTML templates |
+| [Cron Scheduling](/docs/hermes/governance/scheduling) | Job management, scheduling patterns, chain jobs, delivery channels |
+| [System Monitoring](/docs/hermes/governance/monitoring) | Health checks, drift detection, alerting, self-healing crons, audits |
 
 ## Eleven Governance Rules
 

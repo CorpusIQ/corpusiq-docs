@@ -93,7 +93,7 @@ AdTest.AI composes with CorpusIQ as the pre-spend gate inside marketing workflow
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [YG3 MCP - Marketing Operations for Autonomous Agents](/hermes/mcp/servers/external/yg3-mcp/)
-- [Layers Growth MCP - TikTok Growth Loop for Agents](/hermes/mcp/servers/external/layers-marketing-mcp/)
-- [Social Glass MCP - Cultural Intelligence for Brand and Research Teams](/hermes/mcp/servers/external/social-glass-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [YG3 MCP - Marketing Operations for Autonomous Agents](/docs/hermes/mcp/servers/external/yg3-mcp)
+- [Layers Growth MCP - TikTok Growth Loop for Agents](/docs/hermes/mcp/servers/external/layers-marketing-mcp)
+- [Social Glass MCP - Cultural Intelligence for Brand and Research Teams](/docs/hermes/mcp/servers/external/social-glass-mcp)

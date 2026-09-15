@@ -122,5 +122,5 @@ hermes xurl post "xurl setup verified - CorpusIQ agent reporting for duty"
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [June 30 Update 2 Discovery](/hermes/skills/marketplace/new-june30-2026-update2/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [June 30 Update 2 Discovery](/docs/hermes/skills/marketplace/new-june30-2026-update2) →*
 *Powered by CorpusIQ*

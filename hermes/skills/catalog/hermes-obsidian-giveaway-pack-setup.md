@@ -276,4 +276,4 @@ bash skills/obsidian-sync-doctor/scripts/verify_hermes_obsidian_loop.sh
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace Home](/hermes/skills/marketplace/) | [david-internal on GitHub](https://github.com/david-internal)*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace Home](/docs/hermes/skills/marketplace) | [david-internal on GitHub](https://github.com/david-internal)*

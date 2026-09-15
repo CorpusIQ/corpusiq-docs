@@ -50,5 +50,5 @@ Endpoint live-probed over JSON-RPC: anonymous initialize returned HTTP 401 with 
 
 ## See Also
 
-- [Sqemo MCP - Database Schema Design and ERD Governance for Agents](/hermes/mcp/servers/external/sqemo-mcp/)
-- [SQL Server MCP - Multi-Instance DBA Console](/hermes/mcp/servers/external/sql-server-mcp/)
+- [Sqemo MCP - Database Schema Design and ERD Governance for Agents](/docs/hermes/mcp/servers/external/sqemo-mcp)
+- [SQL Server MCP - Multi-Instance DBA Console](/docs/hermes/mcp/servers/external/sql-server-mcp)

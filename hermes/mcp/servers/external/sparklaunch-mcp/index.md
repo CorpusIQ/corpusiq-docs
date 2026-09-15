@@ -79,6 +79,6 @@ SparkLaunch composes with CorpusIQ as the operations layer for the newly incorpo
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [FoundRole MCP - Fact-Checked AI Job Search and Application Tracking](/hermes/mcp/servers/external/foundrole-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [FoundRole MCP - Fact-Checked AI Job Search and Application Tracking](/docs/hermes/mcp/servers/external/foundrole-mcp)

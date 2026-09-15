@@ -19,10 +19,10 @@ Morning sweep of August 24. Full three-board leaderboard extraction (all-time, t
 
 | Cluster | Skills | Installs | GitHub | Tier | Guide |
 |---|---|---|---|---|---|
-| autonnel/autonnel-skills | 6 | 147.5K | 0⭐ Apache-2.0 | 🟡 | [Autonnel Skills Setup](/hermes/skills/catalog/autonnel-skills-setup/) |
-| freestylefly/awesome-gpt-image-2 | 1 | 1.5K | 14.7K⭐ MIT | 🟢 | [GPT-Image-2 Style Library Setup](/hermes/skills/catalog/gpt-image-2-style-library-setup/) |
-| mitsuhiko/gh-issue-sync | 1 | 2.5K | 160⭐ Apache-2.0 | 🟢 | [gh-issue-sync Setup](/hermes/skills/catalog/gh-issue-sync-setup/) |
-| inkboard/system-atlas | 1 | 94 | 164⭐ MIT | 🔵 | [System Atlas Setup](/hermes/skills/catalog/system-atlas-setup/) |
+| autonnel/autonnel-skills | 6 | 147.5K | 0⭐ Apache-2.0 | 🟡 | [Autonnel Skills Setup](/docs/hermes/skills/catalog/autonnel-skills-setup) |
+| freestylefly/awesome-gpt-image-2 | 1 | 1.5K | 14.7K⭐ MIT | 🟢 | [GPT-Image-2 Style Library Setup](/docs/hermes/skills/catalog/gpt-image-2-style-library-setup) |
+| mitsuhiko/gh-issue-sync | 1 | 2.5K | 160⭐ Apache-2.0 | 🟢 | [gh-issue-sync Setup](/docs/hermes/skills/catalog/gh-issue-sync-setup) |
+| inkboard/system-atlas | 1 | 94 | 164⭐ MIT | 🔵 | [System Atlas Setup](/docs/hermes/skills/catalog/system-atlas-setup) |
 
 ## Method Notes
 

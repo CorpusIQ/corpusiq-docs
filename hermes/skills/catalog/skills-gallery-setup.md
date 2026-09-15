@@ -202,6 +202,6 @@ skills-gallery search "context window"
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Skills Gallery on GitHub](https://github.com/uthumany/Skills-Gallery) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Gallery on GitHub](https://github.com/uthumany/Skills-Gallery) →*
 
 *Curated by CorpusIQ - one MCP endpoint, all your business tools.*

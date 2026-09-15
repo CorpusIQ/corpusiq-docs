@@ -115,13 +115,13 @@ No skills.sh security audits published (verified Sep 15, 2026 - the publisher pa
 
 ## Related
 
-- [AccessLint Skills - WCAG 2.2 Accessibility Audit Suite Setup](/hermes/skills/catalog/accesslint-skills-setup/)
-- [Sleek Design Mobile Apps - AI Mobile App Design Skill Setup](/hermes/skills/catalog/sleek-design-mobile-apps-setup/)
-- [Hallmark - Anti-AI-Slop Design Skill Setup](/hermes/skills/catalog/hallmark-setup/)
-- [Meng To Skills - Frontend & Motion Design Suite Setup](/hermes/skills/catalog/mengto-skills-setup/)
-- [Tech Logos - Brand Logo Installer for shadcn/ui Setup](/hermes/skills/catalog/tech-logos-setup/)
+- [AccessLint Skills - WCAG 2.2 Accessibility Audit Suite Setup](/docs/hermes/skills/catalog/accesslint-skills-setup)
+- [Sleek Design Mobile Apps - AI Mobile App Design Skill Setup](/docs/hermes/skills/catalog/sleek-design-mobile-apps-setup)
+- [Hallmark - Anti-AI-Slop Design Skill Setup](/docs/hermes/skills/catalog/hallmark-setup)
+- [Meng To Skills - Frontend & Motion Design Suite Setup](/docs/hermes/skills/catalog/mengto-skills-setup)
+- [Tech Logos - Brand Logo Installer for shadcn/ui Setup](/docs/hermes/skills/catalog/tech-logos-setup)
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

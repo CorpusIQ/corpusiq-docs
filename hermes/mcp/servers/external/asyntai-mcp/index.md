@@ -70,7 +70,7 @@ Brand new (repo created Sep 2, 2026, 0 stars). Anonymous enumeration of the 54 t
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [AnswerLoops MCP - Community Support Knowledge Base for Agents](/hermes/mcp/servers/external/answerloops-mcp/)
-- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/hermes/mcp/servers/external/imap-mcp/)
-- [BusyMail MCP - Human-Approval Email over MCP](/hermes/mcp/servers/external/busymail-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [AnswerLoops MCP - Community Support Knowledge Base for Agents](/docs/hermes/mcp/servers/external/answerloops-mcp)
+- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/docs/hermes/mcp/servers/external/imap-mcp)
+- [BusyMail MCP - Human-Approval Email over MCP](/docs/hermes/mcp/servers/external/busymail-mcp)

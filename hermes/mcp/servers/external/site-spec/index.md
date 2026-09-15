@@ -84,7 +84,7 @@ site-spec pairs directly with CorpusIQ's docs and site operations: the docs repo
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [CiteRank MCP - AI Search Visibility Audits](/hermes/mcp/servers/external/citerank-mcp/)
-- [Askline MCP - AI Search Visibility and Brand Monitoring](/hermes/mcp/servers/external/askline-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [CiteRank MCP - AI Search Visibility Audits](/docs/hermes/mcp/servers/external/citerank-mcp)
+- [Askline MCP - AI Search Visibility and Brand Monitoring](/docs/hermes/mcp/servers/external/askline-mcp)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

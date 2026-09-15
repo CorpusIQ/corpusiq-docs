@@ -71,5 +71,5 @@ Alpha Sophia's structured JSON output pairs with CorpusIQ connectors for the com
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Korea Business Verify - Real-Time Korean Business Verification](/hermes/mcp/servers/external/korea-business-verify/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Korea Business Verify - Real-Time Korean Business Verification](/docs/hermes/mcp/servers/external/korea-business-verify)

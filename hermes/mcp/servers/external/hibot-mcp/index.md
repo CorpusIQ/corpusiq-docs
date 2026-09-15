@@ -82,9 +82,9 @@ HiBot reads the AI engines while CorpusIQ reads the business: a composed workflo
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [Ranki MCP - Free SEO and AEO Audits for AI Agents](/hermes/mcp/servers/external/ranki-mcp/)
-- [Prognosite MCP - SEO and AEO Intelligence for Publishers](/hermes/mcp/servers/external/prognosite-mcp/)
-- [Tracetify MCP - SEO, GEO and Growth Reports for Agents](/hermes/mcp/servers/external/tracetify-mcp/)
-- [Sorank MCP - Search Console, PageSpeed and AI Citability](/hermes/mcp/servers/external/sorank-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Ranki MCP - Free SEO and AEO Audits for AI Agents](/docs/hermes/mcp/servers/external/ranki-mcp)
+- [Prognosite MCP - SEO and AEO Intelligence for Publishers](/docs/hermes/mcp/servers/external/prognosite-mcp)
+- [Tracetify MCP - SEO, GEO and Growth Reports for Agents](/docs/hermes/mcp/servers/external/tracetify-mcp)
+- [Sorank MCP - Search Console, PageSpeed and AI Citability](/docs/hermes/mcp/servers/external/sorank-mcp)

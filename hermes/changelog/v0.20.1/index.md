@@ -44,9 +44,9 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 ---
 
-*← [v0.20.0 - The Herald Release](/hermes/changelog/v0.20.0/) | [Changelog Home](/hermes/changelog/) →*
+*← [v0.20.0 - The Herald Release](/docs/hermes/changelog/v0.20.0) | [Changelog Home](/docs/hermes/changelog) →*
 
-*↑ [Changelog Home](/hermes/changelog/)*
+*↑ [Changelog Home](/docs/hermes/changelog)*
 
 ---
 

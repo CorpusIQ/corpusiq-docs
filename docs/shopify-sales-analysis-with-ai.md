@@ -193,19 +193,19 @@ Ready to transform your Shopify order data into revenue intelligence?
 
 ## Internal Links
 
-- [ChatGPT for Shopify: Conversational Ecommerce AI](/chatgpt-for-shopify)
-- [Claude for Shopify: Deep Ecommerce Analysis](/claude-for-shopify)
-- [Shopify AI Analytics: Automated Insights](/shopify-ai-analytics)
-- [Shopify Dashboard with ChatGPT](/shopify-dashboard-with-chatgpt)
-- [Shopify Business Intelligence Platform](/shopify-business-intelligence)
-- [How to Analyze QuickBooks with AI](/how-to-analyze-quickbooks-with-ai)
-- [HubSpot Sales Analytics with AI](/hubspot-sales-analytics-with-ai)
+- [ChatGPT for Shopify: Conversational Ecommerce AI](/connect/shopify-with-chatgpt)
+- [Claude for Shopify: Deep Ecommerce Analysis](/connect/shopify-with-claude)
+- [Shopify AI Analytics: Automated Insights](/connect/shopify-with-chatgpt)
+- [Shopify Dashboard with ChatGPT](/connect/shopify-with-chatgpt)
+- [Shopify Business Intelligence Platform](/connect/shopify-with-chatgpt)
+- [How to Analyze QuickBooks with AI](/answers)
+- [HubSpot Sales Analytics with AI](/connect/hubspot-with-chatgpt)
 
 ## From Data Overload to Revenue Intelligence
 
 Your Shopify store generates the data. AI-powered sales analysis turns it into revenue intelligence. Stop exporting CSV files and building pivot tables. Start asking questions and getting answers.
 
-**[Begin your AI-powered sales analysis](/quick-start)  --  connect Shopify in 60 seconds.**
+**[Begin your AI-powered sales analysis](/docs)  --  connect Shopify in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

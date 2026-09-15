@@ -176,9 +176,9 @@ The skill supports multiple providers for generation. Configure in `references/s
 
 ## Related Skills
 
-- [HyperFrames Setup Guide](/hermes/skills/catalog/hyperframes-setup/) - Core video composition skill
-- [AI Video Generation Setup](/hermes/skills/catalog/ai-video-generation-setup/) - General AI video creation
-- [SamuraiGPT Generative Media](/hermes/skills/catalog/samuraigpt-generative-media-setup/) - Alternative media generation
+- [HyperFrames Setup Guide](/docs/hermes/skills/catalog/hyperframes-setup) - Core video composition skill
+- [AI Video Generation Setup](/docs/hermes/skills/catalog/ai-video-generation-setup) - General AI video creation
+- [SamuraiGPT Generative Media](/docs/hermes/skills/catalog/samuraigpt-generative-media-setup) - Alternative media generation
 
 ---
 

@@ -71,9 +71,9 @@ This skill is critical for CorpusIQ's multi-agent infrastructure:
 
 ## 6. Related Skills
 
-- [OpenClaw Security Hardening](/hermes/skills/catalog/openclaw-security-hardening-setup/) - Hardening configurations (874 installs)
-- [OpenClaw Audit Watchdog](/hermes/skills/catalog/openclaw-audit-watchdog-setup/) - Security auditing and misconfiguration detection (665 installs)
-- [Hermes Flight Recorder](/hermes/skills/catalog/hermes-flight-recorder-setup/) - Agent activity logging
+- [OpenClaw Security Hardening](/docs/hermes/skills/catalog/openclaw-security-hardening-setup) - Hardening configurations (874 installs)
+- [OpenClaw Audit Watchdog](/docs/hermes/skills/catalog/openclaw-audit-watchdog-setup) - Security auditing and misconfiguration detection (665 installs)
+- [Hermes Flight Recorder](/docs/hermes/skills/catalog/hermes-flight-recorder-setup) - Agent activity logging
 
 ## 7. Troubleshooting
 
@@ -85,6 +85,6 @@ This skill is critical for CorpusIQ's multi-agent infrastructure:
 
 ---
 
-*Part of the [Hermes Skills Catalog](/hermes/skills/catalog/). Discovered in the [June 28, 2026 evening sweep](/hermes/skills/marketplace/new-june28-2026-update2/).*
+*Part of the [Hermes Skills Catalog](/docs/hermes/skills/catalog). Discovered in the [June 28, 2026 evening sweep](/docs/hermes/skills/marketplace/new-june28-2026-update2).*
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*

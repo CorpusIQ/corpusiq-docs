@@ -112,7 +112,7 @@ hermes chat -q "List the top-level folders in my Obsidian vault at ~/Documents/O
 - [Obsidian Agent Skills repo](https://github.com/kepano/obsidian-skills)
 - [agentskills.io spec](https://agentskills.io/)
 - [Obsidian Developer Docs](https://docs.obsidian.md/)
-- [Hermes Kanban Obsidian Integration](/hermes/skills/catalog/hermes-kanban-obsidian-integration-setup/)
+- [Hermes Kanban Obsidian Integration](/docs/hermes/skills/catalog/hermes-kanban-obsidian-integration-setup)
 
 ---
 

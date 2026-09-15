@@ -72,5 +72,5 @@ The 249-country coverage aligns with CorpusIQ's global operator base, and the re
 ## See Also
 
 - [CorpusIQ Commerce Connectors](/hermes/mcp/servers/external/#commerce--e-commerce)
-- [AirLabs MCP - Aviation Data](/hermes/mcp/servers/external/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
+- [AirLabs MCP - Aviation Data](/docs/hermes/mcp/servers/external)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)

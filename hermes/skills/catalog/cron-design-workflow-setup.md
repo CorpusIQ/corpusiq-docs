@@ -117,5 +117,5 @@ ls ~/.hermes/skills/devops/cron-design-workflow/references/
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Discovery Page](/hermes/skills/marketplace/new-june23-2026/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Discovery Page](/docs/hermes/skills/marketplace/new-june23-2026) →*
 *Powered by CorpusIQ*

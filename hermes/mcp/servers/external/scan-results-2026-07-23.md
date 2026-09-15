@@ -13,7 +13,7 @@ robots: "index,follow"
 
 **Sources:** awesome-mcp-servers PR queue (punkpeye/awesome-mcp-servers), mcpservers.org /all page, Smithery registry
 **Date:** July 23, 2026, 03:03 MST
-**Previous scan:** [July 21 Sweep](/hermes/mcp/servers/external/scan-results-2026-07-21/)
+**Previous scan:** [July 21 Sweep](/docs/hermes/mcp/servers/external/scan-results-2026-07-21)
 **Coverage:** New server submissions since July 21 sweep
 
 ## Methodology
@@ -31,10 +31,10 @@ Between July 22-23, 2026, 22 PRs were merged into the awesome-mcp-servers reposi
 
 | # | Server | Category | Value | Guide |
 |---|--------|----------|-------|-------|
-| 1 | **hermoso-ai/hermoso** | Marketing/Advertising | ★★★★★ | [hermoso-mcp.md](/hermes/mcp/servers/external/hermoso-mcp/) |
-| 2 | **Correctover/mcp-server** | Legal/API Infrastructure | ★★★★ | [correctover-mcp.md](/hermes/mcp/servers/external/correctover-mcp/) |
-| 3 | **lmaniraruta/license-verify-mcp** | Legal/Operations | ★★★★ | [license-verify-mcp.md](/hermes/mcp/servers/external/license-verify-mcp/) |
-| 4 | **szp2005/llm-prices-cn** | Finance/Cost Optimization | ★★★ | [llm-prices-cn-mcp.md](/hermes/mcp/servers/external/llm-prices-cn-mcp/) |
+| 1 | **hermoso-ai/hermoso** | Marketing/Advertising | ★★★★★ | [hermoso-mcp.md](/docs/hermes/mcp/servers/external/hermoso-mcp) |
+| 2 | **Correctover/mcp-server** | Legal/API Infrastructure | ★★★★ | [correctover-mcp.md](/docs/hermes/mcp/servers/external/correctover-mcp) |
+| 3 | **lmaniraruta/license-verify-mcp** | Legal/Operations | ★★★★ | [license-verify-mcp.md](/docs/hermes/mcp/servers/external/license-verify-mcp) |
+| 4 | **szp2005/llm-prices-cn** | Finance/Cost Optimization | ★★★ | [llm-prices-cn-mcp.md](/docs/hermes/mcp/servers/external/llm-prices-cn-mcp) |
 
 ### Other New Servers (Catalogued, No Guides Yet)
 

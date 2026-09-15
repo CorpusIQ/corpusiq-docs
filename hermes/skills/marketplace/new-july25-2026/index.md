@@ -28,31 +28,31 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **OpenAI Skills** | openai/skills | 703K+ | - | 🟢 | [Setup Guide](/hermes/skills/catalog/openai-skills-setup/) |
+| **OpenAI Skills** | openai/skills | 703K+ | - | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/openai-skills-setup) |
 
 ### Engineering Workflows
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **Obra Superpowers** | obra/superpowers | 1.2M+ | - | 🟢 | [Setup Guide](/hermes/skills/catalog/obra-superpowers-setup/) |
+| **Obra Superpowers** | obra/superpowers | 1.2M+ | - | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/obra-superpowers-setup) |
 
 ### Agent Infrastructure
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **LangChain Agent Skills** | langchain-ai/langchain-skills | 71K+ | 996⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/langchain-skills-setup/) |
+| **LangChain Agent Skills** | langchain-ai/langchain-skills | 71K+ | 996⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/langchain-skills-setup) |
 
 ### Growth Operations
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **OPC Skills (Solopreneur)** | resciencelab/opc-skills | 50K+ | 1,174⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/opc-skills-setup/) |
+| **OPC Skills (Solopreneur)** | resciencelab/opc-skills | 50K+ | 1,174⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/opc-skills-setup) |
 
 ### Career & Job Applications
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **ResumeSkills** | paramchoudhary/resumeskills | 13K+ | 1,264⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/resumeskills-setup/) |
+| **ResumeSkills** | paramchoudhary/resumeskills | 13K+ | 1,264⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/resumeskills-setup) |
 
 ## 🔑 Standout Finds
 

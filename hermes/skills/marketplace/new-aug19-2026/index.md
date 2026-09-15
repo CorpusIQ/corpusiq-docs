@@ -19,7 +19,7 @@ Morning sweep of August 19. The broad API surface was fully caught up: 40 querie
 
 | Cluster | Skills | Installs | Tier | Guide |
 |---|---|---|---|---|
-| openclaw/agent-skills | 8 | ~2.0K | 🟡 | [OpenClaw Agent Skills Setup](/hermes/skills/catalog/openclaw-agent-skills-setup/) |
+| openclaw/agent-skills | 8 | ~2.0K | 🟡 | [OpenClaw Agent Skills Setup](/docs/hermes/skills/catalog/openclaw-agent-skills-setup) |
 
 ## Method Notes
 

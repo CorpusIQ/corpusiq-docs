@@ -131,5 +131,5 @@ mercury-pp-cli which "account balance"   # exit 0 = command resolved
 
 ## Related
 
-- [Printing Press Library - 472-CLI Agent Tool Catalog Setup](/hermes/skills/catalog/printing-press-library-setup/) - the parent catalog and its discovery skill
-- [Skills Marketplace](/hermes/skills/marketplace/) - more discovery batches
+- [Printing Press Library - 472-CLI Agent Tool Catalog Setup](/docs/hermes/skills/catalog/printing-press-library-setup) - the parent catalog and its discovery skill
+- [Skills Marketplace](/docs/hermes/skills/marketplace) - more discovery batches

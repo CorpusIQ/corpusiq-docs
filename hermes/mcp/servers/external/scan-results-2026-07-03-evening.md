@@ -14,7 +14,7 @@ robots: "index,follow"
 **Source:** mcpservers.org (sitemap delta), mcp.so, GitHub API
 **Method:** Sitemap diff against morning scan + GitHub topic:mcp-server recent pushes
 **Date:** July 3, 2026 (evening)
-**Prior scan:** [July 3 morning](/hermes/mcp/servers/external/scan-results-2026-07-03/)
+**Prior scan:** [July 3 morning](/docs/hermes/mcp/servers/external/scan-results-2026-07-03)
 
 ## Summary
 

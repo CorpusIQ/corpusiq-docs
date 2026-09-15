@@ -122,6 +122,6 @@ Claude (or your MCP client) should fetch your Asana tasks using the MCP tools.
 
 ## See Also
 
-- [Mercury MCP](/hermes/mcp/servers/external/mercury-mcp/) - banking MCP
-- [Atlassian MCP](/hermes/mcp/servers/external/) - Jira/Confluence MCP
-- [External MCP Catalog](/hermes/mcp/servers/external/)
+- [Mercury MCP](/docs/hermes/mcp/servers/external/mercury-mcp) - banking MCP
+- [Atlassian MCP](/docs/hermes/mcp/servers/external) - Jira/Confluence MCP
+- [External MCP Catalog](/docs/hermes/mcp/servers/external)

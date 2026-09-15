@@ -49,6 +49,6 @@ Endpoint live-probed over JSON-RPC: keyless `tools/list` returned all 5 tools wi
 
 ## See Also
 
-- [Fluenta MCP - Idea Validation with Launch Readiness Scores](/hermes/mcp/servers/external/fluenta-mcp/)
-- [Modelglass MCP - Live AI Model Pricing and Routing for Agents](/hermes/mcp/servers/external/modelglass-mcp/)
-- [Ultralayer MCP - Realtime Market Intelligence for Agents](/hermes/mcp/servers/external/ultralayer-mcp/)
+- [Fluenta MCP - Idea Validation with Launch Readiness Scores](/docs/hermes/mcp/servers/external/fluenta-mcp)
+- [Modelglass MCP - Live AI Model Pricing and Routing for Agents](/docs/hermes/mcp/servers/external/modelglass-mcp)
+- [Ultralayer MCP - Realtime Market Intelligence for Agents](/docs/hermes/mcp/servers/external/ultralayer-mcp)

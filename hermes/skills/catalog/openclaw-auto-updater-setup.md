@@ -141,9 +141,9 @@ tail -100 ~/.openclaw/logs/update.log
 
 ---
 
-*← [Auto Updater Setup Guide](/hermes/skills/catalog/openclaw-auto-updater-setup/) | [Discovery Page](/hermes/skills/marketplace/new-june28-2026/) →*
+*← [Auto Updater Setup Guide](/docs/hermes/skills/catalog/openclaw-auto-updater-setup) | [Discovery Page](/docs/hermes/skills/marketplace/new-june28-2026) →*
 
-*↑ [Skills Catalog](/hermes/skills/catalog/)*
+*↑ [Skills Catalog](/docs/hermes/skills/catalog)*
 
 ---
 

@@ -31,7 +31,7 @@ Read-only access to:
 
 All of this comes through the one Meta connection. The Meta Business account you sign in with must have access to the pages and ad accounts you want to read.
 
-**Read-only guarantee:** CorpusIQ cannot create, edit, or pause ads, and it cannot change budgets, bidding, or targeting. It only reads. It is not an AI agent and does not retain raw customer files or full connector response payloads; no one at CorpusIQ can access your account. Full details: [Security and Read-Only Access](/hermes/security/read-only-and-security/)
+**Read-only guarantee:** CorpusIQ cannot create, edit, or pause ads, and it cannot change budgets, bidding, or targeting. It only reads. It is not an AI agent and does not retain raw customer files or full connector response payloads; no one at CorpusIQ can access your account. Full details: [Security and Read-Only Access](/docs/hermes/security/read-only-and-security)
 
 CorpusIQ never creates ads, edits budgets, or pauses campaigns.
 

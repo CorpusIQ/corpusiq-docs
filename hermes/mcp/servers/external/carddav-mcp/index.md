@@ -83,7 +83,7 @@ CorpusIQ holds the revenue relationships; carddav-mcp holds the people. A compos
 
 ## See Also
 
-- [caldav-mcp - Calendar Operations over CalDAV for Agents](/hermes/mcp/servers/external/caldav-mcp/)
-- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/hermes/mcp/servers/external/imap-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [caldav-mcp - Calendar Operations over CalDAV for Agents](/docs/hermes/mcp/servers/external/caldav-mcp)
+- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/docs/hermes/mcp/servers/external/imap-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

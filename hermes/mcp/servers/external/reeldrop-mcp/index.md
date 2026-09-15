@@ -67,6 +67,6 @@ Instagram (reels) focus; no public repository or tool list; OAuth account access
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Mysocial MCP - Your Real Social Media History as Agent Memory](/hermes/mcp/servers/external/mysocial-mcp/)
-- [PostMCP MCP - Social Publishing Pipelines for Agents](/hermes/mcp/servers/external/postmcp-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Mysocial MCP - Your Real Social Media History as Agent Memory](/docs/hermes/mcp/servers/external/mysocial-mcp)
+- [PostMCP MCP - Social Publishing Pipelines for Agents](/docs/hermes/mcp/servers/external/postmcp-mcp)

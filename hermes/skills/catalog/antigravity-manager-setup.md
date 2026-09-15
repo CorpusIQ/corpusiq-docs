@@ -141,4 +141,4 @@ curl -s http://localhost:8045/v1/chat/completions \
 ## Notes
 
 - From the [ara.so](https://ara.so) Daily 2026 Skills collection — auto-generated from trending GitHub repos.
-- Sibling guides from the same publisher: [OpenClaw Control Center](/hermes/skills/catalog/openclaw-control-center-setup/) and [Hermes Labyrinth Observability](/hermes/skills/catalog/hermes-labyrinth-observability-setup/).
+- Sibling guides from the same publisher: [OpenClaw Control Center](/docs/hermes/skills/catalog/openclaw-control-center-setup) and [Hermes Labyrinth Observability](/docs/hermes/skills/catalog/hermes-labyrinth-observability-setup).

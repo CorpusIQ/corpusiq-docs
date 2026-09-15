@@ -77,7 +77,7 @@ npx skills add zenstory-ai/oh-story-claudecode   # verify install works
 
 ## Related
 
-- [Skills Catalog](/hermes/skills/catalog/)
-- [Skills Marketplace](/hermes/skills/marketplace/)
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Skills Marketplace](/docs/hermes/skills/marketplace)
 
 *Powered by CorpusIQ*

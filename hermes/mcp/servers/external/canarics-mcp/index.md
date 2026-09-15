@@ -65,6 +65,6 @@ Endpoint `https://canarics.com/mcp` live-probed over JSON-RPC: keyless initializ
 
 ## See Also
 
-- [DialNexa MCP - Voice AI Agents and Confirmed Outbound Calls](/hermes/mcp/servers/external/dialnexa-mcp/)
-- [VoIP.ms MCP - Business Telephony for AI Agents](/hermes/mcp/servers/external/voipms-mcp/)
-- [VoIPstudio MCP - Call Analytics for QA and Operations](/hermes/mcp/servers/external/voipstudio-mcp/)
+- [DialNexa MCP - Voice AI Agents and Confirmed Outbound Calls](/docs/hermes/mcp/servers/external/dialnexa-mcp)
+- [VoIP.ms MCP - Business Telephony for AI Agents](/docs/hermes/mcp/servers/external/voipms-mcp)
+- [VoIPstudio MCP - Call Analytics for QA and Operations](/docs/hermes/mcp/servers/external/voipstudio-mcp)

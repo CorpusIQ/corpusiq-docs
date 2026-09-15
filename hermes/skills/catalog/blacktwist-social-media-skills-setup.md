@@ -103,11 +103,11 @@ All three skills.sh security audits pass (verified Sep 9, 2026, spot-checked on 
 
 ## Related
 
-- [Charlie Hills Social Media Skills - 17-Skill Content System Setup](/hermes/skills/catalog/charlie-hills-social-media-skills-setup/)
-- [Marketing Mindset - B2B Marketing OS for AI Agents Setup](/hermes/skills/catalog/marketing-mindset-setup/)
-- [Social Media - Skills Marketplace](/hermes/skills/marketplace/)
+- [Charlie Hills Social Media Skills - 17-Skill Content System Setup](/docs/hermes/skills/catalog/charlie-hills-social-media-skills-setup)
+- [Marketing Mindset - B2B Marketing OS for AI Agents Setup](/docs/hermes/skills/catalog/marketing-mindset-setup)
+- [Social Media - Skills Marketplace](/docs/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

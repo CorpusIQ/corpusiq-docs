@@ -173,19 +173,19 @@ Ready to put AI to work on your hubspot dashboard with chatgpt data?
 
 ## Internal Links
 
-- [ChatGPT for HubSpot: Conversational CRM AI](/chatgpt-for-hubspot)
-- [Claude for HubSpot: Deep CRM Intelligence](/claude-for-hubspot)
-- [HubSpot AI Reporting: Automated Insights](/hubspot-ai-reporting)
-- [HubSpot Sales Analytics with AI](/hubspot-sales-analytics-with-ai)
-- [HubSpot Business Intelligence Platform](/hubspot-business-intelligence)
-- [QuickBooks Dashboard with ChatGPT](/quickbooks-dashboard-with-chatgpt)
-- [Shopify Dashboard with ChatGPT](/shopify-dashboard-with-chatgpt)
+- [ChatGPT for HubSpot: Conversational CRM AI](/connect/hubspot-with-chatgpt)
+- [Claude for HubSpot: Deep CRM Intelligence](/connect/hubspot-with-claude)
+- [HubSpot AI Reporting: Automated Insights](/connect/hubspot-with-chatgpt)
+- [HubSpot Sales Analytics with AI](/connect/hubspot-with-chatgpt)
+- [HubSpot Business Intelligence Platform](/connect/hubspot-with-chatgpt)
+- [QuickBooks Dashboard with ChatGPT](/connect/quickbooks-with-chatgpt)
+- [Shopify Dashboard with ChatGPT](/connect/shopify-with-chatgpt)
 
 ## Pipeline Visibility at Conversation Speed
 
 A ChatGPT-powered HubSpot dashboard is the fastest, most flexible way to monitor your sales organization. No dashboard configuration. No report building. No data exports. Just real-time sales intelligence, on demand.
 
-**[Set up your sales dashboard now](/quick-start)  --  connect HubSpot in 60 seconds.**
+**[Set up your sales dashboard now](/docs)  --  connect HubSpot in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

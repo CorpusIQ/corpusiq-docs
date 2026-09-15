@@ -17,13 +17,13 @@ A hot-board discovery sweep: all 7 clusters surfaced through the skills.sh homep
 
 | Publisher | Skills | Combined Installs | Guide |
 |---|---|---|---|
-| [unity-technologies/skills](https://www.skills.sh/unity-technologies/skills) | 29 | ~56.8K | [Unity AI Skills Setup](/hermes/skills/catalog/unity-ai-skills-setup/) |
-| [vercel/next.js](https://www.skills.sh/vercel/next.js) | 5 | ~44.4K | [Next.js Agent Skills Setup](/hermes/skills/catalog/nextjs-agent-skills-setup/) |
-| [tencent/wechatreading](https://www.skills.sh/tencent/wechatreading) | 1 | ~41.7K | [WeRead Skills Setup](/hermes/skills/catalog/weread-skills-setup/) |
-| [aliyun/alibabacloud-aiops-skills](https://www.skills.sh/aliyun/alibabacloud-aiops-skills) | 270 | ~30.8K | [Alibaba Cloud AIOps Skills Setup](/hermes/skills/catalog/alibaba-cloud-aiops-skills-setup/) |
-| [apidojo-io/apidojo-skills](https://www.skills.sh/apidojo-io/apidojo-skills) | 100 | ~21.0K | [Apidojo Agent Skills Setup](/hermes/skills/catalog/apidojo-agent-skills-setup/) |
-| [cline/skills](https://www.skills.sh/cline/skills) | 43 | ~20.0K | [Cline Skills Setup](/hermes/skills/catalog/cline-skills-setup/) |
-| [vercel/eve](https://www.skills.sh/vercel/eve) | 4 | ~6.9K | [Vercel Eve Agent Skills Setup](/hermes/skills/catalog/vercel-eve-agent-skills-setup/) |
+| [unity-technologies/skills](https://www.skills.sh/unity-technologies/skills) | 29 | ~56.8K | [Unity AI Skills Setup](/docs/hermes/skills/catalog/unity-ai-skills-setup) |
+| [vercel/next.js](https://www.skills.sh/vercel/next.js) | 5 | ~44.4K | [Next.js Agent Skills Setup](/docs/hermes/skills/catalog/nextjs-agent-skills-setup) |
+| [tencent/wechatreading](https://www.skills.sh/tencent/wechatreading) | 1 | ~41.7K | [WeRead Skills Setup](/docs/hermes/skills/catalog/weread-skills-setup) |
+| [aliyun/alibabacloud-aiops-skills](https://www.skills.sh/aliyun/alibabacloud-aiops-skills) | 270 | ~30.8K | [Alibaba Cloud AIOps Skills Setup](/docs/hermes/skills/catalog/alibaba-cloud-aiops-skills-setup) |
+| [apidojo-io/apidojo-skills](https://www.skills.sh/apidojo-io/apidojo-skills) | 100 | ~21.0K | [Apidojo Agent Skills Setup](/docs/hermes/skills/catalog/apidojo-agent-skills-setup) |
+| [cline/skills](https://www.skills.sh/cline/skills) | 43 | ~20.0K | [Cline Skills Setup](/docs/hermes/skills/catalog/cline-skills-setup) |
+| [vercel/eve](https://www.skills.sh/vercel/eve) | 4 | ~6.9K | [Vercel Eve Agent Skills Setup](/docs/hermes/skills/catalog/vercel-eve-agent-skills-setup) |
 
 **Totals: 7 new publisher clusters, 452 skills, 7 setup guides.**
 
@@ -45,5 +45,5 @@ A hot-board discovery sweep: all 7 clusters surfaced through the skills.sh homep
 
 ---
 
-*← [Marketplace](/hermes/skills/marketplace/) | [Skills Catalog](/hermes/skills/catalog/) →*
+*← [Marketplace](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) →*
 *Powered by CorpusIQ*

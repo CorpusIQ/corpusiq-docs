@@ -19,4 +19,4 @@ Resources for the Hermes Agent community - badges, share cards, and contribution
 
 ---
 
-*← [Hermes Home](/hermes/)*
+*← [Hermes Home](/docs/hermes)*

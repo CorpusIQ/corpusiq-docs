@@ -19,10 +19,10 @@ First sweep of August 18. The API surface stayed fully caught up (40 queries, 3,
 
 | Cluster | Skills | Installs | Tier | Guide |
 |---|---|---|---|---|
-| wecomteam/wecom-cli | 28 | 153.4K | 🟡 | [WeCom CLI Skills Setup](/hermes/skills/catalog/wecom-cli-skills-setup/) |
-| mastra-ai/skills | 5 | 32.6K | 🟡 | [Mastra AI Skills Setup](/hermes/skills/catalog/mastra-ai-skills-setup/) |
-| usestrix/strix | 8 | 9.6K | 🟡 | [Strix Security Skills Setup](/hermes/skills/catalog/strix-security-skills-setup/) |
-| wecomteam/wecom-unified | 1 | 4.4K | 🟡 | [WeCom Unified Skill Setup](/hermes/skills/catalog/wecom-unified-skills-setup/) |
+| wecomteam/wecom-cli | 28 | 153.4K | 🟡 | [WeCom CLI Skills Setup](/docs/hermes/skills/catalog/wecom-cli-skills-setup) |
+| mastra-ai/skills | 5 | 32.6K | 🟡 | [Mastra AI Skills Setup](/docs/hermes/skills/catalog/mastra-ai-skills-setup) |
+| usestrix/strix | 8 | 9.6K | 🟡 | [Strix Security Skills Setup](/docs/hermes/skills/catalog/strix-security-skills-setup) |
+| wecomteam/wecom-unified | 1 | 4.4K | 🟡 | [WeCom Unified Skill Setup](/docs/hermes/skills/catalog/wecom-unified-skills-setup) |
 
 ## Method Notes
 

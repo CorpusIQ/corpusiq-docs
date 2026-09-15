@@ -96,8 +96,8 @@ The primary source of memory bloat is `autoCapture: true`. Disable it while keep
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
-*↑ [Skills Home](/hermes/skills/)*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
+*↑ [Skills Home](/docs/hermes/skills)*
 
 ---
 

@@ -123,14 +123,14 @@ A: Yes. Team-level access controls determine which connectors each user can quer
 
 ## Internal Links
 
-- [Connect Salesforce to Claude](/connect-salesforce-to-claude)
-- [Connect HubSpot to Claude](/connect-hubspot-to-claude)
-- [Connect Stripe to Claude](/connect-stripe-to-claude)
-- [Connect Slack to Claude](/connect-slack-to-claude)
-- [Connect Notion to Claude](/connect-notion-to-claude)
-- [AI for Knowledge Management](/ai-for-knowledge-management)
-- [AI for Data Analysis](/ai-for-data-analysis)
-- [What is MCP?](/what-is-an-mcp-server)
+- [Connect Salesforce to Claude](/connectors)
+- [Connect HubSpot to Claude](/connect/hubspot-with-claude)
+- [Connect Stripe to Claude](/connect/stripe-with-claude)
+- [Connect Slack to Claude](/connect/slack-with-claude)
+- [Connect Notion to Claude](/connectors)
+- [AI for Knowledge Management](/private-ai-for-business)
+- [AI for Data Analysis](/private-ai-for-business)
+- [What is MCP?](/answers/what-is-an-mcp-server)
 
 ---
 

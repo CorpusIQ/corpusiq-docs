@@ -54,6 +54,6 @@ The skill activates and provides browser automation tools accessible through nat
 
 ## Related Skills
 
-- [wiki-history-ingest](/hermes/skills/catalog/wiki-history-ingest-setup/) - Unified agent history ingestion router
-- [hermes-history-ingest](/hermes/skills/catalog/hermes-history-ingest-setup/) - Hermes agent history ingestion
-- [Skills Catalog](/hermes/skills/catalog/)
+- [wiki-history-ingest](/docs/hermes/skills/catalog/wiki-history-ingest-setup) - Unified agent history ingestion router
+- [hermes-history-ingest](/docs/hermes/skills/catalog/hermes-history-ingest-setup) - Hermes agent history ingestion
+- [Skills Catalog](/docs/hermes/skills/catalog)

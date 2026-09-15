@@ -96,6 +96,6 @@ Cherry Shot produces the creative; CorpusIQ tells you what to shoot and whether 
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CraftStory MCP - Talking-Avatar and UGC Video Generation for Agents](/hermes/mcp/servers/external/craftstory-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CraftStory MCP - Talking-Avatar and UGC Video Generation for Agents](/docs/hermes/mcp/servers/external/craftstory-mcp)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

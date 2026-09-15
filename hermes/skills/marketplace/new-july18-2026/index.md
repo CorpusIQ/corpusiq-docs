@@ -56,7 +56,7 @@ The first comprehensive agent skill pack for the full design award lifecycle. Fi
 
 **Why it matters for Hermes:** The design award submission process involves research, evaluation, writing, and compliance checking - all tasks where agent skills add leverage. These skills work across Claude Code, Codex, OpenClaw, OpenCode, and Hermes Agent. For CorpusIQ's content pipeline, the evaluation framework (evidence-based rubrics, source-first verification) is directly reusable for product review content.
 
-**Setup Guide:** [Design Judge Skills - Full Setup Guide](/hermes/skills/catalog/design-judge-skills-setup/)
+**Setup Guide:** [Design Judge Skills - Full Setup Guide](/docs/hermes/skills/catalog/design-judge-skills-setup)
 
 ```bash
 # Install all 5 skills + shared support package
@@ -126,7 +126,7 @@ A hybrid long-term memory backend for Hermes Agent using MongrelDB. Combines den
 ## Setup Guides Added
 
 This sweep produced one new setup guide:
-- **[Design Judge Skills Setup Guide](/hermes/skills/catalog/design-judge-skills-setup/)** - 5 skills, design award workflow, evidence-driven evaluation framework
+- **[Design Judge Skills Setup Guide](/docs/hermes/skills/catalog/design-judge-skills-setup)** - 5 skills, design award workflow, evidence-driven evaluation framework
 
 ---
 
@@ -142,5 +142,5 @@ Additional repos found (deployment/configuration tools, not skill repos - exclud
 
 ---
 
-*← [July 17 Evening](/hermes/skills/marketplace/new-july17-2026-update/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+*← [July 17 Evening](/docs/hermes/skills/marketplace/new-july17-2026-update) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

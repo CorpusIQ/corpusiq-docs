@@ -174,6 +174,6 @@ browser-act record --name "postiz-health" --start-url "https://app.postiz.com"
 
 ## See Also
 
-- [agent-browser](/hermes/skills/catalog/agent-browser-setup/) - Accessibility-tree browser automation (553K installs)
-- [browser-use-automation](/hermes/skills/catalog/) - Python browser automation framework (85K installs)
-- [Apify Agent Skills](/hermes/skills/catalog/apify-agent-skills-setup/) - Web scraping Actors (2.2K⭐)
+- [agent-browser](/docs/hermes/skills/catalog/agent-browser-setup) - Accessibility-tree browser automation (553K installs)
+- [browser-use-automation](/docs/hermes/skills/catalog) - Python browser automation framework (85K installs)
+- [Apify Agent Skills](/docs/hermes/skills/catalog/apify-agent-skills-setup) - Web scraping Actors (2.2K⭐)

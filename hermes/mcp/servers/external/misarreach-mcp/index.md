@@ -98,7 +98,7 @@ CorpusIQ brings the money and customer layer (Stripe, CRM, QuickBooks) while Mis
 
 ## See Also
 
-- [MisarMail MCP - Transactional Email and Campaigns](/hermes/mcp/servers/external/misarmail-mcp/)
-- [Misar.Blog MCP - Blog Publishing](/hermes/mcp/servers/external/misarblog-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [MisarMail MCP - Transactional Email and Campaigns](/docs/hermes/mcp/servers/external/misarmail-mcp)
+- [Misar.Blog MCP - Blog Publishing](/docs/hermes/mcp/servers/external/misarblog-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

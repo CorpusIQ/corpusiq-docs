@@ -63,8 +63,8 @@ npx skills add kesslerio/pymupdf-pdf-parser-clawdbot-skill --skill pymupdf-pdf
 
 This lightweight sweep ran after the July 12 comprehensive sweep (317 skills, 9 new). Only 2 additional skills were found - both from repos not covered by prior sweeps. The OpenClaw ecosystem continues to show steady but modest growth in new skill submissions.
 
-Previous sweep: [July 12, 2026](/hermes/skills/marketplace/new-july12-2026/)
+Previous sweep: [July 12, 2026](/docs/hermes/skills/marketplace/new-july12-2026)
 
 ---
 
-*Part of the Hermes Skills Library - curated by CorpusIQ. [View all skills](/hermes/skills/marketplace/)*
+*Part of the Hermes Skills Library - curated by CorpusIQ. [View all skills](/docs/hermes/skills/marketplace)*

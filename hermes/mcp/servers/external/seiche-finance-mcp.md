@@ -71,6 +71,6 @@ cd seiche && pip install -e .
 
 ## See Also
 
-- [Financial News MCP](/hermes/mcp/servers/external/financial-news-mcp/) - Real-time financial news and sentiment
-- [AlphaVantage MCP](/hermes/mcp/servers/external/alphavantage-mcp/) - Stock fundamentals and technical data
-- [Kalshi MCP](/hermes/mcp/servers/external/kalshi-mcp/) - Prediction market data
+- [Financial News MCP](/docs/hermes/mcp/servers/external/financial-news-mcp) - Real-time financial news and sentiment
+- [AlphaVantage MCP](/docs/hermes/mcp/servers/external/alphavantage-mcp) - Stock fundamentals and technical data
+- [Kalshi MCP](/docs/hermes/mcp/servers/external/kalshi-mcp) - Prediction market data

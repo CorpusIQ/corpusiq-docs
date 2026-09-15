@@ -77,12 +77,12 @@ ls ~/.hermes/skills/next-dev-loop/SKILL.md
 
 ## Related
 
-- [Vercel AI SDK Skills - TypeScript AI Development Setup](/hermes/skills/catalog/vercel-ai-skills-setup/)
-- [Vercel Eve Agent Skills - Official Eve Agent Framework Skills Setup](/hermes/skills/catalog/vercel-eve-agent-skills-setup/)
-- [Vercel Agent Skills - Official Vercel Collection Setup](/hermes/skills/catalog/vercel-agent-skills-setup/)
+- [Vercel AI SDK Skills - TypeScript AI Development Setup](/docs/hermes/skills/catalog/vercel-ai-skills-setup)
+- [Vercel Eve Agent Skills - Official Eve Agent Framework Skills Setup](/docs/hermes/skills/catalog/vercel-eve-agent-skills-setup)
+- [Vercel Agent Skills - Official Vercel Collection Setup](/docs/hermes/skills/catalog/vercel-agent-skills-setup)
 - [CorpusIQ - one MCP endpoint, all your business tools](https://corpusiq.io)
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

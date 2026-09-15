@@ -97,7 +97,7 @@ Dados B3 is the Brazilian equity layer; CorpusIQ is the books-and-traffic layer.
 
 ## See Also
 
-- [Signal Nodus SEC Filings MCP](/hermes/mcp/servers/external/signal-nodus-mcp/)
-- [AskRentAI MCP](/hermes/mcp/servers/external/askrentai-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [Signal Nodus SEC Filings MCP](/docs/hermes/mcp/servers/external/signal-nodus-mcp)
+- [AskRentAI MCP](/docs/hermes/mcp/servers/external/askrentai-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

@@ -118,13 +118,13 @@ A: With AI, continuous forecasting becomes practical. Many organizations benefit
 
 ## Internal Links
 
-- [Connect Salesforce to Claude](/connect-salesforce-to-claude)
-- [Connect QuickBooks to Claude](/connect-quickbooks-to-claude)
-- [AI for Financial Analysis](/ai-for-financial-analysis)
-- [AI for Revenue Operations](/ai-for-revenue-operations)
-- [AI for Executive Reporting](/ai-for-executive-reporting)
-- [AI for KPI Monitoring](/ai-for-kpi-monitoring)
-- [What is MCP?](/what-is-an-mcp-server)
+- [Connect Salesforce to Claude](/connectors)
+- [Connect QuickBooks to Claude](/connect/quickbooks-with-claude)
+- [AI for Financial Analysis](/private-ai-for-business)
+- [AI for Revenue Operations](/private-ai-for-business)
+- [AI for Executive Reporting](/private-ai-for-business)
+- [AI for KPI Monitoring](/private-ai-for-business)
+- [What is MCP?](/answers/what-is-an-mcp-server)
 
 ---
 

@@ -86,8 +86,8 @@ CorpusIQ's 40+ connectors cover the structured business layer: books, ads, CRM, 
 
 ## See Also
 
-- [BusyMail MCP - Email Operations for Agents](/hermes/mcp/servers/external/busymail-mcp/)
-- [Radmail - Email Insights for Founders](/hermes/mcp/servers/external/radmail/)
-- [MisarMail MCP - Transactional Email from MCP Clients](/hermes/mcp/servers/external/misarmail-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [BusyMail MCP - Email Operations for Agents](/docs/hermes/mcp/servers/external/busymail-mcp)
+- [Radmail - Email Insights for Founders](/docs/hermes/mcp/servers/external/radmail)
+- [MisarMail MCP - Transactional Email from MCP Clients](/docs/hermes/mcp/servers/external/misarmail-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

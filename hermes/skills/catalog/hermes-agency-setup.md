@@ -392,4 +392,4 @@ This is the foundation for truly decentralized CorpusIQ agent swarms - autonomou
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace Home](/hermes/skills/marketplace/) | DeployFaith/Hermes_Agency on GitHub*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace Home](/docs/hermes/skills/marketplace) | DeployFaith/Hermes_Agency on GitHub*

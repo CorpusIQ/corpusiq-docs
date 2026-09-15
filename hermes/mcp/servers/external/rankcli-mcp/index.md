@@ -78,7 +78,7 @@ RankCLI audits the site's technical and AI-visibility surface; CorpusIQ measures
 
 ## See Also
 
-- [Ranki MCP - SEO and AEO Audits](/hermes/mcp/servers/external/ranki-mcp/)
-- [Encited MCP - SEO and AI Visibility for Agents](/hermes/mcp/servers/external/encited-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [Ranki MCP - SEO and AEO Audits](/docs/hermes/mcp/servers/external/ranki-mcp)
+- [Encited MCP - SEO and AI Visibility for Agents](/docs/hermes/mcp/servers/external/encited-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

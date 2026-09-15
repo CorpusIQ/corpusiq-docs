@@ -83,8 +83,8 @@ Agency AI MCP answers what the ads are doing; CorpusIQ answers whether it is wor
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/) - curated third-party MCP servers for operators
-- [Meta Ads MCP](/hermes/mcp/servers/external/meta-ads-mcp/) - Meta Ads management tools
-- [Inside Ads MCP](/hermes/mcp/servers/external/inside-ads-mcp/) - ad account performance intelligence
-- [AdWhispr MCP](/hermes/mcp/servers/external/adwhispr-mcp/) - Meta ad library research
-- [OrbiAds GAM MCP](/hermes/mcp/servers/external/orbiads-gam-mcp/) - Google Ad Manager operations
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [Meta Ads MCP](/docs/hermes/mcp/servers/external/meta-ads-mcp) - Meta Ads management tools
+- [Inside Ads MCP](/docs/hermes/mcp/servers/external/inside-ads-mcp) - ad account performance intelligence
+- [AdWhispr MCP](/docs/hermes/mcp/servers/external/adwhispr-mcp) - Meta ad library research
+- [OrbiAds GAM MCP](/docs/hermes/mcp/servers/external/orbiads-gam-mcp) - Google Ad Manager operations

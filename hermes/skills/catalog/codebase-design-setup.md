@@ -84,7 +84,7 @@ hermes skills list | grep codebase-design
 
 ## Related
 
-- [Matt Pocock Agent Workflow Suite - 20-Skill Setup](/hermes/skills/catalog/mattpocock-agent-workflow-suite-setup/)
-- [Resolving Merge Conflicts Setup](/hermes/skills/catalog/resolving-merge-conflicts-setup/)
-- [Matt Pocock Engineering Skills Setup](/hermes/skills/catalog/matt-pocock-engineering-setup/)
-- [Mattpocock Skills Setup](/hermes/skills/catalog/mattpocock-skills-setup/)
+- [Matt Pocock Agent Workflow Suite - 20-Skill Setup](/docs/hermes/skills/catalog/mattpocock-agent-workflow-suite-setup)
+- [Resolving Merge Conflicts Setup](/docs/hermes/skills/catalog/resolving-merge-conflicts-setup)
+- [Matt Pocock Engineering Skills Setup](/docs/hermes/skills/catalog/matt-pocock-engineering-setup)
+- [Mattpocock Skills Setup](/docs/hermes/skills/catalog/mattpocock-skills-setup)

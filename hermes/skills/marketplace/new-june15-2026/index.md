@@ -150,9 +150,9 @@ The June 13, 2026 PM sweep documented 72 skills from `nousresearch/hermes-agent`
 
 ---
 
-*← [June 12 Update (OpenClaw Security Suite)](/hermes/skills/marketplace/new-june12-2026-update/) | [Skills Marketplace](/hermes/skills/marketplace/) →*
+*← [June 12 Update (OpenClaw Security Suite)](/docs/hermes/skills/marketplace/new-june12-2026-update) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
 
-*↑ [Skills Home](/hermes/skills/)*
+*↑ [Skills Home](/docs/hermes/skills)*
 
 *Powered by CorpusIQ*
 ---

@@ -85,7 +85,7 @@ CorpusIQ answers questions about business data: what campaigns earned, which cha
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/) - curated third-party MCP servers for operators
-- [tube-bridge MCP](/hermes/mcp/servers/external/tube-bridge-mcp/) - self-hosted YouTube research with local semantic search
-- [viral-outliers MCP](/hermes/mcp/servers/external/viral-outliers-mcp/) - viral social outlier database with transcripts
-- [MCP Integration Guide](/hermes/mcp/) - connecting MCP servers to Hermes Agent
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [tube-bridge MCP](/docs/hermes/mcp/servers/external/tube-bridge-mcp) - self-hosted YouTube research with local semantic search
+- [viral-outliers MCP](/docs/hermes/mcp/servers/external/viral-outliers-mcp) - viral social outlier database with transcripts
+- [MCP Integration Guide](/docs/hermes/mcp) - connecting MCP servers to Hermes Agent

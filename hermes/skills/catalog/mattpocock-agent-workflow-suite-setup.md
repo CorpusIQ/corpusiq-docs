@@ -13,7 +13,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "matt pocock", "workflow"]
 **Category:** Software Engineering / Agent Workflow / Product Management
 **First Seen:** Sep 9, 2026
 
-This guide covers 20 Matt Pocock skills that were **not** included in the earlier [Mattpocock Skills Setup](/hermes/skills/catalog/mattpocock-skills-setup/) (19 skills) or [Engineering Skills](/hermes/skills/catalog/matt-pocock-engineering-setup/) (5 skills) guides. Together they form the interrogation-and-execution layer of the Pocock methodology: grilling plans, TDD loops, domain modeling, triage, handoffs between agent sessions, and spec-to-ticket pipelines. Combined installs: **11,400,000+**.
+This guide covers 20 Matt Pocock skills that were **not** included in the earlier [Mattpocock Skills Setup](/docs/hermes/skills/catalog/mattpocock-skills-setup) (19 skills) or [Engineering Skills](/docs/hermes/skills/catalog/matt-pocock-engineering-setup) (5 skills) guides. Together they form the interrogation-and-execution layer of the Pocock methodology: grilling plans, TDD loops, domain modeling, triage, handoffs between agent sessions, and spec-to-ticket pipelines. Combined installs: **11,400,000+**.
 
 ---
 
@@ -142,7 +142,7 @@ hermes skills list | grep -E "grill-me|tdd|handoff|triage|to-spec"
 
 ## Related
 
-- [codebase-design Setup](/hermes/skills/catalog/codebase-design-setup/)
-- [Resolving Merge Conflicts Setup](/hermes/skills/catalog/resolving-merge-conflicts-setup/)
-- [Matt Pocock Engineering Skills Setup](/hermes/skills/catalog/matt-pocock-engineering-setup/)
-- [Mattpocock Skills Setup](/hermes/skills/catalog/mattpocock-skills-setup/)
+- [codebase-design Setup](/docs/hermes/skills/catalog/codebase-design-setup)
+- [Resolving Merge Conflicts Setup](/docs/hermes/skills/catalog/resolving-merge-conflicts-setup)
+- [Matt Pocock Engineering Skills Setup](/docs/hermes/skills/catalog/matt-pocock-engineering-setup)
+- [Mattpocock Skills Setup](/docs/hermes/skills/catalog/mattpocock-skills-setup)

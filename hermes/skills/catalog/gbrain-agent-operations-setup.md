@@ -130,5 +130,5 @@ gbrain smoke-test
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Discovery Page](/hermes/skills/marketplace/new-june25-2026/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Discovery Page](/docs/hermes/skills/marketplace/new-june25-2026) →*
 *Curated by CorpusIQ - one MCP endpoint, all your business tools. Content remains attributed to original authors and repositories.*

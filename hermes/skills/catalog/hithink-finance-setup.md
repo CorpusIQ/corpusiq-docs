@@ -58,4 +58,4 @@ The skill is a routing layer: it identifies the data task from natural language,
 
 ## Related
 
-- [Wind Skills - 82-Skill Financial Terminal Cluster](/hermes/skills/catalog/wind-skills-setup/)
+- [Wind Skills - 82-Skill Financial Terminal Cluster](/docs/hermes/skills/catalog/wind-skills-setup)

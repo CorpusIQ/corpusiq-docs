@@ -80,8 +80,8 @@ npx skills add wecomteam/wecom-unified   # verify install works
 
 ## Related
 
-- [WeCom CLI Skills - Enterprise WeChat Agent Suite Setup](/hermes/skills/catalog/wecom-cli-skills-setup/)
-- [Skills Catalog](/hermes/skills/catalog/)
-- [Skills Marketplace](/hermes/skills/marketplace/)
+- [WeCom CLI Skills - Enterprise WeChat Agent Suite Setup](/docs/hermes/skills/catalog/wecom-cli-skills-setup)
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Skills Marketplace](/docs/hermes/skills/marketplace)
 
 *Powered by CorpusIQ*

@@ -170,14 +170,14 @@ A: Yes  --  for question-answering. You may still want a wiki for browseable, st
 
 ## Internal Links
 
-- [How to Centralize Company Knowledge](/how-to-centralize-company-knowledge)
-- [How to Search Company Data with AI](/how-to-search-company-data-with-ai)
-- [How to Use AI with Business Data](/how-to-use-ai-with-business-data)
-- [How to Create an AI Data Layer](/how-to-create-an-ai-data-layer)
-- [Best AI Knowledge Platform  --  Rankings](/best-ai-knowledge-platform)
-- [Best Business AI Search Tool](/best-business-ai-search-tool)
-- [CorpusIQ vs Vector Databases  --  Live Query vs Search](/corpusiq-vs-vector-databases)
-- [Enterprise AI Data Access Guide](/enterprise-ai-data-access)
+- [How to Centralize Company Knowledge](/answers)
+- [How to Search Company Data with AI](/answers)
+- [How to Use AI with Business Data](/answers)
+- [How to Create an AI Data Layer](/answers)
+- [Best AI Knowledge Platform  --  Rankings](/compare)
+- [Best Business AI Search Tool](/compare)
+- [CorpusIQ vs Vector Databases  --  Live Query vs Search](/compare)
+- [Enterprise AI Data Access Guide](/enterprise)
 ---
 
 *

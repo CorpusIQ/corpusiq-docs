@@ -71,5 +71,5 @@ npx skills add petrkindlmann/qa-skills --skill ai-qa-review
 
 ## Related
 
-- [Momentic QA Skills Setup](/hermes/skills/catalog/momentic-skills-setup/)
-- [Swift Testing Pro Setup](/hermes/skills/catalog/swift-testing-pro-skill-setup/)
+- [Momentic QA Skills Setup](/docs/hermes/skills/catalog/momentic-skills-setup)
+- [Swift Testing Pro Setup](/docs/hermes/skills/catalog/swift-testing-pro-skill-setup)

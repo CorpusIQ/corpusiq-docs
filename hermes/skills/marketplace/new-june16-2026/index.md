@@ -16,7 +16,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 | Skill | Source | Installs | Status |
 |---|---|---|---|
-| [youtube-content](/hermes/skills/catalog/youtube-content-setup/) | nousresearch/hermes-agent | 160 | **New setup guide created** |
+| [youtube-content](/docs/hermes/skills/catalog/youtube-content-setup) | nousresearch/hermes-agent | 160 | **New setup guide created** |
 
 ## Already Catalogued (Cross-Reference Verified)
 
@@ -53,7 +53,7 @@ New hermes-skills repos created June 14-16, 2026:
 
 ---
 
-*← June 13, 2026 - Update 3 | [Skills Catalog](/hermes/skills/catalog/) →*
+*← June 13, 2026 - Update 3 | [Skills Catalog](/docs/hermes/skills/catalog) →*
 *Powered by CorpusIQ*
 ---
 

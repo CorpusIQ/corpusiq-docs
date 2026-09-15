@@ -30,7 +30,7 @@ npx skills add aradotso/marketing-skills --skill threads-growth-skill
 
 **Why it matters for CorpusIQ:** Directly applicable to CorpusIQ's growth operations. Threads is Meta's fastest-growing platform with 200M+ users. This skill lets Hermes agents execute Threads growth strategies autonomously - content publishing, engagement automation, and audience analytics. Combined with existing social media skills (X/Twitter, LinkedIn, Instagram), this completes the Meta social stack.
 
-> See [full setup guide →](/hermes/skills/catalog/threads-growth-skill-setup/)
+> See [full setup guide →](/docs/hermes/skills/catalog/threads-growth-skill-setup)
 
 ---
 
@@ -47,7 +47,7 @@ npx skills add nvidia/skills --skill nemoclaw-user-guide
 
 **Why it matters:** NVIDIA's entry into the Hermes/OpenClaw skill ecosystem signals enterprise validation. NemoClaw addresses the security concerns that enterprises have about autonomous agents - permission gates, audit logging, and secure execution boundaries. For CorpusIQ operators running production agent workflows, this provides a security baseline from a trusted enterprise vendor.
 
-> See [full setup guide →](/hermes/skills/catalog/nemoclaw-user-guide-setup/)
+> See [full setup guide →](/docs/hermes/skills/catalog/nemoclaw-user-guide-setup)
 
 ---
 
@@ -64,7 +64,7 @@ npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-flexus-l-serv
 
 **Why it matters:** Expands Hermes deployment options into the Huawei Cloud ecosystem - the third-largest cloud provider globally. For CorpusIQ operators targeting Asian markets or running on Huawei infrastructure, this provides a tested production deployment path. The broader huaweicloud-skills collection (5+ skills) suggests growing Hermes adoption in the Chinese cloud ecosystem.
 
-> See [full setup guide →](/hermes/skills/catalog/huawei-hermes-deployment-setup/)
+> See [full setup guide →](/docs/hermes/skills/catalog/huawei-hermes-deployment-setup)
 
 ---
 
@@ -93,6 +93,6 @@ npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-flexus-l-serv
 
 ---
 
-*← [June 27 Discovery](/hermes/skills/marketplace/new-june27-2026/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+*← [June 27 Discovery](/docs/hermes/skills/marketplace/new-june27-2026) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
 
 *Curated by CorpusIQ - one MCP endpoint, all your business tools.*

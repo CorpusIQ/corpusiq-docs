@@ -88,6 +88,6 @@ CorpusIQ is the read-side authority for a business's own systems (CRM, calendar,
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/) - curated third-party MCP servers for operators
-- [Austin MLS MCP](/hermes/mcp/servers/external/austin-mls-mcp/) - regional real estate listings with photos and detail pages
-- [MCP Integration Guide](/hermes/mcp/) - connecting MCP servers to Hermes Agent
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [Austin MLS MCP](/docs/hermes/mcp/servers/external/austin-mls-mcp) - regional real estate listings with photos and detail pages
+- [MCP Integration Guide](/docs/hermes/mcp) - connecting MCP servers to Hermes Agent

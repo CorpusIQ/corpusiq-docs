@@ -90,7 +90,7 @@ CorpusIQ covers the financial and business-data layer; EuroDNS MCP covers the do
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [CTlogs.io MCP - Certificate Transparency Search for Agents](/hermes/mcp/servers/external/ctlogs-mcp/)
-- [Helixar MCP - Supply-Chain Security Scanning for MCP Servers](/hermes/mcp/servers/external/helixar-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [CTlogs.io MCP - Certificate Transparency Search for Agents](/docs/hermes/mcp/servers/external/ctlogs-mcp)
+- [Helixar MCP - Supply-Chain Security Scanning for MCP Servers](/docs/hermes/mcp/servers/external/helixar-mcp)

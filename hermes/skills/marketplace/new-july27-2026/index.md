@@ -28,28 +28,28 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **netlify-agent-skills** | netlify/context-and-tools | 7.9K+ | 🟢 | [Setup Guide](/hermes/skills/catalog/netlify-agent-skills-setup/) |
+| **netlify-agent-skills** | netlify/context-and-tools | 7.9K+ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/netlify-agent-skills-setup) |
 | Netlify Functions, Config, Deploy, Frameworks, Edge Functions, Forms | | | | |
 
 ### AI Media / Research
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **huggingface-agent-skills** | huggingface/skills | 7.9K+ | 🟢 | [Setup Guide](/hermes/skills/catalog/huggingface-agent-skills-setup/) |
+| **huggingface-agent-skills** | huggingface/skills | 7.9K+ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/huggingface-agent-skills-setup) |
 | Datasets, Papers, Transformers.js, Vision Trainer, TrackIO, Tool Builder | | | | |
 
 ### Engineering & Marketing
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **alirezarezvani-claude-skills** | alirezarezvani/claude-skills | 9K+ | 🟢 | [Setup Guide](/hermes/skills/catalog/alirezarezvani-claude-skills-setup/) |
+| **alirezarezvani-claude-skills** | alirezarezvani/claude-skills | 9K+ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/alirezarezvani-claude-skills-setup) |
 | 341 skills: engineering (37 POWERFUL), marketing ops, agent loops, browser automation, A/B testing, AEO, analytics, ASO, brand, campaigns | | | | |
 
 ### Marketing & Growth
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **kostja94-marketing-skills** | kostja94/marketing-skills | 7.6K+ | 🟡 | [Setup Guide](/hermes/skills/catalog/kostja94-marketing-skills-setup/) |
+| **kostja94-marketing-skills** | kostja94/marketing-skills | 7.6K+ | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/kostja94-marketing-skills-setup) |
 | Copywriting (PAS/AIDA/BAB), Programmatic SEO, Meta Ads, Google Search Console, TikTok Ads, Legal Pages, Website Structure | | | | |
 
 ## Discovery Method

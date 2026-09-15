@@ -87,7 +87,7 @@ CorpusIQ answers questions about the business's own data (revenue, customers, co
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/) - curated third-party MCP servers for operators
-- [Truth Bear GAUGE MCP](/hermes/mcp/servers/external/truth-bear-gauge/) - verifiable government data with cryptographic proof
-- [FluentEDI MCP](/hermes/mcp/servers/external/fluentedi-mcp/) - hosted X12 EDI processing for supply-chain agents
-- [MCP Integration Guide](/hermes/mcp/) - connecting MCP servers to Hermes Agent
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [Truth Bear GAUGE MCP](/docs/hermes/mcp/servers/external/truth-bear-gauge) - verifiable government data with cryptographic proof
+- [FluentEDI MCP](/docs/hermes/mcp/servers/external/fluentedi-mcp) - hosted X12 EDI processing for supply-chain agents
+- [MCP Integration Guide](/docs/hermes/mcp) - connecting MCP servers to Hermes Agent

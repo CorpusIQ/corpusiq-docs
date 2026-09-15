@@ -146,15 +146,15 @@ npx skills find "nodejs-best-practices" --json 2>&1 | grep skills.sh
 ## Security
 
 - [sickn33/agentic-awesome-skills repo](https://github.com/sickn33/agentic-awesome-skills) - review SKILL.md files before install (standard practice)
-- [Hermes skills security](/hermes/best-practices/security/) - skill trust guidance
+- [Hermes skills security](/docs/hermes/best-practices/security) - skill trust guidance
 - `cc-skill-security-review` in this catalog audits skills before activation
 
 ## Related
 
-- [M. Collina Node Skills - Fastify & Node.js Agent Suite Setup](/hermes/skills/catalog/mcollina-node-skills-setup/) - Node.js-focused suite from the Fastify author
-- [design-review - Visual UI Audit & Fix Setup](/hermes/skills/catalog/design-review-setup/) - complementary UI review skill
-- [Skills Catalog](/hermes/skills/catalog/) - full catalog index
+- [M. Collina Node Skills - Fastify & Node.js Agent Suite Setup](/docs/hermes/skills/catalog/mcollina-node-skills-setup) - Node.js-focused suite from the Fastify author
+- [design-review - Visual UI Audit & Fix Setup](/docs/hermes/skills/catalog/design-review-setup) - complementary UI review skill
+- [Skills Catalog](/docs/hermes/skills/catalog) - full catalog index
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

@@ -89,8 +89,8 @@ The composed loop is simple: GA4 traffic and Shopify revenue in CorpusIQ pick th
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [KD Scout MCP - Keyword Research Arithmetic](/hermes/mcp/servers/external/kd-scout-mcp/)
-- [CiteRank MCP - AI Search Visibility Audits](/hermes/mcp/servers/external/citerank-mcp/)
-- [SEOmatic MCP - Real Search Console Data with Approval-Gated Fixes](/hermes/mcp/servers/external/seomatic-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [KD Scout MCP - Keyword Research Arithmetic](/docs/hermes/mcp/servers/external/kd-scout-mcp)
+- [CiteRank MCP - AI Search Visibility Audits](/docs/hermes/mcp/servers/external/citerank-mcp)
+- [SEOmatic MCP - Real Search Console Data with Approval-Gated Fixes](/docs/hermes/mcp/servers/external/seomatic-mcp)

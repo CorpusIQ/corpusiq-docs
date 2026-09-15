@@ -81,5 +81,5 @@ PopOff exports pair with CorpusIQ connectors for the campaign side of entertainm
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Social Glass MCP - Cultural Intelligence for Brand and Research Teams](/hermes/mcp/servers/external/social-glass-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Social Glass MCP - Cultural Intelligence for Brand and Research Teams](/docs/hermes/mcp/servers/external/social-glass-mcp)

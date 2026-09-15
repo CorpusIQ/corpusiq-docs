@@ -140,4 +140,4 @@ All tools are read-only and respect your Nexly plan's data access level.
 
 ---
 
-*← [Back to External MCP Catalog](/hermes/mcp/servers/external/) | [Competitor Tracker MCP Guide](/hermes/mcp/servers/external/competitor-tracker-mcp/) →*
+*← [Back to External MCP Catalog](/docs/hermes/mcp/servers/external) | [Competitor Tracker MCP Guide](/docs/hermes/mcp/servers/external/competitor-tracker-mcp) →*

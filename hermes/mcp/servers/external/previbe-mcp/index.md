@@ -85,7 +85,7 @@ PreVibe's research pairs with CorpusIQ's post-launch data to close the validate-
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Sourcey MCP - Startup Credits and Agent Readiness Data](/hermes/mcp/servers/external/sourcey-mcp/)
-- [Ransack MCP - Source-Attributed Search and Research for Agents](/hermes/mcp/servers/external/ransack-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Sourcey MCP - Startup Credits and Agent Readiness Data](/docs/hermes/mcp/servers/external/sourcey-mcp)
+- [Ransack MCP - Source-Attributed Search and Research for Agents](/docs/hermes/mcp/servers/external/ransack-mcp)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

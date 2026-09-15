@@ -117,5 +117,5 @@ open http://localhost:18888   # macOS
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Discovery Page](/hermes/skills/marketplace/new-june25-2026-update/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Discovery Page](/docs/hermes/skills/marketplace/new-june25-2026-update) →*
 *Curated by CorpusIQ - one MCP endpoint, all your business tools.*

@@ -72,6 +72,6 @@ Endpoint `https://mcp.voipstudio.workers.dev/sse` live-probed: anonymous GET ret
 
 ## See Also
 
-- [DialNexa MCP - Voice AI Agents and Confirmed Outbound Calls](/hermes/mcp/servers/external/dialnexa-mcp/)
-- [VoIP.ms MCP - Business Telephony for AI Agents](/hermes/mcp/servers/external/voipms-mcp/)
-- [Canarics MCP - AI Call Analysis and Voice Agents for Sales Teams](/hermes/mcp/servers/external/canarics-mcp/)
+- [DialNexa MCP - Voice AI Agents and Confirmed Outbound Calls](/docs/hermes/mcp/servers/external/dialnexa-mcp)
+- [VoIP.ms MCP - Business Telephony for AI Agents](/docs/hermes/mcp/servers/external/voipms-mcp)
+- [Canarics MCP - AI Call Analysis and Voice Agents for Sales Teams](/docs/hermes/mcp/servers/external/canarics-mcp)

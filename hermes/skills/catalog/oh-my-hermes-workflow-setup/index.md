@@ -148,9 +148,9 @@ hermes skill invoke oh-my-hermes-workflow --history
 
 ## Related Skills
 
-- [Hermes Agent Self-Evolution](/hermes/skills/catalog/hermes-agent-self-evolution-setup/)
-- [Blueprint Orchestration](/hermes/skills/catalog/blueprint-orchestration-setup/)
-- [CorpusIQ Session Handoff](/hermes/skills/catalog/gbrain-agent-operations-setup)
+- [Hermes Agent Self-Evolution](/docs/hermes/skills/catalog/hermes-agent-self-evolution-setup)
+- [Blueprint Orchestration](/docs/hermes/skills/catalog/blueprint-orchestration-setup)
+- [CorpusIQ Session Handoff](/docs/hermes/skills/catalog/gbrain-agent-operations-setup)
 
 ---
 

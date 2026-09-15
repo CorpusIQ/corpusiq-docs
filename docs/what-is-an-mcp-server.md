@@ -135,7 +135,7 @@ CorpusIQ uses read-only access for direct MCP live retrieval. It does not retain
 <details>
 <summary><strong>How is MCP different from a Zapier integration?</strong></summary>
 
-Zapier is trigger-based and batch-oriented  --  when event A happens, perform action B. MCP is real-time and query-oriented  --  ask any question and get an answer from live data. Zapier moves data between apps; MCP makes data accessible to AI for analysis and reporting. See our [MCP vs Zapier comparison](/mcp-vs-zapier) for a detailed breakdown.
+Zapier is trigger-based and batch-oriented  --  when event A happens, perform action B. MCP is real-time and query-oriented  --  ask any question and get an answer from live data. Zapier moves data between apps; MCP makes data accessible to AI for analysis and reporting. See our [MCP vs Zapier comparison](/mcp) for a detailed breakdown.
 </details>
 
 <details>
@@ -147,7 +147,7 @@ The protocol supports write operations, but CorpusIQ's MCP implementation defaul
 <details>
 <summary><strong>How secure is MCP?</strong></summary>
 
-MCP uses OAuth 2.0 for authentication, supports scoped access tokens, and encrypts data in transit. MCP servers run in your environment or CorpusIQ's secure cloud. See our [Read our complete MCP security best practices guide](/mcp-security-best-practices) for details.
+MCP uses OAuth 2.0 for authentication, supports scoped access tokens, and encrypts data in transit. MCP servers run in your environment or CorpusIQ's secure cloud. See our [Read our complete MCP security best practices guide](/mcp) for details.
 </details>
 
 <details>
@@ -176,14 +176,14 @@ Yes. MCP servers can be deployed on-premise and connect to internal databases, E
 
 ## Internal Links
 
-- [Understand how MCP servers work with a technical deep dive](/how-mcp-servers-work)
-- [Compare MCP vs Zapier for real-time business automation](/mcp-vs-zapier)
-- [See how MCP compares to traditional data warehouses](/mcp-vs-data-warehouse)
-- [Compare MCP vs custom API integrations](/mcp-vs-api-integrations)
-- [Discover the business benefits of MCP servers](/benefits-of-mcp-for-business)
-- [Read our complete MCP security best practices guide](/mcp-security-best-practices)
-- [Explore MCP for small business intelligence](/mcp-for-small-business)
-- [Learn about MCP for enterprise-scale deployments](/mcp-for-enterprise)
+- [Understand how MCP servers work with a technical deep dive](/mcp)
+- [Compare MCP vs Zapier for real-time business automation](/mcp)
+- [See how MCP compares to traditional data warehouses](/mcp)
+- [Compare MCP vs custom API integrations](/mcp)
+- [Discover the business benefits of MCP servers](/mcp)
+- [Read our complete MCP security best practices guide](/mcp)
+- [Explore MCP for small business intelligence](/mcp-server-small-business)
+- [Learn about MCP for enterprise-scale deployments](/mcp)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 
@@ -198,4 +198,4 @@ Yes. MCP servers can be deployed on-premise and connect to internal databases, E
 
 ---
 
-**MCP Spec GA - July 28, 2026:** The Model Context Protocol specification reaches general availability on July 28. [Read what this means for business operators](/mcp-spec-ga-july-2026).
+**MCP Spec GA - July 28, 2026:** The Model Context Protocol specification reaches general availability on July 28. [Read what this means for business operators](/docs/mcp-spec-ga-july-2026).

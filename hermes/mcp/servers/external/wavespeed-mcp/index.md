@@ -88,7 +88,7 @@ WaveSpeed is the creative output layer; CorpusIQ is the business-data layer. A m
 
 ## See Also
 
-- [UnrealUGC MCP - AI UGC Video Ad Generation](/hermes/mcp/servers/external/unrealugc-mcp/)
-- [MCPGRAM MCP - OAuth Connectivity Gateway](/hermes/mcp/servers/external/mcpgram-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [UnrealUGC MCP - AI UGC Video Ad Generation](/docs/hermes/mcp/servers/external/unrealugc-mcp)
+- [MCPGRAM MCP - OAuth Connectivity Gateway](/docs/hermes/mcp/servers/external/mcpgram-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

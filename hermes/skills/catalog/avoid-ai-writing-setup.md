@@ -80,8 +80,8 @@ npx skills add conorbronsdon/avoid-ai-writing   # verify install works
 
 ## Related
 
-- [Stop Slop Setup](/hermes/skills/catalog/stop-slop-setup/)
-- [Skills Catalog](/hermes/skills/catalog/)
-- [Skills Marketplace](/hermes/skills/marketplace/)
+- [Stop Slop Setup](/docs/hermes/skills/catalog/stop-slop-setup)
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Skills Marketplace](/docs/hermes/skills/marketplace)
 
 *Powered by CorpusIQ*

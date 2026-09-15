@@ -90,7 +90,7 @@ CorpusIQ already exposes Google Ads as one of its 40+ read-only connectors, whic
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [SellerMate MCP - Amazon Ads Operations for AI Agents](/hermes/mcp/servers/external/sellermate-mcp/)
-- [Lifesight MCP - Unified Marketing Measurement and MMM](/hermes/mcp/servers/external/lifesight-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [SellerMate MCP - Amazon Ads Operations for AI Agents](/docs/hermes/mcp/servers/external/sellermate-mcp)
+- [Lifesight MCP - Unified Marketing Measurement and MMM](/docs/hermes/mcp/servers/external/lifesight-mcp)

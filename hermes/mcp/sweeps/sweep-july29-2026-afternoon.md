@@ -24,13 +24,13 @@ Afternoon sweep of mcpservers.org JSON-LD data (30 newest servers via SSR), site
 ## ★★★ Business-Critical (3 Guides Written)
 
 ### QuickBooks MCP Server ★★★ - July 29 afternoon
-**First comprehensive QuickBooks MCP - 550+ tools, OAuth2, hosted by datagrout.ai.** AI agents connect to QuickBooks Online for invoices, bills, reports, and inventory. Write operations disabled by default (opt-in per integration). This fills the single biggest gap in accounting MCP - until now, QuickBooks access required Laravel community packages or read-only connectors. `datagrout.ai/integrations/quickbooks-mcp-server` · [Guide →](/hermes/mcp/servers/external/quickbooks-mcp/)
+**First comprehensive QuickBooks MCP - 550+ tools, OAuth2, hosted by datagrout.ai.** AI agents connect to QuickBooks Online for invoices, bills, reports, and inventory. Write operations disabled by default (opt-in per integration). This fills the single biggest gap in accounting MCP - until now, QuickBooks access required Laravel community packages or read-only connectors. `datagrout.ai/integrations/quickbooks-mcp-server` · [Guide →](/docs/hermes/mcp/servers/external/quickbooks-mcp)
 
 ### Oracle MCP Server ★★★ - July 29 afternoon
-**First Oracle Fusion Cloud MCP - 1,000+ tools, OAuth2, hosted by datagrout.ai.** AI agents connect to Oracle's ERP: Financials, Procurement, Inventory, Suppliers, Tax, and Workforce. Write operations disabled by default. The first enterprise-grade Oracle MCP - previously, Oracle access required custom REST/SOAP integrations or middleware like Boomi/MuleSoft. `datagrout.ai/integrations/oracle-mcp-server` · [Guide →](/hermes/mcp/servers/external/oracle-mcp/)
+**First Oracle Fusion Cloud MCP - 1,000+ tools, OAuth2, hosted by datagrout.ai.** AI agents connect to Oracle's ERP: Financials, Procurement, Inventory, Suppliers, Tax, and Workforce. Write operations disabled by default. The first enterprise-grade Oracle MCP - previously, Oracle access required custom REST/SOAP integrations or middleware like Boomi/MuleSoft. `datagrout.ai/integrations/oracle-mcp-server` · [Guide →](/docs/hermes/mcp/servers/external/oracle-mcp)
 
 ### DealMachine MCP ★★ - July 29 afternoon
-**Real estate property intelligence MCP - 17 command groups, OAuth 2.1 + API key.** AI agents search properties, look up owners, skip-trace contacts, analyze comps, and manage lead lists. First major real estate data platform to ship an MCP server. Self-contained Commander.js CLI with zero internal dependencies - communicates entirely through DealMachine's public REST API. `github.com/DealMachine/dealmachine-cli` · [Guide →](/hermes/mcp/servers/external/dealmachine-mcp/)
+**Real estate property intelligence MCP - 17 command groups, OAuth 2.1 + API key.** AI agents search properties, look up owners, skip-trace contacts, analyze comps, and manage lead lists. First major real estate data platform to ship an MCP server. Self-contained Commander.js CLI with zero internal dependencies - communicates entirely through DealMachine's public REST API. `github.com/DealMachine/dealmachine-cli` · [Guide →](/docs/hermes/mcp/servers/external/dealmachine-mcp)
 
 ---
 

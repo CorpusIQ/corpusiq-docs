@@ -75,6 +75,6 @@ AI2Fin Tax MCP complements CorpusIQ's 40+ business connectors perfectly:
 
 ## See Also
 
-- [Aikount MCP - Spanish Accounting](/hermes/mcp/servers/external/aikount/) - complementary for Spanish-market operators who need invoicing + tax compliance
-- [MCP Servers Index](/hermes/mcp/servers/external/)
+- [Aikount MCP - Spanish Accounting](/docs/hermes/mcp/servers/external/aikount) - complementary for Spanish-market operators who need invoicing + tax compliance
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
 - [AI2Fin Web Calculators](https://ai2fin.com/tools) - the same data powering the MCP, available as free browser tools

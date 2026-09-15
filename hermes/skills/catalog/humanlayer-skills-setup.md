@@ -75,5 +75,5 @@ hermes skills install humanlayer/skills/design-control-loop
 
 ## Related
 
-- [Agent Infrastructure category](/hermes/skills/catalog/)
-- [Skills Catalog](/hermes/skills/catalog/)
+- [Agent Infrastructure category](/docs/hermes/skills/catalog)
+- [Skills Catalog](/docs/hermes/skills/catalog)

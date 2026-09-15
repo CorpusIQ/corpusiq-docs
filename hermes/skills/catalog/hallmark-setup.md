@@ -81,11 +81,11 @@ ls ~/.claude/skills/hallmark/SKILL.md 2>/dev/null || echo "check your agent skil
 
 ## Related
 
-- [Meng To Skills - Frontend and Motion Design Setup](/hermes/skills/catalog/mengto-skills-setup/)
-- [Skills Marketplace](/hermes/skills/marketplace/) - more discovery batches
-- [Skills Catalog](/hermes/skills/catalog/) - full quality-tiered directory
+- [Meng To Skills - Frontend and Motion Design Setup](/docs/hermes/skills/catalog/mengto-skills-setup)
+- [Skills Marketplace](/docs/hermes/skills/marketplace) - more discovery batches
+- [Skills Catalog](/docs/hermes/skills/catalog) - full quality-tiered directory
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Skills Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

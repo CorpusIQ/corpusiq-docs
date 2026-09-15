@@ -148,9 +148,9 @@ Free tier: 1,000 searches/month. Upgrade for higher limits.
 
 ---
 
-*← [Tavily Search Setup Guide](/hermes/skills/catalog/tavily-search-openclaw-setup/) | [Discovery Page](/hermes/skills/marketplace/new-june28-2026/) →*
+*← [Tavily Search Setup Guide](/docs/hermes/skills/catalog/tavily-search-openclaw-setup) | [Discovery Page](/docs/hermes/skills/marketplace/new-june28-2026) →*
 
-*↑ [Skills Catalog](/hermes/skills/catalog/)*
+*↑ [Skills Catalog](/docs/hermes/skills/catalog)*
 
 ---
 

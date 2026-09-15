@@ -15,7 +15,7 @@ The Mac Mini M4 is the ideal single-machine Hermes Agent host for solo founders 
 
 ## Overview
 
-The Mac Mini M4's unified memory architecture (16-32GB shared CPU/GPU) makes it uniquely suited for running local AI models. Combined with silent operation (~20W idle) and native macOS support for Playwright browser automation, it's the recommended [Hermes Agent setup](/hermes/setup/) platform for solo operators who want a single-box solution.
+The Mac Mini M4's unified memory architecture (16-32GB shared CPU/GPU) makes it uniquely suited for running local AI models. Combined with silent operation (~20W idle) and native macOS support for Playwright browser automation, it's the recommended [Hermes Agent setup](/docs/hermes/setup) platform for solo operators who want a single-box solution.
 
 ## How It Works
 
@@ -24,7 +24,7 @@ The Mac Mini M4's unified memory architecture (16-32GB shared CPU/GPU) makes it 
 | **Local Models** | Ollama + MLX; up to ~13B parameters comfortably with 16GB RAM |
 | **Cloud Models** | OpenRouter or direct Anthropic/OpenAI/DeepSeek API access |
 | **Browser Automation** | Playwright runs natively on macOS; patchright for Cloudflare-bypass |
-| **Memory** | [Honcho](/hermes/knowledge/) (peer memory), GBrain (project knowledge), memcore-cloud (cross-session) |
+| **Memory** | [Honcho](/docs/hermes/knowledge) (peer memory), GBrain (project knowledge), memcore-cloud (cross-session) |
 | **Crons** | Hermes cron scheduler with launchd for auto-restart |
 | **Messaging** | Native Telegram, Slack, Discord, and 17+ messaging platforms |
 
@@ -74,7 +74,7 @@ hermes config set model.default openrouter/anthropic/claude-sonnet-4
 hermes config set model.fallback "openrouter/qwen/qwen3-235b-a22b:free"
 ```
 
-**Strategy:** Use local models for cron tasks and embeddings (free), cloud models for complex reasoning (pay-as-you-go). Set Ollama as primary and OpenRouter as fallback, or vice versa depending on budget. See our [model selection guide](/hermes/best-practices/model-selection/) for detailed tiering strategies.
+**Strategy:** Use local models for cron tasks and embeddings (free), cloud models for complex reasoning (pay-as-you-go). Set Ollama as primary and OpenRouter as fallback, or vice versa depending on budget. See our [model selection guide](/docs/hermes/best-practices/model-selection) for detailed tiering strategies.
 
 ### Step 4: Browser Automation
 
@@ -131,7 +131,7 @@ hermes cron create \
   --schedule "0 18 * * *"
 ```
 
-See [cron design best practices](/hermes/best-practices/cron-design/) for production-grade scheduling patterns.
+See [cron design best practices](/docs/hermes/best-practices/cron-design) for production-grade scheduling patterns.
 
 **Keep Alive:**
 
@@ -159,7 +159,7 @@ git clone https://github.com/garrytan/gbrain && cd gbrain && ./setup.sh
 pip install memcore-cloud && memcore-cloud init
 ```
 
-Full details in the [memory architecture guide](/hermes/knowledge/).
+Full details in the [memory architecture guide](/docs/hermes/knowledge).
 
 ## Benefits of Mac Mini M4 + Hermes Agent
 
@@ -198,12 +198,12 @@ Add a [gaming PC worker node](gaming-pc.md) via SSH for GPU-heavy inference, or 
 
 ## Related Pages
 
-- [Hermes Agent Setup Overview](/hermes/setup/)  --  Compare all hardware platforms
+- [Hermes Agent Setup Overview](/docs/hermes/setup)  --  Compare all hardware platforms
 - [Gaming PC Setup](gaming-pc.md)  --  Maximum GPU performance
-- [Model Selection Guide](/hermes/best-practices/model-selection/)  --  Tiered model routing
-- [Memory Architecture](/hermes/knowledge/)  --  Triple-stack agent memory
-- [MCP Integration Guide](/hermes/mcp/)  --  Connect 40+ business platforms
-- [Troubleshooting Guide](/hermes/troubleshooting/)  --  Common Mac Mini issues
+- [Model Selection Guide](/docs/hermes/best-practices/model-selection)  --  Tiered model routing
+- [Memory Architecture](/docs/hermes/knowledge)  --  Triple-stack agent memory
+- [MCP Integration Guide](/docs/hermes/mcp)  --  Connect 40+ business platforms
+- [Troubleshooting Guide](/docs/hermes/troubleshooting)  --  Common Mac Mini issues
 ---
 
 *

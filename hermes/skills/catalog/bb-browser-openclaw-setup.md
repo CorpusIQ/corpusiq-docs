@@ -152,8 +152,8 @@ npx bb-browser serve --chrome /usr/bin/google-chrome-stable
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 
 ---
 
-*Part of the [Hermes Skills Library](/hermes/skills/) - curated by CorpusIQ. Setup guide for `bb-browser-openclaw` from [epiral/bb-browser](https://github.com/epiral/bb-browser). Content remains attributed to original authors.*
+*Part of the [Hermes Skills Library](/docs/hermes/skills) - curated by CorpusIQ. Setup guide for `bb-browser-openclaw` from [epiral/bb-browser](https://github.com/epiral/bb-browser). Content remains attributed to original authors.*

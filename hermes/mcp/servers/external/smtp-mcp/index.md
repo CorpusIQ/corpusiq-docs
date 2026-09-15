@@ -85,8 +85,8 @@ CorpusIQ reads the business; smtp-mcp speaks on its behalf under supervision. A 
 
 ## See Also
 
-- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/hermes/mcp/servers/external/imap-mcp/)
-- [AssistantMail MCP - Managed Mailboxes for AI Agents](/hermes/mcp/servers/external/assistantmail-mcp/)
-- [BusyMail MCP - Human-Approval Email over MCP](/hermes/mcp/servers/external/busymail-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/docs/hermes/mcp/servers/external/imap-mcp)
+- [AssistantMail MCP - Managed Mailboxes for AI Agents](/docs/hermes/mcp/servers/external/assistantmail-mcp)
+- [BusyMail MCP - Human-Approval Email over MCP](/docs/hermes/mcp/servers/external/busymail-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

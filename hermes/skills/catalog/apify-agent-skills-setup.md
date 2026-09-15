@@ -104,5 +104,5 @@ curl -s "https://api.apify.com/v2/acts?token=$APIFY_TOKEN&limit=5" | python3 -c 
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Discovery Page](/hermes/skills/marketplace/new-july16-2026/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Discovery Page](/docs/hermes/skills/marketplace/new-july16-2026) →*
 *Powered by CorpusIQ*

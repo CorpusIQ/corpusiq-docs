@@ -75,8 +75,8 @@ CorpusIQ agents answer from read-only business data, but the moment an operator 
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [CampaignStack MCP - Safe LinkedIn and Email Outreach](/hermes/mcp/servers/external/campaignstack-mcp/)
-- [BulkPublish MCP - Multi-Platform Social Publishing for Agents](/hermes/mcp/servers/external/bulkpublish-mcp/)
-- [OSIR Domain MCP - Registrar Operations for Agents](/hermes/mcp/servers/external/osir-domain-mcp/)
-- [SEOmatic MCP - Real Search Console Data with Approval-Gated Fixes](/hermes/mcp/servers/external/seomatic-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [CampaignStack MCP - Safe LinkedIn and Email Outreach](/docs/hermes/mcp/servers/external/campaignstack-mcp)
+- [BulkPublish MCP - Multi-Platform Social Publishing for Agents](/docs/hermes/mcp/servers/external/bulkpublish-mcp)
+- [OSIR Domain MCP - Registrar Operations for Agents](/docs/hermes/mcp/servers/external/osir-domain-mcp)
+- [SEOmatic MCP - Real Search Console Data with Approval-Gated Fixes](/docs/hermes/mcp/servers/external/seomatic-mcp)

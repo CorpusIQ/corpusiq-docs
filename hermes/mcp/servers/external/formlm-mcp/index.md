@@ -75,6 +75,6 @@ Directory drift: the mcp.so feed block (slug formlm, listed Aug 6) now links to 
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [ClauseAI MCP - Startup Legal Document Generation for Agents](/hermes/mcp/servers/external/clauseai-mcp/)
-- [BusyMail MCP - Human-Approval Email over MCP](/hermes/mcp/servers/external/busymail-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [ClauseAI MCP - Startup Legal Document Generation for Agents](/docs/hermes/mcp/servers/external/clauseai-mcp)
+- [BusyMail MCP - Human-Approval Email over MCP](/docs/hermes/mcp/servers/external/busymail-mcp)

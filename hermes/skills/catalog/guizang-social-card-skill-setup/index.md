@@ -82,9 +82,9 @@ The skill applies Guizang-style Swiss/editorial magazine layouts:
 
 ## Related Skills
 
-- [AI Video Generation Setup](/hermes/skills/catalog/ai-video-generation-setup/) - Video content creation
-- [HyperFrames Setup](/hermes/skills/catalog/hyperframes-setup/) - Programmatic video generation
-- [Skills Collective AI Media Setup](/hermes/skills/catalog/skills-collective-ai-media-setup/) - Image and video skills
+- [AI Video Generation Setup](/docs/hermes/skills/catalog/ai-video-generation-setup) - Video content creation
+- [HyperFrames Setup](/docs/hermes/skills/catalog/hyperframes-setup) - Programmatic video generation
+- [Skills Collective AI Media Setup](/docs/hermes/skills/catalog/skills-collective-ai-media-setup) - Image and video skills
 
 ## Source
 

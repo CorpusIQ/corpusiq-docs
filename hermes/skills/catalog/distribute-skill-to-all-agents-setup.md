@@ -113,5 +113,5 @@ ls -la ~/.claude/skills ~/.pi/agent/skills | grep "^l"
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Discovery Page](/hermes/skills/marketplace/new-july12-2026/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Discovery Page](/docs/hermes/skills/marketplace/new-july12-2026) →*
 *Powered by CorpusIQ*

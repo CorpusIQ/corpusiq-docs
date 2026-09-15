@@ -125,14 +125,14 @@ A: Standard REST APIs are used, so custom CRM objects/fields accessible via API 
 
 ## Internal Links
 
-- [Connect Salesforce to Claude](/connect-salesforce-to-claude)
-- [Connect HubSpot to Claude](/connect-hubspot-to-claude)
-- [Connect Stripe to Claude](/connect-stripe-to-claude)
-- [Connect Google Analytics to Claude](/connect-google-analytics-to-claude)
-- [AI for Sales Reporting](/ai-for-sales-reporting)
-- [AI for Marketing Analytics](/ai-for-marketing-analytics)
-- [AI for Executive Reporting](/ai-for-executive-reporting)
-- [What is MCP?](/what-is-an-mcp-server)
+- [Connect Salesforce to Claude](/connectors)
+- [Connect HubSpot to Claude](/connect/hubspot-with-claude)
+- [Connect Stripe to Claude](/connect/stripe-with-claude)
+- [Connect Google Analytics to Claude](/connect/google-analytics-with-claude)
+- [AI for Sales Reporting](/private-ai-for-business)
+- [AI for Marketing Analytics](/private-ai-for-business)
+- [AI for Executive Reporting](/private-ai-for-business)
+- [What is MCP?](/answers/what-is-an-mcp-server)
 
 ---
 

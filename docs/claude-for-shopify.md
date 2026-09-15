@@ -122,19 +122,19 @@ Ready to put AI to work on your claude for shopify data?
 
 ## Internal Links
 
-- [ChatGPT for Shopify: Conversational Ecommerce AI](/chatgpt-for-shopify)
-- [Shopify AI Analytics: Automated Insights](/shopify-ai-analytics)
-- [Shopify Sales Analysis with AI](/shopify-sales-analysis-with-ai)
-- [Shopify Dashboard with ChatGPT](/shopify-dashboard-with-chatgpt)
-- [Shopify Business Intelligence Platform](/shopify-business-intelligence)
-- [Claude for QuickBooks: Deep Financial Analysis](/claude-for-quickbooks)
-- [Claude for HubSpot: CRM Intelligence](/claude-for-hubspot)
+- [ChatGPT for Shopify: Conversational Ecommerce AI](/connect/shopify-with-chatgpt)
+- [Shopify AI Analytics: Automated Insights](/connect/shopify-with-chatgpt)
+- [Shopify Sales Analysis with AI](/connect/shopify-with-chatgpt)
+- [Shopify Dashboard with ChatGPT](/connect/shopify-with-chatgpt)
+- [Shopify Business Intelligence Platform](/connect/shopify-with-chatgpt)
+- [Claude for QuickBooks: Deep Financial Analysis](/connect/quickbooks-with-claude)
+- [Claude for HubSpot: CRM Intelligence](/connect/hubspot-with-claude)
 
 ## Deep Ecommerce Intelligence, Now Accessible
 
 Claude for Shopify through CorpusIQ brings enterprise-grade analytical depth to ecommerce teams of any size. Whether you're a DTC brand optimizing your product portfolio, an agency analyzing client performance, or an investor evaluating acquisition targets, Claude's deep analytical capabilities  --  paired with your live Shopify data  --  deliver insights that were previously available only to companies with dedicated data science teams.
 
-**[Connect Claude to your Shopify store](/quick-start) and run your first deep analysis today.**
+**[Connect Claude to your Shopify store](/docs) and run your first deep analysis today.**
 
 *Connect Claude for Shopify  --  Advanced Ecommerce AI Analysis | Cor... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

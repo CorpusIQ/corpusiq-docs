@@ -92,8 +92,8 @@ Also included: `brandalf`, `pr-walkthrough`, `respond-to-pr-comments-in-blocklis
 
 ## Related
 
-- [Subagent-Driven Development Setup](/hermes/skills/catalog/subagent-driven-development-setup/)
-- [Simplify Code Setup](/hermes/skills/catalog/simplify-code-setup/)
-- [Skills Catalog](/hermes/skills/catalog/)
+- [Subagent-Driven Development Setup](/docs/hermes/skills/catalog/subagent-driven-development-setup)
+- [Simplify Code Setup](/docs/hermes/skills/catalog/simplify-code-setup)
+- [Skills Catalog](/docs/hermes/skills/catalog)
 
 *Powered by CorpusIQ*

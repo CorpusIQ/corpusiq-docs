@@ -77,7 +77,7 @@ CorpusIQ's revenue connectors (Stripe, QuickBooks) cover SaaS finance; Centipid 
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [QuickBooks MCP](/hermes/mcp/servers/external/quickbooks-mcp/)
-- [Stripe MCP](/hermes/mcp/servers/external/stripe-mcp/)
-- [MCP Billing Gateway](/hermes/mcp/servers/external/mcp-billing-gateway/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [QuickBooks MCP](/docs/hermes/mcp/servers/external/quickbooks-mcp)
+- [Stripe MCP](/docs/hermes/mcp/servers/external/stripe-mcp)
+- [MCP Billing Gateway](/docs/hermes/mcp/servers/external/mcp-billing-gateway)

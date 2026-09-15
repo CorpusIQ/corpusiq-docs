@@ -10,7 +10,7 @@ tags: ["hermes agent", "ai agent", "nous research"]
 
 # Hermes Skills
 
-**See the [Skills Catalog](/hermes/skills/catalog/) for the complete index of all 380+ skills.**
+**See the [Skills Catalog](/docs/hermes/skills/catalog) for the complete index of all 380+ skills.**
 
 Skills are reusable agent capabilities  --  step-by-step workflows with tools, triggers, and verification criteria. They are not static prompts, not text files  --  they are executable runbooks that Hermes agents read and execute. A skill tells the agent exactly what to do, what tools to use, how to verify each step, and what to do when something goes wrong.
 
@@ -42,7 +42,7 @@ Skills are organized into functional categories that reflect how teams use Herme
 | **Video Production** | 6 | AI avatar video, UGC series, voiceover, multi-platform posting |
 | **Agent Infrastructure** | 35+ | Browser automation, orchestration, RAG, Docker, K8s, monitoring |
 
-See the [Skills Catalog](/hermes/skills/catalog/) for the full categorized index.
+See the [Skills Catalog](/docs/hermes/skills/catalog) for the full categorized index.
 
 ## Installing Skills
 
@@ -141,34 +141,34 @@ The skill is now available for any Hermes session in your profile. Invoke it by 
 
 ## Marketplace Discovery
 
-The Hermes community hub includes a curated [Skills Marketplace](/hermes/skills/marketplace/) with 290+ community-contributed skills. New skills are discovered through automated sweeps of skills.sh and added weekly. Browse by category, check install counts to see what's trending, and submit your own skills for inclusion.
+The Hermes community hub includes a curated [Skills Marketplace](/docs/hermes/skills/marketplace) with 290+ community-contributed skills. New skills are discovered through automated sweeps of skills.sh and added weekly. Browse by category, check install counts to see what's trending, and submit your own skills for inclusion.
 
 ### Trending This Week
 
-[🆕 July 4, 2026  --  agent-sessions (683⭐) + Hermes ArXiv Agent + 22 more →](/hermes/skills/marketplace/new-july4-2026/)
+[🆕 July 4, 2026  --  agent-sessions (683⭐) + Hermes ArXiv Agent + 22 more →](/docs/hermes/skills/marketplace/new-july4-2026)
 
-[🆕 July 4, 2026 (Update)  --  hermes-top Dashboard + Neo Theme + Backup + AGEL-Comp →](/hermes/skills/marketplace/new-july4-2026-update/)
+[🆕 July 4, 2026 (Update)  --  hermes-top Dashboard + Neo Theme + Backup + AGEL-Comp →](/docs/hermes/skills/marketplace/new-july4-2026-update)
 
-[🆕 July 3, 2026  --  Hermex iPhone App (286⭐) + 6 more tools →](/hermes/skills/marketplace/new-july3-2026/)
+[🆕 July 3, 2026  --  Hermex iPhone App (286⭐) + 6 more tools →](/docs/hermes/skills/marketplace/new-july3-2026)
 
-[🆕 July 3, 2026 (Update)  --  Hybrid Memory Plugin, MoA Synthesis + 4 more →](/hermes/skills/marketplace/new-july3-2026-update/)
+[🆕 July 3, 2026 (Update)  --  Hybrid Memory Plugin, MoA Synthesis + 4 more →](/docs/hermes/skills/marketplace/new-july3-2026-update)
 
 ### Recent Discoveries
 
-- [July 4, 2026  --  agent-sessions (683⭐) + 22 more repos](/hermes/skills/marketplace/new-july4-2026/)
-- [July 1, 2026  --  Official Hermes Gap Sweep (49 skills)](/hermes/skills/marketplace/new-july1-2026/)
-- [June 15, 2026  --  Nous Research Expansion (23 skills)](/hermes/skills/marketplace/new-june15-2026/)
+- [July 4, 2026  --  agent-sessions (683⭐) + 22 more repos](/docs/hermes/skills/marketplace/new-july4-2026)
+- [July 1, 2026  --  Official Hermes Gap Sweep (49 skills)](/docs/hermes/skills/marketplace/new-july1-2026)
+- [June 15, 2026  --  Nous Research Expansion (23 skills)](/docs/hermes/skills/marketplace/new-june15-2026)
 
 ## Quick Links
 
 | Page | Content |
 |------|---------|
-| **[Skills Catalog](/hermes/skills/catalog/)** | Every skill, categorized, counts, single source of truth |
-| **[Marketplace](/hermes/skills/marketplace/)** | 290+ curated skills with install counts and categories |
-| **[Development](/hermes/skills/development/)** | GitHub, code review, issues, CI/CD, testing, PR lifecycle |
-| **[Marketing](/hermes/skills/marketing/)** | SEO, CRO, ads, content strategy, cold outreach, community |
-| **[Engineering](/hermes/skills/engineering/)** | MCP architecture, connector audits, API dev, frontend, cron |
-| **[Operations](/hermes/skills/operations/)** | Email, cron, audit, lead capture, monitoring, governance |
+| **[Skills Catalog](/docs/hermes/skills/catalog)** | Every skill, categorized, counts, single source of truth |
+| **[Marketplace](/docs/hermes/skills/marketplace)** | 290+ curated skills with install counts and categories |
+| **[Development](/docs/hermes/skills/development)** | GitHub, code review, issues, CI/CD, testing, PR lifecycle |
+| **[Marketing](/docs/hermes/skills/marketing)** | SEO, CRO, ads, content strategy, cold outreach, community |
+| **[Engineering](/docs/hermes/skills/engineering)** | MCP architecture, connector audits, API dev, frontend, cron |
+| **[Operations](/docs/hermes/skills/operations)** | Email, cron, audit, lead capture, monitoring, governance |
 ---
 
 *

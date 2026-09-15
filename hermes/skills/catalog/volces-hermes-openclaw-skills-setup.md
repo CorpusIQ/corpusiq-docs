@@ -85,7 +85,7 @@ When skills.sh detail pages 404, fetch the skill content from the Volces registr
 
 ## Related
 
-- [Discovery Page - Aug 12 OpenClaw Ecosystem Sweep](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/)
-- [Skills Catalog](/hermes/skills/catalog/)
+- [Discovery Page - Aug 12 OpenClaw Ecosystem Sweep](/docs/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem)
+- [Skills Catalog](/docs/hermes/skills/catalog)
 
 *Powered by CorpusIQ*

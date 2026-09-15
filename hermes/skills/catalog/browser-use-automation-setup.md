@@ -110,6 +110,6 @@ A successful smoke test: run the Quick Start against a public site and confirm t
 - **Vision-first**: No CSS selectors needed - the model sees the page like a human
 - **Best for**: Anti-bot-defended platforms, dynamic SPAs, CAPTCHA flows
 - **Complementary**: Use alongside plain Playwright - browser-use for vision tasks, Playwright for cheap API-level control
-- **Related**: See [Playwright Social Media Automation](/hermes/skills/catalog/playwright-social-media-automation-setup) and [Midscene](/hermes/skills/catalog/midscene-skills-setup)
+- **Related**: See [Playwright Social Media Automation](/docs/hermes/skills/catalog/playwright-social-media-automation-setup) and [Midscene](/docs/hermes/skills/catalog/midscene-skills-setup)
 
 *Setup guide by CorpusIQ. Source: [browser-use/browser-use](https://github.com/browser-use/browser-use).*

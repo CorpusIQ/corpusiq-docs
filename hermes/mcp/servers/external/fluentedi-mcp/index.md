@@ -94,7 +94,7 @@ CorpusIQ reads the business systems of record (orders, invoices, inventory acros
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/) - curated third-party MCP servers for operators
-- [Atoa MCP](/hermes/mcp/servers/external/atoa-mcp/) - UK instant payments for agents with 14 payment tools
-- [Storepilot MCP](/hermes/mcp/servers/external/storepilot-mcp/) - e-commerce store operations from an agent
-- [MCP Integration Guide](/hermes/mcp/) - connecting MCP servers to Hermes Agent
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [Atoa MCP](/docs/hermes/mcp/servers/external/atoa-mcp) - UK instant payments for agents with 14 payment tools
+- [Storepilot MCP](/docs/hermes/mcp/servers/external/storepilot-mcp) - e-commerce store operations from an agent
+- [MCP Integration Guide](/docs/hermes/mcp) - connecting MCP servers to Hermes Agent

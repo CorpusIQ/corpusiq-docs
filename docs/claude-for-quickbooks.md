@@ -121,20 +121,20 @@ Ready to put AI to work on your claude for quickbooks data?
 
 ## Internal Links
 
-- [ChatGPT for QuickBooks: Conversational AI Accounting](/chatgpt-for-quickbooks)
-- [QuickBooks AI Reporting: Automated Financial Analysis](/quickbooks-ai-reporting)
-- [QuickBooks Natural Language Queries Guide](/quickbooks-natural-language-queries)
-- [How to Analyze QuickBooks Data with AI](/how-to-analyze-quickbooks-with-ai)
-- [QuickBooks Dashboard with ChatGPT](/quickbooks-dashboard-with-chatgpt)
-- [QuickBooks Business Intelligence Platform](/quickbooks-business-intelligence)
-- [Claude for Shopify: Ecommerce AI Analytics](/claude-for-shopify)
-- [Claude for HubSpot: CRM Intelligence with AI](/claude-for-hubspot)
+- [ChatGPT for QuickBooks: Conversational AI Accounting](/connect/quickbooks-with-chatgpt)
+- [QuickBooks AI Reporting: Automated Financial Analysis](/connect/quickbooks-with-chatgpt)
+- [QuickBooks Natural Language Queries Guide](/connect/quickbooks-with-chatgpt)
+- [How to Analyze QuickBooks Data with AI](/answers)
+- [QuickBooks Dashboard with ChatGPT](/connect/quickbooks-with-chatgpt)
+- [QuickBooks Business Intelligence Platform](/connect/quickbooks-with-chatgpt)
+- [Claude for Shopify: Ecommerce AI Analytics](/connect/shopify-with-claude)
+- [Claude for HubSpot: CRM Intelligence with AI](/connect/hubspot-with-claude)
 
 ## Why CorpusIQ for Claude-QuickBooks Integration?
 
 CorpusIQ is the only MCP platform that provides production-ready QuickBooks tools for Claude. Our platform abstracts away API complexity  --  no manual OAuth flow management, no rate-limit handling, no JSON parsing of QuickBooks responses. Claude receives clean, structured data through CorpusIQ's tool layer and can focus entirely on analysis.
 
-**Start your deep financial analysis journey.** [Connect Claude to QuickBooks through CorpusIQ](/quick-start) and run your first comprehensive financial review today.
+**Start your deep financial analysis journey.** [Connect Claude to QuickBooks through CorpusIQ](/docs) and run your first comprehensive financial review today.
 
 *Connect Claude for QuickBooks  --  Deep Financial Analysis with AI |... with CorpusIQ → [corpusiq.io](https://www.corpusiq.io)*
 

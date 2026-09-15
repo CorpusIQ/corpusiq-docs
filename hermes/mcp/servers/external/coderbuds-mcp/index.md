@@ -50,5 +50,5 @@ Endpoint live-probed over JSON-RPC: anonymous initialize returned HTTP 401 with 
 
 ## See Also
 
-- [GitLab MCP - CorpusIQ Docs](/hermes/mcp/servers/external/gitlab-mcp/)
-- [Spike MCP - Incident Management and On-Call for AI Assistants](/hermes/mcp/servers/external/spike-mcp/)
+- [GitLab MCP - CorpusIQ Docs](/docs/hermes/mcp/servers/external/gitlab-mcp)
+- [Spike MCP - Incident Management and On-Call for AI Assistants](/docs/hermes/mcp/servers/external/spike-mcp)

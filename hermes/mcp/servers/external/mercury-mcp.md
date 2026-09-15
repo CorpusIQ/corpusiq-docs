@@ -101,6 +101,6 @@ You'll receive a `client_id` and `client_secret` for the standard OAuth authoriz
 
 ## See Also
 
-- [Asana MCP](/hermes/mcp/servers/external/asana-mcp/) - project management MCP
-- [1Password MCP](/hermes/mcp/servers/external/1password-mcp/) - secrets management MCP
-- [External MCP Catalog](/hermes/mcp/servers/external/)
+- [Asana MCP](/docs/hermes/mcp/servers/external/asana-mcp) - project management MCP
+- [1Password MCP](/docs/hermes/mcp/servers/external/1password-mcp) - secrets management MCP
+- [External MCP Catalog](/docs/hermes/mcp/servers/external)

@@ -165,6 +165,6 @@ metadata:
 
 ## Related Skills
 
-- [Hermes Agent Core](/hermes/skills/catalog/hermes-agent-setup/) - Official core skill
-- [Hermes Agent Skill Authoring](/hermes/skills/catalog/hermes-agent-skill-authoring-setup/) - Writing SKILL.md files
+- [Hermes Agent Core](/docs/hermes/skills/catalog/hermes-agent-setup) - Official core skill
+- [Hermes Agent Skill Authoring](/docs/hermes/skills/catalog/hermes-agent-skill-authoring-setup) - Writing SKILL.md files
 - [reason-machines Hermes Skills Collection](https://github.com/reason-machines/hermes-skills)

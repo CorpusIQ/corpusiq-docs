@@ -49,5 +49,5 @@ npx skills add solana-foundation/solana-dev-skill
 
 ## Related
 
-- [OSINT Skills - Open-Source Intelligence Investigation Setup](/hermes/skills/catalog/osint-skills-setup/)
+- [OSINT Skills - Open-Source Intelligence Investigation Setup](/docs/hermes/skills/catalog/osint-skills-setup)
 - [Solana Docs](https://solana.com/docs)

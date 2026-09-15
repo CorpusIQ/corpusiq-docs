@@ -13,7 +13,7 @@ modify, or execute anything in your connected systems, and it does not
 retain raw customer files or full connector response payloads. Data
 passes through on demand and returns to your AI client as read-only
 information. No one at CorpusIQ can access your accounts.
-See the full guarantee: [Security and Read-Only Access](/hermes/security/read-only-and-security/)
+See the full guarantee: [Security and Read-Only Access](/docs/hermes/security/read-only-and-security)
 
 The external-source connectors in this directory are designed for read-only retrieval and do not write back to connected vendor accounts. Separately annotated CorpusIQ control-plane tools are outside this connector directory.
 

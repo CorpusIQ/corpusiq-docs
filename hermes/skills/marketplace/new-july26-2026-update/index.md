@@ -28,31 +28,31 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **Neon Agent Skills** | neondatabase/agent-skills | 75K+ | 81⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/neon-agent-skills-setup/) |
+| **Neon Agent Skills** | neondatabase/agent-skills | 75K+ | 81⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/neon-agent-skills-setup) |
 
 ### AI / LLM Platform
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **Anthropic Claude API** | anthropics/skills | 52.6K+ | 164,242⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/anthropics-claude-api-skills-setup/) |
+| **Anthropic Claude API** | anthropics/skills | 52.6K+ | 164,242⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/anthropics-claude-api-skills-setup) |
 
 ### Design / Development
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **Figma MCP Server Guide** | figma/mcp-server-guide | 23K+ | 1,809⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/figma-mcp-server-guide-setup/) |
+| **Figma MCP Server Guide** | figma/mcp-server-guide | 23K+ | 1,809⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/figma-mcp-server-guide-setup) |
 
 ### Observability / DevOps
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **Grafana Skills** | grafana/skills | 16K+ | 200⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/grafana-skills-setup/) |
+| **Grafana Skills** | grafana/skills | 16K+ | 200⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/grafana-skills-setup) |
 
 ### Database / Infrastructure
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **PlanetScale Database Skills** | planetscale/database-skills | 15K+ | 556⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/planetscale-database-skills-setup/) |
+| **PlanetScale Database Skills** | planetscale/database-skills | 15K+ | 556⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/planetscale-database-skills-setup) |
 
 ## 🔑 Standout Finds
 

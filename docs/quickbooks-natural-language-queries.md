@@ -153,18 +153,18 @@ Ready to put AI to work on your quickbooks natural language queries data?
 
 ## Internal Links
 
-- [ChatGPT for QuickBooks: AI-Powered Accounting](/chatgpt-for-quickbooks)
-- [Claude for QuickBooks: Deep Financial Analysis](/claude-for-quickbooks)
-- [QuickBooks AI Reporting: Automated Reports](/quickbooks-ai-reporting)
-- [How to Analyze QuickBooks Data with AI](/how-to-analyze-quickbooks-with-ai)
-- [QuickBooks Dashboard with ChatGPT](/quickbooks-dashboard-with-chatgpt)
-- [QuickBooks Business Intelligence Platform](/quickbooks-business-intelligence)
+- [ChatGPT for QuickBooks: AI-Powered Accounting](/connect/quickbooks-with-chatgpt)
+- [Claude for QuickBooks: Deep Financial Analysis](/connect/quickbooks-with-claude)
+- [QuickBooks AI Reporting: Automated Reports](/connect/quickbooks-with-chatgpt)
+- [How to Analyze QuickBooks Data with AI](/answers)
+- [QuickBooks Dashboard with ChatGPT](/connect/quickbooks-with-chatgpt)
+- [QuickBooks Business Intelligence Platform](/connect/quickbooks-with-chatgpt)
 
 ## The End of Financial Data Gatekeeping
 
 Natural language querying democratizes financial data. When anyone in your organization can ask questions of your QuickBooks data  --  not just the people who know how to run reports  --  financial transparency increases, decisions accelerate, and your accounting team can focus on analysis rather than data retrieval.
 
-**[Start asking your QuickBooks data questions in plain English](/quick-start). Connect in 60 seconds.**
+**[Start asking your QuickBooks data questions in plain English](/docs). Connect in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

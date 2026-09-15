@@ -126,10 +126,10 @@ npx skills add reason-machines/devtools-skills --list
 
 ## Related
 
-- [Hermes Client Web UI - Setup Guide](/hermes/skills/catalog/hermes-client-web-ui-setup/)
-- [Hermes Labyrinth Observability - Setup Guide](/hermes/skills/catalog/hermes-labyrinth-observability-setup/)
+- [Hermes Client Web UI - Setup Guide](/docs/hermes/skills/catalog/hermes-client-web-ui-setup)
+- [Hermes Labyrinth Observability - Setup Guide](/docs/hermes/skills/catalog/hermes-labyrinth-observability-setup)
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

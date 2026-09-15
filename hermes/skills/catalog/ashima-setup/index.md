@@ -135,4 +135,4 @@ hermes -s ashima "ashima - help me refactor the database layer"
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [June 24 Discovery](/hermes/skills/marketplace/new-june24-2026/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [June 24 Discovery](/docs/hermes/skills/marketplace/new-june24-2026) →*

@@ -48,5 +48,5 @@ Not live-probed (stdio package, no public endpoint). Directory listing published
 
 ## See Also
 
-- [Wafeq MCP - Accounting Books for Agents](/hermes/mcp/servers/external/wafeq-mcp/)
-- [Soprano Connect MCP - Multi-Channel Business Messaging for Agents](/hermes/mcp/servers/external/soprano-connect-mcp/)
+- [Wafeq MCP - Accounting Books for Agents](/docs/hermes/mcp/servers/external/wafeq-mcp)
+- [Soprano Connect MCP - Multi-Channel Business Messaging for Agents](/docs/hermes/mcp/servers/external/soprano-connect-mcp)

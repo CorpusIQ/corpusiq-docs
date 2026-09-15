@@ -25,13 +25,13 @@ Third sweep of the day, driven by the trending/hot leaderboards rather than keyw
 
 | # | Publisher | Skills | Installs | Setup Guide |
 |---|-----------|:------:|---------:|-------------|
-| 1 | open.feishu.cn + larksuite/cli (Lark/Feishu) | 28 + 32 | 25.0M | [lark-feishu-skills-setup](/hermes/skills/catalog/lark-feishu-skills-setup/) ✍️ |
-| 2 | llllllllama/rigorpilot-skills | 12 | 2.6M | [rigorpilot-skills-setup](/hermes/skills/catalog/rigorpilot-skills-setup/) ✍️ |
-| 3 | juliusbrussee/caveman | 23 | 2.2M | [caveman-skills-setup](/hermes/skills/catalog/caveman-skills-setup/) ✍️ |
-| 4 | skills-101/superpowers | 86 | 488.4K | [skills-101-superpowers-setup](/hermes/skills/catalog/skills-101-superpowers-setup/) ✍️ |
-| 5 | warpdotdev/common-skills | 25 | 411.2K | [warpdotdev-common-skills-setup](/hermes/skills/catalog/warpdotdev-common-skills-setup/) ✍️ |
-| 6 | uizze.com | 5 | 394.7K | [uizze-ui-skills-setup](/hermes/skills/catalog/uizze-ui-skills-setup/) ✍️ |
-| 7 | stablyai/orca | 15 | 317.5K | [stablyai-orca-setup](/hermes/skills/catalog/stablyai-orca-setup/) ✍️ |
+| 1 | open.feishu.cn + larksuite/cli (Lark/Feishu) | 28 + 32 | 25.0M | [lark-feishu-skills-setup](/docs/hermes/skills/catalog/lark-feishu-skills-setup) ✍️ |
+| 2 | llllllllama/rigorpilot-skills | 12 | 2.6M | [rigorpilot-skills-setup](/docs/hermes/skills/catalog/rigorpilot-skills-setup) ✍️ |
+| 3 | juliusbrussee/caveman | 23 | 2.2M | [caveman-skills-setup](/docs/hermes/skills/catalog/caveman-skills-setup) ✍️ |
+| 4 | skills-101/superpowers | 86 | 488.4K | [skills-101-superpowers-setup](/docs/hermes/skills/catalog/skills-101-superpowers-setup) ✍️ |
+| 5 | warpdotdev/common-skills | 25 | 411.2K | [warpdotdev-common-skills-setup](/docs/hermes/skills/catalog/warpdotdev-common-skills-setup) ✍️ |
+| 6 | uizze.com | 5 | 394.7K | [uizze-ui-skills-setup](/docs/hermes/skills/catalog/uizze-ui-skills-setup) ✍️ |
+| 7 | stablyai/orca | 15 | 317.5K | [stablyai-orca-setup](/docs/hermes/skills/catalog/stablyai-orca-setup) ✍️ |
 
 ---
 
@@ -97,6 +97,6 @@ Smaller clusters surfaced by the trending/hot leaderboards, tracked for future s
 **Catalog growth:** 608+ → 806+ curated skills.
 **Next sweep:** automated cron.
 
-*← [Skills Marketplace](/hermes/skills/marketplace/) | [Previous Sweep - OpenClaw Ecosystem](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/)*
+*← [Skills Marketplace](/docs/hermes/skills/marketplace) | [Previous Sweep - OpenClaw Ecosystem](/docs/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem)*
 
 *Powered by CorpusIQ*

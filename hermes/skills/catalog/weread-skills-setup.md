@@ -91,11 +91,11 @@ ls ~/.hermes/skills/weread-skills/SKILL.md
 
 ## Related
 
-- [Wind Skills - Financial Terminal Research Cluster Setup](/hermes/skills/catalog/wind-skills-setup/)
-- [Hithink Finance - Tonghuashun A-Share Data Skill Setup](/hermes/skills/catalog/hithink-finance-setup/)
+- [Wind Skills - Financial Terminal Research Cluster Setup](/docs/hermes/skills/catalog/wind-skills-setup)
+- [Hithink Finance - Tonghuashun A-Share Data Skill Setup](/docs/hermes/skills/catalog/hithink-finance-setup)
 - [CorpusIQ - one MCP endpoint, all your business tools](https://corpusiq.io)
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

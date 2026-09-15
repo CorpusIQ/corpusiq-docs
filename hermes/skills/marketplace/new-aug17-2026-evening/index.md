@@ -19,9 +19,9 @@ Evening sweep of August 17. The API surface stayed fully caught up (40 queries, 
 
 | Cluster | Skills | Installs | Tier | Guide |
 |---|---|---|---|---|
-| mcollina/skills | 12 | 52.4K | 🟢 | [M. Collina Node Skills Setup](/hermes/skills/catalog/mcollina-node-skills-setup/) |
-| zhaono1/agent-playbook | 24 | 50.4K | 🟡 | [Zhaono1 Agent Playbook Setup](/hermes/skills/catalog/zhaono1-agent-playbook-setup/) |
-| nrwl/nx-ai-agents-config | 10 | 44.7K | 🟢 | [Nx AI Agents Config Setup](/hermes/skills/catalog/nx-ai-agents-config-skills-setup/) |
+| mcollina/skills | 12 | 52.4K | 🟢 | [M. Collina Node Skills Setup](/docs/hermes/skills/catalog/mcollina-node-skills-setup) |
+| zhaono1/agent-playbook | 24 | 50.4K | 🟡 | [Zhaono1 Agent Playbook Setup](/docs/hermes/skills/catalog/zhaono1-agent-playbook-setup) |
+| nrwl/nx-ai-agents-config | 10 | 44.7K | 🟢 | [Nx AI Agents Config Setup](/docs/hermes/skills/catalog/nx-ai-agents-config-skills-setup) |
 
 ## Method Notes
 

@@ -62,10 +62,10 @@ npx skills list 2>/dev/null | grep -i review-loop || ls ~/.agents/skills 2>/dev/
 
 ## Related
 
-- [Caveman Skills - Agent Coding Workflow Suite Setup](/hermes/skills/catalog/caveman-skills-setup/)
-- [Self-Improving Agent Setup](/hermes/skills/catalog/self-improving-agent-setup/)
-- [GitHub workflow skills catalog section](/hermes/skills/catalog/)
+- [Caveman Skills - Agent Coding Workflow Suite Setup](/docs/hermes/skills/catalog/caveman-skills-setup)
+- [Self-Improving Agent Setup](/docs/hermes/skills/catalog/self-improving-agent-setup)
+- [GitHub workflow skills catalog section](/docs/hermes/skills/catalog)
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

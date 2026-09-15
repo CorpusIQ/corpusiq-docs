@@ -100,7 +100,7 @@ npx skills list | grep stitch
 ## Notes
 
 - Google Labs project - experimental but production-quality output
-- `remotion` skill (34.5K installs) from the same publisher is catalogued separately at [remotion-best-practices-setup](/hermes/skills/catalog/remotion-best-practices-setup/)
+- `remotion` skill (34.5K installs) from the same publisher is catalogued separately at [remotion-best-practices-setup](/docs/hermes/skills/catalog/remotion-best-practices-setup)
 - Design MD format is becoming a standard; compatible with other design-to-code tools
 - Best results with `enhance-prompt` before `react` generation
 - Quality tier 🟡 Beta: 285K+ combined installs, actively developed by Google Labs

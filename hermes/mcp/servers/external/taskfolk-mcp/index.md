@@ -81,7 +81,7 @@ Taskfolk covers team execution tracking - adjacent to, not overlapping, CorpusIQ
 
 ## See Also
 
-- [Atono MCP Server - Agile Project Management for Agents](/hermes/mcp/servers/external/atono-mcp-server/)
-- [MCPGRAM MCP - OAuth Connectivity Gateway for AI Agents](/hermes/mcp/servers/external/mcpgram-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [Atono MCP Server - Agile Project Management for Agents](/docs/hermes/mcp/servers/external/atono-mcp-server)
+- [MCPGRAM MCP - OAuth Connectivity Gateway for AI Agents](/docs/hermes/mcp/servers/external/mcpgram-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

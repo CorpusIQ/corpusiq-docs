@@ -83,7 +83,7 @@ Xverum supplies the people layer - who to contact and when they might move; Corp
 
 ## See Also
 
-- [Apollo.io MCP - B2B Contact Data and Sequences](/hermes/mcp/servers/external/apollo-io-mcp/)
-- [MisarReach MCP - Outbound Sales and Lead Pipeline for AI Agents](/hermes/mcp/servers/external/misarreach-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [Apollo.io MCP - B2B Contact Data and Sequences](/docs/hermes/mcp/servers/external/apollo-io-mcp)
+- [MisarReach MCP - Outbound Sales and Lead Pipeline for AI Agents](/docs/hermes/mcp/servers/external/misarreach-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

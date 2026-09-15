@@ -17,8 +17,8 @@ Two genuinely new publishers surfaced by the tiered crossref (the cluster diff s
 
 | Publisher | Skills | Combined Installs | Guide |
 |---|---|---|---|
-| [AccessLint/skills](https://www.skills.sh/accesslint/skills) | 5 (8 legacy aliases also indexed) | ~5.1K | [AccessLint Skills Setup](/hermes/skills/catalog/accesslint-skills-setup/) |
-| [podo/design-agent-skills](https://www.skills.sh/podo/design-agent-skills) | 150 indexed (157 in repo) | 17,302 | [Podo Design Agent Skills Setup](/hermes/skills/catalog/podo-design-agent-skills-setup/) |
+| [AccessLint/skills](https://www.skills.sh/accesslint/skills) | 5 (8 legacy aliases also indexed) | ~5.1K | [AccessLint Skills Setup](/docs/hermes/skills/catalog/accesslint-skills-setup) |
+| [podo/design-agent-skills](https://www.skills.sh/podo/design-agent-skills) | 150 indexed (157 in repo) | 17,302 | [Podo Design Agent Skills Setup](/docs/hermes/skills/catalog/podo-design-agent-skills-setup) |
 
 **AccessLint notes:** the most audit-rigorous a11y skill set on skills.sh - WCAG 2.2 end-to-end (scan → inspect → audit → fix → diff) with severity + evidence-basis grading. Agent-agnostic install (live-verified "Found 5 skills"), optional `@accesslint/mcp`. No skills.sh audits published → 🟡 Unverified, disclosed in the guide.
 

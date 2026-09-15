@@ -138,6 +138,6 @@ ctx = p.firefox.launch_persistent_context("/tmp/ff_profile", headless=True)
 - **API-first**: Playwright is slower and more detectable than any API. Use it as a fallback.
 - **Best for**: Reddit forms, comment monitoring that needs JS rendering, one-off blog/forum comments
 - **Skip Playwright when**: a platform has a working API, a Discord webhook exists, or volume exceeds ~100 actions
-- **Related**: See [Browser-Use Automation](/hermes/skills/catalog/browser-use-automation-setup) and [Midscene](/hermes/skills/catalog/midscene-skills-setup)
+- **Related**: See [Browser-Use Automation](/docs/hermes/skills/catalog/browser-use-automation-setup) and [Midscene](/docs/hermes/skills/catalog/midscene-skills-setup)
 
 *Setup guide by CorpusIQ. Source: [microsoft/playwright](https://github.com/microsoft/playwright).*

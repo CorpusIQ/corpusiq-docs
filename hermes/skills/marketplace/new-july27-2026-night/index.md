@@ -37,10 +37,10 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ## Setup Guides Created
 
-1. **[Reddit Automation Setup](/hermes/skills/catalog/reddit-automation-setup/)** - Honest Reddit marketing for Hermes growth agents
-2. **[OpenTUI Setup](/hermes/skills/catalog/opentui-setup/)** - Terminal UI framework for building interactive CLI tools
-3. **[Monitoring Expert Setup](/hermes/skills/catalog/monitoring-expert-setup/)** - Observability, dashboards, and performance testing
-4. **[Guizang Social Card Skill Setup](/hermes/skills/catalog/guizang-social-card-skill-setup/)** - Social card generation for Xiaohongshu, WeChat, and more
+1. **[Reddit Automation Setup](/docs/hermes/skills/catalog/reddit-automation-setup)** - Honest Reddit marketing for Hermes growth agents
+2. **[OpenTUI Setup](/docs/hermes/skills/catalog/opentui-setup)** - Terminal UI framework for building interactive CLI tools
+3. **[Monitoring Expert Setup](/docs/hermes/skills/catalog/monitoring-expert-setup)** - Observability, dashboards, and performance testing
+4. **[Guizang Social Card Skill Setup](/docs/hermes/skills/catalog/guizang-social-card-skill-setup)** - Social card generation for Xiaohongshu, WeChat, and more
 
 ## Quick Install
 

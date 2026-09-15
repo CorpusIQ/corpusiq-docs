@@ -25,18 +25,18 @@ The largest single-run sweep to date. Executed from the Spark node after the Mac
 
 | # | Publisher | Skills | Installs | Setup Guide |
 |---|-----------|:------:|---------:|-------------|
-| 1 | get-convex/agent-skills | 46 | 756.9K | [convex-agent-skills-setup](/hermes/skills/catalog/convex-agent-skills-setup/) ✍️ |
-| 2 | emilkowalski/skills | 10 | 694.4K | [emilkowalski-skills-setup](/hermes/skills/catalog/emilkowalski-skills-setup/) ✍️ |
-| 3 | nextlevelbuilder/ui-ux-pro-max-skill | 19 | 611.4K | [ui-ux-pro-max-setup](/hermes/skills/catalog/ui-ux-pro-max-setup/) ✍️ |
-| 4 | higgsfield-ai/skills | 10 | 577.3K | [higgsfield-skills-setup](/hermes/skills/catalog/higgsfield-skills-setup/) ✍️ |
-| 5 | useosint/osint-skills | 57 | 285.8K | [osint-skills-setup](/hermes/skills/catalog/osint-skills-setup/) ✍️ |
-| 6 | wind-information-co-ltd/wind-skills | 82 | 132.6K | [wind-skills-setup](/hermes/skills/catalog/wind-skills-setup/) ✍️ |
-| 7 | momentic-ai/skills | 5 | 118.9K | [momentic-skills-setup](/hermes/skills/catalog/momentic-skills-setup/) ✍️ |
-| 8 | othmanadi/planning-with-files | 7 | 90.5K | [planning-with-files-setup](/hermes/skills/catalog/planning-with-files-setup/) ✍️ |
-| 9 | degausai/wonda | 1 | 74.6K | [wonda-setup](/hermes/skills/catalog/wonda-setup/) ✍️ |
-| 10 | squirrelscan/skills | 2 | 71.4K | [squirrelscan-skills-setup](/hermes/skills/catalog/squirrelscan-skills-setup/) ✍️ |
-| 11 | solana-foundation/solana-dev-skill | 1 | 58.4K | [solana-dev-skill-setup](/hermes/skills/catalog/solana-dev-skill-setup/) ✍️ |
-| 12 | genkit-ai/skills | 4 | 57.3K | [genkit-skills-setup](/hermes/skills/catalog/genkit-skills-setup/) ✍️ |
+| 1 | get-convex/agent-skills | 46 | 756.9K | [convex-agent-skills-setup](/docs/hermes/skills/catalog/convex-agent-skills-setup) ✍️ |
+| 2 | emilkowalski/skills | 10 | 694.4K | [emilkowalski-skills-setup](/docs/hermes/skills/catalog/emilkowalski-skills-setup) ✍️ |
+| 3 | nextlevelbuilder/ui-ux-pro-max-skill | 19 | 611.4K | [ui-ux-pro-max-setup](/docs/hermes/skills/catalog/ui-ux-pro-max-setup) ✍️ |
+| 4 | higgsfield-ai/skills | 10 | 577.3K | [higgsfield-skills-setup](/docs/hermes/skills/catalog/higgsfield-skills-setup) ✍️ |
+| 5 | useosint/osint-skills | 57 | 285.8K | [osint-skills-setup](/docs/hermes/skills/catalog/osint-skills-setup) ✍️ |
+| 6 | wind-information-co-ltd/wind-skills | 82 | 132.6K | [wind-skills-setup](/docs/hermes/skills/catalog/wind-skills-setup) ✍️ |
+| 7 | momentic-ai/skills | 5 | 118.9K | [momentic-skills-setup](/docs/hermes/skills/catalog/momentic-skills-setup) ✍️ |
+| 8 | othmanadi/planning-with-files | 7 | 90.5K | [planning-with-files-setup](/docs/hermes/skills/catalog/planning-with-files-setup) ✍️ |
+| 9 | degausai/wonda | 1 | 74.6K | [wonda-setup](/docs/hermes/skills/catalog/wonda-setup) ✍️ |
+| 10 | squirrelscan/skills | 2 | 71.4K | [squirrelscan-skills-setup](/docs/hermes/skills/catalog/squirrelscan-skills-setup) ✍️ |
+| 11 | solana-foundation/solana-dev-skill | 1 | 58.4K | [solana-dev-skill-setup](/docs/hermes/skills/catalog/solana-dev-skill-setup) ✍️ |
+| 12 | genkit-ai/skills | 4 | 57.3K | [genkit-skills-setup](/docs/hermes/skills/catalog/genkit-skills-setup) ✍️ |
 
 ---
 

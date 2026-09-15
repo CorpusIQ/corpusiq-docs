@@ -51,5 +51,5 @@ npx skills add genkit-ai/skills
 
 ## Related
 
-- [Firebase Agent Skills - Google Backend Setup](/hermes/skills/catalog/google-skills-setup/)
-- [Convex Agent Skills - Backend Platform Setup](/hermes/skills/catalog/convex-agent-skills-setup/)
+- [Firebase Agent Skills - Google Backend Setup](/docs/hermes/skills/catalog/google-skills-setup)
+- [Convex Agent Skills - Backend Platform Setup](/docs/hermes/skills/catalog/convex-agent-skills-setup)

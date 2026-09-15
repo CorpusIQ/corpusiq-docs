@@ -81,8 +81,8 @@ Complementary to CorpusIQ's business-data connectors: an agent can pull a compan
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [tube-bridge MCP - Self-Hosted YouTube Research and Transcript Corpora](/hermes/mcp/servers/external/tube-bridge-mcp/)
-- [BulkTranscripts MCP - Hosted YouTube Transcripts and Channel Research](/hermes/mcp/servers/external/bulktranscripts-mcp/)
-- [Viral Outliers MCP - Overperforming Social Post Database](/hermes/mcp/servers/external/viral-outliers-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/servers/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [tube-bridge MCP - Self-Hosted YouTube Research and Transcript Corpora](/docs/hermes/mcp/servers/external/tube-bridge-mcp)
+- [BulkTranscripts MCP - Hosted YouTube Transcripts and Channel Research](/docs/hermes/mcp/servers/external/bulktranscripts-mcp)
+- [Viral Outliers MCP - Overperforming Social Post Database](/docs/hermes/mcp/servers/external/viral-outliers-mcp)
+- [CorpusIQ Connectors](/docs/hermes/mcp/servers)

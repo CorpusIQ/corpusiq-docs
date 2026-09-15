@@ -93,6 +93,6 @@ Safe Mind produces compliance and workforce-risk data; CorpusIQ joins it to the 
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [PassportCraft MCP - EU Digital Product Passports](/hermes/mcp/servers/external/passportcraft-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [PassportCraft MCP - EU Digital Product Passports](/docs/hermes/mcp/servers/external/passportcraft-mcp)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

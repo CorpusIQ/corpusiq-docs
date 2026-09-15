@@ -29,7 +29,7 @@ Category: Sales / Cold Outreach / CRM
 
 Cold outreach is the highest-ROI growth channel for B2B operators, but running it effectively requires juggling: contact databases, email verification, content writing, campaign management, deliverability monitoring, and analytics. JaxSuite AI MCP consolidates all of this into 27 tools that AI agents can orchestrate - no browser tab needed.
 
-This is the first end-to-end cold outreach MCP server with built-in deliverability infrastructure. Combined with [LinkedIn MCP (GTM API)](/hermes/mcp/servers/external/linkedin-mcp-gtm/) and [Apollo.io MCP](/hermes/mcp/servers/external/apollo-io-mcp/), operators can build fully autonomous B2B outbound pipelines.
+This is the first end-to-end cold outreach MCP server with built-in deliverability infrastructure. Combined with [LinkedIn MCP (GTM API)](/docs/hermes/mcp/servers/external/linkedin-mcp-gtm) and [Apollo.io MCP](/docs/hermes/mcp/servers/external/apollo-io-mcp), operators can build fully autonomous B2B outbound pipelines.
 
 ## Tools & Capabilities (27 tools)
 
@@ -127,7 +127,7 @@ This is the first end-to-end cold outreach MCP server with built-in deliverabili
 
 ## See Also
 
-- [LinkedIn MCP (GTM API)](/hermes/mcp/servers/external/linkedin-mcp-gtm/) - LinkedIn outreach at scale
-- [Apollo.io MCP](/hermes/mcp/servers/external/apollo-io-mcp/) - 275M+ B2B contact enrichment
+- [LinkedIn MCP (GTM API)](/docs/hermes/mcp/servers/external/linkedin-mcp-gtm) - LinkedIn outreach at scale
+- [Apollo.io MCP](/docs/hermes/mcp/servers/external/apollo-io-mcp) - 275M+ B2B contact enrichment
 - [JaxSuite API Docs](https://www.jaxsuite.com/api/v1/docs/ui)
 - [JaxSuite MCP Page](https://www.jaxsuite.com/mcp)

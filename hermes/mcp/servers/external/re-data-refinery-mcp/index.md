@@ -93,7 +93,7 @@ RE Data Refinery covers property sourcing and scoring - a domain CorpusIQ's conn
 
 ## See Also
 
-- [Austin MLS MCP - Live Austin Real Estate Listings](/hermes/mcp/servers/external/austin-mls-mcp/)
-- [Live Listing Proof MCP - Fail-Closed Listing Verification](/hermes/mcp/servers/external/live-listing-proof-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [Austin MLS MCP - Live Austin Real Estate Listings](/docs/hermes/mcp/servers/external/austin-mls-mcp)
+- [Live Listing Proof MCP - Fail-Closed Listing Verification](/docs/hermes/mcp/servers/external/live-listing-proof-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

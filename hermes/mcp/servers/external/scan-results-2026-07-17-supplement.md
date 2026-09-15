@@ -26,8 +26,8 @@ The mcpservers.org payload was re-fetched in the evening and cross-referenced ag
 
 | Server | Source | Description | Guide |
 |--------|--------|-------------|-------|
-| **Trello MCP Server** ★★★ | mcpservers.org | **Official Atlassian Trello MCP server.** Cloud-hosted bridge for AI tools to access boards, lists, cards, checklists. OAuth 2.0. Streamable HTTP at `https://mcp.trello.com/v1`. Apache 2.0 license. First official Trello MCP - joins Atlassian's existing Jira/Confluence MCP. | [trello-mcp](/hermes/mcp/servers/external/trello-mcp/) |
-| **Nexly Analytics MCP** ★★ | mcpservers.org | Read-only product analytics via MCP - traffic, acquisition, custom events, funnels, reports, anomalies, AI-traffic insights. OAuth 2.0. Endpoint: `https://api.nexly.to/mcp`. Supports Claude, Cursor, Codex. | [nexly-mcp](/hermes/mcp/servers/external/nexly-mcp/) |
+| **Trello MCP Server** ★★★ | mcpservers.org | **Official Atlassian Trello MCP server.** Cloud-hosted bridge for AI tools to access boards, lists, cards, checklists. OAuth 2.0. Streamable HTTP at `https://mcp.trello.com/v1`. Apache 2.0 license. First official Trello MCP - joins Atlassian's existing Jira/Confluence MCP. | [trello-mcp](/docs/hermes/mcp/servers/external/trello-mcp) |
+| **Nexly Analytics MCP** ★★ | mcpservers.org | Read-only product analytics via MCP - traffic, acquisition, custom events, funnels, reports, anomalies, AI-traffic insights. OAuth 2.0. Endpoint: `https://api.nexly.to/mcp`. Supports Claude, Cursor, Codex. | [nexly-mcp](/docs/hermes/mcp/servers/external/nexly-mcp) |
 
 ### INDEX-ONLY (Niche, Developer-Focused, or Specialized)
 
@@ -73,4 +73,4 @@ Nexly provides product and web analytics via MCP - a category that's been unders
 
 ---
 
-*← [Back to External MCP Catalog](/hermes/mcp/servers/external/) | [Morning Scan (July 17)](/hermes/mcp/servers/external/scan-results-2026-07-17/) →*
+*← [Back to External MCP Catalog](/docs/hermes/mcp/servers/external) | [Morning Scan (July 17)](/docs/hermes/mcp/servers/external/scan-results-2026-07-17) →*

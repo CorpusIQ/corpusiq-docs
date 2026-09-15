@@ -79,7 +79,7 @@ ScreenVerity adds a free compliance gate to CorpusIQ's vendor-facing workflows. 
 
 ## See Also
 
-- [1Lookup MCP - Phone, Email and IP Verification](/hermes/mcp/servers/external/1lookup-mcp/)
-- [GovGazette MCP - Federal Contract and Award Intelligence](/hermes/mcp/servers/external/govgazette-mcp/)
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [1Lookup MCP - Phone, Email and IP Verification](/docs/hermes/mcp/servers/external/1lookup-mcp)
+- [GovGazette MCP - Federal Contract and Award Intelligence](/docs/hermes/mcp/servers/external/govgazette-mcp)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

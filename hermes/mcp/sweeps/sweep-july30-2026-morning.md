@@ -24,7 +24,7 @@ Morning sweep of mcpservers.org sitemaps (6 server sitemaps + priority sitemap) 
 ## ★★ Business-Relevant (1 Guide Written)
 
 ### IBANforge MCP ★★ - July 30
-**IBAN validation, BIC/SWIFT lookup, Swiss clearing, and EMI/vIBAN classification via MCP.** AI agents validate international bank details before initiating payments. 6 tools: validate-iban, lookup-swift, lookup-iban, swiss-clearing, classify-emi, classify-viban. TypeScript (Hono), SQLite-backed, remote Streamable HTTP. Free tier available. First dedicated banking-compliance MCP server. `github.com/cammac-creator/ibanforge` (2⭐) · [Guide →](/hermes/mcp/servers/external/ibanforge-mcp/)
+**IBAN validation, BIC/SWIFT lookup, Swiss clearing, and EMI/vIBAN classification via MCP.** AI agents validate international bank details before initiating payments. 6 tools: validate-iban, lookup-swift, lookup-iban, swiss-clearing, classify-emi, classify-viban. TypeScript (Hono), SQLite-backed, remote Streamable HTTP. Free tier available. First dedicated banking-compliance MCP server. `github.com/cammac-creator/ibanforge` (2⭐) · [Guide →](/docs/hermes/mcp/servers/external/ibanforge-mcp)
 
 ---
 

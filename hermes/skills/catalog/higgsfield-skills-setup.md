@@ -58,6 +58,6 @@ npx skills add higgsfield-ai/skills
 
 ## Related
 
-- [GenMedia Skills - AI Media Generation Cluster Setup](/hermes/skills/catalog/genmedia-skills-setup/)
-- [Pika Plugins - Marketing Video Skill Pack Setup](/hermes/skills/catalog/pika-plugins-setup/)
-- [RunComfy Agent Skills - AI Video Generation Setup](/hermes/skills/catalog/runcomfy-agent-skills-setup/)
+- [GenMedia Skills - AI Media Generation Cluster Setup](/docs/hermes/skills/catalog/genmedia-skills-setup)
+- [Pika Plugins - Marketing Video Skill Pack Setup](/docs/hermes/skills/catalog/pika-plugins-setup)
+- [RunComfy Agent Skills - AI Video Generation Setup](/docs/hermes/skills/catalog/runcomfy-agent-skills-setup)

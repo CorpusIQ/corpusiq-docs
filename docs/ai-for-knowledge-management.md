@@ -125,13 +125,13 @@ A: AI handles "what" and "how" questions  --  factual knowledge retrieval. It do
 
 ## Internal Links
 
-- [Connect Notion to Claude](/connect-notion-to-claude)
-- [Connect Slack to Claude](/connect-slack-to-claude)
-- [Connect SharePoint to Claude](/connect-sharepoint-to-claude)
-- [AI for Document Search](/ai-for-document-search)
-- [AI for Customer Support](/ai-for-customer-support)
-- [AI for Project Management](/ai-for-project-management)
-- [What is MCP?](/what-is-an-mcp-server)
+- [Connect Notion to Claude](/connectors)
+- [Connect Slack to Claude](/connect/slack-with-claude)
+- [Connect SharePoint to Claude](/connectors)
+- [AI for Document Search](/private-ai-for-business)
+- [AI for Customer Support](/ai-for-customer-ops)
+- [AI for Project Management](/private-ai-for-business)
+- [What is MCP?](/answers/what-is-an-mcp-server)
 
 ---
 

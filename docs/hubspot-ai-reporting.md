@@ -131,18 +131,18 @@ Ready to put AI to work on your hubspot ai reporting data?
 
 ## Internal Links
 
-- [ChatGPT for HubSpot: Conversational CRM AI](/chatgpt-for-hubspot)
-- [Claude for HubSpot: Deep CRM Intelligence](/claude-for-hubspot)
-- [HubSpot Sales Analytics with AI](/hubspot-sales-analytics-with-ai)
-- [HubSpot Dashboard with ChatGPT](/hubspot-dashboard-with-chatgpt)
-- [HubSpot Business Intelligence Platform](/hubspot-business-intelligence)
-- [QuickBooks AI Reporting: Automated Financial Reports](/quickbooks-ai-reporting)
+- [ChatGPT for HubSpot: Conversational CRM AI](/connect/hubspot-with-chatgpt)
+- [Claude for HubSpot: Deep CRM Intelligence](/connect/hubspot-with-claude)
+- [HubSpot Sales Analytics with AI](/connect/hubspot-with-chatgpt)
+- [HubSpot Dashboard with ChatGPT](/connect/hubspot-with-chatgpt)
+- [HubSpot Business Intelligence Platform](/connect/hubspot-with-chatgpt)
+- [QuickBooks AI Reporting: Automated Financial Reports](/connect/quickbooks-with-chatgpt)
 
 ## Reports at the Speed of Conversation
 
 CorpusIQ's AI Reporting for HubSpot transforms CRM reporting from a technical task into a conversational capability. Your team spends less time building reports and more time acting on the intelligence they contain.
 
-**[Start generating AI-powered HubSpot reports](/quick-start)  --  connect your CRM in 60 seconds.**
+**[Start generating AI-powered HubSpot reports](/docs)  --  connect your CRM in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

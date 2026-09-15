@@ -56,6 +56,6 @@ Endpoint live-probed over JSON-RPC: keyless `tools/list` returned all 13 tools w
 
 ## See Also
 
-- [Crawdar MCP - Qualified Prospect Research for Agents](/hermes/mcp/servers/external/crawdar-mcp/)
-- [Vibe Prospecting MCP - Live B2B Data for Lead Generation](/hermes/mcp/servers/external/vibe-prospecting-mcp/)
-- [Emailchaser MCP - Cold Email Operations for Agents](/hermes/mcp/servers/external/emailchaser-mcp/)
+- [Crawdar MCP - Qualified Prospect Research for Agents](/docs/hermes/mcp/servers/external/crawdar-mcp)
+- [Vibe Prospecting MCP - Live B2B Data for Lead Generation](/docs/hermes/mcp/servers/external/vibe-prospecting-mcp)
+- [Emailchaser MCP - Cold Email Operations for Agents](/docs/hermes/mcp/servers/external/emailchaser-mcp)

@@ -157,14 +157,14 @@ Ready to put AI to work on your corpusiq vs zapier  --  mcp real-time ai-native 
 
 ## Internal Links
 
-- [CorpusIQ vs Fivetran  --  Live Query vs ETL Batch Pipelines](/corpusiq-vs-fivetran)
-- [CorpusIQ vs Airbyte  --  MCP vs Open-Source Data Integration](/corpusiq-vs-airbyte)
-- [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/corpusiq-vs-langchain)
-- [How to Connect Business Data to ChatGPT](/how-to-connect-business-data-to-chatgpt)
-- [Best MCP Server for Business  --  Comparison Guide](/best-mcp-server-for-business)
-- [Top Business AI Tools  --  Rankings & Reviews](/top-business-ai-tools)
-- [HubSpot Business Intelligence with CorpusIQ](/hubspot-business-intelligence)
-- [Enterprise AI Data Access  --  Secure Connectivity](/enterprise-ai-data-access)
+- [CorpusIQ vs Fivetran  --  Live Query vs ETL Batch Pipelines](/compare)
+- [CorpusIQ vs Airbyte  --  MCP vs Open-Source Data Integration](/compare)
+- [CorpusIQ vs LangChain  --  MCP Protocol vs AI Framework](/compare)
+- [How to Connect Business Data to ChatGPT](/answers)
+- [Best MCP Server for Business  --  Comparison Guide](/mcp)
+- [Top Business AI Tools  --  Rankings & Reviews](/compare)
+- [HubSpot Business Intelligence with CorpusIQ](/connect/hubspot-with-chatgpt)
+- [Enterprise AI Data Access  --  Secure Connectivity](/enterprise)
 
 ---
 

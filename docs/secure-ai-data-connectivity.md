@@ -104,14 +104,14 @@ Marketing agencies can connect authorized Google Analytics, Meta Ads, and HubSpo
 
 ## Internal Links
 
-- [Enterprise AI Data Access](/enterprise-ai-data-access)  --  Security at enterprise scale
-- [MCP Security Best Practices](/mcp-security-best-practices)  --  Deep dive on MCP security architecture
-- [What is an MCP Server](/what-is-an-mcp-server)  --  Understanding the protocol
-- [Benefits of MCP for Business](/benefits-of-mcp-for-business)  --  Why MCP is the secure choice
-- [Best MCP Server for Business](/best-mcp-server-for-business)  --  Platform comparison
-- [MCP for Enterprise](/mcp-for-enterprise)  --  Enterprise deployment patterns
-- [CorpusIQ vs Custom RAG](/corpusiq-vs-custom-rag)  --  Why building in-house is riskier
-- [Connect Business Data to ChatGPT](/how-to-connect-business-data-to-chatgpt)  --  Getting started
+- [Enterprise AI Data Access](/enterprise)  --  Security at enterprise scale
+- [MCP Security Best Practices](/mcp)  --  Deep dive on MCP security architecture
+- [What is an MCP Server](/answers/what-is-an-mcp-server)  --  Understanding the protocol
+- [Benefits of MCP for Business](/mcp)  --  Why MCP is the secure choice
+- [Best MCP Server for Business](/mcp)  --  Platform comparison
+- [MCP for Enterprise](/mcp)  --  Enterprise deployment patterns
+- [CorpusIQ vs Custom RAG](/compare)  --  Why building in-house is riskier
+- [Connect Business Data to ChatGPT](/answers)  --  Getting started
 
 ---
 

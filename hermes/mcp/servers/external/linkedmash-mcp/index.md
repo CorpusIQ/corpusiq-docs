@@ -95,6 +95,6 @@ LinkedMash + CorpusIQ creates a powerful operator content loop: use LinkedMash t
 
 ## See Also
 
-- [Xpoz MCP](/hermes/mcp/servers/external/xpoz-mcp/) - Multi-platform social media intelligence
-- [SiteGuru MCP](/hermes/mcp/servers/external/siteguru-mcp/) - SEO audit + rankings
-- [AfterLaunch MCP](/hermes/mcp/servers/external/afterlaunch-mcp/) - AI answer visibility + GEO
+- [Xpoz MCP](/docs/hermes/mcp/servers/external/xpoz-mcp) - Multi-platform social media intelligence
+- [SiteGuru MCP](/docs/hermes/mcp/servers/external/siteguru-mcp) - SEO audit + rankings
+- [AfterLaunch MCP](/docs/hermes/mcp/servers/external/afterlaunch-mcp) - AI answer visibility + GEO

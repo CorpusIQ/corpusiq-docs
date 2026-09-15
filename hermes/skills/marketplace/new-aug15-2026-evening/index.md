@@ -19,17 +19,17 @@ Fourth skills.sh sweep of August 15. 40 API queries collected 3,944 unique skill
 
 | Cluster | Skills | Installs | Tier | Guide |
 |---|---|---|---|---|
-| getsentry/skills | 31 | 85.3K | 🟢 | [Sentry Agent Skills Setup](/hermes/skills/catalog/sentry-agent-skills-setup/) |
-| cloudai-x/threejs-skills | 10 | 80.0K | 🟡 | [Three.js Agent Skills Setup](/hermes/skills/catalog/threejs-agent-skills-setup/) |
-| emblemcompany/agent-skills | 9 | 78.6K | 🟡 | [Emblem Company Agent Skills Setup](/hermes/skills/catalog/emblem-company-agent-skills-setup/) |
-| ljagiello/ctf-skills | 12 | 71.6K | 🟡 | [CTF Security Skills Setup](/hermes/skills/catalog/ctf-security-skills-setup/) |
-| brightdata/skills | 22 | 26.9K | 🟢 | [Bright Data Agent Skills Setup](/hermes/skills/catalog/brightdata-agent-skills-setup/) |
-| digitalsamba/claude-code-video-toolkit | 13 | 14.5K | 🟡 | [Claude Code Video Toolkit Setup](/hermes/skills/catalog/claude-code-video-toolkit-setup/) |
-| langfuse/skills | 6 | 13.1K | 🟢 | [Langfuse Agent Skills Setup](/hermes/skills/catalog/langfuse-agent-skills-setup/) |
-| 199-biotechnologies/claude-deep-research-skill | 1 | 9.4K | 🟡 | [Deep Research Skill Setup](/hermes/skills/catalog/claude-deep-research-skill-setup/) |
-| mintlify/docs | 5 | 9.2K | 🟢 | [Mintlify Docs Skills Setup](/hermes/skills/catalog/mintlify-docs-skills-setup/) |
-| lottiefiles/motion-design-skill | 1 | 8.1K | 🟢 | [Motion Design Skill Setup](/hermes/skills/catalog/lottiefiles-motion-design-skill-setup/) |
-| ceorkm/mobile-app-ui-design | 1 | 6.7K | 🟢 | [Mobile App UI Design Skill Setup](/hermes/skills/catalog/mobile-app-ui-design-skill-setup/) |
+| getsentry/skills | 31 | 85.3K | 🟢 | [Sentry Agent Skills Setup](/docs/hermes/skills/catalog/sentry-agent-skills-setup) |
+| cloudai-x/threejs-skills | 10 | 80.0K | 🟡 | [Three.js Agent Skills Setup](/docs/hermes/skills/catalog/threejs-agent-skills-setup) |
+| emblemcompany/agent-skills | 9 | 78.6K | 🟡 | [Emblem Company Agent Skills Setup](/docs/hermes/skills/catalog/emblem-company-agent-skills-setup) |
+| ljagiello/ctf-skills | 12 | 71.6K | 🟡 | [CTF Security Skills Setup](/docs/hermes/skills/catalog/ctf-security-skills-setup) |
+| brightdata/skills | 22 | 26.9K | 🟢 | [Bright Data Agent Skills Setup](/docs/hermes/skills/catalog/brightdata-agent-skills-setup) |
+| digitalsamba/claude-code-video-toolkit | 13 | 14.5K | 🟡 | [Claude Code Video Toolkit Setup](/docs/hermes/skills/catalog/claude-code-video-toolkit-setup) |
+| langfuse/skills | 6 | 13.1K | 🟢 | [Langfuse Agent Skills Setup](/docs/hermes/skills/catalog/langfuse-agent-skills-setup) |
+| 199-biotechnologies/claude-deep-research-skill | 1 | 9.4K | 🟡 | [Deep Research Skill Setup](/docs/hermes/skills/catalog/claude-deep-research-skill-setup) |
+| mintlify/docs | 5 | 9.2K | 🟢 | [Mintlify Docs Skills Setup](/docs/hermes/skills/catalog/mintlify-docs-skills-setup) |
+| lottiefiles/motion-design-skill | 1 | 8.1K | 🟢 | [Motion Design Skill Setup](/docs/hermes/skills/catalog/lottiefiles-motion-design-skill-setup) |
+| ceorkm/mobile-app-ui-design | 1 | 6.7K | 🟢 | [Mobile App UI Design Skill Setup](/docs/hermes/skills/catalog/mobile-app-ui-design-skill-setup) |
 
 ## Method Notes
 

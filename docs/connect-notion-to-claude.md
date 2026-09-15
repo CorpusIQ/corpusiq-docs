@@ -125,13 +125,13 @@ A: The Notion integration token grants workspace-level access to shared pages. A
 
 ## Internal Links
 
-- [Connect Slack to Claude](/connect-slack-to-claude)  --  Team communication in Claude.
-- [Connect SharePoint to Claude](/connect-sharepoint-to-claude)  --  Enterprise document access.
+- [Connect Slack to Claude](/connect/slack-with-claude)  --  Team communication in Claude.
+- [Connect SharePoint to Claude](/connectors)  --  Enterprise document access.
 - [Connect Google Drive to Claude](https://corpusiq.io/connectors/google_workspace/)  --  Cloud storage integration.
-- [AI for Knowledge Management](/ai-for-knowledge-management)  --  AI-powered knowledge retrieval.
-- [AI for Document Search](/ai-for-document-search)  --  Document intelligence at scale.
-- [AI for Project Management](/ai-for-project-management)  --  Project intelligence.
-- [What is MCP?](/what-is-an-mcp-server)  --  Understanding the Model Context Protocol.
+- [AI for Knowledge Management](/private-ai-for-business)  --  AI-powered knowledge retrieval.
+- [AI for Document Search](/private-ai-for-business)  --  Document intelligence at scale.
+- [AI for Project Management](/private-ai-for-business)  --  Project intelligence.
+- [What is MCP?](/answers/what-is-an-mcp-server)  --  Understanding the Model Context Protocol.
 
 ---
 

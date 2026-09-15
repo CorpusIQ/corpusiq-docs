@@ -82,7 +82,7 @@ PairBook complements CorpusIQ's data-driven reporting: a CorpusIQ workflow can f
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Jawz MCP - Live Macro Reads and a Disciplined Investing Loop](/hermes/mcp/servers/external/jawz-mcp/)
-- [Ice Juice Trading MCP - Automated Trading on Your Alpaca Account](/hermes/mcp/servers/external/ice-juice-trading/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Jawz MCP - Live Macro Reads and a Disciplined Investing Loop](/docs/hermes/mcp/servers/external/jawz-mcp)
+- [Ice Juice Trading MCP - Automated Trading on Your Alpaca Account](/docs/hermes/mcp/servers/external/ice-juice-trading)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

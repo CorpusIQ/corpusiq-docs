@@ -29,22 +29,22 @@ Additional skills discovered during the July 21 afternoon marketplace sweep. 6 n
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **hermes-imports** | affaan-m/everything-claude-code | 2,400 | 🟢 | [Setup Guide](/hermes/skills/catalog/hermes-imports-setup/) |
-| **hermes-labyrinth-observability** | aradotso/trending-skills | 187 | 🔵 | [Setup Guide](/hermes/skills/catalog/hermes-labyrinth-observability-setup/) |
-| **awesome-hermes-agent-ecosystem** | aradotso/ai-agent-skills | 161 | 🔵 | [Setup Guide](/hermes/skills/catalog/awesome-hermes-agent-ecosystem-setup/) |
+| **hermes-imports** | affaan-m/everything-claude-code | 2,400 | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/hermes-imports-setup) |
+| **hermes-labyrinth-observability** | aradotso/trending-skills | 187 | 🔵 | [Setup Guide](/docs/hermes/skills/catalog/hermes-labyrinth-observability-setup) |
+| **awesome-hermes-agent-ecosystem** | aradotso/ai-agent-skills | 161 | 🔵 | [Setup Guide](/docs/hermes/skills/catalog/awesome-hermes-agent-ecosystem-setup) |
 
 ### Growth & Marketing
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **hermes-marketing-dashboard** | aradotso/marketing-skills | 966 | 🟡 | [Setup Guide](/hermes/skills/catalog/hermes-marketing-dashboard-setup/) |
+| **hermes-marketing-dashboard** | aradotso/marketing-skills | 966 | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/hermes-marketing-dashboard-setup) |
 
 ### OpenClaw Agent Management
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **openclaw-control-center** | aradotso/trending-skills | 4,300 | 🟢 | [Setup Guide](/hermes/skills/catalog/openclaw-control-center-setup/) |
-| **openclaw-persona-forge** | affaan-m/everything-claude-code | 3,800 | 🟡 | [Setup Guide](/hermes/skills/catalog/openclaw-persona-forge-setup/) |
+| **openclaw-control-center** | aradotso/trending-skills | 4,300 | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/openclaw-control-center-setup) |
+| **openclaw-persona-forge** | affaan-m/everything-claude-code | 3,800 | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/openclaw-persona-forge-setup) |
 
 ## Notes
 

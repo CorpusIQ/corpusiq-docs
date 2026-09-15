@@ -87,7 +87,7 @@ CorpusIQ's governance systems (approval gates, human-in-the-loop workflows) are 
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [Raposa Aval MCP - Human Approval Gates with Audit Chains](/hermes/mcp/servers/external/raposa-aval-mcp/)
-- [Watchgoose MCP - Cron Monitoring and Failure Forensics for Agents](/hermes/mcp/servers/external/watchgoose-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Raposa Aval MCP - Human Approval Gates with Audit Chains](/docs/hermes/mcp/servers/external/raposa-aval-mcp)
+- [Watchgoose MCP - Cron Monitoring and Failure Forensics for Agents](/docs/hermes/mcp/servers/external/watchgoose-mcp)

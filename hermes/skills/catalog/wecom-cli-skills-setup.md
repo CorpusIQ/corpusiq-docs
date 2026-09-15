@@ -90,8 +90,8 @@ npx skills add wecomteam/wecom-cli   # verify install works
 
 ## Related
 
-- [WeCom Unified - Routing Suite Setup](/hermes/skills/catalog/wecom-unified-skills-setup/)
-- [Skills Catalog](/hermes/skills/catalog/)
-- [Skills Marketplace](/hermes/skills/marketplace/)
+- [WeCom Unified - Routing Suite Setup](/docs/hermes/skills/catalog/wecom-unified-skills-setup)
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Skills Marketplace](/docs/hermes/skills/marketplace)
 
 *Powered by CorpusIQ*

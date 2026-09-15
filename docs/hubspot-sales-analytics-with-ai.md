@@ -198,18 +198,18 @@ Ready to unlock AI-powered insights from your CRM data?
 
 ## Internal Links
 
-- [ChatGPT for HubSpot: Conversational CRM AI](/chatgpt-for-hubspot)
-- [Claude for HubSpot: Deep CRM Intelligence](/claude-for-hubspot)
-- [HubSpot AI Reporting: Automated Insights](/hubspot-ai-reporting)
-- [HubSpot Dashboard with ChatGPT](/hubspot-dashboard-with-chatgpt)
-- [HubSpot Business Intelligence Platform](/hubspot-business-intelligence)
-- [Shopify Sales Analysis with AI](/shopify-sales-analysis-with-ai)
+- [ChatGPT for HubSpot: Conversational CRM AI](/connect/hubspot-with-chatgpt)
+- [Claude for HubSpot: Deep CRM Intelligence](/connect/hubspot-with-claude)
+- [HubSpot AI Reporting: Automated Insights](/connect/hubspot-with-chatgpt)
+- [HubSpot Dashboard with ChatGPT](/connect/hubspot-with-chatgpt)
+- [HubSpot Business Intelligence Platform](/connect/hubspot-with-chatgpt)
+- [Shopify Sales Analysis with AI](/connect/shopify-with-chatgpt)
 
 ## From CRM Data to Revenue Intelligence
 
 Your HubSpot CRM is rich with insights waiting to be surfaced. AI-powered sales analytics makes those insights accessible to everyone on your team  --  no sales ops background, no report-building expertise, no spreadsheet wizardry required.
 
-**[Start your AI-powered sales analytics journey](/quick-start). Connect HubSpot in 60 seconds.**
+**[Start your AI-powered sales analytics journey](/docs). Connect HubSpot in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

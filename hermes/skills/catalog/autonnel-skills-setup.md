@@ -93,5 +93,5 @@ npx skills add https://github.com/autonnel/autonnel-skills --skill landing-page-
 
 ## Related
 
-- [SEO GEO Claude Skills Setup](/hermes/skills/catalog/seo-geo-claude-skills-setup/) - search-side of the same conversion funnel
-- [Skills Marketplace](/hermes/skills/marketplace/) - marketplace index for more discovery batches
+- [SEO GEO Claude Skills Setup](/docs/hermes/skills/catalog/seo-geo-claude-skills-setup) - search-side of the same conversion funnel
+- [Skills Marketplace](/docs/hermes/skills/marketplace) - marketplace index for more discovery batches

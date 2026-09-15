@@ -199,6 +199,6 @@ git clone https://github.com/ooovenenoso/robert-greene-skill.git
 
 ---
 
-*← [June 26 Afternoon Update](/hermes/skills/marketplace/new-june26-2026-afternoon/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+*← [June 26 Afternoon Update](/docs/hermes/skills/marketplace/new-june26-2026-afternoon) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
 
 *Curated by CorpusIQ - one MCP endpoint, all your business tools.*

@@ -165,12 +165,12 @@ CorpusIQ maintains a SOC 2 aligned security posture and is CASA Tier 2 certified
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/what-is-an-mcp-server)
-- [Understand how MCP servers work with a technical deep dive](/how-mcp-servers-work)
-- [Discover the business benefits of MCP servers](/benefits-of-mcp-for-business)
-- [Learn about MCP for enterprise-scale deployments](/mcp-for-enterprise)
-- [Learn about MCP for financial reporting and compliance](/mcp-for-finance)
-- [See how executives use MCP for AI-powered dashboards](/mcp-for-executives)
+- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Understand how MCP servers work with a technical deep dive](/mcp)
+- [Discover the business benefits of MCP servers](/mcp)
+- [Learn about MCP for enterprise-scale deployments](/mcp)
+- [Learn about MCP for financial reporting and compliance](/mcp)
+- [See how executives use MCP for AI-powered dashboards](/mcp)
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

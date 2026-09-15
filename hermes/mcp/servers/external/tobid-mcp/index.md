@@ -70,7 +70,7 @@ CorpusIQ's read-only business connectors cover a company's own financials and op
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [BidSkim MCP - UK Tenders and Procurement Intelligence](/hermes/mcp/servers/external/bidskim-mcp/)
-- [TED Tender Monitor - EU Procurement Monitoring for AI Agents](/hermes/mcp/servers/external/ted-tender-monitor/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [BidSkim MCP - UK Tenders and Procurement Intelligence](/docs/hermes/mcp/servers/external/bidskim-mcp)
+- [TED Tender Monitor - EU Procurement Monitoring for AI Agents](/docs/hermes/mcp/servers/external/ted-tender-monitor)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

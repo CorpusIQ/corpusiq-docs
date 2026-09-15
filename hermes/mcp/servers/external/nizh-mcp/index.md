@@ -83,8 +83,8 @@ CorpusIQ delivers governed read-only business data to agents; Nizh delivers gove
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Raposa Aval MCP - Human Approval Gates with Audit Chains](/hermes/mcp/servers/external/raposa-aval-mcp/)
-- [Fallax MCP - Phishing Simulation Results for Audit Evidence](/hermes/mcp/servers/external/fallax-mcp/)
-- [mcp-sanctions - Watchlist Screening for KYC and AML](/hermes/mcp/servers/external/mcp-sanctions/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Raposa Aval MCP - Human Approval Gates with Audit Chains](/docs/hermes/mcp/servers/external/raposa-aval-mcp)
+- [Fallax MCP - Phishing Simulation Results for Audit Evidence](/docs/hermes/mcp/servers/external/fallax-mcp)
+- [mcp-sanctions - Watchlist Screening for KYC and AML](/docs/hermes/mcp/servers/external/mcp-sanctions)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

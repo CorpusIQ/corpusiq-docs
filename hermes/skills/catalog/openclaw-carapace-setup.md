@@ -106,8 +106,8 @@ cp -r /tmp/carapace/openclaw-* ~/.clawd/skills/
 
 ## Related
 
-- [Discovery Page - Aug 12 OpenClaw Ecosystem Sweep](/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem/)
-- [OpenClaw Ecosystem June 26 Setup](/hermes/skills/catalog/openclaw-ecosystem-june26-setup/)
-- [Skills Catalog](/hermes/skills/catalog/)
+- [Discovery Page - Aug 12 OpenClaw Ecosystem Sweep](/docs/hermes/skills/marketplace/new-aug12-2026-openclaw-ecosystem)
+- [OpenClaw Ecosystem June 26 Setup](/docs/hermes/skills/catalog/openclaw-ecosystem-june26-setup)
+- [Skills Catalog](/docs/hermes/skills/catalog)
 
 *Powered by CorpusIQ*

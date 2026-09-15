@@ -110,7 +110,7 @@ hermes chat -q "What's the latest block number on Ethereum mainnet?"
 
 - [smartcontractkit/chainlink-agent-skills repo](https://github.com/smartcontractkit/chainlink-agent-skills)
 - [Chainlink Docs](https://docs.chain.link/)
-- [Solana Setup](/hermes/skills/catalog/solana-setup/)
+- [Solana Setup](/docs/hermes/skills/catalog/solana-setup)
 
 ---
 

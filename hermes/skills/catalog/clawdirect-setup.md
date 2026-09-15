@@ -93,6 +93,6 @@ Clawdirect's work tree pattern is ideal for:
 
 ---
 
-*← [Clawdis Setup](/hermes/skills/catalog/clawdis-setup/) | [Clawdstrike Setup →](/hermes/skills/catalog/clawdstrike-setup/)*
+*← [Clawdis Setup](/docs/hermes/skills/catalog/clawdis-setup) | [Clawdstrike Setup →](/docs/hermes/skills/catalog/clawdstrike-setup)*
 
-*↑ [Skills Catalog](/hermes/skills/catalog/)*
+*↑ [Skills Catalog](/docs/hermes/skills/catalog)*

@@ -166,14 +166,14 @@ async def list_tools() -> list[Tool]:
 
 ## Companion Skills
 
-- [build-mcp-app](/hermes/skills/marketplace/new-june30-2026/) - Full MCP application development
-- [build-mcpb](/hermes/skills/marketplace/new-june30-2026/) - Same guide, Bun runtime
-- [mcp-developer](/hermes/skills/marketplace/new-june30-2026/) - Debugging and testing toolkit
-- [mcp-security-audit](/hermes/skills/marketplace/new-june30-2026/) - Security scanning for MCP servers
+- [build-mcp-app](/docs/hermes/skills/marketplace/new-june30-2026) - Full MCP application development
+- [build-mcpb](/docs/hermes/skills/marketplace/new-june30-2026) - Same guide, Bun runtime
+- [mcp-developer](/docs/hermes/skills/marketplace/new-june30-2026) - Debugging and testing toolkit
+- [mcp-security-audit](/docs/hermes/skills/marketplace/new-june30-2026) - Security scanning for MCP servers
 
 ---
 
-*← [MCP Development](/hermes/skills/catalog/#mcp--api-integration) | [Catalog Home](/hermes/skills/catalog/) →*
+*← [MCP Development](/hermes/skills/catalog/#mcp--api-integration) | [Catalog Home](/docs/hermes/skills/catalog) →*
 
 ---
 

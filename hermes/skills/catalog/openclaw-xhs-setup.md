@@ -152,5 +152,5 @@ For AI companies and SaaS products expanding into APAC, Xiaohongshu intelligence
 
 ---
 
-*← [Memory Merger Setup](/hermes/skills/catalog/memory-merger-setup/) | [Skills Catalog →](/hermes/skills/catalog/)*
+*← [Memory Merger Setup](/docs/hermes/skills/catalog/memory-merger-setup) | [Skills Catalog →](/docs/hermes/skills/catalog)*
 *Powered by CorpusIQ*

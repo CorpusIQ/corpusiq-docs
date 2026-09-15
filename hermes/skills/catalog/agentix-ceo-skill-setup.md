@@ -80,9 +80,9 @@ curl -s "$AGENTIX_API_URL" | head -c 200   # verify endpoint reachability
 
 ## Related
 
-- [Skills Catalog](/hermes/skills/catalog/)
-- [Ruflo Agent Orchestration](/hermes/skills/marketplace/new-july24-2026/) - orchestration comparison
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Ruflo Agent Orchestration](/docs/hermes/skills/marketplace/new-july24-2026) - orchestration comparison
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

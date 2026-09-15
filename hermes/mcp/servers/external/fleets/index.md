@@ -99,12 +99,12 @@ Fleets is **read-only** - it cannot modify your analytics, search console settin
 
 ## Related Resources
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/) - full curated catalog
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - full curated catalog
 - [Analytics & BI MCPs](/hermes/mcp/servers/external/#analytics--business-intelligence) - complementary analytics tools
-- [CorpusIQ GA4 Connector](/hermes/mcp/connectors/) - native GA4 data access through CorpusIQ
+- [CorpusIQ GA4 Connector](/docs/hermes/mcp/connectors) - native GA4 data access through CorpusIQ
 
 ---
 
-*← [External MCP Catalog](/hermes/mcp/servers/external/) | [MCP Servers Home](/hermes/mcp/servers/) →*
+*← [External MCP Catalog](/docs/hermes/mcp/servers/external) | [MCP Servers Home](/docs/hermes/mcp/servers) →*
 
 *Guide created July 4, 2026. Fleets available via `npx -y fleets-mcp`. Check mcp.so for latest documentation and CLI updates.*

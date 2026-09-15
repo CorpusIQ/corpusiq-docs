@@ -89,7 +89,7 @@ Askline measures search and AI visibility; CorpusIQ carries the business results
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [CiteRank MCP - AI Search Visibility Audits](/hermes/mcp/servers/external/citerank-mcp/)
-- [Foliora MCP - Managed AI Search Preview for Agents](/hermes/mcp/servers/external/foliora-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [CiteRank MCP - AI Search Visibility Audits](/docs/hermes/mcp/servers/external/citerank-mcp)
+- [Foliora MCP - Managed AI Search Preview for Agents](/docs/hermes/mcp/servers/external/foliora-mcp)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

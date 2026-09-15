@@ -55,4 +55,4 @@ CorpusIQ Analytics → Track market trends alongside website traffic patterns
 - Stock prices only - no options, futures, or crypto (Tiingo limitation)
 - Rate limits on free Tiingo tier may restrict heavy usage
 
-*Back to [External MCP Catalog](/hermes/mcp/servers/external/)*
+*Back to [External MCP Catalog](/docs/hermes/mcp/servers/external)*

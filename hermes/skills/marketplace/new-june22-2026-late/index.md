@@ -151,8 +151,8 @@ Full model roster (24 models across Ollama + OpenRouter + Claude Code CLI) is do
 | New skills | 12 |
 | Skill categories | Orchestration, Roles, Standards, Routing |
 | First-of-kind | Multi-agent blueprint orchestration for Hermes |
-| Setup guide | [blueprint-orchestration-setup.md](/hermes/skills/catalog/blueprint-orchestration-setup/) |
+| Setup guide | [blueprint-orchestration-setup.md](/docs/hermes/skills/catalog/blueprint-orchestration-setup) |
 
 ---
 
-*← [Previous Discovery](/hermes/skills/marketplace/new-june20-22-2026/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+*← [Previous Discovery](/docs/hermes/skills/marketplace/new-june20-22-2026) | [Marketplace Home](/docs/hermes/skills/marketplace) →*

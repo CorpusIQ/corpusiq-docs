@@ -96,4 +96,4 @@ The skill only activates on explicit invocation - it won't interfere with normal
 
 ---
 
-*This guide is part of the [Hermes Skills Catalog](/hermes/skills/catalog/). Discovered June 29, 2026. Powered by CorpusIQ.*
+*This guide is part of the [Hermes Skills Catalog](/docs/hermes/skills/catalog). Discovered June 29, 2026. Powered by CorpusIQ.*

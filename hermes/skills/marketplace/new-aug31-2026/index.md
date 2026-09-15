@@ -19,14 +19,14 @@ Forty-six-query skills.sh API sweep (4,743 unique skills, zero query failures) w
 
 | Cluster | Skills | Installs | GitHub | Tier | Guide |
 |---|---|---|---|---|---|
-| lijigang/ljg-skills | 30 | 124.5K | 7.2K⭐ | 🟡 | [LJG Skills Setup](/hermes/skills/catalog/ljg-skills-setup/) |
-| dart-lang/skills | 30 | 144.0K | 463⭐ | 🟢 | [Dart Language Skills Setup](/hermes/skills/catalog/dart-lang-skills-setup/) |
-| mengto/skills | 155 | 76.2K | 5.6K⭐ | 🟢 | [Meng To Skills Setup](/hermes/skills/catalog/mengto-skills-setup/) |
-| daymade/claude-code-skills | 106 | 58.4K | 1.4K⭐ | 🟡 | [Daymade Claude Code Skills Setup](/hermes/skills/catalog/daymade-claude-code-skills-setup/) |
-| nutlope/hallmark | 1 | 48.6K | 27.6K⭐ | 🟢 | [Hallmark Setup](/hermes/skills/catalog/hallmark-setup/) |
-| mohitmishra786/low-level-dev-skills | 142 | 41.5K | 188⭐ | 🟡 | [Low-Level Dev Skills Setup](/hermes/skills/catalog/low-level-dev-skills-setup/) |
-| hubspot/agent-cli-skills | 15 | 17.8K | 21⭐ | 🟡 | [HubSpot Agent CLI Skills Setup](/hermes/skills/catalog/hubspot-agent-cli-skills-setup/) |
-| basicmachines-co/basic-memory | 38 | 9.7K | 3.8K⭐ | 🟢 | [Basic Memory Skills Setup](/hermes/skills/catalog/basic-memory-skills-setup/) |
+| lijigang/ljg-skills | 30 | 124.5K | 7.2K⭐ | 🟡 | [LJG Skills Setup](/docs/hermes/skills/catalog/ljg-skills-setup) |
+| dart-lang/skills | 30 | 144.0K | 463⭐ | 🟢 | [Dart Language Skills Setup](/docs/hermes/skills/catalog/dart-lang-skills-setup) |
+| mengto/skills | 155 | 76.2K | 5.6K⭐ | 🟢 | [Meng To Skills Setup](/docs/hermes/skills/catalog/mengto-skills-setup) |
+| daymade/claude-code-skills | 106 | 58.4K | 1.4K⭐ | 🟡 | [Daymade Claude Code Skills Setup](/docs/hermes/skills/catalog/daymade-claude-code-skills-setup) |
+| nutlope/hallmark | 1 | 48.6K | 27.6K⭐ | 🟢 | [Hallmark Setup](/docs/hermes/skills/catalog/hallmark-setup) |
+| mohitmishra786/low-level-dev-skills | 142 | 41.5K | 188⭐ | 🟡 | [Low-Level Dev Skills Setup](/docs/hermes/skills/catalog/low-level-dev-skills-setup) |
+| hubspot/agent-cli-skills | 15 | 17.8K | 21⭐ | 🟡 | [HubSpot Agent CLI Skills Setup](/docs/hermes/skills/catalog/hubspot-agent-cli-skills-setup) |
+| basicmachines-co/basic-memory | 38 | 9.7K | 3.8K⭐ | 🟢 | [Basic Memory Skills Setup](/docs/hermes/skills/catalog/basic-memory-skills-setup) |
 
 ## Method Notes
 

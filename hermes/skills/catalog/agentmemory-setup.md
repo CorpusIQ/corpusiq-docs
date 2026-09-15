@@ -130,5 +130,5 @@ AgentMemory solves this by maintaining a persistent, structured knowledge base t
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [MCP Use Setup →](/hermes/skills/catalog/mcp-use-setup/)*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [MCP Use Setup →](/docs/hermes/skills/catalog/mcp-use-setup)*
 *Powered by CorpusIQ*

@@ -98,10 +98,10 @@ The remaining 15 skills carry clean audits. The publisher is a well-known creato
 
 ## Related
 
-- [Blacktwist Social Media Skills - 14-Skill Content Suite Setup](/hermes/skills/catalog/blacktwist-social-media-skills-setup/)
-- [Content Strategy - Skills Marketplace](/hermes/skills/marketplace/)
+- [Blacktwist Social Media Skills - 14-Skill Content Suite Setup](/docs/hermes/skills/catalog/blacktwist-social-media-skills-setup)
+- [Content Strategy - Skills Marketplace](/docs/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

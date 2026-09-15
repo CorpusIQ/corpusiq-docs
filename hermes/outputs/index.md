@@ -20,7 +20,7 @@ Welcome to the **Hermes Agent field manual**. This section shows what Hermes can
 
 ## Overview
 
-**This isn't documentation about Hermes. It's documentation for *using* Hermes**  --  patterns that work, automations that pay for themselves in the first week, and architectures that scale from solo founder to enterprise. Each guide is built from production-tested deployments running on [real infrastructure](/hermes/infrastructure/).
+**This isn't documentation about Hermes. It's documentation for *using* Hermes**  --  patterns that work, automations that pay for themselves in the first week, and architectures that scale from solo founder to enterprise. Each guide is built from production-tested deployments running on [real infrastructure](/docs/hermes/infrastructure).
 
 ## How It Works
 
@@ -105,15 +105,15 @@ The [Copy-Paste Cron Templates](workflows/templates.md) are designed for **deplo
 
 ### How do I contribute my own implementation patterns?
 
-The community grows stronger with every documented use case. If you've built a Hermes automation that solved a real problem, consider [submitting it as a contribution](/hermes/contributors/). Include your cron schedule, skill description, data sources, and the business problem it solves.
+The community grows stronger with every documented use case. If you've built a Hermes automation that solved a real problem, consider [submitting it as a contribution](/docs/hermes/contributors). Include your cron schedule, skill description, data sources, and the business problem it solves.
 
 ## Related Pages
 
 - [Copy-Paste Cron Templates  --  Deploy in Minutes](workflows/templates.md)
-- [Agent Library  --  9 Role Configurations](/hermes/agents/)
-- [Architecture  --  6-Layer Production Model](/hermes/architecture/)
-- [Cron Scheduling Guide  --  38 Production Crons](/hermes/governance/scheduling/)
-- [Contributor Guide  --  Share Your Patterns](/hermes/contributors/)
+- [Agent Library  --  9 Role Configurations](/docs/hermes/agents)
+- [Architecture  --  6-Layer Production Model](/docs/hermes/architecture)
+- [Cron Scheduling Guide  --  38 Production Crons](/docs/hermes/governance/scheduling)
+- [Contributor Guide  --  Share Your Patterns](/docs/hermes/contributors)
 
 *From the [Hermes Case Studies](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/outputs/case-studies)  --  real-world agent deployments. Powered by [CorpusIQ](https://www.corpusiq.io).*
 

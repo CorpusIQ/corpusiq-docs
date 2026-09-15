@@ -21,13 +21,13 @@ Seven new community-contributed skills for Hermes Agent, discovered through GitH
 
 | # | Skill | Stars | Category | Setup Guide |
 |---|-------|:-----:|----------|-------------|
-| 1 | **coding-posture** | 9★ | Agent Infrastructure | [Setup →](/hermes/skills/catalog/coding-posture-setup/) |
-| 2 | **ultimate-humanizer** | 1★ | Content & Social | [Setup →](/hermes/skills/catalog/ultimate-humanizer-setup/) |
-| 3 | **clean-slate** | - | Quality Assurance | [Setup →](/hermes/skills/catalog/clean-slate-setup/) |
-| 4 | **delegate-skills** | - | Multi-Agent | [Setup →](/hermes/skills/catalog/delegate-skills-setup/) |
-| 5 | **autolora** | 1★ | Model Optimization | [Setup →](/hermes/skills/catalog/autolora-setup/) |
-| 6 | **hermes-whatsapp-secretary** | - | Communication | [Setup →](/hermes/skills/catalog/hermes-whatsapp-secretary-setup/) |
-| 7 | **safari-web-agent** | 1★ | Browser Automation | [Setup →](/hermes/skills/catalog/safari-web-agent-setup/) |
+| 1 | **coding-posture** | 9★ | Agent Infrastructure | [Setup →](/docs/hermes/skills/catalog/coding-posture-setup) |
+| 2 | **ultimate-humanizer** | 1★ | Content & Social | [Setup →](/docs/hermes/skills/catalog/ultimate-humanizer-setup) |
+| 3 | **clean-slate** | - | Quality Assurance | [Setup →](/docs/hermes/skills/catalog/clean-slate-setup) |
+| 4 | **delegate-skills** | - | Multi-Agent | [Setup →](/docs/hermes/skills/catalog/delegate-skills-setup) |
+| 5 | **autolora** | 1★ | Model Optimization | [Setup →](/docs/hermes/skills/catalog/autolora-setup) |
+| 6 | **hermes-whatsapp-secretary** | - | Communication | [Setup →](/docs/hermes/skills/catalog/hermes-whatsapp-secretary-setup) |
+| 7 | **safari-web-agent** | 1★ | Browser Automation | [Setup →](/docs/hermes/skills/catalog/safari-web-agent-setup) |
 
 ---
 
@@ -151,6 +151,6 @@ These repos were also found in the June 29 sweep. They're tracked for potential 
 
 ---
 
-*← [Skills Marketplace](/hermes/skills/marketplace/) | [Skills Catalog](/hermes/skills/catalog/) | [Previous Update →](/hermes/skills/marketplace/new-june28-2026-update3/)*
+*← [Skills Marketplace](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) | [Previous Update →](/docs/hermes/skills/marketplace/new-june28-2026-update3)*
 
 *Powered by CorpusIQ*

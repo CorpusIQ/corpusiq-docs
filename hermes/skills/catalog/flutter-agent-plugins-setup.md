@@ -73,9 +73,9 @@ npx skills list | grep flutter
 
 ## Related
 
-- [Skills Catalog](/hermes/skills/catalog/)
-- [ECC Engineering Skills Setup](/hermes/skills/catalog/ecc-engineering-skills-setup/) - general engineering standards
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [ECC Engineering Skills Setup](/docs/hermes/skills/catalog/ecc-engineering-skills-setup) - general engineering standards
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

@@ -88,7 +88,7 @@ cp -r hermes-engineering-skill-curation/profiles ~/.hermes/profiles/
 cp -r hermes-engineering-skill-curation/bundles ~/.hermes/bundles/
 ```
 
-**Setup guide:** [hermes-engineering-curation-setup.md](/hermes/skills/catalog/hermes-engineering-curation-setup/)
+**Setup guide:** [hermes-engineering-curation-setup.md](/docs/hermes/skills/catalog/hermes-engineering-curation-setup)
 
 ---
 
@@ -122,7 +122,7 @@ cp -r skill-ghostwriter ~/.hermes/skills/ghostwriter/
 # Configure Gmail API credentials, VIP inbox, and voice profile
 ```
 
-**Setup guide:** [ghostwriter-setup.md](/hermes/skills/catalog/ghostwriter-setup/)
+**Setup guide:** [ghostwriter-setup.md](/docs/hermes/skills/catalog/ghostwriter-setup)
 
 ---
 
@@ -147,14 +147,14 @@ mkdir -p ~/.hermes/skills/devops
 cp -a hermes-cron-design-workflow-skill/cron-design-workflow ~/.hermes/skills/devops/
 ```
 
-**Setup guide:** [cron-design-workflow-setup.md](/hermes/skills/catalog/cron-design-workflow-setup/)
+**Setup guide:** [cron-design-workflow-setup.md](/docs/hermes/skills/catalog/cron-design-workflow-setup)
 
 ---
 
 ## Cross-Reference
 
-See also: [June 20-22 discovery](/hermes/skills/marketplace/new-june20-22-2026/) | [Full marketplace index](/hermes/skills/marketplace/)
+See also: [June 20-22 discovery](/docs/hermes/skills/marketplace/new-june20-22-2026) | [Full marketplace index](/docs/hermes/skills/marketplace)
 
 ---
 
-*← [Previous: June 20-22, 2026](/hermes/skills/marketplace/new-june20-22-2026/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+*← [Previous: June 20-22, 2026](/docs/hermes/skills/marketplace/new-june20-22-2026) | [Marketplace Home](/docs/hermes/skills/marketplace) →*

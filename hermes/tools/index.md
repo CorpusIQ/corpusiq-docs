@@ -113,7 +113,7 @@ Hermes supports these model providers natively:
 
 ## Memory Systems
 
-[Full Memory Architecture →](/hermes/knowledge/)
+[Full Memory Architecture →](/docs/hermes/knowledge)
 
 | System | Type | Setup | Stars |
 |--------|------|-------|-------|
@@ -130,7 +130,7 @@ Hermes supports these model providers natively:
 
 ## MCP Servers
 
-[Full MCP Guide →](/hermes/mcp/) · [Ecosystem →](/hermes/ecosystem/)
+[Full MCP Guide →](/docs/hermes/mcp) · [Ecosystem →](/docs/hermes/ecosystem)
 
 CorpusIQ MCP alone provides 53 tools across 40+ business platforms. Additional MCP servers listed in the [ecosystem page](/hermes/ecosystem/#-mcp--integrations).
 

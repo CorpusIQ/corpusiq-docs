@@ -93,7 +93,7 @@ Accordio is the execution layer under CorpusIQ's reporting layer. An operator as
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [TheLuckyStrike Ops Suite - Invoicing, Time Tracking and Spreadsheets](/hermes/mcp/servers/external/theluckystrike-mcp-suite/)
-- [Watchgoose MCP - Cron Monitoring and Failure Forensics for Agents](/hermes/mcp/servers/external/watchgoose-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [TheLuckyStrike Ops Suite - Invoicing, Time Tracking and Spreadsheets](/docs/hermes/mcp/servers/external/theluckystrike-mcp-suite)
+- [Watchgoose MCP - Cron Monitoring and Failure Forensics for Agents](/docs/hermes/mcp/servers/external/watchgoose-mcp)

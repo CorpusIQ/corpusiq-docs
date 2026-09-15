@@ -26,9 +26,9 @@ Both sources remain accessible via curl text-stripping from SPA payloads. Cross-
 
 | Server | Source | Description | Guide |
 |--------|--------|-------------|-------|
-| **1Password MCP** ★★★ | mcpservers.org | Official 1Password MCP server (beta). Manages 1Password Environments from MCP clients without exposing secrets. Agent orchestrates, 1Password enforces the security boundary. First major secrets-management platform to ship an official MCP server. | [1password-mcp](/hermes/mcp/servers/external/1password-mcp/) |
-| **Mercury MCP** ★★★ | mcp.so | Official Mercury banking MCP (beta). Read-only access to accounts, transactions, balances, and cards via OAuth 2.0 + DCR. First banking platform to ship an official MCP server. | [mercury-mcp](/hermes/mcp/servers/external/mercury-mcp/) |
-| **Asana MCP V2** ★★★ | mcp.so | Official Asana project management MCP V2. Tasks, projects, workspaces via OAuth 2.0. Pre-registration required. Joins Atlassian, Linear, Notion in the PM MCP ecosystem. | [asana-mcp](/hermes/mcp/servers/external/asana-mcp/) |
+| **1Password MCP** ★★★ | mcpservers.org | Official 1Password MCP server (beta). Manages 1Password Environments from MCP clients without exposing secrets. Agent orchestrates, 1Password enforces the security boundary. First major secrets-management platform to ship an official MCP server. | [1password-mcp](/docs/hermes/mcp/servers/external/1password-mcp) |
+| **Mercury MCP** ★★★ | mcp.so | Official Mercury banking MCP (beta). Read-only access to accounts, transactions, balances, and cards via OAuth 2.0 + DCR. First banking platform to ship an official MCP server. | [mercury-mcp](/docs/hermes/mcp/servers/external/mercury-mcp) |
+| **Asana MCP V2** ★★★ | mcp.so | Official Asana project management MCP V2. Tasks, projects, workspaces via OAuth 2.0. Pre-registration required. Joins Atlassian, Linear, Notion in the PM MCP ecosystem. | [asana-mcp](/docs/hermes/mcp/servers/external/asana-mcp) |
 
 ### INDEX-ONLY (Niche, Developer-Focused, or Previously Noted)
 
@@ -77,4 +77,4 @@ The 1Password MCP server represents a watershed moment for AI agent infrastructu
 
 ---
 
-*← [Back to External MCP Catalog](/hermes/mcp/servers/external/) | [Previous Scan (July 16)](/hermes/mcp/servers/external/scan-results-2026-07-16/) →*
+*← [Back to External MCP Catalog](/docs/hermes/mcp/servers/external) | [Previous Scan (July 16)](/docs/hermes/mcp/servers/external/scan-results-2026-07-16) →*

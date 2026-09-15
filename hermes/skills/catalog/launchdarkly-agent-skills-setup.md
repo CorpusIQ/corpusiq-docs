@@ -189,9 +189,9 @@ cp -r skills/experiments/launchdarkly-experiment-setup ~/.hermes/skills/
 
 ## Related Skills
 
-- [Datadog Agent Skills](/hermes/skills/catalog/datadog-agent-skills-setup/) - monitor feature flag impact on system metrics
-- [MongoDB Agent Skills](/hermes/skills/catalog/mongodb-agent-skills-setup/) - feature flag state storage alternative
-- [AWS Agent Toolkit](/hermes/skills/catalog/aws-agent-toolkit-setup/) - CloudWatch Evidently integration for experiments
+- [Datadog Agent Skills](/docs/hermes/skills/catalog/datadog-agent-skills-setup) - monitor feature flag impact on system metrics
+- [MongoDB Agent Skills](/docs/hermes/skills/catalog/mongodb-agent-skills-setup) - feature flag state storage alternative
+- [AWS Agent Toolkit](/docs/hermes/skills/catalog/aws-agent-toolkit-setup) - CloudWatch Evidently integration for experiments
 
 ---
 

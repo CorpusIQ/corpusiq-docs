@@ -70,5 +70,5 @@ A hosted MCP server connecting AI agents to Google Search, Maps, News, Images, a
 
 ## See Also
 
-- [MentionsAPI](/hermes/mcp/servers/external/mentionsapi/) - Brand mention monitoring
-- [Substack Publisher MCP](/hermes/mcp/servers/external/substack-publisher-mcp/) - Newsletter analytics
+- [MentionsAPI](/docs/hermes/mcp/servers/external/mentionsapi) - Brand mention monitoring
+- [Substack Publisher MCP](/docs/hermes/mcp/servers/external/substack-publisher-mcp) - Newsletter analytics

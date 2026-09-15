@@ -44,7 +44,7 @@ Endpoint `https://seovally.com/mcp` live-probed over JSON-RPC: anonymous initial
 
 ## See Also
 
-- [Encited MCP - SEO and AI-Search Operating Layer for Agents](/hermes/mcp/servers/external/encited-mcp/)
-- [VarynForge MCP - Agent-Native SEO Research for Agents](/hermes/mcp/servers/external/varynforge-mcp/)
-- [SEOmatic MCP - Hosted SEO Agent for Your Own Site](/hermes/mcp/servers/external/seomatic-mcp/)
-- [Beamtrace MCP - AI-Visibility Analysis for Agents](/hermes/mcp/servers/external/beamtrace-mcp/)
+- [Encited MCP - SEO and AI-Search Operating Layer for Agents](/docs/hermes/mcp/servers/external/encited-mcp)
+- [VarynForge MCP - Agent-Native SEO Research for Agents](/docs/hermes/mcp/servers/external/varynforge-mcp)
+- [SEOmatic MCP - Hosted SEO Agent for Your Own Site](/docs/hermes/mcp/servers/external/seomatic-mcp)
+- [Beamtrace MCP - AI-Visibility Analysis for Agents](/docs/hermes/mcp/servers/external/beamtrace-mcp)

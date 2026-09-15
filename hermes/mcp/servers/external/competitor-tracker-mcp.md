@@ -49,4 +49,4 @@ Pair with CorpusIQ's analytics connectors to correlate competitor movements with
 
 ---
 
-*→ [Back to External MCP Catalog](/hermes/mcp/servers/external/)*
+*→ [Back to External MCP Catalog](/docs/hermes/mcp/servers/external)*

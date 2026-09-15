@@ -25,7 +25,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 **182.7K+ installs** - the single skill for every media need in HyperFrames projects. Resolve BGM, SFX, images, icons, brand logos, voiceover (TTS), and color grades into frozen local files via one verb: `resolve`. Generate via TTS, music, and image models when the catalog misses.
 
-Setup guide: [Media Use Setup Guide](/hermes/skills/catalog/media-use-setup/)
+Setup guide: [Media Use Setup Guide](/docs/hermes/skills/catalog/media-use-setup)
 
 ```bash
 npx skills add heygen-com/hyperframes --skill media-use

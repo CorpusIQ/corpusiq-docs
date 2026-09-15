@@ -84,7 +84,7 @@ Analytics Legends supplies the SAP-services market layer - a domain none of Corp
 
 ## See Also
 
-- [SYNTHORA MCP - Verified Multi-Source Intelligence Mesh](/hermes/mcp/servers/external/synthora-mcp/)
-- [Profitelligence MCP - Financial Intelligence from First-Party SEC Data](/hermes/mcp/servers/external/profitelligence-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [SYNTHORA MCP - Verified Multi-Source Intelligence Mesh](/docs/hermes/mcp/servers/external/synthora-mcp)
+- [Profitelligence MCP - Financial Intelligence from First-Party SEC Data](/docs/hermes/mcp/servers/external/profitelligence-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

@@ -54,6 +54,6 @@ Trending boards only: no post content, engagement metrics or historical archives
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Mysocial MCP - Your Real Social Media History as Agent Memory](/hermes/mcp/servers/external/mysocial-mcp/)
-- [Newsmind MCP - RSS Semantic Search and News Digests for Agents](/hermes/mcp/servers/external/newsmind-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Mysocial MCP - Your Real Social Media History as Agent Memory](/docs/hermes/mcp/servers/external/mysocial-mcp)
+- [Newsmind MCP - RSS Semantic Search and News Digests for Agents](/docs/hermes/mcp/servers/external/newsmind-mcp)

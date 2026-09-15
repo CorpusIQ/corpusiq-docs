@@ -45,4 +45,4 @@ CorpusIQ agents produce daily UGC videos. RunComfy provides:
 - Programmatic image generation for social media assets
 - Single CLI for 30+ AI models
 
-[Full Setup Guide →](/hermes/skills/catalog/runcomfy-agent-skills-setup/)
+[Full Setup Guide →](/docs/hermes/skills/catalog/runcomfy-agent-skills-setup)

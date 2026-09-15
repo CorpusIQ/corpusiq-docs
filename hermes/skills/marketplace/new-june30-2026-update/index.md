@@ -10,7 +10,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 # 🆕 June 30, 2026 - Update: 7 Additional Skills
 
-**Date:** June 30, 2026 (Update to [main June 30 sweep](/hermes/skills/marketplace/new-june30-2026/))
+**Date:** June 30, 2026 (Update to [main June 30 sweep](/docs/hermes/skills/marketplace/new-june30-2026))
 **New Repos:** 3 | **New Skills:** 7 | **Combined Installs:** 1,312,684
 
 A second-pass sweep across skills.sh surfaced 7 additional skills missed in the morning sweep. Five Matt Pocock engineering skills - totalling 1.3M+ installs - bring production-grade software engineering workflows to Hermes agents: architecture review, PRD synthesis, issue decomposition, and adversarial plan grilling.
@@ -122,7 +122,7 @@ npx skills add aradotso/hermes-skills@voltagent-openclaw-skill-loader
 
 ---
 
-*← [June 30 Main Sweep](/hermes/skills/marketplace/new-june30-2026/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+*← [June 30 Main Sweep](/docs/hermes/skills/marketplace/new-june30-2026) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
 
 ---
 

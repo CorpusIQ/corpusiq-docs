@@ -16,4 +16,4 @@ Reusable workflow templates for Hermes Agent outputs - report generation, data p
 
 ---
 
-*← [Outputs Home](/hermes/outputs/) | [Hermes Home](/hermes/)*
+*← [Outputs Home](/docs/hermes/outputs) | [Hermes Home](/docs/hermes)*

@@ -86,6 +86,6 @@ PropRaven identifies the property; CorpusIQ quantifies the business around it. A
 
 ## See Also
 
-- [DFX Real Estate Intelligence MCP - US Property, Parcel and Debt Data](/hermes/mcp/servers/external/dfx-real-estate-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [DFX Real Estate Intelligence MCP - US Property, Parcel and Debt Data](/docs/hermes/mcp/servers/external/dfx-real-estate-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

@@ -88,11 +88,11 @@ The skill runs degraded without `references/` and `scripts/` - it will tell you 
 
 ## Related
 
-- [Skill Creator - Anthropic's Skill Creation Framework Setup](/hermes/skills/catalog/skill-creator-setup/)
-- [Wyatt Walsh Agents - Skill Governance and Orchestration Suite Setup](/hermes/skills/catalog/wyattowalsh-agents-setup/)
-- [Distribute Skill To All Agents Setup](/hermes/skills/catalog/distribute-skill-to-all-agents-setup/)
+- [Skill Creator - Anthropic's Skill Creation Framework Setup](/docs/hermes/skills/catalog/skill-creator-setup)
+- [Wyatt Walsh Agents - Skill Governance and Orchestration Suite Setup](/docs/hermes/skills/catalog/wyattowalsh-agents-setup)
+- [Distribute Skill To All Agents Setup](/docs/hermes/skills/catalog/distribute-skill-to-all-agents-setup)
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) →*
 *Powered by CorpusIQ*

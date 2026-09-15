@@ -140,13 +140,13 @@ Yes. CorpusIQ's canonical facts feature lets you define how key metrics should b
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/benefits-of-mcp-for-business)
-- [MCP for Accountants: QuickBooks and Tax](/mcp-for-accountants)
-- [Learn about MCP for enterprise-scale deployments](/mcp-for-enterprise)
-- [See how executives use MCP for AI-powered dashboards](/mcp-for-executives)
-- [Read our complete MCP security best practices guide](/mcp-security-best-practices)
-- [MCP for Ecommerce: Order and Revenue Analytics](/mcp-for-ecommerce)
+- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Discover the business benefits of MCP servers](/mcp)
+- [MCP for Accountants: QuickBooks and Tax](/mcp)
+- [Learn about MCP for enterprise-scale deployments](/mcp)
+- [See how executives use MCP for AI-powered dashboards](/mcp)
+- [Read our complete MCP security best practices guide](/mcp)
+- [MCP for Ecommerce: Order and Revenue Analytics](/mcp)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 

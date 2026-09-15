@@ -106,4 +106,4 @@ This one call replaces manually searching through SESSION_STATE.md, checking cro
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Honcho Memory Usage](/hermes/skills/engineering/honcho-memory-usage/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Honcho Memory Usage](/docs/hermes/skills/engineering/honcho-memory-usage) →*

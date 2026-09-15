@@ -64,7 +64,7 @@ The most significant Hermes companion project discovered this month. Hermespace 
 
 **Why it matters for Hermes:** As agents accumulate context across sessions, they lose focus - too many goals, dumping model context into chat, wrong skill for the job. Hermespace provides the bounded working memory that lets an agent focus on one goal while preserving everything else. The dual decode pattern (separate channels for human vs model) prevents the context pollution that degrades agent performance over long sessions. For CorpusIQ's multi-session growth operations, hermespace could reduce the "what was I working on?" amnesia that costs hours per session.
 
-**Setup Guide:** [Hermespace - Full Setup Guide](/hermes/skills/catalog/hermespace-setup/)
+**Setup Guide:** [Hermespace - Full Setup Guide](/docs/hermes/skills/catalog/hermespace-setup)
 
 ```bash
 # Clone and install
@@ -120,7 +120,7 @@ plutus demo    # zero-setup tour → http://localhost:8420
 
 **Why it matters for Hermes:** As the agent skills ecosystem grows, delegating heavy coding work to specialized CLI agents (Cursor, Codex, Claude Code) becomes essential. This skill provides the safety layer - isolated worktrees, output bounds, and explicit Hermes-owns-acceptance - that prevents autonomous coding agents from making unsupervised changes.
 
-**Setup Guide:** [Cursor Delegate - Full Setup Guide](/hermes/skills/catalog/hermes-cursor-dispatcher-setup/)
+**Setup Guide:** [Cursor Delegate - Full Setup Guide](/docs/hermes/skills/catalog/hermes-cursor-dispatcher-setup)
 
 ```bash
 npx skills add matdev83/hermes-cursor-dispatcher --skill cursor-delegate -g -y
@@ -160,5 +160,5 @@ Additional repos found (deployment/configuration tools or tangential mentions - 
 
 ---
 
-*← [July 18](/hermes/skills/marketplace/new-july18-2026/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+*← [July 18](/docs/hermes/skills/marketplace/new-july18-2026) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

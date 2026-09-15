@@ -91,7 +91,7 @@ Complementary vertical depth to CorpusIQ's horizontal connectors: CorpusIQ cover
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [ATLASS OS MCP - Field-Service Business Platform for AI Agents](/hermes/mcp/servers/external/atlass-os-mcp/)
-- [Centipid ISP Billing MCP - Subscriber and Network Operations Data](/hermes/mcp/servers/external/centipid-billing-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/servers/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [ATLASS OS MCP - Field-Service Business Platform for AI Agents](/docs/hermes/mcp/servers/external/atlass-os-mcp)
+- [Centipid ISP Billing MCP - Subscriber and Network Operations Data](/docs/hermes/mcp/servers/external/centipid-billing-mcp)
+- [CorpusIQ Connectors](/docs/hermes/mcp/servers)

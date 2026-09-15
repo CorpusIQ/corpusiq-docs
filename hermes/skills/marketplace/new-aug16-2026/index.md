@@ -19,12 +19,12 @@ First skills.sh sweep of August 16. 40 API queries collected 3,945 unique skills
 
 | Cluster | Skills | Installs | Tier | Guide |
 |---|---|---|---|---|
-| cursor/plugins | 79 | 72.0K | 🟢 | [Cursor Plugins Skills Setup](/hermes/skills/catalog/cursor-plugins-skills-setup/) |
-| vercel/ai | 3 | 51.1K | 🟡 | [Vercel AI SDK Skills Setup](/hermes/skills/catalog/vercel-ai-skills-setup/) |
-| angular/skills | 2 | 40.1K | 🟢 | [Angular Skills Setup](/hermes/skills/catalog/angular-skills-setup/) |
-| inngest/inngest-skills | 14 | 19.3K | 🟡 | [Inngest Skills Setup](/hermes/skills/catalog/inngest-skills-setup/) |
-| oxc-project/oxc | 4 | 9.9K | 🟡 | [OXC Project Skills Setup](/hermes/skills/catalog/oxc-project-skills-setup/) |
-| alibaba/open-code-review | 2 | 4.3K | 🟡 | [Alibaba Open Code Review Setup](/hermes/skills/catalog/alibaba-open-code-review-setup/) |
+| cursor/plugins | 79 | 72.0K | 🟢 | [Cursor Plugins Skills Setup](/docs/hermes/skills/catalog/cursor-plugins-skills-setup) |
+| vercel/ai | 3 | 51.1K | 🟡 | [Vercel AI SDK Skills Setup](/docs/hermes/skills/catalog/vercel-ai-skills-setup) |
+| angular/skills | 2 | 40.1K | 🟢 | [Angular Skills Setup](/docs/hermes/skills/catalog/angular-skills-setup) |
+| inngest/inngest-skills | 14 | 19.3K | 🟡 | [Inngest Skills Setup](/docs/hermes/skills/catalog/inngest-skills-setup) |
+| oxc-project/oxc | 4 | 9.9K | 🟡 | [OXC Project Skills Setup](/docs/hermes/skills/catalog/oxc-project-skills-setup) |
+| alibaba/open-code-review | 2 | 4.3K | 🟡 | [Alibaba Open Code Review Setup](/docs/hermes/skills/catalog/alibaba-open-code-review-setup) |
 
 ## Method Notes
 

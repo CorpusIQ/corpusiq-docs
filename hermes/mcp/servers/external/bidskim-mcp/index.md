@@ -79,7 +79,7 @@ Complements CorpusIQ's business-data connectors with the public-sector demand si
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [GovGazette MCP - Federal Contract and Award Intelligence](/hermes/mcp/servers/external/govgazette-mcp/)
-- [TEOS WARN Act Layoff Intelligence MCP](/hermes/mcp/servers/external/teos-warn-act-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/servers/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [GovGazette MCP - Federal Contract and Award Intelligence](/docs/hermes/mcp/servers/external/govgazette-mcp)
+- [TEOS WARN Act Layoff Intelligence MCP](/docs/hermes/mcp/servers/external/teos-warn-act-mcp)
+- [CorpusIQ Connectors](/docs/hermes/mcp/servers)

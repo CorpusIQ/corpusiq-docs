@@ -16,7 +16,7 @@ Utility scripts for maintaining and growing the Hermes ecosystem.
 
 ### `discover.py` - Ecosystem Discovery Engine
 
-Scans GitHub for new Hermes-compatible repositories across multiple search queries. Scores repos by relevance (stars, activity, topic match) and outputs a ranked list. Used by the [Ecosystem Discovery Engine](/hermes/ecosystem/).
+Scans GitHub for new Hermes-compatible repositories across multiple search queries. Scores repos by relevance (stars, activity, topic match) and outputs a ranked list. Used by the [Ecosystem Discovery Engine](/docs/hermes/ecosystem).
 
 **Usage:**
 
@@ -26,7 +26,7 @@ python3 discover.py --since 2026-07-01 --output discovery-results.json
 
 ### `install-agent-stack.sh` - One-Command Setup
 
-Installs the complete Hermes Agent stack on a fresh Linux machine: Node.js, Python dependencies, Playwright browsers, and the Hermes CLI. Used by the [Setup Guide](/hermes/setup/).
+Installs the complete Hermes Agent stack on a fresh Linux machine: Node.js, Python dependencies, Playwright browsers, and the Hermes CLI. Used by the [Setup Guide](/docs/hermes/setup).
 
 **Usage:**
 
@@ -46,10 +46,10 @@ python3 process_submissions.py --input submissions.jsonl --validate
 
 ## Integration
 
-These scripts are referenced by the [Infrastructure](/hermes/infrastructure/) and [Governance](/hermes/governance/) documentation. See the [Setup Guide](/hermes/setup/) for installation patterns.
+These scripts are referenced by the [Infrastructure](/docs/hermes/infrastructure) and [Governance](/docs/hermes/governance) documentation. See the [Setup Guide](/docs/hermes/setup) for installation patterns.
 
 ---
 
-*← [Templates](/hermes/templates/) | [Hermes Home](/hermes/) →*
+*← [Templates](/docs/hermes/templates) | [Hermes Home](/docs/hermes) →*
 
-*↑ [Scripts Home](/hermes/scripts/)*
+*↑ [Scripts Home](/docs/hermes/scripts)*

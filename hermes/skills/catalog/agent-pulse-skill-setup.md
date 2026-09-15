@@ -82,10 +82,10 @@ agent-pulse --help   # verify CLI is installed and working
 
 ## Related
 
-- [Skills Catalog](/hermes/skills/catalog/)
-- [Sentry Dev Skill Setup](/hermes/skills/catalog/sentry-dev-skills-setup/) - error monitoring
-- [Hermes Stack Doctor](/hermes/skills/) - Hermes health audits
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Sentry Dev Skill Setup](/docs/hermes/skills/catalog/sentry-dev-skills-setup) - error monitoring
+- [Hermes Stack Doctor](/docs/hermes/skills) - Hermes health audits
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

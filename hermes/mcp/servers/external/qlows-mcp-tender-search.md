@@ -44,5 +44,5 @@ npx mcp-remote https://app.qlows.com/api/mcp/{MINT_TOKEN}/rpc
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [Booyah Index MCP - Business Directory](/hermes/mcp/servers/external/booyah-index/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [Booyah Index MCP - Business Directory](/docs/hermes/mcp/servers/external/booyah-index)

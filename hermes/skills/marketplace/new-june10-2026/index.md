@@ -281,7 +281,7 @@ All skills installable with `npx skills add <owner/repo@skill>`. See the [skills
 
 *Discovered: June 10, 2026. 74 search queries, 280 skills found, 226 new, 68 high-value documented above.*
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 
 *Part of the [Hermes Skills Library](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/skills)  --  133+ agent skills. Built by [CorpusIQ](https://www.corpusiq.io).*
 

@@ -105,9 +105,9 @@ hermes cron create \\
 
 *More templates are added regularly from the Hermes community.*
 
-*← [Hermes Home](/hermes/) | [Scripts](/hermes/scripts/) →*
+*← [Hermes Home](/docs/hermes) | [Scripts](/docs/hermes/scripts) →*
 
-*↑ [Templates Home](/hermes/templates/)*
+*↑ [Templates Home](/docs/hermes/templates)*
 
 ---
 

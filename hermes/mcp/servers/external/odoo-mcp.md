@@ -57,6 +57,6 @@ ODOO_URL={your-odoo-url} ODOO_DB={database-name} ODOO_USERNAME={user} ODOO_PASSW
 
 ## See Also
 
-- [CorpusIQ MCP Connectors - 40+ business data sources](/hermes/mcp/connectors/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
+- [CorpusIQ MCP Connectors - 40+ business data sources](/docs/hermes/mcp/connectors)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
 - [QuickBooks Integration via CorpusIQ](/hermes/mcp/connectors/#quickbooks)

@@ -90,10 +90,10 @@ npx skills add mengto/skills --list    # 155 skills discovered
 
 ## Related
 
-- [Hallmark Design Skill Setup](/hermes/skills/catalog/hallmark-setup/)
-- [Skills Catalog](/hermes/skills/catalog/) - full quality-tiered directory
+- [Hallmark Design Skill Setup](/docs/hermes/skills/catalog/hallmark-setup)
+- [Skills Catalog](/docs/hermes/skills/catalog) - full quality-tiered directory
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Skills Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skills Marketplace](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

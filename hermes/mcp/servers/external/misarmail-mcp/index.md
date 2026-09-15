@@ -100,7 +100,7 @@ CorpusIQ brings the customer and revenue layer (CRM, Stripe, QuickBooks) while M
 
 ## See Also
 
-- [MisarReach MCP - Outbound Sales and Lead Pipeline](/hermes/mcp/servers/external/misarreach-mcp/)
-- [Misar.Blog MCP - Blog Publishing](/hermes/mcp/servers/external/misarblog-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [MisarReach MCP - Outbound Sales and Lead Pipeline](/docs/hermes/mcp/servers/external/misarreach-mcp)
+- [Misar.Blog MCP - Blog Publishing](/docs/hermes/mcp/servers/external/misarblog-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

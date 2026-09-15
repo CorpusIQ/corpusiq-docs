@@ -51,4 +51,4 @@ Pair with CorpusIQ's financial connectors (QuickBooks, Stripe) for complete fina
 
 ---
 
-*→ [Back to External MCP Catalog](/hermes/mcp/servers/external/)*
+*→ [Back to External MCP Catalog](/docs/hermes/mcp/servers/external)*

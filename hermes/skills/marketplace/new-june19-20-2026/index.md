@@ -32,7 +32,7 @@ Ponytail repackaged for Hermes  --  pure `SKILL.md` skills with no code, no tool
 
 **Repo:** [tensakulabs/hermes-ponytail](https://github.com/tensakulabs/hermes-ponytail) | **Stars:** 0 | **Created:** June 20, 2026  
 **Credit:** Behavior from [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) (MIT)  
-**Setup Guide:** [hermes-ponytail-setup.md](/hermes/skills/catalog/hermes-ponytail-setup/)
+**Setup Guide:** [hermes-ponytail-setup.md](/docs/hermes/skills/catalog/hermes-ponytail-setup)
 
 ---
 
@@ -48,7 +48,7 @@ Scan-before-install enforcement, 64 vulnerability patterns, risk gating (auto-pr
 
 **Repo:** [SoCalStreet/skill-vetting](https://github.com/SoCalStreet/skill-vetting) | **Stars:** 0 | **Created:** June 19, 2026  
 **Requires:** NVIDIA SkillSpector, Python 3.12+  
-**Setup Guide:** [skill-vetting-setup.md](/hermes/skills/catalog/skill-vetting-setup/)
+**Setup Guide:** [skill-vetting-setup.md](/docs/hermes/skills/catalog/skill-vetting-setup)
 
 ---
 
@@ -63,7 +63,7 @@ Scan-before-install enforcement, 64 vulnerability patterns, risk gating (auto-pr
 
 **Repo:** [mesutcelik/agentmint-skills](https://github.com/mesutcelik/agentmint-skills) | **Stars:** 0 | **Created:** June 19, 2026  
 **Related:** [mesutcelik/agentmint-hermes](https://github.com/mesutcelik/agentmint-hermes) (Python adapter on PyPI)  
-**Setup Guide:** [agentmint-skills-setup.md](/hermes/skills/catalog/agentmint-skills-setup/)
+**Setup Guide:** [agentmint-skills-setup.md](/docs/hermes/skills/catalog/agentmint-skills-setup)
 
 ---
 
@@ -121,4 +121,4 @@ These repos were found but not catalogued in detail  --  low star counts, minima
 
 ---
 
-*← [Marketplace Home](/hermes/skills/marketplace/) | [Skills Catalog](/hermes/skills/catalog/) →*
+*← [Marketplace Home](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) →*

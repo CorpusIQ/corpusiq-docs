@@ -179,19 +179,19 @@ Ready to put AI to work on your shopify dashboard with chatgpt data?
 
 ## Internal Links
 
-- [ChatGPT for Shopify: Conversational Ecommerce AI](/chatgpt-for-shopify)
-- [Claude for Shopify: Deep Ecommerce Analysis](/claude-for-shopify)
-- [Shopify AI Analytics: Automated Insights](/shopify-ai-analytics)
-- [Shopify Sales Analysis with AI](/shopify-sales-analysis-with-ai)
-- [Shopify Business Intelligence Platform](/shopify-business-intelligence)
-- [QuickBooks Dashboard with ChatGPT](/quickbooks-dashboard-with-chatgpt)
-- [HubSpot Dashboard with ChatGPT](/hubspot-dashboard-with-chatgpt)
+- [ChatGPT for Shopify: Conversational Ecommerce AI](/connect/shopify-with-chatgpt)
+- [Claude for Shopify: Deep Ecommerce Analysis](/connect/shopify-with-claude)
+- [Shopify AI Analytics: Automated Insights](/connect/shopify-with-chatgpt)
+- [Shopify Sales Analysis with AI](/connect/shopify-with-chatgpt)
+- [Shopify Business Intelligence Platform](/connect/shopify-with-chatgpt)
+- [QuickBooks Dashboard with ChatGPT](/connect/quickbooks-with-chatgpt)
+- [HubSpot Dashboard with ChatGPT](/connect/hubspot-with-chatgpt)
 
 ## Your Store's Pulse, Always at Hand
 
 A ChatGPT-powered Shopify dashboard is the fastest, most flexible way to monitor your ecommerce performance. No BI tools to build. No data pipelines to maintain. No reports to export. Just real-time intelligence, on demand.
 
-**[Set up your Shopify dashboard now](/quick-start)  --  connect your store in 60 seconds.**
+**[Set up your Shopify dashboard now](/docs)  --  connect your store in 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

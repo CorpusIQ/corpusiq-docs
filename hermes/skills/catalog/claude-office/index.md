@@ -20,8 +20,8 @@ Skills for integrating Hermes Agent with Claude Office. These skills enable auto
 
 ## Related
 
-- [Skills Catalog →](/hermes/skills/catalog/)
-- [Marketplace →](/hermes/skills/marketplace/)
+- [Skills Catalog →](/docs/hermes/skills/catalog)
+- [Marketplace →](/docs/hermes/skills/marketplace)
 
 ---
 

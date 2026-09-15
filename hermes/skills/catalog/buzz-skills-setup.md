@@ -89,8 +89,8 @@ git clone https://github.com/tonbistudio/buzz-skills.git   # verify checkout wor
 
 ## Related
 
-- [Skills Catalog](/hermes/skills/catalog/)
-- [Skills Marketplace](/hermes/skills/marketplace/)
-- [Hermes Field Kit Setup](/hermes/skills/catalog/hermes-field-kit-setup/)
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Skills Marketplace](/docs/hermes/skills/marketplace)
+- [Hermes Field Kit Setup](/docs/hermes/skills/catalog/hermes-field-kit-setup)
 
 *Powered by CorpusIQ*

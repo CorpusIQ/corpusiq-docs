@@ -81,12 +81,12 @@ No skills.sh security audits published (verified Sep 15, 2026 - the publisher pa
 
 ## Related
 
-- [Podo Design Agent Skills - 151-Skill Design Catalog Setup](/hermes/skills/catalog/podo-design-agent-skills-setup/)
-- [OWL Listener Designer Skills - 107-Skill Design Suite Setup](/hermes/skills/catalog/owl-listener-designer-skills-setup/)
-- [Hallmark - Anti-AI-Slop Design Skill Setup](/hermes/skills/catalog/hallmark-setup/)
-- [Skills Marketplace](/hermes/skills/marketplace/)
+- [Podo Design Agent Skills - 151-Skill Design Catalog Setup](/docs/hermes/skills/catalog/podo-design-agent-skills-setup)
+- [OWL Listener Designer Skills - 107-Skill Design Suite Setup](/docs/hermes/skills/catalog/owl-listener-designer-skills-setup)
+- [Hallmark - Anti-AI-Slop Design Skill Setup](/docs/hermes/skills/catalog/hallmark-setup)
+- [Skills Marketplace](/docs/hermes/skills/marketplace)
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

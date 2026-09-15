@@ -112,4 +112,4 @@ skillspector scan ~/.hermes/skills/some-skill/
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Skill Vetting Repo](https://github.com/SoCalStreet/skill-vetting) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Skill Vetting Repo](https://github.com/SoCalStreet/skill-vetting) →*

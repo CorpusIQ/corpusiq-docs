@@ -143,13 +143,13 @@ A: Report to security@corpusiq.io. CorpusIQ follows coordinated disclosure and a
 
 ## Internal Links
 
-- **[CorpusIQ Quick Start Guide](/quick-start)**  --  Go from zero to first query in 5 minutes  
-- **[API Reference](/api/overview)**  --  Full REST API documentation  
+- **[CorpusIQ Quick Start Guide](/docs)**  --  Go from zero to first query in 5 minutes  
+- **[API Reference](/docs/api/overview)**  --  Full REST API documentation  
 - **[CorpusIQ Connectors](/connectors)**  --  All 40+ supported integrations  
-- **[Enterprise AI Data Access Guide](/enterprise-ai-data-access)**  --  SSO, SOC 2, data residency  
+- **[Enterprise AI Data Access Guide](/enterprise)**  --  SSO, SOC 2, data residency  
 - **[CorpusIQ Security Documentation](/security)**  --  Certifications, encryption, and compliance  
-- **[CorpusIQ Changelog](/changelog)**  --  API updates and version history  
-- **[Secure AI Data Connectivity](/secure-ai-data-connectivity)**  --  Encryption and network security  
+- **[CorpusIQ Changelog](/blog)**  --  API updates and version history  
+- **[Secure AI Data Connectivity](/security)**  --  Encryption and network security  
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---

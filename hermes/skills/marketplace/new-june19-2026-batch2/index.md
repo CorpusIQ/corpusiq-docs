@@ -186,9 +186,9 @@ git clone https://github.com/kyzqdcs1968-dcs/hermes-skill-local-ocr.git \
 ## Setup Guides
 
 New setup guides added for:
-- [Hermes Advanced Memory →](/hermes/skills/catalog/hermes-advanced-memory-setup/)
-- [Hermes Session Maintenance →](/hermes/skills/catalog/hermes-session-maintenance-setup/)
-- [Hermes Skill Cleaner →](/hermes/skills/catalog/hermes-skill-cleaner-setup/)
+- [Hermes Advanced Memory →](/docs/hermes/skills/catalog/hermes-advanced-memory-setup)
+- [Hermes Session Maintenance →](/docs/hermes/skills/catalog/hermes-session-maintenance-setup)
+- [Hermes Skill Cleaner →](/docs/hermes/skills/catalog/hermes-skill-cleaner-setup)
 
 ---
 
@@ -215,6 +215,6 @@ New setup guides added for:
 
 ---
 
-*← [Skills Marketplace](/hermes/skills/marketplace/) | [June 19 Batch 1](/hermes/skills/marketplace/new-june19-2026/) →*
-*↑ [Skills Catalog Home](/hermes/skills/catalog/)*
+*← [Skills Marketplace](/docs/hermes/skills/marketplace) | [June 19 Batch 1](/docs/hermes/skills/marketplace/new-june19-2026) →*
+*↑ [Skills Catalog Home](/docs/hermes/skills/catalog)*
 *Powered by CorpusIQ*

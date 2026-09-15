@@ -86,7 +86,7 @@ Insourcia extends the same pattern as the catalog's other regional verification 
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Israel Business Intelligence MCP - Israeli Company Verification for Agents](/hermes/mcp/servers/external/israel-business-intelligence-mcp/)
-- [Korea Business Verify MCP - Live KYB Checks for Korean Companies](/hermes/mcp/servers/external/korea-business-verify/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Israel Business Intelligence MCP - Israeli Company Verification for Agents](/docs/hermes/mcp/servers/external/israel-business-intelligence-mcp)
+- [Korea Business Verify MCP - Live KYB Checks for Korean Companies](/docs/hermes/mcp/servers/external/korea-business-verify)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

@@ -76,5 +76,5 @@ npx skills add inkboard/system-atlas
 
 ## Related
 
-- [Skills Marketplace](/hermes/skills/marketplace/) - more discovery batches
-- [Hermes Field Kit Setup](/hermes/skills/catalog/hermes-field-kit-setup/) - system inspect/diagnose/recover skills that pair with an atlas map
+- [Skills Marketplace](/docs/hermes/skills/marketplace) - more discovery batches
+- [Hermes Field Kit Setup](/docs/hermes/skills/catalog/hermes-field-kit-setup) - system inspect/diagnose/recover skills that pair with an atlas map

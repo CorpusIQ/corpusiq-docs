@@ -88,7 +88,7 @@ AdPlug reads and edits the paid-acquisition surface; CorpusIQ reads the business
 
 ## See Also
 
-- [Ryze Meta Ads MCP - Hosted Facebook Ads for Agents](/hermes/mcp/servers/external/ryze-meta-ads-mcp/)
-- [Ryze Google Ads MCP - Hosted Ads Reporting for Agents](/hermes/mcp/servers/external/ryze-google-ads-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [Ryze Meta Ads MCP - Hosted Facebook Ads for Agents](/docs/hermes/mcp/servers/external/ryze-meta-ads-mcp)
+- [Ryze Google Ads MCP - Hosted Ads Reporting for Agents](/docs/hermes/mcp/servers/external/ryze-google-ads-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

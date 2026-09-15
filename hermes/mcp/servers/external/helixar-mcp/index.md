@@ -79,7 +79,7 @@ CorpusIQ publishes MCP servers and connects to dozens of third-party ones - exac
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [CTlogs.io MCP - Certificate Transparency Search for Agents](/hermes/mcp/servers/external/ctlogs-mcp/)
-- [mcp-sanctions - Watchlist Screening for KYC and AML](/hermes/mcp/servers/external/mcp-sanctions/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [CTlogs.io MCP - Certificate Transparency Search for Agents](/docs/hermes/mcp/servers/external/ctlogs-mcp)
+- [mcp-sanctions - Watchlist Screening for KYC and AML](/docs/hermes/mcp/servers/external/mcp-sanctions)

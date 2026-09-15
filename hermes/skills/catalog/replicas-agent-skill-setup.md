@@ -73,9 +73,9 @@ npx skills add replicas-group/skill --skill replicas-agent   # verify install wo
 
 ## Related
 
-- [Skills Catalog](/hermes/skills/catalog/)
-- [VPS Server Management Setup](/hermes/skills/catalog/vps-server-management-setup/) - remote VM operations
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [VPS Server Management Setup](/docs/hermes/skills/catalog/vps-server-management-setup) - remote VM operations
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

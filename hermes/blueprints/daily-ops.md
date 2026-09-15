@@ -224,10 +224,10 @@ Add a weekly review on Friday afternoons that aggregates the week's reports, con
 
 ## Related Pages
 
-- [Automation Blueprints Overview](/hermes/blueprints/)  --  All workflow templates
+- [Automation Blueprints Overview](/docs/hermes/blueprints)  --  All workflow templates
 - [Customer Lifecycle Blueprint](customer-lifecycle.md)  --  Feeds customer health into morning briefings
-- [Cron Design Best Practices](/hermes/best-practices/cron-design/)  --  Reliable scheduling patterns
-- [Integration Examples](/hermes/integrations/)  --  Connect the tools this blueprint needs
+- [Cron Design Best Practices](/docs/hermes/best-practices/cron-design)  --  Reliable scheduling patterns
+- [Integration Examples](/docs/hermes/integrations)  --  Connect the tools this blueprint needs
 
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*

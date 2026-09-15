@@ -75,6 +75,6 @@ The remote SSE transport pattern aligns with CorpusIQ's existing MCP integration
 
 ## See Also
 
-- [Meta Business MCP - WhatsApp Business Cloud API](/hermes/mcp/servers/external/meta-business-mcp/)
-- [KaiCalls - AI Phone Secretary](/hermes/mcp/servers/external/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
+- [Meta Business MCP - WhatsApp Business Cloud API](/docs/hermes/mcp/servers/external/meta-business-mcp)
+- [KaiCalls - AI Phone Secretary](/docs/hermes/mcp/servers/external)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)

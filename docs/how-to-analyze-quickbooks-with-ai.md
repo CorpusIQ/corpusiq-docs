@@ -199,19 +199,19 @@ CorpusIQ bills based on tool calls. A simple analysis might use 1-3 tool calls; 
 
 ## Internal Links
 
-- [ChatGPT for QuickBooks: AI-Powered Accounting](/chatgpt-for-quickbooks)
-- [Claude for QuickBooks: Deep Financial Analysis](/claude-for-quickbooks)
-- [QuickBooks AI Reporting: Automated Reports](/quickbooks-ai-reporting)
-- [QuickBooks Natural Language Queries](/quickbooks-natural-language-queries)
-- [QuickBooks Dashboard with ChatGPT](/quickbooks-dashboard-with-chatgpt)
-- [QuickBooks Business Intelligence Platform](/quickbooks-business-intelligence)
-- [How to Analyze Shopify Data with AI](/shopify-sales-analysis-with-ai)
+- [ChatGPT for QuickBooks: AI-Powered Accounting](/connect/quickbooks-with-chatgpt)
+- [Claude for QuickBooks: Deep Financial Analysis](/connect/quickbooks-with-claude)
+- [QuickBooks AI Reporting: Automated Reports](/connect/quickbooks-with-chatgpt)
+- [QuickBooks Natural Language Queries](/connect/quickbooks-with-chatgpt)
+- [QuickBooks Dashboard with ChatGPT](/connect/quickbooks-with-chatgpt)
+- [QuickBooks Business Intelligence Platform](/connect/quickbooks-with-chatgpt)
+- [How to Analyze Shopify Data with AI](/connect/shopify-with-chatgpt)
 
 ## Start Analyzing Your QuickBooks Data
 
 AI-powered QuickBooks analysis turns hours of manual spreadsheet work into seconds of conversation. Whether you need a quick cash flow check, a deep margin analysis, or a comprehensive financial review, CorpusIQ's MCP platform connects your AI assistant directly to your live financial data.
 
-**[Connect QuickBooks and start your first analysis](/quick-start)  --  setup takes under 60 seconds.**
+**[Connect QuickBooks and start your first analysis](/docs)  --  setup takes under 60 seconds.**
 
 *[CorpusIQ](https://www.corpusiq.io)  --  AI answers grounded in your business data. 30-day free trial.*
 

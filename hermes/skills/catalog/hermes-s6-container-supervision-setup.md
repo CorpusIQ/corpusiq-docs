@@ -108,9 +108,9 @@ ENTRYPOINT ["/usr/bin/s6-svscan", "/etc/s6/service"]
 
 ## Related Skills
 
-- [hermes-agent](/hermes/skills/catalog/)  --  Core Hermes agent skill
-- [docker-management](/hermes/skills/marketplace/new-june17-2026/)  --  Docker container management
-- [openclaw-migration](/hermes/skills/marketplace/new-june17-2026/)  --  Migration path from OpenClaw
+- [hermes-agent](/docs/hermes/skills/catalog)  --  Core Hermes agent skill
+- [docker-management](/docs/hermes/skills/marketplace/new-june17-2026)  --  Docker container management
+- [openclaw-migration](/docs/hermes/skills/marketplace/new-june17-2026)  --  Migration path from OpenClaw
 ---
 
 *

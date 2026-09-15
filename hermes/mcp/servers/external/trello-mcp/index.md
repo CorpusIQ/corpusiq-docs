@@ -141,4 +141,4 @@ A: No. Destructive delete operations are not supported. The AI can archive cards
 
 ---
 
-*← [Back to External MCP Catalog](/hermes/mcp/servers/external/) | [Atlassian MCP Guide](/hermes/mcp/servers/external/atlassian-mcp/) →*
+*← [Back to External MCP Catalog](/docs/hermes/mcp/servers/external) | [Atlassian MCP Guide](/docs/hermes/mcp/servers/external/atlassian-mcp) →*

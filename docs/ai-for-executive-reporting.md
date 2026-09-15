@@ -127,14 +127,14 @@ A: For internal preparation and analysis, yes. External filings and earnings rel
 
 ## Internal Links
 
-- [Connect QuickBooks to Claude](/connect-quickbooks-to-claude)
-- [Connect Salesforce to Claude](/connect-salesforce-to-claude)
-- [Connect Stripe to Claude](/connect-stripe-to-claude)
-- [AI for Business Intelligence](/ai-for-business-intelligence)
-- [AI for Financial Analysis](/ai-for-financial-analysis)
-- [AI for KPI Monitoring](/ai-for-kpi-monitoring)
-- [AI for Forecasting](/ai-for-forecasting)
-- [What is MCP?](/what-is-an-mcp-server)
+- [Connect QuickBooks to Claude](/connect/quickbooks-with-claude)
+- [Connect Salesforce to Claude](/connectors)
+- [Connect Stripe to Claude](/connect/stripe-with-claude)
+- [AI for Business Intelligence](/private-ai-for-business)
+- [AI for Financial Analysis](/private-ai-for-business)
+- [AI for KPI Monitoring](/private-ai-for-business)
+- [AI for Forecasting](/private-ai-for-business)
+- [What is MCP?](/answers/what-is-an-mcp-server)
 
 ---
 

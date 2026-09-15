@@ -90,7 +90,7 @@ Drag runs the inbox; CorpusIQ runs the books. A support operator handling a bill
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/hermes/mcp/servers/external/imap-mcp/)
-- [BoldDesk MCP - Helpdesk Ticket Operations for AI Agents](/hermes/mcp/servers/external/bolddesk-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [imap-mcp - Read-Only IMAP Mailbox Operations for Agents](/docs/hermes/mcp/servers/external/imap-mcp)
+- [BoldDesk MCP - Helpdesk Ticket Operations for AI Agents](/docs/hermes/mcp/servers/external/bolddesk-mcp)

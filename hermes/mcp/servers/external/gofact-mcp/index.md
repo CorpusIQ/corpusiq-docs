@@ -91,8 +91,8 @@ CorpusIQ covers the read side of finance (invoices pulled through QuickBooks, St
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [Factur-X by Orvel MCP - Hosted French E-Invoicing for Agents](/hermes/mcp/servers/external/facturx-orvel-mcp/)
-- [ISO 20022 Generator MCP - SEPA XML and SWIFT MT103 from Chat](/hermes/mcp/servers/external/iso-20022-generator-mcp/)
-- [QuickBooks MCP Server - CorpusIQ Docs](/hermes/mcp/servers/external/quickbooks-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Factur-X by Orvel MCP - Hosted French E-Invoicing for Agents](/docs/hermes/mcp/servers/external/facturx-orvel-mcp)
+- [ISO 20022 Generator MCP - SEPA XML and SWIFT MT103 from Chat](/docs/hermes/mcp/servers/external/iso-20022-generator-mcp)
+- [QuickBooks MCP Server - CorpusIQ Docs](/docs/hermes/mcp/servers/external/quickbooks-mcp)

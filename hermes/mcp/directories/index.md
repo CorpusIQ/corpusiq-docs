@@ -13,4 +13,4 @@ Guides for listing MCP servers in public directories and marketplaces, so server
 
 ---
 
-*← [MCP Hub](/hermes/mcp/) | [MCP Spec →](/hermes/mcp/spec/)*
+*← [MCP Hub](/docs/hermes/mcp) | [MCP Spec →](/docs/hermes/mcp/spec)*

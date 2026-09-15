@@ -45,5 +45,5 @@ DRUMBEATS_API_KEY={key} npx -y @drumbeats/mcp
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Infrastructure Monitoring](/hermes/governance/monitoring/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Infrastructure Monitoring](/docs/hermes/governance/monitoring)

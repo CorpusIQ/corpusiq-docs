@@ -10,7 +10,7 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 # 🆕 July 17, 2026 - Evening Update: 7 Additional Skills
 
-**Date:** July 17, 2026 (Evening sweep - supplement to [morning discovery](/hermes/skills/marketplace/new-july17-2026/))
+**Date:** July 17, 2026 (Evening sweep - supplement to [morning discovery](/docs/hermes/skills/marketplace/new-july17-2026))
 **New Repos:** 3 | **New Skills:** 7 | **Combined Installs:** 37,800+
 
 Evening sweep across 15 search terms on skills.sh surfaced 7 additional skills missed in this morning's 35-term sweep. The headline finds: **addyosmani/security-and-hardening** (13.1K, Addy Osmani of Google) - the first comprehensive security hardening guide designed for AI agents; **Apify's growth triad** (18.7K combined) - production lead gen, brand monitoring, and ultimate scraping; and **Sentry's AI monitoring suite** (6K combined) - error tracking purpose-built for agent deployments.
@@ -42,7 +42,7 @@ Comprehensive security hardening guide for AI agent deployments from Addy Osmani
 
 **Why it matters for Hermes:** Every Hermes deployment with tool access (terminal, browser, file system) needs hardening. This skill provides the threat-modeling framework and implementation patterns that the ClawSec suite (June 30) addresses from the OpenClaw side - together they form a complete agent security posture.
 
-**Setup Guide:** [Security Hardening - Full Setup Guide](/hermes/skills/catalog/security-and-hardening-setup/)
+**Setup Guide:** [Security Hardening - Full Setup Guide](/docs/hermes/skills/catalog/security-and-hardening-setup)
 
 ```bash
 npx skills add addyosmani/agent-skills@security-and-hardening
@@ -52,7 +52,7 @@ npx skills add addyosmani/agent-skills@security-and-hardening
 
 ### Web Scraping & Growth - Apify Triad (3 skills)
 
-The [apify/agent-skills](https://github.com/apify/agent-skills) repo (documented in the [July 16 sweep](/hermes/skills/marketplace/new-july16-2026/)) expanded with three new production-grade sub-skills for growth operations. Combined 18,700 installs across the triad.
+The [apify/agent-skills](https://github.com/apify/agent-skills) repo (documented in the [July 16 sweep](/docs/hermes/skills/marketplace/new-july16-2026)) expanded with three new production-grade sub-skills for growth operations. Combined 18,700 installs across the triad.
 
 #### apify-ultimate-scraper (13,400 installs)
 The flagship Apify scraping skill. Handles any website - JS-rendered SPAs, infinite scroll, pagination, login-walled content. Built-in proxy rotation (residential + datacenter), CAPTCHA solving, and rate-limit evasion. Returns structured JSON with full CSS selector support. The go-to skill when simpler scrapers hit walls.
@@ -64,7 +64,7 @@ npx skills add apify/agent-skills@apify-ultimate-scraper
 #### apify-lead-generation (2,800 installs) ⭐ Setup Guide Available
 Automated lead discovery and enrichment. Scrapes business directories (Google Maps, Yelp, LinkedIn), extracts contact information, enriches with company size/funding/industry data, and outputs CRM-ready CSV/JSON. Domain-filtered targeting with built-in deduplication.
 
-**Setup Guide:** [Apify Growth Skills - Full Setup Guide](/hermes/skills/catalog/apify-growth-skills-setup/)
+**Setup Guide:** [Apify Growth Skills - Full Setup Guide](/docs/hermes/skills/catalog/apify-growth-skills-setup)
 
 ```bash
 npx skills add apify/agent-skills@apify-lead-generation
@@ -86,7 +86,7 @@ Sentry, the industry-standard error tracking platform (4M+ developers), released
 #### sentry-feature-setup (2,700 installs) ⭐ Setup Guide Available
 Feature flag and release monitoring for agent deployments. Track which agent versions, model configurations, and skill combinations correlate with errors. Progressive rollout support - ship new skills to 10% of agent instances, monitor error rates, then expand.
 
-**Setup Guide:** [Sentry AI Monitoring - Full Setup Guide](/hermes/skills/catalog/sentry-ai-monitoring-setup/)
+**Setup Guide:** [Sentry AI Monitoring - Full Setup Guide](/docs/hermes/skills/catalog/sentry-ai-monitoring-setup)
 
 ```bash
 npx skills add getsentry/sentry-for-ai@sentry-feature-setup
@@ -111,9 +111,9 @@ npx skills add getsentry/sentry-agent-skills@sentry-setup-ai-monitoring
 ## Setup Guides Added
 
 This sweep produced three new setup guides:
-- **[Security Hardening Setup Guide](/hermes/skills/catalog/security-and-hardening-setup/)** - 12 hardening domains, threat model, implementation patterns
-- **[Apify Growth Skills Setup Guide](/hermes/skills/catalog/apify-growth-skills-setup/)** - Lead gen, brand monitoring, ultimate scraper workflows
-- **[Sentry AI Monitoring Setup Guide](/hermes/skills/catalog/sentry-ai-monitoring-setup/)** - Agent error tracking, dashboards, alerting
+- **[Security Hardening Setup Guide](/docs/hermes/skills/catalog/security-and-hardening-setup)** - 12 hardening domains, threat model, implementation patterns
+- **[Apify Growth Skills Setup Guide](/docs/hermes/skills/catalog/apify-growth-skills-setup)** - Lead gen, brand monitoring, ultimate scraper workflows
+- **[Sentry AI Monitoring Setup Guide](/docs/hermes/skills/catalog/sentry-ai-monitoring-setup)** - Agent error tracking, dashboards, alerting
 
 ---
 
@@ -125,5 +125,5 @@ Evening supplement to the morning's 35-term sweep. 15 additional search terms qu
 
 ---
 
-*← [July 17 Morning](/hermes/skills/marketplace/new-july17-2026/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+*← [July 17 Morning](/docs/hermes/skills/marketplace/new-july17-2026) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

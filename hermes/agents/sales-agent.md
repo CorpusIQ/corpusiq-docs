@@ -18,7 +18,7 @@ robots: "index,follow"
 
 The **Hermes Sales Agent** is a production-ready **AI sales assistant** that automates your entire sales lifecycle  --  from **lead qualification** to closed-won deal. Deploy in minutes to monitor your CRM pipeline, enrich lead data, draft outreach sequences, and surface at-risk opportunities so your team spends less time in spreadsheets and more time closing.
 
-This agent runs on the [Hermes Agent framework](/hermes/) by Nous Research and integrates with your CRM, calendar, and communication tools through [CorpusIQ MCP connectors](/hermes/mcp/connectors/).
+This agent runs on the [Hermes Agent framework](/docs/hermes) by Nous Research and integrates with your CRM, calendar, and communication tools through [CorpusIQ MCP connectors](/docs/hermes/mcp/connectors).
 
 ## Overview
 
@@ -32,12 +32,12 @@ This agent runs on the [Hermes Agent framework](/hermes/) by Nous Research and i
 | **Meeting preparation** | Pulls deal history, contact notes, and recent comms before every call |
 | **Competitor intelligence** | Surfaces competitive insights when a competitor appears in a deal record |
 
-> **See also:** [Agent Library Overview](/hermes/agents/) · [Marketing Agent](/hermes/agents/marketing-agent/) · [Executive Agent](/hermes/agents/executive-agent/)
+> **See also:** [Agent Library Overview](/docs/hermes/agents) · [Marketing Agent](/docs/hermes/agents/marketing-agent) · [Executive Agent](/docs/hermes/agents/executive-agent)
 
 ## How It Works
 
-1. **Connect your CRM**  --  HubSpot, Close CRM, or LeadConnector via [CorpusIQ connectors](/hermes/mcp/connectors/)
-2. **Set your ICP**  --  Store ideal customer profile criteria in [canonical facts](/hermes/governance/)
+1. **Connect your CRM**  --  HubSpot, Close CRM, or LeadConnector via [CorpusIQ connectors](/docs/hermes/mcp/connectors)
+2. **Set your ICP**  --  Store ideal customer profile criteria in [canonical facts](/docs/hermes/governance)
 3. **Load the skills**  --  Pipeline health, lead qualification, outreach sequencing, meeting prep
 4. **Schedule the crons**  --  Daily reports, qualification checks, weekly forecasts
 5. **Receive in Slack/Email**  --  Pipeline summaries, alerts for stalled deals, meeting briefs
@@ -122,20 +122,20 @@ Yes. The agent connects to **HubSpot**, **Close CRM**, and **LeadConnector** thr
 
 ### How do I customize the sales agent for my pipeline stages?
 
-Store your deal stage definitions, activity thresholds, and ICP criteria in [canonical facts](/hermes/governance/). The agent references these during all pipeline and qualification operations.
+Store your deal stage definitions, activity thresholds, and ICP criteria in [canonical facts](/docs/hermes/governance). The agent references these during all pipeline and qualification operations.
 
 ### What's the difference between the sales agent and the marketing agent?
 
-The [Sales Agent](/hermes/agents/sales-agent/) focuses on **pipeline management, lead qualification, and deal progression**. The [Marketing Agent](/hermes/agents/marketing-agent/) focuses on **traffic analytics, SEO monitoring, campaign performance, and content operations**. They complement each other  --  marketing generates leads, sales converts them.
+The [Sales Agent](/docs/hermes/agents/sales-agent) focuses on **pipeline management, lead qualification, and deal progression**. The [Marketing Agent](/docs/hermes/agents/marketing-agent) focuses on **traffic analytics, SEO monitoring, campaign performance, and content operations**. They complement each other  --  marketing generates leads, sales converts them.
 
 ## Related Pages
 
-- [Agent Library  --  All 9 Role Configurations](/hermes/agents/)
-- [Marketing Agent  --  Campaign & SEO Automation](/hermes/agents/marketing-agent/)
-- [Executive Agent  --  Calendar & Inbox Management](/hermes/agents/executive-agent/)
-- [CorpusIQ MCP Connectors  --  40+ Business Tools](/hermes/mcp/connectors/)
-- [Cron Scheduling Guide](/hermes/governance/scheduling/)
-- [Canonical Facts  --  Store Business Definitions](/hermes/governance/)
+- [Agent Library  --  All 9 Role Configurations](/docs/hermes/agents)
+- [Marketing Agent  --  Campaign & SEO Automation](/docs/hermes/agents/marketing-agent)
+- [Executive Agent  --  Calendar & Inbox Management](/docs/hermes/agents/executive-agent)
+- [CorpusIQ MCP Connectors  --  40+ Business Tools](/docs/hermes/mcp/connectors)
+- [Cron Scheduling Guide](/docs/hermes/governance/scheduling)
+- [Canonical Facts  --  Store Business Definitions](/docs/hermes/governance)
 
 
 *Curated in the [Hermes Community Hub](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes)  --  406+ tools, skills, and agents. Powered by [CorpusIQ](https://www.corpusiq.io).*

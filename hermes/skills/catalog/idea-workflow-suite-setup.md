@@ -173,4 +173,4 @@ Each stage produces structured Markdown files:
 
 *Skill source: [AkoliteZA/hermes-agent-idea-workflow](https://github.com/AkoliteZA/hermes-agent-idea-workflow) · License: MIT · Curated by CorpusIQ*
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*

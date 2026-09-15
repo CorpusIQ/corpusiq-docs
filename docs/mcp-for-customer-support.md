@@ -143,13 +143,13 @@ Yes. A support manager can quickly query "show me the history and full context f
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/benefits-of-mcp-for-business)
-- [MCP for Sales: Pipeline and CRM Intelligence](/mcp-for-sales)
-- [Discover MCP for marketing campaign analytics](/mcp-for-marketing)
-- [MCP for Operations: Workflow and KPIs](/mcp-for-operations)
-- [See how executives use MCP for AI-powered dashboards](/mcp-for-executives)
-- [MCP for Enterprise: Multi-Department Deployment](/mcp-for-enterprise)
+- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Discover the business benefits of MCP servers](/mcp)
+- [MCP for Sales: Pipeline and CRM Intelligence](/mcp)
+- [Discover MCP for marketing campaign analytics](/mcp)
+- [MCP for Operations: Workflow and KPIs](/mcp)
+- [See how executives use MCP for AI-powered dashboards](/mcp)
+- [MCP for Enterprise: Multi-Department Deployment](/mcp)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 

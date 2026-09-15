@@ -84,6 +84,6 @@ Rapidly's experiment evidence pairs with CorpusIQ connectors for the measurement
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Alpha Sophia MCP - US Healthcare Provider and Market Data](/hermes/mcp/servers/external/alpha-sophia-mcp/)
-- [LiveSend MCP - Share Client-Facing Content with Read Tracking](/hermes/mcp/servers/external/livesend-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Alpha Sophia MCP - US Healthcare Provider and Market Data](/docs/hermes/mcp/servers/external/alpha-sophia-mcp)
+- [LiveSend MCP - Share Client-Facing Content with Read Tracking](/docs/hermes/mcp/servers/external/livesend-mcp)

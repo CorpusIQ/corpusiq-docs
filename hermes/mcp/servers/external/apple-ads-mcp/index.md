@@ -91,7 +91,7 @@ Apple Ads MCP fills the paid-app-install gap in CorpusIQ's marketing data stack:
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Otto MCP - Live Marketing Data and Website Operations in Chat](/hermes/mcp/servers/external/otto-mcp/)
-- [Google Ads MCP - Campaign Management for Agents](/hermes/mcp/servers/external/google-ads-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Otto MCP - Live Marketing Data and Website Operations in Chat](/docs/hermes/mcp/servers/external/otto-mcp)
+- [Google Ads MCP - Campaign Management for Agents](/docs/hermes/mcp/servers/external/google-ads-mcp)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

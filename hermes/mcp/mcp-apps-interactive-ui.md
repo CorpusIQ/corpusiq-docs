@@ -84,8 +84,8 @@ CorpusIQ uses MCP Apps to render verified business answers as interactive
 dashboards inside Claude and ChatGPT. The model computes the analysis, the
 CorpusIQ engine validates and reconciles the data, and the app renders the
 result with source citations and a reconciliation strip. See the
-[runbook governance](/hermes/mcp/runbook-governance/) and
-[response contract](/hermes/mcp/runbook-response-contract/) pages for the
+[runbook governance](/docs/hermes/mcp/runbook-governance) and
+[response contract](/docs/hermes/mcp/runbook-response-contract) pages for the
 governance layer behind these answers.
 
 ## Resources

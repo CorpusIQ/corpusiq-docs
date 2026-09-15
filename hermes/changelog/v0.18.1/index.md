@@ -40,9 +40,9 @@ pip install -U hermes-agent
 
 ---
 
-*← [v0.18.0 - The Judgment Release](/hermes/changelog/v0.18.0/) | [v0.18.2 - WhatsApp Fix](/hermes/changelog/v0.18.2/) →*
+*← [v0.18.0 - The Judgment Release](/docs/hermes/changelog/v0.18.0) | [v0.18.2 - WhatsApp Fix](/docs/hermes/changelog/v0.18.2) →*
 
-*↑ [Changelog Home](/hermes/changelog/)*
+*↑ [Changelog Home](/docs/hermes/changelog)*
 
 ---
 

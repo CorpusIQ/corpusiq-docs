@@ -85,5 +85,5 @@ BeeL's structured invoice output pairs with CorpusIQ connectors for the accounti
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Candor Finance MCP](/hermes/mcp/servers/external/candor-finance-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Candor Finance MCP](/docs/hermes/mcp/servers/external/candor-finance-mcp)

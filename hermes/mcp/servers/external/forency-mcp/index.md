@@ -97,7 +97,7 @@ Forency reads the prospect's stack; CorpusIQ reads the prospect's numbers once t
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Xverum MCP - People Search Across 750M Professional Profiles](/hermes/mcp/servers/external/xverum-mcp/)
-- [Leadgen MCP - Romanian Business Registry & Contact Enrichment](/hermes/mcp/servers/external/leadgen-mcp/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Xverum MCP - People Search Across 750M Professional Profiles](/docs/hermes/mcp/servers/external/xverum-mcp)
+- [Leadgen MCP - Romanian Business Registry & Contact Enrichment](/docs/hermes/mcp/servers/external/leadgen-mcp)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

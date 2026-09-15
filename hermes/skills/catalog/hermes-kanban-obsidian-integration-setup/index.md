@@ -207,9 +207,9 @@ hermes skill invoke hermes-kanban-obsidian-integration \
 
 ## Related Skills
 
-- [Oh-My-Hermes Workflow](/hermes/skills/catalog/oh-my-hermes-workflow-setup/) - Workflow framework
-- [Minions Mission Control](/hermes/skills/catalog/minions-hermes-mission-control-setup/) - Multi-agent coordination
-- [Obsidian Giveaway Pack](/hermes/skills/catalog/hermes-obsidian-giveaway-pack-setup)
+- [Oh-My-Hermes Workflow](/docs/hermes/skills/catalog/oh-my-hermes-workflow-setup) - Workflow framework
+- [Minions Mission Control](/docs/hermes/skills/catalog/minions-hermes-mission-control-setup) - Multi-agent coordination
+- [Obsidian Giveaway Pack](/docs/hermes/skills/catalog/hermes-obsidian-giveaway-pack-setup)
 
 ---
 

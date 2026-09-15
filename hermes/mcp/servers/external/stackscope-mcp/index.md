@@ -94,9 +94,9 @@ StackScope composes with CorpusIQ as the top-of-funnel half of a pipeline loop. 
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [Leadgen MCP - Romanian Business Registry & Contact Enrichment](/hermes/mcp/servers/external/leadgen-mcp/)
-- [Apollo.io MCP](/hermes/mcp/servers/external/apollo-io-mcp/)
-- [SalesTouch MCP: LinkedIn GTM Prospecting for AI Agents](/hermes/mcp/servers/external/salestouch-mcp/)
-- [Xverum MCP - People Search Across 750M Professional Profiles](/hermes/mcp/servers/external/xverum-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Leadgen MCP - Romanian Business Registry & Contact Enrichment](/docs/hermes/mcp/servers/external/leadgen-mcp)
+- [Apollo.io MCP](/docs/hermes/mcp/servers/external/apollo-io-mcp)
+- [SalesTouch MCP: LinkedIn GTM Prospecting for AI Agents](/docs/hermes/mcp/servers/external/salestouch-mcp)
+- [Xverum MCP - People Search Across 750M Professional Profiles](/docs/hermes/mcp/servers/external/xverum-mcp)

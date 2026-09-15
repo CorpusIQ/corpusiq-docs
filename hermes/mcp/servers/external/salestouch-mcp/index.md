@@ -93,8 +93,8 @@ SalesTouch handles the LinkedIn conversation layer; CorpusIQ answers what happen
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/) - curated third-party MCP servers for operators
-- [LinkedIn MCP GTM](/hermes/mcp/servers/external/linkedin-mcp-gtm/) - LinkedIn go-to-market workflow tools
-- [LinkedIn Ghostwriter MCP](/hermes/mcp/servers/external/linkedin-ghostwriter-mcp/) - profile-aware LinkedIn post drafting
-- [Xverum MCP](/hermes/mcp/servers/external/xverum-mcp/) - X direct-message outreach for agents
-- [Leadgen MCP](/hermes/mcp/servers/external/leadgen-mcp/) - B2B lead generation and enrichment
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external) - curated third-party MCP servers for operators
+- [LinkedIn MCP GTM](/docs/hermes/mcp/servers/external/linkedin-mcp-gtm) - LinkedIn go-to-market workflow tools
+- [LinkedIn Ghostwriter MCP](/docs/hermes/mcp/servers/external/linkedin-ghostwriter-mcp) - profile-aware LinkedIn post drafting
+- [Xverum MCP](/docs/hermes/mcp/servers/external/xverum-mcp) - X direct-message outreach for agents
+- [Leadgen MCP](/docs/hermes/mcp/servers/external/leadgen-mcp) - B2B lead generation and enrichment

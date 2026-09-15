@@ -25,14 +25,14 @@ Sweep driven by the trending and hot leaderboards. Surfaced eight clusters not p
 
 | # | Publisher | Skills | Installs | Setup Guide |
 |---|-----------|:------:|---------:|-------------|
-| 1 | arvindrk/extract-design-system | 1 | 127.3K | [extract-design-system-setup](/hermes/skills/catalog/extract-design-system-setup/) ✍️ |
-| 2 | rorkai/app-store-connect-cli-skills | 33 | 53.5K | [app-store-connect-cli-skills-setup](/hermes/skills/catalog/app-store-connect-cli-skills-setup/) ✍️ |
-| 3 | genmedia-labs/skills | 30 | 42.5K | [genmedia-skills-setup](/hermes/skills/catalog/genmedia-skills-setup/) ✍️ |
-| 4 | pika-labs/pika-plugins | 22 | 20.1K | [pika-plugins-setup](/hermes/skills/catalog/pika-plugins-setup/) ✍️ |
-| 5 | flowkit-labs/skills | 1 | 5.4K | [flowkit-reddit-automation-setup](/hermes/skills/catalog/flowkit-reddit-automation-setup/) ✍️ |
-| 6 | humanlayer/skills | 5 | 2.7K | [humanlayer-skills-setup](/hermes/skills/catalog/humanlayer-skills-setup/) ✍️ |
-| 7 | hustcer/nushell-pro | 2 | 1.1K | [nushell-pro-setup](/hermes/skills/catalog/nushell-pro-setup/) ✍️ |
-| 8 | fetcher-sh/fetcher-skills | 7 | 971 | [fetcher-skills-setup](/hermes/skills/catalog/fetcher-skills-setup/) ✍️ |
+| 1 | arvindrk/extract-design-system | 1 | 127.3K | [extract-design-system-setup](/docs/hermes/skills/catalog/extract-design-system-setup) ✍️ |
+| 2 | rorkai/app-store-connect-cli-skills | 33 | 53.5K | [app-store-connect-cli-skills-setup](/docs/hermes/skills/catalog/app-store-connect-cli-skills-setup) ✍️ |
+| 3 | genmedia-labs/skills | 30 | 42.5K | [genmedia-skills-setup](/docs/hermes/skills/catalog/genmedia-skills-setup) ✍️ |
+| 4 | pika-labs/pika-plugins | 22 | 20.1K | [pika-plugins-setup](/docs/hermes/skills/catalog/pika-plugins-setup) ✍️ |
+| 5 | flowkit-labs/skills | 1 | 5.4K | [flowkit-reddit-automation-setup](/docs/hermes/skills/catalog/flowkit-reddit-automation-setup) ✍️ |
+| 6 | humanlayer/skills | 5 | 2.7K | [humanlayer-skills-setup](/docs/hermes/skills/catalog/humanlayer-skills-setup) ✍️ |
+| 7 | hustcer/nushell-pro | 2 | 1.1K | [nushell-pro-setup](/docs/hermes/skills/catalog/nushell-pro-setup) ✍️ |
+| 8 | fetcher-sh/fetcher-skills | 7 | 971 | [fetcher-skills-setup](/docs/hermes/skills/catalog/fetcher-skills-setup) ✍️ |
 
 ---
 

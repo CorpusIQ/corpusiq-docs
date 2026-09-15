@@ -89,7 +89,7 @@ CorpusIQ reads campaign and store performance - ad spend, ROAS, conversion data 
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [OpenShorts MCP - Video Clipping and Publishing for AI Agents](/hermes/mcp/servers/external/openshorts-mcp/)
-- [Viral Manager MCP - Creator Intelligence for AI Agents](/hermes/mcp/servers/external/viral-manager-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [OpenShorts MCP - Video Clipping and Publishing for AI Agents](/docs/hermes/mcp/servers/external/openshorts-mcp)
+- [Viral Manager MCP - Creator Intelligence for AI Agents](/docs/hermes/mcp/servers/external/viral-manager-mcp)

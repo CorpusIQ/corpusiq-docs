@@ -81,7 +81,7 @@ LinkDigest extracts the signal; CorpusIQ measures the market. A composed workflo
 
 ## See Also
 
-- [BulkTranscripts MCP - Hosted YouTube Transcripts and Channel Research](/hermes/mcp/servers/external/bulktranscripts-mcp/)
-- [TikTok Transcript MCP - AI Transcriptions of Public TikTok Videos](/hermes/mcp/servers/external/tiktok-transcript-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [BulkTranscripts MCP - Hosted YouTube Transcripts and Channel Research](/docs/hermes/mcp/servers/external/bulktranscripts-mcp)
+- [TikTok Transcript MCP - AI Transcriptions of Public TikTok Videos](/docs/hermes/mcp/servers/external/tiktok-transcript-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

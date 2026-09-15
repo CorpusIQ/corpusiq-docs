@@ -94,6 +94,6 @@ Note: You pay Meta directly for WhatsApp message costs. DripRaven is the softwar
 
 ## See Also
 
-- [JaxSuite AI MCP](/hermes/mcp/servers/external/jaxsuite-ai-mcp/) - Cold email outreach + CRM
+- [JaxSuite AI MCP](/docs/hermes/mcp/servers/external/jaxsuite-ai-mcp) - Cold email outreach + CRM
 - [DripRaven Homepage](https://dripraven.com)
 - [DripRaven YouTube Channel](https://youtube.com/@dripraven) - MCP walkthroughs

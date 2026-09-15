@@ -74,6 +74,6 @@ Jitsu MCP covers pipeline configuration and live event inspection; CorpusIQ's co
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Snowflake MCP - Data Warehouse Access for Agents](/hermes/mcp/servers/external/snowflake-mcp/)
-- [Crustdata MCP - Company and People Data APIs](/hermes/mcp/servers/external/crustdata/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Snowflake MCP - Data Warehouse Access for Agents](/docs/hermes/mcp/servers/external/snowflake-mcp)
+- [Crustdata MCP - Company and People Data APIs](/docs/hermes/mcp/servers/external/crustdata)

@@ -79,7 +79,7 @@ CorpusIQ answers "what is happening in my business"; ddmarketer answers "what sh
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [Klarix Intelligence Engine MCP - B2B Competitive Intelligence](/hermes/mcp/servers/external/klarix-intelligence-engine-mcp/)
-- [Neonjelly MCP - Shopify Store Intelligence for Agents](/hermes/mcp/servers/external/neonjelly-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Klarix Intelligence Engine MCP - B2B Competitive Intelligence](/docs/hermes/mcp/servers/external/klarix-intelligence-engine-mcp)
+- [Neonjelly MCP - Shopify Store Intelligence for Agents](/docs/hermes/mcp/servers/external/neonjelly-mcp)

@@ -124,13 +124,13 @@ A: The CRM retrieval tools documented here do not create opportunities or update
 
 ## Internal Links
 
-- [Connect Salesforce to Claude](/connect-salesforce-to-claude)  --  Salesforce in AI.
-- [Connect HubSpot to Claude](/connect-hubspot-to-claude)  --  HubSpot in AI.
-- [AI for Revenue Operations](/ai-for-revenue-operations)  --  RevOps intelligence.
-- [AI for Forecasting](/ai-for-forecasting)  --  Predictive sales analytics.
-- [AI for Executive Reporting](/ai-for-executive-reporting)  --  Leadership reporting.
-- [AI for KPI Monitoring](/ai-for-kpi-monitoring)  --  Real-time metrics.
-- [What is MCP?](/what-is-an-mcp-server)
+- [Connect Salesforce to Claude](/connectors)  --  Salesforce in AI.
+- [Connect HubSpot to Claude](/connect/hubspot-with-claude)  --  HubSpot in AI.
+- [AI for Revenue Operations](/private-ai-for-business)  --  RevOps intelligence.
+- [AI for Forecasting](/private-ai-for-business)  --  Predictive sales analytics.
+- [AI for Executive Reporting](/private-ai-for-business)  --  Leadership reporting.
+- [AI for KPI Monitoring](/private-ai-for-business)  --  Real-time metrics.
+- [What is MCP?](/answers/what-is-an-mcp-server)
 
 ---
 

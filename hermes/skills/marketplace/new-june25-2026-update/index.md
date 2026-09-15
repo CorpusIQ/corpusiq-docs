@@ -57,11 +57,11 @@ npx skills add sickn33/antigravity-awesome-skills --skill x-twitter-scraper
 
 Detailed setup guides with prerequisites, capabilities, CLI reference, CorpusIQ use cases, and troubleshooting:
 
-- [CLI-Anything Hermes Setup Guide](/hermes/skills/catalog/cli-anything-hermes-setup/)
-- [Hermes Client Web UI Setup Guide](/hermes/skills/catalog/hermes-client-web-ui-setup/)
-- [X/Twitter Scraper Setup Guide](/hermes/skills/catalog/x-twitter-scraper-setup/)
+- [CLI-Anything Hermes Setup Guide](/docs/hermes/skills/catalog/cli-anything-hermes-setup)
+- [Hermes Client Web UI Setup Guide](/docs/hermes/skills/catalog/hermes-client-web-ui-setup)
+- [X/Twitter Scraper Setup Guide](/docs/hermes/skills/catalog/x-twitter-scraper-setup)
 
 ---
 
-*← [Skills Marketplace](/hermes/skills/marketplace/) | [Skills Catalog](/hermes/skills/catalog/) →*
+*← [Skills Marketplace](/docs/hermes/skills/marketplace) | [Skills Catalog](/docs/hermes/skills/catalog) →*
 *Curated by CorpusIQ - one MCP endpoint, all your business tools.*

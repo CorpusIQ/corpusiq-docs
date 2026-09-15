@@ -54,7 +54,7 @@ Native SwiftUI iPhone app for driving a self-hosted Hermes agent. The phone is t
 - Read-only memory and usage insights panels
 - iOS 18+ native SwiftUI (not a web wrapper)
 
-**Setup Guide:** [Hermex iPhone App - Full Setup Guide](/hermes/skills/catalog/hermex-iphone-app-setup/)
+**Setup Guide:** [Hermex iPhone App - Full Setup Guide](/docs/hermes/skills/catalog/hermex-iphone-app-setup)
 
 ```bash
 # Install from App Store
@@ -195,7 +195,7 @@ This sweep shows three healthy trends:
 ## Setup Guides Added
 
 This sweep produced one detailed setup guide:
-- **[Hermex iPhone App Setup](/hermes/skills/catalog/hermex-iphone-app-setup/)** - App Store install, server pairing, feature walkthrough, troubleshooting
+- **[Hermex iPhone App Setup](/docs/hermes/skills/catalog/hermex-iphone-app-setup)** - App Store install, server pairing, feature walkthrough, troubleshooting
 
 ---
 
@@ -210,5 +210,5 @@ This sweep produced one detailed setup guide:
 
 ---
 
-*← [July 2 Sweep](/hermes/skills/marketplace/new-july2-2026/) | [Marketplace Home](/hermes/skills/marketplace/) | [July 3 Update (6 more) →](/hermes/skills/marketplace/new-july3-2026-update/)*
+*← [July 2 Sweep](/docs/hermes/skills/marketplace/new-july2-2026) | [Marketplace Home](/docs/hermes/skills/marketplace) | [July 3 Update (6 more) →](/docs/hermes/skills/marketplace/new-july3-2026-update)*
 *Powered by CorpusIQ*

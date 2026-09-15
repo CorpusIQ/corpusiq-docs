@@ -71,9 +71,9 @@ sentry-cli info    # verify auth + org context
 
 ## Related
 
-- [Skills Catalog](/hermes/skills/catalog/)
-- [Chrome DevTools MCP Skills Setup](/hermes/skills/catalog/chrome-devtools-mcp-skills-setup/) - console/error inspection during debugging
+- [Skills Catalog](/docs/hermes/skills/catalog)
+- [Chrome DevTools MCP Skills Setup](/docs/hermes/skills/catalog/chrome-devtools-mcp-skills-setup) - console/error inspection during debugging
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Marketplace](/hermes/skills/marketplace/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Marketplace](/docs/hermes/skills/marketplace) →*
 
 *Powered by CorpusIQ*

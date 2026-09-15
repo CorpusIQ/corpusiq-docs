@@ -21,6 +21,6 @@ Hands-on guides and research digests for building and operating AI agents. Each 
 | [Trending AI Agent Tools - August 2026](trending-ai-agent-tools-aug2026.md) | Weekly scan of new open-source agent tools worth investigating |
 | [Use CorpusIQ with Claude Code](corpusiq-claude-code.md) | Ask business questions from your terminal via MCP |
 
-*← [Hermes Home](/hermes/) | [Skills Catalog →](/hermes/skills/catalog/)*
+*← [Hermes Home](/docs/hermes) | [Skills Catalog →](/docs/hermes/skills/catalog)*
 
-*↑ [Section Home](/hermes/)*
+*↑ [Section Home](/docs/hermes)*

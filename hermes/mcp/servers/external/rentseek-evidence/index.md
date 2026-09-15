@@ -65,7 +65,7 @@ Combine with CorpusIQ's web fetch or research workflows: pull comp rows from Ren
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Candor Finance MCP](/hermes/mcp/servers/external/candor-finance-mcp/)
-- [Stock Market MCP Server](/hermes/mcp/servers/external/stock-market-mcp-server/)
-- [FX Macro Data MCP](/hermes/mcp/servers/external/fxmacrodata-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Candor Finance MCP](/docs/hermes/mcp/servers/external/candor-finance-mcp)
+- [Stock Market MCP Server](/docs/hermes/mcp/servers/external/stock-market-mcp-server)
+- [FX Macro Data MCP](/docs/hermes/mcp/servers/external/fxmacrodata-mcp)

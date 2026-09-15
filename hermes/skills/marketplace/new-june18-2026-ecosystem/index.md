@@ -95,4 +95,4 @@ CorpusIQ uses GBrain as the persistent knowledge layer for Hermes agents  --  se
 
 ---
 
-*← [Marketplace Home](/hermes/skills/marketplace/) | [Previous Discovery (June 18 Batch 2)](/hermes/skills/marketplace/new-june18-2026-batch2/) →*
+*← [Marketplace Home](/docs/hermes/skills/marketplace) | [Previous Discovery (June 18 Batch 2)](/docs/hermes/skills/marketplace/new-june18-2026-batch2) →*

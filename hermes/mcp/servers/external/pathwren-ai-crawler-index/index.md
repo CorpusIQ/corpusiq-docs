@@ -89,6 +89,6 @@ The AI Crawler Index composes with CorpusIQ as the technical layer under an AEO 
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Ranki MCP - SEO and AEO Audits](/hermes/mcp/servers/external/ranki-mcp/)
-- [Seomely MCP - Google Index Monitoring with History](/hermes/mcp/servers/external/seomely-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Ranki MCP - SEO and AEO Audits](/docs/hermes/mcp/servers/external/ranki-mcp)
+- [Seomely MCP - Google Index Monitoring with History](/docs/hermes/mcp/servers/external/seomely-mcp)

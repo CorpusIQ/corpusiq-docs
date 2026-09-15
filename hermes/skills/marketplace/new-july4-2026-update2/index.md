@@ -108,4 +108,4 @@ npx skills add heyvhuang/ship-faster --skill tool-openclaw
 
 *Discovered: July 4, 2026 · Source: skills.sh API (7 targeted queries) · Method: API sweep → cross-reference against 400+ existing pages*
 
-*← [Previous Discovery](/hermes/skills/marketplace/new-july4-2026-update/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+*← [Previous Discovery](/docs/hermes/skills/marketplace/new-july4-2026-update) | [Marketplace Home](/docs/hermes/skills/marketplace) →*

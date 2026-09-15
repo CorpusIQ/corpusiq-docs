@@ -81,7 +81,7 @@ Local-first macOS app to browse, search, analyze, and resume supported AI coding
 - Local-first - all data stays on device
 - Native SwiftUI macOS app
 
-**Setup Guide:** [agent-sessions - Full Setup Guide](/hermes/skills/catalog/agent-sessions-setup/)
+**Setup Guide:** [agent-sessions - Full Setup Guide](/docs/hermes/skills/catalog/agent-sessions-setup)
 
 ```bash
 # Download from GitHub Releases
@@ -115,7 +115,7 @@ A Hermes Agent skill that automatically fetches papers from arXiv daily, generat
 - Hermes Agent skill architecture
 - Configurable categories and keywords
 
-**Setup Guide:** [Hermes ArXiv Agent - Full Setup Guide](/hermes/skills/catalog/hermes-arxiv-agent-setup/)
+**Setup Guide:** [Hermes ArXiv Agent - Full Setup Guide](/docs/hermes/skills/catalog/hermes-arxiv-agent-setup)
 
 ```bash
 git clone https://github.com/genggng/hermes-arxiv-agent.git
@@ -184,7 +184,7 @@ Agent skill for building cinematic, scroll-driven websites from a brief: visual 
 - Production-ready HTML/CSS/JS output
 - Hermes Agent and Claude Code compatible
 
-**Setup Guide:** [cinematic-scroll-skill - Full Setup Guide](/hermes/skills/catalog/cinematic-scroll-skill-setup/)
+**Setup Guide:** [cinematic-scroll-skill - Full Setup Guide](/docs/hermes/skills/catalog/cinematic-scroll-skill-setup)
 
 ```bash
 npx skills add MustBeSimo/cinematic-scroll-skill
@@ -250,7 +250,7 @@ A research operating system - seven AI agents that read, enrich, and write insid
 - Publisher - formats for external sharing
 - Orchestrator - coordinates agent workflows
 
-**Setup Guide:** [memoria-vault - Full Setup Guide](/hermes/skills/catalog/memoria-vault-setup/)
+**Setup Guide:** [memoria-vault - Full Setup Guide](/docs/hermes/skills/catalog/memoria-vault-setup)
 
 ```bash
 git clone https://github.com/eranroseman/memoria-vault.git
@@ -279,7 +279,7 @@ Hermes Agent platform plugin that connects Hermes to a Meshtastic LoRa mesh netw
 - Hermes Agent plugin architecture
 - Python-based, lightweight
 
-**Setup Guide:** [Hermes Meshtastic Adapter - Full Setup Guide](/hermes/skills/catalog/hermes-meshtastic-adapter-setup/)
+**Setup Guide:** [Hermes Meshtastic Adapter - Full Setup Guide](/docs/hermes/skills/catalog/hermes-meshtastic-adapter-setup)
 
 ```bash
 git clone https://github.com/amscotti/hermes-meshtastic-adapter.git
@@ -463,11 +463,11 @@ This sweep shows Hermes skills penetrating specific domains: academic research (
 
 This sweep produced 5 detailed setup guides:
 
-- **[agent-sessions Setup](/hermes/skills/catalog/agent-sessions-setup/)** - macOS install, session browsing, search, cross-agent support
-- **[Hermes ArXiv Agent Setup](/hermes/skills/catalog/hermes-arxiv-agent-setup/)** - arXiv API config, Feishu integration, local website hosting
-- **[cinematic-scroll-skill Setup](/hermes/skills/catalog/cinematic-scroll-skill-setup/)** - Skill install, brief format, visual system generation
-- **[memoria-vault Setup](/hermes/skills/catalog/memoria-vault-setup/)** - Obsidian vault config, 7-agent orchestration, role customization
-- **[Hermes Meshtastic Adapter Setup](/hermes/skills/catalog/hermes-meshtastic-adapter-setup/)** - Hardware pairing, mesh config, message routing
+- **[agent-sessions Setup](/docs/hermes/skills/catalog/agent-sessions-setup)** - macOS install, session browsing, search, cross-agent support
+- **[Hermes ArXiv Agent Setup](/docs/hermes/skills/catalog/hermes-arxiv-agent-setup)** - arXiv API config, Feishu integration, local website hosting
+- **[cinematic-scroll-skill Setup](/docs/hermes/skills/catalog/cinematic-scroll-skill-setup)** - Skill install, brief format, visual system generation
+- **[memoria-vault Setup](/docs/hermes/skills/catalog/memoria-vault-setup)** - Obsidian vault config, 7-agent orchestration, role customization
+- **[Hermes Meshtastic Adapter Setup](/docs/hermes/skills/catalog/hermes-meshtastic-adapter-setup)** - Hardware pairing, mesh config, message routing
 
 ---
 
@@ -482,5 +482,5 @@ This sweep produced 5 detailed setup guides:
 
 ---
 
-*← [July 3 Update Sweep](/hermes/skills/marketplace/new-july3-2026-update/) | [Marketplace Home](/hermes/skills/marketplace/) →*
+*← [July 3 Update Sweep](/docs/hermes/skills/marketplace/new-july3-2026-update) | [Marketplace Home](/docs/hermes/skills/marketplace) →*
 *Powered by CorpusIQ*

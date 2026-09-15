@@ -89,7 +89,7 @@ Zetesis composes with CorpusIQ as the evidence layer behind financial and vendor
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Edgrapi MCP - SEC EDGAR Structured Data for Agents](/hermes/mcp/servers/external/edgrapi-mcp/)
-- [Legalize MCP - Point-in-Time Legislation with Git Provenance](/hermes/mcp/servers/external/legalize-mcp/)
-- [World Monitor MCP - Global Intelligence: Markets, Risk, Supply Chains & Procurement](/hermes/mcp/servers/external/world-monitor-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Edgrapi MCP - SEC EDGAR Structured Data for Agents](/docs/hermes/mcp/servers/external/edgrapi-mcp)
+- [Legalize MCP - Point-in-Time Legislation with Git Provenance](/docs/hermes/mcp/servers/external/legalize-mcp)
+- [World Monitor MCP - Global Intelligence: Markets, Risk, Supply Chains & Procurement](/docs/hermes/mcp/servers/external/world-monitor-mcp)

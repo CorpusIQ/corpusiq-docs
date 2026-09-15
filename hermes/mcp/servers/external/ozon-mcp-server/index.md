@@ -91,8 +91,8 @@ CorpusIQ's marketplace connectors cover Western platforms; this server covers th
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [Wildberries MCP Server - Seller API Operations for Agents](/hermes/mcp/servers/external/wb-mcp-server/)
-- [SellerMate MCP - Amazon Ads Operations for AI Agents](/hermes/mcp/servers/external/sellermate-mcp/)
-- [Neonjelly MCP - Shopify Store Intelligence for Agents](/hermes/mcp/servers/external/neonjelly-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Wildberries MCP Server - Seller API Operations for Agents](/docs/hermes/mcp/servers/external/wb-mcp-server)
+- [SellerMate MCP - Amazon Ads Operations for AI Agents](/docs/hermes/mcp/servers/external/sellermate-mcp)
+- [Neonjelly MCP - Shopify Store Intelligence for Agents](/docs/hermes/mcp/servers/external/neonjelly-mcp)

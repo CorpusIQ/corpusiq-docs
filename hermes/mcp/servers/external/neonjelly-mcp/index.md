@@ -67,8 +67,8 @@ CorpusIQ's 40+ connectors cover your own commerce and marketing stack (Shopify, 
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [BestAppify MCP - Shopify App Store Intelligence](/hermes/mcp/servers/external/bestappify-mcp/)
-- [Mercopilot MCP - Shopify & Google Ads Operating Bridge](/hermes/mcp/servers/external/mercopilot-mcp/)
-- [HasData MCP - Marketplace and Web Data Gateway for Agents](/hermes/mcp/servers/external/hasdata-mcp/)
-- [Koongo MCP - Product Feed and Marketplace Operations](/hermes/mcp/servers/external/koongo-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [BestAppify MCP - Shopify App Store Intelligence](/docs/hermes/mcp/servers/external/bestappify-mcp)
+- [Mercopilot MCP - Shopify & Google Ads Operating Bridge](/docs/hermes/mcp/servers/external/mercopilot-mcp)
+- [HasData MCP - Marketplace and Web Data Gateway for Agents](/docs/hermes/mcp/servers/external/hasdata-mcp)
+- [Koongo MCP - Product Feed and Marketplace Operations](/docs/hermes/mcp/servers/external/koongo-mcp)

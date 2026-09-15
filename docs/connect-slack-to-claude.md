@@ -125,13 +125,13 @@ A: Grant CorpusIQ access only to specific channels by configuring your Slack app
 
 ## Internal Links
 
-- [Connect Notion to Claude](/connect-notion-to-claude)  --  Knowledge management in Claude.
-- [Connect SharePoint to Claude](/connect-sharepoint-to-claude)  --  Enterprise document access.
-- [Connect HubSpot to Claude](/connect-hubspot-to-claude)  --  CRM data in Claude.
-- [AI for Knowledge Management](/ai-for-knowledge-management)  --  AI-powered knowledge retrieval.
-- [AI for Document Search](/ai-for-document-search)  --  Document intelligence.
-- [AI for Customer Support](/ai-for-customer-support)  --  Support intelligence.
-- [What is MCP?](/what-is-an-mcp-server)  --  Understanding the Model Context Protocol.
+- [Connect Notion to Claude](/connectors)  --  Knowledge management in Claude.
+- [Connect SharePoint to Claude](/connectors)  --  Enterprise document access.
+- [Connect HubSpot to Claude](/connect/hubspot-with-claude)  --  CRM data in Claude.
+- [AI for Knowledge Management](/private-ai-for-business)  --  AI-powered knowledge retrieval.
+- [AI for Document Search](/private-ai-for-business)  --  Document intelligence.
+- [AI for Customer Support](/ai-for-customer-ops)  --  Support intelligence.
+- [What is MCP?](/answers/what-is-an-mcp-server)  --  Understanding the Model Context Protocol.
 
 ---
 

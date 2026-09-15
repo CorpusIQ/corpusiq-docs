@@ -24,13 +24,13 @@ Sweep of mcpservers.org sitemaps (servers/1-6.xml + priority-servers.xml) and mc
 ## ★★★ Business-Critical (3 Guides Written)
 
 ### Tableau MCP ★★★ Official - July 29
-**Official Tableau MCP server - 315⭐, TypeScript. Created May 2025.** AI agents connect directly to Tableau Cloud/Server to query data sources, list workbooks, execute calculated fields, and retrieve visualizations. The second major BI platform to ship MCP after Metabase (July 26). Remote Streamable HTTP. `github.com/tableau/tableau-mcp` · [Guide →](/hermes/mcp/servers/external/tableau-mcp/)
+**Official Tableau MCP server - 315⭐, TypeScript. Created May 2025.** AI agents connect directly to Tableau Cloud/Server to query data sources, list workbooks, execute calculated fields, and retrieve visualizations. The second major BI platform to ship MCP after Metabase (July 26). Remote Streamable HTTP. `github.com/tableau/tableau-mcp` · [Guide →](/docs/hermes/mcp/servers/external/tableau-mcp)
 
 ### Meta Ads MCP ★★★ - July 29
-**Pipeboard Meta Ads MCP - 1,112⭐, Python.** Connect AI agents to Facebook/Instagram Ads: campaign management, ad set optimization, creative analysis, audience insights, and performance reporting. Part of Pipeboard's 5-platform advertising family (also Google, TikTok, Snap, Reddit). Hosted remote MCP with Meta Business verification badge. Essential for e-commerce and DTC operators running paid social. `github.com/pipeboard-co/meta-ads-mcp` · [Guide →](/hermes/mcp/servers/external/meta-ads-mcp/)
+**Pipeboard Meta Ads MCP - 1,112⭐, Python.** Connect AI agents to Facebook/Instagram Ads: campaign management, ad set optimization, creative analysis, audience insights, and performance reporting. Part of Pipeboard's 5-platform advertising family (also Google, TikTok, Snap, Reddit). Hosted remote MCP with Meta Business verification badge. Essential for e-commerce and DTC operators running paid social. `github.com/pipeboard-co/meta-ads-mcp` · [Guide →](/docs/hermes/mcp/servers/external/meta-ads-mcp)
 
 ### Salesforce MCP ★★★ - July 29
-**Community Salesforce MCP connector - 179⭐, Python.** Connect AI agents to Salesforce CRM: accounts, contacts, opportunities, leads, cases, reports, and custom objects via the Salesforce REST API. Not official (community-maintained by smn2gnt) but well-implemented with comprehensive object coverage. First dedicated Salesforce MCP server. `github.com/smn2gnt/MCP-Salesforce` · [Guide →](/hermes/mcp/servers/external/salesforce-mcp/)
+**Community Salesforce MCP connector - 179⭐, Python.** Connect AI agents to Salesforce CRM: accounts, contacts, opportunities, leads, cases, reports, and custom objects via the Salesforce REST API. Not official (community-maintained by smn2gnt) but well-implemented with comprehensive object coverage. First dedicated Salesforce MCP server. `github.com/smn2gnt/MCP-Salesforce` · [Guide →](/docs/hermes/mcp/servers/external/salesforce-mcp)
 
 ---
 

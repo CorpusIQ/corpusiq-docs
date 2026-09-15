@@ -45,9 +45,9 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 
 ---
 
-*← [v0.19.0 - The Quicksilver Release](/hermes/changelog/v0.19.0/) | [Changelog Home](/hermes/changelog/) →*
+*← [v0.19.0 - The Quicksilver Release](/docs/hermes/changelog/v0.19.0) | [Changelog Home](/docs/hermes/changelog) →*
 
-*↑ [Changelog Home](/hermes/changelog/)*
+*↑ [Changelog Home](/docs/hermes/changelog)*
 
 ---
 

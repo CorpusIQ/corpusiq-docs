@@ -14,7 +14,7 @@ robots: "index,follow"
 **Source:** mcpservers.org (homepage), mcp.so (homepage)
 **Method:** Scrape both directories, cross-reference against 47 existing catalogued servers
 **Date:** July 4, 2026 (evening)
-**Prior scan:** [July 3 evening](/hermes/mcp/servers/external/scan-results-2026-07-03-evening/)
+**Prior scan:** [July 3 evening](/docs/hermes/mcp/servers/external/scan-results-2026-07-03-evening)
 
 ## Summary
 
@@ -78,4 +78,4 @@ mcp.so homepage scanned - no net-new business-relevant servers beyond what mcpse
 
 ---
 
-*← [Previous Scan (July 3 evening)](/hermes/mcp/servers/external/scan-results-2026-07-03-evening/) | [External MCP Catalog](/hermes/mcp/servers/external/) →*
+*← [Previous Scan (July 3 evening)](/docs/hermes/mcp/servers/external/scan-results-2026-07-03-evening) | [External MCP Catalog](/docs/hermes/mcp/servers/external) →*

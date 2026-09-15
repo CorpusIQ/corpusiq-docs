@@ -29,31 +29,31 @@ Skills discovered during the July 21 marketplace sweep. 10 setup guides created 
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **claude-handoff** | mattpocock/skills | 63,500 | 🟢 | [Setup Guide](/hermes/skills/catalog/claude-handoff-setup/) |
-| **openclaw-backup** | theagentservice/skills | 3,100 | 🔵 | [Setup Guide](/hermes/skills/catalog/openclaw-backup-setup/) |
-| **deep-agents-memory** | langchain-ai/langchain-skills | 12,800 | 🟡 | [Setup Guide](/hermes/skills/catalog/deep-agents-memory-setup/) |
+| **claude-handoff** | mattpocock/skills | 63,500 | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/claude-handoff-setup) |
+| **openclaw-backup** | theagentservice/skills | 3,100 | 🔵 | [Setup Guide](/docs/hermes/skills/catalog/openclaw-backup-setup) |
+| **deep-agents-memory** | langchain-ai/langchain-skills | 12,800 | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/deep-agents-memory-setup) |
 
 ### Security & Governance
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **skill-vetter** | useai-pro/openclaw-skills-security | 20,500 | 🟡 | [Setup Guide](/hermes/skills/catalog/skill-vetter-setup/) |
+| **skill-vetter** | useai-pro/openclaw-skills-security | 20,500 | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/skill-vetter-setup) |
 
 ### Web Extraction & Search
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **firecrawl-agent** | firecrawl/cli | 73,900 | 🟢 | [Setup Guide](/hermes/skills/catalog/firecrawl-agent-setup/) |
-| **tavily-search** | tavily-ai/skills | 25,700 | 🟢 | [Setup Guide](/hermes/skills/catalog/tavily-search-setup/) |
-| **tavily-research** | tavily-ai/skills | 14,100 | 🟢 | [Setup Guide](/hermes/skills/catalog/tavily-research-setup/) |
-| **apify-ultimate-scraper** | apify/agent-skills | 13,600 | 🟢 | [Setup Guide](/hermes/skills/catalog/apify-ultimate-scraper-setup/) |
+| **firecrawl-agent** | firecrawl/cli | 73,900 | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/firecrawl-agent-setup) |
+| **tavily-search** | tavily-ai/skills | 25,700 | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/tavily-search-setup) |
+| **tavily-research** | tavily-ai/skills | 14,100 | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/tavily-research-setup) |
+| **apify-ultimate-scraper** | apify/agent-skills | 13,600 | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/apify-ultimate-scraper-setup) |
 
 ### Growth & Content
 
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **content-strategy** | coreyhaines31/marketingskills | 110,200 | 🟢 | [Setup Guide](/hermes/skills/catalog/content-strategy-setup/) |
-| **social** | coreyhaines31/marketingskills | 38,500 | 🟢 | [Setup Guide](/hermes/skills/catalog/social-setup/) |
+| **content-strategy** | coreyhaines31/marketingskills | 110,200 | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/content-strategy-setup) |
+| **social** | coreyhaines31/marketingskills | 38,500 | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/social-setup) |
 
 ## Notes
 

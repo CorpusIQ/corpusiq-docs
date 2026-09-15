@@ -79,5 +79,5 @@ After vetting a skill:
 
 ## Related Skills
 
-- [OpenClaw Ecosystem (June 26)](/hermes/skills/catalog/openclaw-ecosystem-june26-setup/)
-- [Clawd Strike Setup](/hermes/skills/catalog/clawdstrike-setup/)
+- [OpenClaw Ecosystem (June 26)](/docs/hermes/skills/catalog/openclaw-ecosystem-june26-setup)
+- [Clawd Strike Setup](/docs/hermes/skills/catalog/clawdstrike-setup)

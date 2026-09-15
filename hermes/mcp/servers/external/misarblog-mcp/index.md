@@ -99,7 +99,7 @@ CorpusIQ brings the measurement and money layer (GA4, Search Console, Stripe) wh
 
 ## See Also
 
-- [MisarMail MCP - Transactional Email and Campaigns](/hermes/mcp/servers/external/misarmail-mcp/)
-- [MisarReach MCP - Outbound Sales and Lead Pipeline](/hermes/mcp/servers/external/misarreach-mcp/)
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [MisarMail MCP - Transactional Email and Campaigns](/docs/hermes/mcp/servers/external/misarmail-mcp)
+- [MisarReach MCP - Outbound Sales and Lead Pipeline](/docs/hermes/mcp/servers/external/misarreach-mcp)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

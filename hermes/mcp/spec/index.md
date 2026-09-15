@@ -13,4 +13,4 @@ Notes and analysis on the Model Context Protocol specification, tracked alongsid
 
 ---
 
-*← [MCP Hub](/hermes/mcp/) | [MCP Directories →](/hermes/mcp/directories/)*
+*← [MCP Hub](/docs/hermes/mcp) | [MCP Directories →](/docs/hermes/mcp/directories)*

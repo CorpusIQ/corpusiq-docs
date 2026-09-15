@@ -40,7 +40,7 @@ Unlike `/query`, this endpoint does not make live calls to connected tools  --  
 
 ## Response Format
 
-All successful responses return HTTP `200` with a JSON body. Errors follow a consistent format with a `type` field identifying the error category and a `message` field with a human-readable description. See [Errors](/api/errors) for the complete error reference.
+All successful responses return HTTP `200` with a JSON body. Errors follow a consistent format with a `type` field identifying the error category and a `message` field with a human-readable description. See [Errors](/docs/api/errors) for the complete error reference.
 
 ## Content Type
 
@@ -53,9 +53,9 @@ Authorization: Bearer <token>
 
 ## Next Steps
 
-- [Authentication](/api/authentication)  --  Obtain and manage API tokens
-- [Endpoints Reference](/api/endpoints)  --  Full request/response schemas and code examples
-- [Rate Limits](/api/rate-limits)  --  Understand per-endpoint quotas
+- [Authentication](/docs/api/authentication)  --  Obtain and manage API tokens
+- [Endpoints Reference](/docs/api/endpoints)  --  Full request/response schemas and code examples
+- [Rate Limits](/docs/api/rate-limits)  --  Understand per-endpoint quotas
 
 ## Frequently Asked Questions
 
@@ -79,13 +79,13 @@ A: Most queries return results in 1-5 seconds. Cross-source queries spanning mul
 
 ## Internal Links
 
-- **[CorpusIQ API Overview](/api/overview)**  --  Full REST API documentation and base URL reference  
-- **[API Authentication Guide](/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
-- **[API Endpoints Reference](/api/endpoints)**  --  Complete request/response schemas and code examples  
-- **[API Rate Limits](/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
-- **[CorpusIQ Webhooks](/api/webhooks)**  --  Current webhook-contract availability
-- **[Enterprise AI Data Access Guide](/enterprise-ai-data-access)**  --  SSO, SAML, SOC 2, and data residency  
-- **[Secure AI Data Connectivity](/secure-ai-data-connectivity)**  --  Encryption, network security, and compliance  
+- **[CorpusIQ API Overview](/docs/api/overview)**  --  Full REST API documentation and base URL reference  
+- **[API Authentication Guide](/docs/api/authentication)**  --  Bearer tokens, OAuth 2.0, and security best practices  
+- **[API Endpoints Reference](/docs/api/endpoints)**  --  Complete request/response schemas and code examples  
+- **[API Rate Limits](/docs/api/rate-limits)**  --  Per-endpoint quotas and retry strategies  
+- **[CorpusIQ Webhooks](/docs/api/webhooks)**  --  Current webhook-contract availability
+- **[Enterprise AI Data Access Guide](/enterprise)**  --  SSO, SAML, SOC 2, and data residency  
+- **[Secure AI Data Connectivity](/security)**  --  Encryption, network security, and compliance  
 
 *Powered by CorpusIQ  --  the leading MCP platform for business data and AI.*
 ---

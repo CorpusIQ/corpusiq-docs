@@ -231,6 +231,6 @@ Expected: The blueprint-orchestration skill loads and begins the Architect inter
 
 ---
 
-*← [Skills Catalog](/hermes/skills/catalog/) | [Blueprint Orchestration Marketplace Entry](/hermes/skills/marketplace/new-june22-2026-late/) →*
+*← [Skills Catalog](/docs/hermes/skills/catalog) | [Blueprint Orchestration Marketplace Entry](/docs/hermes/skills/marketplace/new-june22-2026-late) →*
 
 *Powered by CorpusIQ*

@@ -91,8 +91,8 @@ Ranki composes with CorpusIQ as the organic-acquisition half of a growth loop. C
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [CiteRank MCP - AI Search Visibility & GEO Audits for AI Agents](/hermes/mcp/servers/external/citerank-mcp/)
-- [Google Search Console MCP (ni-c) - Property Setup and Search Analytics](/hermes/mcp/servers/external/google-search-console-ni-c-mcp/)
-- [Seomely MCP](/hermes/mcp/servers/external/seomely-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [CiteRank MCP - AI Search Visibility & GEO Audits for AI Agents](/docs/hermes/mcp/servers/external/citerank-mcp)
+- [Google Search Console MCP (ni-c) - Property Setup and Search Analytics](/docs/hermes/mcp/servers/external/google-search-console-ni-c-mcp)
+- [Seomely MCP](/docs/hermes/mcp/servers/external/seomely-mcp)

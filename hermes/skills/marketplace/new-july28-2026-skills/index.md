@@ -48,12 +48,12 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 ## Setup Guides Created
 
-1. **[Dogfood Setup Guide](/hermes/skills/catalog/dogfood-setup/)** - Systematic QA testing with browser tools. 5-phase workflow for finding bugs and producing structured reports.
-2. **[Skill Vetter Setup Guide](/hermes/skills/catalog/skill-vetter-setup/)** - Pre-install security vetting for OpenClaw skills. Red-flag checklist for safe skill adoption.
-3. **[OpenClaw Backup Setup Guide](/hermes/skills/catalog/openclaw-backup-setup/)** - Encrypted workspace backup with AES-256-CBC. Auto-generated passwords, soul-upload.com API.
-4. **[Hermes Imports Setup Guide](/hermes/skills/catalog/hermes-imports-setup/)** - Sanitize and export Hermes workflows as reusable ECC skills.
-5. **[Hermes History Ingest Setup Guide](/hermes/skills/catalog/hermes-history-ingest-setup/)** - Mine Hermes session history into Obsidian knowledge base.
-6. **[Hermes Marketing Dashboard Setup Guide](/hermes/skills/catalog/hermes-marketing-dashboard-setup/)** - Full-stack marketing control center with CRM, outreach, and analytics.
+1. **[Dogfood Setup Guide](/docs/hermes/skills/catalog/dogfood-setup)** - Systematic QA testing with browser tools. 5-phase workflow for finding bugs and producing structured reports.
+2. **[Skill Vetter Setup Guide](/docs/hermes/skills/catalog/skill-vetter-setup)** - Pre-install security vetting for OpenClaw skills. Red-flag checklist for safe skill adoption.
+3. **[OpenClaw Backup Setup Guide](/docs/hermes/skills/catalog/openclaw-backup-setup)** - Encrypted workspace backup with AES-256-CBC. Auto-generated passwords, soul-upload.com API.
+4. **[Hermes Imports Setup Guide](/docs/hermes/skills/catalog/hermes-imports-setup)** - Sanitize and export Hermes workflows as reusable ECC skills.
+5. **[Hermes History Ingest Setup Guide](/docs/hermes/skills/catalog/hermes-history-ingest-setup)** - Mine Hermes session history into Obsidian knowledge base.
+6. **[Hermes Marketing Dashboard Setup Guide](/docs/hermes/skills/catalog/hermes-marketing-dashboard-setup)** - Full-stack marketing control center with CRM, outreach, and analytics.
 
 ## Quick Install
 

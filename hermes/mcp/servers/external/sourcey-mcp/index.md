@@ -89,7 +89,7 @@ Sourcey's offer catalog is procurement intelligence that pairs with CorpusIQ's a
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [PreVibe MCP - Product Research for Lean SaaS Founders](/hermes/mcp/servers/external/previbe-mcp/)
-- [Founders Os MCP - Startup Operating System Tools](/hermes/mcp/servers/external/founders-os/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [PreVibe MCP - Product Research for Lean SaaS Founders](/docs/hermes/mcp/servers/external/previbe-mcp)
+- [Founders Os MCP - Startup Operating System Tools](/docs/hermes/mcp/servers/external/founders-os)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)

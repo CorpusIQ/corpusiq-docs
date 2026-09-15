@@ -81,9 +81,9 @@ Cross-cutting concepts (animation, keymaps) are single-file guides.
 
 ## Related Skills
 
-- [CLI Anything Harnesses Setup](/hermes/skills/catalog/cli-anything-harnesses-setup/) - CLI tool wrappers
-- [Browser Harness Setup](/hermes/skills/catalog/browser-harness-setup/) - Browser automation
-- [Terminal Skills Setup](/hermes/skills/catalog/terminal-skills-setup/) - General terminal operations
+- [CLI Anything Harnesses Setup](/docs/hermes/skills/catalog/cli-anything-harnesses-setup) - CLI tool wrappers
+- [Browser Harness Setup](/docs/hermes/skills/catalog/browser-harness-setup) - Browser automation
+- [Terminal Skills Setup](/docs/hermes/skills/catalog/terminal-skills-setup) - General terminal operations
 
 ## Source
 

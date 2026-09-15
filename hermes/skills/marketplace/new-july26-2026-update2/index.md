@@ -28,19 +28,19 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **Datadog Agent Skills** | datadog-labs/agent-skills | 12K+ | 146⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/datadog-agent-skills-setup/) |
+| **Datadog Agent Skills** | datadog-labs/agent-skills | 12K+ | 146⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/datadog-agent-skills-setup) |
 
 ### Feature Management / Experimentation
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **LaunchDarkly Agent Skills** | launchdarkly/ai-tooling | 26K+ | 20⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/launchdarkly-agent-skills-setup/) |
+| **LaunchDarkly Agent Skills** | launchdarkly/ai-tooling | 26K+ | 20⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/launchdarkly-agent-skills-setup) |
 
 ### Platform / Deployment
 
 | Skill | Publisher | Installs | Stars | Tier | Guide |
 |---|---|---|---|---|---|
-| **Railway Agent Skills** | railwayapp/railway-skills | 5.5K+ | 300⭐ | 🟢 | [Setup Guide](/hermes/skills/catalog/railway-agent-skills-setup/) |
+| **Railway Agent Skills** | railwayapp/railway-skills | 5.5K+ | 300⭐ | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/railway-agent-skills-setup) |
 
 ## 🔑 Standout Finds
 

@@ -76,6 +76,6 @@ Transcodely's job and usage data pairs with CorpusIQ connectors for the operatio
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [Shotstack MCP - Video Editing API for AI Agents](/hermes/mcp/servers/external/shotstack-mcp/)
-- [LiveSend MCP - Share Client-Facing Content with Read Tracking](/hermes/mcp/servers/external/livesend-mcp/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [Shotstack MCP - Video Editing API for AI Agents](/docs/hermes/mcp/servers/external/shotstack-mcp)
+- [LiveSend MCP - Share Client-Facing Content with Read Tracking](/docs/hermes/mcp/servers/external/livesend-mcp)

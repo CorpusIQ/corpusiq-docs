@@ -86,7 +86,7 @@ Farmwalk is a vertical sibling of CorpusIQ's horizontal approach: CorpusIQ reads
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [ZenSched MCP - Field Workforce Scheduling for Agents](/hermes/mcp/servers/external/zensched-mcp/)
-- [Worklittle Jobs MCP - Job Search and Market Data for AI Agents](/hermes/mcp/servers/external/worklittle-jobs/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [ZenSched MCP - Field Workforce Scheduling for Agents](/docs/hermes/mcp/servers/external/zensched-mcp)
+- [Worklittle Jobs MCP - Job Search and Market Data for AI Agents](/docs/hermes/mcp/servers/external/worklittle-jobs)

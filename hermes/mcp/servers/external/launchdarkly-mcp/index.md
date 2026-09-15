@@ -42,5 +42,5 @@ npx -y @launchdarkly/mcp-server
 
 ## See Also
 
-- [External MCP Server Catalog](/hermes/mcp/servers/external/)
-- [CorpusIQ Connector Catalog](/hermes/mcp/connectors/)
+- [External MCP Server Catalog](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connector Catalog](/docs/hermes/mcp/connectors)

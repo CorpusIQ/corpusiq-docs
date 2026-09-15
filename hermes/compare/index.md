@@ -18,6 +18,6 @@ Side-by-side comparisons to help operators choose between CorpusIQ and alternati
 | [CorpusIQ vs Zapier](corpusiq-vs-zapier.md) | AI business data vs workflow automation |
 | [CorpusIQ vs Viktor](corpusiq-vs-viktor.md) | Cross-platform AI answers vs Slack-based AI employee |
 
-*← [Hermes Home](/hermes/) | [SEO Pages →](/hermes/seo/)*
+*← [Hermes Home](/docs/hermes) | [SEO Pages →](/docs/hermes/seo)*
 
-*↑ [Section Home](/hermes/)*
+*↑ [Section Home](/docs/hermes)*

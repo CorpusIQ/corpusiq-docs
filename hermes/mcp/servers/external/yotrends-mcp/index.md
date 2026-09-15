@@ -62,6 +62,6 @@ Endpoint `https://app.yotrends.ai/mcp/` live-probed over JSON-RPC: anonymous ini
 
 ## See Also
 
-- [ViralHunt MCP - Trending Discovery and Social Publishing for Agents](/hermes/mcp/servers/external/viralhunt-mcp/)
-- [Capslane MCP - Timestamped YouTube Transcripts for Agents](/hermes/mcp/servers/external/capslane-mcp/)
-- [LinkDigest MCP - Social Post URLs to LLM-Readable Text](/hermes/mcp/servers/external/linkdigest-mcp/)
+- [ViralHunt MCP - Trending Discovery and Social Publishing for Agents](/docs/hermes/mcp/servers/external/viralhunt-mcp)
+- [Capslane MCP - Timestamped YouTube Transcripts for Agents](/docs/hermes/mcp/servers/external/capslane-mcp)
+- [LinkDigest MCP - Social Post URLs to LLM-Readable Text](/docs/hermes/mcp/servers/external/linkdigest-mcp)

@@ -52,4 +52,4 @@ Pair with CorpusIQ's analytics connectors (GA4, Meta Ads, Google Ads) to connect
 
 ---
 
-*→ [Back to External MCP Catalog](/hermes/mcp/servers/external/)*
+*→ [Back to External MCP Catalog](/docs/hermes/mcp/servers/external)*

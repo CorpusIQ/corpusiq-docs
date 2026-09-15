@@ -146,13 +146,13 @@ Agency pricing is designed to scale predictably. Contact CorpusIQ for agency-spe
 
 ## Internal Links
 
-- [Learn what an MCP server is and how it works](/what-is-an-mcp-server)
-- [Discover the business benefits of MCP servers](/benefits-of-mcp-for-business)
-- [MCP for Marketing: Campaign Analytics and ROI](/mcp-for-marketing)
-- [MCP for Sales: Pipeline and Forecasting](/mcp-for-sales)
-- [MCP for Ecommerce: Shopify and Order Analytics](/mcp-for-ecommerce)
-- [See how executives use MCP for AI-powered dashboards](/mcp-for-executives)
-- [Read our complete MCP security best practices guide](/mcp-security-best-practices)
+- [Learn what an MCP server is and how it works](/answers/what-is-an-mcp-server)
+- [Discover the business benefits of MCP servers](/mcp)
+- [MCP for Marketing: Campaign Analytics and ROI](/mcp)
+- [MCP for Sales: Pipeline and Forecasting](/mcp)
+- [MCP for Ecommerce: Shopify and Order Analytics](/mcp)
+- [See how executives use MCP for AI-powered dashboards](/mcp)
+- [Read our complete MCP security best practices guide](/mcp)
 
 *Part of the MCP knowledge base at [corpusiq.io](https://www.corpusiq.io)  --  connect 40+ business tools to AI.*
 

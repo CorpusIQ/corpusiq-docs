@@ -27,39 +27,39 @@ tags: ["hermes skill", "skill marketplace", "skills.sh"]
 ### Browser Automation
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **antibrow** | antibrow/anti-detect-browser-skills | 29.9K | 🟢 | [Setup Guide](/hermes/skills/catalog/antibrow-setup/) |
+| **antibrow** | antibrow/anti-detect-browser-skills | 29.9K | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/antibrow-setup) |
 
 ### Research & Lead Generation
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **reddapi** | lignertys/reddit-research-skill | 2.8K | 🟡 | [Setup Guide](/hermes/skills/catalog/reddit-research-setup/) |
-| **reddit-leads** | lignertys/reddit-research-skill | 1.3K | 🟡 | [Setup Guide](/hermes/skills/catalog/reddit-research-setup/) |
+| **reddapi** | lignertys/reddit-research-skill | 2.8K | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/reddit-research-setup) |
+| **reddit-leads** | lignertys/reddit-research-skill | 1.3K | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/reddit-research-setup) |
 
 ### Go-to-Market
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **niche-signal-discovery** | code.deepline.com | 15.5K | 🟢 | [Setup Guide](/hermes/skills/catalog/deepline-setup/) |
-| **build-tam** | code.deepline.com | 15.4K | 🟢 | [Setup Guide](/hermes/skills/catalog/deepline-setup/) |
-| **portfolio-prospecting** | code.deepline.com | 15.3K | 🟢 | [Setup Guide](/hermes/skills/catalog/deepline-setup/) |
-| **deepline-feedback** | code.deepline.com | 15.3K | 🟢 | [Setup Guide](/hermes/skills/catalog/deepline-setup/) |
-| **clay-to-deepline** | code.deepline.com | 15.3K | 🟢 | [Setup Guide](/hermes/skills/catalog/deepline-setup/) |
-| **linkedin-url-lookup** | code.deepline.com | 15.3K | 🟢 | [Setup Guide](/hermes/skills/catalog/deepline-setup/) |
+| **niche-signal-discovery** | code.deepline.com | 15.5K | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/deepline-setup) |
+| **build-tam** | code.deepline.com | 15.4K | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/deepline-setup) |
+| **portfolio-prospecting** | code.deepline.com | 15.3K | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/deepline-setup) |
+| **deepline-feedback** | code.deepline.com | 15.3K | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/deepline-setup) |
+| **clay-to-deepline** | code.deepline.com | 15.3K | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/deepline-setup) |
+| **linkedin-url-lookup** | code.deepline.com | 15.3K | 🟢 | [Setup Guide](/docs/hermes/skills/catalog/deepline-setup) |
 
 ### Media Generation
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **muapi-social-media-video** | samuraigpt/generative-media-skills | 1.8K | 🟡 | [Setup Guide](/hermes/skills/catalog/samuraigpt-generative-media-setup/) |
-| **muapi-seedance-2** | samuraigpt/generative-media-skills | 1.7K | 🟡 | [Setup Guide](/hermes/skills/catalog/samuraigpt-generative-media-setup/) |
-| **muapi-logo-creator** | samuraigpt/generative-media-skills | 1.7K | 🟡 | [Setup Guide](/hermes/skills/catalog/samuraigpt-generative-media-setup/) |
-| **muapi-ui-design** | samuraigpt/generative-media-skills | 1.7K | 🟡 | [Setup Guide](/hermes/skills/catalog/samuraigpt-generative-media-setup/) |
-| **muapi-nano-banana** | samuraigpt/generative-media-skills | 1.6K | 🟡 | [Setup Guide](/hermes/skills/catalog/samuraigpt-generative-media-setup/) |
-| **muapi-cinema-director** | samuraigpt/generative-media-skills | 1.6K | 🟡 | [Setup Guide](/hermes/skills/catalog/samuraigpt-generative-media-setup/) |
+| **muapi-social-media-video** | samuraigpt/generative-media-skills | 1.8K | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/samuraigpt-generative-media-setup) |
+| **muapi-seedance-2** | samuraigpt/generative-media-skills | 1.7K | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/samuraigpt-generative-media-setup) |
+| **muapi-logo-creator** | samuraigpt/generative-media-skills | 1.7K | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/samuraigpt-generative-media-setup) |
+| **muapi-ui-design** | samuraigpt/generative-media-skills | 1.7K | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/samuraigpt-generative-media-setup) |
+| **muapi-nano-banana** | samuraigpt/generative-media-skills | 1.6K | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/samuraigpt-generative-media-setup) |
+| **muapi-cinema-director** | samuraigpt/generative-media-skills | 1.6K | 🟡 | [Setup Guide](/docs/hermes/skills/catalog/samuraigpt-generative-media-setup) |
 
 ### Communication
 | Skill | Publisher | Installs | Tier | Guide |
 |---|---|---|---|---|
-| **telegram** | skillhq/telegram | 424 | 🔵 | [Setup Guide](/hermes/skills/catalog/skillhq-telegram-setup/) |
-| **tg** | skillhq/telegram | 1 | 🔵 | [Setup Guide](/hermes/skills/catalog/skillhq-telegram-setup/) |
+| **telegram** | skillhq/telegram | 424 | 🔵 | [Setup Guide](/docs/hermes/skills/catalog/skillhq-telegram-setup) |
+| **tg** | skillhq/telegram | 1 | 🔵 | [Setup Guide](/docs/hermes/skills/catalog/skillhq-telegram-setup) |
 
 ## Notes
 

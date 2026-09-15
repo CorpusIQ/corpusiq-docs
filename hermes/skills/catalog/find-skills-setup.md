@@ -134,7 +134,7 @@ done
 
 ## See Also
 
-- [skill-creator](/hermes/skills/catalog/skill-creator-setup/) - Anthropic's skill creation framework
-- [Skills Catalog](/hermes/skills/catalog/) - Browse all documented skills
-- [Skill Marketplaces](/hermes/skills/skill-marketplaces/) - Guide to all skill marketplaces
-- [Creating Custom Skills](/hermes/skills/creating-skills/) - Author your own skills
+- [skill-creator](/docs/hermes/skills/catalog/skill-creator-setup) - Anthropic's skill creation framework
+- [Skills Catalog](/docs/hermes/skills/catalog) - Browse all documented skills
+- [Skill Marketplaces](/docs/hermes/skills/skill-marketplaces) - Guide to all skill marketplaces
+- [Creating Custom Skills](/docs/hermes/skills/creating-skills) - Author your own skills

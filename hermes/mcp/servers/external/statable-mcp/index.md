@@ -82,7 +82,7 @@ Statable answers the on-site question and CorpusIQ answers the business question
 
 ## See Also
 
-- [MCP Servers Index](/hermes/mcp/servers/external/)
-- [CorpusIQ Connectors](/hermes/mcp/connectors/)
-- [Draxlr MCP - SQL Dashboards and Queries for Agents](/hermes/mcp/servers/external/draxlr-mcp/)
-- [Pixelesq MCP - Website Management and SEO for Agents](/hermes/mcp/servers/external/pixelesq-mcp/)
+- [MCP Servers Index](/docs/hermes/mcp/servers/external)
+- [CorpusIQ Connectors](/docs/hermes/mcp/connectors)
+- [Draxlr MCP - SQL Dashboards and Queries for Agents](/docs/hermes/mcp/servers/external/draxlr-mcp)
+- [Pixelesq MCP - Website Management and SEO for Agents](/docs/hermes/mcp/servers/external/pixelesq-mcp)
