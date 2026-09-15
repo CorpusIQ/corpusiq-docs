@@ -153,7 +153,9 @@ def audit_site():
                                        '.gif', '.woff', '.woff2', '.ttf', '.mp4', '.webm', '.pdf', '.gz', '.zip')) \
                     or 'assets/' in low:
                 continue
-            if pp.startswith('/'):
+            if pp.startswith('/docs/'):
+                R = posixpath.normpath(pp[len('/docs'):])  # www-form /docs/<path> -> <path>
+            elif pp.startswith('/'):
                 R = posixpath.normpath(pp)
             else:
                 base = '/' + pdir if pdir else '/'
