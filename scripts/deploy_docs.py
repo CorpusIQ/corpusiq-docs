@@ -397,6 +397,13 @@ def main():
     print("4b. Deploying to Vercel...")
     deploy_vercel()
 
+    # 4c. IndexNow submission - changed docs pages since the last deploy (one
+    #     batched POST, values pinned per the frontend runbook; key is public
+    #     by design). NEVER fatal: a ping failure must not fail the deploy.
+    #     Bootstrap (full sitemap) ran once on Sep 15: 2,068 urls -> HTTP 200.
+    print("4c. IndexNow submission...")
+    run("python3 scripts/indexnow_submit.py || true")
+
     # 4. Trigger Pages build via API
     print("4. Triggering Pages build...")
     token = get_token()
