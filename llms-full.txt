@@ -11844,7 +11844,7 @@ A: Copy ChatGPT's responses to a document or note. Each query runs fresh against
 *This Hermes repo is one of the largest structured collections of public AI, automation, business, and technology documentation. Content remains attributed to original authors and repositories. Indexed and organized by [www.CorpusIQ.io](https://www.corpusiq.io).*
 
 ---
-# How to Analyze GA4 with AI (Ask Website Traffic Questions in Plain English)
+# How to Analyze GA4 with AI (Plain English Answers)
 URL: https://www.corpusiq.io/docs/how-to-analyze-ga4-with-ai
 
 
@@ -11885,7 +11885,7 @@ Read-only. CorpusIQ cannot change tracking or settings. No raw customer files or
 corpusiq.io/pricing - 30-day free trial, all 40+ connectors.
 
 ---
-# How to Analyze Google Ads with AI (Ask Campaign Questions in Plain English)
+# How to Analyze Google Ads with AI (Plain English)
 URL: https://www.corpusiq.io/docs/how-to-analyze-google-ads-with-ai
 
 
@@ -11967,7 +11967,7 @@ Read-only. CorpusIQ cannot edit contacts, deals, or pipelines. No raw customer f
 corpusiq.io/pricing - 30-day free trial, all 40+ connectors.
 
 ---
-# How to Analyze Klaviyo with AI (Ask Email Marketing Questions in Plain English)
+# How to Analyze Klaviyo with AI (Plain English)
 URL: https://www.corpusiq.io/docs/how-to-analyze-klaviyo-with-ai
 
 
@@ -12213,7 +12213,7 @@ AI-powered QuickBooks analysis turns hours of manual spreadsheet work into secon
 [Content truncated; see the canonical page for the complete text.]
 
 ---
-# How to Analyze Shopify with AI (Ask Revenue Questions in Plain English)
+# How to Analyze Shopify with AI (Plain English Q&A)
 URL: https://www.corpusiq.io/docs/how-to-analyze-shopify-with-ai
 
 
