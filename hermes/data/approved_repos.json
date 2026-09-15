@@ -6016,5 +6016,50 @@
     "discovered_at": "2026-09-11T05:03:05.822209+00:00",
     "status": "approved",
     "approved_at": "2026-09-11T05:05:36.016269+00:00"
+  },
+  {
+    "name": "cogwheel0/conduit",
+    "url": "https://github.com/cogwheel0/conduit",
+    "description": "Native iOS and Android client for Open WebUI, direct OpenAI-compatible, Ollama, and Hermes agents.",
+    "stars": 2135,
+    "forks": 215,
+    "language": "Dart",
+    "topics": [
+      "ai-agents",
+      "ai-assistant",
+      "android",
+      "chat",
+      "chatbot",
+      "cross-platform",
+      "dart",
+      "flutter",
+      "ios",
+      "llm",
+      "llm-client",
+      "mobile-app",
+      "ollama",
+      "open-webui",
+      "openai",
+      "openrouter",
+      "openwebui",
+      "privacy",
+      "self-hosted",
+      "selfhosted"
+    ],
+    "updated_at": "2026-09-15T04:55:37Z",
+    "category": "core",
+    "score": 85,
+    "tier": "AUTO_APPROVE",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "high_stars_1000+",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-15T05:01:54.798844+00:00",
+    "status": "approved",
+    "approved_at": "2026-09-15T05:02:33.127151+00:00"
   }
 ]

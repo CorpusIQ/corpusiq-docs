@@ -61113,5 +61113,360 @@
     ],
     "discovered_at": "2026-09-13T08:03:44.917842+00:00",
     "status": "pending"
+  },
+  {
+    "name": "ujang0311/hermes-tools",
+    "url": "https://github.com/ujang0311/hermes-tools",
+    "description": "Backup, restore & upgrade Hermes Agent \u2014 auto-detect path, one-command via curl",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-09-15T05:01:02Z",
+    "category": "core",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-15T05:01:45.791415+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "vhmns14/awesome-hermes",
+    "url": "https://github.com/vhmns14/awesome-hermes",
+    "description": "A curated list of awesome Hermes (Nous Research) resources, models, agents, skills & tools",
+    "stars": 1,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-15T04:59:29Z",
+    "category": "core",
+    "score": 45,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "awesome-hermes-usecases",
+      "awesome-hermes-agent",
+      "zcweah1981/awesome-hermes-agent-zh",
+      "Anil-matcha/awesome-hermes-agent"
+    ],
+    "discovered_at": "2026-09-15T05:01:48.794081+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "tawaresachin/hermes-mobile-plugin",
+    "url": "https://github.com/tawaresachin/hermes-mobile-plugin",
+    "description": "Hermes Agent desktop plugin (compatible to Windows/Mac/Linux) for Android native app (Hermes Mobile) integration.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-15T04:59:23Z",
+    "category": "core",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "kaankacar/stellar-agent-kit"
+    ],
+    "discovered_at": "2026-09-15T05:01:51.796120+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ElliotDrel/purdue-dining-cli-mcp",
+    "url": "https://github.com/ElliotDrel/purdue-dining-cli-mcp",
+    "description": "Standalone Hermes skill for published Purdue Dining Court menus and nutrition.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-15T04:59:17Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-15T05:01:58.406508+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "ilkerozgedik/hermes-mcp-gateway",
+    "url": "https://github.com/ilkerozgedik/hermes-mcp-gateway",
+    "description": null,
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-15T03:36:38Z",
+    "category": "mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-15T05:02:01.408726+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "juanmackie/mnemosyne-hermes",
+    "url": "https://github.com/juanmackie/mnemosyne-hermes",
+    "description": "Local-first persistent semantic memory and agent orchestration for Hermes, Claude Code, and MCP-compatible personal AI agents.",
+    "stars": 10,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-15T02:35:51Z",
+    "category": "mcp",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "thedotmack/claude-mem",
+      "EverMind-AI/EverOS",
+      "yoloshii/ClawMem",
+      "itechmeat/open-second-brain",
+      "ZeroPointRepo/awesome-hermes-skills",
+      "uzairansaruzi/robinhood-agent-skill",
+      "ahonore42/logios-brain",
+      "tale-project/tale",
+      "CodeAbra/iai-personal-memory-engine",
+      "ruvnet/metaharness",
+      "Javis603/token-monitor",
+      "MemTensor/memmy-agent",
+      "jazzyalex/agent-sessions",
+      "Infisical/agent-vault",
+      "vivekchand/clawmetry"
+    ],
+    "discovered_at": "2026-09-15T05:02:04.415764+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "SenjuWoo/Ultimate-AI-Starter-Bundle",
+    "url": "https://github.com/SenjuWoo/Ultimate-AI-Starter-Bundle",
+    "description": "Ultimate AI Starter Bundle multi-provider skills/MCP/plugins (Claude, Codex, Grok, Kimi, Hermes) + optional full Skyrim SE/AE modding stack. Not Skyrim-only. Ships codebase-memory indexing discipline: index source, not asset trees.",
+    "stars": 3,
+    "forks": 1,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "codebase-memory",
+      "cursor",
+      "grok",
+      "housecarl",
+      "knowledge-graph",
+      "mcp",
+      "mcp-server",
+      "modding-tools",
+      "multi-provider",
+      "portable",
+      "python",
+      "skse",
+      "skyrim",
+      "skyrim-ae",
+      "skyrim-modding",
+      "skyrim-se",
+      "skyrim-special-edition",
+      "toolkit"
+    ],
+    "updated_at": "2026-09-14T22:27:59Z",
+    "category": "skills",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "hermes_mention",
+      "agent_ecosystem",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-15T05:02:08.034662+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "wlkerwong-boop/hermes-desktop-plugins",
+    "url": "https://github.com/wlkerwong-boop/hermes-desktop-plugins",
+    "description": "Hermes \u684c\u9762\u7aef\u63d2\u4ef6\u5f00\u53d1\u4e0e\u8fd0\u7ef4\uff08Agent Skills\uff09\uff1a\u4ece\u96f6\u5199\u63d2\u4ef6\uff08\u81ea\u5b9a\u4e49\u9762\u677f + \u659c\u6760\u547d\u4ee4\uff09\u3001\u6700\u5c0f\u53ef\u7528\u6a21\u677f plugin.js\u3001\u684c\u9762\u5e94\u7528\u5b89\u88c5/\u66f4\u65b0/\u6392\u969c\u3002MIT",
+    "stars": 0,
+    "forks": 0,
+    "language": "JavaScript",
+    "topics": [
+      "ai-agent-skills",
+      "claude-skills",
+      "desktop",
+      "electron",
+      "hermes",
+      "plugins"
+    ],
+    "updated_at": "2026-09-14T07:40:22Z",
+    "category": "skills",
+    "score": 47,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_mention",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-15T05:02:11.037027+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "899ms/hermes-ai-team",
+    "url": "https://github.com/899ms/hermes-ai-team",
+    "description": "Build an AI team of Hermes agents: SOUL, memory, vault, skills, nightly research, kanban, chief of staff, rituals, and Desktop Bots group chats. Agent-consumable, phase-by-phase guide by Aiona Edge.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-15T05:00:37Z",
+    "category": "forks",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [
+      "longyunfeigu/learn-hermes-agent",
+      "hugocarreira/agentrc"
+    ],
+    "discovered_at": "2026-09-15T05:02:14.717896+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "Hokimisu/Promethee",
+    "url": "https://github.com/Hokimisu/Promethee",
+    "description": "Persistent embodied AI companion: agent memory, voice, procedural motion and an interactive virtual world. Local runtime prototype.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "embodied-ai",
+      "hermes-agent",
+      "obsidian",
+      "persistent-memory",
+      "procedural-animation",
+      "python",
+      "virtual-avatar"
+    ],
+    "updated_at": "2026-09-15T05:00:23Z",
+    "category": "forks",
+    "score": 41,
+    "tier": "REVIEW",
+    "score_reasons": [
+      "hermes_topic",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Bo1202/Aivy-OS"
+    ],
+    "discovered_at": "2026-09-15T05:02:17.721338+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "jeanjacintho/the-plow-times-hermes-agent",
+    "url": "https://github.com/jeanjacintho/the-plow-times-hermes-agent",
+    "description": "Your morning paper, printed. It researches on your Mac and puts a sourced page in the tray \u2014 PDF in chat if you\u2019d rather.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Python",
+    "topics": [],
+    "updated_at": "2026-09-14T23:25:35Z",
+    "category": "research",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "Romanescu11/hermes-skill-factory",
+      "CYC2002tommy/Deep-Research-Agent",
+      "PatterAI/Patter"
+    ],
+    "discovered_at": "2026-09-15T05:02:24.964165+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "xiaoliu202/Hermes-Research-Mentor",
+    "url": "https://github.com/xiaoliu202/Hermes-Research-Mentor",
+    "description": "A forked & customized Hermes Agent profile for postgraduate academic research. Non-commercial research mentor, supports literature retrieval, paper analysis and academic writing assistance.",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-09-13T13:31:44Z",
+    "category": "research",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "detailed_description",
+      "active_week"
+    ],
+    "near_duplicates": [
+      "0xNyk/awesome-hermes-agent",
+      "SamurAIGPT/awesome-hermes-agent",
+      "zakahadi/llm-eval-cli",
+      "Undermybelt/hermes-skills-research",
+      "Boatsure/PaperDigest",
+      "0451-software/research-skills",
+      "codegraphtheory/chainforge",
+      "Anil-matcha/awesome-hermes-agent",
+      "MemTensor/memmy-agent"
+    ],
+    "discovered_at": "2026-09-15T05:02:27.967642+00:00",
+    "status": "pending"
+  },
+  {
+    "name": "fignew/hermes-flatpak",
+    "url": "https://github.com/fignew/hermes-flatpak",
+    "description": "Flatpak packaging for Hermes Desktop (NousResearch/hermes-agent)",
+    "stars": 0,
+    "forks": 0,
+    "language": "Shell",
+    "topics": [],
+    "updated_at": "2026-09-15T04:36:57Z",
+    "category": "official",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "score_reasons": [
+      "direct_hermes_reference",
+      "active_week",
+      "has_homepage"
+    ],
+    "near_duplicates": [],
+    "discovered_at": "2026-09-15T05:04:26.012584+00:00",
+    "status": "pending"
   }
 ]

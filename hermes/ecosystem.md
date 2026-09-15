@@ -1,7 +1,7 @@
 ---
 name: Hermes Ecosystem Directory
-description: Comprehensive directory of the Hermes Agent ecosystem - 182+ repos, tools, skills, and integrations
-last_updated: 2026-09-13
+description: Comprehensive directory of the Hermes Agent ecosystem - 183+ repos, tools, skills, and integrations
+last_updated: 2026-09-14
 canonical: "https://www.corpusiq.io/docs/hermes/ecosystem/"
 robots: "index,follow"
 title: "Hermes Ecosystem Directory"
@@ -11,9 +11,9 @@ tags: ["hermes ecosystem", "agent ecosystem", "community"]
 
 # Hermes Ecosystem Directory
 
-A comprehensive, curated directory of the Hermes Agent ecosystem. **182+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
+A comprehensive, curated directory of the Hermes Agent ecosystem. **183+ repositories** across 14 categories, scored and verified by the Hermes Ecosystem Discovery Engine.
 
-> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **182+ repos indexed.**
+> **Auto-approved:** Score ≥ 70 (6-dimension evaluation). **Pending review:** Score < 70 - community review welcome. **183+ repos indexed.**
 
 ## 📊 Category Overview
 
@@ -32,7 +32,7 @@ A comprehensive, curated directory of the Hermes Agent ecosystem. **182+ reposit
 | 📦 SDKs & Libraries | 2 | Client libraries, API wrappers, language bindings |
 | 🛡️ Security & Governance | 3 | Security tools, compliance, audit |
 | 🔧 Skills & Plugins | 40 | Reusable skills, plugins, extensions, tools |
-| 🖥️ Interfaces & UI | 36 | Desktop apps, web UIs, dashboards, terminals |
+| 🖥️ Interfaces & UI | 37 | Desktop apps, web UIs, dashboards, terminals |
 
 ---
 
@@ -1320,6 +1320,14 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
+### [cogwheel0/conduit](https://github.com/cogwheel0/conduit) ⭐ 2,135
+
+>Native iOS and Android client for Open WebUI, direct OpenAI-compatible, Ollama, and Hermes agents.
+
+**Language:** Dart | **Topics:** ai-agents, ai-assistant, android, chat, chatbot, cross-platform, dart, flutter, ios, llm, llm-client, mobile-app, ollama, open-webui, openrouter, openwebui, privacy, self-hosted | **Score:** 85/100
+
+---
+
 ### [uzairansaruzi/hermex](https://github.com/uzairansaruzi/hermex) ⭐ 953
 
 >Native iPhone app for your Hermes agent
@@ -1535,6 +1543,6 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ---
 
-*182+ repositories in the Hermes ecosystem. Last updated: 2026-09-13. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
+*183+ repositories in the Hermes ecosystem. Last updated: 2026-09-14. Powered by the [Hermes Ecosystem Discovery Engine](https://github.com/CorpusIQ/corpusiq-docs/tree/main/hermes/scripts/discover.py) and [CorpusIQ](https://www.corpusiq.io).*
 
 *To submit a repo: [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new?labels=pending-review) with the GitHub URL.*

@@ -14746,5 +14746,103 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-13T08:05:33.646176+00:00"
+  },
+  {
+    "repo": "ujang0311/hermes-tools",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T05:02:33.127167+00:00"
+  },
+  {
+    "repo": "vhmns14/awesome-hermes",
+    "score": 45,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T05:02:33.127170+00:00"
+  },
+  {
+    "repo": "tawaresachin/hermes-mobile-plugin",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T05:02:33.127172+00:00"
+  },
+  {
+    "repo": "cogwheel0/conduit",
+    "score": 85,
+    "tier": "AUTO_APPROVE",
+    "action": "auto_approved",
+    "timestamp": "2026-09-15T05:02:33.127174+00:00"
+  },
+  {
+    "repo": "ElliotDrel/purdue-dining-cli-mcp",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T05:02:33.127176+00:00"
+  },
+  {
+    "repo": "ilkerozgedik/hermes-mcp-gateway",
+    "score": 40,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T05:02:33.127178+00:00"
+  },
+  {
+    "repo": "juanmackie/mnemosyne-hermes",
+    "score": 50,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T05:02:33.127180+00:00"
+  },
+  {
+    "repo": "SenjuWoo/Ultimate-AI-Starter-Bundle",
+    "score": 58,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T05:02:33.127182+00:00"
+  },
+  {
+    "repo": "wlkerwong-boop/hermes-desktop-plugins",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T05:02:33.127184+00:00"
+  },
+  {
+    "repo": "899ms/hermes-ai-team",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T05:02:33.127185+00:00"
+  },
+  {
+    "repo": "Hokimisu/Promethee",
+    "score": 41,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T05:02:33.127187+00:00"
+  },
+  {
+    "repo": "jeanjacintho/the-plow-times-hermes-agent",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T05:02:33.127188+00:00"
+  },
+  {
+    "repo": "xiaoliu202/Hermes-Research-Mentor",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T05:02:33.127190+00:00"
+  },
+  {
+    "repo": "fignew/hermes-flatpak",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T05:04:28.118684+00:00"
   }
 ]
