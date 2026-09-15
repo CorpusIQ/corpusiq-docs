@@ -426,7 +426,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) ⭐ 82,700
 
->Persistent Context Across Sessions for Every Agent -  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
+>Persistent Context Across Sessions for Every Agent - Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
 
 **Language:** JavaScript | **Topics:** ai, ai-agents, ai-memory, anthropic, artificial-intelligence
 
@@ -570,7 +570,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [longyunfeigu/learn-hermes-agent](https://github.com/longyunfeigu/learn-hermes-agent) ⭐ 153
 
->A 27-chapter hands-on tutorial for building an autonomous AI agent from zero in Python. Agent loop, tool system, memory, skills, MCP,     multi-platform gateway, and self-evolution - inspired by Hermes Agent.
+>A 27-chapter hands-on tutorial for building an autonomous AI agent from zero in Python. Agent loop, tool system, memory, skills, MCP, multi-platform gateway, and self-evolution - inspired by Hermes Agent.
 
 **Language:** Python | **Topics:** agent-from-scratch, agent-tutorial, ai-agent, chatbot, hermes-agent
 
@@ -602,7 +602,7 @@ _Persistent memory, knowledge graphs, context systems_
 
 ### [Sibyl-Labs/Sibyl-Memory](https://github.com/Sibyl-Labs/Sibyl-Memory) ⭐ 84
 
->Sibyl Memory Plugin for Hermes enables persistent memory across long time horizons, and enables relational context previously unavailable. Self-learning and auto-skill creation creates an agent that grows with you.  Local SQLite, structured tiers, no vector DB. SDK, CLI, MCP server, Hermes plugin.
+>Sibyl Memory Plugin for Hermes enables persistent memory across long time horizons, and enables relational context previously unavailable. Self-learning and auto-skill creation creates an agent that grows with you. Local SQLite, structured tiers, no vector DB. SDK, CLI, MCP server, Hermes plugin.
 
 **Language:** Python
 
@@ -1008,7 +1008,7 @@ _Reusable skills, plugins, extensions, tools_
 
 ### [Romanescu11/hermes-skill-factory](https://github.com/Romanescu11/hermes-skill-factory) ⭐ 381
 
-> A meta-skill plugin for Nous Research's Hermes AI agent that watches your workflows and automatically turns them into reusable skills.  Every time you work with Hermes and solve something - setting up a project, debugging code, creating a PR - that   workflow disappears at the end of the session. You have to explain it again next time.
+> A meta-skill plugin for Nous Research's Hermes AI agent that watches your workflows and automatically turns them into reusable skills. Every time you work with Hermes and solve something - setting up a project, debugging code, creating a PR - that workflow disappears at the end of the session. You have to explain it again next time.
 
 **Language:** Python
 
@@ -1545,7 +1545,7 @@ _Desktop apps, web UIs, dashboards, terminals_
 
 ### [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) ⭐ 34,545
 
->A photorealistic 3D globe with live aircraft, ships, satellites, earthquakes, traffic, weather and public cameras — with voice control via a realtime AI agent. Runs with zero API keys (keyless satellite basemap default). MIT code with clear third-party data carve-outs.
+>A photorealistic 3D globe with live aircraft, ships, satellites, earthquakes, traffic, weather and public cameras - with voice control via a realtime AI agent. Runs with zero API keys (keyless satellite basemap default). MIT code with clear third-party data carve-outs.
 
 **Language:** JavaScript | **Topics:** cesium, geospatial, 3d-globe, ai-agent, voice | **Status:** Verified 2026-09-15
 
@@ -1556,24 +1556,24 @@ _Desktop apps, web UIs, dashboards, terminals_
 Verdicts from the "Finds for you - 96 new (93 must-see)" digest, per founder directive "assess which one you need and install":
 
 **ADOPTED (installed as corpusiq skills):**
-- [sushegaad/claude-skills-governance-risk-and-compliance](https://github.com/sushegaad/claude-skills-governance-risk-and-compliance) ⭐ 898 — 36 GRC skills (SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, NIST CSF + 30 more), MIT, 89% benchmarked. Folded into the `corpusiq-grc-compliance` skill (enterprise-sales blocker).
-- [obra/superpowers](https://github.com/obra/superpowers) ⭐ 287,077 — agentic dev methodology. `verification-before-completion` + `systematic-debugging` folded into the `corpusiq-verification-discipline` skill.
+- [sushegaad/claude-skills-governance-risk-and-compliance](https://github.com/sushegaad/claude-skills-governance-risk-and-compliance) ⭐ 898 - 36 GRC skills (SOC 2, ISO 27001, HIPAA, PCI DSS, GDPR, NIST CSF + 30 more), MIT, 89% benchmarked. Folded into the `corpusiq-grc-compliance` skill (enterprise-sales blocker).
+- [obra/superpowers](https://github.com/obra/superpowers) ⭐ 287,077 - agentic dev methodology. `verification-before-completion` + `systematic-debugging` folded into the `corpusiq-verification-discipline` skill.
 
 **PARTIAL ADOPT:**
-- [affaan-m/ecc](https://github.com/affaan-m/ecc) ⭐ 259,082 — agent harness OS; core (gortex) already installed machine-wide. Harness patterns under evaluation for agent-optimization docs.
-- [anthropics/skills](https://github.com/anthropics/skills) ⭐ 176,477 — official Agent Skills repo; skill-authoring patterns under review against skill-library-curation.
+- [affaan-m/ecc](https://github.com/affaan-m/ecc) ⭐ 259,082 - agent harness OS; core (gortex) already installed machine-wide. Harness patterns under evaluation for agent-optimization docs.
+- [anthropics/skills](https://github.com/anthropics/skills) ⭐ 176,477 - official Agent Skills repo; skill-authoring patterns under review against skill-library-curation.
 
 **ALREADY INTEGRATED:**
-- [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) ⭐ 245,810 — our own stack.
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐ 180,783 — already wired as the web-extraction backend.
+- [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent) ⭐ 245,810 - our own stack.
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ⭐ 180,783 - already wired as the web-extraction backend.
 
 **WATCH:**
-- [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) ⭐ 225,224 — vendor harness (plugins); revisit when model routing expands.
-- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ 204,392 — workflow automation; product-adjacent, no local install.
-- [mrtooher/fable-mode](https://github.com/mrtooher/fable-mode) ⭐ 861 — planning discipline; overlaps audit-ready-agent-loop; pattern-mine queued.
-- [rampstackco/claude-skills](https://github.com/rampstackco/claude-skills) ⭐ 867 — website-lifecycle skills; content/SEO patterns fold queued.
+- [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) ⭐ 225,224 - vendor harness (plugins); revisit when model routing expands.
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) ⭐ 204,392 - workflow automation; product-adjacent, no local install.
+- [mrtooher/fable-mode](https://github.com/mrtooher/fable-mode) ⭐ 861 - planning discipline; overlaps audit-ready-agent-loop; pattern-mine queued.
+- [rampstackco/claude-skills](https://github.com/rampstackco/claude-skills) ⭐ 867 - website-lifecycle skills; content/SEO patterns fold queued.
 
-**SKIP:** snailclimb/javaguide (Chinese Java interview guide — off-mission).
+**SKIP:** snailclimb/javaguide (Chinese Java interview guide - off-mission).
 
 ---
 
