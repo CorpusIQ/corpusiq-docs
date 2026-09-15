@@ -1,15 +1,15 @@
 ---
 title: Reason Machines DevTools Skills - Auto-Generated CLI Tool Skill Farm Setup
-description: Setup guide for reason-machines/devtools-skills, the ara.so auto-generated farm of 173 agent skills for trending developer tools - 40 skills at 100+ installs (9,451 combined). Install per-skill with npx skills add.
+description: Setup guide for reason-machines/devtools-skills, the ara.so auto-generated farm of 173 agent skills for trending developer tools - 42 skills at 100+ installs (9,850 combined). Install per-skill with npx skills add.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/reason-machines-devtools-skills-setup/"
 robots: "index,follow"
-last_updated: "2026-09-14"
+last_updated: "2026-09-15"
 tags: ["hermes skill", "agent skill", "developer tools", "skill setup"]
 ---
 
 # Reason Machines DevTools Skills - Setup Guide
 
-**Source:** [reason-machines/devtools-skills](https://github.com/reason-machines/devtools-skills) (9,451+ installs across the 40 skills at 100+ installs)
+**Source:** [reason-machines/devtools-skills](https://github.com/reason-machines/devtools-skills) (9,850+ installs across the 42 skills at 100+ installs)
 **Category:** Developer Tools / CLI Automation
 **Quality Tier:** 🟡 Unverified (no skills.sh Trust Hub / Socket / Snyk verdicts published)
 
@@ -42,7 +42,7 @@ Legacy `aradotso/devtools-skills` install paths still resolve via GitHub 301.
 | Per-skill tooling | Each SKILL.md wraps an external CLI - install the underlying tool (e.g. Chrome DevTools MCP, OpenAI CLI) as its docs require |
 | API keys | Some skills (polymarket, wecom, twitter-cli) need their platform credentials |
 
-## Roster - 40 Skills at 100+ Installs
+## Roster - 42 Skills at 100+ Installs
 
 | Skill | Installs | Wraps |
 |---|---|---|
@@ -86,8 +86,10 @@ Legacy `aradotso/devtools-skills` install paths still resolve via GitHub 301.
 | devtools-hub-installer | 208 | DevTools hub installer |
 | sigcli-auth-proxy | 207 | SigCLI auth proxy |
 | subnautica-2-coop-mod | 205 | Subnautica 2 coop mod |
+| subnautica-ii-coop-mod | 204 | Subnautica II coop mod |
+| devtools-debugger-mcp-nodejs | 195 | Chrome DevTools MCP - Node.js debugging |
 
-The remaining 133 skills sit below 100 installs and are excluded from this roster. Roster is the skills.sh API snapshot of Sep 14, 2026 - install counts move as the bot ships new skills.
+The remaining 131 skills sit below 100 installs and are excluded from this roster. Roster is the skills.sh API snapshot of Sep 15, 2026 - install counts move as the bot ships new skills.
 
 ## CorpusIQ Use Cases
 
@@ -103,7 +105,7 @@ The remaining 133 skills sit below 100 installs and are excluded from this roste
 ## Honest Notes / Known Risks
 
 - Auto-generated on a 30-minute cadence - SKILL.md freshness and accuracy vary by source repo
-- 7 of the 40 are Subnautica II coop-mod skills - game-modding niche, low ops value
+- 8 of the 42 are Subnautica II coop-mod skills - game-modding niche, low ops value
 - Automation-adjacent skills present (op-auto-clicker, blur-autoclicker-automation, gooserelayvpn-android-client) - review before use
 - NOASSERTION license, 4★, no skills.sh security audits published
 
