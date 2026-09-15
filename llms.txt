@@ -71,7 +71,7 @@
 - [GoHighLevel (LeadConnector)](https://www.corpusiq.io/docs/connectors/gohighlevel): If you run an agency or service business on GoHighLevel, this is where contacts, pipelines, appointments, and payments all converge. Connecting it let
 - [Google Ads for agencies: one manager account, one connection](https://www.corpusiq.io/docs/connectors/google-ads-for-agencies): Set up one Google Ads Manager Account and one agency-controlled Google identity so CorpusIQ can report across linked client accounts.
 - [Google Ads](https://www.corpusiq.io/docs/connectors/google_ads): Google Ads is often the single largest acquisition channel, and the platform's reported conversions rarely match what GA4 or your CRM actually see. Co
-- [Google Workspace (Gmail, Calendar, Drive, Docs, Sheets, GA4, Ads, Search Console)](https://www.corpusiq.io/docs/connectors/google_workspace): 
+- [Google Workspace - Gmail, Calendar, Drive, GA4, Ads](https://www.corpusiq.io/docs/connectors/google_workspace): 
 - [GunBroker](https://www.corpusiq.io/docs/connectors/gunbroker): GunBroker is the primary marketplace for firearms sellers, and its data - active listings, watchers, sold revenue, fraud claims - lives nowhere else..
 - [HubSpot](https://www.corpusiq.io/docs/connectors/hubspot): HubSpot is where your sales pipeline, customer relationships, and deal history live. Connecting it lets CorpusIQ answer \"how is my pipeline doing?\" 
 - [IMAP Email](https://www.corpusiq.io/docs/connectors/imap): Not every mailbox is Gmail or Outlook. If you run email on Fastmail, ProtonMail Bridge, your own domain, or a hosted IMAP provider, this connector let
