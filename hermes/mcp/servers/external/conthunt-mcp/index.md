@@ -1,5 +1,5 @@
 ---
-title: "ContHunt MCP - Viral Short-Form Content Research for AI Agents"
+title: ContHunt MCP - Viral Short-Form Content Research
 description: "Remote MCP server for viral content research: search keywords, hashtags and creators across TikTok, YouTube Shorts, Instagram Reels and LinkedIn, run a deep research agent that analyzes hooks, pacing and script structure, and get Hook Score, Virality Index and reach metrics per video. OAuth sign-in, hosted endpoint, companion agent skill."
 category: Social Media Management
 stars: n/a (new listing)

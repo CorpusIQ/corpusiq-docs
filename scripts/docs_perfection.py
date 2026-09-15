@@ -121,7 +121,7 @@ def audit_site():
     import posixpath
     for h in glob.glob(os.path.join(SITE, '**', '*.html'), recursive=True):
         rel = os.path.relpath(h, SITE).replace(os.sep, '/')
-        if rel == '404.html' or '/hermes/templates/' in rel or 'tokens-saved-widget' in rel:
+        if rel == '404.html' or '/hermes/templates/' in ('/' + rel) or 'tokens-saved-widget' in rel:
             continue
         t = open(h, encoding='utf-8', errors='replace').read()
         m = re.search(r'<title>(.*?)</title>', t, re.S | re.I)
@@ -156,7 +156,11 @@ def audit_site():
             if pp.startswith('/docs/'):
                 R = posixpath.normpath(pp[len('/docs'):])  # www-form /docs/<path> -> <path>
             elif pp.startswith('/'):
-                R = posixpath.normpath(pp)
+                # Root-relative non-/docs links are the deliberate www-form family
+                # (docs pages pointing at marketing-site paths, e.g. /enterprise,
+                # /connect/..., /compare). They resolve on www.corpusiq.io; they
+                # are not docs-internal targets, so they are not audited here.
+                continue
             else:
                 base = '/' + pdir if pdir else '/'
                 R = posixpath.normpath(base.rstrip('/') + '/' + pp)
