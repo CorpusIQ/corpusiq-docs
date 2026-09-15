@@ -2,13 +2,13 @@
 
 Current state and ongoing work for the public docs repository.
 
-## File count (updated September 12, 2026)
+## File count (updated September 14, 2026)
 
-- **Total Markdown files:** 2,325
+- **Total Markdown files:** 2,355
 - **Hermes subdirectory:** 30 directories covering skills, MCP servers, setup guides, blueprints, ecosystem discovery, prompts, and more
 - **Docs subdirectory:** 21 directories — SEO-optimized product pages, connector guides, troubleshooting, and comparison pages
 - **Skills catalog:** 432 setup guides for Hermes skills (measured: *setup*.md under hermes/skills)
-- **MCP servers:** 874 total .md under hermes/mcp/; external catalog 621 servers (+507 guides) per Sep 10 midday sweep
+- **MCP servers:** 937 total .md under hermes/mcp/; external catalog 674 servers (+560 guides) per Sep 14 evening sweep
 - **SEO pages:** 126 top-level landing pages targeting high-intent operator keywords
 
 ## Site architecture
@@ -35,6 +35,7 @@ The repo is actively maintained with daily automated updates:
 
 ## Ongoing doc gaps
 
+- **Maintenance ✅ (Sep 14, 2026, docs mgmt cron, evening):** Evening MCP sweep shipped 9 new guides (Helio, geolint, Serp Sidekick, Prism, Nebelus, CherryShot, Foliyo, Convert.Online, RankJot); external catalog 665→674 servers, +551→+560 guides; 5 endpoints live-probed over JSON-RPC (all 401 auth gates) and 4 packages verified (npm x3, PyPI x1). Bumped 27 stale docs/ top-level SEO-page dates (2026-09-03/06 → 2026-09-14; the dual-frontmatter chatgpt-integration.md bumped in both blocks; zero-stale rescan 0). Full internal link audit clean (14,038 links, 0 broken, 4 placeholder SKIPs). Frontmatter quote defects 0/0. Retention gate PASS. PII scan clean on all new pages. Refreshed docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod → 2026-09-14. Deploy closed in-cycle; all 9 new server slugs verified HTTP 200 on docs.corpusiq.io. PROGRESS.md stats refreshed (2,355 MD, 937 hermes/mcp .md, external catalog 674 servers +560 guides, 432 setup guides, 126 SEO pages).
 - **Maintenance ✅ (Sep 10, 2026, docs mgmt cron):** Closed the midday deploy gap: Sep 10 midday MCP sweep (APIzone MCP guide + midday sweep report, pushed 11:07) was NOT live (slugs 404 pre-deploy) - deployed to Vercel, all new slugs verified HTTP 200. Catalog fix: the 6 unindexed Aug 12 morning guides (Clipkit, Orcha, FiatDock, Apiosk, directree, LocalCan) added to the external catalog additions log, plus akta.pro (Aug 10, unindexed guide) added to Analytics & Business Intelligence - both long-standing gaps closed. Sweeps index refreshed (Sep 10 night entry + last_updated). Refreshed docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod → 2026-09-10. Production link audit: 1,570 absolute links, 1 stale-deploy 404 → 0 after deploy. Frontmatter valid, retention gate PASS, PII scan clean. PROGRESS.md stats refreshed (2,282 MD, 874 hermes/mcp .md, 621 external servers +507 guides, catalog 424, 126 SEO pages).
 - **Maintenance ✅ (Sep 9, 2026, docs mgmt cron):** Bumped 99 stale `last_updated` dates in docs/ top-level SEO pages (2026-08-31 → 2026-09-09, both quote styles preserved, 0 quote defects after). Refreshed docs/hermes-sitemap.xml (193 URLs) + docs/sitemap-index.xml lastmod → 2026-09-09. Full internal link audit clean. PII scan clean. Frontmatter quote defects: 0/0. PROGRESS.md stats refreshed (2,255 MD, 854 hermes/mcp .md, 604 external servers +490 guides, catalog 419, 126 SEO pages). Deploy-gap closure: Sep 9 evening MCP sweep (8 servers: AgentLedger, Vibe Prospecting, Wafeq, Agent Watch, Ultralayer, TrustScan, Yandex Metrika, Site Passport, pushed 11:15) was NOT live (all 8 slugs 404 pre-deploy) — deployed to Vercel, all 8 new server slugs + Sep 9 morning controls verified HTTP 200.
 - **Skills sweep ✅ (Sep 12, 2026, skills-monitor cron, evening):** 44-query skills.sh API sweep (4,002 unique, 0 failed queries). Cluster diff: 120 known / 0 candidates. Hot board clean (all catalog-covered, exit 0). Tiered crossref 633 unique / 52 NEW / 101 PARTIAL, PARTIAL ≥100: one new candidate. **New discrete guide: `antigravity-manager` (reason-machines/trending-skills, 1,396 installs)** — skill for [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) (31.3K⭐, Tauri v2 + Rust, pushed Sep 12 2026), the multi-account proxy that exposes Google/Anthropic web sessions as OpenAI/Anthropic/Gemini API endpoints with rotation, quota tracking, and failover. 🔵 Community; disclosed: no skills.sh audits published + NOASSERTION license + web-session-token proxy model. Never previously evaluated (zero tree hits); publisher family already guided. Also fixed a link gap: the 2 existing trending-skills guides (`openclaw-control-center`, `hermes-labyrinth-observability`) were never added to catalog/index.md — all 3 entries now indexed. All other NEW flags = standing rejections at unchanged counts. Catalog 431→432, setup guides 526→527.
