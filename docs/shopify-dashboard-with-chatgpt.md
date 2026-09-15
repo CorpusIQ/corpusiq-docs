@@ -13,7 +13,7 @@ keywords:
 - ChatGPT Shopify monitoring
 - live sales dashboard
 - MCP Shopify dashboard
-last_updated: "2026-09-06"
+last_updated: "2026-09-14"
 category: Shopify
 cluster: 6
 canonical_url: https://www.corpusiq.io/docs/shopify-dashboard-with-chatgpt

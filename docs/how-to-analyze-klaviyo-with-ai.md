@@ -2,7 +2,7 @@
 title: "How to Analyze Klaviyo with AI (Ask Email Marketing Questions in Plain English)"
 description: "Connect Klaviyo to ChatGPT, Claude, or Perplexity and ask campaign, flow, and revenue questions in plain English with source-cited answers from your live account."
 tags: [connectors, ai, chatgpt, claude]
-last_updated: 2026-09-06
+last_updated: 2026-09-14
 ---
 
 ## How to analyze Klaviyo with AI

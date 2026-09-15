@@ -2,7 +2,7 @@
 title: "How to Analyze HubSpot with AI (Ask CRM Questions in Plain English)"
 description: "Connect HubSpot to ChatGPT, Claude, or Perplexity and ask pipeline, deal, and revenue questions in plain English with source-cited answers from your live CRM."
 tags: [connectors, ai, chatgpt, claude]
-last_updated: 2026-09-06
+last_updated: 2026-09-14
 ---
 
 ## How to analyze HubSpot with AI

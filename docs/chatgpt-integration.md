@@ -5,7 +5,7 @@ description: >-
   cited answers without leaving the chat.
 canonical: "https://www.corpusiq.io/docs/chatgpt-integration/"
 robots: "index,follow"
-last_updated: "2026-09-03"
+last_updated: "2026-09-14"
 title: "ChatGPT Integration - CorpusIQ Docs"
 tags: ["hermes agent", "ai agent", "documentation"]
 
@@ -15,7 +15,7 @@ title: "ChatGPT Integration with CorpusIQ  --  Connect Business Data to ChatGPT"
 description: "Connect your business data to ChatGPT in 2 minutes with CorpusIQ. One-click OAuth for 40+ tools: HubSpot, QuickBooks, Stripe, GA4. Ask ChatGPT about revenue, customers, orders, and marketing from live data."
 category: "Documentation"
 tags: ["chatgpt integration", "connect data to chatgpt", "chatgpt business data", "mcp chatgpt", "ai business intelligence", "chatgpt plugin", "corpusiq chatgpt"]
-last_updated: "2026-09-03"
+last_updated: "2026-09-14"
 canonical: "https://www.corpusiq.io/docs/chatgpt-integration"
 robots: "index,follow"
 ---

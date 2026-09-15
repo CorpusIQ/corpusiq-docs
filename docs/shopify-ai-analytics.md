@@ -13,7 +13,7 @@ keywords:
 - MCP Shopify analytics
 - AI sales reporting
 - Shopify data analysis AI
-last_updated: "2026-09-06"
+last_updated: "2026-09-14"
 category: Shopify
 cluster: 6
 canonical_url: https://www.corpusiq.io/docs/shopify-ai-analytics
