@@ -1,4 +1,4 @@
-# CorpusIQ vs Traditional BI — Why Dashboards Are Dying
+# CorpusIQ vs Traditional BI - Why Dashboards Are Dying
 
 A VP of Finance once told me: "We have 47 dashboards. Nobody looks at any of them."
 
@@ -46,7 +46,7 @@ Instead of building dashboards, connect your tools to an AI assistant. Then ask 
 
 > "Which customers drove the increase?"
 
-> "Show me HubSpot activity for those customers — any red flags?"
+> "Show me HubSpot activity for those customers - any red flags?"
 
 > "Have they opened our recent Klaviyo emails?"
 
@@ -59,11 +59,11 @@ Each answer pulls live data from the source tool. No pre-built views. No "let me
 | **Setup time** | Weeks to months | 5 minutes |
 | **Question flexibility** | Only pre-built views | Any question you can think of |
 | **Data freshness** | Scheduled refreshes (hours to days) | Live, every query |
-| **Follow-up questions** | Requires new dashboard/chart | Instant — just keep asking |
-| **Cross-tool queries** | Requires data warehouse + ETL | Native — query across tools simultaneously |
+| **Follow-up questions** | Requires new dashboard/chart | Instant - just keep asking |
+| **Cross-tool queries** | Requires data warehouse + ETL | Native - query across tools simultaneously |
 | **Cost** | $20K-$150K+/year (licenses + people) | Free trial, then subscription |
-| **Maintenance** | Ongoing — broken charts, schema changes | Zero — connectors stay connected |
-| **Actual usage** | 1.3 views/month (industry average) | Used daily — it answers real questions |
+| **Maintenance** | Ongoing - broken charts, schema changes | Zero - connectors stay connected |
+| **Actual usage** | 1.3 views/month (industry average) | Used daily - it answers real questions |
 
 ## When BI still makes sense
 
@@ -74,7 +74,7 @@ Traditional BI tools are still the right choice when:
 - You have a data warehouse and a dedicated analytics team
 - Your questions are genuinely static (monthly close package)
 
-For everything else — the messy, ad-hoc, cross-tool questions operators actually ask — MCP + AI is faster, cheaper, and actually gets used.
+For everything else - the messy, ad-hoc, cross-tool questions operators actually ask - MCP + AI is faster, cheaper, and actually gets used.
 
 ## The bottom line
 

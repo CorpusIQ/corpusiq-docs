@@ -1,5 +1,5 @@
 ---
-title: "TikTok Transcript MCP - AI Transcriptions of Public TikTok Videos"
+title: TikTok Transcript MCP - AI Transcriptions of Public TikTok
 description: "Remote MCP server that transcribes public TikTok videos with an AI speech model across 90+ languages: clean punctuated text, word and sentence timings, speaker labels for duets and interviews, SRT and VTT subtitle files, confidence scores, and optional post metadata, hosted on the Apify MCP gateway with your own token or Apify OAuth."
 category: Content & Research
 stars: n/a (new listing, github.com/deapi-ai/tiktok-transcript-mcp)

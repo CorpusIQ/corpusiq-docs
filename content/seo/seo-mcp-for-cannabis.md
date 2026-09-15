@@ -1,4 +1,4 @@
-# MCP for Cannabis — Compliance, Inventory, and Multi-Location Ops
+# MCP for Cannabis - Compliance, Inventory, and Multi-Location Ops
 
 Cannabis operators run: Metrc for compliance, QuickBooks for financials (where possible), POS for sales, and spreadsheets for everything else.
 

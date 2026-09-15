@@ -1,4 +1,4 @@
-# MCP for Government Contractors — DCAA Compliance, Project Costs, and Revenue
+# MCP for Government Contractors - DCAA Compliance, Project Costs, and Revenue
 
 Government contractors manage: Deltek for project accounting, QuickBooks for financials, Stripe for payments, HubSpot for BD pipeline, and SharePoint for contract documents.
 

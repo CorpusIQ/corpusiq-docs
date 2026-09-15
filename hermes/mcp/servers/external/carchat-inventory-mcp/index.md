@@ -1,5 +1,5 @@
 ---
-title: "CarChat Inventory MCP - Live US Dealership Inventory for Agents"
+title: CarChat Inventory MCP - Live US Dealership Inventory
 description: "Official no-auth MCP server for CarChat's live US dealership vehicle inventory - plain-English search, VIN detail, dealer directory and market price statistics across six tools at carchat.io/mcp, live-verified Aug 31, 2026."
 category: Data & Analytics
 stars: "0 (new listing, Carchat-io/mcp)"

@@ -1,4 +1,4 @@
-# Top MCP Platforms in 2026 — Comparison Guide
+# Top MCP Platforms in 2026 - Comparison Guide
 
 MCP (Model Context Protocol) is the open standard for connecting AI assistants to external tools. Multiple platforms now offer MCP-based business data access. Here's how they compare.
 
@@ -12,7 +12,7 @@ MCP (Model Context Protocol) is the open standard for connecting AI assistants t
 
 **Cross-tool queries:** Can you ask "compare Shopify revenue to Meta Ads spend" and get a joined answer? This is the whole point.
 
-**AI compatibility:** Does it work with ChatGPT, Claude, or any MCP client — or are you locked into one assistant?
+**AI compatibility:** Does it work with ChatGPT, Claude, or any MCP client - or are you locked into one assistant?
 
 ## Platform comparison
 

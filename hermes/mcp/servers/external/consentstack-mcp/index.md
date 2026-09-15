@@ -1,5 +1,5 @@
 ---
-title: "ConsentStack MCP - Agent-Managed Cookie Consent and Compliance"
+title: ConsentStack MCP - Agent-Managed Cookie Consent
 description: "Hosted MCP server from ConsentStack with 22 tools for GDPR/CCPA cookie consent end to end - create sites, stage and publish banners, run compliance scans and categorize trackers with OAuth 2.1 sign-in at app.consentstack.io/api/mcp."
 category: Compliance
 stars: "n/a (official hosted service)"

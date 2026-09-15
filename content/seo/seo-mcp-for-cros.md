@@ -1,6 +1,6 @@
-# MCP for CROs — Revenue Truth Across Every System
+# MCP for CROs - Revenue Truth Across Every System
 
-As CRO, you own the revenue number. But the revenue data lives in five different systems — and none of them agree.
+As CRO, you own the revenue number. But the revenue data lives in five different systems - and none of them agree.
 
 HubSpot says $2.1M closed this quarter. Stripe says $1.9M collected. QuickBooks says $1.85M recognized. Finance says $1.8M. Which one is right?
 
@@ -21,7 +21,7 @@ Connect your systems. Then ask the question that matters:
 
 > "Reconcile closed-won deals against actual Stripe revenue and QuickBooks recognized revenue. Show me the gaps."
 
-> "What's our real revenue this quarter — not the CRM number, the actual cash collected?"
+> "What's our real revenue this quarter - not the CRM number, the actual cash collected?"
 
 > "Which deals closed but haven't paid? What's the total uncollected amount?"
 
@@ -31,7 +31,7 @@ Connect your systems. Then ask the question that matters:
 
 ## What CROs tell us
 
-> "I spent the first 4 days of every quarter on reconciliation. Now I ask one question and know the real number. I use those 4 days to actually manage the revenue — not just count it."
+> "I spent the first 4 days of every quarter on reconciliation. Now I ask one question and know the real number. I use those 4 days to actually manage the revenue - not just count it."
 
 ---
 

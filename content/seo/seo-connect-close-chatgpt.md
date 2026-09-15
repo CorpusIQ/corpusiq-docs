@@ -1,4 +1,4 @@
-# Connect Close CRM to ChatGPT — Sales Pipeline in Plain English
+# Connect Close CRM to ChatGPT - Sales Pipeline in Plain English
 
 Your sales process runs on Close. Leads, opportunities, activities, search. Every pipeline question requires building views and filtering.
 

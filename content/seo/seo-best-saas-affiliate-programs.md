@@ -1,6 +1,6 @@
 # Best SaaS Affiliate Programs with Recurring Commissions in 2026
 
-Recurring affiliate commissions are the holy grail. One referral pays you for years — not just once. Here are the top programs that offer genuine recurring revenue for affiliates.
+Recurring affiliate commissions are the holy grail. One referral pays you for years - not just once. Here are the top programs that offer genuine recurring revenue for affiliates.
 
 ## What makes a great SaaS affiliate program
 
@@ -12,11 +12,11 @@ Before the list: what actually matters when choosing a program to promote.
 
 **Cookie window:** How long after someone clicks your link do you get credit? 30 days is standard. 60-90 days is generous.
 
-**Average deal size:** B2B SaaS deals are $50-$500/month. A 25% commission on a $200/month customer is $50/month — for years.
+**Average deal size:** B2B SaaS deals are $50-$500/month. A 25% commission on a $200/month customer is $50/month - for years.
 
 **Affiliate support:** Do they provide banners, email templates, landing pages? Or are you on your own?
 
-## Top recurring SaaS affiliate programs — July 2026
+## Top recurring SaaS affiliate programs - July 2026
 
 | Program | Commission | Duration | Cookie | Deal Size | Best For |
 |---------|:----------:|:--------:|:------:|:---------:|----------|
@@ -43,7 +43,7 @@ Three things make the CorpusIQ affiliate program different:
 
 ## How to apply
 
-https://www.corpusiq.io/affiliate — Free to join. Real-time dashboard. Monthly payouts.
+https://www.corpusiq.io/affiliate - Free to join. Real-time dashboard. Monthly payouts.
 
 ## What to look for in any program
 

@@ -1,5 +1,5 @@
 ---
-title: "RealUptime MCP - Uptime, Status and Outage Intelligence for Agents"
+title: RealUptime MCP - Uptime, Status and Outage Intelligence
 description: "RealUptime MCP exposes four connected products through one server: public status pages, multi-region uptime monitoring, application error tracking and free third-party outage checks. A keyless public endpoint serves 7 probe-backed outage tools with no account, and a keyed endpoint manages the operator's own monitors, incidents and status pages."
 category: Business Operations
 stars: 0

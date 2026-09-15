@@ -1,5 +1,5 @@
 ---
-title: "VulX Watch MCP - Independent Security Review for AI-Built Apps"
+title: VulX Watch MCP - Independent Security Review
 description: "Remote MCP that watches a GitHub repository and reports what the last independent security reading found. Never returns a patch or diff. OAuth (GitHub) auth, endpoint live but token-gated. Three tools: watch_repo, security_status, and review controls."
 category: Security
 stars: "n/a (hosted service)"

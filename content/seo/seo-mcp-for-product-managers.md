@@ -1,4 +1,4 @@
-# MCP for Product Managers — User Data, Revenue, and Roadmap in One Place
+# MCP for Product Managers - User Data, Revenue, and Roadmap in One Place
 
 You're a PM. Your data lives in: GA4 (user behavior), Stripe (revenue), HubSpot (customer feedback), Jira (engineering velocity), and Slack (team discussions).
 
@@ -24,7 +24,7 @@ Connect your tools. Then ask:
 > "Which features are customers requesting most? Cross-reference with revenue impact from Stripe."
 
 **Launch impact:**
-> "Show me adoption of the new feature — users, retention, and revenue impact since launch."
+> "Show me adoption of the new feature - users, retention, and revenue impact since launch."
 
 **User research:**
 > "Which users churned this month? What features did they use? What feedback did they give?"

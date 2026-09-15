@@ -1,4 +1,4 @@
-# MCP for Churches and Nonprofits — Donations, Expenses, and Member Data
+# MCP for Churches and Nonprofits - Donations, Expenses, and Member Data
 
 Churches and religious organizations run: Planning Center for members, QuickBooks for finances, Stripe for online giving, Mailchimp for communications, and HubSpot for visitor follow-up.
 

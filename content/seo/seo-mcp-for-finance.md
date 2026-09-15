@@ -1,4 +1,4 @@
-# MCP for Finance Teams — Close the Books in Minutes, Not Days
+# MCP for Finance Teams - Close the Books in Minutes, Not Days
 
 Month-end close. Three words that make every finance team groan.
 
@@ -12,7 +12,7 @@ Every finance team has the same routine:
 
 1. Pull P&L from QuickBooks
 2. Pull revenue from Stripe
-3. Reconcile — find the gaps
+3. Reconcile - find the gaps
 4. Pull AR aging report
 5. Pull AP aging report
 6. Check for unrecorded revenue in HubSpot deals
@@ -61,12 +61,12 @@ These are the questions finance teams actually need answered. They currently tak
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 
@@ -76,7 +76,7 @@ Connect QuickBooks. Add Stripe for payment reconciliation. Add HubSpot for deal-
 
 One controller at a 50-person SaaS company switched 2 months ago. She told us:
 
-> "I used to spend Monday through Wednesday on close. Now I spend Monday morning. The rest of the week is analysis — actually looking at the numbers instead of just pulling them."
+> "I used to spend Monday through Wednesday on close. Now I spend Monday morning. The rest of the week is analysis - actually looking at the numbers instead of just pulling them."
 
 That's the shift. Not faster reports. A different job.
 

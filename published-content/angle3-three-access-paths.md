@@ -3,7 +3,7 @@
 CorpusIQ doesn't lock you into one interface. Your business data follows you wherever you work.
 
 ## Path 1: AI Chat Assistants
-Ask questions directly in **ChatGPT, Claude, or Perplexity** — the AI assistants you already use. Connect your CorpusIQ account once, then ask anything about your business data in plain English.
+Ask questions directly in **ChatGPT, Claude, or Perplexity** - the AI assistants you already use. Connect your CorpusIQ account once, then ask anything about your business data in plain English.
 
 > "Compare this month's Shopify revenue to last month, broken down by product category."
 
@@ -17,8 +17,8 @@ Connect any MCP-compatible client or build custom integrations using CorpusIQ's 
 
 ```
 mcpServers:
-  corpusiq:
-    url: https://mcp.corpusiq.io
+ corpusiq:
+ url: https://mcp.corpusiq.io
 ```
 
 **One account. Three access paths. All your business data.**

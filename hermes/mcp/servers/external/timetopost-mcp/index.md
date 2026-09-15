@@ -1,5 +1,5 @@
 ---
-title: "TimeToPost MCP - Social Scheduling with Draft Approval and AutoSEO"
+title: TimeToPost MCP - Social Scheduling with Draft Approval
 description: "TimeToPost MCP lets agents draft, schedule, publish and cancel social posts, manage a human approval queue and read engagement metrics through the TimeToPost API, with AutoSEO content workflows included. Hosted Streamable HTTP endpoint with browser OAuth, plus a local stdio adapter; 30+ tools documented in the vendor README."
 category: Social Media Management
 stars: 0

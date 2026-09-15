@@ -1,4 +1,4 @@
-# Connect BambooHR to ChatGPT — HR Data in Plain English
+# Connect BambooHR to ChatGPT - HR Data in Plain English
 
 Your employee data lives in BambooHR. Headcount, time off, performance, hiring pipeline. Every report requires building a custom view.
 

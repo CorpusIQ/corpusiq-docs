@@ -1,8 +1,8 @@
-# How to Connect Multiple Data Sources to AI — The Complete Guide
+# How to Connect Multiple Data Sources to AI - The Complete Guide
 
 You have five data sources: QuickBooks, Stripe, Shopify, HubSpot, GA4. Each one knows part of the story. None of them talk to each other.
 
-Here's how to connect them all to an AI assistant in under 10 minutes — and what changes when you do.
+Here's how to connect them all to an AI assistant in under 10 minutes - and what changes when you do.
 
 ## The old way: data warehouse
 
@@ -58,12 +58,12 @@ Each answer draws from live data across multiple tools. No warehouse. No SQL. No
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 
@@ -73,7 +73,7 @@ Connect QuickBooks. Connect Stripe. Connect Shopify. Connect HubSpot. Connect GA
 
 You stop building reports and start asking questions. The questions get better. You go from "what happened last month?" to "why did this customer churn, and who else looks like them?"
 
-That shift — from reporting to understanding — is where the value lives.
+That shift - from reporting to understanding - is where the value lives.
 
 ---
 

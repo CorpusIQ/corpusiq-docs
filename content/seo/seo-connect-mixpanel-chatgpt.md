@@ -1,4 +1,4 @@
-# Connect Mixpanel to ChatGPT — Product Analytics in Plain English
+# Connect Mixpanel to ChatGPT - Product Analytics in Plain English
 
 Your product analytics run on Mixpanel. Events, funnels, retention, cohorts. Every insight requires building reports and interpreting charts.
 

@@ -1,4 +1,4 @@
-# Connect Square to ChatGPT — Payment and POS Data in Plain English
+# Connect Square to ChatGPT - Payment and POS Data in Plain English
 
 Your payments and POS run on Square. Transactions, customers, inventory, employees. Reports take time to build.
 

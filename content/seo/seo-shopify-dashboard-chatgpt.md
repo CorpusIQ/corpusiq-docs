@@ -1,4 +1,4 @@
-# Shopify Dashboard with ChatGPT — Your Store in Plain English
+# Shopify Dashboard with ChatGPT - Your Store in Plain English
 
 Forget the Shopify dashboard. Ask ChatGPT:
 
@@ -10,7 +10,7 @@ Forget the Shopify dashboard. Ask ChatGPT:
 
 > "What's our customer retention rate? Who's at risk of churning?"
 
-ChatGPT pulls live data from Shopify through MCP. Every answer is current — not yesterday's export. Not last week's report. Right now.
+ChatGPT pulls live data from Shopify through MCP. Every answer is current - not yesterday's export. Not last week's report. Right now.
 
 Setup: corpusiq.io → Shopify → MCP config → ChatGPT. 2 minutes.
 

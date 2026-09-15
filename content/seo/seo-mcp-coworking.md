@@ -1,4 +1,4 @@
-# MCP for Coworking Spaces — Occupancy, Revenue Per Desk, Member Retention
+# MCP for Coworking Spaces - Occupancy, Revenue Per Desk, Member Retention
 
 Coworking operators run: Nexudus/Officernd for space management, QuickBooks for financials, Stripe for payments, HubSpot for tours and pipeline.
 

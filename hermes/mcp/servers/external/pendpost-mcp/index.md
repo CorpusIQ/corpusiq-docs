@@ -1,5 +1,5 @@
 ---
-title: "PendPost MCP - Local-First Social Publishing with Approval Gates"
+title: PendPost MCP - Local-First Social Publishing with Approval
 description: "PendPost is a free, open-source, local-first social MCP server: an agent drafts and schedules posts across Instagram, Facebook, LinkedIn, YouTube, X, Telegram, Discord, Mastodon, Nostr, WordPress and Ghost behind a human approval gate. Read-only tools can never publish, nothing publishes until approved, and auto-approve is owner-only."
 category: Social Media Management
 stars: 7

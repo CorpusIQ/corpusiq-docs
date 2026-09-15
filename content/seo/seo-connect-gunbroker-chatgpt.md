@@ -1,4 +1,4 @@
-# Connect GunBroker to ChatGPT — Firearm Marketplace Analytics
+# Connect GunBroker to ChatGPT - Firearm Marketplace Analytics
 
 Your GunBroker business runs on listings, orders, and seller metrics. Every performance check requires navigating multiple seller views.
 

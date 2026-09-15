@@ -1,5 +1,5 @@
 ---
-title: Hermes Agent Skill Authoring - Official Guide for Writing SKILL.md
+title: Hermes Agent Skill Authoring - Official Guide for Writing
 description: Official Nous Research guide for writing high-quality SKILL.md files for the Hermes Agent ecosystem. Templates, best practices, validation, and publishing workflow. 230+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-skill-authoring-setup/"
 robots: "index,follow"
@@ -43,7 +43,7 @@ Every skill is a single `SKILL.md` file with YAML frontmatter and Markdown body:
 
 ```yaml
 ---
-name: my-skill-name
+name: Hermes Agent Skill Authoring - Official Guide for Writing
 description: "Clear, concise description of what the skill does."
 version: 1.0.0
 platforms: [linux, macos, windows]

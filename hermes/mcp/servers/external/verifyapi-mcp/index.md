@@ -1,5 +1,5 @@
 ---
-title: "VerifyAPI MCP - Fact-Checking with Signed Receipts for Agents"
+title: VerifyAPI MCP - Fact-Checking with Signed Receipts
 description: "Single-tool MCP server (npm stdio) that verifies factual claims against live web sources and returns a citable verdict with source URL, published date, verbatim quote and an Ed25519-signed JWS receipt - so downstream systems can prove the check actually happened."
 category: Content & Research
 stars: n/a (new listing)

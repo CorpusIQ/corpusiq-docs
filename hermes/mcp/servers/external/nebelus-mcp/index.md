@@ -1,5 +1,5 @@
 ---
-title: "Nebelus MCP - Governed Agent Building for Regulated Industries"
+title: Nebelus MCP - Governed Agent Building
 description: "MCP server that exposes the Nebelus Construction API: about 48 tools giving an MCP client full agent build parity - create and update agents, edit agent graphs, attach knowledge bases and vector stores, wire connectors, set governance policies and locked guardrails, enable grounding-trace claim-to-source verification and read deployment wiring. Agents stay drafts by design; publishing happens in the Nebelus console. EU and GCC-KSA data residency, ISO 27001 / ISO 9001 / GDPR-aligned."
 category: Developer Tools
 stars: n/a (commercial platform)

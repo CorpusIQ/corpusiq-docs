@@ -88,5 +88,5 @@ join:
 - Try the same pattern with **Shopify** (order history) and **Zendesk** or
   **Intercom** tickets to rank refund requests by order value
 - See the [recipes/](../recipes/README.md) directory for more query patterns
-- Read [CorpusIQ for Customer Support](../ai-for-customer-support/) for the
+- Read [CorpusIQ for Customer Support](/ai-for-customer-support) for the
   full support workflow guide

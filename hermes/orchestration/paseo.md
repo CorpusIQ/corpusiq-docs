@@ -1,5 +1,5 @@
 ---
-title: "Paseo  --  Cross-Session Agent Orchestration"
+title: "Paseo -- Cross-Session Agent Orchestration"
 description: "Paseo setup and evaluation notes: a self-hosted daemon that runs Claude Code, Codex, Copilot, OpenCode, and Pi agents in parallel from desktop, mobile, web, and CLI."
 canonical: "https://www.corpusiq.io/docs/hermes/orchestration/paseo/"
 robots: "index,follow"
@@ -8,7 +8,7 @@ tags: ["agent orchestration", "multi-agent", "paseo", "coding agents"]
 
 ---
 
-# Paseo  --  Cross-Session Agent Orchestration
+# Paseo -- Cross-Session Agent Orchestration
 
 Paseo (getpaseo/paseo) is a self-hosted orchestration layer for coding agents. It runs a local daemon that manages multiple agents in parallel, and exposes one interface across desktop, mobile, web, and CLI. It fills the gap between single-session agent loops and full platform orchestration: you spin agents up, watch them work, attach to live output, and send follow-up tasks without opening a terminal per agent.
 
@@ -30,13 +30,13 @@ The GitHub API classifies the license as `NOASSERTION`, but the LICENSE file's o
 
 ```
 Desktop / Mobile / Web / CLI clients
-              │
-              ▼
-         Paseo daemon  (local server, manages agent lifecycles)
-              │
-   ┌──────────┼──────────────┬───────────────┐
-   ▼          ▼              ▼               ▼
-Claude Code  Codex       Copilot        OpenCode / Pi
+ │
+ ▼
+ Paseo daemon (local server, manages agent lifecycles)
+ │
+ ┌──────────┼──────────────┬───────────────┐
+ ▼ ▼ ▼ ▼
+Claude Code Codex Copilot OpenCode / Pi
 ```
 
 The daemon is the single source of truth. Clients pair to it locally, over TCP, or through the end-to-end encrypted relay for device pairing.
@@ -58,11 +58,11 @@ Run the daemon and self-hosted web UI in a container:
 
 ```bash
 docker run -d --name paseo \
-  -p 6767:6767 \
-  -e PASEO_PASSWORD=change-me \
-  -v "$PWD/paseo-home:/home/paseo" \
-  -v "$PWD:/workspace" \
-  ghcr.io/getpaseo/paseo:latest
+ -p 6767:6767 \
+ -e PASEO_PASSWORD=change-me \
+ -v "$PWD/paseo-home:/home/paseo" \
+ -v "$PWD:/workspace" \
+ ghcr.io/getpaseo/paseo:latest
 ```
 
 Open `http://localhost:6767` after it starts. Extend the base image with the agent CLIs you use, then provide credentials through environment variables or the persistent `/home/paseo` volume.
@@ -77,8 +77,8 @@ Download from [paseo.sh/download](https://paseo.sh/download) or the GitHub relea
 paseo run --provider claude/opus-4.6 "implement user authentication"
 paseo run --provider codex/gpt-5.5 --worktree feature-x "implement feature X"
 
-paseo ls                           # list running agents
-paseo attach abc123                # stream live output
+paseo ls # list running agents
+paseo attach abc123 # stream live output
 paseo send abc123 "also add tests" # follow-up task
 
 # run on a remote daemon; --cwd is a path on that host
@@ -100,12 +100,12 @@ Installed and verified on the worker node after founder approval:
 - CLI: `@getpaseo/cli` 0.6.1 via `npm install -g` → `/home/hermes/.local/bin/paseo`
 - Daemon: started via `paseo onboard` (non-interactive mode), PID 734067
 - Health check: `paseo status` → Local Daemon `running`, Connected Daemon `reachable`, listen `127.0.0.1:6767`, relay **disabled** (privacy-first default, no telemetry)
-- Logs: `~/.paseo/daemon.log` — clean, no errors on startup or client connects
+- Logs: `~/.paseo/daemon.log` - clean, no errors on startup or client connects
 - Prerequisite note: agent CLIs (Claude Code / Codex / OpenCode) are not yet installed on this host; the daemon runs standalone and agents can be added per provider.
 
 ## Native Hermes Support (verified 2026-08-30)
 
-**Hermes Agent is one of the 39 coding agents Paseo natively runs** — listed on the official supported-agents page (paseo.sh/agents): "Hermes Agent — Run Nous Research's Hermes Agent on your machine, drive it from your phone or desktop." This upgrades Paseo from a reference implementation to a directly usable coordination surface for the Hermes stack: launch Hermes sessions, watch them work, and send follow-up tasks from a single daemon, cross-device.
+**Hermes Agent is one of the 39 coding agents Paseo natively runs** - listed on the official supported-agents page (paseo.sh/agents): "Hermes Agent - Run Nous Research's Hermes Agent on your machine, drive it from your phone or desktop." This upgrades Paseo from a reference implementation to a directly usable coordination surface for the Hermes stack: launch Hermes sessions, watch them work, and send follow-up tasks from a single daemon, cross-device.
 
 ## Fit With This Stack
 

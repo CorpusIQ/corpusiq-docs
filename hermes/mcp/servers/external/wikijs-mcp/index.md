@@ -1,5 +1,5 @@
 ---
-title: "Wiki.js MCP - Self-Hosted Wiki Knowledge Operations for Agents"
+title: Wiki.js MCP - Self-Hosted Wiki Knowledge Operations
 description: "MCP server for self-hosted Wiki.js 2.x instances: 62 tools that search, read and edit pages, version history, tags, assets, comments, users and groups through the Wiki.js GraphQL API, with content grep, compare-and-swap updates and confirmation tokens for destructive operations. stdio via npx @ni-c/wikijs-mcp, MIT."
 category: Knowledge Management
 stars: "n/a (new listing, ni-c/wikijs-mcp)"

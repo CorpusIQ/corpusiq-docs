@@ -1,4 +1,4 @@
-# AI for Compliance — Audit-Ready Answers in Seconds
+# AI for Compliance - Audit-Ready Answers in Seconds
 
 Auditors ask for data. You spend two weeks pulling it from five systems, formatting it, and praying the numbers match.
 
@@ -18,7 +18,7 @@ Connect your tools. Then ask:
 
 > "What changed in our financial systems in the last 30 days? Flag any unusual transactions."
 
-> "Show me the complete audit trail for customer X — contract, invoices, payments, emails."
+> "Show me the complete audit trail for customer X - contract, invoices, payments, emails."
 
 > "Which users accessed financial data this month? Show me the access log."
 

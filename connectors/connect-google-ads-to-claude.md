@@ -1,4 +1,4 @@
-# How to Connect Google Ads to Claude (Real ROAS, Real Answers)
+# How to Connect Google Ads to Claude (Plain English)
 
 Your Google Ads dashboard shows clicks and spend. It doesn't tell you if you're actually profitable. Connect Google Ads to Claude through CorpusIQ and ask the questions that actually matter.
 

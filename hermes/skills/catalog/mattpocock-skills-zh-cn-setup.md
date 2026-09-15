@@ -1,5 +1,5 @@
 ---
-title: "Matt Pocock Skills (简体中文) - Localized Engineering Suite Setup"
+title: Matt Pocock Skills (简体中文) - Localized Engineering Suite
 description: "vinvcn/mattpocock-skills-zh-cn - 54 skills, 138.8K combined installs. The Simplified-Chinese localization of mattpocock/skills: TDD, domain modeling, code review, and spec-to-ticket workflows for Chinese-speaking agents, plus a translate-skill workflow for localizing other skill packs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mattpocock-skills-zh-cn-setup/"
 robots: "index,follow"

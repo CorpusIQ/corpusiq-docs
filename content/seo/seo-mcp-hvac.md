@@ -1,4 +1,4 @@
-# MCP for HVAC Companies — Service Calls, Revenue, and Technician Performance
+# MCP for HVAC Companies - Service Calls, Revenue, and Technician Performance
 
 HVAC companies run: ServiceTitan for dispatch, QuickBooks for financials, Stripe for payments, and a CRM for maintenance agreements.
 

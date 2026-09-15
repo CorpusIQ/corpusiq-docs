@@ -1,4 +1,4 @@
-# Connect Postscript to ChatGPT — SMS Marketing Answers
+# Connect Postscript to ChatGPT - SMS Marketing Answers
 
 Your SMS marketing runs on Postscript. Subscribers, keywords, campaigns, analytics. Every performance check requires navigating multiple views.
 

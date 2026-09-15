@@ -1,4 +1,4 @@
-# MCP for Budget vs Actuals — Know Where You Stand Every Day
+# MCP for Budget vs Actuals - Know Where You Stand Every Day
 
 Budget vs actuals is the most important financial report nobody checks until month-end. By then, the variance is 30 days old and the money is already spent.
 

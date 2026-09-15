@@ -1,4 +1,4 @@
-# MCP for Startups — Know Your Numbers From Day One
+# MCP for Startups - Know Your Numbers From Day One
 
 You're a startup founder. You live in Stripe (MRR, churn), QuickBooks (burn rate), HubSpot (pipeline), and GA4 (traffic). Four tools. Zero time to pull reports.
 
@@ -6,7 +6,7 @@ You need answers. Fast.
 
 ## The founder's data problem
 
-Startups don't have data teams. The founder IS the data team. Every investor update, every board deck, every "how are we doing?" — that's you, exporting CSVs at 11 PM.
+Startups don't have data teams. The founder IS the data team. Every investor update, every board deck, every "how are we doing?" - that's you, exporting CSVs at 11 PM.
 
 You know the questions. You don't have time to answer them:
 

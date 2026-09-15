@@ -1,5 +1,5 @@
 ---
-title: "Vercel Eve Agent Skills - Official Eve Agent Framework Skills Setup"
+title: Vercel Eve Agent Skills - Official Eve Agent Framework
 description: "vercel/eve - 4 first-party skills from Vercel's open Eve agent framework: the eve skill itself, gh-pr-description, technical-writing, and human-writing. 6.9K skills.sh installs, 5K-star repo. Setup guide for Hermes agents."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/vercel-eve-agent-skills-setup/"
 robots: "index,follow"

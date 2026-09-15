@@ -1,4 +1,4 @@
-# HubSpot Dashboard with ChatGPT — Pipeline in Plain English
+# HubSpot Dashboard with ChatGPT - Pipeline in Plain English
 
 Stop building HubSpot dashboards. Start asking ChatGPT:
 

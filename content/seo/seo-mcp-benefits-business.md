@@ -1,4 +1,4 @@
-# MCP Benefits for Business — Why MCP Matters for Operators
+# MCP Benefits for Business - Why MCP Matters for Operators
 
 MCP (Model Context Protocol) is the open standard for connecting AI to business tools. Here's what that actually means for the people running companies.
 
@@ -18,11 +18,11 @@ The tax is paid in time. Every day. By every operator.
 
 Connect your tools once. Then:
 
-> "Did we have a good month?" — answered in 15 seconds from live QuickBooks + Stripe + Shopify data.
+> "Did we have a good month?" - answered in 15 seconds from live QuickBooks + Stripe + Shopify data.
 
-> "Which campaigns are working?" — answered with blended ROAS from Meta + Google + Klaviyo.
+> "Which campaigns are working?" - answered with blended ROAS from Meta + Google + Klaviyo.
 
-> "Should we hire?" — answered with runway calculation from live financials + pipeline data.
+> "Should we hire?" - answered with runway calculation from live financials + pipeline data.
 
 Same questions. Same data. Zero exports. Zero reconciliation.
 

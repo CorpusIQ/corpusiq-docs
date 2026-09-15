@@ -1,5 +1,5 @@
 ---
-title: browser-act - Record-and-Replay Browser Automation for Hermes
+title: browser-act - Record-and-Replay Browser Automation
 description: Install and use browser-act/skills@browser-act (99K installs) for agent-native browser automation. Record interactions as reusable templates, replay with parameter substitution, and evade bot detection.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/browser-act-setup/"
 robots: "index,follow"

@@ -1,18 +1,18 @@
-# MCP for Customer Support — Know Everything Before You Respond
+# MCP for Customer Support - Know Everything Before You Respond
 
 A customer emails: "Where's my order?" You open Shopify. Find the order. Check the tracking. Open the email thread. Find the last response. Fifteen minutes later, you reply.
 
-What if the answer was already there — across Shopify, Gmail, and your shipping platform — in 5 seconds?
+What if the answer was already there - across Shopify, Gmail, and your shipping platform - in 5 seconds?
 
 ## The support data problem
 
 Support teams toggle between 4+ tools for every ticket:
 
-- **Shopify** — order status, tracking, customer history
-- **Stripe** — payment status, refund eligibility
-- **Gmail/Outlook** — ticket history, previous conversations
-- **HubSpot** — customer tier, account notes, CSM assignment
-- **Slack** — internal escalations, team discussions
+- **Shopify** - order status, tracking, customer history
+- **Stripe** - payment status, refund eligibility
+- **Gmail/Outlook** - ticket history, previous conversations
+- **HubSpot** - customer tier, account notes, CSM assignment
+- **Slack** - internal escalations, team discussions
 
 Answering "where's my order?" means checking at least three of them. Multiply by 50 tickets a day. That's not support. That's data retrieval.
 
@@ -20,7 +20,7 @@ Answering "where's my order?" means checking at least three of them. Multiply by
 
 Connect your tools once. Then ask anything:
 
-> "Show me everything about this customer — recent orders, open tickets, payment history, and account tier."
+> "Show me everything about this customer - recent orders, open tickets, payment history, and account tier."
 
 > "Which customers with open tickets are in our top 20% by lifetime value?"
 

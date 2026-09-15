@@ -1,5 +1,5 @@
 ---
-title: "Kuudo Amazon MCP Suite - Selling Partner and Vendor Central Operations"
+title: Kuudo Amazon MCP Suite - Selling Partner and Vendor Central
 description: "Kuudo's Amazon MCP suite runs Amazon Seller (Selling Partner API) and Amazon Vendor Central operations from an agent: orders, listings, pricing, FBA and reimbursements for sellers, plus Direct Fulfillment, Retail Procurement, Data Kiosk, Retail Analytics and A+ Content for vendors. Deployed into the operator's own cloud with a Kuudo API key."
 category: Commerce & E-Commerce
 stars: 0

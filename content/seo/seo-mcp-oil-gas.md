@@ -1,4 +1,4 @@
-# MCP for Oil and Gas — Production Volumes, Costs, and Revenue
+# MCP for Oil and Gas - Production Volumes, Costs, and Revenue
 
 Oil and gas operators track: P2/Merrick for production, QuickBooks for financials, land management systems, and JIB accounting.
 

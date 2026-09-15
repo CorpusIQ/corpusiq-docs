@@ -1,4 +1,4 @@
-# MCP for AP Management — Never Miss a Vendor Payment
+# MCP for AP Management - Never Miss a Vendor Payment
 
 Accounts Payable shouldn't mean scrambling to find which bills are due.
 

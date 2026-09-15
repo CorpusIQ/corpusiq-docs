@@ -1,5 +1,5 @@
 ---
-title: Audit Hermes Agent Skills - Skill Usage Audit & Cleanup Setup Guide
+title: "Audit Hermes Agent Skills - Usage Audit & Cleanup"
 description: Install and use audit-hermes-agent-skills from cnife/skills - audits installed Hermes skills by usage frequency via the Hermes internal API and generates an XLSX cleanup report. 13 installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/cnife-audit-hermes-agent-skills-setup/"
 robots: "index,follow"

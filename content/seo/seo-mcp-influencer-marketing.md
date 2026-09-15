@@ -1,4 +1,4 @@
-# MCP for Influencer Marketing — Campaign Performance Across Platforms
+# MCP for Influencer Marketing - Campaign Performance Across Platforms
 
 Influencer campaigns run across TikTok, Instagram, YouTube. Tracking performance means checking each platform, pulling metrics, and building manual reports.
 
@@ -10,7 +10,7 @@ Connect your tools via MCP and ask across all platforms:
 
 > "Compare TikTok vs Instagram influencer performance. Where's the better ROI?"
 
-> "Which content format performs best — stories, posts, reels?"
+> "Which content format performs best - stories, posts, reels?"
 
 Setup: corpusiq.io → Connect social + analytics tools → ChatGPT/Claude → Ask.
 

@@ -1,4 +1,4 @@
-# CorpusIQ vs Merge — MCP Queries vs Unified APIs
+# CorpusIQ vs Merge - MCP Queries vs Unified APIs
 
 Merge.dev provides unified APIs for HR, payroll, accounting, and recruiting. CorpusIQ connects business tools to AI assistants via MCP.
 
@@ -22,7 +22,7 @@ Great for: operators who want answers from their data.
 | Interface | Unified REST APIs | Natural language via AI |
 | Verticals | HR, payroll, accounting, recruiting | All business tools |
 | Setup | Developer integration | 5-minute OAuth |
-| AI-native | No | Yes — MCP-native |
+| AI-native | No | Yes - MCP-native |
 
 ---
 

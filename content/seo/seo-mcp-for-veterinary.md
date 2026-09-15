@@ -1,4 +1,4 @@
-# MCP for Veterinary Practices — Clinical Revenue, Inventory, and Client Data
+# MCP for Veterinary Practices - Clinical Revenue, Inventory, and Client Data
 
 Veterinary practices run: Avimark/Cornerstone for clinical, QuickBooks for financials, Stripe for payments, and your client communication platform.
 

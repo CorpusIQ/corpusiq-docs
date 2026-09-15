@@ -1,5 +1,5 @@
 ---
-title: Mellow Hub MCP - Multi-Network Social Publishing with Guardrails
+title: Mellow Hub MCP - Multi-Network Social Publishing
 description: Hosted MCP server that publishes one post to Instagram, TikTok, YouTube, X, LinkedIn, Threads, Bluesky, Pinterest and Facebook with per-network validation, previews, idempotency keys and scoped autopilot or review keys.
 category: Social Media Management
 stars: n/a (new listing)

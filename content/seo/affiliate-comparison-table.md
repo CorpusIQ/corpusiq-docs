@@ -1,4 +1,4 @@
-# Best Recurring Affiliate Programs in SaaS — 2026 Comparison
+# Best Recurring Affiliate Programs in SaaS - 2026 Comparison
 
 Not all recurring commissions are equal. Here's who pays what, for how long.
 
@@ -20,7 +20,7 @@ Not all recurring commissions are equal. Here's who pays what, for how long.
 
 Three things:
 
-1. **3-year duration.** Most cap at 12 months. We pay for 36. The average SaaS customer stays 3+ years — you should earn for the full relationship.
+1. **3-year duration.** Most cap at 12 months. We pay for 36. The average SaaS customer stays 3+ years - you should earn for the full relationship.
 
 2. **25% rate.** Competitive with the best programs. Not the highest percentage (Semrush is 40%) but combined with the 3-year duration, total earnings per referral are higher.
 

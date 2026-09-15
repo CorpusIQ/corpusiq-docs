@@ -1,4 +1,4 @@
-# MCP for Car Washes — Wash Volume, Membership, and Revenue Per Site
+# MCP for Car Washes - Wash Volume, Membership, and Revenue Per Site
 
 Car wash operators run: DRB for POS, QuickBooks for financials, Stripe for payments, membership management.
 

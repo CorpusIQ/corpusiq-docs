@@ -1,4 +1,4 @@
-# MCP for Dental Practices — Production, Collections, and Patient Pipeline
+# MCP for Dental Practices - Production, Collections, and Patient Pipeline
 
 Dental practices run: Dentrix/Eaglesoft for clinical, QuickBooks for financials, Stripe for patient payments, and HubSpot for new patient pipeline.
 

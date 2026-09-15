@@ -1,4 +1,4 @@
-# The 3-Year Affiliate Advantage — Why Duration Beats Rate
+# The 3-Year Affiliate Advantage - Why Duration Beats Rate
 
 Every affiliate marketer compares commission rates. 20% vs 25% vs 30%. But the number that matters more than rate is duration.
 
@@ -10,7 +10,7 @@ Every affiliate marketer compares commission rates. 20% vs 25% vs 30%. But the n
 | CorpusIQ | 25% | 36 months | $1,800 |
 | HubSpot | 20% | 12 months | $480 |
 
-Semrush has the highest rate (40%). HubSpot has the highest monthly payout ($100/mo). But CorpusIQ pays 3.1x more total than Semrush and 3.75x more than HubSpot — because of duration.
+Semrush has the highest rate (40%). HubSpot has the highest monthly payout ($100/mo). But CorpusIQ pays 3.1x more total than Semrush and 3.75x more than HubSpot - because of duration.
 
 ## Why duration dominates
 
@@ -20,7 +20,7 @@ A 25% commission for 36 months beats a 40% commission for 12 months. Every time.
 
 ## The CorpusIQ window
 
-25% × 36 months = up to $1,800 per referral at $200/mo. The average SaaS customer stays 3+ years. You earn for the full relationship — not just the first year.
+25% × 36 months = up to $1,800 per referral at $200/mo. The average SaaS customer stays 3+ years. You earn for the full relationship - not just the first year.
 
 ---
 

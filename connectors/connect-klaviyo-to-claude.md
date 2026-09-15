@@ -1,4 +1,4 @@
-# How to Connect Klaviyo to Claude (Ask Your Email Data Directly)
+# How to Connect Klaviyo to Claude (Plain English)
 
 Klaviyo has the data. Claude has the reasoning. CorpusIQ connects them so you can ask plain-English questions about your email marketing performance.
 

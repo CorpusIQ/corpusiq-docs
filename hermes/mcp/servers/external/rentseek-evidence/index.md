@@ -1,5 +1,5 @@
 ---
-title: "RentSeek Evidence MCP - Executive Compensation with Source Links"
+title: RentSeek Evidence MCP - Executive Compensation with Source
 description: "No-auth remote MCP endpoint that returns latest-FY named executive compensation for public companies by ticker or CIK, with pay components, totals and filing source URLs. Two tools: get_executive_compensation and list_available_tickers. Free public endpoint."
 category: Finance
 stars: n/a (hosted)

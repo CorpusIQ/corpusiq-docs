@@ -14,15 +14,15 @@ Monthly, through Reditus or FirstPromoter. Commission is calculated on the custo
 
 ## What if my referral cancels?
 
-Commission stops when they cancel. But the average SaaS customer stays 3+ years — and you earn for every month they're active.
+Commission stops when they cancel. But the average SaaS customer stays 3+ years - and you earn for every month they're active.
 
 ## Can I refer from multiple channels?
 
-Yes. Same link works everywhere — YouTube descriptions, blog posts, newsletters, social media, client emails.
+Yes. Same link works everywhere - YouTube descriptions, blog posts, newsletters, social media, client emails.
 
 ## Do I need to be a CorpusIQ customer?
 
-No. You can promote without using the product — though affiliates who use it typically convert better because they speak from experience.
+No. You can promote without using the product - though affiliates who use it typically convert better because they speak from experience.
 
 ## What markets are eligible?
 

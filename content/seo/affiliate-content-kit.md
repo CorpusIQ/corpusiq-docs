@@ -1,4 +1,4 @@
-# Affiliate Promotion Content Kit — Ready-to-Post
+# Affiliate Promotion Content Kit - Ready-to-Post
 
 Copy-paste these across your channels. No AI voice. Human. Direct.
 
@@ -38,7 +38,7 @@ Most SaaS affiliate programs cap your commission at 12 months. We just changed t
 
 The product: CorpusIQ connects 40+ business tools to AI assistants. Operators ask questions in plain English and get answers from live QuickBooks, Stripe, HubSpot, Shopify data. No dashboards. No reports. Just answers.
 
-If you have an audience of founders, operators, or finance leaders — this converts.
+If you have an audience of founders, operators, or finance leaders - this converts.
 
 Link in comments.
 
@@ -48,7 +48,7 @@ Link in comments.
 
 **Ready-to-send:**
 
-Most SaaS tools cap affiliate commissions at 12 months. CorpusIQ pays 25% recurring for 36 months — up to $1,800 per referral.
+Most SaaS tools cap affiliate commissions at 12 months. CorpusIQ pays 25% recurring for 36 months - up to $1,800 per referral.
 
 The product connects business data to AI (37 tools, 5-minute setup). Operators ask questions in plain English instead of building reports.
 

@@ -1,6 +1,6 @@
-# How to Create an AI Data Layer — Without Building One
+# How to Create an AI Data Layer - Without Building One
 
-An AI data layer sits between your business tools and your AI assistant. It translates "how are we doing?" into API calls across QuickBooks, Stripe, and HubSpot — and returns a unified answer.
+An AI data layer sits between your business tools and your AI assistant. It translates "how are we doing?" into API calls across QuickBooks, Stripe, and HubSpot - and returns a unified answer.
 
 Building one from scratch takes 3-6 months. Here's how to get one in 5 minutes.
 
@@ -29,16 +29,16 @@ Cost: 3-6 months of engineering. Maintenance: forever.
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 
-This is your AI data layer. Pre-built. 37 connectors. Read-only. The natural language translation, query routing, cross-tool joins — all handled.
+This is your AI data layer. Pre-built. 37 connectors. Read-only. The natural language translation, query routing, cross-tool joins - all handled.
 
 Connect QuickBooks. Connect Stripe. Connect HubSpot. Now ask anything.
 

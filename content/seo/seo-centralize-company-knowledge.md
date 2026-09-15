@@ -1,4 +1,4 @@
-# How to Centralize Company Knowledge — Without Building a Wiki
+# How to Centralize Company Knowledge - Without Building a Wiki
 
 Every company has the same problem: knowledge is scattered. Financial data in QuickBooks. Customer data in HubSpot. Product data in your database. Policies in Google Drive. Decisions in Slack threads.
 
@@ -16,7 +16,7 @@ This fails because:
 
 ## The new way: connect, don't collect
 
-Instead of copying data into a wiki, connect your tools to an AI assistant. The AI becomes the knowledge layer — it queries the source systems live and answers questions in plain English.
+Instead of copying data into a wiki, connect your tools to an AI assistant. The AI becomes the knowledge layer - it queries the source systems live and answers questions in plain English.
 
 > "What's our revenue this month?"
 
@@ -32,12 +32,12 @@ Each answer draws from the tool that actually has the data. No wiki to maintain.
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 

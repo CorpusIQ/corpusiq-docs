@@ -1,5 +1,5 @@
 ---
-title: "Salesbot MCP: LinkedIn Prospecting and CRM with Human Approval"
+title: "Salesbot MCP: LinkedIn Prospecting and CRM with Human"
 description: "Hosted LinkedIn and Sales Navigator MCP server with 48 safety-gated tools for AI-assisted B2B prospecting: lead discovery, human-approved outreach, inbox workflows, campaigns, and a built-in CRM with stages, notes, tasks, and custom fields. Every send is gated by approval and server-side limits."
 category: Marketing
 stars: n/a (new listing)

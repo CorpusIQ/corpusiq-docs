@@ -1,5 +1,5 @@
 ---
-title: "September 15, 2026 Skills.sh Sweep - AccessLint WCAG Suite + Podo Design Catalog"
+title: September 15, 2026 Skills.sh Sweep - AccessLint WCAG Suite +
 description: "Skills.sh sweep September 15, 2026: AccessLint/skills (WCAG 2.2 audit suite, 5.1K combined) + podo/design-agent-skills (150-skill design catalog, 17.3K combined) - 2 setup guides, 2 roster reconciles (devtools-skills, wind-alice), 2 rejections."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep15-2026/"
 robots: "index,follow"

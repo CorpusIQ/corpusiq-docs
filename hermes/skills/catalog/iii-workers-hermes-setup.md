@@ -1,5 +1,5 @@
 ---
-title: III Workers Hermes Bridge - Full Setup Guide for Hermes Agents
+title: III Workers Hermes Bridge - Setup Guide
 description: Put the Hermes agent on the iii bus - omnichannel front door wiring Hermes's 27+ messaging platforms to the entire iii function registry.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/iii-workers-hermes-setup/"
 robots: "index,follow"
@@ -165,4 +165,4 @@ iii invoke hermes::send '{"platform": "telegram", "message": "Test from iii bus"
 
 ---
 
-**Related:** [hermes-agent-framework-setup.md](hermes-agent-framework-setup.md), [blueprint-orchestration-setup](blueprint-orchestration-setup)
+**Related:** [hermes-agent-framework-setup.md](hermes-agent-framework-setup.md), [blueprint-orchestration-setup](/hermes/skills/catalog/blueprint-orchestration-setup)

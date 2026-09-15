@@ -1,4 +1,4 @@
-# Complete MCP Connector Directory — 40+ Live Business Data Sources
+# Complete MCP Connector Directory - 40+ Live Business Data Sources
 
 This is the definitive directory of business data connectors available through MCP. Every connector listed here is live, read-only, and connects in 30 seconds via OAuth.
 
@@ -76,23 +76,23 @@ This is the definitive directory of business data connectors available through M
 
 **Read-only external retrieval:** Connector tools can query vendor data but do not create, modify, or delete records in those connected systems. Separately annotated CorpusIQ control-plane tools operate on user-declared CorpusIQ state.
 
-**OAuth-native:** No API keys to manage. Each connector uses OAuth — 30 seconds to connect, instant to revoke.
+**OAuth-native:** No API keys to manage. Each connector uses OAuth - 30 seconds to connect, instant to revoke.
 
 **Cross-tool queries:** Ask across any combination of connectors. "Compare Shopify revenue to Meta Ads spend" queries both simultaneously.
 
 **Single endpoint:** All 40+ connectors available through one MCP endpoint:
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 
-**Free trial — no credit card:** [corpusiq.io](https://www.corpusiq.io)
+**Free trial - no credit card:** [corpusiq.io](https://www.corpusiq.io)
 
 ---
 

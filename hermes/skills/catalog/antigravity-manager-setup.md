@@ -1,5 +1,5 @@
 ---
-title: Antigravity Manager - Multi-Account LLM Proxy & Rotation Setup
+title: "Antigravity Manager - Multi-Account LLM Proxy & Rotation"
 description: Setup guide for antigravity-manager, the Agent Skills skill for Antigravity Manager (31K-star Tauri/Rust tool) that proxies Google and Anthropic accounts as OpenAI/Anthropic/Gemini API endpoints with rotation and quota tracking. 1,396+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/antigravity-manager-setup/"
 robots: "index,follow"
@@ -70,25 +70,25 @@ The proxy listens on port **8045** by default.
 | Anthropic-native | `POST http://localhost:8045/v1/messages` | Claude Code |
 | Gemini-native | `POST http://localhost:8045/v1/models/{model}:generateContent` | Gemini clients |
 
-Example (OpenAI SDK — Gemini through the gateway):
+Example (OpenAI SDK - Gemini through the gateway):
 
 ```python
 import os
 from openai import OpenAI
 
 client = OpenAI(
-    api_key=os.environ["ANTIGRAVITY_API_KEY"],
-    base_url="http://localhost:8045/v1",
+ api_key=os.environ["ANTIGRAVITY_API_KEY"],
+ base_url="http://localhost:8045/v1",
 )
 resp = client.chat.completions.create(
-    model="gemini-2.5-pro",
-    messages=[{"role": "user", "content": "Hello"}],
+ model="gemini-2.5-pro",
+ messages=[{"role": "user", "content": "Hello"}],
 )
 ```
 
 ## Connecting Agent Clients
 
-**Claude Code** — point the Anthropic env vars at the gateway:
+**Claude Code** - point the Anthropic env vars at the gateway:
 
 ```bash
 export ANTHROPIC_API_KEY=$ANTIGRAVITY_API_KEY
@@ -100,15 +100,15 @@ claude
 
 ## CorpusIQ Use Cases
 
-- **Agent fleet failover** — point OpenAI-compatible agents at the gateway for automatic 429/401 rotation across accounts.
-- **Model-cost arbitrage** — remap hard-coded model names to cheaper tiers (`gpt-4.*` → `gemini-2.5-flash`) without touching client code.
-- **Quota monitoring** — one dashboard for every Gemini/Claude account an agent fleet consumes.
-- **Premium-quota protection** — background tasks auto-demote to Flash-tier models.
-- **Provider experimentation** — test OpenAI/Anthropic/Gemini protocols against one local gateway before committing to a provider.
+- **Agent fleet failover** - point OpenAI-compatible agents at the gateway for automatic 429/401 rotation across accounts.
+- **Model-cost arbitrage** - remap hard-coded model names to cheaper tiers (`gpt-4.*` → `gemini-2.5-flash`) without touching client code.
+- **Quota monitoring** - one dashboard for every Gemini/Claude account an agent fleet consumes.
+- **Premium-quota protection** - background tasks auto-demote to Flash-tier models.
+- **Provider experimentation** - test OpenAI/Anthropic/Gemini protocols against one local gateway before committing to a provider.
 
 ## Security & Compliance Notes
 
-- **No skills.sh security audits published** for this skill (no Trust Hub / Socket / Snyk verdicts render on the publisher page) — review before production use.
+- **No skills.sh security audits published** for this skill (no Trust Hub / Socket / Snyk verdicts render on the publisher page) - review before production use.
 - The upstream tool repo ([lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager), 31K+ stars, pushed Sep 12 2026) ships **no standard license** (GitHub API: NOASSERTION).
 - The gateway proxies **web session tokens**, not official API keys. Upstream providers may flag or ban accounts used this way (the built-in 403 detection exists for exactly this case). Review Google/Anthropic terms before production use.
 
@@ -119,7 +119,7 @@ claude
 | Port 8045 in use | `lsof -ti:8045 | xargs kill -9` or change `proxy.port` in `~/.antigravity_tools/gui_config.json` |
 | Forgotten credentials | `docker logs antigravity-manager` or grep `gui_config.json` for `api_key` / `admin_password` |
 | Account 403 / banned | Marked in UI and skipped; add a fresh account and remove the banned one |
-| All accounts 429 | Rotation exhausted — add accounts or wait for quota reset; check the dashboard |
+| All accounts 429 | Rotation exhausted - add accounts or wait for quota reset; check the dashboard |
 | macOS Gatekeeper | `xattr -d com.apple.quarantine /Applications/Antigravity\ Tools.app` |
 | Claude Code not connecting | Verify the proxy responds and env vars are exported |
 
@@ -131,14 +131,14 @@ curl -s http://localhost:8045/v1/models -H "Authorization: Bearer ${ANTIGRAVITY_
 
 # Full round-trip through the OpenAI-compatible endpoint
 curl -s http://localhost:8045/v1/chat/completions \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer ${ANTIGRAVITY_API_KEY}" \
-  -d '{"model":"gemini-2.5-pro","messages":[{"role":"user","content":"ping"}]}'
+ -H "Content-Type: application/json" \
+ -H "Authorization: Bearer ${ANTIGRAVITY_API_KEY}" \
+ -d '{"model":"gemini-2.5-pro","messages":[{"role":"user","content":"ping"}]}'
 ```
 
 ---
 
 ## Notes
 
-- From the [ara.so](https://ara.so) Daily 2026 Skills collection — auto-generated from trending GitHub repos.
+- From the [ara.so](https://ara.so) Daily 2026 Skills collection - auto-generated from trending GitHub repos.
 - Sibling guides from the same publisher: [OpenClaw Control Center](/docs/hermes/skills/catalog/openclaw-control-center-setup) and [Hermes Labyrinth Observability](/docs/hermes/skills/catalog/hermes-labyrinth-observability-setup).

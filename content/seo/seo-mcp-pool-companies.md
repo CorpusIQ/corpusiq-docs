@@ -1,4 +1,4 @@
-# MCP for Pool Companies — Service Routes, Chemical Costs, Revenue
+# MCP for Pool Companies - Service Routes, Chemical Costs, Revenue
 
 Pool service companies run: Pool software for routes, QuickBooks for financials, Stripe for payments, CRM for new builds and renovations.
 

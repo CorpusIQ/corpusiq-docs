@@ -1,5 +1,5 @@
 ---
-title: "RE Data Refinery MCP - Pay-Per-Query Real Estate Intelligence"
+title: RE Data Refinery MCP - Pay-Per-Query Real Estate
 description: "RE Data Refinery MCP server combines live Zillow data with county GIS, tax delinquency, sheriff sales, permits and probate records into scored property intelligence, paid per query in USDC on Base via x402 - no subscription"
 category: Real Estate
 stars: n/a (new listing)

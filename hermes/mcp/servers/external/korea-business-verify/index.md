@@ -1,5 +1,5 @@
 ---
-title: "Korea Business Verify MCP - Live KYB Checks for Korean Companies"
+title: Korea Business Verify MCP - Live KYB Checks
 description: "Hosted no-auth MCP server that verifies Korean companies in real time against the National Tax Service. Send a 10-digit business registration number and get registration status, tax type, and representative-name matching. Two tools: check_korean_business_status and verify_korean_business. Free during pilot."
 category: Compliance
 stars: 0

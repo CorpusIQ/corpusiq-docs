@@ -1,5 +1,5 @@
 ---
-title: "jp-payroll-mcp - Japanese Payroll and Social Insurance for Agents"
+title: jp-payroll-mcp - Japanese Payroll and Social Insurance
 description: Japanese payroll, social insurance and labour-law MCP server that computes answers from published government tables instead of looking them up. 29 tools over a free HTTP API, with the statute or ministerial notice cited for every figure. Ideal for HR operators, payroll service providers and accounting agents handling Japanese employment."
 category: Business Operations
 stars: 1

@@ -1,4 +1,4 @@
-# MCP for Mining — Production, Costs, and Equipment Analytics
+# MCP for Mining - Production, Costs, and Equipment Analytics
 
 Mining operations track: Modular for fleet management, SAP for financials, QuickBooks for cost tracking, and safety management systems.
 

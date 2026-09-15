@@ -1,4 +1,4 @@
-# MCP for Legal Teams — Matter Data, Billing, and Client Info in One Place
+# MCP for Legal Teams - Matter Data, Billing, and Client Info in One Place
 
 Your firm uses Clio for matters, QuickBooks for billing, Stripe for payments, and Gmail for client communications. Four systems. Every client status update requires checking all of them.
 
@@ -6,7 +6,7 @@ Your firm uses Clio for matters, QuickBooks for billing, Stripe for payments, an
 
 Connect your tools. Then ask:
 
-> "Show me everything on the Smith matter — billed, collected, outstanding, last client communication."
+> "Show me everything on the Smith matter - billed, collected, outstanding, last client communication."
 
 > "What's our realization rate this month? Which matters are under-billed?"
 

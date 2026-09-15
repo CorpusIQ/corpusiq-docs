@@ -1,4 +1,4 @@
-# Connect SharePoint to ChatGPT — Enterprise Documents, AI-Searchable
+# Connect SharePoint to ChatGPT - Enterprise Documents, AI-Searchable
 
 Your company documents live in SharePoint. Across sites, libraries, and folders. Finding anything means navigating Microsoft's hierarchy.
 

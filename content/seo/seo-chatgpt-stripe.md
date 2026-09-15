@@ -1,6 +1,6 @@
-# ChatGPT for Stripe — Revenue Answers in Seconds
+# ChatGPT for Stripe - Revenue Answers in Seconds
 
-ChatGPT can query your real Stripe data. MRR, revenue, churn, customers — live, every time.
+ChatGPT can query your real Stripe data. MRR, revenue, churn, customers - live, every time.
 
 > "What's our MRR today? Compare to last month."
 

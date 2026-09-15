@@ -1,6 +1,6 @@
-# HubSpot Sales Analytics with AI — Know Your Numbers Before the Meeting
+# HubSpot Sales Analytics with AI - Know Your Numbers Before the Meeting
 
-Every sales meeting starts with "let me pull the numbers." HubSpot has them — but finding them takes 15 minutes of filtering and exporting.
+Every sales meeting starts with "let me pull the numbers." HubSpot has them - but finding them takes 15 minutes of filtering and exporting.
 
 AI-powered sales analytics: ask before the meeting. Walk in with answers.
 

@@ -1,5 +1,5 @@
 ---
-title: WaitingForPower MCP - US Energy Permitting Tracker for Agents
+title: WaitingForPower MCP - US Energy Permitting Tracker
 description: Keyless remote MCP server over the WaitingForPower dataset of U.S. energy projects stuck in permitting, sourced live from 41 state utility commissions plus EIA, LBNL, ORNL and the Federal Permitting Dashboard.
 category: Data & Analytics
 stars: 0

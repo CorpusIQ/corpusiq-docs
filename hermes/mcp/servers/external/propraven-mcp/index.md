@@ -1,5 +1,5 @@
 ---
-title: "PropRaven MCP - US Parcel and Property Intelligence for Agents"
+title: PropRaven MCP - US Parcel and Property Intelligence
 description: "PropRaven MCP gives agents access to 191.3M US parcels (110M mapped) across all 50 states with ownership, deeds, permits, hazard scores, valuations and deal screens. Eight stdio tools plus a hosted endpoint, a free API key with 1,000 monthly lookups, and pay-per-call x402 access to the paid deal products."
 category: Real Estate
 stars: 0

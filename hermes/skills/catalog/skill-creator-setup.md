@@ -1,5 +1,5 @@
 ---
-title: skill-creator - Anthropic's Skill Creation Framework for Hermes
+title: skill-creator - Anthropic's Skill Creation Framework
 description: Install and use anthropics/skills@skill-creator (317K installs) to author production-quality Hermes agent skills. Workflow scoping, YAML frontmatter, error handling patterns, verification gates, and marketplace publishing.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/skill-creator-setup/"
 robots: "index,follow"
@@ -68,7 +68,7 @@ skill-creator generate --name "social-comment-monitor" --category "social-media"
 Generates a complete SKILL.md template with all required sections:
 ```markdown
 ---
-name: social-comment-monitor
+name: skill-creator - Anthropic's Skill Creation Framework
 description: Monitor and respond to social media comments across platforms
 trigger: When checking for new social media engagement
 category: social-media

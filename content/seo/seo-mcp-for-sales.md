@@ -1,4 +1,4 @@
-# MCP for Sales Teams — Your Pipeline Answers in Plain English
+# MCP for Sales Teams - Your Pipeline Answers in Plain English
 
 You manage a sales pipeline in HubSpot. Your commission is tracked in Stripe. Contract values sit in QuickBooks. Customer health lives in your support ticket data.
 
@@ -39,12 +39,12 @@ Connect your tools. Then ask:
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 

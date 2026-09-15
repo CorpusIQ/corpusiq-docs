@@ -1,4 +1,4 @@
-# Connect Notion to ChatGPT — Your Wiki, Searchable by AI
+# Connect Notion to ChatGPT - Your Wiki, Searchable by AI
 
 Your company knowledge lives in Notion. Docs, wikis, meeting notes, project plans. Finding "what's our Q3 roadmap?" means searching Notion manually.
 

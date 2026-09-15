@@ -1,5 +1,5 @@
 ---
-title: "Docling MCP - Agentic Document Processing from IBM's Docling Project"
+title: Docling MCP - Agentic Document Processing from IBM's Docling
 description: "MCP server making Docling agentic: PDF and document conversion to structured JSON/Markdown, document generation and caching, with remote (Docling Serve API), local and hybrid execution and Milvus/LlamaIndex RAG integration. LF AI & Data project, MIT, 727 stars."
 category: Productivity
 stars: "727 (docling-project/docling-mcp)"

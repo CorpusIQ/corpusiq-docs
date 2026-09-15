@@ -1,4 +1,4 @@
-# Connect LinkedIn Ads to ChatGPT — B2B Campaign Performance in Plain English
+# Connect LinkedIn Ads to ChatGPT - B2B Campaign Performance in Plain English
 
 Your B2B ad spend lives in LinkedIn Ads. Campaign metrics, lead gen forms, audience performance. Every report requires navigating LinkedIn Campaign Manager.
 

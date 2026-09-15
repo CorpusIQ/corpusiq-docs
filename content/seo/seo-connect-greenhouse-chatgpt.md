@@ -1,4 +1,4 @@
-# Connect Greenhouse to ChatGPT — Recruiting Pipeline in Plain English
+# Connect Greenhouse to ChatGPT - Recruiting Pipeline in Plain English
 
 Your recruiting runs on Greenhouse. Candidates, interviews, offers, hiring velocity. Every pipeline question requires filtering through stages.
 

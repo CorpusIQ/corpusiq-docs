@@ -1,5 +1,5 @@
 ---
-title: "TheLuckyStrike Ops Suite - Invoicing, Time Tracking and Spreadsheets"
+title: TheLuckyStrike Ops Suite - Invoicing, Time Tracking
 description: "Local-first business ops for freelancers: numbered PDF invoices, billable time tracking, spreadsheet editing and price watching, four MIT stdio servers, no SaaS."
 category: Productivity
 stars: n/a (new listing)

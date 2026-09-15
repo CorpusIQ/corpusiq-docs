@@ -1,4 +1,4 @@
-# Shopify Sales Analysis with AI — Know What's Selling and Why
+# Shopify Sales Analysis with AI - Know What's Selling and Why
 
 Traditional sales analysis: export orders CSV, filter by date, pivot by product, calculate margins, build charts. Time: 2 hours.
 

@@ -1,10 +1,10 @@
-# MCP for QuickBooks Analytics — Financial Intelligence Without Reports
+# MCP for QuickBooks Analytics - Financial Intelligence Without Reports
 
 QuickBooks has all your financial data. Getting insights requires knowing which report to run and how to read it.
 
 Connect QuickBooks via MCP and go beyond reports:
 
-> "What's our profitability by customer? Not revenue — actual margin."
+> "What's our profitability by customer? Not revenue - actual margin."
 
 > "Analyze our expense trends. Which categories are growing faster than revenue?"
 

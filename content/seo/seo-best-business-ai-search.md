@@ -1,6 +1,6 @@
-# Best Business AI Search Tool — Find Answers Across All Your Systems
+# Best Business AI Search Tool - Find Answers Across All Your Systems
 
-You're looking for a tool that searches across QuickBooks, Stripe, HubSpot, Shopify, and Gmail — all at once. Not five separate searches. One.
+You're looking for a tool that searches across QuickBooks, Stripe, HubSpot, Shopify, and Gmail - all at once. Not five separate searches. One.
 
 That tool exists. It's called MCP.
 
@@ -8,7 +8,7 @@ That tool exists. It's called MCP.
 
 Google Drive search finds documents. Slack search finds messages. QuickBooks search finds transactions. Each tool searches its own silo. None of them can answer:
 
-> "Show me everything related to the Acme account — financials, emails, deals, support tickets."
+> "Show me everything related to the Acme account - financials, emails, deals, support tickets."
 
 This question spans 4+ tools. Traditional search can't join them.
 
@@ -32,12 +32,12 @@ The result: one answer from five data sources in 15 seconds.
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 

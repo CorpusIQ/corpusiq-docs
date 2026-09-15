@@ -1,4 +1,4 @@
-# How to Connect QuickBooks to Claude (Ask Your Books in Plain English)
+# How to Connect QuickBooks to Claude (Plain English Q&A)
 
 Instead of running reports in QuickBooks and copy-pasting into a spreadsheet, connect QuickBooks to Claude through CorpusIQ and just ask.
 

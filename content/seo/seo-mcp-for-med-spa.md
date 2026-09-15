@@ -1,8 +1,8 @@
-# MCP for Med Spas — Revenue Per Room, Product Sales, and Client Retention
+# MCP for Med Spas - Revenue Per Room, Product Sales, and Client Retention
 
 Med spas run: booking platform for appointments, QuickBooks for financials, Stripe for payments, and Klaviyo for client communications.
 
-Every Monday means pulling revenue by provider, product sales, retail inventory, and marketing performance — from five systems.
+Every Monday means pulling revenue by provider, product sales, retail inventory, and marketing performance - from five systems.
 
 ## How MCP unifies med spa ops
 

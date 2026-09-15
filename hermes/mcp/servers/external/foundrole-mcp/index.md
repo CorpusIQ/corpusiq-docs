@@ -1,5 +1,5 @@
 ---
-title: "FoundRole MCP - Fact-Checked AI Job Search and Application Tracking"
+title: FoundRole MCP - Fact-Checked AI Job Search and Application
 description: "Hosted job-search MCP: live openings from company career pages with ghost-posting, real-pay and visa-sponsorship fact-checks on every posting, plus match scoring, deterministic resume parsing, a Kanban application tracker, follow-up reminders and H1B wage data. OAuth 2.1 PKCE, free account, npm stdio bridge."
 category: Business Operations
 stars: "0 (new listing, foundrole/jobs-mcp-proxy)"

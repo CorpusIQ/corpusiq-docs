@@ -1,4 +1,4 @@
-# MCP for Executives — Stop Waiting for Reports
+# MCP for Executives - Stop Waiting for Reports
 
 You run a company. Every morning someone sends you a report. It's 24 hours old. It took someone 3 hours to build. You scan it, ask one question the report can't answer, and they spend another hour pulling the data.
 
@@ -23,7 +23,7 @@ Connect your tools once. Then ask whatever matters today:
 > "How did we do last week? Revenue, pipeline, support volume, and any anomalies."
 
 **Before a board meeting:**
-> "Show me this quarter's numbers — revenue, burn rate, headcount, and pipeline. Compare to last quarter."
+> "Show me this quarter's numbers - revenue, burn rate, headcount, and pipeline. Compare to last quarter."
 
 **During a crisis:**
 > "Something broke in production. Show me the support ticket spike, recent deploys, and affected customers."

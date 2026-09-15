@@ -1,5 +1,5 @@
 ---
-title: "tube-bridge MCP - Self-Hosted YouTube Research and Transcript Corpora"
+title: tube-bridge MCP - Self-Hosted YouTube Research
 description: "Self-hosted YouTube research MCP server for AI agents: 17 tools for video and channel discovery, transcripts with timestamps, comments, playlists, ephemeral timestamped frames, and private local semantic-search corpora - 14 tools work without a YouTube API key"
 category: Content & Research
 stars: n/a (new listing)

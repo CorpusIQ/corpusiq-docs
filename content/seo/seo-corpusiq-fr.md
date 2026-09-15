@@ -1,6 +1,6 @@
-# Plateforme MCP CorpusIQ — Connectez vos données business à ChatGPT en 5 minutes
+# Plateforme MCP CorpusIQ - Connectez vos données business à ChatGPT en 5 minutes
 
-*(French-market landing page — founder is French, EU market is strategic)*
+*(French-market landing page - founder is French, EU market is strategic)*
 
 Vous passez vos journées entre QuickBooks, Stripe, Shopify et HubSpot. Vous exportez des CSV. Vous construisez des tableaux de bord que personne ne regarde.
 
@@ -41,4 +41,4 @@ CorpusIQ connecte vos outils business à ChatGPT, Claude, ou n'importe quel assi
 
 ## Essayez gratuitement
 
-https://www.corpusiq.io — Essai gratuit, sans carte bancaire. 5 minutes. 40+ connecteurs. Lecture seule.
+https://www.corpusiq.io - Essai gratuit, sans carte bancaire. 5 minutes. 40+ connecteurs. Lecture seule.

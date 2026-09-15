@@ -1,6 +1,6 @@
-# ChatGPT for HubSpot — Pipeline Answers Without Reports
+# ChatGPT for HubSpot - Pipeline Answers Without Reports
 
-ChatGPT can now query your actual HubSpot data. Deals, contacts, pipeline, tickets — all answerable in plain English.
+ChatGPT can now query your actual HubSpot data. Deals, contacts, pipeline, tickets - all answerable in plain English.
 
 > "What deals close this month? What's the weighted pipeline?"
 

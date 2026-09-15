@@ -1,5 +1,5 @@
 ---
-title: "Pocket Drives MCP - Luxury and Exotic Vehicle Rental Marketplace"
+title: Pocket Drives MCP - Luxury and Exotic Vehicle Rental
 description: "Read-only MCP for the Pocket Drives peer-to-peer marketplace: search luxury, exotic and EV rentals from independent hosts, get quotes with daily breakdowns, taxes and deposits, check monthly availability, read renter reviews and browse host showrooms. No auth, Streamable HTTP."
 category: Commerce & E-Commerce
 stars: n/a (new listing)

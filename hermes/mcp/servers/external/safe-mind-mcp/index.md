@@ -1,5 +1,5 @@
 ---
-title: "Safe Mind MCP - Psychological Risk Assessment for German Employers"
+title: Safe Mind MCP - Psychological Risk Assessment
 description: "Official stdio MCP server for the Safe Mind platform that runs the legally required psychological risk assessment (GBU Psyche) for German companies: 12 tools to onboard an account, set up departments and locations, create survey drafts, and read anonymity-protected aggregated results with segmented analytics, published to npm as safe-mind-mcp."
 category: Compliance
 stars: n/a (new listing, github.com/lewo-media/safe-mind-tools)

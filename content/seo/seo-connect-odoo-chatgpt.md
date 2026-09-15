@@ -1,4 +1,4 @@
-# Connect Odoo to ChatGPT — ERP Answers in Plain English
+# Connect Odoo to ChatGPT - ERP Answers in Plain English
 
 Your business runs on Odoo. CRM, sales, inventory, accounting, projects. Every module has its own reports and views.
 

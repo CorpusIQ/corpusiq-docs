@@ -1,5 +1,5 @@
 ---
-title: Hermes HR Agent  --  Recruiting & People Operations Automation
+title: "Hermes HR Agent - Recruiting & People Operations Automation"
 description: Deploy an AI HR agent for resume screening, interview scheduling, onboarding coordination, policy Q&A, and compliance tracking. Complete Hermes configuration blueprint.
 category: Agents
 tags:

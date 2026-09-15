@@ -1,4 +1,4 @@
-# MCP for Venture Capital — Portfolio Metrics Across Every Company
+# MCP for Venture Capital - Portfolio Metrics Across Every Company
 
 VC firms track: portfolio company financials (QuickBooks/Stripe), pipeline (HubSpot/Affinity), fund performance (spreadsheets), LP reporting (everything manual).
 
@@ -12,9 +12,9 @@ Connect each portfolio company's tools. Then ask:
 
 > "Which portfolio companies need bridge financing based on current burn rate?"
 
-> "Show me follow-on pipeline — which companies are raising, what's the total demand?"
+> "Show me follow-on pipeline - which companies are raising, what's the total demand?"
 
-> "Build the quarterly LP update — portfolio metrics, top performers, capital deployment."
+> "Build the quarterly LP update - portfolio metrics, top performers, capital deployment."
 
 ---
 

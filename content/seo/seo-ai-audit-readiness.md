@@ -1,4 +1,4 @@
-# AI for Audit Readiness — Pass Your Next Audit Without the Panic
+# AI for Audit Readiness - Pass Your Next Audit Without the Panic
 
 Audit week: everyone drops everything. Finance pulls reports. Engineering pulls access logs. Sales pulls contracts. Legal pulls agreements. Someone reconciles it all into a package that's already two weeks late.
 
@@ -14,7 +14,7 @@ The average audit prep takes 2-4 weeks of full-time work across multiple teams.
 
 Connect your tools once. When auditors ask, answer in seconds:
 
-> "Show me the complete revenue reconciliation — Stripe vs QuickBooks vs HubSpot deals — for the audit period."
+> "Show me the complete revenue reconciliation - Stripe vs QuickBooks vs HubSpot deals - for the audit period."
 
 > "Which users accessed financial systems this quarter? Show access logs."
 

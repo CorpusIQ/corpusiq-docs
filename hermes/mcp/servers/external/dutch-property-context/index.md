@@ -1,5 +1,5 @@
 ---
-title: "Dutch Property Context MCP - Netherlands Property Reports by Address"
+title: Dutch Property Context MCP - Netherlands Property Reports
 description: "Free keyless remote MCP server that returns one verified property report per Dutch address, linking nine official open sources (BAG construction year and floor area, energy label, CBS neighbourhood statistics, noise and air quality, monument status, schools) with match-confidence signals"
 category: Real Estate
 stars: n/a (new listing)

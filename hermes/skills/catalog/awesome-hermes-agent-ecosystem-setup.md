@@ -1,5 +1,5 @@
 ---
-title: Awesome Hermes Agent Ecosystem - Comprehensive Ecosystem Navigation
+title: Awesome Hermes Agent Ecosystem - Comprehensive Ecosystem
 description: Navigate the entire Hermes Agent ecosystem - skills, tools, integrations, deployment, and multi-agent orchestration. 161+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/awesome-hermes-agent-ecosystem-setup/"
 robots: "index,follow"
@@ -111,7 +111,7 @@ docker-compose up -d
 
 ```yaml
 # ~/.hermes/profiles/work.yaml
-name: work
+name: Awesome Hermes Agent Ecosystem - Comprehensive Ecosystem
 messaging_platform: slack
 terminal_backend: docker
 model: claude-opus-4

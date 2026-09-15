@@ -1,5 +1,5 @@
 ---
-title: "CuttingToolsAI MCP - Carbide Grade Cross-Reference for Machining"
+title: CuttingToolsAI MCP - Carbide Grade Cross-Reference
 description: "Keyless remote MCP server with one read-only tool, grade_xref, that cross-references carbide insert grades across manufacturers at the same ISO application position: ask what is comparable to Sandvik GC4325 or Kennametal KC5010 and get catalog-verified comparable grades with provenance for every row, so procurement and CAM teams find equivalent inserts without vendor lock-in"
 category: Data & Analytics
 stars: 0

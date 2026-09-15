@@ -1,4 +1,4 @@
-# CorpusIQ — Stop building reports by hand. Just ask your AI.
+# CorpusIQ - Stop building reports by hand. Just ask your AI.
 
 [![MCP Toplist](https://mcptoplist.com/badge/glama%2FCorpusIQ%2Fcorpusiq-docs.svg)](https://mcptoplist.com/server/glama%2FCorpusIQ%2Fcorpusiq-docs)
 
@@ -10,9 +10,9 @@
 [![Contributors](https://img.shields.io/badge/Contributors-welcome-0a2540?style=flat-square)](https://github.com/CorpusIQ/corpusiq-docs/blob/main/CONTRIBUTING.md)
 [![License](https://img.shields.io/badge/License-MIT-627d98?style=flat-square)](LICENSE)
 
-**CorpusIQ is the live-data brain you plug into ChatGPT, Claude, or any AI assistant.** Connect the tools you already use — QuickBooks, Shopify, Stripe, HubSpot, GA4, Klaviyo, Slack, and 40+ more — then ask plain-English questions and get answers grounded in your actual business data. No dashboards. No reports. No waiting on someone to pull the numbers.
+**CorpusIQ is the live-data brain you plug into ChatGPT, Claude, or any AI assistant.** Connect the tools you already use - QuickBooks, Shopify, Stripe, HubSpot, GA4, Klaviyo, Slack, and 40+ more - then ask plain-English questions and get answers grounded in your actual business data. No dashboards. No reports. No waiting on someone to pull the numbers.
 
-> "How much did we make last month across Shopify and Stripe?" — answered in seconds.
+> "How much did we make last month across Shopify and Stripe?" - answered in seconds.
 
 ---
 
@@ -21,20 +21,20 @@
 | Instead of... | CorpusIQ lets you... |
 |---------------|---------------------|
 | Building dashboards nobody checks | Ask questions in plain English, get real data |
-| Exporting CSVs from 5 different tools | Query everything at once — cross-source, live |
+| Exporting CSVs from 5 different tools | Query everything at once - cross-source, live |
 | Waiting on someone to "pull the numbers" | Get answers in seconds, not days |
 | Learning SQL or hiring a data team | Your AI assistant becomes your analyst |
 | Static reports that are outdated by lunch | Live data, every time you ask |
 
 ---
 
-## How it works — 3 steps
+## How it works - 3 steps
 
-1. **Connect** — Authorize external-source retrieval through each provider's documented OAuth flow
-2. **Ask** — Type a question in ChatGPT, Claude, or any MCP-compatible assistant
-3. **Get answers** — Source data passes through CorpusIQ to the requesting AI client with citations; that client's conversation policy applies after receipt.
+1. **Connect** - Authorize external-source retrieval through each provider's documented OAuth flow
+2. **Ask** - Type a question in ChatGPT, Claude, or any MCP-compatible assistant
+3. **Get answers** - Source data passes through CorpusIQ to the requesting AI client with citations; that client's conversation policy applies after receipt.
 
-**Read the full docs:** [corpusiq.io/docs](https://www.corpusiq.io/docs/) — Quickstart, API reference, connector guides, troubleshooting.
+**Read the full docs:** [corpusiq.io/docs](https://www.corpusiq.io/docs/) - Quickstart, API reference, connector guides, troubleshooting.
 
 ---
 
@@ -58,11 +58,11 @@
 
 ## Who uses CorpusIQ
 
-- **SaaS founders** — Revenue across Stripe + QuickBooks, churn from HubSpot, GA4 traffic — one question.
-- **Ecommerce operators** — Shopify orders, Klaviyo campaign ROAS, Meta Ads spend — side by side.
-- **Agencies** — Pull live data from 5+ client platforms, deliver answers without building reports.
-- **Accountants** — Ask QuickBooks questions in plain English instead of running reports.
-- **AI agents** — 24/7 autonomous agents querying live business data via MCP protocol.
+- **SaaS founders** - Revenue across Stripe + QuickBooks, churn from HubSpot, GA4 traffic - one question.
+- **Ecommerce operators** - Shopify orders, Klaviyo campaign ROAS, Meta Ads spend - side by side.
+- **Agencies** - Pull live data from 5+ client platforms, deliver answers without building reports.
+- **Accountants** - Ask QuickBooks questions in plain English instead of running reports.
+- **AI agents** - 24/7 autonomous agents querying live business data via MCP protocol.
 
 ---
 
@@ -83,16 +83,16 @@
 
 ## For developers: MCP-native from day one
 
-CorpusIQ is built on the [Model Context Protocol (MCP)](https://modelcontextprotocol.io) — the open standard for connecting AI assistants to external tools and data.
+CorpusIQ is built on the [Model Context Protocol (MCP)](https://modelcontextprotocol.io) - the open standard for connecting AI assistants to external tools and data.
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 
@@ -104,10 +104,10 @@ Your AI assistant gets 40+ live data tools instantly. No SDK. No custom integrat
 
 This docs repo is open for contributions:
 
-- **Content gaps** — See open issues tagged [`good first issue`](https://github.com/CorpusIQ/corpusiq-docs/issues)
-- **New recipes** — Share workflows that combine 2+ connectors
-- **Connector requests** — [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new)
-- **Docs fixes** — PRs welcome for typos, clarifications, improvements
+- **Content gaps** - See open issues tagged [`good first issue`](https://github.com/CorpusIQ/corpusiq-docs/issues)
+- **New recipes** - Share workflows that combine 2+ connectors
+- **Connector requests** - [Open an issue](https://github.com/CorpusIQ/corpusiq-docs/issues/new)
+- **Docs fixes** - PRs welcome for typos, clarifications, improvements
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
@@ -128,4 +128,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
 
 ---
 
-*CorpusIQ — Stop building reports by hand. Just ask your AI.*
+*CorpusIQ - Stop building reports by hand. Just ask your AI.*

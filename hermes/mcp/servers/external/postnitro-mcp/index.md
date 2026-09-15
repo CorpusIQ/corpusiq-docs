@@ -1,5 +1,5 @@
 ---
-title: "PostNitro MCP - AI Carousels and Social Publishing for Agents"
+title: PostNitro MCP - AI Carousels and Social Publishing
 description: "Official PostNitro MCP server that lets AI assistants create, manage and schedule carousels, single-image posts and short videos for LinkedIn, Instagram, TikTok and Threads. Agents pick templates, generate AI images, apply brand kits, manage connected social accounts and schedule publishing without leaving the conversation."
 category: Social Media Management
 stars: n/a (hosted connector)

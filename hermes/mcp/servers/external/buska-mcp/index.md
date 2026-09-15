@@ -1,5 +1,5 @@
 ---
-title: "Buska MCP - Social Listening and Buying Signals for AI Agents"
+title: Buska MCP - Social Listening and Buying Signals
 description: "Remote social-listening MCP server that searches public conversations across 30+ platforms, returns AI-scored buying signals and qualifies leads against an ideal customer profile. OAuth 2.1, three documented tools, a 7-day free trial and plans from $49/month."
 category: Sales & Outreach
 stars: "n/a (new listing, Buska-io/buska-mcp)"

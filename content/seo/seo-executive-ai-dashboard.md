@@ -1,4 +1,4 @@
-# Build an Executive AI Dashboard — Without Building Anything
+# Build an Executive AI Dashboard - Without Building Anything
 
 Every executive wants a dashboard. Every BI team spends months building one. Nobody checks it after week two.
 
@@ -38,12 +38,12 @@ Each answer draws from live data. Each follow-up question gets an instant answer
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 

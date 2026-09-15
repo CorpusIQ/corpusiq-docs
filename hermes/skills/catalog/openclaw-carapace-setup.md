@@ -1,5 +1,5 @@
 ---
-title: OpenClaw Carapace - Design System Skills Setup Guide for Hermes Agents
+title: OpenClaw Carapace - Design System Skills Setup Guide
 description: Install and use the official OpenClaw design system package (openclaw/carapace) - 6 skills covering brand identity, UI primitives, marketing pages, and design audits. 2.3K combined installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-carapace-setup/"
 robots: "index,follow"

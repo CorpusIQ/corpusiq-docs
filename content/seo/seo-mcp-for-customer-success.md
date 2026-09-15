@@ -1,4 +1,4 @@
-# MCP for Customer Success — Know Every Account Before They Churn
+# MCP for Customer Success - Know Every Account Before They Churn
 
 CS teams live in HubSpot (account health), Stripe (revenue), and their support inbox (tickets). Three tools. Zero unified view of which accounts need attention.
 
@@ -20,13 +20,13 @@ Answering "how is Acme Corp doing?" means checking five systems and building a m
 
 Connect your tools. Then ask:
 
-> "Show me everything on Acme Corp — health score, revenue trend, open tickets, last 3 emails, and any internal Slack mentions."
+> "Show me everything on Acme Corp - health score, revenue trend, open tickets, last 3 emails, and any internal Slack mentions."
 
 > "Which accounts have declining MRR and open support tickets? Flag them for immediate outreach."
 
 > "Show me accounts that expanded this quarter. What did they buy? Who's the CSM?"
 
-> "Which accounts haven't had contact in 30 days? Sort by MRR — highest value first."
+> "Which accounts haven't had contact in 30 days? Sort by MRR - highest value first."
 
 ## What CS leaders tell us
 

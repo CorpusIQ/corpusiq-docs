@@ -1,4 +1,4 @@
-# MCP for Agencies — One Question, Five Clients, Zero Reports
+# MCP for Agencies - One Question, Five Clients, Zero Reports
 
 Agency life: you manage five clients. Each uses Shopify, Klaviyo, Meta Ads, and GA4. That's 20 dashboards to check every week. Multiply by five days. A hundred dashboard pulls.
 
@@ -37,7 +37,7 @@ Instead of presenting last week's numbers, you walk in with insights. "Your emai
 The Friday report that took 3 hours now takes 3 questions. You redirect those 3 hours into actual strategy work.
 
 **You spot problems before clients do:**
-When a client's revenue dips, you know within hours — not when the monthly report lands. You reach out proactively. You look like a hero.
+When a client's revenue dips, you know within hours - not when the monthly report lands. You reach out proactively. You look like a hero.
 
 **New business gets easier:**
 In a pitch: "Here's what I found in your data in 5 minutes." You run a few queries live during the call. The prospect sees you already understand their business better than their current agency.

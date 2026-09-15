@@ -1,5 +1,5 @@
 ---
-title: "Webz.io News Search MCP - Global News Monitoring for AI Agents"
+title: Webz.io News Search MCP - Global News Monitoring
 description: "Official hosted remote MCP server from Webz.io that gives AI clients a news_search_by_webz tool for natural-language global news search with filters for domain, country, language, date window, sentiment and 17 content categories; results carry title, URL, publish date and excerpt so agents can research and cite coverage of any topic, company or market"
 category: Content & Research
 stars: n/a (official vendor listing)

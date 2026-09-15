@@ -1,5 +1,5 @@
 ---
-title: CodeRabbit Skills - AI Code Review Setup Guide for Hermes Agents
+title: CodeRabbit Skills - AI Code Review Setup Guide
 description: "coderabbitai/skills - official CodeRabbit skills: code-review (9.7K installs) and autofix (6.2K). AI-driven code review and automatic fix application for pull requests."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/coderabbit-skills-setup/"
 robots: "index,follow"

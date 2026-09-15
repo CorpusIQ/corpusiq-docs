@@ -1,4 +1,4 @@
-# Connect Salesforce to ChatGPT — Enterprise CRM Meets AI
+# Connect Salesforce to ChatGPT - Enterprise CRM Meets AI
 
 Your pipeline lives in Salesforce. Reports take 20 minutes to build. Questions take hours to answer.
 

@@ -1,5 +1,5 @@
 ---
-title: Pika Plugins - Video Creation Skill Pack Setup Guide for Hermes Agents
+title: Pika Plugins - Video Creation Skill Pack Setup Guide
 description: Install the pika-labs/pika-plugins cluster (20.1K installs, 22 skills) - ugc-ads, build-a-brand, founder-product-video, app-sizzle, explainer, viral-hook, persona-builder, content-director, VFX family for Pika video generation.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/pika-plugins-setup/"
 robots: "index,follow"

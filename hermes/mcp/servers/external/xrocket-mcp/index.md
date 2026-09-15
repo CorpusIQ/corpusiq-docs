@@ -1,5 +1,5 @@
 ---
-title: "xRocket Exchange MCP - Spot Market Data and Trading for Agents"
+title: xRocket Exchange MCP - Spot Market Data and Trading
 description: "Community MCP server for xRocket Exchange: hosted endpoint serves 10 public market tools (symbols, tickers, candles, order book, trades, rates, fees) with no key; stdio mode adds account trading bounded by an operator-set daily limit. MIT licensed."
 category: Finance
 stars: 0

@@ -1,4 +1,4 @@
-# MCP for Agriculture — Farm Operations, Yields, and Financials
+# MCP for Agriculture - Farm Operations, Yields, and Financials
 
 Farming operations track: John Deere Ops Center for equipment, QuickBooks for financials, grain marketing platforms, and inventory management.
 

@@ -18,9 +18,9 @@ Enterprise plans include full audit logging:
 
 ## Data Policies
 
-- **Scoped retention** — Direct MCP does not retain raw customer files or full connector response payloads; operational logs may persist for up to 30 days
-- **No CorpusIQ model training** — CorpusIQ does not use customer data to train models; conversation handling follows the selected AI provider's plan and settings
-- **Connector-level permissions** — Each data source has its own OAuth scope
+- **Scoped retention** - Direct MCP does not retain raw customer files or full connector response payloads; operational logs may persist for up to 30 days
+- **No CorpusIQ model training** - CorpusIQ does not use customer data to train models; conversation handling follows the selected AI provider's plan and settings
+- **Connector-level permissions** - Each data source has its own OAuth scope
 
 ## Enterprise
 

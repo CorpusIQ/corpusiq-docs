@@ -1,5 +1,5 @@
 ---
-title: "QoreNext Trade Screening MCP - Sanctions and Restricted-Party Checks"
+title: QoreNext Trade Screening MCP - Sanctions
 description: "Remote MCP from QoreNext for trade-compliance due diligence: 4 tools screen entities against US sanctions lists (OFAC, MEU, Entity List) and run full trade screenings with red-flag analysis, risk assessment and negative-news findings, with async report polling in chat. X-API-Key auth, MIT."
 category: Compliance
 stars: n/a (new repo)

@@ -1,5 +1,5 @@
 ---
-title: "Charlie Hills Social Media Skills - 17-Skill Content System Setup for Hermes Agents"
+title: Charlie Hills Social Media Skills - 17-Skill Content System
 description: "charlie947/social-media-skills - the complete 17-skill content system behind Charlie Hills' 415K-follower operation: voice-builder foundation, LinkedIn posts, carousels, hook generation, post scoring, Reels scripting, thumbnails. 17.2K skills.sh installs."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/charlie-hills-social-media-skills-setup/"
 robots: "index,follow"
@@ -13,9 +13,9 @@ tags: ["hermes skill", "agent skill", "skill setup", "social media", "content sy
 **GitHub:** [charlie947/social-media-skills](https://github.com/charlie947/social-media-skills) (3,357⭐, 789 forks, MIT, active Aug 2026)
 **Category:** Marketing / Social Media
 **First Seen:** Sep 9, 2026 sweep (cluster surfaced via failed-query compensation; not previously evaluated)
-**Quality Tier:** 🟡 Production with per-skill caveats (15 of 17 skills Pass all audits; `voice-builder` carries a Snyk CRITICAL flag, `reels-scripting` carries Trust Hub + Snyk Warns — see Security)
+**Quality Tier:** 🟡 Production with per-skill caveats (15 of 17 skills Pass all audits; `voice-builder` carries a Snyk CRITICAL flag, `reels-scripting` carries Trust Hub + Snyk Warns - see Security)
 
-The complete skill system behind [Charlie Hills](https://charliehills.substack.com)' content operation — 415K+ followers across LinkedIn, Instagram, Substack, X, and YouTube with 100M+ views per year. Every skill reads shared context: `voice-builder` produces `about-me.md` and `voice.md`, and every other skill checks those files before drafting a line, so everything ships in one consistent brand voice.
+The complete skill system behind [Charlie Hills](https://charliehills.substack.com)' content operation - 415K+ followers across LinkedIn, Instagram, Substack, X, and YouTube with 100M+ views per year. Every skill reads shared context: `voice-builder` produces `about-me.md` and `voice.md`, and every other skill checks those files before drafting a line, so everything ships in one consistent brand voice.
 
 ---
 
@@ -46,7 +46,7 @@ export APIFY_API_TOKEN=your_token
 export GOOGLE_AI_API_KEY=your_key
 ```
 
-The image skills (`gemini-infographic`, `gemini-carousel`, `quote-post`, `youtube-thumbnail`, `profile-optimizer`) output ready-to-paste Gemini prompts — no API key needed.
+The image skills (`gemini-infographic`, `gemini-carousel`, `quote-post`, `youtube-thumbnail`, `profile-optimizer`) output ready-to-paste Gemini prompts - no API key needed.
 
 ## Skill Roster
 
@@ -69,16 +69,16 @@ The image skills (`gemini-infographic`, `gemini-carousel`, `quote-post`, `youtub
 
 | Use Case | How |
 |---|---|
-| **Brand voice lock** | CorpusIQ's content voice rules get a working voice-profile mechanism (`about-me.md` + `voice.md`) that every post draft reads — consistency across all platforms |
-| **LinkedIn growth ops** | Operator-facing LinkedIn posts with hook variants and history-scored drafts — the lead-generation channel |
+| **Brand voice lock** | CorpusIQ's content voice rules get a working voice-profile mechanism (`about-me.md` + `voice.md`) that every post draft reads - consistency across all platforms |
+| **LinkedIn growth ops** | Operator-facing LinkedIn posts with hook variants and history-scored drafts - the lead-generation channel |
 | **Newsletter-first repurposing** | `newsletter-voice` + per-platform skills mirror the CorpusIQ belief-bridge content flow (one source piece, platform-adapted output) |
 | **Reels/Shorts pipeline** | `reels-scripting` feeds the UGC video pipeline script selection; `youtube-thumbnail` feeds thumbnail prompts |
 
 ## Limitations / Verification
 
-- **Voice profile files live in the project** — `about-me.md`/`voice.md` are written into the working project, not the agent install; keep them under version control to reuse across sessions
-- **External deps for 2 skills** — `post-scorer` and `reels-scripting` need Apify; `reels-scripting` also needs a Gemini key
-- **Security flags on 2 skills** — see below; install the other 15 freely
+- **Voice profile files live in the project** - `about-me.md`/`voice.md` are written into the working project, not the agent install; keep them under version control to reuse across sessions
+- **External deps for 2 skills** - `post-scorer` and `reels-scripting` need Apify; `reels-scripting` also needs a Gemini key
+- **Security flags on 2 skills** - see below; install the other 15 freely
 
 ```bash
 # Verify skill installed
@@ -91,10 +91,10 @@ Spot-checked Sep 9, 2026: `post-writer`, `hook-generator` Pass all three audits.
 
 | Skill | Trust Hub | Socket | Snyk | Note |
 |---|---|---|---|---|
-| `voice-builder` | Pass | Pass | **Fail (CRITICAL)** | E004: contradictory instruction detected — the skill states it must produce `voice.md` and later says "Do not produce an voice.md file"; Snyk reads it as a hidden directive (0.80). Also W011 (third-party content ingestion — inherent to its interview workflow). Use with care; review SKILL.md before running, or build the voice files manually |
-| `reels-scripting` | **Warn** | Pass | **Warn** | W011 third-party content exposure via Apify/Gemini reference analysis — inherent to the workflow |
+| `voice-builder` | Pass | Pass | **Fail (CRITICAL)** | E004: contradictory instruction detected - the skill states it must produce `voice.md` and later says "Do not produce an voice.md file"; Snyk reads it as a hidden directive (0.80). Also W011 (third-party content ingestion - inherent to its interview workflow). Use with care; review SKILL.md before running, or build the voice files manually |
+| `reels-scripting` | **Warn** | Pass | **Warn** | W011 third-party content exposure via Apify/Gemini reference analysis - inherent to the workflow |
 
-The remaining 15 skills carry clean audits. The publisher is a well-known creator (3.4K⭐ repo, public newsletter, contributions welcome) — the CRITICAL flag reads as a wording bug, not injected content, but treat the skill with the usual untrusted-input discipline and review its instructions before first run.
+The remaining 15 skills carry clean audits. The publisher is a well-known creator (3.4K⭐ repo, public newsletter, contributions welcome) - the CRITICAL flag reads as a wording bug, not injected content, but treat the skill with the usual untrusted-input discipline and review its instructions before first run.
 
 ## Related
 

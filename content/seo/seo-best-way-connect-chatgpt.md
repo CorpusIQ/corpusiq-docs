@@ -1,6 +1,6 @@
 # Best Way to Connect ChatGPT to Business Data in 2026
 
-You want ChatGPT to answer questions about your actual business — not generic advice, but real numbers from your QuickBooks, Stripe, Shopify, HubSpot.
+You want ChatGPT to answer questions about your actual business - not generic advice, but real numbers from your QuickBooks, Stripe, Shopify, HubSpot.
 
 There are three ways to do this. Two are wrong. Here's the breakdown.
 
@@ -14,7 +14,7 @@ Export a CSV from QuickBooks. Paste it into ChatGPT. Ask your question.
 - Can't do cross-tool queries (QuickBooks + Stripe together)
 - Manual. Error-prone. Slow.
 
-This works exactly once — when you're testing whether AI can understand your data at all. After that, it's a dead end.
+This works exactly once - when you're testing whether AI can understand your data at all. After that, it's a dead end.
 
 ## Method 2: Build a custom integration (the expensive way)
 
@@ -22,7 +22,7 @@ Hire a developer to build a custom pipeline. Connect your tools via API. Feed th
 
 **Problems:**
 - 2-3 months of engineering time per data source
-- OAuth token management, rate limiting, error handling — all on you
+- OAuth token management, rate limiting, error handling - all on you
 - Every schema change breaks your pipeline
 - $30K-$80K+ in engineering costs
 - You now own a codebase you have to maintain forever
@@ -35,17 +35,17 @@ MCP (Model Context Protocol) is the open standard for connecting AI assistants t
 
 **How it works:**
 1. Sign up at corpusiq.io (free trial, no credit card)
-2. Connect QuickBooks, Stripe, Shopify, HubSpot — 30 seconds each via OAuth
+2. Connect QuickBooks, Stripe, Shopify, HubSpot - 30 seconds each via OAuth
 3. Drop this config into ChatGPT:
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 

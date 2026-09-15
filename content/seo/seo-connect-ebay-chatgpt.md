@@ -1,4 +1,4 @@
-# Connect eBay to ChatGPT — Marketplace Analytics Without Seller Hub
+# Connect eBay to ChatGPT - Marketplace Analytics Without Seller Hub
 
 Your eBay business runs on Seller Hub. Orders, listings, traffic, performance metrics. Every question requires navigating multiple views.
 

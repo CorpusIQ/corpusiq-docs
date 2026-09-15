@@ -122,6 +122,18 @@ def main():
         )
         print(f"   Committed regenerated feeds ({len(dirty_feeds.splitlines())} file(s))")
 
+    # 2c. Perfection pass - auto-fix house-rule drift (em/en dashes, titles over
+    #     60 chars) in SOURCE before every build, so the live site stays clean
+    #     without manual checks (Benoit: the docs repo must always be perfect).
+    print("2c. Perfection pass (dashes/titles autofix)...")
+    run("python3 scripts/docs_perfection.py --fix || true")
+    dirty_perf = run("git status --porcelain -- '*.md' '*.html'").strip()
+    if dirty_perf:
+        run("git add -A -- '*.md' '*.html' && git commit -m 'chore: docs perfection autofix (dashes/titles)'")
+        print(f"   Perfection fixes committed ({len(dirty_perf.splitlines())} file(s))")
+    else:
+        print("   No source fixes needed")
+
     # 3. Build
     print("3. Building mkdocs...")
     out = run("python3 -m mkdocs build --clean", fatal=True)

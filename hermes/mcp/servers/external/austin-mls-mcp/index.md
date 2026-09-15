@@ -1,5 +1,5 @@
 ---
-title: "Austin MLS MCP - Live Austin Real Estate Listings for AI Assistants"
+title: Austin MLS MCP - Live Austin Real Estate Listings
 description: "Free remote MCP server with live Austin-area MLS listings: active listing search by neighborhood, price, beds and schools, closed-sale comps, and market stats including median price, inventory, and days-on-market by ZIP or school district"
 category: Real Estate Data
 stars: n/a (new listing)

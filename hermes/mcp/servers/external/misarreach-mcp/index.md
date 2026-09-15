@@ -1,5 +1,5 @@
 ---
-title: "MisarReach MCP - Outbound Sales and Lead Pipeline for AI Agents"
+title: MisarReach MCP - Outbound Sales and Lead Pipeline
 description: "MisarReach MCP server with 27 tools for outbound sales: build and qualify lead lists, verify emails, run multi-step outreach sequences across channels, check deliverability and review pipeline from any MCP client"
 category: Sales Outreach
 stars: n/a (new listing)

@@ -1,4 +1,4 @@
-# MCP for Pest Control — Route Efficiency, Revenue, and Customer Retention
+# MCP for Pest Control - Route Efficiency, Revenue, and Customer Retention
 
 Pest control companies run: PestPac for routes, QuickBooks for financials, Stripe for payments, and CRM for customer management.
 

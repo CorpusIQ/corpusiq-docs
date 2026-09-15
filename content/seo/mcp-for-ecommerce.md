@@ -1,4 +1,4 @@
-# MCP for Ecommerce Operators — What If You Could Ask Your Store Anything
+# MCP for Ecommerce Operators - What If You Could Ask Your Store Anything
 
 You run a Shopify store. You use Klaviyo for email. Meta Ads for acquisition. Google Analytics for traffic. Stripe for payments.
 
@@ -16,13 +16,13 @@ That's what MCP makes possible. Here's how it works for ecommerce.
 
 Most ecommerce operators run this stack:
 
-- **Shopify** — orders, customers, products, inventory
-- **Klaviyo** — email campaigns, flows, list health
-- **Meta Ads** — Facebook/Instagram ad spend and performance
-- **Google Ads** — search and shopping campaign data
-- **GA4** — website traffic, conversion tracking
-- **Stripe** — payment processing, revenue
-- **QuickBooks** — accounting, P&L
+- **Shopify** - orders, customers, products, inventory
+- **Klaviyo** - email campaigns, flows, list health
+- **Meta Ads** - Facebook/Instagram ad spend and performance
+- **Google Ads** - search and shopping campaign data
+- **GA4** - website traffic, conversion tracking
+- **Stripe** - payment processing, revenue
+- **QuickBooks** - accounting, P&L
 
 Each tool knows part of the story. Shopify knows what sold. Klaviyo knows who opened the email. Meta knows what ad they clicked. But nobody sees the whole picture.
 
@@ -57,12 +57,12 @@ Instead of exporting data, you connect your tools once and ask the AI directly.
 The setup:
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 
@@ -115,7 +115,7 @@ The shift isn't technical. It's behavioral. Before: ask 3 questions a week becau
 
 The questions get better too. You stop asking "what happened yesterday?" and start asking "why did this customer stop buying, and what should I do about it?"
 
-That shift — from what to why — is where the money is.
+That shift - from what to why - is where the money is.
 
 ---
 

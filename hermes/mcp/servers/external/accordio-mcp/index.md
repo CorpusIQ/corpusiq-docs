@@ -1,5 +1,5 @@
 ---
-title: Accordio MCP - Back Office Time, Billing and Invoicing for Agents
+title: Accordio MCP - Back Office Time, Billing and Invoicing
 description: Accordio gives AI assistants a back office through one MCP URL. Twenty-eight tools cover time tracking, clients, projects, unbilled hours, invoices, contracts, proposals, tasks, expenses and calendar. Tracking is free forever, with a paid tier for invoice and proposal drafting.
 category: Productivity
 stars: n/a (new listing)

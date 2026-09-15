@@ -1,5 +1,5 @@
 ---
-title: "Breakreach MCP - AI-Native Social Media Scheduling Across 12 Platforms"
+title: Breakreach MCP - AI-Native Social Media Scheduling Across 12
 description: "Remote MCP server for creating, scheduling and analyzing social posts across 12 platforms (X, Instagram, TikTok, LinkedIn, Bluesky, Reddit, Telegram, Discord and more): best-time slots, media upload, unified analytics, Bearer API key auth."
 category: Social Media Management
 stars: n/a (new listing)

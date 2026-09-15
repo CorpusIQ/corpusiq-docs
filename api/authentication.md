@@ -7,7 +7,7 @@ The CorpusIQ API uses API keys for authentication. All requests must include you
 1. Log in to your [CorpusIQ dashboard](https://corpusiq.io)
 2. Go to **Settings > API**
 3. Click **Generate API Key**
-4. Copy the key — you won't be able to see it again
+4. Copy the key - you won't be able to see it again
 
 ## Using Your API Key
 
@@ -15,7 +15,7 @@ Include the key in every request:
 
 ```bash
 curl -H "Authorization: Bearer YOUR_API_KEY" \
-     https://api.corpusiq.io/v1/connectors
+ https://api.corpusiq.io/v1/connectors
 ```
 
 ## Security Best Practices

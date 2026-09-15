@@ -1,5 +1,5 @@
 ---
-title: "Claude for Legal Skills - Anthropic Legal Workflow Suite Setup"
+title: Claude for Legal Skills - Anthropic Legal Workflow Suite
 description: "anthropics/claude-for-legal - 118 skills, 54.4K installs: Anthropic's official legal-workflow suite covering contract review, matter management, regulatory research, and lawyer-facing drafting pipelines."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/claude-for-legal-skills-setup/"
 robots: "index,follow"

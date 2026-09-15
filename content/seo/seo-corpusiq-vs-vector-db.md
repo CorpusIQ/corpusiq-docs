@@ -1,4 +1,4 @@
-# MCP vs Vector Databases — Live Data or Pre-Indexed Search
+# MCP vs Vector Databases - Live Data or Pre-Indexed Search
 
 Vector databases are the backbone of RAG (retrieval-augmented generation). They store embeddings of your documents and retrieve relevant chunks when you ask a question.
 
@@ -17,7 +17,7 @@ If your data is text that doesn't change often, vector search is the right tool.
 
 ## Where vector DBs break for business data
 
-Business data isn't static text. It's numbers that change by the minute. Your MRR isn't a document — it's a live query against Stripe. Your pipeline isn't a chunk of text — it's a live query against HubSpot.
+Business data isn't static text. It's numbers that change by the minute. Your MRR isn't a document - it's a live query against Stripe. Your pipeline isn't a chunk of text - it's a live query against HubSpot.
 
 Vector DBs can't handle:
 

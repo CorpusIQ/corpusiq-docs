@@ -1,4 +1,4 @@
-# Connect NetSuite to Claude — ERP Data in Plain English
+# Connect NetSuite to Claude - ERP Data in Plain English
 
 Your ERP runs on NetSuite. Financials, inventory, orders, customers. Every answer requires navigating NetSuite's complex interface.
 

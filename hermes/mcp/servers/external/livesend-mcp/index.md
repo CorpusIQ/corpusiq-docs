@@ -1,5 +1,5 @@
 ---
-title: "LiveSend MCP - Publish Client Reports as Trackable Protected Links"
+title: LiveSend MCP - Publish Client Reports as Trackable Protected
 description: "Hosted remote MCP server that publishes LLM-written documents to permanent shareable URLs with versioning, password protection, read analytics and comments: create_document, add_version, edit_document, restore_version, set_password, get_analytics, get_comments and team document tools let agents turn a finished report into a trackable client link in the same conversation"
 category: Productivity
 stars: n/a (new listing)

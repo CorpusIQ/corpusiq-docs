@@ -1,5 +1,5 @@
 ---
-title: Expired Domains MCP - Karma.Domains Domain Intelligence for Agents
+title: Expired Domains MCP - Karma.Domains Domain Intelligence
 description: Screen expired, auction, backorder and buy-now domains in plain language through one hosted MCP endpoint. KarmaScore and Karma Metric rankings, SEO enrich with Ahrefs, Moz and SimilarWeb data, saved filters, guest share links and 13 live domain checkers for SEO operators, domain investors and agencies.
 category: SEO
 stars: n/a (new listing)

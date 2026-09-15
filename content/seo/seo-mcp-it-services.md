@@ -1,4 +1,4 @@
-# MCP for IT Services — Client Infrastructure, Billing, and Tickets
+# MCP for IT Services - Client Infrastructure, Billing, and Tickets
 
 MSPs and IT service providers manage: PSA for tickets, QuickBooks for billing, RMM for infrastructure, HubSpot for client pipeline.
 

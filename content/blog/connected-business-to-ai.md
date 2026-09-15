@@ -1,23 +1,23 @@
-# I Connected My Entire Business to ChatGPT in 5 Minutes — Here's What Happened
+# I Connected My Entire Business to ChatGPT in 5 Minutes - Here's What Happened
 
-I run a business. I use QuickBooks, Shopify, and Stripe. Every Monday I do the same dance — log into each one, pull numbers, paste them into a spreadsheet, build a report nobody reads.
+I run a business. I use QuickBooks, Shopify, and Stripe. Every Monday I do the same dance - log into each one, pull numbers, paste them into a spreadsheet, build a report nobody reads.
 
 Last week I tried something different. I connected all three to ChatGPT in five minutes flat. Here's exactly what happened.
 
 ## The Setup (30 Seconds Per Tool)
 
-CorpusIQ uses something called MCP — Model Context Protocol. It's an open standard that lets AI assistants talk to your business tools directly. No API keys to manage. No code to write.
+CorpusIQ uses something called MCP - Model Context Protocol. It's an open standard that lets AI assistants talk to your business tools directly. No API keys to manage. No code to write.
 
 Here's the config I dropped into my Claude Desktop:
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 
@@ -47,13 +47,13 @@ The AI caught it in 20 seconds.
 
 Once I realized what was possible, I went a little nuts. Here's what I asked over the next few days:
 
-**"Which Shopify customers haven't ordered in 60 days but spent over $500 total?"** — Instant list. I sent them a re-engagement email that afternoon.
+**"Which Shopify customers haven't ordered in 60 days but spent over $500 total?"** - Instant list. I sent them a re-engagement email that afternoon.
 
-**"What's our actual ROAS across Google Ads and Meta Ads combined?"** — Cross-platform answer in seconds. No more pulling reports from two different dashboards and trying to reconcile them in Excel.
+**"What's our actual ROAS across Google Ads and Meta Ads combined?"** - Cross-platform answer in seconds. No more pulling reports from two different dashboards and trying to reconcile them in Excel.
 
-**"Show me all HubSpot deals over $5K closing this month with their probability."** — Pipeline in plain English. No filters, no views, no "export to CSV."
+**"Show me all HubSpot deals over $5K closing this month with their probability."** - Pipeline in plain English. No filters, no views, no "export to CSV."
 
-**"Which Klaviyo campaign generated the most revenue this quarter?"** — Direct attribution. Email send → Shopify order → revenue amount. Connected end to end.
+**"Which Klaviyo campaign generated the most revenue this quarter?"** - Direct attribution. Email send → Shopify order → revenue amount. Connected end to end.
 
 ## The Part That Surprised Me
 
@@ -65,7 +65,7 @@ When pulling reports by hand, you ask narrow questions because broad ones are to
 
 With the AI connected to live data, I started asking the questions I actually wanted to ask. The ones that were always too expensive in time.
 
-That shift — from asking what's easy to asking what matters — is the real value.
+That shift - from asking what's easy to asking what matters - is the real value.
 
 ## The Setup Nobody Tells You About
 
@@ -75,9 +75,9 @@ Connector results pass through CorpusIQ to the requesting AI client. Direct MCP 
 
 ## What I'd Do Differently
 
-I'd start with one connector. Probably Stripe — it has the cleanest data structure and gives you immediate value ("what's our MRR?" answered in seconds). Then add QuickBooks for financial cross-referencing. Then Shopify if you run ecommerce.
+I'd start with one connector. Probably Stripe - it has the cleanest data structure and gives you immediate value ("what's our MRR?" answered in seconds). Then add QuickBooks for financial cross-referencing. Then Shopify if you run ecommerce.
 
-Five minutes for one connector. Another five for each additional. The time isn't in the setup — it's in deciding which questions to ask first.
+Five minutes for one connector. Another five for each additional. The time isn't in the setup - it's in deciding which questions to ask first.
 
 ## The Bottom Line
 
@@ -87,4 +87,4 @@ If you already pay for QuickBooks, Shopify, or Stripe, you have the data. You ju
 
 ---
 
-*I run CorpusIQ — the platform that connects business data to AI assistants. 40+ connectors, 5-minute setup, and separately annotated retrieval, write-capable, and control-plane tools. If you want to try this yourself: [corpusiq.io](https://www.corpusiq.io).*
+*I run CorpusIQ - the platform that connects business data to AI assistants. 40+ connectors, 5-minute setup, and separately annotated retrieval, write-capable, and control-plane tools. If you want to try this yourself: [corpusiq.io](https://www.corpusiq.io).*

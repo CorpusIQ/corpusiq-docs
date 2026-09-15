@@ -1,4 +1,4 @@
-# MCP for AR Management — Get Paid Faster
+# MCP for AR Management - Get Paid Faster
 
 Accounts Receivable is the silent cash killer. Every dollar sitting in AR is a dollar you can't use.
 

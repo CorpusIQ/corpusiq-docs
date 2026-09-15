@@ -1,6 +1,6 @@
-# MCP for Insurance Brokers — Every Policy, Every Client, One View
+# MCP for Insurance Brokers - Every Policy, Every Client, One View
 
-Independent brokers manage policies across 10+ carriers. Commissions, renewals, claims — spread across carrier portals and your agency management system.
+Independent brokers manage policies across 10+ carriers. Commissions, renewals, claims - spread across carrier portals and your agency management system.
 
 Connect via MCP and ask:
 

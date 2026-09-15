@@ -1,5 +1,5 @@
 ---
-title: "September 14, 2026 Skills.sh Sweep - MiniMax H3 Cluster + DevTools Skills Expansion"
+title: September 14, 2026 Skills.sh Sweep - MiniMax H3 Cluster +
 description: "Skills.sh sweep September 14, 2026: MiniMax H3 official skill bundle (15.7K installs) + reason-machines/devtools-skills catalog expansion (40 skills at 100+, 9.5K combined) - 2 setup guides, 2 below-bar parks."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep14-2026/"
 robots: "index,follow"

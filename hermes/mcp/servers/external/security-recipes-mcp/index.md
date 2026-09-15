@@ -1,5 +1,5 @@
 ---
-title: "Security Recipes MCP - CVE Intelligence and Remediation Playbooks"
+title: Security Recipes MCP - CVE Intelligence and Remediation
 description: "Read-only CVE intelligence, remediation playbooks, and agentic security governance content over Streamable HTTP with no auth. 75 tools: CVE catalog search for Medium/High/Critical findings, recipe and playbook lookups, MCP gateway policy, agent BOM, and SOC detection content."
 category: Security
 stars: 1

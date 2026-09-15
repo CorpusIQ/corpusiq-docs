@@ -1,5 +1,5 @@
 ---
-title: Reason Machines DevTools Skills - Auto-Generated CLI Tool Skill Farm Setup
+title: Reason Machines DevTools Skills - CLI Skill Farm
 description: Setup guide for reason-machines/devtools-skills, the ara.so auto-generated farm of 173 agent skills for trending developer tools - 42 skills at 100+ installs (9,850 combined). Install per-skill with npx skills add.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/reason-machines-devtools-skills-setup/"
 robots: "index,follow"

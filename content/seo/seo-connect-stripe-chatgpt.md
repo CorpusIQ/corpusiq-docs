@@ -1,4 +1,4 @@
-# Connect Stripe to ChatGPT — See Your Revenue in Plain English
+# Connect Stripe to ChatGPT - See Your Revenue in Plain English
 
 You process payments through Stripe. Every morning you check the dashboard: MRR, recent charges, churn. You know the numbers.
 
@@ -24,12 +24,12 @@ Click "Connect" next to Stripe. Approve the OAuth screen. Read-only access only.
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 

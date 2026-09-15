@@ -1,4 +1,4 @@
-# Connect Stripe MRR to ChatGPT — Live Revenue Answers
+# Connect Stripe MRR to ChatGPT - Live Revenue Answers
 
 Your MRR data is in Stripe. But answering "what's our MRR trend?" means logging into Stripe, navigating dashboards, and building reports.
 
@@ -8,7 +8,7 @@ Connect Stripe to ChatGPT via MCP and just ask:
 
 > "Show me MRR by plan. Which plans are growing? Which are shrinking?"
 
-> "What's our net MRR growth — new + expansion - churn - contraction?"
+> "What's our net MRR growth - new + expansion - churn - contraction?"
 
 > "If current trends continue, what's our MRR in 6 months?"
 

@@ -1,4 +1,4 @@
-# MCP for SaaS Founders — Stop Guessing. Start Asking.
+# MCP for SaaS Founders - Stop Guessing. Start Asking.
 
 Every SaaS founder I know lives in their Stripe dashboard, their QuickBooks P&L, their HubSpot pipeline, and their GA4 traffic reports. Four tabs, four logins, four different answers to "how are we doing?"
 
@@ -61,22 +61,22 @@ For founders who've been burned by automation gone wrong, this is the feature th
 
 We've shown this to VCs and angels. Their reaction:
 
-> "Wait — your portfolio companies could just ask their AI how they're doing instead of waiting for monthly reports?"
+> "Wait - your portfolio companies could just ask their AI how they're doing instead of waiting for monthly reports?"
 
 Yes. That's exactly the point.
 
-For founders raising, the ability to answer investor questions instantly — "what's your net dollar retention?" "what's your burn multiple?" "what's your CAC payback period?" — changes the dynamic of every board meeting.
+For founders raising, the ability to answer investor questions instantly - "what's your net dollar retention?" "what's your burn multiple?" "what's your CAC payback period?" - changes the dynamic of every board meeting.
 
 ## The setup
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 
@@ -88,4 +88,4 @@ The answer changes how you run your company.
 
 ---
 
-*CorpusIQ connects 40+ business tools to AI assistants. Read-only. 5-minute setup. Free trial — no credit card. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ connects 40+ business tools to AI assistants. Read-only. 5-minute setup. Free trial - no credit card. [corpusiq.io](https://www.corpusiq.io)*

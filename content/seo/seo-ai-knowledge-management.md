@@ -1,4 +1,4 @@
-# AI for Knowledge Management — Your Company's Brain
+# AI for Knowledge Management - Your Company's Brain
 
 Your company's knowledge is scattered across QuickBooks (financials), HubSpot (customers), Google Drive (docs), Slack (decisions), and Gmail (conversations).
 
@@ -31,12 +31,12 @@ Each answer drawn from the system that actually has the data. Live. Always curre
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 

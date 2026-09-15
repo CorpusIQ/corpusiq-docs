@@ -1,4 +1,4 @@
-# Connect MongoDB to Claude — NoSQL Queries in Plain English
+# Connect MongoDB to Claude - NoSQL Queries in Plain English
 
 Your application data lives in MongoDB. Documents, collections, aggregations. Every answer requires writing MongoDB queries or using Compass.
 

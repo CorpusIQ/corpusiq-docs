@@ -1,4 +1,4 @@
-# MCP for HR Teams — Headcount, Hiring, and Budget in One Question
+# MCP for HR Teams - Headcount, Hiring, and Budget in One Question
 
 HR teams juggle: BambooHR for headcount, Greenhouse for recruiting, QuickBooks for payroll budget, Slack for team communications.
 
@@ -37,7 +37,7 @@ Connect your HR tools. Then ask:
 
 ## The read-only guarantee
 
-External-source retrieval tools are marked read-only; write-capable connector and CorpusIQ control-plane tools are separately named and annotated. The AI can query headcount data but cannot modify employee records. It can pull compensation data but cannot change salaries. HR data is sensitive — read-only access is non-negotiable.
+External-source retrieval tools are marked read-only; write-capable connector and CorpusIQ control-plane tools are separately named and annotated. The AI can query headcount data but cannot modify employee records. It can pull compensation data but cannot change salaries. HR data is sensitive - read-only access is non-negotiable.
 
 ---
 

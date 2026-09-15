@@ -1,4 +1,4 @@
-# MCP for Non-Profits — Donor Data, Grants, and Financials
+# MCP for Non-Profits - Donor Data, Grants, and Financials
 
 Non-profits run: donor CRM for contributions, QuickBooks for grant tracking, Stripe for online giving, Mailchimp for campaigns, and GA4 for website analytics.
 
@@ -16,7 +16,7 @@ Connect your tools. Then ask:
 
 > "Show me donor retention by cohort. Which donors need re-engagement?"
 
-> "Build the board financial summary — revenue, expenses, program ratio, cash."
+> "Build the board financial summary - revenue, expenses, program ratio, cash."
 
 ---
 

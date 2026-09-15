@@ -1,8 +1,8 @@
-# MCP for SaaS Pricing — Know Your Unit Economics in Real Time
+# MCP for SaaS Pricing - Know Your Unit Economics in Real Time
 
 Your pricing data is scattered: Stripe knows MRR. QuickBooks knows costs. HubSpot knows deal sizes. Your product analytics knows feature adoption.
 
-Understanding unit economics means joining data from all four — manually.
+Understanding unit economics means joining data from all four - manually.
 
 ## How MCP gives you live unit economics
 

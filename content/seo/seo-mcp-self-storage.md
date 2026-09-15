@@ -1,4 +1,4 @@
-# MCP for Self-Storage — Occupancy, Revenue Per Unit, Rate Management
+# MCP for Self-Storage - Occupancy, Revenue Per Unit, Rate Management
 
 Self-storage operators run: SiteLink for management, QuickBooks for financials, Stripe for payments, marketing platforms.
 

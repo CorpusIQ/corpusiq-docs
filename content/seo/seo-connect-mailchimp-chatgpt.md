@@ -1,4 +1,4 @@
-# Connect Mailchimp to ChatGPT — Campaign Analytics Without Reports
+# Connect Mailchimp to ChatGPT - Campaign Analytics Without Reports
 
 Your email marketing lives in Mailchimp. Campaigns, audiences, open rates, click rates. Every performance check requires navigating Mailchimp's reports.
 

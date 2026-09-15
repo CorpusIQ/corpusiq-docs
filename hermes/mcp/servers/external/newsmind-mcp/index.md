@@ -1,5 +1,5 @@
 ---
-title: "Newsmind MCP - RSS Semantic Search and News Digests for Agents"
+title: Newsmind MCP - RSS Semantic Search and News Digests
 description: "Hosted remote MCP server that connects RSS feeds to AI clients with semantic search, story clustering, keyword watches and scheduled email digests. 29 tools cover reading and briefing, full-text and semantic search, subscriptions, OPML import and export, and feed health. OAuth 2.1 in Claude, ChatGPT and Gemini; Bearer PATs for other clients; 14-day trial then from $24 per year."
 category: Content & Research
 stars: n/a (new listing)

@@ -1,4 +1,4 @@
-# Connect Dropbox to Claude — Your Files, AI-Searchable
+# Connect Dropbox to Claude - Your Files, AI-Searchable
 
 Your files live in Dropbox. Contracts, proposals, reports, media. Finding anything means navigating folders or using basic search.
 

@@ -1,5 +1,5 @@
 ---
-title: Rivet Skills - Real-Time Backend & Agent Infrastructure Setup
+title: "Rivet Skills - Real-Time Backend & Agent Infrastructure"
 description: "rivet-dev/skills - 22 skills, 65.3K installs: sandbox-agent, RivetKit SDK clients (JavaScript, React, Swift, SwiftUI, Rust, TypeScript), multiplayer, cron jobs, AI agent workspaces, per-tenant databases, live cursors, and VPC air-gapped deploys."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/rivet-dev-skills-setup/"
 robots: "index,follow"

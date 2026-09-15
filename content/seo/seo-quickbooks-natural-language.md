@@ -1,4 +1,4 @@
-# Natural Language QuickBooks — Stop Running Reports, Start Asking
+# Natural Language QuickBooks - Stop Running Reports, Start Asking
 
 You shouldn't need to know where the P&L report lives. You should just ask:
 

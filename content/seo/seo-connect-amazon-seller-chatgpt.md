@@ -1,4 +1,4 @@
-# Connect Amazon Seller to ChatGPT — Marketplace Analytics Without Reports
+# Connect Amazon Seller to ChatGPT - Marketplace Analytics Without Reports
 
 Your Amazon business runs on Seller Central. Orders, inventory, sales metrics, advertising. Every answer requires navigating multiple reports.
 

@@ -1,4 +1,4 @@
-# HubSpot Business Intelligence — CRM Analytics Without the Reports
+# HubSpot Business Intelligence - CRM Analytics Without the Reports
 
 HubSpot knows your pipeline, customers, and deals. But BI requires exporting data and building analysis elsewhere.
 

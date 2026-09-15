@@ -1,4 +1,4 @@
-# MCP for DTC Brands — Shopify, Klaviyo, Meta in One Question
+# MCP for DTC Brands - Shopify, Klaviyo, Meta in One Question
 
 You run a DTC brand. Shopify for orders. Klaviyo for email. Meta Ads for acquisition. GA4 for analytics. Stripe for payments.
 

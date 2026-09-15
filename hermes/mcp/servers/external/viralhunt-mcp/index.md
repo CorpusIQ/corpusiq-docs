@@ -1,5 +1,5 @@
 ---
-title: ViralHunt MCP - Trending Discovery and Social Publishing for Agents
+title: ViralHunt MCP - Trending Discovery and Social Publishing
 description: 20-tool MCP server for viral content discovery across 12 networks, best-time-to-post data, hashtags, trending sounds, communities, and scheduling/publishing to connected social accounts. Free token, MIT.
 category: Social Media Management
 stars: n/a (new listing)

@@ -1,5 +1,5 @@
 ---
-title: "September 11, 2026 Skills.sh Sweep - 7 New Publisher Clusters"
+title: September 11, 2026 Skills.sh Sweep - 7 New Publisher
 description: "Skills.sh sweep September 11, 2026: 7 new publisher clusters (Tencent WeChat Reading, Vercel Next.js, Unity, Cline, Vercel Eve, Alibaba Cloud AIOps, Apidojo Agent Skills) - 452 skills, 7 setup guides, 1 publisher rename (Wind)."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep11-2026/"
 robots: "index,follow"
@@ -36,8 +36,8 @@ A hot-board discovery sweep: all 7 clusters surfaced through the skills.sh homep
 | Cluster | Installs | Reason |
 |---|---|---|
 | skymavis/skills (decision-records) | 3.4K | Below the 20K bar; 1 skill; official Sky Mavis org (Axie Infinity) but thin content - brand-watch queue. Re-check if installs grow. |
-| transilienceai/communitytools | 5.6K combined (`attack-path-stitcher` 705 / `hackerone` 238 / `osint` 175; 50 skills) | Claude Code security testing suite (CLAUDE.md, `.claude-plugin/`, `Agent()` coordination spawns). Generic Agent Skills frontmatter, but README targets Claude Code only — zero Hermes mentions; coordination layer is Claude-specific. Claude-family rejection class (evening-pass cluster-level verification). Re-check if Hermes support appears. |
-| steelan9199/wechat-publisher | 1.8K combined (`pyautogui-automation` 672 / `wechat-publisher-yashu` 204 / `wechat-title-optimizer` 173 / `wechat-content-optimizer` 105; 20 skills) | 10⭐, no license, Chinese-language collection ("network-collected SKILLs") — WeChat/Windows desktop automation via PyAutoGUI. High install counts but personal scraped collection; below-floor park (watch). |
+| transilienceai/communitytools | 5.6K combined (`attack-path-stitcher` 705 / `hackerone` 238 / `osint` 175; 50 skills) | Claude Code security testing suite (CLAUDE.md, `.claude-plugin/`, `Agent()` coordination spawns). Generic Agent Skills frontmatter, but README targets Claude Code only - zero Hermes mentions; coordination layer is Claude-specific. Claude-family rejection class (evening-pass cluster-level verification). Re-check if Hermes support appears. |
+| steelan9199/wechat-publisher | 1.8K combined (`pyautogui-automation` 672 / `wechat-publisher-yashu` 204 / `wechat-title-optimizer` 173 / `wechat-content-optimizer` 105; 20 skills) | 10⭐, no license, Chinese-language collection ("network-collected SKILLs") - WeChat/Windows desktop automation via PyAutoGUI. High install counts but personal scraped collection; below-floor park (watch). |
 
 ## Evening Pass
 

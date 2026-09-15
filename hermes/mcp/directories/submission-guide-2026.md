@@ -1,5 +1,5 @@
 ---
-title: "MCP Directory Submission Guide - Where to List a Server in 2026"
+title: MCP Directory Submission Guide - Where to List a Server
 description: "Field-tested walkthrough of every major MCP directory: free vs paid, form vs GitHub, sign-in requirements, and what actually works. Updated August 2026 from real submissions."
 category: "MCP"
 tags: ["mcp", "directory", "submission", "listing", "discovery", "registry", "marketing"]

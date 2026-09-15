@@ -1,4 +1,4 @@
-# Shopify Business Intelligence — Store Analytics Without the Complexity
+# Shopify Business Intelligence - Store Analytics Without the Complexity
 
 Shopify has all your store data. Extracting insights means knowing which reports to run and how to combine them.
 

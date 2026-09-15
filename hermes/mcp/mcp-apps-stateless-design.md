@@ -1,5 +1,5 @@
 ---
-title: "MCP Apps Stateless Design Pattern: Surviving ChatGPT and Claude Hosts"
+title: "MCP Apps Stateless Design Pattern: Surviving ChatGPT"
 description: "Practical pattern for building stateless MCP Apps that render correctly on every host. Why host state replay fails, and how to design apps that re-render from the tool result."
 canonical: "/hermes/mcp/mcp-apps-stateless-design/"
 robots: "index, follow"

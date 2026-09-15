@@ -1,8 +1,8 @@
-# Best MCP Platform for Business — What to Look For in 2026
+# Best MCP Platform for Business - What to Look For in 2026
 
 You want to connect your business data to an AI assistant. You've heard about MCP. Now you're comparing platforms.
 
-Here's what actually matters — and what's just marketing.
+Here's what actually matters - and what's just marketing.
 
 ## The 6 things that matter
 
@@ -16,11 +16,11 @@ CorpusIQ: External-source connector tools use read-only retrieval and do not wri
 
 Most platforms list "50+ integrations." Count how many you'd actually use. The core five for most businesses:
 
-- **Stripe** — revenue, MRR, churn
-- **QuickBooks** — P&L, balance sheet, invoices
-- **HubSpot** — pipeline, deals, contacts
-- **Shopify** — orders, customers, products (if ecommerce)
-- **GA4** — website traffic, conversions
+- **Stripe** - revenue, MRR, churn
+- **QuickBooks** - P&L, balance sheet, invoices
+- **HubSpot** - pipeline, deals, contacts
+- **Shopify** - orders, customers, products (if ecommerce)
+- **GA4** - website traffic, conversions
 
 If a platform has those five plus Slack, Gmail, and your ad platforms (Meta, Google), it covers 90% of business questions.
 
@@ -79,4 +79,4 @@ Try the core five connectors (Stripe, QuickBooks, HubSpot, Shopify, GA4). If tho
 
 ---
 
-*CorpusIQ: 40+ connectors, read-only, 5-minute setup, works with ChatGPT and Claude. Free trial — no credit card. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ: 40+ connectors, read-only, 5-minute setup, works with ChatGPT and Claude. Free trial - no credit card. [corpusiq.io](https://www.corpusiq.io)*

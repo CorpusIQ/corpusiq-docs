@@ -1,5 +1,5 @@
 ---
-title: "SEOmatic MCP - Real Search Console Data with Approval-Gated Fixes"
+title: SEOmatic MCP - Real Search Console Data with Approval-Gated
 description: "Hosted SEO agent MCP from SEOmatic: 13 consolidated tools for Google Search Console performance and indexing, keyword research and clusters, backlink profiles, SERP competitors, traffic analytics, local presence, AI visibility and staged fix tasks with human approval gates. OAuth 2.1 or API key, free tier."
 category: SEO
 stars: "0 (new listing, Minh42/seomatic-mcp)"

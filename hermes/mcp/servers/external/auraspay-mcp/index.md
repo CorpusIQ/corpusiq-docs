@@ -1,5 +1,5 @@
 ---
-title: "AurasPay Merchant MCP - Payment Review and Links for AI Agents"
+title: AurasPay Merchant MCP - Payment Review and Links
 description: "AurasPay connects merchant accounts to AI assistants over remote MCP: read payment requests, account and support data, and prepare shareable payment links where every creation opens a separate review on AurasPay first. OAuth 2.0 with PKCE and scoped read and write permissions."
 category: Finance
 stars: n/a (new listing)

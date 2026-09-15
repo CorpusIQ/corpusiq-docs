@@ -1,5 +1,5 @@
 ---
-title: "Ship24 Tracking MCP - Package Tracking Across 2,500+ Carriers"
+title: Ship24 Tracking MCP - Package Tracking Across 2,500+
 description: "Official hosted MCP from Ship24: create and manage trackers, fetch full tracking events and delivery statistics, and list every supported courier through 11 tools at api.ship24.com/mcp. Authenticate with a standard Ship24 API key. Ideal for e-commerce logistics operations."
 category: Commerce & E-Commerce
 stars: n/a (hosted)

@@ -6,11 +6,11 @@ The CorpusIQ API uses standard HTTP status codes and returns consistent error re
 
 ```json
 {
-  "error": {
-    "code": "connector_not_found",
-    "message": "No connector found with id conn_abc123",
-    "details": {}
-  }
+ "error": {
+ "code": "connector_not_found",
+ "message": "No connector found with id conn_abc123",
+ "details": {}
+ }
 }
 ```
 
@@ -20,12 +20,12 @@ The CorpusIQ API uses standard HTTP status codes and returns consistent error re
 |------|---------|
 | 200 | Success |
 | 201 | Created |
-| 400 | Bad request — check your parameters |
-| 401 | Unauthorized — invalid or missing API key |
-| 403 | Forbidden — your plan doesn't include this feature |
+| 400 | Bad request - check your parameters |
+| 401 | Unauthorized - invalid or missing API key |
+| 403 | Forbidden - your plan doesn't include this feature |
 | 404 | Not found |
 | 429 | Rate limit exceeded |
-| 500 | Server error — we're on it |
+| 500 | Server error - we're on it |
 
 ## Common Error Codes
 
@@ -36,7 +36,7 @@ The CorpusIQ API uses standard HTTP status codes and returns consistent error re
 | `connector_auth_failed` | The connector's authentication expired |
 | `query_timeout` | The query took too long (over 30 seconds) |
 | `plan_limit` | Your plan doesn't support this action |
-| `rate_limit` | Too many requests — slow down |
+| `rate_limit` | Too many requests - slow down |
 
 ## Getting Help
 

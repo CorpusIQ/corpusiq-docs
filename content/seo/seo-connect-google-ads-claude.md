@@ -1,4 +1,4 @@
-# Connect Google Ads to Claude — Campaign Performance in Plain English
+# Connect Google Ads to Claude - Campaign Performance in Plain English
 
 Your ad spend lives in Google Ads. Campaigns, keywords, conversions, ROAS. Every optimization decision requires navigating the Google Ads dashboard.
 

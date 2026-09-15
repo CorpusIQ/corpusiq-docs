@@ -1,6 +1,6 @@
-# Perplexity for Business Data — Research-Grade Answers from Your Tools
+# Perplexity for Business Data - Research-Grade Answers from Your Tools
 
-Perplexity can now query your business data through MCP. Financials, pipeline, analytics — with citations.
+Perplexity can now query your business data through MCP. Financials, pipeline, analytics - with citations.
 
 > "What's our revenue this quarter? Compare to last year. Cite the source."
 

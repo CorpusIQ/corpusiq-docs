@@ -1,5 +1,5 @@
 ---
-title: "SocialRobot MCP - Social Media Scheduling and Analytics for AI Agents"
+title: SocialRobot MCP - Social Media Scheduling and Analytics
 description: "Remote MCP server that schedules and analyzes social posts across Instagram, LinkedIn, X, TikTok, Facebook, Threads, Pinterest, Bluesky, and Mastodon - create, reschedule, delete, upload media, and pull analytics plus best-time-to-post insights from any AI assistant."
 category: Marketing
 stars: n/a (new listing)

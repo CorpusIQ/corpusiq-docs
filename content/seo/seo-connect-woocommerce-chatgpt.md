@@ -1,4 +1,4 @@
-# Connect WooCommerce to ChatGPT — Store Analytics Without Reports
+# Connect WooCommerce to ChatGPT - Store Analytics Without Reports
 
 Your WooCommerce store has all your data. Orders, customers, products, inventory. But getting insights means exporting and building reports.
 

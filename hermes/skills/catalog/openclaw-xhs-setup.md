@@ -1,5 +1,5 @@
 ---
-title: OpenClaw XHS Setup - Xiaohongshu (RED) Integration for AI Agents
+title: OpenClaw XHS Setup - Xiaohongshu (RED) Integration
 description: Install and configure zhjiang22/openclaw-xhs - Xiaohongshu (Little Red Book) MCP integration for OpenClaw and Hermes agents. Hot topic tracking, personal memory export, Chinese social media automation.
 author: zhjiang22
 repo: https://github.com/zhjiang22/openclaw-xhs

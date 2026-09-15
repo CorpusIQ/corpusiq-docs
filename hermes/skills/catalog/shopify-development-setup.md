@@ -17,7 +17,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "shopify", "ecommerce", "de
 
 A routing playbook for building on the Shopify platform: apps (OAuth, GraphQL Admin API, webhooks, billing), UI extensions (checkout, admin, POS with Polaris components), and themes (Liquid templating, sections, snippets). It ships GraphQL templates validated against the Shopify Admin API 2026-01 schema via the official Shopify MCP, Python scaffolding scripts, and per-path reference docs. It comes from Agentic Awesome Skills (AAS), one of the largest community skill catalogs on skills.sh, but sits outside the 37-skill roster in the AAS cluster setup guide, so it gets its own guide here.
 
-**Compatibility note:** in the repo the skill lives under `plugins/agentic-awesome-skills-claude/` (a Claude Code packaging directory), but the SKILL.md itself is standard Agent Skills format with no platform binding — it loads natively in Hermes Agent like any other skill.
+**Compatibility note:** in the repo the skill lives under `plugins/agentic-awesome-skills-claude/` (a Claude Code packaging directory), but the SKILL.md itself is standard Agent Skills format with no platform binding - it loads natively in Hermes Agent like any other skill.
 
 ---
 
@@ -29,7 +29,7 @@ Selective install via the skills.sh CLI:
 npx skills add sickn33/agentic-awesome-skills --skill shopify-development
 ```
 
-Manual install (proven path — keeps the bundle intact, mirrors the repo layout):
+Manual install (proven path - keeps the bundle intact, mirrors the repo layout):
 
 ```bash
 mkdir -p ~/.hermes/skills/shopify-development/references ~/.hermes/skills/shopify-development/scripts
@@ -42,7 +42,7 @@ curl -sL "$BASE/scripts/shopify_init.py" -o ~/.hermes/skills/shopify-development
 curl -sL "$BASE/scripts/shopify_graphql.py" -o ~/.hermes/skills/shopify-development/scripts/shopify_graphql.py
 ```
 
-Full-catalog install (all 2,025 skills — heavy; see the AAS cluster guide):
+Full-catalog install (all 2,025 skills - heavy; see the AAS cluster guide):
 
 ```bash
 npx skills add sickn33/agentic-awesome-skills
@@ -53,7 +53,7 @@ npx skills add sickn33/agentic-awesome-skills
 | Requirement | Details |
 |---|---|
 | **Hermes Agent** | Any version with skills directory support (`~/.hermes/skills/`) |
-| **Shopify CLI** | `npm install -g @shopify/cli@latest` — required for app, extension, and theme workflows |
+| **Shopify CLI** | `npm install -g @shopify/cli@latest` - required for app, extension, and theme workflows |
 | **Shopify Partner account** | Required for app development (OAuth app creation, app distribution) |
 | **Dev store** | Free development store for testing apps, extensions, and themes |
 | **Node.js 18+** | For the Shopify CLI and the `npx skills` path |
@@ -74,7 +74,7 @@ npx skills add sickn33/agentic-awesome-skills
 
 1. Install the Shopify CLI and the skill (above)
 2. Scaffold: `shopify app init` (or `shopify theme init` for theme-only work)
-3. Describe the goal to the agent — the skill's routing section decides app vs extension vs theme, including combined App + Theme Extension builds
+3. Describe the goal to the agent - the skill's routing section decides app vs extension vs theme, including combined App + Theme Extension builds
 4. Pull specifics from the matching reference file (OAuth/webhooks/billing for apps, extension types for UI work, Liquid architecture for themes)
 5. Develop with `shopify app dev` (tunneled dev server) and ship with `shopify app deploy`
 
@@ -94,17 +94,17 @@ python3 scripts/shopify_graphql.py
 | Use Case | How |
 |---|---|
 | **Shopify connector roadmap** | CorpusIQ's Shopify connector covers store data; this skill gives the agent working knowledge of the app/extension side of the platform for connector planning and debugging |
-| **E-commerce operator support** | Answer merchant questions with working knowledge of custom app, checkout, and theme development paths — the core CorpusIQ ICP |
+| **E-commerce operator support** | Answer merchant questions with working knowledge of custom app, checkout, and theme development paths - the core CorpusIQ ICP |
 | **Feature prototyping** | Prototype checkout extensions or Shopify Functions to validate operator-facing product ideas before committing engineering time |
 | **Demo content** | Build working Shopify app/theme demos for outreach and onboarding material |
 | **Competitive intelligence** | Evaluate Shopify app ecosystem moves and merchant tooling to sharpen positioning |
 
 ## Limitations / Verification
 
-- **Path quirk:** the repo stores this skill under `plugins/agentic-awesome-skills-claude/` (Claude Code packaging), but the SKILL.md is platform-agnostic Agent Skills format — use the raw-URL paths above, not the AAS cluster guide's `skills/<name>/` paths
+- **Path quirk:** the repo stores this skill under `plugins/agentic-awesome-skills-claude/` (Claude Code packaging), but the SKILL.md is platform-agnostic Agent Skills format - use the raw-URL paths above, not the AAS cluster guide's `skills/<name>/` paths
 - **Slow listing:** `npx skills add sickn33/agentic-awesome-skills --list` on the full 2,025-skill repo is slow; use the skills.sh product page as the fast reference
 - **Schema pin:** GraphQL templates are validated against Admin API 2026-01; re-validate against newer API versions if a query errors
-- **Full-catalog install pulls 2,025 skills** — prefer selective or manual install
+- **Full-catalog install pulls 2,025 skills** - prefer selective or manual install
 
 ```bash
 # Verify skill installed

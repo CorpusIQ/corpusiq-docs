@@ -1,5 +1,5 @@
 ---
-title: CaffeineLabs Extension Skills - Agent Platform Extensions Setup
+title: CaffeineLabs Extension Skills - Agent Platform Extensions
 description: "caffeinelabs/skills - 39 extension skills at 259.4K installs: email calendar/marketing/verification/raw, Stripe, QR code, camera, object storage, authorization, HTTP outcalls, OpenAI, posting-to-X, OQL querying, Google Mail/Calendar connectors, and a Motoko series."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/caffeinelabs-extension-skills-setup/"
 robots: "index,follow"

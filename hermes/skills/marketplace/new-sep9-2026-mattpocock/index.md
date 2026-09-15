@@ -1,5 +1,5 @@
 ---
-title: "September 9, 2026 (Evening) - Matt Pocock Workflow Suite: 27 uncatalogued skills, 12.2M+ installs (grill-me 1.1M, tdd 873K, handoff 774K) + Open Design polish skill - 4 setup guides"
+title: "September 9, 2026 (Evening) - Matt Pocock Workflow Suite: 27"
 description: "Evening skills.sh sweep found a major gap in Matt Pocock coverage: 27 uncatalogued skills with 12.2M+ combined installs (grill-me 1.1M, grill-with-docs 941K, tdd 873K, handoff 774K, triage 760K) plus nexu-io/open-design impeccable-design-polish. 4 setup guides drafted."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep9-2026-mattpocock/"
 robots: "index,follow"

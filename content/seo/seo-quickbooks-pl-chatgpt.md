@@ -1,4 +1,4 @@
-# QuickBooks P&L with ChatGPT — Financial Answers Without Reports
+# QuickBooks P&L with ChatGPT - Financial Answers Without Reports
 
 Your P&L lives in QuickBooks. But getting a clear answer means running the report, setting date ranges, and interpreting rows of numbers.
 

@@ -1,5 +1,5 @@
 ---
-title: "Spike MCP - Incident Management and On-Call for AI Assistants"
+title: Spike MCP - Incident Management and On-Call
 description: "Official hosted MCP server from Spike: 59 tools (51 with an API key) that let AI assistants query incidents, analyze alerts, manage on-call rotations, route alerts and tune escalation policies without leaving chat."
 category: DevOps
 stars: "n/a (closed source)"

@@ -1,6 +1,6 @@
 # Why MCP Is the Future of Business Intelligence
 
-Business Intelligence is dying. Not the concept — knowing what's happening in your business. That's more important than ever. What's dying is the model: dashboards, reports, data warehouses, and the army of analysts needed to maintain them.
+Business Intelligence is dying. Not the concept - knowing what's happening in your business. That's more important than ever. What's dying is the model: dashboards, reports, data warehouses, and the army of analysts needed to maintain them.
 
 The replacement isn't a better dashboard. It's a conversation.
 
@@ -19,9 +19,9 @@ MCP connects AI assistants directly to live business data. You ask a question. T
 
 Three things made conversational BI possible:
 
-1. **LLMs got good enough** — They can translate "how are we doing?" into structured queries across multiple tools
-2. **MCP became a standard** — Open protocol for connecting AI to external tools, backed by Anthropic and adopted industry-wide
-3. **OAuth made it secure** — Read-only, per-user authentication with instant revoke. Finance teams approve it.
+1. **LLMs got good enough** - They can translate "how are we doing?" into structured queries across multiple tools
+2. **MCP became a standard** - Open protocol for connecting AI to external tools, backed by Anthropic and adopted industry-wide
+3. **OAuth made it secure** - Read-only, per-user authentication with instant revoke. Finance teams approve it.
 
 ## What the best companies are doing
 

@@ -1,5 +1,5 @@
 ---
-title: "Slidingbox Hydrate/Dehydrate - Burn-After-Reading Secret Handoff for Agents"
+title: Slidingbox Hydrate/Dehydrate - Burn-After-Reading Secret
 description: "MCP server that hands a secret from one agent, machine, or person to another without leaving a copy behind: store_secret encrypts locally with AES-256-GCM and returns one token; the first successful read delivers the secret and destroys it. ISC, stdio via npx, Node >=20."
 category: Security
 npm: "@slidingbox/hydrate-dehydrate-mcp (v0.1.5)"

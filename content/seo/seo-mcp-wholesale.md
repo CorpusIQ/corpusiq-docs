@@ -1,4 +1,4 @@
-# MCP for Wholesale — B2B Orders, Inventory, and Customer Financials
+# MCP for Wholesale - B2B Orders, Inventory, and Customer Financials
 
 Wholesale businesses run: ERP for orders, QuickBooks for financials, inventory system for stock, HubSpot for customer relationships, and Gmail for purchase orders.
 
@@ -6,7 +6,7 @@ Every customer review means pulling data from five systems.
 
 Connect your tools via MCP and ask:
 
-> "Show me all open orders for Acme Corp — what's shipped, what's pending?"
+> "Show me all open orders for Acme Corp - what's shipped, what's pending?"
 
 > "Which customers are over their credit limit? What's the total exposure?"
 

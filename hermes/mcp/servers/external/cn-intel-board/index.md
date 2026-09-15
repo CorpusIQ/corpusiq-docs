@@ -1,5 +1,5 @@
 ---
-title: "CN Intel Board MCP - China Hard-Tech Supply Chain Intelligence"
+title: CN Intel Board MCP - China Hard-Tech Supply Chain
 description: "Hosted MCP server serving structured China hard-tech supply chain intelligence: 33 information-gap signals across semiconductors, solid-state batteries, eVTOL, and innovative drugs, an H1 2026 earnings tracker, and natural-language edge Q&A through 6 tools."
 category: Data & Analytics
 stars: n/a (new listing, github.com/lory69060/cn-intel-board)

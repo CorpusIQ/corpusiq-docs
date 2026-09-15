@@ -1,4 +1,4 @@
-# MCP for Event Management — Ticket Sales, Sponsors, and Financials
+# MCP for Event Management - Ticket Sales, Sponsors, and Financials
 
 Event companies run: Eventbrite for tickets, QuickBooks for financials, Stripe for payments, HubSpot for sponsors, and Mailchimp for promotions.
 
@@ -12,7 +12,7 @@ Connect your tools via MCP and ask:
 
 > "What's our marketing cost per attendee? Which channel performed best?"
 
-> "Compare this event to the last one — attendance, revenue, NPS."
+> "Compare this event to the last one - attendance, revenue, NPS."
 
 ---
 

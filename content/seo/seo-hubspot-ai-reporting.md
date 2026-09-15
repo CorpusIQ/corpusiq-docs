@@ -1,4 +1,4 @@
-# HubSpot AI Reporting — Pipeline Intelligence Without Reports
+# HubSpot AI Reporting - Pipeline Intelligence Without Reports
 
 Your pipeline lives in HubSpot. Getting insights means building reports, setting filters, and exporting data.
 

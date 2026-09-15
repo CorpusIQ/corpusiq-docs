@@ -1,4 +1,4 @@
-# Connect MSSQL to ChatGPT — Enterprise Database in Plain English
+# Connect MSSQL to ChatGPT - Enterprise Database in Plain English
 
 Your enterprise data lives in SQL Server. Tables, stored procedures, complex joins. Every answer requires a DBA writing queries.
 

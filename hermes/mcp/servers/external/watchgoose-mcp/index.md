@@ -1,5 +1,5 @@
 ---
-title: Watchgoose MCP - Cron Monitoring and Failure Forensics for Agents
+title: Watchgoose MCP - Cron Monitoring and Failure Forensics
 description: Hosted Watchgoose MCP server for monitoring cron jobs and recurring work. Ten tools let agents list checks, read status flips and pings, and create, update, pause or resume checks under OAuth 2.1 PKCE with read-only access selected by default.
 category: Business Operations
 stars: n/a (new listing)

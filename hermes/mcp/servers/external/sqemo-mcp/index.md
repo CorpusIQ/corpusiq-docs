@@ -1,5 +1,5 @@
 ---
-title: Sqemo MCP - Database Schema Design and ERD Governance for Agents
+title: Sqemo MCP - Database Schema Design and ERD Governance
 description: MCP server for governed database design - introspect live databases, generate ERDs, name-check columns, detect schema drift, diff models and export SQL or DBML. Local .erd.json files work with no account. MIT.
 category: Database & Data Engineering
 stars: n/a (new listing)

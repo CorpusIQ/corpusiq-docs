@@ -1,4 +1,4 @@
-# MCP for Community Banks — Loan Pipeline, Deposits, Branch Performance
+# MCP for Community Banks - Loan Pipeline, Deposits, Branch Performance
 
 Community banks run: Jack Henry/Fiserv for core, QuickBooks for holding company financials, CRM for business development.
 

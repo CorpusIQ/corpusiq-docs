@@ -1,5 +1,5 @@
 ---
-title: marketingskills - Complete Marketing Suite for Hermes (160K+ installs)
+title: marketingskills - Complete Marketing Suite (160K+ installs)
 description: Install and use coreyhaines31/marketingskills - 12 battle-tested marketing skills for SEO, copywriting, content strategy, lead generation, social media, and AI marketing.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/marketingskills-setup/"
 robots: "index,follow"

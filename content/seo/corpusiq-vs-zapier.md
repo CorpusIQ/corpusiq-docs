@@ -1,13 +1,13 @@
-# CorpusIQ vs Zapier — Why MCP Changes Everything About Business Automation
+# CorpusIQ vs Zapier - Why MCP Changes Everything About Business Automation
 
-**CorpusIQ:** Live data for AI assistants. Ask questions, get real answers from your actual business tools.  
+**CorpusIQ:** Live data for AI assistants. Ask questions, get real answers from your actual business tools. 
 **Zapier:** Workflow automation. "When X happens, do Y."
 
 They solve different problems. Here's why that matters.
 
 ## What Zapier does well
 
-Zapier connects apps with workflows. When a new Shopify order comes in, send a Slack message. When a HubSpot deal closes, create a QuickBooks invoice. These are triggers and actions — "if this, then that."
+Zapier connects apps with workflows. When a new Shopify order comes in, send a Slack message. When a HubSpot deal closes, create a QuickBooks invoice. These are triggers and actions - "if this, then that."
 
 Zapier is great at:
 - Automating repetitive tasks across 7,000+ apps
@@ -45,7 +45,7 @@ Each answer pulls live data from the source tools. No pre-built reports. No "let
 | **Data freshness** | When the Zap runs (every 5-15 min, or on trigger) | Live, every time you ask |
 | **Cross-tool queries** | Requires separate Zaps for each combination | One question can span 5+ tools |
 | **Setup time** | 5-30 min per workflow | 5 min total (connect once, ask anything) |
-| **Maintenance** | Each Zap needs monitoring, debugging, updates | Zero maintenance — tools stay connected |
+| **Maintenance** | Each Zap needs monitoring, debugging, updates | Zero maintenance - tools stay connected |
 | **Question flexibility** | Only answers what the Zap was built for | Answers any question you can think of |
 
 ## When to use which
@@ -71,4 +71,4 @@ Connect your tools to CorpusIQ once. Ask anything. Then use Zapier for the repet
 
 ---
 
-*CorpusIQ connects 40+ business tools to ChatGPT, Claude, and any MCP-compatible AI assistant. Read-only access. 5-minute setup. Free trial — no credit card. [corpusiq.io](https://www.corpusiq.io)*
+*CorpusIQ connects 40+ business tools to ChatGPT, Claude, and any MCP-compatible AI assistant. Read-only access. 5-minute setup. Free trial - no credit card. [corpusiq.io](https://www.corpusiq.io)*

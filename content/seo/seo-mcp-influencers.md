@@ -1,10 +1,10 @@
-# MCP for Influencers — Brand Deals, Content Revenue, Audience Analytics
+# MCP for Influencers - Brand Deals, Content Revenue, Audience Analytics
 
 Influencers manage: brand deal tracking, Stripe for payments, QuickBooks for business expenses, social platform analytics.
 
 Connect via MCP and ask:
 
-> "What's my revenue by income stream — brand deals, platform monetization, merch, affiliates?"
+> "What's my revenue by income stream - brand deals, platform monetization, merch, affiliates?"
 
 > "Which content format has the highest engagement-to-revenue ratio?"
 

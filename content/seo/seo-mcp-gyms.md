@@ -1,4 +1,4 @@
-# MCP for Gyms and Fitness — Membership, Revenue, and Retention
+# MCP for Gyms and Fitness - Membership, Revenue, and Retention
 
 Gym operators run: Mindbody for memberships, QuickBooks for financials, Stripe for payments, Mailchimp for member communications.
 

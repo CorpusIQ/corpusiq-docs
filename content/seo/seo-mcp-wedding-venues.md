@@ -1,4 +1,4 @@
-# MCP for Wedding Venues — Event Revenue, Booking Pipeline, Vendor Management
+# MCP for Wedding Venues - Event Revenue, Booking Pipeline, Vendor Management
 
 Wedding venues run: Tripleseat for events, QuickBooks for financials, Stripe for payments, CRM for tours and bookings.
 

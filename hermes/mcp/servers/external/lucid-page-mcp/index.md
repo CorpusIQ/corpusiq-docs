@@ -1,5 +1,5 @@
 ---
-title: "lucid.page MCP - Publish Markdown Pages Instantly from Any Agent"
+title: lucid.page MCP - Publish Markdown Pages Instantly from Any
 description: "Zero-config remote MCP server that turns Markdown into a beautifully typeset shareable page: publish anonymously without signup, update in place with revisions, list and delete owned docs, and bind pages into multi-chapter bundles. Free."
 category: Content & Publishing
 stars: n/a (new listing)

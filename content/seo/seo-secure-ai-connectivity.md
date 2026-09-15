@@ -1,4 +1,4 @@
-# Secure AI Data Connectivity — Operation-Level Permissions
+# Secure AI Data Connectivity - Operation-Level Permissions
 
 The first question when connecting business data to AI is reasonable: "What can each tool change?"
 

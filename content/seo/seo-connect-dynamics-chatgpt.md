@@ -1,4 +1,4 @@
-# Connect Microsoft Dynamics to ChatGPT — ERP Data in Plain English
+# Connect Microsoft Dynamics to ChatGPT - ERP Data in Plain English
 
 Your enterprise ERP is Dynamics 365. Financials, supply chain, sales, customer service. Every answer requires navigating complex modules.
 

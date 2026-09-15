@@ -1,5 +1,5 @@
 ---
-title: "Hermes Agent Official Skills - Bundled Batch Setup Guide for Hermes Agents"
+title: Hermes Agent Official Skills - Bundled Batch Setup Guide
 description: "9 official bundled skills from nousresearch/hermes-agent (432 combined installs, first seen Aug 7-13 2026): competitor-news-monitor, document-to-action-items, github-issue-to-pr, blocked-page-recovery, email-inbox-triage, weekly-review-planning, meeting-action-items, product-price-monitor, sdlc-review - install paths, capabilities, and CorpusIQ use cases."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-official-skills-batch-setup/"
 robots: "index,follow"
@@ -13,7 +13,7 @@ tags: ["hermes skill", "agent skill", "skill setup", "nousresearch", "productivi
 **GitHub:** [nousresearch/hermes-agent](https://github.com/nousresearch/hermes-agent)
 **Category:** Productivity · Research · Email · GitHub · Web · DevOps
 **First Seen:** Aug 7-13, 2026 (skills.sh, per skill)
-**Quality Tier:** 🟢 Production — official Nous Research skills, MIT license, bundled with Hermes Agent
+**Quality Tier:** 🟢 Production - official Nous Research skills, MIT license, bundled with Hermes Agent
 
 Nine official skills published to the nousresearch/hermes-agent repo in early August 2026 and bundled with Hermes Agent itself. Discovered in the Sep 1 PM sweep after the flagship-repo API query had timed out on several prior runs. Most are authored by Ben Barclay for Hermes Agent; `sdlc-review` is by Jakub Wolniewicz with Hermes Agent. Together they cover the operator loop end to end: watch competitors, triage the inbox, extract obligations from documents, turn meetings into tickets, run weekly resets, monitor prices, recover blocked pages, carry issues to verified PRs, and verify Kanban handoffs.
 
@@ -21,7 +21,7 @@ Nine official skills published to the nousresearch/hermes-agent repo in early Au
 
 ## Installation
 
-These skills ship **bundled with Hermes Agent** — no install required; they appear in the native skills list. To reinstall or pin a specific version from the source repo:
+These skills ship **bundled with Hermes Agent** - no install required; they appear in the native skills list. To reinstall or pin a specific version from the source repo:
 
 ```bash
 npx skills add nousresearch/hermes-agent --skill competitor-news-monitor
@@ -79,7 +79,7 @@ Repo paths (verified via the GitHub trees API, Sep 1, 2026): `skills/research/co
 
 ## Related
 
-- [Native MCP - MCP Client Setup](/docs/hermes/skills/catalog/native-mcp-setup) — same official repo, MCP transport layer
-- [Writing Plans + Subagent-Driven Development Setup](/docs/hermes/skills/catalog/writing-plans-subagent-development-setup) — same official repo, planning pair
-- [Skills Marketplace - September 1, 2026 (PM) sweep](/docs/hermes/skills/marketplace/new-sep1-2026) — discovery page for this batch
-- [Skills Operations - Email, Cron, and Video Ops Category](/docs/hermes/skills/operations) — connector-side skills that pair with inbox triage
+- [Native MCP - MCP Client Setup](/docs/hermes/skills/catalog/native-mcp-setup) - same official repo, MCP transport layer
+- [Writing Plans + Subagent-Driven Development Setup](/docs/hermes/skills/catalog/writing-plans-subagent-development-setup) - same official repo, planning pair
+- [Skills Marketplace - September 1, 2026 (PM) sweep](/docs/hermes/skills/marketplace/new-sep1-2026) - discovery page for this batch
+- [Skills Operations - Email, Cron, and Video Ops Category](/docs/hermes/skills/operations) - connector-side skills that pair with inbox triage

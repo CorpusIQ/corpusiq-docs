@@ -11,7 +11,7 @@ tags: [mcp-server, crm, sales, pipeline, automation, sequences, webhooks, oauth,
 
 # Relm MCP
 
-**Official MCP server from Relm, an API-first CRM built for AI agents.** 41 typed tools cover contacts, companies, deals, activities, pipelines, automations, drip sequences, email templates and webhooks from a single Streamable HTTP endpoint at `api.relmcrm.com/mcp`. Everything an agent can do in the dashboard it can also do over the MCP server with the same bearer key — and the error contract is built for agents: every failure is an RFC-9457 problem+JSON response that carries `valid_options` and a `suggestion`, so the agent self-corrects instead of guessing.
+**Official MCP server from Relm, an API-first CRM built for AI agents.** 41 typed tools cover contacts, companies, deals, activities, pipelines, automations, drip sequences, email templates and webhooks from a single Streamable HTTP endpoint at `api.relmcrm.com/mcp`. Everything an agent can do in the dashboard it can also do over the MCP server with the same bearer key - and the error contract is built for agents: every failure is an RFC-9457 problem+JSON response that carries `valid_options` and a `suggestion`, so the agent self-corrects instead of guessing.
 
 ```
 Server type: Remote (Streamable HTTP)
@@ -27,13 +27,13 @@ Built by: Relm (relmcrm.com)
 
 ```json
 {
-  "mcpServers": {
-    "relm": {
-      "type": "http",
-      "url": "https://api.relmcrm.com/mcp",
-      "headers": { "Authorization": "Bearer relm_live_..." }
-    }
-  }
+ "mcpServers": {
+ "relm": {
+ "type": "http",
+ "url": "https://api.relmcrm.com/mcp",
+ "headers": { "Authorization": "Bearer relm_live_..." }
+ }
+ }
 }
 ```
 
@@ -41,11 +41,11 @@ Built by: Relm (relmcrm.com)
 
 Relm is one of the few CRM vendors whose MCP surface was designed for agents first and humans second. Three design decisions stand out.
 
-First, **the "never confused" error contract.** Send an unknown contact type and you get back `422 unknown_value` with the exact list of valid options; send a stale update and you get `412 version_conflict` telling you to re-fetch and reapply. The server's own instructions tell the agent to call `relm_describe_schema` first — the live schema (objects, fields, enum groups) is the source of truth, and if a needed enum value or custom field doesn't exist, the agent creates it (`relm_create_enum_value`, `relm_create_field`, `relm_create_type`) rather than improvising.
+First, **the "never confused" error contract.** Send an unknown contact type and you get back `422 unknown_value` with the exact list of valid options; send a stale update and you get `412 version_conflict` telling you to re-fetch and reapply. The server's own instructions tell the agent to call `relm_describe_schema` first - the live schema (objects, fields, enum groups) is the source of truth, and if a needed enum value or custom field doesn't exist, the agent creates it (`relm_create_enum_value`, `relm_create_field`, `relm_create_type`) rather than improvising.
 
-Second, **test mode is a sandbox, not a storage tier.** `relm_test_` keys write to an isolated dataset that is free, invisible to billing and the dashboard, and auto-deleted 7 days after creation — an agent can rehearse a full pipeline-building sequence before a single `relm_live_` call touches production. OAuth grants always act on live data.
+Second, **test mode is a sandbox, not a storage tier.** `relm_test_` keys write to an isolated dataset that is free, invisible to billing and the dashboard, and auto-deleted 7 days after creation - an agent can rehearse a full pipeline-building sequence before a single `relm_live_` call touches production. OAuth grants always act on live data.
 
-Third, **write safety is layered.** Creates take an `Idempotency-Key` (a retry returns the original record), updates use optimistic concurrency (`If-Match` against a per-record `version`), and webhooks are HMAC-signed (`Relm-Signature: t=...,v1=...`) with retry backoff (1m/5m/30m/2h/6h) and dead-lettering after six attempts. Spend is capped explicitly — `relm_set_spend_cap` — and quota headers (`X-RateLimit-*`, `X-Quota-*`) ride every response.
+Third, **write safety is layered.** Creates take an `Idempotency-Key` (a retry returns the original record), updates use optimistic concurrency (`If-Match` against a per-record `version`), and webhooks are HMAC-signed (`Relm-Signature: t=...,v1=...`) with retry backoff (1m/5m/30m/2h/6h) and dead-lettering after six attempts. Spend is capped explicitly - `relm_set_spend_cap` - and quota headers (`X-RateLimit-*`, `X-Quota-*`) ride every response.
 
 ## Tool Groups (41 tools, all verified from the public tools/list)
 
@@ -60,7 +60,7 @@ Third, **write safety is layered.** Creates take an `Idempotency-Key` (a retry r
 
 ## Verification (Aug 30, 2026)
 
-Live probe against `https://api.relmcrm.com/mcp`: unauthenticated `initialize` returns `serverInfo: {"name": "relm", "title": "Relm CRM", "version": "0.17.1"}` with instructions to call `relm_describe_schema` first; unauthenticated `tools/list` returns the full 41-tool catalog (public discovery — `tools/call` requires a credential, returning 401 with OAuth metadata for a Connect flow).
+Live probe against `https://api.relmcrm.com/mcp`: unauthenticated `initialize` returns `serverInfo: {"name": "relm", "title": "Relm CRM", "version": "0.17.1"}` with instructions to call `relm_describe_schema` first; unauthenticated `tools/list` returns the full 41-tool catalog (public discovery - `tools/call` requires a credential, returning 401 with OAuth metadata for a Connect flow).
 
 ## Notes and Caveats
 

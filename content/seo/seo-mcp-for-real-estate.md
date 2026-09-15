@@ -1,4 +1,4 @@
-# MCP for Real Estate — Know Your Numbers Across Every Property
+# MCP for Real Estate - Know Your Numbers Across Every Property
 
 You manage 20 properties. Each has its own P&L in QuickBooks. Rent payments hit Stripe. Maintenance tickets live in your property management software. Marketing spend sits in Google Ads.
 
@@ -10,11 +10,11 @@ What if you could just ask?
 
 Property managers and real estate investors deal with fragmented data by design. Each property is a separate financial entity. Each tool tracks a different piece of the puzzle:
 
-- **QuickBooks** — P&L per property, expenses, mortgage payments
-- **Stripe** — Rent collections, security deposits
-- **HubSpot** — Tenant communications, lease renewals
-- **Google Ads** — Property marketing spend
-- **GA4** — Property website traffic, listing views
+- **QuickBooks** - P&L per property, expenses, mortgage payments
+- **Stripe** - Rent collections, security deposits
+- **HubSpot** - Tenant communications, lease renewals
+- **Google Ads** - Property marketing spend
+- **GA4** - Property website traffic, listing views
 
 Answering "how's the portfolio doing?" means pulling reports from every tool, for every property. It's not analysis. It's data entry.
 
@@ -43,12 +43,12 @@ Each answer: live data, cross-tool, cross-property. No spreadsheets with 20 tabs
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 

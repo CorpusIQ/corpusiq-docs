@@ -1,4 +1,4 @@
-# MCP for Small Business — Enterprise-Grade Answers Without the Enterprise Price Tag
+# MCP for Small Business - Enterprise-Grade Answers Without the Enterprise Price Tag
 
 You run a small business. You don't have a data team. You don't have a warehouse. You have QuickBooks, maybe Stripe, maybe a CRM, and a lot of questions nobody has time to answer.
 

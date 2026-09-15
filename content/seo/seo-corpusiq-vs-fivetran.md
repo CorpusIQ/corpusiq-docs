@@ -1,10 +1,10 @@
-# CorpusIQ vs Fivetran — Live Queries Beat Batch Pipelines
+# CorpusIQ vs Fivetran - Live Queries Beat Batch Pipelines
 
 Fivetran moves data from your tools into a warehouse. CorpusIQ queries your tools live. Two different philosophies. Here's when to use which.
 
 ## What Fivetran does well
 
-Fivetran is the gold standard for managed ETL. You point it at QuickBooks, Shopify, HubSpot — 300+ connectors — and it loads data into Snowflake, BigQuery, or Redshift on a schedule.
+Fivetran is the gold standard for managed ETL. You point it at QuickBooks, Shopify, HubSpot - 300+ connectors - and it loads data into Snowflake, BigQuery, or Redshift on a schedule.
 
 It's great at:
 - Moving large volumes of historical data
@@ -30,13 +30,13 @@ No warehouse. No pipeline. No "the data sync runs at 3 AM."
 
 | | Fivetran | CorpusIQ |
 |---|---------|----------|
-| **Approach** | ETL pipeline — move data to warehouse | Live queries — ask source tools directly |
+| **Approach** | ETL pipeline - move data to warehouse | Live queries - ask source tools directly |
 | **Data freshness** | Scheduled sync (15 min to 24 hours) | Real-time, every query |
 | **Setup** | Configure connector + destination + schedule | 30-second OAuth per tool |
-| **Cross-tool queries** | Requires SQL in warehouse | Built-in — ask across tools naturally |
+| **Cross-tool queries** | Requires SQL in warehouse | Built-in - ask across tools naturally |
 | **Best for** | Historical analysis, data science, BI | Ad-hoc questions, operations, daily decisions |
 | **Cost** | Volume-based (MAR) | Subscription |
-| **Maintenance** | Monitor pipelines, handle schema drift | Zero — connectors auto-maintain |
+| **Maintenance** | Monitor pipelines, handle schema drift | Zero - connectors auto-maintain |
 
 ## When to use both
 

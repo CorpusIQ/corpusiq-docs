@@ -1,4 +1,4 @@
-# AI for Forecasting — Predict Revenue Without Spreadsheets
+# AI for Forecasting - Predict Revenue Without Spreadsheets
 
 Traditional forecasting: export pipeline CSV, open Excel, apply close rates, adjust for seasonality, build three scenarios, present to board, be wrong within 2 weeks.
 
@@ -26,12 +26,12 @@ AI forecasting works differently: it queries your live pipeline data every time 
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 

@@ -1,4 +1,4 @@
-# Connect Ahrefs to ChatGPT — SEO Answers Without the Dashboard
+# Connect Ahrefs to ChatGPT - SEO Answers Without the Dashboard
 
 Your SEO data lives in Ahrefs. Domain rating, backlinks, organic keywords, competitor analysis. Every answer requires navigating multiple reports.
 

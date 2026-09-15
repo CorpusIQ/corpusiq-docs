@@ -1,4 +1,4 @@
-# How to Analyze QuickBooks with AI — Stop Exporting, Start Asking
+# How to Analyze QuickBooks with AI - Stop Exporting, Start Asking
 
 Traditional QuickBooks analysis: export report, open Excel, build pivot, create chart, interpret. Time: 1-3 hours per question.
 

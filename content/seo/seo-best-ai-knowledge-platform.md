@@ -1,4 +1,4 @@
-# Best AI Knowledge Platform for Business — What Actually Works
+# Best AI Knowledge Platform for Business - What Actually Works
 
 You want your team to ask questions and get answers from company data. You've looked at knowledge base tools, vector search platforms, and RAG frameworks. Most of them require building something.
 

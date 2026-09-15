@@ -1,5 +1,5 @@
 ---
-title: "Live Listing Proof MCP - Verify Listings Before Agents Rely on Them"
+title: Live Listing Proof MCP - Verify Listings Before Agents Rely
 description: "Hosted verification MCP that checks public product, marketplace, classified, and auction listings before an agent cites them: fail-closed verdicts at $0.02 USDC per check via x402 on Base, no API key"
 category: Verification
 stars: n/a (new listing)

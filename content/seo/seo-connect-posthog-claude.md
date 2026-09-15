@@ -1,4 +1,4 @@
-# Connect PostHog to Claude — Product Analytics Without SQL
+# Connect PostHog to Claude - Product Analytics Without SQL
 
 Your product analytics run on PostHog. Events, persons, funnels, HogQL. Every insight requires writing queries or building dashboards.
 

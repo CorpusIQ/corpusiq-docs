@@ -1,4 +1,4 @@
-# Connect Stripe to Claude (Ask Your Payments in Plain English)
+# Connect Stripe to Claude (Plain English Q&A)
 
 Stripe holds your revenue data. Claude has the reasoning. CorpusIQ connects them so you can ask plain-English questions about your payments, payouts, and disputes.
 

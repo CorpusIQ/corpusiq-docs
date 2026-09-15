@@ -1,4 +1,4 @@
-# Stripe Analytics with AI — Revenue Intelligence Without Dashboards
+# Stripe Analytics with AI - Revenue Intelligence Without Dashboards
 
 Your Stripe dashboard shows numbers. AI-powered Stripe analytics answers questions:
 
@@ -8,7 +8,7 @@ Your Stripe dashboard shows numbers. AI-powered Stripe analytics answers questio
 
 > "What's our net revenue retention by cohort?"
 
-> "Show me expansion revenue — who upgraded and when?"
+> "Show me expansion revenue - who upgraded and when?"
 
 Connect Stripe to AI via MCP. Live data. Instant answers. No dashboards.
 

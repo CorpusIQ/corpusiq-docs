@@ -1,4 +1,4 @@
-# MCP vs API Integrations — Why the Protocol Wins
+# MCP vs API Integrations - Why the Protocol Wins
 
 Traditional API integration: read docs, get API keys, build client, handle auth, manage rate limits, update when the API changes. Repeat for every tool.
 

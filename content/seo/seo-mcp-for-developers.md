@@ -1,6 +1,6 @@
-# MCP for Developers — Build AI Agents That Actually Know Your Business
+# MCP for Developers - Build AI Agents That Actually Know Your Business
 
-You're building an AI agent. You need it to answer business questions — revenue, pipeline, customer data. You have three options:
+You're building an AI agent. You need it to answer business questions - revenue, pipeline, customer data. You have three options:
 
 1. Build custom API integrations for every tool (months of work)
 2. Use a data warehouse (stale data, complex pipelines)
@@ -20,12 +20,12 @@ For developers, this means:
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 

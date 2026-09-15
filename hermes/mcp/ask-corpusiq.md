@@ -1,5 +1,5 @@
 ---
-title: "ask_corpusiq: Deterministic Single-Tool Access to Business Data"
+title: "ask_corpusiq: Deterministic Single-Tool Access to Business"
 description: "ask_corpusiq is the high-level MCP tool that routes business questions through the CorpusIQ engine: router-first mode, required-runbook mode, pinned allowlisted execution, and execution receipts."
 canonical: "/hermes/mcp/ask-corpusiq/"
 robots: "index, follow"

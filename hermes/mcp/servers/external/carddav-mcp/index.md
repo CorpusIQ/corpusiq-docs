@@ -1,5 +1,5 @@
 ---
-title: "carddav-mcp - Address Book Operations over CardDAV for Agents"
+title: carddav-mcp - Address Book Operations over CardDAV
 description: "carddav-mcp reads and writes address books over CardDAV from an MCP client: contacts, groups and contact photos on Radicale, Baikal, Nextcloud, SOGo, Fastmail, iCloud and any RFC 6352 server. 17 tools with read-only mode, both vCard group conventions, single-query search and If-Match guarded writes. TypeScript stdio, MIT."
 category: Productivity
 stars: 0

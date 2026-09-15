@@ -1,4 +1,4 @@
-# MCP for Dry Cleaners — Revenue Per Store, Garment Volume, Customer Data
+# MCP for Dry Cleaners - Revenue Per Store, Garment Volume, Customer Data
 
 Dry cleaning operators run: POS for orders, QuickBooks for financials, Stripe for payments, CRM for customer preferences.
 

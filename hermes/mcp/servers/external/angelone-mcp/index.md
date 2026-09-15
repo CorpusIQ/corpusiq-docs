@@ -1,5 +1,5 @@
 ---
-title: "AngelOne MCP - Indian Market Trading and Portfolio Data for Agents"
+title: AngelOne MCP - Indian Market Trading and Portfolio Data
 description: "Python MCP server wrapping Angel One's SmartAPI with 32 tools for trading, portfolio, market data, GTT rules, and margin across Indian markets, with TOTP login and rate-limit pacing."
 category: Finance
 stars: n/a (new listing, pyalgobot/angelone-mcp)

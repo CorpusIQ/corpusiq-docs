@@ -1,5 +1,5 @@
 ---
-title: OpenAI Skills - Official OpenAI Agent Skills for Hermes Agents
+title: OpenAI Skills - Official OpenAI Agent Skills
 description: Production-grade PDF manipulation, CI debugging, security auditing, Linear integration, Playwright testing, and Figma implementation from OpenAI. 703K+ combined installs across 6 skills.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/openai-skills-setup/"
 robots: "index,follow"

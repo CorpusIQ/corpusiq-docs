@@ -8,10 +8,10 @@ CorpusIQ search queries your live data across all connected sources simultaneous
 
 ## Supported Searches
 
-- **Cross-source queries** — "Show me all customers who bought from both Shopify and Stripe"
-- **Natural language filtering** — "Which campaigns had ROAS over 3x last month?"
-- **Date-range comparisons** — "Compare Q2 revenue this year vs last year"
-- **Entity lookups** — "Find the invoice for customer Acme Corp"
+- **Cross-source queries** - "Show me all customers who bought from both Shopify and Stripe"
+- **Natural language filtering** - "Which campaigns had ROAS over 3x last month?"
+- **Date-range comparisons** - "Compare Q2 revenue this year vs last year"
+- **Entity lookups** - "Find the invoice for customer Acme Corp"
 
 ## Getting Started
 

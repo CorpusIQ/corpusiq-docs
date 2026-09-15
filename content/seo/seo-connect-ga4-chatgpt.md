@@ -1,4 +1,4 @@
-# Connect Google Analytics to ChatGPT — Traffic Answers Without Reports
+# Connect Google Analytics to ChatGPT - Traffic Answers Without Reports
 
 Your website analytics live in GA4. Traffic, conversions, user behavior. Every question requires navigating the GA4 interface.
 

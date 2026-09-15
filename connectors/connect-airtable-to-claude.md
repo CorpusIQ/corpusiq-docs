@@ -1,4 +1,4 @@
-# Connect Airtable to Claude (Ask Your Databases in Plain English)
+# Connect Airtable to Claude (Plain English Q&A)
 
 Airtable holds your operational data - projects, inventory, CRM, content calendars. Connect it to Claude through CorpusIQ and ask questions instead of building views and filters manually.
 

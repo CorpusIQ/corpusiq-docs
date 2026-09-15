@@ -1,4 +1,4 @@
-# How to Connect Business Data to ChatGPT — The 5-Minute Setup
+# How to Connect Business Data to ChatGPT - The 5-Minute Setup
 
 You already have the data. QuickBooks knows your revenue. Shopify knows your orders. Stripe knows your cash position. HubSpot knows your pipeline.
 
@@ -6,11 +6,11 @@ The problem: ChatGPT doesn't.
 
 Until you connect them.
 
-Here's the complete guide — from zero to "ChatGPT, what's our MRR?" in five minutes.
+Here's the complete guide - from zero to "ChatGPT, what's our MRR?" in five minutes.
 
 ## What you need
 
-- A ChatGPT account (Plus, Team, or Enterprise — the MCP feature is available on all paid plans)
+- A ChatGPT account (Plus, Team, or Enterprise - the MCP feature is available on all paid plans)
 - Access to at least one business tool (QuickBooks, Stripe, Shopify, etc.)
 - 5 minutes
 
@@ -24,7 +24,7 @@ Free trial. No credit card. Takes 30 seconds.
 
 ## Step 2: Connect your first tool
 
-Pick one. I'd start with Stripe — it has the cleanest data structure and gives you the most immediate value.
+Pick one. I'd start with Stripe - it has the cleanest data structure and gives you the most immediate value.
 
 Click "Connect" next to Stripe. You'll see an OAuth screen asking for read-only access. Approve it.
 
@@ -40,12 +40,12 @@ Paste this:
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 
@@ -63,11 +63,11 @@ You'll get a real number. Not an estimate. Not "according to your last report." 
 
 Now that you've seen it work, add the rest:
 
-- **QuickBooks** — for P&L, balance sheet, invoice status
-- **Shopify** — for orders, customers, product performance
-- **HubSpot** — for deals, pipeline, contact activity
-- **GA4** — for website traffic, conversion data
-- **Klaviyo** — for email campaign revenue, list health
+- **QuickBooks** - for P&L, balance sheet, invoice status
+- **Shopify** - for orders, customers, product performance
+- **HubSpot** - for deals, pipeline, contact activity
+- **GA4** - for website traffic, conversion data
+- **Klaviyo** - for email campaign revenue, list health
 
 Each one takes 30 seconds. Same OAuth flow. Same read-only guarantee.
 
@@ -116,7 +116,7 @@ The technical setup takes five minutes. The real change happens over the followi
 
 When getting an answer takes five seconds instead of 45 minutes, you ask more questions. Better questions. You stop asking "what happened" and start asking "why did this happen, and what should I do about it."
 
-That shift — from what to why — is where the money is.
+That shift - from what to why - is where the money is.
 
 ---
 

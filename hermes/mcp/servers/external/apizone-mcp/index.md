@@ -1,5 +1,5 @@
 ---
-title: APIzone MCP - Live API Status and Uptime Monitoring for Agents
+title: APIzone MCP - Live API Status and Uptime Monitoring
 description: "Keyless remote MCP server from APIzone monitoring 294 popular third-party APIs (Stripe, OpenAI, AWS, GitHub, Twilio and more) with independent probes every ~5 minutes. Current status, batch dependency checks, 24h/7d/30d/90d uptime history and recent incident feeds, live-verified over JSON-RPC."
 category: Business Operations
 stars: 0

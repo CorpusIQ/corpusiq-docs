@@ -1,5 +1,5 @@
 ---
-title: "Cookie Free Analytics MCP - Cookieless GDPR-First Web Analytics"
+title: Cookie Free Analytics MCP - Cookieless GDPR-First Web
 description: "Hosted read-only MCP server for cookieless, GDPR-first web analytics: pageviews, sources, live visitors, and funnels from the EU-hosted analytics platform, via OAuth 2.1 PKCE."
 category: Analytics
 stars: n/a (new listing, WesselsRepository/CookieFreeAnalytics-MCP)

@@ -1,4 +1,4 @@
-# Connect QuickBooks to Claude — Financial Answers in Plain English
+# Connect QuickBooks to Claude - Financial Answers in Plain English
 
 You run your business on QuickBooks. P&L, balance sheet, invoices, expenses. Every answer requires running a report.
 
@@ -12,18 +12,18 @@ What if you could just ask Claude?
 
 Here's how in 2 minutes.
 
-## Step 1: corpusiq.io — connect QuickBooks via OAuth (read-only, 30 seconds)
+## Step 1: corpusiq.io - connect QuickBooks via OAuth (read-only, 30 seconds)
 
 ## Step 2: Add to Claude Desktop
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 

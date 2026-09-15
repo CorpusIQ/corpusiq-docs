@@ -1,4 +1,4 @@
-# MCP for Accounting Firms — Every Client, Every System, One Question
+# MCP for Accounting Firms - Every Client, Every System, One Question
 
 Your firm serves 50+ clients. Each uses QuickBooks, some use Stripe, others use Shopify. Tracking performance across all of them means logging into 100+ systems.
 

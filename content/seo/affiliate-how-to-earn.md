@@ -16,7 +16,7 @@ You don't need all of them. Pick one:
 
 **If you have a blog:** Write a comparison post. "Best tools to connect business data to ChatGPT." Rank CorpusIQ #1. Affiliate link.
 
-**If you're on X/LinkedIn:** Post genuine insights about AI + business data. When someone asks "what do you use?" — that's when you share your link. Never spam.
+**If you're on X/LinkedIn:** Post genuine insights about AI + business data. When someone asks "what do you use?" - that's when you share your link. Never spam.
 
 **If you're a consultant:** During client onboarding, recommend CorpusIQ as part of their stack. Use your affiliate link in the recommendation email.
 
@@ -33,7 +33,7 @@ Reditus and FirstPromoter show clicks, signups, and commissions. Check monthly. 
 | Full-time affiliate | 15 | $200 | $750 | $9,000 |
 | Agency/consultant | 30 | $200 | $1,500 | $18,000 |
 
-And these customers stay for 3 years — your earnings compound.
+And these customers stay for 3 years - your earnings compound.
 
 ---
 

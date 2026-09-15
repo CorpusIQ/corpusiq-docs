@@ -1,4 +1,4 @@
-# MCP for Architects and Engineers — Project Financials, Billing, and Pipeline
+# MCP for Architects and Engineers - Project Financials, Billing, and Pipeline
 
 A&E firms run: Deltek/Ajera for projects, QuickBooks for financials, HubSpot for BD pipeline, and Gmail for client communications.
 

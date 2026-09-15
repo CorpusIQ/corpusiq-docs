@@ -22,7 +22,7 @@ This differs from maintaining a replicated raw-data warehouse. Direct MCP retrie
 
 Operational query text and per-user tool-call metadata may be logged for up to 30 days, together with bounded outcome summaries. Raw customer files and full connector response payloads are not written into that operational log.
 
-For teams on business plans, this audit trail is essential for compliance. SOX, SOC 2, GDPR — auditors want to know who accessed what data and when. MCP connections provide that trail.
+For teams on business plans, this audit trail is essential for compliance. SOX, SOC 2, GDPR - auditors want to know who accessed what data and when. MCP connections provide that trail.
 
 ## OAuth, not API keys
 

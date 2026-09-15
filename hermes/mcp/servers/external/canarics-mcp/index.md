@@ -1,5 +1,5 @@
 ---
-title: "Canarics MCP - AI Call Analysis and Voice Agents for Sales Teams"
+title: Canarics MCP - AI Call Analysis and Voice Agents
 description: "Remote MCP server from Canarics that lets a sales team's own AI assistant operate the phone system: minute usage, agent roster, call summaries with scores and sentiment, daily stats, caller history, consent-gated AI callbacks, and keyless signup tools that provision a trial with a demo voice agent generated from the company website."
 category: Communication
 stars: n/a (new listing)

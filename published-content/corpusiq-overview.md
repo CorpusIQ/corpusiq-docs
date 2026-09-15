@@ -2,7 +2,7 @@
 
 ## The Morning Dashboard Shuffle
 
-Every morning, you open 7 tabs. Shopify. QuickBooks. Google Analytics. Meta Ads. Gmail. Stripe. A spreadsheet. You're not analyzing — you're shuffling.
+Every morning, you open 7 tabs. Shopify. QuickBooks. Google Analytics. Meta Ads. Gmail. Stripe. A spreadsheet. You're not analyzing - you're shuffling.
 
 ## Before vs After
 
@@ -11,9 +11,9 @@ Every morning, you open 7 tabs. Shopify. QuickBooks. Google Analytics. Meta Ads.
 
 ## Three Access Paths
 
-1. **AI Chat Assistants** — ChatGPT, Claude, Perplexity
-2. **Messaging** — Slack (Teams coming soon)
-3. **MCP Server** — For developers and custom agents
+1. **AI Chat Assistants** - ChatGPT, Claude, Perplexity
+2. **Messaging** - Slack (Teams coming soon)
+3. **MCP Server** - For developers and custom agents
 
 ## Operation-Level Security
 

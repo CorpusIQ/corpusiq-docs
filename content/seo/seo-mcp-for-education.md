@@ -1,4 +1,4 @@
-# MCP for Education — Student Data, Finance, and Operations in One Place
+# MCP for Education - Student Data, Finance, and Operations in One Place
 
 Universities and EdTech companies run: SIS for students, QuickBooks for finances, Stripe for tuition payments, HubSpot for admissions pipeline, and GA4 for website analytics.
 
@@ -12,7 +12,7 @@ Connect your tools. Then ask:
 
 > "What's our tuition revenue collected vs budget? Which programs are under?"
 
-> "Show me admissions pipeline — applications, acceptances, deposits. Compare to targets."
+> "Show me admissions pipeline - applications, acceptances, deposits. Compare to targets."
 
 > "Which students have outstanding balances? What's the total uncollected?"
 

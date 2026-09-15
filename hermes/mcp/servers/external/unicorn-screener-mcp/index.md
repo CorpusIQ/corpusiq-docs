@@ -1,5 +1,5 @@
 ---
-title: "Unicorn Screener MCP - Startup Scores and Research Memos for Agents"
+title: Unicorn Screener MCP - Startup Scores and Research Memos
 description: "Keyless remote MCP server for startup research. Agents resolve company names to identities, look up public unicorn-potential scores out of 100, request fresh research memos, poll screening status, and read public memos as text - free lookups on existing results, memos consume a screening allowance."
 category: Market Intelligence
 stars: n/a (new listing)

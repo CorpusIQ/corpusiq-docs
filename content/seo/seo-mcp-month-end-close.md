@@ -1,4 +1,4 @@
-# MCP for Accounting — Month-End Close in Hours, Not Days
+# MCP for Accounting - Month-End Close in Hours, Not Days
 
 Month-end close takes 3-5 days. Pulling reports from QuickBooks. Reconciling Stripe against invoices. Confirming all entries are posted. Building the close package.
 
@@ -14,7 +14,7 @@ Connect your tools. Then ask:
 
 > "Show me all invoices issued this month. Which haven't been paid?"
 
-> "Build the month-end close checklist — what's done, what's pending, what's overdue?"
+> "Build the month-end close checklist - what's done, what's pending, what's overdue?"
 
 > "Compare this month's close to last month. Are we faster or slower?"
 

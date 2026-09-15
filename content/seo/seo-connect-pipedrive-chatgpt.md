@@ -1,4 +1,4 @@
-# Connect Pipedrive to ChatGPT — Sales Pipeline Without Reports
+# Connect Pipedrive to ChatGPT - Sales Pipeline Without Reports
 
 Your sales process runs on Pipedrive. Deals, activities, contacts, pipeline stages. Every forecast requires building filtered views.
 

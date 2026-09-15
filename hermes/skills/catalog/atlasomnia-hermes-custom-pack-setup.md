@@ -1,5 +1,5 @@
 ---
-title: "AtlasOmnia Hermes Custom Pack - 60+ Skill Independent Pack Setup"
+title: AtlasOmnia Hermes Custom Pack - 60+ Skill Pack Setup
 description: "atlasomnia/hermes-custom-pack - 60+ installable skills, plugins, and utilities for Hermes Agent: a Hermes-ops core (config editing, context optimization, self-evaluation, session maintenance, Mnemosyne, plugin development) plus verification, macOS automation, and productivity families."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/atlasomnia-hermes-custom-pack-setup/"
 robots: "index,follow"

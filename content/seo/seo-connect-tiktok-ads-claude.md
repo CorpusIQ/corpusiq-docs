@@ -1,4 +1,4 @@
-# Connect TikTok Ads to Claude — Campaign Analytics Without the Dashboard
+# Connect TikTok Ads to Claude - Campaign Analytics Without the Dashboard
 
 Your TikTok ad data lives in TikTok Ads Manager. Video performance, audience insights, conversion tracking. Every optimization requires switching between views.
 
@@ -8,7 +8,7 @@ Connect TikTok Ads to Claude and ask:
 
 > "What's our CPA by audience? Which audiences should we scale?"
 
-> "Compare video performance — which creative elements drive conversions?"
+> "Compare video performance - which creative elements drive conversions?"
 
 Setup: corpusiq.io → Connect TikTok Ads → Claude → Ask.
 

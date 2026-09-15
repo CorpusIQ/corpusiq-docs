@@ -21,7 +21,7 @@ For recurring reports, set up scheduled queries in the dashboard:
 
 ## Dashboard Exports
 
-CorpusIQ doesn't have a traditional dashboard — your AI tool is the interface. But you can:
+CorpusIQ doesn't have a traditional dashboard - your AI tool is the interface. But you can:
 
 - Export query results as CSV
 - Pipe results to Google Sheets

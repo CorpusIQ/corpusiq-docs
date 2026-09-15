@@ -1,4 +1,4 @@
-# Affiliate Program Directory — Where to List Your Program
+# Affiliate Program Directory - Where to List Your Program
 
 Getting affiliates requires being visible where affiliate marketers look for programs. Here are the top platforms to list the CorpusIQ affiliate program.
 
@@ -29,16 +29,16 @@ Getting affiliates requires being visible where affiliate marketers look for pro
 | r/AffiliateMarketing | Reddit | Value post about SaaS affiliate strategy |
 | AffiliateFix Forum | Community | Share program details |
 | Warrior Forum | WarriorForum.com | Affiliate program announcement |
-| STM Forum | StackThatMoney | Paid — premium affiliate community |
+| STM Forum | StackThatMoney | Paid - premium affiliate community |
 | Affiliate World | Events | Conference presence |
 
 ## Target affiliate types
 
-1. **SaaS review YouTubers** — search "[SaaS tool] review" on YouTube, find creators, reach out
-2. **Business bloggers** — find blogs ranking for "best business tools", pitch the program
-3. **Newsletter operators** — SaaS/founder newsletters with engaged audiences
-4. **Comparison sites** — G2, Capterra, GetApp — leave reviews with affiliate link context
-5. **Course creators** — anyone teaching business operations, finance, or SaaS
+1. **SaaS review YouTubers** - search "[SaaS tool] review" on YouTube, find creators, reach out
+2. **Business bloggers** - find blogs ranking for "best business tools", pitch the program
+3. **Newsletter operators** - SaaS/founder newsletters with engaged audiences
+4. **Comparison sites** - G2, Capterra, GetApp - leave reviews with affiliate link context
+5. **Course creators** - anyone teaching business operations, finance, or SaaS
 
 ---
 

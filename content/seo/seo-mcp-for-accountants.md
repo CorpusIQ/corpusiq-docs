@@ -1,4 +1,4 @@
-# MCP for Accountants — Ask QuickBooks Questions in Plain English
+# MCP for Accountants - Ask QuickBooks Questions in Plain English
 
 You spend half your day in QuickBooks. Pulling reports. Running P&Ls. Checking invoices. Reconciling accounts.
 
@@ -12,7 +12,7 @@ What if you could just ask?
 
 > "Reconcile our Stripe deposits against QuickBooks for this month."
 
-No reports. No exports. No filters. Just questions and answers — drawn from live QuickBooks data.
+No reports. No exports. No filters. Just questions and answers - drawn from live QuickBooks data.
 
 ## The accountant's daily grind
 
@@ -52,7 +52,7 @@ For accountants who handle sensitive financial data, this is non-negotiable. And
 
 ## What your clients get
 
-When a client can ask their own questions — "what's my burn rate?" "who owes me money?" "how am I doing vs budget?" — they stop emailing you for basic reports.
+When a client can ask their own questions - "what's my burn rate?" "who owes me money?" "how am I doing vs budget?" - they stop emailing you for basic reports.
 
 You spend less time pulling data and more time giving strategic advice. "Here's what the numbers mean and what you should do about them."
 
@@ -62,12 +62,12 @@ That's the job you wanted when you became an accountant.
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 

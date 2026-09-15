@@ -1,5 +1,5 @@
 ---
-title: Minions Hermes Mission Control - Multi-Agent Coordination Setup Guide
+title: Minions Hermes Mission Control - Multi-Agent Coordination
 description: Install and configure Minions Hermes Mission Control for coordinating swarms of Hermes agents with shared task boards and real-time progress tracking.
 publisher: reason-machines/hermes-skills
 installs: 173

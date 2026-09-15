@@ -1,4 +1,4 @@
-# MCP for Private Equity — Deal Pipeline, PortCo Metrics, Fund Reporting
+# MCP for Private Equity - Deal Pipeline, PortCo Metrics, Fund Reporting
 
 PE firms manage: deal pipeline (CRM), portfolio company financials (QuickBooks), fund performance (Excel), LP reporting (everything manual), and due diligence (data rooms).
 
@@ -8,13 +8,13 @@ Every investment committee meeting requires data from 10+ systems compiled into 
 
 Connect your tools. Then ask:
 
-> "Show me all live deals — stage, size, industry, and last activity date. Sort by close probability."
+> "Show me all live deals - stage, size, industry, and last activity date. Sort by close probability."
 
 > "What's the aggregate EBITDA growth across the portfolio this quarter?"
 
 > "Which portcos are below plan? What's the variance and root cause?"
 
-> "Build the quarterly LP report — fund performance, portfolio metrics, capital calls."
+> "Build the quarterly LP report - fund performance, portfolio metrics, capital calls."
 
 ---
 

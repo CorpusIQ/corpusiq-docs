@@ -1,5 +1,5 @@
 ---
-title: YoTrends MCP - Live YouTube and TikTok Trends as Content Packs
+title: YoTrends MCP - Live YouTube and TikTok Trends as Content
 description: Remote MCP server that pulls live YouTube and TikTok trend data across nine markets into your own AI assistant, with 8 tools for trend search, topic tracking, rising-creator discovery, digests and publish-ready text packs (titles, hooks, script, tags) generated from trends already proven to be rising.
 category: Content
 stars: n/a (new listing)

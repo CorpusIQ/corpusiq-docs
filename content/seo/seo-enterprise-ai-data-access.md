@@ -1,4 +1,4 @@
-# Enterprise AI Data Access — Secure, Governed, Real-Time
+# Enterprise AI Data Access - Secure, Governed, Real-Time
 
 Enterprise companies need AI access to business data. They also need security, governance, and compliance. These used to be in conflict. MCP resolves the tension.
 

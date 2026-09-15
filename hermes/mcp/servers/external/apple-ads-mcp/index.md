@@ -1,5 +1,5 @@
 ---
-title: "Apple Ads MCP - App Store Campaign Operations from Your Terminal"
+title: Apple Ads MCP - App Store Campaign Operations
 description: "Local-first MCP server for the Apple Ads Platform API v1: typed read-only research tools plus receipt-gated App Store campaign operations, installed as a Go binary via Homebrew."
 category: Marketing
 stars: 3

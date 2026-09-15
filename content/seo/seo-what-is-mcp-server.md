@@ -1,4 +1,4 @@
-# What is an MCP Server — Plain English Guide
+# What is an MCP Server - Plain English Guide
 
 MCP stands for Model Context Protocol. It's the open standard for connecting AI assistants to external tools and data.
 
@@ -17,7 +17,7 @@ No API keys to manage. No custom code. Just connect and ask.
 
 MCP servers exist for: QuickBooks, Stripe, Shopify, HubSpot, GA4, Google Ads, Meta Ads, Slack, Gmail, PostgreSQL, Snowflake, and 250+ more platforms.
 
-Some MCP servers expose a single tool (like Stripe). Others — like CorpusIQ — expose 40+ tools through one server. One OAuth. One endpoint. All your business data.
+Some MCP servers expose a single tool (like Stripe). Others - like CorpusIQ - expose 40+ tools through one server. One OAuth. One endpoint. All your business data.
 
 ## Why it matters
 

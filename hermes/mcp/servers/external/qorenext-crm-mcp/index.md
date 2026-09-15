@@ -1,5 +1,5 @@
 ---
-title: "QoreNext CRM MCP - Company Hierarchy and Address Verification"
+title: QoreNext CRM MCP - Company Hierarchy and Address
 description: "Remote MCP from QoreNext for CRM data intelligence: 5 tools submit companies for address verification, corporate hierarchy mapping (top-parent and subsidiary relationships) and duplicate-record detection from JSON, CSV or Excel, then poll async results in chat. X-API-Key auth, MIT."
 category: Business Operations
 stars: n/a (new repo)

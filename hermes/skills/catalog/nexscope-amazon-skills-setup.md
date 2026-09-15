@@ -1,5 +1,5 @@
 ---
-title: Nexscope Amazon Skills - E-Commerce Product Research for Hermes Agents
+title: Nexscope Amazon Skills - E-Commerce Product Research
 description: Amazon product research, listing optimization, and keyword analysis skills with 77K+ combined installs. Research product opportunities, analyze competition, and optimize listings across 12 Amazon marketplaces.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/nexscope-amazon-skills-setup/"
 robots: "index,follow"

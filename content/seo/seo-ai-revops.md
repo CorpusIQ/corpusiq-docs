@@ -1,4 +1,4 @@
-# AI for Revenue Operations — Pipeline to Revenue in One Question
+# AI for Revenue Operations - Pipeline to Revenue in One Question
 
 RevOps teams live in the gap between sales and finance. HubSpot says one number. Stripe says another. QuickBooks says a third. Reconciling them is your job.
 
@@ -23,7 +23,7 @@ Connect your tools. Then ask:
 
 > "What's our forecast vs actuals by rep? Who's above quota, who's below?"
 
-> "Show me expansion revenue this quarter — which customers upgraded?"
+> "Show me expansion revenue this quarter - which customers upgraded?"
 
 > "What's our sales cycle length trend over the last 6 months?"
 

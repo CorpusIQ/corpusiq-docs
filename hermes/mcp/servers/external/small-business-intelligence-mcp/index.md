@@ -1,5 +1,5 @@
 ---
-title: "Small Business Intelligence MCP - Metro Records and Teardowns"
+title: Small Business Intelligence MCP - Metro Records
 description: "Free keyless MCP server joining 25 public-records datasets (1.57M rows) for the seven-county Minneapolis-St. Paul metro plus nine analytical frameworks for tearing down small businesses and local markets anywhere in the US; CC BY 4.0 data."
 category: Business Operations
 stars: "0 (new listing, 2016judea/small-business-intelligence-mcp)"

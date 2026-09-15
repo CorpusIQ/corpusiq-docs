@@ -1,4 +1,4 @@
-# Connect Intercom to ChatGPT — Customer Conversations, Analyzed by AI
+# Connect Intercom to ChatGPT - Customer Conversations, Analyzed by AI
 
 Your customer relationships live in Intercom. Conversations, help articles, customer data, campaigns. Finding patterns means reading through threads manually.
 

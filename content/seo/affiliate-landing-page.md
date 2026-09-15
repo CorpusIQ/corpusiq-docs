@@ -1,4 +1,4 @@
-# The CorpusIQ Affiliate Program — 25% Recurring for 3 Years
+# The CorpusIQ Affiliate Program - 25% Recurring for 3 Years
 
 We just launched the CorpusIQ affiliate program. Here's everything you need to know.
 
@@ -13,7 +13,7 @@ We just launched the CorpusIQ affiliate program. Here's everything you need to k
 
 ## Why 3 years matters
 
-Most SaaS affiliate programs cap at 12 months. By month 13, your commission stops — even if the customer is still paying. We pay for the full 3 years because if you brought us a customer who's still getting value, you should still get paid.
+Most SaaS affiliate programs cap at 12 months. By month 13, your commission stops - even if the customer is still paying. We pay for the full 3 years because if you brought us a customer who's still getting value, you should still get paid.
 
 ## What you're promoting
 

@@ -1,5 +1,5 @@
 ---
-title: "CraftStory MCP - Talking-Avatar and UGC Video Generation for Agents"
+title: CraftStory MCP - Talking-Avatar and UGC Video Generation
 description: "Local MCP server that exposes the CraftStory API as tools: turn one photo into a lip-synced talking video with gestures (CraftStory 2.0, any length up to 30 minutes) or a 5-15 second clip with generated sound (MiniMax H3). 180+ voices in 30+ languages, custom avatars, cost preview and bounded job polling. npm package, MIT."
 category: "Content"
 stars: 0 (new repo)

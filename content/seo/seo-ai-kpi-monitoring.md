@@ -1,6 +1,6 @@
-# AI for KPI Monitoring — Know Your Numbers Before They Know You
+# AI for KPI Monitoring - Know Your Numbers Before They Know You
 
-KPIs are supposed to tell you when something's wrong. In practice, they tell you something was wrong three weeks ago — when the monthly report finally lands.
+KPIs are supposed to tell you when something's wrong. In practice, they tell you something was wrong three weeks ago - when the monthly report finally lands.
 
 Here's how to monitor your KPIs in real time.
 

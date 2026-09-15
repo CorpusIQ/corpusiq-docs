@@ -1,5 +1,5 @@
 ---
-title: "Dutch Vehicle Context MCP - Netherlands Vehicle Reports by Plate"
+title: Dutch Vehicle Context MCP - Netherlands Vehicle Reports
 description: "Free keyless remote MCP server returning one verified vehicle report per Dutch licence plate from eleven official registers: MOT (APK) history, per-inspection defects, odometer verdict, full recall chain with risk and remedy, and severity-sorted buyer signals"
 category: Commerce & E-Commerce
 stars: n/a (new listing)

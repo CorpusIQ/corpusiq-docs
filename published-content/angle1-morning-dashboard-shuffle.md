@@ -15,7 +15,7 @@ One question. One answer.
 
 > "What's my revenue, margin, and top channel this month?"
 
-CorpusIQ reads Shopify, QuickBooks, Stripe, and Google Ads — all at once. No dashboards. No tab shuffle. Just a source-cited answer in ChatGPT, Claude, or Perplexity.
+CorpusIQ reads Shopify, QuickBooks, Stripe, and Google Ads - all at once. No dashboards. No tab shuffle. Just a source-cited answer in ChatGPT, Claude, or Perplexity.
 
 **Stop shuffling. Start asking.**
 

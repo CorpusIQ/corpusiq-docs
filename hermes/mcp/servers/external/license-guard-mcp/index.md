@@ -1,5 +1,5 @@
 ---
-title: "LicenseGuard MCP - License Compliance Verdicts by Distribution Model"
+title: LicenseGuard MCP - License Compliance Verdicts
 description: "MCP server that evaluates open-source dependency licenses against how you ship your software: SaaS, on-prem, or internal - with clause-cited verdicts, manifest and lockfile audits, and a hosted no-auth endpoint"
 category: Compliance & Regulatory
 stars: n/a (new listing)

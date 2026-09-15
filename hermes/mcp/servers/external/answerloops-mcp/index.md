@@ -1,5 +1,5 @@
 ---
-title: "AnswerLoops MCP - Community Support Knowledge Base for Agents"
+title: AnswerLoops MCP - Community Support Knowledge Base
 description: "Open-source AI support infrastructure for community-driven teams. The MCP server exposes knowledge base search, FAQ lookup, ticket listing and creation, and grounded answer generation over JSON-RPC, with org-scoped API keys and deflection-limit metering. Self-hostable, AGPL-3.0."
 category: Customer Support
 stars: 2

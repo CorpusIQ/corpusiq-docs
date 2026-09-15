@@ -1,6 +1,6 @@
-# MCP for Cash Flow — Know Your Cash Position Every Morning
+# MCP for Cash Flow - Know Your Cash Position Every Morning
 
-Cash is the #1 reason businesses fail. They run out. Not because they're unprofitable — because they didn't see it coming.
+Cash is the #1 reason businesses fail. They run out. Not because they're unprofitable - because they didn't see it coming.
 
 Connect QuickBooks, Stripe, and your bank via MCP. Every morning ask:
 

@@ -1,4 +1,4 @@
-# MCP for Multi-Location Businesses — Every Location, One Question
+# MCP for Multi-Location Businesses - Every Location, One Question
 
 You run 5+ locations. Each has its own POS, QuickBooks, Stripe, payroll. That's 20+ systems. Every Monday is report consolidation day.
 

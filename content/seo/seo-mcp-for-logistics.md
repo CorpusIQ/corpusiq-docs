@@ -1,4 +1,4 @@
-# MCP for Logistics — Shipments, Costs, and Customers in Real Time
+# MCP for Logistics - Shipments, Costs, and Customers in Real Time
 
 Logistics companies run: TMS for shipments, QuickBooks for costs, Stripe for billing, HubSpot for client relationships, and Gmail for carrier communications.
 

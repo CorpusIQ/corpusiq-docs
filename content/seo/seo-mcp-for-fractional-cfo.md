@@ -1,4 +1,4 @@
-# MCP for Fractional CFOs — One Question Across Every Client
+# MCP for Fractional CFOs - One Question Across Every Client
 
 You serve 5+ clients as a fractional CFO. Each has QuickBooks, Stripe, and HubSpot. That's 15+ systems to check every month.
 

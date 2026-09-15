@@ -1,5 +1,5 @@
 ---
-title: "iHatePosting MCP - Cross-Platform Social Publishing for Agents"
+title: iHatePosting MCP - Cross-Platform Social Publishing
 description: "Official remote MCP server for the iHatePosting scheduler. Agents check per-platform publishing rules, validate a post against every target network before creating anything, save drafts or schedule posts, and list account health - 14 platforms, one campaign adapted per channel."
 category: Marketing
 stars: n/a (new listing)

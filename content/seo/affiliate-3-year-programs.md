@@ -21,9 +21,9 @@ The math flips when you think in years, not months.
 
 ## The CorpusIQ advantage
 
-CorpusIQ pays 25% for 3 years. For a SaaS affiliate program — not hosting, not WordPress — this is the longest recurring window in the market. 
+CorpusIQ pays 25% for 3 years. For a SaaS affiliate program - not hosting, not WordPress - this is the longest recurring window in the market. 
 
-Most SaaS programs cap at 12 months. HubSpot, Semrush, ActiveCampaign, ConvertKit — all 12 months. Shopify pays for 2 months.
+Most SaaS programs cap at 12 months. HubSpot, Semrush, ActiveCampaign, ConvertKit - all 12 months. Shopify pays for 2 months.
 
 The difference: when a HubSpot referral hits month 13, your commission stops. When a CorpusIQ referral hits month 13, you still have 24 months of commissions ahead.
 

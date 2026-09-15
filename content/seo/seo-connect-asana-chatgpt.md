@@ -1,4 +1,4 @@
-# Connect Asana to ChatGPT — Project Status Without Status Meetings
+# Connect Asana to ChatGPT - Project Status Without Status Meetings
 
 Your projects live in Asana. Tasks, deadlines, assignees, dependencies. Every status update means opening Asana and manually checking progress.
 

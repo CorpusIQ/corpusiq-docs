@@ -1,4 +1,4 @@
-# MCP for Trucking — Fleet Metrics, Costs, and Customer Data
+# MCP for Trucking - Fleet Metrics, Costs, and Customer Data
 
 Trucking companies run: TMS for loads, QuickBooks for costs, Stripe for billing, HubSpot for shipper pipeline, and ELD for driver logs.
 

@@ -1,4 +1,4 @@
-# AI for Document Search — Find Anything Across All Your Systems
+# AI for Document Search - Find Anything Across All Your Systems
 
 Your contracts are in Google Drive. Your invoices are in QuickBooks. Your customer emails are in Gmail. Your proposals are in HubSpot.
 
@@ -8,7 +8,7 @@ Finding "the Acme Corp contract" means searching four different systems. Or you 
 
 Each tool searches its own silo. Google Drive finds files. Gmail finds emails. QuickBooks finds transactions. None of them can answer:
 
-> "Show me everything related to Acme Corp — contract, invoices, emails, support tickets."
+> "Show me everything related to Acme Corp - contract, invoices, emails, support tickets."
 
 This is the most common search in business. And traditional tools can't do it.
 

@@ -1,5 +1,5 @@
 ---
-title: "Serp Sidekick MCP - Live SEO and AI-Visibility Data for AI Assistants"
+title: Serp Sidekick MCP - Live SEO and AI-Visibility Data
 description: "Remote MCP server that gives any AI assistant real SEO data: keyword research with live search volumes, Search Console query mining for the pages sitting just off page one, competitor ranking gaps, single-page audits, and brand visibility checks across ChatGPT and Google AI Overviews. 15 tools over OAuth at serpsidekick.com/mcp; free tier for your own Search Console data, credits from $5."
 category: SEO
 stars: n/a (new listing)

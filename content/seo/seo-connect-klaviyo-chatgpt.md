@@ -1,4 +1,4 @@
-# Connect Klaviyo to ChatGPT — Email Revenue Answers Without Exports
+# Connect Klaviyo to ChatGPT - Email Revenue Answers Without Exports
 
 Your email marketing lives in Klaviyo. Campaigns, flows, revenue, segments. Every performance check requires navigating the Klaviyo dashboard.
 

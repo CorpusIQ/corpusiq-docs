@@ -1,4 +1,4 @@
-# Connect Jira to Claude — Engineering Velocity Without Status Meetings
+# Connect Jira to Claude - Engineering Velocity Without Status Meetings
 
 Your engineering work lives in Jira. Sprints, issues, velocity, blockers. Every standup starts with "let me check Jira."
 

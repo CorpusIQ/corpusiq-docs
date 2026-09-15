@@ -1,5 +1,5 @@
 ---
-title: "SprintCheckout MCP - Payment Links and Orders for Coding Agents"
+title: SprintCheckout MCP - Payment Links and Orders
 description: "Official remote MCP for SprintCheckout, a crypto-first payment platform: 6 tools let a coding agent read payment settings and paid orders, pull receipts, create payment links and mint API keys, under OAuth 2.1 PKCE with scoped, instantly revocable consent. POST-only Streamable HTTP."
 category: Commerce & E-Commerce
 stars: n/a (hosted)

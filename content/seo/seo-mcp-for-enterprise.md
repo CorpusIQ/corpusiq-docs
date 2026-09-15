@@ -1,4 +1,4 @@
-# MCP for Enterprise — Security, Scale, and Real-Time Answers
+# MCP for Enterprise - Security, Scale, and Real-Time Answers
 
 Enterprise companies have the most data. And the hardest time getting answers from it.
 
@@ -48,12 +48,12 @@ Meanwhile, the CEO wants to know "how are we doing this quarter?" and nobody can
 
 | Requirement | How MCP delivers |
 |------------|-----------------|
-| Read-only access | Architectural — no write path exists |
+| Read-only access | Architectural - no write path exists |
 | OAuth-native | Per-user auth, instant revoke, audit trail |
 | Scoped retention | Data queried live without retaining raw customer files or full connector payloads; operational logs may persist up to 30 days |
 | SOC 2 | Enterprise-grade security posture |
 | CASA Tier 2 | Independent security certification |
-| No API keys | OAuth only — nothing to leak or rotate |
+| No API keys | OAuth only - nothing to leak or rotate |
 | SSO | Enterprise identity provider integration |
 
 ---

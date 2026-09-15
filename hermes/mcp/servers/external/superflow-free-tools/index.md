@@ -1,5 +1,5 @@
 ---
-title: "Superflow Free Tools MCP - Website QA and AI-Visibility Checks"
+title: Superflow Free Tools MCP - Website QA and AI-Visibility
 description: "Hosted keyless remote MCP server with 13 website QA and AI-visibility tools: check whether ChatGPT, Claude, Perplexity and Google AI can reach and cite a page, test robots.txt against every AI crawler, generate llms.txt and llms-full.txt, JSON-LD validation and generation, social preview checks, tech stack detection, full-page screenshots, alt text drafts, UTM builder, page-to-Markdown and favicon checks"
 category: SEO
 stars: n/a (new listing)

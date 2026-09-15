@@ -1,4 +1,4 @@
-# Connect ActiveCampaign to Claude — Marketing Automation Answers
+# Connect ActiveCampaign to Claude - Marketing Automation Answers
 
 Your marketing automation runs on ActiveCampaign. Automations, deals, contacts, campaigns. Every question requires navigating multiple sections.
 

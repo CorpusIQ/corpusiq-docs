@@ -1,4 +1,4 @@
-# Connect PostgreSQL to ChatGPT — Your Database in Plain English
+# Connect PostgreSQL to ChatGPT - Your Database in Plain English
 
 Your data lives in PostgreSQL. Customer records, transactions, analytics. Every answer requires writing SQL or waiting for a data analyst.
 

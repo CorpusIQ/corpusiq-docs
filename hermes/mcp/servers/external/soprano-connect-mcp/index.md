@@ -1,5 +1,5 @@
 ---
-title: Soprano Connect MCP - Multi-Channel Business Messaging for Agents
+title: Soprano Connect MCP - Multi-Channel Business Messaging
 description: Self-hosted MCP server over the Soprano Connect CPaaS - SMS, voice, RCS, WhatsApp templates, Viber, push and email with batch sending, status lookups and pluggable per-request upstream auth. MIT, Python.
 category: Communication & Email
 stars: n/a (new listing)

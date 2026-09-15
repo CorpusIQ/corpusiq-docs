@@ -1,4 +1,4 @@
-# MCP for Cleaning Services — Contracts, Crews, and Revenue
+# MCP for Cleaning Services - Contracts, Crews, and Revenue
 
 Cleaning companies run: Janitorial software for scheduling, QuickBooks for financials, Stripe for payments, CRM for commercial bids.
 

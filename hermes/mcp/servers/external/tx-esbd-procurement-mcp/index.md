@@ -1,5 +1,5 @@
 ---
-title: "TX ESBD Procurement MCP - Texas Government Contract Intelligence"
+title: TX ESBD Procurement MCP - Texas Government Contract
 description: "Hosted MCP server over Texas ESBD state procurement data: search, look up, and monitor roughly 60,000 solicitations with structured NIGP commodity codes, an agency dictionary, before and after date windows, and old-value to new-value change tracking, served on the Apify MCP gateway with your own Apify token."
 category: Data & Analytics
 stars: n/a (Apify-hosted actors)

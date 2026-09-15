@@ -1,5 +1,5 @@
 ---
-title: Social Content - Multi-Platform Social Media Creation for Hermes
+title: Social Content - Multi-Platform Social Media Creation
 description: Create, schedule, and optimize social media content for LinkedIn, X/Twitter, Instagram, TikTok, Facebook. Covers carousels, threads, short-form video, social listening, and engagement. 38.5K+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/social-setup/"
 robots: "index,follow"

@@ -1,4 +1,4 @@
-# MCP vs Custom RAG — Why Building Your Own Is a Distraction
+# MCP vs Custom RAG - Why Building Your Own Is a Distraction
 
 Every CTO I talk to has the same instinct: "We'll build our own RAG pipeline. It's not that hard."
 
@@ -10,11 +10,11 @@ CorpusIQ takes a different approach. Here's the comparison.
 
 Building a retrieval-augmented generation system for your business data means:
 
-1. **Data ingestion pipeline** — ETL jobs pulling from QuickBooks, Stripe, Shopify, HubSpot, etc. Each connector requires its own auth, rate limiting, and error handling.
-2. **Vector database** — Pinecone, Weaviate, or pgvector. Index your documents, tune chunk sizes, manage embeddings.
-3. **Embedding model** — OpenAI, Cohere, or self-hosted. Each has different cost/quality tradeoffs.
-4. **Query engine** — Retrieve relevant chunks, rerank, feed into the LLM prompt, parse the response.
-5. **Ongoing maintenance** — Schema changes break pipelines. New tools need new connectors. Embeddings need re-indexing.
+1. **Data ingestion pipeline** - ETL jobs pulling from QuickBooks, Stripe, Shopify, HubSpot, etc. Each connector requires its own auth, rate limiting, and error handling.
+2. **Vector database** - Pinecone, Weaviate, or pgvector. Index your documents, tune chunk sizes, manage embeddings.
+3. **Embedding model** - OpenAI, Cohere, or self-hosted. Each has different cost/quality tradeoffs.
+4. **Query engine** - Retrieve relevant chunks, rerank, feed into the LLM prompt, parse the response.
+5. **Ongoing maintenance** - Schema changes break pipelines. New tools need new connectors. Embeddings need re-indexing.
 
 This is 2-3 months of engineering work. After that, you're maintaining it forever.
 
@@ -40,11 +40,11 @@ When you ask "what's our revenue this month?" the AI queries Stripe live. When y
 |---|-----------|----------|
 | **Setup time** | 2-3 months | 5 minutes |
 | **Data freshness** | Depends on ETL schedule (hours to days old) | Live, every query |
-| **Cross-tool queries** | Requires separate pipelines for each combination | Built-in — query any combination of tools |
+| **Cross-tool queries** | Requires separate pipelines for each combination | Built-in - query any combination of tools |
 | **New connector** | Weeks of engineering per source | Already built (40+ connectors) |
 | **Schema changes** | Break pipelines, need re-indexing | Handled transparently by MCP tools |
 | **Cost** | $30K-$80K+ in engineering time | Free trial, then subscription |
-| **Maintenance** | Ongoing — pipelines, vectors, embeddings | Zero — connectors stay connected |
+| **Maintenance** | Ongoing - pipelines, vectors, embeddings | Zero - connectors stay connected |
 | **Answer accuracy** | Limited by chunk quality and recency | Grounded in live source data |
 
 ## When Custom RAG makes sense
@@ -56,7 +56,7 @@ Custom RAG is the right choice when:
 - You have a dedicated ML team and the problem is your core product
 - Your data is static (historical archives, not live transactions)
 
-For everyone else — operators running businesses with standard tools — it's overkill. You don't need a vector database. You need answers from the tools you already pay for.
+For everyone else - operators running businesses with standard tools - it's overkill. You don't need a vector database. You need answers from the tools you already pay for.
 
 ## The bottom line
 

@@ -1,4 +1,4 @@
-# MCP for Stripe Analytics — Know Your Revenue Inside Out
+# MCP for Stripe Analytics - Know Your Revenue Inside Out
 
 Stripe knows your revenue better than anyone. But the dashboard only shows surface-level numbers.
 

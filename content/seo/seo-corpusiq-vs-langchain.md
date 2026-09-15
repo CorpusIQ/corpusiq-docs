@@ -1,10 +1,10 @@
-# CorpusIQ vs LangChain — MCP Protocol or LLM Framework
+# CorpusIQ vs LangChain - MCP Protocol or LLM Framework
 
 LangChain is the most popular framework for building LLM applications. CorpusIQ connects business data to AI assistants via MCP. They solve different problems, but often get compared. Here's the honest breakdown.
 
 ## What LangChain does
 
-LangChain is a developer framework. It gives you building blocks — chains, agents, tools, memory — to build LLM-powered applications. You write Python or JavaScript code to orchestrate LLM calls, connect to APIs, and manage state.
+LangChain is a developer framework. It gives you building blocks - chains, agents, tools, memory - to build LLM-powered applications. You write Python or JavaScript code to orchestrate LLM calls, connect to APIs, and manage state.
 
 It's great at:
 - Building custom AI applications from scratch
@@ -40,7 +40,7 @@ It's also MCP-native. MCP is the open protocol for connecting AI assistants to e
 | **Who it's for** | Developers building AI apps | Operators running businesses |
 | **Setup** | Write Python/JS code | 30-second OAuth per tool |
 | **Connectors** | Build your own tools | 40+ pre-built, read-only |
-| **Maintenance** | You maintain your tools | Zero — connectors auto-maintained |
+| **Maintenance** | You maintain your tools | Zero - connectors auto-maintained |
 | **MCP-native** | Can consume MCP servers | Built on MCP from day one |
 | **Best for** | Building custom AI workflows | Getting answers from your business data |
 

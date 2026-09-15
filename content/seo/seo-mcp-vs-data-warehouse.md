@@ -1,4 +1,4 @@
-# MCP vs Data Warehouses — Live Data Beats Stale Snapshots
+# MCP vs Data Warehouses - Live Data Beats Stale Snapshots
 
 Your company spent $200K on a Snowflake implementation. You have 47 tables, 12 data pipelines, and a team of 3 analytics engineers.
 
@@ -6,7 +6,7 @@ Your CEO still opens QuickBooks to check revenue.
 
 Why? Because the data warehouse is 24 hours behind. The "real-time dashboard" runs on a 4-hour refresh cycle. By the time the data lands, the question has changed.
 
-Here's why MCP is replacing the warehouse for day-to-day business questions — and where warehouses still win.
+Here's why MCP is replacing the warehouse for day-to-day business questions - and where warehouses still win.
 
 ## The warehouse promise vs reality
 
@@ -28,11 +28,11 @@ The AI queries Stripe. Then Shopify. Then reconciles. All in real time. No pipel
 
 Data warehouses are essential for:
 
-- **Historical analysis** — "Show me 5-year revenue trends by product line"
-- **Board reporting** — Pixel-perfect formatted reports for investors
-- **Data science** — Training ML models on years of transaction data
-- **Complex transformations** — Multi-step ETL that joins 20 tables
-- **Compliance** — Audit trails that need to be immutable and versioned
+- **Historical analysis** - "Show me 5-year revenue trends by product line"
+- **Board reporting** - Pixel-perfect formatted reports for investors
+- **Data science** - Training ML models on years of transaction data
+- **Complex transformations** - Multi-step ETL that joins 20 tables
+- **Compliance** - Audit trails that need to be immutable and versioned
 
 Warehouses are the right tool for looking backward. MCP is the right tool for operating in the present.
 

@@ -1,5 +1,5 @@
 ---
-title: "Otto MCP - Live Marketing Data and Website Operations in Chat"
+title: Otto MCP - Live Marketing Data and Website Operations
 description: "Hosted MCP connector that brings live Meta Ads, Google Analytics 4, and Search Console data into Claude, ChatGPT, Cursor, and other assistants, plus website updates, SEO, and performance checks through conversation. Commercial plans from $99/mo."
 category: Marketing
 stars: n/a (new listing, no public repo)

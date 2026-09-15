@@ -1,4 +1,4 @@
-# How to Connect HubSpot to Claude (Ask Your CRM in Plain English)
+# How to Connect HubSpot to Claude (Plain English Q&A)
 
 Stop building HubSpot reports that no one reads. Connect HubSpot to Claude through CorpusIQ and ask your pipeline questions directly.
 

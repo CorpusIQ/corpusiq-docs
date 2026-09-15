@@ -1,5 +1,5 @@
 ---
-title: Yuanbao (元宝) - Tencent Group Chat Integration for Hermes Agents
+title: Yuanbao (元宝) - Tencent Group Chat Integration
 description: Official Nous Research skill for Tencent Yuanbao group chat integration. @mention users, query group info and members, send direct messages. 550+ installs.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/yuanbao-setup/"
 robots: "index,follow"

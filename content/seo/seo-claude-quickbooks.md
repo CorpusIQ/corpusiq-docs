@@ -1,6 +1,6 @@
-# Claude for QuickBooks — Ask Your Financials Anything
+# Claude for QuickBooks - Ask Your Financials Anything
 
-Claude can query your real QuickBooks data. P&L, invoices, expenses, AR aging — all in plain English.
+Claude can query your real QuickBooks data. P&L, invoices, expenses, AR aging - all in plain English.
 
 > "What's our gross margin by service line this quarter?"
 

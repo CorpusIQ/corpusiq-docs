@@ -1,5 +1,5 @@
 ---
-title: "Leadgen MCP - Romanian Business Registry & Contact Enrichment"
+title: "Leadgen MCP - Romanian Business Registry & Contact"
 description: "Remote streamable-HTTP MCP server for Romanian business data and lead enrichment: official ONRC registry lookup across 4.2M+ firms with director and legal-representative search, website contact extraction, and WHOIS/DNS/SPF-DMARC domain audits for agents that research companies"
 category: Lead Generation & Web Scraping
 stars: n/a (new listing)

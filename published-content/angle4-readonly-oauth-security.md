@@ -14,15 +14,15 @@ Most platforms:
 
 CorpusIQ's security model is fundamentally different:
 
-**Read-Only Retrieval** — External-source retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane tools are separately named and safety-annotated.
+**Read-Only Retrieval** - External-source retrieval tools are marked read-only. Write-capable connector-management and CorpusIQ control-plane tools are separately named and safety-annotated.
 
-**Scoped Retention** — Direct MCP does not retain raw customer files or full connector response payloads. Scoped operational logs may be retained for up to 30 days.
+**Scoped Retention** - Direct MCP does not retain raw customer files or full connector response payloads. Scoped operational logs may be retained for up to 30 days.
 
-**No CorpusIQ Model Training** — CorpusIQ does not use customer data to train models; conversation handling follows the selected AI provider's plan and settings.
+**No CorpusIQ Model Training** - CorpusIQ does not use customer data to train models; conversation handling follows the selected AI provider's plan and settings.
 
-**Audit-Ready** — Every answer cites its sources. You can trace any number back to the exact Gmail message, QuickBooks entry, or Shopify order it came from.
+**Audit-Ready** - Every answer cites its sources. You can trace any number back to the exact Gmail message, QuickBooks entry, or Shopify order it came from.
 
-**CASA Tier 2 Certified** — Independently certified by DEKRA. SOC 2 aligned.
+**CASA Tier 2 Certified** - Independently certified by DEKRA. SOC 2 aligned.
 
 ## The Bottom Line
 

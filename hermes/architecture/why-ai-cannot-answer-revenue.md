@@ -1,5 +1,5 @@
 ---
-title: Why Your AI Cannot Answer Current Revenue - And How to Fix It
+title: Why Your AI Cannot Answer Current Revenue - And How to Fix
 description: "Why no AI platform can answer 'what was our revenue last month' out of the box - and how a read-only data layer with source-cited answers fixes it."
 last_updated: 2026-08-12
 canonical: "https://www.corpusiq.io/docs/hermes/architecture/why-ai-cannot-answer-revenue/"

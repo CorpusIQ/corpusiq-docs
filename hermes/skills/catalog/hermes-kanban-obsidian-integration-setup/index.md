@@ -1,5 +1,5 @@
 ---
-title: Hermes Kanban Obsidian Integration - Task Management Setup Guide
+title: Hermes Kanban Obsidian Integration - Task Management
 description: Bridge Hermes Agent with Obsidian vaults for Kanban-style task management - sync agent task boards with your knowledge base.
 publisher: reason-machines/hermes-skills
 installs: 136

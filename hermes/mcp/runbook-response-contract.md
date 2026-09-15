@@ -1,5 +1,5 @@
 ---
-title: "runbook.v1 Response Contract: Enforce the Output Format of AI Answers"
+title: "runbook.v1 Response Contract: Enforce the Output Format"
 description: "How to make AI assistants deliver answers in a required visual format: versioned templates, required elements, fail-closed enforcement. The response contract extension for runbook.v1."
 tags: [mcp, runbook, output, format, visual, governance, enterprise]
 ---

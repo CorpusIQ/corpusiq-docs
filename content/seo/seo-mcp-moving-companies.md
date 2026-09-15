@@ -1,4 +1,4 @@
-# MCP for Moving Companies — Jobs, Crews, and Revenue Per Move
+# MCP for Moving Companies - Jobs, Crews, and Revenue Per Move
 
 Moving companies run: Move software for booking, QuickBooks for financials, Stripe for payments, CRM for referrals.
 

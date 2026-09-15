@@ -1,5 +1,5 @@
 ---
-title: "marketplaces-mcp-ru - Russian Marketplace Seller Operations for Agents"
+title: marketplaces-mcp-ru - Russian Marketplace Seller Operations
 description: "marketplaces-mcp-ru connects an AI assistant to seller accounts on Wildberries, Ozon, Yandex Market and Avito through the official Seller APIs: sales, stocks, prices, finance, reviews and ads via 793 schema-driven methods exposed through generic search, describe and call tools plus typed convenience tools and seller workflows. Stdio, MIT."
 category: Commerce & E-Commerce
 stars: 25

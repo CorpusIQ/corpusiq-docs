@@ -1,4 +1,4 @@
-# Connect LeadConnector to ChatGPT — Agency CRM in Plain English
+# Connect LeadConnector to ChatGPT - Agency CRM in Plain English
 
 Your agency runs on LeadConnector. Contacts, opportunities, calendars, conversations. Every client status check requires navigating multiple sections.
 

@@ -1,6 +1,6 @@
-# Claude for Shopify — AI-Powered Store Analytics
+# Claude for Shopify - AI-Powered Store Analytics
 
-Claude can now query your actual Shopify data. Orders, customers, products, inventory — all answerable in plain English.
+Claude can now query your actual Shopify data. Orders, customers, products, inventory - all answerable in plain English.
 
 > "What products have the best margin this month?"
 

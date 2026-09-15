@@ -1,5 +1,5 @@
 ---
-title: "Misar.Blog MCP - Publish and Manage Blog Content from AI Agents"
+title: Misar.Blog MCP - Publish and Manage Blog Content from AI
 description: "Misar.Blog MCP server with 23 tools for content operations: create and publish articles, manage series, query analytics, handle comments and reactions, manage newsletter subscribers and generate AI-assisted content"
 category: Content & Publishing
 stars: n/a (new listing)

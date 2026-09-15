@@ -18,7 +18,7 @@ Open ChatGPT. Type:
 
 **Result:** 8 seconds. 1 answer. Sources cited.
 
-No dashboards. No tab shuffle. No reconciliation spreadsheets. Just ask your AI the question you actually want answered — and get a real answer from your live business data.
+No dashboards. No tab shuffle. No reconciliation spreadsheets. Just ask your AI the question you actually want answered - and get a real answer from your live business data.
 
 CorpusIQ connects 40+ business tools to your AI assistant. Read-only. Live retrieval with scoped retention.
 

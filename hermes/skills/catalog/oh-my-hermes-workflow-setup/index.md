@@ -1,5 +1,5 @@
 ---
-title: Oh-My-Hermes Workflow - Agent Orchestration Framework Setup Guide
+title: Oh-My-Hermes Workflow - Agent Orchestration Framework
 description: Install and configure the Oh-My-Hermes workflow framework that provides opinionated patterns for Hermes agent task orchestration, session management, and tool chaining.
 publisher: reason-machines/hermes-skills
 installs: 182
@@ -82,7 +82,7 @@ Workflows are defined in `~/.hermes/workflows/`:
 
 ```yaml
 # ~/.hermes/workflows/corpusiq-growth-report.yaml
-name: corpusiq-growth-report
+name: Oh-My-Hermes Workflow - Agent Orchestration Framework
 description: Daily growth metrics collection and reporting
 steps:
   - name: check-email

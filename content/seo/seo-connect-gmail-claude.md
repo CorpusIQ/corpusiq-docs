@@ -1,4 +1,4 @@
-# Connect Gmail to Claude — Your Inbox, Queryable by AI
+# Connect Gmail to Claude - Your Inbox, Queryable by AI
 
 Your business communications live in Gmail. Client threads, vendor discussions, internal decisions. Finding "what did we agree to with Acme?" means searching your inbox manually.
 

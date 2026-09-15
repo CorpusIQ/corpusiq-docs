@@ -1,6 +1,6 @@
-# MCP for Ecommerce — What Is It and Why Every Store Needs It
+# MCP for Ecommerce - What Is It and Why Every Store Needs It
 
-MCP (Model Context Protocol) connects your ecommerce tools to AI assistants. Shopify orders, Klaviyo campaigns, Meta Ads spend, Stripe payments — all queryable from one question.
+MCP (Model Context Protocol) connects your ecommerce tools to AI assistants. Shopify orders, Klaviyo campaigns, Meta Ads spend, Stripe payments - all queryable from one question.
 
 ## What you can ask
 

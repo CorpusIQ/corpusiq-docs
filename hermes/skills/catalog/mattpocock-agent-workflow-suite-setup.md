@@ -1,5 +1,5 @@
 ---
-title: Matt Pocock Agent Workflow Suite - 20-Skill Setup Guide for Hermes Agents
+title: Matt Pocock Agent Workflow Suite - 20-Skill Setup Guide
 description: Install and configure 20 previously uncatalogued Matt Pocock skills (11.4M+ combined installs) - grill-me (1.1M), grill-with-docs (941K), tdd (873K), handoff (774K), triage (760K), teach (626K), domain-modeling (603K), code-review (521K) and more.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/mattpocock-agent-workflow-suite-setup/"
 robots: "index,follow"

@@ -1,5 +1,5 @@
 ---
-title: "OpenHire MCP - AI, Infra, and Robotics Jobs from Employer ATS APIs"
+title: OpenHire MCP - AI, Infra, and Robotics Jobs from Employer
 description: "Privacy-first stdio MCP server that turns an AI assistant into a job radar over 16,000+ live AI/infra, autonomous-driving and embodied-AI postings from 120+ employers' first-party ATS APIs (Greenhouse, Lever, Ashby, Beisen) across the US, Europe and China, with verified_at freshness stamps, ghost_score stale-listing detection and employer-native apply links. Matching runs locally and résumés never transit the server. 5 tools, MIT, PyPI package."
 category: Business Operations
 stars: 2 (github.com/gzchenhao/openhire)

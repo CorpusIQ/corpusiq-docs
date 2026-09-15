@@ -1,5 +1,5 @@
 ---
-title: "September 12, 2026 Skills.sh Sweep - Aradotso Publisher Rename"
+title: September 12, 2026 Skills.sh Sweep - Aradotso Publisher
 description: "Skills.sh sweep September 12, 2026: aradotso org renamed to reason-machines (7 repos, GitHub 301/200 verified) - 25 catalog setup guides updated in place with new Source links, install commands, and skills.sh references."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/marketplace/new-sep12-2026/"
 robots: "index,follow"
@@ -39,7 +39,7 @@ Per the publisher-rename rule (Wind precedent, Sep 11), existing guides are upda
 npx skills add reason-machines/hermes-skills --skill hermes-webui-agent
 ```
 
-Historical marketplace batch pages (June-Nov 2026) are intentionally left as-is per the rename precedent — they are dated discovery records.
+Historical marketplace batch pages (June-Nov 2026) are intentionally left as-is per the rename precedent - they are dated discovery records.
 
 ## Evaluated and Skipped
 

@@ -2,13 +2,13 @@
 
 You have an affiliate link. Now where do you put it?
 
-Here are the 10 highest-leverage places to promote affiliate programs — ranked by conversion potential.
+Here are the 10 highest-leverage places to promote affiliate programs - ranked by conversion potential.
 
 ## 1. YouTube reviews and tutorials
 A 10-minute video reviewing a tool, showing exactly how it works, with your affiliate link in the description. These compound for years. One video can generate commissions for the entire 3-year earning window.
 
 ## 2. Blog comparison posts
-"X vs Y" posts rank for high-intent search traffic. Someone searching "CorpusIQ vs Zapier" has already decided they need a tool — they just need to pick one. Your affiliate link captures that decision.
+"X vs Y" posts rank for high-intent search traffic. Someone searching "CorpusIQ vs Zapier" has already decided they need a tool - they just need to pick one. Your affiliate link captures that decision.
 
 ## 3. Newsletter sponsorships
 Newsletters with operator audiences (SaaS founders, marketers, finance teams) convert well because the audience trusts the curator. One dedicated email to 20K operators can beat 100K cold impressions.
@@ -17,7 +17,7 @@ Newsletters with operator audiences (SaaS founders, marketers, finance teams) co
 List your affiliate link in "best tools for X" resource pages. These rank for long-tail search and capture people actively researching tools.
 
 ## 5. Social media (X, LinkedIn)
-Don't spam. Don't post "use my link." Instead, share genuine insights about the problem the tool solves. When someone asks "what do you use for X?" — that's when you share your link. Help first, link second.
+Don't spam. Don't post "use my link." Instead, share genuine insights about the problem the tool solves. When someone asks "what do you use for X?" - that's when you share your link. Help first, link second.
 
 ## 6. Community answers (Reddit, Slack, Discord)
 Same principle: answer the question thoroughly first. Mention the tool naturally. Include your affiliate link only if the platform allows it and it's genuinely helpful context.

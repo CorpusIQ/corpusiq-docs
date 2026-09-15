@@ -1,4 +1,4 @@
-# Connect Amplitude to ChatGPT — Advanced Product Analytics in Plain English
+# Connect Amplitude to ChatGPT - Advanced Product Analytics in Plain English
 
 Your product analytics run on Amplitude. Behavioral cohorts, path analysis, experimentation, predictions. Every answer requires a data scientist writing queries.
 

@@ -1,4 +1,4 @@
-# MCP for Auto Dealerships — Sales, Service, Parts, and Finance in One View
+# MCP for Auto Dealerships - Sales, Service, Parts, and Finance in One View
 
 Dealerships run: DMS for inventory and service, QuickBooks for financials, Stripe for payments, HubSpot for sales pipeline, and Gmail for customer communications.
 
@@ -8,7 +8,7 @@ Every manager meeting requires pulling from five systems to answer "how's the st
 
 Connect your tools. Then ask:
 
-> "What's our gross profit by department — sales, service, parts, finance?"
+> "What's our gross profit by department - sales, service, parts, finance?"
 
 > "Which salespeople are above quota? What's the commission liability?"
 

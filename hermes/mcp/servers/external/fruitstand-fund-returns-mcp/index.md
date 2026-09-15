@@ -1,5 +1,5 @@
 ---
-title: "Fruit Stand Fund Returns MCP - US Fund and ETF Performance Data"
+title: Fruit Stand Fund Returns MCP - US Fund and ETF Performance
 description: Hosted MCP server for trailing and calendar-year total returns across 32,000+ US mutual funds and ETFs, refreshed daily from end-of-day pricing. Six tools with search, fetch and batch endpoints, authenticated by a free API key. Same curated data Fruit Stand sells through Snowflake Marketplace, callable directly from an agent."
 category: Finance
 stars: "n/a (hosted, no public repo)"

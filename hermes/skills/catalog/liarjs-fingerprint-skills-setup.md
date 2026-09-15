@@ -1,5 +1,5 @@
 ---
-title: LiarJS Skills - Browser Fingerprint & Playwright Stealth Setup
+title: "LiarJS Skills - Browser Fingerprint & Playwright Stealth"
 description: "liarjsdev/liarjs-skills - 4 skills at 51.9K installs: fingerprint-ci-gate, playwright-stealth-verify, browser-fingerprint-audit, and fingerprint-failure-triage for anti-bot detection and stealth verification."
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/liarjs-fingerprint-skills-setup/"
 robots: "index,follow"

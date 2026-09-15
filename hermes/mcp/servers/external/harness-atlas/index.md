@@ -1,5 +1,5 @@
 ---
-title: "Harness Atlas MCP - Wire-Harness Sourcing and Part Cross-Reference"
+title: Harness Atlas MCP - Wire-Harness Sourcing and Part
 description: "Hosted keyless MCP server for wire-harness and cable-assembly sourcing. find_manufacturer searches the manufacturer directory by country, industry, capability or name; find_alternative cross-references part numbers against the XrefBase equivalence graph with verified replacement groups."
 category: Business Operations
 stars: 0

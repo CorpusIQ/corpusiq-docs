@@ -1,5 +1,5 @@
 ---
-title: "RedReplier MCP - Social Lead Monitoring and Reply Drafts for Agents"
+title: RedReplier MCP - Social Lead Monitoring and Reply Drafts
 description: "Remote MCP server that watches Reddit, Facebook, Hacker News, X and Bluesky for posts mentioning your product. Mentions are scored 0-100 for lead relevance, with reasoning and a drafted reply for each, so agents can triage opportunities and manage tracked keywords and alert digests."
 category: Sales & Outreach
 stars: n/a (new listing)

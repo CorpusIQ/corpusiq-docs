@@ -1,4 +1,4 @@
-# MCP for Publishers — Ad Revenue, Subscriptions, and Content Performance
+# MCP for Publishers - Ad Revenue, Subscriptions, and Content Performance
 
 Digital publishers run: Google Ad Manager for ads, Stripe for subscriptions, QuickBooks for financials, GA4 for analytics, Mailchimp for newsletters.
 
@@ -10,7 +10,7 @@ Connect via MCP and ask:
 
 > "Which articles drove the most subscriptions? What's the common thread?"
 
-> "Show me ad revenue by channel — display, video, native, newsletter."
+> "Show me ad revenue by channel - display, video, native, newsletter."
 
 ---
 

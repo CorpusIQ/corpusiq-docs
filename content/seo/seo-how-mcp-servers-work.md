@@ -1,4 +1,4 @@
-# How MCP Servers Work — Technical Deep Dive
+# How MCP Servers Work - Technical Deep Dive
 
 You connect a tool to an AI assistant. Behind the scenes, MCP handles authentication, tool discovery, query execution, and response formatting. Here's exactly how.
 
@@ -6,15 +6,15 @@ You connect a tool to an AI assistant. Behind the scenes, MCP handles authentica
 
 ```
 AI Assistant (ChatGPT/Claude)
-        │
-        ▼
-   MCP Client (hermes mcp, Claude Desktop, etc.)
-        │
-        ▼
-   MCP Server (corpusiq, stripe, github, etc.)
-        │
-        ▼
-   Business Tool (QuickBooks, Stripe, HubSpot)
+ │
+ ▼
+ MCP Client (hermes mcp, Claude Desktop, etc.)
+ │
+ ▼
+ MCP Server (corpusiq, stripe, github, etc.)
+ │
+ ▼
+ Business Tool (QuickBooks, Stripe, HubSpot)
 ```
 
 The MCP server sits between your AI assistant and your business tools. It:
@@ -48,12 +48,12 @@ The most powerful pattern: one MCP server exposing multiple business tools. Inst
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 

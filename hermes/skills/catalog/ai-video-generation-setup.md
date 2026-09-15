@@ -1,5 +1,5 @@
 ---
-title: ai-video-generation - AI Video Production for Hermes (196K installs)
+title: ai-video-generation - AI Video Production (196K installs)
 description: Install and use 101-skills/skills@ai-video-generation (196K installs) for end-to-end AI video production. Script-to-video pipeline, AI avatars, voiceover synthesis, and multi-format export.
 canonical: "https://www.corpusiq.io/docs/hermes/skills/catalog/ai-video-generation-setup/"
 robots: "index,follow"

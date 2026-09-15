@@ -1,4 +1,4 @@
-# MCP for Insurance — Policy Data, Claims, and Financials in One Question
+# MCP for Insurance - Policy Data, Claims, and Financials in One Question
 
 Insurance agencies manage: policy management systems, QuickBooks for commissions, Stripe for premium payments, HubSpot for client relationships, and Gmail for claims correspondence.
 
@@ -20,7 +20,7 @@ Answering "how is the Johnson account doing?" means checking all five.
 
 Connect your tools. Then ask:
 
-> "Show me everything on the Johnson account — policies, premiums, claims, last contact, and renewal date."
+> "Show me everything on the Johnson account - policies, premiums, claims, last contact, and renewal date."
 
 > "Which clients have renewals in the next 30 days? Sort by premium value."
 

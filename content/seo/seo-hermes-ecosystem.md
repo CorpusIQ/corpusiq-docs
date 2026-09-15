@@ -1,6 +1,6 @@
-# The Hermes Agent Ecosystem — 670+ Tools, Skills, and MCP Servers
+# The Hermes Agent Ecosystem - 670+ Tools, Skills, and MCP Servers
 
-Hermes Agent by Nous Research is the most popular open-source AI agent framework (211K+ GitHub stars). The ecosystem around it has exploded — 670+ repos covering tools, skills, MCP servers, memory systems, and deployment patterns.
+Hermes Agent by Nous Research is the most popular open-source AI agent framework (211K+ GitHub stars). The ecosystem around it has exploded - 670+ repos covering tools, skills, MCP servers, memory systems, and deployment patterns.
 
 Here's the definitive map of what's available and where to find everything.
 
@@ -18,17 +18,17 @@ Here's the definitive map of what's available and where to find everything.
 ## Essential resources for Hermes builders
 
 **Getting started:**
-- [Hermes Agent](https://github.com/NousResearch/hermes-agent) — Core project (211K+ stars)
-- [Official Docs](https://hermes-agent.nousresearch.com/docs/) — Installation, CLI, gateway
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) - Core project (211K+ stars)
+- [Official Docs](https://hermes-agent.nousresearch.com/docs/) - Installation, CLI, gateway
 
 **Memory systems:**
-- [Honcho](https://mcp.honcho.dev) — Peer memory and identity persistence
-- [GBrain](https://github.com/garrytan/gbrain) — Knowledge base indexing (23K+ stars)
-- [memcore-cloud](https://github.com/memcore-cloud) — Cross-session context injection
+- [Honcho](https://mcp.honcho.dev) - Peer memory and identity persistence
+- [GBrain](https://github.com/garrytan/gbrain) - Knowledge base indexing (23K+ stars)
+- [memcore-cloud](https://github.com/memcore-cloud) - Cross-session context injection
 
 **Skills marketplace:**
-- [agentskills.io](https://agentskills.io) — Open standard skill hub
-- [skills.sh](https://skills.sh) — Community marketplace, new skills daily
+- [agentskills.io](https://agentskills.io) - Open standard skill hub
+- [skills.sh](https://skills.sh) - Community marketplace, new skills daily
 
 **Production deployment:**
 - Multi-machine patterns (DGX Spark + Mac Mini workers)
@@ -53,4 +53,4 @@ The ecosystem moves fast. New skills and MCP servers appear daily. The hub track
 
 ---
 
-*The Hermes Community Hub is maintained by [CorpusIQ](https://www.corpusiq.io) — the MCP platform connecting 40+ business tools to AI assistants.*
+*The Hermes Community Hub is maintained by [CorpusIQ](https://www.corpusiq.io) - the MCP platform connecting 40+ business tools to AI assistants.*

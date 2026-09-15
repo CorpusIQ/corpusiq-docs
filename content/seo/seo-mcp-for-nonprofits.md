@@ -1,4 +1,4 @@
-# MCP for Nonprofits — Do More Mission Work, Less Data Work
+# MCP for Nonprofits - Do More Mission Work, Less Data Work
 
 Your nonprofit runs on QuickBooks (grants and expenses), Stripe (donations), HubSpot (donor relationships), and Mailchimp (campaigns). Four systems. One overworked operations person.
 
@@ -6,7 +6,7 @@ What if you could ask one question across all of them and get answers in seconds
 
 ## The nonprofit data burden
 
-Nonprofits have the same data complexity as businesses — with fewer resources:
+Nonprofits have the same data complexity as businesses - with fewer resources:
 
 - **QuickBooks:** Grant tracking, program expenses, 990 prep
 - **Stripe:** Donation processing, recurring gifts, payment reconciliation
@@ -28,18 +28,18 @@ Connect your tools. Then ask:
 
 > "Show me grant spending vs budget. Which grants are under or over?"
 
-> "Build the quarterly board financial summary — revenue, expenses, program ratio, cash position."
+> "Build the quarterly board financial summary - revenue, expenses, program ratio, cash position."
 
 ## The setup
 
 ```json
 {
-  "mcpServers": {
-    "corpusiq": {
-      "url": "https://mcp2.corpusiq.io/mcp",
-      "transport": "streamable-http"
-    }
-  }
+ "mcpServers": {
+ "corpusiq": {
+ "url": "https://mcp2.corpusiq.io/mcp",
+ "transport": "streamable-http"
+ }
+ }
 }
 ```
 

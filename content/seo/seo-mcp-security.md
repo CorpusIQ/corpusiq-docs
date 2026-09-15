@@ -1,4 +1,4 @@
-# MCP for Security Companies — Guard Scheduling, Contracts, Billing
+# MCP for Security Companies - Guard Scheduling, Contracts, Billing
 
 Security companies run: WinTeam for scheduling, QuickBooks for financials, Stripe for payments, CRM for client pipeline.
 
