@@ -10003,7 +10003,7 @@
 
 
 <h1 id="sequel-mcp-google-search-console">Sequel MCP (Google Search Console)<a class="headerlink" href="#sequel-mcp-google-search-console" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Hosted MCP from Sequel, the natural-language data platform (sequel.sh), for Google Search Console.</strong> Instead of copying keys and hand-writing config, the Sequel CLI signs you in, provisions an org-scoped read-only Google OAuth connection, and writes the MCP config directly into your agent — supported install targets include Claude Code, Claude, Cursor, VS Code, Windsurf, Zed, Codex, OpenClaw, and <strong>Hermes</strong>. Your agent then answers SEO questions from Search Console data in plain English, with no SQL, no dashboards and no CSV exports.</p>
+<p><strong>Hosted MCP from Sequel, the natural-language data platform (sequel.sh), for Google Search Console.</strong> Instead of copying keys and hand-writing config, the Sequel CLI signs you in, provisions an org-scoped read-only Google OAuth connection, and writes the MCP config directly into your agent - supported install targets include Claude Code, Claude, Cursor, VS Code, Windsurf, Zed, Codex, OpenClaw, and <strong>Hermes</strong>. Your agent then answers SEO questions from Search Console data in plain English, with no SQL, no dashboards and no CSV exports.</p>
 <div class="highlight"><pre><span></span><code>Server type: Hosted MCP, provisioned by the Sequel CLI (no raw public endpoint)
 Auth: Read-only Google OAuth, org-scoped API key issued by the CLI
 Install: curl -fsSL https://sequel.sh/install | sh · sequel login · sequel install &lt;agent&gt;
@@ -10014,11 +10014,11 @@ Built by: Sequel (sequel.sh)
 </code></pre></div>
 <div class="highlight"><pre><span></span><code>curl<span class="w"> </span>-fsSL<span class="w"> </span>https://sequel.sh/install<span class="w"> </span><span class="p">|</span><span class="w"> </span>sh
 sequel<span class="w"> </span>login
-sequel<span class="w"> </span>install<span class="w"> </span>hermes<span class="w">        </span><span class="c1"># also: claude-code, claude, cursor, vscode, windsurf, zed, codex, openclaw</span>
+sequel<span class="w"> </span>install<span class="w"> </span>hermes<span class="w"> </span><span class="c1"># also: claude-code, claude, cursor, vscode, windsurf, zed, codex, openclaw</span>
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>Search Console is the only first-party source of truth for what search demand actually reaches your site, and it is chronically under-read because it is a pivot-table product. Sequel turns it into a conversation: an agent can ask "which pages lost the most impressions month-over-month", "show me queries ranking 8-15 with over 1,000 impressions", "what is average CTR by device", and get the answer with the pagination and date-range handling done for it.</p>
-<p>The bigger unlock is <strong>cross-source joins</strong>. Connect GA4 alongside GSC and ask questions like "which pages have high GSC impressions but poor GA4 engagement" — the exact query a growth operator builds pivot tables to answer, now a single prompt. Sequel's source list extends far beyond SEO: PostgreSQL, MySQL, ClickHouse, BigQuery, Google Sheets, Stripe, Polar, PostHog, Mixpanel, Amplitude, HubSpot, Ahrefs, and Apollo.io are all connectable, so the same conversational layer can span marketing, revenue and CRM data.</p>
+<p>The bigger unlock is <strong>cross-source joins</strong>. Connect GA4 alongside GSC and ask questions like "which pages have high GSC impressions but poor GA4 engagement" - the exact query a growth operator builds pivot tables to answer, now a single prompt. Sequel's source list extends far beyond SEO: PostgreSQL, MySQL, ClickHouse, BigQuery, Google Sheets, Stripe, Polar, PostHog, Mixpanel, Amplitude, HubSpot, Ahrefs, and Apollo.io are all connectable, so the same conversational layer can span marketing, revenue and CRM data.</p>
 <h2 id="example-prompts-from-the-vendors-docs">Example Prompts (from the vendor's docs)<a class="headerlink" href="#example-prompts-from-the-vendors-docs" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>"What are my top 10 queries by clicks this month?"</li>
@@ -10029,9 +10029,9 @@ sequel<span class="w"> </span>install<span class="w"> </span>hermes<span class="
 </ul>
 <h2 id="notes-and-caveats">Notes and Caveats<a class="headerlink" href="#notes-and-caveats" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>No raw public endpoint is published</strong> — connection flows through the Sequel CLI, which provisions an org-scoped key into the agent's config; a tool-level list is not published on the source page. Treat the CLI as the source of truth for the current tool surface.</li>
+<li><strong>No raw public endpoint is published</strong> - connection flows through the Sequel CLI, which provisions an org-scoped key into the agent's config; a tool-level list is not published on the source page. Treat the CLI as the source of truth for the current tool surface.</li>
 <li>OAuth is read-only for Search Console; Sequel queries GSC directly and shows what Google has (the standard 2-4 day data lag applies).</li>
-<li>The same platform ships an "MCP Server" source that lets Sequel query <em>other</em> MCP-compatible servers — that is a client-side integration and distinct from this server listing.</li>
+<li>The same platform ships an "MCP Server" source that lets Sequel query <em>other</em> MCP-compatible servers - that is a client-side integration and distinct from this server listing.</li>
 </ul>
 
 

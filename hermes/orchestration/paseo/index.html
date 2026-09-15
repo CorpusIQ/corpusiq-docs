@@ -23,7 +23,7 @@
     
     
   
-    <title>Paseo  --  Cross-Session Agent Orchestration</title>
+    <title>Paseo -- Cross-Session Agent Orchestration</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/orchestration/paseo">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Paseo  --  Cross-Session Agent Orchestration">
+  <meta property="og:title" content="Paseo -- Cross-Session Agent Orchestration">
   <meta property="og:description" content="Paseo setup and evaluation notes: a self-hosted daemon that runs Claude Code, Codex, Copilot, OpenCode, and Pi agents in parallel from desktop, mobile, web">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Paseo  --  Cross-Session Agent Orchestration">
+  <meta name="twitter:title" content="Paseo -- Cross-Session Agent Orchestration">
   <meta name="twitter:description" content="Paseo setup and evaluation notes: a self-hosted daemon that runs Claude Code, Codex, Copilot, OpenCode, and Pi agents in parallel from desktop, mobile, web">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Paseo  --  Cross-Session Agent Orchestration",
+    "name": "Paseo -- Cross-Session Agent Orchestration",
     "description": "Paseo setup and evaluation notes: a self-hosted daemon that runs Claude Code, Codex, Copilot, OpenCode, and Pi agents in parallel from desktop, mobile, web",
     "url": "https://www.corpusiq.io/docs/hermes/orchestration/paseo",
     
@@ -212,7 +212,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Paseo  --  Cross-Session Agent Orchestration
+              Paseo -- Cross-Session Agent Orchestration
             
           </span>
         </div>
@@ -10110,7 +10110,7 @@
   
 
 
-<h1 id="paseo-cross-session-agent-orchestration">Paseo  --  Cross-Session Agent Orchestration<a class="headerlink" href="#paseo-cross-session-agent-orchestration" title="Anchor link to this section">&para;</a></h1>
+<h1 id="paseo-cross-session-agent-orchestration">Paseo -- Cross-Session Agent Orchestration<a class="headerlink" href="#paseo-cross-session-agent-orchestration" title="Anchor link to this section">&para;</a></h1>
 <p>Paseo (getpaseo/paseo) is a self-hosted orchestration layer for coding agents. It runs a local daemon that manages multiple agents in parallel, and exposes one interface across desktop, mobile, web, and CLI. It fills the gap between single-session agent loops and full platform orchestration: you spin agents up, watch them work, attach to live output, and send follow-up tasks without opening a terminal per agent.</p>
 <h2 id="why-it-matters">Why It Matters<a class="headerlink" href="#why-it-matters" title="Anchor link to this section">&para;</a></h2>
 <p>Single-session agent patterns break when you need several agents working at once. Paseo's model is a reference for the orchestration stack:</p>
@@ -10125,13 +10125,13 @@
 <p>The GitHub API classifies the license as <code>NOASSERTION</code>, but the LICENSE file's own terms are <strong>Apache License 2.0</strong> (with third-party components remaining under their respective licenses). The NOASSERTION flag is a classifier artifact caused by the custom preamble header, not a custom or restrictive license. Apache 2.0 is permissive: use, modify, and distribute freely, including commercially, with attribution.</p>
 <h2 id="architecture">Architecture<a class="headerlink" href="#architecture" title="Anchor link to this section">&para;</a></h2>
 <div class="highlight"><pre><span></span><code>Desktop / Mobile / Web / CLI clients
-              │
-              ▼
-         Paseo daemon  (local server, manages agent lifecycles)
-              │
-   ┌──────────┼──────────────┬───────────────┐
-   ▼          ▼              ▼               ▼
-Claude Code  Codex       Copilot        OpenCode / Pi
+ │
+ ▼
+ Paseo daemon (local server, manages agent lifecycles)
+ │
+ ┌──────────┼──────────────┬───────────────┐
+ ▼ ▼ ▼ ▼
+Claude Code Codex Copilot OpenCode / Pi
 </code></pre></div>
 <p>The daemon is the single source of truth. Clients pair to it locally, over TCP, or through the end-to-end encrypted relay for device pairing.</p>
 <h2 id="setup">Setup<a class="headerlink" href="#setup" title="Anchor link to this section">&para;</a></h2>
@@ -10143,11 +10143,11 @@ paseo
 <h3 id="docker">Docker<a class="headerlink" href="#docker" title="Anchor link to this section">&para;</a></h3>
 <p>Run the daemon and self-hosted web UI in a container:</p>
 <div class="highlight"><pre><span></span><code>docker<span class="w"> </span>run<span class="w"> </span>-d<span class="w"> </span>--name<span class="w"> </span>paseo<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-p<span class="w"> </span><span class="m">6767</span>:6767<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-e<span class="w"> </span><span class="nv">PASEO_PASSWORD</span><span class="o">=</span>change-me<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-v<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$PWD</span><span class="s2">/paseo-home:/home/paseo&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-v<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$PWD</span><span class="s2">:/workspace&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>ghcr.io/getpaseo/paseo:latest
+<span class="w"> </span>-p<span class="w"> </span><span class="m">6767</span>:6767<span class="w"> </span><span class="se">\</span>
+<span class="w"> </span>-e<span class="w"> </span><span class="nv">PASEO_PASSWORD</span><span class="o">=</span>change-me<span class="w"> </span><span class="se">\</span>
+<span class="w"> </span>-v<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$PWD</span><span class="s2">/paseo-home:/home/paseo&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w"> </span>-v<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$PWD</span><span class="s2">:/workspace&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w"> </span>ghcr.io/getpaseo/paseo:latest
 </code></pre></div>
 <p>Open <code>http://localhost:6767</code> after it starts. Extend the base image with the agent CLIs you use, then provide credentials through environment variables or the persistent <code>/home/paseo</code> volume.</p>
 <h3 id="desktop-app">Desktop app<a class="headerlink" href="#desktop-app" title="Anchor link to this section">&para;</a></h3>
@@ -10156,8 +10156,8 @@ paseo
 <div class="highlight"><pre><span></span><code>paseo<span class="w"> </span>run<span class="w"> </span>--provider<span class="w"> </span>claude/opus-4.6<span class="w"> </span><span class="s2">&quot;implement user authentication&quot;</span>
 paseo<span class="w"> </span>run<span class="w"> </span>--provider<span class="w"> </span>codex/gpt-5.5<span class="w"> </span>--worktree<span class="w"> </span>feature-x<span class="w"> </span><span class="s2">&quot;implement feature X&quot;</span>
 
-paseo<span class="w"> </span>ls<span class="w">                           </span><span class="c1"># list running agents</span>
-paseo<span class="w"> </span>attach<span class="w"> </span>abc123<span class="w">                </span><span class="c1"># stream live output</span>
+paseo<span class="w"> </span>ls<span class="w"> </span><span class="c1"># list running agents</span>
+paseo<span class="w"> </span>attach<span class="w"> </span>abc123<span class="w"> </span><span class="c1"># stream live output</span>
 paseo<span class="w"> </span>send<span class="w"> </span>abc123<span class="w"> </span><span class="s2">&quot;also add tests&quot;</span><span class="w"> </span><span class="c1"># follow-up task</span>
 
 <span class="c1"># run on a remote daemon; --cwd is a path on that host</span>
@@ -10177,11 +10177,11 @@ paseo<span class="w"> </span>run<span class="w"> </span>--host<span class="w"> <
 <li>CLI: <code>@getpaseo/cli</code> 0.6.1 via <code>npm install -g</code> → <code>/home/hermes/.local/bin/paseo</code></li>
 <li>Daemon: started via <code>paseo onboard</code> (non-interactive mode), PID 734067</li>
 <li>Health check: <code>paseo status</code> → Local Daemon <code>running</code>, Connected Daemon <code>reachable</code>, listen <code>127.0.0.1:6767</code>, relay <strong>disabled</strong> (privacy-first default, no telemetry)</li>
-<li>Logs: <code>~/.paseo/daemon.log</code> — clean, no errors on startup or client connects</li>
+<li>Logs: <code>~/.paseo/daemon.log</code> - clean, no errors on startup or client connects</li>
 <li>Prerequisite note: agent CLIs (Claude Code / Codex / OpenCode) are not yet installed on this host; the daemon runs standalone and agents can be added per provider.</li>
 </ul>
 <h2 id="native-hermes-support-verified-2026-08-30">Native Hermes Support (verified 2026-08-30)<a class="headerlink" href="#native-hermes-support-verified-2026-08-30" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Hermes Agent is one of the 39 coding agents Paseo natively runs</strong> — listed on the official supported-agents page (paseo.sh/agents): "Hermes Agent — Run Nous Research's Hermes Agent on your machine, drive it from your phone or desktop." This upgrades Paseo from a reference implementation to a directly usable coordination surface for the Hermes stack: launch Hermes sessions, watch them work, and send follow-up tasks from a single daemon, cross-device.</p>
+<p><strong>Hermes Agent is one of the 39 coding agents Paseo natively runs</strong> - listed on the official supported-agents page (paseo.sh/agents): "Hermes Agent - Run Nous Research's Hermes Agent on your machine, drive it from your phone or desktop." This upgrades Paseo from a reference implementation to a directly usable coordination surface for the Hermes stack: launch Hermes sessions, watch them work, and send follow-up tasks from a single daemon, cross-device.</p>
 <h2 id="fit-with-this-stack">Fit With This Stack<a class="headerlink" href="#fit-with-this-stack" title="Anchor link to this section">&para;</a></h2>
 <p>Paseo complements the orchestration layers documented in this section. It is not a replacement for an execution kernel like Hermes; it is a cross-session control plane: one daemon, many agents, many clients. With Hermes natively supported as a provider, the daemon on Spark is the coordination surface for running multiple Hermes/coding-agent sessions in parallel and monitoring them from one place (CLI, web, or mobile).</p>
 <hr />

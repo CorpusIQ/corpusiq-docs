@@ -10215,7 +10215,7 @@
 <h1 id="july-4-2026-update-5-new-repos-late-sweep">🆕 July 4, 2026 (Update) - 5 New Repos (Late Sweep)<a class="headerlink" href="#july-4-2026-update-5-new-repos-late-sweep" title="Anchor link to this section">&para;</a></h1>
 <p><strong>Date:</strong> July 4, 2026
 <strong>New Repos:</strong> 5 | <strong>New Setup Guides:</strong> 4 | <strong>Combined Stars:</strong> 5</p>
-<p>A late-evening sweep of GitHub repos created on July 4 surfaced 5 additional Hermes-relevant projects not captured in the <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july4-2026">main July 4 sweep</a>. The standout is <strong>hermes-top</strong> - a Go-based, read-only <code>htop</code>/<code>btop</code>-style live terminal dashboard that watches Hermes Agent's <code>state.db</code>.</p>
+<p>A late-evening sweep of GitHub repos created on July 4 surfaced 5 additional Hermes-relevant projects not captured in the <a href="/docs/hermes/skills/marketplace/new-july4-2026">main July 4 sweep</a>. The standout is <strong>hermes-top</strong> - a Go-based, read-only <code>htop</code>/<code>btop</code>-style live terminal dashboard that watches Hermes Agent's <code>state.db</code>.</p>
 <hr />
 <h2 id="new-at-a-glance">New at a Glance<a class="headerlink" href="#new-at-a-glance" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10288,7 +10288,7 @@
 - Auto-follow like <code>tail -f</code> with freeze-on-scroll
 - <code>--dump</code> flag for one-shot text snapshots (scriptable)
 - Reads <code>$HERMES_HOME/state.db</code> - never writes</p>
-<p><strong>Setup Guide:</strong> <a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-top-setup">hermes-top - Full Setup Guide</a></p>
+<p><strong>Setup Guide:</strong> <a href="/docs/hermes/skills/catalog/hermes-top-setup">hermes-top - Full Setup Guide</a></p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/markmnl/hermes-top.git
 <span class="nb">cd</span><span class="w"> </span>hermes-top
 go<span class="w"> </span>build<span class="w"> </span>-o<span class="w"> </span>hermes-top<span class="w"> </span>./cmd/hermes-top
@@ -10310,7 +10310,7 @@ go<span class="w"> </span>build<span class="w"> </span>-o<span class="w"> </span
 - Neon glow borders on search, scroll-to-top, focus rings
 - Custom CSS fixes for bg-foreground inversion trap
 - Drop-in 3 files: presets.ts + styles.css + context.tsx</p>
-<p><strong>Setup Guide:</strong> <a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-desktop-neo-theme-setup">Hermes Desktop Neo Theme - Full Setup Guide</a></p>
+<p><strong>Setup Guide:</strong> <a href="/docs/hermes/skills/catalog/hermes-desktop-neo-theme-setup">Hermes Desktop Neo Theme - Full Setup Guide</a></p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/Neo-bot1998/hermes-desktop-neo-theme.git
 <span class="nb">cd</span><span class="w"> </span>hermes-desktop-neo-theme
 <span class="c1"># Copy 3 source files into Hermes Desktop source tree</span>
@@ -10334,7 +10334,7 @@ cp<span class="w"> </span>context.tsx<span class="w"> </span>&lt;hermes-agent&gt
 - Credential warning in generated README
 - Cross-platform: Windows, Linux, macOS
 - Zero dependencies (stdlib only)</p>
-<p><strong>Setup Guide:</strong> <a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-full-backup-setup">Hermes Full Backup - Full Setup Guide</a></p>
+<p><strong>Setup Guide:</strong> <a href="/docs/hermes/skills/catalog/hermes-full-backup-setup">Hermes Full Backup - Full Setup Guide</a></p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/edouardleroy/hermes-full-backup.git
 <span class="nb">cd</span><span class="w"> </span>hermes-full-backup
 python<span class="w"> </span>hermes-complete-backup.py<span class="w"> </span>--quick<span class="w"> </span>-o<span class="w"> </span>~/hermes-backup.zip
@@ -10389,7 +10389,7 @@ hermes<span class="w"> </span>skill<span class="w"> </span>install<span class="w
 - 10-action <code>agel_comp</code> tool for querying and extending safety rules
 - Plugin-based - no agent modification required
 - Persists rules to <code>$HERMES_HOME/agel_comp/</code></p>
-<p><strong>Setup Guide:</strong> <a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agel-comp-setup">AGEL-Comp Safety - Full Setup Guide</a></p>
+<p><strong>Setup Guide:</strong> <a href="/docs/hermes/skills/catalog/hermes-agel-comp-setup">AGEL-Comp Safety - Full Setup Guide</a></p>
 <div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/lesterppo/hermes-agel-comp.git
 <span class="nb">cd</span><span class="w"> </span>hermes-agel-comp
 ./install.sh
@@ -10408,10 +10408,10 @@ hermes<span class="w"> </span>skill<span class="w"> </span>install<span class="w
 <h2 id="setup-guides-added">Setup Guides Added<a class="headerlink" href="#setup-guides-added" title="Anchor link to this section">&para;</a></h2>
 <p>This sweep produced 4 detailed setup guides:</p>
 <ul>
-<li><strong><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-top-setup">hermes-top Setup</a></strong> - Go build, database path resolution, keyboard shortcuts, TUI navigation</li>
-<li><strong><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-desktop-neo-theme-setup">Hermes Desktop Neo Theme Setup</a></strong> - File copy, build, asar packing, restore after update</li>
-<li><strong><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-full-backup-setup">Hermes Full Backup Setup</a></strong> - Quick backup, full backup, JSON config, restore procedure</li>
-<li><strong><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agel-comp-setup">AGEL-Comp Safety Setup</a></strong> - Plugin install, safety rules, CPG querying, learning pipeline</li>
+<li><strong><a href="/docs/hermes/skills/catalog/hermes-top-setup">hermes-top Setup</a></strong> - Go build, database path resolution, keyboard shortcuts, TUI navigation</li>
+<li><strong><a href="/docs/hermes/skills/catalog/hermes-desktop-neo-theme-setup">Hermes Desktop Neo Theme Setup</a></strong> - File copy, build, asar packing, restore after update</li>
+<li><strong><a href="/docs/hermes/skills/catalog/hermes-full-backup-setup">Hermes Full Backup Setup</a></strong> - Quick backup, full backup, JSON config, restore procedure</li>
+<li><strong><a href="/docs/hermes/skills/catalog/hermes-agel-comp-setup">AGEL-Comp Safety Setup</a></strong> - Plugin install, safety rules, CPG querying, learning pipeline</li>
 </ul>
 <hr />
 <h2 id="comparison">Comparison<a class="headerlink" href="#comparison" title="Anchor link to this section">&para;</a></h2>
@@ -10442,7 +10442,7 @@ hermes<span class="w"> </span>skill<span class="w"> </span>install<span class="w
 </tbody>
 </table>
 <hr />
-<p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace/new-july4-2026">July 4 Main Sweep</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace">Marketplace Home</a> →</em>
+<p><em>← <a href="/docs/hermes/skills/marketplace/new-july4-2026">July 4 Main Sweep</a> | <a href="/docs/hermes/skills/marketplace">Marketplace Home</a> →</em>
 <em>Powered by CorpusIQ</em></p>
 
 

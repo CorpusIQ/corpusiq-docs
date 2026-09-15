@@ -23,7 +23,7 @@
     
     
   
-    <title>Antigravity Manager - Multi-Account LLM Proxy & Rotation Setup</title>
+    <title>Antigravity Manager - Multi-Account LLM Proxy & Rotation</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/antigravity-manager-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Antigravity Manager - Multi-Account LLM Proxy & Rotation Setup">
+  <meta property="og:title" content="Antigravity Manager - Multi-Account LLM Proxy & Rotation">
   <meta property="og:description" content="Setup guide for antigravity-manager, the Agent Skills skill for Antigravity Manager (31K-star Tauri/Rust tool) that proxies Google and Anthropic accounts as">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Antigravity Manager - Multi-Account LLM Proxy & Rotation Setup">
+  <meta name="twitter:title" content="Antigravity Manager - Multi-Account LLM Proxy & Rotation">
   <meta name="twitter:description" content="Setup guide for antigravity-manager, the Agent Skills skill for Antigravity Manager (31K-star Tauri/Rust tool) that proxies Google and Anthropic accounts as">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Antigravity Manager - Multi-Account LLM Proxy \u0026 Rotation Setup",
+    "name": "Antigravity Manager - Multi-Account LLM Proxy \u0026 Rotation",
     "description": "Setup guide for antigravity-manager, the Agent Skills skill for Antigravity Manager (31K-star Tauri/Rust tool) that proxies Google and Anthropic accounts as",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/antigravity-manager-setup",
     
@@ -212,7 +212,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Antigravity Manager - Multi-Account LLM Proxy & Rotation Setup
+              Antigravity Manager - Multi-Account LLM Proxy & Rotation
             
           </span>
         </div>
@@ -10250,21 +10250,21 @@
 </tr>
 </tbody>
 </table>
-<p>Example (OpenAI SDK — Gemini through the gateway):</p>
+<p>Example (OpenAI SDK - Gemini through the gateway):</p>
 <div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">from</span> <span class="nn">openai</span> <span class="kn">import</span> <span class="n">OpenAI</span>
 
 <span class="n">client</span> <span class="o">=</span> <span class="n">OpenAI</span><span class="p">(</span>
-    <span class="n">api_key</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;ANTIGRAVITY_API_KEY&quot;</span><span class="p">],</span>
-    <span class="n">base_url</span><span class="o">=</span><span class="s2">&quot;http://localhost:8045/v1&quot;</span><span class="p">,</span>
+ <span class="n">api_key</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="p">[</span><span class="s2">&quot;ANTIGRAVITY_API_KEY&quot;</span><span class="p">],</span>
+ <span class="n">base_url</span><span class="o">=</span><span class="s2">&quot;http://localhost:8045/v1&quot;</span><span class="p">,</span>
 <span class="p">)</span>
 <span class="n">resp</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">chat</span><span class="o">.</span><span class="n">completions</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
-    <span class="n">model</span><span class="o">=</span><span class="s2">&quot;gemini-2.5-pro&quot;</span><span class="p">,</span>
-    <span class="n">messages</span><span class="o">=</span><span class="p">[{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;Hello&quot;</span><span class="p">}],</span>
+ <span class="n">model</span><span class="o">=</span><span class="s2">&quot;gemini-2.5-pro&quot;</span><span class="p">,</span>
+ <span class="n">messages</span><span class="o">=</span><span class="p">[{</span><span class="s2">&quot;role&quot;</span><span class="p">:</span> <span class="s2">&quot;user&quot;</span><span class="p">,</span> <span class="s2">&quot;content&quot;</span><span class="p">:</span> <span class="s2">&quot;Hello&quot;</span><span class="p">}],</span>
 <span class="p">)</span>
 </code></pre></div>
 <h2 id="connecting-agent-clients">Connecting Agent Clients<a class="headerlink" href="#connecting-agent-clients" title="Anchor link to this section">&para;</a></h2>
-<p><strong>Claude Code</strong> — point the Anthropic env vars at the gateway:</p>
+<p><strong>Claude Code</strong> - point the Anthropic env vars at the gateway:</p>
 <div class="highlight"><pre><span></span><code><span class="nb">export</span><span class="w"> </span><span class="nv">ANTHROPIC_API_KEY</span><span class="o">=</span><span class="nv">$ANTIGRAVITY_API_KEY</span>
 <span class="nb">export</span><span class="w"> </span><span class="nv">ANTHROPIC_BASE_URL</span><span class="o">=</span>http://localhost:8045
 claude
@@ -10272,15 +10272,15 @@ claude
 <p><strong>Any OpenAI-compatible client</strong> (Cherry Studio, Cursor, Continue.dev, or an OpenAI-compatible provider in an agent config): base URL <code>http://localhost:8045/v1</code> plus the gateway API key.</p>
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Agent fleet failover</strong> — point OpenAI-compatible agents at the gateway for automatic 429/401 rotation across accounts.</li>
-<li><strong>Model-cost arbitrage</strong> — remap hard-coded model names to cheaper tiers (<code>gpt-4.*</code> → <code>gemini-2.5-flash</code>) without touching client code.</li>
-<li><strong>Quota monitoring</strong> — one dashboard for every Gemini/Claude account an agent fleet consumes.</li>
-<li><strong>Premium-quota protection</strong> — background tasks auto-demote to Flash-tier models.</li>
-<li><strong>Provider experimentation</strong> — test OpenAI/Anthropic/Gemini protocols against one local gateway before committing to a provider.</li>
+<li><strong>Agent fleet failover</strong> - point OpenAI-compatible agents at the gateway for automatic 429/401 rotation across accounts.</li>
+<li><strong>Model-cost arbitrage</strong> - remap hard-coded model names to cheaper tiers (<code>gpt-4.*</code> → <code>gemini-2.5-flash</code>) without touching client code.</li>
+<li><strong>Quota monitoring</strong> - one dashboard for every Gemini/Claude account an agent fleet consumes.</li>
+<li><strong>Premium-quota protection</strong> - background tasks auto-demote to Flash-tier models.</li>
+<li><strong>Provider experimentation</strong> - test OpenAI/Anthropic/Gemini protocols against one local gateway before committing to a provider.</li>
 </ul>
 <h2 id="security-compliance-notes">Security &amp; Compliance Notes<a class="headerlink" href="#security-compliance-notes" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>No skills.sh security audits published</strong> for this skill (no Trust Hub / Socket / Snyk verdicts render on the publisher page) — review before production use.</li>
+<li><strong>No skills.sh security audits published</strong> for this skill (no Trust Hub / Socket / Snyk verdicts render on the publisher page) - review before production use.</li>
 <li>The upstream tool repo (<a href="https://github.com/lbjlaq/Antigravity-Manager">lbjlaq/Antigravity-Manager</a>, 31K+ stars, pushed Sep 12 2026) ships <strong>no standard license</strong> (GitHub API: NOASSERTION).</li>
 <li>The gateway proxies <strong>web session tokens</strong>, not official API keys. Upstream providers may flag or ban accounts used this way (the built-in 403 detection exists for exactly this case). Review Google/Anthropic terms before production use.</li>
 </ul>
@@ -10307,7 +10307,7 @@ claude
 </tr>
 <tr>
 <td>All accounts 429</td>
-<td>Rotation exhausted — add accounts or wait for quota reset; check the dashboard</td>
+<td>Rotation exhausted - add accounts or wait for quota reset; check the dashboard</td>
 </tr>
 <tr>
 <td>macOS Gatekeeper</td>
@@ -10325,15 +10325,15 @@ curl<span class="w"> </span>-s<span class="w"> </span>http://localhost:8045/v1/m
 
 <span class="c1"># Full round-trip through the OpenAI-compatible endpoint</span>
 curl<span class="w"> </span>-s<span class="w"> </span>http://localhost:8045/v1/chat/completions<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="si">${</span><span class="nv">ANTIGRAVITY_API_KEY</span><span class="si">}</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;model&quot;:&quot;gemini-2.5-pro&quot;,&quot;messages&quot;:[{&quot;role&quot;:&quot;user&quot;,&quot;content&quot;:&quot;ping&quot;}]}&#39;</span>
+<span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w"> </span>-H<span class="w"> </span><span class="s2">&quot;Authorization: Bearer </span><span class="si">${</span><span class="nv">ANTIGRAVITY_API_KEY</span><span class="si">}</span><span class="s2">&quot;</span><span class="w"> </span><span class="se">\</span>
+<span class="w"> </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;model&quot;:&quot;gemini-2.5-pro&quot;,&quot;messages&quot;:[{&quot;role&quot;:&quot;user&quot;,&quot;content&quot;:&quot;ping&quot;}]}&#39;</span>
 </code></pre></div>
 <hr />
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li>From the <a href="https://ara.so">ara.so</a> Daily 2026 Skills collection — auto-generated from trending GitHub repos.</li>
-<li>Sibling guides from the same publisher: <a href="https://www.corpusiq.io/docs/hermes/skills/catalog/openclaw-control-center-setup">OpenClaw Control Center</a> and <a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-labyrinth-observability-setup">Hermes Labyrinth Observability</a>.</li>
+<li>From the <a href="https://ara.so">ara.so</a> Daily 2026 Skills collection - auto-generated from trending GitHub repos.</li>
+<li>Sibling guides from the same publisher: <a href="/docs/hermes/skills/catalog/openclaw-control-center-setup">OpenClaw Control Center</a> and <a href="/docs/hermes/skills/catalog/hermes-labyrinth-observability-setup">Hermes Labyrinth Observability</a>.</li>
 </ul>
 
 

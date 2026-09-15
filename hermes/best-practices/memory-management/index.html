@@ -10314,7 +10314,7 @@
 <h1 id="memory-management-best-practices-persistent-ai-agent-context">Memory Management Best Practices  --  Persistent AI Agent Context<a class="headerlink" href="#memory-management-best-practices-persistent-ai-agent-context" title="Anchor link to this section">&para;</a></h1>
 <p>Memory is what separates a stateless tool from a persistent AI assistant in Hermes Agent. But memory also consumes context, increases latency, and introduces staleness risks. These memory management best practices cover when and how to use each memory tier for optimal agent performance.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>Hermes Agent provides a <a href="https://www.corpusiq.io/docs/hermes/knowledge">triple-stack memory architecture</a>: <strong>Honcho</strong> for peer identity and preferences, <strong>GBrain</strong> for organizational knowledge indexing, and <strong>memcore-cloud</strong> for cross-session conversation recall. Each solves a different problem, and production deployments run all three.</p>
+<p>Hermes Agent provides a <a href="/docs/hermes/knowledge">triple-stack memory architecture</a>: <strong>Honcho</strong> for peer identity and preferences, <strong>GBrain</strong> for organizational knowledge indexing, and <strong>memcore-cloud</strong> for cross-session conversation recall. Each solves a different problem, and production deployments run all three.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <h3 id="the-memory-hierarchy">The Memory Hierarchy<a class="headerlink" href="#the-memory-hierarchy" title="Anchor link to this section">&para;</a></h3>
 <table>
@@ -10329,19 +10329,19 @@
 <tbody>
 <tr>
 <td><strong>Peer Memory</strong></td>
-<td><a href="https://www.corpusiq.io/docs/hermes/knowledge">Honcho</a></td>
+<td><a href="/docs/hermes/knowledge">Honcho</a></td>
 <td>User identity, preferences, bans, decisions</td>
 <td>Cross-session</td>
 </tr>
 <tr>
 <td><strong>Organizational</strong></td>
-<td><a href="https://www.corpusiq.io/docs/hermes/knowledge">GBrain</a></td>
+<td><a href="/docs/hermes/knowledge">GBrain</a></td>
 <td>File/code indexing, project relationships</td>
 <td>Cross-session</td>
 </tr>
 <tr>
 <td><strong>Cross-Session</strong></td>
-<td><a href="https://www.corpusiq.io/docs/hermes/knowledge">memcore-cloud</a></td>
+<td><a href="/docs/hermes/knowledge">memcore-cloud</a></td>
 <td>Full conversation recall with source tracking</td>
 <td>Cross-session</td>
 </tr>
@@ -10353,7 +10353,7 @@
 </tr>
 <tr>
 <td><strong>Procedural</strong></td>
-<td><a href="https://www.corpusiq.io/docs/hermes/skills/creating-skills">Skills</a></td>
+<td><a href="/docs/hermes/skills/creating-skills">Skills</a></td>
 <td>Reusable workflows, tool chains</td>
 <td>Versioned</td>
 </tr>
@@ -10365,7 +10365,7 @@
 <li><strong>Does this fact change rarely?</strong> Stable preferences → memory. Current task focus → conversation context.</li>
 <li><strong>Is it referenced across sessions?</strong> Multi-session project → memory. One-off question → don't store.</li>
 <li><strong>Does it save meaningful context tokens?</strong> If storing saves re-explaining each session, it's worth it.</li>
-<li><strong>Is it factual or procedural?</strong> Facts → memories. Workflows → <a href="https://www.corpusiq.io/docs/hermes/skills/creating-skills">skills</a>. Config → <a href="https://www.corpusiq.io/docs/hermes/best-practices/security">env vars</a>.</li>
+<li><strong>Is it factual or procedural?</strong> Facts → memories. Workflows → <a href="/docs/hermes/skills/creating-skills">skills</a>. Config → <a href="/docs/hermes/best-practices/security">env vars</a>.</li>
 </ul>
 <h2 id="compaction-strategies">Compaction Strategies<a class="headerlink" href="#compaction-strategies" title="Anchor link to this section">&para;</a></h2>
 <p>When context windows fill up:</p>
@@ -10403,7 +10403,7 @@
 <tr>
 <td>Memory replacing config</td>
 <td>API keys in memory = breach</td>
-<td>Use <a href="https://www.corpusiq.io/docs/hermes/best-practices/security">secrets manager</a></td>
+<td>Use <a href="/docs/hermes/best-practices/security">secrets manager</a></td>
 </tr>
 </tbody>
 </table>
@@ -10420,11 +10420,11 @@
 <h3 id="how-do-i-prevent-my-hermes-agent-memory-from-getting-stale">How do I prevent my Hermes Agent memory from getting stale?<a class="headerlink" href="#how-do-i-prevent-my-hermes-agent-memory-from-getting-stale" title="Anchor link to this section">&para;</a></h3>
 <p>Prune memories periodically (monthly review), add expiration to project-specific memories, audit for contradictions, and use the dream cycle (nightly consolidation) to merge duplicates and strengthen frequently accessed paths.</p>
 <h3 id="can-i-use-just-one-memory-system">Can I use just one memory system?<a class="headerlink" href="#can-i-use-just-one-memory-system" title="Anchor link to this section">&para;</a></h3>
-<p>You can, but you'll have gaps. <a href="https://www.corpusiq.io/docs/hermes/knowledge">Honcho only</a> handles peer modeling but not file indexing. <a href="https://www.corpusiq.io/docs/hermes/knowledge">GBrain only</a> handles code/docs but not "who is the user?". Run the full triple stack for complete agent memory.</p>
+<p>You can, but you'll have gaps. <a href="/docs/hermes/knowledge">Honcho only</a> handles peer modeling but not file indexing. <a href="/docs/hermes/knowledge">GBrain only</a> handles code/docs but not "who is the user?". Run the full triple stack for complete agent memory.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://www.corpusiq.io/docs/hermes/knowledge">Memory Architecture Guide</a>  --  Full triple-stack documentation</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/best-practices">Best Practices Overview</a>  --  All guides</li>
+<li><a href="/docs/hermes/knowledge">Memory Architecture Guide</a>  --  Full triple-stack documentation</li>
+<li><a href="/docs/hermes/best-practices">Best Practices Overview</a>  --  All guides</li>
 <li><a href="https://www.corpusiq.io/docs/hermes/best-practices/security">Security</a>  --  Don't store credentials in memory</li>
 <li><a href="https://www.corpusiq.io/docs/hermes/best-practices/skill-development">Skill Development</a>  --  Procedural knowledge vs memory</li>
 </ul>

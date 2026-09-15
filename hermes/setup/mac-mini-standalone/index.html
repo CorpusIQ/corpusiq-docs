@@ -10446,7 +10446,7 @@
 <h1 id="mac-mini-m4-ai-server-setup-ollama-mlx-playwright">Mac Mini M4 AI Server Setup: Ollama, MLX, Playwright<a class="headerlink" href="#mac-mini-m4-ai-server-setup-ollama-mlx-playwright" title="Anchor link to this section">&para;</a></h1>
 <p>The Mac Mini M4 is the ideal single-machine Hermes Agent host for solo founders and developers. Everything runs on one box: LLM inference with Ollama and MLX, browser automation with Playwright, cron scheduling, and messaging  --  no worker nodes, no SSH keys, no multi-machine complexity.</p>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Anchor link to this section">&para;</a></h2>
-<p>The Mac Mini M4's unified memory architecture (16-32GB shared CPU/GPU) makes it uniquely suited for running local AI models. Combined with silent operation (~20W idle) and native macOS support for Playwright browser automation, it's the recommended <a href="https://www.corpusiq.io/docs/hermes/setup">Hermes Agent setup</a> platform for solo operators who want a single-box solution.</p>
+<p>The Mac Mini M4's unified memory architecture (16-32GB shared CPU/GPU) makes it uniquely suited for running local AI models. Combined with silent operation (~20W idle) and native macOS support for Playwright browser automation, it's the recommended <a href="/docs/hermes/setup">Hermes Agent setup</a> platform for solo operators who want a single-box solution.</p>
 <h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10470,7 +10470,7 @@
 </tr>
 <tr>
 <td><strong>Memory</strong></td>
-<td><a href="https://www.corpusiq.io/docs/hermes/knowledge">Honcho</a> (peer memory), GBrain (project knowledge), memcore-cloud (cross-session)</td>
+<td><a href="/docs/hermes/knowledge">Honcho</a> (peer memory), GBrain (project knowledge), memcore-cloud (cross-session)</td>
 </tr>
 <tr>
 <td><strong>Crons</strong></td>
@@ -10513,7 +10513,7 @@ hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.default<span class="w"> </span>openrouter/anthropic/claude-sonnet-4
 hermes<span class="w"> </span>config<span class="w"> </span><span class="nb">set</span><span class="w"> </span>model.fallback<span class="w"> </span><span class="s2">&quot;openrouter/qwen/qwen3-235b-a22b:free&quot;</span>
 </code></pre></div>
-<p><strong>Strategy:</strong> Use local models for cron tasks and embeddings (free), cloud models for complex reasoning (pay-as-you-go). Set Ollama as primary and OpenRouter as fallback, or vice versa depending on budget. See our <a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">model selection guide</a> for detailed tiering strategies.</p>
+<p><strong>Strategy:</strong> Use local models for cron tasks and embeddings (free), cloud models for complex reasoning (pay-as-you-go). Set Ollama as primary and OpenRouter as fallback, or vice versa depending on budget. See our <a href="/docs/hermes/best-practices/model-selection">model selection guide</a> for detailed tiering strategies.</p>
 <h3 id="step-4-browser-automation">Step 4: Browser Automation<a class="headerlink" href="#step-4-browser-automation" title="Anchor link to this section">&para;</a></h3>
 <p>Playwright runs directly on the Mac. No worker node needed.</p>
 <div class="highlight"><pre><span></span><code>pip<span class="w"> </span>install<span class="w"> </span>playwright
@@ -10552,7 +10552,7 @@ hermes<span class="w"> </span>cron<span class="w"> </span>create<span class="w">
 <span class="w">  </span>--prompt<span class="w"> </span><span class="s2">&quot;Summarize today&#39;s activity. What happened? What&#39;s pending?&quot;</span><span class="w"> </span><span class="se">\</span>
 <span class="w">  </span>--schedule<span class="w"> </span><span class="s2">&quot;0 18 * * *&quot;</span>
 </code></pre></div>
-<p>See <a href="https://www.corpusiq.io/docs/hermes/best-practices/cron-design">cron design best practices</a> for production-grade scheduling patterns.</p>
+<p>See <a href="/docs/hermes/best-practices/cron-design">cron design best practices</a> for production-grade scheduling patterns.</p>
 <p><strong>Keep Alive:</strong></p>
 <p>Prevent macOS sleep during operation:</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># Keep system awake while Hermes runs</span>
@@ -10571,7 +10571,7 @@ git<span class="w"> </span>clone<span class="w"> </span>https://github.com/garry
 <span class="c1"># memcore-cloud  --  cross-session context (5 min)</span>
 pip<span class="w"> </span>install<span class="w"> </span>memcore-cloud<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>memcore-cloud<span class="w"> </span>init
 </code></pre></div>
-<p>Full details in the <a href="https://www.corpusiq.io/docs/hermes/knowledge">memory architecture guide</a>.</p>
+<p>Full details in the <a href="/docs/hermes/knowledge">memory architecture guide</a>.</p>
 <h2 id="benefits-of-mac-mini-m4-hermes-agent">Benefits of Mac Mini M4 + Hermes Agent<a class="headerlink" href="#benefits-of-mac-mini-m4-hermes-agent" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Single-box simplicity</strong>: No worker nodes, no SSH, no multi-machine coordination</li>
@@ -10624,12 +10624,12 @@ pip<span class="w"> </span>install<span class="w"> </span>memcore-cloud<span cla
 <p>Add a <a href="https://www.corpusiq.io/docs/hermes/setup/gaming-pc">gaming PC worker node</a> via SSH for GPU-heavy inference, or use <a href="https://www.corpusiq.io/docs/hermes/setup/cloud-vps">cloud GPU instances</a> for burst workloads.</p>
 <h2 id="related-pages">Related Pages<a class="headerlink" href="#related-pages" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://www.corpusiq.io/docs/hermes/setup">Hermes Agent Setup Overview</a>  --  Compare all hardware platforms</li>
+<li><a href="/docs/hermes/setup">Hermes Agent Setup Overview</a>  --  Compare all hardware platforms</li>
 <li><a href="https://www.corpusiq.io/docs/hermes/setup/gaming-pc">Gaming PC Setup</a>  --  Maximum GPU performance</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/best-practices/model-selection">Model Selection Guide</a>  --  Tiered model routing</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/knowledge">Memory Architecture</a>  --  Triple-stack agent memory</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/mcp">MCP Integration Guide</a>  --  Connect 40+ business platforms</li>
-<li><a href="https://www.corpusiq.io/docs/hermes/troubleshooting">Troubleshooting Guide</a>  --  Common Mac Mini issues</li>
+<li><a href="/docs/hermes/best-practices/model-selection">Model Selection Guide</a>  --  Tiered model routing</li>
+<li><a href="/docs/hermes/knowledge">Memory Architecture</a>  --  Triple-stack agent memory</li>
+<li><a href="/docs/hermes/mcp">MCP Integration Guide</a>  --  Connect 40+ business platforms</li>
+<li><a href="/docs/hermes/troubleshooting">Troubleshooting Guide</a>  --  Common Mac Mini issues</li>
 </ul>
 <hr />
 <p>*</p>

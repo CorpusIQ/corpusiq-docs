@@ -10028,7 +10028,7 @@
 
 
 <h1 id="new-skills-september-1-2026-pm">New Skills - September 1, 2026 (PM)<a class="headerlink" href="#new-skills-september-1-2026-pm" title="Anchor link to this section">&para;</a></h1>
-<p>Fifteen-query skills.sh API sweep with tiered cross-reference against the full hermes/ tree. First pass: 10 of 15 queries returned (474 unique skills; 63 NEW, 98 PARTIAL, zero ≥100-install NEW flags) while 5 queries hit API read timeouts. The timed-out queries were retried successfully, and the retry surfaced the find of the sweep: <strong>9 official bundled skills from nousresearch/hermes-agent with zero docs-tree hits</strong> — a batch first seen on skills.sh Aug 7-13, 2026 that every sweep since has missed because the flagship-repo query kept timing out or the names never matched a keyword sweep. Every other NEW flag mapped to standing rejections or one new verified rejection.</p>
+<p>Fifteen-query skills.sh API sweep with tiered cross-reference against the full hermes/ tree. First pass: 10 of 15 queries returned (474 unique skills; 63 NEW, 98 PARTIAL, zero ≥100-install NEW flags) while 5 queries hit API read timeouts. The timed-out queries were retried successfully, and the retry surfaced the find of the sweep: <strong>9 official bundled skills from nousresearch/hermes-agent with zero docs-tree hits</strong> - a batch first seen on skills.sh Aug 7-13, 2026 that every sweep since has missed because the flagship-repo query kept timing out or the names never matched a keyword sweep. Every other NEW flag mapped to standing rejections or one new verified rejection.</p>
 <h2 id="new-skills-official-hermes-agent-bundled-batch">New Skills - Official Hermes Agent Bundled Batch<a class="headerlink" href="#new-skills-official-hermes-agent-bundled-batch" title="Anchor link to this section">&para;</a></h2>
 <table>
 <thead>
@@ -10113,14 +10113,14 @@
 <span class="c1"># email-inbox-triage, weekly-review-planning, meeting-action-items,</span>
 <span class="c1"># product-price-monitor, sdlc-review</span>
 </code></pre></div>
-<p>Full details, per-skill use cases, and CorpusIQ mappings: <a href="https://www.corpusiq.io/docs/hermes/skills/catalog/hermes-agent-official-skills-batch-setup">Hermes Agent Official Skills - Bundled Batch Setup</a></p>
+<p>Full details, per-skill use cases, and CorpusIQ mappings: <a href="/docs/hermes/skills/catalog/hermes-agent-official-skills-batch-setup">Hermes Agent Official Skills - Bundled Batch Setup</a></p>
 <h2 id="method-notes">Method Notes<a class="headerlink" href="#method-notes" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Standard 15-query sweep. First pass: <code>nousresearch/hermes-agent</code>, <code>aradotso/hermes-skills</code>, <code>hermes agent</code>, <code>hermes skill</code>, and <code>aradotso/devtools-skills</code> timed out (API read timeouts); the other 10 queries returned 474 unique skills with 63 NEW and 98 PARTIAL flags.</li>
 <li>All 63 first-pass NEW flags sat below 100 installs and mapped to the standing rejection batches (Aug 28 - Sep 1 AM: locaweb/cofounder 62, konglong87/superpm 42, zrr1999/skills 33, sidetoolco/org-charts dead, and ~40 more below-bar personal/Claude-only collections).</li>
-<li>The 5 timed-out queries were retried with <code>--max-time 25</code> and all succeeded. The retry batch (192 lines) cross-referenced against the tree flagged 17 items; 9 were the nousresearch PARTIAL batch (repo documented, skill names absent — the Aug 21 converse-of-cluster false-negative class), the rest 1-3-install below-bar items (mah92/hermes-persian-skills, alexai-mcp/hermes-ccc, etc.).</li>
+<li>The 5 timed-out queries were retried with <code>--max-time 25</code> and all succeeded. The retry batch (192 lines) cross-referenced against the tree flagged 17 items; 9 were the nousresearch PARTIAL batch (repo documented, skill names absent - the Aug 21 converse-of-cluster false-negative class), the rest 1-3-install below-bar items (mah92/hermes-persian-skills, alexai-mcp/hermes-ccc, etc.).</li>
 <li>Each of the 9 skills was verified end-to-end: repo tree path via GitHub trees API, SKILL.md frontmatter + body via raw.githubusercontent.com, and First Seen date via the skills.sh skill page.</li>
-<li>House bar cleared on precedent: the June 17/18 sweeps documented official nousresearch batches at 13-136 installs (native-mcp at 79, pptx-author at 14, duckduckgo-search at 14). Official bundled skills are the product's own feature set — an uncatalogued official skill is a docs gap regardless of install count.</li>
+<li>House bar cleared on precedent: the June 17/18 sweeps documented official nousresearch batches at 13-136 installs (native-mcp at 79, pptx-author at 14, duckduckgo-search at 14). Official bundled skills are the product's own feature set - an uncatalogued official skill is a docs gap regardless of install count.</li>
 </ul>
 <h2 id="evaluated-and-queued">Evaluated and Queued<a class="headerlink" href="#evaluated-and-queued" title="Anchor link to this section">&para;</a></h2>
 <table>
@@ -10162,17 +10162,17 @@
 <h2 id="notable-signals-for-corpusiq">Notable Signals for CorpusIQ<a class="headerlink" href="#notable-signals-for-corpusiq" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong><code>competitor-news-monitor</code></strong> is a one-to-one fit for the tech-research-sweeps workstream: declared-company watches, materiality thresholds, and source-hierarchy discipline already in use; the skill adds the <code>competitor-watch</code> automation blueprint for cron scaffolding.</li>
-<li><strong><code>email-inbox-triage</code></strong> formalizes the dual-inbox discipline (media@ + info@) — thread-aware prioritization and safe draft-only replies match the existing email operating rules.</li>
-<li><strong><code>document-to-action-items</code></strong> converts partnership/contract documents into cited obligations and deadlines — feeds the lead pipeline and investor outreach follow-through.</li>
-<li><strong><code>github-issue-to-pr</code></strong> encodes the issue→verified-PR discipline with honest CI state — direct fit for docs repo maintenance and the Hermes ecosystem PR work.</li>
+<li><strong><code>email-inbox-triage</code></strong> formalizes the dual-inbox discipline (media@ + info@) - thread-aware prioritization and safe draft-only replies match the existing email operating rules.</li>
+<li><strong><code>document-to-action-items</code></strong> converts partnership/contract documents into cited obligations and deadlines - feeds the lead pipeline and investor outreach follow-through.</li>
+<li><strong><code>github-issue-to-pr</code></strong> encodes the issue→verified-PR discipline with honest CI state - direct fit for docs repo maintenance and the Hermes ecosystem PR work.</li>
 <li><strong><code>blocked-page-recovery</code></strong> gives research a formalized paywall/WAF ladder (Wayback → archive.today → Jina → API pivot → browser) that matches the existing search-resilience playbook.</li>
-<li><strong><code>product-price-monitor</code></strong> enables automated competitive pricing watches on competitor SaaS pages — a research surface not currently covered.</li>
+<li><strong><code>product-price-monitor</code></strong> enables automated competitive pricing watches on competitor SaaS pages - a research surface not currently covered.</li>
 <li><strong><code>meeting-action-items</code>, <code>weekly-review-planning</code>, <code>sdlc-review</code></strong> round out the operator/governance loop: decisions to tickets, weekly resets, and Kanban review-lane verification.</li>
 </ul>
 <h2 id="index-state-after-sweep">Index State After Sweep<a class="headerlink" href="#index-state-after-sweep" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>catalog/index.md: +1 entry (cluster setup guide: hermes-agent-official-skills-batch-setup)</li>
-<li>marketplace/index.md: Recent Sweeps entry added. Repo counts unchanged — nousresearch/hermes-agent is already a curated repo; this sweep added 9 of its skills, not a new publisher.</li>
+<li>marketplace/index.md: Recent Sweeps entry added. Repo counts unchanged - nousresearch/hermes-agent is already a curated repo; this sweep added 9 of its skills, not a new publisher.</li>
 <li>PROGRESS.md: Skills catalog 411 → 412; Total Markdown files 2,066 → 2,068</li>
 </ul>
 

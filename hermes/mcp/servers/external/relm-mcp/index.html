@@ -10014,7 +10014,7 @@
 
 
 <h1 id="relm-mcp">Relm MCP<a class="headerlink" href="#relm-mcp" title="Anchor link to this section">&para;</a></h1>
-<p><strong>Official MCP server from Relm, an API-first CRM built for AI agents.</strong> 41 typed tools cover contacts, companies, deals, activities, pipelines, automations, drip sequences, email templates and webhooks from a single Streamable HTTP endpoint at <code>api.relmcrm.com/mcp</code>. Everything an agent can do in the dashboard it can also do over the MCP server with the same bearer key — and the error contract is built for agents: every failure is an RFC-9457 problem+JSON response that carries <code>valid_options</code> and a <code>suggestion</code>, so the agent self-corrects instead of guessing.</p>
+<p><strong>Official MCP server from Relm, an API-first CRM built for AI agents.</strong> 41 typed tools cover contacts, companies, deals, activities, pipelines, automations, drip sequences, email templates and webhooks from a single Streamable HTTP endpoint at <code>api.relmcrm.com/mcp</code>. Everything an agent can do in the dashboard it can also do over the MCP server with the same bearer key - and the error contract is built for agents: every failure is an RFC-9457 problem+JSON response that carries <code>valid_options</code> and a <code>suggestion</code>, so the agent self-corrects instead of guessing.</p>
 <div class="highlight"><pre><span></span><code>Server type: Remote (Streamable HTTP)
 Auth: OAuth 2.1 (DCR + PKCE, rotating refresh tokens, scope &quot;crm&quot;) or bearer key (relm_live_ / relm_test_)
 Endpoint: https://api.relmcrm.com/mcp
@@ -10026,20 +10026,20 @@ SDK: npm i relmcrm (zero-dependency TypeScript)
 Built by: Relm (relmcrm.com)
 </code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;relm&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://api.relmcrm.com/mcp&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer relm_live_...&quot;</span><span class="w"> </span><span class="p">}</span>
-<span class="w">    </span><span class="p">}</span>
-<span class="w">  </span><span class="p">}</span>
+<span class="w"> </span><span class="nt">&quot;mcpServers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w"> </span><span class="nt">&quot;relm&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w"> </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;http&quot;</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">&quot;url&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;https://api.relmcrm.com/mcp&quot;</span><span class="p">,</span>
+<span class="w"> </span><span class="nt">&quot;headers&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nt">&quot;Authorization&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;Bearer relm_live_...&quot;</span><span class="w"> </span><span class="p">}</span>
+<span class="w"> </span><span class="p">}</span>
+<span class="w"> </span><span class="p">}</span>
 <span class="p">}</span>
 </code></pre></div>
 <h2 id="why-this-matters-for-operators">Why This Matters for Operators<a class="headerlink" href="#why-this-matters-for-operators" title="Anchor link to this section">&para;</a></h2>
 <p>Relm is one of the few CRM vendors whose MCP surface was designed for agents first and humans second. Three design decisions stand out.</p>
-<p>First, <strong>the "never confused" error contract.</strong> Send an unknown contact type and you get back <code>422 unknown_value</code> with the exact list of valid options; send a stale update and you get <code>412 version_conflict</code> telling you to re-fetch and reapply. The server's own instructions tell the agent to call <code>relm_describe_schema</code> first — the live schema (objects, fields, enum groups) is the source of truth, and if a needed enum value or custom field doesn't exist, the agent creates it (<code>relm_create_enum_value</code>, <code>relm_create_field</code>, <code>relm_create_type</code>) rather than improvising.</p>
-<p>Second, <strong>test mode is a sandbox, not a storage tier.</strong> <code>relm_test_</code> keys write to an isolated dataset that is free, invisible to billing and the dashboard, and auto-deleted 7 days after creation — an agent can rehearse a full pipeline-building sequence before a single <code>relm_live_</code> call touches production. OAuth grants always act on live data.</p>
-<p>Third, <strong>write safety is layered.</strong> Creates take an <code>Idempotency-Key</code> (a retry returns the original record), updates use optimistic concurrency (<code>If-Match</code> against a per-record <code>version</code>), and webhooks are HMAC-signed (<code>Relm-Signature: t=...,v1=...</code>) with retry backoff (1m/5m/30m/2h/6h) and dead-lettering after six attempts. Spend is capped explicitly — <code>relm_set_spend_cap</code> — and quota headers (<code>X-RateLimit-*</code>, <code>X-Quota-*</code>) ride every response.</p>
+<p>First, <strong>the "never confused" error contract.</strong> Send an unknown contact type and you get back <code>422 unknown_value</code> with the exact list of valid options; send a stale update and you get <code>412 version_conflict</code> telling you to re-fetch and reapply. The server's own instructions tell the agent to call <code>relm_describe_schema</code> first - the live schema (objects, fields, enum groups) is the source of truth, and if a needed enum value or custom field doesn't exist, the agent creates it (<code>relm_create_enum_value</code>, <code>relm_create_field</code>, <code>relm_create_type</code>) rather than improvising.</p>
+<p>Second, <strong>test mode is a sandbox, not a storage tier.</strong> <code>relm_test_</code> keys write to an isolated dataset that is free, invisible to billing and the dashboard, and auto-deleted 7 days after creation - an agent can rehearse a full pipeline-building sequence before a single <code>relm_live_</code> call touches production. OAuth grants always act on live data.</p>
+<p>Third, <strong>write safety is layered.</strong> Creates take an <code>Idempotency-Key</code> (a retry returns the original record), updates use optimistic concurrency (<code>If-Match</code> against a per-record <code>version</code>), and webhooks are HMAC-signed (<code>Relm-Signature: t=...,v1=...</code>) with retry backoff (1m/5m/30m/2h/6h) and dead-lettering after six attempts. Spend is capped explicitly - <code>relm_set_spend_cap</code> - and quota headers (<code>X-RateLimit-*</code>, <code>X-Quota-*</code>) ride every response.</p>
 <h2 id="tool-groups-41-tools-all-verified-from-the-public-toolslist">Tool Groups (41 tools, all verified from the public tools/list)<a class="headerlink" href="#tool-groups-41-tools-all-verified-from-the-public-toolslist" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li><strong>Schema first:</strong> <code>relm_describe_schema</code> (live objects, fields, enums), <code>relm_get_usage</code>, <code>relm_set_spend_cap</code></li>
@@ -10052,7 +10052,7 @@ Built by: Relm (relmcrm.com)
 <li><strong>Schema extension:</strong> <code>relm_create_enum_value</code>, <code>relm_create_field</code>, <code>relm_create_type</code></li>
 </ul>
 <h2 id="verification-aug-30-2026">Verification (Aug 30, 2026)<a class="headerlink" href="#verification-aug-30-2026" title="Anchor link to this section">&para;</a></h2>
-<p>Live probe against <code>https://api.relmcrm.com/mcp</code>: unauthenticated <code>initialize</code> returns <code>serverInfo: {"name": "relm", "title": "Relm CRM", "version": "0.17.1"}</code> with instructions to call <code>relm_describe_schema</code> first; unauthenticated <code>tools/list</code> returns the full 41-tool catalog (public discovery — <code>tools/call</code> requires a credential, returning 401 with OAuth metadata for a Connect flow).</p>
+<p>Live probe against <code>https://api.relmcrm.com/mcp</code>: unauthenticated <code>initialize</code> returns <code>serverInfo: {"name": "relm", "title": "Relm CRM", "version": "0.17.1"}</code> with instructions to call <code>relm_describe_schema</code> first; unauthenticated <code>tools/list</code> returns the full 41-tool catalog (public discovery - <code>tools/call</code> requires a credential, returning 401 with OAuth metadata for a Connect flow).</p>
 <h2 id="notes-and-caveats">Notes and Caveats<a class="headerlink" href="#notes-and-caveats" title="Anchor link to this section">&para;</a></h2>
 <ul>
 <li>Keys are shown once and SHA-256 hashed at rest; <code>live</code> and <code>test</code> variants never cross data.</li>

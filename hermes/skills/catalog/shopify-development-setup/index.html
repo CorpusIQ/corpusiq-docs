@@ -10067,13 +10067,13 @@
 <strong>First Seen:</strong> Sep 8, 2026 sweep (uncatalogued high-install skill from the partially-covered AAS cluster)
 <strong>Quality Tier:</strong> 🟢 Production (Gen Agent Trust Hub Pass / Socket Pass / Snyk Pass)</p>
 <p>A routing playbook for building on the Shopify platform: apps (OAuth, GraphQL Admin API, webhooks, billing), UI extensions (checkout, admin, POS with Polaris components), and themes (Liquid templating, sections, snippets). It ships GraphQL templates validated against the Shopify Admin API 2026-01 schema via the official Shopify MCP, Python scaffolding scripts, and per-path reference docs. It comes from Agentic Awesome Skills (AAS), one of the largest community skill catalogs on skills.sh, but sits outside the 37-skill roster in the AAS cluster setup guide, so it gets its own guide here.</p>
-<p><strong>Compatibility note:</strong> in the repo the skill lives under <code>plugins/agentic-awesome-skills-claude/</code> (a Claude Code packaging directory), but the SKILL.md itself is standard Agent Skills format with no platform binding — it loads natively in Hermes Agent like any other skill.</p>
+<p><strong>Compatibility note:</strong> in the repo the skill lives under <code>plugins/agentic-awesome-skills-claude/</code> (a Claude Code packaging directory), but the SKILL.md itself is standard Agent Skills format with no platform binding - it loads natively in Hermes Agent like any other skill.</p>
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
 <p>Selective install via the skills.sh CLI:</p>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>sickn33/agentic-awesome-skills<span class="w"> </span>--skill<span class="w"> </span>shopify-development
 </code></pre></div>
-<p>Manual install (proven path — keeps the bundle intact, mirrors the repo layout):</p>
+<p>Manual install (proven path - keeps the bundle intact, mirrors the repo layout):</p>
 <div class="highlight"><pre><span></span><code>mkdir<span class="w"> </span>-p<span class="w"> </span>~/.hermes/skills/shopify-development/references<span class="w"> </span>~/.hermes/skills/shopify-development/scripts
 <span class="nv">BASE</span><span class="o">=</span>https://raw.githubusercontent.com/sickn33/agentic-awesome-skills/main/plugins/agentic-awesome-skills-claude/skills/shopify-development
 curl<span class="w"> </span>-sL<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$BASE</span><span class="s2">/SKILL.md&quot;</span><span class="w"> </span>-o<span class="w"> </span>~/.hermes/skills/shopify-development/SKILL.md
@@ -10083,7 +10083,7 @@ curl<span class="w"> </span>-sL<span class="w"> </span><span class="s2">&quot;</
 curl<span class="w"> </span>-sL<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$BASE</span><span class="s2">/scripts/shopify_init.py&quot;</span><span class="w"> </span>-o<span class="w"> </span>~/.hermes/skills/shopify-development/scripts/shopify_init.py
 curl<span class="w"> </span>-sL<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$BASE</span><span class="s2">/scripts/shopify_graphql.py&quot;</span><span class="w"> </span>-o<span class="w"> </span>~/.hermes/skills/shopify-development/scripts/shopify_graphql.py
 </code></pre></div>
-<p>Full-catalog install (all 2,025 skills — heavy; see the AAS cluster guide):</p>
+<p>Full-catalog install (all 2,025 skills - heavy; see the AAS cluster guide):</p>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>sickn33/agentic-awesome-skills
 </code></pre></div>
 <h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Anchor link to this section">&para;</a></h2>
@@ -10101,7 +10101,7 @@ curl<span class="w"> </span>-sL<span class="w"> </span><span class="s2">&quot;</
 </tr>
 <tr>
 <td><strong>Shopify CLI</strong></td>
-<td><code>npm install -g @shopify/cli@latest</code> — required for app, extension, and theme workflows</td>
+<td><code>npm install -g @shopify/cli@latest</code> - required for app, extension, and theme workflows</td>
 </tr>
 <tr>
 <td><strong>Shopify Partner account</strong></td>
@@ -10160,7 +10160,7 @@ curl<span class="w"> </span>-sL<span class="w"> </span><span class="s2">&quot;</
 <ol>
 <li>Install the Shopify CLI and the skill (above)</li>
 <li>Scaffold: <code>shopify app init</code> (or <code>shopify theme init</code> for theme-only work)</li>
-<li>Describe the goal to the agent — the skill's routing section decides app vs extension vs theme, including combined App + Theme Extension builds</li>
+<li>Describe the goal to the agent - the skill's routing section decides app vs extension vs theme, including combined App + Theme Extension builds</li>
 <li>Pull specifics from the matching reference file (OAuth/webhooks/billing for apps, extension types for UI work, Liquid architecture for themes)</li>
 <li>Develop with <code>shopify app dev</code> (tunneled dev server) and ship with <code>shopify app deploy</code></li>
 </ol>
@@ -10188,7 +10188,7 @@ python3<span class="w"> </span>scripts/shopify_graphql.py
 </tr>
 <tr>
 <td><strong>E-commerce operator support</strong></td>
-<td>Answer merchant questions with working knowledge of custom app, checkout, and theme development paths — the core CorpusIQ ICP</td>
+<td>Answer merchant questions with working knowledge of custom app, checkout, and theme development paths - the core CorpusIQ ICP</td>
 </tr>
 <tr>
 <td><strong>Feature prototyping</strong></td>
@@ -10206,10 +10206,10 @@ python3<span class="w"> </span>scripts/shopify_graphql.py
 </table>
 <h2 id="limitations-verification">Limitations / Verification<a class="headerlink" href="#limitations-verification" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Path quirk:</strong> the repo stores this skill under <code>plugins/agentic-awesome-skills-claude/</code> (Claude Code packaging), but the SKILL.md is platform-agnostic Agent Skills format — use the raw-URL paths above, not the AAS cluster guide's <code>skills/&lt;name&gt;/</code> paths</li>
+<li><strong>Path quirk:</strong> the repo stores this skill under <code>plugins/agentic-awesome-skills-claude/</code> (Claude Code packaging), but the SKILL.md is platform-agnostic Agent Skills format - use the raw-URL paths above, not the AAS cluster guide's <code>skills/&lt;name&gt;/</code> paths</li>
 <li><strong>Slow listing:</strong> <code>npx skills add sickn33/agentic-awesome-skills --list</code> on the full 2,025-skill repo is slow; use the skills.sh product page as the fast reference</li>
 <li><strong>Schema pin:</strong> GraphQL templates are validated against Admin API 2026-01; re-validate against newer API versions if a query errors</li>
-<li><strong>Full-catalog install pulls 2,025 skills</strong> — prefer selective or manual install</li>
+<li><strong>Full-catalog install pulls 2,025 skills</strong> - prefer selective or manual install</li>
 </ul>
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify skill installed</span>
 ls<span class="w"> </span>~/.hermes/skills/shopify-development/SKILL.md
@@ -10243,12 +10243,12 @@ shopify<span class="w"> </span>version
 </table>
 <h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/agentic-awesome-skills-setup">Agentic Awesome Skills (AAS) - 2,000+ Skill Catalog Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/shopify">Shopify Skills (official Shopify AI Toolkit)</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/nexscope-ecommerce-skills-setup">Nexscope E-Commerce Skills - Shopify, Etsy, TikTok Shop Setup</a></li>
+<li><a href="/docs/hermes/skills/catalog/agentic-awesome-skills-setup">Agentic Awesome Skills (AAS) - 2,000+ Skill Catalog Setup</a></li>
+<li><a href="/docs/hermes/skills/catalog/shopify">Shopify Skills (official Shopify AI Toolkit)</a></li>
+<li><a href="/docs/hermes/skills/catalog/nexscope-ecommerce-skills-setup">Nexscope E-Commerce Skills - Shopify, Etsy, TikTok Shop Setup</a></li>
 </ul>
 <hr />
-<p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace">Marketplace</a> →</em>
+<p><em>← <a href="/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="/docs/hermes/skills/marketplace">Marketplace</a> →</em>
 <em>Powered by CorpusIQ</em></p>
 
 

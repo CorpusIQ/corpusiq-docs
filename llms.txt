@@ -50,18 +50,18 @@
 - [Calendly](https://www.corpusiq.io/docs/connectors/calendly): Your calendar tells one story; your booking link tells another. Calendly knows which prospects actually booked, who showed up, who canceled, and what.
 - [How to Connect ChatGPT to Your Business Data (2026 Guide)](https://www.corpusiq.io/docs/connectors/chatgpt-business-data-connector): 
 - [Close](https://www.corpusiq.io/docs/connectors/close): Close is where your outbound sales motion lives - leads, opportunities, and the calls and emails that move them forward. Connecting it lets CorpusIQ p
-- [Connect Airtable to Claude (Ask Your Databases in Plain English)](https://www.corpusiq.io/docs/connectors/connect-airtable-to-claude): 
-- [How to Connect GA4 to Claude (Ask Website Traffic in Plain English)](https://www.corpusiq.io/docs/connectors/connect-ga4-to-claude): 
-- [How to Connect Google Ads to Claude (Real ROAS, Real Answers)](https://www.corpusiq.io/docs/connectors/connect-google-ads-to-claude): 
-- [How to Connect HubSpot to Claude (Ask Your CRM in Plain English)](https://www.corpusiq.io/docs/connectors/connect-hubspot-to-claude): 
+- [Connect Airtable to Claude (Plain English Q&A)](https://www.corpusiq.io/docs/connectors/connect-airtable-to-claude): 
+- [How to Connect GA4 to Claude (Plain English Q&A)](https://www.corpusiq.io/docs/connectors/connect-ga4-to-claude): 
+- [How to Connect Google Ads to Claude (Plain English)](https://www.corpusiq.io/docs/connectors/connect-google-ads-to-claude): 
+- [How to Connect HubSpot to Claude (Plain English Q&A)](https://www.corpusiq.io/docs/connectors/connect-hubspot-to-claude): 
 - [Connect Klaviyo to ChatGPT (Live Email Data, No Exports)](https://www.corpusiq.io/docs/connectors/connect-klaviyo-to-chatgpt): 
-- [How to Connect Klaviyo to Claude (Ask Your Email Data Directly)](https://www.corpusiq.io/docs/connectors/connect-klaviyo-to-claude): 
-- [How to Connect LinkedIn Ads to Claude (Ask Campaign Data in English)](https://www.corpusiq.io/docs/connectors/connect-linkedin-ads-to-claude): 
+- [How to Connect Klaviyo to Claude (Plain English)](https://www.corpusiq.io/docs/connectors/connect-klaviyo-to-claude): 
+- [How to Connect LinkedIn Ads to Claude (Plain English)](https://www.corpusiq.io/docs/connectors/connect-linkedin-ads-to-claude): 
 - [Connect Meta Ads (Facebook + Instagram) to Claude](https://www.corpusiq.io/docs/connectors/connect-meta-ads-to-claude): 
-- [How to Connect QuickBooks to Claude (Ask Your Books in Plain English)](https://www.corpusiq.io/docs/connectors/connect-quickbooks-to-claude): 
+- [How to Connect QuickBooks to Claude (Plain English Q&A)](https://www.corpusiq.io/docs/connectors/connect-quickbooks-to-claude): 
 - [How to Connect Shopify to Claude (Live Data, No CSV Exports)](https://www.corpusiq.io/docs/connectors/connect-shopify-to-claude): 
 - [Connect Slack to Claude (Search and Analyze Your Workspace)](https://www.corpusiq.io/docs/connectors/connect-slack-to-claude): 
-- [Connect Stripe to Claude (Ask Your Payments in Plain English)](https://www.corpusiq.io/docs/connectors/connect-stripe-to-claude): 
+- [Connect Stripe to Claude (Plain English Q&A)](https://www.corpusiq.io/docs/connectors/connect-stripe-to-claude): 
 - [Constant Contact](https://www.corpusiq.io/docs/connectors/constantcontact): If Constant Contact is where your email lives, this connector pulls campaign performance and contact lists into the same view as your Shopify revenue.
 - [Azure Cosmos DB](https://www.corpusiq.io/docs/connectors/cosmosdb): Cosmos DB is often where the unglamorous-but-critical data lives: event logs, telemetry, user activity, IoT readings. Connecting it lets CorpusIQ run.
 - [Dropbox](https://www.corpusiq.io/docs/connectors/dropbox): A lot of operating context - contracts, past board updates, vendor invoices, design files - lives in Dropbox folders. Connecting Dropbox lets CorpusIQ

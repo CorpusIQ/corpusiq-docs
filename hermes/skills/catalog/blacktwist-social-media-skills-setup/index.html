@@ -23,7 +23,7 @@
     
     
   
-    <title>Blacktwist Social Media Skills - 14-Skill Content Suite Setup for Hermes Agents</title>
+    <title>Blacktwist Social Media Skills - 14-Skill Content Suite</title>
   
 
     
@@ -71,13 +71,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.corpusiq.io/docs/hermes/skills/catalog/blacktwist-social-media-skills-setup">
   <meta property="og:site_name" content="CorpusIQ Docs">
-  <meta property="og:title" content="Blacktwist Social Media Skills - 14-Skill Content Suite Setup for Hermes Agents">
+  <meta property="og:title" content="Blacktwist Social Media Skills - 14-Skill Content Suite">
   <meta property="og:description" content="blacktwist/social-media-skills - 14 Agent Skills for social media content strategy, creation, and analysis across LinkedIn, X, Threads, Bluesky, Instagram">
   <meta property="og:image" content="https://www.corpusiq.io/og-default.png">
   <meta property="og:image:alt" content="CorpusIQ Docs">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Blacktwist Social Media Skills - 14-Skill Content Suite Setup for Hermes Agents">
+  <meta name="twitter:title" content="Blacktwist Social Media Skills - 14-Skill Content Suite">
   <meta name="twitter:description" content="blacktwist/social-media-skills - 14 Agent Skills for social media content strategy, creation, and analysis across LinkedIn, X, Threads, Bluesky, Instagram">
   <meta name="twitter:image" content="https://www.corpusiq.io/og-default.png">
   
@@ -107,7 +107,7 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "name": "Blacktwist Social Media Skills - 14-Skill Content Suite Setup for Hermes Agents",
+    "name": "Blacktwist Social Media Skills - 14-Skill Content Suite",
     "description": "blacktwist/social-media-skills - 14 Agent Skills for social media content strategy, creation, and analysis across LinkedIn, X, Threads, Bluesky, Instagram",
     "url": "https://www.corpusiq.io/docs/hermes/skills/catalog/blacktwist-social-media-skills-setup",
     
@@ -212,7 +212,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Blacktwist Social Media Skills - 14-Skill Content Suite Setup for Hermes Agents
+              Blacktwist Social Media Skills - 14-Skill Content Suite
             
           </span>
         </div>
@@ -10069,7 +10069,7 @@
 <p>A 14-skill suite that turns an agent into a social media content engine: platform context capture, content strategy and calendaring, per-platform post/thread/carousel/caption writing, hook generation, content repurposing, and performance analysis. Built for text-first platforms (LinkedIn, X, Threads, Bluesky) with dedicated caption support for visual-first platforms (Instagram, TikTok, Facebook, Pinterest, YouTube). Every skill is standard Agent Skills format (SKILL.md) with no platform binding.</p>
 <hr />
 <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Anchor link to this section">&para;</a></h2>
-<p>Selective install via the skills.sh CLI (recommended — pick only what you need):</p>
+<p>Selective install via the skills.sh CLI (recommended - pick only what you need):</p>
 <div class="highlight"><pre><span></span><code>npx<span class="w"> </span>skills<span class="w"> </span>add<span class="w"> </span>blacktwist/social-media-skills<span class="w"> </span>--skill<span class="w"> </span>post-writer-sms<span class="w"> </span>hook-writer-sms
 </code></pre></div>
 <p>Full-suite install (all 14 skills):</p>
@@ -10102,7 +10102,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>social-media-skills/skills/*
 </tr>
 <tr>
 <td><strong>Platform context</strong></td>
-<td>The suite is prompt-driven; no API keys required — supply platform handles, audience details, and content pillars to <code>social-media-context-sms</code> once</td>
+<td>The suite is prompt-driven; no API keys required - supply platform handles, audience details, and content pillars to <code>social-media-context-sms</code> once</td>
 </tr>
 </tbody>
 </table>
@@ -10117,7 +10117,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>social-media-skills/skills/*
 <tbody>
 <tr>
 <td><strong>Foundation</strong></td>
-<td><code>social-media-context-sms</code> — captures platform context, audience details, content pillars, tone preferences used by every other skill</td>
+<td><code>social-media-context-sms</code> - captures platform context, audience details, content pillars, tone preferences used by every other skill</td>
 </tr>
 <tr>
 <td><strong>Strategy</strong></td>
@@ -10136,8 +10136,8 @@ cp<span class="w"> </span>-r<span class="w"> </span>social-media-skills/skills/*
 <h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Anchor link to this section">&para;</a></h2>
 <ol>
 <li>Install the skills (above)</li>
-<li>Run <code>social-media-context-sms</code> first — feed it platform handles, audience, pillars, and tone</li>
-<li>Ask for a post ("write a LinkedIn post about X") — the agent auto-selects <code>post-writer-sms</code>, <code>thread-writer-sms</code>, or <code>carousel-writer-sms</code> by request shape</li>
+<li>Run <code>social-media-context-sms</code> first - feed it platform handles, audience, pillars, and tone</li>
+<li>Ask for a post ("write a LinkedIn post about X") - the agent auto-selects <code>post-writer-sms</code>, <code>thread-writer-sms</code>, or <code>carousel-writer-sms</code> by request shape</li>
 <li>Iterate with <code>optimization-advisor-sms</code> and track with <code>performance-analyzer-sms</code></li>
 </ol>
 <h2 id="corpusiq-use-cases">CorpusIQ Use Cases<a class="headerlink" href="#corpusiq-use-cases" title="Anchor link to this section">&para;</a></h2>
@@ -10159,7 +10159,7 @@ cp<span class="w"> </span>-r<span class="w"> </span>social-media-skills/skills/*
 </tr>
 <tr>
 <td><strong>Help-first UGC</strong></td>
-<td>Operator-problem posts drafted fast with <code>hook-writer-sms</code> + <code>post-writer-sms</code> — the help-first doctrine applied at draft time</td>
+<td>Operator-problem posts drafted fast with <code>hook-writer-sms</code> + <code>post-writer-sms</code> - the help-first doctrine applied at draft time</td>
 </tr>
 <tr>
 <td><strong>Growth experiments</strong></td>
@@ -10169,8 +10169,8 @@ cp<span class="w"> </span>-r<span class="w"> </span>social-media-skills/skills/*
 </table>
 <h2 id="limitations-verification">Limitations / Verification<a class="headerlink" href="#limitations-verification" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><strong>Repo cadence:</strong> last pushed May 2026 — content reflects platform norms as of then; treat platform-specific claims (character limits, format rules) as re-verifiable</li>
-<li><strong>Prompt-workflow skills:</strong> no API bindings — analysis skills read pasted/exported data rather than platform APIs</li>
+<li><strong>Repo cadence:</strong> last pushed May 2026 - content reflects platform norms as of then; treat platform-specific claims (character limits, format rules) as re-verifiable</li>
+<li><strong>Prompt-workflow skills:</strong> no API bindings - analysis skills read pasted/exported data rather than platform APIs</li>
 <li><strong>Alias noise on skills.sh:</strong> the 7 extra 1-install listings (e.g. <code>post-writer</code> vs <code>post-writer-sms</code>) are index aliases; the 14 <code>-sms</code> skills are the real ones</li>
 </ul>
 <div class="highlight"><pre><span></span><code><span class="c1"># Verify skill installed</span>
@@ -10202,12 +10202,12 @@ ls<span class="w"> </span>~/.hermes/skills/post-writer-sms/SKILL.md
 </table>
 <h2 id="related">Related<a class="headerlink" href="#related" title="Anchor link to this section">&para;</a></h2>
 <ul>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/charlie-hills-social-media-skills-setup">Charlie Hills Social Media Skills - 17-Skill Content System Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/catalog/marketing-mindset-setup">Marketing Mindset - B2B Marketing OS for AI Agents Setup</a></li>
-<li><a href="https://www.corpusiq.io/docs/hermes/skills/marketplace">Social Media - Skills Marketplace</a></li>
+<li><a href="/docs/hermes/skills/catalog/charlie-hills-social-media-skills-setup">Charlie Hills Social Media Skills - 17-Skill Content System Setup</a></li>
+<li><a href="/docs/hermes/skills/catalog/marketing-mindset-setup">Marketing Mindset - B2B Marketing OS for AI Agents Setup</a></li>
+<li><a href="/docs/hermes/skills/marketplace">Social Media - Skills Marketplace</a></li>
 </ul>
 <hr />
-<p><em>← <a href="https://www.corpusiq.io/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="https://www.corpusiq.io/docs/hermes/skills/marketplace">Marketplace</a> →</em>
+<p><em>← <a href="/docs/hermes/skills/catalog">Skills Catalog</a> | <a href="/docs/hermes/skills/marketplace">Marketplace</a> →</em>
 <em>Powered by CorpusIQ</em></p>
 
 
