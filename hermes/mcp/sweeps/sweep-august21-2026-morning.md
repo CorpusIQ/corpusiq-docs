@@ -30,7 +30,7 @@ description: "chatmcp/mcpso GitHub issues filed Aug 21 07:22-09:47 UTC plus both
 
 ## Skipped (evaluated, consistent with prior decisions)
 
-- #3672 Kura - local Ethereum wallet for AI agents (macOS app, x402 payments). Pure x402 payment plumbing, same class as Vibes-Coded and 402oracle: skipped.
+- \#3672 Kura - local Ethereum wallet for AI agents (macOS app, x402 payments). Pure x402 payment plumbing, same class as Vibes-Coded and 402oracle: skipped.
 
 ## Catalog state
 

@@ -31,9 +31,9 @@ description: "chatmcp/mcpso GitHub issues filed Aug 19 16:03 through Aug 20 02:0
 
 ## Skipped (evaluated, consistent with prior decisions)
 
-- #3650 Front of Goal Odds Agent - soccer prediction-market data; sports skip precedent (footballcharts, livetennisapi)
-- #3652 Vibes-Coded - x402 pay-per-call agent utilities; infrastructure skip precedent (402oracle)
-- #3653 Krimskrams Paid APIs - npm package not yet published ("coming soon"), mixed grant-search and marketplace-admin scope, x402 wallet setup, submitted by an autonomous agent
+- \#3650 Front of Goal Odds Agent - soccer prediction-market data; sports skip precedent (footballcharts, livetennisapi)
+- \#3652 Vibes-Coded - x402 pay-per-call agent utilities; infrastructure skip precedent (402oracle)
+- \#3653 Krimskrams Paid APIs - npm package not yet published ("coming soon"), mixed grant-search and marketplace-admin scope, x402 wallet setup, submitted by an autonomous agent
 - 60fps Design MCP - motion-reference design niche
 - MindMap AI MCP - consumer mind-mapping niche
 - FlightPowers hotel support - thin vendor support surface

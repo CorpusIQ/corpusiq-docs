@@ -2809,7 +2809,7 @@ Extract timestamped YouTube transcripts, video search, metadata, and related-vid
 Hosted YouTube MCP for Claude & Cursor - video search, metadata, transcripts, and content intelligence. No local setup. `npx mcp-remote https://tubask.app/mcp` · [Integration Guide](/hermes/mcp/servers/external/tubask-mcp/)
 
 ### The Agent Times MCP ★ New ★ Featured
-#1 Agent News MCP on ClawHub & Smithery  --  real-time agent economy news, 6 tools, ed25519-signed articles, Bitcoin rewards for agent contributions. Streamable HTTP + JSON-RPC 2.0 at `theagenttimes.com/mcp`. Firehose, RSS, llms.txt feeds for agents. Essential for operators tracking the AI agent ecosystem in real time.
+\#1 Agent News MCP on ClawHub & Smithery  --  real-time agent economy news, 6 tools, ed25519-signed articles, Bitcoin rewards for agent contributions. Streamable HTTP + JSON-RPC 2.0 at `theagenttimes.com/mcp`. Firehose, RSS, llms.txt feeds for agents. Essential for operators tracking the AI agent ecosystem in real time.
 
 ### Hacker News MCP ★ by NeCL
 Access Hacker News data for AI agents: top stories, story details, comments thread, full-text search via Algolia. No API key required  --  public HN API. Built for content research, trend monitoring, and prompt enrichment. By Neural Engineering & Cognitive Logic (neclco.com).

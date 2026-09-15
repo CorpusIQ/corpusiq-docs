@@ -42,11 +42,11 @@ description: "chatmcp/mcpso GitHub issues filed Aug 20 10:44 through 16:42 UTC p
 
 ## Skipped (evaluated, consistent with prior decisions)
 
-- #3656 Proactive Vault - personal CRM for macOS; GitHub repo 404 at evaluation time (not consumable)
-- #3659 Wondel Skills - skill-loader dev tool
-- #3660 AI Developer Toolkit - AI-dev guide search (dev tool)
-- #3661 2anki - consumer Anki-deck converter
-- #3662 Fine Structure - full-stack app builder (dev)
+- \#3656 Proactive Vault - personal CRM for macOS; GitHub repo 404 at evaluation time (not consumable)
+- \#3659 Wondel Skills - skill-loader dev tool
+- \#3660 AI Developer Toolkit - AI-dev guide search (dev tool)
+- \#3661 2anki - consumer Anki-deck converter
+- \#3662 Fine Structure - full-stack app builder (dev)
 - /all slugs: Clio for Creatio (platform dev tool), GlianaAI (x402 model-gateway infra), RiverScript (transcript-fetch niche), MarkIt (personal bookmarking), FaceSign (step-up verification dev flows), POB (Path of Exile gaming), Chamnan (Claude Code security plugin), AST (TypeScript dev), AgentTrust (XRPL blockchain referee), Agentic HIL (embedded hardware dev), Seedfast (synthetic test data), HTTP 402 AI Tollbooth (x402 infra), QR Planet (QR-code design utility)
 - Repeats already catalogued or previously skipped: Booking.com Hotel Search (FlightPowers thin surface), Football Charts (sports precedent), 60fps, MindMap AI, Vital Care Finder, CSOAI GSPC, Waqi, Bitroad, 3gpp-mcp
 

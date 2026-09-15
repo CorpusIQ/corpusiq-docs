@@ -41,9 +41,9 @@ description: "mcp.so Feed + mcpservers.org /all TanStack state + chatmcp/mcpso i
 
 ## Skipped (evaluated, consistent with prior decisions)
 
-- #3673 TaskMarket (x402 worker-market infrastructure - consistent with Vibes-Coded/402oracle skips)
-- #3676 rasterly (Firecrawl alternative - saturated web-scraping category, consistent with cute-web-scraper skip)
-- #3677 Magpie Capital (Solana lending - crypto, consistent with CoinLobster skip)
+- \#3673 TaskMarket (x402 worker-market infrastructure - consistent with Vibes-Coded/402oracle skips)
+- \#3676 rasterly (Firecrawl alternative - saturated web-scraping category, consistent with cute-web-scraper skip)
+- \#3677 Magpie Capital (Solana lending - crypto, consistent with CoinLobster skip)
 - Skycloak (128-tool Keycloak IAM management - dev/IT infra, not business-operator tooling)
 - Parse.bot (browser-automation API builder - saturated category)
 - AdminLanding (France/Switzerland rental-compliance - geo-niche, consistent with Saymon RU and eCourts India skips)

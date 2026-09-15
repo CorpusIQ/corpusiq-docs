@@ -30,8 +30,8 @@ description: "chatmcp/mcpso GitHub issues filed Aug 20 20:13 through Aug 21 00:4
 
 ## Skipped (evaluated, consistent with prior decisions)
 
-- #3665 no_human - local stdio coding-task bridge (dev tool)
-- #3667 klo-mcp - native macOS video editor (creator/consumer tool)
+- \#3665 no_human - local stdio coding-task bridge (dev tool)
+- \#3667 klo-mcp - native macOS video editor (creator/consumer tool)
 - thefomite-com-mcp - agent community infra (durable memory, message board, peer oracle)
 - ego-lite-browser - browser automation for coding agents (dev tool)
 - kogiQA (atagon-gmbh/kogiqa-mcp) - browser tool for coding agents (dev tool)
