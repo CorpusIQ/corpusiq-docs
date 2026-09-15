@@ -14893,5 +14893,33 @@
     "tier": "HIGH_PRIORITY",
     "action": "pending_review",
     "timestamp": "2026-09-15T06:04:32.863629+00:00"
+  },
+  {
+    "repo": "ss-vip/hermes-agent-soul",
+    "score": 44,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T07:03:26.027606+00:00"
+  },
+  {
+    "repo": "irf4an/hermes-custom-agent",
+    "score": 47,
+    "tier": "REVIEW",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T07:03:26.027621+00:00"
+  },
+  {
+    "repo": "invoicedataextraction/mcp",
+    "score": 55,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T07:03:26.027623+00:00"
+  },
+  {
+    "repo": "kevincolten/hermes-mcp-remote",
+    "score": 52,
+    "tier": "HIGH_PRIORITY",
+    "action": "pending_review",
+    "timestamp": "2026-09-15T07:03:26.027625+00:00"
   }
 ]
